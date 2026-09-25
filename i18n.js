@@ -70,6 +70,7 @@
 
   let lang = fromAddress() || fromStorage() || fromBrowser() || SOURCE;
   root.lang = lang;
+  updateCanonical(); // <head> is parsed down to this script, the hreflang alternates included
 
   const info = (code) => LANGUAGES.find((l) => l.code === code) || LANGUAGES[0];
 
@@ -240,10 +241,20 @@
     updateCanonical();
   }
 
-  // ?lang= pages are the hreflang alternates: each is its own canonical page.
+  // ?lang= pages are the hreflang alternates: each is its own canonical page. The link is made
+  // here and not written in index.html: one there would name the English page as canonical for
+  // every ?lang= page until this script changed it, and search engines then drop the page's
+  // hreflang. The address comes from the x-default alternate.
   function updateCanonical() {
-    const link = document.querySelector('link[rel="canonical"]');
-    if (!link) return;
+    let link = document.querySelector('link[rel="canonical"]');
+    if (!link) {
+      const home = document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+      if (!home) return;
+      link = document.createElement('link');
+      link.rel = 'canonical';
+      link.dataset.base = home.getAttribute('href').split('?')[0];
+      document.head.appendChild(link);
+    }
     if (!link.dataset.base) link.dataset.base = link.getAttribute('href').split('?')[0];
     const chosen = fromAddress();
     link.setAttribute('href', chosen ? `${link.dataset.base}?lang=${chosen}` : link.dataset.base);
