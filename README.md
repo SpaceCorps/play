@@ -13,6 +13,7 @@ also update `release.json` (version, sizes and SHA-256 of every package) that th
 | file | |
 |---|---|
 | `index.html`, `style.css`, `app.js` | the page: no frameworks, no trackers, no cookies |
+| `i18n.js`, `i18n/<language>.json` | the game's ten languages: `?lang=de`, the menu, else the browser's; see [i18n/README.md](i18n/README.md), check with `python3 i18n/check.py` |
 | `release.json` | the latest release's packages, written at release time |
 | `img/` | screenshots taken headless from the game (WebP) and icons |
 

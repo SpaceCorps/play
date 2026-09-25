@@ -3,11 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SpaceCorps 2027 · Download</title>
-<meta name="description" content="Download SpaceCorps 2027, a space MMO for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking.">
+<title data-i18n="meta.title">SpaceCorps 2027 · Download</title>
+<meta name="description" content="Download SpaceCorps 2027, a space MMO for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking." data-i18n-content="meta.description">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#141312">
 <link rel="canonical" href="https://spacecorps.github.io/play/">
+<link rel="alternate" hreflang="x-default" href="https://spacecorps.github.io/play/">
+<link rel="alternate" hreflang="en" href="https://spacecorps.github.io/play/?lang=en">
+<link rel="alternate" hreflang="de" href="https://spacecorps.github.io/play/?lang=de">
+<link rel="alternate" hreflang="es" href="https://spacecorps.github.io/play/?lang=es">
+<link rel="alternate" hreflang="fr" href="https://spacecorps.github.io/play/?lang=fr">
+<link rel="alternate" hreflang="pt-BR" href="https://spacecorps.github.io/play/?lang=pt-BR">
+<link rel="alternate" hreflang="sv" href="https://spacecorps.github.io/play/?lang=sv">
+<link rel="alternate" hreflang="ru" href="https://spacecorps.github.io/play/?lang=ru">
+<link rel="alternate" hreflang="ja" href="https://spacecorps.github.io/play/?lang=ja">
+<link rel="alternate" hreflang="ko" href="https://spacecorps.github.io/play/?lang=ko">
+<link rel="alternate" hreflang="zh-CN" href="https://spacecorps.github.io/play/?lang=zh-CN">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <meta property="og:type" content="website">
@@ -20,10 +31,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="img/hero-ship-1190.webp" imagesrcset="img/hero-ship-640.webp 640w, img/hero-ship-1190.webp 1190w" imagesizes="(max-width: 760px) 100vw, 62vw">
 <link rel="stylesheet" href="style.css">
+<script src="i18n.js"></script>
 <script src="app.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 
 <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
@@ -40,24 +52,45 @@
   <symbol id="i-portal" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="2"/></symbol>
   <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
   <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
 </svg>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="#top" aria-label="SpaceCorps 2027, back to the top">
+    <a class="brand" href="#top" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
       <img src="img/icon-128.png" width="28" height="28" alt="">
-      <span>SpaceCorps <span class="brand-year">2027</span></span>
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
     </a>
-    <nav class="nav" aria-label="Sections">
-      <a href="#screenshots">Screenshots</a>
-      <a href="#features">Features</a>
-      <a href="#download">Download</a>
-      <a href="#help">Help</a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#download" data-i18n="nav.download">Download</a>
+      <a href="#help" data-i18n="nav.help">Help</a>
     </nav>
-    <a class="status" href="#server" data-status="checking" title="Game server status">
+    <a class="status" href="#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
       <span class="status-dot" aria-hidden="true"></span>
-      <span class="status-text" role="status" aria-live="polite">Server</span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
     </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
   </div>
 </header>
 
@@ -70,170 +103,170 @@
       </picture>
     </div>
     <div class="hero-copy">
-      <p class="eyebrow">Space MMO · Private beta</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Space MMO · Private beta</p>
       <h1 id="hero-title">SpaceCorps 2027</h1>
-      <p class="lede">Fly for a corporation, hunt aliens with your clan and climb the season ranking. A native game for macOS, Windows and Linux.</p>
+      <p class="lede" data-i18n="hero.lede">Fly for a corporation, hunt aliens with your clan and climb the season ranking. A native game for macOS, Windows and Linux.</p>
       <div class="cta">
         <a class="btn btn-primary btn-big" id="dl-main" href="#download">
           <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
           <span class="btn-stack">
-            <span class="btn-label" id="dl-main-label">Download</span>
+            <span class="btn-label" id="dl-main-label" data-i18n="hero.download">Download</span>
             <span class="btn-sub" id="dl-main-sub">macOS · Windows · Linux</span>
           </span>
         </a>
-        <a class="btn btn-secondary" href="#download" id="dl-other">All platforms</a>
+        <a class="btn btn-secondary" href="#download" id="dl-other" data-i18n="hero.all-platforms">All platforms</a>
       </div>
-      <p class="fineprint" id="dl-note">Free download. Needs an internet connection: the game plays on the SpaceCorps server.</p>
+      <p class="fineprint" id="dl-note" data-i18n="hero.note">Free download. Needs an internet connection: the game plays on the SpaceCorps server.</p>
     </div>
   </section>
 
   <section class="section" id="screenshots" aria-labelledby="shots-title">
     <div class="section-head">
-      <h2 id="shots-title">In the game</h2>
-      <p>Real frames from the client, rendered by its own engine.</p>
+      <h2 id="shots-title" data-i18n="shots.title">In the game</h2>
+      <p data-i18n="shots.lede">Real frames from the client, rendered by its own engine.</p>
     </div>
     <figure class="window shot-main">
       <div class="window-bar" aria-hidden="true"><span></span><span></span><span></span><em>SpaceCorps 2027</em></div>
       <a href="img/combat-1600.webp" class="shot-link">
-        <img src="img/combat-1600.webp" srcset="img/combat-800.webp 800w, img/combat-1600.webp 1600w" sizes="(max-width: 1160px) 100vw, 1120px" width="1600" height="900" loading="lazy" decoding="async" alt="Flight: the pilot's ship trades laser fire with a shielded Seeker alien over a red nebula, a ringed planet behind them and the HUD around the edges.">
+        <img src="img/combat-1600.webp" srcset="img/combat-800.webp 800w, img/combat-1600.webp 1600w" sizes="(max-width: 1160px) 100vw, 1120px" width="1600" height="900" loading="lazy" decoding="async" alt="Flight: the pilot's ship trades laser fire with a shielded Seeker alien over a red nebula, a ringed planet behind them and the HUD around the edges." data-i18n-alt="shots.combat.alt">
       </a>
-      <figcaption>Combat in sector M-1: lasers, return fire and shields against a Seeker.</figcaption>
+      <figcaption data-i18n="shots.combat.caption">Combat in sector M-1: lasers, return fire and shields against a Seeker.</figcaption>
     </figure>
     <ul class="shot-grid" role="list">
       <li><figure class="window">
-        <a href="img/station-1600.webp" class="shot-link"><img src="img/station-800.webp" srcset="img/station-800.webp 800w, img/station-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The pilot's ship flying over the giant ring of the Mission Control station, an explosion flaring on its hull."></a>
-        <figcaption>Mission Control, the company's station</figcaption>
+        <a href="img/station-1600.webp" class="shot-link"><img src="img/station-800.webp" srcset="img/station-800.webp 800w, img/station-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The pilot's ship flying over the giant ring of the Mission Control station, an explosion flaring on its hull." data-i18n-alt="shots.station.alt"></a>
+        <figcaption data-i18n="shots.station.caption">Mission Control, the company's station</figcaption>
       </figure></li>
       <li><figure class="window">
-        <a href="img/wraith-1600.webp" class="shot-link"><img src="img/wraith-800.webp" srcset="img/wraith-800.webp 800w, img/wraith-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The in-game wiki's Wraith page: the painted battleship turning on a holographic pad beside its specifications."></a>
-        <figcaption>The Wraith in the wiki's model viewer</figcaption>
+        <a href="img/wraith-1600.webp" class="shot-link"><img src="img/wraith-800.webp" srcset="img/wraith-800.webp 800w, img/wraith-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The in-game wiki's Wraith page: the painted battleship turning on a holographic pad beside its specifications." data-i18n-alt="shots.wraith.alt"></a>
+        <figcaption data-i18n="shots.wraith.caption">The Wraith in the wiki's model viewer</figcaption>
       </figure></li>
       <li><figure class="window">
-        <a href="img/hangar-1600.webp" class="shot-link"><img src="img/hangar-800.webp" srcset="img/hangar-800.webp 800w, img/hangar-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The hangar: a Protos in its bay, combat stats, laser and generator slots, and the inventory."></a>
-        <figcaption>Hangar: ships, configurations, equipment</figcaption>
+        <a href="img/hangar-1600.webp" class="shot-link"><img src="img/hangar-800.webp" srcset="img/hangar-800.webp 800w, img/hangar-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The hangar: a Protos in its bay, combat stats, laser and generator slots, and the inventory." data-i18n-alt="shots.hangar.alt"></a>
+        <figcaption data-i18n="shots.hangar.caption">Hangar: ships, configurations, equipment</figcaption>
       </figure></li>
       <li><figure class="window">
-        <a href="img/galaxy-1600.webp" class="shot-link"><img src="img/galaxy-800.webp" srcset="img/galaxy-800.webp 800w, img/galaxy-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The galaxy map: the three companies' sectors linked by jump routes around the PvP sectors in the middle."></a>
-        <figcaption>The star system: company sectors around the PvP core</figcaption>
+        <a href="img/galaxy-1600.webp" class="shot-link"><img src="img/galaxy-800.webp" srcset="img/galaxy-800.webp 800w, img/galaxy-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="800" height="450" loading="lazy" decoding="async" alt="The galaxy map: the three companies' sectors linked by jump routes around the PvP sectors in the middle." data-i18n-alt="shots.galaxy.alt"></a>
+        <figcaption data-i18n="shots.galaxy.caption">The star system: company sectors around the PvP core</figcaption>
       </figure></li>
     </ul>
   </section>
 
   <section class="section" id="features" aria-labelledby="features-title">
     <div class="section-head">
-      <h2 id="features-title">What's in it</h2>
-      <p>The SpaceCorps MMO, rebuilt as a native desktop game.</p>
+      <h2 id="features-title" data-i18n="features.title">What's in it</h2>
+      <p data-i18n="features.lede">The SpaceCorps MMO, rebuilt as a native desktop game.</p>
     </div>
     <ul class="features" role="list">
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-palette"/></svg>
-        <h3>Painted ships</h3>
-        <p>Protos, Paragon, Wraith and Ostirion carry their own liveries, panel lines, hull numbers and blinking navigation lights.</p>
+        <h3 data-i18n="features.ships.title">Painted ships</h3>
+        <p data-i18n="features.ships.text">Protos, Paragon, Wraith and Ostirion carry their own liveries, panel lines, hull numbers and blinking navigation lights.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-crosshair"/></svg>
-        <h3>Real-time combat</h3>
-        <p>Lasers, rockets, shields and drones against five alien species and other pilots, simulated by an authoritative server.</p>
+        <h3 data-i18n="features.combat.title">Real-time combat</h3>
+        <p data-i18n="features.combat.text">Lasers, rockets, shields and drones against five alien species and other pilots, simulated by an authoritative server.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-planet"/></svg>
-        <h3>Three corporations</h3>
-        <p>Fly for Mars Colonization, Terra Space Group or Galactic Ventures, and push into the PvP sectors at the heart of the map.</p>
+        <h3 data-i18n="features.corporations.title">Three corporations</h3>
+        <p data-i18n="features.corporations.text">Fly for Mars Colonization, Terra Space Group or Galactic Ventures, and push into the PvP sectors at the heart of the map.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-users"/></svg>
-        <h3>Clans</h3>
-        <p>Found or join a clan: members and ranks, a shared bank, clan levels, and diplomacy from treaties to war.</p>
+        <h3 data-i18n="features.clans.title">Clans</h3>
+        <p data-i18n="features.clans.text">Found or join a clan: members and ranks, a shared bank, clan levels, and diplomacy from treaties to war.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-hourglass"/></svg>
-        <h3>Seasons</h3>
-        <p>Thirty days from a fresh start to the Blackhole Eruption. Wipe points buy permanent boosts that outlast the reset.</p>
+        <h3 data-i18n="features.seasons.title">Seasons</h3>
+        <p data-i18n="features.seasons.text">Thirty days from a fresh start to the Blackhole Eruption. Wipe points buy permanent boosts that outlast the reset.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-portal"/></svg>
-        <h3>Galaxy Gates</h3>
-        <p>Materialize the 100 parts of the Chrono-Gate to open the Transport Cache and pick next season's sector.</p>
+        <h3 data-i18n="features.gates.title">Galaxy Gates</h3>
+        <p data-i18n="features.gates.text">Materialize the 100 parts of the Chrono-Gate to open the Transport Cache and pick next season's sector.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-cube"/></svg>
-        <h3>Crafting</h3>
-        <p>Craft and fuse equipment in the Assembly, and run Skylab station modules that produce resources.</p>
+        <h3 data-i18n="features.crafting.title">Crafting</h3>
+        <p data-i18n="features.crafting.text">Craft and fuse equipment in the Assembly, and run Skylab station modules that produce resources.</p>
       </li>
       <li class="card">
         <svg class="icon feature-icon" aria-hidden="true"><use href="#i-globe"/></svg>
-        <h3>Ten languages</h3>
-        <p>English, Deutsch, Español, Français, Português, Svenska, Русский, 日本語, 한국어 and 简体中文.</p>
+        <h3 data-i18n="features.languages.title">Ten languages</h3>
+        <p class="lang-list" data-i18n="features.languages.text">English, Deutsch, Español, Français, Português, Svenska, Русский, 日本語, 한국어 and 简体中文.</p>
       </li>
     </ul>
   </section>
 
   <section class="section" id="download" aria-labelledby="download-title">
     <div class="section-head">
-      <h2 id="download-title">Download</h2>
-      <p id="release-line">The latest release for every platform.</p>
+      <h2 id="download-title" data-i18n="download.title">Download</h2>
+      <p id="release-line" data-i18n="download.lede">The latest release for every platform.</p>
     </div>
     <p class="notice" id="release-notice" hidden></p>
     <ul class="platforms" role="list">
       <li class="card platform" data-asset="SpaceCorps2027-macos-universal.dmg" data-os="macos">
         <div class="platform-head">
           <svg class="icon" aria-hidden="true"><use href="#i-disk"/></svg>
-          <div><h3>macOS</h3><p>Apple silicon and Intel · disk image</p></div>
+          <div><h3>macOS</h3><p data-i18n="download.macos">Apple silicon and Intel · disk image</p></div>
         </div>
         <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg">
-          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Download .dmg</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".dmg"}'>Download .dmg</span>
         </a>
-        <dl class="facts"><dt>File</dt><dd class="file"><code title="SpaceCorps2027-macos-universal.dmg">SpaceCorps2027-macos-universal.dmg</code></dd><dt>Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-macos-universal.dmg">SpaceCorps2027-macos-universal.dmg</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
       <li class="card platform" data-asset="SpaceCorps2027-windows-x86_64.zip" data-os="windows">
         <div class="platform-head">
           <svg class="icon" aria-hidden="true"><use href="#i-archive"/></svg>
-          <div><h3>Windows</h3><p>Windows 10 and 11, x64 · zip</p></div>
+          <div><h3>Windows</h3><p data-i18n="download.windows">Windows 10 and 11, x64 · zip</p></div>
         </div>
         <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip">
-          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Download .zip</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".zip"}'>Download .zip</span>
         </a>
-        <dl class="facts"><dt>File</dt><dd class="file"><code title="SpaceCorps2027-windows-x86_64.zip">SpaceCorps2027-windows-x86_64.zip</code></dd><dt>Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-windows-x86_64.zip">SpaceCorps2027-windows-x86_64.zip</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
       <li class="card platform" data-asset="SpaceCorps2027-linux-x86_64.AppImage" data-os="linux">
         <div class="platform-head">
           <svg class="icon" aria-hidden="true"><use href="#i-cube"/></svg>
-          <div><h3>Linux</h3><p>x86_64 · AppImage, runs on most distributions</p></div>
+          <div><h3>Linux</h3><p data-i18n="download.appimage">x86_64 · AppImage, runs on most distributions</p></div>
         </div>
         <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage">
-          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Download AppImage</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": "AppImage"}'>Download AppImage</span>
         </a>
-        <dl class="facts"><dt>File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.AppImage">SpaceCorps2027-linux-x86_64.AppImage</code></dd><dt>Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.AppImage">SpaceCorps2027-linux-x86_64.AppImage</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
       <li class="card platform" data-asset="SpaceCorps2027-linux-x86_64.tar.gz" data-os="linux-tar">
         <div class="platform-head">
           <svg class="icon" aria-hidden="true"><use href="#i-archive"/></svg>
-          <div><h3>Linux</h3><p>x86_64 · tar.gz, unpack and run</p></div>
+          <div><h3>Linux</h3><p data-i18n="download.tar">x86_64 · tar.gz, unpack and run</p></div>
         </div>
         <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz">
-          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Download .tar.gz</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".tar.gz"}'>Download .tar.gz</span>
         </a>
-        <dl class="facts"><dt>File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.tar.gz">SpaceCorps2027-linux-x86_64.tar.gz</code></dd><dt>Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.tar.gz">SpaceCorps2027-linux-x86_64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
     </ul>
     <p class="subtle-links">
       <a href="https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS">SHA256SUMS</a>
       <span aria-hidden="true">·</span>
-      <a href="https://github.com/SpaceCorps/play/releases">All releases</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="download.all-releases">All releases</a>
     </p>
 
-    <h3 class="subhead" id="requirements">System requirements</h3>
+    <h3 class="subhead" id="requirements" data-i18n="reqs.title">System requirements</h3>
     <div class="table-wrap card">
       <table class="reqs">
-        <caption class="visually-hidden">Minimum system requirements per platform</caption>
-        <thead><tr><th scope="col"><span class="visually-hidden">Requirement</span></th><th scope="col">macOS</th><th scope="col">Windows</th><th scope="col">Linux</th></tr></thead>
+        <caption class="visually-hidden" data-i18n="reqs.caption">Minimum system requirements per platform</caption>
+        <thead><tr><th scope="col"><span class="visually-hidden" data-i18n="reqs.requirement">Requirement</span></th><th scope="col">macOS</th><th scope="col">Windows</th><th scope="col">Linux</th></tr></thead>
         <tbody>
-          <tr><th scope="row">System</th><td>macOS 12 Monterey or later</td><td>Windows 10 or 11, 64-bit</td><td>x86_64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td></tr>
-          <tr><th scope="row">Processor</th><td>Apple silicon or Intel</td><td>x86-64</td><td>x86-64</td></tr>
-          <tr><th scope="row">Graphics</th><td>Metal (every Mac that runs macOS 12)</td><td>DirectX 12 or Vulkan</td><td>Vulkan (Mesa 22 or a vendor driver)</td></tr>
-          <tr><th scope="row">Memory</th><td colspan="3">4 GB RAM, 8 GB recommended</td></tr>
-          <tr><th scope="row">Disk</th><td colspan="3">400 MB free</td></tr>
-          <tr><th scope="row">Network</th><td colspan="3">Broadband internet: SpaceCorps is online only</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.system">System</th><td data-i18n="reqs.system.macos">macOS 12 Monterey or later</td><td data-i18n="reqs.system.windows">Windows 10 or 11, 64-bit</td><td data-i18n="reqs.system.linux">x86_64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.cpu">Processor</th><td data-i18n="reqs.cpu.macos">Apple silicon or Intel</td><td>x86-64</td><td>x86-64</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.gpu">Graphics</th><td data-i18n="reqs.gpu.macos">Metal (every Mac that runs macOS 12)</td><td data-i18n="reqs.gpu.windows">DirectX 12 or Vulkan</td><td data-i18n="reqs.gpu.linux">Vulkan (Mesa 22 or a vendor driver)</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.memory">Memory</th><td colspan="3" data-i18n="reqs.memory">4 GB RAM, 8 GB recommended</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.disk">Disk</th><td colspan="3" data-i18n="reqs.disk">400 MB free</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.network">Network</th><td colspan="3" data-i18n="reqs.network">Broadband internet: SpaceCorps is online only</td></tr>
         </tbody>
       </table>
     </div>
@@ -241,40 +274,40 @@
 
   <section class="section" id="help" aria-labelledby="help-title">
     <div class="section-head">
-      <h2 id="help-title">First launch</h2>
-      <p>The builds aren't signed by Apple or Microsoft yet, so your system asks once before it opens the game.</p>
+      <h2 id="help-title" data-i18n="help.title">First launch</h2>
+      <p data-i18n="help.lede">The builds aren't signed by Apple or Microsoft yet, so your system asks once before it opens the game.</p>
     </div>
     <div class="help">
       <details class="card" id="help-macos">
-        <summary><h3>macOS: "can't be opened" or "not verified"</h3></summary>
+        <summary><h3 data-i18n="help.macos.title">macOS: "can't be opened" or "not verified"</h3></summary>
         <ol>
-          <li>Open the <code>.dmg</code> and drag <strong>SpaceCorps 2027</strong> onto <strong>Applications</strong>.</li>
-          <li><strong>macOS 15 Sequoia and newer:</strong> open the app once and click <em>Done</em>. Then open <em>System Settings › Privacy &amp; Security</em>, scroll to <em>"SpaceCorps 2027" was blocked</em> and click <strong>Open Anyway</strong>.</li>
-          <li><strong>macOS 12 to 14:</strong> right-click (or Control-click) the app, choose <strong>Open</strong>, then <strong>Open</strong> again.</li>
-          <li>Or, in Terminal:
-            <div class="code"><code id="cmd-mac">xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"</code><button class="copy" type="button" data-copy="#cmd-mac" aria-label="Copy the command"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div>
+          <li data-i18n="help.macos.install">Open the <code data-slot="dmg">.dmg</code> and drag <strong>SpaceCorps 2027</strong> onto <strong>Applications</strong>.</li>
+          <li data-i18n="help.macos.sequoia"><strong>macOS 15 Sequoia and newer:</strong> open the app once and click <em>Done</em>. Then open <em>System Settings › Privacy &amp; Security</em>, scroll to <em>"SpaceCorps 2027" was blocked</em> and click <strong>Open Anyway</strong>.</li>
+          <li data-i18n="help.macos.older"><strong>macOS 12 to 14:</strong> right-click (or Control-click) the app, choose <strong>Open</strong>, then <strong>Open</strong> again.</li>
+          <li><span data-i18n="help.macos.terminal">Or, in Terminal:</span>
+            <div class="code"><code id="cmd-mac">xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"</code><button class="copy" type="button" data-copy="#cmd-mac" aria-label="Copy the command" data-i18n-aria-label="help.copy-command"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div>
           </li>
         </ol>
       </details>
       <details class="card" id="help-windows">
-        <summary><h3>Windows: "Windows protected your PC"</h3></summary>
+        <summary><h3 data-i18n="help.windows.title">Windows: "Windows protected your PC"</h3></summary>
         <ol>
-          <li>Right-click the <code>.zip</code>, choose <strong>Extract All</strong>, and open the <em>SpaceCorps 2027</em> folder. Keep the <em>assets</em> folder next to the game.</li>
-          <li>Start <code>spacecorps2027.exe</code>. If SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+          <li data-i18n="help.windows.extract">Right-click the <code data-slot="zip">.zip</code>, choose <strong>Extract All</strong>, and open the <em>SpaceCorps 2027</em> folder. Keep the <em>assets</em> folder next to the game.</li>
+          <li data-i18n="help.windows.run">Start <code data-slot="exe">spacecorps2027.exe</code>. If SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
         </ol>
       </details>
       <details class="card" id="help-linux">
-        <summary><h3>Linux: make the AppImage executable</h3></summary>
+        <summary><h3 data-i18n="help.linux.title">Linux: make the AppImage executable</h3></summary>
         <ol>
-          <li>Mark it executable, then start it (or use your file manager's <em>Properties › Allow executing as program</em>):
-            <div class="code"><code id="cmd-linux">chmod +x SpaceCorps2027-linux-x86_64.AppImage &amp;&amp; ./SpaceCorps2027-linux-x86_64.AppImage</code><button class="copy" type="button" data-copy="#cmd-linux" aria-label="Copy the command"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div>
+          <li><span data-i18n="help.linux.chmod">Mark it executable, then start it (or use your file manager's <em>Properties › Allow executing as program</em>):</span>
+            <div class="code"><code id="cmd-linux">chmod +x SpaceCorps2027-linux-x86_64.AppImage &amp;&amp; ./SpaceCorps2027-linux-x86_64.AppImage</code><button class="copy" type="button" data-copy="#cmd-linux" aria-label="Copy the command" data-i18n-aria-label="help.copy-command"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div>
           </li>
-          <li>No FUSE on your system? Run it with <code>--appimage-extract-and-run</code>, or take the <code>.tar.gz</code>: unpack it and start <code>SpaceCorps2027/spacecorps2027</code>.</li>
+          <li data-i18n="help.linux.fuse">No FUSE on your system? Run it with <code data-slot="flag">--appimage-extract-and-run</code>, or take the <code data-slot="tar">.tar.gz</code>: unpack it and start <code data-slot="binary">SpaceCorps2027/spacecorps2027</code>.</li>
         </ol>
       </details>
       <details class="card" id="help-verify">
-        <summary><h3>Check a download</h3></summary>
-        <p>Compare the file's SHA-256 with the one listed above:</p>
+        <summary><h3 data-i18n="help.verify.title">Check a download</h3></summary>
+        <p data-i18n="help.verify.text">Compare the file's SHA-256 with the one listed above:</p>
         <ul class="plain">
           <li>macOS: <code>shasum -a 256 SpaceCorps2027-macos-universal.dmg</code></li>
           <li>Windows (PowerShell): <code>Get-FileHash SpaceCorps2027-windows-x86_64.zip</code></li>
@@ -282,9 +315,9 @@
         </ul>
       </details>
       <details class="card" id="server">
-        <summary><h3>Game server</h3></summary>
-        <p>The game connects to <code class="server-url">https://spacecorps-game.sliplane.app</code> <span class="status-inline" data-status="checking"><span class="status-dot" aria-hidden="true"></span><span class="status-text">checking…</span></span>. To play on another SpaceCorps server, click <em>Change server</em> under the login card, or go to <em>Settings › Account › Server</em>.</p>
-        <p>Your login and settings are kept in <code>~/.spacecorps2027</code> (<code>%USERPROFILE%\.spacecorps2027</code> on Windows).</p>
+        <summary><h3 data-i18n="help.server.title">Game server</h3></summary>
+        <p data-i18n="help.server.connects">The game connects to <code class="server-url" data-slot="url">https://spacecorps-game.sliplane.app</code> <span class="status-inline" data-slot="status" data-status="checking"><span class="status-dot" aria-hidden="true"></span><span class="status-text" data-i18n="status.inline.checking">checking…</span></span>. To play on another SpaceCorps server, click <em>Change server</em> under the login card, or go to <em>Settings › Account › Server</em>.</p>
+        <p data-i18n="help.server.files">Your login and settings are kept in <code data-slot="home">~/.spacecorps2027</code> (<code data-slot="windows">%USERPROFILE%\.spacecorps2027</code> on Windows).</p>
       </details>
     </div>
   </section>
@@ -296,12 +329,12 @@
       <img src="img/icon-128.png" width="24" height="24" alt="">
       <span>SpaceCorps © 2026</span>
     </div>
-    <nav class="footer-links" aria-label="Elsewhere">
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
       <a href="https://discord.gg/dFe3NERrm2">Discord</a>
-      <a href="https://github.com/SpaceCorps/play/releases">Releases</a>
-      <a href="https://github.com/SpaceCorps/play/issues">Report a problem</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
     </nav>
-    <p class="footer-note">Built on the Space3d engine. No cookies, no trackers: this page only asks the game server whether it is up.</p>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
   </div>
 </footer>
 </body>
