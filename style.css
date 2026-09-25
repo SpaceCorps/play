@@ -363,9 +363,16 @@ p, li, figcaption, td { text-wrap: pretty; }
 }
 
 /* Phones: the name without the year, then the icon alone, so the server status and the
-   language menu keep their room in every language. */
+   language menu keep their room in every language. The bar gets a little tighter so the
+   longest status texts fit at 375 px (French "Serveur hors ligne", Japanese サーバー応答なし),
+   and should one still not fit, it ends in an ellipsis instead of pushing the language menu
+   off the screen. */
 @media (max-width: 440px) {
+  .topbar-inner { gap: 6px; }
   .brand-year { display: none; }
+  .status { min-width: 0; gap: 6px; padding: 5px 8px 5px 7px; font-size: 12px; }
+  .status-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .lang > summary { padding: 0 5px 0 7px; }
 }
 @media (max-width: 374px) {
   .brand-name { display: none; }
