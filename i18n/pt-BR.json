@@ -1,6 +1,6 @@
 {
   "meta.title": "SpaceCorps 2027 · Download",
-  "meta.description": "Baixe SpaceCorps 2027, um MMO espacial para macOS, Windows e Linux: voe por uma corporação, cace alienígenas com seu clã e suba no ranking da temporada.",
+  "meta.description": "Baixe o SpaceCorps 2027, um MMO espacial para macOS, Windows e Linux: voe por uma corporação, cace alienígenas com seu clã e suba no ranking da temporada.",
 
   "skip": "Pular para o conteúdo",
   "nav.home": "SpaceCorps 2027, voltar ao topo",
@@ -66,7 +66,7 @@
   "features.clans.title": "Clãs",
   "features.clans.text": "Funde um clã ou entre em um: membros e cargos, banco compartilhado, níveis de clã e diplomacia, de tratados à guerra.",
   "features.seasons.title": "Temporadas",
-  "features.seasons.text": "Trinta dias de um recomeço até a Erupção do Buraco Negro. Com pontos de reset, você compra bônus permanentes que sobrevivem ao reset.",
+  "features.seasons.text": "Trinta dias de um recomeço até a Erupção do Buraco Negro. Com os pontos de reset, você compra bônus permanentes que sobrevivem ao fim da temporada.",
   "features.gates.title": "Portões Galácticos",
   "features.gates.text": "Materialize as 100 peças do Chrono-Gate para abrir o Cache de Transporte e escolher o setor da próxima temporada.",
   "features.crafting.title": "Criação",
@@ -108,7 +108,7 @@
   "reqs.gpu.linux": "Vulkan (Mesa 22 ou driver do fabricante)",
   "reqs.memory": "4 GB de RAM, 8 GB recomendados",
   "reqs.disk": "400 MB livres",
-  "reqs.network": "Internet banda larga: SpaceCorps é só online",
+  "reqs.network": "Internet banda larga: o SpaceCorps só funciona online",
 
   "help.title": "Primeira execução",
   "help.lede": "As versões ainda não são assinadas pela Apple nem pela Microsoft, então o sistema pede confirmação uma vez antes de abrir o jogo.",

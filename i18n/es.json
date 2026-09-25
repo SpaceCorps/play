@@ -39,7 +39,7 @@
   "hero.sub.linux": "AppImage x86_64",
   "hero.all-platforms": "Todas las plataformas",
   "hero.other-platforms": "Otras plataformas",
-  "hero.note": "Descarga gratuita. Necesitas conexión a internet: el juego transcurre en el servidor de SpaceCorps.",
+  "hero.note": "Descarga gratuita. Necesitas conexión a internet: se juega en el servidor de SpaceCorps.",
   "hero.note-mobile": "SpaceCorps 2027 es un juego de escritorio para macOS, Windows y Linux.",
 
   "shots.title": "Dentro del juego",
@@ -50,7 +50,7 @@
   "shots.station.caption": "Mission Control, la estación de tu corporación",
   "shots.wraith.alt": "La página de la Wraith en la wiki del juego: el acorazado pintado gira sobre una plataforma holográfica junto a sus especificaciones.",
   "shots.wraith.caption": "La Wraith en el visor de modelos de la wiki",
-  "shots.hangar.alt": "El hangar: una Protos en su dársena, estadísticas de combate, ranuras de láser y generador, y el inventario.",
+  "shots.hangar.alt": "El hangar: una Protos en su plataforma, estadísticas de combate, ranuras de láser y generador, y el inventario.",
   "shots.hangar.caption": "Hangar: naves, configuraciones, equipo",
   "shots.galaxy.alt": "El mapa de la galaxia: los sectores de las tres corporaciones, unidos por rutas de salto alrededor de los sectores PvP del centro.",
   "shots.galaxy.caption": "El sistema estelar: los sectores de las corporaciones alrededor del núcleo PvP",
@@ -127,8 +127,8 @@
   "help.verify.title": "Verifica una descarga",
   "help.verify.text": "Compara el SHA-256 del archivo con el que aparece arriba:",
   "help.server.title": "Servidor de juego",
-  "help.server.connects": "El juego se conecta a {url} {status}. Para jugar en otro servidor de SpaceCorps, haz clic en <em>Cambiar de servidor</em> debajo de la ventana de inicio de sesión, o ve a <em>Ajustes › Cuenta › Servidor</em>.",
-  "help.server.files": "Tu sesión y tus ajustes se guardan en {home} ({windows} en Windows).",
+  "help.server.connects": "El juego se conecta a {url} {status}. Para jugar en otro servidor de SpaceCorps, haz clic en <em>Cambiar de servidor</em> debajo de la ventana de inicio de sesión, o ve a <em>Configuración › Cuenta › Servidor</em>.",
+  "help.server.files": "Tu sesión y tu configuración se guardan en {home} ({windows} en Windows).",
 
   "copy.done": "Copiado",
 

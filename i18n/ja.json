@@ -126,7 +126,7 @@
   "help.verify.title": "ダウンロードの確認",
   "help.verify.text": "ファイルの SHA-256 を、上に記載されている値と比べてください：",
   "help.server.title": "ゲームサーバー",
-  "help.server.connects": "ゲームの接続先は {url} {status} です。別の SpaceCorps サーバーでプレイするには、ログインカードの下にある<em>サーバーを変更</em>をクリックするか、<em>設定 › アカウント › サーバー</em>を開いてください。",
+  "help.server.connects": "ゲームの接続先は {url} {status}です。別の SpaceCorps サーバーでプレイするには、ログイン画面の下にある<em>サーバーを変更</em>をクリックするか、<em>設定 › アカウント › サーバー</em>を開いてください。",
   "help.server.files": "ログイン情報と設定は {home}（Windows では {windows}）に保存されます。",
 
   "copy.done": "コピーしました",
