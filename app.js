@@ -178,7 +178,11 @@
         setText($('.dl span', card), t('download.unavailable'));
         return;
       }
-      if (Number.isFinite(a.size)) setText($('.size', card), I18N.size(a.size));
+      if (Number.isFinite(a.size)) {
+        const el = $('.size', card);
+        setText(el, I18N.size(a.size));
+        if (el) el.title = I18N.sizeTitle(a.size);
+      }
       const b = $('.sha .copy', card);
       if (b && !b.classList.contains('done')) setLabel(b, t('download.copy-sha', { file: a.name }));
     });

@@ -134,17 +134,28 @@
     try { return new Intl.NumberFormat(locale(), options).format(n); } catch { return String(n); }
   }
 
-  // Package sizes: MiB, as the release script measures them, in the language's unit (Mo, МБ).
+  // Package sizes: the file's real size in decimal megabytes (1 MB = 1,000,000 bytes), as Finder,
+  // the GitHub release page and download managers show them, with one decimal: 81,818,270 bytes is
+  // 81.8 MB. The exact byte count goes in the element's title (see sizeTitle).
   function size(bytes) {
-    const mb = bytes / (1024 * 1024);
-    const digits = mb < 10 ? 1 : 0;
+    const mb = bytes / 1e6;
+    const digits = mb < 100 ? 1 : 0;
     try {
       return new Intl.NumberFormat(locale(), {
         style: 'unit', unit: 'megabyte', unitDisplay: 'short',
         minimumFractionDigits: digits, maximumFractionDigits: digits,
       }).format(mb);
     } catch {
-      return `${digits ? mb.toFixed(1) : Math.round(mb)} MB`;
+      return `${mb.toFixed(digits)} MB`;
+    }
+  }
+
+  // The exact size for a tooltip: "81,818,270 bytes" in the language's digit grouping.
+  function sizeTitle(bytes) {
+    try {
+      return `${new Intl.NumberFormat(locale()).format(bytes)} B`;
+    } catch {
+      return `${bytes} B`;
     }
   }
 
@@ -384,6 +395,7 @@
     plural,
     number,
     size,
+    sizeTitle,
     date,
     choose: (code) => { const c = match(code); return c ? choose(c) : Promise.resolve(); },
     // fn(lang) once the texts are in, and again after every switch.
