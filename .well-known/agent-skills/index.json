@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "spacecorps-2027",
+      "description": "Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client and verify server telemetry.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/play/llms.txt"
+    }
+  ]
+}

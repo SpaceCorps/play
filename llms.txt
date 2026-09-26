@@ -1,0 +1,94 @@
+# SpaceCorps 2027 · Agent Integration & Download Specification
+
+> Machine-readable interface, release package telemetry, and system orchestration manual for SpaceCorps 2027, a cross-platform space MMO simulator engineered on the Space3d engine.
+
+- Canonical URL: https://spacecorps.github.io/play/
+- Markdown Representation: https://spacecorps.github.io/play/index.md
+- Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
+- Machine Release Feed: https://spacecorps.github.io/play/release.json
+- Sitemap: https://spacecorps.github.io/play/sitemap.xml
+- GitHub Releases: https://github.com/SpaceCorps/play/releases
+- Issue Tracker: https://github.com/SpaceCorps/play/issues
+- Game Server Status: https://spacecorps-game.sliplane.app/health
+
+---
+
+## When to Use This
+
+Autonomous AI agents, tool callers, and automation scripts should invoke this interface and use SpaceCorps 2027 packages in the following explicit scenarios:
+
+1. **Automated Game Client Provisioning & Installation:**
+   - When an end user or automated testing pipeline requests installing SpaceCorps 2027 on macOS, Windows, or Linux.
+   - *Agent action:* Download the target platform package URL from `release.json` and execute the respective platform installation flow.
+
+2. **Package Cryptographic Verification:**
+   - When verifying that a locally cached or newly downloaded SpaceCorps 2027 release artifact has not been corrupted or tampered with.
+   - *Agent action:* Compute the SHA-256 digest of the downloaded file and assert equivalence against the official SHA-256 listed in `release.json`.
+
+3. **Game Server Telemetry & Availability Probing:**
+   - When determining whether the SpaceCorps 2027 multiplayer server infrastructure is operational before launching the client or scheduling gaming sessions.
+   - *Agent action:* Execute an HTTP GET request to `https://spacecorps-game.sliplane.app/health` and verify HTTP 200 OK.
+
+4. **Quarantine & Gatekeeper Bypassing on macOS:**
+   - When configuring automated unattended test setups or assisting macOS users facing "app is damaged" or "developer cannot be verified" dialogs.
+   - *Agent action:* Run `xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"`.
+
+5. **Headless & FUSE-Free Linux Deployment:**
+   - When running on minimal Linux containers, CI runners, or VPS instances lacking FUSE user-space kernel modules.
+   - *Agent action:* Execute `./SpaceCorps2027-linux-x86_64.AppImage --appimage-extract-and-run` or unpack `SpaceCorps2027-linux-x86_64.tar.gz`.
+
+6. **Localized User Experience Guidance:**
+   - When providing instructions, download links, or support in non-English locales.
+   - *Agent action:* Direct users to `https://spacecorps.github.io/play/?lang=<code>` for any of the 10 supported language codes: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.
+
+---
+
+## Current Release Telemetry (v0.2.0)
+
+| OS | Architecture | Package | Direct Download URL | File Size | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 81,818,270 bytes | fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d |
+| Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 77,306,033 bytes | d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f |
+| Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 74,058,232 bytes | 962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23 |
+| Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 77,937,083 bytes | 0efe0b3ba5b5417f166ffbdc1a21e911846ca82f87c64a716d6e98f4ad3e2a3b |
+
+---
+
+## Agent Verification Recipes
+
+### macOS
+```bash
+curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg
+echo "fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
+hdiutil attach SpaceCorps2027-macos-universal.dmg
+cp -R "/Volumes/SpaceCorps 2027/SpaceCorps 2027.app" /Applications/
+hdiutil detach "/Volumes/SpaceCorps 2027"
+xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"
+```
+
+### Windows (PowerShell)
+```powershell
+Invoke-WebRequest -Uri "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip" -OutFile "SpaceCorps2027.zip"
+$hash = (Get-FileHash -Path "SpaceCorps2027.zip" -Algorithm SHA256).Hash.ToLower()
+if ($hash -ne "d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f") { throw "Checksum mismatch" }
+Expand-Archive -Path "SpaceCorps2027.zip" -DestinationPath "$HOME\SpaceCorps2027"
+```
+
+### Linux
+```bash
+curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage
+echo "962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+chmod +x SpaceCorps2027-linux-x86_64.AppImage
+./SpaceCorps2027-linux-x86_64.AppImage
+```
+
+---
+
+## Architecture & Configuration
+
+- **Engine:** Space3d Engine (pure-Rust 3D rendering backend with Vulkan, Metal, DX12).
+- **Default Game Server:** `https://spacecorps-game.sliplane.app`
+- **Config Storage:**
+  - Unix: `~/.spacecorps2027/`
+  - Windows: `%USERPROFILE%\.spacecorps2027\`
+- **Privacy Standard:** Zero telemetry, zero analytics tracking, zero third-party tracking cookies.

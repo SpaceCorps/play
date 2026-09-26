@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Page Not Found · SpaceCorps 2027</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://spacecorps.github.io/play/404.html">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/404.md">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<style>
+  :root {
+    --bg: #141312;
+    --fg: #e8e4de;
+    --muted: #9c9689;
+    --card: #1d1b19;
+    --border: #332f2b;
+    --accent: #e5a93c;
+    --accent-hover: #f3be5d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 540px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  .code {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #141312;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+  .btn:hover { background: var(--accent-hover); }
+  .agent-nav {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    text-align: left;
+    font-size: 0.85rem;
+  }
+  .agent-nav p {
+    font-weight: 600;
+    color: var(--fg);
+    margin-bottom: 8px;
+  }
+  .agent-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  .agent-nav li {
+    margin-bottom: 6px;
+  }
+  .agent-nav a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .agent-nav a:hover { text-decoration: underline; }
+</style>
+<script>
+  if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+    window.location.href = '404.md';
+  }
+</script>
+</head>
+<body>
+<div class="container">
+  <div class="code">404</div>
+  <h1>Sector Coordinates Uncharted</h1>
+  <p>The requested SpaceCorps 2027 page, package asset, or documentation resource does not exist or has been relocated.</p>
+  <a class="btn" href="/play/">Return to SpaceCorps 2027 Download</a>
+  <div class="agent-nav">
+    <p>Authoritative Index &amp; Agent Interfaces:</p>
+    <ul>
+      <li>&bull; <a href="/play/">SpaceCorps 2027 Download Page</a></li>
+      <li>&bull; <a href="/play/llms.txt">Agent Integration Guide (llms.txt)</a></li>
+      <li>&bull; <a href="/play/llms-full.txt">Full Technical Manual (llms-full.txt)</a></li>
+      <li>&bull; <a href="/play/index.md">Markdown Documentation (index.md)</a></li>
+      <li>&bull; <a href="/play/release.json">Release Package Manifest (release.json)</a></li>
+      <li>&bull; <a href="/play/sitemap.xml">XML Sitemap (sitemap.xml)</a></li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

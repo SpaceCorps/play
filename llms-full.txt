@@ -1,0 +1,158 @@
+# SpaceCorps 2027 · Comprehensive Agent Manual & Technical Reference
+
+> Exhaustive technical documentation, release verification protocol, client-server communications schema, and operational guide for SpaceCorps 2027.
+
+- Canonical URL: https://spacecorps.github.io/play/
+- Machine Summary: https://spacecorps.github.io/play/llms.txt
+- Markdown Page: https://spacecorps.github.io/play/index.md
+- Release Feed: https://spacecorps.github.io/play/release.json
+- Sitemap: https://spacecorps.github.io/play/sitemap.xml
+- Organization Apex: https://spacecorps.github.io/
+
+---
+
+## 1. System Overview & Technology Stack
+
+SpaceCorps 2027 is a real-time multiplayer space combat and trading simulation game client. It is built natively on the Space3d engine, engineered by SpaceCorps.
+
+- **Client Language:** Rust 2024 edition.
+- **Rendering Technology:** Native graphics backends via Space3d:
+  - macOS: Apple Metal API with native ARM64 Apple Silicon and x86_64 Intel universal binaries.
+  - Windows: Direct3D 12 and Vulkan.
+  - Linux: Vulkan 1.3 with X11 and Wayland support.
+- **Networking:** Secure WebSockets / TLS with continuous state replication to the Sliplane-hosted dedicated server (`https://spacecorps-game.sliplane.app`).
+- **Telemetry & Privacy:** Zero surveillance, zero third-party ads, zero tracking cookies. Settings and authentication session tokens are stored locally on the user's filesystem in `~/.spacecorps2027`.
+
+---
+
+## 2. When to Use This Guide
+
+AI agents, automated test suites, and scripting environments should invoke this manual for:
+
+1. **Automating Cross-Platform Deployments:**
+   Selecting the exact binary asset URL, extracting files, and handling OS security controls without user intervention.
+2. **Deterministic Checksum Validation:**
+   Verifying SHA-256 digests against authoritative build artifacts before launching or redistributing packages.
+3. **Multi-Region / Custom Server Redirection:**
+   Configuring client connection files in `~/.spacecorps2027/` to target private shards or staging deployments on Sliplane.
+4. **Automated Diagnostic Health Checks:**
+   Querying `https://spacecorps-game.sliplane.app/health` to confirm server readiness.
+5. **Localization Resolution:**
+   Mapping user language preferences to the 10 available UI and text catalogs.
+
+---
+
+## 3. Package Inventory & Release Artifacts (v0.2.0)
+
+Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
+
+### Asset Matrix
+
+1. **macOS Universal:**
+   - Filename: `SpaceCorps2027-macos-universal.dmg`
+   - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
+   - Size: 81,818,270 bytes (81.8 MB)
+   - SHA-256: `fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d`
+   - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
+
+2. **Windows x86_64:**
+   - Filename: `SpaceCorps2027-windows-x86_64.zip`
+   - Target Architectures: `x86_64` (AMD64 / Intel 64)
+   - Size: 77,306,033 bytes (77.3 MB)
+   - SHA-256: `d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f`
+   - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
+
+3. **Linux AppImage:**
+   - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
+   - Target Architectures: `x86_64`
+   - Size: 74,058,232 bytes (74.1 MB)
+   - SHA-256: `962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23`
+   - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
+
+4. **Linux Tarball:**
+   - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
+   - Target Architectures: `x86_64`
+   - Size: 77,937,083 bytes (77.9 MB)
+   - SHA-256: `0efe0b3ba5b5417f166ffbdc1a21e911846ca82f87c64a716d6e98f4ad3e2a3b`
+   - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
+
+---
+
+## 4. Platform Security & Installation Runbooks
+
+### macOS Security Handling
+Because early test releases do not have an Apple Developer ID notarization ticket, Gatekeeper applies quarantine flags to downloads:
+
+1. **GUI Steps (macOS 15 Sequoia+):**
+   - Drag `SpaceCorps 2027.app` to `/Applications`.
+   - Double-click to launch -> Dialog prompts "SpaceCorps 2027 cannot be opened". Click **Done**.
+   - Navigate to **System Settings > Privacy & Security**.
+   - Scroll to the Security header where it states `"SpaceCorps 2027 was blocked"`.
+   - Click **Open Anyway** and enter your macOS password or Touch ID.
+
+2. **Automated CLI Remediation:**
+   ```bash
+   xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"
+   ```
+
+### Windows Security Handling
+Windows Defender SmartScreen displays a warning on uncataloged executables:
+
+1. Extract all files preserving the `./assets` subfolder.
+2. Launch `spacecorps2027.exe`.
+3. In SmartScreen modal, click **More info** -> **Run anyway**.
+
+### Linux Execution
+AppImages require execute permissions and user-space FUSE support:
+
+```bash
+chmod +x SpaceCorps2027-linux-x86_64.AppImage
+./SpaceCorps2027-linux-x86_64.AppImage
+```
+
+If running in a Docker container or environment without `/dev/fuse`:
+```bash
+./SpaceCorps2027-linux-x86_64.AppImage --appimage-extract-and-run
+```
+Alternatively:
+```bash
+tar -xzf SpaceCorps2027-linux-x86_64.tar.gz
+cd SpaceCorps2027
+./spacecorps2027
+```
+
+---
+
+## 5. Network Protocol & Infrastructure
+
+- **Default Server URL:** `https://spacecorps-game.sliplane.app`
+- **Health Check:** `GET /health` -> `200 OK`
+- **Custom Shard Configuration:**
+  Edit the local preferences file:
+  - Unix: `~/.spacecorps2027/settings.json`
+  - Windows: `%USERPROFILE%\.spacecorps2027\settings.json`
+  ```json
+  {
+    "server": "https://custom-shard.sliplane.app",
+    "language": "en"
+  }
+  ```
+
+---
+
+## 6. Internationalization Matrix
+
+SpaceCorps 2027 ships with comprehensive translations across 10 languages:
+
+| Code | Language Name | Native Name | Web Address Parameter |
+| :--- | :--- | :--- | :--- |
+| `en` | English | English | `https://spacecorps.github.io/play/?lang=en` |
+| `de` | German | Deutsch | `https://spacecorps.github.io/play/?lang=de` |
+| `es` | Spanish | Español | `https://spacecorps.github.io/play/?lang=es` |
+| `fr` | French | Français | `https://spacecorps.github.io/play/?lang=fr` |
+| `pt-BR` | Portuguese (Brazil) | Português (Brasil) | `https://spacecorps.github.io/play/?lang=pt-BR` |
+| `sv` | Swedish | Svenska | `https://spacecorps.github.io/play/?lang=sv` |
+| `ru` | Russian | Русский | `https://spacecorps.github.io/play/?lang=ru` |
+| `ja` | Japanese | 日本語 | `https://spacecorps.github.io/play/?lang=ja` |
+| `ko` | Korean | 한국어 | `https://spacecorps.github.io/play/?lang=ko` |
+| `zh-CN` | Simplified Chinese | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |

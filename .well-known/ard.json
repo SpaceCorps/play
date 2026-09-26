@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "identifier": "urn:air:spacecorps.github.io:play:game-release-catalog",
+      "displayName": "SpaceCorps 2027 Release Catalog",
+      "type": "application/json",
+      "url": "https://spacecorps.github.io/play/release.json",
+      "capabilities": [
+        "ReleaseTelemetry",
+        "ChecksumVerification",
+        "PlatformAssetResolution"
+      ],
+      "description": "Cryptographic release catalog and direct download resolution for SpaceCorps 2027 client binaries across macOS, Windows, and Linux.",
+      "representativeQueries": [
+        "download SpaceCorps 2027 for macOS",
+        "verify SpaceCorps 2027 release sha256 checksum",
+        "SpaceCorps 2027 Linux AppImage download",
+        "latest SpaceCorps 2027 Windows release"
+      ]
+    },
+    {
+      "identifier": "urn:air:spacecorps.github.io:play:server-telemetry",
+      "displayName": "SpaceCorps 2027 Game Server Telemetry",
+      "type": "application/json",
+      "url": "https://spacecorps-game.sliplane.app/health",
+      "capabilities": [
+        "ServerHealthProbe",
+        "MultiplayerStatus"
+      ],
+      "description": "Live health and status endpoint for SpaceCorps 2027 dedicated game server clusters on Sliplane.",
+      "representativeQueries": [
+        "is SpaceCorps 2027 server online",
+        "check SpaceCorps multiplayer server health",
+        "SpaceCorps game server ping"
+      ]
+    },
+    {
+      "identifier": "urn:air:spacecorps.github.io:play:agent-manual",
+      "displayName": "SpaceCorps 2027 Agent Operating Manual",
+      "type": "text/markdown",
+      "url": "https://spacecorps.github.io/play/llms.txt",
+      "capabilities": [
+        "AgentInstructions",
+        "AutomatedInstallation",
+        "Troubleshooting"
+      ],
+      "description": "Standardized instructions and operating procedures for AI agents automating SpaceCorps 2027 installation, verification, and execution.",
+      "representativeQueries": [
+        "how to install SpaceCorps 2027 on Linux without fuse",
+        "remove macos quarantine for SpaceCorps 2027",
+        "SpaceCorps 2027 system requirements"
+      ]
+    }
+  ]
+}
