@@ -47,7 +47,7 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 - Machine Interface: [llms.txt](https://spacecorps.github.io/play/llms.txt) | [llms-full.txt](https://spacecorps.github.io/play/llms-full.txt)
 - Release Manifest: [release.json](https://spacecorps.github.io/play/release.json)
 - GitHub Releases: [https://github.com/SpaceCorps/play/releases/latest](https://github.com/SpaceCorps/play/releases/latest)
-- Discord Community: [https://discord.gg/dFe3NERrm2](https://discord.gg/dFe3NERrm2)
+- Discord Community: [https://discord.gg/VjW67tkrTb](https://discord.gg/VjW67tkrTb)
 
 ---
 
