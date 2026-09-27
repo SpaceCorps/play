@@ -131,7 +131,7 @@
   "help.macos.terminal": "O bien, en Terminal:",
   "help.copy-command": "Copiar el comando",
   "help.windows.title": "Windows: «Windows protegió su PC»",
-  "help.windows.extract": "Haz clic derecho en el archivo {zip}, elige <strong>Extraer todo</strong> y abre la carpeta <em>SpaceCorps 2027</em>. Deja la carpeta <em>assets</em> junto al juego.",
+  "help.windows.extract": "Haz clic derecho en el archivo {zip}, elige <strong>Extraer todo</strong> y abre la carpeta <em>SpaceCorps 2027</em>. Todo el juego está en <em>spacecorps2027.exe</em>.",
   "help.windows.run": "Inicia {exe}. Si aparece SmartScreen, haz clic en <strong>Más información</strong> y luego en <strong>Ejecutar de todas formas</strong>.",
   "help.linux.title": "Linux: haz ejecutable el AppImage",
   "help.linux.chmod": "Márcalo como ejecutable e inícialo (o permite ejecutarlo como programa en las <em>Propiedades</em> de tu gestor de archivos):",

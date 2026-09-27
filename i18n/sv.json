@@ -131,7 +131,7 @@
   "help.macos.terminal": "Eller i Terminal:",
   "help.copy-command": "Kopiera kommandot",
   "help.windows.title": "Windows: ”Windows skyddade datorn”",
-  "help.windows.extract": "Högerklicka på {zip}-filen, välj <strong>Extrahera alla</strong> och öppna mappen <em>SpaceCorps 2027</em>. Låt mappen <em>assets</em> ligga kvar bredvid spelet.",
+  "help.windows.extract": "Högerklicka på {zip}-filen, välj <strong>Extrahera alla</strong> och öppna mappen <em>SpaceCorps 2027</em>. Hela spelet finns i <em>spacecorps2027.exe</em>.",
   "help.windows.run": "Starta {exe}. Om SmartScreen visas klickar du på <strong>Mer information</strong> och sedan på <strong>Kör ändå</strong>.",
   "help.linux.title": "Linux: gör AppImage-filen körbar",
   "help.linux.chmod": "Gör filen körbar och starta den (eller tillåt körning som program under <em>Egenskaper</em> i din filhanterare):",

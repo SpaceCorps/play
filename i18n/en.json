@@ -171,7 +171,7 @@
   "help.copy-command": "Copy the command",
   "help.windows.title": "Windows: \"Windows protected your PC\"",
   "@help.windows.title": "Quote the SmartScreen window's title as Windows writes it in your language.",
-  "help.windows.extract": "Right-click the {zip}, choose <strong>Extract All</strong>, and open the <em>SpaceCorps 2027</em> folder. Keep the <em>assets</em> folder next to the game.",
+  "help.windows.extract": "Right-click the {zip}, choose <strong>Extract All</strong>, and open the <em>SpaceCorps 2027</em> folder. The whole game is in <em>spacecorps2027.exe</em>.",
   "help.windows.run": "Start {exe}. If SmartScreen appears, click <strong>More info</strong>, then <strong>Run anyway</strong>.",
   "help.linux.title": "Linux: make the AppImage executable",
   "help.linux.chmod": "Mark it executable, then start it (or use your file manager's <em>Properties › Allow executing as program</em>):",

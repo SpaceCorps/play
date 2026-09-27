@@ -130,7 +130,7 @@
   "help.macos.terminal": "또는 터미널에서:",
   "help.copy-command": "명령어 복사",
   "help.windows.title": "Windows: ‘Windows의 PC 보호’",
-  "help.windows.extract": "{zip} 파일을 마우스 오른쪽 버튼으로 클릭하고 <strong>압축 풀기</strong>를 선택한 뒤 <em>SpaceCorps 2027</em> 폴더를 여세요. <em>assets</em> 폴더는 게임과 같은 위치에 두어야 합니다.",
+  "help.windows.extract": "{zip} 파일을 마우스 오른쪽 버튼으로 클릭하고 <strong>압축 풀기</strong>를 선택한 뒤 <em>SpaceCorps 2027</em> 폴더를 여세요. 게임 전체가 <em>spacecorps2027.exe</em> 파일 하나에 들어 있습니다.",
   "help.windows.run": "{exe} 파일을 실행하세요. SmartScreen이 나타나면 <strong>추가 정보</strong>를 클릭한 다음 <strong>실행</strong>을 클릭하세요.",
   "help.linux.title": "Linux: AppImage에 실행 권한 주기",
   "help.linux.chmod": "실행 권한을 준 다음 실행하세요. 파일 관리자의 <em>속성</em>에서 프로그램으로 실행하도록 허용해도 됩니다:",

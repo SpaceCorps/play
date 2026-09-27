@@ -130,7 +130,7 @@
   "help.macos.terminal": "またはターミナルで：",
   "help.copy-command": "コマンドをコピー",
   "help.windows.title": "Windows：「Windows によって PC が保護されました」",
-  "help.windows.extract": "{zip} ファイルを右クリックして<strong>すべて展開</strong>を選び、<em>SpaceCorps 2027</em> フォルダを開きます。<em>assets</em> フォルダはゲームと同じ場所に置いたままにしてください。",
+  "help.windows.extract": "{zip} ファイルを右クリックして<strong>すべて展開</strong>を選び、<em>SpaceCorps 2027</em> フォルダを開きます。ゲームはすべて <em>spacecorps2027.exe</em> ひとつに入っています。",
   "help.windows.run": "{exe} を起動します。SmartScreen が表示されたら、<strong>詳細情報</strong>をクリックしてから<strong>実行</strong>をクリックします。",
   "help.linux.title": "Linux：AppImage に実行権限を付ける",
   "help.linux.chmod": "実行権限を付けてから起動します（ファイルマネージャーの<em>プロパティ</em>で、プログラムとしての実行を許可してもかまいません）：",

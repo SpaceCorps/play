@@ -99,7 +99,7 @@ Because early test releases do not have an Apple Developer ID notarization ticke
 ### Windows Security Handling
 Windows Defender SmartScreen displays a warning on uncataloged executables:
 
-1. Extract all files preserving the `./assets` subfolder.
+1. Extract the zip: the whole game is in `spacecorps2027.exe` (no `assets` subfolder).
 2. Launch `spacecorps2027.exe`.
 3. In SmartScreen modal, click **More info** -> **Run anyway**.
 

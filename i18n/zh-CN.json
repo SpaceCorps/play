@@ -130,7 +130,7 @@
   "help.macos.terminal": "或者在终端中运行：",
   "help.copy-command": "复制命令",
   "help.windows.title": "Windows：“Windows 已保护你的电脑”",
-  "help.windows.extract": "右键点击 {zip} 文件，选择<strong>全部解压缩</strong>，然后打开 <em>SpaceCorps 2027</em> 文件夹。请让 <em>assets</em> 文件夹与游戏保持在同一位置。",
+  "help.windows.extract": "右键点击 {zip} 文件，选择<strong>全部解压缩</strong>，然后打开 <em>SpaceCorps 2027</em> 文件夹。整个游戏都在 <em>spacecorps2027.exe</em> 这一个文件中。",
   "help.windows.run": "启动 {exe}。如果出现 SmartScreen，先点击<strong>更多信息</strong>，再点击<strong>仍要运行</strong>。",
   "help.linux.title": "Linux：为 AppImage 添加执行权限",
   "help.linux.chmod": "先添加执行权限，再启动（也可以在文件管理器的<em>属性</em>中允许将其作为程序运行）：",

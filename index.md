@@ -255,7 +255,7 @@ Early alpha release binaries are unsigned; system security prompts will appear o
 
 ### Windows Installation
 1. Right-click `SpaceCorps2027-windows-x86_64.zip` and select **Extract All**.
-2. Keep the extracted `assets` folder adjacent to `spacecorps2027.exe`.
+2. The whole game is in `spacecorps2027.exe`: there is no `assets` folder to keep next to it.
 3. Launch `spacecorps2027.exe`. If Windows Defender SmartScreen displays a warning, click **More info** followed by **Run anyway**.
 
 ### Linux Installation

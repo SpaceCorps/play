@@ -131,7 +131,7 @@
   "help.macos.terminal": "Oder im Terminal:",
   "help.copy-command": "Befehl kopieren",
   "help.windows.title": "Windows: „Der Computer wurde durch Windows geschützt“",
-  "help.windows.extract": "Klicke mit der rechten Maustaste auf die {zip}-Datei, wähle <strong>Alle extrahieren</strong> und öffne den Ordner <em>SpaceCorps 2027</em>. Der Ordner <em>assets</em> muss neben dem Spiel bleiben.",
+  "help.windows.extract": "Klicke mit der rechten Maustaste auf die {zip}-Datei, wähle <strong>Alle extrahieren</strong> und öffne den Ordner <em>SpaceCorps 2027</em>. Das ganze Spiel steckt in <em>spacecorps2027.exe</em>.",
   "help.windows.run": "Starte {exe}. Erscheint SmartScreen, klicke auf <strong>Weitere Informationen</strong> und dann auf <strong>Trotzdem ausführen</strong>.",
   "help.linux.title": "Linux: das AppImage ausführbar machen",
   "help.linux.chmod": "Mach die Datei ausführbar und starte sie (oder erlaube in den <em>Eigenschaften</em> deines Dateimanagers, sie als Programm auszuführen):",
