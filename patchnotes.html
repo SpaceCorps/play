@@ -101,9 +101,24 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
     </p>
     <div class="notes">
     <!-- patchnotes:list -->
+    <article class="card note" id="v0.3.4" aria-labelledby="v0.3.4-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.3.4-title">0.3.4 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-09-27" data-date>27 September 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.3.4">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.3.4 gives every item a real 3D model, with its icon rendered from it. You can resize every window in flight from any side or corner, so the Game Log can grow as tall as you like, and the minimap shows the pilots of your own company in green.</p>
+      <div class="note-body" lang="en">
+        <h3>New item art</h3>
+        <ul><li>Every item now has a real 3D model, and its icon is a render of that model. The flat drawn icons are gone from the hangar, shop, fusion (Assembly), Galaxy Gates, cargo, hotbar, item tooltips and the wiki's item tables.</li><li>Items of the same family share a look, and tiers read at a glance: higher tiers get more parts, more tick lights on the item and a darker, polished finish. Mark II boosters have twin chambers, fins and two lights.</li><li>Laser ammo colours now match the lasers you see in flight: x1 red, x2 green, x3 blue, x4 magenta.</li><li>Repair drones share one green repair colour; their tier shows in their arms and lights.</li><li>The frame around an item still shows its rarity and fusion level exactly as before.</li></ul>
+        <h3>Windows in flight</h3>
+        <ul><li>Drag any side or corner of a window to resize it, not only the bottom-right corner. The pointer shows the resize arrows over a window's edges.</li><li>The Game Log grows vertically. Drag its top edge up to make it taller over the minimap, or its bottom edge down. Before, dragging it taller did nothing until enough lines had come in.</li><li>The Game Log, Boosters and Active Quests hug their contents until you resize them. After that they keep the size you chose, also on your next flight, and longer contents scroll.</li><li>Chat grows upward when you drag its top edge.</li></ul>
+        <h3>Minimap</h3>
+        <ul><li>Pilots of your own company show as green squares. Before, every other pilot was red like the aliens. Aliens and pilots of other companies stay red.</li></ul>
+      </div>
+    </article>
     <article class="card note" id="v0.3.3" aria-labelledby="v0.3.3-title">
       <header class="note-head">
-        <h2 class="note-title" id="v0.3.3-title">0.3.3 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <h2 class="note-title" id="v0.3.3-title">0.3.3</h2>
         <p class="note-meta"><time datetime="2026-09-27" data-date>27 September 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.3.3">GitHub</a></p>
       </header>
       <p class="note-lead" lang="en">SpaceCorps 2027 0.3.3 gives every mission a face: each company's officers now hand out its quests. It also lets you open any pilot's profile from the Hall of Fame, makes fusion work for every item with bonuses, and shows every bonus an item carries.</p>

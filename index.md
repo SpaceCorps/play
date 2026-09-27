@@ -68,52 +68,29 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.3.3 · 2026-09-27
+### 0.3.4 · 2026-09-27
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.3.3)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.3.4)
 
-SpaceCorps 2027 0.3.3 gives every mission a face: each company's officers now hand out its quests. It also lets you open any pilot's profile from the Hall of Fame, makes fusion work for every item with bonuses, and shows every bonus an item carries.
+SpaceCorps 2027 0.3.4 gives every item a real 3D model, with its icon rendered from it. You can resize every window in flight from any side or corner, so the Game Log can grow as tall as you like, and the minimap shows the pilots of your own company in green.
 
 #### What's new
 
-**Meet your quest givers**
-- Every mission now comes from a person. Each company has three officers who hand out its missions: one for combat, one for scouting and one for timed and special operations. You get your own company's officers, and the same mission always comes from the same one.
-  - **Mars Colonization Corporation:** Col. Radomir "Anvil" Haskov, Lt. Tamsin "Dustdevil" Orlec and Maj. Veska "Fuse" Roan.
-  - **Terra Space Group:** Cdr. Helena "Bastion" Marchetti, Dr. Rafael "Parallax" Quenby and Insp. Aurel "Meridian" Wren.
-  - **Galactic Ventures Group:** Capt. Esmé "Tally" Castellane, Ife "Wisp" Adeyemi and Teodor "Glass" Ruskai.
-- Each officer has a portrait: a backlit silhouette in their company's colours.
-- **Mission Control:** each mission card shows who is offering it, with their portrait, name and role. Rewards waiting to be claimed show it too.
-- **Hover a portrait or a name** to see a larger portrait, the officer's role and company, and a line in their own words.
-- **Active Quests:** each quest shows its giver's portrait, "From Col. Haskov" (or whoever gave it) and their line under the briefing.
-- **Operator Nyx,** who runs Mission Control for every company, now has a portrait in the sidebar. Pilots who haven't joined a company yet get their missions from her.
-- Officers' roles and lines are translated into all ten languages. Their names stay the same in every language.
+**New item art**
+- Every item now has a real 3D model, and its icon is a render of that model. The flat drawn icons are gone from the hangar, shop, fusion (Assembly), Galaxy Gates, cargo, hotbar, item tooltips and the wiki's item tables.
+- Items of the same family share a look, and tiers read at a glance: higher tiers get more parts, more tick lights on the item and a darker, polished finish. Mark II boosters have twin chambers, fins and two lights.
+- Laser ammo colours now match the lasers you see in flight: x1 red, x2 green, x3 blue, x4 magenta.
+- Repair drones share one green repair colour; their tier shows in their arms and lights.
+- The frame around an item still shows its rarity and fusion level exactly as before.
 
-**Pilot profiles**
-- Click a pilot in the Hall of Fame (Rankings, or Stats › Hall of Fame) or a name in your clan's member list to open their profile.
-- A profile shows the pilot's company, world, clan and rank, level, experience, honor, ranking points and Hall of Fame positions, and how many aliens and pilots they have destroyed.
-- It also shows their active loadout: the ship they fly in its 3D preview, every equipped item with its enchant tier and fitted modules, and their combat stats. Hover an item to see its full card with bonuses.
-- Active boosters and season buffs are listed with what they add up to, and the combat stats include them the way they work in flight.
-- Nothing private is shown: no credits, thulium, inventory, other ships, position or settings.
+**Windows in flight**
+- Drag any side or corner of a window to resize it, not only the bottom-right corner. The pointer shows the resize arrows over a window's edges.
+- The Game Log grows vertically. Drag its top edge up to make it taller over the minimap, or its bottom edge down. Before, dragging it taller did nothing until enough lines had come in.
+- The Game Log, Boosters and Active Quests hug their contents until you resize them. After that they keep the size you chose, also on your next flight, and longer contents scroll.
+- Chat grows upward when you drag its top edge.
 
-**Fusion**
-- Every item that carries enchant bonuses can be fused: lasers, laser amps, shields, shield cells, engines, thrusters, Adaptive Cores and repair drones. Plain items from the Shop (Standard tier) can be fused too. The Fusion page has a new Repair Drones filter.
-- Fusing now keeps the best bonus of each stat across the five items. When the result moves up a tier, every bonus is rolled again in the new tier's range and the better value stays, so a tier-up never gives you less.
-- Bonuses only land on stats the item actually has. An Adaptive Core can now roll shield and speed bonuses, and a Crit Amp no longer gets a bonus on damage it doesn't deal.
-- Slave and Master Drones can't be fused any more. They carry no bonuses, so fusing them only used up drone slots.
-- If one of the items you fuse away holds modules, the Fusion chamber tells you, and the modules go back to your inventory.
-- The result screen lists the bonuses of the item you got.
-
-**Item bonuses**
-- Every item card (hangar, ship slots, drone slots, Fusion) now lists all the bonuses the item carries, for example "Shield Capacity +3.2% · Absorbance +1.5%".
-- Fitted modules show their tier, what they add with their bonuses and their own bonus line, and the "With modules" totals include module bonuses. Hovering the small module markers on a hangar slot shows the module's full card.
-- Repair rates read as a percentage per second ("1.38%/s"), and enchanted numbers are rounded to one decimal.
-
-**Thulium and premium**
-- Payments will never be pay-to-win. There will only be an optional subscription, and for now it isn't available: the Thulium page says so, and the top bar's button now just reads "Premium".
-- Premium you already have keeps running until it ends, and Restore Purchases still works.
-
-**Fixes**
-- Enchant tier letters on item tiles no longer fade in and out: the tile's glow still pulses for Rupturing and Eternal items, and the letter stays easy to read.
+**Minimap**
+- Pilots of your own company show as green squares. Before, every other pilot was red like the aliens. Aliens and pilots of other companies stay red.
 <!-- /patchnotes:latest -->
 
 ---
