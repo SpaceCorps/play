@@ -9,6 +9,7 @@
   "nav.features": "Об игре",
   "nav.download": "Скачать",
   "nav.help": "Помощь",
+  "nav.patchnotes": "Обновления",
 
   "lang.button": "Язык: {language}",
 
@@ -111,6 +112,17 @@
   "reqs.memory": "4 ГБ ОЗУ, рекомендуется 8 ГБ",
   "reqs.disk": "400 МБ свободного места",
   "reqs.network": "Широкополосный интернет: SpaceCorps работает только онлайн",
+
+  "patchnotes.title": "Что нового",
+  "patchnotes.lede": "Последнее обновление. Список изменений написан на английском.",
+  "patchnotes.more": "Всё новое в версии {version}",
+  "patchnotes.all": "Все списки изменений",
+  "patchnotes.latest": "Последняя",
+  "patchnotes.meta.title": "SpaceCorps 2027 · Список изменений",
+  "patchnotes.meta.description": "Все обновления SpaceCorps 2027, начиная с последнего: что изменилось для игроков в каждой версии.",
+  "patchnotes.heading": "Список изменений",
+  "patchnotes.page-lede": "Все обновления SpaceCorps 2027, начиная с последнего. Списки изменений написаны на английском.",
+  "patchnotes.download": "Скачать последнюю версию",
 
   "help.title": "Первый запуск",
   "help.lede": "Сборки пока не подписаны Apple и Microsoft, поэтому система один раз попросит подтверждение, прежде чем открыть игру.",

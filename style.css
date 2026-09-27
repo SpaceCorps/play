@@ -291,6 +291,46 @@ p, li, figcaption, td { text-wrap: pretty; }
 .code { display: flex; align-items: center; gap: 6px; margin-top: 8px; padding: 6px 6px 6px 12px; background: var(--bg); border: 1px solid var(--separator); border-radius: var(--radius-control); max-width: 100%; }
 .code code { background: none; padding: 0; flex: 1; min-width: 0; font-size: 13px; }
 
+/* ---------- patch notes (the main page's latest release, and patchnotes.html) ---------- */
+/* The notes are generated at release time (the game repository's scripts/release/patchnotes.py)
+   from its Markdown: headings, lists, tables, bold, code and links, nothing else. */
+.nav a[aria-current="page"] { color: var(--text); background: rgba(255, 255, 255, 0.06); }
+.notes-page .section-head h1 { font-size: clamp(32px, 5vw, 44px); font-weight: 700; letter-spacing: -0.02em; }
+.notes-cta { margin: -8px 0 28px; }
+.notes { display: grid; gap: 16px; }
+.note { padding: 22px 24px 24px; min-width: 0; scroll-margin-top: 72px; }
+.note-latest { max-width: 880px; }
+.note-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin-bottom: 10px; }
+.note-title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 10px; font-variant-numeric: tabular-nums; }
+.note-badge { font: 600 11.5px/1 var(--font); letter-spacing: 0.04em; text-transform: uppercase; color: #1a1310; background: var(--accent); padding: 4px 8px; border-radius: 999px; }
+.note-meta { font-size: 13.5px; color: var(--text-3); display: flex; gap: 8px; flex-wrap: wrap; }
+.note-meta a { color: var(--text-2); }
+.note-meta a:hover { color: var(--text); }
+.note-lead { color: var(--text); font-size: 16px; max-width: 760px; }
+.note-lead + .note-body, .note-lead + .note-more { margin-top: 14px; }
+.note-body { color: var(--text-2); font-size: 15px; max-width: 760px; }
+.note-body h3, .note-body h4 { font-size: 15.5px; font-weight: 600; color: var(--text); margin: 18px 0 6px; }
+.note-body > :first-child { margin-top: 0; }
+.note-body p { margin: 8px 0; }
+.note-body ul, .note-body ol { margin: 6px 0; padding-left: 1.2em; }
+.note-body li { margin: 5px 0; }
+.note-body li::marker { color: var(--text-3); }
+.note-body strong { color: var(--text); font-weight: 600; }
+.note-table { overflow-x: auto; margin: 10px 0; border: 1px solid var(--separator); border-radius: var(--radius-control); }
+.note-table table { border-collapse: collapse; font-size: 14px; width: 100%; }
+.note-table th, .note-table td { text-align: left; vertical-align: top; padding: 8px 12px; border-bottom: 1px solid var(--separator); }
+.note-table thead th { font-size: 13px; font-weight: 600; color: var(--text-2); }
+.note-table tbody th { font-weight: 500; color: var(--text-2); }
+.note-table td { color: var(--text); white-space: nowrap; }
+.note-table tbody tr:last-child > * { border-bottom: 0; }
+.note-more > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; color: var(--accent); font-weight: 600; font-size: 14.5px; border-radius: var(--radius-control); }
+.note-more > summary::-webkit-details-marker { display: none; }
+.note-more > summary::before { content: ""; width: 7px; height: 7px; flex: none; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-more[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-more > summary:hover { color: var(--accent-hover); }
+.note-more[open] > summary { margin-bottom: 12px; }
+:root:lang(ja) :is(.note-title, .notes-page h1) { word-break: auto-phrase; }
+
 /* ---------- footer ---------- */
 .footer { margin-top: 96px; border-top: 1px solid var(--hairline); background: rgba(0, 0, 0, 0.18); }
 .footer-inner { max-width: calc(var(--page) + 2 * var(--gutter)); margin: 0 auto; padding: 28px var(--gutter) 40px; display: grid; grid-template-columns: auto 1fr; gap: 10px 24px; align-items: center; font-size: 14px; color: var(--text-3); }
@@ -321,8 +361,8 @@ p, li, figcaption, td { text-wrap: pretty; }
     mask-image: linear-gradient(to bottom, #000 60%, transparent 100%); }
   .hero-copy { margin-top: -28px; max-width: 640px; }
 }
-/* The section links need about 810 px in the longest languages (ja, es). */
-@media (max-width: 840px) {
+/* The section links need about 935 px in the longest language (ja). */
+@media (max-width: 960px) {
   .nav { display: none; }
   .status { margin-left: auto; }
 }
@@ -336,6 +376,8 @@ p, li, figcaption, td { text-wrap: pretty; }
   .section { padding-top: 56px; }
   .shot-grid, .features, .platforms { grid-template-columns: minmax(0, 1fr); }
   .help details > :not(summary) { margin-left: 20px; }
+  .note { padding: 18px 16px 20px; }
+  .note-table td { white-space: normal; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-links { justify-content: flex-start; }
 }

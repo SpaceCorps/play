@@ -9,6 +9,7 @@
   "nav.features": "특징",
   "nav.download": "다운로드",
   "nav.help": "도움말",
+  "nav.patchnotes": "패치 노트",
 
   "lang.button": "언어: {language}",
 
@@ -108,6 +109,17 @@
   "reqs.memory": "RAM 4GB, 8GB 권장",
   "reqs.disk": "여유 공간 400MB",
   "reqs.network": "초고속 인터넷: SpaceCorps는 온라인 전용입니다",
+
+  "patchnotes.title": "새로운 소식",
+  "patchnotes.lede": "최신 업데이트입니다. 패치 노트는 영어로 작성되어 있습니다.",
+  "patchnotes.more": "{version} 버전의 모든 변경 사항",
+  "patchnotes.all": "모든 패치 노트",
+  "patchnotes.latest": "최신",
+  "patchnotes.meta.title": "SpaceCorps 2027 · 패치 노트",
+  "patchnotes.meta.description": "SpaceCorps 2027의 모든 업데이트를 최신순으로 소개합니다. 버전마다 플레이어에게 무엇이 바뀌었는지 확인하세요.",
+  "patchnotes.heading": "패치 노트",
+  "patchnotes.page-lede": "SpaceCorps 2027의 모든 업데이트를 최신순으로 보여 줍니다. 노트는 영어로 작성되어 있습니다.",
+  "patchnotes.download": "최신 버전 다운로드",
 
   "help.title": "첫 실행",
   "help.lede": "빌드가 아직 Apple이나 Microsoft의 서명을 받지 않아, 게임을 처음 열 때 시스템이 한 번 확인을 요청합니다.",

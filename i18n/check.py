@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Checks the page's translations: python3 i18n/check.py (from the repository root or anywhere).
 
-- every language of i18n.js has i18n/<code>.json, an hreflang alternate and a menu link in
-  index.html, and nothing else is there;
+- every language of i18n.js has i18n/<code>.json, an hreflang alternate in index.html and a
+  menu link in each page (index.html, patchnotes.html), and nothing else is there;
 - each translation has exactly English's keys (notes starting with @ aside), the same
   {placeholders}, only <strong>, <em> and <code> (balanced), the plural forms its language
   needs, and keeps the glossary names (docs/LOCALIZATION.md in the game repository);
 - French puts a no-break space (U+00A0) before : ; ? ! and inside « »;
-- index.html's English (the no-JavaScript fallback) is exactly en.json's, every key it uses
-  exists, and every English key is used by index.html, app.js or i18n.js.
+- each page's English (the no-JavaScript fallback) is exactly en.json's, every key it uses
+  exists, and every English key is used by a page, app.js or i18n.js. The patch notes in the
+  pages (between the patchnotes markers) are checked the same way: their few keys carry
+  English that the game repository's scripts/release/patchnotes.py writes.
 
 Exit status 1 on any problem.
 """
@@ -35,6 +37,7 @@ PLACEHOLDER = re.compile(r"\{([\w-]+)\}")
 TAG = re.compile(r"</?([a-zA-Z][\w-]*)[^>]*>")
 ALLOWED_TAGS = {"strong", "em", "code"}
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
+PAGES = ["index.html", "patchnotes.html"]
 ATTRIBUTES = {"data-i18n-alt": "alt", "data-i18n-title": "title", "data-i18n-aria-label": "aria-label", "data-i18n-content": "content"}
 
 problems = []
@@ -85,8 +88,9 @@ class Page(HTMLParser):
     """Collects the keyed elements of index.html with their English as a message: text, the
     allowed markup, and {slot} for data-slot children."""
 
-    def __init__(self):
+    def __init__(self, name):
         super().__init__(convert_charrefs=True)
+        self.name = name
         self.stack = []  # [tag, attrs, parts or None]
         self.texts = []  # (key, english, args, line)
         self.attrs = []  # (key, english, args, line)
@@ -111,7 +115,7 @@ class Page(HTMLParser):
             elif tag in ALLOWED_TAGS:
                 parent.append(f"<{tag}>")
             else:
-                problem(f"index.html:{line}", f"<{tag}> inside a data-i18n element (only strong, em, code and data-slot)")
+                problem(f"{self.name}:{line}", f"<{tag}> inside a data-i18n element (only strong, em, code and data-slot)")
         if tag in VOID:
             return
         if "data-i18n" in a and parent is None:
@@ -227,37 +231,41 @@ def main():
                     if re.search(r"\w[:;?!]", plain.replace("://", "")) and "{" not in plain:
                         problem(where, "no space before : ; ? !: use \\u00a0")
 
-    # index.html
-    page = Page()
-    page.feed((ROOT / "index.html").read_text(encoding="utf-8"))
     used = set()
-    for key, english, args, line in page.texts + page.attrs:
-        used.add(key)
-        where = f"index.html:{line} {key}"
-        if key not in en:
-            problem(where, "not in en.json")
+    for name in PAGES:
+        path = ROOT / name
+        if name != "index.html" and not path.exists():
             continue
-        want = en[key] if isinstance(en[key], str) else en[key].get("other", "")
-        if normalize(english) != normalize(fill(want, args)) and normalize(english) != normalize(want):
-            problem(where, f"English in the page {normalize(english)!r} differs from en.json {normalize(fill(want, args))!r}")
+        page = Page(name)
+        page.feed(path.read_text(encoding="utf-8"))
+        for key, english, args, line in page.texts + page.attrs:
+            used.add(key)
+            where = f"{name}:{line} {key}"
+            if key not in en:
+                problem(where, "not in en.json")
+                continue
+            want = en[key] if isinstance(en[key], str) else en[key].get("other", "")
+            if normalize(english) != normalize(fill(want, args)) and normalize(english) != normalize(want):
+                problem(where, f"English in the page {normalize(english)!r} differs from en.json {normalize(fill(want, args))!r}")
 
-    alternates = dict(page.hreflang)
-    if set(alternates) != set(codes) | {"x-default"}:
-        problem("index.html", f"hreflang alternates {sorted(alternates)}, languages {codes} + x-default")
-    for code in codes:
-        if code in alternates and not alternates[code].endswith(f"?lang={code}"):
-            problem("index.html", f"hreflang {code} points at {alternates[code]}")
-    menu = {code: (href, lang) for code, href, lang in page.menu}
-    if list(menu) != codes:
-        problem("index.html", f"language menu {list(menu)}, i18n.js {codes} (same order)")
-    for code, (href, lang) in menu.items():
-        if href != f"?lang={code}" or lang != code:
-            problem("index.html", f"menu link {code}: href {href}, lang {lang}")
+        if name == "index.html":
+            alternates = dict(page.hreflang)
+            if set(alternates) != set(codes) | {"x-default"}:
+                problem(name, f"hreflang alternates {sorted(alternates)}, languages {codes} + x-default")
+            for code in codes:
+                if code in alternates and not alternates[code].endswith(f"?lang={code}"):
+                    problem(name, f"hreflang {code} points at {alternates[code]}")
+        menu = {code: (href, lang) for code, href, lang in page.menu}
+        if list(menu) != codes:
+            problem(name, f"language menu {list(menu)}, i18n.js {codes} (same order)")
+        for code, (href, lang) in menu.items():
+            if href != f"?lang={code}" or lang != code:
+                problem(name, f"menu link {code}: href {href}, lang {lang}")
 
     code_text = (ROOT / "app.js").read_text(encoding="utf-8") + (ROOT / "i18n.js").read_text(encoding="utf-8")
     for key in en:
         if key not in used and f"'{key}'" not in code_text:
-            problem("en.json", f"{key} is used by neither index.html nor app.js / i18n.js")
+            problem("en.json", f"{key} is used by no page ({', '.join(PAGES)}) nor app.js / i18n.js")
     for key in re.findall(r"""\bt\('([\w.-]+)'|plural\('([\w.-]+)'|: '((?:status|hero|download|help|copy)\.[\w.-]+)'""", code_text):
         key = next(k for k in key if k)
         if key not in en:

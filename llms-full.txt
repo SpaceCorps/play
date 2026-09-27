@@ -6,6 +6,7 @@
 - Machine Summary: https://spacecorps.github.io/play/llms.txt
 - Markdown Page: https://spacecorps.github.io/play/index.md
 - Release Feed: https://spacecorps.github.io/play/release.json
+- Patch Notes: https://spacecorps.github.io/play/patchnotes.md (JSON: https://spacecorps.github.io/play/patchnotes.json)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml
 - Organization Apex: https://spacecorps.github.io/
 

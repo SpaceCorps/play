@@ -1,6 +1,7 @@
 // SpaceCorps 2027 download site: offer the visitor's platform, fill in sizes and checksums from
-// release.json (written by the game's scripts/publish-release.sh), and show whether the game
-// server is up. Texts come from i18n.js (keys in i18n/<language>.json), and are written again
+// release.json (written by the game's scripts/publish-release.sh), show whether the game
+// server is up, and write the patch notes' dates in the visitor's language. The patch notes
+// page (patchnotes.html) has the top bar only: no downloads there. Texts come from i18n.js (keys in i18n/<language>.json), and are written again
 // when the visitor switches languages. No cookies, no third parties: the only requests are
 // release.json, the language files and the game server's /health; the only thing kept is the
 // visitor's language pick (i18n.js).
@@ -89,6 +90,7 @@
   $$('button[data-copy]').forEach((b) => wireCopy(b, () => $(b.dataset.copy).textContent, () => t('help.copy-command')));
 
   // ----- platform and release -----
+  const downloads = Boolean($('#dl-main')); // the main page, not patchnotes.html
   const os = detectOS();
   const mine = PLATFORMS[os];
   let release = null; // release.json once it is in
@@ -117,7 +119,7 @@
   }
 
   function paintMain() {
-    if (!texts) return;
+    if (!texts || !downloads) return;
     const a = offered();
     if (a) {
       setText($('#dl-main-label'), t('hero.download-for', { platform: mine.name }));
@@ -188,19 +190,29 @@
     });
   }
 
-  // Opening the matching first-launch help when the download starts.
-  $('#dl-main').addEventListener('click', () => {
-    if (offered()) {
-      const help = document.getElementById(mine.help);
-      if (help) help.open = true;
-    }
-  });
+  if (downloads) {
+    // Opening the matching first-launch help when the download starts.
+    $('#dl-main').addEventListener('click', () => {
+      if (offered()) {
+        const help = document.getElementById(mine.help);
+        if (help) help.open = true;
+      }
+    });
 
-  renderMain();
-  fetch('release.json', { cache: 'no-cache' })
-    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
-    .then(renderRelease)
-    .catch(() => { /* keep the static links */ });
+    renderMain();
+    fetch('release.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
+      .then(renderRelease)
+      .catch(() => { /* keep the static links */ });
+  }
+
+  // ----- patch notes -----
+  // The dates are written in English (25 September 2026) when the notes are generated; each is
+  // written out again in the page's language. The notes themselves stay English.
+  function paintDates() {
+    if (!texts) return;
+    $$('time[data-date]').forEach((el) => setText(el, I18N.date(el.getAttribute('datetime'))));
+  }
 
   // ----- game server status -----
   let server = DEFAULT_SERVER;
@@ -298,6 +310,7 @@
       paintMain();
       paintRelease();
       paintStatus();
+      paintDates();
     });
   }
 })();

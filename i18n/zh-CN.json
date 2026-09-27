@@ -9,6 +9,7 @@
   "nav.features": "特色",
   "nav.download": "下载",
   "nav.help": "帮助",
+  "nav.patchnotes": "更新日志",
 
   "lang.button": "语言：{language}",
 
@@ -108,6 +109,17 @@
   "reqs.memory": "4\u00a0GB 内存，推荐 8\u00a0GB",
   "reqs.disk": "400\u00a0MB 可用空间",
   "reqs.network": "宽带网络：SpaceCorps 仅支持在线游玩",
+
+  "patchnotes.title": "最新动态",
+  "patchnotes.lede": "最新一次更新。更新日志以英文撰写。",
+  "patchnotes.more": "{version} 的全部更新内容",
+  "patchnotes.all": "全部更新日志",
+  "patchnotes.latest": "最新",
+  "patchnotes.meta.title": "SpaceCorps 2027 · 更新日志",
+  "patchnotes.meta.description": "SpaceCorps 2027 的每一次更新，按从新到旧排列：每个版本为玩家带来了哪些变化。",
+  "patchnotes.heading": "更新日志",
+  "patchnotes.page-lede": "SpaceCorps 2027 的每一次更新，按从新到旧排列。日志以英文撰写。",
+  "patchnotes.download": "下载最新版本",
 
   "help.title": "首次启动",
   "help.lede": "安装包尚未经过 Apple 或 Microsoft 签名，因此首次打开游戏前，系统会询问一次。",

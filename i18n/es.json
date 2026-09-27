@@ -9,6 +9,7 @@
   "nav.features": "Características",
   "nav.download": "Descarga",
   "nav.help": "Ayuda",
+  "nav.patchnotes": "Parches",
 
   "lang.button": "Idioma: {language}",
 
@@ -109,6 +110,17 @@
   "reqs.memory": "4 GB de RAM, 8 GB recomendados",
   "reqs.disk": "400 MB libres",
   "reqs.network": "Internet de banda ancha: SpaceCorps solo se juega en línea",
+
+  "patchnotes.title": "Novedades",
+  "patchnotes.lede": "La última actualización. Las notas del parche están en inglés.",
+  "patchnotes.more": "Todas las novedades de {version}",
+  "patchnotes.all": "Todas las notas del parche",
+  "patchnotes.latest": "Última",
+  "patchnotes.meta.title": "SpaceCorps 2027 · Notas del parche",
+  "patchnotes.meta.description": "Cada actualización de SpaceCorps 2027, la más reciente primero: qué cambió para los jugadores en cada versión.",
+  "patchnotes.heading": "Notas del parche",
+  "patchnotes.page-lede": "Cada actualización de SpaceCorps 2027, la más reciente primero. Las notas están en inglés.",
+  "patchnotes.download": "Descargar la última versión",
 
   "help.title": "Primer inicio",
   "help.lede": "Las versiones aún no están firmadas por Apple ni por Microsoft, así que tu sistema te pedirá confirmación una vez antes de abrir el juego.",

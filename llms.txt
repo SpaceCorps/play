@@ -6,6 +6,7 @@
 - Markdown Representation: https://spacecorps.github.io/play/index.md
 - Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
 - Machine Release Feed: https://spacecorps.github.io/play/release.json
+- Patch Notes (every release, newest first): https://spacecorps.github.io/play/patchnotes.md (HTML: https://spacecorps.github.io/play/patchnotes.html, JSON: https://spacecorps.github.io/play/patchnotes.json)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml
 - GitHub Releases: https://github.com/SpaceCorps/play/releases
 - Issue Tracker: https://github.com/SpaceCorps/play/issues

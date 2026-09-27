@@ -9,6 +9,7 @@
   "nav.features": "特徴",
   "nav.download": "ダウンロード",
   "nav.help": "ヘルプ",
+  "nav.patchnotes": "パッチノート",
 
   "lang.button": "言語：{language}",
 
@@ -108,6 +109,17 @@
   "reqs.memory": "RAM 4\u00a0GB（8\u00a0GB 推奨）",
   "reqs.disk": "空き容量 400\u00a0MB",
   "reqs.network": "ブロードバンド接続（SpaceCorps はオンライン専用です）",
+
+  "patchnotes.title": "最新情報",
+  "patchnotes.lede": "最新のアップデートです。パッチノートは英語で書かれています。",
+  "patchnotes.more": "{version} のすべての変更点",
+  "patchnotes.all": "すべてのパッチノート",
+  "patchnotes.latest": "最新",
+  "patchnotes.meta.title": "SpaceCorps 2027 · パッチノート",
+  "patchnotes.meta.description": "SpaceCorps 2027 のすべてのアップデートを新しい順に。各バージョンでプレイヤーにとって何が変わったかをまとめています。",
+  "patchnotes.heading": "パッチノート",
+  "patchnotes.page-lede": "SpaceCorps 2027 のすべてのアップデートを新しい順に掲載しています。ノートは英語で書かれています。",
+  "patchnotes.download": "最新バージョンをダウンロード",
 
   "help.title": "初回起動",
   "help.lede": "ビルドはまだ Apple や Microsoft の署名を受けていないため、初回だけ、ゲームを開く前にシステムが確認を求めます。",

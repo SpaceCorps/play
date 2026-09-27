@@ -9,6 +9,7 @@
   "nav.features": "Innehåll",
   "nav.download": "Ladda ner",
   "nav.help": "Hjälp",
+  "nav.patchnotes": "Uppdateringar",
 
   "lang.button": "Språk: {language}",
 
@@ -109,6 +110,17 @@
   "reqs.memory": "4 GB RAM, 8 GB rekommenderas",
   "reqs.disk": "400 MB ledigt utrymme",
   "reqs.network": "Bredband: SpaceCorps spelas bara online",
+
+  "patchnotes.title": "Nyheter",
+  "patchnotes.lede": "Den senaste uppdateringen. Uppdateringsanteckningarna är skrivna på engelska.",
+  "patchnotes.more": "Allt nytt i {version}",
+  "patchnotes.all": "Alla uppdateringsanteckningar",
+  "patchnotes.latest": "Senaste",
+  "patchnotes.meta.title": "SpaceCorps 2027 · Uppdateringsanteckningar",
+  "patchnotes.meta.description": "Varje uppdatering av SpaceCorps 2027, den senaste först: vad som ändrades för spelarna i varje version.",
+  "patchnotes.heading": "Uppdateringsanteckningar",
+  "patchnotes.page-lede": "Varje uppdatering av SpaceCorps 2027, den senaste först. Anteckningarna är skrivna på engelska.",
+  "patchnotes.download": "Ladda ner den senaste versionen",
 
   "help.title": "Första starten",
   "help.lede": "Versionerna är ännu inte signerade av Apple eller Microsoft, så ditt system frågar en gång innan det öppnar spelet.",
