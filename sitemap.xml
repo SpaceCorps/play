@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://spacecorps.github.io/play/</loc>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://spacecorps.github.io/play/" />
@@ -14,38 +15,73 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://spacecorps.github.io/play/?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://spacecorps.github.io/play/?lang=ko" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://spacecorps.github.io/play/?lang=zh-CN" />
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://spacecorps.github.io/play/index.md</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://spacecorps.github.io/play/llms.txt</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://spacecorps.github.io/play/llms-full.txt</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/hero-ship-1190.webp</image:loc>
+      <image:title>SpaceCorps 2027 Flagship Starship</image:title>
+      <image:caption>Flagship cruiser in orbit in SpaceCorps 2027 space MMO simulator</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/combat-1600.webp</image:loc>
+      <image:title>SpaceCorps 2027 Fleet Combat</image:title>
+      <image:caption>Real-time multiplayer fleet combat with lasers, rockets and alien incursions</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/station-1600.webp</image:loc>
+      <image:title>SpaceCorps 2027 Orbital Station</image:title>
+      <image:caption>Corporate orbital space station docking, trading, and refinery systems</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/hangar-1600.webp</image:loc>
+      <image:title>SpaceCorps 2027 Starship Hangar</image:title>
+      <image:caption>Hangar interface with equipment configuration, weapon loadouts, and ship upgrades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/wraith-1600.webp</image:loc>
+      <image:title>SpaceCorps 2027 Wraith Interceptor</image:title>
+      <image:caption>Stealth assault fighter craft equipped for sector patrol and skirmishes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/galaxy-1600.webp</image:loc>
+      <image:title>SpaceCorps 2027 Galaxy Map</image:title>
+      <image:caption>Interactive galaxy map with sector routes, warp gates, and contested corporate zones</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://spacecorps.github.io/play/img/og.jpg</image:loc>
+      <image:title>SpaceCorps 2027 Official Artwork</image:title>
+      <image:caption>SpaceCorps 2027 space MMO game client for macOS, Windows and Linux</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://spacecorps.github.io/play/patchnotes.html</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/patchnotes.md</loc>
-    <lastmod>2026-09-27</lastmod>
+    <loc>https://spacecorps.github.io/play/index.md</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacecorps.github.io/play/llms.txt</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacecorps.github.io/play/llms-full.txt</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://spacecorps.github.io/play/patchnotes.md</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

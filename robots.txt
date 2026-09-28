@@ -1,6 +1,15 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /img/
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
 
@@ -26,3 +35,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://spacecorps.github.io/play/sitemap.xml
+Sitemap: https://spacecorps.github.io/sitemap.xml

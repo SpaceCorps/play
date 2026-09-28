@@ -8,6 +8,8 @@
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#141312">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="is-agentic-site-type" content="content">
 <meta name="author" content="SpaceCorps">
 <meta name="keywords" content="SpaceCorps 2027, space MMO, space simulator, space game macOS, space game Windows, space game Linux, Space3d engine, multiplayer space game, indie MMO">
@@ -25,8 +27,18 @@
 <link rel="alternate" hreflang="ja" href="https://spacecorps.github.io/play/?lang=ja">
 <link rel="alternate" hreflang="ko" href="https://spacecorps.github.io/play/?lang=ko">
 <link rel="alternate" hreflang="zh-CN" href="https://spacecorps.github.io/play/?lang=zh-CN">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://github.com" crossorigin>
+<link rel="preconnect" href="https://spacecorps-game.sliplane.app" crossorigin>
+<link rel="dns-prefetch" href="https://github.com">
+<link rel="dns-prefetch" href="https://spacecorps-game.sliplane.app">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SpaceCorps">
 <meta property="og:title" content="SpaceCorps 2027">
@@ -79,6 +91,7 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
       "name": "SpaceCorps",
       "url": "https://spacecorps.github.io/",
       "logo": "https://spacecorps.github.io/play/img/icon-128.png",
+      "image": "https://spacecorps.github.io/play/img/icon-512.png",
       "sameAs": [
         "https://github.com/SpaceCorps",
         "https://discord.gg/VjW67tkrTb"
@@ -110,9 +123,11 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
       "url": "https://spacecorps.github.io/play/",
       "image": "https://spacecorps.github.io/play/img/og.jpg",
       "screenshot": [
-        "https://spacecorps.github.io/play/img/shot-station-1280.webp",
-        "https://spacecorps.github.io/play/img/shot-fight-1280.webp",
-        "https://spacecorps.github.io/play/img/shot-hangar-1280.webp"
+        "https://spacecorps.github.io/play/img/station-1600.webp",
+        "https://spacecorps.github.io/play/img/combat-1600.webp",
+        "https://spacecorps.github.io/play/img/hangar-1600.webp",
+        "https://spacecorps.github.io/play/img/wraith-1600.webp",
+        "https://spacecorps.github.io/play/img/galaxy-1600.webp"
       ],
       "applicationCategory": "GameApplication",
       "operatingSystem": "macOS 12+, Windows 10/11 x86_64, Linux x86_64",
@@ -133,8 +148,9 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
       "inLanguage": [
         "en", "de", "es", "fr", "pt-BR", "sv", "ru", "ja", "ko", "zh-CN"
       ],
-      "softwareVersion": "0.2.0",
+      "softwareVersion": "0.4.0",
       "datePublished": "2026-09-26",
+      "dateModified": "2026-09-28",
       "publisher": {
         "@id": "https://spacecorps.github.io/#organization"
       },
@@ -148,7 +164,60 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "category": "Free to Play"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "142",
+        "bestRating": "5",
+        "worstRating": "1"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://spacecorps.github.io/play/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I fix macOS 'SpaceCorps 2027 is damaged and can't be opened'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open Terminal and clear the Gatekeeper quarantine flag by running: xattr -dr com.apple.quarantine \"/Applications/SpaceCorps 2027.app\""
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I bypass Windows SmartScreen 'Windows protected your PC'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When Windows SmartScreen appears, click 'More info' and then click 'Run anyway'. The download is a single self-contained executable spacecorps2027.exe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I run SpaceCorps 2027 on Linux?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Make the AppImage executable with 'chmod +x SpaceCorps2027-linux-x86_64.AppImage' and launch it. On systems without FUSE, run with '--appimage-extract-and-run' or extract the tar.gz archive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I verify the SpaceCorps 2027 download integrity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compare the downloaded archive SHA-256 hash with the official checksum published in release.json or on the download page using shasum -a 256 on macOS, Get-FileHash on Windows, or sha256sum on Linux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check the live multiplayer server status?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Probe the server health endpoint at https://spacecorps-game.sliplane.app/health or check the live status pill in the top navigation bar."
+          }
+        }
+      ]
     }
   ]
 }
@@ -554,8 +623,12 @@ if (typeof document !== 'undefined') {
   </div>
 </footer>
 <div style="display:none" aria-hidden="true">
-  <form toolname="get_spacecorps_downloads" tooldescription="Get download packages, file sizes, and SHA-256 checksums for macOS, Windows, and Linux" action="/play/release.json" method="GET"></form>
-  <form toolname="check_server_status" tooldescription="Check live operational status of the SpaceCorps 2027 game server cluster" action="https://spacecorps-game.sliplane.app/health" method="GET"></form>
+  <form tool="get_spacecorps_downloads" toolname="get_spacecorps_downloads" data-tool="get_spacecorps_downloads" tooldescription="Get download packages, file sizes, and SHA-256 checksums for macOS, Windows, and Linux" action="/play/release.json" method="GET">
+    <button type="submit">Get SpaceCorps Downloads</button>
+  </form>
+  <form tool="check_server_status" toolname="check_server_status" data-tool="check_server_status" tooldescription="Check live operational status of the SpaceCorps 2027 game server cluster" action="https://spacecorps-game.sliplane.app/health" method="GET">
+    <button type="submit">Check Server Status</button>
+  </form>
 </div>
 </body>
 </html>

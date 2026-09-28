@@ -1,0 +1,7 @@
+{
+  "resource": "https://spacecorps.github.io/play",
+  "authorization_servers": ["https://spacecorps-game.sliplane.app"],
+  "bearer_methods_supported": ["header"],
+  "resource_documentation": "https://spacecorps.github.io/play/llms.txt",
+  "scopes_supported": ["read"]
+}
