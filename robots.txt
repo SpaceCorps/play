@@ -36,3 +36,4 @@ Allow: /
 
 Sitemap: https://spacecorps.github.io/play/sitemap.xml
 Sitemap: https://spacecorps.github.io/sitemap.xml
+schemamap: https://spacecorps.github.io/sitemap.xml

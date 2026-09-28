@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "spacecorps_agent_tools",
+  "name_for_human": "SpaceCorps Agent Tools & Game Simulation",
+  "description_for_model": "SpaceCorps provides programmatic access to multiplayer game telemetry, orbital mechanics, releases, and native Rust CLI systems.",
+  "description_for_human": "Interact with SpaceCorps 2027 game servers, binary releases, and agent systems.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://spacecorps.github.io/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://spacecorps.github.io/og-image.png",
+  "contact_email": "contact@spacecorps.dev",
+  "legal_info_url": "https://spacecorps.github.io/terms.html"
+}

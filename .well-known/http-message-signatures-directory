@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "kid": "spacecorps-bot-2027",
+      "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrGwuOf568Jw",
+      "nbf": 1704067200,
+      "exp": 1893456000
+    }
+  ]
+}

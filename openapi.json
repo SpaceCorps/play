@@ -1,0 +1,1569 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "spaceemit electron emission API",
+    "version": "0.1.0",
+    "description": "Thermal-field electron emission from metal and semiconductor surfaces: current density, Nottingham heat, energy spectra, barrier, transmission and I\u2013V fitting. Energies in eV with the vacuum level at the surface = 0 and the Fermi level at \u2212W; spectrum and transmission energies are relative to E_F. See docs/emission-api.md. Deprecation policy: APIs are versioned in the URL path (/v1). Breaking changes introduce a new major version. Sunset and Deprecation headers are signaled 90 days before retirement.",
+    "x-versioning-policy": "URL path versioning (/v1). Deprecations announced via Sunset and Deprecation headers with 90-day grace period."
+  },
+  "servers": [
+    {
+      "url": "https://spaceemit-api.sliplane.app",
+      "description": "Production Hosted Instance (Rate-Limited)"
+    },
+    {
+      "url": "http://localhost:8741",
+      "description": "Self-Hosted Local Instance"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Liveness",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "const": "ok"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        },
+        "operationId": "getHealth"
+      }
+    },
+    "/v1/info": {
+      "get": {
+        "summary": "Version, defaults, units, endpoints, models and citations",
+        "responses": {
+          "200": {
+            "description": "Service description",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        },
+        "operationId": "getServiceInfo"
+      }
+    },
+    "/v1/emission": {
+      "post": {
+        "summary": "Batch current density and Nottingham heat",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmissionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Columnar results; failed points are null and listed in errors",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmissionResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        },
+        "operationId": "computeEmission",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ]
+      }
+    },
+    "/v1/spectra": {
+      "post": {
+        "summary": "Total, normal and parallel energy distributions of one point",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/Point"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "points": {
+                        "type": "integer",
+                        "minimum": 8,
+                        "default": 256,
+                        "description": "Samples per distribution"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Spectra",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "currentDensity": {
+                      "type": "number",
+                      "description": "A/nm^2"
+                    },
+                    "nottinghamHeat": {
+                      "type": "number",
+                      "description": "W/nm^2"
+                    },
+                    "totalEnergyDistribution": {
+                      "$ref": "#/components/schemas/Distribution"
+                    },
+                    "normalEnergyDistribution": {
+                      "$ref": "#/components/schemas/Distribution"
+                    },
+                    "parallelEnergyDistribution": {
+                      "$ref": "#/components/schemas/Distribution"
+                    },
+                    "sumRules": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      },
+                      "description": "Integral of each distribution divided by J (total, normal, parallel)"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        },
+        "operationId": "computeEnergySpectra",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ]
+      }
+    },
+    "/v1/barrier": {
+      "post": {
+        "summary": "Barrier potential profile and top",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "field"
+                ],
+                "properties": {
+                  "field": {
+                    "type": "number",
+                    "description": "V/nm"
+                  },
+                  "radius": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "nm; null = planar"
+                  },
+                  "gamma": {
+                    "type": "number",
+                    "default": 10
+                  },
+                  "distance": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "description": "nm"
+                  },
+                  "points": {
+                    "type": "integer",
+                    "description": "Log-spaced samples from 0.05 nm to maxDistance"
+                  },
+                  "maxDistance": {
+                    "type": "number",
+                    "description": "nm"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Barrier",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "distance": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "potential": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      },
+                      "description": "eV relative to the vacuum level"
+                    },
+                    "topDistance": {
+                      "type": "number",
+                      "description": "nm"
+                    },
+                    "topPotential": {
+                      "type": "number",
+                      "description": "eV relative to the vacuum level"
+                    },
+                    "topHbarOmega": {
+                      "type": "number",
+                      "description": "eV"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        },
+        "operationId": "computeBarrier",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ]
+      }
+    },
+    "/v1/transmission": {
+      "post": {
+        "summary": "Transmission probability vs normal energy for one point",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "allOf": [
+                  {
+                    "$ref": "#/components/schemas/Point"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "energy": {
+                        "oneOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        ],
+                        "description": "Normal energy relative to E_F (eV)"
+                      },
+                      "points": {
+                        "type": "integer",
+                        "default": 101,
+                        "description": "Evenly spaced energies from max(E_F - 3 eV, band bottom) to barrier top + 1 eV"
+                      },
+                      "parallelEnergy": {
+                        "type": "number",
+                        "default": 0,
+                        "description": "eV"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Transmission",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "energy": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "transmission": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "logTransmission": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "gamow": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "kemble": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        },
+        "operationId": "computeTransmission",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ]
+      }
+    },
+    "/v1/iv-fit": {
+      "post": {
+        "summary": "Fit measured I\u2013V data",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "voltage",
+                  "current",
+                  "workFunction"
+                ],
+                "properties": {
+                  "voltage": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "description": "V"
+                  },
+                  "current": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "description": "A"
+                  },
+                  "workFunction": {
+                    "type": "number"
+                  },
+                  "radius": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "gamma": {
+                    "type": "number"
+                  },
+                  "temperature": {
+                    "type": "number"
+                  },
+                  "effectiveMass": {
+                    "type": "number"
+                  },
+                  "bandDepth": {
+                    "type": "number"
+                  },
+                  "fit": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "radius",
+                        "gamma",
+                        "workFunction",
+                        "temperature"
+                      ]
+                    },
+                    "description": "Extra parameters to fit (beta and area are always fitted)"
+                  },
+                  "initialBeta": {
+                    "type": "number",
+                    "description": "Starting beta (1/nm); default from a Fowler-Nordheim plot"
+                  },
+                  "maxIterations": {
+                    "type": "integer",
+                    "default": 60
+                  },
+                  "bounds": {
+                    "type": "object",
+                    "description": "Any subset; missing entries keep their defaults",
+                    "additionalProperties": false,
+                    "properties": {
+                      "beta": {
+                        "$ref": "#/components/schemas/Range"
+                      },
+                      "radius": {
+                        "$ref": "#/components/schemas/Range"
+                      },
+                      "gamma": {
+                        "$ref": "#/components/schemas/Range"
+                      },
+                      "workFunction": {
+                        "$ref": "#/components/schemas/Range"
+                      },
+                      "temperature": {
+                        "$ref": "#/components/schemas/Range"
+                      }
+                    }
+                  },
+                  "options": {
+                    "$ref": "#/components/schemas/Options"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Fit result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "converged": {
+                      "type": "boolean"
+                    },
+                    "iterations": {
+                      "type": "integer"
+                    },
+                    "rmsLogResidual": {
+                      "type": "number"
+                    },
+                    "beta": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "area": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "radius": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "gamma": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "workFunction": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "temperature": {
+                      "$ref": "#/components/schemas/Estimate"
+                    },
+                    "voltage": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "current": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "field": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    },
+                    "fittedCurrent": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        },
+        "operationId": "fitCurrentVoltage",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ]
+      }
+    },
+    "/v1/batch": {
+      "post": {
+        "summary": "Execute batch / bulk operations",
+        "description": "Atomic or sequential execution of multiple API operations in a single HTTP request.",
+        "operationId": "executeBatchOperations",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "All batch operations executed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BatchResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/v1/jobs": {
+      "post": {
+        "summary": "Submit long-running asynchronous simulation job",
+        "description": "Returns 202 Accepted with a Location header and polling URL for long-running physics or batch tasks.",
+        "operationId": "createAsyncJob",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/IdempotencyKey"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "job_type": {
+                    "type": "string",
+                    "example": "emission_spectrum_sweep"
+                  },
+                  "parameters": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "job_type"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Accepted for background execution",
+            "headers": {
+              "Location": {
+                "description": "Relative or absolute URL to poll the job status",
+                "schema": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "Retry-After": {
+                "description": "Recommended delay before polling again",
+                "schema": {
+                  "type": "integer",
+                  "default": 5
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobStatus"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      },
+      "get": {
+        "summary": "List recent simulation jobs",
+        "description": "Paginated list of asynchronous jobs submitted to the cluster.",
+        "operationId": "listAsyncJobs",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/Cursor"
+          },
+          {
+            "$ref": "#/components/parameters/Limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated job listings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jobs": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/JobStatus"
+                      }
+                    },
+                    "pagination": {
+                      "$ref": "#/components/schemas/PaginationMeta"
+                    }
+                  },
+                  "required": [
+                    "jobs",
+                    "pagination"
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/v1/jobs/{job_id}": {
+      "get": {
+        "summary": "Poll asynchronous simulation job status",
+        "description": "Retrieve status, progress, and results for a background job.",
+        "operationId": "getAsyncJob",
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "description": "Job ID returned from POST /v1/jobs",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Current job status and result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobStatus"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalServerError"
+          },
+          "default": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Range": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 2,
+        "maxItems": 2,
+        "description": "[lower, upper]"
+      },
+      "NumOrArray": {
+        "oneOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        ]
+      },
+      "Options": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "exact",
+              "wkb"
+            ],
+            "default": "exact"
+          },
+          "tolerance": {
+            "type": "number",
+            "default": 1e-06
+          }
+        }
+      },
+      "Point": {
+        "type": "object",
+        "required": [
+          "field",
+          "workFunction"
+        ],
+        "properties": {
+          "field": {
+            "type": "number",
+            "description": "Local field (V/nm)"
+          },
+          "radius": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Radius of curvature (nm); null = planar"
+          },
+          "gamma": {
+            "type": "number",
+            "default": 10
+          },
+          "workFunction": {
+            "type": "number",
+            "description": "eV"
+          },
+          "temperature": {
+            "type": "number",
+            "default": 300,
+            "description": "K"
+          },
+          "effectiveMass": {
+            "type": "number",
+            "default": 1,
+            "description": "m_e"
+          },
+          "bandDepth": {
+            "type": "number",
+            "default": 10,
+            "description": "eV"
+          },
+          "options": {
+            "$ref": "#/components/schemas/Options"
+          }
+        }
+      },
+      "EmissionRequest": {
+        "type": "object",
+        "required": [
+          "field",
+          "workFunction"
+        ],
+        "properties": {
+          "field": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "radius": {
+            "oneOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
+            ],
+            "description": "nm; omit or null for planar"
+          },
+          "gamma": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "workFunction": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "temperature": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "effectiveMass": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "bandDepth": {
+            "$ref": "#/components/schemas/NumOrArray"
+          },
+          "options": {
+            "$ref": "#/components/schemas/Options"
+          }
+        }
+      },
+      "EmissionResponse": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          },
+          "currentDensity": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "A/nm^2"
+          },
+          "nottinghamHeat": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "W/nm^2; negative = emitter heated"
+          },
+          "meanEnergy": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "eV relative to E_F"
+          },
+          "barrierTop": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "description": "eV relative to E_F"
+          },
+          "regime": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "field",
+                "intermediate",
+                "thermionic",
+                null
+              ]
+            }
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PointError"
+            }
+          },
+          "elapsedMs": {
+            "type": "number"
+          }
+        }
+      },
+      "PointError": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "integer"
+          },
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "Distribution": {
+        "type": "object",
+        "properties": {
+          "energy": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "eV (relative to E_F; parallel energy >= 0)"
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "description": "A/nm^2/eV"
+          }
+        }
+      },
+      "Estimate": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "sigma": {
+            "type": "number",
+            "description": "One standard deviation; 0 if held fixed"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string",
+                "enum": [
+                  "invalid_json",
+                  "invalid_request",
+                  "invalid_parameter",
+                  "no_barrier",
+                  "length_mismatch",
+                  "fit_failed",
+                  "payload_too_large",
+                  "batch_too_large",
+                  "not_found"
+                ]
+              },
+              "message": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "required": [
+          "type",
+          "title",
+          "status"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "format": "uri",
+            "example": "about:blank"
+          },
+          "title": {
+            "type": "string",
+            "example": "Bad Request"
+          },
+          "status": {
+            "type": "integer",
+            "example": 400
+          },
+          "detail": {
+            "type": "string",
+            "example": "Invalid parameter value provided."
+          },
+          "code": {
+            "type": "string",
+            "example": "invalid_parameter"
+          }
+        }
+      },
+      "PaginationMeta": {
+        "type": "object",
+        "properties": {
+          "cursor": {
+            "type": "string",
+            "nullable": true,
+            "description": "Pointer to next page cursor."
+          },
+          "has_more": {
+            "type": "boolean",
+            "description": "True if more records exist beyond this page."
+          },
+          "next_cursor": {
+            "type": "string",
+            "nullable": true,
+            "description": "Opaque token for the next page."
+          },
+          "total_count": {
+            "type": "integer",
+            "description": "Total number of items in the dataset."
+          }
+        },
+        "required": [
+          "has_more"
+        ]
+      },
+      "JobStatus": {
+        "type": "object",
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Unique asynchronous job identifier."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "running",
+              "completed",
+              "failed"
+            ],
+            "description": "Current execution lifecycle state."
+          },
+          "poll_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Endpoint URL to poll for job progress."
+          },
+          "progress": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Fractional completion from 0.0 to 1.0."
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "result": {
+            "type": "object",
+            "nullable": true,
+            "description": "Output payload upon completion."
+          },
+          "error": {
+            "$ref": "#/components/schemas/Error",
+            "nullable": true
+          }
+        },
+        "required": [
+          "job_id",
+          "status",
+          "poll_url"
+        ]
+      },
+      "BatchOperation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Client-assigned correlation ID."
+          },
+          "method": {
+            "type": "string",
+            "enum": [
+              "GET",
+              "POST",
+              "PUT",
+              "DELETE"
+            ],
+            "description": "HTTP method."
+          },
+          "path": {
+            "type": "string",
+            "description": "Relative endpoint path."
+          },
+          "body": {
+            "type": "object",
+            "nullable": true,
+            "description": "Optional operation body."
+          }
+        },
+        "required": [
+          "id",
+          "method",
+          "path"
+        ]
+      },
+      "BatchRequest": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BatchOperation"
+            },
+            "description": "List of operations to execute atomically or in sequence."
+          }
+        },
+        "required": [
+          "operations"
+        ]
+      },
+      "BatchOperationResult": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer",
+            "example": 200
+          },
+          "headers": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "body": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "body"
+        ]
+      },
+      "BatchResponse": {
+        "type": "object",
+        "properties": {
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BatchOperationResult"
+            }
+          }
+        },
+        "required": [
+          "results"
+        ]
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "Bad Request / Parameter Validation Failure (400)",
+        "headers": {
+          "RateLimit-Limit": {
+            "description": "The request quota in the current time window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Remaining": {
+            "description": "Remaining requests in the current window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Reset": {
+            "description": "Seconds until the rate limit resets",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          },
+          "application/problem+json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProblemDetails"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "Resource Not Found (404)",
+        "headers": {
+          "RateLimit-Limit": {
+            "description": "The request quota in the current time window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Remaining": {
+            "description": "Remaining requests in the current window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Reset": {
+            "description": "Seconds until the rate limit resets",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          },
+          "application/problem+json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProblemDetails"
+            }
+          }
+        }
+      },
+      "TooManyRequests": {
+        "description": "Rate limit exceeded (429)",
+        "headers": {
+          "Retry-After": {
+            "description": "Seconds until rate limit quota resets",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Limit": {
+            "description": "The request quota in the current time window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Remaining": {
+            "description": "Remaining requests in the current window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Reset": {
+            "description": "Seconds until the rate limit resets",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          },
+          "application/problem+json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProblemDetails"
+            }
+          }
+        }
+      },
+      "InternalServerError": {
+        "description": "Internal Server Error (500)",
+        "headers": {
+          "RateLimit-Limit": {
+            "description": "The request quota in the current time window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Remaining": {
+            "description": "Remaining requests in the current window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Reset": {
+            "description": "Seconds until the rate limit resets",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          },
+          "application/problem+json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProblemDetails"
+            }
+          }
+        }
+      },
+      "Error": {
+        "description": "Standard error response",
+        "headers": {
+          "Retry-After": {
+            "description": "Seconds until rate limit quota resets",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Limit": {
+            "description": "The request quota in the current time window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Remaining": {
+            "description": "Remaining requests in the current window",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          "RateLimit-Reset": {
+            "description": "Seconds until the rate limit resets",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          },
+          "application/problem+json": {
+            "schema": {
+              "$ref": "#/components/schemas/ProblemDetails"
+            }
+          }
+        }
+      }
+    },
+    "parameters": {
+      "IdempotencyKey": {
+        "name": "Idempotency-Key",
+        "in": "header",
+        "required": false,
+        "description": "Unique UUID string to ensure idempotent retries on state-mutating operations.",
+        "schema": {
+          "type": "string",
+          "format": "uuid"
+        }
+      },
+      "Cursor": {
+        "name": "cursor",
+        "in": "query",
+        "required": false,
+        "description": "Opaque pagination cursor for fetching the next page of results.",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "Limit": {
+        "name": "limit",
+        "in": "query",
+        "required": false,
+        "description": "Maximum number of items to return in a single page (1 to 100).",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "default": 20
+        }
+      }
+    }
+  }
+}

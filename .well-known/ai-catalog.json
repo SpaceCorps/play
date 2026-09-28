@@ -1,8 +1,5 @@
 {
-  "$schema": "https://ai-catalog.io/schemas/v1/catalog.json",
   "specVersion": "1.0",
-  "name": "SpaceCorps 2027 Agentic Resources",
-  "description": "Public catalog of SpaceCorps 2027 game release feeds, server telemetry, and agent manuals.",
   "entries": [
     {
       "identifier": "urn:air:spacecorps.github.io:play:game-release-catalog",
@@ -14,18 +11,53 @@
         "ChecksumVerification",
         "PlatformAssetResolution"
       ],
-      "description": "Cryptographic release catalog and direct download resolution for SpaceCorps 2027 client binaries across macOS, Windows, and Linux."
+      "description": "Cryptographic release catalog and direct download resolution for SpaceCorps 2027 client binaries across macOS, Windows, and Linux.",
+      "representativeQueries": [
+        "download SpaceCorps 2027 for macOS",
+        "verify SpaceCorps 2027 release sha256 checksum",
+        "SpaceCorps 2027 Linux AppImage download",
+        "latest SpaceCorps 2027 Windows release"
+      ],
+      "trustManifest": {
+        "identity": {
+          "type": "domain",
+          "domain": "spacecorps.github.io"
+        },
+        "attestations": [
+          {
+            "type": "repository",
+            "url": "https://github.com/spacecorps/play"
+          }
+        ]
+      }
     },
     {
       "identifier": "urn:air:spacecorps.github.io:play:server-telemetry",
       "displayName": "SpaceCorps 2027 Game Server Telemetry",
       "type": "application/json",
-      "url": "https://spacecorps-game.sliplane.app/health",
+      "url": "https://spaceemit-api.sliplane.app/health",
       "capabilities": [
         "ServerHealthProbe",
         "MultiplayerStatus"
       ],
-      "description": "Live health and status endpoint for SpaceCorps 2027 dedicated game server clusters on Sliplane."
+      "description": "Live health and status endpoint for SpaceCorps 2027 dedicated game server clusters.",
+      "representativeQueries": [
+        "is SpaceCorps 2027 server online",
+        "check SpaceCorps multiplayer server health",
+        "SpaceCorps game server ping"
+      ],
+      "trustManifest": {
+        "identity": {
+          "type": "domain",
+          "domain": "spacecorps.github.io"
+        },
+        "attestations": [
+          {
+            "type": "repository",
+            "url": "https://github.com/spacecorps/play"
+          }
+        ]
+      }
     },
     {
       "identifier": "urn:air:spacecorps.github.io:play:agent-manual",
@@ -37,7 +69,53 @@
         "AutomatedInstallation",
         "Troubleshooting"
       ],
-      "description": "Standardized instructions and operating procedures for AI agents automating SpaceCorps 2027 installation, verification, and execution."
+      "description": "Standardized instructions and operating procedures for AI agents automating SpaceCorps 2027 installation, verification, and execution.",
+      "representativeQueries": [
+        "how to install SpaceCorps 2027 on Linux without fuse",
+        "remove macos quarantine for SpaceCorps 2027",
+        "SpaceCorps 2027 system requirements"
+      ],
+      "trustManifest": {
+        "identity": {
+          "type": "domain",
+          "domain": "spacecorps.github.io"
+        },
+        "attestations": [
+          {
+            "type": "repository",
+            "url": "https://github.com/spacecorps/play"
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "urn:air:spacecorps.github.io:systems-hub",
+      "displayName": "SpaceCorps Systems, Simulation & Agent Hub",
+      "type": "text/markdown",
+      "url": "https://spacecorps.github.io/llms.txt",
+      "capabilities": [
+        "SystemCatalog",
+        "RustToolOrchestration",
+        "ScientificSimulation"
+      ],
+      "description": "Comprehensive agentic index of 29 native Rust CLIs, Space3d Engine, Space3d-Molecular simulation physics, and mobile AI inference libraries.",
+      "representativeQueries": [
+        "list SpaceCorps native Rust CLIs",
+        "Space3d atomistic molecular dynamics spacemd",
+        "SpaceCorps Cargo sparse registry setup"
+      ],
+      "trustManifest": {
+        "identity": {
+          "type": "domain",
+          "domain": "spacecorps.github.io"
+        },
+        "attestations": [
+          {
+            "type": "repository",
+            "url": "https://github.com/spacecorps/spacecorps.github.io"
+          }
+        ]
+      }
     }
   ]
 }
