@@ -1,0 +1,7 @@
+{
+  "_meta": {
+    "response_type": "text",
+    "version": "1.0"
+  },
+  "answer": "SpaceCorps engineers high-performance native Rust systems, the Space3d game engine, and scientific simulation tools. AI agents can access services via MCP or REST."
+}

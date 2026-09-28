@@ -1,0 +1,16 @@
+# SpaceCorps API · LLM Agent Index
+
+> Machine-readable REST API documentation, schemas, and endpoint specifications for SpaceCorps simulation clusters and game servers.
+
+- OpenAPI JSON: https://spacecorps.github.io/openapi.json
+- OpenAPI YAML: https://spacecorps.github.io/openapi.yaml
+- Authentication: https://spacecorps.github.io/auth.md
+- Base URL: https://spaceemit-api.sliplane.app
+- Model Context Protocol (MCP): https://spacecorps.github.io/server.json
+
+## Endpoints
+- `GET /health`: Cluster health and readiness.
+- `GET /api/v1/telemetry`: Active physics simulation and player counts.
+- `POST /v1/batch`: Batch / bulk request execution.
+- `POST /v1/jobs`: Asynchronous simulation job creation (returns 202 Accepted).
+- `GET /v1/jobs/{job_id}`: Poll asynchronous job execution status.

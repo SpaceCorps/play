@@ -2,11 +2,238 @@
   "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
   "skills": [
     {
+      "name": "spacecorps",
+      "type": "skill-md",
+      "description": "Use when you need to orchestrate SpaceCorps CLI tools, execute pure-Rust molecular dynamics (spacemd), and calculate thermal-field electron emission (spaceemit). Use when asked to run high-speed atomistic simulations, compute electron emission physics, deploy Sliplane services, query Cloudflare DNS, or automate agent workflows.",
+      "url": "https://spacecorps.github.io/.well-known/agent-skills/spacecorps/SKILL.md",
+      "digest": "sha256:ed9cef81fc058765cf2d369ab13258d57083ae8f219a6dec0b18924885c9345e",
+      "when_to_use": "Use when automating spacecorps operations, tool-calling via CLI, or integrating spacecorps in agent pipelines.",
+      "whenToUse": "Use when automating spacecorps operations, tool-calling via CLI, or integrating spacecorps in agent pipelines."
+    },
+    {
       "name": "spacecorps-2027",
       "type": "skill-md",
-      "description": "Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.",
+      "description": "Use when you need to download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.",
       "url": "https://spacecorps.github.io/play/.well-known/agent-skills/spacecorps-2027/SKILL.md",
-      "digest": "sha256:ca554380fb9e20943f1a98c111b54c82a6035e87c697046f3f83bf6b2d3764d8"
+      "digest": "sha256:ca554380fb9e20943f1a98c111b54c82a6035e87c697046f3f83bf6b2d3764d8",
+      "when_to_use": "Use when automating spacecorps-2027 operations, tool-calling via CLI, or integrating spacecorps-2027 in agent pipelines.",
+      "whenToUse": "Use when automating spacecorps-2027 operations, tool-calling via CLI, or integrating spacecorps-2027 in agent pipelines."
+    },
+    {
+      "name": "sliplane-cli",
+      "description": "Use when you need to deploy web services, provision managed Postgres databases, query compute metrics, and manage S3 storage on Sliplane via Rust CLI.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Sliplane-Cli/llms.txt",
+      "digest": "sha256:722eec746f1e5b2c66e2b7587143ea185ad7adce1addcda2115b2075d92a6759",
+      "when_to_use": "Use when automating sliplane-cli operations, tool-calling via CLI, or integrating sliplane-cli in agent pipelines.",
+      "whenToUse": "Use when automating sliplane-cli operations, tool-calling via CLI, or integrating sliplane-cli in agent pipelines."
+    },
+    {
+      "name": "exa-cli",
+      "description": "Use when you need to execute neural search, semantic filtering, content extraction, and similar link retrieval via Exa AI API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Exa-Cli/llms.txt",
+      "digest": "sha256:9f40d3cea75e2f2c6da036fff3f260f8af6aab83831e87ae9f2e3099fee2eed0",
+      "when_to_use": "Use when automating exa-cli operations, tool-calling via CLI, or integrating exa-cli in agent pipelines.",
+      "whenToUse": "Use when automating exa-cli operations, tool-calling via CLI, or integrating exa-cli in agent pipelines."
+    },
+    {
+      "name": "firecrawl-cli",
+      "description": "Use when you need to scrape web pages to markdown, crawl domains, perform semantic search, and map websites via Firecrawl API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Firecrawl-Cli/llms.txt",
+      "digest": "sha256:8edc27f5fc929cb2a12a98a86ec75c9f7bfeb026a86f8abb4a3ab10aa17d60fe",
+      "when_to_use": "Use when automating firecrawl-cli operations, tool-calling via CLI, or integrating firecrawl-cli in agent pipelines.",
+      "whenToUse": "Use when automating firecrawl-cli operations, tool-calling via CLI, or integrating firecrawl-cli in agent pipelines."
+    },
+    {
+      "name": "cloudflare-cli",
+      "description": "Use when you need to manage Cloudflare DNS records, zones, page rules, and purge cache via Cloudflare v4 API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Cloudflare-Cli/llms.txt",
+      "digest": "sha256:9d2174ffbb73264c478b5733962e9260acd38b44f980abfa9ca0a4e3e90a3ad0",
+      "when_to_use": "Use when automating cloudflare-cli operations, tool-calling via CLI, or integrating cloudflare-cli in agent pipelines.",
+      "whenToUse": "Use when automating cloudflare-cli operations, tool-calling via CLI, or integrating cloudflare-cli in agent pipelines."
+    },
+    {
+      "name": "spaceship-cli",
+      "description": "Use when you need to manage domain registration, nameservers, DNS records, and hosting services via Spaceship API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Spaceship-Cli/llms.txt",
+      "digest": "sha256:2849bec329f073eea47ad190c009e0653d165e7d9157703c93768054d7236ad1",
+      "when_to_use": "Use when automating spaceship-cli operations, tool-calling via CLI, or integrating spaceship-cli in agent pipelines.",
+      "whenToUse": "Use when automating spaceship-cli operations, tool-calling via CLI, or integrating spaceship-cli in agent pipelines."
+    },
+    {
+      "name": "reddit-cli",
+      "description": "Use when you need to scrape Reddit subreddits, posts, top comments, and community discussions via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Reddit-Cli/llms.txt",
+      "digest": "sha256:9aee621ec889f68e83680090ebe689cf1805216a8d58a042966b4379fd0d5642",
+      "when_to_use": "Use when automating reddit-cli operations, tool-calling via CLI, or integrating reddit-cli in agent pipelines.",
+      "whenToUse": "Use when automating reddit-cli operations, tool-calling via CLI, or integrating reddit-cli in agent pipelines."
+    },
+    {
+      "name": "twitter-cli",
+      "description": "Use when you need to search and scrape tweets, user timelines, and conversation threads on X / Twitter via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Twitter-Cli/llms.txt",
+      "digest": "sha256:8d82e81342af5e67d0afae35394e1ffa8091b0259e12500a3c46666a94279d23",
+      "when_to_use": "Use when automating twitter-cli operations, tool-calling via CLI, or integrating twitter-cli in agent pipelines.",
+      "whenToUse": "Use when automating twitter-cli operations, tool-calling via CLI, or integrating twitter-cli in agent pipelines."
+    },
+    {
+      "name": "linkedin-cli",
+      "description": "Use when you need to fetch LinkedIn company profiles, organizational details, and posts via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/.well-known/agent-instructions.md",
+      "digest": "sha256:8a1e7199e14f17bbc0a2397334da9a305b7cc4fd38ccc72b2b0644525d7abed7",
+      "when_to_use": "Use when automating linkedin-cli operations, tool-calling via CLI, or integrating linkedin-cli in agent pipelines.",
+      "whenToUse": "Use when automating linkedin-cli operations, tool-calling via CLI, or integrating linkedin-cli in agent pipelines."
+    },
+    {
+      "name": "youtube-cli",
+      "description": "Use when you need to search and scrape YouTube video metadata, channels, playlists, and transcripts via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Youtube-Cli/llms.txt",
+      "digest": "sha256:4c0e8d7ea57413ace40612dd1ea8725544c06b933b7f0e77a97f12dbdc80ab7f",
+      "when_to_use": "Use when automating youtube-cli operations, tool-calling via CLI, or integrating youtube-cli in agent pipelines.",
+      "whenToUse": "Use when automating youtube-cli operations, tool-calling via CLI, or integrating youtube-cli in agent pipelines."
+    },
+    {
+      "name": "tiktok-cli",
+      "description": "Use when you need to scrape TikTok profiles, user videos, trending hashtags, and sounds via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/TikTok-Cli/llms.txt",
+      "digest": "sha256:e50802c15962424104864112642580052e080c53272d90c19c667909470f208d",
+      "when_to_use": "Use when automating tiktok-cli operations, tool-calling via CLI, or integrating tiktok-cli in agent pipelines.",
+      "whenToUse": "Use when automating tiktok-cli operations, tool-calling via CLI, or integrating tiktok-cli in agent pipelines."
+    },
+    {
+      "name": "producthunt-cli",
+      "description": "Use when you need to search and scrape Product Hunt product launches, maker details, and trending tech via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Producthunt-Cli/llms.txt",
+      "digest": "sha256:fd008e31bd8101b54fde0df74b6691217ea942b3312e2daa10f462499a46b6f3",
+      "when_to_use": "Use when automating producthunt-cli operations, tool-calling via CLI, or integrating producthunt-cli in agent pipelines.",
+      "whenToUse": "Use when automating producthunt-cli operations, tool-calling via CLI, or integrating producthunt-cli in agent pipelines."
+    },
+    {
+      "name": "stackoverflow-cli",
+      "description": "Use when you need to search Stack Overflow questions, tag archives, accepted answers, and developer solutions via Apify.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Stackoverflow-Cli/llms.txt",
+      "digest": "sha256:b2dcf15ca4e45507667fd7b49a66d566f469500621e24e44d31447fbe0fa1bdd",
+      "when_to_use": "Use when automating stackoverflow-cli operations, tool-calling via CLI, or integrating stackoverflow-cli in agent pipelines.",
+      "whenToUse": "Use when automating stackoverflow-cli operations, tool-calling via CLI, or integrating stackoverflow-cli in agent pipelines."
+    },
+    {
+      "name": "loopia-cli",
+      "description": "Use when you need to automate domain administration, DNS records, subdomains, and invoice management via Loopia XML-RPC API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Loopia-Cli/llms.txt",
+      "digest": "sha256:1820a5c3cdefa87ebc727b278ec937372003fbd9f037a98ba067b4de3e9d7eae",
+      "when_to_use": "Use when automating loopia-cli operations, tool-calling via CLI, or integrating loopia-cli in agent pipelines.",
+      "whenToUse": "Use when automating loopia-cli operations, tool-calling via CLI, or integrating loopia-cli in agent pipelines."
+    },
+    {
+      "name": "bugsink-cli",
+      "description": "Use when you need to inspect and triage application exceptions and error events on self-hosted Bugsink platform.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Bugsink-Cli/llms.txt",
+      "digest": "sha256:3921df7cf7ff92fd79c8fe9970796e9b53463efe6e594587d395a3f68ff03f5b",
+      "when_to_use": "Use when automating bugsink-cli operations, tool-calling via CLI, or integrating bugsink-cli in agent pipelines.",
+      "whenToUse": "Use when automating bugsink-cli operations, tool-calling via CLI, or integrating bugsink-cli in agent pipelines."
+    },
+    {
+      "name": "heyreach-cli",
+      "description": "Use when you need to manage LinkedIn outreach campaigns, sender accounts, and B2B leads via HeyReach API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Heyreach-Cli/llms.txt",
+      "digest": "sha256:0957e7f44b936db98c96404ae68b72dba029925d3930c818cc7c26bd9aaf7b4b",
+      "when_to_use": "Use when automating heyreach-cli operations, tool-calling via CLI, or integrating heyreach-cli in agent pipelines.",
+      "whenToUse": "Use when automating heyreach-cli operations, tool-calling via CLI, or integrating heyreach-cli in agent pipelines."
+    },
+    {
+      "name": "gmail-cli",
+      "description": "Use when you need to search Gmail mailboxes, inspect message threads, manage drafts, and download attachments.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Gmail-Cli/llms.txt",
+      "digest": "sha256:4b46bb26f3c18e82e9ab011c5cb493aee2d3255dd5b8b125fd5e44c6ba466294",
+      "when_to_use": "Use when automating gmail-cli operations, tool-calling via CLI, or integrating gmail-cli in agent pipelines.",
+      "whenToUse": "Use when automating gmail-cli operations, tool-calling via CLI, or integrating gmail-cli in agent pipelines."
+    },
+    {
+      "name": "storage-cli",
+      "description": "Use when you need to upload files/directories to Azure Blob Storage with automated zip compression and SAS token creation.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Storage-Cli/llms.txt",
+      "digest": "sha256:1f214333443191eda52f6eb035be4b3435c5d5fd2fba81355f0f3b689a482424",
+      "when_to_use": "Use when automating storage-cli operations, tool-calling via CLI, or integrating storage-cli in agent pipelines.",
+      "whenToUse": "Use when automating storage-cli operations, tool-calling via CLI, or integrating storage-cli in agent pipelines."
+    },
+    {
+      "name": "notify-cli",
+      "description": "Use when you need to dispatch multi-channel alerts across Slack incoming webhooks, SMTP email, system banners, and dialogs.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Notify-Cli/llms.txt",
+      "digest": "sha256:66ba7ad11c179955b99ebe3571b2fe54f156358e2bbc31066f9748b781caf8dc",
+      "when_to_use": "Use when automating notify-cli operations, tool-calling via CLI, or integrating notify-cli in agent pipelines.",
+      "whenToUse": "Use when automating notify-cli operations, tool-calling via CLI, or integrating notify-cli in agent pipelines."
+    },
+    {
+      "name": "samsung-artmode-cli",
+      "description": "Use when you need to control Samsung The Frame TV Art Mode, customize matte styling, upload artwork, and schedule slideshows.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Samsung-Artmode-Cli/llms.txt",
+      "digest": "sha256:eb490e6f545837abd221198eb7bc56aa65f356060a4c57170bd8edc3a5b755e1",
+      "when_to_use": "Use when automating samsung-artmode-cli operations, tool-calling via CLI, or integrating samsung-artmode-cli in agent pipelines.",
+      "whenToUse": "Use when automating samsung-artmode-cli operations, tool-calling via CLI, or integrating samsung-artmode-cli in agent pipelines."
+    },
+    {
+      "name": "tic-cli",
+      "description": "Use when you need to query Swedish corporate registry, bankruptcy notices, vehicle data, and debt collection intelligence.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Tic-Cli/llms.txt",
+      "digest": "sha256:59b57f2c708ae64d4bc767c10b893db899842f032376621977d5ab67fbb200c1",
+      "when_to_use": "Use when automating tic-cli operations, tool-calling via CLI, or integrating tic-cli in agent pipelines.",
+      "whenToUse": "Use when automating tic-cli operations, tool-calling via CLI, or integrating tic-cli in agent pipelines."
+    },
+    {
+      "name": "github-issue-importer",
+      "description": "Use when you need to bulk import issues, milestone assignments, and labels into GitHub repositories idempotently from YAML/JSON.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/Github-Issue-Importer/llms.txt",
+      "digest": "sha256:1a9f8320712bcdbb2249a7a55036c71798cf731d724a89f7ff2889fa5af4e255",
+      "when_to_use": "Use when automating github-issue-importer operations, tool-calling via CLI, or integrating github-issue-importer in agent pipelines.",
+      "whenToUse": "Use when automating github-issue-importer operations, tool-calling via CLI, or integrating github-issue-importer in agent pipelines."
+    },
+    {
+      "name": "namecheap-cli",
+      "description": "Use when you need to check domain availability, query registered domains, and update DNS host records via Namecheap API.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/.well-known/agent-instructions.md",
+      "digest": "sha256:8a1e7199e14f17bbc0a2397334da9a305b7cc4fd38ccc72b2b0644525d7abed7",
+      "when_to_use": "Use when automating namecheap-cli operations, tool-calling via CLI, or integrating namecheap-cli in agent pipelines.",
+      "whenToUse": "Use when automating namecheap-cli operations, tool-calling via CLI, or integrating namecheap-cli in agent pipelines."
+    },
+    {
+      "name": "space3d-molecular",
+      "description": "Use when you need to run pure-Rust molecular dynamics (spacemd) and query thermal-field electron emission physics (spaceemit) with OpenAPI 3.1 REST server.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/llms.txt",
+      "digest": "sha256:11d0735845fa07d2fb7003a8c12d76db41c2183f16e84f5f906a8656af7ed001",
+      "when_to_use": "Use when automating space3d-molecular operations, tool-calling via CLI, or integrating space3d-molecular in agent pipelines.",
+      "whenToUse": "Use when automating space3d-molecular operations, tool-calling via CLI, or integrating space3d-molecular in agent pipelines."
+    },
+    {
+      "name": "space3d-engine",
+      "description": "Use when you need to scaffold, build, and test cross-platform games and simulations using the Space3d Rust engine with wgpu GPU indirect rendering.",
+      "type": "skill-md",
+      "url": "https://spacecorps.github.io/.well-known/agent-instructions.md",
+      "digest": "sha256:8a1e7199e14f17bbc0a2397334da9a305b7cc4fd38ccc72b2b0644525d7abed7",
+      "when_to_use": "Use when automating space3d-engine operations, tool-calling via CLI, or integrating space3d-engine in agent pipelines.",
+      "whenToUse": "Use when automating space3d-engine operations, tool-calling via CLI, or integrating space3d-engine in agent pipelines."
     }
   ]
 }

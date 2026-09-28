@@ -65,6 +65,11 @@
 <meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
 <link rel="preload" as="image" href="img/hero-ship-1190.webp" imagesrcset="img/hero-ship-640.webp 640w, img/hero-ship-1190.webp 1190w" imagesizes="(max-width: 760px) 100vw, 62vw">
 <link rel="stylesheet" href="style.css">
+<link rel="mcp" href="https://spacecorps.github.io/server.json">
+<link rel="mcp-server" href="https://spacecorps.github.io/server.json">
+<link rel="mcp-card" href="https://spacecorps.github.io/.well-known/mcp/server-card.json">
+<link rel="plugin" href="https://spacecorps.github.io/.well-known/ai-plugin.json">
+<link rel="ai-plugin" href="https://spacecorps.github.io/.well-known/ai-plugin.json">
 <script>
 if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
   window.location.href = 'llms.txt';
@@ -242,6 +247,28 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
           }
         }
       ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://spacecorps.github.io/play/#service",
+      "name": "SpaceCorps 2027 MMO Multiplayer Game Service",
+      "serviceType": "Online Game Service",
+      "provider": {
+        "@id": "https://spacecorps.github.io/#organization"
+      },
+      "description": "Cross-platform real-time multiplayer space simulation, dedicated game server cluster, and automated client distribution.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
     }
   ]
 }

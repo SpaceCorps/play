@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
-  "name": "io.github.spacecorps/play",
-  "title": "SpaceCorps 2027 Play",
-  "description": "Retrieve official download packages, file sizes, SHA-256 cryptographic digests, game server telemetry, and player codex for SpaceCorps 2027.",
+  "name": "io.github.spacecorps",
+  "title": "SpaceCorps",
+  "description": "Model Context Protocol server for SpaceCorps 2027 releases, cluster telemetry, and Space3d simulation engines.",
   "version": "1.0.0",
-  "websiteUrl": "https://spacecorps.github.io/play/",
+  "websiteUrl": "https://spacecorps.github.io/",
   "repository": {
     "source": "github",
-    "url": "https://github.com/SpaceCorps/play"
+    "url": "https://github.com/SpaceCorps/spacecorps.github.io"
   },
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://spacecorps-game.sliplane.app/mcp",
+      "url": "https://spaceemit-api.sliplane.app/mcp",
       "supportedProtocolVersions": [
         "2026-07-28",
         "2025-11-25",
@@ -33,8 +33,8 @@
       "description": "Probe live health and connection telemetry for the SpaceCorps 2027 multiplayer game server cluster."
     },
     {
-      "name": "query_codex_wiki",
-      "description": "Retrieve SpaceCorps 2027 lore, ship flight profiles, alien attributes, Skylab crafting recipes, and weapon stats."
+      "name": "query_simulation_physics",
+      "description": "Calculate thermal-field electron emission or atomistic molecular dynamics trajectories via Space3d-Molecular."
     }
   ]
 }

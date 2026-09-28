@@ -567,6 +567,101 @@ paths:
           $ref: '#/components/responses/InternalServerError'
         default:
           $ref: '#/components/responses/Error'
+  /ask:
+    post:
+      summary: NLWeb natural language query endpoint
+      description: >-
+        Microsoft NLWeb protocol endpoint returning structured responses with
+        _meta.
+      operationId: askNLWeb
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: NLWeb response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _meta:
+                    type: object
+                    properties:
+                      response_type:
+                        type: string
+                      version:
+                        type: string
+                    required:
+                      - response_type
+                      - version
+                  answer:
+                    type: string
+                required:
+                  - _meta
+                  - answer
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        default:
+          $ref: '#/components/responses/Error'
+    get:
+      summary: NLWeb natural language query GET endpoint
+      operationId: askNLWebGet
+      parameters:
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: NLWeb response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _meta:
+                    type: object
+                    properties:
+                      response_type:
+                        type: string
+                      version:
+                        type: string
+                    required:
+                      - response_type
+                      - version
+                  answer:
+                    type: string
+                required:
+                  - _meta
+                  - answer
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+        default:
+          $ref: '#/components/responses/Error'
 components:
   schemas:
     Range:

@@ -1,0 +1,16 @@
+# SpaceCorps Documentation · LLM Agent Index
+
+> Comprehensive technical documentation for SpaceCorps systems, the Space3d engine, molecular dynamics simulation, and agent orchestration.
+
+- Documentation Hub: https://spacecorps.github.io/docs.html
+- Markdown Docs: https://spacecorps.github.io/docs.md
+- Developer Portal: https://spacecorps.github.io/developers.html
+- OpenAPI Specification: https://spacecorps.github.io/openapi.json
+- Pricing & Quotas: https://spacecorps.github.io/pricing.md
+- SpaceCorps 2027 MMO: https://spacecorps.github.io/play/
+
+## Core Systems
+1. **SpaceCorps 2027 MMO**: Cross-platform 2D space simulation, client binaries, and multiplayer telemetry.
+2. **Space3d Game Engine**: Pure-Rust wgpu graphics engine with indirect rendering drawing 1,000,000+ instances.
+3. **Space3d-Molecular**: High-performance atomistic molecular dynamics (`spacemd`) and thermal-field electron emission (`spaceemit`).
+4. **Agent Tools**: 23 single-binary Rust command-line tools for multi-agent workflows.

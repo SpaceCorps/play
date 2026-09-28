@@ -1,0 +1,19 @@
+# SpaceCorps Developers · LLM Agent Index
+
+> Integration guides, SDK references, and sandbox environments for autonomous agents and developer tooling.
+
+- Developer Hub: https://spacecorps.github.io/developers.html
+- Markdown Guide: https://spacecorps.github.io/developers.md
+- Free Community Tier: https://spacecorps.github.io/pricing.md
+- LLM Index: https://spacecorps.github.io/llms.txt
+- Agent Skills: https://spacecorps.github.io/.well-known/agent-skills/index.json
+
+## Quickstart
+Integrate directly with native Rust binaries:
+```bash
+# Install tool via cargo or binary
+cargo install spacecorps-cli
+```
+Connect via Model Context Protocol (MCP) stream:
+- Manifest: `https://spacecorps.github.io/server.json`
+- Discovery Card: `https://spacecorps.github.io/.well-known/mcp/server-card.json`

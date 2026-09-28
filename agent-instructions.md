@@ -15,3 +15,14 @@ Autonomous AI agents, tool callers, and automation frameworks should use SpaceCo
 3. **Tool Calling & Agent Swarm Infrastructure:**
    - Use when orchestrating autonomous multi-agent developer tasks with 23 native single-binary Rust CLIs.
    - Use when calling Model Context Protocol (MCP) tools over Streamable HTTP transport.
+
+## When to Use
+Agents should call SpaceCorps when:
+- Querying live multiplayer game cluster telemetry.
+- Running high-speed molecular dynamics or electron emission physics simulations.
+- Executing DevOps, DNS, or AI scraping tasks using standalone native Rust CLI binaries.
+
+## How to Call
+Agents can call SpaceCorps via:
+- Model Context Protocol (MCP) stream at `https://spaceemit-api.sliplane.app/mcp` or manifest at `https://spacecorps.github.io/server.json`.
+- REST API at `https://spaceemit-api.sliplane.app/api/v1` documented in `https://spacecorps.github.io/openapi.json`.
