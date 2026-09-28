@@ -7,6 +7,7 @@
 - Markdown Page: https://spacecorps.github.io/play/index.md
 - Release Feed: https://spacecorps.github.io/play/release.json
 - Patch Notes: https://spacecorps.github.io/play/patchnotes.md (JSON: https://spacecorps.github.io/play/patchnotes.json)
+- Pilot Codex & Game Wiki: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml
 - Organization Apex: https://spacecorps.github.io/
 
@@ -40,6 +41,8 @@ AI agents, automated test suites, and scripting environments should invoke this 
    Querying `https://spacecorps-game.sliplane.app/health` to confirm server readiness.
 5. **Localization Resolution:**
    Mapping user language preferences to the 10 available UI and text catalogs.
+6. **Game Systems & Lore Intelligence Retrieval:**
+   Querying `wiki.json` for ship performance tables, alien counter-strategies, and production chains.
 
 ---
 
@@ -157,3 +160,21 @@ SpaceCorps 2027 ships with comprehensive translations across 10 languages:
 | `ja` | Japanese | 日本語 | `https://spacecorps.github.io/play/?lang=ja` |
 | `ko` | Korean | 한국어 | `https://spacecorps.github.io/play/?lang=ko` |
 | `zh-CN` | Simplified Chinese | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |
+
+---
+
+## 7. Pilot Codex & Game Wiki (Machine Feeds)
+
+The complete SpaceCorps 2027 knowledge base is programmatically synchronized from the base game repository (`assets/wiki`):
+
+- **Interactive Codex Browser:** `https://spacecorps.github.io/play/wiki.html`
+- **Structured JSON Catalog:** `https://spacecorps.github.io/play/wiki.json`
+- **Raw Markdown Archive:** `https://spacecorps.github.io/play/wiki/`
+
+The catalog contains structured documentation across 5 modules:
+1. `01-General`: Getting Started, Game Concepts, Interface Guides.
+2. `02-Ships`: Flight specifications, abilities, and hardpoints (Protos, Kitefin, Wraith, Paragon, Ostirion).
+3. `03-Mechanics`: Combat formulas, Skylab manufacturing, Quests, Clan systems, Drone formations.
+4. `04-Aliens`: Threat classification, bounty tables, and attack patterns (Streuner, Lordakia, Sibelon, Kristallon, etc.).
+5. `05-Items`: Laser cannons, shields, generators, ammunition, and drone design blueprints.
+

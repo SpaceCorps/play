@@ -17,6 +17,8 @@
   "nav.download": "Download",
   "nav.help": "Help",
   "@nav.help": "Top bar links: short, one or two words each (they share one row with the logo, the server status and the language menu).",
+  "nav.wiki": "Wiki",
+  "@nav.wiki": "Top bar link to the game wiki and pilot codex.",
   "nav.patchnotes": "Patch notes",
   "@nav.patchnotes": "Top bar link to the patch notes page (and the footer's): short, it shares the row with the other section links.",
 

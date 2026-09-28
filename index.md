@@ -310,3 +310,13 @@ SpaceCorps 2027 features complete localized UI, audio, and gameplay text for 10 
 - **Recommended RAM:** 8 GB.
 - **Storage:** 200 MB free disk space.
 - **Network:** Broadband internet connection for real-time multiplayer state synchronization.
+
+---
+
+## Pilot Codex & Game Wiki
+
+Access detailed ship specifications, mechanics, alien encounter logs, and Skylab guides:
+- Web: [SpaceCorps 2027 Wiki](https://spacecorps.github.io/play/wiki.html)
+- JSON Feed: [wiki.json](https://spacecorps.github.io/play/wiki.json)
+- Markdown Mirror: [wiki/](https://spacecorps.github.io/play/wiki/)
+

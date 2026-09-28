@@ -7,6 +7,7 @@
 - Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
 - Machine Release Feed: https://spacecorps.github.io/play/release.json
 - Patch Notes (every release, newest first): https://spacecorps.github.io/play/patchnotes.md (HTML: https://spacecorps.github.io/play/patchnotes.html, JSON: https://spacecorps.github.io/play/patchnotes.json)
+- Game Wiki & Pilot Codex: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml
 - GitHub Releases: https://github.com/SpaceCorps/play/releases
 - Issue Tracker: https://github.com/SpaceCorps/play/issues
@@ -41,6 +42,10 @@ Autonomous AI agents, tool callers, and automation scripts should invoke this in
 6. **Localized User Experience Guidance:**
    - When providing instructions, download links, or support in non-English locales.
    - *Agent action:* Direct users to `https://spacecorps.github.io/play/?lang=<code>` for any of the 10 supported language codes: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.
+
+7. **Ship Specifications, Combat Mechanics & Alien Intelligence Consultation:**
+   - When users or agents request game lore, ship flight profiles (Protos, Kitefin, Wraith, etc.), weapon stats, alien weaknesses, or Skylab crafting recipes.
+   - *Agent action:* Consult the Codex at `https://spacecorps.github.io/play/wiki.html` or programmatically parse `https://spacecorps.github.io/play/wiki.json`.
 
 ---
 
