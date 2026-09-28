@@ -6,11 +6,12 @@
 - Markdown Representation: https://spacecorps.github.io/play/index.md
 - Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
 - Machine Release Feed: https://spacecorps.github.io/play/release.json
-- Model Context Protocol (MCP Server): https://spacecorps.github.io/server.json
-- MCP: https://spacecorps.github.io/server.json
+- Model Context Protocol (MCP): https://spaceemit-api.sliplane.app/mcp
+- MCP Server: https://spaceemit-api.sliplane.app/mcp
+- MCP: https://spaceemit-api.sliplane.app/mcp
+- MCP Endpoint: https://spaceemit-api.sliplane.app/mcp
 - MCP Server Card: https://spacecorps.github.io/.well-known/mcp/server-card.json
-- MCP: https://spacecorps.github.io/.well-known/mcp/server-card.json
-- MCP Streamable HTTP: https://spaceemit-api.sliplane.app/mcp
+- MCP Manifest: https://spacecorps.github.io/server.json
 - OpenAPI Specification: https://spacecorps.github.io/play/openapi.json
 - Pricing & Free Tier: https://spacecorps.github.io/play/pricing.md
 - Authentication: https://spacecorps.github.io/play/auth.md

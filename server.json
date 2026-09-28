@@ -10,5 +10,10 @@
       "type": "streamable-http",
       "url": "https://spaceemit-api.sliplane.app/mcp"
     }
-  ]
+  ],
+  "url": "https://spaceemit-api.sliplane.app/mcp",
+  "serverUrl": "https://spaceemit-api.sliplane.app/mcp",
+  "endpoint": "https://spaceemit-api.sliplane.app/mcp",
+  "mcpUrl": "https://spaceemit-api.sliplane.app/mcp",
+  "transport": "streamable-http"
 }
