@@ -16,6 +16,25 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
+## 0.4.1 · 2026-09-28
+
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.1)
+
+SpaceCorps 2027 0.4.1 stops the flicker on the login screen and in Skylab, and shows each pilot's clan tag next to their company letter.
+
+### What's new
+
+**Flicker fixed**
+- The screens around sign-in no longer flicker. The stars and nebula behind the login card, the start screen and the station menu used to jump back and forth while the view drifted; now they hold still, and the ship beside the login card no longer shimmers.
+- The 3D station in Skylab no longer flickers when the camera turns or you zoom. The coloured stripes and panels on the ring and the modules stay put, and so do the stars behind the station.
+- The spinning shape on the start screen has smooth edges: its thin lines no longer crawl as it turns.
+
+**Clan tags**
+- Your clan's tag now shows in gold after your company's letter, for example "[M] [VNGD] nova": on the name tags in flight (your own included), in the target panel and in chat.
+- When a pilot joins, leaves or changes clan in flight, their tag changes at once for everyone around them. A chat line keeps the tag its pilot had when they sent it.
+- Pilots outside a clan show only their company letter, and company pilots keep their names as before.
+- When a chat line wraps, the company letter, clan tag and name always stay together on one line.
+
 ## 0.4.0 · 2026-09-27
 
 [GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.0)
