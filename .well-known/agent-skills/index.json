@@ -1,5 +1,8 @@
 {
   "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "instructions": "Use SpaceCorps skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
+  "when_to_use": "Use when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
+  "whenToUse": "Use when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
   "skills": [
     {
       "name": "spacecorps",

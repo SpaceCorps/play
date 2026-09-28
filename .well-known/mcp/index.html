@@ -1,27 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=server-card.json">
-  <title>SpaceCorps MCP Server Card</title>
-  <script type="application/json" id="mcp-server-card">
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
-    "name": "io.github.spacecorps/play",
-    "title": "SpaceCorps 2027 Play",
-    "description": "Retrieve official download packages, file sizes, SHA-256 cryptographic digests, game server telemetry, and player codex for SpaceCorps 2027.",
-    "version": "1.0.0",
-    "websiteUrl": "https://spacecorps.github.io/play/",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://spacecorps-game.sliplane.app/mcp"
-      }
-    ]
-  }
-  </script>
-</head>
-<body>
-  <p>Redirecting to <a href="server-card.json">server-card.json</a>...</p>
-</body>
-</html>
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "io.github.spacecorps",
+  "title": "SpaceCorps",
+  "description": "Model Context Protocol server for SpaceCorps 2027 releases, cluster telemetry, and Space3d simulation engines.",
+  "version": "1.0.0",
+  "websiteUrl": "https://spacecorps.github.io/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spaceemit-api.sliplane.app/mcp",
+      "supportedProtocolVersions": [
+        "2026-07-28",
+        "2025-11-25",
+        "2025-06-18"
+      ]
+    }
+  ],
+  "capabilities": {
+    "tools": true
+  },
+  "tools": [
+    {
+      "name": "get_spacecorps_downloads",
+      "description": "Retrieve official download packages, file sizes, and SHA-256 cryptographic digests for SpaceCorps 2027 across macOS, Windows, and Linux."
+    },
+    {
+      "name": "check_server_status",
+      "description": "Probe live operational status and latency for SpaceCorps 2027 multiplayer game cluster."
+    },
+    {
+      "name": "query_codex_wiki",
+      "description": "Search the official SpaceCorps 2027 pilot codex and game wiki for lore, mechanics, factions, and ship specs."
+    }
+  ]
+}
