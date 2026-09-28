@@ -1,0 +1,11 @@
+{
+  "service": "spaceemit electron emission API",
+  "version": "0.1.0",
+  "status": "ok",
+  "models": [
+    "murphy-good",
+    "fowler-nordheim",
+    "extended-tf"
+  ],
+  "openapi": "https://spacecorps.github.io/openapi.json"
+}

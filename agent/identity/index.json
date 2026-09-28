@@ -1,0 +1,8 @@
+{
+  "identity_provider": "https://spacecorps.github.io/",
+  "issuer": "https://spacecorps.github.io/",
+  "authorization_endpoint": "https://spaceemit-api.sliplane.app/api/auth/login",
+  "token_endpoint": "https://spaceemit-api.sliplane.app/api/auth/token",
+  "registration_endpoint": "https://spaceemit-api.sliplane.app/api/auth/register",
+  "jwks_uri": "https://spacecorps.github.io/.well-known/jwks.json"
+}

@@ -1,0 +1,12 @@
+{
+  "api": "SpaceCorps Simulation & Systems API",
+  "version": "1.0.0",
+  "status": "online",
+  "docs": "https://spacecorps.github.io/docs.html",
+  "openapi": "https://spacecorps.github.io/openapi.json",
+  "error": {
+    "code": "endpoint_required",
+    "message": "Specify a valid operation endpoint such as /v1/health or /v1/info.",
+    "resolution": "Inspect OpenAPI spec at https://spacecorps.github.io/openapi.json"
+  }
+}

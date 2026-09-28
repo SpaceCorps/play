@@ -1,0 +1,6 @@
+{
+  "auth_type": "Bearer",
+  "token_endpoint": "https://spaceemit-api.sliplane.app/api/auth/token",
+  "documentation": "https://spacecorps.github.io/auth.md",
+  "status": "operational"
+}
