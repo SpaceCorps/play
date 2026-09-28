@@ -1,18 +1,21 @@
 {
-  "schema_version": "v1",
-  "name_for_model": "spacecorps_agent_tools",
-  "name_for_human": "SpaceCorps Agent Tools & Game Simulation",
-  "description_for_model": "SpaceCorps provides programmatic access to multiplayer game telemetry, orbital mechanics, releases, and native Rust CLI systems.",
-  "description_for_human": "Interact with SpaceCorps 2027 game servers, binary releases, and agent systems.",
-  "auth": {
-    "type": "none"
+  "$schema": "https://agent-plugins.org/specification/v1/schema.json",
+  "name": "spacecorps",
+  "displayName": "SpaceCorps Systems & Game Tools",
+  "version": "1.0.0",
+  "description": "High-performance native Rust systems, Space3d engine, molecular dynamics simulation, and SpaceCorps 2027 multiplayer game telemetry.",
+  "author": {
+    "name": "SpaceCorps",
+    "url": "https://spacecorps.github.io/"
   },
-  "api": {
-    "type": "openapi",
-    "url": "https://spacecorps.github.io/openapi.json",
-    "is_user_authenticated": false
-  },
-  "logo_url": "https://spacecorps.github.io/og-image.png",
-  "contact_email": "contact@spacecorps.dev",
-  "legal_info_url": "https://spacecorps.github.io/terms.html"
+  "skills": [
+    "/.well-known/agent-skills/spacecorps/SKILL.md",
+    "/.well-known/agent-skills/spacecorps-2027/SKILL.md"
+  ],
+  "mcpServers": [
+    {
+      "name": "spacecorps",
+      "url": "https://spacecorps.github.io/server.json"
+    }
+  ]
 }

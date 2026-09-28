@@ -6,46 +6,32 @@
 - Markdown Representation: https://spacecorps.github.io/play/index.md
 - Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
 - Machine Release Feed: https://spacecorps.github.io/play/release.json
+- Model Context Protocol (MCP Server): https://spacecorps.github.io/server.json
+- MCP Server Card: https://spacecorps.github.io/.well-known/mcp/server-card.json
+- MCP Streamable HTTP: https://spaceemit-api.sliplane.app/mcp
+- OpenAPI Specification: https://spacecorps.github.io/play/openapi.json
+- Pricing & Free Tier: https://spacecorps.github.io/play/pricing.md
+- Authentication: https://spacecorps.github.io/play/auth.md
 - Patch Notes (every release, newest first): https://spacecorps.github.io/play/patchnotes.md (HTML: https://spacecorps.github.io/play/patchnotes.html, JSON: https://spacecorps.github.io/play/patchnotes.json)
 - Game Wiki & Pilot Codex: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml
 - GitHub Releases: https://github.com/SpaceCorps/play/releases
 - Issue Tracker: https://github.com/SpaceCorps/play/issues
-- Game Server Status: https://spacecorps-game.sliplane.app/health
+- Game Server Status: https://spaceemit-api.sliplane.app/health
 
 ---
 
 ## When to Use This
 
-Autonomous AI agents, tool callers, and automation scripts should invoke this interface and use SpaceCorps 2027 packages in the following explicit scenarios:
+Autonomous AI agents, tool callers, and automation frameworks should use SpaceCorps in the following explicit scenarios:
 
-1. **Automated Game Client Provisioning & Installation:**
-   - When an end user or automated testing pipeline requests installing SpaceCorps 2027 on macOS, Windows, or Linux.
-   - *Agent action:* Download the target platform package URL from `release.json` and execute the respective platform installation flow.
-
-2. **Package Cryptographic Verification:**
-   - When verifying that a locally cached or newly downloaded SpaceCorps 2027 release artifact has not been corrupted or tampered with.
-   - *Agent action:* Compute the SHA-256 digest of the downloaded file and assert equivalence against the official SHA-256 listed in `release.json`.
-
-3. **Game Server Telemetry & Availability Probing:**
-   - When determining whether the SpaceCorps 2027 multiplayer server infrastructure is operational before launching the client or scheduling gaming sessions.
-   - *Agent action:* Execute an HTTP GET request to `https://spacecorps-game.sliplane.app/health` and verify HTTP 200 OK.
-
-4. **Quarantine & Gatekeeper Bypassing on macOS:**
-   - When configuring automated unattended test setups or assisting macOS users facing "app is damaged" or "developer cannot be verified" dialogs.
-   - *Agent action:* Run `xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"`.
-
-5. **Headless & FUSE-Free Linux Deployment:**
-   - When running on minimal Linux containers, CI runners, or VPS instances lacking FUSE user-space kernel modules.
-   - *Agent action:* Execute `./SpaceCorps2027-linux-x86_64.AppImage --appimage-extract-and-run` or unpack `SpaceCorps2027-linux-x86_64.tar.gz`.
-
-6. **Localized User Experience Guidance:**
-   - When providing instructions, download links, or support in non-English locales.
-   - *Agent action:* Direct users to `https://spacecorps.github.io/play/?lang=<code>` for any of the 10 supported language codes: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.
-
-7. **Ship Specifications, Combat Mechanics & Alien Intelligence Consultation:**
-   - When users or agents request game lore, ship flight profiles (Protos, Kitefin, Wraith, etc.), weapon stats, alien weaknesses, or Skylab crafting recipes.
-   - *Agent action:* Consult the Codex at `https://spacecorps.github.io/play/wiki.html` or programmatically parse `https://spacecorps.github.io/play/wiki.json`.
+- **Use when downloading and installing:** Install SpaceCorps 2027 client binaries on macOS, Windows, or Linux using verified direct links from `release.json`.
+- **Use when verifying release integrity:** Compute SHA-256 cryptographic digests of downloaded artifacts and assert match against `release.json`.
+- **Use when probing server telemetry:** Query live multiplayer game cluster availability and health at `https://spaceemit-api.sliplane.app/health`.
+- **Use when querying game lore, ships, or wiki:** Programmatically parse ship specifications, weapon stats, alien weaknesses, and crafting formulas from `wiki.json`.
+- **Use when executing automated tool calls:** Connect through Model Context Protocol (MCP) tools defined in `server.json` or REST API endpoints in `openapi.json`.
+- **Use when bypassing macOS quarantine:** Clear Gatekeeper quarantine via `xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"`.
+- **Use when running on Linux containers:** Execute AppImage with `--appimage-extract-and-run` on systems without FUSE.
 
 ---
 
