@@ -3,9 +3,10 @@
   "skills": [
     {
       "name": "spacecorps-2027",
-      "description": "Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client and verify server telemetry.",
       "type": "skill-md",
-      "url": "https://spacecorps.github.io/play/llms.txt"
+      "description": "Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.",
+      "url": "https://spacecorps.github.io/play/.well-known/agent-skills/spacecorps-2027/SKILL.md",
+      "digest": "sha256:ca554380fb9e20943f1a98c111b54c82a6035e87c697046f3f83bf6b2d3764d8"
     }
   ]
 }

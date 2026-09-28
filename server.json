@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.spacecorps/play",
+  "title": "SpaceCorps 2027 Play",
+  "description": "Retrieve official download packages, file sizes, SHA-256 cryptographic digests, game server telemetry, and player codex for SpaceCorps 2027.",
+  "version": "1.0.0",
+  "websiteUrl": "https://spacecorps.github.io/play/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spacecorps-game.sliplane.app/mcp"
+    }
+  ]
+}
