@@ -1,7 +1,9 @@
 {
-  "resource": "https://spacecorps.github.io/play",
-  "authorization_servers": ["https://spacecorps-game.sliplane.app"],
+  "resource": "https://spacecorps.github.io/play/",
+  "resource_name": "SpaceCorps 2027 Play",
+  "resource_logo_uri": "https://spacecorps.github.io/play/favicon.svg",
+  "authorization_servers": ["https://spacecorps.github.io/"],
+  "scopes_supported": ["read", "write"],
   "bearer_methods_supported": ["header"],
-  "resource_documentation": "https://spacecorps.github.io/play/llms.txt",
-  "scopes_supported": ["read"]
+  "resource_documentation": "https://spacecorps.github.io/auth.md"
 }

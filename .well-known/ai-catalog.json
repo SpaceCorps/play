@@ -1,5 +1,6 @@
 {
   "$schema": "https://ai-catalog.io/schemas/v1/catalog.json",
+  "specVersion": "1.0",
   "name": "SpaceCorps 2027 Agentic Resources",
   "description": "Public catalog of SpaceCorps 2027 game release feeds, server telemetry, and agent manuals.",
   "entries": [
