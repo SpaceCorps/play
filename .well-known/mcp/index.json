@@ -36,5 +36,9 @@
       "name": "query_simulation_physics",
       "description": "Calculate thermal-field electron emission or atomistic molecular dynamics trajectories via Space3d-Molecular."
     }
-  ]
+  ],
+  "url": "https://spaceemit-api.sliplane.app/mcp",
+  "serverUrl": "https://spaceemit-api.sliplane.app/mcp",
+  "endpoint": "https://spaceemit-api.sliplane.app/mcp",
+  "mcpUrl": "https://spaceemit-api.sliplane.app/mcp"
 }

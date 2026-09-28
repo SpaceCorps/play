@@ -305,7 +305,8 @@
             }
           }
         },
-        "operationId": "getHealth"
+        "operationId": "getHealth",
+        "description": "Liveness"
       }
     },
     "/v1/info": {
@@ -582,7 +583,8 @@
             }
           }
         },
-        "operationId": "getServiceInfo"
+        "operationId": "getServiceInfo",
+        "description": "Version, defaults, units, endpoints, models and citations"
       }
     },
     "/v1/emission": {
@@ -874,7 +876,8 @@
           {
             "$ref": "#/components/parameters/IdempotencyKey"
           }
-        ]
+        ],
+        "description": "Batch current density and Nottingham heat"
       }
     },
     "/v1/spectra": {
@@ -1207,7 +1210,8 @@
           {
             "$ref": "#/components/parameters/IdempotencyKey"
           }
-        ]
+        ],
+        "description": "Total, normal and parallel energy distributions of one point"
       }
     },
     "/v1/barrier": {
@@ -1561,7 +1565,8 @@
           {
             "$ref": "#/components/parameters/IdempotencyKey"
           }
-        ]
+        ],
+        "description": "Barrier potential profile and top"
       }
     },
     "/v1/transmission": {
@@ -1918,7 +1923,8 @@
           {
             "$ref": "#/components/parameters/IdempotencyKey"
           }
-        ]
+        ],
+        "description": "Transmission probability vs normal energy for one point"
       }
     },
     "/v1/iv-fit": {
@@ -2351,7 +2357,8 @@
           {
             "$ref": "#/components/parameters/IdempotencyKey"
           }
-        ]
+        ],
+        "description": "Fit measured I\u2013V data"
       }
     },
     "/v1/batch": {
@@ -2961,6 +2968,30 @@
               "application/problem+json": {
                 "schema": {
                   "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Job completed synchronously",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "job_id",
+                    "status"
+                  ],
+                  "properties": {
+                    "job_id": {
+                      "type": "string",
+                      "description": "Unique job identifier"
+                    },
+                    "status": {
+                      "type": "string",
+                      "description": "Job execution state"
+                    }
+                  }
                 }
               }
             }
@@ -4188,13 +4219,14 @@
               }
             }
           }
-        }
+        },
+        "description": "NLWeb natural language query GET endpoint"
       }
     },
     "/sandbox": {
       "get": {
         "summary": "Sandbox Environment Metadata",
-        "description": "Verified non-destructive sandbox simulation environment for autonomous AI agents.",
+        "description": "Get sandbox environment metadata and configuration.",
         "responses": {
           "200": {
             "description": "Sandbox metadata",
@@ -4202,25 +4234,45 @@
               "application/json": {
                 "schema": {
                   "type": "object",
+                  "required": [
+                    "sandbox",
+                    "status",
+                    "environment"
+                  ],
                   "properties": {
                     "sandbox": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "True for sandbox environments"
                     },
                     "status": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Current readiness state"
+                    },
+                    "environment": {
+                      "type": "string",
+                      "description": "Environment identifier"
+                    },
+                    "free_tier": {
+                      "type": "boolean",
+                      "description": "True if free tier is supported"
+                    },
+                    "self_serve_keys": {
+                      "type": "boolean",
+                      "description": "True if self serve keys are supported"
                     }
                   }
                 }
               }
             }
           }
-        }
+        },
+        "operationId": "getSandboxMetadata"
       }
     },
     "/sandbox/api/v1/health": {
       "get": {
         "summary": "Sandbox Health Check",
-        "description": "Live health probe for the agentic sandbox.",
+        "description": "Probe health status of the agent sandbox.",
         "responses": {
           "200": {
             "description": "Health status",
@@ -4228,25 +4280,32 @@
               "application/json": {
                 "schema": {
                   "type": "object",
+                  "required": [
+                    "status",
+                    "environment"
+                  ],
                   "properties": {
                     "status": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Health status (e.g. ok, healthy)"
                     },
                     "environment": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Environment identifier"
                     }
                   }
                 }
               }
             }
           }
-        }
+        },
+        "operationId": "getSandboxHealth"
       }
     },
     "/sandbox/api/v1/telemetry": {
       "get": {
         "summary": "Sandbox Simulation Telemetry",
-        "description": "Telemetry feed from the verified agentic sandbox.",
+        "description": "Retrieve active telemetry metrics from the sandbox.",
         "responses": {
           "200": {
             "description": "Telemetry status",
@@ -4254,25 +4313,32 @@
               "application/json": {
                 "schema": {
                   "type": "object",
+                  "required": [
+                    "status",
+                    "active_agents"
+                  ],
                   "properties": {
                     "status": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Telemetry status"
                     },
                     "active_agents": {
-                      "type": "integer"
+                      "type": "integer",
+                      "description": "Count of simulated agent connections"
                     }
                   }
                 }
               }
             }
           }
-        }
+        },
+        "operationId": "getSandboxTelemetry"
       }
     },
     "/api/keys": {
       "get": {
         "summary": "Self-Serve API Key Generation",
-        "description": "Provision instant agent credentials with zero human friction.",
+        "description": "Generate an instant self-serve API key with zero friction.",
         "responses": {
           "200": {
             "description": "Provisioned key",
@@ -4280,22 +4346,35 @@
               "application/json": {
                 "schema": {
                   "type": "object",
+                  "required": [
+                    "status",
+                    "api_key",
+                    "self_serve"
+                  ],
                   "properties": {
                     "status": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Success status"
                     },
                     "api_key": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "Provisioned API key token"
                     },
                     "self_serve": {
-                      "type": "boolean"
+                      "type": "boolean",
+                      "description": "Indicates self-serve provisioning"
+                    },
+                    "free_tier": {
+                      "type": "boolean",
+                      "description": "Indicates free tier eligibility"
                     }
                   }
                 }
               }
             }
           }
-        }
+        },
+        "operationId": "generateSelfServeApiKey"
       }
     }
   },

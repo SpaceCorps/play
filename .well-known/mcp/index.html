@@ -5,6 +5,10 @@
   "description": "Model Context Protocol server for SpaceCorps 2027 releases, cluster telemetry, and Space3d simulation engines.",
   "version": "1.0.0",
   "websiteUrl": "https://spacecorps.github.io/",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/SpaceCorps/spacecorps.github.io"
+  },
   "remotes": [
     {
       "type": "streamable-http",
@@ -26,11 +30,15 @@
     },
     {
       "name": "check_server_status",
-      "description": "Probe live operational status and latency for SpaceCorps 2027 multiplayer game cluster."
+      "description": "Probe live health and connection telemetry for the SpaceCorps 2027 multiplayer game server cluster."
     },
     {
-      "name": "query_codex_wiki",
-      "description": "Search the official SpaceCorps 2027 pilot codex and game wiki for lore, mechanics, factions, and ship specs."
+      "name": "query_simulation_physics",
+      "description": "Calculate thermal-field electron emission or atomistic molecular dynamics trajectories via Space3d-Molecular."
     }
-  ]
+  ],
+  "url": "https://spaceemit-api.sliplane.app/mcp",
+  "serverUrl": "https://spaceemit-api.sliplane.app/mcp",
+  "endpoint": "https://spaceemit-api.sliplane.app/mcp",
+  "mcpUrl": "https://spaceemit-api.sliplane.app/mcp"
 }
