@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "mode": "sandbox",
+  "instances": 1000,
+  "atoms": 500000,
+  "physics_steps_per_sec": 108000000
+}

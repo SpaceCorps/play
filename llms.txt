@@ -14,6 +14,10 @@
 - OpenAPI Specification: https://spacecorps.github.io/play/openapi.json
 - Pricing & Free Tier: https://spacecorps.github.io/play/pricing.md
 - Authentication: https://spacecorps.github.io/play/auth.md
+- Verified Sandbox Environment: https://spacecorps.github.io/play/sandbox/
+- Sandbox Health Check: https://spacecorps.github.io/play/sandbox/api/v1/health
+- Sandbox Telemetry: https://spacecorps.github.io/play/sandbox/api/v1/telemetry
+- Self-Serve API Keys: https://spacecorps.github.io/play/api/keys
 - Patch Notes (every release, newest first): https://spacecorps.github.io/play/patchnotes.md (HTML: https://spacecorps.github.io/play/patchnotes.html, JSON: https://spacecorps.github.io/play/patchnotes.json)
 - Game Wiki & Pilot Codex: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
 - Sitemap: https://spacecorps.github.io/play/sitemap.xml

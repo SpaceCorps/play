@@ -1,0 +1,16 @@
+{
+  "name": "SpaceCorps Agentic Sandbox Environment",
+  "status": "ready",
+  "environment": "sandbox",
+  "sandbox": true,
+  "test_mode": true,
+  "free_tier": true,
+  "self_serve_keys": true,
+  "description": "Safe, non-destructive simulation environment for autonomous AI agents.",
+  "endpoints": {
+    "base": "https://spacecorps.github.io/sandbox",
+    "telemetry": "https://spacecorps.github.io/sandbox/api/v1/telemetry",
+    "health": "https://spacecorps.github.io/sandbox/api/v1/health",
+    "keys": "https://spacecorps.github.io/sandbox/keys"
+  }
+}

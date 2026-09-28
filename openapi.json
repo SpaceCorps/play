@@ -8,6 +8,14 @@
   },
   "servers": [
     {
+      "url": "https://spacecorps.github.io",
+      "description": "Production Developer Hub & Static API"
+    },
+    {
+      "url": "https://spacecorps.github.io/sandbox",
+      "description": "Verified Live Sandbox Environment"
+    },
+    {
       "url": "https://spaceemit-api.sliplane.app",
       "description": "Production Hosted Instance (Rate-Limited)"
     },
@@ -4176,6 +4184,113 @@
               "application/problem+json": {
                 "schema": {
                   "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sandbox": {
+      "get": {
+        "summary": "Sandbox Environment Metadata",
+        "description": "Verified non-destructive sandbox simulation environment for autonomous AI agents.",
+        "responses": {
+          "200": {
+            "description": "Sandbox metadata",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "sandbox": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sandbox/api/v1/health": {
+      "get": {
+        "summary": "Sandbox Health Check",
+        "description": "Live health probe for the agentic sandbox.",
+        "responses": {
+          "200": {
+            "description": "Health status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "environment": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sandbox/api/v1/telemetry": {
+      "get": {
+        "summary": "Sandbox Simulation Telemetry",
+        "description": "Telemetry feed from the verified agentic sandbox.",
+        "responses": {
+          "200": {
+            "description": "Telemetry status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "active_agents": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/keys": {
+      "get": {
+        "summary": "Self-Serve API Key Generation",
+        "description": "Provision instant agent credentials with zero human friction.",
+        "responses": {
+          "200": {
+            "description": "Provisioned key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "api_key": {
+                      "type": "string"
+                    },
+                    "self_serve": {
+                      "type": "boolean"
+                    }
+                  }
                 }
               }
             }

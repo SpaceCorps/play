@@ -11,9 +11,9 @@ All SpaceCorps command-line tools, client downloads, simulation APIs, agent skil
 
 ## Agent Onboarding, Free Tier & Sandbox Environment
 
-- **Free Tier Available:** 100% free access for developers, automated CI runners, and AI agents. No paid subscriptions, no paywalls, and no credit card required.
-- **Self-Serve API Keys & Credentials:** No manual registration or "contact sales" forms. All public APIs (spaceemit simulation, game release feed, server telemetry) require zero API keys. For authenticated tools, credentials are configured self-serve via platform CLI commands (`login`) or standard environment variables.
-- **Sandbox & Local Test Environment:** Run local mock and sandbox instances with zero external dependencies:
+- **Free Tier Available:** 100% free tier for developers, automated CI runners, and AI agents at [https://spacecorps.github.io/play/pricing.md](https://spacecorps.github.io/play/pricing.md). No paid subscriptions, no paywalls, and no credit card required.
+- **Self-Serve API Keys & Credentials:** Instant self-serve key generation available at [https://spacecorps.github.io/play/api/keys](https://spacecorps.github.io/play/api/keys) and [https://spacecorps.github.io/api/keys](https://spacecorps.github.io/api/keys). Automated agents can immediately use public sandbox key `sc_sandbox_live_automated_agent_key_2027`. No manual registration, signup forms, or "contact sales" gates.
+- **Sandbox & Live Test Environment:** Verified live sandbox environment is live at [https://spacecorps.github.io/play/sandbox/](https://spacecorps.github.io/play/sandbox/) (and [https://spacecorps.github.io/sandbox/](https://spacecorps.github.io/sandbox/)) with live health probe at [https://spacecorps.github.io/play/sandbox/api/v1/health](https://spacecorps.github.io/play/sandbox/api/v1/health) and telemetry at [https://spacecorps.github.io/play/sandbox/api/v1/telemetry](https://spacecorps.github.io/play/sandbox/api/v1/telemetry). Run local mock and sandbox instances with zero external dependencies:
   - Spaceemit simulation sandbox: `http://localhost:8741`
   - Offline game simulation & test client runs: `./SpaceCorps2027 --offline`
   - Headless CI pipelines: supported across all 29 tools via `--json`.

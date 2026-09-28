@@ -1,8 +1,8 @@
 {
   "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
-  "instructions": "Use SpaceCorps skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
-  "when_to_use": "Use when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
-  "whenToUse": "Use when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
+  "instructions": "## When to Use This\nAutonomous AI agents, tool callers, and automation frameworks should use SpaceCorps agent skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.\n\n### When to Use Guidance\nUse when:\n1. Downloading and verifying SHA-256 client binaries for SpaceCorps 2027.\n2. Querying live multiplayer game cluster telemetry.\n3. Running pure-Rust molecular dynamics (spacemd) or electron emission (spaceemit).\n4. Orchestrating native Rust CLIs.",
+  "when_to_use": "Autonomous AI agents, tool callers, and automation frameworks should use SpaceCorps agent skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
+  "whenToUse": "Autonomous AI agents, tool callers, and automation frameworks should use SpaceCorps agent skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs.",
   "skills": [
     {
       "name": "spacecorps",
@@ -238,5 +238,6 @@
       "when_to_use": "Use when automating space3d-engine operations, tool-calling via CLI, or integrating space3d-engine in agent pipelines.",
       "whenToUse": "Use when automating space3d-engine operations, tool-calling via CLI, or integrating space3d-engine in agent pipelines."
     }
-  ]
+  ],
+  "when_to_use_guidance": "Autonomous AI agents, tool callers, and automation frameworks should use SpaceCorps agent skills when automating space simulations, downloading verified SpaceCorps 2027 client releases, running molecular dynamics, or orchestrating native Rust CLIs."
 }

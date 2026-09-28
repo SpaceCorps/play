@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/specification/v1/schema.json",
+  "name": "spacecorps",
+  "displayName": "SpaceCorps Systems & Game Tools",
+  "version": "1.0.0",
+  "description": "High-performance native Rust systems, Space3d engine, molecular dynamics simulation, and SpaceCorps 2027 multiplayer game telemetry.",
+  "author": {
+    "name": "SpaceCorps",
+    "url": "https://spacecorps.github.io/"
+  },
+  "skills": [
+    "/.well-known/agent-skills/spacecorps/SKILL.md",
+    "/.well-known/agent-skills/spacecorps-2027/SKILL.md"
+  ],
+  "mcpServers": [
+    {
+      "name": "spacecorps",
+      "url": "https://spacecorps.github.io/server.json"
+    }
+  ]
+}

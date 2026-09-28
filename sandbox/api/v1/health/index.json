@@ -1,0 +1,6 @@
+{
+  "status": "ok",
+  "mode": "sandbox",
+  "test_mode": true,
+  "cluster": "sandbox-test-runner"
+}
