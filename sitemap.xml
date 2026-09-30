@@ -96,4 +96,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://spacecorps.github.io/play/privacy/</loc>
+  </url>
 </urlset>
