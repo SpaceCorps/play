@@ -68,115 +68,181 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.2 · 2026-09-29
+### 0.4.3 · 2026-09-30
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.2)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.3)
 
-SpaceCorps 2027 0.4.2 rebalances weapons, ships, Repair Drones and aliens (some setups got weaker, and this page says which), draws critical hits differently, adds an ammo that steals shields and stops a destroyed ship from leaving a wreck. It also brings a smaller target panel, explanations for the generator slots, a better Shop and Assembly, and fixes for a batch of pilot reports.
+SpaceCorps 2027 0.4.3 brings rockets, three active abilities, the Cloaking CPU and the EMP, the Forge, four Skylab modules that make the plates for your best lasers, a black hole in the middle of the PvP sectors and Slave Drones that level up. The PvP sectors are now the Danger Sectors, repeated kills of the same pilot pay less, and flying, planets, the Shop and the Siphon Battery look and feel better. Some setups change or get weaker, and this page says which.
 
 #### What's new
 
 **Highlights**
-- Lasers, ships, Repair Drones and aliens are rebalanced (some setups got weaker, listed below), and a new Repair Drone IV mends 5% a second.
-- The new **Siphon Battery** ammo steals shields from your target and adds them to yours, for 0.25 Thulium a round.
-- Critical hits are easy to spot: ice cyan numbers ending in "!".
-- A destroyed player ship no longer leaves a wreck.
-- The Seeker and the Gorvane only fight back, aliens stop stacking on your ship, and the last laser that kills an alien is always drawn.
-- A smaller target panel, ships 10% bigger in flight, and the camera starts farther out (150%).
-- The Shop has a Max button and greys out what you already own, and Assembly shows item cards on hover.
-- Fixes for a batch of pilot reports: the Skylab tooltip, the Mission Control button, long German mission cards and more.
+- **Rockets:** twelve rockets in four kinds, bought for credits (60 to 900 each) and fired on one 5 second timer. Press R or a slot's key.
+- **Abilities:** a shield, an engine or a Repair Drone in an ability slot gives you Shield Surge (Q), Afterburner (W) or Emergency Repair (E).
+- **Cloaking CPU and EMP Charge:** disappear from other companies for up to 30 seconds, or break every lock on you for 3.
+- **The Forge** replaces the Fusion Chamber: raise gear one tier at a time, or merge two copies into one.
+- **Skylab supply chain:** two collectors, a storage and a Forgery make the plates that the Quantum Laser 3, Starfire-3 and Helios Beam are now made from.
+- **Danger Sectors:** the PvP sectors are DS-1 to DS-4, with a black hole in the middle of DS-4, and Terra's four sectors form a diamond.
+- **Drones level up** through 8 levels, stay through the season wipe and now cost by a price table.
+- Repeated kills of the same pilot pay less, and the Ostirion and Kitefin now count their proper PvP points.
+- Smoother flight, solid planets, one order for the Shop and your inventory, the Siphon Battery's stolen shield flowing back to you, and bonus codes in Admin.
 
-**Balance: lasers**
-- The lasers have new numbers. A critical hit still does 1.5 times the damage, and Damage Amps and Crit Amps still add crit chance.
+**If you already play: what changes for you**
+- **Ability slots** take a shield, an engine or a Repair Drone now. Shield Cells and Thrusters that sat in them are back in your inventory, and a notice tells you the first time you fly.
+- **The Fusion Chamber is gone.** The Forge takes its place. Your gear keeps the buffs it has, and a tier-up can fail.
+- **The Shield Absorbance Boost** (the Season Store buff that was called Shield Absorption) raises your absorbance now. It no longer speeds up shield recharge: pilots who bought it lose that recharge bonus, up to 10%. Your levels stay.
+- **Quantum Laser 3** is no longer sold in the Shop. It is made in Assembly from Skylab plates, as are the Starfire-3 and the Helios Beam. If you own one, you keep it. Nobody is refunded.
+- **Slave Drone prices** follow a table (the first is 100,000 credits, and every later one costs less than before), and **your drones are kept at the wipe** with their levels. Every veteran will end up with eight level-8 drones: +7% on the base damage of the lasers in the drone slots for everyone who plays long enough.
+- **PvP:** destroying the same pilot again pays less and less. Pilots' PvP points are recounted when the server updates (nobody loses any). The sectors `4-1` to `4-4` are called `DS-1` to `DS-4`.
+- The black hole in `DS-4` kills a ship that flies too close.
 
-  | Laser | Damage | Crit chance | Amp slots | Price |
+**Rockets**
+- Rockets are a second weapon beside your lasers: one shot every few seconds that hits harder than a volley. There are twelve, in four kinds and three prices each (cheap, middle, dear):
+  - **Guided** rockets lock the target you selected and steer after it. Hit one ship: Lancet, Javelin, Harpoon. Burst and hurt everything near the blast: Ember, Corona, Eclipse.
+  - **Straight** rockets fly where you aim. Hit one ship: Rivet, Mallet, Piledriver. Burst: Scatter, Barrage, Maelstrom.
+- The prices are 60 to 900 credits a rocket. The cheap ones carry up to 500, the middle ones 200 and the dear ones 50. The dearer a rocket, the harder it hits, the farther it reaches and the more of a shield it skips (guided and straight single-target rockets skip 10% to 50% of the shield; blasts skip none).
+- A rocket does a multiple of your own laser volley (0.6 to 3.6 times), so a stronger ship hits harder and the rocket keeps up when lasers change. It never crits, ignores laser ammo, and one rocket takes at most a quarter of another pilot's hull. A blast is strongest at its centre and falls to 25 to 35% at its edge.
+- **All rockets share one 5 second timer,** whichever you fire. It goes on through a jump, a reconnect and a ship swap, and a destroyed ship does not reset it.
+- A new **Rockets** picker sits beside Ammo on the hotbar: drag rockets onto slots. Press the slot's key or click it, or press **R** to fire the rocket you fired last (rebind it in Settings › Controls › Fire Rocket). A pie counts the timer down on every rocket slot. If a rocket can't fire, you are told why.
+- Guided rockets show a green lock ring on your target when it is in range, a dim red one when it is too far. Straight rockets show a dashed line and the circle a blast would fill. The Shop and the Hangar have a Rockets category with the numbers on your ship. If a rocket is locked on your ship, the screen edges flash red and a warning sounds.
+- Rockets follow the rules of lasers: none hurts a ship in a safe zone, before the Peace Protocol ends, in sectors where pilots may not fight, or in your own company. You need a laser fitted to fire one. Launching a rocket ends your own safe-zone protection, and a rocket that loses its target keeps flying straight. A straight single-target rocket needs a moment to arm, so it can't hit a ship that is almost touching yours: use your lasers at point blank.
+- Only a direct hit claims an alien, so blasts don't steal your kills, and a blast doesn't wake a sleeping pack.
+- A rocket is a shot: it ends your own cloak. A cloaked ship or one inside its EMP cannot be locked on, and a straight single-target rocket flies through it. An **area blast** still hurts a ship it covers, cloaked or not, and ends its cloak.
+
+**Abilities: Shield Surge, Afterburner and Emergency Repair**
+- The item you put in an ability slot decides the ability. A ship can carry one of each in a configuration: a Paragon or Wraith all three, an Ostirion two, a Protos or Kitefin one.
+
+  | Ability (key) | Item | Strength | Lasts | Cooldown |
   |---|---|---|---|---|
-  | Quantum Laser 1 | 50 → 55 | 10% → none | 1 | 10,000 → 8,000 credits |
-  | Quantum Laser 2 | 60 → 65 | 20% → none | 2 | 100,000 → 80,000 credits |
-  | Quantum Laser 3 | 70 → 80 | 30% → 10% | 3 | 15,000 Thulium |
-  | Starfire-3 | 120 → 135 | 35% → 15% | 3 | craftable |
-  | Helios Beam | 180 → 185 | 40% → 25% | 1 → 3 | craftable |
+  | Shield Surge (Q) | Light, Basic, Heavy Shield Core | an overshield of 30%, 60%, 100% of your max shield, and shields take at least 90%, 95%, 100% of every hit | 10 s | 120, 105, 90 s |
+  | Afterburner (W) | Engine I, II, III | speed +30%, +45%, +60% | 10 s | 120, 105, 90 s |
+  | Emergency Repair (E) | Repair Drone I, II, III, IV | heals 20%, 25%, 32%, 40% of your max hull at once | instant | 120, 105, 90, 75 s |
 
-- The Quantum Laser 1 and 2 have no crit chance of their own any more. A Damage Amp or a Crit Amp in their slots brings it.
-- **What got weaker.** Measured as the average damage of a volley with x1 ammo, most setups do more than before, but these do less:
-  - the Quantum Laser 2 in every setup: 1.5% less with no amp, 0.9% less with one Crit Amp, 3.6% less with one Damage Amp, 2.9% less with one of each, 5.0% less with Damage Amps in both slots and 0.3% less with Crit Amps in both;
-  - the Quantum Laser 3 with Damage Amps in all three slots: 1.4% less;
-  - the Starfire-3 with three Damage Amps: 0.4% less;
-  - the Helios Beam with no amp: 3.6% less, with one Damage Amp 3.9% less (211.5 → 203.2) and with one Crit Amp 3.3% less (206.6 → 199.8). With its new second and third amp slot filled, the Helios Beam does far more (237.6 with three Damage Amps).
+- They are made for the moment a fight is being lost or a group opens fire, not for every cooldown. The Afterburner works everywhere, safe zones included, so you can run home. Emergency Repair works under fire and is refused at full hull. A Surge is refused inside a safe zone. When a Surge ends, what is left of the overshield is gone and the shield you had is untouched.
+- The cooldown starts when you press and belongs to you: it is saved when you leave, and time offline doesn't count. Swapping configuration, changing the item or jumping doesn't reset it, and each ability has its own. A destroyed ship starts the next flight ready.
+- An item in an ability slot adds nothing else, and a Repair Drone there does not repair by itself. Enchanting the item makes its ability stronger by the same percentage as its main stat, up to +15%.
+- **Only ranks I and II of shields and engines exist so far:** the Heavy Shield Core and Engine III cannot be bought or crafted yet. Repair Drone IV (40% of your hull every 75 seconds, 2,000 Thulium) is the strongest ability you can reach today.
+- A Surge does not add to the Shield Absorbance Boost: while it runs, the shields take the higher of the two. A rocket that pierces the shield partly skips the Surge as well.
+- Drag a shield, engine or Repair Drone onto an ability slot, or right-click it in your inventory. The slot shows the ability and its rank, and hovering it tells what it is worth on your ship. A shield or engine that holds cells or thrusters gives them back when you put it into an ability slot.
+- The buttons beside the hotbar have a ring that drains while the ability runs and fills while it recharges. Everyone on the map sees a Surge (a bubble that fades with the overshield), an Afterburner (a ring and hotter engines) and a repair (a green pulse), each with a sound. The Ship window and the target panel show the overshield beside the shield.
 
-**Balance: ships and Repair Drones**
-- **Ostirion:** 655,000 → 425,000 credits, and the hull grows from 32,000 to 48,000.
-- **Kitefin:** the hull grows from 16,000 to 24,000, but it now costs 600 Thulium and no credits. It used to cost 200,000 credits.
-- **Paragon:** eight laser slots instead of six.
-- Every Ostirion and Kitefin you own has its saved hull raised in the same proportion, once, when the server starts with 0.4.2, so a ship that was full stays full.
-- **Repair Drones** mend more: Repair Drone I 1.5% of the hull a second (was 0.5%), II 2.25% (was 0.75%), III 3.5% (was 1.25%). They now cost credits: 5,000, 15,000 and 35,000 (they were 10 Thulium each). A new **Repair Drone IV** mends 5% a second and costs 2,000 Thulium. With several fitted, the best one works, as before.
+**Cloaking CPU and EMP Charge**
+- **Cloaking CPU S, M and L** are sold in the Shop for Thulium only: 10 uses for 5,000, 25 uses for 11,250 and 50 uses for 20,000 (500, 450 and 400 Thulium a use). Uses are saved with the CPU; logging out or dying gives none back.
+- Drag CLK from the hotbar's Extras onto a slot and press it. One press is one use, and the cloak lasts up to 30 seconds. Pilots of other companies, aliens and company pilots of other companies do not see your ship and cannot lock on to it. **Your own company sees you as a pale ghost that nobody can target.** Clan mates from another company do not: a clan takes anyone who applies.
+- You cannot cloak inside a safe zone, while the CPU recharges (20 seconds after any cloak ends), or within 10 seconds of a hit or a shot. Your first volley or rocket launch ends the cloak, and so do a second press and entering a safe zone. You can still collect cargo while cloaked, but the box you take is gone for everyone, so others learn that something was near that spot, not who. Aliens that were after you lose you, and your kill claims are released.
+- **EMP Charge** is a single-use Extra for 500 Thulium. Press the EMP slot in a fight: for 3 seconds nobody can lock on to you, and every lock already on you breaks at once, wherever the attackers are. Pilots are told "Lock lost: target used an EMP", and aliens go back to roaming. It does not hide you and it is not invulnerability: you stay visible and can keep firing, and a blast or the black hole still hurts. It recharges for 30 seconds, and it does not work inside a safe zone or while cloaked. It works in the first days of a season too, because aliens hunt then.
+- The recharge of both is not saved: logging out or jumping through a portal clears it, but every press still costs a use or a charge.
+- Your ship shows see-through with a violet outline while cloaked, with a chip at the top counting the seconds and the uses left. The EMP shows a crackling shell and a ring counting the 3 seconds, and the target ring of everyone who had you selected breaks apart. Identical spare CPUs and EMP Charges stack into one tile. Aliens no longer steer around a cloaked ship, so their movement doesn't give it away.
 
-**No more wrecks for player ships**
-- A destroyed player ship no longer leaves a wreck. No cargo box appears, whoever or whatever destroyed the ship (a pilot, an alien, a company pilot). The "Your wreck" card and its message are gone. Aliens still drop their loot as boxes and company pilots' ships still leave salvage. Player wrecks are removed for now: their salvage was made from nothing and respawning is free, so dying on purpose next to a station would have paid. How they could come back with balanced rules is tracked at https://github.com/SpaceCorps/play/issues/40.
+**The Forge (replaces the Fusion Chamber)**
+- The second tab of the Assembly page is the Forge, in flight too. It works on lasers, laser amps, shield cores, shield cells, engines, thrusters, Adaptive Cores and Repair Drones, in your inventory, on a ship or fitted into another item.
+- **Tier up** raises an item one tier at a time: Standard, Tainted, Godly, Rupturing, Eternal. You can't skip a tier. Every step costs more, and can fail:
 
-**Critical hits**
-- A critical hit is now easy to spot: its number is ice cyan, 45% bigger, ends in "!" (for example "1,320!") and stays a little longer. A critical hit you take is red, bigger and ends in "!" too. The old orange "heavy hit" guess is gone. The server now tells the game which volleys crit, so this works for your lasers, company pilots and the Siphon Battery alike. The cyan is also told apart from the gold and red numbers with the usual kinds of colour blindness.
+  | Step | Success | Credits | Materials |
+  |---|---|---|---|
+  | Tainted | 100% | 10,000 | 5 Ship Fragments, 15 Daraxium |
+  | Godly | 90% | 50,000 | 30 Ship Fragments, 45 Nyxite |
+  | Rupturing | 75% | 200,000 | 20 Reinforced Hull Plates, 120 Cataclysite |
+  | Eternal | 60% | 500,000 and 2,000 Thulium | 8 Power Cores, 240 Quorvium |
 
-**A new ammo: the Siphon Battery**
-- The Shop sells a new laser ammo, the **Siphon Battery**, for 0.25 Thulium a round. It steals shields instead of breaking hulls: each volley does x1 damage to the target's shield and adds the same amount to your own shield, up to your maximum. A critical volley drains 1.5 times as much.
-- It never touches the hull, so it can't destroy anything, and the target's absorbance doesn't matter. Against a target with no shield left it does nothing, and the volley still costs one battery per laser.
-- Pick it in the hotbar's ammo picker (label SB), next to x1 to x4. Its beam is teal, your shield pulses teal when it takes some in, and the number over the target shows the shield it took.
-- Taking shield doesn't delay your own shield regeneration. Draining an alien's shield counts as your first hit for its kill claim, and it wakes a Seeker or a Gorvane like any hit. The ammo a pilot fires before picking one, and the company pilots' ammo, is still x1.
+- A failed step leaves the item as it was, costs the credits, and gives half of the materials and half of the Thulium back. The panel shows the chance, what you have (green) and what you lack (red, with a note when the missing part sits in your Transport Cache) before you press. The last step asks you to confirm.
+- Every tier holds one more buff than the one below (up to four on a shield core) and the buffs are bigger: Tainted +2 to 5%, Godly +4 to 8%, Rupturing +6 to 11%, Eternal +9 to 15% (Range stays at +5% at most). A tier-up rolls each buff again in the new range, keeps the better value and adds the new buff. **Gear made before the Forge keeps the buffs it has.**
+- **Merge** two copies of the same item into one: it has the higher tier and the best value of each buff, never more buffs than its tier holds (the panel shows what is left out, and why), and costs credits by the tier it makes, from 5,000 to 250,000. The copy you merge into can stay on your ship, the other is used up. Merging a Godly or better item, or one with buffs, asks first.
+- The crystals drop from aliens now: Daraxium from Seekers and Phantasms, Nyxite from Phantasms and Bulwarks, Cataclysite from Bulwarks, Gorvanes and Crystalys, Quorvium from Gorvanes and Crystalys. The Forge stays on your item after each step: there is no "Fuse More" button.
+- The Quantum Laser 1 and 2 hold damage and range buffs only (they have no crit chance of their own). An old crit buff on them is dropped at the next tier-up or merge.
+- The Forge has an (i) help card and a wiki page, and it is in all 11 languages. A 0.4.2 client still shows the Fusion tab and tells you to update.
 
-**Balance: aliens**
-- **Seeker:** damage 200 → 180.
-- **Phantasm:** hull 1,600 → 2,000, damage 400 → 350, speed 140 → 160. It now flies faster than a starter Protos (150).
-- **Bulwark:** shield 16,000 → 10,000, damage 1,200 → 900, speed 170 → 175.
-- **Gorvane:** hull 64,000 → 32,000, damage 4,000 → 3,000, speed 200 → 180. It no longer attacks first (see below).
-- The Crystalys and every alien's rewards are unchanged.
-- **The Seeker and the Gorvane only fight back.** They never go after a ship that comes near. Shoot one and it turns on the pilot who hit it last, whoever else is around. It lets go 10 seconds after anybody last hit it, and after 30 seconds alone its hull mends by 2% of its maximum a second, so a Gorvane you shot from afar and left is not there half-dead for the next pilot. The Phantasm, the Bulwark and the Crystalys work as before: they go after the nearest ship in their range and don't mend. A hit that does no damage doesn't wake a Seeker or a Gorvane, and one alien never calls another.
-- The wiki's alien pages have a new "Rules of Engagement" card with this.
+**Skylab: the supply chain and your best lasers**
+- Four new modules from Core level 5: **Velkonite Collector, Orvium Collector, Resource Storage and Forgery**. Each costs 10 Ship Fragments (from your inventory, and you must be landed), 10,000 credits and 500 Thulium, and they show in the Station, List and Table views.
+- The collectors mine ore by the hour (12 Velkonite and 6 Orvium at level 1, 25% more a level) and hold 72 hours of it. **Collect** moves the ore into the Resource Storage, which keeps 900 of each at level 1 (25% more a level) and keeps it through the season wipe. Ore comes from the collectors only.
+- The **Forgery** turns banked ore into plates, 10 seconds a plate, one batch at a time: 10 plates at level 1 and 5 more a level. A Velkonite Reinforced Plate takes 40 Velkonite and an Orvium Reinforced Plate 80 Orvium (1.5% less for every level above 1). Ore leaves the storage when a batch starts. Collect finished plates into your inventory while your ship is landed.
+- The new modules draw power (20, 30, 10 and 30 at level 1). **A station that uses more power than it makes stops every farm and collector,** so read the build sheet's power balance before you build.
+- **Assembly recipes changed:**
+  - Quantum Laser 3: 10 Ship Fragments, 2 Velkonite Reinforced Plates and 1,500 Thulium (60 s).
+  - Starfire-3: 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate, 3,000 Thulium and 100,000 credits (120 s).
+  - Helios Beam: 50 Cataclysite, 2 Power Cores, 20 Orvium Reinforced Plates, 5 Reinforced Hull Plates and 5,000 Thulium (300 s).
+- The old Starfire-3 and Helios Beam recipes are gone. A craft you already started keeps what you paid, and the Iron Tide quest still gives a Starfire-3.
+- A (!) badge shows when ore can be collected and when plates wait. New help cards cover the storage, the Forgery and the whole chain, the wiki's Skylab and Lasers pages are rewritten, and the four modules have pictures in the List view.
 
-**Balance: company pilots**
-- A company pilot's Ostirion has the new 48,000 hull, its Quantum Laser 2 has no crit, and its Repair Drone mends 1.5% a second.
-- Company pilots now help only in fights they can win. An alien that attacks your company mate on its own is still fought off, as before. What your mate is shooting at, and a Seeker or a Gorvane that turned on your mate because your mate hit it, they join only if the squad can take it. A mate who tags a Gorvane from afar no longer pulls the squad into a fight it cannot win and takes the kill.
+**Danger Sectors and Terra**
+- The four PvP sectors are the **Danger Sectors:** `4-1` to `4-4` are now `DS-1` to `DS-4`. They keep their place, size, sky, planet and rocks. Pilots parked in one stay there, and their kill, loss and distance statistics move to the new names. Each company keeps its own entrance: Mars' `M-4` opens on `DS-1`, Terra's `T-4` on `DS-2`, Galactic's `G-4` on `DS-3`.
+- **Terra is a diamond.** `T-1` has gates to `T-2` and `T-3`, both lead on to `T-4`, and `T-2` and `T-3` no longer have a gate to each other. The Galaxy map draws it that way. The trade-off: `T-3`, with its tougher aliens, is one gate from Terra's home, so new Terra pilots meet them sooner.
+- Quests that count "in the PvP centre" read `DS-x`, and the wiki, help texts and store text use the new names in all languages. The Galaxy map shows the full name ("Danger Sector 2") when you point at one.
+- If you are still on 0.4.2 when the server updates, the game keeps working but shows the new sectors under their ids (`DS-1`), gives them the sky of `G-1` and leaves them out of its Galaxy map. Update the game to see them properly.
 
-**Fights**
-- The laser that destroys a target is always drawn now. Before, the last volley could vanish when the target died in the same moment: no beam, no muzzle flash and no damage number. Every beam flies to the target, including each pilot's when several of you finish an alien together, and the explosion follows when the last one lands.
-- Aliens no longer fly through each other or park on top of your ship. Each alien keeps room around its hull, bigger aliens more than smaller ones, and gives way to a ship instead of sitting on it. Fights work as before: aliens still chase you, stop at their attack range and leave you alone inside a safe zone.
+**The black hole**
+- A black hole hangs in the exact middle of `DS-4`, the same in Alpha, Beta and Gamma, every day of the season, the Peace Protocol included. The portals and the lanes between them stay well outside it.
 
-**Target panel**
-- The target panel is smaller and sits higher. The name has the distance and the fire state under it, beside the fire and clear buttons, and the hull and shield bars sit side by side. It sits at the top edge between the two toolbars when the window has room; in a narrow window it keeps to the row under them, and it slides aside for a window in its way.
-- In long languages, the target panel shows the pilot who claimed an alien in full; "No reward" moves to the line below when the name needs the room.
+  | Ring | Distance | What happens |
+  |---|---|---|
+  | Radiation | 4,000 | your ship loses a share of its total max HP (hull plus shield) every second: 0.3% at the rim, 2% at 2,000, 5% at 1,200, 24% at the event horizon. The shield goes first. |
+  | Pull | 3,000 | the hole pulls your ship toward the centre, harder the closer you are |
+  | Point of no return | about 1,000 to 1,300 | where the pull equals your speed. A faster ship leaves from deeper, and a running Afterburner counts |
+  | Event horizon | 300 | any ship that reaches it is destroyed at once |
 
-**Flight view and controls**
-- Pilots' ships are 10% bigger in flight: yours, other players' and your company's pilots'. Aliens, jump gates and the station keep their size.
-- The flight camera starts farther out: Camera Zoom (Settings > General) now starts at 150% instead of 100%. If you were still on the old 100%, it moves to 150% once; pick another zoom and it stays. The slider still goes from 50% to 225%.
-- A click beside another pilot's ship locks it only when you click close to it. Before, a click three ship-lengths away could still lock a small ship. Clicking an alien works as before.
-- A double click on an alien is no longer lost when the game hitches for a moment just before your first click.
-- Dragging a hotbar slot onto another slot now moves the item. If the other slot holds something, the two swap. Hold Alt (Option on a Mac) while you drop to copy instead. Dragging a slot off the bar still clears it.
-- The next sector's sky no longer loads just because you fly past a jump gate. It loads when you are close to the gate or flying toward it, so the game uses less graphics memory near gates.
+- While the radiation burns you, your shield does not recharge and your Repair Drone stops. It is not a hit: a Surge's overshield does not soak it up and a cloak doesn't hide you from it. Emergency Repair still heals.
+- A ship the hole destroys respawns at its company base like any destruction, with no wreck, no crate and no honor lost. **The last enemy pilot who hit your ship in the 15 seconds before it died is credited with the kill** (a kill in their statistics and the PvP points of your ship type, no loot). Company mates who hit you still lose the friendly-fire honor, and nothing is credited during the Peace Protocol.
+- Your move orders fly around the outer ring (4,200 units); an order that ends inside is obeyed, and going in is your choice. The chat warns you at each edge and at your own point of no return. Leaving the game in the radiation puts you back on the outer edge, holding position. Leaving inside the pull (3,000) does not save you: you come back where you left and keep falling.
+- Pilots who were parked in the middle of `DS-4` are moved out once, when the server updates. Aliens and company pilots keep out of it, and no crate is dropped inside.
+- You see it: a black disc with a bright ring, an accretion disk, matter streaming in and (Medium graphics and up, with post-processing on) a lens that bends the stars. Rings mark the radiation and the pull, and a red line shows your own point of no return. A gauge above the hotbar shows the dose in % of your HP a second, "Lethal in N s", the pull against your speed and the distance to your point of no return. The screen edges glow violet and turn red as the dose grows, a Geiger counter clicks faster, a two-tone warning sounds at the rim and at your point of no return, and the death card says "Swallowed by the black hole" or "Burnt up by radiation". The minimap and the star chart show it, and Reduce Motion stills it.
+- A 0.4.2 client does not draw it, but it gets the chat warnings, the steering and the kill-log line.
 
-**Shop and Assembly**
-- The Shop shows what you can't buy again. A ship you own says "Owned" on its card, and its Purchase button is greyed out and says why. The Slave Drone does the same once you hold 8.
-- A new **Max** button next to the quantity fills in the most you can afford, so buying all the ammo you can pay for takes one click. Equipment still stops at 100 per purchase. Ships and the Slave Drone are bought one at a time, so they no longer show a quantity.
-- In Assembly, hover a recipe's picture or name to see the same card as in your hangar: stats, bonuses and weight for equipment and boosters, and the specifications of a ship. Items in the Production Queue show it too.
-- Assemble is greyed out, with the reason, for a ship you already own or already have in the queue.
-- A booster you buy in the Shop or collect in Assembly at the moment you leave flight no longer loses its time.
+**Drones that grow**
+- Every Slave Drone you own has a level from 1 to 8 and earns experience whenever you destroy an alien: 1 for a Seeker, 2 for a Phantasm, 8 for a Bulwark, 24 for a Gorvane and 72 for a Crystalys, doubled in Beta and tripled in Gamma. Player kills, quests and company pilots' kills give none. Levels 2 to 8 ask for 350, 900, 2,000, 3,700, 6,000, 9,500 and 14,000 experience. For a pilot with the gear of the level-7 quests hunting Bulwarks and Gorvanes, a new drone reaches level 2 in about an hour and level 8 in about 27 hours (this is an estimate from our model).
+- The laser in a drone's slot deals more damage as the drone levels: +1% at level 3, then +2%, +3%, +4%, +5% and +7% at level 8. The bonus multiplies the laser's own damage, and the amps fitted into it are added on top. The Hangar's damage figures include it.
+- A new drone is a small armoured sphere and grows into a crescent-winged gunship at level 8. Other pilots see your drones at their levels. Drones fly in a tighter formation, and a level-8 drone is about 19.5 units across. A drone that levels up pops, sends out a ring of light and chimes, and the Game Log says so. The Hangar's Drones view shows each drone's level, an experience bar, its laser bonus and how many kills the next level needs.
+- **Drones are kept at the season wipe** with their levels, their slots and the lasers in the drone slots of your active ship. Before, a wipe took them and the next price started over. Slave Drones can no longer be put in the Transport Cache, because they stay by themselves.
+- **The Slave Drone price follows a table:** 100,000, 200,000 and 400,000 credits for the first three; then 800,000 credits and 10,000 Thulium for the 4th, rising to 12,800,000 credits and 50,000 Thulium for the 8th (25,500,000 credits and 150,000 Thulium for all eight). The price goes on from the number you hold, and with eight there is none left to buy. This is cheaper than in 0.4.2, where the first cost 100,000 credits and 10,000 Thulium and the 8th 25,600,000 credits and 1,280,000 Thulium. Nobody is refunded for drones bought at the old prices.
+- Crafting a Master Drone uses the Slave Drone with the least experience. Drones you already own start at level 1.
 
-**Hangar and wiki**
-- The Hangar explains the generator slots. Next to the captions Core, Support and Auxiliary there is now an (i): a Core slot counts an item at full strength (100%), a Support slot at 75% and an Auxiliary slot at 50%, and the card lists how many of each every ship has. Only some ships have auxiliary slots (the Paragon 2, the Wraith 4).
-- The wiki's ship pages have the same (i) on their slot tiles, the Inventory article explains the three kinds, and the ship pages call the extra slots "Extra slots".
-- The help cards and the wiki articles quote the new numbers.
+**PvP: repeated kills pay less, and the ranking weights**
+- Destroying the same pilot again within 24 hours pays fewer PvP points: the first kill pays all of them, the second half, the third a quarter and every one after that none. The count is per killer and victim, and the 24 hours restart with every kill of that pilot, even one that paid nothing, so hunting the same pilot every few hours stops paying until you leave them alone for a day. The rule applies from 0.4.3 on.
+- Your Game Log says when a kill paid less ("Repeated kill of the same pilot: 50% rewards"), and the Rankings calculation shows the points as their own line. The kill still counts in your kill totals, and the pilot you destroyed loses what it always lost. Destroying a pilot of your own company and the Peace Protocol work as before.
+- **Ranking fix:** Ostirion kills were counted as 10 PvP points instead of 20 because of a misspelling, and Kitefin kills had no weight of their own. An Ostirion kill is worth 20 points now and a Kitefin kill 15.
+- When the server starts with 0.4.3, every pilot's PvP points are recounted from the kill statistics (the server counts them again at every start, and a second count changes nothing): each Ostirion you destroyed adds 10 points and each Kitefin (since 0.4.0) adds 5. Nobody loses points and PvE points don't change, but your ranking points and your clan's PvP score go up, and PvP Hall of Fame places can shift, mostly upward for pilots who hunt Ostirions.
 
-**Skylab**
-- The tooltip over a module in the 3D station fits its text. After hovering something short, the Credit Farm's tooltip no longer breaks into pieces like "Cre-dit Far-m": words stay whole and long lines wrap at spaces. The tooltip is also a bit bigger, with larger text, and slightly see-through so the station shows behind it.
-- Thulium prices in Skylab are whole numbers. Solar's next level costs 269 Thulium, not 268.912, and that is exactly what the upgrade takes.
-- The white plating on the station (rings, tanks, deck tops) glares less when you turn the station towards the sun.
+**Shield boosts, told apart**
+- The Boosters window and your pilot profile list three kinds of shield boost on their own rows, each with its icon and total: **Shield Capacity** (your maximum shield points), **Shield Absorbance** (the share of each hit your shields take) and **Shield Recharge** (points restored a second). The permanent buffs read "Permanent Shield Capacity Boost" and "Permanent Shield Absorbance Boost". The help cards and the wiki use the same names in all 11 languages.
+- In the Season Store, Shield Boost is now **Shield Capacity Boost** and Shield Absorption is now **Shield Absorbance Boost**. Prices, limits and your levels are unchanged.
+- **The Shield Absorbance Boost now raises your absorbance.** Each level adds 0.1% of your absorbance itself, up to +10% of it, and never past 100%: a Basic Shield Core with two Advanced Shield Cells goes from 88% to 96.8% at the top level, so the hull takes 3.2% of a hit instead of 12% while the shields hold. A ship with no shield still takes every hit on the hull.
+- **The trade-off:** until now this buff sped up shield recharge (+0.1% a level, up to +10%) and did not touch absorbance. It no longer does: a shield that recharged 1,100 points a second at the top level recharges 1,000 now, and only the Shield Regen booster raises recharge. If you bought it for the recharge, tell us.
+- The profile counts absorbance with your buffs like your other combat stats, and its tip shows the loadout's own number. A long booster name wraps onto a second line.
 
-**HUD and Mission Control**
-- Panels you have set to a low HUD opacity (under about 35%) fill in while your pointer is over them, so the quest tracker, chat, minimap, windows and toolbars stay easy to read in front of a station. They go clear again when you move away.
-- The Mission Control button on a station holds still. It no longer flips back and forth when a window or notice sits near it; if a window pushes it aside it stays put and slides back once its own spot is free.
-- On a mission card, the Accept, Abandon and Claim buttons, the reward icons and the task progress stay inside the window in every language. Before, a long German task line pushed the card past the window edge and cut them off. The "Ready to claim" badge no longer runs over a mission's title in German and Russian.
+**Shop and inventory order**
+- The Shop's categories read from the ship down to what you fit on it: Ships; Lasers, Laser Amps, Laser Ammo, Rockets; Shields, Shield Cells; Engines, Thrusters; Hybrid Generators; Extras; Drones; Boosters; Resources. Inside a category the cheapest item comes first (credits before Thulium), then what only Assembly makes, weakest rarity first. The rockets go by kind and then by price, and the Extras by family: Repair Drones, Cloaking CPUs, then the EMP Charge. Ships go by hull, so the Kitefin sits between the Protos and the Ostirion, and laser ammo reads Standard Battery, Advanced Plasma, Ultra Core, Experimental Fusion Core, Siphon Battery.
+- The Shop shows the **Protos**, the ship every pilot starts with, as the first ship, marked Owned, with its 3D model and stats. It is not for sale, and a Protos a wipe took from you can't be bought back.
+- The Hangar's inventory lists your items in the Shop's order, not the order you got them in. Your ships are listed smallest hull first. The empty "Generators" entry is gone from the inventory and the Transport Cache, and the Cache has a Rockets filter. The Forge's grid, Assembly's recipes and filters, and the Cache lists use the same order.
+- Fixed: the Shop showed the Siphon Battery's price of 0.25 Thulium as 0.2. Thulium prices show up to two decimals now.
 
-**Admin**
-- Giving an item from the Admin menu makes separate items for everything that doesn't stack: ten lasers are ten lasers you can fit one by one. Ammo and resources still stack. A ship is given one at a time and goes to the hangar, a booster adds 10 hours of boost time per unit, and a pilot can hold at most 8 Slave Drones, as in the Shop, which the quantity stepper now stops at. Stacks an admin gave before 0.4.2 stay as one item.
-- The ranking configuration no longer lists the names of aliens the game never spawns. Nobody's points change.
+**Smoother flight**
+- Your ship no longer trembles when the camera is close. Zoomed in on a ship flying straight, it used to swim a few pixels against the middle of the screen, more on an uneven connection: the game chased the server's 20-a-second position updates with two smoothing steps in a row. Now the ship is drawn moving at a steady speed between the updates and the camera stays exactly on it, so the stars, other ships and your escort drones glide past evenly at 60, 120 or 144 frames a second. Other pilots, aliens, engine flames and drones move the same way.
+- The trade-off: the world is drawn about 60 ms behind the server's newest update (more on an uneven connection), plus about 80 ms of path rounding. Your orders are not delayed, and the ship's nose turns as fast as before. After a respawn or a jump the camera is on your ship at once.
+
+**Planets, kill log and a test alien**
+- **Planets are solid.** On M-4, T-1, G-4, M-1 and the other sectors the nebula clouds, the stars and the map grid used to shine through the planet's disc, so it looked like glass. The disc hides them now, and the haze still hangs in the sky around it. Ships, asteroids, shots and effects draw in front of it, and rings stay see-through. The trade-off: a grid line disappears behind a planet instead of crossing it.
+
+  ![The planets of M-4, T-1, G-4 and M-1, before and after](https://spacecorps.github.io/play/img/releases/v0.4.3-planets.jpg)
+
+- **Kill log:** when you hold the claim on an alien and another pilot (or a company pilot) lands the last hit, your Game Log says "Seeker was destroyed by nova; your claim pays you. REWARDS: ..." instead of "You killed Seeker." The rewards, kills and quest progress are yours, as before. A company mate paid for a company pilot's kill when nobody held a claim still reads "You killed ...".
+- **The test alien is gone.** The Brood Matriarch, drawn as a Seeker, flew on M-1 in Alpha and its kills counted as Seeker kills. It is gone from the public server.
+- **Release notes can show pictures.** They appear on the download page and in the GitHub release. The game's What's New can't draw images yet, so it shows each picture as a link with its description.
+
+**The Siphon Battery, seen and heard**
+- The Siphon Battery no longer fires a laser beam. A thin, faint teal probe goes out to the target, its shield flares teal where the probe lands, and the shield you drained streams back to your ship as glowing teal packets over about half a second (three to ten packets, more for a bigger drain, brighter for a crit). Each packet pulses your shield, and "+2,600" in teal floats over your ship. The gold number over the target still shows what was taken.
+- You see the same for every pilot's Siphon Battery. When another pilot drains you, the probe flies at your ship, the shield you lost shows as a red number and the packets leave for theirs. Low and Medium particle quality draw fewer packets. Damage, gain and the cost of a round are as in 0.4.2.
+- The Siphon Battery has an icon of its own (a magazine with a teal vortex) and a sound of its own, a rising chirp.
+
+**Hotbar and fights**
+- The ammo picker and the hotbar show pictures of your ammo and of the Repair Drone, as the Shop and Hangar do, instead of x1 to x4, SB and REP labels. The amount you own stays on each tile, and pointing at one shows its name and damage multiplier. The target panel's Firing pill shows the ammo's picture too. Your saved hotbar keeps working.
+- Aliens keep room for each ship by its own size. They used to stay the same distance from every ship, so they clipped a Wraith's wing tips and hung farther from a small Protos than they needed to. The red lock ring is bigger around a Wraith.
+- The Settings window no longer jumps when you switch tabs, and the Item injection card on the admin page wraps in narrow windows.
+
+**Admin: bonus codes**
+- The Admin page has a **Bonus codes** tab (admins only). It lists every code with its state (active, switched off, expired or used up), what it gives, how many pilots have claimed it and when it ends, and who claimed it and when.
+- Admins can make a code, change what it gives (credits, Thulium, items, boosters and ships picked by name), its claim limit, minimum level and end time (UTC), switch it on and off, copy it and delete it. A change applies to the next claim, with no update and no restart.
+- The codes live in the server's database now. The first start with 0.4.3 copies them from the file that held them, and after that the file is only the starting set for a new server.
+- Nothing changes for pilots: a code can be claimed once per pilot, the claim limit counts every claim ever made, and a wrong, switched-off or expired code gets the same answer.
+- A code that has been claimed can be switched off but not deleted, and a code's text can't be renamed (copy it under a new text; the copy starts switched off). A code whose item has left the game stops working and shows "Needs a look".
 <!-- /patchnotes:latest -->
 
 ---
