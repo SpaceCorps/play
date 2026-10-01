@@ -68,218 +68,108 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.4 · 2026-09-30
+### 0.4.5 · 2026-10-01
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.4)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.5)
 
-SpaceCorps 2027 0.4.4 brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage, two craft-only rockets that make Dark Matter for the Forge's top tiers, abilities that stack, a Cloaking CPU without a timer, a stronger black hole, the Hangar in flight, twelve new modules and fullscreen on Windows. Terra's four sectors are a loop again, and Skylab upgrades from level 6 take longer and longer. Some setups change or get weaker, and this page says which.
+SpaceCorps 2027 0.4.5 lets you choose where to come back when your ship is destroyed, adds a kill feed with funny lines to the Global chat, Invite Friends with a starter pack for new pilots, ways to hide the Global chat, ignore a pilot and report one, and Italian as the twelfth language. The server's refusals and notices are now translated too. Dying works differently, so the "If you already play" list below is worth reading.
 
 #### What's new
 
 **Highlights**
-- **Groups:** up to 5 pilots of any company see each other's ship, hull and shield, share the rewards of an alien kill and count for each other's kill missions. The chat has Global, Local and Group tabs, and the Group window opens on **B**.
-- **Rockets, reworked:** every rocket does a fixed amount of damage (2,000 for a Lancet up to 7,500 for a Piledriver) and costs 500 or 800 credits, or 5 Thulium. Rockets without a lock fly toward your cursor, and a slot click arms one. Nothing caps what a rocket does to a pilot.
-- **N.U.K.E., N.I.K.E. and Dark Matter:** two rockets that only Assembly makes. The N.U.K.E. is the biggest blast in the game. The N.I.K.E. hits a ship for 75,000, or makes Dark Matter if it falls into the black hole first. The Forge's steps to Rupturing and Eternal now need 2 Dark Matter Plates each.
-- **Twelve new modules:** four laser amps, two shield cells, two thrusters, and an upgrade at the top of each family that keeps the Forge tier of the piece it uses up.
-- **Abilities stack:** several shields, engines or Repair Drones in your ability slots add 50% each. The Shield Surge puts shield back over 10 seconds and Emergency Repair heals over 10 seconds. New pilots start with a Repair Drone I fitted.
-- **The Cloaking CPU has no timer.** Other companies see a red dot on the minimap, an EMP within 1,500 units ends your cloak, and any end costs a minute of recharge.
-- **The black hole** pulls harder and carries a ship that stops, can be seen from anywhere in Danger Sector 4, and has debris that spirals in.
-- **The Hangar works in flight,** inside a safe zone's ring: fit items, swap configuration or fly another of your ships.
-- **Jumping takes 3 seconds** and picking up a cargo box 1. In a Danger Sector you can't jump while under attack.
-- **Skylab upgrades take days at the top:** from level 6 each takes 1.6 times as long as the one before, up to 6 days for the last step.
-- **Terra is a loop again.** The 0.4.3 diamond is taken back: `T-1` has one portal.
-- **Fullscreen on Windows** (button, F11, Alt+Enter). It is new and nobody has run it on a real Windows PC yet.
-- Also: the Helios Beam is made from a Starfire-3, a Slave Drone becomes a Master Drone in place, a Resources page in the wiki, aliens let go of a pilot they have not shot at, Chrono-Gate scans cost a tenth, Shift no longer stops the flight keys, and alt-tab no longer leaves the game behind the server.
+- **Choose where to respawn:** the death screen offers your base (always open), the nearest portal (locked for 3 minutes after you use it) and the spot where you died (locked for 5 minutes). Press **1**, **2** or **3**. A portal or spot respawn protects you for 5 seconds, until your first shot.
+- **A kill feed in the Global chat:** a short, funny line in your language whenever a pilot is destroyed. Switch it off in the chat window's menu.
+- **Invite Friends** (Community): every pilot has a personal code. A friend with a new account (level 4 or lower) who uses it gets 100,000 credits, 5,000 Thulium, a N.I.K.E., a Quantum Laser 2, an Engine II and 1,000 Advanced Plasma. You collect 2,500 Thulium for each friend who reaches level 5, and more at 3, 5, 10 and 25 friends.
+- **Chat safety:** hide the Global chat, ignore a pilot, or report one to the admins (right-click a name in the chat).
+- **Italiano** is the twelfth language. A native speaker has not read it yet.
+- **The server's refusals and notices are translated:** Assembly, Hangar, Skylab, Shop, clan, wipe and bonus code messages now show in your language.
+- Also: the empty Epic rocket slot sends you to the Shop, the help cards and some texts are corrected, Settings, About and the sign-in card link to the privacy policy, and Settings says plainly what happens to a crash report you send.
 
 **If you already play: what changes for you**
-- **Rocket prices change for everyone.** Common rockets cost 500 credits (the Lancet was 100, the Rivet and Scatter 60), Rare ones 800, and the four Epic ones (Harpoon, Piledriver, Eclipse, Maelstrom) cost 5 Thulium instead of credits. Rockets you own stay yours, and nobody is refunded.
-- **A rocket no longer depends on your ship.** It does its own fixed damage, so a rocket from a weak ship hits harder than before and one from a strong ship may hit softer.
-- **Rockets have no cap on pilots any more.** A N.I.K.E. destroys a fresh Protos, Kitefin or Ostirion in one hit (an Ostirion with Light Shield Cores). Safe zones, the Peace Protocol, sectors without PvP, your company and your group still protect you.
-- **Rockets without a lock** (Rivet, Mallet, Piledriver, Scatter, Barrage, Maelstrom) fly toward your cursor, whatever you have selected. A click on their slot arms them and your next click in space fires.
-- **The Forge's steps to Rupturing and Eternal need 2 Dark Matter Plates each,** on top of what they took. Only N.I.K.E.s fired into the black hole make Dark Matter, so until you have plates a Godly item stays Godly. Gear that is already Rupturing or Eternal keeps its tier.
-- **The Shield Surge no longer gives an overshield.** It puts back 30, 60 or 100% of your maximum shield over 10 seconds. **Emergency Repair heals over 10 seconds** instead of at once. You can fit several modules of a kind in your ability slots. Pilots who already play are not given a starter Repair Drone.
-- **The Cloaking CPU no longer runs out,** and the recharge after any end is 60 seconds instead of 20. Other companies see where you are as a red dot. **An EMP now ends every cloak within 1,500 units of it,** your own company's too.
-- **Jumps and cargo take time.** A jump takes 3 seconds and a cargo box 1. **Return to Base is still an instant exit,** also in a Danger Sector fight.
-- **Skylab upgrades from level 6 take longer,** up to 6 days at the top. Upgrades already running keep the time they were given. **Upgrading Solar switches off every farm and collector until it is done,** as it always did, but now that can be days. The upgrade sheet warns you.
-- **The Helios Beam needs a Starfire-3** and uses it up. Crafts you already started keep what you paid.
-- **Crafting a Master Drone** upgrades one of your Slave Drones in place, and its level and experience start again at 0. Nothing lands in your inventory.
-- **Terra's sectors are a loop again.** The `T-1` to `T-3` portal of 0.4.3 is gone.
-- **The black hole** carries a ship that stops. Slow ships have their point of no return farther out: a stock Protos at about 1,630 units instead of about 1,190.
-- **Aliens** you have not shot at lose interest at 1,200 units. Aliens you did shoot follow you a little farther than before (2,500 units).
-- **The Hangar's equip, unequip, delete and revive routes answer 409 outside a safe zone's ring** while you fly. Tools and scripts that changed equipment in flight from anywhere now get a refusal.
-- **Chrono-Gate scans cost 5,000 credits and 5 Thulium,** a tenth of before. The chances are the same.
-- **Music starts at volume 15.** Settings you saved keep their value.
-- **The chat has a Global tab now.** What you type goes to the tab in view, and Global reaches every pilot online, so look at which tab is open before you type.
+- **Your ship no longer respawns by itself.** After the explosion you stay on the death screen until you pick a place (**1** base, **2** portal, **3** spot) or dock with Return to Base, which is the base and spends nothing. No timer picks for you. A pilot who closes the game on the death screen meets "Your active ship is destroyed. Please revive it in the hangar first." at the next launch: revive the ship in the Hangar, which costs nothing and puts you at your base.
+- **The nearest portal and the spot are locked after you use them,** for 3 and 5 minutes. The base never is. The locks stay through a logout and a server restart, and a new season clears them.
+- **After a portal or spot respawn nobody can hurt you for 5 seconds.** Your first shot (a laser volley or a rocket) ends it, and aliens drop you as a target meanwhile.
+- **The Global tab has kill feed lines now,** between the pilots' words. They never count as unread, and the switch is in the chat window's menu and in Settings › General › Chat.
+- **The chat's right-click menu has Ignore and Report…** next to Invite to group. Ignoring a pilot hides its Global and Local lines and turns down its group invitations. It is not told, and it still hears you.
+- **Some texts promise less.** The station's news line no longer promises a double-XP weekend, and the texts of the First Contact, Tech Surge and War Games phases no longer promise themed rewards or effects the game does not have. The welcome line in the chat no longer says "private Beta".
+- **The Master Drone and the Helios Beam have new item texts** ("Advanced drone, upgraded from a Slave Drone." and "Ultimate laser weapon, upgraded from a Starfire-3."). Their stats are as before.
+- **Pilot avatars are a little brighter,** so that the initials stay readable on every colour.
 
-**Groups and chat channels**
-- A **group** is up to 5 pilots of **any company**. Friends who fly for different companies can be one group, even enemies in the PvP sectors. Members see each other's ship, hull and shield, how far away they are and where, and members who are cloaked too. The Group window opens on **B** (rebind it in Settings › Controls) or from its button in the toolbar.
-- **Invite** a pilot by selecting them and pressing **Invite to group** in the target panel, by right-clicking their name in the chat, or with **+** in the Group window. The pilot gets a card with **Accept** (Y) and **Deny** (Escape) and 60 seconds to answer. You can't invite a pilot who is in a group, who has **Do Not Disturb** on (the bell in the Group window, or Settings › General › Groups) or who has too many invitations waiting. You can send 10 invitations a minute, and 3 of them to other companies.
-- An invitation from **another company** names the company, is marked **Enemy** and warns what accepting means, so nobody joins by mistake: its members see your ship, hull, shield and the map you are on, even when you are cloaked, and you can't attack each other. A pilot of another company who leaves your group can't be invited by you again for a minute.
-- The first invitation that is accepted makes its sender the **leader**. The leader invites, removes members and hands the lead on. Anyone can leave, a group of one ends by itself, and when the leader leaves the member who has been in longest leads. You can be in one group at a time. If your connection drops or you dock, your place is kept for 2 minutes.
-- **Members can't hurt each other.** You can't lock on to a groupmate with a laser or a guided rocket, your shots and blasts pass through them, and nothing you do to one counts as a kill for anyone. That holds for company mates in one group too. Company mates who are not in the same group are as before: destroying one costs 100 honor. An EMP doesn't break the cloak of its owner's groupmates. When you leave or are removed, a former mate is fair game again at once.
-- **A kill's rewards are shared.** When a member destroys an alien, its credits, Thulium, experience and honor are split by level among the members who are on the same map, alive, within 4,000 units of the wreck and **fired a laser or a rocket in the last 15 seconds**. The one who made the kill always has a share and gets what rounding leaves. The cargo crate, the kill in the statistics and the ranking, and the drones' experience stay with the killer. Kills of pilots are not shared.
-- **Missions count for the group.** A kill also counts for the kill missions of every member on the same map who fired in the last 15 seconds, wherever they are on it. The mission's own rules still decide what counts.
-- The chat has three tabs: **Global** (every pilot online, in every world), **Local** (your map) and **Group** (your group, wherever it is). Each has its colour, a tab counts the lines you have not read, and the line you type goes to the tab in view. You can also start a line with `/g`, `/l` or `/p`. Global allows 3 lines in a burst and then one every 2 seconds.
-- **Groups live in the server's memory,** so every server update ends them: invite each other again. A new season ends them too.
+**Choose where to respawn**
+- When your hull reaches 0 the ship is destroyed and the death screen, headed "Choose where to respawn", shows three rows: your base, the nearest portal and the spot where you died, in the order of the keys. Click one, or press its key. The keys work on the number row and the keypad, and only once the explosion is over (about 3 seconds), so a thumb on the hotbar's **1** does not pick a place.
 
-**Rockets: fixed damage, new prices**
-- A rocket now has **its own damage, a fixed number of points.** It is the same whoever fires it: your ship, lasers, amps, boosters, ammo and drones change nothing, and a rocket never crits. A single-target rocket deals its damage to the ship it hits. A blast deals it to every ship inside, the whole number at the centre and 25 to 35% at the edge. The timer is still 5 seconds for all rockets together.
-
-  | Rocket | Kind | Damage | Skips the shield | Blast radius | Price | Carry at most |
-  |---|---|---|---|---|---|---|
-  | Lancet | guided, one ship | 2,000 | 15% | | 500 credits | 500 |
-  | Javelin | guided, one ship | 4,000 | 30% | | 800 credits | 200 |
-  | Harpoon | guided, one ship | 6,000 | 50% | | 5 Thulium | 50 |
-  | Rivet | straight, one ship | 2,500 | 10% | | 500 credits | 500 |
-  | Mallet | straight, one ship | 5,000 | 30% | | 800 credits | 200 |
-  | Piledriver | straight, one ship | 7,500 | 50% | | 5 Thulium | 50 |
-  | Ember | guided, blast | 1,400 | | 170 | 500 credits | 500 |
-  | Corona | guided, blast | 2,800 | | 230 | 800 credits | 200 |
-  | Eclipse | guided, blast | 4,200 | | 300 | 5 Thulium | 50 |
-  | Scatter | straight, blast | 1,750 | | 210 | 500 credits | 500 |
-  | Barrage | straight, blast | 3,500 | | 290 | 800 credits | 200 |
-  | Maelstrom | straight, blast | 5,250 | | 400 | 5 Thulium | 50 |
-
-- A straight rocket does 25% more than the guided rocket of its tier for the same price, because you have to aim it. A blast does 70% of the single-target rocket of its tier, to every ship it covers.
-- **Nothing caps a hit on a pilot.** In 0.4.3 one rocket took at most a quarter of another pilot's hull. Now a rocket hits a pilot like any hit: the shield takes its share (less what the rocket skips) and the rest goes to the hull. By our model two Piledrivers or three Harpoons destroy a fresh Protos, five to seven rockets a Kitefin, and ten to thirteen an Ostirion. The rest of the rules are as in 0.4.3: no rocket hurts a ship in a safe zone, before the Peace Protocol ends, in a sector where pilots may not fight, or in your own company or group, and you need a laser fitted to fire one.
-- **Rockets without a lock always fly toward your cursor,** at the point under it in the flight view, even with a target selected. **Click the slot of a Rivet, Mallet, Piledriver, Scatter, Barrage or Maelstrom to arm it.** The slot gets a white frame, the cursor becomes a crosshair, and your next click in space fires the rocket toward that click without moving your ship. Escape, a right click, the same slot again, another slot, a jump, a death, or opening Settings or the Galaxy map lets go of it. If the timer is still running the click only tells you so and the rocket stays armed. The number keys and **R** fire at once toward the cursor. Guided rockets still lock the target you selected.
-- The Shop, the Hangar, the Transport Cache and the Rockets picker list the rockets one kind at a time (guided single target, straight single target, guided blast, straight blast), cheapest tier first.
-- The five missions you start with now give rockets to try: Basic Training: Combat 50 Lancets, Speed Trial 50 Rivets, Combined Operations 30 Embers, Frontier Defense 30 Scatters and Phantasm Hunter 20 Javelins. Only pilots who finish them from now on get them.
-
-**The N.U.K.E., the N.I.K.E. and Dark Matter**
-- Two rockets are not in the Shop. **Assembly makes them** and they follow every rule above. Both fly toward your cursor.
-
-  | Rocket | Damage | Reach | Carry at most | Assembly |
-  |---|---|---|---|---|
-  | N.U.K.E. | 50,000 at the centre of a 900-unit blast, 12,500 at its edge | flies 1,200 units, 4 seconds | 10 | one: 150,000 credits, 3,000 Thulium, 6 Maelstrom, 4 Power Cores, 10 Reinforced Hull Plates, 40 Ship Fragments, 80 Cataclysite (900 s) |
-  | N.I.K.E. | 75,000 to one ship, half of it skipping the shield | flies 4,050 units, 4.5 seconds | 20 | five: 100,000 credits, 1,500 Thulium, 20 Ship Fragments, 4 Reinforced Hull Plates, 40 Cataclysite (300 s) |
-
-- The **N.U.K.E.** is the biggest blast in the game, more than twice the reach of the Maelstrom. It wipes out every Seeker and Phantasm in its blast. Against pilots it destroys a fresh Protos within about 560 units of the burst (160 with Heavy Shield Cores) and no bigger ship in one blast. It bursts with a white flash, a ring showing its reach, a mushroom cloud and a shake of the camera (a short dim flash and no shake with Reduce Motion).
-- The **N.I.K.E.** hits the first ship it touches and is spent on it. A fresh Protos, Kitefin or Ostirion is destroyed in one hit (an Ostirion with Light Shield Cores only). It takes about a third of a Paragon's hull and about a seventh of a Wraith's. It flies through your own company and group, ships in a safe zone and ships you may not hurt yet.
-- **The N.I.K.E. also feeds the black hole.** Fired from within about 4,380 units of the middle of Danger Sector 4, a N.I.K.E. that crosses the event horizon before it touches a ship is swallowed, and the hole gives back **Dark Matter** for it. If a ship is in the way, it is hit for 75,000 and you get no Dark Matter. Aliens and company pilots keep out of the hole's ring, so only pilots who went in for Dark Matter, or who wait for you at the rim, can be in the way. If you leave the map after firing, the N.I.K.E. flies on, hurts nobody and still makes your Dark Matter.
-- **Dark Matter** lies in small crates on the rim of the hole's zone, 3,050 to 3,950 units from its centre, about two Dark Matter per N.I.K.E. (one to three, a crate holds up to two). The crates are yours and your clan's for 60 seconds, then anyone's, and they are gone after 240 seconds. A map holds at most 32. They look like violet-black orbs that come out of the hole, show the seconds you still have them to yourself and have a violet mark on the minimap.
-- **Assembly presses a Dark Matter Plate** from 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate and 250 Thulium (120 s).
-- **The Forge's steps to Rupturing and Eternal take 2 Dark Matter Plates each.** The steps to Tainted and Godly are as before. A failed step gives half of the materials and half of the Thulium back (of the 2 plates, 1).
-
-  | Step | Success | Credits | Materials |
+  | Choice | Key | Where you appear | Locked after use |
   |---|---|---|---|
-  | Rupturing | 75% | 200,000 | 20 Reinforced Hull Plates, 120 Cataclysite, 2 Dark Matter Plates |
-  | Eternal | 60% | 500,000 and 2,000 Thulium | 8 Power Cores, 240 Quorvium, 2 Dark Matter Plates |
+  | At base | **1** | your company's base, as before | never |
+  | At the nearest portal | **2** | next to the portal of the map you died on that is nearest to where you died, 150 to 300 units from it | 3 minutes |
+  | On the spot | **3** | where you died, on the same map and in the same world | 5 minutes |
 
-- Two plates are 10 Dark Matter, about 5 N.I.K.E.s. Counting failed steps, a successful step costs about 6 to 7 N.I.K.E.s, and each N.I.K.E. costs 20,000 credits and 300 Thulium in Assembly fees, besides its materials. As a weapon a N.I.K.E. is the worst value in the game and the best single hit.
+- **The lock starts when you respawn that way,** not when you die. A locked row is greyed out with a countdown and opens by itself. If the server says a choice is still locked, the game tells you and reads the choices again. A refusal never uses up a lock.
+- **A sector with no portal** greys the portal row out ("No portal in this sector."), and it never falls back to another map or to the base. If the server was updated while you were destroyed, or an admin moved you to another world, the place you died at is not known any more and only the base is offered.
+- **Spawn protection:** a chip with the seconds left shows while it runs. During it, lasers, rockets and blasts do nothing to you, nobody can lock on to you and aliens drop you. It ends when you fire a laser volley or a rocket (the game tells you), or after 5 seconds. The base has no protection of its own: the station's safe zone has it.
+- **The black hole:** in Danger Sector 4, a place within 4,200 units of the black hole's middle is moved out to 4,500 units on the same bearing, for the spot and for the portal. You are told ("You were moved out of the black hole's radiation.") and the lock is spent as for any respawn.
+- Everything else about dying is as it was: no items lost, no cost, the ship comes back with its base hull and empty shields, and every ability is ready.
+- The **Death** help card explains the choices, and a test checks its numbers against the server's file.
 
-**Twelve new modules**
-- Laser amps, shield cells and thrusters are the modules you fit into lasers, shield cores and engines. Each family now has a credit rung, a Thulium rung and an upgrade.
+**The kill feed in the Global chat**
+- Whenever a pilot's ship is destroyed, the **Global** tab gets a line with a skull: who died, who or what did it, and a joke about it. For example "vega asked the black hole for directions", "rex sent cyd a Lancet. It was not a gift." or "kai tried to hug a Gorvane". The names have their company's colour.
+- **There are 62 lines in nine groups** (lasers 8, rockets 8, the N.U.K.E. 6, the N.I.K.E. 6, aliens 8, the black hole's horizon 8, its radiation 6, a pilot pushing someone into the hole 6, anything else 6). The server picks one at random and never the one it used last for that group.
+- **The line is written in your language.** The server sends who died, who killed, the cause and a number, never the text, so a Japanese pilot reads the joke in Japanese. The jokes were adapted for each language and not translated word for word.
+- **It tells nothing about where.** The line carries no map, position or world, so a cloaked pilot's death does not give the pilot away.
+- **Only pilots' deaths are posted,** not aliens' or company pilots'. A pilot who logs out in a fight is not destroyed and posts nothing.
+- **A mass death does not spam.** The server lets at most 4 lines a second into the channel, and the game folds a burst (more than 4 lines in 3 seconds) into one line, "N more pilots died", that grows in place.
+- **Switch it off** with **Show kill feed** in the chat window's menu (the ⋮ button in its title bar) or in Settings › General › Chat. Turning it off only hides the lines, which come back when you turn it on. The game keeps the last 100 lines, and earlier deaths are not kept: you see what happens while you are online.
 
-  | Family | Credits | Thulium | Upgrade (Assembly) |
-  |---|---|---|---|
-  | Damage amps | **Arc Amp** 60,000: +16 damage, +5% crit | **Pulse Amp** 1,500: +26, +6% | **Nova Amp**: +38 damage, +7% crit |
-  | Crit amps | **Focus Amp** 60,000: +20% crit, +14 crit damage | **Prism Amp** 1,500: +25%, +24 | **Apex Amp**: +25% crit, +44 crit damage |
-  | Shield cells | **Reinforced Shield Cell** 90,000: +4,200 capacity, +350 recharge, +5% absorbance | **Prime Shield Cell** 8,000: +8,500, +700, +7% | **Sovereign Shield Cell**: +12,000, +1,000, +8% |
-  | Thrusters | **Vector Thruster** 80,000: +7 speed, x1.02 | **Ion Thruster** 3,000: +13, x1.08 | **Plasma Thruster**: +18, x1.12 |
+**Invite Friends**
+- Open **Community › Invite Friends.** Your personal code looks like `XXXX-XXXX`: eight letters and digits, with no vowels and no 0, 1 or L, so it cannot spell a word or be misread. It is yours alone and never changes. You can copy the code, or a ready message with the download link and the code. The page lists your friends, the pack, the milestones and what you can collect now.
+- **A friend who is new enters your code once** on the same page ("Have a code from a friend?"). The rules are: the friend's level is **4 or lower**, **once per account,** never your own code, and **at most 3 codes per network address in 24 hours.** The friend gets the pack, all at once:
 
-- **The upgrades are made in Assembly** from the Thulium piece below them. You can't buy them.
-  - **Nova Amp:** 1 Pulse Amp, 30 Cataclysite, 1 Power Core, 3 Velkonite Reinforced Plates and 1,200 Thulium (60 s).
-  - **Apex Amp:** 1 Prism Amp, 30 Cataclysite, 1 Power Core, 3 Velkonite Reinforced Plates and 1,200 Thulium (60 s).
-  - **Sovereign Shield Cell:** 1 Prime Shield Cell, 20 Cataclysite, 8 Reinforced Hull Plates, 6 Velkonite Reinforced Plates and 2,500 Thulium (90 s).
-  - **Plasma Thruster:** 1 Ion Thruster, 60 Ship Fragments, 3 Power Cores, 6 Velkonite Reinforced Plates and 2,000 Thulium (90 s).
-- **An upgrade keeps the Forge tier of the piece it uses up and rolls its buffs again.** A Godly Pulse Amp makes a Godly Nova Amp with new buffs. A Standard piece makes a Standard one. The Velkonite Reinforced Plates come from your Skylab Forgery.
-- When you hold copies of the piece in several tiers, the recipe card shows them so you can choose which one is used, and asks first before it uses one above Standard. A piece that is fitted on a ship or holds other modules can't be used, and the card tells you what to take out.
-- The Heavy Shield Core, Engine III, Thruster III and Adaptive Core III still have no price and no recipe.
+  | Starter pack |
+  |---|
+  | 100,000 credits |
+  | 5,000 Thulium |
+  | 1 N.I.K.E. |
+  | 1 Quantum Laser 2 |
+  | 1 Engine II |
+  | 1,000 Advanced Plasma (the x2 damage ammo) |
 
-**Abilities that stack**
-- An ability slot may now hold **several modules of one kind.** All the shield cores, engines or Repair Drones in one configuration's ability slots are one ability. **The worst-ranked one sets the strength and the cooldown, and every other module adds 50% of that base** (two modules make 1.5 times, three make 2 times).
+- **You get 2,500 Thulium for each friend who reaches level 5.** It waits on your page and you collect it yourself, once per friend. A badge on the Invite Friends row of the sidebar, and on Return to Base in flight, says that something is ready.
+- **The milestones** count friends who reached level 5. Each step pays once, in any order:
 
-  | Ability | What a stack changes | What it keeps |
-  |---|---|---|
-  | Afterburner (engines) | lasts 10 seconds plus 5 for each extra engine: two engines 15 s, three 20 s | the speed bonus and the cooldown |
-  | Shield Surge (shield cores) | puts back 100% plus 50% per extra core of its total | the 10 seconds and the cooldown |
-  | Emergency Repair (Repair Drones) | heals 100% plus 50% per extra drone of its total | the 10 seconds and the cooldown |
+  | Friends at level 5 | Thulium |
+  |---|---|
+  | 3 | 5,000 |
+  | 5 | 10,000 |
+  | 10 | 25,000 |
+  | 25 | 75,000 |
 
-- A module takes the slot of another ability, so a ship trades breadth for depth. The hulls have 1 ability slot (Protos, Kitefin), 2 (Ostirion) or 3 (Paragon, Wraith). A Protos or Kitefin can't stack. A better module beside a worse one buys the bonus and never a better base: a Light core beside a Basic one restores 45% of your shield (30% plus half of it), less than the Basic core alone (60%).
-- **The Shield Surge puts shield back** instead of giving an overshield. Over 10 seconds it restores 30%, 60% or 100% of your maximum shield (Light, Basic, Heavy core), evenly, and never less than the core's own capacity (10,000, 15,000, 25,000). Hits don't stop it, the shield never goes above its maximum, and what it restored stays when it ends. It is still refused inside a safe zone, and now also on a ship with no shield. **A Surge pressed on a full shield starts the cooldown and restores nothing.**
-- **Emergency Repair heals over 10 seconds** what it used to heal at once: 20%, 25%, 32% or 40% of your maximum hull. Hits don't interrupt it, and it is still refused at full hull. The cooldowns are as before (120, 105, 90 and 75 seconds).
-- The black hole's radiation doesn't stop a running Surge or repair.
-- **New pilots start with a Repair Drone I fitted** in the first ability slot of their Protos, so the Emergency Repair button (E) works from the first minute. Pilots who already play get nothing extra.
-- The Surge keeps its bubble, and your shield bar (and a target's) fills while it runs. The Hangar shows a stack as "x2" or "x3" with the real numbers, and Emergency Repair glows, sends out motes and shows "+N" a second while it heals.
+- The numbers sit in a file on the server (`Invites.json`) and may change as we see how it goes. A reward you have collected stays collected.
+- **What we keep.** Your page shows a friend's name and whether the friend has reached level 5, and the server sends nothing more about a friend (no level, email or address). It stores a code per pilot, who used which code and when, and a scrambled form of the network address, never the address itself. Deleting an account does not take back what the other pilot earned.
+- **A season wipe does not touch codes or rewards,** and it does not reset levels either.
 
-**Cloaking CPU and EMP Charge**
-- **A cloak has no timer.** It lasts until you press the CPU again, fire a laser or launch a rocket, enter a safe zone, an area blast hits you, an EMP goes off within 1,500 units of you, or you jump, die or log out. The chip at the top says "Cloaked" and the uses you have left, without seconds, and the slot glows "ON". Collecting cargo still doesn't end it.
-- **The recharge is one minute, however the cloak ends** (it was 20 seconds). It stays with you when you log out, die or jump, and a server restart clears it. If you press too early the slot flashes red. You still can't cloak inside a safe zone or within 10 seconds of a hit or a shot, and one press is still one use.
-- **Other pilots see a red dot** at your position on their minimap, from anywhere on the map, refreshed twice a second. The dot has no name, ship or company, can't be clicked or targeted and can't be locked. Your own company still sees you as a pale ghost, and so does your group. A new (i) on the minimap explains the dot. Aliens don't see you, as before.
-- **An EMP ends cloaks.** Every cloaked ship within **1,500 units** of the EMP's owner is revealed, pilots of other companies and **your own company's too**, except the owner's groupmates. A pilot whose cloak breaks is told "Cloak broken: an EMP went off nearby" and starts the minute of recharge. The ring of the EMP is drawn out to its full reach. The EMP is otherwise as before: 3 seconds without locks, every lock on you breaks, a 30 second recharge, 500 Thulium a charge.
-- A pilot who saw you cloak can follow your dot as it moves, since the dot is still a position. We left that as it is.
+**Chat safety: hide Global, ignore, report**
+- **Hide Global chat** is in the chat window's menu and in Settings › General › Chat. The Global tab then shows no lines (the kill feed's included) and counts no unread lines. The tab says "Global is hidden" with a button, **Show Global**. The lines you send there still go out, and the lines that arrived meanwhile are back when you show it.
+- **Ignore:** right-click a pilot's name in the chat and choose **Ignore**. Its lines in **Global and Local** are hidden, and its group invitations are turned down at once, with no prompt. A pilot in your own group still shows in the **Group** tab. Nothing is mutual: the pilot is never told, and it still hears you.
+- **The list** is in Settings › General › Chat, with a **Remove** button for each pilot. It holds up to 200 pilots, follows your account to your other computers, and a full list says so rather than dropping someone.
+- **Report:** right-click a name and choose **Report…**. The sheet shows what is sent: your name, the pilot's, the channel, the last line of that pilot you could see (up to 200 characters) and the reason, which is Spam, Abuse or harassment, Cheating or Something else. You can send up to 5 reports an hour.
+- **Nobody is punished automatically.** A report is a note for the admins, who read them on a new Chat reports card in the Admin page and decide what to do with the tools they already had. The pilot reported is not told who reported it. The server cannot check the quoted line, and the card says so.
+- **Needs the 0.4.5 server for reports:** hiding and ignoring work on any server.
 
-**The black hole: pull, sight and debris**
-- **The pull moves you.** A ship that stops anywhere inside 3,000 units of the middle is carried toward it: 25 units a second at 2,800 units from the middle, 60 at 2,300, 120 at 1,800 and 220 at 1,300. In 0.4.3 a ship could hold still wherever the pull was weaker than its speed. The last 900 units are as before, and the radiation (4,000) and the event horizon (300) are unchanged.
-- **Slow ships pass their point of no return farther out.** Ships faster than about 272 units a second keep theirs.
+**Italian**
+- **Italiano** is the twelfth language, after English, Deutsch, Español, Français, Magyar, 日本語, 한국어, Português (Brasil), Русский, Svenska and 简体中文. All 4,274 texts are in it, the kill feed's jokes and Invite Friends included. It is written with *tu*, the loan words Italian players use (slot, booster, respawn, clan) and the key names of an Italian keyboard (Invio, Canc, Maiusc).
+- Pick it on the sign-in screen (the language button at the bottom right) or in Settings › General › Interface Language. Automatic picks it when your system is set to Italian.
+- **It has not been read by a native speaker yet.** The same is true of the new texts in the ten other languages. Please tell us what reads wrong.
 
-  | Ship or speed | Point of no return in 0.4.3 | Now |
-  |---|---|---|
-  | slowest possible ship (124) | 1,299 | 1,781 |
-  | stock Protos (155) | 1,185 | 1,627 |
-  | stock Kitefin (184) | 1,100 | 1,480 |
-  | stock Ostirion (208) | 1,044 | 1,362 |
-  | stock Paragon (222) | 1,014 | 1,287 |
-  | stock Wraith (238) | 982 | 1,171 |
-  | Protos with Afterburner III (247) | 966 | 1,105 |
-  | runner Protos (265) | 936 | 976 |
-  | anything over about 272 | unchanged | unchanged |
-
-- **You can see it from anywhere in Danger Sector 4.** A small black hole in a glow on the edge of your screen points to it and shows the distance, and it grows into the real picture as you get close. The stars of the inflow fall at the pull's own speed, and your engine flame and wake follow the current.
-- **Debris** (real rocks and hull fragments) circles the hole and falls in along spirals, faster and tumbling quicker the closer it gets, glowing orange in the disk's light and torn apart before the horizon.
-- The Star System map marks the hole in the middle of `DS-4`.
-
-**Jumping and cargo take time**
-- **A jump takes 3 seconds,** picking up a **cargo box takes 1.** Your ship keeps flying. A bar over the hotbar fills, and it turns red with the reason if the server calls it off. Everyone can see a portal charge while a pilot jumps, and a crate being scanned while a pilot collects it.
-- The jump needs a portal within 500 units the whole time, and is cancelled if you leave that range. The pick-up needs the box within 200 units.
-- **Outside the Danger Sectors an attack doesn't interrupt a jump.** In a Danger Sector (`DS-1` to `DS-4`) **you can't start a jump if you were hit in the last 10 seconds, and a hit while you jump cancels it.** The black hole's radiation is not an attack.
-- **Return to Base is not covered.** It is still an instant exit, also from a Danger Sector fight. We left it that way on purpose.
-
-**The Hangar in flight**
-- Open the **Hangar** window (the warehouse button in the top-left toolbar) inside the ring of a safe zone (a station or a portal) and you can fit and unfit items in any slot, swap configuration and **make another ship of yours active, without returning to base.** A ship you switch to keeps the hull and shields it had, so changing ship never repairs. Cooldowns, ammo, rockets, experience and your Slave Drones stay with you.
-- It opens only when the ship is alive and protected by the ring, not cloaked or inside its own EMP window, and **quiet for 10 seconds:** no hit taken, no shot or rocket fired and no rocket of yours still in the air. Everywhere else the window opens read-only and says why.
-- The server refuses too: equip, unequip, delete, revive and making a ship active answer **409** ("You can only change your ship in a safe zone.") while you fly outside a ring. The configuration swap (C) still works anywhere, every 5 seconds.
-- In the Hangar's inventory every category is now its own on/off switch, so you can hide ammo and Repair Drones while you manage lasers, shields and engines. It remembers your choice. Double-clicking the only category that is on brings all of them back.
-
-**Skylab: upgrades that take days**
-- Getting a module from level 1 to level 6 takes what it did. **From level 6 to 7 it takes 20 minutes, and every step after that about 1.6 times as long as the one before,** the same for all eight modules: 20 minutes, 30 minutes, 50 minutes, 1 h 20 min, 2 h 15 min, 3 h 30 min, 5 h 30 min, 9 h and 14 h, then **1 day from level 15 to 16,** 1 d 12 h, 2 d 12 h, 4 d and **6 days for the last step, 19 to 20.**
-- No module goes above the Core, so the Core sets the pace. Bringing the Core from level 1 to 20 takes about 16 and a half days, and the whole station about 22 and a half. The costs are as before, and there is no way to hurry an upgrade.
-- **Upgrades already running keep the time they were given,** and a module that was upgrading when the server updated finishes when it would have.
-- **Solar is the module to plan around.** A module being upgraded is offline, and Solar is the only one that makes power, so **a Solar upgrade switches every farm and collector off for its whole length** and the production lost is never made up. The upgrade sheet, the module sheet and the preview of Solar's Upgrade button warn you before you click. The build sheet says the station has no power meanwhile.
-- The Skylab wiki page has the station at every level from 1 to 20 as pictures, the cards of all eight modules and the table of times. The wiki can show pictures now.
-
-**Assembly: the Helios Beam and the Master Drone**
-- **The Helios Beam is made from a Starfire-3:** 1 Starfire-3, 50 Cataclysite, 2 Power Cores, 18 Orvium Reinforced Plates, 4 Reinforced Hull Plates and 2,000 Thulium (180 s). It was 5,000 Thulium, 20 Orvium plates and 5 hull plates with no Starfire-3 (300 s). The Starfire-3 and the Helios Beam together cost as much Thulium as the Helios Beam alone did, and the Starfire-3 adds its own 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate and 100,000 credits.
-- Like the module upgrades, it **keeps the Forge tier of the Starfire-3 and rolls its buffs again.** The Assembly tells you when the piece an upgrade needs is missing, fitted on a ship, holding amps or in the Transport Cache, and what to do: take your Starfire-3 off its ship and its amps out before you upgrade it. A Helios Beam you queued before the update is collected as you paid for it.
-- **A Slave Drone becomes a Master Drone in place.** In Assembly you pick which drone (the one with the least experience is pre-selected). It keeps its number, slot and fittings, nothing goes into your inventory and there is nothing to collect. **Its level and experience start again at 0** when the 60 second upgrade finishes: the Assembly warns you and asks you to confirm when the drone has experience. The price is as before, 100 Ship Fragments and 40,000 Thulium. While it is queued the drone's slot is offline. The Master Drone flies as a gold gunship.
-- Master Drones crafted in 0.4.3 stay as they are: loose items that do nothing. The number of drones, their prices and the limit of eight are unchanged.
-
-**Terra is a loop again**
-- **This corrects the 0.4.3 notes,** which said Terra's four sectors form a diamond and that `T-3` is one gate from Terra's home. The diamond showed two portals in `T-1` while Mars and Galactic have one, and we took it back.
-- Every company has the same loop now. The base `x-1` has **one portal, to `x-2`.** `x-2` opens on `x-3` and `x-4`, and `x-3` and `x-4` are linked. Terra's `T-4` still opens on `DS-2`. `T-3` is two gates from home again.
-- The server moves the live gates back when it starts: `T-1` to `T-3` goes and `T-2` to `T-3` returns. Your position stays where it was. If you stood next to the old `T-1` to `T-3` portal, it is gone.
-- The Star System map draws one dot for each portal and one line for each pair of sectors, and tells you which sector a portal leads to when you point at its dot.
-
-**Aliens let go**
-- An alien you have **not** shot gives up the chase when you are more than **1,200 units** away, or when it has flown **2,000 units** from where the chase began. An alien you **did** shoot (in the last minute) holds on to 2,500 units and flies at most 3,000. Before, the only limit was a gap of 2,000 units, which a ship as fast as the alien never reached.
-- An alien that lets go roams from where it is, ignores you for 8 seconds unless you shoot it again, and near a gate or a safe zone heads away from it instead of waiting there. A pack no longer follows you across the map to the gate.
-- The trade-off: a pilot who shoots an alien and then outruns it is followed about 500 units farther than in 0.4.3. An alien that gives up because you reached a safe zone also ignores you for 8 seconds after you leave it.
-
-**Fullscreen on Windows, and a log file**
-- **Fullscreen is new on Windows.** The button at the top right, **F11** and **Alt+Enter** switch the game to a borderless window that covers the whole screen, taskbar included. Alt+Enter waits while you type in the chat. Settings › Controls lists both keys under "Fixed keys", and an action of yours bound to F11 or Alt+Enter is shown in red as sharing a key. On macOS the button works as before, and Linux has no fullscreen yet.
-- **It has never been run on a real Windows PC.** We wrote it and built it on a Mac. If it misbehaves, press F11 again to leave it. **To turn it off completely,** start the game with the environment variable `SPACECORPS_NO_FULLSCREEN` set to `1`, or add `"fullscreen": false` to the file `.spacecorps2027\client.json` in your user folder.
-- **The game keeps a log file,** `.spacecorps2027\spacecorps2027.log` in your user folder (`~/.spacecorps2027/spacecorps2027.log` on macOS and Linux), so you can send it to us when something misbehaves. It holds warnings, errors, the fullscreen steps and one line with your version and system. The game writes no account data to it, and passwords, tokens and your home folder's name are cut out before a line is written as a second lock (the cutting has known gaps for formats the game doesn't write today). It is 1 MB at most, and the older half is `spacecorps2027.log.1`.
-
-**Keys, chat and alt-tab**
-- **Shift no longer stops the flight keys.** J (jump), A (attack), C, R, Q, W and E work while you hold Shift, unless you bound Shift plus that key to something else (then that binding wins). Ctrl or Alt held still blocks them, and the number keys keep their Shift row.
-- **The chat and the ability keys could go dead together.** A Shift, Ctrl or Alt the system never told the game you had let go of stayed "held", so Enter wouldn't open the chat, Escape wouldn't leave it and Q, W and E did nothing. The game now checks those keys against the system, lets go of them when you come back to its window, lets Escape always get you out of the chat, and Enter brings the chat in front of a window covering it. We never reproduced the exact cause, so these are fail-safes (see Known issues).
-- **Alt-tab no longer leaves the game behind.** When the game stopped drawing for a few seconds (alt-tab, minimising, a stall), your ship and the ones around you were drawn 0.7 to 1.1 seconds behind the server and stayed there until you changed map. Now the game catches up within a tenth of a second.
+**The server's texts, translated**
+- The refusals and notices the server sends now show in your language: the Assembly (a craft that cannot start, a piece that is fitted or missing), the Hangar, the Skylab, the Shop, the clan, the wipe and the bonus codes, plus the restart countdown. The messages that follow an action (the toasts after a click in those pages) are translated too. In 0.4.4 many of them came in English whatever you had picked.
+- **A test keeps it that way:** the build fails if the server can send a text that has no translation in every language.
 
 **Smaller changes**
-- **The wiki has a Resources page:** every material and currency, where to get each one, what it is for and the best way to farm it, with the figures for Alpha (Beta pays 2 times, Gamma 3 times). It explains which plates the crafts and upgrades need. The wiki also has a Groups page, and its Rockets, Forge, Abilities, Black Hole, Skylab, Hangar, Drones and Extras pages follow the new rules.
-- **Chrono-Gate scans** (the Energy Materializer's scans for Chrono-Gate parts) cost 5,000 credits (1% chance of a part) or 5 Thulium (10%). They cost 50,000 and 50 before, and the chances are the same.
-- **Music** starts at volume 15, where it was 40. A volume you saved keeps its value.
+- **The empty Epic rocket message is right:** when you run out of Harpoons, Piledrivers, Eclipses or Maelstroms and press their slot, the game tells you to buy more in the Shop (5 Thulium each), as a click on the slot does too. Only the N.U.K.E. and the N.I.K.E. say Assembly.
+- **Help cards:** the Rockets card says groupmates are safe from your rockets as well as your company. The Ability slots card says new pilots start with a Repair Drone I and that a stack of Afterburners runs 15 to 20 seconds. The Death card describes the three choices. The chat's card has rows for the kill feed, hiding Global, ignoring a pilot and reporting one. Invite Friends has a card of its own.
+- **The wiki:** a page for Invite Friends, sections on the kill feed, hiding, ignoring and reporting on the Groups page, a Wipe Timeline that says what a wipe really resets (items and ships, not level, credits, Thulium or ranking points), and the Rockets, Forge, Abilities and Black Hole pages corrected where they were out of date.
+- **Privacy:** the sign-in card, Settings and About link to the privacy policy (https://spacecorps.github.io/play/privacy/). In Settings, the crash report switch says that a report you send becomes a public issue on GitHub (SpaceCorps/play) that anyone can read, without your name. Off, the reports stay on your computer.
+- **About:** the build line wraps short of the Copy button in a narrow window.
 <!-- /patchnotes:latest -->
 
 ---
