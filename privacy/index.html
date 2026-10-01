@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy · SpaceCorps 2027</title>
-<meta name="description" content="What SpaceCorps 2027 stores about you, what it does not collect, and how to delete your account.">
+<meta name="description" content="What SpaceCorps 2027 stores about you, how long it keeps it, what it does not collect, and how to delete your account.">
 <link rel="canonical" href="https://spacecorps.github.io/play/privacy/">
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
@@ -54,7 +54,7 @@
 <main class="container">
   <a class="back" href="../">&larr; SpaceCorps 2027</a>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: September 30, 2026. This policy covers the game SpaceCorps 2027 (the desktop client, however you got it, and the game server it plays on) and this download site.</p>
+  <p class="updated">Last updated: October 1, 2026. This policy covers the game SpaceCorps 2027 (the desktop client, however you got it, and the game server it plays on) and this download site.</p>
 
   <p>The short version: to run an online game we keep a small account and your game progress. We do not run ads, we do not sell data, and the game has no analytics or tracking.</p>
 
@@ -62,7 +62,9 @@
   <ul>
     <li><strong>Your account:</strong> your username, your email address and a hash of your password (never the password itself).</li>
     <li><strong>Your game:</strong> your pilot, ships, items, credits, quests, rankings, company and clan, and what your account does in the game, such as fights, trades and clan actions.</li>
-    <li><strong>Chat:</strong> messages you send in game chat are sent through the server to the pilots who are meant to see them.</li>
+    <li><strong>Chat:</strong> messages you send in game chat are sent through the server to the pilots who are meant to see them. See &ldquo;Chat and reports&rdquo; below for what is kept.</li>
+    <li><strong>Reports and invites:</strong> a report you send about a pilot, and the record of an invite code you give or redeem. Both are described below.</li>
+    <li><strong>Settings:</strong> your game settings, your list of ignored pilots and whether you hide the Global chat are saved with your account, so they follow you to other computers.</li>
   </ul>
 
   <h2>What we do not collect</h2>
@@ -74,6 +76,21 @@
 
   <h2>Connections and IP addresses</h2>
   <p>Like any online service, the game server and the company hosting it (currently <a href="https://sliplane.io">Sliplane</a>) can see the IP address you connect from. We use it to run the service and keep it safe, not to profile you. The same is true for GitHub, which hosts this site and the game's downloads: when the game checks for updates or you visit the download page, GitHub sees your IP address.</p>
+
+  <p>The server also keeps, in memory only, how many sign-ups and failed sign-in attempts came from one network address, to stop guessing of passwords and mass sign-ups. That count is not written to the database and ends with the time window (or when the server restarts).</p>
+
+  <h2>Chat and reports</h2>
+  <p>When you write in the game's chat (Global, Local or Group), the game server receives your message and sends it to the pilots who can read it in that channel. The server also writes each chat line to its operating log, with the channel, the map, your pilot name and the text. That log is kept by our hosting provider for <strong>up to 7 days</strong> and is read only when we look into a problem or a report. Apart from a line quoted in a report (below), chat lines are not stored in our database and are not shown again after a server restart.</p>
+  <p>You can report a pilot from the chat: right-click one of their chat lines and choose Report. A report stores your player number and the player number of the pilot you report, the chat channel, the reason you picked (spam, abuse or harassment, cheating, or something else), the last chat line of that pilot that you saw (at most 200 characters) and the time. The server's log also gets one line about the report, with both pilot names, the channel, the reason and the quoted line. The game's administrators read the reports. The pilot you report is not told who reported them, and nobody is punished automatically because of a report.</p>
+  <p>A report is deleted <strong>30 days</strong> after an administrator has marked it reviewed, and in any case <strong>180 days</strong> after it was sent. If you delete your account, the reports you sent are kept without your name (they are about someone else), and the reports about your pilot are deleted with it.</p>
+
+  <h2>Invite Friends</h2>
+  <p>In Community, Invite Friends gives your pilot a personal invite code, made at random. When a friend redeems your code, the server saves who invited whom (both player numbers), the code, the time, what the starter pack gave, and the time the friend's pilot reaches level 5. That lets you see your friend's pilot name and whether they reached level 5, and collect your rewards.</p>
+  <p>When you redeem someone's code, the same record is made about you, and it also holds a <strong>keyed hash of your network address</strong>. The hash is made on our server from your address and a secret that only the server has, and cannot be turned back into your address; the address itself is not saved. It is used to limit how many codes can be redeemed from one network address in 24 hours, and the game's administrators can see its first characters next to each redemption to spot one address redeeming many codes. <strong>The hash is erased from our database 30 days after the redemption</strong> (leftover bytes in unused space of the database file can remain until that space is reused, and our hosting provider's backups age out within 7 days). The server's operating log gets a line when a code is redeemed or a reward collected, with player numbers and no address.</p>
+  <p>If you delete your account, your player number is removed from these records (the records stay, without it, so that limits and your friends' rewards still add up), and your invite code and the record of the invite rewards you collected are deleted.</p>
+
+  <h2>Changes administrators make to an account</h2>
+  <p>Every change a game administrator makes to your account is saved as a record: credits, Thulium and Wipe Points added or set, honor, experience and level set, items added, changed or removed, a password reset, any other edit of your pilot's data, and a kick out of the game. A record holds the administrator's account number, your player number, the kind of change, the values before and after (such as a number of credits, or the name and quantity of an item) and the time. The server's operating log gets a line about it with the same facts and the two pilot names. A password is never recorded: not in the record, not in the log, and the server keeps only the scrambled form of any password. A record is deleted <strong>one year</strong> after it was made. If you delete your account, your player number is removed from the records about you.</p>
 
   <h2>Crash reports</h2>
   <p>If the game crashes, it saves a report on your computer (in <code>~/.spacecorps2027/crash-reports/</code>). Sending it is <strong>off by default</strong> and happens only if you turn on Settings &rsaquo; General &rsaquo; Send crash reports. A sent report becomes a <strong>public issue</strong> on the SpaceCorps repository on GitHub, so it is visible to everyone. It describes the crash, the game version and your operating system, not your password.</p>
@@ -88,7 +105,7 @@
   <p>Other pilots see your pilot name, ship, company, clan, rankings and chat messages. Your email address and password hash are never shown to other players. We do not sell your data, and we do not share it except with the hosting providers above, which run the service for us, or when the law requires it.</p>
 
   <h2>Deleting your account</h2>
-  <p>You can delete your account yourself in the game: Settings &rsaquo; Account, with your password. This removes the account and everything it owns (pilot, ships, items, and so on). If you lead a clan, it passes to its highest-ranking member, or is disbanded if nobody else is in it. Chat lines other pilots already saw may remain on their screens. If you cannot sign in, ask us on Discord and we will delete it for you.</p>
+  <p>You can delete your account yourself in the game: Settings &rsaquo; Account, with your password. This removes the account and everything it owns (pilot, ships, items, and so on). If you lead a clan, it passes to its highest-ranking member, or is disbanded if nobody else is in it. Chat lines other pilots already saw may remain on their screens, and the server's operating log keeps its lines for the 7 days described above. If you cannot sign in, ask us on Discord and we will delete it for you.</p>
 
   <h2>Children</h2>
   <p>SpaceCorps is not aimed at children under 13, and we do not knowingly keep accounts for them. If you think a child has an account, tell us and we will delete it.</p>
