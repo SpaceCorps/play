@@ -61,6 +61,20 @@ Click an alien or a pilot and the **Target window** shows what you have selected
 
 It is a window like the others. Drag it by its title bar to put it anywhere, close it with the red light in its corner or with the **first button of the toolbar at the top left** (or `V`), and open it again the same way. Where you leave it and whether it is open are remembered for your account. It starts at the top of the screen, between the two toolbars. Closing it only hides the readout: your target stays selected and your attack goes on.
 
+## When the Game Lags
+
+Switch on **Settings › General › Show network info** and a small card appears at the top right (it keeps out of the way of the windows, and it is off until you switch it on). It tells you which side is slow:
+
+| Reading | What it is | Good, slow |
+| :--- | :--- | :--- |
+| **Ping** | The round trip to the game server (the icon beside it has three bars when it is good, two when it is slow and one when it is bad; every other reading gets a triangle when it is slow and an octagon when it is bad). | Under 80 ms is good, over 150 ms is bad. |
+| **Jitter**, **Snapshot age** | How evenly and how freshly the server's updates (20 a second) arrive. | Jitter under 25 ms and an age under 100 ms are good. |
+| **Longest gap** | The longest time without an update from the server in the last ten seconds. | Over a second is a stall. |
+| **Server** | How long the server's own 50 ms step takes (its 99th percentile). It says *n/a* when the server is too old to report it. | Under 20 ms is good, over 35 ms is bad. |
+| **Client** | Your computer's frame time (95th percentile). | Under 25 ms is good, over 33 ms is bad. |
+
+When something is bad, one line under the numbers says whose fault it is: *Network slow*, *Network lagging* or *Connection stalled* is your connection or the way to the server, *Server busy* is the server (a busy server also raises the ping and can hold the updates back), *Client slow* is your computer (lower the graphics detail), and *Client froze* means the game itself stopped drawing for a moment (an alt-tab, a minimised window). The same numbers are written to the game's log file once a minute, and at once for a stall, so a report of "it lagged at 21:10" can be answered from the log.
+
 ## Quick Pro-Tips for Beginners
 
 1. **Configurations**: Always prepare two distinct setups. For example, use **Config 1** with all engines/thrusters in your generator slots for fast escaping or traveling, and **Config 2** with shields and lasers for combat.

@@ -4,13 +4,15 @@ Defensive modules provide shield capacity, absorb damage, and recharge your defe
 
 ## Shield Cores
 
-Equip shield cores to generate active defensive barriers. Note that heavy shields weigh down your speed. A shield core in an **ability slot** instead gives you the **Shield Surge** in the last column, a shield repair over ten seconds, and adds no shield of its own (see [Abilities](/wiki/03-Mechanics/Abilities.md)).
+Equip shield cores to generate active defensive barriers, in your ship's generator slots or on your [drones](/wiki/03-Mechanics/Drones.md) (a drone's slot counts as a core slot). Note that heavy shields weigh down your speed. A shield core in an **ability slot** instead gives you the **Shield Surge** in the Special Effect column, a shield repair over ten seconds, and adds no shield of its own (see [Abilities](/wiki/03-Mechanics/Abilities.md)).
 
 | Name | Rarity | Capacity | Recharge Rate | Absorbance | Shield % | Speed % | Cell Slots | Special Effect | Cost |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Shoddy | 10,000 | 333/s | 45% | +5% | -1% | 1 | Shield Surge I | 20,000 Credits |
 | **Basic Shield Core** | Common | 15,000 | 500/s | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
 | **Heavy Shield Core** | Rare | 25,000 | 833/s | 50% | +20% | -5% | 3 | Shield Surge III | Craftable Only |
+
+The **Heavy Shield Core** is made in [Assembly](/wiki/05-Items/Overview.md#upgrading-modules) from a Basic Shield Core, with 2,000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plates and 6 Velkonite Reinforced Plates from your Skylab. It keeps the enchant tier of the core it uses up, and its buffs are rolled again ([Module upgrades](/wiki/05-Items/Forge.md#module-upgrades-in-the-assembly)). Take the Basic Shield Core off your ship (and its cells out of it) first: a core that is fitted or holds cells is not used up.
 
 **Absorbance** is the share of each hit your shields take; the hull takes the rest. A shield alone is **45 to 50%**, and its cells add the rest: the best shield with the best cells (a Heavy Shield Core with three Sovereign cells) is **80%**, the most a ship has out of the box. Two permanent boosts add to that: the Shield Absorbance Boost of the Season Store (+0.1 points a level, 100 levels, 25 Wipe Points each) and the Forge's absorbance buffs. Today's sources of Wipe Points (855 in total at their caps, carried across wipes; more sources are planned) buy 34 of those 100 levels (+3.4 points), which with a fully forged Eternal set is about **95%**. The stat is not capped at 100%, though: an attacker's *shield penetration* is taken off it, so what a ship has over 100% is its margin against penetration. See [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 

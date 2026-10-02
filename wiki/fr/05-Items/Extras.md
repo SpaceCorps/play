@@ -1,0 +1,51 @@
+<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n title: Extras -->
+# Extras {#extras}
+
+Les extras sont les gadgets installés dans les **emplacements extras** d’un vaisseau (trois sur chaque vaisseau, par configuration). Vous en activez un depuis le sélecteur d’extras de la barre rapide, ou depuis un emplacement de la barre rapide où vous l’avez placé. Ils ne fonctionnent que dans la configuration que vous pilotez : installé dans l’autre configuration, un extra attend que vous changiez de configuration.
+
+| Extra | Effet | Utilisations | Prix |
+| :---- | :----------- | :--- | :---- |
+| **Repair Drone I à IV** | Répare votre coque de 1,5 %, 2,25 %, 3,5 % et 5 % du maximum par seconde | illimitées | 5 000 / 15 000 / 35 000 crédits, 2 000 Thulium |
+| **Cloaking CPU S** | Cache votre vaisseau | 10 | 5 000 Thulium |
+| **Cloaking CPU M** | Cache votre vaisseau | 25 | 11 250 Thulium |
+| **Cloaking CPU L** | Cache votre vaisseau | 50 | 20 000 Thulium |
+| **EMP Charge** | Pendant 3 secondes, personne ne peut vous cibler, tous les verrouillages sur vous se rompent et toutes les occultations proches cessent | 1 | 500 Thulium |
+
+Les Cloaking CPU et l’EMP Charge ne se vendent qu’à la boutique. Ils ne peuvent pas être fusionnés, et aucune récompense ni aucun butin ne les donne.
+
+## Repair Drones {#repair-drones}
+
+Activez un Repair Drone (REP) et il répare la coque jusqu’à ce qu’elle soit pleine. Il ne démarre qu’après 10 secondes sans coup reçu, et chaque coup reçu l’éteint. Si plusieurs sont installés, c’est le meilleur qui travaille. Les taux figurent dans [Combat](/wiki/03-Mechanics/Combat.md).
+
+## Cloaking CPU {#cloaking-cpu}
+
+Appuyez sur l’emplacement CLK pour vous occulter. **Un appui consomme une utilisation**, quel que soit le pack, et vous voyez les utilisations restantes sur l’emplacement et dans le hangar. Une occultation **n’a pas de limite de durée** : elle reste active jusqu’à ce que vous la coupiez ou que quelque chose la rompe.
+
+- **Qui ne peut pas vous voir.** Les pilotes des autres corporations et les aliens ne voient pas du tout votre vaisseau : il n’est ni à leur écran ni dans leur liste de cibles, et personne ne peut le verrouiller. Les pilotes de corporation des autres corporations l’ignorent aussi.
+- **Le point radar.** Tous les autres pilotes de la carte, à l’exception de votre corporation, voient sur la mini-carte un simple **point rouge** là où vous êtes, et savent ainsi que quelqu’un d’occulté rôde. Le point n’a ni nom, ni vaisseau, ni corporation, ni ID, et on ne peut ni cliquer dessus ni le cibler ; le survol indique seulement « Quelque chose est occulté ici ». Il est rond, à l’intérieur d’un anneau (les vaisseaux sont des carrés sur la mini-carte), et l’anneau respire lentement, ou reste immobile si vous avez activé Réduire les animations. Le serveur le rafraîchit environ deux fois par seconde et votre jeu le déplace en douceur entre-temps. Il indique que quelqu’un est là, et où, mais pas qui : un pilote qui vous a vu vous occulter peut suivre le point, et **l’explosion d’une roquette** visée dessus vous trouve quand même.
+- **Qui peut vous voir.** Vous voyez votre propre vaisseau, estompé, avec un contour. Les pilotes de votre corporation vous voient comme un pâle fantôme ; les membres de votre clan issus d’autres corporations, non, car un clan accepte tous ceux qui postulent. Personne ne peut cibler le fantôme, pas même votre corporation.
+- **Vous ne pouvez pas vous occulter** dans une zone sûre, pendant que le CPU se recharge, ni dans les **10 secondes** qui suivent un coup reçu ou un tir.
+- **Ce qui la rompt.** Appuyer de nouveau sur l’emplacement, votre première salve ou roquette (elle touche, et vous êtes vu), l’entrée dans une zone sûre, le CPU qui quitte la configuration que vous pilotez, une **EMP déclenchée à moins de 1 500 unités** de vous, quel qu’en soit l’auteur (celle de votre propre corporation aussi, mais pas celle d’un membre de votre groupe), et l’explosion de zone d’une roquette qui vous touche. Le temps ne la rompt pas, la récupération d’une cargaison non plus (une caisse que vous prenez disparaît pour tout le monde, qui apprend ainsi que quelque chose se trouvait à portée de cet endroit, sans savoir qui), les compétences non plus, et la radiation du trou noir blesse un vaisseau occulté sans rompre son occultation. Se déconnecter ou mourir la rompt, car un vaisseau que personne ne pilote n’est pas occulté.
+- **Recharge.** Quand une occultation prend fin, quelle qu’en soit la cause, le CPU se recharge pendant **60 secondes**. La recharge vous appartient, pas au vaisseau : elle se poursuit si vous sautez par un portail, vous déconnectez ou mourez. Chaque appui consomme toujours une utilisation.
+- Les **aliens** qui vous poursuivaient vous perdent. Vos revendications d’éliminations sont levées quand vous vous occultez.
+- **Roquettes.** Personne ne peut verrouiller une roquette guidée sur vous, et une roquette droite à cible unique vous traverse. Une **explosion de zone** blesse toujours un vaisseau qu’elle couvre et rompt son occultation, et l’endroit où se trouve le vaisseau est montré aux pilotes qui peuvent le voir avant que le nombre de dégâts n’apparaisse. Lancer une roquette est un tir : cela rompt votre propre occultation comme une salve (le CPU se recharge alors les 60 secondes indiquées plus haut) et, occulté ou non, vous empêche de vous occulter pendant les 10 secondes qui suivent.
+- Le **trou noir** engloutit un vaisseau occulté comme n’importe quel autre, et toute la carte en est informée.
+- **Ce que vous voyez.** Votre vaisseau devient translucide, avec un contour violet en pointillés, et une pastille en haut de l’écran indique « Occulté » avec les utilisations restantes (pas de secondes : il n’y a pas de minuterie). L’emplacement CLK affiche les utilisations restantes ; pendant que vous êtes occulté, il brille en violet et indique ON, et quand l’occultation prend fin, quelle qu’en soit la cause, il s’assombrit et décompte les 60 secondes de recharge. Un appui que le serveur refuse (recharge, zone sûre, coup reçu ou tir dans les 10 dernières secondes) fait clignoter l’emplacement en rouge, et un message vous en donne la raison. Un allié apparaît comme un pâle fantôme, avec une marque de fantôme devant son nom, et un pilote qui s’occulte près de vous disparaît dans une ondulation. Faites glisser CLK depuis les Extras de la barre rapide sur un emplacement pour l’utiliser, comme REP.
+- Les **utilisations** sont enregistrées avec le CPU. Se déconnecter, mourir ou relancer le jeu n’en rend aucune, et une activation que vous annulez est tout de même dépensée. Quand la dernière utilisation d’un pack disparaît, il est épuisé et son emplacement est réapprovisionné à partir d’un exemplaire de rechange du même CPU de votre inventaire, si vous en possédez un.
+- **Plusieurs CPU** dans une même configuration ne s’additionnent pas. Celui qui a le moins d’utilisations restantes est utilisé en premier.
+
+Les S, M et L fonctionnent de la même façon : les packs plus gros ne sont que moins chers par utilisation (500, 450 et 400 Thulium).
+
+## EMP Charge {#emp-charge}
+
+Appuyez sur l’emplacement EMP en plein combat. Pendant **3 secondes**, personne ne peut vous verrouiller, et **tous ceux qui vous avaient verrouillé perdent leur verrouillage** aussitôt, où qu’ils soient : pilotes, aliens et pilotes de corporation. Un pilote dont le verrouillage se rompt reçoit le message « Verrouillage perdu : la cible a utilisé une EMP ». Quiconque tente de verrouiller pendant ces 3 secondes est refusé.
+
+- **Ce n’est pas de l’invulnérabilité.** Elle arrête ce qui demande un verrouillage : les lasers, les roquettes guidées et le contact d’une roquette droite à cible unique, qui vous traverse. Une **explosion de zone** n’a besoin d’aucun verrouillage, elle vous blesse donc toujours si vous êtes dedans, et le trou noir n’est pas un tir du tout.
+- **Vous pouvez toujours agir.** Tirer ne l’interrompt pas. Vous pouvez vous occulter (si les règles propres à l’occultation le permettent) et utiliser d’autres extras.
+- **Elle rompt les occultations proches.** Tout vaisseau occulté à moins de **1 500 unités** de vous quand l’impulsion se déclenche est révélé aussitôt et son CPU commence ses 60 secondes de recharge, quelle que soit sa corporation, la vôtre comprise ; les vaisseaux de votre propre [groupe](/wiki/03-Mechanics/Groups.md) font exception : ils gardent leur occultation. Le pilote reçoit le message « Occultation rompue : une EMP a été déclenchée à proximité. », voit le vaisseau réapparaître avec la même ondulation que pour toute fin d’occultation, et l’emplacement commence sa recharge. Vous ne pouvez pas utiliser d’EMP tant que vous êtes vous-même occulté.
+- **Elle ne cache rien.** Tout le monde vous voit toujours, entouré pendant les 3 secondes d’une coque électrique crépitante.
+- **Vous ne pouvez pas l’utiliser** tant qu’une zone sûre vous protège, en étant occulté, ni dans les **30 secondes** qui suivent la dernière. Elle fonctionne partout ailleurs, y compris pendant les premiers jours d’une saison (le Protocole de paix) : les aliens chassent encore à ce moment-là.
+- Un alien que vous touchez pendant les 3 secondes ne se retourne contre vous qu’une fois celles-ci écoulées. Vos revendications d’éliminations et les règles du premier tir ne changent pas.
+- **Ce que vous voyez.** Une impulsion d’espace déformé jaillit du pilote jusqu’à la distance où elle rompt les occultations (1 500 unités), tous ceux à portée la voient, et une coque électrique crépitante entoure le vaisseau pendant les 3 secondes, avec un anneau autour de votre propre vaisseau et une pastille en haut de l’écran qui comptent le temps. L’anneau de cible de tous ceux qui vous avaient sélectionné se brise, avec une brève décharge. L’emplacement EMP indique les charges que vous possédez, s’illumine en bleu tant que la coque est active et s’assombrit pendant la recharge.
+- **Une charge, une utilisation.** L’emplacement est réapprovisionné depuis votre inventaire quand vous en possédez davantage. Les **30 secondes** de recharge ne sont pas conservées : se déconnecter ou sauter par un portail les efface, et l’impulsion suivante coûte une charge.

@@ -19,6 +19,8 @@ Eight modules make up the station:
 | **Resource Storage** | Keeps the ore | Core level 5 |
 | **Forgery** | Forges ore into plates | Core level 5 |
 
+**Missions for it.** Ten [Station missions](/wiki/03-Mechanics/Quests.md#station-missions) in Mission Control walk you through the Skylab: build Solar, a Credit Farm and a Thulium Farm, raise the Core and Solar, collect your first 50,000 credits and open the supply chain, and pay a little for each step. The first is open from level 1.
+
 ## The station at every level
 
 These are the Skylab's Station view at each level from 1 to 20, all from the same angle, with every module at the same level. The view fits the whole station into the picture, so the scale is not the same in all of them: it jumps when the shape grows. The station grows in steps: its shape changes at **levels 1, 5, 10, 15 and 20**, and in between every level lights **one more lamp** on each module's collar (the number of lit lamps is the level, and the Core's ring of twenty lamps fills up the same way).
@@ -73,6 +75,7 @@ The heart of your Skylab. The level of the Core decides the highest level of eve
 Power is the lifeblood of the Skylab. The Solar Module makes the energy that every other module uses.
 
 - **Importance**: if your power use is higher than your power made, your farms and collectors shut down.
+- **Power made**: a Solar module at level N makes enough for **every other module at level N**, and about a tenth more: 255 at level 1, 835 at level 7, 16,010 at level 20. Level 7 Solar powers a whole station at level 7 (see Power Management for every level).
 - **Upgrading**: Solar is offline while it upgrades, and it is the only module that makes power, so the whole station is without power until the upgrade ends (see Building and Upgrading).
 
 ### Credit Farm and Thulium Farm
@@ -117,7 +120,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 Each of the four costs **10 Ship Fragments, 10,000 Credits and 500 Thulium**, and needs Core level 5.
 
 - The Ship Fragments are taken from your inventory (not from the Transport Cache) and your ship must be landed. The build sheet shows what you have against what it takes, and what you lack.
-- They draw power. Before you build, the sheet shows your power balance now and after: **building can put a small station into a deficit**, and one deficit stops every farm and collector. Switch a module off, or upgrade Solar first (the station has no power while Solar upgrades).
+- They draw power. Before you build, the sheet shows your power balance now and after: **building can put a station into a deficit** when its Solar is behind the other modules, and one deficit stops every farm and collector. Switch a module off, or upgrade Solar first (the station has no power while Solar upgrades).
 - The two collectors hang on rigs above the station, the Resource Storage sits at the Core's north-east port and the Forgery at its north-west port.
 
 ## Mechanics
@@ -173,8 +176,40 @@ An upgrade that is already running when the times change keeps the finish time i
 Your Skylab has a limited power budget.
 
 - **Balance**: keep your Solar output above the power all the other modules use. The Skylab page shows the balance, and warns before a build would push it below zero.
+- **Solar keeps pace**: a Solar module at level N makes the power of **all seven other modules at level N** (the Core, both farms, the Resource Storage, both collectors and the Forgery) and about a tenth more, so a station whose modules are all at level 7 needs Solar 7, and has it covered. Solar one level lower is not enough for a full station (the last column), so Solar still has to follow the rest up. The Core draws little, so it may run ahead: Solar 5 and up covers a full station at its level with the Core at any level.
 - **Active state**: you can switch the farms, the collectors and the Forgery on or off to manage power. The Core, Solar and the Resource Storage always run.
 - **Blackout**: if power use is higher than power made, all the farms and collectors stop producing until the balance is back. What they already hold stays, and you can still collect it. The Forgery starts no new batch.
+
+Solar's power at each level, against what the other seven modules use at the same level (every module at that level, the Core included):
+
+<!-- skylab-power:start -->
+<!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
+
+| Level | Solar makes | The other seven modules use | Left over | With Solar one level lower |
+| :--- | ---: | ---: | ---: | :--- |
+| 1 | 255 | 230 | 25 | – |
+| 2 | 310 | 278 | 32 | 255: 23 short |
+| 3 | 375 | 337 | 38 | 310: 27 short |
+| 4 | 455 | 410 | 45 | 375: 35 short |
+| 5 | 555 | 501 | 54 | 455: 46 short |
+| 6 | 680 | 615 | 65 | 555: 60 short |
+| 7 | 835 | 756 | 79 | 680: 76 short |
+| 8 | 1,030 | 933 | 97 | 835: 98 short |
+| 9 | 1,275 | 1,155 | 120 | 1,030: 125 short |
+| 10 | 1,580 | 1,435 | 145 | 1,275: 160 short |
+| 11 | 1,970 | 1,788 | 182 | 1,580: 208 short |
+| 12 | 2,460 | 2,234 | 226 | 1,970: 264 short |
+| 13 | 3,085 | 2,800 | 285 | 2,460: 340 short |
+| 14 | 3,875 | 3,519 | 356 | 3,085: 434 short |
+| 15 | 4,880 | 4,434 | 446 | 3,875: 559 short |
+| 16 | 6,160 | 5,600 | 560 | 4,880: 720 short |
+| 17 | 7,800 | 7,088 | 712 | 6,160: 928 short |
+| 18 | 9,895 | 8,992 | 903 | 7,800: 1,192 short |
+| 19 | 12,575 | 11,429 | 1,146 | 9,895: 1,534 short |
+| 20 | 16,010 | 14,554 | 1,456 | 12,575: 1,979 short |
+<!-- skylab-power:end -->
+
+The table counts every module at the same level. The Thulium Farm draws four fifths of it at the top (11,695 at level 20, against 14,554 for all seven), so a station with that farm far ahead of the rest needs more Solar than its Core suggests.
 
 ### Collecting
 

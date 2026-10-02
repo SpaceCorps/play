@@ -13,7 +13,7 @@ Seekers are basic scouting and reconnaissance units. They are passive, meaning t
 
 ## Behavior
 
-- A Seeker never goes after a ship that comes near: it roams until somebody shoots it, then chases and fires at the pilot who hit it last (with several pilots on it, see [Combat](/wiki/03-Mechanics/Combat.md): it does not turn from the pilot it is flying at to one who hits it from beyond its range and is no nearer). Another alien's fire and a hit that does no damage never provoke it.
+- A Seeker never goes after a ship that comes near: it roams until somebody shoots it, then chases and fires at the first pilot who shot it, for as long as that pilot keeps hitting it and it can reach it; other pilots' shots do not turn it meanwhile, and when the first drops out it takes the next pilot who joined the fight (see [Who an Alien Fights](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Another alien's fire and a hit that does no damage never provoke it.
 - It gives up **10 seconds** after anybody last hit it, and roams again. While a pilot keeps hitting it, it flies at that pilot whenever the pilot is beyond its weapon range (600 units) and fires once it is in range.
 - It lets go of a pilot who is more than **2,500 units** away from it, or when it has flown **3,000 units** from where the chase began, and does not go after that pilot again for 8 seconds unless the pilot shoots it once more (see [Combat](/wiki/03-Mechanics/Combat.md)).
 - Left alone for **30 seconds** its hull mends, 2% of its maximum a second (a full hull in about 50 seconds). Its shield recharges as any alien's does, from 15 seconds after the last hit.

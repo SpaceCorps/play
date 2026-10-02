@@ -30,7 +30,7 @@ To fully stabilize the Chrono-Gate, you must collect exactly **100 Chrono-Gate p
 
 ### The Energy Materializer
 You obtain parts by using the Energy Materializer interface, which spins local energy sectors to locate gate parts:
-* **Credit Spin** (5,000 Credits): Has a **1% chance** to produce a gate part.
+* **Credit Spin** (5,000 Credits): Has a **5% chance** to produce a gate part.
 * **Thulium Spin** (5 Thulium): Has a **10% chance** to produce a gate part.
 
 *Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x) to perform bulk spins and accelerate gate construction.*
@@ -57,6 +57,7 @@ For additional items in your inventory that you want to save (e.g., spare weapon
   * *Engines / Propulsion*: 30 kg
   * *Generators*: 30 kg
   * *Resources / Minerals*: Varying weights based on rarity (a Reinforced Plate from the Skylab's Forgery weighs 5 kg)
+  * *Rockets*: no weight at all: they take no room in the cache, so whole stacks go in (see [Rockets](/wiki/05-Items/Rockets.md))
 
 Your [Skylab](/wiki/03-Mechanics/Skylab.md) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache.
 
@@ -120,7 +121,7 @@ Wipe Points come from milestones that you claim yourself, in the game under **Se
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 100 | 1 | 50 WP, at 5,000 kills |
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 100 | 2 | 100 WP, at 5,000 kills |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 100 | 3 | 150 WP, at 5,000 kills |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 50 | 4 | 200 WP, at 2,500 kills |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 50 | 4 | 200 WP, at 2,500 kills |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 50 | 5 | 250 WP, at 2,500 kills |
 
 Only kills you are paid for count (see [Combat](/wiki/03-Mechanics/Combat.md)). A milestone pays when it is whole: 99 Seekers pay nothing, the 100th pays 1 WP, and the kills after it count towards the 200th.

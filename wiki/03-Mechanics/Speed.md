@@ -37,4 +37,5 @@ Total speed bonus percent is the sum of all speed bonuses from equipped engines 
 
 - **Engine speed bonus**: Engines add positive speed percentages (e.g. Engine III adds `+5%`).
 - **Shield speed penalty**: Heavy shields weigh down your ship, adding negative speed percentages (e.g. Heavy Shield Core adds `-5%` speed).
-- **Slot scaling**: These percentage bonuses and penalties are also scaled by the slot efficiency where the item is equipped.
+- **Slot scaling**: These percentage bonuses and penalties are also scaled by the slot efficiency where the item is equipped. A shield on one of your drones slows you as one in a core slot does.
+- **Never below zero**: however many shields you carry, your speed does not go below 0.

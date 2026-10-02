@@ -1,6 +1,6 @@
 # Phantasm
 
-Phantasms are aggressive spectral-class drones. They will attack any player who enters their aggro radius (700 units), and lose interest when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot them, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit one in the last 10 seconds is not let go of at all, and the Phantasm flies at that pilot whenever it is beyond its weapon range (700 units).
+Phantasms are aggressive spectral-class drones. They will attack any player who enters their aggro radius (700 units), and lose interest when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot them, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit one in the last 10 seconds is not let go of at all, and the Phantasm flies at that pilot whenever it is beyond its weapon range (700 units). With several pilots shooting it, it stays on the first who shot it while that pilot keeps hitting it (see [Who an Alien Fights](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
 
 ## Stats
 

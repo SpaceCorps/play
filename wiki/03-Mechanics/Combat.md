@@ -37,7 +37,7 @@ A ship or alien locked on and firing turns to face its target, whichever way it 
 
 ### 5. Range
 
-A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire; the Hangar reads 600 for it. See [Lasers & Ammo](/wiki/05-Items/Lasers.md) for each laser's own range.
+A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/05-Items/Rockets.md)). See [Lasers & Ammo](/wiki/05-Items/Lasers.md) for each laser's own range.
 
 ---
 
@@ -56,22 +56,34 @@ An alien's rewards go to the pilot who shot it first, not to whoever lands the l
 
 ## Aliens That Only Fight Back
 
-The Seeker and the Gorvane never start a fight. Each turns on the pilot who last hit it (a hit that does damage; another alien's fire never provokes it, and a company pilot's only when it is fighting nobody) and lets go **10 seconds** after anybody last hit it. Left alone for **30 seconds**, its hull mends by 2% of its maximum a second. The other aliens (Phantasm, Bulwark, Crystalys) go after any unprotected pilot who comes within their aggro radius (700, 700 and 900 units) and never mend their hull; every alien's shield recharges from 15 seconds after its last hit.
+The Seeker and the Goombah never start a fight. Each turns on a pilot who hits it (a hit that does damage; another alien's fire never provokes it), fights the one described under [Who an Alien Fights](#who-an-alien-fights), and lets go **10 seconds** after anybody last hit it. Left alone for **30 seconds**, its hull mends by 2% of its maximum a second. The other aliens (Phantasm, Bulwark, Crystalys) go after any unprotected pilot who comes within their aggro radius (700, 700 and 900 units) and never mend their hull; every alien's shield recharges from 15 seconds after its last hit.
+
+---
+
+## Who an Alien Fights
+
+An alien keeps fighting **the first pilot who shot it**, for as long as it can still chase that pilot: the pilot is on the map, not in a safe zone, not cloaked or inside its EMP window, alive, and has hit it in the last **10 seconds** (every hit starts the 10 seconds again: a laser volley, a rocket or the edge of a blast alike). While that holds, other pilots' shots never turn it, however close they are or however often they hit, so one pilot can hold an alien while others shoot it.
+
+When the first pilot drops out (it leaves the map, reaches a safe zone, goes dark, is destroyed, or stops hitting the alien for 10 seconds), the alien turns on the **next** pilot who joined the fight, in the order they first shot it, not on the one who hit it last. A pilot who dropped out and shoots it again joins the queue at the back. An alien keeps track of the first **32** pilots who shot it; a 33rd shooter takes no part in the queue until one of them drops out, and in a crowd of any size the alien stays on the first.
+
+[Company pilots](/wiki/03-Mechanics/Company-Pilots.md) count after every player: an alien fights a company pilot only while no player it can still chase has shot it, a player who shoots an alien a company pilot is fighting takes it over, and a company pilot never draws an alien off a player. None of this changes who gets the alien's rewards: that is the claim's ([Kill Rewards](#kill-rewards-first-hit-claims)).
 
 ---
 
 ## Aliens Lose Interest
 
-No alien follows you across the map. But an alien you are **hitting** is not losing interest, it is fighting you: for **10 seconds** after your last hit (every hit starts the 10 seconds again, a laser volley, a rocket or the edge of a blast alike) it flies at you, at its own speed, whenever you are beyond its attack range (Seeker 600, Phantasm and Bulwark 700, Gorvane 800, Crystalys 900), and keeps closing in and firing until you are in range. It has no limit on how far it follows while you keep hitting it. A laser that reaches farther than the alien's weapon (a Starfire-3 reaches 850 units, a Helios Beam 900) does not let you hit it from where it cannot answer, and a faster ship only keeps it behind you for as long as you keep shooting. It still drops you at once if you reach a safe zone, cloak, or leave the map.
+No alien follows you across the map. But an alien you are **hitting** is not losing interest, it is fighting you: for **10 seconds** after your last hit (every hit starts the 10 seconds again, a laser volley, a rocket or the edge of a blast alike) it flies at you, at its own speed, whenever you are beyond its attack range (Seeker 600, Phantasm and Bulwark 700, Goombah 800, Crystalys 900), and keeps closing in and firing until you are in range. It has no limit on how far it follows while you keep hitting it. A laser that reaches farther than the alien's weapon (a Starfire-3 reaches 850 units, a Helios Beam 900) does not let you hit it from where it cannot answer, and a faster ship only keeps it behind you for as long as you keep shooting. It still drops you at once if you reach a safe zone, cloak, or leave the map.
 
-When several pilots hit the same alien, it goes for the last one to hit it, as before, with one exception: it does not turn from the pilot it is flying at to another who hits it from beyond its attack range and is no nearer. It closes in on the nearer one and fires, so a group standing around it just outside its range cannot keep it running from one to the next without ever answering.
+When several pilots hit the same alien, it stays on the first who shot it (see [Who an Alien Fights](#who-an-alien-fights)): it closes in on that pilot and fires, so a group standing around it just outside its range cannot keep it running from one to the next without ever answering.
 
 An alien that has taken you for its target (a Phantasm, Bulwark or Crystalys that you came near, or any alien you shot) and that you have not hit for 10 seconds lets go as soon as one of these is true:
 
 - **You never shot it:** you are more than **1,200 units** away from it, or it has flown **2,000 units** from where the chase began.
 - **You shot it in the last minute:** you are more than **2,500 units** away from it, or it has flown **3,000 units** from where the chase began. A fight you started stays fair.
 
-An alien that lets go roams from where it stands and does not pick you as a target again for **8 seconds**, unless you shoot it. Every alien decides for itself, so a mixed pack thins out as you fly away. Aliens never follow you into a safe zone or through a gate, and those that lost you near one head away from it, each its own way, so they do not wait in a heap. An alien's interest never reaches less than its attack range and aggro radius, plus 100 units.
+An alien that lets go roams from where it stands, never on to where it last saw you (not even when you cloak or fire an EMP), and does not pick you as a target again for **8 seconds**, unless you shoot it. Every alien decides for itself, so a mixed pack thins out as you fly away. Aliens never follow you into a safe zone or through a gate, and those that lost you near one head away from it, each its own way, so they do not wait in a heap. An alien's interest never reaches less than its attack range and aggro radius, plus 100 units.
+
+Aliens do not pile up: a pack after one pilot keeps some room between its ships while it closes in (150 units between hulls, so a pack of Phantasms flies 250 units apart rather than hull to hull), and an alien that sets off on its way with others close by flies away from them, so a pack that lost its pilot breaks up in every direction.
 
 Flying faster only helps you so far: a Protos (150) is slower than every alien that hunts (Phantasm 160, Bulwark 175, Crystalys 230), so the leash, not your speed, ends the chase.
 

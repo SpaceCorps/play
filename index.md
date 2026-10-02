@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.6"
-date: "2026-10-01"
+version: "0.4.7"
+date: "2026-10-02"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 118146493
-    sha256: "50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7"
+    size: 119974414
+    sha256: "66c3e7c4add6df0b5e24496ede12f6b83282dfe30e66cf5a756535255b2b963b"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 113093539
-    sha256: "cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440"
+    size: 114701964
+    sha256: "d63eda464574fb6cc88cbb303188801c9b324b9cb2f9b5da59fff0ac0deea4dd"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 109115896
-    sha256: "673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869"
+    size: 110569976
+    sha256: "2390f43a6115689a7f7ab63392a9ae038333cb606c1a6787ba003bb25638e659"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 113838235
-    sha256: "68e75b82e4d50677d3fe1d93792e5c697c66e756e77a411362518060177a7744"
+    size: 115442520
+    sha256: "60d12ecbaa66b74dd3401ddf066813dfeadabfe97867a67200a383c462eed26c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.6)
+## Downloads (Version 0.4.7)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (118.1 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7` |
-| **Windows** | x86_64 | `.zip` (113.1 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440` |
-| **Linux** | x86_64 | `.AppImage` (109.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869` |
-| **Linux** | x86_64 | `.tar.gz` (113.8 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `68e75b82e4d50677d3fe1d93792e5c697c66e756e77a411362518060177a7744` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (120.0 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `66c3e7c4add6df0b5e24496ede12f6b83282dfe30e66cf5a756535255b2b963b` |
+| **Windows** | x86_64 | `.zip` (114.7 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `d63eda464574fb6cc88cbb303188801c9b324b9cb2f9b5da59fff0ac0deea4dd` |
+| **Linux** | x86_64 | `.AppImage` (110.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `2390f43a6115689a7f7ab63392a9ae038333cb606c1a6787ba003bb25638e659` |
+| **Linux** | x86_64 | `.tar.gz` (115.4 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `60d12ecbaa66b74dd3401ddf066813dfeadabfe97867a67200a383c462eed26c` |
 <!-- /release:downloads -->
 
 ---
@@ -72,139 +72,143 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.6 · 2026-10-01
+### 0.4.7 · 2026-10-02
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.6)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.7)
 
-SpaceCorps 2027 0.4.6 adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent, the number can pass 100, and rockets and the strong laser ammo penetrate. The Master Drone gets its second slot, aliens fly at whoever hits them, the target panel is a window, Wipe Points from alien kills need half the kills, and the camera zooms out farther and can stay where you put it. Shields, Wipe Points and ranges change, so the "If you already play" list below is worth reading.
+SpaceCorps 2027 0.4.7 puts ten missions about your Skylab into Mission Control and gives Solar enough power for the whole station. Rockets hold ten times more, weigh nothing and fire with no laser fitted; a shield on a drone counts; the Engine III, Thruster III and Heavy Shield Core are made in Assembly; and aliens stay on the first pilot who shot them. The Ironclad is slower (base speed 92), so the "If you already play" list below is worth reading.
 
 #### What's new
 
 **Highlights**
-- **The Ironclad:** a crafted Epic tank with 600,000 hull, 14 generator slots and 6 lasers, for 10,500 Thulium and parts in Assembly. Its base speed is the lowest of the roster.
-- **Shields reworked:** cores of 45, 48 and 50 percent, cells of 2 to 10 points, the best set exactly 80. The number may pass 100; rockets and the x3 and x4 ammo penetrate. Small ships are less tanky.
-- **The Master Drone has two slots,** the ones you already upgraded too.
-- **Aliens fly at whoever hits them,** blasts of area rockets included: no more free hits on a Gorvane from just outside its range.
-- **A ship shoots as far as the average of its lasers,** not its longest: mixed fits reach less.
-- **The target panel is a window** (key **V**).
-- **Wipe Points from alien kills need half the kills.** **Clan donations are capped** at 1,000,000 credits per pilot in 24 hours.
-- **The camera zooms out 50 percent farther** and can stay where you put it.
-- **Repair drones fly,** with quiet sounds. The Mission Control label is a **bubble above the station** you click.
-- **Windows:** the picture keeps moving while you drag the window, and Copy, Ctrl+C, Ctrl+X and Ctrl+V work (new, and not yet tried by us on every Windows setup). Copy and paste now reach the system clipboard on macOS and Linux too.
-- Also: a quieter engine hum, the login music at your volume, no salvage from company pilots, no black hole bubble on the screen, a pilot sheet of one width, soft clicks on toolbar buttons, and password resets for administrators.
+- **Ten Station missions** in Mission Control, from your first Solar panel to Core 10, with a section, three slots and a flat pay of their own.
+- **Solar powers the whole station:** at level N it makes what every module draws at level N, and a tenth more.
+- **Rockets:** stacks ten times larger, no weight, no laser needed to fire; the N.U.K.E. does 50 percent at the edge of its blast (it was 25).
+- **A shield on a drone counts** as a shield in a core slot.
+- **Engine III, Thruster III and the Heavy Shield Core are made in Assembly.** The **Starfire-3** is made out of a Quantum Laser 3 and keeps its tier.
+- **The Ironclad's base speed is 92** (it was 140): a nerf of its speed.
+- **Aliens stay on the first pilot who shot them,** and packs keep apart.
+- **The galaxy gate's standard scan finds a part 5 percent of the time** (it was 1).
+- **Numbers of 1,000 and more are grouped in every language.**
+- **In-order missions are unmistakable;** **Reduce screen shaking** is its own switch; a **network readout** (off by default) tells whose side lags.
+- **The wiki is in all 11 other languages** (first translations, not read by native speakers yet).
+- For administrators: a **server console** and `TCP_NODELAY` on every connection.
 
 **If you already play: what changes for you**
-- **Your shields give less out of the box.** Light 45 percent (it was 70), Basic 48 (80), Heavy 50 (85); cells add 2 to 10 points; the best set is 80, not 100. A stock Protos takes 14,545 damage before it is destroyed instead of 26,667; the Wraith is as it was. Forge buffs and Season Store levels stay (a level is now +0.1 point).
-- **Your range may be shorter.** A ship shoots as far as the average of its lasers (a Protos with a Quantum Laser 1 and 2: 650, not 700). Equal lasers are as before. The level 6 to 8 quest fits now reach 750 to 775 against a Gorvane's 800.
-- **Your next Wipe Points claim may pay more.** What you claimed counts at the new size once, so you are paid up to the new rate for the kills you have. Nobody loses points.
-- **A Master Drone you upgraded has a second slot,** empty, and keeps what it carried.
-- **Clan donations stop at 1,000,000 credits in any 24 hours,** over all clans.
-- **Company pilots drop no salvage.** Ship Fragments and Reinforced Hull Plates come from aliens and mission rewards.
-- **The target panel is the Target window,** open at the top centre until you move or close it. **V** shows or hides it; a key you bound to V shows a conflict in Settings.
-- **The black hole's bubble on the screen is gone.** The minimap and the warnings still show it.
-- **Engine hums are half as loud,** and toolbar buttons click softly (Settings › Button Sounds).
+- **The Ironclad is slower.** Base speed 92, not 140: a stock one flies at about 99 (it was 147), with Basic Shield Cores at about 60 (92), with Heavy ones at about 39 (60). A nerf of its speed, made after the Engine III became craftable. Its hull, slots, lasers and price are as they were.
+- **Solar makes more power at every level,** so nothing that ran stops, and farms the old Solar left dark produce again from the server's first start.
+- **Station missions** are in Mission Control. A Skylab you already built counts: a mission already true when you accept it is done at once and pays in full.
+- **Rockets:** carry 5,000 common, 2,000 rare and 500 epic ones (N.U.K.E. 10, N.I.K.E. 20), at no weight, so a Transport Cache they filled has room again.
+- **A shield on a drone now works,** its speed penalty included, and a weak one lowers your absorbance: check the Hangar before you fly.
+- **Starfire-3:** the recipe asks for a Quantum Laser 3, at the same total cost. Yours are as they were.
+- **Aliens** turn on the first pilot who shot them and stay on them.
+- **One alien has a new name:** the one that fights from 800 units (speed 180, between the Bulwark and the Crystalys) is the **Goombah**. Its kill statistics, Wipe Points progress and missions carry over.
+- **The standard gate scan is 5 percent;** the deep scan is still 10.
+- **Reduce Motion no longer stops the camera shake:** that is Reduce screen shaking now. If Reduce Motion was on, both are.
+- **Numbers:** Spanish, Italian and Hungarian group four-digit numbers (1.234, 1 234) like the others.
 
-**The Ironclad**
-- **What it is:** an Epic tank made in Assembly, between the Paragon (Rare) and the Wraith (Mythical) in rarity and recipe. It has more hull than either: **600,000** (the Wraith 324,000, the Paragon 128,000), and more generator slots: **14**, 7 core, 4 support and 3 auxiliary (the Wraith 12, the Paragon 8). It has **6 lasers** (the Paragon 8, the Wraith 12), 3 extra slots and 3 ability slots. It is a tank, not a better ship.
-- **The price:** 10,500 Thulium, 200 Ship Fragments, 35 Reinforced Hull Plates, 10 Power Cores and 1 Ancient Control Unit, 15 minutes of crafting. Ancient Control Units come from Crystalys and mission rewards.
-- **Speed:** its base speed is **140**, the lowest of the roster (Protos 150, Wraith 225). With the usual fits it is slower than the Wraith: a stock Ironclad flies at about 147 against the Wraith's 238, a typical build at about 269 against 345, and with a Basic Shield Core in all 14 slots it flies at 92, the slowest ship a pilot can build (its point of no return at the black hole is then about 2,040 units, and the black hole's card says 1,200 to 2,000). **The Wraith stays faster in every ordinary build.** A build fitted only for speed, with Adaptive Cores and Plasma Thrusters, can match or edge past a Wraith with the same fit, by a few percent (up to about 8 percent in the fits we measured), and Forge buffs on the speed stats move it further ahead (with every speed stat at the top of the Eternal tier, by up to about 17 percent in the fits we measured).
-- **In a fight:** a Wraith destroys an Ironclad faster than the other way round, and an Ironclad destroys a Paragon.
-- **Looks:** a new ship model in teal, cream and orange with twin engines and glowing strips. A 0.4.5 client draws it as a Protos.
+**The Station missions**
+- **Where:** a Station section at the top of Mission Control's Missions page, with how many of the ten you have done and its own pill of three slots. The Active Quests window shows them with a Station mark and the Skylab's own reading ("Core 2 / 3", "Collected 340 / 1,000 credits").
+- **The ten** (a mission opens at a pilot level, and after the missions it names are **claimed**, not just done):
 
-**Shields reworked**
-- **The cores alone:** Light 45 percent, Basic 48, Heavy 50 (they were 70, 80 and 85). **The cells add points:** Basic +2, Advanced +4, Reinforced +6, Elite +7, Prime +8, Sovereign +10. **The best set, a Heavy core with three Sovereign cells, is exactly 80 percent,** and nothing out of the box is more. A Light core with its cell is at most 55, a Basic core with two cells at most 68.
-- **It may pass 100.** Absorbance is the share of a hit your shields take; the rest goes to the hull. Now it is not cut at 100: a hit's penetration is taken off it (between 0 and 100 percent), so what you have above 100 is a margin. The Hangar, the Ship window and the pilot sheet show the same number, with the Season Store buff counted.
-- **Penetration:** rockets take points off the absorbance: Lancet 10, Javelin 25, Harpoon 35, Rivet 5, Mallet 25, Piledriver 35, N.I.K.E. 35 (they were shares of it, 10 to 50). The Ultra Core (x3 ammo) takes 5 and the Experimental Fusion Core (x4 ammo) 10. Blasts, aliens, company pilots and the x1 and x2 ammo take none.
-- **Ways to 100 and beyond:** the Season Store's Shield Absorbance Boost is now **+0.1 point a level** (it was 0.1 percent of the stat), up to +10 at 100 levels, still **25 Wipe Points a level**. The levels you bought stay and are worth the same or more. Forge buffs multiply the stat as before: an Eternal piece rolled at the top adds up to 12 points to the best set. Today's sources of Wipe Points (855 in total at their caps, carried across wipes) buy 34 levels, +3.4 points, which with a fully forged Eternal set is about 95 percent; the top of the Boost is a goal for several wipes, and more sources of Wipe Points are planned.
-- **Small ships are less tanky.** Damage taken before the hull is gone, with no repair: a stock Protos 14,545 (it was 26,667), a Protos with the best cells 40,000 (it was 370,950), a Kitefin with mid shields 54,545 (135,712), an Ostirion with mid shields 109,091 (183,094), a Paragon with the best build 640,000 (695,109). The Wraith is unchanged. A stock Protos lasts 18 seconds against a Bulwark where it lasted 33. Rockets hurt more too: a Harpoon puts 90 percent of its damage on the hull of a stock Protos where 65 percent went before.
-- Forged and enchanted shields keep their multipliers: a Heavy core forged to x1.12 is now 0.5 x 1.12 = 56 percent.
+  | # | Mission | Opens at | After | Asks for | Pays (credits, Thulium, XP) |
+  |--:|---|:-:|:-:|---|---|
+  | 1 | Light the Station | pilot 1 | – | Build Solar | 1,500, 100, 300 |
+  | 2 | First Farm | pilot 1 | 1 | Build a Credit Farm | 3,000, 100, 350 |
+  | 3 | Payday | pilot 1 | 2 | Collect 1,000 credits from the Credit Farm | 2,000, 20, 350 |
+  | 4 | Heart of the Station | pilot 2 | 2 | Raise the Core to level 3 | 4,000, 10, 400 |
+  | 5 | Brighter Panels | pilot 2 | 4 | Raise Solar to level 3 | 2,000, 40, 600 |
+  | 6 | The Thulium Line | pilot 3 | 5 | Build a Thulium Farm and keep the power at 0 or more | 5,000, 100, 1,000 |
+  | 7 | Growing Season | pilot 4 | 6 | Raise the Credit Farm to level 3 and keep the power at 0 or more | 4,000, 80, 800 |
+  | 8 | Fifty Thousand | pilot 4 | 3 and 7 | Collect 50,000 credits from the Credit Farm | 5,000, 50, 1,500 |
+  | 9 | Open the Supply Line | pilot 4 | 4 and 5 | Raise the Core and Solar to level 5 | 5,500, 60, 1,500 |
+  | 10 | Core Ten | pilot 5 | 9 | Raise the Core to level 10 | 20,000, 50, 1,500 |
 
-**The Master Drone's second slot**
-- A Master Drone has **two slots,** each taking a laser or a shield, as its item card always said. Both lasers add their damage, count in the volley, use ammo and get the drone's level bonus. The Drones view draws a box for each slot; a drop goes to the box under the pointer, and a click fills the boxes in order.
-- **Every Master Drone you already upgraded has the second slot,** empty, and its first slot keeps what it carried. Nothing is moved and nothing is charged.
-- **A shield in a drone slot adds no capacity,** as before, in either slot. It still takes a place in the order your shields are counted in, so keep shields in the ship's own slots.
-- A Slave Drone still has one slot; upgrading stays 40,000 Thulium and 100 Ship Fragments.
+  They pay 80 honor in all, too. A locked card says what it waits for ("Reach level 2", "Finish ... first", "Claim ... first").
+- **Their own allowance:** you may have **three Station missions active** at the same time as your five other missions; a Station mission can wait hours for an upgrade timer and must not hold one of the five. Accepting one does not take the tracking from a mission you are flying with.
+- **Paid flat:** exactly what the card prints, in credits, Thulium, experience and honor. No world bonus, no boosters, no Season Store boost, no premium experience, no items.
+- **If you already have a Skylab:** a mission that asks for a level or for power is done the moment you accept it if it is true then, and pays in full. The two that collect credits (Payday and Fifty Thousand) count only what you collect after you accept.
+- **A pilot who has not started** sees the Skylab row in the station menu pulse (in the accent of the Galaxy Gates row) until they build Solar or take the first mission; Reduce Motion makes it a still mark.
 
-**Aliens fly at whoever hits them**
-- **Area rockets provoke aliens.** The edge of a blast from an Ember, Corona, Eclipse, Scatter, Barrage, Maelstrom or N.U.K.E. now turns every alien it hurts on the pilot who fired it, as a laser hit does; before, only the alien the rocket burst beside did. An alien out of the blast stays where it was. Damage, the kill claim and the rewards are as before. As for lasers, a pilot inside its 3 seconds of EMP provokes nobody.
-- **An alien you are hitting comes for you.** For 10 seconds after your last hit (each hit starts the 10 seconds again) it flies at you at its own speed whenever you are beyond its weapon range (Seeker 600, Phantasm and Bulwark 700, Gorvane 800, Crystalys 900), and fires once you are in range. It no longer stands still, and it no longer lets go at 2,500 units while you keep hitting it. So there is no spot from where a Starfire-3 (850) or a Helios Beam (900) hits a Gorvane for free.
-- **Several pilots:** the alien still goes for the last pilot to hit it, with one exception: it does not turn from the pilot it is flying at to another who hits it from beyond its range and is no nearer, so a group just outside its range cannot keep it running from one to the next without ever answering.
-- **Company pilots answer rockets too:** a squad pilot hit by an enemy player's rocket, direct or blast, now fights back as it does for a laser.
-- **A bystander's blast can pull an alien off the pilot tanking it,** as a bystander's laser always could. The kill claim stays with the first pilot.
+**Solar powers the whole station**
+- **The rule:** at every level, Solar makes what the Core, both farms, the Resource storage, both collectors and the Forgery draw at that level together, and a tenth more (10 to 11.5 percent). A Solar one level lower is not enough for the full station at any level, so upgrading Solar still matters. The numbers are a table of 20 levels; the old Solar made 100 at level 1 and 30 percent more at each level:
 
-**Shooting range is the average of the lasers**
-- A ship's range is the **average of the ranges of its lasers** (the lasers on the flown configuration and in the drone slots), one number for all of them, rounded to the nearest. Before, it was the longest laser's, so one Helios Beam among cheap lasers set the whole volley's reach. Ships whose lasers are all alike are unchanged. The Hangar tile reads "Avg. range" where they differ, and its tip lists each laser's own.
-- **Examples** (Quantum Laser 1 reaches 600, Quantum Laser 2 700, Quantum Laser 3 800, Starfire-3 850, Helios Beam 900):
+  | Solar level | 1 | 3 | 5 | 7 | 10 | 15 | 20 |
+  |---|--:|--:|--:|--:|--:|--:|--:|
+  | Now | 255 | 375 | 555 | 835 | 1,580 | 4,880 | 16,010 |
+  | Before | 100 | 169 | 286 | 483 | 1,060 | 3,937 | 14,619 |
 
-  | Ship | Fit | Before | Now |
-  |---|---|--:|--:|
-  | Protos | 2 Quantum Laser 2 | 700 | 700 |
-  | Protos | Quantum Laser 1 + Quantum Laser 2 | 700 | 650 |
-  | Kitefin | Quantum Laser 3 + 2 Quantum Laser 1 | 800 | 667 |
-  | Ostirion | 3 Starfire-3 | 850 | 850 |
-  | Ostirion | Starfire-3 + 2 Quantum Laser 2 (the level 6 quest's fit) | 850 | 750 |
-  | Ostirion | Helios Beam + 2 Quantum Laser 1 | 900 | 700 |
-  | Paragon | 3 Starfire-3 + 3 Quantum Laser 2 (the level 8 quest's fit) | 850 | 775 |
-  | Wraith | 12 Helios Beam | 900 | 900 |
+- **Nothing else about the Skylab changed:** no module's draw, cost, timer or output. Solar makes more at every level, so no pilot loses power.
+- **Farms that were dark start again.** A farm or collector the old Solar had left without power produces again from the server's first start. This is a one-time step it does then (`skylab-solar-v2`); what the farm had stored is kept and nothing is made up for the dark time.
 
-- **The quests that kite a Gorvane:** the level 6, 7 and 8 fits (Starfire-3 beside Quantum Laser 2) reach 750, 750 and 775, still past a Bulwark's 700 but 50, 50 and 25 short of a Gorvane's 800. A fit of Starfire-3 only still reaches 850. The quests' times for the Gorvane were not changed.
-- **A long laser among short ones counts for less:** a Helios Beam in place of a Quantum Laser 1 adds 100 units to a 3-laser ship and 25 to a 12-laser one. A Forge range buff moves the ship's range by only its laser's share. A fit that averages under 700 is out-reached by company pilots (700), and a Phantasm or Bulwark (aggro radius 700) starts its chase before such a ship can fire.
+**Rockets**
+- **Stacks ten times larger:** Common rockets (Lancet, Rivet, Ember, Scatter) 5,000 (it was 500), Rare ones (Javelin, Mallet, Corona, Barrage) 2,000 (200), Epic ones (Harpoon, Piledriver, Eclipse, Maelstrom) 500 (50). The N.U.K.E. stays at 10 and the N.I.K.E. at 20. The Shop sells up to the new stack.
+- **Rockets weigh nothing.** They weighed 2, 3 or 5 kg each by rarity, 40 the N.U.K.E. and 8 the N.I.K.E.; now they take no room in the Transport Cache, and their one limit is the stack.
+- **The N.U.K.E. does 50 percent of its damage at the edge of its blast** (it was 25). A ship at the edge takes 25,000 of its 50,000 where it took 12,500; the ship whose fuse sets it off takes 47,222 where it took 45,833.
+- **Rockets can be fired with no laser fitted.** The report was that rockets could not be shot without lasers: that check is gone from both the game and the server. Each rocket is held to its own rules only (the timer, the stack, a guided rocket's lock). The laser attack itself still needs a laser. The Hangar and the pilot page show a dash for the range of a ship with no laser, since only lasers have one.
+- **The Kick Rocket (admins only):** the slowest rocket (speed 150), homing with a lock of 10,000 units and a flight of 70 seconds. It follows the ship it was fired at, passing through every other ship, through safe zones, cloaks and the EMP window; it does no damage, and the pilot it reaches is disconnected and can log straight back in. A ship faster than it can outrun it.
 
-**The Target window**
-- The panel that showed your target (name, distance, hull and shield, the attack and clear buttons) is now a **window:** drag it anywhere, close it with its light, open it with the first button of the top-left toolbar or with **V** (change the key in Settings › Controls, "Target Window"). The game remembers where you put it and whether it is open.
-- It is open at the top centre, in the toolbars' row, on every account, and says "No target. Click a ship or an alien." while nothing is selected. Once you close it, it stays closed until you open it.
-- Closing it hides only the readout: the target stays selected and the attack key (A), Esc and the hotbar work as before.
+**Drones**
+- **A shield on a drone counts as a shield in a core slot,** in either slot of a Master Drone: its capacity and recharge with its cells, its absorbance in the plain mean of your shields, its shield bonus when it is one of your first four, and its speed penalty (Light 1, Basic 3, Heavy 5 percent). It is ranked with your ship's own shields by capacity. The drone's level still raises only its laser. The Hangar, the Ship window and the pilot sheet show the same numbers.
+- **A laser on a drone being upgraded no longer counts after you change ship in flight** (a bug fix): its slot is offline while the drone upgrades, as it already was at a launch, but a change of ship in a station left the laser firing until the next recalculation.
+- A shield on a drone lowers your absorbance the way a weak shield in a core slot does: see Known issues.
 
-**Wipe Points from alien kills: half the kills**
-- A Wipe Points milestone takes **100 kills** of a Seeker, Phantasm or Bulwark (it was 200) and **50** of a Gorvane or Crystalys (it was 100). The points per milestone (1, 2, 3, 4 and 5 WP) and the 50 milestones per alien are unchanged, so the most an alien ever pays (50, 100, 150, 200 and 250 WP, 750 in all) is the same: you reach it with half the kills (5,000 of the first three, 2,500 of the last two). The Season page and the help card show the new sizes.
-- **Your earlier claims are adjusted once,** at the first start of the 0.4.6 server: what you were paid counts as milestones at the new size, so your next claim pays what the new rate gives for the kills you already have, up to the same maximum. A pilot with 1,000 Seekers who had claimed 5 times can claim 5 more. Nobody is paid at the update, nobody loses points and nobody is paid twice.
-- **Update the game.** A 0.4.5 client keeps counting in the old size: its Season page shows milestones of 200 and 100 kills, its Claim button can offer a different amount than the server pays, and a pilot who has been paid everything can still see a button that pays nothing.
+**Assembly**
+- **Engine III, Thruster III and the Heavy Shield Core are made in Assembly,** each out of its lower tier. They had no source at all before:
 
-**Clan donations are capped**
-- A pilot can send **at most 1,000,000 credits into clans in any 24 hours,** summed over every clan. The window slides: a donation counts for 24 hours from its second. Leaving a clan, joining another or a season wipe do not give a new allowance.
-- The donate sheet shows **what you can still send,** a bar, the cap, and when the next credits come back. **Max** fills in the most you may send now. A donation over the allowance is refused whole, with the amount you still may send.
-- The numbers are a file on the server (`ClanBank.json`) and may change.
+  | | Takes | Thulium | Also | Time |
+  |---|---|--:|---|--:|
+  | Engine III | an Engine II | 2,000 | 60 Ship Fragments, 3 Power Cores, 6 Velkonite Reinforced Plates | 1 min 30 s |
+  | Thruster III | a Thruster II | 1,500 | 30 Ship Fragments, 2 Power Cores, 4 Velkonite Reinforced Plates | 1 min |
+  | Heavy Shield Core | a Basic Shield Core | 2,000 | 20 Cataclysite, 8 Reinforced Hull Plates, 6 Velkonite Reinforced Plates | 1 min 30 s |
 
-**Company pilots leave no salvage**
-- A destroyed company pilot (the friendly squad ships of the home sectors) no longer leaves a salvage box, whoever or whatever destroys it. Aliens leave their loot as before, and so do the mission rewards. This takes a source away from Ship Fragments and Reinforced Hull Plates: they still come from aliens and from mission rewards, and the Shop does not sell them.
+  They are upgrades like the Helios Beam: the piece you use must be loose (not on a ship, not fitted into another item), keeps its tier, and rolls its buffs again.
+- **The Starfire-3 is made out of a Quantum Laser 3.** The step takes the Quantum Laser 3, 15 Ship Fragments, 8 Velkonite Reinforced Plates, 1 Reinforced Hull Plate, 1,500 Thulium and the same 100,000 credits, in 60 seconds; a Quantum Laser 3 and the step together cost exactly what the old recipe did (3,000 Thulium, 25 Ship Fragments, 10 plates, 120 seconds). A Quantum Laser 3 of a higher tier gives a Starfire-3 of the same tier, with its buffs rolled again. So the dice are rolled where the laser is made, which costs no credits: a roll for a good tier no longer costs 100,000 credits, you pay them once for the one you keep.
 
-**The camera**
-- **Zoom out another 50 percent:** the mouse wheel (and the middle-button drag) now goes out to 1,500 units from the ship (it was 1,000), which shows about 4,400 by 2,650 units of space, and the **Camera Zoom** slider in Settings goes up to **338 percent** (it was 225). The default is still 150 percent. The server already sends the whole map to every pilot, so nothing pops in at the edge.
-- **Camera stays where I put it** (Settings › General, under Camera Zoom; off by default): normally your turn and your zoom ease back to the resting view two seconds after you let go. With the switch on, the view keeps the angle and distance you gave it. **Reset view** next to the switch puts it back once, and so does switching it off. The Camera Zoom slider still moves the camera to its distance.
-- A 0.4.5 client stops at 225 percent and may write 225 back over a saved 338 when it saves your settings.
+**The Ironclad's speed**
+- **Base speed 92,** the lowest of the roster by far (Protos 150, Wraith 225). It was 140. With the Engine III craftable, an Ironclad built for speed passed the Wraith's best build, and the rules the ships were balanced by broke; 92 is the highest base speed at which every one of them holds.
+- **The numbers:** a stock Ironclad about 99 (147 before), a typical build about 215 (269), the fastest build of the model's table about 545 (602). The Wraith's best build, at about 876, is the fastest of the six ships (the Ironclad's best, about 827, is next). A build of Heavy Shield Cores in every slot flies at about 39: the slowest ship a pilot can build, and the black hole's point of no return for it is about 2,600 units (the help card says 1,200 to 2,600).
+- **Why it is a nerf:** only its speed changed, after the Engine III made the old figure too fast. Fit Engine IIIs and Plasma Thrusters if you want it quick.
 
-**Repair drones**
-- While **Emergency Repair** runs, one to three small drones fly out of your ship, circle the hull and aim soft green beams at its plates, and dock again when the ten seconds end. A **Shield Surge** gets up to two blue drones inside its bubble. Every pilot on the map sees them. Graphics: High draws up to three drones, Medium one, Low only the beams and a glow; Reduce Motion parks them.
-- **Quiet sounds go with it:** a blip as the drones leave, one as they dock (the Shield Surge's a fourth higher) and a faint tone under the beams, all far under the repair's own sound. They follow the Sound Effects volume and mute. Nobody has heard them on a real speaker yet; tell us if they are too loud or too quiet.
+**Aliens**
+- **The first pilot who shot an alien keeps it** while the alien can still chase them (they are on the map, outside a safe zone, not dark, alive, and hitting it within the last 10 seconds). Others who shoot it do not take it, however near they are; when the first drops out it turns to the next in order of first hits. It follows up to **32 pilots** per alien. Company pilots count after every player.
+- **Packs keep apart:** aliens after the same pilot keep 150 more units between their hulls, and an alien that lets go of a pilot, by a cloak, an EMP, a safe zone or distance, roams from where it stands, away from other aliens within 600 units. They no longer pile up on one spot or fly to the place they last saw you.
+- **A siphon volley that finds no shield** to take no longer turns an aggressive alien on the shooter.
+- A pilot who shot an alien first can hold it with a shot every few seconds while a partner hits it from outside its reach: see Known issues.
 
-**Mission Control is a bubble above the station**
-- The Mission Control label is no longer a button that slid to the corner of the screen: it is a **bubble in the world above the station** with its tail pointing down at it. Click it to open Mission Control without flying the ship. It keeps its size at every zoom and fades out near the edges of the screen; the "Safe zone active" chip slides out of its way, and a window you drag over it covers it.
-- With the station's roof off the screen there is no bubble. Zoomed all the way in, the station's name tag shows instead and opens Mission Control when you click it; at the start of a flight far from the station, with the station off the screen, nothing shows. The Mission Control button in the toolbar still works in the safe zone.
+**The Goombah**
+- The alien that fights from 800 units and flies at 180 (the fourth of the five, between the Bulwark and the Crystalys) is called **Goombah** now, in the game, the wiki, the missions, the statistics and the Wipe Points page. Its stats, spawns, loot, model and Wipe Points milestones (4 Wipe Points for each 50 kills) are as they were.
+- **Your progress carries over:** at its first start the server renames the alien in the database and in every pilot's kill, death and sector statistics and Wipe Points progress, and adds up counts that were kept under two names. A mission that names it keeps its progress and now reads "Goombah".
 
-**The black hole's bubble is gone**
-- The small black hole in a glow at the edge of the flight view, with "Black hole, N units", is removed. The hole itself is drawn in the world as before, the warnings (the gauge, the red vignette, the point-of-no-return line, the sounds) and the marks on the minimap and the maps stay. In the default camera the hole is on the screen only within about 3,000 units, so from farther off nothing in the flight view shows where it is, unless you turn the camera down to look across the plane: look at the minimap.
+**The galaxy gate**
+- The standard scan, for credits (5,000 a scan), finds a part **5 percent** of the time, where it found one 1 percent of the time. A 100-part gate took about 10,000 credit scans (50 million credits) and now takes about 2,000 (10 million). The deep scan, for Thulium, stays at 10 percent.
 
-**Sounds**
-- **The engine hum is 6 dB quieter:** half the amplitude, for the own ship, other players, aliens and company pilots, at idle, cruise and full speed alike. Nothing else changed: lasers, hits, explosions, the interface and the music are as before. If it is still too loud, say so.
-- **The music starts at your volume on the login screen too.** The engine's volume buses used to start at full and reach your level a moment after the first sound; they start at your level now, and the screens before sign-in play the volume the last pilot on this computer had (15 percent on a new one). An account that saved a music volume of 40 before 0.4.4 still plays 40 after it signs in.
-- **Toolbar buttons click softly.** The buttons of both toolbars, the lights that close a window, the buttons in window headers, the hotbar's picker chips, the chat's tabs and the fold rows now make the kit's soft click, and a tick as the pointer settles on a button. The tick never played for any button before, because of a counter it relied on that stood still; it plays now, on the kit's own buttons too. Settings › Button Sounds switches them off.
+**Numbers and fields**
+- **Every number of 1,000 and more is grouped in every language,** in the pilot window, a world's pilot count, the map's sizes, the Skylab's power, positions on a board and the amounts in the server's messages. Spanish, Italian and Hungarian used to leave four-digit numbers ungrouped ("Honor 1234" beside "1 234 567" experience).
+- **A number you edit in a field ignores the separator:** a group separator is only a display aid, so typing 1,5 in English reads 15 and typing 1,00 reads 100. A tile too small for its digits shows 2.2k, not 2234.
 
-**The pilot sheet keeps one width**
-- The sheet that opens when you click a pilot (Rankings, the Hall of Fame, the clan roster) grew wider with every item and module the pilot carried. It is now one width (at most 720 points) whatever the pilot carries: the name and a line of totals stay on top, and the equipment scrolls under them in groups (Lasers, Generators, Ability slots, Extras, Drones), one tile per item, with the modules it carries as a "+n" badge. Stat tiles shrink their text before cutting it, on every page.
+**Missions in order**
+- A mission whose tasks must be done in order shows an accent **In order** tag in Active Quests and in Mission Control, and its tasks as numbered steps joined by a line: done steps are checked, the current one is lit and bold, later ones are locked ("Locked until the step before it is done"). Missions in any order keep their quiet "Any order" caption.
 
-**Windows: dragging the window and copy and paste**
-- **The picture keeps moving while you drag or resize the window** by its title bar. Windows stops the game's frames while it moves a window; the game now asks for frames from a second thread during the move. **We have not been able to run this on a real Windows PC.** The log (`spacecorps2027.log`) has a line per drag with its frames per second, and a line ending "the picture did not update" means it did not work on your PC. If it misbehaves, start the game with `SPACECORPS_NO_MOVE_FIX` set to `1` (or add `"move_fix": false` to `client.json`) to turn it off. The system menu (right-click on the title bar, Alt+Space) still freezes the picture while it is open.
-- **Copy, Ctrl+C, Ctrl+X and Ctrl+V work.** The game never used the system clipboard: the Copy button next to your invite code said "Copied" for text only the game could read, and Ctrl+V pasted only what the game itself had copied. Now the Copy buttons (invite code, invite message, About's build line) and Ctrl+C, Ctrl+X and Ctrl+V in text fields use the system clipboard on **Windows, macOS and Linux** (Cmd on a Mac). The invite code is a selectable field. If the system refuses, a message says so. **The Windows part has never been through a real Windows PC and Linux only through stand-in tools;** on Linux the game needs `wl-copy`, `xclip` or `xsel` installed. Ctrl+C, Ctrl+X and Ctrl+V are no longer keys you can bind to a game action.
+**Reduce screen shaking**
+- A new switch, **Reduce screen shaking** (Settings, Graphics, directly under Reduce Motion), turns off the camera shake from explosions and blasts, hits on your ship, the Afterburner and a black hole's pull. **Reduce Motion** keeps holding effects still (repair drones, the black hole's disk and warning, ability glows, the pulses of the HUD, softer N.U.K.E. flashes) but no longer touches the shake. If your Reduce Motion was on, Reduce screen shaking is on too. The part count of the Galaxy Gates' scanner, which shook while a scan played, is held still by Reduce Motion now.
 
-**Administrators**
-- Administrators can **reset a pilot's forgotten password** (typed, or generated and shown once; the server keeps only the scrambled form), **set exact values** (credits, Thulium, Wipe Points, honor, experience, level) and **edit a pilot's inventory,** on the Admin page. **Every change an administrator makes to an account is recorded** (who, which pilot, what, the values before and after, when; never a password) and kept for a year. Records of the older admin buttons are kept too.
+**The network readout**
+- **Settings, General, Show network info** (off by default) shows a small card at the top right with the **ping** (the round trip to the server), the **jitter** and **snapshot age** of the server's updates, the **longest gap** without one, the **server's** own tick time and your computer's **frame** time, and one line that says which side is slow: Network slow, Network uneven, Network lagging, Server busy, Client slow, Connection stalled or Client froze. The numbers also go to `spacecorps2027.log` once a minute and at every stall, so "it lagged at 21:10" can be answered from a log you send.
+- **It needs a 0.4.7 server for the ping and the server's tick** (an older one shows n/a there; every other number is measured by the game).
+
+**The wiki in 11 more languages**
+- All **39 wiki pages** exist in German, Spanish, French, Hungarian, Italian, Japanese, Korean, Brazilian Portuguese, Russian, Swedish and Simplified Chinese, shown in your interface language, with the English page where a page is missing. The tables the game writes itself (quests, abilities, drones, the Skylab, Resources) are written in each language from the game's own texts and numbers. A translation whose English page has changed since says so, with a link to the English page. **These are first translations, made by AI and not yet read by native speakers:** please tell us what reads wrong.
+
+**For administrators and the server**
+- **The server console:** Admin, Server, Console, and `scripts/server-console.sh` in a terminal. The server's own ticks per second, the tick time (median, 99th percentile, worst) and the time of each of its phases, late and missed ticks, the container's CPU throttling and the VM's steal time, memory, connections, a table of the pilots online, and a log viewer (the last 5,000 lines) with a log level an admin can raise for one module for ten minutes: it goes back by itself, and both changes are in the admin actions. Chat lines are in the log it reads, for admins only.
+- **`TCP_NODELAY` on every connection** the server accepts (`SPACECORPS_TCP_NODELAY`, on by default, shown as `tcpNoDelay` in `/health`), so a small message written right after a snapshot is not held for the delayed acknowledgement.
+- **Admin seed saves:** a save that failed before it changed the file says so, and a save that failed and could not put the old file back shows as failed in Recent admin actions.
+- For the record: the release job can upload each release's Windows build to a private Steam branch by itself; nothing changes for players.
 
 **Smaller changes**
-- **Invite Friends:** the scrambled network address a redemption stores is **erased from our database 30 days after the redemption** (before, it was kept for good). Unused space inside the database file can still hold a stale copy until it is reused. The rest of the record stays.
-- **The Season Store card** for the Shield Absorbance Boost says "points", not a percentage. The Boosters window shows the buff in points.
-- **Texts and help:** the Master Drone's description says it has 2 slots; the wiki's Rockets page says a blast turns every alien it hurts; the help cards for Range, Shield absorbance, Clan donations and the Black hole are updated.
-- **The wiki:** pages for the Ironclad, the new range rule, the new shields (Shields, Combat, Rockets, Lasers, Forge, Wipe Timeline) and the clan donation cap; the hull bars of the ship articles are drawn against 700,000 now.
-- **Credits page:** the clan line names the donation cap.
+- **Texts and help:** the Speed, Range, Drones, Shield absorbance, Reduce Motion and Gate cards and the wiki follow the numbers above. A Master Drone's third slot, which does not exist, is refused with a text that says so (API only). The Reduce Motion help of French, Swedish, Russian and Brazilian Portuguese names the Repair Drone as the other languages do.
+- **The Mission Control cards** show the Skylab's reading of a Station task on a line of its own under the task text.
 <!-- /patchnotes:latest -->
 
 ---
@@ -217,18 +221,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7
+# Expected: 66c3e7c4add6df0b5e24496ede12f6b83282dfe30e66cf5a756535255b2b963b
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440
+# Expected: d63eda464574fb6cc88cbb303188801c9b324b9cb2f9b5da59fff0ac0deea4dd
 ```
 
 ### Linux
 ```bash
-echo "673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "2390f43a6115689a7f7ab63392a9ae038333cb606c1a6787ba003bb25638e659  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

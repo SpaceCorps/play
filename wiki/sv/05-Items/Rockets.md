@@ -1,0 +1,106 @@
+<!-- wiki-i18n source: 4f629cf3b1516d1d -->
+<!-- wiki-i18n title: Raketer -->
+# Raketer {#rockets}
+
+Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekunder som träffar mycket hårdare än en lasersalva. Tolv raketer i fyra typer, tre nivåer vardera, ytterligare två som bara Monteringen tillverkar, och **en omladdningstimer på 5 sekunder som alla delar**, vilken du än avfyrar. De vanliga och sällsynta raketerna köps med **krediter**; de fyra episka raketerna köps med **Thulium**.
+
+## De fyra typerna {#the-four-kinds}
+
+| | Enkelmål: träffar ett skepp | Områdesskada: exploderar och skadar allt i närheten |
+| :--- | :--- | :--- |
+| **Målsökande**: låser på det mål du valt och följer det | Lancet, Javelin, Harpoon | Ember, Corona, Eclipse |
+| **Rak**: flyger mot din markör | Rivet, Mallet, Piledriver | Scatter, Barrage, Maelstrom |
+
+- **Målsökande** raketer kräver ett valt mål inom sin **låsräckvidd** när de avfyras. De styr efter det med begränsad svängtakt, så ett snabbt skepp långt borta kan köra ifrån en billig raket. Om målet förstörs, lämnar området eller når en säker zon fortsätter raketen rakt fram och väljer inget nytt.
+- **Raka** raketer behöver inget mål och ignorerar det du har valt: de flyger alltid mot din **markör**, mot punkten under den i flygvyn. **Klicka på platsen för en rak raket för att armera den** (platsen får en vit ram och ett hårkors, och din muspekare blir ett hårkors över rymden), sedan **klicka i rymden**: raketen flyger mot punkten du klickade på och ditt skepp stannar där det är. Esc, ett högerklick eller samma plats igen släpper den. Om raketerna fortfarande laddas om säger klicket bara det, och raketen förblir armerad. Siffertangenterna och **Avfyra raket** skjuter direkt mot den sista punkt markören hade i flygvyn; innan markören har varit där flyger de dit ditt skepp **pekar**. De flyger rakt, så ett skepp som korsar i fart kan väja undan dem.
+- En raket med **enkelmål** träffar det första skepp den får träffa (en målsökande bara sitt mål). En raket med **områdesskada** exploderar bredvid det första skepp den möter, vid den punkt du siktade på, eller där dess flykt tar slut, och skadar varje skepp inom sin **explosionsradie**: full skada i mitten, mindre mot kanten. Ringen som explosionen ritar på kartan är dess exakta räckvidd.
+
+## De tolv raketerna {#the-twelve-rockets}
+
+Varje raket har **sin egen skada, ett fast antal poäng**. Den är densamma oavsett vem som avfyrar den: den beror inte på ditt skepp, dina lasrar, dina Damage Amps, dina boosters, din ammunition eller dina drönare, och en raket har ingen slumpning och ger aldrig kritiska träffar. En raket med enkelmål gör sin skada på det skepp den träffar; en explosion gör den på **varje skepp inom den**, hela talet i mitten och mindre mot kanten. *Sköldgenomträngning* dras av från målets absorption för den träffen (ett skepps absorption är den andel av en träff som dess sköldar tar, se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)): en Harpoons 35 % lämnar sköldarna på ett skepp med 80 % 45 % av träffen och skickar de övriga 55 % till skrovet. En explosion har ingen.
+
+| Namn | Typ | Sällsynthet | Skada | Sköldgenomträngning | Explosionsradie | Låsräckvidd | Räckvidd | Fart | Pris | Högst så många kan du bära |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
+| **Lancet** | Målsökande, enkelmål | Vanlig | 2 000 | 10 % | – | 700 | 1 040 | 520 | 500 krediter | 5 000 |
+| **Javelin** | Målsökande, enkelmål | Sällsynt | 4 000 | 25 % | – | 1 000 | 1 584 | 660 | 800 krediter | 2 000 |
+| **Harpoon** | Målsökande, enkelmål | Episk | 6 000 | 35 % | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
+| **Rivet** | Rak, enkelmål | Vanlig | 2 500 | 5 % | – | – | 1 080 | 900 | 500 krediter | 5 000 |
+| **Mallet** | Rak, enkelmål | Sällsynt | 5 000 | 25 % | – | – | 1 120 | 700 | 800 krediter | 2 000 |
+| **Piledriver** | Rak, enkelmål | Episk | 7 500 | 35 % | – | – | 1 100 | 500 | 5 Thulium | 500 |
+| **Ember** | Målsökande, områdesskada | Vanlig | 1 400 | – | 170 | 700 | 1 000 | 500 | 500 krediter | 5 000 |
+| **Corona** | Målsökande, områdesskada | Sällsynt | 2 800 | – | 230 | 920 | 1 500 | 600 | 800 krediter | 2 000 |
+| **Eclipse** | Målsökande, områdesskada | Episk | 4 200 | – | 300 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
+| **Scatter** | Rak, områdesskada | Vanlig | 1 750 | – | 210 | – | 1 088 | 640 | 500 krediter | 5 000 |
+| **Barrage** | Rak, områdesskada | Sällsynt | 3 500 | – | 290 | – | 1 080 | 540 | 800 krediter | 2 000 |
+| **Maelstrom** | Rak, områdesskada | Episk | 5 250 | – | 400 | – | 1 092 | 420 | 5 Thulium | 500 |
+
+Ju dyrare nivån är, desto hårdare träffar en raket, desto längre når den, desto mer sköldgenomträngning har den och desto färre kan du bära; de dyra ger också mest skada för pengarna. En rak raket gör **25 % mer** än den målsökande raketen av samma nivå och samma slag för samma pris, eftersom du måste sikta den. En explosion gör 70 % av vad raketen med enkelmål i dess nivå gör, på varje skepp den täcker. Skadan i en explosion är störst i mitten; den faller till 25 till 35 % vid kanten.
+
+## Vad de kostar {#what-they-cost}
+
+En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 6 000 krediter i minuten för en vanlig raket, 9 600 för en sällsynt och 60 Thulium för en episk, mot de 1 800 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Raketer väger ingenting: de tar inget utrymme i transportförrådet. En raket var 5:e sekund är bara tolv i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna.
+
+Butiken listar raketerna en typ i taget, var och en under sitt namn, med den vanliga raketen först och den episka sist; hangaren, transportförrådet och väljaren Raketer använder samma ordning.
+
+## Mot utomjordingarna {#against-the-aliens}
+
+Så många raketer krävs för att skjuta ner en utomjording, en raketsort i taget (Alpha; utomjordingar i Beta och Gamma är 1,5 respektive 2 gånger så starka). En explosion räknas som det skepp den briserar bredvid tar emot den, en bit från mitten. En utomjordings sköld tar 80 % av en träff, minus raketens sköldgenomträngning.
+
+| Raketer som krävs | Seeker (1 600) | Phantasm (5 200) | Bulwark (26 000) | Goombah (80 000) | Crystalys (416 000) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Lancet** | 1 | 3 | 13 | 40 | 208 |
+| **Javelin** | 1 | 2 | 7 | 18 | 104 |
+| **Harpoon** | 1 | 1 | 5 | 10 | 70 |
+| **Rivet** | 1 | 3 | 11 | 32 | 167 |
+| **Mallet** | 1 | 1 | 6 | 15 | 84 |
+| **Piledriver** | 1 | 1 | 4 | 8 | 56 |
+| **Ember** | 2 | 5 | 23 | 70 | 359 |
+| **Corona** | 1 | 3 | 11 | 34 | 174 |
+| **Eclipse** | 1 | 2 | 8 | 23 | 116 |
+| **Scatter** | 2 | 4 | 18 | 54 | 280 |
+| **Barrage** | 1 | 2 | 9 | 26 | 136 |
+| **Maelstrom** | 1 | 2 | 6 | 18 | 90 |
+
+- De **vanliga** raketerna med enkelmål skjuter ner en Seeker med en träff och en Phantasm med tre; de är vardagsraketerna i de första sektorerna. De **sällsynta** är till för Bulwark och Goombah: sju Javelins tar en Bulwark på ungefär en halv minuts timer. De **episka** skjuter ner en Phantasm med en träff och en Goombah med åtta till tio. Explosionerna är värda sitt pris när flera utomjordingar står tätt: en Maelstrom som briserar över en flock på fem Phantasm gör ungefär 20 000 skada över flocken i ett enda skott.
+- En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: för den utomjording den är avsedd för kostar en raket med enkelmål en sjättedel till tre fjärdedelar av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga raketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger. Att skjuta ner **Crystalys** med bara en sort kräver 56 till 359 raketer och minst fyra och en halv minuts timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 5:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
+- Betalningen för en nedskjutning är densamma hur den än gjordes (se [Crystalys](/wiki/04-Aliens/Crystalys.md) för den största), så en nedskjutning med raket lönar sig när den sparar tid och kostar mindre än den ger.
+
+## Raketerna som bara kan tillverkas {#the-craft-only-rockets}
+
+Två raketer finns inte i butiken. **Monteringen** tillverkar dem, och de följer alla regler nedan (den gemensamma timern, säkra zoner, din koncern). Båda är raka raketer: de flyger mot punkten under din markör, som varje rak raket (spelet skickar markörens riktning oavsett vad du har valt; bara en gammal 0.4.3-klient, som inte skickar någon riktning, låter servern flyga dem mot det valda målet, annars mot punkten under dess markör, annars dit skeppet pekar).
+
+| Namn | Typ | Sällsynthet | Skada | Sköldgenomträngning | Explosionsradie | Räckvidd | Fart | Högst så många kan du bära | Tillverkas av |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **N.U.K.E.** | Rak, områdesskada | Legendarisk | 50 000 | – | 900 | 1 200 | 300 | 10 | 1 N.U.K.E. per tillverkning: 150 000 krediter, 3 000 Thulium, 6 Maelstrom, 4 Power Core, 10 Reinforced Hull Plate, 40 Ship Fragment, 80 Cataclysite |
+| **N.I.K.E.** | Rak, enkelmål | Mytisk | 75 000 | 35 % | – | 4 050 | 900 | 20 | 5 N.I.K.E. per tillverkning: 100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite |
+
+- **N.U.K.E.**: spelets största explosion. En explosion på 900 enheter, dubbelt så lång räckvidd som Maelstroms 400 och fem gånger så stor yta: 50 000 på varje skepp i den i mitten, avtagande till hälften av det, 25 000, vid kanten. Den är långsam (fyra sekunder i flykt). En N.U.K.E. utplånar varje Seeker och Phantasm i hela sin explosion och en Bulwark inom ungefär 930 enheter från detonationen, nästan i hela explosionen; den tar tre femtedelar av en Goombah och en åttondel av en Crystalys. Mot piloter är den det största slaget som finns: se reglerna nedan. Ringen på kartan är dess exakta räckvidd.
+- **N.I.K.E.**: en raket med enkelmål som Rivet, med 75 000 i skada och en sköldgenomträngning på 35 %: **den träffar det första skepp den rör vid och är förbrukad på det.** Det är också raketen som ger [Dark Matter](/wiki/03-Mechanics/Black-Hole.md): avfyrad mot det svarta hålet mitt i Farosektor 4 sväljs den när den korsar händelsehorisonten, och hålet ger tillbaka Dark Matter. Den flyger 4 050 enheter på 4,5 sekunder: avfyra den varifrån som helst mellan strålningens kant och 4 380 enheter från mitten. Från längre ut når den inte fram och går till spillo. Fem N.I.K.E. ger ungefär tio Dark Matter.
+- **Haken.** En N.I.K.E. som möter ett skepp på vägen, en rival som väntar på linjen eller något annat den får skada, träffar det med 75 000 och är borta: det svarta hålet får ingenting, och det får inte du heller. Inget annat rör sig inom hålets ring som den kan råka träffa (utomjordingar och koncernpiloter håller sig utanför): bara piloter som gått in för Dark Matter eller väntar på dig vid kanten. Den flyger igenom din egen koncern, skepp i en säker zon och skepp du ännu inte får skada. Lämnar du kartan efter att ha avfyrat den flyger den vidare utan att skada någon och ger ändå din Dark Matter.
+- Monteringen startar ingen tillverkning som skulle lämna dig med fler av en raket än dess gräns (*högst så många kan du bära*), inräknat det du har köat.
+
+## Avfyrning {#firing}
+
+1. Köp raketer i butiken (kategorin **Raketer**), upp till *högst så många kan du bära* för var och en: krediter för de vanliga och sällsynta, Thulium för de episka.
+2. Öppna **Raketer** ovanför snabbfältet och dra de du vill ha till platser. Väljaren visar en kolumn per typ och en rad per nivå, med det du bär av varje. Under dem finns en egen rad, **Special · endast Monteringen**, för N.U.K.E. och N.I.K.E. (en liten hammare markerar den du inte bär någon av).
+3. Tryck på platsens tangent. Ett klick på platsen för en **målsökande** raket avfyrar den mot ditt valda mål; ett klick på platsen för en **rak** raket armerar den, och ditt nästa klick i rymden avfyrar den dit. Tangenten **Avfyra raket** (`R` som standard, går att binda om i Inställningar › Styrning) avfyrar den raket du sköt senast, eller den första i snabbfältet.
+4. En cirkelsektor sveper över **varje** raketplats under de 5 sekunderna till nästa avfyrning, med de återstående sekunderna i mitten. Ett tryck innan dess säger bara att raketerna laddas om (ett tryck under den sista tiondels sekunden avfyrar ändå).
+
+Peka på en raketplats för att se dess siffror (skadan är raketens egen; butiken och hangaren säger detsamma) och, ute i världen, dess låsring (grön när det valda målet är inom räckhåll) eller dess linje och explosionscirkel. En raket som är låst på **dig** får skärmkanten att blinka rött.
+
+**N.U.K.E.** ritar sin explosion på kartan innan du avfyrar (cirkeln på 900 enheter vid den siktade punkten) och, när den detonerar, en vit blixt över vyn, en ring som löper ut till den exakta räckvidden på ungefär en sekund och blir kvar två till, ett moln som reser sig som en svamp, och en kameraskakning som är starkare ju närmare du är. **Minska skärmskakning** tar bort skakningen, och **Minska rörelser** förkortar blixten till en tredjedels sekund med mindre än hälften av dess ljus (båda finns under Inställningar › Grafik); en lägre partikelkvalitet tunnar ut molnet och tar bort gnistorna, aldrig blixten eller ringen. **N.I.K.E.** siktas som en Rivet, med linjen från ditt skepp till markören, och spelet vägrar den aldrig för att den är långt från det svarta hålet eller på en karta utan något: vart den tar vägen är det upp till dig att bedöma. Dess kort säger **Svart hål: Ger Dark Matter** bredvid dess skada. Den lämnar ett violett spår med gnistor som slingrar sig runt det; ett skepp den möter tar träffen som av vilken raket som helst, och när den i stället korsar horisonten blossar hålet.
+
+## Regler {#rules}
+
+- Du behöver **ingen monterad laser** för att avfyra en raket, och dina lasrar ändrar varken vad den gör eller hur långt den når: en målsökande raket låser på ett mål inom sin egen låsräckvidd, en rak flyger sitt eget avstånd. Utan monterad laser visar hangarens ruta Räckvidd ett streck, och bara dina raketer skjuter.
+- En raket förbrukas per avfyrning, oavsett om den träffar eller inte.
+- Raketer följer lasrarnas regler: inget inom en **säker zon** skadas, ingen pilot skadas innan **Fredsprotokollet** upphör eller där en sektor förbjuder PvP, och **din egen koncern och din egen grupp skadas aldrig** av dina raketer, vare sig direktträff eller explosion.
+- Att avfyra en raket avslutar ditt eget skydd i säker zon direkt. Det är ett skott: det avslutar också ditt eget **kamouflage**, och Cloaking CPU:n laddas då om i en minut, som efter varje slut på ett kamouflage. Kamouflerad eller inte hindrar en avfyrning dig från att kamouflera dig under de 10 sekunderna efteråt (se [Extrautrustning](/wiki/05-Items/Extras.md)).
+- Ett skepp som är **kamouflerat** eller inom **de 3 sekunderna av sin EMP** går inte att låsa på: en målsökande raket nekas, och en som redan flyger mot det tappar sin målfixering och flyger rakt vidare. En rak raket med enkelmål flyger igenom ett sådant skepp. En raket med **områdesskada** kräver ingen målfixering, så den skadar de skepp den täcker, kamouflerade eller inte, och den avslutar ett kamouflage (se [Extrautrustning](/wiki/05-Items/Extras.md)).
+- **Ingenting begränsar vad en raket gör mot en pilot.** En annan pilots skepp tar full skada: sköldarna först (deras absorption minus raketens sköldgenomträngning), sedan skrovet. De små skeppen klarar sig inte. På standardsköldkärnorna (Light, 45 % absorption) förstör en N.I.K.E. en färsk Protos, Kitefin eller Ostirion med en träff (en Paragon förlorar drygt hälften av sitt skrov, en Wraith en femtedel), och en N.U.K.E. förstör en Protos var som helst i sin explosion, en Kitefin inom ungefär 220 enheter från detonationen och inget större i en enda explosion. Två Harpoons eller två Piledrivers förstör en Protos; en Wraith tål mer än fyrtio raketer. Fredsprotokollet, de säkra zonerna och din koncern är det som står mellan en pilot och en raket.
+- Bara en rakets **direktträff** paxar en utomjording (se [Strid](/wiki/03-Mechanics/Combat.md)); en explosions kant kan skada en utomjording som någon redan har paxat utan att stjäla den. Varje utomjording en explosion skadar, även en sovande, vänder sig mot dig, som vid en lasersträff (en Seeker eller en Goombah, som bara slår tillbaka, inräknade); en som explosionen missar förblir sovande.
+- Timern är din: den överlever ett hopp, en återanslutning, ett skeppsbyte och ett förstört skepp.
+
+De tolv raketerna i den första tabellen köps (krediter för de vanliga och sällsynta, Thulium för de episka); N.U.K.E. och N.I.K.E. tillverkas.
+
+Se även: [Lasrar och ammunition](/wiki/05-Items/Lasers.md), [Strid](/wiki/03-Mechanics/Combat.md), [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md).

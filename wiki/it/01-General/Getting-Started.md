@@ -1,0 +1,85 @@
+<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n title: Per iniziare -->
+# Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
+
+Ti diamo il benvenuto nell’esperienza definitiva di guerra spaziale. Come pilota di SpaceCorps rappresenterai la fazione che hai scelto, combatterai per il dominio della galassia, raccoglierai risorse preziose e costruirai il tuo prestigio nell’universo.
+
+## Risorse principali {#core-resources}
+
+Per sopravvivere e prosperare devi gestire due valute e tenere d’occhio il tuo onore. I materiali con cui costruisci sono nella pagina [Risorse](/wiki/05-Items/Resources.md), con dove trovare ciascuno e a cosa serve:
+- **Crediti**: la valuta standard principale, pagata da ogni alieno che abbatti e dalle missioni completate, e prodotta dalla Fattoria crediti del tuo [Skylab](/wiki/03-Mechanics/Skylab.md). Servono per comprare equipaggiamento base, navi ed equipaggiamento standard.
+- **Thulium**: il raro minerale radioattivo e valuta di grande valore, pagata da ogni alieno che abbatti e dalle missioni completate, e prodotta dalla Fattoria Thulium del tuo Skylab. Serve per acquistare armi d’élite, propulsori, scudi ibridi e potenti pacchetti di booster.
+- **Onore**: un punteggio, non denaro: la misura del tuo grado nella fazione, della tua lealtà e della tua reputazione. Guadagnare onore fa salire il tuo titolo di grado, ma attaccare i piloti alleati della tua stessa fazione penalizza pesantemente il tuo onore: distruggere un pilota della tua corporazione, cioè la nave di un giocatore o uno dei suoi [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), costa 100 onore. Lo stesso vale se ne colpisci uno nei 15 secondi prima che qualcos’altro lo distrugga: indebolire un pilota della tua corporazione perché un alieno lo finisca costa quanto l’abbattimento. Abbattere un pilota della tua corporazione non è un abbattimento PvP e non dà punti PvP.
+
+## Giocare con gli amici {#playing-with-friends}
+
+Entra in un [clan](/wiki/03-Mechanics/Clans.md) o vola in un [gruppo](/wiki/03-Mechanics/Groups.md) di massimo cinque piloti, e porta con te nuovi amici con il tuo codice personale: **Comunità › Invita amici** dà loro un pacchetto iniziale e a te una ricompensa in Thulium quando raggiungono il livello 5. Vedi [Invita amici](/wiki/03-Mechanics/Invite-Friends.md).
+
+## Missioni {#missions}
+
+Le missioni sono il modo più veloce per salire di livello. Apri **Mission Control** dalla barra degli strumenti (dentro la zona sicura di una stazione) oppure clicca sul fumetto **Mission Control** che fluttua sopra la stazione: 88 missioni ti portano dal livello 1 all’8, dieci per livello in qualsiasi ordine più una missione **Speciale** che si apre quando le dieci sono completate. Le missioni di ogni livello ti portano un settore più lontano, dalla tua base al confine e al centro PvP. In [Missioni](/wiki/03-Mechanics/Quests.md) trovi come funzionano e quanto paga ogni missione.
+
+## Distruzione e respawn {#dying-and-coming-back}
+
+Quando lo scafo arriva a 0 la nave viene distrutta e la schermata di distruzione ti chiede dove vuoi fare respawn. Tre luoghi compaiono sempre nell’elenco e li scegli con un clic o con i tasti `1`, `2` e `3` (la scelta si apre tre secondi dopo l’esplosione, così un tasto che stavi premendo durante lo scontro non sceglie nulla):
+
+| Scelta | Tasto | Dove compari | Bloccata dopo l’uso |
+| :--- | :---: | :--- | :--- |
+| **Alla base** | `1` | La base della tua corporazione nel tuo mondo (`M-1`, `T-1` o `G-1`), dentro la zona sicura della stazione, ovunque sia avvenuta la distruzione. | Mai |
+| **Al portale più vicino** | `2` | Accanto al portale di quel settore più vicino, in linea retta, al luogo della distruzione, a una distanza compresa tra 150 e 300 unità. Un settore con un solo portale usa quello. Un settore senza portali (i settori neutrali) mostra questa scelta in grigio. | 3 minuti |
+| **Sul posto** | `3` | Il luogo della distruzione, nello stesso settore. | 5 minuti |
+
+- **Il blocco inizia quando fai respawn con quella scelta**, non quando muori, e riguarda solo quella scelta: usare il portale non blocca la scelta “Sul posto”. Una scelta bloccata appare in grigio nella schermata di distruzione con un conto alla rovescia (minuti e secondi) e si apre da sola quando scade. I blocchi sono gestiti dal server: uscire e rientrare non li azzera. Una nuova stagione (il reset) sì.
+- **Una scelta che il server rifiuta non costa nulla.** Se una scelta non si può usare (ancora bloccata, nessun portale nel settore, hai cambiato mondo dopo la distruzione) il blocco non scatta e la tua nave non viene spostata; scegli di nuovo.
+- **Protezione.** Una nave che torna a un portale o sul posto non può essere danneggiata né agganciata per **5 secondi**, e gli alieni perdono interesse per lei, quindi chi ti ha distrutto non può distruggerti di nuovo subito. L’HUD mostra i secondi rimasti. Il tuo **primo colpo** (una salva di laser o un razzo) pone fine alla protezione, e ti viene detto quando finisce. Alla base ti protegge la zona sicura della stazione, come sempre.
+- **Il buco nero.** Un luogo dentro l’anello di radiazioni del [buco nero](/wiki/03-Mechanics/Black-Hole.md) (a 4.200 unità dal centro del Settore pericoloso 4) non è mai un luogo in cui tornare: se la distruzione è avvenuta lì, “Sul posto” ti porta nel punto più vicino fuori dall’anello, sulla linea che va dal centro al luogo della distruzione, e te lo segnala.
+- **Settori pericolosi.** Anche lì funzionano tutte e tre le scelte.
+- **Il costo di una distruzione non cambia:** torni con lo scafo base della tua nave e gli scudi vuoti, non perdi nessun oggetto, e la scelta decide solo dove compari. Le tue abilità sono pronte, e torni senza occultamento attivo e fuori da qualsiasi finestra EMP. Resti nel tuo [gruppo](/wiki/03-Mechanics/Groups.md).
+- **Attracco.** “Torna alla base” nella schermata di distruzione ti riporta alla base, come sempre. Se il gioco si chiude prima che tu scelga, ripristina la nave gratis nell’[Hangar](/wiki/03-Mechanics/Hangar.md); ti trovi alla tua base.
+
+## Comandi da tastiera e assegnazione dei tasti {#keyboard-controls-keybindings}
+
+SpaceCorps supporta comandi da tastiera personalizzabili (si trovano nel pannello Impostazioni del gioco). Qui sotto trovi i tasti predefiniti:
+
+| Azione | Comando / Tasto | Descrizione |
+| :--- | :--- | :--- |
+| **Muovi la nave** | `Left Click` sulla mappa spaziale | Indirizza la nave verso le coordinate di destinazione cliccate. |
+| **Ruota la camera e usa lo zoom** | `Right Drag`, `Mouse Wheel` | Trascinare con il tasto destro ruota la vista intorno alla nave; la rotella (o un trascinamento con il tasto centrale) fa zoom avanti e indietro, da 30 unità di distanza fino a 1.500, da cui si vedono circa 4.400 per 2.650 unità di spazio (2,25 volte l’area di una vista di 1.000 unità). La rotazione e lo zoom tornano gradualmente alla vista a riposo due secondi dopo che li hai lasciati, a meno che tu non attivi **La camera resta dove la lascio** in Impostazioni › Generali: allora la vista mantiene l’angolazione e la distanza che le hai dato (il pulsante **Reimposta vista** accanto a quell’interruttore la riporta una volta alla vista a riposo, e lo stesso fa disattivarlo). **Zoom camera** in Impostazioni › Generali imposta la distanza a riposo, dal 50% al 338% (il valore predefinito è 150%); con l’interruttore attivo, spostarlo porta la camera alla nuova distanza. |
+| **Seleziona bersaglio** | `Left Click` su un’entità | Seleziona un alieno, un pilota nemico o un portale come bersaglio attivo. La finestra Bersaglio (vedi sotto) ne mostra nome, distanza, scafo e scudo. |
+| **Attacca il bersaglio selezionato** | `Key A` (o `Ctrl + Click`) | Inizia a sparare al bersaglio selezionato con i tuoi laser e razzi. |
+| **Lancia razzo** | `Key R` | Lancia l’ultimo razzo che hai usato (o il primo della barra rapida): un razzo guidato verso il bersaglio selezionato, uno dritto verso il cursore. Per mirare un razzo dritto con il mouse, clicca sul suo slot della barra rapida per armarlo, poi clicca nello spazio. Tutti i razzi condividono un timer di 5 secondi. |
+| **Salta nel portale** | `Key J` | Avvia un salto quando sei entro 500 unità da un portale (dentro la sua zona sicura). Il salto dura 3 secondi (lo indica una barra sopra la barra rapida) e devi restare nel raggio finché non è finito. Nei settori pericolosi non puoi avviarne uno mentre sei sotto attacco. |
+| **Cambia configurazione** | `Key C` | Passa dalla Config 1 alla Config 2 e viceversa (cambia l’assetto attivo di laser, scudi e velocità). |
+| **Barra rapida primaria** | `Digits 1 - 9` | Attiva oggetti e azioni nello slot della barra rapida primaria dell’HUD (ad es. munizioni, droni di riparazione). |
+| **Barra rapida secondaria** | `Shift + Digits 1 - 9` | Attiva oggetti e azioni negli slot della barra rapida secondaria. La riga compare sopra quella primaria non appena contiene qualcosa; apri il selettore di Munizioni, Razzi o Extra (oppure trascina uno slot) per metterci un oggetto. |
+| **Schermo intero** | `F11` o `Alt + Enter` (Windows) | Attiva o disattiva lo schermo intero senza bordi; il pulsante in alto a destra nella schermata di volo fa lo stesso su Windows e macOS. Questi due tasti sono fissi e non compaiono tra i tasti che puoi cambiare. `Alt + Enter` non fa nulla finché scrivi nella chat. |
+| **Scegli dove fare respawn** | `Keys 1 - 3` | Nella schermata di distruzione: `1` alla base, `2` al portale più vicino, `3` sul posto. Vedi *Distruzione e respawn* sopra. |
+| **Finestra bersaglio** | `Key V` | Mostra o nasconde la finestra Bersaglio. Il primo pulsante della barra degli strumenti in alto a sinistra fa lo stesso. |
+| **Finestra gruppo** | `Key B` | Mostra o nasconde la finestra Gruppo: le navi del tuo gruppo, con scafo e scudo. Finché un invito al gruppo è in attesa, `Y` lo accetta ed `Escape` lo rifiuta. Vedi [Gruppi](/wiki/03-Mechanics/Groups.md). |
+
+## La finestra Bersaglio {#the-target-window}
+
+Clicca su un alieno o su un pilota e la finestra **Bersaglio** mostra ciò che hai selezionato: il nome, la distanza, le barre di scafo e scudo e se stai sparando contro di esso. Il pulsante del **mirino** avvia e ferma l’attacco (come `A`), e il pulsante **X** deseleziona il bersaglio (come `Esc`). Se non è selezionato nulla, lo dice in una riga.
+
+È una finestra come le altre. Trascinala per la barra del titolo per metterla dove vuoi, chiudila con la luce rossa nel suo angolo o con il **primo pulsante della barra degli strumenti in alto a sinistra** (o con `V`), e riaprila allo stesso modo. Il gioco ricorda per il tuo account dove la lasci e se è aperta. All’inizio sta in alto sullo schermo, tra le due barre degli strumenti. Chiuderla nasconde solo i dati mostrati: il bersaglio resta selezionato e il tuo attacco continua.
+
+## Quando il gioco rallenta {#when-the-game-lags}
+
+Attiva **Impostazioni › Generali › Mostra info di rete** e in alto a destra compare una piccola scheda (non intralcia le finestre ed è disattivata finché non la attivi). Ti dice quale lato è lento:
+
+| Valore | Che cos’è | Buono, lento |
+| :--- | :--- | :--- |
+| **Ping** | Il viaggio di andata e ritorno fino al server di gioco (l’icona accanto ha tre barre quando è buono, due quando è lento e una quando è pessimo; ogni altro valore riceve un triangolo quando è lento e un ottagono quando è pessimo). | Sotto 80 ms è buono, sopra 150 ms è pessimo. |
+| **Jitter**, **Età snapshot** | Quanto regolarmente e quanto di recente arrivano gli aggiornamenti del server (20 al secondo). | Un jitter sotto 25 ms e un’età sotto 100 ms sono buoni. |
+| **Pausa più lunga** | Il tempo più lungo senza un aggiornamento dal server negli ultimi dieci secondi. | Oltre un secondo è un blocco. |
+| **Server** | Quanto dura il tick del server, il suo passo di 50 ms (99º percentile). Mostra *n/d* quando il server è troppo vecchio per riportarlo. | Sotto 20 ms è buono, sopra 35 ms è pessimo. |
+| **Client** | Il tempo di frame del tuo computer (95º percentile). | Sotto 25 ms è buono, sopra 33 ms è pessimo. |
+
+Quando qualcosa va male, una riga sotto i numeri dice di chi è la colpa: *Rete lenta*, *Rete in ritardo* o *Connessione bloccata* indicano la tua connessione o il percorso fino al server, *Server sovraccarico* il server (un server sovraccarico alza anche il ping e può trattenere gli aggiornamenti), *Client lento* il tuo computer (abbassa il dettaglio grafico) e *Client bloccato* significa che il gioco stesso ha smesso per un attimo di disegnare (un alt-tab, una finestra ridotta a icona). Gli stessi numeri vengono scritti nel file di log del gioco una volta al minuto, e subito in caso di blocco, così a una segnalazione come “alle 21:10 andava a scatti” si può rispondere dal log.
+
+## Consigli rapidi da esperti per chi inizia {#quick-pro-tips-for-beginners}
+
+1. **Configurazioni**: prepara sempre due assetti diversi. Per esempio, usa la **Config 1** con tutti i motori e propulsori negli slot dei generatori per fuggire o viaggiare in fretta, e la **Config 2** con scudi e laser per il combattimento.
+2. **Zone sicure**: intorno a portali e basi ci sono **zone sicure**. In queste aree gli altri piloti non possono attaccarti, così puoi recuperare gli scudi o aspettare in sicurezza la fine dei tempi di ricarica del combattimento.
+3. **La tua prima abilità**: il tuo kit iniziale ha già un Repair Drone I montato nello slot abilità della Protos, quindi il pulsante Emergency Repair (`E`, accanto alla barra rapida) ripara lo scafo nell’arco di dieci secondi ogni volta che è danneggiato. Vedi [Abilità](/wiki/03-Mechanics/Abilities.md).
+4. **Tassa giornaliera del clan**: se fai parte di un clan, tieni presente che il tesoro del clan detrae una percentuale di tassa (dallo 0% al 5%) dal tuo saldo giornaliero di crediti a mezzanotte UTC. Scegli il tuo clan con cura!

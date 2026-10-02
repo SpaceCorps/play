@@ -1,0 +1,154 @@
+<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n title: Strid -->
+# Stridsmekanik {#combat-mechanics}
+
+Det här avsnittet beskriver hur skada beräknas, tillämpas och repareras under strider i SpaceCorps.
+
+## Skadeberäkning {#damage-calculation}
+
+När ett skepp avfyrar sina lasrar beräknar servern skadan i följande ordning:
+
+### 1. Grundskada och slumpvariation {#1-base-damage-random-variance}
+
+Grundskadan hos alla utrustade lasrar (även lasrar på drönare) och deras laserförstärkare i platserna summeras.
+- **Slumputfall**: Den faktiska skadan i en salva slumpas mellan **80 %** och **100 %** av den totala grundskadan.
+  - Formel: `Roll = (0.8 + (Random * 0.2)) * BaseDamage`
+
+### 2. Kritiska träffar {#2-critical-hits}
+
+Varje salva har en chans att bli en kritisk träff.
+- **Kritisk chans**: Den genomsnittliga kritiska chansen hos utrustade lasrar plus summan av alla utrustade laserförstärkares kritiska chanser.
+- **Kritisk multiplikator**: Om ett skott är kritiskt multipliceras skadeutfallet med **1,5×**. Skadetalet för en kritisk salva visas i isblått, större, med ett ”!”.
+- Quantum Laser 1 och 2 har ingen egen kritisk chans: deras förstärkare ger den.
+- **Fast kritisk skada**: All fast kritisk skada från laserförstärkare läggs till efter multiplikatorn.
+  - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
+
+### 3. Globala multiplikatorer {#3-global-multipliers}
+
+Till sist tillämpas globala multiplikatorer (som aktiva boosters eller multiplikatorer för laserammunition som x2, x3, x4) för att få den slutliga skadan:
+- Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/05-Items/Lasers.md).
+
+### 3b. Raketer {#3b-rockets}
+
+En [raket](/wiki/05-Items/Rockets.md) har sin egen fasta skada (en Lancet gör 2 000, en Harpoon 6 000, en N.U.K.E. 50 000), densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har inget slumputfall och ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, mindre mot kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den.
+
+### 4. Att vända sig mot målet {#4-facing-the-target}
+
+Ett skepp eller en utomjording som har låst på ett mål och skjuter vänder sig mot målet, oavsett åt vilket håll det flyger (cirklar, backar eller ligger still), och vänder tillbaka mot sin kurs när det slutar skjuta.
+
+### 5. Räckvidd {#5-range}
+
+Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd**, och håller elden medan målet är längre bort: elden slutar kosta ammunition tills målet är tillräckligt nära igen, och Målfönstret visar ”Utom räckhåll”. Räckvidden är **medelvärdet av räckvidden hos alla dina lasrar** (även lasrarna i dina drönare), avrundat till närmaste enhet, och det är ett enda tal för hela skeppet: inom den skjuter varje laser, utanför den ingen. En långräckviddig laser bredvid korta förlänger därför inte din räckvidd: en Starfire-3 (850) och två Quantum Laser 2 (700) ger 750. En räckviddsbonus från Smedjan räknas på sin egen laser före medelvärdet. Ett skepp utan laser kan inte avfyra sina lasrar, och Hangaren visar ingen räckvidd för det (ett streck); dess raketer avfyras ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/05-Items/Rockets.md)). Se [Lasrar och ammunition](/wiki/05-Items/Lasers.md) för varje lasers egen räckvidd.
+
+---
+
+## Belöning för nedskjutning: första träffen paxar {#kill-rewards-first-hit-claims}
+
+En utomjordings belöning går till piloten som sköt den först, inte till den som landar den sista träffen.
+
+- **Att paxa**: den första piloten vars skott skadar en utomjording paxar den. Varje träff du gör förnyar ditt pax.
+- **Att förlora paxet**: om du inte träffar utomjordingen på **10 sekunder** släpper ditt pax och nästa pilot som träffar den paxar den. Ditt pax tar också slut när ditt skepp förstörs eller du lämnar kartan (genom en portal, eller genom att logga ut), och att komma tillbaka inom de 10 sekunderna ger inte tillbaka det.
+- **Nedskjutningen**: när utomjordingen förstörs får piloten som har paxet allt: krediter, Thulium, XP, heder, nedskjutningen för uppdrag och wipepoäng, och [lastlådan](/wiki/03-Mechanics/Cargo.md). En pilot som gör slut på en utomjording som någon annan har paxat får ingenting, och Spelloggen säger det. När ditt pax betalar och en annan pilot landar den sista träffen nämner Spelloggen den piloten och säger att ditt pax betalar dig.
+- **Att se det**: när du väljer en utomjording som en annan pilot har paxat visar Målfönstret *Paxad av* den piloten och *Ingen belöning*.
+- [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) paxar aldrig en utomjording, och en utomjording de gör slut på betalar ändå piloten som har paxet.
+- En pilot i en [grupp](/wiki/03-Mechanics/Groups.md) delar det som dess pax betalar med de gruppkamrater som är nära och skjuter; själva paxet är pilotens ensam.
+
+---
+
+## Utomjordingar som bara slår tillbaka {#aliens-that-only-fight-back}
+
+Seeker och Goombah startar aldrig en strid. Var och en vänder sig mot en pilot som träffar den (en träff som gör skada; en annan utomjordings eld provocerar den aldrig), slåss mot den pilot som beskrivs under [Vem en utomjording slåss mot](#who-an-alien-fights) och släpper **10 sekunder** efter att någon senast träffade den. Lämnad i fred i **30 sekunder** läker dess skrov 2 % av sitt maximum per sekund. De andra utomjordingarna (Phantasm, Bulwark, Crystalys) går på varje oskyddad pilot som kommer inom deras aggroradie (700, 700 och 900 enheter) och läker aldrig sitt skrov; varje utomjordings sköld laddas från 15 sekunder efter dess senaste träff.
+
+---
+
+## Vem en utomjording slåss mot {#who-an-alien-fights}
+
+En utomjording fortsätter att slåss mot **den första piloten som sköt på den**, så länge den fortfarande kan jaga den piloten: piloten är kvar på kartan, inte i en säker zon, inte kamouflerad eller inom sitt EMP-fönster, vid liv, och har träffat den under de senaste **10 sekunderna** (varje träff startar de 10 sekunderna om: en lasersalva, en raket eller kanten av en explosion lika). Så länge det gäller får andra pilotars skott den aldrig att vända sig, hur nära de än är och hur ofta de än träffar, så en pilot kan hålla fast en utomjording medan andra skjuter på den.
+
+När den första piloten faller bort (lämnar kartan, når en säker zon, blir omöjlig att låsa på, förstörs eller slutar träffa utomjordingen i 10 sekunder) vänder sig utomjordingen mot den **nästa** piloten som gick med i striden, i den ordning de först sköt på den, inte mot den som träffade den senast. En pilot som har fallit bort och skjuter på den igen ställer sig sist i kön. En utomjording håller reda på de **32** första piloterna som sköt på den; en 33:e skytt ingår inte i kön förrän någon av dem faller bort, och hur stor skaran än är håller sig utomjordingen till den första.
+
+[Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) kommer efter varje spelare: en utomjording slåss mot en koncernpilot bara så länge ingen spelare som den fortfarande kan jaga har skjutit på den, en spelare som skjuter på en utomjording som en koncernpilot slåss mot tar över den, och en koncernpilot drar aldrig bort en utomjording från en spelare. Inget av detta ändrar vem som får utomjordingens belöning: det avgörs av paxet ([Belöning för nedskjutning](#kill-rewards-first-hit-claims)).
+
+---
+
+## Utomjordingar tappar intresset {#aliens-lose-interest}
+
+Ingen utomjording följer dig över hela kartan. Men en utomjording som du **träffar** tappar inte intresset, den strider mot dig: under **10 sekunder** efter din senaste träff (varje träff startar de 10 sekunderna om, en lasersalva, en raket eller kanten av en explosion lika) flyger den mot dig, i sin egen hastighet, så snart du är utanför dess anfallsräckvidd (Seeker 600, Phantasm och Bulwark 700, Goombah 800, Crystalys 900), och fortsätter att närma sig och skjuta tills du är inom räckvidd. Det finns ingen gräns för hur långt den följer medan du fortsätter att träffa den. En laser som når längre än utomjordingens vapen (en Starfire-3 når 850 enheter, en Helios Beam 900) låter dig inte träffa den från ett avstånd där den inte kan svara, och ett snabbare skepp håller den bara bakom dig så länge du fortsätter skjuta. Den släpper dig ändå direkt om du når en säker zon, kamouflerar dig eller lämnar kartan.
+
+När flera piloter träffar samma utomjording håller den sig till den som sköt först (se [Vem en utomjording slåss mot](#who-an-alien-fights)): den närmar sig den piloten och skjuter, så en grupp som står runt den precis utanför dess räckvidd kan inte få den att flyga fram och tillbaka mellan dem utan att den någonsin svarar.
+
+En utomjording som har valt dig som mål (en Phantasm, Bulwark eller Crystalys som du kom nära, eller vilken utomjording som helst som du sköt på) och som du inte har träffat på 10 sekunder ger upp så snart något av detta stämmer:
+
+- **Du sköt aldrig på den:** du är mer än **1 200 enheter** från den, eller den har flugit **2 000 enheter** från där jakten började.
+- **Du sköt på den under den senaste minuten:** du är mer än **2 500 enheter** från den, eller den har flugit **3 000 enheter** från där jakten började. En strid som du startade förblir rättvis.
+
+En utomjording som ger upp strövar vidare från där den står, aldrig vidare till där den senast såg dig (inte ens när du kamouflerar dig eller avfyrar en EMP), och väljer dig inte som mål igen på **8 sekunder**, om du inte skjuter på den. Varje utomjording bestämmer själv, så en blandad flock glesnar när du flyger iväg. Utomjordingar följer dig aldrig in i en säker zon eller genom en portal, och de som tappade bort dig nära en sådan tar sig därifrån, var och en åt sitt håll, så att de inte väntar i en hög. En utomjordings intressegräns är aldrig kortare än dess anfallsräckvidd och aggroradie, plus 100 enheter.
+
+Utomjordingar klumpar inte ihop sig: en flock som är ute efter en pilot håller visst avstånd mellan sina skepp medan den närmar sig (150 enheter mellan skroven, så en flock Phantasm flyger 250 enheter från varandra i stället för skrov mot skrov), och en utomjording som ger sig av med andra i närheten flyger bort från dem, så en flock som har tappat sin pilot splittras åt alla håll.
+
+Att flyga fortare hjälper bara till en viss gräns: en Protos (150) är långsammare än varje utomjording som jagar (Phantasm 160, Bulwark 175, Crystalys 230), så det är avståndsgränsen, inte din hastighet, som avslutar jakten.
+
+---
+
+## Att ta skada och säkra zoner {#taking-damage-safe-zones}
+
+När ditt skepp träffas av en fiende eller en NPC hanteras skadan så här:
+
+### 1. Sköldabsorption {#1-shield-absorption}
+
+Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **genomsnittliga absorption**: medelvärdet av dina sköldars absorption, var och en med sina sköldcellers, plus Shield Absorbance Boost från säsongsbutiken (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)). Den har **inget tak vid 100 %**: det sköldarna tar av en träff är din absorption **minus angriparens sköldgenomträngning**, mellan 0 % och 100 %.
+- **Absorption** (t.ex. 80 % för den bästa skölden med de bästa cellerna, 56 % för en Basic Shield Core med två Advanced-celler) av varje träff tas av sköldarna, minus träffens genomträngning: en Harpoons 35 % lämnar 45 % på sköldarna hos ett skepp med 80 %, och resten (55 % där) träffar HP direkt.
+- **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där).
+- En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
+- Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
+
+### 2. Immunitet i säker zon {#2-safe-zone-immunity}
+
+Varje fraktions hembas (X-1-kartor) innehåller säkra zoner.
+- Att gå in i en säker zon gör ditt skepp helt immunt mot skada.
+- **Aggrobrott**: Att attackera en fiende tar omedelbart bort din immunitet i säker zon, även om du fysiskt befinner dig inne i en.
+- En ring runt varje station och portal skyddar dig när 5 sekunder har gått sedan du träffades och 15 sedan du sköt. Medan den skyddar dig och du inte är i strid låter Hangarfönstret dig byta skepp utan att lämna spelet: se [Hangaren under flygning](/wiki/03-Mechanics/Hangar.md).
+
+### 3. Under attack i en farosektor {#3-under-attack-in-a-danger-sector}
+
+Ett hopp genom en portal tar 3 sekunder (se [Resor på rymdkartan](/wiki/01-General/Spacemap%20Travel.md)). I farosektorerna (`DS-1` till `DS-4`) kan en pilot vars skepp träffades av en annan pilot eller en utomjording under de senaste **10 sekunderna** inte starta ett hopp, och en träff avbryter ett hopp som pågår. Överallt annars avbryter attacker aldrig ett hopp, och ingenting avbryter upplockningen av en [lastlåda](/wiki/03-Mechanics/Cargo.md).
+
+---
+
+## Återhämtning och reparation {#recovery-repair}
+
+För att återhämta sig efter strid kan piloter förlita sig på passiv regenerering och aktiva hjälpbottar:
+
+### 1. Passiv sköldregenerering {#1-shield-passive-regeneration}
+
+- **Funktion**: Återställer sköldpoäng motsvarande din skölds laddningstakt per sekund.
+- **Fördröjning**: Avbryts av strid; den passiva regenereringen återupptas först efter **15 sekunder** utan skada.
+
+### 1b. Siphon Battery {#1b-siphon-battery}
+
+Ammunitionen [Siphon Battery](/wiki/05-Items/Lasers.md) lägger den sköld den dränerar från ett mål till din direkt, upp till ditt maximum. Att få sköld är ingen skada du tar, så det fördröjer inte din passiva regenerering.
+
+### 2. Reparationsdrönare (skrovreparation) {#2-repair-drones-hull-repair-}
+
+- **Funktion**: Om du utrustar en Repair Drone (under Hangarens extrautrustning) slår du på den från snabbfältet (dra den från väljaren Extra till en plats) och den reparerar ditt skrov (HP). Varje träff stänger av den, och den stannar vid fullt skrov.
+- **Reparationstakt**: Återställer en procentandel av dina maximala träffpoäng per sekund (bara den bästa drönaren som är monterad räknas, de adderas inte):
+  - **Repair Drone I**: 1,5 % av max HP / s
+  - **Repair Drone II**: 2,25 % av max HP / s
+  - **Repair Drone III**: 3,5 % av max HP / s
+  - **Repair Drone IV**: 5 % av max HP / s
+- **Fördröjning**: Reparationsdrönare börjar laga skrovet först efter **10 sekunder** utan skada.
+- **I en förmågeplats** reparerar en Repair Drone inte av sig själv: den ger dig **Emergency Repair**, en knapp som läker en andel av dina maximala träffpoäng under tio sekunder, även under eld (se [Förmågor](/wiki/03-Mechanics/Abilities.md)).
+
+---
+
+## Kamouflage och EMP {#cloaking-and-the-emp}
+
+Ett skott kräver målfixering. Två [extrautrustningar](/wiki/05-Items/Extras.md) tar din ifrån dig:
+
+- **Cloaking CPU**: medan du är kamouflerad (det finns ingen tidsgräns) ser andra koncerners piloter, utomjordingar och koncernpiloter inte ditt skepp och kan inte låsa på det; de ser en vanlig röd prick på minikartan där du är. Din första salva avslutar kamouflaget, och du kan inte kamouflera dig igen på en minut, inte heller inom 10 sekunder efter en träff eller ett skott.
+- **EMP Charge**: i 3 sekunder kan ingen låsa på dig, och varje målfixering som redan ligger på dig bryts direkt. Den avslutar varje kamouflage inom 1 500 enheter från piloten som avfyrar den, utom de som tillhör pilotens egen grupp. Den döljer dig inte, och det är ingen osårbarhet: den stoppar det som kräver målfixering.
+
+En raket är också ett skott: den avslutar ditt eget kamouflage, och områdesskadan från någon annans raket skadar fortfarande ett kamouflerat skepp och avslutar dess kamouflage, eftersom en explosion inte kräver målfixering (se [Raketer](/wiki/05-Items/Rockets.md)). EMP:n stoppar målfixerade lasrar och målsökande raketer, inte en explosion.
+
+Ingetdera ändrar ett pax: ett pax är historiken över vem som har träffat en utomjording, inte en målfixering, och kamouflage släpper ditt.

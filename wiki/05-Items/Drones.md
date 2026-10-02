@@ -32,5 +32,5 @@ All eight together cost 25,500,000 Credits and 150,000 Thulium. Your drones stay
 
 1. **Buy** Slave Drones from the Shop. **Upgrade** one into a Master Drone in the Assembly when you want the gold one (its level and XP start again).
 2. **Equip** them in the Hangar under the "Drones" tab.
-3. **Load** them with Lasers or Shields to boost your power: a Slave Drone has one slot, a Master Drone two.
+3. **Load** them with Lasers or Shields to boost your power: a Slave Drone has one slot, a Master Drone two. A laser fires with your ship; a shield counts as one in a core slot, with all of its stats.
 4. **Level** them up by destroying aliens: the Hangar shows each drone's level and how much experience the next one asks for.

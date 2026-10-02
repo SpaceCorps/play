@@ -11,6 +11,7 @@ Unlike traditional space games, SpaceCorps features dynamically tiered equipment
   - **Core Slots**: Items placed here receive **100%** of their base stats. Every ship has them: put your strongest shields and engines here.
   - **Support Slots**: Items placed here receive **75%** of their base stats (e.g. 75% speed or shield capacity). Every ship has them.
   - **Auxiliary Slots**: Items placed here receive **50%** of their base stats. Only some ships have them (the Paragon has 2, the Ironclad 3 and the Wraith 4; the Protos, Kitefin and Ostirion have none). They are best for extra, weaker shields and engines, while your strongest go in the core slots.
+  - **Drone Slots**: a shield on one of your drones counts like one in a core slot, **100%** of its stats (see [Drone Mechanics](/wiki/03-Mechanics/Drones.md)).
   - **Unassigned/Legacy Slots**: Items placed here do not contribute to stats.
   - **Stacking fades too**: shields and engines are ranked strongest first, and the band's share is then multiplied by their rank's: the 1st to 4th count in full, the 5th to 7th 85%, 70% and 55%, the 8th onward 25%. See [Shields](/wiki/03-Mechanics/Shields.md) and [Speed](/wiki/03-Mechanics/Speed.md).
 - **Extra Slots**: For specialized utility items, such as Repair Drones.
@@ -31,7 +32,7 @@ Some primary items can "equip" secondary support items (called sub-socketing) to
 | **Shield Core** | Shield Cell | Boosts shield capacity and recharge rate |
 | **Engine** | Thruster | Boosts engine speed and multipliers |
 | **Hybrid Generator** | Shield Cell OR Thruster | Boosts shield capacity, recharge rate, or speed |
-| **Drone** | Laser or Shield, in each of its slots (a Master Drone has two) | A laser adds its damage to your volley; a shield adds nothing yet |
+| **Drone** | Laser or Shield, in each of its slots (a Master Drone has two) | A laser adds its damage to your volley; a shield counts as one in a core slot (100% of its stats) |
 
 ---
 

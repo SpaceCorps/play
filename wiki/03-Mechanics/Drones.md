@@ -25,7 +25,8 @@ Drones function as extending equipment racks for your ship.
 - A Slave Drone has **1 slot** and a Master Drone **2**, up to **8 drones**.
 - You can equip **Lasers** and **Shields** into these slots, in either slot of a Master Drone. Nothing else fits: no engines, no Adaptive Cores.
 - **Lasers count fully.** A laser on a drone fires when you fire, adds its damage to your volley and uses ammo like any other laser (each laser burns one unit of ammo a volley). The two lasers of a Master Drone are two lasers.
-- **Shields do not add capacity yet.** A shield on a drone does not add to your shield total, in either slot. It is not harmless, though: a drone's shield still takes a place in the order your shields are counted in (the biggest first, the fifth and later count for less), so it can push a real shield of yours down a rank and lower your total a little. Keep shields in the ship's own slots.
+- **Shields count fully too.** A shield on a drone counts like one in a core slot, in either slot: its capacity and recharge with its cells, its absorbance in your ship's average, its shield bonus and its speed penalty. It is ranked with your ship's own shields by capacity (the four biggest count in full, the fifth and later for less, see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)), and Forge buffs, the Season Store's buffs and an attacker's shield penetration work on it as on any shield. The drone's level raises its laser only, never its shield. While a drone is being upgraded, its slots are offline, the shield as well as the laser. Before 0.4.7 a shield on a drone added nothing.
+- **A laser or a shield?** One slot holds one or the other: a laser adds a laser to your volley, a shield adds its shield points. On a small ship with good shields the extra points add little, because its hull runs out first; on a big hull they let you take much more.
 
 ## Levels
 
@@ -43,7 +44,7 @@ Every Slave Drone starts at level 1 and gains experience (XP) whenever you destr
 - **Level 7, Halfwings:** longer wing blades with gold tips.
 - **Level 8, Crescent:** the finished gunship: full crescent wings with cyan light strips.
 
-| Level | XP to reach | XP for the level | Laser damage | Seeker kills | Bulwark kills | Gorvane kills |
+| Level | XP to reach | XP for the level | Laser damage | Seeker kills | Bulwark kills | Goombah kills |
 | --: | --: | --: | --: | --: | --: | --: |
 | 1 | 0 | – | – | – | – | – |
 | 2 | 350 | 350 | – | 350 | 44 | 15 |
@@ -59,7 +60,7 @@ Every Slave Drone starts at level 1 and gains experience (XP) whenever you destr
 | Seeker | 1 |
 | Phantasm | 2 |
 | Bulwark | 8 |
-| Gorvane | 24 |
+| Goombah | 24 |
 | Crystalys | 72 |
 
 <!-- drones:end -->
@@ -78,7 +79,7 @@ The **laser fitted in a drone's slot** deals more base damage as its drone level
 
 ### How long it takes
 
-The curve is set so that a new drone reaches level 2 in about an hour of normal play (hunting Bulwarks and Gorvanes), and level 8 in roughly 27 hours of play. Those hours are for a pilot who buys the first drone at about the level-7 quests; with weaker gear it takes longer (up to about 4 hours for level 2 and 150 hours for level 8). Hunting one kind of alien on its own is at best about half as fast again as a normal mix. Drones stay through the season wipe with their levels and experience, so those hours are spent once, over as many seasons as it takes: a pilot who plays half an hour a day gets there in a couple of seasons.
+The curve is set so that a new drone reaches level 2 in about an hour of normal play (hunting Bulwarks and Goombahs), and level 8 in roughly 27 hours of play. Those hours are for a pilot who buys the first drone at about the level-7 quests; with weaker gear it takes longer (up to about 4 hours for level 2 and 150 hours for level 8). Hunting one kind of alien on its own is at best about half as fast again as a normal mix. Drones stay through the season wipe with their levels and experience, so those hours are spent once, over as many seasons as it takes: a pilot who plays half an hour a day gets there in a couple of seasons.
 
 ### Master Drone
 

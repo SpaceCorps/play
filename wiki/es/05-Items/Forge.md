@@ -1,0 +1,94 @@
+<!-- wiki-i18n source: 8adf8c0b49b112f5 -->
+<!-- wiki-i18n title: Forja -->
+# La Forja {#the-forge}
+
+La **Forja** es la segunda pestaña de la página de Ensamblaje (y de la ventana de Ensamblaje en vuelo). Hace dos cosas con el equipo que tienes: **sube un objeto un grado** a cambio de créditos y de botín de los alienígenas, y **combina dos copias** de un objeto en una que conserva lo mejor de ambas. Sustituyó a la antigua Cámara de Fusión, que pedía cinco objetos idénticos y dejaba el resultado a una tirada del 25 %.
+
+## Qué se puede forjar {#what-can-be-forged}
+
+Láseres, amplificadores láser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos y Repair Drones: cualquier pieza de equipo que pueda llevar [bonificaciones de encantamiento](/wiki/05-Items/Overview.md). Puede estar en tu inventario, en una nave (se queda allí y funciona con su nuevo grado de inmediato) o instalada dentro de otro objeto. Los drones, las naves, la munición, los recursos y los potenciadores no se pueden forjar, ni tampoco nada que esté en el Alijo de Transporte: sácalo primero.
+
+## Subir grado {#tier-up}
+
+Elige un objeto y el panel muestra su grado, el grado que alcanzaría, lo que cambia (cuántas bonificaciones puede llevar y de qué tamaño) y el precio junto con lo que tienes de cada parte: en verde cuando te llega, en rojo cuando no, y cuánto te falta. Cuando lo tienes todo, **Subir grado** sube el objeto exactamente un grado. No hay saltos: para llegar a Eterno, un objeto pasa por Corrupto, Divino y Rompedor, cada uno con su propio precio.
+
+| Paso | Éxito | Créditos | Thulium | Materiales |
+| :--- | :---: | :---: | :---: | :--- |
+| Estándar a Corrupto | 100 % | 10.000 | – | 5 Ship Fragment, 15 Daraxium |
+| Corrupto a Divino | 90 % | 50.000 | – | 30 Ship Fragment, 45 Nyxite |
+| Divino a Rompedor | 75 % | 200.000 | – | 20 Reinforced Hull Plate, 120 Cataclysite, 2 Dark Matter Plate |
+| Rompedor a Eterno | 60 % | 500.000 | 2.000 | 8 Power Core, 240 Quorvium, 2 Dark Matter Plate |
+
+- Los **materiales** salen de tus reservas sueltas: no se usan los objetos que están en una nave ni las reservas del Alijo de Transporte. El panel te avisa cuando los que faltan están en el alijo.
+- **Un paso puede fallar.** El objeto se queda exactamente como estaba, los créditos se pierden, y vuelven la mitad de los materiales y la mitad del Thulium (redondeado hacia abajo; de dos Dark Matter Plates, una). El panel te indica la probabilidad y esto antes de que pulses.
+- **Si sale bien**, cada bonificación que tiene el objeto se sortea de nuevo en el rango del nuevo grado y se queda con el mejor valor, y las ranuras de bonificación extra del grado reciben bonificaciones nuevas en otras estadísticas del objeto. El resultado se muestra encima del panel; el objeto sigue seleccionado, así que su siguiente paso ya está en pantalla.
+- Una subida de grado es instantánea.
+
+### Dark Matter Plates {#dark-matter-plates}
+
+Los dos últimos pasos piden **2 Dark Matter Plates** cada uno, además de todo lo demás. Una placa se prensa en [Ensamblaje](/wiki/05-Items/Overview.md) a partir de **5 Dark Matter, 1 Velkonite Reinforced Plate y 1 Orvium Reinforced Plate** (250 Thulium, 2 minutos), así que un paso necesita 10 Dark Matter, 2 placas de Velkonite y 2 placas de Orvium. El Dark Matter viene del [agujero negro](/wiki/03-Mechanics/Black-Hole.md): unos cinco cohetes N.I.K.E. (consulta [Cohetes](/wiki/05-Items/Rockets.md)) producen diez; una N.I.K.E. que se encuentra una nave por el camino impacta en esa nave y no produce nada. Las placas se toman de tus reservas sueltas como los demás materiales, y el panel las nombra si te faltan.
+
+### Bonificaciones por grado {#buffs-by-tier}
+
+| Grado | Máx. de bonificaciones | Tamaño de cada bonificación |
+| :--- | :---: | :---: |
+| Corrupto | 1 | +2 % a +5 % |
+| Divino | 2 | +4 % a +8 % |
+| Rompedor | 3 | +6 % a +11 % |
+| Eterno | 4 | +9 % a +15 % |
+
+El equipo fabricado antes de la Forja conserva las bonificaciones con las que salió, y a menudo son menores que las de la tabla (una pieza de grado Divino de aquella época puede llevar +2 %). Nada las sube por sí solo: una subida de grado vuelve a sortear cada bonificación en el rango del nuevo grado y se queda con el mejor valor, y una combinación se queda con el mejor valor de cada estadística.
+
+Un objeto no puede llevar más bonificaciones que estadísticas tiene: un núcleo de escudo tiene cuatro; un láser, tres (el Quantum Laser 1 y el 2 tienen dos); un motor, un propulsor o un núcleo adaptativo, dos; un Crit Amp 1 o un Repair Drone, una; los amplificadores de crítico superiores, dos; los amplificadores de daño y las células de escudo, tres. Cuando el siguiente grado no admite más bonificaciones de las que el objeto puede llevar, el panel lo indica: entonces el grado solo hace más fuertes las bonificaciones. Las bonificaciones de alcance nunca pasan de +5 %.
+
+La **bonificación de absorción de un escudo** (y el aumento de absorción de una célula de escudo) multiplica la estadística, así que vale puntos de [absorción](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) en proporción a ella: +5 % sobre el 50 % de un Heavy Shield Core son +2,5 puntos, y +15 % en cada pieza del mejor juego (un Heavy Shield Core y tres células Sovereign, 80 % en total) son +12 puntos. Un juego de grado Eterno aporta entre +7 y +12 puntos, unos 10 de media; con la mejora Shield Absorbance Boost de la Tienda de temporada (+10 puntos en su límite; los puntos de reinicio de todo el juego compran 34 de sus 100 niveles, +3,4 puntos), eso lleva una nave al 95 %, y solo pasa del 100 % con el límite de la mejora, que la estadística permite: la penetración de escudo de un atacante se resta de ella. Un juego de grado Divino aporta entre 3 y 6 puntos.
+
+Los motores, los propulsores, los núcleos adaptativos y los Repair Drones apenas cambian con una bonificación porcentual (un Engine II suma 4 de velocidad, así que +12 % es medio punto): fórjalos si quieres el grado, no por las estadísticas.
+
+### De dónde caen los materiales {#where-the-materials-drop}
+
+| Material | Lo sueltan |
+| :--- | :--- |
+| **Ship Fragment** | todos los alienígenas |
+| **Daraxium** | [Seeker](/wiki/04-Aliens/Seeker.md), [Phantasm](/wiki/04-Aliens/Phantasm.md) |
+| **Nyxite** | [Phantasm](/wiki/04-Aliens/Phantasm.md), [Bulwark](/wiki/04-Aliens/Bulwark.md) |
+| **Reinforced Hull Plate** | [Bulwark](/wiki/04-Aliens/Bulwark.md), [Goombah](/wiki/04-Aliens/Goombah.md) |
+| **Cataclysite** | [Bulwark](/wiki/04-Aliens/Bulwark.md), [Goombah](/wiki/04-Aliens/Goombah.md), [Crystalys](/wiki/04-Aliens/Crystalys.md) |
+| **Power Core** | [Goombah](/wiki/04-Aliens/Goombah.md), [Crystalys](/wiki/04-Aliens/Crystalys.md) |
+| **Quorvium** | [Goombah](/wiki/04-Aliens/Goombah.md), [Crystalys](/wiki/04-Aliens/Crystalys.md) |
+| **Dark Matter Plate** | ningún alienígena: Ensamblaje la prensa a partir de Dark Matter (el [agujero negro](/wiki/03-Mechanics/Black-Hole.md)) y de las placas del Skylab |
+
+Los cristales siguen los grados: el Daraxium es azul como Corrupto, el Nyxite amarillo como Divino, el Cataclysite naranja como Rompedor y el Quorvium violeta como Eterno. Todas las fuentes, con sus probabilidades y cantidades, están en la página [Recursos](/wiki/05-Items/Resources.md) y en la página de cada alienígena; el potenciador Resource Magnet añade un 25 % a lo que contiene una caja.
+
+## Combinar {#merge}
+
+Dos copias del mismo objeto (dos Light Shield Core, dos Quantum Laser 2) se convierten en una. Cambia a **Combinar** y haz clic en el objeto que quieres conservar (la **base**), y después en una segunda copia (el **donante**). El panel muestra el resultado antes de que confirmes.
+
+- **La base se conserva.** Mantiene su sitio: puede estar en una nave o instalada dentro de otro objeto, y los módulos que lleva instalados se quedan. **El donante se consume.** Debe estar suelto (no en una nave, no instalado), y los módulos que lleva instalados vuelven a tu inventario.
+- **El resultado tiene el más alto de los dos grados** y, para cada estadística, el **mejor de los dos valores**.
+- **Nunca lleva más bonificaciones de las que permite su grado.** Si los dos objetos juntos tienen más bonificaciones de las que caben en el grado del resultado, se conservan las mejores y el resto se descartan; la tabla las marca (tachadas, «por encima del límite»). Para llevar más bonificaciones, sube antes el grado del objeto. Una combinación nunca sortea nada: lo que muestra la vista previa es lo que obtienes.
+- **Una combinación cuesta créditos según el grado que genera**: 5.000 para Corrupto, 25.000 para Divino, 100.000 para Rompedor, 250.000 para Eterno. Sin materiales.
+- Se rechaza una combinación que no cambiaría nada (el resultado no es mejor que la base).
+- Tras una combinación, el resultado sigue seleccionado y la casilla del donante queda vacía: pon el siguiente donante, o vuelve a Subir grado.
+
+Una combinación pule un objeto; no lo multiplica. Dos núcleos de escudo de grado Divino combinados valen aproximadamente punto y medio de bonificaciones más que uno solo. Su utilidad es elegir: un núcleo Divino con las estadísticas que quieres, o pasar un grado al objeto de tu nave sin quitarlo.
+
+## Mejoras de módulos en Ensamblaje {#module-upgrades-in-the-assembly}
+
+Los dos mejores láseres, los mejores amplificadores láser, la mejor célula de escudo y los mejores propulsores, el Heavy Shield Core y el Engine III no se venden. Los fabricas en la pestaña **Fabricación** de Ensamblaje mejorando la pieza del escalón inferior: un Pulse Amp en un **Nova Amp**, un Prism Amp en un **Apex Amp**, una Prime Shield Cell en una **Sovereign Shield Cell**, un Ion Thruster en un **Plasma Thruster**, un Thruster II en un **Thruster III**, un Basic Shield Core en un **Heavy Shield Core**, un Engine II en un **Engine III**, un Quantum Laser 3 en un **Starfire-3** y un Starfire-3 en un **Helios Beam**. Lo que tiene que ver la Forja con esto es el grado.
+
+- **El grado se conserva.** Una mejora consume una copia de la pieza, y el objeto nuevo tiene el grado de esa copia: un Pulse Amp Divino da un Nova Amp Divino, uno Estándar da un Nova Amp Estándar. Lo que pagaste a la Forja no se pierde. La mejora no añade ningún grado por su cuenta, así que una pieza Estándar siempre da un resultado Estándar.
+- **Las bonificaciones se sortean de nuevo.** El objeto nuevo recibe bonificaciones nuevas para su grado: tantas como admite el grado y como estadísticas tiene el objeto nuevo (un Nova Amp Divino admite dos), cada una dentro del rango del grado de la tabla de arriba, en estadísticas que tiene el Nova Amp. No se copia nada de la pieza antigua, así que las bonificaciones nuevas pueden salir mejores o peores que las que tenía; de media son iguales. Las bonificaciones se sortean en el momento en que pones el trabajo en cola, y lo que recoges es lo que salió: esperar para recoger no cambia nada. La razón es que la mejora construye un objeto nuevo, y los dados de la Forja se tiran sobre el objeto que tienes en las manos. El grado es la parte que cuesta: una pieza de grado Eterno son más de un millón de créditos en pasos de la Forja, mientras que una bonificación son unos pocos puntos porcentuales de una estadística.
+- **Placas.** Además de Thulium y de lo que sueltan los alienígenas, toda mejora de módulo requiere **Velkonite Reinforced Plates**: 3 para un amplificador, 6 para una célula o un propulsor, 6 para un Heavy Shield Core o un Engine III, 4 para un Thruster III y 8 para un Starfire-3 (el Helios Beam requiere en cambio Orvium Reinforced Plates, 18 de ellas). Los alienígenas no las sueltan. La Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md) las fabrica a partir de mineral de Velkonite, 40 de mineral por placa con la Forja del Skylab en nivel 1. Un Colector de Velkonite de nivel 1 extrae 12 de mineral por hora, así que las placas de un amplificador son 10 horas de minería y las de una célula o un propulsor, 20 (4 y 8 horas con un colector de nivel 5). De dónde sale cada material está en la página [Recursos](/wiki/05-Items/Resources.md). Los pasos propios de la Forja piden botín y créditos, y sus pasos superiores piden además placas (de Divino a Rompedor: 20 Reinforced Hull Plates y 2 Dark Matter Plates; de Rompedor a Eterno: 2 Dark Matter Plates), que son cosa distinta de las placas de Velkonite y de Orvium de las mejoras de módulo.
+- **Qué copia se usa.** Tú eliges. Cuando tienes copias que difieren (otro grado u otras bonificaciones), la tarjeta de la receta las muestra como una fila de casillas: haz clic en la que quieres usar, y la línea bajo las casillas muestra en qué se convierte («Pulse Amp Divino», luego «Resultado: Nova Amp Divino»). Si no eliges ninguna, se usa la más sencilla: primero la de grado más bajo y, entre copias del mismo grado, la más antigua, sean cuales sean sus bonificaciones. Una copia de grado Divino o superior nunca se usa mientras haya una más sencilla suelta. Usar una copia por encima de Estándar pregunta antes y nombra el objeto.
+- **Qué copias se pueden usar.** Las sueltas: una copia que está en una nave (también en una ranura de habilidad), instalada dentro de otro objeto, con células o propulsores propios instalados o en el [Alijo de Transporte](/wiki/03-Mechanics/Cargo.md) no se puede usar, y Ensamblaje te lo dice. Quítala o sácala del alijo primero. Dos mejoras iniciadas a la vez no pueden usar la misma copia.
+
+- **El Starfire-3 también es una mejora.** Se fabrica a partir de un **Quantum Laser 3** (con 1.500 Thulium, 100.000 créditos, botín y 8 Velkonite Reinforced Plates: consulta [Láseres](/wiki/05-Items/Lasers.md)), y todo lo anterior se aplica: un Quantum Laser 3 Divino da un Starfire-3 Divino con dos bonificaciones nuevas, tú eliges la copia, la tarjeta pregunta antes de usar una por encima de Estándar, y el Quantum Laser 3 debe estar suelto: quítalo antes en el hangar, y el botón Ensamblar dice «Desequipa Quantum Laser 3» hasta que lo hagas. El grado sigue así hacia arriba: un Starfire-3 Divino da un Helios Beam Divino.
+
+- **El Helios Beam también es una mejora.** Se fabrica a partir de un **Starfire-3** (con 2.000 Thulium, botín y 18 Orvium Reinforced Plates: consulta [Láseres](/wiki/05-Items/Lasers.md)), y todo lo anterior se aplica: un Starfire-3 Divino da un Helios Beam Divino con dos bonificaciones nuevas (admite dos de sus tres estadísticas), tú eliges la copia, la tarjeta pregunta antes de usar una por encima de Estándar, y el Starfire-3 debe estar suelto. Un láser va instalado en una nave y lleva amplificadores, así que a menudo no lo está: quítalo antes en el hangar (sus amplificadores vuelven a tu inventario), y el botón Ensamblar dice «Desequipa Starfire-3» hasta que lo hagas.
+
+Las recetas, sus costos y los números que hay detrás de la regla están en el [Resumen de objetos](/wiki/05-Items/Overview.md#upgrading-modules) y, para el Starfire-3 y el Helios Beam, en la página [Láseres](/wiki/05-Items/Lasers.md).
+
+## Servidores antiguos {#old-servers}
+
+Un servidor de juego que no se ha actualizado a la Forja muestra «La Forja aún no está en este servidor» en lugar de la pestaña; la Fabricación funciona como antes. Un cliente de juego anterior a la Forja muestra la antigua pestaña de Fusión en un servidor actualizado y se le indica que se actualice.

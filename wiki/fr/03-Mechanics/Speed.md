@@ -1,0 +1,43 @@
+<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n title: Vitesse -->
+# Calcul de la vitesse {#speed-calculation}
+
+La vitesse détermine la rapidité avec laquelle votre vaisseau se déplace sur la carte spatiale : elle vous permet de poursuivre des cibles, de fuir un combat ou de traverser des zones.
+
+## La formule de vitesse {#the-speed-formula}
+
+La vitesse finale de votre vaisseau est calculée sur le serveur selon la formule suivante :
+
+\[\text{Vitesse finale} = (\text{Vitesse de base du vaisseau} + \text{Vitesse totale des moteurs}) \times (1,0 + \text{Pourcentage total de bonus de vitesse})\]
+
+### 1. Vitesse effective des moteurs {#1-effective-engine-speed}
+
+Chaque moteur équipé génère de la vitesse. Si des propulseurs sont installés dans le moteur, sa vitesse est modifiée :
+
+\[\text{Vitesse du moteur} = (\text{Vitesse de base du moteur} \times \text{Multiplicateur des propulseurs}) + \text{Bonus fixe des propulseurs}\]
+
+- **Multiplicateur des propulseurs** : le produit des multiplicateurs de vitesse de tous les propulseurs installés dans ce moteur (par ex. le Thruster III vaut `1.1`, soit `+10%`).
+- **Bonus fixe des propulseurs** : la somme de tous les ajouts fixes de vitesse des propulseurs (par ex. le Thruster III donne `+15` de vitesse).
+
+### 2. Rendements décroissants (efficacité marginale) {#2-diminishing-returns-marginal-efficiency-}
+
+Pour empêcher les joueurs d’empiler un nombre infini de moteurs et d’obtenir une vitesse infinie, une courbe de **rendements décroissants (efficacité marginale)** est appliquée. Tous les moteurs sont triés selon leur contribution à la vitesse et traités dans l’ordre. Les cœurs adaptatifs (hybrides) et les cœurs de bouclier sont classés de la même manière, chaque type dans un groupe à part : un vaisseau qui a à la fois des moteurs et des cœurs adaptatifs a donc ses quatre premiers rangs pour chacun des deux types :
+
+| Rang du moteur | Multiplicateur d’efficacité |
+| :---: | :--- |
+| **1er à 4e** | **100 %** (1,0) |
+| **5e** | **85 %** (0,85) |
+| **6e** | **70 %** (0,70) |
+| **7e** | **55 %** (0,55) |
+| **8e et suivants** | **25 %** (0,25) |
+
+De plus, la vitesse du moteur est multipliée par l’efficacité de son emplacement (principal : 100 %, de soutien : 75 %, auxiliaire : 50 %).
+
+### 3. Pourcentage de bonus de vitesse et pénalités des boucliers {#3-speed-bonus-percent-shield-penalties}
+
+Le pourcentage total de bonus de vitesse est la somme de tous les bonus de vitesse des moteurs équipés (et des hybrides), moins les pénalités des boucliers équipés :
+
+- **Bonus de vitesse des moteurs** : les moteurs ajoutent des pourcentages de vitesse positifs (par ex. l’Engine III ajoute `+5%`).
+- **Pénalité de vitesse des boucliers** : les boucliers lourds alourdissent votre vaisseau et ajoutent des pourcentages de vitesse négatifs (par ex. le Heavy Shield Core ajoute `-5%` de vitesse).
+- **Pondération selon l’emplacement** : ces bonus et pénalités en pourcentage sont eux aussi pondérés par l’efficacité de l’emplacement où l’objet est équipé. Un bouclier installé sur l’un de vos drones vous ralentit comme un bouclier placé dans un emplacement principal.
+- **Jamais sous zéro** : quel que soit le nombre de boucliers que vous portez, votre vitesse ne descend pas sous 0.

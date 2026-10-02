@@ -1,0 +1,29 @@
+<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n title: Kitefin -->
+# Kitefin {#kitefin}
+
+Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la plupart des pilotes : un troisième laser, trois fois la coque du Protos et une propulsion plus rapide, le tout payé en Thulium.
+
+## Caractéristiques {#stats}
+
+- **Points de vie (PV)** : 24 000
+- **Vitesse de base** : 175
+- **Emplacements laser** : 3
+- **Emplacements extras** : 3
+
+### Emplacements de générateur et de soutien {#generator-support-slots}
+
+- **Emplacements principaux (efficacité de 100 %)** : 2
+- **Emplacements de soutien (efficacité de 75 %)** : 3
+- **Emplacements auxiliaires (efficacité de 50 %)** : 0
+
+---
+
+## Prix {#price}
+
+- **Crédits** : 0
+- **Thulium** : 600
+
+## Histoire {#lore}
+
+Le Kitefin a commencé sa carrière comme appareil de courrier pour les ravitaillements entre les stations des corporations : une coque plate en forme de cerf-volant, économe en carburant et facile à rafistoler. Quand l’Essaim a transformé chaque route de courrier en ligne de front, les chantiers ont boulonné un canon sous chaque aile et un troisième sous le nez, triplé le blindage et vendu le résultat aux pilotes devenus trop grands pour leur Protos, mais pas encore assez riches pour s’offrir un Ostirion. Sa queue fourchue, ses pointes à bout corail et la lueur chaude de sa verrière sont un spectacle courant en mission d’escorte, où ses trois canons tiennent le rythme de vaisseaux bien plus gros et où sa coque fine apprend aux pilotes à surveiller leurs boucliers.

@@ -11,7 +11,7 @@ Your ship's final shield parameters are calculated as follows:
 
 ### 1. Slot Efficiency & Diminishing Returns
 
-Similar to engines, equipped shields (and hybrid generators) are sorted by capacity and subjected to slot efficiency (Core: 100%, Support: 75%, Auxiliary: 50%) and a diminishing returns curve based on their rank:
+Similar to engines, equipped shields (and hybrid generators) are sorted by capacity and subjected to slot efficiency (Core: 100%, Support: 75%, Auxiliary: 50%, a drone's slot: 100%, as a core slot) and a diminishing returns curve based on their rank. A shield on one of your [drones](/wiki/03-Mechanics/Drones.md) is ranked with the ship's own:
 
 - **1st to 4th shield**: **100%** (1.0) marginal efficiency.
 - **5th shield**: **85%** (0.85) marginal efficiency.
@@ -23,7 +23,7 @@ Similar to engines, equipped shields (and hybrid generators) are sorted by capac
 
 Absorbance is the share of every hit your shields take; the rest goes directly to hitpoints (HP).
 - **Per shield**: a shield's absorbance plus the absorbance of the Shield Cells fitted into it. A shield alone is **45 to 50%** (Light 45%, Basic 48%, Heavy 50%); cells add 2 to 10 points each (Basic +2%, Advanced +4%, Reinforced +6%, Elite +7%, Prime +8%, Sovereign +10%).
-- **Average Absorbance**: your ship's absorbance is the simple average over the shields in core, support and auxiliary slots. Adaptive Cores have no absorbance of their own and don't count in the average (cells in an Adaptive Core add capacity and recharge only). With no shield equipped your absorbance is 0%: the hull takes every hit, and shield points from cells in an Adaptive Core go unused, so fit a shield alongside.
+- **Average Absorbance**: your ship's absorbance is the simple average over the shields in core, support and auxiliary slots and on your drones. Adaptive Cores have no absorbance of their own and don't count in the average (cells in an Adaptive Core add capacity and recharge only). With no shield equipped your absorbance is 0%: the hull takes every hit, and shield points from cells in an Adaptive Core go unused, so fit a shield alongside.
 - **The most out of the box is 80%**: the best shield with the best cells, a Heavy Shield Core with three Sovereign cells in every slot. Mixing in weaker shields lowers the average. No Season Store buff and no Forge buff is part of that number.
 - **Example**: a Basic Shield Core (48%) with two Advanced cells is 56%; add a Light Shield Core (45%) and the average is 50.5%.
 - **The stat is not capped at 100%.** It is what the shields would take of a hit, before the attacker's *shield penetration* is taken off, so a ship can carry more than a whole hit: 112% still takes a whole hit from an attacker with up to 12% penetration.

@@ -1,6 +1,6 @@
 # Crystalys
 
-Crystalys is a massive battleship-class alien entity. Encountering one is highly dangerous, requiring exceptional shield capacity and firepower to survive. It goes after any unprotected pilot within its aggro radius (900 units), and lets go when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot it, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit it in the last 10 seconds is not let go of at all, and the Crystalys flies at that pilot whenever it is beyond its weapon range (900 units).
+Crystalys is a massive battleship-class alien entity. Encountering one is highly dangerous, requiring exceptional shield capacity and firepower to survive. It goes after any unprotected pilot within its aggro radius (900 units), and lets go when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot it, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit it in the last 10 seconds is not let go of at all, and the Crystalys flies at that pilot whenever it is beyond its weapon range (900 units). With several pilots shooting it, it stays on the first who shot it while that pilot keeps hitting it (see [Who an Alien Fights](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
 
 ## Stats
 

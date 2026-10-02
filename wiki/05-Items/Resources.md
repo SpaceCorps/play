@@ -17,17 +17,17 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 
 | Material | Rarity | Comes from | Goes into |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/05-Items/Resources.md#ship-fragment) | Common | Crystalys, Gorvane, Bulwark, Phantasm, Seeker, mission Specials | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Plasma Thruster, Ironclad, N.U.K.E., N.I.K.E., Forge, Skylab builds |
-| [Reinforced Hull Plate](/wiki/05-Items/Resources.md#reinforced-hull-plate) | Common | Gorvane, Bulwark, mission Specials | Starfire-3, Helios Beam, Paragon, Wraith, Sovereign Shield Cell, Ironclad, N.U.K.E., N.I.K.E., Forge |
-| [Power Core](/wiki/05-Items/Resources.md#power-core) | Uncommon | Crystalys, Gorvane, mission Specials | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Plasma Thruster, Ironclad, N.U.K.E., Forge |
+| [Ship Fragment](/wiki/05-Items/Resources.md#ship-fragment) | Common | Crystalys, Goombah, Bulwark, Phantasm, Seeker, mission Specials | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Plasma Thruster, Ironclad, Engine III, Thruster III, N.U.K.E., N.I.K.E., Forge, Skylab builds |
+| [Reinforced Hull Plate](/wiki/05-Items/Resources.md#reinforced-hull-plate) | Common | Goombah, Bulwark, mission Specials | Starfire-3, Helios Beam, Paragon, Wraith, Sovereign Shield Cell, Ironclad, Heavy Shield Core, N.U.K.E., N.I.K.E., Forge |
+| [Power Core](/wiki/05-Items/Resources.md#power-core) | Uncommon | Crystalys, Goombah, mission Specials | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Plasma Thruster, Ironclad, Engine III, Thruster III, N.U.K.E., Forge |
 | [Ancient Control Unit](/wiki/05-Items/Resources.md#ancient-control-unit) | Rare | Crystalys, mission Specials | Wraith, Ironclad |
 | [Daraxium](/wiki/05-Items/Resources.md#daraxium) | Common | Phantasm, Seeker | Forge |
 | [Nyxite](/wiki/05-Items/Resources.md#nyxite) | Common | Phantasm, Bulwark | Forge |
-| [Cataclysite](/wiki/05-Items/Resources.md#cataclysite) | Common | Crystalys, Gorvane, Bulwark | Helios Beam, Nova Amp, Apex Amp, Sovereign Shield Cell, N.U.K.E., N.I.K.E., Forge |
-| [Quorvium](/wiki/05-Items/Resources.md#quorvium) | Common | Crystalys, Gorvane | Forge |
+| [Cataclysite](/wiki/05-Items/Resources.md#cataclysite) | Common | Crystalys, Goombah, Bulwark | Helios Beam, Nova Amp, Apex Amp, Sovereign Shield Cell, Heavy Shield Core, N.U.K.E., N.I.K.E., Forge |
+| [Quorvium](/wiki/05-Items/Resources.md#quorvium) | Common | Crystalys, Goombah | Forge |
 | [Velkonite](/wiki/05-Items/Resources.md#velkonite) | Uncommon | Skylab collector | Skylab Forgery |
 | [Orvium](/wiki/05-Items/Resources.md#orvium) | Rare | Skylab collector | Skylab Forgery |
-| [Velkonite Reinforced Plate](/wiki/05-Items/Resources.md#velkonite-reinforced-plate) | Rare | Skylab Forgery | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Sovereign Shield Cell, Plasma Thruster, Dark Matter Plate |
+| [Velkonite Reinforced Plate](/wiki/05-Items/Resources.md#velkonite-reinforced-plate) | Rare | Skylab Forgery | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Sovereign Shield Cell, Plasma Thruster, Dark Matter Plate, Heavy Shield Core, Engine III, Thruster III |
 | [Orvium Reinforced Plate](/wiki/05-Items/Resources.md#orvium-reinforced-plate) | Epic | Skylab Forgery | Helios Beam, Dark Matter Plate |
 | [Dark Matter](/wiki/05-Items/Resources.md#dark-matter) | Epic | the black hole (a swallowed N.I.K.E.) | Dark Matter Plate |
 | [Dark Matter Plate](/wiki/05-Items/Resources.md#dark-matter-plate) | Mythical | Assembly | Forge |
@@ -43,19 +43,19 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100% for 5; 50% for 1; 25% for 2 | 6 |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 100% for 3; 25% for 1 | 3.25 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% for 3; 25% for 1 | 3.25 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% for 2 | 2 |
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 100% for 1 | 1 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 20% for 1 | 0.2 |
 
-- **Missions**: Phantasm Purge (level 2 Special) 5; Nightfall (level 3 Special) 10; Bulwark Breaker (level 4 Special) 10; Iron Tide (level 5 Special) 15; Colossus (level 6 Special) 15; Gorvane Siege (level 7 Special) 20; Frontline Command (level 8 Special) 25.
+- **Missions**: Phantasm Purge (level 2 Special) 5; Nightfall (level 3 Special) 10; Bulwark Breaker (level 4 Special) 10; Iron Tide (level 5 Special) 15; Colossus (level 6 Special) 15; Goombah Siege (level 7 Special) 20; Frontline Command (level 8 Special) 25.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
 
 - [Master Drone](/wiki/05-Items/Drones.md): **100** (with 1 Slave Drone, 40,000 Thulium)
 - [Quantum Laser 3](/wiki/05-Items/Lasers.md): **10** (with 2 Velkonite Reinforced Plate, 1,500 Thulium)
-- [Starfire-3](/wiki/05-Items/Lasers.md): **25** (with 1 Reinforced Hull Plate, 10 Velkonite Reinforced Plate, 100,000 credits, 3,000 Thulium)
+- [Starfire-3](/wiki/05-Items/Lasers.md): **15** (with 1 Quantum Laser 3, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 100,000 credits, 1,500 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **120** (with 5 Power Core, 20 Reinforced Hull Plate, 1,500 Thulium)
 - [Wraith](/wiki/02-Ships/Wraith.md): **300** (with 3 Ancient Control Unit, 15 Power Core, 50 Reinforced Hull Plate, 20,000 Thulium)
 - [Damage Amp II](/wiki/05-Items/Boosters.md): **5** (with 20,000 Thulium)
@@ -63,6 +63,8 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 - [Hull Plating II](/wiki/05-Items/Boosters.md): **5** (with 15,000 Thulium)
 - [Plasma Thruster](/wiki/05-Items/Propulsion.md): **60** (with 1 Ion Thruster, 3 Power Core, 6 Velkonite Reinforced Plate, 2,000 Thulium)
 - [Ironclad](/wiki/02-Ships/Ironclad.md): **200** (with 1 Ancient Control Unit, 10 Power Core, 35 Reinforced Hull Plate, 10,500 Thulium)
+- [Engine III](/wiki/05-Items/Propulsion.md): **60** (with 1 Engine II, 3 Power Core, 6 Velkonite Reinforced Plate, 2,000 Thulium)
+- [Thruster III](/wiki/05-Items/Propulsion.md): **30** (with 2 Power Core, 1 Thruster II, 4 Velkonite Reinforced Plate, 1,500 Thulium)
 - [N.U.K.E.](/wiki/05-Items/Rockets.md): **40** (with 80 Cataclysite, 6 Maelstrom, 4 Power Core, 10 Reinforced Hull Plate, 150,000 credits, 3,000 Thulium)
 - [N.I.K.E.](/wiki/05-Items/Rockets.md) (makes 5): **20** (with 40 Cataclysite, 4 Reinforced Hull Plate, 100,000 credits, 1,500 Thulium)
 - [Forge](/wiki/05-Items/Forge.md), Standard to Tainted: **5** (with 15 Daraxium, 10,000 credits; 100% success)
@@ -81,27 +83,28 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 60% for 1 | 0.6 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 60% for 1 | 0.6 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 30% for 1 | 0.3 |
 
-- **Missions**: Bulwark Breaker (level 4 Special) 2; Iron Tide (level 5 Special) 3; Colossus (level 6 Special) 3; Gorvane Siege (level 7 Special) 5.
+- **Missions**: Bulwark Breaker (level 4 Special) 2; Iron Tide (level 5 Special) 3; Colossus (level 6 Special) 3; Goombah Siege (level 7 Special) 5.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
 
-- [Starfire-3](/wiki/05-Items/Lasers.md): **1** (with 25 Ship Fragment, 10 Velkonite Reinforced Plate, 100,000 credits, 3,000 Thulium)
+- [Starfire-3](/wiki/05-Items/Lasers.md): **1** (with 1 Quantum Laser 3, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 100,000 credits, 1,500 Thulium)
 - [Helios Beam](/wiki/05-Items/Lasers.md): **4** (with 50 Cataclysite, 18 Orvium Reinforced Plate, 2 Power Core, 1 Starfire-3, 2,000 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **20** (with 5 Power Core, 120 Ship Fragment, 1,500 Thulium)
 - [Wraith](/wiki/02-Ships/Wraith.md): **50** (with 3 Ancient Control Unit, 15 Power Core, 300 Ship Fragment, 20,000 Thulium)
 - [Sovereign Shield Cell](/wiki/05-Items/Shields.md): **8** (with 20 Cataclysite, 1 Prime Shield Cell, 6 Velkonite Reinforced Plate, 2,500 Thulium)
 - [Ironclad](/wiki/02-Ships/Ironclad.md): **35** (with 1 Ancient Control Unit, 10 Power Core, 200 Ship Fragment, 10,500 Thulium)
+- [Heavy Shield Core](/wiki/05-Items/Shields.md): **8** (with 1 Basic Shield Core, 20 Cataclysite, 6 Velkonite Reinforced Plate, 2,000 Thulium)
 - [N.U.K.E.](/wiki/05-Items/Rockets.md): **10** (with 80 Cataclysite, 6 Maelstrom, 4 Power Core, 40 Ship Fragment, 150,000 credits, 3,000 Thulium)
 - [N.I.K.E.](/wiki/05-Items/Rockets.md) (makes 5): **4** (with 40 Cataclysite, 20 Ship Fragment, 100,000 credits, 1,500 Thulium)
 - [Forge](/wiki/05-Items/Forge.md), Godly to Rupturing: **20** (with 120 Cataclysite, 2 Dark Matter Plate, 200,000 credits; 75% success)
 
 A Forge step that fails gives 50% of its materials back, rounded down.
 
-**How to farm it**: kill [Gorvane](/wiki/04-Aliens/Gorvane.md) (sectors 3, 4): 0.6 per kill on average.
+**How to farm it**: kill [Goombah](/wiki/04-Aliens/Goombah.md) (sectors 3, 4): 0.6 per kill on average.
 
 ### Power Core
 
@@ -112,9 +115,9 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 50% for 1 | 0.5 |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 25% for 1 | 0.25 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 25% for 1 | 0.25 |
 
-- **Missions**: Iron Tide (level 5 Special) 1; Colossus (level 6 Special) 1; Gorvane Siege (level 7 Special) 2; Frontline Command (level 8 Special) 1.
+- **Missions**: Iron Tide (level 5 Special) 1; Colossus (level 6 Special) 1; Goombah Siege (level 7 Special) 2; Frontline Command (level 8 Special) 1.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
@@ -126,12 +129,14 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 - [Apex Amp](/wiki/05-Items/Lasers.md): **1** (with 30 Cataclysite, 1 Prism Amp, 3 Velkonite Reinforced Plate, 1,200 Thulium)
 - [Plasma Thruster](/wiki/05-Items/Propulsion.md): **3** (with 1 Ion Thruster, 60 Ship Fragment, 6 Velkonite Reinforced Plate, 2,000 Thulium)
 - [Ironclad](/wiki/02-Ships/Ironclad.md): **10** (with 1 Ancient Control Unit, 35 Reinforced Hull Plate, 200 Ship Fragment, 10,500 Thulium)
+- [Engine III](/wiki/05-Items/Propulsion.md): **3** (with 1 Engine II, 60 Ship Fragment, 6 Velkonite Reinforced Plate, 2,000 Thulium)
+- [Thruster III](/wiki/05-Items/Propulsion.md): **2** (with 30 Ship Fragment, 1 Thruster II, 4 Velkonite Reinforced Plate, 1,500 Thulium)
 - [N.U.K.E.](/wiki/05-Items/Rockets.md): **4** (with 80 Cataclysite, 6 Maelstrom, 10 Reinforced Hull Plate, 40 Ship Fragment, 150,000 credits, 3,000 Thulium)
 - [Forge](/wiki/05-Items/Forge.md), Rupturing to Eternal: **8** (with 240 Quorvium, 2 Dark Matter Plate, 500,000 credits, 2,000 Thulium; 60% success)
 
 A Forge step that fails gives 50% of its materials back, rounded down.
 
-**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0.5 per kill on average; the nearest source is the [Gorvane](/wiki/04-Aliens/Gorvane.md) in sector 3, 0.25 per kill.
+**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0.5 per kill on average; the nearest source is the [Goombah](/wiki/04-Aliens/Goombah.md) in sector 3, 0.25 per kill.
 
 ### Ancient Control Unit
 
@@ -204,7 +209,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100% for 8 | 8 |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 100% for 4 | 4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% for 4 | 4 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% for 2 | 2 |
 
 - **Otherwise**: not sold in the Shop.
@@ -215,13 +220,14 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 - [Nova Amp](/wiki/05-Items/Lasers.md): **30** (with 1 Power Core, 1 Pulse Amp, 3 Velkonite Reinforced Plate, 1,200 Thulium)
 - [Apex Amp](/wiki/05-Items/Lasers.md): **30** (with 1 Power Core, 1 Prism Amp, 3 Velkonite Reinforced Plate, 1,200 Thulium)
 - [Sovereign Shield Cell](/wiki/05-Items/Shields.md): **20** (with 1 Prime Shield Cell, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 2,500 Thulium)
+- [Heavy Shield Core](/wiki/05-Items/Shields.md): **20** (with 1 Basic Shield Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 2,000 Thulium)
 - [N.U.K.E.](/wiki/05-Items/Rockets.md): **80** (with 6 Maelstrom, 4 Power Core, 10 Reinforced Hull Plate, 40 Ship Fragment, 150,000 credits, 3,000 Thulium)
 - [N.I.K.E.](/wiki/05-Items/Rockets.md) (makes 5): **40** (with 4 Reinforced Hull Plate, 20 Ship Fragment, 100,000 credits, 1,500 Thulium)
 - [Forge](/wiki/05-Items/Forge.md), Godly to Rupturing: **120** (with 20 Reinforced Hull Plate, 2 Dark Matter Plate, 200,000 credits; 75% success)
 
 A Forge step that fails gives 50% of its materials back, rounded down.
 
-**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 per kill on average; the nearest source is the [Gorvane](/wiki/04-Aliens/Gorvane.md) in sector 3, 4 per kill.
+**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 per kill on average; the nearest source is the [Goombah](/wiki/04-Aliens/Goombah.md) in sector 3, 4 per kill.
 
 ### Quorvium
 
@@ -232,7 +238,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100% for 6 to 10 | 8 |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 100% for 2 to 4 | 3 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% for 2 to 4 | 3 |
 
 - **Otherwise**: not sold in the Shop.
 
@@ -242,7 +248,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 
 A Forge step that fails gives 50% of its materials back, rounded down.
 
-**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 per kill on average; the nearest source is the [Gorvane](/wiki/04-Aliens/Gorvane.md) in sector 3, 3 per kill.
+**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 per kill on average; the nearest source is the [Goombah](/wiki/04-Aliens/Goombah.md) in sector 3, 3 per kill.
 
 ### Velkonite
 
@@ -313,14 +319,17 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 **What it is for**
 
 - [Quantum Laser 3](/wiki/05-Items/Lasers.md): **2** (with 10 Ship Fragment, 1,500 Thulium)
-- [Starfire-3](/wiki/05-Items/Lasers.md): **10** (with 1 Reinforced Hull Plate, 25 Ship Fragment, 100,000 credits, 3,000 Thulium)
+- [Starfire-3](/wiki/05-Items/Lasers.md): **8** (with 1 Quantum Laser 3, 1 Reinforced Hull Plate, 15 Ship Fragment, 100,000 credits, 1,500 Thulium)
 - [Nova Amp](/wiki/05-Items/Lasers.md): **3** (with 30 Cataclysite, 1 Power Core, 1 Pulse Amp, 1,200 Thulium)
 - [Apex Amp](/wiki/05-Items/Lasers.md): **3** (with 30 Cataclysite, 1 Power Core, 1 Prism Amp, 1,200 Thulium)
 - [Sovereign Shield Cell](/wiki/05-Items/Shields.md): **6** (with 20 Cataclysite, 1 Prime Shield Cell, 8 Reinforced Hull Plate, 2,500 Thulium)
 - [Plasma Thruster](/wiki/05-Items/Propulsion.md): **6** (with 1 Ion Thruster, 3 Power Core, 60 Ship Fragment, 2,000 Thulium)
 - Dark Matter Plate: **1** (with 5 Dark Matter, 1 Orvium Reinforced Plate, 250 Thulium)
+- [Heavy Shield Core](/wiki/05-Items/Shields.md): **6** (with 1 Basic Shield Core, 20 Cataclysite, 8 Reinforced Hull Plate, 2,000 Thulium)
+- [Engine III](/wiki/05-Items/Propulsion.md): **6** (with 1 Engine II, 3 Power Core, 60 Ship Fragment, 2,000 Thulium)
+- [Thruster III](/wiki/05-Items/Propulsion.md): **4** (with 2 Power Core, 30 Ship Fragment, 1 Thruster II, 1,500 Thulium)
 
-**Module upgrades**: Assembly upgrades a Pulse Amp into a Nova Amp, a Prism Amp into an Apex Amp, a Prime Shield Cell into a Sovereign Shield Cell and an Ion Thruster into a Plasma Thruster. Each upgrade uses up the piece it starts from and asks for these plates as well as its other materials. The new piece keeps the Forge tier of the piece you put in, and its buffs are rolled again, so they can come out better or worse than the old ones. See [Module upgrades in the Assembly](/wiki/05-Items/Forge.md#module-upgrades-in-the-assembly).
+**Module upgrades**: Assembly upgrades a Quantum Laser 3 into a Starfire-3, a Pulse Amp into a Nova Amp, a Prism Amp into an Apex Amp, a Prime Shield Cell into a Sovereign Shield Cell, an Ion Thruster into a Plasma Thruster, a Basic Shield Core into a Heavy Shield Core, an Engine II into an Engine III and a Thruster II into a Thruster III. Each upgrade uses up the piece it starts from and asks for these plates as well as its other materials. The new piece keeps the Forge tier of the piece you put in, and its buffs are rolled again, so they can come out better or worse than the old ones. See [Module upgrades in the Assembly](/wiki/05-Items/Forge.md#module-upgrades-in-the-assembly).
 
 **How to farm it**: feed the Forgery the ore, start a full batch and collect the plates while your ship is landed.
 
@@ -395,7 +404,7 @@ Credits and Thulium are collected like materials and spent in the same places. T
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 800 | 4 | 100 | 2 |
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2,400 | 12 | 300 | 6 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4,000 | 25 | 800 | 10 |
-| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 3, 4 | 12,000 | 75 | 3,000 | 24 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 12,000 | 75 | 3,000 | 24 |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 60,000 | 200 | 12,000 | 52 |
 
 These are the figures of the **Alpha** world (1x). A kill pays **2x** these in Beta and **3x** in Gamma, and a mission pays by the world you did it in ([worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); loot drops are the same in every world. On top of that, the Season Store's permanent Credit Boost (up to +50%) and Thulium Boost (up to +30%) raise what kills and missions pay in those two currencies.
@@ -459,7 +468,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 **What it is for**
 
 - **The Shop**: 31 items are priced in Thulium (their pages give the price: [Items](/wiki/05-Items/Overview.md) and [Rockets](/wiki/05-Items/Rockets.md)).
-- **Assembly**, per craft: [Master Drone](/wiki/05-Items/Drones.md) 40,000, [Quantum Laser 3](/wiki/05-Items/Lasers.md) 1,500, [Starfire-3](/wiki/05-Items/Lasers.md) 3,000, [Helios Beam](/wiki/05-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Damage Amp II](/wiki/05-Items/Boosters.md) 20,000, [Shield Wall II](/wiki/05-Items/Boosters.md) 15,000, [Hull Plating II](/wiki/05-Items/Boosters.md) 15,000, [Nova Amp](/wiki/05-Items/Lasers.md) 1,200, [Apex Amp](/wiki/05-Items/Lasers.md) 1,200, [Sovereign Shield Cell](/wiki/05-Items/Shields.md) 2,500, [Plasma Thruster](/wiki/05-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [N.U.K.E.](/wiki/05-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/05-Items/Rockets.md) (makes 5) 1,500.
+- **Assembly**, per craft: [Master Drone](/wiki/05-Items/Drones.md) 40,000, [Quantum Laser 3](/wiki/05-Items/Lasers.md) 1,500, [Starfire-3](/wiki/05-Items/Lasers.md) 1,500, [Helios Beam](/wiki/05-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Damage Amp II](/wiki/05-Items/Boosters.md) 20,000, [Shield Wall II](/wiki/05-Items/Boosters.md) 15,000, [Hull Plating II](/wiki/05-Items/Boosters.md) 15,000, [Nova Amp](/wiki/05-Items/Lasers.md) 1,200, [Apex Amp](/wiki/05-Items/Lasers.md) 1,200, [Sovereign Shield Cell](/wiki/05-Items/Shields.md) 2,500, [Plasma Thruster](/wiki/05-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/05-Items/Shields.md) 2,000, [Engine III](/wiki/05-Items/Propulsion.md) 2,000, [Thruster III](/wiki/05-Items/Propulsion.md) 1,500, [N.U.K.E.](/wiki/05-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/05-Items/Rockets.md) (makes 5) 1,500.
 - **[Forge](/wiki/05-Items/Forge.md)**, per tier step: Rupturing to Eternal 2,000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** builds and upgrades, the base price of each module: Credit Farm 100 (x1.6 a level), Forgery 500 (x1.5 a level), Orvium Collector 500 (x1.5 a level), Solar 50 (x1.4 a level), Resource Storage 500 (x1.4 a level), Thulium Farm 500 (x1.8 a level), Velkonite Collector 500 (x1.5 a level).
 - **Energy Materializer**: 5 Thulium a scan, looking for parts of the Chrono-Gate ([details](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
@@ -470,7 +479,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 
 - **Crates**: an alien's drops fall in one crate where it blows up, reserved for the pilot who killed it and their clan for 30 seconds. The [Resource Magnet](/wiki/05-Items/Boosters.md) booster adds 25% to what a crate holds. See [Cargo](/wiki/03-Mechanics/Cargo.md).
 - **Wrecks**: a destroyed [company pilot](/wiki/03-Mechanics/Company-Pilots.md) leaves no crate and no parts, whoever or whatever destroys it, so the pilots' ships are no source of materials. You can shoot down the pilots of another company once the Peace Protocol is over, where your [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) allows PvP; destroying one of your own company's pilots costs 100 Honor.
-- **Module upgrades**: Assembly makes the Helios Beam, Nova Amp, Apex Amp, Sovereign Shield Cell and Plasma Thruster by upgrading the piece one step below, which it uses up. An upgrade asks for Orvium Reinforced Plates and Velkonite Reinforced Plates, as the Quantum Laser 3, Starfire-3 and Dark Matter Plate do. The new piece keeps the Forge tier of the piece you put in, and its buffs are rolled again, so they can come out better or worse than the old ones. See [Module upgrades in the Assembly](/wiki/05-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Module upgrades**: Assembly makes the Starfire-3, Helios Beam, Nova Amp, Apex Amp, Sovereign Shield Cell, Plasma Thruster, Heavy Shield Core, Engine III and Thruster III by upgrading the piece one step below, which it uses up. An upgrade asks for Velkonite Reinforced Plates and Orvium Reinforced Plates, as the Quantum Laser 3 and Dark Matter Plate do. The new piece keeps the Forge tier of the piece you put in, and its buffs are rolled again, so they can come out better or worse than the old ones. See [Module upgrades in the Assembly](/wiki/05-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Where they are kept**: loose stacks in the inventory are what Assembly, the Forge and Skylab builds use. Stacks on a ship or in the Transport Cache are not.
 - **The wipe**: materials in your inventory follow the [wipe rules](/wiki/03-Mechanics/Wipe-Timeline.md); ore banked in the Skylab's Resource Storage stays.
 

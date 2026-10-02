@@ -1,0 +1,38 @@
+<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n title: Last -->
+# Lastlådor {#cargo-boxes}
+
+Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Flyg dit och plocka upp dem innan någon annan gör det.
+
+## Vad som tappas {#what-drops}
+
+- **Utomjordingar** tappar sitt byte som en låda där de sprängdes: resurserna och delarna som listas under varje utomjordings *Byte* (se artiklarna om [utomjordingar](/wiki/04-Aliens/Phantasm.md)). Krediter, Thulium, XP och heder betalas ändå ut i samma stund som du skjuter ner den. En utomjording vars byte slumpas till ingenting (en Seeker fyra gånger av fem) lämnar ingen låda.
+- **Koncernpiloter** lämnar ingen låda när de förstörs, vem eller vad som än förstör dem. Se [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md).
+- **Spelarskepp** lämnar inget vrak och ingen låda när de förstörs, vem eller vad som än förstör dem, och ingenting tas från pilotens inventarie.
+- **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
+
+En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
+
+Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt för vanligt byte, därefter grönt, blått, lila, rosa, guld och orangerött från ovanlig till evig.
+
+## Plocka upp {#collecting}
+
+- **Vänsterklicka** på en låda: ditt skepp flyger dit och tar den så fort den är inom räckhåll (200 enheter). Ett klick på en låda räknas aldrig som en förflyttningsorder; varje annan förflyttningsorder (ett klick i rymden, minikartan) avbryter upplockningen. När ett skepp eller en utomjording också ligger precis under pekaren går klicket till det som är närmast pekaren, så en strid som passerar över en låda behåller sina mål.
+- **Upplockningen tar 1 sekund.** När ditt skepp är inom räckhåll och får ta lådan startar upplockningen: ett fält över ditt snabbfält (”Plockar upp…”) fylls och en stråle skannar lådan. Ditt skepp fortsätter att flyga, och lådan är din när sekunden är slut. Flyg utom räckhåll, eller förlora lådan till en annan pilot, så avbryts upplockningen. Att bli attackerad avbryter den inte, någonstans.
+- Du gör en sak i taget: du kan inte plocka upp medan du [hoppar](/wiki/01-General/Spacemap%20Travel.md), och att starta ett hopp ger upp upplockningen. Att be om en låda du redan plockar upp igen ändrar ingenting.
+- Håll pekaren över en låda för att se vad som finns i den, vem den är reserverad för och, under sista minuten, hur lång tid den har kvar.
+- När en låda plockas upp spelas ett kort upplockningsljud där den låg; du hör även andra piloters upplockningar i närheten, men svagare.
+- Det du plockar upp går direkt till ditt inventarie i hangaren, till din lösa hög av det föremålet (aldrig till utrustning eller något i transportförrådet). Ett litet meddelande berättar vad du fick; lådor som plockas upp efter varandra summeras i samma meddelande.
+
+## Vem som får den {#who-gets-it}
+
+- Piloten som får betalt för nedskjutningen, och medlemmarna i den pilotens **klan**, har lådan för sig själva i **30 sekunder**. För en utomjording är det piloten som har paxet på den, den som träffade den först (se [Strid](/wiki/03-Mechanics/Combat.md)), oavsett vem som gjorde slut på den. Andra piloter ser den nedtonad och kan inte ta den än; ett skepp som skickats till den väntar i närheten tills tiden är ute.
+- Därefter får **vem som helst** på kartan ta den.
+- Bara ett skepp på lådans karta kan ta den: om du förstörs, hoppar eller loggar ut på vägen (eller under den sekund upplockningen tar), blir lådan kvar åt de andra.
+- Om två piloter plockar upp samma låda samtidigt får den vars sekund tar slut först den, exakt en gång; den andra får veta att den är borta.
+- En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten.
+
+## Boosters {#boosters}
+
+- **Loot Luck** (och den permanenta buffen Luck Boost) höjer chansen för varje bytespost när piloten gör nedskjutningen.
+- **Resource Magnet** lägger till **25 %** på resurserna i varje låda du plockar upp, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den, så fem N.I.K.E.-raketer blir tio Dark Matter för alla.
