@@ -1,6 +1,6 @@
 # Crystalys
 
-Crystalys is a massive battleship-class alien entity. Encountering one is highly dangerous, requiring exceptional shield capacity and firepower to survive.
+Crystalys is a massive battleship-class alien entity. Encountering one is highly dangerous, requiring exceptional shield capacity and firepower to survive. It goes after any unprotected pilot within its aggro radius (900 units), and lets go when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot it, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit it in the last 10 seconds is not let go of at all, and the Crystalys flies at that pilot whenever it is beyond its weapon range (900 units).
 
 ## Stats
 
@@ -17,17 +17,20 @@ Crystalys is a massive battleship-class alien entity. Encountering one is highly
 - **Thulium**: 200
 - **Experience (XP)**: 12,000
 - **Honor**: 52
-- **Shield Recharge**: 500 per second (5s delay)
+- **Shield Recharge**: 500 per second (15s delay)
 
 ## Loot Drops
 
 Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the killer's for 30 seconds.
+
+What each drop is for, and where else to find it: [Resources](/wiki/05-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100% chance (Min: 5, Max: 5)
   - 50% chance (Min: 1, Max: 1)
   - 25% chance (Min: 2, Max: 2)
 - **Cataclysite**: 100% chance (Min: 8, Max: 8)
+- **Quorvium**: 100% chance (Min: 6, Max: 10)
 - **Power Core**: 50% chance (Min: 1, Max: 1)
 - **Ancient Control Unit**: 20% chance (Min: 1, Max: 1)
 

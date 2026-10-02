@@ -46,7 +46,8 @@ AI agents, automated test suites, and scripting environments should invoke this 
 
 ---
 
-## 3. Package Inventory & Release Artifacts (v0.2.0)
+<!-- release:packages -->
+## 3. Package Inventory & Release Artifacts (v0.4.6)
 
 Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
 
@@ -55,30 +56,36 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 1. **macOS Universal:**
    - Filename: `SpaceCorps2027-macos-universal.dmg`
    - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
-   - Size: 81,818,270 bytes (81.8 MB)
-   - SHA-256: `fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d`
+   - Size: 118,146,493 bytes (118.1 MB)
+   - SHA-256: `50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
 
 2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
-   - Size: 77,306,033 bytes (77.3 MB)
-   - SHA-256: `d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f`
+   - Size: 113,093,539 bytes (113.1 MB)
+   - SHA-256: `cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
 3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
-   - Size: 74,058,232 bytes (74.1 MB)
-   - SHA-256: `962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23`
+   - Size: 109,115,896 bytes (109.1 MB)
+   - SHA-256: `673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
 4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
-   - Size: 77,937,083 bytes (77.9 MB)
-   - SHA-256: `0efe0b3ba5b5417f166ffbdc1a21e911846ca82f87c64a716d6e98f4ad3e2a3b`
+   - Size: 113,838,235 bytes (113.8 MB)
+   - SHA-256: `68e75b82e4d50677d3fe1d93792e5c697c66e756e77a411362518060177a7744`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
+
+Signed checksums: each release also carries `SHA256SUMS` (the SHA-256 of every package above,
+`https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS`) and `SHA256SUMS.minisig`, its signature by the
+SpaceCorps release key ([minisign](https://jedisct1.github.io/minisign/)). The in-game updater installs an
+update only when that signature verifies.
+<!-- /release:packages -->
 
 ---
 
@@ -144,9 +151,10 @@ cd SpaceCorps2027
 
 ---
 
+<!-- release:languages -->
 ## 6. Internationalization Matrix
 
-SpaceCorps 2027 ships with comprehensive translations across 10 languages:
+SpaceCorps 2027 ships with comprehensive translations across 12 languages:
 
 | Code | Language Name | Native Name | Web Address Parameter |
 | :--- | :--- | :--- | :--- |
@@ -154,12 +162,18 @@ SpaceCorps 2027 ships with comprehensive translations across 10 languages:
 | `de` | German | Deutsch | `https://spacecorps.github.io/play/?lang=de` |
 | `es` | Spanish | Español | `https://spacecorps.github.io/play/?lang=es` |
 | `fr` | French | Français | `https://spacecorps.github.io/play/?lang=fr` |
+| `it` | Italian | Italiano | not on the download page yet (it shows English) |
+| `hu` | Hungarian | Magyar | not on the download page yet (it shows English) |
 | `pt-BR` | Portuguese (Brazil) | Português (Brasil) | `https://spacecorps.github.io/play/?lang=pt-BR` |
 | `sv` | Swedish | Svenska | `https://spacecorps.github.io/play/?lang=sv` |
 | `ru` | Russian | Русский | `https://spacecorps.github.io/play/?lang=ru` |
 | `ja` | Japanese | 日本語 | `https://spacecorps.github.io/play/?lang=ja` |
 | `ko` | Korean | 한국어 | `https://spacecorps.github.io/play/?lang=ko` |
-| `zh-CN` | Simplified Chinese | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |
+| `zh-CN` | Chinese (Simplified) | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |
+
+`?lang=<code>` picks the language of the download page (10 of the 12). In the game: Settings › General ›
+Interface Language, or `SPACECORPS_LANG=<code>` for one run.
+<!-- /release:languages -->
 
 ---
 
@@ -171,10 +185,12 @@ The complete SpaceCorps 2027 knowledge base is programmatically synchronized fro
 - **Structured JSON Catalog:** `https://spacecorps.github.io/play/wiki.json`
 - **Raw Markdown Archive:** `https://spacecorps.github.io/play/wiki/`
 
-The catalog contains structured documentation across 5 modules:
-1. `01-General`: Getting Started, Game Concepts, Interface Guides.
-2. `02-Ships`: Flight specifications, abilities, and hardpoints (Protos, Kitefin, Wraith, Paragon, Ostirion).
-3. `03-Mechanics`: Combat formulas, Skylab manufacturing, Quests, Clan systems, Drone formations.
-4. `04-Aliens`: Threat classification, bounty tables, and attack patterns (Streuner, Lordakia, Sibelon, Kristallon, etc.).
-5. `05-Items`: Laser cannons, shields, generators, ammunition, and drone design blueprints.
+<!-- release:wiki -->
+The catalog contains 39 articles in 5 modules:
+1. `01-General`: Getting Started in SpaceCorps, Spacemap Travel.
+2. `02-Ships`: Ironclad, Kitefin, Ostirion, Paragon, Protos, Wraith.
+3. `03-Mechanics`: Active Ship Abilities, The Black Hole, Cargo Boxes, Clans, Combat Mechanics, Company Pilots, Drone Mechanics, Groups, The Hangar in Flight, Inventory & Equipment, Invite Friends, Quests, Shield Mechanics, Skylab, Speed Calculation, Wipe Timeline & Seasons.
+4. `04-Aliens`: Bulwark, Crystalys, Gorvane, Phantasm, Seeker.
+5. `05-Items`: Boosters, Drones, Extras, The Forge, Lasers & Ammo, Items Overview, Propulsion & Speed, Resources, Rockets, Shields & Defense.
+<!-- /release:wiki -->
 

@@ -19,7 +19,7 @@ Every engine equipped generates speed. If thrusters are nested in the engine, it
 
 ### 2. Diminishing Returns (Marginal Efficiency)
 
-To prevent players from stacking infinite engines for infinite speed, a **Diminishing Returns (Marginal Efficiency)** curve is applied. All engines are sorted by their speed contribution and processed in order:
+To prevent players from stacking infinite engines for infinite speed, a **Diminishing Returns (Marginal Efficiency)** curve is applied. All engines are sorted by their speed contribution and processed in order. Adaptive Cores (hybrids) and shield cores are ranked the same way, each kind in a group of its own, so a ship with both engines and Adaptive Cores has a first four of each:
 
 | Engine Rank | Efficiency Multiplier |
 | :---: | :--- |

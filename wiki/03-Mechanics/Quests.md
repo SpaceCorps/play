@@ -6,7 +6,7 @@ Missions are the main way to level up. Mission Control hands them out: every mis
 
 ## Mission Control
 
-- Open **Mission Control** from the toolbar. The **Normal Missions** tab lists your missions by level; **Completed Missions** holds the ones waiting for you to claim their reward.
+- Open **Mission Control** from the toolbar inside a station's safe zone, or click the **Mission Control** bubble above the station in your base sector (it follows the station on the map, so fly or zoom out until the station is in view). The **Normal Missions** tab lists your missions by level; **Completed Missions** holds the ones waiting for you to claim their reward.
 - **Accept** a mission to start it. You can run **5 missions at once**. The mission you accepted last is the one you're **tracking**: it shows in the **Active Quests** window, and kills and flight count toward it first. Pick another with the dots in the window's title bar.
 - **Abandon** a mission to drop it and its progress. It is back in the list at once, and you can take it again.
 - A finished mission waits under **Completed Missions** until you **claim** it. Claim it whenever you like: the reward doesn't expire.
@@ -22,7 +22,7 @@ Missions are the main way to level up. Mission Control hands them out: every mis
 
 - The eleventh mission of each level is its **Special**. It is locked until **all ten** of the level's other missions are done (claimed, or waiting for their claim), and its card says how many you have left.
 - Specials pay more experience than any other mission of their level, and **items** besides: lasers, shield parts, generators, Power Cores, Ship Fragments, ammo and booster time.
-- Level 1's regular missions also give a small starter item each: a Light Shield Core, a Repair Drone, a Damage Amp, a Basic Shield Cell and some ammo.
+- Level 1's regular missions also give a small starter item each: a Light Shield Core, a Repair Drone, a Damage Amp, a Basic Shield Cell, some ammo and a stack of rockets to try each kind (Lancets, Rivets, Embers and Scatters, and Javelins from the Special).
 
 ## Where it counts
 
@@ -31,7 +31,7 @@ Every task names the sector where it counts, and only kills and distance flown *
 | In the tables | Means | You see (a Mars pilot) |
 | :--- | :--- | :--- |
 | `x-1` … `x-4` | that sector of any company: yours, or another company's | `M-3` |
-| `4-x` | any sector of the PvP centre, `4-1` to `4-4` | `4-x` |
+| `DS-x` | any sector of the PvP centre, the Danger Sectors `DS-1` to `DS-4` | `DS-x` |
 | `rival x-4` | another company's border sector (not yours), through the centre | `T-4 · G-4` |
 
 The missions climb the sectors with your level:
@@ -44,12 +44,13 @@ The missions climb the sectors with your level:
 | 4 | the third sector | a look through the border gate into `x-4` |
 | 5 | the third sector | the first crossings of the border (`x-4`) |
 | 6 | the border (`x-4`) | – |
-| 7 | the border | runs into the PvP centre (`4-x`) |
+| 7 | the border | runs into the PvP centre (`DS-x`) |
 | 8 | the border | the centre, and other companies' borders |
 
 - **Patrols count outside safe zones only.** Circling a gate's ring doesn't patrol a sector.
 - **One kill or one stretch of flight counts toward one mission**: the one you track, if it can use it, else the first of your active missions that can.
 - An alien a [Company Pilot](/wiki/03-Mechanics/Company-Pilots.md) of yours finishes while you're fighting it counts as your kill, for your missions too.
+- A kill by someone in your [group](/wiki/03-Mechanics/Groups.md) counts for you too when you are on the same map and fired a laser or rocket at anything in the last 15 seconds.
 
 ## Time limits
 
@@ -69,9 +70,9 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 - **PvP**: other companies' pilots can attack you in `x-4` and the centre in every world, from `x-2` up in Beta, and everywhere in Gamma (except in safe zones and during the Peace Protocol).
 - **Bulwarks** (`x-3`, `x-4`) outrun a Protos and hit hard. Fight them from an [Ostirion](/wiki/02-Ships/Ostirion.md), near a gate's safe zone, and pull back into it to repair.
-- **Gorvanes** (`x-3`, `x-4`) have a range of 800. A [Starfire-3](/wiki/05-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are you can fire without taking a hit. Level 5's Special gives you one; you can also craft one from 50 Cataclysite.
+- **Gorvanes** (`x-3`, `x-4`) have a range of 800, hit for 3,000 and never start a fight: leave one alone and it leaves you alone, shoot it and it turns on you until 10 seconds after your last hit (and it mends when left alone). A ship whose lasers are all [Starfire-3](/wiki/05-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are (an Ostirion or above; a Gorvane flies 180, a Bulwark 175) you can fire without taking a hit. Your ship's range is the average of its lasers' ranges, so a Starfire-3 beside two Quantum Laser 2 fires from 750: far enough to keep away from a Bulwark (700), not from a Gorvane (800). Level 5's Special gives you one; you can also make one in Assembly, from Velkonite Reinforced Plates that the Forgery of your [Skylab](/wiki/03-Mechanics/Skylab.md) makes.
 - **Crystalys** roam the border (`x-4`). Nothing in reach of level 8 outranges one, and only a fast ship outruns it: keep your distance, and watch the minimap.
-- Destroyed in your own company's sectors, you respawn in the same sector; destroyed in the centre or another company's sector, back at your base. A timed mission's clock keeps running meanwhile.
+- When you are destroyed you choose where to come back: at your base, at the nearest portal or on the spot (see [Dying and Coming Back](/wiki/01-General/Getting-Started.md)). A timed mission's clock keeps running meanwhile.
 
 ## The missions
 
@@ -86,17 +87,17 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Basic Training: Combat | Combat | Destroy 8 Seekers in x-1 | – | 950 | 5,000 | 10 | 10 | Standard Battery ×500 |
+| Basic Training: Combat | Combat | Destroy 8 Seekers in x-1 | – | 950 | 5,000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
 | Basic Training: Navigation | Recon | Patrol 15,000 units in x-1 → Patrol 15,000 units in x-2 | – | 900 | 4,500 | 10 | 9 | Light Shield Core ×1 |
-| Speed Trial | Ops | Destroy 8 Seekers in x-1 | 8 min | 1,050 | 5,000 | 10 | 10 | Advanced Plasma ×100 |
+| Speed Trial | Ops | Destroy 8 Seekers in x-1 | 8 min | 1,050 | 5,000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
 | Home Sector Defense | Combat | Destroy 12 Seekers in x-1 | – | 1,300 | 6,500 | 15 | 13 | Standard Battery ×500 |
 | Rapid Recon | Recon | Patrol 35,000 units in x-1 | 7 min | 900 | 4,500 | 10 | 9 | Repair Drone I ×1 |
-| Combined Operations | Ops | Destroy 8 Seekers in x-1; Patrol 15,000 units in x-1 | – | 1,200 | 6,000 | 10 | 12 | Advanced Plasma ×100 |
+| Combined Operations | Ops | Destroy 8 Seekers in x-1; Patrol 15,000 units in x-1 | – | 1,200 | 6,000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
 | Hit and Run | Recon | Destroy 4 Seekers in x-2 → Patrol 20,000 units in x-2 | – | 1,000 | 5,000 | 10 | 10 | Basic Shield Cell ×1 |
 | Big Game Hunter | Combat | Destroy 20 Seekers in x-1 | – | 2,050 | 10,000 | 20 | 20 | Standard Battery ×1,000 |
-| Frontier Defense | Combat | Destroy 15 Seekers in x-2 | – | 1,650 | 8,000 | 15 | 16 | Damage Amp 1 ×1 |
+| Frontier Defense | Combat | Destroy 15 Seekers in x-2 | – | 1,650 | 8,000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
 | The Gauntlet | Ops | Destroy 8 Seekers in x-1 → Patrol 12,000 units in x-2 → Destroy 8 Seekers in x-2 | 20 min | 2,600 | 13,000 | 25 | 26 | Advanced Plasma ×150 |
-| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250 |
+| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
 
 ### Level 2: First Contact
 
@@ -199,12 +200,12 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 | Border Survey | Recon | Patrol 25,000 units in x-4 | – | 11,000 | 35,000 | 275 | 55 | – |
 | Strike Window | Ops | Destroy 2 Gorvanes in x-4 | 15 min | 33,000 | 100,000 | 825 | 165 | – |
 | Iron Harvest | Combat | Destroy 12 Bulwarks in x-4 | – | 48,000 | 145,000 | 1,200 | 240 | – |
-| Long Haul | Recon | Patrol 10,000 units in x-4 → Patrol 12,000 units in 4-x | – | 15,000 | 45,000 | 375 | 75 | – |
+| Long Haul | Recon | Patrol 10,000 units in x-4 → Patrol 12,000 units in DS-x | – | 15,000 | 45,000 | 375 | 75 | – |
 | Crossfire | Ops | Destroy 2 Gorvanes in x-4; Destroy 8 Bulwarks in x-4 | – | 59,000 | 175,000 | 1,475 | 295 | – |
 | Crystal Watch | Recon | Patrol 8,000 units in x-4 → Destroy 5 Bulwarks in x-4 → Patrol 8,000 units in x-4 | – | 28,000 | 85,000 | 700 | 140 | – |
 | Titan's Fall | Combat | Destroy 3 Gorvanes in x-4; Destroy 6 Bulwarks in x-4 | – | 64,000 | 190,000 | 1,600 | 320 | – |
 | Relentless | Ops | Destroy 6 Bulwarks in x-4 → Destroy 2 Gorvanes in x-4 → Destroy 6 Bulwarks in x-4 | – | 76,000 | 230,000 | 1,900 | 380 | – |
-| **Gorvane Siege** (Special) | Ops | Destroy 4 Gorvanes in x-4 → Destroy 8 Bulwarks in x-4 → Patrol 8,000 units in 4-x | – | 109,000 | 325,000 | 2,725 | 545 | Power Core ×2, Reinforced Hull Plate ×5, Ship Fragment ×20, Experimental Fusion Core ×300 |
+| **Gorvane Siege** (Special) | Ops | Destroy 4 Gorvanes in x-4 → Destroy 8 Bulwarks in x-4 → Patrol 8,000 units in DS-x | – | 109,000 | 325,000 | 2,725 | 545 | Power Core ×2, Reinforced Hull Plate ×5, Ship Fragment ×20, Experimental Fusion Core ×300 |
 
 ### Level 8: Frontline
 
@@ -216,12 +217,12 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 | Frontier Sweep | Recon | Patrol 30,000 units in x-4 | – | 22,000 | 55,000 | 440 | 110 | – |
 | Bulwark Rout | Combat | Destroy 20 Bulwarks in x-4 | – | 110,000 | 275,000 | 2,200 | 550 | – |
 | Lightning Raid | Ops | Destroy 4 Gorvanes in x-4 | 20 min | 82,000 | 205,000 | 1,640 | 410 | – |
-| Grand Tour | Recon | Patrol 10,000 units in x-4 → Patrol 15,000 units in 4-x → Patrol 8,000 units in rival x-4 | – | 44,000 | 110,000 | 880 | 220 | – |
+| Grand Tour | Recon | Patrol 10,000 units in x-4 → Patrol 15,000 units in DS-x → Patrol 8,000 units in rival x-4 | – | 44,000 | 110,000 | 880 | 220 | – |
 | Titan Hunter | Combat | Destroy 5 Gorvanes in x-4; Destroy 8 Bulwarks in x-4 | – | 128,000 | 320,000 | 2,560 | 640 | – |
-| Endurance | Recon | Patrol 30,000 units in 4-x | – | 28,000 | 70,000 | 560 | 140 | – |
+| Endurance | Recon | Patrol 30,000 units in DS-x | – | 28,000 | 70,000 | 560 | 140 | – |
 | Hold the Border | Ops | Destroy 12 Bulwarks in x-4; Destroy 3 Gorvanes in x-4 | 30 min | 134,000 | 335,000 | 2,680 | 670 | – |
-| Recon in Force | Recon | Destroy 3 Gorvanes in x-4 → Patrol 12,000 units in 4-x | – | 74,000 | 185,000 | 1,480 | 370 | – |
-| Iron Gauntlet | Ops | Destroy 10 Bulwarks in x-4 → Destroy 3 Gorvanes in x-4 → Patrol 8,000 units in 4-x | 30 min | 144,000 | 360,000 | 2,880 | 720 | – |
-| **Frontline Command** (Special) | Ops | Destroy 10 Bulwarks in x-4 → Patrol 10,000 units in 4-x → Destroy 4 Gorvanes in rival x-4 | – | 218,000 | 545,000 | 4,360 | 1,090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Damage Amp booster, 10 h |
+| Recon in Force | Recon | Destroy 3 Gorvanes in x-4 → Patrol 12,000 units in DS-x | – | 74,000 | 185,000 | 1,480 | 370 | – |
+| Iron Gauntlet | Ops | Destroy 10 Bulwarks in x-4 → Destroy 3 Gorvanes in x-4 → Patrol 8,000 units in DS-x | 30 min | 144,000 | 360,000 | 2,880 | 720 | – |
+| **Frontline Command** (Special) | Ops | Destroy 10 Bulwarks in x-4 → Patrol 10,000 units in DS-x → Destroy 4 Gorvanes in rival x-4 | – | 218,000 | 545,000 | 4,360 | 1,090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Damage Amp booster, 10 h |
 
 <!-- quests:end -->

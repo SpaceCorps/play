@@ -26,9 +26,16 @@ Clans operate on a tax-based financial system:
 - **Automated Collection**: Once per day (UTC), the server automatically collects taxes from all clan members.
 - **Formula**: The tax is calculated as `ClanTaxRate` of each member's current Credit balance.
   - *Example*: If you have 10,000,000 Credits and the clan tax is 2%, 200,000 Credits will be deducted from your account and deposited into the Clan Bank.
-  - Voluntary credit donations can also be made at any time.
+  - Voluntary credit donations can also be made, up to the cap in the next section.
 
-### 2. Bank Payouts
+### 2. Donations
+
+- **Donating**: any member can send Credits into the Clan Bank from the Clan page. The sheet shows what you can still send.
+- **Donation Cap**: a pilot can send at most **1,000,000 Credits into clans in any 24 hours**, counted over every clan the pilot has been in. Leaving a clan and joining another does not give a new allowance.
+- **No daily reset**: the 24 hours slide. Each donation stops counting exactly 24 hours after it was made, and the sheet tells you when the oldest one does and how much comes back. A donation over what is left is refused whole.
+- The daily tax is not a donation and does not use up your allowance.
+
+### 3. Bank Payouts
 
 - **Payout Limits**: Clan leaders and officers can distribute credits from the Clan Bank to individual members.
 - **Daily Cap**: A member cannot receive more than `1,000,000 * ClanLevel` Credits in payouts in a single calendar day (UTC).
@@ -71,3 +78,9 @@ Clans can establish formal diplomatic relations with other organizations by ente
 - **Alliance**: Formally allied clans. Friendly status is displayed on the map.
 - **NAP (Non-Aggression Pact)**: Agree not to engage in hostilities.
 - **War**: Formal declaration of war. War targets can be engaged anywhere without penalty.
+
+---
+
+## Bringing a Friend
+
+A friend who is new to the game can join with your personal invite code and gets a starter pack; see [Invite Friends](/wiki/03-Mechanics/Invite-Friends.md). Once in the game they can apply to your clan like any pilot.

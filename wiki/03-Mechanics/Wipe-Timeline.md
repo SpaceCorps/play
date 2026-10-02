@@ -6,16 +6,18 @@ The universe of SpaceCorps is governed by a recurring seasonal cycle. Every 30 d
 
 ## 30-Day Season Schedule
 
-Each season lasts exactly 30 days and progresses through several distinct phases. You can monitor the current season day and active phase directly from the in-game HUD.
+Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdown as day 30 begins) and progresses through several distinct phases. You can monitor the current season day and active phase directly from the in-game HUD.
 
 | Phase | Days | Protocol / Event | Description |
 | :--- | :--- | :--- | :--- |
 | **Peace Protocol** | Days 1–3 | No PvP Enabled | A fresh start focused entirely on PvE progression, resource farming, and ship building without the threat of player conflict. |
-| **First Contact** | Days 4–10 | Event 1 | The start of PvP activities and the introduction of themed alien spawn groups with starter progression rewards. |
-| **Tech Surge** | Days 11–18 | Event 2 | A mid-season surge featuring increased resource yields and advanced alien encounters on the border maps. |
-| **War Games** | Days 19–25 | Event 3 | A faction-wide call to arms focusing heavily on PvP battles and control of the central PvP zone maps. |
+| **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below). No special rewards yet. |
+| **Tech Surge** | Days 11–18 | Event 2 | No special effects yet: yields and aliens are the same as in any other phase. |
+| **War Games** | Days 19–25 | Event 3 | No special effects yet: PvP works as in every phase after the Peace Protocol. |
 | **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete and lock their carrying cargo before the eruption. |
 | **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn. Pilots move to the world they chose as their destination for the next season. |
+
+Apart from the wipe itself, only the Peace Protocol (days 1–3) changes a rule. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses yet.
 
 ---
 
@@ -28,8 +30,8 @@ To fully stabilize the Chrono-Gate, you must collect exactly **100 Chrono-Gate p
 
 ### The Energy Materializer
 You obtain parts by using the Energy Materializer interface, which spins local energy sectors to locate gate parts:
-* **Credit Spin** (50,000 Credits): Has a **1% chance** to produce a gate part.
-* **Thulium Spin** (50 Thulium): Has a **10% chance** to produce a gate part.
+* **Credit Spin** (5,000 Credits): Has a **1% chance** to produce a gate part.
+* **Thulium Spin** (5 Thulium): Has a **10% chance** to produce a gate part.
 
 *Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x) to perform bulk spins and accelerate gate construction.*
 
@@ -43,6 +45,7 @@ Once all 100 parts are collected and the Chrono-Gate is fully stabilized, the po
 The following items are always protected and carry over to the next season automatically, consuming **zero** capacity in your Transport Cache:
 1. Your currently active ship.
 2. Every item currently equipped on that active ship across both **Configuration 1** and **Configuration 2** (including lasers, shields, engines, and generators).
+3. Every drone you own, with its level and experience: your [Slave Drones](/wiki/03-Mechanics/Drones.md) stay, so your drone slots stay open and the price of your next drone goes on from the number you hold. Lasers and shields fitted in a drone slot follow the rule above: they stay if they are on the active ship.
 
 ### Manual Carry-Over (Transport Cache)
 For additional items in your inventory that you want to save (e.g., spare weaponry, crafting resources, or extra shield generators):
@@ -53,12 +56,14 @@ For additional items in your inventory that you want to save (e.g., spare weapon
   * *Shield Generators*: 20 kg
   * *Engines / Propulsion*: 30 kg
   * *Generators*: 30 kg
-  * *Resources / Minerals*: Varying weights based on rarity
+  * *Resources / Minerals*: Varying weights based on rarity (a Reinforced Plate from the Skylab's Forgery weighs 5 kg)
+
+Your [Skylab](/wiki/03-Mechanics/Skylab.md) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache.
 
 ### Confirm & Lock
 Before the season ends, you must click **Confirm & Lock** in the Materializer interface. 
 * Locking the cache is a safety protocol to prepare the jump mirror.
-* **WARNING**: Any item that is not equipped on your active ship or stored in a locked Transport Cache will be **permanently destroyed** during the Blackhole Eruption.
+* **WARNING**: Any item that is not equipped on your active ship, is not a drone, or is not stored in a locked Transport Cache will be **permanently destroyed** during the Blackhole Eruption.
 
 ---
 
@@ -68,7 +73,7 @@ SpaceCorps runs three **worlds**. Each one is a separate copy of the whole galax
 
 | World | Risk | Alien strength | Kill and quest pay | PvP |
 | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | Casual / Starter | 1.0x | 1.0x Credits, Thulium, XP, Honor | **High Security**: only on the border maps (`x-4`) and in the central PvP zone (`4-x`). No PvP in the company sectors `x-1` to `x-3`. |
+| **Alpha** | Casual / Starter | 1.0x | 1.0x Credits, Thulium, XP, Honor | **High Security**: only on the border maps (`x-4`) and in the central PvP zone (`DS-x`). No PvP in the company sectors `x-1` to `x-3`. |
 | **Beta** | Normal / Intermediate | 1.5x | 2.0x Credits, Thulium, XP, Honor | **Medium Security**: everywhere except the base sectors (`x-1`). |
 | **Gamma** | Hardcore / Elite | 2.0x | 3.0x Credits, Thulium, XP, Honor | **Low Security**: everywhere. Maximum risk, maximum pay. |
 
@@ -89,7 +94,7 @@ How the worlds work:
 
 ## Cross-Season Progression (Permanent Buffs)
 
-While your ship level, standard credits, and unlocked maps reset, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever.
+The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever.
 
 ### The Permanent Buff Store
 You can spend your accrued WP on permanent buffs that carry over across all seasons forever. These buffs stack and provide significant passive bonuses:
@@ -100,6 +105,24 @@ You can spend your accrued WP on permanent buffs that carry over across all seas
 * **Thulium Boost**: +0.1% Thulium found per level (Max 30% / 300 levels) - *Cost: 15 WP*
 * **Honor Boost**: +0.1% Honor gained per level (Max 50% / 500 levels) - *Cost: 10 WP*
 * **Hitpoints Boost**: +0.1% maximum HP per level (Max 50% / 500 levels) - *Cost: 15 WP*
-* **Shield Boost**: +0.1% maximum Shields per level (Max 50% / 500 levels) - *Cost: 10 WP*
-* **Shield Absorption**: +0.1% shield absorption per level (Max 10% / 100 levels) - *Cost: 25 WP*
+* **Shield Capacity Boost**: +0.1% maximum Shields (shield **capacity**) per level (Max 50% / 500 levels) - *Cost: 10 WP*
+* **Shield Absorbance Boost**: +0.1 points of your shield **absorbance** per level (Max +10 points / 100 levels) - *Cost: 25 WP*. Absorbance is the share of every hit your shields take (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); the buff adds flat points to it: 100 Wipe Points buy 4 levels (+0.4 points), 300 buy 12 (+1.2), 500 buy 20 (+2.0) and all the 855 Wipe Points that today's sources pay (at their caps, carried across wipes) buy 34 (+3.4 points). At the maximum (100 levels, 2,500 WP: a goal for several wipes, and more sources of Wipe Points are planned) 80% (the best out of the box) would become 90% and a Light Shield Core's 45% 55%. The stat is not capped at 100%: the attacker's *shield penetration* is taken off it, so what passes 100% is a margin. With all of today's Wipe Points in this buff and a fully forged Eternal set of shields and cells a ship reaches about 93% to 95%. (Up to 0.4.5 this buff added a share of the absorbance itself, 0.1% of it a level, at the same price; the points are worth the same or more at every absorbance, so levels already bought lost nothing; up to 0.4.2 it raised the shield *recharge* rate instead; no permanent buff raises recharge now.)
 * **Luck Boost**: +0.1% critical and loot luck per level (Max 10% / 100 levels) - *Cost: 15 WP*
+
+### Earning Wipe Points
+
+Wipe Points come from milestones that you claim yourself, in the game under **Season › WP Sources**. A claim takes every milestone you have reached and not claimed yet.
+
+**Alien kills.** Each of the five aliens pays a fixed number of Wipe Points for every block of its kills, a milestone, up to 50 milestones per alien. Kills beyond the 50th milestone pay nothing more:
+
+| Alien | Kills per milestone | WP per milestone | Most you can earn from it |
+| :--- | :--- | :--- | :--- |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 100 | 1 | 50 WP, at 5,000 kills |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 100 | 2 | 100 WP, at 5,000 kills |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 100 | 3 | 150 WP, at 5,000 kills |
+| [Gorvane](/wiki/04-Aliens/Gorvane.md) | 50 | 4 | 200 WP, at 2,500 kills |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 50 | 5 | 250 WP, at 2,500 kills |
+
+Only kills you are paid for count (see [Combat](/wiki/03-Mechanics/Combat.md)). A milestone pays when it is whole: 99 Seekers pay nothing, the 100th pays 1 WP, and the kills after it count towards the 200th.
+
+**Missions.** The first mission you complete pays 5 WP, then every 5th (the 5th, 10th, 15th and so on, up to the 100th) pays 5 WP more, 105 WP in all.

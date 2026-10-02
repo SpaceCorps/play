@@ -2,41 +2,43 @@
 title: "SpaceCorps 2027 · Download"
 description: "Download SpaceCorps 2027, a space MMO for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking."
 canonical: "https://spacecorps.github.io/play/"
-version: "0.2.0"
-date: "2026-09-26"
-server: "https://spacecorps-game.sliplane.app"
 publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
+# release:front
+version: "0.4.6"
+date: "2026-10-01"
+server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 81818270
-    sha256: "fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d"
+    size: 118146493
+    sha256: "50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 77306033
-    sha256: "d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f"
+    size: 113093539
+    sha256: "cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 74058232
-    sha256: "962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23"
+    size: 109115896
+    sha256: "673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 77937083
-    sha256: "0efe0b3ba5b5417f166ffbdc1a21e911846ca82f87c64a716d6e98f4ad3e2a3b"
+    size: 113838235
+    sha256: "68e75b82e4d50677d3fe1d93792e5c697c66e756e77a411362518060177a7744"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
+# /release:front
 ---
 
 # SpaceCorps 2027 · Downloads & System Guide
@@ -52,14 +54,16 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 
 ---
 
-## Downloads (Version 0.2.0)
+<!-- release:downloads -->
+## Downloads (Version 0.4.6)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (81.8 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d` |
-| **Windows** | x86_64 | `.zip` (77.3 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f` |
-| **Linux** | x86_64 | `.AppImage` (74.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23` |
-| **Linux** | x86_64 | `.tar.gz` (77.9 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `0efe0b3ba5b5417f166ffbdc1a21e911846ca82f87c64a716d6e98f4ad3e2a3b` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (118.1 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7` |
+| **Windows** | x86_64 | `.zip` (113.1 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440` |
+| **Linux** | x86_64 | `.AppImage` (109.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869` |
+| **Linux** | x86_64 | `.tar.gz` (113.8 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `68e75b82e4d50677d3fe1d93792e5c697c66e756e77a411362518060177a7744` |
+<!-- /release:downloads -->
 
 ---
 
@@ -205,6 +209,7 @@ SpaceCorps 2027 0.4.6 adds the Ironclad, a crafted tank with the most hull of an
 
 ---
 
+<!-- release:checksums -->
 ## Checksum Verification
 
 Verify the integrity of downloaded binaries prior to execution:
@@ -212,19 +217,20 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: fca611cd39fa8fdd0ac5fadec87471c68a91b408628fb233b775469139a8a61d
+# Expected: 50b327380e10ee4d2032eaefa404a5a8737d407891f0d5aa923a6135060a97d7
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: d7aad21b4518ee299f2b91f05ecd5ffafca5bd51332bb93bca3e9cef399adb4f
+# Expected: cda9a0b93d880815ba5bcafa3842988961cff606cc8288d84c3dc882858fd440
 ```
 
 ### Linux
 ```bash
-echo "962206ce91663b9cddc4986e57b069a944554d1893e616e966dccb8be556fe23  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "673b24aaa78163a4d944196027224169c003eab3f247727cbd543111958b5869  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
+<!-- /release:checksums -->
 
 ---
 
@@ -275,19 +281,25 @@ Early alpha release binaries are unsigned; system security prompts will appear o
 
 ---
 
+<!-- release:languages -->
 ## Supported Languages
 
-SpaceCorps 2027 features complete localized UI, audio, and gameplay text for 10 languages:
+SpaceCorps 2027 is localized (every page, the HUD, help cards, quests and server messages) in 12 languages:
 - English (`en`)
 - German (`de`)
 - Spanish (`es`)
 - French (`fr`)
-- Portuguese - Brazil (`pt-BR`)
+- Italian (`it`)
+- Hungarian (`hu`)
+- Portuguese (Brazil) (`pt-BR`)
 - Swedish (`sv`)
 - Russian (`ru`)
 - Japanese (`ja`)
 - Korean (`ko`)
-- Simplified Chinese (`zh-CN`)
+- Chinese (Simplified) (`zh-CN`)
+
+This download page (`?lang=<code>`) is translated into 10 of them: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.
+<!-- /release:languages -->
 
 ---
 
