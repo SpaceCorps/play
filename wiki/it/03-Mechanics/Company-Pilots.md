@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Piloti di corporazione -->
 # Piloti di corporazione {#company-pilots}
 
@@ -17,6 +17,7 @@ Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base 
 
 - **Pattugliano** un circuito che passa per la stazione del settore, i suoi portali e alcuni punti intermedi.
 - **Danno la caccia** agli alieni che riescono a gestire (Seeker e Phantasm; lasciano in pace Bulwark, Goombah e Crystalys) finché ci sono piloti in volo nel settore. Un alieno che sta combattendo un pilota di un’altra corporazione resta di quel pilota: la squadra non lo tocca.
+- **Ignorano gli [sciami](/wiki/05-Swarms/Swarms.md)**: una nave di sciame non è affar loro. Non le danno la caccia, non si uniscono a uno scontro contro di loro e non vengono mai in tuo aiuto in uno.
 - **Aiutano**: quando un pilota della loro corporazione a meno di 1500 unità da loro viene attaccato da un alieno, o apre il fuoco su un alieno che potrebbero gestire, si uniscono allo scontro. Restano fuori da uno scontro che un compagno ha iniziato con un alieno che non potrebbero battere (un Goombah a cui un pilota ha sparato, o un Bulwark); un alieno aggressivo che attacca un compagno viene respinto qualunque sia. Un alieno che finiscono paga il pilota che ne detiene la rivendicazione (il primo a colpirlo, vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); se nessuno la detiene, conta per il pilota della loro corporazione più vicino che gli sta sparando (agganciato, a portata, con una raffica negli ultimi 2,5 secondi). In ogni caso le ricompense sono di quel pilota, e la cassa di [carico](/wiki/03-Mechanics/Cargo.md) dell’alieno gli è riservata come se avesse fatto lui l’abbattimento. I piloti di corporazione non rivendicano mai un alieno e non guadagnano né raccolgono mai nulla per sé: un alieno che combattono da soli non lascia nessuna cassa. Agganciare da lontano, o limitarsi a essere colpiti, non frutta nulla.
 - **Rispondono al fuoco** quando vengono attaccati dagli alieni, e dai piloti di altre corporazioni quando il PvP è aperto e dove il loro [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) lo consente: nessun PvP in Alpha da `x-1` a `x-3`, né in Beta in `x-1`.
 - **Si riparano** con il loro drone ogni volta che lo scafo è danneggiato: l’1,5% dello scafo al secondo, a partire da 10 secondi dopo l’ultimo colpo.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Varje säsong löper över dag 1 till 30 (wipen börjar med sin nedräkning på 
 | Fas | Dagar | Protokoll / Event | Beskrivning |
 | :--- | :--- | :--- | :--- |
 | **Fredsprotokoll** | Dag 1–3 | Ingen PvP aktiverad | En nystart helt inriktad på PvE-framsteg, resursfarmning och skeppsbygge utan hot om konflikter mellan spelare. |
-| **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan). Inga särskilda belöningar än. |
+| **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan) och de tre [svärmarna](/wiki/05-Swarms/Swarms.md) börjar dyka upp: de finns kvar till wipen, genom faserna efter denna. Själva fasen ger inga särskilda belöningar än. |
 | **Teknikboom** | Dag 11–18 | Event 2 | Inga särskilda effekter än: lönen och utomjordingarna är desamma som i alla andra faser. |
 | **Krigsspel** | Dag 19–25 | Event 3 | Inga särskilda effekter än: PvP fungerar som i varje fas efter Fredsprotokollet. |
 | **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart och låsa den last de tar med sig före utbrottet. |
 | **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt. Piloter flyttas till den värld de valde som destination för nästa säsong. |
 
-Bortsett från själva wipen är det bara Fredsprotokollet (dag 1–3) som ändrar en regel. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten, men inget av dem ger särskilda belöningar, nya fiender eller bonusar än.
+Bortsett från själva wipen är det bara två saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, och från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten, men inget av dem ger särskilda belöningar, nya fiender eller bonusar av eget än.
 
 ---
 
@@ -59,7 +59,7 @@ För ytterligare föremål i ditt inventarie som du vill spara (t.ex. reservvape
   * *Motorer / framdrivning*: 30 kg
   * *Generatorer*: 30 kg
   * *Resurser / mineraler*: Varierande vikter beroende på sällsynthet (en Reinforced Plate från Skylabs Smedja väger 5 kg)
-  * *Raketer*: ingen vikt alls: de tar inget utrymme i förrådet, så hela staplar får plats (se [Raketer](/wiki/05-Items/Rockets.md))
+  * *Raketer*: ingen vikt alls: de tar inget utrymme i förrådet, så hela staplar får plats (se [Raketer](/wiki/06-Items/Rockets.md))
 
 Din [Skylab](/wiki/03-Mechanics/Skylab.md) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet.
 

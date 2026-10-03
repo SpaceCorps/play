@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: ドローン -->
 # ドローンの仕組み {#drone-mechanics}
 
@@ -6,7 +6,7 @@
 
 ## ドローンの入手 {#getting-drones}
 
-持っているドローン（**Slave Drone** でも Master Drone でも）は、それぞれドローンスロットを開きます（Slave Drone は1つ、Master Drone は2つ）。ドローンは最大**8機**までです。ショップでは Slave Drone をクレジットで販売していて、4機目からは Thulium も必要です。1機買うごとに、次の価格は上がります。価格は[ドローン](/wiki/05-Items/Drones.md)に載っています。
+持っているドローン（**Slave Drone** でも Master Drone でも）は、それぞれドローンスロットを開きます（Slave Drone は1つ、Master Drone は2つ）。ドローンは最大**8機**までです。ショップでは Slave Drone をクレジットで販売していて、4機目からは Thulium も必要です。1機買うごとに、次の価格は上がります。価格は[ドローン](/wiki/06-Items/Drones.md)に載っています。
 
 ## 編隊と動き {#formation-movement}
 

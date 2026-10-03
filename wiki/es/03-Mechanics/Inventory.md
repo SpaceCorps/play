@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac17fd77713a030e -->
+<!-- wiki-i18n source: 5874d77ba7ccf380 -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario y equipamiento {#inventory-equipment}
 
@@ -15,7 +15,7 @@ A diferencia de los juegos espaciales tradicionales, SpaceCorps tiene ranuras de
   - **Ranuras auxiliares**: los objetos colocados aquí reciben el **50 %** de sus estadísticas base. Solo algunas naves las tienen (la Paragon tiene 2, la Ironclad 3 y la Wraith 4; la Protos, la Kitefin y la Ostirion no tienen ninguna). Son ideales para escudos y motores adicionales más débiles, mientras que los más fuertes van en las ranuras principales.
   - **Ranuras de dron**: un escudo en uno de tus drones cuenta como uno en una ranura principal, el **100 %** de sus estadísticas (consulta [Mecánicas de los drones](/wiki/03-Mechanics/Drones.md)).
   - **Ranuras sin asignar o heredadas**: los objetos colocados aquí no aportan nada a las estadísticas.
-  - **La acumulación también pierde fuerza**: los escudos y los motores se ordenan del más fuerte al más débil, y la parte de la banda se multiplica por la de su puesto: del 1.º al 4.º cuentan por completo, el 5.º, el 6.º y el 7.º un 85 %, un 70 % y un 55 %, y del 8.º en adelante un 25 %. Consulta [Escudos](/wiki/03-Mechanics/Shields.md) y [Velocidad](/wiki/03-Mechanics/Speed.md).
+  - **La acumulación también pierde fuerza**: los escudos y los motores se ordenan del más fuerte al más débil, y la parte de la banda se multiplica por la de su puesto: del 1.º al 4.º cuentan por completo, el 5.º, el 6.º y el 7.º un 85 %, un 70 % y un 55 %, y del 8.º en adelante un 50 % en los escudos y un 25 % en los motores. Consulta [Escudos](/wiki/03-Mechanics/Shields.md) y [Velocidad](/wiki/03-Mechanics/Speed.md).
 - **Ranuras de extra**: para objetos de utilidad especializados, como los Repair Drones.
 
 ## Orden del inventario {#inventory-order}

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils sont passifs, c’est-à-dire qu’ils ne déclenchent jamais un combat : un Seeker se retourne contre le pilote qui lui tire dessus, et seulement contre lui. Il abandonne si personne ne l’a touché depuis 10 secondes, et sa coque se répare une fois qu’on l’a laissé tranquille pendant 30 secondes.
+Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils sont passifs, c’est-à-dire qu’ils ne déclenchent jamais un combat : un Seeker se retourne contre le pilote qui lui tire dessus, et seulement contre lui. Il abandonne si personne ne l’a touché depuis 10 secondes, et sa coque se répare une fois qu’on l’a laissé tranquille pendant 30 secondes. Le Boss Seeker et les Seeker Slaves de l’[Essaim Seeker](/wiki/05-Swarms/Seeker-Swarm.md) ressemblent à des Seekers mais sont des espèces à part : leurs éliminations sont comptées sous leurs propres noms, pas comme des éliminations de Seeker.
 
 ## Caractéristiques {#stats}
 
@@ -28,13 +28,14 @@ Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils s
 - **Thulium** : 4
 - **Expérience (XP)** : 100
 - **Honneur** : 2
+- **Points PvE par élimination** : 1
 - **Recharge du bouclier** : 10 par seconde (délai de 15 s)
 
 ## Butin {#loot-drops}
 
 Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit où l’alien explose, réservée pendant 30 secondes à celui qui l’a détruit.
 
-À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/05-Items/Resources.md).
+À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment** : 20 % de chances (min. : 1, max. : 1)
 - **Daraxium** : 50 % de chances (min. : 1, max. : 2)

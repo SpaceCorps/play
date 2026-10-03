@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝不会主动挑起战斗：Seeker 只会反击向它开火的那名飞行员，且仅限于这一名。如果 10 秒内没有人击中它，它就会放弃追击；无人打扰满 30 秒后，它的船体会自行修复。
+Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝不会主动挑起战斗：Seeker 只会反击向它开火的那名飞行员，且仅限于这一名。如果 10 秒内没有人击中它，它就会放弃追击；无人打扰满 30 秒后，它的船体会自行修复。[Seeker 虫群](/wiki/05-Swarms/Seeker-Swarm.md)的 Boss Seeker 和 Seeker Slave 看起来像 Seeker，但自成一类：它们的击杀以各自的名字计数，不算作 Seeker 击杀。
 
 ## 属性 {#stats}
 
@@ -28,13 +28,14 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 - **Thulium**：4
 - **经验值（XP）**：100
 - **荣誉**：2
+- **每次击杀的 PvE 积分**：1
 - **护盾充能**：每秒 10（延迟 15 秒）
 
 ## 战利品掉落 {#loot-drops}
 
 在它爆炸的地方以[货箱](/wiki/03-Mechanics/Cargo.md)的形式掉落，前 30 秒归击杀者所有。
 
-每种掉落物的用途以及其他获取途径：[资源](/wiki/05-Items/Resources.md)。
+每种掉落物的用途以及其他获取途径：[资源](/wiki/06-Items/Resources.md)。
 
 - **Ship Fragment**：20% 几率（最少 1，最多 1）
 - **Daraxium**：50% 几率（最少 1，最多 2）

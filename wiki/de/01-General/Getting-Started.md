@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n source: f498be6364c7a1f9 -->
 <!-- wiki-i18n title: Erste Schritte -->
 # Erste Schritte in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -6,10 +6,12 @@ Willkommen zum ultimativen Erlebnis im Weltraumkrieg. Als Pilot in SpaceCorps k�
 
 ## Die wichtigsten Ressourcen {#core-resources}
 
-Um zu überleben und voranzukommen, musst du zwei Währungen verwalten und deine Ehre im Blick behalten. Die Materialien, aus denen du baust, stehen auf der Seite [Ressourcen](/wiki/05-Items/Resources.md), jeweils mit ihrer Herkunft und ihrem Zweck:
+Um zu überleben und voranzukommen, musst du zwei Währungen verwalten und deine Ehre im Blick behalten. Die Materialien, aus denen du baust, stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md), jeweils mit ihrer Herkunft und ihrem Zweck:
 - **Credits**: Die wichtigste Standardwährung. Jedes Alien, das du besiegst, und jede abgeschlossene Mission zahlt sie aus, und die Credit-Farm deines [Skylab](/wiki/03-Mechanics/Skylab.md) produziert sie. Damit kaufst du Grundausrüstung, Schiffe und Standardausstattung.
-- **Thulium**: Das seltene radioaktive Erz und die wertvolle Währung. Jedes Alien, das du besiegst, und jede abgeschlossene Mission zahlt es aus, und die Thulium-Farm deines Skylab produziert es. Damit kaufst du Elitewaffen, Schubdüsen für den Antrieb, Hybridschilde und starke Booster-Pakete.
+- **Thulium**: Das seltene radioaktive Erz und die wertvolle Währung. Jedes Alien, das du besiegst, und jede abgeschlossene Mission zahlt es aus, und die Thulium-Farm deines Skylab produziert es. Damit kaufst du Elitewaffen, Triebwerke, Hybridschilde und starke Booster-Pakete und rüstest Module in der Montage auf.
 - **Ehre**: Ein Punktestand, kein Geld: das Maß für deinen Rang in deiner Fraktion, deine Loyalität und dein Ansehen. Mit der Ehre steigt dein Rangtitel, doch Angriffe auf befreundete Piloten deiner eigenen Fraktion kosten dich viel Ehre: Einen Piloten deines eigenen Konzerns zu zerstören, also das Schiff eines Spielers oder einen seiner [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md), kostet 100 Ehre. Dasselbe gilt, wenn du einen in den 15 Sekunden triffst, bevor etwas anderes ihn zerstört: Einen Konzernkameraden für ein Alien sturmreif zu schießen kostet so viel wie der Abschuss selbst. Der Abschuss eines Konzernkameraden ist kein PvP-Abschuss und bringt keine PvP-Punkte.
+
+Auf der Station stehen deine Credits, dein Thulium und deine Ehre auf jeder Seite oben rechts, neben deinem Sektor und der Schaltfläche **Starten**. Ist das Fenster für einen langen Betrag zu schmal, wird er gekürzt (987,7 Mio.); zeige darauf, um die ganze Zahl zu lesen.
 
 ## Mit Freunden spielen {#playing-with-friends}
 
@@ -31,11 +33,12 @@ Erreicht deine Hülle 0, wird das Schiff zerstört, und der Zerstörungsbildschi
 
 - **Die Sperre beginnt, wenn du mit dieser Auswahl respawnst**, nicht beim Tod, und sie gilt nur für diese eine Auswahl: Wer das Portal nutzt, sperrt damit nicht die Rückkehr an Ort und Stelle. Eine gesperrte Auswahl ist auf dem Zerstörungsbildschirm mit einem Countdown (Minuten und Sekunden) ausgegraut und öffnet sich von selbst, wenn er abgelaufen ist. Die Sperren speichert der Server: Aus- und wieder Einloggen setzt sie nicht zurück. Eine neue Saison (der Wipe) schon.
 - **Eine Auswahl, die der Server ablehnt, kostet nichts.** Lässt sich eine Auswahl nicht nutzen (noch gesperrt, kein Portal im Sektor, du hast seit deinem Tod die Welt gewechselt), wird keine Sperre ausgelöst und dein Schiff nicht versetzt; du wählst einfach neu.
-- **Schutz.** Ein Schiff, das an einem Portal oder an Ort und Stelle zurückkehrt, kann **5 Sekunden** lang weder beschädigt noch anvisiert werden, und Aliens verlieren das Interesse daran; wer dich zerstört hat, kann dich also nicht sofort wieder zerstören. Das HUD zeigt die verbleibenden Sekunden. Dein **erster Schuss** (eine Lasersalve oder eine Rakete) beendet den Schutz, und du erfährst, wann er endet. An der Basis schützt dich wie immer die Schutzzone der Station.
+- **Respawn-Schutz.** Wo du auch zurückkehrst: Dein Schiff kann nach der Rückkehr **3 Sekunden** lang weder beschädigt noch anvisiert werden, und Aliens verlieren das Interesse daran; wer dich zerstört hat, kann dich also nicht sofort wieder zerstören. In denselben 3 Sekunden **kannst du auch selbst nicht angreifen**: Ein Laser oder eine Rakete wird mit einem Hinweis abgelehnt, und der Schutz endet nicht vorzeitig. Das HUD zeigt die verbleibenden Sekunden. Der Schutz endet, wenn sie abgelaufen sind.
 - **Das Schwarze Loch.** Ein Ort innerhalb des Strahlungsrings des [Schwarzen Lochs](/wiki/03-Mechanics/Black-Hole.md) (4.200 Einheiten vom Zentrum von Gefahrensektor 4) ist nie ein Ort für die Rückkehr: Wurdest du dort zerstört, setzt dich „An Ort und Stelle“ an den nächsten Punkt außerhalb des Rings, auf der Linie vom Zentrum durch deine Position, und sagt dir Bescheid.
 - **Gefahrensektoren.** Auch dort funktionieren alle drei Auswahlmöglichkeiten.
-- **Was eine Zerstörung kostet, bleibt gleich:** Du kehrst mit dem Hüllen-Grundwert deines Schiffs und leeren Schilden zurück, verlierst keine Gegenstände, und die Auswahl entscheidet nur, wo du erscheinst. Deine Fähigkeiten sind bereit, und du kehrst ungetarnt und außerhalb jedes EMP-Fensters zurück. Du bleibst in deiner [Gruppe](/wiki/03-Mechanics/Groups.md).
-- **Andocken.** „Zurück zur Basis“ auf dem Zerstörungsbildschirm bringt dich wie immer an der Basis zurück. Schließt sich das Spiel, bevor du wählst, stellst du das Schiff im [Hangar](/wiki/03-Mechanics/Hangar.md) kostenlos wieder her; du bist dann an deiner Basis.
+- **Deine Hülle kommt begrenzt zurück.** Du kehrst mit der Hülle deines Schiffs **bis höchstens 10.000** und leerem Schild zurück, egal, wo du erscheinst. Die Protos (8.000 Hülle) kommt voll zurück; die größeren Schiffe (von der Kitefin mit 24.000 bis zur Ironclad mit 600.000) kommen mit 10.000 zurück, repariere also vor dem nächsten Kampf mit einer Repair Drone oder einer Emergency Repair (siehe [Kampf](/wiki/03-Mechanics/Combat.md) und [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Der Schild lädt sich wie gewohnt wieder auf. Der Zerstörungsbildschirm weist darauf hin.
+- **Was eine Zerstörung sonst kostet:** Du verlierst keine Gegenstände, und die Auswahl entscheidet nur, wo du erscheinst. Deine Fähigkeiten sind bereit, und du kehrst ungetarnt und außerhalb jedes EMP-Fensters zurück. Du bleibst in deiner [Gruppe](/wiki/03-Mechanics/Groups.md).
+- **Andocken.** „Zurück zur Basis“ auf dem Zerstörungsbildschirm bringt dich wie immer an der Basis zurück, mit derselben Hülle. Schließt sich das Spiel, bevor du wählst, stellst du das Schiff im [Hangar](/wiki/03-Mechanics/Hangar.md) kostenlos wieder her; du bist dann an deiner Basis, mit derselben Hülle und ohne Schild.
 
 ## Tastatursteuerung & Tastenbelegung {#keyboard-controls-keybindings}
 
@@ -65,7 +68,7 @@ Es ist ein Fenster wie die anderen. Ziehe es an seiner Titelleiste, wohin du wil
 
 ## Wenn das Spiel laggt {#when-the-game-lags}
 
-Schalte **Einstellungen › Allgemein › Netzwerkinfo anzeigen** ein, und oben rechts erscheint eine kleine Karte (sie weicht den Fenstern aus und ist aus, bis du sie einschaltest). Sie zeigt dir, welche Seite langsam ist:
+Schalte **Einstellungen › Oberfläche › Netzwerkinfo anzeigen** ein, und oben rechts erscheint eine kleine Karte (sie weicht den Fenstern aus und ist aus, bis du sie einschaltest). Sie zeigt dir, welche Seite langsam ist:
 
 | Anzeige | Was es ist | Gut, langsam |
 | :--- | :--- | :--- |
@@ -83,3 +86,4 @@ Ist etwas schlecht, sagt dir eine Zeile unter den Zahlen, wer schuld ist: *Netzw
 2. **Schutzzonen**: Um Portale und Basen liegen **Schutzzonen**. Dort können dich andere Piloten nicht angreifen, sodass du in Ruhe deine Schilde aufladen oder Abklingzeiten aus dem Kampf abwarten kannst.
 3. **Deine erste Fähigkeit**: In deiner Startausrüstung steckt bereits eine Repair Drone I im Fähigkeits-Slot der Protos, also heilt die Schaltfläche Emergency Repair (`E`, neben der Aktionsleiste) deine Hülle über zehn Sekunden, wann immer sie beschädigt ist. Siehe [Fähigkeiten](/wiki/03-Mechanics/Abilities.md).
 4. **Tägliche Clan-Steuer**: Bist du Mitglied eines Clans, denk daran, dass die Clankasse um Mitternacht UTC einen Steuersatz (0 % bis 5 %) von deinem täglichen Credits-Guthaben abzieht. Wähle deinen Clan also mit Bedacht!
+5. **Aus dem Wiki kopieren**: Ziehe mit der Maus über einen beliebigen Text eines Artikels, um ihn auszuwählen, und drücke `Ctrl+C` (auf dem Mac `Cmd+C`), um ihn zu kopieren; ein Klick auf einen Link öffnet die Seite weiterhin. **Seite kopieren** oben in einem Artikel kopiert die ganze Seite als Markdown, zum Einfügen in einen Chat oder eine Notiz.

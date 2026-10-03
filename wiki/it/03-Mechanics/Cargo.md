@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n source: 2f4a437ea53e355e -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -10,6 +10,7 @@ Gli alieni distrutti lasciano il loro bottino nello spazio sotto forma di casse 
 - I **piloti di corporazione** non lasciano nessuna cassa quando vengono distrutti, chiunque o qualunque cosa li distrugga. Vedi [Piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md).
 - Le **navi dei giocatori** non lasciano né relitto né cassa quando vengono distrutte, chiunque o qualunque cosa le distrugga, e al pilota non viene tolto nulla dall’inventario.
 - Il **buco nero** posa casse di **Dark Matter** sul bordo della sua zona per ogni razzo N.I.K.E. lanciato al suo interno (vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md)). Sono l’unico tipo di cassa che si trova dentro l’anello del buco nero.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
 
 Un alieno finito da un pilota di corporazione rilascia il suo bottino per il pilota a cui l’abbattimento viene attribuito (chi ne detiene la rivendicazione, altrimenti il pilota della stessa corporazione che lo sta combattendo); uno combattuto da un pilota di corporazione da solo non rilascia nulla, perché i piloti di corporazione non raccolgono mai.
 

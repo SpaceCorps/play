@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 
 ## Trocar de nave {#changing-ship}
 
-A nave para a qual você troca fica com **o casco e os escudos que tinha** na última vez que você voou com ela, exatamente como se você tivesse decolado com ela. O anel não repara, então trocar de nave nunca cura você: a nave que você deixa mantém os danos que tem e volta com eles. Não dá para voar com uma nave destruída até você recuperá-la.
+A nave para a qual você troca fica com **o casco e os escudos que tinha** na última vez que você voou com ela, exatamente como se você tivesse decolado com ela. O anel não repara, então trocar de nave nunca cura você: a nave que você deixa mantém os danos que tem e volta com eles. Não dá para voar com uma nave destruída até você recuperá-la, o que é de graça e a devolve com no máximo 10.000 de casco e sem escudo, como um reaparecimento.
 
 O que é seu continua sendo seu: a munição, os foguetes e a recarga deles, os tempos de recarga das habilidades, os boosters, o XP e os Slave Drones. O que pertencia à nave termina: um Shield Surge ou um Afterburner em andamento, os reparos, a trava no alvo, o ataque em curso e o rumo que você seguia. O equipamento encaixado continua na nave em que está encaixado.
 

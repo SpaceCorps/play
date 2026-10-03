@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7645d097e4691e10 -->
+<!-- wiki-i18n source: 74abe792046ae603 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -16,6 +16,7 @@ En grupp är upp till **5 piloter** som flyger tillsammans, från vilka koncerne
 ## Se din grupp {#seeing-your-group}
 
 När du har accepterat öppnas **gruppfönstret** (tangenten **B** eller dess knapp i verktygsfältet visar och döljer det; bind om tangenten under Inställningar › Styrning). Varje medlem har en rad: skepp, namn och nivå, samt en **skrovstapel** och en **sköldstapel** (håll pekaren över dem för siffrorna). En medlem på din karta visar hur långt bort den är och i vilken riktning, så som minikartan ritar det (uppåt är kartans överkant); en medlem på en annan karta visar den kartans namn, med världen när det är en annan värld. En **krona** markerar ledaren, ett **spöke** en medlem som är kamouflerad (en grupp delar sina kamouflerade skepp, oavsett koncern), en **sköld** en medlem i en säker zon. En medlem som har dockat, förstörts eller tappat anslutningen tonas ned och anger det. Klicka på en rad för att markera det skeppet när det finns på din karta (du kan inte skjuta på en gruppmedlem: spelet håller elden).
+- En medlem som **skjuter** visar också sitt **mål**: under medlemmens egna staplar ser du målets namn och två tunna staplar, målets **skrov** och **sköld** (håll pekaren över dem för siffrorna). Du ser målet med dess skrov och sköld för varje gruppmedlem som skjuter på en utomjording, en annan pilot eller en koncernpilot. En lasers målfixering eller en målsökande raket i luften räknas, och målet visas kvar i **5 sekunder** efter den sista. Det visas bara för en medlem som flyger på din karta (i din värld), och bara för ett skepp som du själv skulle kunna se där: skrov och sköld hos en kamouflerad pilot visas aldrig för en medlem som inte kan se den piloten. En bas eller en port är inget mål. Din egen rad visar inget mål (det gör målfönstret), och det hopvikta fönstret gör det inte heller.
 - **Ledaren** högerklickar på en rad och väljer **Gör till ledare** eller **Ta bort från gruppen**. Vem som helst högerklickar på sin egen rad, eller använder menyn, för att **Lämna gruppen**.
 - Minimeringsknappen viker ihop fönstret till ett litet par staplar för varje medlem; fönstrets plats, storlek och hopvikta läge sparas.
 - Medlemmarna **ser varandras kamouflage** och kan inte bryta det: en EMP som utlöses nära en kamouflerad gruppmedlem lämnar dess kamouflage som det är.
@@ -32,7 +33,7 @@ När en medlem förintar en utomjording (eller får betalt för den genom sitt [
 
 Var och en får en del i proportion till sin **nivå**, oavsett koncern (krediterna och hedern tillfaller varje pilot själv; ingen koncern behåller något): en pilot på nivå 15 med en kamrat på nivå 5 tar 75 % och kamraten 25 %. Varje kredit delas ut: piloten som gjorde nedskjutningen får det som blir över när delarna har avrundats nedåt. Hela belöningen räknas utifrån den som gjorde nedskjutningen: dennes boosters, dennes världs multiplikator och dennes premium gäller, en kamrats gör det inte. Ensam, eller med ingen annan inom räckhåll, ger en nedskjutning det den alltid gjort. En pilot som står nära striden utan att skjuta får ingen del.
 
-Nedskjutningens meddelande säger det: den som gjorde nedskjutningen får sin egen **BELÖNING**-rad med sin del, följd av ”Belöningarna delades med 2 gruppmedlemmar: din del är 40%”, och en kamrat som får betalt för en del läser ”*Utomjording* förintades av *pilot*; din grupps andel ger dig betalt” med beloppen. Meddelandena visas i Spelloggen och högst upp på skärmen.
+Nedskjutningens meddelande säger det: den som gjorde nedskjutningen får sin egen **BELÖNING**-rad med sin del, följd av ”Belöningarna delades med 2 gruppmedlemmar: din del är 40%”, och en kamrat som får betalt för en del läser ”*Utomjording* förintades av *pilot*; din grupps andel ger dig betalt” med beloppen. Meddelandena visas i Spelloggen.
 
 Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlådan** (byte och resurser), nedskjutningen i dennes statistik och ranking, nedskjutningsräkningen för wipepoäng och drönarnas erfarenhet. Nedskjutningar av andra piloter delas inte.
 
@@ -58,14 +59,14 @@ Fliken **Global** har också en dödslogg: en dämpad rad med en dödskalle varj
 
 När många piloter dör inom några sekunder (en N.U.K.E. över en närstrid) ser du de första och sedan en rad, ”7 piloter till dog”. Dödsloggen har sin egen plats i bakåtbläddringen, så en strid trycker aldrig ut dina vänners meddelanden.
 
-Stäng av den med menyknappen i chattfönstrets titelrad (**Visa dödslogg**) eller i **Inställningar › Allmänt › Chatt**. Att stänga av den döljer bara raderna; de kommer tillbaka när du slår på den igen. Dödsloggen kräver en spelserver från 0.4.5: på en äldre har fliken Global ingen.
+Stäng av den med menyknappen i chattfönstrets titelrad (**Visa dödslogg**) eller i **Inställningar › Gränssnitt › Chatt**. Att stänga av den döljer bara raderna; de kommer tillbaka när du slår på den igen. Dödsloggen kräver en spelserver från 0.4.5: på en äldre har fliken Global ingen.
 
 ### Dölja, ignorera och rapportera {#hiding-ignoring-and-reporting}
 
 Global når alla piloter online, så chatten har tre verktyg för att hålla den behaglig. De finns i chattfönstret: menyknappen i dess titelrad och ett högerklick på en pilots namn.
 
-- **Dölj Global-chatten** (menyn, eller Inställningar › Allmänt › Chatt): fliken Global visar ingenting, dödsloggens rader inräknade, och slutar räkna olästa rader. Fliken finns kvar, säger ”Global är dold” och har en knapp som visar den igen; det du skickar till Global går ändå iväg. Slå av det så finns varje rad som kom under tiden där.
-- **Ignorera** (högerklicka på ett namn, sedan **Ignorera**): den pilotens rader i Global och Lokal döljs, och dess gruppinbjudningar avvisas utan att du tillfrågas. Piloten får inte veta det. De förblir synliga i fliken **Grupp**: en gruppmedlem du ignorerar är fortfarande med i din grupp, så lämna gruppen för att bli av med dem. Serverns egna rader döljs aldrig. **Sluta ignorera** finns i samma meny, och **Inställningar › Allmänt › Chatt** listar de ignorerade piloterna (upp till 200) med en knapp **Ta bort** för var och en.
+- **Dölj Global-chatten** (menyn, eller Inställningar › Gränssnitt › Chatt): fliken Global visar ingenting, dödsloggens rader inräknade, och slutar räkna olästa rader. Fliken finns kvar, säger ”Global är dold” och har en knapp som visar den igen; det du skickar till Global går ändå iväg. Slå av det så finns varje rad som kom under tiden där.
+- **Ignorera** (högerklicka på ett namn, sedan **Ignorera**): den pilotens rader i Global och Lokal döljs, och dess gruppinbjudningar avvisas utan att du tillfrågas. Piloten får inte veta det. De förblir synliga i fliken **Grupp**: en gruppmedlem du ignorerar är fortfarande med i din grupp, så lämna gruppen för att bli av med dem. Serverns egna rader döljs aldrig. **Sluta ignorera** finns i samma meny, och **Inställningar › Gränssnitt › Chatt** listar de ignorerade piloterna (upp till 200) med en knapp **Ta bort** för var och en.
 - **Rapportera** (högerklicka på ett namn, sedan **Rapportera…**): välj en orsak (spam, kränkningar eller trakasserier, fusk eller något annat) och skicka. Rapporten innehåller ditt namn, pilotens namn, kanalen, orsaken och pilotens senaste rad som din chatt visar (upp till 200 tecken). Spelets administratörer läser den; ingen straffas automatiskt, och piloten får inte veta vem som rapporterade. Du kan skicka 5 rapporter i timmen.
 
 Din ignoreringslista och reglaget Dölj Global sparas med ditt konto, så de följer med dig till andra datorer. Spelet har inget ordfilter och inga automatiska tystningar: verktygen ovan är dina att använda.

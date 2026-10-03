@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
@@ -12,6 +12,8 @@ El universo consta de tres grandes sectores de corporación (Mars, Terra, Galact
 - **x-2 -> x-3**: Zonas de expansión con alienígenas cada vez más duros.
 - **x-4 (frontera)**: La puerta de entrada al sector PvP.
 - **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4.
+
+Solo las bases de origen tienen una estación. Es donde se abre **Mission Control**, y su zona segura se extiende 1.600 unidades a su alrededor. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a tu base para tus misiones.
 
 Cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) tiene su propia copia de todo este mapa, y dónde pueden combatir los pilotos entre sí depende de él: en Alpha, solo en `x-4` y `DS-x`; en Beta, en todas partes excepto en `x-1`; en Gamma, en todas partes. El mapa galáctico colorea los sectores según la regla de tu mundo.
 

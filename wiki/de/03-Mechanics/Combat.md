@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Jede Salve hat eine Chance, ein kritischer Treffer zu sein.
 
 Zuletzt werden globale Multiplikatoren (etwa aktive Booster oder Multiplikatoren der Lasermunition wie x2, x3, x4) angewendet, um den endgültigen Schaden zu erhalten:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- Die Munition **Siphon Battery** hat den Multiplikator x1, aber ein anderes Ziel: Ihr Schaden geht allein vom Schild des Ziels ab (nie von der Hülle, egal wie hoch die Absorption) und fließt in deinen eigenen Schild, bis zu deinem Maximum. Siehe [Laser & Munition](/wiki/05-Items/Lasers.md).
+- Die Munition **Siphon Battery** hat den Multiplikator x1, aber ein anderes Ziel: Ihr Schaden geht allein vom Schild des Ziels ab (nie von der Hülle, egal wie hoch die Absorption) und fließt in deinen eigenen Schild, bis zu deinem Maximum. Siehe [Laser & Munition](/wiki/06-Items/Lasers.md).
 
 ### 3b. Raketen {#3b-rockets}
 
-Eine [Rakete](/wiki/05-Items/Rockets.md) hat ihren eigenen festen Schaden (eine Lancet 2.000, eine Harpoon 6.000, eine N.U.K.E. 50.000), für jedes Schiff derselbe: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt weder einen Zufallswurf noch einen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, zum Rand hin schwächer. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören.
+Eine [Rakete](/wiki/06-Items/Rockets.md) hat ihren eigenen Schaden (eine Lancet I 1.600 bis 2.000, eine Lancet III 4.800 bis 6.000, eine N.U.K.E. 45.000 bis 50.000), der beim Abfeuern einmal ausgewürfelt wird und für jedes Schiff derselbe ist: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt keinen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, zum Rand hin schwächer. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören.
 
 ### 4. Dem Ziel zugewandt {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Ein Schiff oder Alien, das ein Ziel anvisiert hat und feuert, dreht sich dem Zie
 
 ### 5. Reichweite {#5-range}
 
-Ein Schiff feuert eine Salve pro Sekunde, solange sein Ziel innerhalb seiner **Reichweite** ist, und hält das Feuer, solange das Ziel weiter entfernt ist: Das Feuer kostet dann keine Munition, bis das Ziel wieder nah genug ist, und das Zielfenster zeigt „Außer Reichweite“. Die Reichweite ist **der Durchschnitt der Reichweiten all deiner Laser** (auch der Laser in deinen Drohnen), auf die nächste Einheit gerundet, und sie ist eine einzige Zahl für das ganze Schiff: Innerhalb davon feuert jeder Laser, außerhalb keiner. Ein weitreichender Laser neben kurzen verlängert deine Reichweite also nicht: Ein Starfire-3 (850) und zwei Quantum Laser 2 (700) ergeben 750. Ein Schmiede-Buff auf die Reichweite zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ein Schiff ohne Laser kann seine Laser nicht abfeuern, und der Hangar zeigt dafür keine Reichweite an (einen Strich); seine Raketen feuern trotzdem, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/05-Items/Rockets.md)). Die eigene Reichweite jedes Lasers steht unter [Laser & Munition](/wiki/05-Items/Lasers.md).
+Ein Schiff feuert eine Salve pro Sekunde, solange sein Ziel innerhalb seiner **Reichweite** ist, und hält das Feuer, solange das Ziel weiter entfernt ist: Das Feuer kostet dann keine Munition, bis das Ziel wieder nah genug ist, und das Zielfenster zeigt „Außer Reichweite“. Die Reichweite ist **der Durchschnitt der Reichweiten all deiner Laser** (auch der Laser in deinen Drohnen), auf die nächste Einheit gerundet, und sie ist eine einzige Zahl für das ganze Schiff: Innerhalb davon feuert jeder Laser, außerhalb keiner. Ein weitreichender Laser neben kurzen verlängert deine Reichweite also nicht: Ein Starfire-3 (850) und zwei Quantum Laser 2 (700) ergeben 750. Ein Schmiede-Buff auf die Reichweite zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ein Schiff ohne Laser kann seine Laser nicht abfeuern, und der Hangar zeigt dafür keine Reichweite an (einen Strich); seine Raketen feuern trotzdem, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Die eigene Reichweite jedes Lasers steht unter [Laser & Munition](/wiki/06-Items/Lasers.md).
 
 ---
 
@@ -50,9 +50,11 @@ Die Belohnungen eines Aliens gehen an den Piloten, der zuerst auf es geschossen 
 - **Beanspruchen**: Der erste Pilot, dessen Schuss ein Alien beschädigt, beansprucht es. Jeder Treffer von dir erneuert deinen Anspruch.
 - **Verlieren**: Triffst du das Alien **10 Sekunden** lang nicht, verfällt dein Anspruch, und der nächste Pilot, der es trifft, beansprucht es. Dein Anspruch endet auch, wenn dein Schiff zerstört wird oder du die Karte verlässt (durch ein Portal oder durch Ausloggen), und eine Rückkehr innerhalb der 10 Sekunden bringt ihn nicht zurück.
 - **Der Abschuss**: Wird das Alien zerstört, bekommt der Pilot, der seinen Anspruch hält, alles: Credits, Thulium, EP, Ehre, den Abschuss für Quests und Wipe-Punkte und die [Frachtkiste](/wiki/03-Mechanics/Cargo.md). Ein Pilot, der ein Alien erledigt, das ein anderer beansprucht hat, bekommt nichts, und das Spielprotokoll sagt es. Zahlt dein Anspruch und ein anderer Pilot landet den letzten Treffer, nennt das Spielprotokoll diesen Piloten und sagt, dass dein Anspruch dir die Belohnung bringt.
+- **Rangpunkte**: Der Abschuss bringt dem Piloten, der den Anspruch hält, außerdem PvE-Punkte für seine Rangliste, und zwar mehr für ein zäheres Alien: 1 für einen Seeker, 2 für einen Phantasm, 4 für einen Bulwark, 7 für einen Goombah und 16 für einen Crystalys (der Artikel jedes Aliens nennt seinen eigenen Wert). Sie gehören allein dem Piloten: Der Gruppenanteil an den Belohnungen enthält sie nicht.
 - **So siehst du es**: Wählst du ein Alien aus, das ein anderer Pilot beansprucht hat, zeigt das Zielfenster *Beansprucht von* diesem Piloten und *Keine Belohnung*.
 - [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) beanspruchen nie ein Alien, und ein Alien, das sie erledigen, zahlt trotzdem an den Piloten, der seinen Anspruch hält.
 - Ein Pilot in einer [Gruppe](/wiki/03-Mechanics/Groups.md) teilt, was sein Anspruch einbringt, mit den Gruppenmitgliedern, die nah dran sind und schießen; der Anspruch selbst gehört allein dem Piloten.
+- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md) und die Dormant Pulses sind die Ausnahme**: Ein Schwarm-Boss und jede Dormant Pulse werden nach dem Schaden bezahlt, den jeder Pilot ihnen zugefügt hat, nicht nach dem ersten Treffer, und ihre Frachtkiste geht an den Piloten mit dem meisten Schaden ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Die übrigen Begleiter, die Pirate Scouts und die Seeker Slaves, zahlen wie jedes Alien nach dem Anspruch. Die PvE-Punkte eines Schwarmschiffs stehen auf der Seite Schwärme.
 
 ---
 
@@ -98,7 +100,7 @@ Wird dein Schiff von einem Feind oder NPC getroffen, wird der Schaden so verarbe
 ### 1. Schildabsorption {#1-shield-absorption}
 
 Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schiffs auf Schilde und Trefferpunkte aufgeteilt: dem Durchschnitt der Absorption deiner Schilde, jeweils mit der ihrer Schildzellen, plus dem Schildabsorptions-Boost aus dem Saison-Shop (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)). Sie ist **nicht auf 100 % begrenzt**: Was die Schilde von einem Treffer nehmen, ist deine Absorption **abzüglich der Schilddurchdringung des Angreifers**, zwischen 0 % und 100 %.
-- **Absorption** (z. B. 80 % für den besten Schild mit den besten Zellen, 56 % für einen Basic Shield Core mit zwei Advanced-Zellen) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Harpoon lassen 45 % auf den Schilden eines Schiffs mit 80 %, und der Rest (dort 55 %) trifft direkt die HP.
+- **Absorption** (z. B. 80 % für den besten Schild mit den besten Zellen, 56 % für einen Basic Shield Core mit zwei Absorption Shield Cell I) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Lancet III lassen 45 % auf den Schilden eines Schiffs mit 80 %, und der Rest (dort 55 %) trifft direkt die HP.
 - **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %).
 - Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter; sind die Schilde ganz erschöpft, trifft **100 %** des gesamten restlichen Schadens die HP.
 - Aliens haben keinen Absorptionswert: Ihre Schilde nehmen 80 % jedes Treffers (abzüglich der Durchdringung des Treffers), ihre Hülle den Rest.
@@ -109,6 +111,7 @@ Die Heimatbasis jedes Konzerns (X-1-Karten) enthält Schutzzonen.
 - Betrittst du eine Schutzzone, ist dein Schiff vollständig immun gegen Schaden.
 - **Aggro-Bruch**: Wenn du einen Feind angreifst, verlierst du sofort deine Schutzzonen-Immunität, auch wenn du dich tatsächlich in einer befindest.
 - Ein Ring um jede Station und jedes Portal schützt dich, sobald seit deinem letzten Treffer 5 Sekunden und seit deinem letzten Schuss 15 vergangen sind. Solange er dich schützt und du nicht im Kampf bist, lässt dich das Hangar-Fenster dein Schiff wechseln, ohne das Spiel zu verlassen: siehe [Der Hangar im Flug](/wiki/03-Mechanics/Hangar.md).
+- Stationen gibt es nur in den Heimatbasen (`x-1`). Die Gefahrensektoren (`DS-1` bis `DS-4`) haben keine: Dort sind die Ringe um die Portale die einzigen Schutzzonen.
 
 ### 3. Unter Beschuss in einem Gefahrensektor {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ Um sich vom Kampf zu erholen, können Piloten auf passive Regeneration und aktiv
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-Die Munition [Siphon Battery](/wiki/05-Items/Lasers.md) schreibt den Schild, den sie einem Ziel entzieht, sofort deinem eigenen gut, bis zu deinem Maximum. Schild zu gewinnen ist kein erlittener Schaden, deshalb verzögert es deine passive Regeneration nicht.
+Die Munition [Siphon Battery](/wiki/06-Items/Lasers.md) schreibt den Schild, den sie einem Ziel entzieht, sofort deinem eigenen gut, bis zu deinem Maximum. Schild zu gewinnen ist kein erlittener Schaden, deshalb verzögert es deine passive Regeneration nicht.
 
 ### 2. Repair Drones (Hüllenreparatur) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ Die Munition [Siphon Battery](/wiki/05-Items/Lasers.md) schreibt den Schild, den
 
 ## Tarnung und der EMP {#cloaking-and-the-emp}
 
-Ein Schuss braucht eine Zielerfassung. Zwei [Extras](/wiki/05-Items/Extras.md) entziehen deinem Schiff diese Zielerfassung:
+Ein Schuss braucht eine Zielerfassung. Zwei [Extras](/wiki/06-Items/Extras.md) entziehen deinem Schiff diese Zielerfassung:
 
 - **Cloaking CPU**: Solange du getarnt bist (es gibt kein Zeitlimit), sehen Piloten anderer Konzerne, Aliens und Konzernpiloten dein Schiff nicht und können es nicht anvisieren; sie sehen einen einfachen roten Punkt auf der Minikarte dort, wo du bist. Deine erste Salve beendet die Tarnung, und du kannst dich eine Minute lang nicht erneut tarnen, auch nicht innerhalb von 10 Sekunden nach einem Treffer oder Schuss.
 - **EMP Charge**: 3 Sekunden lang kann dich niemand anvisieren, und jede Zielerfassung, die schon auf dir liegt, bricht sofort ab. Sie beendet jede Tarnung im Umkreis von 1.500 Einheiten um den Piloten, der sie auslöst, außer denen seiner eigenen Gruppe. Sie verbirgt dich nicht, und sie ist keine Unverwundbarkeit: Sie stoppt, was eine Zielerfassung braucht.
 
-Eine Rakete ist auch ein Schuss: Sie beendet deine eigene Tarnung, und der Flächenschaden der Rakete eines anderen trifft ein getarntes Schiff trotzdem und beendet dessen Tarnung, weil eine Explosion keine Zielerfassung braucht (siehe [Raketen](/wiki/05-Items/Rockets.md)). Der EMP stoppt aufgeschaltete Laser und gelenkte Raketen, keine Explosion.
+Eine Rakete ist auch ein Schuss: Sie beendet deine eigene Tarnung, und der Flächenschaden der Rakete eines anderen trifft ein getarntes Schiff trotzdem und beendet dessen Tarnung, weil eine Explosion keine Zielerfassung braucht (siehe [Raketen](/wiki/06-Items/Rockets.md)). Der EMP stoppt aufgeschaltete Laser und gelenkte Raketen, keine Explosion.
 
 Keines von beiden ändert einen Abschuss-Anspruch: Ein Anspruch ist die Vorgeschichte, wer ein Alien getroffen hat, keine Zielerfassung, und die Tarnung gibt deinen frei.

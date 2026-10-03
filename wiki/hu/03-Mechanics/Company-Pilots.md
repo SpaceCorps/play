@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
@@ -17,6 +17,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 
 - **Járőröznek** egy körön a szektor állomásánál, a portáljainál és néhány közbeeső ponton át.
 - **Vadásznak** azokra az idegenekre, amelyekkel elbírnak (Seeker és Phantasm idegenekre; a Bulwark, Goombah és Crystalys idegeneket békén hagyják), amíg pilóták repülnek a szektorban. Az az idegen, amellyel egy másik vállalat pilótája harcol, az övé: az osztag békén hagyja.
+- **Figyelmen kívül hagyják a [rajokat](/wiki/05-Swarms/Swarms.md)**: a rajhajó nem az ő dolguk. Nem vadásznak rá, nem szállnak be egy ellene vívott harcba, és soha nem sietnek a segítségedre egyben.
 - **Segítenek**: ha a vállalatuk egy tőlük 1 500 egységen belül lévő pilótáját megtámadja egy idegen, vagy az a pilóta tüzet nyit egy olyan idegenre, amellyel ők is elbírnának, beszállnak a harcba. Kimaradnak abból a harcból, amelyet egy társuk olyan idegennel kezdett, amellyel nem bírnának el (egy Goombah, amelyre egy pilóta rálőtt, vagy egy Bulwark); azt az agresszív idegent viszont, amely egy társukra támad, visszaverik, bármilyen is. Az általuk kilőtt idegenért az a pilóta kapja a jutalmat, aki a foglalását tartja (aki először eltalálta, lásd [Harc](/wiki/03-Mechanics/Combat.md)); ha senki sem tart foglalást, a vállalatuk legközelebbi pilótájának számít, aki tüzel rá (célba vette, hatótávon belül van, és az elmúlt 2,5 másodpercben leadott egy sortüzet). Így is, úgy is annak a pilótának jár a jutalom, és az idegen [rakományládája](/wiki/03-Mechanics/Cargo.md) is neki van fenntartva, mintha ő végzett volna vele. A vállalati pilóták sosem foglalnak le idegent, és maguk sosem szereznek vagy gyűjtenek semmit: az az idegen, amellyel egyedül harcolnak, nem hagy maga után ládát. Aki csak távolról célba veszi az idegent, vagy akit csak lőnek, az nem kap érte semmit.
 - **Visszalőnek**, ha idegenek lőnek rájuk, és ha más vállalatok pilótái lőnek rájuk, de csak akkor, ha már megnyílt a PvP, és ott, ahol a [világuk](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t: az Alpha `x-1`–`x-3` szektoraiban nincs, a Beta `x-1` szektorában sem.
 - **Javítanak** a drónjukkal, valahányszor sérült a hajótestük: másodpercenként a hajótestük 1,5%-át, az utolsó találat után 10 másodperccel kezdve.

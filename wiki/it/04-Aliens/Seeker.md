@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè non iniziano mai uno scontro: un Seeker si rivolta contro il pilota che gli spara, e solo contro quel pilota. Smette di inseguire se nessuno lo colpisce da 10 secondi, e il suo scafo si ripara una volta lasciato in pace per 30 secondi.
+I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè non iniziano mai uno scontro: un Seeker si rivolta contro il pilota che gli spara, e solo contro quel pilota. Smette di inseguire se nessuno lo colpisce da 10 secondi, e il suo scafo si ripara una volta lasciato in pace per 30 secondi. Il Boss Seeker e i Seeker Slave dello [Sciame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) somigliano ai Seeker ma sono specie a sé: i loro abbattimenti sono contati con il loro nome, non come abbattimenti di Seeker.
 
 ## Statistiche {#stats}
 
@@ -28,13 +28,14 @@ I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè no
 - **Thulium**: 4
 - **Esperienza (XP)**: 100
 - **Onore**: 2
+- **Punti PvE per abbattimento**: 1
 - **Ricarica scudo**: 10 al secondo (dopo 15 s)
 
 ## Bottino {#loot-drops}
 
 Il bottino cade come [cassa di carico](/wiki/03-Mechanics/Cargo.md) nel punto in cui esplode, riservata per 30 secondi a chi l’ha abbattuto.
 
-A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/05-Items/Resources.md).
+A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20% di probabilità (min. 1, max. 1)
 - **Daraxium**: 50% di probabilità (min. 1, max. 2)

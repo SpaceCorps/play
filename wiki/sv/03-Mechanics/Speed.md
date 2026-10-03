@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -12,12 +12,14 @@ Skeppets slutliga hastighet beräknas på servern med följande formel:
 
 ### 1. Motorns effektiva hastighet {#1-effective-engine-speed}
 
-Varje utrustad motor ger hastighet. Om det sitter styrraketer i motorn ändras dess hastighet:
+Varje utrustad motor ger hastighet, och det gör varje adaptiv kärna som har styrraketer också. Om det sitter styrraketer i motorn ändras dess hastighet:
 
-\[\text{Motorhastighet} = (\text{Motorns grundhastighet} \times \text{Styrraketmultiplikator}) + \text{Fast styrraketbonus}\]
+\[\text{Motorhastighet} = (\text{Motorns grundhastighet} + \text{Fast styrraketbonus}) \times \text{Styrraketmultiplikator}\]
 
-- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Thruster III `1.1` eller `+10%`).
-- **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Thruster III `+15` hastighet).
+- **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+15` hastighet).
+- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.13` eller `+13%`, Impulse Thruster III `1.03` eller `+3%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
+
+En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+12`, `1.14`) ger (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, och med tre Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.14` ger `1.161`.
 
 ### 2. Avtagande avkastning (marginaleffektivitet) {#2-diminishing-returns-marginal-efficiency-}
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼저 싸움을 걸지 않습니다. Seeker는 자신에게 사격한 파일럿에게만 달려듭니다. 10초 동안 아무도 Seeker를 명중시키지 않으면 추적을 멈추고, 30초 동안 방치되면 선체가 회복됩니다.
+Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼저 싸움을 걸지 않습니다. Seeker는 자신에게 사격한 파일럿에게만 달려듭니다. 10초 동안 아무도 Seeker를 명중시키지 않으면 추적을 멈추고, 30초 동안 방치되면 선체가 회복됩니다. [Seeker 무리](/wiki/05-Swarms/Seeker-Swarm.md)의 Boss Seeker와 Seeker Slave는 Seeker와 비슷하게 생겼지만 독립된 종류이며, 처치는 Seeker 처치가 아니라 각자의 이름으로 집계됩니다.
 
 ## 능력치 {#stats}
 
@@ -28,13 +28,14 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 - **Thulium**: 4
 - **경험치(XP)**: 100
 - **명예**: 2
+- **처치당 PvE 포인트**: 1
 - **실드 재충전**: 초당 10 (15초 후부터)
 
 ## 전리품 {#loot-drops}
 
 폭발한 자리에 [화물 상자](/wiki/03-Mechanics/Cargo.md)로 떨어지며, 30초 동안은 처치한 파일럿 전용입니다.
 
-각 전리품의 용도와 다른 획득처: [자원](/wiki/05-Items/Resources.md).
+각 전리품의 용도와 다른 획득처: [자원](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 확률 20% (최소 1, 최대 1)
 - **Daraxium**: 확률 50% (최소 1, 최대 2)

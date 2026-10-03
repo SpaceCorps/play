@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 
 - **Importanza**: se l’energia che usi supera quella che produci, le tue fattorie e i tuoi collettori si spengono.
 - **Energia prodotta**: un modulo Solare al livello N ne produce a sufficienza per **ogni altro modulo al livello N**, e circa un decimo in più: 255 al livello 1, 835 al livello 7, 16.010 al livello 20. Solare al livello 7 alimenta un’intera stazione al livello 7 (vedi Gestione dell’energia per ogni livello).
-- **Potenziamento**: Solare è offline durante il potenziamento, ed è l’unico modulo che produce energia, quindi l’intera stazione resta senza energia finché il potenziamento non termina (vedi Costruzione e potenziamento).
+- **Potenziamento**: Solare continua a produrre l’energia del livello attuale mentre si potenzia, e quella del nuovo livello dal momento in cui il potenziamento termina, quindi il resto della stazione continua a funzionare (vedi Costruzione e potenziamento).
 
 ### Fattoria crediti e Fattoria Thulium {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 
 ## La filiera {#the-supply-chain}
 
-Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre per i tuoi laser migliori. Il minerale arriva **solo** dai collettori (tutti i materiali e le valute sono nella pagina [Risorse](/wiki/05-Items/Resources.md)): gli alieni non lo rilasciano e il Negozio non lo vende.
+Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre per i tuoi laser migliori. Il minerale arriva **solo** dai collettori (tutti i materiali e le valute sono nella pagina [Risorse](/wiki/06-Items/Resources.md)): gli alieni non lo rilasciano e il Negozio non lo vende.
 
 1. Un **collettore** estrae minerale, una certa quantità all’ora, nella propria tramoggia (pari a 72 ore di produzione).
 2. **Raccogli** sposta il minerale dalla tramoggia al **Magazzino risorse**, la riserva in cui ogni minerale è tenuto separato.
 3. La **Fucina** preleva dalla riserva il minerale che le serve quando parte un lotto, e produce piastre, 10 secondi a piastra, un lotto alla volta.
-4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/05-Items/Lasers.md) le trasforma in un Quantum Laser 3, una Starfire-3 o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate per [la Forgia](/wiki/05-Items/Forge.md).
+4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/06-Items/Lasers.md) le trasforma in un Quantum Laser 3, una Starfire-3 o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate per [la Forgia](/wiki/06-Items/Forge.md).
 
 ### Collettore Velkonite e Collettore Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 Ognuno dei quattro costa **10 Ship Fragment, 10.000 crediti e 500 Thulium**, e richiede il Nucleo al livello 5.
 
 - Gli Ship Fragment vengono presi dal tuo inventario (non dal Deposito di trasporto) e la tua nave deve essere atterrata. Il pannello di costruzione mostra ciò che hai rispetto a ciò che serve, e ciò che ti manca.
-- Consumano energia. Prima di costruire, il pannello mostra il tuo bilancio energetico attuale e quello dopo la costruzione: **costruire può mandare in deficit una stazione** quando il suo Solare è indietro rispetto agli altri moduli, e un solo deficit ferma ogni fattoria e collettore. Spegni un modulo, oppure potenzia prima Solare (la stazione resta senza energia mentre Solare è in potenziamento).
+- Consumano energia. Prima di costruire, il pannello mostra il tuo bilancio energetico attuale e quello dopo la costruzione: **costruire può mandare in deficit una stazione** quando il suo Solare è indietro rispetto agli altri moduli, e un solo deficit ferma ogni fattoria e collettore. Spegni un modulo, oppure potenzia prima Solare.
 - I due collettori sono sospesi su strutture sopra la stazione, il Magazzino risorse si trova alla porta nord-est del Nucleo e la Fucina alla sua porta nord-ovest.
 
 ## Meccaniche {#mechanics}
@@ -133,8 +133,8 @@ Ognuno dei quattro costa **10 Ship Fragment, 10.000 crediti e 500 Thulium**, e r
 - **Tempo e costo**: i potenziamenti costano crediti e Thulium e richiedono tempo. Il potenziamento di un modulo della filiera costa 10.000 x 1,5^livello crediti e 500 x 1,5^livello Thulium (il Magazzino risorse x1,4 per livello). Il costo non dipende dal tempo.
 - **Timer**: un potenziamento segue l’orologio del server, quindi si completa mentre sei via, anche giorni dopo se serve. Avvialo, disconnettiti, torna: il modulo è al nuovo livello quando apri la pagina Skylab.
 - **Tempi di potenziamento**: i primi livelli sono rapidi e gli ultimi richiedono giorni (vedi le tabelle più sotto). Ogni modulo ha il proprio timer, quindi puoi potenziarne diversi contemporaneamente.
-- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia.
-- **Potenziare Solare spegne la stazione**: Solare produce tutta l’energia dello Skylab, quindi mentre è in potenziamento ogni fattoria e collettore smette di produrre per l’intera durata (6 giorni per l’ultimo livello) e la Fucina non avvia nuovi lotti. Ciò che hanno già immagazzinato resta e puoi comunque raccoglierlo, ma la produzione persa nel frattempo non viene recuperata. Il pannello di potenziamento ti avvisa prima della conferma. Pianifica i potenziamenti di conseguenza.
+- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione (vedi sotto).
+- **Solare continua a produrre energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (6 giorni per l’ultimo livello), continua a produrre l’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Fattorie, collettori e Fucina continuano a funzionare finché quell’energia li copre, quindi potenziare Solare non spegne mai la tua stazione, e la Fucina può avviare nuovi lotti nel frattempo. Solo il modulo che viene potenziato è offline.
 
 ### Tempi di potenziamento {#upgrade-times}
 

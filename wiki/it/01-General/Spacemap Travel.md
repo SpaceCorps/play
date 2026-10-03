@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Viaggiare sulla mappa -->
 # Viaggiare sulla mappa spaziale {#spacemap-travel}
 
@@ -12,6 +12,8 @@ L’universo comprende tre grandi settori di corporazione (Mars, Terra, Galactic
 - **x-2 -> x-3**: zone di espansione con alieni via via più duri.
 - **x-4 (confine)**: il passaggio verso il settore PvP.
 - **DS-x (settori pericolosi)**: la zona PvP centrale che collega tutte le corporazioni: da DS-1 a DS-4.
+
+Solo le basi hanno una stazione. È lì che si apre **Mission Control**, e la sua zona sicura si estende per 1.600 unità intorno a essa. I settori pericolosi non hanno stazioni, `DS-1` compreso: le uniche zone sicure lì sono gli anelli di 660 unità intorno alle porte di salto, e lì Mission Control non si può aprire; torna in volo alla tua base per le tue missioni.
 
 Ogni [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) ha la sua copia di tutta questa mappa, e da essa dipende dove i piloti possono combattere tra loro: in Alpha solo in `x-4` e `DS-x`, in Beta ovunque tranne `x-1`, in Gamma ovunque. La mappa galattica colora i settori secondo la regola del tuo mondo.
 

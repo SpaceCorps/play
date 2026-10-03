@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: 无人机 -->
 # 无人机机制 {#drone-mechanics}
 
@@ -6,7 +6,7 @@
 
 ## 获得无人机 {#getting-drones}
 
-你持有的每一台无人机，无论是 **Slave Drone** 还是 Master Drone，都会开启它的无人机槽位（Slave Drone 一个，Master Drone 两个），最多 **8** 台无人机。商店出售 Slave Drone，可以用信用点购买，从第四台起也可以用 Thulium 购买。每一台都比上一台更贵：价格见[无人机](/wiki/05-Items/Drones.md)。
+你持有的每一台无人机，无论是 **Slave Drone** 还是 Master Drone，都会开启它的无人机槽位（Slave Drone 一个，Master Drone 两个），最多 **8** 台无人机。商店出售 Slave Drone，可以用信用点购买，从第四台起也可以用 Thulium 购买。每一台都比上一台更贵：价格见[无人机](/wiki/06-Items/Drones.md)。
 
 ## 编队与移动 {#formation-movement}
 

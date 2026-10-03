@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont une grande capacité de bouclier et infligent des dégâts massifs, mais ne déclenchent jamais un combat : un Goombah n’attaque que le pilote qui l’a attaqué.
+Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont une grande capacité de bouclier et infligent des dégâts massifs, mais ne déclenchent jamais un combat : un Goombah n’attaque que le pilote qui l’a attaqué. Les vaisseaux des [essaims](/wiki/05-Swarms/Swarms.md) sont des espèces d’aliens à part, avec leurs propres articles dans la catégorie Essaims.
 
 ## Caractéristiques {#stats}
 
@@ -28,13 +28,14 @@ Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont un
 - **Thulium** : 75
 - **Expérience (XP)** : 3 000
 - **Honneur** : 24
+- **Points PvE par élimination** : 7
 - **Recharge du bouclier** : 100 par seconde (délai de 15 s)
 
 ## Butin {#loot-drops}
 
 Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit où l’alien explose, réservée pendant 30 secondes à celui qui l’a détruit.
 
-À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/05-Items/Resources.md).
+À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment** :
   - 100 % de chances (min. : 3, max. : 3)

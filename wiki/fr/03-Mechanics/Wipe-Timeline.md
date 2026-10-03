@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Chaque saison va du jour 1 au jour 30 (la réinitialisation commence par son com
 | Phase | Jours | Protocole / événement | Description |
 | :--- | :--- | :--- | :--- |
 | **Protocole de paix** | Jours 1–3 | Sans PvP | Un nouveau départ entièrement consacré à la progression PvE, à la collecte de ressources et à la construction de vaisseaux, sans la menace des affrontements entre joueurs. |
-| **Premier contact** | Jours 4–10 | Événement 1 | Le PvP s’ouvre (selon la règle de votre monde, voir Mondes plus bas). Pas encore de récompenses spéciales. |
+| **Premier contact** | Jours 4–10 | Événement 1 | Le PvP s’ouvre (selon la règle de votre monde, voir Mondes plus bas) et les trois [essaims](/wiki/05-Swarms/Swarms.md) commencent à apparaître : ils restent jusqu’à la réinitialisation, à travers les phases suivantes. La phase elle-même ne donne pas encore de récompenses spéciales. |
 | **Essor technologique** | Jours 11–18 | Événement 2 | Pas encore d’effets spéciaux : les gains et les aliens sont les mêmes que dans toute autre phase. |
 | **Jeux de guerre** | Jours 19–25 | Événement 3 | Pas encore d’effets spéciaux : le PvP fonctionne comme dans toutes les phases qui suivent le Protocole de paix. |
 | **Compte à rebours** | Jours 26–30 | Événement 4 | La phase du compte à rebours final. Tous les pilotes se pressent pour compléter et verrouiller la cargaison qu’ils emportent avant l’éruption. |
 | **La réinitialisation** | Jour 30 | Éruption du trou noir | L’univers est détruit et renaît. Les pilotes passent dans le monde qu’ils ont choisi comme destination pour la saison suivante. |
 
-En dehors de la réinitialisation elle-même, seul le Protocole de paix (jours 1–3) change une règle. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu, mais aucun d’eux ne donne encore de récompenses, d’apparitions ou de bonus spéciaux.
+En dehors de la réinitialisation elle-même, seules deux choses suivent le calendrier : le Protocole de paix (jours 1–3) change une règle, et dès le jour 4 les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent et restent jusqu’à la réinitialisation. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu, mais aucun d’eux ne donne encore de récompenses, d’apparitions ou de bonus spéciaux qui lui soient propres.
 
 ---
 
@@ -59,7 +59,7 @@ Pour les autres objets de votre inventaire que vous voulez sauver (par ex. des a
   * *Moteurs / propulsion* : 30 kg
   * *Générateurs* : 30 kg
   * *Ressources / minerais* : poids variable selon la rareté (une plaque renforcée de la Fonderie du Skylab pèse 5 kg)
-  * *Roquettes* : aucun poids : elles ne prennent aucune place dans la cache, donc des piles entières y entrent (voir [Roquettes](/wiki/05-Items/Rockets.md))
+  * *Roquettes* : aucun poids : elles ne prennent aucune place dans la cache, donc des piles entières y entrent (voir [Roquettes](/wiki/06-Items/Rockets.md))
 
 Votre [Skylab](/wiki/03-Mechanics/Skylab.md) n’est jamais réinitialisé : ses modules gardent leur niveau et l’Entrepôt de ressources garde le minerai en réserve. Ce que vous avez déjà récupéré, en revanche, n’est pas épargné : les plaques de votre inventaire sont des objets comme les autres, donc une plaque que vous voulez garder doit se trouver dans la cache de transport.
 

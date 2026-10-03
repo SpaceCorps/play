@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Cada temporada vai do dia 1 ao dia 30 (o Reset começa com a contagem regressiva
 | Fase | Dias | Protocolo / Evento | Descrição |
 | :--- | :--- | :--- | :--- |
 | **Protocolo de Paz** | Dias 1–3 | PvP desativado | Um recomeço focado inteiramente na progressão PvE, na coleta de recursos e na construção de naves, sem a ameaça de conflito entre jogadores. |
-| **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo). Ainda sem recompensas especiais. |
+| **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo) e os três [enxames](/wiki/05-Swarms/Swarms.md) começam a aparecer: eles ficam até o reset, ao longo das fases seguintes. A fase em si ainda não dá recompensas especiais. |
 | **Onda Tecnológica** | Dias 11–18 | Evento 2 | Ainda sem efeitos especiais: os ganhos e os alienígenas são os mesmos de qualquer outra fase. |
 | **Jogos de Guerra** | Dias 19–25 | Evento 3 | Ainda sem efeitos especiais: o PvP funciona como em todas as fases depois do Protocolo de Paz. |
 | **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar e bloquear a carga que vão levar consigo antes da erupção. |
 | **O Reset** | Dia 30 | Erupção do Buraco Negro | O universo é destruído e renasce. Os pilotos passam para o mundo que escolheram como destino para a próxima temporada. |
 
-Além do próprio reset, só o Protocolo de Paz (dias 1–3) muda uma regra. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo, mas nenhum deles dá ainda recompensas, aparições ou bônus especiais.
+Além do próprio reset, só duas coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, e a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo, mas nenhum deles dá ainda recompensas, aparições ou bônus especiais próprios.
 
 ---
 
@@ -59,7 +59,7 @@ Para itens adicionais do seu inventário que você quer salvar (por exemplo, arm
   * *Motores / propulsão*: 30 kg
   * *Geradores*: 30 kg
   * *Recursos / minerais*: pesos variados conforme a raridade (uma Reinforced Plate da Forja do Skylab pesa 5 kg)
-  * *Foguetes*: não pesam nada: não ocupam espaço no cache, então pilhas inteiras entram (veja [Foguetes](/wiki/05-Items/Rockets.md))
+  * *Foguetes*: não pesam nada: não ocupam espaço no cache, então pilhas inteiras entram (veja [Foguetes](/wiki/06-Items/Rockets.md))
 
 O seu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte.
 

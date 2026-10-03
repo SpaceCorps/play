@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Jede Saison läuft über die Tage 1 bis 30 (der Wipe beginnt mit seinem 5-Minute
 | Phase | Tage | Protokoll / Event | Beschreibung |
 | :--- | :--- | :--- | :--- |
 | **Friedensprotokoll** | Tag 1–3 | Kein PvP | Ein frischer Start, ganz auf PvE-Fortschritt, Ressourcen-Farming und Schiffbau ausgerichtet, ohne die Bedrohung durch Kämpfe zwischen Spielern. |
-| **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten). Noch keine besonderen Belohnungen. |
+| **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten), und die drei [Schwärme](/wiki/05-Swarms/Swarms.md) tauchen auf: Sie bleiben bis zum Wipe, durch die Phasen nach dieser hindurch. Die Phase selbst gibt noch keine besonderen Belohnungen. |
 | **Techschub** | Tag 11–18 | Event 2 | Noch keine besonderen Effekte: Erträge und Aliens sind wie in jeder anderen Phase. |
 | **Kriegsspiele** | Tag 19–25 | Event 3 | Noch keine besonderen Effekte: PvP funktioniert wie in jeder Phase nach dem Friedensprotokoll. |
 | **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen und zu sperren, bevor die Eruption kommt. |
 | **Der Reset** | Tag 30 | Schwarzloch-Eruption | Das Universum wird zerstört und neu geboren. Die Piloten wechseln in die Welt, die sie als Ziel für die nächste Saison gewählt haben. |
 
-Abgesehen vom Wipe selbst ändert nur das Friedensprotokoll (Tag 1–3) eine Regel. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels, aber keines von ihnen gibt bisher besondere Belohnungen, Spawns oder Boni.
+Abgesehen vom Wipe selbst folgen nur zwei Dinge dem Kalender: Das Friedensprotokoll (Tag 1–3) ändert eine Regel, und ab Tag 4 tauchen die [Schwärme](/wiki/05-Swarms/Swarms.md) auf und bleiben bis zum Wipe. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels, aber keines von ihnen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
 
 ---
 
@@ -59,7 +59,7 @@ Für zusätzliche Gegenstände in deinem Inventar, die du retten willst (z. B. E
   * *Triebwerke / Antrieb*: 30 kg
   * *Generatoren*: 30 kg
   * *Ressourcen / Mineralien*: je nach Seltenheit unterschiedliche Gewichte (eine Reinforced Plate aus der Schmiede des Skylab wiegt 5 kg)
-  * *Raketen*: gar kein Gewicht: Sie nehmen im Cache keinen Platz ein, ganze Stapel passen also hinein (siehe [Raketen](/wiki/05-Items/Rockets.md))
+  * *Raketen*: gar kein Gewicht: Sie nehmen im Cache keinen Platz ein, ganze Stapel passen also hinein (siehe [Raketen](/wiki/06-Items/Rockets.md))
 
 Dein [Skylab](/wiki/03-Mechanics/Skylab.md) ist vom Wipe nie betroffen: Seine Module behalten ihre Level, und das Ressourcenlager behält sein eingelagertes Erz. Was du schon abgeholt hast, bleibt dagegen nicht erhalten: Platten in deinem Inventar sind Gegenstände wie alle anderen, eine Platte, die du behalten willst, muss also im Transport-Cache liegen.
 

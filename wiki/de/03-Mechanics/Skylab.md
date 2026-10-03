@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 - **Bedeutung**: Ist dein Energieverbrauch höher als deine Energieerzeugung, schalten deine Farmen und Kollektoren ab.
 - **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 835 auf Level 7, 16.010 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
-- **Ausbau**: Solar ist während des Ausbaus offline, und es ist das einzige Modul, das Energie erzeugt, also ist die ganze Station ohne Energie, bis der Ausbau endet (siehe Bauen und Ausbauen).
+- **Ausbau**: Solar erzeugt während des Ausbaus weiter die Energie seines aktuellen Levels und ab dem Ende des Ausbaus die des neuen Levels, also läuft der Rest der Station weiter (siehe Bauen und Ausbauen).
 
 ### Credit-Farm und Thulium-Farm {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 ## Die Versorgungskette {#the-supply-chain}
 
-Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/05-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht.
+Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht.
 
 1. Ein **Kollektor** fördert Erz, eine bestimmte Menge pro Stunde, in seinen eigenen Speicher (für 72 Stunden).
 2. **Abholen** bringt das Erz aus dem Speicher ins **Ressourcenlager**, wo jedes Erz für sich eingelagert wird.
 3. Die **Schmiede** nimmt das Erz, das sie braucht, aus dem Lager, wenn eine Charge startet, und macht daraus Platten, 10 Sekunden pro Platte, eine Charge nach der anderen.
-4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/05-Items/Lasers.md) macht daraus einen Quantum Laser 3, einen Starfire-3 oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate für die [Schmiede der Montage](/wiki/05-Items/Forge.md).
+4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/06-Items/Lasers.md) macht daraus einen Quantum Laser 3, einen Starfire-3 oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate für die [Schmiede der Montage](/wiki/06-Items/Forge.md).
 
 ### Velkonite-Kollektor und Orvium-Kollektor {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 Jedes der vier Module kostet **10 Ship Fragments, 10.000 Credits und 500 Thulium** und braucht Kern-Level 5.
 
 - Die Ship Fragments werden aus deinem Inventar genommen (nicht aus dem Transport-Cache), und dein Schiff muss gelandet sein. Das Baufenster zeigt, was du hast, gegenüber dem, was nötig ist, und was dir fehlt.
-- Sie verbrauchen Energie. Vor dem Bau zeigt das Fenster deine Energiebilanz jetzt und danach: **Ein Bau kann eine Station ins Defizit bringen**, wenn ihr Solar hinter den anderen Modulen zurückliegt, und ein Defizit stoppt jede Farm und jeden Kollektor. Schalte ein Modul aus oder baue zuerst Solar aus (die Station hat keine Energie, während Solar ausgebaut wird).
+- Sie verbrauchen Energie. Vor dem Bau zeigt das Fenster deine Energiebilanz jetzt und danach: **Ein Bau kann eine Station ins Defizit bringen**, wenn ihr Solar hinter den anderen Modulen zurückliegt, und ein Defizit stoppt jede Farm und jeden Kollektor. Schalte ein Modul aus oder baue zuerst Solar aus.
 - Die beiden Kollektoren hängen an Gerüsten über der Station, das Ressourcenlager sitzt am Nordost-Port des Kerns und die Schmiede an seinem Nordwest-Port.
 
 ## Mechanik {#mechanics}
@@ -133,8 +133,8 @@ Jedes der vier Module kostet **10 Ship Fragments, 10.000 Credits und 500 Thulium
 - **Dauer und Kosten**: Ausbauten kosten Credits und Thulium und brauchen Zeit. Der Ausbau eines Moduls der Versorgungskette kostet 10.000 x 1,5^Level Credits und 500 x 1,5^Level Thulium (beim Ressourcenlager x1,4 pro Level). Die Kosten hängen nicht von der Dauer ab.
 - **Timer**: Ein Ausbau läuft nach der Uhr des Servers, er wird also fertig, während du weg bist, notfalls Tage später. Starte ihn, logge dich aus, komm zurück: Das Modul hat sein neues Level, wenn du die Skylab-Seite öffnest.
 - **Ausbauzeiten**: Die ersten Level gehen schnell, die letzten dauern Tage (siehe die Tabellen unten). Jedes Modul hat seinen eigenen Timer, du kannst also mehrere gleichzeitig ausbauen.
-- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie.
-- **Ein Ausbau von Solar schaltet die Station ab**: Solar erzeugt die gesamte Energie des Skylab, daher hören während seines Ausbaus alle Farmen und Kollektoren für die ganze Dauer auf zu produzieren (6 Tage für das letzte Level), und die Schmiede startet keine neue Charge. Was sie gelagert haben, bleibt, und du kannst es weiterhin abholen, aber die Produktion, die in der Zwischenzeit ausfällt, wird nicht nachgeholt. Das Ausbaufenster warnt dich, bevor du bestätigst. Plane deine Ausbauten entsprechend.
+- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie. Solar ist die Ausnahme (siehe unten).
+- **Solar erzeugt während des Ausbaus weiter Energie**: Solar erzeugt die gesamte Energie des Skylab, und während seines Ausbaus (6 Tage für das letzte Level) erzeugt es weiter die Energie seines **aktuellen** Levels; die Energie des neuen Levels übernimmt in dem Moment, in dem der Ausbau endet. Die Farmen, die Kollektoren und die Schmiede laufen weiter, solange diese Energie sie deckt, also schaltet der Ausbau von Solar deine Station nie ab, und die Schmiede kann in der Zwischenzeit neue Chargen starten. Nur das Modul, das ausgebaut wird, ist offline.
 
 ### Ausbauzeiten {#upgrade-times}
 

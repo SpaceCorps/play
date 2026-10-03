@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n source: f498be6364c7a1f9 -->
 <!-- wiki-i18n title: Premiers pas -->
 # Premiers pas dans SpaceCorps {#getting-started-in-spacecorps}
 
@@ -6,10 +6,12 @@ Bienvenue dans l’expérience ultime de la guerre spatiale. En tant que pilote 
 
 ## Ressources essentielles {#core-resources}
 
-Pour survivre et prospérer, vous devez gérer deux monnaies et garder un œil sur votre honneur. Les matériaux qui vous servent à construire figurent sur la page [Ressources](/wiki/05-Items/Resources.md), avec l’endroit où obtenir chacun et son utilité :
+Pour survivre et prospérer, vous devez gérer deux monnaies et garder un œil sur votre honneur. Les matériaux qui vous servent à construire figurent sur la page [Ressources](/wiki/06-Items/Resources.md), avec l’endroit où obtenir chacun et son utilité :
 - **Crédits** : la monnaie standard principale, versée par chaque alien que vous battez et par les missions terminées, et produite par la Ferme à crédits de votre [Skylab](/wiki/03-Mechanics/Skylab.md). Elle sert à acheter l’équipement de base, les vaisseaux et l’équipement standard.
-- **Thulium** : le minerai radioactif rare et la monnaie de grande valeur, versé par chaque alien que vous battez et par les missions terminées, et produit par la Ferme à Thulium de votre Skylab. Il sert à acheter des armes d’élite, des propulseurs, des boucliers hybrides et de puissants packs de boosters.
+- **Thulium** : le minerai radioactif rare et la monnaie de grande valeur, versé par chaque alien que vous battez et par les missions terminées, et produit par la Ferme à Thulium de votre Skylab. Il sert à acheter des armes d’élite, des moteurs, des boucliers hybrides et de puissants packs de boosters, et à améliorer des modules à l’Assemblage.
 - **Honneur** : un score, et non de l’argent, qui mesure votre rang dans la faction, votre loyauté et votre réputation. Gagner de l’honneur fait progresser votre titre de grade, mais attaquer des pilotes alliés de votre propre faction pénalise lourdement votre honneur : détruire un pilote de votre propre corporation, qu’il s’agisse du vaisseau d’un joueur ou de l’un de ses [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), coûte 100 points d’honneur. Il en va de même si vous le touchez dans les 15 secondes avant que quelque chose d’autre ne le détruise : affaiblir un pilote de votre corporation pour qu’un alien l’achève coûte autant que l’élimination. Éliminer un pilote de votre corporation n’est pas une élimination PvP et ne rapporte aucun point PvP.
+
+À la station, vos Crédits, votre Thulium et votre Honneur se trouvent en haut à droite de chaque page, à côté de votre secteur et du bouton **Décoller**. Quand la fenêtre est trop étroite pour un montant long, il est abrégé (987,7 M) ; pointez-le pour lire le nombre entier.
 
 ## Jouer avec des amis {#playing-with-friends}
 
@@ -31,11 +33,12 @@ Quand votre coque tombe à 0, le vaisseau est détruit et l’écran de destruct
 
 - **Le verrouillage commence quand vous réapparaissez avec ce choix**, pas à votre mort, et il ne concerne que ce choix : utiliser le portail ne verrouille pas « Sur place ». Un choix verrouillé est grisé sur l’écran de destruction avec un compte à rebours (minutes et secondes) et se rouvre de lui-même quand celui-ci arrive à zéro. Les verrouillages sont conservés par le serveur : se déconnecter puis se reconnecter ne les réinitialise pas. Une nouvelle saison (la réinitialisation), si.
 - **Un choix refusé par le serveur ne coûte rien.** Si un choix ne peut pas être utilisé (encore verrouillé, aucun portail dans le secteur, vous avez changé de monde depuis votre mort), le verrouillage n’est pas consommé et votre vaisseau n’est pas déplacé ; vous choisissez de nouveau.
-- **Protection.** Un vaisseau qui revient à un portail ou sur place ne peut être ni endommagé ni verrouillé pendant **5 secondes**, et les aliens s’en désintéressent, si bien que celui qui vous a détruit ne peut pas vous détruire de nouveau aussitôt. Le HUD affiche les secondes restantes. Votre **premier tir** (une salve de laser ou une roquette) met fin à la protection, et vous êtes prévenu quand elle prend fin. À la base, la zone sûre de la station vous protège comme toujours.
+- **Protection de réapparition.** Quel que soit l’endroit choisi, votre vaisseau ne peut être ni endommagé ni verrouillé pendant **3 secondes** après son retour, et les aliens s’en désintéressent, si bien que celui qui vous a détruit ne peut pas vous détruire de nouveau aussitôt. Pendant ces mêmes 3 secondes, **vous ne pouvez pas attaquer non plus** : un laser ou une roquette est refusé avec un avertissement, et la protection ne prend pas fin plus tôt. Le HUD affiche les secondes restantes. Elle prend fin quand elles sont écoulées.
 - **Le trou noir.** Un endroit situé dans l’anneau de radiation du [trou noir](/wiki/03-Mechanics/Black-Hole.md) (à 4 200 unités du centre du Secteur dangereux 4) n’est jamais un lieu de retour : si vous y avez été détruit, « Sur place » vous place au point le plus proche hors de l’anneau, sur la ligne qui part du centre et passe par votre position, et vous en informe.
 - **Secteurs dangereux.** Les trois choix y fonctionnent aussi.
-- **Ce que coûte une destruction ne change pas :** vous revenez avec la coque de base de votre vaisseau et des boucliers vides, vous ne perdez aucun objet, et le choix ne décide que de l’endroit où vous apparaissez. Vos compétences sont prêtes, et vous revenez non occulté et hors de toute fenêtre d’EMP. Vous restez dans votre [groupe](/wiki/03-Mechanics/Groups.md).
-- **Amarrage.** « Retour à la base » sur l’écran de destruction vous ramène à la base, comme toujours. Si le jeu se ferme avant que vous ayez choisi, réparez gratuitement le vaisseau au [hangar](/wiki/03-Mechanics/Hangar.md) ; vous êtes alors à votre base.
+- **Votre coque revient plafonnée.** Vous revenez avec la coque de votre vaisseau **jusqu’à 10 000 au plus** et un bouclier vide, quel que soit l’endroit choisi. Le Protos (8 000 de coque) revient plein ; les vaisseaux plus gros (des 24 000 du Kitefin aux 600 000 de l’Ironclad) reviennent avec 10 000, alors réparez avant le prochain combat avec un Repair Drone ou une Emergency Repair (voir [Combat](/wiki/03-Mechanics/Combat.md) et [Compétences](/wiki/03-Mechanics/Abilities.md)). Le bouclier se recharge comme d’habitude. L’écran de destruction vous le dit.
+- **Ce que coûte une destruction, à part cela :** vous ne perdez aucun objet, et le choix ne décide que de l’endroit où vous apparaissez. Vos compétences sont prêtes, et vous revenez non occulté et hors de toute fenêtre d’EMP. Vous restez dans votre [groupe](/wiki/03-Mechanics/Groups.md).
+- **Amarrage.** « Retour à la base » sur l’écran de destruction vous ramène à la base, comme toujours, avec la même coque. Si le jeu se ferme avant que vous ayez choisi, réparez gratuitement le vaisseau au [hangar](/wiki/03-Mechanics/Hangar.md) ; vous êtes alors à votre base, avec la même coque et sans bouclier.
 
 ## Commandes clavier et raccourcis {#keyboard-controls-keybindings}
 
@@ -65,7 +68,7 @@ C’est une fenêtre comme les autres. Faites-la glisser par sa barre de titre p
 
 ## Quand le jeu rame {#when-the-game-lags}
 
-Activez **Paramètres › Général › Afficher les infos réseau** et une petite carte apparaît en haut à droite (elle se tient à l’écart des fenêtres, et elle reste désactivée tant que vous ne l’activez pas). Elle indique de quel côté vient la lenteur :
+Activez **Paramètres › Interface › Afficher les infos réseau** et une petite carte apparaît en haut à droite (elle se tient à l’écart des fenêtres, et elle reste désactivée tant que vous ne l’activez pas). Elle indique de quel côté vient la lenteur :
 
 | Mesure | De quoi il s’agit | Bon, lent |
 | :--- | :--- | :--- |
@@ -83,3 +86,4 @@ Quand une valeur est mauvaise, une ligne sous les chiffres dit d’où vient le 
 2. **Zones sûres** : les portails et les bases sont entourés de **zones sûres**. Dans ces zones, les autres pilotes ne peuvent pas vous attaquer, ce qui vous permet de récupérer vos boucliers ou d’attendre la fin des temps de recharge de combat en toute sécurité.
 3. **Votre première compétence** : votre kit de départ a déjà un Repair Drone I installé dans l’emplacement de compétence du Protos, si bien que le bouton Emergency Repair (`E`, à côté de la barre rapide) répare votre coque sur dix secondes chaque fois qu’elle est endommagée. Voir [Compétences](/wiki/03-Mechanics/Abilities.md).
 4. **Taxes quotidiennes de faction** : si vous êtes membre d’un clan, sachez que le trésor du clan prélève un pourcentage de taxe (0 % à 5 %) sur votre solde quotidien de crédits à minuit UTC. Choisissez bien votre clan !
+5. **Copier depuis le wiki** : faites glisser la souris sur un texte d’un article pour le sélectionner, puis appuyez sur `Ctrl+C` (`Cmd+C` sur Mac) pour le copier ; un clic sur un lien ouvre toujours la page. **Copier la page**, en haut de chaque article, copie toute la page en Markdown, à coller dans un chat ou une note.

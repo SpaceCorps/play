@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Los Goombahs son temibles naves alienígenas de clase crucero. Tienen una gran capacidad de escudo e infligen un daño enorme, pero nunca empiezan un combate: un Goombah solo ataca al piloto que lo atacó.
+Los Goombahs son temibles naves alienígenas de clase crucero. Tienen una gran capacidad de escudo e infligen un daño enorme, pero nunca empiezan un combate: un Goombah solo ataca al piloto que lo atacó. Las naves de los [enjambres](/wiki/05-Swarms/Swarms.md) son tipos de alienígena aparte, con artículos propios en la categoría Enjambres.
 
 ## Estadísticas {#stats}
 
@@ -28,13 +28,14 @@ Los Goombahs son temibles naves alienígenas de clase crucero. Tienen una gran c
 - **Thulium**: 75
 - **Experiencia (XP)**: 3.000
 - **Honor**: 24
+- **Puntos PvE por derribo**: 7
 - **Recarga de escudo**: 100 por segundo (15 s de retraso)
 
 ## Botín {#loot-drops}
 
 Cae en una [caja de carga](/wiki/03-Mechanics/Cargo.md) en el lugar donde explota, reservada durante 30 segundos para quien lo destruyó.
 
-Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/05-Items/Resources.md).
+Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100 % de probabilidad (mín.: 3, máx.: 3)

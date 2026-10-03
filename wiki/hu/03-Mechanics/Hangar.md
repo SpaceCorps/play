@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 
 ## Hajócsere {#changing-ship}
 
-A hajónak, amelyre váltasz, **ugyanaz a hajóteste és ugyanazok a pajzsai** vannak, **mint amikor** utoljára repültél vele, pontosan úgy, mintha elindítottad volna. A gyűrű nem javít, így a hajócsere sosem gyógyít: a hajó, amelyet elhagysz, megtartja a sérülését, és azzal tér vissza. Egy megsemmisült hajóval nem repülhetsz, amíg újra nem éleszted.
+A hajónak, amelyre váltasz, **ugyanaz a hajóteste és ugyanazok a pajzsai** vannak, **mint amikor** utoljára repültél vele, pontosan úgy, mintha elindítottad volna. A gyűrű nem javít, így a hajócsere sosem gyógyít: a hajó, amelyet elhagysz, megtartja a sérülését, és azzal tér vissza. Egy megsemmisült hajóval nem repülhetsz, amíg újra nem éleszted; ez ingyen van, és az újraéledéshez hasonlóan legfeljebb 10 000 hajótesttel és pajzs nélkül hozza vissza.
 
 Ami a tiéd, a tiéd marad: a lőszered, a rakétáid és az időzítőjük, a képességeid töltődései, a boosterid, az XP-d és a Slave Drone-jaid. Ami a hajóhoz tartozott, véget ér: egy futó Shield Surge vagy Afterburner, a javítások, a célzásod, a támadásod és az irány, amelyen repültél. A felszerelések azon a hajón maradnak, amelyre fel vannak szerelve.
 

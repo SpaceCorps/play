@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket betyder att de aldrig börjar en strid: en Seeker vänder sig mot den pilot som skjuter på den, och bara mot den piloten. Den släpper taget om ingen har träffat den på 10 sekunder, och dess skrov lagar sig när den har lämnats i fred i 30 sekunder.
+Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket betyder att de aldrig börjar en strid: en Seeker vänder sig mot den pilot som skjuter på den, och bara mot den piloten. Den släpper taget om ingen har träffat den på 10 sekunder, och dess skrov lagar sig när den har lämnats i fred i 30 sekunder. Boss Seeker och Seeker Slaves i [Seeker-svärmen](/wiki/05-Swarms/Seeker-Swarm.md) ser ut som Seekers men är slag för sig: deras nedskjutningar räknas under deras egna namn, inte som Seeker-nedskjutningar.
 
 ## Värden {#stats}
 
@@ -28,13 +28,14 @@ Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket bet
 - **Thulium**: 4
 - **Erfarenhet (XP)**: 100
 - **Heder**: 2
+- **PvE-poäng per nedskjutning**: 1
 - **Sköldladdning**: 10 per sekund (15 s fördröjning)
 
 ## Byte {#loot-drops}
 
 Lämnas som en [lastlåda](/wiki/03-Mechanics/Cargo.md) där den exploderar, reserverad för den som fällde den i 30 sekunder.
 
-Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/05-Items/Resources.md).
+Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20 % chans (Min: 1, Max: 1)
 - **Daraxium**: 50 % chans (Min: 1, Max: 2)

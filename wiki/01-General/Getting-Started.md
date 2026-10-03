@@ -4,10 +4,12 @@ Welcome to the ultimate space warfare experience. As a pilot in SpaceCorps, you 
 
 ## Core Resources
 
-To survive and thrive, you must manage two currencies and keep an eye on your Honor. The materials you build with are on the [Resources](/wiki/05-Items/Resources.md) page, with where to get each one and what it is for:
+To survive and thrive, you must manage two currencies and keep an eye on your Honor. The materials you build with are on the [Resources](/wiki/06-Items/Resources.md) page, with where to get each one and what it is for:
 - **Credits**: The primary standard currency, paid by every alien you defeat and by finished missions, and made by the Credit Farm of your [Skylab](/wiki/03-Mechanics/Skylab.md). Used to buy basic gear, ships, and standard equipment.
-- **Thulium**: The rare radioactive ore and high-value currency, paid by every alien you defeat and by finished missions, and made by the Thulium Farm of your Skylab. Used to purchase elite weaponry, propulsion thrusters, hybrid shields, and powerful booster packs.
+- **Thulium**: The rare radioactive ore and high-value currency, paid by every alien you defeat and by finished missions, and made by the Thulium Farm of your Skylab. Used to purchase elite weaponry, engines, hybrid shields, and powerful booster packs, and to upgrade modules in the Assembly.
 - **Honor**: A score, not money: a measure of your faction rank, loyalty, and standing. Earning Honor increases your rank title, but attacking friendly pilots from your own faction will heavily penalize your Honor rating: destroying a pilot of your own company, a player's ship or one of its [Company Pilots](/wiki/03-Mechanics/Company-Pilots.md), costs 100 Honor. So does hitting one in the 15 seconds before something else destroys it: softening up a company mate for an alien to finish costs as much as the kill. Killing a company mate is no PvP kill and earns no PvP points.
+
+In the station your Credits, Thulium and Honor sit in the top right corner of every page, beside your sector and the **Launch** button. When the window is too narrow for a long amount it is shortened (987.7M); point at it to read the whole number.
 
 ## Playing With Friends
 
@@ -29,11 +31,12 @@ When your hull reaches 0 the ship is destroyed and the death screen asks where y
 
 - **The lock starts when you respawn with that choice**, not when you die, and it belongs to that choice alone: using the portal does not lock the spot. A locked choice is greyed out on the death screen with a countdown (minutes and seconds) and opens by itself when it runs out. The locks are kept by the server: logging out and in does not reset them. A new season (the wipe) does.
 - **A choice the server refuses costs nothing.** If a choice cannot be used (still locked, no portal in the sector, you changed world since you died) the lock is not spent and your ship is not moved; you pick again.
-- **Protection.** A ship that comes back at a portal or on the spot cannot be damaged or locked on to for **5 seconds**, and aliens lose interest in it, so whoever destroyed you cannot destroy you again at once. The HUD shows the seconds left. Your **first shot** (a laser volley or a rocket) ends the protection, and you are told when it ends. At base the station's safe zone protects you as it always does.
+- **Spawn protection.** Whichever place you pick, your ship cannot be damaged or locked on to for **3 seconds** after it comes back, and aliens lose interest in it, so whoever destroyed you cannot destroy you again at once. The same 3 seconds, **you cannot attack**: a laser or a rocket is refused with a notice, and the protection does not end early. The HUD shows the seconds left. It ends when they run out.
 - **The black hole.** A place inside the ring of radiation of the [black hole](/wiki/03-Mechanics/Black-Hole.md) (4,200 units from the centre of Danger Sector 4) is never a place to come back to: if you were destroyed there, "on the spot" puts you at the nearest point outside the ring, on the line from the centre through your place, and tells you.
 - **Danger Sectors.** All three choices work there too.
-- **What a destruction costs is unchanged:** you come back with your ship's base hull and empty shields, you lose no items, and the choice only decides where you appear. Your abilities are ready, and you come back uncloaked and out of any EMP window. You stay in your [group](/wiki/03-Mechanics/Groups.md).
-- **Docking.** "Return to Base" on the death screen brings you back at base, as always. If the game closes before you choose, revive the ship for free in the [Hangar](/wiki/03-Mechanics/Hangar.md); you are at your base.
+- **Your hull comes back capped.** You return with your ship's hull **up to 10,000** and an empty shield, whichever place you pick. A Protos (8,000 hull) comes back full; the bigger ships (the Kitefin's 24,000 up to the Ironclad's 600,000) come back with 10,000, so repair before the next fight with a Repair Drone or an Emergency Repair (see [Combat](/wiki/03-Mechanics/Combat.md) and [Abilities](/wiki/03-Mechanics/Abilities.md)). The shield recharges as usual. The death screen says so.
+- **What a destruction costs, besides that:** you lose no items, and the choice only decides where you appear. Your abilities are ready, and you come back uncloaked and out of any EMP window. You stay in your [group](/wiki/03-Mechanics/Groups.md).
+- **Docking.** "Return to Base" on the death screen brings you back at base, as always, with the same hull. If the game closes before you choose, revive the ship for free in the [Hangar](/wiki/03-Mechanics/Hangar.md); you are at your base, with the same hull and no shield.
 
 ## Keyboard Controls & Keybindings
 
@@ -63,7 +66,7 @@ It is a window like the others. Drag it by its title bar to put it anywhere, clo
 
 ## When the Game Lags
 
-Switch on **Settings › General › Show network info** and a small card appears at the top right (it keeps out of the way of the windows, and it is off until you switch it on). It tells you which side is slow:
+Switch on **Settings › Interface › Show network info** and a small card appears at the top right (it keeps out of the way of the windows, and it is off until you switch it on). It tells you which side is slow:
 
 | Reading | What it is | Good, slow |
 | :--- | :--- | :--- |
@@ -81,3 +84,4 @@ When something is bad, one line under the numbers says whose fault it is: *Netwo
 2. **Safe Zones**: Portals and bases have **Safe Zones** around them. In these areas, other pilots cannot attack you, allowing you to recover shields or wait out combat cooldowns safely.
 3. **Your first ability**: your starter kit already has a Repair Drone I fitted in the Protos' ability slot, so the Emergency Repair button (`E`, beside the hotbar) heals your hull over ten seconds whenever it is damaged. See [Abilities](/wiki/03-Mechanics/Abilities.md).
 4. **Daily Faction Taxes**: If you are a member of a Clan, be aware that the clan treasury deducts a tax percentage (0% to 5%) from your daily Credits balance at UTC midnight. Make sure to choose your clan wisely!
+5. **Copy from this wiki**: drag over any text in an article to select it and press `Ctrl+C` (`Cmd+C` on a Mac) to copy it; a click on a link still opens the page. **Copy page**, at the top of an article, copies the whole page as Markdown, to paste into a chat or a note.

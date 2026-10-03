@@ -21,7 +21,7 @@ Repairs going on don't stop you. Anywhere else the Hangar window still opens, bu
 
 ## Changing Ship
 
-The ship you switch to has **the hull and shields it had** when you last flew it, exactly as if you had launched it. The ring doesn't repair, so changing ship never heals you: the ship you leave keeps the damage it has, and comes back with it. A wrecked ship can't be flown until you revive it.
+The ship you switch to has **the hull and shields it had** when you last flew it, exactly as if you had launched it. The ring doesn't repair, so changing ship never heals you: the ship you leave keeps the damage it has, and comes back with it. A wrecked ship can't be flown until you revive it, which is free and brings it back with at most 10,000 hull and no shield, as a respawn does.
 
 What is yours stays yours: your ammo, your rockets and their timer, your ability cooldowns, your boosters, your XP and your Slave Drones. What belonged to the ship ends: a running Shield Surge or Afterburner, repairs, your target lock, your attack and the course you were flying. Fittings stay on the ship they are fitted to.
 

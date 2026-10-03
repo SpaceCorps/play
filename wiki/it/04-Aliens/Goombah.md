@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-I Goombah sono formidabili navi aliene di classe incrociatore. Hanno una grande capacità di scudo e infliggono danni enormi, ma non iniziano mai uno scontro: un Goombah attacca solo il pilota che lo ha attaccato.
+I Goombah sono formidabili navi aliene di classe incrociatore. Hanno una grande capacità di scudo e infliggono danni enormi, ma non iniziano mai uno scontro: un Goombah attacca solo il pilota che lo ha attaccato. Le navi degli [sciami](/wiki/05-Swarms/Swarms.md) sono specie di alieni distinte, con articoli propri nella categoria Sciami.
 
 ## Statistiche {#stats}
 
@@ -28,13 +28,14 @@ I Goombah sono formidabili navi aliene di classe incrociatore. Hanno una grande 
 - **Thulium**: 75
 - **Esperienza (XP)**: 3.000
 - **Onore**: 24
+- **Punti PvE per abbattimento**: 7
 - **Ricarica scudo**: 100 al secondo (dopo 15 s)
 
 ## Bottino {#loot-drops}
 
 Il bottino cade come [cassa di carico](/wiki/03-Mechanics/Cargo.md) nel punto in cui esplode, riservata per 30 secondi a chi l’ha abbattuto.
 
-A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/05-Items/Resources.md).
+A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100% di probabilità (min. 3, max. 3)

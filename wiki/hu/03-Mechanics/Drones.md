@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: Drónok -->
 # Drónmechanika {#drone-mechanics}
 
@@ -6,7 +6,7 @@ A drónok önálló támogató egységek, amelyek a hajód mellett repülnek. To
 
 ## Drónok beszerzése {#getting-drones}
 
-Minden drón, amelyet birtokolsz, akár **Slave Drone**, akár Master Drone, megnyitja a saját drónfoglalatait (a Slave Drone egyet, a Master Drone kettőt), legfeljebb **8** drónig. A Bolt Slave Drone-okat árul kreditért, a negyediktől kezdve Thuliumért is. Mindegyik többe kerül az előzőnél: az árak a [Drónok](/wiki/05-Items/Drones.md) oldalon vannak.
+Minden drón, amelyet birtokolsz, akár **Slave Drone**, akár Master Drone, megnyitja a saját drónfoglalatait (a Slave Drone egyet, a Master Drone kettőt), legfeljebb **8** drónig. A Bolt Slave Drone-okat árul kreditért, a negyediktől kezdve Thuliumért is. Mindegyik többe kerül az előzőnél: az árak a [Drónok](/wiki/06-Items/Drones.md) oldalon vannak.
 
 ## Formáció és mozgás {#formation-movement}
 

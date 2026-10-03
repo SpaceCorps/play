@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 68808994f9a5412c -->
+<!-- wiki-i18n source: 8413f6e3fbe182ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
-A Phantasm idegenek agresszív, kísértetosztályú drónok. Megtámadnak minden játékost, aki belép az aggrósugarukba (700 egység), és elveszítik az érdeklődésüket, ha a pilóta több mint 1 200 egységre van tőlük, vagy ha 2 000 egységet repültek az üldözés kezdőpontjától (2 500, illetve 3 000 egység, ha a pilóta rájuk lőtt, lásd [Harc](/wiki/03-Mechanics/Combat.md)); azt a pilótát, aki az elmúlt 10 másodpercben eltalált egyet, egyáltalán nem engedik el, és a Phantasm arra a pilótára repül, valahányszor az a fegyvere hatótávján (700 egység) kívül van. Ha több pilóta lő rá, a Phantasm az első pilótánál marad, aki rálőtt, amíg az a pilóta folyamatosan találja (lásd [Kivel harcol egy idegen](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
+A Phantasm idegenek agresszív, kísértetosztályú drónok. Megtámadnak minden játékost, aki belép az aggrósugarukba (700 egység), és elveszítik az érdeklődésüket, ha a pilóta több mint 1 200 egységre van tőlük, vagy ha 2 000 egységet repültek az üldözés kezdőpontjától (2 500, illetve 3 000 egység, ha a pilóta rájuk lőtt, lásd [Harc](/wiki/03-Mechanics/Combat.md)); azt a pilótát, aki az elmúlt 10 másodpercben eltalált egyet, egyáltalán nem engedik el, és a Phantasm arra a pilótára repül, valahányszor az a fegyvere hatótávján (700 egység) kívül van. Ha több pilóta lő rá, a Phantasm az első pilótánál marad, aki rálőtt, amíg az a pilóta folyamatosan találja (lásd [Kivel harcol egy idegen](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 
 ## Értékek {#stats}
 
@@ -19,13 +19,14 @@ A Phantasm idegenek agresszív, kísértetosztályú drónok. Megtámadnak minde
 - **Thulium**: 12
 - **Tapasztalat (XP)**: 300
 - **Becsület**: 6
+- **PvE-pont kilövésenként**: 2
 - **Pajzstöltődés**: másodpercenként 20 (15 mp késleltetés)
 
 ## Zsákmány {#loot-drops}
 
 Egy [rakományláda](/wiki/03-Mechanics/Cargo.md) marad belőle ott, ahol felrobban, és 30 másodpercig a kilövőé.
 
-Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/05-Items/Resources.md).
+Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 100% esély (min. 1, max. 1)
 - **Daraxium**: 60% esély (min. 1, max. 2)

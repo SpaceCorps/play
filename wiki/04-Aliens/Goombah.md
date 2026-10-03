@@ -1,6 +1,6 @@
 # Goombah
 
-Goombahs are formidable cruiser-class alien vessels. They possess high shield capacity and deal massive damage, but they never start a fight: a Goombah attacks only the pilot who attacked it.
+Goombahs are formidable cruiser-class alien vessels. They possess high shield capacity and deal massive damage, but they never start a fight: a Goombah attacks only the pilot who attacked it. The ships of the [swarms](/wiki/05-Swarms/Swarms.md) are separate kinds of alien, with articles of their own in the Swarms category.
 
 ## Stats
 
@@ -26,13 +26,14 @@ Goombahs are formidable cruiser-class alien vessels. They possess high shield ca
 - **Thulium**: 75
 - **Experience (XP)**: 3,000
 - **Honor**: 24
+- **PvE points per kill**: 7
 - **Shield Recharge**: 100 per second (15s delay)
 
 ## Loot Drops
 
 Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the killer's for 30 seconds.
 
-What each drop is for, and where else to find it: [Resources](/wiki/05-Items/Resources.md).
+What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100% chance (Min: 3, Max: 3)

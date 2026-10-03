@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ae35d5bdcf504de8 -->
+<!-- wiki-i18n source: d8bf989776a71cb4 -->
 <!-- wiki-i18n title: 技能 -->
 # 舰船主动技能 {#active-ship-abilities}
 
@@ -80,7 +80,7 @@
 
 <!-- abilities:end -->
 
-III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/05-Items/Overview.md#upgrading-modules)中，分别用一个 Basic Shield Core 和一个 Engine II 来制造，并消耗 Thulium、掉落物，以及你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂做出的 Velkonite Reinforced Plate。Emergency Repair 还有第四个等级，即 Repair Drone IV。
+III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中，分别用一个 Basic Shield Core 和一个 Engine II 来制造，并消耗 Thulium、掉落物，以及你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂做出的 Velkonite Reinforced Plate。Emergency Repair 还有第四个等级，即 Repair Drone IV。
 
 ## 冷却与限制 {#cooldowns-and-limits}
 

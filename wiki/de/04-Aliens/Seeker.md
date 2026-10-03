@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen also nie einen Kampf: Ein Seeker wendet sich gegen den Piloten, der auf ihn schießt, und nur gegen diesen. Er lässt ab, wenn ihn 10 Sekunden lang niemand getroffen hat, und seine Hülle repariert sich, sobald man ihn 30 Sekunden in Ruhe gelassen hat.
+Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen also nie einen Kampf: Ein Seeker wendet sich gegen den Piloten, der auf ihn schießt, und nur gegen diesen. Er lässt ab, wenn ihn 10 Sekunden lang niemand getroffen hat, und seine Hülle repariert sich, sobald man ihn 30 Sekunden in Ruhe gelassen hat. Der Boss Seeker und die Seeker Slaves des [Seeker-Schwarms](/wiki/05-Swarms/Seeker-Swarm.md) sehen aus wie Seeker, sind aber Arten für sich: Ihre Abschüsse werden unter ihrem eigenen Namen gezählt, nicht als Seeker-Abschüsse.
 
 ## Werte {#stats}
 
@@ -28,13 +28,14 @@ Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen
 - **Thulium**: 4
 - **Erfahrung (EP)**: 100
 - **Ehre**: 2
+- **PvE-Punkte pro Abschuss**: 1
 - **Schildaufladung**: 10 pro Sekunde (15 s Verzögerung)
 
 ## Beute {#loot-drops}
 
 Die Beute fällt als [Frachtkiste](/wiki/03-Mechanics/Cargo.md) dort, wo er explodiert, und gehört 30 Sekunden lang dem Piloten, der ihn abgeschossen hat.
 
-Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/05-Items/Resources.md).
+Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20 % Chance (Min.: 1, Max.: 1)
 - **Daraxium**: 50 % Chance (Min.: 1, Max.: 2)

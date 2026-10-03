@@ -11,6 +11,8 @@ The universe comprises three main company sectors (Mars, Terra, Galactic) and a 
 - **x-4 (Border)**: The gateway to the PvP sector.
 - **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4.
 
+Only the home bases have a station. It is where **Mission Control** opens, and its safe zone reaches 1,600 units around it. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to your base for your missions.
+
 Each [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) has its own copy of this whole map, and where pilots may fight each other depends on it: in Alpha only in `x-4` and `DS-x`, in Beta everywhere except `x-1`, in Gamma everywhere. The galaxy map colours the sectors by your world's rule.
 
 ## Visualization

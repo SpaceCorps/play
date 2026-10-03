@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Konzernpiloten -->
 # Konzernpiloten {#company-pilots}
 
@@ -17,6 +17,7 @@ Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, 
 
 - **Patrouillieren** eine Runde durch die Station des Sektors, seine Portale und ein paar Punkte dazwischen.
 - **Jagen** Aliens, die sie bezwingen können (Seeker und Phantasms; Bulwarks, Goombahs und Crystalys lassen sie in Ruhe), solange Piloten im Sektor fliegen. Ein Alien, gegen das ein Pilot eines anderen Konzerns kämpft, gehört diesem: Die Staffel lässt es in Ruhe.
+- **Sie ignorieren die [Schwärme](/wiki/05-Swarms/Swarms.md)**: Ein Schwarmschiff geht sie nichts an. Sie jagen es nicht, greifen nicht in einen Kampf gegen es ein und kommen dir in einem solchen nie zu Hilfe.
 - **Helfen**: Wird ein Pilot ihres Konzerns im Umkreis von 1.500 Einheiten um sie von einem Alien angegriffen oder eröffnet er das Feuer auf ein Alien, das sie bezwingen könnten, schließen sie sich diesem Kampf an. Aus einem Kampf, den ein Mitpilot mit einem Alien begonnen hat, das sie nicht besiegen könnten (ein Goombah, auf den ein Pilot geschossen hat, oder ein Bulwark), halten sie sich heraus; ein aggressives Alien, das auf einen Mitpiloten losgeht, wird abgewehrt, was auch immer es ist. Ein Alien, das sie erledigen, zahlt an den Piloten, der seinen Anspruch hält (den, der es als Erster getroffen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); hält niemand einen, zählt es für den nächsten Piloten ihres Konzerns, der darauf feuert (anvisiert, in Reichweite, eine Salve in den letzten 2,5 Sekunden). So oder so gehören die Belohnungen diesem Piloten, und die [Frachtkiste](/wiki/03-Mechanics/Cargo.md) des Aliens ist für ihn reserviert, als hätte er den Abschuss erzielt. Konzernpiloten beanspruchen nie ein Alien und verdienen oder sammeln nie selbst etwas: Ein Alien, gegen das sie allein kämpfen, hinterlässt keine Kiste. Aus der Ferne anzuvisieren oder nur beschossen zu werden bringt nichts.
 - **Zurückschlagen**, wenn Aliens auf sie schießen, und wenn Piloten anderer Konzerne auf sie schießen, sobald PvP offen ist und wo ihre [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP erlaubt: keines in `x-1` bis `x-3` von Alpha und auch keines in `x-1` von Beta.
 - **Reparieren** mit ihrer Drohne, wann immer ihre Hülle angeschlagen ist: 1,5 % davon pro Sekunde, ab 10 Sekunden nach dem letzten Treffer.

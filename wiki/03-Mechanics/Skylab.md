@@ -76,7 +76,7 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 
 - **Importance**: if your power use is higher than your power made, your farms and collectors shut down.
 - **Power made**: a Solar module at level N makes enough for **every other module at level N**, and about a tenth more: 255 at level 1, 835 at level 7, 16,010 at level 20. Level 7 Solar powers a whole station at level 7 (see Power Management for every level).
-- **Upgrading**: Solar is offline while it upgrades, and it is the only module that makes power, so the whole station is without power until the upgrade ends (see Building and Upgrading).
+- **Upgrading**: Solar keeps making the power of its current level while it upgrades, and the new level's power from the moment the upgrade ends, so the rest of the station keeps running (see Building and Upgrading).
 
 ### Credit Farm and Thulium Farm
 
@@ -86,12 +86,12 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 
 ## The supply chain
 
-Four modules turn time spent away from the keyboard into the plates for your best lasers. Ore comes **only** from the collectors (all the materials and currencies are on the [Resources](/wiki/05-Items/Resources.md) page): aliens do not drop it and the Shop does not sell it.
+Four modules turn time spent away from the keyboard into the plates for your best lasers. Ore comes **only** from the collectors (all the materials and currencies are on the [Resources](/wiki/06-Items/Resources.md) page): aliens do not drop it and the Shop does not sell it.
 
 1. A **collector** mines ore, an amount an hour, into its own hopper (72 hours' worth).
 2. **Collect** moves the ore from the hopper into the **Resource Storage**, the bank, where each ore is kept apart.
 3. The **Forgery** takes the ore it needs from the bank when a batch starts, and makes plates, 10 seconds a plate, one batch at a time.
-4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/05-Items/Lasers.md) turns them into a Quantum Laser 3, a Starfire-3 or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate for [The Forge](/wiki/05-Items/Forge.md).
+4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/06-Items/Lasers.md) turns them into a Quantum Laser 3, a Starfire-3 or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate for [The Forge](/wiki/06-Items/Forge.md).
 
 ### Velkonite Collector and Orvium Collector
 
@@ -120,7 +120,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 Each of the four costs **10 Ship Fragments, 10,000 Credits and 500 Thulium**, and needs Core level 5.
 
 - The Ship Fragments are taken from your inventory (not from the Transport Cache) and your ship must be landed. The build sheet shows what you have against what it takes, and what you lack.
-- They draw power. Before you build, the sheet shows your power balance now and after: **building can put a station into a deficit** when its Solar is behind the other modules, and one deficit stops every farm and collector. Switch a module off, or upgrade Solar first (the station has no power while Solar upgrades).
+- They draw power. Before you build, the sheet shows your power balance now and after: **building can put a station into a deficit** when its Solar is behind the other modules, and one deficit stops every farm and collector. Switch a module off, or upgrade Solar first.
 - The two collectors hang on rigs above the station, the Resource Storage sits at the Core's north-east port and the Forgery at its north-west port.
 
 ## Mechanics
@@ -131,8 +131,8 @@ Each of the four costs **10 Ship Fragments, 10,000 Credits and 500 Thulium**, an
 - **Time and cost**: upgrades cost Credits and Thulium and take time. A supply-chain module's upgrade costs 10,000 x 1.5^level Credits and 500 x 1.5^level Thulium (the Resource Storage x1.4 a level). The cost does not depend on the time.
 - **Timers**: an upgrade runs on the server's clock, so it finishes while you are away, days later if it has to. Start it, log off, come back: the module is at its new level when you open the Skylab page.
 - **Upgrade times**: the first levels are quick and the last ones take days (see the tables below). Every module has its own timer, so you can upgrade several at once.
-- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power.
-- **Upgrading Solar switches the station off**: Solar makes all of the Skylab's power, so while it upgrades every farm and collector stops producing for the whole upgrade (6 days for the last level) and the Forgery starts no new batch. What they hold stays and you can still collect it, but the production lost in the meantime is not made up. The upgrade sheet warns you before you confirm. Plan your upgrades accordingly.
+- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception (see below).
+- **Solar keeps making power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (6 days for the last level) it keeps making the power of its **current** level; the new level's power takes over the moment the upgrade ends. The farms, the collectors and the Forgery keep running as long as that power covers them, so upgrading Solar never switches your station off, and the Forgery can start new batches meanwhile. Only the module being upgraded is offline.
 
 ### Upgrade times
 

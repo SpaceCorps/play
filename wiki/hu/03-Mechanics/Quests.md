@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50aef07b7e598353 -->
+<!-- wiki-i18n source: 500bc358b49f4250 -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -25,7 +25,7 @@ A küldetések a szintlépés fő módja. A Küldetésirányítás osztja ki ők
 
 - Minden szint tizenegyedik küldetése a **Különleges**. Addig zárolva van, amíg a szint **mind a tíz** másik küldetését nem teljesítetted (átvetted, vagy átvételre vár), és a kártyája megmondja, még hány hiányzik.
 - A Különlegesek több tapasztalatot fizetnek, mint bármelyik másik küldetés a szintjükön, és ráadásul **tárgyakat** is: lézereket, pajzsalkatrészeket, generátorokat, Power Core-okat, Ship Fragmenteket, lőszert és boosteridőt.
-- Az 1. szint rendes küldetései egy-egy kis kezdőtárgyat is adnak: egy Light Shield Core-t, egy Repair Drone-t, egy Damage Ampet, egy Basic Shield Cellt, némi lőszert és egy-egy köteg rakétát, hogy minden fajtát kipróbálhass (Lancet, Rivet, Ember és Scatter, a Különlegesből pedig Javelin).
+- Az 1. szint rendes küldetései egy-egy kis kezdőtárgyat is adnak: egy Light Shield Core-t, egy Repair Drone-t, egy Damage Ampet, egy Absorption Shield Cell I-et, némi lőszert és egy-egy köteg rakétát, hogy minden fajtát kipróbálhass (Lancet I, Rivet I, Ember I és Scatter I, a Különlegesből pedig Lancet II).
 
 ## Állomásküldetések {#station-missions}
 
@@ -33,7 +33,7 @@ A küldetések a szintlépés fő módja. A Küldetésirányítás osztja ki ők
 - Úgy fogadod el, követed, adod fel és veszed át őket, mint minden küldetést, de nem számítanak bele az 5-be: a többi 5 mellett **egyszerre 3 állomásküldetést** vihetsz. Egy állomásküldetés órákig várhat a fejlesztési időzítőkre, és sosem tart fel egy harci küldetést.
 - Egy állomásküldetés elfogadása nem változtatja meg a követett küldetésedet, ha van olyanod, amelyet a repülés előrevihet: az Aktív küldetések ablak továbbra is a harci küldetésedet mutatja, az állomásküldetés pedig egy pont a címsorában (vidd fölé az egeret a haladásáért, kattints rá, hogy megjelenjen).
 - Mindegyik a saját **pilótaszintjén** nyílik meg, és csak azoknak az állomásküldetéseknek az átvétele után, amelyekre épül (előbb át kell venni őket): a zárolt kártya megmondja, melyik kell. Az első három az 1. szinten nyílik meg.
-- A feladataik a Skylabodat olvassák: egy modul **megépítése** vagy **fejlesztése egy szintre** (kész, amíg a modul azon a szinten vagy afölött van), **az energia legyen 0 vagy több** (azokon a szinteken számolva, amelyeken a modulok vannak, akármi van kikapcsolva vagy fejlesztés alatt), és kredit **begyűjtése** a Kreditfarmról (a küldetés elfogadásának pillanatától számolva, a Nyersanyag begyűjtése gombbal). Az a küldetés, amelynek minden feladata egyszerre igaz, kész: amelyiknek már az elfogadáskor megfelelsz, az azonnal kész.
+- A feladataik a Skylabodat olvassák: egy modul **megépítése** vagy **fejlesztése egy szintre** (kész, amíg a modul azon a szinten vagy afölött van; egyetlen modul sem léphet a Mag szintje fölé, ezért egy Napelem-cél előbb a Mag fejlesztését kérheti), és kredit **begyűjtése** a Kreditfarmról (a küldetés elfogadásának pillanatától számolva, a Nyersanyag begyűjtése gombbal). Az a küldetés, amelynek minden feladata egyszerre igaz, kész: amelyiknek már az elfogadáskor megfelelsz, az azonnal kész.
 - Pontosan azt fizetik, **amit a táblázat mutat**: se világszorzó, se boosterek, se prémium tapasztalat, se tárgyak. A tapasztalatuk ráadás arra a 85%-ra, amelyet a szintek küldetései fizetnek (legfeljebb egy szint és a következő közötti tapasztalatkülönbség 5%-a).
 - Az állomásküldetések nem számítanak bele a teljesített küldetések [wipe-pontjaiba](/wiki/03-Mechanics/Wipe-Timeline.md). Mint minden küldetés, túlélik a wipe-ot, és az is, amit felépítettél.
 
@@ -83,7 +83,7 @@ A magasabb szektorokban fizetnek a küldetések, és ott halhatsz meg. Ehhez ter
 
 - **PvP**: más vállalatok pilótái az `x-4` szektorban és a központban minden világban megtámadhatnak, a Betában az `x-2` szektortól felfelé, a Gammában pedig mindenhol (kivéve a biztonságos zónákat és a Békeprotokoll idejét).
 - A **Bulwark** idegenek (`x-3`, `x-4`) lehagynak egy Protost, és keményen ütnek. Az [Ostirion](/wiki/02-Ships/Ostirion.md) hajóból harcolj velük, egy kapu biztonságos zónájának közelében, és javításhoz húzódj vissza abba.
-- A **Goombah** idegenek (`x-3`, `x-4`) hatótávja 800, 3 000 sebzést okoznak, és sosem kezdenek harcot: hagyj békén egyet, és téged is békén hagy; lőj rá, és az utolsó találatod után 10 másodpercig ellened fordul (és ha békén hagyják, javítja magát). Az a hajó, amelynek az összes lézere [Starfire-3](/wiki/05-Items/Lasers.md) (hatótáv: 850), a Goombah és a Bulwark idegeneknél is messzebbre ér: egy náluk gyorsabb hajóval (egy Ostirion vagy afölött; a Goombah sebessége 180, a Bulwarké 175) úgy tüzelhetsz, hogy nem kapsz találatot. A hajód hatótávja a lézerei hatótávjának átlaga, így egy Starfire-3 két Quantum Laser 2 mellett 750 egységről tüzel: elég messziről ahhoz, hogy távol maradhass egy Bulwarktól (700), egy Goombah-tól (800) viszont nem. Az 5. szint Különleges küldetése ad egyet; a Gyártásban is gyárthatsz egyet Velkonite Reinforced Plate-ekből, amelyeket a [Skylabod](/wiki/03-Mechanics/Skylab.md) Kovácsműhelye készít.
+- A **Goombah** idegenek (`x-3`, `x-4`) hatótávja 800, 3 000 sebzést okoznak, és sosem kezdenek harcot: hagyj békén egyet, és téged is békén hagy; lőj rá, és az utolsó találatod után 10 másodpercig ellened fordul (és ha békén hagyják, javítja magát). Az a hajó, amelynek az összes lézere [Starfire-3](/wiki/06-Items/Lasers.md) (hatótáv: 850), a Goombah és a Bulwark idegeneknél is messzebbre ér: egy náluk gyorsabb hajóval (egy Ostirion vagy afölött; a Goombah sebessége 180, a Bulwarké 175) úgy tüzelhetsz, hogy nem kapsz találatot. A hajód hatótávja a lézerei hatótávjának átlaga, így egy Starfire-3 két Quantum Laser 2 mellett 750 egységről tüzel: elég messziről ahhoz, hogy távol maradhass egy Bulwarktól (700), egy Goombah-tól (800) viszont nem. Az 5. szint Különleges küldetése ad egyet; a Gyártásban is gyárthatsz egyet Velkonite Reinforced Plate-ekből, amelyeket a [Skylabod](/wiki/03-Mechanics/Skylab.md) Kovácsműhelye készít.
 - A **Crystalys** idegenek a határt (`x-4`) járják. Semmi, ami a 8. szintig elérhető, nem ér messzebbre egy Crystalysnál, és csak egy gyors hajó hagyja le: tartsd a távolságot, és figyeld a minitérképet.
 - Ha megsemmisülsz, te választod ki, hol térsz vissza: a bázison, a legközelebbi portálnál vagy helyben (lásd [Megsemmisülés és újraéledés](/wiki/01-General/Getting-Started.md)). Az időkorlátos küldetések órája közben tovább fut.
 
@@ -100,17 +100,17 @@ A „→” a **Sorrendben** címkéjű küldetések feladatait köti össze, am
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Alapkiképzés: harc | Harc | Seeker megsemmisítése ×8 (x-1) | – | 950 | 5 000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
+| Alapkiképzés: harc | Harc | Seeker megsemmisítése ×8 (x-1) | – | 950 | 5 000 | 10 | 10 | Standard Battery ×500, Lancet I ×50 |
 | Alapkiképzés: navigáció | Felderítés | Járőrözés: 15 000 egység (x-1) → Járőrözés: 15 000 egység (x-2) | – | 900 | 4 500 | 10 | 9 | Light Shield Core ×1 |
-| Gyorsasági próba | Műveletek | Seeker megsemmisítése ×8 (x-1) | 8 perc | 1 050 | 5 000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
+| Gyorsasági próba | Műveletek | Seeker megsemmisítése ×8 (x-1) | 8 perc | 1 050 | 5 000 | 10 | 10 | Advanced Plasma ×100, Rivet I ×50 |
 | Az otthoni szektor védelme | Harc | Seeker megsemmisítése ×12 (x-1) | – | 1 300 | 6 500 | 15 | 13 | Standard Battery ×500 |
 | Gyors felderítés | Felderítés | Járőrözés: 35 000 egység (x-1) | 7 perc | 900 | 4 500 | 10 | 9 | Repair Drone I ×1 |
-| Összehangolt műveletek | Műveletek | Seeker megsemmisítése ×8 (x-1); Járőrözés: 15 000 egység (x-1) | – | 1 200 | 6 000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
-| Üss és fuss | Felderítés | Seeker megsemmisítése ×4 (x-2) → Járőrözés: 20 000 egység (x-2) | – | 1 000 | 5 000 | 10 | 10 | Basic Shield Cell ×1 |
+| Összehangolt műveletek | Műveletek | Seeker megsemmisítése ×8 (x-1); Járőrözés: 15 000 egység (x-1) | – | 1 200 | 6 000 | 10 | 12 | Advanced Plasma ×100, Ember I ×30 |
+| Üss és fuss | Felderítés | Seeker megsemmisítése ×4 (x-2) → Járőrözés: 20 000 egység (x-2) | – | 1 000 | 5 000 | 10 | 10 | Absorption Shield Cell I ×1 |
 | Nagyvadvadász | Harc | Seeker megsemmisítése ×20 (x-1) | – | 2 050 | 10 000 | 20 | 20 | Standard Battery ×1 000 |
-| A peremvidék védelme | Harc | Seeker megsemmisítése ×15 (x-2) | – | 1 650 | 8 000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
+| A peremvidék védelme | Harc | Seeker megsemmisítése ×15 (x-2) | – | 1 650 | 8 000 | 15 | 16 | Damage Amp 1 ×1, Scatter I ×30 |
 | Vesszőfutás | Műveletek | Seeker megsemmisítése ×8 (x-1) → Járőrözés: 12 000 egység (x-2) → Seeker megsemmisítése ×8 (x-2) | 20 perc | 2 600 | 13 000 | 25 | 26 | Advanced Plasma ×150 |
-| **Phantasm-vadász** (Különleges) | Műveletek | Phantasm megsemmisítése ×2 (x-2); Seeker megsemmisítése ×15 (x-2) | – | 3 400 | 17 000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
+| **Phantasm-vadász** (Különleges) | Műveletek | Phantasm megsemmisítése ×2 (x-2); Seeker megsemmisítése ×15 (x-2) | – | 3 400 | 17 000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### 2. szint: Első kapcsolat {#level-2-first-contact}
 
@@ -128,7 +128,7 @@ A „→” a **Sorrendben** címkéjű küldetések feladatait köti össze, am
 | Seeker-gyérítés | Harc | Seeker megsemmisítése ×30 (x-2) | – | 2 100 | 14 500 | 40 | 21 | – |
 | Kapufutam | Felderítés | Járőrözés: 20 000 egység (x-2) → Járőrözés: 3 000 egység (x-3) | – | 800 | 5 500 | 15 | 8 | – |
 | Rajtaütés-gyakorlat | Műveletek | Phantasm megsemmisítése ×3 (x-2); Seeker megsemmisítése ×10 (x-2) | 15 perc | 1 600 | 11 000 | 30 | 16 | – |
-| **Phantasm-tisztogatás** (Különleges) | Műveletek | Phantasm megsemmisítése ×6 (x-2) → Seeker megsemmisítése ×15 (x-2) → Járőrözés: 4 000 egység (x-3) | 30 perc | 3 400 | 24 000 | 70 | 34 | Advanced Shield Cell ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Phantasm-tisztogatás** (Különleges) | Műveletek | Phantasm megsemmisítése ×6 (x-2) → Seeker megsemmisítése ×15 (x-2) → Járőrözés: 4 000 egység (x-3) | 30 perc | 3 400 | 24 000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### 3. szint: A harmadik szektor {#level-3-the-third-sector}
 
@@ -200,7 +200,7 @@ A „→” a **Sorrendben** címkéjű küldetések feladatait köti össze, am
 | Ostromtörő | Műveletek | Bulwark megsemmisítése ×6 (x-4); Járőrözés: 8 000 egység (x-4) | – | 26 000 | 90 000 | 780 | 195 | – |
 | Őrtorony | Felderítés | Bulwark megsemmisítése ×3 (x-4) → Járőrözés: 10 000 egység (x-4) | – | 16 000 | 55 000 | 480 | 120 | – |
 | A hosszú vesszőfutás | Műveletek | Bulwark megsemmisítése ×5 (x-4) → Goombah megsemmisítése ×1 (x-4) | 25 perc | 39 000 | 135 000 | 1 170 | 292 | – |
-| **Kolosszus** (Különleges) | Műveletek | Goombah megsemmisítése ×2 (x-4); Bulwark megsemmisítése ×6 (x-4) | – | 54 000 | 190 000 | 1 620 | 405 | Elite Shield Cell ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
+| **Kolosszus** (Különleges) | Műveletek | Goombah megsemmisítése ×2 (x-4); Bulwark megsemmisítése ×6 (x-4) | – | 54 000 | 190 000 | 1 620 | 405 | Absorption Shield Cell II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
 
 ### 7. szint: Goombah-vadászatok {#level-7-goombah-hunts}
 
@@ -249,10 +249,10 @@ A „→” a **Sorrendben** címkéjű küldetések feladatait köti össze, am
 | Fizetésnap | Felderítés | 1. szint, előbb átveendő: Az első farm | Gyűjts be 1 000 kreditet a kreditfarmról | 350 | 2 000 | 20 | 4 |
 | Az állomás szíve | Műveletek | 2. szint, előbb átveendő: Az első farm | Mag: fejlesztés 3. szintre | 400 | 4 000 | 10 | 4 |
 | Fényesebb panelek | Műveletek | 2. szint, előbb átveendő: Az állomás szíve | Napelem: fejlesztés 3. szintre | 600 | 2 000 | 40 | 6 |
-| A Thulium-vonal | Műveletek | 3. szint, előbb átveendő: Fényesebb panelek | Thuliumfarm: megépítés; Az energia legyen 0 vagy több | 1 000 | 5 000 | 100 | 10 |
-| A növekedés ideje | Műveletek | 4. szint, előbb átveendő: A Thulium-vonal | Kreditfarm: fejlesztés 3. szintre; Az energia legyen 0 vagy több | 800 | 4 000 | 80 | 8 |
+| A Thulium-vonal | Műveletek | 3. szint, előbb átveendő: Fényesebb panelek | Thuliumfarm: megépítés; Napelem: fejlesztés 4. szintre | 1 000 | 5 000 | 100 | 10 |
+| A növekedés ideje | Műveletek | 4. szint, előbb átveendő: A Thulium-vonal | Kreditfarm: fejlesztés 3. szintre; Napelem: fejlesztés 5. szintre | 800 | 4 000 | 80 | 8 |
 | Ötvenezer | Felderítés | 4. szint, előbb átveendő: Fizetésnap és A növekedés ideje | Gyűjts be 50 000 kreditet a kreditfarmról | 1 500 | 5 000 | 50 | 15 |
-| Az utánpótlási vonal megnyitása | Műveletek | 4. szint, előbb átveendő: Az állomás szíve és Fényesebb panelek | Mag: fejlesztés 5. szintre; Napelem: fejlesztés 5. szintre | 1 500 | 5 500 | 60 | 15 |
+| Az utánpótlási vonal megnyitása | Műveletek | 4. szint, előbb átveendő: A növekedés ideje | Mag: fejlesztés 6. szintre; Napelem: fejlesztés 6. szintre | 1 500 | 5 500 | 60 | 15 |
 | Tízes szintű mag | Műveletek | 5. szint, előbb átveendő: Az utánpótlási vonal megnyitása | Mag: fejlesztés 10. szintre | 1 500 | 20 000 | 50 | 11 |
 
 <!-- quests:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Ogni stagione va dal giorno 1 al giorno 30 (il reset parte con il suo conto alla
 | Fase | Giorni | Protocollo / Evento | Descrizione |
 | :--- | :--- | :--- | :--- |
 | **Protocollo di pace** | Giorni 1–3 | Fase senza PvP | Un nuovo inizio incentrato interamente sulla progressione PvE, sul farming di risorse e sulla costruzione delle navi, senza la minaccia di scontri tra giocatori. |
-| **Primo contatto** | Giorni 4–10 | Evento 1 | Il PvP si apre (secondo la regola del tuo mondo, vedi Mondi più sotto). Ancora nessuna ricompensa speciale. |
+| **Primo contatto** | Giorni 4–10 | Evento 1 | Il PvP si apre (secondo la regola del tuo mondo, vedi Mondi più sotto) e i tre [sciami](/wiki/05-Swarms/Swarms.md) cominciano ad apparire: restano fino al reset, attraverso le fasi successive. La fase in sé non dà ancora ricompense speciali. |
 | **Balzo tecnologico** | Giorni 11–18 | Evento 2 | Ancora nessun effetto speciale: premi e alieni sono gli stessi di qualsiasi altra fase. |
 | **Giochi di guerra** | Giorni 19–25 | Evento 3 | Ancora nessun effetto speciale: il PvP funziona come in ogni fase dopo il Protocollo di pace. |
 | **Conto finale** | Giorni 26–30 | Evento 4 | La fase del conto finale. Tutti i piloti corrono a completare e bloccare il carico che portano con sé prima dell’eruzione. |
 | **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce. I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. |
 
-A parte il reset in sé, solo il Protocollo di pace (giorni 1–3) cambia una regola. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali.
+A parte il reset in sé, solo due cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, e dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali propri.
 
 ---
 
@@ -59,7 +59,7 @@ Per gli oggetti aggiuntivi nel tuo inventario che vuoi salvare (ad es. armi di s
   * *Motori / propulsione*: 30 kg
   * *Generatori*: 30 kg
   * *Risorse / minerali*: pesi variabili in base alla rarità (una Reinforced Plate della Fucina dello Skylab pesa 5 kg)
-  * *Razzi*: non pesano nulla: non occupano spazio nel deposito, quindi ci entrano anche scorte intere (vedi [Razzi](/wiki/05-Items/Rockets.md))
+  * *Razzi*: non pesano nulla: non occupano spazio nel deposito, quindi ci entrano anche scorte intere (vedi [Razzi](/wiki/06-Items/Rockets.md))
 
 Il tuo [Skylab](/wiki/03-Mechanics/Skylab.md) non viene mai azzerato: i suoi moduli mantengono i loro livelli e il Magazzino risorse conserva il suo minerale immagazzinato. Ciò che hai già raccolto invece sì: le piastre nel tuo inventario sono oggetti come gli altri, quindi una piastra che vuoi tenere deve stare nel Deposito di trasporto.
 

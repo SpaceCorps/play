@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Spacemap-resor -->
 # Spacemap-resor {#spacemap-travel}
 
@@ -12,6 +12,8 @@ Universum består av tre huvudsektorer för koncernerna (Mars, Terra, Galactic) 
 - **x-2 -> x-3**: Expansionszoner med successivt tuffare utomjordingar.
 - **x-4 (gräns)**: Porten till PvP-sektorn.
 - **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4.
+
+Bara hembaserna har en station. Det är där **Mission Control** öppnas, och dess säkra zon sträcker sig 1 600 enheter runt den. Farosektorerna har ingen station, `DS-1` inte heller: de enda säkra zonerna där är ringarna på 660 enheter runt hoppportalerna, och Mission Control kan inte öppnas där; flyg tillbaka till din bas för dina uppdrag.
 
 Varje [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) har sin egen kopia av hela den här kartan, och var piloter får strida mot varandra beror på den: i Alpha bara i `x-4` och `DS-x`, i Beta överallt utom `x-1`, i Gamma överallt. Galaxkartan färglägger sektorerna efter din världs regel.
 

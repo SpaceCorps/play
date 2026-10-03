@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
@@ -6,7 +6,7 @@ Drohnen sind autonome Unterstützungseinheiten, die neben deinem Schiff fliegen.
 
 ## Drohnen bekommen {#getting-drones}
 
-Jede Drohne, die du besitzt, eine **Slave Drone** oder eine Master Drone, schaltet ihre Drohnen-Slots frei (einen für eine Slave Drone, zwei für eine Master Drone), bis zu **8** Drohnen. Der Shop verkauft Slave Drones für Credits, ab der vierten auch für Thulium. Jede kostet mehr als die letzte: Die Preise stehen unter [Drohnen](/wiki/05-Items/Drones.md).
+Jede Drohne, die du besitzt, eine **Slave Drone** oder eine Master Drone, schaltet ihre Drohnen-Slots frei (einen für eine Slave Drone, zwei für eine Master Drone), bis zu **8** Drohnen. Der Shop verkauft Slave Drones für Credits, ab der vierten auch für Thulium. Jede kostet mehr als die letzte: Die Preise stehen unter [Drohnen](/wiki/06-Items/Drones.md).
 
 ## Formation & Bewegung {#formation-movement}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ Laufende Reparaturen halten dich nicht auf. Überall sonst öffnet sich das Hang
 
 ## Das Schiff wechseln {#changing-ship}
 
-Das Schiff, zu dem du wechselst, hat **die Hülle und die Schilde, die es hatte**, als du es zuletzt geflogen bist, genau so, als hättest du es gestartet. Der Ring repariert nicht, also heilt ein Schiffswechsel dich nie: Das Schiff, das du verlässt, behält seinen Schaden und kommt damit zurück. Ein zerstörtes Schiff lässt sich erst fliegen, wenn du es wiederherstellst.
+Das Schiff, zu dem du wechselst, hat **die Hülle und die Schilde, die es hatte**, als du es zuletzt geflogen bist, genau so, als hättest du es gestartet. Der Ring repariert nicht, also heilt ein Schiffswechsel dich nie: Das Schiff, das du verlässt, behält seinen Schaden und kommt damit zurück. Ein zerstörtes Schiff lässt sich erst fliegen, wenn du es wiederherstellst; das ist kostenlos und bringt es wie ein Respawn mit höchstens 10.000 Hülle und ohne Schild zurück.
 
 Was dir gehört, bleibt dir: deine Munition, deine Raketen und ihr Timer, die Abklingzeiten deiner Fähigkeiten, deine Booster, deine EP und deine Slave Drones. Was zum Schiff gehörte, endet: ein laufender Shield Surge oder Afterburner, Reparaturen, deine Zielerfassung, dein Angriff und der Kurs, den du geflogen bist. Ausrüstung bleibt auf dem Schiff, auf dem sie ausgerüstet ist.
 

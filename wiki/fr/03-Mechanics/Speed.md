@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: Vitesse -->
 # Calcul de la vitesse {#speed-calculation}
 
@@ -12,12 +12,14 @@ La vitesse finale de votre vaisseau est calculée sur le serveur selon la formul
 
 ### 1. Vitesse effective des moteurs {#1-effective-engine-speed}
 
-Chaque moteur équipé génère de la vitesse. Si des propulseurs sont installés dans le moteur, sa vitesse est modifiée :
+Chaque moteur équipé génère de la vitesse, et chaque cœur adaptatif qui contient des propulseurs aussi. Si des propulseurs sont installés dans le moteur, sa vitesse est modifiée :
 
-\[\text{Vitesse du moteur} = (\text{Vitesse de base du moteur} \times \text{Multiplicateur des propulseurs}) + \text{Bonus fixe des propulseurs}\]
+\[\text{Vitesse du moteur} = (\text{Vitesse de base du moteur} + \text{Bonus fixe des propulseurs}) \times \text{Multiplicateur des propulseurs}\]
 
-- **Multiplicateur des propulseurs** : le produit des multiplicateurs de vitesse de tous les propulseurs installés dans ce moteur (par ex. le Thruster III vaut `1.1`, soit `+10%`).
-- **Bonus fixe des propulseurs** : la somme de tous les ajouts fixes de vitesse des propulseurs (par ex. le Thruster III donne `+15` de vitesse).
+- **Bonus fixe des propulseurs** : la somme de tous les ajouts fixes de vitesse des propulseurs (par ex. l’Impulse Thruster III donne `+15` de vitesse).
+- **Multiplicateur des propulseurs** : le produit des multiplicateurs de vitesse de tous les propulseurs installés dans ce moteur (par ex. le Momentum Thruster III vaut `1.13`, soit `+13%`, l’Impulse Thruster III `1.03`, soit `+3%`). Il multiplie tout ce que produit le moteur : sa vitesse de base propre et les bonus fixes des propulseurs. Un cœur adaptatif n’a pas de vitesse de base propre, et les bonus fixes de ses propulseurs sont multipliés tout de même.
+
+Un Engine III (vitesse de base 6) avec trois Momentum Thruster IV (`+12`, `1.14`) produit (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, et avec trois Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Un bonus de la Forge sur le multiplicateur d’un propulseur fait croître la part au-dessus de 1 : +15 % sur `1.14` donne `1.161`.
 
 ### 2. Rendements décroissants (efficacité marginale) {#2-diminishing-returns-marginal-efficiency-}
 

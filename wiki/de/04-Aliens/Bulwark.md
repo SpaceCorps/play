@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 860b92b2bb2c6fdc -->
+<!-- wiki-i18n source: 4a3e5081cff0a54e -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
-Bulwarks sind schwer gepanzerte Verteidigungsplattformen. Sie sind äußerst aggressiv und schlagen hart zu: Ein Bulwark geht auf jeden ungeschützten Piloten in seinem Aggro-Radius (700 Einheiten) los. Er lässt von ihm ab, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn er selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen ist (2.500 und 3.000 bei einem Piloten, der auf ihn geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der ihn in den letzten 10 Sekunden getroffen hat, lässt er überhaupt nicht los, und der Bulwark fliegt auf diesen Piloten zu, wann immer dieser jenseits der Waffenreichweite des Bulwark (700 Einheiten) steht. Schießen mehrere Piloten auf einen Bulwark, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
+Bulwarks sind schwer gepanzerte Verteidigungsplattformen. Sie sind äußerst aggressiv und schlagen hart zu: Ein Bulwark geht auf jeden ungeschützten Piloten in seinem Aggro-Radius (700 Einheiten) los. Er lässt von ihm ab, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn er selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen ist (2.500 und 3.000 bei einem Piloten, der auf ihn geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der ihn in den letzten 10 Sekunden getroffen hat, lässt er überhaupt nicht los, und der Bulwark fliegt auf diesen Piloten zu, wann immer dieser jenseits der Waffenreichweite des Bulwark (700 Einheiten) steht. Schießen mehrere Piloten auf einen Bulwark, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 
 ## Werte {#stats}
 
@@ -19,13 +19,14 @@ Bulwarks sind schwer gepanzerte Verteidigungsplattformen. Sie sind äußerst agg
 - **Thulium**: 25
 - **Erfahrung (EP)**: 800
 - **Ehre**: 10
+- **PvE-Punkte pro Abschuss**: 4
 - **Schildaufladung**: 50 pro Sekunde (15 s Verzögerung)
 
 ## Beute {#loot-drops}
 
 Die Beute fällt als [Frachtkiste](/wiki/03-Mechanics/Cargo.md) dort, wo er explodiert, und gehört 30 Sekunden lang dem Piloten, der ihn abgeschossen hat.
 
-Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/05-Items/Resources.md).
+Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 100 % Chance (Min.: 2, Max.: 2)
 - **Cataclysite**: 100 % Chance (Min.: 2, Max.: 2)

@@ -8,6 +8,7 @@ Destroyed aliens leave their loot in space as glowing cargo crates. Fly over and
 - **Company pilots** leave no crate when they are destroyed, whoever or whatever destroys them. See [Company pilots](/wiki/03-Mechanics/Company-Pilots.md).
 - **Player ships** leave no wreck and no crate when they are destroyed, whoever or whatever destroys them, and nothing is taken from the pilot's inventory.
 - **The black hole** lays crates of **Dark Matter** on the rim of its zone for a N.I.K.E. rocket fired into it (see [The Black Hole](/wiki/03-Mechanics/Black-Hole.md)). They are the one kind of crate that lies inside the hole's ring.
+- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) and the Dormant Pulses** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
 
 An alien a company pilot finishes drops its loot for the pilot the kill counts for (the one holding its claim, else the pilot of its company fighting it); one a company pilot fought alone drops nothing, since company pilots never collect.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ae35d5bdcf504de8 -->
+<!-- wiki-i18n source: d8bf989776a71cb4 -->
 <!-- wiki-i18n title: 능력 -->
 # 함선 액티브 능력 {#active-ship-abilities}
 
@@ -80,7 +80,7 @@
 
 <!-- abilities:end -->
 
-등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/05-Items/Overview.md#upgrading-modules)에서 Basic Shield Core와 Engine II를 재료로, Thulium, 드롭 아이템, 그리고 내 [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소에서 만든 Velkonite Reinforced Plate를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
+등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Basic Shield Core와 Engine II를 재료로, Thulium, 드롭 아이템, 그리고 내 [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소에서 만든 Velkonite Reinforced Plate를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
 
 ## 재사용 대기시간과 제한 {#cooldowns-and-limits}
 

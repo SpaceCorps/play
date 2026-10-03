@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n source: f498be6364c7a1f9 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -6,10 +6,12 @@
 
 ## Alapvető erőforrások {#core-resources}
 
-A túléléshez és a boldoguláshoz két fizetőeszközt kell kezelned, és szemmel kell tartanod a becsületedet. Azok az anyagok, amelyekből építkezel, a [Nyersanyagok](/wiki/05-Items/Resources.md) oldalon találhatók, azzal együtt, hogy hol szerezheted meg őket, és mire valók:
+A túléléshez és a boldoguláshoz két fizetőeszközt kell kezelned, és szemmel kell tartanod a becsületedet. Azok az anyagok, amelyekből építkezel, a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon találhatók, azzal együtt, hogy hol szerezheted meg őket, és mire valók:
 - **Kredit**: Az elsődleges, mindennapi fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a saját [Skylabod](/wiki/03-Mechanics/Skylab.md) Kreditfarmja pedig termeli. Alapfelszerelés, hajók és normál felszerelés vásárlására használod.
-- **Thulium**: A ritka radioaktív érc és nagy értékű fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a Skylabod Thuliumfarmja pedig termeli. Elit fegyverzet, hajtófúvókák, hibridpajzsok és erős boostercsomagok vásárlására használod.
+- **Thulium**: A ritka radioaktív érc és nagy értékű fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a Skylabod Thuliumfarmja pedig termeli. Elit fegyverzet, hajtóművek, hibridpajzsok és erős boostercsomagok vásárlására, valamint a modulok fejlesztésére használod a Gyártásban.
 - **Becsület**: Pontszám, nem pénz: a frakciódon belüli rangod, hűséged és megbecsültséged mércéje. A becsület szerzése emeli a rangcímedet, de a saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat.
+
+Az állomáson a Krediteid, a Thuliumod és a Becsületed minden oldal jobb felső sarkában látható, a szektorod és az **Indulás** gomb mellett. Ha az ablak túl keskeny egy hosszú összeghez, az rövidítve jelenik meg (987,7M); mutass rá, hogy elolvashasd a teljes számot.
 
 ## Játék barátokkal {#playing-with-friends}
 
@@ -31,11 +33,12 @@ Ha a hajótested 0-ra csökken, a hajó megsemmisül, és a halálképernyő meg
 
 - **A zárolás akkor kezdődik, amikor az adott választással újraélsz**, nem amikor meghalsz, és csak arra az egy választásra vonatkozik: a portál használata nem zárolja a helyben újraélést. A zárolt választás szürkén jelenik meg a halálképernyőn visszaszámlálóval (percek és másodpercek), és magától megnyílik, amikor lejár. A zárolásokat a szerver tartja nyilván: a ki- és újrabejelentkezés nem nullázza őket. Az új szezon (a wipe) viszont igen.
 - **A szerver által elutasított választás semmibe sem kerül.** Ha egy választás nem használható (még zárolt, nincs portál a szektorban, a megsemmisülésed óta világot váltottál), a zárolás nem indul el, és a hajód nem mozdul el; újra választasz.
-- **Védelem.** A portálnál vagy helyben újraéledő hajót **5 másodpercig** nem lehet sebezni és nem lehet célba venni, az idegenek pedig elveszítik iránta az érdeklődésüket, így az, aki megsemmisített, nem tud azonnal újra megsemmisíteni. A HUD mutatja a hátralévő másodperceket. Az **első lövésed** (lézersortűz vagy rakéta) megszünteti a védelmet, és a játék közli veled, amikor véget ér. A bázison az állomás biztonságos zónája véd, ahogy mindig.
+- **Újraéledési védelem.** Bárhol is térsz vissza, a hajódat a visszatérése után **3 másodpercig** nem lehet sebezni és nem lehet célba venni, az idegenek pedig elveszítik iránta az érdeklődésüket, így az, aki megsemmisített, nem tud azonnal újra megsemmisíteni. Ugyanebben a 3 másodpercben **te sem támadhatsz**: a lézert vagy a rakétát a játék egy üzenettel elutasítja, és a védelem nem ér véget korábban. A HUD mutatja a hátralévő másodperceket. Akkor ér véget, amikor lejárnak.
 - **A feketelyuk.** A [feketelyuk](/wiki/03-Mechanics/Black-Hole.md) sugárzási gyűrűjén belüli hely (a Veszélyes szektor 4 közepétől 4 200 egységre) sosem lehet újraéledési hely: ha ott semmisültél meg, a „Helyben” a gyűrűn kívüli legközelebbi pontra tesz, a középpontból a megsemmisülésed helyén át húzott vonalon, és ezt közli veled.
 - **Veszélyes szektorok.** Mindhárom választás ott is működik.
-- **A megsemmisülés ára nem változik:** a hajód alapértékű hajótestével és üres pajzsokkal térsz vissza, nem veszítesz tárgyat, és a választás csak azt dönti el, hol jelensz meg. A képességeid használatra készek, és álcázás nélkül, EMP-ablakon kívül térsz vissza. A [csoportodban](/wiki/03-Mechanics/Groups.md) maradsz.
-- **Dokkolás.** A halálképernyőn a „Vissza a bázisra” a bázison éleszt újra, ahogy mindig. Ha a játék bezárul, mielőtt választanál, éleszd újra a hajót ingyen a [hangárban](/wiki/03-Mechanics/Hangar.md); a bázisodon leszel.
+- **A hajótested korlátozva tér vissza.** A hajód hajótestével térsz vissza, **legfeljebb 10 000**-rel, és üres pajzzsal, bármelyik helyet választod. A Protos (8 000 hajótest) teljesen feltöltve tér vissza; a nagyobb hajók (a Kitefin 24 000-étől az Ironclad 600 000-éig) 10 000-rel, ezért a következő harc előtt javíts egy Repair Drone-nal, vagy használd az Emergency Repair képességet (lásd: [Harc](/wiki/03-Mechanics/Combat.md) és [Képességek](/wiki/03-Mechanics/Abilities.md)). A pajzs a megszokott módon töltődik. A halálképernyő is szól erről.
+- **Mibe kerül még a megsemmisülés:** nem veszítesz tárgyat, és a választás csak azt dönti el, hol jelensz meg. A képességeid használatra készek, és álcázás nélkül, EMP-ablakon kívül térsz vissza. A [csoportodban](/wiki/03-Mechanics/Groups.md) maradsz.
+- **Dokkolás.** A halálképernyőn a „Vissza a bázisra” a bázison éleszt újra, ahogy mindig, ugyanazzal a hajótesttel. Ha a játék bezárul, mielőtt választanál, éleszd újra a hajót ingyen a [hangárban](/wiki/03-Mechanics/Hangar.md); a bázisodon leszel, ugyanazzal a hajótesttel és pajzs nélkül.
 
 ## Billentyűzetes irányítás és billentyűkiosztás {#keyboard-controls-keybindings}
 
@@ -65,7 +68,7 @@ Ugyanolyan ablak, mint a többi. Húzd a címsoránál fogva bárhová, zárd be
 
 ## Amikor a játék laggol {#when-the-game-lags}
 
-Kapcsold be a **Beállítások › Általános › Hálózati információ megjelenítése** kapcsolót, és a jobb felső sarokban megjelenik egy kis kártya (kikerüli az ablakokat, és addig ki van kapcsolva, amíg be nem kapcsolod). Megmutatja, melyik oldal lassú:
+Kapcsold be a **Beállítások › Felület › Hálózati információ megjelenítése** kapcsolót, és a jobb felső sarokban megjelenik egy kis kártya (kikerüli az ablakokat, és addig ki van kapcsolva, amíg be nem kapcsolod). Megmutatja, melyik oldal lassú:
 
 | Mérőszám | Mi ez | Jó, lassú |
 | :--- | :--- | :--- |
@@ -83,3 +86,4 @@ Ha valami rossz, a számok alatt egy sor megmondja, kinek a hibája: a *Lassú h
 2. **Biztonságos zónák**: A portálok és a bázisok körül **biztonságos zónák** vannak. Ezeken a területeken más pilóták nem támadhatnak meg, így nyugodtan visszatöltheted a pajzsaidat, vagy kivárhatod a harci töltődési időket.
 3. **Az első képességed**: a kezdőcsomagodban már van egy Repair Drone I, amely a Protos képességfoglalatába van szerelve, így az Emergency Repair gomb (`E`, a gyorssáv mellett) tíz másodperc alatt megjavítja a hajótestedet, valahányszor megsérült. Lásd: [Képességek](/wiki/03-Mechanics/Abilities.md).
 4. **Napi klánadó**: Ha tagja vagy egy klánnak, tudd, hogy a klán kincstára UTC szerint éjfélkor százalékos adót (0–5%) von le a napi kreditegyenlegedből. Gondosan válassz klánt!
+5. **Másolás a wikiből**: Húzd végig az egérrel egy cikk bármelyik szövegét a kijelöléshez, majd a másoláshoz nyomd meg a `Ctrl+C` (Macen `Cmd+C`) billentyűt; a hivatkozásra kattintva az oldal továbbra is megnyílik. Az **Oldal másolása** gomb a cikkek tetején az egész oldalt Markdown formátumban másolja, chatbe vagy jegyzetbe illesztéshez.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Minden sortűz kritikus találat is lehet.
 
 Végül a globális szorzók (például az aktív boosterek vagy a lézerlőszer szorzói, mint az x2, x3, x4) érvényesülnek, hogy kijöjjön a végső sebzés:
 - Képlet: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- A **Siphon Battery** lőszer szorzója x1, de a célpontja más: a sebzése kizárólag a célpont pajzsából jön (sosem a hajótestből, bármekkora is az elnyelés), és a saját pajzsodba kerül, a maximumodig. Lásd: [Lézerek és lőszer](/wiki/05-Items/Lasers.md).
+- A **Siphon Battery** lőszer szorzója x1, de a célpontja más: a sebzése kizárólag a célpont pajzsából jön (sosem a hajótestből, bármekkora is az elnyelés), és a saját pajzsodba kerül, a maximumodig. Lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
 
 ### 3b. Rakéták {#3b-rockets}
 
-Egy [rakéta](/wiki/05-Items/Rockets.md) saját, fix sebzéssel rendelkezik (egy Lancet 2 000, egy Harpoon 6 000, egy N.U.K.E. 50 000), amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs véletlen dobása, sem kritikus találata. Az összes rakéta egyetlen **5 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a széle felé kevésbé. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók.
+Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 600–2 000, egy Lancet III 4 800–6 000, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **5 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a széle felé kevésbé. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók.
 
 ### 4. Szembefordulás a célponttal {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Az a hajó vagy idegen, amely célba vett valakit és tüzel, a célpontja felé
 
 ### 5. Hatótáv {#5-range}
 
-Egy hajó másodpercenként egy sortüzet ad le, amíg a célpontja a **hatótávján** belül van, és visszatartja a tüzet, amíg a célpont távolabb van: ilyenkor a tűz nem fogyaszt lőszert, amíg a célpont újra elég közel nem kerül, és a célpontablak azt írja: „Hatótávon kívül”. A hatótáv **az összes lézered hatótávjának átlaga** (a drónjaidban lévő lézereket is beleértve), a legközelebbi egységre kerekítve, és egyetlen szám az egész hajóra: azon belül minden lézer tüzel, azon kívül egyik sem. Egy nagy hatótávú lézer a rövidebbek mellett ezért nem növeli meg a hatótávodat: egy Starfire-3 (850) és két Quantum Laser 2 (700) együtt 750-et ad. A Kovácsműhely hatótávbuffja a saját lézerén számít, az átlagolás előtt. A lézer nélküli hajó nem tud a lézereivel tüzelni, és a hangár nem mutat hozzá hatótávot (gondolatjel áll helyette): a rakétái továbbra is tüzelnek, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/05-Items/Rockets.md)). Az egyes lézerek saját hatótávját lásd: [Lézerek és lőszer](/wiki/05-Items/Lasers.md).
+Egy hajó másodpercenként egy sortüzet ad le, amíg a célpontja a **hatótávján** belül van, és visszatartja a tüzet, amíg a célpont távolabb van: ilyenkor a tűz nem fogyaszt lőszert, amíg a célpont újra elég közel nem kerül, és a célpontablak azt írja: „Hatótávon kívül”. A hatótáv **az összes lézered hatótávjának átlaga** (a drónjaidban lévő lézereket is beleértve), a legközelebbi egységre kerekítve, és egyetlen szám az egész hajóra: azon belül minden lézer tüzel, azon kívül egyik sem. Egy nagy hatótávú lézer a rövidebbek mellett ezért nem növeli meg a hatótávodat: egy Starfire-3 (850) és két Quantum Laser 2 (700) együtt 750-et ad. A Kovácsműhely hatótávbuffja a saját lézerén számít, az átlagolás előtt. A lézer nélküli hajó nem tud a lézereivel tüzelni, és a hangár nem mutat hozzá hatótávot (gondolatjel áll helyette): a rakétái továbbra is tüzelnek, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). Az egyes lézerek saját hatótávját lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
 
 ---
 
@@ -50,9 +50,11 @@ Az idegen jutalmai ahhoz a pilótához kerülnek, aki először lőtt rá, nem a
 - **Foglalás**: az a pilóta foglalja le az idegent, akinek a lövése először sebzi meg. Minden találatod megújítja a foglalásodat.
 - **Elvesztése**: ha **10 másodpercig** nem találod el az idegent, a foglalásod lejár, és a következő pilóta, aki eltalálja, lefoglalja. A foglalásod akkor is véget ér, ha a hajód megsemmisül, vagy elhagyod a térképet (portálon át vagy kijelentkezéssel), és ha a 10 másodpercen belül visszatérsz, az sem hozza vissza.
 - **A kilövés**: amikor az idegen megsemmisül, a foglalását tartó pilóta kap mindent: kreditet, Thuliumot, XP-t, becsületet, a kilövést a küldetésekhez és a wipe-pontokhoz, valamint a [rakományládát](/wiki/03-Mechanics/Cargo.md). Az a pilóta, aki egy olyan idegent lő ki, amelyet más foglalt le, semmit sem kap, és a Játéknapló ezt jelzi. Ha a te foglalásod fizet, és a végső találatot egy másik pilóta viszi be, a Játéknapló megnevezi azt a pilótát, és azt írja, hogy a foglalásod után te kapod a jutalmat.
+- **Rangpontok**: a kilövés PvE-pontokat is hozzáad a foglalást tartó pilóta rangsorához, annál többet, minél keményebb az idegen: 1-et egy Seeker, 2-t egy Phantasm, 4-et egy Bulwark, 7-et egy Goombah és 16-ot egy Crystalys után (minden idegen cikke megadja a sajátját). Ezek egyedül a pilótáé: a csoport jutalomrészesedése nem tartalmazza őket.
 - **Hogyan látod**: ha kijelölsz egy olyan idegent, amelyet másik pilóta foglalt le, a Célpontablak azt mutatja: *Lefoglalta:* az a pilóta, és *Nincs jutalom*.
 - A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) sosem foglalnak le idegent, és az általuk kilőtt idegen is a foglalását tartó pilótát fizeti.
 - A [csoportban](/wiki/03-Mechanics/Groups.md) lévő pilóta megosztja azt, amit a foglalása fizet, azokkal a csoporttársaival, akik közel vannak és lőnek; maga a foglalás egyedül a pilótáé.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok kivételek**: egy rajboss és minden Dormant Pulse annak a sebzésnek megfelelően fizet, amelyet minden pilóta okozott nekik, nem az első találat szerint, a rakományládájuk pedig ahhoz a pilótához kerül, aki a legtöbb sebzést okozta ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A többi kísérő, a Pirate Scoutok és a Seeker Slave-ek, a foglalás szerint fizetnek, mint bármelyik idegen. A rajhajók PvE-pontjai a Rajok oldalon vannak.
 
 ---
 
@@ -98,7 +100,7 @@ Amikor a hajódat egy ellenség vagy NPC eltalálja, a sebzés a következőkép
 ### 1. Pajzselnyelés {#1-shield-absorption}
 
 A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **átlagos elnyelése** szerint: a pajzsaid elnyelésének átlaga, mindegyik a pajzscelláival együtt, plusz a Szezonbolt Shield Absorbance Boost buffja (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)). **Nincs 100%-ra korlátozva**: az, amit a pajzsok egy találatból felfognak, az elnyelésed **mínusz a támadó pajzsáthatolása**, 0% és 100% között.
-- Minden találatnak az **elnyelés** (pl. 80% a legjobb pajzsnál a legjobb cellákkal, 56% egy Basic Shield Core-nál két Advanced cellával) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Harpoon 35%-a 45%-ot hagy a pajzsokon egy 80%-os hajónál, a többi (itt 55%) pedig közvetlenül az életerőt éri.
+- Minden találatnak az **elnyelés** (pl. 80% a legjobb pajzsnál a legjobb cellákkal, 56% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 45%-ot hagy a pajzsokon egy 80%-os hajónál, a többi (itt 55%) pedig közvetlenül az életerőt éri.
 - A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.
@@ -109,6 +111,7 @@ Minden vállalat otthoni bázisa (az X-1 térképek) biztonságos zónákat tart
 - Ha belépsz egy biztonságos zónába, a hajód teljesen sebezhetetlenné válik.
 - **A védelem megszakadása**: ha megtámadsz egy ellenséget, azonnal megszűnik a biztonságos zóna adta sebezhetetlenséged, még akkor is, ha fizikailag egy zónán belül tartózkodsz.
 - Minden állomás és portál körül egy gyűrű véd, ha eltelt 5 másodperc azóta, hogy találat ért, és 15 azóta, hogy tüzeltél. Amíg véd, és nem vagy harcban, a hangár ablak lehetővé teszi, hogy a játék elhagyása nélkül hajót válts: lásd [A hangár repülés közben](/wiki/03-Mechanics/Hangar.md).
+- Állomások csak az otthoni bázisokon (`x-1`) vannak. A veszélyes szektorokban (`DS-1`–`DS-4`) nincs egy sem: ott a portálok körüli gyűrűk az egyetlen biztonságos zónák.
 
 ### 3. Támadás alatt egy veszélyes szektorban {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ A harc utáni felépüléshez a pilóták a passzív regenerációra és az akt�
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-A [Siphon Battery](/wiki/05-Items/Lasers.md) lőszer a célpontból elszívott pajzsot azonnal hozzáadja a tiédhez, a maximumodig. A pajzsnyereség nem számít kapott sebzésnek, ezért nem késlelteti a passzív regenerációdat.
+A [Siphon Battery](/wiki/06-Items/Lasers.md) lőszer a célpontból elszívott pajzsot azonnal hozzáadja a tiédhez, a maximumodig. A pajzsnyereség nem számít kapott sebzésnek, ezért nem késlelteti a passzív regenerációdat.
 
 ### 2. Javítódrónok (hajótest-javítás) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ A [Siphon Battery](/wiki/05-Items/Lasers.md) lőszer a célpontból elszívott p
 
 ## Álcázás és az EMP {#cloaking-and-the-emp}
 
-A lövéshez célzás kell. Két [extra](/wiki/05-Items/Extras.md) elveszi a tiédet:
+A lövéshez célzás kell. Két [extra](/wiki/06-Items/Extras.md) elveszi a tiédet:
 
 - **Cloaking CPU**: amíg álcázva vagy (nincs időkorlát), más vállalatok pilótái, az idegenek és a vállalati pilóták nem látják a hajódat, és nem vehetnek célba; a minitérképen egy egyszerű piros pontot látnak ott, ahol vagy. Az első sortűzöd megszünteti az álcázást, és egy percig nem álcázhatsz újra, sem találat vagy lövés után 10 másodpercig.
 - **EMP Charge**: 3 másodpercig senki sem vehet célba, és minden rád irányuló célzás azonnal megszakad. Megszüntet minden álcázást a használó pilótától 1 500 egységen belül, kivéve a pilóta saját csoportjáét. Nem rejt el, és nem sebezhetetlenség: azt állítja meg, ami célzást igényel.
 
-A rakéta is lövésnek számít: megszünteti a saját álcázásodat, valaki más rakétájának területi robbanása pedig még így is megsebez egy álcázott hajót, és megszünteti az álcázását, mert a robbanáshoz nem kell célzás (lásd [Rakéták](/wiki/05-Items/Rockets.md)). Az EMP a célzáshoz kötött lézereket és az irányított rakétákat állítja meg, a robbanást nem.
+A rakéta is lövésnek számít: megszünteti a saját álcázásodat, valaki más rakétájának területi robbanása pedig még így is megsebez egy álcázott hajót, és megszünteti az álcázását, mert a robbanáshoz nem kell célzás (lásd [Rakéták](/wiki/06-Items/Rockets.md)). Az EMP a célzáshoz kötött lézereket és az irányított rakétákat állítja meg, a robbanást nem.
 
 Egyik sem változtat egy kilövési foglaláson: a foglalás annak a története, hogy ki találta el az idegent, nem célzás, és az álcázás elengedi a tiédet.

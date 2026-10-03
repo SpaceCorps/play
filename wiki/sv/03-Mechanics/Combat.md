@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Varje salva har en chans att bli en kritisk träff.
 
 Till sist tillämpas globala multiplikatorer (som aktiva boosters eller multiplikatorer för laserammunition som x2, x3, x4) för att få den slutliga skadan:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/05-Items/Lasers.md).
+- Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md).
 
 ### 3b. Raketer {#3b-rockets}
 
-En [raket](/wiki/05-Items/Rockets.md) har sin egen fasta skada (en Lancet gör 2 000, en Harpoon 6 000, en N.U.K.E. 50 000), densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har inget slumputfall och ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, mindre mot kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den.
+En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 600 till 2 000, en Lancet III 4 800 till 6 000, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, mindre mot kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den.
 
 ### 4. Att vända sig mot målet {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Ett skepp eller en utomjording som har låst på ett mål och skjuter vänder si
 
 ### 5. Räckvidd {#5-range}
 
-Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd**, och håller elden medan målet är längre bort: elden slutar kosta ammunition tills målet är tillräckligt nära igen, och Målfönstret visar ”Utom räckhåll”. Räckvidden är **medelvärdet av räckvidden hos alla dina lasrar** (även lasrarna i dina drönare), avrundat till närmaste enhet, och det är ett enda tal för hela skeppet: inom den skjuter varje laser, utanför den ingen. En långräckviddig laser bredvid korta förlänger därför inte din räckvidd: en Starfire-3 (850) och två Quantum Laser 2 (700) ger 750. En räckviddsbonus från Smedjan räknas på sin egen laser före medelvärdet. Ett skepp utan laser kan inte avfyra sina lasrar, och Hangaren visar ingen räckvidd för det (ett streck); dess raketer avfyras ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/05-Items/Rockets.md)). Se [Lasrar och ammunition](/wiki/05-Items/Lasers.md) för varje lasers egen räckvidd.
+Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd**, och håller elden medan målet är längre bort: elden slutar kosta ammunition tills målet är tillräckligt nära igen, och Målfönstret visar ”Utom räckhåll”. Räckvidden är **medelvärdet av räckvidden hos alla dina lasrar** (även lasrarna i dina drönare), avrundat till närmaste enhet, och det är ett enda tal för hela skeppet: inom den skjuter varje laser, utanför den ingen. En långräckviddig laser bredvid korta förlänger därför inte din räckvidd: en Starfire-3 (850) och två Quantum Laser 2 (700) ger 750. En räckviddsbonus från Smedjan räknas på sin egen laser före medelvärdet. Ett skepp utan laser kan inte avfyra sina lasrar, och Hangaren visar ingen räckvidd för det (ett streck); dess raketer avfyras ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md) för varje lasers egen räckvidd.
 
 ---
 
@@ -50,9 +50,11 @@ En utomjordings belöning går till piloten som sköt den först, inte till den 
 - **Att paxa**: den första piloten vars skott skadar en utomjording paxar den. Varje träff du gör förnyar ditt pax.
 - **Att förlora paxet**: om du inte träffar utomjordingen på **10 sekunder** släpper ditt pax och nästa pilot som träffar den paxar den. Ditt pax tar också slut när ditt skepp förstörs eller du lämnar kartan (genom en portal, eller genom att logga ut), och att komma tillbaka inom de 10 sekunderna ger inte tillbaka det.
 - **Nedskjutningen**: när utomjordingen förstörs får piloten som har paxet allt: krediter, Thulium, XP, heder, nedskjutningen för uppdrag och wipepoäng, och [lastlådan](/wiki/03-Mechanics/Cargo.md). En pilot som gör slut på en utomjording som någon annan har paxat får ingenting, och Spelloggen säger det. När ditt pax betalar och en annan pilot landar den sista träffen nämner Spelloggen den piloten och säger att ditt pax betalar dig.
+- **Rankingpoäng**: nedskjutningen ger också PvE-poäng till rankingen för piloten som har paxet, fler ju tåligare utomjordingen är: 1 för en Seeker, 2 för en Phantasm, 4 för en Bulwark, 7 för en Goombah och 16 för en Crystalys (varje utomjordings artikel anger sitt värde). De är pilotens ensam: gruppens andel av belöningarna omfattar dem inte.
 - **Att se det**: när du väljer en utomjording som en annan pilot har paxat visar Målfönstret *Paxad av* den piloten och *Ingen belöning*.
 - [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) paxar aldrig en utomjording, och en utomjording de gör slut på betalar ändå piloten som har paxet.
 - En pilot i en [grupp](/wiki/03-Mechanics/Groups.md) delar det som dess pax betalar med de gruppkamrater som är nära och skjuter; själva paxet är pilotens ensam.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses är undantaget**: en svärmboss och varje Dormant Pulse betalar efter den skada varje pilot gjort på dem, inte efter första träffen, och deras lastlåda går till piloten som gjorde mest skada ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). De övriga följeslagarna, Pirate Scouts och Seeker Slaves, betalar efter paxet som vilken utomjording som helst. Ett svärmskepps PvE-poäng står på sidan Svärmar.
 
 ---
 
@@ -98,7 +100,7 @@ När ditt skepp träffas av en fiende eller en NPC hanteras skadan så här:
 ### 1. Sköldabsorption {#1-shield-absorption}
 
 Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **genomsnittliga absorption**: medelvärdet av dina sköldars absorption, var och en med sina sköldcellers, plus Shield Absorbance Boost från säsongsbutiken (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)). Den har **inget tak vid 100 %**: det sköldarna tar av en träff är din absorption **minus angriparens sköldgenomträngning**, mellan 0 % och 100 %.
-- **Absorption** (t.ex. 80 % för den bästa skölden med de bästa cellerna, 56 % för en Basic Shield Core med två Advanced-celler) av varje träff tas av sköldarna, minus träffens genomträngning: en Harpoons 35 % lämnar 45 % på sköldarna hos ett skepp med 80 %, och resten (55 % där) träffar HP direkt.
+- **Absorption** (t.ex. 80 % för den bästa skölden med de bästa cellerna, 56 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 45 % på sköldarna hos ett skepp med 80 %, och resten (55 % där) träffar HP direkt.
 - **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där).
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
@@ -109,6 +111,7 @@ Varje fraktions hembas (X-1-kartor) innehåller säkra zoner.
 - Att gå in i en säker zon gör ditt skepp helt immunt mot skada.
 - **Aggrobrott**: Att attackera en fiende tar omedelbart bort din immunitet i säker zon, även om du fysiskt befinner dig inne i en.
 - En ring runt varje station och portal skyddar dig när 5 sekunder har gått sedan du träffades och 15 sedan du sköt. Medan den skyddar dig och du inte är i strid låter Hangarfönstret dig byta skepp utan att lämna spelet: se [Hangaren under flygning](/wiki/03-Mechanics/Hangar.md).
+- Stationer finns bara i hembaserna (`x-1`). Farosektorerna (`DS-1` till `DS-4`) har inga: där är ringarna runt portalerna de enda säkra zonerna.
 
 ### 3. Under attack i en farosektor {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ För att återhämta sig efter strid kan piloter förlita sig på passiv regener
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-Ammunitionen [Siphon Battery](/wiki/05-Items/Lasers.md) lägger den sköld den dränerar från ett mål till din direkt, upp till ditt maximum. Att få sköld är ingen skada du tar, så det fördröjer inte din passiva regenerering.
+Ammunitionen [Siphon Battery](/wiki/06-Items/Lasers.md) lägger den sköld den dränerar från ett mål till din direkt, upp till ditt maximum. Att få sköld är ingen skada du tar, så det fördröjer inte din passiva regenerering.
 
 ### 2. Reparationsdrönare (skrovreparation) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ Ammunitionen [Siphon Battery](/wiki/05-Items/Lasers.md) lägger den sköld den d
 
 ## Kamouflage och EMP {#cloaking-and-the-emp}
 
-Ett skott kräver målfixering. Två [extrautrustningar](/wiki/05-Items/Extras.md) tar din ifrån dig:
+Ett skott kräver målfixering. Två [extrautrustningar](/wiki/06-Items/Extras.md) tar din ifrån dig:
 
 - **Cloaking CPU**: medan du är kamouflerad (det finns ingen tidsgräns) ser andra koncerners piloter, utomjordingar och koncernpiloter inte ditt skepp och kan inte låsa på det; de ser en vanlig röd prick på minikartan där du är. Din första salva avslutar kamouflaget, och du kan inte kamouflera dig igen på en minut, inte heller inom 10 sekunder efter en träff eller ett skott.
 - **EMP Charge**: i 3 sekunder kan ingen låsa på dig, och varje målfixering som redan ligger på dig bryts direkt. Den avslutar varje kamouflage inom 1 500 enheter från piloten som avfyrar den, utom de som tillhör pilotens egen grupp. Den döljer dig inte, och det är ingen osårbarhet: den stoppar det som kräver målfixering.
 
-En raket är också ett skott: den avslutar ditt eget kamouflage, och områdesskadan från någon annans raket skadar fortfarande ett kamouflerat skepp och avslutar dess kamouflage, eftersom en explosion inte kräver målfixering (se [Raketer](/wiki/05-Items/Rockets.md)). EMP:n stoppar målfixerade lasrar och målsökande raketer, inte en explosion.
+En raket är också ett skott: den avslutar ditt eget kamouflage, och områdesskadan från någon annans raket skadar fortfarande ett kamouflerat skepp och avslutar dess kamouflage, eftersom en explosion inte kräver målfixering (se [Raketer](/wiki/06-Items/Rockets.md)). EMP:n stoppar målfixerade lasrar och målsökande raketer, inte en explosion.
 
 Ingetdera ändrar ett pax: ett pax är historiken över vem som har träffat en utomjording, inte en målfixering, och kamouflage släpper ditt.

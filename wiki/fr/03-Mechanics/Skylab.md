@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’
 
 - **Importance** : si votre consommation d’énergie dépasse votre production, vos fermes et vos collecteurs s’arrêtent.
 - **Énergie produite** : un module Solaire au niveau N produit de quoi alimenter **chaque autre module au niveau N**, avec environ un dixième de plus : 255 au niveau 1, 835 au niveau 7, 16 010 au niveau 20. Solaire de niveau 7 alimente une station entière au niveau 7 (voir Gestion de l’énergie pour chaque niveau).
-- **Amélioration** : Solaire est hors ligne pendant son amélioration, et c’est le seul module qui produit de l’énergie : toute la station est donc privée d’énergie jusqu’à la fin de l’amélioration (voir Construction et amélioration).
+- **Amélioration** : Solaire continue de produire l’énergie de son niveau actuel pendant son amélioration, et celle du nouveau niveau dès qu’elle se termine ; le reste de la station continue donc de fonctionner (voir Construction et amélioration).
 
 ### Ferme à crédits et Ferme à Thulium {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’
 
 ## La chaîne d’approvisionnement {#the-supply-chain}
 
-Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/05-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas.
+Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/06-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas.
 
 1. Un **collecteur** extrait du minerai, une quantité donnée par heure, dans son propre réservoir (de quoi stocker 72 heures).
 2. **Récupérer** déplace le minerai du réservoir vers l’**Entrepôt de ressources**, la banque, où chaque minerai est gardé à part.
 3. La **Fonderie** prend dans la banque le minerai dont elle a besoin au début d’un lot, et fabrique des plaques, 10 secondes par plaque, un lot à la fois.
-4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/05-Items/Lasers.md) les transforme en Quantum Laser 3, en Starfire-3 ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate pour [la Forge](/wiki/05-Items/Forge.md).
+4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/06-Items/Lasers.md) les transforme en Quantum Laser 3, en Starfire-3 ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate pour [la Forge](/wiki/06-Items/Forge.md).
 
 ### Collecteur de Velkonite et Collecteur d’Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Quatre modules transforment le temps passé loin du clavier en plaques pour vos 
 Chacun des quatre coûte **10 Ship Fragments, 10 000 crédits et 500 Thulium**, et exige le Noyau au niveau 5.
 
 - Les Ship Fragments sont prélevés dans votre inventaire (pas dans la cache de transport) et votre vaisseau doit être amarré. La fiche de construction montre ce que vous avez face à ce qu’il faut, et ce qui vous manque.
-- Ils consomment de l’énergie. Avant la construction, la fiche montre votre bilan énergétique actuel et après : **construire peut mettre une station en déficit** quand son Solaire est en retard sur les autres modules, et un seul déficit arrête toutes les fermes et tous les collecteurs. Éteignez un module, ou améliorez d’abord Solaire (la station n’a pas d’énergie pendant l’amélioration de Solaire).
+- Ils consomment de l’énergie. Avant la construction, la fiche montre votre bilan énergétique actuel et après : **construire peut mettre une station en déficit** quand son Solaire est en retard sur les autres modules, et un seul déficit arrête toutes les fermes et tous les collecteurs. Éteignez un module, ou améliorez d’abord Solaire.
 - Les deux collecteurs sont suspendus à des structures au-dessus de la station, l’Entrepôt de ressources se trouve au port nord-est du Noyau et la Fonderie à son port nord-ouest.
 
 ## Mécaniques {#mechanics}
@@ -133,8 +133,8 @@ Chacun des quatre coûte **10 Ship Fragments, 10 000 crédits et 500 Thulium**,
 - **Durée et coût** : les améliorations coûtent des crédits et du Thulium et prennent du temps. L’amélioration d’un module de la chaîne d’approvisionnement coûte 10 000 x 1,5^niveau crédits et 500 x 1,5^niveau Thulium (l’Entrepôt de ressources : x1,4 par niveau). Le coût ne dépend pas de la durée.
 - **Minuteurs** : une amélioration tourne sur l’horloge du serveur, elle se termine donc pendant votre absence, des jours plus tard s’il le faut. Lancez-la, déconnectez-vous, revenez : le module est à son nouveau niveau quand vous ouvrez la page Skylab.
 - **Durées d’amélioration** : les premiers niveaux sont rapides et les derniers prennent des jours (voir les tableaux ci-dessous). Chaque module a son propre minuteur : vous pouvez donc en améliorer plusieurs à la fois.
-- **Pause de production** : pendant son amélioration, un module est hors ligne : il ne produit rien et ne consomme pas d’énergie.
-- **Améliorer Solaire éteint la station** : Solaire produit toute l’énergie du Skylab ; pendant son amélioration, toutes les fermes et tous les collecteurs cessent donc de produire pendant toute la durée de l’amélioration (6 jours pour le dernier niveau) et la Fonderie ne lance aucun nouveau lot. Ce qu’ils contiennent reste et vous pouvez toujours le récupérer, mais la production perdue entre-temps n’est pas rattrapée. La fiche d’amélioration vous prévient avant que vous confirmiez. Planifiez vos améliorations en conséquence.
+- **Pause de production** : pendant son amélioration, un module est hors ligne : il ne produit rien et ne consomme pas d’énergie. Solaire fait exception (voir plus bas).
+- **Solaire continue de produire de l’énergie pendant son amélioration** : Solaire produit toute l’énergie du Skylab et, pendant son amélioration (6 jours pour le dernier niveau), il continue de produire l’énergie de son niveau **actuel** ; celle du nouveau niveau prend le relais dès que l’amélioration se termine. Les fermes, les collecteurs et la Fonderie continuent de fonctionner tant que cette énergie les couvre : améliorer Solaire n’éteint donc jamais votre station, et la Fonderie peut lancer de nouveaux lots entre-temps. Seul le module en cours d’amélioration est hors ligne.
 
 ### Durées d’amélioration {#upgrade-times}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac17fd77713a030e -->
+<!-- wiki-i18n source: 5874d77ba7ccf380 -->
 <!-- wiki-i18n title: Inventaire -->
 # Inventaire et équipement {#inventory-equipment}
 
@@ -15,7 +15,7 @@ Contrairement aux jeux spatiaux traditionnels, SpaceCorps propose des emplacemen
   - **Emplacements auxiliaires** : les objets placés ici reçoivent **50 %** de leurs stats de base. Seuls certains vaisseaux en ont (le Paragon en a 2, l’Ironclad 3 et le Wraith 4 ; le Protos, le Kitefin et l’Ostirion n’en ont aucun). Ils conviennent surtout aux boucliers et moteurs supplémentaires, plus faibles, tandis que vos plus puissants vont dans les emplacements principaux.
   - **Emplacements de drone** : un bouclier sur l’un de vos drones compte comme un bouclier dans un emplacement principal, soit **100 %** de ses stats (voir [Mécaniques des drones](/wiki/03-Mechanics/Drones.md)).
   - **Emplacements non attribués ou hérités** : les objets placés ici ne contribuent pas aux stats.
-  - **Le cumul s’estompe aussi** : les boucliers et les moteurs sont classés du plus fort au plus faible, et la part du palier est ensuite multipliée par celle de leur rang : du 1er au 4e, ils comptent en entier, le 5e, le 6e et le 7e comptent respectivement 85 %, 70 % et 55 %, et à partir du 8e, 25 %. Voir [Boucliers](/wiki/03-Mechanics/Shields.md) et [Vitesse](/wiki/03-Mechanics/Speed.md).
+  - **Le cumul s’estompe aussi** : les boucliers et les moteurs sont classés du plus fort au plus faible, et la part du palier est ensuite multipliée par celle de leur rang : du 1er au 4e, ils comptent en entier, le 5e, le 6e et le 7e comptent respectivement 85 %, 70 % et 55 %, et à partir du 8e, 50 % pour les boucliers et 25 % pour les moteurs. Voir [Boucliers](/wiki/03-Mechanics/Shields.md) et [Vitesse](/wiki/03-Mechanics/Speed.md).
 - **Emplacements extras** : pour les objets utilitaires spécialisés, comme les Repair Drones.
 
 ## Ordre de l’inventaire {#inventory-order}

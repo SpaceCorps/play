@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: Drones -->
 # Mécaniques des drones {#drone-mechanics}
 
@@ -6,7 +6,7 @@ Les drones sont des unités de soutien autonomes qui volent à côté de votre v
 
 ## Obtenir des drones {#getting-drones}
 
-Chaque drone que vous possédez, **Slave Drone** ou Master Drone, ouvre ses emplacements de drone (un pour un Slave Drone, deux pour un Master Drone), jusqu’à **8** drones. La boutique vend les Slave Drones contre des crédits, et à partir du quatrième aussi contre du Thulium. Chacun coûte plus cher que le précédent : les prix sont dans [Drones](/wiki/05-Items/Drones.md).
+Chaque drone que vous possédez, **Slave Drone** ou Master Drone, ouvre ses emplacements de drone (un pour un Slave Drone, deux pour un Master Drone), jusqu’à **8** drones. La boutique vend les Slave Drones contre des crédits, et à partir du quatrième aussi contre du Thulium. Chacun coûte plus cher que le précédent : les prix sont dans [Drones](/wiki/06-Items/Drones.md).
 
 ## Formation et déplacement {#formation-movement}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac17fd77713a030e -->
+<!-- wiki-i18n source: 5874d77ba7ccf380 -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -15,7 +15,7 @@ A hagyományos űrjátékokkal ellentétben a SpaceCorpsban dinamikusan sávokra
   - **Segédfoglalatok**: az ide helyezett tárgyak az alapértékeik **50%-át** kapják. Csak néhány hajónak van belőlük (Paragon: 2, Ironclad: 3, Wraith: 4; Protos, Kitefin és Ostirion: nincs). A legjobbak extra, gyengébb pajzsokhoz és hajtóművekhez valók, míg a legerősebbek a magfoglalatokba kerülnek.
   - **Drónfoglalatok**: a drónjaid egyikén lévő pajzs úgy számít, mint a magfoglalatban lévő: az alapértékeinek **100%-át** kapja (lásd: [Drónmechanika](/wiki/03-Mechanics/Drones.md)).
   - **Besorolatlan/régi foglalatok**: az ide helyezett tárgyak nem járulnak hozzá az értékekhez.
-  - **A halmozás is csökken**: a pajzsokat és a hajtóműveket a legerősebbtől kezdve rangsorolják, és a sáv részesedését megszorozzák a rangjukéval: az 1.–4. teljes értékkel számít, az 5.–7. 85%-kal, 70%-kal és 55%-kal, a 8.-tól kezdve 25%-kal. Lásd: [Pajzsok](/wiki/03-Mechanics/Shields.md) és [Sebesség](/wiki/03-Mechanics/Speed.md).
+  - **A halmozás is csökken**: a pajzsokat és a hajtóműveket a legerősebbtől kezdve rangsorolják, és a sáv részesedését megszorozzák a rangjukéval: az 1.–4. teljes értékkel számít, az 5.–7. 85%-kal, 70%-kal és 55%-kal, a 8.-tól kezdve a pajzsok 50%-kal, a hajtóművek 25%-kal. Lásd: [Pajzsok](/wiki/03-Mechanics/Shields.md) és [Sebesség](/wiki/03-Mechanics/Speed.md).
 - **Extrafoglalatok**: speciális segédtárgyaknak, például Repair Drone-oknak.
 
 ## Leltárrend {#inventory-order}

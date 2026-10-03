@@ -1,6 +1,6 @@
 # Seeker
 
-Seekers are basic scouting and reconnaissance units. They are passive, meaning they never start a fight: a Seeker turns on the pilot who shoots it, and only on that pilot. It lets go if nobody has hit it for 10 seconds, and its hull mends once it has been left alone for 30.
+Seekers are basic scouting and reconnaissance units. They are passive, meaning they never start a fight: a Seeker turns on the pilot who shoots it, and only on that pilot. It lets go if nobody has hit it for 10 seconds, and its hull mends once it has been left alone for 30. The Boss Seeker and the Seeker Slaves of the [Seeker Swarm](/wiki/05-Swarms/Seeker-Swarm.md) look like Seekers but are kinds of their own: their kills are counted under their own names, not as Seeker kills.
 
 ## Stats
 
@@ -26,13 +26,14 @@ Seekers are basic scouting and reconnaissance units. They are passive, meaning t
 - **Thulium**: 4
 - **Experience (XP)**: 100
 - **Honor**: 2
+- **PvE points per kill**: 1
 - **Shield Recharge**: 10 per second (15s delay)
 
 ## Loot Drops
 
 Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the killer's for 30 seconds.
 
-What each drop is for, and where else to find it: [Resources](/wiki/05-Items/Resources.md).
+What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20% chance (Min: 1, Max: 1)
 - **Daraxium**: 50% chance (Min: 1, Max: 2)

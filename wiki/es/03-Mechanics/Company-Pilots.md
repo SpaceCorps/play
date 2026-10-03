@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Pilotos de corporación -->
 # Pilotos de corporación {#company-pilots}
 
@@ -17,6 +17,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
 
 - **Patrullan** un circuito que pasa por la estación del sector, sus portales y algunos puntos intermedios.
 - **Cazan** los alienígenas que pueden vencer (Seekers y Phantasms; dejan en paz a Bulwarks, Goombahs y Crystalys) mientras haya pilotos volando en el sector. Un alienígena contra el que lucha un piloto de otra corporación es de ese piloto: el escuadrón lo deja en paz.
+- **Ignoran los [enjambres](/wiki/05-Swarms/Swarms.md)**: una nave de enjambre no es asunto suyo. No la cazan ni se suman a un combate contra ella, y nunca acuden en tu ayuda en uno.
 - **Ayudan**: cuando un alienígena ataca a un piloto de su corporación que está a menos de 1500 de ellos, o cuando ese piloto abre fuego contra un alienígena que ellos podrían vencer, se unen a ese combate. Se mantienen al margen de un combate que un compañero empezó con un alienígena al que no podrían vencer (un Goombah al que un piloto disparó, o un Bulwark); a un alienígena agresivo que va a por un compañero lo combaten, sea cual sea. Un alienígena que rematan paga al piloto que tiene su reclamación (el primero que lo impactó; consulta [Combate](/wiki/03-Mechanics/Combat.md)); si nadie la tiene, cuenta para el piloto de su corporación más cercano que le esté disparando (con fijación, a su alcance y con una andanada en los últimos 2,5 segundos). En ambos casos, las recompensas son de ese piloto, y su [caja de carga](/wiki/03-Mechanics/Cargo.md) queda reservada para él como si hubiera hecho el derribo. Los pilotos de corporación nunca reclaman un alienígena ni ganan o recogen nada ellos mismos: un alienígena contra el que luchan solos no deja caja. Fijar un alienígena desde lejos, o solo recibir sus disparos, no da nada.
 - **Se defienden** cuando les disparan alienígenas, y también pilotos de otras corporaciones una vez abierto el PvP y donde su [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite el PvP: no en `x-1` a `x-3` de Alpha, ni en `x-1` de Beta.
 - **Reparan** con su dron siempre que su casco está dañado: un 1,5 % de él por segundo, a partir de 10 segundos después del último impacto.

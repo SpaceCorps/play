@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n source: 2f4a437ea53e355e -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -10,6 +10,7 @@ A megsemmisített idegenek a zsákmányukat izzó rakományládákként hagyják
 - A **vállalati pilóták** nem hagynak ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket. Lásd: [Vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md).
 - A **pilóták hajói** nem hagynak roncsot és ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket, és a pilóta leltárából nem vesznek el semmit.
 - A **feketelyuk** **Dark Matter**-ládákat rak le a zónája peremén a beléje lőtt N.I.K.E. rakétáért (lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Ők az egyetlen fajta láda, amely a lyuk gyűrűjén belül fekszik.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
 
 Az az idegen, amelyet egy vállalati pilóta fejez be, a zsákmányát annak a pilótának dobja, akinek a kilövés számít (aki a foglalását tartja, különben a vállalatának az ellene harcoló pilótája); az az idegen, amellyel egy vállalati pilóta egyedül harcolt, semmit sem dob, mert a vállalati pilóták sosem gyűjtenek.
 

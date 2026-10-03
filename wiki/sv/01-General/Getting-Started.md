@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n source: f498be6364c7a1f9 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -6,10 +6,12 @@ Välkommen till den ultimata rymdkrigsupplevelsen. Som pilot i SpaceCorps repres
 
 ## Grundläggande resurser {#core-resources}
 
-För att överleva och klara dig måste du hushålla med två valutor och hålla koll på din heder. Materialen du bygger med finns på sidan [Resurser](/wiki/05-Items/Resources.md), med var du hittar var och en och vad den används till:
+För att överleva och klara dig måste du hushålla med två valutor och hålla koll på din heder. Materialen du bygger med finns på sidan [Resurser](/wiki/06-Items/Resources.md), med var du hittar var och en och vad den används till:
 - **Krediter**: Den vanliga huvudvalutan, som varje utomjording du besegrar och varje slutfört uppdrag betalar ut, och som Kreditfarmen i din [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar. Används för att köpa grundutrustning, skepp och standardutrustning.
-- **Thulium**: Den sällsynta radioaktiva malmen och högvärdesvalutan, som varje utomjording du besegrar och varje slutfört uppdrag betalar ut, och som Thuliumfarmen i din Skylab tillverkar. Används för att köpa elitvapen, styrraketer för framdrift, hybridsköldar och kraftfulla boosterpaket.
+- **Thulium**: Den sällsynta radioaktiva malmen och högvärdesvalutan, som varje utomjording du besegrar och varje slutfört uppdrag betalar ut, och som Thuliumfarmen i din Skylab tillverkar. Används för att köpa elitvapen, motorer, hybridsköldar och kraftfulla boosterpaket och för att uppgradera moduler i Monteringen.
 - **Heder**: Ett poängvärde, inte pengar: ett mått på din rang, lojalitet och ställning i fraktionen. Mer heder höjer din rangtitel, men att angripa piloter i din egen fraktion straffar din hedersrating hårt: att förstöra en pilot i din egen koncern, en spelares skepp eller en av dess [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), kostar 100 heder. Det gör även att träffa en under de 15 sekunderna innan något annat förstör den: att mjuka upp en koncernkamrat åt en utomjording som ska göra slut på den kostar lika mycket som själva nedskjutningen. Att skjuta ner en koncernkamrat räknas inte som en PvP-nedskjutning och ger inga PvP-poäng.
+
+På stationen står dina krediter, ditt Thulium och din heder uppe till höger på varje sida, bredvid din sektor och knappen **Flyg ut**. Är fönstret för smalt för ett långt belopp förkortas det (987,7M); peka på det för att läsa hela talet.
 
 ## Spela med vänner {#playing-with-friends}
 
@@ -31,11 +33,12 @@ När ditt skrov når 0 förstörs skeppet och dödsskärmen frågar var du vill 
 
 - **Låsningen börjar när du återvänder med det valet**, inte när du förstörs, och den gäller bara det valet: att använda portalen låser inte platsen. Ett låst val är utgråat på dödsskärmen med en nedräkning (minuter och sekunder) och öppnas av sig självt när tiden har gått. Låsningarna hålls av servern: att logga ut och in nollställer dem inte. En ny säsong (wipen) gör det.
 - **Ett val som servern nekar kostar ingenting.** Om ett val inte kan användas (fortfarande låst, ingen portal i sektorn, du har bytt värld sedan du förstördes) förbrukas inte låsningen och ditt skepp flyttas inte; du väljer igen.
-- **Skydd.** Ett skepp som återvänder vid en portal eller på platsen kan varken skadas eller låsas på under **5 sekunder**, och utomjordingar tappar intresset för det, så den som förstörde dig kan inte förstöra dig igen direkt. HUD:en visar hur många sekunder som återstår. Ditt **första skott** (en lasersalva eller en raket) avslutar skyddet, och du får veta när det upphör. Vid basen skyddar stationens säkra zon dig som vanligt.
+- **Skydd efter återkomst.** Vilken plats du än väljer kan ditt skepp varken skadas eller låsas på under **3 sekunder** efter att det kommit tillbaka, och utomjordingar tappar intresset för det, så den som förstörde dig kan inte förstöra dig igen direkt. Under samma 3 sekunder **kan du inte heller anfalla**: en laser eller en raket avvisas med ett meddelande, och skyddet tar inte slut i förtid. HUD:en visar hur många sekunder som återstår. Skyddet tar slut när de gått.
 - **Det svarta hålet.** En plats inom strålningsringen kring det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md) (4 200 enheter från mitten av Farosektor 4) är aldrig en plats att återvända till: om du förstördes där placerar ”på platsen” dig vid den närmaste punkten utanför ringen, på linjen från mitten genom din plats, och talar om det för dig.
 - **Farosektorer.** Alla tre valen fungerar där också.
-- **Vad en förstörelse kostar är oförändrat:** du återvänder med skeppets grundskrov och tomma sköldar, du förlorar inga föremål, och valet avgör bara var du dyker upp. Dina förmågor är redo, och du återvänder utan kamouflage och utanför alla EMP-fönster. Du stannar kvar i din [grupp](/wiki/03-Mechanics/Groups.md).
-- **Dockning.** ”Tillbaka till basen” på dödsskärmen tar dig tillbaka till basen, som alltid. Stängs spelet innan du har valt kan du reparera skeppet gratis i [hangaren](/wiki/03-Mechanics/Hangar.md); du är då vid din bas.
+- **Skrovet kommer tillbaka begränsat.** Du återvänder med skeppets skrov **högst 10 000** och tom sköld, vilken plats du än väljer. Protos (8 000 skrov) kommer tillbaka fullt; de större skeppen (från Kitefins 24 000 till Ironclads 600 000) kommer tillbaka med 10 000, så reparera före nästa strid med en Repair Drone eller en Emergency Repair (se [Strid](/wiki/03-Mechanics/Combat.md) och [Förmågor](/wiki/03-Mechanics/Abilities.md)). Skölden laddas som vanligt. Dödsskärmen säger det.
+- **Vad en förstörelse i övrigt kostar:** du förlorar inga föremål, och valet avgör bara var du dyker upp. Dina förmågor är redo, och du återvänder utan kamouflage och utanför alla EMP-fönster. Du stannar kvar i din [grupp](/wiki/03-Mechanics/Groups.md).
+- **Dockning.** ”Tillbaka till basen” på dödsskärmen tar dig tillbaka till basen, som alltid, med samma skrov. Stängs spelet innan du har valt kan du reparera skeppet gratis i [hangaren](/wiki/03-Mechanics/Hangar.md); du är då vid din bas, med samma skrov och utan sköld.
 
 ## Tangentbordsstyrning och tangentbindningar {#keyboard-controls-keybindings}
 
@@ -65,7 +68,7 @@ Det är ett fönster som de andra. Dra det i titelraden för att placera det var
 
 ## När spelet laggar {#when-the-game-lags}
 
-Slå på **Inställningar › Allmänt › Visa nätverksinfo** så visas ett litet kort uppe till höger (det håller sig undan från fönstren, och det är avstängt tills du slår på det). Det visar vilken sida som är långsam:
+Slå på **Inställningar › Gränssnitt › Visa nätverksinfo** så visas ett litet kort uppe till höger (det håller sig undan från fönstren, och det är avstängt tills du slår på det). Det visar vilken sida som är långsam:
 
 | Avläsning | Vad det är | Bra, långsamt |
 | :--- | :--- | :--- |
@@ -83,3 +86,4 @@ När något är dåligt säger en rad under siffrorna vems fel det är: *Långsa
 2. **Säkra zoner**: Portaler och baser har **säkra zoner** runt sig. I de områdena kan andra piloter inte anfalla dig, så du kan i lugn och ro ladda upp sköldarna igen eller vänta ut stridens återhämtningstider.
 3. **Din första förmåga**: ditt startpaket har redan en Repair Drone I monterad i Protos förmågeplats, så knappen Emergency Repair (`E`, bredvid snabbfältet) reparerar ditt skrov under tio sekunder så fort det är skadat. Se [Förmågor](/wiki/03-Mechanics/Abilities.md).
 4. **Daglig klanskatt**: Om du är medlem i en klan, tänk på att klankassan drar en skatteprocent (0 % till 5 %) av ditt dagliga saldo av krediter vid UTC-midnatt. Välj din klan med omsorg!
+5. **Kopiera från wikin**: dra musen över valfri text i en artikel för att markera den och tryck på `Ctrl+C` (`Cmd+C` på Mac) för att kopiera; ett klick på en länk öppnar fortfarande sidan. **Kopiera sidan** högst upp i varje artikel kopierar hela sidan som Markdown, att klistra in i en chatt eller en anteckning.

@@ -47,7 +47,7 @@ AI agents, automated test suites, and scripting environments should invoke this 
 ---
 
 <!-- release:packages -->
-## 3. Package Inventory & Release Artifacts (v0.4.7)
+## 3. Package Inventory & Release Artifacts (v0.4.8)
 
 Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
 
@@ -56,29 +56,29 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 1. **macOS Universal:**
    - Filename: `SpaceCorps2027-macos-universal.dmg`
    - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
-   - Size: 119,974,414 bytes (120.0 MB)
-   - SHA-256: `66c3e7c4add6df0b5e24496ede12f6b83282dfe30e66cf5a756535255b2b963b`
+   - Size: 120,691,869 bytes (120.7 MB)
+   - SHA-256: `52169a9234887a6428185ed08c7eb9c5a13e3fb16d32c9143af086539d8e25f9`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
 
 2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
-   - Size: 114,701,964 bytes (114.7 MB)
-   - SHA-256: `d63eda464574fb6cc88cbb303188801c9b324b9cb2f9b5da59fff0ac0deea4dd`
+   - Size: 115,434,868 bytes (115.4 MB)
+   - SHA-256: `02fb545b98e86bbaa2cb55a284339221dae9d29aa545dfc57c3f1c85f452e795`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
 3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
-   - Size: 110,569,976 bytes (110.6 MB)
-   - SHA-256: `2390f43a6115689a7f7ab63392a9ae038333cb606c1a6787ba003bb25638e659`
+   - Size: 111,254,008 bytes (111.3 MB)
+   - SHA-256: `00de8942fd4dc31de5c7f217d9fd0fcd2d4a350343d532f347815186f20f6999`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
 4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
-   - Size: 115,442,520 bytes (115.4 MB)
-   - SHA-256: `60d12ecbaa66b74dd3401ddf066813dfeadabfe97867a67200a383c462eed26c`
+   - Size: 116,208,962 bytes (116.2 MB)
+   - SHA-256: `3d08eaee97495367acdd2d802f56e141382737fdac72279a1374bc89b6542403`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
 
 Signed checksums: each release also carries `SHA256SUMS` (the SHA-256 of every package above,
@@ -186,11 +186,12 @@ The complete SpaceCorps 2027 knowledge base is programmatically synchronized fro
 - **Raw Markdown Archive:** `https://spacecorps.github.io/play/wiki/`
 
 <!-- release:wiki -->
-The catalog contains 39 articles in 5 modules:
+The catalog contains 43 articles in 6 modules:
 1. `01-General`: Getting Started in SpaceCorps, Spacemap Travel.
 2. `02-Ships`: Ironclad, Kitefin, Ostirion, Paragon, Protos, Wraith.
 3. `03-Mechanics`: Active Ship Abilities, The Black Hole, Cargo Boxes, Clans, Combat Mechanics, Company Pilots, Drone Mechanics, Groups, The Hangar in Flight, Inventory & Equipment, Invite Friends, Quests, Shield Mechanics, Skylab, Speed Calculation, Wipe Timeline & Seasons.
 4. `04-Aliens`: Bulwark, Crystalys, Goombah, Phantasm, Seeker.
-5. `05-Items`: Boosters, Drones, Extras, The Forge, Lasers & Ammo, Items Overview, Propulsion & Speed, Resources, Rockets, Shields & Defense.
+5. `05-Swarms`: Dormant Swarm, Pirate Swarm, Seeker Swarm, Swarms.
+6. `06-Items`: Boosters, Drones, Extras, The Forge, Lasers & Ammo, Items Overview, Propulsion & Speed, Resources, Rockets, Shields & Defense.
 <!-- /release:wiki -->
 

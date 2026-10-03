@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: Velocidad -->
 # Cálculo de la velocidad {#speed-calculation}
 
@@ -12,12 +12,14 @@ La velocidad final de tu nave se calcula en el servidor con la siguiente fórmul
 
 ### 1. Velocidad efectiva del motor {#1-effective-engine-speed}
 
-Cada motor equipado genera velocidad. Si hay propulsores instalados en el motor, su velocidad se modifica:
+Cada motor equipado genera velocidad, y también cada núcleo adaptativo que lleva propulsores. Si hay propulsores instalados en el motor, su velocidad se modifica:
 
-\[\text{Velocidad del motor} = (\text{Velocidad base del motor} \times \text{Multiplicador de propulsores}) + \text{Bono fijo de propulsores}\]
+\[\text{Velocidad del motor} = (\text{Velocidad base del motor} + \text{Bono fijo de propulsores}) \times \text{Multiplicador de propulsores}\]
 
-- **Multiplicador de propulsores**: el producto de los multiplicadores de velocidad de todos los propulsores instalados en ese motor (p. ej., Thruster III es `1.1` o `+10%`).
-- **Bono fijo de propulsores**: la suma de todos los aumentos fijos de velocidad de los propulsores (p. ej., Thruster III da `+15` de velocidad).
+- **Bono fijo de propulsores**: la suma de todos los aumentos fijos de velocidad de los propulsores (p. ej., Impulse Thruster III da `+15` de velocidad).
+- **Multiplicador de propulsores**: el producto de los multiplicadores de velocidad de todos los propulsores instalados en ese motor (p. ej., Momentum Thruster III es `1.13` o `+13%`; Impulse Thruster III, `1.03` o `+3%`). Multiplica todo lo que produce el motor: su propia velocidad base y los bonos fijos de los propulsores. Un núcleo adaptativo no tiene velocidad base propia, y los bonos fijos de sus propulsores se multiplican igualmente.
+
+Un Engine III (velocidad base 6) con tres Momentum Thruster IV (`+12`, `1.14`) produce (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, y con tres Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Una bonificación de la Forja en el multiplicador de un propulsor hace crecer la parte por encima de 1: +15 % sobre `1.14` da `1.161`.
 
 ### 2. Rendimientos decrecientes (eficiencia marginal) {#2-diminishing-returns-marginal-efficiency-}
 

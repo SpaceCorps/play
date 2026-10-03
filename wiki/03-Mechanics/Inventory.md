@@ -13,7 +13,7 @@ Unlike traditional space games, SpaceCorps features dynamically tiered equipment
   - **Auxiliary Slots**: Items placed here receive **50%** of their base stats. Only some ships have them (the Paragon has 2, the Ironclad 3 and the Wraith 4; the Protos, Kitefin and Ostirion have none). They are best for extra, weaker shields and engines, while your strongest go in the core slots.
   - **Drone Slots**: a shield on one of your drones counts like one in a core slot, **100%** of its stats (see [Drone Mechanics](/wiki/03-Mechanics/Drones.md)).
   - **Unassigned/Legacy Slots**: Items placed here do not contribute to stats.
-  - **Stacking fades too**: shields and engines are ranked strongest first, and the band's share is then multiplied by their rank's: the 1st to 4th count in full, the 5th to 7th 85%, 70% and 55%, the 8th onward 25%. See [Shields](/wiki/03-Mechanics/Shields.md) and [Speed](/wiki/03-Mechanics/Speed.md).
+  - **Stacking fades too**: shields and engines are ranked strongest first, and the band's share is then multiplied by their rank's: the 1st to 4th count in full, the 5th to 7th 85%, 70% and 55%, the 8th onward 50% for shields and 25% for engines. See [Shields](/wiki/03-Mechanics/Shields.md) and [Speed](/wiki/03-Mechanics/Speed.md).
 - **Extra Slots**: For specialized utility items, such as Repair Drones.
 
 ## Inventory Order

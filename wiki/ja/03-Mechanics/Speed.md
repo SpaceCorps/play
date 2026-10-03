@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: 速度 -->
 # 速度の計算 {#speed-calculation}
 
@@ -12,12 +12,14 @@
 
 ### 1. エンジンの実効速度 {#1-effective-engine-speed}
 
-装備したエンジンはどれも、速度を生み出します。エンジンにスラスターが装着されている場合は、そのエンジンの速度が変化します。
+装備したエンジンはどれも速度を生み出し、スラスターを装着したアダプティブコアも同じです。エンジンにスラスターが装着されている場合は、そのエンジンの速度が変化します。
 
-\[\text{Engine Speed} = (\text{Engine Base Speed} \times \text{Thruster Multiplier}) + \text{Thruster Flat Bonus}\]
+\[\text{Engine Speed} = (\text{Engine Base Speed} + \text{Thruster Flat Bonus}) \times \text{Thruster Multiplier}\]
 
-- **スラスター倍率**：そのエンジンに装着したすべてのスラスターの速度倍率の積です（例：Thruster III は `1.1`、つまり `+10%`）。
-- **スラスターの固定ボーナス**：スラスターによる固定の速度加算の合計です（例：Thruster III は速度 `+15`）。
+- **スラスターの固定ボーナス**：スラスターによる固定の速度加算の合計です（例：Impulse Thruster III は速度 `+15`）。
+- **スラスター倍率**：そのエンジンに装着したすべてのスラスターの速度倍率の積です（例：Momentum Thruster III は `1.13`、つまり `+13%`、Impulse Thruster III は `1.03`、つまり `+3%`）。エンジンが生み出すもの全体に掛かります。エンジン自身の基本速度にも、スラスターの固定ボーナスにも掛かります。アダプティブコアには自身の基本速度がありませんが、そのスラスターの固定ボーナスには同じように倍率が掛かります。
+
+Engine III（基本速度 6）に Momentum Thruster IV（`+12`、`1.14`）を3基装着すると、(6 + 3 x 12) x 1.14 x 1.14 x 1.14 = 62.2 の速度になります。Impulse Thruster IV（`+17`、`1.02`）を3基装着すると (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5 です。鍛冶場でスラスター倍率に付くボーナスは、1を超える部分を伸ばします。`1.14` に +15% のボーナスが付くと `1.161` になります。
 
 ### 2. 逓減（限界効率） {#2-diminishing-returns-marginal-efficiency-}
 

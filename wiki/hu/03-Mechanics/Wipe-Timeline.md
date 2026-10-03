@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Minden szezon az 1. naptól a 30. napig tart (a wipe a 30. nap kezdetekor indul�
 | Szakasz | Napok | Protokoll / esemény | Leírás |
 | :--- | :--- | :--- | :--- |
 | **Békeprotokoll** | 1–3. nap | PvP nélküli szakasz | Új kezdet, amely teljes egészében a PvE-fejlődésre, a nyersanyag-farmolásra és a hajóépítésre összpontosít, a játékosok közti konfliktus fenyegetése nélkül. |
-| **Első kapcsolat** | 4–10. nap | 1. esemény | A PvP megnyílik (a világod szabálya szerint, lásd lent: Világok). Különleges jutalmak egyelőre nincsenek. |
+| **Első kapcsolat** | 4–10. nap | 1. esemény | A PvP megnyílik (a világod szabálya szerint, lásd lent: Világok), és a három [raj](/wiki/05-Swarms/Swarms.md) megjelenni kezd: a wipe-ig maradnak, az ezt követő szakaszokon át. A szakasz maga egyelőre nem ad különleges jutalmat. |
 | **Techroham** | 11–18. nap | 2. esemény | Különleges hatások egyelőre nincsenek: a hozamok és az idegenek ugyanazok, mint bármely más szakaszban. |
 | **Hadijátékok** | 19–25. nap | 3. esemény | Különleges hatások egyelőre nincsenek: a PvP úgy működik, mint a Békeprotokoll utáni minden szakaszban. |
 | **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa és lezárja a magával vitt rakományát. |
 | **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik. A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. |
 
-A wipe-on kívül csak a Békeprotokoll (1–3. nap) változtat egy szabályt. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton, de egyik sem ad egyelőre különleges jutalmat, megjelenő idegeneket vagy bónuszt.
+A wipe-on kívül csak két dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, és a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton, de egyik sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
 
 ---
 
@@ -59,7 +59,7 @@ A leltáradban lévő további tárgyakhoz, amelyeket meg szeretnél menteni (pl
   * *Hajtóművek / meghajtás*: 30 kg
   * *Generátorok*: 30 kg
   * *Nyersanyagok / ásványok*: ritkaságtól függően változó súly (a Skylab Kovácsműhelyében készült Reinforced Plate 5 kg-ot nyom)
-  * *Rakéták*: egyáltalán nincs súlyuk: nem foglalnak helyet a tárolóban, így egész készletek is beférnek (lásd: [Rakéták](/wiki/05-Items/Rockets.md))
+  * *Rakéták*: egyáltalán nincs súlyuk: nem foglalnak helyet a tárolóban, így egész készletek is beférnek (lásd: [Rakéták](/wiki/06-Items/Rockets.md))
 
 A [Skylabod](/wiki/03-Mechanics/Skylab.md) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie.
 

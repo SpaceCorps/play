@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ Le riparazioni in corso non ti fermano. In qualsiasi altro posto la finestra Han
 
 ## Cambiare nave {#changing-ship}
 
-La nave a cui passi ha **lo scafo e gli scudi che aveva** l’ultima volta che l’hai pilotata, esattamente come se l’avessi fatta decollare. L’anello non ripara, quindi cambiare nave non ti cura mai: la nave che lasci conserva i danni che ha, e torna con essi. Una nave distrutta non può volare finché non la ripristini.
+La nave a cui passi ha **lo scafo e gli scudi che aveva** l’ultima volta che l’hai pilotata, esattamente come se l’avessi fatta decollare. L’anello non ripara, quindi cambiare nave non ti cura mai: la nave che lasci conserva i danni che ha, e torna con essi. Una nave distrutta non può volare finché non la ripristini; è gratis e la riporta con al massimo 10.000 di scafo e senza scudo, come un respawn.
 
 Ciò che è tuo resta tuo: le tue munizioni, i tuoi razzi e il loro timer, le ricariche delle tue abilità, i tuoi booster, i tuoi XP e i tuoi Slave Drone. Ciò che apparteneva alla nave finisce: uno Shield Surge o un Afterburner in corso, le riparazioni, il tuo aggancio del bersaglio, il tuo attacco e la rotta che stavi seguendo. Gli equipaggiamenti restano sulla nave su cui sono montati.
 

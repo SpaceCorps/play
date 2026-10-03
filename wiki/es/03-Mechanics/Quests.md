@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50aef07b7e598353 -->
+<!-- wiki-i18n source: 500bc358b49f4250 -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -25,7 +25,7 @@ Las misiones son la forma principal de subir de nivel. Las reparte Mission Contr
 
 - La undécima misión de cada nivel es su **Especial**. Está bloqueada hasta que las otras **diez** misiones del nivel estén hechas (reclamadas o a la espera de que las reclames), y su tarjeta indica cuántas te faltan.
 - Las especiales pagan más experiencia que cualquier otra misión de su nivel y, además, **objetos**: láseres, piezas de escudo, generadores, Power Cores, Ship Fragments, munición y tiempo de potenciador.
-- Las misiones normales del nivel 1 también dan cada una un pequeño objeto inicial: un Light Shield Core, un Repair Drone, un Damage Amp, una Basic Shield Cell, algo de munición y una pila de cohetes para probar cada tipo (Lancets, Rivets, Embers y Scatters, y Javelins con la Especial).
+- Las misiones normales del nivel 1 también dan cada una un pequeño objeto inicial: un Light Shield Core, un Repair Drone, un Damage Amp, una Absorption Shield Cell I, algo de munición y una pila de cohetes para probar cada tipo (Lancet I, Rivet I, Ember I y Scatter I, y Lancet II con la Especial).
 
 ## Misiones de la estación {#station-missions}
 
@@ -33,7 +33,7 @@ Las misiones son la forma principal de subir de nivel. Las reparte Mission Contr
 - Se aceptan, se siguen, se abandonan y se reclaman como cualquier misión, pero no cuentan entre las 5: puedes llevar **3 misiones de la estación a la vez** además de tus otras 5. Una misión de la estación puede esperar horas a que terminen los temporizadores de mejora y nunca retrasa una misión de combate.
 - Aceptar una misión de la estación no cambia la misión que sigues cuando tienes una que el vuelo puede hacer avanzar: la ventana Misiones activas sigue mostrando tu misión de combate, y la misión de la estación es un punto en su barra de título (pasa el cursor por él para ver su progreso, haz clic para mostrarla).
 - Cada una se abre en su propio **nivel de piloto** y después de las misiones de la estación a las que sigue (reclamadas antes): una tarjeta bloqueada dice cuáles. Las tres primeras se abren en el nivel 1.
-- Sus tareas leen tu Skylab: **construir** un módulo o **subirlo a un nivel** (se cumple mientras el módulo esté en ese nivel o en uno superior), **mantener la energía en 0 o más** (se cuenta con los niveles en que están los módulos, aunque haya alguno apagado o en mejora) y **recoger** créditos de la Granja de créditos (se cuenta desde el momento en que aceptas la misión, con el botón Recoger recursos). Una misión cuyas tareas se cumplen todas a la vez queda hecha: una que ya cumples al aceptarla queda hecha al instante.
+- Sus tareas leen tu Skylab: **construir** un módulo o **subirlo a un nivel** (se cumple mientras el módulo esté en ese nivel o en uno superior; ningún módulo pasa de tu Núcleo, así que un objetivo de Solar puede pedir subir antes el Núcleo) y **recoger** créditos de la Granja de créditos (se cuenta desde el momento en que aceptas la misión, con el botón Recoger recursos). Una misión cuyas tareas se cumplen todas a la vez queda hecha: una que ya cumples al aceptarla queda hecha al instante.
 - Pagan **exactamente lo que dice la tabla**: sin multiplicador de mundo, sin potenciadores, sin experiencia Premium, sin objetos. Su experiencia se suma al 85 % que pagan las misiones de los niveles (como máximo el 5 % de la experiencia que separa un nivel del siguiente).
 - Las misiones de la estación no cuentan para los [puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md) por misiones hechas. Sobreviven al reinicio como cualquier misión, y también lo que construiste.
 
@@ -83,7 +83,7 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 
 - **PvP**: los pilotos de otras corporaciones pueden atacarte en `x-4` y en el centro en todos los mundos, desde `x-2` en adelante en Beta y en todas partes en Gamma (salvo en las zonas seguras y durante el Protocolo de paz).
 - Los **Bulwarks** (`x-3`, `x-4`) son más rápidos que una Protos y golpean fuerte. Combátelos desde una [Ostirion](/wiki/02-Ships/Ostirion.md), cerca de la zona segura de un portal, y retírate a ella para reparar.
-- Los **Goombahs** (`x-3`, `x-4`) tienen un alcance de 800, golpean con 3.000 de daño y nunca empiezan un combate: si dejas a uno en paz, te deja en paz; si le disparas, se vuelve contra ti hasta 10 segundos después de tu último impacto (y se repara cuando lo dejan en paz). Una nave cuyos láseres sean todos [Starfire-3](/wiki/05-Items/Lasers.md) (alcance 850) los supera en alcance, igual que a los Bulwarks: con una nave más rápida que ellos (una Ostirion o superior; un Goombah vuela a 180 y un Bulwark a 175) puedes disparar sin recibir ni un impacto. El alcance de tu nave es la media del alcance de sus láseres, así que un Starfire-3 junto a dos Quantum Laser 2 dispara desde 750: lo bastante lejos para mantenerte fuera del alcance de un Bulwark (700), pero no del de un Goombah (800). La Especial del nivel 5 te da uno; también puedes fabricarlo en Ensamblaje, con Velkonite Reinforced Plates que produce la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md).
+- Los **Goombahs** (`x-3`, `x-4`) tienen un alcance de 800, golpean con 3.000 de daño y nunca empiezan un combate: si dejas a uno en paz, te deja en paz; si le disparas, se vuelve contra ti hasta 10 segundos después de tu último impacto (y se repara cuando lo dejan en paz). Una nave cuyos láseres sean todos [Starfire-3](/wiki/06-Items/Lasers.md) (alcance 850) los supera en alcance, igual que a los Bulwarks: con una nave más rápida que ellos (una Ostirion o superior; un Goombah vuela a 180 y un Bulwark a 175) puedes disparar sin recibir ni un impacto. El alcance de tu nave es la media del alcance de sus láseres, así que un Starfire-3 junto a dos Quantum Laser 2 dispara desde 750: lo bastante lejos para mantenerte fuera del alcance de un Bulwark (700), pero no del de un Goombah (800). La Especial del nivel 5 te da uno; también puedes fabricarlo en Ensamblaje, con Velkonite Reinforced Plates que produce la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md).
 - Los **Crystalys** recorren la frontera (`x-4`). Nada de lo que puedes conseguir hasta el nivel 8 lo supera en alcance, y solo una nave rápida lo deja atrás: mantén la distancia y vigila el minimapa.
 - Cuando te destruyen, eliges dónde volver: en tu base, en el portal más cercano o en el sitio (consulta [Morir y volver](/wiki/01-General/Getting-Started.md)). Mientras tanto, el reloj de una misión con tiempo límite sigue corriendo.
 
@@ -100,17 +100,17 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 
 | Misión | Oficial | Tareas | Límite de tiempo | XP | Créditos | Thulium | Honor | Objetos |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Entrenamiento básico: combate | Combate | Destruye Seeker ×8 en x-1 | – | 950 | 5.000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
+| Entrenamiento básico: combate | Combate | Destruye Seeker ×8 en x-1 | – | 950 | 5.000 | 10 | 10 | Standard Battery ×500, Lancet I ×50 |
 | Entrenamiento básico: navegación | Reconocimiento | Patrulla 15.000 unidades en x-1 → Patrulla 15.000 unidades en x-2 | – | 900 | 4.500 | 10 | 9 | Light Shield Core ×1 |
-| Prueba de velocidad | Operaciones | Destruye Seeker ×8 en x-1 | 8 min | 1.050 | 5.000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
+| Prueba de velocidad | Operaciones | Destruye Seeker ×8 en x-1 | 8 min | 1.050 | 5.000 | 10 | 10 | Advanced Plasma ×100, Rivet I ×50 |
 | Defensa del sector base | Combate | Destruye Seeker ×12 en x-1 | – | 1.300 | 6.500 | 15 | 13 | Standard Battery ×500 |
 | Reconocimiento rápido | Reconocimiento | Patrulla 35.000 unidades en x-1 | 7 min | 900 | 4.500 | 10 | 9 | Repair Drone I ×1 |
-| Operaciones combinadas | Operaciones | Destruye Seeker ×8 en x-1; Patrulla 15.000 unidades en x-1 | – | 1.200 | 6.000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
-| Golpe y fuga | Reconocimiento | Destruye Seeker ×4 en x-2 → Patrulla 20.000 unidades en x-2 | – | 1.000 | 5.000 | 10 | 10 | Basic Shield Cell ×1 |
+| Operaciones combinadas | Operaciones | Destruye Seeker ×8 en x-1; Patrulla 15.000 unidades en x-1 | – | 1.200 | 6.000 | 10 | 12 | Advanced Plasma ×100, Ember I ×30 |
+| Golpe y fuga | Reconocimiento | Destruye Seeker ×4 en x-2 → Patrulla 20.000 unidades en x-2 | – | 1.000 | 5.000 | 10 | 10 | Absorption Shield Cell I ×1 |
 | Caza mayor | Combate | Destruye Seeker ×20 en x-1 | – | 2.050 | 10.000 | 20 | 20 | Standard Battery ×1.000 |
-| Defensa fronteriza | Combate | Destruye Seeker ×15 en x-2 | – | 1.650 | 8.000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
+| Defensa fronteriza | Combate | Destruye Seeker ×15 en x-2 | – | 1.650 | 8.000 | 15 | 16 | Damage Amp 1 ×1, Scatter I ×30 |
 | La prueba de fuego | Operaciones | Destruye Seeker ×8 en x-1 → Patrulla 12.000 unidades en x-2 → Destruye Seeker ×8 en x-2 | 20 min | 2.600 | 13.000 | 25 | 26 | Advanced Plasma ×150 |
-| **Cazador de Phantasm** (Especial) | Operaciones | Destruye Phantasm ×2 en x-2; Destruye Seeker ×15 en x-2 | – | 3.400 | 17.000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
+| **Cazador de Phantasm** (Especial) | Operaciones | Destruye Phantasm ×2 en x-2; Destruye Seeker ×15 en x-2 | – | 3.400 | 17.000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### Nivel 2: Primer contacto {#level-2-first-contact}
 
@@ -128,7 +128,7 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 | Criba de Seekers | Combate | Destruye Seeker ×30 en x-2 | – | 2.100 | 14.500 | 40 | 21 | – |
 | Carrera al portal | Reconocimiento | Patrulla 20.000 unidades en x-2 → Patrulla 3.000 unidades en x-3 | – | 800 | 5.500 | 15 | 8 | – |
 | Simulacro de emboscada | Operaciones | Destruye Phantasm ×3 en x-2; Destruye Seeker ×10 en x-2 | 15 min | 1.600 | 11.000 | 30 | 16 | – |
-| **Purga de Phantasm** (Especial) | Operaciones | Destruye Phantasm ×6 en x-2 → Destruye Seeker ×15 en x-2 → Patrulla 4.000 unidades en x-3 | 30 min | 3.400 | 24.000 | 70 | 34 | Advanced Shield Cell ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Purga de Phantasm** (Especial) | Operaciones | Destruye Phantasm ×6 en x-2 → Destruye Seeker ×15 en x-2 → Patrulla 4.000 unidades en x-3 | 30 min | 3.400 | 24.000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### Nivel 3: El tercer sector {#level-3-the-third-sector}
 
@@ -200,7 +200,7 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 | Rompeasedios | Operaciones | Destruye Bulwark ×6 en x-4; Patrulla 8.000 unidades en x-4 | – | 26.000 | 90.000 | 780 | 195 | – |
 | Atalaya | Reconocimiento | Destruye Bulwark ×3 en x-4 → Patrulla 10.000 unidades en x-4 | – | 16.000 | 55.000 | 480 | 120 | – |
 | La larga prueba de fuego | Operaciones | Destruye Bulwark ×5 en x-4 → Destruye Goombah ×1 en x-4 | 25 min | 39.000 | 135.000 | 1.170 | 292 | – |
-| **Coloso** (Especial) | Operaciones | Destruye Goombah ×2 en x-4; Destruye Bulwark ×6 en x-4 | – | 54.000 | 190.000 | 1.620 | 405 | Elite Shield Cell ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
+| **Coloso** (Especial) | Operaciones | Destruye Goombah ×2 en x-4; Destruye Bulwark ×6 en x-4 | – | 54.000 | 190.000 | 1.620 | 405 | Absorption Shield Cell II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
 
 ### Nivel 7: Cacerías de Goombahs {#level-7-goombah-hunts}
 
@@ -249,10 +249,10 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 | Día de paga | Reconocimiento | nivel 1, tras Primera granja | Recoger 1.000 créditos de la granja de créditos | 350 | 2.000 | 20 | 4 |
 | El corazón de la estación | Operaciones | nivel 2, tras Primera granja | Subir Núcleo al nivel 3 | 400 | 4.000 | 10 | 4 |
 | Paneles más brillantes | Operaciones | nivel 2, tras El corazón de la estación | Subir Solar al nivel 3 | 600 | 2.000 | 40 | 6 |
-| La línea de Thulium | Operaciones | nivel 3, tras Paneles más brillantes | Construir Granja de Thulium; Mantener la energía en 0 o más | 1.000 | 5.000 | 100 | 10 |
-| Temporada de crecimiento | Operaciones | nivel 4, tras La línea de Thulium | Subir Granja de créditos al nivel 3; Mantener la energía en 0 o más | 800 | 4.000 | 80 | 8 |
+| La línea de Thulium | Operaciones | nivel 3, tras Paneles más brillantes | Construir Granja de Thulium; Subir Solar al nivel 4 | 1.000 | 5.000 | 100 | 10 |
+| Temporada de crecimiento | Operaciones | nivel 4, tras La línea de Thulium | Subir Granja de créditos al nivel 3; Subir Solar al nivel 5 | 800 | 4.000 | 80 | 8 |
 | Cincuenta mil | Reconocimiento | nivel 4, tras Día de paga y Temporada de crecimiento | Recoger 50.000 créditos de la granja de créditos | 1.500 | 5.000 | 50 | 15 |
-| Abrir la línea de suministro | Operaciones | nivel 4, tras El corazón de la estación y Paneles más brillantes | Subir Núcleo al nivel 5; Subir Solar al nivel 5 | 1.500 | 5.500 | 60 | 15 |
+| Abrir la línea de suministro | Operaciones | nivel 4, tras Temporada de crecimiento | Subir Núcleo al nivel 6; Subir Solar al nivel 6 | 1.500 | 5.500 | 60 | 15 |
 | Núcleo diez | Operaciones | nivel 5, tras Abrir la línea de suministro | Subir Núcleo al nivel 10 | 1.500 | 20.000 | 50 | 11 |
 
 <!-- quests:end -->

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Goombahs sind furchteinflößende Alien-Schiffe der Kreuzerklasse. Sie haben eine hohe Schildkapazität und richten gewaltigen Schaden an, beginnen aber nie einen Kampf: Ein Goombah greift nur den Piloten an, der ihn angegriffen hat.
+Goombahs sind furchteinflößende Alien-Schiffe der Kreuzerklasse. Sie haben eine hohe Schildkapazität und richten gewaltigen Schaden an, beginnen aber nie einen Kampf: Ein Goombah greift nur den Piloten an, der ihn angegriffen hat. Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 
 ## Werte {#stats}
 
@@ -28,13 +28,14 @@ Goombahs sind furchteinflößende Alien-Schiffe der Kreuzerklasse. Sie haben ein
 - **Thulium**: 75
 - **Erfahrung (EP)**: 3.000
 - **Ehre**: 24
+- **PvE-Punkte pro Abschuss**: 7
 - **Schildaufladung**: 100 pro Sekunde (15 s Verzögerung)
 
 ## Beute {#loot-drops}
 
 Die Beute fällt als [Frachtkiste](/wiki/03-Mechanics/Cargo.md) dort, wo er explodiert, und gehört 30 Sekunden lang dem Piloten, der ihn abgeschossen hat.
 
-Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/05-Items/Resources.md).
+Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100 % Chance (Min.: 3, Max.: 3)

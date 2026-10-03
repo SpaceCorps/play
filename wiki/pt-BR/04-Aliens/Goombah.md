@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm grande capacidade de escudo e causam um dano enorme, mas nunca começam um combate: um Goombah ataca apenas o piloto que o atacou.
+Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm grande capacidade de escudo e causam um dano enorme, mas nunca começam um combate: um Goombah ataca apenas o piloto que o atacou. As naves dos [enxames](/wiki/05-Swarms/Swarms.md) são tipos de alienígena à parte, com artigos próprios na categoria Enxames.
 
 ## Atributos {#stats}
 
@@ -28,13 +28,14 @@ Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm 
 - **Thulium**: 75
 - **Experiência (XP)**: 3.000
 - **Honra**: 24
+- **Pontos PvE por abate**: 7
 - **Recarga do escudo**: 100 por segundo (15 s de atraso)
 
 ## Saque {#loot-drops}
 
 Cai como uma [caixa de carga](/wiki/03-Mechanics/Cargo.md) no local onde ele explode, reservada por 30 segundos a quem o abateu.
 
-Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/05-Items/Resources.md).
+Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100% de chance (Mín.: 3, Máx.: 3)

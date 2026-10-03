@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4734ef32f97892a -->
+<!-- wiki-i18n source: 315d774a2584f57e -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -13,13 +13,13 @@ Cada temporada va del día 1 al 30 (el Reinicio empieza con su cuenta regresiva 
 | Fase | Días | Protocolo / evento | Descripción |
 | :--- | :--- | :--- | :--- |
 | **Protocolo de paz** | Días 1–3 | Sin PvP | Un nuevo comienzo centrado por completo en el progreso PvE, la recolección de recursos y la construcción de naves, sin la amenaza de combates entre jugadores. |
-| **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo). Aún sin recompensas especiales. |
+| **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo) y los tres [enjambres](/wiki/05-Swarms/Swarms.md) empiezan a aparecer: se quedan hasta el reinicio, a lo largo de las fases siguientes. La fase en sí aún no da recompensas especiales. |
 | **Auge Tecnológico** | Días 11–18 | Evento 2 | Aún sin efectos especiales: los rendimientos y los alienígenas son los mismos que en cualquier otra fase. |
 | **Juegos de Guerra** | Días 19–25 | Evento 3 | Aún sin efectos especiales: el PvP funciona como en todas las fases posteriores al Protocolo de paz. |
 | **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar y bloquear la carga que se llevan antes de la erupción. |
 | **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
 
-Aparte del propio reinicio, solo el Protocolo de paz (días 1–3) cambia una regla. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y perfil y en el Panel del juego, pero ninguno da todavía recompensas, apariciones ni bonificaciones especiales.
+Aparte del propio reinicio, solo dos cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, y desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y perfil y en el Panel del juego, pero ninguno da todavía recompensas, apariciones ni bonificaciones especiales propias.
 
 ---
 
@@ -59,7 +59,7 @@ Para los demás objetos de tu inventario que quieras conservar (p. ej., armament
   * *Motores / propulsión*: 30 kg
   * *Generadores*: 30 kg
   * *Recursos / minerales*: pesos variables según la rareza (una placa reforzada de la Forja del Skylab pesa 5 kg)
-  * *Cohetes*: no pesan nada: no ocupan sitio en el alijo, así que entran pilas enteras (consulta [Cohetes](/wiki/05-Items/Rockets.md))
+  * *Cohetes*: no pesan nada: no ocupan sitio en el alijo, así que entran pilas enteras (consulta [Cohetes](/wiki/06-Items/Rockets.md))
 
 Tu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte.
 

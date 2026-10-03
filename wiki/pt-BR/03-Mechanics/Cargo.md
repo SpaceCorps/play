@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n source: 2f4a437ea53e355e -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -10,6 +10,7 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **Pilotos de corporação** não deixam caixa quando são destruídos, seja quem ou o que for que os destrua. Veja [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md).
 - **Naves de pilotos** não deixam destroços nem caixa quando são destruídas, seja quem ou o que for que as destrua, e nada é tirado do inventário do piloto.
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
 

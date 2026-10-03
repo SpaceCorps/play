@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 860b92b2bb2c6fdc -->
+<!-- wiki-i18n source: 4a3e5081cff0a54e -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
-I Bulwark sono piattaforme difensive pesantemente corazzate. Sono molto aggressivi e colpiscono duro: un Bulwark attacca qualsiasi pilota non protetto entro il suo raggio di aggressione (700 unità). Smette di inseguirlo quando il pilota si trova a più di 1.200 unità o dopo aver volato 2.000 unità dal punto in cui è iniziato l’inseguimento (2.500 e 3.000 per un pilota che gli ha sparato, vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); un pilota che l’ha colpito negli ultimi 10 secondi non viene lasciato andare affatto, e il Bulwark gli vola contro ogni volta che si trova oltre la portata delle sue armi (700 unità). Se più piloti gli sparano, resta sul primo pilota che gli ha sparato, finché quel pilota continua a colpirlo (vedi [Contro chi combatte un alieno](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
+I Bulwark sono piattaforme difensive pesantemente corazzate. Sono molto aggressivi e colpiscono duro: un Bulwark attacca qualsiasi pilota non protetto entro il suo raggio di aggressione (700 unità). Smette di inseguirlo quando il pilota si trova a più di 1.200 unità o dopo aver volato 2.000 unità dal punto in cui è iniziato l’inseguimento (2.500 e 3.000 per un pilota che gli ha sparato, vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); un pilota che l’ha colpito negli ultimi 10 secondi non viene lasciato andare affatto, e il Bulwark gli vola contro ogni volta che si trova oltre la portata delle sue armi (700 unità). Se più piloti gli sparano, resta sul primo pilota che gli ha sparato, finché quel pilota continua a colpirlo (vedi [Contro chi combatte un alieno](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Le navi degli [sciami](/wiki/05-Swarms/Swarms.md) sono specie di alieni distinte, con articoli propri nella categoria Sciami.
 
 ## Statistiche {#stats}
 
@@ -19,13 +19,14 @@ I Bulwark sono piattaforme difensive pesantemente corazzate. Sono molto aggressi
 - **Thulium**: 25
 - **Esperienza (XP)**: 800
 - **Onore**: 10
+- **Punti PvE per abbattimento**: 4
 - **Ricarica scudo**: 50 al secondo (dopo 15 s)
 
 ## Bottino {#loot-drops}
 
 Il bottino cade come [cassa di carico](/wiki/03-Mechanics/Cargo.md) nel punto in cui esplode, riservata per 30 secondi a chi l’ha abbattuto.
 
-A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/05-Items/Resources.md).
+A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 100% di probabilità (min. 2, max. 2)
 - **Cataclysite**: 100% di probabilità (min. 2, max. 2)

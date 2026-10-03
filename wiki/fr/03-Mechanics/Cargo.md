@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n source: 2f4a437ea53e355e -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -10,6 +10,7 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Les pilotes de corporation** ne laissent aucune caisse quand ils sont détruits, quel qu’en soit l’auteur. Voir [Pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md).
 - **Les vaisseaux de joueurs** ne laissent ni épave ni caisse quand ils sont détruits, quel qu’en soit l’auteur, et rien n’est prélevé dans l’inventaire du pilote.
 - **Le trou noir** dépose des caisses de **Dark Matter** au bord de sa zone pour toute roquette N.I.K.E. tirée dedans (voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Ce sont les seules caisses qui se trouvent à l’intérieur de l’anneau du trou.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
 

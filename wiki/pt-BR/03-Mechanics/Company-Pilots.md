@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
@@ -17,6 +17,7 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 
 - **Patrulham** um circuito pela estação do setor, pelos portais dele e por alguns pontos intermediários.
 - **Caçam** os alienígenas que conseguem enfrentar (Seekers e Phantasms; deixam os Bulwarks, Goombahs e Crystalys em paz) enquanto há pilotos voando no setor. Um alienígena que um piloto de outra corporação está combatendo pertence a esse piloto: o esquadrão o deixa em paz.
+- **Ignoram os [enxames](/wiki/05-Swarms/Swarms.md)**: uma nave de enxame não é problema deles. Não a caçam, não entram numa luta contra ela e nunca vêm em seu auxílio numa.
 - **Ajudam**: quando um piloto da corporação deles a até 1.500 unidades deles é atacado por um alienígena, ou abre fogo contra um alienígena que eles conseguiriam enfrentar, eles entram na luta. Ficam fora de uma luta que um colega começou contra um alienígena que não conseguiriam vencer (um Goombah em que um piloto atirou, ou um Bulwark); um alienígena agressivo que vai atrás de um colega é repelido, seja qual for. Um alienígena que eles terminam de destruir paga ao piloto que detém a reivindicação dele (o primeiro a acertá-lo, veja [Combate](/wiki/03-Mechanics/Combat.md)); se ninguém a detém, o abate conta para o piloto da corporação deles mais próximo que está atirando nele (com alvo travado, dentro do alcance, com uma rajada nos últimos 2,5 segundos). De um jeito ou de outro, as recompensas são desse piloto, e a caixa de [carga](/wiki/03-Mechanics/Cargo.md) do alienígena fica reservada para esse piloto, como se ele tivesse feito o abate. Os pilotos de corporação nunca reivindicam um alienígena e nunca ganham nem coletam nada por conta própria: um alienígena que eles combatem sozinhos não deixa caixa. Travar no alvo de longe, ou apenas levar tiros, não rende nada.
 - **Revidam** quando alienígenas atiram neles, e quando pilotos de outras corporações atiram, depois que o PvP é liberado e onde o [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) deles permite PvP: nenhum em `x-1` a `x-3` do Alpha, nem em `x-1` do Beta.
 - **Reparam** com o drone sempre que o casco está danificado: 1,5% dele por segundo, a partir de 10 segundos depois do último impacto.

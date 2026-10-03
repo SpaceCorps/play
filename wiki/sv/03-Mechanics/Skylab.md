@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 
 - **Betydelse**: om din energiförbrukning är högre än din energiproduktion stängs dina farmer och samlare av.
 - **Producerad energi**: en Solkraftsmodul på nivå N producerar tillräckligt för **varje annan modul på nivå N**, och ungefär en tiondel till: 255 på nivå 1, 835 på nivå 7, 16 010 på nivå 20. Solkraft på nivå 7 driver en hel station på nivå 7 (se Energihantering för varje nivå).
-- **Uppgradering**: Solkraft är offline medan den uppgraderas, och den är den enda modulen som producerar energi, så hela stationen är utan energi tills uppgraderingen är klar (se Bygga och uppgradera).
+- **Uppgradering**: Solkraft fortsätter producera energin för sin nuvarande nivå medan den uppgraderas, och den nya nivåns energi från det att uppgraderingen är klar, så resten av stationen fortsätter att gå (se Bygga och uppgradera).
 
 ### Kreditfarm och Thuliumfarm {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 
 ## Försörjningskedjan {#the-supply-chain}
 
-Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa lasrar. Malm kommer **bara** från samlarna (alla material och valutor finns på sidan [Resurser](/wiki/05-Items/Resources.md)): utomjordingar tappar den inte och butiken säljer den inte.
+Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa lasrar. Malm kommer **bara** från samlarna (alla material och valutor finns på sidan [Resurser](/wiki/06-Items/Resources.md)): utomjordingar tappar den inte och butiken säljer den inte.
 
 1. En **samlare** bryter malm, en viss mängd i timmen, in i sitt eget lager (72 timmars produktion).
 2. **Hämta** flyttar malmen från samlarens lager in i **Resurslagret**, malmbanken, där varje malm förvaras för sig.
 3. **Smedjan** tar den malm den behöver från malmbanken när en sats startar, och gör plåtar, 10 sekunder per plåt, en sats i taget.
-4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/05-Items/Lasers.md) gör dem till en Quantum Laser 3, en Starfire-3 eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate för [Smedjan](/wiki/05-Items/Forge.md).
+4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/06-Items/Lasers.md) gör dem till en Quantum Laser 3, en Starfire-3 eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate för [Smedjan](/wiki/06-Items/Forge.md).
 
 ### Velkonite-samlare och Orvium-samlare {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa la
 Var och en av de fyra kostar **10 Ship Fragments, 10 000 krediter och 500 Thulium**, och kräver kärnnivå 5.
 
 - Ship Fragments tas från ditt inventarie (inte från transportförrådet) och ditt skepp måste vara landat. Byggdialogen visar vad du har mot vad som krävs, och vad du saknar.
-- De förbrukar energi. Innan du bygger visar dialogen din energibalans nu och efteråt: **att bygga kan sätta en station i underskott** när dess Solkraft ligger efter de andra modulerna, och ett underskott stoppar varje farm och samlare. Stäng av en modul, eller uppgradera Solkraft först (stationen har ingen energi medan Solkraft uppgraderas).
+- De förbrukar energi. Innan du bygger visar dialogen din energibalans nu och efteråt: **att bygga kan sätta en station i underskott** när dess Solkraft ligger efter de andra modulerna, och ett underskott stoppar varje farm och samlare. Stäng av en modul, eller uppgradera Solkraft först.
 - De två samlarna hänger på ställningar ovanför stationen, Resurslagret sitter vid kärnans nordöstra port och Smedjan vid dess nordvästra port.
 
 ## Mekanik {#mechanics}
@@ -133,8 +133,8 @@ Var och en av de fyra kostar **10 Ship Fragments, 10 000 krediter och 500 Thuli
 - **Tid och kostnad**: uppgraderingar kostar krediter och Thulium och tar tid. En uppgradering av en modul i försörjningskedjan kostar 10 000 x 1,5^nivå krediter och 500 x 1,5^nivå Thulium (Resurslagret x1,4 per nivå). Kostnaden beror inte på tiden.
 - **Timers**: en uppgradering går på serverns klocka, så den blir klar medan du är borta, dagar senare om den måste. Starta den, logga ut, kom tillbaka: modulen är på sin nya nivå när du öppnar Skylab-sidan.
 - **Uppgraderingstider**: de första nivåerna går fort och de sista tar dagar (se tabellerna nedan). Varje modul har sin egen timer, så du kan uppgradera flera samtidigt.
-- **Produktionspaus**: medan en modul uppgraderas är den offline: den producerar ingenting och använder ingen energi.
-- **Att uppgradera Solkraft stänger av stationen**: Solkraft producerar all energi i Skylab, så medan den uppgraderas slutar varje farm och samlare att producera under hela uppgraderingen (6 dagar för den sista nivån) och Smedjan startar ingen ny sats. Det de har lagrat finns kvar och du kan fortfarande hämta det, men produktionen som förloras under tiden tas inte igen. Uppgraderingsdialogen varnar dig innan du bekräftar. Planera dina uppgraderingar därefter.
+- **Produktionspaus**: medan en modul uppgraderas är den offline: den producerar ingenting och använder ingen energi. Solkraft är undantaget (se nedan).
+- **Solkraft fortsätter producera energi medan den uppgraderas**: Solkraft producerar all energi i Skylab, och medan den uppgraderas (6 dagar för den sista nivån) fortsätter den producera energin för sin **nuvarande** nivå; den nya nivåns energi tar över i samma ögonblick som uppgraderingen är klar. Farmerna, samlarna och Smedjan fortsätter gå så länge energin täcker dem, så att uppgradera Solkraft stänger aldrig av din station, och Smedjan kan starta nya satser under tiden. Bara modulen som uppgraderas är offline.
 
 ### Uppgraderingstider {#upgrade-times}
 

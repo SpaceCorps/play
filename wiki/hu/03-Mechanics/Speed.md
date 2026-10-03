@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: Sebesség -->
 # Sebességszámítás {#speed-calculation}
 
@@ -12,12 +12,14 @@ A hajód végső sebességét a szerver a következő képlettel számolja ki:
 
 ### 1. Tényleges hajtóműsebesség {#1-effective-engine-speed}
 
-Minden felszerelt hajtómű sebességet termel. Ha fúvókák vannak beszerelve a hajtóműbe, a sebessége módosul:
+Minden felszerelt hajtómű sebességet termel, és minden olyan adaptív mag is, amelyben fúvókák vannak. Ha fúvókák vannak beszerelve a hajtóműbe, a sebessége módosul:
 
-\[\text{Hajtómű sebessége} = (\text{Hajtómű alapsebessége} \times \text{Fúvókaszorzó}) + \text{Fúvókák fix bónusza}\]
+\[\text{Hajtómű sebessége} = (\text{Hajtómű alapsebessége} + \text{Fúvókák fix bónusza}) \times \text{Fúvókaszorzó}\]
 
-- **Fúvókaszorzó**: az adott hajtóműbe szerelt összes fúvóka sebességszorzójának szorzata (pl. a Thruster III értéke `1.1`, vagyis `+10%`).
-- **Fúvókák fix bónusza**: a fúvókák összes fix sebességnövelésének összege (pl. a Thruster III `+15` sebességet ad).
+- **Fúvókák fix bónusza**: a fúvókák összes fix sebességnövelésének összege (pl. az Impulse Thruster III `+15` sebességet ad).
+- **Fúvókaszorzó**: az adott hajtóműbe szerelt összes fúvóka sebességszorzójának szorzata (pl. a Momentum Thruster III értéke `1.13`, vagyis `+13%`, az Impulse Thruster III-é `1.03`, vagyis `+3%`). Mindent megszoroz, amit a hajtómű termel: a saját alapsebességét és a fúvókák fix bónuszait is. Az adaptív magnak nincs saját alapsebessége, de a fúvókái fix bónuszait a szorzó így is megszorozza.
+
+Egy Engine III (alapsebesség 6) három Momentum Thruster IV-gyel (`+12`, `1.14`) (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2 sebességet termel, három Impulse Thruster IV-gyel (`+17`, `1.02`) pedig (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5-öt. A Kovácsműhely bónusza egy fúvóka szorzóján az 1 feletti részt növeli: +15% a `1.14` szorzón `1.161` értéket ad.
 
 ### 2. Csökkenő hozadék (határhatékonyság) {#2-diminishing-returns-marginal-efficiency-}
 

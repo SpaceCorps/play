@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 431a488ba7a0842e -->
+<!-- wiki-i18n source: 897dab3210b8f84a -->
 <!-- wiki-i18n title: Velocidade -->
 # Cálculo da velocidade {#speed-calculation}
 
@@ -12,12 +12,14 @@ A velocidade final da sua nave é calculada no servidor com a seguinte fórmula:
 
 ### 1. Velocidade efetiva do motor {#1-effective-engine-speed}
 
-Cada motor equipado gera velocidade. Se houver propulsores encaixados no motor, a velocidade dele é modificada:
+Cada motor equipado gera velocidade, e o mesmo vale para cada núcleo adaptativo que tem propulsores. Se houver propulsores encaixados no motor, a velocidade dele é modificada:
 
-\[\text{Velocidade do motor} = (\text{Velocidade base do motor} \times \text{Multiplicador dos propulsores}) + \text{Bônus fixo dos propulsores}\]
+\[\text{Velocidade do motor} = (\text{Velocidade base do motor} + \text{Bônus fixo dos propulsores}) \times \text{Multiplicador dos propulsores}\]
 
-- **Multiplicador dos propulsores**: o produto de todos os multiplicadores de velocidade dos propulsores encaixados naquele motor (por exemplo, o Thruster III é `1.1` ou `+10%`).
-- **Bônus fixo dos propulsores**: a soma de todos os acréscimos fixos de velocidade dos propulsores (por exemplo, o Thruster III é `+15` de velocidade).
+- **Bônus fixo dos propulsores**: a soma de todos os acréscimos fixos de velocidade dos propulsores (por exemplo, o Impulse Thruster III é `+15` de velocidade).
+- **Multiplicador dos propulsores**: o produto de todos os multiplicadores de velocidade dos propulsores encaixados naquele motor (por exemplo, o Momentum Thruster III é `1.13` ou `+13%`, o Impulse Thruster III, `1.03` ou `+3%`). Ele multiplica tudo o que o motor produz: a velocidade base dele e os bônus fixos dos propulsores. Um núcleo adaptativo não tem velocidade base própria, e os bônus fixos dos propulsores dele são multiplicados do mesmo jeito.
+
+Um Engine III (velocidade base 6) com três Momentum Thruster IV (`+12`, `1.14`) produz (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, e com três Impulse Thruster IV (`+17`, `1.02`), (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Um bônus da Forja no multiplicador de um propulsor faz crescer a parte acima de 1: +15% sobre `1.14` dá `1.161`.
 
 ### 2. Retornos decrescentes (eficiência marginal) {#2-diminishing-returns-marginal-efficiency-}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Chaque salve a une chance d’être un coup critique.
 
 Enfin, les multiplicateurs globaux (comme les boosters actifs ou les multiplicateurs des munitions laser x2, x3, x4) sont appliqués pour obtenir les dégâts finaux :
 - Formule : `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- Les munitions **Siphon Battery** ont le multiplicateur x1 mais une autre cible : leurs dégâts sont pris sur le seul bouclier de la cible (jamais sur la coque, quelle que soit l’absorption) et vont dans votre propre bouclier, jusqu’à votre maximum. Voir [Lasers et munitions](/wiki/05-Items/Lasers.md).
+- Les munitions **Siphon Battery** ont le multiplicateur x1 mais une autre cible : leurs dégâts sont pris sur le seul bouclier de la cible (jamais sur la coque, quelle que soit l’absorption) et vont dans votre propre bouclier, jusqu’à votre maximum. Voir [Lasers et munitions](/wiki/06-Items/Lasers.md).
 
 ### 3b. Roquettes {#3b-rockets}
 
-Une [roquette](/wiki/05-Items/Rockets.md) a ses propres dégâts fixes (2 000 pour une Lancet, 6 000 pour une Harpoon, 50 000 pour une N.U.K.E.), les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle n’a ni tirage aléatoire ni coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, moins vers le bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent.
+Une [roquette](/wiki/06-Items/Rockets.md) a ses propres dégâts (de 1 600 à 2 000 pour une Lancet I, de 4 800 à 6 000 pour une Lancet III, de 45 000 à 50 000 pour une N.U.K.E.), déterminés une fois par un jet au moment du tir et les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle ne fait pas de coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, moins vers le bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent.
 
 ### 4. Face à la cible {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Un vaisseau ou un alien qui a verrouillé sa cible et tire se tourne vers elle, 
 
 ### 5. Portée {#5-range}
 
-Un vaisseau tire une salve par seconde tant que sa cible est dans sa **portée**, et suspend le tir tant que la cible est plus loin : le tir cesse de consommer des munitions jusqu’à ce que la cible soit de nouveau assez proche, et le panneau de la cible indique « Hors de portée ». La portée est **la moyenne des portées de tous vos lasers** (ceux de vos drones compris), arrondie à l’unité la plus proche, et c’est un seul nombre pour tout le vaisseau : en deçà, tous les lasers tirent ; au-delà, aucun. Un laser à longue portée à côté de lasers plus courts n’allonge donc pas votre portée : un Starfire-3 (850) et deux Quantum Laser 2 (700) donnent 750. Un bonus de portée de la Forge compte sur son propre laser, avant la moyenne. Un vaisseau sans laser ne peut pas tirer au laser, et le hangar n’affiche aucune portée pour lui (un tiret) ; ses roquettes tirent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/05-Items/Rockets.md)). Voir [Lasers et munitions](/wiki/05-Items/Lasers.md) pour la portée propre de chaque laser.
+Un vaisseau tire une salve par seconde tant que sa cible est dans sa **portée**, et suspend le tir tant que la cible est plus loin : le tir cesse de consommer des munitions jusqu’à ce que la cible soit de nouveau assez proche, et le panneau de la cible indique « Hors de portée ». La portée est **la moyenne des portées de tous vos lasers** (ceux de vos drones compris), arrondie à l’unité la plus proche, et c’est un seul nombre pour tout le vaisseau : en deçà, tous les lasers tirent ; au-delà, aucun. Un laser à longue portée à côté de lasers plus courts n’allonge donc pas votre portée : un Starfire-3 (850) et deux Quantum Laser 2 (700) donnent 750. Un bonus de portée de la Forge compte sur son propre laser, avant la moyenne. Un vaisseau sans laser ne peut pas tirer au laser, et le hangar n’affiche aucune portée pour lui (un tiret) ; ses roquettes tirent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Voir [Lasers et munitions](/wiki/06-Items/Lasers.md) pour la portée propre de chaque laser.
 
 ---
 
@@ -50,9 +50,11 @@ Les récompenses d’un alien vont au pilote qui l’a touché en premier, pas �
 - **Revendication** : le premier pilote dont un tir endommage un alien le revendique. Chacun de vos coups renouvelle votre revendication.
 - **La perdre** : si vous ne touchez pas l’alien pendant **10 secondes**, votre revendication expire et le prochain pilote qui le touche le revendique. Votre revendication prend aussi fin quand votre vaisseau est détruit ou que vous quittez la carte (par un portail ou en vous déconnectant), et revenir dans les 10 secondes ne vous la rend pas.
 - **L’élimination** : quand l’alien est détruit, le pilote qui détient sa revendication reçoit tout : crédits, Thulium, XP, honneur, l’élimination pour les quêtes et les points de réinitialisation, et la caisse de [cargaison](/wiki/03-Mechanics/Cargo.md). Un pilote qui achève un alien revendiqué par quelqu’un d’autre ne reçoit rien, et le Journal de jeu le lui dit. Quand votre revendication paie et qu’un autre pilote porte le dernier coup, le Journal de jeu nomme ce pilote et indique que votre revendication vous rapporte.
+- **Points de classement** : l’élimination ajoute aussi des points PvE au classement du pilote qui détient la revendication, d’autant plus que l’alien est coriace : 1 pour un Seeker, 2 pour un Phantasm, 4 pour un Bulwark, 7 pour un Goombah et 16 pour un Crystalys (l’article de chaque alien donne le sien). Ils n’appartiennent qu’à ce pilote : le partage des récompenses d’un groupe ne les comprend pas.
 - **Le voir** : quand vous sélectionnez un alien qu’un autre pilote a revendiqué, la fenêtre Cible affiche *Revendiqué par* ce pilote et *Aucune récompense*.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) ne revendiquent jamais un alien, et un alien qu’ils achèvent paie quand même le pilote qui détient sa revendication.
 - Un pilote en [groupe](/wiki/03-Mechanics/Groups.md) partage ce que sa revendication rapporte avec les membres du groupe qui sont proches et qui tirent ; la revendication elle-même n’appartient qu’à lui.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses font exception** : un boss d’essaim et chaque Dormant Pulse paient selon les dégâts que chaque pilote leur a infligés, pas selon le premier coup, et leur caisse de cargaison va au pilote qui a infligé le plus de dégâts ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Les autres suivants, les Pirate Scouts et les Seeker Slaves, paient selon la revendication, comme tout alien. Les points PvE d’un vaisseau d’essaim sont sur la page Essaims.
 
 ---
 
@@ -98,7 +100,7 @@ Quand votre vaisseau est touché par un ennemi ou un PNJ, les dégâts sont trai
 ### 1. Absorption du bouclier {#1-shield-absorption}
 
 Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**absorption moyenne** de votre vaisseau : la moyenne de l’absorption de vos boucliers, chacun avec celle de ses cellules de bouclier, plus le Shield Absorbance Boost de la Boutique de saison (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md)). Elle n’est **pas plafonnée à 100 %** : la part d’un tir que prennent les boucliers est votre absorption **moins la pénétration de bouclier de l’attaquant**, entre 0 % et 100 %.
-- L’**absorption** (par ex. 80 % pour le meilleur bouclier avec les meilleures cellules, 56 % pour un Basic Shield Core avec deux cellules Advanced) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Harpoon laissent 45 % sur les boucliers d’un vaisseau à 80 %, et le reste (ici 55 %) frappe directement les PV.
+- L’**absorption** (par ex. 80 % pour le meilleur bouclier avec les meilleures cellules, 56 % pour un Basic Shield Core avec deux Absorption Shield Cell I) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Lancet III laissent 45 % sur les boucliers d’un vaisseau à 80 %, et le reste (ici 55 %) frappe directement les PV.
 - La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %).
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.
@@ -109,6 +111,7 @@ La base d’origine de chaque faction (cartes X-1) contient des zones sûres.
 - Entrer dans une zone sûre rend votre vaisseau totalement insensible aux dégâts.
 - **Rupture de l’immunité** : attaquer un ennemi vous retire immédiatement l’immunité de la zone sûre, même si vous vous trouvez physiquement à l’intérieur.
 - Un anneau autour de chaque station et de chaque portail vous protège dès que 5 secondes se sont écoulées depuis le dernier coup reçu et 15 depuis votre dernier tir. Tant qu’il vous protège et que vous êtes hors combat, la fenêtre du hangar vous permet de changer de vaisseau sans quitter le jeu : voir [Le hangar en vol](/wiki/03-Mechanics/Hangar.md).
+- Les stations n’existent que dans les bases d’origine (`x-1`). Les secteurs dangereux (`DS-1` à `DS-4`) n’en ont aucune : les anneaux autour des portails y sont les seules zones sûres.
 
 ### 3. Sous le feu dans un secteur dangereux {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ Pour se remettre d’un combat, les pilotes peuvent compter sur la régénérati
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-Les munitions [Siphon Battery](/wiki/05-Items/Lasers.md) ajoutent aussitôt au vôtre le bouclier qu’elles drainent d’une cible, jusqu’à votre maximum. Gagner du bouclier n’est pas subir des dégâts : cela ne retarde donc pas votre régénération passive.
+Les munitions [Siphon Battery](/wiki/06-Items/Lasers.md) ajoutent aussitôt au vôtre le bouclier qu’elles drainent d’une cible, jusqu’à votre maximum. Gagner du bouclier n’est pas subir des dégâts : cela ne retarde donc pas votre régénération passive.
 
 ### 2. Drones de réparation (réparation de la coque) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ Les munitions [Siphon Battery](/wiki/05-Items/Lasers.md) ajoutent aussitôt au v
 
 ## L’occultation et l’EMP {#cloaking-and-the-emp}
 
-Un tir nécessite un verrouillage. Deux [extras](/wiki/05-Items/Extras.md) empêchent de vous verrouiller :
+Un tir nécessite un verrouillage. Deux [extras](/wiki/06-Items/Extras.md) empêchent de vous verrouiller :
 
 - **Cloaking CPU** : tant que vous êtes occulté (sans limite de temps), les pilotes des autres corporations, les aliens et les pilotes de corporation ne voient pas votre vaisseau et ne peuvent pas le verrouiller ; ils voient un simple point rouge sur la mini-carte, là où vous êtes. Votre première salve met fin à l’occultation, et vous ne pouvez pas vous occulter de nouveau pendant une minute, ni dans les 10 secondes qui suivent un coup reçu ou un tir.
 - **EMP Charge** : pendant 3 secondes, personne ne peut vous verrouiller, et tout verrouillage déjà posé sur vous se brise aussitôt. Elle met fin à toute occultation à moins de 1 500 unités du pilote qui la déclenche, sauf celles des membres de son propre groupe. Elle ne vous cache pas et ne vous rend pas invulnérable : elle arrête ce qui nécessite un verrouillage.
 
-Une roquette est aussi un tir : elle met fin à votre propre occultation, et l’explosion de zone de la roquette d’un autre pilote blesse quand même un vaisseau occulté et met fin à son occultation, car une explosion n’a pas besoin de verrouillage (voir [Roquettes](/wiki/05-Items/Rockets.md)). L’EMP arrête les lasers verrouillés et les roquettes guidées, pas une explosion.
+Une roquette est aussi un tir : elle met fin à votre propre occultation, et l’explosion de zone de la roquette d’un autre pilote blesse quand même un vaisseau occulté et met fin à son occultation, car une explosion n’a pas besoin de verrouillage (voir [Roquettes](/wiki/06-Items/Rockets.md)). L’EMP arrête les lasers verrouillés et les roquettes guidées, pas une explosion.
 
 Ni l’un ni l’autre ne change la revendication d’une élimination : une revendication est l’historique de qui a touché un alien, pas un verrouillage, et l’occultation libère la vôtre.

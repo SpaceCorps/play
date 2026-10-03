@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: Drönare -->
 # Drönarmekanik {#drone-mechanics}
 
@@ -6,7 +6,7 @@ Drönare är autonoma stödenheter som flyger vid sidan av ditt skepp. De ger ex
 
 ## Skaffa drönare {#getting-drones}
 
-Varje drönare du har, en **Slave Drone** eller en Master Drone, öppnar sina drönarplatser (en för en Slave Drone, två för en Master Drone), upp till **8** drönare. Butiken säljer Slave Drone för krediter, och från den fjärde även för Thulium. Varje drönare kostar mer än den förra: priserna finns under [Drönare](/wiki/05-Items/Drones.md).
+Varje drönare du har, en **Slave Drone** eller en Master Drone, öppnar sina drönarplatser (en för en Slave Drone, två för en Master Drone), upp till **8** drönare. Butiken säljer Slave Drone för krediter, och från den fjärde även för Thulium. Varje drönare kostar mer än den förra: priserna finns under [Drönare](/wiki/06-Items/Drones.md).
 
 ## Formation och rörelse {#formation-movement}
 

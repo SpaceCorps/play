@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Goombah är mäktiga utomjordiska skepp i kryssarklass. De har hög sköldkapacitet och gör enorm skada, men de börjar aldrig en strid: en Goombah anfaller bara den pilot som anföll den.
+Goombah är mäktiga utomjordiska skepp i kryssarklass. De har hög sköldkapacitet och gör enorm skada, men de börjar aldrig en strid: en Goombah anfaller bara den pilot som anföll den. Skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md) är särskilda slags utomjordingar, med egna artiklar i kategorin Svärmar.
 
 ## Värden {#stats}
 
@@ -28,13 +28,14 @@ Goombah är mäktiga utomjordiska skepp i kryssarklass. De har hög sköldkapaci
 - **Thulium**: 75
 - **Erfarenhet (XP)**: 3 000
 - **Heder**: 24
+- **PvE-poäng per nedskjutning**: 7
 - **Sköldladdning**: 100 per sekund (15 s fördröjning)
 
 ## Byte {#loot-drops}
 
 Lämnas som en [lastlåda](/wiki/03-Mechanics/Cargo.md) där den exploderar, reserverad för den som fällde den i 30 sekunder.
 
-Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/05-Items/Resources.md).
+Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100 % chans (Min: 3, Max: 3)

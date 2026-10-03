@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72a495647503f96a -->
+<!-- wiki-i18n source: 30354846186e8ea9 -->
 <!-- wiki-i18n title: 드론 -->
 # 드론 시스템 {#drone-mechanics}
 
@@ -6,7 +6,7 @@
 
 ## 드론 얻기 {#getting-drones}
 
-보유한 드론은 모두(**Slave Drone**이든 Master Drone이든) 각자의 드론 슬롯을 열어 줍니다(Slave Drone은 1개, Master Drone은 2개). 드론은 최대 **8기**까지 보유할 수 있습니다. 상점에서는 Slave Drone을 크레딧으로 판매하며, 4번째부터는 Thulium으로도 살 수 있습니다. 드론은 살 때마다 이전보다 비싸집니다. 가격은 [드론](/wiki/05-Items/Drones.md)에 나와 있습니다.
+보유한 드론은 모두(**Slave Drone**이든 Master Drone이든) 각자의 드론 슬롯을 열어 줍니다(Slave Drone은 1개, Master Drone은 2개). 드론은 최대 **8기**까지 보유할 수 있습니다. 상점에서는 Slave Drone을 크레딧으로 판매하며, 4번째부터는 Thulium으로도 살 수 있습니다. 드론은 살 때마다 이전보다 비싸집니다. 가격은 [드론](/wiki/06-Items/Drones.md)에 나와 있습니다.
 
 ## 편대와 움직임 {#formation-movement}
 

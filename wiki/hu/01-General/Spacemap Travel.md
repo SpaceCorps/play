@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
@@ -12,6 +12,8 @@ Az univerzum három fő vállalati szektorból (Mars, Terra, Galactic) és egy k
 - **x-2 -> x-3**: Terjeszkedési zónák egyre erősebb idegenekkel.
 - **x-4 (Határ)**: A PvP-szektor kapuja.
 - **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4.
+
+Csak az otthoni bázisokon van állomás. Itt nyílik meg a **Mission Control**, az állomás biztonságos zónája pedig 1 600 egységnyire terjed ki körülötte. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza a bázisodra.
 
 Minden [világ](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) a teljes térkép saját példányával rendelkezik, és ettől függ, hol harcolhatnak egymással a pilóták: az Alphában csak az `x-4` és a `DS-x` szektorokban, a Betában az `x-1` kivételével mindenhol, a Gammában mindenhol. A galaxistérkép a világod szabálya szerint színezi a szektorokat.
 

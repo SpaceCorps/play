@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ae35d5bdcf504de8 -->
+<!-- wiki-i18n source: d8bf989776a71cb4 -->
 <!-- wiki-i18n title: Способности -->
 # Активные способности корабля {#active-ship-abilities}
 
@@ -80,7 +80,7 @@
 
 <!-- abilities:end -->
 
-Щиты и двигатели ранга III (Heavy Shield Core, Engine III) в магазине не продаются: их создают в [Сборочном цехе](/wiki/05-Items/Overview.md#upgrading-modules) из Basic Shield Core и Engine II за Thulium, добычу с пришельцев и Velkonite Reinforced Plate из кузницы вашего [Skylab](/wiki/03-Mechanics/Skylab.md). У Emergency Repair есть четвёртый ранг — Repair Drone IV.
+Щиты и двигатели ранга III (Heavy Shield Core, Engine III) в магазине не продаются: их создают в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Basic Shield Core и Engine II за Thulium, добычу с пришельцев и Velkonite Reinforced Plate из кузницы вашего [Skylab](/wiki/03-Mechanics/Skylab.md). У Emergency Repair есть четвёртый ранг — Repair Drone IV.
 
 ## Перезарядка и ограничения {#cooldowns-and-limits}
 

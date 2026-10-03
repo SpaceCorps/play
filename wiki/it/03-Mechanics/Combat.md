@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Ogni raffica ha una probabilità di essere un colpo critico.
 
 Infine si applicano i moltiplicatori globali (come i booster attivi o i moltiplicatori delle munizioni laser, per esempio x2, x3, x4) per ottenere il danno finale:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/05-Items/Lasers.md).
+- Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 
 ### 3b. Razzi {#3b-rockets}
 
-Un [razzo](/wiki/05-Items/Rockets.md) ha un proprio danno fisso (un Lancet fa 2.000, un Harpoon 6.000, un N.U.K.E. 50.000), uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha tiro casuale né colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, meno verso il bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri.
+Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.600 a 2.000, un Lancet III da 4.800 a 6.000, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, meno verso il bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri.
 
 ### 4. Voltarsi verso il bersaglio {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Una nave o un alieno che ha agganciato un bersaglio e spara si volta verso di es
 
 ### 5. Portata {#5-range}
 
-Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua **portata**, e trattiene il fuoco finché il bersaglio è più lontano: il fuoco smette di consumare munizioni finché il bersaglio non è di nuovo abbastanza vicino, e la finestra Bersaglio dice “Fuori portata”. La portata è **la media delle portate di tutti i tuoi laser** (compresi i laser nei tuoi droni), arrotondata all’unità più vicina, ed è un unico numero per tutta la nave: entro di essa spara ogni laser, fuori nessuno. Un laser a lungo raggio accanto a laser corti quindi non allunga la tua portata: una Starfire-3 (850) e due Quantum Laser 2 (700) fanno 750. Un bonus di portata della Forgia conta sul proprio laser prima della media. Una nave senza laser non può sparare con i laser, e l’Hangar non mostra alcuna portata per essa (un trattino); i suoi razzi sparano comunque, ciascuno con la propria portata (vedi [Razzi](/wiki/05-Items/Rockets.md)). Per la portata di ciascun laser vedi [Laser e munizioni](/wiki/05-Items/Lasers.md).
+Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua **portata**, e trattiene il fuoco finché il bersaglio è più lontano: il fuoco smette di consumare munizioni finché il bersaglio non è di nuovo abbastanza vicino, e la finestra Bersaglio dice “Fuori portata”. La portata è **la media delle portate di tutti i tuoi laser** (compresi i laser nei tuoi droni), arrotondata all’unità più vicina, ed è un unico numero per tutta la nave: entro di essa spara ogni laser, fuori nessuno. Un laser a lungo raggio accanto a laser corti quindi non allunga la tua portata: una Starfire-3 (850) e due Quantum Laser 2 (700) fanno 750. Un bonus di portata della Forgia conta sul proprio laser prima della media. Una nave senza laser non può sparare con i laser, e l’Hangar non mostra alcuna portata per essa (un trattino); i suoi razzi sparano comunque, ciascuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Per la portata di ciascun laser vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 
 ---
 
@@ -50,9 +50,11 @@ Le ricompense di un alieno vanno al pilota che gli ha sparato per primo, non a c
 - **Rivendicare**: il primo pilota il cui colpo danneggia un alieno lo rivendica. Ogni tuo colpo rinnova la tua rivendicazione.
 - **Perderla**: se non colpisci l’alieno per **10 secondi**, la tua rivendicazione decade e il prossimo pilota che lo colpisce la ottiene. La tua rivendicazione finisce anche quando la tua nave viene distrutta o lasci la mappa (attraverso un portale, o uscendo dal gioco), e tornare entro i 10 secondi non la riporta indietro.
 - **L’abbattimento**: quando l’alieno viene distrutto, il pilota che ne detiene la rivendicazione ottiene tutto: crediti, Thulium, XP, onore, l’abbattimento per le missioni e per i punti reset, e la cassa di [carico](/wiki/03-Mechanics/Cargo.md). Un pilota che finisce un alieno rivendicato da un altro non ottiene nulla, e il Registro di gioco lo dice. Quando la tua rivendicazione paga e un altro pilota mette a segno l’ultimo colpo, il Registro di gioco nomina quel pilota e dice che la tua rivendicazione paga te.
+- **Punti classifica**: l’abbattimento aggiunge anche punti PvE alla classifica del pilota che detiene la rivendicazione, tanti di più quanto più è resistente l’alieno: 1 per un Seeker, 2 per un Phantasm, 4 per un Bulwark, 7 per un Goombah e 16 per un Crystalys (l’articolo di ogni alieno indica il suo). Sono solo del pilota che abbatte: la quota di ricompense di un gruppo non li comprende.
 - **Vederla**: quando selezioni un alieno rivendicato da un altro pilota, la finestra Bersaglio mostra *Rivendicato da* quel pilota e *Senza premio*.
 - I [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) non rivendicano mai un alieno, e un alieno che finiscono paga comunque il pilota che ne detiene la rivendicazione.
 - Un pilota in un [gruppo](/wiki/03-Mechanics/Groups.md) condivide ciò che paga la sua rivendicazione con i compagni di gruppo che sono vicini e stanno sparando; la rivendicazione in sé è solo del pilota.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse sono l’eccezione**: un boss di sciame e ogni Dormant Pulse pagano in base al danno che ha inflitto loro ogni pilota, non in base al primo colpo, e la loro cassa di carico va al pilota che ha inflitto più danno ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Gli altri seguaci, i Pirate Scout e i Seeker Slave, pagano in base alla rivendicazione, come ogni alieno. I punti PvE di una nave di sciame sono nella pagina Sciami.
 
 ---
 
@@ -98,7 +100,7 @@ Quando la tua nave viene colpita da un nemico o da un NPC, il danno viene elabor
 ### 1. Assorbimento dello scudo {#1-shield-absorption}
 
 Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbimento medio** della tua nave: la media dell’assorbimento dei tuoi scudi, ciascuno con quello delle sue celle scudo, più lo Shield Absorbance Boost dell’Emporio (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)). **Non ha un tetto del 100%**: ciò che gli scudi prendono di un colpo è il tuo assorbimento **meno la penetrazione dello scudo dell’attaccante**, tra 0% e 100%.
-- L’**assorbimento** (ad es. 80% per il miglior scudo con le migliori celle, 56% per un Basic Shield Core con due celle Advanced) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Harpoon lascia il 45% agli scudi di una nave all’80%, e il resto (il 55% in questo caso) colpisce direttamente i punti scafo.
+- L’**assorbimento** (ad es. 80% per il miglior scudo con le migliori celle, 56% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 45% agli scudi di una nave all’80%, e il resto (il 55% in questo caso) colpisce direttamente i punti scafo.
 - La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%).
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
@@ -109,6 +111,7 @@ La base di ogni fazione (le mappe X-1) contiene zone sicure.
 - Entrare in una zona sicura rende la tua nave completamente immune ai danni.
 - **Rottura dell’immunità**: attaccare un nemico ti toglie subito l’immunità della zona sicura, anche se ti trovi fisicamente dentro una di esse.
 - Un anello intorno a ogni stazione e portale ti protegge una volta passati 5 secondi da quando sei stato colpito e 15 da quando hai sparato. Finché ti protegge e sei fuori dal combattimento, la finestra Hangar ti permette di cambiare nave senza uscire dal gioco: vedi [L’Hangar in volo](/wiki/03-Mechanics/Hangar.md).
+- Le stazioni si trovano solo nelle basi (`x-1`). I settori pericolosi (da `DS-1` a `DS-4`) non ne hanno: lì gli anelli intorno ai portali sono le uniche zone sicure.
 
 ### 3. Sotto attacco in un settore pericoloso {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ Per riprendersi dal combattimento, i piloti possono contare sulla rigenerazione 
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-Le munizioni [Siphon Battery](/wiki/05-Items/Lasers.md) aggiungono subito al tuo scudo quello che drenano da un bersaglio, fino al tuo massimo. Guadagnare scudo non è danno subito, quindi non ritarda la tua rigenerazione passiva.
+Le munizioni [Siphon Battery](/wiki/06-Items/Lasers.md) aggiungono subito al tuo scudo quello che drenano da un bersaglio, fino al tuo massimo. Guadagnare scudo non è danno subito, quindi non ritarda la tua rigenerazione passiva.
 
 ### 2. Repair Drone (riparazione dello scafo) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ Le munizioni [Siphon Battery](/wiki/05-Items/Lasers.md) aggiungono subito al tuo
 
 ## Occultamento ed EMP {#cloaking-and-the-emp}
 
-Un colpo ha bisogno di un aggancio. Due [extra](/wiki/05-Items/Extras.md) eliminano quello su di te:
+Un colpo ha bisogno di un aggancio. Due [extra](/wiki/06-Items/Extras.md) eliminano quello su di te:
 
 - **Cloaking CPU**: finché sei occultato (non c’è limite di tempo) i piloti delle altre corporazioni, gli alieni e i piloti di corporazione non vedono la tua nave e non possono agganciarla; vedono un semplice punto rosso sulla minimappa dove ti trovi. La tua prima raffica pone fine all’occultamento, e non puoi occultarti di nuovo per un minuto, né entro 10 secondi da un colpo subito o sparato.
 - **EMP Charge**: per 3 secondi nessuno può agganciarti, e ogni aggancio già su di te si spezza subito. Pone fine a ogni occultamento entro 1.500 unità dal pilota che lo lancia, tranne quelli dei membri del suo stesso gruppo. Non ti nasconde, e non è invulnerabilità: ferma ciò che ha bisogno di un aggancio.
 
-Anche un razzo è un colpo: pone fine al tuo occultamento, e l’esplosione ad area del razzo di qualcun altro colpisce comunque una nave occultata e ne pone fine all’occultamento, perché un’esplosione non ha bisogno di un aggancio (vedi [Razzi](/wiki/05-Items/Rockets.md)). L’EMP ferma i laser agganciati e i razzi guidati, non un’esplosione.
+Anche un razzo è un colpo: pone fine al tuo occultamento, e l’esplosione ad area del razzo di qualcun altro colpisce comunque una nave occultata e ne pone fine all’occultamento, perché un’esplosione non ha bisogno di un aggancio (vedi [Razzi](/wiki/06-Items/Rockets.md)). L’EMP ferma i laser agganciati e i razzi guidati, non un’esplosione.
 
 Nessuno dei due cambia una rivendicazione: una rivendicazione è la storia di chi ha colpito un alieno, non un aggancio, e l’occultamento rilascia la tua.

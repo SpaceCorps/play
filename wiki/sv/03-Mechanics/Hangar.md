@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ Pågående reparationer hindrar dig inte. Överallt annars öppnas Hangarfönstr
 
 ## Byta skepp {#changing-ship}
 
-Skeppet du byter till har **det skrov och de sköldar det hade** när du senast flög det, precis som om du hade flugit ut med det. Ringen reparerar inte, så att byta skepp läker dig aldrig: skeppet du lämnar behåller sin skada och kommer tillbaka med den. Ett vrakat skepp går inte att flyga förrän du har reparerat det.
+Skeppet du byter till har **det skrov och de sköldar det hade** när du senast flög det, precis som om du hade flugit ut med det. Ringen reparerar inte, så att byta skepp läker dig aldrig: skeppet du lämnar behåller sin skada och kommer tillbaka med den. Ett vrakat skepp går inte att flyga förrän du har reparerat det, vilket är gratis och ger det högst 10 000 skrov och ingen sköld, som en återkomst.
 
 Det som är ditt förblir ditt: din ammunition, dina raketer och deras omladdning, dina förmågors återhämtning, dina boosters, din XP och dina Slave Drones. Det som hörde till skeppet upphör: en pågående Shield Surge eller Afterburner, reparationer, din målfixering, ditt anfall och kursen du flög. Utrustning sitter kvar på det skepp den är monterad på.
 

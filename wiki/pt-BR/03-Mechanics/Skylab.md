@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 - **Importância**: se o seu consumo de energia for maior que a energia produzida, as suas minas e os seus coletores param de produzir.
 - **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 835 no nível 7, 16.010 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
-- **Melhoria**: a Usina solar fica offline enquanto é melhorada e é o único módulo que produz energia, então a estação inteira fica sem energia até a melhoria terminar (veja Construção e melhoria).
+- **Melhoria**: a Usina solar continua produzindo a energia do nível atual enquanto é melhorada, e a do novo nível a partir do momento em que a melhoria termina, então o resto da estação continua funcionando (veja Construção e melhoria).
 
 ### Mina de créditos e Mina de Thulium {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 ## A cadeia de suprimentos {#the-supply-chain}
 
-Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/05-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende.
+Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/06-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende.
 
 1. Um **coletor** extrai minério, uma quantidade por hora, para o seu próprio armazenamento (o equivalente a 72 horas).
 2. **Coletar** move o minério do armazenamento para o **Depósito de recursos**, onde cada minério fica guardado à parte.
 3. A **Forja** pega no depósito o minério de que precisa quando um lote começa e faz placas, 10 segundos por placa, um lote de cada vez.
-4. **Coletar placas** move as placas prontas para o seu inventário (a sua nave precisa estar pousada). A [Montagem](/wiki/05-Items/Lasers.md) as transforma em um Quantum Laser 3, um Starfire-3 ou um Helios Beam e, uma de cada com 5 Dark Matter, em uma Dark Matter Plate para a [Forja](/wiki/05-Items/Forge.md).
+4. **Coletar placas** move as placas prontas para o seu inventário (a sua nave precisa estar pousada). A [Montagem](/wiki/06-Items/Lasers.md) as transforma em um Quantum Laser 3, um Starfire-3 ou um Helios Beam e, uma de cada com 5 Dark Matter, em uma Dark Matter Plate para a [Forja](/wiki/06-Items/Forge.md).
 
 ### Coletor de Velkonite e Coletor de Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Quatro módulos transformam o tempo longe do teclado nas placas para os seus mel
 Cada um dos quatro custa **10 Ship Fragments, 10.000 créditos e 500 Thulium** e exige o Núcleo no nível 5.
 
 - Os Ship Fragments são tirados do seu inventário (não do Cache de Transporte) e a sua nave precisa estar pousada. A ficha de construção mostra o que você tem em comparação com o que é preciso, e o que falta.
-- Eles consomem energia. Antes de construir, a ficha mostra o seu balanço de energia agora e depois: **construir pode deixar uma estação em déficit** quando a sua Usina solar está atrás dos outros módulos, e um único déficit para todas as minas e todos os coletores. Desligue um módulo ou melhore antes a Usina solar (a estação fica sem energia enquanto a Usina solar é melhorada).
+- Eles consomem energia. Antes de construir, a ficha mostra o seu balanço de energia agora e depois: **construir pode deixar uma estação em déficit** quando a sua Usina solar está atrás dos outros módulos, e um único déficit para todas as minas e todos os coletores. Desligue um módulo ou melhore antes a Usina solar.
 - Os dois coletores ficam pendurados em estruturas acima da estação, o Depósito de recursos fica na porta nordeste do Núcleo e a Forja, na porta noroeste dele.
 
 ## Mecânicas {#mechanics}
@@ -133,8 +133,8 @@ Cada um dos quatro custa **10 Ship Fragments, 10.000 créditos e 500 Thulium** e
 - **Tempo e custo**: as melhorias custam créditos e Thulium e levam tempo. A melhoria de um módulo da cadeia de suprimentos custa 10.000 x 1,5^nível créditos e 500 x 1,5^nível Thulium (o Depósito de recursos, x1,4 por nível). O custo não depende do tempo.
 - **Temporizadores**: uma melhoria corre no relógio do servidor, então termina enquanto você está fora, dias depois se for preciso. Comece-a, desconecte, volte: o módulo está no novo nível quando você abre a página do Skylab.
 - **Tempos de melhoria**: os primeiros níveis são rápidos e os últimos levam dias (veja as tabelas abaixo). Cada módulo tem o seu próprio temporizador, então você pode melhorar vários ao mesmo tempo.
-- **Pausa na produção**: enquanto um módulo está sendo melhorado, ele fica offline: não produz nada e não usa energia.
-- **Melhorar a Usina solar desliga a estação**: a Usina solar produz toda a energia do Skylab, então enquanto ela é melhorada todas as minas e todos os coletores param de produzir durante a melhoria inteira (6 dias no último nível) e a Forja não inicia nenhum lote novo. O que eles guardam continua lá e você ainda pode coletar, mas a produção perdida nesse meio-tempo não é compensada. A ficha de melhoria avisa você antes de confirmar. Planeje as suas melhorias de acordo.
+- **Pausa na produção**: enquanto um módulo está sendo melhorado, ele fica offline: não produz nada e não usa energia. A Usina solar é a exceção (veja abaixo).
+- **A Usina solar continua produzindo energia enquanto é melhorada**: a Usina solar produz toda a energia do Skylab e, enquanto é melhorada (6 dias no último nível), continua produzindo a energia do nível **atual**; a do novo nível assume no momento em que a melhoria termina. As minas, os coletores e a Forja continuam funcionando enquanto essa energia os cobrir, então melhorar a Usina solar nunca desliga a sua estação, e a Forja pode iniciar lotes novos nesse meio-tempo. Só o módulo que está sendo melhorado fica offline.
 
 ### Tempos de melhoria {#upgrade-times}
 

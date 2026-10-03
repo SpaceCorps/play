@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab27f276cb7bd33c -->
+<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -27,11 +27,11 @@ Cada andanada tiene una probabilidad de ser un golpe crítico.
 
 Por último, se aplican los multiplicadores globales (como los potenciadores activos o los multiplicadores de la munición láser, como x2, x3 o x4) para obtener el daño final:
 - Fórmula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- La munición **Siphon Battery** tiene el multiplicador x1, pero otro destino: su daño sale solo del escudo del objetivo (nunca del casco, sea cual sea la absorción) y pasa a tu propio escudo, hasta tu máximo. Consulta [Láseres y munición](/wiki/05-Items/Lasers.md).
+- La munición **Siphon Battery** tiene el multiplicador x1, pero otro destino: su daño sale solo del escudo del objetivo (nunca del casco, sea cual sea la absorción) y pasa a tu propio escudo, hasta tu máximo. Consulta [Láseres y munición](/wiki/06-Items/Lasers.md).
 
 ### 3b. Cohetes {#3b-rockets}
 
-Un [cohete](/wiki/05-Items/Rockets.md) tiene su propio daño fijo (un Lancet hace 2.000, un Harpoon 6.000, una N.U.K.E. 50.000), el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene tirada aleatoria ni golpe crítico. Todos los cohetes comparten una misma recarga de **5 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, menos cuanto más cerca del borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen.
+Un [cohete](/wiki/06-Items/Rockets.md) tiene su propio daño (un Lancet I hace de 1.600 a 2.000, un Lancet III de 4.800 a 6.000, una N.U.K.E. de 45.000 a 50.000), que se sortea una vez al dispararlo y es el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene golpe crítico. Todos los cohetes comparten una misma recarga de **5 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, menos cuanto más cerca del borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen.
 
 ### 4. Encarar al objetivo {#4-facing-the-target}
 
@@ -39,7 +39,7 @@ Una nave o un alienígena que tiene fijado un objetivo y le dispara se gira haci
 
 ### 5. Alcance {#5-range}
 
-Una nave dispara una andanada por segundo mientras su objetivo está dentro de su **alcance**, y deja de disparar mientras el objetivo está más lejos: el fuego deja de gastar munición hasta que el objetivo vuelve a estar lo bastante cerca, y el panel del objetivo indica «Fuera de alcance». El alcance es **la media de los alcances de todos tus láseres** (también de los láseres de tus drones), redondeada a la unidad más cercana, y es un único número para toda la nave: dentro de él disparan todos los láseres; fuera, ninguno. Por eso un láser de largo alcance junto a otros cortos no amplía tu alcance: un Starfire-3 (850) y dos Quantum Laser 2 (700) dan 750. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Una nave sin láser no puede disparar sus láseres, y el hangar no muestra alcance para ella (un guion); sus cohetes siguen disparando, cada uno con su propio alcance (consulta [Cohetes](/wiki/05-Items/Rockets.md)). Consulta [Láseres y munición](/wiki/05-Items/Lasers.md) para ver el alcance propio de cada láser.
+Una nave dispara una andanada por segundo mientras su objetivo está dentro de su **alcance**, y deja de disparar mientras el objetivo está más lejos: el fuego deja de gastar munición hasta que el objetivo vuelve a estar lo bastante cerca, y el panel del objetivo indica «Fuera de alcance». El alcance es **la media de los alcances de todos tus láseres** (también de los láseres de tus drones), redondeada a la unidad más cercana, y es un único número para toda la nave: dentro de él disparan todos los láseres; fuera, ninguno. Por eso un láser de largo alcance junto a otros cortos no amplía tu alcance: un Starfire-3 (850) y dos Quantum Laser 2 (700) dan 750. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Una nave sin láser no puede disparar sus láseres, y el hangar no muestra alcance para ella (un guion); sus cohetes siguen disparando, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). Consulta [Láseres y munición](/wiki/06-Items/Lasers.md) para ver el alcance propio de cada láser.
 
 ---
 
@@ -50,9 +50,11 @@ Las recompensas de un alienígena son para el piloto que le disparó primero, no
 - **Reclamar**: el primer piloto cuyo disparo daña a un alienígena lo reclama. Cada impacto tuyo renueva tu reclamación.
 - **Perderla**: si no impactas al alienígena durante **10 segundos**, tu reclamación caduca y el siguiente piloto que lo impacte lo reclama. Tu reclamación también termina cuando destruyen tu nave o sales del mapa (por un portal o al cerrar sesión), y volver dentro de esos 10 segundos no te la devuelve.
 - **El derribo**: cuando el alienígena es destruido, el piloto que tiene su reclamación se lo lleva todo: créditos, Thulium, XP, honor, el derribo para las misiones y los puntos de reinicio, y la [caja de carga](/wiki/03-Mechanics/Cargo.md). Un piloto que remata un alienígena que otro ha reclamado no recibe nada, y el Registro de juego lo indica. Cuando tu reclamación te paga y otro piloto da el último golpe, el Registro de juego nombra a ese piloto y dice que tu reclamación te paga a ti.
+- **Puntos de clasificación**: el derribo también suma puntos PvE a la clasificación del piloto que tiene la reclamación, más cuanto más duro es el alienígena: 1 por un Seeker, 2 por un Phantasm, 4 por un Bulwark, 7 por un Goombah y 16 por un Crystalys (el artículo de cada alienígena indica el suyo). Son solo del piloto que lo derriba: el reparto de recompensas de un grupo no los incluye.
 - **Verla**: cuando seleccionas un alienígena que otro piloto ha reclamado, la ventana Objetivo muestra *Reclamado por* ese piloto y *Sin recompensa*.
 - Los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) nunca reclaman un alienígena, y un alienígena que rematan sigue pagando al piloto que tiene su reclamación.
 - Un piloto de un [grupo](/wiki/03-Mechanics/Groups.md) reparte lo que paga su reclamación con los compañeros de grupo que están cerca y disparando; la reclamación en sí es solo de ese piloto.
+- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) y los Dormant Pulses son la excepción**: un jefe de enjambre y cada Dormant Pulse cobran según el daño que les causó cada piloto, no según el primer impacto, y su caja de carga es para el piloto que más daño causó ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Los demás seguidores, los Pirate Scouts y los Seeker Slaves, pagan según la reclamación, como cualquier alienígena. Los puntos PvE de una nave de enjambre están en la página Enjambres.
 
 ---
 
@@ -98,7 +100,7 @@ Cuando un enemigo o un NPC impacta tu nave, el daño se procesa así:
 ### 1. Absorción del escudo {#1-shield-absorption}
 
 El daño entrante se reparte entre los escudos y los puntos de vida según la **absorción media** de tu nave: la media de la absorción de tus escudos, cada uno con la de sus células de escudo, más la mejora Shield Absorbance Boost de la Tienda de temporada (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)). **No tiene un tope del 100 %**: lo que los escudos se llevan de un impacto es tu absorción **menos la penetración de escudo del atacante**, entre el 0 % y el 100 %.
-- Los escudos reciben la **absorción** de cada impacto (p. ej., 80 % con el mejor escudo y las mejores células, 56 % con un Basic Shield Core con dos células Advanced), menos la penetración del impacto: el 35 % de un Harpoon deja un 45 % en los escudos de una nave con 80 %, y el resto (allí, el 55 %) va directo a los HP.
+- Los escudos reciben la **absorción** de cada impacto (p. ej., 80 % con el mejor escudo y las mejores células, 56 % con un Basic Shield Core con dos Absorption Shield Cell I), menos la penetración del impacto: el 35 % de un Lancet III deja un 45 % en los escudos de una nave con 80 %, y el resto (allí, el 55 %) va directo a los HP.
 - La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %).
 - Un escudo demasiado bajo para su parte pasa la diferencia a los HP; si los escudos están totalmente agotados, el **100 %** de todo el daño restante va a los HP.
 - Los alienígenas no tienen estadística de absorción: sus escudos reciben el 80 % de cada impacto (menos la penetración del impacto) y su casco, el resto.
@@ -109,6 +111,7 @@ La base de cada facción (los mapas X-1) contiene zonas seguras.
 - Entrar en una zona segura hace tu nave completamente inmune al daño.
 - **Romper la inmunidad**: atacar a un enemigo elimina al instante tu inmunidad de zona segura, aunque estés físicamente dentro de una.
 - Un anillo alrededor de cada estación y cada portal te protege cuando han pasado 5 segundos desde que te impactaron y 15 desde que disparaste. Mientras te protege y estás fuera de combate, la ventana del hangar te permite cambiar de nave sin salir del juego: consulta [El hangar en vuelo](/wiki/03-Mechanics/Hangar.md).
+- Las estaciones solo están en las bases de origen (`x-1`). Los sectores de peligro (de `DS-1` a `DS-4`) no tienen ninguna: allí los anillos alrededor de los portales son las únicas zonas seguras.
 
 ### 3. Bajo ataque en un sector de peligro {#3-under-attack-in-a-danger-sector}
 
@@ -127,7 +130,7 @@ Para recuperarse del combate, los pilotos pueden contar con la regeneración pas
 
 ### 1b. Siphon Battery {#1b-siphon-battery}
 
-La munición [Siphon Battery](/wiki/05-Items/Lasers.md) suma al instante a tu escudo el escudo que le drena a un objetivo, hasta tu máximo. Ganar escudo no es recibir daño, así que no retrasa tu regeneración pasiva.
+La munición [Siphon Battery](/wiki/06-Items/Lasers.md) suma al instante a tu escudo el escudo que le drena a un objetivo, hasta tu máximo. Ganar escudo no es recibir daño, así que no retrasa tu regeneración pasiva.
 
 ### 2. Repair Drones (reparación del casco) {#2-repair-drones-hull-repair-}
 
@@ -144,11 +147,11 @@ La munición [Siphon Battery](/wiki/05-Items/Lasers.md) suma al instante a tu es
 
 ## Camuflaje y EMP {#cloaking-and-the-emp}
 
-Un disparo necesita una fijación. Dos [extras](/wiki/05-Items/Extras.md) te quitan la tuya:
+Un disparo necesita una fijación. Dos [extras](/wiki/06-Items/Extras.md) te quitan la tuya:
 
 - **Cloaking CPU**: mientras estás camuflado (no hay límite de tiempo), los pilotos de otras corporaciones, los alienígenas y los pilotos de corporación no ven tu nave y no pueden fijarla; ven un simple punto rojo en el minimapa donde estás. Tu primera andanada termina el camuflaje, y no puedes volver a camuflarte durante un minuto, ni en los 10 segundos siguientes a un impacto o a un disparo.
 - **EMP Charge**: durante 3 segundos nadie puede fijarte, y todas las fijaciones que ya había sobre ti se rompen al instante. Termina todos los camuflajes a menos de 1.500 unidades del piloto que la dispara, salvo los del propio grupo de ese piloto. No te oculta y no es invulnerabilidad: detiene lo que necesita una fijación.
 
-Un cohete también es un disparo: termina tu propio camuflaje, y la explosión en área del cohete de otro sigue dañando a una nave camuflada y termina su camuflaje, porque una explosión no necesita fijación (consulta [Cohetes](/wiki/05-Items/Rockets.md)). El EMP detiene los láseres con fijación y los cohetes guiados, no una explosión.
+Un cohete también es un disparo: termina tu propio camuflaje, y la explosión en área del cohete de otro sigue dañando a una nave camuflada y termina su camuflaje, porque una explosión no necesita fijación (consulta [Cohetes](/wiki/06-Items/Rockets.md)). El EMP detiene los láseres con fijación y los cohetes guiados, no una explosión.
 
 Ninguno de los dos cambia una reclamación de derribo: una reclamación es el historial de quién impactó a un alienígena, no una fijación, y al camuflarte sueltas la tuya.

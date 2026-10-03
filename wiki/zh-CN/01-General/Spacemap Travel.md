@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: 太空地图航行 -->
 # 太空地图航行 {#spacemap-travel}
 
@@ -12,6 +12,8 @@
 - **x-2 -> x-3**：外星人逐级变强的扩张区域。
 - **x-4（边境星区）**：通往 PvP 星区的门户。
 - **DS-x（危险星区）**：连接所有企业的中央 PvP 区域：DS-1 至 DS-4。
+
+只有基地（母星区）设有空间站。**Mission Control** 就在那里打开，空间站的安全区覆盖其周围 1,600 单位。危险星区没有空间站，`DS-1` 也不例外：那里唯一的安全区，是跃迁门周围半径 660 单位的保护环，也无法打开 Mission Control；请飞回你的基地处理任务。
 
 每个[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)（Alpha、Beta、Gamma）都有一份这整张地图的独立副本，飞行员可以在哪些星区互相交战，取决于所在的世界：Alpha 中只有 `x-4` 和 `DS-x` 可以，Beta 中除 `x-1` 外处处可以，Gamma 中则处处可以。星系地图会按你所在世界的规则给各星区着色。
 

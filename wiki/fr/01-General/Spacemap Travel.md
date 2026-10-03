@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -12,6 +12,8 @@ L’univers comprend trois grands secteurs de corporation (Mars, Terra, Galactic
 - **x-2 -> x-3** : des zones d’expansion aux aliens de plus en plus coriaces.
 - **x-4 (frontière)** : la porte d’entrée du secteur PvP.
 - **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4.
+
+Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
 
 Chaque [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) possède sa propre copie de toute cette carte, et c’est lui qui décide où les pilotes peuvent s’affronter : dans Alpha seulement en `x-4` et `DS-x`, dans Beta partout sauf en `x-1`, dans Gamma partout. La carte de la galaxie colore les secteurs selon la règle de votre monde.
 

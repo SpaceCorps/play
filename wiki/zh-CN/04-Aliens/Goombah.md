@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量，能造成巨大伤害，但绝不会主动挑起战斗：Goombah 只会攻击攻击过它的那名飞行员。
+Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量，能造成巨大伤害，但绝不会主动挑起战斗：Goombah 只会攻击攻击过它的那名飞行员。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 
 ## 属性 {#stats}
 
@@ -28,13 +28,14 @@ Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量
 - **Thulium**：75
 - **经验值（XP）**：3,000
 - **荣誉**：24
+- **每次击杀的 PvE 积分**：7
 - **护盾充能**：每秒 100（延迟 15 秒）
 
 ## 战利品掉落 {#loot-drops}
 
 在它爆炸的地方以[货箱](/wiki/03-Mechanics/Cargo.md)的形式掉落，前 30 秒归击杀者所有。
 
-每种掉落物的用途以及其他获取途径：[资源](/wiki/05-Items/Resources.md)。
+每种掉落物的用途以及其他获取途径：[资源](/wiki/06-Items/Resources.md)。
 
 - **Ship Fragment**：
   - 100% 几率（最少 3，最多 3）

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos, es decir, nunca empiezan un combate: un Seeker se vuelve contra el piloto que le dispara, y solo contra ese piloto. Lo deja ir si nadie lo ha alcanzado en 10 segundos, y su casco se repara cuando lo han dejado en paz durante 30 segundos.
+Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos, es decir, nunca empiezan un combate: un Seeker se vuelve contra el piloto que le dispara, y solo contra ese piloto. Lo deja ir si nadie lo ha alcanzado en 10 segundos, y su casco se repara cuando lo han dejado en paz durante 30 segundos. El Boss Seeker y los Seeker Slaves del [Enjambre Seeker](/wiki/05-Swarms/Seeker-Swarm.md) se parecen a los Seekers, pero son tipos propios: sus derribos se cuentan con su propio nombre, no como derribos de Seeker.
 
 ## Estadísticas {#stats}
 
@@ -28,13 +28,14 @@ Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos,
 - **Thulium**: 4
 - **Experiencia (XP)**: 100
 - **Honor**: 2
+- **Puntos PvE por derribo**: 1
 - **Recarga de escudo**: 10 por segundo (15 s de retraso)
 
 ## Botín {#loot-drops}
 
 Cae en una [caja de carga](/wiki/03-Mechanics/Cargo.md) en el lugar donde explota, reservada durante 30 segundos para quien lo destruyó.
 
-Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/05-Items/Resources.md).
+Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20 % de probabilidad (mín.: 1, máx.: 1)
 - **Daraxium**: 50 % de probabilidad (mín.: 1, máx.: 2)

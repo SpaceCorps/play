@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ae35d5bdcf504de8 -->
+<!-- wiki-i18n source: d8bf989776a71cb4 -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -80,7 +80,7 @@ Plusieurs modules d’un même type dans une même configuration : celui de plu
 
 <!-- abilities:end -->
 
-Les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/05-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et des Velkonite Reinforced Plates produites par la Fonderie de votre [Skylab](/wiki/03-Mechanics/Skylab.md). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
+Les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et des Velkonite Reinforced Plates produites par la Fonderie de votre [Skylab](/wiki/03-Mechanics/Skylab.md). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
 
 ## Temps de recharge et limites {#cooldowns-and-limits}
 

@@ -11,13 +11,13 @@ Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdo
 | Phase | Days | Protocol / Event | Description |
 | :--- | :--- | :--- | :--- |
 | **Peace Protocol** | Days 1–3 | No PvP Enabled | A fresh start focused entirely on PvE progression, resource farming, and ship building without the threat of player conflict. |
-| **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below). No special rewards yet. |
+| **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below), and the three [swarms](/wiki/05-Swarms/Swarms.md) begin to appear: they stay until the wipe, through the phases after this one. The phase itself gives no special rewards yet. |
 | **Tech Surge** | Days 11–18 | Event 2 | No special effects yet: yields and aliens are the same as in any other phase. |
 | **War Games** | Days 19–25 | Event 3 | No special effects yet: PvP works as in every phase after the Peace Protocol. |
 | **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete and lock their carrying cargo before the eruption. |
 | **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn. Pilots move to the world they chose as their destination for the next season. |
 
-Apart from the wipe itself, only the Peace Protocol (days 1–3) changes a rule. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses yet.
+Apart from the wipe itself, only two things follow the calendar: the Peace Protocol (days 1–3) changes a rule, and from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses of its own yet.
 
 ---
 
@@ -57,7 +57,7 @@ For additional items in your inventory that you want to save (e.g., spare weapon
   * *Engines / Propulsion*: 30 kg
   * *Generators*: 30 kg
   * *Resources / Minerals*: Varying weights based on rarity (a Reinforced Plate from the Skylab's Forgery weighs 5 kg)
-  * *Rockets*: no weight at all: they take no room in the cache, so whole stacks go in (see [Rockets](/wiki/05-Items/Rockets.md))
+  * *Rockets*: no weight at all: they take no room in the cache, so whole stacks go in (see [Rockets](/wiki/06-Items/Rockets.md))
 
 Your [Skylab](/wiki/03-Mechanics/Skylab.md) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache.
 

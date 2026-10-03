@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50aef07b7e598353 -->
+<!-- wiki-i18n source: 500bc358b49f4250 -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -25,7 +25,7 @@ Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut
 
 - Det elfte uppdraget på varje nivå är dess **Special**. Det är låst tills **alla tio** av nivåns andra uppdrag är klara (hämtade, eller väntande på att hämtas), och kortet säger hur många du har kvar.
 - Specialuppdragen betalar mer erfarenhet än något annat uppdrag på sin nivå, och dessutom **föremål**: lasrar, sköldkomponenter, generatorer, Power Core, Ship Fragment, ammunition och boostertid.
-- De vanliga uppdragen på nivå 1 ger också ett litet startföremål var: en Light Shield Core, en Repair Drone, en Damage Amp, en Basic Shield Cell, lite ammunition och en bunt raketer att prova varje sort (Lancet, Rivet, Ember och Scatter, och Javelin från Special).
+- De vanliga uppdragen på nivå 1 ger också ett litet startföremål var: en Light Shield Core, en Repair Drone, en Damage Amp, en Absorption Shield Cell I, lite ammunition och en bunt raketer att prova varje sort (Lancet I, Rivet I, Ember I och Scatter I, och Lancet II från Special).
 
 ## Station-uppdrag {#station-missions}
 
@@ -33,7 +33,7 @@ Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut
 - De antas, följs, överges och hämtas som alla uppdrag, men de räknas inte bland de 5: du kan ha **3 Station-uppdrag igång samtidigt** vid sidan av dina andra 5. Ett Station-uppdrag kan vänta i timmar på uppgraderingstider och håller aldrig upp ett stridsuppdrag.
 - Att anta ett Station-uppdrag ändrar inte uppdraget du följer när du har ett som flygning kan föra framåt: fönstret Aktiva uppdrag fortsätter visa ditt stridsuppdrag, och Station-uppdraget är en prick i dess titelrad (håll pekaren över den för dess framsteg, klicka för att visa det).
 - Vart och ett öppnas på sin egen **pilotnivå** och efter de Station-uppdrag det följer på (hämtade först): ett låst kort säger vilka. De tre första öppnas på nivå 1.
-- Deras uppgifter läser din Skylab: **bygg** en modul eller **höj den till en nivå** (klart så länge modulen är på den nivån eller högre), **håll energin på 0 eller mer** (räknat på de nivåer modulerna har, oavsett vad som är avstängt eller uppgraderas) och **hämta** krediter från Kreditfarmen (räknat från det ögonblick du antar uppdraget, med knappen Hämta resurser). Ett uppdrag vars uppgifter alla är sanna samtidigt är klart: ett som du redan uppfyller när du antar det är klart direkt.
+- Deras uppgifter läser din Skylab: **bygg** en modul eller **höj den till en nivå** (klart så länge modulen är på den nivån eller högre; ingen modul går över kärnan, så ett mål för Solkraft kan kräva att kärnan höjs först) och **hämta** krediter från Kreditfarmen (räknat från det ögonblick du antar uppdraget, med knappen Hämta resurser). Ett uppdrag vars uppgifter alla är sanna samtidigt är klart: ett som du redan uppfyller när du antar det är klart direkt.
 - De betalar **exakt det tabellen säger**: ingen världsmultiplikator, inga boosters, ingen Premium-erfarenhet, inga föremål. Deras erfarenhet kommer utöver de 85 % som nivåernas uppdrag betalar (högst 5 % av en nivås erfarenhetsspann).
 - Station-uppdrag räknas inte mot [wipepoängen](/wiki/03-Mechanics/Wipe-Timeline.md) för avklarade uppdrag. De överlever wipen som alla uppdrag, och det gör även det du byggde.
 
@@ -83,7 +83,7 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 
 - **PvP**: andra koncerners piloter kan attackera dig i `x-4` och centrum i varje värld, från `x-2` och uppåt i Beta, och överallt i Gamma (utom i säkra zoner och under Fredsprotokollet).
 - **Bulwark** (`x-3`, `x-4`) är snabbare än en Protos och träffar hårt. Bekämpa dem från en [Ostirion](/wiki/02-Ships/Ostirion.md), nära en portals säkra zon, och dra dig tillbaka in i den för att reparera.
-- **Goombah** (`x-3`, `x-4`) har en räckvidd på 800, träffar för 3 000 och startar aldrig en strid: lämnar du en i fred lämnar den dig i fred, skjuter du på den vänder den sig mot dig tills 10 sekunder efter din senaste träff (och den läker när den lämnas i fred). Ett skepp vars lasrar alla är [Starfire-3](/wiki/05-Items/Lasers.md) (räckvidd 850) har längre räckvidd än både dem och Bulwark: med ett skepp som är snabbare än de är (en Ostirion eller bättre; en Goombah flyger 180, en Bulwark 175) kan du skjuta utan att ta en träff. Ditt skepps räckvidd är medelvärdet av dess lasrars räckvidd, så en Starfire-3 bredvid två Quantum Laser 2 skjuter från 750: långt nog för att hålla sig borta från en Bulwark (700), men inte från en Goombah (800). Specialuppdraget på nivå 5 ger dig en; du kan också tillverka en i Monteringen, av Velkonite Reinforced Plate som Smedjan i din [Skylab](/wiki/03-Mechanics/Skylab.md) gör.
+- **Goombah** (`x-3`, `x-4`) har en räckvidd på 800, träffar för 3 000 och startar aldrig en strid: lämnar du en i fred lämnar den dig i fred, skjuter du på den vänder den sig mot dig tills 10 sekunder efter din senaste träff (och den läker när den lämnas i fred). Ett skepp vars lasrar alla är [Starfire-3](/wiki/06-Items/Lasers.md) (räckvidd 850) har längre räckvidd än både dem och Bulwark: med ett skepp som är snabbare än de är (en Ostirion eller bättre; en Goombah flyger 180, en Bulwark 175) kan du skjuta utan att ta en träff. Ditt skepps räckvidd är medelvärdet av dess lasrars räckvidd, så en Starfire-3 bredvid två Quantum Laser 2 skjuter från 750: långt nog för att hålla sig borta från en Bulwark (700), men inte från en Goombah (800). Specialuppdraget på nivå 5 ger dig en; du kan också tillverka en i Monteringen, av Velkonite Reinforced Plate som Smedjan i din [Skylab](/wiki/03-Mechanics/Skylab.md) gör.
 - **Crystalys** strövar längs gränsen (`x-4`). Inget som finns inom räckhåll för nivå 8 har längre räckvidd än en, och bara ett snabbt skepp flyger ifrån den: håll avstånd, och håll koll på minikartan.
 - När du blir förstörd väljer du var du återvänder: vid din bas, vid närmaste portal eller på platsen (se [Förstörelse och återkomst](/wiki/01-General/Getting-Started.md)). Ett tidsbegränsat uppdrags klocka fortsätter gå under tiden.
 
@@ -100,17 +100,17 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Grundutbildning: strid | Strid | Förstör Seeker ×8 i x-1 | – | 950 | 5 000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
+| Grundutbildning: strid | Strid | Förstör Seeker ×8 i x-1 | – | 950 | 5 000 | 10 | 10 | Standard Battery ×500, Lancet I ×50 |
 | Grundutbildning: navigering | Spaning | Patrullera 15 000 enheter i x-1 → Patrullera 15 000 enheter i x-2 | – | 900 | 4 500 | 10 | 9 | Light Shield Core ×1 |
-| Hastighetsprov | Operationer | Förstör Seeker ×8 i x-1 | 8 min | 1 050 | 5 000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
+| Hastighetsprov | Operationer | Förstör Seeker ×8 i x-1 | 8 min | 1 050 | 5 000 | 10 | 10 | Advanced Plasma ×100, Rivet I ×50 |
 | Hemsektorns försvar | Strid | Förstör Seeker ×12 i x-1 | – | 1 300 | 6 500 | 15 | 13 | Standard Battery ×500 |
 | Snabbspaning | Spaning | Patrullera 35 000 enheter i x-1 | 7 min | 900 | 4 500 | 10 | 9 | Repair Drone I ×1 |
-| Kombinerade operationer | Operationer | Förstör Seeker ×8 i x-1; Patrullera 15 000 enheter i x-1 | – | 1 200 | 6 000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
-| Slå till och fly | Spaning | Förstör Seeker ×4 i x-2 → Patrullera 20 000 enheter i x-2 | – | 1 000 | 5 000 | 10 | 10 | Basic Shield Cell ×1 |
+| Kombinerade operationer | Operationer | Förstör Seeker ×8 i x-1; Patrullera 15 000 enheter i x-1 | – | 1 200 | 6 000 | 10 | 12 | Advanced Plasma ×100, Ember I ×30 |
+| Slå till och fly | Spaning | Förstör Seeker ×4 i x-2 → Patrullera 20 000 enheter i x-2 | – | 1 000 | 5 000 | 10 | 10 | Absorption Shield Cell I ×1 |
 | Storviltsjägare | Strid | Förstör Seeker ×20 i x-1 | – | 2 050 | 10 000 | 20 | 20 | Standard Battery ×1 000 |
-| Utpostförsvar | Strid | Förstör Seeker ×15 i x-2 | – | 1 650 | 8 000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
+| Utpostförsvar | Strid | Förstör Seeker ×15 i x-2 | – | 1 650 | 8 000 | 15 | 16 | Damage Amp 1 ×1, Scatter I ×30 |
 | Eldprovet | Operationer | Förstör Seeker ×8 i x-1 → Patrullera 12 000 enheter i x-2 → Förstör Seeker ×8 i x-2 | 20 min | 2 600 | 13 000 | 25 | 26 | Advanced Plasma ×150 |
-| **Phantasm-jägare** (Special) | Operationer | Förstör Phantasm ×2 i x-2; Förstör Seeker ×15 i x-2 | – | 3 400 | 17 000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
+| **Phantasm-jägare** (Special) | Operationer | Förstör Phantasm ×2 i x-2; Förstör Seeker ×15 i x-2 | – | 3 400 | 17 000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### Nivå 2: Första kontakten {#level-2-first-contact}
 
@@ -128,7 +128,7 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 | Seeker-gallring | Strid | Förstör Seeker ×30 i x-2 | – | 2 100 | 14 500 | 40 | 21 | – |
 | Portfärd | Spaning | Patrullera 20 000 enheter i x-2 → Patrullera 3 000 enheter i x-3 | – | 800 | 5 500 | 15 | 8 | – |
 | Bakhållsövning | Operationer | Förstör Phantasm ×3 i x-2; Förstör Seeker ×10 i x-2 | 15 min | 1 600 | 11 000 | 30 | 16 | – |
-| **Phantasm-utrensning** (Special) | Operationer | Förstör Phantasm ×6 i x-2 → Förstör Seeker ×15 i x-2 → Patrullera 4 000 enheter i x-3 | 30 min | 3 400 | 24 000 | 70 | 34 | Advanced Shield Cell ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Phantasm-utrensning** (Special) | Operationer | Förstör Phantasm ×6 i x-2 → Förstör Seeker ×15 i x-2 → Patrullera 4 000 enheter i x-3 | 30 min | 3 400 | 24 000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### Nivå 3: Den tredje sektorn {#level-3-the-third-sector}
 
@@ -200,7 +200,7 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 | Belägringsbrytare | Operationer | Förstör Bulwark ×6 i x-4; Patrullera 8 000 enheter i x-4 | – | 26 000 | 90 000 | 780 | 195 | – |
 | Vakttornet | Spaning | Förstör Bulwark ×3 i x-4 → Patrullera 10 000 enheter i x-4 | – | 16 000 | 55 000 | 480 | 120 | – |
 | Det långa eldprovet | Operationer | Förstör Bulwark ×5 i x-4 → Förstör Goombah ×1 i x-4 | 25 min | 39 000 | 135 000 | 1 170 | 292 | – |
-| **Kolossen** (Special) | Operationer | Förstör Goombah ×2 i x-4; Förstör Bulwark ×6 i x-4 | – | 54 000 | 190 000 | 1 620 | 405 | Elite Shield Cell ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
+| **Kolossen** (Special) | Operationer | Förstör Goombah ×2 i x-4; Förstör Bulwark ×6 i x-4 | – | 54 000 | 190 000 | 1 620 | 405 | Absorption Shield Cell II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
 
 ### Nivå 7: Goombah-jakt {#level-7-goombah-hunts}
 
@@ -249,10 +249,10 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 | Löning | Spaning | nivå 1, efter Första farmen | Hämta 1 000 krediter från kreditfarmen | 350 | 2 000 | 20 | 4 |
 | Stationens hjärta | Operationer | nivå 2, efter Första farmen | Höj Kärna till nivå 3 | 400 | 4 000 | 10 | 4 |
 | Ljusare paneler | Operationer | nivå 2, efter Stationens hjärta | Höj Solkraft till nivå 3 | 600 | 2 000 | 40 | 6 |
-| Thuliumlinjen | Operationer | nivå 3, efter Ljusare paneler | Bygg Thuliumfarm; Håll energin på 0 eller mer | 1 000 | 5 000 | 100 | 10 |
-| Växtsäsong | Operationer | nivå 4, efter Thuliumlinjen | Höj Kreditfarm till nivå 3; Håll energin på 0 eller mer | 800 | 4 000 | 80 | 8 |
+| Thuliumlinjen | Operationer | nivå 3, efter Ljusare paneler | Bygg Thuliumfarm; Höj Solkraft till nivå 4 | 1 000 | 5 000 | 100 | 10 |
+| Växtsäsong | Operationer | nivå 4, efter Thuliumlinjen | Höj Kreditfarm till nivå 3; Höj Solkraft till nivå 5 | 800 | 4 000 | 80 | 8 |
 | Femtiotusen | Spaning | nivå 4, efter Löning och Växtsäsong | Hämta 50 000 krediter från kreditfarmen | 1 500 | 5 000 | 50 | 15 |
-| Öppna försörjningslinjen | Operationer | nivå 4, efter Stationens hjärta och Ljusare paneler | Höj Kärna till nivå 5; Höj Solkraft till nivå 5 | 1 500 | 5 500 | 60 | 15 |
+| Öppna försörjningslinjen | Operationer | nivå 4, efter Växtsäsong | Höj Kärna till nivå 6; Höj Solkraft till nivå 6 | 1 500 | 5 500 | 60 | 15 |
 | Kärna tio | Operationer | nivå 5, efter Öppna försörjningslinjen | Höj Kärna till nivå 10 | 1 500 | 20 000 | 50 | 11 |
 
 <!-- quests:end -->

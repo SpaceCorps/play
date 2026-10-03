@@ -23,7 +23,7 @@ Missions are the main way to level up. Mission Control hands them out: every mis
 
 - The eleventh mission of each level is its **Special**. It is locked until **all ten** of the level's other missions are done (claimed, or waiting for their claim), and its card says how many you have left.
 - Specials pay more experience than any other mission of their level, and **items** besides: lasers, shield parts, generators, Power Cores, Ship Fragments, ammo and booster time.
-- Level 1's regular missions also give a small starter item each: a Light Shield Core, a Repair Drone, a Damage Amp, a Basic Shield Cell, some ammo and a stack of rockets to try each kind (Lancets, Rivets, Embers and Scatters, and Javelins from the Special).
+- Level 1's regular missions also give a small starter item each: a Light Shield Core, a Repair Drone, a Damage Amp, an Absorption Shield Cell I, some ammo and a stack of rockets to try each kind (Lancet I, Rivet I, Ember I and Scatter I, and Lancet II from the Special).
 
 ## Station missions
 
@@ -31,7 +31,7 @@ Missions are the main way to level up. Mission Control hands them out: every mis
 - They are taken, tracked, abandoned and claimed like every mission, but they don't count in the 5: you can run **3 Station missions at once** besides your other 5. A Station mission can wait for hours of upgrade timers and never holds up a combat mission.
 - Taking a Station mission doesn't change the mission you're tracking when you have one that flying can advance: the Active Quests window keeps showing your combat mission, and the Station mission is a dot in its title bar (hover it for its progress, click it to show it).
 - Each opens at its own **pilot level** and after the Station missions it follows (claimed first): a locked card says which. The first three open at level 1.
-- Their tasks read your Skylab: **build** a module or **raise it to a level** (done while the module is at that level or higher), **keep the power at 0 or more** (counted at the levels the modules are at, whatever is switched off or upgrading), and **collect** credits from the Credit Farm (counted from the moment you accept the mission, with the Collect Resources button). A mission whose tasks are all true at once is done: one you already meet when you accept it is done at once.
+- Their tasks read your Skylab: **build** a module or **raise it to a level** (done while the module is at that level or higher; no module goes above your Core, so a Solar goal can need the Core raised first), and **collect** credits from the Credit Farm (counted from the moment you accept the mission, with the Collect Resources button). A mission whose tasks are all true at once is done: one you already meet when you accept it is done at once.
 - They pay **exactly what the table says**: no world multiplier, no boosters, no premium experience, no items. Their experience is on top of the 85% the levels' missions pay (at most 5% of a level's gap).
 - Station missions don't count toward the [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md) for missions done. They survive the wipe like every mission, and so does what you built.
 
@@ -81,7 +81,7 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 - **PvP**: other companies' pilots can attack you in `x-4` and the centre in every world, from `x-2` up in Beta, and everywhere in Gamma (except in safe zones and during the Peace Protocol).
 - **Bulwarks** (`x-3`, `x-4`) outrun a Protos and hit hard. Fight them from an [Ostirion](/wiki/02-Ships/Ostirion.md), near a gate's safe zone, and pull back into it to repair.
-- **Goombahs** (`x-3`, `x-4`) have a range of 800, hit for 3,000 and never start a fight: leave one alone and it leaves you alone, shoot it and it turns on you until 10 seconds after your last hit (and it mends when left alone). A ship whose lasers are all [Starfire-3](/wiki/05-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are (an Ostirion or above; a Goombah flies 180, a Bulwark 175) you can fire without taking a hit. Your ship's range is the average of its lasers' ranges, so a Starfire-3 beside two Quantum Laser 2 fires from 750: far enough to keep away from a Bulwark (700), not from a Goombah (800). Level 5's Special gives you one; you can also make one in Assembly, from Velkonite Reinforced Plates that the Forgery of your [Skylab](/wiki/03-Mechanics/Skylab.md) makes.
+- **Goombahs** (`x-3`, `x-4`) have a range of 800, hit for 3,000 and never start a fight: leave one alone and it leaves you alone, shoot it and it turns on you until 10 seconds after your last hit (and it mends when left alone). A ship whose lasers are all [Starfire-3](/wiki/06-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are (an Ostirion or above; a Goombah flies 180, a Bulwark 175) you can fire without taking a hit. Your ship's range is the average of its lasers' ranges, so a Starfire-3 beside two Quantum Laser 2 fires from 750: far enough to keep away from a Bulwark (700), not from a Goombah (800). Level 5's Special gives you one; you can also make one in Assembly, from Velkonite Reinforced Plates that the Forgery of your [Skylab](/wiki/03-Mechanics/Skylab.md) makes.
 - **Crystalys** roam the border (`x-4`). Nothing in reach of level 8 outranges one, and only a fast ship outruns it: keep your distance, and watch the minimap.
 - When you are destroyed you choose where to come back: at your base, at the nearest portal or on the spot (see [Dying and Coming Back](/wiki/01-General/Getting-Started.md)). A timed mission's clock keeps running meanwhile.
 
@@ -98,17 +98,17 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Basic Training: Combat | Combat | Destroy 8 Seekers in x-1 | – | 950 | 5,000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
+| Basic Training: Combat | Combat | Destroy 8 Seekers in x-1 | – | 950 | 5,000 | 10 | 10 | Standard Battery ×500, Lancet I ×50 |
 | Basic Training: Navigation | Recon | Patrol 15,000 units in x-1 → Patrol 15,000 units in x-2 | – | 900 | 4,500 | 10 | 9 | Light Shield Core ×1 |
-| Speed Trial | Ops | Destroy 8 Seekers in x-1 | 8 min | 1,050 | 5,000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
+| Speed Trial | Ops | Destroy 8 Seekers in x-1 | 8 min | 1,050 | 5,000 | 10 | 10 | Advanced Plasma ×100, Rivet I ×50 |
 | Home Sector Defense | Combat | Destroy 12 Seekers in x-1 | – | 1,300 | 6,500 | 15 | 13 | Standard Battery ×500 |
 | Rapid Recon | Recon | Patrol 35,000 units in x-1 | 7 min | 900 | 4,500 | 10 | 9 | Repair Drone I ×1 |
-| Combined Operations | Ops | Destroy 8 Seekers in x-1; Patrol 15,000 units in x-1 | – | 1,200 | 6,000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
-| Hit and Run | Recon | Destroy 4 Seekers in x-2 → Patrol 20,000 units in x-2 | – | 1,000 | 5,000 | 10 | 10 | Basic Shield Cell ×1 |
+| Combined Operations | Ops | Destroy 8 Seekers in x-1; Patrol 15,000 units in x-1 | – | 1,200 | 6,000 | 10 | 12 | Advanced Plasma ×100, Ember I ×30 |
+| Hit and Run | Recon | Destroy 4 Seekers in x-2 → Patrol 20,000 units in x-2 | – | 1,000 | 5,000 | 10 | 10 | Absorption Shield Cell I ×1 |
 | Big Game Hunter | Combat | Destroy 20 Seekers in x-1 | – | 2,050 | 10,000 | 20 | 20 | Standard Battery ×1,000 |
-| Frontier Defense | Combat | Destroy 15 Seekers in x-2 | – | 1,650 | 8,000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
+| Frontier Defense | Combat | Destroy 15 Seekers in x-2 | – | 1,650 | 8,000 | 15 | 16 | Damage Amp 1 ×1, Scatter I ×30 |
 | The Gauntlet | Ops | Destroy 8 Seekers in x-1 → Patrol 12,000 units in x-2 → Destroy 8 Seekers in x-2 | 20 min | 2,600 | 13,000 | 25 | 26 | Advanced Plasma ×150 |
-| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
+| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### Level 2: First Contact
 
@@ -126,7 +126,7 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 | Seeker Cull | Combat | Destroy 30 Seekers in x-2 | – | 2,100 | 14,500 | 40 | 21 | – |
 | Gate Run | Recon | Patrol 20,000 units in x-2 → Patrol 3,000 units in x-3 | – | 800 | 5,500 | 15 | 8 | – |
 | Ambush Drill | Ops | Destroy 3 Phantasm in x-2; Destroy 10 Seekers in x-2 | 15 min | 1,600 | 11,000 | 30 | 16 | – |
-| **Phantasm Purge** (Special) | Ops | Destroy 6 Phantasm in x-2 → Destroy 15 Seekers in x-2 → Patrol 4,000 units in x-3 | 30 min | 3,400 | 24,000 | 70 | 34 | Advanced Shield Cell ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Phantasm Purge** (Special) | Ops | Destroy 6 Phantasm in x-2 → Destroy 15 Seekers in x-2 → Patrol 4,000 units in x-3 | 30 min | 3,400 | 24,000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### Level 3: The Third Sector
 
@@ -198,7 +198,7 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 | Siege Breaker | Ops | Destroy 6 Bulwarks in x-4; Patrol 8,000 units in x-4 | – | 26,000 | 90,000 | 780 | 195 | – |
 | Watchtower | Recon | Destroy 3 Bulwarks in x-4 → Patrol 10,000 units in x-4 | – | 16,000 | 55,000 | 480 | 120 | – |
 | The Long Gauntlet | Ops | Destroy 5 Bulwarks in x-4 → Destroy 1 Goombah in x-4 | 25 min | 39,000 | 135,000 | 1,170 | 292 | – |
-| **Colossus** (Special) | Ops | Destroy 2 Goombahs in x-4; Destroy 6 Bulwarks in x-4 | – | 54,000 | 190,000 | 1,620 | 405 | Elite Shield Cell ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
+| **Colossus** (Special) | Ops | Destroy 2 Goombahs in x-4; Destroy 6 Bulwarks in x-4 | – | 54,000 | 190,000 | 1,620 | 405 | Absorption Shield Cell II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
 
 ### Level 7: Goombah Hunts
 
@@ -247,10 +247,10 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 | Payday | Recon | level 1, after First Farm | Collect 1,000 credits from the Credit Farm | 350 | 2,000 | 20 | 4 |
 | Heart of the Station | Ops | level 2, after First Farm | Raise the Core to level 3 | 400 | 4,000 | 10 | 4 |
 | Brighter Panels | Ops | level 2, after Heart of the Station | Raise Solar to level 3 | 600 | 2,000 | 40 | 6 |
-| The Thulium Line | Ops | level 3, after Brighter Panels | Build a Thulium Farm; Keep the power at 0 or more | 1,000 | 5,000 | 100 | 10 |
-| Growing Season | Ops | level 4, after The Thulium Line | Raise the Credit Farm to level 3; Keep the power at 0 or more | 800 | 4,000 | 80 | 8 |
+| The Thulium Line | Ops | level 3, after Brighter Panels | Build a Thulium Farm; Raise Solar to level 4 | 1,000 | 5,000 | 100 | 10 |
+| Growing Season | Ops | level 4, after The Thulium Line | Raise the Credit Farm to level 3; Raise Solar to level 5 | 800 | 4,000 | 80 | 8 |
 | Fifty Thousand | Recon | level 4, after Payday and Growing Season | Collect 50,000 credits from the Credit Farm | 1,500 | 5,000 | 50 | 15 |
-| Open the Supply Line | Ops | level 4, after Heart of the Station and Brighter Panels | Raise the Core to level 5; Raise Solar to level 5 | 1,500 | 5,500 | 60 | 15 |
+| Open the Supply Line | Ops | level 4, after Growing Season | Raise the Core to level 6; Raise Solar to level 6 | 1,500 | 5,500 | 60 | 15 |
 | Core Ten | Ops | level 5, after Open the Supply Line | Raise the Core to level 10 | 1,500 | 20,000 | 50 | 11 |
 
 <!-- quests:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b1e304a5a79c398 -->
+<!-- wiki-i18n source: f498be6364c7a1f9 -->
 <!-- wiki-i18n title: Primeros pasos -->
 # Primeros pasos en SpaceCorps {#getting-started-in-spacecorps}
 
@@ -6,10 +6,12 @@ Te damos la bienvenida a la experiencia definitiva de guerra espacial. Como pilo
 
 ## Recursos básicos {#core-resources}
 
-Para sobrevivir y prosperar, tienes que gestionar dos monedas y no perder de vista tu honor. Los materiales con los que construyes están en la página [Recursos](/wiki/05-Items/Resources.md), con dónde conseguir cada uno y para qué sirve:
+Para sobrevivir y prosperar, tienes que gestionar dos monedas y no perder de vista tu honor. Los materiales con los que construyes están en la página [Recursos](/wiki/06-Items/Resources.md), con dónde conseguir cada uno y para qué sirve:
 - **Créditos**: La moneda estándar principal. Te la paga cada alienígena que derrotas y cada misión que terminas, y la produce la Granja de créditos de tu [Skylab](/wiki/03-Mechanics/Skylab.md). Sirve para comprar equipo básico, naves y equipamiento estándar.
-- **Thulium**: El raro mineral radiactivo y moneda de alto valor. Te lo paga cada alienígena que derrotas y cada misión que terminas, y lo produce la Granja de Thulium de tu Skylab. Sirve para comprar armamento de élite, propulsores, escudos híbridos y potentes paquetes de potenciadores.
+- **Thulium**: El raro mineral radiactivo y moneda de alto valor. Te lo paga cada alienígena que derrotas y cada misión que terminas, y lo produce la Granja de Thulium de tu Skylab. Sirve para comprar armamento de élite, motores, escudos híbridos y potentes paquetes de potenciadores, y para mejorar módulos en Ensamblaje.
 - **Honor**: Una puntuación, no dinero: mide tu rango en la facción, tu lealtad y tu reputación. Ganar honor mejora tu título de rango, pero atacar a pilotos aliados de tu propia facción castiga duramente tu honor: destruir a un piloto de tu propia corporación, ya sea la nave de un jugador o uno de sus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), cuesta 100 de honor. Lo mismo cuesta alcanzarlo en los 15 segundos antes de que otra cosa lo destruya: debilitar a un compañero de corporación para que lo remate un alienígena cuesta tanto como derribarlo. Matar a un compañero de corporación no cuenta como derribo PvP y no da puntos PvP.
+
+En la estación, tus Créditos, tu Thulium y tu Honor están arriba a la derecha de cada página, junto a tu sector y al botón **Despegar**. Si la ventana es demasiado estrecha para una cifra larga, se abrevia (987,7M); apunta con el cursor para leer el número completo.
 
 ## Jugar con amigos {#playing-with-friends}
 
@@ -31,11 +33,12 @@ Cuando tu casco llega a 0, la nave queda destruida y la pantalla de muerte te pr
 
 - **El bloqueo empieza cuando reapareces con esa opción**, no cuando mueres, y solo afecta a esa opción: usar el portal no bloquea el sitio. Una opción bloqueada aparece en gris en la pantalla de muerte con una cuenta atrás (minutos y segundos) y se abre sola cuando termina. Los bloqueos los guarda el servidor: cerrar sesión y volver a entrar no los restablece. Una nueva temporada (el reinicio), sí.
 - **Una opción que el servidor rechaza no cuesta nada.** Si una opción no se puede usar (sigue bloqueada, no hay portal en el sector, has cambiado de mundo desde que moriste), el bloqueo no se gasta y tu nave no se mueve; vuelves a elegir.
-- **Protección.** Una nave que vuelve en un portal o en el sitio no puede recibir daño ni ser fijada durante **5 segundos**, y los alienígenas pierden el interés en ella, así que quien te destruyó no puede volver a destruirte enseguida. El HUD muestra los segundos que quedan. Tu **primer disparo** (una ráfaga de láser o un cohete) pone fin a la protección, y se te avisa cuando termina. En la base, la zona segura de la estación te protege como siempre.
+- **Protección al reaparecer.** Elijas el sitio que elijas, tu nave no puede recibir daño ni ser fijada durante **3 segundos** tras volver, y los alienígenas pierden el interés en ella, así que quien te destruyó no puede volver a destruirte enseguida. Esos mismos 3 segundos **tú tampoco puedes atacar**: un láser o un cohete se rechaza con un aviso, y la protección no termina antes. El HUD muestra los segundos que quedan. Termina cuando se agotan.
 - **El agujero negro.** Un lugar dentro del anillo de radiación del [agujero negro](/wiki/03-Mechanics/Black-Hole.md) (a 4.200 unidades del centro del sector de peligro 4) nunca es un lugar al que volver: si te destruyeron allí, «En el sitio» te coloca en el punto más cercano fuera del anillo, en la línea que sale del centro y pasa por tu posición, y te lo indica.
 - **Sectores de peligro.** Las tres opciones también funcionan allí.
-- **Lo que cuesta una destrucción no cambia:** vuelves con el casco base de tu nave y los escudos vacíos, no pierdes ningún objeto, y la opción solo decide dónde apareces. Tus habilidades están listas, y vuelves sin camuflaje y fuera de cualquier ventana de EMP. Sigues en tu [grupo](/wiki/03-Mechanics/Groups.md).
-- **Atracar.** «Volver a la base» en la pantalla de muerte te devuelve a la base, como siempre. Si el juego se cierra antes de que elijas, repara la nave gratis en el [hangar](/wiki/03-Mechanics/Hangar.md); estarás en tu base.
+- **Tu casco vuelve limitado.** Vuelves con el casco de tu nave **hasta un máximo de 10.000** y el escudo vacío, elijas el sitio que elijas. La Protos (8.000 de casco) vuelve entera; las naves más grandes (de los 24.000 de la Kitefin a los 600.000 de la Ironclad) vuelven con 10.000, así que repara antes del siguiente combate con un Repair Drone o una Emergency Repair (consulta [Combate](/wiki/03-Mechanics/Combat.md) y [Habilidades](/wiki/03-Mechanics/Abilities.md)). El escudo se recarga como siempre. La pantalla de muerte te lo dice.
+- **Lo que cuesta una destrucción, aparte de eso:** no pierdes ningún objeto, y la opción solo decide dónde apareces. Tus habilidades están listas, y vuelves sin camuflaje y fuera de cualquier ventana de EMP. Sigues en tu [grupo](/wiki/03-Mechanics/Groups.md).
+- **Atracar.** «Volver a la base» en la pantalla de muerte te devuelve a la base, como siempre, con el mismo casco. Si el juego se cierra antes de que elijas, repara la nave gratis en el [hangar](/wiki/03-Mechanics/Hangar.md); estarás en tu base, con el mismo casco y sin escudo.
 
 ## Controles de teclado y asignación de teclas {#keyboard-controls-keybindings}
 
@@ -65,7 +68,7 @@ Es una ventana como las demás. Arrástrala por su barra de título para colocar
 
 ## Cuando el juego va con lag {#when-the-game-lags}
 
-Activa **Configuración › General › Mostrar info de red** y aparece una pequeña tarjeta arriba a la derecha (se aparta de las ventanas y está desactivada hasta que la actives). Te dice qué lado va lento:
+Activa **Configuración › Interfaz › Mostrar info de red** y aparece una pequeña tarjeta arriba a la derecha (se aparta de las ventanas y está desactivada hasta que la actives). Te dice qué lado va lento:
 
 | Lectura | Qué es | Bien, lento |
 | :--- | :--- | :--- |
@@ -83,3 +86,4 @@ Cuando algo va mal, una línea bajo los números dice de quién es la culpa: *Re
 2. **Zonas seguras**: Los portales y las bases tienen **zonas seguras** a su alrededor. En ellas, los demás pilotos no pueden atacarte, así que puedes recuperar los escudos o esperar con seguridad a que terminen los tiempos de espera del combate.
 3. **Tu primera habilidad**: tu equipo inicial ya tiene un Repair Drone I instalado en la ranura de habilidad de la Protos, así que el botón de Emergency Repair (`E`, junto a la barra rápida) repara tu casco durante diez segundos siempre que esté dañado. Consulta [Habilidades](/wiki/03-Mechanics/Abilities.md).
 4. **Impuestos diarios de facción**: Si eres miembro de un clan, ten en cuenta que el tesoro del clan descuenta un porcentaje de impuesto (del 0 % al 5 %) de tu saldo diario de créditos a medianoche UTC. ¡Asegúrate de elegir bien tu clan!
+5. **Copiar desde la wiki**: arrastra el ratón sobre cualquier texto de un artículo para seleccionarlo y pulsa `Ctrl+C` (`Cmd+C` en un Mac) para copiarlo; un clic en un enlace sigue abriendo la página. **Copiar página**, arriba en cada artículo, copia la página entera como Markdown, para pegarla en un chat o una nota.

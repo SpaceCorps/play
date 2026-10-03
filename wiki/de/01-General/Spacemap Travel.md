@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48e9736362e10347 -->
+<!-- wiki-i18n source: 3a89595b53c5603f -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
@@ -12,6 +12,8 @@ Das Universum besteht aus den drei großen Konzernsektoren (Mars, Terra, Galacti
 - **x-2 -> x-3**: Expansionszonen mit immer stärkeren Aliens.
 - **x-4 (Grenze)**: Das Tor zum PvP-Sektor.
 - **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4.
+
+Nur die Heimatbasen haben eine Station. Dort öffnet sich **Mission Control**, und ihre Schutzzone reicht 1.600 Einheiten weit um sie herum. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu deiner Basis.
 
 Jede [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) hat ihre eigene Kopie dieser ganzen Karte, und wo Piloten gegeneinander kämpfen dürfen, hängt von ihr ab: in Alpha nur in `x-4` und `DS-x`, in Beta überall außer in `x-1`, in Gamma überall. Die Galaxiekarte färbt die Sektoren nach der Regel deiner Welt.
 

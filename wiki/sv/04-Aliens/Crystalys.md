@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 60bad00d46cd2fd8 -->
+<!-- wiki-i18n source: e44251b88441c46e -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
-Crystalys är en massiv utomjordisk enhet i slagskeppsklass. Att möta en är mycket farligt och kräver exceptionell sköldkapacitet och eldkraft för att överleva. Den går efter varje oskyddad pilot inom sin aggroradie (900 enheter) och släpper taget när piloten är mer än 1 200 enheter bort eller efter att ha flugit 2 000 enheter från där jakten började (2 500 och 3 000 för en pilot som sköt på den, se [Strid](/wiki/03-Mechanics/Combat.md)); en pilot som träffade den under de senaste 10 sekunderna släpper den inte alls, och Crystalys flyger mot den piloten så fort piloten är utanför dess vapenräckvidd (900 enheter). När flera piloter skjuter på den håller den sig till den som sköt först så länge den piloten fortsätter träffa den (se [Vem en utomjording slåss mot](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)).
+Crystalys är en massiv utomjordisk enhet i slagskeppsklass. Att möta en är mycket farligt och kräver exceptionell sköldkapacitet och eldkraft för att överleva. Den går efter varje oskyddad pilot inom sin aggroradie (900 enheter) och släpper taget när piloten är mer än 1 200 enheter bort eller efter att ha flugit 2 000 enheter från där jakten började (2 500 och 3 000 för en pilot som sköt på den, se [Strid](/wiki/03-Mechanics/Combat.md)); en pilot som träffade den under de senaste 10 sekunderna släpper den inte alls, och Crystalys flyger mot den piloten så fort piloten är utanför dess vapenräckvidd (900 enheter). När flera piloter skjuter på den håller den sig till den som sköt först så länge den piloten fortsätter träffa den (se [Vem en utomjording slåss mot](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md) är särskilda slags utomjordingar, med egna artiklar i kategorin Svärmar.
 
 ## Värden {#stats}
 
@@ -19,13 +19,14 @@ Crystalys är en massiv utomjordisk enhet i slagskeppsklass. Att möta en är my
 - **Thulium**: 200
 - **Erfarenhet (XP)**: 12 000
 - **Heder**: 52
+- **PvE-poäng per nedskjutning**: 16
 - **Sköldladdning**: 500 per sekund (15 s fördröjning)
 
 ## Byte {#loot-drops}
 
 Lämnas som en [lastlåda](/wiki/03-Mechanics/Cargo.md) där den exploderar, reserverad för den som fällde den i 30 sekunder.
 
-Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/05-Items/Resources.md).
+Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100 % chans (Min: 5, Max: 5)

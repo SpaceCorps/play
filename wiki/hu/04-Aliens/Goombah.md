@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5f1ba6e22dd454fb -->
+<!-- wiki-i18n source: 933119506d58171e -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
-A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzskapacitásuk, és óriási sebzést okoznak, de sosem ők kezdik a harcot: a Goombah csak azt a pilótát támadja, aki megtámadta.
+A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzskapacitásuk, és óriási sebzést okoznak, de sosem ők kezdik a harcot: a Goombah csak azt a pilótát támadja, aki megtámadta. A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 
 ## Értékek {#stats}
 
@@ -28,13 +28,14 @@ A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzs
 - **Thulium**: 75
 - **Tapasztalat (XP)**: 3 000
 - **Becsület**: 24
+- **PvE-pont kilövésenként**: 7
 - **Pajzstöltődés**: másodpercenként 100 (15 mp késleltetés)
 
 ## Zsákmány {#loot-drops}
 
 Egy [rakományláda](/wiki/03-Mechanics/Cargo.md) marad belőle ott, ahol felrobban, és 30 másodpercig a kilövőé.
 
-Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/05-Items/Resources.md).
+Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**:
   - 100% esély (min. 3, max. 3)

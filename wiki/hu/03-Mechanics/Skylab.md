@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 
 - **Fontosság**: ha az energiafogyasztásod nagyobb a termelt energiánál, a farmjaid és a gyűjtőid leállnak.
 - **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 835-öt a 7. szinten, 16 010-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
-- **Fejlesztés**: a Napelem offline, amíg fejlesztik, és ő az egyetlen modul, amely energiát termel, ezért az egész állomás energia nélkül marad a fejlesztés végéig (lásd: Építés és fejlesztés).
+- **Fejlesztés**: a Napelem fejlesztés közben is tovább termeli a jelenlegi szintjének energiáját, a fejlesztés végétől pedig az új szintét, ezért az állomás többi része tovább működik (lásd: Építés és fejlesztés).
 
 ### Kreditfarm és Thuliumfarm {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 
 ## Az ellátási lánc {#the-supply-chain}
 
-Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/05-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja.
+Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja.
 
 1. Egy **gyűjtő** ércet bányászik, óránként egy meghatározott mennyiséget, a saját tárolójába (72 órányi termelés fér bele).
 2. A **begyűjtés** áthelyezi az ércet a tárolóból az **Erőforrás-raktárba**, a bankba, ahol minden érc külön van tárolva.
 3. A **Kovácsműhely** az adag indulásakor kiveszi a raktárból a szükséges ércet, és lemezeket készít, lemezenként 10 másodperc alatt, egyszerre egy adagot.
-4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/05-Items/Lasers.md) ezekből Quantum Laser 3-at, Starfire-3-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít a Gyártás [Kovácsműhelye](/wiki/05-Items/Forge.md) számára.
+4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/06-Items/Lasers.md) ezekből Quantum Laser 3-at, Starfire-3-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) számára.
 
 ### Velkonite-gyűjtő és Orvium-gyűjtő {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 Mind a négy építési költsége **10 Ship Fragments, 10 000 kredit és 500 Thulium**, és a Mag 5. szintje kell hozzá.
 
 - A Ship Fragments a készletedből vonódik le (nem a tranzittárolóból), és a hajódnak leszállt állapotban kell lennie. Az építési adatlap megmutatja, mid van, mennyi kell hozzá, és mi hiányzik.
-- Energiát használnak. Építés előtt az adatlap megmutatja az energiaegyenlegedet most és utána: **az építés energiahiányba vihet egy állomást**, ha a Napelem lemaradt a többi modul mögött, és egyetlen energiahiány minden farmot és gyűjtőt leállít. Kapcsolj ki egy modult, vagy előbb fejleszd a Napelemet (amíg a Napelem fejlődik, az állomásnak nincs energiája).
+- Energiát használnak. Építés előtt az adatlap megmutatja az energiaegyenlegedet most és utána: **az építés energiahiányba vihet egy állomást**, ha a Napelem lemaradt a többi modul mögött, és egyetlen energiahiány minden farmot és gyűjtőt leállít. Kapcsolj ki egy modult, vagy előbb fejleszd a Napelemet.
 - A két gyűjtő az állomás feletti tartószerkezeteken függ, az Erőforrás-raktár a Mag északkeleti portjánál, a Kovácsműhely pedig az északnyugati portjánál van.
 
 ## Mechanika {#mechanics}
@@ -133,8 +133,8 @@ Mind a négy építési költsége **10 Ship Fragments, 10 000 kredit és 500 T
 - **Idő és költség**: a fejlesztések kreditbe és Thuliumba kerülnek, és időt vesznek igénybe. Egy ellátásilánc-modul fejlesztése 10 000 × 1,5^szint kreditbe és 500 × 1,5^szint Thuliumba kerül (az Erőforrás-raktárnál szintenként ×1,4). A költség nem függ az időtől.
 - **Időzítők**: a fejlesztés a szerver óráján fut, ezért akkor is befejeződik, amikor távol vagy, ha kell, napokkal később. Indítsd el, jelentkezz ki, gyere vissza: a modul az új szintjén van, amikor megnyitod a Skylab oldalt.
 - **Fejlesztési idők**: az első szintek gyorsak, az utolsók napokig tartanak (lásd az alábbi táblázatokat). Minden modulnak saját időzítője van, így többet is fejleszthetsz egyszerre.
-- **Termelési szünet**: amíg egy modult fejlesztenek, offline: nem termel, és nem használ energiát.
-- **A Napelem fejlesztése kikapcsolja az állomást**: a Napelem termeli a Skylab összes energiáját, így amíg fejlődik, minden farm és gyűjtő leáll a teljes fejlesztés idejére (az utolsó szintnél 6 nap), és a Kovácsműhely nem indít új adagot. Amit tárolnak, megmarad, és továbbra is begyűjthető, de a közben kiesett termelést semmi nem pótolja. A fejlesztési adatlap figyelmeztet, mielőtt megerősítenéd. Ennek megfelelően tervezd a fejlesztéseket.
+- **Termelési szünet**: amíg egy modult fejlesztenek, offline: nem termel, és nem használ energiát. A Napelem kivétel (lásd lent).
+- **A Napelem fejlesztés közben is termel energiát**: a Napelem termeli a Skylab összes energiáját, és fejlesztés közben (az utolsó szintnél 6 nap) tovább termeli a **jelenlegi** szintjének energiáját; az új szint energiája attól a pillanattól veszi át, hogy a fejlesztés véget ér. A farmok, a gyűjtők és a Kovácsműhely tovább működnek, amíg ez az energia fedezi őket, így a Napelem fejlesztése sosem kapcsolja ki az állomásodat, és a Kovácsműhely közben új adagot is indíthat. Csak a fejlesztés alatt álló modul van offline.
 
 ### Fejlesztési idők {#upgrade-times}
 

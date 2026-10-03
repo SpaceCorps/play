@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e9aee04bf0abf782 -->
+<!-- wiki-i18n source: 65da665842938543 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
@@ -78,7 +78,7 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 
 - **Importancia**: si tu consumo de energía es mayor que la energía que produces, tus granjas y colectores se apagan.
 - **Energía producida**: un módulo Solar de nivel N produce lo suficiente para **todos los demás módulos en el nivel N**, y alrededor de una décima parte más: 255 en el nivel 1, 835 en el nivel 7, 16.010 en el nivel 20. Solar de nivel 7 alimenta una estación entera en el nivel 7 (consulta Gestión de la energía para ver todos los niveles).
-- **Mejora**: Solar está desconectado mientras se mejora y es el único módulo que produce energía, así que toda la estación se queda sin energía hasta que termina la mejora (consulta Construcción y mejora).
+- **Mejora**: Solar sigue produciendo la energía de su nivel actual mientras se mejora, y la del nivel nuevo desde que termina la mejora, así que el resto de la estación sigue funcionando (consulta Construcción y mejora).
 
 ### Granja de créditos y Granja de Thulium {#credit-farm-and-thulium-farm}
 
@@ -88,12 +88,12 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 
 ## La cadena de suministro {#the-supply-chain}
 
-Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/05-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende.
+Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/06-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende.
 
 1. Un **colector** extrae mineral, una cantidad por hora, en su propia tolva (72 horas de producción).
 2. **Recoger** pasa el mineral de la tolva al **Almacén de recursos**, la reserva, donde cada mineral se guarda por separado.
 3. La **Forja** toma de la reserva el mineral que necesita cuando empieza un lote y hace placas, a 10 segundos por placa, un lote a la vez.
-4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/05-Items/Lasers.md) las convierte en un Quantum Laser 3, un Starfire-3 o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate para [la Forja de Ensamblaje](/wiki/05-Items/Forge.md).
+4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/06-Items/Lasers.md) las convierte en un Quantum Laser 3, un Starfire-3 o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate para [la Forja de Ensamblaje](/wiki/06-Items/Forge.md).
 
 ### Colector de Velkonite y Colector de Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -122,7 +122,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 Cada uno de los cuatro cuesta **10 Ship Fragments, 10.000 créditos y 500 de Thulium**, y necesita el Núcleo en el nivel 5.
 
 - Los Ship Fragments se toman de tu inventario (no del Alijo de Transporte) y tu nave debe estar aterrizada. La ficha de construcción muestra lo que tienes frente a lo que hace falta, y lo que te falta.
-- Consumen energía. Antes de construir, la ficha muestra tu balance de energía ahora y después: **construir puede dejar una estación en déficit** cuando su Solar va por detrás de los demás módulos, y un déficit detiene todas las granjas y colectores. Apaga un módulo o mejora primero Solar (la estación no tiene energía mientras Solar se mejora).
+- Consumen energía. Antes de construir, la ficha muestra tu balance de energía ahora y después: **construir puede dejar una estación en déficit** cuando su Solar va por detrás de los demás módulos, y un déficit detiene todas las granjas y colectores. Apaga un módulo o mejora primero Solar.
 - Los dos colectores cuelgan de estructuras sobre la estación, el Almacén de recursos está en el puerto noreste del Núcleo y la Forja en su puerto noroeste.
 
 ## Mecánicas {#mechanics}
@@ -133,8 +133,8 @@ Cada uno de los cuatro cuesta **10 Ship Fragments, 10.000 créditos y 500 de Thu
 - **Tiempo y costo**: las mejoras cuestan créditos y Thulium y llevan tiempo. La mejora de un módulo de la cadena de suministro cuesta 10.000 x 1,5^nivel créditos y 500 x 1,5^nivel de Thulium (el Almacén de recursos x1,4 por nivel). El costo no depende del tiempo.
 - **Temporizadores**: una mejora funciona con el reloj del servidor, así que termina mientras estás fuera, días después si hace falta. Empiézala, desconéctate, vuelve: el módulo está en su nuevo nivel cuando abres la página del Skylab.
 - **Tiempos de mejora**: los primeros niveles son rápidos y los últimos llevan días (consulta las tablas de abajo). Cada módulo tiene su propio temporizador, así que puedes mejorar varios a la vez.
-- **Pausa de producción**: mientras se mejora un módulo, está desconectado: no produce nada y no consume energía.
-- **Mejorar Solar apaga la estación**: Solar produce toda la energía del Skylab, así que mientras se mejora, todas las granjas y colectores dejan de producir durante toda la mejora (6 días para el último nivel) y la Forja no empieza ningún lote nuevo. Lo que almacenan se conserva y aún puedes recogerlo, pero la producción perdida entretanto no se recupera. La ficha de mejora te avisa antes de confirmar. Planifica tus mejoras en consecuencia.
+- **Pausa de producción**: mientras se mejora un módulo, está desconectado: no produce nada y no consume energía. Solar es la excepción (consulta más abajo).
+- **Solar sigue produciendo energía mientras se mejora**: Solar produce toda la energía del Skylab y, mientras se mejora (6 días para el último nivel), sigue produciendo la energía de su nivel **actual**; la del nivel nuevo toma el relevo en cuanto termina la mejora. Las granjas, los colectores y la Forja siguen funcionando mientras esa energía los cubra, así que mejorar Solar nunca apaga tu estación, y la Forja puede empezar lotes nuevos entretanto. Solo el módulo que se está mejorando queda desconectado.
 
 ### Tiempos de mejora {#upgrade-times}
 

@@ -25,11 +25,11 @@ Every volley has a chance to be a Critical Hit.
 
 Finally, global multipliers (such as active boosters or laser ammunition multipliers like x2, x3, x4) are applied to obtain the final damage output:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
-- **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/05-Items/Lasers.md).
+- **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/06-Items/Lasers.md).
 
 ### 3b. Rockets
 
-A [rocket](/wiki/05-Items/Rockets.md) has its own fixed damage (a Lancet is 2,000, a Harpoon 6,000, a N.U.K.E. 50,000), the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no random roll and no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, less toward the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it.
+A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,600 to 2,000, a Lancet III 4,800 to 6,000, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, less toward the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it.
 
 ### 4. Facing the Target
 
@@ -37,7 +37,7 @@ A ship or alien locked on and firing turns to face its target, whichever way it 
 
 ### 5. Range
 
-A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/05-Items/Rockets.md)). See [Lasers & Ammo](/wiki/05-Items/Lasers.md) for each laser's own range.
+A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). See [Lasers & Ammo](/wiki/06-Items/Lasers.md) for each laser's own range.
 
 ---
 
@@ -48,9 +48,11 @@ An alien's rewards go to the pilot who shot it first, not to whoever lands the l
 - **Claiming**: the first pilot whose shot damages an alien claims it. Every hit of yours renews your claim.
 - **Losing it**: if you don't hit the alien for **10 seconds**, your claim lapses and the next pilot to hit it claims it. Your claim also ends when your ship is destroyed or you leave the map (through a portal, or by logging off), and coming back within the 10 seconds doesn't bring it back.
 - **The kill**: when the alien is destroyed, the pilot holding its claim gets everything: Credits, Thulium, XP, Honor, the kill for quests and Wipe Points, and the [cargo](/wiki/03-Mechanics/Cargo.md) crate. A pilot who finishes an alien someone else claimed gets nothing, and the Game Log says so. When your claim pays and another pilot lands the last hit, the Game Log names that pilot and says your claim pays you.
+- **Ranking points**: the kill also adds PvE points to the claim holder's ranking, more for a tougher alien: 1 for a Seeker, 2 for a Phantasm, 4 for a Bulwark, 7 for a Goombah and 16 for a Crystalys (each alien's article lists its own). They are the killer's alone: a group's share of the rewards doesn't include them.
 - **Seeing it**: when you select an alien another pilot has claimed, the Target window shows *Claimed by* that pilot and *No reward*.
 - [Company pilots](/wiki/03-Mechanics/Company-Pilots.md) never claim an alien, and an alien they finish still pays the pilot holding its claim.
 - A pilot in a [group](/wiki/03-Mechanics/Groups.md) shares what its claim pays with the group mates who are close and shooting; the claim itself is the pilot's alone.
+- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) and the Dormant Pulses are the exception**: a swarm boss or a Dormant Pulse is paid by the damage each pilot dealt to it, not by the first hit, and its cargo box goes to the pilot who dealt the most ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). The other followers, the Pirate Scouts and the Seeker Slaves, pay by the claim like any alien. A swarm ship's PvE points are on the Swarms page.
 
 ---
 
@@ -96,7 +98,7 @@ When your ship is hit by an enemy or NPC, damage is processed as follows:
 ### 1. Shield Absorption
 
 Incoming damage is divided between shields and hitpoints by your ship's **Average Absorbance**: the average of your shields' absorbance, each with its Shield Cells', plus the Season Store's Shield Absorbance Boost (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)). It is **not capped at 100%**: what the shields take of a hit is your absorbance **less the attacker's shield penetration**, between 0% and 100%.
-- **Absorbance** (e.g. 80% for the best shield with the best cells, 56% for a Basic Shield Core with two Advanced cells) of each hit is taken by the shields, less the penetration of the hit: a Harpoon's 35% leaves 45% on the shields of a 80% ship, and the rest (55% there) hits HP directly.
+- **Absorbance** (e.g. 80% for the best shield with the best cells, 56% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 45% on the shields of a 80% ship, and the rest (55% there) hits HP directly.
 - **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there).
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.
@@ -107,6 +109,7 @@ Each faction's home base (X-1 maps) contains safe zones.
 - Entering a safe zone makes your ship completely immune to damage.
 - **Aggro Break**: Attacking an enemy will immediately remove your safe zone immunity, even if you are physically located inside one.
 - A ring around every station and portal protects you once 5 seconds have passed since you were hit and 15 since you fired. While it protects you and you're out of combat, the Hangar window lets you change your ship without leaving the game: see [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md).
+- Stations stand only in the home bases (`x-1`). The Danger Sectors (`DS-1` to `DS-4`) have none: there the rings around the jump gates are the only safe zones.
 
 ### 3. Under Attack in a Danger Sector
 
@@ -125,7 +128,7 @@ To recover from combat, pilots can rely on passive regeneration and active utili
 
 ### 1b. Siphon Battery
 
-[Siphon Battery](/wiki/05-Items/Lasers.md) ammo adds the shield it drains from a target to yours at once, up to your maximum. Gaining shield is no damage taken, so it doesn't delay your passive regeneration.
+[Siphon Battery](/wiki/06-Items/Lasers.md) ammo adds the shield it drains from a target to yours at once, up to your maximum. Gaining shield is no damage taken, so it doesn't delay your passive regeneration.
 
 ### 2. Repair Drones (Hull Repair)
 
@@ -142,11 +145,11 @@ To recover from combat, pilots can rely on passive regeneration and active utili
 
 ## Cloaking and the EMP
 
-A shot needs a lock. Two [extras](/wiki/05-Items/Extras.md) take yours away:
+A shot needs a lock. Two [extras](/wiki/06-Items/Extras.md) take yours away:
 
 - **Cloaking CPU**: while you are cloaked (there is no time limit) other companies' pilots, aliens and company pilots do not see your ship and cannot lock on to it; they see a plain red dot on the minimap where you are. Your first volley ends the cloak, and you cannot cloak again for a minute, nor within 10 seconds of a hit or a shot.
 - **EMP Charge**: for 3 seconds nobody can lock on to you, and every lock already on you breaks at once. It ends every cloak within 1,500 units of the pilot who fires it, except those of the pilot's own group. It does not hide you, and it is not invulnerability: it stops what needs a lock.
 
-A rocket is a shot too: it ends your own cloak, and the area blast of someone else's rocket still hurts a cloaked ship and ends its cloak, because a blast needs no lock (see [Rockets](/wiki/05-Items/Rockets.md)). The EMP stops locked lasers and guided rockets, not a blast.
+A rocket is a shot too: it ends your own cloak, and the area blast of someone else's rocket still hurts a cloaked ship and ends its cloak, because a blast needs no lock (see [Rockets](/wiki/06-Items/Rockets.md)). The EMP stops locked lasers and guided rockets, not a blast.
 
 Neither changes a kill claim: a claim is the history of who hit an alien, not a lock, and cloaking releases yours.

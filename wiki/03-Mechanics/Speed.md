@@ -10,12 +10,14 @@ Your ship's final speed is calculated on the server using the following formula:
 
 ### 1. Effective Engine Speed
 
-Every engine equipped generates speed. If thrusters are nested in the engine, its speed is modified:
+Every engine equipped generates speed, and so does every Adaptive Core that holds thrusters. If thrusters are nested in the engine, its speed is modified:
 
-\[\text{Engine Speed} = (\text{Engine Base Speed} \times \text{Thruster Multiplier}) + \text{Thruster Flat Bonus}\]
+\[\text{Engine Speed} = (\text{Engine Base Speed} + \text{Thruster Flat Bonus}) \times \text{Thruster Multiplier}\]
 
-- **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Thruster III is `1.1` or `+10%`).
-- **Thruster Flat Bonus**: The sum of all flat speed additions from thrusters (e.g. Thruster III is `+15` speed).
+- **Thruster Flat Bonus**: The sum of all flat speed additions from thrusters (e.g. Impulse Thruster III is `+15` speed).
+- **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Momentum Thruster III is `1.13` or `+13%`, Impulse Thruster III `1.03` or `+3%`). It multiplies everything the engine makes: its own base speed and the thrusters' flat bonuses. An Adaptive Core has no base speed of its own, and its thrusters' flat bonuses are multiplied all the same.
+
+An Engine III (base speed 6) with three Momentum Thruster IVs (`+12`, `1.14`) makes (6 + 3 x 12) x 1.14 x 1.14 x 1.14 = 62.2, and with three Impulse Thruster IVs (`+17`, `1.02`) (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.14` makes `1.161`.
 
 ### 2. Diminishing Returns (Marginal Efficiency)
 

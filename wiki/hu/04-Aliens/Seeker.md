@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: d23311f996d99a01 -->
+<!-- wiki-i18n source: d1f973df95aefca8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
-A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, vagyis sosem ők kezdik a harcot: a Seeker arra a pilótára fordul, aki rálő, és csakis arra. Elengedi a célpontját, ha 10 másodpercig senki sem találta el, a hajóteste pedig javulni kezd, miután 30 másodpercig békén hagyták.
+A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, vagyis sosem ők kezdik a harcot: a Seeker arra a pilótára fordul, aki rálő, és csakis arra. Elengedi a célpontját, ha 10 másodpercig senki sem találta el, a hajóteste pedig javulni kezd, miután 30 másodpercig békén hagyták. A [Seeker-raj](/wiki/05-Swarms/Seeker-Swarm.md) Boss Seekere és Seeker Slave-jei úgy néznek ki, mint a Seekerek, de saját fajt alkotnak: a kilövésüket a saját nevük alatt számolják, nem Seeker-kilövésként.
 
 ## Értékek {#stats}
 
@@ -28,13 +28,14 @@ A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, v
 - **Thulium**: 4
 - **Tapasztalat (XP)**: 100
 - **Becsület**: 2
+- **PvE-pont kilövésenként**: 1
 - **Pajzstöltődés**: másodpercenként 10 (15 mp késleltetés)
 
 ## Zsákmány {#loot-drops}
 
 Egy [rakományláda](/wiki/03-Mechanics/Cargo.md) marad belőle ott, ahol felrobban, és 30 másodpercig a kilövőé.
 
-Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/05-Items/Resources.md).
+Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/06-Items/Resources.md).
 
 - **Ship Fragment**: 20% esély (min. 1, max. 1)
 - **Daraxium**: 50% esély (min. 1, max. 2)

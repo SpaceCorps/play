@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac17fd77713a030e -->
+<!-- wiki-i18n source: 5874d77ba7ccf380 -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
@@ -15,7 +15,7 @@ Ao contrário dos jogos espaciais tradicionais, o SpaceCorps tem slots de equipa
   - **Slots auxiliares**: os itens colocados aqui recebem **50%** dos atributos básicos. Só algumas naves os têm (a Paragon tem 2, a Ironclad 3 e a Wraith 4; a Protos, a Kitefin e a Ostirion não têm nenhum). Eles servem melhor para escudos e motores extras, mais fracos, enquanto os seus mais fortes vão nos slots de núcleo.
   - **Slots de drone**: um escudo em um dos seus drones conta como um em um slot de núcleo, **100%** dos atributos dele (veja [Mecânica dos drones](/wiki/03-Mechanics/Drones.md)).
   - **Slots não atribuídos/legados**: os itens colocados aqui não contribuem para os atributos.
-  - **O empilhamento também perde força**: escudos e motores são ordenados do mais forte ao mais fraco, e a parcela da faixa é então multiplicada pela da posição deles: do 1º ao 4º contam por inteiro, o 5º, o 6º e o 7º contam 85%, 70% e 55%, e do 8º em diante contam 25%. Veja [Escudos](/wiki/03-Mechanics/Shields.md) e [Velocidade](/wiki/03-Mechanics/Speed.md).
+  - **O empilhamento também perde força**: escudos e motores são ordenados do mais forte ao mais fraco, e a parcela da faixa é então multiplicada pela da posição deles: do 1º ao 4º contam por inteiro, o 5º, o 6º e o 7º contam 85%, 70% e 55%, e do 8º em diante contam 50% nos escudos e 25% nos motores. Veja [Escudos](/wiki/03-Mechanics/Shields.md) e [Velocidade](/wiki/03-Mechanics/Speed.md).
 - **Slots extras**: para itens utilitários especializados, como os drones de reparo.
 
 ## Ordem do inventário {#inventory-order}

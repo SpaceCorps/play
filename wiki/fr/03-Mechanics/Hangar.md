@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a7cab0f9ad6437b -->
+<!-- wiki-i18n source: d888495e0809faa2 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -23,7 +23,7 @@ Les réparations en cours ne vous bloquent pas. Partout ailleurs, la fenêtre Ha
 
 ## Changer de vaisseau {#changing-ship}
 
-Le vaisseau vers lequel vous passez a **la coque et les boucliers qu’il avait** la dernière fois que vous l’avez piloté, exactement comme si vous l’aviez lancé. L’anneau ne répare pas : changer de vaisseau ne vous soigne donc jamais. Le vaisseau que vous quittez garde ses dégâts et revient avec eux. Un vaisseau détruit ne peut pas être piloté tant que vous ne l’avez pas réparé.
+Le vaisseau vers lequel vous passez a **la coque et les boucliers qu’il avait** la dernière fois que vous l’avez piloté, exactement comme si vous l’aviez lancé. L’anneau ne répare pas : changer de vaisseau ne vous soigne donc jamais. Le vaisseau que vous quittez garde ses dégâts et revient avec eux. Un vaisseau détruit ne peut pas être piloté tant que vous ne l’avez pas réparé, ce qui est gratuit et le ramène avec 10 000 de coque au plus et sans bouclier, comme une réapparition.
 
 Ce qui est à vous reste à vous : vos munitions, vos roquettes et leur minuteur, les temps de recharge de vos compétences, vos boosters, votre XP et vos Slave Drones. Ce qui appartenait au vaisseau prend fin : un Shield Surge ou un Afterburner en cours, les réparations, votre verrouillage de cible, votre attaque et la route que vous suiviez. Les équipements restent sur le vaisseau qui les porte.
 

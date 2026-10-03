@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7645d097e4691e10 -->
+<!-- wiki-i18n source: 74abe792046ae603 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -16,6 +16,7 @@ A csoport legfeljebb **5 pilóta**, akik együtt repülnek, bármelyik vállalat
 ## Így látod a csoportodat {#seeing-your-group}
 
 Ha elfogadtad, megnyílik a **csoportablak** (a **B** billentyű vagy az eszköztáron lévő gombja mutatja és rejti; a billentyűt a Beállítások › Irányítás alatt átállíthatod). Minden tagnak van egy sora: a hajója, a neve és a szintje, egy **hajótestsáv** és egy **pajzssáv** (az egeret fölé víve a számok). A térképeden lévő tag mutatja, milyen messze van, és milyen irányban, ahogy a minitérkép rajzolja (a fent a térkép teteje); a másik térképen lévő tag annak a térképnek a nevét mutatja, a világgal együtt, ha másik világról van szó. Egy **korona** jelöli a vezetőt, egy **szellem** az álcázott tagot (a csoport megosztja az álcázott hajóit, bármelyik vállalatból valók is), egy **pajzs** a biztonságos zónában lévőt. Az a tag, aki dokkolt, megsemmisült vagy megszakadt a kapcsolata, halvány, és ezt ki is írja. Kattints egy sorra, hogy kijelöld azt a hajót, ha a térképeden van (csoporttársra nem lőhetsz: a játék visszatartja a tüzet).
+- A **lövő** tag a **célpontját** is megmutatja: a saját sávjai alatt látod a célpont nevét és két vékony sávot, a célpont **hajótestét** és **pajzsát** (az egeret fölé víve a számok). Minden csoporttársadnak, aki idegenre, másik pilótára vagy vállalati pilótára lő, látod a célpontját a hajótestével és a pajzsával. Egy lézeres célzás vagy egy repülő irányított rakéta is számít, és a célpont az utolsó után még **5 másodpercig** marad. Csak olyan tagnál jelenik meg, aki a te térképeden (a te világodban) repül, és csak olyan hajónál, amelyet te magad is látnál ott: az álcázott pilóta hajótestét és pajzsát soha nem mutatja annak a tagnak, aki nem látja azt a pilótát. Egy bázis vagy egy kapu nem célpont. A saját sorod nem mutat célpontot (azt a célpontablak adja), az összehajtott ablak sem.
 - A **vezető** jobb gombbal kattint egy sorra, hogy a **Vezetővé tétel** vagy az **Eltávolítás a csoportból** pontot válassza. Bárki a saját sorára kattint jobb gombbal, vagy a menüből választja a **Kilépés a csoportból** pontot.
 - A kicsinyítés gomb egy kis sávpárra hajtja össze az ablakot minden taghoz; a helyét, a méretét és az összehajtott állapotát megjegyzi.
 - A tagok **látják egymás álcázását**, és nem tudják megszüntetni: egy álcázott csoporttárs közelében felrobbanó EMP nem érinti az álcázását.
@@ -32,7 +33,7 @@ Amikor egy tag megsemmisít egy idegent (vagy a [foglalása](/wiki/03-Mechanics/
 
 Mindenki a **szintjével** arányos részt kap, bármelyik vállalatból való is (a kredit és a becsület mindenkinek a sajátja; egyetlen vállalat sem tart meg belőle semmit): egy 15. szintű pilóta egy 5. szintű csoporttárssal 75%-ot kap, a társ 25%-ot. Minden kreditet kiosztanak: a kilövést végző pilóta azt kapja, ami a részek lefelé kerekítése után megmarad. A teljes jutalom a kilövőé: az ő boosterei, a világa szorzója és a prémiuma érvényesül, egy csoporttársé nem. Egyedül, vagy ha nincs mellette senki elérhető közelségben, a kilövés annyit fizet, mint mindig. Az a pilóta, aki a harc közelében áll lövés nélkül, nem kap részt.
 
-A kilövés értesítése ezt jelzi: a kilövő saját **JUTALOM** sora mutatja a részét, utána ez következik: „A jutalom megosztva 2 csoporttárssal: a te részed 40%.”, a részt kapó csoporttárs pedig ezt olvassa: „*pilóta* megsemmisített egy *Alien* idegent; a csoportod részesedése téged illet”, az összegekkel. Az értesítések a Játéknaplóban és a képernyő tetején jelennek meg.
+A kilövés értesítése ezt jelzi: a kilövő saját **JUTALOM** sora mutatja a részét, utána ez következik: „A jutalom megosztva 2 csoporttárssal: a te részed 40%.”, a részt kapó csoporttárs pedig ezt olvassa: „*pilóta* megsemmisített egy *Alien* idegent; a csoportod részesedése téged illet”, az összegekkel. Az értesítések a Játéknaplóban jelennek meg.
 
 Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyagok), a kilövés a statisztikájában és a rangsorában, a wipe-pontokhoz tartozó kilövésszám és a drónok tapasztalata. Más pilóták kilövéseit nem osztják meg.
 
@@ -58,14 +59,14 @@ A **Globális** lap egy kill feedet is tartalmaz: egy halvány, koponyás sort, 
 
 Ha sok pilóta hal meg másodperceken belül (egy N.U.K.E. egy sűrű közelharc fölött), az első néhányat látod, aztán egy sort: „7 további pilóta meghalt”. A feednek saját helye van a görgethető előzményekben, így egy csata sosem szorítja ki a barátaid üzeneteit.
 
-Kikapcsolhatod a chatablak címsorában lévő menügombbal (**Kill feed megjelenítése**) vagy a **Beállítások › Általános › Chat** alatt. A kikapcsolás csak elrejti a sorokat; visszajönnek, amikor bekapcsolod. A feedhez 0.4.5-ös vagy újabb játékszerver kell: egy régebbin a Globális lapon nincs.
+Kikapcsolhatod a chatablak címsorában lévő menügombbal (**Kill feed megjelenítése**) vagy a **Beállítások › Felület › Chat** alatt. A kikapcsolás csak elrejti a sorokat; visszajönnek, amikor bekapcsolod. A feedhez 0.4.5-ös vagy újabb játékszerver kell: egy régebbin a Globális lapon nincs.
 
 ### Elrejtés, mellőzés és jelentés {#hiding-ignoring-and-reporting}
 
 A Globális minden online pilótához eljut, ezért a chat három eszközt ad a kényelmed megőrzéséhez. A chatablakban vannak: a címsorában lévő menügomb, és egy pilóta nevén a jobb kattintás.
 
-- **Globális chat elrejtése** (a menü, vagy Beállítások › Általános › Chat): a Globális lap semmit sem mutat, a kill feed sorait is beleértve, és nem számolja az olvasatlan sorokat. A lap marad, kiírja: „A Globális el van rejtve”, és van egy gombja, amely újra megmutatja; amit a Globálisba küldesz, az így is kimegy. Kapcsold ki, és minden közben érkezett sor ott van.
-- **Mellőzés** (jobb kattintás egy néven, aztán **Mellőzés**): annak a pilótának a sorai a Globálisban és a Helyiben el vannak rejtve, a csoportmeghívásait pedig anélkül utasítják el, hogy téged kérdeznének. Nem értesül róla. A **Csoport** lapon továbbra is látszanak: egy csoporttárs, akit mellőzöl, továbbra is a csoportod tagja, ezért lépj ki a csoportból, ha meg akarsz szabadulni tőle. A szerver saját sorait sosem rejtik el. A **Mellőzés megszüntetése** ugyanabban a menüben van, a **Beállítások › Általános › Chat** pedig felsorolja a mellőzött pilótákat (legfeljebb 200-at), mindegyikhez egy **Eltávolítás** gombbal.
+- **Globális chat elrejtése** (a menü, vagy Beállítások › Felület › Chat): a Globális lap semmit sem mutat, a kill feed sorait is beleértve, és nem számolja az olvasatlan sorokat. A lap marad, kiírja: „A Globális el van rejtve”, és van egy gombja, amely újra megmutatja; amit a Globálisba küldesz, az így is kimegy. Kapcsold ki, és minden közben érkezett sor ott van.
+- **Mellőzés** (jobb kattintás egy néven, aztán **Mellőzés**): annak a pilótának a sorai a Globálisban és a Helyiben el vannak rejtve, a csoportmeghívásait pedig anélkül utasítják el, hogy téged kérdeznének. Nem értesül róla. A **Csoport** lapon továbbra is látszanak: egy csoporttárs, akit mellőzöl, továbbra is a csoportod tagja, ezért lépj ki a csoportból, ha meg akarsz szabadulni tőle. A szerver saját sorait sosem rejtik el. A **Mellőzés megszüntetése** ugyanabban a menüben van, a **Beállítások › Felület › Chat** pedig felsorolja a mellőzött pilótákat (legfeljebb 200-at), mindegyikhez egy **Eltávolítás** gombbal.
 - **Jelentés** (jobb kattintás egy néven, aztán **Jelentés…**): válassz okot (spam, sértegetés vagy zaklatás, csalás, vagy valami más), és küldd el. A jelentés tartalmazza a nevedet, a pilóta nevét, a csatornát, az okot, és a pilóta legutóbbi sorát, amelyet a chated mutat (legfeljebb 200 karakter). A játék adminjai elolvassák; senkit sem büntetnek automatikusan, és a pilóta nem tudja meg, ki jelentette. Óránként 5 jelentést küldhetsz.
 
 A mellőzési listád és a Globális elrejtése kapcsoló a fiókoddal együtt tárolódik, ezért követnek más számítógépekre is. A játékban nincs szószűrő és nincsenek automatikus némítások: a fenti eszközök a te kezedben vannak.

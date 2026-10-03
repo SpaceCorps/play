@@ -4,7 +4,7 @@ Drones are autonomous support units that fly alongside your ship. They provide a
 
 ## Getting Drones
 
-Every drone you hold, a **Slave Drone** or a Master Drone, opens its drone slots (one for a Slave Drone, two for a Master Drone), up to **8** drones. The Shop sells Slave Drones for Credits, and from the fourth on for Thulium too. Each one costs more than the last: the prices are in [Drones](/wiki/05-Items/Drones.md).
+Every drone you hold, a **Slave Drone** or a Master Drone, opens its drone slots (one for a Slave Drone, two for a Master Drone), up to **8** drones. The Shop sells Slave Drones for Credits, and from the fourth on for Thulium too. Each one costs more than the last: the prices are in [Drones](/wiki/06-Items/Drones.md).
 
 ## Formation & Movement
 

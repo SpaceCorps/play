@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50aef07b7e598353 -->
+<!-- wiki-i18n source: 500bc358b49f4250 -->
 <!-- wiki-i18n title: Quests -->
 # Quests {#quests}
 
@@ -25,7 +25,7 @@ Missionen sind der wichtigste Weg, im Level aufzusteigen. Mission Control vertei
 
 - Die elfte Mission jedes Levels ist seine **Spezialmission**. Sie bleibt gesperrt, bis **alle zehn** anderen Missionen des Levels erledigt sind (abgeholt oder wartend auf ihre Abholung), und ihre Karte sagt, wie viele dir noch fehlen.
 - Spezialmissionen zahlen mehr Erfahrung als jede andere Mission ihres Levels und außerdem **Gegenstände**: Laser, Schildteile, Generatoren, Power Cores, Ship Fragments, Munition und Boosterzeit.
-- Die regulären Missionen von Level 1 geben außerdem je einen kleinen Starter-Gegenstand: einen Light Shield Core, eine Repair Drone, einen Damage Amp, eine Basic Shield Cell, etwas Munition und einen Stapel Raketen, um jede Art auszuprobieren (Lancets, Rivets, Embers und Scatters sowie Javelins aus der Spezialmission).
+- Die regulären Missionen von Level 1 geben außerdem je einen kleinen Starter-Gegenstand: einen Light Shield Core, eine Repair Drone, einen Damage Amp, eine Absorption Shield Cell I, etwas Munition und einen Stapel Raketen, um jede Art auszuprobieren (Lancet I, Rivet I, Ember I und Scatter I sowie Lancet II aus der Spezialmission).
 
 ## Station-Missionen {#station-missions}
 
@@ -33,7 +33,7 @@ Missionen sind der wichtigste Weg, im Level aufzusteigen. Mission Control vertei
 - Sie werden wie jede Mission angenommen, verfolgt, aufgegeben und abgeholt, zählen aber nicht zu den 5: Du kannst **3 Station-Missionen gleichzeitig** neben deinen anderen 5 laufen lassen. Eine Station-Mission kann auf stundenlange Ausbau-Timer warten und hält nie eine Kampfmission auf.
 - Eine Station-Mission anzunehmen ändert nichts an der Mission, die du verfolgst, wenn du eine hast, die sich durch Fliegen voranbringen lässt: Das Fenster Aktive Quests zeigt weiter deine Kampfmission, und die Station-Mission ist ein Punkt in seiner Titelleiste (bewege den Mauszeiger darüber für ihren Fortschritt, klicke darauf, um sie anzuzeigen).
 - Jede öffnet sich bei ihrem eigenen **Pilotenlevel** und nach den Station-Missionen, auf die sie folgt (zuerst abgeholt): Eine gesperrte Karte sagt, welche. Die ersten drei öffnen sich auf Level 1.
-- Ihre Aufgaben lesen dein Skylab: ein Modul **bauen** oder **auf ein Level bringen** (erledigt, solange das Modul auf diesem Level oder höher steht), **die Energie bei 0 oder mehr halten** (gezählt auf den Leveln, auf denen die Module stehen, egal was abgeschaltet ist oder gerade ausgebaut wird) und Credits der Credit-Farm **abholen** (gezählt ab dem Moment, in dem du die Mission annimmst, mit der Schaltfläche Ressourcen abholen). Eine Mission, deren Aufgaben alle zugleich zutreffen, ist erledigt: Eine, die du beim Annehmen schon erfüllst, ist sofort erledigt.
+- Ihre Aufgaben lesen dein Skylab: ein Modul **bauen** oder **auf ein Level bringen** (erledigt, solange das Modul auf diesem Level oder höher steht; kein Modul geht über deinen Kern hinaus, ein Ziel für Solar kann also verlangen, zuerst den Kern anzuheben) und Credits der Credit-Farm **abholen** (gezählt ab dem Moment, in dem du die Mission annimmst, mit der Schaltfläche Ressourcen abholen). Eine Mission, deren Aufgaben alle zugleich zutreffen, ist erledigt: Eine, die du beim Annehmen schon erfüllst, ist sofort erledigt.
 - Sie zahlen **genau das, was die Tabelle sagt**: keinen Welt-Multiplikator, keine Booster, keinen Premium-Erfahrungsbonus, keine Gegenstände. Ihre Erfahrung kommt zu den 85 % hinzu, die die Missionen der Level zahlen (höchstens 5 % des Erfahrungsabstands eines Levels).
 - Station-Missionen zählen nicht für die [Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md) für erledigte Missionen. Sie überstehen den Wipe wie jede Mission, und das, was du gebaut hast, ebenso.
 
@@ -83,7 +83,7 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 
 - **PvP**: Piloten anderer Konzerne können dich in `x-4` und im Zentrum angreifen, in jeder Welt, in Beta ab `x-2` aufwärts und in Gamma überall (außer in Schutzzonen und während des Friedensprotokolls).
 - **Bulwarks** (`x-3`, `x-4`) sind schneller als eine Protos und schlagen hart zu. Bekämpfe sie von einer [Ostirion](/wiki/02-Ships/Ostirion.md) aus, nahe der Schutzzone eines Tors, und zieh dich zum Reparieren in sie zurück.
-- **Goombahs** (`x-3`, `x-4`) haben eine Reichweite von 800, richten 3.000 Schaden an und beginnen nie einen Kampf: Lässt du einen in Ruhe, lässt er dich in Ruhe; schießt du auf ihn, wendet er sich gegen dich, bis 10 Sekunden nach deinem letzten Treffer (und er repariert sich, wenn man ihn in Ruhe lässt). Ein Schiff, dessen Laser alle [Starfire-3](/wiki/05-Items/Lasers.md) sind (Reichweite 850), hat mehr Reichweite als sie und die Bulwarks gleichermaßen: Mit einem Schiff, das schneller ist als sie (eine Ostirion oder höher; ein Goombah fliegt 180, ein Bulwark 175), kannst du feuern, ohne getroffen zu werden. Die Reichweite deines Schiffs ist der Durchschnitt der Reichweiten seiner Laser, ein Starfire-3 neben zwei Quantum Laser 2 feuert also aus 750: weit genug, um einem Bulwark (700) fernzubleiben, nicht aber einem Goombah (800). Die Spezialmission von Level 5 gibt dir einen; du kannst einen auch in der Montage herstellen, aus Velkonite Reinforced Plates, die die Schmiede deines [Skylab](/wiki/03-Mechanics/Skylab.md) herstellt.
+- **Goombahs** (`x-3`, `x-4`) haben eine Reichweite von 800, richten 3.000 Schaden an und beginnen nie einen Kampf: Lässt du einen in Ruhe, lässt er dich in Ruhe; schießt du auf ihn, wendet er sich gegen dich, bis 10 Sekunden nach deinem letzten Treffer (und er repariert sich, wenn man ihn in Ruhe lässt). Ein Schiff, dessen Laser alle [Starfire-3](/wiki/06-Items/Lasers.md) sind (Reichweite 850), hat mehr Reichweite als sie und die Bulwarks gleichermaßen: Mit einem Schiff, das schneller ist als sie (eine Ostirion oder höher; ein Goombah fliegt 180, ein Bulwark 175), kannst du feuern, ohne getroffen zu werden. Die Reichweite deines Schiffs ist der Durchschnitt der Reichweiten seiner Laser, ein Starfire-3 neben zwei Quantum Laser 2 feuert also aus 750: weit genug, um einem Bulwark (700) fernzubleiben, nicht aber einem Goombah (800). Die Spezialmission von Level 5 gibt dir einen; du kannst einen auch in der Montage herstellen, aus Velkonite Reinforced Plates, die die Schmiede deines [Skylab](/wiki/03-Mechanics/Skylab.md) herstellt.
 - **Crystalys** streifen an der Grenze (`x-4`) umher. Nichts, was auf Level 8 erreichbar ist, hat mehr Reichweite als einer, und nur ein schnelles Schiff ist schneller als er: Halte Abstand und behalte die Minikarte im Auge.
 - Wirst du zerstört, wählst du, wo du zurückkehrst: an deiner Basis, am nächsten Portal oder an Ort und Stelle (siehe [Zerstörung und Rückkehr](/wiki/01-General/Getting-Started.md)). Die Uhr einer zeitgebundenen Mission läuft derweil weiter.
 
@@ -100,17 +100,17 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 
 | Mission | Auftraggeber | Aufgaben | Zeitlimit | EP | Credits | Thulium | Ehre | Gegenstände |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Grundausbildung: Kampf | Kampf | In x-1: Seeker ×8 zerstören | – | 950 | 5.000 | 10 | 10 | Standard Battery ×500, Lancet ×50 |
+| Grundausbildung: Kampf | Kampf | In x-1: Seeker ×8 zerstören | – | 950 | 5.000 | 10 | 10 | Standard Battery ×500, Lancet I ×50 |
 | Grundausbildung: Navigation | Aufklärung | In x-1: 15.000 Einheiten patrouillieren → In x-2: 15.000 Einheiten patrouillieren | – | 900 | 4.500 | 10 | 9 | Light Shield Core ×1 |
-| Tempoprüfung | Operationen | In x-1: Seeker ×8 zerstören | 8 min | 1.050 | 5.000 | 10 | 10 | Advanced Plasma ×100, Rivet ×50 |
+| Tempoprüfung | Operationen | In x-1: Seeker ×8 zerstören | 8 min | 1.050 | 5.000 | 10 | 10 | Advanced Plasma ×100, Rivet I ×50 |
 | Heimatverteidigung | Kampf | In x-1: Seeker ×12 zerstören | – | 1.300 | 6.500 | 15 | 13 | Standard Battery ×500 |
 | Schnelle Aufklärung | Aufklärung | In x-1: 35.000 Einheiten patrouillieren | 7 min | 900 | 4.500 | 10 | 9 | Repair Drone I ×1 |
-| Kombinierte Operationen | Operationen | In x-1: Seeker ×8 zerstören; In x-1: 15.000 Einheiten patrouillieren | – | 1.200 | 6.000 | 10 | 12 | Advanced Plasma ×100, Ember ×30 |
-| Zuschlagen und verschwinden | Aufklärung | In x-2: Seeker ×4 zerstören → In x-2: 20.000 Einheiten patrouillieren | – | 1.000 | 5.000 | 10 | 10 | Basic Shield Cell ×1 |
+| Kombinierte Operationen | Operationen | In x-1: Seeker ×8 zerstören; In x-1: 15.000 Einheiten patrouillieren | – | 1.200 | 6.000 | 10 | 12 | Advanced Plasma ×100, Ember I ×30 |
+| Zuschlagen und verschwinden | Aufklärung | In x-2: Seeker ×4 zerstören → In x-2: 20.000 Einheiten patrouillieren | – | 1.000 | 5.000 | 10 | 10 | Absorption Shield Cell I ×1 |
 | Großwildjagd | Kampf | In x-1: Seeker ×20 zerstören | – | 2.050 | 10.000 | 20 | 20 | Standard Battery ×1.000 |
-| Vorfeldverteidigung | Kampf | In x-2: Seeker ×15 zerstören | – | 1.650 | 8.000 | 15 | 16 | Damage Amp 1 ×1, Scatter ×30 |
+| Vorfeldverteidigung | Kampf | In x-2: Seeker ×15 zerstören | – | 1.650 | 8.000 | 15 | 16 | Damage Amp 1 ×1, Scatter I ×30 |
 | Spießrutenlauf | Operationen | In x-1: Seeker ×8 zerstören → In x-2: 12.000 Einheiten patrouillieren → In x-2: Seeker ×8 zerstören | 20 min | 2.600 | 13.000 | 25 | 26 | Advanced Plasma ×150 |
-| **Phantasm-Jäger** (Spezial) | Operationen | In x-2: Phantasm ×2 zerstören; In x-2: Seeker ×15 zerstören | – | 3.400 | 17.000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Javelin ×20 |
+| **Phantasm-Jäger** (Spezial) | Operationen | In x-2: Phantasm ×2 zerstören; In x-2: Seeker ×15 zerstören | – | 3.400 | 17.000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### Level 2: Erstkontakt {#level-2-first-contact}
 
@@ -128,7 +128,7 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 | Seeker-Dezimierung | Kampf | In x-2: Seeker ×30 zerstören | – | 2.100 | 14.500 | 40 | 21 | – |
 | Torflug | Aufklärung | In x-2: 20.000 Einheiten patrouillieren → In x-3: 3.000 Einheiten patrouillieren | – | 800 | 5.500 | 15 | 8 | – |
 | Hinterhaltübung | Operationen | In x-2: Phantasm ×3 zerstören; In x-2: Seeker ×10 zerstören | 15 min | 1.600 | 11.000 | 30 | 16 | – |
-| **Phantasm-Säuberung** (Spezial) | Operationen | In x-2: Phantasm ×6 zerstören → In x-2: Seeker ×15 zerstören → In x-3: 4.000 Einheiten patrouillieren | 30 min | 3.400 | 24.000 | 70 | 34 | Advanced Shield Cell ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Phantasm-Säuberung** (Spezial) | Operationen | In x-2: Phantasm ×6 zerstören → In x-2: Seeker ×15 zerstören → In x-3: 4.000 Einheiten patrouillieren | 30 min | 3.400 | 24.000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### Level 3: Der dritte Sektor {#level-3-the-third-sector}
 
@@ -200,7 +200,7 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 | Belagerungsbrecher | Operationen | In x-4: Bulwark ×6 zerstören; In x-4: 8.000 Einheiten patrouillieren | – | 26.000 | 90.000 | 780 | 195 | – |
 | Wachturm | Aufklärung | In x-4: Bulwark ×3 zerstören → In x-4: 10.000 Einheiten patrouillieren | – | 16.000 | 55.000 | 480 | 120 | – |
 | Langer Spießrutenlauf | Operationen | In x-4: Bulwark ×5 zerstören → In x-4: Goombah ×1 zerstören | 25 min | 39.000 | 135.000 | 1.170 | 292 | – |
-| **Koloss** (Spezial) | Operationen | In x-4: Goombah ×2 zerstören; In x-4: Bulwark ×6 zerstören | – | 54.000 | 190.000 | 1.620 | 405 | Elite Shield Cell ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
+| **Koloss** (Spezial) | Operationen | In x-4: Goombah ×2 zerstören; In x-4: Bulwark ×6 zerstören | – | 54.000 | 190.000 | 1.620 | 405 | Absorption Shield Cell II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15 |
 
 ### Level 7: Goombah-Jagd {#level-7-goombah-hunts}
 
@@ -249,10 +249,10 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 | Zahltag | Aufklärung | Level 1, nach Die erste Farm | 1.000 Credits von der Credit-Farm abholen | 350 | 2.000 | 20 | 4 |
 | Das Herz der Station | Operationen | Level 2, nach Die erste Farm | Kern auf Level 3 bringen | 400 | 4.000 | 10 | 4 |
 | Hellere Paneele | Operationen | Level 2, nach Das Herz der Station | Solar auf Level 3 bringen | 600 | 2.000 | 40 | 6 |
-| Die Thulium-Linie | Operationen | Level 3, nach Hellere Paneele | Thulium-Farm bauen; Energie bei 0 oder mehr halten | 1.000 | 5.000 | 100 | 10 |
-| Wachstumszeit | Operationen | Level 4, nach Die Thulium-Linie | Credit-Farm auf Level 3 bringen; Energie bei 0 oder mehr halten | 800 | 4.000 | 80 | 8 |
+| Die Thulium-Linie | Operationen | Level 3, nach Hellere Paneele | Thulium-Farm bauen; Solar auf Level 4 bringen | 1.000 | 5.000 | 100 | 10 |
+| Wachstumszeit | Operationen | Level 4, nach Die Thulium-Linie | Credit-Farm auf Level 3 bringen; Solar auf Level 5 bringen | 800 | 4.000 | 80 | 8 |
 | Fünfzigtausend | Aufklärung | Level 4, nach Zahltag und Wachstumszeit | 50.000 Credits von der Credit-Farm abholen | 1.500 | 5.000 | 50 | 15 |
-| Die Versorgungslinie öffnen | Operationen | Level 4, nach Das Herz der Station und Hellere Paneele | Kern auf Level 5 bringen; Solar auf Level 5 bringen | 1.500 | 5.500 | 60 | 15 |
+| Die Versorgungslinie öffnen | Operationen | Level 4, nach Wachstumszeit | Kern auf Level 6 bringen; Solar auf Level 6 bringen | 1.500 | 5.500 | 60 | 15 |
 | Kern Zehn | Operationen | Level 5, nach Die Versorgungslinie öffnen | Kern auf Level 10 bringen | 1.500 | 20.000 | 50 | 11 |
 
 <!-- quests:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2c3c0c36fda18840 -->
+<!-- wiki-i18n source: 2f4a437ea53e355e -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -10,6 +10,7 @@ Los alienígenas destruidos dejan su botín en el espacio en forma de cajas de c
 - Los **pilotos de corporación** no dejan caja cuando los destruyen, sea quien sea o lo que sea lo que los destruye. Consulta [Pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md).
 - Las **naves de los jugadores** no dejan restos ni caja cuando las destruyen, sea quien sea o lo que sea lo que las destruye, y no se quita nada del inventario del piloto.
 - El **agujero negro** deja cajas de **Dark Matter** en el borde de su zona por cada cohete N.I.K.E. que se dispara contra él (consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Son el único tipo de caja que queda dentro del anillo del agujero.
+- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
 
 Un alienígena al que remata un piloto de corporación suelta su botín para el piloto al que cuenta el derribo (el que tiene su reclamación o, si no, el piloto de su corporación que lo está combatiendo); uno que un piloto de corporación combatió en solitario no suelta nada, porque los pilotos de corporación nunca recogen.
 

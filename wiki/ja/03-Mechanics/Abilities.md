@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ae35d5bdcf504de8 -->
+<!-- wiki-i18n source: d8bf989776a71cb4 -->
 <!-- wiki-i18n title: アビリティ -->
 # 艦のアクティブアビリティ {#active-ship-abilities}
 
@@ -80,7 +80,7 @@
 
 <!-- abilities:end -->
 
-ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/05-Items/Overview.md#upgrading-modules)で、それぞれ Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そしてあなたの [Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所で作る Velkonite Reinforced Plate です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
+ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、それぞれ Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そしてあなたの [Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所で作る Velkonite Reinforced Plate です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
 
 ## クールダウンと制限 {#cooldowns-and-limits}
 

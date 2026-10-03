@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5be8e65616513678 -->
+<!-- wiki-i18n source: 56d4ff7e377afa21 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
@@ -17,6 +17,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 
 - **Patrullerar** en slinga genom sektorns station, dess portaler och några punkter däremellan.
 - **Jagar** utomjordingar som de klarar av (Seeker och Phantasm; Bulwark, Goombah och Crystalys lämnar de i fred) medan piloter flyger i sektorn. En utomjording som en annan koncerns pilot strider mot är den pilotens: skvadronen lämnar den i fred.
+- **Ignorerar [svärmarna](/wiki/05-Swarms/Swarms.md)**: ett svärmskepp är inte deras sak. De jagar det inte, ansluter sig inte till en strid mot det och kommer aldrig till din hjälp i en sådan.
 - **Hjälper till**: när en pilot i deras koncern inom 1 500 från dem attackeras av en utomjording, eller öppnar eld mot en utomjording som de klarar av, går de med i den striden. De håller sig utanför en strid som en kamrat har startat mot en utomjording de inte skulle klara (en Goombah som en pilot har skjutit på, eller en Bulwark); en aggressiv utomjording som går på en kamrat bekämpas oavsett vad den är. En utomjording som de gör slut på betalar piloten som har paxet på den (den som träffade först, se [Strid](/wiki/03-Mechanics/Combat.md)); om ingen har något pax räknas den för den närmaste piloten i deras koncern som skjuter på den (med målfixering, inom räckvidd, en salva under de senaste 2,5 sekunderna). I båda fallen är belöningarna den pilotens, och dess [lastlåda](/wiki/03-Mechanics/Cargo.md) reserveras åt piloten som om denne hade gjort nedskjutningen. Koncernpiloter paxar aldrig en utomjording och tjänar eller plockar aldrig upp något själva: en utomjording de bekämpar ensamma lämnar ingen lastlåda. Att låsa på den från långt håll, eller bara bli beskjuten, ger ingenting.
 - **Slår tillbaka** när de beskjuts av utomjordingar, och av andra koncerners piloter när PvP är öppet och där deras [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) tillåter PvP: ingen i Alphas `x-1` till `x-3`, inte heller i Betas `x-1`.
 - **Reparerar** med sin drönare så fort skrovet är skadat: 1,5 % av det per sekund, från 10 sekunder efter den senaste träffen.
