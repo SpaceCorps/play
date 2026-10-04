@@ -1,6 +1,6 @@
 # Extras
 
-Extras are the gadgets in a ship's **extra slots** (three on every ship, per configuration). You switch one on from the hotbar's Extras picker or from a hotbar slot you gave it. They only work from the configuration you fly: fit one in the other configuration and it waits until you swap.
+Extras are the gadgets in a ship's **extra slots** (three on every ship, per configuration, and more with the Extra Slots CPUs). You switch one on from the hotbar's Extras picker or from a hotbar slot you gave it. They only work from the configuration you fly: fit one in the other configuration and it waits until you swap.
 
 | Extra | What it does | Uses | Price |
 | :---- | :----------- | :--- | :---- |
@@ -12,9 +12,44 @@ Extras are the gadgets in a ship's **extra slots** (three on every ship, per con
 
 The Cloaking CPUs and the EMP Charge are sold in the Shop only. They cannot be fused, and nothing gives them away.
 
+Seven more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, and the Auto-Repair CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take.
+
+Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU, **EMP** for the EMP Charge and **ARP**, **BSE** and **JMP** for the Auto-Repair, Base and Jump CPUs. The Extra Slots CPUs have no slot: they install in your Skylab. Point at a slot to read what a press does now, or why it cannot.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Item tree {#item-tree}
+
+What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
+
 ## Repair Drones
 
-Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. The rates are in [Combat](/wiki/03-Mechanics/Combat.md).
+Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. An [Auto-Repair CPU](#auto-repair-cpu) switches it on again for you. The rates are in [Combat](/wiki/03-Mechanics/Combat.md).
 
 ## Cloaking CPU
 
@@ -47,3 +82,55 @@ Press the EMP slot in a fight. For **3 seconds** nobody can lock on to you, and 
 - An alien you hit during the 3 seconds does not turn on you until they are over. Your kill claims and the first-hit rules do not change.
 - **What you see.** A pulse of bent space races out from the pilot as far as the pulse ends cloaks (1,500 units), everybody in range sees it, and a crackling electric shell surrounds it for the 3 seconds, with a ring round your own ship and a chip at the top of the screen that count the time. The target ring of everybody who had you selected breaks apart, with a short zap. The EMP slot shows the charges you own, lights blue while the shell is up, and shades over while it recharges.
 - **One charge, one use.** The slot is refilled from your inventory when you own more. The **30 seconds** of recharge are not saved: logging out or jumping through a portal clears them, and the next pulse costs a charge.
+
+## CPUs of the Research Centre {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | Research time | Needs first | Thulium to craft | Crafting time |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 min | – | 12,000 | 5 min |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 h | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30,000 | 10 min |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 d | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75,000 | 15 min |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 h | – | 8,000 | 5 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20,000 | 10 min |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 min |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15,000 | 10 min |
+
+None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **What they do.** Extra Slots CPU I, II and III give every ship 3, 5 and 7 more extra slots, so 6, 8 and 10 in all with the 3 every ship has. A higher CPU replaces the one before it: II does not add to I.
+- **Installed, not carried.** An Extra Slots CPU is not an item: when you collect it in Assembly it installs itself in your Skylab, for every ship in both configurations, and it takes no slot. It stays through the wipe.
+- **In order.** Craft them one after the other: II only when I is installed, III only when II is installed; until then Assembly tells you which one to install first. The three cost 117,000 Thulium in all: 12,000, 30,000 and 75,000.
+
+### Jump CPU {#jump-cpu}
+
+- **What it does.** It jumps your ship to any company sector of your world, your own company's and the other companies' alike, their home sectors included (`M`, `T` and `G`, sectors 1 to 4), for **500 Thulium** a jump. It has no limit on uses: you only pay the Thulium. It never goes to a Danger Sector (`DS`) or a neutral sector (`N`).
+- **The jump.** Press the JMP slot, pick the sector on the Star System map and confirm: the ship charges for 5 seconds, then arrives at a gate of that sector, protected as after any gate jump. The CPU cools down for 30 seconds after you arrive.
+- **Not in a fight.** It cannot start within 10 seconds of firing or being hit, and a shot or a hit while it charges cancels the jump; nothing is paid then. You cannot jump while cloaked.
+- **Not from a neutral sector:** a pilot in a neutral sector, or with no company, cannot use it.
+- It may leave a Danger Sector when you are not in a fight.
+
+### Base CPUs {#base-cpus}
+
+- **What they do.** They teleport your ship to the base of your company, into the safe zone around its station (`M-1`, `T-1` or `G-1`, the sector with Mission Control), free of Thulium. You start them from the BSE slot of the hotbar.
+- **Not in a fight.** A charge of 10 seconds, the same for both. It cannot start within 10 seconds of firing or being hit, while you are cloaked or when you are already inside the safe zone of your base, and a shot or a hit while it charges cancels it.
+
+| CPU | Uses | Cooldown |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 min |
+
+- **Used up, not recharged.** Each use takes one of the CPU's uses, and a CPU with none left is gone: craft a new one. With both fitted, the better one (II) is used first.
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **What it does.** It sends out the Repair Drone fitted in your extra slots by itself, whenever you could have sent it out by hand: your hull is not full, the drone is not already out and 10 seconds have passed since the last hit. There is no hull level to set.
+- It takes an extra slot of its own and does nothing without a Repair Drone in an extra slot of the same configuration. It never sends out a Repair Drone in an ability slot (that one is the Emergency Repair button).
+- **If you stop the drone by hand,** the CPU leaves it alone until your hull is full again, or until you send the drone out yourself.
+
+
+<!-- research-cpus:end -->

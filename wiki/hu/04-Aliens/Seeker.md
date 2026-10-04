@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, v
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 800
+- **Kredit**: 1 000
 - **Thulium**: 4
 - **Tapasztalat (XP)**: 100
 - **Becsület**: 2

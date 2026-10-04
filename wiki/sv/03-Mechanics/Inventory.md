@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5874d77ba7ccf380 -->
+<!-- wiki-i18n source: 36874838d2d52590 -->
 <!-- wiki-i18n title: Inventarie -->
 # Inventarie och utrustning {#inventory-equipment}
 
@@ -12,11 +12,11 @@ Till skillnad från traditionella rymdspel har SpaceCorps utrustningsplatser i d
 - **Generatorplatser**: Gemensamma platser för sköldar, motorer och adaptiva kärnor. De är indelade i tre effektivitetsband, och bandet avgör hur mycket av ett föremåls grundvärden som räknas. I hangaren har varje band en (i) bredvid sitt namn som förklarar det:
   - **Kärnplatser**: Föremål som placeras här får **100 %** av sina grundvärden. Alla skepp har dem: sätt dina starkaste sköldar och motorer här.
   - **Stödplatser**: Föremål som placeras här får **75 %** av sina grundvärden (t.ex. 75 % fart eller sköldkapacitet). Alla skepp har dem.
-  - **Hjälpplatser**: Föremål som placeras här får **50 %** av sina grundvärden. Bara vissa skepp har dem (Paragon har 2, Ironclad 3 och Wraith 4; Protos, Kitefin och Ostirion har inga). De passar bäst för extra, svagare sköldar och motorer, medan dina starkaste sitter i kärnplatserna.
+  - **Hjälpplatser**: Föremål som placeras här får **50 %** av sina grundvärden. Bara vissa skepp har dem (Nomad har 1, Paragon 2, Ironclad och Storm 3 och Wraith 4; Protos, Kitefin och Ostirion har inga). De passar bäst för extra, svagare sköldar och motorer, medan dina starkaste sitter i kärnplatserna.
   - **Drönarplatser**: en sköld på en av dina drönare räknas som en i en kärnplats, **100 %** av sina grundvärden (se [Drönarmekanik](/wiki/03-Mechanics/Drones.md)).
   - **Otilldelade platser/äldre platser**: Föremål som placeras här bidrar inte till värdena.
   - **Staplingen ger också mindre**: sköldar och motorer rangordnas med de starkaste först, och bandets andel multipliceras sedan med deras rangs: den 1:a till 4:e räknas fullt, den 5:e till 7:e med 85 %, 70 % och 55 %, den 8:e och framåt med 50 % för sköldar och 25 % för motorer. Se [Sköldar](/wiki/03-Mechanics/Shields.md) och [Hastighet](/wiki/03-Mechanics/Speed.md).
-- **Extraplatser**: För specialiserad nyttoutrustning, till exempel Repair Drones.
+- **Extraplatser**: För specialiserad nyttoutrustning, till exempel Repair Drones. Varje skepp har tre; Extra Slots CPU ([Extrautrustning](/wiki/06-Items/Extras.md#extra-slots-cpus)) ger varje skepp fler.
 
 ## Inventariets ordning {#inventory-order}
 

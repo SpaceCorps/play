@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -134,7 +134,7 @@ Ammunitionen [Siphon Battery](/wiki/06-Items/Lasers.md) lägger den sköld den d
 
 ### 2. Reparationsdrönare (skrovreparation) {#2-repair-drones-hull-repair-}
 
-- **Funktion**: Om du utrustar en Repair Drone (under Hangarens extrautrustning) slår du på den från snabbfältet (dra den från väljaren Extra till en plats) och den reparerar ditt skrov (HP). Varje träff stänger av den, och den stannar vid fullt skrov.
+- **Funktion**: Om du utrustar en Repair Drone (under Hangarens extrautrustning) slår du på den från snabbfältet (dra den från väljaren Extra till en plats) och den reparerar ditt skrov (HP). Varje träff stänger av den, och den stannar vid fullt skrov. Med en [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) monterad behöver du inte slå på den igen: CPU:n skickar ut drönaren själv så fort fördröjningen nedan har gått, om du inte stoppade den för hand.
 - **Reparationstakt**: Återställer en procentandel av dina maximala träffpoäng per sekund (bara den bästa drönaren som är monterad räknas, de adderas inte):
   - **Repair Drone I**: 1,5 % av max HP / s
   - **Repair Drone II**: 2,25 % av max HP / s

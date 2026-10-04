@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量
 
 ## 奖励 {#rewards}
 
-- **信用点**：12,000
+- **信用点**：15,000
 - **Thulium**：75
 - **经验值（XP）**：3,000
 - **荣誉**：24

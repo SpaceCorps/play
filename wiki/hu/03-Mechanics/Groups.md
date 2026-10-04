@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74abe792046ae603 -->
+<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -10,7 +10,7 @@ A csoport legfeljebb **5 pilóta**, akik együtt repülnek, bármelyik vállalat
 - A pilóta egy kártyát lát **Elfogadás** és **Elutasítás** gombbal, amely visszaszámolja a válaszadásra kapott **60 másodpercet**, valamint egy értesítést. Az **Y** elfogad, az **Escape** elutasít (ha egy szövegmezőbe írsz, vagy egy másik ablak van legfelül, az kapja a billentyűket). Ha több meghívás vár, a kártya sorban mutatja őket. Az állomáson is megjelenik. Ha letelik az idő, a meghívás lejár, és megtudod, melyik. Nem hívhatsz meg olyan pilótát, aki már csoportban van, aki bekapcsolta a **Ne zavarjanak** módot, vagy akire túl sok meghívás vár, és percenként legfeljebb 10 meghívást küldhetsz (3-at más vállalatoknak).
 - A **Ne zavarjanak** kikapcsolja a meghívásokat: a harang a csoportablak címsorában, vagy a Beállítások › Általános › Csoportok. Amíg be van kapcsolva, senki sem hívhat meg, és téged sem kérdeznek meg.
 - Akinek a meghívását először fogadják el, az lesz a **vezető**. A vezető meghív, eltávolít tagokat, és egy másik tagot tehet vezetővé. Bárki kiléphet. Az egy pilótából álló csoport magától megszűnik. Ha a vezető kilép, a csoportban legrégebb óta lévő tag vezet.
-- Egyszerre **egy csoportban** lehetsz. A vállalatváltás nem vesz ki a csoportodból (az új vállalatod alatt jelensz meg); a szezon wipe-ja igen.
+- Egyszerre **egy csoportban** lehetsz. [A vállalatváltás](/wiki/01-General/Getting-Started.md#changing-your-company) nem vesz ki a csoportodból (az új vállalatod alatt jelensz meg); a szezon wipe-ja igen.
 - Ha megszakad a kapcsolatod, vagy dokkolsz és újra elindulsz, a helyed **2 percig** megmarad. Az ennél tovább távol lévő tagot eltávolítják. A szerverfrissítés minden csoportot megszüntet: hívjátok meg újra egymást.
 
 ## Így látod a csoportodat {#seeing-your-group}
@@ -43,7 +43,7 @@ Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is
 
 ## Chatcsatornák {#chat-channels}
 
-A chat tetején lapok sora van: **Globális**, **Helyi** és, amíg csoportban vagy, **Csoport**. Az általad beírt sor a látható lapra megy, és az utoljára használt lapot megjegyzi a játék. Minden csatornának megvan a színe és egy rövid címkéje minden soron (GLB, HLY, CSP), a lap számolja az olvasatlan sorokat, és a chat eszköztárbeli gombja viseli a számot, amíg az ablak zárva van. A szerver saját sorai minden lapon megjelennek. Vagy kezdj egy sort paranccsal:
+A chat tetején lapok sora van: **Globális**, **Helyi**, **Csoport** (amíg csoportban vagy) és legutolsónak a **Rendszer**. Az általad beírt sor a látható lapra megy, és az utoljára használt lapot megjegyzi a játék. Minden csatornának megvan a színe és egy rövid címkéje minden soron (GLB, HLY, CSP), a lap számolja az olvasatlan sorokat, és a chat eszköztárbeli gombja viseli a számot, amíg az ablak zárva van. Vagy kezdj egy sort paranccsal:
 
 | Csatorna | Ki hallja | Parancs |
 | :--- | :--- | :--- |
@@ -51,7 +51,25 @@ A chat tetején lapok sora van: **Globális**, **Helyi** és, amíg csoportban v
 | **Globális** | minden online pilóta | `/g` vagy `/global` |
 | **Csoport** | a csoportod, bárhol is vannak | `/p`, `/party` vagy `/group` |
 
-A parancs a lapot is átváltja, és egyedül beírva (`/g`) csak vált. A Globálisnak van korlátja: 3 sor egy sorozatban, utána kétmásodpercenként egy. A csoportchathez csoport kell. A csatornák előtti játékszerveren a chat az az egy lista, ami volt, és csoportot nem lehet alakítani.
+A parancs a lapot is átváltja, és egyedül beírva (`/g`) csak vált. A csoportchathez csoport kell. A csatornák előtti játékszerveren a chat az az egy lista, ami volt, és csoportot nem lehet alakítani.
+
+A **Rendszer** lap arany színű és csak olvasható, saját listával: ide kerül, amit a szerver magától mond (az üdvözlés, az újraindítás, a frissítés és a wipe figyelmeztetései, a rajok bejelentései), és amit a hajód jelent (javítások, álcázás, EMP-k, rakéták). Ezek a sorok egyetlen másik lapon sincsenek, így egy forgalmas Globális nem tudja kiszorítani őket, a többi lapon pedig az van, amit a pilóták mondanak. A lap számlálója a bejelentéseket számolja; az újraindítás vagy a frissítés visszaszámlálása és a wipe figyelmeztetései ezenfelül rövid időre értesítésként is felbukkannak. A [kill feed](#the-kill-feed) a **Globális** lapon marad, saját kapcsolóval, a csoportodhoz csatlakozó vagy azt elhagyó pilótákról szóló sorok pedig a **Csoport** lapon vannak.
+
+### Gépelés {#typing}
+
+Az **Enter** billentyű megnyitja a chatet, és átadja neki a billentyűzetet. Küldj el egy sort az **Enter** billentyűvel, és a mező megtartja a billentyűzetet, így a következő sor rögtön jöhet; amíg így van, a gyorssáv és a képességbillentyűk ki vannak kapcsolva. A gépelés véget ér, ha megnyomod az **Escape** billentyűt, ha üresen nyomod meg az **Enter** billentyűt, ha bal gombbal a térképre kattintasz (ugyanez a kattintás tovább irányítja a hajódat), ha a mezőt üresen hagyva 15 másodpercig nem nyomsz meg egyetlen billentyűt sem, vagy ha a hajód megsemmisül. A Rendszer lapon, ahová nem írhatsz, az **Enter** billentyű visszavisz abba a csatornába, amelybe utoljára írtál.
+
+### A chat szabályai {#the-chat-rules}
+
+A szerver minden sort néhány szabályhoz mér, amelyek a Helyi, a Globális és a Csoport csatornán ugyanazok. A sort, amelyet elutasít, nem küldi el; az indok néhány másodpercig látszik a beviteli mező alatt, a szöveged pedig visszakerül a mezőbe.
+
+- **Korlát a küldés sebességére.** Egyszerre **5 sort** küldhetsz, utána **2 másodpercenként még egyet**, a Helyi, a Globális és a Csoport együtt számolva. Ha akkor küldesz sort, amikor már egy sem maradt, a chat **szünetet** tart neked: először **10 másodpercig**, utána **30**, **120** és **300 másodpercig** minden ismétlésnél, ha az utolsó szünet után 10 percen belül történik (ha 10 percig nem volt szünet, a számolás újraindul). Amíg tart, a Küldés gomb szürke, a beviteli mező alatt pedig visszaszámol a felirat: „A chat szünetel: 7 mp”. **A beírt szöveg a mezőben marad**, és a mező megtartja a billentyűzetet: várj, vagy nyomd meg az **Escape** billentyűt. Egy átlagos beszélgetés sosem éri el a korlátot. A szabályok által elutasított sor 2 sornak számít a keretedből.
+- **200 karakter** soronként. Egy számláló („150/200”) 120 karaktertől látszik, és a hosszabb sort levágja a játék.
+- **Csak latin betűk.** A latin ábécék betűi ékezeteikkel (é, ß, ñ, ø, ő), számjegyek, a szokásos írásjelek és a ¡ ¿ « » ° £ € jelek. A cirill, a kínai, a japán és a koreai írás, az emojik és más szimbólumok el lesznek utasítva, a mező pedig gépelés vagy beillesztés közben kihagyja őket.
+- **Nincs link.** Az a sor, amelyben webcím, meghívólink vagy e-mail-cím van, el lesz utasítva, akkor is, ha a szokásos módszerekkel álcázták. Önmagukban a szavak rendben vannak: a „join my discord” kimegy.
+- **Nincs ismétlés.** Az utolsó soroddal megegyező sor, ha 10 másodpercen belül újra elküldöd, el lesz utasítva, ahogy az a sor is, amelyben ugyanaz a karakter több mint 8-szor van egymás után, vagy amelyben nincs betű vagy számjegy.
+
+Az adminokra ezek a szabályok nem vonatkoznak, csak a 200 karakter. A szabályokhoz 0.4.9-es vagy újabb játékszerver kell; egy régebbi csak a Globálist korlátozza, egyszerre 3 sorra, utána 2 másodpercenként egyre.
 
 ### A kill feed {#the-kill-feed}
 
@@ -69,7 +87,7 @@ A Globális minden online pilótához eljut, ezért a chat három eszközt ad a 
 - **Mellőzés** (jobb kattintás egy néven, aztán **Mellőzés**): annak a pilótának a sorai a Globálisban és a Helyiben el vannak rejtve, a csoportmeghívásait pedig anélkül utasítják el, hogy téged kérdeznének. Nem értesül róla. A **Csoport** lapon továbbra is látszanak: egy csoporttárs, akit mellőzöl, továbbra is a csoportod tagja, ezért lépj ki a csoportból, ha meg akarsz szabadulni tőle. A szerver saját sorait sosem rejtik el. A **Mellőzés megszüntetése** ugyanabban a menüben van, a **Beállítások › Felület › Chat** pedig felsorolja a mellőzött pilótákat (legfeljebb 200-at), mindegyikhez egy **Eltávolítás** gombbal.
 - **Jelentés** (jobb kattintás egy néven, aztán **Jelentés…**): válassz okot (spam, sértegetés vagy zaklatás, csalás, vagy valami más), és küldd el. A jelentés tartalmazza a nevedet, a pilóta nevét, a csatornát, az okot, és a pilóta legutóbbi sorát, amelyet a chated mutat (legfeljebb 200 karakter). A játék adminjai elolvassák; senkit sem büntetnek automatikusan, és a pilóta nem tudja meg, ki jelentette. Óránként 5 jelentést küldhetsz.
 
-A mellőzési listád és a Globális elrejtése kapcsoló a fiókoddal együtt tárolódik, ezért követnek más számítógépekre is. A játékban nincs szószűrő és nincsenek automatikus némítások: a fenti eszközök a te kezedben vannak.
+A mellőzési listád és a Globális elrejtése kapcsoló a fiókoddal együtt tárolódik, ezért követnek más számítógépekre is. A játékban nincs szószűrő, és senkit sem némít el azért, amit mond: az egyetlen automatikus megállítás a túl gyors küldés miatti szünet ([A chat szabályai](#the-chat-rules)), a fenti eszközök pedig a te kezedben vannak.
 
 ## Harci szabályok {#rules-of-engagement}
 

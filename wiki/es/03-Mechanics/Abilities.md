@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades activas de la nave {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Cada nave tiene un número fijo de ranuras de habilidad en el hangar:
 - **Protos** (inicial): 1 ranura
 - **Kitefin**: 1 ranura
 - **Ostirion**: 2 ranuras
+- **Nomad**: 2 ranuras
 - **Paragon**: 3 ranuras
+- **Storm**: 3 ranuras
 - **Ironclad**: 3 ranuras
 - **Wraith**: 3 ranuras
 
@@ -30,7 +32,7 @@ Puedes instalar **varios escudos, motores o Repair Drones** en las ranuras de ha
 
 - **El módulo de peor rango fija la base.** Su rango da la potencia y la recarga. Un Heavy Shield Core junto a un Light Shield Core se comporta como dos módulos de rango I: un segundo módulo mejor sirve para el bono, nunca para una potencia mayor ni una recarga más corta.
 - **Cada uno de los demás módulos suma el 50 % de la base**, se suma, no se multiplica. Los motores hacen que el Afterburner **dure más**: 10 s, 15 s con dos motores y 20 s con tres (el bono de velocidad y la recarga no cambian). Los escudos hacen que el Shield Surge **restaure más** y los Repair Drones hacen que Emergency Repair **repare más**, en los mismos diez segundos: el 100 %, el 150 % y el 200 % del total con uno, dos y tres módulos.
-- **Los módulos adicionales cuestan ranuras.** Una nave con tres ranuras de habilidad puede tener tres de un mismo tipo, uno de cada, o dos y uno. Una Protos o una Kitefin tiene una sola ranura y no puede acumular; una Ostirion puede tener dos de un mismo tipo.
+- **Los módulos adicionales cuestan ranuras.** Una nave con tres ranuras de habilidad puede tener tres de un mismo tipo, uno de cada, o dos y uno. Una Protos o una Kitefin tiene una sola ranura y no puede acumular; una Ostirion o una Nomad puede tener dos de un mismo tipo.
 - Los rangos iguales son simplemente ese rango. De dos módulos del mismo rango, el que tiene el encantamiento más débil fija la base.
 
 ## Las tres habilidades {#the-three-abilities}

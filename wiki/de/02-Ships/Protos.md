@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9e477b2e27250897 -->
+<!-- wiki-i18n source: 0105c89d1cbd6996 -->
 <!-- wiki-i18n title: Protos -->
 # Protos {#protos}
 
@@ -23,6 +23,16 @@ Die Protos ist das einfache Startschiff, das jeder neue Pilot in SpaceCorps beko
 
 - **Credits**: 0 (Startschiff)
 - **Thulium**: 0
+
+## Forschung {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Keine Forschung nötig.** Dieses Schiff hat keine eigene Technologie.
+- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 6, 8 und 10 insgesamt mit den eigenen 3. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Hintergrund {#lore}
 

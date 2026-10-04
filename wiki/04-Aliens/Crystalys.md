@@ -13,7 +13,7 @@ Crystalys is a massive battleship-class alien entity. Encountering one is highly
 
 ## Rewards
 
-- **Credits**: 60,000
+- **Credits**: 75,000
 - **Thulium**: 200
 - **Experience (XP)**: 12,000
 - **Honor**: 52

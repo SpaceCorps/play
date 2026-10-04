@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5874d77ba7ccf380 -->
+<!-- wiki-i18n source: 36874838d2d52590 -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
@@ -12,11 +12,11 @@ Anders als in herkömmlichen Weltraumspielen hat SpaceCorps dynamisch gestufte A
 - **Generator-Slots**: Gemeinsame Slots für Schilde, Triebwerke und adaptive Kerne. Sie sind in drei Wirkungsgrad-Stufen eingeteilt, und die Stufe entscheidet, wie viel von den Grundwerten eines Gegenstands zählt. Im Hangar hat jede Stufe neben ihrem Namen ein (i), das sie erklärt:
   - **Kern-Slots**: Gegenstände, die hier sitzen, erhalten **100 %** ihrer Grundwerte. Jedes Schiff hat sie: Setze hier deine stärksten Schilde und Triebwerke ein.
   - **Support-Slots**: Gegenstände, die hier sitzen, erhalten **75 %** ihrer Grundwerte (z. B. 75 % des Tempos oder der Schildkapazität). Jedes Schiff hat sie.
-  - **Hilfs-Slots**: Gegenstände, die hier sitzen, erhalten **50 %** ihrer Grundwerte. Nur manche Schiffe haben sie (die Paragon hat 2, die Ironclad 3 und die Wraith 4; die Protos, Kitefin und Ostirion haben keine). Sie eignen sich am besten für zusätzliche, schwächere Schilde und Triebwerke, während deine stärksten in die Kern-Slots kommen.
+  - **Hilfs-Slots**: Gegenstände, die hier sitzen, erhalten **50 %** ihrer Grundwerte. Nur manche Schiffe haben sie (die Nomad hat 1, die Paragon 2, die Ironclad und die Storm 3 und die Wraith 4; die Protos, Kitefin und Ostirion haben keine). Sie eignen sich am besten für zusätzliche, schwächere Schilde und Triebwerke, während deine stärksten in die Kern-Slots kommen.
   - **Drohnen-Slots**: Ein Schild auf einer deiner Drohnen zählt wie einer in einem Kern-Slot, **100 %** seiner Werte (siehe [Drohnenmechanik](/wiki/03-Mechanics/Drones.md)).
   - **Nicht zugewiesene Slots/Alt-Slots**: Gegenstände, die hier sitzen, tragen nichts zu den Werten bei.
   - **Auch das Stapeln lässt nach**: Schilde und Triebwerke werden nach Stärke geordnet, die stärksten zuerst, und der Anteil der Stufe wird dann mit dem ihres Rangs multipliziert: Der 1. bis 4. zählt voll, der 5. bis 7. mit 85 %, 70 % und 55 %, ab dem 8. mit 50 % bei Schilden und 25 % bei Triebwerken. Siehe [Schilde](/wiki/03-Mechanics/Shields.md) und [Tempo](/wiki/03-Mechanics/Speed.md).
-- **Extra-Slots**: Für spezialisierte Hilfsgegenstände, etwa Repair Drones.
+- **Extra-Slots**: Für spezialisierte Hilfsgegenstände, etwa Repair Drones. Jedes Schiff hat drei; die Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) geben jedem Schiff mehr.
 
 ## Reihenfolge im Inventar {#inventory-order}
 

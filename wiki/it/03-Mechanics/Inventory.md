@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5874d77ba7ccf380 -->
+<!-- wiki-i18n source: 36874838d2d52590 -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario ed equipaggiamento {#inventory-equipment}
 
@@ -12,11 +12,11 @@ A differenza dei giochi spaziali tradizionali, SpaceCorps ha slot di equipaggiam
 - **Slot generatore**: slot condivisi per scudi, motori e Nuclei adattivi. Sono divisi in tre fasce di efficienza, e la fascia decide quanta parte delle statistiche di base di un oggetto conta. Nell’Hangar ogni fascia ha una (i) accanto al nome che la spiega:
   - **Slot principali**: gli oggetti messi qui ricevono il **100%** delle loro statistiche di base. Ogni nave li ha: metti qui i tuoi scudi e motori più forti.
   - **Slot di supporto**: gli oggetti messi qui ricevono il **75%** delle loro statistiche di base (per esempio il 75% della velocità o della capacità dello scudo). Ogni nave li ha.
-  - **Slot ausiliari**: gli oggetti messi qui ricevono il **50%** delle loro statistiche di base. Solo alcune navi li hanno (la Paragon ne ha 2, l’Ironclad 3 e la Wraith 4; la Protos, la Kitefin e l’Ostirion non ne hanno). Sono ideali per scudi e motori extra più deboli, mentre i più forti vanno negli slot principali.
+  - **Slot ausiliari**: gli oggetti messi qui ricevono il **50%** delle loro statistiche di base. Solo alcune navi li hanno (la Nomad ne ha 1, la Paragon 2, l’Ironclad e la Storm 3 e la Wraith 4; la Protos, la Kitefin e l’Ostirion non ne hanno). Sono ideali per scudi e motori extra più deboli, mentre i più forti vanno negli slot principali.
   - **Slot dei droni**: uno scudo su uno dei tuoi droni conta come uno in uno slot principale, il **100%** delle sue statistiche (vedi [Meccaniche dei droni](/wiki/03-Mechanics/Drones.md)).
   - **Slot non assegnati/obsoleti**: gli oggetti messi qui non contribuiscono alle statistiche.
   - **Anche il cumulo si attenua**: scudi e motori vengono ordinati dal più forte, e la quota della fascia viene poi moltiplicata per la quota del loro posto: dal 1º al 4º contano per intero, dal 5º al 7º l’85%, il 70% e il 55%, dall’8º in poi il 50% per gli scudi e il 25% per i motori. Vedi [Scudi](/wiki/03-Mechanics/Shields.md) e [Velocità](/wiki/03-Mechanics/Speed.md).
-- **Slot extra**: per oggetti di utilità specializzati, come i Repair Drone.
+- **Slot extra**: per oggetti di utilità specializzati, come i Repair Drone. Ogni nave ne ha tre; le Extra Slots CPU ([Extra](/wiki/06-Items/Extras.md#extra-slots-cpus)) ne danno di più a ogni nave.
 
 ## Ordine dell’inventario {#inventory-order}
 

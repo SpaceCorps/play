@@ -16,7 +16,7 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 - **Leader destroyed**: A Dormant Pulse takes over as leader
 - **Travels**: Stays 8 to 15 min on a map, then flies to the gate of another Danger Sector. It never takes the gates out of the Danger Sectors and never enters the black hole's ring
 - **Comes back**: 1 h after the whole swarm is destroyed, in a random Danger Sector
-- **Announced**: The chat of the whole world tells when the swarm appears and when it is destroyed. A marker shows it on the maps of the Danger Sectors and on the galaxy map. The kill feed names the pilot credited with the kill.
+- **Announced**: The pilots of the whole world are told when the swarm appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. A marker shows it on the maps of the Danger Sectors and on the galaxy map. The kill feed names the pilot credited with the kill.
 
 <!-- dormant-glance:end -->
 
@@ -58,7 +58,7 @@ Built from the Wraith at 100% of its hull, shield and damage; its speed and rang
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Rocket damage, at most | 7,500 | 11,250 | 15,000 |
-| Credits | 160,000 | 320,000 | 480,000 |
+| Credits | 200,000 | 400,000 | 600,000 |
 | Thulium | 535 | 1,070 | 1,605 |
 | Experience (XP) | 32,100 | 64,200 | 96,300 |
 | Honor | 139 | 278 | 417 |
@@ -85,7 +85,7 @@ Built from the Paragon at 100% of its hull, shield and damage; its speed and ran
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Rocket damage, at most | 5,000 | 7,500 | 10,000 |
-| Credits | 75,000 | 150,000 | 225,000 |
+| Credits | 95,000 | 190,000 | 285,000 |
 | Thulium | 255 | 510 | 765 |
 | Experience (XP) | 15,200 | 30,400 | 45,600 |
 | Honor | 66 | 132 | 198 |

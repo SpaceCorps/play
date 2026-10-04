@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Chaque vaisseau a un nombre fixe d’emplacements de compétence dans le hangar�
 - **Protos** (de départ) : 1 emplacement
 - **Kitefin** : 1 emplacement
 - **Ostirion** : 2 emplacements
+- **Nomad** : 2 emplacements
 - **Paragon** : 3 emplacements
+- **Storm** : 3 emplacements
 - **Ironclad** : 3 emplacements
 - **Wraith** : 3 emplacements
 
@@ -30,7 +32,7 @@ Vous pouvez installer **plusieurs boucliers, moteurs ou Repair Drones** dans les
 
 - **Le module de plus bas rang fixe la base.** Son rang donne la puissance et le temps de recharge. Un Heavy Shield Core à côté d’un Light Shield Core se comporte comme deux modules de rang I : un second module meilleur apporte le bonus, jamais une meilleure puissance ni un temps de recharge plus court.
 - **Chaque autre module ajoute 50 % de la base**, en s’additionnant, pas en se multipliant. Les moteurs font **durer plus longtemps** l’Afterburner : 10 s, 15 s avec deux moteurs, 20 s avec trois (le bonus de vitesse et le temps de recharge ne changent pas). Avec plusieurs boucliers, le Shield Surge **restaure davantage**, et avec plusieurs Repair Drones, l’Emergency Repair **répare davantage**, dans les mêmes dix secondes : 100 %, 150 % et 200 % du total pour un, deux et trois modules.
-- **Les modules supplémentaires coûtent des emplacements.** Un vaisseau à trois emplacements de compétence peut avoir trois modules du même type, ou un de chaque, ou deux et un. Un Protos ou un Kitefin n’a qu’un emplacement et ne peut pas cumuler ; un Ostirion peut en avoir deux du même type.
+- **Les modules supplémentaires coûtent des emplacements.** Un vaisseau à trois emplacements de compétence peut avoir trois modules du même type, ou un de chaque, ou deux et un. Un Protos ou un Kitefin n’a qu’un emplacement et ne peut pas cumuler ; un Ostirion ou un Nomad peut en avoir deux du même type.
 - Des rangs égaux donnent simplement ce rang. De deux modules du même rang, celui dont l’enchantement est le plus faible fixe la base.
 
 ## Les trois compétences {#the-three-abilities}

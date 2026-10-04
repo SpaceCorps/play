@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker — базовые разведывательные аппараты. О�
 
 ## Награды {#rewards}
 
-- **Кредиты**: 800
+- **Кредиты**: 1 000
 - **Thulium**: 4
 - **Опыт (XP)**: 100
 - **Честь**: 2

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n source: 2b63df451b6a864e -->
 <!-- wiki-i18n title: Extra -->
 # Extra {#extras}
 
-Gli extra sono i gadget negli **slot extra** di una nave (tre su ogni nave, per configurazione). Ne attivi uno dal selettore Extra della barra rapida o da uno slot della barra rapida a cui l’hai assegnato. Funzionano solo dalla configurazione che stai usando: se ne monti uno nell’altra configurazione, resta in attesa finché non cambi configurazione.
+Gli extra sono i gadget negli **slot extra** di una nave (tre su ogni nave, per configurazione, e di più con le Extra Slots CPU). Ne attivi uno dal selettore Extra della barra rapida o da uno slot della barra rapida a cui l’hai assegnato. Funzionano solo dalla configurazione che stai usando: se ne monti uno nell’altra configurazione, resta in attesa finché non cambi configurazione.
 
 | Extra | Che cosa fa | Usi | Prezzo |
 | :---- | :----------- | :--- | :---- |
@@ -12,11 +12,46 @@ Gli extra sono i gadget negli **slot extra** di una nave (tre su ogni nave, per 
 | **Cloaking CPU L** | Nasconde la tua nave | 50 | 20.000 Thulium |
 | **EMP Charge** | Per 3 secondi nessuno può bersagliarti, ogni aggancio su di te si spezza e ogni occultamento vicino a te termina | 1 | 500 Thulium |
 
-I Cloaking CPU e l’EMP Charge si vendono solo nel Negozio. Non si possono fondere e non vengono mai regalati.
+Le Cloaking CPU e l’EMP Charge si vendono solo nel Negozio. Non si possono fondere e non vengono mai regalati.
+
+Altre sette CPU non si vendono: l’Assemblaggio le crea quando il Centro ricerche dello Skylab le ha ricercate (vedi [Ricerca](/wiki/03-Mechanics/Research.md)). Sono le Extra Slots CPU I, II e III, la Jump CPU, le Base CPU I e II e l’Auto-Repair CPU, e [l’ultima sezione](#research-cpus) dice che cosa fa ciascuna. Come la Cloaking CPU, la Jump CPU e le Base CPU sono per un momento tranquillo: nessuna delle tre parte entro 10 secondi da un colpo che spari o da un colpo che subisci.
+
+Ogni extra ha una sigla breve sul suo slot della barra rapida: **REP** per un Repair Drone, **CLK** per una Cloaking CPU, **EMP** per l’EMP Charge e **ARP**, **BSE** e **JMP** per l’Auto-Repair CPU, le Base CPU e la Jump CPU. Le Extra Slots CPU non hanno slot: si installano nel tuo Skylab. Punta uno slot per leggere che cosa fa ora una pressione, o perché non può.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Albero degli oggetti {#item-tree}
+
+Ciò che crea l’Assemblaggio richiede prima la sua tecnologia; passa il puntatore su un oggetto per vedere quanto tempo serve a ricercarla. L’albero delle tecnologie, il carburante e il boost: [Ricerca](/wiki/03-Mechanics/Research.md).
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
 
 ## Repair Drone {#repair-drones}
 
-Attiva un Repair Drone (REP) e ripara lo scafo finché non è pieno. Parte solo dopo 10 secondi senza subire colpi e qualsiasi colpo lo spegne. Se ne hai montati diversi, lavora il migliore. I valori sono in [Combattimento](/wiki/03-Mechanics/Combat.md).
+Attiva un Repair Drone (REP) e ripara lo scafo finché non è pieno. Parte solo dopo 10 secondi senza subire colpi e qualsiasi colpo lo spegne. Se ne hai montati diversi, lavora il migliore. Una [Auto-Repair CPU](#auto-repair-cpu) lo riattiva al posto tuo. I valori sono in [Combattimento](/wiki/03-Mechanics/Combat.md).
 
 ## Cloaking CPU {#cloaking-cpu}
 
@@ -49,3 +84,55 @@ Premi lo slot EMP durante uno scontro. Per **3 secondi** nessuno può agganciart
 - Un alieno che colpisci durante i 3 secondi non si rivolta contro di te finché non sono finiti. Le tue rivendicazioni di abbattimento e le regole del primo colpo non cambiano.
 - **Che cosa vedi.** Un impulso di spazio deformato parte dal pilota e si allarga fino a dove l’impulso interrompe gli occultamenti (1500 unità), lo vedono tutti quelli nel raggio, e un guscio elettrico crepitante circonda la nave per i 3 secondi, con un anello attorno alla tua nave e un indicatore in alto sullo schermo che contano il tempo. L’anello del bersaglio di chiunque ti avesse selezionato si spezza, con una breve scarica. Lo slot EMP mostra le cariche che possiedi, si illumina di blu finché il guscio è attivo e si oscura mentre si ricarica.
 - **Una carica, un uso.** Lo slot viene riempito dal tuo inventario se ne possiedi altre. I **30 secondi** di ricarica non vengono salvati: disconnetterti o saltare attraverso un portale li azzera, e l’impulso successivo costa una carica.
+
+## CPU del Centro ricerche {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | Tempo di ricerca | Richiede prima | Thulium per la creazione | Tempo di creazione |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 min | – | 12.000 | 5 min |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 h | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30.000 | 10 min |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 g | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75.000 | 15 min |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 h | – | 8.000 | 5 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20.000 | 10 min |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 g | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
+
+Nessuna si vende nel Negozio: ricerca la tecnologia, poi crea la CPU nell’Assemblaggio. Passa il puntatore su una CPU nel suo albero per vedere che cosa chiede l’Assemblaggio per crearla.
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **Che cosa fanno.** Le Extra Slots CPU I, II e III danno a ogni nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché ogni nave ne ha già 3. Una CPU superiore sostituisce la precedente: la II non si somma alla I.
+- **Installata, non trasportata.** Una Extra Slots CPU non è un oggetto: quando la ritiri nell’Assemblaggio si installa da sola nel tuo Skylab, per ogni nave in entrambe le configurazioni, e non occupa nessuno slot. Resta anche dopo il reset.
+- **In ordine.** Creale una dopo l’altra: la II solo quando la I è installata, la III solo quando la II è installata; fino ad allora l’Assemblaggio ti dice quale installare prima. Le tre costano 117.000 Thulium in tutto: 12.000, 30.000 e 75.000.
+
+### Jump CPU {#jump-cpu}
+
+- **Che cosa fa.** Fa saltare la tua nave in qualsiasi settore di corporazione del tuo mondo, della tua corporazione come delle altre, settori base inclusi (`M`, `T` e `G`, settori da 1 a 4), per **500 Thulium** a salto. Non ha limiti di utilizzi: paghi solo il Thulium. Non porta mai in un settore pericoloso (`DS`) né in un settore neutrale (`N`).
+- **Il salto.** Premi lo slot JMP, scegli il settore sulla mappa del Sistema stellare e conferma: la nave si carica per 5 secondi, poi arriva a un portale di quel settore, protetta come dopo qualsiasi salto di portale. Dopo il tuo arrivo la CPU si raffredda per 30 secondi.
+- **Non in combattimento.** Non può partire entro 10 secondi da uno sparo o da un colpo subito, e uno sparo o un colpo durante la carica annulla il salto; allora non si paga nulla. Non puoi saltare mentre sei occultato.
+- **Non da un settore neutrale:** un pilota in un settore neutrale o senza corporazione non può usarla.
+- Può lasciare un settore pericoloso quando non sei in combattimento.
+
+### Base CPUs {#base-cpus}
+
+- **Che cosa fanno.** Teletrasportano la tua nave alla base della tua corporazione, nella zona sicura attorno alla sua stazione (`M-1`, `T-1` o `G-1`, il settore con Mission Control), senza costi in Thulium. Si avviano dallo slot BSE della barra rapida.
+- **Non in combattimento.** Una carica di 10 secondi, uguale per entrambe. Non può partire entro 10 secondi da uno sparo o da un colpo subito, né mentre sei occultato o se sei già nella zona sicura della tua base, e uno sparo o un colpo durante la carica la annulla.
+
+| CPU | Utilizzi | Ricarica |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 min |
+
+- **Si esaurisce, non si ricarica.** Ogni utilizzo consuma uno degli utilizzi della CPU, e una CPU senza utilizzi rimasti sparisce: creane una nuova. Con entrambe montate, si usa per prima la migliore (II).
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **Che cosa fa.** Lancia da solo il Repair Drone montato nei tuoi slot extra, ogni volta che avresti potuto lanciarlo a mano: il tuo scafo non è pieno, il drone non è già fuori e sono passati 10 secondi dall’ultimo colpo. Non c’è nessuna soglia di scafo da impostare.
+- Occupa uno slot extra tutto suo e non fa nulla senza un Repair Drone in uno slot extra della stessa configurazione. Non lancia mai un Repair Drone in uno slot abilità (quello è il pulsante Emergency Repair).
+- **Se fermi il drone a mano,** la CPU lo lascia stare finché il tuo scafo non è di nuovo pieno, o finché non lanci tu il drone.
+
+
+<!-- research-cpus:end -->

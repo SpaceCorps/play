@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 
 ## 보상 {#rewards}
 
-- **크레딧**: 800
+- **크레딧**: 1,000
 - **Thulium**: 4
 - **경험치(XP)**: 100
 - **명예**: 2

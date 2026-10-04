@@ -1,8 +1,23 @@
-<!-- wiki-i18n source: 82df92858fe38c3f -->
+<!-- wiki-i18n source: 0dfda8fd6d9be79d -->
 <!-- wiki-i18n title: 无人机 -->
 # 无人机 {#drones}
 
 无人机是可购买或可制造的支援单位。你最多可同时启用 **8 台无人机**，Slave Drone 和 Master Drone 合计。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## 物品树 {#item-tree}
+
+装配站制造的东西要先有对应的科技；将指针悬停在物品上可看到研究所需的时间。科技树、燃料和加速见 [研究](/wiki/03-Mechanics/Research.md)。
+
+```tree
+Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+
+Slave Drone => Master Drone
+```
+<!-- item-tree:end -->
 
 ## 可用的无人机 {#available-drones}
 

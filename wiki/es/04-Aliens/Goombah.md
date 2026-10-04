@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Los Goombahs son temibles naves alienígenas de clase crucero. Tienen una gran c
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 12.000
+- **Créditos**: 15.000
 - **Thulium**: 75
 - **Experiencia (XP)**: 3.000
 - **Honor**: 24

@@ -18,7 +18,7 @@ A Seeker-raj a [rajok](/wiki/05-Swarms/Swarms.md) legkisebbike: egy **Boss Seeke
 - **Gyógyítás**: Minden Seeker Slave, amely a vezértől 600 egységen belül van, gyógyítja a hajótestét, Alphában másodpercenként 50 HP-t
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 30 mp múlva eltűnnek, kivéve ha éppen támadnak
 - **Visszatér**: 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
-- **Értesítés**: A szektor chatje megmondja, mikor jelenik meg a vezér, és mikor semmisül meg. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
+- **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Alapja: Seeker, hajótestének, pajzsának és sebzésének 400%-a; a sebessége
 | Sebesség | 120 | 120 | 120 |
 | Lézer hatótávja | 600 | 600 | 600 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Kredit | 8 000 | 16 000 | 24 000 |
+| Kredit | 10 000 | 20 000 | 30 000 |
 | Thulium | 40 | 80 | 120 |
 | Tapasztalat (XP) | 1 000 | 2 000 | 3 000 |
 | Becsület | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Alapja: Seeker, hajótestének, pajzsának és sebzésének 100%-a; a sebessége
 | Lézer hatótávja | 600 | 600 | 600 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 50 | 75 | 100 |
-| Kredit | 100 | 200 | 300 |
+| Kredit | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Tapasztalat (XP) | 12 | 24 | 36 |
 | Becsület | 1 | 2 | 3 |

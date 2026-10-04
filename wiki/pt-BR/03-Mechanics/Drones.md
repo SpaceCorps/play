@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30354846186e8ea9 -->
+<!-- wiki-i18n source: 5a4769d6626caeff -->
 <!-- wiki-i18n title: Drones -->
 # Mecânica dos drones {#drone-mechanics}
 
@@ -85,7 +85,7 @@ A curva foi ajustada para que um drone novo chegue ao nível 2 em cerca de uma h
 
 ### Master Drone {#master-drone}
 
-Um Slave Drone vira um **Master Drone** quando você o melhora na Montagem. A receita custa 40.000 Thulium e 100 Ship Fragments, leva 60 segundos e não consome um drone: **você escolhe qual Slave Drone** será melhorado (o seletor mostra o nível e o XP de cada um), e esse mesmo drone, com o seu número, o seu slot de drone e tudo o que está encaixado nele, vira um Master Drone quando a tarefa termina, com um segundo slot vazio. Nada vai para o seu inventário e não há nada para coletar: o Registro do jogo avisa quando termina, inclusive no caso de uma melhoria que terminou enquanto você estava fora.
+Um Slave Drone vira um **Master Drone** quando você o melhora na Montagem, depois de pesquisada a tecnologia do Master Drone ([Pesquisa](/wiki/03-Mechanics/Research.md)). A receita custa 40.000 Thulium e 100 Ship Fragments, leva 60 segundos e não consome um drone: **você escolhe qual Slave Drone** será melhorado (o seletor mostra o nível e o XP de cada um), e esse mesmo drone, com o seu número, o seu slot de drone e tudo o que está encaixado nele, vira um Master Drone quando a tarefa termina, com um segundo slot vazio. Nada vai para o seu inventário e não há nada para coletar: o Registro do jogo avisa quando termina, inclusive no caso de uma melhoria que terminou enquanto você estava fora.
 
 **O nível e o XP dele voltam a 0 quando a melhoria termina.** Um Master Drone recomeça no nível 1, sem XP, e sobe de nível como um Slave Drone (a tabela acima); o bônus de laser do nível que ele tinha vai embora junto. A Montagem avisa isso antes de você começar e pede que você confirme, citando o drone, quando ele tem algum XP. A escolha padrão é o drone com menos XP.
 

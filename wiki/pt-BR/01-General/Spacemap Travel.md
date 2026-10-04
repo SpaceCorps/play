@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3a89595b53c5603f -->
+<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
 <!-- wiki-i18n title: Viagem pelo mapa espacial -->
 # Viagem pelo mapa espacial {#spacemap-travel}
 
@@ -19,15 +19,17 @@ Cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (A
 
 ## Visualização {#visualization}
 
-O mapa da galáxia abaixo mostra, em tempo real, a disposição do universo conhecido.
+O mapa da galáxia abaixo mostra, em tempo real, a disposição do universo conhecido. No jogo, esse mesmo mapa é a janela **Sistema estelar**.
 
 ```spacemap
 
 ```
 
+Com uma [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) equipada, o mapa também escolhe o seu destino: pressione o slot da CPU na barra de atalhos (**JMP**) e a janela Sistema estelar abre em modo de seleção. Os setores aonde a CPU pode levar você ficam iluminados; o seu próprio setor e os setores de perigo, não. Aponte para um setor iluminado para ler o preço, clique nele e confirme o salto quando o mapa pedir (500 Thulium).
+
 ## Como viajar {#how-to-travel}
 
-A viagem pelo mapa espacial é feita por **portais de salto**.
+A viagem pelo mapa espacial é feita por **portais de salto**. A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) é o outro caminho: ela não precisa de portal (veja o fim desta página).
 
 1. **Encontre um portal**: Os portais ficam, em geral, nos cantos ou nas bordas de um mapa.
 2. **Navegação**: Voe com a sua nave até perto da estrutura do portal.
@@ -41,6 +43,7 @@ A viagem pelo mapa espacial é feita por **portais de salto**.
 - **Nos setores de perigo (`DS-1` a `DS-4`)** você não pode saltar para fora enquanto está sendo atacado. Se um piloto ou um alienígena atingiu a sua nave (os escudos ou o casco) nos últimos **10 segundos**, o salto não começa (“Você está sob ataque: não é possível saltar para fora de um setor de perigo.”), e um acerto durante o salto o cancela (a barra fica vermelha e o jogo diz o motivo). O dano que você sofre pela radiação do buraco negro não é um ataque, nem um tiro que uma zona segura bloqueou. Um acerto que você levou no mapa de onde saltou não segue você pelo portal: você chega com a ficha limpa.
 - Você faz uma coisa de cada vez: não é possível coletar uma [caixa de carga](/wiki/03-Mechanics/Cargo.md) enquanto salta, e iniciar um salto cancela uma coleta que você tinha começado.
 - Fechar o jogo ou voltar à base no meio de um salto o cancela: você não chega.
+- **O teletransporte de uma CPU carrega como um salto de portal.** Uma Jump CPU carrega por 5 segundos e uma Base CPU por 10, com uma barra acima da barra de atalhos. Um tiro seu ou um acerto que você sofra, em qualquer setor, cancela o teletransporte (nada é pago nem gasto), e nenhuma das duas CPUs inicia em até 10 segundos depois de um tiro ou de um acerto. Pressione o slot da CPU de novo para cancelá-lo você mesmo.
 
 ### Ligações de salto {#jump-links}
 
@@ -49,6 +52,10 @@ A viagem pelo mapa espacial é feita por **portais de salto**.
   - `M-4` se conecta a `DS-1`
   - `T-4` se conecta a `DS-2`
   - `G-4` se conecta a `DS-3`
-- **Rotas de invasão (viagem entre corporações)**: Para entrar no território de uma corporação inimiga, você precisa atravessar a zona PvP. Por exemplo, um piloto da Mars que queira invadir a Terra precisa voar de `M-4` até o setor de perigo `DS-1`, atravessar o portal de salto para `DS-2` e então entrar no espaço da Terra por `T-4`; para chegar à Galactic, atravesse o portal de salto para `DS-3` e entre por `G-4`.
+- **Rotas de invasão (viagem entre corporações)**: Para entrar pelos portais no território de uma corporação inimiga, você precisa atravessar a zona PvP. Por exemplo, um piloto da Mars que queira invadir a Terra precisa voar de `M-4` até o setor de perigo `DS-1`, atravessar o portal de salto para `DS-2` e então entrar no espaço da Terra por `T-4`; para chegar à Galactic, atravesse o portal de salto para `DS-3` e entre por `G-4`.
 - **O triângulo dos setores de perigo**: `DS-1`, `DS-2` e `DS-3` se conectam todos entre si. Cada um deles tem o portal de uma corporação (Mars em `DS-1`, Terra em `DS-2`, Galactic em `DS-3`); `DS-4` não tem nenhum.
 - **O núcleo central**: Os três setores de perigo externos (`DS-1`, `DS-2` e `DS-3`) se conectam diretamente ao mapa central **`DS-4`**, a zona PvP mais perigosa e mais recompensadora do universo. Um **buraco negro** paira bem no meio dele: os portais e as rotas entre eles ficam bem longe, mas uma nave que entra sente a sua radiação, depois a sua atração e é destruída no horizonte de eventos. Veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md).
+
+### A Jump CPU {#the-jump-cpu}
+
+A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) leva a sua nave a qualquer setor de corporação do seu mundo sem usar um portal, por 500 Thulium o salto, inclusive os setores de origem dos inimigos. Ela nunca leva a um setor de perigo, não começa em combate e você a pesquisa antes no Centro de Pesquisa do Skylab ([Pesquisa](/wiki/03-Mechanics/Research.md)). As [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) levam você para casa do mesmo jeito.

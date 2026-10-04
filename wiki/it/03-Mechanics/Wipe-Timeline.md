@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ Per gli oggetti aggiuntivi nel tuo inventario che vuoi salvare (ad es. armi di s
   * *Risorse / minerali*: pesi variabili in base alla rarità (una Reinforced Plate della Fucina dello Skylab pesa 5 kg)
   * *Razzi*: non pesano nulla: non occupano spazio nel deposito, quindi ci entrano anche scorte intere (vedi [Razzi](/wiki/06-Items/Rockets.md))
 
-Il tuo [Skylab](/wiki/03-Mechanics/Skylab.md) non viene mai azzerato: i suoi moduli mantengono i loro livelli e il Magazzino risorse conserva il suo minerale immagazzinato. Ciò che hai già raccolto invece sì: le piastre nel tuo inventario sono oggetti come gli altri, quindi una piastra che vuoi tenere deve stare nel Deposito di trasporto.
+Il tuo [Skylab](/wiki/03-Mechanics/Skylab.md) non viene mai azzerato: i suoi moduli mantengono i loro livelli e il Magazzino risorse conserva il suo minerale immagazzinato. Anche il Centro ricerche conserva tutto ciò che contiene [Ricerca](/wiki/03-Mechanics/Research.md): le tue tecnologie, la scienza nel suo serbatoio, la Dark Matter inserita, una ricerca in corso e il boost. Lo stesso vale per le Extra Slots CPU che hai installate, che non sono oggetti. Ciò che hai già raccolto invece sì: le piastre nel tuo inventario sono oggetti come gli altri, quindi una piastra che vuoi tenere deve stare nel Deposito di trasporto.
 
 ### Conferma e blocca {#confirm-lock}
 Prima che la stagione finisca devi cliccare **Conferma e blocca** nell’interfaccia del Materializzatore.

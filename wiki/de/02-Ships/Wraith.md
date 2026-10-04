@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 966d5a0c10cc8d2a -->
+<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith {#wraith}
 
@@ -23,6 +23,16 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 
 - **Credits**: 0 (In der Montage gebaut)
 - **Thulium**: 0
+
+## Forschung {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Zuerst forschen.** Die Montage stellt dieses Schiff erst her, wenn du seine Technologie erforscht hast. Die Forschung dauert 2 d und braucht 10 Dark Matter, eingesetzt im Forschungszentrum. Sie steht im [Schiffsbaum](/wiki/03-Mechanics/Research.md#tree-ships) der Seite [Forschung](/wiki/03-Mechanics/Research.md).
+- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 6, 8 und 10 insgesamt mit den eigenen 3. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Hintergrund {#lore}
 

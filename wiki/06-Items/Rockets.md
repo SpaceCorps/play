@@ -2,6 +2,36 @@
 
 Rockets are a second weapon beside your lasers: one shot every few seconds that hits far harder than a laser volley. Twelve rockets in four kinds, three tiers each, two more that only Assembly makes, and **one recharge timer of 5 seconds that all of them share**, whichever you fire. The Common and Rare rockets are bought with **Credits**; the four Epic rockets are bought with **Thulium**.
 
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Item tree {#item-tree}
+
+What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
+
 ## The four kinds
 
 | | Single target: hits one ship | Area blast: bursts, hurts everything close |
@@ -62,7 +92,7 @@ The rockets it takes to kill one alien, one kind of rocket after the other, ever
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - The **Common** single-target rockets kill a Seeker in one hit at any roll and a Phantasm in three (a Lancet I needs a fourth on its lowest roll); they are the everyday rockets of the first sectors. The **Rare** ones are for the Bulwark and the Goombah: eight Lancet II rockets take a Bulwark in about 35 seconds of timer. The **Epic** ones kill a Phantasm in one hit at any roll and a Goombah in nine to eleven. The blasts are worth their price when several aliens are close together: a Scatter III bursting over a pack of five Phantasms deals about 18,000 damage across the pack in one cast.
-- A kill by rockets alone is a real spend, not a way to get rich: for the alien it is meant for, a single-target rocket costs a sixth to five sixths of what the kill pays (Credits, and Thulium at 200 Credits each), and the weak rockets on the strong aliens cost more than the kill pays. Killing the **Crystalys** with one kind alone takes 62 to 399 rockets and at least five minutes of timer; a full stack of 500 Epic rockets is enough for four to eight of them. The strongest alien needs a plan: your lasers on x2 ammo, a mid-tier rocket every 5 seconds from the first second, and the big rockets below as the burst.
+- A kill by rockets alone is a real spend, not a way to get rich: for the alien it is meant for, a single-target rocket costs about a seventh to three quarters of what the kill pays (Credits, and Thulium at 200 Credits each), and the weak rockets on the strong aliens cost more than the kill pays. Killing the **Crystalys** with one kind alone takes 62 to 399 rockets and at least five minutes of timer; a full stack of 500 Epic rockets is enough for four to eight of them. The strongest alien needs a plan: your lasers on x2 ammo, a mid-tier rocket every 5 seconds from the first second, and the big rockets below as the burst.
 - The pay of a kill is the same however it was made (see [the Crystalys](/wiki/04-Aliens/Crystalys.md) for the biggest), so a rocket kill is worth it when it saves you time and costs less than it pays.
 - **Aliens fire rockets too.** The Pirate Boss and the Dormant Force and Pulses of the [swarms](/wiki/05-Swarms/Swarms.md) launch straight Rivet rockets at the pilot who attacked them, on the same 5 second timer. A ship that keeps moving sidesteps them. The swarms' bosses also drop rockets in their boxes.
 

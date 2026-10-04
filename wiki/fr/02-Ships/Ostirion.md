@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ L’Ostirion est un solide intercepteur de milieu de gamme, nettement supérieur
 
 - **Crédits** : 425 000
 - **Thulium** : 0
+
+## Recherche {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Aucune recherche nécessaire.** Ce vaisseau n’a pas de technologie propre.
+- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 6, 8 et 10 au total avec les 3 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Histoire {#lore}
 

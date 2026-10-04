@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 500bc358b49f4250 -->
+<!-- wiki-i18n source: 566c408a761e44cb -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
-A küldetések a szintlépés fő módja. A Küldetésirányítás osztja ki őket: minden küldetés a saját vállalatod egy tisztjétől érkezik, és mindegyik tapasztalatot, kreditet, Thuliumot és becsületet fizet, amikor átveszed. **88 küldetés van az 1–8. szintekre**, szintenként tizenegy, és együtt egy vadonatúj Protostól a PvP-központ frontvonaláig juttatnak el. Még tíz **állomásküldetés** megtanítja a [Skylab](/wiki/03-Mechanics/Skylab.md) használatát, és fizet is azért, hogy kiépítsd.
+A küldetések a szintlépés fő módja. A Küldetésirányítás osztja ki őket: minden küldetés a saját vállalatod egy tisztjétől érkezik (ha [vállalatot váltasz](/wiki/01-General/Getting-Started.md#changing-your-company), a tisztek az új vállalatodéi lesznek, a `rival x-4` feladatok pedig ezt követik), és mindegyik tapasztalatot, kreditet, Thuliumot és becsületet fizet, amikor átveszed. **88 küldetés van az 1–8. szintekre**, szintenként tizenegy, és együtt egy vadonatúj Protostól a PvP-központ frontvonaláig juttatnak el. Még tíz **állomásküldetés** megtanítja a [Skylab](/wiki/03-Mechanics/Skylab.md) használatát, és fizet is azért, hogy kiépítsd.
 
 ---
 
@@ -32,7 +32,7 @@ A küldetések a szintlépés fő módja. A Küldetésirányítás osztja ki ők
 - Tíz küldetés a [Skylabodról](/wiki/03-Mechanics/Skylab.md), a Küldetések oldal tetején egy **Állomás** szakaszban. Az első, a **Fényt az állomásnak**, az 1. szinttől nyitva van, és megmondja, hol van a Skylab: Menü, Gazdaság, Skylab. Az állomásmenü Skylab sora addig pulzál, amíg el nem fogadtad a küldetést, vagy nem építettél Napelemet.
 - Úgy fogadod el, követed, adod fel és veszed át őket, mint minden küldetést, de nem számítanak bele az 5-be: a többi 5 mellett **egyszerre 3 állomásküldetést** vihetsz. Egy állomásküldetés órákig várhat a fejlesztési időzítőkre, és sosem tart fel egy harci küldetést.
 - Egy állomásküldetés elfogadása nem változtatja meg a követett küldetésedet, ha van olyanod, amelyet a repülés előrevihet: az Aktív küldetések ablak továbbra is a harci küldetésedet mutatja, az állomásküldetés pedig egy pont a címsorában (vidd fölé az egeret a haladásáért, kattints rá, hogy megjelenjen).
-- Mindegyik a saját **pilótaszintjén** nyílik meg, és csak azoknak az állomásküldetéseknek az átvétele után, amelyekre épül (előbb át kell venni őket): a zárolt kártya megmondja, melyik kell. Az első három az 1. szinten nyílik meg.
+- Mindegyik a saját **pilótaszintjén** nyílik meg, és csak azoknak az állomásküldetéseknek az átvétele után, amelyekre épül (előbb át kell venni őket): a zárolt kártya megmondja, melyik kell. Az első három az 1. szinten nyílik meg. Az utolsó, a **Core Ten** a Magot a 10. szintre viszi, arra a szintre, amely megnyitja a Skylab [Kutatóközpontját](/wiki/03-Mechanics/Research.md).
 - A feladataik a Skylabodat olvassák: egy modul **megépítése** vagy **fejlesztése egy szintre** (kész, amíg a modul azon a szinten vagy afölött van; egyetlen modul sem léphet a Mag szintje fölé, ezért egy Napelem-cél előbb a Mag fejlesztését kérheti), és kredit **begyűjtése** a Kreditfarmról (a küldetés elfogadásának pillanatától számolva, a Nyersanyag begyűjtése gombbal). Az a küldetés, amelynek minden feladata egyszerre igaz, kész: amelyiknek már az elfogadáskor megfelelsz, az azonnal kész.
 - Pontosan azt fizetik, **amit a táblázat mutat**: se világszorzó, se boosterek, se prémium tapasztalat, se tárgyak. A tapasztalatuk ráadás arra a 85%-ra, amelyet a szintek küldetései fizetnek (legfeljebb egy szint és a következő közötti tapasztalatkülönbség 5%-a).
 - Az állomásküldetések nem számítanak bele a teljesített küldetések [wipe-pontjaiba](/wiki/03-Mechanics/Wipe-Timeline.md). Mint minden küldetés, túlélik a wipe-ot, és az is, amit felépítettél.

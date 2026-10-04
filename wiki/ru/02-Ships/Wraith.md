@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 966d5a0c10cc8d2a -->
+<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith {#wraith}
 
@@ -23,6 +23,16 @@ Wraith — предельный по мощи корабль класса «ли
 
 - **Кредиты**: 0 (Собирается в Сборочном цехе)
 - **Thulium**: 0
+
+## Исследования {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Сначала исследование.** Сборочный цех создаёт этот корабль только после того, как вы исследуете его технологию: 2 д исследования и 10 Dark Matter, которые нужно вложить в Исследовательский центр. Она находится в [дереве «Корабли»](/wiki/03-Mechanics/Research.md#tree-ships) на странице [Исследования](/wiki/03-Mechanics/Research.md).
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## История {#lore}
 

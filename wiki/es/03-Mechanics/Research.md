@@ -1,0 +1,341 @@
+<!-- wiki-i18n source: 55131889617bd886 -->
+<!-- wiki-i18n title: Investigación -->
+# Investigación {#research}
+
+El **Centro de investigación** es el laboratorio de tu [Skylab](/wiki/03-Mechanics/Skylab.md). Le das recursos, los convierte en **ciencia**, y la ciencia investiga **tecnologías**. Toda fabricación en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) necesita antes su tecnología: una nave, un láser, un propulsor o una CPU no se pueden fabricar hasta que se hayan investigado.
+
+Esta página reúne el árbol de tecnologías completo con el tiempo de cada una, la ciencia que da cada recurso, el impulso de Thulium, la regla del Dark Matter y las CPU nuevas. Sus números se leen de los propios datos del juego, así que siempre son los que hay en el juego.
+
+## El Centro de investigación {#the-research-centre}
+
+<!-- research-centre:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Se desbloquea con el Núcleo de nivel 10.** El Centro de investigación es un módulo de tu [Skylab](/wiki/03-Mechanics/Skylab.md), que se construye como los demás: 25 Ship Fragments de tu inventario (con la nave aterrizada), 25.000 créditos y 500 Thulium. Su pantalla es la vista **Investigación** de la página del Skylab.
+- **Niveles 1 a 10.** Un nivel más alto da un depósito mayor y consume más energía. No acelera la investigación: una tecnología tarda lo mismo en cada nivel.
+- **El depósito.** El Centro guarda su ciencia en un depósito que en el nivel 1 aguanta 12 h de investigación y 25 % más con cada nivel (la tabla de abajo).
+- **Del combustible a la ciencia.** Un recurso que introduces se convierte en ciencia al instante, como muestra la tabla de combustible. Una investigación quema 1 de ciencia por cada segundo de su tiempo de investigación; con el depósito vacío espera, y sigue cuando vuelves a alimentar el Centro.
+- **Una primera hora gratis.** Un Centro nuevo empieza con 3.600 de ciencia en el depósito, es decir, 1 h de investigación.
+- **Una a la vez.** El Centro investiga una sola tecnología a la vez. No hay cola.
+- **Mientras estás fuera.** Una investigación corre con el reloj del servidor, así que sigue después de que te desconectes, hasta que termina o se vacía el depósito. Un déficit de energía o una mejora del Centro no la detienen.
+- **Energía.** El Centro consume 25 en el nivel 1 y 15 % más con cada nivel, y no se puede apagar.
+- **El reinicio lo conserva todo:** tus tecnologías, la ciencia del depósito, el Dark Matter introducido, una investigación en curso y el impulso.
+- **Lo que tienes es tuyo.** Cuando la investigación llegó al juego, cada piloto recibió la tecnología de cada objeto que ya poseía y las tecnologías que estas requerían. Un objeto que te llega después (un regalo, un código, una recompensa) no desbloquea su tecnología.
+- **Por debajo del Núcleo de nivel 10** no puedes investigar, así que todavía no puedes fabricar nada nuevo en Ensamblaje. Las misiones de la estación te guían para subir el Núcleo.
+
+<!-- research-centre:end -->
+
+### El depósito en cada nivel {#the-tank-at-every-level}
+
+<!-- research-tank:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Nivel | Depósito (ciencia) | Aguanta investigación para | … con el impulso | Energía |
+| :--- | ---: | ---: | ---: | ---: |
+| 1 | 43.200 | 12 h | 6 h | 25 |
+| 2 | 54.000 | 15 h | 7,5 h | 28,7 |
+| 3 | 67.500 | 18,8 h | 9,4 h | 33,1 |
+| 4 | 84.375 | 23,4 h | 11,7 h | 38 |
+| 5 | 105.469 | 29,3 h | 14,6 h | 43,7 |
+| 6 | 131.836 | 36,6 h | 18,3 h | 50,3 |
+| 7 | 164.795 | 45,8 h | 22,9 h | 57,8 |
+| 8 | 205.994 | 57,2 h | 28,6 h | 66,5 |
+| 9 | 257.492 | 71,5 h | 35,8 h | 76,5 |
+| 10 | 321.865 | 89,4 h | 44,7 h | 87,9 |
+
+<!-- research-tank:end -->
+
+## Combustible {#fuel}
+
+Alimentas el Centro con recursos y cada unidad se convierte en ciencia al instante. Cuanto más trabajo cuesta conseguir una unidad, más ciencia da: las cifras siguen lo difícil que es conseguirla, no su etiqueta de rareza, así que un Power Core (Poco común) da más que un Orvium (Raro). Los minerales salen del Almacén de recursos de tu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); cualquier otro recurso sale de tu inventario, y tu nave debe estar aterrizada. La Velkonite Reinforced Plate, la Orvium Reinforced Plate, la Dark Matter Plate, el Dark Matter, los créditos y el Thulium no se pueden quemar; la Reinforced Hull Plate sí.
+
+<!-- research-fuel:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Recurso | Rareza | Se toma de | Ciencia por unidad | Unidades para 1 hora |
+| :--- | :--- | :--- | ---: | ---: |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Común | Tu inventario | 5 | 720 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Común | Tu inventario | 5 | 720 |
+| [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Común | Tu inventario | 7 | 515 |
+| [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Común | Tu inventario | 7 | 515 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Común | Tu inventario | 8 | 450 |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Común | Tu inventario | 33 | 110 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Poco común | Almacén de recursos | 40 | 90 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Raro | Almacén de recursos | 80 | 45 |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Poco común | Tu inventario | 100 | 36 |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Tu inventario | 650 | 6 |
+
+La última columna es el número de unidades que sostienen una hora de investigación sin el impulso, redondeado hacia arriba; con el impulso son 2 veces más.
+
+<!-- research-fuel:end -->
+
+## El impulso de Thulium {#the-thulium-boost}
+
+<!-- research-boost:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **5.000 Thulium** compran un impulso: el Centro investiga **2 veces más rápido durante 24 horas**.
+- También **quema la ciencia 2 veces más rápido**, así que un impulso compra tiempo y nunca combustible: una tecnología quema la misma ciencia, con impulso o sin él.
+- Un impulso empieza en el momento en que lo compras y corre con el reloj tenga combustible el depósito o no, así que cómpralo mientras corre una investigación. El Centro lo rechaza cuando no se investiga nada.
+- Los impulsos se suman: comprar uno mientras otro corre añade 24 horas a su final, hasta 72 horas por adelantado. Un impulso pertenece a tu Centro de investigación, no a una investigación concreta.
+
+Lo que hace un impulso con el tiempo de una investigación, con impulso desde su inicio:
+
+| Tiempo de investigación | Con el impulso | Impulsos para toda ella | Thulium |
+| :--- | :--- | ---: | ---: |
+| 30 min | 15 min | 1 | 5.000 |
+| 3 h | 1 h 30 min | 1 | 5.000 |
+| 6 h | 3 h | 1 | 5.000 |
+| 10 h | 5 h | 1 | 5.000 |
+| 1 d | 12 h | 1 | 5.000 |
+| 2 d | 1 d | 1 | 5.000 |
+
+<!-- research-boost:end -->
+
+## Dark Matter {#dark-matter}
+
+Las tecnologías de lo más alto del árbol necesitan además Dark Matter. Sale del [agujero negro](/wiki/03-Mechanics/Black-Hole.md#dark-matter), donde deja algo un cohete N.I.K.E. que llega a él, y de vez en cuando de un Dormant Pulse del [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
+
+<!-- research-dark-matter:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **10 Dark Matter** por cada una de las 15 tecnologías de la tabla de abajo, además de la ciencia: introdúcelo en el Centro de investigación (desde tu inventario, con la nave aterrizada) antes de empezar, y la investigación lo toma al empezar.
+- **La regla:** un objeto de rareza Épico o superior cuya investigación tarda 10 h o más. El N.I.K.E., con el que se obtiene el Dark Matter, nunca lo necesita.
+- **Si cancelas una investigación,** el Dark Matter que introdujiste para ella vuelve al Centro. El progreso y la ciencia ya quemada, no.
+- Todas juntas piden 150 Dark Matter.
+
+| Tecnología | Rareza | Tiempo de investigación | Dark Matter |
+| :--- | :--- | :--- | ---: |
+| [Impulse Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | Épico | 10 h | 10 |
+| [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | Épico | 10 h | 10 |
+| [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | Épico | 10 h | 10 |
+| [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | Épico | 10 h | 10 |
+| [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | Mítico | 1 d | 10 |
+| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | Mítico | 1 d | 10 |
+| [Nova Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Épico | 10 h | 10 |
+| [Apex Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Épico | 10 h | 10 |
+| [Ironclad](/wiki/02-Ships/Ironclad.md) | Épico | 1 d | 10 |
+| [Storm](/wiki/02-Ships/Storm.md) | Épico | 1 d | 10 |
+| [Wraith](/wiki/02-Ships/Wraith.md) | Mítico | 2 d | 10 |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mítico | 1 d | 10 |
+| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Legendario | 1 d | 10 |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | Épico | 1 d | 10 |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | Épico | 1 d | 10 |
+
+<!-- research-dark-matter:end -->
+
+## El árbol de tecnologías {#the-technology-tree}
+
+Cada recuadro es una tecnología: el objeto que te permite fabricar, con su tiempo de investigación bajo el nombre (el reloj) y, donde necesita Dark Matter, la insignia de Dark Matter. Una flecha va de una tecnología a la que la necesita, que investigas primero; un recuadro sin flecha se puede investigar enseguida. Pasa el cursor por un recuadro para ver el tiempo de investigación, la ciencia que quema y lo que Ensamblaje pide después por el objeto, y haz clic para abrir la página del objeto. Los árboles se dibujan a partir de los propios datos del juego.
+
+<!-- research-tree:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+### Propulsión y velocidad {#tree-propulsion}
+
+```tree research
+Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+
+Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
+Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+```
+
+### Escudos y defensa {#tree-shields}
+
+```tree research
+Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+
+Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
+Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
+```
+
+### Láseres y munición {#tree-lasers}
+
+```tree research
+Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Nova Amp | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Pulse Amp, 1 Power Core, 30 Cataclysite, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Apex Amp | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Prism Amp, 1 Power Core, 30 Cataclysite, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+
+Quantum Laser 3 => Starfire-3 => Helios Beam
+```
+
+### Potenciadores {#tree-boosters}
+
+```tree research
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+```
+
+### Drones {#tree-drones}
+
+```tree research
+Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+```
+
+### Naves {#tree-ships}
+
+```tree research
+Paragon | ship, rare | craft 1500 Thulium, 900 s | research 21600 s, 21600 science | 120 Ship Fragment, 20 Reinforced Hull Plate, 5 Power Core | /wiki/02-Ships/Paragon.md
+Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
+Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Storm.md
+Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 300 Ship Fragment, 50 Reinforced Hull Plate, 15 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
+```
+
+### Recursos {#tree-resources}
+
+```tree research
+Dark Matter Plate | resource, mythical | craft 250 Thulium, 120 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate, 5 Dark Matter | /wiki/06-Items/Resources.md#dark-matter-plate
+```
+
+### Cohetes {#tree-rockets}
+
+```tree research
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+```
+
+### CPU {#tree-cpus}
+
+```tree research
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+
+Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
+Base CPU I => Base CPU II => Jump CPU
+```
+
+
+<!-- research-tree:end -->
+
+## Todas las tecnologías {#all-the-technologies}
+
+<!-- research-technologies:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Tecnología | Necesita antes | Clase | Tiempo de investigación | Ciencia | Dark Matter |
+| :--- | :--- | :--- | ---: | ---: | ---: |
+| [Impulse Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 min | 1.800 | – |
+| [Impulse Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Impulse Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 h | 10.800 | – |
+| [Impulse Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Impulse Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 h | 36.000 | 10 |
+| [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 min | 1.800 | – |
+| [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 h | 10.800 | – |
+| [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 h | 36.000 | 10 |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | – | B | 3 h | 10.800 | – |
+| [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 min | 1.800 | – |
+| [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 h | 10.800 | – |
+| [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | C | 10 h | 36.000 | 10 |
+| [Capacity Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 min | 1.800 | – |
+| [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 h | 10.800 | – |
+| [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | C | 10 h | 36.000 | 10 |
+| [Heavy Shield Core](/wiki/06-Items/Shields.md#shield-cores) | – | B | 3 h | 10.800 | – |
+| [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | – | B | 3 h | 10.800 | – |
+| [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86.400 | 10 |
+| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86.400 | 10 |
+| [Nova Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | C | 10 h | 36.000 | 10 |
+| [Apex Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | C | 10 h | 36.000 | 10 |
+| [Damage Amp II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10.800 | – |
+| [Shield Wall II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10.800 | – |
+| [Hull Plating II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10.800 | – |
+| [Master Drone](/wiki/06-Items/Drones.md#available-drones) | – | C | 10 h | 36.000 | – |
+| [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 h | 21.600 | – |
+| [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 d | 86.400 | 10 |
+| [Storm](/wiki/02-Ships/Storm.md) | – | D | 1 d | 86.400 | 10 |
+| [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2 d | 172.800 | 10 |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1 d | 86.400 | 10 |
+| [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3 h | 10.800 | – |
+| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | D | 1 d | 86.400 | 10 |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | – | A | 30 min | 1.800 | – |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | C | 10 h | 36.000 | – |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | D | 1 d | 86.400 | 10 |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | – | B | 3 h | 10.800 | – |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10 h | 36.000 | – |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1 d | 86.400 | 10 |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6 h | 21.600 | – |
+
+Las clases, por tiempo de investigación:
+
+| Clase | Tiempo de investigación | Tecnologías | Una tras otra | Ciencia | Dark Matter |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| A | 30 min | 5 | 2 h 30 min | 9.000 | 0 |
+| B | 3 h a 6 h | 14 | 2 d | 172.800 | 0 |
+| C | 10 h | 9 | 3 d 18 h | 324.000 | 60 |
+| D | 1 d a 2 d | 9 | 10 d | 864.000 | 90 |
+| Todas |  | 37 | 15 d 20 h 30 min | 1.369.800 | 150 |
+
+Investigado una tecnología tras otra, el árbol entero tarda 15 d 20 h 30 min. Con el impulso activo todo el tiempo tarda 7 d 22 h 15 min, que son 8 impulsos y 40.000 Thulium; la ciencia es la misma.
+
+<!-- research-technologies:end -->
+
+## Las CPU {#the-cpus}
+
+Las CPU nuevas también se investigan aquí y luego se fabrican en Ensamblaje. La misma tabla y las mismas notas están en la página de [Extras](/wiki/06-Items/Extras.md#research-cpus).
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | Tiempo de investigación | Necesita antes | Thulium para fabricar | Tiempo de fabricación |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 min | – | 12.000 | 5 min |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 h | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30.000 | 10 min |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 d | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75.000 | 15 min |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 h | – | 8.000 | 5 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20.000 | 10 min |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
+
+Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU en Ensamblaje. Pasa el cursor por una CPU en su árbol para ver qué pide Ensamblaje para fabricarla.
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **Qué hacen.** La Extra Slots CPU I, II y III dan a cada nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 que tiene cada nave. Una CPU superior sustituye a la anterior: la II no se suma a la I.
+- **Se instala, no se lleva.** Una Extra Slots CPU no es un objeto: cuando la recoges en Ensamblaje se instala sola en tu Skylab, para todas las naves en las dos configuraciones, y no ocupa ninguna ranura. Se conserva tras el reinicio.
+- **En orden.** Fabrícalas una tras otra: la II solo cuando la I está instalada, la III solo cuando la II está instalada; hasta entonces Ensamblaje te dice cuál instalar primero. Las tres cuestan 117.000 Thulium en total: 12.000, 30.000 y 75.000.
+
+### Jump CPU {#jump-cpu}
+
+- **Qué hace.** Salta con tu nave a cualquier sector de corporación de tu mundo, tanto de tu propia corporación como de las demás, con sus sectores base incluidos (`M`, `T` y `G`, sectores 1 a 4), por **500 Thulium** cada salto. No tiene límite de usos: solo pagas el Thulium. Nunca lleva a un sector de peligro (`DS`) ni a un sector neutral (`N`).
+- **El salto.** Pulsa la ranura JMP, elige el sector en el mapa del Sistema estelar y confirma: la nave se carga durante 5 segundos y luego llega a una puerta de ese sector, protegida como tras cualquier salto de puerta. La CPU se enfría durante 30 segundos tras tu llegada.
+- **No en combate.** No puede empezar dentro de los 10 segundos posteriores a disparar o recibir un golpe, y un disparo o un golpe mientras se carga cancela el salto; entonces no se paga nada. No puedes saltar camuflado.
+- **No desde un sector neutral:** un piloto que esté en un sector neutral o no tenga corporación no puede usarla.
+- Puede salir de un sector de peligro cuando no estás en combate.
+
+### Base CPUs {#base-cpus}
+
+- **Qué hacen.** Teletransportan tu nave a la base de tu corporación, a la zona segura que rodea su estación (`M-1`, `T-1` o `G-1`, el sector con Mission Control), sin coste de Thulium. Las inicias desde la ranura BSE de la barra rápida.
+- **No en combate.** Una carga de 10 segundos, la misma para ambas. No puede empezar dentro de los 10 segundos posteriores a disparar o recibir un golpe, ni estando camuflado ni cuando ya estás dentro de la zona segura de tu base, y un disparo o un golpe mientras se carga la cancela.
+
+| CPU | Usos | Enfriamiento |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 min |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 min |
+
+- **Se gasta, no se recarga.** Cada uso consume uno de los usos de la CPU, y una CPU sin usos restantes desaparece: fabrica otra. Si llevas las dos puestas, se usa primero la mejor (II).
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **Qué hace.** Lanza por sí sola el Repair Drone que llevas en las ranuras de extra, siempre que pudieras haberlo lanzado a mano: tu casco no está lleno, el dron no está ya fuera y han pasado 10 segundos desde el último golpe. No hay ningún nivel de casco que configurar.
+- Ocupa una ranura de extra propia y no hace nada sin un Repair Drone en una ranura de extra de la misma configuración. Nunca lanza un Repair Drone de una ranura de habilidad (ese es el botón Emergency Repair).
+- **Si detienes el dron a mano,** la CPU lo deja en paz hasta que tu casco vuelva a estar lleno o hasta que lo lances tú.
+
+
+<!-- research-cpus:end -->

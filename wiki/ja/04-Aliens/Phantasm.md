@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Phantasm は攻撃的なスペクトル級のドローンです。索敵範囲�
 
 ## 報酬 {#rewards}
 
-- **クレジット**：2,400
+- **クレジット**：3,000
 - **Thulium**：12
 - **経験値（XP）**：300
 - **名誉**：6

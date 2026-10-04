@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre de
 
 - **Créditos**: 0 (Se fabrica en Ensamblaje)
 - **Thulium**: 0
+
+## Investigación {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Investiga primero.** Ensamblaje solo fabrica esta nave cuando has investigado su tecnología: 6 h de investigación. La tecnología está en el [árbol de Naves](/wiki/03-Mechanics/Research.md#tree-ships) de la página [Investigación](/wiki/03-Mechanics/Research.md).
+- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Historia {#lore}
 

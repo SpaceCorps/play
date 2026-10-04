@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
 I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che colpisce molto più forte di una raffica laser. Dodici razzi in quattro tipi, tre fasce per ciascun tipo, altri due che produce solo l’Assemblaggio, e **un solo timer di ricarica di 5 secondi che condividono tutti**, qualunque tu lanci. I razzi Comuni e Rari si comprano con i **crediti**; i quattro razzi Epici si comprano con il **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Albero degli oggetti {#item-tree}
+
+Ciò che crea l’Assemblaggio richiede prima la sua tecnologia; passa il puntatore su un oggetto per vedere quanto tempo serve a ricercarla. L’albero delle tecnologie, il carburante e il boost: [Ricerca](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## I quattro tipi {#the-four-kinds}
 
@@ -64,7 +94,7 @@ I razzi necessari per distruggere un alieno, un tipo di razzo dopo l’altro (Al
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - I razzi **Comuni** a bersaglio singolo distruggono un Seeker con un colpo, con qualsiasi valore, e un Phantasm con tre (un Lancet I ne richiede un quarto con il suo valore più basso); sono i razzi di ogni giorno dei primi settori. Quelli **Rari** sono per il Bulwark e il Goombah: otto Lancet II abbattono un Bulwark in circa 35 secondi di timer. Quelli **Epici** distruggono un Phantasm con un colpo, con qualsiasi valore, e un Goombah con nove-undici colpi. Le esplosioni valgono il loro prezzo quando più alieni sono vicini: un Scatter III che esplode su un branco di cinque Phantasm infligge circa 18.000 danni al branco in un solo lancio.
-- Un abbattimento solo con i razzi è una vera spesa, non un modo per arricchirsi: per l’alieno a cui è destinato, un razzo a bersaglio singolo costa da un sesto a cinque sesti di ciò che paga l’abbattimento (crediti, e Thulium a 200 crediti l’uno), e i razzi deboli sugli alieni forti costano più di quanto paga l’abbattimento. Distruggere il **Crystalys** con un solo tipo richiede da 62 a 399 razzi e almeno cinque minuti di timer; una scorta piena di 500 razzi Epici basta per distruggerne da quattro a otto. L’alieno più forte richiede un piano: i tuoi laser con munizioni x2, un razzo di fascia media ogni 5 secondi fin dal primo secondo, e i razzi grossi qui sotto come picco di danno.
+- Un abbattimento solo con i razzi è una vera spesa, non un modo per arricchirsi: per l’alieno a cui è destinato, un razzo a bersaglio singolo costa da circa un settimo a tre quarti di ciò che paga l’abbattimento (crediti, e Thulium a 200 crediti l’uno), e i razzi deboli sugli alieni forti costano più di quanto paga l’abbattimento. Distruggere il **Crystalys** con un solo tipo richiede da 62 a 399 razzi e almeno cinque minuti di timer; una scorta piena di 500 razzi Epici basta per distruggerne da quattro a otto. L’alieno più forte richiede un piano: i tuoi laser con munizioni x2, un razzo di fascia media ogni 5 secondi fin dal primo secondo, e i razzi grossi qui sotto come picco di danno.
 - Il compenso di un abbattimento è lo stesso comunque sia ottenuto (vedi [il Crystalys](/wiki/04-Aliens/Crystalys.md) per il più grosso), quindi un abbattimento con i razzi conviene quando ti fa risparmiare tempo e costa meno di quanto paga.
 - **Anche gli alieni sparano razzi.** Il Pirate Boss, la Dormant Force e le Pulse degli [sciami](/wiki/05-Swarms/Swarms.md) lanciano razzi Rivet dritti al pilota che li ha attaccati, con lo stesso timer di 5 secondi. Una nave che resta in movimento li schiva. I boss degli sciami lasciano anche razzi nelle loro casse.
 

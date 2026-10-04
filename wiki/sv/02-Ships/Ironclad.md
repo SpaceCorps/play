@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97533004d431080c -->
+<!-- wiki-i18n source: 149e34b610132a0e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad {#ironclad}
 
@@ -23,6 +23,16 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 - **Krediter**: 0 (Byggs i Monteringen)
 - **Thulium**: 0
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Forska först.** Monteringen tillverkar det här skeppet först när du har forskat fram dess teknologi: 1 d forskning och 10 Dark Matter som ska sättas i forskningscentrumet. Den finns i [trädet Skepp](/wiki/03-Mechanics/Research.md#tree-ships) på sidan [Forskning](/wiki/03-Mechanics/Research.md).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Bakgrund {#lore}
 

@@ -18,7 +18,7 @@ Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un grup
 - **Capo distrutto**: Dormant Pulse prende il comando
 - **Spostamenti**: Resta da 8 a 15 min su una mappa, poi vola alla porta di un altro settore pericoloso. Non prende mai le porte che escono dai settori pericolosi e non entra mai nell’anello del buco nero
 - **Ritorna**: 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale
-- **Avvisi**: La chat di tutto il mondo dice quando lo sciame compare e quando viene distrutto. Un segnalino lo mostra sulle mappe dei settori pericolosi e sulla mappa galattica. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
+- **Avvisi**: I piloti di tutto il mondo vengono avvisati quando lo sciame compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Un segnalino lo mostra sulle mappe dei settori pericolosi e sulla mappa galattica. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Base: Wraith, con il 100% di scafo, scudo e danno; velocità e portata sono quel
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Danno dei razzi, al massimo | 7.500 | 11.250 | 15.000 |
-| Crediti | 160.000 | 320.000 | 480.000 |
+| Crediti | 200.000 | 400.000 | 600.000 |
 | Thulium | 535 | 1.070 | 1.605 |
 | Esperienza (XP) | 32.100 | 64.200 | 96.300 |
 | Onore | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Base: Paragon, con il 100% di scafo, scudo e danno; velocità e portata sono que
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Danno dei razzi, al massimo | 5.000 | 7.500 | 10.000 |
-| Crediti | 75.000 | 150.000 | 225.000 |
+| Crediti | 95.000 | 190.000 | 285.000 |
 | Thulium | 255 | 510 | 765 |
 | Esperienza (XP) | 15.200 | 30.400 | 45.600 |
 | Onore | 66 | 132 | 198 |

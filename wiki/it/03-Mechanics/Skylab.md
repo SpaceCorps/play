@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 65da665842938543 -->
+<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
-Lo Skylab è la tua stazione orbitale personale. Costruisce e potenzia moduli che producono crediti e Thulium, estraggono minerale e forgiano le piastre che l’Assemblaggio trasforma nei laser migliori. Lavora per te anche quando sei offline.
+Lo Skylab è la tua stazione orbitale personale. Costruisce e potenzia moduli che producono crediti e Thulium, estraggono minerale, forgiano le piastre che l’Assemblaggio trasforma nei laser migliori e, dal livello 10 del Nucleo, ricercano le tecnologie di cui l’Assemblaggio ha bisogno. Lavora per te anche quando sei offline.
 
 ## Panoramica {#overview}
 
-Lo Skylab segue un orologio tutto suo, indipendente dalla tua nave: i moduli producono e forgiano mentre sei via. Il tuo compito è costruire, potenziare, mantenere l’energia in equilibrio e raccogliere. La pagina offre tre viste della stessa stazione: **Stazione** (la stazione in 3D, con un’etichetta sopra ogni modulo; clicca su una per aprirne il pannello, oppure premi da **1** a **8**), **Elenco** (una scheda per ogni modulo) e **Tabella** (i valori di tutti i moduli in un’unica tabella). Passando il puntatore su **Costruisci** o **Potenzia** vedi cosa cambia al livello successivo, quanto costa e quanto tempo richiede.
+Lo Skylab segue un orologio tutto suo, indipendente dalla tua nave: i moduli producono e forgiano mentre sei via. Il tuo compito è costruire, potenziare, mantenere l’energia in equilibrio e raccogliere. La pagina offre quattro viste della stessa stazione: **Stazione** (la stazione in 3D, con un’etichetta sopra ogni modulo; clicca su una per aprirne il pannello, oppure premi da **1** a **9**), **Elenco** (una scheda per ogni modulo), **Tabella** (i valori di tutti i moduli in un’unica tabella) e **Ricerca** (la schermata propria del Centro ricerche, vedi [Ricerca](/wiki/03-Mechanics/Research.md)). Passando il puntatore su **Costruisci** o **Potenzia** vedi cosa cambia al livello successivo, quanto costa e quanto tempo richiede.
 
-La stazione è composta da otto moduli:
+La stazione è composta da nove moduli:
 
 | Modulo | Produce o fa | Disponibile da |
 | :--- | :--- | :--- |
@@ -20,6 +20,7 @@ La stazione è composta da otto moduli:
 | **Collettore Orvium** | Estrae minerale di Orvium | Nucleo al livello 5 |
 | **Magazzino risorse** | Conserva il minerale | Nucleo al livello 5 |
 | **Fucina** | Forgia il minerale in piastre | Nucleo al livello 5 |
+| **Centro ricerche** | Trasforma le risorse in scienza e ricerca [tecnologie](/wiki/03-Mechanics/Research.md) | Nucleo al livello 10 |
 
 **Missioni dedicate.** Dieci [missioni Stazione](/wiki/03-Mechanics/Quests.md#station-missions) in Mission Control ti guidano attraverso lo Skylab: costruisci Solare, una Fattoria crediti e una Fattoria Thulium, potenzia il Nucleo e Solare, raccogli i tuoi primi 50.000 crediti e apri la filiera, e ti pagano un po’ per ogni passo. La prima è aperta dal livello 1.
 
@@ -62,9 +63,9 @@ Ecco la vista Stazione dello Skylab a ogni livello da 1 a 20, tutte dalla stessa
 
 ![Livello 20](../../img/skylab/wiki/level-20.jpg)
 
-**Le schede degli otto moduli.** La vista Elenco della stessa stazione al livello 20: i quattro moduli della prima versione, più il Collettore Velkonite, il Collettore Orvium, il Magazzino risorse e la Fucina, arrivati con la filiera. Ogni scheda mostra il livello del modulo, la sua produzione, la sua energia e il suo interruttore.
+**Le schede dei nove moduli.** La vista Elenco della stessa stazione al livello 20: i quattro moduli della prima versione, il Collettore Velkonite, il Collettore Orvium, il Magazzino risorse e la Fucina, arrivati con la filiera, e il Centro ricerche. Ogni scheda mostra il livello del modulo, la sua produzione, la sua energia e il suo interruttore. Tutte le schede riportano il livello 20, tranne quella del Centro ricerche: ha i livelli da 1 a 10, perciò la sua scheda riporta il livello 10, il massimo.
 
-![La vista Elenco al livello 20: le schede di Nucleo, Solare, Fattoria crediti, Fattoria Thulium, Collettore Velkonite, Collettore Orvium, Magazzino risorse e Fucina](../../img/skylab/wiki/modules.jpg)
+![La vista Elenco al livello 20: le schede di Nucleo, Solare, Fattoria crediti, Fattoria Thulium, Collettore Velkonite, Collettore Orvium, Magazzino risorse, Fucina e Centro ricerche](../../img/skylab/wiki/modules.jpg)
 
 ## I primi quattro moduli {#the-first-four-modules}
 
@@ -77,7 +78,7 @@ Il cuore del tuo Skylab. Il livello del Nucleo decide il livello massimo di ogni
 L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energia che usano tutti gli altri moduli.
 
 - **Importanza**: se l’energia che usi supera quella che produci, le tue fattorie e i tuoi collettori si spengono.
-- **Energia prodotta**: un modulo Solare al livello N ne produce a sufficienza per **ogni altro modulo al livello N**, e circa un decimo in più: 255 al livello 1, 835 al livello 7, 16.010 al livello 20. Solare al livello 7 alimenta un’intera stazione al livello 7 (vedi Gestione dell’energia per ogni livello).
+- **Energia prodotta**: un modulo Solare al livello N ne produce a sufficienza per **ogni altro modulo al livello N**, e circa un decimo in più: 255 al livello 1, 835 al livello 7, 16.110 al livello 20. Solare al livello 7 alimenta un’intera stazione al livello 7 (vedi Gestione dell’energia per ogni livello).
 - **Potenziamento**: Solare continua a produrre l’energia del livello attuale mentre si potenzia, e quella del nuovo livello dal momento in cui il potenziamento termina, quindi il resto della stazione continua a funzionare (vedi Costruzione e potenziamento).
 
 ### Fattoria crediti e Fattoria Thulium {#credit-farm-and-thulium-farm}
@@ -125,6 +126,10 @@ Ognuno dei quattro costa **10 Ship Fragment, 10.000 crediti e 500 Thulium**, e r
 - Consumano energia. Prima di costruire, il pannello mostra il tuo bilancio energetico attuale e quello dopo la costruzione: **costruire può mandare in deficit una stazione** quando il suo Solare è indietro rispetto agli altri moduli, e un solo deficit ferma ogni fattoria e collettore. Spegni un modulo, oppure potenzia prima Solare.
 - I due collettori sono sospesi su strutture sopra la stazione, il Magazzino risorse si trova alla porta nord-est del Nucleo e la Fucina alla sua porta nord-ovest.
 
+## Il Centro ricerche {#the-research-centre}
+
+Il nono modulo trasforma le risorse in scienza e ricerca le tecnologie di cui l’Assemblaggio ha bisogno prima di creare qualcosa di nuovo. Si costruisce dal livello 10 del Nucleo, ha i livelli da 1 a 10, consuma energia e non si può spegnere. I suoi numeri, ciò che brucia come carburante, il boost e l’intero albero delle tecnologie sono nella pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+
 ## Meccaniche {#mechanics}
 
 ### Costruzione e potenziamento {#building-and-upgrading}
@@ -143,13 +148,13 @@ Ognuno dei quattro costa **10 Ship Fragment, 10.000 crediti e 500 Thulium**, e r
 
 **Livelli da 1 a 5**, per modulo (il potenziamento dal livello indicato nella prima colonna):
 
-| Livello | Nucleo | Solare | Fattoria crediti | Fattoria Thulium | Magazzino risorse | Collettore Velkonite | Collettore Orvium | Fucina |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| da 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s |
-| da 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s |
-| da 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s |
-| da 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s |
-| da 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s |
+| Livello | Nucleo | Solare | Fattoria crediti | Fattoria Thulium | Magazzino risorse | Collettore Velkonite | Collettore Orvium | Fucina | Centro ricerche |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| da 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
+| da 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
+| da 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
+| da 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
+| da 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
 
 **Dal livello 6**, uguali per ogni modulo:
 
@@ -178,11 +183,11 @@ Un potenziamento già in corso quando i tempi cambiano mantiene l’orario di fi
 Il tuo Skylab ha una disponibilità di energia limitata.
 
 - **Bilancio**: mantieni la produzione di Solare al di sopra dell’energia usata da tutti gli altri moduli. La pagina Skylab mostra il bilancio, e ti avvisa prima che una costruzione lo porti sotto zero.
-- **Solare tiene il passo**: un modulo Solare al livello N produce l’energia di **tutti e sette gli altri moduli al livello N** (il Nucleo, entrambe le fattorie, il Magazzino risorse, entrambi i collettori e la Fucina) e circa un decimo in più, quindi una stazione i cui moduli sono tutti al livello 7 ha bisogno di Solare 7, e ne è coperta. Solare un livello più basso non basta per una stazione al completo (l’ultima colonna), quindi Solare deve comunque seguire gli altri nella salita. Il Nucleo consuma poco, quindi può andare avanti: Solare 5 e oltre copre una stazione al completo al suo livello con il Nucleo a qualsiasi livello.
-- **Stato attivo**: puoi accendere o spegnere le fattorie, i collettori e la Fucina per gestire l’energia. Il Nucleo, Solare e il Magazzino risorse funzionano sempre.
-- **Blackout**: se l’energia usata supera quella prodotta, tutte le fattorie e i collettori smettono di produrre finché il bilancio non si ristabilisce. Ciò che hanno già immagazzinato resta, e puoi comunque raccoglierlo. La Fucina non avvia nuovi lotti.
+- **Solare tiene il passo**: un modulo Solare al livello N produce l’energia di **tutti gli altri moduli al livello N** (il Nucleo, entrambe le fattorie, il Magazzino risorse, entrambi i collettori e la Fucina, e dal livello 10 il Centro ricerche) e circa un decimo in più, quindi una stazione i cui moduli sono tutti al livello 7 ha bisogno di Solare 7, e ne è coperta. Solare un livello più basso non basta per una stazione al completo (l’ultima colonna), quindi Solare deve comunque seguire gli altri nella salita. Il Nucleo consuma poco, quindi può andare avanti: Solare 5 e oltre copre una stazione al completo al suo livello con il Nucleo a qualsiasi livello.
+- **Stato attivo**: puoi accendere o spegnere le fattorie, i collettori e la Fucina per gestire l’energia. Il Nucleo, Solare, il Magazzino risorse e il Centro ricerche funzionano sempre.
+- **Blackout**: se l’energia usata supera quella prodotta, tutte le fattorie e i collettori smettono di produrre finché il bilancio non si ristabilisce. Ciò che hanno già immagazzinato resta, e puoi comunque raccoglierlo. La Fucina non avvia nuovi lotti e il Centro ricerche non avvia nuove ricerche (una ricerca già in corso prosegue).
 
-L’energia di Solare a ogni livello, a confronto con quella usata dagli altri sette moduli allo stesso livello (ogni modulo a quel livello, Nucleo compreso):
+L’energia di Solare a ogni livello, a confronto con quella usata dagli altri moduli allo stesso livello (ogni modulo a quel livello, Nucleo compreso, e il Centro ricerche dal livello 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -198,20 +203,20 @@ L’energia di Solare a ogni livello, a confronto con quella usata dagli altri s
 | 7 | 835 | 756 | 79 | 680: mancano 76 |
 | 8 | 1.030 | 933 | 97 | 835: mancano 98 |
 | 9 | 1.275 | 1.155 | 120 | 1.030: mancano 125 |
-| 10 | 1.580 | 1.435 | 145 | 1.275: mancano 160 |
-| 11 | 1.970 | 1.788 | 182 | 1.580: mancano 208 |
-| 12 | 2.460 | 2.234 | 226 | 1.970: mancano 264 |
-| 13 | 3.085 | 2.800 | 285 | 2.460: mancano 340 |
-| 14 | 3.875 | 3.519 | 356 | 3.085: mancano 434 |
-| 15 | 4.880 | 4.434 | 446 | 3.875: mancano 559 |
-| 16 | 6.160 | 5.600 | 560 | 4.880: mancano 720 |
-| 17 | 7.800 | 7.088 | 712 | 6.160: mancano 928 |
-| 18 | 9.895 | 8.992 | 903 | 7.800: mancano 1.192 |
-| 19 | 12.575 | 11.429 | 1.146 | 9.895: mancano 1.534 |
-| 20 | 16.010 | 14.554 | 1.456 | 12.575: mancano 1.979 |
+| 10 | 1.680 | 1.523 | 157 | 1.275: mancano 248 |
+| 11 | 2.065 | 1.876 | 189 | 1.680: mancano 196 |
+| 12 | 2.555 | 2.322 | 233 | 2.065: mancano 257 |
+| 13 | 3.180 | 2.888 | 292 | 2.555: mancano 333 |
+| 14 | 3.970 | 3.607 | 363 | 3.180: mancano 427 |
+| 15 | 4.975 | 4.522 | 453 | 3.970: mancano 552 |
+| 16 | 6.260 | 5.688 | 572 | 4.975: mancano 713 |
+| 17 | 7.895 | 7.176 | 719 | 6.260: mancano 916 |
+| 18 | 9.990 | 9.080 | 910 | 7.895: mancano 1.185 |
+| 19 | 12.670 | 11.517 | 1.153 | 9.990: mancano 1.527 |
+| 20 | 16.110 | 14.642 | 1.468 | 12.670: mancano 1.972 |
 <!-- skylab-power:end -->
 
-La tabella conta ogni modulo allo stesso livello. La Fattoria Thulium consuma quattro quinti di quel totale al vertice (11.695 al livello 20, contro 14.554 per tutti e sette), quindi una stazione con quella fattoria molto più avanti del resto ha bisogno di più Solare di quanto suggerisca il suo Nucleo.
+La tabella conta ogni modulo allo stesso livello. La Fattoria Thulium consuma quattro quinti di quel totale al vertice (11.695 al livello 20, contro 14.642 per tutti e otto), quindi una stazione con quella fattoria molto più avanti del resto ha bisogno di più Solare di quanto suggerisca il suo Nucleo.
 
 ### Raccolta {#collecting}
 
@@ -226,4 +231,4 @@ Ogni fattoria e collettore ha una tramoggia per circa 72 ore della sua produzion
 
 ### Il reset {#the-wipe}
 
-Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli e il Magazzino risorse conserva il suo minerale. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md).
+Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse conserva il suo minerale e il Centro ricerche conserva le sue tecnologie, il suo serbatoio di scienza, la Dark Matter inserita e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md).

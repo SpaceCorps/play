@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97533004d431080c -->
+<!-- wiki-i18n source: 149e34b610132a0e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad {#ironclad}
 
@@ -23,6 +23,16 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 
 - **Créditos**: 0 (Fabricada na Montagem)
 - **Thulium**: 0
+
+## Pesquisa {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Pesquise primeiro.** A Montagem só cria esta nave depois que você pesquisar a tecnologia dela: 1 d de pesquisa e 10 Dark Matter a inserir no Centro de Pesquisa. Ela fica na [árvore de Naves](/wiki/03-Mechanics/Research.md#tree-ships) da página [Pesquisa](/wiki/03-Mechanics/Research.md).
+- **Mais slots extras.** As Extra Slots CPU I, II e III, instaladas no seu Skylab, dão a esta nave 3, 5 e 7 slots extras a mais, ou seja, 6, 8 e 10 no total com os 3 que ela já tem. Elas são pesquisadas e criadas como qualquer outro item: veja [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## História {#lore}
 

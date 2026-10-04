@@ -1,8 +1,23 @@
-<!-- wiki-i18n source: 82df92858fe38c3f -->
+<!-- wiki-i18n source: 0dfda8fd6d9be79d -->
 <!-- wiki-i18n title: Drones -->
 # Drones {#drones}
 
 Los drones son unidades de apoyo que se compran o se fabrican. Puedes tener hasta **8 drones** activos a la vez, entre Slave Drones y Master Drones.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Árbol de objetos {#item-tree}
+
+Lo que fabrica Ensamblaje necesita antes su tecnología; pasa el cursor por un objeto para ver cuánto tarda en investigarse. El árbol de tecnologías, el combustible y el impulso: [Investigación](/wiki/03-Mechanics/Research.md).
+
+```tree
+Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+
+Slave Drone => Master Drone
+```
+<!-- item-tree:end -->
 
 ## Drones disponibles {#available-drones}
 

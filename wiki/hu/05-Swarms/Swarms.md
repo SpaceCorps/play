@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -56,7 +56,7 @@ A világ úgy skálázza a rajt, ahogy minden idegent ([Világok](/wiki/03-Mecha
 
 ## Mit tudnak meg a pilóták {#what-the-pilots-are-told}
 
-A Seeker- és a Pirate-raj a chaten értesíti a saját szektorának pilótáit, amikor egy boss megjelenik, és amikor megsemmisül. A Dormant-raj az egész világát értesíti, és a veszélyes szektorok térképén és a galaxistérképen jelölve van, hogy a pilóták megtalálhassák. A boss kilövése a kill feedben is kap egy sort, amely megnevezi a pilótát, akinek jóváírják. Az egyes cikkek *Röviden* listája megmondja, kit értesítenek.
+A Seeker- és a Pirate-raj értesíti a saját szektorának pilótáit, amikor egy boss megjelenik, és amikor megsemmisül. A Dormant-raj az egész világát értesíti, és a veszélyes szektorok térképén és a galaxistérképen jelölve van, hogy a pilóták megtalálhassák. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A boss kilövése a kill feedben is kap egy sort, amely megnevezi a pilótát, akinek jóváírják. Az egyes cikkek *Röviden* listája megmondja, kit értesítenek.
 
 ## Harc egy rajjal {#fighting-a-swarm}
 

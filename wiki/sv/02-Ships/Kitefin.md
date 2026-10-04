@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper:
 
 - **Krediter**: 0
 - **Thulium**: 600
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Ingen forskning behövs.** Det här skeppet har ingen egen teknologi.
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Bakgrund {#lore}
 

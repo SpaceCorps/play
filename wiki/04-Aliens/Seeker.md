@@ -22,7 +22,7 @@ Seekers are basic scouting and reconnaissance units. They are passive, meaning t
 
 ## Rewards
 
-- **Credits**: 800
+- **Credits**: 1,000
 - **Thulium**: 4
 - **Experience (XP)**: 100
 - **Honor**: 2

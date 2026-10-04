@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: 火箭 -->
 # 火箭 {#rockets}
 
 火箭是激光之外的第二种武器：每隔几秒发射一枚，威力远超一轮激光齐射。共有十二种火箭，分为四种类型、每种三个档次，另有两种只能在装配站制造的火箭，以及**所有火箭共用的一个 5 秒装填计时器**，无论你发射哪一种。普通和稀有火箭用**信用点**购买；四种史诗火箭用 **Thulium** 购买。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## 物品树 {#item-tree}
+
+装配站制造的东西要先有对应的科技；将指针悬停在物品上可看到研究所需的时间。科技树、燃料和加速见 [研究](/wiki/03-Mechanics/Research.md)。
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## 四种类型 {#the-four-kinds}
 
@@ -64,7 +94,7 @@
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - **普通**单体火箭无论怎么掷都是一击杀死一架 Seeker，三击杀死一架 Phantasm（Lancet I 掷出最低值时需要第四击）；它们是最初几个星区里的日常火箭。**稀有**火箭用来对付 Bulwark 和 Goombah：八枚 Lancet II 就能在大约 35 秒的计时内击杀一架 Bulwark。**史诗**火箭无论怎么掷都是一击杀死一架 Phantasm，九到十一枚杀死一架 Goombah。当多个外星人聚在一起时，范围爆炸火箭物有所值：一枚 Scatter III 在一群五架 Phantasm 上空爆裂，一次发射就能对整群共造成约 18,000 点伤害。
-- 只靠火箭击杀是一笔实打实的开销，不是发财之道：对于它所针对的外星人，单体火箭的花费是该击杀所得的六分之一到六分之五（信用点，以及按每个 Thulium 折合 200 信用点计的 Thulium），而用弱火箭打强外星人，花费比击杀所得还多。只用一种火箭击杀 **Crystalys** 需要 62 到 399 枚火箭，至少要五分钟的计时；一整堆 500 枚史诗火箭足够击杀其中的四到八架。最强的外星人需要一个计划：你的激光用 x2 弹药，从第一秒起每 5 秒一枚中档火箭，再用下文的大型火箭作为爆发。
+- 只靠火箭击杀是一笔实打实的开销，不是发财之道：对于它所针对的外星人，单体火箭的花费是该击杀所得的大约七分之一到四分之三（信用点，以及按每个 Thulium 折合 200 信用点计的 Thulium），而用弱火箭打强外星人，花费比击杀所得还多。只用一种火箭击杀 **Crystalys** 需要 62 到 399 枚火箭，至少要五分钟的计时；一整堆 500 枚史诗火箭足够击杀其中的四到八架。最强的外星人需要一个计划：你的激光用 x2 弹药，从第一秒起每 5 秒一枚中档火箭，再用下文的大型火箭作为爆发。
 - 无论用什么方式击杀，奖励都是一样的（最大的奖励见 [Crystalys](/wiki/04-Aliens/Crystalys.md)），所以火箭击杀只有在节省时间、且花费低于奖励时才值得。
 - **外星人也会发射火箭。** [虫群](/wiki/05-Swarms/Swarms.md)的 Pirate Boss、Dormant Force 和 Pulse 会以相同的 5 秒计时向攻击它们的飞行员发射直线 Rivet 火箭。保持移动的舰船可以躲开。虫群的 Boss 也会在货箱中掉落火箭。
 

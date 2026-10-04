@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ Bulwark är tungt pansrade försvarsplattformar. De är mycket aggressiva och sl
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 4 000
+- **Krediter**: 5 000
 - **Thulium**: 25
 - **Erfarenhet (XP)**: 800
 - **Heder**: 10

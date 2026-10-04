@@ -13,7 +13,7 @@ Bulwarks are heavily armored defensive platforms. They are highly aggressive and
 
 ## Rewards
 
-- **Credits**: 4,000
+- **Credits**: 5,000
 - **Thulium**: 25
 - **Experience (XP)**: 800
 - **Honor**: 10

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9e477b2e27250897 -->
+<!-- wiki-i18n source: 0105c89d1cbd6996 -->
 <!-- wiki-i18n title: Protos -->
 # Protos {#protos}
 
@@ -23,6 +23,16 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 
 - **Crediti**: 0 (Nave iniziale)
 - **Thulium**: 0
+
+## Ricerca {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Nessuna ricerca necessaria.** Questa nave non ha una tecnologia propria.
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Storia {#lore}
 

@@ -18,7 +18,7 @@ Der Seeker-Schwarm ist der kleinste der [Schwärme](/wiki/05-Swarms/Swarms.md): 
 - **Heilung**: Jeder Seeker Slave im Umkreis von 600 Einheiten um den Anführer heilt dessen Hülle, in Alpha 50 HP pro Sekunde
 - **Anführer zerstört**: Die Begleiter verschwinden 30 s nach der Zerstörung des Anführers, sofern sie nicht gerade angreifen
 - **Kehrt zurück**: 2 min nach der Zerstörung des Anführers, im selben Sektor
-- **Meldungen**: Der Chat des Sektors meldet, wann der Anführer auftaucht und wann er zerstört wird. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
+- **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Basis: Seeker mit 400 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Tempo | 120 | 120 | 120 |
 | Laserreichweite | 600 | 600 | 600 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Credits | 8.000 | 16.000 | 24.000 |
+| Credits | 10.000 | 20.000 | 30.000 |
 | Thulium | 40 | 80 | 120 |
 | Erfahrung (EP) | 1.000 | 2.000 | 3.000 |
 | Ehre | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Basis: Seeker mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Laserreichweite | 600 | 600 | 600 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Heilt den Anführer, je Begleiter, pro Sekunde (nur Hülle) | 50 | 75 | 100 |
-| Credits | 100 | 200 | 300 |
+| Credits | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Erfahrung (EP) | 12 | 24 | 36 |
 | Ehre | 1 | 2 | 3 |

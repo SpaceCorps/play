@@ -18,7 +18,7 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 - **Läkning**: Varje Pirate Scout inom 600 enheter från ledaren läker dess skrov, 40 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 1 min efter att ledaren förstörts, om de inte just attackerar
 - **Kommer tillbaka**: 2 min efter att ledaren förstörts, i samma sektor
-- **Meddelanden**: Sektorns chatt meddelar när ledaren dyker upp och när den förstörs. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
+- **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 | Laserräckvidd | – | – | – |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
-| Krediter | 116 000 | 232 000 | 348 000 |
+| Krediter | 145 000 | 290 000 | 435 000 |
 | Thulium | 725 | 1 450 | 2 175 |
 | Erfarenhet (XP) | 29 000 | 58 000 | 87 000 |
 | Heder | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Bygger på Kitefin med 50 % av skrov, sköld och skada; hastighet och räckvidd
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | 700 | 700 | 700 |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 40 | 60 | 80 |
-| Krediter | 800 | 1 600 | 2 400 |
+| Krediter | 1 000 | 2 000 | 3 000 |
 | Thulium | 4 | 8 | 12 |
 | Erfarenhet (XP) | 100 | 200 | 300 |
 | Heder | 2 | 4 | 6 |

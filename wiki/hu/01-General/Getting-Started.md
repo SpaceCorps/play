@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f498be6364c7a1f9 -->
+<!-- wiki-i18n source: e9dcb581ba3fe826 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -8,10 +8,14 @@
 
 A túléléshez és a boldoguláshoz két fizetőeszközt kell kezelned, és szemmel kell tartanod a becsületedet. Azok az anyagok, amelyekből építkezel, a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon találhatók, azzal együtt, hogy hol szerezheted meg őket, és mire valók:
 - **Kredit**: Az elsődleges, mindennapi fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a saját [Skylabod](/wiki/03-Mechanics/Skylab.md) Kreditfarmja pedig termeli. Alapfelszerelés, hajók és normál felszerelés vásárlására használod.
-- **Thulium**: A ritka radioaktív érc és nagy értékű fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a Skylabod Thuliumfarmja pedig termeli. Elit fegyverzet, hajtóművek, hibridpajzsok és erős boostercsomagok vásárlására, valamint a modulok fejlesztésére használod a Gyártásban.
-- **Becsület**: Pontszám, nem pénz: a frakciódon belüli rangod, hűséged és megbecsültséged mércéje. A becsület szerzése emeli a rangcímedet, de a saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat.
+- **Thulium**: A ritka radioaktív érc és nagy értékű fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a Skylabod Thuliumfarmja pedig termeli. Elit fegyverzet, hajtóművek, hibridpajzsok és erős boostercsomagok vásárlására, a modulok fejlesztésére a Gyártásban, a vállalatváltásra (5 000), a Kutatóközpont felgyorsítására (5 000) és a Jump CPU minden ugrására (500) használod.
+- **Becsület**: Pontszám, nem pénz: a frakciódon belüli rangod, hűséged és megbecsültséged mércéje. A becsület szerzése emeli a rangcímedet, de a saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat. A vállalatváltás elveszi a becsületed felét, lefelé kerekítve; a 0 vagy annál kisebb becsület változatlan marad ([Vállalatváltás](#changing-your-company)).
 
 Az állomáson a Krediteid, a Thuliumod és a Becsületed minden oldal jobb felső sarkában látható, a szektorod és az **Indulás** gomb mellett. Ha az ablak túl keskeny egy hosszú összeghez, az rövidítve jelenik meg (987,7M); mutass rá, hogy elolvashasd a teljes számot.
+
+## Vállalatváltás {#changing-your-company}
+
+A vállalatodat az első játékkor választod, és ez ingyenes. Később az állomáson válthatsz: a **Gazdaság › Vállalat** a másik két vállalatot mutatja, mindegyiknél egy **Vállalatváltás** gombbal. A váltás **5 000 Thuliumba** kerül, és elveszi a becsületed felét (lefelé kerekítve; a 0 vagy annál kisebb becsület változatlan marad). A hajód teljesen megjavul, és az új vállalatod bázisszektorába kerülsz (`M-1`, `T-1` vagy `G-1`). A klánod, a csoportod, a hajóid, a tárgyaid és a Skylabod úgy maradnak, ahogy vannak, a küldetéseid pedig folytatódnak: a tisztjeik mostantól az új vállalatodéi, a `rival x-4` feladat pedig a másik két vállalat határszektorait jelenti (lásd [Küldetések](/wiki/03-Mechanics/Quests.md#where-it-counts)). Amíg a hajód repülésben van, nem válthatsz vállalatot: előbb dokkolj.
 
 ## Játék barátokkal {#playing-with-friends}
 
@@ -87,3 +91,4 @@ Ha valami rossz, a számok alatt egy sor megmondja, kinek a hibája: a *Lassú h
 3. **Az első képességed**: a kezdőcsomagodban már van egy Repair Drone I, amely a Protos képességfoglalatába van szerelve, így az Emergency Repair gomb (`E`, a gyorssáv mellett) tíz másodperc alatt megjavítja a hajótestedet, valahányszor megsérült. Lásd: [Képességek](/wiki/03-Mechanics/Abilities.md).
 4. **Napi klánadó**: Ha tagja vagy egy klánnak, tudd, hogy a klán kincstára UTC szerint éjfélkor százalékos adót (0–5%) von le a napi kreditegyenlegedből. Gondosan válassz klánt!
 5. **Másolás a wikiből**: Húzd végig az egérrel egy cikk bármelyik szövegét a kijelöléshez, majd a másoláshoz nyomd meg a `Ctrl+C` (Macen `Cmd+C`) billentyűt; a hivatkozásra kattintva az oldal továbbra is megnyílik. Az **Oldal másolása** gomb a cikkek tetején az egész oldalt Markdown formátumban másolja, chatbe vagy jegyzetbe illesztéshez.
+6. **Előbb kutass, aztán gyárts**: A Gyártás csak azt készíti el, amit a [Skylabod](/wiki/03-Mechanics/Skylab.md) Kutatóközpontja már kikutatott. A Mag 10. szintjén nyílik meg, a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon pedig ott vannak a technológiák, az idejük és az üzemanyag.

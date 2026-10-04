@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 89a30cf8cb2f69a6 -->
+<!-- wiki-i18n source: b6b66c2f84c6d17c -->
 <!-- wiki-i18n title: 대장간 -->
 # 대장간 {#the-forge}
 
@@ -77,7 +77,7 @@
 
 ## 어셈블리의 모듈 업그레이드 {#module-upgrades-in-the-assembly}
 
-최상위 레이저 두 가지, 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않습니다. 어셈블리의 **제작** 탭에서 한 단계 아래 부품을 업그레이드해 만듭니다. Pulse Amp를 **Nova Amp**로, Prism Amp를 **Apex Amp**로, Capacity Shield Cell I을 **Capacity Shield Cell II**로(III, IV로 이어지며, Absorption Shield Cell, Impulse Thruster, Momentum Thruster도 같은 방식으로 오릅니다), Basic Shield Core를 **Heavy Shield Core**로, Engine II를 **Engine III**로, Quantum Laser 3를 **Starfire-3**로, Starfire-3를 **Helios Beam**으로 업그레이드합니다. 대장간과의 관계는 등급입니다.
+최상위 레이저 두 가지, 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않으며, Skylab에서 그 기술을 연구해야 어셈블리가 만들어 줍니다([연구](/wiki/03-Mechanics/Research.md)). 어셈블리의 **제작** 탭에서 한 단계 아래 부품을 업그레이드해 만듭니다. Pulse Amp를 **Nova Amp**로, Prism Amp를 **Apex Amp**로, Capacity Shield Cell I을 **Capacity Shield Cell II**로(III, IV로 이어지며, Absorption Shield Cell, Impulse Thruster, Momentum Thruster도 같은 방식으로 오릅니다), Basic Shield Core를 **Heavy Shield Core**로, Engine II를 **Engine III**로, Quantum Laser 3를 **Starfire-3**로, Starfire-3를 **Helios Beam**으로 업그레이드합니다. 대장간과의 관계는 등급입니다.
 
 - **등급은 유지됩니다.** 업그레이드는 부품 사본 1개를 소모하며, 새 아이템은 그 사본의 등급을 가집니다. 신성한 Pulse Amp로는 신성한 Nova Amp가, 표준 등급으로는 표준 등급의 Nova Amp가 나옵니다. 대장간에 들인 비용은 사라지지 않습니다. 업그레이드가 스스로 등급을 더해 주는 일은 없으므로, 표준 등급 부품은 항상 표준 등급 결과물을 만듭니다.
 - **보너스는 다시 굴립니다.** 새 아이템은 그 등급에 맞는 새 보너스를 받습니다. 개수는 소모하는 부품이 가졌던 수입니다(보너스 2개를 가진 신성한 Pulse Amp로는 2개를 가진 신성한 Nova Amp가, 1개뿐인 부품으로는 1개뿐인 것이 만들어지며, 표준보다 높은 등급에서는 최소 1개). 다만 등급이 담을 수 있는 수와 새 아이템이 가진 능력치 수가 상한이고, 각 보너스는 위 표의 해당 등급 범위 안에서 Nova Amp가 가진 능력치에 붙습니다. 그 밖에는 이전 부품에서 복사되는 것이 없으므로 새 보너스가 이전보다 좋을 수도 나쁠 수도 있으며, 평균적으로는 같습니다. 개수를 유지하는 것은 대장간이 놓친 칸을 업그레이드로 채우지 못하게 하기 위해서이며, 보너스를 줄이는 일은 결코 없습니다. 이 규칙 이전에 만든, 모든 칸이 찬 부품은 모두 유지됩니다. 보너스는 작업을 대기열에 넣는 순간 정해지고, 수령하는 것은 굴려진 그대로의 결과입니다. 수령을 미뤄도 달라지는 것은 없습니다. 그 이유는 업그레이드가 새 아이템을 만드는 것이고, 대장간의 주사위는 보유한 아이템에 던지기 때문입니다. 비용이 드는 부분은 등급입니다. 영원한 등급 부품은 대장간 단계만 해도 100만 크레딧이 넘지만, 보너스는 능력치 하나의 몇 퍼센트에 불과합니다.

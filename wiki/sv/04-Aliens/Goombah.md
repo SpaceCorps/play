@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Goombah är mäktiga utomjordiska skepp i kryssarklass. De har hög sköldkapaci
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 12 000
+- **Krediter**: 15 000
 - **Thulium**: 75
 - **Erfarenhet (XP)**: 3 000
 - **Heder**: 24

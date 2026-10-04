@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ I Goombah sono formidabili navi aliene di classe incrociatore. Hanno una grande 
 
 ## Ricompense {#rewards}
 
-- **Crediti**: 12.000
+- **Crediti**: 15.000
 - **Thulium**: 75
 - **Esperienza (XP)**: 3.000
 - **Onore**: 24

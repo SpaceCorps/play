@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ La Kitefin es una cañonera ligera y la primera nave que compra la mayoría de l
 
 - **Créditos**: 0
 - **Thulium**: 600
+
+## Investigación {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **No hace falta investigar.** Esta nave no tiene tecnología propia.
+- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Historia {#lore}
 

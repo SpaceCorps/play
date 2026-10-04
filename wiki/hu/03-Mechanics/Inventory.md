@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5874d77ba7ccf380 -->
+<!-- wiki-i18n source: 36874838d2d52590 -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -12,11 +12,11 @@ A hagyományos űrjátékokkal ellentétben a SpaceCorpsban dinamikusan sávokra
 - **Generátorfoglalatok**: közös foglalatok pajzsoknak, hajtóműveknek és adaptív magoknak. Három hatékonysági sávra oszlanak, és a sáv dönti el, hogy egy tárgy alapértékeiből mennyi számít. A hangárban minden sáv neve mellett van egy (i), amely elmagyarázza:
   - **Magfoglalatok**: az ide helyezett tárgyak az alapértékeik **100%-át** kapják. Minden hajónak van belőlük: a legerősebb pajzsaidat és hajtóműveidet ide tedd.
   - **Támogató foglalatok**: az ide helyezett tárgyak az alapértékeik **75%-át** kapják (pl. a sebesség vagy a pajzskapacitás 75%-át). Minden hajónak van belőlük.
-  - **Segédfoglalatok**: az ide helyezett tárgyak az alapértékeik **50%-át** kapják. Csak néhány hajónak van belőlük (Paragon: 2, Ironclad: 3, Wraith: 4; Protos, Kitefin és Ostirion: nincs). A legjobbak extra, gyengébb pajzsokhoz és hajtóművekhez valók, míg a legerősebbek a magfoglalatokba kerülnek.
+  - **Segédfoglalatok**: az ide helyezett tárgyak az alapértékeik **50%-át** kapják. Csak néhány hajónak van belőlük (Nomad: 1, Paragon: 2, Ironclad és Storm: 3, Wraith: 4; Protos, Kitefin és Ostirion: nincs). A legjobbak extra, gyengébb pajzsokhoz és hajtóművekhez valók, míg a legerősebbek a magfoglalatokba kerülnek.
   - **Drónfoglalatok**: a drónjaid egyikén lévő pajzs úgy számít, mint a magfoglalatban lévő: az alapértékeinek **100%-át** kapja (lásd: [Drónmechanika](/wiki/03-Mechanics/Drones.md)).
   - **Besorolatlan/régi foglalatok**: az ide helyezett tárgyak nem járulnak hozzá az értékekhez.
   - **A halmozás is csökken**: a pajzsokat és a hajtóműveket a legerősebbtől kezdve rangsorolják, és a sáv részesedését megszorozzák a rangjukéval: az 1.–4. teljes értékkel számít, az 5.–7. 85%-kal, 70%-kal és 55%-kal, a 8.-tól kezdve a pajzsok 50%-kal, a hajtóművek 25%-kal. Lásd: [Pajzsok](/wiki/03-Mechanics/Shields.md) és [Sebesség](/wiki/03-Mechanics/Speed.md).
-- **Extrafoglalatok**: speciális segédtárgyaknak, például Repair Drone-oknak.
+- **Extrafoglalatok**: speciális segédtárgyaknak, például Repair Drone-oknak. Minden hajón három van; az Extra Slots CPU-k ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)) minden hajónak többet adnak.
 
 ## Leltárrend {#inventory-order}
 

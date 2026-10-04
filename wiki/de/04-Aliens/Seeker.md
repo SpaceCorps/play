@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen
 
 ## Belohnungen {#rewards}
 
-- **Credits**: 800
+- **Credits**: 1.000
 - **Thulium**: 4
 - **Erfahrung (EP)**: 100
 - **Ehre**: 2

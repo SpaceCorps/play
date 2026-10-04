@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Kitefin은 경량 건십이자 대부분의 파일럿이 처음 구매하는 함
 
 - **크레딧**: 0
 - **Thulium**: 600
+
+## 연구 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **연구 불필요.** 이 함선에는 전용 기술이 없습니다.
+- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 3개를 더하면 총 6개, 8개, 10개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
+
+<!-- research-ship:end -->
 
 ## 배경 설정 {#lore}
 

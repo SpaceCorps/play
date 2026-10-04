@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3a89595b53c5603f -->
+<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -13,21 +13,23 @@ L’univers comprend trois grands secteurs de corporation (Mars, Terra, Galactic
 - **x-4 (frontière)** : la porte d’entrée du secteur PvP.
 - **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4.
 
-Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
+Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
 
 Chaque [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) possède sa propre copie de toute cette carte, et c’est lui qui décide où les pilotes peuvent s’affronter : dans Alpha seulement en `x-4` et `DS-x`, dans Beta partout sauf en `x-1`, dans Gamma partout. La carte de la galaxie colore les secteurs selon la règle de votre monde.
 
 ## Visualisation {#visualization}
 
-La carte de la galaxie ci-dessous montre en temps réel la disposition de l’univers connu.
+La carte de la galaxie ci-dessous montre en temps réel la disposition de l’univers connu. Dans le jeu, cette même carte est la fenêtre **Système stellaire**.
 
 ```spacemap
 
 ```
 
+Avec un [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) installé, la carte sert aussi à choisir votre destination : appuyez sur l’emplacement du CPU dans la barre rapide (**JMP**) et la fenêtre Système stellaire s’ouvre en mode sélection. Les secteurs où le CPU peut vous emmener sont éclairés ; votre propre secteur et les secteurs dangereux ne le sont pas. Pointez un secteur éclairé pour lire le prix, cliquez dessus et confirmez le saut quand la carte le demande (500 Thulium).
+
 ## Comment voyager {#how-to-travel}
 
-Les déplacements sur la carte spatiale passent par les **portes de saut** (les portails).
+Les déplacements sur la carte spatiale passent par les **portes de saut** (les portails). Le [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) est l’autre voie : il n’a pas besoin de porte (voir la fin de cette page).
 
 1. **Trouvez un portail** : les portails se trouvent généralement dans les coins ou sur les bords d’une carte.
 2. **Navigation** : approchez votre vaisseau de la structure du portail.
@@ -41,6 +43,7 @@ Les déplacements sur la carte spatiale passent par les **portes de saut** (les 
 - **Dans les secteurs dangereux (`DS-1` à `DS-4`)**, vous ne pouvez pas sauter pour en sortir tant que vous êtes attaqué. Si un pilote ou un alien a touché votre vaisseau (ses boucliers ou sa coque) au cours des **10 dernières secondes**, le saut ne démarre pas (« Vous êtes attaqué : impossible de sauter hors d’un secteur dangereux. »), et un coup reçu pendant le saut l’annule (la barre devient rouge et le jeu vous en donne la raison). Les dégâts de la radiation du trou noir ne comptent pas comme une attaque, pas plus qu’un tir arrêté par une zone sûre. Un coup reçu sur la carte que vous quittez ne vous suit pas à travers le portail : vous arrivez avec un casier vierge.
 - Vous ne faites qu’une chose à la fois : impossible de récupérer une [cargaison](/wiki/03-Mechanics/Cargo.md) pendant un saut, et lancer un saut abandonne une récupération en cours.
 - Fermer le jeu ou retourner à la base au milieu d’un saut l’annule : vous n’arrivez pas à destination.
+- **La téléportation d’un CPU se charge comme un saut par portail.** Un Jump CPU se charge pendant 5 secondes et un Base CPU pendant 10, avec une barre au-dessus de la barre rapide. Un tir de votre part ou un coup reçu, dans n’importe quel secteur, l’annule (rien n’est payé ni consommé), et aucun des deux CPU ne démarre dans les 10 secondes qui suivent un tir ou un coup. Appuyez de nouveau sur l’emplacement du CPU pour l’annuler vous-même.
 
 ### Liaisons de saut {#jump-links}
 
@@ -49,6 +52,10 @@ Les déplacements sur la carte spatiale passent par les **portes de saut** (les 
   - `M-4` est relié à `DS-1`
   - `T-4` est relié à `DS-2`
   - `G-4` est relié à `DS-3`
-- **Routes d’invasion (voyages entre corporations)** : pour entrer sur le territoire d’une corporation ennemie, vous devez traverser la zone PvP. Par exemple, un pilote de Mars qui veut envahir Terra doit voler de `M-4` jusqu’au secteur dangereux `DS-1`, franchir la porte de saut vers `DS-2`, puis entrer dans l’espace de Terra par `T-4` ; pour atteindre Galactic, il franchit la porte de saut vers `DS-3` et entre par `G-4`.
+- **Routes d’invasion (voyages entre corporations)** : pour entrer par les portes sur le territoire d’une corporation ennemie, vous devez traverser la zone PvP. Par exemple, un pilote de Mars qui veut envahir Terra doit voler de `M-4` jusqu’au secteur dangereux `DS-1`, franchir la porte de saut vers `DS-2`, puis entrer dans l’espace de Terra par `T-4` ; pour atteindre Galactic, il franchit la porte de saut vers `DS-3` et entre par `G-4`.
 - **Le triangle des secteurs dangereux** : `DS-1`, `DS-2` et `DS-3` sont tous reliés entre eux. Chacun abrite la porte d’une corporation (Mars dans `DS-1`, Terra dans `DS-2`, Galactic dans `DS-3`) ; `DS-4` n’en a aucune.
 - **Le cœur central** : les trois secteurs dangereux extérieurs (`DS-1`, `DS-2` et `DS-3`) sont reliés directement à la carte centrale **`DS-4`**, la zone PvP la plus dangereuse et la plus lucrative de l’univers. Un **trou noir** se trouve exactement en son milieu : les portails et les couloirs qui les relient en restent bien éloignés, mais un vaisseau qui s’y aventure subit sa radiation, puis son attraction, et est détruit à son horizon des événements. Voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md).
+
+### Le Jump CPU {#the-jump-cpu}
+
+Le [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) emmène votre vaisseau dans n’importe quel secteur de corporation de votre monde sans passer par une porte, pour 500 Thulium le saut, secteurs d’origine ennemis compris. Il ne mène jamais à un secteur dangereux, ne démarre pas en combat, et vous le recherchez d’abord dans le Centre de recherche du Skylab ([Recherche](/wiki/03-Mechanics/Research.md)). Les [Base CPU](/wiki/06-Items/Extras.md#base-cpus) vous ramènent chez vous de la même façon.

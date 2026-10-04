@@ -1,8 +1,23 @@
-<!-- wiki-i18n source: 82df92858fe38c3f -->
+<!-- wiki-i18n source: 0dfda8fd6d9be79d -->
 <!-- wiki-i18n title: Дроны -->
 # Дроны {#drones}
 
 Дроны — вспомогательные боевые единицы, которые можно купить или создать. Одновременно активными могут быть до **8 дронов**, считая вместе Slave Drone и Master Drone.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Дерево предметов {#item-tree}
+
+То, что создаёт Сборочный цех, сначала требует своей технологии; наведите курсор на предмет, чтобы увидеть, сколько длится её исследование. Дерево технологий, топливо и буст: [Исследования](/wiki/03-Mechanics/Research.md).
+
+```tree
+Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+
+Slave Drone => Master Drone
+```
+<!-- item-tree:end -->
 
 ## Доступные дроны {#available-drones}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -134,7 +134,7 @@ Die Munition [Siphon Battery](/wiki/06-Items/Lasers.md) schreibt den Schild, den
 
 ### 2. Repair Drones (Hüllenreparatur) {#2-repair-drones-hull-repair-}
 
-- **Funktion**: Rüstest du eine Repair Drone aus (unter den Extras im Hangar), schaltest du sie über die Aktionsleiste ein (zieh sie aus der Extras-Auswahl auf einen Slot), und sie repariert deine Hülle (HP). Jeder Treffer schaltet sie aus, und bei voller Hülle hört sie auf.
+- **Funktion**: Rüstest du eine Repair Drone aus (unter den Extras im Hangar), schaltest du sie über die Aktionsleiste ein (zieh sie aus der Extras-Auswahl auf einen Slot), und sie repariert deine Hülle (HP). Jeder Treffer schaltet sie aus, und bei voller Hülle hört sie auf. Ist eine [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) ausgerüstet, musst du die Repair Drone nicht erneut einschalten: Die CPU schickt sie von selbst los, sobald die Verzögerung weiter unten vorbei ist, es sei denn, du hast sie von Hand gestoppt.
 - **Reparaturrate**: Stellt pro Sekunde einen Prozentsatz deiner maximalen Trefferpunkte wieder her (nur die beste ausgerüstete Drohne zählt, sie addieren sich nicht):
   - **Repair Drone I**: 1,5 % max. HP / s
   - **Repair Drone II**: 2,25 % max. HP / s

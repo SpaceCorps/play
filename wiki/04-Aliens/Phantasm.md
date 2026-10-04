@@ -13,7 +13,7 @@ Phantasms are aggressive spectral-class drones. They will attack any player who 
 
 ## Rewards
 
-- **Credits**: 2,400
+- **Credits**: 3,000
 - **Thulium**: 12
 - **Experience (XP)**: 300
 - **Honor**: 6

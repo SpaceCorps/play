@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Phantasm — агрессивные дроны спектрального кла
 
 ## Награды {#rewards}
 
-- **Кредиты**: 2 400
+- **Кредиты**: 3 000
 - **Thulium**: 12
 - **Опыт (XP)**: 300
 - **Честь**: 6

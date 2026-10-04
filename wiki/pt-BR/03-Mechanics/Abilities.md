@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades ativas da nave {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Toda nave tem um número fixo de slots de habilidade no hangar:
 - **Protos** (inicial): 1 slot
 - **Kitefin**: 1 slot
 - **Ostirion**: 2 slots
+- **Nomad**: 2 slots
 - **Paragon**: 3 slots
+- **Storm**: 3 slots
 - **Ironclad**: 3 slots
 - **Wraith**: 3 slots
 
@@ -30,7 +32,7 @@ Você pode encaixar **vários escudos, motores ou drones de reparo** nos slots d
 
 - **O módulo de menor nível define a base.** O nível dele dá a força e o tempo de recarga. Um Heavy Shield Core ao lado de um Light Shield Core se comporta como dois módulos de nível I: um segundo módulo melhor compra o bônus e nunca uma força melhor nem um tempo de recarga menor.
 - **Cada um dos outros módulos acrescenta 50% da base**, em soma e não em multiplicação. Os motores fazem o Afterburner **durar mais**: 10 s, 15 s com dois motores, 20 s com três (o bônus de velocidade e o tempo de recarga não mudam). Os escudos fazem o Shield Surge **restaurar mais**, e os drones de reparo fazem o Emergency Repair **curar mais**, nos mesmos dez segundos: 100%, 150% e 200% do total para um, dois e três módulos.
-- **Os módulos extras custam slots.** Uma nave com três slots de habilidade pode ter três de um tipo, ou um de cada, ou dois e um. Uma Protos ou uma Kitefin tem um único slot e não pode empilhar; uma Ostirion pode ter dois de um tipo.
+- **Os módulos extras custam slots.** Uma nave com três slots de habilidade pode ter três de um tipo, ou um de cada, ou dois e um. Uma Protos ou uma Kitefin tem um único slot e não pode empilhar; uma Ostirion ou uma Nomad pode ter dois de um tipo.
 - Níveis iguais são simplesmente aquele nível. De dois módulos do mesmo nível, o de encantamento mais fraco define a base.
 
 ## As três habilidades {#the-three-abilities}

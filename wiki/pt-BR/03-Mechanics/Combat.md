@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -134,7 +134,7 @@ A munição [Siphon Battery](/wiki/06-Items/Lasers.md) soma na hora ao seu escud
 
 ### 2. Drones de reparo (reparo do casco) {#2-repair-drones-hull-repair-}
 
-- **Funcionamento**: se você equipa um Repair Drone (nos extras do hangar), você o liga na barra de atalhos (arraste-o do seletor de Extras para um slot) e ele repara o seu casco (HP). Qualquer acerto o desliga, e ele para quando o casco está cheio.
+- **Funcionamento**: se você equipa um Repair Drone (nos extras do hangar), você o liga na barra de atalhos (arraste-o do seletor de Extras para um slot) e ele repara o seu casco (HP). Qualquer acerto o desliga, e ele para quando o casco está cheio. Com uma [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) equipada, você não precisa ligá-lo de novo: a CPU o lança sozinha assim que o atraso indicado abaixo passa, a menos que você o tenha parado à mão.
 - **Taxa de reparo**: restaura uma porcentagem dos seus pontos de vida máximos por segundo (só conta o melhor drone equipado, eles não se somam):
   - **Repair Drone I**: 1,5% dos HP máx. / s
   - **Repair Drone II**: 2,25% dos HP máx. / s

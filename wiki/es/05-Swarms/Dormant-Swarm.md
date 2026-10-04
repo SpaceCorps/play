@@ -18,7 +18,7 @@ El enjambre Dormant es una **Dormant Force** con sus **Dormant Pulses**: un grup
 - **Líder destruido**: Dormant Pulse toma el mando
 - **Desplazamiento**: Permanece 8 a 15 min en un mapa y luego vuela a la puerta de otro sector de peligro. Nunca toma las puertas que salen de los sectores de peligro y nunca entra en el anillo del agujero negro
 - **Vuelve**: 1 h después de que destruyan a todo el enjambre, en un sector de peligro al azar
-- **Avisos**: El chat de todo el mundo avisa cuándo aparece el enjambre y cuándo es destruido. Una marca lo muestra en los mapas de los sectores de peligro y en el mapa galáctico. El registro de bajas nombra al piloto al que se acredita el derribo.
+- **Avisos**: Se avisa a los pilotos de todo el mundo cuándo aparece el enjambre y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. Una marca lo muestra en los mapas de los sectores de peligro y en el mapa galáctico. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Base: Wraith, con 100 % de casco, escudo y daño; la velocidad y el alcance son
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Daño de los cohetes, como máximo | 7.500 | 11.250 | 15.000 |
-| Créditos | 160.000 | 320.000 | 480.000 |
+| Créditos | 200.000 | 400.000 | 600.000 |
 | Thulium | 535 | 1.070 | 1.605 |
 | Experiencia (XP) | 32.100 | 64.200 | 96.300 |
 | Honor | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Base: Paragon, con 100 % de casco, escudo y daño; la velocidad y el alcance so
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Daño de los cohetes, como máximo | 5.000 | 7.500 | 10.000 |
-| Créditos | 75.000 | 150.000 | 225.000 |
+| Créditos | 95.000 | 190.000 | 285.000 |
 | Thulium | 255 | 510 | 765 |
 | Experiencia (XP) | 15.200 | 30.400 | 45.600 |
 | Honor | 66 | 132 | 198 |

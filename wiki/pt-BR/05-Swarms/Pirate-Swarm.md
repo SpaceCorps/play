@@ -18,7 +18,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Cura**: Cada Pirate Scout a até 600 unidades do líder cura o casco dele, 40 HP por segundo em Alpha
 - **Líder destruído**: Os seguidores vão embora 1 min depois que o líder é destruído, a menos que estejam atacando
 - **Volta**: 2 min depois que o líder é destruído, no mesmo setor
-- **Avisos**: O chat do setor avisa quando o líder aparece e quando é destruído. O registro de baixas nomeia o piloto a quem o abate é creditado.
+- **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 | Alcance dos lasers | – | – | – |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Créditos | 116.000 | 232.000 | 348.000 |
+| Créditos | 145.000 | 290.000 | 435.000 |
 | Thulium | 725 | 1.450 | 2.175 |
 | Experiência (XP) | 29.000 | 58.000 | 87.000 |
 | Honra | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Base: Kitefin, com 50% de casco, escudo e dano; a velocidade e o alcance são os
 | Alcance dos lasers | 700 | 700 | 700 |
 | Raio de agressão | 700 | 700 | 700 |
 | Cura o líder, cada um, por segundo (só o casco) | 40 | 60 | 80 |
-| Créditos | 800 | 1.600 | 2.400 |
+| Créditos | 1.000 | 2.000 | 3.000 |
 | Thulium | 4 | 8 | 12 |
 | Experiência (XP) | 100 | 200 | 300 |
 | Honra | 2 | 4 | 6 |

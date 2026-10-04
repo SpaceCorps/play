@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Kitefin は軽ガンシップで、多くのパイロットが最初に購入す
 
 - **クレジット**：0
 - **Thulium**：600
+
+## 研究 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **研究は不要です。** この艦には専用の技術がありません。
+- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
+
+<!-- research-ship:end -->
 
 ## 伝承 {#lore}
 

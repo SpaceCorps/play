@@ -83,7 +83,7 @@ The curve is set so that a new drone reaches level 2 in about an hour of normal 
 
 ### Master Drone
 
-A Slave Drone becomes a **Master Drone** when you upgrade it in the Assembly. The recipe costs 40,000 Thulium and 100 Ship Fragments and takes 60 seconds, and it does not use up a drone: **you pick which Slave Drone it is** (the picker shows the level and XP of each), and that same drone, with its number, its drone slot and everything fitted in it, turns into a Master Drone when the job finishes, with a second slot that is empty. Nothing goes into your inventory and there is nothing to collect: the Game Log tells you when it is done, also for an upgrade that finished while you were away.
+A Slave Drone becomes a **Master Drone** when you upgrade it in the Assembly, once the Master Drone's technology is researched ([Research](/wiki/03-Mechanics/Research.md)). The recipe costs 40,000 Thulium and 100 Ship Fragments and takes 60 seconds, and it does not use up a drone: **you pick which Slave Drone it is** (the picker shows the level and XP of each), and that same drone, with its number, its drone slot and everything fitted in it, turns into a Master Drone when the job finishes, with a second slot that is empty. Nothing goes into your inventory and there is nothing to collect: the Game Log tells you when it is done, also for an upgrade that finished while you were away.
 
 **Its level and XP are reset to 0 when the upgrade finishes.** A Master Drone starts again at level 1, with no XP, and levels the way a Slave Drone does (the table above); the laser bonus of the level it had goes with it. The Assembly says so before you start, and asks you to confirm, naming the drone, when it has any XP. The default choice is the drone with the least XP.
 

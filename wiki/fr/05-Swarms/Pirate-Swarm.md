@@ -18,7 +18,7 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 - **Soins** : Chaque Pirate Scout à moins de 600 unités du meneur soigne sa coque, 40 PV par seconde dans Alpha
 - **Meneur détruit** : Les suivants partent 1 min après la destruction du meneur, sauf s’ils attaquent
 - **Revient** : 2 min après la destruction du meneur, dans le même secteur
-- **Annonces** : Le chat du secteur annonce quand le meneur apparaît et quand il est détruit. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
+- **Annonces** : Les pilotes du secteur sont prévenus quand le meneur apparaît et quand il est détruit. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 | Portée des lasers | – | – | – |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
-| Crédits | 116 000 | 232 000 | 348 000 |
+| Crédits | 145 000 | 290 000 | 435 000 |
 | Thulium | 725 | 1 450 | 2 175 |
 | Expérience (XP) | 29 000 | 58 000 | 87 000 |
 | Honneur | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Base : Kitefin, avec 50 % de coque, de bouclier et de dégâts ; la vitesse e
 | Portée des lasers | 700 | 700 | 700 |
 | Rayon d’aggro | 700 | 700 | 700 |
 | Soigne le meneur, chacun, par seconde (coque seulement) | 40 | 60 | 80 |
-| Crédits | 800 | 1 600 | 2 400 |
+| Crédits | 1 000 | 2 000 | 3 000 |
 | Thulium | 4 | 8 | 12 |
 | Expérience (XP) | 100 | 200 | 300 |
 | Honneur | 2 | 4 | 6 |

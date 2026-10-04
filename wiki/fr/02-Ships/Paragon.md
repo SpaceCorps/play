@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, a
 
 - **Crédits** : 0 (Fabriqué à l’Assemblage)
 - **Thulium** : 0
+
+## Recherche {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **D’abord la recherche.** L’Assemblage ne fabrique ce vaisseau qu’une fois sa technologie recherchée : 6 h de recherche. Elle se trouve dans l’[arbre des Vaisseaux](/wiki/03-Mechanics/Research.md#tree-ships) de la page [Recherche](/wiki/03-Mechanics/Research.md).
+- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 6, 8 et 10 au total avec les 3 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Histoire {#lore}
 

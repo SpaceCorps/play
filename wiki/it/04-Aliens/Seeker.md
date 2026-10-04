@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè no
 
 ## Ricompense {#rewards}
 
-- **Crediti**: 800
+- **Crediti**: 1.000
 - **Thulium**: 4
 - **Esperienza (XP)**: 100
 - **Onore**: 2

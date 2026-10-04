@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 
 - **Krediter**: 425 000
 - **Thulium**: 0
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Ingen forskning behövs.** Det här skeppet har ingen egen teknologi.
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Bakgrund {#lore}
 

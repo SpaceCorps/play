@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ Pour les autres objets de votre inventaire que vous voulez sauver (par ex. des a
   * *Ressources / minerais* : poids variable selon la rareté (une plaque renforcée de la Fonderie du Skylab pèse 5 kg)
   * *Roquettes* : aucun poids : elles ne prennent aucune place dans la cache, donc des piles entières y entrent (voir [Roquettes](/wiki/06-Items/Rockets.md))
 
-Votre [Skylab](/wiki/03-Mechanics/Skylab.md) n’est jamais réinitialisé : ses modules gardent leur niveau et l’Entrepôt de ressources garde le minerai en réserve. Ce que vous avez déjà récupéré, en revanche, n’est pas épargné : les plaques de votre inventaire sont des objets comme les autres, donc une plaque que vous voulez garder doit se trouver dans la cache de transport.
+Votre [Skylab](/wiki/03-Mechanics/Skylab.md) n’est jamais réinitialisé : ses modules gardent leur niveau et l’Entrepôt de ressources garde le minerai en réserve. Le Centre de recherche garde aussi tout ce que contient [Recherche](/wiki/03-Mechanics/Research.md) : vos technologies, la science de son réservoir, la Dark Matter introduite, une recherche en cours et le boost. Les Extra Slots CPU que vous avez installés restent eux aussi, car ce ne sont pas des objets. Ce que vous avez déjà récupéré, en revanche, n’est pas épargné : les plaques de votre inventaire sont des objets comme les autres, donc une plaque que vous voulez garder doit se trouver dans la cache de transport.
 
 ### Confirmer et verrouiller {#confirm-lock}
 Avant la fin de la saison, vous devez cliquer sur **Confirmer et verrouiller** dans l’interface du Matérialiseur.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Phantasm은 공격적인 유령급 드론입니다. 어그로 반경(700유닛) 
 
 ## 보상 {#rewards}
 
-- **크레딧**: 2,400
+- **크레딧**: 3,000
 - **Thulium**: 12
 - **경험치(XP)**: 300
 - **명예**: 6

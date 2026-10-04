@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Crystalys är en massiv utomjordisk enhet i slagskeppsklass. Att möta en är my
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 60 000
+- **Krediter**: 75 000
 - **Thulium**: 200
 - **Erfarenhet (XP)**: 12 000
 - **Heder**: 52

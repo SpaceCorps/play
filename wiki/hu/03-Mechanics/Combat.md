@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -134,7 +134,7 @@ A [Siphon Battery](/wiki/06-Items/Lasers.md) lőszer a célpontból elszívott p
 
 ### 2. Javítódrónok (hajótest-javítás) {#2-repair-drones-hull-repair-}
 
-- **Működés**: ha felszerelsz egy Repair Drone-t (a hangár Extrák között), a gyorssávról kapcsolod be (húzd az Extrák menüjéből egy helyre), és javítja a hajótestedet (HP). Bármilyen találat kikapcsolja, és teli hajótestnél leáll.
+- **Működés**: ha felszerelsz egy Repair Drone-t (a hangár Extrák között), a gyorssávról kapcsolod be (húzd az Extrák menüjéből egy helyre), és javítja a hajótestedet (HP). Bármilyen találat kikapcsolja, és teli hajótestnél leáll. Ha fel van szerelve egy [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu), nem kell újra bekapcsolnod: a CPU magától kiküldi, amint letelt az alábbi késleltetés, hacsak kézzel le nem állítottad.
 - **Javítási ütem**: másodpercenként a maximális életerőd egy százalékát állítja vissza (csak a legjobb felszerelt drón számít, nem adódnak össze):
   - **Repair Drone I**: 1,5% max. HP / mp
   - **Repair Drone II**: 2,25% max. HP / mp

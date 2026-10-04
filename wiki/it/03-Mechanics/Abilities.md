@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Ogni nave ha un numero fisso di Slot abilità nell’Hangar:
 - **Protos** (iniziale): 1 slot
 - **Kitefin**: 1 slot
 - **Ostirion**: 2 slot
+- **Nomad**: 2 slot
 - **Paragon**: 3 slot
+- **Storm**: 3 slot
 - **Ironclad**: 3 slot
 - **Wraith**: 3 slot
 
@@ -30,7 +32,7 @@ Puoi montare **più scudi, motori o Repair Drone** negli slot abilità di una co
 
 - **Il modulo di grado più basso stabilisce la base.** Il suo grado determina la forza e la ricarica. Un Heavy Shield Core accanto a un Light Shield Core si comporta come due moduli di grado I: un secondo modulo migliore porta il bonus, mai una forza maggiore o una ricarica più breve.
 - **Ogni altro modulo aggiunge il 50% della base**, sommato e non moltiplicato. I motori fanno **durare di più** l’Afterburner: 10 s, 15 s con due motori, 20 s con tre (il bonus di velocità e la ricarica non cambiano). Gli scudi fanno **ripristinare di più** lo Shield Surge, e i Repair Drone fanno **curare di più** l’Emergency Repair, negli stessi dieci secondi: il 100%, il 150% e il 200% del totale per uno, due e tre moduli.
-- **I moduli in più costano slot.** Una nave con tre slot abilità può averne tre dello stesso tipo, oppure uno per tipo, oppure due e uno. Una Protos o una Kitefin ha un solo slot e non può cumulare; un’Ostirion può averne due dello stesso tipo.
+- **I moduli in più costano slot.** Una nave con tre slot abilità può averne tre dello stesso tipo, oppure uno per tipo, oppure due e uno. Una Protos o una Kitefin ha un solo slot e non può cumulare; un’Ostirion o una Nomad può averne due dello stesso tipo.
 - Gradi uguali danno semplicemente quel grado. Tra due moduli dello stesso grado, la base la stabilisce quello con l’incantamento più debole.
 
 ## Le tre abilità {#the-three-abilities}

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 500bc358b49f4250 -->
+<!-- wiki-i18n source: 566c408a761e44cb -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
-Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut dem: varje uppdrag kommer från en officer i din egen koncern, och vart och ett betalar erfarenhet, krediter, Thulium och heder när du hämtar belöningen. Det finns **88 uppdrag för nivå 1 till 8**, elva per nivå, och tillsammans tar de dig från en alldeles ny Protos till frontlinjen i PvP-centrum. Ytterligare tio **Station-uppdrag** lär dig [Skylab](/wiki/03-Mechanics/Skylab.md) och betalar dig för att bygga upp den.
+Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut dem: varje uppdrag kommer från en officer i din egen koncern (om du [byter koncern](/wiki/01-General/Getting-Started.md#changing-your-company) blir officerarna din nya koncerns, och uppdragen `rival x-4` följer den), och vart och ett betalar erfarenhet, krediter, Thulium och heder när du hämtar belöningen. Det finns **88 uppdrag för nivå 1 till 8**, elva per nivå, och tillsammans tar de dig från en alldeles ny Protos till frontlinjen i PvP-centrum. Ytterligare tio **Station-uppdrag** lär dig [Skylab](/wiki/03-Mechanics/Skylab.md) och betalar dig för att bygga upp den.
 
 ---
 
@@ -32,7 +32,7 @@ Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut
 - Tio uppdrag om din [Skylab](/wiki/03-Mechanics/Skylab.md), i en **Station**-sektion överst på sidan Uppdrag. Det första, **Tänd stationen**, är öppet från nivå 1 och talar om var Skylab finns: Meny, Ekonomi, Skylab. Raden Skylab i stationsmenyn pulserar tills du har antagit det eller byggt Solkraft.
 - De antas, följs, överges och hämtas som alla uppdrag, men de räknas inte bland de 5: du kan ha **3 Station-uppdrag igång samtidigt** vid sidan av dina andra 5. Ett Station-uppdrag kan vänta i timmar på uppgraderingstider och håller aldrig upp ett stridsuppdrag.
 - Att anta ett Station-uppdrag ändrar inte uppdraget du följer när du har ett som flygning kan föra framåt: fönstret Aktiva uppdrag fortsätter visa ditt stridsuppdrag, och Station-uppdraget är en prick i dess titelrad (håll pekaren över den för dess framsteg, klicka för att visa det).
-- Vart och ett öppnas på sin egen **pilotnivå** och efter de Station-uppdrag det följer på (hämtade först): ett låst kort säger vilka. De tre första öppnas på nivå 1.
+- Vart och ett öppnas på sin egen **pilotnivå** och efter de Station-uppdrag det följer på (hämtade först): ett låst kort säger vilka. De tre första öppnas på nivå 1. Den sista, **Core Ten**, tar Kärnan till nivå 10, nivån som öppnar Skylabs [forskningscentrum](/wiki/03-Mechanics/Research.md).
 - Deras uppgifter läser din Skylab: **bygg** en modul eller **höj den till en nivå** (klart så länge modulen är på den nivån eller högre; ingen modul går över kärnan, så ett mål för Solkraft kan kräva att kärnan höjs först) och **hämta** krediter från Kreditfarmen (räknat från det ögonblick du antar uppdraget, med knappen Hämta resurser). Ett uppdrag vars uppgifter alla är sanna samtidigt är klart: ett som du redan uppfyller när du antar det är klart direkt.
 - De betalar **exakt det tabellen säger**: ingen världsmultiplikator, inga boosters, ingen Premium-erfarenhet, inga föremål. Deras erfarenhet kommer utöver de 85 % som nivåernas uppdrag betalar (högst 5 % av en nivås erfarenhetsspann).
 - Station-uppdrag räknas inte mot [wipepoängen](/wiki/03-Mechanics/Wipe-Timeline.md) för avklarade uppdrag. De överlever wipen som alla uppdrag, och det gör även det du byggde.

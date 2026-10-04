@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5874d77ba7ccf380 -->
+<!-- wiki-i18n source: 36874838d2d52590 -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
@@ -12,11 +12,11 @@ Ao contrário dos jogos espaciais tradicionais, o SpaceCorps tem slots de equipa
 - **Slots de gerador**: slots compartilhados para escudos, motores e núcleos adaptativos. Eles se dividem em três faixas de eficiência, e a faixa decide quanto dos atributos básicos de um item conta. No hangar, cada faixa tem um (i) ao lado do nome que a explica:
   - **Slots de núcleo**: os itens colocados aqui recebem **100%** dos atributos básicos. Toda nave os tem: coloque aqui os seus melhores escudos e motores.
   - **Slots de suporte**: os itens colocados aqui recebem **75%** dos atributos básicos (por exemplo, 75% da velocidade ou da capacidade do escudo). Toda nave os tem.
-  - **Slots auxiliares**: os itens colocados aqui recebem **50%** dos atributos básicos. Só algumas naves os têm (a Paragon tem 2, a Ironclad 3 e a Wraith 4; a Protos, a Kitefin e a Ostirion não têm nenhum). Eles servem melhor para escudos e motores extras, mais fracos, enquanto os seus mais fortes vão nos slots de núcleo.
+  - **Slots auxiliares**: os itens colocados aqui recebem **50%** dos atributos básicos. Só algumas naves os têm (a Nomad tem 1, a Paragon 2, a Ironclad e a Storm 3 e a Wraith 4; a Protos, a Kitefin e a Ostirion não têm nenhum). Eles servem melhor para escudos e motores extras, mais fracos, enquanto os seus mais fortes vão nos slots de núcleo.
   - **Slots de drone**: um escudo em um dos seus drones conta como um em um slot de núcleo, **100%** dos atributos dele (veja [Mecânica dos drones](/wiki/03-Mechanics/Drones.md)).
   - **Slots não atribuídos/legados**: os itens colocados aqui não contribuem para os atributos.
   - **O empilhamento também perde força**: escudos e motores são ordenados do mais forte ao mais fraco, e a parcela da faixa é então multiplicada pela da posição deles: do 1º ao 4º contam por inteiro, o 5º, o 6º e o 7º contam 85%, 70% e 55%, e do 8º em diante contam 50% nos escudos e 25% nos motores. Veja [Escudos](/wiki/03-Mechanics/Shields.md) e [Velocidade](/wiki/03-Mechanics/Speed.md).
-- **Slots extras**: para itens utilitários especializados, como os drones de reparo.
+- **Slots extras**: para itens utilitários especializados, como os drones de reparo. Toda nave tem três; as Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) dão mais a toda nave.
 
 ## Ordem do inventário {#inventory-order}
 

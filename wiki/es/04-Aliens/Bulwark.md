@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ Los Bulwarks son plataformas defensivas fuertemente blindadas. Son muy agresivos
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 4000
+- **Créditos**: 5000
 - **Thulium**: 25
 - **Experiencia (XP)**: 800
 - **Honor**: 10

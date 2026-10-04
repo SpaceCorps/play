@@ -11,7 +11,9 @@ Every ship has a fixed number of Ability Slots in the Hangar:
 - **Protos** (starter): 1 slot
 - **Kitefin**: 1 slot
 - **Ostirion**: 2 slots
+- **Nomad**: 2 slots
 - **Paragon**: 3 slots
+- **Storm**: 3 slots
 - **Ironclad**: 3 slots
 - **Wraith**: 3 slots
 
@@ -28,7 +30,7 @@ You may fit **several shields, engines or Repair Drones** into the ability slots
 
 - **The worst-ranked module sets the base.** Its rank gives the strength and the cooldown. A Heavy Shield Core next to a Light Shield Core behaves as two Rank I modules: a better second module buys the bonus and never a better strength or a shorter cooldown.
 - **Every other module adds 50% of the base**, added up, not multiplied. Engines make the Afterburner **last longer**: 10 s, 15 s with two engines, 20 s with three (the speed bonus and the cooldown do not change). Shields make the Shield Surge **restore more**, and Repair Drones make Emergency Repair **heal more**, in the same ten seconds: 100%, 150% and 200% of the total for one, two and three modules.
-- **The extra modules cost slots.** A ship with three ability slots can have three of one kind, or one of each, or two and one. A Protos or a Kitefin has a single slot and cannot stack; an Ostirion can have two of one kind.
+- **The extra modules cost slots.** A ship with three ability slots can have three of one kind, or one of each, or two and one. A Protos or a Kitefin has a single slot and cannot stack; an Ostirion or a Nomad can have two of one kind.
 - Equal ranks are simply that rank. Of two modules of one rank the one with the weaker enchant sets the base.
 
 ## The three abilities

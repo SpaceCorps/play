@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
-아이템은 함선의 능력을 끌어올리는 핵심 구성품입니다. 상점에서 구매하거나, 드롭으로 얻거나, 어셈블리에서 제작하거나, [대장간](/wiki/06-Items/Forge.md)에서 등급을 올리고 병합할 수 있습니다.
+아이템은 함선의 능력을 끌어올리는 핵심 구성품입니다. 상점에서 구매하거나, 드롭으로 얻거나, 어셈블리에서 제작하거나(기술을 연구한 뒤), [대장간](/wiki/06-Items/Forge.md)에서 등급을 올리고 병합할 수 있습니다.
 
 ## 희귀도 {#rarity-levels}
 
@@ -17,6 +17,10 @@
 - **영원**: 비할 데 없는 힘을 지닌 우주급 모듈.
 
 ## 모듈 업그레이드 {#upgrading-modules}
+
+**어셈블리에서 하는 제작은 모두 먼저 해당 기술이 필요합니다.** 기술은 Skylab의 연구 센터에서 연구합니다([연구](/wiki/03-Mechanics/Research.md)에 전체 트리, 기술별 소요 시간, 연료, 부스트가 있습니다). 기술이 없는 동안에는 어셈블리의 레시피 카드가 잠겨 있고, 먼저 연구해야 할 기술이 표시됩니다. 연구가 게임에 들어올 때 이미 가지고 있던 아이템이라면, 그 기술은 이미 가지고 있습니다.
+
+잠긴 카드에는 **연구 열기** 버튼이 있어서, 누르면 그 기술이 선택된 상태로 Skylab의 연구 보기가 열립니다. 카드에는 재료와 가격이 그대로 보이므로 계획을 세울 수 있으며, 잠긴 레시피는 카테고리에서 맨 뒤에 놓입니다. Extra Slots CPU는 아래 단계도 기다립니다. Extra Slots CPU II의 카드는 먼저 Extra Slots CPU I을 설치하라고 안내하고, III의 카드는 II를 요구합니다.
 
 최상위 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않습니다. 각각 어셈블리에서 한 단계 아래의 부품(Heavy Shield Core는 Basic Shield Core로, Engine III는 Engine II로, Impulse Thruster III는 Impulse Thruster II로), 약간의 Thulium, 외계인 드롭, Skylab 단조소의 플레이트로 만듭니다. 부품은 인벤토리에 장착되지 않은 상태여야 합니다. 먼저 함선에서 떼어 내고 레이저, 실드, 엔진에서 꺼내세요(실드나 엔진에는 자신의 셀이나 추진기가 들어 있지 않아야 합니다). 수송 보관함에서도 꺼내야 합니다. **새 아이템은 소모한 부품의 [인챈트](/wiki/06-Items/Overview.md#item-enchants) 등급을 이어받으며, 보너스는 다시 굴립니다**(신성한 Pulse Amp로는 원래와 같은 수의 새 보너스를 가진 신성한 Nova Amp가 만들어집니다). 어느 사본을 쓸지는 직접 고를 수 있습니다. 사본이 서로 다르면 어셈블리의 제작법 카드가 보여 주고, 표준보다 높은 등급을 쓰기 전에는 먼저 묻습니다. 아무것도 고르지 않으면 인챈트 등급이 가장 낮은 것부터 쓰이므로 가장 높은 등급의 사본은 남습니다(같은 등급이라면 보너스와 상관없이 가장 오래된 것부터). 전체 규칙은 [대장간](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly) 페이지에 있습니다.
 
@@ -85,4 +89,5 @@ Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mecha
 - **추진 장치**: 속도를 위한 엔진과 [추진기](/wiki/06-Items/Propulsion.md).
 - **Repair Drone**: 선체를 수리하는 부가 장비이며, 뒤로 갈수록 더 빠릅니다. Repair Drone I~III의 가격은 각각 5,000, 15,000, 35,000 크레딧이고, Repair Drone IV는 2,000 Thulium입니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다.
 - **Cloaking CPU와 EMP Charge**: 전투나 도주를 위한 부가 장비입니다. Cloaking CPU는 직접 끌 때까지 함선을 숨기고(S, M, L은 사용 횟수 10, 25, 50회이며 가격은 5,000, 11,250, 20,000 Thulium), EMP Charge는 3초 동안 당신을 대상으로 지정할 수 없게 만들고 당신에 대한 모든 락온을 끊으며 주변의 모든 은폐를 해제합니다(500 Thulium). [부가 장비](/wiki/06-Items/Extras.md)를 참고하세요.
+- **연구 CPU**: Extra Slots CPU는 모든 함선의 부가 슬롯을 늘려 주고, Jump CPU는 Thulium을 내고 기업 섹터로 데려다주며, Base CPU는 기지로 돌려보내 주고, Auto-Repair CPU는 Repair Drone을 알아서 내보냅니다. 판매하지 않습니다. 연구한 뒤 어셈블리에서 제작합니다. [부가 장비](/wiki/06-Items/Extras.md#research-cpus)를 참고하세요.
 - **자원**: 제작을 위해 외계인이 드롭하거나 Skylab이 만드는 것들입니다. Ship Fragment, 크리스탈 4종, Power Core, Velkonite와 Orvium 플레이트, 그리고 다른 곳에서 나오는 두 가지가 있습니다. N.I.K.E. 로켓을 쏘면 [블랙홀](/wiki/03-Mechanics/Black-Hole.md)이 돌려주는 **Dark Matter**와, 어셈블리가 이를 압착해 만드는 **Dark Matter Plate**입니다. 후자는 [대장간](/wiki/06-Items/Forge.md)의 최상위 두 단계에 쓰입니다.

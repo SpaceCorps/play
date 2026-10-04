@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ A leltáradban lévő további tárgyakhoz, amelyeket meg szeretnél menteni (pl
   * *Nyersanyagok / ásványok*: ritkaságtól függően változó súly (a Skylab Kovácsműhelyében készült Reinforced Plate 5 kg-ot nyom)
   * *Rakéták*: egyáltalán nincs súlyuk: nem foglalnak helyet a tárolóban, így egész készletek is beférnek (lásd: [Rakéták](/wiki/06-Items/Rockets.md))
 
-A [Skylabod](/wiki/03-Mechanics/Skylab.md) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie.
+A [Skylabod](/wiki/03-Mechanics/Skylab.md) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. A Kutatóközpont mindent megtart, amit a [Kutatás](/wiki/03-Mechanics/Research.md) tartalmaz: a technológiáidat, a tartályában lévő tudományt, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot. Ugyanígy az általad telepített Extra Slots CPU-k is megmaradnak, mert nem tárgyak. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie.
 
 ### Megerősítés és zárolás {#confirm-lock}
 A szezon vége előtt rá kell kattintanod a **Zárolás** gombra a Materializáló felületén.

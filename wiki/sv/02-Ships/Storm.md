@@ -1,0 +1,41 @@
+<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n title: Storm -->
+# Storm {#storm}
+
+Storm är en stjärnjagare av glaskanonstyp: den högsta grundhastigheten av alla skepp och tio lasrar på ett skrov som är lätt för sin klass. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
+
+## Värden {#stats}
+
+- **Träffpoäng (HP)**: 160 000
+- **Grundhastighet**: 240
+- **Laserplatser**: 10
+- **Extraplatser**: 3
+
+### Generator- och stödplatser {#generator-support-slots}
+
+- **Kärnplatser (100 % verkningsgrad)**: 3
+- **Stödplatser (75 % verkningsgrad)**: 4
+- **Hjälpplatser (50 % verkningsgrad)**: 3
+
+---
+
+## Pris {#price}
+
+- **Krediter**: 0 (Byggs i Monteringen)
+- **Thulium**: 0
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Forska först.** Monteringen tillverkar det här skeppet först när du har forskat fram dess teknologi: 1 d forskning och 10 Dark Matter som ska sättas i forskningscentrumet. Den finns i [trädet Skepp](/wiki/03-Mechanics/Research.md#tree-ships) på sidan [Forskning](/wiki/03-Mechanics/Research.md).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
+
+När du har forskat fram dess teknologi kostar det 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) och 15 000 Thulium att tillverka en Storm i Monteringen, och det tar 900 sekunder (15 minuter).
+
+## Bakgrund {#lore}
+
+Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Benvit plätering över ett blågrönt skelett, med orange paneler och ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio vapen sammanlagt, med varje mynning i öppen dager. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.

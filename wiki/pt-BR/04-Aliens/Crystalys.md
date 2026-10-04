@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ O Crystalys é uma imensa entidade alienígena da classe dos encouraçados. Enco
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 60.000
+- **Créditos**: 75.000
 - **Thulium**: 200
 - **Experiência (XP)**: 12.000
 - **Honra**: 52

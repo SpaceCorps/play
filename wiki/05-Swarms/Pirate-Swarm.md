@@ -16,7 +16,7 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Healing**: Each Pirate Scout within 600 units of the leader heals its hull, 40 HP a second in Alpha
 - **Leader destroyed**: The followers leave 1 min after the leader is destroyed, unless they are attacking
 - **Comes back**: 2 min after the leader is destroyed, in the same sector
-- **Announced**: The chat of the sector tells when the leader appears and when it is destroyed. The kill feed names the pilot credited with the kill.
+- **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- pirate-glance:end -->
 
@@ -57,7 +57,7 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 | Laser range | – | – | – |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Rocket damage, at most | 2,500 (Rivet I) / 5,000 (Rivet II) | 3,750 (Rivet I) / 7,500 (Rivet II) | 5,000 (Rivet I) / 10,000 (Rivet II) |
-| Credits | 116,000 | 232,000 | 348,000 |
+| Credits | 145,000 | 290,000 | 435,000 |
 | Thulium | 725 | 1,450 | 2,175 |
 | Experience (XP) | 29,000 | 58,000 | 87,000 |
 | Honor | 232 | 464 | 696 |
@@ -84,7 +84,7 @@ Built from the Kitefin at 50% of its hull, shield and damage; its speed and rang
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | 700 | 700 | 700 |
 | Heals the leader, each, per second (hull only) | 40 | 60 | 80 |
-| Credits | 800 | 1,600 | 2,400 |
+| Credits | 1,000 | 2,000 | 3,000 |
 | Thulium | 4 | 8 | 12 |
 | Experience (XP) | 100 | 200 | 300 |
 | Honor | 2 | 4 | 6 |

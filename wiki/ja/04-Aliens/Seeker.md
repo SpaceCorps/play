@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自�
 
 ## 報酬 {#rewards}
 
-- **クレジット**：800
+- **クレジット**：1,000
 - **Thulium**：4
 - **経験値（XP）**：100
 - **名誉**：2

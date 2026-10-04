@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ El Crystalys es una enorme entidad alienígena de clase acorazado. Encontrarse c
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 60.000
+- **Créditos**: 75.000
 - **Thulium**: 200
 - **Experiencia (XP)**: 12.000
 - **Honor**: 52

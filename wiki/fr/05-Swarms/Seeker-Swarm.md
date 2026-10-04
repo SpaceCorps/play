@@ -18,7 +18,7 @@ L’essaim Seeker est le plus petit des [essaims](/wiki/05-Swarms/Swarms.md) : 
 - **Soins** : Chaque Seeker Slave à moins de 600 unités du meneur soigne sa coque, 50 PV par seconde dans Alpha
 - **Meneur détruit** : Les suivants partent 30 s après la destruction du meneur, sauf s’ils attaquent
 - **Revient** : 2 min après la destruction du meneur, dans le même secteur
-- **Annonces** : Le chat du secteur annonce quand le meneur apparaît et quand il est détruit. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
+- **Annonces** : Les pilotes du secteur sont prévenus quand le meneur apparaît et quand il est détruit. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Base : Seeker, avec 400 % de coque, de bouclier et de dégâts ; la vitesse e
 | Vitesse | 120 | 120 | 120 |
 | Portée des lasers | 600 | 600 | 600 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
-| Crédits | 8 000 | 16 000 | 24 000 |
+| Crédits | 10 000 | 20 000 | 30 000 |
 | Thulium | 40 | 80 | 120 |
 | Expérience (XP) | 1 000 | 2 000 | 3 000 |
 | Honneur | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Base : Seeker, avec 100 % de coque, de bouclier et de dégâts ; la vitesse e
 | Portée des lasers | 600 | 600 | 600 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Soigne le meneur, chacun, par seconde (coque seulement) | 50 | 75 | 100 |
-| Crédits | 100 | 200 | 300 |
+| Crédits | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Expérience (XP) | 12 | 24 | 36 |
 | Honneur | 1 | 2 | 3 |

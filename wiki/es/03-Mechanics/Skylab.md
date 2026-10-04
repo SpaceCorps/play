@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 65da665842938543 -->
+<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
-El Skylab es tu instalación orbital personal. Construye y mejora módulos que producen créditos y Thulium, extraen mineral y forjan las placas que el Ensamblaje convierte en los mejores láseres. Trabaja para ti incluso cuando no estás conectado.
+El Skylab es tu instalación orbital personal. Construye y mejora módulos que producen créditos y Thulium, extraen mineral, forjan las placas que el Ensamblaje convierte en los mejores láseres y, desde el nivel 10 del Núcleo, investigan las tecnologías que necesita el Ensamblaje. Trabaja para ti incluso cuando no estás conectado.
 
 ## Resumen {#overview}
 
-El Skylab funciona con su propio reloj, aparte de tu nave: los módulos producen y forjan mientras estás fuera. Lo que haces tú es construir, mejorar, mantener la energía en equilibrio y recoger. La página tiene tres vistas de la misma estación: **Estación** (la estación en 3D, con un chip sobre cada módulo; haz clic en uno para abrir su ficha, o pulsa del **1** al **8**), **Lista** (una tarjeta por módulo) y **Tabla** (las cifras de todos los módulos en una sola tabla). Al pasar el cursor por **Construir** o **Mejorar** se ve lo que cambia el siguiente nivel, lo que cuesta y cuánto tarda.
+El Skylab funciona con su propio reloj, aparte de tu nave: los módulos producen y forjan mientras estás fuera. Lo que haces tú es construir, mejorar, mantener la energía en equilibrio y recoger. La página tiene cuatro vistas de la misma estación: **Estación** (la estación en 3D, con un chip sobre cada módulo; haz clic en uno para abrir su ficha, o pulsa del **1** al **9**), **Lista** (una tarjeta por módulo), **Tabla** (las cifras de todos los módulos en una sola tabla) e **Investigación** (la pantalla propia del Centro de investigación, consulta [Investigación](/wiki/03-Mechanics/Research.md)). Al pasar el cursor por **Construir** o **Mejorar** se ve lo que cambia el siguiente nivel, lo que cuesta y cuánto tarda.
 
-Ocho módulos forman la estación:
+Nueve módulos forman la estación:
 
 | Módulo | Qué produce o hace | Se construye desde |
 | :--- | :--- | :--- |
@@ -20,6 +20,7 @@ Ocho módulos forman la estación:
 | **Colector de Orvium** | Extrae mineral de Orvium | Núcleo de nivel 5 |
 | **Almacén de recursos** | Guarda el mineral | Núcleo de nivel 5 |
 | **Forja** | Forja el mineral en placas | Núcleo de nivel 5 |
+| **Centro de investigación** | Convierte recursos en ciencia e investiga [tecnologías](/wiki/03-Mechanics/Research.md) | Núcleo de nivel 10 |
 
 **Misiones para el Skylab.** Diez [misiones de la estación](/wiki/03-Mechanics/Quests.md#station-missions) en Mission Control te guían por el Skylab: construir Solar, una Granja de créditos y una Granja de Thulium, subir el Núcleo y Solar, recoger tus primeros 50.000 créditos y abrir la cadena de suministro, y pagan un poco por cada paso. La primera está abierta desde el nivel 1.
 
@@ -62,9 +63,9 @@ Esta es la vista Estación del Skylab en cada nivel del 1 al 20, todas desde el 
 
 ![Nivel 20](../../img/skylab/wiki/level-20.jpg)
 
-**Las tarjetas de los ocho módulos.** La vista Lista de la misma estación en el nivel 20: los cuatro módulos de la primera versión, y el Colector de Velkonite, el Colector de Orvium, el Almacén de recursos y la Forja que llegaron con la cadena de suministro. Cada tarjeta muestra el nivel del módulo, su producción, su energía y su interruptor.
+**Las tarjetas de los nueve módulos.** La vista Lista de la misma estación en el nivel 20: los cuatro módulos de la primera versión, el Colector de Velkonite, el Colector de Orvium, el Almacén de recursos y la Forja que llegaron con la cadena de suministro, y el Centro de investigación. Cada tarjeta muestra el nivel del módulo, su producción, su energía y su interruptor. Todas las tarjetas marcan el nivel 20 salvo la del Centro de investigación: tiene los niveles 1 a 10, así que su tarjeta marca el nivel 10, el máximo.
 
-![La vista Lista en el nivel 20: las tarjetas del Núcleo, Solar, la Granja de créditos, la Granja de Thulium, el Colector de Velkonite, el Colector de Orvium, el Almacén de recursos y la Forja](../../img/skylab/wiki/modules.jpg)
+![La vista Lista en el nivel 20: las tarjetas del Núcleo, Solar, la Granja de créditos, la Granja de Thulium, el Colector de Velkonite, el Colector de Orvium, el Almacén de recursos, la Forja y el Centro de investigación](../../img/skylab/wiki/modules.jpg)
 
 ## Los cuatro primeros módulos {#the-first-four-modules}
 
@@ -77,7 +78,7 @@ El corazón de tu Skylab. El nivel del Núcleo decide el nivel máximo de todos 
 La energía es el alma del Skylab. El módulo Solar produce la energía que usan todos los demás módulos.
 
 - **Importancia**: si tu consumo de energía es mayor que la energía que produces, tus granjas y colectores se apagan.
-- **Energía producida**: un módulo Solar de nivel N produce lo suficiente para **todos los demás módulos en el nivel N**, y alrededor de una décima parte más: 255 en el nivel 1, 835 en el nivel 7, 16.010 en el nivel 20. Solar de nivel 7 alimenta una estación entera en el nivel 7 (consulta Gestión de la energía para ver todos los niveles).
+- **Energía producida**: un módulo Solar de nivel N produce lo suficiente para **todos los demás módulos en el nivel N**, y alrededor de una décima parte más: 255 en el nivel 1, 835 en el nivel 7, 16.110 en el nivel 20. Solar de nivel 7 alimenta una estación entera en el nivel 7 (consulta Gestión de la energía para ver todos los niveles).
 - **Mejora**: Solar sigue produciendo la energía de su nivel actual mientras se mejora, y la del nivel nuevo desde que termina la mejora, así que el resto de la estación sigue funcionando (consulta Construcción y mejora).
 
 ### Granja de créditos y Granja de Thulium {#credit-farm-and-thulium-farm}
@@ -125,6 +126,10 @@ Cada uno de los cuatro cuesta **10 Ship Fragments, 10.000 créditos y 500 de Thu
 - Consumen energía. Antes de construir, la ficha muestra tu balance de energía ahora y después: **construir puede dejar una estación en déficit** cuando su Solar va por detrás de los demás módulos, y un déficit detiene todas las granjas y colectores. Apaga un módulo o mejora primero Solar.
 - Los dos colectores cuelgan de estructuras sobre la estación, el Almacén de recursos está en el puerto noreste del Núcleo y la Forja en su puerto noroeste.
 
+## El Centro de investigación {#the-research-centre}
+
+El noveno módulo convierte recursos en ciencia e investiga las tecnologías que Ensamblaje necesita antes de fabricar nada nuevo. Se construye desde el nivel 10 del Núcleo, tiene los niveles 1 a 10, consume energía y no se puede apagar. Sus números, lo que quema como combustible, el impulso y el árbol de tecnologías completo están en la página de [Investigación](/wiki/03-Mechanics/Research.md).
+
 ## Mecánicas {#mechanics}
 
 ### Construcción y mejora {#building-and-upgrading}
@@ -143,13 +148,13 @@ Cada uno de los cuatro cuesta **10 Ship Fragments, 10.000 créditos y 500 de Thu
 
 **Niveles 1 a 5**, por módulo (la mejora desde el nivel de la primera columna):
 
-| Nivel | Núcleo | Solar | Granja de créditos | Granja de Thulium | Almacén de recursos | Colector de Velkonite | Colector de Orvium | Forja |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s |
-| 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s |
-| 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s |
-| 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s |
-| 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s |
+| Nivel | Núcleo | Solar | Granja de créditos | Granja de Thulium | Almacén de recursos | Colector de Velkonite | Colector de Orvium | Forja | Centro de investigación |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
+| 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
+| 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
+| 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
+| 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
 
 **Desde el nivel 6**, igual para todos los módulos:
 
@@ -178,11 +183,11 @@ Una mejora que ya está en marcha cuando cambian los tiempos conserva la hora de
 Tu Skylab tiene un presupuesto de energía limitado.
 
 - **Balance**: mantén la producción de tu Solar por encima de la energía que usan todos los demás módulos. La página del Skylab muestra el balance y avisa antes de que una construcción lo deje por debajo de cero.
-- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **los otros siete módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja) y alrededor de una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7, y lo tiene cubierto. Solar un nivel por debajo no basta para una estación completa (la última columna), así que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 y superior cubre una estación completa en su nivel con el Núcleo en cualquier nivel.
-- **Estado activo**: puedes encender o apagar las granjas, los colectores y la Forja para gestionar la energía. El Núcleo, Solar y el Almacén de recursos siempre funcionan.
-- **Déficit de energía**: si el consumo de energía es mayor que la energía producida, todas las granjas y colectores dejan de producir hasta que se recupera el balance. Lo que ya almacenan se conserva y aún puedes recogerlo. La Forja no empieza ningún lote nuevo.
+- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **todos los demás módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja, y desde el nivel 10 el Centro de investigación) y alrededor de una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7, y lo tiene cubierto. Solar un nivel por debajo no basta para una estación completa (la última columna), así que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 y superior cubre una estación completa en su nivel con el Núcleo en cualquier nivel.
+- **Estado activo**: puedes encender o apagar las granjas, los colectores y la Forja para gestionar la energía. El Núcleo, Solar, el Almacén de recursos y el Centro de investigación siempre funcionan.
+- **Déficit de energía**: si el consumo de energía es mayor que la energía producida, todas las granjas y colectores dejan de producir hasta que se recupera el balance. Lo que ya almacenan se conserva y aún puedes recogerlo. La Forja no empieza ningún lote nuevo, y el Centro de investigación no empieza ninguna investigación nueva (una investigación en curso sigue).
 
-La energía de Solar en cada nivel, frente a lo que consumen los otros siete módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido):
+La energía de Solar en cada nivel, frente a lo que consumen los demás módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido, y el Centro de investigación desde el nivel 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -198,20 +203,20 @@ La energía de Solar en cada nivel, frente a lo que consumen los otros siete mó
 | 7 | 835 | 756 | 79 | 680: faltan 76 |
 | 8 | 1.030 | 933 | 97 | 835: faltan 98 |
 | 9 | 1.275 | 1.155 | 120 | 1.030: faltan 125 |
-| 10 | 1.580 | 1.435 | 145 | 1.275: faltan 160 |
-| 11 | 1.970 | 1.788 | 182 | 1.580: faltan 208 |
-| 12 | 2.460 | 2.234 | 226 | 1.970: faltan 264 |
-| 13 | 3.085 | 2.800 | 285 | 2.460: faltan 340 |
-| 14 | 3.875 | 3.519 | 356 | 3.085: faltan 434 |
-| 15 | 4.880 | 4.434 | 446 | 3.875: faltan 559 |
-| 16 | 6.160 | 5.600 | 560 | 4.880: faltan 720 |
-| 17 | 7.800 | 7.088 | 712 | 6.160: faltan 928 |
-| 18 | 9.895 | 8.992 | 903 | 7.800: faltan 1.192 |
-| 19 | 12.575 | 11.429 | 1.146 | 9.895: faltan 1.534 |
-| 20 | 16.010 | 14.554 | 1.456 | 12.575: faltan 1.979 |
+| 10 | 1.680 | 1.523 | 157 | 1.275: faltan 248 |
+| 11 | 2.065 | 1.876 | 189 | 1.680: faltan 196 |
+| 12 | 2.555 | 2.322 | 233 | 2.065: faltan 257 |
+| 13 | 3.180 | 2.888 | 292 | 2.555: faltan 333 |
+| 14 | 3.970 | 3.607 | 363 | 3.180: faltan 427 |
+| 15 | 4.975 | 4.522 | 453 | 3.970: faltan 552 |
+| 16 | 6.260 | 5.688 | 572 | 4.975: faltan 713 |
+| 17 | 7.895 | 7.176 | 719 | 6.260: faltan 916 |
+| 18 | 9.990 | 9.080 | 910 | 7.895: faltan 1.185 |
+| 19 | 12.670 | 11.517 | 1.153 | 9.990: faltan 1.527 |
+| 20 | 16.110 | 14.642 | 1.468 | 12.670: faltan 1.972 |
 <!-- skylab-power:end -->
 
-La tabla cuenta todos los módulos en el mismo nivel. La Granja de Thulium consume cuatro quintas partes de ese total en lo más alto (11.695 en el nivel 20, frente a 14.554 de los siete), así que una estación con esa granja muy por delante del resto necesita más Solar de lo que sugiere su Núcleo.
+La tabla cuenta todos los módulos en el mismo nivel. La Granja de Thulium consume cuatro quintas partes de ese total en lo más alto (11.695 en el nivel 20, frente a 14.642 de los ocho), así que una estación con esa granja muy por delante del resto necesita más Solar de lo que sugiere su Núcleo.
 
 ### Recogida {#collecting}
 
@@ -226,4 +231,4 @@ Cada granja y cada colector tiene una tolva para unas 72 horas de lo que produce
 
 ### El reinicio {#the-wipe}
 
-El Skylab nunca se reinicia: los módulos conservan sus niveles y el Almacén de recursos conserva su mineral. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md).
+El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter introducido y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md).

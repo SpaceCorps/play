@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30354846186e8ea9 -->
+<!-- wiki-i18n source: 5a4769d6626caeff -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
@@ -85,7 +85,7 @@ Die Kurve ist so gesetzt, dass eine neue Drohne in etwa einer Stunde normalen Sp
 
 ### Master Drone {#master-drone}
 
-Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest. Das Rezept kostet 40.000 Thulium und 100 Ship Fragments und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
+Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 40.000 Thulium und 100 Ship Fragments und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
 
 **Level und EP werden auf 0 zurückgesetzt, wenn die Aufrüstung fertig ist.** Eine Master Drone beginnt wieder auf Level 1, ohne EP, und steigt so auf wie eine Slave Drone (siehe Tabelle oben); der Laserbonus des Levels, das sie hatte, geht damit verloren. Die Montage sagt dir das, bevor du anfängst, und lässt dich bestätigen, unter Nennung der Drohne, wenn sie EP hat. Vorgewählt ist die Drohne mit den wenigsten EP.
 

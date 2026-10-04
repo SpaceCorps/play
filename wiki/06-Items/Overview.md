@@ -1,6 +1,6 @@
 # Items Overview
 
-Items are the core components that upgrade your ship's capabilities. They can be purchased from the Shop, found as drops, crafted in Assembly, or raised and merged in the [Forge](/wiki/06-Items/Forge.md).
+Items are the core components that upgrade your ship's capabilities. They can be purchased from the Shop, found as drops, crafted in Assembly (once their technology is researched), or raised and merged in the [Forge](/wiki/06-Items/Forge.md).
 
 ## Rarity Levels
 
@@ -15,6 +15,10 @@ Items come in different rarities, which determine their quality and base stats:
 - **Eternal**: Cosmic tier modules with unrivaled power.
 
 ## Upgrading Modules
+
+**Every craft in Assembly needs its technology first.** You research it in the Skylab's Research Centre ([Research](/wiki/03-Mechanics/Research.md) has the whole tree, the time of each technology, the fuel and the boost). Until you have it, the recipe's card in Assembly is locked and says which technology to research first. If you already held an item when research came into the game, you already have its technology.
+
+A locked card has an **Open Research** button that opens the Research view of your Skylab with that technology picked. The card still shows the materials and the price, so you can plan, and locked recipes come last in their category. An Extra Slots CPU also waits for the one below it: the card of Extra Slots CPU II says to install Extra Slots CPU I first, and the card of III asks for II.
 
 The top laser amps, tiers II to IV of the shield cells and thrusters, the Heavy Shield Core and the Engine III are not sold. You make each in Assembly from the piece below it (a Heavy Shield Core from a Basic Shield Core, an Engine III from an Engine II, an Impulse Thruster III from an Impulse Thruster II), some Thulium, what the aliens drop and plates from your Skylab's Forgery. The piece must be loose in your inventory: take it off your ship and out of its laser, shield or engine first (a shield or an engine must hold no cells or thrusters of its own), and out of the Transport Cache. **The new item keeps the [enchant](/wiki/06-Items/Overview.md#item-enchants) tier of the piece it uses up, and its buffs are rolled again** (a Godly Pulse Amp makes a Godly Nova Amp with new buffs, as many as it had). Which copy goes is your choice: the recipe card in Assembly shows your copies when they differ, and asks first before it uses one above Standard. If you choose none, the ones with the lowest enchant tier are used first, so your highest-tier copies stay (among copies of one tier the oldest goes first, whatever their buffs). The whole rule is on the [Forge](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly) page.
 
@@ -83,4 +87,5 @@ The Shop, the Hangar's inventory and the other item lists read in one order: the
 - **Propulsion**: Engines and [thrusters](/wiki/06-Items/Propulsion.md) for speed.
 - **Repair Drones**: Extras that repair your hull, each faster than the last: Repair Drone I, II and III cost 5,000, 15,000 and 35,000 credits, Repair Drone IV 2,000 Thulium. The rates are in [Combat](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPUs and the EMP Charge**: Extras for a fight or a flight: a Cloaking CPU hides your ship until you end it (S, M and L: 10, 25 and 50 uses, 5,000, 11,250 and 20,000 Thulium), an EMP Charge makes you untargetable for 3 seconds, breaks every lock on you and ends every cloak nearby (500 Thulium). See [Extras](/wiki/06-Items/Extras.md).
+- **Research CPUs**: the Extra Slots CPUs add extra slots to every ship, the Jump CPU takes you to a company sector for Thulium, the Base CPUs take you home and the Auto-Repair CPU sends your Repair Drone out by itself. They are not sold: research them, then make them in Assembly. See [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Resources**: what aliens drop and the Skylab makes for crafting: Ship Fragments, the four crystals, Power Cores, the Velkonite and Orvium plates, and two that come from elsewhere: **Dark Matter**, which the [black hole](/wiki/03-Mechanics/Black-Hole.md) gives back for a N.I.K.E. rocket, and the **Dark Matter Plate** that Assembly presses from it for the top two steps of [The Forge](/wiki/06-Items/Forge.md).

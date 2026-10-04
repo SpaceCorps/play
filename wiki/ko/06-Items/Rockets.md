@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: 로켓 -->
 # 로켓 {#rockets}
 
 로켓은 레이저와 함께 쓰는 두 번째 무기로, 몇 초에 한 번 발사하며 레이저 일제 사격보다 훨씬 강하게 때립니다. 로켓은 4종류에 등급 3단계씩 12가지이고, 어셈블리에서만 만드는 로켓이 2가지 더 있으며, 어떤 로켓을 쏘든 **모든 로켓이 공유하는 5초짜리 재장전 타이머가 하나** 있습니다. 일반과 희귀 로켓은 **크레딧**으로, 영웅 로켓 4종은 **Thulium**으로 구매합니다.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## 아이템 트리 {#item-tree}
+
+어셈블리에서 만드는 것은 먼저 해당 기술이 필요합니다. 아이템에 마우스를 올리면 연구에 걸리는 시간을 볼 수 있습니다. 기술 트리, 연료, 부스트는 [연구](/wiki/03-Mechanics/Research.md)에 있습니다.
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## 로켓의 네 종류 {#the-four-kinds}
 
@@ -64,7 +94,7 @@
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - **일반** 단일 대상 로켓은 어떤 값이 나와도 Seeker를 1발에, Phantasm을 3발에 처치합니다(Lancet I은 가장 낮은 값이 나오면 4발째가 필요합니다). 첫 섹터들의 일상적인 로켓입니다. **희귀** 로켓은 Bulwark와 Goombah용입니다. Lancet II 8발이면 타이머 기준 약 35초 만에 Bulwark를 쓰러뜨립니다. **영웅** 로켓은 어떤 값이 나와도 Phantasm을 1발에, Goombah를 9~11발에 처치합니다. 폭발 로켓은 외계인 여러 기가 가까이 모여 있을 때 값어치를 합니다. Phantasm 5기로 이루어진 무리 위에서 터진 Scatter III는 한 번에 무리 전체에 약 18,000의 피해를 줍니다.
-- 로켓만으로 처치하는 것은 실제로 돈이 드는 일이지 부자가 되는 방법이 아닙니다. 로켓이 겨냥한 외계인에게 단일 대상 로켓을 쓰면 처치 보상(크레딧, 그리고 Thulium은 개당 200 크레딧으로 환산)의 6분의 1에서 6분의 5가 들고, 약한 로켓을 강한 외계인에게 쓰면 처치 보상보다 더 많이 듭니다. **Crystalys**를 한 종류만으로 처치하려면 로켓이 62~399발 필요하고 타이머 기준 최소 5분이 걸립니다. 영웅 로켓 500발 한 묶음이면 Crystalys 4~8기를 처치하기에 충분합니다. 가장 강한 외계인에게는 계획이 필요합니다. 레이저는 x2 탄약으로, 중간 등급 로켓을 첫 순간부터 5초마다 쏘고, 아래의 큰 로켓을 순간 화력으로 씁니다.
+- 로켓만으로 처치하는 것은 실제로 돈이 드는 일이지 부자가 되는 방법이 아닙니다. 로켓이 겨냥한 외계인에게 단일 대상 로켓을 쓰면 처치 보상(크레딧, 그리고 Thulium은 개당 200 크레딧으로 환산)의 약 7분의 1에서 4분의 3이 들고, 약한 로켓을 강한 외계인에게 쓰면 처치 보상보다 더 많이 듭니다. **Crystalys**를 한 종류만으로 처치하려면 로켓이 62~399발 필요하고 타이머 기준 최소 5분이 걸립니다. 영웅 로켓 500발 한 묶음이면 Crystalys 4~8기를 처치하기에 충분합니다. 가장 강한 외계인에게는 계획이 필요합니다. 레이저는 x2 탄약으로, 중간 등급 로켓을 첫 순간부터 5초마다 쏘고, 아래의 큰 로켓을 순간 화력으로 씁니다.
 - 처치 보상은 어떤 방법으로 처치했든 같으므로(가장 큰 보상은 [Crystalys](/wiki/04-Aliens/Crystalys.md) 참고), 로켓 처치는 시간을 아껴 주고 비용이 보상보다 적을 때 값어치가 있습니다.
 - **외계인도 로켓을 발사합니다.** [무리](/wiki/05-Swarms/Swarms.md)의 Pirate Boss와 Dormant Force, Pulse는 자신을 공격한 파일럿에게 같은 5초 타이머로 직선 Rivet 로켓을 발사합니다. 계속 움직이는 함선은 피합니다. 무리의 보스는 상자에 로켓도 떨어뜨립니다.
 

@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
 Les roquettes sont une seconde arme à côté de vos lasers : un tir toutes les quelques secondes, qui frappe bien plus fort qu’une salve laser. Douze roquettes en quatre types, de trois gammes chacun, deux autres que seul l’Assemblage fabrique, et **un seul minuteur de rechargement de 5 secondes que toutes partagent**, quelle que soit celle que vous tirez. Les roquettes communes et rares s’achètent avec des **crédits** ; les quatre roquettes épiques s’achètent avec du **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Arbre d’objets {#item-tree}
+
+Ce que fabrique l’Assemblage exige d’abord sa technologie ; pointez un objet pour voir combien de temps sa recherche prend. L’arbre des technologies, le carburant et le boost : [Recherche](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## Les quatre types {#the-four-kinds}
 
@@ -11,7 +41,7 @@ Les roquettes sont une seconde arme à côté de vos lasers : un tir toutes les
 | **Guidée** : verrouille la cible que vous avez sélectionnée et la poursuit | Lancet I, Lancet II, Lancet III | Ember I, Ember II, Ember III |
 | **Droite** : vole vers votre curseur | Rivet I, Rivet II, Rivet III | Scatter I, Scatter II, Scatter III |
 
-Chaque type est une **famille**, qui porte le nom de sa roquette commune, et la gamme est un chiffre romain : **Lancet I**, **Lancet II** et **Lancet III** sont la roquette guidée à cible unique commune, rare et épique, et les familles Rivet, Ember et Scatter suivent le même modèle. Le code d’une roquette sur sa vignette dans le sélecteur de roquettes et dans le hangar est formé des trois lettres de sa famille et de son chiffre (LNC II, RVT III, EMB I, SCT II) ; les deux roquettes que seul l’Assemblage fabrique gardent leur nom et leur code (N.U.K.E., NUK ; N.I.K.E., NIK).
+Chaque type est une **famille**, qui porte le nom de sa roquette commune, et la gamme est un chiffre romain : **Lancet I**, **Lancet II** et **Lancet III** sont la roquette guidée à cible unique commune, rare et épique, et les familles Rivet, Ember et Scatter suivent le même modèle. Le code d’une roquette sur sa vignette dans le sélecteur de roquettes et dans le hangar est formé des trois lettres de sa famille et de son chiffre (LNC II, RVT III, EMB I, SCT II) ; les deux roquettes que seul l’Assemblage fabrique gardent leur nom et leur code (N.U.K.E., NUK ; N.I.K.E., NIK).
 
 - Les roquettes **guidées** ont besoin d’une cible sélectionnée dans leur **portée de verrouillage** au départ. Elles la poursuivent avec une vitesse de virage limitée, si bien qu’un vaisseau rapide et éloigné peut distancer une roquette bon marché. Si la cible meurt, quitte la carte ou atteint une zone sûre, la roquette continue tout droit et n’en choisit pas une autre.
 - Les roquettes **droites** n’ont besoin d’aucune cible et ignorent celle que vous avez sélectionnée : elles volent toujours vers votre **curseur**, au point situé dessous dans la vue de vol. **Cliquez sur l’emplacement d’une roquette droite pour l’armer** (l’emplacement reçoit un cadre blanc et un réticule, et votre curseur de souris devient un réticule au-dessus de l’espace), puis **cliquez dans l’espace** : la roquette vole vers le point sur lequel vous avez cliqué et votre vaisseau reste où il est. Esc, un clic droit ou un nouveau clic sur le même emplacement la relâche. Si les roquettes sont encore en rechargement, le clic ne fait que vous le dire et la roquette reste armée. Les touches numériques et **Tirer roquette** tirent aussitôt vers le dernier point où se trouvait le curseur dans la vue de vol ; tant que le curseur n’y est pas passé, elles volent dans la direction où votre vaisseau **pointe**. Elles volent droit, donc un vaisseau qui traverse à vitesse élevée peut les esquiver.
@@ -64,7 +94,7 @@ Le nombre de roquettes nécessaires pour détruire un alien, chaque type de roqu
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - Les roquettes **communes** à cible unique détruisent un Seeker en un coup quel que soit le jet et un Phantasm en trois (une Lancet I en demande une quatrième à son jet le plus bas) ; ce sont les roquettes de tous les jours des premiers secteurs. Les **rares** sont pour le Bulwark et le Goombah : huit roquettes Lancet II viennent à bout d’un Bulwark en environ 35 secondes de minuteur. Les **épiques** détruisent un Phantasm en un coup quel que soit le jet et un Goombah en neuf à onze. Les explosions valent leur prix quand plusieurs aliens sont proches les uns des autres : une Scatter III qui éclate sur une meute de cinq Phantasms inflige environ 18 000 dégâts à la meute en un seul tir.
-- Une élimination aux seules roquettes est une vraie dépense, pas un moyen de s’enrichir : pour l’alien auquel elle est destinée, une roquette à cible unique coûte d’un sixième aux cinq sixièmes de ce que rapporte l’élimination (en crédits, et en Thulium à 200 crédits l’unité), et les roquettes faibles sur les aliens forts coûtent plus que ce que l’élimination rapporte. Détruire le **Crystalys** avec un seul type exige de 62 à 399 roquettes et au moins cinq minutes de minuteur ; un stock plein de 500 roquettes épiques suffit pour en détruire de quatre à huit. L’alien le plus fort demande un plan : vos lasers avec des munitions x2, une roquette de gamme moyenne toutes les 5 secondes dès la première seconde, et les grosses roquettes décrites plus bas comme pic de puissance.
+- Une élimination aux seules roquettes est une vraie dépense, pas un moyen de s’enrichir : pour l’alien auquel elle est destinée, une roquette à cible unique coûte d’environ un septième aux trois quarts de ce que rapporte l’élimination (en crédits, et en Thulium à 200 crédits l’unité), et les roquettes faibles sur les aliens forts coûtent plus que ce que l’élimination rapporte. Détruire le **Crystalys** avec un seul type exige de 62 à 399 roquettes et au moins cinq minutes de minuteur ; un stock plein de 500 roquettes épiques suffit pour en détruire de quatre à huit. L’alien le plus fort demande un plan : vos lasers avec des munitions x2, une roquette de gamme moyenne toutes les 5 secondes dès la première seconde, et les grosses roquettes décrites plus bas comme pic de puissance.
 - Le gain d’une élimination est le même quelle que soit la manière de l’obtenir (voir [le Crystalys](/wiki/04-Aliens/Crystalys.md) pour le plus gros), si bien qu’une élimination à la roquette vaut le coup quand elle vous fait gagner du temps et coûte moins qu’elle ne rapporte.
 - **Les aliens tirent aussi des roquettes.** Le Pirate Boss, la Dormant Force et les Pulses des [essaims](/wiki/05-Swarms/Swarms.md) lancent des roquettes Rivet droites sur le pilote qui les a attaqués, avec le même minuteur de 5 secondes. Un vaisseau qui reste en mouvement les esquive. Les boss des essaims laissent aussi des roquettes dans leurs caisses.
 

@@ -59,7 +59,7 @@ For additional items in your inventory that you want to save (e.g., spare weapon
   * *Resources / Minerals*: Varying weights based on rarity (a Reinforced Plate from the Skylab's Forgery weighs 5 kg)
   * *Rockets*: no weight at all: they take no room in the cache, so whole stacks go in (see [Rockets](/wiki/06-Items/Rockets.md))
 
-Your [Skylab](/wiki/03-Mechanics/Skylab.md) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache.
+Your [Skylab](/wiki/03-Mechanics/Skylab.md) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. The Research Centre keeps everything [Research](/wiki/03-Mechanics/Research.md) holds too: your technologies, the science in its tank, the Dark Matter plugged into it, a research under way and the boost. So do the Extra Slots CPUs you installed, which are not items. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache.
 
 ### Confirm & Lock
 Before the season ends, you must click **Confirm & Lock** in the Materializer interface. 

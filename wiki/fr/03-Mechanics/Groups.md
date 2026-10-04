@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74abe792046ae603 -->
+<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -10,13 +10,13 @@ Un groupe compte jusqu’à **5 pilotes** qui volent ensemble, de n’importe qu
 - Le pilote voit une carte avec **Accepter** et **Refuser**, qui décompte les **60 secondes** dont il dispose pour répondre, et une notification. **Y** accepte et **Escape** refuse (un champ de texte en cours d’utilisation, ou une fenêtre ouverte par-dessus, garde les touches). Si plusieurs invitations attendent, la carte les prend à tour de rôle. Elle s’affiche aussi à la station. Quand le temps est écoulé, l’invitation expire et on vous indique laquelle. Vous ne pouvez pas inviter un pilote qui est déjà dans un groupe, qui a activé **Ne pas déranger**, ou qui a trop d’invitations en attente, et vous pouvez envoyer au plus 10 invitations par minute (3 à d’autres corporations).
 - **Ne pas déranger** désactive les invitations : la cloche dans la barre de titre de la fenêtre Groupe, ou Paramètres › Général › Groupes. Personne ne peut vous inviter tant qu’il est activé, et on ne vous demande rien.
 - Celui dont l’invitation est acceptée en premier devient le **chef**. Le chef invite, exclut des membres et nomme un autre membre chef. N’importe qui peut partir. Un groupe d’un seul pilote prend fin de lui-même. Quand le chef part, le membre présent dans le groupe depuis le plus longtemps prend la tête.
-- Vous êtes dans **un seul groupe à la fois**. Changer de corporation ne vous fait pas quitter votre groupe (vous apparaissez sous votre nouvelle corporation) ; la réinitialisation de la saison, si.
+- Vous êtes dans **un seul groupe à la fois**. [Changer de corporation](/wiki/01-General/Getting-Started.md#changing-your-company) ne vous fait pas quitter votre groupe (vous apparaissez sous votre nouvelle corporation) ; la réinitialisation de la saison, si.
 - Si votre connexion tombe, ou si vous vous amarrez puis décollez de nouveau, votre place est conservée pendant **2 minutes**. Un membre absent plus longtemps est retiré. Une mise à jour du serveur met fin à tous les groupes : invitez-vous de nouveau.
 
 ## Voir votre groupe {#seeing-your-group}
 
 Dès que vous acceptez, la **fenêtre Groupe** s’ouvre (la touche **B** ou son bouton dans la barre d’outils l’affiche et la masque ; vous pouvez changer la touche dans Paramètres › Commandes). Chaque membre a une ligne : son vaisseau, son nom et son niveau, ainsi qu’une **barre de coque** et une **barre de bouclier** (survolez-les pour voir les valeurs). Un membre présent sur votre carte affiche sa distance et sa direction, comme la mini-carte les dessine (le haut est le haut de la carte) ; un membre sur une autre carte affiche le nom de cette carte, avec le monde quand c’est un autre monde. Une **couronne** marque le chef, un **fantôme** un membre occulté (un groupe partage ses vaisseaux occultés, quelles que soient les corporations), un **bouclier** un membre en zone sûre. Un membre qui s’est amarré, a été détruit ou a perdu sa connexion est grisé et l’indique. Cliquez sur une ligne pour sélectionner ce vaisseau quand il est sur votre carte (vous ne pouvez pas tirer sur un coéquipier : le jeu retient le tir).
-- Un membre qui **tire** affiche aussi sa **cible** : sous ses propres barres, vous voyez le nom de la cible et deux fines barres, la **coque** et le **bouclier** de la cible (survolez-les pour voir les valeurs). Vous voyez la cible, avec sa coque et son bouclier, de chaque membre du groupe qui tire sur un alien, un autre pilote ou un pilote de corporation. Un verrouillage laser ou une roquette guidée en vol compte, et la cible reste affichée **5 secondes** après le dernier. Elle n’est montrée que pour un membre qui vole sur votre carte (dans votre monde), et seulement pour un vaisseau que vous pourriez y voir vous-même : la coque et le bouclier d’un pilote occulté ne sont jamais montrés à un membre qui ne peut pas voir ce pilote. Une base ou une porte n’est pas une cible. Votre propre ligne n’affiche aucune cible (c’est la fenêtre de cible), ni la fenêtre repliée.
+- Un membre qui **tire** affiche aussi sa **cible** : sous ses propres barres, vous voyez le nom de la cible et deux fines barres, la **coque** et le **bouclier** de la cible (survolez-les pour voir les valeurs). Vous voyez la cible, avec sa coque et son bouclier, de chaque membre du groupe qui tire sur un alien, un autre pilote ou un pilote de corporation. Un verrouillage laser ou une roquette guidée en vol compte, et la cible reste affichée **5 secondes** après le dernier. Elle n’est montrée que pour un membre qui vole sur votre carte (dans votre monde), et seulement pour un vaisseau que vous pourriez y voir vous-même : la coque et le bouclier d’un pilote occulté ne sont jamais montrés à un membre qui ne peut pas voir ce pilote. Une base ou une porte n’est pas une cible. Votre propre ligne n’affiche aucune cible (c’est la fenêtre de cible), ni la fenêtre repliée.
 - Le **chef** fait un clic droit sur une ligne pour **Nommer chef** ou **Exclure du groupe**. Chacun fait un clic droit sur sa propre ligne, ou utilise le menu, pour **Quitter le groupe**.
 - Le bouton de réduction replie la fenêtre en une petite paire de barres par membre ; sa position, sa taille et son état replié sont mémorisés.
 - Les membres **se voient les uns les autres, même occultés**, et ne peuvent pas rompre l’occultation d’un coéquipier : une EMP qui se déclenche près d’un coéquipier occulté laisse son occultation en l’état.
@@ -43,7 +43,7 @@ Une élimination compte aussi pour les **missions d’élimination** de tous les
 
 ## Canaux de chat {#chat-channels}
 
-Le chat a une rangée d’onglets en haut : **Global**, **Local** et, tant que vous êtes dans un groupe, **Groupe**. La ligne que vous saisissez part vers l’onglet affiché, et le dernier onglet utilisé est mémorisé. Chaque canal a sa couleur et un court tag sur chaque ligne (GLB, LOC, GRP), un onglet compte les lignes non lues, et le bouton du chat dans la barre d’outils affiche ce compte tant que la fenêtre est fermée. Les lignes propres au serveur s’affichent dans tous les onglets. Ou commencez une ligne par une commande :
+Le chat a une rangée d’onglets en haut : **Global**, **Local**, **Groupe** (tant que vous êtes dans un groupe) et, en dernier, **Système**. La ligne que vous saisissez part vers l’onglet affiché, et le dernier onglet utilisé est mémorisé. Chaque canal a sa couleur et un court tag sur chaque ligne (GLB, LOC, GRP), un onglet compte les lignes non lues, et le bouton du chat dans la barre d’outils affiche ce compte tant que la fenêtre est fermée. Ou commencez une ligne par une commande :
 
 | Canal | Qui l’entend | Commande |
 | :--- | :--- | :--- |
@@ -51,7 +51,25 @@ Le chat a une rangée d’onglets en haut : **Global**, **Local** et, tant que 
 | **Global** | tous les pilotes en ligne | `/g` ou `/global` |
 | **Groupe** | votre groupe, où qu’il soit | `/p`, `/party` ou `/group` |
 
-Une commande change aussi d’onglet, et saisie seule (`/g`) elle ne fait que changer d’onglet. Global a une limite : 3 lignes en rafale, puis une toutes les 2 secondes. Le chat de groupe nécessite un groupe. Sur un serveur de jeu antérieur aux canaux, le chat reste la liste unique qu’il était, et on ne peut pas former de groupe.
+Une commande change aussi d’onglet, et saisie seule (`/g`) elle ne fait que changer d’onglet. Le chat de groupe nécessite un groupe. Sur un serveur de jeu antérieur aux canaux, le chat reste la liste unique qu’il était, et on ne peut pas former de groupe.
+
+L’onglet **Système** est doré et en lecture seule, avec sa propre liste : il contient ce que le serveur dit de lui-même (l’accueil, les avertissements de redémarrage, de mise à jour et de réinitialisation, les annonces d’essaims) et ce que signale votre vaisseau (réparations, occultation, EMP, roquettes). Ces lignes ne figurent dans aucun autre onglet : un Global très animé ne peut donc pas les repousser, et les autres onglets contiennent ce que disent les pilotes. Le compteur de l’onglet ne compte que les annonces ; un compte à rebours de redémarrage ou de mise à jour et les avertissements de réinitialisation s’affichent aussi un instant sous forme de notification. Le [fil des éliminations](#the-kill-feed) reste dans **Global**, avec son propre réglage, et les lignes indiquant qu’un pilote rejoint ou quitte votre groupe sont dans **Groupe**.
+
+### Saisie {#typing}
+
+**Enter** ouvre le chat et lui donne le clavier. Envoyez une ligne avec **Enter** et le champ garde le clavier : la ligne suivante peut donc suivre aussitôt ; tant qu’il le garde, la barre rapide et les touches de compétence restent coupées. La saisie s’arrête quand vous appuyez sur **Escape**, appuyez sur **Enter** sans rien avoir saisi, cliquez sur la carte avec le bouton gauche (le même clic continue de diriger votre vaisseau), laissez le champ vide et n’appuyez sur aucune touche pendant 15 secondes, ou quand votre vaisseau est détruit. Sur l’onglet Système, où l’on ne peut pas écrire, **Enter** vous ramène au canal dans lequel vous avez écrit en dernier.
+
+### Les règles du chat {#the-chat-rules}
+
+Le serveur soumet chaque ligne à quelques règles, les mêmes dans Local, Global et Groupe. Une ligne qu’il refuse n’est pas envoyée, le motif s’affiche quelques secondes sous le champ de saisie, et votre texte revient dans le champ.
+
+- **Une limite à la vitesse d’envoi.** Vous pouvez envoyer **5 lignes** d’un coup, puis **une ligne de plus toutes les 2 secondes**, comptées ensemble pour Local, Global et Groupe. Si vous envoyez une ligne alors qu’il n’en reste aucune, le chat se met **en pause** pour vous : **10 secondes** la première fois, puis **30**, **120** et **300 secondes** à chaque récidive dans les 10 minutes qui suivent la dernière pause (après 10 minutes sans pause, le compte repart de zéro). Tant qu’elle dure, le bouton Envoyer est grisé et « Chat en pause : 7 s » décompte sous le champ. **Le texte que vous avez saisi reste dans le champ**, et le champ garde le clavier : attendez, ou appuyez sur **Escape**. Une conversation normale n’atteint jamais la limite. Une ligne refusée par les règles compte pour 2 lignes de votre réserve.
+- **200 caractères** par ligne. Un compteur (« 150/200 ») apparaît à partir de 120 caractères, et une ligne plus longue est coupée.
+- **Lettres latines uniquement.** Les lettres des alphabets latins avec leurs accents (é, ß, ñ, ø, ő), les chiffres, la ponctuation courante et les signes ¡ ¿ « » ° £ €. Le cyrillique, le chinois, le japonais, le coréen, les émojis et les autres symboles sont refusés, et le champ les supprime pendant que vous saisissez ou collez.
+- **Pas de liens.** Une ligne contenant une adresse web, un lien d’invitation ou une adresse e-mail est refusée, même lorsqu’elle est dissimulée par les procédés habituels. Les mots seuls ne posent pas de problème : « join my discord » passe.
+- **Pas de répétitions.** La même ligne que votre dernière, renvoyée en moins de 10 secondes, est refusée, de même qu’une ligne où le même caractère revient plus de 8 fois de suite ou qui ne contient aucune lettre ni chiffre.
+
+Les administrateurs ne sont pas soumis à ces règles, sauf aux 200 caractères. Les règles demandent un serveur de jeu à partir de la 0.4.9 ; un serveur plus ancien ne limite que Global, à 3 lignes d’un coup puis une toutes les 2 secondes.
 
 ### Le fil des éliminations {#the-kill-feed}
 
@@ -69,7 +87,7 @@ Global touche tous les pilotes en ligne : le chat propose donc trois outils pou
 - **Ignorer** (clic droit sur un nom, puis **Ignorer**) : les lignes de ce pilote dans Global et Local sont masquées, et ses invitations de groupe sont refusées sans vous demander. Il n’en est pas informé. Il reste visible dans l’onglet **Groupe** : un coéquipier que vous ignorez reste dans votre groupe, quittez donc le groupe pour vous en débarrasser. Les lignes propres au serveur ne sont jamais masquées. **Ne plus ignorer** se trouve dans le même menu, et **Paramètres › Interface › Chat** liste les pilotes ignorés (jusqu’à 200) avec un bouton **Retirer** pour chacun.
 - **Signaler** (clic droit sur un nom, puis **Signaler…**) : choisissez un motif (spam, insultes ou harcèlement, triche, ou autre chose) et envoyez. Le signalement contient votre nom, celui du pilote, le canal, le motif et la dernière ligne de ce pilote affichée par votre chat (jusqu’à 200 caractères). Les administrateurs du jeu le lisent ; personne n’est puni automatiquement, et le pilote n’est pas informé de l’identité de celui qui l’a signalé. Vous pouvez envoyer 5 signalements par heure.
 
-Votre liste d’ignorés et le réglage Masquer Global sont conservés avec votre compte : ils vous suivent donc sur d’autres ordinateurs. Le jeu n’a ni filtre de mots ni mise en sourdine automatique : les outils ci-dessus sont à vous de les utiliser.
+Votre liste d’ignorés et le réglage Masquer Global sont conservés avec votre compte : ils vous suivent donc sur d’autres ordinateurs. Le jeu n’a pas de filtre de mots et ne réduit personne au silence pour ce qu’il dit : la pause pour envoi trop rapide ([Les règles du chat](#the-chat-rules)) est son seul arrêt automatique, et les outils ci-dessus sont à vous de les utiliser.
 
 ## Règles d’engagement {#rules-of-engagement}
 

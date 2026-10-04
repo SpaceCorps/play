@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
-アイテムは、艦の能力を高める中核となる部品です。ショップで購入するほか、ドロップとして入手したり、アセンブリで製作したり、[鍛冶場](/wiki/06-Items/Forge.md)で段階を上げたり統合したりできます。
+アイテムは、艦の能力を高める中核となる部品です。ショップで購入するほか、ドロップとして入手したり、アセンブリで製作したり（技術の研究が済んでいる場合）、[鍛冶場](/wiki/06-Items/Forge.md)で段階を上げたり統合したりできます。
 
 ## レアリティ {#rarity-levels}
 
@@ -17,6 +17,10 @@
 - **エターナル**：比類なき力を持つ宇宙級のモジュール。
 
 ## モジュールの強化 {#upgrading-modules}
+
+**アセンブリでの製作はすべて、先にその技術が必要です。** 技術は Skylab の研究センターで研究します（全体のツリー、各技術の所要時間、燃料、ブーストは[研究](/wiki/03-Mechanics/Research.md)にあります）。技術がないうちは、アセンブリのレシピカードはロックされ、先に研究すべき技術が表示されます。研究がゲームに加わった時点ですでに持っていたアイテムの技術は、最初から持っています。
+
+ロックされたカードには**研究を開く**ボタンがあり、その技術を選んだ状態で Skylab の研究ビューが開きます。カードには素材と価格が引き続き表示されるので計画を立てられ、ロックされたレシピは各カテゴリーの最後に並びます。Extra Slots CPU は、ひとつ下の段階も待ちます。Extra Slots CPU II のカードでは先に Extra Slots CPU I を取り付けるよう表示され、III のカードでは II が求められます。
 
 最上位のレーザーアンプ、ティアII～IVのシールドセルとスラスター、そして Heavy Shield Core と Engine III は販売されていません。これらはアセンブリで、1つ下の段階にある部品（Heavy Shield Core は Basic Shield Core から、Engine III は Engine II から、Impulse Thruster III は Impulse Thruster II から）に、少量の Thulium、エイリアンのドロップ品、Skylab の鍛造所で作るプレートを加えて作ります。部品はインベントリにある外れた状態でなければなりません。先に艦から外し、レーザー、シールド、エンジンからも取り出し（シールドとエンジンは、自身のセルやスラスターを何も装着していない状態にしてください）、トランスポートキャッシュからも出してください。**新しいアイテムは、消費した部品の[エンチャント](/wiki/06-Items/Overview.md#item-enchants)段階を引き継ぎ、ボーナスは引き直されます**（神級の Pulse Amp からは、元と同じ数の新しいボーナスが付いた神級の Nova Amp ができます）。どのコピーを使うかは選べます。コピーの内容が異なる場合、アセンブリのレシピカードに一覧が表示され、標準より上の段階のものを使うときは、先に確認が入ります。何も選ばない場合は、エンチャント段階が最も低いものから使われるため、段階の高いコピーは残ります（同じ段階のコピーの間では、ボーナスにかかわらず、最も古いものから使われます）。ルールの全体は、[鍛冶場](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)のページにあります。
 
@@ -85,4 +89,5 @@ Velkonite Reinforced Plate はドロップしません。[Skylab](/wiki/03-Mecha
 - **推進装置**：速度のためのエンジンと[スラスター](/wiki/06-Items/Propulsion.md)です。
 - **Repair Drone**：船体を修理するエクストラで、後のものほど速く修理します。Repair Drone I、II、III は5,000、15,000、35,000クレジット、Repair Drone IV は2,000 Thulium です。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
 - **Cloaking CPU と EMP Charge**：戦闘や逃走のためのエクストラです。Cloaking CPU は、自分で解除するまで艦を隠します（S、M、L は使用回数が10、25、50回で、価格は5,000、11,250、20,000 Thulium）。EMP Charge は、3秒間ロックオンされなくなり、あなたへのロックオンをすべて解除し、近くのステルスもすべて解除します（500 Thulium）。[エクストラ](/wiki/06-Items/Extras.md)を参照してください。
+- **研究 CPU**：Extra Slots CPU はすべての艦のエクストラスロットを増やし、Jump CPU は Thulium と引き換えに企業のセクターへ運び、Base CPU は基地へ連れ戻し、Auto-Repair CPU は Repair Drone を自動で出します。販売はされません。研究してから、アセンブリで製作します。[エクストラ](/wiki/06-Items/Extras.md#research-cpus)を参照してください。
 - **資源**：製作のために、エイリアンがドロップし、Skylab が作るものです。Ship Fragment、4種類のクリスタル、Power Core、Velkonite と Orvium のプレートに加え、ほかから手に入る2つがあります。N.I.K.E. ロケットと引き換えに[ブラックホール](/wiki/03-Mechanics/Black-Hole.md)が返す **Dark Matter** と、それをアセンブリが圧縮して作る **Dark Matter Plate** です。後者は、[鍛冶場](/wiki/06-Items/Forge.md)の最上位の2ステップに使います。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ A Bulwark idegenek erősen páncélozott védelmi platformok. Rendkívül agress
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 4 000
+- **Kredit**: 5 000
 - **Thulium**: 25
 - **Tapasztalat (XP)**: 800
 - **Becsület**: 10

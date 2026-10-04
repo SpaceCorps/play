@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -56,7 +56,7 @@ O mundo escala um enxame como escala todo alienígena ([Mundos](/wiki/03-Mechani
 
 ## O que os pilotos ficam sabendo {#what-the-pilots-are-told}
 
-Os enxames Seeker e Pirate avisam pelo chat os pilotos do seu próprio setor quando um chefe aparece e quando é destruído. O enxame Dormant avisa o mundo inteiro e é marcado nos mapas dos setores de perigo e no mapa da galáxia, para que os pilotos possam encontrá-lo. O abate de um chefe também ganha uma linha no registro de baixas, que nomeia o piloto a quem ele é creditado. A lista *Resumo rápido* de cada artigo diz quem é avisado.
+Os enxames Seeker e Pirate avisam os pilotos do seu próprio setor quando um chefe aparece e quando é destruído. O enxame Dormant avisa o mundo inteiro e é marcado nos mapas dos setores de perigo e no mapa da galáxia, para que os pilotos possam encontrá-lo. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O abate de um chefe também ganha uma linha no registro de baixas, que nomeia o piloto a quem ele é creditado. A lista *Resumo rápido* de cada artigo diz quem é avisado.
 
 ## Lutando contra um enxame {#fighting-a-swarm}
 

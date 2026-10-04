@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 
 ## 奖励 {#rewards}
 
-- **信用点**：800
+- **信用点**：1,000
 - **Thulium**：4
 - **经验值（XP）**：100
 - **荣誉**：2

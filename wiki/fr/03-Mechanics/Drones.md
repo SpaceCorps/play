@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30354846186e8ea9 -->
+<!-- wiki-i18n source: 5a4769d6626caeff -->
 <!-- wiki-i18n title: Drones -->
 # Mécaniques des drones {#drone-mechanics}
 
@@ -85,7 +85,7 @@ La courbe est réglée pour qu’un nouveau drone atteigne le niveau 2 en enviro
 
 ### Master Drone {#master-drone}
 
-Un Slave Drone devient un **Master Drone** quand vous l’améliorez à l’Assemblage. La recette coûte 40 000 Thulium et 100 Ship Fragments et prend 60 secondes, et elle ne consomme aucun drone : **vous choisissez quel Slave Drone** (le sélecteur affiche le niveau et l’XP de chacun), et ce même drone, avec son numéro, son emplacement de drone et tout ce qui y est installé, se transforme en Master Drone à la fin de la production, avec un second emplacement vide. Rien n’arrive dans votre inventaire et il n’y a rien à récupérer : le Journal de jeu vous prévient quand c’est terminé, y compris pour une amélioration achevée pendant votre absence.
+Un Slave Drone devient un **Master Drone** quand vous l’améliorez à l’Assemblage, une fois la technologie du Master Drone recherchée ([Recherche](/wiki/03-Mechanics/Research.md)). La recette coûte 40 000 Thulium et 100 Ship Fragments et prend 60 secondes, et elle ne consomme aucun drone : **vous choisissez quel Slave Drone** (le sélecteur affiche le niveau et l’XP de chacun), et ce même drone, avec son numéro, son emplacement de drone et tout ce qui y est installé, se transforme en Master Drone à la fin de la production, avec un second emplacement vide. Rien n’arrive dans votre inventaire et il n’y a rien à récupérer : le Journal de jeu vous prévient quand c’est terminé, y compris pour une amélioration achevée pendant votre absence.
 
 **Son niveau et son XP sont remis à 0 à la fin de l’amélioration.** Un Master Drone repart du niveau 1, sans XP, et progresse comme un Slave Drone (voir le tableau ci-dessus) ; le bonus de laser du niveau qu’il avait disparaît avec lui. L’Assemblage vous le dit avant que vous commenciez et vous demande de confirmer, en nommant le drone, quand il a de l’XP. Le choix par défaut est le drone qui a le moins d’XP.
 

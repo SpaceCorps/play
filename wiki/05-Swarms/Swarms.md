@@ -54,7 +54,7 @@ The world scales a swarm as it scales every alien ([Worlds](/wiki/03-Mechanics/W
 
 ## What the pilots are told {#what-the-pilots-are-told}
 
-The Seeker and Pirate swarms tell the pilots of their own sector, in the chat, when a boss appears and when it is destroyed. The Dormant Swarm tells its whole world, and it is marked on the maps of the Danger Sectors and on the galaxy map, so that pilots can find it. A boss kill also gets a line in the kill feed that names the pilot credited with it. The *At a glance* list of each article says who is told.
+The Seeker and Pirate swarms tell the pilots of their own sector when a boss appears and when it is destroyed. The Dormant Swarm tells its whole world, and it is marked on the maps of the Danger Sectors and on the galaxy map, so that pilots can find it. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. A boss kill also gets a line in the kill feed that names the pilot credited with it. The *At a glance* list of each article says who is told.
 
 ## Fighting a swarm {#fighting-a-swarm}
 

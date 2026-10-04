@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Der Crystalys ist ein gewaltiges Alien-Wesen der Schlachtschiffklasse. Eine Bege
 
 ## Belohnungen {#rewards}
 
-- **Credits**: 60.000
+- **Credits**: 75.000
 - **Thulium**: 200
 - **Erfahrung (EP)**: 12.000
 - **Ehre**: 52

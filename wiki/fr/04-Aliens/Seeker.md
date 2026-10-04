@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils s
 
 ## Récompenses {#rewards}
 
-- **Crédits** : 800
+- **Crédits** : 1 000
 - **Thulium** : 4
 - **Expérience (XP)** : 100
 - **Honneur** : 2

@@ -17,15 +17,17 @@ Each [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (A
 
 ## Visualization
 
-The Galaxy Map below shows the real-time layout of the known universe.
+The Galaxy Map below shows the real-time layout of the known universe. In the game the same chart is the **Star System** window.
 
 ```spacemap
 
 ```
 
+With a [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) fitted, the chart also picks your destination: press the CPU's hotbar slot (**JMP**) and the Star System window opens in picking mode. The sectors the CPU can take you to are lit; your own sector and the Danger Sectors are not. Point at a lit sector to read the price, click it, and confirm the jump when the chart asks (500 Thulium).
+
 ## How to Travel
 
-Spacemap travel is conducted via **Jump Gates** (Portals).
+Spacemap travel is conducted via **Jump Gates** (Portals). A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) is the other way: it needs no gate (see the end of this page).
 
 1. **Locate a Portal**: Portals are typically found at the corners or edges of a map.
 2. **Navigation**: Fly your ship close to the portal structure.
@@ -39,6 +41,7 @@ Spacemap travel is conducted via **Jump Gates** (Portals).
 - **In the Danger Sectors (`DS-1` to `DS-4`)** you cannot jump out while you are being attacked. If a pilot or an alien has hit your ship (its shields or its hull) in the last **10 seconds**, the jump will not start ("You are under attack: you cannot jump out of a Danger Sector."), and a hit while you are jumping cancels the jump (the bar turns red and the game tells you why). Damage you take from the black hole's radiation is not an attack, and neither is a shot that a safe zone stopped. A hit you took on the map you jumped from does not follow you through the portal: you arrive with a clean record.
 - You do one thing at a time: you cannot collect a [cargo crate](/wiki/03-Mechanics/Cargo.md) while you jump, and starting a jump gives up a pickup you had begun.
 - Closing the game or returning to base in the middle of a jump cancels it: you do not arrive.
+- **A CPU's warp charges like a portal jump.** A Jump CPU charges for 5 seconds and a Base CPU for 10, with a bar over the hotbar. A shot you fire or a hit you take, in any sector, cancels the warp (nothing is paid or used), and neither CPU starts within 10 seconds of a shot or a hit. Press the CPU's slot again to cancel it yourself.
 
 ### Jump Links
 
@@ -47,6 +50,10 @@ Spacemap travel is conducted via **Jump Gates** (Portals).
   - `M-4` connects to `DS-1`
   - `T-4` connects to `DS-2`
   - `G-4` connects to `DS-3`
-- **Invasion Paths (Inter-Company Travel)**: To enter enemy company territory, you must cross through the PvP zone. For example, a Mars pilot seeking to invade Terra must fly from `M-4` into Danger Sector `DS-1`, cross the jump gate to `DS-2`, and then enter Terra space through `T-4`; to reach Galactic, cross the jump gate to `DS-3` and enter through `G-4`.
+- **Invasion Paths (Inter-Company Travel)**: To enter enemy company territory through the gates, you must cross through the PvP zone. For example, a Mars pilot seeking to invade Terra must fly from `M-4` into Danger Sector `DS-1`, cross the jump gate to `DS-2`, and then enter Terra space through `T-4`; to reach Galactic, cross the jump gate to `DS-3` and enter through `G-4`.
 - **The Danger Sector Triangle**: `DS-1`, `DS-2` and `DS-3` all connect to each other. Each of them has one company's gate (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` has none.
 - **The Core Center**: All three outer Danger Sectors (`DS-1`, `DS-2`, and `DS-3`) connect directly to the center map **`DS-4`**, the most dangerous and rewarding PvP zone in the universe. A **black hole** hangs in the exact middle of it: the portals and the lanes between them stay well clear, but a ship that flies in feels its radiation, then its pull, and is destroyed at its event horizon. See [The Black Hole](/wiki/03-Mechanics/Black-Hole.md).
+
+### The Jump CPU
+
+The [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) takes your ship to any company sector of your world without a gate, for 500 Thulium a jump, enemy home sectors included. It never goes to a Danger Sector, it does not start in a fight, and you research it first in the Skylab's Research Centre ([Research](/wiki/03-Mechanics/Research.md)). The [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) take you home the same way.

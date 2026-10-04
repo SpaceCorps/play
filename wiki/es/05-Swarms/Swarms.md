@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -56,7 +56,7 @@ El mundo escala un enjambre como escala a todos los alienígenas ([Mundos](/wiki
 
 ## Qué se les avisa a los pilotos {#what-the-pilots-are-told}
 
-Los enjambres Seeker y Pirate avisan por el chat a los pilotos de su propio sector cuando aparece un jefe y cuando es destruido. El enjambre Dormant avisa a todo su mundo, y está marcado en los mapas de los sectores de peligro y en el mapa galáctico, para que los pilotos puedan encontrarlo. El derribo de un jefe también tiene una línea en el registro de bajas que nombra al piloto al que se le acredita. La lista *De un vistazo* de cada artículo dice a quién se avisa.
+Los enjambres Seeker y Pirate avisan a los pilotos de su propio sector cuando aparece un jefe y cuando es destruido. El enjambre Dormant avisa a todo su mundo, y está marcado en los mapas de los sectores de peligro y en el mapa galáctico, para que los pilotos puedan encontrarlo. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El derribo de un jefe también tiene una línea en el registro de bajas que nombra al piloto al que se le acredita. La lista *De un vistazo* de cada artículo dice a quién se avisa.
 
 ## Combatir a un enjambre {#fighting-a-swarm}
 

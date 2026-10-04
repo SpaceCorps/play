@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: ロケット -->
 # ロケット {#rockets}
 
 ロケットは、レーザーに並ぶ第2の武器です。数秒に1発、レーザーの斉射よりはるかに強力な一撃を放ちます。4つの種類に3段階ずつの計12種類のロケットに加え、アセンブリでしか作れないものが2種類あり、どれを撃っても、**全ロケットで共有する5秒の再装填タイマー**が1つ動きます。コモンとレアのロケットは**クレジット**で、エピックのロケット4種類は **Thulium** で購入します。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## アイテムツリー {#item-tree}
+
+アセンブリで作れるものは、先にその技術が必要です。アイテムにカーソルを合わせると、研究にかかる時間が分かります。技術ツリー、燃料、ブーストは [研究](/wiki/03-Mechanics/Research.md) を参照してください。
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## 4つの種類 {#the-four-kinds}
 
@@ -64,7 +94,7 @@
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - **コモン**の単体ロケットは、どの出目でも Seeker を1発、Phantasm を3発で倒します（Lancet I は最小値の出目だと4発目が要ります）。最初のセクターで日常的に使うロケットです。**レア**は Bulwark と Goombah 向けで、Lancet II 8発（タイマーで約35秒）で Bulwark を倒せます。**エピック**は、どの出目でも Phantasm を1発、Goombah を9～11発で倒します。爆発ロケットは、複数のエイリアンが近くに固まっているときに、価格に見合います。Scatter III が Phantasm 5体の群れの上で炸裂すると、1回の発射で群れ全体に約18,000のダメージを与えます。
-- ロケットだけで倒すのは、本物の出費であって、稼ぐ手段ではありません。そのロケットが想定しているエイリアンに対しても、単体ロケットのコストは撃破報酬の6分の1から6分の5にのぼり（クレジットと、Thulium を1個200クレジットとして換算）、強いエイリアンに弱いロケットを使うと、報酬より高くつきます。**Crystalys** を1種類のロケットだけで倒すには62～399発が必要で、タイマーだけで少なくとも5分かかります。エピックのロケット500発の1スタックがあれば、Crystalys 4～8体分になります。最強のエイリアンには作戦が必要です。x2 弾薬のレーザー、最初の1秒から5秒おきに撃つ中位のロケット、そして一撃として、下にある大型ロケットを組み合わせましょう。
+- ロケットだけで倒すのは、本物の出費であって、稼ぐ手段ではありません。そのロケットが想定しているエイリアンに対しても、単体ロケットのコストは撃破報酬の約7分の1から4分の3にのぼり（クレジットと、Thulium を1個200クレジットとして換算）、強いエイリアンに弱いロケットを使うと、報酬より高くつきます。**Crystalys** を1種類のロケットだけで倒すには62～399発が必要で、タイマーだけで少なくとも5分かかります。エピックのロケット500発の1スタックがあれば、Crystalys 4～8体分になります。最強のエイリアンには作戦が必要です。x2 弾薬のレーザー、最初の1秒から5秒おきに撃つ中位のロケット、そして一撃として、下にある大型ロケットを組み合わせましょう。
 - 撃破の報酬は、どの方法で倒しても同じです（最大のものは [Crystalys](/wiki/04-Aliens/Crystalys.md) を参照）。そのため、ロケットでの撃破が割に合うのは、時間を節約でき、かつコストが報酬より低いときです。
 - **エイリアンもロケットを撃ちます。** [群れ](/wiki/05-Swarms/Swarms.md)の Pirate Boss と Dormant Force、Pulse は、自分を攻撃したパイロットに向けて、同じ5秒のタイマーで直進の Rivet ロケットを撃ちます。動き続ける艦はかわせます。群れのボスは、コンテナにロケットもドロップします。
 

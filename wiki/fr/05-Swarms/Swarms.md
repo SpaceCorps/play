@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -56,7 +56,7 @@ Le monde met un essaim à l’échelle comme il le fait pour tout alien ([Mondes
 
 ## Ce que les pilotes apprennent {#what-the-pilots-are-told}
 
-Les essaims Seeker et Pirate préviennent par le chat les pilotes de leur propre secteur quand un boss apparaît et quand il est détruit. L’essaim Dormant prévient son monde entier, et il est marqué sur les cartes des secteurs dangereux et sur la carte de la galaxie, pour que les pilotes puissent le trouver. L’élimination d’un boss a aussi une ligne dans le fil des éliminations, qui nomme le pilote à qui elle est créditée. La liste *D’un coup d’œil* de chaque article dit qui est prévenu.
+Les essaims Seeker et Pirate préviennent les pilotes de leur propre secteur quand un boss apparaît et quand il est détruit. L’essaim Dormant prévient son monde entier, et il est marqué sur les cartes des secteurs dangereux et sur la carte de la galaxie, pour que les pilotes puissent le trouver. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. L’élimination d’un boss a aussi une ligne dans le fil des éliminations, qui nomme le pilote à qui elle est créditée. La liste *D’un coup d’œil* de chaque article dit qui est prévenu.
 
 ## Combattre un essaim {#fighting-a-swarm}
 

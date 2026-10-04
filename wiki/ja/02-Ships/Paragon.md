@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ Paragon は、防御と攻撃のバランスを重視して設計された重戦
 
 - **クレジット**：0（アセンブリで製造）
 - **Thulium**：0
+
+## 研究 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **先に研究。** アセンブリでこの艦を製作できるのは、その技術を研究したあとです。研究時間は 6時間 です。[研究](/wiki/03-Mechanics/Research.md)ページの[艦船のツリー](/wiki/03-Mechanics/Research.md#tree-ships)にその技術があります。
+- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
+
+<!-- research-ship:end -->
 
 ## 伝承 {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzs
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 12 000
+- **Kredit**: 15 000
 - **Thulium**: 75
 - **Tapasztalat (XP)**: 3 000
 - **Becsület**: 24

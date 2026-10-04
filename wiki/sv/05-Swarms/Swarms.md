@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -56,7 +56,7 @@ Världen skalar en svärm som den skalar varje utomjording ([Världar](/wiki/03-
 
 ## Vad piloterna får veta {#what-the-pilots-are-told}
 
-Seeker- och Pirate-svärmarna meddelar piloterna i sin egen sektor i chatten när en boss dyker upp och när den förstörs. Dormant-svärmen meddelar hela sin värld, och den är markerad på kartorna över farosektorerna och på galaxkartan, så att piloter kan hitta den. Nedskjutningen av en boss får också en rad i dödsloggen som nämner piloten den tillskrivs. Listan *I korthet* i varje artikel säger vem som meddelas.
+Seeker- och Pirate-svärmarna meddelar piloterna i sin egen sektor när en boss dyker upp och när den förstörs. Dormant-svärmen meddelar hela sin värld, och den är markerad på kartorna över farosektorerna och på galaxkartan, så att piloter kan hitta den. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Nedskjutningen av en boss får också en rad i dödsloggen som nämner piloten den tillskrivs. Listan *I korthet* i varje artikel säger vem som meddelas.
 
 ## Att strida mot en svärm {#fighting-a-swarm}
 

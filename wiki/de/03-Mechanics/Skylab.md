@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 65da665842938543 -->
+<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
-Das Skylab ist deine persönliche Orbitalanlage. Hier baust du Module und baust sie aus: Sie erzeugen Credits und Thulium, fördern Erz und schmieden die Platten, aus denen die Montage die besten Laser herstellt. Das Skylab arbeitet für dich, sogar während du offline bist.
+Das Skylab ist deine persönliche Orbitalanlage. Hier baust du Module und baust sie aus: Sie erzeugen Credits und Thulium, fördern Erz, schmieden die Platten, aus denen die Montage die besten Laser herstellt, und erforschen ab Kern-Level 10 die Technologien, die die Montage braucht. Das Skylab arbeitet für dich, sogar während du offline bist.
 
 ## Überblick {#overview}
 
-Das Skylab läuft nach seiner eigenen Uhr, unabhängig von deinem Schiff: Module produzieren und schmieden, während du weg bist. Deine Aufgabe ist es, zu bauen, auszubauen, die Energie im Gleichgewicht zu halten und abzuholen. Die Seite hat drei Ansichten derselben Station: **Station** (die 3D-Station, mit einem Chip über jedem Modul; klicke auf einen, um das Fenster des Moduls zu öffnen, oder drücke **1** bis **8**), **Liste** (eine Karte für jedes Modul) und **Tabelle** (die Werte aller Module in einer Tabelle). Zeigst du auf **Bauen** oder **Ausbauen**, siehst du, was das nächste Level ändert, was es kostet und wie lange es dauert.
+Das Skylab läuft nach seiner eigenen Uhr, unabhängig von deinem Schiff: Module produzieren und schmieden, während du weg bist. Deine Aufgabe ist es, zu bauen, auszubauen, die Energie im Gleichgewicht zu halten und abzuholen. Die Seite hat vier Ansichten derselben Station: **Station** (die 3D-Station, mit einem Chip über jedem Modul; klicke auf einen, um das Fenster des Moduls zu öffnen, oder drücke **1** bis **9**), **Liste** (eine Karte für jedes Modul), **Tabelle** (die Werte aller Module in einer Tabelle) und **Forschung** (der eigene Bildschirm des Forschungszentrums, siehe [Forschung](/wiki/03-Mechanics/Research.md)). Zeigst du auf **Bauen** oder **Ausbauen**, siehst du, was das nächste Level ändert, was es kostet und wie lange es dauert.
 
-Acht Module bilden die Station:
+Neun Module bilden die Station:
 
 | Modul | Erzeugt oder tut | Voraussetzung |
 | :--- | :--- | :--- |
@@ -20,6 +20,7 @@ Acht Module bilden die Station:
 | **Orvium-Kollektor** | Fördert Orvium-Erz | Kern-Level 5 |
 | **Ressourcenlager** | Verwahrt das Erz | Kern-Level 5 |
 | **Schmiede** | Schmiedet Erz zu Platten | Kern-Level 5 |
+| **Forschungszentrum** | Macht aus Ressourcen Wissenschaft und erforscht [Technologien](/wiki/03-Mechanics/Research.md) | Kern-Level 10 |
 
 **Missionen dafür.** Zehn [Station-Missionen](/wiki/03-Mechanics/Quests.md#station-missions) in Mission Control führen dich durch das Skylab: Baue Solar, eine Credit-Farm und eine Thulium-Farm, bring den Kern und Solar auf höhere Level, hol deine ersten 50.000 Credits ab und öffne die Versorgungskette, und für jeden Schritt zahlen sie dir ein wenig. Die erste ist ab Level 1 offen.
 
@@ -62,9 +63,9 @@ Hier siehst du die Ansicht Station des Skylab auf jedem Level von 1 bis 20, alle
 
 ![Level 20](../../img/skylab/wiki/level-20.jpg)
 
-**Die Karten der acht Module.** Die Ansicht Liste derselben Station auf Level 20: die vier Module der ersten Version und der Velkonite-Kollektor, der Orvium-Kollektor, das Ressourcenlager und die Schmiede, die mit der Versorgungskette dazukamen. Jede Karte zeigt das Level des Moduls, seine Produktion, seine Energie und seinen Schalter.
+**Die Karten der neun Module.** Die Ansicht Liste derselben Station auf Level 20: die vier Module der ersten Version und der Velkonite-Kollektor, der Orvium-Kollektor, das Ressourcenlager und die Schmiede, die mit der Versorgungskette dazukamen, und das Forschungszentrum. Jede Karte zeigt das Level des Moduls, seine Produktion, seine Energie und seinen Schalter. Jede Karte zeigt Level 20, nur die des Forschungszentrums nicht: Es hat die Level 1 bis 10, seine Karte zeigt also Level 10, sein höchstes.
 
-![Die Ansicht Liste auf Level 20: die Karten von Kern, Solar, Credit-Farm, Thulium-Farm, Velkonite-Kollektor, Orvium-Kollektor, Ressourcenlager und Schmiede](../../img/skylab/wiki/modules.jpg)
+![Die Ansicht Liste auf Level 20: die Karten von Kern, Solar, Credit-Farm, Thulium-Farm, Velkonite-Kollektor, Orvium-Kollektor, Ressourcenlager, Schmiede und Forschungszentrum](../../img/skylab/wiki/modules.jpg)
 
 ## Die ersten vier Module {#the-first-four-modules}
 
@@ -77,7 +78,7 @@ Das Herz deines Skylab. Das Level des Kerns bestimmt das höchste Level jedes an
 Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, die jedes andere Modul verbraucht.
 
 - **Bedeutung**: Ist dein Energieverbrauch höher als deine Energieerzeugung, schalten deine Farmen und Kollektoren ab.
-- **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 835 auf Level 7, 16.010 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
+- **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 835 auf Level 7, 16.110 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
 - **Ausbau**: Solar erzeugt während des Ausbaus weiter die Energie seines aktuellen Levels und ab dem Ende des Ausbaus die des neuen Levels, also läuft der Rest der Station weiter (siehe Bauen und Ausbauen).
 
 ### Credit-Farm und Thulium-Farm {#credit-farm-and-thulium-farm}
@@ -125,6 +126,10 @@ Jedes der vier Module kostet **10 Ship Fragments, 10.000 Credits und 500 Thulium
 - Sie verbrauchen Energie. Vor dem Bau zeigt das Fenster deine Energiebilanz jetzt und danach: **Ein Bau kann eine Station ins Defizit bringen**, wenn ihr Solar hinter den anderen Modulen zurückliegt, und ein Defizit stoppt jede Farm und jeden Kollektor. Schalte ein Modul aus oder baue zuerst Solar aus.
 - Die beiden Kollektoren hängen an Gerüsten über der Station, das Ressourcenlager sitzt am Nordost-Port des Kerns und die Schmiede an seinem Nordwest-Port.
 
+## Das Forschungszentrum {#the-research-centre}
+
+Das neunte Modul macht aus Ressourcen Wissenschaft und erforscht die Technologien, die die Montage braucht, bevor sie etwas Neues herstellt. Es wird ab Kern-Level 10 gebaut, hat Level 1 bis 10, braucht Energie und lässt sich nicht abschalten. Seine Zahlen, was es als Treibstoff verbrennt, der Boost und der ganze Technologiebaum stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md).
+
 ## Mechanik {#mechanics}
 
 ### Bauen und Ausbauen {#building-and-upgrading}
@@ -143,13 +148,13 @@ Jedes der vier Module kostet **10 Ship Fragments, 10.000 Credits und 500 Thulium
 
 **Level 1 bis 5**, je Modul (der Ausbau von dem Level in der ersten Spalte an):
 
-| Level | Kern | Solar | Credit-Farm | Thulium-Farm | Ressourcenlager | Velkonite-Kollektor | Orvium-Kollektor | Schmiede |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 auf 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s |
-| 2 auf 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s |
-| 3 auf 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s |
-| 4 auf 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s |
-| 5 auf 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s |
+| Level | Kern | Solar | Credit-Farm | Thulium-Farm | Ressourcenlager | Velkonite-Kollektor | Orvium-Kollektor | Schmiede | Forschungszentrum |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 auf 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
+| 2 auf 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
+| 3 auf 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
+| 4 auf 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
+| 5 auf 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
 
 **Ab Level 6**, für jedes Modul gleich:
 
@@ -178,11 +183,11 @@ Ein Ausbau, der schon läuft, wenn sich die Zeiten ändern, behält die Fertigst
 Dein Skylab hat ein begrenztes Energiebudget.
 
 - **Bilanz**: Halte die Leistung von Solar über dem Verbrauch aller anderen Module. Die Skylab-Seite zeigt die Bilanz und warnt, bevor ein Bau sie unter null drücken würde.
-- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller sieben anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level.
-- **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar und das Ressourcenlager laufen immer.
-- **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge.
+- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level.
+- **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer.
+- **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter).
 
-Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen sieben Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen):
+Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum ab Level 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -198,20 +203,20 @@ Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen sieben Mo
 | 7 | 835 | 756 | 79 | 680: 76 zu wenig |
 | 8 | 1.030 | 933 | 97 | 835: 98 zu wenig |
 | 9 | 1.275 | 1.155 | 120 | 1.030: 125 zu wenig |
-| 10 | 1.580 | 1.435 | 145 | 1.275: 160 zu wenig |
-| 11 | 1.970 | 1.788 | 182 | 1.580: 208 zu wenig |
-| 12 | 2.460 | 2.234 | 226 | 1.970: 264 zu wenig |
-| 13 | 3.085 | 2.800 | 285 | 2.460: 340 zu wenig |
-| 14 | 3.875 | 3.519 | 356 | 3.085: 434 zu wenig |
-| 15 | 4.880 | 4.434 | 446 | 3.875: 559 zu wenig |
-| 16 | 6.160 | 5.600 | 560 | 4.880: 720 zu wenig |
-| 17 | 7.800 | 7.088 | 712 | 6.160: 928 zu wenig |
-| 18 | 9.895 | 8.992 | 903 | 7.800: 1.192 zu wenig |
-| 19 | 12.575 | 11.429 | 1.146 | 9.895: 1.534 zu wenig |
-| 20 | 16.010 | 14.554 | 1.456 | 12.575: 1.979 zu wenig |
+| 10 | 1.680 | 1.523 | 157 | 1.275: 248 zu wenig |
+| 11 | 2.065 | 1.876 | 189 | 1.680: 196 zu wenig |
+| 12 | 2.555 | 2.322 | 233 | 2.065: 257 zu wenig |
+| 13 | 3.180 | 2.888 | 292 | 2.555: 333 zu wenig |
+| 14 | 3.970 | 3.607 | 363 | 3.180: 427 zu wenig |
+| 15 | 4.975 | 4.522 | 453 | 3.970: 552 zu wenig |
+| 16 | 6.260 | 5.688 | 572 | 4.975: 713 zu wenig |
+| 17 | 7.895 | 7.176 | 719 | 6.260: 916 zu wenig |
+| 18 | 9.990 | 9.080 | 910 | 7.895: 1.185 zu wenig |
+| 19 | 12.670 | 11.517 | 1.153 | 9.990: 1.527 zu wenig |
+| 20 | 16.110 | 14.642 | 1.468 | 12.670: 1.972 zu wenig |
 <!-- skylab-power:end -->
 
-Die Tabelle zählt jedes Modul auf demselben Level. Die Thulium-Farm verbraucht oben vier Fünftel davon (11.695 auf Level 20, gegenüber 14.554 für alle sieben), eine Station mit dieser Farm weit vor dem Rest braucht also mehr Solar, als ihr Kern vermuten lässt.
+Die Tabelle zählt jedes Modul auf demselben Level. Die Thulium-Farm verbraucht oben vier Fünftel davon (11.695 auf Level 20, gegenüber 14.642 für alle acht), eine Station mit dieser Farm weit vor dem Rest braucht also mehr Solar, als ihr Kern vermuten lässt.
 
 ### Abholen {#collecting}
 
@@ -226,4 +231,4 @@ Jede Farm und jeder Kollektor hat einen Speicher für etwa 72 Stunden der eigene
 
 ### Der Wipe {#the-wipe}
 
-Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, und das Ressourcenlager behält sein Erz. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md).
+Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das eingesetzte Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md).

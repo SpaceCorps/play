@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
-Föremål är de grundläggande komponenterna som uppgraderar ditt skepps förmåga. De kan köpas i butiken, hittas som byte, tillverkas i Monteringen eller höjas och slås ihop i [Smedjan](/wiki/06-Items/Forge.md).
+Föremål är de grundläggande komponenterna som uppgraderar ditt skepps förmåga. De kan köpas i butiken, hittas som byte, tillverkas i Monteringen (när deras teknologi är framforskad) eller höjas och slås ihop i [Smedjan](/wiki/06-Items/Forge.md).
 
 ## Sällsynthetsnivåer {#rarity-levels}
 
@@ -17,6 +17,10 @@ Föremål finns i olika sällsynthetsgrader, som avgör deras kvalitet och grund
 - **Evig**: Kosmiska moduler med oöverträffad kraft.
 
 ## Uppgradera moduler {#upgrading-modules}
+
+**All tillverkning i Monteringen kräver först sin teknologi.** Du forskar fram den i Skylabs forskningscentrum ([Forskning](/wiki/03-Mechanics/Research.md) har hela trädet, tiden för varje teknologi, bränslet och boosten). Tills du har den är receptkortet i Monteringen låst och säger vilken teknologi du ska forska fram först. Om du redan hade ett föremål när forskningen kom till spelet har du redan dess teknologi.
+
+Ett låst kort har en knapp **Öppna Forskning**, som öppnar vyn Forskning i din Skylab med den teknologin vald. Kortet visar fortfarande material och pris, så du kan planera, och låsta recept kommer sist i sin kategori. En Extra Slots CPU väntar också på den under: kortet för Extra Slots CPU II säger att du först ska installera Extra Slots CPU I, och kortet för III vill ha II.
 
 De översta laserförstärkarna, nivå II till IV av sköldcellerna och styrraketerna, Heavy Shield Core och Engine III säljs inte. Du tillverkar var och en i Monteringen av delen under den (en Heavy Shield Core av en Basic Shield Core, en Engine III av en Engine II, en Impulse Thruster III av en Impulse Thruster II), lite Thulium, det utomjordingarna släpper och plåtar från din Skylabs smedja. Delen måste ligga löst i ditt inventarie: ta först av den från ditt skepp, ta ut den ur sin laser, sköld eller motor (en sköld eller en motor får inte ha egna celler eller styrraketer i sig) och ta ut den ur transportförrådet. **Det nya föremålet behåller [förtrollningsnivån](/wiki/06-Items/Overview.md#item-enchants) hos delen det förbrukar, och dess bonusar slumpas på nytt** (en Gudomlig Pulse Amp ger en Gudomlig Nova Amp med nya bonusar, lika många som den hade). Vilket exemplar som går åt är ditt val: receptkortet i Monteringen visar dina exemplar när de skiljer sig åt, och frågar först innan det använder ett över Standard. Väljer du inget används de med lägst förtrollningsnivå först, så dina exemplar med högst nivå blir kvar (bland exemplar på samma nivå går det äldsta först, oavsett deras bonusar). Hela regeln finns på sidan [Smedjan](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -85,4 +89,5 @@ Butiken, hangarens inventarie och de andra föremålslistorna följer en och sam
 - **Framdrivning**: Motorer och [styrraketer](/wiki/06-Items/Propulsion.md) för fart.
 - **Repair Drones**: Extrautrustning som reparerar ditt skrov, var och en snabbare än den förra: Repair Drone I, II och III kostar 5 000, 15 000 och 35 000 krediter, Repair Drone IV 2 000 Thulium. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU och EMP Charge**: Extrautrustning för strid eller flykt: en Cloaking CPU döljer ditt skepp tills du avslutar det (S, M och L: 10, 25 och 50 användningar, 5 000, 11 250 och 20 000 Thulium), en EMP Charge gör dig omöjlig att låsa på i 3 sekunder, bryter varje målfixering på dig och avslutar allt kamouflage i närheten (500 Thulium). Se [Extrautrustning](/wiki/06-Items/Extras.md).
+- **Forsknings-CPU:er**: Extra Slots CPU ger varje skepp fler extraplatser, Jump CPU tar dig till en koncernsektor mot Thulium, Base CPU tar dig hem och Auto-Repair CPU skickar ut din Repair Drone av sig själv. De säljs inte: du forskar fram dem och tillverkar dem sedan i Monteringen. Se [Extrautrustning](/wiki/06-Items/Extras.md#research-cpus).
 - **Resurser**: det utomjordingar släpper och Skylab producerar som underlag för tillverkning: Ship Fragments, de fyra kristallerna, Power Cores, Velkonite- och Orvium-plåtarna, och två som kommer från annat håll: **Dark Matter**, som [det svarta hålet](/wiki/03-Mechanics/Black-Hole.md) ger tillbaka för en N.I.K.E.-raket, och **Dark Matter Plate** som Monteringen pressar av den för de två översta stegen i [Smedjan](/wiki/06-Items/Forge.md).

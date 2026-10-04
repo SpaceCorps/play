@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ Die Ostirion ist ein solider Abfangjäger der Mittelklasse und bietet gegenüber
 
 - **Credits**: 425.000
 - **Thulium**: 0
+
+## Forschung {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Keine Forschung nötig.** Dieses Schiff hat keine eigene Technologie.
+- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 6, 8 und 10 insgesamt mit den eigenen 3. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Hintergrund {#lore}
 

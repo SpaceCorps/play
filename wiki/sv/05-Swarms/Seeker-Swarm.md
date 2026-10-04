@@ -18,7 +18,7 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 - **Läkning**: Varje Seeker Slave inom 600 enheter från ledaren läker dess skrov, 50 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, om de inte just attackerar
 - **Kommer tillbaka**: 2 min efter att ledaren förstörts, i samma sektor
-- **Meddelanden**: Sektorns chatt meddelar när ledaren dyker upp och när den förstörs. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
+- **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Bygger på Seeker med 400 % av skrov, sköld och skada; hastighet och räckvidd
 | Hastighet | 120 | 120 | 120 |
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 8 000 | 16 000 | 24 000 |
+| Krediter | 10 000 | 20 000 | 30 000 |
 | Thulium | 40 | 80 | 120 |
 | Erfarenhet (XP) | 1 000 | 2 000 | 3 000 |
 | Heder | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Bygger på Seeker med 100 % av skrov, sköld och skada; hastighet och räckvidd
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 50 | 75 | 100 |
-| Krediter | 100 | 200 | 300 |
+| Krediter | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Erfarenhet (XP) | 12 | 24 | 36 |
 | Heder | 1 | 2 | 3 |

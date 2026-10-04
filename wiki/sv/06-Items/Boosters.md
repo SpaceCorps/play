@@ -1,8 +1,34 @@
-<!-- wiki-i18n source: 24b93f5c13d7994f -->
+<!-- wiki-i18n source: 539575474f5854de -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters {#boosters}
 
 Boosters ger tillfälliga värdebonusar som stärker ditt skepps strid, försvar, nivåstigning och resursinsamling.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Föremålsträd {#item-tree}
+
+Det som Monteringen tillverkar kräver först sin teknologi; håll pekaren över ett föremål för att se hur lång tid forskningen tar. Teknologiträdet, bränslet och boosten: [Forskning](/wiki/03-Mechanics/Research.md).
+
+```tree
+Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+
+Shield Wall -> Shield Wall II
+Hull Plating -> Hull Plating II
+Damage Amp -> Damage Amp II
+```
+<!-- item-tree:end -->
 
 ## Staplingsregler {#stacking-rules}
 
@@ -15,16 +41,16 @@ Boosters använder ett additivt skalningssystem:
 
 ## Aktiva boosters {#active-boosters}
 
-Varje booster varar i grundtiden **10 timmar** och aktiveras direkt när du köper eller får den.
+Varje booster varar i grundtiden **10 timmar** och aktiveras direkt när du köper, får eller hämtar den. De tre **II**-boostrarna säljs inte: du forskar fram deras teknologi i Skylab ([Forskning](/wiki/03-Mechanics/Research.md)) och tillverkar dem sedan i Monteringen, och när du hämtar en börjar dess 10 timmar direkt, som när du köper den.
 
 | Namn | Sällsynthet | Grundeffekt (10 timmar) | Pris (Thulium) |
 | :--- | :--- | :--- | :--- |
 | **Damage Amp** | Sällsynt | +10 % laserskada | 20 000 |
-| **Damage Amp II** | Sällsynt | +10 % laserskada | Endast byte / event |
+| **Damage Amp II** | Sällsynt | +10 % laserskada | Monteringen: 20 000 |
 | **Shield Wall** | Sällsynt | +25 % sköldkapacitet (maximala sköldpoäng) | 15 000 |
-| **Shield Wall II** | Sällsynt | +25 % sköldkapacitet (maximala sköldpoäng) | Endast byte / event |
+| **Shield Wall II** | Sällsynt | +25 % sköldkapacitet (maximala sköldpoäng) | Monteringen: 15 000 |
 | **Hull Plating** | Sällsynt | +10 % maximala träffpoäng | 15 000 |
-| **Hull Plating II** | Sällsynt | +10 % maximala träffpoäng | Endast byte / event |
+| **Hull Plating II** | Sällsynt | +10 % maximala träffpoäng | Monteringen: 15 000 |
 | **Shield Regen** | Sällsynt | +25 % laddningstakt för sköldarna (sköldpoäng som återställs per sekund) | 10 000 |
 | **Experience Kit** | Vanlig | +20 % mer erfarenhet | 8 000 |
 | **Honor Beacon** | Vanlig | +20 % mer heder | 10 000 |

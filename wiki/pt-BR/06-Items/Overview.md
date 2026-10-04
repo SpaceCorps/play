@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: Visão geral -->
 # Visão geral dos itens {#items-overview}
 
-Os itens são os componentes centrais que melhoram as capacidades da sua nave. Eles podem ser comprados na Loja, encontrados como drops, criados na Montagem, ou elevados e combinados na [Forja](/wiki/06-Items/Forge.md).
+Os itens são os componentes centrais que melhoram as capacidades da sua nave. Eles podem ser comprados na Loja, encontrados como drops, criados na Montagem (depois de pesquisada a tecnologia deles), ou elevados e combinados na [Forja](/wiki/06-Items/Forge.md).
 
 ## Níveis de raridade {#rarity-levels}
 
@@ -17,6 +17,10 @@ Os itens vêm em raridades diferentes, que determinam a qualidade e os atributos
 - **Eterno**: módulos de nível cósmico com poder incomparável.
 
 ## Melhoria de módulos {#upgrading-modules}
+
+**Toda criação na Montagem exige antes a sua tecnologia.** Você a pesquisa no Centro de Pesquisa do Skylab ([Pesquisa](/wiki/03-Mechanics/Research.md) tem a árvore completa, o tempo de cada tecnologia, o combustível e o boost). Enquanto não a tiver, o cartão da receita na Montagem fica bloqueado e diz qual tecnologia pesquisar primeiro. Se você já tinha um item quando a pesquisa chegou ao jogo, já tem a tecnologia dele.
+
+Um cartão bloqueado tem um botão **Abrir Pesquisa**, que abre a visão Pesquisa do seu Skylab com essa tecnologia selecionada. O cartão continua mostrando os materiais e o preço, então você pode planejar, e as receitas bloqueadas ficam por último na categoria. Uma Extra Slots CPU também espera pela anterior: o cartão da Extra Slots CPU II manda instalar primeiro a Extra Slots CPU I, e o da III pede a II.
 
 Os melhores amps de laser, os níveis II a IV das células de escudo e dos propulsores, o Heavy Shield Core e o Engine III não são vendidos. Você faz cada um na Montagem a partir da peça um degrau abaixo (um Heavy Shield Core a partir de um Basic Shield Core, um Engine III a partir de um Engine II, um Impulse Thruster III a partir de um Impulse Thruster II), mais um pouco de Thulium, o que os alienígenas deixam cair e placas da Forja do seu Skylab. A peça precisa estar solta no seu inventário: retire-a primeiro da sua nave e do laser, do escudo ou do motor em que está encaixada (um escudo ou um motor não pode ter células ou propulsores próprios dentro dele), e também do Cache de Transporte. **O novo item mantém o grau de [encantamento](/wiki/06-Items/Overview.md#item-enchants) da peça que consome, e os bônus dele são sorteados de novo** (um Pulse Amp Divino faz um Nova Amp Divino com bônus novos, tantos quantos tinha). Qual cópia vai é escolha sua: o cartão da receita na Montagem mostra suas cópias quando elas diferem, e pergunta antes de consumir uma acima de Padrão. Se você não escolher nenhuma, as de menor grau de encantamento são usadas primeiro, e assim suas cópias de grau mais alto ficam (entre cópias de um mesmo grau, a mais antiga vai primeiro, sejam quais forem os bônus delas). A regra completa está na página da [Forja](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -85,4 +89,5 @@ A Loja, o inventário do hangar e as outras listas de itens seguem uma só ordem
 - **Propulsão**: motores e [propulsores](/wiki/06-Items/Propulsion.md) para velocidade.
 - **Repair Drones**: extras que reparam seu casco, cada um mais rápido que o anterior: o Repair Drone I, o II e o III custam 5.000, 15.000 e 35.000 créditos, o Repair Drone IV custa 2.000 Thulium. As taxas estão em [Combate](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPUs e a EMP Charge**: extras para uma luta ou uma fuga: uma Cloaking CPU esconde sua nave até você encerrar a camuflagem (S, M e L: 10, 25 e 50 usos, 5.000, 11.250 e 20.000 Thulium), uma EMP Charge deixa você impossível de travar por 3 segundos, desfaz todas as travas sobre você e encerra todas as camuflagens por perto (500 Thulium). Veja [Extras](/wiki/06-Items/Extras.md).
+- **CPUs de pesquisa**: as Extra Slots CPUs dão slots extras a toda nave, a Jump CPU leva você a um setor de corporação por Thulium, as Base CPUs levam você para casa e a Auto-Repair CPU lança o seu Repair Drone sozinha. Não são vendidas: você as pesquisa e depois as cria na Montagem. Veja [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Recursos**: o que os alienígenas deixam cair e o Skylab produz para a criação: Ship Fragments, os quatro cristais, Power Cores, as placas de Velkonite e de Orvium, e dois que vêm de outros lugares: a **Dark Matter**, que o [buraco negro](/wiki/03-Mechanics/Black-Hole.md) devolve em troca de um foguete N.I.K.E., e a **Dark Matter Plate**, que a Montagem prensa a partir dela para as duas últimas etapas da [Forja](/wiki/06-Items/Forge.md).

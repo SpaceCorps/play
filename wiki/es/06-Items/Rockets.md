@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
 Los cohetes son una segunda arma junto a tus láseres: un disparo cada pocos segundos que golpea mucho más fuerte que una andanada láser. Doce cohetes en cuatro tipos, tres gamas cada uno, dos más que solo fabrica Ensamblaje, y **un único temporizador de recarga de 5 segundos que comparten todos**, sea cual sea el que dispares. Los cohetes comunes y raros se compran con **créditos**; los cuatro cohetes épicos se compran con **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Árbol de objetos {#item-tree}
+
+Lo que fabrica Ensamblaje necesita antes su tecnología; pasa el cursor por un objeto para ver cuánto tarda en investigarse. El árbol de tecnologías, el combustible y el impulso: [Investigación](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## Los cuatro tipos {#the-four-kinds}
 
@@ -64,7 +94,7 @@ Los cohetes que hacen falta para matar a un alienígena, con un solo tipo de coh
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - Los cohetes de un objetivo **comunes** matan a un Seeker de un impacto con cualquier tirada y a un Phantasm de tres (un Lancet I necesita un cuarto con su tirada más baja); son los cohetes de todos los días de los primeros sectores. Los **raros** son para el Bulwark y el Goombah: ocho cohetes Lancet II se llevan un Bulwark en unos 35 segundos de temporizador. Los **épicos** matan a un Phantasm de un impacto con cualquier tirada y a un Goombah con nueve a once. Las explosiones valen su precio cuando hay varios alienígenas juntos: un Scatter III que estalla sobre una manada de cinco Phantasms causa unos 18.000 de daño repartidos entre la manada de un solo lanzamiento.
-- Un derribo solo con cohetes es un gasto de verdad, no una forma de hacerse rico: para el alienígena al que está destinado, un cohete de un objetivo cuesta entre una sexta parte y cinco sextas partes de lo que paga el derribo (créditos, y Thulium a 200 créditos cada uno), y los cohetes débiles contra los alienígenas fuertes cuestan más de lo que paga el derribo. Derribar al **Crystalys** con un solo tipo requiere de 62 a 399 cohetes y al menos cinco minutos de temporizador; una reserva llena de 500 cohetes épicos alcanza para entre cuatro y ocho de estos derribos. El alienígena más fuerte necesita un plan: tus láseres con munición x2, un cohete de gama media cada 5 segundos desde el primer segundo, y los cohetes grandes de más abajo como ráfaga.
+- Un derribo solo con cohetes es un gasto de verdad, no una forma de hacerse rico: para el alienígena al que está destinado, un cohete de un objetivo cuesta entre aproximadamente una séptima parte y tres cuartas partes de lo que paga el derribo (créditos, y Thulium a 200 créditos cada uno), y los cohetes débiles contra los alienígenas fuertes cuestan más de lo que paga el derribo. Derribar al **Crystalys** con un solo tipo requiere de 62 a 399 cohetes y al menos cinco minutos de temporizador; una reserva llena de 500 cohetes épicos alcanza para entre cuatro y ocho de estos derribos. El alienígena más fuerte necesita un plan: tus láseres con munición x2, un cohete de gama media cada 5 segundos desde el primer segundo, y los cohetes grandes de más abajo como ráfaga.
 - La paga de un derribo es la misma sea como sea que se haya hecho (consulta [el Crystalys](/wiki/04-Aliens/Crystalys.md) para el mayor), así que un derribo con cohetes compensa cuando te ahorra tiempo y cuesta menos de lo que paga.
 - **Los alienígenas también disparan cohetes.** El Pirate Boss, la Dormant Force y las Pulses de los [enjambres](/wiki/05-Swarms/Swarms.md) lanzan cohetes Rivet rectos contra el piloto que los atacó, con el mismo temporizador de 5 segundos. Una nave que no deja de moverse los esquiva. Los jefes de los enjambres también sueltan cohetes en sus cajas.
 

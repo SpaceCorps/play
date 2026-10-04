@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm 
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 12.000
+- **Créditos**: 15.000
 - **Thulium**: 75
 - **Experiência (XP)**: 3.000
 - **Honra**: 24

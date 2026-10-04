@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ Paragon är en tung stridskryssare med balanserat försvar och balanserad eldkra
 
 - **Krediter**: 0 (Byggs i Monteringen)
 - **Thulium**: 0
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Forska först.** Monteringen tillverkar det här skeppet först när du har forskat fram dess teknologi: 6 h forskning. Den finns i [trädet Skepp](/wiki/03-Mechanics/Research.md#tree-ships) på sidan [Forskning](/wiki/03-Mechanics/Research.md).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Bakgrund {#lore}
 

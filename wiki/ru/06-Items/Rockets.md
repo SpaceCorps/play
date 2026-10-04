@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Ракеты -->
 # Ракеты {#rockets}
 
 Ракеты — второе оружие рядом с лазерами: один выстрел раз в несколько секунд, бьющий намного сильнее лазерного залпа. Двенадцать ракет в четырёх видах, по три уровня в каждом, ещё две, которые делает только Сборочный цех, и **один таймер перезарядки в 5 секунд, общий для всех**, какую бы вы ни выпустили. Обычные и редкие ракеты покупаются за **кредиты**; четыре эпические ракеты — за **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Дерево предметов {#item-tree}
+
+То, что создаёт Сборочный цех, сначала требует своей технологии; наведите курсор на предмет, чтобы увидеть, сколько длится её исследование. Дерево технологий, топливо и буст: [Исследования](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## Четыре вида {#the-four-kinds}
 
@@ -64,7 +94,7 @@
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - **Обычные** ракеты по одной цели убивают Seeker за одно попадание при любом значении, а Phantasm — за три (Lancet I при самом низком значении нужна четвёртая); это повседневные ракеты первых секторов. **Редкие** предназначены для Bulwark и Goombah: восемь Lancet II убивают Bulwark примерно за 35 секунд таймера. **Эпические** убивают Phantasm за одно попадание при любом значении, а Goombah — за девять–одиннадцать. Взрывы окупают свою цену, когда рядом несколько пришельцев: Scatter III, взорвавшийся над стаей из пяти Phantasm, наносит стае около 18 000 урона за один пуск.
-- Убийство одними ракетами — это настоящие траты, а не способ разбогатеть: на том пришельце, для которого она предназначена, ракета по одной цели стоит от одной шестой до пяти шестых того, что платят за убийство (кредитами и Thulium из расчёта 200 кредитов за единицу), а слабые ракеты против сильных пришельцев стоят больше, чем платят за убийство. Чтобы убить **Crystalys** ракетами одного вида, нужно от 62 до 399 ракет и не менее пяти минут таймера; полного запаса из 500 эпических ракет хватает, чтобы убить от четырёх до восьми Crystalys. Самому сильному пришельцу нужен план: лазеры с боеприпасами x2, ракета среднего уровня каждые 5 секунд с первой секунды и большие ракеты из раздела ниже — как мощный разовый удар.
+- Убийство одними ракетами — это настоящие траты, а не способ разбогатеть: на том пришельце, для которого она предназначена, ракета по одной цели стоит примерно от одной седьмой до трёх четвертей того, что платят за убийство (кредитами и Thulium из расчёта 200 кредитов за единицу), а слабые ракеты против сильных пришельцев стоят больше, чем платят за убийство. Чтобы убить **Crystalys** ракетами одного вида, нужно от 62 до 399 ракет и не менее пяти минут таймера; полного запаса из 500 эпических ракет хватает, чтобы убить от четырёх до восьми Crystalys. Самому сильному пришельцу нужен план: лазеры с боеприпасами x2, ракета среднего уровня каждые 5 секунд с первой секунды и большие ракеты из раздела ниже — как мощный разовый удар.
 - Награда за убийство одинакова, как бы оно ни было совершено (самая большая — на странице [Crystalys](/wiki/04-Aliens/Crystalys.md)), поэтому убийство ракетами выгодно, когда оно экономит вам время и стоит меньше, чем приносит.
 - **Пришельцы тоже стреляют ракетами.** Pirate Boss, Dormant Force и Pulse из [роёв](/wiki/05-Swarms/Swarms.md) запускают прямые ракеты Rivet по пилоту, который на них напал, с тем же таймером в 5 секунд. Корабль, который не прекращает двигаться, уворачивается от них. Боссы роёв также роняют ракеты в своих контейнерах.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ Ostirion — надёжный перехватчик среднего класс
 
 - **Кредиты**: 425 000
 - **Thulium**: 0
+
+## Исследования {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Исследование не нужно.** У этого корабля нет собственной технологии.
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## История {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Kitefin — лёгкий штурмовой корабль и первый, ко
 
 - **Кредиты**: 0
 - **Thulium**: 600
+
+## Исследования {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Исследование не нужно.** У этого корабля нет собственной технологии.
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## История {#lore}
 

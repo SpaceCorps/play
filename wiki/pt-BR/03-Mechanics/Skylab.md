@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 65da665842938543 -->
+<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
-O Skylab é a sua instalação orbital pessoal. Ele constrói e melhora módulos que produzem créditos e Thulium, extraem minério e forjam as placas que a Montagem transforma nos melhores lasers. Ele trabalha para você mesmo quando você está offline.
+O Skylab é a sua instalação orbital pessoal. Ele constrói e melhora módulos que produzem créditos e Thulium, extraem minério, forjam as placas que a Montagem transforma nos melhores lasers e, a partir do nível 10 do Núcleo, pesquisam as tecnologias de que a Montagem precisa. Ele trabalha para você mesmo quando você está offline.
 
 ## Visão geral {#overview}
 
-O Skylab funciona no seu próprio relógio, separado da sua nave: os módulos produzem e forjam enquanto você está fora. O que você faz é construir, melhorar, manter a energia em equilíbrio e coletar. A página tem três visões da mesma estação: **Estação** (a estação em 3D, com uma etiqueta sobre cada módulo; clique em uma para abrir a ficha do módulo, ou pressione **1** a **8**), **Lista** (um cartão para cada módulo) e **Tabela** (os números de todos os módulos em uma só tabela). Passar o mouse sobre **Construir** ou **Melhorar** mostra o que o próximo nível muda, quanto custa e quanto tempo leva.
+O Skylab funciona no seu próprio relógio, separado da sua nave: os módulos produzem e forjam enquanto você está fora. O que você faz é construir, melhorar, manter a energia em equilíbrio e coletar. A página tem quatro visões da mesma estação: **Estação** (a estação em 3D, com uma etiqueta sobre cada módulo; clique em uma para abrir a ficha do módulo, ou pressione **1** a **9**), **Lista** (um cartão para cada módulo), **Tabela** (os números de todos os módulos em uma só tabela) e **Pesquisa** (a tela própria do Centro de Pesquisa, veja [Pesquisa](/wiki/03-Mechanics/Research.md)). Passar o mouse sobre **Construir** ou **Melhorar** mostra o que o próximo nível muda, quanto custa e quanto tempo leva.
 
-Oito módulos formam a estação:
+Nove módulos formam a estação:
 
 | Módulo | O que produz ou faz | Construído a partir de |
 | :--- | :--- | :--- |
@@ -20,6 +20,7 @@ Oito módulos formam a estação:
 | **Coletor de Orvium** | Extrai minério de Orvium | Núcleo no nível 5 |
 | **Depósito de recursos** | Guarda o minério | Núcleo no nível 5 |
 | **Forja** | Forja o minério em placas | Núcleo no nível 5 |
+| **Centro de Pesquisa** | Transforma recursos em ciência e pesquisa [tecnologias](/wiki/03-Mechanics/Research.md) | Núcleo no nível 10 |
 
 **Missões para ele.** Dez [missões da estação](/wiki/03-Mechanics/Quests.md#station-missions) no Mission Control conduzem você pelo Skylab: construir a Usina solar, uma Mina de créditos e uma Mina de Thulium, levar o Núcleo e a Usina solar a níveis mais altos, coletar os seus primeiros 50.000 créditos e abrir a cadeia de suprimentos, e pagam um pouco por cada etapa. A primeira está aberta desde o nível 1.
 
@@ -62,9 +63,9 @@ Estas são as visões da Estação do Skylab em cada nível de 1 a 20, todas do 
 
 ![Nível 20](../../img/skylab/wiki/level-20.jpg)
 
-**Os cartões dos oito módulos.** A visão em Lista da mesma estação no nível 20: os quatro módulos da primeira versão e o Coletor de Velkonite, o Coletor de Orvium, o Depósito de recursos e a Forja, que vieram com a cadeia de suprimentos. Cada cartão mostra o nível do módulo, a produção, a energia e o interruptor dele.
+**Os cartões dos nove módulos.** A visão em Lista da mesma estação no nível 20: os quatro módulos da primeira versão, o Coletor de Velkonite, o Coletor de Orvium, o Depósito de recursos e a Forja, que vieram com a cadeia de suprimentos, e o Centro de Pesquisa. Cada cartão mostra o nível do módulo, a produção, a energia e o interruptor dele. Todos os cartões mostram o nível 20, exceto o do Centro de Pesquisa: ele tem os níveis 1 a 10, então o cartão dele mostra o nível 10, o máximo.
 
-![A visão em Lista no nível 20: os cartões do Núcleo, da Usina solar, da Mina de créditos, da Mina de Thulium, do Coletor de Velkonite, do Coletor de Orvium, do Depósito de recursos e da Forja](../../img/skylab/wiki/modules.jpg)
+![A visão em Lista no nível 20: os cartões do Núcleo, da Usina solar, da Mina de créditos, da Mina de Thulium, do Coletor de Velkonite, do Coletor de Orvium, do Depósito de recursos, da Forja e do Centro de Pesquisa](../../img/skylab/wiki/modules.jpg)
 
 ## Os quatro primeiros módulos {#the-first-four-modules}
 
@@ -77,7 +78,7 @@ O coração do seu Skylab. O nível do Núcleo decide o nível mais alto de todo
 A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todos os outros módulos usam.
 
 - **Importância**: se o seu consumo de energia for maior que a energia produzida, as suas minas e os seus coletores param de produzir.
-- **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 835 no nível 7, 16.010 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
+- **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 835 no nível 7, 16.110 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
 - **Melhoria**: a Usina solar continua produzindo a energia do nível atual enquanto é melhorada, e a do novo nível a partir do momento em que a melhoria termina, então o resto da estação continua funcionando (veja Construção e melhoria).
 
 ### Mina de créditos e Mina de Thulium {#credit-farm-and-thulium-farm}
@@ -125,6 +126,10 @@ Cada um dos quatro custa **10 Ship Fragments, 10.000 créditos e 500 Thulium** e
 - Eles consomem energia. Antes de construir, a ficha mostra o seu balanço de energia agora e depois: **construir pode deixar uma estação em déficit** quando a sua Usina solar está atrás dos outros módulos, e um único déficit para todas as minas e todos os coletores. Desligue um módulo ou melhore antes a Usina solar.
 - Os dois coletores ficam pendurados em estruturas acima da estação, o Depósito de recursos fica na porta nordeste do Núcleo e a Forja, na porta noroeste dele.
 
+## O Centro de Pesquisa {#the-research-centre}
+
+O nono módulo transforma recursos em ciência e pesquisa as tecnologias de que a Montagem precisa antes de criar qualquer coisa nova. Ele é construído a partir do nível 10 do Núcleo, tem os níveis 1 a 10, consome energia e não pode ser desligado. Os números dele, o que ele queima como combustível, o boost e toda a árvore de tecnologias estão na página [Pesquisa](/wiki/03-Mechanics/Research.md).
+
 ## Mecânicas {#mechanics}
 
 ### Construção e melhoria {#building-and-upgrading}
@@ -143,13 +148,13 @@ Cada um dos quatro custa **10 Ship Fragments, 10.000 créditos e 500 Thulium** e
 
 **Níveis 1 a 5**, por módulo (a melhoria a partir do nível da primeira coluna):
 
-| Nível | Núcleo | Usina solar | Mina de créditos | Mina de Thulium | Depósito de recursos | Coletor de Velkonite | Coletor de Orvium | Forja |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s |
-| 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s |
-| 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s |
-| 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s |
-| 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s |
+| Nível | Núcleo | Usina solar | Mina de créditos | Mina de Thulium | Depósito de recursos | Coletor de Velkonite | Coletor de Orvium | Forja | Centro de Pesquisa |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
+| 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
+| 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
+| 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
+| 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
 
 **A partir do nível 6**, igual para todos os módulos:
 
@@ -178,11 +183,11 @@ Uma melhoria que já está em andamento quando os tempos mudam mantém o horári
 O seu Skylab tem um orçamento de energia limitado.
 
 - **Balanço**: mantenha a produção da Usina solar acima da energia que todos os outros módulos usam. A página do Skylab mostra o balanço e avisa antes que uma construção o empurre para abaixo de zero.
-- **A Usina solar acompanha**: um módulo Usina solar no nível N produz a energia dos **outros sete módulos todos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa da Usina solar 7 e a tem coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar ainda precisa acompanhar os demais na subida. O Núcleo consome pouco, então pode ir na frente: a Usina solar 5 e acima cobre uma estação completa no nível dela com o Núcleo em qualquer nível.
-- **Estado ativo**: você pode ligar ou desligar as minas, os coletores e a Forja para administrar a energia. O Núcleo, a Usina solar e o Depósito de recursos sempre funcionam.
-- **Déficit de energia**: se o consumo de energia for maior que a produção, todas as minas e todos os coletores param de produzir até o balanço voltar. O que eles já guardam continua lá, e você ainda pode coletar. A Forja não inicia nenhum lote novo.
+- **A Usina solar acompanha**: um módulo Usina solar no nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa da Usina solar 7 e a tem coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar ainda precisa acompanhar os demais na subida. O Núcleo consome pouco, então pode ir na frente: a Usina solar 5 e acima cobre uma estação completa no nível dela com o Núcleo em qualquer nível.
+- **Estado ativo**: você pode ligar ou desligar as minas, os coletores e a Forja para administrar a energia. O Núcleo, a Usina solar, o Depósito de recursos e o Centro de Pesquisa sempre funcionam.
+- **Déficit de energia**: se o consumo de energia for maior que a produção, todas as minas e todos os coletores param de produzir até o balanço voltar. O que eles já guardam continua lá, e você ainda pode coletar. A Forja não inicia nenhum lote novo, e o Centro de Pesquisa não inicia nenhuma pesquisa nova (uma pesquisa já em andamento continua).
 
-A energia da Usina solar em cada nível, contra o que os outros sete módulos usam no mesmo nível (todos os módulos nesse nível, o Núcleo incluído):
+A energia da Usina solar em cada nível, contra o que os outros módulos usam no mesmo nível (todos os módulos nesse nível, o Núcleo incluído, e o Centro de Pesquisa a partir do nível 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -198,20 +203,20 @@ A energia da Usina solar em cada nível, contra o que os outros sete módulos us
 | 7 | 835 | 756 | 79 | 680: faltam 76 |
 | 8 | 1.030 | 933 | 97 | 835: faltam 98 |
 | 9 | 1.275 | 1.155 | 120 | 1.030: faltam 125 |
-| 10 | 1.580 | 1.435 | 145 | 1.275: faltam 160 |
-| 11 | 1.970 | 1.788 | 182 | 1.580: faltam 208 |
-| 12 | 2.460 | 2.234 | 226 | 1.970: faltam 264 |
-| 13 | 3.085 | 2.800 | 285 | 2.460: faltam 340 |
-| 14 | 3.875 | 3.519 | 356 | 3.085: faltam 434 |
-| 15 | 4.880 | 4.434 | 446 | 3.875: faltam 559 |
-| 16 | 6.160 | 5.600 | 560 | 4.880: faltam 720 |
-| 17 | 7.800 | 7.088 | 712 | 6.160: faltam 928 |
-| 18 | 9.895 | 8.992 | 903 | 7.800: faltam 1.192 |
-| 19 | 12.575 | 11.429 | 1.146 | 9.895: faltam 1.534 |
-| 20 | 16.010 | 14.554 | 1.456 | 12.575: faltam 1.979 |
+| 10 | 1.680 | 1.523 | 157 | 1.275: faltam 248 |
+| 11 | 2.065 | 1.876 | 189 | 1.680: faltam 196 |
+| 12 | 2.555 | 2.322 | 233 | 2.065: faltam 257 |
+| 13 | 3.180 | 2.888 | 292 | 2.555: faltam 333 |
+| 14 | 3.970 | 3.607 | 363 | 3.180: faltam 427 |
+| 15 | 4.975 | 4.522 | 453 | 3.970: faltam 552 |
+| 16 | 6.260 | 5.688 | 572 | 4.975: faltam 713 |
+| 17 | 7.895 | 7.176 | 719 | 6.260: faltam 916 |
+| 18 | 9.990 | 9.080 | 910 | 7.895: faltam 1.185 |
+| 19 | 12.670 | 11.517 | 1.153 | 9.990: faltam 1.527 |
+| 20 | 16.110 | 14.642 | 1.468 | 12.670: faltam 1.972 |
 <!-- skylab-power:end -->
 
-A tabela conta todos os módulos no mesmo nível. A Mina de Thulium consome quatro quintos desse total no topo (11.695 no nível 20, contra 14.554 para os sete juntos), então uma estação com essa mina bem à frente do resto precisa de mais Usina solar do que o seu Núcleo sugere.
+A tabela conta todos os módulos no mesmo nível. A Mina de Thulium consome quatro quintos desse total no topo (11.695 no nível 20, contra 14.642 para os oito juntos), então uma estação com essa mina bem à frente do resto precisa de mais Usina solar do que o seu Núcleo sugere.
 
 ### Coleta {#collecting}
 
@@ -226,4 +231,4 @@ Cada mina e cada coletor tem um armazenamento para cerca de 72 horas do que prod
 
 ### O reset {#the-wipe}
 
-O Skylab nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério. As placas no seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md).
+O Skylab nunca sofre reset: os módulos mantêm os níveis, o Depósito de recursos mantém o minério e o Centro de Pesquisa mantém as tecnologias, o tanque de ciência, a Dark Matter inserida e uma pesquisa em andamento. As placas no seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md).

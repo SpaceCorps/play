@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -56,7 +56,7 @@ Die Welt skaliert einen Schwarm wie jedes Alien ([Welten](/wiki/03-Mechanics/Wip
 
 ## Was die Piloten erfahren {#what-the-pilots-are-told}
 
-Der Seeker- und der Pirate-Schwarm melden den Piloten ihres Sektors im Chat, wenn ein Boss auftaucht und wenn er zerstört wird. Der Dormant-Schwarm meldet es seiner ganzen Welt, und er ist auf den Karten der Gefahrensektoren und auf der Galaxiekarte markiert, damit Piloten ihn finden können. Der Abschuss eines Bosses bekommt außerdem eine Zeile im Kill-Feed, die den Piloten nennt, dem er gutgeschrieben wird. Die Liste *Auf einen Blick* jedes Artikels sagt, wer informiert wird.
+Der Seeker- und der Pirate-Schwarm melden den Piloten ihres Sektors, wenn ein Boss auftaucht und wenn er zerstört wird. Der Dormant-Schwarm meldet es seiner ganzen Welt, und er ist auf den Karten der Gefahrensektoren und auf der Galaxiekarte markiert, damit Piloten ihn finden können. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Abschuss eines Bosses bekommt außerdem eine Zeile im Kill-Feed, die den Piloten nennt, dem er gutgeschrieben wird. Die Liste *Auf einen Blick* jedes Artikels sagt, wer informiert wird.
 
 ## Einen Schwarm bekämpfen {#fighting-a-swarm}
 

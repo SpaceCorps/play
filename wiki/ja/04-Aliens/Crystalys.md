@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Crystalys は巨大な戦艦級のエイリアンです。遭遇するときわ�
 
 ## 報酬 {#rewards}
 
-- **クレジット**：60,000
+- **クレジット**：75,000
 - **Thulium**：200
 - **経験値（XP）**：12,000
 - **名誉**：52

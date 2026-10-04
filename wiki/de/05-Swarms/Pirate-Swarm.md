@@ -18,7 +18,7 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 - **Heilung**: Jeder Pirate Scout im Umkreis von 600 Einheiten um den Anführer heilt dessen Hülle, in Alpha 40 HP pro Sekunde
 - **Anführer zerstört**: Die Begleiter verschwinden 1 min nach der Zerstörung des Anführers, sofern sie nicht gerade angreifen
 - **Kehrt zurück**: 2 min nach der Zerstörung des Anführers, im selben Sektor
-- **Meldungen**: Der Chat des Sektors meldet, wann der Anführer auftaucht und wann er zerstört wird. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
+- **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | Laserreichweite | – | – | – |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Raketenschaden, höchstens | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Credits | 116.000 | 232.000 | 348.000 |
+| Credits | 145.000 | 290.000 | 435.000 |
 | Thulium | 725 | 1.450 | 2.175 |
 | Erfahrung (EP) | 29.000 | 58.000 | 87.000 |
 | Ehre | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Basis: Kitefin mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Laserreichweite | 700 | 700 | 700 |
 | Aggro-Radius | 700 | 700 | 700 |
 | Heilt den Anführer, je Begleiter, pro Sekunde (nur Hülle) | 40 | 60 | 80 |
-| Credits | 800 | 1.600 | 2.400 |
+| Credits | 1.000 | 2.000 | 3.000 |
 | Thulium | 4 | 8 | 12 |
 | Erfahrung (EP) | 100 | 200 | 300 |
 | Ehre | 2 | 4 | 6 |

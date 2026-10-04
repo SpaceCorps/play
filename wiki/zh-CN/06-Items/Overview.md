@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
-物品是提升舰船能力的核心部件。它们可以从商店购买，也可以作为掉落物获得，或在装配站制造，或在[锻造炉](/wiki/06-Items/Forge.md)中提升和合并。
+物品是提升舰船能力的核心部件。它们可以从商店购买，也可以作为掉落物获得，或在装配站制造（须先研究其科技），或在[锻造炉](/wiki/06-Items/Forge.md)中提升和合并。
 
 ## 稀有度等级 {#rarity-levels}
 
@@ -17,6 +17,10 @@
 - **永恒**：威力无与伦比的宇宙级模块。
 
 ## 升级模块 {#upgrading-modules}
+
+**在装配站制造任何东西，都要先有对应的科技。** 你在 Skylab 的研究中心里研究它（[研究](/wiki/03-Mechanics/Research.md)页面有完整的科技树、每项科技的时间、燃料和加速）。在你拥有它之前，装配站里的配方卡是锁定的，并会告诉你要先研究哪项科技。如果研究加入游戏时你已经拥有某件物品，你就已经拥有它的科技。
+
+锁定的卡片上有一个**打开研究**按钮，点击后会打开你 Skylab 的研究视图，并选中那项科技。卡片仍会显示材料和价格，所以你可以提前规划，锁定的配方在各自分类里排在最后。Extra Slots CPU 还要等它的前一级：Extra Slots CPU II 的卡片会让你先安装 Extra Slots CPU I，III 的卡片则要求 II。
 
 顶级的激光增幅器、II 至 IV 阶的护盾电池和推进器，以及 Heavy Shield Core 和 Engine III，都不在商店出售。你要在装配站中，用低一级的部件（Heavy Shield Core 用 Basic Shield Core，Engine III 用 Engine II，Impulse Thruster III 用 Impulse Thruster II）、一些 Thulium、外星人的掉落物和来自你 Skylab 锻造厂的强化板来制作每一件。该部件必须是物品栏中未使用的：请先把它从你的舰船上取下，并从所在的激光、护盾或引擎中取出（护盾或引擎自身不能带有电池或推进器），再从运输储藏库中取出。**新物品沿用被消耗部件的[附魔](/wiki/06-Items/Overview.md#item-enchants)等级，其加成会重新随机**（神圣·Pulse Amp 制成神圣·Nova Amp，带有新加成，数量与原来相同）。使用哪一件副本由你决定：当你的副本各不相同时，装配站的配方卡片会把它们列出来，使用高于标准等级的副本前会先询问。如果你没有选择，附魔等级最低的会先被使用，所以你等级最高的副本会留下（同一等级的副本中最旧的先用，无论它们的加成如何）。完整规则见[锻造炉](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)页面。
 
@@ -85,4 +89,5 @@ Velkonite Reinforced Plate 不会掉落：你的 [Skylab](/wiki/03-Mechanics/Sky
 - **推进**：提供速度的引擎和[推进器](/wiki/06-Items/Propulsion.md)。
 - **Repair Drone**：修复船体的附加装置，每一档都比上一档更快：Repair Drone I、II 和 III 分别花费 5,000、15,000 和 35,000 信用点，Repair Drone IV 花费 2,000 Thulium。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
 - **Cloaking CPU 和 EMP Charge**：用于战斗或逃跑的附加装置：Cloaking CPU 会让你的舰船保持隐形，直到你自己结束（S、M、L 分别为 10、25 和 50 次使用，价格 5,000、11,250 和 20,000 Thulium），EMP Charge 会让你在 3 秒内无法被选为目标，打断所有对你的锁定并结束附近的所有隐形（500 Thulium）。见[附加装置](/wiki/06-Items/Extras.md)。
+- **研究 CPU**：Extra Slots CPU 为每艘舰船增加附加槽位，Jump CPU 花费 Thulium 把你送到某个企业星区，Base CPU 把你送回基地，Auto-Repair CPU 自动放出你的 Repair Drone。它们不出售：先研究，再在装配站制造。见[附加装置](/wiki/06-Items/Extras.md#research-cpus)。
 - **资源**：外星人掉落、Skylab 为制造而产出的东西：Ship Fragment、四种晶体、Power Core、Velkonite 和 Orvium 强化板，以及来自别处的两种：**Dark Matter**（[黑洞](/wiki/03-Mechanics/Black-Hole.md)会为一枚 N.I.K.E. 火箭回馈它）和装配站用它压制成的 **Dark Matter Plate**，用于[锻造炉](/wiki/06-Items/Forge.md)的最高两步。

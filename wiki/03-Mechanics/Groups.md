@@ -8,7 +8,7 @@ A group is up to **5 pilots** who fly together, of any companies: friends who fl
 - The pilot sees a card with **Accept** and **Deny**, counting the **60 seconds** they have to answer, and a notice. **Y** accepts and **Escape** denies (a text field in use, or a window open on top, keeps the keys). If several invitations wait, the card takes them in turn. It shows at the station too. When the time is out the invitation lapses and you are told which. You cannot invite a pilot who is in a group already, who has set **Do Not Disturb**, or who has too many invitations waiting, and you can send at most 10 invitations a minute (3 to other companies).
 - **Do Not Disturb** turns invitations off: the bell in the Group window's title bar, or Settings › General › Groups. Nobody can invite you while it is on, and you are not asked.
 - Whoever's invitation is accepted first becomes the **leader**. The leader invites, removes members and makes another member the leader. Anyone can leave. A group of one pilot ends by itself. When the leader leaves, the member who has been in the group the longest leads.
-- You are in **one group at a time**. Changing your company does not take you out of your group (you show under your new company); the season's wipe does.
+- You are in **one group at a time**. [Changing your company](/wiki/01-General/Getting-Started.md#changing-your-company) does not take you out of your group (you show under your new company); the season's wipe does.
 - If your connection drops, or you dock and launch again, your place is kept for **2 minutes**. A member away longer than that is removed. A server update ends every group: invite each other again.
 
 ## Seeing Your Group
@@ -41,7 +41,7 @@ A kill also counts for the **kill missions** of every other member who is on the
 
 ## Chat Channels
 
-The chat has a row of tabs on top: **Global**, **Local** and, while you are in a group, **Group**. The line you type goes to the tab in view, and the tab you last used is remembered. Each channel has its colour and a short tag on every line (GLB, LOC, GRP), a tab counts the lines you have not read, and the chat's button in the toolbar carries the count while the window is closed. The server's own lines show in every tab. Or start a line with a command:
+The chat has a row of tabs on top: **Global**, **Local**, **Group** (while you are in a group) and, last, **System**. The line you type goes to the tab in view, and the tab you last used is remembered. Each channel has its colour and a short tag on every line (GLB, LOC, GRP), a tab counts the lines you have not read, and the chat's button in the toolbar carries the count while the window is closed. Or start a line with a command:
 
 | Channel | Who hears it | Command |
 | :--- | :--- | :--- |
@@ -49,7 +49,25 @@ The chat has a row of tabs on top: **Global**, **Local** and, while you are in a
 | **Global** | every pilot online | `/g` or `/global` |
 | **Group** | your group, wherever they are | `/p`, `/party` or `/group` |
 
-A command switches the tab too, and typed alone (`/g`) it only switches. Global has a limit: 3 lines in a burst, then one every 2 seconds. Group chat needs a group. On a game server from before the channels the chat is the one list it was, and a group cannot be formed.
+A command switches the tab too, and typed alone (`/g`) it only switches. Group chat needs a group. On a game server from before the channels the chat is the one list it was, and a group cannot be formed.
+
+**System** is gold and read-only, with a list of its own: it holds what the server says on its own (the welcome, the restart, update and wipe warnings, the swarm announcements) and what your ship reports (repairs, cloaking, EMPs, rockets). Those lines are in no other tab, so a busy Global cannot push them out, and the pilots' tabs hold what pilots say. The tab's count is for the announcements; a restart or update countdown and the wipe warnings also pop up as a notice. The [kill feed](#the-kill-feed) stays in **Global**, with its own switch, and the lines about pilots joining or leaving your group are in **Group**.
+
+### Typing
+
+**Enter** opens the chat and gives it the keyboard. Send a line with **Enter** and the box keeps the keyboard, so the next line can follow at once; while it does, the hotbar and the ability keys stay off. Typing ends when you press **Escape**, press **Enter** with nothing typed, click the map with the left button (the same click still steers your ship), leave the box empty and press no key for 15 seconds, or your ship is destroyed. On the System tab, where you cannot write, **Enter** takes you back to the channel you wrote in last.
+
+### The Chat Rules
+
+The server holds every line to a few rules, the same in Local, Global and Group. A line it refuses is not sent, and the reason shows under the input for a few seconds, with your text put back in the box.
+
+- **A limit on how fast you send.** You can send **5 lines** at once, then **one more line every 2 seconds**, counted together for Local, Global and Group. Send a line when none is left and the chat **pauses** for you: for **10 seconds** the first time, then **30**, **120** and **300 seconds** for every repeat within 10 minutes of the last pause (after 10 minutes without a pause the count starts again). While it lasts the Send button is grey and "Chat paused: 7 s" counts down under the input. **The text you typed stays in the box** and the box keeps the keyboard: wait, or press **Escape**. A normal conversation never reaches the limit. A line the rules refuse counts as 2 lines of the allowance.
+- **200 characters** to a line. A counter ("150/200") shows from 120 characters, and a longer line is cut.
+- **Latin letters only.** The letters of the Latin alphabets with their accents (é, ß, ñ, ø, ő), digits, the usual punctuation and the marks ¡ ¿ « » ° £ €. Cyrillic, Chinese, Japanese, Korean, emoji and other symbols are refused, and the box drops them as you type or paste.
+- **No links.** A line with a web address, an invitation link or an e-mail address is refused, even when it is disguised in the usual ways. Words alone are fine: "join my discord" goes out.
+- **No repeats.** The same line as your last one, sent again within 10 seconds, is refused, and so is a line with the same character more than 8 times in a row or with no letter or digit in it.
+
+Admins are not held to these rules, except for the 200 characters. The rules need a game server from 0.4.9; an older one only limits Global, to 3 lines at once and then one every 2 seconds.
 
 ### The Kill Feed
 
@@ -67,7 +85,7 @@ Global reaches every pilot online, so the chat has three tools to keep it comfor
 - **Ignore** (right-click a name, then **Ignore**): that pilot's lines in Global and Local are hidden, and their group invitations are turned down without asking you. They are not told. They stay visible in the **Group** tab: a group mate you ignore is still your group, so leave the group to be rid of them. The server's own lines are never hidden. **Stop ignoring** is on the same menu, and **Settings › Interface › Chat** lists the ignored pilots (up to 200) with a **Remove** button for each.
 - **Report** (right-click a name, then **Report…**): pick a reason (spam, abuse or harassment, cheating, or something else) and send. The report carries your name, the pilot's, the channel, the reason and the last line of that pilot that your chat shows (up to 200 characters). The game's admins read it; nobody is punished automatically, and the pilot is not told who reported them. You can send 5 reports an hour.
 
-Your ignored list and the Hide Global switch are kept with your account, so they follow you to other computers. The game has no word filter and no automatic mutes: the tools above are yours to use.
+Your ignored list and the Hide Global switch are kept with your account, so they follow you to other computers. The game has no word filter and mutes nobody for what they say: the pause for sending too fast ([The Chat Rules](#the-chat-rules)) is its only automatic stop, and the tools above are yours to use.
 
 ## Rules of Engagement
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 
 - **Crédits** : 0
 - **Thulium** : 600
+
+## Recherche {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Aucune recherche nécessaire.** Ce vaisseau n’a pas de technologie propre.
+- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 6, 8 et 10 au total avec les 3 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Histoire {#lore}
 

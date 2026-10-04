@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n source: 2b63df451b6a864e -->
 <!-- wiki-i18n title: エクストラ -->
 # エクストラ {#extras}
 
-エクストラは、艦の**エクストラスロット**（どの艦でも、構成ごとに3つ）に入れるガジェットです。ホットバーの「エクストラ」の選択画面から、またはエクストラを割り当てたホットバーのスロットから起動します。効果があるのは、飛行中の構成に装備したものだけです。もう一方の構成に装備したものは、構成を切り替えるまで待機します。
+エクストラは、艦の**エクストラスロット**（どの艦でも、構成ごとに3つ。Extra Slots CPU でさらに増えます）に入れるガジェットです。ホットバーの「エクストラ」の選択画面から、またはエクストラを割り当てたホットバーのスロットから起動します。効果があるのは、飛行中の構成に装備したものだけです。もう一方の構成に装備したものは、構成を切り替えるまで待機します。
 
 | エクストラ | 効果 | 使用回数 | 価格 |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,44 @@
 
 Cloaking CPU と EMP Charge は、ショップでのみ販売されています。統合はできず、ドロップや報酬で入手することもできません。
 
+さらに7つの CPU は販売されていません。Skylab の研究センターが研究を終えると、アセンブリで製作できます（[研究](/wiki/03-Mechanics/Research.md)を参照）。Extra Slots CPU I・II・III、Jump CPU、Base CPU I・II、Auto-Repair CPU で、それぞれの働きは[最後のセクション](#research-cpus)にあります。Cloaking CPU と同じく、Jump CPU と Base CPU は落ち着いたときのためのものです。自分が撃ったり攻撃を受けたりしてから10秒以内は、この3つのどれも始動しません。
+
+エクストラは、ホットバーのスロットに短い略称が付きます。Repair Drone は **REP**、Cloaking CPU は **CLK**、EMP Charge は **EMP**、Auto-Repair CPU・Base CPU・Jump CPU は順に **ARP**、**BSE**、**JMP** です。Extra Slots CPU にはスロットがなく、Skylab に取り付けられます。スロットにポインターを合わせると、今押すと何が起こるか、または押しても起こらない理由が読めます。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## アイテムツリー {#item-tree}
+
+アセンブリで作れるものは、先にその技術が必要です。アイテムにカーソルを合わせると、研究にかかる時間が分かります。技術ツリー、燃料、ブーストは [研究](/wiki/03-Mechanics/Research.md) を参照してください。
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
+
 ## Repair Drone {#repair-drones}
 
-Repair Drone を起動（REP）すると、船体が満タンになるまで修理します。作動するのは、被弾せずに10秒経ってからで、被弾すると停止します。複数装備している場合は、最も性能の高いものが働きます。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
+Repair Drone を起動（REP）すると、船体が満タンになるまで修理します。作動するのは、被弾せずに10秒経ってからで、被弾すると停止します。複数装備している場合は、最も性能の高いものが働きます。[Auto-Repair CPU](#auto-repair-cpu) があれば、作動させ直してくれます。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
 
 ## Cloaking CPU {#cloaking-cpu}
 
@@ -49,3 +84,55 @@ S、M、L の挙動はすべて同じです。大きいパックは、1回あた
 - この3秒の間に攻撃したエイリアンは、3秒が過ぎるまであなたに反撃しません。撃破の権利と先制攻撃のルールは変わりません。
 - **画面での見え方。**歪んだ空間のパルスが、パイロットから、ステルスを解除する範囲（1,500ユニット）の端まで広がり、範囲内の全員にそれが見えます。3秒間は、艦が放電する電気のシェルに包まれ、自分の艦の周りのリングと画面上部のチップが時間をカウントします。あなたを選択していた全員のターゲットリングは、短いバチッという音とともに砕け散ります。EMP スロットには所持しているチャージ数が表示され、シェルが出ている間は青く光り、再充填中は暗くなります。
 - **チャージ1つで1回。** 2つ以上持っていれば、スロットにはインベントリから補充されます。**30秒**の再充填は保存されません。ログアウトやポータルでのジャンプでリセットされ、次のパルスでもチャージを1つ消費します。
+
+## 研究センターの CPU {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | 研究時間 | 先に必要 | 製作に必要な Thulium | 製作時間 |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30分 | – | 12,000 | 5分 |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10時間 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30,000 | 10分 |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1日 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75,000 | 15分 |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3時間 | – | 8,000 | 5分 |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10時間 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20,000 | 10分 |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1日 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15分 |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6時間 | – | 15,000 | 10分 |
+
+どれもショップでは売っていません。技術を研究し、アセンブリで CPU を製作します。ツリーの CPU にカーソルを合わせると、アセンブリが何を必要とするか分かります。
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **働き。** Extra Slots CPU I・II・III は、すべての艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。上位の CPU は下位を置き換えます。II は I に加算されません。
+- **装備ではなく導入。** Extra Slots CPU はアイテムではありません。アセンブリで受け取ると Skylab に導入され、両方の構成のすべての艦に効き、スロットは使いません。ワイプ後も残ります。
+- **順番に。** 順に製作してください。II は I を導入済みのとき、III は II を導入済みのときだけ製作できます。それまでは、先に導入すべきものをアセンブリが教えてくれます。3つ合わせて 117,000 Thulium（12,000、30,000、75,000）です。
+
+### Jump CPU {#jump-cpu}
+
+- **働き。** 艦を、あなたのワールドにある任意の企業のセクター（自企業のものも他企業のものも、拠点セクターも含む。`M`、`T`、`G` のセクター 1〜4）へ、1回につき **500 Thulium** でジャンプさせます。使用回数の上限はなく、払うのは Thulium だけです。危険セクター（`DS`）や中立セクター（`N`）へは行けません。
+- **ジャンプ。** JMP スロットを押し、星系マップでセクターを選んで確定すると、艦が 5 秒チャージしたあと、そのセクターのゲートに到着します。到着直後は、ふつうのゲートジャンプのあとと同じ保護があります。到着後、CPU は 30 秒のクールダウンに入ります。
+- **戦闘中は不可。** 発砲または被弾から 10 秒以内には開始できず、チャージ中の発砲や被弾でジャンプはキャンセルされます（その場合は何も支払いません）。ステルス中はジャンプできません。
+- **中立セクターからは不可：** 中立セクターにいるパイロット、または企業に所属しないパイロットは使えません。
+- 戦闘中でなければ、危険セクターから出ることはできます。
+
+### Base CPUs {#base-cpus}
+
+- **働き。** 艦を所属企業の拠点にある、ステーション周囲のセーフゾーンへテレポートさせます（`M-1`、`T-1`、`G-1`。Mission Control があるセクター）。Thulium はかかりません。ホットバーの BSE スロットから起動します。
+- **戦闘中は不可。** チャージは 10 秒で、どちらも同じです。発砲または被弾から 10 秒以内、ステルス中、すでに拠点のセーフゾーン内にいるときは開始できず、チャージ中の発砲や被弾でキャンセルされます。
+
+| CPU | 使用回数 | クールダウン |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10分 |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5分 |
+
+- **使い切り、再チャージなし。** 使うたびに CPU の使用回数が1つ減り、使用回数がなくなった CPU は消えます。新しく製作してください。両方を装備している場合は、上位の II から使われます。
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **働き。** 手動で出撃させられる状況になるたびに、エクストラスロットに装備した Repair Drone を自動で出撃させます。船体が満タンでなく、ドローンがまだ出ておらず、最後の被弾から 10 秒が過ぎていることが条件です。船体の割合を設定する必要はありません。
+- 専用のエクストラスロットを1つ使い、同じ構成のエクストラスロットに Repair Drone がなければ何もしません。アビリティスロットにある Repair Drone は出撃させません（それは Emergency Repair ボタンです）。
+- **ドローンを手動で止めた場合、**船体が再び満タンになるか、自分でドローンを出撃させるまで、CPU は手を出しません。
+
+
+<!-- research-cpus:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -134,7 +134,7 @@ Le munizioni [Siphon Battery](/wiki/06-Items/Lasers.md) aggiungono subito al tuo
 
 ### 2. Repair Drone (riparazione dello scafo) {#2-repair-drones-hull-repair-}
 
-- **Funzionamento**: se equipaggi un Repair Drone (negli Extra dell’Hangar), lo attivi dalla barra rapida (trascinalo dal selettore Extra su uno slot) e ripara il tuo scafo. Qualsiasi colpo lo disattiva, e si ferma a scafo pieno.
+- **Funzionamento**: se equipaggi un Repair Drone (negli Extra dell’Hangar), lo attivi dalla barra rapida (trascinalo dal selettore Extra su uno slot) e ripara il tuo scafo. Qualsiasi colpo lo disattiva, e si ferma a scafo pieno. Con una [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) montata non devi riattivarlo: la CPU lo lancia da sola appena è passato il ritardo indicato più sotto, a meno che tu non l’abbia fermato a mano.
 - **Velocità di riparazione**: ripristina ogni secondo una percentuale dei tuoi punti scafo massimi (conta solo il miglior drone montato, non si sommano):
   - **Repair Drone I**: 1,5% dei punti scafo massimi / s
   - **Repair Drone II**: 2,25% dei punti scafo massimi / s

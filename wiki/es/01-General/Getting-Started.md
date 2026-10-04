@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f498be6364c7a1f9 -->
+<!-- wiki-i18n source: e9dcb581ba3fe826 -->
 <!-- wiki-i18n title: Primeros pasos -->
 # Primeros pasos en SpaceCorps {#getting-started-in-spacecorps}
 
@@ -8,10 +8,14 @@ Te damos la bienvenida a la experiencia definitiva de guerra espacial. Como pilo
 
 Para sobrevivir y prosperar, tienes que gestionar dos monedas y no perder de vista tu honor. Los materiales con los que construyes están en la página [Recursos](/wiki/06-Items/Resources.md), con dónde conseguir cada uno y para qué sirve:
 - **Créditos**: La moneda estándar principal. Te la paga cada alienígena que derrotas y cada misión que terminas, y la produce la Granja de créditos de tu [Skylab](/wiki/03-Mechanics/Skylab.md). Sirve para comprar equipo básico, naves y equipamiento estándar.
-- **Thulium**: El raro mineral radiactivo y moneda de alto valor. Te lo paga cada alienígena que derrotas y cada misión que terminas, y lo produce la Granja de Thulium de tu Skylab. Sirve para comprar armamento de élite, motores, escudos híbridos y potentes paquetes de potenciadores, y para mejorar módulos en Ensamblaje.
-- **Honor**: Una puntuación, no dinero: mide tu rango en la facción, tu lealtad y tu reputación. Ganar honor mejora tu título de rango, pero atacar a pilotos aliados de tu propia facción castiga duramente tu honor: destruir a un piloto de tu propia corporación, ya sea la nave de un jugador o uno de sus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), cuesta 100 de honor. Lo mismo cuesta alcanzarlo en los 15 segundos antes de que otra cosa lo destruya: debilitar a un compañero de corporación para que lo remate un alienígena cuesta tanto como derribarlo. Matar a un compañero de corporación no cuenta como derribo PvP y no da puntos PvP.
+- **Thulium**: El raro mineral radiactivo y moneda de alto valor. Te lo paga cada alienígena que derrotas y cada misión que terminas, y lo produce la Granja de Thulium de tu Skylab. Sirve para comprar armamento de élite, motores, escudos híbridos y potentes paquetes de potenciadores, para mejorar módulos en Ensamblaje, para cambiar de corporación (5.000), para dar un impulso al Centro de investigación (5.000) y por cada salto de una Jump CPU (500).
+- **Honor**: Una puntuación, no dinero: mide tu rango en la facción, tu lealtad y tu reputación. Ganar honor mejora tu título de rango, pero atacar a pilotos aliados de tu propia facción castiga duramente tu honor: destruir a un piloto de tu propia corporación, ya sea la nave de un jugador o uno de sus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), cuesta 100 de honor. Lo mismo cuesta alcanzarlo en los 15 segundos antes de que otra cosa lo destruya: debilitar a un compañero de corporación para que lo remate un alienígena cuesta tanto como derribarlo. Matar a un compañero de corporación no cuenta como derribo PvP y no da puntos PvP. Cambiar de corporación te quita la mitad de tu honor, redondeada hacia abajo; un honor de 0 o menos se queda como está ([Cambiar de corporación](#changing-your-company)).
 
 En la estación, tus Créditos, tu Thulium y tu Honor están arriba a la derecha de cada página, junto a tu sector y al botón **Despegar**. Si la ventana es demasiado estrecha para una cifra larga, se abrevia (987,7M); apunta con el cursor para leer el número completo.
+
+## Cambiar de corporación {#changing-your-company}
+
+Eliges tu corporación la primera vez que juegas, y eso es gratis. Más adelante puedes cambiarla en la estación: **Economía › Corporación** muestra las otras dos corporaciones, cada una con un botón **Cambiar de corporación**. Un cambio cuesta **5.000 Thulium** y la mitad de tu honor (redondeada hacia abajo; un honor de 0 o menos se queda como está). Tu nave se repara por completo y te trasladas al sector base de tu nueva corporación (`M-1`, `T-1` o `G-1`). Tu clan, tu grupo, tus naves, tus objetos y tu Skylab siguen como estaban, y tus misiones continúan: sus oficiales son ahora los de tu nueva corporación, y una tarea `rival x-4` se refiere a los sectores fronterizos de las otras dos corporaciones (consulta [Misiones](/wiki/03-Mechanics/Quests.md#where-it-counts)). No puedes cambiar de corporación mientras tu nave está en vuelo: atraca primero.
 
 ## Jugar con amigos {#playing-with-friends}
 
@@ -87,3 +91,4 @@ Cuando algo va mal, una línea bajo los números dice de quién es la culpa: *Re
 3. **Tu primera habilidad**: tu equipo inicial ya tiene un Repair Drone I instalado en la ranura de habilidad de la Protos, así que el botón de Emergency Repair (`E`, junto a la barra rápida) repara tu casco durante diez segundos siempre que esté dañado. Consulta [Habilidades](/wiki/03-Mechanics/Abilities.md).
 4. **Impuestos diarios de facción**: Si eres miembro de un clan, ten en cuenta que el tesoro del clan descuenta un porcentaje de impuesto (del 0 % al 5 %) de tu saldo diario de créditos a medianoche UTC. ¡Asegúrate de elegir bien tu clan!
 5. **Copiar desde la wiki**: arrastra el ratón sobre cualquier texto de un artículo para seleccionarlo y pulsa `Ctrl+C` (`Cmd+C` en un Mac) para copiarlo; un clic en un enlace sigue abriendo la página. **Copiar página**, arriba en cada artículo, copia la página entera como Markdown, para pegarla en un chat o una nota.
+6. **Investiga antes de fabricar**: Ensamblaje solo fabrica lo que el Centro de investigación de tu [Skylab](/wiki/03-Mechanics/Skylab.md) ha investigado. Se abre con el Núcleo de nivel 10, y la página [Investigación](/wiki/03-Mechanics/Research.md) tiene las tecnologías, sus tiempos y el combustible.

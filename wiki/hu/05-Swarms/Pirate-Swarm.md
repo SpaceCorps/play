@@ -18,7 +18,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **Gyógyítás**: Minden Pirate Scout, amely a vezértől 600 egységen belül van, gyógyítja a hajótestét, Alphában másodpercenként 40 HP-t
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 1 perc múlva eltűnnek, kivéve ha éppen támadnak
 - **Visszatér**: 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
-- **Értesítés**: A szektor chatje megmondja, mikor jelenik meg a vezér, és mikor semmisül meg. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
+- **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 | Lézer hatótávja | – | – | – |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
-| Kredit | 116 000 | 232 000 | 348 000 |
+| Kredit | 145 000 | 290 000 | 435 000 |
 | Thulium | 725 | 1 450 | 2 175 |
 | Tapasztalat (XP) | 29 000 | 58 000 | 87 000 |
 | Becsület | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Alapja: Kitefin, hajótestének, pajzsának és sebzésének 50%-a; a sebessége
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | 700 | 700 | 700 |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 40 | 60 | 80 |
-| Kredit | 800 | 1 600 | 2 400 |
+| Kredit | 1 000 | 2 000 | 3 000 |
 | Thulium | 4 | 8 | 12 |
 | Tapasztalat (XP) | 100 | 200 | 300 |
 | Becsület | 2 | 4 | 6 |

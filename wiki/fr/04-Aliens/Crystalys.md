@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Le Crystalys est une entité alien massive de classe cuirassé. En croiser un es
 
 ## Récompenses {#rewards}
 
-- **Crédits** : 60 000
+- **Crédits** : 75 000
 - **Thulium** : 200
 - **Expérience (XP)** : 12 000
 - **Honneur** : 52

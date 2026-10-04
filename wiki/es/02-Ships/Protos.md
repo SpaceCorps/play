@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9e477b2e27250897 -->
+<!-- wiki-i18n source: 0105c89d1cbd6996 -->
 <!-- wiki-i18n title: Protos -->
 # Protos {#protos}
 
@@ -23,6 +23,16 @@ La Protos es la nave inicial básica que reciben todos los pilotos nuevos de Spa
 
 - **Créditos**: 0 (Nave inicial)
 - **Thulium**: 0
+
+## Investigación {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **No hace falta investigar.** Esta nave no tiene tecnología propia.
+- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Historia {#lore}
 

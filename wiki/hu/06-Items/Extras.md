@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n source: 2b63df451b6a864e -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
-Az extrák a hajó **extrafoglalataiban** lévő kütyük (minden hajón három van, konfigurációnként). A gyorssáv Extrák menüjéből vagy egy általad hozzájuk rendelt gyorssáv-helyről kapcsolhatod be őket. Csak abban a konfigurációban működnek, amellyel repülsz: ha a másik konfigurációba szerelsz fel egyet, az megvárja, amíg váltasz.
+Az extrák a hajó **extrafoglalataiban** lévő kütyük (minden hajón három van, konfigurációnként, és több az Extra Slots CPU-kkal). A gyorssáv Extrák menüjéből vagy egy általad hozzájuk rendelt gyorssáv-helyről kapcsolhatod be őket. Csak abban a konfigurációban működnek, amellyel repülsz: ha a másik konfigurációba szerelsz fel egyet, az megvárja, amíg váltasz.
 
 | Extra | Mit csinál | Használatok | Ár |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,44 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (minden hajón három 
 
 A Cloaking CPU-kat és az EMP Charge-ot csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen.
 
+Hét további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, valamint az Auto-Repair CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül.
+
+Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **EMP** az EMP Charge-hoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. Az Extra Slots CPU-knak nincs helyük: a Skylabodba települnek. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Tárgyfa {#item-tree}
+
+Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
+
 ## Repair Drone-ok {#repair-drones}
 
-Kapcsolj be egy Repair Drone-t (REP), és az javítja a hajótestet, amíg tele nem lesz. Csak akkor indul el, ha 10 másodperce nem ért találat, és minden találat kikapcsolja. Ha többet is felszereltél, a legjobb működik. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak.
+Kapcsolj be egy Repair Drone-t (REP), és az javítja a hajótestet, amíg tele nem lesz. Csak akkor indul el, ha 10 másodperce nem ért találat, és minden találat kikapcsolja. Ha többet is felszereltél, a legjobb működik. Egy [Auto-Repair CPU](#auto-repair-cpu) újra bekapcsolja helyetted. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak.
 
 ## Cloaking CPU {#cloaking-cpu}
 
@@ -49,3 +84,55 @@ Harc közben nyomd meg az EMP foglalatot. **3 másodpercig** senki sem vehet cé
 - Az az idegen, amelyet a 3 másodperc alatt eltalálsz, csak a vége után fordul ellened. A kilövési foglalásaid és az első találat szabályai nem változnak.
 - **Mit látsz.** A meghajlított tér hulláma száguld ki a pilótából addig, ameddig az impulzus az álcázásokat megszünteti (1 500 egység), mindenki látja, aki hatótávon belül van, és a 3 másodpercig egy sercegő elektromos burok veszi körül, a saját hajód körül egy gyűrűvel és a képernyő tetején egy címkével, amelyek számolják az időt. Mindenkinek, aki téged jelölt ki, szétesik a célzógyűrűje, egy rövid sercenéssel. Az EMP foglalat a birtokolt töltetek számát mutatja, kéken világít, amíg a burok él, és elsötétül, amíg tölt.
 - **Egy töltet, egy használat.** A foglalatot a leltáradból töltik újra, ha több is van nálad. A **30 másodperces** töltődés nem mentődik: a kijelentkezés vagy a portálon át ugrás törli, a következő impulzus pedig egy töltetbe kerül.
+
+## A Kutatóközpont CPU-i {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | Kutatási idő | Előbb kell hozzá | Thulium a gyártáshoz | Gyártási idő |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 perc | – | 12 000 | 5 perc |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 óra | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 000 | 10 perc |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 nap | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75 000 | 15 perc |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 óra | – | 8 000 | 5 perc |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 óra | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20 000 | 10 perc |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 nap | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 perc |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 óra | – | 15 000 | 10 perc |
+
+Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **Mit tudnak.** Az Extra Slots CPU I, II és III minden hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot az eleve meglévő 3 mellé. A magasabb CPU lecseréli az előzőt: a II nem adódik hozzá az I-hez.
+- **Telepítve, nem hordva.** Az Extra Slots CPU nem tárgy: ha a Gyártásban átveszed, magától települ a Skylabodba, minden hajóra mindkét konfigurációban, és nem foglal el foglalatot. A wipe után is megmarad.
+- **Sorrendben.** Egymás után gyárts: a II csak akkor, ha az I telepítve van, a III csak akkor, ha a II telepítve van; addig a Gyártás megmondja, melyiket telepítsd előbb. A három együtt 117 000 Thuliumba kerül: 12 000, 30 000 és 75 000.
+
+### Jump CPU {#jump-cpu}
+
+- **Mit tud.** A hajódat a világod bármelyik vállalati szektorába ugrasztja, a saját vállalatodéba és a többiekébe is, a bázisszektorokat is beleértve (`M`, `T` és `G`, 1–4. szektor), ugrásonként **500 Thuliumért**. A használatok száma nem korlátozott: csak a Thuliumot fizeted. Veszélyes szektorba (`DS`) és semleges szektorba (`N`) sosem visz.
+- **Az ugrás.** Nyomd meg a JMP helyet, válaszd ki a szektort a Csillagrendszer térképén, és erősítsd meg: a hajó 5 másodpercig töltődik, majd megérkezik a szektor egyik kapujához, védve, mint bármelyik kapuugrás után. Érkezés után a CPU 30 másodpercig hűl.
+- **Nem harcban.** Nem indítható lövés vagy találat után 10 másodpercen belül, és a töltés közbeni lövés vagy találat megszakítja az ugrást; ilyenkor nem kell fizetni. Álcázva nem ugorhatsz.
+- **Semleges szektorból nem:** a semleges szektorban lévő vagy vállalat nélküli pilóta nem használhatja.
+- Veszélyes szektorból elhagyható, ha nem vagy harcban.
+
+### Base CPUs {#base-cpus}
+
+- **Mit tudnak.** A hajódat a vállalatod bázisára teleportálják, az állomás körüli biztonságos zónába (`M-1`, `T-1` vagy `G-1`, a Mission Control szektora), Thulium nélkül. A gyorssáv BSE helyéről indítod őket.
+- **Nem harcban.** 10 másodperces töltés, mindkettőnél ugyanaz. Nem indítható lövés vagy találat után 10 másodpercen belül, álcázva vagy ha már a bázisod biztonságos zónájában vagy, és a töltés közbeni lövés vagy találat megszakítja.
+
+| CPU | Használat | Hűlési idő |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 perc |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 perc |
+
+- **Elfogy, nem töltődik újra.** Minden használat elvesz egyet a CPU használataiból, és a használat nélkül maradt CPU eltűnik: készíts újat. Ha mindkettő fel van szerelve, előbb a jobbik (II) fogy.
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **Mit tud.** Magától kiküldi az extrafoglalataidban lévő Repair Dronet, valahányszor kézzel is kiküldhetted volna: a hajótested nincs tele, a drón nincs kint, és az utolsó találat óta eltelt 10 másodperc. Nincs beállítandó hajótest-szint.
+- Saját extrafoglalatot foglal el, és nem csinál semmit Repair Drone nélkül ugyanannak a konfigurációnak egy extrafoglalatában. Képességfoglalatban lévő Repair Dronet sosem küld ki (az az Emergency Repair gomb).
+- **Ha kézzel megállítod a drónt,** a CPU nem nyúl hozzá, amíg a hajótested újra tele nem lesz, vagy amíg te magad ki nem küldöd a drónt.
+
+
+<!-- research-cpus:end -->

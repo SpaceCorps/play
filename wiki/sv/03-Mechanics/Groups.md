@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74abe792046ae603 -->
+<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -10,7 +10,7 @@ En grupp är upp till **5 piloter** som flyger tillsammans, från vilka koncerne
 - Piloten ser ett kort med **Acceptera** och **Avböj**, som räknar ned de **60 sekunder** piloten har på sig att svara, och ett meddelande. **Y** accepterar och **Escape** avböjer (ett textfält som används, eller ett fönster som är öppet ovanpå, behåller tangenterna). Om flera inbjudningar väntar tar kortet dem i tur och ordning. Det visas även på stationen. När tiden är ute förfaller inbjudan och du får veta vilken. Du kan inte bjuda in en pilot som redan är med i en grupp, som har slagit på **Stör ej**, eller som har för många inbjudningar som väntar, och du kan skicka högst 10 inbjudningar per minut (3 till andra koncerner).
 - **Stör ej** stänger av inbjudningar: klockan i gruppfönstrets titelrad, eller Inställningar › Allmänt › Grupper. Ingen kan bjuda in dig medan det är på, och du blir inte tillfrågad.
 - Den vars inbjudan accepteras först blir **ledare**. Ledaren bjuder in, tar bort medlemmar och gör en annan medlem till ledare. Vem som helst kan lämna. En grupp med en enda pilot upphör av sig själv. När ledaren lämnar leder den medlem som har varit med i gruppen längst.
-- Du är med i **en grupp i taget**. Att byta koncern tar dig inte ur din grupp (du visas under din nya koncern); säsongens wipe gör det.
+- Du är med i **en grupp i taget**. [Att byta koncern](/wiki/01-General/Getting-Started.md#changing-your-company) tar dig inte ur din grupp (du visas under din nya koncern); säsongens wipe gör det.
 - Om din anslutning bryts, eller du dockar och flyger ut igen, behålls din plats i **2 minuter**. En medlem som är borta längre än så tas bort. En serveruppdatering avslutar alla grupper: bjud in varandra igen.
 
 ## Se din grupp {#seeing-your-group}
@@ -43,7 +43,7 @@ En nedskjutning räknas också för **nedskjutningsuppdragen** hos varje annan m
 
 ## Chattkanaler {#chat-channels}
 
-Chatten har en rad med flikar överst: **Global**, **Lokal** och, medan du är med i en grupp, **Grupp**. Raden du skriver går till fliken som visas, och den flik du senast använde sparas. Varje kanal har sin färg och en kort tagg på varje rad (GLB, LOK, GRP), en flik räknar de rader du inte har läst, och chattens knapp i verktygsfältet visar antalet medan fönstret är stängt. Serverns egna rader visas i alla flikar. Eller börja en rad med ett kommando:
+Chatten har en rad med flikar överst: **Global**, **Lokal**, **Grupp** (medan du är med i en grupp) och sist **System**. Raden du skriver går till fliken som visas, och den flik du senast använde sparas. Varje kanal har sin färg och en kort tagg på varje rad (GLB, LOK, GRP), en flik räknar de rader du inte har läst, och chattens knapp i verktygsfältet visar antalet medan fönstret är stängt. Eller börja en rad med ett kommando:
 
 | Kanal | Vem som hör den | Kommando |
 | :--- | :--- | :--- |
@@ -51,7 +51,25 @@ Chatten har en rad med flikar överst: **Global**, **Lokal** och, medan du är m
 | **Global** | alla piloter online | `/g` eller `/global` |
 | **Grupp** | din grupp, var den än är | `/p`, `/party` eller `/group` |
 
-Ett kommando byter också flik, och skrivet ensamt (`/g`) byter det bara flik. Global har en gräns: 3 rader i en skur, sedan en var 2:a sekund. Gruppchatten kräver en grupp. På en spelserver från före kanalerna är chatten den enda lista den var, och en grupp kan inte bildas.
+Ett kommando byter också flik, och skrivet ensamt (`/g`) byter det bara flik. Gruppchatten kräver en grupp. På en spelserver från före kanalerna är chatten den enda lista den var, och en grupp kan inte bildas.
+
+Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamnar det servern säger av sig själv (välkomsten, varningarna för omstart, uppdatering och wipe, svärmmeddelandena) och det ditt skepp rapporterar (reparationer, kamouflage, EMP, raketer). De raderna finns i ingen annan flik, så en livlig Global kan inte tränga undan dem, och de andra flikarna innehåller det piloter säger. Flikens räknare gäller bara meddelandena; en nedräkning till omstart eller uppdatering och wipe-varningarna dyker dessutom upp en kort stund på skärmen. [Dödsloggen](#the-kill-feed) stannar i **Global**, med sin egen knapp, och raderna om piloter som går med i din grupp eller lämnar den finns i **Grupp**.
+
+### Skriva {#typing}
+
+**Enter** öppnar chatten och ger den tangentbordet. Skicka en rad med **Enter** så behåller fältet tangentbordet, och nästa rad kan följa direkt; så länge det gör det är snabbfältet och förmågetangenterna avstängda. Skrivandet tar slut när du trycker **Escape**, trycker **Enter** utan att ha skrivit något, klickar på kartan med vänster musknapp (samma klick styr fortfarande ditt skepp), låter fältet vara tomt och inte trycker på någon tangent i 15 sekunder eller ditt skepp förstörs. På fliken System, där du inte kan skriva, tar **Enter** dig tillbaka till den kanal du skrev i senast.
+
+### Chattreglerna {#the-chat-rules}
+
+Servern prövar varje rad mot några regler, desamma i Lokal, Global och Grupp. En rad som den avvisar skickas inte, orsaken visas några sekunder under inmatningsfältet och din text kommer tillbaka i fältet.
+
+- **En gräns för hur fort du skickar.** Du kan skicka **5 rader** på en gång, sedan **en rad till var 2:a sekund**, räknat tillsammans för Lokal, Global och Grupp. Skickar du en rad när ingen är kvar pausas chatten för dig: **10 sekunder** första gången, sedan **30**, **120** och **300 sekunder** vid varje upprepning inom 10 minuter efter den senaste pausen (efter 10 minuter utan paus börjar räkningen om). Medan pausen varar är knappen Skicka grå och ”Chatten pausad: 7 s” räknar ned under fältet. **Texten du skrev ligger kvar i fältet** och fältet behåller tangentbordet: vänta eller tryck **Escape**. Ett vanligt samtal når aldrig gränsen. En rad som reglerna avvisar räknas som 2 rader av ditt utrymme.
+- **200 tecken** per rad. En räknare (”150/200”) visas från 120 tecken, och en längre rad kapas.
+- **Bara latinska bokstäver.** Bokstäverna i de latinska alfabeten med sina accenter (é, ß, ñ, ø, ő), siffror, vanliga skiljetecken och tecknen ¡ ¿ « » ° £ €. Kyrilliska, kinesiska, japanska, koreanska, emojier och andra symboler avvisas, och fältet tar bort dem medan du skriver eller klistrar in.
+- **Inga länkar.** En rad med en webbadress, en inbjudningslänk eller en e-postadress avvisas, även när den är förklädd på de vanliga sätten. Bara ord är inga problem: ”join my discord” går iväg.
+- **Inga upprepningar.** Samma rad som din senaste, skickad igen inom 10 sekunder, avvisas, liksom en rad med samma tecken fler än 8 gånger i rad eller utan någon bokstav eller siffra.
+
+Admins omfattas inte av reglerna, utom av de 200 tecknen. Reglerna kräver en spelserver från 0.4.9; en äldre begränsar bara Global, till 3 rader på en gång och sedan en var 2:a sekund.
 
 ### Dödsloggen {#the-kill-feed}
 
@@ -69,7 +87,7 @@ Global når alla piloter online, så chatten har tre verktyg för att hålla den
 - **Ignorera** (högerklicka på ett namn, sedan **Ignorera**): den pilotens rader i Global och Lokal döljs, och dess gruppinbjudningar avvisas utan att du tillfrågas. Piloten får inte veta det. De förblir synliga i fliken **Grupp**: en gruppmedlem du ignorerar är fortfarande med i din grupp, så lämna gruppen för att bli av med dem. Serverns egna rader döljs aldrig. **Sluta ignorera** finns i samma meny, och **Inställningar › Gränssnitt › Chatt** listar de ignorerade piloterna (upp till 200) med en knapp **Ta bort** för var och en.
 - **Rapportera** (högerklicka på ett namn, sedan **Rapportera…**): välj en orsak (spam, kränkningar eller trakasserier, fusk eller något annat) och skicka. Rapporten innehåller ditt namn, pilotens namn, kanalen, orsaken och pilotens senaste rad som din chatt visar (upp till 200 tecken). Spelets administratörer läser den; ingen straffas automatiskt, och piloten får inte veta vem som rapporterade. Du kan skicka 5 rapporter i timmen.
 
-Din ignoreringslista och reglaget Dölj Global sparas med ditt konto, så de följer med dig till andra datorer. Spelet har inget ordfilter och inga automatiska tystningar: verktygen ovan är dina att använda.
+Din ignoreringslista och reglaget Dölj Global sparas med ditt konto, så de följer med dig till andra datorer. Spelet har inget ordfilter och tystar ingen för det den säger: pausen för för snabbt skickande ([Chattreglerna](#the-chat-rules)) är dess enda automatiska stopp, och verktygen ovan är dina att använda.
 
 ## Stridsregler {#rules-of-engagement}
 

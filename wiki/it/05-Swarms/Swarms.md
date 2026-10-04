@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cddca2909be3ca44 -->
+<!-- wiki-i18n source: bbd76eb145ce6188 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -56,7 +56,7 @@ Il mondo scala uno sciame come scala ogni alieno ([Mondi](/wiki/03-Mechanics/Wip
 
 ## Cosa vengono a sapere i piloti {#what-the-pilots-are-told}
 
-Gli sciami Seeker e Pirate avvisano nella chat i piloti del loro settore quando compare un boss e quando viene distrutto. Lo sciame Dormant avvisa tutto il suo mondo, ed è segnato sulle mappe dei settori pericolosi e sulla mappa galattica, così i piloti possono trovarlo. L’abbattimento di un boss ha anche una riga nel kill feed, che nomina il pilota a cui viene accreditato. L’elenco *In breve* di ogni articolo dice chi viene avvisato.
+Gli sciami Seeker e Pirate avvisano i piloti del loro settore quando compare un boss e quando viene distrutto. Lo sciame Dormant avvisa tutto il suo mondo, ed è segnato sulle mappe dei settori pericolosi e sulla mappa galattica, così i piloti possono trovarlo. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. L’abbattimento di un boss ha anche una riga nel kill feed, che nomina il pilota a cui viene accreditato. L’elenco *In breve* di ogni articolo dice chi viene avvisato.
 
 ## Combattere uno sciame {#fighting-a-swarm}
 

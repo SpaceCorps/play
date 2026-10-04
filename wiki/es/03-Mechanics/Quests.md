@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 500bc358b49f4250 -->
+<!-- wiki-i18n source: 566c408a761e44cb -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
-Las misiones son la forma principal de subir de nivel. Las reparte Mission Control: cada misión te la encarga un oficial de tu propia corporación, y cada una paga experiencia, créditos, Thulium y honor cuando la reclamas. Hay **88 misiones para los niveles 1 a 8**, once por nivel, y juntas te llevan de una Protos recién estrenada a la primera línea del centro PvP. Otras diez **misiones de la estación** te enseñan el [Skylab](/wiki/03-Mechanics/Skylab.md) y te pagan por ir levantándolo.
+Las misiones son la forma principal de subir de nivel. Las reparte Mission Control: cada misión te la encarga un oficial de tu propia corporación (si [cambias de corporación](/wiki/01-General/Getting-Started.md#changing-your-company), los oficiales pasan a ser los de tu nueva corporación y las tareas `rival x-4` la siguen), y cada una paga experiencia, créditos, Thulium y honor cuando la reclamas. Hay **88 misiones para los niveles 1 a 8**, once por nivel, y juntas te llevan de una Protos recién estrenada a la primera línea del centro PvP. Otras diez **misiones de la estación** te enseñan el [Skylab](/wiki/03-Mechanics/Skylab.md) y te pagan por ir levantándolo.
 
 ---
 
@@ -32,7 +32,7 @@ Las misiones son la forma principal de subir de nivel. Las reparte Mission Contr
 - Diez misiones sobre tu [Skylab](/wiki/03-Mechanics/Skylab.md), en una sección **Estación** en la parte superior de la página de misiones. La primera, **Luz para la estación**, está abierta desde el nivel 1 y te dice dónde está el Skylab: Menú, Economía, Skylab. La fila del Skylab en el menú de la estación palpita hasta que aceptas la misión o construyes Solar.
 - Se aceptan, se siguen, se abandonan y se reclaman como cualquier misión, pero no cuentan entre las 5: puedes llevar **3 misiones de la estación a la vez** además de tus otras 5. Una misión de la estación puede esperar horas a que terminen los temporizadores de mejora y nunca retrasa una misión de combate.
 - Aceptar una misión de la estación no cambia la misión que sigues cuando tienes una que el vuelo puede hacer avanzar: la ventana Misiones activas sigue mostrando tu misión de combate, y la misión de la estación es un punto en su barra de título (pasa el cursor por él para ver su progreso, haz clic para mostrarla).
-- Cada una se abre en su propio **nivel de piloto** y después de las misiones de la estación a las que sigue (reclamadas antes): una tarjeta bloqueada dice cuáles. Las tres primeras se abren en el nivel 1.
+- Cada una se abre en su propio **nivel de piloto** y después de las misiones de la estación a las que sigue (reclamadas antes): una tarjeta bloqueada dice cuáles. Las tres primeras se abren en el nivel 1. La última, **Core Ten**, sube el Núcleo al nivel 10, el nivel que abre el [Centro de investigación](/wiki/03-Mechanics/Research.md) del Skylab.
 - Sus tareas leen tu Skylab: **construir** un módulo o **subirlo a un nivel** (se cumple mientras el módulo esté en ese nivel o en uno superior; ningún módulo pasa de tu Núcleo, así que un objetivo de Solar puede pedir subir antes el Núcleo) y **recoger** créditos de la Granja de créditos (se cuenta desde el momento en que aceptas la misión, con el botón Recoger recursos). Una misión cuyas tareas se cumplen todas a la vez queda hecha: una que ya cumples al aceptarla queda hecha al instante.
 - Pagan **exactamente lo que dice la tabla**: sin multiplicador de mundo, sin potenciadores, sin experiencia Premium, sin objetos. Su experiencia se suma al 85 % que pagan las misiones de los niveles (como máximo el 5 % de la experiencia que separa un nivel del siguiente).
 - Las misiones de la estación no cuentan para los [puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md) por misiones hechas. Sobreviven al reinicio como cualquier misión, y también lo que construiste.

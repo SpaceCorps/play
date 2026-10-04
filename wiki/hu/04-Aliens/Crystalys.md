@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ A Crystalys hatalmas, csatahajó-osztályú idegen entitás. Találkozni vele re
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 60 000
+- **Kredit**: 75 000
 - **Thulium**: 200
 - **Tapasztalat (XP)**: 12 000
 - **Becsület**: 52

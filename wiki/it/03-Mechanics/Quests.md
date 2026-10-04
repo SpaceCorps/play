@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 500bc358b49f4250 -->
+<!-- wiki-i18n source: 566c408a761e44cb -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
-Le missioni sono il modo principale per salire di livello. Le assegna Mission Control: ogni missione viene da un ufficiale della tua corporazione, e ognuna paga esperienza, crediti, Thulium e onore quando la riscuoti. Ci sono **88 missioni per i livelli da 1 a 8**, undici per livello, e insieme ti portano da una Protos appena uscita dall’hangar alla prima linea del centro PvP. Altre dieci **missioni Stazione** ti insegnano lo [Skylab](/wiki/03-Mechanics/Skylab.md) e ti pagano per costruirlo e potenziarlo.
+Le missioni sono il modo principale per salire di livello. Le assegna Mission Control: ogni missione viene da un ufficiale della tua corporazione (se [cambi corporazione](/wiki/01-General/Getting-Started.md#changing-your-company), gli ufficiali diventano quelli della tua nuova corporazione e i compiti `rival x-4` la seguono), e ognuna paga esperienza, crediti, Thulium e onore quando la riscuoti. Ci sono **88 missioni per i livelli da 1 a 8**, undici per livello, e insieme ti portano da una Protos appena uscita dall’hangar alla prima linea del centro PvP. Altre dieci **missioni Stazione** ti insegnano lo [Skylab](/wiki/03-Mechanics/Skylab.md) e ti pagano per costruirlo e potenziarlo.
 
 ---
 
@@ -32,7 +32,7 @@ Le missioni sono il modo principale per salire di livello. Le assegna Mission Co
 - Dieci missioni sul tuo [Skylab](/wiki/03-Mechanics/Skylab.md), in una sezione **Stazione** in cima alla pagina Missioni. La prima, **Luce alla stazione**, è aperta dal livello 1 e ti dice dove si trova lo Skylab: Menu, Economia, Skylab. La riga Skylab del menu della stazione pulsa finché non hai accettato la missione o non hai costruito il Solare.
 - Si accettano, si seguono, si abbandonano e si riscuotono come ogni missione, ma non contano nei 5: puoi portare avanti **3 missioni Stazione alla volta** oltre alle altre 5. Una missione Stazione può aspettare ore di timer di potenziamento senza mai bloccare una missione di combattimento.
 - Accettare una missione Stazione non cambia la missione che stai seguendo quando ne hai una che il volo può far avanzare: la finestra Missioni attive continua a mostrare la tua missione di combattimento, e la missione Stazione è un punto nella sua barra del titolo (passaci sopra il puntatore per vederne i progressi, cliccalo per mostrarla).
-- Ognuna si apre al proprio **livello da pilota** e dopo le missioni Stazione che la precedono (da riscuotere prima): una scheda bloccata dice quali. Le prime tre si aprono al livello 1.
+- Ognuna si apre al proprio **livello da pilota** e dopo le missioni Stazione che la precedono (da riscuotere prima): una scheda bloccata dice quali. Le prime tre si aprono al livello 1. L’ultima, **Core Ten**, porta il Nucleo al livello 10, il livello che apre il [Centro ricerche](/wiki/03-Mechanics/Research.md) dello Skylab.
 - I loro compiti leggono il tuo Skylab: **costruire** un modulo o **portarlo a un livello** (completato finché il modulo è a quel livello o oltre; nessun modulo supera il tuo Nucleo, quindi un obiettivo per Solare può chiedere di portare prima su il Nucleo) e **raccogliere** crediti dalla Fattoria crediti (contati dal momento in cui accetti la missione, con il pulsante Raccogli risorse). Una missione i cui compiti sono tutti veri insieme è completata: una che soddisfi già quando la accetti è completata subito.
 - Pagano **esattamente ciò che dice la tabella**: nessun moltiplicatore del mondo, nessun booster, nessuna esperienza premium, nessun oggetto. La loro esperienza si aggiunge all’85% pagato dalle missioni dei livelli (al massimo il 5% della distanza tra un livello e il successivo).
 - Le missioni Stazione non contano per i [punti reset](/wiki/03-Mechanics/Wipe-Timeline.md) delle missioni completate. Sopravvivono al reset come ogni missione, e lo stesso vale per ciò che hai costruito.

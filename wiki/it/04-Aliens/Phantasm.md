@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ I Phantasm sono droni aggressivi di classe spettrale. Attaccano qualsiasi giocat
 
 ## Ricompense {#rewards}
 
-- **Crediti**: 2.400
+- **Crediti**: 3.000
 - **Thulium**: 12
 - **Esperienza (XP)**: 300
 - **Onore**: 6

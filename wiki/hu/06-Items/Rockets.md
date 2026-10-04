@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
 A rakéták a lézereid mellett egy második fegyver: néhány másodpercenként egy lövés, amely sokkal erősebben üt, mint egy lézersortűz. Tizenkét rakéta négy fajtában, fajtánként három fokozattal, plusz kettő, amelyet csak a Gyártás állít elő, és **egyetlen, 5 másodperces töltési időzítő, amelyen mindegyik osztozik**, bármelyiket lősd is ki. A Gyakori és a Ritka rakéták **kreditért** vehetők; a négy Epikus rakéta **Thuliumért**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Tárgyfa {#item-tree}
+
+Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## A négy fajta {#the-four-kinds}
 
@@ -64,7 +94,7 @@ Hány rakéta kell egy idegen megsemmisítéséhez, egyszerre egyféle rakétáv
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - A **Gyakori** egy célpontú rakéták bármely sorsolásnál egy találattal megsemmisítenek egy Seekert, három találattal egy Phantasmot (egy Lancet I-nek a legalacsonyabb sorsolásánál negyedik is kell); ezek az első szektorok mindennapi rakétái. A **Ritkák** a Bulwarkhoz és a Goombah-hoz valók: nyolc Lancet II körülbelül 35 másodpercnyi időzítő alatt elintéz egy Bulwarkot. Az **Epikusok** bármely sorsolásnál egy találattal megsemmisítenek egy Phantasmot, és kilenc–tizenegy találattal egy Goombah-ot. A robbanások akkor érik meg az áruk, ha több idegen van közel egymáshoz: egy öt Phantasmból álló raj fölött felrobbanó Scatter III egyetlen lövéssel körülbelül 18 000 sebzést okoz a rajban.
-- A kizárólag rakétákkal végzett kilövés valódi kiadás, nem a meggazdagodás útja: arra az idegenre, amelyre szánták, egy egy célpontú rakéta a kilövés jutalmának egyhatodától öthatodáig terjedő összegbe kerül (kreditben, a Thuliumot 200 kreditnek számolva darabonként), a gyenge rakéták az erős idegeneken pedig többe kerülnek, mint amennyit a kilövés fizet. A **Crystalyst** egyetlen rakétafajtával megsemmisíteni 62–399 rakétát és legalább öt percnyi időzítőt igényel; egy 500 darabos teli köteg Epikus rakéta négy–nyolc ilyen megsemmisítéséhez elég. A legerősebb idegenhez terv kell: a lézereid x2 lőszerrel, az első másodperctől minden 5 másodpercben egy közepes fokozatú rakéta, és az alább leírt nagy rakéták löketként.
+- A kizárólag rakétákkal végzett kilövés valódi kiadás, nem a meggazdagodás útja: arra az idegenre, amelyre szánták, egy egy célpontú rakéta a kilövés jutalmának nagyjából egyhetedétől háromnegyedéig terjedő összegbe kerül (kreditben, a Thuliumot 200 kreditnek számolva darabonként), a gyenge rakéták az erős idegeneken pedig többe kerülnek, mint amennyit a kilövés fizet. A **Crystalyst** egyetlen rakétafajtával megsemmisíteni 62–399 rakétát és legalább öt percnyi időzítőt igényel; egy 500 darabos teli köteg Epikus rakéta négy–nyolc ilyen megsemmisítéséhez elég. A legerősebb idegenhez terv kell: a lézereid x2 lőszerrel, az első másodperctől minden 5 másodpercben egy közepes fokozatú rakéta, és az alább leírt nagy rakéták löketként.
 - A kilövés jutalma ugyanannyi, bárhogyan hajtották végre (a legnagyobbat lásd a [Crystalys](/wiki/04-Aliens/Crystalys.md) oldalon), így egy rakétás kilövés akkor éri meg, ha időt takarít meg, és kevesebbe kerül, mint amennyit fizet.
 - **Az idegenek is lőnek rakétákat.** A [rajok](/wiki/05-Swarms/Swarms.md) Pirate Bossa, Dormant Force-a és Pulse-ai egyenes Rivet-rakétákat lőnek arra a pilótára, aki megtámadta őket, ugyanazzal az 5 másodperces időzítővel. A folyamatosan mozgó hajó kitér előlük. A rajok bossai a ládáikban rakétákat is ejtenek.
 

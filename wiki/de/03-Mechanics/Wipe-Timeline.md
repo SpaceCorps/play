@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ Für zusätzliche Gegenstände in deinem Inventar, die du retten willst (z. B. E
   * *Ressourcen / Mineralien*: je nach Seltenheit unterschiedliche Gewichte (eine Reinforced Plate aus der Schmiede des Skylab wiegt 5 kg)
   * *Raketen*: gar kein Gewicht: Sie nehmen im Cache keinen Platz ein, ganze Stapel passen also hinein (siehe [Raketen](/wiki/06-Items/Rockets.md))
 
-Dein [Skylab](/wiki/03-Mechanics/Skylab.md) ist vom Wipe nie betroffen: Seine Module behalten ihre Level, und das Ressourcenlager behält sein eingelagertes Erz. Was du schon abgeholt hast, bleibt dagegen nicht erhalten: Platten in deinem Inventar sind Gegenstände wie alle anderen, eine Platte, die du behalten willst, muss also im Transport-Cache liegen.
+Dein [Skylab](/wiki/03-Mechanics/Skylab.md) ist vom Wipe nie betroffen: Seine Module behalten ihre Level, und das Ressourcenlager behält sein eingelagertes Erz. Auch das Forschungszentrum behält alles, was [Forschung](/wiki/03-Mechanics/Research.md) enthält: deine Technologien, die Wissenschaft in seinem Tank, das eingesetzte Dark Matter, eine laufende Forschung und den Boost. Ebenso die Extra Slots CPUs, die du installiert hast, denn sie sind keine Gegenstände. Was du schon abgeholt hast, bleibt dagegen nicht erhalten: Platten in deinem Inventar sind Gegenstände wie alle anderen, eine Platte, die du behalten willst, muss also im Transport-Cache liegen.
 
 ### Bestätigen & sperren {#confirm-lock}
 Vor dem Ende der Saison musst du in der Oberfläche des Materialisators auf **Bestätigen & sperren** klicken.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -50,7 +50,7 @@ Les récompenses d’un alien vont au pilote qui l’a touché en premier, pas �
 - **Revendication** : le premier pilote dont un tir endommage un alien le revendique. Chacun de vos coups renouvelle votre revendication.
 - **La perdre** : si vous ne touchez pas l’alien pendant **10 secondes**, votre revendication expire et le prochain pilote qui le touche le revendique. Votre revendication prend aussi fin quand votre vaisseau est détruit ou que vous quittez la carte (par un portail ou en vous déconnectant), et revenir dans les 10 secondes ne vous la rend pas.
 - **L’élimination** : quand l’alien est détruit, le pilote qui détient sa revendication reçoit tout : crédits, Thulium, XP, honneur, l’élimination pour les quêtes et les points de réinitialisation, et la caisse de [cargaison](/wiki/03-Mechanics/Cargo.md). Un pilote qui achève un alien revendiqué par quelqu’un d’autre ne reçoit rien, et le Journal de jeu le lui dit. Quand votre revendication paie et qu’un autre pilote porte le dernier coup, le Journal de jeu nomme ce pilote et indique que votre revendication vous rapporte.
-- **Points de classement** : l’élimination ajoute aussi des points PvE au classement du pilote qui détient la revendication, d’autant plus que l’alien est coriace : 1 pour un Seeker, 2 pour un Phantasm, 4 pour un Bulwark, 7 pour un Goombah et 16 pour un Crystalys (l’article de chaque alien donne le sien). Ils n’appartiennent qu’à ce pilote : le partage des récompenses d’un groupe ne les comprend pas.
+- **Points de classement** : l’élimination ajoute aussi des points PvE au classement du pilote qui détient la revendication, d’autant plus que l’alien est coriace : 1 pour un Seeker, 2 pour un Phantasm, 4 pour un Bulwark, 7 pour un Goombah et 16 pour un Crystalys (l’article de chaque alien donne le sien). Ils n’appartiennent qu’à ce pilote : le partage des récompenses d’un groupe ne les comprend pas.
 - **Le voir** : quand vous sélectionnez un alien qu’un autre pilote a revendiqué, la fenêtre Cible affiche *Revendiqué par* ce pilote et *Aucune récompense*.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) ne revendiquent jamais un alien, et un alien qu’ils achèvent paie quand même le pilote qui détient sa revendication.
 - Un pilote en [groupe](/wiki/03-Mechanics/Groups.md) partage ce que sa revendication rapporte avec les membres du groupe qui sont proches et qui tirent ; la revendication elle-même n’appartient qu’à lui.
@@ -111,7 +111,7 @@ La base d’origine de chaque faction (cartes X-1) contient des zones sûres.
 - Entrer dans une zone sûre rend votre vaisseau totalement insensible aux dégâts.
 - **Rupture de l’immunité** : attaquer un ennemi vous retire immédiatement l’immunité de la zone sûre, même si vous vous trouvez physiquement à l’intérieur.
 - Un anneau autour de chaque station et de chaque portail vous protège dès que 5 secondes se sont écoulées depuis le dernier coup reçu et 15 depuis votre dernier tir. Tant qu’il vous protège et que vous êtes hors combat, la fenêtre du hangar vous permet de changer de vaisseau sans quitter le jeu : voir [Le hangar en vol](/wiki/03-Mechanics/Hangar.md).
-- Les stations n’existent que dans les bases d’origine (`x-1`). Les secteurs dangereux (`DS-1` à `DS-4`) n’en ont aucune : les anneaux autour des portails y sont les seules zones sûres.
+- Les stations n’existent que dans les bases d’origine (`x-1`). Les secteurs dangereux (`DS-1` à `DS-4`) n’en ont aucune : les anneaux autour des portails y sont les seules zones sûres.
 
 ### 3. Sous le feu dans un secteur dangereux {#3-under-attack-in-a-danger-sector}
 
@@ -134,7 +134,7 @@ Les munitions [Siphon Battery](/wiki/06-Items/Lasers.md) ajoutent aussitôt au v
 
 ### 2. Drones de réparation (réparation de la coque) {#2-repair-drones-hull-repair-}
 
-- **Fonctionnement** : si vous équipez un Repair Drone (dans les extras du hangar), vous l’activez depuis la barre rapide (faites-le glisser depuis le sélecteur Extras sur un emplacement) et il répare votre coque (PV). Le moindre coup reçu le désactive, et il s’arrête quand la coque est pleine.
+- **Fonctionnement** : si vous équipez un Repair Drone (dans les extras du hangar), vous l’activez depuis la barre rapide (faites-le glisser depuis le sélecteur Extras sur un emplacement) et il répare votre coque (PV). Le moindre coup reçu le désactive, et il s’arrête quand la coque est pleine. Avec un [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) installé, vous n’avez pas à le réactiver : il le lance tout seul dès que le délai indiqué plus bas est écoulé, sauf si vous l’avez arrêté à la main.
 - **Taux de réparation** : restaure chaque seconde un pourcentage de vos points de vie maximum (seul le meilleur drone installé compte, ils ne s’additionnent pas) :
   - **Repair Drone I** : 1,5 % des PV max / s
   - **Repair Drone II** : 2,25 % des PV max / s

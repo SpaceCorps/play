@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ Bulwark は重装甲の防衛プラットフォームです。きわめて攻撃
 
 ## 報酬 {#rewards}
 
-- **クレジット**：4,000
+- **クレジット**：5,000
 - **Thulium**：25
 - **経験値（XP）**：800
 - **名誉**：10

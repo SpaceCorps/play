@@ -1,8 +1,23 @@
-<!-- wiki-i18n source: 82df92858fe38c3f -->
+<!-- wiki-i18n source: 0dfda8fd6d9be79d -->
 <!-- wiki-i18n title: ドローン -->
 # ドローン {#drones}
 
 ドローンは、購入または製作できる支援ユニットです。Slave Drone と Master Drone を合わせて、最大**8機**のドローンを同時に有効にできます。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## アイテムツリー {#item-tree}
+
+アセンブリで作れるものは、先にその技術が必要です。アイテムにカーソルを合わせると、研究にかかる時間が分かります。技術ツリー、燃料、ブーストは [研究](/wiki/03-Mechanics/Research.md) を参照してください。
+
+```tree
+Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+
+Slave Drone => Master Drone
+```
+<!-- item-tree:end -->
 
 ## 入手できるドローン {#available-drones}
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n source: 2b63df451b6a864e -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
-附加装置是装在舰船**附加槽位**中的各种小工具（每艘舰船的每套配置各有三个）。你可以从快捷栏的“附加装置”选择器中启用它，或者通过你为它设置的快捷栏槽位启用。它们只在你当前驾驶的配置中生效：装在另一套配置里的，会等到你切换配置后才开始工作。
+附加装置是装在舰船**附加槽位**中的各种小工具（每艘舰船的每套配置各有三个，装上 Extra Slots CPU 后更多）。你可以从快捷栏的“附加装置”选择器中启用它，或者通过你为它设置的快捷栏槽位启用。它们只在你当前驾驶的配置中生效：装在另一套配置里的，会等到你切换配置后才开始工作。
 
 | 附加装置 | 效果 | 次数 | 价格 |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,44 @@
 
 Cloaking CPU 和 EMP Charge 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。
 
+另有七种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II，以及 Auto-Repair CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。
+
+每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，EMP Charge 是 **EMP**，Auto-Repair CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**BSE** 和 **JMP**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## 物品树 {#item-tree}
+
+装配站制造的东西要先有对应的科技；将指针悬停在物品上可看到研究所需的时间。科技树、燃料和加速见 [研究](/wiki/03-Mechanics/Research.md)。
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
+
 ## Repair Drone {#repair-drones}
 
-启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
+启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。[Auto-Repair CPU](#auto-repair-cpu) 会替你再次启用它。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
 
 ## Cloaking CPU {#cloaking-cpu}
 
@@ -49,3 +84,55 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 - 你在这 3 秒内击中的外星人，要等这 3 秒结束后才会转而攻击你。你的击杀归属和首击规则不变。
 - **你会看到什么。** 一道扭曲空间的脉冲从飞行员身上向外扩散，范围与脉冲结束隐形的距离相同（1,500 单位），范围内的所有人都能看到；在这 3 秒内，一层噼啪作响的电弧外壳包裹着舰船，你自己的舰船周围有一个圆环，屏幕顶部也有一个标签，两者都在计时。所有选中你的人，其目标圈会伴着一声短促的电击声碎裂。EMP 槽位显示你拥有的 EMP Charge 数量，外壳存在期间亮起蓝色，充能期间变暗。
 - **一个 EMP Charge，一次使用。** 如果你拥有更多，槽位会从你的物品栏补充。**30 秒**的充能时间不会保存：退出登录或通过传送门跃迁会将其清零，下一次脉冲会消耗一个 EMP Charge。
+
+## 研究中心的 CPU {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | 研究时间 | 需先研究 | 制造所需 Thulium | 制造时间 |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 分钟 | – | 12,000 | 5 分钟 |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 小时 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30,000 | 10 分钟 |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 天 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75,000 | 15 分钟 |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 小时 | – | 8,000 | 5 分钟 |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 小时 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20,000 | 10 分钟 |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 天 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 分钟 |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 小时 | – | 15,000 | 10 分钟 |
+
+它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **作用。** Extra Slots CPU I、II、III 分别为每艘舰船增加 3、5、7 个附加槽位，加上每艘舰船本来就有的 3 个，总共是 6、8、10 个。更高级的 CPU 会取代前一级：II 不会叠加在 I 之上。
+- **安装，而非携带。** Extra Slots CPU 不是物品：你在装配站领取后，它会自动安装到你的 Skylab，对两套配置下的每艘舰船都生效，并且不占用槽位。重置之后它仍然保留。
+- **按顺序。** 请依次制造：I 安装后才能制造 II，II 安装后才能制造 III；在此之前，装配站会告诉你应先安装哪一个。三个总共需要 117,000 Thulium：12,000、30,000 和 75,000。
+
+### Jump CPU {#jump-cpu}
+
+- **作用。** 把你的舰船跳跃到你所在世界的任意企业星区，无论是你自己企业的还是其他企业的，包括它们的主星区（`M`、`T` 和 `G`，星区 1 到 4），每次跳跃需要 **500 Thulium**。使用次数没有上限：你只需支付 Thulium。它永远不会通向危险星区（`DS`）或中立星区（`N`）。
+- **跳跃。** 按下 JMP 槽位，在星系地图上选择星区并确认，舰船充能 5 秒，然后抵达该星区的一座星门，并像经过任何星门跳跃后一样受到保护。你抵达后，CPU 冷却 30 秒。
+- **战斗中不可用。** 开火或被击中后 10 秒内无法启动，充能期间开火或被击中会取消跳跃；这时不会扣费。隐形时不能跳跃。
+- **不能从中立星区出发：** 身处中立星区或没有企业的飞行员无法使用。
+- 只要你不在战斗中，就可以从危险星区离开。
+
+### Base CPUs {#base-cpus}
+
+- **作用。** 把你的舰船传送到你所属企业的基地，落在空间站周围的安全区内（`M-1`、`T-1` 或 `G-1`，设有 Mission Control 的星区），不需要 Thulium。你从快捷栏的 BSE 槽位启动它们。
+- **战斗中不可用。** 充能 10 秒，两者相同。开火或被击中后 10 秒内、隐形时、或已经在基地的安全区内时都无法启动，充能期间开火或被击中会取消它。
+
+| CPU | 使用次数 | 冷却 |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 分钟 |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 分钟 |
+
+- **用完即止，不会重新充能。** 每次使用会消耗该 CPU 的一次使用次数，次数用完的 CPU 就消失了：请制造新的。两个都装备时，更好的那个（II）先被使用。
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **作用。** 只要你本可以手动放出附加槽位里装备的 Repair Drone，它就会自动放出：船体没有满、无人机还没放出，并且距上次被击中已过 10 秒。无需设置任何船体比例。
+- 它占用一个自己的附加槽位，如果同一配置的附加槽位里没有 Repair Drone，它什么也不做。它从不放出技能槽位里的 Repair Drone（那是 Emergency Repair 按钮）。
+- **如果你手动停下无人机，**CPU 就不再理会它，直到你的船体重新满血，或你自己再次放出无人机。
+
+
+<!-- research-cpus:end -->

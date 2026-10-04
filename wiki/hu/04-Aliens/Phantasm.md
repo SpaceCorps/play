@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ A Phantasm idegenek agresszív, kísértetosztályú drónok. Megtámadnak minde
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 2 400
+- **Kredit**: 3 000
 - **Thulium**: 12
 - **Tapasztalat (XP)**: 300
 - **Becsület**: 6

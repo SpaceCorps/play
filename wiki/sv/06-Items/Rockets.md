@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
 Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekunder som träffar mycket hårdare än en lasersalva. Tolv raketer i fyra typer, tre nivåer vardera, ytterligare två som bara Monteringen tillverkar, och **en omladdningstimer på 5 sekunder som alla delar**, vilken du än avfyrar. De vanliga och sällsynta raketerna köps med **krediter**; de fyra episka raketerna köps med **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Föremålsträd {#item-tree}
+
+Det som Monteringen tillverkar kräver först sin teknologi; håll pekaren över ett föremål för att se hur lång tid forskningen tar. Teknologiträdet, bränslet och boosten: [Forskning](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## De fyra typerna {#the-four-kinds}
 
@@ -64,7 +94,7 @@ Så många raketer krävs för att skjuta ner en utomjording, en raketsort i tag
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - De **vanliga** raketerna med enkelmål skjuter ner en Seeker med en träff vid varje slumptal och en Phantasm med tre (en Lancet I behöver en fjärde vid sitt lägsta); de är vardagsraketerna i de första sektorerna. De **sällsynta** är till för Bulwark och Goombah: åtta Lancet II-raketer tar en Bulwark på ungefär 35 sekunders timer. De **episka** skjuter ner en Phantasm med en träff vid varje slumptal och en Goombah med nio till elva. Explosionerna är värda sitt pris när flera utomjordingar står tätt: en Scatter III som briserar över en flock på fem Phantasm gör ungefär 18 000 skada över flocken i ett enda skott.
-- En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: för den utomjording den är avsedd för kostar en raket med enkelmål en sjättedel till fem sjättedelar av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga raketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger. Att skjuta ner **Crystalys** med bara en sort kräver 62 till 399 raketer och minst fem minuters timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 5:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
+- En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: för den utomjording den är avsedd för kostar en raket med enkelmål ungefär en sjundedel till tre fjärdedelar av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga raketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger. Att skjuta ner **Crystalys** med bara en sort kräver 62 till 399 raketer och minst fem minuters timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 5:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
 - Betalningen för en nedskjutning är densamma hur den än gjordes (se [Crystalys](/wiki/04-Aliens/Crystalys.md) för den största), så en nedskjutning med raket lönar sig när den sparar tid och kostar mindre än den ger.
 - **Även utomjordingar skjuter raketer.** Pirate Boss samt Dormant Force och Pulses i [svärmarna](/wiki/05-Swarms/Swarms.md) skjuter raka Rivet-raketer på piloten som attackerade dem, med samma 5-sekunderstimer. Ett skepp som håller sig i rörelse undviker dem. Svärmarnas bossar tappar också raketer i sina lådor.
 

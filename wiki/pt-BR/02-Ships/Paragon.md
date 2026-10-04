@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ A Paragon é um cruzador de combate pesado, projetado com defesa e ataque equili
 
 - **Créditos**: 0 (Fabricada na Montagem)
 - **Thulium**: 0
+
+## Pesquisa {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Pesquise primeiro.** A Montagem só cria esta nave depois que você pesquisar a tecnologia dela: 6 h de pesquisa. Ela fica na [árvore de Naves](/wiki/03-Mechanics/Research.md#tree-ships) da página [Pesquisa](/wiki/03-Mechanics/Research.md).
+- **Mais slots extras.** As Extra Slots CPU I, II e III, instaladas no seu Skylab, dão a esta nave 3, 5 e 7 slots extras a mais, ou seja, 6, 8 e 10 no total com os 3 que ela já tem. Elas são pesquisadas e criadas como qualquer outro item: veja [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## História {#lore}
 

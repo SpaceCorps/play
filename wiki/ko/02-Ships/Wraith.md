@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 966d5a0c10cc8d2a -->
+<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith {#wraith}
 
@@ -23,6 +23,16 @@ Wraith는 최강의 전함급 함선으로, 비할 데 없는 화력과 막대�
 
 - **크레딧**: 0 (어셈블리에서 제작)
 - **Thulium**: 0
+
+## 연구 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **먼저 연구.** 어셈블리는 이 함선의 기술을 연구한 뒤에야 이 함선을 제작합니다. 연구 시간은 2일이고, 연구 센터에 넣을 Dark Matter 10개가 필요합니다. [연구](/wiki/03-Mechanics/Research.md) 페이지의 [함선 트리](/wiki/03-Mechanics/Research.md#tree-ships)에서 그 기술을 찾을 수 있습니다.
+- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 3개를 더하면 총 6개, 8개, 10개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
+
+<!-- research-ship:end -->
 
 ## 배경 설정 {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97533004d431080c -->
+<!-- wiki-i18n source: 149e34b610132a0e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad {#ironclad}
 
@@ -23,6 +23,16 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 
 - **Crediti**: 0 (Creata nell’Assemblaggio)
 - **Thulium**: 0
+
+## Ricerca {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Prima la ricerca.** L’Assemblaggio crea questa nave solo dopo che hai ricercato la sua tecnologia: 1 g di ricerca e 10 Dark Matter da inserire nel Centro ricerche. La tecnologia è nell’[albero delle Navi](/wiki/03-Mechanics/Research.md#tree-ships) della pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Storia {#lore}
 

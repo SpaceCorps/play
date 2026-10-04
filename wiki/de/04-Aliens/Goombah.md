@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Goombahs sind furchteinflößende Alien-Schiffe der Kreuzerklasse. Sie haben ein
 
 ## Belohnungen {#rewards}
 
-- **Credits**: 12.000
+- **Credits**: 15.000
 - **Thulium**: 75
 - **Erfahrung (EP)**: 3.000
 - **Ehre**: 24

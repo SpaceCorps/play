@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először:
 
 - **Kredit**: 0
 - **Thulium**: 600
+
+## Kutatás {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Nem kell kutatni.** Ennek a hajónak nincs saját technológiája.
+- **További extrafoglalatok.** A Skylabodba telepített Extra Slots CPU I, II és III ennek a hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot a saját 3 mellé. Úgy kutatod ki és készíted el őket, mint bármelyik más tárgyat: lásd [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Háttértörténet {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ Az Ostirion szilárd középkategóriás elfogó, amely jelentős előrelépést
 
 - **Kredit**: 425 000
 - **Thulium**: 0
+
+## Kutatás {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Nem kell kutatni.** Ennek a hajónak nincs saját technológiája.
+- **További extrafoglalatok.** A Skylabodba telepített Extra Slots CPU I, II és III ennek a hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot a saját 3 mellé. Úgy kutatod ki és készíted el őket, mint bármelyik más tárgyat: lásd [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Háttértörténet {#lore}
 

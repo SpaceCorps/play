@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Varje skepp har ett fast antal förmågeplatser i hangaren:
 - **Protos** (startskepp): 1 plats
 - **Kitefin**: 1 plats
 - **Ostirion**: 2 platser
+- **Nomad**: 2 platser
 - **Paragon**: 3 platser
+- **Storm**: 3 platser
 - **Ironclad**: 3 platser
 - **Wraith**: 3 platser
 
@@ -30,7 +32,7 @@ Du kan montera **flera sköldar, motorer eller Repair Drones** i förmågeplatse
 
 - **Den lägst rankade modulen sätter basen.** Dess rang ger styrkan och återhämtningen. En Heavy Shield Core bredvid en Light Shield Core fungerar som två moduler av rang I: en bättre andra modul ger bonusen och aldrig en bättre styrka eller en kortare återhämtning.
 - **Varje övrig modul lägger till 50 % av basen**, summerat, inte multiplicerat. Motorer gör att Afterburner **varar längre**: 10 s, 15 s med två motorer, 20 s med tre (fartbonusen och återhämtningen ändras inte). Sköldar gör att Shield Surge **återställer mer**, och Repair Drones gör att Emergency Repair **läker mer**, under samma tio sekunder: 100 %, 150 % och 200 % av totalen för en, två och tre moduler.
-- **De extra modulerna kostar platser.** Ett skepp med tre förmågeplatser kan ha tre av ett slag, eller en av varje, eller två och en. En Protos eller en Kitefin har en enda plats och kan inte stapla; en Ostirion kan ha två av ett slag.
+- **De extra modulerna kostar platser.** Ett skepp med tre förmågeplatser kan ha tre av ett slag, eller en av varje, eller två och en. En Protos eller en Kitefin har en enda plats och kan inte stapla; en Ostirion eller en Nomad kan ha två av ett slag.
 - Lika rang är helt enkelt den rangen. Av två moduler av samma rang sätter den med den svagare förtrollningen basen.
 
 ## De tre förmågorna {#the-three-abilities}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9e477b2e27250897 -->
+<!-- wiki-i18n source: 0105c89d1cbd6996 -->
 <!-- wiki-i18n title: Protos -->
 # Protos {#protos}
 
@@ -23,6 +23,16 @@ Protos 是 SpaceCorps 发给每位新飞行员的基础初始舰船。它机身�
 
 - **信用点**：0（初始舰船）
 - **Thulium**：0
+
+## 研究 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **无需研究。** 这艘舰船没有自己的科技。
+- **更多附加槽位。** 安装在你的 Skylab 中的 Extra Slots CPU I、II、III，分别为这艘舰船增加 3、5、7 个附加槽位，加上它本来就有的 3 个，总共是 6、8、10 个。它们和其他物品一样先研究、再制造：见 [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)。
+
+<!-- research-ship:end -->
 
 ## 背景故事 {#lore}
 

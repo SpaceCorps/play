@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，�
 
 ## 奖励 {#rewards}
 
-- **信用点**：60,000
+- **信用点**：75,000
 - **Thulium**：200
 - **经验值（XP）**：12,000
 - **荣誉**：52

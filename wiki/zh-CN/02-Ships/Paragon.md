@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ Paragon 是一艘重型战斗巡洋舰，攻防兼备，适合舰队作战和边
 
 - **信用点**：0（在装配站制造）
 - **Thulium**：0
+
+## 研究 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **先研究。** 只有研究完这艘舰船的科技后，装配站才能制造它：研究时间 6 小时。该科技位于[研究](/wiki/03-Mechanics/Research.md)页面的[舰船科技树](/wiki/03-Mechanics/Research.md#tree-ships)中。
+- **更多附加槽位。** 安装在你的 Skylab 中的 Extra Slots CPU I、II、III，分别为这艘舰船增加 3、5、7 个附加槽位，加上它本来就有的 3 个，总共是 6、8、10 个。它们和其他物品一样先研究、再制造：见 [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)。
+
+<!-- research-ship:end -->
 
 ## 背景故事 {#lore}
 

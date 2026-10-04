@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ Paragon — тяжёлый боевой крейсер со сбалансиро
 
 - **Кредиты**: 0 (Собирается в Сборочном цехе)
 - **Thulium**: 0
+
+## Исследования {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Сначала исследование.** Сборочный цех создаёт этот корабль только после того, как вы исследуете его технологию: 6 ч исследования. Она находится в [дереве «Корабли»](/wiki/03-Mechanics/Research.md#tree-ships) на странице [Исследования](/wiki/03-Mechanics/Research.md).
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## История {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ Bulwark는 중장갑을 두른 방어 플랫폼입니다. 매우 공격적이며
 
 ## 보상 {#rewards}
 
-- **크레딧**: 4,000
+- **크레딧**: 5,000
 - **Thulium**: 25
 - **경험치(XP)**: 800
 - **명예**: 10

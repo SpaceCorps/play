@@ -18,7 +18,7 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 - **Cura**: Cada Seeker Slave a até 600 unidades do líder cura o casco dele, 50 HP por segundo em Alpha
 - **Líder destruído**: Os seguidores vão embora 30 s depois que o líder é destruído, a menos que estejam atacando
 - **Volta**: 2 min depois que o líder é destruído, no mesmo setor
-- **Avisos**: O chat do setor avisa quando o líder aparece e quando é destruído. O registro de baixas nomeia o piloto a quem o abate é creditado.
+- **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Base: Seeker, com 400% de casco, escudo e dano; a velocidade e o alcance são os
 | Velocidade | 120 | 120 | 120 |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Créditos | 8.000 | 16.000 | 24.000 |
+| Créditos | 10.000 | 20.000 | 30.000 |
 | Thulium | 40 | 80 | 120 |
 | Experiência (XP) | 1.000 | 2.000 | 3.000 |
 | Honra | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Base: Seeker, com 100% de casco, escudo e dano; a velocidade e o alcance são os
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Cura o líder, cada um, por segundo (só o casco) | 50 | 75 | 100 |
-| Créditos | 100 | 200 | 300 |
+| Créditos | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Experiência (XP) | 12 | 24 | 36 |
 | Honra | 1 | 2 | 3 |

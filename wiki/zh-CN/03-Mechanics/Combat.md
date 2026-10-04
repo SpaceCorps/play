@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: 战斗 -->
 # 战斗机制 {#combat-mechanics}
 
@@ -134,7 +134,7 @@ Seeker 和 Goombah 从不主动挑起战斗。它们会转向击中自己的飞�
 
 ### 2. Repair Drone（船体修理） {#2-repair-drones-hull-repair-}
 
-- **运作方式**：如果你装备了 Repair Drone（在机库的附加装置下），就可以从快捷栏启用它（把它从附加装置选择器拖到槽位上），它会修理你的船体（HP）。任何一次被击中都会将其关闭，船体满血时它也会停止。
+- **运作方式**：如果你装备了 Repair Drone（在机库的附加装置下），就可以从快捷栏启用它（把它从附加装置选择器拖到槽位上），它会修理你的船体（HP）。任何一次被击中都会将其关闭，船体满血时它也会停止。装备了 [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) 时，你不必再次启用它：下面所说的延迟一过，CPU 就会自动放出 Repair Drone，除非你手动停止过它。
 - **修理速率**：每秒恢复你最大生命值的一定百分比（只有装备的最好的那台 Repair Drone 生效，它们不会叠加）：
   - **Repair Drone I**：1.5% 最大 HP / 秒
   - **Repair Drone II**：2.25% 最大 HP / 秒

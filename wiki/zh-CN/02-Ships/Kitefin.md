@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72472d1f265422aa -->
+<!-- wiki-i18n source: bc7f5383ae055f70 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin {#kitefin}
 
@@ -23,6 +23,16 @@ Kitefin 是一艘轻型炮艇，也是大多数飞行员买下的第一艘舰船
 
 - **信用点**：0
 - **Thulium**：600
+
+## 研究 {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **无需研究。** 这艘舰船没有自己的科技。
+- **更多附加槽位。** 安装在你的 Skylab 中的 Extra Slots CPU I、II、III，分别为这艘舰船增加 3、5、7 个附加槽位，加上它本来就有的 3 个，总共是 6、8、10 个。它们和其他物品一样先研究、再制造：见 [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)。
+
+<!-- research-ship:end -->
 
 ## 背景故事 {#lore}
 

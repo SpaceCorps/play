@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 89a30cf8cb2f69a6 -->
+<!-- wiki-i18n source: b6b66c2f84c6d17c -->
 <!-- wiki-i18n title: 锻造炉 -->
 # 锻造炉 {#the-forge}
 
@@ -77,7 +77,7 @@
 
 ## 装配站中的模块升级 {#module-upgrades-in-the-assembly}
 
-最顶级的两种激光、激光增幅器、II 至 IV 阶的护盾电池和推进器，以及 Heavy Shield Core 和 Engine III，都不在商店出售。你要在装配站的**制造**标签页中，通过升级低一级的部件来制作它们：把 Pulse Amp 升级为 **Nova Amp**，把 Prism Amp 升级为 **Apex Amp**，把 Capacity Shield Cell I 升级为 **Capacity Shield Cell II**（再到 III 和 IV；Absorption Shield Cell、Impulse Thruster 和 Momentum Thruster 也同样逐阶升级），把 Basic Shield Core 升级为 **Heavy Shield Core**，把 Engine II 升级为 **Engine III**，把 Quantum Laser 3 升级为 **Starfire-3**，把 Starfire-3 升级为 **Helios Beam**。锻造炉与此的关系就在于等级。
+最顶级的两种激光、激光增幅器、II 至 IV 阶的护盾电池和推进器，以及 Heavy Shield Core 和 Engine III，都不在商店出售，而且只有在 Skylab 里研究出对应科技后，装配站才会制造它们（[研究](/wiki/03-Mechanics/Research.md)）。你要在装配站的**制造**标签页中，通过升级低一级的部件来制作它们：把 Pulse Amp 升级为 **Nova Amp**，把 Prism Amp 升级为 **Apex Amp**，把 Capacity Shield Cell I 升级为 **Capacity Shield Cell II**（再到 III 和 IV；Absorption Shield Cell、Impulse Thruster 和 Momentum Thruster 也同样逐阶升级），把 Basic Shield Core 升级为 **Heavy Shield Core**，把 Engine II 升级为 **Engine III**，把 Quantum Laser 3 升级为 **Starfire-3**，把 Starfire-3 升级为 **Helios Beam**。锻造炉与此的关系就在于等级。
 
 - **等级保留。** 升级会消耗该部件的一件副本，新物品沿用这件副本的等级：神圣·Pulse Amp 制成神圣·Nova Amp，标准等级的则制成标准·Nova Amp。你在锻造炉上花的钱不会白费。升级本身不会增加任何等级，所以标准等级的部件制成的永远是标准等级的成品。
 - **加成会重新随机。** 新物品会获得适合其等级的全新加成：数量与你消耗的部件原有的相同（有两项加成的神圣·Pulse Amp 制成有两项的神圣·Nova Amp，只有一项的则制成只有一项的；高于标准等级时至少一项），但以该等级能承载的数量和新物品拥有的属性数为上限，每一项都落在上表中该等级的范围内，且位于 Nova Amp 拥有的属性上。除此之外，旧部件上的任何东西都不会被复制，所以新加成可能比原来的更好，也可能更差；平均而言是一样的。保留数量是为了不让升级填上锻造炉没填上的槽位，而且它从不拿走加成：在这条规则之前制造、槽位全满的部件会保留全部。加成在你把任务加入队列的那一刻就已随机确定，你领取到的就是当时随机出的结果：等待领取不会改变任何东西。原因在于升级是制造一件新物品，而锻造炉的骰子是掷在你手中那件物品上的。真正花钱的是等级：一件永恒部件相当于超过一百万信用点的锻造步骤，而一项加成只是某一项属性的几个百分点。

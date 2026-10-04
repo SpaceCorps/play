@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Goombah は手強いクルーザー級のエイリアン艦です。シールド
 
 ## 報酬 {#rewards}
 
-- **クレジット**：12,000
+- **クレジット**：15,000
 - **Thulium**：75
 - **経験値（XP）**：3,000
 - **名誉**：24

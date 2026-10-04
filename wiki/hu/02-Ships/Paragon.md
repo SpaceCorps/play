@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6177e5a237b64182 -->
+<!-- wiki-i18n source: d37c87fbe6d3997a -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon {#paragon}
 
@@ -23,6 +23,16 @@ A Paragon nehéz harci cirkáló, amelyet kiegyensúlyozott védelemre és táma
 
 - **Kredit**: 0 (A Gyártásban készül)
 - **Thulium**: 0
+
+## Kutatás {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Előbb kutatás.** A Gyártás csak akkor készíti el ezt a hajót, ha kikutattad a technológiáját: a kutatás 6 óra ideig tart. A technológia a [Kutatás](/wiki/03-Mechanics/Research.md) oldal [Hajók fáján](/wiki/03-Mechanics/Research.md#tree-ships) található.
+- **További extrafoglalatok.** A Skylabodba telepített Extra Slots CPU I, II és III ennek a hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot a saját 3 mellé. Úgy kutatod ki és készíted el őket, mint bármelyik más tárgyat: lásd [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Háttértörténet {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30354846186e8ea9 -->
+<!-- wiki-i18n source: 5a4769d6626caeff -->
 <!-- wiki-i18n title: Droni -->
 # Meccaniche dei droni {#drone-mechanics}
 
@@ -85,7 +85,7 @@ La curva è tarata in modo che un drone nuovo raggiunga il livello 2 in circa un
 
 ### Master Drone {#master-drone}
 
-Uno Slave Drone diventa un **Master Drone** quando lo potenzi in Assemblaggio. La ricetta costa 40.000 Thulium e 100 Ship Fragment e richiede 60 secondi, e non consuma un drone: **scegli tu quale Slave Drone è** (il selettore mostra livello e XP di ciascuno), e quello stesso drone, con il suo numero, il suo slot e tutto ciò che vi è montato, diventa un Master Drone quando il lavoro finisce, con un secondo slot vuoto. Niente va nel tuo inventario e non c’è nulla da ritirare: il Registro di gioco ti dice quando è finito, anche per un potenziamento terminato mentre eri via.
+Uno Slave Drone diventa un **Master Drone** quando lo potenzi in Assemblaggio, una volta ricercata la tecnologia del Master Drone ([Ricerca](/wiki/03-Mechanics/Research.md)). La ricetta costa 40.000 Thulium e 100 Ship Fragment e richiede 60 secondi, e non consuma un drone: **scegli tu quale Slave Drone è** (il selettore mostra livello e XP di ciascuno), e quello stesso drone, con il suo numero, il suo slot e tutto ciò che vi è montato, diventa un Master Drone quando il lavoro finisce, con un secondo slot vuoto. Niente va nel tuo inventario e non c’è nulla da ritirare: il Registro di gioco ti dice quando è finito, anche per un potenziamento terminato mentre eri via.
 
 **Livello e XP tornano a 0 quando il potenziamento finisce.** Un Master Drone riparte dal livello 1, senza XP, e sale di livello come uno Slave Drone (la tabella qui sopra); il bonus laser del livello che aveva si perde. L’Assemblaggio lo dice prima che tu inizi, e ti chiede di confermare, indicando il drone, quando ha degli XP. La scelta predefinita è il drone con meno XP.
 

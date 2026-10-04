@@ -16,7 +16,7 @@ The Seeker Swarm is the smallest of the [swarms](/wiki/05-Swarms/Swarms.md): a *
 - **Healing**: Each Seeker Slave within 600 units of the leader heals its hull, 50 HP a second in Alpha
 - **Leader destroyed**: The followers leave 30 s after the leader is destroyed, unless they are attacking
 - **Comes back**: 2 min after the leader is destroyed, in the same sector
-- **Announced**: The chat of the sector tells when the leader appears and when it is destroyed. The kill feed names the pilot credited with the kill.
+- **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- seeker-glance:end -->
 
@@ -55,7 +55,7 @@ Built from the Seeker at 400% of its hull, shield and damage; its speed and rang
 | Speed | 120 | 120 | 120 |
 | Laser range | 600 | 600 | 600 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Credits | 8,000 | 16,000 | 24,000 |
+| Credits | 10,000 | 20,000 | 30,000 |
 | Thulium | 40 | 80 | 120 |
 | Experience (XP) | 1,000 | 2,000 | 3,000 |
 | Honor | 20 | 40 | 60 |
@@ -85,7 +85,7 @@ Built from the Seeker at 100% of its hull, shield and damage; its speed and rang
 | Laser range | 600 | 600 | 600 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Heals the leader, each, per second (hull only) | 50 | 75 | 100 |
-| Credits | 100 | 200 | 300 |
+| Credits | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Experience (XP) | 12 | 24 | 36 |
 | Honor | 1 | 2 | 3 |

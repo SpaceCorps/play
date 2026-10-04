@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ Para itens adicionais do seu inventário que você quer salvar (por exemplo, arm
   * *Recursos / minerais*: pesos variados conforme a raridade (uma Reinforced Plate da Forja do Skylab pesa 5 kg)
   * *Foguetes*: não pesam nada: não ocupam espaço no cache, então pilhas inteiras entram (veja [Foguetes](/wiki/06-Items/Rockets.md))
 
-O seu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte.
+O seu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O Centro de Pesquisa também mantém tudo o que [Pesquisa](/wiki/03-Mechanics/Research.md) guarda: suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost. O mesmo vale para as Extra Slots CPUs que você instalou, que não são itens. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte.
 
 ### Confirmar e bloquear {#confirm-lock}
 Antes de a temporada acabar, você precisa clicar em **Confirmar e bloquear** na interface do Materializador.

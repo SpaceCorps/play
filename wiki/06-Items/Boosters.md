@@ -2,6 +2,32 @@
 
 Boosters provide temporary stat modifications to enhance your ship's combat, defense, leveling, and resource collection capabilities.
 
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Item tree {#item-tree}
+
+What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
+
+```tree
+Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+
+Shield Wall -> Shield Wall II
+Hull Plating -> Hull Plating II
+Damage Amp -> Damage Amp II
+```
+<!-- item-tree:end -->
+
 ## Stacking Rules
 
 Boosters use an additive scaling system:
@@ -13,16 +39,16 @@ Boosters use an additive scaling system:
 
 ## Active Boosters
 
-Every booster lasts for a base duration of **10 hours** and activates immediately upon purchase or receipt.
+Every booster lasts for a base duration of **10 hours** and activates immediately upon purchase, receipt or collection. The three **II** boosters are not sold: you research their technology in the Skylab ([Research](/wiki/03-Mechanics/Research.md)), then make them in Assembly, and collecting one starts its 10 hours at once, like buying one.
 
 | Name | Rarity | Base Effect (10 Hours) | Price (Thulium) |
 | :--- | :--- | :--- | :--- |
 | **Damage Amp** | Rare | +10% Laser Damage | 20,000 |
-| **Damage Amp II** | Rare | +10% Laser Damage | Drop / Event Only |
+| **Damage Amp II** | Rare | +10% Laser Damage | Assembly: 20,000 |
 | **Shield Wall** | Rare | +25% Shield Capacity (maximum shield points) | 15,000 |
-| **Shield Wall II** | Rare | +25% Shield Capacity (maximum shield points) | Drop / Event Only |
+| **Shield Wall II** | Rare | +25% Shield Capacity (maximum shield points) | Assembly: 15,000 |
 | **Hull Plating** | Rare | +10% Max Hitpoints | 15,000 |
-| **Hull Plating II** | Rare | +10% Max Hitpoints | Drop / Event Only |
+| **Hull Plating II** | Rare | +10% Max Hitpoints | Assembly: 15,000 |
 | **Shield Regen** | Rare | +25% Shield Recharge Rate (shield points restored per second) | 10,000 |
 | **Experience Kit** | Common | +20% Experience gain | 8,000 |
 | **Honor Beacon** | Common | +20% Honor points gain | 10,000 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 966d5a0c10cc8d2a -->
+<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith {#wraith}
 
@@ -23,6 +23,16 @@ La Wraith è la suprema nave di classe corazzata, con una potenza di fuoco senza
 
 - **Crediti**: 0 (Creata nell’Assemblaggio)
 - **Thulium**: 0
+
+## Ricerca {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Prima la ricerca.** L’Assemblaggio crea questa nave solo dopo che hai ricercato la sua tecnologia: 2 g di ricerca e 10 Dark Matter da inserire nel Centro ricerche. La tecnologia è nell’[albero delle Navi](/wiki/03-Mechanics/Research.md#tree-ships) della pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Storia {#lore}
 

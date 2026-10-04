@@ -1,8 +1,34 @@
-<!-- wiki-i18n source: 24b93f5c13d7994f -->
+<!-- wiki-i18n source: 539575474f5854de -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters {#boosters}
 
 Os boosters dão modificações temporárias de atributos para reforçar o combate, a defesa, a evolução de nível e a coleta de recursos da sua nave.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Árvore de itens {#item-tree}
+
+O que a Montagem faz exige antes a sua tecnologia; passe o mouse sobre um item para ver quanto tempo leva para pesquisá-la. A árvore de tecnologias, o combustível e o boost: [Pesquisa](/wiki/03-Mechanics/Research.md).
+
+```tree
+Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+
+Shield Wall -> Shield Wall II
+Hull Plating -> Hull Plating II
+Damage Amp -> Damage Amp II
+```
+<!-- item-tree:end -->
 
 ## Regras de empilhamento {#stacking-rules}
 
@@ -15,16 +41,16 @@ Os boosters usam um sistema de escala aditiva:
 
 ## Boosters ativos {#active-boosters}
 
-Todo booster dura **10 horas** de base e é ativado assim que você o compra ou o recebe.
+Todo booster dura **10 horas** de base e é ativado assim que você o compra, o recebe ou o recolhe. Os três boosters **II** não são vendidos: você pesquisa a tecnologia deles no Skylab ([Pesquisa](/wiki/03-Mechanics/Research.md)) e depois os cria na Montagem, e, ao recolher um, as 10 horas dele começam na hora, como ao comprá-lo.
 
 | Nome | Raridade | Efeito base (10 horas) | Preço (Thulium) |
 | :--- | :--- | :--- | :--- |
 | **Damage Amp** | Raro | +10% de dano de laser | 20.000 |
-| **Damage Amp II** | Raro | +10% de dano de laser | Só drop / evento |
+| **Damage Amp II** | Raro | +10% de dano de laser | Montagem: 20.000 |
 | **Shield Wall** | Raro | +25% de capacidade do escudo (máximo de pontos de escudo) | 15.000 |
-| **Shield Wall II** | Raro | +25% de capacidade do escudo (máximo de pontos de escudo) | Só drop / evento |
+| **Shield Wall II** | Raro | +25% de capacidade do escudo (máximo de pontos de escudo) | Montagem: 15.000 |
 | **Hull Plating** | Raro | +10% de pontos de vida máximos | 15.000 |
-| **Hull Plating II** | Raro | +10% de pontos de vida máximos | Só drop / evento |
+| **Hull Plating II** | Raro | +10% de pontos de vida máximos | Montagem: 15.000 |
 | **Shield Regen** | Raro | +25% de taxa de recarga do escudo (pontos de escudo restaurados por segundo) | 10.000 |
 | **Experience Kit** | Comum | +20% de ganho de experiência | 8.000 |
 | **Honor Beacon** | Comum | +20% de ganho de pontos de honra | 10.000 |

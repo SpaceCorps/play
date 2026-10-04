@@ -18,7 +18,7 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 - **Cura**: Ogni Seeker Slave entro 600 unità dal capo ne cura lo scafo, 50 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, a meno che stiano attaccando
 - **Ritorna**: 2 min dopo la distruzione del capo, nello stesso settore
-- **Avvisi**: La chat del settore dice quando il capo compare e quando viene distrutto. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
+- **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- seeker-glance:end -->
 
@@ -57,7 +57,7 @@ Base: Seeker, con il 400% di scafo, scudo e danno; velocità e portata sono quel
 | Velocità | 120 | 120 | 120 |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 8.000 | 16.000 | 24.000 |
+| Crediti | 10.000 | 20.000 | 30.000 |
 | Thulium | 40 | 80 | 120 |
 | Esperienza (XP) | 1.000 | 2.000 | 3.000 |
 | Onore | 20 | 40 | 60 |
@@ -87,7 +87,7 @@ Base: Seeker, con il 100% di scafo, scudo e danno; velocità e portata sono quel
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 50 | 75 | 100 |
-| Crediti | 100 | 200 | 300 |
+| Crediti | 125 | 250 | 375 |
 | Thulium | 1 | 2 | 3 |
 | Esperienza (XP) | 12 | 24 | 36 |
 | Onore | 1 | 2 | 3 |

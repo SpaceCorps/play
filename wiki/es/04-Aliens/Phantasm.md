@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Los Phantasms son drones agresivos de clase espectral. Atacan a cualquier jugado
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 2400
+- **Créditos**: 3000
 - **Thulium**: 12
 - **Experiencia (XP)**: 300
 - **Honor**: 6

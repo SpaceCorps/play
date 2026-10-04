@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Phantasm är aggressiva, spöklika drönare. De angriper varje spelare som komme
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 2 400
+- **Krediter**: 3 000
 - **Thulium**: 12
 - **Erfarenhet (XP)**: 300
 - **Heder**: 6

@@ -18,7 +18,7 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 - **Cura**: Ogni Pirate Scout entro 600 unità dal capo ne cura lo scafo, 40 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 1 min dopo la distruzione del capo, a meno che stiano attaccando
 - **Ritorna**: 2 min dopo la distruzione del capo, nello stesso settore
-- **Avvisi**: La chat del settore dice quando il capo compare e quando viene distrutto. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
+- **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 | Portata dei laser | – | – | – |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Danno dei razzi, al massimo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Crediti | 116.000 | 232.000 | 348.000 |
+| Crediti | 145.000 | 290.000 | 435.000 |
 | Thulium | 725 | 1.450 | 2.175 |
 | Esperienza (XP) | 29.000 | 58.000 | 87.000 |
 | Onore | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Base: Kitefin, con il 50% di scafo, scudo e danno; velocità e portata sono quel
 | Portata dei laser | 700 | 700 | 700 |
 | Raggio di aggressione | 700 | 700 | 700 |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 40 | 60 | 80 |
-| Crediti | 800 | 1.600 | 2.400 |
+| Crediti | 1.000 | 2.000 | 3.000 |
 | Thulium | 4 | 8 | 12 |
 | Esperienza (XP) | 100 | 200 | 300 |
 | Onore | 2 | 4 | 6 |

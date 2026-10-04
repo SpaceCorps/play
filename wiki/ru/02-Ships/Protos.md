@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9e477b2e27250897 -->
+<!-- wiki-i18n source: 0105c89d1cbd6996 -->
 <!-- wiki-i18n title: Protos -->
 # Protos {#protos}
 
@@ -23,6 +23,16 @@ Protos — базовый стартовый корабль, который по
 
 - **Кредиты**: 0 (Стартовый корабль)
 - **Thulium**: 0
+
+## Исследования {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Исследование не нужно.** У этого корабля нет собственной технологии.
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## История {#lore}
 

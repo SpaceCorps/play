@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ Para los demás objetos de tu inventario que quieras conservar (p. ej., armament
   * *Recursos / minerales*: pesos variables según la rareza (una placa reforzada de la Forja del Skylab pesa 5 kg)
   * *Cohetes*: no pesan nada: no ocupan sitio en el alijo, así que entran pilas enteras (consulta [Cohetes](/wiki/06-Items/Rockets.md))
 
-Tu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte.
+Tu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. El Centro de investigación conserva también todo lo que contiene [Investigación](/wiki/03-Mechanics/Research.md): tus tecnologías, la ciencia de su depósito, el Dark Matter introducido, una investigación en curso y el impulso. Igual que las Extra Slots CPU que instalaste, que no son objetos. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte.
 
 ### Confirmar y bloquear {#confirm-lock}
 Antes de que termine la temporada, debes hacer clic en **Confirmar y bloquear** en la interfaz del Materializador.

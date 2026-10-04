@@ -18,7 +18,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 - **Líder destruído**: Dormant Pulse assume a liderança
 - **Deslocamento**: Fica 8 a 15 min num mapa, depois voa até o portão de outro setor de perigo. Nunca usa os portões que saem dos setores de perigo e nunca entra no anel do buraco negro
 - **Volta**: 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório
-- **Avisos**: O chat do mundo inteiro avisa quando o enxame aparece e quando é destruído. Um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. O registro de baixas nomeia o piloto a quem o abate é creditado.
+- **Avisos**: Os pilotos do mundo inteiro são avisados quando o enxame aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. Um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Base: Wraith, com 100% de casco, escudo e dano; a velocidade e o alcance são os
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 7.500 | 11.250 | 15.000 |
-| Créditos | 160.000 | 320.000 | 480.000 |
+| Créditos | 200.000 | 400.000 | 600.000 |
 | Thulium | 535 | 1.070 | 1.605 |
 | Experiência (XP) | 32.100 | 64.200 | 96.300 |
 | Honra | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Base: Paragon, com 100% de casco, escudo e dano; a velocidade e o alcance são o
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 5.000 | 7.500 | 10.000 |
-| Créditos | 75.000 | 150.000 | 225.000 |
+| Créditos | 95.000 | 190.000 | 285.000 |
 | Thulium | 255 | 510 | 765 |
 | Experiência (XP) | 15.200 | 30.400 | 45.600 |
 | Honra | 66 | 132 | 198 |

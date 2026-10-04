@@ -1,8 +1,34 @@
-<!-- wiki-i18n source: 24b93f5c13d7994f -->
+<!-- wiki-i18n source: 539575474f5854de -->
 <!-- wiki-i18n title: 부스터 -->
 # 부스터 {#boosters}
 
 부스터는 일정 시간 동안 능력치를 바꿔 주어, 함선의 전투와 방어, 레벨업, 자원 수집 능력을 끌어올립니다.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## 아이템 트리 {#item-tree}
+
+어셈블리에서 만드는 것은 먼저 해당 기술이 필요합니다. 아이템에 마우스를 올리면 연구에 걸리는 시간을 볼 수 있습니다. 기술 트리, 연료, 부스트는 [연구](/wiki/03-Mechanics/Research.md)에 있습니다.
+
+```tree
+Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+
+Shield Wall -> Shield Wall II
+Hull Plating -> Hull Plating II
+Damage Amp -> Damage Amp II
+```
+<!-- item-tree:end -->
 
 ## 중첩 규칙 {#stacking-rules}
 
@@ -15,16 +41,16 @@
 
 ## 활성 부스터 {#active-boosters}
 
-모든 부스터의 기본 지속 시간은 **10시간**이며, 구매하거나 받는 즉시 활성화됩니다.
+모든 부스터의 기본 지속 시간은 **10시간**이며, 구매하거나 받거나 수령하는 즉시 활성화됩니다. 세 가지 **II** 부스터는 판매하지 않습니다. Skylab에서 기술을 연구한 뒤([연구](/wiki/03-Mechanics/Research.md)) 어셈블리에서 제작하며, 수령하면 구매할 때와 같이 곧바로 10시간이 시작됩니다.
 
 | 이름 | 희귀도 | 기본 효과 (10시간) | 가격 (Thulium) |
 | :--- | :--- | :--- | :--- |
 | **Damage Amp** | 희귀 | 레이저 피해량 +10% | 20,000 |
-| **Damage Amp II** | 희귀 | 레이저 피해량 +10% | 드롭 / 이벤트 전용 |
+| **Damage Amp II** | 희귀 | 레이저 피해량 +10% | 어셈블리: 20,000 |
 | **Shield Wall** | 희귀 | 실드 용량 +25% (최대 실드 포인트) | 15,000 |
-| **Shield Wall II** | 희귀 | 실드 용량 +25% (최대 실드 포인트) | 드롭 / 이벤트 전용 |
+| **Shield Wall II** | 희귀 | 실드 용량 +25% (최대 실드 포인트) | 어셈블리: 15,000 |
 | **Hull Plating** | 희귀 | 최대 내구도 +10% | 15,000 |
-| **Hull Plating II** | 희귀 | 최대 내구도 +10% | 드롭 / 이벤트 전용 |
+| **Hull Plating II** | 희귀 | 최대 내구도 +10% | 어셈블리: 15,000 |
 | **Shield Regen** | 희귀 | 실드 재충전 속도 +25% (초당 회복되는 실드 포인트) | 10,000 |
 | **Experience Kit** | 일반 | 경험치 획득량 +20% | 8,000 |
 | **Honor Beacon** | 일반 | 명예 포인트 획득량 +20% | 10,000 |

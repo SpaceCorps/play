@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Minden hajónak rögzített számú képességfoglalata van a hangárban:
 - **Protos** (kezdő hajó): 1 foglalat
 - **Kitefin**: 1 foglalat
 - **Ostirion**: 2 foglalat
+- **Nomad**: 2 foglalat
 - **Paragon**: 3 foglalat
+- **Storm**: 3 foglalat
 - **Ironclad**: 3 foglalat
 - **Wraith**: 3 foglalat
 
@@ -30,7 +32,7 @@ Egy konfiguráció képességfoglalataiba **több pajzsot, hajtóművet vagy Rep
 
 - **A legalacsonyabb rangú modul szabja meg az alapot.** A rangja adja az erőt és a töltődést. Egy Heavy Shield Core egy Light Shield Core mellett két I. rangú modulként viselkedik: egy jobb második modul a bónuszt hozza, de sosem jobb erőt vagy rövidebb töltődést.
 - **Minden további modul az alap 50%-át adja hozzá**, összeadva, nem szorozva. A hajtóművek **hosszabb ideig tartóvá** teszik az Afterburnert: 10 mp, két hajtóművel 15 mp, hárommal 20 mp (a sebességbónusz és a töltődés nem változik). A pajzsok azt érik el, hogy a Shield Surge **többet állítson vissza**, a Repair Drone-ok pedig azt, hogy az Emergency Repair **többet gyógyítson**, ugyanabban a tíz másodpercben: az összeg 100%-a, 150%-a és 200%-a egy, két és három modulnál.
-- **A további modulok foglalatokba kerülnek.** Egy három képességfoglalatos hajón lehet három egyfajta, vagy egy-egy mindegyikből, vagy kettő és egy. A Protosnak és a Kitefinnek egyetlen foglalata van, és nem halmozhat; az Ostirionon lehet két egyfajta.
+- **A további modulok foglalatokba kerülnek.** Egy három képességfoglalatos hajón lehet három egyfajta, vagy egy-egy mindegyikből, vagy kettő és egy. A Protosnak és a Kitefinnek egyetlen foglalata van, és nem halmozhat; az Ostirionon és a Nomadon lehet két egyfajta.
 - Az egyenlő rangok egyszerűen azt a rangot adják. Két azonos rangú modul közül a gyengébb bűvölésű szabja meg az alapot.
 
 ## A három képesség {#the-three-abilities}

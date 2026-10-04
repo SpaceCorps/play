@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d8bf989776a71cb4 -->
+<!-- wiki-i18n source: 46f445f1a971775a -->
 <!-- wiki-i18n title: Fähigkeiten -->
 # Aktive Schiffsfähigkeiten {#active-ship-abilities}
 
@@ -13,7 +13,9 @@ Jedes Schiff hat im Hangar eine feste Anzahl an Fähigkeits-Slots:
 - **Protos** (Startschiff): 1 Slot
 - **Kitefin**: 1 Slot
 - **Ostirion**: 2 Slots
+- **Nomad**: 2 Slots
 - **Paragon**: 3 Slots
+- **Storm**: 3 Slots
 - **Ironclad**: 3 Slots
 - **Wraith**: 3 Slots
 
@@ -30,7 +32,7 @@ Du kannst **mehrere Schilde, Triebwerke oder Repair Drones** in die Fähigkeits-
 
 - **Das Modul mit dem schlechtesten Rang bestimmt die Basis.** Sein Rang legt Stärke und Abklingzeit fest. Ein Heavy Shield Core neben einem Light Shield Core verhält sich wie zwei Module von Rang I: Ein besseres zweites Modul bringt den Bonus, aber nie eine bessere Stärke oder eine kürzere Abklingzeit.
 - **Jedes weitere Modul fügt 50 % der Basis hinzu**, addiert, nicht multipliziert. Triebwerke verlängern die **Dauer** des Afterburners: 10 s, mit zwei Triebwerken 15 s, mit drei 20 s (Tempobonus und Abklingzeit ändern sich nicht). Schilde lassen den Shield Surge **mehr wiederherstellen**, und Repair Drones lassen Emergency Repair **mehr heilen**, in denselben zehn Sekunden: 100 %, 150 % und 200 % des Gesamtwerts bei einem, zwei und drei Modulen.
-- **Die zusätzlichen Module kosten Slots.** Ein Schiff mit drei Fähigkeits-Slots kann drei von einer Art haben, oder je eines, oder zwei und eines. Eine Protos oder eine Kitefin hat nur einen Slot und kann nicht stapeln; eine Ostirion kann zwei von einer Art haben.
+- **Die zusätzlichen Module kosten Slots.** Ein Schiff mit drei Fähigkeits-Slots kann drei von einer Art haben, oder je eines, oder zwei und eines. Eine Protos oder eine Kitefin hat nur einen Slot und kann nicht stapeln; eine Ostirion oder eine Nomad kann zwei von einer Art haben.
 - Gleiche Ränge sind einfach dieser Rang. Von zwei Modulen desselben Rangs bestimmt das mit der schwächeren Verzauberung die Basis.
 
 ## Die drei Fähigkeiten {#the-three-abilities}

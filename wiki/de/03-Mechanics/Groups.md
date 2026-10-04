@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74abe792046ae603 -->
+<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -10,7 +10,7 @@ Eine Gruppe besteht aus bis zu **5 Piloten**, die zusammen fliegen, egal welcher
 - Der Pilot sieht eine Karte mit **Annehmen** und **Ablehnen**, die die **60 Sekunden** herunterzählt, die er zum Antworten hat, und eine Meldung. **Y** nimmt an und **Escape** lehnt ab (ein Textfeld, das gerade benutzt wird, oder ein darüber geöffnetes Fenster behält die Tasten). Warten mehrere Einladungen, nimmt die Karte sie der Reihe nach vor. Sie erscheint auch an der Station. Läuft die Zeit ab, verfällt die Einladung, und dir wird gesagt, welche. Du kannst keinen Piloten einladen, der schon in einer Gruppe ist, der **Bitte nicht stören** eingestellt hat oder bei dem schon zu viele Einladungen warten, und du kannst höchstens 10 Einladungen pro Minute senden (3 an andere Konzerne).
 - **Bitte nicht stören** schaltet Einladungen aus: die Glocke in der Titelleiste des Gruppenfensters oder Einstellungen › Allgemein › Gruppen. Solange es an ist, kann dich niemand einladen, und du wirst nicht gefragt.
 - Wessen Einladung zuerst angenommen wird, wird der **Anführer**. Der Anführer lädt ein, entfernt Mitglieder und macht ein anderes Mitglied zum Anführer. Jeder kann gehen. Eine Gruppe aus einem einzigen Piloten endet von selbst. Verlässt der Anführer die Gruppe, führt das Mitglied, das am längsten in der Gruppe ist.
-- Du bist immer nur in **einer Gruppe**. Ein Konzernwechsel nimmt dich nicht aus deiner Gruppe (du erscheinst unter deinem neuen Konzern); der Wipe der Saison tut es.
+- Du bist immer nur in **einer Gruppe**. [Ein Konzernwechsel](/wiki/01-General/Getting-Started.md#changing-your-company) nimmt dich nicht aus deiner Gruppe (du erscheinst unter deinem neuen Konzern); der Wipe der Saison tut es.
 - Bricht deine Verbindung ab oder dockst du an und startest wieder, bleibt dein Platz **2 Minuten** lang erhalten. Ein Mitglied, das länger weg ist, wird entfernt. Ein Server-Update beendet jede Gruppe: Ladet euch gegenseitig neu ein.
 
 ## Deine Gruppe sehen {#seeing-your-group}
@@ -43,7 +43,7 @@ Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds
 
 ## Chatkanäle {#chat-channels}
 
-Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal** und, solange du in einer Gruppe bist, **Gruppe**. Die Zeile, die du tippst, geht an den sichtbaren Tab, und der zuletzt genutzte Tab wird gemerkt. Jeder Kanal hat seine Farbe und ein kurzes Kürzel in jeder Zeile (GLB, LOK, GRP), ein Tab zählt die Zeilen, die du noch nicht gelesen hast, und die Chat-Schaltfläche in der Symbolleiste zeigt die Zahl, solange das Fenster geschlossen ist. Die eigenen Zeilen des Servers erscheinen in jedem Tab. Oder beginne eine Zeile mit einem Befehl:
+Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal**, **Gruppe** (solange du in einer Gruppe bist) und ganz hinten **System**. Die Zeile, die du tippst, geht an den sichtbaren Tab, und der zuletzt genutzte Tab wird gemerkt. Jeder Kanal hat seine Farbe und ein kurzes Kürzel in jeder Zeile (GLB, LOK, GRP), ein Tab zählt die Zeilen, die du noch nicht gelesen hast, und die Chat-Schaltfläche in der Symbolleiste zeigt die Zahl, solange das Fenster geschlossen ist. Oder beginne eine Zeile mit einem Befehl:
 
 | Kanal | Wer es hört | Befehl |
 | :--- | :--- | :--- |
@@ -51,7 +51,25 @@ Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal** und, solange du in 
 | **Global** | jeder Pilot online | `/g` oder `/global` |
 | **Gruppe** | deine Gruppe, wo auch immer sie ist | `/p`, `/party` oder `/group` |
 
-Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Global hat ein Limit: 3 Zeilen auf einmal, danach eine alle 2 Sekunden. Der Gruppenchat braucht eine Gruppe. Auf einem Spielserver aus der Zeit vor den Kanälen ist der Chat die eine Liste, die er war, und eine Gruppe lässt sich nicht bilden.
+Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der Gruppenchat braucht eine Gruppe. Auf einem Spielserver aus der Zeit vor den Kanälen ist der Chat die eine Liste, die er war, und eine Gruppe lässt sich nicht bilden.
+
+**System** ist golden und nur zum Lesen, mit einer eigenen Liste: Dort stehen die Meldungen, die der Server von sich aus macht (die Begrüßung, die Warnungen vor Neustart, Update und Wipe, die Schwarm-Ansagen), und was dein Schiff meldet (Reparaturen, Tarnung, EMPs, Raketen). Diese Zeilen stehen in keinem anderen Tab, ein vielbeschäftigtes Global kann sie also nicht verdrängen, und die anderen Tabs enthalten, was Piloten sagen. Die Zahl am Tab zählt nur die Ansagen; ein Countdown bis zu einem Neustart oder Update und die Wipe-Warnungen erscheinen außerdem kurz als Hinweis. Der [Kill-Feed](#the-kill-feed) bleibt in **Global**, mit eigenem Schalter, und die Zeilen darüber, dass Piloten deiner Gruppe beitreten oder sie verlassen, stehen in **Gruppe**.
+
+### Tippen {#typing}
+
+**Enter** öffnet den Chat und gibt ihm die Tastatur. Schickst du eine Zeile mit **Enter** ab, behält das Feld die Tastatur, sodass die nächste Zeile gleich folgen kann; solange das so ist, bleiben die Aktionsleiste und die Fähigkeitstasten aus. Das Tippen endet, wenn du **Escape** drückst, **Enter** drückst, ohne etwas getippt zu haben, mit der linken Maustaste auf die Karte klickst (derselbe Klick steuert weiterhin dein Schiff), bei leerem Feld 15 Sekunden lang keine Taste drückst oder dein Schiff zerstört wird. Auf dem Tab System, in den du nicht schreiben kannst, bringt dich **Enter** zurück in den Kanal, in den du zuletzt geschrieben hast.
+
+### Die Chat-Regeln {#the-chat-rules}
+
+Der Server hält jede Zeile an ein paar Regeln, in Lokal, Global und Gruppe dieselben. Eine Zeile, die er ablehnt, wird nicht gesendet; der Grund steht ein paar Sekunden lang unter dem Eingabefeld, und dein Text kommt ins Feld zurück.
+
+- **Ein Limit dafür, wie schnell du sendest.** Du kannst **5 Zeilen** auf einmal senden, danach **eine weitere Zeile alle 2 Sekunden**, gemeinsam gezählt für Lokal, Global und Gruppe. Sendest du eine Zeile, wenn keine mehr übrig ist, macht der Chat für dich eine **Pause**: **10 Sekunden** beim ersten Mal, dann **30**, **120** und **300 Sekunden** bei jeder Wiederholung innerhalb von 10 Minuten nach der letzten Pause (nach 10 Minuten ohne Pause beginnt die Zählung von vorn). Solange sie dauert, ist die Schaltfläche Senden grau, und unter dem Eingabefeld zählt „Chat pausiert: 7 s“ herunter. **Der Text, den du getippt hast, bleibt im Feld**, und das Feld behält die Tastatur: Warte oder drücke **Escape**. Ein normales Gespräch erreicht das Limit nie. Eine Zeile, die die Regeln ablehnen, zählt als 2 Zeilen deines Kontingents.
+- **200 Zeichen** pro Zeile. Ein Zähler („150/200“) erscheint ab 120 Zeichen, und eine längere Zeile wird abgeschnitten.
+- **Nur lateinische Buchstaben.** Die Buchstaben der lateinischen Alphabete mit ihren Akzenten (é, ß, ñ, ø, ő), Ziffern, die üblichen Satzzeichen und die Zeichen ¡ ¿ « » ° £ €. Kyrillisch, Chinesisch, Japanisch, Koreanisch, Emojis und andere Symbole werden abgelehnt, und das Feld lässt sie beim Tippen oder Einfügen weg.
+- **Keine Links.** Eine Zeile mit einer Webadresse, einem Einladungslink oder einer E-Mail-Adresse wird abgelehnt, auch wenn sie auf die üblichen Arten getarnt ist. Wörter allein sind in Ordnung: „join my discord“ geht raus.
+- **Keine Wiederholungen.** Dieselbe Zeile wie deine letzte, innerhalb von 10 Sekunden noch einmal gesendet, wird abgelehnt, ebenso eine Zeile mit demselben Zeichen mehr als 8-mal hintereinander oder ohne einen einzigen Buchstaben oder eine Ziffer.
+
+Admins unterliegen diesen Regeln nicht, nur den 200 Zeichen. Die Regeln brauchen einen Spielserver ab 0.4.9; ein älterer begrenzt nur Global, auf 3 Zeilen auf einmal und danach eine alle 2 Sekunden.
 
 ### Der Kill-Feed {#the-kill-feed}
 
@@ -69,7 +87,7 @@ Global erreicht jeden Piloten online, daher hat der Chat drei Werkzeuge, um es a
 - **Ignorieren** (klicke mit der rechten Maustaste auf einen Namen, dann auf **Ignorieren**): Die Zeilen dieses Piloten in Global und Lokal werden ausgeblendet, und seine Gruppeneinladungen werden abgelehnt, ohne dich zu fragen. Er erfährt es nicht. Seine Zeilen bleiben im Tab **Gruppe** sichtbar: Ein Pilot deiner Gruppe, den du ignorierst, gehört weiterhin zu deiner Gruppe, verlasse die Gruppe also, um ihn loszuwerden. Die eigenen Zeilen des Servers werden nie ausgeblendet. **Nicht mehr ignorieren** steht im selben Menü, und **Einstellungen › Oberfläche › Chat** listet die ignorierten Piloten (bis zu 200) mit einer Schaltfläche **Entfernen** für jeden auf.
 - **Melden** (klicke mit der rechten Maustaste auf einen Namen, dann auf **Melden…**): Wähle einen Grund (Spam, Beleidigung oder Belästigung, Cheating oder etwas anderes) und sende die Meldung. Die Meldung enthält deinen Namen, den des Piloten, den Kanal, den Grund und die letzte Zeile dieses Piloten, die dein Chat zeigt (bis zu 200 Zeichen). Die Admins des Spiels lesen sie; niemand wird automatisch bestraft, und der Pilot erfährt nicht, wer ihn gemeldet hat. Du kannst 5 Meldungen pro Stunde senden.
 
-Deine Ignorierliste und der Schalter Global-Chat ausblenden werden bei deinem Konto gespeichert, folgen dir also auf andere Computer. Das Spiel hat keinen Wortfilter und keine automatischen Stummschaltungen: Die Werkzeuge oben sind deine.
+Deine Ignorierliste und der Schalter Global-Chat ausblenden werden bei deinem Konto gespeichert, folgen dir also auf andere Computer. Das Spiel hat keinen Wortfilter und schaltet niemanden wegen dessen stumm, was er sagt: Die Pause fürs zu schnelle Senden ([Die Chat-Regeln](#the-chat-rules)) ist sein einziger automatischer Stopp, und die Werkzeuge oben sind deine.
 
 ## Einsatzregeln {#rules-of-engagement}
 

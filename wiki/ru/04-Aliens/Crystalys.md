@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Crystalys — гигантское существо пришельцев кла�
 
 ## Награды {#rewards}
 
-- **Кредиты**: 60 000
+- **Кредиты**: 75 000
 - **Thulium**: 200
 - **Опыт (XP)**: 12 000
 - **Честь**: 52

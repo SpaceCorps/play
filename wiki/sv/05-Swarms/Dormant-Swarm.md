@@ -18,7 +18,7 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 - **När ledaren förstörs**: Dormant Pulse tar över som ledare
 - **Förflyttning**: Stannar 8 till 15 min på en karta och flyger sedan till porten till en annan farosektor. Den tar aldrig portarna ut ur farosektorerna och flyger aldrig in i det svarta hålets ring
 - **Kommer tillbaka**: 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor
-- **Meddelanden**: Hela världens chatt meddelar när svärmen dyker upp och när den förstörs. En markering visar den på kartorna över farosektorerna och på galaxkartan. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
+- **Meddelanden**: Piloterna i hela världen får veta när svärmen dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. En markering visar den på kartorna över farosektorerna och på galaxkartan. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 7 500 | 11 250 | 15 000 |
-| Krediter | 160 000 | 320 000 | 480 000 |
+| Krediter | 200 000 | 400 000 | 600 000 |
 | Thulium | 535 | 1 070 | 1 605 |
 | Erfarenhet (XP) | 32 100 | 64 200 | 96 300 |
 | Heder | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Bygger på Paragon med 100 % av skrov, sköld och skada; hastighet och räckvid
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 5 000 | 7 500 | 10 000 |
-| Krediter | 75 000 | 150 000 | 225 000 |
+| Krediter | 95 000 | 190 000 | 285 000 |
 | Thulium | 255 | 510 | 765 |
 | Erfarenhet (XP) | 15 200 | 30 400 | 45 600 |
 | Heder | 66 | 132 | 198 |

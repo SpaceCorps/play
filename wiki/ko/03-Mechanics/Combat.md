@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c5ebaa2ae1a96278 -->
+<!-- wiki-i18n source: 1fb27e9af6058c8b -->
 <!-- wiki-i18n title: 전투 -->
 # 전투 시스템 {#combat-mechanics}
 
@@ -134,7 +134,7 @@ Seeker와 Goombah는 먼저 싸움을 걸지 않습니다. 각각 자신을 명�
 
 ### 2. Repair Drone (선체 수리) {#2-repair-drones-hull-repair-}
 
-- **작동**: Repair Drone(격납고의 부가 장비)을 장착하면 퀵슬롯에서 켤 수 있으며(부가 장비 선택 창에서 슬롯으로 끌어다 놓습니다), 선체(HP)를 수리합니다. 한 번이라도 맞으면 꺼지고, 선체가 가득 차면 멈춥니다.
+- **작동**: Repair Drone(격납고의 부가 장비)을 장착하면 퀵슬롯에서 켤 수 있으며(부가 장비 선택 창에서 슬롯으로 끌어다 놓습니다), 선체(HP)를 수리합니다. 한 번이라도 맞으면 꺼지고, 선체가 가득 차면 멈춥니다. [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu)를 장착했다면 다시 켤 필요가 없습니다. 아래의 대기 시간이 지나는 즉시 CPU가 알아서 드론을 내보냅니다(직접 멈춘 경우는 제외).
 - **수리 속도**: 매초 최대 내구도의 일정 비율을 회복합니다(장착한 드론 중 가장 좋은 것 하나만 적용되며, 합산되지 않습니다).
   - **Repair Drone I**: 최대 HP의 1.5% / 초
   - **Repair Drone II**: 최대 HP의 2.25% / 초

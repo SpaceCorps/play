@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30354846186e8ea9 -->
+<!-- wiki-i18n source: 5a4769d6626caeff -->
 <!-- wiki-i18n title: Drones -->
 # Mecánicas de los drones {#drone-mechanics}
 
@@ -85,7 +85,7 @@ La curva está pensada para que un dron nuevo llegue al nivel 2 en más o menos 
 
 ### Master Drone {#master-drone}
 
-Un Slave Drone se convierte en **Master Drone** cuando lo mejoras en Ensamblaje. La receta cuesta 40.000 de Thulium y 100 Ship Fragments, tarda 60 segundos y no gasta ningún dron: **eliges qué Slave Drone es** (el selector muestra el nivel y la XP de cada uno), y ese mismo dron, con su número, su ranura de dron y todo lo que lleva instalado, se convierte en Master Drone cuando termina el trabajo, con una segunda ranura vacía. Nada va a tu inventario y no hay nada que recoger: el Registro de juego te avisa cuando termina, también si la mejora terminó mientras estabas fuera.
+Un Slave Drone se convierte en **Master Drone** cuando lo mejoras en Ensamblaje, una vez investigada la tecnología del Master Drone ([Investigación](/wiki/03-Mechanics/Research.md)). La receta cuesta 40.000 de Thulium y 100 Ship Fragments, tarda 60 segundos y no gasta ningún dron: **eliges qué Slave Drone es** (el selector muestra el nivel y la XP de cada uno), y ese mismo dron, con su número, su ranura de dron y todo lo que lleva instalado, se convierte en Master Drone cuando termina el trabajo, con una segunda ranura vacía. Nada va a tu inventario y no hay nada que recoger: el Registro de juego te avisa cuando termina, también si la mejora terminó mientras estabas fuera.
 
 **Su nivel y su XP se restablecen a 0 cuando termina la mejora.** Un Master Drone vuelve a empezar en el nivel 1, sin XP, y sube de nivel igual que un Slave Drone (la tabla de arriba); la bonificación láser del nivel que tenía desaparece con él. El Ensamblaje lo avisa antes de empezar y, si el dron tiene algo de XP, te pide confirmación nombrándolo. La opción por defecto es el dron con menos XP.
 

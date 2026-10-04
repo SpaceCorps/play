@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a3e5081cff0a54e -->
+<!-- wiki-i18n source: 0d2453772c374a74 -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark {#bulwark}
 
@@ -15,7 +15,7 @@ Bulwark 是重装甲的防御平台。它们极具攻击性，火力凶猛：Bul
 
 ## 奖励 {#rewards}
 
-- **信用点**：4,000
+- **信用点**：5,000
 - **Thulium**：25
 - **经验值（XP）**：800
 - **荣誉**：10

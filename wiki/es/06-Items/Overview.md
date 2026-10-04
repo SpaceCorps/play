@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: Resumen -->
 # Resumen de objetos {#items-overview}
 
-Los objetos son los componentes básicos que mejoran las capacidades de tu nave. Se pueden comprar en la tienda, encontrar como botín, fabricar en Ensamblaje, o subir de grado y combinar en la [Forja](/wiki/06-Items/Forge.md).
+Los objetos son los componentes básicos que mejoran las capacidades de tu nave. Se pueden comprar en la tienda, encontrar como botín, fabricar en Ensamblaje (cuando su tecnología está investigada), o subir de grado y combinar en la [Forja](/wiki/06-Items/Forge.md).
 
 ## Niveles de rareza {#rarity-levels}
 
@@ -17,6 +17,10 @@ Los objetos vienen en distintas rarezas, que determinan su calidad y sus estadí
 - **Eterno**: módulos de nivel cósmico con un poder sin rival.
 
 ## Mejora de módulos {#upgrading-modules}
+
+**Toda fabricación en Ensamblaje necesita antes su tecnología.** La investigas en el Centro de investigación del Skylab ([Investigación](/wiki/03-Mechanics/Research.md) tiene el árbol completo, el tiempo de cada tecnología, el combustible y el impulso). Hasta que la tengas, la tarjeta de la receta en Ensamblaje está bloqueada y dice qué tecnología debes investigar primero. Si ya tenías un objeto cuando la investigación llegó al juego, ya tienes su tecnología.
+
+Una tarjeta bloqueada tiene un botón **Abrir Investigación**, que abre la vista Investigación de tu Skylab con esa tecnología seleccionada. La tarjeta sigue mostrando los materiales y el precio, así que puedes planificar, y las recetas bloqueadas van las últimas de su categoría. Una Extra Slots CPU también espera a la anterior: la tarjeta de la Extra Slots CPU II dice que instales primero la Extra Slots CPU I, y la de la III pide la II.
 
 Los mejores amplificadores láser, los niveles II a IV de las células de escudo y de los propulsores, el Heavy Shield Core y el Engine III no se venden. Cada uno se fabrica en Ensamblaje a partir de la pieza del escalón inferior (un Heavy Shield Core a partir de un Basic Shield Core, un Engine III a partir de un Engine II, un Impulse Thruster III a partir de un Impulse Thruster II), algo de Thulium, lo que sueltan los alienígenas y placas de la Forja de tu Skylab. La pieza debe estar suelta en tu inventario: quítala primero de tu nave y sácala de su láser, escudo o motor (un escudo o un motor no debe llevar células o propulsores propios instalados), y también del Alijo de Transporte. **El objeto nuevo conserva el grado de [encantamiento](/wiki/06-Items/Overview.md#item-enchants) de la pieza que consume, y sus bonificaciones se sortean de nuevo** (un Pulse Amp Divino da un Nova Amp Divino con bonificaciones nuevas, tantas como tenía). Qué copia se va lo eliges tú: la tarjeta de la receta en Ensamblaje muestra tus copias cuando difieren, y pregunta antes de usar una por encima de Estándar. Si no eliges ninguna, se usan primero las de grado de encantamiento más bajo, de modo que tus copias de grado más alto se quedan (entre copias del mismo grado se va primero la más antigua, sean cuales sean sus bonificaciones). La regla completa está en la página de la [Forja](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -85,4 +89,5 @@ La tienda, el inventario del hangar y las demás listas de objetos siguen un mis
 - **Propulsión**: motores y [propulsores](/wiki/06-Items/Propulsion.md) para la velocidad.
 - **Repair Drones**: extras que reparan tu casco, cada uno más rápido que el anterior: el Repair Drone I, II y III cuestan 5.000, 15.000 y 35.000 créditos, el Repair Drone IV 2.000 Thulium. Las velocidades de reparación están en [Combate](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU y EMP Charge**: extras para una pelea o una huida: una Cloaking CPU oculta tu nave hasta que la terminas (S, M y L: 10, 25 y 50 usos, 5.000, 11.250 y 20.000 Thulium), una EMP Charge te hace imposible de fijar durante 3 segundos, rompe todas las fijaciones sobre ti y termina todos los camuflajes cercanos (500 Thulium). Consulta [Extras](/wiki/06-Items/Extras.md).
+- **CPU de investigación**: las Extra Slots CPU añaden ranuras de extra a cada nave, la Jump CPU te lleva a un sector de corporación por Thulium, las Base CPU te llevan a casa y la Auto-Repair CPU lanza tu Repair Drone por sí sola. No se venden: se investigan y luego se fabrican en Ensamblaje. Consulta [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Recursos**: lo que sueltan los alienígenas y lo que fabrica el Skylab para la fabricación: Ship Fragments, los cuatro cristales, Power Cores, las placas de Velkonite y de Orvium, y dos que vienen de otro lado: el **Dark Matter**, que el [agujero negro](/wiki/03-Mechanics/Black-Hole.md) devuelve a cambio de un cohete N.I.K.E., y la **Dark Matter Plate** que Ensamblaje prensa a partir de ella para los dos últimos pasos de [La Forja](/wiki/06-Items/Forge.md).

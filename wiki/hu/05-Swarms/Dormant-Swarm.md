@@ -18,7 +18,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 - **A vezér megsemmisül**: A vezetést Dormant Pulse veszi át
 - **Útvonal**: 8–15 perc ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül. Soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem lép be a fekete lyuk gyűrűjébe
 - **Visszatér**: 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban
-- **Értesítés**: Az egész világ chatje megmondja, mikor jelenik meg a raj, és mikor semmisül meg. Egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
+- **Értesítés**: Az egész világ pilótái értesülnek arról, mikor jelenik meg a raj, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. Egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 7 500 | 11 250 | 15 000 |
-| Kredit | 160 000 | 320 000 | 480 000 |
+| Kredit | 200 000 | 400 000 | 600 000 |
 | Thulium | 535 | 1 070 | 1 605 |
 | Tapasztalat (XP) | 32 100 | 64 200 | 96 300 |
 | Becsület | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Alapja: Paragon, hajótestének, pajzsának és sebzésének 100%-a; a sebesség
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 5 000 | 7 500 | 10 000 |
-| Kredit | 75 000 | 150 000 | 225 000 |
+| Kredit | 95 000 | 190 000 | 285 000 |
 | Thulium | 255 | 510 | 765 |
 | Tapasztalat (XP) | 15 200 | 30 400 | 45 600 |
 | Becsület | 66 | 132 | 198 |

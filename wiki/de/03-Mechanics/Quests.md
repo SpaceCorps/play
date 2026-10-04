@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 500bc358b49f4250 -->
+<!-- wiki-i18n source: 566c408a761e44cb -->
 <!-- wiki-i18n title: Quests -->
 # Quests {#quests}
 
-Missionen sind der wichtigste Weg, im Level aufzusteigen. Mission Control verteilt sie: Jede Mission kommt von einem Offizier deines eigenen Konzerns und zahlt Erfahrung, Credits, Thulium und Ehre, wenn du sie abholst. Es gibt **88 Missionen für die Level 1 bis 8**, elf pro Level, und zusammen bringen sie dich von einer frischen Protos an die Front des PvP-Zentrums. Zehn weitere **Station-Missionen** bringen dir das [Skylab](/wiki/03-Mechanics/Skylab.md) bei und zahlen dich dafür, es auszubauen.
+Missionen sind der wichtigste Weg, im Level aufzusteigen. Mission Control verteilt sie: Jede Mission kommt von einem Offizier deines eigenen Konzerns (wenn du [den Konzern wechselst](/wiki/01-General/Getting-Started.md#changing-your-company), sind die Offiziere die deines neuen Konzerns, und die Aufgaben `rival x-4` folgen ihm) und zahlt Erfahrung, Credits, Thulium und Ehre, wenn du sie abholst. Es gibt **88 Missionen für die Level 1 bis 8**, elf pro Level, und zusammen bringen sie dich von einer frischen Protos an die Front des PvP-Zentrums. Zehn weitere **Station-Missionen** bringen dir das [Skylab](/wiki/03-Mechanics/Skylab.md) bei und zahlen dich dafür, es auszubauen.
 
 ---
 
@@ -32,7 +32,7 @@ Missionen sind der wichtigste Weg, im Level aufzusteigen. Mission Control vertei
 - Zehn Missionen rund um dein [Skylab](/wiki/03-Mechanics/Skylab.md), in einem Abschnitt **Station** oben auf der Seite Missionen. Die erste, **Licht für die Station**, ist ab Level 1 offen und sagt dir, wo das Skylab liegt: Menü, Wirtschaft, Skylab. Die Skylab-Zeile im Stationsmenü pulsiert, bis du die Mission angenommen oder Solar gebaut hast.
 - Sie werden wie jede Mission angenommen, verfolgt, aufgegeben und abgeholt, zählen aber nicht zu den 5: Du kannst **3 Station-Missionen gleichzeitig** neben deinen anderen 5 laufen lassen. Eine Station-Mission kann auf stundenlange Ausbau-Timer warten und hält nie eine Kampfmission auf.
 - Eine Station-Mission anzunehmen ändert nichts an der Mission, die du verfolgst, wenn du eine hast, die sich durch Fliegen voranbringen lässt: Das Fenster Aktive Quests zeigt weiter deine Kampfmission, und die Station-Mission ist ein Punkt in seiner Titelleiste (bewege den Mauszeiger darüber für ihren Fortschritt, klicke darauf, um sie anzuzeigen).
-- Jede öffnet sich bei ihrem eigenen **Pilotenlevel** und nach den Station-Missionen, auf die sie folgt (zuerst abgeholt): Eine gesperrte Karte sagt, welche. Die ersten drei öffnen sich auf Level 1.
+- Jede öffnet sich bei ihrem eigenen **Pilotenlevel** und nach den Station-Missionen, auf die sie folgt (zuerst abgeholt): Eine gesperrte Karte sagt, welche. Die ersten drei öffnen sich auf Level 1. Die letzte, **Core Ten**, bringt den Kern auf Level 10, das Level, das das [Forschungszentrum](/wiki/03-Mechanics/Research.md) des Skylab öffnet.
 - Ihre Aufgaben lesen dein Skylab: ein Modul **bauen** oder **auf ein Level bringen** (erledigt, solange das Modul auf diesem Level oder höher steht; kein Modul geht über deinen Kern hinaus, ein Ziel für Solar kann also verlangen, zuerst den Kern anzuheben) und Credits der Credit-Farm **abholen** (gezählt ab dem Moment, in dem du die Mission annimmst, mit der Schaltfläche Ressourcen abholen). Eine Mission, deren Aufgaben alle zugleich zutreffen, ist erledigt: Eine, die du beim Annehmen schon erfüllst, ist sofort erledigt.
 - Sie zahlen **genau das, was die Tabelle sagt**: keinen Welt-Multiplikator, keine Booster, keinen Premium-Erfahrungsbonus, keine Gegenstände. Ihre Erfahrung kommt zu den 85 % hinzu, die die Missionen der Level zahlen (höchstens 5 % des Erfahrungsabstands eines Levels).
 - Station-Missionen zählen nicht für die [Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md) für erledigte Missionen. Sie überstehen den Wipe wie jede Mission, und das, was du gebaut hast, ebenso.

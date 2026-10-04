@@ -1,6 +1,6 @@
 # Quests
 
-Missions are the main way to level up. Mission Control hands them out: every mission comes from an officer of your own company, and each pays experience, credits, Thulium and honor when you claim it. There are **88 missions for levels 1 to 8**, eleven a level, and together they carry you from a fresh Protos to the frontline of the PvP centre. Ten more **Station missions** teach you the [Skylab](/wiki/03-Mechanics/Skylab.md) and pay you for building it up.
+Missions are the main way to level up. Mission Control hands them out: every mission comes from an officer of your own company (if you [change company](/wiki/01-General/Getting-Started.md#changing-your-company), the officers become your new company's, and the `rival x-4` tasks follow it), and each pays experience, credits, Thulium and honor when you claim it. There are **88 missions for levels 1 to 8**, eleven a level, and together they carry you from a fresh Protos to the frontline of the PvP centre. Ten more **Station missions** teach you the [Skylab](/wiki/03-Mechanics/Skylab.md) and pay you for building it up.
 
 ---
 
@@ -30,7 +30,7 @@ Missions are the main way to level up. Mission Control hands them out: every mis
 - Ten missions about your [Skylab](/wiki/03-Mechanics/Skylab.md), in a **Station** section at the top of the Missions page. The first, **Light the Station**, is open from level 1 and tells you where the Skylab is: Menu, Economy, Skylab. The station menu's Skylab row pulses until you have taken it or built Solar.
 - They are taken, tracked, abandoned and claimed like every mission, but they don't count in the 5: you can run **3 Station missions at once** besides your other 5. A Station mission can wait for hours of upgrade timers and never holds up a combat mission.
 - Taking a Station mission doesn't change the mission you're tracking when you have one that flying can advance: the Active Quests window keeps showing your combat mission, and the Station mission is a dot in its title bar (hover it for its progress, click it to show it).
-- Each opens at its own **pilot level** and after the Station missions it follows (claimed first): a locked card says which. The first three open at level 1.
+- Each opens at its own **pilot level** and after the Station missions it follows (claimed first): a locked card says which. The first three open at level 1. The last, **Core Ten**, takes the Core to level 10, the level that opens the Skylab's [Research Centre](/wiki/03-Mechanics/Research.md).
 - Their tasks read your Skylab: **build** a module or **raise it to a level** (done while the module is at that level or higher; no module goes above your Core, so a Solar goal can need the Core raised first), and **collect** credits from the Credit Farm (counted from the moment you accept the mission, with the Collect Resources button). A mission whose tasks are all true at once is done: one you already meet when you accept it is done at once.
 - They pay **exactly what the table says**: no world multiplier, no boosters, no premium experience, no items. Their experience is on top of the 85% the levels' missions pay (at most 5% of a level's gap).
 - Station missions don't count toward the [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md) for missions done. They survive the wipe like every mission, and so does what you built.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8413f6e3fbe182ae -->
+<!-- wiki-i18n source: 9da9d769bbd866ae -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm {#phantasm}
 
@@ -15,7 +15,7 @@ Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇�
 
 ## 奖励 {#rewards}
 
-- **信用点**：2,400
+- **信用点**：3,000
 - **Thulium**：12
 - **经验值（XP）**：300
 - **荣誉**：6

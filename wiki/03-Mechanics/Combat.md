@@ -132,7 +132,7 @@ To recover from combat, pilots can rely on passive regeneration and active utili
 
 ### 2. Repair Drones (Hull Repair)
 
-- **Operation**: If you equip a Repair Drone (under Hangar extras), you switch it on from the hotbar (drag it from the Extras picker onto a slot) and it repairs your hull (HP). Any hit switches it off, and it stops at a full hull.
+- **Operation**: If you equip a Repair Drone (under Hangar extras), you switch it on from the hotbar (drag it from the Extras picker onto a slot) and it repairs your hull (HP). Any hit switches it off, and it stops at a full hull. With an [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) fitted you do not have to switch it on again: it sends the drone out by itself as soon as the delay below has passed, unless you stopped it by hand.
 - **Repair Rate**: Restores a percentage of your maximum hitpoints per second (only the best drone fitted counts, they do not add up):
   - **Repair Drone I**: 1.5% max HP / s
   - **Repair Drone II**: 2.25% max HP / s

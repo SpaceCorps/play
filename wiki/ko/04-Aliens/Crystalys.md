@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 
 
 ## 보상 {#rewards}
 
-- **크레딧**: 60,000
+- **크레딧**: 75,000
 - **Thulium**: 200
 - **경험치(XP)**: 12,000
 - **명예**: 52

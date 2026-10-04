@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
 Raketen sind eine zweite Waffe neben deinen Lasern: ein Schuss alle paar Sekunden, der weit härter trifft als eine Lasersalve. Zwölf Raketen in vier Arten, je drei Stufen, zwei weitere, die nur die Montage herstellt, und **ein Nachladetimer von 5 Sekunden, den alle gemeinsam haben**, egal welche du abfeuerst. Die gewöhnlichen und seltenen Raketen kaufst du mit **Credits**, die vier epischen mit **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Gegenstandsbaum {#item-tree}
+
+Was die Montage herstellt, braucht zuerst seine Technologie; zeige auf einen Gegenstand, um zu sehen, wie lange die Forschung dauert. Der Technologiebaum, der Treibstoff und der Boost: [Forschung](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## Die vier Arten {#the-four-kinds}
 
@@ -64,7 +94,7 @@ Die Raketen, die man braucht, um ein Alien abzuschießen, eine Raketenart nach d
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - Die **gewöhnlichen** Einzelziel-Raketen schießen einen Seeker bei jedem Wurf mit einem Treffer und einen Phantasm mit dreien ab (eine Lancet I braucht bei ihrem niedrigsten Wurf einen vierten); sie sind die Alltagsraketen der ersten Sektoren. Die **seltenen** sind für den Bulwark und den Goombah: Acht Lancet-II-Raketen brauchen für einen Bulwark etwa 35 Sekunden Timer. Die **epischen** schießen einen Phantasm bei jedem Wurf mit einem Treffer ab und einen Goombah mit neun bis elf. Die Flächenschaden-Raketen sind ihren Preis wert, wenn mehrere Aliens dicht beieinander stehen: Eine Scatter III, die über einem Rudel aus fünf Phantasms platzt, richtet auf einen Schlag etwa 18.000 Schaden im Rudel an.
-- Ein Abschuss allein mit Raketen ist eine echte Ausgabe, kein Weg zum Reichtum: Für das Alien, für das sie gedacht ist, kostet eine Einzelziel-Rakete ein Sechstel bis fünf Sechstel dessen, was der Abschuss zahlt (Credits, und Thulium zu je 200 Credits), und die schwachen Raketen kosten bei den starken Aliens mehr, als der Abschuss zahlt. Den **Crystalys** allein mit einer Raketenart abzuschießen, braucht 62 bis 399 Raketen und mindestens fünf Minuten Timer; ein voller Vorrat von 500 epischen Raketen reicht für vier bis acht davon. Das stärkste Alien braucht einen Plan: deine Laser mit x2-Munition, eine Rakete mittlerer Stufe alle 5 Sekunden ab der ersten Sekunde und die großen Raketen unten als Burst.
+- Ein Abschuss allein mit Raketen ist eine echte Ausgabe, kein Weg zum Reichtum: Für das Alien, für das sie gedacht ist, kostet eine Einzelziel-Rakete etwa ein Siebtel bis drei Viertel dessen, was der Abschuss zahlt (Credits, und Thulium zu je 200 Credits), und die schwachen Raketen kosten bei den starken Aliens mehr, als der Abschuss zahlt. Den **Crystalys** allein mit einer Raketenart abzuschießen, braucht 62 bis 399 Raketen und mindestens fünf Minuten Timer; ein voller Vorrat von 500 epischen Raketen reicht für vier bis acht davon. Das stärkste Alien braucht einen Plan: deine Laser mit x2-Munition, eine Rakete mittlerer Stufe alle 5 Sekunden ab der ersten Sekunde und die großen Raketen unten als Burst.
 - Der Lohn eines Abschusses ist derselbe, egal wie er erzielt wurde (den größten findest du auf der Seite des [Crystalys](/wiki/04-Aliens/Crystalys.md)), ein Raketenabschuss lohnt sich also, wenn er dir Zeit spart und weniger kostet, als er zahlt.
 - **Auch Aliens feuern Raketen.** Der Pirate Boss sowie die Dormant Force und die Pulses der [Schwärme](/wiki/05-Swarms/Swarms.md) schießen gerade Rivet-Raketen auf den Piloten, der sie angegriffen hat, mit demselben 5-Sekunden-Timer. Ein Schiff, das in Bewegung bleibt, weicht ihnen aus. Die Bosse der Schwärme lassen in ihren Kisten außerdem Raketen fallen.
 

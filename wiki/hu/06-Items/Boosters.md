@@ -1,8 +1,34 @@
-<!-- wiki-i18n source: 24b93f5c13d7994f -->
+<!-- wiki-i18n source: 539575474f5854de -->
 <!-- wiki-i18n title: Boosterek -->
 # Boosterek {#boosters}
 
 A boosterek ideiglenesen módosítják a hajód értékeit, hogy erősítsék a harci, a védelmi, a szintlépési és a nyersanyaggyűjtési képességeidet.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Tárgyfa {#item-tree}
+
+Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
+
+```tree
+Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+
+Shield Wall -> Shield Wall II
+Hull Plating -> Hull Plating II
+Damage Amp -> Damage Amp II
+```
+<!-- item-tree:end -->
 
 ## Halmozási szabályok {#stacking-rules}
 
@@ -15,16 +41,16 @@ A boosterek additív skálázási rendszert használnak:
 
 ## Aktív boosterek {#active-boosters}
 
-Minden booster alapesetben **10 órán** át tart, és vásárláskor vagy megszerzéskor azonnal aktiválódik.
+Minden booster alapesetben **10 órán** át tart, és vásárláskor, megszerzéskor vagy átvételkor azonnal aktiválódik. A három **II** booster nem kapható: a technológiájukat a Skylabban kutatod ki ([Kutatás](/wiki/03-Mechanics/Research.md)), majd a Gyártásban elkészíted őket, és az átvételkor a 10 órájuk azonnal elindul, ahogy vásárláskor is.
 
 | Név | Ritkaság | Alaphatás (10 óra) | Ár (Thulium) |
 | :--- | :--- | :--- | :--- |
 | **Damage Amp** | Ritka | +10% lézersebzés | 20 000 |
-| **Damage Amp II** | Ritka | +10% lézersebzés | Csak zsákmányból / eseményen |
+| **Damage Amp II** | Ritka | +10% lézersebzés | Gyártás: 20 000 |
 | **Shield Wall** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | 15 000 |
-| **Shield Wall II** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | Csak zsákmányból / eseményen |
+| **Shield Wall II** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | Gyártás: 15 000 |
 | **Hull Plating** | Ritka | +10% max. életerő | 15 000 |
-| **Hull Plating II** | Ritka | +10% max. életerő | Csak zsákmányból / eseményen |
+| **Hull Plating II** | Ritka | +10% max. életerő | Gyártás: 15 000 |
 | **Shield Regen** | Ritka | +25% pajzstöltődési sebesség (másodpercenként visszatöltődő pajzspontok) | 10 000 |
 | **Experience Kit** | Gyakori | +20% szerzett tapasztalat | 8 000 |
 | **Honor Beacon** | Gyakori | +20% szerzett becsületpont | 10 000 |

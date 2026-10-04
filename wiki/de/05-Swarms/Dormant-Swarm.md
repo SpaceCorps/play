@@ -18,7 +18,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 - **Anführer zerstört**: Dormant Pulse übernimmt die Führung
 - **Reise**: Bleibt 8 bis 15 min auf einer Karte und fliegt dann zum Tor eines anderen Gefahrensektors. Er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs
 - **Kehrt zurück**: 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor
-- **Meldungen**: Der Chat der ganzen Welt meldet, wann der Schwarm auftaucht und wann er zerstört wird. Eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
+- **Meldungen**: Die Piloten der ganzen Welt erfahren, wann der Schwarm auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Raketenschaden, höchstens | 7.500 | 11.250 | 15.000 |
-| Credits | 160.000 | 320.000 | 480.000 |
+| Credits | 200.000 | 400.000 | 600.000 |
 | Thulium | 535 | 1.070 | 1.605 |
 | Erfahrung (EP) | 32.100 | 64.200 | 96.300 |
 | Ehre | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Basis: Paragon mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Raketenschaden, höchstens | 5.000 | 7.500 | 10.000 |
-| Credits | 75.000 | 150.000 | 225.000 |
+| Credits | 95.000 | 190.000 | 285.000 |
 | Thulium | 255 | 510 | 765 |
 | Erfahrung (EP) | 15.200 | 30.400 | 45.600 |
 | Ehre | 66 | 132 | 198 |

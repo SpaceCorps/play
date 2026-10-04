@@ -18,7 +18,7 @@ El enjambre Pirate es un **Pirate Boss** con sus **Pirate Scouts**: una nave eno
 - **Curación**: Cada Pirate Scout a menos de 600 unidades del líder cura su casco, 40 HP por segundo en Alpha
 - **Líder destruido**: Los seguidores se van 1 min después de que destruyan al líder, salvo que estén atacando
 - **Vuelve**: 2 min después de que destruyan al líder, en el mismo sector
-- **Avisos**: El chat del sector avisa cuándo aparece el líder y cuándo es destruido. El registro de bajas nombra al piloto al que se acredita el derribo.
+- **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- pirate-glance:end -->
 
@@ -59,7 +59,7 @@ Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 | Alcance de los láseres | – | – | – |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Daño de los cohetes, como máximo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Créditos | 116.000 | 232.000 | 348.000 |
+| Créditos | 145.000 | 290.000 | 435.000 |
 | Thulium | 725 | 1.450 | 2.175 |
 | Experiencia (XP) | 29.000 | 58.000 | 87.000 |
 | Honor | 232 | 464 | 696 |
@@ -86,7 +86,7 @@ Base: Kitefin, con 50 % de casco, escudo y daño; la velocidad y el alcance son
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | 700 | 700 | 700 |
 | Cura al líder, cada uno, por segundo (solo el casco) | 40 | 60 | 80 |
-| Créditos | 800 | 1.600 | 2.400 |
+| Créditos | 1.000 | 2.000 | 3.000 |
 | Thulium | 4 | 8 | 12 |
 | Experiencia (XP) | 100 | 200 | 300 |
 | Honor | 2 | 4 | 6 |

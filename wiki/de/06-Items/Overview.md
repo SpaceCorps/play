@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: df71eb74190b495f -->
+<!-- wiki-i18n source: 3347f07e039fb7ef -->
 <!-- wiki-i18n title: Überblick -->
 # Gegenstände im Überblick {#items-overview}
 
-Gegenstände sind die Kernkomponenten, die die Fähigkeiten deines Schiffs verbessern. Du kannst sie im Shop kaufen, als Beute finden, in der Montage herstellen oder in der [Schmiede](/wiki/06-Items/Forge.md) aufwerten und zusammenführen.
+Gegenstände sind die Kernkomponenten, die die Fähigkeiten deines Schiffs verbessern. Du kannst sie im Shop kaufen, als Beute finden, in der Montage herstellen (sobald ihre Technologie erforscht ist) oder in der [Schmiede](/wiki/06-Items/Forge.md) aufwerten und zusammenführen.
 
 ## Seltenheitsstufen {#rarity-levels}
 
@@ -17,6 +17,10 @@ Gegenstände gibt es in verschiedenen Seltenheiten, die ihre Qualität und Grund
 - **Ewig**: Kosmische Module von unerreichter Macht.
 
 ## Modul-Upgrades {#upgrading-modules}
+
+**Jede Herstellung in der Montage braucht zuerst ihre Technologie.** Du erforschst sie im Forschungszentrum des Skylab ([Forschung](/wiki/03-Mechanics/Research.md) zeigt den ganzen Baum, die Dauer jeder Technologie, den Treibstoff und den Boost). Bis du sie hast, ist die Rezeptkarte in der Montage gesperrt und nennt die Technologie, die du zuerst erforschen musst. Wenn du einen Gegenstand schon besaßt, als die Forschung ins Spiel kam, hast du seine Technologie bereits.
+
+Eine gesperrte Karte hat eine Schaltfläche **Forschung öffnen**, die die Ansicht Forschung deines Skylab mit dieser Technologie öffnet. Die Karte zeigt weiter Materialien und Preis, du kannst also planen, und gesperrte Rezepte stehen in ihrer Kategorie ganz hinten. Eine Extra Slots CPU wartet außerdem auf die darunter: Auf der Karte der Extra Slots CPU II steht, dass du zuerst die Extra Slots CPU I installieren musst, und die Karte der III verlangt die II.
 
 Die obersten Laserverstärker, die Stufen II bis IV der Schildzellen und Schubdüsen, der Heavy Shield Core und das Engine III werden nicht verkauft. Du stellst jedes in der Montage her: aus dem Stück darunter (einen Heavy Shield Core aus einem Basic Shield Core, ein Engine III aus einem Engine II, einen Impulse Thruster III aus einem Impulse Thruster II), mit etwas Thulium, der Beute der Aliens und Platten aus der Schmiede deines Skylab. Das Stück muss lose in deinem Inventar liegen: Nimm es zuerst von deinem Schiff und aus seinem Laser, Schild oder Triebwerk (ein Schild oder ein Triebwerk darf keine eigenen Zellen oder Schubdüsen enthalten) und aus dem Transport-Cache. **Der neue Gegenstand behält die [Verzauberungsstufe](/wiki/06-Items/Overview.md#item-enchants) des Stücks, das er verbraucht, und seine Boni werden neu ausgewürfelt** (ein Pulse Amp (Göttlich) ergibt einen Nova Amp (Göttlich) mit neuen Boni, so vielen, wie das Stück hatte). Welches Exemplar verwendet wird, entscheidest du: Die Rezeptkarte in der Montage zeigt deine Exemplare, wenn sie sich unterscheiden, und fragt nach, bevor sie eines über Standard verwendet. Wählst du keines, werden die mit der niedrigsten Verzauberungsstufe zuerst verwendet, deine Exemplare der höchsten Stufe bleiben also (unter Exemplaren einer Stufe geht das älteste zuerst, egal welche Boni sie haben). Die ganze Regel steht auf der Seite [Schmiede](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -85,4 +89,5 @@ Der Shop, das Inventar des Hangars und die anderen Gegenstandslisten folgen eine
 - **Antrieb**: Triebwerke und [Schubdüsen](/wiki/06-Items/Propulsion.md) für Tempo.
 - **Repair Drones**: Extras, die deine Hülle reparieren, jede schneller als die vorige: Repair Drone I, II und III kosten 5.000, 15.000 und 35.000 Credits, Repair Drone IV 2.000 Thulium. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPUs und die EMP Charge**: Extras für einen Kampf oder eine Flucht: Eine Cloaking CPU verbirgt dein Schiff, bis du sie beendest (S, M und L: 10, 25 und 50 Nutzungen, 5.000, 11.250 und 20.000 Thulium), eine EMP Charge macht dich 3 Sekunden lang unanvisierbar, bricht jede Zielerfassung auf dich ab und beendet jede Tarnung in der Nähe (500 Thulium). Siehe [Extras](/wiki/06-Items/Extras.md).
+- **Forschungs-CPUs**: die Extra Slots CPUs geben jedem Schiff Extra-Slots, die Jump CPU bringt dich gegen Thulium in einen Konzernsektor, die Base CPUs bringen dich nach Hause und die Auto-Repair CPU schickt deine Repair Drone von selbst los. Sie werden nicht verkauft: Erforsche sie und stelle sie dann in der Montage her. Siehe [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Ressourcen**: was Aliens fallen lassen und das Skylab für die Herstellung produziert: Ship Fragments, die vier Kristalle, Power Cores, die Velkonite- und Orvium-Platten und zwei, die von anderswo kommen: **Dark Matter**, das das [Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md) für eine N.I.K.E.-Rakete zurückgibt, und die **Dark Matter Plate**, die die Montage daraus für die obersten beiden Schritte der [Schmiede](/wiki/06-Items/Forge.md) presst.

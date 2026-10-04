@@ -1,8 +1,38 @@
-<!-- wiki-i18n source: 99e1c87621ddd973 -->
+<!-- wiki-i18n source: 2599ac53be69ec9b -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
 Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada poucos segundos que bate muito mais forte que uma rajada de laser. Doze foguetes em quatro tipos, três raridades cada, mais dois que só a Montagem fabrica, e **um único temporizador de recarga de 5 segundos que todos compartilham**, qualquer que você dispare. Os foguetes Comuns e Raros são comprados com **créditos**; os quatro foguetes Épicos são comprados com **Thulium**.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Árvore de itens {#item-tree}
+
+O que a Montagem faz exige antes a sua tecnologia; passe o mouse sobre um item para ver quanto tempo leva para pesquisá-la. A árvore de tecnologias, o combustível e o boost: [Pesquisa](/wiki/03-Mechanics/Research.md).
+
+```tree
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+
+Lancet I -> Lancet II -> Lancet III
+Rivet I -> Rivet II -> Rivet III
+Ember I -> Ember II -> Ember III
+Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+```
+<!-- item-tree:end -->
 
 ## Os quatro tipos {#the-four-kinds}
 
@@ -64,7 +94,7 @@ Os foguetes necessários para matar um alienígena, um tipo de foguete de cada v
 | **Scatter III** | 1 | 2 | 7 | 20 | 100 |
 
 - Os foguetes de alvo único **Comuns** matam um Seeker com um acerto em qualquer sorteio e um Phantasm com três (um Lancet I precisa de um quarto no sorteio mais baixo); são os foguetes do dia a dia dos primeiros setores. Os **Raros** são para o Bulwark e o Goombah: oito foguetes Lancet II derrubam um Bulwark em cerca de 35 segundos de temporizador. Os **Épicos** matam um Phantasm com um acerto em qualquer sorteio e um Goombah com nove a onze. As explosões valem o preço quando vários alienígenas estão juntos: um Scatter III explodindo sobre um bando de cinco Phantasms causa cerca de 18.000 de dano ao bando em um único disparo.
-- Um abate só com foguetes é um gasto de verdade, não um jeito de ficar rico: para o alienígena a que se destina, um foguete de alvo único custa de um sexto a cinco sextos do que o abate paga (créditos, e Thulium a 200 créditos cada), e os foguetes fracos contra os alienígenas fortes custam mais do que o abate paga. Matar o **Crystalys** com um único tipo exige de 62 a 399 foguetes e no mínimo cinco minutos de temporizador; uma pilha cheia de 500 foguetes Épicos basta para quatro a oito deles. O alienígena mais forte pede um plano: seus lasers com munição x2, um foguete intermediário a cada 5 segundos desde o primeiro segundo, e os foguetes grandes abaixo como o golpe extra.
+- Um abate só com foguetes é um gasto de verdade, não um jeito de ficar rico: para o alienígena a que se destina, um foguete de alvo único custa de cerca de um sétimo a três quartos do que o abate paga (créditos, e Thulium a 200 créditos cada), e os foguetes fracos contra os alienígenas fortes custam mais do que o abate paga. Matar o **Crystalys** com um único tipo exige de 62 a 399 foguetes e no mínimo cinco minutos de temporizador; uma pilha cheia de 500 foguetes Épicos basta para quatro a oito deles. O alienígena mais forte pede um plano: seus lasers com munição x2, um foguete intermediário a cada 5 segundos desde o primeiro segundo, e os foguetes grandes abaixo como o golpe extra.
 - O pagamento de um abate é o mesmo, seja como for que ele foi feito (veja [o Crystalys](/wiki/04-Aliens/Crystalys.md) para o maior), então um abate com foguetes compensa quando poupa tempo e custa menos do que paga.
 - **Alienígenas também disparam foguetes.** O Pirate Boss, a Dormant Force e as Pulses dos [enxames](/wiki/05-Swarms/Swarms.md) lançam foguetes Rivet retos no piloto que os atacou, com o mesmo temporizador de 5 segundos. Uma nave que não para de se mover os esquiva. Os chefes dos enxames também largam foguetes nas suas caixas.
 

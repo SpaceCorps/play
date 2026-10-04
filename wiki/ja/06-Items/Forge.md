@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 89a30cf8cb2f69a6 -->
+<!-- wiki-i18n source: b6b66c2f84c6d17c -->
 <!-- wiki-i18n title: 鍛冶場 -->
 # 鍛冶場 {#the-forge}
 
@@ -77,7 +77,7 @@
 
 ## アセンブリでのモジュールの強化 {#module-upgrades-in-the-assembly}
 
-上位2種のレーザー、レーザーアンプ、ティアII～IVのシールドセルとスラスター、そして Heavy Shield Core と Engine III は販売されていません。アセンブリの**クラフト**タブで、1つ下の部品を強化して作ります。Pulse Amp は **Nova Amp** に、Prism Amp は **Apex Amp** に、Capacity Shield Cell I は **Capacity Shield Cell II** に（さらに III、IV へ。Absorption Shield Cell、Impulse Thruster、Momentum Thruster も同じように上がります）、Basic Shield Core は **Heavy Shield Core** に、Engine II は **Engine III** に、Quantum Laser 3 は **Starfire-3** に、Starfire-3 は **Helios Beam** になります。鍛冶場がこれにどう関わるかというと、段階です。
+上位2種のレーザー、レーザーアンプ、ティアII～IVのシールドセルとスラスター、そして Heavy Shield Core と Engine III は販売されておらず、Skylab でその技術を研究して初めてアセンブリで作れます（[研究](/wiki/03-Mechanics/Research.md)）。アセンブリの**クラフト**タブで、1つ下の部品を強化して作ります。Pulse Amp は **Nova Amp** に、Prism Amp は **Apex Amp** に、Capacity Shield Cell I は **Capacity Shield Cell II** に（さらに III、IV へ。Absorption Shield Cell、Impulse Thruster、Momentum Thruster も同じように上がります）、Basic Shield Core は **Heavy Shield Core** に、Engine II は **Engine III** に、Quantum Laser 3 は **Starfire-3** に、Starfire-3 は **Helios Beam** になります。鍛冶場がこれにどう関わるかというと、段階です。
 
 - **段階は残ります。**強化では部品のコピーを1個消費し、新しいアイテムは、そのコピーの段階を持ちます。神級の Pulse Amp からは神級の Nova Amp が、標準のものからは標準の Nova Amp ができます。鍛冶場に支払ったものは失われません。強化自体が段階を加えることはないので、標準の部品からは、必ず標準のものができます。
 - **ボーナスは引き直されます。**新しいアイテムには、その段階に応じた新しいボーナスが付きます。数は、使う部品が持っていた数です（ボーナスが2つの神級の Pulse Amp からは、2つの神級の Nova Amp ができ、1つだけの部品からは1つだけのものができます。標準より上では最低1つ）。ただし、段階が持てる数と新しいアイテムが持つステータスの数が上限で、それぞれ上の表にある段階の範囲の値で、Nova Amp が持つステータスに付きます。それ以外は古い部品からは何もコピーされないため、新しいボーナスは、元のものより良くも悪くもなり得ます。平均すれば同じです。数を引き継ぐのは、鍛冶場が埋めなかった枠を強化で埋められないようにするためで、ボーナスが減ることもありません。この規則より前に作られ、すべての枠が埋まっている部品は、すべてを引き継ぎます。ボーナスは、作業をキューに入れた瞬間に抽選され、受け取るのはその抽選された結果です。受け取りを待っても何も変わりません。強化は新しいアイテムを作るもので、鍛冶場のサイコロは、手元にあるアイテムに対して振られるからです。コストがかかるのは段階の部分です。永遠の部品は、鍛冶場のステップだけで100万クレジットを超えますが、ボーナスは1つのステータスの数%にすぎません。

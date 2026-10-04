@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 65da665842938543 -->
+<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab {#skylab}
 
-A Skylab a te személyes orbitális létesítményed. Modulokat épít és fejleszt, amelyek kreditet és Thuliumot termelnek, ércet bányásznak, és olyan lemezeket kovácsolnak, amelyekből a Gyártás a legjobb lézereket készíti. Akkor is dolgozik neked, amikor offline vagy.
+A Skylab a te személyes orbitális létesítményed. Modulokat épít és fejleszt, amelyek kreditet és Thuliumot termelnek, ércet bányásznak, olyan lemezeket kovácsolnak, amelyekből a Gyártás a legjobb lézereket készíti, és a Mag 10. szintjétől kikutatják azokat a technológiákat, amelyekre a Gyártásnak szüksége van. Akkor is dolgozik neked, amikor offline vagy.
 
 ## Áttekintés {#overview}
 
-A Skylab a saját órája szerint jár, a hajódtól függetlenül: a modulok termelnek és kovácsolnak, amíg távol vagy. Neked építened, fejlesztened, az energiát egyensúlyban tartanod és begyűjtened kell. Az oldal ugyanannak az állomásnak három nézetét mutatja: **Állomás** (a 3D-s állomás, minden modul fölött egy címkével; kattints az egyikre az adatlapjának megnyitásához, vagy nyomd meg az **1**–**8** billentyűt), **Lista** (egy kártya minden modulhoz) és **Táblázat** (minden modul értékei egy táblázatban). Ha az egeret az **Építés** vagy a **Fejlesztés** gomb fölé viszed, megmutatja, mit változtat a következő szint, mennyibe kerül, és mennyi ideig tart.
+A Skylab a saját órája szerint jár, a hajódtól függetlenül: a modulok termelnek és kovácsolnak, amíg távol vagy. Neked építened, fejlesztened, az energiát egyensúlyban tartanod és begyűjtened kell. Az oldal ugyanannak az állomásnak négy nézetét mutatja: **Állomás** (a 3D-s állomás, minden modul fölött egy címkével; kattints az egyikre az adatlapjának megnyitásához, vagy nyomd meg az **1**–**9** billentyűt), **Lista** (egy kártya minden modulhoz), **Táblázat** (minden modul értékei egy táblázatban) és **Kutatás** (a Kutatóközpont saját képernyője, lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ha az egeret az **Építés** vagy a **Fejlesztés** gomb fölé viszed, megmutatja, mit változtat a következő szint, mennyibe kerül, és mennyi ideig tart.
 
-Az állomást nyolc modul alkotja:
+Az állomást kilenc modul alkotja:
 
 | Modul | Mit termel vagy mit tesz | Építhető |
 | :--- | :--- | :--- |
@@ -20,6 +20,7 @@ Az állomást nyolc modul alkotja:
 | **Orvium-gyűjtő** | Orvium-ércet bányászik | A Mag 5. szintjétől |
 | **Erőforrás-raktár** | Tárolja az ércet | A Mag 5. szintjétől |
 | **Kovácsműhely** | Lemezekké kovácsolja az ércet | A Mag 5. szintjétől |
+| **Kutatóközpont** | A nyersanyagokat tudománnyá alakítja, és [technológiákat](/wiki/03-Mechanics/Research.md) kutat | A Mag 10. szintjétől |
 
 **Küldetések a Skylabhoz.** Tíz [állomásküldetés](/wiki/03-Mechanics/Quests.md#station-missions) a Küldetésirányításban végigvezet a Skylabon: építs Napelemet, Kreditfarmot és Thuliumfarmot, fejleszd a Magot és a Napelemet, gyűjtsd be az első 50 000 kreditedet, nyisd meg az ellátási láncot, és minden lépésért fizetnek is egy keveset. Az első az 1. szinttől nyitva van.
 
@@ -62,9 +63,9 @@ Ezek a Skylab Állomás nézetének képei az 1-től 20-ig terjedő szintek mind
 
 ![20. szint](../../img/skylab/wiki/level-20.jpg)
 
-**A nyolc modul kártyái.** Ugyanennek az állomásnak a Lista nézete a 20. szinten: az első kiadás négy modulja, valamint az ellátási lánccal érkezett Velkonite-gyűjtő, Orvium-gyűjtő, Erőforrás-raktár és Kovácsműhely. Minden kártya mutatja a modul szintjét, a termelését, az energiáját és a kapcsolóját.
+**A kilenc modul kártyái.** Ugyanennek az állomásnak a Lista nézete a 20. szinten: az első kiadás négy modulja, az ellátási lánccal érkezett Velkonite-gyűjtő, Orvium-gyűjtő, Erőforrás-raktár és Kovácsműhely, valamint a Kutatóközpont. Minden kártya mutatja a modul szintjét, a termelését, az energiáját és a kapcsolóját. Minden kártyán 20. szint áll, kivéve a Kutatóközpontét: annak 1–10. szintje van, ezért a kártyáján a 10. szint áll, a legmagasabb.
 
-![A Lista nézet a 20. szinten: a Mag, a Napelem, a Kreditfarm, a Thuliumfarm, a Velkonite-gyűjtő, az Orvium-gyűjtő, az Erőforrás-raktár és a Kovácsműhely kártyái](../../img/skylab/wiki/modules.jpg)
+![A Lista nézet a 20. szinten: a Mag, a Napelem, a Kreditfarm, a Thuliumfarm, a Velkonite-gyűjtő, az Orvium-gyűjtő, az Erőforrás-raktár, a Kovácsműhely és a Kutatóközpont kártyái](../../img/skylab/wiki/modules.jpg)
 
 ## Az első négy modul {#the-first-four-modules}
 
@@ -77,7 +78,7 @@ A Skylabod szíve. A Mag szintje dönti el az összes többi modul legmagasabb s
 Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, amelyet az összes többi modul használ.
 
 - **Fontosság**: ha az energiafogyasztásod nagyobb a termelt energiánál, a farmjaid és a gyűjtőid leállnak.
-- **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 835-öt a 7. szinten, 16 010-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
+- **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 835-öt a 7. szinten, 16 110-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
 - **Fejlesztés**: a Napelem fejlesztés közben is tovább termeli a jelenlegi szintjének energiáját, a fejlesztés végétől pedig az új szintét, ezért az állomás többi része tovább működik (lásd: Építés és fejlesztés).
 
 ### Kreditfarm és Thuliumfarm {#credit-farm-and-thulium-farm}
@@ -125,6 +126,10 @@ Mind a négy építési költsége **10 Ship Fragments, 10 000 kredit és 500 T
 - Energiát használnak. Építés előtt az adatlap megmutatja az energiaegyenlegedet most és utána: **az építés energiahiányba vihet egy állomást**, ha a Napelem lemaradt a többi modul mögött, és egyetlen energiahiány minden farmot és gyűjtőt leállít. Kapcsolj ki egy modult, vagy előbb fejleszd a Napelemet.
 - A két gyűjtő az állomás feletti tartószerkezeteken függ, az Erőforrás-raktár a Mag északkeleti portjánál, a Kovácsműhely pedig az északnyugati portjánál van.
 
+## A Kutatóközpont {#the-research-centre}
+
+A kilencedik modul a nyersanyagokat tudománnyá alakítja, és kikutatja azokat a technológiákat, amelyekre a Gyártásnak szüksége van, mielőtt bármi újat elkészítene. A Mag 10. szintjétől építhető, 1–10. szintje van, energiát fogyaszt, és nem kapcsolható ki. A számai, az, hogy mit éget el üzemanyagként, a boost és a teljes technológiafa a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon található.
+
 ## Mechanika {#mechanics}
 
 ### Építés és fejlesztés {#building-and-upgrading}
@@ -143,13 +148,13 @@ Mind a négy építési költsége **10 Ship Fragments, 10 000 kredit és 500 T
 
 **1–5. szint**, modulonként (a fejlesztés az első oszlopban szereplő szintről indul):
 
-| Szint | Mag | Napelem | Kreditfarm | Thuliumfarm | Erőforrás-raktár | Velkonite-gyűjtő | Orvium-gyűjtő | Kovácsműhely |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 → 2 | 72 mp | 36 mp | 78 mp | 168 mp | 56 mp | 78 mp | 78 mp | 78 mp |
-| 2 → 3 | 86 mp | 43 mp | 101 mp | 235 mp | 70 mp | 101 mp | 101 mp | 101 mp |
-| 3 → 4 | 104 mp | 52 mp | 132 mp | 329 mp | 88 mp | 132 mp | 132 mp | 132 mp |
-| 4 → 5 | 124 mp | 62 mp | 171 mp | 461 mp | 110 mp | 171 mp | 171 mp | 171 mp |
-| 5 → 6 | 149 mp | 75 mp | 223 mp | 11 perc | 137 mp | 223 mp | 223 mp | 223 mp |
+| Szint | Mag | Napelem | Kreditfarm | Thuliumfarm | Erőforrás-raktár | Velkonite-gyűjtő | Orvium-gyűjtő | Kovácsműhely | Kutatóközpont |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 → 2 | 72 mp | 36 mp | 78 mp | 168 mp | 56 mp | 78 mp | 78 mp | 78 mp | 78 mp |
+| 2 → 3 | 86 mp | 43 mp | 101 mp | 235 mp | 70 mp | 101 mp | 101 mp | 101 mp | 101 mp |
+| 3 → 4 | 104 mp | 52 mp | 132 mp | 329 mp | 88 mp | 132 mp | 132 mp | 132 mp | 132 mp |
+| 4 → 5 | 124 mp | 62 mp | 171 mp | 461 mp | 110 mp | 171 mp | 171 mp | 171 mp | 171 mp |
+| 5 → 6 | 149 mp | 75 mp | 223 mp | 11 perc | 137 mp | 223 mp | 223 mp | 223 mp | 223 mp |
 
 **A 6. szinttől** minden modulnál ugyanaz:
 
@@ -178,11 +183,11 @@ Egy fejlesztés, amely már fut, amikor az idők megváltoznak, megtartja a neki
 A Skylabodnak korlátozott az energiakerete.
 
 - **Egyenleg**: tartsd a Napelem termelését az összes többi modul által használt energia fölött. A Skylab oldal mutatja az egyenleget, és figyelmeztet, mielőtt egy építés nulla alá nyomná.
-- **A Napelem lépést tart**: egy N. szintű Napelem **mind a hét másik modul energiáját fedezi az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely), és még nagyjából egy tizedet, így az az állomás, amelynek minden modulja a 7. szinten van, 7. szintű Napelemet igényel, és az fedezi is. Egy szinttel alacsonyabb Napelem nem elég egy teljes állomásnak (az utolsó oszlop), ezért a Napelemnek továbbra is követnie kell a többit felfelé. A Mag keveset fogyaszt, ezért előrefuthat: az 5. vagy magasabb szintű Napelem egy teljes, a saját szintjén álló állomást fedez, a Mag bármelyik szintjével.
-- **Aktív állapot**: a farmokat, a gyűjtőket és a Kovácsműhelyt be- vagy kikapcsolhatod az energia kezeléséhez. A Mag, a Napelem és az Erőforrás-raktár mindig működik.
-- **Energiahiány**: ha az energiafogyasztás nagyobb a termelt energiánál, minden farm és gyűjtő leáll a termeléssel, amíg az egyenleg helyre nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem indít új adagot.
+- **A Napelem lépést tart**: egy N. szintű Napelem **az összes többi modul energiáját fedezi az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont), és még nagyjából egy tizedet, így az az állomás, amelynek minden modulja a 7. szinten van, 7. szintű Napelemet igényel, és az fedezi is. Egy szinttel alacsonyabb Napelem nem elég egy teljes állomásnak (az utolsó oszlop), ezért a Napelemnek továbbra is követnie kell a többit felfelé. A Mag keveset fogyaszt, ezért előrefuthat: az 5. vagy magasabb szintű Napelem egy teljes, a saját szintjén álló állomást fedez, a Mag bármelyik szintjével.
+- **Aktív állapot**: a farmokat, a gyűjtőket és a Kovácsműhelyt be- vagy kikapcsolhatod az energia kezeléséhez. A Mag, a Napelem, az Erőforrás-raktár és a Kutatóközpont mindig működik.
+- **Energiahiány**: ha az energiafogyasztás nagyobb a termelt energiánál, minden farm és gyűjtő leáll a termeléssel, amíg az egyenleg helyre nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem indít új adagot, a Kutatóközpont pedig új kutatást (a már futó kutatás tovább megy).
 
-A Napelem energiája minden szinten, szemben azzal, amit a másik hét modul használ ugyanazon a szinten (minden modul azon a szinten, a Magot is beleértve):
+A Napelem energiája minden szinten, szemben azzal, amit a többi modul használ ugyanazon a szinten (minden modul azon a szinten, a Magot is beleértve, a Kutatóközpontot pedig a 10. szinttől):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -198,20 +203,20 @@ A Napelem energiája minden szinten, szemben azzal, amit a másik hét modul has
 | 7 | 835 | 756 | 79 | 680: 76 hiányzik |
 | 8 | 1 030 | 933 | 97 | 835: 98 hiányzik |
 | 9 | 1 275 | 1 155 | 120 | 1 030: 125 hiányzik |
-| 10 | 1 580 | 1 435 | 145 | 1 275: 160 hiányzik |
-| 11 | 1 970 | 1 788 | 182 | 1 580: 208 hiányzik |
-| 12 | 2 460 | 2 234 | 226 | 1 970: 264 hiányzik |
-| 13 | 3 085 | 2 800 | 285 | 2 460: 340 hiányzik |
-| 14 | 3 875 | 3 519 | 356 | 3 085: 434 hiányzik |
-| 15 | 4 880 | 4 434 | 446 | 3 875: 559 hiányzik |
-| 16 | 6 160 | 5 600 | 560 | 4 880: 720 hiányzik |
-| 17 | 7 800 | 7 088 | 712 | 6 160: 928 hiányzik |
-| 18 | 9 895 | 8 992 | 903 | 7 800: 1 192 hiányzik |
-| 19 | 12 575 | 11 429 | 1 146 | 9 895: 1 534 hiányzik |
-| 20 | 16 010 | 14 554 | 1 456 | 12 575: 1 979 hiányzik |
+| 10 | 1 680 | 1 523 | 157 | 1 275: 248 hiányzik |
+| 11 | 2 065 | 1 876 | 189 | 1 680: 196 hiányzik |
+| 12 | 2 555 | 2 322 | 233 | 2 065: 257 hiányzik |
+| 13 | 3 180 | 2 888 | 292 | 2 555: 333 hiányzik |
+| 14 | 3 970 | 3 607 | 363 | 3 180: 427 hiányzik |
+| 15 | 4 975 | 4 522 | 453 | 3 970: 552 hiányzik |
+| 16 | 6 260 | 5 688 | 572 | 4 975: 713 hiányzik |
+| 17 | 7 895 | 7 176 | 719 | 6 260: 916 hiányzik |
+| 18 | 9 990 | 9 080 | 910 | 7 895: 1 185 hiányzik |
+| 19 | 12 670 | 11 517 | 1 153 | 9 990: 1 527 hiányzik |
+| 20 | 16 110 | 14 642 | 1 468 | 12 670: 1 972 hiányzik |
 <!-- skylab-power:end -->
 
-A táblázat minden modult ugyanazon a szinten számol. A Thuliumfarm a csúcson ennek a négyötödét használja (11 695-öt a 20. szinten, szemben a mind a hét modul 14 554-ével), ezért az az állomás, amelyen ez a farm messze a többi előtt jár, több Napelemet igényel, mint amennyit a Magja sugall.
+A táblázat minden modult ugyanazon a szinten számol. A Thuliumfarm a csúcson ennek a négyötödét használja (11 695-öt a 20. szinten, szemben a mind a nyolc modul 14 642-ével), ezért az az állomás, amelyen ez a farm messze a többi előtt jár, több Napelemet igényel, mint amennyit a Magja sugall.
 
 ### Begyűjtés {#collecting}
 
@@ -226,4 +231,4 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 
 ### A wipe {#the-wipe}
 
-A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár pedig az ércét. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik.
+A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a belehelyezett Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik.

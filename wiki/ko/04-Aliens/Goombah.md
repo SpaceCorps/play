@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 933119506d58171e -->
+<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah {#goombah}
 
@@ -24,7 +24,7 @@ Goombah는 만만치 않은 순양함급 외계 함선입니다. 실드 용량�
 
 ## 보상 {#rewards}
 
-- **크레딧**: 12,000
+- **크레딧**: 15,000
 - **Thulium**: 75
 - **경험치(XP)**: 3,000
 - **명예**: 24

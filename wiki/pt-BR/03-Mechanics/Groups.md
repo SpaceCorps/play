@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74abe792046ae603 -->
+<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -10,7 +10,7 @@ Um grupo reúne até **5 pilotos** que voam juntos, de qualquer corporação: am
 - O piloto vê um cartão com **Aceitar** e **Recusar**, que conta os **60 segundos** que ele tem para responder, e um aviso. **Y** aceita e **Escape** recusa (um campo de texto em uso, ou uma janela aberta por cima, fica com as teclas). Se vários convites estão à espera, o cartão mostra um de cada vez. Ele aparece também na estação. Quando o tempo acaba, o convite expira e você é avisado de qual deles. Você não pode convidar um piloto que já está em um grupo, que ativou o **Não perturbe** ou que tem convites demais à espera, e pode enviar no máximo 10 convites por minuto (3 para outras corporações).
 - O **Não perturbe** desativa os convites: o sino na barra de título da janela do grupo, ou Configurações › Geral › Grupos. Enquanto ele estiver ativado, ninguém pode convidar você, e você nem é consultado.
 - Quem tiver o convite aceito primeiro se torna o **líder**. O líder convida, remove membros e torna outro membro o líder. Qualquer um pode sair. Um grupo de um só piloto se desfaz sozinho. Quando o líder sai, passa a liderar o membro que está há mais tempo no grupo.
-- Você está em **um grupo por vez**. Mudar de corporação não tira você do grupo (você aparece sob a sua nova corporação); o reset da temporada tira.
+- Você está em **um grupo por vez**. [Mudar de corporação](/wiki/01-General/Getting-Started.md#changing-your-company) não tira você do grupo (você aparece sob a sua nova corporação); o reset da temporada tira.
 - Se a sua conexão cair, ou se você atracar e decolar de novo, o seu lugar é mantido por **2 minutos**. Um membro ausente por mais tempo que isso é removido. Uma atualização do servidor encerra todos os grupos: convidem-se de novo.
 
 ## Vendo o seu grupo {#seeing-your-group}
@@ -43,7 +43,7 @@ Um abate também conta para as **missões de abate** de todos os outros membros 
 
 ## Canais de chat {#chat-channels}
 
-O chat tem uma fileira de abas no alto: **Global**, **Local** e, enquanto você está em um grupo, **Grupo**. A linha que você digita vai para a aba em vista, e a aba que você usou por último é lembrada. Cada canal tem a sua cor e uma tag curta em cada linha (GLB, LOC, GRP), cada aba conta as linhas que você não leu, e o botão do chat na barra de ferramentas mostra a contagem enquanto a janela está fechada. As linhas do próprio servidor aparecem em todas as abas. Ou comece uma linha com um comando:
+O chat tem uma fileira de abas no alto: **Global**, **Local**, **Grupo** (enquanto você está em um grupo) e, por último, **Sistema**. A linha que você digita vai para a aba em vista, e a aba que você usou por último é lembrada. Cada canal tem a sua cor e uma tag curta em cada linha (GLB, LOC, GRP), cada aba conta as linhas que você não leu, e o botão do chat na barra de ferramentas mostra a contagem enquanto a janela está fechada. Ou comece uma linha com um comando:
 
 | Canal | Quem ouve | Comando |
 | :--- | :--- | :--- |
@@ -51,7 +51,25 @@ O chat tem uma fileira de abas no alto: **Global**, **Local** e, enquanto você 
 | **Global** | todos os pilotos online | `/g` ou `/global` |
 | **Grupo** | o seu grupo, onde quer que esteja | `/p`, `/party` ou `/group` |
 
-Um comando também muda a aba e, digitado sozinho (`/g`), só muda a aba. O Global tem um limite: 3 linhas de uma vez e depois uma a cada 2 segundos. O chat do grupo precisa de um grupo. Em um servidor de jogo anterior aos canais, o chat é a lista única que sempre foi, e não é possível formar um grupo.
+Um comando também muda a aba e, digitado sozinho (`/g`), só muda a aba. O chat do grupo precisa de um grupo. Em um servidor de jogo anterior aos canais, o chat é a lista única que sempre foi, e não é possível formar um grupo.
+
+A aba **Sistema** é dourada e somente de leitura, com uma lista própria: nela ficam as mensagens que o servidor dá por conta própria (as boas-vindas, os avisos de reinício, de atualização e de reset, os anúncios de enxame) e o que a sua nave informa (reparos, camuflagem, EMPs, foguetes). Essas linhas não estão em nenhuma outra aba, então um Global movimentado não consegue empurrá-las para fora, e as outras abas guardam o que os pilotos dizem. A contagem da aba é só dos anúncios; a contagem regressiva de um reinício ou de uma atualização e os avisos de reset também aparecem por um instante como notificação. O [registro de baixas](#the-kill-feed) fica no **Global**, com o seu próprio interruptor, e as linhas sobre pilotos que entram no seu grupo ou saem dele estão em **Grupo**.
+
+### Digitar {#typing}
+
+**Enter** abre o chat e dá a ele o teclado. Envie uma linha com **Enter** e o campo mantém o teclado, então a próxima linha pode vir logo em seguida; enquanto for assim, a barra de atalhos e as teclas de habilidade ficam desligadas. A digitação termina quando você pressiona **Escape**, pressiona **Enter** sem ter digitado nada, clica no mapa com o botão esquerdo (o mesmo clique continua guiando a sua nave), deixa o campo vazio e não pressiona nenhuma tecla por 15 segundos ou a sua nave é destruída. Na aba Sistema, onde não dá para escrever, **Enter** leva você de volta ao canal em que escreveu por último.
+
+### As regras do chat {#the-chat-rules}
+
+O servidor submete cada linha a algumas regras, as mesmas em Local, Global e Grupo. Uma linha que ele recusa não é enviada, o motivo aparece por alguns segundos abaixo do campo e o seu texto volta para o campo.
+
+- **Um limite para a velocidade de envio.** Você pode enviar **5 linhas** de uma vez e depois **mais uma linha a cada 2 segundos**, contadas juntas para Local, Global e Grupo. Se você enviar uma linha quando não sobrar nenhuma, o chat entra em **pausa** para você: **10 segundos** na primeira vez e depois **30**, **120** e **300 segundos** a cada reincidência em até 10 minutos da última pausa (depois de 10 minutos sem pausa, a contagem recomeça). Enquanto durar, o botão Enviar fica cinza e “Chat pausado: 7 s” faz a contagem regressiva abaixo do campo. **O texto que você digitou continua no campo** e o campo mantém o teclado: espere ou pressione **Escape**. Uma conversa normal nunca chega ao limite. Uma linha que as regras recusam conta como 2 linhas da sua cota.
+- **200 caracteres** por linha. Um contador (“150/200”) aparece a partir de 120 caracteres, e uma linha mais longa é cortada.
+- **Só letras latinas.** As letras dos alfabetos latinos com os seus acentos (é, ß, ñ, ø, ő), dígitos, a pontuação comum e os sinais ¡ ¿ « » ° £ €. Cirílico, chinês, japonês, coreano, emojis e outros símbolos são recusados, e o campo os descarta enquanto você digita ou cola.
+- **Sem links.** Uma linha com um endereço da web, um link de convite ou um e-mail é recusada, mesmo quando disfarçada das maneiras mais comuns. Só palavras não têm problema: “join my discord” passa.
+- **Sem repetições.** A mesma linha da sua última, enviada de novo em menos de 10 segundos, é recusada, e também uma linha com o mesmo caractere mais de 8 vezes seguidas ou sem nenhuma letra nem dígito.
+
+Os administradores não estão sujeitos a essas regras, só aos 200 caracteres. As regras exigem um servidor de jogo a partir da 0.4.9; um mais antigo limita só o Global, a 3 linhas de uma vez e depois uma a cada 2 segundos.
 
 ### O registro de baixas {#the-kill-feed}
 
@@ -69,7 +87,7 @@ O Global alcança todos os pilotos online, então o chat tem três ferramentas p
 - **Ignorar** (clique com o botão direito em um nome e depois em **Ignorar**): as linhas desse piloto no Global e no Local ficam ocultas, e os convites de grupo dele são recusados sem perguntar a você. Ele não é avisado. As linhas dele continuam visíveis na aba **Grupo**: um colega de grupo que você ignora continua sendo do seu grupo, então saia do grupo para se livrar dele. As linhas do próprio servidor nunca são ocultadas. **Deixar de ignorar** está no mesmo menu, e **Configurações › Interface › Chat** lista os pilotos ignorados (até 200) com um botão **Remover** para cada um.
 - **Denunciar** (clique com o botão direito em um nome e depois em **Denunciar…**): escolha um motivo (spam, ofensas ou assédio, trapaça ou outro motivo) e envie. A denúncia leva o seu nome, o do piloto, o canal, o motivo e a última linha desse piloto que o seu chat mostra (até 200 caracteres). Os administradores do jogo a leem; ninguém é punido automaticamente, e o piloto não fica sabendo quem o denunciou. Você pode enviar 5 denúncias por hora.
 
-A sua lista de ignorados e a opção de ocultar o Global ficam guardadas na sua conta, então acompanham você em outros computadores. O jogo não tem filtro de palavras nem silenciamentos automáticos: as ferramentas acima são suas para usar.
+A sua lista de ignorados e a opção de ocultar o Global ficam guardadas na sua conta, então acompanham você em outros computadores. O jogo não tem filtro de palavras e não silencia ninguém pelo que diz: a pausa por enviar rápido demais ([As regras do chat](#the-chat-rules)) é a sua única parada automática, e as ferramentas acima são suas para usar.
 
 ## Regras de engajamento {#rules-of-engagement}
 

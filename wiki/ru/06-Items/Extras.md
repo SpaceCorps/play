@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 46436d9c65bc6c7e -->
+<!-- wiki-i18n source: 2b63df451b6a864e -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
-Устройства — это приспособления в **слотах устройств** корабля (три на каждом корабле, в каждой конфигурации). Включить устройство можно из списка «Устройства» на панели или из слота панели, который вы ему отдали. Они работают только в той конфигурации, на которой вы летите: если установить устройство в другую конфигурацию, оно ждёт, пока вы её не смените.
+Устройства — это приспособления в **слотах устройств** корабля (три на каждом корабле, в каждой конфигурации, а с Extra Slots CPU — больше). Включить устройство можно из списка «Устройства» на панели или из слота панели, который вы ему отдали. Они работают только в той конфигурации, на которой вы летите: если установить устройство в другую конфигурацию, оно ждёт, пока вы её не смените.
 
 | Устройство | Что делает | Использования | Цена |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,44 @@
 
 Cloaking CPU и EMP Charge продаются только в магазине. Их нельзя объединять, и бесплатно их нигде не выдают.
 
+Ещё семь CPU не продаются: Сборочный цех создаёт их, когда Исследовательский центр Skylab их исследует (см. [Исследования](/wiki/03-Mechanics/Research.md)). Это Extra Slots CPU I, II и III, Jump CPU, Base CPU I и II и Auto-Repair CPU; что делает каждый, сказано в [последнем разделе](#research-cpus). Как и Cloaking CPU, Jump CPU и Base CPU рассчитаны на спокойный момент: ни один из трёх не запускается в течение 10 секунд после вашего выстрела или полученного попадания.
+
+У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, **EMP** — EMP Charge, а **ARP**, **BSE** и **JMP** — Auto-Repair CPU, Base CPU и Jump CPU. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
+
+<!-- item-tree:begin -->
+<!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
+
+## Дерево предметов {#item-tree}
+
+То, что создаёт Сборочный цех, сначала требует своей технологии; наведите курсор на предмет, чтобы увидеть, сколько длится её исследование. Дерево технологий, топливо и буст: [Исследования](/wiki/03-Mechanics/Research.md).
+
+```tree
+Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
+Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
+Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+
+Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
+Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
+Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
+Base CPU I -> Base CPU II
+```
+<!-- item-tree:end -->
+
 ## Ремонтные дроны {#repair-drones}
 
-Включите Repair Drone (REP), и он будет чинить корпус, пока тот не станет целым. Он начинает работать только после 10 секунд без попаданий, а любое попадание его выключает. Если установлено несколько, работает лучший из них. Скорость ремонта указана на странице [Бой](/wiki/03-Mechanics/Combat.md).
+Включите Repair Drone (REP), и он будет чинить корпус, пока тот не станет целым. Он начинает работать только после 10 секунд без попаданий, а любое попадание его выключает. Если установлено несколько, работает лучший из них. [Auto-Repair CPU](#auto-repair-cpu) включает его заново за вас. Скорость ремонта указана на странице [Бой](/wiki/03-Mechanics/Combat.md).
 
 ## Cloaking CPU {#cloaking-cpu}
 
@@ -49,3 +84,55 @@ S, M и L работают одинаково: большие наборы ли�
 - Пришелец, по которому вы попали в течение этих 3 секунд, не переключается на вас, пока они не закончатся. Ваше право на добычу и правила первого попадания не меняются.
 - **Что вы видите.** От пилота расходится импульс искривлённого пространства — на то расстояние, на которое импульс прерывает маскировки (1 500 единиц); его видят все в зоне досягаемости, а пилота на эти 3 секунды окружает потрескивающая электрическая оболочка; вокруг вашего корабля показано кольцо, а вверху экрана — плашка, которые отсчитывают время. Кольцо цели у каждого, кто выбрал вас целью, рассыпается с коротким разрядом. Слот EMP показывает число имеющихся у вас зарядов, горит синим, пока оболочка активна, и затемняется на время перезарядки.
 - **Один заряд — одно применение.** Слот пополняется из вашего инвентаря, если у вас есть ещё заряды. Эти **30 секунд** перезарядки не сохраняются: выход из игры или прыжок через портал сбрасывает их, а следующий импульс тратит заряд.
+
+## CPU Исследовательского центра {#research-cpus}
+
+<!-- research-cpus:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| CPU | Время исследования | Сначала нужна | Thulium на создание | Время создания |
+| :--- | :--- | :--- | ---: | ---: |
+| [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 мин | – | 12 000 | 5 мин |
+| [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 ч | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 000 | 10 мин |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 д | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75 000 | 15 мин |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 ч | – | 8 000 | 5 мин |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 ч | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20 000 | 10 мин |
+| [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 д | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 мин |
+| [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 ч | – | 15 000 | 10 мин |
+
+Ни один не продаётся в магазине: исследуйте технологию, затем создайте CPU в Сборочном цехе. Наведите курсор на CPU в его дереве, чтобы увидеть, что для него требует Сборочный цех.
+
+### Extra Slots CPUs {#extra-slots-cpus}
+
+- **Что они делают.** Extra Slots CPU I, II и III добавляют каждому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые уже есть у каждого корабля, всего получается 6, 8 и 10. Более высокий CPU заменяет предыдущий: II не прибавляется к I.
+- **Устанавливается, а не носится.** Extra Slots CPU — не предмет: когда вы забираете его в Сборочном цехе, он устанавливается в ваш Skylab, действует на каждый корабль в обеих конфигурациях и не занимает слот. Остаётся после вайпа.
+- **По порядку.** Создавайте их один за другим: II — только когда установлен I, III — только когда установлен II; до тех пор Сборочный цех подскажет, какой установить сначала. Все три стоят 117 000 Thulium: 12 000, 30 000 и 75 000.
+
+### Jump CPU {#jump-cpu}
+
+- **Что делает.** Прыгает на вашем корабле в любой корпоративный сектор вашего мира — и вашей корпорации, и других, включая их домашние секторы (`M`, `T` и `G`, секторы с 1 по 4) — за **500 Thulium** за прыжок. Число использований не ограничено: платите только Thulium. В Опасный сектор (`DS`) и в нейтральный сектор (`N`) не ведёт никогда.
+- **Прыжок.** Нажмите слот JMP, выберите сектор на карте «Звёздная система» и подтвердите: корабль заряжается 5 с, затем прибывает к вратам этого сектора под защитой, как после любого прыжка через врата. После прибытия CPU остывает 30 с.
+- **Не в бою.** Нельзя начать в течение 10 с после выстрела или попадания, а выстрел или попадание во время зарядки отменяют прыжок; тогда ничего не списывается. Прыгать в маскировке нельзя.
+- **Не из нейтрального сектора:** пилот в нейтральном секторе или без корпорации не может пользоваться им.
+- Он может вывести из Опасного сектора, если вы не в бою.
+
+### Base CPUs {#base-cpus}
+
+- **Что делают.** Телепортируют ваш корабль на базу вашей корпорации, в безопасную зону вокруг её станции (`M-1`, `T-1` или `G-1`, сектор с Mission Control) без затрат Thulium. Запускаются со слота BSE на панели.
+- **Не в бою.** Зарядка — 10 с, одинаковая для обоих. Нельзя начать в течение 10 с после выстрела или попадания, в маскировке или когда вы уже в безопасной зоне своей базы, а выстрел или попадание во время зарядки её отменяют.
+
+| CPU | Использований | Перезарядка |
+| :--- | ---: | ---: |
+| [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 10 | 10 мин |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 25 | 5 мин |
+
+- **Расходуется, не перезаряжается.** Каждое использование тратит одно из использований CPU, а CPU без использований исчезает: создайте новый. Если установлены оба, первым расходуется лучший (II).
+
+### Auto-Repair CPU {#auto-repair-cpu}
+
+- **Что делает.** Сам выпускает Repair Drone, установленный в ваших слотах устройств, всякий раз, когда вы могли бы выпустить его вручную: корпус не полон, дрон ещё не выпущен и с последнего попадания прошло 10 с. Порог корпуса настраивать не нужно.
+- Занимает собственный слот устройств и ничего не делает без Repair Drone в слоте устройств той же конфигурации. Repair Drone из слота способностей он никогда не выпускает (это кнопка Emergency Repair).
+- **Если вы остановите дрон вручную,** CPU не трогает его, пока корпус снова не станет полным или пока вы сами не выпустите дрон.
+
+
+<!-- research-cpus:end -->

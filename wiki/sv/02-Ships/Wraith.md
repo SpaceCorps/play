@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 966d5a0c10cc8d2a -->
+<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith {#wraith}
 
@@ -23,6 +23,16 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 - **Krediter**: 0 (Byggs i Monteringen)
 - **Thulium**: 0
+
+## Forskning {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Forska först.** Monteringen tillverkar det här skeppet först när du har forskat fram dess teknologi: 2 d forskning och 10 Dark Matter som ska sättas i forskningscentrumet. Den finns i [trädet Skepp](/wiki/03-Mechanics/Research.md#tree-ships) på sidan [Forskning](/wiki/03-Mechanics/Research.md).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Bakgrund {#lore}
 

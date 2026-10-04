@@ -18,7 +18,7 @@ L’essaim Dormant est une **Dormant Force** avec ses **Dormant Pulses** : un g
 - **Meneur détruit** : Dormant Pulse prend la tête
 - **Déplacements** : Reste 8 à 15 min sur une carte, puis vole vers le portail d’un autre secteur dangereux. Il ne prend jamais les portails qui sortent des secteurs dangereux et n’entre jamais dans l’anneau du trou noir
 - **Revient** : 1 h après la destruction de tout l’essaim, dans un secteur dangereux tiré au hasard
-- **Annonces** : Le chat du monde entier annonce quand l’essaim apparaît et quand il est détruit. Un marqueur le montre sur les cartes des secteurs dangereux et sur la carte de la galaxie. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
+- **Annonces** : Les pilotes du monde entier sont prévenus quand l’essaim apparaît et quand il est détruit. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. Un marqueur le montre sur les cartes des secteurs dangereux et sur la carte de la galaxie. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
 
 <!-- dormant-glance:end -->
 
@@ -60,7 +60,7 @@ Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse e
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 7 500 | 11 250 | 15 000 |
-| Crédits | 160 000 | 320 000 | 480 000 |
+| Crédits | 200 000 | 400 000 | 600 000 |
 | Thulium | 535 | 1 070 | 1 605 |
 | Expérience (XP) | 32 100 | 64 200 | 96 300 |
 | Honneur | 139 | 278 | 417 |
@@ -87,7 +87,7 @@ Base : Paragon, avec 100 % de coque, de bouclier et de dégâts ; la vitesse 
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 5 000 | 7 500 | 10 000 |
-| Crédits | 75 000 | 150 000 | 225 000 |
+| Crédits | 95 000 | 190 000 | 285 000 |
 | Thulium | 255 | 510 | 765 |
 | Expérience (XP) | 15 200 | 30 400 | 45 600 |
 | Honneur | 66 | 132 | 198 |

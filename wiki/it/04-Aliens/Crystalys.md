@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e44251b88441c46e -->
+<!-- wiki-i18n source: d702dc155ccb9254 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys {#crystalys}
 
@@ -15,7 +15,7 @@ Il Crystalys è un’imponente entità aliena di classe corazzata. Incontrarne u
 
 ## Ricompense {#rewards}
 
-- **Crediti**: 60.000
+- **Crediti**: 75.000
 - **Thulium**: 200
 - **Esperienza (XP)**: 12.000
 - **Onore**: 52

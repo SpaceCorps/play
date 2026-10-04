@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d1f973df95aefca8 -->
+<!-- wiki-i18n source: f0eea7ebd1631a1f -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker {#seeker}
 
@@ -24,7 +24,7 @@ Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket bet
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 800
+- **Krediter**: 1 000
 - **Thulium**: 4
 - **Erfarenhet (XP)**: 100
 - **Heder**: 2

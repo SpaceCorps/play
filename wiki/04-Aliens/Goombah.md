@@ -22,7 +22,7 @@ Goombahs are formidable cruiser-class alien vessels. They possess high shield ca
 
 ## Rewards
 
-- **Credits**: 12,000
+- **Credits**: 15,000
 - **Thulium**: 75
 - **Experience (XP)**: 3,000
 - **Honor**: 24

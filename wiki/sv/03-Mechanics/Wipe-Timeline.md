@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 315d774a2584f57e -->
+<!-- wiki-i18n source: 11c0c437552d59ea -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -61,7 +61,7 @@ För ytterligare föremål i ditt inventarie som du vill spara (t.ex. reservvape
   * *Resurser / mineraler*: Varierande vikter beroende på sällsynthet (en Reinforced Plate från Skylabs Smedja väger 5 kg)
   * *Raketer*: ingen vikt alls: de tar inget utrymme i förrådet, så hela staplar får plats (se [Raketer](/wiki/06-Items/Rockets.md))
 
-Din [Skylab](/wiki/03-Mechanics/Skylab.md) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet.
+Din [Skylab](/wiki/03-Mechanics/Skylab.md) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Forskningscentrumet behåller också allt som [Forskning](/wiki/03-Mechanics/Research.md) rymmer: dina teknologier, vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten. Det gör även de Extra Slots CPU som du har installerat, eftersom de inte är föremål. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet.
 
 ### Bekräfta och lås {#confirm-lock}
 Innan säsongen tar slut måste du klicka på **Bekräfta och lås** i gränssnittet Materialiserare.

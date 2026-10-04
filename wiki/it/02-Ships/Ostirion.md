@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 537fd4254b4d62ce -->
+<!-- wiki-i18n source: 5b212b6031f9baed -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion {#ostirion}
 
@@ -23,6 +23,16 @@ L’Ostirion è un solido intercettore di fascia media, che offre un netto migli
 
 - **Crediti**: 425.000
 - **Thulium**: 0
+
+## Ricerca {#research}
+
+<!-- research-ship:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+- **Nessuna ricerca necessaria.** Questa nave non ha una tecnologia propria.
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+
+<!-- research-ship:end -->
 
 ## Storia {#lore}
 
