@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -39,7 +39,7 @@ Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyag
 
 ## Küldetések megosztása {#sharing-missions}
 
-Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is, aki ugyanazon a térképen van, és **az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt bármire**, bárhol is van rajta, mintha ő maga semmisítette volna meg az idegent. A küldetés saját szabályai továbbra is döntenek: az idegennek a küldetés fajtájúnak kell lennie, a szektornak pedig a küldetésben megnevezettnek. Annak a csoporttársnak, aki nem lőtt, vagy másik térképen van, a kilövés nem számít be. A küldetések megtartják a saját vállalatuk szabályait: az a küldetés, amely egy kilövést kér „egy másik vállalat 4-es szektorában”, annak a tagnak számít, akinek az a szektor másik vállalaté. Amikor egy csoporttárs kilövése beszámít az egyik küldetésedbe, egy értesítés megmondja, melyikbe.
+Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is, aki ugyanazon a térképen van, és **az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt bármire**, bárhol is van rajta, mintha ő maga semmisítette volna meg az idegent. A küldetés saját szabályai továbbra is döntenek: az idegennek a küldetés fajtájúnak kell lennie, a szektornak pedig a küldetésben megnevezettnek. Annak a csoporttársnak, aki nem lőtt, vagy másik térképen van, a kilövés nem számít be. A küldetések megtartják a saját vállalatuk szabályait: az a küldetés, amely egy kilövést kér „egy másik vállalat 4-es szektorában”, annak a tagnak számít, akinek az a szektor másik vállalaté. Amikor egy csoporttárs kilövése beszámít az egyik küldetésedbe, egy értesítés megmondja, melyikbe. A [Kihívások sorában](/wiki/03-Mechanics/Quests.md#where-it-counts) ráadásul a csoporttagnak a roncstól legfeljebb **4 000 egységre** kell lennie, hogy számítson, és minden csoporttag, akinek van küldetéstárgyas küldetése, a saját tárgyát dobja és látja: senki nem tud megosztani egyet.
 
 ## Chatcsatornák {#chat-channels}
 

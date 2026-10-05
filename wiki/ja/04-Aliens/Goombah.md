@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Goombah は手強いクルーザー級のエイリアン艦です。シールド容量が大きく、与えるダメージも甚大ですが、自分から戦いを仕掛けることはありません。Goombah が攻撃するのは、自分を攻撃したパイロットだけです。[群れ](/wiki/05-Swarms/Swarms.md)の艦は別種のエイリアンで、「群れ」カテゴリーに専用の記事があります。
 

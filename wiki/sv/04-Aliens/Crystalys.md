@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 Crystalys är en massiv utomjordisk enhet i slagskeppsklass. Att möta en är mycket farligt och kräver exceptionell sköldkapacitet och eldkraft för att överleva. Den går efter varje oskyddad pilot inom sin aggroradie (900 enheter) och släpper taget när piloten är mer än 1 200 enheter bort eller efter att ha flugit 2 000 enheter från där jakten började (2 500 och 3 000 för en pilot som sköt på den, se [Strid](/wiki/03-Mechanics/Combat.md)); en pilot som träffade den under de senaste 10 sekunderna släpper den inte alls, och Crystalys flyger mot den piloten så fort piloten är utanför dess vapenräckvidd (900 enheter). När flera piloter skjuter på den håller den sig till den som sköt först så länge den piloten fortsätter träffa den (se [Vem en utomjording slåss mot](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md) är särskilda slags utomjordingar, med egna artiklar i kategorin Svärmar.
 

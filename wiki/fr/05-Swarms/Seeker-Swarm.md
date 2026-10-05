@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Essaim Seeker -->
 # Essaim Seeker {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Base : Seeker, avec 400 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine.
 
@@ -74,7 +74,7 @@ Base : Seeker, avec 400 % de coque, de bouclier et de dégâts ; la vitesse e
 | Ultra Core | 100 % | 2–4 |
 | L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Base : Seeker, avec 100 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine.
 

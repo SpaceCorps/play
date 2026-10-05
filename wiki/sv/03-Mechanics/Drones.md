@@ -1,24 +1,28 @@
-<!-- wiki-i18n source: 5a4769d6626caeff -->
+<!-- wiki-i18n source: e65164e763773d17 -->
 <!-- wiki-i18n title: Drönare -->
 # Drönarmekanik {#drone-mechanics}
 
-Drönare är autonoma stödenheter som flyger vid sidan av ditt skepp. De ger extra utrustningsplatser och bidrar direkt till skeppets stridsprestanda. En Slave Drone växer dessutom: den får erfarenhet varje gång du förstör en utomjording och stiger genom **åtta nivåer**, från ett litet pansrat klot till ett kanonskepp med vingar som en månskära. I Monteringen kan en Slave Drone uppgraderas till en **Master Drone**, som börjar om sina nivåer (se Master Drone nedan).
+Drönare är autonoma stödenheter som flyger vid sidan av ditt skepp. De ger extra utrustningsplatser och bidrar direkt till skeppets stridsprestanda. En Slave Drone växer dessutom: den får erfarenhet varje gång du förstör en utomjording och stiger genom **åtta nivåer**, från ett litet pansrat klot till ett kanonskepp med vingar som en månskära. I Monteringen kan en Slave Drone uppgraderas till en **Master Drone**, som börjar om sina nivåer (se Master Drone nedan). Drönare låter dig också bära en **drönarformation**: den fungerar bara om du har minst en drönare i din flotta (se [Drönarformationer](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Skaffa drönare {#getting-drones}
 
 Varje drönare du har, en **Slave Drone** eller en Master Drone, öppnar sina drönarplatser (en för en Slave Drone, två för en Master Drone), upp till **8** drönare. Butiken säljer Slave Drone för krediter, och från den fjärde även för Thulium. Varje drönare kostar mer än den förra: priserna finns under [Drönare](/wiki/06-Items/Drones.md).
 
-## Formation och rörelse {#formation-movement}
+## Flyguppställning och rörelse {#formation-movement}
 
-Drönare flyger i en standardformation av typen **”Wingman” (2-2-4)**:
+Drönare flyger i en standarduppställning av typen **”Wingman” (2-2-4)**:
 
 - **2 drönare** bredvid skeppet, en på varje flank.
 - **2 drönare** bredvid och strax bakom det.
 - **4 drönare** som följer efter.
 
-De använder en mjuk följealgoritm som justerar deras position efter ditt skepps hastighet och rotation och drar ihop formationen under skarpa manövrar. Ingen flyger framför dig.
+De använder en mjuk följealgoritm som justerar deras position efter ditt skepps hastighet och rotation och drar ihop uppställningen under skarpa manövrar. Ingen flyger framför dig.
 
-Drönare är små och håller sig nära: en drönare på nivå 8 är omkring 19,5 enheter bred (en Protos är 50) och en drönare på nivå 1 är ett klot på ungefär 8, så hela formationen ryms inom ungefär 135 enheter från ditt skepp. Drönaren du köpte först har mest erfarenhet och flyger på din vänstra flank, den andra på din högra, och de nyaste följer efter bakom.
+Drönare är små och håller sig nära: en drönare på nivå 8 är omkring 19,5 enheter bred (en Protos är 50) och en drönare på nivå 1 är ett klot på ungefär 8, så hela uppställningen ryms inom ungefär 135 enheter från ditt skepp. Drönaren du köpte först har mest erfarenhet och flyger på din vänstra flank, den andra på din högra, och de nyaste följer efter bakom.
+
+Den här uppställningen är bara hur drönarna ser ut, och den är densamma oavsett vilken [drönarformation](/wiki/03-Mechanics/Formations.md) du bär. En drönarformation är en uppsättning bonusar och priser, inte ett annat sätt att flyga.
 
 ## Utrustning och värden {#equipment-stats}
 
@@ -27,8 +31,9 @@ Drönare fungerar som utbyggbara utrustningsställ för ditt skepp.
 - En Slave Drone har **1 plats** och en Master Drone **2**, upp till **8 drönare**.
 - Du kan utrusta **lasrar** och **sköldar** i de här platserna, i vilken plats som helst på en Master Drone. Inget annat passar: inga motorer, inga adaptiva kärnor.
 - **Lasrar räknas fullt ut.** En laser på en drönare skjuter när du skjuter, lägger sin skada till din salva och förbrukar ammunition som vilken annan laser som helst (varje laser gör av med ett skott ammunition per salva). De två lasrarna på en Master Drone är två lasrar.
-- **Sköldar räknas fullt ut också.** En sköld på en drönare räknas som en i en kärnplats, i vilken plats som helst: dess kapacitet och återladdning med dess celler, dess absorption i ditt skepps medelvärde, dess sköldbonus och dess fartavdrag. Den rangordnas med skeppets egna sköldar efter kapacitet (de fyra största räknas fullt ut, den femte och senare för mindre, se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)), och Smedjans bonusar, säsongsbutikens buffar och en angripares sköldgenomträngning verkar på den som på vilken sköld som helst. Drönarens nivå höjer bara dess laser, aldrig dess sköld. Medan en drönare uppgraderas är dess platser offline, både skölden och lasern. Före 0.4.7 gav en sköld på en drönare ingenting.
+- **Sköldar räknas fullt ut också.** En sköld på en drönare räknas som en i en kärnplats, i vilken plats som helst: dess kapacitet och återladdning med dess celler, dess absorption i ditt skepps medelvärde, dess sköldbonus och dess fartavdrag. Den rangordnas med skeppets egna sköldar efter vad som räknas efter platsens andel (en drönares plats räknas 100 %; de fyra bästa räknas fullt ut, den femte och senare för mindre, se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)), och Smedjans bonusar, säsongsbutikens buffar och en angripares sköldgenomträngning verkar på den som på vilken sköld som helst. Drönarens nivå höjer bara dess laser, aldrig dess sköld. Medan en drönare uppgraderas är dess platser offline, både skölden och lasern. Före 0.4.7 gav en sköld på en drönare ingenting.
 - **Laser eller sköld?** En plats rymmer det ena eller det andra: en laser lägger en laser till din salva, en sköld lägger till sina sköldpoäng. På ett litet skepp med bra sköldar tillför de extra poängen lite, eftersom skrovet tar slut först; på ett stort skrov gör de att du tål mycket mer.
+- **Formationer kräver en drönare, inte en plats.** En [drönarformation](/wiki/03-Mechanics/Formations.md) fungerar så länge du äger minst en drönare. Den tar ingen drönarplats, och antalet drönare, deras nivåer och vad de bär ändrar ingenting.
 
 ## Nivåer {#levels}
 
@@ -83,7 +88,7 @@ Varje Slave Drone börjar på nivå 1 och får erfarenhet (XP) varje gång du f�
 
 Kurvan är ställd så att en ny drönare når nivå 2 på ungefär en timmes normalt spel (jakt på Bulwark och Goombah), och nivå 8 på ungefär 27 timmars spel. De timmarna gäller en pilot som köper den första drönaren vid ungefär uppdragen på nivå 7; med svagare utrustning tar det längre (upp till ungefär 4 timmar för nivå 2 och 150 timmar för nivå 8). Att jaga en enda sorts utomjording är i bästa fall ungefär 1,5 gånger så snabbt som en vanlig blandning. Drönare följer med genom säsongens wipe med sina nivåer och sin erfarenhet, så de timmarna läggs ner en gång, över så många säsonger som det tar: en pilot som spelar en halvtimme om dagen kommer dit på ett par säsonger.
 
-### Master Drone {#master-drone}
+### Master Drone
 
 En Slave Drone blir en **Master Drone** när du uppgraderar den i Monteringen, sedan Master Drones teknologi är framforskad ([Forskning](/wiki/03-Mechanics/Research.md)). Receptet kostar 40 000 Thulium och 100 Ship Fragment och tar 60 sekunder, och det förbrukar ingen drönare: **du väljer vilken Slave Drone det gäller** (väljaren visar nivå och XP för var och en), och just den drönaren, med sitt nummer, sin drönarplats och allt som sitter i den, förvandlas till en Master Drone när jobbet är klart, med en andra plats som är tom. Ingenting hamnar i ditt inventarie och det finns inget att hämta: Spelloggen talar om när det är klart, även för en uppgradering som blev klar medan du var borta.
 
@@ -97,3 +102,4 @@ En Master Drone är en av dina 8 drönare: den räknas mot drönargränsen och m
 
 - **Lasrar**: Drönare avfyrar sina utrustade lasrar mot ditt låsta mål.
 - **Skada**: Drönare kan ta skada (om logik för separata enheter finns; för närvarande delar de mest skeppets pool men är visuellt separata). _Obs: För närvarande är drönare oförstörbara förlängningar av skeppet._
+- **Repair Drones**: föremålen Repair Drone (I till IV) är [extrautrustning](/wiki/06-Items/Extras.md#repair-drones), inte drönare i din flotta. Medan en lagar ditt skrov flyger små reparationsdrönare ut ur skeppet, cirklar runt det och riktar strålar mot det, och piloter i närheten ser dem.

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm grande capacidade de escudo e causam um dano enorme, mas nunca começam um combate: um Goombah ataca apenas o piloto que o atacou. As naves dos [enxames](/wiki/05-Swarms/Swarms.md) são tipos de alienígena à parte, com artigos próprios na categoria Enxames.
 

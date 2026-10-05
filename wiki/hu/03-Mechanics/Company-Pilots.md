@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 56d4ff7e377afa21 -->
+<!-- wiki-i18n source: a811f0df5512e3b7 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
 Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`M-1`–`M-4`, `T-1`–`T-4`, `G-1`–`G-4`). Éjjel-nappal a vállalatukért repülnek, és segítenek a vállalat pilótáinak.
+
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Kik ők {#who-they-are}
 
@@ -12,6 +15,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
   - elnyelés 45%: a pajzsaik minden találat 45%-át fogják fel, a hajótest pedig az 55%-át
   - sortűzenként 195 alapsebzés (x1 lőszer), nincs kritikus esély, hatótáv: 700
 - **A minitérképen**: zöld rombusz a saját vállalatod pilótáinak, borostyánsárga egy másik vállalatéinak.
+- **Nincs rang**: a pilóta neve előtti kis jel repülés közben a pilóta [rangja](/wiki/03-Mechanics/Ranks.md), és valódi pilótáké. A vállalati pilótáknak nincs. A Vállalat oldal a vállalatod valódi pilótáit rangsorolja PvE-pontjaik szerint.
 
 ## Mit csinálnak {#what-they-do}
 

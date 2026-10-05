@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 Phantasm är aggressiva, spöklika drönare. De angriper varje spelare som kommer in i deras aggroradie (700 enheter) och tappar intresset när piloten är mer än 1 200 enheter bort eller efter att ha flugit 2 000 enheter från där jakten började (2 500 och 3 000 för en pilot som sköt på dem, se [Strid](/wiki/03-Mechanics/Combat.md)); en pilot som träffade en av dem under de senaste 10 sekunderna släpper de inte alls, och en Phantasm flyger mot den piloten så fort piloten är utanför dess vapenräckvidd (700 enheter). När flera piloter skjuter på en Phantasm håller den sig till den som sköt först så länge den piloten fortsätter träffa den (se [Vem en utomjording slåss mot](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md) är särskilda slags utomjordingar, med egna artiklar i kategorin Svärmar.
 

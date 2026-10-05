@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.9"
-date: "2026-10-04"
+version: "0.4.10"
+date: "2026-10-05"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 125938803
-    sha256: "7d4bc113e2fc3d504de1960fd782b92d9d5cfc8b5192d890bdacb3e465a386f5"
+    size: 133357228
+    sha256: "19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 120677074
-    sha256: "f4372acce983e94f9c7aab186f16ab66088564f4c151c0439d8b88e57b4f281e"
+    size: 127838255
+    sha256: "67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 116443640
-    sha256: "bc47ebcbaa10690e89ce353ba5bed1d2730685f7f421d64331930e911b925862"
+    size: 123550200
+    sha256: "581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 121457405
-    sha256: "4be11f2d98fd22522036006a13b28be70bb79fd629ec3544370915621761be30"
+    size: 128644851
+    sha256: "1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.9)
+## Downloads (Version 0.4.10)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (125.9 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `7d4bc113e2fc3d504de1960fd782b92d9d5cfc8b5192d890bdacb3e465a386f5` |
-| **Windows** | x86_64 | `.zip` (120.7 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `f4372acce983e94f9c7aab186f16ab66088564f4c151c0439d8b88e57b4f281e` |
-| **Linux** | x86_64 | `.AppImage` (116.4 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `bc47ebcbaa10690e89ce353ba5bed1d2730685f7f421d64331930e911b925862` |
-| **Linux** | x86_64 | `.tar.gz` (121.5 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `4be11f2d98fd22522036006a13b28be70bb79fd629ec3544370915621761be30` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (133.4 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9` |
+| **Windows** | x86_64 | `.zip` (127.8 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4` |
+| **Linux** | x86_64 | `.AppImage` (123.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb` |
+| **Linux** | x86_64 | `.tar.gz` (128.6 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669` |
 <!-- /release:downloads -->
 
 ---
@@ -72,201 +72,190 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.9 · 2026-10-04
+### 0.4.10 · 2026-10-05
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.9)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.10)
 
-SpaceCorps 2027 0.4.9 adds the Research Centre to the Skylab: from Core level 10 you feed it resources and research technologies, and every craft in Assembly now needs its technology (you keep the technology of everything you already own). It brings seven new CPUs (Extra Slots I, II and III, the Jump CPU, Base CPU I and II and the Auto-Repair CPU), two new ships (the Nomad cruiser, sold in the Shop, and the Storm, a glass-cannon starfighter made in Assembly), a chat with rules (a System tab, a speed limit, Latin letters and no links), a black hole drawn by ray tracing that bends the sky behind it, 25 percent more credits from every alien, a Company page where you change company for 5,000 Thulium, new sounds, item trees and a Research page in the wiki, and a faster Assembly page. A few things get stricter or cost more, so the "If you already play" list below is worth reading.
+SpaceCorps 2027 0.4.10 rebuilds the Skylab's numbers and adds 16 drone formations in two new research trees, reworked level missions (quest items, visits, stays, hull limits) with a Challenge line of 50 very hard missions, a daily line of missions for clans with three Clan Wardens and permanent clan boosts, company ranks, a ring of jump gates between the companies, and a wiki with pictures and search. The Skylab's farms, collectors, Storage, Forgery and Solar each have their own output, price and upgrade time at every one of their 20 levels; you keep your levels, nothing is charged or refunded, and what your farms had stored is paid out once at the old rate. A Solar upgrade now stops the farms of almost every station until it is done. The 16 formations change your ship's shield, hull, speed, lasers, rockets and kill rewards, and you change the one you wear from the hotbar every 2 seconds. It also fixes a ship's total shield falling when you add a shield or a cell, and closes two loopholes in how lasers and extras are fitted. Some things get stricter or cheaper, so the "If you already play" list below is worth reading.
 
 #### What's new
 
 **Highlights**
-- **The Research Centre** is a new Skylab module, built from Core level 10 (25 Ship Fragments, 25,000 credits, 500 Thulium). You feed it ten kinds of resource (the rarer, the more science), it turns them into science points, and it spends them researching technologies, one at a time, also while you are away. A new **Research** view next to Station, List and Table shows the tree, the tank and the Centre's controls.
-- **Every craft in Assembly needs its technology.** There are **37 technologies**, one for each thing Assembly makes. **You keep the technology of everything you own, have queued or have booster time left of** (see below); what you do not have yet you research: from 30 minutes (Impulse Thruster II) to 2 days (the Wraith). The whole tree takes 15.9 days one after another.
-- **A Thulium boost** (5,000 Thulium) doubles the speed of a running research for 24 hours and burns the fuel twice as fast, so the same fuel in half the time. Boosts stack up to 72 hours. **The 15 highest technologies also need 10 Dark Matter** plugged into the Centre (150 in all).
-- **Seven new CPUs**, researched and then **crafted in Assembly** (they are not sold): **Extra Slots CPU I, II and III** give every ship +3, +5 or +7 extra slots (6, 8 or 10 in all), the **Jump CPU** jumps you to any company sector for 500 Thulium, **Base CPU I and II** teleport you to your company's base (10 and 25 uses), and the **Auto-Repair CPU** launches your Repair Drone by itself.
-- **Two new ships.** The **Nomad** (Class II Cruiser, Shop, 1,275,000 credits and 500 Thulium): 96,000 hull, 6 lasers, twice an Ostirion's hull and guns. The **Storm** (Class III Starfighter, made in Assembly for 15,000 Thulium): the fastest ship (base speed 240) with 10 lasers and a light hull of 160,000. Both are new models; their previews need the new client.
-- **Chat with rules.** A **System** tab holds the server's own lines, Enter keeps you typing, and a speed limit, a 200-character cut, Latin letters only and no links keep the channels readable. Chat takes the Latin alphabet with accents, so Cyrillic, Chinese, Japanese, Korean and emoji are no longer allowed.
-- **Sounds for your actions:** 16 new interface sounds (collecting in the Skylab, building and upgrading, switching views, every step of the Forge, sending a chat line, feeding the Research Centre, starting and finishing a research) and 3 new in-world sounds (a warp CPU charging and being called off, the Auto-Repair CPU launching the drone).
-- **The black hole bends light.** From Medium graphics up it is drawn by ray tracing: a black shadow with a thin photon ring, the far side of the glowing disk arched over the top and under the hole as in Interstellar, the sky behind it pulled around it, and ships that pass in front of it drawn in front. Low keeps the old picture.
-- **Every alien pays 25 percent more credits** (Seeker 1,000, Phantasm 3,000, Bulwark 5,000, Goombah 15,000, Crystalys 75,000), and so do the swarm members (the Dormant Pulse a little more: 95,000 for 75,000). Thulium, experience and honor are as before.
-- **Company page** (Economy > Company): change company for **5,000 Thulium** (it used to be 5,000 credits, with no screen to do it) and **half of your honor**. Not while your ship is in flight.
-- **Assembly and the Shop are smooth again** for pilots with a big inventory: a frame of the Assembly page took about 60 milliseconds with 600 items and takes about 1 now.
-- **The wiki draws item trees** on the Lasers, Rockets, Shields, Propulsion, Extras, Drones and Boosters pages and on a new Item Trees page, has a new **Research** page and articles for the **Nomad** and the **Storm**, and explains the chat rules, the Company page and the CPUs, in 12 languages.
-- **Fixes:** swarm followers no longer fly off the edge of the map, a boss's damage record no longer stops counting new pilots after 256, and the recipes' material lines no longer change their order after every server restart.
+- **The Skylab has new tables.** The Credit Farm makes 500 credits an hour at level 1 and 50,000 at level 20, the Thulium Farm 50 to 1,600 Thulium an hour, the Velkonite Collector 10 to 80 and the Orvium Collector 10 to 40 ore an hour. The first upgrade of each of the farms, collectors, Storage, Forgery and Solar takes 5 minutes and the last 12 to 36 hours, and the climbs cost far less Thulium than before. The Credit Farm is now built free. The whole station to level 20 takes about 18 days instead of 22.6.
+- **Solar makes only 25% of its power while it upgrades.** For almost every station that means the farms and collectors stop until the upgrade is done (up to 24 hours at the top). Plan a Solar upgrade like a blackout of your farms.
+- **16 drone formations**, researched in two new trees of the Research Centre (Defence 6, Strike & Mobility 10) and crafted in Assembly for 7,000 to 46,000 Thulium each. You own them, drag any of them (and a built-in Standard) from the hotbar's Formations menu onto a slot, and click the slot or press its key to wear that formation. You can change once every 2 seconds, in a fight too. A formation works while you own at least one drone.
+- **Level missions are chains.** Of the ten missions of every level, three carry a **quest item** home to Mission Control, two visit marked points, two hold a sector for a number of minutes and three stay plain kill missions; the new steps are added to the kills, and a step can say "do not lose more than N hull points" or "do not die". 64 missions were reworked; levels 3 and 4 are no longer one long Phantasm grind.
+- **The Challenge line:** 50 hard missions in five tiers (Proving Ground, Iron Border, The Centre, The Abyss, Legends), from pilot level 3, with kills by the thousand, vigils of up to 3 hours, convoys, clean runs and a black hole walk, paid in credits, Thulium, experience, items and boosters (honor in tier I). They take your boosters, the world multiplier and your clan's boosts like any other mission.
+- **Clans have a daily line:** four hunts or patrols in order and then the day's **Clan Warden**, a boss only your clan can hurt (three Wardens in rotation, each in three strengths). A finished line pays 100 clan points, which the Leader and Co-Leaders spend on three permanent boosts of ten levels: **Clan Damage** (+0.5% per level), **Clan Thulium** and **Clan Credit** (+1% per level).
+- **Company ranks:** your PvE points earn a military rank, 24 of them from Junior Pilot to Senior Admiral. A small symbol shows before your name on ship tags, in chat, in the kill feed and on profiles, and your rank keeps through the season wipe.
+- **Ships:** the **Storm** has 13 lasers (it had 10), 4 core and 2 auxiliary generator slots and 150,000 hull, and flies at 250. The **Protos** flies at 160 and the **Wraith** at 220. The four ships you buy (Protos, Kitefin, Ostirion and Nomad) have **2 extra slots** instead of 3; the four you craft keep 3. A new pilot starts with a Base CPU I and a Repair Drone I fitted in the Protos' two extra slots.
+- **A ring of jump gates:** each company's x-4 sector has a second gate, to another company's x-3 (Mars M-4 to Terra T-3, Terra T-4 to Galactic G-3, Galactic G-4 to Mars M-3), so there is a loop between the maps that does not cross the Danger Sectors.
+- **Fixes:** adding a shield or a shield cell can no longer lower a ship's total shield, adding a thruster or an engine can no longer lower its speed, an extra now has to sit in a box the ship really has, and a laser fitted with no slot named takes a free laser slot.
+- **Aliens no longer push each other apart**, which takes work off the server on every tick. **Repair Drones fitted as extras** now fly out and beam your hull for everyone to see. **20 new quiet sounds.**
+- **The wiki has pictures and a search:** every article has its own icon, most open with a banner, small icons stand in front of names, a click shows a picture large, and a search box finds text across all articles in your language. New articles: Drone Formations and Ranks.
 
 **If you already play: what changes for you**
-- **Crafting needs research, but you keep what you own.** At the first start of 0.4.9 every pilot is given the technology of everything it holds: items equipped, fitted into another item, loose or in the Transport Cache, rocket stacks you still have, your ships, the boosters you have time left of (Damage Amp II, Hull Plating II, Shield Wall II), and the crafts waiting in your Production Queue. You also get the technologies those needed (holding an Impulse Thruster III gives you the II). **Items that reach you later** (a gift, a bonus code, a quest reward) **do not unlock their technology**, and **a veteran who made a Wraith last season and holds none now has no claim to it**: you research it.
-- **What you lose is the next step, not what you have.** To craft the next tier of anything you do not have a technology for, you research it first. **A pilot below Core 10 cannot research**, so it crafts nothing new until it has Core 10, the Research Centre and a research: the Core climb from level 1 to 10 takes about 3 hours of timers and 112,326 credits, then the Centre's 25,000 credits, 500 Thulium and 25 Ship Fragments; the Centre starts with one free hour of research in its tank.
-- **Research, the tank, the plugged Dark Matter and the boost are kept across the season wipe.**
-- **Extra Slots CPUs are crafted in order:** CPU II only when CPU I is installed, CPU III only when CPU II is installed (12,000 + 30,000 + 75,000 = 117,000 Thulium for the 10 slots). They install in your Skylab when you collect them; there is no item to fit and they take none of the slots they add. A level replaces the one before (CPU II is +5 in all, not +3 and +5).
-- **Aliens pay 25 percent more credits,** and rocket prices did not change, so rockets are about 20 percent cheaper against the pay. Quest rewards are as before.
-- **Changing company costs Thulium now (5,000, not credits) and halves your honor** (rounded down; honor at 0 or below stays as it is). Your first enlistment in Setup is still free and keeps all your honor.
-- **The chat takes fewer characters and no links.** Messages in Cyrillic, Chinese, Japanese or Korean are refused, so are emoji and symbols outside the Latin alphabet, and you can no longer post a link, an invite included (admins can).
-- **Solar makes 95 to 100 more power from level 10 to level 20** so it still covers a full station with the Research Centre. Levels 1 to 9 are unchanged.
-- **The ship pictures in Assembly (the Paragon, Wraith and Ironclad recipes and any ship in your queue) stand still until you point at their card.**
-- **A 0.4.8 client keeps working** against the 0.4.9 server, but it does not have the Jump and Base CPUs, the Company page, the Research view or the new chat (see Updating).
+- **Your Skylab keeps its levels, and its numbers change.** Nothing is charged or refunded for the difference. At the update everything your farms and collectors had stored (up to 72 hours of each, the "hopper") is **paid out once, at the old hourly rate,** and the hoppers start empty. At high levels the new farms make much less than the old ones (a level-20 Credit Farm 50,000 credits an hour, it made 597,630; a level-15 Thulium Farm 950 Thulium an hour, it made 1,969), the Thulium Farm at levels 2 to 8 and the Orvium Collector at levels 1 to 4 make more than before (up to 30% and up to two thirds). Prices and times follow the new tables from level 1 on, so a climb you have not made yet costs far less Thulium and its last steps take hours, not days; its first upgrade takes 5 minutes where it took 36 seconds to 3 minutes, and some climbs cost more credits (see "Skylab: the new tables").
+- **Solar:** while it upgrades it makes 25% of the power of its current level. The farms and collectors stop for the whole upgrade unless everything else in your station is at least five levels below Solar (a full station needs more); what they hold stays and can be collected. A Solar upgrade that is running at the update makes 25% from then on. The price of a Solar upgrade is now the Forgery's (24,000 credits for the climb from level 1 to 3 instead of 1,679).
+- **The Resource Storage holds a different amount of each ore** (240 of each at level 1, 7,680 Velkonite and 3,840 Orvium at level 20). **Ore you hold above the new limit stays,** but your collectors stop collecting that ore until you spend it below the limit.
+- **Mission Control has new missions.** If you finished one of the 64 reworked level missions, it is offered again and you do the new version for its **full reward** (credits, Thulium, experience, honor, items). A reward you had finished but not yet claimed is paid at the larger of the old and the new amount. A mission you have under way is carried over to its new steps by the share you had done, never dropped. Your mission count and your Wipe Points never go down, and a mission never earns Wipe Points twice in a season. The 24 level missions that did not change and the 10 Station missions stay as they are. A level's Special is locked again until you have done that level's missions again. You see one notice at your first flight.
+- **The four ships you buy have 2 extra slots** (Protos, Kitefin, Ostirion, Nomad), so with the Extra Slots CPUs I, II and III they have 5, 7 and 9 extra slots; the Paragon, Ironclad, Wraith and Storm keep 3 (6, 8 and 10). If you had a third extra fitted on one of the four, it is **unequipped into your inventory** at the update (nothing is deleted; you get one notice at your first flight).
+- **The Storm** is now a Class IV Dreadnought by the wiki's rule (more than 10 lasers). The Wraith is a little slower and the Protos a little faster. No ship's price or recipe changed.
+- **Shield totals can go up, never down.** If your loadout was hit by the shield bug (a shield or a cell lowered the total), it reads more now.
+- **Formations work for every pilot who owns a drone.** You do not fit them: owning one is enough, and **all the formations you own stay through the season wipe** like your drones. Research and crafting of a formation are once per account.
+- **Aliens may overlap** and several can stand on the same spot; they still keep out of your ship's hull. An alien that gives up on a pilot flies to a random point of the map again.
+- **A Warden is not a Seeker:** a Clan Warden does not count for any alien-kill mission. Hard (Challenge) missions pay base x world x boosters x your clan's boosts, so in Gamma a mission pays three times its printed numbers before any booster.
+- **Clan points, boost levels and the daily lines start at zero** at the update (nothing existed before) and again at every season wipe. **Ranks keep through the wipe.**
+- **A 0.4.9 client keeps working** against the 0.4.10 server, but it cannot take the missions that need the new game, wear a formation or see the clan line and the ranks (see Updating).
 
-**Research: the Research Centre**
-- **Build:** Skylab, Core level 10 or higher, once: 25 Ship Fragments from your inventory (the ship parked), 25,000 credits and 500 Thulium. It has **10 levels** (each upgrade costs 1.5 times more). A level makes the **tank** bigger by a quarter, from 12 hours of research at level 1 (43,200 science) to 89 hours at level 10 (321,865 science), and the Centre draws more power (25 at level 1, 88 at level 10); **no level makes a research faster.** The page says what building needs before you press Build.
-- **Fuel:** ten resources turn into science points at once, and the rarer the resource, the more it gives:
+**Skylab: the new tables**
+- **Every module has its own numbers at each of its 20 levels** (the Credit Farm, Thulium Farm, Velkonite Collector, Orvium Collector, Resource Storage, Forgery and Solar; the Core and the Research Centre keep theirs):
 
-  | Resource | Science points | Goes in from |
-  |---|--:|---|
-  | Ship Fragment | 5 | your inventory (ship parked) |
-  | Cataclysite | 5 | your inventory (ship parked) |
-  | Daraxium | 7 | your inventory (ship parked) |
-  | Nyxite | 7 | your inventory (ship parked) |
-  | Quorvium | 8 | your inventory (ship parked) |
-  | Reinforced Hull Plate | 33 | your inventory (ship parked) |
-  | Velkonite | 40 | the Resource storage |
-  | Orvium | 80 | the Resource storage |
-  | Power Core | 100 | your inventory (ship parked) |
-  | Ancient Control Unit | 650 | your inventory (ship parked) |
+  | | Level 1 | Level 10 | Level 20 | 0.4.9 at level 20 | First upgrade | Last upgrade |
+  |---|--:|--:|--:|--:|--:|--:|
+  | Credit Farm (credits an hour) | 500 | 7,500 | 50,000 | 597,630 | 5 min | 12 h |
+  | Thulium Farm (Thulium an hour) | 50 | 450 | 1,600 | 7,310 | 5 min | 36 h |
+  | Velkonite Collector (ore an hour) | 10 | 32 | 80 | 833 | 5 min | 24 h |
+  | Orvium Collector (ore an hour) | 10 | 24 | 40 | 416 | 5 min | 36 h |
+  | Resource Storage (Velkonite / Orvium held) | 240 / 240 | 1,920 / 1,440 | 7,680 / 3,840 | 62,450 each | 5 min | 12 h |
+  | Forgery (ore per plate, Velkonite / Orvium) | 40 / 80 | 35.5 / 71 | 30 / 60 | 28.6 / 57.2 | 5 min | 24 h |
+  | Solar | same power as before | | | | 5 min | 24 h |
 
-  Ship Fragments and the other inventory resources go in while your ship is parked; Velkonite and Orvium come out of the Resource storage. The Velkonite and Orvium Reinforced Plates cannot be burnt (they are made of the ore, which can). The Max button puts in as much as fits, and a feed that does not all fit takes what fits.
-- **Burn:** a research burns **1 science point for every second of its base time**: a day-long research burns 86,400 points. With no fuel in the tank a research pauses, and fuel put in resumes it.
-- **One research at a time,** also while you are away: it keeps going until it ends or the tank runs dry. It also keeps going through a blackout or an upgrade of the Centre; only starting a new one is refused when the station is short of power. Cancelling loses the progress and the fuel already burnt; the Dark Matter goes back to the Centre's socket.
-- **The Research view:** the technology tree drawn by family (Propulsion, Shields, Lasers, Boosters, Drones, Ships, Rockets, CPUs, Resources) with the research time of every technology, what each one needs and a Dark Matter badge on the 15 top ones; and the Centre's panel with the tank, the running research and when it ends, the feed rows (+1, +10, Max), the boost and the Dark Matter socket. Cancel asks twice. A toast tells you when a research is finished (with an Open Assembly button in the station) or when the tank has run dry.
-- **Boost:** 5,000 Thulium buys 24 hours of double speed for the research that is running, per Centre. It never brings fuel (the same fuel is burnt in half the time). You can buy another while 48 hours or less of boost are left, so they stack up to 72 hours.
-- **Dark Matter:** 15 technologies, the Epic or better ones that take 10 hours or more, need **10 Dark Matter** each, plugged into the Centre before the research starts. They are used up when it starts and given back if you cancel. Impulse IV, Momentum IV, Absorption IV, Capacity IV, Starfire-3, Helios Beam, Nova Amp, Apex Amp, the Ironclad, the Storm, the Wraith, the Dark Matter Plate, the N.U.K.E., Extra Slots CPU III and the Jump CPU need it; the N.I.K.E. (which is how Dark Matter is made) does not.
-- **Where to see it:** the Research Centre is the ninth card in the Skylab's list and table, and the Station view has no 3D model of it yet.
+  A farm's price and time follow the table for every step: for example the Credit Farm costs 5,000 credits and 1 Thulium for the first upgrade and 7,000,000 credits and 550 Thulium for the last, and the Thulium Farm 7,000 credits and 45 Thulium for the first and 8,500,000 credits and 16,000 Thulium for the last. The numbers are in the Skylab's help cards and on the wiki's Skylab page.
+- **What a module costs from its build to level 20** (the build and all 19 upgrades):
 
-**Research: the technologies**
-- **37 technologies** for the 37 things Assembly makes: the thrusters, the shield cells and the shield core, the engine, the lasers and amps, the three boosters, the Master Drone, the Paragon, Ironclad, Storm and Wraith, the Dark Matter Plate, the N.I.K.E. and N.U.K.E. rockets and the seven CPUs. The Shop is not gated, nor are the Forge, plates made in the Skylab's Forgery, or the rewards of quests and codes.
-- **Research times (base rate):**
+  | Module | Credits before | Credits now | Thulium before | Thulium now |
+  |---|--:|--:|--:|--:|
+  | Credit Farm | 20.1 million | 26.2 million | 2.0 million | 2,399 |
+  | Thulium Farm | 796.8 million | 32.3 million | 79.7 million | 67,890 |
+  | Velkonite or Orvium Collector | 66.5 million | 21.0 million | 3.3 million | 78,950 |
+  | Resource Storage | 20.9 million | 18.2 million | 1.0 million | 2,649 |
+  | Forgery | 66.5 million | 35.0 million | 3.3 million | 37,300 |
+  | Solar | 1.0 million | 35.0 million | 104,000 | 36,850 |
 
-  | Research time | Technologies |
-  |---|---|
-  | 30 min (5) | Impulse Thruster II, Momentum Thruster II, Absorption Shield Cell II, Capacity Shield Cell II, Extra Slots CPU I |
-  | 3 h (12) | Impulse Thruster III, Momentum Thruster III, Engine III, Absorption Shield Cell III, Capacity Shield Cell III, Heavy Shield Core, Quantum Laser 3, Damage Amp II, Shield Wall II, Hull Plating II, N.I.K.E., Base CPU I |
-  | 6 h (2) | Paragon, Auto-Repair CPU |
-  | 10 h (9) | Impulse Thruster IV *, Momentum Thruster IV *, Absorption Shield Cell IV *, Capacity Shield Cell IV *, Nova Amp *, Apex Amp *, Master Drone, Extra Slots CPU II, Base CPU II |
-  | 1 day (8) | Starfire-3 *, Helios Beam *, Ironclad *, Storm *, Dark Matter Plate *, N.U.K.E. *, Extra Slots CPU III *, Jump CPU * |
-  | 2 days (1) | Wraith * |
-  | | \* needs 10 Dark Matter plugged into the Centre |
+- **Whole station:** to take the seven tabled modules from their builds to level 20 now costs 188,739,000 credits and 304,988 Thulium in all. The Core's timers are unchanged and still set the pace: the whole station to level 20 takes about 18 days (it took 22.6), the Thulium Farm and the Orvium Collector finishing last, 36 hours after the Core.
+- **Build prices:** the Credit Farm is built free (it cost 1,000 credits and 100 Thulium). Solar is still 500 credits and 50 Thulium. The Velkonite and Orvium Collectors cost 20,000 credits and 500 Thulium (10,000 credits before), the Resource Storage 5,000 credits and 250 Thulium (10,000 and 500), the Forgery 5,000 credits and 500 Thulium (10,000 and 500). The Thulium Farm, the Core and the Research Centre are as before.
+- **Solar:** its power at each level is unchanged. It is built for 500 credits and 50 Thulium; its upgrades now cost and take what the Forgery's do. **While it upgrades it makes 25% of the power of its current level;** the new level's power starts when the upgrade ends. A station that then uses more than it makes stops: every farm and collector stops producing, and the Forgery starts no new batch, until the upgrade is done. Only a station whose other modules are at least five levels below Solar runs through it (a full station with the whole supply chain needs a little more). A module that is upgrading or switched off draws no power, so lifting the farms together with Solar costs nothing extra. The help cards, the power tip and the Station missions' briefings say so in all 12 languages.
+- **Storage:** a bank holds its own amount of each ore. Ore above the new limit stays and the collector stops until you are below it.
+- **Forgery:** a plate takes a little less ore with every level, from 40 to 30 Velkonite and from 80 to 60 Orvium (level 14 Orvium: 67.5).
+- **One payout at the update:** every uncollected pile of the farms and collectors, at most 72 hours of each, is paid once at the old rate of that module's level and the hopper is emptied. It is a payout, not a collection: the Station missions that ask you to collect do not count it, and no booster touches it. A level-10 pilot gets at most 1,487,595 credits, 38,176 Thulium, 6,437 Velkonite and 3,218 Orvium; a level-20 pilot at most 43,029,388 credits and 526,291 Thulium.
+- **Research from ore:** a Velkonite is now worth 210 science and an Orvium 321 to the Research Centre (they were 40 and 80), to match the smaller collectors. **This means cheaper ore, not faster research:** a research still burns 1 science a second (2 with a boost), so an hour of research costs 17 Velkonite or 11 Orvium instead of 90 or 45, and the time and the tank limit you, not the ore.
+- **Station missions:** the briefings of First Farm, Payday, Brighter Panels, Growing Season and Open the Supply Line quote the new prices, timers and the Solar rule. Their goals and rewards are unchanged; they are paid with the same multipliers as other missions (see Missions).
 
-- **Chains:** each family's tiers follow each other (Impulse II, III, IV; Momentum II, III, IV; Absorption II, III, IV; Capacity II, III, IV; Quantum Laser 3, Starfire-3, Helios Beam; Extra Slots CPU I, II, III; Base CPU I, II, then the Jump CPU). Everything else can be researched on its own. All 37 together take 15.9 days (7.9 days with the boost always on) and 1,369,800 science points; the 28 technologies that are not rockets or CPUs take 11.5 days.
-- **The wiki** has the same tree, the fuel table and the numbers on a new Research page, and every ship's article says what its technology needs.
+**Drone formations**
+- **What a formation is:** a pattern your drones take round the ship. Each gives some bonuses and charges some prices, for example a bigger shield for weaker guns. **You own a formation; you do not fit it.** A formation works while you own at least one drone (a Slave Drone or a Master Drone; it need not be fitted), and more drones do not make it stronger. One formation is worn at a time.
+- **Wearing one:** the hotbar has a **Formations** menu next to Ammo, Rockets and Extras. It lists every formation you own and a built-in **Standard** (no formation, always there). Drag any entry onto a slot of the hotbar; clicking that slot or pressing its key makes that formation the one you wear, and a Standard slot takes the formation off. You can change **once every 2 seconds**, with no lock in a fight; in a safe zone a change starts no timer. Swapping between your two configurations does not change the formation you wear and does not start the timer. The Ship window shows the formation you wear and the Target window the one your target wears. A quiet sound plays when you change.
+- **Research and crafting:** the 16 formations are 16 technologies in two new Research Centre trees, **Defence** (6: Testudo, Adamant, Sanctum, Redoubt, Cordon, Rampart) and **Strike & Mobility** (10: Asterism, Centurion, Shrike, Gyre, Culler, Auger, Bodkin, Ballista, Gemini, Stiletto). A research takes 10 hours, 1 day or 2 days and needs **5, 13 or 20 Dark Matter** (189 for all sixteen; 339 for the whole tree with the 15 older technologies). Then you craft the formation in Assembly (a new Drones category) for Thulium, 330,500 for all sixteen, plus ship fragments, plates and power cores (the strongest also Ancient Control Units). The chains: Testudo, Sanctum, Rampart; Adamant, Redoubt, Cordon; Asterism, Bodkin, Ballista; Centurion, Shrike, Culler; Gemini, Stiletto; Gyre, Auger. All sixteen researches one after another take 16 days 2 hours (half of it with the Thulium boost).
 
-**CPUs: seven new ones, crafted in Assembly**
-- **They are researched first, then crafted for Thulium and materials, and only crafted** (no Shop, no free gift from the research). The cost of all seven is 200,000 Thulium:
+  | Formation | Gives | Costs | Research | Dark Matter | Thulium |
+  |---|---|---|--:|--:|--:|
+  | **Defence** | | | | | |
+  | Testudo | +14% shield | -5% all damage | 10 h | 5 | 7,500 |
+  | Adamant | regenerates 1.2% of your maximum shield a second (up to 5,750) | -15% hull | 10 h | 5 | 9,000 |
+  | Sanctum | +10% shield, +15% hull | -9% laser damage | 1 day | 13 | 20,000 |
+  | Redoubt | +38% shield, regenerates 0.7% a second (up to 4,500), rocket reload 27% shorter | -12% laser damage, -11% speed | 1 day | 13 | 21,000 |
+  | Cordon | +95% shield | -3% speed, -11% laser damage, rocket reload 11% longer | 1 day | 13 | 21,500 |
+  | Rampart | +17% shield absorbance | -17% speed | 2 days | 20 | 38,500 |
+  | **Strike & Mobility** | | | | | |
+  | Asterism | +24% rocket damage, 7% chance to dodge a direct hit | rocket reload 35% longer | 10 h | 5 | 7,000 |
+  | Centurion | +32% honor from alien kills | -5% laser damage, -5% hull, -7% shield | 10 h | 5 | 8,000 |
+  | Shrike | +7.5% laser damage to aliens, +6% XP from alien kills | -6% shield absorbance | 10 h | 5 | 8,500 |
+  | Gyre | +10% speed | -11% laser damage, drains 0.5% of your current shield a second in a fight | 1 day | 13 | 20,000 |
+  | Culler | +12% damage to aliens, +12% XP from alien kills | -10% speed | 1 day | 13 | 20,000 |
+  | Auger | +21% laser damage | -9% speed | 1 day | 13 | 20,500 |
+  | Bodkin | +29% rocket damage | -6% laser damage | 1 day | 13 | 21,000 |
+  | Ballista | +55% rocket damage | -13% hull | 1 day | 13 | 24,000 |
+  | Gemini | +9 points of shield penetration | -22% shield | 2 days | 20 | 38,000 |
+  | Stiletto | +16 points of shield penetration, +13% hull | drains 3.5% of your current shield a second in a fight | 2 days | 20 | 46,000 |
 
-  | CPU | Research | Needs first | Thulium | Materials | Crafting time |
-  |---|--:|---|--:|---|--:|
-  | Extra Slots CPU I | 30 min | nothing | 12,000 | 60 Ship Fragments, 3 Power Cores, 6 Velkonite Reinforced Plates | 5 min |
-  | Extra Slots CPU II | 10 h | Extra Slots CPU I | 30,000 | 120 Ship Fragments, 10 Reinforced Hull Plates, 6 Power Cores, 12 Velkonite Reinforced Plates, 2 Orvium Reinforced Plates | 10 min |
-  | Extra Slots CPU III | 1 day + 10 Dark Matter | Extra Slots CPU II | 75,000 | 240 Ship Fragments, 25 Reinforced Hull Plates, 12 Power Cores, 2 Ancient Control Units, 20 Velkonite Reinforced Plates, 6 Orvium Reinforced Plates | 15 min |
-  | Jump CPU | 1 day + 10 Dark Matter | Base CPU II | 40,000 | 200 Ship Fragments, 20 Reinforced Hull Plates, 10 Power Cores, 3 Ancient Control Units, 15 Velkonite Reinforced Plates, 10 Orvium Reinforced Plates | 15 min |
-  | Base CPU I | 3 h | nothing | 8,000 | 40 Ship Fragments, 2 Power Cores, 4 Velkonite Reinforced Plates | 5 min |
-  | Base CPU II | 10 h | Base CPU I | 20,000 | 100 Ship Fragments, 5 Power Cores, 8 Velkonite Reinforced Plates, 2 Orvium Reinforced Plates | 10 min |
-  | Auto-Repair CPU | 6 h | nothing | 15,000 | 80 Ship Fragments, 8 Reinforced Hull Plates, 4 Power Cores, 6 Velkonite Reinforced Plates | 10 min |
+- **Rockets:** a formation changes all 14 rockets, the N.U.K.E. and the N.I.K.E. included. A rocket's damage factor is fixed the moment you fire it (changing formation while it flies changes nothing), and so is the wait after a launch: Asterism lengthens it by 35 percent, Cordon by 11 percent, Redoubt shortens it by 27 percent, but never below the rocket's flight time plus a tenth of a second (a N.U.K.E. waits at least 4.1 s, a N.I.K.E. at least 4.6 s). The rocket cards show the damage you would deal with your formation. A formation's rocket bonuses together can never raise a rocket's damage by more than 59 percent, so the one-shot limits of the big rockets hold (a N.I.K.E. with the best formation still cannot destroy a fresh Paragon at once).
+- **Hull and shield:** a formation with a hull percent changes your ship's **maximum hull** everywhere you read it (flight, the Ship window, the Hangar tile). A change keeps your hull's fraction: 80 percent of the old maximum becomes 80 percent of the new one, both ways, so changing back and forth gives no free hull. Your current shield is only cut when the maximum falls, and nothing is refilled when it rises. Shield Surge and Emergency Repair heal the same amount whatever you wear.
+- **Evasion** (Asterism, 7%) is a **chance to dodge**: each direct hit on you (a laser volley, a direct rocket, an alien's shot) has that chance to do no damage at all, and a floating **"Miss"** shows over your ship, with one quiet sound. The other hits land whole. An area blast has no aim and is never dodged.
+- **Shield regeneration and drain:** Adamant and Redoubt regenerate part of your shield every second, in a fight or not, up to the cap shown. Stiletto and Gyre take a share of your current shield every second while you are in a fight (10 seconds after a hit or a shot) and never inside a safe zone; the drain stops the moment you change formation.
+- **Penetration** adds to your ammo's and a direct rocket's shield penetration; the sum stops at 40 percent. **XP and honor** bonuses (Shrike, Culler, Centurion) count only after the formation has been worn for 10 seconds, and only for alien kills (swarms included), not for missions or pilots, so changing in and out does not farm them.
+- **The Hangar and the item cards:** the Hangar's Drones view lists the formations you own; a formation's item card lists its bonuses in green and its prices in red, and each of the 16 has its own picture (a block under a roof, an arrow, a star, twin spears, a diamond and so on, coloured by role). Other pilots see which formation you wear.
+- **What it is worth:** the model puts the best formation of the moment at about 14 percent over a plain ship for a pilot who owns all sixteen and changes between hunting, a duel and a flight; the best single formation in a duel (Gemini) about 18.5 percent. A pilot who swaps formations with N.I.K.E.s in hand is about 1.3 times a plain ship in a duel. These are the balance model's numbers, not measured in play; the first season will retune them.
 
-- **Extra Slots CPU I, II and III:** +3, +5 and +7 extra slots on every ship in both configurations, 6, 8 and 10 in all. The Hangar and the Pilot page count them. A CPU that would add nothing (that level or a better one is installed or in your Production Queue) is refused, and so is one out of order ("Install Extra Slots CPU I first.").
-- **Jump CPU:** opens the Star System chart; click a company sector of your world (M, T, G, 1 to 4: all twelve, the other companies' home sectors too) and confirm. **500 Thulium a jump, no limit of uses,** a 5 second charge, 30 seconds before the next jump. The Danger Sectors can't be reached, a neutral sector can't be jumped from or to, and you can leave a Danger Sector. The 500 Thulium are taken when the charge ends and given back if the move fails.
-- **Base CPU I and II:** teleport you to your company's base (inside the station's ring on your home map) after a 10 second charge, for free. Base CPU I has **10 uses and recharges in 10 minutes;** Base CPU II **25 uses and 5 minutes.** A used-up Base CPU is gone and you craft another (about 800 Thulium of crafting a use for both). When two are fitted, the better one is used first.
-- **A warp CPU is out of combat:** it can't start within **10 seconds of a shot you fired or a hit you took,** and a shot or a hit while it charges cancels it, as does pressing the slot again or cloaking. A warp that charges shows a bar over the hotbar and a glow on your ship that other pilots see.
-- **Auto-Repair CPU:** launches the Repair Drone fitted in the same configuration **by itself** whenever you could launch it by hand (the hull is damaged, the drone is not out and its 10 seconds after a hit have passed). It does nothing without a Repair Drone and takes one extra slot. If you stop the drone by hand it waits until your hull is full or you start the drone yourself; the slot shows AUTO, or Paused.
-- **On the hotbar:** the Jump CPU is JMP, Base CPUs BSE, the Auto-Repair CPU ARP. The slots show the charge, the recharge and the uses left, and keep counting through a death, a jump and a log-out. A restart of the server clears the recharges.
-- **Help cards** for the Jump, Base and Auto-Repair CPUs are new, and the Extras card lists what the Extra Slots CPUs add, in all 12 languages.
+**Missions: levels 1 to 8**
+- **New steps.** *Quest items:* an item that drops only for you from an alien (after enough kills it is guaranteed), one that lies on the map, or one that comes from the Nth kill; you pick it up and **carry it home to Mission Control**. A cyan beacon marks it for you alone, and the Active Quests window shows "Carrying" and how far Mission Control is. *Visit:* fly to a marked point (a gold ring on the map and the minimap). *Stay:* hold a sector for a number of minutes outside the safe zones, in total or in one stretch (a death starts a one-stretch stay again). Items stay in the company sectors; visits and stays can go to the Danger Sectors. A Base CPU or Jump CPU cannot be used while you carry an item.
+- **Conditions.** A whole mission or a single step can say **"Hull limit N HP"** (do not lose more than that many hull points while it runs: the number the hull bar shows, after shields and absorbance; black hole radiation counts, shields do not) and **"No death."** Mission Control and the Active Quests window show a pill and a live bar ("Hull damage: 1,240 / 3,000"). If you break a condition the step starts again, a carried item is lost and must be fetched again; nothing is lost for good. The limits are set generously on purpose: aliens hit hard and a pilot has about half of it absorbed.
+- **The mix.** Every level has ten regular missions and its Special: **3** with an item, **2** with a visit, **2** with a stay and **3** plain kill missions. A mission with a new step is a chain of two to five steps (kill specific aliens, fly to a point, hold a sector, take an item home) in order, or steps open together ("hold the gate for 4 minutes while you destroy 8 Seekers"). One set serves Mars, Terra and Galactic; only the officer's portrait differs.
+- **Kills stay, with more variety.** Every mission that had a kill in 0.4.9 still has one. Level 3's kill steps add up to 108 kills (92 in 0.4.9, all Phantasm): 36 Seekers, 57 Phantasm and, from season day 4, the Seeker swarm (3 Boss Seekers and 12 Seeker Slaves). Level 4's kill steps add up to 134 (152 in 0.4.9, 150 of them Phantasm): 46 Seekers, 60 Phantasm, 13 Bulwarks and the swarm. The Specials of levels 3 and 4 hunt the Seeker swarm and open once the swarms appear on season day 4. Missions that ask for swarm members cannot be taken before that day.
+- **Pace.** The chains are longer than the patrols they replace: by the balance model a level takes 1.1 to 1.5 times as long (levels 4 to 8 about 1.3 to 1.5 times). A level's experience is still 85 percent of its gap to the next level, so a level pays a little less an hour.
+- **Redo, carry-over and notice:** see "If you already play". A mission that is not reworked is untouched; the 10 Station missions are untouched.
+- **Pay:** Station missions and Challenge missions are now paid like level missions: the printed number is the **base**, and the world multiplier (Alpha 1, Beta 2, Gamma 3), your boosters and Premium experience and your clan's Credit and Thulium boosts multiply it. A Station mission has no world of its own and pays the world you fly in when you claim it. A claim is one write: a second claim is refused and nothing is paid twice.
 
-**Ships: the Nomad and the Storm**
+**Missions: the Challenge line**
+- **50 missions in five tiers of ten,** opening when your **pilot reaches level 3**: **Proving Ground** (tier I), **Iron Border** (II), **The Centre** (III), **The Abyss** (IV) and **Legends** (V, lifetime totals and a capstone, Warden of the Line, about 20 hours). Up to three Challenge missions are active at once, beside your level missions. Each can be done once. They survive the wipe and do not count for the Wipe Points of missions.
+- **A tier opens when the missions of the tier before are claimed.** Tiers IV and V open when nine of the ten are claimed: the Dormant Force missions (Dormant Dawn, Dormant Dusk), sized for a crew of about eight, are not asked for. The Challenges tab of Mission Control shows the tiers, the next one locked, and what each mission asks.
+- **What they ask:** kill grinds (1,000 to 10,000 Seekers or Phantasm, up to 2,000 Bulwarks, 1,000 Goombahs and 150 Crystalys), swarm hunts (from season day 4; the Pirate Boss and Dormant missions are group missions), stays (45 minutes in a company sector up to 3 hours in the Danger Sectors, where a ship that moves 300 units every 30 seconds counts, since nothing there can be shot), convoys (bring down the guards of a core and carry it home under a hull limit and no death), clean "Untouched" runs (a number of kills while losing no more than a limit of hull, up to 556,000 points), a tour of the four corners of a Danger Sector and a walk round the black hole's rim.
+- **Kills count for your group:** the killer and the group mates within 4,000 units who fired in the last 15 seconds (the level missions keep their own rule).
+- **The pay** is the base below, multiplied as above; the line is balanced at the lower end of its range, so it can be raised later.
+
+  | Tier | Hours (model) | Credits | Thulium | Experience | Honor |
+  |---|--:|--:|--:|--:|--:|
+  | I Proving Ground | 22 | 9,355,000 | 70,125 | 435,500 | 26,140 |
+  | II Iron Border | 46 | 6,200,000 | 46,450 | 471,000 | none |
+  | III The Centre | 56 | 11,995,000 | 90,020 | 887,000 | none |
+  | IV The Abyss | 74 | 26,215,000 | 196,615 | 1,880,500 | none |
+  | V Legends | 176 | 48,390,000 | 362,865 | 3,110,000 | none |
+  | All 50 | 374 | 102,155,000 | 766,075 | 6,784,000 | 26,140 |
+
+  Honor is paid in tier I only (honor has no use yet). Items are resources that gate real builds (Power Cores, Cataclysite, plates, at most three Ancient Control Units a tier, no Dark Matter) and a booster on most missions. **What a multiplier does:** Crystalys Reign prints 7,725,000 credits and 57,925 Thulium. In Alpha you are paid that; in Gamma three times it (23,175,000 credits and 173,775 Thulium) before any booster; with the largest Thulium buff and your clan's full Thulium boost on top the most it can pay is 243,285 Thulium.
+
+**Clans: the daily line, the Wardens and the boosts**
+- **The line:** every clan has one line a day, four hunts or patrols in order and then the day's Clan Warden. The whole clan's kills and flying add to **one shared total**. Counts depend on the clan's tier, which the server takes from the five highest-level members: under mean level 4 Recruit, 4 to under 7 Veteran, 7 or more Elite (a Veteran clan asks for 300 Seekers on a Seeker Sweep day). A pilot **takes part from 5 percent of the day's work** (about 8 minutes of hunting) and at least **three** pilots must reach it before a step closes. The line resets every season day (24-hour blocks from the season's start), not at midnight UTC. The Operations tab in the Fleet window shows the steps, their progress, your own work against the minimum and how many members have reached it.
+- **Pay:** a finished line pays the clan **100 clan points** (15, 15, 20 and 20 for the four steps and 30 for the Warden); each pilot who took part gets a personal reward (Recruit 5,000 credits and 20 Thulium, Veteran 15,000 and 60, Elite 22,000 and 90).
+- **The Wardens:** the Brood Warden (day 1, then every third day) has four drones that heal it, so split your fire; the Siege Warden (day 2, 5, ...) keeps moving, mends itself and fires Rivet rockets at the pilot who hurt it, so keep moving and rotate the tank; the Wrath Warden (day 3, 6, ...) fights in place, mends itself and hits 1.5 times as hard below half hull, so get it under half hull fast. Each comes in three strengths (I, II, III) that follow the clan's tier. **The Leader or a Co-Leader summons it** from flight, in a company sector x-2, x-3 or x-4 outside the safe zones, once step 4 is done and at least 30 minutes of the day are left; two summons a day, one Warden out at a time. It appears 3,000 to 4,500 units from the caller, stands shielded for a 90-second warm-up and stays up for 40 minutes; **only pilots of the calling clan can hurt it.** A Warden has Alpha strength and Alpha pay in every world. By the model **5 pilots win in about 5 minutes and 3 pilots slowly (9 to 10 minutes, narrowly), best on x2 ammo**; those times are calculated, not measured. Its pay is that of 30 Phantasm (tier I: 90,000 credits, 360 Thulium, 9,000 XP, 180 honor), 24 Bulwarks (tier II: 120,000, 600, 19,200, 240) or 16 Goombahs (tier III: 240,000, 1,200, 48,000, 384), split by damage, plus a loot box. A Warden is worth PvE points like any alien (10, 15 or 25 by strength), is drawn in a fourth colour (the clan's) and is named with its clan in the kill feed.
+- **Clan boosts:** the Leader and the Co-Leaders spend clan points on **Clan Damage** (10 levels of +0.5%, +5% in all), **Clan Thulium** (10 levels of +1%) and **Clan Credit** (10 levels of +1%). A level costs 22 points for the first and 58 for the tenth (400 for one boost, 1,200 for all three), so a clan that finishes every line has all 30 levels by season day 12 (the season has 29 days). A purchase is final and takes effect at once, even in flight, for every member. **Damage** applies to your lasers against aliens and pilots, not to rockets. **Thulium and Credit** apply to what kills and mission claims pay (your own share, a boss share and a group share), not to the Skylab's farms, rockets, bonus codes or the clan's own payouts. A boost that is under one whole unit on a kill is carried and paid when it adds up, so +10% on a Seeker's 4 Thulium is not rounded away.
+- **Wipe:** clan points, boost levels and lines start again at every wipe; the clan, its roster and its bank stay.
+
+**Company ranks**
+- **24 ranks:** Junior Pilot, Pilot, Senior Pilot; the same three grades of Sergeant, Lieutenant, Captain, Major, Colonel, General and Admiral, up to Senior Admiral. The rank is a function of your **PvE points** (150 for Pilot, 700 for Junior Sergeant, 9,000 for Junior Captain, 23,000 for Junior Major, 150,000 for Junior General, 750,000 for Senior Admiral), so it follows what the points do, and **it keeps through the season wipe**, which keeps the points.
+- **Where you see it:** only the symbol (chevrons, bars, stars, laurels) shows, before the name: on ship tags, in the Target window, in chat, in groups, in the kill feed, in the Hall of Fame and on pilot profiles. The words appear when you hover over it, and on the Company page.
+- **The Company page** has a new **Company ranking**: the pilots of your company by PvE points, your own place, a bar to your next rank and the list of all 24 ranks with the points each needs. The ranking is per world. A promotion shows a toast with a quiet sound of its own; from Junior Major up your company sees it in the chat.
+
+**Ships, slots and the starter kit**
 - **The numbers:**
 
-  | | Ostirion | Nomad | Paragon | Storm | Ironclad | Wraith |
-  |---|--:|--:|--:|--:|--:|--:|
-  | Hull | 48,000 | 96,000 | 128,000 | 160,000 | 600,000 | 324,000 |
-  | Base speed | 200 | 200 | 210 | 240 | 92 | 225 |
-  | Lasers | 3 | 6 | 8 | 10 | 6 | 12 |
-  | Generator slots (core, support, auxiliary) | 6 (3, 3, 0) | 7 (3, 3, 1) | 8 (3, 3, 2) | 10 (3, 4, 3) | 14 (7, 4, 3) | 12 (4, 4, 4) |
-  | Ability slots | 2 | 2 | 3 | 3 | 3 | 3 |
-  | Extra slots (before the Extra Slots CPUs) | 3 | 3 | 3 | 3 | 3 | 3 |
-  | How to get it | Shop: 425,000 credits | Shop: 1,275,000 credits and 500 Thulium | Assembly: 1,500 Thulium | Assembly: 15,000 Thulium | Assembly: 10,500 Thulium | Assembly: 20,000 Thulium |
-  | PvP points for a kill | 20 | 30 | 40 | 80 | 160 | 640 |
+  | | Protos | Storm | Wraith |
+  |---|--:|--:|--:|
+  | Base speed | 160 (was 150) | 250 (was 240) | 220 (was 225) |
+  | Hull | 8,000 | 150,000 (was 160,000) | 324,000 |
+  | Lasers | 2 | 13 (was 10) | 12 |
+  | Generator slots (core, support, auxiliary) | 4 (2, 2, 0) | 10 (4, 4, 2) (was 3, 4, 3) | 12 (4, 4, 4) |
 
-- **The Nomad** is a Class II Cruiser: twice the hull and guns of an Ostirion, between it and the Paragon. It is open to everybody in the Shop. It is a sand-coloured hammerhead cruiser with dusk-indigo plates, violet running lights, six guns along its front edge and two big engine pods. A kill of a Nomad is worth 30 PvP points.
-- **The Storm** is a Class III Starfighter and the glass cannon of the fleet: the highest base speed of any ship, ten lasers and 160,000 hull, the lightest of the Storm, Ironclad and Wraith. It is made in Assembly after you have researched it (1 day and 10 Dark Matter): 1 Ancient Control Unit, 200 Ship Fragments, 35 Reinforced Hull Plates, 10 Power Cores and 15,000 Thulium, in 15 minutes. Its look follows a concept drawing: a needle-nosed fighter between two open crescent-ring wings with a glowing engine in each ring, two long forward cannons and eight smaller gun emitters, in bone, teal and orange. A kill of a Storm is worth 80 PvP points.
-- **What the balance model says** (the model, not play): the Storm is the fastest ship in the stock build (it flies 255.5 where a stock Wraith flies 238.0), and the Wraith keeps the fastest best build. One to one, a Storm beats a Paragon, and an Ironclad and a Wraith beat a Storm. A Nomad beats an Ostirion, and a Paragon beats a Nomad.
-- **The wiki rates a ship by its lasers:** more than 10 a Class IV Dreadnought, 9 or 10 a Class III Starfighter, 5 to 8 a Class II Cruiser, up to 4 a Class I Scout. The Black Hole page lists both ships, and its help card now puts the point of no return at about 1,000 units for the fastest ship (it said 1,200). The help cards for hull, speed, lasers, slots and PvP points list both.
-- **With a 0.4.8 client** the Nomad and the Storm are drawn as a Protos in flight and show a "Model not found" tile in the Shop and the Hangar; their stats, prices and recipe are right.
+  The **Storm** is still the fastest ship and now has the most lasers of any ship; with more than 10 lasers the wiki rates it a Class IV Dreadnought. The Dormant Force swarm flies at the Wraith's new 220. No ship's price, recipe or crafting time changed.
+- Momentum Thrusters: speed multiplier I 1.08 -> 1.06, II 1.10 -> 1.07, III 1.13 -> 1.09, IV 1.14 -> 1.11.
+- **Extra slots:** the four ships you **buy** (Protos, Kitefin, Ostirion, Nomad) have **2**, the four you **craft** (Paragon, Ironclad, Wraith, Storm) have **3**; the Extra Slots CPUs I, II and III add 3, 5 and 7 on top (5, 7 and 9 on the regular ships, 6, 8 and 10 on the craftable ones). Extras above the limit are unequipped into the inventory at the update, the highest box first, with their uses (nothing is deleted).
+- **Starter kit:** a new pilot's Protos also gets a **Base CPU I** (10 uses; it takes your ship back to your company's base) and a **Repair Drone I** that slowly repairs your hull, both fitted in its two extra slots. The Emergency Repair drone in the ability slot, the Quantum Laser 1 and the starting ammo are unchanged. Pilots who enlisted before this update get no kit.
 
-**Chat: a System tab, typing, and rules**
-- **A System tab,** last in the row, holds what the server says on its own and what your ship reports: the abilities' answers, repairs, the black hole's warnings, rocket hits, the swarms', the restart's and the wipe's announcements. Global, Local and Group show pilots only (the kill feed stays in Global, with its switch). The tab counts the announcements you have not read (the black hole's warnings are System lines too, but are not counted). Restart and update warnings (each minute mark) and the wipe alert, start, end and failure also pop up as a message on screen.
-- **Typing goes on after Enter:** press Enter, type, press Enter, and your line is sent and you keep typing. Esc, Enter on an empty box, a left click on the map (which still steers your ship), 15 seconds with an empty box and no key pressed, your ship being destroyed, or closing the window ends it.
-- **A counter** shows from 120 characters (200 is the most; amber at 180, red at 200), and a line is cut at 200 on the server too. Letters the chat does not take are dropped as you type, with a hint.
-- **Speed limit:** you can send **5 lines in a row, then one more every 2 seconds, in Local, Global and Group together.** Run out and send again and the chat **pauses for 10 seconds, then 30 seconds, 2 minutes and 5 minutes** if you keep running into it (the pause is forgotten after 10 minutes without a new one). The input says "Chat paused: N s" and counts down, and your text stays in the box.
-- **A message is refused,** with the reason under the input and the line back in the box, when it has **characters chat does not allow** (letters of the Latin alphabet with accents, digits and punctuation are allowed, so French, German, Spanish, Italian, Portuguese, Swedish, Hungarian and the other Latin-script languages work), **a link** (in any spelling: "example [dot] com", spaced-out letters, Discord invites; you can still talk about Discord), **one character over and over** (more than 8 in a row), **no letter or digit at all** (a lone "?" or ":)"), or when it **repeats your last message within 10 seconds.** A refused message is sent to nobody and uses up 2 of your 5 lines. Admins are exempt from these rules (not from the 200 cut).
-- **Chat no longer takes the minimap's dots for links** ("a red dot to the north" goes through), nor a point in Portuguese, Italian, German or Hungarian.
-- **If the server pauses you,** your text and your keyboard stay in the box (Esc or a click on the map lets go). Text pasted with no-break spaces or an ellipsis keeps its words.
-- **Sending a line plays a short soft blip** (see Sounds).
+**Combat, fixes and loopholes**
+- **Shields:** a ship's total shield capacity and recharge **never go down when you add a shield or a cell.** The game ranked a ship's shields by raw capacity alone and ignored which slot each sits in, so a cell in a support or auxiliary shield could lift it above a core shield and cost more than the cell gave: an Ostirion with six Heavy cores and 18 Capacity IV cells read 494,828 after the 17th cell and 483,120 after the 18th; it now reads 524,409. A shield's absorbance is still the average of the shields, so a new, weaker shield can lower it; a cell never does.
+- **Speed:** adding a thruster or an engine can no longer lower a ship's speed, and the order your items are listed in no longer changes the number (the same kind of ordering mistake). A Kitefin with five engines read 227.50 and fell to 226.58 when a thruster was added; it now reads 231.55 with it.
+- **Aliens no longer push each other apart.** Packs can overlap and several aliens attacking you can stand on the same spot; they still keep out of your ship's hull. The server does less work every tick, most on maps with many aliens.
+- **Repair Drones fitted in an extra slot** show their drones: press REP, or let the Auto-Repair CPU do it, and small drones leave your ship, circle it and aim soft green beams at its hull while it repairs, then dock when it stops. Other pilots see them. They follow the Repair Drone's rank (I to IV: one, two, three, three drones), your graphics setting and Reduce Motion.
+- **Two loopholes in fitting, closed.** (1) **An extra (a CPU, a Repair Drone) now has to sit in a box the ship really has:** the extras limit holds for any slot number a hand-made request names, and an extra fitted with no slot named, or with a slot number the ship does not have, goes into a free extra slot or is refused ("No free slot for this item on this ship."). (2) **A laser fitted with no slot named (-1) takes a free laser slot of the ship** and no longer keeps a drone-slot number into the other configuration, which let a pilot stack lasers beyond the laser limit. **Naming a drone's slot works exactly as before, for lasers and for shields:** a laser or a shield in a drone slot is as legitimate as it was (a Slave Drone has 1 slot, a Master Drone 2). The game's Hangar never sends -1, so no pilot who plays through the Hangar notices either change. **Pilots who used a loophole keep what they have:** lasers already stacked stay where they are, and nothing was reset or deleted for it; the one thing that moves is the regular ships' extras cut above, which sends any extras above a regular ship's new limit back to the inventory, those fitted through the loophole included.
+- **Gear can no longer be hidden in a third loadout slot that survives the wipe.** A ship has two loadouts, 1 and 2; naming a laser, a shield or an extra into any other number is refused ("This ship has no such slot."), and gear a hand-made request had already parked in another loadout number no longer survives the season wipe.
+- **Needs the new game:** missions with an item, a hull limit or "No death" and the Warden's summon are refused to a game from before 0.4.10 with an "Update the game" line (see Updating).
+
+**Portals: the ring**
+- **Three new links:** your company's border sector (x-4) has a second jump gate to another company's x-3: Mars' M-4 opens on Terra's T-3, Terra's T-4 on Galactic's G-3, Galactic's G-4 on Mars' M-3, and each of those x-3 maps has a gate back (6 gates). They are open to every pilot of any company, with the usual 3-second jump and a protected ring of 660 units round the gate. Where you can be attacked on the other side still depends on your world (in Alpha, x-3 is safe from pilots and x-4 is not). The Star System window and the wiki's chart are redrawn so the new routes are clear: the Danger Sectors in the middle, the three companies round them. The gates are added to existing worlds at the update.
 
 **Sounds**
-- **Skylab answers your actions with sound:** collecting from a farm, collector or the Forgery plays a soft pour and three plucks, **Collect All** one rising cascade however many modules it takes from, confirming a Build or an Upgrade a short power-up that ends on a muted bell. A refused request plays the error sound.
-- **Switching views has a soft swipe:** Skylab's Station, List and Table, picking or letting go of a module in the station, and Assembly's Crafting and Forge tabs.
-- **Every action in Assembly > Forge has a sound of its own:** taking an item into a tier-up or merge slot is a small bright tap, letting it go is the same tap lower; a tier-up starts with a strike on the anvil and rising heat, a tier-up that held rings the anvil with three climbing bells, a failed roll is a dull dud (three coin tinks follow if materials or Thulium came back); a merge starts with two sweeps that converge and ends with two bells gliding into one tone.
-- **The Research Centre** has its own: a soft pour when you feed the tank or plug Dark Matter in, a lab humming up when a research starts, and a two-note chime when one finishes. **The CPUs:** a rising hum while a Jump or Base CPU charges (it fades out if you call it off or a hit breaks it), a short soft drop when a charge is called off, and two soft pips when the Auto-Repair CPU sends out the drone (about every 10 seconds at most).
-- **All of these are quiet** (at least 2 dB under the purchase chime), limited so they never stack. The 16 interface sounds follow the **Interface** volume; the 3 in-world ones (the CPU charge and cancel and the Auto-Repair pips) follow **Sound Effects.** The view, pick and chat sounds also follow Settings > Audio > Button Sounds; the answers to actions play whatever that says.
-
-**The black hole**
-- **From Medium graphics up** the black hole is traced ray by ray: the shadow (the kill radius, 300 units) is black and sharp with a thin bright photon ring around it; from a low camera the far side of the disk arches over the top of the hole and under it, as in Interstellar; from above a thin ring surrounds the shadow and the disk swirls around it.
-- **The sky behind it bends:** the stars, the nebula, planets and asteroids near it are pulled and stretched around it, and the lines on the map bow round it (moderately). Ships and drones that pass between you and the hole are drawn in front of it instead of vanishing into black. The HUD, name tags and the minimap are not bent.
-- **Low graphics keeps the old picture,** and so does a card whose graphics system cannot build the new shader. On the machine we measured (an M4 Max) the lens costs about 0.1 to 0.4 millisecond a frame while the hole covers up to a quarter of the screen, and under 1 millisecond when it fills the screen.
-- **From a low camera inside the disk's radius** the near side of the disk is a heavy orange veil over the lower half of the screen, and moons and asteroids behind the hole's plane look washed out. It follows from the physically correct picture; see Known limits.
-
-**Aliens pay 25 percent more credits**
-- **Credits only:** Thulium, experience, honor and quest rewards are unchanged; boosters and the Beta (x2) and Gamma (x3) world multipliers stack as before. A 0.4.8 client sees the new pay at once.
-
-  | Alien | Credits before | Credits now |
-  |---|--:|--:|
-  | Seeker | 800 | 1,000 |
-  | Phantasm | 2,400 | 3,000 |
-  | Bulwark | 4,000 | 5,000 |
-  | Goombah | 12,000 | 15,000 |
-  | Crystalys | 60,000 | 75,000 |
-  | Seeker Slave (swarm) | 100 | 125 |
-  | Boss Seeker (swarm) | 8,000 | 10,000 |
-  | Pirate Scout (swarm) | 800 | 1,000 |
-  | Pirate Boss (swarm) | 116,000 | 145,000 |
-  | Dormant Pulse (swarm) | 75,000 | 95,000 (a round figure, 26.7 percent more) |
-  | Dormant Force (swarm) | 160,000 | 200,000 |
-
-- **Rocket prices did not change,** so against the pay a rocket costs about 20 percent less than before. At the best roll the cheapest rocket-only kill (a Rivet II on a Phantasm) costs 14.8 percent of the kill's pay (credits and Thulium counted at 200 credits each; it was 16.7), killing a Crystalys with Rivet III alone 48.7 percent (it was 56.0), and a Scatter III clearing five Phantasms in a pile 4.8 percent (it was 5.4). **The rockets model's three floors that guarded these moved** from 15 percent, half and 5 percent to 14 percent, 48 percent and 4.5 percent; no rocket price changed.
-
-**Company page**
-- **Economy > Company** (right after Season & Profile) shows your company and lets you change it. A change costs **5,000 Thulium and halves your honor** (12,400 honor becomes 6,200; honor at 0 or below stays as it is), repairs your ship in full and moves you to the new company's home sector. You keep your clan, group, ships, items and Skylab.
-- **A confirmation** shows the price and your Thulium and honor before and after; if you are short of Thulium the buttons are off and say how much is missing. A refusal from the server is shown in your language. The Honor help card says that changing company halves honor.
-- **Not while your ship is in flight,** also when you are flying on another device: dock first. Nothing is charged or changed when it is refused. (If you launch at the very moment a change is being written, you are told to try again in a moment.)
-- **The page only offers the change on a server running 0.4.9 or newer;** on an older server it is read-only.
-
-**Skylab: Solar and the Station hint**
-- **Solar makes 95 to 100 more power from level 10 to 20** (1,680 at level 10, 16,110 at level 20; levels 1 to 9 are unchanged) so a full station with the Research Centre still has a tenth to spare. A station that was short of power under the old table and is not under the new one has its producers resumed at the first start.
-- **The Power help card** says the Research Centre uses power too, and **the Station's hint** names the number keys of the modules your server lists (1-9 with the Research Centre).
-- **Toasts with a button last 6 seconds** and keep clear of the Skylab's view switch.
-
-**Assembly and Shop speed**
-- **The Assembly page takes about 1 millisecond a frame whatever you carry** (it took about 60 with 600 items, 30 with 300, 11 with 100); the whole frame went from 63 to 3 milliseconds with 600 items. The Shop page went from 9.4 to 0.2 milliseconds with 600 items. Measured on a Mac.
-- **The ship pictures in Assembly stand still until you point at their card,** then they turn (the Paragon, Wraith and Ironclad recipes and any ship in your production queue). Each of them was drawn with its own camera and a 4x anti-aliased pass every frame.
-- **Assembly refreshes your inventory every 30 seconds** instead of every 5. It still refreshes at once when you open the page and after anything you do (assemble, collect, forge, buy).
-- **A price in the millions on a Shop card keeps its thousands:** the Nomad's 1,275,000 reads 1.275M, not 1.3M.
+- **20 new quiet sounds** for your actions, each limited so it never stacks: seven for quest items and missions (finding, picking up, delivering and losing an item, reaching a spot, finishing a stay, breaking a run), ten for the clan line (a step done, the line done, a new line, the one-hour warning, a summon, a Warden armed, destroyed or lost, a boost bought, your reward), one when you change formation, one for a rank-up and one for a dodged hit. The sound bank in memory grows from 23.8 to about 27.5 MiB.
 
 **The wiki**
-- **Item trees:** the Lasers, Rockets, Shields, Propulsion, Extras, Drones and Boosters pages open with a tree of their items, and the new **Item Trees** page shows all of them with the ships and the materials. A box shows the item's picture and name; a solid arrow means the item is made from the one before it (Assembly uses it up), a dashed arrow the next tier, got on its own; a wrench marks what Assembly makes, a storefront what the Shop sells. Hover to see the Shop price or what Assembly takes (Thulium, credits, time, how many it makes, materials); click to open the page. The trees come from the game's own item and recipe data and scroll sideways in a narrow window.
-- **Research page:** the Research Centre, how research runs, what each resource gives as fuel, the boost, the Dark Matter rule, the technology trees with the research time of every technology (and in the item trees, a technology's time and Dark Matter), a table of all 37 technologies and the seven CPUs. The numbers are read from the game's data.
-- **New articles:** the Nomad and the Storm. Every ship's article has a Research card (the technology, its time and Dark Matter, and what the Extra Slots CPUs add).
-- **Pages that changed:** Groups (the System tab, typing, the chat rules), Getting Started (where to change company, honor, what Thulium is for), Extras (the Jump, Base and Auto-Repair CPUs in full), Skylab (nine modules, four views, what the wipe keeps), Combat, Spacemap Travel, Quests, Inventory, Abilities, Boosters (Damage Amp II, Shield Wall II and Hull Plating II are made in Assembly after research), Rockets ("about a seventh to three quarters" of what a kill pays), Black Hole, Wipe Timeline, Forge, Drones, the Items overview, the swarm pages (the announcements are System lines) and Resources.
-- **All of it in the game's 12 languages.**
-
-**Fixes**
-- **Swarm followers** (Pirate Scouts, Seeker Slaves, Dormant Pulses) no longer fly off the edge of the map when their leader roams near it; they keep to their place beside the leader, on the map.
-- **A boss's damage record** no longer stops counting new pilots once 256 different pilots have hit it: the pilots who deal the most are always counted for the pay split and the box.
-- **The recipe cards' material lines** no longer reshuffle after every server restart; they stay in the order of the item names.
-- **The chat's lines under the input** wrap and show in full in every language; the Honor card fits.
+- **Pictures:** every article has its own icon in the list, most open with a banner, and screenshots of the game's windows, ships, aliens, swarms, abilities and sectors sit in the pages they describe; the Black Hole article shows the black hole of Danger Sector 4 as the game draws it. Small icons stand in front of names in headings, lists and tables. Click a picture to see it large; Esc or a click outside closes it and the arrow keys flip through the page's pictures.
+- **Search:** type in the box at the top of the article list (or press Ctrl+K, Cmd+K or / in the wiki) and the list turns into results across every article in your language, best match first, with the article's picture, its category and a snippet with your words highlighted. Use Up, Down and Enter, or click; the article opens at the first match with every match highlighted and a bar to step through them. Case and accents do not matter and several words find pages that have all of them.
+- **New and changed pages:** the new articles Drone Formations and Ranks; Skylab, Resources, Research, Quests, Clans, Getting Started, Hangar, Drones, Rockets, Shields, Speed, Combat, Wipe Timeline, Extras, Spacemap Travel and the Storm page changed. All in the game's 12 languages.
 
 **For administrators and the server**
-- **New config files:** `Resources/Research.json` (the technologies, fuels, boost and tank; the server does not start without it), `Resources/CpuConfig.json` (the Jump, Base and Auto-Repair CPUs' numbers) and `Resources/Chat.json` (the alphabet, the 200 cut, the rate gate, the pauses). `Resources/Groups.json` lost `globalBurst` and `globalIntervalMs` (the gate is Chat.json's `burst` and `refillMs`, for all three channels). `SkylabConfig.json` has the `ResearchCentre` module and Solar's new table. Changed: `Rockets.json` (hit radius of the Nomad 48 and the Storm 54), `Swarms.json` (+25 percent credits), `ranking-config.json` (PvP weights of the Nomad 30 and the Storm 80), the alien, item and recipe seeds.
-- **`CHAT_RULES_ENABLED=false`** turns the chat rules and the rate gate off (the chat of 0.4.8: the 200 cut and Global's old limit); unset means on.
-- **Research tools for admins:** the Admin page grants or revokes a pilot's technology (with or without its prerequisites) and sets the Dark Matter plugged into its Centre (`GET /api/admin/players/:id/research`, `POST .../research/grant`, `POST .../research/revoke`, `PUT .../research/dark-matter`); they are recorded as `research-grant`, `research-revoke` and `research-dark-matter` (a 0.4.8 admin page lists them as "other"). Player routes: `GET /api/research/tree` (public), `GET /api/research`, and `POST /api/skylab/research/start/:tech`, `cancel`, `feed`, `plug`, `unplug` and `boost`.
-- **The server at its first start** adds three tables (`PlayerTechnologies`, `ResearchStates`, `PlayerInstalls`, all kept by the season wipe), runs two data steps (`research-v1`, the technologies of what pilots own; `skylab-solar-v3`, which resumes the producers the old Solar table left dark, if any), appends 9 item definitions and 8 recipes, and changes the 11 aliens' credits. **Take a volume backup first** (`docs/DEPLOY.md`, "The deploy of 0.4.9: the checklist").
+- **New files under `Resources/`:** `Formations.json`, `Ranks.json`, `ClanLines.json`, `ClanWardens.json` and `QuestCarry.json`. Changed: `SkylabConfig.json` (per-level arrays and Solar's `powerWhileUpgradingShare`; the old formula keys are gone, so **deploy the image, never a 0.4.10 binary on 0.4.9 files or the other way round**), `Research.json` (the 16 formations, the ores' science), `quests.json` (148 definitions), `Rockets.json` and `AlienLeash.json` (their notes only), `Swarms.json` (the Dormant Force's speed), `Values/ranking-config.json` (the Wardens count as aliens for PvE points: 10, 15 or 25 by strength) and the seeds (the formation items and recipes, the ships' numbers; the 18 Warden alien kinds are added to the alien table from `ClanWardens.json`). **The server checks the new files at the start** and refuses to start on a wrong one ("Refusing to start: <file>: ..."), before it touches the database.
+- **Four data steps at the first start** (each guarded by a `DataMigrations` row, logged once): `star-system-ring-v1` (the six ring gates), `skylab-tables-v1` (every pile paid once at the old rate; it stops the start with exit code 2 if it fails, leaving the database untouched), `quests-levels-mix-v1` (active missions carried, waiting claims frozen at the larger reward, completions of reworked missions cleared for the redo, the one-time notice) and `extras-limit-v1` (extras over the limit unequipped). **Five new tables:** `ClanSeason`, `ClanLineDays`, `ClanLineContrib`, `ClanPointLedger` (with an index) and `PilotRanks`. **No backup was taken for this release and these steps are one-way for the data** (docs/DEPLOY.md, "The deploy of 0.4.10: the checklist").
+- **Client features:** the game announces what it understands (`X-Client-Features`); the server requires `quest-points` for a mission with an item, a hull limit or no-death and `clans` for the Warden's summon; `formations` is announced but not required.
+- **Counters** for the first season (formation changes and time worn, clan lines and Wardens, quest starts, kills per hour) at `GET /api/admin/counters`. New admin tools for clans (`/api/admin/clans/:id/...`: the line, points, skip a step, reset a day, summon a Warden).
+- **The release job:** `marketing/**` and `scripts/marketing/**` never make a release (since 0.3.4), so a marketing-only change set, the Reddit pack included, merges without one. The installed job is a copy and only changes when it is reinstalled; the copy in use already has the startup-repair gate (it is byte for byte the script of 0.4.9), so for 0.4.10 a reinstall (`scripts/release/install-auto-release.sh`) is optional and changes a comment only.
 <!-- /patchnotes:latest -->
 
 ---
@@ -279,18 +268,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 7d4bc113e2fc3d504de1960fd782b92d9d5cfc8b5192d890bdacb3e465a386f5
+# Expected: 19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: f4372acce983e94f9c7aab186f16ab66088564f4c151c0439d8b88e57b4f281e
+# Expected: 67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4
 ```
 
 ### Linux
 ```bash
-echo "bc47ebcbaa10690e89ce353ba5bed1d2730685f7f421d64331930e911b925862  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

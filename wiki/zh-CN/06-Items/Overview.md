@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -45,7 +45,7 @@
 
 平均每架 Goombah 掉落 4 个 Cataclysite、3.25 个 Ship Fragment、0.6 块 Reinforced Hull Plate 和 0.25 个 Power Core，所以制作一个 Nova Amp 或 Apex Amp 所需的掉落物大约要击毁 8 架 Goombah，电池 II 阶约 7 架、III 阶约 10 架、IV 阶约 14 架，Heavy Shield Core 约 14 架，推进器 II 阶约 4 架、III 阶约 10 架、IV 阶约 19 架，Engine III 约 19 架。每架 Bulwark 掉落 2 个 Cataclysite、2 个 Ship Fragment 和 0.3 块 Reinforced Hull Plate，但不掉落 Power Core。
 
-Velkonite Reinforced Plate 不会掉落：你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用 Velkonite 矿石制造它们，锻造厂 1 级时每块板 40 个矿石。1 级的 Velkonite 采集器每小时开采 12 个矿石，所以一个增幅器的 3 块板相当于 10 小时的开采，一个 IV 阶护盾电池或推进器的 6 块板则相当于 20 小时（5 级采集器分别是 4 小时和 8 小时）；III 阶的 4 块板相当于 13 小时，II 阶的 2 块板相当于 7 小时，一个 Heavy Shield Core 或 Engine III 的 6 块板则是 20 小时。各种材料的来源见[资源](/wiki/06-Items/Resources.md)。
+Velkonite Reinforced Plate 不会掉落：你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用 Velkonite 矿石制造它们，锻造厂 1 级时每块板 40 个矿石。1 级的 Velkonite 采集器每小时开采 10 个矿石，所以一个增幅器的 3 块板相当于 12 小时的开采，一个 IV 阶护盾电池或推进器的 6 块板则相当于 24 小时（5 级采集器分别是 7 小时和 13 小时）；III 阶的 4 块板相当于 16 小时，II 阶的 2 块板相当于 8 小时，一个 Heavy Shield Core 或 Engine III 的 6 块板则是 24 小时。各种材料的来源见[资源](/wiki/06-Items/Resources.md)。
 
 **Helios Beam** 是同一类的升级，由激光制成激光：它会消耗一把 Starfire-3，并需要 2,000 Thulium、50 个 Cataclysite、2 个 Power Core、4 块 Reinforced Hull Plate 和 18 块 Orvium Reinforced Plate，并以同样的方式沿用 Starfire-3 的附魔等级。**Starfire-3** 也是如此：它会消耗一把 Quantum Laser 3，并需要 1,500 Thulium、100,000 信用点、15 个 Ship Fragment、1 块 Reinforced Hull Plate 和 8 块 Velkonite Reinforced Plate，并沿用 Quantum Laser 3 的附魔等级。两者都在[激光与弹药](/wiki/06-Items/Lasers.md)页面中；上表列出的是增幅器、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core 和 Engine III。
 
@@ -82,7 +82,7 @@ Velkonite Reinforced Plate 不会掉落：你的 [Skylab](/wiki/03-Mechanics/Sky
 
 ## 类别 {#categories}
 
-商店、机库的物品栏和其他物品列表都按同一顺序排列：先是舰船，然后是激光及其增幅器和弹药，护盾及其电池，引擎及其推进器，自适应核心，附加装置，无人机，增益和资源。同一种类之内，最便宜的排在最前。
+商店、机库的物品栏和其他物品列表都按同一顺序排列：先是舰船，然后是激光及其增幅器和弹药，护盾及其电池，引擎及其推进器，自适应核心，附加装置，无人机，无人机编队，增益和资源。同一种类之内，最便宜的排在最前。
 
 - **激光**：你的主要武器系统，以及装入其中的[增幅器](/wiki/06-Items/Lasers.md)。
 - **护盾**：用于防御的发生器和[电池](/wiki/06-Items/Shields.md)。
@@ -90,4 +90,5 @@ Velkonite Reinforced Plate 不会掉落：你的 [Skylab](/wiki/03-Mechanics/Sky
 - **Repair Drone**：修复船体的附加装置，每一档都比上一档更快：Repair Drone I、II 和 III 分别花费 5,000、15,000 和 35,000 信用点，Repair Drone IV 花费 2,000 Thulium。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
 - **Cloaking CPU 和 EMP Charge**：用于战斗或逃跑的附加装置：Cloaking CPU 会让你的舰船保持隐形，直到你自己结束（S、M、L 分别为 10、25 和 50 次使用，价格 5,000、11,250 和 20,000 Thulium），EMP Charge 会让你在 3 秒内无法被选为目标，打断所有对你的锁定并结束附近的所有隐形（500 Thulium）。见[附加装置](/wiki/06-Items/Extras.md)。
 - **研究 CPU**：Extra Slots CPU 为每艘舰船增加附加槽位，Jump CPU 花费 Thulium 把你送到某个企业星区，Base CPU 把你送回基地，Auto-Repair CPU 自动放出你的 Repair Drone。它们不出售：先研究，再在装配站制造。见[附加装置](/wiki/06-Items/Extras.md#research-cpus)。
+- **无人机编队**：十六种供你的无人机使用的物品，有加成也有代价，例如护盾更大但武器更弱。它们不出售：先研究，再到装配站用 Thulium 制作。参见[无人机编队](/wiki/03-Mechanics/Formations.md)。
 - **资源**：外星人掉落、Skylab 为制造而产出的东西：Ship Fragment、四种晶体、Power Core、Velkonite 和 Orvium 强化板，以及来自别处的两种：**Dark Matter**（[黑洞](/wiki/03-Mechanics/Black-Hole.md)会为一枚 N.I.K.E. 火箭回馈它）和装配站用它压制成的 **Dark Matter Plate**，用于[锻造炉](/wiki/06-Items/Forge.md)的最高两步。

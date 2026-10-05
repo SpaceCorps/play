@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 539575474f5854de -->
+<!-- wiki-i18n source: 380267094f925178 -->
 <!-- wiki-i18n title: Бустеры -->
 # Бустеры {#boosters}
 

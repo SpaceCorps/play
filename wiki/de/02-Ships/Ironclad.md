@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe und der meiste Platz für Schilde, erkauft mit weniger Geschützen und einem langsameren Antrieb. Sie wird in der Montage gebaut und reiht sich zwischen der Paragon und der Wraith ein.
 

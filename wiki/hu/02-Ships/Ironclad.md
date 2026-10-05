@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a hajóteste, és ebben van a legtöbb hely a pajzsoknak – cserébe kevesebb a fegyvere, és lassabb a hajtóműve. A Gyártásban készül, a Paragon és a Wraith között.
 

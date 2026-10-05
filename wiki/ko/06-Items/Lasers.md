@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -73,8 +73,8 @@ Quantum Laser 1, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯
 플레이트의 출처는 다음과 같습니다.
 
 - **Velkonite Reinforced Plate**(Quantum Laser 3, Starfire-3)는 Velkonite로 단조하며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. **Orvium Reinforced Plate**(Helios Beam)는 Orvium으로 단조하며, 플레이트 1장에 광석 80개가 듭니다.
-- 광석은 Skylab의 수집기에서만 나옵니다. 레벨 5 Velkonite 수집기는 시간당 Velkonite를 약 29개 채굴하므로, Quantum Laser 3의 플레이트는 채굴에 약 3시간, Starfire-3의 플레이트 10장(Quantum Laser 3 단계에 2장, 자체 단계에 8장)은 약 14시간이 걸립니다. 가장 오래 걸리는 것은 Helios Beam입니다. 플레이트 18장에 Orvium 1,440개가 필요하며, 레벨 5 Orvium 수집기로 약 4일이 걸립니다.
-- 자원 창고는 레벨 1에서 광석을 종류별로 900개까지 보관하므로, 그때그때 단조하거나(레벨 1에서 단조소의 배치는 플레이트 10장) 창고를 업그레이드하세요.
+- 광석은 Skylab의 수집기에서만 나옵니다. 레벨 5 Velkonite 수집기는 시간당 Velkonite를 18개 채굴하므로, Quantum Laser 3의 플레이트는 채굴에 약 4시간, Starfire-3의 플레이트 10장(Quantum Laser 3 단계에 2장, 자체 단계에 8장)은 약 22시간이 걸립니다. 가장 오래 걸리는 것은 Helios Beam입니다. 플레이트 18장에 Orvium 1,440개가 필요하며, 레벨 5 Orvium 수집기로 약 4일이 걸립니다.
+- 자원 창고는 레벨 1에서 광석을 종류별로 240개까지 보관합니다. 단조소 레벨 1에서 Velkonite 플레이트 6장이나 Orvium 플레이트 3장 분량입니다. 그러므로 그때그때 단조하거나(레벨 1에서 단조소의 배치는 플레이트 최대 10장) 창고를 업그레이드하세요.
 - 단조한 플레이트는 함선이 착륙해 있는 동안 수거할 때까지 단조소에서 기다리며, 수거하면 일반 아이템으로 인벤토리에 들어옵니다.
 
 Ship Fragment, Cataclysite, Power Core, Reinforced Hull Plate는 외계인이 드롭합니다. 각 재료의 모든 획득처와 용도는 [자원](/wiki/06-Items/Resources.md) 페이지에 있으며, [Bulwark](/wiki/04-Aliens/Bulwark.md)와 [Goombah](/wiki/04-Aliens/Goombah.md) 페이지의 전리품 목록에서 드롭량을 확인할 수 있습니다.
@@ -120,7 +120,7 @@ Nova Amp와 Apex Amp는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modu
 
 **실드 관통**은 일제 사격의 매 공격마다 대상의 흡수율에서 차감됩니다. 즉 실드는 대상의 흡수율에서 관통을 뺀 몫을 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration) 참고). 80%(가장 좋은 실드에 가장 좋은 셀)인 함선을 상대로 x4 탄약의 10%는 실드가 공격의 70%를, 선체가 30%를 받게 합니다. 실드에 비해 선체가 작은 함선에 가장 큰 의미가 있으며, 80%인 아주 큰 함선은 어느 쪽이든 똑같이 버팁니다. 외계인에게는 이렇다 할 흡수율 능력치가 없으며(외계인의 실드는 공격의 80%를 받습니다), 관통은 거기서도 차감됩니다.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다. **대상의 실드에 x1 피해를 직접** 입히고, 같은 양을 최대치까지 **자신의 실드**에 더합니다. 다른 탄약과 마찬가지로 퀵슬롯의 탄약 선택창에서 고르세요(청록색 소용돌이가 그려진 타일입니다). 광선을 쏘지 않습니다. 가늘고 희미한 청록색 탐침이 대상에게 뻗어 나가고, 닿은 자리에서 대상의 실드가 청록색으로 번쩍이며, 빼앗은 실드는 빛나는 청록색 입자(3~10개, 많이 빼앗을수록 더 많이)가 약 0.5초 동안 하나씩 차례로 함선으로 흘러 들어오는 모습으로 눈에 보입니다. 입자가 하나 도착할 때마다 실드가 맥동합니다. 시야에 들어온 모든 파일럿의 Siphon Battery도 누구에게서 빼앗든(외계인, 다른 파일럿, 기업 파일럿의 함선) 똑같이 보입니다.
 

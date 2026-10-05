@@ -2,6 +2,8 @@
 
 You don't have to return to base to change your ship. From inside a safe zone you can open the **Hangar** window (the warehouse button in the top-left toolbar) and change what is fitted, swap to the other configuration or fly another ship you own, without leaving the game. The window is the Hangar page of the station, the same slots, stats and inventory, in a window over the game. See [Inventory & Equipment](/wiki/03-Mechanics/Inventory.md) for how items fit.
 
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../img/wiki-img/shots/hangar-window.jpg)
+
 ## When It Is Open
 
 A change is allowed only while all of these are true:
@@ -18,6 +20,8 @@ Repairs going on don't stop you. Anywhere else the Hangar window still opens, bu
 - **Either configuration.** You can prepare Config 2 while flying Config 1, then swap with the Switch Config key. A **Fly config** button in the Hangar does the same swap.
 - **Any ship.** Set another ship active and you fly it from where you are. Your ship's model changes in front of everyone nearby.
 - **A new shield, engine or Adaptive Core starts empty**, as in the station: its configuration's shield charge is empty until it recharges.
+- **Drone formations.** The Drones view lists the formations you own under your drones. They are not fitted: in flight you drag one from the hotbar's Formations list onto a slot, and that slot's click or key wears it, with no wait inside a safe zone ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
+- **Extras.** The four regular ships, the Protos, Kitefin, Ostirion and Nomad (the ones you start with or buy), have 2 extra slots in each configuration; the four ships you craft in Assembly, the Paragon, Ironclad, Wraith and Storm, have 3. The Extra Slots CPUs of your Skylab add 3, 5 or 7 on top: 5, 7 or 9 on the regular ships and 6, 8 or 10 on the crafted ones ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). When 0.4.10 came, a third extra on a regular ship was unequipped into your inventory: nothing was deleted, and you got one chat message.
 
 ## Changing Ship
 

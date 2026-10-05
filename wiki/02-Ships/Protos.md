@@ -5,9 +5,9 @@ The Protos is the basic starter ship given to all new pilots in SpaceCorps. It i
 ## Stats
 
 - **Hitpoints (HP)**: 8,000
-- **Base Speed**: 150
+- **Base Speed**: 160
 - **Laser Slots**: 2
-- **Extra Slots**: 3
+- **Extra Slots**: 2
 
 ### Generator & Support Slots
 
@@ -28,7 +28,7 @@ The Protos is the basic starter ship given to all new pilots in SpaceCorps. It i
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **No research needed.** This ship has no technology of its own.
-- **More extra slots.** Extra Slots CPU I, II and III, installed in your Skylab, give this ship 3, 5 and 7 more extra slots: 6, 8 and 10 in all with its own 3. You research and make them like any other item: see [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **More extra slots.** Extra Slots CPU I, II and III, installed in your Skylab, give this ship 3, 5 and 7 more extra slots: 5, 7 and 9 in all with its own 2. You research and make them like any other item: see [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Рой Pirate -->
 # Рой Pirate {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Pirate Boss платит по заслугам этого боя: минута �
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Основа: Ironclad, 50% корпуса, щита и урона; скорость и дальность взяты от исходного корабля. Каждые 5 с выпускает прямую ракету: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) в `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) в `x-3`.
 
@@ -73,7 +73,7 @@ Pirate Boss платит по заслугам этого боя: минута �
 | Одна из 8 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 5–10 |
 | Одна из Advanced Plasma и Siphon Battery, на выбор случая | 100% | 500–1 000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Основа: Kitefin, 50% корпуса, щита и урона; скорость и дальность взяты от исходного корабля.
 

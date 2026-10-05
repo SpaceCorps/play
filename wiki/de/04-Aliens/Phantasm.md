@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 Phantasms sind aggressive Drohnen der Spektralklasse. Sie greifen jeden Spieler an, der in ihren Aggro-Radius (700 Einheiten) eindringt, und verlieren das Interesse, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn sie selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen sind (2.500 und 3.000 bei einem Piloten, der auf sie geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der einen Phantasm in den letzten 10 Sekunden getroffen hat, lässt dieser überhaupt nicht los, und er fliegt auf den Piloten zu, wann immer dieser jenseits der Waffenreichweite des Phantasm (700 Einheiten) steht. Schießen mehrere Piloten auf einen Phantasm, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 

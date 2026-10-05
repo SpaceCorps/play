@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Sciame Dormant -->
 # Sciame Dormant {#dormant-swarm}
 
@@ -47,7 +47,7 @@ I valori delle navi dello sciame nei tre mondi ([Mondi](/wiki/05-Swarms/Swarms.m
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Base: Wraith, con il 100% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza. Spara un razzo dritto ogni 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Base: Wraith, con il 100% di scafo, scudo e danno; velocità e portata sono quel
 | Scafo | 324.000 | 486.000 | 648.000 |
 | Scudo | 83.400 | 125.100 | 166.800 |
 | Danno dei laser (una raffica al secondo) | 2.880 | 4.320 | 5.760 |
-| Velocità | 225 | 225 | 225 |
+| Velocità | 220 | 220 | 220 |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Danno dei razzi, al massimo | 7.500 | 11.250 | 15.000 |
@@ -74,7 +74,7 @@ Base: Wraith, con il 100% di scafo, scudo e danno; velocità e portata sono quel
 | Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 30–50 |
 | Uno tra [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) e [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), scelto a caso | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Base: Paragon, con il 100% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza. Spara un razzo dritto ogni 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

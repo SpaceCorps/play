@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
 Você não precisa voltar à base para trocar de nave. De dentro de uma zona segura, você pode abrir a janela **Hangar** (o botão do armazém na barra de ferramentas, no canto superior esquerdo) e mudar o que está equipado, trocar para a outra configuração ou voar com outra nave sua, sem sair do jogo. A janela é a página Hangar da estação, com os mesmos slots, atributos e inventário, só que numa janela sobre o jogo. Veja [Inventário e equipamento](/wiki/03-Mechanics/Inventory.md) para saber como os itens se encaixam.
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## Quando ele está aberto {#when-it-is-open}
 
@@ -20,6 +22,8 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 - **Qualquer uma das duas configurações.** Você pode preparar a configuração 2 enquanto voa com a configuração 1 e depois trocar com a tecla Trocar config. Um botão **Voar com config.** no hangar faz a mesma troca.
 - **Qualquer nave.** Ative outra nave e você voa com ela de onde está. O modelo da sua nave muda diante de todos que estão por perto.
 - **Um novo escudo, motor ou núcleo adaptativo começa vazio**, como na estação: a carga de escudo da configuração fica vazia até recarregar.
+- **Formações de drones.** A tela Drones lista sob os seus drones as formações que você tem. Elas não são equipadas: em voo você arrasta uma da lista de Formações da barra de atalhos para um slot, e o clique ou a tecla desse slot a usa, sem espera dentro de uma zona segura ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
+- **Extras.** As quatro naves comuns, Protos, Kitefin, Ostirion e Nomad (as com que você começa ou que compra), têm 2 slots extras por configuração; as quatro naves que você fabrica na Montagem, Paragon, Ironclad, Wraith e Storm, têm 3. As Extra Slots CPUs do seu Skylab dão 3, 5 ou 7 a mais: 5, 7 ou 9 nas comuns e 6, 8 ou 10 nas fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Com a 0.4.10, um terceiro extra em uma nave comum foi desequipado e foi para o seu inventário: nada foi apagado, e você recebeu uma mensagem no chat.
 
 ## Trocar de nave {#changing-ship}
 

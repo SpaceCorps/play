@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
@@ -45,7 +45,7 @@
 
 Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.25個、Reinforced Hull Plate 0.6枚、Power Core 0.25個です。そのため、ドロップ品を集めるには、Nova Amp か Apex Amp で約8体、セルはティアIIで約7体・IIIで約10体・IVで約14体、Heavy Shield Core で約14体、スラスターはティアIIで約4体・IIIで約10体・IVで約19体、Engine III で約19体の Goombah が必要です。Bulwark が落とすのは、Cataclysite 2個、Ship Fragment 2個、Reinforced Hull Plate 0.3枚で、Power Core は落としません。
 
-Velkonite Reinforced Plate はドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、Velkonite 鉱石から作ります（鍛造所レベル1ではプレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石12個を採掘するため、アンプのプレート3枚は10時間分、ティアIVのセルやスラスターのプレート6枚は20時間分の採掘になります（レベル5のコレクターなら4時間と8時間）。ティアIIIのプレート4枚は13時間分、ティアIIのプレート2枚は7時間分、Heavy Shield Core や Engine III のプレート6枚は20時間分です。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)を参照してください。
+Velkonite Reinforced Plate はドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、Velkonite 鉱石から作ります（鍛造所レベル1ではプレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、アンプのプレート3枚は12時間分、ティアIVのセルやスラスターのプレート6枚は24時間分の採掘になります（レベル5のコレクターなら7時間と13時間）。ティアIIIのプレート4枚は16時間分、ティアIIのプレート2枚は8時間分、Heavy Shield Core や Engine III のプレート6枚は24時間分です。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)を参照してください。
 
 **Helios Beam** も同じ種類の強化で、レーザーからレーザーを作ります。Starfire-3 を1基消費し、2,000 Thulium、Cataclysite 50個、Power Core 2個、Reinforced Hull Plate 4枚、Orvium Reinforced Plate 18枚が必要で、同じように Starfire-3 のエンチャント段階を引き継ぎます。**Starfire-3** も同様です。Quantum Laser 3 を1基消費し、1,500 Thulium、100,000クレジット、Ship Fragment 15個、Reinforced Hull Plate 1枚、Velkonite Reinforced Plate 8枚が必要で、Quantum Laser 3 のエンチャント段階を引き継ぎます。どちらも[レーザー](/wiki/06-Items/Lasers.md)のページに載っています。上の表に載っているのは、アンプ、ティアII～IVのセルとスラスター、Heavy Shield Core、Engine III です。
 
@@ -82,7 +82,7 @@ Velkonite Reinforced Plate はドロップしません。[Skylab](/wiki/03-Mecha
 
 ## カテゴリー {#categories}
 
-ショップ、ハンガーのインベントリ、その他のアイテム一覧は、すべて同じ順番で並びます。艦、続いてレーザー（アンプと弾薬つき）、シールド（セルつき）、エンジン（スラスターつき）、アダプティブコア、エクストラ、ドローン、ブースター、資源の順です。同じ種類の中では、最も安いものが先に来ます。
+ショップ、ハンガーのインベントリ、その他のアイテム一覧は、すべて同じ順番で並びます。艦、続いてレーザー（アンプと弾薬つき）、シールド（セルつき）、エンジン（スラスターつき）、アダプティブコア、エクストラ、ドローン、ドローン編成、ブースター、資源の順です。同じ種類の中では、最も安いものが先に来ます。
 
 - **レーザー**：主力の武器システムと、そこに装着する[アンプ](/wiki/06-Items/Lasers.md)です。
 - **シールド**：防御用のジェネレーターと[セル](/wiki/06-Items/Shields.md)です。
@@ -90,4 +90,5 @@ Velkonite Reinforced Plate はドロップしません。[Skylab](/wiki/03-Mecha
 - **Repair Drone**：船体を修理するエクストラで、後のものほど速く修理します。Repair Drone I、II、III は5,000、15,000、35,000クレジット、Repair Drone IV は2,000 Thulium です。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
 - **Cloaking CPU と EMP Charge**：戦闘や逃走のためのエクストラです。Cloaking CPU は、自分で解除するまで艦を隠します（S、M、L は使用回数が10、25、50回で、価格は5,000、11,250、20,000 Thulium）。EMP Charge は、3秒間ロックオンされなくなり、あなたへのロックオンをすべて解除し、近くのステルスもすべて解除します（500 Thulium）。[エクストラ](/wiki/06-Items/Extras.md)を参照してください。
 - **研究 CPU**：Extra Slots CPU はすべての艦のエクストラスロットを増やし、Jump CPU は Thulium と引き換えに企業のセクターへ運び、Base CPU は基地へ連れ戻し、Auto-Repair CPU は Repair Drone を自動で出します。販売はされません。研究してから、アセンブリで製作します。[エクストラ](/wiki/06-Items/Extras.md#research-cpus)を参照してください。
+- **ドローン編成**：ドローンのための16種類のアイテムで、ボーナスを与える代わりに代償を求めます（例：シールドが大きくなる代わりに武器が弱くなる）。販売はされていません。研究したうえで、アセンブリでThuliumを使って作成します。[ドローン編成](/wiki/03-Mechanics/Formations.md)を参照してください。
 - **資源**：製作のために、エイリアンがドロップし、Skylab が作るものです。Ship Fragment、4種類のクリスタル、Power Core、Velkonite と Orvium のプレートに加え、ほかから手に入る2つがあります。N.I.K.E. ロケットと引き換えに[ブラックホール](/wiki/03-Mechanics/Black-Hole.md)が返す **Dark Matter** と、それをアセンブリが圧縮して作る **Dark Matter Plate** です。後者は、[鍛冶場](/wiki/06-Items/Forge.md)の最上位の2ステップに使います。

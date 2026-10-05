@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers e munição {#lasers-ammo}
 
@@ -38,7 +38,7 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 ```
 <!-- item-tree:end -->
 
-## Lasers {#lasers}
+## Lasers
 
 Equipe lasers diretamente nos slots de arma da nave ou dentro de drones para aumentar sua capacidade ofensiva.
 
@@ -73,8 +73,8 @@ A página da Montagem mostra o que você tem em comparação com o que a receita
 De onde vêm as placas:
 
 - As **Velkonite Reinforced Plates** (Quantum Laser 3 e Starfire-3) são forjadas a partir de Velkonite, 40 de minério por placa no nível 1 da Forja. As **Orvium Reinforced Plates** (Helios Beam) são forjadas a partir de Orvium, 80 de minério por placa.
-- O minério vem só dos coletores do seu Skylab. Um Coletor de Velkonite de nível 5 extrai cerca de 29 de Velkonite por hora, então as placas de um Quantum Laser 3 levam cerca de 3 horas de mineração e as dez placas de um Starfire-3 (duas no Quantum Laser 3 dele, oito na etapa própria dele), cerca de 14. O Helios Beam é o mais demorado: as 18 placas dele exigem 1.440 de Orvium, cerca de 4 dias de um Coletor de Orvium de nível 5.
-- O Depósito de recursos guarda 900 de cada minério no nível 1, então forje conforme avança (um lote da Forja é de 10 placas no nível 1) ou melhore o depósito.
+- O minério vem só dos coletores do seu Skylab. Um Coletor de Velkonite de nível 5 extrai 18 de Velkonite por hora, então as placas de um Quantum Laser 3 levam cerca de 4 horas de mineração e as dez placas de um Starfire-3 (duas no Quantum Laser 3 dele, oito na etapa própria dele), cerca de 22. O Helios Beam é o mais demorado: as 18 placas dele exigem 1.440 de Orvium, cerca de 4 dias de um Coletor de Orvium de nível 5.
+- O Depósito de recursos guarda 240 de cada minério no nível 1: 6 placas de Velkonite ou 3 de Orvium com a Forja no nível 1. Então forje conforme avança (um lote da Forja tem até 10 placas no nível 1) ou melhore o depósito.
 - As placas forjadas esperam na Forja até você coletá-las com a nave pousada, e vão para o seu inventário como itens comuns.
 
 Ship Fragments, Cataclysite, Power Cores e Reinforced Hull Plates vêm dos alienígenas; todas as fontes e usos de cada material estão na página [Recursos](/wiki/06-Items/Resources.md); as listas de saque nas páginas do [Bulwark](/wiki/04-Aliens/Bulwark.md) e do [Goombah](/wiki/04-Aliens/Goombah.md) mostram quanto.
@@ -120,7 +120,7 @@ Baterias consumíveis que multiplicam o dano das suas rajadas de laser:
 
 A **penetração de escudo** é descontada da absorção do seu alvo em cada acerto das suas rajadas: os escudos recebem a absorção do alvo menos a penetração (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)). Contra uma nave a 80% (o melhor escudo com as melhores células), os 10% da munição x4 deixam os escudos com 70% do impacto e o casco com 30%. Isso importa mais contra naves cujo casco é pequeno perto do escudo; uma nave muito grande a 80% aguenta do mesmo jeito de qualquer forma. Os alienígenas não têm um atributo de absorção digno de nota (os escudos deles recebem 80% de um impacto), e a penetração é descontada disso também.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 A Siphon Battery é uma munição para roubar escudos em vez de quebrar cascos. Ela causa **dano x1 diretamente ao escudo do alvo** e soma a mesma quantidade ao **seu próprio escudo**, até o seu máximo. Escolha-a no seletor de munição da barra de atalhos como qualquer outra munição (é o bloco com o vórtice azul-petróleo). Ela não dispara um raio: uma sonda fina e tênue azul-petróleo sai até o alvo, o escudo do alvo brilha em azul-petróleo onde ela chega, e o escudo que você drenou flui visivelmente de volta para a sua nave em pacotes brilhantes azul-petróleo (de três a dez, mais para uma drenagem maior), um após o outro ao longo de cerca de meio segundo. Cada pacote que chega faz o seu escudo pulsar. Você vê o mesmo para a Siphon Battery de qualquer piloto à vista, não importa quem ela drene: alienígenas, outros pilotos e naves de pilotos de corporação.
 

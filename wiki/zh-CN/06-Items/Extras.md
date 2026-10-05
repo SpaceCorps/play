@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2b63df451b6a864e -->
+<!-- wiki-i18n source: 1855960bc32d6626 -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
-附加装置是装在舰船**附加槽位**中的各种小工具（每艘舰船的每套配置各有三个，装上 Extra Slots CPU 后更多）。你可以从快捷栏的“附加装置”选择器中启用它，或者通过你为它设置的快捷栏槽位启用。它们只在你当前驾驶的配置中生效：装在另一套配置里的，会等到你切换配置后才开始工作。
+附加装置是装在舰船**附加槽位**中的各种小工具（Protos、Kitefin、Ostirion 和 Nomad，也就是你一开始拥有或购买的舰船，每套配置各有两个；Paragon、Ironclad、Wraith 和 Storm，也就是你自己制造的舰船，各有三个；装上 Extra Slots CPU 后再多 3、5 或 7 个）。你可以从快捷栏的“附加装置”选择器中启用它，或者通过你为它设置的快捷栏槽位启用。它们只在你当前驾驶的配置中生效：装在另一套配置里的，会等到你切换配置后才开始工作。
 
 | 附加装置 | 效果 | 次数 | 价格 |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,14 @@
 
 Cloaking CPU 和 EMP Charge 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。
 
-另有七种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II，以及 Auto-Repair CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。
+新飞行员的**新手套装**已经在 Protos 的两个附加槽位里装好了两件附加装置：一个 **Base CPU I**（可用 10 次，传送到你所属企业的基地）和一个 **Repair Drone I**。想使用它们，请从快捷栏的“附加装置”选择器把它们拖到一个槽位上。只有新飞行员才会拿到这套装备：在 0.4.10 之前开始游戏的飞行员没有它。
+
+另有七种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II，以及 Auto-Repair CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。两种传送 CPU，也就是 Jump CPU 和 Base CPU，在你携带任务物品时同样无法使用（“携带任务物品时无法使用传送 CPU。”）：见[任务物品](/wiki/03-Mechanics/Quests.md#quest-items)。
 
 每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，EMP Charge 是 **EMP**，Auto-Repair CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**BSE** 和 **JMP**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
+
+![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -51,9 +56,9 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone {#repair-drones}
 
-启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。[Auto-Repair CPU](#auto-repair-cpu) 会替你再次启用它。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
+启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。[Auto-Repair CPU](#auto-repair-cpu) 会替你再次启用它。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。修复期间，小型维修无人机会从舰船飞出，环绕舰船并向船体照射光束：Repair Drone I 一台，II 两台，III 或 IV 三台，附近的飞行员也能看到；修复停止后，它们会重新对接。
 
-## Cloaking CPU {#cloaking-cpu}
+## Cloaking CPU
 
 按下 CLK 槽位即可隐形。**一次按下就是一次使用**，无论是哪个型号，剩余次数会显示在槽位上和机库中。隐形**没有时间限制**：它会一直保持，直到你关闭它或有什么东西打断它。
 
@@ -72,7 +77,7 @@ Base CPU I -> Base CPU II
 
 S、M、L 型号的行为完全相同：更大的型号只是每次使用更便宜（分别为 500、450 和 400 Thulium）。
 
-## EMP Charge {#emp-charge}
+## EMP Charge
 
 在战斗中按下 EMP 槽位。**3 秒**内无人能锁定你，而且**所有已锁定你的人都会立刻失去锁定**，无论他们身在何处：飞行员、外星人和企业飞行员皆然。锁定被打断的飞行员会收到提示“锁定丢失：目标使用了 EMP”。在这 3 秒内试图锁定你的人会被拒绝。
 
@@ -102,13 +107,13 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 
 它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **作用。** Extra Slots CPU I、II、III 分别为每艘舰船增加 3、5、7 个附加槽位，加上每艘舰船本来就有的 3 个，总共是 6、8、10 个。更高级的 CPU 会取代前一级：II 不会叠加在 I 之上。
+- **作用。** Extra Slots CPU I、II、III 分别为每艘舰船增加 3、5、7 个附加槽位：本来有 3 个的舰船总共是 6、8、10 个，本来有 2 个的舰船总共是 5、7、9 个。更高级的 CPU 会取代前一级：II 不会叠加在 I 之上。
 - **安装，而非携带。** Extra Slots CPU 不是物品：你在装配站领取后，它会自动安装到你的 Skylab，对两套配置下的每艘舰船都生效，并且不占用槽位。重置之后它仍然保留。
 - **按顺序。** 请依次制造：I 安装后才能制造 II，II 安装后才能制造 III；在此之前，装配站会告诉你应先安装哪一个。三个总共需要 117,000 Thulium：12,000、30,000 和 75,000。
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **作用。** 把你的舰船跳跃到你所在世界的任意企业星区，无论是你自己企业的还是其他企业的，包括它们的主星区（`M`、`T` 和 `G`，星区 1 到 4），每次跳跃需要 **500 Thulium**。使用次数没有上限：你只需支付 Thulium。它永远不会通向危险星区（`DS`）或中立星区（`N`）。
 - **跳跃。** 按下 JMP 槽位，在星系地图上选择星区并确认，舰船充能 5 秒，然后抵达该星区的一座星门，并像经过任何星门跳跃后一样受到保护。你抵达后，CPU 冷却 30 秒。
@@ -116,7 +121,7 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 - **不能从中立星区出发：** 身处中立星区或没有企业的飞行员无法使用。
 - 只要你不在战斗中，就可以从危险星区离开。
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **作用。** 把你的舰船传送到你所属企业的基地，落在空间站周围的安全区内（`M-1`、`T-1` 或 `G-1`，设有 Mission Control 的星区），不需要 Thulium。你从快捷栏的 BSE 槽位启动它们。
 - **战斗中不可用。** 充能 10 秒，两者相同。开火或被击中后 10 秒内、隐形时、或已经在基地的安全区内时都无法启动，充能期间开火或被击中会取消它。
@@ -128,7 +133,7 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 
 - **用完即止，不会重新充能。** 每次使用会消耗该 CPU 的一次使用次数，次数用完的 CPU 就消失了：请制造新的。两个都装备时，更好的那个（II）先被使用。
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **作用。** 只要你本可以手动放出附加槽位里装备的 Repair Drone，它就会自动放出：船体没有满、无人机还没放出，并且距上次被击中已过 10 秒。无需设置任何船体比例。
 - 它占用一个自己的附加槽位，如果同一配置的附加槽位里没有 Repair Drone，它什么也不做。它从不放出技能槽位里的 Repair Drone（那是 Emergency Repair 按钮）。

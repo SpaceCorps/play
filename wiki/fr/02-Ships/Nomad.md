@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Le Nomad est un croiseur avec deux fois la coque et deux fois les canons d’un Ostirion : une tête de marteau entre l’Ostirion et le Paragon, qui s’achète à la boutique avec des crédits et du Thulium à la fois. Tout pilote peut l’acheter.
 
@@ -9,7 +9,7 @@ Le Nomad est un croiseur avec deux fois la coque et deux fois les canons d’un 
 - **Points de vie (PV)** : 96 000
 - **Vitesse de base** : 200
 - **Emplacements laser** : 6
-- **Emplacements extras** : 3
+- **Emplacements extras** : 2
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Le Nomad est un croiseur avec deux fois la coque et deux fois les canons d’un 
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Aucune recherche nécessaire.** Ce vaisseau n’a pas de technologie propre.
-- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 6, 8 et 10 au total avec les 3 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 5, 7 et 9 au total avec les 2 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，想要活下来，需要出色的护盾容量和火力。它会追击仇恨范围（900 单位）内任何不受保护的飞行员，当飞行员与它相距超过 1,200 单位，或它从追击起点飞出 2,000 单位后就会放弃追击（对朝它开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它的飞行员，它则绝不会放弃追击，只要对方超出它的武器射程（900 单位），Crystalys 就会朝那名飞行员飞去。多名飞行员同时向它开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 

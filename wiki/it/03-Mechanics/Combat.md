@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
 Questa sezione spiega nel dettaglio come il danno viene calcolato, applicato e riparato durante gli scontri in SpaceCorps.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Calcolo del danno {#damage-calculation}
 
@@ -27,11 +31,12 @@ Ogni raffica ha una probabilità di essere un colpo critico.
 
 Infine si applicano i moltiplicatori globali (come i booster attivi o i moltiplicatori delle munizioni laser, per esempio x2, x3, x4) per ottenere il danno finale:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata può moltiplicare ancora il risultato: per esempio Auger +21% di danno laser, Gyre −11% e, contro gli alieni, Culler +12% (un fattore a parte, non compreso nella percentuale dei booster).
 - Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 
 ### 3b. Razzi {#3b-rockets}
 
-Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.600 a 2.000, un Lancet III da 4.800 a 6.000, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, meno verso il bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri.
+Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.600 a 2.000, un Lancet III da 4.800 a 6.000, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, meno verso il bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer.
 
 ### 4. Voltarsi verso il bersaglio {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ Le ricompense di un alieno vanno al pilota che gli ha sparato per primo, non a c
 - **Vederla**: quando selezioni un alieno rivendicato da un altro pilota, la finestra Bersaglio mostra *Rivendicato da* quel pilota e *Senza premio*.
 - I [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) non rivendicano mai un alieno, e un alieno che finiscono paga comunque il pilota che ne detiene la rivendicazione.
 - Un pilota in un [gruppo](/wiki/03-Mechanics/Groups.md) condivide ciò che paga la sua rivendicazione con i compagni di gruppo che sono vicini e stanno sparando; la rivendicazione in sé è solo del pilota.
-- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse sono l’eccezione**: un boss di sciame e ogni Dormant Pulse pagano in base al danno che ha inflitto loro ogni pilota, non in base al primo colpo, e la loro cassa di carico va al pilota che ha inflitto più danno ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Gli altri seguaci, i Pirate Scout e i Seeker Slave, pagano in base alla rivendicazione, come ogni alieno. I punti PvE di una nave di sciame sono nella pagina Sciami.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md), le Dormant Pulse e i [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sono l’eccezione**: un boss di sciame, ogni Dormant Pulse e ogni Clan Warden pagano in base al danno che ha inflitto loro ogni pilota, non in base al primo colpo, e la loro cassa di carico va al pilota che ha inflitto più danno ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Gli altri seguaci, i Pirate Scout e i Seeker Slave, pagano in base alla rivendicazione, come ogni alieno. I punti PvE di una nave di sciame sono nella pagina Sciami.
 
 ---
 
@@ -87,9 +92,9 @@ Un alieno che ti ha scelto come bersaglio (un Phantasm, un Bulwark o un Crystaly
 
 Un alieno che lascia perdere vaga da dove si trova, mai verso il punto in cui ti ha visto per l’ultima volta (nemmeno quando ti occulti o lanci l’EMP), e non ti sceglie di nuovo come bersaglio per **8 secondi**, a meno che tu non gli spari. Ogni alieno decide per conto suo, quindi un branco misto si dirada man mano che voli via. Gli alieni non ti seguono mai in una zona sicura né attraverso un portale, e quelli che ti hanno perso vicino a uno si allontanano da esso, ciascuno per la sua strada, così non aspettano ammassati. L’interesse di un alieno non si spegne mai a una distanza inferiore alla sua portata d’attacco e al suo raggio di aggressione, più 100 unità.
 
-Gli alieni non si ammassano: un branco all’inseguimento di un pilota mantiene un po’ di spazio tra le sue navi mentre si avvicina (150 unità tra gli scafi, quindi i Phantasm di un branco volano a 250 unità l’uno dall’altro anziché scafo contro scafo), e un alieno che riparte per la sua strada con altri nelle vicinanze vola via da loro, così un branco che ha perso il suo pilota si disperde in ogni direzione.
+Gli alieni non si spingono a vicenda: un branco dietro un pilota si avvicina senza lasciare spazio tra le sue navi, e un branco che ha perso il suo pilota si sparpaglia solo quando ogni alieno sceglie la propria strada. Un alieno però si tiene lontano da una **nave**: non finisce mai dentro lo scafo di un pilota, e un pilota che si ferma su uno lo spinge via.
 
-Volare più veloci aiuta solo fino a un certo punto: una Protos (150) è più lenta di ogni alieno che dà la caccia (Phantasm 160, Bulwark 175, Crystalys 230), quindi a far finire l’inseguimento è il limite di distanza, non la tua velocità.
+Volare più veloci aiuta solo fino a un certo punto: una Protos (160) non è più veloce di nessun alieno che dà la caccia (Phantasm 160, Bulwark 175, Crystalys 230), quindi a far finire l’inseguimento è il limite di distanza, non la tua velocità.
 
 ---
 
@@ -104,6 +109,7 @@ Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbim
 - La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%).
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
+- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, fino al 40% in tutto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Immunità della zona sicura {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ Per riprendersi dal combattimento, i piloti possono contare sulla rigenerazione 
 
 - **Funzionamento**: ripristina ogni secondo punti scudo pari alla velocità di ricarica del tuo scudo.
 - **Ritardo**: interrotta dal combattimento; la rigenerazione passiva riprende solo dopo **15 secondi** senza subire danni.
+- **Formazioni di droni**: Adamant e Redoubt restituiscono scudo ogni secondo, anche in combattimento (vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 Le munizioni [Siphon Battery](/wiki/06-Items/Lasers.md) aggiungono subito al tuo scudo quello che drenano da un bersaglio, fino al tuo massimo. Guadagnare scudo non è danno subito, quindi non ritarda la tua rigenerazione passiva.
 

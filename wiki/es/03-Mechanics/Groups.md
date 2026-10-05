@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -39,7 +39,7 @@ Lo que sigue siendo solo del que derriba: la **caja de carga** (botín y recurso
 
 ## Reparto de misiones {#sharing-missions}
 
-Un derribo también cuenta para las **misiones de derribo** de todos los demás miembros que están en el mismo mapa y **han disparado un láser o un cohete contra cualquier cosa en los últimos 15 segundos**, estén donde estén en él, como si ellos mismos hubieran destruido al alienígena. Las reglas propias de la misión siguen decidiendo: el alienígena debe ser del tipo de la misión y estar en el sector que esta indica. Un compañero que no disparó, o que está en otro mapa, no recibe ningún recuento. Las misiones mantienen las reglas de su propia corporación: una misión que pide un derribo en el «sector 4 de otra corporación» cuenta para el miembro para quien ese sector es de otra corporación. Cuando el derribo de un compañero cuenta para una de tus misiones, un aviso te dice para cuál.
+Un derribo también cuenta para las **misiones de derribo** de todos los demás miembros que están en el mismo mapa y **han disparado un láser o un cohete contra cualquier cosa en los últimos 15 segundos**, estén donde estén en él, como si ellos mismos hubieran destruido al alienígena. Las reglas propias de la misión siguen decidiendo: el alienígena debe ser del tipo de la misión y estar en el sector que esta indica. Un compañero que no disparó, o que está en otro mapa, no recibe ningún recuento. Las misiones mantienen las reglas de su propia corporación: una misión que pide un derribo en el «sector 4 de otra corporación» cuenta para el miembro para quien ese sector es de otra corporación. Cuando el derribo de un compañero cuenta para una de tus misiones, un aviso te dice para cuál. En la [línea de Desafíos](/wiki/03-Mechanics/Quests.md#where-it-counts), además, un miembro debe estar a menos de **4.000 unidades** de los restos para contar, y cada miembro que tenga una misión con un objeto de misión tira por su cuenta y ve su propio objeto: nadie puede compartir uno.
 
 ## Canales de chat {#chat-channels}
 

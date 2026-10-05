@@ -1,0 +1,124 @@
+<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n title: Formazioni -->
+# Formazioni di droni {#drone-formations}
+
+Una **formazione di droni** è uno schema che i tuoi droni prendono attorno alla nave, e cambia il modo in cui la nave combatte. Ogni formazione dà alcuni bonus e fa pagare alcuni costi: uno scudo più grande in cambio di armi più deboli, razzi più duri in cambio di uno scafo più sottile, uccisioni di alieni più rapide in cambio di una nave più lenta. Ce ne sono **16**. Ne ricerchi una nel tuo [Skylab](/wiki/03-Mechanics/Skylab.md), la costruisci all’Assemblaggio e ne indossi **una** alla volta, una qualsiasi tra quelle che possiedi. Puoi cambiarla ogni **2 secondi**, anche in combattimento.
+
+![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
+![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
+![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
+
+## In un minuto {#in-one-minute}
+
+- **Procurala.** Ricerca la sua tecnologia nel Centro ricerche (due alberi, *Difesa* e *Attacco e mobilità*), poi costruiscila all’Assemblaggio in cambio di Thulium. La più economica costa 7.000 Thulium e 5 Dark Matter, la più cara 46.000 Thulium e 20 Dark Matter. Il Negozio non ne vende nessuna.
+- **Possiedila.** Una formazione non si monta da nessuna parte: basta un esemplare nel tuo inventario. Ti serve almeno un drone, uno Slave Drone o un Master Drone, altrimenti nessuna formazione funziona.
+- **Indossala.** Trascinala dall’elenco Formazioni della barra rapida su uno slot qualsiasi. Clicca lo slot o premi il suo tasto per indossare la formazione. L’elenco ha anche **Standard**, che è nessuna formazione: trascinalo su uno slot e premilo per non indossarne più nessuna. Puoi cambiare una volta ogni 2 secondi, e non c’è blocco di combattimento.
+- **Scegli per il prossimo minuto.** Ogni formazione fa pagare i suoi bonus, quindi nessuna è la migliore ovunque. Indossa quella adatta a ciò che stai per fare: cacciare, un duello, lanciare razzi o scappare.
+
+> [!NOTE]
+> Una formazione non è la disposizione “Wingman” con cui i tuoi droni volano accanto alla nave ([Meccaniche dei droni](/wiki/03-Mechanics/Drones.md#formation-movement)). Quella disposizione è solo il loro aspetto, ed è la stessa qualunque formazione tu indossi. Una formazione di droni è un insieme di bonus e costi.
+
+## Ottenere una formazione {#getting-a-formation}
+
+1. **Ricercala.** Il Centro ricerche del tuo Skylab ha due alberi di formazioni. **Difesa** (6 formazioni) raccoglie quelle che tengono in vita la nave: scudo, scafo e uno scudo che si ripara da solo. **Attacco e mobilità** (10) raccoglie quelle che vincono lo scontro o ne escono: razzi, laser, perforazione, caccia agli alieni e velocità. Una ricerca dura **10 ore, 1 giorno o 2 giorni** e chiede **5, 13 o 20 Dark Matter**, da collegare prima di iniziare: più la formazione è forte, più è lunga e cara. Per alcune bisogna prima aver ricercato un’altra formazione (la tabella qui sotto dice quale). Tutte e sedici insieme sono 16 g 2 h di ricerca, una dopo l’altra, e 189 Dark Matter. Il carburante, il potenziamento e il Dark Matter sono nella pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+2. **Costruiscila.** L’Assemblaggio produce la formazione, nella categoria Droni, in cambio di Thulium e materiali e senza crediti. Ci vogliono 5, 10 o 15 minuti. Una formazione non si può forgiare né incantare.
+3. **Tienila.** Non si monta nulla: basta un esemplare nel tuo inventario. La vista Droni dell’Hangar, alla stazione o in volo da una zona sicura ([L’Hangar in volo](/wiki/03-Mechanics/Hangar.md)), elenca sotto i tuoi droni le formazioni che possiedi. Puoi possedere più esemplari; uno vale quanto tutti.
+
+## Indossare una formazione {#wearing-a-formation}
+
+- **Sulla barra rapida.** Il pulsante **Formazioni** sopra la barra rapida apre l’elenco delle formazioni che possiedi. Trascinane una su uno slot qualsiasi, in una delle due righe, come fai con le munizioni o con un razzo. Lo slot mostra l’immagine della formazione e le sue tre lettere, e tiene il tasto di quello slot.
+- **Indossarla in volo.** Clicca lo slot o premi il suo tasto. Se premi di nuovo lo slot acceso, non succede nulla: per non indossarne nessuna, metti **Standard** dell’elenco su uno slot e premilo. Lo slot della formazione che indossi è acceso. Dopo un cambio, uno spicchio scuro scorre sugli altri slot di formazione finché non è consentito il cambio successivo, e una pressione in quel tempo fa lampeggiare lo slot di rosso. La barra del titolo della finestra Nave dice cosa indossi.
+- **I tasti.** Una formazione ha il tasto dello slot su cui la metti (all’inizio da 1 a 9 e da Shift+1 a Shift+9). Puoi riassegnare gli slot in Impostazioni › Comandi.
+- **Ogni 2 secondi, anche in combattimento.** Non c’è blocco di combattimento né tempo di assestamento: i nuovi valori valgono subito. Se lo chiedi troppo presto, la chat dice “La formazione potrà cambiare di nuovo tra 1,4 s.” Dentro una zona sicura non c’è praticamente attesa.
+- **Ti segue.** Il gioco ricorda l’ultima formazione che hai indossato e la richiede di nuovo al decollo e alla rinascita. Un cambio di configurazione (tasto `C`) la lascia addosso, senza attesa.
+- **Serve un drone.** Senza uno Slave Drone o un Master Drone nella tua flotta, la formazione non fa niente. Ne basta uno: il numero di droni, i loro livelli e ciò che portano non contano.
+- **Gli altri la vedono.** Seleziona un pilota, e la finestra Bersaglio dice “Formazione:” e il suo nome. Con il tuo gruppo non si condivide niente.
+
+## Le sedici formazioni {#the-sixteen-formations}
+
+Le tabelle elencano che cosa dà ciascuna e che cosa ti costa, come la scheda dell’oggetto nel gioco. Una percentuale è una variazione del valore finale della tua nave. La penetrazione si conta in punti dell’assorbimento dello scudo del bersaglio, come per le munizioni ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+
+### Difesa {#defence}
+
+| Formazione | Bonus | Costi |
+| :--- | :--- | :--- |
+| **Testudo** | Punti scudo +14% | Tutti i danni −5% |
+| **Sanctum** | Punti scudo +10%, Punti scafo +15% | Danno laser −9% |
+| **Rampart** | Assorbimento dello scudo +17% | Velocità −17% |
+| **Adamant** | Rigenerazione dello scudo al secondo +1,2% (fino a 5.750 punti scudo al secondo) | Punti scafo −15% |
+| **Redoubt** | Punti scudo +38%, Rigenerazione dello scudo al secondo +0,7% (fino a 4.500 punti scudo al secondo), Ricarica dei razzi −27% | Velocità −11%, Danno laser −12% |
+| **Cordon** | Punti scudo +95% | Velocità −3%, Danno laser −11%, Ricarica dei razzi +11% |
+
+### Attacco e mobilità {#strike-mobility}
+
+| Formazione | Bonus | Costi |
+| :--- | :--- | :--- |
+| **Asterism** | Evasione +7%, Danno dei razzi +24% | Ricarica dei razzi +35% |
+| **Bodkin** | Danno dei razzi +29% | Danno laser −6% |
+| **Ballista** | Danno dei razzi +55% | Punti scafo −13% |
+| **Gemini** | Penetrazione scudo +9% | Punti scudo −22% |
+| **Stiletto** | Punti scafo +13%, Penetrazione scudo +16% | Perdita di scudo al secondo in combattimento −3,5% |
+| **Centurion** | Onore dalle distruzioni +32% | Punti scudo −7%, Punti scafo −5%, Danno laser −5% |
+| **Shrike** | Danno laser agli alieni +7,5%, XP dagli alieni distrutti +6% | Assorbimento dello scudo −6% |
+| **Culler** | Danno agli alieni +12%, XP dagli alieni distrutti +12% | Velocità −10% |
+| **Gyre** | Velocità +10% | Danno laser −11%, Perdita di scudo al secondo in combattimento −0,5% |
+| **Auger** | Danno laser +21% | Velocità −9% |
+
+## Quanto costano {#what-they-cost}
+
+Thulium, mai crediti. Tutte e sedici insieme costano 330.500 Thulium e 189 Dark Matter.
+
+| Formazione | Richiede prima | Tempo di ricerca | Dark Matter | Thulium per la creazione | Tempo di creazione |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| **Testudo** | – | 10 h | 5 | 7.500 | 5 min |
+| **Sanctum** | Testudo | 1 g | 13 | 20.000 | 10 min |
+| **Rampart** | Sanctum | 2 g | 20 | 38.500 | 15 min |
+| **Adamant** | – | 10 h | 5 | 9.000 | 5 min |
+| **Redoubt** | Adamant | 1 g | 13 | 21.000 | 10 min |
+| **Cordon** | Redoubt | 1 g | 13 | 21.500 | 10 min |
+| **Asterism** | – | 10 h | 5 | 7.000 | 5 min |
+| **Bodkin** | Asterism | 1 g | 13 | 21.000 | 10 min |
+| **Ballista** | Bodkin | 1 g | 13 | 24.000 | 10 min |
+| **Gemini** | – | 2 g | 20 | 38.000 | 15 min |
+| **Stiletto** | Gemini | 2 g | 20 | 46.000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 8.000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 8.500 | 5 min |
+| **Culler** | Shrike | 1 g | 13 | 20.000 | 10 min |
+| **Gyre** | – | 1 g | 13 | 20.000 | 10 min |
+| **Auger** | Gyre | 1 g | 13 | 20.500 | 10 min |
+
+### Materiali {#materials}
+
+Oltre al Thulium, l’Assemblaggio prende questi materiali dal tuo inventario. Dipendono dal tempo di ricerca della formazione:
+
+| Tempo di ricerca | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 10 h | 100 | 10 | 5 | 4 | – | – |
+| 1 g | 180 | 18 | 9 | 8 | 3 | – |
+| 2 g | 260 | 26 | 13 | 14 | 6 | 2 |
+
+## Le regole nel dettaglio {#the-rules-in-detail}
+
+- **Il tuo scafo mantiene la sua quota.** Una formazione che cambia il tuo scafo massimo cambia il tuo scafo della stessa quota: a scafo pieno sei pieno del nuovo massimo, all’80% sei all’80%, in entrambe le direzioni, e tornando indietro ritrovi lo stesso numero. Un cambio non ti cura mai e non ti danneggia mai, e non è un danno. Il tuo scudo è diverso: una formazione che abbassa il tuo scudo massimo vi riporta il valore attuale, e una che lo alza non aggiunge nulla, quindi uno scudo che hai caricato con Cordon viene tagliato quando la lasci.
+- **I bonus di distruzione aspettano 10 secondi.** L’XP e l’onore che Shrike, Culler e Centurion aggiungono a una distruzione contano solo dopo che la formazione è stata indossata per 10 secondi. Contano le distruzioni di alieni (anche le navi degli sciami), non le missioni né i piloti. Tutto il resto di una formazione agisce subito.
+- **Una perdita corre solo finché indossi la formazione.** Stiletto e Gyre bruciano ogni secondo una parte del tuo scudo *attuale*, ma solo in combattimento (un colpo subito, uno sparo laser o un razzo negli ultimi 10 secondi) e mai dentro una zona sicura. Cambia formazione e la perdita si ferma subito. Non è danno, quindi non fa ricominciare i 15 secondi prima che il tuo scudo si ricarichi.
+- **La rigenerazione funziona in combattimento.** Adamant e Redoubt restituiscono ogni secondo una parte del tuo scudo massimo, in aggiunta alla ricarica propria della nave e fino al limite della tabella. Si ferma quando lo scudo è pieno e non conta come danno subito.
+- **L’evasione è una probabilità di schivare un colpo diretto.** Il 7% di Asterism significa che ogni colpo diretto contro di te (una salva laser, un razzo diretto, uno sparo di un alieno) ha il 7% di probabilità di non fare alcun danno, e sopra la tua nave compare un “Mancato” fluttuante. Gli altri colpi arrivano interi: su molti colpi subisci circa il 7% di danno in meno, ma un singolo razzo è tutto o niente. Un’esplosione ad area non prende la mira e non viene mai schivata.
+- **La penetrazione si somma a quella delle munizioni.** Gemini e Stiletto sommano i loro punti alla penetrazione delle tue munizioni e di un razzo diretto. La somma si ferma al 40%, e un’esplosione non ne ha.
+- **Razzi, tutti e 14.** Il bonus ai razzi di una formazione moltiplica il danno di ogni razzo, N.U.K.E. e N.I.K.E. compresi. Anche il costo sul danno totale di Testudo conta sui razzi, e il danno agli alieni di Culler conta sui razzi che colpiscono un alieno. Tutti i fattori su un razzo insieme si fermano a ×1,59. La migliore formazione per razzi, Ballista (+55%), fa colpire una N.I.K.E. fino a 116.250 e una N.U.K.E. fino a 77.500: un Paragon intatto (128.000) sopravvive ancora alla prima, e un Goombah (80.000) alla seconda.
+- **La ricarica di un razzo è fissata quando lo lanci.** I 5 secondi diventano 6,75 con Asterism, 5,55 con Cordon e 3,65 con Redoubt, ma mai meno del volo del razzo più un attimo: 4,1 secondi dopo una N.U.K.E. e 4,6 dopo una N.I.K.E. Cambiare formazione dopo non accorcia l’attesa che hai già.
+- **Le abilità non seguono la formazione.** Shield Surge ed Emergency Repair calcolano il loro totale dal tuo massimo senza la formazione, quindi un cambio non può renderle più forti. L’Afterburner moltiplica la tua velocità così com’è adesso, e un Repair Drone ripara una parte del tuo scafo massimo così com’è adesso.
+- **Una nave più lenta ha il punto di non ritorno più lontano** al [buco nero](/wiki/03-Mechanics/Black-Hole.md). Rampart (−17%) e Redoubt (−11%) ti rallentano di più; Gyre (+10% di velocità) è la formazione per andarsene.
+
+## Quale e quando {#which-one-when}
+
+- **Cacciare alieni:** Auger (+21% di laser) per quelli duri, Culler (+12% di danno agli alieni e +12% di XP) e Shrike (+7,5% di danno laser agli alieni, +6% di XP) per l’XP. Indossa una formazione con bonus di distruzione *prima* di attaccare: il suo bonus conta solo dopo 10 secondi.
+- **Duelli:** Gemini (+9 punti di penetrazione) taglia uno scudo, Rampart (+17% di assorbimento) fa reggere il tuo, Stiletto (+16 punti di penetrazione e +13% di scafo) morde più forte ma brucia il tuo scudo (3,5% al secondo) in combattimento, e Sanctum (+15% di scafo e +10% di scudo) incassa i colpi.
+- **Razzi:** Ballista (+55%) è il peso massimo, Bodkin (+29%) la più mite con un costo minore, e Asterism (+24%, con il 7% di evasione) la paga con una ricarica più lenta.
+- **Incassare i colpi di un boss o di uno sciame:** Cordon (+95% di scudo), Redoubt (+38% di scudo che si ripara) e Sanctum.
+- **Scappare:** Gyre (+10% di velocità).
+- **Cambiare in combattimento è il punto.** Apri con Gemini per bucare l’altro scudo, passa a Rampart o Sanctum quando sei tu a prendere i colpi (un cambio mantiene la quota del tuo scafo, quindi non ti cura mai) e prendi Gyre quando vuoi uscire. Tre o quattro sulla tua barra rapida bastano per tutto questo.
+
+## Tenerle {#keeping-them}
+
+Le formazioni di droni restano con te al wipe di stagione, come i tuoi droni: ogni formazione che possiedi resta, ovunque si trovi (nell’inventario, sulla tua barra rapida, nel [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) o su una nave), quindi non serve spendere spazio del Deposito per una di esse, e la tua barra rapida mantiene i suoi slot. Anche la ricerca resta.

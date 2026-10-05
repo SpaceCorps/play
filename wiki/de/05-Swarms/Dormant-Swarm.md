@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant-Schwarm -->
 # Dormant-Schwarm {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Hülle | 324.000 | 486.000 | 648.000 |
 | Schild | 83.400 | 125.100 | 166.800 |
 | Laserschaden (eine Salve pro Sekunde) | 2.880 | 4.320 | 5.760 |
-| Tempo | 225 | 225 | 225 |
+| Tempo | 220 | 220 | 220 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Raketenschaden, höchstens | 7.500 | 11.250 | 15.000 |
@@ -74,7 +74,7 @@ Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Eine der 4 epischen [Raketen](/wiki/06-Items/Rockets.md), zufällig gewählt | 100 % | 30–50 |
 | Eines von [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) und [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), zufällig gewählt | 50 % | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Basis: Paragon mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

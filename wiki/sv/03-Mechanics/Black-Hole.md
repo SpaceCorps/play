@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
 Mitt i Farosektor 4 (`DS-4`, mitten av PvP-zonen) hänger ett svart hål i mörkret. Det är likadant i alla världar (Alpha, Beta och Gamma), varje dag under säsongen, Fredsprotokollet inräknat. Det tar det som kommer för nära, och det ger tillbaka en enda sak: [Dark Matter](#dark-matter), för en N.I.K.E.-raket som avfyras in i det.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## Ringarna {#the-rings}
 
@@ -40,7 +43,7 @@ Mellan två rader ökar skadan längs en rät linje. I träffpoäng per sekund, 
 | Ostirion | 82 500 | 454 | 660 | 1 650 | 4 125 | 9 075 |
 | Nomad | 130 500 | 718 | 1 044 | 2 610 | 6 525 | 14 355 |
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 194 500 | 1 070 | 1 556 | 3 890 | 9 725 | 21 395 |
+| Storm | 198 000 | 1 089 | 1 584 | 3 960 | 9 900 | 21 780 |
 | Wraith | 372 000 | 2 046 | 2 976 | 7 440 | 18 600 | 40 920 |
 | Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
 
@@ -75,17 +78,17 @@ Din **punkt utan återvändo** är avståndet där dragningen är lika stark som
 | Skepp (grundutrustning) | Fart | Punkt utan återvändo |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1 974 |
-| Protos | 155 | 1 627 |
+| Protos | 165 | 1 577 |
 | Kitefin | 184 | 1 480 |
 | Ostirion | 208 | 1 362 |
 | Nomad | 211 | 1 347 |
 | Paragon | 222 | 1 287 |
-| Wraith | 238 | 1 171 |
-| Storm | 256 | 1 046 |
+| Wraith | 233 | 1 208 |
+| Storm | 263 | 995 |
 
 Ett skepp som är snabbare än 272 enheter i sekunden (en utrustning byggd för fart, eller en Wraith med grundutrustning och en pågående Afterburner) har sin punkt utan återvändo kvar där den alltid låg: vid fart 300 är den 885, vid 432 är den 747.
 
-Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 39,1, med punkten utan återvändo vid ungefär 2 600). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (tio sekunder med en motor, femton med två, tjugo med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 627 till 1 105 och för en Wraith med grundutrustning från 1 171 till 793). Ingenting tar sig ut inifrån ungefär 390 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,69); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core II med Impulse Thruster IV och Momentum Thruster IV), med en Afterburner III, tar sig i bästa fall ut från utanför 425.
+Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 39,1, med punkten utan återvändo vid ungefär 2 600). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (tio sekunder med en motor, femton med två, tjugo med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 577 till 989 och för en Wraith med grundutrustning från 1 208 till 801). Ingenting tar sig ut inifrån ungefär 390 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,69); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core II med Impulse Thruster IV), med en Afterburner III, tar sig i bästa fall ut från utanför 429.
 
 Fallet från punkten utan återvändo börjar långsamt: ett skepp som ligger några enheter innanför den dras in på tjugo sekunder eller mer, även med full kraft, och sedan allt snabbare. Dragningen är ingen flygning: den räknas inte som flugen sträcka.
 
@@ -124,13 +127,13 @@ Inställningar hjälper där hålet är tungt eller jobbigt för ögonen: **Mins
 
 Drönare flyger med sitt skepp. Last läggs aldrig ut innanför ringen: en låda som skulle hamna där läggs på dess kant. Lådor med Dark Matter är det enda undantaget.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Hålet ger tillbaka **Dark Matter** för en **N.I.K.E.**-raket som når det. En N.I.K.E. är en raket med 67 500 till 75 000 i skada som träffar det första skepp den kan skada och förbrukas på det; om inget är i vägen flyger den till hålet och förbrukas när den korsar händelsehorisonten. [Monteringen](/wiki/06-Items/Rockets.md) tillverkar N.I.K.E.-raketer när deras teknologi är framforskad ([Forskning](/wiki/03-Mechanics/Research.md)), fem per tillverkning (100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Avfyrning.** En N.I.K.E. flyger 4 050 enheter på 4,5 sekunder (900 i sekunden) rakt mot det du siktade på: utan valt mål, lägg markören på det svarta hålet (eller rikta skeppet mot det). Den når horisonten från var som helst mellan strålningens rand (4 000 enheter) och 4 380 enheter från mitten. Längre bort faller den kort och går till spillo. Som alla raketer använder den den gemensamma omladdningen på 5 sekunder (ingen laser behöver vara monterad); att avfyra den avslutar ditt skydd i den säkra zonen och ditt kamouflage. **Ett skepp på linjen tar den i stället**: en rival som väntar vid randen, eller en pilot från en annan koncern som plockar upp lådor i vägen, träffas av 67 500 till 75 000 och hålet får ingenting. Utomjordingar och koncernpiloter kommer aldrig innanför ringen, så en fri linje är din att hålla fri; den flyger genom din egen koncern och genom skepp som är säkra för dig. Lämnar du kartan efter skottet flyger den vidare utan att skada någon och ger ändå din Dark Matter.
+- **Avfyrning.** En N.I.K.E. flyger 4 050 enheter på 4,5 sekunder (900 i sekunden) rakt mot det du siktade på: utan valt mål, lägg markören på det svarta hålet (eller rikta skeppet mot det). Den når horisonten från var som helst mellan strålningens rand (4 000 enheter) och 4 380 enheter från mitten. Längre bort faller den kort och går till spillo. Som alla raketer använder den den gemensamma omladdningen på 5 sekunder (ingen laser behöver vara monterad); att avfyra den avslutar ditt skydd i den säkra zonen och ditt kamouflage. **Ett skepp på linjen tar den i stället**: en rival som väntar vid randen, eller en pilot från en annan koncern som plockar upp lådor i vägen, träffas av 67 500 till 75 000 och hålet får ingenting. Utomjordingar och koncernpiloter kommer aldrig innanför ringen, så en fri linje är din att hålla fri; den flyger genom din egen koncern och genom skepp som är säkra för dig. Lämnar du kartan efter skottet flyger den vidare utan att skada någon och ger ändå din Dark Matter. En drönarformation kan ändra den timern och träffens skada (se [Drönarformationer och raketer](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **Vad som kommer tillbaka.** Varje N.I.K.E. som når horisonten ger **1, 2 eller 3 Dark Matter** (2 i snitt, så ungefär fem N.I.K.E.-raketer ger tio), i en eller två små lådor som dyker upp vid randen av hålets zon, **3 050 till 3 950 enheter från mitten**, nära linjen ditt skott kom in på. Dragningen slutar vid 3 000, så lådorna och skeppen som tar dem dras inte, och strålningen där är 0,3 till 0,8 % av ett skepps HP i sekunden: en minut mitt i bandet kostar en tredjedel av ditt skepp. Ett helt skepp håller tre minuter där.
 - **Vems.** Lådorna är dina, och din klans, i **60 sekunder** från skottet. Därefter får vem som helst på kartan ta dem, och de driver bort efter **4 minuter**. Farosektorn är en PvP-sektor, så räkna med sällskap. En pilot som loggar ut efter att ha avfyrat har fortfarande sina lådor.
 - **Hur många.** En karta rymmer högst 32 lådor med Dark Matter; en ny knuffar ut den äldsta av dem, och aldrig någon annan sorts låda. [Resource Magnet](/wiki/03-Mechanics/Cargo.md) lägger inget till Dark Matter.
 - **Vad du ser.** När en N.I.K.E. korsar horisonten sträcks den ut in i hålet, rymden krusar sig ut från där den gick in, och skivan och fotonringen blossar upp i ungefär en och en halv sekund (en tredjedel av det, med hälften av ljuset, under **Minska rörelser**). Ett ögonblick senare kommer lådorna ut ur hålet och driver till sina platser vid randen: var och en är ett violettsvart klot med en ljus kant och gnistor, lätt att se på långt håll, och med titeln **Dark Matter** när du håller pekaren över den. Dina visar sekunderna du har kvar över dem, och syns på minikartan som ett litet violett märke, liksom för din klan; andra piloters lådor syns på minikartan först när deras minut är slut.
-- **Vad den är till för.** Monteringen pressar 5 Dark Matter med en Velkonite Reinforced Plate och en Orvium Reinforced Plate till en **Dark Matter Plate**, och [Smedjan](/wiki/06-Items/Forge.md) kräver två av dem för att höja ett föremål från Gudomlig till Rämnande och igen från Rämnande till Evig: tio Dark Matter per steg. Skylabs [forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter) behöver också Dark Matter: 10 för var och en av de 15 teknologierna högst upp i trädet, 150 sammanlagt, isatta innan forskningen börjar.
+- **Vad den är till för.** Monteringen pressar 5 Dark Matter med en Velkonite Reinforced Plate och en Orvium Reinforced Plate till en **Dark Matter Plate**, och [Smedjan](/wiki/06-Items/Forge.md) kräver två av dem för att höja ett föremål från Gudomlig till Rämnande och igen från Rämnande till Evig: tio Dark Matter per steg. Skylabs [forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter) behöver också Dark Matter: 10 för var och en av de 15 teknologierna högst upp i trädet, 150 sammanlagt, isatta innan forskningen börjar. Drönarformationerna kräver också Dark Matter, 5, 13 eller 20 efter styrka: 189 till, 339 sammanlagt.

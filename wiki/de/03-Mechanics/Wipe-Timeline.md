@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
 Das Universum von SpaceCorps folgt einem wiederkehrenden Saisonzyklus. Alle 30 Tage erlebt die Galaxie einen kosmischen Reset, den **Wipe**. Ein Reset mag abschreckend klingen, ist aber die ultimative Probe für Vorbereitung und Planung: Du nimmst deine beste Ausrüstung mit, wählst deine nächste Welt und baust dauerhafte Boni über die Saisons hinweg auf.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## Saisonplan über 30 Tage {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ Folgendes ist immer geschützt und wird automatisch in die nächste Saison mitge
 1. Dein aktuell aktives Schiff.
 2. Jeder Gegenstand, der derzeit auf diesem aktiven Schiff ausgerüstet ist, in **Konfiguration 1** und **Konfiguration 2** (einschließlich Laser, Schilde, Triebwerke und Generatoren).
 3. Jede Drohne, die du besitzt, mit Level und Erfahrung: Deine [Slave Drones](/wiki/03-Mechanics/Drones.md) bleiben erhalten, also bleiben deine Drohnen-Slots freigeschaltet, und der Preis deiner nächsten Drohne richtet sich weiter nach der Anzahl, die du besitzt. Laser und Schilde in einem Drohnen-Slot folgen der Regel oben: Sie bleiben, wenn sie auf dem aktiven Schiff sind.
+4. Jede Drohnenformation, die du besitzt ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)), egal wo sie liegt: in deinem Inventar, in deiner Aktionsleiste oder auf einem Schiff. Wie deine Drohnen bleiben sie, ohne Platz im Transport-Cache zu belegen.
 
 ### Manuelle Mitnahme (Transport-Cache) {#manual-carry-over-transport-cache-}
 Für zusätzliche Gegenstände in deinem Inventar, die du retten willst (z. B. Ersatzwaffen, Herstellungsressourcen oder zusätzliche Schildgeneratoren):
@@ -83,7 +86,7 @@ SpaceCorps betreibt drei **Welten**. Jede ist eine eigene Kopie der ganzen Galax
 So funktionieren die Welten:
 
 * **Aliens**: Die Alien-Stärke einer Welt multipliziert ihre Trefferpunkte, Schilde, Schildaufladung und ihren Schaden. Ihr Tempo und ihre Reichweite sind überall gleich.
-* **Lohn**: Ein Abschuss zahlt nach der Welt, in der er stattfindet. Eine Quest zahlt nach der Welt, in der du sie erledigt hast (der niedrigeren, falls sie sich über zwei erstreckt), egal in welcher Welt du sie abholst, und das Limit einer zeitgebundenen Quest ist in Beta 1,5-mal so lang und in Gamma doppelt so lang ([Quests](/wiki/03-Mechanics/Quests.md)). Beute und Konzernpiloten sind in jeder Welt gleich, deshalb verdienst du in einer höheren Welt mehr pro Stunde, aber ihre Kämpfe kosten mehr Reparaturen.
+* **Lohn**: Ein Abschuss zahlt nach der Welt, in der er stattfindet. Eine Quest zahlt nach der Welt, in der du sie erledigt hast (der niedrigeren, falls sie sich über zwei erstreckt), egal in welcher Welt du sie abholst (eine Station-Mission hat keine eigene Welt und zahlt nach der Welt, in der du fliegst, wenn du sie abholst), und das Limit einer zeitgebundenen Quest ist in Beta 1,5-mal so lang und in Gamma doppelt so lang ([Quests](/wiki/03-Mechanics/Quests.md)). Beute und Konzernpiloten sind in jeder Welt gleich, deshalb verdienst du in einer höheren Welt mehr pro Stunde, aber ihre Kämpfe kosten mehr Reparaturen.
 * **PvP**: Jeder auf einer Karte gehört zu deren Welt, deshalb gilt eine Regel für die ganze Karte, Konzernpiloten eingeschlossen. Schutzzonen und das Friedensprotokoll (Tag 1–3) schützen jede Welt.
 * **Im Flug**: Der Name der Welt steht rechts oben vor der ID des Sektors („Beta · M-2“). Das Abzeichen in der Titelleiste des Fensters Schiff sagt dir, wo du stehst: **Sicher** in einer Schutzzone, **Kein PvP** während des Friedensprotokolls oder dort, wo deine Welt PvP verbietet, **PvP**, wo andere Piloten dich angreifen können. Fahre mit der Maus darüber, um die Regel zu sehen. Die [Galaxiekarte](/wiki/01-General/Spacemap%20Travel.md) färbt die Sektoren nach der Regel deiner Welt ein.
 
@@ -97,7 +100,9 @@ So funktionieren die Welten:
 
 ## Fortschritt über Saisons hinweg (dauerhafte Buffs) {#cross-season-progression-permanent-buffs-}
 
-Der Wipe nimmt dir deine Schiffe und Gegenstände (außer deinem aktiven Schiff mit allem, was daran ausgerüstet ist, deinem Transport-Cache und deinen Drohnen) und setzt dich in den Heimatsektor deines Konzerns zurück; dein Level, deine Credits, dein Thulium und deine Rangpunkte werden nicht zurückgesetzt. Darüber hinaus tragen deine gesamten Pilotenleistungen zu dauerhafter Stärke bei. Alien-Abschüsse und abgeschlossene Missionen bringen **Wipe-Punkte (WP)**. Deine [Missionen](/wiki/03-Mechanics/Quests.md) selbst, erledigte wie laufende, bleiben erhalten: Jede lässt sich pro Pilot nur einmal erledigen, für immer.
+Der Wipe nimmt dir deine Schiffe und Gegenstände (außer deinem aktiven Schiff mit allem, was daran ausgerüstet ist, deinem Transport-Cache und deinen Drohnen) und setzt dich in den Heimatsektor deines Konzerns zurück; dein Level, deine Credits, dein Thulium und deine Rangpunkte werden nicht zurückgesetzt. Darüber hinaus tragen deine gesamten Pilotenleistungen zu dauerhafter Stärke bei. Alien-Abschüsse und abgeschlossene Missionen bringen **Wipe-Punkte (WP)**. Deine [Missionen](/wiki/03-Mechanics/Quests.md) selbst, erledigte wie laufende, bleiben erhalten: Jede lässt sich pro Pilot nur einmal erledigen, für immer, außer den Level-Missionen, die das Update 0.4.10 überarbeitet hat: 64 davon werden noch einmal angeboten ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clans und Ränge.** Die Punkte, Boost-Stufen und Tageslinien eines Clans beginnen bei jedem Wipe von vorn, jede Saison ist also ein neues Rennen um volle Boosts; der Clan selbst, seine Mitglieder, seine Bank und seine Steuer bleiben ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Auch dein Konzernrang bleibt: Er folgt deinen PvE-Rangpunkten, die ein Wipe nicht zurücksetzt ([Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Der Shop für dauerhafte Buffs {#the-permanent-buff-store}
 Deine angesammelten WP kannst du für dauerhafte Buffs ausgeben, die für immer über alle Saisons hinweg erhalten bleiben. Diese Buffs stapeln sich und geben spürbare passive Boni:
@@ -128,4 +133,4 @@ Wipe-Punkte kommen aus Meilensteinen, die du selbst einlöst, im Spiel unter **S
 
 Es zählen nur Abschüsse, für die du bezahlt wirst (siehe [Kampf](/wiki/03-Mechanics/Combat.md)). Ein Meilenstein zahlt erst, wenn er voll ist: 99 Seeker zahlen nichts, der 100. zahlt 1 WP, und die Abschüsse danach zählen für den 200.
 
-**Missionen.** Die erste Mission, die du abschließt, zahlt 5 WP, danach zahlt jede 5. (die 5., 10., 15. und so weiter, bis zur 100.) 5 WP mehr, insgesamt 105 WP.
+**Missionen.** Die erste Mission, die du abschließt, zahlt 5 WP, danach zahlt jede 5. (die 5., 10., 15. und so weiter, bis zur 85.) 5 WP mehr, insgesamt 90 WP. Es zählen nur die Level-Missionen (88 insgesamt, nicht die Station-Missionen und nicht die Linie der Herausforderungen, siehe [Quests](/wiki/03-Mechanics/Quests.md)), und eine überarbeitete Level-Mission, die du erneut machst, wird nicht ein zweites Mal gezählt.

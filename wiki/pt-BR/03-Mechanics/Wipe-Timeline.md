@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
 O universo de SpaceCorps é governado por um ciclo sazonal recorrente. A cada 30 dias, a galáxia passa por uma reinicialização cósmica conhecida como **Reset**. Embora um reset possa parecer assustador, ele é o teste definitivo de preparo e planejamento: permite levar o seu melhor equipamento para a temporada seguinte, escolher o seu próximo mundo e acumular bônus permanentes entre temporadas.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## Calendário da temporada de 30 dias {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ Os itens a seguir são sempre protegidos e passam para a próxima temporada auto
 1. A sua nave ativa no momento.
 2. Todos os itens equipados nessa nave ativa, tanto na **Configuração 1** quanto na **Configuração 2** (incluindo lasers, escudos, motores e geradores).
 3. Todos os drones que você possui, com o nível e a experiência: os seus [Slave Drones](/wiki/03-Mechanics/Drones.md) ficam, então os seus slots de drone continuam abertos e o preço do seu próximo drone continua a partir do número que você tem. Os lasers e escudos encaixados em um slot de drone seguem a regra acima: ficam se estiverem na nave ativa.
+4. Todas as formações de drones que você possui ([Formações de drones](/wiki/03-Mechanics/Formations.md)), onde quer que estejam: no inventário, na sua barra de atalhos ou em uma nave. Como os seus drones, elas ficam sem ocupar capacidade do Cache de Transporte.
 
 ### Transferência manual (Cache de Transporte) {#manual-carry-over-transport-cache-}
 Para itens adicionais do seu inventário que você quer salvar (por exemplo, armamento reserva, recursos de criação ou geradores de escudo extras):
@@ -83,7 +86,7 @@ SpaceCorps tem três **mundos**. Cada um é uma cópia separada de toda a galáx
 Como os mundos funcionam:
 
 * **Alienígenas**: a força dos alienígenas de um mundo multiplica os pontos de vida, os escudos, a recarga de escudo e o dano deles. A velocidade e o alcance são os mesmos em todo lugar.
-* **Ganho**: um abate paga conforme o mundo em que acontece. Uma missão paga conforme o mundo em que você a fez (o mais baixo, caso ela abranja dois), seja qual for o mundo em que você a resgata, e o limite de tempo de uma missão cronometrada é 1,5 vez maior no Beta e o dobro no Gamma ([Missões](/wiki/03-Mechanics/Quests.md)). Os itens de saque e os pilotos de corporação são iguais em todos os mundos, então um mundo mais alto rende mais por hora, mas as lutas nele custam mais reparos.
+* **Ganho**: um abate paga conforme o mundo em que acontece. Uma missão paga conforme o mundo em que você a fez (o mais baixo, caso ela abranja dois), seja qual for o mundo em que você a resgata (uma missão da estação não tem mundo próprio e paga o mundo em que você voa quando a resgata), e o limite de tempo de uma missão cronometrada é 1,5 vez maior no Beta e o dobro no Gamma ([Missões](/wiki/03-Mechanics/Quests.md)). Os itens de saque e os pilotos de corporação são iguais em todos os mundos, então um mundo mais alto rende mais por hora, mas as lutas nele custam mais reparos.
 * **PvP**: todos em um mapa pertencem ao mundo dele, então uma única regra vale para o mapa inteiro, pilotos de corporação incluídos. As zonas seguras e o Protocolo de Paz (dias 1–3) protegem todos os mundos.
 * **Em voo**: o nome do mundo fica antes do id do setor, no canto superior direito (“Beta · M-2”). O selo na barra de título da janela Nave mostra onde você está: **Seguro** em uma zona segura, **Sem PvP** durante o Protocolo de Paz ou onde o seu mundo proíbe PvP, **PvP** onde outros pilotos podem atacar você. Passe o mouse sobre ele para ver a regra. O [mapa da galáxia](/wiki/01-General/Spacemap%20Travel.md) colore os setores conforme a regra do seu mundo.
 
@@ -97,7 +100,9 @@ Como os mundos funcionam:
 
 ## Progressão entre temporadas (bônus permanentes) {#cross-season-progression-permanent-buffs-}
 
-O Reset leva as suas naves e itens (exceto a sua nave ativa com tudo o que está equipado nela, o seu Cache de Transporte e os seus drones) e coloca você de volta no setor de origem da sua corporação; o seu nível, os créditos, o Thulium e os pontos de ranking não voltam a zero. Além disso, as suas conquistas gerais como piloto contribuem para um poder permanente. Destruir alienígenas e concluir missões concede **pontos de reset (PR)**. As suas [missões](/wiki/03-Mechanics/Quests.md) em si, concluídas e em andamento, passam para a próxima temporada: cada uma pode ser feita uma vez por piloto, para sempre.
+O Reset leva as suas naves e itens (exceto a sua nave ativa com tudo o que está equipado nela, o seu Cache de Transporte e os seus drones) e coloca você de volta no setor de origem da sua corporação; o seu nível, os créditos, o Thulium e os pontos de ranking não voltam a zero. Além disso, as suas conquistas gerais como piloto contribuem para um poder permanente. Destruir alienígenas e concluir missões concede **pontos de reset (PR)**. As suas [missões](/wiki/03-Mechanics/Quests.md) em si, concluídas e em andamento, passam para a próxima temporada: cada uma pode ser feita uma vez por piloto, para sempre, exceto as missões de nível que a atualização 0.4.10 refez: 64 delas são oferecidas mais uma vez ([Missões](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clãs e patentes.** Os pontos, os níveis de bônus e as linhas diárias de um clã recomeçam a cada reset, então cada temporada é uma nova corrida aos bônus no máximo; o clã em si, os membros dele, o banco e a taxa continuam ([Clãs](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A sua patente de corporação também continua: ela acompanha os seus pontos de ranking PvE, que um reset não zera ([Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### A loja de bônus permanentes {#the-permanent-buff-store}
 Você pode gastar os seus PR acumulados em bônus permanentes que passam por todas as temporadas para sempre. Esses bônus se acumulam e dão vantagens passivas significativas:
@@ -128,4 +133,4 @@ Os pontos de reset vêm de marcos que você mesmo resgata, no jogo em **Temporad
 
 Só contam os abates pelos quais você é pago (veja [Combate](/wiki/03-Mechanics/Combat.md)). Um marco só paga quando está completo: 99 Seekers não pagam nada, o 100º paga 1 PR, e os abates depois dele contam para o 200º.
 
-**Missões.** A primeira missão que você conclui paga 5 PR, e depois cada 5ª (a 5ª, a 10ª, a 15ª e assim por diante, até a 100ª) paga mais 5 PR, 105 PR no total.
+**Missões.** A primeira missão que você conclui paga 5 PR, e depois cada 5ª (a 5ª, a 10ª, a 15ª e assim por diante, até a 85ª) paga mais 5 PR, 90 PR no total. Só contam as missões de nível (88 no total, sem as missões da estação nem a linha de Desafios, veja [Missões](/wiki/03-Mechanics/Quests.md)), e uma missão de nível refeita que você faz de novo não é contada uma segunda vez.

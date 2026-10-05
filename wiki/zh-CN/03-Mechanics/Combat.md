@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: 战斗 -->
 # 战斗机制 {#combat-mechanics}
 
 本节详细介绍 SpaceCorps 的战斗中，伤害是如何计算、结算和修复的。
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## 伤害计算 {#damage-calculation}
 
@@ -27,11 +31,12 @@
 
 最后，应用全局倍率（例如生效中的增益，或 x2、x3、x4 这样的激光弹药倍率），得到最终伤害输出：
 - 公式：`FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- 正在使用的[无人机编队](/wiki/03-Mechanics/Formations.md)可能会再乘一次：例如 Auger 激光伤害 +21%，Gyre −11%，对外星人则是 Culler +12%（是单独的系数，不属于增益的百分比）。
 - **Siphon Battery** 弹药的倍率是 x1，但作用对象不同：它的伤害只从目标的护盾中扣除（无论吸收率多少，都绝不会伤及船体），并转入你自己的护盾，最高不超过你的护盾上限。见[激光与弹药](/wiki/06-Items/Lasers.md)。
 
 ### 3b. 火箭 {#3b-rockets}
 
-[火箭](/wiki/06-Items/Rockets.md)有自己的伤害（Lancet I 为 1,600 到 2,000，Lancet III 为 4,800 到 6,000，N.U.K.E. 为 45,000 到 50,000），在发射时随机决定一次，对每艘舰船都一样：你的激光、增幅器、增益和弹药都不会改变它，它也不会暴击。所有火箭共用一个 **5 秒**的装填计时器。单体火箭带有**护盾穿透**：它会从你目标的吸收率中扣除（见下文“承受伤害与安全区”）；爆炸会伤害半径内的每一艘舰船，越靠近边缘伤害越低。火箭能从飞行员的舰船上夺走多少，没有任何上限：先扣护盾，再扣船体。火箭绝不会伤害你自己的企业或你自己的[小队](/wiki/03-Mechanics/Groups.md)，无论其中的成员来自哪个企业。
+[火箭](/wiki/06-Items/Rockets.md)有自己的伤害（Lancet I 为 1,600 到 2,000，Lancet III 为 4,800 到 6,000，N.U.K.E. 为 45,000 到 50,000），在发射时随机决定一次，对每艘舰船都一样：你的激光、增幅器、增益和弹药都不会改变它，它也不会暴击。所有火箭共用一个 **5 秒**的装填计时器。单体火箭带有**护盾穿透**：它会从你目标的吸收率中扣除（见下文“承受伤害与安全区”）；爆炸会伤害半径内的每一艘舰船，越靠近边缘伤害越低。火箭能从飞行员的舰船上夺走多少，没有任何上限：先扣护盾，再扣船体。火箭绝不会伤害你自己的企业或你自己的[小队](/wiki/03-Mechanics/Groups.md)，无论其中的成员来自哪个企业。正在使用的[无人机编队](/wiki/03-Mechanics/Formations.md)是唯一能同时改变这两者的东西：火箭编队会提高每枚火箭的伤害（最高 +55%），有些编队还会让计时器变长或变短。
 
 ### 4. 面向目标 {#4-facing-the-target}
 
@@ -54,7 +59,7 @@
 - **查看归属**：当你选中一个已被其他飞行员持有归属的外星人时，目标窗口会显示 *归属：* 该飞行员的名字，以及 *无奖励*。
 - [企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)从不获得外星人的归属，他们补刀击杀的外星人，奖励仍归持有其归属的飞行员。
 - [小队](/wiki/03-Mechanics/Groups.md)中的飞行员，会把自己归属带来的奖励分给在附近且正在开火的队友；归属本身只属于这名飞行员一人。
-- **[虫群](/wiki/05-Swarms/Swarms.md)的头领和 Dormant Pulse 是例外**：虫群 Boss 和每个 Dormant Pulse 按每名飞行员对其造成的伤害支付奖励，而不是按第一击，各自的货箱归造成伤害最多的飞行员（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。其余的随从（Pirate Scout 和 Seeker Slave）和任何外星人一样按归属支付。虫群舰船的 PvE 积分见虫群页面。
+- **[虫群](/wiki/05-Swarms/Swarms.md)的头领、Dormant Pulse 和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 是例外**：虫群 Boss、每个 Dormant Pulse 和每个 Clan Warden 按每名飞行员对其造成的伤害支付奖励，而不是按第一击，各自的货箱归造成伤害最多的飞行员（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。其余的随从（Pirate Scout 和 Seeker Slave）和任何外星人一样按归属支付。虫群舰船的 PvE 积分见虫群页面。
 
 ---
 
@@ -87,9 +92,9 @@ Seeker 和 Goombah 从不主动挑起战斗。它们会转向击中自己的飞�
 
 放弃的外星人会从原地开始游荡，绝不会朝它最后一次看到你的位置游荡过去（即使你隐形或发射 EMP 也一样），并且在 **8 秒**内不会再次选你为目标，除非你射击它。每个外星人各自做出决定，所以当你飞远时，混编的一群会逐渐散开。外星人绝不会跟着你进入安全区或穿过传送门，在安全区附近丢失你的外星人会各自朝不同方向离开，所以它们不会挤成一堆干等。外星人的兴趣距离不会短于其攻击范围和仇恨范围再加上 100 单位。
 
-外星人不会堆成一团：追击同一名飞行员的一群外星人，在逼近的过程中会在彼此之间留出一些空隙（船体之间相隔 150 单位，所以一群 Phantasm 彼此相距 250 单位，而不是船体挨着船体）；而当一个外星人动身离开时，如果附近还有其他外星人，它会飞离它们，所以丢失了飞行员的一群外星人会向四面八方散开。
+外星人之间不会互相推开：追着一名飞行员的一群外星人会逼近，彼此的飞船之间不留间隙；失去飞行员的一群外星人，只有在各自选择去向后才会散开。不过外星人会避开**舰船**：它们绝不会跑进飞行员的船体里，而停在某个外星人身上的飞行员会把它推开。
 
-飞得更快只能帮到你这么多：Protos（150）比每一种会追击的外星人都慢（Phantasm 160，Bulwark 175，Crystalys 230），所以结束追击的是追击距离上限，而不是你的速度。
+飞得更快只能帮到你这么多：Protos（160）不比任何会追击的外星人快（Phantasm 160，Bulwark 175，Crystalys 230），所以结束追击的是追击距离上限，而不是你的速度。
 
 ---
 
@@ -104,6 +109,7 @@ Seeker 和 Goombah 从不主动挑起战斗。它们会转向击中自己的飞�
 - **护盾穿透**来自单体火箭（10% 至 35%）以及 x3 和 x4 激光弹药（5% 和 10%）；外星人没有穿透。吸收率超过 100% 的舰船（比如 112%），能让护盾整次承受穿透不超过超出部分（这里是 12%）的攻击。
 - 护盾值不足以承担其份额时，差额会转给 HP；如果护盾完全耗尽，剩余的全部伤害的 **100%** 都会打在 HP 上。
 - 外星人没有吸收率属性：它们的护盾承受每次攻击的 80%（再减去该次攻击的穿透），船体承受其余部分。
+- **无人机编队。** Rampart 把你的吸收率提高 17%（Shrike 降低 6%），Asterism 让每次对你的直接命中都有 7% 的几率完全不造成伤害（会浮现“未命中”），其余命中照常由护盾和船体分摊。Gemini（+9 点）和 Stiletto（+16）会给你自己的弹药和直接命中火箭增加穿透，总和最高 40%（[无人机编队](/wiki/03-Mechanics/Formations.md)）。
 
 ### 2. 安全区免疫 {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ Seeker 和 Goombah 从不主动挑起战斗。它们会转向击中自己的飞�
 
 - **运作方式**：每秒恢复相当于你护盾充能速率的护盾值。
 - **延迟**：战斗会打断再生；只有在连续 **15 秒**未受伤害之后，被动再生才会恢复。
+- **无人机编队**：Adamant 和 Redoubt 每秒都会回复护盾，战斗中也一样（见[无人机编队](/wiki/03-Mechanics/Formations.md)）。
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 [Siphon Battery](/wiki/06-Items/Lasers.md) 弹药会把它从目标身上吸取的护盾立即加到你的护盾上，最高不超过你的上限。获得护盾不算受到伤害，所以不会延迟你的被动再生。
 

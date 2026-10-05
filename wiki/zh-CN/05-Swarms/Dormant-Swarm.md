@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant 虫群 -->
 # Dormant 虫群 {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 基于 Wraith，拥有其 100% 的船体、护盾和伤害；速度和射程与原舰船相同。每 5 秒发射一枚直线火箭：[Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
@@ -56,7 +56,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 | 船体 | 324,000 | 486,000 | 648,000 |
 | 护盾 | 83,400 | 125,100 | 166,800 |
 | 激光伤害 （每秒一轮齐射） | 2,880 | 4,320 | 5,760 |
-| 速度 | 225 | 225 | 225 |
+| 速度 | 220 | 220 | 220 |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 火箭伤害 （最高） | 7,500 | 11,250 | 15,000 |
@@ -74,7 +74,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 | 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 和 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 中随机一种 | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 基于 Paragon，拥有其 100% 的船体、护盾和伤害；速度和射程与原舰船相同。每 5 秒发射一枚直线火箭：[Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 

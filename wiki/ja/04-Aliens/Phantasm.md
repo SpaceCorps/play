@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 Phantasm は攻撃的なスペクトル級のドローンです。索敵範囲（700ユニット）に入ってきたプレイヤーを攻撃し、パイロットが1,200ユニットを超えて離れるか、追跡を始めた地点から Phantasm が2,000ユニット飛行すると、追跡をやめます（撃ったパイロットに対しては2,500と3,000。[戦闘](/wiki/03-Mechanics/Combat.md)を参照）。ただし、直近10秒以内に攻撃を当てたパイロットは決して見逃さず、そのパイロットが武器の射程（700ユニット）の外にいるときは、Phantasm はそのパイロットめがけて飛んでいきます。複数のパイロットに撃たれている場合、Phantasm は最初に自分を撃ったパイロットが攻撃を当て続けている間、そのパイロットを相手にし続けます（[エイリアンが戦う相手](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)を参照）。[群れ](/wiki/05-Swarms/Swarms.md)の艦は別種のエイリアンで、「群れ」カテゴリーに専用の記事があります。
 

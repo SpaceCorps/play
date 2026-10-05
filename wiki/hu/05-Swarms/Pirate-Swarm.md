@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -46,7 +46,7 @@ A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarm
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets): `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets): `x-3`.
 
@@ -73,7 +73,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 | Egy a kreditért vásárolható 8 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 5–10 |
 | Egy a következők közül: Advanced Plasma és Siphon Battery, véletlenszerűen | 100% | 500–1 000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Alapja: Kitefin, hajótestének, pajzsának és sebzésének 50%-a; a sebessége és a hatótávja a mintahajóé.
 

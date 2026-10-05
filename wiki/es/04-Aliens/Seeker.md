@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos, es decir, nunca empiezan un combate: un Seeker se vuelve contra el piloto que le dispara, y solo contra ese piloto. Lo deja ir si nadie lo ha alcanzado en 10 segundos, y su casco se repara cuando lo han dejado en paz durante 30 segundos. El Boss Seeker y los Seeker Slaves del [Enjambre Seeker](/wiki/05-Swarms/Seeker-Swarm.md) se parecen a los Seekers, pero son tipos propios: sus derribos se cuentan con su propio nombre, no como derribos de Seeker.
 

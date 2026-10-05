@@ -1,22 +1,26 @@
 # Drone Mechanics
 
-Drones are autonomous support units that fly alongside your ship. They provide additional equipment slots and contribute directly to your ship's combat performance. A Slave Drone also grows: it earns experience every time you destroy an alien and rises through **eight levels**, from a small armoured sphere to a crescent-winged gunship. In the Assembly a Slave Drone can be upgraded into a **Master Drone**, which starts its levels again (see Master Drone below).
+Drones are autonomous support units that fly alongside your ship. They provide additional equipment slots and contribute directly to your ship's combat performance. A Slave Drone also grows: it earns experience every time you destroy an alien and rises through **eight levels**, from a small armoured sphere to a crescent-winged gunship. In the Assembly a Slave Drone can be upgraded into a **Master Drone**, which starts its levels again (see Master Drone below). Drones also let you wear a **drone formation**: it works only when you have at least one drone in your fleet (see [Drone Formations](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Getting Drones
 
 Every drone you hold, a **Slave Drone** or a Master Drone, opens its drone slots (one for a Slave Drone, two for a Master Drone), up to **8** drones. The Shop sells Slave Drones for Credits, and from the fourth on for Thulium too. Each one costs more than the last: the prices are in [Drones](/wiki/06-Items/Drones.md).
 
-## Formation & Movement
+## Flight Layout & Movement {#formation-movement}
 
-Drones fly in a standard **"Wingman" Formation (2-2-4)**:
+Drones fly in a standard **"Wingman" layout (2-2-4)**:
 
 - **2 Drones** beside the ship, one on each flank.
 - **2 Drones** beside and just behind it.
 - **4 Drones** trailing behind.
 
-They utilize a smooth following algorithm that adjusts their position based on your ship's speed and rotation, tightening the formation during sharp maneuvers. Nobody flies ahead of you.
+They utilize a smooth following algorithm that adjusts their position based on your ship's speed and rotation, tightening the layout during sharp maneuvers. Nobody flies ahead of you.
 
-Drones are small, and they stay close: a level-8 drone is about 19.5 units across (a Protos is 50) and a level-1 drone is a ball of about 8, so the whole formation fits within roughly 135 units of your ship. The drone you bought first has the most experience and flies on your left flank, the second on your right, and the newest trail behind.
+Drones are small, and they stay close: a level-8 drone is about 19.5 units across (a Protos is 50) and a level-1 drone is a ball of about 8, so the whole layout fits within roughly 135 units of your ship. The drone you bought first has the most experience and flies on your left flank, the second on your right, and the newest trail behind.
+
+This layout is only how the drones look, and it is the same whichever [drone formation](/wiki/03-Mechanics/Formations.md) you wear. A drone formation is a set of bonuses and prices, not a different way of flying.
 
 ## Equipment & Stats
 
@@ -25,8 +29,9 @@ Drones function as extending equipment racks for your ship.
 - A Slave Drone has **1 slot** and a Master Drone **2**, up to **8 drones**.
 - You can equip **Lasers** and **Shields** into these slots, in either slot of a Master Drone. Nothing else fits: no engines, no Adaptive Cores.
 - **Lasers count fully.** A laser on a drone fires when you fire, adds its damage to your volley and uses ammo like any other laser (each laser burns one unit of ammo a volley). The two lasers of a Master Drone are two lasers.
-- **Shields count fully too.** A shield on a drone counts like one in a core slot, in either slot: its capacity and recharge with its cells, its absorbance in your ship's average, its shield bonus and its speed penalty. It is ranked with your ship's own shields by capacity (the four biggest count in full, the fifth and later for less, see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)), and Forge buffs, the Season Store's buffs and an attacker's shield penetration work on it as on any shield. The drone's level raises its laser only, never its shield. While a drone is being upgraded, its slots are offline, the shield as well as the laser. Before 0.4.7 a shield on a drone added nothing.
+- **Shields count fully too.** A shield on a drone counts like one in a core slot, in either slot: its capacity and recharge with its cells, its absorbance in your ship's average, its shield bonus and its speed penalty. It is ranked with your ship's own shields by what counts after the slot's share (a drone's slot counts 100%; the four best count in full, the fifth and later for less, see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)), and Forge buffs, the Season Store's buffs and an attacker's shield penetration work on it as on any shield. The drone's level raises its laser only, never its shield. While a drone is being upgraded, its slots are offline, the shield as well as the laser. Before 0.4.7 a shield on a drone added nothing.
 - **A laser or a shield?** One slot holds one or the other: a laser adds a laser to your volley, a shield adds its shield points. On a small ship with good shields the extra points add little, because its hull runs out first; on a big hull they let you take much more.
+- **Formations need a drone, not a slot.** A [drone formation](/wiki/03-Mechanics/Formations.md) works as long as you own at least one drone. It takes no drone slot, and the number of drones, their levels and what they carry do not change it.
 
 ## Levels
 
@@ -95,3 +100,4 @@ A Master Drone is one of your 8 drones: it counts for the drone limit and for th
 
 - **Lasers**: Drones will fire their equipped lasers at your locked target.
 - **Damage**: Drones can take damage (if distinct entity logic exists, currently they share ship pool mostly but visually distinct). _Note: Currently, Drones are indestructible extensions of the ship._
+- **Repair Drones**: the Repair Drone items (I to IV) are [extras](/wiki/06-Items/Extras.md#repair-drones), not drones of your fleet. While one mends your hull, little repair drones fly out of the ship, circle it and beam it, and the pilots near you see them.

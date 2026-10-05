@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
 L’univers de SpaceCorps obéit à un cycle saisonnier récurrent. Tous les 30 jours, la galaxie subit une remise à zéro cosmique appelée la **réinitialisation**. Si une remise à zéro peut sembler intimidante, c’est l’épreuve ultime de préparation et de planification : elle vous permet d’emporter votre meilleur équipement, de choisir votre prochain monde et de bâtir des bonus permanents d’une saison à l’autre.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## Calendrier d’une saison de 30 jours {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ Les éléments suivants sont toujours protégés et passent automatiquement à l
 1. Votre vaisseau actif.
 2. Chaque objet actuellement équipé sur ce vaisseau actif, dans la **Configuration 1** comme dans la **Configuration 2** (lasers, boucliers, moteurs et générateurs compris).
 3. Chaque drone que vous possédez, avec son niveau et son expérience : vos [Slave Drones](/wiki/03-Mechanics/Drones.md) restent, donc vos emplacements de drone restent ouverts et le prix de votre prochain drone continue à partir du nombre que vous en possédez. Les lasers et boucliers installés dans un emplacement de drone suivent la règle ci-dessus : ils restent s’ils sont sur le vaisseau actif.
+4. Chaque formation de drones que vous possédez ([Formations de drones](/wiki/03-Mechanics/Formations.md)), où qu’elle soit : dans l’inventaire, sur votre barre rapide ou sur un vaisseau. Comme vos drones, elles restent sans occuper de capacité du Cache de transport.
 
 ### Transfert manuel (cache de transport) {#manual-carry-over-transport-cache-}
 Pour les autres objets de votre inventaire que vous voulez sauver (par ex. des armes de rechange, des ressources de fabrication ou des générateurs de bouclier supplémentaires) :
@@ -83,7 +86,7 @@ SpaceCorps fait tourner trois **mondes**. Chacun est une copie séparée de tout
 Comment fonctionnent les mondes :
 
 * **Aliens** : la force des aliens d’un monde multiplie leurs points de vie, leurs boucliers, leur recharge de bouclier et leurs dégâts. Leur vitesse et leur portée sont les mêmes partout.
-* **Gains** : une élimination paie selon le monde où elle a lieu. Une quête paie selon le monde où vous l’avez accomplie (le plus bas des deux si elle en chevauche deux), quel que soit le monde où vous la réclamez, et la limite d’une quête chronométrée est 1,5 fois plus longue dans Beta et deux fois plus longue dans Gamma ([Quêtes](/wiki/03-Mechanics/Quests.md)). Le butin et les pilotes de corporation sont les mêmes dans tous les mondes, donc un monde plus élevé rapporte plus par heure, mais ses combats coûtent plus cher en réparations.
+* **Gains** : une élimination paie selon le monde où elle a lieu. Une quête paie selon le monde où vous l’avez accomplie (le plus bas des deux si elle en chevauche deux), quel que soit le monde où vous la réclamez (une mission Station n’a pas de monde à elle et paie selon le monde où vous volez quand vous la réclamez), et la limite d’une quête chronométrée est 1,5 fois plus longue dans Beta et deux fois plus longue dans Gamma ([Quêtes](/wiki/03-Mechanics/Quests.md)). Le butin et les pilotes de corporation sont les mêmes dans tous les mondes, donc un monde plus élevé rapporte plus par heure, mais ses combats coûtent plus cher en réparations.
 * **PvP** : tous ceux qui se trouvent sur une carte appartiennent à son monde, donc une seule règle vaut pour toute la carte, pilotes de corporation compris. Les zones sûres et le Protocole de paix (jours 1–3) protègent tous les mondes.
 * **En vol** : le nom du monde figure devant l’identifiant du secteur, en haut à droite (« Beta · M-2 »). Le badge de la barre de titre de la fenêtre Vaisseau indique votre situation : **Protégé** dans une zone sûre, **Sans PvP** pendant le Protocole de paix ou là où votre monde interdit le PvP, **PvP** là où d’autres pilotes peuvent vous attaquer. Survolez-le pour voir la règle. La [carte de la galaxie](/wiki/01-General/Spacemap%20Travel.md) colore les secteurs selon la règle de votre monde.
 
@@ -97,7 +100,9 @@ Comment fonctionnent les mondes :
 
 ## Progression d’une saison à l’autre (bonus permanents) {#cross-season-progression-permanent-buffs-}
 
-La réinitialisation vous prend vos vaisseaux et vos objets (sauf votre vaisseau actif avec tout ce qui y est installé, votre cache de transport et vos drones) et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours.
+La réinitialisation vous prend vos vaisseaux et vos objets (sauf votre vaisseau actif avec tout ce qui y est installé, votre cache de transport et vos drones) et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours, sauf les missions de niveau que la mise à jour 0.4.10 a remaniées : 64 d’entre elles sont proposées une fois de plus ([Quêtes](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clans et grades.** Les points, les niveaux de bonus et les lignes du jour d’un clan repartent de zéro à chaque réinitialisation : chaque saison est une nouvelle course aux bonus maximaux ; le clan lui-même, ses membres, sa banque et sa taxe restent ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Votre grade de corporation reste aussi : il suit vos points de classement PvE, qu’une réinitialisation ne remet pas à zéro ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La boutique des bonus permanents {#the-permanent-buff-store}
 Vous pouvez dépenser vos PR accumulés en bonus permanents qui se conservent d’une saison à l’autre, pour toujours. Ces bonus se cumulent et procurent d’importants avantages passifs :
@@ -128,4 +133,4 @@ Les points de réinitialisation proviennent de paliers que vous réclamez vous-m
 
 Seules comptent les éliminations qui vous sont payées (voir [Combat](/wiki/03-Mechanics/Combat.md)). Un palier paie quand il est complet : 99 Seekers ne rapportent rien, le 100e rapporte 1 PR, et les éliminations suivantes comptent pour le 200e.
 
-**Missions.** La première mission que vous accomplissez rapporte 5 PR, puis chaque 5e (la 5e, la 10e, la 15e et ainsi de suite, jusqu’à la 100e) rapporte 5 PR de plus, soit 105 PR en tout.
+**Missions.** La première mission que vous accomplissez rapporte 5 PR, puis chaque 5e (la 5e, la 10e, la 15e et ainsi de suite, jusqu’à la 85e) rapporte 5 PR de plus, soit 90 PR en tout. Seules les missions de niveau comptent (88 en tout, hors missions Station ni la ligne des Défis, voir [Quêtes](/wiki/03-Mechanics/Quests.md)), et une mission de niveau remaniée que vous refaites n’est pas comptée une seconde fois.

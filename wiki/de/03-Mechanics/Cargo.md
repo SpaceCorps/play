@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 2f4a437ea53e355e -->
+<!-- wiki-i18n source: ead8337d6f7450e9 -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
 Zerstörte Aliens hinterlassen ihre Beute im Weltraum als leuchtende Frachtkisten. Flieg hin und sammle sie ein, bevor es jemand anderes tut.
+
+![Picking up a cargo box: the channel bar fills while the ship stays near](../../img/wiki-img/shots/cargo-pickup.jpg)
 
 ## Was Kisten hinterlässt {#what-drops}
 
@@ -10,7 +12,7 @@ Zerstörte Aliens hinterlassen ihre Beute im Weltraum als leuchtende Frachtkiste
 - **Konzernpiloten** hinterlassen keine Kiste, wenn sie zerstört werden, egal wer oder was sie zerstört. Siehe [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md).
 - **Schiffe von Spielern** hinterlassen weder Wrack noch Kiste, wenn sie zerstört werden, egal wer oder was sie zerstört, und dem Piloten wird nichts aus dem Inventar genommen.
 - **Das Schwarze Loch** legt für eine hineingeschossene N.I.K.E.-Rakete Kisten mit **Dark Matter** an den Rand seiner Zone (siehe [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md)). Sie sind die einzige Art von Kiste, die innerhalb des Rings des Lochs liegt.
-- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md) und die Dormant Pulses** lassen eine eigene Kiste mit Munition, Raketen und Ressourcen fallen. Sie ist für den Piloten reserviert, der dem Schiff den meisten Schaden zugefügt hat (und für dessen Clan), nicht für den, der es als Erster getroffen hat.
+- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md), die Dormant Pulses und die [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lassen eine eigene Kiste mit Munition, Raketen und Ressourcen fallen. Sie ist für den Piloten reserviert, der dem Schiff den meisten Schaden zugefügt hat (und für dessen Clan), nicht für den, der es als Erster getroffen hat.
 
 Ein Alien, das ein Konzernpilot erledigt, lässt seine Beute für den Piloten fallen, dem der Abschuss zählt (den, der seinen Anspruch hält, sonst den Piloten seines Konzerns, der es bekämpft); ein Alien, gegen das ein Konzernpilot allein gekämpft hat, lässt nichts fallen, da Konzernpiloten nie einsammeln.
 

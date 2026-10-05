@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 위험하며, 살아남으려면 뛰어난 실드 용량과 화력이 필요합니다. 어그로 반경(900유닛) 안에 들어온 보호받지 않는 파일럿은 모두 쫓아가며, 파일럿이 1,200유닛 넘게 멀어지거나 Crystalys가 추격을 시작한 지점에서 2,000유닛을 날아가면 추적을 멈춥니다(Crystalys에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(900유닛) 밖에 있을 때마다 Crystalys는 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Crystalys는 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 

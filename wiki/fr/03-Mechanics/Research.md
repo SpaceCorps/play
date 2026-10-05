@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 55131889617bd886 -->
+<!-- wiki-i18n source: ee1ab2403a7af6d8 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
 Le **Centre de recherche** est le laboratoire de votre [Skylab](/wiki/03-Mechanics/Skylab.md). Vous lui donnez des ressources, il les transforme en **science**, et la science recherche des **technologies**. Toute fabrication à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) exige d’abord sa technologie : un vaisseau, un laser, un propulseur ou un CPU ne peut être fabriqué tant qu’il n’a pas été recherché.
 
 Cette page rassemble l’arbre complet des technologies avec la durée de chacune, la science que donne chaque ressource, le boost de Thulium, la règle de la Dark Matter et les nouveaux CPU. Ses chiffres sont lus dans les données mêmes du jeu : ce sont donc toujours ceux du jeu.
+
+![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 
 ## Le Centre de recherche {#the-research-centre}
 
@@ -47,7 +49,7 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 
 ## Carburant {#fuel}
 
-Vous alimentez le Centre en ressources, et chaque unité devient aussitôt de la science. Plus une unité demande de travail pour être obtenue, plus elle donne de science : les chiffres suivent la difficulté de l’obtenir, pas son étiquette de rareté, si bien qu’un Power Core (Peu commun) donne plus qu’un Orvium (Rare). Les minerais viennent de l’Entrepôt de ressources de votre [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) ; toute autre ressource vient de votre inventaire, et votre vaisseau doit être posé. La Velkonite Reinforced Plate, la Orvium Reinforced Plate, la Dark Matter Plate, la Dark Matter, les crédits et le Thulium ne peuvent pas être brûlés ; la Reinforced Hull Plate, elle, le peut.
+Vous alimentez le Centre en ressources, et chaque unité devient aussitôt de la science. Plus une unité demande de travail pour être obtenue, plus elle donne de science : les chiffres suivent la difficulté de l’obtenir, pas son étiquette de rareté. Les minerais font exception : une unité donne plus de science que les secondes qu’un collecteur met à l’extraire, si bien qu’une heure du minerai d’un collecteur à mi-parcours de ses niveaux alimente environ deux heures de recherche. Les minerais viennent de l’Entrepôt de ressources de votre [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) ; toute autre ressource vient de votre inventaire, et votre vaisseau doit être amarré. La Velkonite Reinforced Plate, l’Orvium Reinforced Plate, la Dark Matter Plate, la Dark Matter, les crédits et le Thulium ne peuvent pas être brûlés ; la Reinforced Hull Plate, si.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -60,9 +62,9 @@ Vous alimentez le Centre en ressources, et chaque unité devient aussitôt de la
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Commun | Votre inventaire | 7 | 515 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Commun | Votre inventaire | 8 | 450 |
 | [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Commun | Votre inventaire | 33 | 110 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Peu commun | Entrepôt de ressources | 40 | 90 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | Entrepôt de ressources | 80 | 45 |
 | [Power Core](/wiki/06-Items/Resources.md#power-core) | Peu commun | Votre inventaire | 100 | 36 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Peu commun | Entrepôt de ressources | 210 | 18 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | Entrepôt de ressources | 321 | 12 |
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Rare | Votre inventaire | 650 | 6 |
 
 La dernière colonne donne le nombre d’unités qui font tourner une heure de recherche sans le boost, arrondi au supérieur ; avec le boost, il y en a 2 fois plus.
@@ -92,7 +94,7 @@ Ce qu’un boost fait à la durée d’une recherche, avec le boost dès son dé
 
 <!-- research-boost:end -->
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Les technologies du haut de l’arbre exigent aussi de la Dark Matter. Elle vient du [trou noir](/wiki/03-Mechanics/Black-Hole.md#dark-matter), où une roquette N.I.K.E. qui l’atteint en laisse un peu, et, de temps en temps, d’un Dormant Pulse de l’[Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 
@@ -101,8 +103,9 @@ Les technologies du haut de l’arbre exigent aussi de la Dark Matter. Elle vien
 
 - **10 Dark Matter** pour chacune des 15 technologies du tableau ci-dessous, en plus de la science : introduisez-la dans le Centre de recherche (depuis votre inventaire, vaisseau posé) avant de commencer, et la recherche la prend à son démarrage.
 - **La règle :** un objet de rareté Épique ou supérieure dont la recherche dure 10 h ou plus. La N.I.K.E., qui sert à produire la Dark Matter, n’en a jamais besoin.
+- **Les formations de drones** sont hors règle : chaque recherche de formation demande de la Dark Matter, 5, 13 ou 20 selon sa puissance, comme le montre le tableau.
 - **Si vous annulez une recherche,** la Dark Matter introduite pour elle revient au Centre. La progression et la science déjà brûlée, non.
-- Toutes ensemble demandent 150 Dark Matter.
+- Toutes ensemble demandent 339 Dark Matter.
 
 | Technologie | Rareté | Durée de recherche | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -121,12 +124,28 @@ Les technologies du haut de l’arbre exigent aussi de la Dark Matter. Elle vien
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Légendaire | 1 j | 10 |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | Épique | 1 j | 10 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | Épique | 1 j | 10 |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 10 h | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 10 h | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mythique | 2 j | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 10 h | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mythique | 2 j | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mythique | 2 j | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 10 h | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 10 h | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Épique | 1 j | 13 |
 
 <!-- research-dark-matter:end -->
 
 ## L’arbre des technologies {#the-technology-tree}
 
-Chaque case est une technologie : l’objet qu’elle vous permet de fabriquer, avec sa durée de recherche sous le nom (l’horloge) et, si elle exige de la Dark Matter, l’insigne de la Dark Matter. Une flèche va d’une technologie à celle qui en a besoin, que vous recherchez d’abord ; une case sans flèche peut être recherchée tout de suite. Pointez une case pour voir la durée de recherche, la science qu’elle brûle et ce que l’Assemblage demande ensuite pour l’objet, et cliquez dessus pour ouvrir la page de l’objet. Les arbres sont dessinés à partir des données mêmes du jeu.
+Chaque case est une technologie : l’objet qu’elle vous permet de fabriquer, avec sa durée de recherche sous le nom (l’horloge) et, si elle exige de la Dark Matter, l’insigne de la Dark Matter. Une flèche va d’une technologie à celle qui en a besoin, que vous recherchez d’abord ; une case sans flèche peut être recherchée tout de suite. Pointez une case pour voir la durée de recherche, la science qu’elle brûle et ce que l’Assemblage demande ensuite pour l’objet, et cliquez dessus pour ouvrir la page de l’objet. Les arbres sont dessinés à partir des données mêmes du jeu. Deux des arbres, **Défense** et **Frappe et mobilité**, contiennent les seize [formations de drones](/wiki/03-Mechanics/Formations.md).
 
 <!-- research-tree:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -224,6 +243,40 @@ Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 ```
 
+### Défense {#tree-defence}
+
+```tree research
+Testudo Formation | formation, epic | craft 7500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Adamant Formation | formation, epic | craft 9000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Rampart Formation | formation, mythical | craft 38500 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Sanctum Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Redoubt Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Cordon Formation | formation, epic | craft 21500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Testudo Formation => Sanctum Formation => Rampart Formation
+Adamant Formation => Redoubt Formation => Cordon Formation
+```
+
+### Frappe et mobilité {#tree-strike-mobility}
+
+```tree research
+Bodkin Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Asterism Formation | formation, epic | craft 7000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gemini Formation | formation, mythical | craft 38000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Ballista Formation | formation, epic | craft 24000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Stiletto Formation | formation, mythical | craft 46000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Shrike Formation | formation, epic | craft 8500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Culler Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Auger Formation | formation, epic | craft 20500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Centurion Formation | formation, epic | craft 8000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gyre Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Asterism Formation => Bodkin Formation => Ballista Formation
+Gemini Formation => Stiletto Formation
+Centurion Formation => Shrike Formation => Culler Formation
+Gyre Formation => Auger Formation
+```
+
 
 <!-- research-tree:end -->
 
@@ -271,6 +324,22 @@ Base CPU I => Base CPU II => Jump CPU
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10 h | 36 000 | – |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1 j | 86 400 | 10 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6 h | 21 600 | – |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 h | 36 000 | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 h | 36 000 | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 2 j | 172 800 | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 h | 36 000 | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 j | 172 800 | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 j | 172 800 | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | C | 10 h | 36 000 | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 j | 86 400 | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 h | 36 000 | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 1 j | 86 400 | 13 |
 
 Les classes, par durée de recherche :
 
@@ -278,11 +347,11 @@ Les classes, par durée de recherche :
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 5 | 2 h 30 min | 9 000 | 0 |
 | B | 3 h à 6 h | 14 | 2 j | 172 800 | 0 |
-| C | 10 h | 9 | 3 j 18 h | 324 000 | 60 |
-| D | 1 j à 2 j | 9 | 10 j | 864 000 | 90 |
-| Toutes |  | 37 | 15 j 20 h 30 min | 1 369 800 | 150 |
+| C | 10 h | 14 | 5 j 20 h | 504 000 | 85 |
+| D | 1 j à 2 j | 20 | 24 j | 2 073 600 | 254 |
+| Toutes |  | 53 | 31 j 22 h 30 min | 2 759 400 | 339 |
 
-Recherché une technologie après l’autre, l’arbre entier prend 15 j 20 h 30 min. Avec le boost actif en permanence, il prend 7 j 22 h 15 min, soit 8 boosts et 40 000 Thulium ; la science est la même.
+Recherché une technologie après l’autre, l’arbre entier prend 31 j 22 h 30 min. Avec le boost actif en permanence, il prend 15 j 23 h 15 min, soit 16 boosts et 80 000 Thulium ; la science est la même.
 
 <!-- research-technologies:end -->
 
@@ -305,13 +374,13 @@ Les nouveaux CPU se recherchent aussi ici, puis se fabriquent à l’Assemblage.
 
 Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez le CPU à l’Assemblage. Pointez un CPU dans son arbre pour voir ce que l’Assemblage demande pour le fabriquer.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **Ce qu’ils font.** Les Extra Slots CPU I, II et III donnent à chaque vaisseau 3, 5 et 7 emplacements extras de plus, soit 6, 8 et 10 au total avec les 3 que possède chaque vaisseau. Un CPU supérieur remplace le précédent : le II ne s’ajoute pas au I.
+- **Ce qu’ils font.** Les Extra Slots CPU I, II et III donnent à chaque vaisseau 3, 5 et 7 emplacements extras de plus, soit 6, 8 et 10 au total sur un vaisseau qui en possède 3 en propre, et 5, 7 et 9 sur un vaisseau qui en possède 2. Un CPU supérieur remplace le précédent : le II ne s’ajoute pas au I.
 - **Installé, pas transporté.** Un Extra Slots CPU n’est pas un objet : quand vous le récupérez à l’Assemblage, il s’installe dans votre Skylab, pour chaque vaisseau dans les deux configurations, et ne prend aucun emplacement. Il reste après la réinitialisation.
 - **Dans l’ordre.** Fabriquez-les l’un après l’autre : le II seulement quand le I est installé, le III seulement quand le II est installé ; d’ici là, l’Assemblage vous dit lequel installer d’abord. Les trois coûtent 117 000 Thulium en tout : 12 000, 30 000 et 75 000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **Ce qu’il fait.** Il fait sauter votre vaisseau vers n’importe quel secteur de corporation de votre monde, celui de votre propre corporation comme ceux des autres, secteurs d’origine compris (`M`, `T` et `G`, secteurs 1 à 4), pour **500 Thulium** le saut. Il n’a pas de limite d’utilisations : vous ne payez que le Thulium. Il ne mène jamais à un secteur dangereux (`DS`) ni à un secteur neutre (`N`).
 - **Le saut.** Appuyez sur l’emplacement JMP, choisissez le secteur sur la carte du Système stellaire et confirmez : le vaisseau se charge pendant 5 secondes, puis arrive à une porte de ce secteur, protégé comme après n’importe quel saut de porte. Le CPU refroidit pendant 30 secondes après votre arrivée.
@@ -319,7 +388,7 @@ Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez 
 - **Pas depuis un secteur neutre :** un pilote dans un secteur neutre, ou sans corporation, ne peut pas l’utiliser.
 - Il peut quitter un secteur dangereux quand vous n’êtes pas en combat.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **Ce qu’ils font.** Ils téléportent votre vaisseau à la base de votre corporation, dans la zone sûre autour de sa station (`M-1`, `T-1` ou `G-1`, le secteur de Mission Control), sans coût en Thulium. Vous les lancez depuis l’emplacement BSE de la barre rapide.
 - **Pas en combat.** Une charge de 10 secondes, la même pour les deux. Elle ne peut pas démarrer dans les 10 secondes qui suivent un tir ou un coup reçu, ni occulté, ni quand vous êtes déjà dans la zone sûre de votre base, et un tir ou un coup pendant la charge l’annule.
@@ -331,7 +400,7 @@ Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez 
 
 - **Épuisé, pas rechargé.** Chaque utilisation consomme l’une des utilisations du CPU, et un CPU qui n’en a plus disparaît : fabriquez-en un nouveau. Si les deux sont installés, le meilleur (II) est utilisé en premier.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **Ce qu’il fait.** Il envoie tout seul le Repair Drone installé dans vos emplacements extras, chaque fois que vous auriez pu l’envoyer à la main : votre coque n’est pas pleine, le drone n’est pas déjà sorti et 10 secondes se sont écoulées depuis le dernier coup reçu. Il n’y a aucun seuil de coque à régler.
 - Il occupe un emplacement extra à lui et ne fait rien sans un Repair Drone dans un emplacement extra de la même configuration. Il n’envoie jamais un Repair Drone placé dans un emplacement de compétence (c’est le bouton Emergency Repair).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Enxame Seeker -->
 # Enxame Seeker {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarm
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Base: Seeker, com 400% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem.
 
@@ -74,7 +74,7 @@ Base: Seeker, com 400% de casco, escudo e dano; a velocidade e o alcance são os
 | Ultra Core | 100% | 2–4 |
 | Um dos 8 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Base: Seeker, com 100% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem.
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 La Kitefin es una cañonera ligera y la primera nave que compra la mayoría de los pilotos: un tercer láser, el triple de casco que la Protos y una propulsión más rápida, a cambio de Thulium.
 
@@ -9,7 +9,7 @@ La Kitefin es una cañonera ligera y la primera nave que compra la mayoría de l
 - **Puntos de vida (HP)**: 24.000
 - **Velocidad base**: 175
 - **Ranuras de láser**: 3
-- **Ranuras de extra**: 3
+- **Ranuras de extra**: 2
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 
@@ -30,7 +30,7 @@ La Kitefin es una cañonera ligera y la primera nave que compra la mayoría de l
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **No hace falta investigar.** Esta nave no tiene tecnología propia.
-- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 5, 7 y 9 en total con las 2 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

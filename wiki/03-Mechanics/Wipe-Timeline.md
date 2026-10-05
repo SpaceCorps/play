@@ -4,6 +4,8 @@ The universe of SpaceCorps is governed by a recurring seasonal cycle. Every 30 d
 
 ---
 
+![The Season page](../img/wiki-img/shots/season.jpg)
+
 ## 30-Day Season Schedule
 
 Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdown as day 30 begins) and progresses through several distinct phases. You can monitor the current season day and active phase directly from the in-game HUD.
@@ -46,6 +48,7 @@ The following items are always protected and carry over to the next season autom
 1. Your currently active ship.
 2. Every item currently equipped on that active ship across both **Configuration 1** and **Configuration 2** (including lasers, shields, engines, and generators).
 3. Every drone you own, with its level and experience: your [Slave Drones](/wiki/03-Mechanics/Drones.md) stay, so your drone slots stay open and the price of your next drone goes on from the number you hold. Lasers and shields fitted in a drone slot follow the rule above: they stay if they are on the active ship.
+4. Every drone formation you own ([Drone Formations](/wiki/03-Mechanics/Formations.md)), wherever it is: in your inventory, on your hotbar or on a ship. Like your drones, they stay without using any Transport Cache capacity.
 
 ### Manual Carry-Over (Transport Cache)
 For additional items in your inventory that you want to save (e.g., spare weaponry, crafting resources, or extra shield generators):
@@ -81,7 +84,7 @@ SpaceCorps runs three **worlds**. Each one is a separate copy of the whole galax
 How the worlds work:
 
 * **Aliens**: a world's alien strength multiplies their hit points, shields, shield recharge and damage. Their speed and range are the same everywhere.
-* **Pay**: a kill pays by the world it happens in. A quest pays by the world you did it in (the lowest one, should it span two), whichever world you claim it in, and a timed quest's limit is 1.5 times as long in Beta and twice as long in Gamma ([Quests](/wiki/03-Mechanics/Quests.md)). Loot drops and company pilots are the same in every world, so a higher world earns more per hour, but its fights cost more repairs.
+* **Pay**: a kill pays by the world it happens in. A quest pays by the world you did it in (the lowest one, should it span two), whichever world you claim it in (a Station mission has no world of its own and pays the world you fly in when you claim it), and a timed quest's limit is 1.5 times as long in Beta and twice as long in Gamma ([Quests](/wiki/03-Mechanics/Quests.md)). Loot drops and company pilots are the same in every world, so a higher world earns more per hour, but its fights cost more repairs.
 * **PvP**: everyone on a map belongs to its world, so one rule holds for the whole map, company pilots included. Safe zones and the Peace Protocol (days 1–3) protect every world.
 * **In flight**: the world's name sits before the sector's id at the top right ("Beta · M-2"). The badge in the title bar of the Ship window says where you stand: **Safe** in a safe zone, **No PvP** during the Peace Protocol or where your world forbids PvP, **PvP** where other pilots can attack you. Hover it for the rule. The [galaxy map](/wiki/01-General/Spacemap%20Travel.md) colours the sectors by your world's rule.
 
@@ -95,7 +98,9 @@ How the worlds work:
 
 ## Cross-Season Progression (Permanent Buffs)
 
-The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever.
+The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever, except the level missions that update 0.4.10 reworked: 64 of them are offered once more ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clans and ranks.** A clan's points, boost levels and daily lines start again at every wipe, so every season is a new race to full boosts; the clan itself, its members, its bank and its tax stay ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Your company rank stays too: it follows your PvE ranking points, which a wipe does not reset ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### The Permanent Buff Store
 You can spend your accrued WP on permanent buffs that carry over across all seasons forever. These buffs stack and provide significant passive bonuses:
@@ -126,4 +131,4 @@ Wipe Points come from milestones that you claim yourself, in the game under **Se
 
 Only kills you are paid for count (see [Combat](/wiki/03-Mechanics/Combat.md)). A milestone pays when it is whole: 99 Seekers pay nothing, the 100th pays 1 WP, and the kills after it count towards the 200th.
 
-**Missions.** The first mission you complete pays 5 WP, then every 5th (the 5th, 10th, 15th and so on, up to the 100th) pays 5 WP more, 105 WP in all.
+**Missions.** The first mission you complete pays 5 WP, then every 5th (the 5th, 10th, 15th and so on, up to the 85th) pays 5 WP more, 90 WP in all. Only the level missions count (88 in all: not the Station missions or the Challenge line, see [Quests](/wiki/03-Mechanics/Quests.md)), and a reworked level mission that you do again is not counted a second time.

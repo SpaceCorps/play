@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 Kitefin は軽ガンシップで、多くのパイロットが最初に購入する艦です。3基目のレーザー、Protos の3倍の船体、より速い推進機関を備えており、Thulium で購入します。
 
@@ -9,7 +9,7 @@ Kitefin は軽ガンシップで、多くのパイロットが最初に購入す
 - **ヒットポイント（HP）**：24,000
 - **基本速度**：175
 - **レーザースロット**：3
-- **エクストラスロット**：3
+- **エクストラスロット**：2
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Kitefin は軽ガンシップで、多くのパイロットが最初に購入す
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **研究は不要です。** この艦には専用の技術がありません。
-- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
+- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 2 を足すと、合計は 5、7、9 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
 
 <!-- research-ship:end -->
 

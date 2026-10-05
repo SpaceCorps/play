@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
@@ -45,7 +45,7 @@ De översta laserförstärkarna, nivå II till IV av sköldcellerna och styrrake
 
 I genomsnitt släpper en Goombah 4 Cataclysite, 3,25 Ship Fragments, 0,6 Reinforced Hull Plates och 0,25 Power Cores, så bytet till en Nova Amp eller en Apex Amp kräver ungefär 8 Goombah, bytet till en cell ungefär 7 (nivå II), 10 (III) eller 14 (IV) och till en Heavy Shield Core ungefär 14; bytet till en styrraket ungefär 4 (nivå II), 10 (III) eller 19 (IV) och till en Engine III ungefär 19. En Bulwark släpper 2 Cataclysite, 2 Ship Fragments och 0,3 Reinforced Hull Plates, men ingen Power Core.
 
-Velkonite Reinforced Plates släpps inte: smedjemodulen i din [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar dem av Velkonite-malm, 40 malm per plåt på smedjemodulens nivå 1. En Velkonite-samlare på nivå 1 bryter 12 malm i timmen, så de 3 plåtarna till en förstärkare är 10 timmars brytning och de 6 plåtarna till en cell eller en styrraket på nivå IV 20 timmar (4 och 8 timmar från en samlare på nivå 5); de 4 plåtarna på nivå III är 13 timmar, de 2 plåtarna på nivå II 7, de 6 plåtarna till en Heavy Shield Core eller en Engine III 20. Se [Resurser](/wiki/06-Items/Resources.md) för varifrån varje material kommer.
+Velkonite Reinforced Plates släpps inte: smedjemodulen i din [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar dem av Velkonite-malm, 40 malm per plåt på smedjemodulens nivå 1. En Velkonite-samlare på nivå 1 bryter 10 malm i timmen, så de 3 plåtarna till en förstärkare är 12 timmars brytning och de 6 plåtarna till en cell eller en styrraket på nivå IV 24 timmar (7 och 13 timmar från en samlare på nivå 5); de 4 plåtarna på nivå III är 16 timmar, de 2 plåtarna på nivå II 8, de 6 plåtarna till en Heavy Shield Core eller en Engine III 24. Se [Resurser](/wiki/06-Items/Resources.md) för varifrån varje material kommer.
 
 **Helios Beam** är en uppgradering av samma slag, en laser av en laser: den förbrukar en Starfire-3 och kräver 2 000 Thulium, 50 Cataclysite, 2 Power Cores, 4 Reinforced Hull Plates och 18 Orvium Reinforced Plates, och behåller Starfire-3:s förtrollningsnivå på samma sätt. Det gäller även **Starfire-3**: den förbrukar en Quantum Laser 3 och kräver 1 500 Thulium, 100 000 krediter, 15 Ship Fragments, 1 Reinforced Hull Plate och 8 Velkonite Reinforced Plates, och behåller Quantum Laser 3:s förtrollningsnivå. Båda finns på sidan [Lasrar](/wiki/06-Items/Lasers.md); tabellen ovan listar förstärkarna, cellerna och styrraketerna på nivå II till IV, Heavy Shield Core och Engine III.
 
@@ -82,7 +82,7 @@ Varje material och båda valutorna, med varifrån var och en kommer och vad den 
 
 ## Kategorier {#categories}
 
-Butiken, hangarens inventarie och de andra föremålslistorna följer en och samma ordning: skeppet, sedan en laser med sina förstärkare och sin ammunition, en sköld med sina celler, en motor med sina styrraketer, de adaptiva kärnorna, extrautrustning, drönare, boosters och resurser. Inom ett slag kommer det billigaste först.
+Butiken, hangarens inventarie och de andra föremålslistorna följer en och samma ordning: skeppet, sedan en laser med sina förstärkare och sin ammunition, en sköld med sina celler, en motor med sina styrraketer, de adaptiva kärnorna, extrautrustning, drönare, drönarformationer, boosters och resurser. Inom ett slag kommer det billigaste först.
 
 - **Lasrar**: Dina primära vapensystem, och de [förstärkare](/wiki/06-Items/Lasers.md) som sätts i dem.
 - **Sköldar**: Generatorer och [celler](/wiki/06-Items/Shields.md) för försvar.
@@ -90,4 +90,5 @@ Butiken, hangarens inventarie och de andra föremålslistorna följer en och sam
 - **Repair Drones**: Extrautrustning som reparerar ditt skrov, var och en snabbare än den förra: Repair Drone I, II och III kostar 5 000, 15 000 och 35 000 krediter, Repair Drone IV 2 000 Thulium. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU och EMP Charge**: Extrautrustning för strid eller flykt: en Cloaking CPU döljer ditt skepp tills du avslutar det (S, M och L: 10, 25 och 50 användningar, 5 000, 11 250 och 20 000 Thulium), en EMP Charge gör dig omöjlig att låsa på i 3 sekunder, bryter varje målfixering på dig och avslutar allt kamouflage i närheten (500 Thulium). Se [Extrautrustning](/wiki/06-Items/Extras.md).
 - **Forsknings-CPU:er**: Extra Slots CPU ger varje skepp fler extraplatser, Jump CPU tar dig till en koncernsektor mot Thulium, Base CPU tar dig hem och Auto-Repair CPU skickar ut din Repair Drone av sig själv. De säljs inte: du forskar fram dem och tillverkar dem sedan i Monteringen. Se [Extrautrustning](/wiki/06-Items/Extras.md#research-cpus).
+- **Drönarformationer**: sexton föremål för dina drönare som ger bonusar och tar ut priser, till exempel en större sköld mot svagare vapen. De säljs inte: forska fram dem och tillverka dem sedan i Monteringen för Thulium. Se [Drönarformationer](/wiki/03-Mechanics/Formations.md).
 - **Resurser**: det utomjordingar släpper och Skylab producerar som underlag för tillverkning: Ship Fragments, de fyra kristallerna, Power Cores, Velkonite- och Orvium-plåtarna, och två som kommer från annat håll: **Dark Matter**, som [det svarta hålet](/wiki/03-Mechanics/Black-Hole.md) ger tillbaka för en N.I.K.E.-raket, och **Dark Matter Plate** som Monteringen pressar av den för de två översta stegen i [Smedjan](/wiki/06-Items/Forge.md).

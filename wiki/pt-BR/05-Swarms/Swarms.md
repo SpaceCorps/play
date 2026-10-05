@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -9,6 +9,8 @@ Um **enxame** é um grupo de alienígenas que percorre uma parte da galáxia sob
 - [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md): a Dormant Force e suas Dormant Pulses, o enxame mais forte, com o saque mais rico.
 
 As naves deles são **alienígenas de tipos próprios**: têm nomes próprios e contagens de abates próprias, e nenhuma conta como um Seeker, um Phantasm ou qualquer outro alienígena. Uma nave de enxame tem a forma da nave em que se baseia, com uma tonalidade própria e o nome por cima; o Boss Seeker é um Seeker bem maior.
+
+Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu próprio Guardião para a última etapa da sua linha diária, e só esse clã pode feri-lo: nenhum piloto encontra um deles vagando por um setor, e as tabelas abaixo não os listam. Veja [Clãs](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Os três enxames {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Todo abate é contado com o nome próprio da nave nas suas estatísticas de abat
 
 <!-- swarms-points:end -->
 
-O abate de uma nave de enxame não conta como abate de nenhum outro alienígena: um Boss Seeker ou um Seeker Slave não é um Seeker para uma missão que pede Seekers, e os marcos dos pontos de reset ([Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) são só os dos cinco alienígenas.
+O abate de uma nave de enxame não conta como abate de nenhum outro alienígena: um Boss Seeker ou um Seeker Slave não é um Seeker para uma missão que pede Seekers, e os marcos dos pontos de reset ([Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) são só os dos cinco alienígenas. As missões que pedem naves de enxame estão listadas em [Missões de enxame](/wiki/03-Mechanics/Quests.md#swarm-missions).

@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
 Du musst nicht zur Basis zurückkehren, um dein Schiff zu ändern. Aus einer Schutzzone heraus kannst du das Fenster **Hangar** öffnen (die Lagerhaus-Schaltfläche in der Symbolleiste oben links) und ändern, was ausgerüstet ist, zur anderen Konfiguration wechseln oder ein anderes Schiff fliegen, das du besitzt, ohne das Spiel zu verlassen. Das Fenster ist die Hangar-Seite der Station, mit denselben Slots, Werten und demselben Inventar, in einem Fenster über dem Spiel. Siehe [Inventar & Ausrüstung](/wiki/03-Mechanics/Inventory.md) dazu, wie Gegenstände passen.
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## Wann er offen ist {#when-it-is-open}
 
@@ -20,6 +22,8 @@ Laufende Reparaturen halten dich nicht auf. Überall sonst öffnet sich das Hang
 - **Beide Konfigurationen.** Du kannst Konfig 2 vorbereiten, während du Konfig 1 fliegst, und dann mit der Taste Konfig wechseln tauschen. Eine Schaltfläche **Konfig 1 fliegen** bzw. **Konfig 2 fliegen** im Hangar macht denselben Wechsel.
 - **Jedes Schiff.** Aktiviere ein anderes Schiff, und du fliegst es von dort aus, wo du bist. Das Modell deines Schiffs wechselt vor den Augen aller in der Nähe.
 - **Ein neuer Schild, ein neues Triebwerk oder ein neuer adaptiver Kern startet leer**, wie in der Station: Die Schildladung seiner Konfiguration ist leer, bis sie sich auflädt.
+- **Drohnenformationen.** Die Drohnen-Ansicht listet unter deinen Drohnen die Formationen auf, die du besitzt. Sie werden nicht angelegt: Im Flug ziehst du eine aus der Formationenliste der Aktionsleiste auf einen Slot, und Klick oder Taste dieses Slots trägt sie, in einer Schutzzone ohne Wartezeit ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
+- **Extras.** Die vier regulären Schiffe, Protos, Kitefin, Ostirion und Nomad (die, mit denen du startest oder die du kaufst), haben in jeder Konfiguration 2 Extra-Slots; die vier Schiffe, die du in der Montage baust, Paragon, Ironclad, Wraith und Storm, haben 3. Die Extra Slots CPUs deines Skylabs geben 3, 5 oder 7 obendrauf: 5, 7 oder 9 bei den regulären Schiffen und 6, 8 oder 10 bei den gebauten ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Mit 0.4.10 wurde ein dritter Extra auf einem regulären Schiff ins Inventar abgelegt: Nichts wurde gelöscht, und du hast eine Chatmeldung bekommen.
 
 ## Das Schiff wechseln {#changing-ship}
 

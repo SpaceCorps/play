@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
 Genau in der Mitte von Gefahrensektor 4 (`DS-4`, dem Zentrum der PvP-Zone) hängt ein Schwarzes Loch im Dunkel. Es ist in jeder Welt (Alpha, Beta und Gamma) dasselbe, an jedem Tag der Saison, auch während des Friedensprotokolls. Es nimmt sich, was ihm zu nahe kommt, und gibt nur eines zurück: [Dark Matter](#dark-matter), für eine N.I.K.E.-Rakete, die hineingeschossen wird.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## Die Ringe {#the-rings}
 
@@ -40,7 +43,7 @@ Zwischen zwei Zeilen steigt der Schaden linear. In Trefferpunkten pro Sekunde, f
 | Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
 | Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 194.500 | 1.070 | 1.556 | 3.890 | 9.725 | 21.395 |
+| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
 | Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
@@ -75,17 +78,17 @@ Dein **Punkt ohne Wiederkehr** ist die Entfernung, in der der Sog deinem Tempo e
 | Schiff (Standardausstattung) | Tempo | Punkt ohne Wiederkehr |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1.974 |
-| Protos | 155 | 1.627 |
+| Protos | 165 | 1.577 |
 | Kitefin | 184 | 1.480 |
 | Ostirion | 208 | 1.362 |
 | Nomad | 211 | 1.347 |
 | Paragon | 222 | 1.287 |
-| Wraith | 238 | 1.171 |
-| Storm | 256 | 1.046 |
+| Wraith | 233 | 1.208 |
+| Storm | 263 | 995 |
 
 Ein Schiff, das schneller als 272 Einheiten pro Sekunde ist (eine auf Flucht ausgelegte Ausstattung oder eine Wraith in Standardausstattung mit laufendem Afterburner), hat seinen Punkt ohne Wiederkehr dort, wo er immer lag: Bei Tempo 300 liegt er bei 885, bei 432 bei 747.
 
-Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 39,1, ihr Punkt ohne Wiederkehr liegt bei etwa 2.600). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (zehn Sekunden mit einem Triebwerk, fünfzehn mit zwei, zwanzig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.627 auf 1.105 und den einer Wraith in Standardausstattung von 1.171 auf 793). Innerhalb von etwa 390 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,69); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs und Adaptive Core IIs mit Impulse Thruster IV und Momentum Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 425 heraus.
+Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 39,1, ihr Punkt ohne Wiederkehr liegt bei etwa 2.600). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (zehn Sekunden mit einem Triebwerk, fünfzehn mit zwei, zwanzig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.577 auf 989 und den einer Wraith in Standardausstattung von 1.208 auf 801). Innerhalb von etwa 390 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,69); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs und Adaptive Core IIs mit Impulse Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 429 heraus.
 
 Der Fall vom Punkt ohne Wiederkehr beginnt langsam: Ein Schiff, das wenige Einheiten innerhalb davon mit voller Kraft fliegt, wird über zwanzig Sekunden oder länger hineingezogen, dann immer schneller. Der Sog ist kein Flug: Er zählt nicht als geflogene Strecke.
 
@@ -124,13 +127,13 @@ Einstellungen helfen, wo das Loch den Rechner stark fordert oder die Augen anstr
 
 Drohnen fliegen mit ihrem Schiff. Fracht wird nie innerhalb des Rings abgelegt: Eine Kiste, die dort landen würde, wird auf seinen Rand gesetzt. Dark-Matter-Kisten sind die einzige Ausnahme.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Das Loch gibt **Dark Matter** für eine **N.I.K.E.**-Rakete zurück, die es erreicht. Eine N.I.K.E. ist eine Rakete mit 67.500 bis 75.000 Schaden, die das erste Schiff trifft, das sie verletzen darf, und daran verbraucht ist; ist nichts im Weg, fliegt sie zum Loch und wird verbraucht, wenn sie den Ereignishorizont überquert. Die [Montage](/wiki/06-Items/Rockets.md) stellt N.I.K.E.s her, sobald ihre Technologie erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)), fünf pro Herstellung (100.000 Credits, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Abfeuern.** Eine N.I.K.E. fliegt 4.050 Einheiten in 4,5 Sekunden (900 pro Sekunde) geradeaus dorthin, wohin du gezielt hast: Ohne gewähltes Ziel setzt du den Mauszeiger auf das Schwarze Loch (oder richtest dein Schiff darauf aus). Sie erreicht den Horizont von überall zwischen dem Rand der Strahlung (4.000 Einheiten) und 4.380 Einheiten von der Mitte. Von weiter draußen fällt sie zu kurz und ist verschwendet. Wie jede Rakete nutzt sie den gemeinsamen 5-Sekunden-Timer (du brauchst dafür keinen ausgerüsteten Laser); das Abfeuern beendet deinen Schutz in der Schutzzone und deine Tarnung. **Ein Schiff in der Schusslinie bekommt sie stattdessen ab**: Ein Rivale, der am Rand wartet, oder ein Pilot eines anderen Konzerns, der im Weg Kisten einsammelt, wird mit 67.500 bis 75.000 getroffen, und das Loch bekommt nichts. Aliens und Konzernpiloten kommen nie in den Ring, also liegt es an dir, die Linie frei zu halten; die Rakete fliegt durch deinen eigenen Konzern hindurch und durch Schiffe, die vor dir sicher sind. Verlässt du die Karte nach dem Schuss, fliegt sie weiter, ohne jemanden zu verletzen, und erzeugt trotzdem dein Dark Matter.
+- **Abfeuern.** Eine N.I.K.E. fliegt 4.050 Einheiten in 4,5 Sekunden (900 pro Sekunde) geradeaus dorthin, wohin du gezielt hast: Ohne gewähltes Ziel setzt du den Mauszeiger auf das Schwarze Loch (oder richtest dein Schiff darauf aus). Sie erreicht den Horizont von überall zwischen dem Rand der Strahlung (4.000 Einheiten) und 4.380 Einheiten von der Mitte. Von weiter draußen fällt sie zu kurz und ist verschwendet. Wie jede Rakete nutzt sie den gemeinsamen 5-Sekunden-Timer (du brauchst dafür keinen ausgerüsteten Laser); das Abfeuern beendet deinen Schutz in der Schutzzone und deine Tarnung. **Ein Schiff in der Schusslinie bekommt sie stattdessen ab**: Ein Rivale, der am Rand wartet, oder ein Pilot eines anderen Konzerns, der im Weg Kisten einsammelt, wird mit 67.500 bis 75.000 getroffen, und das Loch bekommt nichts. Aliens und Konzernpiloten kommen nie in den Ring, also liegt es an dir, die Linie frei zu halten; die Rakete fliegt durch deinen eigenen Konzern hindurch und durch Schiffe, die vor dir sicher sind. Verlässt du die Karte nach dem Schuss, fliegt sie weiter, ohne jemanden zu verletzen, und erzeugt trotzdem dein Dark Matter. Eine Drohnenformation kann diesen Timer und den Schaden des Treffers ändern (siehe [Drohnenformationen und Raketen](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **Was zurückkommt.** Jede N.I.K.E., die den Horizont erreicht, bringt **1, 2 oder 3 Dark Matter** (im Schnitt 2, fünf N.I.K.E.s machen also etwa zehn), in einer oder zwei kleinen Kisten, die am Rand der Zone des Lochs erscheinen, **3.050 bis 3.950 Einheiten von der Mitte**, nahe der Linie, auf der dein Schuss hereinkam. Der Sog endet bei 3.000, also werden die Kisten und die Schiffe, die sie einsammeln, nicht gezogen, und die Strahlung beträgt dort 0,3 bis 0,8 % der HP eines Schiffs pro Sekunde: Eine Minute in der Mitte des Bands kostet ein Drittel deines Schiffs. Ein volles Schiff hält dort drei Minuten durch.
 - **Wem sie gehören.** Die Kisten gehören dir und deinem Clan, **60 Sekunden** lang ab dem Schuss. Danach darf jeder auf der Karte sie nehmen, und nach **4 Minuten** treiben sie davon. Der Gefahrensektor ist ein PvP-Sektor, also rechne mit Gesellschaft. Ein Pilot, der sich nach dem Abfeuern ausloggt, behält seine Kisten.
 - **Wie viele.** Eine Karte fasst höchstens 32 Dark-Matter-Kisten; eine neue verdrängt die älteste von ihnen und nie eine andere Art von Kiste. Der [Resource Magnet](/wiki/03-Mechanics/Cargo.md) fügt Dark Matter nichts hinzu.
 - **Was du siehst.** Überquert eine N.I.K.E. den Horizont, wird sie in das Loch hineingestreckt, der Raum kräuselt sich von der Stelle aus, an der sie eintrat, und die Scheibe und der Photonenring flammen etwa anderthalb Sekunden lang auf (ein Drittel davon, mit halbem Licht, unter **Bewegung reduzieren**). Einen Moment später kommen die Kisten aus dem Loch und treiben an ihre Plätze am Rand: Jede ist eine violett-schwarze Kugel mit hellem Rand und Funkeln, von Weitem gut zu sehen, und trägt den Titel **Dark Matter**, wenn du auf sie zeigst. Über deinen stehen die Sekunden, die dir bleiben, und sie erscheinen auf der Minikarte als kleine violette Markierung, ebenso für deinen Clan; die Kisten anderer Piloten erscheinen auf der Minikarte erst, wenn ihre Minute vorbei ist.
-- **Wofür es gut ist.** Die Montage presst 5 Dark Matter mit einer Velkonite und einer Orvium Reinforced Plate zu einer **Dark Matter Plate**, und [die Schmiede](/wiki/06-Items/Forge.md) verlangt zwei davon, um einen Gegenstand von Göttlich auf Berstend zu heben und noch einmal von Berstend auf Ewig: zehn Dark Matter pro Schritt. Auch das [Forschungszentrum](/wiki/03-Mechanics/Research.md#dark-matter) des Skylab braucht Dark Matter: 10 für jede der 15 Technologien an der Spitze seines Baums, insgesamt 150, eingesetzt, bevor die Forschung beginnt.
+- **Wofür es gut ist.** Die Montage presst 5 Dark Matter mit einer Velkonite und einer Orvium Reinforced Plate zu einer **Dark Matter Plate**, und [die Schmiede](/wiki/06-Items/Forge.md) verlangt zwei davon, um einen Gegenstand von Göttlich auf Berstend zu heben und noch einmal von Berstend auf Ewig: zehn Dark Matter pro Schritt. Auch das [Forschungszentrum](/wiki/03-Mechanics/Research.md#dark-matter) des Skylab braucht Dark Matter: 10 für jede der 15 Technologien an der Spitze seines Baums, insgesamt 150, eingesetzt, bevor die Forschung beginnt. Auch die Drohnenformationen verlangen Dark Matter, je nach Stärke 5, 13 oder 20: 189 mehr, insgesamt 339.

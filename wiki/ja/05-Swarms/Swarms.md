@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
@@ -9,6 +9,8 @@
 - [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)：Dormant Force とその Dormant Pulse。最強の群れで、ドロップも最も豪華です。
 
 群れの艦は**それぞれ独立した種類のエイリアン**です。独自の名前と独自の撃破数を持ち、Seeker や Phantasm、その他のエイリアンとしては数えられません。群れの艦は、土台になった艦の形をしていて、独自の色合いを帯び、頭上に名前が表示されます。Boss Seeker はずっと大きな Seeker です。
+
+**クランのウォーデン**は公開の群れではありません。クランは、自分たちのデイリーラインの最後のステップのために自分のウォーデンを召喚し、そのクランだけがダメージを与えられます。セクターをうろつくウォーデンに出会うことはなく、下の表にも載っていません。[クラン](/wiki/03-Mechanics/Clans.md#clan-wardens)を参照してください。
 
 ## 3つの群れ {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 
 <!-- swarms-points:end -->
 
-群れの撃破はほかのエイリアンの撃破としては数えられません。Boss Seeker や Seeker Slave は、Seeker を求めるミッションでは Seeker になりませんし、ワイプポイントのマイルストーン（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）も5種類のエイリアンのものだけです。
+群れの撃破はほかのエイリアンの撃破としては数えられません。Boss Seeker や Seeker Slave は、Seeker を求めるミッションでは Seeker になりませんし、ワイプポイントのマイルストーン（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）も5種類のエイリアンのものだけです。群れの艦を求めるミッションは、[群れのミッション](/wiki/03-Mechanics/Quests.md#swarm-missions)にまとめてあります。

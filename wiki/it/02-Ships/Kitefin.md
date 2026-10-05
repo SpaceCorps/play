@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte dei piloti: un terzo laser, uno scafo tre volte più resistente di quello della Protos e una propulsione più veloce, il tutto da acquistare con Thulium.
 
@@ -9,7 +9,7 @@ La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte
 - **Punti scafo (HP)**: 24.000
 - **Velocità di base**: 175
 - **Slot laser**: 3
-- **Slot extra**: 3
+- **Slot extra**: 2
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 
@@ -30,7 +30,7 @@ La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Nessuna ricerca necessaria.** Questa nave non ha una tecnologia propria.
-- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 5, 7 e 9 in tutto, perché questa nave ne ha già 2. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

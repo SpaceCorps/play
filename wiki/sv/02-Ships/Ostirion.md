@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 5b212b6031f9baed -->
+<!-- wiki-i18n source: e23339b2091d0bba -->
 <!-- wiki-i18n title: Ostirion -->
-# Ostirion {#ostirion}
+# Ostirion
 
 Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgradering av hastighet, försvar och eldkraft jämfört med grundchassit Protos.
 
@@ -9,7 +9,7 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 - **Träffpoäng (HP)**: 48 000
 - **Grundhastighet**: 200
 - **Laserplatser**: 3
-- **Extraplatser**: 3
+- **Extraplatser**: 2
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Ingen forskning behövs.** Det här skeppet har ingen egen teknologi.
-- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 5, 7 och 9 sammanlagt med de 2 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

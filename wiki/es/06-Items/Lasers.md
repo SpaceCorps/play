@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Láseres -->
 # Láseres y munición {#lasers-ammo}
 
@@ -73,8 +73,8 @@ La página de Ensamblaje muestra lo que tienes frente a lo que pide una receta, 
 De dónde salen las placas:
 
 - Las **Velkonite Reinforced Plates** (Quantum Laser 3 y Starfire-3) se forjan a partir de Velkonite, 40 de mineral por placa con la Forja del Skylab en nivel 1. Las **Orvium Reinforced Plates** (Helios Beam) se forjan a partir de Orvium, 80 de mineral por placa.
-- El mineral solo sale de los colectores de tu Skylab. Un Colector de Velkonite de nivel 5 extrae unos 29 de Velkonite por hora, así que las placas de un Quantum Laser 3 requieren unas 3 horas de minería y las diez de un Starfire-3 (dos en su Quantum Laser 3, ocho en su propio paso) unas 14. El Helios Beam es el largo: sus 18 placas necesitan 1.440 de Orvium, unos 4 días con un Colector de Orvium de nivel 5.
-- El Almacén de recursos guarda 900 de cada mineral en el nivel 1, así que forja sobre la marcha (un lote de la Forja son 10 placas en el nivel 1) o mejora el almacén.
+- El mineral solo sale de los colectores de tu Skylab. Un Colector de Velkonite de nivel 5 extrae 18 de Velkonite por hora, así que las placas de un Quantum Laser 3 requieren unas 4 horas de minería y las diez de un Starfire-3 (dos en su Quantum Laser 3, ocho en su propio paso) unas 22. El Helios Beam es el largo: sus 18 placas necesitan 1.440 de Orvium, unos 4 días con un Colector de Orvium de nivel 5.
+- El Almacén de recursos guarda 240 de cada mineral en el nivel 1: 6 placas de Velkonite o 3 de Orvium con la Forja en el nivel 1. Así que forja sobre la marcha (un lote de la Forja son hasta 10 placas en el nivel 1) o mejora el almacén.
 - Las placas forjadas esperan en la Forja hasta que las recoges con la nave en la base, y llegan a tu inventario como objetos normales.
 
 Ship Fragments, Cataclysite, Power Cores y Reinforced Hull Plates caen de los alienígenas; todas las fuentes y usos de cada material están en la página [Recursos](/wiki/06-Items/Resources.md); las listas de botín de las páginas del [Bulwark](/wiki/04-Aliens/Bulwark.md) y del [Goombah](/wiki/04-Aliens/Goombah.md) indican cuánto.
@@ -120,7 +120,7 @@ Baterías consumibles que multiplican el daño de tus andanadas láser:
 
 La **penetración de escudo** se resta de la absorción de tu objetivo en cada impacto de tus andanadas: los escudos reciben la absorción del objetivo menos la penetración (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)). Contra una nave con 80 % (el mejor escudo con las mejores células), el 10 % de la munición x4 deja a los escudos el 70 % del impacto y al casco el 30 %. Importa sobre todo contra naves cuyo casco es pequeño frente a su escudo; una nave muy grande con 80 % aguanta lo mismo de cualquiera de las dos formas. Los alienígenas no tienen una estadística de absorción propiamente dicha (sus escudos reciben el 80 % de un impacto), y la penetración también se resta de eso.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 La Siphon Battery es una munición para robar escudos en lugar de romper cascos. Causa **daño x1 directamente al escudo del objetivo** y suma la misma cantidad a **tu propio escudo**, hasta tu máximo. Elígela en el selector de munición de la barra rápida como cualquier otra munición (es la casilla con el vórtice turquesa). No dispara un rayo: una sonda fina y tenue de color turquesa sale hacia el objetivo, el escudo del objetivo destella en turquesa donde llega, y el escudo que drenaste vuelve visiblemente a tu nave en forma de paquetes brillantes turquesa (de tres a diez, más cuanto mayor es el drenaje), uno tras otro durante aproximadamente medio segundo. Cada paquete que llega hace pulsar tu escudo. Ves lo mismo con la Siphon Battery de cualquier piloto que esté a la vista, sea a quien sea al que drene: alienígenas, otros pilotos y naves de pilotos de corporación.
 

@@ -1,24 +1,28 @@
-<!-- wiki-i18n source: 5a4769d6626caeff -->
+<!-- wiki-i18n source: e65164e763773d17 -->
 <!-- wiki-i18n title: Drónok -->
 # Drónmechanika {#drone-mechanics}
 
-A drónok önálló támogató egységek, amelyek a hajód mellett repülnek. További felszerelési foglalatokat adnak, és közvetlenül hozzájárulnak a hajód harci teljesítményéhez. A Slave Drone fejlődik is: minden alkalommal tapasztalatot szerez, amikor megsemmisítesz egy idegent, és **nyolc szinten** halad végig, a kis páncélozott gömbtől a félhold alakú szárnyú rohamhajóig. A Gyártásban egy Slave Drone **Master Drone**-ná fejleszthető, amelynek a szintjei újrakezdődnek (lásd lent: Master Drone).
+A drónok önálló támogató egységek, amelyek a hajód mellett repülnek. További felszerelési foglalatokat adnak, és közvetlenül hozzájárulnak a hajód harci teljesítményéhez. A Slave Drone fejlődik is: minden alkalommal tapasztalatot szerez, amikor megsemmisítesz egy idegent, és **nyolc szinten** halad végig, a kis páncélozott gömbtől a félhold alakú szárnyú rohamhajóig. A Gyártásban egy Slave Drone **Master Drone**-ná fejleszthető, amelynek a szintjei újrakezdődnek (lásd lent: Master Drone). A drónok azt is lehetővé teszik, hogy **drónformációt** viselj: csak akkor működik, ha legalább egy drón van a flottádban (lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Drónok beszerzése {#getting-drones}
 
 Minden drón, amelyet birtokolsz, akár **Slave Drone**, akár Master Drone, megnyitja a saját drónfoglalatait (a Slave Drone egyet, a Master Drone kettőt), legfeljebb **8** drónig. A Bolt Slave Drone-okat árul kreditért, a negyediktől kezdve Thuliumért is. Mindegyik többe kerül az előzőnél: az árak a [Drónok](/wiki/06-Items/Drones.md) oldalon vannak.
 
-## Formáció és mozgás {#formation-movement}
+## Repülési elrendezés és mozgás {#formation-movement}
 
-A drónok egy szokásos **„Wingman” formációban (2–2–4)** repülnek:
+A drónok egy szokásos **„Wingman” elrendezésben (2–2–4)** repülnek:
 
 - **2 drón** a hajó mellett, egy-egy a két oldalán.
 - **2 drón** mellette és kicsit mögötte.
 - **4 drón** mögötte, a nyomában.
 
-Sima követési algoritmust használnak, amely a hajód sebessége és elfordulása alapján igazítja a helyzetüket, éles manőverek közben összeszorítva a formációt. Senki sem repül előtted.
+Sima követési algoritmust használnak, amely a hajód sebessége és elfordulása alapján igazítja a helyzetüket, éles manőverek közben összeszorítva az elrendezést. Senki sem repül előtted.
 
-A drónok kicsik, és közel maradnak: egy 8. szintű drón körülbelül 19,5 egység átmérőjű (egy Protos 50), egy 1. szintű drón pedig egy körülbelül 8 egység átmérőjű gömb, így az egész formáció nagyjából 135 egységen belül elfér a hajódtól. Az a drón, amelyet először vettél, rendelkezik a legtöbb tapasztalattal, és a bal oldaladon repül, a második a jobbon, a legújabbak pedig hátul követnek.
+A drónok kicsik, és közel maradnak: egy 8. szintű drón körülbelül 19,5 egység átmérőjű (egy Protos 50), egy 1. szintű drón pedig egy körülbelül 8 egység átmérőjű gömb, így az egész elrendezés nagyjából 135 egységen belül elfér a hajódtól. Az a drón, amelyet először vettél, rendelkezik a legtöbb tapasztalattal, és a bal oldaladon repül, a második a jobbon, a legújabbak pedig hátul követnek.
+
+Ez az elrendezés csak a drónok megjelenése, és ugyanaz, bármelyik [drónformációt](/wiki/03-Mechanics/Formations.md) viseled. A drónformáció bónuszok és árak összessége, nem a repülésnek egy másik módja.
 
 ## Felszerelés és értékek {#equipment-stats}
 
@@ -27,8 +31,9 @@ A drónok a hajód bővítő felszerelésállványaiként működnek.
 - Egy Slave Drone-nak **1 foglalata** van, egy Master Drone-nak **2**, legfeljebb **8 drónig**.
 - Ezekbe a foglalatokba **lézereket** és **pajzsokat** szerelhetsz, egy Master Drone mindkét foglalatába is. Más nem fér be: se hajtómű, se adaptív mag.
 - **A lézerek teljes értékkel számítanak.** A drónon lévő lézer akkor tüzel, amikor te tüzelsz, hozzáadja a sebzését a sortűzedhez, és lőszert használ, mint bármelyik másik lézer (minden lézer sortűzenként egy töltet lőszert éget el). Egy Master Drone két lézere két lézernek számít.
-- **A pajzsok is teljes értékkel számítanak.** A drónon lévő pajzs úgy számít, mint a magfoglalatban lévő, bármelyik foglalatban: a kapacitása és a töltődése a celláival együtt, az elnyelése a hajód átlagában, a pajzsbónusza és a lassulása. A hajód saját pajzsaival együtt kapacitás szerint sorolják be (a négy legnagyobb teljes értékkel számít, az ötödik és a további kevesebbel, lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)), és a Kovácsműhely buffjai, a Szezonbolt buffjai és a támadó pajzsáthatolása úgy hat rá, mint bármelyik pajzsra. A drón szintje csak a lézerét növeli, a pajzsát sosem. Amíg egy drónt fejlesztenek, a foglalatai offline vannak, a pajzs éppúgy, mint a lézer. A 0.4.7-es verzió előtt a drónon lévő pajzs semmit sem adott.
+- **A pajzsok is teljes értékkel számítanak.** A drónon lévő pajzs úgy számít, mint a magfoglalatban lévő, bármelyik foglalatban: a kapacitása és a töltődése a celláival együtt, az elnyelése a hajód átlagában, a pajzsbónusza és a lassulása. A hajód saját pajzsaival együtt aszerint sorolják be, hogy mi számít belőle a foglalat részesedése után (a drón foglalata 100%-ot számít; a négy legjobb teljes értékkel számít, az ötödik és a további kevesebbel, lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)), és a Kovácsműhely buffjai, a Szezonbolt buffjai és a támadó pajzsáthatolása úgy hat rá, mint bármelyik pajzsra. A drón szintje csak a lézerét növeli, a pajzsát sosem. Amíg egy drónt fejlesztenek, a foglalatai offline vannak, a pajzs éppúgy, mint a lézer. A 0.4.7-es verzió előtt a drónon lévő pajzs semmit sem adott.
 - **Lézer vagy pajzs?** Egy foglalatba az egyik vagy a másik fér: a lézer egy lézert ad a sortűzedhez, a pajzs a pajzspontjait adja. Egy kis hajón, jó pajzsokkal a plusz pontok keveset adnak, mert előbb elfogy a hajótest; nagy hajótesten viszont sokkal többet bírsz ki velük.
+- **A formációnak drón kell, nem foglalat.** A [drónformáció](/wiki/03-Mechanics/Formations.md) addig működik, amíg van legalább egy drónod. Nem foglal el drónfoglalatot, és a drónok száma, a szintjük és az, hogy mit hordoznak, nem változtat rajta.
 
 ## Szintek {#levels}
 
@@ -83,7 +88,7 @@ A **drón foglalatába szerelt lézer** több alapsebzést okoz, ahogy a drón s
 
 A görbe úgy van beállítva, hogy egy új drón nagyjából egy óra normál játékkal (Bulwark és Goombah idegenek vadászatával) éri el a 2. szintet, a 8. szintet pedig nagyjából 27 játékórával. Ezek az órák arra a pilótára vonatkoznak, aki az első drónt nagyjából a 7. szintű küldetéseknél veszi meg; gyengébb felszereléssel tovább tart (a 2. szinthez legfeljebb nagyjából 4 óra, a 8. szinthez nagyjából 150). Ha egyetlen idegenfajtára vadászol, az legfeljebb nagyjából másfélszer olyan gyors, mint egy normál keverék. A drónok a szintjükkel és a tapasztalatukkal együtt megmaradnak a szezon wipe-ja után, így ezeket az órákat csak egyszer kell ledolgozni, annyi szezonon át, amennyi kell: aki napi fél órát játszik, pár szezon alatt eljut odáig.
 
-### Master Drone {#master-drone}
+### Master Drone
 
 Egy Slave Drone **Master Drone**-ná válik, ha a Gyártásban továbbfejleszted, miután a Master Drone technológiáját kikutattad ([Kutatás](/wiki/03-Mechanics/Research.md)). A recept ára 40 000 Thulium és 100 Ship Fragment, 60 másodpercig tart, és nem használ el drónt: **te választod ki, melyik Slave Drone legyen** (a választó mutatja mindegyik szintjét és XP-jét), és ugyanaz a drón a sorszámával, a drónfoglalatával és mindennel, ami beleszerelve van, Master Drone-ná alakul, amikor a munka véget ér, egy második, üres foglalattal. A leltáradba nem kerül semmi, és nincs mit átvenni: a Játéknapló jelzi, ha elkészült, akkor is, ha a fejlesztés olyankor fejeződött be, amikor nem voltál ott.
 
@@ -97,3 +102,4 @@ A Master Drone is a legfeljebb 8 drónod egyike: beleszámít a drónlimitbe és
 
 - **Lézerek**: a drónok a felszerelt lézereikkel a célba vett célpontodra tüzelnek.
 - **Sebzés**: a drónok sérülhetnek (ha külön entitáslogika létezik; jelenleg többnyire a hajó közös készletén osztoznak, de vizuálisan különállóak). _Megjegyzés: jelenleg a drónok a hajó elpusztíthatatlan kiterjesztései._
+- **Repair Drone-ok**: a Repair Drone tárgyak (I–IV) [extrák](/wiki/06-Items/Extras.md#repair-drones), nem a flottád drónjai. Amíg az egyik javítja a hajótestedet, kis javítódrónok repülnek ki a hajóból, körbeszállják és sugárral érik, és a közelben lévő pilóták látják őket.

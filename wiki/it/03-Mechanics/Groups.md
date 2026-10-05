@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -39,7 +39,7 @@ Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse), l�
 
 ## Missioni condivise {#sharing-missions}
 
-Un abbattimento vale anche per le **missioni di abbattimento** di ogni altro membro che si trova sulla stessa mappa e che **ha sparato con un laser o un razzo contro qualsiasi cosa negli ultimi 15 secondi**, ovunque si trovi su di essa, come se avesse distrutto l’alieno lui stesso. Restano comunque le regole della missione: l’alieno deve essere del tipo della missione e il settore quello che la missione indica. Un compagno che non ha sparato, o è su un’altra mappa, non riceve alcun conteggio. Le missioni conservano le regole della propria corporazione: una missione che chiede un abbattimento nel “settore 4 di un’altra corporazione” vale per il membro per il quale quel settore è di un’altra corporazione. Quando l’abbattimento di un compagno vale per una delle tue missioni, un avviso ti dice quale.
+Un abbattimento vale anche per le **missioni di abbattimento** di ogni altro membro che si trova sulla stessa mappa e che **ha sparato con un laser o un razzo contro qualsiasi cosa negli ultimi 15 secondi**, ovunque si trovi su di essa, come se avesse distrutto l’alieno lui stesso. Restano comunque le regole della missione: l’alieno deve essere del tipo della missione e il settore quello che la missione indica. Un compagno che non ha sparato, o è su un’altra mappa, non riceve alcun conteggio. Le missioni conservano le regole della propria corporazione: una missione che chiede un abbattimento nel “settore 4 di un’altra corporazione” vale per il membro per il quale quel settore è di un’altra corporazione. Quando l’abbattimento di un compagno vale per una delle tue missioni, un avviso ti dice quale. Nella [linea delle Sfide](/wiki/03-Mechanics/Quests.md#where-it-counts) un membro deve inoltre trovarsi entro **4.000 unità** dal relitto per contare, e ogni membro che ha una missione con un oggetto della missione ha il proprio tiro e vede il proprio oggetto: nessuno può condividerne uno.
 
 ## Canali della chat {#chat-channels}
 

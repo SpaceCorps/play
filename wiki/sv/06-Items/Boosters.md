@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 539575474f5854de -->
+<!-- wiki-i18n source: 380267094f925178 -->
 <!-- wiki-i18n title: Boosters -->
-# Boosters {#boosters}
+# Boosters
 
 Boosters ger tillfälliga värdebonusar som stärker ditt skepps strid, försvar, nivåstigning och resursinsamling.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Enxame Pirate -->
 # Enxame Pirate {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarm
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem. Dispara um foguete reto a cada 5 s: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) em `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) em `x-3`.
 
@@ -73,7 +73,7 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 | Um dos 8 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 5–10 |
 | Um entre Advanced Plasma e Siphon Battery, escolhido ao acaso | 100% | 500–1.000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Base: Kitefin, com 50% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem.
 

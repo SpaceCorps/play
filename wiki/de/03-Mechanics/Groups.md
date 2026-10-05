@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -39,7 +39,7 @@ Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen), de
 
 ## Missionen teilen {#sharing-missions}
 
-Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds, das auf derselben Karte ist und **in den letzten 15 Sekunden einen Laser oder eine Rakete auf irgendetwas abgefeuert hat**, egal wo es dort ist, als hätte es das Alien selbst zerstört. Die eigenen Regeln der Mission entscheiden weiterhin: Das Alien muss zur Art der Mission passen und im Sektor sein, den die Mission nennt. Ein Mitglied, das nicht geschossen hat oder auf einer anderen Karte ist, bekommt nichts angerechnet. Missionen behalten die Regeln ihres eigenen Konzerns: Eine Mission, die einen Abschuss im „Sektor 4 eines anderen Konzerns“ verlangt, zählt für das Mitglied, für das dieser Sektor der eines anderen Konzerns ist. Zählt der Abschuss eines Mitglieds für eine deiner Missionen, sagt dir eine Meldung, für welche.
+Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds, das auf derselben Karte ist und **in den letzten 15 Sekunden einen Laser oder eine Rakete auf irgendetwas abgefeuert hat**, egal wo es dort ist, als hätte es das Alien selbst zerstört. Die eigenen Regeln der Mission entscheiden weiterhin: Das Alien muss zur Art der Mission passen und im Sektor sein, den die Mission nennt. Ein Mitglied, das nicht geschossen hat oder auf einer anderen Karte ist, bekommt nichts angerechnet. Missionen behalten die Regeln ihres eigenen Konzerns: Eine Mission, die einen Abschuss im „Sektor 4 eines anderen Konzerns“ verlangt, zählt für das Mitglied, für das dieser Sektor der eines anderen Konzerns ist. Zählt der Abschuss eines Mitglieds für eine deiner Missionen, sagt dir eine Meldung, für welche. In der [Linie der Herausforderungen](/wiki/03-Mechanics/Quests.md#where-it-counts) muss ein Mitglied außerdem im Umkreis von **4.000 Einheiten** um das Wrack sein, um zu zählen, und jedes Mitglied, das eine Mission mit einem Missionsgegenstand hat, würfelt und sieht seinen eigenen Gegenstand: Niemand kann einen teilen.
 
 ## Chatkanäle {#chat-channels}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate-svärm -->
 # Pirate-svärm {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Sw
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) i `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) i `x-3`.
 
@@ -73,7 +73,7 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 | En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 5–10 |
 | En av Advanced Plasma och Siphon Battery, slumpmässigt vald | 100 % | 500–1 000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Bygger på Kitefin med 50 % av skrov, sköld och skada; hastighet och räckvidd är förlagans.
 

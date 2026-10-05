@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Ironclad は重装甲のタンク艦です。全艦中もっとも厚い船体と、もっとも広いシールドの余裕を備える代わりに、砲の数は少なく、推進機関も遅めです。アセンブリで製作でき、Paragon と Wraith の中間に位置します。
 

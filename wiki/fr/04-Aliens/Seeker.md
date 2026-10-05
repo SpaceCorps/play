@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils sont passifs, c’est-à-dire qu’ils ne déclenchent jamais un combat : un Seeker se retourne contre le pilote qui lui tire dessus, et seulement contre lui. Il abandonne si personne ne l’a touché depuis 10 secondes, et sa coque se répare une fois qu’on l’a laissé tranquille pendant 30 secondes. Le Boss Seeker et les Seeker Slaves de l’[Essaim Seeker](/wiki/05-Swarms/Seeker-Swarm.md) ressemblent à des Seekers mais sont des espèces à part : leurs éliminations sont comptées sous leurs propres noms, pas comme des éliminations de Seeker.
 

@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
 Esta seção detalha como o dano é calculado, aplicado e reparado durante os combates em SpaceCorps.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Cálculo do dano {#damage-calculation}
 
@@ -27,11 +31,12 @@ Toda rajada tem uma chance de ser um acerto crítico.
 
 Por fim, os multiplicadores globais (como boosters ativos ou multiplicadores de munição de laser como x2, x3, x4) são aplicados para obter o dano final:
 - Fórmula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso pode multiplicar o resultado mais uma vez: por exemplo, Auger +21% de dano de laser, Gyre −11% e, contra alienígenas, Culler +12% (um fator à parte, que não faz parte da porcentagem dos boosters).
 - A munição **Siphon Battery** tem o multiplicador x1, mas um alvo diferente: o dano dela sai só do escudo do alvo (nunca do casco, seja qual for a absorção) e vai para o seu próprio escudo, até o seu máximo. Veja [Lasers e munição](/wiki/06-Items/Lasers.md).
 
 ### 3b. Foguetes {#3b-rockets}
 
-Um [foguete](/wiki/06-Items/Rockets.md) tem o seu próprio dano (um Lancet I causa de 1.600 a 2.000, um Lancet III de 4.800 a 6.000, uma N.U.K.E. de 45.000 a 50.000), sorteado uma vez ao ser disparado e igual para todas as naves: os seus lasers, amplificadores, boosters e munição não o alteram, e ele não causa acerto crítico. Todos os foguetes compartilham um único temporizador de **5 segundos**. Um foguete de alvo único tem uma **penetração de escudo**: ela é descontada da absorção do seu alvo (veja Sofrer dano, abaixo); uma explosão atinge todas as naves dentro do seu raio, menos perto da borda. Nada limita o que um foguete tira da nave de um piloto: primeiro o escudo, depois o casco. Os foguetes nunca machucam a sua própria corporação nem o seu próprio [grupo](/wiki/03-Mechanics/Groups.md), sejam quais forem as corporações dos membros.
+Um [foguete](/wiki/06-Items/Rockets.md) tem o seu próprio dano (um Lancet I causa de 1.600 a 2.000, um Lancet III de 4.800 a 6.000, uma N.U.K.E. de 45.000 a 50.000), sorteado uma vez ao ser disparado e igual para todas as naves: os seus lasers, amplificadores, boosters e munição não o alteram, e ele não causa acerto crítico. Todos os foguetes compartilham um único temporizador de **5 segundos**. Um foguete de alvo único tem uma **penetração de escudo**: ela é descontada da absorção do seu alvo (veja Sofrer dano, abaixo); uma explosão atinge todas as naves dentro do seu raio, menos perto da borda. Nada limita o que um foguete tira da nave de um piloto: primeiro o escudo, depois o casco. Os foguetes nunca machucam a sua própria corporação nem o seu próprio [grupo](/wiki/03-Mechanics/Groups.md), sejam quais forem as corporações dos membros. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única coisa que muda as duas: uma formação de foguetes aumenta o dano de cada foguete (até +55%), e algumas alongam ou encurtam o temporizador.
 
 ### 4. Ficar de frente para o alvo {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ As recompensas de um alienígena vão para o piloto que atirou nele primeiro, n�
 - **Ver a reivindicação**: quando você seleciona um alienígena que outro piloto reivindicou, a janela do alvo mostra *Reivindicado por* esse piloto e *Sem recompensa*.
 - Os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) nunca reivindicam um alienígena, e um alienígena que eles terminam ainda paga ao piloto que detém a reivindicação dele.
 - Um piloto em um [grupo](/wiki/03-Mechanics/Groups.md) divide o que a sua reivindicação paga com os colegas de grupo que estão por perto e atirando; a reivindicação em si é só do piloto.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses são a exceção**: um chefe de enxame e cada Dormant Pulse pagam pelo dano que cada piloto causou a eles, não pelo primeiro acerto, e a caixa de carga deles vai para o piloto que mais causou dano ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Os demais seguidores, os Pirate Scouts e os Seeker Slaves, pagam pela reivindicação, como qualquer alienígena. Os pontos PvE de uma nave de enxame estão na página Enxames.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md), as Dormant Pulses e os [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) são a exceção**: um chefe de enxame, cada Dormant Pulse e cada Clan Warden pagam pelo dano que cada piloto causou a eles, não pelo primeiro acerto, e a caixa de carga deles vai para o piloto que mais causou dano ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Os demais seguidores, os Pirate Scouts e os Seeker Slaves, pagam pela reivindicação, como qualquer alienígena. Os pontos PvE de uma nave de enxame estão na página Enxames.
 
 ---
 
@@ -87,9 +92,9 @@ Um alienígena que escolheu você como alvo (um Phantasm, Bulwark ou Crystalys d
 
 Um alienígena que desiste passa a vagar de onde está, nunca indo para onde viu você pela última vez (nem quando você se camufla ou dispara um EMP), e não escolhe você como alvo de novo por **8 segundos**, a menos que você atire nele. Cada alienígena decide por si, então um bando misto vai se desfazendo conforme você se afasta voando. Os alienígenas nunca seguem você para dentro de uma zona segura nem por um portal, e os que perderam você perto de um se afastam dele, cada um para o seu lado, para não ficarem esperando amontoados. O interesse de um alienígena nunca fica abaixo do alcance de ataque e do raio de agressão dele, mais 100 unidades.
 
-Os alienígenas não se amontoam: um bando atrás de um piloto mantém algum espaço entre as suas naves enquanto se aproxima (150 unidades entre os cascos, de modo que um bando de Phantasms voa a 250 unidades de distância uns dos outros, em vez de casco a casco), e um alienígena que segue o seu caminho com outros por perto voa para longe deles, de modo que um bando que perdeu o seu piloto se desfaz em todas as direções.
+Os alienígenas não se empurram entre si: uma matilha atrás de um piloto se aproxima sem deixar espaço entre as suas naves, e uma matilha que perdeu o piloto só se dispersa quando cada alienígena escolhe o próprio caminho. Um alienígena, porém, fica afastado de uma **nave**: ele nunca acaba dentro do casco de um piloto, e um piloto que para em cima de um o empurra.
 
-Voar mais rápido só ajuda até certo ponto: uma Protos (150) é mais lenta do que todos os alienígenas que caçam (Phantasm 160, Bulwark 175, Crystalys 230), então o limite de distância, e não a sua velocidade, encerra a perseguição.
+Voar mais rápido só ajuda até certo ponto: uma Protos (160) não é mais rápida do que nenhum dos alienígenas que caçam (Phantasm 160, Bulwark 175, Crystalys 230), então o limite de distância, e não a sua velocidade, encerra a perseguição.
 
 ---
 
@@ -104,6 +109,7 @@ O dano recebido é dividido entre os escudos e os pontos de vida pela **Absorç�
 - A **penetração de escudo** vem dos foguetes de alvo único (10 a 35%) e da munição de laser x3 e x4 (5% e 10%); os alienígenas não têm nenhuma. Uma nave acima de 100% (112%, por exemplo) segura um impacto inteiro contra uma penetração de até a diferença (12% nesse caso).
 - Um escudo baixo demais para a sua parte passa a diferença para os HP; se os escudos estão totalmente esgotados, **100%** de todo o dano restante atinge os HP.
 - Os alienígenas não têm atributo de absorção: os escudos deles recebem 80% de cada impacto (menos a penetração do impacto), e o casco, o resto.
+- **Formações de drones.** Rampart aumenta a sua absorção em 17% (Shrike a reduz em 6%), e Asterism dá a cada acerto direto em você 7% de chance de não causar dano nenhum (um “Errou” flutuante aparece), e os acertos que chegam são divididos entre escudo e casco como de costume. Gemini (+9 pontos) e Stiletto (+16) somam penetração à sua própria munição e aos foguetes diretos, até 40% no total ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Imunidade na zona segura {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ Para se recuperar do combate, os pilotos podem contar com a regeneração passiv
 
 - **Funcionamento**: restaura pontos de escudo iguais à taxa de recarga do seu escudo por segundo.
 - **Atraso**: interrompida pelo combate; a regeneração passiva só volta depois de **15 segundos** sem receber dano.
+- **Formações de drones**: Adamant e Redoubt devolvem escudo a cada segundo, inclusive em combate (veja [Formações de drones](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 A munição [Siphon Battery](/wiki/06-Items/Lasers.md) soma na hora ao seu escudo o escudo que drena de um alvo, até o seu máximo. Ganhar escudo não é sofrer dano, então isso não atrasa a sua regeneração passiva.
 

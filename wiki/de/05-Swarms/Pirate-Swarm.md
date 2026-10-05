@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate-Schwarm -->
 # Pirate-Schwarm {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) in `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) in `x-3`.
 
@@ -73,7 +73,7 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 5–10 |
 | Eines von Advanced Plasma und Siphon Battery, zufällig gewählt | 100 % | 500–1.000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Basis: Kitefin mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds.
 

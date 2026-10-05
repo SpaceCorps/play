@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Essaim Dormant -->
 # Essaim Dormant {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse e
 | Coque | 324 000 | 486 000 | 648 000 |
 | Bouclier | 83 400 | 125 100 | 166 800 |
 | Dégâts des lasers (une salve par seconde) | 2 880 | 4 320 | 5 760 |
-| Vitesse | 225 | 225 | 225 |
+| Vitesse | 220 | 220 | 220 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 7 500 | 11 250 | 15 000 |
@@ -74,7 +74,7 @@ Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse e
 | L’une des 4 [roquettes](/wiki/06-Items/Rockets.md) Épiques, tirée au hasard | 100 % | 30–50 |
 | L’un de [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) et [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), tiré au hasard | 50 % | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Base : Paragon, avec 100 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

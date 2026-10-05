@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 Der Crystalys ist ein gewaltiges Alien-Wesen der Schlachtschiffklasse. Eine Begegnung mit ihm ist höchst gefährlich: Um sie zu überleben, brauchst du außergewöhnliche Schildkapazität und Feuerkraft. Er geht auf jeden ungeschützten Piloten in seinem Aggro-Radius (900 Einheiten) los und lässt von ihm ab, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn er selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen ist (2.500 und 3.000 bei einem Piloten, der auf ihn geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der ihn in den letzten 10 Sekunden getroffen hat, lässt er überhaupt nicht los, und der Crystalys fliegt auf diesen Piloten zu, wann immer dieser jenseits der Waffenreichweite des Crystalys (900 Einheiten) steht. Schießen mehrere Piloten auf einen Crystalys, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 

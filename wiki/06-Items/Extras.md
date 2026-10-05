@@ -1,6 +1,6 @@
 # Extras
 
-Extras are the gadgets in a ship's **extra slots** (three on every ship, per configuration, and more with the Extra Slots CPUs). You switch one on from the hotbar's Extras picker or from a hotbar slot you gave it. They only work from the configuration you fly: fit one in the other configuration and it waits until you swap.
+Extras are the gadgets in a ship's **extra slots** (two on the Protos, Kitefin, Ostirion and Nomad, the ships you start with or buy, and three on the Paragon, Ironclad, Wraith and Storm, the ships you craft, per configuration, and 3, 5 or 7 more with the Extra Slots CPUs). You switch one on from the hotbar's Extras picker or from a hotbar slot you gave it. They only work from the configuration you fly: fit one in the other configuration and it waits until you swap.
 
 | Extra | What it does | Uses | Price |
 | :---- | :----------- | :--- | :---- |
@@ -12,14 +12,19 @@ Extras are the gadgets in a ship's **extra slots** (three on every ship, per con
 
 The Cloaking CPUs and the EMP Charge are sold in the Shop only. They cannot be fused, and nothing gives them away.
 
-Seven more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, and the Auto-Repair CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take.
+A new pilot's **starter kit** already fits two extras in the Protos' two extra slots: a **Base CPU I** (10 uses, a teleport to your company's base) and a **Repair Drone I**. Drag them from the Extras picker of the hotbar onto a slot to use them. Only new pilots get the kit: a pilot who enlisted before 0.4.10 has not got it.
+
+Seven more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, and the Auto-Repair CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take. The two warp CPUs, the Jump CPU and the Base CPUs, are also refused while you carry a quest item ("You can't use a warp CPU while carrying a mission item."): see [Quest items](/wiki/03-Mechanics/Quests.md#quest-items).
 
 Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU, **EMP** for the EMP Charge and **ARP**, **BSE** and **JMP** for the Auto-Repair, Base and Jump CPUs. The Extra Slots CPUs have no slot: they install in your Skylab. Point at a slot to read what a press does now, or why it cannot.
+
+![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Repair Drone of an extra slot docked to its ship and its wingmen](../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
 
-## Item tree {#item-tree}
+## Item tree
 
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 
@@ -49,7 +54,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. An [Auto-Repair CPU](#auto-repair-cpu) switches it on again for you. The rates are in [Combat](/wiki/03-Mechanics/Combat.md).
+Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. An [Auto-Repair CPU](#auto-repair-cpu) switches it on again for you. The rates are in [Combat](/wiki/03-Mechanics/Combat.md). While it mends, little repair drones fly out of the ship, circle it and beam the hull, one for a Repair Drone I, two for a II, three for a III or IV, and the pilots near you see them; they dock again when the repair stops.
 
 ## Cloaking CPU
 
@@ -100,13 +105,13 @@ Press the EMP slot in a fight. For **3 seconds** nobody can lock on to you, and 
 
 None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **What they do.** Extra Slots CPU I, II and III give every ship 3, 5 and 7 more extra slots, so 6, 8 and 10 in all with the 3 every ship has. A higher CPU replaces the one before it: II does not add to I.
+- **What they do.** Extra Slots CPU I, II and III give every ship 3, 5 and 7 more extra slots, so 6, 8 and 10 in all on a ship that has 3 of its own, and 5, 7 and 9 on one that has 2. A higher CPU replaces the one before it: II does not add to I.
 - **Installed, not carried.** An Extra Slots CPU is not an item: when you collect it in Assembly it installs itself in your Skylab, for every ship in both configurations, and it takes no slot. It stays through the wipe.
 - **In order.** Craft them one after the other: II only when I is installed, III only when II is installed; until then Assembly tells you which one to install first. The three cost 117,000 Thulium in all: 12,000, 30,000 and 75,000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **What it does.** It jumps your ship to any company sector of your world, your own company's and the other companies' alike, their home sectors included (`M`, `T` and `G`, sectors 1 to 4), for **500 Thulium** a jump. It has no limit on uses: you only pay the Thulium. It never goes to a Danger Sector (`DS`) or a neutral sector (`N`).
 - **The jump.** Press the JMP slot, pick the sector on the Star System map and confirm: the ship charges for 5 seconds, then arrives at a gate of that sector, protected as after any gate jump. The CPU cools down for 30 seconds after you arrive.
@@ -114,7 +119,7 @@ None of them is sold in the Shop: research the technology, then make the CPU in 
 - **Not from a neutral sector:** a pilot in a neutral sector, or with no company, cannot use it.
 - It may leave a Danger Sector when you are not in a fight.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **What they do.** They teleport your ship to the base of your company, into the safe zone around its station (`M-1`, `T-1` or `G-1`, the sector with Mission Control), free of Thulium. You start them from the BSE slot of the hotbar.
 - **Not in a fight.** A charge of 10 seconds, the same for both. It cannot start within 10 seconds of firing or being hit, while you are cloaked or when you are already inside the safe zone of your base, and a shot or a hit while it charges cancels it.
@@ -126,7 +131,7 @@ None of them is sold in the Shop: research the technology, then make the CPU in 
 
 - **Used up, not recharged.** Each use takes one of the CPU's uses, and a CPU with none left is gone: craft a new one. With both fitted, the better one (II) is used first.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **What it does.** It sends out the Repair Drone fitted in your extra slots by itself, whenever you could have sent it out by hand: your hull is not full, the drone is not already out and 10 seconds have passed since the last hit. There is no hull level to set.
 - It takes an extra slot of its own and does nothing without a Repair Drone in an extra slot of the same configuration. It never sends out a Repair Drone in an ability slot (that one is the Emergency Repair button).

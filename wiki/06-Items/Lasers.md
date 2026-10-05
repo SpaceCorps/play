@@ -5,7 +5,7 @@ Weapons are the primary means of dealing damage in SpaceCorps.
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
 
-## Item tree {#item-tree}
+## Item tree
 
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 
@@ -71,8 +71,8 @@ The Assembly page shows what you have against what a recipe takes, and the Assem
 Where the plates come from:
 
 - **Velkonite Reinforced Plates** (Quantum Laser 3 and Starfire-3) are forged from Velkonite, 40 ore a plate at Forgery level 1. **Orvium Reinforced Plates** (Helios Beam) are forged from Orvium, 80 ore a plate.
-- The ore comes only from your Skylab's collectors. A level 5 Velkonite Collector mines about 29 Velkonite an hour, so the plates of a Quantum Laser 3 take about 3 hours of mining and a Starfire-3's ten (two in its Quantum Laser 3, eight in its own step) about 14. The Helios Beam is the long one: its 18 plates need 1,440 Orvium, about 4 days from a level 5 Orvium Collector.
-- The Resource Storage holds 900 of each ore at level 1, so forge as you go (a Forgery batch is 10 plates at level 1) or upgrade the storage.
+- The ore comes only from your Skylab's collectors. A level 5 Velkonite Collector mines 18 Velkonite an hour, so the plates of a Quantum Laser 3 take about 4 hours of mining and a Starfire-3's ten (two in its Quantum Laser 3, eight in its own step) about 22. The Helios Beam is the long one: its 18 plates need 1,440 Orvium, about 4 days from a level 5 Orvium Collector.
+- The Resource Storage holds 240 of each ore at level 1: 6 Velkonite plates or 3 Orvium plates at Forgery level 1. So forge as you go (a Forgery batch is up to 10 plates at level 1) or upgrade the storage.
 - Forged plates wait in the Forgery until you collect them while your ship is landed, and land in your inventory as ordinary items.
 
 Ship Fragments, Cataclysite, Power Cores and Reinforced Hull Plates drop from aliens; every source and use of each material is on the [Resources](/wiki/06-Items/Resources.md) page; the loot lists on the pages of the [Bulwark](/wiki/04-Aliens/Bulwark.md) and the [Goombah](/wiki/04-Aliens/Goombah.md) show how much.

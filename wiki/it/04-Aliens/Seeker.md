@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè non iniziano mai uno scontro: un Seeker si rivolta contro il pilota che gli spara, e solo contro quel pilota. Smette di inseguire se nessuno lo colpisce da 10 secondi, e il suo scafo si ripara una volta lasciato in pace per 30 secondi. Il Boss Seeker e i Seeker Slave dello [Sciame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) somigliano ai Seeker ma sono specie a sé: i loro abbattimenti sono contati con il loro nome, non come abbattimenti di Seeker.
 

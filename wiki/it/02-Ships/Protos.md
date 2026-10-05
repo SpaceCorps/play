@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 0105c89d1cbd6996 -->
+<!-- wiki-i18n source: da31a9c98f00d180 -->
 <!-- wiki-i18n title: Protos -->
-# Protos {#protos}
+# Protos
 
 La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di SpaceCorps. È leggera ma altamente potenziabile, adatta alle prime operazioni dei principianti.
 
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 8000
-- **Velocità di base**: 150
+- **Velocità di base**: 160
 - **Slot laser**: 2
-- **Slot extra**: 3
+- **Slot extra**: 2
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 
@@ -30,7 +30,7 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Nessuna ricerca necessaria.** Questa nave non ha una tecnologia propria.
-- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 6, 8 e 10 in tutto, perché questa nave ne ha già 3. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Più slot extra.** Le Extra Slots CPU I, II e III, installate nel tuo Skylab, danno a questa nave 3, 5 e 7 slot extra in più, cioè 5, 7 e 9 in tutto, perché questa nave ne ha già 2. Si ricercano e si creano come qualsiasi altro oggetto: vedi [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

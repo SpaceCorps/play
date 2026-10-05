@@ -1,11 +1,11 @@
 {
-  "version": "0.4.9",
-  "date": "2026-10-04",
+  "version": "0.4.10",
+  "date": "2026-10-05",
   "server": "https://spacecorps-game.sliplane.app",
   "assets": [
-    {"name": "SpaceCorps2027-macos-universal.dmg", "os": "macos", "arch": "universal", "kind": "dmg", "size": 125938803, "sha256": "7d4bc113e2fc3d504de1960fd782b92d9d5cfc8b5192d890bdacb3e465a386f5"},
-    {"name": "SpaceCorps2027-windows-x86_64.zip", "os": "windows", "arch": "x86_64", "kind": "zip", "size": 120677074, "sha256": "f4372acce983e94f9c7aab186f16ab66088564f4c151c0439d8b88e57b4f281e"},
-    {"name": "SpaceCorps2027-linux-x86_64.AppImage", "os": "linux", "arch": "x86_64", "kind": "appimage", "size": 116443640, "sha256": "bc47ebcbaa10690e89ce353ba5bed1d2730685f7f421d64331930e911b925862"},
-    {"name": "SpaceCorps2027-linux-x86_64.tar.gz", "os": "linux", "arch": "x86_64", "kind": "tar.gz", "size": 121457405, "sha256": "4be11f2d98fd22522036006a13b28be70bb79fd629ec3544370915621761be30"}
+    {"name": "SpaceCorps2027-macos-universal.dmg", "os": "macos", "arch": "universal", "kind": "dmg", "size": 133357228, "sha256": "19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9"},
+    {"name": "SpaceCorps2027-windows-x86_64.zip", "os": "windows", "arch": "x86_64", "kind": "zip", "size": 127838255, "sha256": "67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4"},
+    {"name": "SpaceCorps2027-linux-x86_64.AppImage", "os": "linux", "arch": "x86_64", "kind": "appimage", "size": 123550200, "sha256": "581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb"},
+    {"name": "SpaceCorps2027-linux-x86_64.tar.gz", "os": "linux", "arch": "x86_64", "kind": "tar.gz", "size": 128644851, "sha256": "1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669"}
   ]
 }

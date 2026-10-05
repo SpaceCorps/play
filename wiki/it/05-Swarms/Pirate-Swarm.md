@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Sciame Pirate -->
 # Sciame Pirate {#pirate-swarm}
 
@@ -46,7 +46,7 @@ I valori delle navi dello sciame nei tre mondi ([Mondi](/wiki/05-Swarms/Swarms.m
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza. Spara un razzo dritto ogni 5 s: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) in `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) in `x-3`.
 
@@ -73,7 +73,7 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 | Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 5–10 |
 | Uno tra Advanced Plasma e Siphon Battery, scelto a caso | 100% | 500–1.000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Base: Kitefin, con il 50% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza.
 

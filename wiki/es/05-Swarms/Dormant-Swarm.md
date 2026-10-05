@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Enjambre Dormant -->
 # Enjambre Dormant {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarm
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Base: Wraith, con 100 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original. Dispara un cohete recto cada 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Base: Wraith, con 100 % de casco, escudo y daño; la velocidad y el alcance son
 | Casco | 324.000 | 486.000 | 648.000 |
 | Escudo | 83.400 | 125.100 | 166.800 |
 | Daño de los láseres (una salva por segundo) | 2.880 | 4.320 | 5.760 |
-| Velocidad | 225 | 225 | 225 |
+| Velocidad | 220 | 220 | 220 |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Daño de los cohetes, como máximo | 7.500 | 11.250 | 15.000 |
@@ -74,7 +74,7 @@ Base: Wraith, con 100 % de casco, escudo y daño; la velocidad y el alcance son
 | Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) Épicos, elegido al azar | 100 % | 30–50 |
 | Uno de [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) y [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), elegido al azar | 50 % | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Base: Paragon, con 100 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original. Dispara un cohete recto cada 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2b63df451b6a864e -->
+<!-- wiki-i18n source: 1855960bc32d6626 -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
-Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (tre på varje skepp, per konfiguration, och fler med Extra Slots CPU). Du slår på en från väljaren Extra i snabbfältet eller från en snabbfältsplats du lagt den på. De fungerar bara från den konfiguration du flyger: monterar du en i den andra konfigurationen väntar den tills du byter.
+Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på Protos, Kitefin, Ostirion och Nomad, skeppen du börjar med eller köper, och tre på Paragon, Ironclad, Wraith och Storm, skeppen du tillverkar, per konfiguration, och 3, 5 eller 7 fler med Extra Slots CPU). Du slår på en från väljaren Extra i snabbfältet eller från en snabbfältsplats du lagt den på. De fungerar bara från den konfiguration du flyger: monterar du en i den andra konfigurationen väntar den tills du byter.
 
 | Extra | Vad den gör | Användningar | Pris |
 | :---- | :---------- | :----------- | :--- |
@@ -14,9 +14,14 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (tre på 
 
 Cloaking CPU och EMP Charge säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis.
 
-Sju CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II samt Auto-Repair CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får.
+En ny pilots **startpaket** monterar redan två extrautrustningar på Protos två extraplatser: en **Base CPU I** (10 användningar, en teleport till din koncerns bas) och en **Repair Drone I**. Dra dem från väljaren Extra i snabbfältet till en plats för att använda dem. Bara nya piloter får paketet: den som tog värvning före 0.4.10 har det inte.
+
+Sju CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II samt Auto-Repair CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får. De två warp-CPU:erna, Jump CPU och Base CPU, nekas också medan du bär på ett uppdragsföremål (”Du kan inte använda en warp-CPU medan du bär på ett uppdragsföremål.”): se [Uppdragsföremål](/wiki/03-Mechanics/Quests.md#quest-items).
 
 Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Repair Drone, **CLK** för en Cloaking CPU, **EMP** för EMP Charge och **ARP**, **BSE** och **JMP** för Auto-Repair CPU, Base CPU och Jump CPU. Extra Slots CPU har ingen plats: de installeras i din Skylab. Peka på en plats för att läsa vad ett tryck gör just nu, eller varför det inte kan.
+
+![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -49,11 +54,11 @@ Base CPU I -> Base CPU II
 ```
 <!-- item-tree:end -->
 
-## Repair Drones {#repair-drones}
+## Repair Drones
 
-Slå på en Repair Drone (REP) så reparerar den skrovet tills det är fullt. Den startar först efter 10 sekunder utan träff, och varje träff stänger av den. Är flera monterade arbetar den bästa. En [Auto-Repair CPU](#auto-repair-cpu) slår på den igen åt dig. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md).
+Slå på en Repair Drone (REP) så reparerar den skrovet tills det är fullt. Den startar först efter 10 sekunder utan träff, och varje träff stänger av den. Är flera monterade arbetar den bästa. En [Auto-Repair CPU](#auto-repair-cpu) slår på den igen åt dig. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md). Medan den lagar flyger små reparationsdrönare ut ur skeppet, cirklar runt det och riktar strålar mot skrovet, en för en Repair Drone I, två för en II, tre för en III eller IV, och piloter i närheten ser dem; de dockar igen när reparationen upphör.
 
-## Cloaking CPU {#cloaking-cpu}
+## Cloaking CPU
 
 Tryck på platsen CLK för att kamouflera dig. **Ett tryck är en användning**, oavsett paket, och du ser de kvarvarande användningarna på platsen och i hangaren. Ett kamouflage har **ingen tidsgräns**: det ligger kvar tills du stänger av det eller något bryter det.
 
@@ -72,7 +77,7 @@ Tryck på platsen CLK för att kamouflera dig. **Ett tryck är en användning**,
 
 S, M och L fungerar likadant: de större paketen är bara billigare per användning (500, 450 och 400 Thulium).
 
-## EMP Charge {#emp-charge}
+## EMP Charge
 
 Tryck på platsen EMP under en strid. I **3 sekunder** kan ingen låsa på dig, och **alla som var låsta på dig förlorar låsningen** direkt, var de än är: piloter, utomjordingar och koncernpiloter. En pilot vars målfixering bryts får veta ”Målfixering förlorad: målet använde en EMP”. Den som försöker låsa på under de 3 sekunderna nekas.
 
@@ -102,13 +107,13 @@ Tryck på platsen EMP under en strid. I **3 sekunder** kan ingen låsa på dig, 
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **Vad de gör.** Extra Slots CPU I, II och III ger varje skepp 3, 5 och 7 extraplatser till, alltså 6, 8 och 10 sammanlagt med de 3 som varje skepp har. En högre CPU ersätter den förra: II läggs inte till I.
+- **Vad de gör.** Extra Slots CPU I, II och III ger varje skepp 3, 5 och 7 extraplatser till, alltså 6, 8 och 10 sammanlagt på ett skepp som har 3 egna och 5, 7 och 9 på ett som har 2. En högre CPU ersätter den förra: II läggs inte till I.
 - **Installeras, bärs inte.** En Extra Slots CPU är inte ett föremål: när du hämtar den i Monteringen installerar den sig i din Skylab, för varje skepp i båda konfigurationerna, och tar ingen plats. Den finns kvar efter wipen.
 - **I ordning.** Tillverka dem en efter en: II först när I är installerad, III först när II är installerad; till dess säger Monteringen vilken du ska installera först. De tre kostar 117 000 Thulium sammanlagt: 12 000, 30 000 och 75 000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **Vad den gör.** Den hoppar ditt skepp till vilken koncernsektor som helst i din värld, både din egen koncerns och de andras, hemsektorerna inräknade (`M`, `T` och `G`, sektor 1 till 4), för **500 Thulium** per hopp. Antalet användningar är obegränsat: du betalar bara Thulium. Den leder aldrig till en farosektor (`DS`) eller en neutral sektor (`N`).
 - **Hoppet.** Tryck på platsen JMP, välj sektorn på kartan Stjärnsystem och bekräfta: skeppet laddar i 5 sekunder och kommer sedan fram vid en port i den sektorn, skyddat som efter ett hopp genom en port. CPU:n svalnar i 30 sekunder efter att du har kommit fram.
@@ -116,7 +121,7 @@ Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n 
 - **Inte från en neutral sektor:** en pilot i en neutral sektor, eller utan koncern, kan inte använda den.
 - Den får lämna en farosektor när du inte är i strid.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **Vad de gör.** De teleporterar ditt skepp till din koncerns bas, in i den säkra zonen runt dess station (`M-1`, `T-1` eller `G-1`, sektorn med Mission Control), utan Thulium-kostnad. Du startar dem från platsen BSE i snabbfältet.
 - **Inte i strid.** En laddning på 10 sekunder, samma för båda. Den kan inte starta inom 10 sekunder efter ett skott eller en träff, inte medan du är kamouflerad och inte när du redan är inne i den säkra zonen vid din bas, och ett skott eller en träff under laddningen avbryter den.
@@ -128,7 +133,7 @@ Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n 
 
 - **Förbrukas, laddas inte om.** Varje användning tar en av CPU:ns användningar, och en CPU utan användningar kvar är borta: tillverka en ny. Är båda monterade används den bättre (II) först.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **Vad den gör.** Den skickar ut den Repair Drone som sitter i dina extraplatser av sig själv, så fort du hade kunnat skicka ut den för hand: ditt skrov är inte fullt, drönaren är inte redan ute och det har gått 10 sekunder sedan den senaste träffen. Det finns ingen skrovnivå att ställa in.
 - Den tar en egen extraplats och gör ingenting utan en Repair Drone i en extraplats i samma konfiguration. Den skickar aldrig ut en Repair Drone i en förmågeplats (den är knappen Emergency Repair).

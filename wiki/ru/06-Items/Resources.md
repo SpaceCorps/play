@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c893fea350141846 -->
+<!-- wiki-i18n source: 3faf8088ef6dd8cf -->
 <!-- wiki-i18n title: Ресурсы -->
 # Ресурсы {#resources}
 
@@ -19,24 +19,24 @@
 
 | Материал | Редкость | Откуда | Куда идёт |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Обычный | Crystalys, Goombah, Bulwark, Phantasm, Seeker, особые миссии | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, N.U.K.E., N.I.K.E., Кузница, Постройки Skylab, Исследовательский центр |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Обычный | Goombah, Bulwark, особые миссии | Starfire-3, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Необычный | Crystalys, Goombah, особые миссии | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, N.U.K.E., Кузница, Исследовательский центр |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Crystalys, особые миссии | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Исследовательский центр |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Обычный | Crystalys, Goombah, Bulwark, Phantasm, Seeker, особые миссии | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., N.I.K.E., Кузница, Постройки Skylab, Исследовательский центр |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Обычный | Goombah, Bulwark, миссии | Starfire-3, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Необычный | Crystalys, Goombah, миссии | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., Кузница, Исследовательский центр |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Crystalys, миссии | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Исследовательский центр |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Обычный | Phantasm, Seeker | Кузница, Исследовательский центр |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Обычный | Phantasm, Bulwark | Кузница, Исследовательский центр |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Обычный | Crystalys, Goombah, Bulwark | Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Обычный | Crystalys, Goombah, Bulwark, миссии | Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Обычный | Crystalys, Goombah | Кузница, Исследовательский центр |
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | Сборщик Skylab | Кузница Skylab, Исследовательский центр |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | Сборщик Skylab | Кузница Skylab, Исследовательский центр |
-| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Редкий | Кузница Skylab | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Dark Matter Plate, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | Кузница Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II |
+| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Редкий | миссии, Кузница Skylab | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Dark Matter Plate, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | миссии, Кузница Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Эпический | чёрная дыра (проглоченная N.I.K.E.) | Dark Matter Plate, Исследовательский центр |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Мифический | Сборочный цех | Кузница |
 
 ## Материалы {#materials}
 
-### Ship Fragment {#ship-fragment}
+### Ship Fragment
 
 *Обычный ресурс.* Выпадает из NPC; нужен для постройки более сильных кораблей.
 
@@ -50,7 +50,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 100%: 1 | 1 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 20%: 1 | 0,2 |
 
-- **Миссии**: Истребление Phantasm (особая миссия уровня 2) 5; Сумерки (особая миссия уровня 3) 10; Гроза Bulwark (особая миссия уровня 4) 10; Железный прилив (особая миссия уровня 5) 15; Колосс (особая миссия уровня 6) 15; Осада Goombah (особая миссия уровня 7) 20; Командование фронта (особая миссия уровня 8) 25.
+- **Миссии**: Истребление Phantasm (особая миссия уровня 2) 5; Разрушитель роя (особая миссия уровня 3) 10; Очистка роя (особая миссия уровня 4) 10; Железный прилив (особая миссия уровня 5) 15; Колосс (особая миссия уровня 6) 15; Осада Goombah (особая миссия уровня 7) 20; Командование фронта (особая миссия уровня 8) 25.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -79,6 +79,22 @@
 - Base CPU I: **40** (с 2 Power Core, 4 Velkonite Reinforced Plate, 8 000 Thulium)
 - Base CPU II: **100** (с 2 Orvium Reinforced Plate, 5 Power Core, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Auto-Repair CPU: **80** (с 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Testudo Formation: **100** (с 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 7 500 Thulium)
+- Bodkin Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Asterism Formation: **100** (с 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 7 000 Thulium)
+- Gemini Formation: **260** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 38 000 Thulium)
+- Adamant Formation: **100** (с 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 9 000 Thulium)
+- Ballista Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 24 000 Thulium)
+- Stiletto Formation: **260** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 46 000 Thulium)
+- Rampart Formation: **260** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 38 500 Thulium)
+- Sanctum Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Shrike Formation: **100** (с 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 8 500 Thulium)
+- Culler Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Redoubt Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Auger Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 500 Thulium)
+- Cordon Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21 500 Thulium)
+- Centurion Formation: **100** (с 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 8 000 Thulium)
+- Gyre Formation: **180** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (с 80 Cataclysite, 4 Power Core, 10 Reinforced Hull Plate, 6 Scatter III, 150 000 кредитов, 3 000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5): **20** (с 40 Cataclysite, 4 Reinforced Hull Plate, 100 000 кредитов, 1 500 Thulium)
 - [Кузница](/wiki/06-Items/Forge.md), Стандартный → Осквернённый: **5** (с 15 Daraxium, 10 000 кредитов; успех — 100%)
@@ -91,7 +107,7 @@
 
 **Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 6 за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), 0,2 за убийство.
 
-### Reinforced Hull Plate {#reinforced-hull-plate}
+### Reinforced Hull Plate
 
 *Обычный ресурс.* Выпадает из NPC; нужен для постройки более сильных кораблей.
 
@@ -102,7 +118,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 60%: 1 | 0,6 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 30%: 1 | 0,3 |
 
-- **Миссии**: Гроза Bulwark (особая миссия уровня 4) 2; Железный прилив (особая миссия уровня 5) 3; Колосс (особая миссия уровня 6) 3; Осада Goombah (особая миссия уровня 7) 5.
+- **Миссии**: Очистка роя (особая миссия уровня 4) 2; Железный прилив (особая миссия уровня 5) 3; Колосс (особая миссия уровня 6) 3; Осада Goombah (особая миссия уровня 7) 5; Море Bulwark (Испытание) 40; Потоп Phantasm (Испытание) 25; Океан Phantasm (Испытание) 30; Прилив Phantasm (Испытание) 20; Десять тысяч Phantasm (Испытание) 50.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -124,6 +140,22 @@
 - Extra Slots CPU III: **25** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 20 Velkonite Reinforced Plate, 75 000 Thulium)
 - Jump CPU: **20** (с 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 10 Power Core, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40 000 Thulium)
 - Auto-Repair CPU: **8** (с 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Testudo Formation: **10** (с 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7 500 Thulium)
+- Bodkin Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Asterism Formation: **10** (с 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7 000 Thulium)
+- Gemini Formation: **26** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 000 Thulium)
+- Adamant Formation: **10** (с 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 9 000 Thulium)
+- Ballista Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24 000 Thulium)
+- Stiletto Formation: **26** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46 000 Thulium)
+- Rampart Formation: **26** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 500 Thulium)
+- Sanctum Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Shrike Formation: **10** (с 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8 500 Thulium)
+- Culler Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Redoubt Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Auger Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 500 Thulium)
+- Cordon Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 500 Thulium)
+- Centurion Formation: **10** (с 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8 000 Thulium)
+- Gyre Formation: **18** (с 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (с 80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150 000 кредитов, 3 000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5): **4** (с 40 Cataclysite, 20 Ship Fragment, 100 000 кредитов, 1 500 Thulium)
 - [Кузница](/wiki/06-Items/Forge.md), Божественный → Разрывающий: **20** (с 120 Cataclysite, 2 Dark Matter Plate, 200 000 кредитов; успех — 75%)
@@ -133,7 +165,7 @@
 
 **Как добыть**: убивайте [Goombah](/wiki/04-Aliens/Goombah.md) (секторы 3, 4): в среднем 0,6 за убийство.
 
-### Power Core {#power-core}
+### Power Core
 
 *Необычный ресурс.* Выпадает из NPC; нужен для постройки более сильных кораблей, лазеров, щитов, скорости и гибридных генераторов.
 
@@ -144,7 +176,7 @@
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 50%: 1 | 0,5 |
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 25%: 1 | 0,25 |
 
-- **Миссии**: Железный прилив (особая миссия уровня 5) 1; Колосс (особая миссия уровня 6) 1; Осада Goombah (особая миссия уровня 7) 2; Командование фронта (особая миссия уровня 8) 1.
+- **Миссии**: Железный прилив (особая миссия уровня 5) 1; Колосс (особая миссия уровня 6) 1; Осада Goombah (особая миссия уровня 7) 2; Командование фронта (особая миссия уровня 8) 1; Язва Bulwark (Испытание) 10; Разгром Goombah (Испытание) 12; Охота на рой (Испытание) 4; Охота на рой II (Испытание) 6; Охота на разведчиков (Испытание) 4; Мор Seeker (Испытание) 8; Чума Seeker (Испытание) 6; Десять тысяч Seeker (Испытание) 15; Без единой царапины III (Испытание) 8.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -170,6 +202,22 @@
 - Base CPU I: **2** (с 40 Ship Fragment, 4 Velkonite Reinforced Plate, 8 000 Thulium)
 - Base CPU II: **5** (с 2 Orvium Reinforced Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Auto-Repair CPU: **4** (с 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Testudo Formation: **5** (с 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7 500 Thulium)
+- Bodkin Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Asterism Formation: **5** (с 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7 000 Thulium)
+- Gemini Formation: **13** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 000 Thulium)
+- Adamant Formation: **5** (с 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 9 000 Thulium)
+- Ballista Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24 000 Thulium)
+- Stiletto Formation: **13** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46 000 Thulium)
+- Rampart Formation: **13** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 500 Thulium)
+- Sanctum Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Shrike Formation: **5** (с 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8 500 Thulium)
+- Culler Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Redoubt Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Auger Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 500 Thulium)
+- Cordon Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 500 Thulium)
+- Centurion Formation: **5** (с 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8 000 Thulium)
+- Gyre Formation: **9** (с 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (с 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150 000 кредитов, 3 000 Thulium)
 - [Кузница](/wiki/06-Items/Forge.md), Разрывающий → Вечный: **8** (с 240 Quorvium, 2 Dark Matter Plate, 500 000 кредитов, 2 000 Thulium; успех — 60%)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **100** науки за единицу
@@ -178,7 +226,7 @@
 
 **Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 0,5 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 0,25 за убийство.
 
-### Ancient Control Unit {#ancient-control-unit}
+### Ancient Control Unit
 
 *Редкий ресурс.* Выпадает из NPC; нужен для постройки более сильных кораблей и лазеров.
 
@@ -188,7 +236,7 @@
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%: 1 | 0,2 |
 
-- **Миссии**: Командование фронта (особая миссия уровня 8) 1.
+- **Миссии**: Командование фронта (особая миссия уровня 8) 1; Конвой бездны (Испытание) 1; Стена Bulwark (Испытание) 2; Конвой III (Испытание) 1; Нулевой конвой (Испытание) 1; Власть Dormant (Испытание) 1; Закат Dormant (Испытание) 1; Погибель пиратов (Испытание) 1; Расплата с пиратами (Испытание) 1; Трон пиратов (Испытание) 1; Без единой царапины (Испытание) 1; Без единой царапины II (Испытание) 1.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -198,11 +246,14 @@
 - [Storm](/wiki/02-Ships/Storm.md): **1** (с 10 Power Core, 35 Reinforced Hull Plate, 200 Ship Fragment, 15 000 Thulium)
 - Extra Slots CPU III: **2** (с 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 20 Velkonite Reinforced Plate, 75 000 Thulium)
 - Jump CPU: **3** (с 10 Orvium Reinforced Plate, 10 Power Core, 20 Reinforced Hull Plate, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40 000 Thulium)
+- Gemini Formation: **2** (с 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 000 Thulium)
+- Stiletto Formation: **2** (с 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46 000 Thulium)
+- Rampart Formation: **2** (с 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 500 Thulium)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **650** науки за единицу
 
 **Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 0,2 за убийство.
 
-### Daraxium {#daraxium}
+### Daraxium
 
 *Обычный ресурс.* Выпадает из NPC. Используется в Кузнице, чтобы поднять снаряжение до уровня «Осквернённый».
 
@@ -224,7 +275,7 @@
 
 **Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем 0,9 за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), 0,75 за убийство.
 
-### Nyxite {#nyxite}
+### Nyxite
 
 *Обычный ресурс.* Выпадает из NPC. Используется в Кузнице, чтобы поднять снаряжение до уровня «Божественный».
 
@@ -246,7 +297,7 @@
 
 **Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем 0,9 за убийство.
 
-### Cataclysite {#cataclysite}
+### Cataclysite
 
 *Обычный ресурс.* Выпадает из NPC. Используется для постройки самых сильных лазеров и в Кузнице, чтобы поднять снаряжение до уровня «Разрывающий».
 
@@ -258,6 +309,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%: 4 | 4 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%: 2 | 2 |
 
+- **Миссии**: Буря Bulwark (Испытание) 40; Чистка Crystalys (Испытание) 60; Рассвет Dormant (Испытание) 40; Легион Goombah (Испытание) 80; Кара Goombah (Испытание) 50; Вражеская земля (Испытание) 50; Страж Линии (Испытание) 100.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -281,7 +333,7 @@
 
 **Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 8 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 4 за убийство.
 
-### Quorvium {#quorvium}
+### Quorvium
 
 *Обычный ресурс.* Выпадает из NPC. Используется в Кузнице, чтобы поднять снаряжение до уровня «Вечный».
 
@@ -303,7 +355,7 @@
 
 **Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 8 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 3 за убийство.
 
-### Velkonite {#velkonite}
+### Velkonite
 
 *Необычный ресурс.* Руда, которую добывает сборщик Velkonite в вашем Skylab и которая хранится в хранилище ресурсов. Кузница превращает её в Velkonite Reinforced Plate.
 
@@ -313,22 +365,22 @@
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Velkonite в час | 12 | 29 | 89 | 273 | 833 |
+| Velkonite в час | 10 | 18 | 32 | 52 | 80 |
 
 Это скорости работающей станции: нехватка энергии останавливает все фермы и сборщики, а модуль нельзя улучшить выше Ядра, которое останавливается на уровне 20 (см. [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
-Постройка сборщика требует Ядро 5-го уровня, 10 Ship Fragment, 10 000 кредитов и 500 Thulium.
+Постройка сборщика требует Ядро 5-го уровня, 10 Ship Fragment, 20 000 кредитов и 500 Thulium.
 
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
 
-- Кузница [Skylab](/wiki/03-Mechanics/Skylab.md): **40** на каждую Velkonite Reinforced Plate на 1-м уровне Кузницы, на 1,5% меньше с каждым уровнем выше 1-го (71,5% от этого на уровне 20)
-- [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **40** науки за единицу
+- Кузница [Skylab](/wiki/03-Mechanics/Skylab.md): **40** на каждую Velkonite Reinforced Plate на 1-м уровне Кузницы, меньше с каждым уровнем выше 1-го (75% от этого на уровне 20)
+- [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **210** науки за единицу
 
-**Как добыть**: повышайте уровень сборщика (каждый уровень добавляет 25% к его часовой скорости) и опустошайте бункер, пока он не заполнился: при заполнении он останавливается.
+**Как добыть**: повышайте уровень сборщика (с каждым уровнем он добывает больше) и опустошайте бункер, пока он не заполнился: при заполнении он останавливается.
 
-### Orvium {#orvium}
+### Orvium
 
 *Редкий ресурс.* Редкая руда, которую добывает сборщик Orvium в вашем Skylab и которая хранится в хранилище ресурсов. Кузница превращает её в Orvium Reinforced Plate.
 
@@ -338,34 +390,35 @@
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Orvium в час | 6 | 15 | 45 | 136 | 416 |
+| Orvium в час | 10 | 14 | 24 | 34 | 40 |
 
 Это скорости работающей станции: нехватка энергии останавливает все фермы и сборщики, а модуль нельзя улучшить выше Ядра, которое останавливается на уровне 20 (см. [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
-Постройка сборщика требует Ядро 5-го уровня, 10 Ship Fragment, 10 000 кредитов и 500 Thulium.
+Постройка сборщика требует Ядро 5-го уровня, 10 Ship Fragment, 20 000 кредитов и 500 Thulium.
 
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
 
-- Кузница [Skylab](/wiki/03-Mechanics/Skylab.md): **80** на каждую Orvium Reinforced Plate на 1-м уровне Кузницы, на 1,5% меньше с каждым уровнем выше 1-го (71,5% от этого на уровне 20)
-- [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **80** науки за единицу
+- Кузница [Skylab](/wiki/03-Mechanics/Skylab.md): **80** на каждую Orvium Reinforced Plate на 1-м уровне Кузницы, меньше с каждым уровнем выше 1-го (75% от этого на уровне 20)
+- [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **321** науки за единицу
 
-**Как добыть**: повышайте уровень сборщика (каждый уровень добавляет 25% к его часовой скорости) и опустошайте бункер, пока он не заполнился: при заполнении он останавливается.
+**Как добыть**: повышайте уровень сборщика (с каждым уровнем он добывает больше) и опустошайте бункер, пока он не заполнился: при заполнении он останавливается.
 
-### Velkonite Reinforced Plate {#velkonite-reinforced-plate}
+### Velkonite Reinforced Plate
 
 *Редкий ресурс.* Куётся из Velkonite в Кузнице Skylab. Сборочный цех требует её для создания более сильного снаряжения и Dark Matter Plate.
 
 **Как получить**
 
+- **Миссии**: Дозор в центре (Испытание) 10; Испытание центром (Испытание) 3; Железное бдение (Испытание) 3; Железное бдение II (Испытание) 6; Последнее бдение (Испытание) 15; Бдение у края (Испытание) 12; Охота на разведчиков II (Испытание) 8.
 - **Skylab**: делает её только Кузница, из Velkonite, по 10 с на пластину. С пришельцев она не выпадает.
 
 | Уровень Кузницы | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Velkonite на пластину | 40 | 37,6 | 34,6 | 31,6 | 28,6 |
+| Velkonite на пластину | 40 | 38 | 35,5 | 33 | 30 |
 | Пластин в партии | 10 | 30 | 55 | 80 | 105 |
-| Velkonite на полную партию | 400 | 1 128 | 1 903 | 2 528 | 3 003 |
+| Velkonite на полную партию | 400 | 1 140 | 1 953 | 2 640 | 3 150 |
 
 Руда для партии считается на всю партию, с округлением вверх, и забирается из хранилища ресурсов в момент старта партии. Для уровня Кузницы нужно Ядро не ниже этого уровня, а Кузница не начинает новую партию, пока станции не хватает энергии.
 
@@ -399,24 +452,41 @@
 - Base CPU I: **4** (с 2 Power Core, 40 Ship Fragment, 8 000 Thulium)
 - Base CPU II: **8** (с 2 Orvium Reinforced Plate, 5 Power Core, 100 Ship Fragment, 20 000 Thulium)
 - Auto-Repair CPU: **6** (с 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15 000 Thulium)
+- Testudo Formation: **4** (с 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 7 500 Thulium)
+- Bodkin Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21 000 Thulium)
+- Asterism Formation: **4** (с 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 7 000 Thulium)
+- Gemini Formation: **14** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 38 000 Thulium)
+- Adamant Formation: **4** (с 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 9 000 Thulium)
+- Ballista Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 24 000 Thulium)
+- Stiletto Formation: **14** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 46 000 Thulium)
+- Rampart Formation: **14** (с 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 38 500 Thulium)
+- Sanctum Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20 000 Thulium)
+- Shrike Formation: **4** (с 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 500 Thulium)
+- Culler Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20 000 Thulium)
+- Redoubt Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21 000 Thulium)
+- Auger Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20 500 Thulium)
+- Cordon Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21 500 Thulium)
+- Centurion Formation: **4** (с 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 000 Thulium)
+- Gyre Formation: **8** (с 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20 000 Thulium)
 
 **Улучшения модулей**: Сборочный цех улучшает Quantum Laser 3 до Starfire-3, Pulse Amp до Nova Amp, Prism Amp до Apex Amp, Absorption Shield Cell III до Absorption Shield Cell IV, Impulse Thruster III до Impulse Thruster IV, Basic Shield Core до Heavy Shield Core, Engine II до Engine III, Impulse Thruster II до Impulse Thruster III, Absorption Shield Cell I до Absorption Shield Cell II, Absorption Shield Cell II до Absorption Shield Cell III, Capacity Shield Cell I до Capacity Shield Cell II, Capacity Shield Cell II до Capacity Shield Cell III, Capacity Shield Cell III до Capacity Shield Cell IV, Impulse Thruster I до Impulse Thruster II, Momentum Thruster I до Momentum Thruster II, Momentum Thruster II до Momentum Thruster III и Momentum Thruster III до Momentum Thruster IV. Каждое улучшение расходует деталь, с которой начинается, и требует эти пластины сверх остальных материалов. Новая деталь сохраняет уровень Кузницы вложенной детали, а её бонусы выпадают заново, так что они могут оказаться лучше или хуже прежних. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
 **Как добыть**: подайте в Кузницу руду, запустите полную партию и забирайте пластины, пока корабль стоит в отсеке.
 
-### Orvium Reinforced Plate {#orvium-reinforced-plate}
+### Orvium Reinforced Plate
 
 *Эпический ресурс.* Куётся из Orvium в Кузнице Skylab. Сборочный цех требует её для создания Helios Beam или Dark Matter Plate.
 
 **Как получить**
 
+- **Миссии**: Конвой (Испытание) 1; Конвой II (Испытание) 3; Царство Crystalys (Испытание) 12; Испытание Crystalys (Испытание) 6; Четыре угла (Испытание) 4; Охота на Goombah (Испытание) 4; Конец пиратов (Испытание) 8; Обход края (Испытание) 6; Без единой царапины IV (Испытание) 6; Без царапин: ноль (Испытание) 10; Страж Линии (Испытание) 20.
 - **Skylab**: делает её только Кузница, из Orvium, по 10 с на пластину. С пришельцев она не выпадает.
 
 | Уровень Кузницы | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Orvium на пластину | 80 | 75,2 | 69,2 | 63,2 | 57,2 |
+| Orvium на пластину | 80 | 76 | 71 | 67 | 60 |
 | Пластин в партии | 10 | 30 | 55 | 80 | 105 |
-| Orvium на полную партию | 800 | 2 256 | 3 806 | 5 056 | 6 006 |
+| Orvium на полную партию | 800 | 2 280 | 3 905 | 5 360 | 6 300 |
 
 Руда для партии считается на всю партию, с округлением вверх, и забирается из хранилища ресурсов в момент старта партии. Для уровня Кузницы нужно Ядро не ниже этого уровня, а Кузница не начинает новую партию, пока станции не хватает энергии.
 
@@ -430,12 +500,23 @@
 - Extra Slots CPU III: **6** (с 2 Ancient Control Unit, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 20 Velkonite Reinforced Plate, 75 000 Thulium)
 - Jump CPU: **10** (с 3 Ancient Control Unit, 10 Power Core, 20 Reinforced Hull Plate, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40 000 Thulium)
 - Base CPU II: **2** (с 5 Power Core, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Bodkin Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Gemini Formation: **6** (с 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 000 Thulium)
+- Ballista Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24 000 Thulium)
+- Stiletto Formation: **6** (с 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46 000 Thulium)
+- Rampart Formation: **6** (с 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38 500 Thulium)
+- Sanctum Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Culler Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
+- Redoubt Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 000 Thulium)
+- Auger Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 500 Thulium)
+- Cordon Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21 500 Thulium)
+- Gyre Formation: **3** (с 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 
 **Улучшения модулей**: Сборочный цех улучшает Starfire-3 до Helios Beam. Каждое улучшение расходует деталь, с которой начинается, и требует эти пластины сверх остальных материалов. Новая деталь сохраняет уровень Кузницы вложенной детали, а её бонусы выпадают заново, так что они могут оказаться лучше или хуже прежних. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
 **Как добыть**: подайте в Кузницу руду, запустите полную партию и забирайте пластины, пока корабль стоит в отсеке.
 
-### Dark Matter {#dark-matter}
+### Dark Matter
 
 *Эпический ресурс.* То, что чёрная дыра возвращает за проглоченную N.I.K.E., в небольших контейнерах на краю своей зоны. Сборочный цех прессует пять штук, с Velkonite Reinforced Plate и Orvium Reinforced Plate, в Dark Matter Plate.
 
@@ -447,11 +528,11 @@
 **Для чего нужен**
 
 - Dark Matter Plate: **5** (с 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
-- [Исследовательский центр](/wiki/03-Mechanics/Research.md#dark-matter), верхние технологии: по **10** на каждую из 15 технологий
+- [Исследовательский центр](/wiki/03-Mechanics/Research.md#dark-matter), верхние технологии: по **10** на каждую из 31 технологий
 
 **Как добыть**: запускайте ракеты [N.I.K.E.](/wiki/06-Items/Rockets.md) в чёрную дыру (их создаёт Сборочный цех) и забирайте контейнеры с края её зоны раньше других.
 
-### Dark Matter Plate {#dark-matter-plate}
+### Dark Matter Plate
 
 *Мифический ресурс.* Прессуется в Сборочном цехе из Dark Matter и двух усиленных пластин. Кузница требует по две таких для каждого из двух высших уровней.
 
@@ -485,7 +566,7 @@
 
 Это цифры мира **Alpha** (1x). Убийство платит **2x** от них в Beta и **3x** в Gamma, а миссия платит по миру, в котором вы её выполнили ([миры](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); добыча одинакова во всех мирах. Кроме того, постоянные Credit Boost (до +50%) и Thulium Boost (до +30%) из магазина сезона повышают то, что убийства и миссии платят в этих двух валютах.
 
-Опыт и честь — это очки, а не деньги: они повышают ваш уровень и ранг, и за них ничего не покупают. Забирает часть только смена корпорации, и лишь половину ваших очков чести; опыт не тратится никогда.
+Опыт и честь — это очки, а не деньги: за них ничего не покупают. Опыт повышает ваш уровень, а уровень идёт в зачёт вашего звания; честь на звание не влияет. Забирает часть только смена корпорации, и лишь половину ваших очков чести; опыт не тратится никогда.
 
 ### Кредиты {#credits}
 
@@ -495,12 +576,12 @@
 
 - **В начале**: на счёте нового пилота 10 000 кредитов.
 - **Пришельцы**: платит каждое убийство (таблица выше).
-- **[Миссии](/wiki/03-Mechanics/Quests.md)**: за все 88 миссий в Alpha выплачивается кредитов: 6 667 000 (от 84 500 на уровне 1 до 2 720 000 на уровне 8).
+- **[Миссии](/wiki/03-Mechanics/Quests.md)**: за все 88 миссий в Alpha выплачивается кредитов: 6 664 500 (от 86 000 на уровне 1 до 2 720 000 на уровне 8).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Кредитная ферма производит их, пока вас нет, в бункер на 72 ч.
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Кредитов в час | 1 000 | 3 842 | 20 661 | 111 120 | 597 630 |
+| Кредитов в час | 500 | 2 500 | 7 500 | 17 000 | 50 000 |
 
 Это скорости работающей станции: нехватка энергии останавливает все фермы и сборщики, а модуль нельзя улучшить выше Ядра, которое останавливается на уровне 20 (см. [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
@@ -514,13 +595,13 @@
 - **Сборочный цех**, за создание: [Starfire-3](/wiki/06-Items/Lasers.md) 100 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 100 000.
 - **[Кузница](/wiki/06-Items/Forge.md)**, за шаг уровня: Стандартный → Осквернённый 10 000, Осквернённый → Божественный 50 000, Божественный → Разрывающий 200 000, Разрывающий → Вечный 500 000.
 - **Слияния в Кузнице**, по полученному уровню: Осквернённый 5 000, Божественный 25 000, Разрывающий 100 000, Вечный 250 000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, базовая цена каждого модуля: Кредитная ферма 1 000 (x1,6 за уровень), Кузница 10 000 (x1,5 за уровень), Сборщик Orvium 10 000 (x1,5 за уровень), Исследовательский центр 25 000 (x1,5 за уровень), Солнечный модуль 500 (x1,4 за уровень), Хранилище ресурсов 10 000 (x1,4 за уровень), Ферма Thulium 5 000 (x1,8 за уровень), Сборщик Velkonite 10 000 (x1,5 за уровень). Ядро есть всегда, поэтому первая цена, которую вы платите за него, — цена уровня 2: 1 500 (далее x1,5 за уровень).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, цена каждого модуля (1-й уровень — это постройка, у каждого следующего уровня своя цена): Кредитная ферма 0 на 1-м уровне, 7 000 000 на 20-м, Кузница 5 000 на 1-м уровне, 9 000 000 на 20-м, Сборщик Orvium 20 000 на 1-м уровне, 5 500 000 на 20-м, Исследовательский центр 25 000 (x1,5 за уровень), Солнечный модуль 500 на 1-м уровне, 9 000 000 на 20-м, Хранилище ресурсов 5 000 на 1-м уровне, 4 500 000 на 20-м, Ферма Thulium 5 000 на 1-м уровне, 8 500 000 на 20-м, Сборщик Velkonite 20 000 на 1-м уровне, 5 500 000 на 20-м. Ядро есть всегда, поэтому первая цена, которую вы платите за него, — цена уровня 2: 1 500 (далее x1,5 за уровень).
 - **Энергетический материализатор**: 5 000 кредитов за скан в поисках частей Chrono-Gate ([подробнее](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[Клан](/wiki/03-Mechanics/Clans.md)**: пожертвования в банк клана (не более 1 000 000 кредитов на пилота за любые 24 ч) и ежедневный налог клана, доля ваших кредитов, которую задают его руководители.
 
-**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (75 000 в Alpha, 225 000 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (1 000 в Alpha; сектор 1). Работающая Кредитная ферма даёт 1 000 в час на 1-м уровне и 597 630 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
+**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (75 000 в Alpha, 225 000 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (1 000 в Alpha; сектор 1). Работающая Кредитная ферма даёт 500 в час на 1-м уровне и 50 000 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
 
-### Thulium {#thulium}
+### Thulium
 
 *Редкая валюта.* Оплачивает лучшее снаряжение и бустеры.
 
@@ -528,12 +609,12 @@
 
 - **В начале**: на счёте нового пилота 100 Thulium.
 - **Пришельцы**: платит каждое убийство (таблица выше).
-- **[Миссии](/wiki/03-Mechanics/Quests.md)**: за все 88 миссий в Alpha выплачивается Thulium: 50 980 (от 170 на уровне 1 до 21 760 на уровне 8).
+- **[Миссии](/wiki/03-Mechanics/Quests.md)**: за все 88 миссий в Alpha выплачивается Thulium: 51 010 (от 170 на уровне 1 до 21 760 на уровне 8).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Ферма Thulium производит их, пока вас нет, в бункер на 72 ч.
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| Thulium в час | 50 | 143 | 530 | 1 969 | 7 310 |
+| Thulium в час | 50 | 180 | 450 | 950 | 1 600 |
 
 Это скорости работающей станции: нехватка энергии останавливает все фермы и сборщики, а модуль нельзя улучшить выше Ядра, которое останавливается на уровне 20 (см. [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
@@ -543,21 +624,21 @@
 **Для чего нужен**
 
 - **Магазин**: предметов с ценой в Thulium — 28 (цены указаны на их страницах: [Предметы](/wiki/06-Items/Overview.md) и [Ракеты](/wiki/06-Items/Rockets.md)).
-- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 40 000, [Quantum Laser 3](/wiki/06-Items/Lasers.md) 1 500, [Starfire-3](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Damage Amp II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating II](/wiki/06-Items/Boosters.md) 15 000, [Nova Amp](/wiki/06-Items/Lasers.md) 1 200, [Apex Amp](/wiki/06-Items/Lasers.md) 1 200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2 000, [Engine III](/wiki/06-Items/Propulsion.md) 2 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500.
+- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 40 000, [Quantum Laser 3](/wiki/06-Items/Lasers.md) 1 500, [Starfire-3](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Damage Amp II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating II](/wiki/06-Items/Boosters.md) 15 000, [Nova Amp](/wiki/06-Items/Lasers.md) 1 200, [Apex Amp](/wiki/06-Items/Lasers.md) 1 200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2 000, [Engine III](/wiki/06-Items/Propulsion.md) 2 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 7 500, Bodkin Formation 21 000, Asterism Formation 7 000, Gemini Formation 38 000, Adamant Formation 9 000, Ballista Formation 24 000, Stiletto Formation 46 000, Rampart Formation 38 500, Sanctum Formation 20 000, Shrike Formation 8 500, Culler Formation 20 000, Redoubt Formation 21 000, Auger Formation 20 500, Cordon Formation 21 500, Centurion Formation 8 000, Gyre Formation 20 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500.
 - **[Кузница](/wiki/06-Items/Forge.md)**, за шаг уровня: Разрывающий → Вечный 2 000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, базовая цена каждого модуля: Кредитная ферма 100 (x1,6 за уровень), Кузница 500 (x1,5 за уровень), Сборщик Orvium 500 (x1,5 за уровень), Исследовательский центр 500 (x1,5 за уровень), Солнечный модуль 50 (x1,4 за уровень), Хранилище ресурсов 500 (x1,4 за уровень), Ферма Thulium 500 (x1,8 за уровень), Сборщик Velkonite 500 (x1,5 за уровень).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, цена каждого модуля (1-й уровень — это постройка, у каждого следующего уровня своя цена): Кредитная ферма 0 на 1-м уровне, 550 на 20-м, Кузница 500 на 1-м уровне, 10 000 на 20-м, Сборщик Orvium 500 на 1-м уровне, 12 500 на 20-м, Исследовательский центр 500 (x1,5 за уровень), Солнечный модуль 50 на 1-м уровне, 10 000 на 20-м, Хранилище ресурсов 250 на 1-м уровне, 550 на 20-м, Ферма Thulium 500 на 1-м уровне, 16 000 на 20-м, Сборщик Velkonite 500 на 1-м уровне, 12 500 на 20-м.
 - **[Исследования](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: буст Исследовательского центра стоит 5 000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium за прыжок.
 - **Энергетический материализатор**: 5 Thulium за скан в поисках частей Chrono-Gate ([подробнее](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **Смена корпорации**: 5 000 Thulium и половина ваших очков чести (первая вербовка бесплатна; нельзя, пока ваш корабль в полёте).
 
-**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (200 в Alpha, 600 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (4 в Alpha; сектор 1). Работающая Ферма Thulium даёт 50 в час на 1-м уровне и 7 310 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
+**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (200 в Alpha, 600 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (4 в Alpha; сектор 1). Работающая Ферма Thulium даёт 50 в час на 1-м уровне и 1 600 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
 
 ## Полезно знать {#good-to-know}
 
 - **Контейнеры**: добыча пришельца падает одним контейнером там, где он взорвался, и 30 с закреплена за убившим его пилотом и его кланом. Бустер [Resource Magnet](/wiki/06-Items/Boosters.md) добавляет 25% к содержимому контейнера. См. [Груз](/wiki/03-Mechanics/Cargo.md).
 - **Обломки**: уничтоженный [пилот корпорации](/wiki/03-Mechanics/Company-Pilots.md) не оставляет ни контейнера, ни деталей, кто бы и что бы его ни уничтожило, так что корабли пилотов не источник материалов. Пилотов другой корпорации можно сбивать после окончания Мирного протокола там, где ваш [мир](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) допускает PvP; уничтожение пилота вашей собственной корпорации стоит 100 чести.
-- **Улучшения модулей**: Сборочный цех создаёт Starfire-3, Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III и Momentum Thruster IV, улучшая деталь на ступень ниже, которая при этом расходуется. Для улучшения нужны Velkonite Reinforced Plate и Orvium Reinforced Plate, как и для Quantum Laser 3, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II и Auto-Repair CPU. Новая деталь сохраняет уровень Кузницы вложенной детали, а её бонусы выпадают заново, так что они могут оказаться лучше или хуже прежних. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Улучшения модулей**: Сборочный цех создаёт Starfire-3, Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III и Momentum Thruster IV, улучшая деталь на ступень ниже, которая при этом расходуется. Для улучшения нужны Velkonite Reinforced Plate и Orvium Reinforced Plate, как и для Quantum Laser 3, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation и Gyre Formation. Новая деталь сохраняет уровень Кузницы вложенной детали, а её бонусы выпадают заново, так что они могут оказаться лучше или хуже прежних. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Где они хранятся**: Сборочный цех, Кузница и постройки Skylab используют отдельные стопки в инвентаре. Стопки на корабле или в транспортном тайнике не считаются.
 - **Вайп**: материалы в вашем инвентаре подчиняются [правилам вайпа](/wiki/03-Mechanics/Wipe-Timeline.md); руда, лежащая в хранилище ресурсов Skylab, остаётся.
 

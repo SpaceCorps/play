@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Nomad는 Ostirion의 2배 선체와 2배 화기를 갖춘 순양함입니다. Ostirion과 Paragon 사이에 놓이는 해머헤드형 함선으로, 상점에서 크레딧과 Thulium을 함께 내고 구매합니다. 어떤 파일럿이든 구매할 수 있습니다.
 
@@ -9,7 +9,7 @@ Nomad는 Ostirion의 2배 선체와 2배 화기를 갖춘 순양함입니다. Os
 - **내구도(HP)**: 96,000
 - **기본 속도**: 200
 - **레이저 슬롯**: 6
-- **부가 슬롯**: 3
+- **부가 슬롯**: 2
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Nomad는 Ostirion의 2배 선체와 2배 화기를 갖춘 순양함입니다. Os
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **연구 불필요.** 이 함선에는 전용 기술이 없습니다.
-- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 3개를 더하면 총 6개, 8개, 10개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
+- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 2개를 더하면 총 5개, 7개, 9개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
 
 <!-- research-ship:end -->
 

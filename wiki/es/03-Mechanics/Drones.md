@@ -1,24 +1,28 @@
-<!-- wiki-i18n source: 5a4769d6626caeff -->
+<!-- wiki-i18n source: e65164e763773d17 -->
 <!-- wiki-i18n title: Drones -->
 # Mecánicas de los drones {#drone-mechanics}
 
-Los drones son unidades de apoyo autónomas que vuelan junto a tu nave. Aportan ranuras de equipo adicionales y contribuyen directamente al rendimiento en combate de tu nave. Un Slave Drone además crece: gana experiencia cada vez que destruyes un alienígena y sube por **ocho niveles**, desde una pequeña esfera blindada hasta una cañonera con alas en forma de media luna. En Ensamblaje, un Slave Drone se puede mejorar a **Master Drone**, que vuelve a empezar sus niveles (consulta Master Drone, más abajo).
+Los drones son unidades de apoyo autónomas que vuelan junto a tu nave. Aportan ranuras de equipo adicionales y contribuyen directamente al rendimiento en combate de tu nave. Un Slave Drone además crece: gana experiencia cada vez que destruyes un alienígena y sube por **ocho niveles**, desde una pequeña esfera blindada hasta una cañonera con alas en forma de media luna. En Ensamblaje, un Slave Drone se puede mejorar a **Master Drone**, que vuelve a empezar sus niveles (consulta Master Drone, más abajo). Los drones también te permiten llevar una **formación de drones**: solo funciona si tienes al menos un dron en tu flota (consulta [Formaciones de drones](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Conseguir drones {#getting-drones}
 
 Cada dron que tienes, sea un **Slave Drone** o un Master Drone, abre sus ranuras de dron (una en un Slave Drone, dos en un Master Drone), hasta **8** drones. La tienda vende Slave Drones por créditos y, a partir del cuarto, también por Thulium. Cada uno cuesta más que el anterior: los precios están en [Drones](/wiki/06-Items/Drones.md).
 
-## Formación y movimiento {#formation-movement}
+## Disposición de vuelo y movimiento {#formation-movement}
 
-Los drones vuelan en una formación estándar **«Compañero de ala» (2-2-4)**:
+Los drones vuelan en una disposición estándar **«Compañero de ala» (2-2-4)**:
 
 - **2 drones** junto a la nave, uno en cada flanco.
 - **2 drones** a los lados y justo detrás.
 - **4 drones** en cola, detrás.
 
-Usan un algoritmo de seguimiento suave que ajusta su posición según la velocidad y la rotación de tu nave, y cierran la formación en las maniobras bruscas. Ninguno vuela por delante de ti.
+Usan un algoritmo de seguimiento suave que ajusta su posición según la velocidad y la rotación de tu nave, y cierran la disposición en las maniobras bruscas. Ninguno vuela por delante de ti.
 
-Los drones son pequeños y se mantienen cerca: un dron de nivel 8 mide unas 19,5 unidades de ancho (una Protos, 50) y uno de nivel 1 es una bola de unas 8, así que toda la formación cabe en unas 135 unidades alrededor de tu nave. El dron que compraste primero es el que tiene más experiencia y vuela en tu flanco izquierdo, el segundo en el derecho, y los más nuevos van detrás.
+Los drones son pequeños y se mantienen cerca: un dron de nivel 8 mide unas 19,5 unidades de ancho (una Protos, 50) y uno de nivel 1 es una bola de unas 8, así que toda la disposición cabe en unas 135 unidades alrededor de tu nave. El dron que compraste primero es el que tiene más experiencia y vuela en tu flanco izquierdo, el segundo en el derecho, y los más nuevos van detrás.
+
+Esta disposición es solo el aspecto de los drones, y es la misma sea cual sea la [formación de drones](/wiki/03-Mechanics/Formations.md) que lleves. Una formación de drones es un conjunto de bonificaciones y costes, no otra forma de volar.
 
 ## Equipo y estadísticas {#equipment-stats}
 
@@ -27,8 +31,9 @@ Los drones funcionan como bastidores de equipo que amplían tu nave.
 - Un Slave Drone tiene **1 ranura** y un Master Drone **2**, hasta **8 drones**.
 - En estas ranuras puedes equipar **láseres** y **escudos**, en cualquiera de las dos ranuras de un Master Drone. Nada más cabe: ni motores ni núcleos adaptativos.
 - **Los láseres cuentan por completo.** Un láser en un dron dispara cuando tú disparas, suma su daño a tu andanada y gasta munición como cualquier otro láser (cada láser consume una unidad de munición por andanada). Los dos láseres de un Master Drone son dos láseres.
-- **Los escudos también cuentan por completo.** Un escudo en un dron cuenta como uno en una ranura principal, en cualquiera de las dos ranuras: su capacidad y su recarga con sus células, su absorción en la media de tu nave, su bono de escudo y su penalización de velocidad. Se ordena junto con los escudos de la propia nave según su capacidad (los cuatro más grandes cuentan por completo, del quinto en adelante cuentan menos; consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)), y las bonificaciones de la Forja, las mejoras de la Tienda de temporada y la penetración de escudo de un atacante actúan sobre él como sobre cualquier escudo. El nivel del dron mejora solo su láser, nunca su escudo. Mientras se mejora un dron, sus ranuras están desconectadas, tanto la del escudo como la del láser. Antes de la 0.4.7, un escudo en un dron no sumaba nada.
+- **Los escudos también cuentan por completo.** Un escudo en un dron cuenta como uno en una ranura principal, en cualquiera de las dos ranuras: su capacidad y su recarga con sus células, su absorción en la media de tu nave, su bono de escudo y su penalización de velocidad. Se ordena junto con los escudos de la propia nave según lo que cuenta tras la parte de la ranura (la ranura de un dron cuenta el 100 %; los cuatro mejores cuentan por completo, del quinto en adelante cuentan menos; consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)), y las bonificaciones de la Forja, las mejoras de la Tienda de temporada y la penetración de escudo de un atacante actúan sobre él como sobre cualquier escudo. El nivel del dron mejora solo su láser, nunca su escudo. Mientras se mejora un dron, sus ranuras están desconectadas, tanto la del escudo como la del láser. Antes de la 0.4.7, un escudo en un dron no sumaba nada.
 - **¿Un láser o un escudo?** Una ranura admite una cosa u otra: un láser suma un láser a tu andanada, un escudo suma sus puntos de escudo. En una nave pequeña con buenos escudos, los puntos extra suman poco, porque su casco se agota antes; en un casco grande permiten aguantar mucho más.
+- **Las formaciones necesitan un dron, no una ranura.** Una [formación de drones](/wiki/03-Mechanics/Formations.md) funciona mientras tengas al menos un dron. No ocupa ninguna ranura de dron, y el número de drones, sus niveles y lo que llevan no la cambian.
 
 ## Niveles {#levels}
 
@@ -83,7 +88,7 @@ El **láser instalado en la ranura de un dron** inflige más daño base a medida
 
 La curva está pensada para que un dron nuevo llegue al nivel 2 en más o menos una hora de juego normal (cazando Bulwarks y Goombahs), y al nivel 8 en unas 27 horas de juego. Esas horas son para un piloto que compra el primer dron hacia las misiones de nivel 7; con peor equipo se tarda más (hasta unas 4 horas para el nivel 2 y 150 horas para el nivel 8). Cazar un solo tipo de alienígena es, como mucho, alrededor de un 50 % más rápido que una mezcla normal. Los drones se conservan tras el reinicio de temporada con sus niveles y su experiencia, así que esas horas se invierten una sola vez, a lo largo de tantas temporadas como haga falta: un piloto que juega media hora al día lo consigue en un par de temporadas.
 
-### Master Drone {#master-drone}
+### Master Drone
 
 Un Slave Drone se convierte en **Master Drone** cuando lo mejoras en Ensamblaje, una vez investigada la tecnología del Master Drone ([Investigación](/wiki/03-Mechanics/Research.md)). La receta cuesta 40.000 de Thulium y 100 Ship Fragments, tarda 60 segundos y no gasta ningún dron: **eliges qué Slave Drone es** (el selector muestra el nivel y la XP de cada uno), y ese mismo dron, con su número, su ranura de dron y todo lo que lleva instalado, se convierte en Master Drone cuando termina el trabajo, con una segunda ranura vacía. Nada va a tu inventario y no hay nada que recoger: el Registro de juego te avisa cuando termina, también si la mejora terminó mientras estabas fuera.
 
@@ -97,3 +102,4 @@ Un Master Drone es uno de tus 8 drones: cuenta para el límite de drones y para 
 
 - **Láseres**: los drones disparan sus láseres equipados contra tu objetivo fijado.
 - **Daño**: los drones pueden recibir daño (si existe una lógica de entidad propia; por ahora comparten casi siempre la reserva de la nave, aunque se vean como algo aparte). _Nota: por ahora, los drones son extensiones indestructibles de la nave._
+- **Repair Drones**: los objetos Repair Drone (I a IV) son [extras](/wiki/06-Items/Extras.md#repair-drones), no drones de tu flota. Mientras uno repara tu casco, pequeños drones de reparación salen de la nave, la rodean y la alcanzan con sus rayos, y los pilotos cercanos los ven.

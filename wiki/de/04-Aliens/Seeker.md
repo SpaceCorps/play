@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen also nie einen Kampf: Ein Seeker wendet sich gegen den Piloten, der auf ihn schießt, und nur gegen diesen. Er lässt ab, wenn ihn 10 Sekunden lang niemand getroffen hat, und seine Hülle repariert sich, sobald man ihn 30 Sekunden in Ruhe gelassen hat. Der Boss Seeker und die Seeker Slaves des [Seeker-Schwarms](/wiki/05-Swarms/Seeker-Swarm.md) sehen aus wie Seeker, sind aber Arten für sich: Ihre Abschüsse werden unter ihrem eigenen Namen gezählt, nicht als Seeker-Abschüsse.
 

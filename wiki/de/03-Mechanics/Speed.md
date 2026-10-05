@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 897dab3210b8f84a -->
+<!-- wiki-i18n source: fde0e896bc82b2a3 -->
 <!-- wiki-i18n title: Tempo -->
 # Tempoberechnung {#speed-calculation}
 
@@ -17,9 +17,9 @@ Jedes ausgerüstete Triebwerk erzeugt Tempo, und ebenso jeder adaptive Kern, der
 \[\text{Triebwerkstempo} = (\text{Grundtempo des Triebwerks} + \text{Fester Schubdüsen-Bonus}) \times \text{Schubdüsen-Faktor}\]
 
 - **Fester Schubdüsen-Bonus**: Die Summe aller festen Tempozuschläge durch Schubdüsen (z. B. ist Impulse Thruster III `+15` Tempo).
-- **Schubdüsen-Faktor**: Das Produkt aller Tempo-Faktoren der Schubdüsen, die in diesem Triebwerk stecken (z. B. ist Momentum Thruster III `1.13` oder `+13%`, Impulse Thruster III `1.03` oder `+3%`). Er multipliziert alles, was das Triebwerk erzeugt: sein eigenes Grundtempo und die festen Boni der Schubdüsen. Ein adaptiver Kern hat kein eigenes Grundtempo, und die festen Boni seiner Schubdüsen werden trotzdem multipliziert.
+- **Schubdüsen-Faktor**: Das Produkt aller Tempo-Faktoren der Schubdüsen, die in diesem Triebwerk stecken (z. B. ist Momentum Thruster III `1.09` oder `+9%`, Impulse Thruster III `1.03` oder `+3%`). Er multipliziert alles, was das Triebwerk erzeugt: sein eigenes Grundtempo und die festen Boni der Schubdüsen. Ein adaptiver Kern hat kein eigenes Grundtempo, und die festen Boni seiner Schubdüsen werden trotzdem multipliziert.
 
-Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+12`, `1.14`) erzeugt (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, mit drei Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.14` ergibt `1.161`.
+Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+12`, `1.11`) erzeugt (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, mit drei Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.11` ergibt `1.1265`.
 
 ### 2. Abnehmender Ertrag (Grenzeffizienz) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -43,3 +43,4 @@ Der gesamte Tempobonus in Prozent ist die Summe aller Tempoboni der ausgerüstet
 - **Tempoabzug durch Schilde**: Schwere Schilde belasten dein Schiff und fügen negative Tempoprozente hinzu (z. B. fügt Heavy Shield Core `-5%` Tempo hinzu).
 - **Slot-Skalierung**: Auch diese prozentualen Boni und Abzüge werden mit dem Wirkungsgrad des Slots skaliert, in dem der Gegenstand ausgerüstet ist. Ein Schild auf einer deiner Drohnen bremst dich genauso wie ein Schild in einem Kern-Slot.
 - **Nie unter null**: Egal, wie viele Schilde du trägst, dein Tempo sinkt nicht unter 0.
+- **Drohnenformationen**: Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ändert das Endtempo noch einmal, als eigener Faktor: Gyre +10 %, Cordon −3 %, Auger −9 %, Culler −10 %, Redoubt −11 %, Rampart −17 %. Der Afterburner multipliziert danach das Ergebnis.

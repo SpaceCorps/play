@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 2f4a437ea53e355e -->
+<!-- wiki-i18n source: ead8337d6f7450e9 -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
 Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Flyg dit och plocka upp dem innan någon annan gör det.
+
+![Picking up a cargo box: the channel bar fills while the ship stays near](../../img/wiki-img/shots/cargo-pickup.jpg)
 
 ## Vad som tappas {#what-drops}
 
@@ -10,7 +12,7 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 - **Koncernpiloter** lämnar ingen låda när de förstörs, vem eller vad som än förstör dem. Se [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md).
 - **Spelarskepp** lämnar inget vrak och ingen låda när de förstörs, vem eller vad som än förstör dem, och ingenting tas från pilotens inventarie.
 - **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare, Dormant Pulses och [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
 
 En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
 
@@ -33,7 +35,7 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 - Om två piloter plockar upp samma låda samtidigt får den vars sekund tar slut först den, exakt en gång; den andra får veta att den är borta.
 - En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten.
 
-## Boosters {#boosters}
+## Boosters
 
 - **Loot Luck** (och den permanenta buffen Luck Boost) höjer chansen för varje bytespost när piloten gör nedskjutningen.
 - **Resource Magnet** lägger till **25 %** på resurserna i varje låda du plockar upp, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den, så fem N.I.K.E.-raketer blir tio Dark Matter för alla.

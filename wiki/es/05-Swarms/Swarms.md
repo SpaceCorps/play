@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -9,6 +9,8 @@ Un **enjambre** es un grupo de alienígenas que recorre una parte de la galaxia 
 - [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md): la Dormant Force y sus Dormant Pulses, el enjambre más fuerte, con el botín más rico.
 
 Sus naves son **alienígenas de tipos propios**: tienen nombres propios y contadores de derribos propios, y ninguna cuenta como un Seeker, un Phantasm ni ningún otro alienígena. Una nave de enjambre tiene la forma de la nave en la que se basa, con un tinte propio y su nombre encima; el Boss Seeker es un Seeker mucho más grande.
+
+Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su propio guardián para el último paso de su línea diaria, y solo ese clan puede dañarlo: ningún piloto se topa con uno vagando por un sector, y las tablas de abajo no los incluyen. Consulta [Clanes](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Los tres enjambres {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de d
 
 <!-- swarms-points:end -->
 
-El derribo de una nave de enjambre no cuenta como derribo de ningún otro alienígena: un Boss Seeker o un Seeker Slave no es un Seeker para una misión que pide Seekers, y los hitos de los puntos de reinicio ([Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) son solo los de los cinco alienígenas.
+El derribo de una nave de enjambre no cuenta como derribo de ningún otro alienígena: un Boss Seeker o un Seeker Slave no es un Seeker para una misión que pide Seekers, y los hitos de los puntos de reinicio ([Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) son solo los de los cinco alienígenas. Las misiones que piden naves de enjambre están en [Misiones de enjambre](/wiki/03-Mechanics/Quests.md#swarm-missions).

@@ -1,8 +1,25 @@
-<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
+<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
 <!-- wiki-i18n title: Skylab -->
-# Skylab {#skylab}
+# Skylab
 
 Lo Skylab è la tua stazione orbitale personale. Costruisce e potenzia moduli che producono crediti e Thulium, estraggono minerale, forgiano le piastre che l’Assemblaggio trasforma nei laser migliori e, dal livello 10 del Nucleo, ricercano le tecnologie di cui l’Assemblaggio ha bisogno. Lavora per te anche quando sei offline.
+
+> [!NOTE]
+> **Cosa è cambiato nella 0.4.10.** Ogni modulo dello Skylab ha ora una propria tabella di produzione, prezzi e tempi, livello per livello. Hai mantenuto i tuoi livelli: non è stato addebitato nulla e non è stato rimborsato nulla per la differenza. Ciò che le tue fattorie e i tuoi collettori avevano nelle tramogge quando è arrivato l’aggiornamento è stato pagato **una sola volta, alla vecchia tariffa**: crediti e Thulium sono andati sul tuo account, il minerale nel tuo Magazzino risorse, e le tramogge sono ripartite da vuote.
+>
+> Due regole sono nuove. **Solare produce solo il 25% della sua energia mentre si potenzia**, quindi nella maggior parte delle stazioni tutte le fattorie e i collettori si fermano finché il potenziamento non è finito (vedi [Modulo Solare](#solar-module) e [Pianificare un potenziamento di Solare](#timing-a-solar-upgrade)). **Il Magazzino risorse ha un limite proprio per ogni minerale**: un giorno di produzione del collettore al livello 1, quattro giorni al livello 20.
+
+![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
+![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+
+## In un minuto {#in-one-minute}
+
+- Costruisci prima **Solare**: senza la sua energia nello Skylab non funziona niente. La Fattoria crediti non costa nulla da costruire, la Fattoria Thulium costa 5.000 crediti e 500 Thulium.
+- Fattorie e collettori riempiono una **tramoggia** (da 72 ore) mentre sei via. **Raccogli** la sposta sul tuo account (crediti, Thulium) o nel tuo Magazzino risorse (minerale).
+- La **Fattoria Thulium** è la tua principale fonte di Thulium: 50 all’ora al livello 1, 1.600 al livello 20. La Fattoria crediti produce 500 crediti all’ora al livello 1 e 50.000 al livello 20.
+- Il **Nucleo** dà il ritmo: nessun modulo lo supera, e la sua salita richiede da sola circa 16 giorni e mezzo.
+- **Solare produce solo il 25% della sua energia mentre si potenzia**, quindi le tue fattorie e i tuoi collettori si fermano finché non ha finito. [Pianificalo](#timing-a-solar-upgrade).
 
 ## Panoramica {#overview}
 
@@ -71,7 +88,7 @@ Ecco la vista Stazione dello Skylab a ogni livello da 1 a 20, tutte dalla stessa
 
 ### Modulo Nucleo {#core-module}
 
-Il cuore del tuo Skylab. Il livello del Nucleo decide il livello massimo di ogni altro modulo: non puoi potenziare nessun modulo oltre il tuo Nucleo. Il Nucleo arriva fino al livello 20, e dal **livello 5** sblocca la filiera descritta più sotto.
+Il cuore del tuo Skylab. Il livello del Nucleo decide il livello massimo di ogni altro modulo: non puoi potenziare nessun modulo oltre il tuo Nucleo. Il Nucleo arriva fino al livello 20, e dal **livello 5** sblocca la filiera descritta più sotto. I suoi potenziamenti costano solo crediti: 112.326 in tutto fino al livello 10 e 6.647.504 fino al livello 20, e richiedono circa 16 giorni e mezzo in tutto (vedi [Tempi di potenziamento](#upgrade-times)).
 
 ### Modulo Solare {#solar-module}
 
@@ -79,12 +96,13 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 
 - **Importanza**: se l’energia che usi supera quella che produci, le tue fattorie e i tuoi collettori si spengono.
 - **Energia prodotta**: un modulo Solare al livello N ne produce a sufficienza per **ogni altro modulo al livello N**, e circa un decimo in più: 255 al livello 1, 835 al livello 7, 16.110 al livello 20. Solare al livello 7 alimenta un’intera stazione al livello 7 (vedi Gestione dell’energia per ogni livello).
-- **Potenziamento**: Solare continua a produrre l’energia del livello attuale mentre si potenzia, e quella del nuovo livello dal momento in cui il potenziamento termina, quindi il resto della stazione continua a funzionare (vedi Costruzione e potenziamento).
+- **Prezzo**: costruire Solare costa **500 crediti e 50 Thulium**. I suoi potenziamenti costano come quelli della Fucina e durano quanto loro: da 8.000 crediti e 25 Thulium per il livello 2 (5 minuti) a 9.000.000 di crediti e 10.000 Thulium per il livello 20 (24 ore).
+- **Potenziamento**: mentre si potenzia, Solare produce solo il **25%** dell’energia del livello attuale, e quella del nuovo livello dal momento in cui il potenziamento termina. Una stazione che usa più di così si ferma: ogni fattoria e ogni collettore smettono di produrre e la Fucina non avvia nuovi lotti finché il potenziamento non è finito. Per quasi ogni stazione è così: resta in funzione durante il potenziamento solo se tutti gli altri moduli sono almeno cinque livelli sotto Solare (sei livelli dal livello 10 di Solare). Pianifica un potenziamento di Solare come un blackout delle tue fattorie (vedi Costruzione e potenziamento).
 
 ### Fattoria crediti e Fattoria Thulium {#credit-farm-and-thulium-farm}
 
-- **Fattoria crediti**: produce crediti nel tempo.
-- **Fattoria Thulium**: produce Thulium nel tempo.
+- **Fattoria crediti**: produce crediti nel tempo: **500 all’ora al livello 1, 50.000 al livello 20** (livello 5: 2.500; livello 10: 7.500; livello 15: 17.000). Costruirla non costa nulla.
+- **Fattoria Thulium**: produce Thulium nel tempo: **50 all’ora al livello 1, 1.600 al livello 20** (livello 5: 180; livello 10: 450; livello 15: 950). Costruirla costa 5.000 crediti e 500 Thulium.
 - Entrambe richiedono energia, e ciascuna conserva 72 ore della sua produzione finché non la raccogli.
 
 ## La filiera {#the-supply-chain}
@@ -98,21 +116,23 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 
 ### Collettore Velkonite e Collettore Orvium {#velkonite-collector-and-orvium-collector}
 
-- **Minerale**: al livello 1 il Collettore Velkonite estrae **12 Velkonite all’ora** e il Collettore Orvium **6 Orvium all’ora**, con un aumento del 25% a ogni livello (livello 5: 29 e 15 all’ora; livello 10: 89 e 45).
+- **Minerale**: al livello 1 il Collettore Velkonite estrae **10 Velkonite all’ora** e il Collettore Orvium **10 Orvium all’ora**, e ogni livello ha il suo ritmo: fino a 80 Velkonite e 40 Orvium all’ora al livello 20 (livello 5: 18 e 14 all’ora; livello 10: 32 e 24).
 - **Tramoggia**: ciascuno contiene 72 ore del suo minerale e smette di estrarre quando è pieno.
 - **Raccogli**: sposta il minerale nel Magazzino risorse, finché c’è posto. Se il magazzino non è costruito, o la riserva di quel minerale è piena, non c’è dove metterlo e il pulsante spiega perché. Il resto rimane nella tramoggia.
 - **Energia**: 20 (Velkonite) e 30 (Orvium) al livello 1, con un aumento del 15% per livello.
 
 ### Magazzino risorse {#resource-storage}
 
-- **Riserva**: tiene separati Velkonite e Orvium. Contiene **900 di ciascuno al livello 1**, con un aumento del 25% per livello (livello 5: 2.197; livello 10: 6.705).
+- **Riserva**: tiene separati Velkonite e Orvium e ne contiene una quantità diversa per ciascuno: **240 di ciascuno al livello 1**, fino a 7.680 di Velkonite e 3.840 di Orvium al livello 20 (livello 5: 720 e 560; livello 10: 1.920 e 1.440).
+- **Limite**: un giorno di produzione del suo collettore al livello 1, fino a quattro giorni al livello 20. La tramoggia di un collettore contiene tre giorni, quindi dal livello 13 la riserva contiene almeno una tramoggia piena.
+- **Oltre il limite**: se una riserva contiene più del suo limite (il pagamento dell’aggiornamento 0.4.10 può averla lasciata così), non viene tolto nulla, ma Raccogli non aggiunge altro di quel minerale finché non ne hai usato un po’.
 - Il minerale entra solo raccogliendolo da un collettore, ed esce solo verso la Fucina. Non entra mai nel tuo inventario.
 - **Il minerale immagazzinato resta** dopo il reset della stagione.
 - **Energia**: 10 al livello 1, con un aumento del 10% per livello. Non si può spegnere.
 
 ### Fucina {#forgery}
 
-- **Piastre**: la Fucina produce una **Velkonite Reinforced Plate** dalla Velkonite e una **Orvium Reinforced Plate** dall’Orvium: **40 Velkonite** o **80 Orvium** a piastra al livello 1, e l’1,5% in meno per ogni livello oltre l’1 (mai sotto il 70%).
+- **Piastre**: la Fucina produce una **Velkonite Reinforced Plate** dalla Velkonite e una **Orvium Reinforced Plate** dall’Orvium: **40 Velkonite** o **80 Orvium** a piastra al livello 1, in calo a ogni livello fino a 30 e 60 al livello 20 (mai sotto il 75%).
 - **Lotti**: un lotto di un solo tipo di piastra alla volta, **10 piastre al livello 1** e 5 in più per ogni livello successivo. Il minerale esce dal Magazzino risorse nel momento in cui parte il lotto, e ogni piastra richiede **10 secondi**. Le piastre vengono prodotte una dopo l’altra, anche mentre sei via.
 - **Ritira piastre**: sposta le piastre finite nel tuo inventario mentre la tua **nave è atterrata**, e il resto del lotto continua. Un nuovo lotto può partire quando la Fucina è vuota.
 - Un lotto in corso si completa anche se spegni la Fucina o la potenzi. Un lotto **nuovo** richiede che la Fucina sia accesa, non in potenziamento, e che l’energia dello Skylab sia in equilibrio.
@@ -120,7 +140,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 
 ### Costruirli {#building-them}
 
-Ognuno dei quattro costa **10 Ship Fragment, 10.000 crediti e 500 Thulium**, e richiede il Nucleo al livello 5.
+I due collettori costano **10 Ship Fragment, 20.000 crediti e 500 Thulium** ciascuno, il Magazzino risorse **10 Ship Fragment, 5.000 crediti e 250 Thulium** e la Fucina **10 Ship Fragment, 5.000 crediti e 500 Thulium**; tutti e quattro richiedono il Nucleo al livello 5.
 
 - Gli Ship Fragment vengono presi dal tuo inventario (non dal Deposito di trasporto) e la tua nave deve essere atterrata. Il pannello di costruzione mostra ciò che hai rispetto a ciò che serve, e ciò che ti manca.
 - Consumano energia. Prima di costruire, il pannello mostra il tuo bilancio energetico attuale e quello dopo la costruzione: **costruire può mandare in deficit una stazione** quando il suo Solare è indietro rispetto agli altri moduli, e un solo deficit ferma ogni fattoria e collettore. Spegni un modulo, oppure potenzia prima Solare.
@@ -135,48 +155,61 @@ Il nono modulo trasforma le risorse in scienza e ricerca le tecnologie di cui l�
 ### Costruzione e potenziamento {#building-and-upgrading}
 
 - **Costruzione**: ogni modulo si costruisce a sé. Un modulo è al livello 1 nel momento in cui viene costruito, e potenziarlo ne aumenta la produzione (o l’energia prodotta) e la capienza, ma anche il consumo di energia.
-- **Tempo e costo**: i potenziamenti costano crediti e Thulium e richiedono tempo. Il potenziamento di un modulo della filiera costa 10.000 x 1,5^livello crediti e 500 x 1,5^livello Thulium (il Magazzino risorse x1,4 per livello). Il costo non dipende dal tempo.
+- **Tempo e costo**: i potenziamenti costano crediti e Thulium e richiedono tempo, e ogni modulo ha per ogni livello il proprio prezzo e il proprio tempo (passa il puntatore su **Potenzia** per vedere il successivo; i totali sono più sotto). Il prezzo si paga all’avvio del potenziamento. Il costo non dipende dal tempo.
 - **Timer**: un potenziamento segue l’orologio del server, quindi si completa mentre sei via, anche giorni dopo se serve. Avvialo, disconnettiti, torna: il modulo è al nuovo livello quando apri la pagina Skylab.
-- **Tempi di potenziamento**: i primi livelli sono rapidi e gli ultimi richiedono giorni (vedi le tabelle più sotto). Ogni modulo ha il proprio timer, quindi puoi potenziarne diversi contemporaneamente.
-- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione (vedi sotto).
-- **Solare continua a produrre energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (6 giorni per l’ultimo livello), continua a produrre l’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Fattorie, collettori e Fucina continuano a funzionare finché quell’energia li copre, quindi potenziare Solare non spegne mai la tua stazione, e la Fucina può avviare nuovi lotti nel frattempo. Solo il modulo che viene potenziato è offline.
+- **Tempi di potenziamento**: i primi livelli sono rapidi e gli ultimi richiedono fino a 36 ore, quelli del Nucleo fino a 6 giorni (vedi le tabelle più sotto). Ogni modulo ha il proprio timer, quindi puoi potenziarne diversi contemporaneamente.
+- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione: continua a produrre un quarto della sua energia (vedi sotto).
+- **Solare produce solo il 25% della sua energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (24 ore per l’ultimo livello), produce un quarto dell’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Una stazione completa usa circa il 90% di ciò che Solare produce al proprio livello, quindi un quarto di quella energia regge solo una stazione da cinque a sei livelli sotto Solare. Altrimenti ogni fattoria e ogni collettore si fermano per tutto il potenziamento, ciò che hai immagazzinato resta e si può raccogliere, e la Fucina non avvia nuovi lotti. Un modulo in potenziamento o spento non usa energia, quindi potenziare le fattorie insieme a Solare non costa niente in più, e spegnere dei moduli lascia spazio agli altri; la Fattoria Thulium è di gran lunga la più energivora.
+
+### Quanto costa {#what-it-costs}
+
+Il prezzo dell’intera salita, la costruzione più ogni potenziamento, fino al livello 10 e fino al livello 20. Il Nucleo c’è sempre e i suoi passi costano solo crediti; il Centro ricerche ha i livelli da 1 a 10 e i suoi numeri sono nella pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+
+| Modulo | Crediti fino al livello 10 | Thulium fino al livello 10 | Crediti fino al livello 20 | Thulium fino al livello 20 |
+| :--- | ---: | ---: | ---: | ---: |
+| Nucleo | 112.326 | 0 | 6.647.504 | 0 |
+| Solare | 1.219.500 | 1.600 | 35.039.500 | 36.850 |
+| Fattoria crediti | 840.000 | 109 | 26.240.000 | 2.399 |
+| Fattoria Thulium | 1.154.000 | 4.190 | 32.254.000 | 67.890 |
+| Collettore Velkonite | 696.000 | 6.950 | 20.996.000 | 78.950 |
+| Collettore Orvium | 696.000 | 6.950 | 20.996.000 | 78.950 |
+| Magazzino risorse | 619.500 | 359 | 18.169.500 | 2.649 |
+| Fucina | 1.224.000 | 2.050 | 35.044.000 | 37.300 |
+
+I primi passi costano poco e gli ultimi molto: il passo della Fattoria crediti dal livello 1 al 2 costa 5.000 crediti e 1 Thulium, quello dal 19 al 20 costa 7.000.000 di crediti e 550 Thulium. Quelli della Fattoria Thulium costano 7.000 crediti e 45 Thulium, poi 8.500.000 crediti e 16.000 Thulium. I potenziamenti di Solare costano a ogni livello come quelli della Fucina, e i due collettori costano uguale.
 
 ### Tempi di potenziamento {#upgrade-times}
 
 <!-- upgrade-times:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by the test skylab::duration_tests::the_wiki_page_is_the_config (run it with SKYLAB_WIKI_WRITE=1 to rewrite this part). -->
 
-**Livelli da 1 a 5**, per modulo (il potenziamento dal livello indicato nella prima colonna):
+**Tempi di potenziamento**, per modulo (il potenziamento dal livello indicato nella prima colonna):
 
 | Livello | Nucleo | Solare | Fattoria crediti | Fattoria Thulium | Magazzino risorse | Collettore Velkonite | Collettore Orvium | Fucina | Centro ricerche |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| da 1 a 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
-| da 2 a 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
-| da 3 a 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
-| da 4 a 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
-| da 5 a 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
-
-**Dal livello 6**, uguali per ogni modulo:
-
-| Potenziamento | Tempo | Totale dal livello 6 |
-| :--- | ---: | ---: |
-| da 6 a 7 | 20 min | 20 min |
-| da 7 a 8 | 30 min | 50 min |
-| da 8 a 9 | 50 min | 1 h 40 min |
-| da 9 a 10 | 1 h 20 min | 3 h |
-| da 10 a 11 | 2 h 15 min | 5 h 15 min |
-| da 11 a 12 | 3 h 30 min | 8 h 45 min |
-| da 12 a 13 | 5 h 30 min | 14 h 15 min |
-| da 13 a 14 | 9 h | 23 h 15 min |
-| da 14 a 15 | 14 h | 1 g 13 h |
-| da 15 a 16 | 1 g | 2 g 13 h |
-| da 16 a 17 | 1 g 12 h | 4 g 1 h |
-| da 17 a 18 | 2 g 12 h | 6 g 13 h |
-| da 18 a 19 | 4 g | 10 g 13 h |
-| da 19 a 20 | 6 g | 16 g 13 h |
+| da 1 a 2 | 72 s | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 78 s |
+| da 2 a 3 | 86 s | 15 min | 10 min | 15 min | 10 min | 15 min | 15 min | 15 min | 101 s |
+| da 3 a 4 | 104 s | 30 min | 15 min | 30 min | 15 min | 20 min | 20 min | 30 min | 132 s |
+| da 4 a 5 | 124 s | 45 min | 20 min | 45 min | 20 min | 30 min | 30 min | 45 min | 171 s |
+| da 5 a 6 | 149 s | 1 h | 30 min | 1 h | 30 min | 45 min | 45 min | 1 h | 223 s |
+| da 6 a 7 | 20 min | 1 h 15 min | 45 min | 1 h 30 min | 45 min | 50 min | 50 min | 1 h 15 min | 20 min |
+| da 7 a 8 | 30 min | 1 h 30 min | 1 h | 2 h | 1 h | 1 h | 1 h | 1 h 30 min | 30 min |
+| da 8 a 9 | 50 min | 2 h | 1 h 20 min | 3 h | 1 h 20 min | 1 h 15 min | 1 h 15 min | 2 h | 50 min |
+| da 9 a 10 | 1 h 20 min | 3 h | 1 h 40 min | 4 h | 1 h 40 min | 1 h 30 min | 1 h 30 min | 3 h | 1 h 20 min |
+| da 10 a 11 | 2 h 15 min | 4 h | 2 h | 5 h | 2 h | 2 h | 2 h | 4 h | – |
+| da 11 a 12 | 3 h 30 min | 5 h | 2 h 30 min | 6 h | 2 h 30 min | 3 h | 3 h | 5 h | – |
+| da 12 a 13 | 5 h 30 min | 6 h | 3 h | 8 h | 3 h | 4 h | 4 h | 6 h | – |
+| da 13 a 14 | 9 h | 8 h | 3 h 30 min | 10 h | 3 h 30 min | 6 h | 6 h | 8 h | – |
+| da 14 a 15 | 14 h | 10 h | 4 h | 11 h | 4 h | 8 h | 8 h | 10 h | – |
+| da 15 a 16 | 1 g | 12 h | 5 h | 12 h | 5 h | 10 h | 10 h | 12 h | – |
+| da 16 a 17 | 1 g 12 h | 16 h | 6 h | 14 h | 6 h | 12 h | 12 h | 16 h | – |
+| da 17 a 18 | 2 g 12 h | 18 h | 8 h | 18 h | 8 h | 16 h | 18 h | 18 h | – |
+| da 18 a 19 | 4 g | 20 h | 10 h | 1 g | 10 h | 20 h | 1 g | 20 h | – |
+| da 19 a 20 | 6 g | 1 g | 12 h | 1 g 12 h | 12 h | 1 g | 1 g 12 h | 1 g | – |
+| **Totale** | 16 g 13 h | 5 g 13 h | 2 g 14 h | 6 g 13 h | 2 g 14 h | 4 g 16 h | 5 g 10 h | 5 g 13 h | 3 h 12 min |
 <!-- upgrade-times:end -->
 
-Un potenziamento già in corso quando i tempi cambiano mantiene l’orario di fine che gli era stato assegnato. Il solo Nucleo richiede circa **16 giorni e mezzo** di potenziamenti consecutivi per passare dal livello 1 al livello 20. Nessun modulo supera il livello del Nucleo, quindi l’ultimo passo di ogni altro modulo (6 giorni) può partire solo quando il Nucleo è al livello 20: tenendo sempre occupato ogni timer, e con i crediti e il Thulium a disposizione, l’intera stazione richiede circa **22 giorni e mezzo**.
+Un potenziamento già in corso quando i tempi cambiano mantiene l’orario di fine che gli era stato assegnato. Il solo Nucleo richiede circa **16 giorni e mezzo** di potenziamenti consecutivi per passare dal livello 1 al livello 20. Nessun modulo supera il livello del Nucleo, quindi l’ultimo passo di ogni altro modulo (da 12 a 36 ore) può partire solo quando il Nucleo è al livello 20: tenendo sempre occupato ogni timer, e con i crediti e il Thulium a disposizione, l’intera stazione richiede circa **18 giorni**.
 
 ### Gestione dell’energia {#power-management}
 
@@ -186,6 +219,7 @@ Il tuo Skylab ha una disponibilità di energia limitata.
 - **Solare tiene il passo**: un modulo Solare al livello N produce l’energia di **tutti gli altri moduli al livello N** (il Nucleo, entrambe le fattorie, il Magazzino risorse, entrambi i collettori e la Fucina, e dal livello 10 il Centro ricerche) e circa un decimo in più, quindi una stazione i cui moduli sono tutti al livello 7 ha bisogno di Solare 7, e ne è coperta. Solare un livello più basso non basta per una stazione al completo (l’ultima colonna), quindi Solare deve comunque seguire gli altri nella salita. Il Nucleo consuma poco, quindi può andare avanti: Solare 5 e oltre copre una stazione al completo al suo livello con il Nucleo a qualsiasi livello.
 - **Stato attivo**: puoi accendere o spegnere le fattorie, i collettori e la Fucina per gestire l’energia. Il Nucleo, Solare, il Magazzino risorse e il Centro ricerche funzionano sempre.
 - **Blackout**: se l’energia usata supera quella prodotta, tutte le fattorie e i collettori smettono di produrre finché il bilancio non si ristabilisce. Ciò che hanno già immagazzinato resta, e puoi comunque raccoglierlo. La Fucina non avvia nuovi lotti e il Centro ricerche non avvia nuove ricerche (una ricerca già in corso prosegue).
+- **Potenziamento di Solare**: mentre si potenzia, Solare produce solo un quarto della sua energia, quindi, se gli altri moduli non sono molto più in basso, la stazione va in deficit e le fattorie e i collettori si fermano finché il potenziamento non è finito (vedi [Modulo Solare](#solar-module)).
 
 L’energia di Solare a ogni livello, a confronto con quella usata dagli altri moduli allo stesso livello (ogni modulo a quel livello, Nucleo compreso, e il Centro ricerche dal livello 10):
 
@@ -232,3 +266,45 @@ Ogni fattoria e collettore ha una tramoggia per circa 72 ore della sua produzion
 ### Il reset {#the-wipe}
 
 Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse conserva il suo minerale e il Centro ricerche conserva le sue tecnologie, il suo serbatoio di scienza, la Dark Matter inserita e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md).
+
+## Pianificare il tuo Skylab {#planning-your-skylab}
+
+Lo Skylab ci mette settimane a crescere, quindi un po’ di pianificazione ripaga. I numeri sono quelli delle tabelle qui sopra.
+
+### Cosa potenziare per primo {#what-to-upgrade-first}
+
+1. **Solare, poi la Fattoria crediti.** Solare costa 500 crediti e 50 Thulium e senza non funziona niente; la Fattoria crediti non costa nulla. Le dieci [missioni Stazione](/wiki/03-Mechanics/Quests.md#station-missions) ti guidano in questi primi passi e ti pagano 52.000 crediti e 610 Thulium, come base: il tuo mondo, i tuoi booster e i bonus del tuo clan la moltiplicano.
+2. **Poi la Fattoria Thulium: è la tua principale fonte di Thulium.** Al livello 10 produce 450 Thulium all’ora, 10.800 al giorno, quanto pagano 54 uccisioni di un [Crystalys](/wiki/04-Aliens/Crystalys.md) in Alpha (200 ciascuna). La salita fino al livello 10 costa 1.154.000 crediti e 4.190 Thulium, costruzione compresa. Al livello 15 la fattoria produce 22.800 al giorno e al livello 20 38.400. La sua tramoggia contiene 72 ore, quindi torna almeno ogni tre giorni. Cosa si compra con il Thulium è nella pagina [Risorse](/wiki/06-Items/Resources.md#thulium).
+3. **La Fattoria crediti è l’entrata costante di contorno.** Al livello 10 produce 7.500 crediti all’ora, 180.000 al giorno, per 840.000 crediti e 109 Thulium. I livelli alti si ripagano lentamente: il passo dal livello 9 al 10 costa 300.000 crediti per 1.000 in più all’ora, cioè 300 ore. Potenziala quando ti avanzano crediti.
+4. **Tieni occupato il Nucleo.** Niente supera il Nucleo, e il Nucleo da solo richiede circa 16 giorni e mezzo per arrivare al livello 20. Non c’è una coda, quindi avvia il suo passo successivo ogni volta che torni.
+5. **Costruisci la filiera come un insieme.** I collettori, il Magazzino risorse e la Fucina si aprono al livello 5 del Nucleo. Un collettore può mettere in riserva il minerale solo in un Magazzino risorse, e la riserva contiene un giorno di produzione del suo collettore al livello 1 e quattro giorni al livello 20, quindi potenzia il Magazzino insieme ai collettori, altrimenti il minerale aspetta nelle loro tramogge.
+
+### Pianificare un potenziamento di Solare {#timing-a-solar-upgrade}
+
+Mentre si potenzia, Solare produce un quarto della sua energia, e una stazione quasi sempre ne usa di più. Le fattorie e i collettori si fermano allora per tutto il potenziamento: ciò che contengono resta, ma ciò che avrebbero prodotto è perso. La tabella indica, per ogni passo di Solare, il suo tempo, la stazione più grande che continua a funzionare (ogni modulo allo stesso livello, Nucleo e filiera compresi; una stazione più piccola regge un po’ di più) e ciò che una Fattoria crediti e una Fattoria Thulium di quel livello avrebbero prodotto in quel tempo. Per esempio, Solare dal livello 10 all’11 richiede 4 ore, e fattorie di livello 10 ne avrebbero prodotto 30.000 crediti e 1.800 Thulium.
+
+| Potenziamento di Solare | Tempo | Stazione che continua a funzionare, fino al livello | La Fattoria crediti produce nel frattempo | La Fattoria Thulium produce nel frattempo |
+| :--- | ---: | ---: | ---: | ---: |
+| da 1 a 2 | 5 min | nessuna | 42 | 4 |
+| da 2 a 3 | 15 min | nessuna | 250 | 20 |
+| da 3 a 4 | 30 min | nessuna | 750 | 55 |
+| da 4 a 5 | 45 min | nessuna | 1.500 | 105 |
+| da 5 a 6 | 1 h | nessuna | 2.500 | 180 |
+| da 6 a 7 | 1 h 15 min | nessuna | 4.375 | 288 |
+| da 7 a 8 | 1 h 30 min | nessuna | 6.750 | 420 |
+| da 8 a 9 | 2 h | 1 | 11.000 | 660 |
+| da 9 a 10 | 3 h | 2 | 19.500 | 1.140 |
+| da 10 a 11 | 4 h | 4 | 30.000 | 1.800 |
+| da 11 a 12 | 5 h | 5 | 45.000 | 2.750 |
+| da 12 a 13 | 6 h | 6 | 66.000 | 3.900 |
+| da 13 a 14 | 8 h | 7 | 104.000 | 6.000 |
+| da 14 a 15 | 10 h | 8 | 150.000 | 8.500 |
+| da 15 a 16 | 12 h | 9 | 204.000 | 11.400 |
+| da 16 a 17 | 16 h | 10 | 320.000 | 17.600 |
+| da 17 a 18 | 18 h | 11 | 432.000 | 22.500 |
+| da 18 a 19 | 20 h | 12 | 580.000 | 28.000 |
+| da 19 a 20 | 1 g | 13 | 840.000 | 36.000 |
+
+- **Potenzia le fattorie insieme a Solare.** Un modulo in potenziamento non produce nulla e non usa energia comunque, quindi il tempo che una fattoria passa in potenziamento durante la pausa non costa niente in più.
+- **Tieni bassi gli altri moduli se non puoi permetterti una pausa.** Una stazione resta in funzione durante un potenziamento di Solare solo se tutti i suoi altri moduli sono almeno cinque livelli sotto Solare (sei dal livello 10 di Solare), e una stazione completa richiede un po’ di più, come mostra la tabella.
+- **Spegni ciò di cui puoi fare a meno.** Un modulo spento non usa energia, quindi spegnere la Fattoria Thulium, la più energivora (80 al livello 1, con il 30% in più a ogni livello), lascia spazio agli altri.

@@ -2,13 +2,32 @@
 
 The Spacemap is your navigational interface for traversing the SpaceCorps universe. Each company controls a sector of space, arranged in a specific topology that facilitates both safe exploration and dangerous PvP encounters.
 
+![Galaxy Gates](../img/wiki-img/shots/gates.jpg)
+![Sector DS-1 as the game draws it](../img/wiki-img/shots/sector-DS-1.jpg)
+![Sector DS-2 as the game draws it](../img/wiki-img/shots/sector-DS-2.jpg)
+![Sector DS-3 as the game draws it](../img/wiki-img/shots/sector-DS-3.jpg)
+![Sector DS-4 as the game draws it](../img/wiki-img/shots/sector-DS-4.jpg)
+![Sector G-1 as the game draws it](../img/wiki-img/shots/sector-G-1.jpg)
+![Sector G-2 as the game draws it](../img/wiki-img/shots/sector-G-2.jpg)
+![Sector G-3 as the game draws it](../img/wiki-img/shots/sector-G-3.jpg)
+![Sector G-4 as the game draws it](../img/wiki-img/shots/sector-G-4.jpg)
+![Sector M-1 as the game draws it](../img/wiki-img/shots/sector-M-1.jpg)
+![Sector M-2 as the game draws it](../img/wiki-img/shots/sector-M-2.jpg)
+![Sector M-3 as the game draws it](../img/wiki-img/shots/sector-M-3.jpg)
+![Sector M-4 as the game draws it](../img/wiki-img/shots/sector-M-4.jpg)
+![Sector T-1 as the game draws it](../img/wiki-img/shots/sector-T-1.jpg)
+![Sector T-2 as the game draws it](../img/wiki-img/shots/sector-T-2.jpg)
+![Sector T-3 as the game draws it](../img/wiki-img/shots/sector-T-3.jpg)
+![Sector T-4 as the game draws it](../img/wiki-img/shots/sector-T-4.jpg)
+![The Star System map: the sectors, the PvP sectors, the gates and the company routes, with the portal ring that joins each company's x-4 sector to the next company's x-3 sector](../img/wiki-img/shots/star-system.jpg)
+
 ## The Universe Structure
 
 The universe comprises three main company sectors (Mars, Terra, Galactic) and a central PvP zone.
 
 - **x-1 (Home Base)**: The starting map for each company (M-1, T-1, G-1). Safest zone.
 - **x-2 -> x-3**: Expansion zones with progressively tougher aliens.
-- **x-4 (Border)**: The gateway to the PvP sector.
+- **x-4 (Border)**: The gateway to the PvP sector, and to another company's `x-3` (the Ring, below).
 - **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4.
 
 Only the home bases have a station. It is where **Mission Control** opens, and its safe zone reaches 1,600 units around it. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to your base for your missions.
@@ -50,10 +69,16 @@ Spacemap travel is conducted via **Jump Gates** (Portals). A [Jump CPU](/wiki/06
   - `M-4` connects to `DS-1`
   - `T-4` connects to `DS-2`
   - `G-4` connects to `DS-3`
-- **Invasion Paths (Inter-Company Travel)**: To enter enemy company territory through the gates, you must cross through the PvP zone. For example, a Mars pilot seeking to invade Terra must fly from `M-4` into Danger Sector `DS-1`, cross the jump gate to `DS-2`, and then enter Terra space through `T-4`; to reach Galactic, cross the jump gate to `DS-3` and enter through `G-4`.
+- **The Ring**: Each company's border map (`x-4`) has one more gate, to the `x-3` of the **next company**, and every `x-3` has the gate back. The three links make a ring round the Danger Sectors, so every company has one way out and one way in:
+  - `M-4` connects to Terra's `T-3`
+  - `T-4` connects to Galactic's `G-3`
+  - `G-4` connects to Mars' `M-3`
+
+  The ring is open to every pilot, whatever company they fly for: it is a second way to travel between the companies' maps that does not cross the PvP zone. A ring gate stands in a corner of its own, away from the other gates of its map, with the usual safe zone of 660 units around it, and the jump works as at any gate. Where you may be attacked on the other side depends on your world, as everywhere: in Alpha `T-3` is not a PvP sector but `T-4` is, in Beta both are, in Gamma every sector is.
+- **Invasion Paths (Inter-Company Travel)**: There are two ways into another company's territory through the gates. The short one is the Ring: a Mars pilot flies from `M-4` through the ring gate into Terra's `T-3` (three jumps from the Mars base, `M-1` → `M-2` → `M-4` → `T-3`), and on to `T-4` or `T-2`; Galactic's `G-4` leads into Mars' `M-3` and Terra's `T-4` into Galactic's `G-3` the same way. The long one crosses the PvP zone: from `M-4` into Danger Sector `DS-1`, across the jump gate to `DS-2`, and into Terra space through `T-4`; to reach Galactic, cross the jump gate to `DS-3` and enter through `G-4`.
 - **The Danger Sector Triangle**: `DS-1`, `DS-2` and `DS-3` all connect to each other. Each of them has one company's gate (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` has none.
 - **The Core Center**: All three outer Danger Sectors (`DS-1`, `DS-2`, and `DS-3`) connect directly to the center map **`DS-4`**, the most dangerous and rewarding PvP zone in the universe. A **black hole** hangs in the exact middle of it: the portals and the lanes between them stay well clear, but a ship that flies in feels its radiation, then its pull, and is destroyed at its event horizon. See [The Black Hole](/wiki/03-Mechanics/Black-Hole.md).
 
 ### The Jump CPU
 
-The [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) takes your ship to any company sector of your world without a gate, for 500 Thulium a jump, enemy home sectors included. It never goes to a Danger Sector, it does not start in a fight, and you research it first in the Skylab's Research Centre ([Research](/wiki/03-Mechanics/Research.md)). The [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) take you home the same way.
+The [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) takes your ship to any company sector of your world without a gate, for 500 Thulium a jump, enemy home sectors included. It never goes to a Danger Sector, it does not start in a fight, and you research it first in the Skylab's Research Centre ([Research](/wiki/03-Mechanics/Research.md)). The [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) take you home the same way. A warp CPU, the Jump CPU or a Base CPU, is refused while you carry a quest item ("You can't use a warp CPU while carrying a mission item."): fly home through the gates ([Quest items](/wiki/03-Mechanics/Quests.md#quest-items)).

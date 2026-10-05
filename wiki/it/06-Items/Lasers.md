@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -73,8 +73,8 @@ La pagina Assemblaggio mostra ciò che hai rispetto a ciò che richiede una rice
 Da dove vengono le piastre:
 
 - Le **Velkonite Reinforced Plate** (Quantum Laser 3 e Starfire-3) si forgiano dalla Velkonite, 40 unità di minerale per piastra al livello 1 della Fucina. Le **Orvium Reinforced Plate** (Helios Beam) si forgiano dall’Orvium, 80 unità di minerale per piastra.
-- Il minerale viene solo dai collettori del tuo Skylab. Un Collettore Velkonite di livello 5 estrae circa 29 Velkonite all’ora, quindi le piastre di un Quantum Laser 3 richiedono circa 3 ore di estrazione e le dieci piastre di una Starfire-3 (due nel suo Quantum Laser 3, otto nel suo passaggio) circa 14. L’Helios Beam è il più lungo: le sue 18 piastre richiedono 1.440 Orvium, circa 4 giorni con un Collettore Orvium di livello 5.
-- Il Magazzino risorse contiene 900 unità per ogni minerale al livello 1, quindi forgia man mano (un lotto della Fucina è di 10 piastre al livello 1) oppure potenzia il magazzino.
+- Il minerale viene solo dai collettori del tuo Skylab. Un Collettore Velkonite di livello 5 estrae 18 Velkonite all’ora, quindi le piastre di un Quantum Laser 3 richiedono circa 4 ore di estrazione e le dieci piastre di una Starfire-3 (due nel suo Quantum Laser 3, otto nel suo passaggio) circa 22. L’Helios Beam è il più lungo: le sue 18 piastre richiedono 1.440 Orvium, circa 4 giorni con un Collettore Orvium di livello 5.
+- Il Magazzino risorse contiene 240 unità per ogni minerale al livello 1: 6 piastre di Velkonite o 3 di Orvium con la Fucina al livello 1. Quindi forgia man mano (un lotto della Fucina è fino a 10 piastre al livello 1) oppure potenzia il magazzino.
 - Le piastre forgiate restano nella Fucina finché non le ritiri a nave atterrata, e finiscono nel tuo inventario come oggetti normali.
 
 Ship Fragment, Cataclysite, Power Core e Reinforced Hull Plate li lasciano gli alieni; ogni fonte e ogni uso di ciascun materiale è nella pagina [Risorse](/wiki/06-Items/Resources.md); le liste del bottino nelle pagine del [Bulwark](/wiki/04-Aliens/Bulwark.md) e del [Goombah](/wiki/04-Aliens/Goombah.md) mostrano quanto.
@@ -120,7 +120,7 @@ Batterie consumabili che moltiplicano il danno delle tue raffiche laser:
 
 La **penetrazione dello scudo** viene tolta all’assorbimento del bersaglio per ogni colpo delle tue raffiche: gli scudi prendono l’assorbimento del bersaglio meno la penetrazione (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)). Contro una nave all’80% (il miglior scudo con le migliori celle) il 10% delle munizioni x4 lascia agli scudi il 70% del colpo e allo scafo il 30%. Conta di più contro le navi il cui scafo è piccolo rispetto allo scudo; una nave molto grande all’80% regge allo stesso modo in entrambi i casi. Gli alieni non hanno una vera statistica di assorbimento (i loro scudi prendono l’80% di un colpo), e la penetrazione si toglie anche da quello.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 La Siphon Battery è una munizione per rubare scudi invece di spaccare scafi. Infligge **danno x1 direttamente allo scudo del bersaglio** e aggiunge la stessa quantità al **tuo scudo**, fino al massimo. Scegliila dal selettore delle munizioni della barra rapida come qualsiasi altra munizione (è il riquadro con il vortice turchese). Non spara un raggio: una sonda turchese sottile e tenue parte verso il bersaglio, lo scudo del bersaglio si accende di turchese dove arriva, e lo scudo che hai drenato torna visibilmente verso la tua nave sotto forma di pacchetti turchesi luminosi (da tre a dieci, di più per un drenaggio più grande), uno dopo l’altro nell’arco di circa mezzo secondo. Ogni pacchetto che arriva fa pulsare il tuo scudo. Lo stesso lo vedi per la Siphon Battery di ogni pilota in vista, chiunque drenino: alieni, altri piloti e navi dei piloti di corporazione.
 

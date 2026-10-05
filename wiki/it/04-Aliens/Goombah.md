@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 I Goombah sono formidabili navi aliene di classe incrociatore. Hanno una grande capacità di scudo e infliggono danni enormi, ma non iniziano mai uno scontro: un Goombah attacca solo il pilota che lo ha attaccato. Le navi degli [sciami](/wiki/05-Swarms/Swarms.md) sono specie di alieni distinte, con articoli propri nella categoria Sciami.
 

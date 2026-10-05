@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -73,8 +73,8 @@ Quantum Laser 1 和 2 自身没有暴击率（“–”）：装在它们槽位�
 强化板从哪里来：
 
 - **Velkonite Reinforced Plate**（Quantum Laser 3 和 Starfire-3 所需）由 Velkonite 锻造而成，锻造厂 1 级时每块板 40 个矿石。**Orvium Reinforced Plate**（Helios Beam 所需）由 Orvium 锻造而成，每块板 80 个矿石。
-- 矿石只来自你 Skylab 的采集器。5 级的 Velkonite 采集器每小时大约开采 29 个 Velkonite，所以制造一把 Quantum Laser 3 的强化板需要大约 3 小时的开采，Starfire-3 的十块板（两块在它的 Quantum Laser 3 中，八块在它自己的一步中）则需要大约 14 小时。Helios Beam 是耗时最长的：它的 18 块板需要 1,440 个 Orvium，5 级 Orvium 采集器大约要开采 4 天。
-- 资源仓库 1 级时每种矿石最多容纳 900 个，所以请边开采边锻造（锻造厂 1 级时一批是 10 块板），或者升级仓库。
+- 矿石只来自你 Skylab 的采集器。5 级的 Velkonite 采集器每小时开采 18 个 Velkonite，所以制造一把 Quantum Laser 3 的强化板需要大约 4 小时的开采，Starfire-3 的十块板（两块在它的 Quantum Laser 3 中，八块在它自己的一步中）则需要大约 22 小时。Helios Beam 是耗时最长的：它的 18 块板需要 1,440 个 Orvium，5 级 Orvium 采集器大约要开采 4 天。
+- 资源仓库 1 级时每种矿石最多容纳 240 个：锻造厂 1 级时可做 6 块 Velkonite 板或 3 块 Orvium 板。所以请边开采边锻造（锻造厂 1 级时一批最多是 10 块板），或者升级仓库。
 - 锻造出的强化板会留在锻造厂中，等你在舰船降落时收取，收取后作为普通物品进入你的物品栏。
 
 Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人掉落；每种材料的全部来源和用途见[资源](/wiki/06-Items/Resources.md)页面；[Bulwark](/wiki/04-Aliens/Bulwark.md) 和 [Goombah](/wiki/04-Aliens/Goombah.md) 页面上的战利品列表则显示了具体数量。
@@ -120,7 +120,7 @@ Nova Amp 和 Apex Amp 在[装配站](/wiki/06-Items/Overview.md#upgrading-module
 
 **护盾穿透**会在你齐射的每一次命中中，从目标的吸收率里扣除：护盾承受的是目标的吸收率减去穿透后的份额（见[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。对付吸收率为 80% 的舰船（最强的护盾配最强的电池），x4 弹药的 10% 会让护盾只承受 70% 的伤害，船体承受 30%。它对付船体相对护盾较小的舰船时最有价值；而一艘吸收率 80% 的超大型舰船，无论有没有穿透，撑住的程度都没有区别。外星人没有值得一提的吸收率属性（它们的护盾承受一次命中的 80%），穿透同样会从中扣除。
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目标的护盾直接造成 x1 伤害**，并把同样的数值加到**你自己的护盾**上，最高不超过你的护盾上限。像其他弹药一样，在快捷栏的弹药选择器中选择它（它是带有青绿色漩涡的那个图块）。它不会发射光束：一道纤细、微弱的青绿色探针射向目标，目标的护盾在探针命中处泛起青绿色闪光，而你吸走的护盾会化作发光的青绿色能量包，肉眼可见地流回你的舰船（三到十个，吸取量越大越多），在大约半秒内一个接一个地到达。每个到达的能量包都会让你的护盾脉动一下。视野内任何飞行员使用的 Siphon Battery 你都能看到同样的效果，无论它吸取的是谁：外星人、其他飞行员，还是企业飞行员的舰船。
 

@@ -1,8 +1,27 @@
-<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
+<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
 Az űrtérkép a navigációs felületed, amellyel bejárhatod a SpaceCorps univerzumát. Minden vállalat az űr egy-egy szektorát irányítja, és ezeket olyan sajátos topológia szerint rendezték el, amely egyszerre teszi lehetővé a biztonságos felfedezést és a veszélyes PvP-összecsapásokat.
+
+![Galaxy Gates](../../img/wiki-img/shots/gates.jpg)
+![Sector DS-1 as the game draws it](../../img/wiki-img/shots/sector-DS-1.jpg)
+![Sector DS-2 as the game draws it](../../img/wiki-img/shots/sector-DS-2.jpg)
+![Sector DS-3 as the game draws it](../../img/wiki-img/shots/sector-DS-3.jpg)
+![Sector DS-4 as the game draws it](../../img/wiki-img/shots/sector-DS-4.jpg)
+![Sector G-1 as the game draws it](../../img/wiki-img/shots/sector-G-1.jpg)
+![Sector G-2 as the game draws it](../../img/wiki-img/shots/sector-G-2.jpg)
+![Sector G-3 as the game draws it](../../img/wiki-img/shots/sector-G-3.jpg)
+![Sector G-4 as the game draws it](../../img/wiki-img/shots/sector-G-4.jpg)
+![Sector M-1 as the game draws it](../../img/wiki-img/shots/sector-M-1.jpg)
+![Sector M-2 as the game draws it](../../img/wiki-img/shots/sector-M-2.jpg)
+![Sector M-3 as the game draws it](../../img/wiki-img/shots/sector-M-3.jpg)
+![Sector M-4 as the game draws it](../../img/wiki-img/shots/sector-M-4.jpg)
+![Sector T-1 as the game draws it](../../img/wiki-img/shots/sector-T-1.jpg)
+![Sector T-2 as the game draws it](../../img/wiki-img/shots/sector-T-2.jpg)
+![Sector T-3 as the game draws it](../../img/wiki-img/shots/sector-T-3.jpg)
+![Sector T-4 as the game draws it](../../img/wiki-img/shots/sector-T-4.jpg)
+![The Star System map: the sectors, the PvP sectors, the gates and the company routes, with the portal ring that joins each company's x-4 sector to the next company's x-3 sector](../../img/wiki-img/shots/star-system.jpg)
 
 ## Az univerzum szerkezete {#the-universe-structure}
 
@@ -10,7 +29,7 @@ Az univerzum három fő vállalati szektorból (Mars, Terra, Galactic) és egy k
 
 - **x-1 (Otthoni bázis)**: Minden vállalat kezdőtérképe (M-1, T-1, G-1). A legbiztonságosabb zóna.
 - **x-2 -> x-3**: Terjeszkedési zónák egyre erősebb idegenekkel.
-- **x-4 (Határ)**: A PvP-szektor kapuja.
+- **x-4 (Határ)**: A PvP-szektor kapuja, és egy másik vállalat `x-3` szektoráé is (a Gyűrű, lásd lent).
 - **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4.
 
 Csak az otthoni bázisokon van állomás. Itt nyílik meg a **Mission Control**, az állomás biztonságos zónája pedig 1 600 egységnyire terjed ki körülötte. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza a bázisodra.
@@ -52,10 +71,16 @@ Az űrtérképen az utazás **ugrókapukon** (portálokon) át zajlik. A [Jump C
   - az `M-4` a `DS-1` szektorhoz kapcsolódik
   - a `T-4` a `DS-2` szektorhoz kapcsolódik
   - a `G-4` a `DS-3` szektorhoz kapcsolódik
-- **Inváziós útvonalak (vállalatok közötti utazás)**: Ellenséges vállalat területére a kapukon át csak a PvP-zónán át vezet az út. Például a Mars vállalat pilótájának, aki a Terra területére akar betörni, az `M-4` szektorból a `DS-1` veszélyes szektorba kell repülnie, át kell ugrania az ugrókapun a `DS-2` szektorba, majd a `T-4` szektoron át léphet be a Terra területére; a Galactic területére a `DS-3` szektorba vezető ugrókapun át, majd a `G-4` szektoron keresztül jut be.
+- **A Gyűrű**: Minden vállalat határtérképének (`x-4`) van még egy kapuja a **következő vállalat** `x-3` szektorába, és minden `x-3` szektornak van kapuja vissza. A három kapcsolat gyűrűt alkot a veszélyes szektorok körül, így minden vállalatnak van egy útja kifelé és egy befelé:
+  - az `M-4` a Terra `T-3` szektorához kapcsolódik
+  - a `T-4` a Galactic `G-3` szektorához kapcsolódik
+  - a `G-4` a Mars `M-3` szektorához kapcsolódik
+
+  A Gyűrű minden pilóta előtt nyitva áll, bármelyik vállalatnál repüljön is: ez egy második út a vállalatok térképei között, amely nem halad át a PvP-zónán. A gyűrűkapu a térképének egy külön sarkában áll, távol a térkép többi kapujától, körülötte a szokásos 660 egység sugarú biztonságos zónával, az ugrás pedig úgy működik, mint bármelyik kapunál. Hogy a túloldalon hol támadhatnak meg, az – mint mindenhol – a világodtól függ: az Alphában a `T-3` nem PvP-szektor, a `T-4` viszont az, a Betában mindkettő az, a Gammában minden szektor az.
+- **Inváziós útvonalak (vállalatok közötti utazás)**: Egy másik vállalat területére a kapukon át két út vezet. A rövid a Gyűrű: a Mars vállalat pilótája az `M-4` szektorból a gyűrűkapun át a Terra `T-3` szektorába repül (három ugrás a Mars bázisától, `M-1` → `M-2` → `M-4` → `T-3`), onnan tovább a `T-4` vagy a `T-2` felé; a Galactic `G-4` szektora ugyanígy a Mars `M-3` szektorába vezet, a Terra `T-4` szektora pedig a Galactic `G-3` szektorába. A hosszú a PvP-zónán át vezet: az `M-4` szektorból a `DS-1` veszélyes szektorba, az ugrókapun át a `DS-2` szektorba, majd a `T-4` szektoron át a Terra területére; a Galactic területére a `DS-3` szektorba vezető ugrókapun át, majd a `G-4` szektoron keresztül jut be.
 - **A veszélyes szektorok háromszöge**: A `DS-1`, a `DS-2` és a `DS-3` szektor mind összeköttetésben áll egymással. Mindegyikben van egy vállalat kapuja (a Mars vállalaté a `DS-1` szektorban, a Terra vállalaté a `DS-2` szektorban, a Galactic vállalaté a `DS-3` szektorban); a `DS-4` szektornak egy sincs.
 - **A központi mag**: Mindhárom külső veszélyes szektor (`DS-1`, `DS-2` és `DS-3`) közvetlenül a központi **`DS-4`** térképhez kapcsolódik, amely az univerzum legveszélyesebb és legjobban jutalmazó PvP-zónája. Pontosan a közepén egy **feketelyuk** lebeg: a portálok és a köztük futó útvonalak jó messze maradnak tőle, de az a hajó, amely beröpül, először a sugárzását, majd a vonzását érzi, az eseményhorizontján pedig megsemmisül. Lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md).
 
 ### A Jump CPU {#the-jump-cpu}
 
-A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) kapu nélkül viszi a hajódat a világod bármelyik vállalati szektorába, ugrásonként 500 Thuliumért, az ellenséges otthoni szektorokat is beleértve. Veszélyes szektorba sosem megy, harcban nem indul el, és előbb a Skylab Kutatóközpontjában kell kikutatnod ([Kutatás](/wiki/03-Mechanics/Research.md)). A [Base CPU-k](/wiki/06-Items/Extras.md#base-cpus) ugyanígy visznek haza.
+A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) kapu nélkül viszi a hajódat a világod bármelyik vállalati szektorába, ugrásonként 500 Thuliumért, az ellenséges otthoni szektorokat is beleértve. Veszélyes szektorba sosem megy, harcban nem indul el, és előbb a Skylab Kutatóközpontjában kell kikutatnod ([Kutatás](/wiki/03-Mechanics/Research.md)). A [Base CPU-k](/wiki/06-Items/Extras.md#base-cpus) ugyanígy visznek haza. A warp CPU-t, vagyis a Jump CPU-t és a Base CPU-kat, megtagadja a játék, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): repülj haza a kapukon át ([Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items)).

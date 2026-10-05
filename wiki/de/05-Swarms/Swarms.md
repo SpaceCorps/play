@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -9,6 +9,8 @@ Ein **Schwarm** ist eine Gruppe von Aliens, die unter einem **Anführer** durch 
 - [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md): die Dormant Force und ihre Dormant Pulses, der stärkste Schwarm, mit der reichsten Beute.
 
 Ihre Schiffe sind **Aliens eigener Arten**: Sie haben eigene Namen und eigene Abschusszähler, und keines von ihnen zählt als Seeker, Phantasm oder irgendein anderes Alien. Ein Schwarmschiff hat die Gestalt des Schiffs, auf dem es aufbaut, in einer eigenen Färbung und mit seinem Namen darüber; der Boss Seeker ist ein viel größerer Seeker.
+
+Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen eigenen Wächter für den letzten Schritt seiner Tageslinie, und nur dieser Clan kann ihn verletzen: Kein Pilot trifft einen auf Streifzug durch einen Sektor, und die Tabellen unten führen sie nicht auf. Siehe [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Die drei Schwärme {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatis
 
 <!-- swarms-points:end -->
 
-Ein Schwarmabschuss zählt nicht als Abschuss eines anderen Aliens: Ein Boss Seeker oder ein Seeker Slave ist für einen Auftrag, der Seeker verlangt, kein Seeker, und die Meilensteine der Wipe-Punkte ([Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) gelten nur für die fünf Aliens.
+Ein Schwarmabschuss zählt nicht als Abschuss eines anderen Aliens: Ein Boss Seeker oder ein Seeker Slave ist für einen Auftrag, der Seeker verlangt, kein Seeker, und die Meilensteine der Wipe-Punkte ([Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) gelten nur für die fünf Aliens. Die Missionen, die Schwarmschiffe verlangen, stehen unter [Schwarmmissionen](/wiki/03-Mechanics/Quests.md#swarm-missions).

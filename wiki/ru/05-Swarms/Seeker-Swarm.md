@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Рой Seeker -->
 # Рой Seeker {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Boss Seeker приносит **ровно десять Seeker**: в десять
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Основа: Seeker, 400% корпуса, щита и урона; скорость и дальность взяты от исходного корабля.
 
@@ -74,7 +74,7 @@ Boss Seeker приносит **ровно десять Seeker**: в десять
 | Ultra Core | 100% | 2–4 |
 | Одна из 8 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Основа: Seeker, 100% корпуса, щита и урона; скорость и дальность взяты от исходного корабля.
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 539575474f5854de -->
+<!-- wiki-i18n source: 380267094f925178 -->
 <!-- wiki-i18n title: Boosters -->
-# Boosters {#boosters}
+# Boosters
 
 Os boosters dão modificações temporárias de atributos para reforçar o combate, a defesa, a evolução de nível e a coleta de recursos da sua nave.
 

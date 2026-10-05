@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi e il maggior spazio per gli scudi, pagati con meno cannoni e una propulsione più lenta. Si crea nell’Assemblaggio, tra la Paragon e la Wraith.
 

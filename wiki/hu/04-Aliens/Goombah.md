@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzskapacitásuk, és óriási sebzést okoznak, de sosem ők kezdik a harcot: a Goombah csak azt a pilótát támadja, aki megtámadta. A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 

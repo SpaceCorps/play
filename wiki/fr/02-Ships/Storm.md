@@ -1,21 +1,21 @@
-<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
 <!-- wiki-i18n title: Storm -->
-# Storm {#storm}
+# Storm
 
-Le Storm est un chasseur stellaire à canon de verre : la vitesse de base la plus élevée de tous les vaisseaux et dix lasers sur une coque légère pour sa classe. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
+Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevée et le plus grand nombre de lasers de tous les vaisseaux (13) sur une coque légère pour sa classe. D’après le classement du jeu (plus de 10 emplacements laser), c’est un cuirassé de classe IV. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 160 000
-- **Vitesse de base** : 240
-- **Emplacements laser** : 10
+- **Points de vie (PV)** : 150 000
+- **Vitesse de base** : 250
+- **Emplacements laser** : 13
 - **Emplacements extras** : 3
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
-- **Emplacements principaux (efficacité de 100 %)** : 3
+- **Emplacements principaux (efficacité de 100 %)** : 4
 - **Emplacements de soutien (efficacité de 75 %)** : 4
-- **Emplacements auxiliaires (efficacité de 50 %)** : 3
+- **Emplacements auxiliaires (efficacité de 50 %)** : 2
 
 ---
 
@@ -38,4 +38,4 @@ Une fois sa technologie recherchée, fabriquer un Storm à l’Assemblage coûte
 
 ## Histoire {#lore}
 
-Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage blanc os sur une ossature bleu canard, avec des panneaux et des bandes lumineuses orange, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix canons en tout, chaque bouche bien visible. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ la moitié de celle d’un Wraith et environ le quart de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.
+Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage blanc os sur une ossature bleu canard, avec des panneaux et des bandes lumineuses orange, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix bouches bien visibles, par lesquelles tirent treize lasers. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ la moitié de celle d’un Wraith et environ le quart de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.

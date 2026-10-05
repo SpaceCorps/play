@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 56d4ff7e377afa21 -->
+<!-- wiki-i18n source: a811f0df5512e3b7 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
 Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `M-4`, `T-1` till `T-4`, `G-1` till `G-4`). De flyger för koncernen dygnet runt och ger koncernens piloter en hjälpande hand.
+
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Vilka de är {#who-they-are}
 
@@ -12,6 +15,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
   - absorption 45 %: deras sköldar tar 45 % av varje träff, skrovet 55 %
   - 195 grundskada per salva (x1-ammunition), ingen kritisk chans, räckvidd 700
 - **På minikartan**: en grön romb för din koncerns piloter, en bärnstensfärgad för en annan koncerns.
+- **Ingen grad**: den lilla symbolen framför en pilots namn under flygning är pilotens [grad](/wiki/03-Mechanics/Ranks.md) och tillhör riktiga piloter. Koncernpiloter har ingen. Koncernsidan rankar de riktiga piloterna i din koncern efter PvE-poäng.
 
 ## Vad de gör {#what-they-do}
 

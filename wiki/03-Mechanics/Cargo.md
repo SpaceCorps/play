@@ -2,13 +2,15 @@
 
 Destroyed aliens leave their loot in space as glowing cargo crates. Fly over and pick them up before someone else does.
 
+![Picking up a cargo box: the channel bar fills while the ship stays near](../img/wiki-img/shots/cargo-pickup.jpg)
+
 ## What Drops
 
 - **Aliens** drop their loot as one crate where they blew up: the resources and parts listed under each alien's *Loot Drops* (see the [Aliens](/wiki/04-Aliens/Phantasm.md) articles). Credits, Thulium, XP and Honor are still paid the moment you make the kill. An alien whose loot rolls nothing (a Seeker four times in five) leaves no crate.
 - **Company pilots** leave no crate when they are destroyed, whoever or whatever destroys them. See [Company pilots](/wiki/03-Mechanics/Company-Pilots.md).
 - **Player ships** leave no wreck and no crate when they are destroyed, whoever or whatever destroys them, and nothing is taken from the pilot's inventory.
 - **The black hole** lays crates of **Dark Matter** on the rim of its zone for a N.I.K.E. rocket fired into it (see [The Black Hole](/wiki/03-Mechanics/Black-Hole.md)). They are the one kind of crate that lies inside the hole's ring.
-- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) and the Dormant Pulses** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
+- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md), the Dormant Pulses and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
 
 An alien a company pilot finishes drops its loot for the pilot the kill counts for (the one holding its claim, else the pilot of its company fighting it); one a company pilot fought alone drops nothing, since company pilots never collect.
 

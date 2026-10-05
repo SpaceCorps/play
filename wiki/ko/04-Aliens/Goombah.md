@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Goombah는 만만치 않은 순양함급 외계 함선입니다. 실드 용량이 크고 막대한 피해를 입히지만, 먼저 싸움을 걸지는 않습니다. Goombah는 자신을 공격한 파일럿만 공격합니다. [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 

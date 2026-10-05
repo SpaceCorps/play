@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -9,6 +9,8 @@ Uno **sciame** è un gruppo di alieni che percorre una parte della galassia sott
 - [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md): la Dormant Force e le sue Dormant Pulse, lo sciame più forte, con il bottino più ricco.
 
 Le loro navi sono **alieni di specie a sé**: hanno nomi propri e contatori di abbattimenti propri, e nessuna conta come un Seeker, un Phantasm o un altro alieno. Una nave di sciame ha la forma della nave su cui è costruita, con una tinta tutta sua e il suo nome sopra; il Boss Seeker è un Seeker molto più grande.
+
+I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Custode per l’ultima fase della sua linea giornaliera, e solo quel clan può danneggiarlo: nessun pilota ne incontra uno che si aggira in un settore, e le tabelle qui sotto non li elencano. Vedi [Clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## I tre sciami {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Ogni abbattimento viene contato con il nome proprio della nave nelle tue statist
 
 <!-- swarms-points:end -->
 
-L’abbattimento di una nave di sciame non conta come abbattimento di un altro alieno: un Boss Seeker o un Seeker Slave non è un Seeker per una missione che chiede Seeker, e le soglie dei punti reset ([Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) sono solo quelle dei cinque alieni.
+L’abbattimento di una nave di sciame non conta come abbattimento di un altro alieno: un Boss Seeker o un Seeker Slave non è un Seeker per una missione che chiede Seeker, e le soglie dei punti reset ([Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) sono solo quelle dei cinque alieni. Le missioni che chiedono navi di sciame sono elencate in [Missioni dello sciame](/wiki/03-Mechanics/Quests.md#swarm-missions).

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 I Phantasm sono droni aggressivi di classe spettrale. Attaccano qualsiasi giocatore entri nel loro raggio di aggressione (700 unità) e perdono interesse quando il pilota si trova a più di 1.200 unità o dopo aver volato 2.000 unità dal punto in cui è iniziato l’inseguimento (2.500 e 3.000 per un pilota che ha sparato loro, vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); un pilota che ne ha colpito uno negli ultimi 10 secondi non viene lasciato andare affatto, e il Phantasm gli vola contro ogni volta che si trova oltre la portata delle sue armi (700 unità). Se più piloti gli sparano, resta sul primo pilota che gli ha sparato, finché quel pilota continua a colpirlo (vedi [Contro chi combatte un alieno](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Le navi degli [sciami](/wiki/05-Swarms/Swarms.md) sono specie di alieni distinte, con articoli propri nella categoria Sciami.
 

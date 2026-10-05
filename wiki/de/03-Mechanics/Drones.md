@@ -1,24 +1,28 @@
-<!-- wiki-i18n source: 5a4769d6626caeff -->
+<!-- wiki-i18n source: e65164e763773d17 -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
-Drohnen sind autonome Unterstützungseinheiten, die neben deinem Schiff fliegen. Sie liefern zusätzliche Ausrüstungs-Slots und tragen direkt zur Kampfleistung deines Schiffs bei. Eine Slave Drone wächst außerdem: Sie sammelt jedes Mal Erfahrung, wenn du ein Alien zerstörst, und steigt durch **acht Level** auf, von einer kleinen gepanzerten Kugel zu einem Kanonenboot mit Sichelflügeln. In der Montage lässt sich eine Slave Drone zu einer **Master Drone** aufrüsten, deren Level wieder von vorn beginnen (siehe Master Drone weiter unten).
+Drohnen sind autonome Unterstützungseinheiten, die neben deinem Schiff fliegen. Sie liefern zusätzliche Ausrüstungs-Slots und tragen direkt zur Kampfleistung deines Schiffs bei. Eine Slave Drone wächst außerdem: Sie sammelt jedes Mal Erfahrung, wenn du ein Alien zerstörst, und steigt durch **acht Level** auf, von einer kleinen gepanzerten Kugel zu einem Kanonenboot mit Sichelflügeln. In der Montage lässt sich eine Slave Drone zu einer **Master Drone** aufrüsten, deren Level wieder von vorn beginnen (siehe Master Drone weiter unten). Drohnen erlauben dir außerdem, eine **Drohnenformation** zu tragen: Sie wirkt nur, wenn du mindestens eine Drohne in deiner Flotte hast (siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Drohnen bekommen {#getting-drones}
 
 Jede Drohne, die du besitzt, eine **Slave Drone** oder eine Master Drone, schaltet ihre Drohnen-Slots frei (einen für eine Slave Drone, zwei für eine Master Drone), bis zu **8** Drohnen. Der Shop verkauft Slave Drones für Credits, ab der vierten auch für Thulium. Jede kostet mehr als die letzte: Die Preise stehen unter [Drohnen](/wiki/06-Items/Drones.md).
 
-## Formation & Bewegung {#formation-movement}
+## Fluganordnung & Bewegung {#formation-movement}
 
-Drohnen fliegen in einer Standard-**„Wingman“-Formation (2-2-4)**:
+Drohnen fliegen in einer Standard-**„Wingman“-Anordnung (2-2-4)**:
 
 - **2 Drohnen** neben dem Schiff, eine auf jeder Flanke.
 - **2 Drohnen** neben und knapp hinter ihm.
 - **4 Drohnen** dahinter.
 
-Sie nutzen einen flüssigen Folgealgorithmus, der ihre Position an Tempo und Drehung deines Schiffs anpasst und die Formation bei scharfen Manövern enger zieht. Niemand fliegt vor dir.
+Sie nutzen einen flüssigen Folgealgorithmus, der ihre Position an Tempo und Drehung deines Schiffs anpasst und die Anordnung bei scharfen Manövern enger zieht. Niemand fliegt vor dir.
 
-Drohnen sind klein und bleiben nah: Eine Drohne auf Level 8 ist etwa 19,5 Einheiten breit (eine Protos 50), und eine Drohne auf Level 1 ist eine Kugel von etwa 8, sodass die ganze Formation in etwa 135 Einheiten um dein Schiff Platz findet. Die Drohne, die du zuerst gekauft hast, hat die meiste Erfahrung und fliegt auf deiner linken Flanke, die zweite auf deiner rechten, und die neuesten fliegen hinterher.
+Drohnen sind klein und bleiben nah: Eine Drohne auf Level 8 ist etwa 19,5 Einheiten breit (eine Protos 50), und eine Drohne auf Level 1 ist eine Kugel von etwa 8, sodass die ganze Anordnung in etwa 135 Einheiten um dein Schiff Platz findet. Die Drohne, die du zuerst gekauft hast, hat die meiste Erfahrung und fliegt auf deiner linken Flanke, die zweite auf deiner rechten, und die neuesten fliegen hinterher.
+
+Diese Anordnung bestimmt nur, wie die Drohnen aussehen, und sie ist dieselbe, welche [Drohnenformation](/wiki/03-Mechanics/Formations.md) du auch trägst. Eine Drohnenformation ist ein Satz aus Boni und Preisen, keine andere Art zu fliegen.
 
 ## Ausrüstung & Werte {#equipment-stats}
 
@@ -27,8 +31,9 @@ Drohnen dienen als zusätzliche Ausrüstungsgestelle für dein Schiff.
 - Eine Slave Drone hat **1 Slot** und eine Master Drone **2**, bis zu **8 Drohnen**.
 - In diese Slots kannst du **Laser** und **Schilde** einsetzen, bei einer Master Drone in jeden der beiden Slots. Sonst passt nichts hinein: keine Triebwerke, keine adaptiven Kerne.
 - **Laser zählen voll.** Ein Laser auf einer Drohne feuert, wenn du feuerst, addiert seinen Schaden zu deiner Salve und verbraucht Munition wie jeder andere Laser (jeder Laser verbraucht pro Salve eine Einheit Munition). Die zwei Laser einer Master Drone sind zwei Laser.
-- **Schilde zählen ebenfalls voll.** Ein Schild auf einer Drohne zählt wie einer in einem Kern-Slot, in jedem der beiden Slots: seine Kapazität und Aufladung mit seinen Zellen, seine Absorption im Durchschnitt deines Schiffs, sein Schildbonus und sein Tempoabzug. Er wird mit den eigenen Schilden deines Schiffs nach Kapazität eingereiht (die vier größten zählen voll, der fünfte und alle weiteren weniger, siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)), und Schmiede-Buffs, die Buffs des Saison-Shops und die Schilddurchdringung eines Angreifers wirken auf ihn wie auf jeden Schild. Das Level der Drohne verstärkt nur ihren Laser, nie ihren Schild. Während eine Drohne aufgerüstet wird, sind ihre Slots offline, der Schild ebenso wie der Laser. Vor 0.4.7 brachte ein Schild auf einer Drohne nichts.
+- **Schilde zählen ebenfalls voll.** Ein Schild auf einer Drohne zählt wie einer in einem Kern-Slot, in jedem der beiden Slots: seine Kapazität und Aufladung mit seinen Zellen, seine Absorption im Durchschnitt deines Schiffs, sein Schildbonus und sein Tempoabzug. Er wird mit den eigenen Schilden deines Schiffs nach dem eingereiht, was nach dem Anteil des Slots zählt (der Slot einer Drohne zählt 100 %; die vier besten zählen voll, der fünfte und alle weiteren weniger, siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)), und Schmiede-Buffs, die Buffs des Saison-Shops und die Schilddurchdringung eines Angreifers wirken auf ihn wie auf jeden Schild. Das Level der Drohne verstärkt nur ihren Laser, nie ihren Schild. Während eine Drohne aufgerüstet wird, sind ihre Slots offline, der Schild ebenso wie der Laser. Vor 0.4.7 brachte ein Schild auf einer Drohne nichts.
 - **Laser oder Schild?** Ein Slot nimmt das eine oder das andere: Ein Laser bringt einen Laser in deine Salve, ein Schild bringt seine Schildpunkte. Auf einem kleinen Schiff mit guten Schilden bringen die zusätzlichen Punkte wenig, weil zuerst die Hülle aufgebraucht ist; auf einer großen Hülle lassen sie dich viel mehr einstecken.
+- **Formationen brauchen eine Drohne, keinen Slot.** Eine [Drohnenformation](/wiki/03-Mechanics/Formations.md) wirkt, solange du mindestens eine Drohne besitzt. Sie belegt keinen Drohnen-Slot, und die Zahl der Drohnen, ihre Level und was sie tragen ändern nichts daran.
 
 ## Level {#levels}
 
@@ -83,7 +88,7 @@ Der **Laser im Slot einer Drohne** richtet mehr Grundschaden an, wenn seine Droh
 
 Die Kurve ist so gesetzt, dass eine neue Drohne in etwa einer Stunde normalen Spiels (Jagd auf Bulwarks und Goombahs) Level 2 erreicht und Level 8 nach grob 27 Spielstunden. Diese Stunden gelten für einen Piloten, der die erste Drohne etwa bei den Missionen von Level 7 kauft; mit schwächerer Ausrüstung dauert es länger (bis zu etwa 4 Stunden für Level 2 und 150 Stunden für Level 8). Nur eine einzige Alien-Art zu jagen ist bestenfalls etwa um die Hälfte schneller als eine normale Mischung. Drohnen bleiben beim Saison-Wipe mit ihren Leveln und ihrer Erfahrung erhalten, deshalb werden diese Stunden nur einmal aufgewendet, über so viele Saisons, wie es dauert: Ein Pilot, der eine halbe Stunde am Tag spielt, schafft es in ein paar Saisons.
 
-### Master Drone {#master-drone}
+### Master Drone
 
 Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 40.000 Thulium und 100 Ship Fragments und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
 
@@ -97,3 +102,4 @@ Eine Master Drone ist eine deiner 8 Drohnen: Sie zählt für das Drohnenlimit un
 
 - **Laser**: Drohnen feuern ihre ausgerüsteten Laser auf dein anvisiertes Ziel.
 - **Schaden**: Drohnen können Schaden nehmen (sofern eine eigene Entitätslogik existiert; derzeit teilen sie sich meist den Pool des Schiffs, sind aber optisch eigenständig). _Hinweis: Derzeit sind Drohnen unzerstörbare Erweiterungen des Schiffs._
+- **Repair Drones**: Die Repair-Drone-Gegenstände (I bis IV) sind [Extras](/wiki/06-Items/Extras.md#repair-drones) und keine Drohnen deiner Flotte. Während eine deine Hülle repariert, fliegen kleine Reparaturdrohnen aus dem Schiff, kreisen um es und bestrahlen es, und die Piloten in deiner Nähe sehen sie.

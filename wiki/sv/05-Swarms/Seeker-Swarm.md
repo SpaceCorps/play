@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Seeker-svärm -->
 # Seeker-svärm {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Sw
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Bygger på Seeker med 400 % av skrov, sköld och skada; hastighet och räckvidd är förlagans.
 
@@ -74,7 +74,7 @@ Bygger på Seeker med 400 % av skrov, sköld och skada; hastighet och räckvidd
 | Ultra Core | 100 % | 2–4 |
 | En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Bygger på Seeker med 100 % av skrov, sköld och skada; hastighet och räckvidd är förlagans.
 

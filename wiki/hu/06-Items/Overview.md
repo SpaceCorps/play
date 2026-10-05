@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: Áttekintés -->
 # Tárgyak áttekintése {#items-overview}
 
@@ -45,7 +45,7 @@ A legfelső lézererősítőket, a pajzscellák és fúvókák II–IV. szintjé
 
 Egy Goombah átlagosan 4 Cataclysite-ot, 3,25 Ship Fragmentet, 0,6 Reinforced Hull Plate-et és 0,25 Power Core-t dob, így egy Nova Amp vagy egy Apex Amp zsákmányigénye körülbelül 8 Goombah, egy celláé körülbelül 7 (II. szint), 10 (III.) vagy 14 (IV.), egy Heavy Shield Core-é körülbelül 14; egy fúvókáé körülbelül 4 (II. szint), 10 (III.) vagy 19 (IV.), egy Engine III-é körülbelül 19. Egy Bulwark 2 Cataclysite-ot, 2 Ship Fragmentet és 0,3 Reinforced Hull Plate-et dob, Power Core-t viszont nem.
 
-A Velkonite Reinforced Plate-eket nem dobják az idegenek: a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelye készíti őket Velkonite-ércből, a kovácsműhely 1. szintjén lemezenként 40 érc kell. Az 1. szintű Velkonite-gyűjtő óránként 12 ércet bányászik, így egy erősítő 3 lemeze 10 óra bányászat, egy IV. szintű cella vagy fúvóka 6 lemeze pedig 20 óra (egy 5. szintű gyűjtővel 4, illetve 8 óra); egy III. szintűé 4 lemez, 13 óra, egy II. szintűé 2 lemez, 7 óra, egy Heavy Shield Core vagy egy Engine III 6 lemeze 20. Hogy melyik nyersanyag honnan származik, az [Erőforrások](/wiki/06-Items/Resources.md) oldalon találod.
+A Velkonite Reinforced Plate-eket nem dobják az idegenek: a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelye készíti őket Velkonite-ércből, a kovácsműhely 1. szintjén lemezenként 40 érc kell. Az 1. szintű Velkonite-gyűjtő óránként 10 ércet bányászik, így egy erősítő 3 lemeze 12 óra bányászat, egy IV. szintű cella vagy fúvóka 6 lemeze pedig 24 óra (egy 5. szintű gyűjtővel 7, illetve 13 óra); egy III. szintűé 4 lemez, 16 óra, egy II. szintűé 2 lemez, 8 óra, egy Heavy Shield Core vagy egy Engine III 6 lemeze 24. Hogy melyik nyersanyag honnan származik, az [Erőforrások](/wiki/06-Items/Resources.md) oldalon találod.
 
 A **Helios Beam** ugyanilyen jellegű fejlesztés, lézerből lézer: elhasznál egy Starfire-3 lézert, és 2 000 Thuliumot, 50 Cataclysite-ot, 2 Power Core-t, 4 Reinforced Hull Plate-et és 18 Orvium Reinforced Plate-et kér, a Starfire-3 bűvölési fokozatát pedig ugyanúgy megtartja. A **Starfire-3** is ilyen: elhasznál egy Quantum Laser 3-at, és 1 500 Thuliumot, 100 000 kreditet, 15 Ship Fragmentet, 1 Reinforced Hull Plate-et és 8 Velkonite Reinforced Plate-et kér, a Quantum Laser 3 bűvölési fokozatát pedig megtartja. Mindkettő a [Lézerek](/wiki/06-Items/Lasers.md) oldalon szerepel; a fenti táblázat az erősítőket, a cellák és fúvókák II–IV. szintjét, a Heavy Shield Core-t és az Engine III-at sorolja fel.
 
@@ -82,7 +82,7 @@ Minden nyersanyag és mindkét fizetőeszköz, azzal együtt, hogy honnan szárm
 
 ## Kategóriák {#categories}
 
-A Bolt, a hangár leltára és a többi tárgylista egyetlen sorrendben mutatja a dolgokat: először a hajó, aztán egy lézer az erősítőivel és a lőszerével, egy pajzs a celláival, egy hajtómű a fúvókáival, az adaptív magok, az extrák, a drónok, a boosterek és a nyersanyagok. Egy fajtán belül a legolcsóbb áll elöl.
+A Bolt, a hangár leltára és a többi tárgylista egyetlen sorrendben mutatja a dolgokat: először a hajó, aztán egy lézer az erősítőivel és a lőszerével, egy pajzs a celláival, egy hajtómű a fúvókáival, az adaptív magok, az extrák, a drónok, a drónformációk, a boosterek és a nyersanyagok. Egy fajtán belül a legolcsóbb áll elöl.
 
 - **Lézerek**: az elsődleges fegyverrendszereid, és a beléjük való [erősítők](/wiki/06-Items/Lasers.md).
 - **Pajzsok**: védelmi generátorok és [cellák](/wiki/06-Items/Shields.md).
@@ -90,4 +90,5 @@ A Bolt, a hangár leltára és a többi tárgylista egyetlen sorrendben mutatja 
 - **Repair Drone-ok**: a hajótestedet javító extrák, mindegyik gyorsabb az előzőnél: a Repair Drone I, II és III 5 000, 15 000, illetve 35 000 kreditbe kerül, a Repair Drone IV 2 000 Thuliumba. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak.
 - **Cloaking CPU-k és az EMP Charge**: extrák harchoz vagy meneküléshez: a Cloaking CPU elrejti a hajódat, amíg te nem fejezed be (S, M és L: 10, 25 és 50 használat, 5 000, 11 250, illetve 20 000 Thulium), az EMP Charge 3 másodpercre célba vehetetlenné tesz, megszakít minden rád irányuló célzást, és megszünteti a közeli álcázásokat (500 Thulium). Lásd: [Extrák](/wiki/06-Items/Extras.md).
 - **Kutatási CPU-k**: az Extra Slots CPU-k minden hajóhoz extrafoglalatokat adnak, a Jump CPU Thuliumért elvisz egy vállalati szektorba, a Base CPU-k hazavisznek, az Auto-Repair CPU pedig magától kiküldi a Repair Drone-odat. Nem kaphatók: kikutatod őket, majd a Gyártásban elkészíted. Lásd: [Extrák](/wiki/06-Items/Extras.md#research-cpus).
+- **Drónformációk**: tizenhat tárgy a drónjaidhoz, amelyek bónuszokat adnak és árat kérnek, például nagyobb pajzsot gyengébb fegyverekért. Nem kaphatók: kutasd ki őket, aztán készítsd el a Gyártásban Thuliumból. Lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md).
 - **Nyersanyagok**: amit az idegenek dobnak és a Skylab előállít a gyártáshoz: Ship Fragmentek, a négy kristály, Power Core-ok, a Velkonite és az Orvium lemezek, valamint kettő, amely máshonnan jön: a **Dark Matter**, amelyet a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md) ad vissza egy N.I.K.E. rakétáért, és a **Dark Matter Plate**, amelyet a Gyártás ebből présel a [Kovácsműhely](/wiki/06-Items/Forge.md) két legmagasabb lépéséhez.

@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: 机库 -->
 # 飞行中的机库 {#the-hangar-in-flight}
 
 想更换舰船，你不必返回基地。在安全区内，你可以打开**机库**窗口（左上角工具栏中的仓库按钮），更换已安装的装备、切换到另一套配置，或改驾另一艘你拥有的舰船，全程无需离开游戏。这个窗口就是空间站的机库页面：槽位、属性和物品栏都和那里一样，只是以窗口的形式悬在游戏画面之上。物品如何安装，请参阅[物品栏与装备](/wiki/03-Mechanics/Inventory.md)。
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## 何时开放 {#when-it-is-open}
 
@@ -20,6 +22,8 @@
 - **两套配置都可以。**你可以在驾驶配置 1 的同时准备配置 2，然后用“切换配置”键切换。机库中的**改用配置 N 飞行**按钮也能完成同样的切换。
 - **任意舰船。**把另一艘舰船设为当前舰船，你就会在原地驾驶它。你的舰船模型会在附近所有人面前发生变化。
 - **新装上的护盾、引擎或自适应核心初始为空**，和在空间站时一样：它所属配置的护盾电量为零，直到重新充能。
+- **无人机编队。** “无人机”页面会在你的无人机下方列出你拥有的编队。它们不需要装备：飞行中你把一个从快捷栏的编队列表拖到槽位上，点击该槽位或按它的键即可启用，在安全区内无需等待（见[无人机编队](/wiki/03-Mechanics/Formations.md)）。
+- **附加装置。** 四艘普通舰船 Protos、Kitefin、Ostirion 和 Nomad（你一开始拥有或购买的）每套配置有 2 个附加槽位；你在装配站制造的四艘舰船 Paragon、Ironclad、Wraith 和 Storm 有 3 个。你的 Skylab 里的 Extra Slots CPU 会再增加 3、5 或 7 个，所以普通舰船是 5、7 或 9 个，制造的舰船是 6、8 或 10 个（见[附加装置](/wiki/06-Items/Extras.md#extra-slots-cpus)）。0.4.10 更新时，普通舰船上的第三个附加装置被卸下并放进了你的物品栏：没有任何东西被删除，你收到了一条聊天消息。
 
 ## 更换舰船 {#changing-ship}
 

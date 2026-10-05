@@ -2,7 +2,7 @@
 
 The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow ship that attacks nobody and answers with rockets, and a pack of faster ships that guard it and heal it. It lives in the sectors between a company's base and its border, where the middle levels of the game are played, and it is a long fight for a group of pilots, not a quick kill.
 
-## At a glance {#at-a-glance}
+## At a glance
 
 <!-- pirate-glance:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -20,12 +20,12 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 
 <!-- pirate-glance:end -->
 
-## The members {#the-members}
+## The members
 
 - **Pirate Boss**: a ship built on the Ironclad, at a share of its strength (the numbers are below). It is passive and fires **no lasers**: its one weapon is a **straight rocket** ([Rockets](/wiki/06-Items/Rockets.md); which one depends on the sector, see the table), at the pilot who attacked it, and it keeps roaming while it fires. It never mends its hull by itself.
 - **Pirate Scout**: a ship built on the Kitefin, at a share of its strength. Scouts attack any pilot who comes near them, stay close to the boss, and each one near the boss heals its hull.
 
-## How the fight goes {#how-the-fight-goes}
+## How the fight goes
 
 - **Shoot the boss, not the scouts.** The scouts heal the boss, but the heal is small next to the boss's hull, and a new scout comes as often as the *At a glance* list says: a group that kills the scouts first never gets ahead of them, and only a very large group can clear them and still takes longer to finish the boss than one that left them alone. The scouts cost you time, they do not decide the fight.
 - **Lead the scouts away.** A scout heals only while it is within reach of the boss, so a scout that follows you out of reach heals nothing, and an Ostirion is faster than a scout.
@@ -33,11 +33,11 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Bring a group.** Three pilots in Ostirions with x2 ammo can take it in about five minutes in Alpha; one Ostirion alone cannot, and one Paragon alone can. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
 - **The boss comes back** after the time in the *At a glance* list, in the same sector.
 
-## Rewards and drops {#rewards-and-drops}
+## Rewards and drops
 
 The Pirate Boss pays for the fight it is: a minute of fighting it pays more than a minute of fighting a Goombah. The credit is split by damage among the pilots who fought it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Its box is for the pilot who dealt the most damage and can hold a **Reinforced Hull Plate**, rockets and ammo. The scouts pay a small amount and drop nothing.
 
-## The numbers {#the-numbers}
+## The numbers
 
 The numbers of the swarm's ships in the three worlds ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)).
 

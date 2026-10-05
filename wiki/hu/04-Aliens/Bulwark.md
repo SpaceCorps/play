@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 0d2453772c374a74 -->
+<!-- wiki-i18n source: 440dd341e5b80c44 -->
 <!-- wiki-i18n title: Bulwark -->
-# Bulwark {#bulwark}
+# Bulwark
 
 A Bulwark idegenek erősen páncélozott védelmi platformok. Rendkívül agresszívak, és keményen ütnek: a Bulwark üldözőbe veszi minden védtelen pilótát, aki az aggrósugarán (700 egység) belül van. Elengedi a pilótát, ha az több mint 1 200 egységre van tőle, vagy ha 2 000 egységet repült az üldözés kezdőpontjától (2 500, illetve 3 000 egység, ha a pilóta rálőtt, lásd [Harc](/wiki/03-Mechanics/Combat.md)); azt a pilótát, aki az elmúlt 10 másodpercben eltalálta, egyáltalán nem engedi el, és a Bulwark arra a pilótára repül, valahányszor az a fegyvere hatótávján (700 egység) kívül van. Ha több pilóta lő rá, a Bulwark az első pilótánál marad, aki rálőtt, amíg az a pilóta folyamatosan találja (lásd [Kivel harcol egy idegen](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 

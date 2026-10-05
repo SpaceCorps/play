@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 5b212b6031f9baed -->
+<!-- wiki-i18n source: e23339b2091d0bba -->
 <!-- wiki-i18n title: Ostirion -->
-# Ostirion {#ostirion}
+# Ostirion
 
 Ostirion — надёжный перехватчик среднего класса, заметно превосходящий базовое шасси Protos по скорости, защите и огневой мощи.
 
@@ -9,7 +9,7 @@ Ostirion — надёжный перехватчик среднего класс
 - **Прочность (HP)**: 48 000
 - **Базовая скорость**: 200
 - **Слоты лазеров**: 3
-- **Слоты устройств**: 3
+- **Слоты устройств**: 2
 
 ### Слоты генераторов и поддержки {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Ostirion — надёжный перехватчик среднего класс
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Исследование не нужно.** У этого корабля нет собственной технологии.
-- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые у него уже есть, всего получается 6, 8 и 10. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Больше слотов устройств.** Extra Slots CPU I, II и III, установленные в вашем Skylab, добавляют этому кораблю слоты устройств: 3, 5 и 7; вместе с 2 слотами, которые у него уже есть, всего получается 5, 7 и 9. Их исследуют и создают, как любой другой предмет: см. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

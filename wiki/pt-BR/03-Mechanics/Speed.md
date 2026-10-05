@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 897dab3210b8f84a -->
+<!-- wiki-i18n source: fde0e896bc82b2a3 -->
 <!-- wiki-i18n title: Velocidade -->
 # Cálculo da velocidade {#speed-calculation}
 
@@ -17,9 +17,9 @@ Cada motor equipado gera velocidade, e o mesmo vale para cada núcleo adaptativo
 \[\text{Velocidade do motor} = (\text{Velocidade base do motor} + \text{Bônus fixo dos propulsores}) \times \text{Multiplicador dos propulsores}\]
 
 - **Bônus fixo dos propulsores**: a soma de todos os acréscimos fixos de velocidade dos propulsores (por exemplo, o Impulse Thruster III é `+15` de velocidade).
-- **Multiplicador dos propulsores**: o produto de todos os multiplicadores de velocidade dos propulsores encaixados naquele motor (por exemplo, o Momentum Thruster III é `1.13` ou `+13%`, o Impulse Thruster III, `1.03` ou `+3%`). Ele multiplica tudo o que o motor produz: a velocidade base dele e os bônus fixos dos propulsores. Um núcleo adaptativo não tem velocidade base própria, e os bônus fixos dos propulsores dele são multiplicados do mesmo jeito.
+- **Multiplicador dos propulsores**: o produto de todos os multiplicadores de velocidade dos propulsores encaixados naquele motor (por exemplo, o Momentum Thruster III é `1.09` ou `+9%`, o Impulse Thruster III, `1.03` ou `+3%`). Ele multiplica tudo o que o motor produz: a velocidade base dele e os bônus fixos dos propulsores. Um núcleo adaptativo não tem velocidade base própria, e os bônus fixos dos propulsores dele são multiplicados do mesmo jeito.
 
-Um Engine III (velocidade base 6) com três Momentum Thruster IV (`+12`, `1.14`) produz (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, e com três Impulse Thruster IV (`+17`, `1.02`), (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Um bônus da Forja no multiplicador de um propulsor faz crescer a parte acima de 1: +15% sobre `1.14` dá `1.161`.
+Um Engine III (velocidade base 6) com três Momentum Thruster IV (`+12`, `1.11`) produz (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, e com três Impulse Thruster IV (`+17`, `1.02`), (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Um bônus da Forja no multiplicador de um propulsor faz crescer a parte acima de 1: +15% sobre `1.11` dá `1.1265`.
 
 ### 2. Retornos decrescentes (eficiência marginal) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -43,3 +43,4 @@ O percentual total de bônus de velocidade é a soma de todos os bônus de veloc
 - **Penalidade de velocidade dos escudos**: escudos pesados sobrecarregam a nave e somam percentuais de velocidade negativos (por exemplo, o Heavy Shield Core soma `-5%` de velocidade).
 - **Escala por slot**: esses bônus e penalidades percentuais também são escalados pela eficiência do slot em que o item está equipado. Um escudo em um dos seus drones deixa você mais lento, assim como um escudo em um slot de núcleo.
 - **Nunca abaixo de zero**: por mais escudos que você carregue, a sua velocidade não cai abaixo de 0.
+- **Formações de drones**: uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso muda a velocidade final mais uma vez, como um fator próprio: Gyre +10%, Cordon −3%, Auger −9%, Culler −10%, Redoubt −11%, Rampart −17%. O Afterburner depois multiplica o resultado.

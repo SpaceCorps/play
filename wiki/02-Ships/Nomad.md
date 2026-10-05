@@ -7,7 +7,7 @@ The Nomad is a cruiser with twice the hull and twice the guns of an Ostirion: a 
 - **Hitpoints (HP)**: 96,000
 - **Base Speed**: 200
 - **Laser Slots**: 6
-- **Extra Slots**: 3
+- **Extra Slots**: 2
 
 ### Generator & Support Slots
 
@@ -28,7 +28,7 @@ The Nomad is a cruiser with twice the hull and twice the guns of an Ostirion: a 
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **No research needed.** This ship has no technology of its own.
-- **More extra slots.** Extra Slots CPU I, II and III, installed in your Skylab, give this ship 3, 5 and 7 more extra slots: 6, 8 and 10 in all with its own 3. You research and make them like any other item: see [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **More extra slots.** Extra Slots CPU I, II and III, installed in your Skylab, give this ship 3, 5 and 7 more extra slots: 5, 7 and 9 in all with its own 2. You research and make them like any other item: see [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

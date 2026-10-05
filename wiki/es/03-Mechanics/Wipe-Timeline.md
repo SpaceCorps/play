@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
 El universo de SpaceCorps se rige por un ciclo de temporadas que se repite. Cada 30 días, la galaxia sufre un reinicio cósmico conocido como el **Reinicio**. Aunque un reinicio pueda sonar intimidante, es la prueba definitiva de preparación y planificación: te permite llevarte tu mejor equipo, elegir tu próximo mundo y construir bonificaciones permanentes que pasan de una temporada a otra.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## Calendario de la temporada de 30 días {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ Los siguientes objetos siempre están protegidos y pasan automáticamente a la s
 1. Tu nave activa actual.
 2. Todos los objetos equipados en ese momento en esa nave activa, tanto en la **Configuración 1** como en la **Configuración 2** (incluidos láseres, escudos, motores y generadores).
 3. Todos los drones que tienes, con su nivel y su experiencia: tus [Slave Drones](/wiki/03-Mechanics/Drones.md) se quedan, así que tus ranuras de dron siguen abiertas y el precio de tu siguiente dron sigue contando a partir de los que tienes. Los láseres y escudos instalados en una ranura de dron siguen la regla anterior: se quedan si están en la nave activa.
+4. Todas las formaciones de drones que tienes ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)), estén donde estén: en el inventario, en tu barra rápida o en una nave. Igual que tus drones, se quedan sin ocupar capacidad del Alijo de Transporte.
 
 ### Traspaso manual (Alijo de Transporte) {#manual-carry-over-transport-cache-}
 Para los demás objetos de tu inventario que quieras conservar (p. ej., armamento de repuesto, recursos de fabricación o generadores de escudo de sobra):
@@ -83,7 +86,7 @@ SpaceCorps tiene tres **mundos**. Cada uno es una copia separada de toda la gala
 Así funcionan los mundos:
 
 * **Alienígenas**: la fuerza alienígena de un mundo multiplica sus puntos de vida, sus escudos, su recarga de escudo y su daño. Su velocidad y su alcance son los mismos en todas partes.
-* **Paga**: un derribo paga según el mundo en el que ocurre. Una misión paga según el mundo en el que la hiciste (el más bajo, si abarca dos), sea cual sea el mundo en el que la reclames, y el límite de una misión con tiempo límite es 1,5 veces más largo en Beta y el doble en Gamma ([Misiones](/wiki/03-Mechanics/Quests.md)). El botín y los pilotos de corporación son iguales en todos los mundos, así que un mundo más alto rinde más por hora, pero sus combates cuestan más en reparaciones.
+* **Paga**: un derribo paga según el mundo en el que ocurre. Una misión paga según el mundo en el que la hiciste (el más bajo, si abarca dos), sea cual sea el mundo en el que la reclames (una misión de la estación no tiene mundo propio y paga según el mundo en el que vuelas al reclamarla), y el límite de una misión con tiempo límite es 1,5 veces más largo en Beta y el doble en Gamma ([Misiones](/wiki/03-Mechanics/Quests.md)). El botín y los pilotos de corporación son iguales en todos los mundos, así que un mundo más alto rinde más por hora, pero sus combates cuestan más en reparaciones.
 * **PvP**: todos los que están en un mapa pertenecen a su mundo, así que rige una sola regla para todo el mapa, pilotos de corporación incluidos. Las zonas seguras y el Protocolo de paz (días 1–3) protegen en todos los mundos.
 * **En vuelo**: el nombre del mundo aparece delante del identificador del sector, arriba a la derecha («Beta · M-2»). La insignia de la barra de título de la ventana Nave indica dónde estás: **A salvo** en una zona segura, **Sin PvP** durante el Protocolo de paz o donde tu mundo prohíbe el PvP, **PvP** donde otros pilotos pueden atacarte. Pasa el puntero por encima para ver la regla. El [mapa galáctico](/wiki/01-General/Spacemap%20Travel.md) colorea los sectores según la regla de tu mundo.
 
@@ -97,7 +100,9 @@ Así funcionan los mundos:
 
 ## Progreso entre temporadas (mejoras permanentes) {#cross-season-progression-permanent-buffs-}
 
-El Reinicio se lleva tus naves y tus objetos (salvo tu nave activa con todo lo que lleva equipado, tu Alijo de Transporte y tus drones) y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre.
+El Reinicio se lleva tus naves y tus objetos (salvo tu nave activa con todo lo que lleva equipado, tu Alijo de Transporte y tus drones) y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre, salvo las misiones de nivel que la actualización 0.4.10 rehízo: 64 de ellas se ofrecen una vez más ([Misiones](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clanes y rangos.** Los puntos, los niveles de mejora y las líneas diarias de un clan empiezan de nuevo en cada reinicio, así que cada temporada es una nueva carrera por las mejoras al máximo; el clan en sí, sus miembros, su banco y su impuesto se quedan ([Clanes](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Tu rango de corporación también se queda: sigue tus puntos de clasificación PvE, que un reinicio no restablece ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La tienda de mejoras permanentes {#the-permanent-buff-store}
 Puedes gastar los PR acumulados en mejoras permanentes que se conservan en todas las temporadas para siempre. Estas mejoras se acumulan y dan importantes bonificaciones pasivas:
@@ -128,4 +133,4 @@ Los puntos de reinicio vienen de hitos que reclamas tú mismo, en el juego en **
 
 Solo cuentan los derribos por los que cobras (consulta [Combate](/wiki/03-Mechanics/Combat.md)). Un hito paga cuando está completo: 99 Seekers no pagan nada, el 100.º paga 1 PR, y los derribos siguientes cuentan para el 200.º.
 
-**Misiones.** La primera misión que completas paga 5 PR, y luego cada 5.ª (la 5.ª, la 10.ª, la 15.ª, etc., hasta la 100.ª) paga 5 PR más, 105 PR en total.
+**Misiones.** La primera misión que completas paga 5 PR, y luego cada 5.ª (la 5.ª, la 10.ª, la 15.ª, etc., hasta la 85.ª) paga 5 PR más, 90 PR en total. Solo cuentan las misiones de nivel (88 en total, no las misiones de la estación ni la línea de Desafíos, mira [Misiones](/wiki/03-Mechanics/Quests.md)), y una misión de nivel rehecha que haces de nuevo no se cuenta por segunda vez.

@@ -2,6 +2,10 @@
 
 This section details how damage is calculated, applied, and repaired during engagements in SpaceCorps.
 
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../img/wiki-img/shots/hud-target.jpg)
+
 ## Damage Calculation
 
 When a ship fires its lasers, the server calculates the damage output using the following sequence:
@@ -25,11 +29,12 @@ Every volley has a chance to be a Critical Hit.
 
 Finally, global multipliers (such as active boosters or laser ammunition multipliers like x2, x3, x4) are applied to obtain the final damage output:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- A worn [drone formation](/wiki/03-Mechanics/Formations.md) can multiply the result once more: for example Auger +21% laser damage, Gyre −11%, and against aliens Culler +12% (a separate factor, not part of the booster percent).
 - **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/06-Items/Lasers.md).
 
 ### 3b. Rockets
 
-A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,600 to 2,000, a Lancet III 4,800 to 6,000, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, less toward the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it.
+A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,600 to 2,000, a Lancet III 4,800 to 6,000, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, less toward the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it. A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that changes both: a rocket formation raises the damage of every rocket (up to +55%), and a few lengthen or shorten the timer.
 
 ### 4. Facing the Target
 
@@ -52,7 +57,7 @@ An alien's rewards go to the pilot who shot it first, not to whoever lands the l
 - **Seeing it**: when you select an alien another pilot has claimed, the Target window shows *Claimed by* that pilot and *No reward*.
 - [Company pilots](/wiki/03-Mechanics/Company-Pilots.md) never claim an alien, and an alien they finish still pays the pilot holding its claim.
 - A pilot in a [group](/wiki/03-Mechanics/Groups.md) shares what its claim pays with the group mates who are close and shooting; the claim itself is the pilot's alone.
-- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) and the Dormant Pulses are the exception**: a swarm boss or a Dormant Pulse is paid by the damage each pilot dealt to it, not by the first hit, and its cargo box goes to the pilot who dealt the most ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). The other followers, the Pirate Scouts and the Seeker Slaves, pay by the claim like any alien. A swarm ship's PvE points are on the Swarms page.
+- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md), the Dormant Pulses and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) are the exception**: a swarm boss, a Dormant Pulse or a Clan Warden is paid by the damage each pilot dealt to it, not by the first hit, and its cargo box goes to the pilot who dealt the most ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). The other followers, the Pirate Scouts and the Seeker Slaves, pay by the claim like any alien. A swarm ship's PvE points are on the Swarms page.
 
 ---
 
@@ -85,9 +90,9 @@ An alien that has taken you for its target (a Phantasm, Bulwark or Crystalys tha
 
 An alien that lets go roams from where it stands, never on to where it last saw you (not even when you cloak or fire an EMP), and does not pick you as a target again for **8 seconds**, unless you shoot it. Every alien decides for itself, so a mixed pack thins out as you fly away. Aliens never follow you into a safe zone or through a gate, and those that lost you near one head away from it, each its own way, so they do not wait in a heap. An alien's interest never reaches less than its attack range and aggro radius, plus 100 units.
 
-Aliens do not pile up: a pack after one pilot keeps some room between its ships while it closes in (150 units between hulls, so a pack of Phantasms flies 250 units apart rather than hull to hull), and an alien that sets off on its way with others close by flies away from them, so a pack that lost its pilot breaks up in every direction.
+Aliens do not push each other apart: a pack after one pilot closes in without keeping any room between its ships, and a pack that lost its pilot breaks up only as each alien picks its own way. An alien does keep clear of a **ship**, though: it never ends up inside a pilot's hull, and a pilot who parks on one pushes it along.
 
-Flying faster only helps you so far: a Protos (150) is slower than every alien that hunts (Phantasm 160, Bulwark 175, Crystalys 230), so the leash, not your speed, ends the chase.
+Flying faster only helps you so far: a Protos (160) is no faster than any alien that hunts (Phantasm 160, Bulwark 175, Crystalys 230), so the leash, not your speed, ends the chase.
 
 ---
 
@@ -102,6 +107,7 @@ Incoming damage is divided between shields and hitpoints by your ship's **Averag
 - **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there).
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.
+- **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 6%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+9 points) and Stiletto (+16) add penetration to your own ammo and direct rockets, up to 40% in all ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Safe Zone Immunity
 
@@ -125,6 +131,7 @@ To recover from combat, pilots can rely on passive regeneration and active utili
 
 - **Operation**: Restores shield points equal to your shield's recharge rate per second.
 - **Delay**: Interrupted by combat; passive regeneration resumes only after **15 seconds** of taking no damage.
+- **Drone formations**: Adamant and Redoubt give shield back every second, in a fight too (see [Drone Formations](/wiki/03-Mechanics/Formations.md)).
 
 ### 1b. Siphon Battery
 

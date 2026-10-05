@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Buraco negro -->
 # O buraco negro {#the-black-hole}
 
 No exato centro do Setor de perigo 4 (`DS-4`, o centro da zona PvP), um buraco negro paira na escuridão. Ele é o mesmo em todos os mundos (Alpha, Beta e Gamma), em todos os dias da temporada, inclusive durante o Protocolo de Paz. Ele leva o que chega perto demais e devolve uma única coisa: [Dark Matter](#dark-matter), por um foguete N.I.K.E. disparado nele.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## Os anéis {#the-rings}
 
@@ -40,7 +43,7 @@ Entre duas linhas da tabela o dano sobe em linha reta. Em pontos de vida por seg
 | Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
 | Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 194.500 | 1.070 | 1.556 | 3.890 | 9.725 | 21.395 |
+| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
 | Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
@@ -75,17 +78,17 @@ O seu **ponto sem retorno** é a distância em que a atração se iguala à sua 
 | Nave (configuração original) | Velocidade | Ponto sem retorno |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1.974 |
-| Protos | 155 | 1.627 |
+| Protos | 165 | 1.577 |
 | Kitefin | 184 | 1.480 |
 | Ostirion | 208 | 1.362 |
 | Nomad | 211 | 1.347 |
 | Paragon | 222 | 1.287 |
-| Wraith | 238 | 1.171 |
-| Storm | 256 | 1.046 |
+| Wraith | 233 | 1.208 |
+| Storm | 263 | 995 |
 
 Uma nave mais rápida que 272 unidades por segundo (uma configuração de corredor, ou uma Wraith original com um Afterburner em andamento) tem o seu ponto sem retorno onde sempre esteve: com velocidade 300 ele fica em 885, com 432 em 747.
 
-Monte para a velocidade e você consegue sair de mais fundo; carregue escudos pesados e não consegue (uma Ironclad, a nave mais lenta, com um Heavy Shield Core em todos os seus 14 slots voa a 39,1, com o ponto sem retorno em cerca de 2.600). Só uma explosão de velocidade faz uma nave voltar de logo depois do seu ponto sem retorno: um [Afterburner](/wiki/03-Mechanics/Abilities.md) em andamento conta, e leva o ponto sem retorno para mais fundo enquanto dura (dez segundos com um motor, quinze com dois, vinte com três; o Afterburner III leva o de uma Protos original de 1.627 para 1.105 e o de uma Wraith original de 1.171 para 793). Nada consegue sair de dentro de cerca de 390 unidades, nem mesmo uma nave montada para a velocidade, com todos os atributos de velocidade encantados ao máximo e a explosão mais forte em andamento (um Afterburner III encantado até o limite, x1,69); uma nave sem encantamentos, montada para a velocidade (Engine III e Adaptive Core II, com Impulse Thruster IV e Momentum Thruster IV) e com um Afterburner III, sai de fora dos 425 no melhor dos casos.
+Monte para a velocidade e você consegue sair de mais fundo; carregue escudos pesados e não consegue (uma Ironclad, a nave mais lenta, com um Heavy Shield Core em todos os seus 14 slots voa a 39,1, com o ponto sem retorno em cerca de 2.600). Só uma explosão de velocidade faz uma nave voltar de logo depois do seu ponto sem retorno: um [Afterburner](/wiki/03-Mechanics/Abilities.md) em andamento conta, e leva o ponto sem retorno para mais fundo enquanto dura (dez segundos com um motor, quinze com dois, vinte com três; o Afterburner III leva o de uma Protos original de 1.577 para 989 e o de uma Wraith original de 1.208 para 801). Nada consegue sair de dentro de cerca de 390 unidades, nem mesmo uma nave montada para a velocidade, com todos os atributos de velocidade encantados ao máximo e a explosão mais forte em andamento (um Afterburner III encantado até o limite, x1,69); uma nave sem encantamentos, montada para a velocidade (Engine III e Adaptive Core II, com Impulse Thruster IV) e com um Afterburner III, sai de fora dos 429 no melhor dos casos.
 
 A queda a partir do ponto sem retorno começa devagar: uma nave poucas unidades dentro dele, a toda potência, é puxada para dentro ao longo de vinte segundos ou mais, e depois cada vez mais rápido. A atração não é voo: ela não conta como distância voada.
 
@@ -124,13 +127,13 @@ As configurações ajudam quando o buraco negro pesa no desempenho do computador
 
 Os drones voam com a sua nave. A carga nunca é deixada dentro do anel: uma caixa que cairia ali é colocada na borda. As caixas de Dark Matter são a única exceção.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 O buraco devolve **Dark Matter** por um foguete **N.I.K.E.** que o alcance. Uma N.I.K.E. é um foguete de 67.500 a 75.000 de dano que atinge a primeira nave que pode ferir e se gasta nela; se nada estiver no caminho, ela voa até o buraco e é consumida quando cruza o horizonte de eventos. A [Montagem](/wiki/06-Items/Rockets.md) fabrica N.I.K.E. depois que a tecnologia delas é pesquisada ([Pesquisa](/wiki/03-Mechanics/Research.md)), cinco por criação (100.000 créditos, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Disparo.** Uma N.I.K.E. voa 4.050 unidades em 4,5 segundos (900 por segundo) em linha reta para o ponto em que você a mirou: sem alvo selecionado, ponha o cursor sobre o buraco negro (ou aponte a sua nave para ele). Ela chega ao horizonte a partir de qualquer ponto entre a borda da radiação (4.000 unidades) e 4.380 unidades do centro. Mais longe, ela não alcança e é desperdiçada. Como todo foguete, usa a recarga compartilhada de 5 segundos (não é preciso ter um laser equipado); dispará-la encerra a sua proteção de zona segura e a sua camuflagem. **Uma nave na linha a recebe no seu lugar**: um rival esperando na borda, ou um piloto de outra corporação coletando caixas no caminho, leva de 67.500 a 75.000 de dano e o buraco não ganha nada. Alienígenas e pilotos de corporação nunca entram no anel, então manter a linha livre fica por sua conta; ela atravessa a sua própria corporação e as naves que estão a salvo de você. Se você sair do mapa depois do disparo, ela continua voando sem ferir ninguém e ainda produz a sua Dark Matter.
+- **Disparo.** Uma N.I.K.E. voa 4.050 unidades em 4,5 segundos (900 por segundo) em linha reta para o ponto em que você a mirou: sem alvo selecionado, ponha o cursor sobre o buraco negro (ou aponte a sua nave para ele). Ela chega ao horizonte a partir de qualquer ponto entre a borda da radiação (4.000 unidades) e 4.380 unidades do centro. Mais longe, ela não alcança e é desperdiçada. Como todo foguete, usa a recarga compartilhada de 5 segundos (não é preciso ter um laser equipado); dispará-la encerra a sua proteção de zona segura e a sua camuflagem. **Uma nave na linha a recebe no seu lugar**: um rival esperando na borda, ou um piloto de outra corporação coletando caixas no caminho, leva de 67.500 a 75.000 de dano e o buraco não ganha nada. Alienígenas e pilotos de corporação nunca entram no anel, então manter a linha livre fica por sua conta; ela atravessa a sua própria corporação e as naves que estão a salvo de você. Se você sair do mapa depois do disparo, ela continua voando sem ferir ninguém e ainda produz a sua Dark Matter. Uma formação de drones pode alterar esse temporizador e o dano do acerto (veja [Formações de drones e foguetes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **O que volta.** Cada N.I.K.E. que chega ao horizonte dá **1, 2 ou 3 Dark Matter** (2 em média, então cerca de cinco N.I.K.E. rendem dez), em uma ou duas caixas pequenas que surgem na borda da zona do buraco, **a 3.050 a 3.950 unidades do centro**, perto da linha por onde o seu disparo entrou. A atração termina em 3.000, então as caixas e as naves que as pegam não são puxadas, e a radiação ali é de 0,3 a 0,8% do HP de uma nave por segundo: um minuto no meio da faixa custa um terço da sua nave. Uma nave cheia aguenta três minutos ali.
 - **De quem.** As caixas são suas, e do seu clã, durante **60 segundos** a partir do disparo. Depois disso, qualquer um no mapa pode pegá-las, e elas somem à deriva depois de **4 minutos**. O Setor de perigo é um setor PvP, então espere companhia. Um piloto que se desconecta depois de disparar ainda tem as suas caixas.
 - **Quantas.** Um mapa comporta no máximo 32 caixas de Dark Matter; uma nova empurra para fora a mais antiga delas, e nunca outro tipo de caixa. O [Resource Magnet](/wiki/03-Mechanics/Cargo.md) não soma nada ao Dark Matter.
 - **O que você vê.** Quando uma N.I.K.E. cruza o horizonte, ela é esticada para dentro do buraco, o espaço ondula a partir de onde ela entrou, e o disco e o anel de fótons lampejam por cerca de um segundo e meio (um terço disso, com metade da luz, com **Reduzir movimento**). Um instante depois as caixas saem do buraco e derivam até os seus lugares na borda: cada uma é uma esfera preto-violeta com a borda brilhante e cintilações, fácil de ver de longe, e com o título **Dark Matter** quando você passa o mouse sobre ela. As suas mostram, acima delas, os segundos que ainda restam e aparecem no minimapa como uma pequena marca violeta, como também aparecem para o seu clã; as caixas dos outros pilotos só aparecem no minimapa depois que o minuto delas termina.
-- **Para que serve.** A Montagem prensa 5 Dark Matter com uma Velkonite Reinforced Plate e uma Orvium Reinforced Plate em uma **Dark Matter Plate**, e a [Forja](/wiki/06-Items/Forge.md) pede duas delas para elevar um item de Divino a Rompedor e de novo de Rompedor a Eterno: dez Dark Matter por etapa. O [Centro de Pesquisa](/wiki/03-Mechanics/Research.md#dark-matter) do Skylab também precisa de Dark Matter: 10 para cada uma das 15 tecnologias do topo da árvore, 150 no total, inseridas antes de a pesquisa começar.
+- **Para que serve.** A Montagem prensa 5 Dark Matter com uma Velkonite Reinforced Plate e uma Orvium Reinforced Plate em uma **Dark Matter Plate**, e a [Forja](/wiki/06-Items/Forge.md) pede duas delas para elevar um item de Divino a Rompedor e de novo de Rompedor a Eterno: dez Dark Matter por etapa. O [Centro de Pesquisa](/wiki/03-Mechanics/Research.md#dark-matter) do Skylab também precisa de Dark Matter: 10 para cada uma das 15 tecnologias do topo da árvore, 150 no total, inseridas antes de a pesquisa começar. As formações de drones também pedem, 5, 13 ou 20 conforme a força: mais 189, 339 no total.

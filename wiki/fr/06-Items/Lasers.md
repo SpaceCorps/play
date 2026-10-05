@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -38,7 +38,7 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 ```
 <!-- item-tree:end -->
 
-## Lasers {#lasers}
+## Lasers
 
 Équipez des lasers directement dans les emplacements laser du vaisseau ou dans des drones pour accroître vos capacités offensives.
 
@@ -73,8 +73,8 @@ La page Assemblage montre ce que vous possédez face à ce qu’une recette dema
 D’où viennent les plaques :
 
 - Les **Velkonite Reinforced Plates** (Quantum Laser 3 et Starfire-3) sont forgées à partir de Velkonite, 40 unités de minerai par plaque au niveau 1 de la Fonderie. Les **Orvium Reinforced Plates** (Helios Beam) sont forgées à partir d’Orvium, 80 unités de minerai par plaque.
-- Le minerai ne vient que des collecteurs de votre Skylab. Un Collecteur de Velkonite de niveau 5 extrait environ 29 Velkonite par heure : les plaques d’un Quantum Laser 3 demandent donc environ 3 heures d’extraction, et les dix plaques d’un Starfire-3 (deux dans son Quantum Laser 3, huit à sa propre étape) environ 14. Le Helios Beam est le plus long : ses 18 plaques demandent 1 440 Orvium, soit environ 4 jours avec un Collecteur d’Orvium de niveau 5.
-- L’Entrepôt de ressources contient 900 de chaque minerai au niveau 1 ; forgez donc au fur et à mesure (un lot de la Fonderie fait 10 plaques au niveau 1) ou améliorez l’entrepôt.
+- Le minerai ne vient que des collecteurs de votre Skylab. Un Collecteur de Velkonite de niveau 5 extrait 18 Velkonite par heure : les plaques d’un Quantum Laser 3 demandent donc environ 4 heures d’extraction, et les dix plaques d’un Starfire-3 (deux dans son Quantum Laser 3, huit à sa propre étape) environ 22. Le Helios Beam est le plus long : ses 18 plaques demandent 1 440 Orvium, soit environ 4 jours avec un Collecteur d’Orvium de niveau 5.
+- L’Entrepôt de ressources contient 240 de chaque minerai au niveau 1 : 6 plaques de Velkonite ou 3 d’Orvium avec la Fonderie au niveau 1. Forgez donc au fur et à mesure (un lot de la Fonderie fait jusqu’à 10 plaques au niveau 1) ou améliorez l’entrepôt.
 - Les plaques forgées attendent dans la Fonderie que vous les récupériez, vaisseau posé, et arrivent dans votre inventaire comme des objets ordinaires.
 
 Ce sont les aliens qui lâchent les Ship Fragments, la Cataclysite, les Power Cores et les Reinforced Hull Plates ; chaque source et chaque usage de chaque matériau figurent sur la page [Ressources](/wiki/06-Items/Resources.md) ; les listes de butin des pages du [Bulwark](/wiki/04-Aliens/Bulwark.md) et du [Goombah](/wiki/04-Aliens/Goombah.md) indiquent les quantités.
@@ -120,7 +120,7 @@ Des batteries consommables qui multiplient les dégâts de vos salves laser :
 
 La **pénétration de bouclier** est retranchée de l’absorption de votre cible à chaque tir de vos salves : les boucliers encaissent l’absorption de la cible moins la pénétration (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)). Face à un vaisseau à 80 % (le meilleur bouclier avec les meilleures cellules), les 10 % des munitions x4 laissent aux boucliers 70 % du tir et à la coque 30 %. Cela compte surtout face à des vaisseaux dont la coque est petite à côté du bouclier ; un très grand vaisseau à 80 % résiste pareil dans les deux cas. Les aliens n’ont pas de stat d’absorption à proprement parler (leurs boucliers encaissent 80 % d’un tir), et la pénétration s’en retranche aussi.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 La Siphon Battery est une munition qui sert à voler des boucliers plutôt qu’à briser des coques. Elle inflige **des dégâts x1 directement au bouclier de la cible** et ajoute le même montant à **votre propre bouclier**, jusqu’à votre maximum. Choisissez-la dans le sélecteur de munitions de la barre rapide comme n’importe quelle autre munition (c’est la tuile au vortex turquoise). Elle ne tire pas de rayon : une sonde turquoise fine et discrète part vers la cible, le bouclier de la cible s’illumine en turquoise là où elle arrive, et le bouclier que vous avez drainé revient visiblement vers votre vaisseau sous forme de paquets turquoise lumineux (de trois à dix, davantage pour un drain plus important), l’un après l’autre pendant environ une demi-seconde. Chaque paquet qui arrive fait pulser votre bouclier. Vous voyez la même chose pour la Siphon Battery de tout pilote en vue, quelle que soit sa victime : aliens, autres pilotes et vaisseaux de pilotes de corporation.
 

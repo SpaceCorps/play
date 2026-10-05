@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 L’Ironclad est un tank lourdement blindé : la coque la plus épaisse de tous les vaisseaux et le plus de place pour les boucliers, au prix de moins de canons et d’une propulsion plus lente. Il se fabrique à l’Assemblage et se situe entre le Paragon et le Wraith.
 

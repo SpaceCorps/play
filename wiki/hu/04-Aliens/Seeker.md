@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, vagyis sosem ők kezdik a harcot: a Seeker arra a pilótára fordul, aki rálő, és csakis arra. Elengedi a célpontját, ha 10 másodpercig senki sem találta el, a hajóteste pedig javulni kezd, miután 30 másodpercig békén hagyták. A [Seeker-raj](/wiki/05-Swarms/Seeker-Swarm.md) Boss Seekere és Seeker Slave-jei úgy néznek ki, mint a Seekerek, de saját fajt alkotnak: a kilövésüket a saját nevük alatt számolják, nem Seeker-kilövésként.
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 0d2453772c374a74 -->
+<!-- wiki-i18n source: 440dd341e5b80c44 -->
 <!-- wiki-i18n title: Bulwark -->
-# Bulwark {#bulwark}
+# Bulwark
 
 Bulwark 是重装甲的防御平台。它们极具攻击性，火力凶猛：Bulwark 会追击仇恨范围（700 单位）内任何不受保护的飞行员。当飞行员与它相距超过 1,200 单位，或它从追击起点飞出 2,000 单位后，它就会放弃追击（对朝它开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它的飞行员，它则绝不会放弃追击，只要对方超出它的武器射程（700 单位），Bulwark 就会朝那名飞行员飞去。多名飞行员同时向它开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 

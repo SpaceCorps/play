@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 La Nomad es un crucero con el doble de casco y el doble de cañones que una Ostirion: una cabeza de martillo entre la Ostirion y la Paragon, que se compra en la tienda con créditos y Thulium a la vez. Cualquier piloto puede comprarla.
 
@@ -9,7 +9,7 @@ La Nomad es un crucero con el doble de casco y el doble de cañones que una Osti
 - **Puntos de vida (HP)**: 96.000
 - **Velocidad base**: 200
 - **Ranuras de láser**: 6
-- **Ranuras de extra**: 3
+- **Ranuras de extra**: 2
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 
@@ -30,7 +30,7 @@ La Nomad es un crucero con el doble de casco y el doble de cañones que una Osti
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **No hace falta investigar.** Esta nave no tiene tecnología propia.
-- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 6, 8 y 10 en total con las 3 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Más ranuras de extra.** Las Extra Slots CPU I, II y III, instaladas en tu Skylab, dan a esta nave 3, 5 y 7 ranuras de extra más, es decir, 5, 7 y 9 en total con las 2 propias. Se investigan y se fabrican como cualquier otro objeto: consulta [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d37c87fbe6d3997a -->
+<!-- wiki-i18n source: d6867c2daec4fa77 -->
 <!-- wiki-i18n title: Paragon -->
-# Paragon {#paragon}
+# Paragon
 
 La Paragon è un pesante incrociatore da combattimento progettato con un equilibrio tra difesa e attacco, adatto alle operazioni di flotta e al pattugliamento del confine.
 

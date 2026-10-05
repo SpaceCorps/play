@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Essaim Pirate -->
 # Essaim Pirate {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) dans `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) dans `x-3`.
 
@@ -73,7 +73,7 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 | L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 5–10 |
 | L’un de Advanced Plasma et Siphon Battery, tiré au hasard | 100 % | 500–1 000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Base : Kitefin, avec 50 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine.
 

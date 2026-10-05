@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Enjambre Pirate -->
 # Enjambre Pirate {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarm
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original. Dispara un cohete recto cada 5 s: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) en `x-2`, [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) en `x-3`.
 
@@ -73,7 +73,7 @@ Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 | Uno de los 8 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 5–10 |
 | Uno de Advanced Plasma y Siphon Battery, elegido al azar | 100 % | 500–1.000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 Base: Kitefin, con 50 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original.
 

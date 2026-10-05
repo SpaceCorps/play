@@ -1,8 +1,25 @@
-<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
+<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
 <!-- wiki-i18n title: Skylab -->
-# Skylab {#skylab}
+# Skylab
 
 A Skylab a te személyes orbitális létesítményed. Modulokat épít és fejleszt, amelyek kreditet és Thuliumot termelnek, ércet bányásznak, olyan lemezeket kovácsolnak, amelyekből a Gyártás a legjobb lézereket készíti, és a Mag 10. szintjétől kikutatják azokat a technológiákat, amelyekre a Gyártásnak szüksége van. Akkor is dolgozik neked, amikor offline vagy.
+
+> [!NOTE]
+> **Mi változott a 0.4.10-ben.** A Skylab minden moduljának most saját táblázata van a termelésről, az árakról és az időkről, szintről szintre. A szintjeidet megtartottad: semmit nem vontunk le, és a különbözetet sem térítettük vissza. Amit a farmjaid és a gyűjtőid a frissítés érkezésekor a tárolóikban tartottak, azt **egyszer, a régi áron** fizettük ki: a kredit és a Thulium a számládra, az érc az Erőforrás-raktáradba került, a tárolók pedig üresen indultak újra.
+>
+> Két szabály új. **A Napelem fejlesztés közben csak az energiája 25%-át termeli**, ezért a legtöbb állomáson minden farm és gyűjtő leáll a fejlesztés végéig (lásd: [Napelem modul](#solar-module) és [A Napelem fejlesztésének időzítése](#timing-a-solar-upgrade)). **Az Erőforrás-raktárnak minden ércre külön korlátja van**: az 1. szinten a gyűjtő egynapi termelése, a 20. szinten négynapi.
+
+![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
+![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+
+## Egy percben {#in-one-minute}
+
+- Először a **Napelemet** építsd meg: az energiája nélkül a Skylabban semmi sem működik. A Kreditfarm megépítése nem kerül semmibe, a Thuliumfarm 5 000 kreditbe és 500 Thuliumba kerül.
+- A farmok és a gyűjtők egy **tárolót** töltenek (72 órányit), amíg távol vagy. A **Begyűjtés** a számládra viszi (kredit, Thulium) vagy az Erőforrás-raktáradba (érc).
+- A **Thuliumfarm** a fő Thulium-forrásod: az 1. szinten óránként 50-et, a 20. szinten 1 600-at termel. A Kreditfarm az 1. szinten óránként 500 kreditet, a 20. szinten 50 000-et termel.
+- A **Mag** adja az ütemet: egyetlen modul sem léphet fölé, és a saját fejlesztése nagyjából 16 és fél napig tart.
+- **A Napelem fejlesztés közben csak az energiája 25%-át termeli**, ezért a farmjaid és a gyűjtőid leállnak, amíg el nem készül. [Tervezd meg](#timing-a-solar-upgrade).
 
 ## Áttekintés {#overview}
 
@@ -71,7 +88,7 @@ Ezek a Skylab Állomás nézetének képei az 1-től 20-ig terjedő szintek mind
 
 ### Mag modul {#core-module}
 
-A Skylabod szíve. A Mag szintje dönti el az összes többi modul legmagasabb szintjét: egyetlen modult sem fejleszthetsz magasabbra a Magnál. A Mag a 20. szintig fejleszthető, és az **5. szinttől** megnyitja az alábbi ellátási láncot.
+A Skylabod szíve. A Mag szintje dönti el az összes többi modul legmagasabb szintjét: egyetlen modult sem fejleszthetsz magasabbra a Magnál. A Mag a 20. szintig fejleszthető, és az **5. szinttől** megnyitja az alábbi ellátási láncot. A fejlesztései csak kreditbe kerülnek: a 10. szintig összesen 112 326-ba, a 20. szintig 6 647 504-be, és összesen nagyjából 16 és fél napig tartanak (lásd: [Fejlesztési idők](#upgrade-times)).
 
 ### Napelem modul {#solar-module}
 
@@ -79,12 +96,13 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 
 - **Fontosság**: ha az energiafogyasztásod nagyobb a termelt energiánál, a farmjaid és a gyűjtőid leállnak.
 - **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 835-öt a 7. szinten, 16 110-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
-- **Fejlesztés**: a Napelem fejlesztés közben is tovább termeli a jelenlegi szintjének energiáját, a fejlesztés végétől pedig az új szintét, ezért az állomás többi része tovább működik (lásd: Építés és fejlesztés).
+- **Ár**: a Napelem megépítése **500 kreditbe és 50 Thuliumba** kerül. A fejlesztései ugyanannyiba kerülnek és ugyanannyi ideig tartanak, mint a Kovácsműhelyé: a 2. szintért 8 000 kredit és 25 Thulium (5 perc), a 20. szintért 9 000 000 kredit és 10 000 Thulium (24 óra).
+- **Fejlesztés**: amíg a Napelemet fejlesztik, csak a jelenlegi szintje energiájának **25%-át** termeli, a fejlesztés végétől pedig az új szintét. Az az állomás, amely ennél többet használ, leáll: minden farm és gyűjtő abbahagyja a termelést, és a Kovácsműhely nem indít új adagot, amíg a fejlesztés el nem készül. Szinte minden állomás ilyen: csak akkor megy tovább a fejlesztés alatt, ha az összes többi modul legalább öt szinttel a Napelem alatt van (a Napelem 10. szintjétől hat szinttel). A Napelem fejlesztését úgy tervezd, mint a farmjaid áramkimaradását (lásd: Építés és fejlesztés).
 
 ### Kreditfarm és Thuliumfarm {#credit-farm-and-thulium-farm}
 
-- **Kreditfarm**: idővel kreditet termel.
-- **Thuliumfarm**: idővel Thuliumot termel.
+- **Kreditfarm**: idővel kreditet termel: **az 1. szinten óránként 500-at, a 20. szinten 50 000-et** (5. szint: 2 500; 10. szint: 7 500; 15. szint: 17 000). Megépítése nem kerül semmibe.
+- **Thuliumfarm**: idővel Thuliumot termel: **az 1. szinten óránként 50-et, a 20. szinten 1 600-at** (5. szint: 180; 10. szint: 450; 15. szint: 950). Megépítése 5 000 kreditbe és 500 Thuliumba kerül.
 - Mindkettőnek energia kell, és mindkettő 72 órányi termelését tárolja, amíg be nem gyűjtöd.
 
 ## Az ellátási lánc {#the-supply-chain}
@@ -98,21 +116,23 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 
 ### Velkonite-gyűjtő és Orvium-gyűjtő {#velkonite-collector-and-orvium-collector}
 
-- **Érc**: a Velkonite-gyűjtő az 1. szinten **óránként 12 Velkonite-ércet** bányászik, az Orvium-gyűjtő pedig **óránként 6 Orvium-ércet**, szintenként 25%-kal növekedve (5. szint: óránként 29 és 15; 10. szint: 89 és 45).
+- **Érc**: a Velkonite-gyűjtő az 1. szinten **óránként 10 Velkonite-ércet** bányászik, az Orvium-gyűjtő pedig **óránként 10 Orvium-ércet**, és minden szintnek saját üteme van: a 20. szinten legfeljebb óránként 80 Velkonite és 40 Orvium (5. szint: óránként 18 és 14; 10. szint: 32 és 24).
 - **Tároló**: mindkettő 72 órányi ércet tárol, és ha megtelt, leáll a bányászattal.
 - **Begyűjtés**: az ércet az Erőforrás-raktárba helyezi, amennyi belefér. Ha nincs raktár megépítve, vagy az adott érc raktára tele van, nincs hová tenni, és a gomb megmondja, miért. A maradék a tárolóban marad.
 - **Energia**: 20 (Velkonite) és 30 (Orvium) az 1. szinten, szintenként 15%-kal növekedve.
 
 ### Erőforrás-raktár {#resource-storage}
 
-- **Raktár**: külön tartja a Velkonite- és az Orvium-ércet. **Ércenként 900-at** tárol az 1. szinten, szintenként 25%-kal növekedve (5. szint: 2 197; 10. szint: 6 705).
+- **Raktár**: külön tartja a Velkonite- és az Orvium-ércet, és mindkettőből más mennyiséget tárol: **ércenként 240-et** az 1. szinten, a 20. szinten legfeljebb 7 680 Velkonite-ot és 3 840 Orviumot (5. szint: 720 és 560; 10. szint: 1 920 és 1 440).
+- **Korlát**: az 1. szinten a gyűjtőjének egynapi termelése, a 20. szinten legfeljebb négynapi. Egy gyűjtő tárolója három napot bír, ezért a 13. szinttől a raktár legalább egy teli tárolót elbír.
+- **A korlát fölött**: ha egy raktárban több van, mint a korlátja (a 0.4.10-es frissítés kifizetése ilyen helyzetet hagyhatott), semmit nem vesznek el, de a Begyűjtés nem tesz hozzá több ilyen ércet, amíg el nem használtál belőle valamennyit.
 - Érc csak a gyűjtőből való begyűjtéssel kerül be, és csak a Kovácsműhelybe kerülhet ki. Sosem kerül a készletedbe.
 - **A raktárban lévő érc megmarad** a szezon wipe-ja után is.
 - **Energia**: 10 az 1. szinten, szintenként 10%-kal növekedve. Nem kapcsolható ki.
 
 ### Kovácsműhely {#forgery}
 
-- **Lemezek**: a Kovácsműhely **Velkonite Reinforced Plate**-et készít Velkonite-ércből és **Orvium Reinforced Plate**-et Orvium-ércből: lemezenként **40 Velkonite** vagy **80 Orvium** az 1. szinten, és az 1. szint fölötti minden szintnél 1,5%-kal kevesebb (70% alá sosem).
+- **Lemezek**: a Kovácsműhely **Velkonite Reinforced Plate**-et készít Velkonite-ércből és **Orvium Reinforced Plate**-et Orvium-ércből: lemezenként **40 Velkonite** vagy **80 Orvium** az 1. szinten, és minden szinttel kevesebb, a 20. szinten már csak 30 és 60 (75% alá sosem).
 - **Adagok**: egyszerre egy adag egyfajta lemezből, **10 lemez az 1. szinten**, és az 1. szint fölötti minden szinttel 5-tel több. Az érc abban a pillanatban elhagyja az Erőforrás-raktárat, amikor az adag elindul, és minden lemez **10 másodpercig** készül. A lemezek egymás után készülnek, akkor is, amikor távol vagy.
 - **Lemezek begyűjtése**: a kész lemezeket a készletedbe helyezi, miközben a **hajód leszállt**, és az adag többi része tovább készül. Új adag akkor indítható, amikor a Kovácsműhely üres.
 - Egy futó adag akkor is befejeződik, ha kikapcsolod a Kovácsműhelyt, vagy fejleszted. Egy **új** adaghoz a Kovácsműhelynek bekapcsolva kell lennie, nem állhat fejlesztés alatt, és a Skylab energiájának egyensúlyban kell lennie.
@@ -120,7 +140,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 
 ### Építésük {#building-them}
 
-Mind a négy építési költsége **10 Ship Fragments, 10 000 kredit és 500 Thulium**, és a Mag 5. szintje kell hozzá.
+A két gyűjtő darabja **10 Ship Fragments, 20 000 kredit és 500 Thulium**, az Erőforrás-raktár **10 Ship Fragments, 5 000 kredit és 250 Thulium**, a Kovácsműhely **10 Ship Fragments, 5 000 kredit és 500 Thulium**; mind a négyhez a Mag 5. szintje kell.
 
 - A Ship Fragments a készletedből vonódik le (nem a tranzittárolóból), és a hajódnak leszállt állapotban kell lennie. Az építési adatlap megmutatja, mid van, mennyi kell hozzá, és mi hiányzik.
 - Energiát használnak. Építés előtt az adatlap megmutatja az energiaegyenlegedet most és utána: **az építés energiahiányba vihet egy állomást**, ha a Napelem lemaradt a többi modul mögött, és egyetlen energiahiány minden farmot és gyűjtőt leállít. Kapcsolj ki egy modult, vagy előbb fejleszd a Napelemet.
@@ -135,48 +155,61 @@ A kilencedik modul a nyersanyagokat tudománnyá alakítja, és kikutatja azokat
 ### Építés és fejlesztés {#building-and-upgrading}
 
 - **Építés**: minden modul külön épül meg. Egy modul az építése pillanatában 1. szintű, és a fejlesztése növeli a termelését (vagy a termelt energiáját) és a raktárát, és azt is, mennyi energiát használ.
-- **Idő és költség**: a fejlesztések kreditbe és Thuliumba kerülnek, és időt vesznek igénybe. Egy ellátásilánc-modul fejlesztése 10 000 × 1,5^szint kreditbe és 500 × 1,5^szint Thuliumba kerül (az Erőforrás-raktárnál szintenként ×1,4). A költség nem függ az időtől.
+- **Idő és költség**: a fejlesztések kreditbe és Thuliumba kerülnek, és időt vesznek igénybe, és minden modulnak minden szintre saját ára és ideje van (vidd az egeret a **Fejlesztés** gomb fölé a következő megtekintéséhez; az összegek lent vannak). Az árat a fejlesztés indításakor fizeted. A költség nem függ az időtől.
 - **Időzítők**: a fejlesztés a szerver óráján fut, ezért akkor is befejeződik, amikor távol vagy, ha kell, napokkal később. Indítsd el, jelentkezz ki, gyere vissza: a modul az új szintjén van, amikor megnyitod a Skylab oldalt.
-- **Fejlesztési idők**: az első szintek gyorsak, az utolsók napokig tartanak (lásd az alábbi táblázatokat). Minden modulnak saját időzítője van, így többet is fejleszthetsz egyszerre.
-- **Termelési szünet**: amíg egy modult fejlesztenek, offline: nem termel, és nem használ energiát. A Napelem kivétel (lásd lent).
-- **A Napelem fejlesztés közben is termel energiát**: a Napelem termeli a Skylab összes energiáját, és fejlesztés közben (az utolsó szintnél 6 nap) tovább termeli a **jelenlegi** szintjének energiáját; az új szint energiája attól a pillanattól veszi át, hogy a fejlesztés véget ér. A farmok, a gyűjtők és a Kovácsműhely tovább működnek, amíg ez az energia fedezi őket, így a Napelem fejlesztése sosem kapcsolja ki az állomásodat, és a Kovácsműhely közben új adagot is indíthat. Csak a fejlesztés alatt álló modul van offline.
+- **Fejlesztési idők**: az első szintek gyorsak, az utolsók akár 36 óráig tartanak, a Magé akár 6 napig (lásd az alábbi táblázatokat). Minden modulnak saját időzítője van, így többet is fejleszthetsz egyszerre.
+- **Termelési szünet**: amíg egy modult fejlesztenek, offline: nem termel, és nem használ energiát. A Napelem kivétel: az energiája negyedét tovább termeli (lásd lent).
+- **A Napelem fejlesztés közben csak az energiája 25%-át termeli**: a Napelem termeli a Skylab összes energiáját, és fejlesztés közben (az utolsó szintnél 24 óra) a **jelenlegi** szintje energiájának egynegyedét termeli; az új szint energiája attól a pillanattól veszi át, hogy a fejlesztés véget ér. Egy teljes állomás nagyjából annak a 90%-át használja, amit a Napelem a saját szintjén termel, ennek az egynegyede tehát csak egy olyan állomást bír el, amely öt-hat szinttel a Napelem alatt van. Különben minden farm és gyűjtő leáll a teljes fejlesztés idejére, amit tárolsz, megmarad és begyűjthető, a Kovácsműhely pedig nem indít új adagot. Az a modul, amelyet fejlesztenek vagy kikapcsoltak, nem használ energiát, ezért a farmok fejlesztése a Napelemmel együtt nem kerül semmibe, a modulok kikapcsolása pedig helyet csinál a többinek; a Thuliumfarm használ messze a legtöbb energiát.
+
+### Mibe kerül {#what-it-costs}
+
+Az egész út ára, az építés plusz minden fejlesztés, a 10. szintig és a 20. szintig. A Mag mindig ott van, és a lépései csak kreditbe kerülnek; a Kutatóközpontnak 1–10. szintje van, és a számai a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon vannak.
+
+| Modul | Kredit a 10. szintig | Thulium a 10. szintig | Kredit a 20. szintig | Thulium a 20. szintig |
+| :--- | ---: | ---: | ---: | ---: |
+| Mag | 112 326 | 0 | 6 647 504 | 0 |
+| Napelem | 1 219 500 | 1 600 | 35 039 500 | 36 850 |
+| Kreditfarm | 840 000 | 109 | 26 240 000 | 2 399 |
+| Thuliumfarm | 1 154 000 | 4 190 | 32 254 000 | 67 890 |
+| Velkonite-gyűjtő | 696 000 | 6 950 | 20 996 000 | 78 950 |
+| Orvium-gyűjtő | 696 000 | 6 950 | 20 996 000 | 78 950 |
+| Erőforrás-raktár | 619 500 | 359 | 18 169 500 | 2 649 |
+| Kovácsműhely | 1 224 000 | 2 050 | 35 044 000 | 37 300 |
+
+Az első lépések olcsók, az utolsók drágák: a Kreditfarm lépése az 1. szintről a 2.-ra 5 000 kreditbe és 1 Thuliumba kerül, a 19.-ről a 20.-ra 7 000 000 kreditbe és 550 Thuliumba. A Thuliumfarmé 7 000 kredit és 45 Thulium, majd 8 500 000 kredit és 16 000 Thulium. A Napelem fejlesztései minden szinten ugyanannyiba kerülnek, mint a Kovácsműheléi, és a két gyűjtő ugyanannyiba kerül.
 
 ### Fejlesztési idők {#upgrade-times}
 
 <!-- upgrade-times:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by the test skylab::duration_tests::the_wiki_page_is_the_config (run it with SKYLAB_WIKI_WRITE=1 to rewrite this part). -->
 
-**1–5. szint**, modulonként (a fejlesztés az első oszlopban szereplő szintről indul):
+**Fejlesztési idők**, modulonként (a fejlesztés az első oszlopban szereplő szintről indul):
 
 | Szint | Mag | Napelem | Kreditfarm | Thuliumfarm | Erőforrás-raktár | Velkonite-gyűjtő | Orvium-gyűjtő | Kovácsműhely | Kutatóközpont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 → 2 | 72 mp | 36 mp | 78 mp | 168 mp | 56 mp | 78 mp | 78 mp | 78 mp | 78 mp |
-| 2 → 3 | 86 mp | 43 mp | 101 mp | 235 mp | 70 mp | 101 mp | 101 mp | 101 mp | 101 mp |
-| 3 → 4 | 104 mp | 52 mp | 132 mp | 329 mp | 88 mp | 132 mp | 132 mp | 132 mp | 132 mp |
-| 4 → 5 | 124 mp | 62 mp | 171 mp | 461 mp | 110 mp | 171 mp | 171 mp | 171 mp | 171 mp |
-| 5 → 6 | 149 mp | 75 mp | 223 mp | 11 perc | 137 mp | 223 mp | 223 mp | 223 mp | 223 mp |
-
-**A 6. szinttől** minden modulnál ugyanaz:
-
-| Fejlesztés | Idő | Összesen a 6. szinttől |
-| :--- | ---: | ---: |
-| 6 → 7 | 20 perc | 20 perc |
-| 7 → 8 | 30 perc | 50 perc |
-| 8 → 9 | 50 perc | 1 óra 40 perc |
-| 9 → 10 | 1 óra 20 perc | 3 óra |
-| 10 → 11 | 2 óra 15 perc | 5 óra 15 perc |
-| 11 → 12 | 3 óra 30 perc | 8 óra 45 perc |
-| 12 → 13 | 5 óra 30 perc | 14 óra 15 perc |
-| 13 → 14 | 9 óra | 23 óra 15 perc |
-| 14 → 15 | 14 óra | 1 nap 13 óra |
-| 15 → 16 | 1 nap | 2 nap 13 óra |
-| 16 → 17 | 1 nap 12 óra | 4 nap 1 óra |
-| 17 → 18 | 2 nap 12 óra | 6 nap 13 óra |
-| 18 → 19 | 4 nap | 10 nap 13 óra |
-| 19 → 20 | 6 nap | 16 nap 13 óra |
+| 1 → 2 | 72 mp | 5 perc | 5 perc | 5 perc | 5 perc | 5 perc | 5 perc | 5 perc | 78 mp |
+| 2 → 3 | 86 mp | 15 perc | 10 perc | 15 perc | 10 perc | 15 perc | 15 perc | 15 perc | 101 mp |
+| 3 → 4 | 104 mp | 30 perc | 15 perc | 30 perc | 15 perc | 20 perc | 20 perc | 30 perc | 132 mp |
+| 4 → 5 | 124 mp | 45 perc | 20 perc | 45 perc | 20 perc | 30 perc | 30 perc | 45 perc | 171 mp |
+| 5 → 6 | 149 mp | 1 óra | 30 perc | 1 óra | 30 perc | 45 perc | 45 perc | 1 óra | 223 mp |
+| 6 → 7 | 20 perc | 1 óra 15 perc | 45 perc | 1 óra 30 perc | 45 perc | 50 perc | 50 perc | 1 óra 15 perc | 20 perc |
+| 7 → 8 | 30 perc | 1 óra 30 perc | 1 óra | 2 óra | 1 óra | 1 óra | 1 óra | 1 óra 30 perc | 30 perc |
+| 8 → 9 | 50 perc | 2 óra | 1 óra 20 perc | 3 óra | 1 óra 20 perc | 1 óra 15 perc | 1 óra 15 perc | 2 óra | 50 perc |
+| 9 → 10 | 1 óra 20 perc | 3 óra | 1 óra 40 perc | 4 óra | 1 óra 40 perc | 1 óra 30 perc | 1 óra 30 perc | 3 óra | 1 óra 20 perc |
+| 10 → 11 | 2 óra 15 perc | 4 óra | 2 óra | 5 óra | 2 óra | 2 óra | 2 óra | 4 óra | – |
+| 11 → 12 | 3 óra 30 perc | 5 óra | 2 óra 30 perc | 6 óra | 2 óra 30 perc | 3 óra | 3 óra | 5 óra | – |
+| 12 → 13 | 5 óra 30 perc | 6 óra | 3 óra | 8 óra | 3 óra | 4 óra | 4 óra | 6 óra | – |
+| 13 → 14 | 9 óra | 8 óra | 3 óra 30 perc | 10 óra | 3 óra 30 perc | 6 óra | 6 óra | 8 óra | – |
+| 14 → 15 | 14 óra | 10 óra | 4 óra | 11 óra | 4 óra | 8 óra | 8 óra | 10 óra | – |
+| 15 → 16 | 1 nap | 12 óra | 5 óra | 12 óra | 5 óra | 10 óra | 10 óra | 12 óra | – |
+| 16 → 17 | 1 nap 12 óra | 16 óra | 6 óra | 14 óra | 6 óra | 12 óra | 12 óra | 16 óra | – |
+| 17 → 18 | 2 nap 12 óra | 18 óra | 8 óra | 18 óra | 8 óra | 16 óra | 18 óra | 18 óra | – |
+| 18 → 19 | 4 nap | 20 óra | 10 óra | 1 nap | 10 óra | 20 óra | 1 nap | 20 óra | – |
+| 19 → 20 | 6 nap | 1 nap | 12 óra | 1 nap 12 óra | 12 óra | 1 nap | 1 nap 12 óra | 1 nap | – |
+| **Összesen** | 16 nap 13 óra | 5 nap 13 óra | 2 nap 14 óra | 6 nap 13 óra | 2 nap 14 óra | 4 nap 16 óra | 5 nap 10 óra | 5 nap 13 óra | 3 óra 12 perc |
 <!-- upgrade-times:end -->
 
-Egy fejlesztés, amely már fut, amikor az idők megváltoznak, megtartja a neki adott befejezési időt. Csak a Mag fejlesztése az 1. szintről a 20. szintre egymás után nagyjából **16 és fél napig** tart. Egyetlen modul sem mehet a Mag szintje fölé, így minden más modul utolsó lépése (6 nap) csak akkor indulhat, amikor a Mag a 20. szinten van: ha minden időzítő végig foglalt, és megvan a kredit meg a Thulium, az egész állomás nagyjából **22 és fél nap** alatt készül el.
+Egy fejlesztés, amely már fut, amikor az idők megváltoznak, megtartja a neki adott befejezési időt. Csak a Mag fejlesztése az 1. szintről a 20. szintre egymás után nagyjából **16 és fél napig** tart. Egyetlen modul sem mehet a Mag szintje fölé, így minden más modul utolsó lépése (12–36 óra) csak akkor indulhat, amikor a Mag a 20. szinten van: ha minden időzítő végig foglalt, és megvan a kredit meg a Thulium, az egész állomás nagyjából **18 nap** alatt készül el.
 
 ### Energiagazdálkodás {#power-management}
 
@@ -186,6 +219,7 @@ A Skylabodnak korlátozott az energiakerete.
 - **A Napelem lépést tart**: egy N. szintű Napelem **az összes többi modul energiáját fedezi az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont), és még nagyjából egy tizedet, így az az állomás, amelynek minden modulja a 7. szinten van, 7. szintű Napelemet igényel, és az fedezi is. Egy szinttel alacsonyabb Napelem nem elég egy teljes állomásnak (az utolsó oszlop), ezért a Napelemnek továbbra is követnie kell a többit felfelé. A Mag keveset fogyaszt, ezért előrefuthat: az 5. vagy magasabb szintű Napelem egy teljes, a saját szintjén álló állomást fedez, a Mag bármelyik szintjével.
 - **Aktív állapot**: a farmokat, a gyűjtőket és a Kovácsműhelyt be- vagy kikapcsolhatod az energia kezeléséhez. A Mag, a Napelem, az Erőforrás-raktár és a Kutatóközpont mindig működik.
 - **Energiahiány**: ha az energiafogyasztás nagyobb a termelt energiánál, minden farm és gyűjtő leáll a termeléssel, amíg az egyenleg helyre nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem indít új adagot, a Kutatóközpont pedig új kutatást (a már futó kutatás tovább megy).
+- **A Napelem fejlesztése**: amíg a Napelemet fejlesztik, az energiájának csak a negyedét termeli, ezért ha a többi modulod nincs jóval alatta, az állomás hiányba kerül, és a farmok meg a gyűjtők leállnak, amíg a fejlesztés el nem készül (lásd: [Napelem modul](#solar-module)).
 
 A Napelem energiája minden szinten, szemben azzal, amit a többi modul használ ugyanazon a szinten (minden modul azon a szinten, a Magot is beleértve, a Kutatóközpontot pedig a 10. szinttől):
 
@@ -232,3 +266,45 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 ### A wipe {#the-wipe}
 
 A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a belehelyezett Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik.
+
+## A Skylabod megtervezése {#planning-your-skylab}
+
+A Skylab hetekig nő, ezért egy kis tervezés megtérül. A számok a fenti táblázatok.
+
+### Mit fejlessz először {#what-to-upgrade-first}
+
+1. **Először a Napelem, aztán a Kreditfarm.** A Napelem 500 kreditbe és 50 Thuliumba kerül, és nélküle semmi sem működik; a Kreditfarm semmibe sem kerül. A tíz [állomásküldetés](/wiki/03-Mechanics/Quests.md#station-missions) végigvisz ezeken az első lépéseken, és 52 000 kreditet meg 610 Thuliumot fizet értük, alapértékben: a világod, a boostereid és a klánod bónuszai megszorozzák.
+2. **Aztán a Thuliumfarm: ez a fő Thulium-forrásod.** A 10. szinten óránként 450 Thuliumot termel, naponta 10 800-at, annyit, amennyit 54 [Crystalys](/wiki/04-Aliens/Crystalys.md) lelövése fizet Alphában (egyenként 200). A 10. szintig vezető út 1 154 000 kreditbe és 4 190 Thuliumba kerül, az építést is beleszámítva. A 15. szinten a farm naponta 22 800-at, a 20. szinten 38 400-at termel. A tárolója 72 órát bír, ezért legalább háromnaponta nézz vissza. Hogy mit lehet venni Thuliumért, azt a [Nyersanyagok](/wiki/06-Items/Resources.md#thulium) oldal mutatja.
+3. **A Kreditfarm az egyenletes mellékjövedelem.** A 10. szinten óránként 7 500 kreditet, naponta 180 000-et termel, 840 000 kreditért és 109 Thuliumért. A magasabb szintek lassan térülnek meg: a 9.-ről a 10. szintre vezető lépés 300 000 kreditbe kerül óránként 1 000 többletért, vagyis 300 óra alatt térül meg. Akkor fejleszd, ha marad felesleges kredited.
+4. **Tartsd foglalkoztatva a Magot.** Semmi sem megy a Mag fölé, és a Mag egyedül nagyjából 16 és fél nap alatt ér el a 20. szintre. Nincs sor, ezért minden visszatéréskor indítsd el a következő lépését.
+5. **Az ellátási láncot egy csomagban építsd.** A gyűjtők, az Erőforrás-raktár és a Kovácsműhely a Mag 5. szintjén nyílnak meg. Egy gyűjtő csak Erőforrás-raktárba tud ércet betenni, és a raktár az 1. szinten a gyűjtője egynapi termelését, a 20. szinten négynapit bír el, ezért az Erőforrás-raktárt a gyűjtőkkel együtt fejleszd, különben az érc a tárolójukban vár.
+
+### A Napelem fejlesztésének időzítése {#timing-a-solar-upgrade}
+
+Amíg a Napelemet fejlesztik, az energiája negyedét termeli, és egy állomás szinte mindig többet használ ennél. A farmok és a gyűjtők ilyenkor leállnak a teljes fejlesztés idejére: amit tárolnak, megmarad, de amit termelhettek volna, elvész. A táblázat minden Napelem-lépésnél megadja az idejét, a legnagyobb állomást, amely még átmegy rajta (minden modul ugyanazon a szinten, a Maggal és az ellátási lánccal együtt; egy kisebb állomás kicsit tovább bírja), és azt, hogy egy ilyen szintű Kreditfarm és Thuliumfarm mennyit termelt volna közben. Például a Napelem 10-ről 11-re négy óra, és a 10. szintű farmok ennyi idő alatt 30 000 kreditet és 1 800 Thuliumot termeltek volna.
+
+| Napelem-fejlesztés | Idő | Állomás, amely tovább működik, a szintig | A Kreditfarm közben ennyit termel | A Thuliumfarm közben ennyit termel |
+| :--- | ---: | ---: | ---: | ---: |
+| 1 → 2 | 5 perc | egy sem | 42 | 4 |
+| 2 → 3 | 15 perc | egy sem | 250 | 20 |
+| 3 → 4 | 30 perc | egy sem | 750 | 55 |
+| 4 → 5 | 45 perc | egy sem | 1 500 | 105 |
+| 5 → 6 | 1 óra | egy sem | 2 500 | 180 |
+| 6 → 7 | 1 óra 15 perc | egy sem | 4 375 | 288 |
+| 7 → 8 | 1 óra 30 perc | egy sem | 6 750 | 420 |
+| 8 → 9 | 2 óra | 1 | 11 000 | 660 |
+| 9 → 10 | 3 óra | 2 | 19 500 | 1 140 |
+| 10 → 11 | 4 óra | 4 | 30 000 | 1 800 |
+| 11 → 12 | 5 óra | 5 | 45 000 | 2 750 |
+| 12 → 13 | 6 óra | 6 | 66 000 | 3 900 |
+| 13 → 14 | 8 óra | 7 | 104 000 | 6 000 |
+| 14 → 15 | 10 óra | 8 | 150 000 | 8 500 |
+| 15 → 16 | 12 óra | 9 | 204 000 | 11 400 |
+| 16 → 17 | 16 óra | 10 | 320 000 | 17 600 |
+| 17 → 18 | 18 óra | 11 | 432 000 | 22 500 |
+| 18 → 19 | 20 óra | 12 | 580 000 | 28 000 |
+| 19 → 20 | 1 nap | 13 | 840 000 | 36 000 |
+
+- **Fejleszd a farmokat a Napelemmel együtt.** A fejlesztés alatt álló modul amúgy sem termel és nem használ energiát, ezért az az idő, amelyet egy farm a szünet alatt fejlesztéssel tölt, nem kerül semmibe.
+- **Tartsd alacsonyan a többi modult, ha nem engedhetsz meg magadnak szünetet.** Egy állomás csak akkor megy át egy Napelem-fejlesztésen, ha az összes többi modulja legalább öt szinttel a Napelem alatt van (a Napelem 10. szintjétől hattal), és egy teljes állomásnak valamivel több kell, ahogy a táblázat mutatja.
+- **Kapcsold ki, amire nincs szükséged.** A kikapcsolt modul nem használ energiát, ezért a Thuliumfarm kikapcsolása, amely a legtöbbet használ (az 1. szinten 80-at, szintenként 30%-kal többet), helyet csinál a többinek.

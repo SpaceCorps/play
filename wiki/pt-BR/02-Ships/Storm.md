@@ -1,21 +1,21 @@
-<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
 <!-- wiki-i18n title: Storm -->
-# Storm {#storm}
+# Storm
 
-A Storm é um caça estelar de canhão de vidro: a velocidade base mais alta de todas as naves e dez lasers em um casco leve para a sua classe. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
+A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior número de lasers de todas as naves (13) em um casco leve para a sua classe. Pela classificação do jogo (mais de 10 slots de laser), é um Encouraçado Classe IV. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 160.000
-- **Velocidade base**: 240
-- **Slots de laser**: 10
+- **Pontos de vida (HP)**: 150.000
+- **Velocidade base**: 250
+- **Slots de laser**: 13
 - **Slots extras**: 3
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
-- **Slots de núcleo (100% de eficiência)**: 3
+- **Slots de núcleo (100% de eficiência)**: 4
 - **Slots de suporte (75% de eficiência)**: 4
-- **Slots auxiliares (50% de eficiência)**: 3
+- **Slots auxiliares (50% de eficiência)**: 2
 
 ---
 
@@ -38,4 +38,4 @@ Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem cus
 
 ## História {#lore}
 
-A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem branco-osso sobre uma estrutura azul-petróleo, com painéis e faixas de luz laranja, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez armas ao todo, com todas as bocas bem à vista. O que não tem é espaço para blindagem. O casco dela tem cerca de metade do de uma Wraith e cerca de um quarto do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.
+A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem branco-osso sobre uma estrutura azul-petróleo, com painéis e faixas de luz laranja, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam treze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de metade do de uma Wraith e cerca de um quarto do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.

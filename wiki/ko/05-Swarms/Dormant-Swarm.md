@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant 무리 -->
 # Dormant 무리 {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 바탕은 Wraith이며, 선체와 실드, 피해량은 그 100%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 | 선체 | 324,000 | 486,000 | 648,000 |
 | 실드 | 83,400 | 125,100 | 166,800 |
 | 레이저 피해량(초당 일제 사격 1회) | 2,880 | 4,320 | 5,760 |
-| 속도 | 225 | 225 | 225 |
+| 속도 | 220 | 220 | 220 |
 | 레이저 사거리 | 800 | 800 | 800 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
 | 로켓 피해량(최대) | 7,500 | 11,250 | 15,000 |
@@ -74,7 +74,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 | 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)와 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 중 무작위 하나 | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 바탕은 Paragon이며, 선체와 실드, 피해량은 그 100%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

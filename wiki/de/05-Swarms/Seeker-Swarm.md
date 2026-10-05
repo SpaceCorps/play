@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Seeker-Schwarm -->
 # Seeker-Schwarm {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Basis: Seeker mit 400 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds.
 
@@ -74,7 +74,7 @@ Basis: Seeker mit 400 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Ultra Core | 100 % | 2–4 |
 | Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Basis: Seeker mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds.
 

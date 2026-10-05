@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -73,8 +73,8 @@ Die Montage-Seite zeigt, was du hast, im Vergleich zu dem, was ein Rezept verlan
 Woher die Platten kommen:
 
 - **Velkonite Reinforced Plates** (Quantum Laser 3 und Starfire-3) werden aus Velkonite geschmiedet, 40 Erz pro Platte auf Schmiede-Level 1. **Orvium Reinforced Plates** (Helios Beam) werden aus Orvium geschmiedet, 80 Erz pro Platte.
-- Das Erz kommt nur aus den Kollektoren deines Skylab. Ein Velkonite-Kollektor auf Level 5 baut etwa 29 Velkonite pro Stunde ab, die Platten eines Quantum Laser 3 brauchen also etwa 3 Stunden Abbau und die zehn Platten eines Starfire-3 (zwei in seinem Quantum Laser 3, acht in seinem eigenen Schritt) etwa 14. Der Helios Beam ist der langwierige: Seine 18 Platten brauchen 1.440 Orvium, etwa 4 Tage von einem Orvium-Kollektor auf Level 5.
-- Das Ressourcenlager fasst auf Level 1 je 900 Erz jeder Sorte, schmiede also laufend (eine Charge der Schmiede sind auf Level 1 10 Platten) oder baue das Lager aus.
+- Das Erz kommt nur aus den Kollektoren deines Skylab. Ein Velkonite-Kollektor auf Level 5 baut 18 Velkonite pro Stunde ab, die Platten eines Quantum Laser 3 brauchen also etwa 4 Stunden Abbau und die zehn Platten eines Starfire-3 (zwei in seinem Quantum Laser 3, acht in seinem eigenen Schritt) etwa 22. Der Helios Beam ist der langwierige: Seine 18 Platten brauchen 1.440 Orvium, etwa 4 Tage von einem Orvium-Kollektor auf Level 5.
+- Das Ressourcenlager fasst auf Level 1 je 240 Erz jeder Sorte: 6 Velkonite-Platten oder 3 Orvium-Platten auf Schmiede-Level 1. Schmiede also laufend (eine Charge der Schmiede sind auf Level 1 bis zu 10 Platten) oder baue das Lager aus.
 - Geschmiedete Platten warten in der Schmiede, bis du sie abholst, während dein Schiff gelandet ist, und landen als gewöhnliche Gegenstände in deinem Inventar.
 
 Ship Fragments, Cataclysite, Power Cores und Reinforced Hull Plates fallen bei Aliens ab; jede Quelle und Verwendung jedes Materials steht auf der Seite [Ressourcen](/wiki/06-Items/Resources.md); die Beutelisten auf den Seiten des [Bulwark](/wiki/04-Aliens/Bulwark.md) und des [Goombah](/wiki/04-Aliens/Goombah.md) zeigen, wie viel.
@@ -120,7 +120,7 @@ Verbrauchsbatterien, die den Schaden deiner Laser-Salven vervielfachen:
 
 Die **Schilddurchdringung** wird bei jedem Treffer deiner Salven von der Absorption deines Ziels abgezogen: Die Schilde nehmen die Absorption des Ziels abzüglich der Durchdringung (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Gegen ein Schiff mit 80 % (der beste Schild mit den besten Zellen) lassen die 10 % der x4-Munition den Schilden 70 % des Treffers und der Hülle 30 %. Sie zählt am meisten gegen Schiffe, deren Hülle neben ihrem Schild klein ist; ein sehr großes Schiff mit 80 % hält so oder so gleich viel aus. Aliens haben keinen nennenswerten Absorptionswert (ihre Schilde nehmen 80 % eines Treffers), und die Durchdringung wird auch davon abgezogen.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 Die Siphon Battery ist Munition, um Schilde zu rauben, statt Hüllen zu brechen. Sie verursacht **x1 Schaden direkt am Schild des Ziels** und schreibt dieselbe Menge **deinem eigenen Schild** gut, bis zu deinem Maximum. Wähle sie in der Munitionsauswahl der Aktionsleiste wie jede andere Munition (es ist die Kachel mit dem türkisen Wirbel). Sie feuert keinen Strahl: Eine dünne, schwache türkise Sonde fliegt zum Ziel, der Schild des Ziels flammt dort türkis auf, wo sie trifft, und der Schild, den du abgesaugt hast, strömt sichtbar als leuchtende türkise Pakete zu deinem Schiff zurück (drei bis zehn, mehr bei einem größeren Entzug), eines nach dem anderen über etwa eine halbe Sekunde. Jedes Paket, das ankommt, lässt deinen Schild pulsieren. Dasselbe siehst du bei der Siphon Battery jedes Piloten in Sichtweite, egal wen sie anzapft: Aliens, andere Piloten und die Schiffe von Konzernpiloten.
 

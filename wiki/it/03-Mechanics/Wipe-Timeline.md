@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
 L’universo di SpaceCorps è governato da un ciclo stagionale ricorrente. Ogni 30 giorni la galassia subisce un azzeramento cosmico, il **reset**. Un reset può sembrare scoraggiante, ma è la prova suprema di preparazione e pianificazione: ti permette di portare con te il tuo equipaggiamento migliore, scegliere il mondo successivo e costruire bonus permanenti che attraversano le stagioni.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## Calendario della stagione di 30 giorni {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ I seguenti oggetti sono sempre protetti e passano alla stagione successiva autom
 1. La tua nave attualmente attiva.
 2. Ogni oggetto attualmente equipaggiato su quella nave attiva, in entrambe le configurazioni, **Configurazione 1** e **Configurazione 2** (compresi laser, scudi, motori e generatori).
 3. Ogni drone che possiedi, con il suo livello e la sua esperienza: i tuoi [Slave Drone](/wiki/03-Mechanics/Drones.md) restano, quindi i tuoi slot per droni restano aperti e il prezzo del tuo prossimo drone prosegue da quanti ne hai. I laser e gli scudi montati in uno slot di un drone seguono la regola qui sopra: restano se sono sulla nave attiva.
+4. Ogni formazione di droni che possiedi ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)), ovunque si trovi: nell’inventario, sulla tua barra rapida o su una nave. Come i tuoi droni, restano senza occupare capacità del Deposito di trasporto.
 
 ### Passaggio manuale (Deposito di trasporto) {#manual-carry-over-transport-cache-}
 Per gli oggetti aggiuntivi nel tuo inventario che vuoi salvare (ad es. armi di scorta, risorse per la creazione o generatori di scudi extra):
@@ -83,7 +86,7 @@ SpaceCorps ha tre **mondi**. Ognuno è una copia separata dell’intera galassia
 Come funzionano i mondi:
 
 * **Alieni**: la forza degli alieni di un mondo moltiplica i loro punti scafo, i loro scudi, la ricarica dello scudo e il loro danno. La loro velocità e la loro portata sono le stesse ovunque.
-* **Premi**: un abbattimento paga in base al mondo in cui avviene. Una missione paga in base al mondo in cui l’hai completata (il più basso, se si estende su due), in qualunque mondo tu la riscuota, e il limite di una missione a tempo è 1,5 volte più lungo in Beta e il doppio in Gamma ([Missioni](/wiki/03-Mechanics/Quests.md)). Il bottino e i piloti di corporazione sono gli stessi in ogni mondo, quindi un mondo più alto fa guadagnare di più all’ora, ma i suoi scontri costano più riparazioni.
+* **Premi**: un abbattimento paga in base al mondo in cui avviene. Una missione paga in base al mondo in cui l’hai completata (il più basso, se si estende su due), in qualunque mondo tu la riscuota (una missione Stazione non ha un mondo suo e paga il mondo in cui voli quando la riscuoti), e il limite di una missione a tempo è 1,5 volte più lungo in Beta e il doppio in Gamma ([Missioni](/wiki/03-Mechanics/Quests.md)). Il bottino e i piloti di corporazione sono gli stessi in ogni mondo, quindi un mondo più alto fa guadagnare di più all’ora, ma i suoi scontri costano più riparazioni.
 * **PvP**: tutti su una mappa appartengono al suo mondo, quindi una sola regola vale per l’intera mappa, piloti di corporazione compresi. Le zone sicure e il Protocollo di pace (giorni 1–3) proteggono ogni mondo.
 * **In volo**: il nome del mondo sta prima dell’ID del settore in alto a destra (“Beta · M-2”). Il badge nella barra del titolo della finestra Nave dice dove ti trovi: **Sicura** in una zona sicura, **No PvP** durante il Protocollo di pace o dove il tuo mondo vieta il PvP, **PvP** dove altri piloti possono attaccarti. Passaci sopra con il puntatore per leggere la regola. La [mappa galattica](/wiki/01-General/Spacemap%20Travel.md) colora i settori secondo la regola del tuo mondo.
 
@@ -97,7 +100,9 @@ Come funzionano i mondi:
 
 ## Progressione tra le stagioni (potenziamenti permanenti) {#cross-season-progression-permanent-buffs-}
 
-Il reset si porta via le tue navi e i tuoi oggetti (tranne la tua nave attiva con tutto ciò che vi è montato, il tuo Deposito di trasporto e i tuoi droni) e ti riporta al settore base della tua corporazione; il tuo livello, i tuoi crediti, il tuo Thulium e i tuoi punti classifica non vengono azzerati. In più, i tuoi risultati complessivi da pilota contribuiscono a una potenza permanente. Sconfiggere alieni e completare missioni assegna **punti reset (PR)**. Le tue [missioni](/wiki/03-Mechanics/Quests.md) stesse, completate e in corso, passano alla stagione successiva: ognuna si può completare una volta per pilota, per sempre.
+Il reset si porta via le tue navi e i tuoi oggetti (tranne la tua nave attiva con tutto ciò che vi è montato, il tuo Deposito di trasporto e i tuoi droni) e ti riporta al settore base della tua corporazione; il tuo livello, i tuoi crediti, il tuo Thulium e i tuoi punti classifica non vengono azzerati. In più, i tuoi risultati complessivi da pilota contribuiscono a una potenza permanente. Sconfiggere alieni e completare missioni assegna **punti reset (PR)**. Le tue [missioni](/wiki/03-Mechanics/Quests.md) stesse, completate e in corso, passano alla stagione successiva: ognuna si può completare una volta per pilota, per sempre, tranne le missioni di livello che l’aggiornamento 0.4.10 ha rielaborato: 64 di loro vengono offerte ancora una volta ([Missioni](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Clan e gradi.** I punti, i livelli dei potenziamenti e le linee giornaliere di un clan ricominciano a ogni reset, quindi ogni stagione è una nuova corsa ai potenziamenti al massimo; il clan stesso, i suoi membri, la sua banca e la sua tassa restano ([Clan](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Resta anche il tuo grado di corporazione: segue i tuoi punti classifica PvE, che un reset non azzera ([Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### L’Emporio dei potenziamenti permanenti {#the-permanent-buff-store}
 Puoi spendere i tuoi PR accumulati in potenziamenti permanenti che passano a tutte le stagioni per sempre. Questi potenziamenti si sommano e danno consistenti bonus passivi:
@@ -128,4 +133,4 @@ I punti reset vengono dai traguardi che riscuoti tu stesso, nel gioco in **Stagi
 
 Contano solo gli abbattimenti che ti vengono pagati (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)). Un traguardo paga quando è completo: 99 Seeker non pagano nulla, il 100º paga 1 PR, e gli abbattimenti successivi contano per il 200º.
 
-**Missioni.** La prima missione che completi paga 5 PR, poi ogni 5ª (la 5ª, la 10ª, la 15ª e così via, fino alla 100ª) paga altri 5 PR, 105 PR in tutto.
+**Missioni.** La prima missione che completi paga 5 PR, poi ogni 5ª (la 5ª, la 10ª, la 15ª e così via, fino alla 85ª) paga altri 5 PR, 90 PR in tutto. Contano solo le missioni di livello (88 in tutto, non le missioni Stazione né la linea delle Sfide, vedi [Missioni](/wiki/03-Mechanics/Quests.md)), e una missione di livello rielaborata che rifai non viene contata una seconda volta.

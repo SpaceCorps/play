@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant-svärm -->
 # Dormant-svärm {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Sw
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd
 | Skrov | 324 000 | 486 000 | 648 000 |
 | Sköld | 83 400 | 125 100 | 166 800 |
 | Laserskada (en salva per sekund) | 2 880 | 4 320 | 5 760 |
-| Hastighet | 225 | 225 | 225 |
+| Hastighet | 220 | 220 | 220 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 7 500 | 11 250 | 15 000 |
@@ -74,7 +74,7 @@ Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd
 | En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 30–50 |
 | En av [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) och [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), slumpmässigt vald | 50 % | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Bygger på Paragon med 100 % av skrov, sköld och skada; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

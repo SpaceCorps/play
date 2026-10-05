@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -9,6 +9,8 @@ Un **essaim** est un groupe d’aliens qui parcourt une partie de la galaxie sou
 - [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) : la Dormant Force et ses Dormant Pulses, l’essaim le plus fort, au butin le plus riche.
 
 Leurs vaisseaux sont des **aliens d’espèces à part** : ils ont leurs propres noms et leurs propres compteurs d’éliminations, et aucun ne compte comme un Seeker, un Phantasm ou un autre alien. Un vaisseau d’essaim a la forme du vaisseau sur lequel il est construit, avec une teinte à lui et son nom au-dessus ; le Boss Seeker est un Seeker bien plus grand.
+
+Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son propre Gardien pour la dernière étape de sa ligne du jour, et seul ce clan peut le blesser : aucun pilote n’en croise un qui rôde dans un secteur, et les tableaux ci-dessous ne les listent pas. Voir [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Les trois essaims {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Chaque élimination est comptée sous le nom propre du vaisseau dans vos statist
 
 <!-- swarms-points:end -->
 
-Une élimination d’essaim ne compte pas comme celle d’un autre alien : un Boss Seeker ou un Seeker Slave n’est pas un Seeker pour une mission qui demande des Seekers, et les paliers des points de réinitialisation ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) sont ceux des cinq aliens seulement.
+Une élimination d’essaim ne compte pas comme celle d’un autre alien : un Boss Seeker ou un Seeker Slave n’est pas un Seeker pour une mission qui demande des Seekers, et les paliers des points de réinitialisation ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) sont ceux des cinq aliens seulement. Les missions qui demandent des vaisseaux d’essaim sont listées dans [Missions d’essaim](/wiki/03-Mechanics/Quests.md#swarm-missions).

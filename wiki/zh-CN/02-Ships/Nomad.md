@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Nomad 是一艘巡洋舰，船体和火炮都是 Ostirion 的两倍：一艘介于 Ostirion 与 Paragon 之间的锤头型舰船，在商店里同时用信用点和 Thulium 购买。任何飞行员都可以购买。
 
@@ -9,7 +9,7 @@ Nomad 是一艘巡洋舰，船体和火炮都是 Ostirion 的两倍：一艘介�
 - **生命值（HP）**：96,000
 - **基础速度**：200
 - **激光槽位**：6
-- **附加槽位**：3
+- **附加槽位**：2
 
 ### 发生器与支援槽位 {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Nomad 是一艘巡洋舰，船体和火炮都是 Ostirion 的两倍：一艘介�
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **无需研究。** 这艘舰船没有自己的科技。
-- **更多附加槽位。** 安装在你的 Skylab 中的 Extra Slots CPU I、II、III，分别为这艘舰船增加 3、5、7 个附加槽位，加上它本来就有的 3 个，总共是 6、8、10 个。它们和其他物品一样先研究、再制造：见 [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)。
+- **更多附加槽位。** 安装在你的 Skylab 中的 Extra Slots CPU I、II、III，分别为这艘舰船增加 3、5、7 个附加槽位，加上它本来就有的 2 个，总共是 5、7、9 个。它们和其他物品一样先研究、再制造：见 [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)。
 
 <!-- research-ship:end -->
 

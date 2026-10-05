@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -13,13 +13,15 @@ Skeppets slutliga sköldvärden beräknas så här:
 
 ### 1. Platseffektivitet och avtagande avkastning {#1-slot-efficiency-diminishing-returns}
 
-Liksom motorer sorteras utrustade sköldar (och hybridgeneratorer) efter kapacitet och påverkas av platseffektivitet (kärnplats: 100 %, stödplats: 75 %, hjälpplats: 50 %, en drönares plats: 100 %, som en kärnplats) och en kurva för avtagande avkastning utifrån deras rang. En sköld på en av dina [drönare](/wiki/03-Mechanics/Drones.md) rangordnas med skeppets egna:
+Liksom motorer sorteras utrustade sköldar (och hybridgeneratorer) med de bästa först och påverkas av platseffektivitet (kärnplats: 100 %, stödplats: 75 %, hjälpplats: 50 %, en drönares plats: 100 %, som en kärnplats) och en kurva för avtagande avkastning utifrån deras rang. En sköld rangordnas efter vad som räknas av den: dess kapacitet gånger platsens andel. Återladdningen har en egen ordning (dess värde gånger platsens andel), och de **fyra bästa** sköldbonusarna räknas. En sköld på en av dina [drönare](/wiki/03-Mechanics/Drones.md) rangordnas med skeppets egna:
 
 - **1:a till 4:e skölden**: **100 %** (1,0) marginaleffektivitet.
 - **5:e skölden**: **85 %** (0,85) marginaleffektivitet.
 - **6:e skölden**: **70 %** (0,70) marginaleffektivitet.
 - **7:e skölden**: **55 %** (0,55) marginaleffektivitet.
 - **8:e och därefter**: **50 %** (0,50) marginaleffektivitet. (Till och med version 0.4.7 var det 25 %, som för motorerna; motorerna har kvar 25 %, se [Hastighet](/wiki/03-Mechanics/Speed.md).)
+
+**Mer utrustning sänker aldrig din sköld.** Att lägga till en sköld eller en sköldcell sänker aldrig din sköldkapacitet eller din återladdning: varje tal rangordnas med det bästa först efter vad som räknas, så en ny del tar den plats den förtjänar. Absorptionen är medelvärdet av dina sköldar, så den sänks av en ny sköld som är svagare än ditt medelvärde; en cell sänker den aldrig.
 
 **Hangaren visar det.** En sköld, en motor eller en adaptiv kärna som inte räknas med hela sin styrka har en liten procentsats på sin plats (till exempel `64%`: den 5:e skölden, 85 %, på en stödplats, 75 %), och håller du pekaren över den visas uppdelningen. Håll pekaren över rutorna Sköldar och Hastighet bland stridsvärdena för att se dina föremål efter plats och vad en till skulle räknas för. Skeppsfönstret under flygning visar samma listor när du håller pekaren över sköldmätaren och hastigheten.
 
@@ -68,4 +70,4 @@ Se [Boosters](/wiki/06-Items/Boosters.md) för siffrorna.
 Sköldar regenereras passivt över tid så att du är redo för strid.
 
 - **Regenereringstick**: Om sköldarna ligger under maximal kapacitet återställer de sköldpoäng motsvarande din laddningstakt per sekund.
-- **Avbrott vid strid (15 s fördröjning)**: Regenereringen upphör när du tar skada och återupptas först efter **15 sekunder** utan skada.
+- **Avbrott vid strid (15 s fördröjning)**: Regenereringen upphör när du tar skada och återupptas först efter **15 sekunder** utan skada. Drönarformationerna Adamant och Redoubt ([Drönarformationer](/wiki/03-Mechanics/Formations.md)) är undantaget: de ger tillbaka sköld varje sekund, även i strid.

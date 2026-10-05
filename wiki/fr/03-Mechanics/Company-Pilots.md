@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 56d4ff7e377afa21 -->
+<!-- wiki-i18n source: a811f0df5512e3b7 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
 Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses secteurs d’origine (`M-1` à `M-4`, `T-1` à `T-4`, `G-1` à `G-4`). Ils volent pour la corporation jour et nuit et prêtent main-forte à ses pilotes.
+
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Qui sont-ils {#who-they-are}
 
@@ -12,6 +15,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
   - absorption de 45 % : leurs boucliers prennent 45 % de chaque tir, la coque 55 %
   - 195 de dégâts de base par salve (munitions x1), aucun taux critique, portée de 700
 - **Sur la mini-carte** : un losange vert pour les pilotes de votre corporation, un losange ambre pour ceux d’une autre corporation.
+- **Pas de grade** : le petit symbole devant le nom d’un pilote en vol est son [grade](/wiki/03-Mechanics/Ranks.md) et appartient aux vrais pilotes. Les pilotes de corporation n’en ont pas. La page Corporation classe les vrais pilotes de votre corporation selon leurs points PvE.
 
 ## Ce qu’ils font {#what-they-do}
 

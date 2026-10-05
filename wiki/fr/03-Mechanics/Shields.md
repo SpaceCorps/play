@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Boucliers -->
 # Mécaniques des boucliers {#shield-mechanics}
 
@@ -13,13 +13,15 @@ Les paramètres finaux de bouclier de votre vaisseau sont calculés ainsi :
 
 ### 1. Efficacité des emplacements et rendements décroissants {#1-slot-efficiency-diminishing-returns}
 
-Comme pour les moteurs, les boucliers équipés (et les générateurs hybrides) sont triés par capacité, puis soumis à l’efficacité de leur emplacement (principal : 100 %, de soutien : 75 %, auxiliaire : 50 %, emplacement de drone : 100 %, comme un emplacement principal) et à une courbe de rendements décroissants selon leur rang. Un bouclier sur l’un de vos [drones](/wiki/03-Mechanics/Drones.md) est classé avec ceux du vaisseau :
+Comme pour les moteurs, les boucliers équipés (et les générateurs hybrides) sont classés du meilleur au moins bon, puis soumis à l’efficacité de leur emplacement (principal : 100 %, de soutien : 75 %, auxiliaire : 50 %, emplacement de drone : 100 %, comme un emplacement principal) et à une courbe de rendements décroissants selon leur rang. Un bouclier est classé selon ce qui compte de lui : sa capacité multipliée par la part de son emplacement. La recharge a son propre ordre (sa valeur multipliée par la part de l’emplacement), et les **quatre meilleurs** bonus de bouclier comptent. Un bouclier sur l’un de vos [drones](/wiki/03-Mechanics/Drones.md) est classé avec ceux du vaisseau :
 
 - **1er au 4e bouclier** : efficacité marginale de **100 %** (1,0).
 - **5e bouclier** : efficacité marginale de **85 %** (0,85).
 - **6e bouclier** : efficacité marginale de **70 %** (0,70).
 - **7e bouclier** : efficacité marginale de **55 %** (0,55).
 - **8e bouclier et suivants** : efficacité marginale de **50 %** (0,50). (Jusqu’à la version 0.4.7, c’était 25 %, comme pour les moteurs ; les moteurs gardent 25 %, voir [Vitesse](/wiki/03-Mechanics/Speed.md).)
+
+**Ajouter ne baisse jamais votre bouclier.** Ajouter un bouclier ou une cellule de bouclier ne baisse jamais votre capacité de bouclier ni votre recharge : chaque chiffre est classé du meilleur au moins bon selon ce qui compte, si bien qu’une nouvelle pièce prend la place qu’elle mérite. L’absorption est la moyenne de vos boucliers : un nouveau bouclier plus faible que votre moyenne la baisse, une cellule jamais.
 
 **Le hangar l’indique.** Un bouclier, un moteur ou un cœur adaptatif qui ne compte pas pour toute sa puissance affiche un petit pourcentage sur son emplacement (par exemple `64%` : le 5e bouclier, à 85 %, dans un emplacement de soutien, à 75 %), et le survol donne le détail. Survolez les cases Boucliers et Vitesse des stats de combat pour voir vos objets par rang et ce que compterait un de plus. La fenêtre Vaisseau en vol montre les mêmes listes quand vous survolez sa barre de bouclier et sa vitesse.
 
@@ -68,4 +70,4 @@ Voir [Boosters](/wiki/06-Items/Boosters.md) pour les chiffres.
 Les boucliers se régénèrent passivement avec le temps pour que vous restiez prêt au combat.
 
 - **Cycle de régénération** : si les boucliers sont sous leur capacité maximale, ils restaurent chaque seconde autant de points de bouclier que votre vitesse de recharge.
-- **Interruption par le combat (délai de 15 s)** : la régénération cesse quand vous subissez des dégâts et ne reprend qu’après **15 secondes** sans dégâts.
+- **Interruption par le combat (délai de 15 s)** : la régénération cesse quand vous subissez des dégâts et ne reprend qu’après **15 secondes** sans dégâts. Les formations de drones Adamant et Redoubt ([Formations de drones](/wiki/03-Mechanics/Formations.md)) font exception : elles rendent du bouclier chaque seconde, même en combat.

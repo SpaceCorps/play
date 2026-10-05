@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: 虫群 -->
 # 虫群 {#swarms}
 
@@ -9,6 +9,8 @@
 - [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)：Dormant Force 和它的 Dormant Pulse，最强的虫群，掉落也最丰厚。
 
 它们的舰船是**自成一类的外星人**：有自己的名字和自己的击杀计数，都不算作 Seeker、Phantasm 或任何其他外星人。虫群舰船的外形与它所基于的舰船相同，带有自己的色调，头顶显示名字；Boss Seeker 是一艘大得多的 Seeker。
+
+**战队守卫**不是公开的虫群。战队会为每日战线的最后一步召唤属于自己的守卫，并且只有这个战队才能伤到它：没有飞行员会在星区里遇到游荡的守卫，下面的表格也没有列出它们。参见[战队](/wiki/03-Mechanics/Clans.md#clan-wardens)。
 
 ## 三个虫群 {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Seeker 虫群和 Pirate 虫群会在 Boss 出现和被击毁时，通知所在�
 
 <!-- swarms-points:end -->
 
-虫群击杀不算作任何其他外星人的击杀：Boss Seeker 或 Seeker Slave 对于要求击杀 Seeker 的任务来说不是 Seeker，重置点数的里程碑（[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）也只针对那五种外星人。
+虫群击杀不算作任何其他外星人的击杀：Boss Seeker 或 Seeker Slave 对于要求击杀 Seeker 的任务来说不是 Seeker，重置点数的里程碑（[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）也只针对那五种外星人。要求击毁虫群飞船的任务列在[虫群任务](/wiki/03-Mechanics/Quests.md#swarm-missions)中。

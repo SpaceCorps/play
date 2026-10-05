@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -13,13 +13,15 @@ Os parâmetros finais de escudo da sua nave são calculados assim:
 
 ### 1. Eficiência do slot e retornos decrescentes {#1-slot-efficiency-diminishing-returns}
 
-Assim como os motores, os escudos equipados (e os geradores híbridos) são ordenados por capacidade e sujeitos à eficiência do slot (núcleo: 100%, suporte: 75%, auxiliar: 50%, o slot de um drone: 100%, como um slot de núcleo) e a uma curva de retornos decrescentes conforme a posição deles. Um escudo em um dos seus [drones](/wiki/03-Mechanics/Drones.md) é ordenado junto com os da própria nave:
+Assim como os motores, os escudos equipados (e os geradores híbridos) são ordenados do melhor ao pior e sujeitos à eficiência do slot (núcleo: 100%, suporte: 75%, auxiliar: 50%, o slot de um drone: 100%, como um slot de núcleo) e a uma curva de retornos decrescentes conforme a posição deles. Um escudo é ordenado pelo que dele conta: a capacidade dele vezes a parcela do slot. A recarga tem uma ordem própria (o valor dela vezes a parcela do slot), e contam os **quatro melhores** bônus de escudo. Um escudo em um dos seus [drones](/wiki/03-Mechanics/Drones.md) é ordenado junto com os da própria nave:
 
 - **1º ao 4º escudo**: eficiência marginal de **100%** (1,0).
 - **5º escudo**: eficiência marginal de **85%** (0,85).
 - **6º escudo**: eficiência marginal de **70%** (0,70).
 - **7º escudo**: eficiência marginal de **55%** (0,55).
 - **8º em diante**: eficiência marginal de **50%** (0,50). (Até a versão 0.4.7 eram 25%, como nos motores; os motores continuam em 25%, veja [Velocidade](/wiki/03-Mechanics/Speed.md).)
+
+**Colocar mais nunca baixa o seu escudo.** Acrescentar um escudo ou uma célula de escudo nunca baixa a sua capacidade de escudo nem a sua recarga: cada número é ordenado do melhor ao pior pelo que conta, então uma peça nova ocupa a posição que merece. A absorção é a média dos seus escudos, então um escudo novo mais fraco que a sua média a baixa; uma célula, nunca.
 
 **O hangar mostra.** Um escudo, motor ou núcleo adaptativo que não conta com toda a sua força leva uma pequena porcentagem no slot (por exemplo, `64%`: o 5º escudo, a 85%, em um slot de suporte, a 75%), e passar o cursor por cima mostra o detalhamento. Passe o cursor pelos blocos Escudos e Velocidade das estatísticas de combate para ver seus itens por posição e quanto contaria mais um. A janela Nave em voo mostra as mesmas listas quando você passa o cursor pela barra de escudo e pela velocidade.
 
@@ -68,4 +70,4 @@ Veja [Boosters](/wiki/06-Items/Boosters.md) para os números.
 Os escudos se regeneram passivamente com o tempo para manter você pronto para o combate.
 
 - **Pulso de regeneração**: se os escudos estão abaixo da capacidade máxima, eles restauram pontos de escudo iguais à sua taxa de recarga por segundo.
-- **Interrupção por combate (atraso de 15 s)**: a regeneração para quando você sofre dano e só volta depois de **15 segundos** sem receber dano.
+- **Interrupção por combate (atraso de 15 s)**: a regeneração para quando você sofre dano e só volta depois de **15 segundos** sem receber dano. As formações de drones Adamant e Redoubt ([Formações de drones](/wiki/03-Mechanics/Formations.md)) são a exceção: devolvem escudo a cada segundo, inclusive em combate.

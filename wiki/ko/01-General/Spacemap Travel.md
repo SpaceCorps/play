@@ -1,8 +1,27 @@
-<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
+<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
 <!-- wiki-i18n title: 스페이스맵 이동 -->
 # 스페이스맵 이동 {#spacemap-travel}
 
 스페이스맵은 SpaceCorps 우주를 누비는 데 쓰는 항법 인터페이스입니다. 각 기업은 우주의 한 구역을 장악하고 있으며, 이 구역들은 안전한 탐험과 위험한 PvP 교전을 모두 가능하게 하는 특정한 구조로 배치되어 있습니다.
+
+![Galaxy Gates](../../img/wiki-img/shots/gates.jpg)
+![Sector DS-1 as the game draws it](../../img/wiki-img/shots/sector-DS-1.jpg)
+![Sector DS-2 as the game draws it](../../img/wiki-img/shots/sector-DS-2.jpg)
+![Sector DS-3 as the game draws it](../../img/wiki-img/shots/sector-DS-3.jpg)
+![Sector DS-4 as the game draws it](../../img/wiki-img/shots/sector-DS-4.jpg)
+![Sector G-1 as the game draws it](../../img/wiki-img/shots/sector-G-1.jpg)
+![Sector G-2 as the game draws it](../../img/wiki-img/shots/sector-G-2.jpg)
+![Sector G-3 as the game draws it](../../img/wiki-img/shots/sector-G-3.jpg)
+![Sector G-4 as the game draws it](../../img/wiki-img/shots/sector-G-4.jpg)
+![Sector M-1 as the game draws it](../../img/wiki-img/shots/sector-M-1.jpg)
+![Sector M-2 as the game draws it](../../img/wiki-img/shots/sector-M-2.jpg)
+![Sector M-3 as the game draws it](../../img/wiki-img/shots/sector-M-3.jpg)
+![Sector M-4 as the game draws it](../../img/wiki-img/shots/sector-M-4.jpg)
+![Sector T-1 as the game draws it](../../img/wiki-img/shots/sector-T-1.jpg)
+![Sector T-2 as the game draws it](../../img/wiki-img/shots/sector-T-2.jpg)
+![Sector T-3 as the game draws it](../../img/wiki-img/shots/sector-T-3.jpg)
+![Sector T-4 as the game draws it](../../img/wiki-img/shots/sector-T-4.jpg)
+![The Star System map: the sectors, the PvP sectors, the gates and the company routes, with the portal ring that joins each company's x-4 sector to the next company's x-3 sector](../../img/wiki-img/shots/star-system.jpg)
 
 ## 우주의 구조 {#the-universe-structure}
 
@@ -10,7 +29,7 @@
 
 - **x-1 (본거지)**: 각 기업의 시작 맵(M-1, T-1, G-1)입니다. 가장 안전한 구역입니다.
 - **x-2 -> x-3**: 갈수록 더 강한 외계인이 나타나는 확장 구역입니다.
-- **x-4 (경계)**: PvP 섹터로 향하는 관문입니다.
+- **x-4 (경계)**: PvP 섹터로 향하는 관문이자 다른 기업의 `x-3`으로 향하는 관문입니다(아래의 링).
 - **DS-x (위험 섹터)**: 모든 기업을 잇는 중앙 PvP 구역으로, DS-1부터 DS-4까지입니다.
 
 정거장이 있는 곳은 본거지뿐입니다. **Mission Control**은 거기서 열리며, 정거장의 안전 지대는 주변 1,600유닛까지 미칩니다. 위험 섹터에는 `DS-1`을 포함해 정거장이 없습니다. 그곳의 안전 지대는 점프 게이트 주위의 660유닛 링뿐이며 Mission Control도 열 수 없으니, 미션은 본거지까지 날아가서 확인하세요.
@@ -52,10 +71,16 @@ Alpha, Beta, Gamma의 각 [월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-al
   - `M-4`는 `DS-1`에 연결됩니다
   - `T-4`는 `DS-2`에 연결됩니다
   - `G-4`는 `DS-3`에 연결됩니다
-- **침공 경로(기업 간 이동)**: 게이트를 통해 적대 기업의 영역에 들어가려면 PvP 구역을 가로질러야 합니다. 예를 들어 Terra를 침공하려는 Mars 파일럿은 `M-4`에서 위험 섹터 `DS-1` 안으로 날아가 점프 게이트를 넘어 `DS-2`로 간 뒤, `T-4`를 통해 Terra 영역으로 들어가야 합니다. Galactic에 가려면 `DS-3`로 가는 점프 게이트를 넘어 `G-4`를 통해 들어갑니다.
+- **링**: 각 기업의 경계 맵(`x-4`)에는 게이트가 하나 더 있어 **다음 기업**의 `x-3`으로 이어지며, 모든 `x-3`에는 돌아오는 게이트가 있습니다. 이 세 연결은 위험 섹터를 둘러싸는 링을 이루므로, 모든 기업에 나가는 길 하나와 들어오는 길 하나가 있습니다:
+  - `M-4`는 Terra의 `T-3`에 연결됩니다
+  - `T-4`는 Galactic의 `G-3`에 연결됩니다
+  - `G-4`는 Mars의 `M-3`에 연결됩니다
+
+  링은 어느 기업 소속이든 모든 파일럿에게 열려 있습니다. PvP 구역을 가로지르지 않고 기업의 맵 사이를 오가는 두 번째 길입니다. 링 게이트는 그 맵의 다른 게이트들과 떨어진 자기만의 구석에 서 있고, 주위에는 평소와 같은 660유닛의 안전 지대가 있으며, 점프는 다른 게이트에서와 똑같이 이루어집니다. 건너편에서 공격받을 수 있는지는 다른 곳과 마찬가지로 월드에 따라 다릅니다. Alpha에서는 `T-3`은 PvP 섹터가 아니지만 `T-4`는 PvP 섹터이고, Beta에서는 둘 다 PvP 섹터이며, Gamma에서는 모든 섹터가 PvP 섹터입니다.
+- **침공 경로(기업 간 이동)**: 게이트를 통해 다른 기업의 영역에 들어가는 길은 두 가지입니다. 짧은 길은 링입니다. Mars 파일럿은 `M-4`에서 링 게이트를 지나 Terra의 `T-3`으로 들어가(Mars 본거지에서 점프 세 번, `M-1` → `M-2` → `M-4` → `T-3`) 거기서 `T-4`나 `T-2`로 나아갑니다. Galactic의 `G-4`는 같은 방식으로 Mars의 `M-3`으로, Terra의 `T-4`는 Galactic의 `G-3`으로 이어집니다. 긴 길은 PvP 구역을 가로지릅니다. `M-4`에서 위험 섹터 `DS-1`로 날아가 점프 게이트를 넘어 `DS-2`로 간 뒤, `T-4`를 통해 Terra 영역으로 들어갑니다. Galactic에 가려면 `DS-3`로 가는 점프 게이트를 넘어 `G-4`를 통해 들어갑니다.
 - **위험 섹터 삼각형**: `DS-1`, `DS-2`, `DS-3`는 서로 모두 연결되어 있습니다. 각각 한 기업의 게이트가 있으며(`DS-1`에는 Mars, `DS-2`에는 Terra, `DS-3`에는 Galactic), `DS-4`에는 없습니다.
 - **중앙 핵심부**: 바깥쪽 위험 섹터 세 곳(`DS-1`, `DS-2`, `DS-3`)은 모두 중앙 맵 **`DS-4`**(우주에서 가장 위험하고 보상이 큰 PvP 구역)에 직접 연결됩니다. 정중앙에는 **블랙홀**이 걸려 있습니다. 포털과 포털 사이의 항로는 멀리 비켜 있지만, 안으로 날아든 함선은 먼저 방사선을, 다음에 인력을 느끼고, 사건의 지평선에서 파괴됩니다. [블랙홀](/wiki/03-Mechanics/Black-Hole.md)을 참고하세요.
 
 ### Jump CPU {#the-jump-cpu}
 
-[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)는 게이트 없이 함선을 내 월드의 어느 기업 섹터로든 보내며, 1회에 Thulium 500이 듭니다. 적의 본거지 섹터도 포함됩니다. 위험 섹터로는 가지 못하고, 전투 중에는 시작되지 않으며, 먼저 Skylab의 연구 센터에서 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). [Base CPU](/wiki/06-Items/Extras.md#base-cpus)는 같은 방식으로 기지로 돌려보냅니다.
+[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)는 게이트 없이 함선을 내 월드의 어느 기업 섹터로든 보내며, 1회에 Thulium 500이 듭니다. 적의 본거지 섹터도 포함됩니다. 위험 섹터로는 가지 못하고, 전투 중에는 시작되지 않으며, 먼저 Skylab의 연구 센터에서 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). [Base CPU](/wiki/06-Items/Extras.md#base-cpus)는 같은 방식으로 기지로 돌려보냅니다. 워프 CPU, 즉 Jump CPU와 Base CPU는 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). 게이트로 돌아가세요([미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)).

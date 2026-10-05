@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇恨范围（700 单位）的任何玩家，当飞行员与它们相距超过 1,200 单位，或它们从追击起点飞出 2,000 单位后就会放弃追击（对朝它们开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它们的飞行员，它们则绝不会放弃追击，只要对方超出其武器射程（700 单位），Phantasm 就会朝那名飞行员飞去。多名飞行员同时向某个 Phantasm 开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 

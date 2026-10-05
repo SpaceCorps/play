@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 2f4a437ea53e355e -->
+<!-- wiki-i18n source: ead8337d6f7450e9 -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
 Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilhantes. Voe até lá e pegue as caixas antes que outro piloto o faça.
+
+![Picking up a cargo box: the channel bar fills while the ship stays near](../../img/wiki-img/shots/cargo-pickup.jpg)
 
 ## O que cai {#what-drops}
 
@@ -10,7 +12,7 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **Pilotos de corporação** não deixam caixa quando são destruídos, seja quem ou o que for que os destrua. Veja [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md).
 - **Naves de pilotos** não deixam destroços nem caixa quando são destruídas, seja quem ou o que for que as destrua, e nada é tirado do inventário do piloto.
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md), as Dormant Pulses e os [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
 
@@ -33,7 +35,7 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 - Se dois pilotos coletam a mesma caixa ao mesmo tempo, quem terminar o seu segundo primeiro fica com ela, uma única vez; o outro é avisado de que ela sumiu.
 - Uma caixa que ninguém pega some à deriva depois de **3 minutos** (ela pisca nos últimos 10 segundos). Um mapa comporta no máximo 64 caixas; quando uma nova passaria desse limite, a mais antiga some. As caixas de Dark Matter duram 4 minutos e são só suas no primeiro minuto.
 
-## Boosters {#boosters}
+## Boosters
 
 - **Loot Luck** (e o bônus permanente Luck Boost) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate.
 - **Resource Magnet** soma **25%** aos recursos de cada caixa que você coleta, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela, então cinco N.I.K.E. dão dez Dark Matter para todos.

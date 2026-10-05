@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 0d2453772c374a74 -->
+<!-- wiki-i18n source: 440dd341e5b80c44 -->
 <!-- wiki-i18n title: Bulwark -->
-# Bulwark {#bulwark}
+# Bulwark
 
 Bulwarks sind schwer gepanzerte Verteidigungsplattformen. Sie sind äußerst aggressiv und schlagen hart zu: Ein Bulwark geht auf jeden ungeschützten Piloten in seinem Aggro-Radius (700 Einheiten) los. Er lässt von ihm ab, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn er selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen ist (2.500 und 3.000 bei einem Piloten, der auf ihn geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der ihn in den letzten 10 Sekunden getroffen hat, lässt er überhaupt nicht los, und der Bulwark fliegt auf diesen Piloten zu, wann immer dieser jenseits der Waffenreichweite des Bulwark (700 Einheiten) steht. Schießen mehrere Piloten auf einen Bulwark, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 

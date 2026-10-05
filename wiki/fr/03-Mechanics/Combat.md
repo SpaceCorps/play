@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
 Cette section explique comment les dégâts sont calculés, appliqués et réparés pendant les combats dans SpaceCorps.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Calcul des dégâts {#damage-calculation}
 
@@ -27,11 +31,12 @@ Chaque salve a une chance d’être un coup critique.
 
 Enfin, les multiplicateurs globaux (comme les boosters actifs ou les multiplicateurs des munitions laser x2, x3, x4) sont appliqués pour obtenir les dégâts finaux :
 - Formule : `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée peut encore multiplier le résultat : par exemple Auger +21 % de dégâts laser, Gyre −11 % et, contre les aliens, Culler +12 % (un facteur à part, qui ne fait pas partie du pourcentage des boosters).
 - Les munitions **Siphon Battery** ont le multiplicateur x1 mais une autre cible : leurs dégâts sont pris sur le seul bouclier de la cible (jamais sur la coque, quelle que soit l’absorption) et vont dans votre propre bouclier, jusqu’à votre maximum. Voir [Lasers et munitions](/wiki/06-Items/Lasers.md).
 
 ### 3b. Roquettes {#3b-rockets}
 
-Une [roquette](/wiki/06-Items/Rockets.md) a ses propres dégâts (de 1 600 à 2 000 pour une Lancet I, de 4 800 à 6 000 pour une Lancet III, de 45 000 à 50 000 pour une N.U.K.E.), déterminés une fois par un jet au moment du tir et les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle ne fait pas de coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, moins vers le bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent.
+Une [roquette](/wiki/06-Items/Rockets.md) a ses propres dégâts (de 1 600 à 2 000 pour une Lancet I, de 4 800 à 6 000 pour une Lancet III, de 45 000 à 50 000 pour une N.U.K.E.), déterminés une fois par un jet au moment du tir et les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle ne fait pas de coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, moins vers le bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent. Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule chose qui change les deux : une formation de roquettes augmente les dégâts de chaque roquette (jusqu’à +55 %), et quelques-unes allongent ou raccourcissent le minuteur.
 
 ### 4. Face à la cible {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ Les récompenses d’un alien vont au pilote qui l’a touché en premier, pas �
 - **Le voir** : quand vous sélectionnez un alien qu’un autre pilote a revendiqué, la fenêtre Cible affiche *Revendiqué par* ce pilote et *Aucune récompense*.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) ne revendiquent jamais un alien, et un alien qu’ils achèvent paie quand même le pilote qui détient sa revendication.
 - Un pilote en [groupe](/wiki/03-Mechanics/Groups.md) partage ce que sa revendication rapporte avec les membres du groupe qui sont proches et qui tirent ; la revendication elle-même n’appartient qu’à lui.
-- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses font exception** : un boss d’essaim et chaque Dormant Pulse paient selon les dégâts que chaque pilote leur a infligés, pas selon le premier coup, et leur caisse de cargaison va au pilote qui a infligé le plus de dégâts ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Les autres suivants, les Pirate Scouts et les Seeker Slaves, paient selon la revendication, comme tout alien. Les points PvE d’un vaisseau d’essaim sont sur la page Essaims.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md), les Dormant Pulses et les [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) font exception** : un boss d’essaim, chaque Dormant Pulse et chaque Clan Warden paient selon les dégâts que chaque pilote leur a infligés, pas selon le premier coup, et leur caisse de cargaison va au pilote qui a infligé le plus de dégâts ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Les autres suivants, les Pirate Scouts et les Seeker Slaves, paient selon la revendication, comme tout alien. Les points PvE d’un vaisseau d’essaim sont sur la page Essaims.
 
 ---
 
@@ -87,9 +92,9 @@ Un alien qui vous a pris pour cible (un Phantasm, un Bulwark ou un Crystalys don
 
 Un alien qui lâche prise reprend sa ronde depuis l’endroit où il se trouve, jamais vers l’endroit où il vous a vu pour la dernière fois (pas même quand vous vous occultez ou déclenchez une EMP), et ne vous reprend pas pour cible pendant **8 secondes**, sauf si vous lui tirez dessus. Chaque alien décide pour lui-même, si bien qu’une meute mixte s’éclaircit à mesure que vous vous éloignez. Les aliens ne vous suivent jamais dans une zone sûre ni à travers un portail, et ceux qui vous ont perdu près de l’une ou de l’autre s’en éloignent, chacun dans sa propre direction, pour ne pas attendre en tas. L’intérêt d’un alien ne descend jamais en dessous de sa portée d’attaque et de son rayon d’aggro, plus 100 unités.
 
-Les aliens ne s’entassent pas : une meute aux trousses d’un pilote garde un peu d’espace entre ses vaisseaux pendant qu’elle approche (150 unités entre les coques, si bien qu’une meute de Phantasms vole à 250 unités les uns des autres plutôt que coque contre coque), et un alien qui se remet en route avec d’autres tout près s’éloigne d’eux, si bien qu’une meute qui a perdu son pilote se disperse dans toutes les directions.
+Les aliens ne se repoussent pas entre eux : une meute aux trousses d’un pilote approche sans garder d’espace entre ses vaisseaux, et une meute qui a perdu son pilote ne se disperse que lorsque chaque alien choisit sa propre route. Un alien reste en revanche à distance d’un **vaisseau** : il ne se retrouve jamais dans la coque d’un pilote, et un pilote qui se gare sur l’un le pousse devant lui.
 
-Voler plus vite ne vous aide que jusqu’à un certain point : un Protos (150) est plus lent que tous les aliens qui chassent (Phantasm 160, Bulwark 175, Crystalys 230), donc c’est la laisse, et non votre vitesse, qui met fin à la poursuite.
+Voler plus vite ne vous aide que jusqu’à un certain point : un Protos (160) n’est pas plus rapide que les aliens qui chassent (Phantasm 160, Bulwark 175, Crystalys 230), donc c’est la laisse, et non votre vitesse, qui met fin à la poursuite.
 
 ---
 
@@ -104,6 +109,7 @@ Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**
 - La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %).
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.
+- **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 6 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+9 points) et Stiletto (+16) ajoutent de la pénétration à vos propres munitions et aux roquettes directes, jusqu’à 40 % en tout ([Formations de drones](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Immunité en zone sûre {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ Pour se remettre d’un combat, les pilotes peuvent compter sur la régénérati
 
 - **Fonctionnement** : restaure chaque seconde autant de points de bouclier que la vitesse de recharge de votre bouclier.
 - **Délai** : interrompue par le combat ; la régénération passive ne reprend qu’après **15 secondes** sans subir de dégâts.
+- **Formations de drones** : Adamant et Redoubt rendent du bouclier chaque seconde, même en combat (voir [Formations de drones](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 Les munitions [Siphon Battery](/wiki/06-Items/Lasers.md) ajoutent aussitôt au vôtre le bouclier qu’elles drainent d’une cible, jusqu’à votre maximum. Gagner du bouclier n’est pas subir des dégâts : cela ne retarde donc pas votre régénération passive.
 

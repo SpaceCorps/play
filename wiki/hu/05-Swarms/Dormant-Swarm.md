@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant-raj -->
 # Dormant-raj {#dormant-swarm}
 
@@ -47,7 +47,7 @@ A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarm
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@ Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége
 | Hajótest | 324 000 | 486 000 | 648 000 |
 | Pajzs | 83 400 | 125 100 | 166 800 |
 | Lézersebzés (másodpercenként egy sorozat) | 2 880 | 4 320 | 5 760 |
-| Sebesség | 225 | 225 | 225 |
+| Sebesség | 220 | 220 | 220 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 7 500 | 11 250 | 15 000 |
@@ -74,7 +74,7 @@ Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége
 | Egy a 4 Epikus [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 30–50 |
 | Egy a következők közül: [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) és [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), véletlenszerűen | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Alapja: Paragon, hajótestének, pajzsának és sebzésének 100%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

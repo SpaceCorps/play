@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 0105c89d1cbd6996 -->
+<!-- wiki-i18n source: da31a9c98f00d180 -->
 <!-- wiki-i18n title: Protos -->
-# Protos {#protos}
+# Protos
 
 Protos är det enkla startskeppet som alla nya piloter i SpaceCorps får. Det är lätt men mycket uppgraderbart, byggt för nybörjarnas första operationer.
 
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 8 000
-- **Grundhastighet**: 150
+- **Grundhastighet**: 160
 - **Laserplatser**: 2
-- **Extraplatser**: 3
+- **Extraplatser**: 2
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Protos är det enkla startskeppet som alla nya piloter i SpaceCorps får. Det ä
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Ingen forskning behövs.** Det här skeppet har ingen egen teknologi.
-- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 5, 7 och 9 sammanlagt med de 2 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -39,7 +39,7 @@ Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlåda
 
 ## Dela uppdrag {#sharing-missions}
 
-En nedskjutning räknas också för **nedskjutningsuppdragen** hos varje annan medlem som är på samma karta och **har avfyrat en laser eller raket mot något under de senaste 15 sekunderna**, var den än befinner sig på den, som om medlemmen själv hade förintat utomjordingen. Uppdragets egna regler avgör fortfarande: utomjordingen måste vara av uppdragets slag och sektorn den som uppdraget anger. En kamrat som inte sköt, eller som är på en annan karta, får ingen räkning. Uppdragen behåller sin egen koncerns regler: ett uppdrag som kräver en nedskjutning i ”en annan koncerns sektor 4” räknas för den medlem för vilken den sektorn tillhör en annan koncern. När en kamrats nedskjutning räknas för ett av dina uppdrag talar ett meddelande om vilket.
+En nedskjutning räknas också för **nedskjutningsuppdragen** hos varje annan medlem som är på samma karta och **har avfyrat en laser eller raket mot något under de senaste 15 sekunderna**, var den än befinner sig på den, som om medlemmen själv hade förintat utomjordingen. Uppdragets egna regler avgör fortfarande: utomjordingen måste vara av uppdragets slag och sektorn den som uppdraget anger. En kamrat som inte sköt, eller som är på en annan karta, får ingen räkning. Uppdragen behåller sin egen koncerns regler: ett uppdrag som kräver en nedskjutning i ”en annan koncerns sektor 4” räknas för den medlem för vilken den sektorn tillhör en annan koncern. När en kamrats nedskjutning räknas för ett av dina uppdrag talar ett meddelande om vilket. I [Utmaningslinjen](/wiki/03-Mechanics/Quests.md#where-it-counts) måste en medlem dessutom vara inom **4 000 enheter** från vraket för att räknas, och varje medlem som har ett uppdrag med ett uppdragsföremål slår sitt eget slag och ser sitt eget föremål: ingen kan dela ett.
 
 ## Chattkanaler {#chat-channels}
 

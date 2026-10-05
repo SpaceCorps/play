@@ -1,21 +1,21 @@
-<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
 <!-- wiki-i18n title: Storm -->
-# Storm {#storm}
+# Storm
 
-A Storm üvegágyú csillagvadász: a legnagyobb alapsebesség az összes hajó közül és tíz lézer egy olyan hajótesten, amely az osztályához képest könnyű. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
+A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb lézer (13) az összes hajó közül egy olyan hajótesten, amely az osztályához képest könnyű. A játék besorolása szerint (10-nél több lézerhely) IV. osztályú csatahajó. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 160 000
-- **Alapsebesség**: 240
-- **Lézerfoglalatok**: 10
+- **Életerő (HP)**: 150 000
+- **Alapsebesség**: 250
+- **Lézerfoglalatok**: 13
 - **Extrafoglalatok**: 3
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 
-- **Magfoglalatok (100%-os hatásfok)**: 3
+- **Magfoglalatok (100%-os hatásfok)**: 4
 - **Támogató foglalatok (75%-os hatásfok)**: 4
-- **Segédfoglalatok (50%-os hatásfok)**: 3
+- **Segédfoglalatok (50%-os hatásfok)**: 2
 
 ---
 
@@ -38,4 +38,4 @@ Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártás
 
 ## Háttértörténet {#lore}
 
-A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Csontfehér páncél kékeszöld váz fölött, narancssárga panelekkel és fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz fegyver, minden torkolat tisztán látszik. Páncélra nincs helye. A hajóteste nagyjából fele egy Wraith-ének és nagyjából negyede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.
+A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Csontfehér páncél kékeszöld váz fölött, narancssárga panelekkel és fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizenhárom lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából fele egy Wraith-ének és nagyjából negyede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.

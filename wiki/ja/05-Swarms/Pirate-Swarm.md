@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate の群れ -->
 # Pirate の群れ {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 土台は Ironclad で、船体、シールド、ダメージはその50%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：`x-2`では [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets), `x-3`では [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
@@ -73,7 +73,7 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 | クレジットで買える 8 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 5–10 |
 | Advanced Plasma と Siphon Battery のうち 1つ （ランダム） | 100% | 500–1,000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 土台は Kitefin で、船体、シールド、ダメージはその50%です。速度と射程は土台の艦のものです。
 

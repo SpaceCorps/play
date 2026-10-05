@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 El Crystalys es una enorme entidad alienígena de clase acorazado. Encontrarse con uno es muy peligroso: hacen falta una capacidad de escudo y una potencia de fuego excepcionales para sobrevivir. Persigue a cualquier piloto sin protección que esté dentro de su radio de agresión (900 unidades), y lo deja ir cuando el piloto está a más de 1200 unidades o tras recorrer 2000 unidades desde donde empezó la persecución (2500 y 3000 si el piloto le ha disparado, consulta [Combate](/wiki/03-Mechanics/Combat.md)); a un piloto que lo haya alcanzado en los últimos 10 segundos no lo deja ir en absoluto, y el Crystalys vuela hacia ese piloto siempre que esté fuera del alcance de sus armas (900 unidades). Si varios pilotos le disparan, el Crystalys se mantiene fijado en el primero que le disparó mientras ese piloto continúe alcanzándolo (consulta [Contra quién lucha un alienígena](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Las naves de los [enjambres](/wiki/05-Swarms/Swarms.md) son tipos de alienígena aparte, con artículos propios en la categoría Enjambres.
 

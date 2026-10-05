@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
 Universum i SpaceCorps styrs av en återkommande säsongscykel. Var 30:e dag genomgår galaxen en kosmisk återställning som kallas **wipen**. Även om en återställning kan låta avskräckande är den det yttersta provet på förberedelse och planering: den låter dig ta med dig din bästa utrustning, välja din nästa värld och bygga permanenta bonusar över säsongerna.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## 30-dagarsschema för säsongen {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ Följande föremål är alltid skyddade och följer med till nästa säsong auto
 1. Ditt aktiva skepp.
 2. Varje föremål som just nu är utrustat på det aktiva skeppet, i både **Konfig 1** och **Konfig 2** (inklusive lasrar, sköldar, motorer och generatorer).
 3. Varje drönare du äger, med sin nivå och erfarenhet: dina [Slave Drone](/wiki/03-Mechanics/Drones.md) blir kvar, så dina drönarplatser förblir öppna och priset på din nästa drönare fortsätter från det antal du har. Lasrar och sköldar som sitter i en drönarplats följer regeln ovan: de blir kvar om de sitter på det aktiva skeppet.
+4. Varje drönarformation du äger ([Drönarformationer](/wiki/03-Mechanics/Formations.md)), var den än finns: i ditt inventarie, i ditt snabbfält eller på ett skepp. Som dina drönare blir de kvar utan att ta plats i Transportförrådet.
 
 ### Manuell överföring (transportförråd) {#manual-carry-over-transport-cache-}
 För ytterligare föremål i ditt inventarie som du vill spara (t.ex. reservvapen, tillverkningsresurser eller extra sköldgeneratorer):
@@ -83,7 +86,7 @@ SpaceCorps har tre **världar**. Var och en är en separat kopia av hela galaxen
 Så fungerar världarna:
 
 * **Utomjordingar**: en världs utomjordingsstyrka multiplicerar deras träffpoäng, sköldar, sköldladdning och skada. Deras hastighet och räckvidd är desamma överallt.
-* **Lön**: en nedskjutning betalar efter världen den sker i. Ett uppdrag betalar efter världen du gjorde det i (den lägsta, om det sträcker sig över två), oavsett i vilken värld du hämtar det, och tidsgränsen för ett tidsbegränsat uppdrag är 1,5 gånger så lång i Beta och dubbelt så lång i Gamma ([Uppdrag](/wiki/03-Mechanics/Quests.md)). Bytet och koncernpiloterna är desamma i varje värld, så en högre värld ger mer per timme, men dess strider kostar mer i reparationer.
+* **Lön**: en nedskjutning betalar efter världen den sker i. Ett uppdrag betalar efter världen du gjorde det i (den lägsta, om det sträcker sig över två), oavsett i vilken värld du hämtar det (ett Station-uppdrag har ingen egen värld och betalar efter den värld du flyger i när du hämtar det), och tidsgränsen för ett tidsbegränsat uppdrag är 1,5 gånger så lång i Beta och dubbelt så lång i Gamma ([Uppdrag](/wiki/03-Mechanics/Quests.md)). Bytet och koncernpiloterna är desamma i varje värld, så en högre värld ger mer per timme, men dess strider kostar mer i reparationer.
 * **PvP**: alla på en karta tillhör dess värld, så en regel gäller för hela kartan, koncernpiloter inräknade. Säkra zoner och Fredsprotokollet (dag 1–3) skyddar varje värld.
 * **Under flygning**: världens namn står före sektorns id uppe till höger (”Beta · M-2”). Märket i titelraden på fönstret Skepp säger var du står: **Säker** i en säker zon, **Ingen PvP** under Fredsprotokollet eller där din värld förbjuder PvP, **PvP** där andra piloter kan anfalla dig. Håll muspekaren över det för regeln. [Galaxkartan](/wiki/01-General/Spacemap%20Travel.md) färgar sektorerna efter din världs regel.
 
@@ -97,7 +100,9 @@ Så fungerar världarna:
 
 ## Framsteg över säsonger (permanenta buffar) {#cross-season-progression-permanent-buffs-}
 
-Wipen tar dina skepp och föremål (utom ditt aktiva skepp med allt som sitter på det, ditt transportförråd och dina drönare) och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin.
+Wipen tar dina skepp och föremål (utom ditt aktiva skepp med allt som sitter på det, ditt transportförråd och dina drönare) och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin, utom de nivåuppdrag som uppdatering 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Klaner och grader.** En klans poäng, bonusnivåer och dagslinjer börjar om vid varje wipe, så varje säsong är ett nytt lopp mot full bonus; klanen själv, dess medlemmar, dess bank och dess skatt finns kvar ([Klaner](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Din koncerngrad finns också kvar: den följer dina PvE-rankingpoäng, som en wipe inte nollställer ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Butiken för permanenta buffar {#the-permanent-buff-store}
 Du kan spendera dina intjänade WP på permanenta buffar som följer med över alla säsonger för alltid. De här buffarna staplas och ger betydande passiva bonusar:
@@ -128,4 +133,4 @@ Wipepoäng kommer från milstolpar som du själv hämtar ut, i spelet under **S�
 
 Bara nedskjutningar du får betalt för räknas (se [Strid](/wiki/03-Mechanics/Combat.md)). En milstolpe betalar när den är hel: 99 Seeker ger ingenting, den 100:e ger 1 WP, och nedskjutningarna efter den räknas mot den 200:e.
 
-**Uppdrag.** Det första uppdraget du slutför ger 5 WP, därefter ger vart 5:e (det 5:e, 10:e, 15:e och så vidare, upp till det 100:e) 5 WP till, 105 WP sammanlagt.
+**Uppdrag.** Det första uppdraget du slutför ger 5 WP, därefter ger vart 5:e (det 5:e, 10:e, 15:e och så vidare, upp till det 85:e) 5 WP till, 90 WP sammanlagt. Bara nivåuppdragen räknas (88 sammanlagt, inte Station-uppdragen eller Utmaningslinjen, se [Uppdrag](/wiki/03-Mechanics/Quests.md)), och ett omgjort nivåuppdrag som du gör om räknas inte en andra gång.

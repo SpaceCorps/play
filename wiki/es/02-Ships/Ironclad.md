@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las naves y el mayor espacio para escudos, a cambio de menos cañones y una propulsión más lenta. Se fabrica en Ensamblaje, entre la Paragon y la Wraith.
 

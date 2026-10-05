@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 68b8f5293ad88b67 -->
+<!-- wiki-i18n source: 969bfa836749a15e -->
 <!-- wiki-i18n title: Propulsão -->
 # Propulsão e velocidade {#propulsion-speed}
 
@@ -48,7 +48,7 @@ O bônus de escudo dos motores consta nos dados do item, mas o jogo nunca o apli
 
 ## Propulsores {#thrusters}
 
-Os propulsores se encaixam dentro de motores ou de núcleos adaptativos para aumentar a velocidade que eles geram. Há duas famílias de quatro níveis cada uma: os **Impulse Thrusters** dão mais velocidade fixa e multiplicam um pouco a velocidade do motor em que estão encaixados, os **Momentum Thrusters** menos velocidade fixa, mas multiplicam mais. Um motor (ou núcleo adaptativo) com propulsores gera **a própria velocidade base mais os aumentos fixos de velocidade dos propulsores, tudo isso vezes os multiplicadores de velocidade dos propulsores multiplicados entre si** ([como a velocidade é calculada](/wiki/03-Mechanics/Speed.md)): um Engine III com três Momentum Thruster IV gera (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, com três Impulse Thruster IV (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5, e um Adaptive Core II com dois Impulse Thruster IV gera (0 + 2 x 17) x 1,02 x 1,02 = 35,4 (31,2 com dois Momentum Thruster IV).
+Os propulsores se encaixam dentro de motores ou de núcleos adaptativos para aumentar a velocidade que eles geram. Há duas famílias de quatro níveis cada uma: os **Impulse Thrusters** dão mais velocidade fixa e multiplicam um pouco a velocidade do motor em que estão encaixados, os **Momentum Thrusters** menos velocidade fixa, mas multiplicam mais. Um motor (ou núcleo adaptativo) com propulsores gera **a própria velocidade base mais os aumentos fixos de velocidade dos propulsores, tudo isso vezes os multiplicadores de velocidade dos propulsores multiplicados entre si** ([como a velocidade é calculada](/wiki/03-Mechanics/Speed.md)): um Engine III com três Momentum Thruster IV gera (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, com três Impulse Thruster IV (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5, e um Adaptive Core II com dois Impulse Thruster IV gera (0 + 2 x 17) x 1,02 x 1,02 = 35,4 (29,6 com dois Momentum Thruster IV).
 
 | Nome | Raridade | Velocidade extra fixa | Multiplicador de velocidade | Custo |
 | :--- | :--- | :---: | :---: | :--- |
@@ -56,17 +56,17 @@ Os propulsores se encaixam dentro de motores ou de núcleos adaptativos para aum
 | **Impulse Thruster II** | Comum | +10 | 1,02x | Só por criação |
 | **Impulse Thruster III** | Raro | +15 | 1,03x | Só por criação |
 | **Impulse Thruster IV** | Épico | +17 | 1,02x | Só por criação |
-| **Momentum Thruster I** | Inferior | +4 | 1,08x | 20.000 créditos |
-| **Momentum Thruster II** | Comum | +8 | 1,10x | Só por criação |
-| **Momentum Thruster III** | Raro | +11 | 1,13x | Só por criação |
-| **Momentum Thruster IV** | Épico | +12 | 1,14x | Só por criação |
+| **Momentum Thruster I** | Inferior | +4 | 1,06x | 20.000 créditos |
+| **Momentum Thruster II** | Comum | +8 | 1,07x | Só por criação |
+| **Momentum Thruster III** | Raro | +11 | 1,09x | Só por criação |
+| **Momentum Thruster IV** | Épico | +12 | 1,11x | Só por criação |
 
-Qual família é mais rápida depende de onde ela está. Os Impulse Thrusters geram mais num núcleo adaptativo e num motor com um ou dois propulsores; os Momentum Thrusters do mesmo nível geram mais num Engine III com os três slots ocupados (62,2 contra 60,5 no nível IV, e um Impulse Thruster IV com dois Momentum Thruster IV, 62,3, é o melhor que um Engine III pode ser).
+Em todo nível, um Impulse Thruster gera mais que o Momentum Thruster do mesmo nível, num núcleo adaptativo e num motor com um, dois ou três propulsores (60,5 contra 57,4 com três propulsores de nível IV num Engine III, e três Impulse Thruster IV são o melhor que um Engine III pode ser). O que um Momentum Thruster tem a mais é um segundo bônus (abaixo).
 
-O bônus de multiplicador de velocidade de um propulsor, vindo da [Forja](/wiki/06-Items/Forge.md), faz crescer a parte acima de 1 (um bônus de +15% sobre 1,14x dá 1,161x), e a Forja não sorteia bônus para um multiplicador de 1,05x ou menos: no 1,02x ou 1,03x de um Impulse Thruster, valeria um milésimo. Um Impulse Thruster comporta um bônus (a velocidade fixa), um Momentum Thruster dois.
+O bônus de multiplicador de velocidade de um propulsor, vindo da [Forja](/wiki/06-Items/Forge.md), faz crescer a parte acima de 1 (um bônus de +15% sobre 1,11x dá 1,1265x), e a Forja não sorteia bônus para um multiplicador de 1,05x ou menos: no 1,02x ou 1,03x de um Impulse Thruster, valeria um milésimo. Um Impulse Thruster comporta um bônus (a velocidade fixa), um Momentum Thruster dois.
 
 O nível I de cada família é vendido por 20.000 créditos. Os níveis II a IV são feitos na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules), cada um a partir do propulsor da mesma família um nível abaixo (um Impulse Thruster II a partir de um Impulse Thruster I, um III a partir de um II, um IV a partir de um III), com Thulium, drops e Velkonite Reinforced Plates do seu Skylab (2, 4 e 6 placas). Um propulsor nunca muda de família: você escolhe Impulse ou Momentum ao comprar o nível I. Cada um mantém o grau de encantamento do propulsor que consome, e os bônus dele são sorteados de novo ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Os propulsores não cabem em um [slot de habilidade](/wiki/03-Mechanics/Abilities.md); o lugar deles é dentro de motores e de núcleos adaptativos.
 
 ### Deixando os alienígenas para trás {#outrunning-aliens}
 
-Os alienígenas voam a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Uma Ostirion com um Engine II e dois propulsores voa a 223,1 com Impulse Thruster I: ainda abaixo do Crystalys, então é preciso um propulsor feito na Montagem para deixá-lo para trás (234,0 com Impulse Thruster II, 245,5 com III, 249,1 com IV). Os Momentum Thrusters voam um pouco mais baixo nessa nave (222,6 com um Momentum Thruster I; 233,2, 242,5 e 245,8 com II a IV): o nível I das duas famílias fica abaixo de um Crystalys, e todo nível feito na Montagem fica acima.
+Os alienígenas voam a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Uma Ostirion com um Engine II e dois propulsores voa a 223,1 com Impulse Thruster I: ainda abaixo do Crystalys, então é preciso um propulsor feito na Montagem para deixá-lo para trás (234,0 com Impulse Thruster II, 245,5 com III, 249,1 com IV). Os Momentum Thrusters voam um pouco mais baixo nessa nave (222,0 com um Momentum Thruster I; 231,8, 240,1 e 243,9 com II a IV): o nível I das duas famílias fica abaixo de um Crystalys, e todo nível feito na Montagem fica acima.

@@ -1,8 +1,25 @@
-<!-- wiki-i18n source: 3d8c526b6bd7f82c -->
+<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
 <!-- wiki-i18n title: Skylab -->
-# Skylab {#skylab}
+# Skylab
 
 Das Skylab ist deine persönliche Orbitalanlage. Hier baust du Module und baust sie aus: Sie erzeugen Credits und Thulium, fördern Erz, schmieden die Platten, aus denen die Montage die besten Laser herstellt, und erforschen ab Kern-Level 10 die Technologien, die die Montage braucht. Das Skylab arbeitet für dich, sogar während du offline bist.
+
+> [!NOTE]
+> **Was sich in 0.4.10 geändert hat.** Jedes Skylab-Modul hat jetzt seine eigene Tabelle mit Produktion, Preisen und Zeiten, Level für Level. Du hast deine Level behalten: Es wurde nichts berechnet und nichts für den Unterschied erstattet. Was deine Farmen und Kollektoren beim Eintreffen des Updates in ihren Speichern hatten, wurde **einmalig zum alten Satz** ausgezahlt: Credits und Thulium gingen auf dein Konto, das Erz ins Ressourcenlager, und die Speicher fingen wieder bei null an.
+>
+> Zwei Regeln sind neu. **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**, daher stehen bei den meisten Stationen alle Farmen und Kollektoren still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module) und [Einen Solar-Ausbau planen](#timing-a-solar-upgrade)). **Das Ressourcenlager hat für jedes Erz eine eigene Obergrenze**: einen Tag der Förderung des Kollektors auf Level 1, vier Tage auf Level 20.
+
+![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
+![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+
+## In einer Minute {#in-one-minute}
+
+- Baue zuerst **Solar**: Ohne dessen Energie läuft im Skylab nichts. Die Credit-Farm kostet beim Bauen nichts, die Thulium-Farm 5.000 Credits und 500 Thulium.
+- Farmen und Kollektoren füllen einen **Speicher** (für 72 Stunden), solange du weg bist. **Abholen** bringt ihn auf dein Konto (Credits, Thulium) oder ins Ressourcenlager (Erz).
+- Die **Thulium-Farm** ist deine wichtigste Thulium-Quelle: 50 pro Stunde auf Level 1, 1.600 auf Level 20. Die Credit-Farm macht auf Level 1 500 Credits pro Stunde und auf Level 20 50.000.
+- Der **Kern** gibt den Takt vor: Kein Modul geht über ihn hinaus, und sein eigener Ausbau dauert etwa 16,5 Tage.
+- **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**, deine Farmen und Kollektoren stehen also still, bis er fertig ist. [Plane es](#timing-a-solar-upgrade).
 
 ## Überblick {#overview}
 
@@ -71,7 +88,7 @@ Hier siehst du die Ansicht Station des Skylab auf jedem Level von 1 bis 20, alle
 
 ### Kernmodul {#core-module}
 
-Das Herz deines Skylab. Das Level des Kerns bestimmt das höchste Level jedes anderen Moduls: Kein Modul lässt sich höher ausbauen als dein Kern. Der Kern geht bis Level 20, und ab **Level 5** öffnet er die Versorgungskette (siehe unten).
+Das Herz deines Skylab. Das Level des Kerns bestimmt das höchste Level jedes anderen Moduls: Kein Modul lässt sich höher ausbauen als dein Kern. Der Kern geht bis Level 20, und ab **Level 5** öffnet er die Versorgungskette (siehe unten). Sein Ausbau kostet nur Credits: 112.326 insgesamt bis Level 10 und 6.647.504 bis Level 20, und er dauert insgesamt etwa 16,5 Tage (siehe [Ausbauzeiten](#upgrade-times)).
 
 ### Solarmodul {#solar-module}
 
@@ -79,12 +96,13 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 - **Bedeutung**: Ist dein Energieverbrauch höher als deine Energieerzeugung, schalten deine Farmen und Kollektoren ab.
 - **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 835 auf Level 7, 16.110 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
-- **Ausbau**: Solar erzeugt während des Ausbaus weiter die Energie seines aktuellen Levels und ab dem Ende des Ausbaus die des neuen Levels, also läuft der Rest der Station weiter (siehe Bauen und Ausbauen).
+- **Preis**: Der Bau von Solar kostet **500 Credits und 50 Thulium**. Sein Ausbau kostet dasselbe und dauert genauso lang wie der der Schmiede: von 8.000 Credits und 25 Thulium für Level 2 (5 Minuten) bis 9.000.000 Credits und 10.000 Thulium für Level 20 (24 Stunden).
+- **Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur **25 %** der Energie seines aktuellen Levels, und ab dem Ende des Ausbaus die des neuen Levels. Eine Station, die mehr verbraucht, schaltet ab: Jede Farm und jeder Kollektor hört auf zu produzieren, und die Schmiede startet keine neue Charge, bis der Ausbau fertig ist. Bei fast jeder Station ist das der Fall: Sie läuft nur dann durch den Ausbau, wenn alle anderen Module mindestens fünf Level unter Solar liegen (sechs Level ab Solar-Level 10). Plane einen Solar-Ausbau wie einen Blackout deiner Farmen (siehe Bauen und Ausbauen).
 
 ### Credit-Farm und Thulium-Farm {#credit-farm-and-thulium-farm}
 
-- **Credit-Farm**: erzeugt mit der Zeit Credits.
-- **Thulium-Farm**: erzeugt mit der Zeit Thulium.
+- **Credit-Farm**: erzeugt mit der Zeit Credits: **500 pro Stunde auf Level 1, 50.000 auf Level 20** (Level 5: 2.500; Level 10: 7.500; Level 15: 17.000). Der Bau kostet nichts.
+- **Thulium-Farm**: erzeugt mit der Zeit Thulium: **50 pro Stunde auf Level 1, 1.600 auf Level 20** (Level 5: 180; Level 10: 450; Level 15: 950). Der Bau kostet 5.000 Credits und 500 Thulium.
 - Beide brauchen Energie, und jede speichert 72 Stunden ihrer Produktion, bis du sie abholst.
 
 ## Die Versorgungskette {#the-supply-chain}
@@ -98,21 +116,23 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 
 ### Velkonite-Kollektor und Orvium-Kollektor {#velkonite-collector-and-orvium-collector}
 
-- **Erz**: Der Velkonite-Kollektor fördert auf Level 1 **12 Velkonite pro Stunde** und der Orvium-Kollektor **6 Orvium pro Stunde**, mit jedem Level 25 % mehr (Level 5: 29 und 15 pro Stunde; Level 10: 89 und 45).
+- **Erz**: Der Velkonite-Kollektor fördert auf Level 1 **10 Velkonite pro Stunde** und der Orvium-Kollektor **10 Orvium pro Stunde**, und jedes Level hat seine eigene Rate: bis zu 80 Velkonite und 40 Orvium pro Stunde auf Level 20 (Level 5: 18 und 14 pro Stunde; Level 10: 32 und 24).
 - **Speicher**: Jeder fasst 72 Stunden seines Erzes und hört auf zu fördern, wenn er voll ist.
 - **Erz abholen**: bringt das Erz ins Ressourcenlager, soweit dort Platz ist. Ist kein Lager gebaut oder das Lager für dieses Erz voll, gibt es keinen Platz dafür, und die Schaltfläche sagt, warum. Der Rest bleibt im Speicher.
 - **Energie**: 20 (Velkonite) und 30 (Orvium) auf Level 1, mit jedem Level 15 % mehr.
 
 ### Ressourcenlager {#resource-storage}
 
-- **Lager**: verwahrt Velkonite und Orvium getrennt. Es fasst **900 von jedem auf Level 1**, mit jedem Level 25 % mehr (Level 5: 2.197; Level 10: 6.705).
+- **Lager**: verwahrt Velkonite und Orvium getrennt und fasst von jedem eine andere Menge: **240 von jedem auf Level 1**, bis zu 7.680 Velkonite und 3.840 Orvium auf Level 20 (Level 5: 720 und 560; Level 10: 1.920 und 1.440).
+- **Obergrenze**: einen Tag der Förderung des zugehörigen Kollektors auf Level 1, bis zu vier Tage auf Level 20. Der Speicher eines Kollektors fasst drei Tage, daher fasst das Lager ab Level 13 mindestens einen vollen Speicher.
+- **Über der Obergrenze**: Hält ein Lager mehr als seine Obergrenze (die Auszahlung des Updates 0.4.10 konnte das bewirken), wird nichts weggenommen, aber Abholen fügt von diesem Erz nichts mehr hinzu, bis du etwas davon verbraucht hast.
 - Erz kommt nur durch Abholen aus einem Kollektor hinein und nur in die Schmiede wieder heraus. Es gelangt nie in dein Inventar.
 - **Das eingelagerte Erz bleibt** über den Saison-Wipe erhalten.
 - **Energie**: 10 auf Level 1, mit jedem Level 10 % mehr. Es lässt sich nicht ausschalten.
 
 ### Schmiede {#forgery}
 
-- **Platten**: Die Schmiede macht aus Velkonite eine **Velkonite Reinforced Plate** und aus Orvium eine **Orvium Reinforced Plate**: **40 Velkonite** oder **80 Orvium** pro Platte auf Level 1, und 1,5 % weniger für jedes Level über 1 (nie unter 70 %).
+- **Platten**: Die Schmiede macht aus Velkonite eine **Velkonite Reinforced Plate** und aus Orvium eine **Orvium Reinforced Plate**: **40 Velkonite** oder **80 Orvium** pro Platte auf Level 1, mit jedem Level weniger, bis auf 30 und 60 auf Level 20 (nie unter 75 %).
 - **Chargen**: eine Charge einer Plattensorte auf einmal, **10 Platten auf Level 1** und 5 mehr für jedes weitere Level. Das Erz verlässt das Ressourcenlager in dem Moment, in dem die Charge startet, und jede Platte braucht **10 Sekunden**. Die Platten entstehen nacheinander, auch während du weg bist.
 - **Platten abholen**: bringt die fertigen Platten in dein Inventar, solange dein **Schiff gelandet ist**, und der Rest der Charge läuft weiter. Eine neue Charge kann starten, sobald die Schmiede leer ist.
 - Eine laufende Charge wird fertig, auch wenn du die Schmiede ausschaltest oder ausbaust. Eine **neue** Charge braucht eine eingeschaltete Schmiede, die nicht gerade ausgebaut wird, und eine ausgeglichene Energiebilanz des Skylab.
@@ -120,7 +140,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 
 ### Der Bau {#building-them}
 
-Jedes der vier Module kostet **10 Ship Fragments, 10.000 Credits und 500 Thulium** und braucht Kern-Level 5.
+Die beiden Kollektoren kosten je **10 Ship Fragments, 20.000 Credits und 500 Thulium**, das Ressourcenlager **10 Ship Fragments, 5.000 Credits und 250 Thulium** und die Schmiede **10 Ship Fragments, 5.000 Credits und 500 Thulium**; alle vier brauchen Kern-Level 5.
 
 - Die Ship Fragments werden aus deinem Inventar genommen (nicht aus dem Transport-Cache), und dein Schiff muss gelandet sein. Das Baufenster zeigt, was du hast, gegenüber dem, was nötig ist, und was dir fehlt.
 - Sie verbrauchen Energie. Vor dem Bau zeigt das Fenster deine Energiebilanz jetzt und danach: **Ein Bau kann eine Station ins Defizit bringen**, wenn ihr Solar hinter den anderen Modulen zurückliegt, und ein Defizit stoppt jede Farm und jeden Kollektor. Schalte ein Modul aus oder baue zuerst Solar aus.
@@ -135,48 +155,61 @@ Das neunte Modul macht aus Ressourcen Wissenschaft und erforscht die Technologie
 ### Bauen und Ausbauen {#building-and-upgrading}
 
 - **Bau**: Jedes Modul wird einzeln gebaut. Ein Modul ist auf Level 1, sobald es gebaut ist, und ein Ausbau erhöht seine Produktion (oder seine Energieerzeugung) und seinen Speicher, aber auch seinen Energieverbrauch.
-- **Dauer und Kosten**: Ausbauten kosten Credits und Thulium und brauchen Zeit. Der Ausbau eines Moduls der Versorgungskette kostet 10.000 x 1,5^Level Credits und 500 x 1,5^Level Thulium (beim Ressourcenlager x1,4 pro Level). Die Kosten hängen nicht von der Dauer ab.
+- **Dauer und Kosten**: Ausbauten kosten Credits und Thulium und brauchen Zeit, und jedes Modul hat für jedes Level seinen eigenen Preis und seine eigene Zeit (zeige auf **Ausbauen**, um das nächste zu sehen; die Summen stehen unten). Der Preis wird beim Start des Ausbaus bezahlt. Die Kosten hängen nicht von der Dauer ab.
 - **Timer**: Ein Ausbau läuft nach der Uhr des Servers, er wird also fertig, während du weg bist, notfalls Tage später. Starte ihn, logge dich aus, komm zurück: Das Modul hat sein neues Level, wenn du die Skylab-Seite öffnest.
-- **Ausbauzeiten**: Die ersten Level gehen schnell, die letzten dauern Tage (siehe die Tabellen unten). Jedes Modul hat seinen eigenen Timer, du kannst also mehrere gleichzeitig ausbauen.
-- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie. Solar ist die Ausnahme (siehe unten).
-- **Solar erzeugt während des Ausbaus weiter Energie**: Solar erzeugt die gesamte Energie des Skylab, und während seines Ausbaus (6 Tage für das letzte Level) erzeugt es weiter die Energie seines **aktuellen** Levels; die Energie des neuen Levels übernimmt in dem Moment, in dem der Ausbau endet. Die Farmen, die Kollektoren und die Schmiede laufen weiter, solange diese Energie sie deckt, also schaltet der Ausbau von Solar deine Station nie ab, und die Schmiede kann in der Zwischenzeit neue Chargen starten. Nur das Modul, das ausgebaut wird, ist offline.
+- **Ausbauzeiten**: Die ersten Level gehen schnell, die letzten dauern bis zu 36 Stunden, die des Kerns bis zu 6 Tage (siehe die Tabellen unten). Jedes Modul hat seinen eigenen Timer, du kannst also mehrere gleichzeitig ausbauen.
+- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie. Solar ist die Ausnahme: Es erzeugt weiter ein Viertel seiner Energie (siehe unten).
+- **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**: Solar erzeugt die gesamte Energie des Skylab, und während seines Ausbaus (24 Stunden für das letzte Level) erzeugt es ein Viertel der Energie seines **aktuellen** Levels; die Energie des neuen Levels übernimmt in dem Moment, in dem der Ausbau endet. Eine volle Station verbraucht etwa 90 % dessen, was Solar auf seinem eigenen Level erzeugt, ein Viertel davon trägt also nur eine Station, die fünf bis sechs Level unter Solar liegt. Sonst stehen alle Farmen und Kollektoren für den ganzen Ausbau still, was du gelagert hast, bleibt und lässt sich abholen, und die Schmiede startet keine neue Charge. Ein Modul, das ausgebaut oder ausgeschaltet wird, verbraucht keine Energie, daher kostet es nichts extra, die Farmen zusammen mit Solar auszubauen, und das Ausschalten von Modulen schafft Platz für die anderen; die Thulium-Farm verbraucht mit Abstand die meiste Energie.
+
+### Was es kostet {#what-it-costs}
+
+Der Preis des ganzen Weges, der Bau plus jeder Ausbau, bis Level 10 und bis Level 20. Der Kern ist immer da, und seine Schritte kosten nur Credits; das Forschungszentrum hat Level 1 bis 10, und seine Zahlen stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md).
+
+| Modul | Credits bis Level 10 | Thulium bis Level 10 | Credits bis Level 20 | Thulium bis Level 20 |
+| :--- | ---: | ---: | ---: | ---: |
+| Kern | 112.326 | 0 | 6.647.504 | 0 |
+| Solar | 1.219.500 | 1.600 | 35.039.500 | 36.850 |
+| Credit-Farm | 840.000 | 109 | 26.240.000 | 2.399 |
+| Thulium-Farm | 1.154.000 | 4.190 | 32.254.000 | 67.890 |
+| Velkonite-Kollektor | 696.000 | 6.950 | 20.996.000 | 78.950 |
+| Orvium-Kollektor | 696.000 | 6.950 | 20.996.000 | 78.950 |
+| Ressourcenlager | 619.500 | 359 | 18.169.500 | 2.649 |
+| Schmiede | 1.224.000 | 2.050 | 35.044.000 | 37.300 |
+
+Die ersten Schritte sind billig und die letzten teuer: Der Schritt der Credit-Farm von Level 1 auf 2 kostet 5.000 Credits und 1 Thulium, ihr Schritt von 19 auf 20 kostet 7.000.000 Credits und 550 Thulium. Bei der Thulium-Farm sind es 7.000 Credits und 45 Thulium, dann 8.500.000 Credits und 16.000 Thulium. Der Ausbau von Solar kostet auf jedem Level dasselbe wie der der Schmiede, und die beiden Kollektoren kosten gleich viel.
 
 ### Ausbauzeiten {#upgrade-times}
 
 <!-- upgrade-times:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by the test skylab::duration_tests::the_wiki_page_is_the_config (run it with SKYLAB_WIKI_WRITE=1 to rewrite this part). -->
 
-**Level 1 bis 5**, je Modul (der Ausbau von dem Level in der ersten Spalte an):
+**Ausbauzeiten**, je Modul (der Ausbau von dem Level in der ersten Spalte an):
 
 | Level | Kern | Solar | Credit-Farm | Thulium-Farm | Ressourcenlager | Velkonite-Kollektor | Orvium-Kollektor | Schmiede | Forschungszentrum |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 auf 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
-| 2 auf 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
-| 3 auf 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
-| 4 auf 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
-| 5 auf 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
-
-**Ab Level 6**, für jedes Modul gleich:
-
-| Ausbau | Dauer | Gesamt ab Level 6 |
-| :--- | ---: | ---: |
-| 6 auf 7 | 20 min | 20 min |
-| 7 auf 8 | 30 min | 50 min |
-| 8 auf 9 | 50 min | 1 h 40 min |
-| 9 auf 10 | 1 h 20 min | 3 h |
-| 10 auf 11 | 2 h 15 min | 5 h 15 min |
-| 11 auf 12 | 3 h 30 min | 8 h 45 min |
-| 12 auf 13 | 5 h 30 min | 14 h 15 min |
-| 13 auf 14 | 9 h | 23 h 15 min |
-| 14 auf 15 | 14 h | 1 d 13 h |
-| 15 auf 16 | 1 d | 2 d 13 h |
-| 16 auf 17 | 1 d 12 h | 4 d 1 h |
-| 17 auf 18 | 2 d 12 h | 6 d 13 h |
-| 18 auf 19 | 4 d | 10 d 13 h |
-| 19 auf 20 | 6 d | 16 d 13 h |
+| 1 auf 2 | 72 s | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 78 s |
+| 2 auf 3 | 86 s | 15 min | 10 min | 15 min | 10 min | 15 min | 15 min | 15 min | 101 s |
+| 3 auf 4 | 104 s | 30 min | 15 min | 30 min | 15 min | 20 min | 20 min | 30 min | 132 s |
+| 4 auf 5 | 124 s | 45 min | 20 min | 45 min | 20 min | 30 min | 30 min | 45 min | 171 s |
+| 5 auf 6 | 149 s | 1 h | 30 min | 1 h | 30 min | 45 min | 45 min | 1 h | 223 s |
+| 6 auf 7 | 20 min | 1 h 15 min | 45 min | 1 h 30 min | 45 min | 50 min | 50 min | 1 h 15 min | 20 min |
+| 7 auf 8 | 30 min | 1 h 30 min | 1 h | 2 h | 1 h | 1 h | 1 h | 1 h 30 min | 30 min |
+| 8 auf 9 | 50 min | 2 h | 1 h 20 min | 3 h | 1 h 20 min | 1 h 15 min | 1 h 15 min | 2 h | 50 min |
+| 9 auf 10 | 1 h 20 min | 3 h | 1 h 40 min | 4 h | 1 h 40 min | 1 h 30 min | 1 h 30 min | 3 h | 1 h 20 min |
+| 10 auf 11 | 2 h 15 min | 4 h | 2 h | 5 h | 2 h | 2 h | 2 h | 4 h | – |
+| 11 auf 12 | 3 h 30 min | 5 h | 2 h 30 min | 6 h | 2 h 30 min | 3 h | 3 h | 5 h | – |
+| 12 auf 13 | 5 h 30 min | 6 h | 3 h | 8 h | 3 h | 4 h | 4 h | 6 h | – |
+| 13 auf 14 | 9 h | 8 h | 3 h 30 min | 10 h | 3 h 30 min | 6 h | 6 h | 8 h | – |
+| 14 auf 15 | 14 h | 10 h | 4 h | 11 h | 4 h | 8 h | 8 h | 10 h | – |
+| 15 auf 16 | 1 d | 12 h | 5 h | 12 h | 5 h | 10 h | 10 h | 12 h | – |
+| 16 auf 17 | 1 d 12 h | 16 h | 6 h | 14 h | 6 h | 12 h | 12 h | 16 h | – |
+| 17 auf 18 | 2 d 12 h | 18 h | 8 h | 18 h | 8 h | 16 h | 18 h | 18 h | – |
+| 18 auf 19 | 4 d | 20 h | 10 h | 1 d | 10 h | 20 h | 1 d | 20 h | – |
+| 19 auf 20 | 6 d | 1 d | 12 h | 1 d 12 h | 12 h | 1 d | 1 d 12 h | 1 d | – |
+| **Gesamt** | 16 d 13 h | 5 d 13 h | 2 d 14 h | 6 d 13 h | 2 d 14 h | 4 d 16 h | 5 d 10 h | 5 d 13 h | 3 h 12 min |
 <!-- upgrade-times:end -->
 
-Ein Ausbau, der schon läuft, wenn sich die Zeiten ändern, behält die Fertigstellungszeit, die er bekommen hat. Allein der Kern braucht etwa **16,5 Tage** Ausbau am Stück, um von Level 1 auf Level 20 zu kommen. Kein Modul steigt über das Level des Kerns, daher kann der letzte Schritt jedes anderen Moduls (6 Tage) erst beginnen, wenn der Kern auf Level 20 ist: Wenn jeder Timer ständig läuft und die Credits und das Thulium bereitliegen, braucht die ganze Station etwa **22,5 Tage**.
+Ein Ausbau, der schon läuft, wenn sich die Zeiten ändern, behält die Fertigstellungszeit, die er bekommen hat. Allein der Kern braucht etwa **16,5 Tage** Ausbau am Stück, um von Level 1 auf Level 20 zu kommen. Kein Modul steigt über das Level des Kerns, daher kann der letzte Schritt jedes anderen Moduls (12 bis 36 Stunden) erst beginnen, wenn der Kern auf Level 20 ist: Wenn jeder Timer ständig läuft und die Credits und das Thulium bereitliegen, braucht die ganze Station etwa **18 Tage**.
 
 ### Energieverwaltung {#power-management}
 
@@ -186,6 +219,7 @@ Dein Skylab hat ein begrenztes Energiebudget.
 - **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level.
 - **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer.
 - **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter).
+- **Solar-Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur ein Viertel seiner Energie. Liegen deine anderen Module nicht weit darunter, steht die Station also im Defizit, und die Farmen und Kollektoren stehen still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module)).
 
 Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum ab Level 10):
 
@@ -232,3 +266,45 @@ Jede Farm und jeder Kollektor hat einen Speicher für etwa 72 Stunden der eigene
 ### Der Wipe {#the-wipe}
 
 Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das eingesetzte Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md).
+
+## Dein Skylab planen {#planning-your-skylab}
+
+Ein Skylab wächst wochenlang, ein wenig Planung zahlt sich also aus. Die Zahlen sind die Tabellen oben.
+
+### Was du zuerst ausbaust {#what-to-upgrade-first}
+
+1. **Solar, dann die Credit-Farm.** Solar kostet 500 Credits und 50 Thulium, und ohne es läuft nichts; die Credit-Farm kostet nichts. Die zehn [Station-Missionen](/wiki/03-Mechanics/Quests.md#station-missions) führen dich durch diese ersten Schritte und zahlen dir dafür 52.000 Credits und 610 Thulium, als Basis: Deine Welt, Booster und Clan-Boosts multiplizieren sie.
+2. **Dann die Thulium-Farm: Sie ist deine wichtigste Thulium-Quelle.** Auf Level 10 erzeugt sie 450 Thulium pro Stunde, 10.800 pro Tag, so viel wie 54 Abschüsse eines [Crystalys](/wiki/04-Aliens/Crystalys.md) in Alpha zahlen (je 200). Der Weg bis Level 10 kostet 1.154.000 Credits und 4.190 Thulium, den Bau eingerechnet. Auf Level 15 erzeugt die Farm 22.800 pro Tag und auf Level 20 38.400. Ihr Speicher fasst 72 Stunden, komm also mindestens alle drei Tage vorbei. Was Thulium kauft, steht auf der Seite [Ressourcen](/wiki/06-Items/Resources.md#thulium).
+3. **Die Credit-Farm ist das stetige Nebeneinkommen.** Auf Level 10 erzeugt sie 7.500 Credits pro Stunde, 180.000 pro Tag, für 840.000 Credits und 109 Thulium. Die höheren Level zahlen sich langsam zurück: Der Schritt von Level 9 auf 10 kostet 300.000 Credits für 1.000 mehr pro Stunde, das sind 300 Stunden. Baue sie aus, wenn du Credits übrig hast.
+4. **Halte den Kern beschäftigt.** Nichts geht über den Kern hinaus, und der Kern allein braucht etwa 16,5 Tage bis Level 20. Es gibt keine Warteschlange, also starte seinen nächsten Schritt jedes Mal, wenn du zurückkommst.
+5. **Baue die Versorgungskette als Satz.** Die Kollektoren, das Ressourcenlager und die Schmiede öffnen sich auf Kern-Level 5. Ein Kollektor kann Erz nur in ein Ressourcenlager einlagern, und das Lager fasst auf Level 1 einen Tag der Förderung seines Kollektors und auf Level 20 vier Tage, baue das Lager also zusammen mit den Kollektoren aus, sonst wartet das Erz in deren Speichern.
+
+### Einen Solar-Ausbau planen {#timing-a-solar-upgrade}
+
+Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie hätten erzeugen können, ist verloren. Die Tabelle nennt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durchläuft (jedes Modul auf demselben Level, Kern und Versorgungskette eingeschlossen; eine kleinere Station kommt etwas weiter), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in der Zeit erzeugt hätten. Zum Beispiel dauert Solar von Level 10 auf 11 vier Stunden, und Farmen auf Level 10 hätten darin 30.000 Credits und 1.800 Thulium erzeugt.
+
+| Solar-Ausbau | Zeit | Station, die weiterläuft, bis Level | Credit-Farm erzeugt in der Zeit | Thulium-Farm erzeugt in der Zeit |
+| :--- | ---: | ---: | ---: | ---: |
+| 1 auf 2 | 5 min | keine | 42 | 4 |
+| 2 auf 3 | 15 min | keine | 250 | 20 |
+| 3 auf 4 | 30 min | keine | 750 | 55 |
+| 4 auf 5 | 45 min | keine | 1.500 | 105 |
+| 5 auf 6 | 1 h | keine | 2.500 | 180 |
+| 6 auf 7 | 1 h 15 min | keine | 4.375 | 288 |
+| 7 auf 8 | 1 h 30 min | keine | 6.750 | 420 |
+| 8 auf 9 | 2 h | 1 | 11.000 | 660 |
+| 9 auf 10 | 3 h | 2 | 19.500 | 1.140 |
+| 10 auf 11 | 4 h | 4 | 30.000 | 1.800 |
+| 11 auf 12 | 5 h | 5 | 45.000 | 2.750 |
+| 12 auf 13 | 6 h | 6 | 66.000 | 3.900 |
+| 13 auf 14 | 8 h | 7 | 104.000 | 6.000 |
+| 14 auf 15 | 10 h | 8 | 150.000 | 8.500 |
+| 15 auf 16 | 12 h | 9 | 204.000 | 11.400 |
+| 16 auf 17 | 16 h | 10 | 320.000 | 17.600 |
+| 17 auf 18 | 18 h | 11 | 432.000 | 22.500 |
+| 18 auf 19 | 20 h | 12 | 580.000 | 28.000 |
+| 19 auf 20 | 1 d | 13 | 840.000 | 36.000 |
+
+- **Baue die Farmen zusammen mit Solar aus.** Ein Modul im Ausbau erzeugt ohnehin nichts und verbraucht keine Energie, daher kostet die Zeit, die eine Farm während der Pause mit ihrem Ausbau verbringt, nichts extra.
+- **Halte die anderen Module niedrig, wenn du dir keine Pause leisten kannst.** Eine Station läuft nur dann durch einen Solar-Ausbau, wenn alle ihre anderen Module mindestens fünf Level unter Solar liegen (sechs ab Solar-Level 10), und eine volle Station braucht etwas mehr, wie die Tabelle zeigt.
+- **Schalte aus, worauf du verzichten kannst.** Ein ausgeschaltetes Modul verbraucht keine Energie, daher schafft das Ausschalten der Thulium-Farm, die am meisten verbraucht (80 auf Level 1, mit jedem Level 30 % mehr), Platz für die anderen.

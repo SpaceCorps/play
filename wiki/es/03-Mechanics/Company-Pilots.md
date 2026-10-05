@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 56d4ff7e377afa21 -->
+<!-- wiki-i18n source: a811f0df5512e3b7 -->
 <!-- wiki-i18n title: Pilotos de corporación -->
 # Pilotos de corporación {#company-pilots}
 
 Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores de origen (`M-1` a `M-4`, `T-1` a `T-4`, `G-1` a `G-4`). Vuelan para la corporación a todas horas y echan una mano a sus pilotos.
+
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Quiénes son {#who-they-are}
 
@@ -12,6 +15,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
   - absorción del 45 %: sus escudos reciben el 45 % de cada impacto y el casco, el 55 %
   - 195 de daño base por andanada (munición x1), sin probabilidad de crítico, alcance 700
 - **En el minimapa**: un rombo verde para los pilotos de tu corporación y uno ámbar para los de otra corporación.
+- **Sin rango**: el pequeño símbolo delante del nombre de un piloto en vuelo es su [rango](/wiki/03-Mechanics/Ranks.md) y pertenece a los pilotos reales. Los pilotos de corporación no tienen ninguno. La página Corporación clasifica a los pilotos reales de tu corporación por puntos PvE.
 
 ## Qué hacen {#what-they-do}
 

@@ -1,8 +1,27 @@
-<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
+<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
 El mapa espacial es tu interfaz de navegación para recorrer el universo de SpaceCorps. Cada corporación controla un sector del espacio, dispuesto según una topología concreta que permite tanto la exploración segura como los peligrosos enfrentamientos PvP.
+
+![Galaxy Gates](../../img/wiki-img/shots/gates.jpg)
+![Sector DS-1 as the game draws it](../../img/wiki-img/shots/sector-DS-1.jpg)
+![Sector DS-2 as the game draws it](../../img/wiki-img/shots/sector-DS-2.jpg)
+![Sector DS-3 as the game draws it](../../img/wiki-img/shots/sector-DS-3.jpg)
+![Sector DS-4 as the game draws it](../../img/wiki-img/shots/sector-DS-4.jpg)
+![Sector G-1 as the game draws it](../../img/wiki-img/shots/sector-G-1.jpg)
+![Sector G-2 as the game draws it](../../img/wiki-img/shots/sector-G-2.jpg)
+![Sector G-3 as the game draws it](../../img/wiki-img/shots/sector-G-3.jpg)
+![Sector G-4 as the game draws it](../../img/wiki-img/shots/sector-G-4.jpg)
+![Sector M-1 as the game draws it](../../img/wiki-img/shots/sector-M-1.jpg)
+![Sector M-2 as the game draws it](../../img/wiki-img/shots/sector-M-2.jpg)
+![Sector M-3 as the game draws it](../../img/wiki-img/shots/sector-M-3.jpg)
+![Sector M-4 as the game draws it](../../img/wiki-img/shots/sector-M-4.jpg)
+![Sector T-1 as the game draws it](../../img/wiki-img/shots/sector-T-1.jpg)
+![Sector T-2 as the game draws it](../../img/wiki-img/shots/sector-T-2.jpg)
+![Sector T-3 as the game draws it](../../img/wiki-img/shots/sector-T-3.jpg)
+![Sector T-4 as the game draws it](../../img/wiki-img/shots/sector-T-4.jpg)
+![The Star System map: the sectors, the PvP sectors, the gates and the company routes, with the portal ring that joins each company's x-4 sector to the next company's x-3 sector](../../img/wiki-img/shots/star-system.jpg)
 
 ## La estructura del universo {#the-universe-structure}
 
@@ -10,7 +29,7 @@ El universo consta de tres grandes sectores de corporación (Mars, Terra, Galact
 
 - **x-1 (base de origen)**: El mapa inicial de cada corporación (M-1, T-1, G-1). La zona más segura.
 - **x-2 -> x-3**: Zonas de expansión con alienígenas cada vez más duros.
-- **x-4 (frontera)**: La puerta de entrada al sector PvP.
+- **x-4 (frontera)**: La puerta de entrada al sector PvP y al `x-3` de otra corporación (el Anillo, más abajo).
 - **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4.
 
 Solo las bases de origen tienen una estación. Es donde se abre **Mission Control**, y su zona segura se extiende 1.600 unidades a su alrededor. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a tu base para tus misiones.
@@ -52,10 +71,16 @@ Los viajes por el mapa espacial se hacen a través de **portales de salto**, o s
   - `M-4` conecta con `DS-1`
   - `T-4` conecta con `DS-2`
   - `G-4` conecta con `DS-3`
-- **Rutas de invasión (viajes entre corporaciones)**: Para entrar por los portales en territorio de una corporación enemiga tienes que cruzar la zona PvP. Por ejemplo, un piloto de Mars que quiera invadir Terra debe volar de `M-4` al sector de peligro `DS-1`, cruzar el portal de salto hacia `DS-2` y luego entrar en el espacio de Terra por `T-4`; para llegar a Galactic, debe cruzar el portal de salto hacia `DS-3` y entrar por `G-4`.
+- **El Anillo**: El mapa fronterizo de cada corporación (`x-4`) tiene un portal más, hacia el `x-3` de la **siguiente corporación**, y cada `x-3` tiene el portal de vuelta. Los tres enlaces forman un anillo alrededor de los sectores de peligro, de modo que cada corporación tiene una salida y una entrada:
+  - `M-4` conecta con el `T-3` de Terra
+  - `T-4` conecta con el `G-3` de Galactic
+  - `G-4` conecta con el `M-3` de Mars
+
+  El Anillo está abierto a todos los pilotos, sea cual sea la corporación por la que vuelen: es una segunda forma de viajar entre los mapas de las corporaciones que no cruza la zona PvP. Un portal del Anillo está en una esquina propia, lejos de los demás portales de su mapa, con la zona segura habitual de 660 unidades a su alrededor, y el salto funciona como en cualquier portal. Dónde pueden atacarte al otro lado depende de tu mundo, como en todas partes: en Alpha `T-3` no es un sector PvP pero `T-4` sí, en Beta lo son ambos, en Gamma todos los sectores.
+- **Rutas de invasión (viajes entre corporaciones)**: Hay dos formas de entrar por los portales en territorio de otra corporación. La corta es el Anillo: un piloto de Mars vuela de `M-4` al `T-3` de Terra por el portal del Anillo (tres saltos desde la base de Mars, `M-1` → `M-2` → `M-4` → `T-3`) y sigue hacia `T-4` o `T-2`; el `G-4` de Galactic lleva al `M-3` de Mars, y el `T-4` de Terra al `G-3` de Galactic, del mismo modo. La larga cruza la zona PvP: de `M-4` al sector de peligro `DS-1`, por el portal de salto hacia `DS-2` y al espacio de Terra por `T-4`; para llegar a Galactic, se cruza el portal de salto hacia `DS-3` y se entra por `G-4`.
 - **El triángulo de los sectores de peligro**: `DS-1`, `DS-2` y `DS-3` están conectados entre sí. Cada uno tiene el portal de una corporación (Mars en `DS-1`, Terra en `DS-2`, Galactic en `DS-3`); `DS-4` no tiene ninguno.
 - **El núcleo central**: Los tres sectores de peligro exteriores (`DS-1`, `DS-2` y `DS-3`) conectan directamente con el mapa central, **`DS-4`**, la zona PvP más peligrosa y lucrativa del universo. En su centro exacto flota un **agujero negro**: los portales y las rutas entre ellos quedan bien lejos de él, pero una nave que se adentra sufre primero su radiación, luego su atracción, y es destruida en su horizonte de sucesos. Consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md).
 
 ### La Jump CPU {#the-jump-cpu}
 
-La [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) lleva tu nave a cualquier sector de corporación de tu mundo sin usar un portal, por 500 Thulium cada salto, incluidos los sectores de origen de los enemigos. Nunca va a un sector de peligro, no se activa en combate y primero la investigas en el Centro de investigación del Skylab ([Investigación](/wiki/03-Mechanics/Research.md)). Las [Base CPU](/wiki/06-Items/Extras.md#base-cpus) te llevan a casa de la misma manera.
+La [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) lleva tu nave a cualquier sector de corporación de tu mundo sin usar un portal, por 500 Thulium cada salto, incluidos los sectores de origen de los enemigos. Nunca va a un sector de peligro, no se activa en combate y primero la investigas en el Centro de investigación del Skylab ([Investigación](/wiki/03-Mechanics/Research.md)). Las [Base CPU](/wiki/06-Items/Extras.md#base-cpus) te llevan a casa de la misma manera. Una CPU de warp, es decir, la Jump CPU o una Base CPU, se rechaza mientras llevas un objeto de misión («No puedes usar un CPU de warp mientras llevas un objeto de misión.»): vuelve a casa por los portales ([Objetos de misión](/wiki/03-Mechanics/Quests.md#quest-items)).

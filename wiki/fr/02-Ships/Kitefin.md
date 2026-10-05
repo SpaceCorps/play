@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la plupart des pilotes : un troisième laser, trois fois la coque du Protos et une propulsion plus rapide, le tout payé en Thulium.
 
@@ -9,7 +9,7 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 - **Points de vie (PV)** : 24 000
 - **Vitesse de base** : 175
 - **Emplacements laser** : 3
-- **Emplacements extras** : 3
+- **Emplacements extras** : 2
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Aucune recherche nécessaire.** Ce vaisseau n’a pas de technologie propre.
-- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 6, 8 et 10 au total avec les 3 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Plus d’emplacements extras.** Les Extra Slots CPU I, II et III, installés dans votre Skylab, donnent à ce vaisseau 3, 5 et 7 emplacements extras de plus : 5, 7 et 9 au total avec les 2 qui lui sont propres. Vous les recherchez et les fabriquez comme n’importe quel autre objet : voir [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate 虫群 -->
 # Pirate 虫群 {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 基于 Ironclad，拥有其 50% 的船体、护盾和伤害；速度和射程与原舰船相同。每 5 秒发射一枚直线火箭：`x-2`：[Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets), `x-3`：[Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
@@ -73,7 +73,7 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 | 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 5–10 |
 | Advanced Plasma 和 Siphon Battery 中随机一种 | 100% | 500–1,000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 基于 Kitefin，拥有其 50% 的船体、护盾和伤害；速度和射程与原舰船相同。
 

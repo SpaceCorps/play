@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket betyder att de aldrig börjar en strid: en Seeker vänder sig mot den pilot som skjuter på den, och bara mot den piloten. Den släpper taget om ingen har träffat den på 10 sekunder, och dess skrov lagar sig när den har lämnats i fred i 30 sekunder. Boss Seeker och Seeker Slaves i [Seeker-svärmen](/wiki/05-Swarms/Seeker-Swarm.md) ser ut som Seekers men är slag för sig: deras nedskjutningar räknas under deras egna namn, inte som Seeker-nedskjutningar.
 

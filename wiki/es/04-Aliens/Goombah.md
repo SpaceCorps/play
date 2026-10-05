@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Los Goombahs son temibles naves alienígenas de clase crucero. Tienen una gran capacidad de escudo e infligen un daño enorme, pero nunca empiezan un combate: un Goombah solo ataca al piloto que lo atacó. Las naves de los [enjambres](/wiki/05-Swarms/Swarms.md) son tipos de alienígena aparte, con artículos propios en la categoría Enjambres.
 

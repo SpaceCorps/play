@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
 Du behöver inte återvända till basen för att ändra ditt skepp. Inifrån en säker zon kan du öppna fönstret **Hangar** (knappen med en lagerbyggnad i verktygsfältet uppe till vänster) och ändra vad som är monterat, byta till den andra konfigurationen eller flyga ett annat skepp du äger, utan att lämna spelet. Fönstret är stationens Hangar-sida, med samma platser, värden och inventarie, i ett fönster över spelet. Se [Inventarie och utrustning](/wiki/03-Mechanics/Inventory.md) för hur föremål monteras.
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## När den är öppen {#when-it-is-open}
 
@@ -20,6 +22,8 @@ Pågående reparationer hindrar dig inte. Överallt annars öppnas Hangarfönstr
 - **Båda konfigurationerna.** Du kan förbereda Konfig 2 medan du flyger med Konfig 1 och sedan byta med tangenten Byt konfig. En knapp **Flyg konfig** i hangaren gör samma byte.
 - **Vilket skepp som helst.** Gör ett annat skepp aktivt så flyger du det därifrån du är. Ditt skepps modell byts inför ögonen på alla i närheten.
 - **En ny sköld, motor eller adaptiv kärna börjar tom**, som på stationen: konfigurationens sköldladdning är tom tills den har laddats upp.
+- **Drönarformationer.** Vyn Drönare listar under dina drönare de formationer du äger. De sätts inte på: under flygning drar du en från Formationslistan i snabbfältet till en plats, och platsens klick eller tangent bär den, inne i en säker zon utan väntan ([Drönarformationer](/wiki/03-Mechanics/Formations.md)).
+- **Extrautrustning.** De fyra vanliga skeppen, Protos, Kitefin, Ostirion och Nomad (de du börjar med eller köper), har 2 extraplatser per konfiguration; de fyra skepp du tillverkar i Monteringen, Paragon, Ironclad, Wraith och Storm, har 3. Extra Slots CPU i din Skylab lägger till 3, 5 eller 7: 5, 7 eller 9 på de vanliga och 6, 8 eller 10 på de tillverkade ([Extrautrustning](/wiki/06-Items/Extras.md#extra-slots-cpus)). När 0.4.10 kom togs en tredje extrautrustning på ett vanligt skepp av och hamnade i ditt inventarie: inget raderades, och du fick ett chattmeddelande.
 
 ## Byta skepp {#changing-ship}
 

@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 La Wraith es la nave definitiva de clase acorazado: una potencia de fuego sin igual, una enorme capacidad de escudo y una velocidad excepcional.
 
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 324.000
-- **Velocidad base**: 225
+- **Velocidad base**: 220
 - **Ranuras de láser**: 12
 - **Ranuras de extra**: 3
 

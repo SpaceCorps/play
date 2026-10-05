@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼저 싸움을 걸지 않습니다. Seeker는 자신에게 사격한 파일럿에게만 달려듭니다. 10초 동안 아무도 Seeker를 명중시키지 않으면 추적을 멈추고, 30초 동안 방치되면 선체가 회복됩니다. [Seeker 무리](/wiki/05-Swarms/Seeker-Swarm.md)의 Boss Seeker와 Seeker Slave는 Seeker와 비슷하게 생겼지만 독립된 종류이며, 처치는 Seeker 처치가 아니라 각자의 이름으로 집계됩니다.
 

@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
 Vous n’avez pas besoin de retourner à la base pour changer de vaisseau. Depuis une zone sûre, vous pouvez ouvrir la fenêtre **Hangar** (le bouton en forme d’entrepôt dans la barre d’outils en haut à gauche) et modifier ce qui est installé, passer à l’autre configuration ou piloter un autre vaisseau que vous possédez, sans quitter le jeu. Cette fenêtre est la page Hangar de la station, avec les mêmes emplacements, les mêmes stats et le même inventaire, dans une fenêtre par-dessus le jeu. Voir [Inventaire et équipement](/wiki/03-Mechanics/Inventory.md) pour savoir comment les objets s’installent.
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## Quand il est ouvert {#when-it-is-open}
 
@@ -20,6 +22,8 @@ Les réparations en cours ne vous bloquent pas. Partout ailleurs, la fenêtre Ha
 - **L’une ou l’autre configuration.** Vous pouvez préparer la config 2 en pilotant avec la config 1, puis basculer avec la touche Changer config. Un bouton **Piloter avec config** du hangar fait le même changement.
 - **N’importe quel vaisseau.** Activez un autre vaisseau et vous le pilotez depuis l’endroit où vous êtes. Le modèle de votre vaisseau change devant tous ceux qui sont à proximité.
 - **Un nouveau bouclier, moteur ou cœur adaptatif démarre vide**, comme à la station : la charge de bouclier de sa configuration est vide jusqu’à ce qu’elle se recharge.
+- **Formations de drones.** La vue Drones liste sous vos drones les formations que vous possédez. Elles ne se montent pas : en vol, vous en faites glisser une depuis la liste Formations de la barre rapide sur un emplacement, et le clic ou la touche de cet emplacement la porte, sans attente dans une zone sûre ([Formations de drones](/wiki/03-Mechanics/Formations.md)).
+- **Extras.** Les quatre vaisseaux ordinaires, le Protos, le Kitefin, l’Ostirion et le Nomad (ceux avec lesquels vous commencez ou que vous achetez), ont 2 emplacements extras par configuration ; les quatre vaisseaux que vous fabriquez à l’Assemblage, le Paragon, l’Ironclad, le Wraith et le Storm, en ont 3. Les Extra Slots CPU de votre Skylab en ajoutent 3, 5 ou 7 : 5, 7 ou 9 sur les ordinaires et 6, 8 ou 10 sur ceux que l’on fabrique ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Avec la 0.4.10, un troisième extra sur un vaisseau ordinaire a été retiré et placé dans votre inventaire : rien n’a été supprimé, et vous avez reçu un message dans le chat.
 
 ## Changer de vaisseau {#changing-ship}
 

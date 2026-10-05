@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 0105c89d1cbd6996 -->
+<!-- wiki-i18n source: da31a9c98f00d180 -->
 <!-- wiki-i18n title: Protos -->
-# Protos {#protos}
+# Protos
 
 Protos は、SpaceCorps で新規パイロット全員に支給される基本の初期艦です。軽量でありながら拡張性が高く、駆け出しの任務に向いています。
 
 ## ステータス {#stats}
 
 - **ヒットポイント（HP）**：8,000
-- **基本速度**：150
+- **基本速度**：160
 - **レーザースロット**：2
-- **エクストラスロット**：3
+- **エクストラスロット**：2
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Protos は、SpaceCorps で新規パイロット全員に支給される基本�
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **研究は不要です。** この艦には専用の技術がありません。
-- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
+- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 2 を足すと、合計は 5、7、9 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
 
 <!-- research-ship:end -->
 

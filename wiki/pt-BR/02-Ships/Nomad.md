@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 A Nomad é um cruzador com o dobro do casco e o dobro dos canhões de uma Ostirion: uma cabeça de martelo entre a Ostirion e a Paragon, comprada na Loja com Créditos e Thulium juntos. Qualquer piloto pode comprá-la.
 
@@ -9,7 +9,7 @@ A Nomad é um cruzador com o dobro do casco e o dobro dos canhões de uma Ostiri
 - **Pontos de vida (HP)**: 96.000
 - **Velocidade base**: 200
 - **Slots de laser**: 6
-- **Slots extras**: 3
+- **Slots extras**: 2
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
@@ -30,7 +30,7 @@ A Nomad é um cruzador com o dobro do casco e o dobro dos canhões de uma Ostiri
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Não precisa de pesquisa.** Esta nave não tem tecnologia própria.
-- **Mais slots extras.** As Extra Slots CPU I, II e III, instaladas no seu Skylab, dão a esta nave 3, 5 e 7 slots extras a mais, ou seja, 6, 8 e 10 no total com os 3 que ela já tem. Elas são pesquisadas e criadas como qualquer outro item: veja [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Mais slots extras.** As Extra Slots CPU I, II e III, instaladas no seu Skylab, dão a esta nave 3, 5 e 7 slots extras a mais, ou seja, 5, 7 e 9 no total com os 2 que ela já tem. Elas são pesquisadas e criadas como qualquer outro item: veja [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

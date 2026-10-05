@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc3c5de7b8b9b69a -->
+<!-- wiki-i18n source: 51df970a4edf8416 -->
 <!-- wiki-i18n title: Bjud in vänner -->
 # Bjud in vänner {#invite-friends}
 

@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 55131889617bd886 -->
+<!-- wiki-i18n source: ee1ab2403a7af6d8 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
 A **Kutatóközpont** a [Skylabod](/wiki/03-Mechanics/Skylab.md) laboratóriuma. Nyersanyagokkal táplálod, ő **tudománnyá** alakítja őket, a tudomány pedig **technológiákat** kutat. A [Gyártás](/wiki/06-Items/Overview.md#upgrading-modules) minden elkészítéséhez előbb a technológiája kell: hajót, lézert, fúvókát vagy CPU-t addig nem lehet legyártani, amíg ki nem kutatták.
 
 Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejével, azt, hogy az egyes nyersanyagok mennyi tudományt adnak, a Thulium-boostot, a Dark Matter szabályát és az új CPU-kat. A számokat a játék saját adataiból olvassuk, ezért mindig azok szerepelnek itt, amelyek a játékban.
+
+![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 
 ## A Kutatóközpont {#the-research-centre}
 
@@ -47,7 +49,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 ## Üzemanyag {#fuel}
 
-A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét, ezért egy Power Core (Szokatlan) többet ad, mint egy Orvium (Ritka). Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek; minden más nyersanyag a leltáradból, és a hajódnak leszállva kell lennie. Nem égethető el: Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, kredit és Thulium; a Reinforced Hull Plate igen.
+A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét. Az ércek kivételek: egy egység több tudományt ad, mint ahány másodperc alatt egy gyűjtő kitermeli, így egy a szintjei közepén járó gyűjtő egy óra érce nagyjából két óra kutatást táplál. Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek, minden más nyersanyag a készletedből, és a hajódnak le kell szállnia. A Velkonite Reinforced Plate, az Orvium Reinforced Plate, a Dark Matter Plate, a Dark Matter, a kredit és a Thulium nem égethető el; a Reinforced Hull Plate igen.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -60,9 +62,9 @@ A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudom
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Gyakori | A leltárad | 7 | 515 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Gyakori | A leltárad | 8 | 450 |
 | [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Gyakori | A leltárad | 33 | 110 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Szokatlan | Erőforrás-raktár | 40 | 90 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Ritka | Erőforrás-raktár | 80 | 45 |
 | [Power Core](/wiki/06-Items/Resources.md#power-core) | Szokatlan | A leltárad | 100 | 36 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Szokatlan | Erőforrás-raktár | 210 | 18 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Ritka | Erőforrás-raktár | 321 | 12 |
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Ritka | A leltárad | 650 | 6 |
 
 Az utolsó oszlop azt mutatja, hány egység fedez egy óra kutatást boost nélkül, felfelé kerekítve; boosttal ennek 2-szerese kell.
@@ -92,7 +94,7 @@ Mit tesz a boost egy kutatás idejével, ha az elejétől fogva működik:
 
 <!-- research-boost:end -->
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](/wiki/03-Mechanics/Black-Hole.md#dark-matter) származik, ahol egy N.I.K.E. rakéta, amely eléri, hagy valamennyit, és időnként a [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) egy Dormant Pulse-ától.
 
@@ -101,8 +103,9 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 
 - **10 Dark Matter** az alábbi táblázat 15 technológiájának mindegyikéhez, a tudományon felül: a kutatás indulása előtt helyezd be a Kutatóközpontba (a leltáradból, leszállt hajóval), és a kutatás induláskor elveszi.
 - **A szabály:** egy Epikus vagy magasabb ritkaságú tárgy, amelynek kutatása 10 óra vagy tovább tart. Az N.I.K.E.-nek, amely a Dark Matter forrása, soha nincs rá szüksége.
+- **A drónformációk** kívül esnek a szabályon: minden formációkutatás Dark Mattert kér, erősségtől függően 5, 13 vagy 20 darabot, ahogy a táblázat mutatja.
 - **Ha megszakítasz egy kutatást,** a hozzá belehelyezett Dark Matter visszakerül a Kutatóközpontba. A haladás és az addig elégetett tudomány nem.
-- Együtt 150 Dark Mattert kérnek.
+- Együtt 339 Dark Mattert kérnek.
 
 | Technológia | Ritkaság | Kutatási idő | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -121,12 +124,28 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Legendás | 1 nap | 10 |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | Epikus | 1 nap | 10 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | Epikus | 1 nap | 10 |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mitikus | 2 nap | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mitikus | 2 nap | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Mitikus | 2 nap | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
 
 <!-- research-dark-matter:end -->
 
 ## A technológiafa {#the-technology-tree}
 
-Minden doboz egy technológia: az a tárgy, amelynek legyártását lehetővé teszi, a neve alatt a kutatási idővel (az óra), és ahol Dark Matter kell, a Dark Matter-jelvénnyel. A nyíl az egyik technológiától arra vezet, amelynek szüksége van rá, és amelyet előbb kutatsz ki; nyíl nélküli doboz azonnal kikutatható. Vidd az egeret egy doboz fölé, hogy lásd a kutatási időt, az elégetett tudományt és azt, amit a Gyártás utána kér a tárgyért, és kattints rá a tárgy oldalának megnyitásához. A fákat a játék saját adataiból rajzoljuk.
+Minden doboz egy technológia: az a tárgy, amelynek legyártását lehetővé teszi, a neve alatt a kutatási idővel (az óra), és ahol Dark Matter kell, a Dark Matter-jelvénnyel. A nyíl az egyik technológiától arra vezet, amelynek szüksége van rá, és amelyet előbb kutatsz ki; nyíl nélküli doboz azonnal kikutatható. Vidd az egeret egy doboz fölé, hogy lásd a kutatási időt, az elégetett tudományt és azt, amit a Gyártás utána kér a tárgyért, és kattints rá a tárgy oldalának megnyitásához. A fákat a játék saját adataiból rajzoljuk. Két fa, a **Védelem** és a **Támadás és mozgékonyság** tartalmazza a tizenhat [drónformációt](/wiki/03-Mechanics/Formations.md).
 
 <!-- research-tree:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -224,6 +243,40 @@ Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 ```
 
+### Védelem {#tree-defence}
+
+```tree research
+Testudo Formation | formation, epic | craft 7500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Adamant Formation | formation, epic | craft 9000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Rampart Formation | formation, mythical | craft 38500 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Sanctum Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Redoubt Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Cordon Formation | formation, epic | craft 21500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Testudo Formation => Sanctum Formation => Rampart Formation
+Adamant Formation => Redoubt Formation => Cordon Formation
+```
+
+### Támadás és mozgékonyság {#tree-strike-mobility}
+
+```tree research
+Bodkin Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Asterism Formation | formation, epic | craft 7000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gemini Formation | formation, mythical | craft 38000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Ballista Formation | formation, epic | craft 24000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Stiletto Formation | formation, mythical | craft 46000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Shrike Formation | formation, epic | craft 8500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Culler Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Auger Formation | formation, epic | craft 20500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Centurion Formation | formation, epic | craft 8000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gyre Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Asterism Formation => Bodkin Formation => Ballista Formation
+Gemini Formation => Stiletto Formation
+Centurion Formation => Shrike Formation => Culler Formation
+Gyre Formation => Auger Formation
+```
+
 
 <!-- research-tree:end -->
 
@@ -271,6 +324,22 @@ Base CPU I => Base CPU II => Jump CPU
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10 óra | 36 000 | – |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1 nap | 86 400 | 10 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6 óra | 21 600 | – |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 óra | 36 000 | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 óra | 36 000 | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 2 nap | 172 800 | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 óra | 36 000 | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 nap | 172 800 | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 nap | 172 800 | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | C | 10 óra | 36 000 | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 nap | 86 400 | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 óra | 36 000 | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 1 nap | 86 400 | 13 |
 
 Az osztályok kutatási idő szerint:
 
@@ -278,11 +347,11 @@ Az osztályok kutatási idő szerint:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 perc | 5 | 2 óra 30 perc | 9 000 | 0 |
 | B | 3 óra–6 óra | 14 | 2 nap | 172 800 | 0 |
-| C | 10 óra | 9 | 3 nap 18 óra | 324 000 | 60 |
-| D | 1 nap–2 nap | 9 | 10 nap | 864 000 | 90 |
-| Összesen |  | 37 | 15 nap 20 óra 30 perc | 1 369 800 | 150 |
+| C | 10 óra | 14 | 5 nap 20 óra | 504 000 | 85 |
+| D | 1 nap–2 nap | 20 | 24 nap | 2 073 600 | 254 |
+| Összesen |  | 53 | 31 nap 22 óra 30 perc | 2 759 400 | 339 |
 
-Egymás után kutatva a teljes fa 15 nap 20 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 7 nap 22 óra 15 perc alatt, ami 8 boost és 40 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 31 nap 22 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 15 nap 23 óra 15 perc alatt, ami 16 boost és 80 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 
@@ -305,13 +374,13 @@ Az új CPU-kat is itt kutatod ki, majd a Gyártásban készíted el. Ugyanez a t
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **Mit tudnak.** Az Extra Slots CPU I, II és III minden hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot az eleve meglévő 3 mellé. A magasabb CPU lecseréli az előzőt: a II nem adódik hozzá az I-hez.
+- **Mit tudnak.** Az Extra Slots CPU I, II és III minden hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot egy olyan hajón, amelynek eleve 3 van, és 5, 7 és 9 foglalatot egy olyan hajón, amelynek eleve 2 van. A magasabb CPU lecseréli az előzőt: a II nem adódik hozzá az I-hez.
 - **Telepítve, nem hordva.** Az Extra Slots CPU nem tárgy: ha a Gyártásban átveszed, magától települ a Skylabodba, minden hajóra mindkét konfigurációban, és nem foglal el foglalatot. A wipe után is megmarad.
 - **Sorrendben.** Egymás után gyárts: a II csak akkor, ha az I telepítve van, a III csak akkor, ha a II telepítve van; addig a Gyártás megmondja, melyiket telepítsd előbb. A három együtt 117 000 Thuliumba kerül: 12 000, 30 000 és 75 000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **Mit tud.** A hajódat a világod bármelyik vállalati szektorába ugrasztja, a saját vállalatodéba és a többiekébe is, a bázisszektorokat is beleértve (`M`, `T` és `G`, 1–4. szektor), ugrásonként **500 Thuliumért**. A használatok száma nem korlátozott: csak a Thuliumot fizeted. Veszélyes szektorba (`DS`) és semleges szektorba (`N`) sosem visz.
 - **Az ugrás.** Nyomd meg a JMP helyet, válaszd ki a szektort a Csillagrendszer térképén, és erősítsd meg: a hajó 5 másodpercig töltődik, majd megérkezik a szektor egyik kapujához, védve, mint bármelyik kapuugrás után. Érkezés után a CPU 30 másodpercig hűl.
@@ -319,7 +388,7 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 - **Semleges szektorból nem:** a semleges szektorban lévő vagy vállalat nélküli pilóta nem használhatja.
 - Veszélyes szektorból elhagyható, ha nem vagy harcban.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **Mit tudnak.** A hajódat a vállalatod bázisára teleportálják, az állomás körüli biztonságos zónába (`M-1`, `T-1` vagy `G-1`, a Mission Control szektora), Thulium nélkül. A gyorssáv BSE helyéről indítod őket.
 - **Nem harcban.** 10 másodperces töltés, mindkettőnél ugyanaz. Nem indítható lövés vagy találat után 10 másodpercen belül, álcázva vagy ha már a bázisod biztonságos zónájában vagy, és a töltés közbeni lövés vagy találat megszakítja.
@@ -331,7 +400,7 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 
 - **Elfogy, nem töltődik újra.** Minden használat elvesz egyet a CPU használataiból, és a használat nélkül maradt CPU eltűnik: készíts újat. Ha mindkettő fel van szerelve, előbb a jobbik (II) fogy.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **Mit tud.** Magától kiküldi az extrafoglalataidban lévő Repair Dronet, valahányszor kézzel is kiküldhetted volna: a hajótested nincs tele, a drón nincs kint, és az utolsó találat óta eltelt 10 másodperc. Nincs beállítandó hajótest-szint.
 - Saját extrafoglalatot foglal el, és nem csinál semmit Repair Drone nélkül ugyanannak a konfigurációnak egy extrafoglalatában. Képességfoglalatban lévő Repair Dronet sosem küld ki (az az Emergency Repair gomb).

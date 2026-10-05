@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f06b4c7b561b1789 -->
+<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
 <!-- wiki-i18n title: Pirate 무리 -->
 # Pirate 무리 {#pirate-swarm}
 
@@ -46,7 +46,7 @@ Pirate Boss는 그 싸움에 걸맞은 보상을 지급합니다. 그와 1분 �
 <!-- pirate-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Pirate Boss {#pirate-boss}
+### Pirate Boss
 
 바탕은 Ironclad이며, 선체와 실드, 피해량은 그 50%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: `x-2`: [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets), `x-3`: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -73,7 +73,7 @@ Pirate Boss는 그 싸움에 걸맞은 보상을 지급합니다. 그와 1분 �
 | 크레딧으로 살 수 있는 8종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 5–10 |
 | Advanced Plasma와 Siphon Battery 중 무작위 하나 | 100% | 500–1,000 |
 
-### Pirate Scout {#pirate-scout}
+### Pirate Scout
 
 바탕은 Kitefin이며, 선체와 실드, 피해량은 그 50%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다.
 

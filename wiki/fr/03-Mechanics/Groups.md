@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -39,7 +39,7 @@ Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison*
 
 ## Partage des missions {#sharing-missions}
 
-Une élimination compte aussi pour les **missions d’élimination** de tous les autres membres qui sont sur la même carte et ont **tiré un laser ou une roquette sur quoi que ce soit au cours des 15 dernières secondes**, où qu’ils se trouvent sur celle-ci, comme s’ils avaient détruit l’alien eux-mêmes. Les règles propres à la mission décident toujours : l’alien doit être du type de la mission et le secteur celui que la mission nomme. Un coéquipier qui n’a pas tiré, ou qui est sur une autre carte, ne reçoit aucun décompte. Les missions gardent les règles de leur propre corporation : une mission qui demande une élimination dans « le secteur 4 d’une autre corporation » compte pour le membre pour qui ce secteur appartient à une autre corporation. Quand l’élimination d’un coéquipier compte pour l’une de vos missions, une notification vous indique laquelle.
+Une élimination compte aussi pour les **missions d’élimination** de tous les autres membres qui sont sur la même carte et ont **tiré un laser ou une roquette sur quoi que ce soit au cours des 15 dernières secondes**, où qu’ils se trouvent sur celle-ci, comme s’ils avaient détruit l’alien eux-mêmes. Les règles propres à la mission décident toujours : l’alien doit être du type de la mission et le secteur celui que la mission nomme. Un coéquipier qui n’a pas tiré, ou qui est sur une autre carte, ne reçoit aucun décompte. Les missions gardent les règles de leur propre corporation : une mission qui demande une élimination dans « le secteur 4 d’une autre corporation » compte pour le membre pour qui ce secteur appartient à une autre corporation. Quand l’élimination d’un coéquipier compte pour l’une de vos missions, une notification vous indique laquelle. Dans la [ligne des Défis](/wiki/03-Mechanics/Quests.md#where-it-counts), un membre doit en plus se trouver à moins de **4 000 unités** de l’épave pour compter, et chaque membre qui a une mission avec un objet de mission tire et voit son propre objet : personne ne peut en partager un.
 
 ## Canaux de chat {#chat-channels}
 

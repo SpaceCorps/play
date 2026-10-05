@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten Piloten kaufen: ein dritter Laser, die dreifache Hülle der Protos und ein schnellerer Antrieb, bezahlt mit Thulium.
 
@@ -9,7 +9,7 @@ Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten P
 - **Trefferpunkte (HP)**: 24.000
 - **Grundtempo**: 175
 - **Laser-Slots**: 3
-- **Extra-Slots**: 3
+- **Extra-Slots**: 2
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten P
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Keine Forschung nötig.** Dieses Schiff hat keine eigene Technologie.
-- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 6, 8 und 10 insgesamt mit den eigenen 3. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 5, 7 und 9 insgesamt mit den eigenen 2. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

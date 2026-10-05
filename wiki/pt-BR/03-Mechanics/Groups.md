@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 58d94b3fccdc03f3 -->
+<!-- wiki-i18n source: b265e40762453900 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -39,7 +39,7 @@ O que fica só com o autor do abate: a **caixa de carga** (saque e recursos), o 
 
 ## Dividindo missões {#sharing-missions}
 
-Um abate também conta para as **missões de abate** de todos os outros membros que estão no mesmo mapa e **dispararam um laser ou um foguete em qualquer coisa nos últimos 15 segundos**, onde quer que estejam nele, como se eles mesmos tivessem destruído o alienígena. As regras da própria missão continuam valendo: o alienígena precisa ser do tipo da missão e o setor, o que a missão cita. Um colega que não atirou, ou que está em outro mapa, não recebe a contagem. As missões mantêm as regras da corporação de cada um: uma missão que pede um abate no “setor 4 de outra corporação” conta para o membro para quem esse setor é de outra corporação. Quando o abate de um colega conta para uma das suas missões, um aviso informa qual.
+Um abate também conta para as **missões de abate** de todos os outros membros que estão no mesmo mapa e **dispararam um laser ou um foguete em qualquer coisa nos últimos 15 segundos**, onde quer que estejam nele, como se eles mesmos tivessem destruído o alienígena. As regras da própria missão continuam valendo: o alienígena precisa ser do tipo da missão e o setor, o que a missão cita. Um colega que não atirou, ou que está em outro mapa, não recebe a contagem. As missões mantêm as regras da corporação de cada um: uma missão que pede um abate no “setor 4 de outra corporação” conta para o membro para quem esse setor é de outra corporação. Quando o abate de um colega conta para uma das suas missões, um aviso informa qual. Na [linha de Desafios](/wiki/03-Mechanics/Quests.md#where-it-counts), um membro também precisa estar a até **4.000 unidades** dos destroços para contar, e cada membro que tem uma missão com um item de missão faz o seu próprio sorteio e vê o seu próprio item: ninguém pode compartilhar um.
 
 ## Canais de chat {#chat-channels}
 

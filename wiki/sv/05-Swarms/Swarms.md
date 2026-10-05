@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -9,6 +9,8 @@ En **svärm** är en grupp utomjordingar som drar runt i en del av galaxen under
 - [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md): Dormant Force och dess Dormant Pulses, den starkaste svärmen, med det rikaste bytet.
 
 Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskjutningsräknare, och inget av dem räknas som en Seeker, en Phantasm eller någon annan utomjording. Ett svärmskepp har formen av skeppet det bygger på, i en egen nyans och med sitt namn ovanför; Boss Seeker är en mycket större Seeker.
+
+**Klanväktarna** är inga publika svärmar. En klan kallar fram sin egen väktare för sista steget i sin dagslinje, och bara den klanen kan skada den: ingen pilot möter en som ströftar omkring i en sektor, och tabellerna nedan listar dem inte. Se [Klaner](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## De tre svärmarna {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik
 
 <!-- swarms-points:end -->
 
-En svärmnedskjutning räknas inte som nedskjutning av någon annan utomjording: en Boss Seeker eller en Seeker Slave är ingen Seeker för ett uppdrag som kräver Seekers, och milstolparna för wipepoäng ([Wipe-tidslinje](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) gäller bara de fem utomjordingarna.
+En svärmnedskjutning räknas inte som nedskjutning av någon annan utomjording: en Boss Seeker eller en Seeker Slave är ingen Seeker för ett uppdrag som kräver Seekers, och milstolparna för wipepoäng ([Wipe-tidslinje](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) gäller bara de fem utomjordingarna. Uppdragen som kräver svärmskepp finns uppräknade under [Svärmuppdrag](/wiki/03-Mechanics/Quests.md#swarm-missions).

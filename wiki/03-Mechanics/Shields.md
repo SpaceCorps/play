@@ -11,13 +11,15 @@ Your ship's final shield parameters are calculated as follows:
 
 ### 1. Slot Efficiency & Diminishing Returns
 
-Similar to engines, equipped shields (and hybrid generators) are sorted by capacity and subjected to slot efficiency (Core: 100%, Support: 75%, Auxiliary: 50%, a drone's slot: 100%, as a core slot) and a diminishing returns curve based on their rank. A shield on one of your [drones](/wiki/03-Mechanics/Drones.md) is ranked with the ship's own:
+Similar to engines, equipped shields (and hybrid generators) are ranked best first and subjected to slot efficiency (Core: 100%, Support: 75%, Auxiliary: 50%, a drone's slot: 100%, as a core slot) and a diminishing returns curve based on their rank. A shield is ranked by what of it counts: its capacity times its slot's share. The recharge has its own order (its value times the slot's share), and the **four best** shield bonuses count. A shield on one of your [drones](/wiki/03-Mechanics/Drones.md) is ranked with the ship's own:
 
 - **1st to 4th shield**: **100%** (1.0) marginal efficiency.
 - **5th shield**: **85%** (0.85) marginal efficiency.
 - **6th shield**: **70%** (0.70) marginal efficiency.
 - **7th shield**: **55%** (0.55) marginal efficiency.
 - **8th and beyond**: **50%** (0.50) marginal efficiency. (Up to version 0.4.7 this was 25%, the same as engines; engines still use 25%, see [Speed](/wiki/03-Mechanics/Speed.md).)
+
+**Fitting more never lowers your shield.** Adding a shield or a shield cell never lowers your shield capacity or your recharge: every number is ranked best first by what counts, so a new piece takes the place it earns. Absorbance is the average of your shields, so a new shield weaker than your average lowers it; a cell never does.
 
 **The Hangar shows it.** A shield, engine or Adaptive Core that counts for less than all of its strength wears a small percentage on its slot (for example `64%`: the 5th shield, at 85%, in a support slot, at 75%), and hovering it gives the breakdown. Hover the Shields and Speed tiles of the combat stats to see your items by place and what one more would count for. The Ship window in flight shows the same lists when you hover its shield bar and its speed.
 
@@ -66,4 +68,4 @@ See [Boosters](/wiki/06-Items/Boosters.md) for the numbers.
 Shields regenerate passively over time to keep you combat-ready.
 
 - **Regeneration Tick**: If shields are below maximum capacity, they restore shield points equal to your Recharge Rate per second.
-- **Combat Interrupt (15s delay)**: Regeneration ceases when taking damage and only resumes after **15 seconds** of taking no damage.
+- **Combat Interrupt (15s delay)**: Regeneration ceases when taking damage and only resumes after **15 seconds** of taking no damage. The Adamant and Redoubt [drone formations](/wiki/03-Mechanics/Formations.md) are the exception: they give shield back every second, in a fight too.

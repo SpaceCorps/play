@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 2f4a437ea53e355e -->
+<!-- wiki-i18n source: ead8337d6f7450e9 -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
 Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses de cargaison lumineuses. Volez jusqu’à elles et ramassez-les avant que quelqu’un d’autre ne s’en charge.
+
+![Picking up a cargo box: the channel bar fills while the ship stays near](../../img/wiki-img/shots/cargo-pickup.jpg)
 
 ## Ce qui tombe {#what-drops}
 
@@ -10,7 +12,7 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Les pilotes de corporation** ne laissent aucune caisse quand ils sont détruits, quel qu’en soit l’auteur. Voir [Pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md).
 - **Les vaisseaux de joueurs** ne laissent ni épave ni caisse quand ils sont détruits, quel qu’en soit l’auteur, et rien n’est prélevé dans l’inventaire du pilote.
 - **Le trou noir** dépose des caisses de **Dark Matter** au bord de sa zone pour toute roquette N.I.K.E. tirée dedans (voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Ce sont les seules caisses qui se trouvent à l’intérieur de l’anneau du trou.
-- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md), les Dormant Pulses et les [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
 
@@ -33,7 +35,7 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 - Si deux pilotes récupèrent la même caisse en même temps, celui dont la seconde s’achève en premier l’obtient, une seule fois ; l’autre est prévenu qu’elle a disparu.
 - Une caisse que personne ne prend dérive au loin au bout de **3 minutes** (elle clignote pendant ses 10 dernières secondes). Une carte contient au plus 64 caisses ; quand une nouvelle dépasserait ce nombre, la plus ancienne disparaît. Les caisses de Dark Matter durent 4 minutes, et n’appartiennent qu’à vous pendant la première minute.
 
-## Boosters {#boosters}
+## Boosters
 
 - **Loot Luck** (et le bonus permanent de chance) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise.
 - **Resource Magnet** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet n’y ajoute rien, donc cinq N.I.K.E. valent dix Dark Matter pour tout le monde.

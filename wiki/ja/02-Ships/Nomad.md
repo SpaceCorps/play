@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Nomad は、Ostirion の2倍の船体と2倍の砲を備えた巡洋艦です。Ostirion と Paragon の間に位置するハンマーヘッド型で、ショップでクレジットと Thulium の両方を支払って購入します。どのパイロットでも購入できます。
 
@@ -9,7 +9,7 @@ Nomad は、Ostirion の2倍の船体と2倍の砲を備えた巡洋艦です。
 - **ヒットポイント（HP）**：96,000
 - **基本速度**：200
 - **レーザースロット**：6
-- **エクストラスロット**：3
+- **エクストラスロット**：2
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Nomad は、Ostirion の2倍の船体と2倍の砲を備えた巡洋艦です。
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **研究は不要です。** この艦には専用の技術がありません。
-- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
+- **エクストラスロットの追加。** Skylab に導入された Extra Slots CPU I・II・III は、この艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 2 を足すと、合計は 5、7、9 です。ほかのアイテムと同じように研究して製作します。詳しくは [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) を参照してください。
 
 <!-- research-ship:end -->
 

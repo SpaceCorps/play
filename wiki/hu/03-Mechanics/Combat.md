@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
 Ez a szakasz részletezi, hogyan számolódik ki, hogyan érvényesül és hogyan javítódik a sebzés a SpaceCorps összecsapásaiban.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Sebzésszámítás {#damage-calculation}
 
@@ -27,11 +31,12 @@ Minden sortűz kritikus találat is lehet.
 
 Végül a globális szorzók (például az aktív boosterek vagy a lézerlőszer szorzói, mint az x2, x3, x4) érvényesülnek, hogy kijöjjön a végső sebzés:
 - Képlet: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) még egyszer szorozhatja az eredményt: például az Auger +21% lézersebzéssel, a Gyre −11%-kal, idegenek ellen a Culler +12%-kal (külön tényező, nem része a booster-százaléknak).
 - A **Siphon Battery** lőszer szorzója x1, de a célpontja más: a sebzése kizárólag a célpont pajzsából jön (sosem a hajótestből, bármekkora is az elnyelés), és a saját pajzsodba kerül, a maximumodig. Lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
 
 ### 3b. Rakéták {#3b-rockets}
 
-Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 600–2 000, egy Lancet III 4 800–6 000, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **5 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a széle felé kevésbé. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók.
+Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 600–2 000, egy Lancet III 4 800–6 000, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **5 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a széle felé kevésbé. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók. A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen, ami mindkettőt megváltoztatja: egy rakétaformáció növeli minden rakéta sebzését (legfeljebb +55%), néhány pedig hosszabbá vagy rövidebbé teszi az időzítőt.
 
 ### 4. Szembefordulás a célponttal {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ Az idegen jutalmai ahhoz a pilótához kerülnek, aki először lőtt rá, nem a
 - **Hogyan látod**: ha kijelölsz egy olyan idegent, amelyet másik pilóta foglalt le, a Célpontablak azt mutatja: *Lefoglalta:* az a pilóta, és *Nincs jutalom*.
 - A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) sosem foglalnak le idegent, és az általuk kilőtt idegen is a foglalását tartó pilótát fizeti.
 - A [csoportban](/wiki/03-Mechanics/Groups.md) lévő pilóta megosztja azt, amit a foglalása fizet, azokkal a csoporttársaival, akik közel vannak és lőnek; maga a foglalás egyedül a pilótáé.
-- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok kivételek**: egy rajboss és minden Dormant Pulse annak a sebzésnek megfelelően fizet, amelyet minden pilóta okozott nekik, nem az első találat szerint, a rakományládájuk pedig ahhoz a pilótához kerül, aki a legtöbb sebzést okozta ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A többi kísérő, a Pirate Scoutok és a Seeker Slave-ek, a foglalás szerint fizetnek, mint bármelyik idegen. A rajhajók PvE-pontjai a Rajok oldalon vannak.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei, a Dormant Pulse-ok és a [Clan Wardenek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) kivételek**: egy rajboss, minden Dormant Pulse és minden Clan Warden annak a sebzésnek megfelelően fizet, amelyet minden pilóta okozott nekik, nem az első találat szerint, a rakományládájuk pedig ahhoz a pilótához kerül, aki a legtöbb sebzést okozta ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A többi kísérő, a Pirate Scoutok és a Seeker Slave-ek, a foglalás szerint fizetnek, mint bármelyik idegen. A rajhajók PvE-pontjai a Rajok oldalon vannak.
 
 ---
 
@@ -87,9 +92,9 @@ Az az idegen, amely téged választott célpontjának (egy Phantasm, Bulwark vag
 
 Az az idegen, amely elenged, onnan kóborol tovább, ahol áll, sosem oda, ahol utoljára látott (még akkor sem, ha álcázod magad, vagy EMP-t sütsz el), és **8 másodpercig** nem választ újra célpontnak, hacsak rá nem lősz. Minden idegen magától dönt, így egy vegyes falka megritkul, ahogy távolodsz. Az idegenek sosem követnek be egy biztonságos zónába vagy egy kapun át, és azok, amelyek egy ilyen közelében elvesztettek téged, mindegyik a maga irányába elmegy onnan, hogy ne várjanak egy csomóban. Egy idegen érdeklődése sosem ér kevesebb távolságra, mint a támadási hatótávja és az aggrósugara, plusz 100 egység.
 
-Az idegenek nem tömörülnek: az egy pilótát üldöző falka közeledés közben némi helyet hagy a hajói között (150 egység a hajótestek között, így a Phantasm idegenekből álló falka 250 egység távolságban repül, nem hajótest a hajótest mellett), és az az idegen, amely úgy indul útnak, hogy mások vannak a közelében, elrepül tőlük, így az a falka, amely elvesztette a pilótáját, minden irányba szétoszlik.
+Az idegenek nem tolják szét egymást: az egy pilóta nyomában lévő falka úgy közeledik, hogy nem hagy helyet a hajói között, a pilótáját elvesztett falka pedig csak úgy bomlik fel, hogy minden idegen a maga útját választja. Hajótól viszont az idegen távol marad: sosem kerül egy pilóta hajótestének belsejébe, és ha egy pilóta rááll egyre, azt maga előtt tolja.
 
-A gyorsabb repülés csak egy pontig segít: a Protos (150) lassabb minden vadászó idegennél (Phantasm 160, Bulwark 175, Crystalys 230), így az üldözésnek a póráz vet véget, nem a sebességed.
+A gyorsabb repülés csak egy pontig segít: a Protos (160) nem gyorsabb egyetlen vadászó idegennél sem (Phantasm 160, Bulwark 175, Crystalys 230), így az üldözésnek a póráz vet véget, nem a sebességed.
 
 ---
 
@@ -104,6 +109,7 @@ A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **�
 - A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.
+- **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 6%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+9 pont) és a Stiletto (+16) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, összesen legfeljebb 40%-ig ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Sebezhetetlenség a biztonságos zónában {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ A harc utáni felépüléshez a pilóták a passzív regenerációra és az akt�
 
 - **Működés**: másodpercenként a pajzsod töltődési sebességének megfelelő pajzspontot állít vissza.
 - **Késleltetés**: a harc megszakítja; a passzív regeneráció csak **15 másodpercnyi** sebzésmentesség után indul újra.
+- **Drónformációk**: az Adamant és a Redoubt másodpercenként pajzsot ad vissza, harcban is (lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 A [Siphon Battery](/wiki/06-Items/Lasers.md) lőszer a célpontból elszívott pajzsot azonnal hozzáadja a tiédhez, a maximumodig. A pajzsnyereség nem számít kapott sebzésnek, ezért nem késlelteti a passzív regenerációdat.
 

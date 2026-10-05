@@ -1,21 +1,21 @@
-<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
 <!-- wiki-i18n title: Storm -->
-# Storm {#storm}
+# Storm
 
-Die Storm ist ein Raumjäger als Glaskanone: das höchste Grundtempo aller Schiffe und zehn Laser auf einer Hülle, die für ihre Klasse leicht ist. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
+Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser aller Schiffe (13) auf einer Hülle, die für ihre Klasse leicht ist. Nach der Bewertung des Spiels (mehr als 10 Laser-Slots) ist sie ein Schlachtschiff der Klasse IV. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 160.000
-- **Grundtempo**: 240
-- **Laser-Slots**: 10
+- **Trefferpunkte (HP)**: 150.000
+- **Grundtempo**: 250
+- **Laser-Slots**: 13
 - **Extra-Slots**: 3
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
-- **Kern-Slots (100 % Wirkungsgrad)**: 3
+- **Kern-Slots (100 % Wirkungsgrad)**: 4
 - **Support-Slots (75 % Wirkungsgrad)**: 4
-- **Hilfs-Slots (50 % Wirkungsgrad)**: 3
+- **Hilfs-Slots (50 % Wirkungsgrad)**: 2
 
 ---
 
@@ -38,4 +38,4 @@ Sobald seine Technologie erforscht ist, kostet der Bau eines Storm in der Montag
 
 ## Hintergrund {#lore}
 
-Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Knochenweiße Panzerung über einem türkisen Gerüst, mit orangefarbenen Paneelen und Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Geschütze, jede Mündung gut sichtbar. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa halb so stark wie die einer Wraith und etwa ein Viertel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.
+Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Knochenweiße Panzerung über einem türkisen Gerüst, mit orangefarbenen Paneelen und Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Mündungen in voller Sicht, durch die dreizehn Laser feuern. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa halb so stark wie die einer Wraith und etwa ein Viertel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.

@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 55131889617bd886 -->
+<!-- wiki-i18n source: ee1ab2403a7af6d8 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
 **研究センター**は、あなたの [Skylab](/wiki/03-Mechanics/Skylab.md) の研究所です。資源を与えると**科学**に変わり、その科学が**技術**を研究します。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)での製作はすべて、先にその技術が必要です。艦、レーザー、スラスター、CPU は、研究が終わるまで製作できません。
 
 このページには、技術ツリー全体と各技術の所要時間、各資源が与える科学、Thulium ブースト、Dark Matter のルール、新しい CPU がまとまっています。数値はゲーム自身のデータから読み込んでいるので、常にゲーム内と同じです。
+
+![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 
 ## 研究センター {#the-research-centre}
 
@@ -47,7 +49,7 @@
 
 ## 燃料 {#fuel}
 
-研究センターに資源を与えると、1個ずつすぐ科学に変わります。入手に手間がかかる資源ほど、多くの科学を与えます。数値は入手の難しさに従い、レアリティの表示には従わないため、Power Core（アンコモン）のほうが Orvium（レア）より多く与えます。鉱石は [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) の資源貯蔵庫から、それ以外の資源はインベントリから使い、艦は着陸している必要があります。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、クレジット、Thulium は燃料にできません。Reinforced Hull Plate は燃料にできます。
+研究センターに資源を与えると、1個ずつすぐ科学に変わります。入手に手間がかかる資源ほど、多くの科学を与えます。数値は入手の難しさに従い、レアリティの表示には従いません。鉱石は例外です。1個が与える科学は、コレクターがそれを採掘するのにかかる秒数より多いので、レベルの中ほどにあるコレクターの1時間分の鉱石で、およそ2時間分の研究をまかなえます。鉱石は [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) の資源貯蔵庫から、それ以外の資源はインベントリから使われ、艦は着陸している必要があります。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、クレジット、Thulium は燃料にできません。Reinforced Hull Plate は燃料にできます。
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -60,9 +62,9 @@
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | コモン | インベントリ | 7 | 515 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | コモン | インベントリ | 8 | 450 |
 | [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | コモン | インベントリ | 33 | 110 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | アンコモン | 資源貯蔵庫 | 40 | 90 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | レア | 資源貯蔵庫 | 80 | 45 |
 | [Power Core](/wiki/06-Items/Resources.md#power-core) | アンコモン | インベントリ | 100 | 36 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | アンコモン | 資源貯蔵庫 | 210 | 18 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | レア | 資源貯蔵庫 | 321 | 12 |
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | レア | インベントリ | 650 | 6 |
 
 最後の列は、ブーストなしで研究を1時間続けるのに必要な個数（切り上げ）です。ブーストありでは 2 倍必要です。
@@ -92,7 +94,7 @@
 
 <!-- research-boost:end -->
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 技術ツリーの頂点にある技術には、Dark Matter も必要です。Dark Matter は[ブラックホール](/wiki/03-Mechanics/Black-Hole.md#dark-matter)から得られ、到達した N.I.K.E. ロケットが少量を残します。また、[Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)の Dormant Pulse からも、ときどき手に入ります。
 
@@ -101,8 +103,9 @@
 
 - 下の表の 15個の技術それぞれに、科学に加えて **10 個の Dark Matter** が必要です。開始前に研究センターへセットしてください（インベントリから、艦は着陸した状態で）。研究は開始時にそれを受け取ります。
 - **ルール：** レアリティが エピック 以上で、研究に 10時間 以上かかるアイテム。Dark Matter を作るための N.I.K.E. には、これは決して必要ありません。
+- **ドローン編成**はこのルールの対象外です。編成の研究はどれも Dark Matter を必要とし、強さに応じて 5、13、20 のいずれかです（表のとおり）。
 - **研究をキャンセルすると、**そのためにセットした Dark Matter はセンターに戻ります。進捗と、すでに燃やした科学は戻りません。
-- すべて合わせて 150 個の Dark Matter が必要です。
+- すべて合わせて 339 個の Dark Matter が必要です。
 
 | 技術 | レアリティ | 研究時間 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -121,12 +124,28 @@
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | レジェンダリー | 1日 | 10 |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | エピック | 1日 | 10 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | エピック | 1日 | 10 |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | ミシカル | 2日 | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | ミシカル | 2日 | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | ミシカル | 2日 | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
 
 <!-- research-dark-matter:end -->
 
 ## 技術ツリー {#the-technology-tree}
 
-各ボックスは1つの技術です。名前の下に研究時間（時計）が、Dark Matter が必要なものには Dark Matter バッジが付きます。矢印は、ある技術から、それを必要とする技術へ向かいます。先に研究するのは矢印の元の技術です。矢印のないボックスはすぐに研究できます。ボックスにカーソルを合わせると、研究時間、燃やす科学、研究後にアセンブリが要求するものが表示され、クリックするとそのアイテムのページが開きます。ツリーはゲーム自身のデータから描いています。
+各ボックスは1つの技術です。名前の下に研究時間（時計）が、Dark Matter が必要なものには Dark Matter バッジが付きます。矢印は、ある技術から、それを必要とする技術へ向かいます。先に研究するのは矢印の元の技術です。矢印のないボックスはすぐに研究できます。ボックスにカーソルを合わせると、研究時間、燃やす科学、研究後にアセンブリが要求するものが表示され、クリックするとそのアイテムのページが開きます。ツリーはゲーム自身のデータから描いています。ツリーのうち **防衛** と **攻撃と機動** の2つには、16種類の[ドローン編成](/wiki/03-Mechanics/Formations.md)が入っています。
 
 <!-- research-tree:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -224,6 +243,40 @@ Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 ```
 
+### 防衛 {#tree-defence}
+
+```tree research
+Testudo Formation | formation, epic | craft 7500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Adamant Formation | formation, epic | craft 9000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Rampart Formation | formation, mythical | craft 38500 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Sanctum Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Redoubt Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Cordon Formation | formation, epic | craft 21500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Testudo Formation => Sanctum Formation => Rampart Formation
+Adamant Formation => Redoubt Formation => Cordon Formation
+```
+
+### 攻撃と機動 {#tree-strike-mobility}
+
+```tree research
+Bodkin Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Asterism Formation | formation, epic | craft 7000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gemini Formation | formation, mythical | craft 38000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Ballista Formation | formation, epic | craft 24000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Stiletto Formation | formation, mythical | craft 46000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Shrike Formation | formation, epic | craft 8500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Culler Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Auger Formation | formation, epic | craft 20500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Centurion Formation | formation, epic | craft 8000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gyre Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Asterism Formation => Bodkin Formation => Ballista Formation
+Gemini Formation => Stiletto Formation
+Centurion Formation => Shrike Formation => Culler Formation
+Gyre Formation => Auger Formation
+```
+
 
 <!-- research-tree:end -->
 
@@ -271,6 +324,22 @@ Base CPU I => Base CPU II => Jump CPU
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10時間 | 36,000 | – |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1日 | 86,400 | 10 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6時間 | 21,600 | – |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10時間 | 36,000 | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10時間 | 36,000 | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 2日 | 172,800 | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10時間 | 36,000 | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2日 | 172,800 | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2日 | 172,800 | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | C | 10時間 | 36,000 | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1日 | 86,400 | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10時間 | 36,000 | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 1日 | 86,400 | 13 |
 
 研究時間によるクラス：
 
@@ -278,11 +347,11 @@ Base CPU I => Base CPU II => Jump CPU
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30分 | 5 | 2時間30分 | 9,000 | 0 |
 | B | 3時間～6時間 | 14 | 2日 | 172,800 | 0 |
-| C | 10時間 | 9 | 3日18時間 | 324,000 | 60 |
-| D | 1日～2日 | 9 | 10日 | 864,000 | 90 |
-| 合計 |  | 37 | 15日20時間30分 | 1,369,800 | 150 |
+| C | 10時間 | 14 | 5日20時間 | 504,000 | 85 |
+| D | 1日～2日 | 20 | 24日 | 2,073,600 | 254 |
+| 合計 |  | 53 | 31日22時間30分 | 2,759,400 | 339 |
 
-1つずつ順に研究すると、ツリー全体で 15日20時間30分 かかります。ブーストを常にかけると 7日22時間15分 で、ブースト 8 個と 40,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 31日22時間30分 かかります。ブーストを常にかけると 15日23時間15分 で、ブースト 16 個と 80,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 
@@ -305,13 +374,13 @@ Base CPU I => Base CPU II => Jump CPU
 
 どれもショップでは売っていません。技術を研究し、アセンブリで CPU を製作します。ツリーの CPU にカーソルを合わせると、アセンブリが何を必要とするか分かります。
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **働き。** Extra Slots CPU I・II・III は、すべての艦のエクストラスロットを 3、5、7 増やします。艦がもともと持つ 3 を足すと、合計は 6、8、10 です。上位の CPU は下位を置き換えます。II は I に加算されません。
+- **働き。** Extra Slots CPU I・II・III は、すべての艦のエクストラスロットを 3、5、7 増やします。艦がもともと 3 持っていれば合計は 6、8、10、2 なら 5、7、9 です。上位の CPU は下位を置き換えます。II は I に加算されません。
 - **装備ではなく導入。** Extra Slots CPU はアイテムではありません。アセンブリで受け取ると Skylab に導入され、両方の構成のすべての艦に効き、スロットは使いません。ワイプ後も残ります。
 - **順番に。** 順に製作してください。II は I を導入済みのとき、III は II を導入済みのときだけ製作できます。それまでは、先に導入すべきものをアセンブリが教えてくれます。3つ合わせて 117,000 Thulium（12,000、30,000、75,000）です。
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **働き。** 艦を、あなたのワールドにある任意の企業のセクター（自企業のものも他企業のものも、拠点セクターも含む。`M`、`T`、`G` のセクター 1〜4）へ、1回につき **500 Thulium** でジャンプさせます。使用回数の上限はなく、払うのは Thulium だけです。危険セクター（`DS`）や中立セクター（`N`）へは行けません。
 - **ジャンプ。** JMP スロットを押し、星系マップでセクターを選んで確定すると、艦が 5 秒チャージしたあと、そのセクターのゲートに到着します。到着直後は、ふつうのゲートジャンプのあとと同じ保護があります。到着後、CPU は 30 秒のクールダウンに入ります。
@@ -319,7 +388,7 @@ Base CPU I => Base CPU II => Jump CPU
 - **中立セクターからは不可：** 中立セクターにいるパイロット、または企業に所属しないパイロットは使えません。
 - 戦闘中でなければ、危険セクターから出ることはできます。
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **働き。** 艦を所属企業の拠点にある、ステーション周囲のセーフゾーンへテレポートさせます（`M-1`、`T-1`、`G-1`。Mission Control があるセクター）。Thulium はかかりません。ホットバーの BSE スロットから起動します。
 - **戦闘中は不可。** チャージは 10 秒で、どちらも同じです。発砲または被弾から 10 秒以内、ステルス中、すでに拠点のセーフゾーン内にいるときは開始できず、チャージ中の発砲や被弾でキャンセルされます。
@@ -331,7 +400,7 @@ Base CPU I => Base CPU II => Jump CPU
 
 - **使い切り、再チャージなし。** 使うたびに CPU の使用回数が1つ減り、使用回数がなくなった CPU は消えます。新しく製作してください。両方を装備している場合は、上位の II から使われます。
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **働き。** 手動で出撃させられる状況になるたびに、エクストラスロットに装備した Repair Drone を自動で出撃させます。船体が満タンでなく、ドローンがまだ出ておらず、最後の被弾から 10 秒が過ぎていることが条件です。船体の割合を設定する必要はありません。
 - 専用のエクストラスロットを1つ使い、同じ構成のエクストラスロットに Repair Drone がなければ何もしません。アビリティスロットにある Repair Drone は出撃させません（それは Emergency Repair ボタンです）。

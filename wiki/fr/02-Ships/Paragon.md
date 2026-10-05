@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d37c87fbe6d3997a -->
+<!-- wiki-i18n source: d6867c2daec4fa77 -->
 <!-- wiki-i18n title: Paragon -->
-# Paragon {#paragon}
+# Paragon
 
 Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, adapté aux opérations de flotte et aux patrouilles frontalières.
 

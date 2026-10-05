@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 539575474f5854de -->
+<!-- wiki-i18n source: 380267094f925178 -->
 <!-- wiki-i18n title: Boosters -->
-# Boosters {#boosters}
+# Boosters
 
 Les boosters apportent des modifications temporaires de stats qui renforcent les capacités de combat, de défense, de progression en niveau et de collecte de ressources de votre vaisseau.
 

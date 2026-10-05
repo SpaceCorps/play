@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Die Nomad ist ein Kreuzer mit der doppelten Hülle und den doppelten Geschützen einer Ostirion: ein Hammerkopf zwischen der Ostirion und der Paragon, im Shop mit Credits und Thulium zusammen zu kaufen. Jeder Pilot darf sie kaufen.
 
@@ -9,7 +9,7 @@ Die Nomad ist ein Kreuzer mit der doppelten Hülle und den doppelten Geschützen
 - **Trefferpunkte (HP)**: 96.000
 - **Grundtempo**: 200
 - **Laser-Slots**: 6
-- **Extra-Slots**: 3
+- **Extra-Slots**: 2
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Die Nomad ist ein Kreuzer mit der doppelten Hülle und den doppelten Geschützen
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Keine Forschung nötig.** Dieses Schiff hat keine eigene Technologie.
-- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 6, 8 und 10 insgesamt mit den eigenen 3. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Mehr Extra-Slots.** Extra Slots CPU I, II und III, in deinem Skylab installiert, geben diesem Schiff 3, 5 und 7 Extra-Slots mehr: 5, 7 und 9 insgesamt mit den eigenen 2. Du erforschst und stellst sie wie jeden anderen Gegenstand her: siehe [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

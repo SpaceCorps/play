@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Рой Dormant -->
 # Рой Dormant {#dormant-swarm}
 
@@ -47,7 +47,7 @@
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 Основа: Wraith, 100% корпуса, щита и урона; скорость и дальность взяты от исходного корабля. Каждые 5 с выпускает прямую ракету: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
@@ -56,7 +56,7 @@
 | Корпус | 324 000 | 486 000 | 648 000 |
 | Щит | 83 400 | 125 100 | 166 800 |
 | Урон лазеров (залп в секунду) | 2 880 | 4 320 | 5 760 |
-| Скорость | 225 | 225 | 225 |
+| Скорость | 220 | 220 | 220 |
 | Дальность лазеров | 800 | 800 | 800 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
 | Урон ракет, максимум | 7 500 | 11 250 | 15 000 |
@@ -74,7 +74,7 @@
 | Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 100% | 30–50 |
 | Одна из [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) и [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), на выбор случая | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 Основа: Paragon, 100% корпуса, щита и урона; скорость и дальность взяты от исходного корабля. Каждые 5 с выпускает прямую ракету: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d702dc155ccb9254 -->
+<!-- wiki-i18n source: 8d402a8454b12f5b -->
 <!-- wiki-i18n title: Crystalys -->
-# Crystalys {#crystalys}
+# Crystalys
 
 A Crystalys hatalmas, csatahajó-osztályú idegen entitás. Találkozni vele rendkívül veszélyes: a túléléshez kivételes pajzskapacitás és tűzerő kell. Üldözőbe veszi minden védtelen pilótát, aki az aggrósugarán (900 egység) belül van, és elengedi, ha a pilóta több mint 1 200 egységre van tőle, vagy ha 2 000 egységet repült az üldözés kezdőpontjától (2 500, illetve 3 000 egység, ha a pilóta rálőtt, lásd [Harc](/wiki/03-Mechanics/Combat.md)); azt a pilótát, aki az elmúlt 10 másodpercben eltalálta, egyáltalán nem engedi el, és a Crystalys arra a pilótára repül, valahányszor az a fegyvere hatótávján (900 egység) kívül van. Ha több pilóta lő rá, a Crystalys az első pilótánál marad, aki rálőtt, amíg az a pilóta folyamatosan találja (lásd [Kivel harcol egy idegen](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 

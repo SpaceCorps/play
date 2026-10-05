@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c893fea350141846 -->
+<!-- wiki-i18n source: 3faf8088ef6dd8cf -->
 <!-- wiki-i18n title: 자원 -->
 # 자원 {#resources}
 
@@ -19,24 +19,24 @@
 
 | 재료 | 희귀도 | 획득처 | 쓰이는 곳 |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 일반 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 스페셜 미션 | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, N.U.K.E., N.I.K.E., 대장간, Skylab 건설, 연구 센터 |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 일반 | Goombah, Bulwark, 스페셜 미션 | Starfire-3, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | 고급 | Crystalys, Goombah, 스페셜 미션 | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, N.U.K.E., 대장간, 연구 센터 |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 희귀 | Crystalys, 스페셜 미션 | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, 연구 센터 |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 일반 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 스페셜 미션 | Master Drone, Quantum Laser 3, Starfire-3, Paragon, Wraith, Damage Amp II, Shield Wall II, Hull Plating II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., N.I.K.E., 대장간, Skylab 건설, 연구 센터 |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 일반 | Goombah, Bulwark, 미션 | Starfire-3, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | 고급 | Crystalys, Goombah, 미션 | Helios Beam, Paragon, Wraith, Nova Amp, Apex Amp, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, N.U.K.E., 대장간, 연구 센터 |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 희귀 | Crystalys, 미션 | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, 연구 센터 |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | 일반 | Phantasm, Seeker | 대장간, 연구 센터 |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | 일반 | Phantasm, Bulwark | 대장간, 연구 센터 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 일반 | Crystalys, Goombah, Bulwark | Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 일반 | Crystalys, Goombah, Bulwark, 미션 | Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 일반 | Crystalys, Goombah | 대장간, 연구 센터 |
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 고급 | Skylab 수집기 | Skylab 단조소, 연구 센터 |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | 희귀 | Skylab 수집기 | Skylab 단조소, 연구 센터 |
-| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 희귀 | Skylab 단조소 | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Dark Matter Plate, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 영웅 | Skylab 단조소 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II |
+| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 희귀 | 미션, Skylab 단조소 | Quantum Laser 3, Starfire-3, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Dark Matter Plate, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 영웅 | 미션, Skylab 단조소 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 영웅 | 블랙홀(삼켜진 N.I.K.E.) | Dark Matter Plate, 연구 센터 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 신화 | 어셈블리 | 대장간 |
 
 ## 재료 {#materials}
 
-### Ship Fragment {#ship-fragment}
+### Ship Fragment
 
 *일반 자원.* NPC가 드롭합니다. 더 강한 함선을 만드는 데 필요합니다.
 
@@ -50,7 +50,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 100% 확률로 1개 | 1 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 20% 확률로 1개 | 0.2 |
 
-- **미션**: Phantasm 섬멸(레벨 2 스페셜) 5; 밤의 장막(레벨 3 스페셜) 10; Bulwark 분쇄자(레벨 4 스페셜) 10; 강철의 파도(레벨 5 스페셜) 15; 거상(레벨 6 스페셜) 15; Goombah 포위전(레벨 7 스페셜) 20; 전선 지휘(레벨 8 스페셜) 25.
+- **미션**: Phantasm 섬멸(레벨 2 스페셜) 5; 둥지 파괴자(레벨 3 스페셜) 10; 둥지 정화(레벨 4 스페셜) 10; 강철의 파도(레벨 5 스페셜) 15; 거상(레벨 6 스페셜) 15; Goombah 포위전(레벨 7 스페셜) 20; 전선 지휘(레벨 8 스페셜) 25.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -79,6 +79,22 @@
 - Base CPU I: **40** (함께 필요: Power Core 2개, Velkonite Reinforced Plate 4개, Thulium 8,000)
 - Base CPU II: **100** (함께 필요: Orvium Reinforced Plate 2개, Power Core 5개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Auto-Repair CPU: **80** (함께 필요: Power Core 4개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Testudo Formation: **100** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 4개, Thulium 7,500)
+- Bodkin Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Asterism Formation: **100** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 4개, Thulium 7,000)
+- Gemini Formation: **260** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Velkonite Reinforced Plate 14개, Thulium 38,000)
+- Adamant Formation: **100** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 4개, Thulium 9,000)
+- Ballista Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 24,000)
+- Stiletto Formation: **260** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Velkonite Reinforced Plate 14개, Thulium 46,000)
+- Rampart Formation: **260** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Velkonite Reinforced Plate 14개, Thulium 38,500)
+- Sanctum Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Shrike Formation: **100** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 4개, Thulium 8,500)
+- Culler Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Redoubt Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Auger Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 20,500)
+- Cordon Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 21,500)
+- Centurion Formation: **100** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 4개, Thulium 8,000)
+- Gyre Formation: **180** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (함께 필요: Cataclysite 80개, Power Core 4개, Reinforced Hull Plate 10개, Scatter III 6개, 크레딧 150,000, Thulium 3,000)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작): **20** (함께 필요: Cataclysite 40개, Reinforced Hull Plate 4개, 크레딧 100,000, Thulium 1,500)
 - [대장간](/wiki/06-Items/Forge.md), 표준 → 오염된: **5** (함께 필요: Daraxium 15개, 크레딧 10,000; 성공 확률 100%)
@@ -91,7 +107,7 @@
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 6개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0.2개.
 
-### Reinforced Hull Plate {#reinforced-hull-plate}
+### Reinforced Hull Plate
 
 *일반 자원.* NPC가 드롭합니다. 더 강한 함선을 만드는 데 필요합니다.
 
@@ -102,7 +118,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 60% 확률로 1개 | 0.6 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 30% 확률로 1개 | 0.3 |
 
-- **미션**: Bulwark 분쇄자(레벨 4 스페셜) 2; 강철의 파도(레벨 5 스페셜) 3; 거상(레벨 6 스페셜) 3; Goombah 포위전(레벨 7 스페셜) 5.
+- **미션**: 둥지 정화(레벨 4 스페셜) 2; 강철의 파도(레벨 5 스페셜) 3; 거상(레벨 6 스페셜) 3; Goombah 포위전(레벨 7 스페셜) 5; Bulwark의 바다(도전 과제) 40; Phantasm 홍수(도전 과제) 25; Phantasm 대양(도전 과제) 30; Phantasm 해일(도전 과제) 20; Phantasm 일만 마리(도전 과제) 50.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -124,6 +140,22 @@
 - Extra Slots CPU III: **25** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 12개, Ship Fragment 240개, Velkonite Reinforced Plate 20개, Thulium 75,000)
 - Jump CPU: **20** (함께 필요: Ancient Control Unit 3개, Orvium Reinforced Plate 10개, Power Core 10개, Ship Fragment 200개, Velkonite Reinforced Plate 15개, Thulium 40,000)
 - Auto-Repair CPU: **8** (함께 필요: Power Core 4개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Testudo Formation: **10** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 7,500)
+- Bodkin Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Asterism Formation: **10** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 7,000)
+- Gemini Formation: **26** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,000)
+- Adamant Formation: **10** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 9,000)
+- Ballista Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 24,000)
+- Stiletto Formation: **26** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 46,000)
+- Rampart Formation: **26** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,500)
+- Sanctum Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Shrike Formation: **10** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 8,500)
+- Culler Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Redoubt Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Auger Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,500)
+- Cordon Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,500)
+- Centurion Formation: **10** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 8,000)
+- Gyre Formation: **18** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (함께 필요: Cataclysite 80개, Power Core 4개, Scatter III 6개, Ship Fragment 40개, 크레딧 150,000, Thulium 3,000)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작): **4** (함께 필요: Cataclysite 40개, Ship Fragment 20개, 크레딧 100,000, Thulium 1,500)
 - [대장간](/wiki/06-Items/Forge.md), 신성한 → 파열하는: **20** (함께 필요: Cataclysite 120개, Dark Matter Plate 2개, 크레딧 200,000; 성공 확률 75%)
@@ -133,7 +165,7 @@
 
 **모으는 방법**: [Goombah](/wiki/04-Aliens/Goombah.md)(섹터 3, 4) 처치, 처치당 평균 0.6개.
 
-### Power Core {#power-core}
+### Power Core
 
 *고급 자원.* NPC가 드롭합니다. 더 강한 함선, 레이저, 실드, 속도, 하이브리드 발전기를 만드는 데 필요합니다.
 
@@ -144,7 +176,7 @@
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 50% 확률로 1개 | 0.5 |
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 25% 확률로 1개 | 0.25 |
 
-- **미션**: 강철의 파도(레벨 5 스페셜) 1; 거상(레벨 6 스페셜) 1; Goombah 포위전(레벨 7 스페셜) 2; 전선 지휘(레벨 8 스페셜) 1.
+- **미션**: 강철의 파도(레벨 5 스페셜) 1; 거상(레벨 6 스페셜) 1; Goombah 포위전(레벨 7 스페셜) 2; 전선 지휘(레벨 8 스페셜) 1; Bulwark 전염병(도전 과제) 10; Goombah 궤멸(도전 과제) 12; 둥지 솎아내기(도전 과제) 4; 둥지 솎아내기 II(도전 과제) 6; 척후병 솎아내기(도전 과제) 4; Seeker 역병(도전 과제) 8; Seeker 재앙(도전 과제) 6; Seeker 일만 마리(도전 과제) 15; 무피해 III(도전 과제) 8.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -170,6 +202,22 @@
 - Base CPU I: **2** (함께 필요: Ship Fragment 40개, Velkonite Reinforced Plate 4개, Thulium 8,000)
 - Base CPU II: **5** (함께 필요: Orvium Reinforced Plate 2개, Ship Fragment 100개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Auto-Repair CPU: **4** (함께 필요: Reinforced Hull Plate 8개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Testudo Formation: **5** (함께 필요: Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 7,500)
+- Bodkin Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Asterism Formation: **5** (함께 필요: Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 7,000)
+- Gemini Formation: **13** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,000)
+- Adamant Formation: **5** (함께 필요: Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 9,000)
+- Ballista Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 24,000)
+- Stiletto Formation: **13** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 46,000)
+- Rampart Formation: **13** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,500)
+- Sanctum Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Shrike Formation: **5** (함께 필요: Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 8,500)
+- Culler Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Redoubt Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Auger Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,500)
+- Cordon Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,500)
+- Centurion Formation: **5** (함께 필요: Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 4개, Thulium 8,000)
+- Gyre Formation: **9** (함께 필요: Orvium Reinforced Plate 3개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (함께 필요: Cataclysite 80개, Reinforced Hull Plate 10개, Scatter III 6개, Ship Fragment 40개, 크레딧 150,000, Thulium 3,000)
 - [대장간](/wiki/06-Items/Forge.md), 파열하는 → 영원한: **8** (함께 필요: Quorvium 240개, Dark Matter Plate 2개, 크레딧 500,000, Thulium 2,000; 성공 확률 60%)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **100**
@@ -178,7 +226,7 @@
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.5개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 0.25개.
 
-### Ancient Control Unit {#ancient-control-unit}
+### Ancient Control Unit
 
 *희귀 자원.* NPC가 드롭합니다. 더 강한 함선과 레이저를 만드는 데 필요합니다.
 
@@ -188,7 +236,7 @@
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% 확률로 1개 | 0.2 |
 
-- **미션**: 전선 지휘(레벨 8 스페셜) 1.
+- **미션**: 전선 지휘(레벨 8 스페셜) 1; 심연의 호송(도전 과제) 1; Bulwark의 벽(도전 과제) 2; 호송 III(도전 과제) 1; 호송 제로(도전 과제) 1; Dormant의 지배(도전 과제) 1; Dormant의 황혼(도전 과제) 1; 해적의 파멸(도전 과제) 1; 해적 청산(도전 과제) 1; 해적의 왕좌(도전 과제) 1; 무피해(도전 과제) 1; 무피해 II(도전 과제) 1.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -198,11 +246,14 @@
 - [Storm](/wiki/02-Ships/Storm.md): **1** (함께 필요: Power Core 10개, Reinforced Hull Plate 35개, Ship Fragment 200개, Thulium 15,000)
 - Extra Slots CPU III: **2** (함께 필요: Orvium Reinforced Plate 6개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 20개, Thulium 75,000)
 - Jump CPU: **3** (함께 필요: Orvium Reinforced Plate 10개, Power Core 10개, Reinforced Hull Plate 20개, Ship Fragment 200개, Velkonite Reinforced Plate 15개, Thulium 40,000)
+- Gemini Formation: **2** (함께 필요: Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,000)
+- Stiletto Formation: **2** (함께 필요: Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 46,000)
+- Rampart Formation: **2** (함께 필요: Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,500)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **650**
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.2개.
 
-### Daraxium {#daraxium}
+### Daraxium
 
 *일반 자원.* NPC가 드롭합니다. 대장간에서 장비를 오염된 등급으로 올리는 데 쓰입니다.
 
@@ -224,7 +275,7 @@
 
 **모으는 방법**: [Phantasm](/wiki/04-Aliens/Phantasm.md)(섹터 2, 3) 처치, 처치당 평균 0.9개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0.75개.
 
-### Nyxite {#nyxite}
+### Nyxite
 
 *일반 자원.* NPC가 드롭합니다. 대장간에서 장비를 신성한 등급으로 올리는 데 쓰입니다.
 
@@ -246,7 +297,7 @@
 
 **모으는 방법**: [Phantasm](/wiki/04-Aliens/Phantasm.md)(섹터 2, 3) 처치, 처치당 평균 0.9개.
 
-### Cataclysite {#cataclysite}
+### Cataclysite
 
 *일반 자원.* NPC가 드롭합니다. 가장 강한 레이저를 만들고, 대장간에서 장비를 파열하는 등급으로 올리는 데 쓰입니다.
 
@@ -258,6 +309,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% 확률로 4개 | 4 |
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% 확률로 2개 | 2 |
 
+- **미션**: Bulwark 폭풍(도전 과제) 40; Crystalys 소탕(도전 과제) 60; Dormant의 새벽(도전 과제) 40; Goombah 군단(도전 과제) 80; Goombah의 재앙(도전 과제) 50; 적지(도전 과제) 50; 전선의 수호자(도전 과제) 100.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -281,7 +333,7 @@
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 8개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 4개.
 
-### Quorvium {#quorvium}
+### Quorvium
 
 *일반 자원.* NPC가 드롭합니다. 대장간에서 장비를 영원한 등급으로 올리는 데 쓰입니다.
 
@@ -303,7 +355,7 @@
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 8개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 3개.
 
-### Velkonite {#velkonite}
+### Velkonite
 
 *고급 자원.* 내 Skylab의 Velkonite 수집기가 채굴해 자원 창고에 보관하는 광석입니다. 단조소가 이것으로 Velkonite Reinforced Plate를 만듭니다.
 
@@ -313,22 +365,22 @@
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 시간당 Velkonite | 12 | 29 | 89 | 273 | 833 |
+| 시간당 Velkonite | 10 | 18 | 32 | 52 | 80 |
 
 이 수치는 전력이 공급되는 정거장 기준입니다. 전력 부족이 생기면 모든 농장과 수집기가 멈추고, 모듈은 코어보다 높은 레벨로 업그레이드할 수 없으며 코어는 레벨 20에서 멈춥니다([Skylab](/wiki/03-Mechanics/Skylab.md) 참고).
 
-수집기 건설 비용: 코어 레벨 5, Ship Fragment 10개, 크레딧 10,000, Thulium 500.
+수집기 건설 비용: 코어 레벨 5, Ship Fragment 10개, 크레딧 20,000, Thulium 500.
 
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
 
-- [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소: 단조소 레벨 1에서 Velkonite Reinforced Plate 1장당 **40**개, 레벨 1을 넘는 레벨마다 1.5%씩 줄어듭니다(레벨 20에서는 그 71.5%)
-- [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **40**
+- [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소: 단조소 레벨 1에서 Velkonite Reinforced Plate 1장당 **40**개, 레벨 1을 넘는 레벨마다 줄어듭니다(레벨 20에서는 그 75%)
+- [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **210**
 
-**모으는 방법**: 수집기 레벨을 올리고(레벨마다 시간당 생산량이 25%씩 늘어납니다), 저장소가 차기 전에 비우세요. 가득 차면 멈춥니다.
+**모으는 방법**: 수집기 레벨을 올리고(레벨마다 더 많이 캡니다), 저장소가 차기 전에 비우세요. 가득 차면 멈춥니다.
 
-### Orvium {#orvium}
+### Orvium
 
 *희귀 자원.* 내 Skylab의 Orvium 수집기가 채굴해 자원 창고에 보관하는 희귀 광석입니다. 단조소가 이것으로 Orvium Reinforced Plate를 만듭니다.
 
@@ -338,34 +390,35 @@
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 시간당 Orvium | 6 | 15 | 45 | 136 | 416 |
+| 시간당 Orvium | 10 | 14 | 24 | 34 | 40 |
 
 이 수치는 전력이 공급되는 정거장 기준입니다. 전력 부족이 생기면 모든 농장과 수집기가 멈추고, 모듈은 코어보다 높은 레벨로 업그레이드할 수 없으며 코어는 레벨 20에서 멈춥니다([Skylab](/wiki/03-Mechanics/Skylab.md) 참고).
 
-수집기 건설 비용: 코어 레벨 5, Ship Fragment 10개, 크레딧 10,000, Thulium 500.
+수집기 건설 비용: 코어 레벨 5, Ship Fragment 10개, 크레딧 20,000, Thulium 500.
 
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
 
-- [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소: 단조소 레벨 1에서 Orvium Reinforced Plate 1장당 **80**개, 레벨 1을 넘는 레벨마다 1.5%씩 줄어듭니다(레벨 20에서는 그 71.5%)
-- [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **80**
+- [Skylab](/wiki/03-Mechanics/Skylab.md) 단조소: 단조소 레벨 1에서 Orvium Reinforced Plate 1장당 **80**개, 레벨 1을 넘는 레벨마다 줄어듭니다(레벨 20에서는 그 75%)
+- [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **321**
 
-**모으는 방법**: 수집기 레벨을 올리고(레벨마다 시간당 생산량이 25%씩 늘어납니다), 저장소가 차기 전에 비우세요. 가득 차면 멈춥니다.
+**모으는 방법**: 수집기 레벨을 올리고(레벨마다 더 많이 캡니다), 저장소가 차기 전에 비우세요. 가득 차면 멈춥니다.
 
-### Velkonite Reinforced Plate {#velkonite-reinforced-plate}
+### Velkonite Reinforced Plate
 
 *희귀 자원.* Skylab 단조소에서 Velkonite로 단조합니다. 어셈블리가 더 강한 장비와 Dark Matter Plate를 만들 때 요구합니다.
 
 **얻는 방법**
 
+- **미션**: 중앙 감시(도전 과제) 10; 중앙의 시련(도전 과제) 3; 강철 철야(도전 과제) 3; 강철 철야 II(도전 과제) 6; 마지막 철야(도전 과제) 15; 가장자리 철야(도전 과제) 12; 척후병 솎아내기 II(도전 과제) 8.
 - **Skylab**: 단조소에서만 만들 수 있습니다. 원료: Velkonite, 플레이트 1장에 10초. 외계인은 드롭하지 않습니다.
 
 | 단조소 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 플레이트당 Velkonite | 40 | 37.6 | 34.6 | 31.6 | 28.6 |
+| 플레이트당 Velkonite | 40 | 38 | 35.5 | 33 | 30 |
 | 배치당 플레이트 수 | 10 | 30 | 55 | 80 | 105 |
-| 가득 찬 배치당 Velkonite | 400 | 1,128 | 1,903 | 2,528 | 3,003 |
+| 가득 찬 배치당 Velkonite | 400 | 1,140 | 1,953 | 2,640 | 3,150 |
 
 배치의 광석은 배치 전체를 기준으로 계산하며(올림), 배치를 시작할 때 자원 창고에서 빠져나갑니다. 단조소 레벨에는 그 레벨 이상의 코어가 필요하며, 정거장에 전력이 모자라면 단조소는 새 배치를 시작하지 않습니다.
 
@@ -399,24 +452,41 @@
 - Base CPU I: **4** (함께 필요: Power Core 2개, Ship Fragment 40개, Thulium 8,000)
 - Base CPU II: **8** (함께 필요: Orvium Reinforced Plate 2개, Power Core 5개, Ship Fragment 100개, Thulium 20,000)
 - Auto-Repair CPU: **6** (함께 필요: Power Core 4개, Reinforced Hull Plate 8개, Ship Fragment 80개, Thulium 15,000)
+- Testudo Formation: **4** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Thulium 7,500)
+- Bodkin Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 21,000)
+- Asterism Formation: **4** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Thulium 7,000)
+- Gemini Formation: **14** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Thulium 38,000)
+- Adamant Formation: **4** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Thulium 9,000)
+- Ballista Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 24,000)
+- Stiletto Formation: **14** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Thulium 46,000)
+- Rampart Formation: **14** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Thulium 38,500)
+- Sanctum Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 20,000)
+- Shrike Formation: **4** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Thulium 8,500)
+- Culler Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 20,000)
+- Redoubt Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 21,000)
+- Auger Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 20,500)
+- Cordon Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 21,500)
+- Centurion Formation: **4** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Thulium 8,000)
+- Gyre Formation: **8** (함께 필요: Orvium Reinforced Plate 3개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 20,000)
 
 **모듈 업그레이드**: 어셈블리에서 업그레이드할 수 있는 조합: Quantum Laser 3 → Starfire-3, Pulse Amp → Nova Amp, Prism Amp → Apex Amp, Absorption Shield Cell III → Absorption Shield Cell IV, Impulse Thruster III → Impulse Thruster IV, Basic Shield Core → Heavy Shield Core, Engine II → Engine III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Capacity Shield Cell III → Capacity Shield Cell IV, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III 및 Momentum Thruster III → Momentum Thruster IV. 업그레이드할 때마다 출발 부품은 소모되며, 다른 재료와 함께 이 플레이트도 필요합니다. 새 부품은 넣은 부품의 대장간 등급을 이어받으며 보너스는 다시 굴리므로, 이전 보너스보다 좋을 수도 나쁠 수도 있습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
 **모으는 방법**: 단조소에 광석을 공급하고, 배치를 가득 채워 시작한 뒤, 함선이 착륙해 있을 때 플레이트를 수거하세요.
 
-### Orvium Reinforced Plate {#orvium-reinforced-plate}
+### Orvium Reinforced Plate
 
 *영웅 자원.* Skylab 단조소에서 Orvium으로 단조합니다. 어셈블리가 Helios Beam이나 Dark Matter Plate를 만들 때 요구합니다.
 
 **얻는 방법**
 
+- **미션**: 호송(도전 과제) 1; 호송 II(도전 과제) 3; Crystalys의 치세(도전 과제) 12; Crystalys 시험(도전 과제) 6; 네 모서리(도전 과제) 4; Goombah 사냥(도전 과제) 4; 해적의 종말(도전 과제) 8; 가장자리 순회(도전 과제) 6; 무피해 IV(도전 과제) 6; 무피해 제로(도전 과제) 10; 전선의 수호자(도전 과제) 20.
 - **Skylab**: 단조소에서만 만들 수 있습니다. 원료: Orvium, 플레이트 1장에 10초. 외계인은 드롭하지 않습니다.
 
 | 단조소 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 플레이트당 Orvium | 80 | 75.2 | 69.2 | 63.2 | 57.2 |
+| 플레이트당 Orvium | 80 | 76 | 71 | 67 | 60 |
 | 배치당 플레이트 수 | 10 | 30 | 55 | 80 | 105 |
-| 가득 찬 배치당 Orvium | 800 | 2,256 | 3,806 | 5,056 | 6,006 |
+| 가득 찬 배치당 Orvium | 800 | 2,280 | 3,905 | 5,360 | 6,300 |
 
 배치의 광석은 배치 전체를 기준으로 계산하며(올림), 배치를 시작할 때 자원 창고에서 빠져나갑니다. 단조소 레벨에는 그 레벨 이상의 코어가 필요하며, 정거장에 전력이 모자라면 단조소는 새 배치를 시작하지 않습니다.
 
@@ -430,12 +500,23 @@
 - Extra Slots CPU III: **6** (함께 필요: Ancient Control Unit 2개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 20개, Thulium 75,000)
 - Jump CPU: **10** (함께 필요: Ancient Control Unit 3개, Power Core 10개, Reinforced Hull Plate 20개, Ship Fragment 200개, Velkonite Reinforced Plate 15개, Thulium 40,000)
 - Base CPU II: **2** (함께 필요: Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Bodkin Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Gemini Formation: **6** (함께 필요: Ancient Control Unit 2개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,000)
+- Ballista Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 24,000)
+- Stiletto Formation: **6** (함께 필요: Ancient Control Unit 2개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 46,000)
+- Rampart Formation: **6** (함께 필요: Ancient Control Unit 2개, Power Core 13개, Reinforced Hull Plate 26개, Ship Fragment 260개, Velkonite Reinforced Plate 14개, Thulium 38,500)
+- Sanctum Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Culler Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
+- Redoubt Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,000)
+- Auger Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,500)
+- Cordon Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 21,500)
+- Gyre Formation: **3** (함께 필요: Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 
 **모듈 업그레이드**: 어셈블리에서 업그레이드할 수 있는 조합: Starfire-3 → Helios Beam. 업그레이드할 때마다 출발 부품은 소모되며, 다른 재료와 함께 이 플레이트도 필요합니다. 새 부품은 넣은 부품의 대장간 등급을 이어받으며 보너스는 다시 굴리므로, 이전 보너스보다 좋을 수도 나쁠 수도 있습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
 **모으는 방법**: 단조소에 광석을 공급하고, 배치를 가득 채워 시작한 뒤, 함선이 착륙해 있을 때 플레이트를 수거하세요.
 
-### Dark Matter {#dark-matter}
+### Dark Matter
 
 *영웅 자원.* 블랙홀이 삼킨 N.I.K.E. 한 발마다 돌려주는 것으로, 블랙홀 영역 가장자리의 작은 상자에 담겨 나옵니다. 어셈블리가 이것 5개를 Velkonite Reinforced Plate, Orvium Reinforced Plate 하나씩과 함께 압착해 Dark Matter Plate 하나를 만듭니다.
 
@@ -447,11 +528,11 @@
 **쓰이는 곳**
 
 - Dark Matter Plate: **5** (함께 필요: Orvium Reinforced Plate 1개, Velkonite Reinforced Plate 1개, Thulium 250)
-- [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter), 최상위 기술: 15개 기술 각각에 **10**개를 넣음
+- [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter), 최상위 기술: 31개 기술 각각에 **10**개를 넣음
 
 **모으는 방법**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓을 블랙홀에 쏘고(어셈블리에서 제작), 다른 누군가가 가져가기 전에 블랙홀 영역 가장자리의 상자를 회수하세요.
 
-### Dark Matter Plate {#dark-matter-plate}
+### Dark Matter Plate
 
 *신화 자원.* 어셈블리에서 Dark Matter와 강화 플레이트 두 장으로 압착해 만듭니다. 대장간은 최상위 두 단계마다 이것을 두 개씩 요구합니다.
 
@@ -485,7 +566,7 @@
 
 이 수치는 **Alpha** 월드(1배) 기준입니다. 처치 보상은 Beta에서 이 수치의 **2배**, Gamma에서 **3배**이며, 미션 보상은 미션을 수행한 월드를 기준으로 합니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 전리품 드롭은 모든 월드에서 같습니다. 여기에 시즌 상점의 영구 Credit Boost(최대 +50%)와 Thulium Boost(최대 +30%)가 처치와 미션이 주는 두 화폐의 양을 늘려 줍니다.
 
-경험치와 명예는 돈이 아니라 점수이며, 레벨과 계급을 올려 주지만 이것으로 무언가를 사지는 않습니다. 기업을 변경할 때만 일부가 깎이며, 그것도 명예의 절반뿐입니다. 경험치는 소비되지 않습니다.
+경험치와 명예는 돈이 아니라 점수이며, 이것으로 무언가를 사지는 않습니다. 경험치는 레벨을 올려 주고 레벨은 계급에 반영되지만, 명예는 계급과 무관합니다. 기업을 변경할 때만 일부가 깎이며, 그것도 명예의 절반뿐입니다. 경험치는 소비되지 않습니다.
 
 ### 크레딧 {#credits}
 
@@ -495,12 +576,12 @@
 
 - **시작 시**: 신규 파일럿의 계정에 들어 있는 크레딧: 10,000.
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
-- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 크레딧 합계: 6,667,000(레벨 1의 84,500부터 레벨 8의 2,720,000까지).
+- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 크레딧 합계: 6,664,500(레벨 1의 86,000부터 레벨 8의 2,720,000까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 크레딧 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 시간당 크레딧 | 1,000 | 3,842 | 20,661 | 111,120 | 597,630 |
+| 시간당 크레딧 | 500 | 2,500 | 7,500 | 17,000 | 50,000 |
 
 이 수치는 전력이 공급되는 정거장 기준입니다. 전력 부족이 생기면 모든 농장과 수집기가 멈추고, 모듈은 코어보다 높은 레벨로 업그레이드할 수 없으며 코어는 레벨 20에서 멈춥니다([Skylab](/wiki/03-Mechanics/Skylab.md) 참고).
 
@@ -514,13 +595,13 @@
 - **어셈블리**, 제작 1회당: [Starfire-3](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 100,000.
 - **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 표준 → 오염된 10,000, 오염된 → 신성한 50,000, 신성한 → 파열하는 200,000, 파열하는 → 영원한 500,000.
 - **대장간 병합**, 만들어지는 등급별: 오염된 5,000, 신성한 25,000, 파열하는 100,000, 영원한 250,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 기본 가격: 크레딧 농장 1,000(레벨마다 x1.6), 단조소 10,000(레벨마다 x1.5), Orvium 수집기 10,000(레벨마다 x1.5), 연구 센터 25,000(레벨마다 x1.5), 태양광 500(레벨마다 x1.4), 자원 창고 10,000(레벨마다 x1.4), Thulium 농장 5,000(레벨마다 x1.8), Velkonite 수집기 10,000(레벨마다 x1.5). 코어는 처음부터 있으므로 처음 내는 가격은 레벨 2의 가격입니다: 1,500(그 뒤로는 레벨마다 x1.5).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 크레딧 농장 0(레벨 1), 7,000,000(레벨 20), 단조소 5,000(레벨 1), 9,000,000(레벨 20), Orvium 수집기 20,000(레벨 1), 5,500,000(레벨 20), 연구 센터 25,000(레벨마다 x1.5), 태양광 500(레벨 1), 9,000,000(레벨 20), 자원 창고 5,000(레벨 1), 4,500,000(레벨 20), Thulium 농장 5,000(레벨 1), 8,500,000(레벨 20), Velkonite 수집기 20,000(레벨 1), 5,500,000(레벨 20). 코어는 처음부터 있으므로 처음 내는 가격은 레벨 2의 가격입니다: 1,500(그 뒤로는 레벨마다 x1.5).
 - **에너지 물질화 장치**: 스캔 1회에 크레딧 5,000, Chrono-Gate 부품을 찾습니다([자세히](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[클랜](/wiki/03-Mechanics/Clans.md)**: 클랜 은행 기부(파일럿당 24시간 동안 최대 크레딧 1,000,000)와 클랜의 일일 세금(리더가 정한 내 크레딧의 일정 비율).
 
-**모으는 방법**: 처치당 가장 많이 주는 외계인: [Crystalys](/wiki/04-Aliens/Crystalys.md)(Alpha 75,000, Gamma 225,000; 섹터 4). 가장 가까운 획득처: [Seeker](/wiki/04-Aliens/Seeker.md)(Alpha 1,000; 섹터 1). 전력이 공급되는 크레딧 농장의 생산량은 레벨 1에서 시간당 1,000, 레벨 20에서 597,630입니다(코어 레벨 20 기준). 저장소는 가득 차면 멈추므로 제때 수거하세요.
+**모으는 방법**: 처치당 가장 많이 주는 외계인: [Crystalys](/wiki/04-Aliens/Crystalys.md)(Alpha 75,000, Gamma 225,000; 섹터 4). 가장 가까운 획득처: [Seeker](/wiki/04-Aliens/Seeker.md)(Alpha 1,000; 섹터 1). 전력이 공급되는 크레딧 농장의 생산량은 레벨 1에서 시간당 500, 레벨 20에서 50,000입니다(코어 레벨 20 기준). 저장소는 가득 차면 멈추므로 제때 수거하세요.
 
-### Thulium {#thulium}
+### Thulium
 
 *희귀 화폐.* 최고급 장비와 부스터에 씁니다.
 
@@ -528,12 +609,12 @@
 
 - **시작 시**: 신규 파일럿의 계정에 들어 있는 Thulium: 100.
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
-- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 Thulium 합계: 50,980(레벨 1의 170부터 레벨 8의 21,760까지).
+- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 Thulium 합계: 51,010(레벨 1의 170부터 레벨 8의 21,760까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 Thulium 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 시간당 Thulium | 50 | 143 | 530 | 1,969 | 7,310 |
+| 시간당 Thulium | 50 | 180 | 450 | 950 | 1,600 |
 
 이 수치는 전력이 공급되는 정거장 기준입니다. 전력 부족이 생기면 모든 농장과 수집기가 멈추고, 모듈은 코어보다 높은 레벨로 업그레이드할 수 없으며 코어는 레벨 20에서 멈춥니다([Skylab](/wiki/03-Mechanics/Skylab.md) 참고).
 
@@ -543,21 +624,21 @@
 **쓰이는 곳**
 
 - **상점**: 아이템 28개의 가격이 Thulium으로 책정되어 있습니다(가격은 각 아이템 페이지에 나옵니다: [아이템 개요](/wiki/06-Items/Overview.md) 및 [로켓](/wiki/06-Items/Rockets.md)).
-- **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser 3](/wiki/06-Items/Lasers.md) 1,500, [Starfire-3](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Damage Amp II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating II](/wiki/06-Items/Boosters.md) 15,000, [Nova Amp](/wiki/06-Items/Lasers.md) 1,200, [Apex Amp](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500.
+- **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser 3](/wiki/06-Items/Lasers.md) 1,500, [Starfire-3](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Damage Amp II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating II](/wiki/06-Items/Boosters.md) 15,000, [Nova Amp](/wiki/06-Items/Lasers.md) 1,200, [Apex Amp](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500.
 - **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 파열하는 → 영원한 2,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 기본 가격: 크레딧 농장 100(레벨마다 x1.6), 단조소 500(레벨마다 x1.5), Orvium 수집기 500(레벨마다 x1.5), 연구 센터 500(레벨마다 x1.5), 태양광 50(레벨마다 x1.4), 자원 창고 500(레벨마다 x1.4), Thulium 농장 500(레벨마다 x1.8), Velkonite 수집기 500(레벨마다 x1.5).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 크레딧 농장 0(레벨 1), 550(레벨 20), 단조소 500(레벨 1), 10,000(레벨 20), Orvium 수집기 500(레벨 1), 12,500(레벨 20), 연구 센터 500(레벨마다 x1.5), 태양광 50(레벨 1), 10,000(레벨 20), 자원 창고 250(레벨 1), 550(레벨 20), Thulium 농장 500(레벨 1), 16,000(레벨 20), Velkonite 수집기 500(레벨 1), 12,500(레벨 20).
 - **[연구](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: 연구 센터의 부스트는 5,000 Thulium입니다.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 점프 1회당 500 Thulium.
 - **에너지 물질화 장치**: 스캔 1회에 Thulium 5, Chrono-Gate 부품을 찾습니다([자세히](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **기업 변경**: Thulium 5,000 및 명예의 절반(처음 기업을 고를 때는 무료이며, 함선이 비행 중일 때는 불가).
 
-**모으는 방법**: 처치당 가장 많이 주는 외계인: [Crystalys](/wiki/04-Aliens/Crystalys.md)(Alpha 200, Gamma 600; 섹터 4). 가장 가까운 획득처: [Seeker](/wiki/04-Aliens/Seeker.md)(Alpha 4; 섹터 1). 전력이 공급되는 Thulium 농장의 생산량은 레벨 1에서 시간당 50, 레벨 20에서 7,310입니다(코어 레벨 20 기준). 저장소는 가득 차면 멈추므로 제때 수거하세요.
+**모으는 방법**: 처치당 가장 많이 주는 외계인: [Crystalys](/wiki/04-Aliens/Crystalys.md)(Alpha 200, Gamma 600; 섹터 4). 가장 가까운 획득처: [Seeker](/wiki/04-Aliens/Seeker.md)(Alpha 4; 섹터 1). 전력이 공급되는 Thulium 농장의 생산량은 레벨 1에서 시간당 50, 레벨 20에서 1,600입니다(코어 레벨 20 기준). 저장소는 가득 차면 멈추므로 제때 수거하세요.
 
 ## 알아 두면 좋은 점 {#good-to-know}
 
 - **상자**: 외계인의 드롭은 폭발한 자리에 상자 하나로 떨어지며, 처치한 파일럿과 그 클랜이 30초 동안 독점합니다. [Resource Magnet](/wiki/06-Items/Boosters.md) 부스터는 상자에 든 양을 25% 늘려 줍니다. [화물](/wiki/03-Mechanics/Cargo.md)을 참고하세요.
 - **잔해**: 격파된 [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 누가 또는 무엇이 격파하든 상자도 부품도 남기지 않으므로, 파일럿의 함선은 재료를 얻는 수단이 아닙니다. 평화 프로토콜이 끝난 뒤 [월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)가 PvP를 허용하는 곳에서는 다른 기업의 파일럿을 격추할 수 있으며, 소속 기업의 파일럿을 격파하면 명예가 100 깎입니다.
-- **모듈 업그레이드**: 어셈블리는 한 단계 아래 부품을 업그레이드해 Starfire-3, Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III 및 Momentum Thruster IV 아이템을 만들며, 그 부품은 소모됩니다. 업그레이드에 필요한 플레이트: Velkonite Reinforced Plate 및 Orvium Reinforced Plate. Quantum Laser 3, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II 및 Auto-Repair CPU도 같은 플레이트를 요구합니다. 새 부품은 넣은 부품의 대장간 등급을 이어받으며 보너스는 다시 굴리므로, 이전 보너스보다 좋을 수도 나쁠 수도 있습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **모듈 업그레이드**: 어셈블리는 한 단계 아래 부품을 업그레이드해 Starfire-3, Helios Beam, Nova Amp, Apex Amp, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III 및 Momentum Thruster IV 아이템을 만들며, 그 부품은 소모됩니다. 업그레이드에 필요한 플레이트: Velkonite Reinforced Plate 및 Orvium Reinforced Plate. Quantum Laser 3, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation 및 Gyre Formation도 같은 플레이트를 요구합니다. 새 부품은 넣은 부품의 대장간 등급을 이어받으며 보너스는 다시 굴리므로, 이전 보너스보다 좋을 수도 나쁠 수도 있습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **보관 위치**: 어셈블리, 대장간, Skylab 건설에 쓰이는 것은 인벤토리에 장착되지 않은 채 쌓인 묶음입니다. 함선에 장착된 것이나 수송 보관함에 있는 묶음은 쓰이지 않습니다.
 - **초기화**: 인벤토리의 재료는 [초기화 규칙](/wiki/03-Mechanics/Wipe-Timeline.md)을 따르며, Skylab의 자원 창고에 보관된 광석은 남습니다.
 

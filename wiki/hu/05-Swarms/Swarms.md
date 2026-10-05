@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -9,6 +9,8 @@ A **raj** idegenek csoportja, amely egy **vezér** alatt járja a galaxis egy r�
 - [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md): a Dormant Force és a Dormant Pulse-jai, a legerősebb raj, a leggazdagabb zsákmánnyal.
 
 A hajóik **saját fajú idegenek**: saját nevük és saját kilövésszámlálójuk van, és egyik sem számít Seekernek, Phantasmnak vagy más idegennek. A rajhajó alakja a hajóé, amelyre épül, saját színezéssel és fölötte a nevével; a Boss Seeker egy sokkal nagyobb Seeker.
+
+A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépéséhez maga idézi meg az őrzőjét, és csak az a klán sebezheti: egyik pilóta sem találkozik olyannal, amely egy szektorban kóborol, és az alábbi táblázatok nem sorolják fel őket. Lásd: [Klánok](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## A három raj {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztiká
 
 <!-- swarms-points:end -->
 
-A rajkilövés nem számít más idegen kilövésének: a Boss Seeker vagy a Seeker Slave nem Seeker annak a küldetésnek, amely Seekereket kér, a wipe-pontok mérföldkövei ([Wipe-idővonal](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) pedig csak az öt idegenéi.
+A rajkilövés nem számít más idegen kilövésének: a Boss Seeker vagy a Seeker Slave nem Seeker annak a küldetésnek, amely Seekereket kér, a wipe-pontok mérföldkövei ([Wipe-idővonal](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)) pedig csak az öt idegenéi. A rajhajókat kérő küldetések a [Rajküldetések](/wiki/03-Mechanics/Quests.md#swarm-missions) alatt vannak felsorolva.

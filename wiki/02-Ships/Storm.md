@@ -1,19 +1,19 @@
 # Storm
 
-The Storm is a glass-cannon starfighter: the highest base speed of any ship and ten lasers on a hull that is light for its class. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
+The Storm is a glass-cannon fighter: the highest base speed and the most lasers of any ship (13), on a hull that is light for its class. By the game's rating (more than 10 laser slots) it is a Class IV Dreadnought. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
 
 ## Stats
 
-- **Hitpoints (HP)**: 160,000
-- **Base Speed**: 240
-- **Laser Slots**: 10
+- **Hitpoints (HP)**: 150,000
+- **Base Speed**: 250
+- **Laser Slots**: 13
 - **Extra Slots**: 3
 
 ### Generator & Support Slots
 
-- **Core Slots (100% efficiency)**: 3
+- **Core Slots (100% efficiency)**: 4
 - **Support Slots (75% efficiency)**: 4
-- **Auxiliary Slots (50% efficiency)**: 3
+- **Auxiliary Slots (50% efficiency)**: 2
 
 ---
 
@@ -36,4 +36,4 @@ Once it is researched, crafting a Storm in Assembly takes 1 [Ancient Control Uni
 
 ## Lore
 
-The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Bone-white plating over a teal frame, with orange panels and light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten guns in all, every muzzle in plain view. What it has no room for is armor. Its hull is about half a Wraith's and about a quarter of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.
+The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Bone-white plating over a teal frame, with orange panels and light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten muzzles in plain view, and thirteen lasers fire through them. What it has no room for is armor. Its hull is about half a Wraith's and about a quarter of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.

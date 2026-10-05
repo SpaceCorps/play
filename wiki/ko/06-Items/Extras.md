@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2b63df451b6a864e -->
+<!-- wiki-i18n source: 1855960bc32d6626 -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
-부가 장비는 함선의 **부가 슬롯**(모든 함선에 구성당 3개이며, Extra Slots CPU로 더 늘어납니다)에 장착하는 장치입니다. 퀵슬롯의 부가 장비 선택창이나 부가 장비를 지정해 둔 퀵슬롯에서 켭니다. 비행 중인 구성에서만 작동하며, 다른 구성에 장착하면 구성을 전환할 때까지 대기합니다.
+부가 장비는 함선의 **부가 슬롯**(Protos, Kitefin, Ostirion, Nomad(처음부터 가지고 있거나 구매하는 함선)는 구성당 2개, Paragon, Ironclad, Wraith, Storm(제작하는 함선)은 구성당 3개이며, Extra Slots CPU로 3, 5 또는 7개 더 늘어납니다)에 장착하는 장치입니다. 퀵슬롯의 부가 장비 선택창이나 부가 장비를 지정해 둔 퀵슬롯에서 켭니다. 비행 중인 구성에서만 작동하며, 다른 구성에 장착하면 구성을 전환할 때까지 대기합니다.
 
 | 부가 장비 | 효과 | 사용 횟수 | 가격 |
 | :---- | :----------- | :--- | :---- |
@@ -14,9 +14,14 @@
 
 Cloaking CPU와 EMP Charge는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다.
 
-CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다.
+새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. 사용하려면 퀵슬롯의 부가 장비 선택창에서 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없습니다.
+
+CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
 부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**, EMP Charge는 **EMP**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
+
+![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -51,9 +56,9 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone {#repair-drones}
 
-Repair Drone을 켜면(REP) 선체가 가득 찰 때까지 수리합니다. 피격 없이 10초가 지나야 작동을 시작하고, 피격되면 즉시 꺼집니다. 여러 개를 장착하면 가장 좋은 것 하나만 작동합니다. [Auto-Repair CPU](#auto-repair-cpu)가 있으면 다시 켜 줍니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다.
+Repair Drone을 켜면(REP) 선체가 가득 찰 때까지 수리합니다. 피격 없이 10초가 지나야 작동을 시작하고, 피격되면 즉시 꺼집니다. 여러 개를 장착하면 가장 좋은 것 하나만 작동합니다. [Auto-Repair CPU](#auto-repair-cpu)가 있으면 다시 켜 줍니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다. 수리하는 동안 작은 수리 드론이 함선에서 날아 나와 둘레를 돌며 선체에 빔을 쏩니다. Repair Drone I은 1기, II는 2기, III과 IV는 3기이고, 근처 파일럿에게도 보입니다. 수리가 멈추면 드론은 다시 도킹합니다.
 
-## Cloaking CPU {#cloaking-cpu}
+## Cloaking CPU
 
 CLK 슬롯을 누르면 은폐합니다. **한 번 누를 때마다 1회 사용으로 계산되며**, 팩의 종류와는 상관없습니다. 남은 사용 횟수는 슬롯과 격납고에서 확인할 수 있습니다. 은폐에는 **시간 제한이 없습니다**. 직접 끄거나 무언가가 해제할 때까지 유지됩니다.
 
@@ -72,7 +77,7 @@ CLK 슬롯을 누르면 은폐합니다. **한 번 누를 때마다 1회 사용�
 
 S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저렴합니다(500, 450, 400 Thulium).
 
-## EMP Charge {#emp-charge}
+## EMP Charge
 
 전투 중에 EMP 슬롯을 누르세요. **3초** 동안 아무도 당신을 락온할 수 없으며, 당신을 락온하고 있던 **모든 대상은 즉시 락온을 잃습니다**. 어디에 있든 마찬가지이며, 파일럿, 외계인, 기업 파일럿 모두 해당합니다. 락온이 풀린 파일럿에게는 “락온 해제: 대상이 EMP를 사용했습니다”라고 알려 줍니다. 그 3초 동안 락온을 시도하는 대상은 거부됩니다.
 
@@ -102,13 +107,13 @@ S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **기능.** Extra Slots CPU I·II·III은 모든 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 모든 함선이 원래 가진 3개를 더하면 총 6개, 8개, 10개입니다. 상위 CPU는 하위 CPU를 대체합니다. II가 I에 더해지지는 않습니다.
+- **기능.** Extra Slots CPU I·II·III은 모든 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선이 원래 3개를 가졌다면 총 6개, 8개, 10개이고, 2개를 가졌다면 5개, 7개, 9개입니다. 상위 CPU는 하위 CPU를 대체합니다. II가 I에 더해지지는 않습니다.
 - **장착이 아니라 설치.** Extra Slots CPU는 아이템이 아닙니다. 어셈블리에서 받으면 Skylab에 설치되어 두 구성 모두의 모든 함선에 적용되고, 슬롯을 차지하지 않습니다. 초기화 후에도 남습니다.
 - **순서대로.** 하나씩 차례로 제작하세요. II는 I이 설치된 뒤에, III은 II가 설치된 뒤에만 제작할 수 있으며, 그때까지는 어셈블리가 먼저 설치할 것을 알려 줍니다. 셋을 합치면 Thulium 117,000이 듭니다: 12,000, 30,000, 75,000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **기능.** 함선을 내 월드의 어느 기업 섹터(내 기업의 섹터든 다른 기업의 섹터든, 기지 섹터도 포함. `M`, `T`, `G`의 섹터 1~4)로든 점프시키며, 1회당 **Thulium 500**이 듭니다. 사용 횟수 제한은 없고 Thulium만 내면 됩니다. 위험 섹터(`DS`)나 중립 섹터(`N`)로는 가지 못합니다.
 - **점프.** JMP 슬롯을 누르고 항성계 지도에서 섹터를 골라 확정하면, 함선이 5초 동안 충전한 뒤 그 섹터의 게이트에 도착하며, 일반 게이트 점프 후와 같은 보호를 받습니다. 도착 후 CPU는 30초 동안 재사용 대기에 들어갑니다.
@@ -116,7 +121,7 @@ S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저
 - **중립 섹터에서는 불가:** 중립 섹터에 있거나 기업에 소속되지 않은 파일럿은 쓸 수 없습니다.
 - 전투 중이 아니면 위험 섹터에서 떠날 수 있습니다.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **기능.** 함선을 소속 기업의 기지에 있는 정거장 주변 안전 지대(`M-1`, `T-1`, `G-1`, Mission Control이 있는 섹터)로 순간이동시킵니다. Thulium은 들지 않습니다. 퀵슬롯의 BSE 슬롯에서 시작합니다.
 - **전투 중에는 불가.** 충전은 10초이며 둘 다 같습니다. 발사하거나 피격당한 뒤 10초 이내, 은폐 중, 이미 기지의 안전 지대 안에 있을 때는 시작할 수 없고, 충전 중 발사하거나 피격당하면 취소됩니다.
@@ -128,7 +133,7 @@ S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저
 
 - **소모형, 재충전 없음.** 사용할 때마다 CPU의 사용 횟수가 하나씩 줄고, 횟수가 다 떨어진 CPU는 사라집니다. 새로 제작하세요. 둘 다 장착했다면 상위인 II부터 사용됩니다.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **기능.** 직접 출격시킬 수 있는 상황이 될 때마다, 부가 슬롯에 장착한 Repair Drone을 자동으로 출격시킵니다. 선체가 가득 차지 않았고, 드론이 이미 나와 있지 않으며, 마지막 피격 후 10초가 지났을 때입니다. 선체 기준치를 설정할 필요는 없습니다.
 - 전용 부가 슬롯을 하나 차지하며, 같은 구성의 부가 슬롯에 Repair Drone이 없으면 아무것도 하지 않습니다. 능력 슬롯에 있는 Repair Drone은 내보내지 않습니다(그것은 Emergency Repair 버튼입니다).

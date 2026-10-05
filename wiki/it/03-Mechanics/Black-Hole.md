@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
 Esattamente al centro del Settore pericoloso 4 (`DS-4`, il cuore della zona PvP), un buco nero incombe nel buio. È lo stesso in ogni mondo (Alpha, Beta e Gamma), in ogni giorno della stagione, Protocollo di pace compreso. Prende ciò che si avvicina troppo e restituisce una sola cosa: [Dark Matter](#dark-matter), in cambio di un razzo N.I.K.E. lanciato al suo interno.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## Gli anelli {#the-rings}
 
@@ -40,7 +43,7 @@ Tra due righe il danno cresce in modo lineare. In punti al secondo, per gli alle
 | Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
 | Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 194.500 | 1.070 | 1.556 | 3.890 | 9.725 | 21.395 |
+| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
 | Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
@@ -75,17 +78,17 @@ Il tuo **punto di non ritorno** è la distanza in cui l’attrazione eguaglia la
 | Nave (allestimento di serie) | Velocità | Punto di non ritorno |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1.974 |
-| Protos | 155 | 1.627 |
+| Protos | 165 | 1.577 |
 | Kitefin | 184 | 1.480 |
 | Ostirion | 208 | 1.362 |
 | Nomad | 211 | 1.347 |
 | Paragon | 222 | 1.287 |
-| Wraith | 238 | 1.171 |
-| Storm | 256 | 1.046 |
+| Wraith | 233 | 1.208 |
+| Storm | 263 | 995 |
 
 Una nave più veloce di 272 unità al secondo (un allestimento da fuga, o una Wraith di serie con un Afterburner attivo) ha il suo punto di non ritorno dove è sempre stato: a velocità 300 è a 885, a 432 è a 747.
 
-Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 39,1, con il punto di non ritorno a circa 2.600). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (dieci secondi con un motore, quindici con due, venti con tre; l’Afterburner III porta quello di una Protos di serie da 1.627 a 1.105 e quello di una Wraith di serie da 1.171 a 793). Niente può uscire da meno di circa 390 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,69); una nave non incantata costruita per la velocità (Engine III e Adaptive Core II con Impulse Thruster IV e Momentum Thruster IV), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 425.
+Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 39,1, con il punto di non ritorno a circa 2.600). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (dieci secondi con un motore, quindici con due, venti con tre; l’Afterburner III porta quello di una Protos di serie da 1.577 a 989 e quello di una Wraith di serie da 1.208 a 801). Niente può uscire da meno di circa 390 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,69); una nave non incantata costruita per la velocità (Engine III e Adaptive Core II con Impulse Thruster IV), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 429.
 
 La caduta dal punto di non ritorno comincia lentamente: una nave poche unità al suo interno, a piena potenza, viene risucchiata in venti secondi o più, poi sempre più in fretta. L’attrazione non è volo: non conta come distanza percorsa.
 
@@ -124,13 +127,13 @@ Le impostazioni aiutano dove il buco pesa sulle prestazioni o affatica la vista:
 
 I droni volano con la loro nave. Il carico non viene mai lasciato dentro l’anello: una cassa che finirebbe lì viene posata sul suo bordo. Le casse di Dark Matter sono l’unica eccezione.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Il buco restituisce **Dark Matter** per ogni razzo **N.I.K.E.** che lo raggiunge. Il N.I.K.E. è un razzo da 67.500 a 75.000 danni che colpisce la prima nave che può danneggiare e si esaurisce su di essa; se non c’è niente sulla sua strada, vola fino al buco e si consuma quando attraversa l’orizzonte degli eventi. L’[Assemblaggio](/wiki/06-Items/Rockets.md) produce i N.I.K.E. quando la loro tecnologia è ricercata ([Ricerca](/wiki/03-Mechanics/Research.md)), cinque per creazione (100.000 crediti, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Lancio.** Un N.I.K.E. percorre 4.050 unità in 4,5 secondi (900 al secondo) dritto verso il punto in cui hai mirato: senza un bersaglio selezionato, metti il cursore sul buco nero (o punta la nave verso di esso). Raggiunge l’orizzonte da qualsiasi punto tra il bordo delle radiazioni (4.000 unità) e 4.380 unità dal centro. Più lontano non ci arriva e va sprecato. Come ogni razzo usa il timer condiviso di 5 secondi (non serve alcun laser montato); lanciarlo pone fine alla protezione della zona sicura e al tuo occultamento. **Una nave sulla traiettoria lo prende al posto del buco**: un rivale in attesa sul bordo, o un pilota di un’altra corporazione che raccoglie casse lungo la traiettoria, viene colpito per un danno da 67.500 a 75.000 e il buco non riceve nulla. Alieni e piloti di corporazione non entrano mai nell’anello, quindi tenere libera la traiettoria spetta a te; il razzo attraversa la tua corporazione e le navi che non puoi danneggiare. Se lasci la mappa dopo il lancio, prosegue senza ferire nessuno e produce comunque la tua Dark Matter.
+- **Lancio.** Un N.I.K.E. percorre 4.050 unità in 4,5 secondi (900 al secondo) dritto verso il punto in cui hai mirato: senza un bersaglio selezionato, metti il cursore sul buco nero (o punta la nave verso di esso). Raggiunge l’orizzonte da qualsiasi punto tra il bordo delle radiazioni (4.000 unità) e 4.380 unità dal centro. Più lontano non ci arriva e va sprecato. Come ogni razzo usa il timer condiviso di 5 secondi (non serve alcun laser montato); lanciarlo pone fine alla protezione della zona sicura e al tuo occultamento. **Una nave sulla traiettoria lo prende al posto del buco**: un rivale in attesa sul bordo, o un pilota di un’altra corporazione che raccoglie casse lungo la traiettoria, viene colpito per un danno da 67.500 a 75.000 e il buco non riceve nulla. Alieni e piloti di corporazione non entrano mai nell’anello, quindi tenere libera la traiettoria spetta a te; il razzo attraversa la tua corporazione e le navi che non puoi danneggiare. Se lasci la mappa dopo il lancio, prosegue senza ferire nessuno e produce comunque la tua Dark Matter. Una formazione di droni può cambiare quel timer e il danno del colpo (vedi [Formazioni di droni e razzi](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **Cosa torna indietro.** Ogni N.I.K.E. che raggiunge l’orizzonte dà **1, 2 o 3 Dark Matter** (2 in media, quindi circa cinque N.I.K.E. ne fanno dieci), in una o due piccole casse che compaiono sul bordo della zona del buco, **tra 3.050 e 3.950 unità dal centro**, vicino alla linea da cui è arrivato il tuo colpo. L’attrazione finisce a 3.000, quindi le casse e le navi che le raccolgono non vengono attirate, e lì le radiazioni valgono dallo 0,3 allo 0,8% dei punti di una nave al secondo: un minuto a metà della fascia costa un terzo della tua nave. Lì una nave piena resiste tre minuti.
 - **Di chi sono.** Le casse sono tue, e del tuo clan, per **60 secondi** dal lancio. Dopo, chiunque sulla mappa può prenderle, e vanno alla deriva dopo **4 minuti**. Il settore pericoloso è un settore PvP, quindi aspettati compagnia. Un pilota che si disconnette dopo il lancio conserva le sue casse.
 - **Quante.** Una mappa contiene al massimo 32 casse di Dark Matter; una nuova prende il posto della più vecchia tra queste, mai di un altro tipo di cassa. Il [Resource Magnet](/wiki/03-Mechanics/Cargo.md) non aggiunge nulla alla Dark Matter.
 - **Cosa vedi.** Quando un N.I.K.E. attraversa l’orizzonte viene stirato dentro il buco, lo spazio si increspa a partire dal punto in cui è entrato, e il disco e l’anello di fotoni divampano per circa un secondo e mezzo (un terzo di quel tempo, a metà luminosità, con **Riduci movimento**). Un attimo dopo le casse escono dal buco e scivolano verso i loro posti sul bordo: ognuna è una sfera viola e nera con un bordo luminoso e scintille, facile da vedere da lontano, con il titolo **Dark Matter** quando ci passi sopra il puntatore. Sopra le tue compaiono i secondi che ti restano, e appaiono sulla minimappa come un piccolo segno viola, come per il tuo clan; le casse degli altri piloti compaiono sulla minimappa solo quando il loro minuto è finito.
-- **A cosa serve.** L’Assemblaggio pressa 5 Dark Matter con una Velkonite Reinforced Plate e una Orvium Reinforced Plate in una **Dark Matter Plate**, e [la Forgia](/wiki/06-Items/Forge.md) ne chiede due per portare un oggetto da Divino a Lacerante e poi da Lacerante a Eterno: dieci Dark Matter per passaggio. Anche il [Centro ricerche](/wiki/03-Mechanics/Research.md#dark-matter) dello Skylab richiede Dark Matter: 10 per ciascuna delle 15 tecnologie in cima al suo albero, 150 in tutto, inserite prima che la ricerca inizi.
+- **A cosa serve.** L’Assemblaggio pressa 5 Dark Matter con una Velkonite Reinforced Plate e una Orvium Reinforced Plate in una **Dark Matter Plate**, e [la Forgia](/wiki/06-Items/Forge.md) ne chiede due per portare un oggetto da Divino a Lacerante e poi da Lacerante a Eterno: dieci Dark Matter per passaggio. Anche il [Centro ricerche](/wiki/03-Mechanics/Research.md#dark-matter) dello Skylab richiede Dark Matter: 10 per ciascuna delle 15 tecnologie in cima al suo albero, 150 in tutto, inserite prima che la ricerca inizi. Anche le formazioni di droni ne richiedono, 5, 13 o 20 in base alla potenza: 189 in più, 339 in tutto.

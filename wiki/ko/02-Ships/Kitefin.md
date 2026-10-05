@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: bc7f5383ae055f70 -->
+<!-- wiki-i18n source: bfae656e362838c0 -->
 <!-- wiki-i18n title: Kitefin -->
-# Kitefin {#kitefin}
+# Kitefin
 
 Kitefin은 경량 건십이자 대부분의 파일럿이 처음 구매하는 함선입니다. Protos보다 레이저가 하나 더 많고 선체는 3배이며 구동 속도도 더 빠르고, Thulium으로 구매합니다.
 
@@ -9,7 +9,7 @@ Kitefin은 경량 건십이자 대부분의 파일럿이 처음 구매하는 함
 - **내구도(HP)**: 24,000
 - **기본 속도**: 175
 - **레이저 슬롯**: 3
-- **부가 슬롯**: 3
+- **부가 슬롯**: 2
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Kitefin은 경량 건십이자 대부분의 파일럿이 처음 구매하는 함
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **연구 불필요.** 이 함선에는 전용 기술이 없습니다.
-- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 3개를 더하면 총 6개, 8개, 10개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
+- **부가 슬롯 추가.** Skylab에 설치한 Extra Slots CPU I·II·III은 이 함선의 부가 슬롯을 3개, 5개, 7개 늘려 줍니다. 함선 자체의 2개를 더하면 총 5개, 7개, 9개입니다. 다른 아이템처럼 연구해서 제작합니다. [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)를 참고하세요.
 
 <!-- research-ship:end -->
 

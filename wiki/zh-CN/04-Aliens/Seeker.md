@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝不会主动挑起战斗：Seeker 只会反击向它开火的那名飞行员，且仅限于这一名。如果 10 秒内没有人击中它，它就会放弃追击；无人打扰满 30 秒后，它的船体会自行修复。[Seeker 虫群](/wiki/05-Swarms/Seeker-Swarm.md)的 Boss Seeker 和 Seeker Slave 看起来像 Seeker，但自成一类：它们的击杀以各自的名字计数，不算作 Seeker 击杀。
 

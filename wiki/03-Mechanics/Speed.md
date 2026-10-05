@@ -15,9 +15,9 @@ Every engine equipped generates speed, and so does every Adaptive Core that hold
 \[\text{Engine Speed} = (\text{Engine Base Speed} + \text{Thruster Flat Bonus}) \times \text{Thruster Multiplier}\]
 
 - **Thruster Flat Bonus**: The sum of all flat speed additions from thrusters (e.g. Impulse Thruster III is `+15` speed).
-- **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Momentum Thruster III is `1.13` or `+13%`, Impulse Thruster III `1.03` or `+3%`). It multiplies everything the engine makes: its own base speed and the thrusters' flat bonuses. An Adaptive Core has no base speed of its own, and its thrusters' flat bonuses are multiplied all the same.
+- **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Momentum Thruster III is `1.09` or `+9%`, Impulse Thruster III `1.03` or `+3%`). It multiplies everything the engine makes: its own base speed and the thrusters' flat bonuses. An Adaptive Core has no base speed of its own, and its thrusters' flat bonuses are multiplied all the same.
 
-An Engine III (base speed 6) with three Momentum Thruster IVs (`+12`, `1.14`) makes (6 + 3 x 12) x 1.14 x 1.14 x 1.14 = 62.2, and with three Impulse Thruster IVs (`+17`, `1.02`) (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.14` makes `1.161`.
+An Engine III (base speed 6) with three Momentum Thruster IVs (`+12`, `1.11`) makes (6 + 3 x 12) x 1.11 x 1.11 x 1.11 = 57.4, and with three Impulse Thruster IVs (`+17`, `1.02`) (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.11` makes `1.1265`.
 
 ### 2. Diminishing Returns (Marginal Efficiency)
 
@@ -41,3 +41,4 @@ Total speed bonus percent is the sum of all speed bonuses from equipped engines 
 - **Shield speed penalty**: Heavy shields weigh down your ship, adding negative speed percentages (e.g. Heavy Shield Core adds `-5%` speed).
 - **Slot scaling**: These percentage bonuses and penalties are also scaled by the slot efficiency where the item is equipped. A shield on one of your drones slows you as one in a core slot does.
 - **Never below zero**: however many shields you carry, your speed does not go below 0.
+- **Drone formations**: a worn [drone formation](/wiki/03-Mechanics/Formations.md) changes the final speed once more, as a factor of its own: Gyre +10%, Cordon −3%, Auger −9%, Culler −10%, Redoubt −11%, Rampart −17%. The Afterburner then multiplies the result.

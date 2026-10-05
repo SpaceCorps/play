@@ -37,7 +37,7 @@ What stays the killer's alone: the **cargo crate** (loot and resources), the kil
 
 ## Sharing Missions
 
-A kill also counts for the **kill missions** of every other member who is on the same map and **fired a laser or rocket at anything in the last 15 seconds**, wherever they are on it, as if they had destroyed the alien themselves. The mission's own rules still decide: the alien must be the mission's kind and the sector the mission names. A mate who did not shoot, or is on another map, gets no count. Missions keep their own company's rules: a mission that asks for a kill in "another company's sector 4" counts for the member for whom that sector is another company's. When a mate's kill counts for one of your missions, a notice tells you which.
+A kill also counts for the **kill missions** of every other member who is on the same map and **fired a laser or rocket at anything in the last 15 seconds**, wherever they are on it, as if they had destroyed the alien themselves. The mission's own rules still decide: the alien must be the mission's kind and the sector the mission names. A mate who did not shoot, or is on another map, gets no count. Missions keep their own company's rules: a mission that asks for a kill in "another company's sector 4" counts for the member for whom that sector is another company's. When a mate's kill counts for one of your missions, a notice tells you which. In the [Challenge line](/wiki/03-Mechanics/Quests.md#where-it-counts) a member must also be within **4,000 units** of the wreck to count, and every member who has a mission with a quest item rolls and sees their own item: nobody can share one.
 
 ## Chat Channels
 

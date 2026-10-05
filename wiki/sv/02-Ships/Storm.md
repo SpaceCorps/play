@@ -1,21 +1,21 @@
-<!-- wiki-i18n source: 3eb9e1f2521df2f5 -->
+<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
 <!-- wiki-i18n title: Storm -->
-# Storm {#storm}
+# Storm
 
-Storm är en stjärnjagare av glaskanonstyp: den högsta grundhastigheten av alla skepp och tio lasrar på ett skrov som är lätt för sin klass. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
+Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest lasrar av alla skepp (13) på ett skrov som är lätt för sin klass. Enligt spelets klassning (fler än 10 laserplatser) är den ett slagskepp av klass IV. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 160 000
-- **Grundhastighet**: 240
-- **Laserplatser**: 10
+- **Träffpoäng (HP)**: 150 000
+- **Grundhastighet**: 250
+- **Laserplatser**: 13
 - **Extraplatser**: 3
 
 ### Generator- och stödplatser {#generator-support-slots}
 
-- **Kärnplatser (100 % verkningsgrad)**: 3
+- **Kärnplatser (100 % verkningsgrad)**: 4
 - **Stödplatser (75 % verkningsgrad)**: 4
-- **Hjälpplatser (50 % verkningsgrad)**: 3
+- **Hjälpplatser (50 % verkningsgrad)**: 2
 
 ---
 
@@ -38,4 +38,4 @@ När du har forskat fram dess teknologi kostar det 1 [Ancient Control Unit](/wik
 
 ## Bakgrund {#lore}
 
-Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Benvit plätering över ett blågrönt skelett, med orange paneler och ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio vapen sammanlagt, med varje mynning i öppen dager. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.
+Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Benvit plätering över ett blågrönt skelett, med orange paneler och ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka tretton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的，护盾空间也最大，代价是火炮更少、驱动更慢。它在装配站制造，定位介于 Paragon 与 Wraith 之间。
 

@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 Le Wraith est le vaisseau ultime de classe cuirassé : une puissance de feu inégalée, une énorme capacité de bouclier et des vitesses exceptionnelles.
 
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 324 000
-- **Vitesse de base** : 225
+- **Vitesse de base** : 220
 - **Emplacements laser** : 12
 - **Emplacements extras** : 3
 

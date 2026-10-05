@@ -2,6 +2,23 @@
 
 The Skylab is your personal orbital facility. It builds and upgrades modules that make Credits and Thulium, mine ore, forge the plates that Assembly turns into the best lasers and, from Core level 10, research the technologies Assembly needs. It works for you even while you are offline.
 
+> [!NOTE]
+> **What changed in 0.4.10.** Every Skylab module now has its own table of outputs, prices and times, level by level. You kept your levels: nothing was charged and nothing was refunded for the difference. What your farms and collectors were holding in their hoppers when the update arrived was paid out **once, at the old rate**: Credits and Thulium went to your account, the ore into your Resource Storage, and the hoppers started again from empty.
+>
+> Two rules are new. **Solar makes only 25% of its power while it upgrades**, so for most stations every farm and collector stops until the upgrade is done (see [Solar Module](#solar-module) and [Timing a Solar upgrade](#timing-a-solar-upgrade)). **The Resource Storage has its own cap for each ore**: one day of the collector's output at level 1, four days at level 20.
+
+![The Skylab station fully grown](../img/wiki-img/shots/skylab-station.jpg)
+![The Resource Storage card of the Skylab](../img/wiki-img/shots/skylab-storage.jpg)
+![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../img/wiki-img/shots/skylab-table.jpg)
+
+## In one minute
+
+- Build **Solar** first: nothing in the Skylab runs without its power. The Credit Farm costs nothing to build, and the Thulium Farm costs 5,000 Credits and 500 Thulium.
+- Farms and collectors fill a **hopper** (72 hours' worth) while you are away. **Collect** moves it to your account (Credits, Thulium) or to your Resource Storage (ore).
+- The **Thulium Farm** is your main source of Thulium: 50 an hour at level 1, 1,600 at level 20. The Credit Farm makes 500 Credits an hour at level 1 and 50,000 at level 20.
+- The **Core** is the clock: no module goes above it, and its own climb takes about 16 and a half days.
+- **Solar makes only 25% of its power while it upgrades**, so your farms and collectors stop until it is done. [Plan it](#timing-a-solar-upgrade).
+
 ## Overview
 
 The Skylab runs on its own clock, apart from your ship: modules produce and forge while you are away. What you do is build, upgrade, keep the power in balance and collect. The page has four views of the same station: **Station** (the 3D station, with a chip over every module; click one to open its sheet, or press **1** to **9**), **List** (a card for each module), **Table** (every module's numbers in one table) and **Research** (the Research Centre's own screen, see [Research](/wiki/03-Mechanics/Research.md)). Hovering **Build** or **Upgrade** shows what the next level changes, what it costs and how long it takes.
@@ -69,7 +86,7 @@ These are the Skylab's Station view at each level from 1 to 20, all from the sam
 
 ### Core Module
 
-The heart of your Skylab. The level of the Core decides the highest level of every other module: you cannot upgrade any module higher than your Core. The Core goes up to level 20, and from **level 5** it opens the supply chain below.
+The heart of your Skylab. The level of the Core decides the highest level of every other module: you cannot upgrade any module higher than your Core. The Core goes up to level 20, and from **level 5** it opens the supply chain below. Its upgrades cost Credits only: 112,326 in all up to level 10 and 6,647,504 up to level 20, and they take about 16 and a half days in all (see [Upgrade times](#upgrade-times)).
 
 ### Solar Module
 
@@ -77,12 +94,13 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 
 - **Importance**: if your power use is higher than your power made, your farms and collectors shut down.
 - **Power made**: a Solar module at level N makes enough for **every other module at level N**, and about a tenth more: 255 at level 1, 835 at level 7, 16,110 at level 20. Level 7 Solar powers a whole station at level 7 (see Power Management for every level).
-- **Upgrading**: Solar keeps making the power of its current level while it upgrades, and the new level's power from the moment the upgrade ends, so the rest of the station keeps running (see Building and Upgrading).
+- **Price**: building Solar costs **500 Credits and 50 Thulium**. Its upgrades cost the same and take as long as the Forgery's: from 8,000 Credits and 25 Thulium for level 2 (5 minutes) to 9,000,000 Credits and 10,000 Thulium for level 20 (24 hours).
+- **Upgrading**: while Solar upgrades it makes only **25%** of the power of its current level, and the new level's power from the moment the upgrade ends. A station that uses more than that stops: every farm and collector stops producing and the Forgery starts no new batch until the upgrade is done. For nearly every station this is the case: it runs through the upgrade only if all the other modules are at least five levels below Solar (six levels from Solar level 10). Plan a Solar upgrade like a blackout of your farms (see Building and Upgrading).
 
 ### Credit Farm and Thulium Farm
 
-- **Credit Farm**: makes Credits over time.
-- **Thulium Farm**: makes Thulium over time.
+- **Credit Farm**: makes Credits over time: **500 an hour at level 1, 50,000 at level 20** (level 5: 2,500; level 10: 7,500; level 15: 17,000). It costs nothing to build.
+- **Thulium Farm**: makes Thulium over time: **50 an hour at level 1, 1,600 at level 20** (level 5: 180; level 10: 450; level 15: 950). Building it costs 5,000 Credits and 500 Thulium.
 - Both need power, and each holds 72 hours of what it makes until you collect it.
 
 ## The supply chain
@@ -96,21 +114,23 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 
 ### Velkonite Collector and Orvium Collector
 
-- **Ore**: the Velkonite Collector mines **12 Velkonite an hour** at level 1 and the Orvium Collector **6 Orvium an hour**, growing by 25% with every level (level 5: 29 and 15 an hour; level 10: 89 and 45).
+- **Ore**: the Velkonite Collector mines **10 Velkonite an hour** at level 1 and the Orvium Collector **10 Orvium an hour**, and every level has its own rate: up to 80 Velkonite and 40 Orvium an hour at level 20 (level 5: 18 and 14 an hour; level 10: 32 and 24).
 - **Hopper**: each holds 72 hours of its ore and stops mining when it is full.
 - **Collect**: moves the ore into the Resource Storage, as far as it has room. With no storage built, or with that ore's bank full, there is nowhere to put it and the button says why. The rest stays in the hopper.
 - **Power**: 20 (Velkonite) and 30 (Orvium) at level 1, growing by 15% a level.
 
 ### Resource Storage
 
-- **Bank**: keeps Velkonite and Orvium apart. It holds **900 of each at level 1**, growing by 25% a level (level 5: 2,197; level 10: 6,705).
+- **Bank**: keeps Velkonite and Orvium apart, and holds a different amount of each: **240 of each at level 1**, up to 7,680 Velkonite and 3,840 Orvium at level 20 (level 5: 720 and 560; level 10: 1,920 and 1,440).
+- **Cap**: one day of its collector's output at level 1, growing to four days at level 20. A collector's hopper holds three days, so from level 13 on the bank holds at least a full hopper.
+- **Above the cap**: if a bank holds more than its cap (the payout of the 0.4.10 update could leave one so), nothing is taken away, but Collect adds no more of that ore until you have used some of it.
 - Ore goes in only by collecting from a collector, and out only into the Forgery. It never enters your inventory.
 - **The banked ore stays** through the season wipe.
 - **Power**: 10 at level 1, growing by 10% a level. It cannot be switched off.
 
 ### Forgery
 
-- **Plates**: the Forgery makes a **Velkonite Reinforced Plate** from Velkonite and an **Orvium Reinforced Plate** from Orvium: **40 Velkonite** or **80 Orvium** a plate at level 1, and 1.5% less for every level above 1 (never below 70%).
+- **Plates**: the Forgery makes a **Velkonite Reinforced Plate** from Velkonite and an **Orvium Reinforced Plate** from Orvium: **40 Velkonite** or **80 Orvium** a plate at level 1, falling with every level to 30 and 60 at level 20 (never below 75%).
 - **Batches**: one batch of one kind of plate at a time, **10 plates at level 1** and 5 more for every level above. The ore leaves the Resource Storage the moment the batch starts, and each plate takes **10 seconds**. The plates are made one after the other, also while you are away.
 - **Collect plates**: moves the finished plates into your inventory while your **ship is landed**, and the rest of the batch keeps running. A new batch can start once the Forgery is empty.
 - A batch that is running finishes even if you switch the Forgery off or upgrade it. A **new** batch needs the Forgery switched on, not being upgraded, and the Skylab's power in balance.
@@ -118,7 +138,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 
 ### Building them
 
-Each of the four costs **10 Ship Fragments, 10,000 Credits and 500 Thulium**, and needs Core level 5.
+The two collectors cost **10 Ship Fragments, 20,000 Credits and 500 Thulium** each, the Resource Storage **10 Ship Fragments, 5,000 Credits and 250 Thulium** and the Forgery **10 Ship Fragments, 5,000 Credits and 500 Thulium**; all four need Core level 5.
 
 - The Ship Fragments are taken from your inventory (not from the Transport Cache) and your ship must be landed. The build sheet shows what you have against what it takes, and what you lack.
 - They draw power. Before you build, the sheet shows your power balance now and after: **building can put a station into a deficit** when its Solar is behind the other modules, and one deficit stops every farm and collector. Switch a module off, or upgrade Solar first.
@@ -133,48 +153,61 @@ The ninth module turns resources into science and researches the technologies th
 ### Building and Upgrading
 
 - **Construction**: each module is built on its own. A module is at level 1 the moment it is built, and upgrading it raises its output (or its power made) and its storage, and also what it costs in power.
-- **Time and cost**: upgrades cost Credits and Thulium and take time. A supply-chain module's upgrade costs 10,000 x 1.5^level Credits and 500 x 1.5^level Thulium (the Resource Storage x1.4 a level). The cost does not depend on the time.
+- **Time and cost**: upgrades cost Credits and Thulium and take time, and every module has its own price and time for each level (hover **Upgrade** to see the next one; the totals are below). The price is paid when you start the upgrade. The cost does not depend on the time.
 - **Timers**: an upgrade runs on the server's clock, so it finishes while you are away, days later if it has to. Start it, log off, come back: the module is at its new level when you open the Skylab page.
-- **Upgrade times**: the first levels are quick and the last ones take days (see the tables below). Every module has its own timer, so you can upgrade several at once.
-- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception (see below).
-- **Solar keeps making power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (6 days for the last level) it keeps making the power of its **current** level; the new level's power takes over the moment the upgrade ends. The farms, the collectors and the Forgery keep running as long as that power covers them, so upgrading Solar never switches your station off, and the Forgery can start new batches meanwhile. Only the module being upgraded is offline.
+- **Upgrade times**: the first levels are quick and the last ones take up to 36 hours, the Core's up to 6 days (see the tables below). Every module has its own timer, so you can upgrade several at once.
+- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception: it keeps making a quarter of its power (see below).
+- **Solar makes only 25% of its power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (24 hours for the last level) it makes a quarter of the power of its **current** level; the new level's power takes over the moment the upgrade ends. A full station uses about 90% of what Solar makes at its own level, so a quarter of it carries a station only five to six levels below Solar. Otherwise every farm and collector stops for the whole upgrade, whatever you have stored stays and can be collected, and the Forgery starts no new batch. A module that is upgrading or switched off uses no power, so lifting the farms together with Solar costs nothing extra, and switching modules off makes room for the others; the Thulium Farm uses the most power by far.
+
+### What it costs
+
+The price of the whole climb, the build plus every upgrade, up to level 10 and up to level 20. The Core is always there and its steps cost Credits only; the Research Centre has levels 1 to 10 and its numbers are on the [Research](/wiki/03-Mechanics/Research.md) page.
+
+| Module | Credits to level 10 | Thulium to level 10 | Credits to level 20 | Thulium to level 20 |
+| :--- | ---: | ---: | ---: | ---: |
+| Core | 112,326 | 0 | 6,647,504 | 0 |
+| Solar | 1,219,500 | 1,600 | 35,039,500 | 36,850 |
+| Credit Farm | 840,000 | 109 | 26,240,000 | 2,399 |
+| Thulium Farm | 1,154,000 | 4,190 | 32,254,000 | 67,890 |
+| Velkonite Collector | 696,000 | 6,950 | 20,996,000 | 78,950 |
+| Orvium Collector | 696,000 | 6,950 | 20,996,000 | 78,950 |
+| Resource Storage | 619,500 | 359 | 18,169,500 | 2,649 |
+| Forgery | 1,224,000 | 2,050 | 35,044,000 | 37,300 |
+
+The first steps are cheap and the last are dear: the Credit Farm's step from level 1 to 2 costs 5,000 Credits and 1 Thulium, its step from 19 to 20 costs 7,000,000 Credits and 550 Thulium. The Thulium Farm's cost 7,000 Credits and 45 Thulium, then 8,500,000 Credits and 16,000 Thulium. Solar's upgrades cost the same as the Forgery's at every level, and the two collectors cost the same as each other.
 
 ### Upgrade times
 
 <!-- upgrade-times:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by the test skylab::duration_tests::the_wiki_page_is_the_config (run it with SKYLAB_WIKI_WRITE=1 to rewrite this part). -->
 
-**Levels 1 to 5**, per module (the upgrade from the level in the first column):
+**Upgrade times**, per module (the upgrade from the level in the first column):
 
 | Level | Core | Solar | Credit Farm | Thulium Farm | Resource Storage | Velkonite Collector | Orvium Collector | Forgery | Research Centre |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 to 2 | 72 s | 36 s | 78 s | 168 s | 56 s | 78 s | 78 s | 78 s | 78 s |
-| 2 to 3 | 86 s | 43 s | 101 s | 235 s | 70 s | 101 s | 101 s | 101 s | 101 s |
-| 3 to 4 | 104 s | 52 s | 132 s | 329 s | 88 s | 132 s | 132 s | 132 s | 132 s |
-| 4 to 5 | 124 s | 62 s | 171 s | 461 s | 110 s | 171 s | 171 s | 171 s | 171 s |
-| 5 to 6 | 149 s | 75 s | 223 s | 11 min | 137 s | 223 s | 223 s | 223 s | 223 s |
-
-**From level 6**, the same for every module:
-
-| Upgrade | Time | Total from level 6 |
-| :--- | ---: | ---: |
-| 6 to 7 | 20 min | 20 min |
-| 7 to 8 | 30 min | 50 min |
-| 8 to 9 | 50 min | 1 h 40 min |
-| 9 to 10 | 1 h 20 min | 3 h |
-| 10 to 11 | 2 h 15 min | 5 h 15 min |
-| 11 to 12 | 3 h 30 min | 8 h 45 min |
-| 12 to 13 | 5 h 30 min | 14 h 15 min |
-| 13 to 14 | 9 h | 23 h 15 min |
-| 14 to 15 | 14 h | 1 d 13 h |
-| 15 to 16 | 1 d | 2 d 13 h |
-| 16 to 17 | 1 d 12 h | 4 d 1 h |
-| 17 to 18 | 2 d 12 h | 6 d 13 h |
-| 18 to 19 | 4 d | 10 d 13 h |
-| 19 to 20 | 6 d | 16 d 13 h |
+| 1 to 2 | 72 s | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 5 min | 78 s |
+| 2 to 3 | 86 s | 15 min | 10 min | 15 min | 10 min | 15 min | 15 min | 15 min | 101 s |
+| 3 to 4 | 104 s | 30 min | 15 min | 30 min | 15 min | 20 min | 20 min | 30 min | 132 s |
+| 4 to 5 | 124 s | 45 min | 20 min | 45 min | 20 min | 30 min | 30 min | 45 min | 171 s |
+| 5 to 6 | 149 s | 1 h | 30 min | 1 h | 30 min | 45 min | 45 min | 1 h | 223 s |
+| 6 to 7 | 20 min | 1 h 15 min | 45 min | 1 h 30 min | 45 min | 50 min | 50 min | 1 h 15 min | 20 min |
+| 7 to 8 | 30 min | 1 h 30 min | 1 h | 2 h | 1 h | 1 h | 1 h | 1 h 30 min | 30 min |
+| 8 to 9 | 50 min | 2 h | 1 h 20 min | 3 h | 1 h 20 min | 1 h 15 min | 1 h 15 min | 2 h | 50 min |
+| 9 to 10 | 1 h 20 min | 3 h | 1 h 40 min | 4 h | 1 h 40 min | 1 h 30 min | 1 h 30 min | 3 h | 1 h 20 min |
+| 10 to 11 | 2 h 15 min | 4 h | 2 h | 5 h | 2 h | 2 h | 2 h | 4 h | – |
+| 11 to 12 | 3 h 30 min | 5 h | 2 h 30 min | 6 h | 2 h 30 min | 3 h | 3 h | 5 h | – |
+| 12 to 13 | 5 h 30 min | 6 h | 3 h | 8 h | 3 h | 4 h | 4 h | 6 h | – |
+| 13 to 14 | 9 h | 8 h | 3 h 30 min | 10 h | 3 h 30 min | 6 h | 6 h | 8 h | – |
+| 14 to 15 | 14 h | 10 h | 4 h | 11 h | 4 h | 8 h | 8 h | 10 h | – |
+| 15 to 16 | 1 d | 12 h | 5 h | 12 h | 5 h | 10 h | 10 h | 12 h | – |
+| 16 to 17 | 1 d 12 h | 16 h | 6 h | 14 h | 6 h | 12 h | 12 h | 16 h | – |
+| 17 to 18 | 2 d 12 h | 18 h | 8 h | 18 h | 8 h | 16 h | 18 h | 18 h | – |
+| 18 to 19 | 4 d | 20 h | 10 h | 1 d | 10 h | 20 h | 1 d | 20 h | – |
+| 19 to 20 | 6 d | 1 d | 12 h | 1 d 12 h | 12 h | 1 d | 1 d 12 h | 1 d | – |
+| **Total** | 16 d 13 h | 5 d 13 h | 2 d 14 h | 6 d 13 h | 2 d 14 h | 4 d 16 h | 5 d 10 h | 5 d 13 h | 3 h 12 min |
 <!-- upgrade-times:end -->
 
-An upgrade that is already running when the times change keeps the finish time it was given. The Core alone takes about **16 and a half days** of upgrading in a row to go from level 1 to level 20. No module goes above the Core's level, so the last step of every other module (6 days) can start only once the Core is at level 20: with every timer kept busy, and the Credits and Thulium there, the whole station takes about **22 and a half days**.
+An upgrade that is already running when the times change keeps the finish time it was given. The Core alone takes about **16 and a half days** of upgrading in a row to go from level 1 to level 20. No module goes above the Core's level, so the last step of every other module (12 to 36 hours) can start only once the Core is at level 20: with every timer kept busy, and the Credits and Thulium there, the whole station takes about **18 days**.
 
 ### Power Management
 
@@ -184,6 +217,7 @@ Your Skylab has a limited power budget.
 - **Solar keeps pace**: a Solar module at level N makes the power of **all the other modules at level N** (the Core, both farms, the Resource Storage, both collectors and the Forgery, and from level 10 the Research Centre) and about a tenth more, so a station whose modules are all at level 7 needs Solar 7, and has it covered. Solar one level lower is not enough for a full station (the last column), so Solar still has to follow the rest up. The Core draws little, so it may run ahead: Solar 5 and up covers a full station at its level with the Core at any level.
 - **Active state**: you can switch the farms, the collectors and the Forgery on or off to manage power. The Core, Solar, the Resource Storage and the Research Centre always run.
 - **Blackout**: if power use is higher than power made, all the farms and collectors stop producing until the balance is back. What they already hold stays, and you can still collect it. The Forgery starts no new batch, and the Research Centre starts no new research (a research already running goes on).
+- **Solar upgrades**: while Solar upgrades it makes only a quarter of its power, so unless your other modules are far below it the station is in deficit and the farms and collectors stop until the upgrade is done (see [Solar Module](#solar-module)).
 
 Solar's power at each level, against what the other modules use at the same level (every module at that level, the Core included, and the Research Centre from level 10):
 
@@ -230,3 +264,45 @@ Every farm and collector has a hopper for about 72 hours of what it makes. You c
 ### The wipe
 
 The Skylab is never wiped: modules keep their levels, the Resource Storage keeps its ore and the Research Centre keeps its technologies, its tank of science, the Dark Matter plugged into it and a research under way. The plates in your inventory are items like any other, so they follow the [wipe rules](/wiki/03-Mechanics/Wipe-Timeline.md).
+
+## Planning your Skylab
+
+The Skylab takes weeks to grow, so a little planning pays. The numbers are the tables above.
+
+### What to upgrade first
+
+1. **Solar, then the Credit Farm.** Solar costs 500 Credits and 50 Thulium and nothing runs without it; the Credit Farm costs nothing. The ten [Station missions](/wiki/03-Mechanics/Quests.md#station-missions) walk you through these first steps and pay you 52,000 Credits and 610 Thulium for them, at base: your world, boosters and clan boosts multiply it.
+2. **Then the Thulium Farm: it is your main source of Thulium.** At level 10 it makes 450 Thulium an hour, 10,800 a day, as much as 54 kills of a [Crystalys](/wiki/04-Aliens/Crystalys.md) pay in Alpha (200 each). The climb to level 10 costs 1,154,000 Credits and 4,190 Thulium, the build included. At level 15 the farm makes 22,800 a day and at level 20 38,400. Its hopper holds 72 hours, so come back at least every three days. What Thulium buys is on the [Resources](/wiki/06-Items/Resources.md#thulium) page.
+3. **The Credit Farm is the steady side income.** At level 10 it makes 7,500 Credits an hour, 180,000 a day, for 840,000 Credits and 109 Thulium. The higher levels pay back slowly: the step from level 9 to 10 costs 300,000 Credits for 1,000 more an hour, which is 300 hours. Raise it when you have Credits to spare.
+4. **Keep the Core busy.** Nothing goes above the Core, and the Core alone takes about 16 and a half days to reach level 20. There is no queue, so start its next step every time you come back.
+5. **Build the supply chain as a set.** The collectors, the Resource Storage and the Forgery open at Core level 5. A collector can bank ore only into a Resource Storage, and the bank holds one day of its collector's output at level 1 and four days at level 20, so raise the Storage with the collectors or the ore waits in their hoppers.
+
+### Timing a Solar upgrade
+
+While Solar upgrades it makes a quarter of its power, and a station almost always uses more than that. The farms and collectors then stop for the whole upgrade: what they hold stays, but what they would have made is lost. The table gives, for each Solar step, its time, the biggest station that still runs through it (every module at the same level, the Core and the supply chain included; a smaller station fits a little more) and what a Credit Farm and a Thulium Farm of that level would have made in that time. For example, Solar from level 10 to 11 takes 4 hours, and farms of level 10 would have made 30,000 Credits and 1,800 Thulium in them.
+
+| Solar upgrade | Time | Station that keeps running, up to level | Credit Farm makes meanwhile | Thulium Farm makes meanwhile |
+| :--- | ---: | ---: | ---: | ---: |
+| 1 to 2 | 5 min | none | 42 | 4 |
+| 2 to 3 | 15 min | none | 250 | 20 |
+| 3 to 4 | 30 min | none | 750 | 55 |
+| 4 to 5 | 45 min | none | 1,500 | 105 |
+| 5 to 6 | 1 h | none | 2,500 | 180 |
+| 6 to 7 | 1 h 15 min | none | 4,375 | 288 |
+| 7 to 8 | 1 h 30 min | none | 6,750 | 420 |
+| 8 to 9 | 2 h | 1 | 11,000 | 660 |
+| 9 to 10 | 3 h | 2 | 19,500 | 1,140 |
+| 10 to 11 | 4 h | 4 | 30,000 | 1,800 |
+| 11 to 12 | 5 h | 5 | 45,000 | 2,750 |
+| 12 to 13 | 6 h | 6 | 66,000 | 3,900 |
+| 13 to 14 | 8 h | 7 | 104,000 | 6,000 |
+| 14 to 15 | 10 h | 8 | 150,000 | 8,500 |
+| 15 to 16 | 12 h | 9 | 204,000 | 11,400 |
+| 16 to 17 | 16 h | 10 | 320,000 | 17,600 |
+| 17 to 18 | 18 h | 11 | 432,000 | 22,500 |
+| 18 to 19 | 20 h | 12 | 580,000 | 28,000 |
+| 19 to 20 | 1 d | 13 | 840,000 | 36,000 |
+
+- **Lift the farms together with Solar.** A module that is upgrading makes nothing and uses no power anyway, so the time a farm spends upgrading during the pause costs nothing extra.
+- **Keep the other modules low if you cannot afford a pause.** A station runs through a Solar upgrade only if all its other modules are at least five levels below Solar (six from Solar level 10), and a full station needs a little more, as the table shows.
+- **Switch off what you can do without.** A module that is switched off uses no power, so switching off the Thulium Farm, the biggest user (80 at level 1, 30% more with every level), makes room for the others.

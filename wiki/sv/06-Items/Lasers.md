@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -73,8 +73,8 @@ Sidan Montering visar vad du har mot vad ett recept kräver, och knappen Montera
 Varifrån plåtarna kommer:
 
 - **Velkonite Reinforced Plates** (Quantum Laser 3 och Starfire-3) smids av Velkonite, 40 malm per plåt på smedjans nivå 1. **Orvium Reinforced Plates** (Helios Beam) smids av Orvium, 80 malm per plåt.
-- Malmen kommer bara från din Skylabs samlare. En Velkonite-samlare på nivå 5 bryter ungefär 29 Velkonite i timmen, så plåtarna till en Quantum Laser 3 tar ungefär 3 timmars brytning och de tio plåtarna till en Starfire-3 (två i dess Quantum Laser 3, åtta i dess eget steg) ungefär 14. Helios Beam är den långa: dess 18 plåtar kräver 1 440 Orvium, ungefär 4 dagar från en Orvium-samlare på nivå 5.
-- Resurslagret rymmer 900 av varje malm på nivå 1, så smid allt eftersom (en sats i smedjan är 10 plåtar på nivå 1) eller uppgradera lagret.
+- Malmen kommer bara från din Skylabs samlare. En Velkonite-samlare på nivå 5 bryter 18 Velkonite i timmen, så plåtarna till en Quantum Laser 3 tar ungefär 4 timmars brytning och de tio plåtarna till en Starfire-3 (två i dess Quantum Laser 3, åtta i dess eget steg) ungefär 22. Helios Beam är den långa: dess 18 plåtar kräver 1 440 Orvium, ungefär 4 dagar från en Orvium-samlare på nivå 5.
+- Resurslagret rymmer 240 av varje malm på nivå 1: 6 Velkonite-plåtar eller 3 Orvium-plåtar med Smedjan på nivå 1. Så smid allt eftersom (en sats i smedjan är upp till 10 plåtar på nivå 1) eller uppgradera lagret.
 - Smidda plåtar väntar i smedjan tills du hämtar dem medan ditt skepp är landat, och hamnar i ditt inventarie som vanliga föremål.
 
 Ship Fragments, Cataclysite, Power Cores och Reinforced Hull Plates släpps av utomjordingar; varje källa till och användning av varje material finns på sidan [Resurser](/wiki/06-Items/Resources.md); bytelistorna på sidorna för [Bulwark](/wiki/04-Aliens/Bulwark.md) och [Goombah](/wiki/04-Aliens/Goombah.md) visar hur mycket.
@@ -120,7 +120,7 @@ Förbrukningsbara batterier som multiplicerar skadan i dina lasersalvor:
 
 **Sköldgenomträngning** dras av från målets absorption för varje träff i dina salvor: sköldarna tar målets absorption minus genomträngningen (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Mot ett skepp på 80 % (den bästa skölden med de bästa cellerna) lämnar x4-ammunitionens 10 % sköldarna 70 % av träffen och skrovet 30 %. Det spelar störst roll mot skepp vars skrov är litet jämfört med deras sköld; ett mycket stort skepp på 80 % klarar sig lika bra med eller utan genomträngning. Utomjordingar har knappast något absorptionsvärde att tala om (deras sköldar tar 80 % av en träff), och genomträngningen dras av från det också.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 Siphon Battery är ammunition för att stjäla sköldar i stället för att bryta skrov. Den gör **x1 skada direkt på målets sköld** och lägger samma mängd till **din egen sköld**, upp till ditt maximum. Välj den i ammunitionsväljaren i snabbfältet som vilken annan ammunition som helst (det är rutan med den blågröna virveln). Den avfyrar ingen stråle: en tunn, svag blågrön sond går ut mot målet, målets sköld blossar blågrönt där den träffar, och den sköld du dränerat strömmar synligt tillbaka till ditt skepp som glödande blågröna paket (tre till tio, fler för en större dränering), ett efter ett under ungefär en halv sekund. Varje paket som anländer får din sköld att pulsera. Du ser samma sak för varje pilots Siphon Battery som är i sikte, vem den än dränerar: utomjordingar, andra piloter och koncernpiloters skepp.
 

@@ -2,6 +2,9 @@
 
 In the exact middle of Danger Sector 4 (`DS-4`, the centre of the PvP zone), a black hole hangs in the dark. It is the same in every world (Alpha, Beta and Gamma), on every day of the season, the Peace Protocol included. It takes what comes too close, and it gives back one thing: [Dark Matter](#dark-matter), for a N.I.K.E. rocket fired into it.
 
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../img/wiki-img/shots/black-hole-closeup.jpg)
+
 ## The Rings
 
 Distances are from the centre of the sector, in map units. The sector is 32,000 by 18,000 units.
@@ -38,7 +41,7 @@ Between two rows the damage rises in a straight line. In hit points a second, fo
 | Ostirion | 82,500 | 454 | 660 | 1,650 | 4,125 | 9,075 |
 | Nomad | 130,500 | 718 | 1,044 | 2,610 | 6,525 | 14,355 |
 | Paragon | 162,500 | 894 | 1,300 | 3,250 | 8,125 | 17,875 |
-| Storm | 194,500 | 1,070 | 1,556 | 3,890 | 9,725 | 21,395 |
+| Storm | 198,000 | 1,089 | 1,584 | 3,960 | 9,900 | 21,780 |
 | Wraith | 372,000 | 2,046 | 2,976 | 7,440 | 18,600 | 40,920 |
 | Ironclad | 673,200 | 3,703 | 5,386 | 13,464 | 33,660 | 74,052 |
 
@@ -73,17 +76,17 @@ Your **point of no return** is the distance where the pull equals your speed. A 
 | Ship (stock build) | Speed | Point of no return |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1,974 |
-| Protos | 155 | 1,627 |
+| Protos | 165 | 1,577 |
 | Kitefin | 184 | 1,480 |
 | Ostirion | 208 | 1,362 |
 | Nomad | 211 | 1,347 |
 | Paragon | 222 | 1,287 |
-| Wraith | 238 | 1,171 |
-| Storm | 256 | 1,046 |
+| Wraith | 233 | 1,208 |
+| Storm | 263 | 995 |
 
 A ship faster than 272 units a second (a runner build, or a stock Wraith with a running Afterburner) has its point of no return where it always was: at speed 300 it is 885, at 432 it is 747.
 
-Build for speed and you can leave from deeper; load up on heavy shields and you cannot (an Ironclad, the slowest ship, with a Heavy Shield Core in all of its 14 slots flies at 39.1, with its point of no return at about 2,600). Only a burst of speed turns a ship back from just inside its point of no return: a running [Afterburner](/wiki/03-Mechanics/Abilities.md) counts, and moves the point of no return deeper for as long as it runs (ten seconds with one engine, fifteen with two, twenty with three; Afterburner III takes a stock Protos's from 1,627 to 1,105 and a stock Wraith's from 1,171 to 793). Nothing can leave from within about 390 units, even a ship built for speed with every speed stat enchanted to the top and the strongest burst running (an Afterburner III enchanted to the cap, x1.69); an unenchanted ship built for speed (Engine IIIs and Adaptive Core IIs with Impulse Thruster IVs and Momentum Thruster IVs), with an Afterburner III, leaves from outside 425 at best.
+Build for speed and you can leave from deeper; load up on heavy shields and you cannot (an Ironclad, the slowest ship, with a Heavy Shield Core in all of its 14 slots flies at 39.1, with its point of no return at about 2,600). Only a burst of speed turns a ship back from just inside its point of no return: a running [Afterburner](/wiki/03-Mechanics/Abilities.md) counts, and moves the point of no return deeper for as long as it runs (ten seconds with one engine, fifteen with two, twenty with three; Afterburner III takes a stock Protos's from 1,577 to 989 and a stock Wraith's from 1,208 to 801). Nothing can leave from within about 390 units, even a ship built for speed with every speed stat enchanted to the top and the strongest burst running (an Afterburner III enchanted to the cap, x1.69); an unenchanted ship built for speed (Engine IIIs and Adaptive Core IIs with Impulse Thruster IVs), with an Afterburner III, leaves from outside 429 at best.
 
 The fall from the point of no return starts slowly: a ship a few units inside it, at full power, is drawn in over twenty seconds or more, then faster and faster. The pull is not flight: it counts for no distance flown.
 
@@ -126,9 +129,9 @@ Drones fly with their ship. Cargo is never laid down inside the ring: a crate th
 
 The hole gives back **Dark Matter** for a **N.I.K.E.** rocket that reaches it. A N.I.K.E. is a rocket that deals 67,500 to 75,000 damage to the first ship it may hurt and is spent on it; if nothing is in the way it flies to the hole and is used up when it crosses the event horizon. [Assembly](/wiki/06-Items/Rockets.md) makes N.I.K.E.s once their technology is researched ([Research](/wiki/03-Mechanics/Research.md)), five a craft (100,000 Credits, 1,500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Firing.** A N.I.K.E. flies 4,050 units in 4.5 seconds (900 a second) straight at where you aimed it: with no target selected, put the cursor on the black hole (or point your ship at it). It reaches the horizon from anywhere between the rim of the radiation (4,000 units) and 4,380 units from the centre. Farther out it falls short and is wasted. Like every rocket it uses the shared 5-second timer (no laser needs to be fitted); firing it ends your safe-zone protection and your cloak. **A ship on the line takes it instead**: a rival waiting at the rim, or a pilot of another company collecting crates in the way, is hit for 67,500 to 75,000 and the hole gets nothing. Aliens and company pilots never come inside the ring, so a clear line is yours to keep clear; it flies through your own company and through ships that are safe from you. If you leave the map after the shot, it flies on without hurting anyone and still makes your Dark Matter.
+- **Firing.** A N.I.K.E. flies 4,050 units in 4.5 seconds (900 a second) straight at where you aimed it: with no target selected, put the cursor on the black hole (or point your ship at it). It reaches the horizon from anywhere between the rim of the radiation (4,000 units) and 4,380 units from the centre. Farther out it falls short and is wasted. Like every rocket it uses the shared 5-second timer (no laser needs to be fitted); firing it ends your safe-zone protection and your cloak. **A ship on the line takes it instead**: a rival waiting at the rim, or a pilot of another company collecting crates in the way, is hit for 67,500 to 75,000 and the hole gets nothing. Aliens and company pilots never come inside the ring, so a clear line is yours to keep clear; it flies through your own company and through ships that are safe from you. If you leave the map after the shot, it flies on without hurting anyone and still makes your Dark Matter. A drone formation can change that timer and the damage of the hit (see [Drone formations and rockets](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **What comes back.** Each N.I.K.E. that reaches the horizon gives **1, 2 or 3 Dark Matter** (2 on average, so about five N.I.K.E.s make ten), in one or two small crates that appear on the rim of the hole's zone, **3,050 to 3,950 units from the centre**, near the line your shot came in on. The pull ends at 3,000, so the crates and the ships taking them are not pulled, and the radiation there is 0.3 to 0.8 % of a ship's HP a second: a minute in the middle of the band costs a third of your ship. A full ship lasts three minutes there.
 - **Whose.** The crates are yours, and your clan's, for **60 seconds** from the shot. After that anyone on the map may take them, and they drift away after **4 minutes**. The Danger Sector is a PvP sector, so expect company. A pilot who logs out after firing still has its crates.
 - **How many.** A map holds at most 32 Dark Matter crates; a new one pushes out the oldest of them, and never another kind of crate. The [Resource Magnet](/wiki/03-Mechanics/Cargo.md) adds nothing to Dark Matter.
 - **What you see.** When a N.I.K.E. crosses the horizon it is stretched into the hole, space ripples out from where it went in, and the disk and the photon ring flare for about a second and a half (a third of that, at half the light, under **Reduce Motion**). A moment later the crates come out of the hole and drift to their places on the rim: each is a violet-black orb with a bright rim and sparkles, easy to see from far, and titled **Dark Matter** when you hover it. Yours show the seconds you have left over them, and show on the minimap as a small violet mark, as they do for your clan; other pilots' crates show on the minimap only once their minute is over.
-- **What it is for.** Assembly presses 5 Dark Matter with a Velkonite and an Orvium Reinforced Plate into a **Dark Matter Plate**, and [The Forge](/wiki/06-Items/Forge.md) asks for two of them to raise an item from Godly to Rupturing and again from Rupturing to Eternal: ten Dark Matter a step. The Skylab's [Research Centre](/wiki/03-Mechanics/Research.md#dark-matter) needs Dark Matter too: 10 for each of the 15 technologies at the top of its tree, 150 in all, plugged in before the research starts.
+- **What it is for.** Assembly presses 5 Dark Matter with a Velkonite and an Orvium Reinforced Plate into a **Dark Matter Plate**, and [The Forge](/wiki/06-Items/Forge.md) asks for two of them to raise an item from Godly to Rupturing and again from Rupturing to Eternal: ten Dark Matter a step. The Skylab's [Research Centre](/wiki/03-Mechanics/Research.md#dark-matter) needs Dark Matter too: 10 for each of the 15 technologies at the top of its tree, 150 in all, plugged in before the research starts. The drone formations need it too, 5, 13 or 20 each depending on strength: 189 more, 339 in all.

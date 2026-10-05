@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Seeker 무리 -->
 # Seeker 무리 {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Boss Seeker의 보상은 **정확히 Seeker 10마리분**입니다. Seeker의 �
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 바탕은 Seeker이며, 선체와 실드, 피해량은 그 400%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다.
 
@@ -74,7 +74,7 @@ Boss Seeker의 보상은 **정확히 Seeker 10마리분**입니다. Seeker의 �
 | Ultra Core | 100% | 2–4 |
 | 크레딧으로 살 수 있는 8종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 바탕은 Seeker이며, 선체와 실드, 피해량은 그 100%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다.
 

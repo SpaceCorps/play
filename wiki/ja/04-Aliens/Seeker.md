@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: f0eea7ebd1631a1f -->
+<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
 <!-- wiki-i18n title: Seeker -->
-# Seeker {#seeker}
+# Seeker
 
 Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自分から戦いを仕掛けることはありません。Seeker が反撃に出るのは、自分を撃ってきたパイロットに対してだけです。10秒間誰にも攻撃されなければ追跡をやめ、30秒間放置されると船体が修復し始めます。[Seeker の群れ](/wiki/05-Swarms/Seeker-Swarm.md)の Boss Seeker と Seeker Slave は Seeker に似ていますが、独立した種類です。撃破は Seeker の撃破ではなく、それぞれの名前で数えられます。
 

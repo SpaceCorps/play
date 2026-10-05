@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
 A Veszélyes szektor 4 (`DS-4`, a PvP-zóna központja) pontos közepén egy feketelyuk lebeg a sötétben. Minden világban ugyanolyan (Alpha, Beta és Gamma), a szezon minden napján, a Békeprotokoll idején is. Elnyel mindent, ami túl közel kerül, és egyetlen dolgot ad vissza cserébe: [Dark Mattert](#dark-matter), a beléje lőtt N.I.K.E. rakétáért.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## A gyűrűk {#the-rings}
 
@@ -40,7 +43,7 @@ Két sor között a sebzés egyenes vonalban nő. Életerőpontban másodpercenk
 | Ostirion | 82 500 | 454 | 660 | 1 650 | 4 125 | 9 075 |
 | Nomad | 130 500 | 718 | 1 044 | 2 610 | 6 525 | 14 355 |
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 194 500 | 1 070 | 1 556 | 3 890 | 9 725 | 21 395 |
+| Storm | 198 000 | 1 089 | 1 584 | 3 960 | 9 900 | 21 780 |
 | Wraith | 372 000 | 2 046 | 2 976 | 7 440 | 18 600 | 40 920 |
 | Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
 
@@ -75,17 +78,17 @@ A **nincs visszaút pontja** a hajód számára az a távolság, ahol a vonzás 
 | Hajó (alap felszerelés) | Sebesség | A nincs visszaút pontja |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1 974 |
-| Protos | 155 | 1 627 |
+| Protos | 165 | 1 577 |
 | Kitefin | 184 | 1 480 |
 | Ostirion | 208 | 1 362 |
 | Nomad | 211 | 1 347 |
 | Paragon | 222 | 1 287 |
-| Wraith | 238 | 1 171 |
-| Storm | 256 | 1 046 |
+| Wraith | 233 | 1 208 |
+| Storm | 263 | 995 |
 
 A 272 egység/mp-nél gyorsabb hajónál (futó összeállítás, vagy működő Afterburnerrel repülő alap Wraith) a nincs visszaút pontja ott van, ahol mindig is volt: 300-as sebességnél ez 885, 432-nél 747.
 
-Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 39,1-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 600 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tíz, kettővel tizenöt, hárommal húsz másodpercig; az Afterburner III egy alap Protosét 1 627-ről 1 105-re, egy alap Wraithét 1 171-ről 793-ra viszi). Nagyjából 390 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,69); egy bűvöletlen, sebességre épített hajó (Engine III-ak és Adaptive Core II-k Impulse Thruster IV-ekkel és Momentum Thruster IV-ekkel) Afterburner III-mal a legjobb esetben is csak 425 egységen kívülről jut ki.
+Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 39,1-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 600 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tíz, kettővel tizenöt, hárommal húsz másodpercig; az Afterburner III egy alap Protosét 1 577-ről 989-re, egy alap Wraithét 1 208-ről 801-ra viszi). Nagyjából 390 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,69); egy bűvöletlen, sebességre épített hajó (Engine III-ak és Adaptive Core II-k Impulse Thruster IV-ekkel) Afterburner III-mal a legjobb esetben is csak 429 egységen kívülről jut ki.
 
 A zuhanás a nincs visszaút pontjától lassan indul: egy hajó, amely néhány egységgel belülre került, teljes tolóerővel is húsz másodperc vagy több alatt húzódik be, aztán egyre gyorsabban. A vonzás nem repülés: egy megtett távolságba sem számít bele.
 
@@ -124,13 +127,13 @@ A beállítások segítenek, ha a lyuk megterheli a gépet vagy a szemet: a **Ke
 
 A drónok a hajójukkal együtt repülnek. Rakományt sosem raknak le a gyűrűn belül: az a láda, amely oda esne, a gyűrű szélére kerül. A Dark Matter-ládák az egyetlen kivétel.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 A lyuk **Dark Mattert** ad vissza minden **N.I.K.E.** rakétáért, amely eléri. A N.I.K.E. egy 67 500–75 000 sebzésű rakéta, amely az első hajót találja el, amelyet megsebezhet, és azon el is használódik; ha semmi sincs az útjában, a lyukig repül, és az eseményhorizont átlépésekor elhasználódik. A [Gyártás](/wiki/06-Items/Rockets.md) N.I.K.E.-ket készít, amint a technológiájuk ki van kutatva ([Kutatás](/wiki/03-Mechanics/Research.md)), gyártásonként ötöt (100 000 kredit, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Kilövés.** A N.I.K.E. 4 050 egységet repül 4,5 másodperc alatt (másodpercenként 900-at), egyenesen oda, ahová célzod: ha nincs kijelölt célpont, vidd a kurzort a feketelyukra (vagy fordítsd rá a hajódat). A horizontot a sugárzás pereme (4 000 egység) és a középponttól 4 380 egység közötti bármely távolságból eléri. Messzebbről rövid marad, és kárba vész. Mint minden rakéta, a közös 5 másodperces időzítőt használja (nem kell hozzá felszerelt lézer); a kilövése megszünteti a biztonságos zóna védelmét és az álcázásodat. **Az útjába eső hajó kapja el helyette**: a peremnél várakozó rivális, vagy az úton ládákat gyűjtő másik vállalatbeli pilóta 67 500–75 000 sebzést kap, és a lyuk nem kap semmit. Az idegenek és a vállalati pilóták sosem jönnek a gyűrűn belülre, így a szabad vonal megtartása rajtad múlik; a rakéta átrepül a saját vállalatodon és azokon a hajókon, amelyek biztonságban vannak tőled. Ha a lövés után elhagyod a térképet, a rakéta tovább repül anélkül, hogy bárkit megsebezne, és a Dark Mattered így is megtermeli.
+- **Kilövés.** A N.I.K.E. 4 050 egységet repül 4,5 másodperc alatt (másodpercenként 900-at), egyenesen oda, ahová célzod: ha nincs kijelölt célpont, vidd a kurzort a feketelyukra (vagy fordítsd rá a hajódat). A horizontot a sugárzás pereme (4 000 egység) és a középponttól 4 380 egység közötti bármely távolságból eléri. Messzebbről rövid marad, és kárba vész. Mint minden rakéta, a közös 5 másodperces időzítőt használja (nem kell hozzá felszerelt lézer); a kilövése megszünteti a biztonságos zóna védelmét és az álcázásodat. **Az útjába eső hajó kapja el helyette**: a peremnél várakozó rivális, vagy az úton ládákat gyűjtő másik vállalatbeli pilóta 67 500–75 000 sebzést kap, és a lyuk nem kap semmit. Az idegenek és a vállalati pilóták sosem jönnek a gyűrűn belülre, így a szabad vonal megtartása rajtad múlik; a rakéta átrepül a saját vállalatodon és azokon a hajókon, amelyek biztonságban vannak tőled. Ha a lövés után elhagyod a térképet, a rakéta tovább repül anélkül, hogy bárkit megsebezne, és a Dark Mattered így is megtermeli. Egy drónformáció megváltoztathatja ezt az időzítőt és a találat sebzését (lásd: [Drónformációk és rakéták](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **Mi jön vissza.** Minden N.I.K.E., amely eléri a horizontot, **1, 2 vagy 3 Dark Mattert** ad (átlagosan 2-t, így nagyjából öt N.I.K.E.-ből tíz Dark Matter lesz), egy vagy két kis ládában, amelyek a lyuk zónájának peremén jelennek meg, **a középponttól 3 050–3 950 egységre**, a lövésed érkezési vonala közelében. A vonzás 3 000-nél véget ér, ezért a ládákat és az értük érkező hajókat nem húzza a lyuk, a sugárzás pedig ott a hajó életerejének 0,3–0,8%-a másodpercenként: egy perc a sáv közepén a hajód egyharmadába kerül. Egy teljes hajó három percig bírja ott.
 - **Kié.** A ládák a lövéstől számított **60 másodpercig** a tieid és a klántársaidéi. Utána bárki felveheti őket a térképen, és **4 perc** múlva elsodródnak. A Veszélyes szektor PvP-szektor, számíthatsz társaságra. Az a pilóta, aki a lövés után kijelentkezik, továbbra is megtartja a ládáit.
 - **Hány.** Egy térképen legfeljebb 32 Dark Matter-láda lehet; egy új kiszorítja közülük a legrégebbit, más fajta ládát sosem. A [Resource Magnet](/wiki/03-Mechanics/Cargo.md) nem ad hozzá semmit a Dark Matterhez.
 - **Amit látsz.** Amikor egy N.I.K.E. átlépi a horizontot, a lyukba nyúlik, a tér hullámozva tágul onnan, ahol belépett, a korong és a fotongyűrű pedig körülbelül másfél másodpercre fellángol (**Kevesebb mozgás** mellett ennek harmadáig, fele fénnyel). Egy pillanattal később a ládák kijönnek a lyukból, és a peremen lévő helyükre sodródnak: mindegyik egy ibolyafekete gömb fényes peremmel és szikrákkal, messziről jól látható, és ha föléje viszed az egeret, a felirata **Dark Matter**. A tieid megmutatják a rajtuk hátralévő másodperceket, és kis ibolyaszínű jelként látszanak a minitérképen, a klánod számára is ugyanígy; más pilóták ládái csak a saját percük lejárta után látszanak a minitérképen.
-- **Mire jó.** A Gyártás 5 Dark Matterből, egy Velkonite Reinforced Plate-ből és egy Orvium Reinforced Plate-ből egy **Dark Matter Plate**-et készít, a [Kovácsműhely](/wiki/06-Items/Forge.md) pedig kettőt kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre, majd a Repesztőről az Örökre lépjen: fokozatonként tíz Dark Matter. A Skylab [Kutatóközpontja](/wiki/03-Mechanics/Research.md#dark-matter) is kér Dark Mattert: 10-et a fája csúcsán lévő 15 technológia mindegyikéhez, összesen 150-et, a kutatás indulása előtt belehelyezve.
+- **Mire jó.** A Gyártás 5 Dark Matterből, egy Velkonite Reinforced Plate-ből és egy Orvium Reinforced Plate-ből egy **Dark Matter Plate**-et készít, a [Kovácsműhely](/wiki/06-Items/Forge.md) pedig kettőt kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre, majd a Repesztőről az Örökre lépjen: fokozatonként tíz Dark Matter. A Skylab [Kutatóközpontja](/wiki/03-Mechanics/Research.md#dark-matter) is kér Dark Mattert: 10-et a fája csúcsán lévő 15 technológia mindegyikéhez, összesen 150-et, a kutatás indulása előtt belehelyezve. A drónformációk is kérnek Dark Mattert, erősségtől függően 5, 13 vagy 20 darabot: további 189-et, összesen 339-et.

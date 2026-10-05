@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter Feuerkraft, gewaltiger Schildkapazität und außergewöhnlichem Tempo.
 
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 324.000
-- **Grundtempo**: 225
+- **Grundtempo**: 220
 - **Laser-Slots**: 12
 - **Extra-Slots**: 3
 

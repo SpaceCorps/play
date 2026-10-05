@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
 Dieser Abschnitt beschreibt, wie Schaden in SpaceCorps berechnet, angewendet und repariert wird, wenn es zum Gefecht kommt.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Schadensberechnung {#damage-calculation}
 
@@ -27,11 +31,12 @@ Jede Salve hat eine Chance, ein kritischer Treffer zu sein.
 
 Zuletzt werden globale Multiplikatoren (etwa aktive Booster oder Multiplikatoren der Lasermunition wie x2, x3, x4) angewendet, um den endgültigen Schaden zu erhalten:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) kann das Ergebnis noch einmal multiplizieren: zum Beispiel Auger +21 % Laserschaden, Gyre −11 % und gegen Aliens Culler +12 % (ein eigener Faktor, nicht Teil des Booster-Prozentsatzes).
 - Die Munition **Siphon Battery** hat den Multiplikator x1, aber ein anderes Ziel: Ihr Schaden geht allein vom Schild des Ziels ab (nie von der Hülle, egal wie hoch die Absorption) und fließt in deinen eigenen Schild, bis zu deinem Maximum. Siehe [Laser & Munition](/wiki/06-Items/Lasers.md).
 
 ### 3b. Raketen {#3b-rockets}
 
-Eine [Rakete](/wiki/06-Items/Rockets.md) hat ihren eigenen Schaden (eine Lancet I 1.600 bis 2.000, eine Lancet III 4.800 bis 6.000, eine N.U.K.E. 45.000 bis 50.000), der beim Abfeuern einmal ausgewürfelt wird und für jedes Schiff derselbe ist: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt keinen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, zum Rand hin schwächer. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören.
+Eine [Rakete](/wiki/06-Items/Rockets.md) hat ihren eigenen Schaden (eine Lancet I 1.600 bis 2.000, eine Lancet III 4.800 bis 6.000, eine N.U.K.E. 45.000 bis 50.000), der beim Abfeuern einmal ausgewürfelt wird und für jedes Schiff derselbe ist: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt keinen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, zum Rand hin schwächer. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören. Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einzige, was beides verändert: Eine Raketenformation erhöht den Schaden jeder Rakete (bis zu +55 %), und einige machen den Timer länger oder kürzer.
 
 ### 4. Dem Ziel zugewandt {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ Die Belohnungen eines Aliens gehen an den Piloten, der zuerst auf es geschossen 
 - **So siehst du es**: Wählst du ein Alien aus, das ein anderer Pilot beansprucht hat, zeigt das Zielfenster *Beansprucht von* diesem Piloten und *Keine Belohnung*.
 - [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) beanspruchen nie ein Alien, und ein Alien, das sie erledigen, zahlt trotzdem an den Piloten, der seinen Anspruch hält.
 - Ein Pilot in einer [Gruppe](/wiki/03-Mechanics/Groups.md) teilt, was sein Anspruch einbringt, mit den Gruppenmitgliedern, die nah dran sind und schießen; der Anspruch selbst gehört allein dem Piloten.
-- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md) und die Dormant Pulses sind die Ausnahme**: Ein Schwarm-Boss und jede Dormant Pulse werden nach dem Schaden bezahlt, den jeder Pilot ihnen zugefügt hat, nicht nach dem ersten Treffer, und ihre Frachtkiste geht an den Piloten mit dem meisten Schaden ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Die übrigen Begleiter, die Pirate Scouts und die Seeker Slaves, zahlen wie jedes Alien nach dem Anspruch. Die PvE-Punkte eines Schwarmschiffs stehen auf der Seite Schwärme.
+- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md), die Dormant Pulses und die [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sind die Ausnahme**: Ein Schwarm-Boss, jede Dormant Pulse und jeder Clan Warden werden nach dem Schaden bezahlt, den jeder Pilot ihnen zugefügt hat, nicht nach dem ersten Treffer, und ihre Frachtkiste geht an den Piloten mit dem meisten Schaden ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Die übrigen Begleiter, die Pirate Scouts und die Seeker Slaves, zahlen wie jedes Alien nach dem Anspruch. Die PvE-Punkte eines Schwarmschiffs stehen auf der Seite Schwärme.
 
 ---
 
@@ -87,9 +92,9 @@ Ein Alien, das dich zu seinem Ziel gemacht hat (ein Phantasm, Bulwark oder Cryst
 
 Ein Alien, das von dir ablässt, streift von dort aus weiter, wo es steht, nie dorthin, wo es dich zuletzt gesehen hat (auch nicht, wenn du dich tarnst oder einen EMP auslöst), und wählt dich **8 Sekunden** lang nicht wieder als Ziel, es sei denn, du schießt auf es. Jedes Alien entscheidet für sich, deshalb lichtet sich ein gemischtes Rudel, während du wegfliegst. Aliens folgen dir nie in eine Schutzzone oder durch ein Tor, und die, die dich in deren Nähe verloren haben, ziehen jeweils ihres Weges davon, damit sie nicht als Haufen dort warten. Ein Alien verliert sein Interesse nie innerhalb seiner Angriffsreichweite und seines Aggro-Radius, plus 100 Einheiten.
 
-Aliens ballen sich nicht zu einem Haufen zusammen: Ein Rudel, das hinter einem Piloten her ist, hält beim Vorrücken etwas Platz zwischen seinen Schiffen (150 Einheiten zwischen den Hüllen, ein Rudel Phantasms fliegt also mit 250 Einheiten Abstand statt Hülle an Hülle), und ein Alien, das sich auf den Weg macht, während andere dicht bei ihm sind, fliegt von ihnen weg, sodass ein Rudel, das seinen Piloten verloren hat, in alle Richtungen auseinanderbricht.
+Aliens schieben sich nicht gegenseitig auseinander: Ein Rudel, das hinter einem Piloten her ist, rückt vor, ohne Platz zwischen seinen Schiffen zu lassen, und ein Rudel, das seinen Piloten verloren hat, löst sich nur auf, indem jedes Alien seinen eigenen Weg wählt. Von einem **Schiff** halten Aliens aber Abstand: Sie landen nie in der Hülle eines Piloten, und ein Pilot, der sich auf eines stellt, schiebt es mit.
 
-Schneller zu fliegen hilft dir nur bis zu einem gewissen Punkt: Eine Protos (150) ist langsamer als jedes Alien, das jagt (Phantasm 160, Bulwark 175, Crystalys 230), also beendet die Verfolgungsgrenze die Jagd, nicht dein Tempo.
+Schneller zu fliegen hilft dir nur bis zu einem gewissen Punkt: Eine Protos (160) ist nicht schneller als irgendein Alien, das jagt (Phantasm 160, Bulwark 175, Crystalys 230), also beendet die Verfolgungsgrenze die Jagd, nicht dein Tempo.
 
 ---
 
@@ -104,6 +109,7 @@ Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schif
 - **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %).
 - Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter; sind die Schilde ganz erschöpft, trifft **100 %** des gesamten restlichen Schadens die HP.
 - Aliens haben keinen Absorptionswert: Ihre Schilde nehmen 80 % jedes Treffers (abzüglich der Durchdringung des Treffers), ihre Hülle den Rest.
+- **Drohnenformationen.** Rampart erhöht deine Absorption um 17 % (Shrike senkt sie um 6 %), und Asterism gibt jedem direkten Treffer auf dich eine Chance von 7 %, gar keinen Schaden anzurichten (ein schwebendes „Verfehlt“ erscheint), und die Treffer, die ankommen, teilen sich Schild und Hülle wie gewohnt. Gemini (+9 Punkte) und Stiletto (+16) addieren Durchdringung zu deiner eigenen Munition und zu direkten Raketen, insgesamt bis zu 40 % ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Immunität in Schutzzonen {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ Um sich vom Kampf zu erholen, können Piloten auf passive Regeneration und aktiv
 
 - **Funktion**: Stellt pro Sekunde so viele Schildpunkte wieder her, wie die Aufladerate deines Schilds beträgt.
 - **Verzögerung**: Wird durch Kampf unterbrochen; die passive Regeneration setzt erst nach **15 Sekunden** ohne Schaden wieder ein.
+- **Drohnenformationen**: Adamant und Redoubt geben jede Sekunde Schild zurück, auch im Kampf (siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 Die Munition [Siphon Battery](/wiki/06-Items/Lasers.md) schreibt den Schild, den sie einem Ziel entzieht, sofort deinem eigenen gut, bis zu deinem Maximum. Schild zu gewinnen ist kein erlittener Schaden, deshalb verzögert es deine passive Regeneration nicht.
 

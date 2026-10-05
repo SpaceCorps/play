@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 897dab3210b8f84a -->
+<!-- wiki-i18n source: fde0e896bc82b2a3 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -17,9 +17,9 @@ Varje utrustad motor ger hastighet, och det gör varje adaptiv kärna som har st
 \[\text{Motorhastighet} = (\text{Motorns grundhastighet} + \text{Fast styrraketbonus}) \times \text{Styrraketmultiplikator}\]
 
 - **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+15` hastighet).
-- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.13` eller `+13%`, Impulse Thruster III `1.03` eller `+3%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
+- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.09` eller `+9%`, Impulse Thruster III `1.03` eller `+3%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
 
-En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+12`, `1.14`) ger (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, och med tre Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.14` ger `1.161`.
+En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+12`, `1.11`) ger (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, och med tre Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.11` ger `1.1265`.
 
 ### 2. Avtagande avkastning (marginaleffektivitet) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -43,3 +43,4 @@ Den totala fartbonusen i procent är summan av alla fartbonusar från utrustade 
 - **Sköldarnas fartavdrag**: Tunga sköldar tynger ner ditt skepp och ger negativa fartprocent (t.ex. ger Heavy Shield Core `-5%` fart).
 - **Skalning efter plats**: De här procentbonusarna och avdragen skalas också med effektiviteten hos platsen där föremålet sitter. En sköld på en av dina drönare bromsar dig lika mycket som en sköld på en kärnplats.
 - **Aldrig under noll**: hur många sköldar du än bär går din hastighet inte under 0.
+- **Drönarformationer**: en buren [drönarformation](/wiki/03-Mechanics/Formations.md) ändrar slutfarten en gång till, som en egen faktor: Gyre +10 %, Cordon −3 %, Auger −9 %, Culler −10 %, Redoubt −11 %, Rampart −17 %. Afterburner multiplicerar sedan resultatet.

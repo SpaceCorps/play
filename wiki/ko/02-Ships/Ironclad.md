@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Ironclad는 중장갑 탱커 함선입니다. 모든 함선을 통틀어 가장 두꺼운 선체와 가장 넉넉한 실드 공간을 얻은 대신, 화기는 줄고 구동 속도는 느립니다. 어셈블리에서 제작하며, Paragon과 Wraith 사이에 놓이는 함선입니다.
 

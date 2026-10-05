@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量，能造成巨大伤害，但绝不会主动挑起战斗：Goombah 只会攻击攻击过它的那名飞行员。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 

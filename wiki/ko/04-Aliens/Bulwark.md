@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 0d2453772c374a74 -->
+<!-- wiki-i18n source: 440dd341e5b80c44 -->
 <!-- wiki-i18n title: Bulwark -->
-# Bulwark {#bulwark}
+# Bulwark
 
 Bulwark는 중장갑을 두른 방어 플랫폼입니다. 매우 공격적이며 한 방이 묵직합니다. Bulwark는 어그로 반경(700유닛) 안에 들어온 보호받지 않는 파일럿을 모두 쫓아갑니다. 파일럿이 1,200유닛 넘게 멀어지거나 Bulwark가 추격을 시작한 지점에서 2,000유닛을 날아가면 추적을 멈춥니다(Bulwark에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(700유닛) 밖에 있을 때마다 Bulwark는 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Bulwark는 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 

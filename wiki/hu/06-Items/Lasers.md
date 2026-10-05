@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64d048fd518e14c -->
+<!-- wiki-i18n source: 3d97a6f4bd324d8d -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -73,8 +73,8 @@ A Gyártás oldal megmutatja, mid van meg ahhoz képest, amit egy recept kér, a
 Honnan jönnek a lemezek:
 
 - A **Velkonite Reinforced Plate**-eket (Quantum Laser 3 és Starfire-3) Velkonite-ércből kovácsolják, a kovácsműhely 1. szintjén lemezenként 40 érc. Az **Orvium Reinforced Plate**-eket (Helios Beam) Orvium-ércből kovácsolják, lemezenként 80 érc.
-- Az ércet csak a Skylabod gyűjtői adják. Egy 5. szintű Velkonite-gyűjtő óránként körülbelül 29 Velkonite-ot bányászik, így egy Quantum Laser 3 lemezei körülbelül 3 óra bányászatba kerülnek, egy Starfire-3 tíz lemeze (kettő a hozzá szükséges Quantum Laser 3-ban, nyolc a saját lépésében) körülbelül 14-be. A Helios Beam a hosszú: a 18 lemezéhez 1 440 Orvium kell, ami egy 5. szintű Orvium-gyűjtőtől körülbelül 4 nap.
-- Az erőforrás-raktár az 1. szinten ércenként 900-at tárol, ezért menet közben kovácsolj (a kovácsműhely adagja az 1. szinten 10 lemez), vagy fejleszd a raktárat.
+- Az ércet csak a Skylabod gyűjtői adják. Egy 5. szintű Velkonite-gyűjtő óránként 18 Velkonite-ot bányászik, így egy Quantum Laser 3 lemezei körülbelül 4 óra bányászatba kerülnek, egy Starfire-3 tíz lemeze (kettő a hozzá szükséges Quantum Laser 3-ban, nyolc a saját lépésében) körülbelül 22-be. A Helios Beam a hosszú: a 18 lemezéhez 1 440 Orvium kell, ami egy 5. szintű Orvium-gyűjtőtől körülbelül 4 nap.
+- Az erőforrás-raktár az 1. szinten ércenként 240-et tárol: 6 Velkonite-lemezt vagy 3 Orvium-lemezt a Kovácsműhely 1. szintjén. Ezért menet közben kovácsolj (a Kovácsműhely adagja az 1. szinten legfeljebb 10 lemez), vagy fejleszd a raktárat.
 - A kovácsolt lemezek a kovácsműhelyben várnak, amíg leszállt hajóval be nem gyűjtöd őket, és közönséges tárgyakként a leltáradba kerülnek.
 
 A Ship Fragmenteket, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull Plate-eket az idegenek dobják; minden nyersanyag minden forrását és felhasználását az [Erőforrások](/wiki/06-Items/Resources.md) oldal tartalmazza; hogy mennyit, azt a [Bulwark](/wiki/04-Aliens/Bulwark.md) és a [Goombah](/wiki/04-Aliens/Goombah.md) oldalának zsákmánylistái mutatják.
@@ -120,7 +120,7 @@ Elhasználódó elemek, amelyek megsokszorozzák a lézersortüzeid sebzését:
 
 A **pajzsáthatolást** a sortüzeid minden találatánál levonják a célpont elnyeléséből: a pajzsok a célpont elnyelésének és az áthatolásnak a különbségét fogják fel (lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)). Egy 80%-os hajóval szemben (a legjobb pajzs a legjobb cellákkal) az x4 lőszer 10%-os áthatolása mellett a pajzsok a találat 70%-át fogják fel, a hajótest 30%-át kapja. A legtöbbet azoknál a hajóknál számít, amelyeknek kicsi a hajótestük a pajzsukhoz képest; egy nagyon nagy, 80%-os hajó így is, úgy is ugyanannyit bír ki. Az idegeneknek nincs említésre méltó elnyelés-értékük (a pajzsuk a találat 80%-át fogja fel), és az áthatolás ebből is levonódik.
 
-### Siphon Battery {#siphon-battery}
+### Siphon Battery
 
 A Siphon Battery pajzslopásra való lőszer, a hajótestek összetörése helyett. **x1 sebzést okoz közvetlenül a célpont pajzsán**, és ugyanennyit ad hozzá a **saját pajzsodhoz**, a maximumodig. A gyorssáv lőszermenüjében választhatod ki, mint bármelyik másik lőszert (ez a kékeszöld örvényes csempe). Nem lő sugarat: egy vékony, halvány kékeszöld szonda indul a célpont felé, a célpont pajzsa kékeszöldben felvillan, ahol az becsapódik, a kiszívott pajzs pedig láthatóan visszaáramlik a hajódra izzó kékeszöld csomagokként (három–tíz, nagyobb szívásnál több), egymás után, körülbelül fél másodperc alatt. Minden megérkező csomag megpulzáltatja a pajzsodat. Ugyanezt látod minden látótérben lévő Siphon Battery esetében is, akárkit szív le: idegeneket, más pilótákat és vállalati pilóták hajóit.
 

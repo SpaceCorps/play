@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Sciame Seeker -->
 # Sciame Seeker {#seeker-swarm}
 
@@ -45,7 +45,7 @@ I valori delle navi dello sciame nei tre mondi ([Mondi](/wiki/05-Swarms/Swarms.m
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Base: Seeker, con il 400% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza.
 
@@ -74,7 +74,7 @@ Base: Seeker, con il 400% di scafo, scudo e danno; velocità e portata sono quel
 | Ultra Core | 100% | 2–4 |
 | Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Base: Seeker, con il 100% di scafo, scudo e danno; velocità e portata sono quelle della nave di partenza.
 

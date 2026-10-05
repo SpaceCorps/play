@@ -2,6 +2,9 @@
 
 Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M-4`, `T-1` to `T-4`, `G-1` to `G-4`). They fly for the company around the clock and give a hand to its pilots.
 
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../img/wiki-img/shots/company.jpg)
+
 ## Who They Are
 
 - **Squad**: 3 pilots per company sector in each world (Alpha, Beta and Gamma have squads of their own), each named with the company's tag and a callsign, e.g. **[M] Vesper**. Their name tags carry a small robot mark and the company's colour.
@@ -10,6 +13,7 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
   - absorbance 45%: their shields take 45% of each hit, the hull 55%
   - 195 base damage per volley (x1 ammo), no critical chance, 700 range
 - **On the minimap**: a green diamond for your company's pilots, an amber one for another company's.
+- **No rank**: the small symbol before a pilot's name in flight is the pilot's [rank](/wiki/03-Mechanics/Ranks.md) and belongs to real pilots. Company pilots have none. The Company page ranks the real pilots of your company, by PvE points.
 
 ## What They Do
 

@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 55131889617bd886 -->
+<!-- wiki-i18n source: ee1ab2403a7af6d8 -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
 **Исследовательский центр** — лаборатория вашего [Skylab](/wiki/03-Mechanics/Skylab.md). Вы подаёте в него ресурсы, он превращает их в **науку**, а наука исследует **технологии**. Любое создание в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) сначала требует своей технологии: корабль, лазер, ускоритель или CPU нельзя создать, пока они не исследованы.
 
 На этой странице собраны полное дерево технологий с временем каждой, наука, которую даёт каждый ресурс, буст Thulium, правило для Dark Matter и новые CPU. Числа читаются из данных самой игры, поэтому всегда совпадают с игровыми.
+
+![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 
 ## Исследовательский центр {#the-research-centre}
 
@@ -47,7 +49,7 @@
 
 ## Топливо {#fuel}
 
-Вы подаёте в центр ресурсы, и каждая единица сразу становится наукой. Чем больше труда стоит добыть единицу, тем больше науки она даёт: числа следуют трудности добычи, а не метке редкости, так что Power Core (Необычный) даёт больше, чем Orvium (Редкий). Руда берётся из Хранилища ресурсов вашего [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage), любой другой ресурс — из вашего инвентаря, и корабль должен стоять на посадке. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, кредиты и Thulium сжечь нельзя; Reinforced Hull Plate — можно.
+Вы подаёте в центр ресурсы, и каждая единица сразу становится наукой. Чем больше труда стоит добыть единицу, тем больше науки она даёт: числа следуют трудности добычи, а не метке редкости. Руды — исключение: единица даёт больше науки, чем число секунд, которое сборщик тратит на её добычу, так что час руды сборщика, находящегося на середине своих уровней, питает примерно два часа исследования. Руды берутся из хранилища ресурсов вашего [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); любой другой ресурс берётся из вашего инвентаря, и корабль должен стоять в отсеке. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, кредиты и Thulium сжечь нельзя; Reinforced Hull Plate можно.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -60,9 +62,9 @@
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Обычный | Ваш инвентарь | 7 | 515 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Обычный | Ваш инвентарь | 8 | 450 |
 | [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Обычный | Ваш инвентарь | 33 | 110 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | Хранилище ресурсов | 40 | 90 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | Хранилище ресурсов | 80 | 45 |
 | [Power Core](/wiki/06-Items/Resources.md#power-core) | Необычный | Ваш инвентарь | 100 | 36 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | Хранилище ресурсов | 210 | 18 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | Хранилище ресурсов | 321 | 12 |
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Ваш инвентарь | 650 | 6 |
 
 В последнем столбце — число единиц, которого хватает на час исследования без буста, с округлением вверх; с бустом нужно в 2 раза больше.
@@ -92,7 +94,7 @@
 
 <!-- research-boost:end -->
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Технологиям на вершине дерева нужна ещё и Dark Matter. Её даёт [чёрная дыра](/wiki/03-Mechanics/Black-Hole.md#dark-matter): ракета N.I.K.E., долетевшая до неё, оставляет немного, а иногда её роняет Dormant Pulse из [Роя Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 
@@ -101,8 +103,9 @@
 
 - **10 Dark Matter** на каждую из 15 технологий в таблице ниже, сверх науки: вложите её в Исследовательский центр (из инвентаря, корабль на посадке) до начала, и исследование заберёт её при старте.
 - **Правило:** предмет редкости Эпический или выше, исследование которого занимает 10 ч или больше. N.I.K.E., с помощью которой добывают Dark Matter, её никогда не требует.
+- **Построения дронов** не подпадают под это правило: каждое исследование построения требует Dark Matter — 5, 13 или 20 в зависимости от силы, как показано в таблице.
 - **Если отменить исследование,** вложенная для него Dark Matter возвращается в центр. Прогресс и уже сожжённая наука — нет.
-- Все вместе они требуют 150 Dark Matter.
+- Все вместе они требуют 339 Dark Matter.
 
 | Технология | Редкость | Время исследования | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -121,12 +124,28 @@
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Легендарный | 1 д | 10 |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | Эпический | 1 д | 10 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | Эпический | 1 д | 10 |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Мифический | 2 д | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Мифический | 2 д | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Мифический | 2 д | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
 
 <!-- research-dark-matter:end -->
 
 ## Дерево технологий {#the-technology-tree}
 
-Каждый блок — это технология: предмет, который она позволяет создать, со временем исследования под названием (часы) и, где нужна Dark Matter, со значком Dark Matter. Стрелка ведёт от технологии к той, которой она нужна, и первой вы исследуете начало стрелки; блок без стрелок можно исследовать сразу. Наведите курсор на блок, чтобы увидеть время исследования, сжигаемую науку и то, что Сборочный цех потом потребует за предмет, а щёлкните, чтобы открыть страницу предмета. Деревья рисуются по данным самой игры.
+Каждый блок — это технология: предмет, который она позволяет создать, со временем исследования под названием (часы) и, где нужна Dark Matter, со значком Dark Matter. Стрелка ведёт от технологии к той, которой она нужна, и первой вы исследуете начало стрелки; блок без стрелок можно исследовать сразу. Наведите курсор на блок, чтобы увидеть время исследования, сжигаемую науку и то, что Сборочный цех потом потребует за предмет, а щёлкните, чтобы открыть страницу предмета. Деревья рисуются по данным самой игры. Два дерева, **Защита** и **Удар и мобильность**, содержат шестнадцать [построений дронов](/wiki/03-Mechanics/Formations.md).
 
 <!-- research-tree:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -224,6 +243,40 @@ Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 ```
 
+### Защита {#tree-defence}
+
+```tree research
+Testudo Formation | formation, epic | craft 7500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Adamant Formation | formation, epic | craft 9000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Rampart Formation | formation, mythical | craft 38500 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Sanctum Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Redoubt Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Cordon Formation | formation, epic | craft 21500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Testudo Formation => Sanctum Formation => Rampart Formation
+Adamant Formation => Redoubt Formation => Cordon Formation
+```
+
+### Удар и мобильность {#tree-strike-mobility}
+
+```tree research
+Bodkin Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Asterism Formation | formation, epic | craft 7000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gemini Formation | formation, mythical | craft 38000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Ballista Formation | formation, epic | craft 24000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Stiletto Formation | formation, mythical | craft 46000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Shrike Formation | formation, epic | craft 8500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Culler Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Auger Formation | formation, epic | craft 20500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Centurion Formation | formation, epic | craft 8000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gyre Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+
+Asterism Formation => Bodkin Formation => Ballista Formation
+Gemini Formation => Stiletto Formation
+Centurion Formation => Shrike Formation => Culler Formation
+Gyre Formation => Auger Formation
+```
+
 
 <!-- research-tree:end -->
 
@@ -271,6 +324,22 @@ Base CPU I => Base CPU II => Jump CPU
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10 ч | 36 000 | – |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1 д | 86 400 | 10 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6 ч | 21 600 | – |
+| [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 ч | 36 000 | 5 |
+| [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Asterism Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 ч | 36 000 | 5 |
+| [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 2 д | 172 800 | 20 |
+| [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 ч | 36 000 | 5 |
+| [Ballista Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Bodkin Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Stiletto Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gemini Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 д | 172 800 | 20 |
+| [Rampart Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 2 д | 172 800 | 20 |
+| [Sanctum Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | C | 10 ч | 36 000 | 5 |
+| [Culler Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Shrike Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Adamant Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Auger Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 д | 86 400 | 13 |
+| [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 ч | 36 000 | 5 |
+| [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 1 д | 86 400 | 13 |
 
 Классы по времени исследования:
 
@@ -278,11 +347,11 @@ Base CPU I => Base CPU II => Jump CPU
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 мин | 5 | 2 ч 30 мин | 9 000 | 0 |
 | B | от 3 ч до 6 ч | 14 | 2 д | 172 800 | 0 |
-| C | 10 ч | 9 | 3 д 18 ч | 324 000 | 60 |
-| D | от 1 д до 2 д | 9 | 10 д | 864 000 | 90 |
-| Все |  | 37 | 15 д 20 ч 30 мин | 1 369 800 | 150 |
+| C | 10 ч | 14 | 5 д 20 ч | 504 000 | 85 |
+| D | от 1 д до 2 д | 20 | 24 д | 2 073 600 | 254 |
+| Все |  | 53 | 31 д 22 ч 30 мин | 2 759 400 | 339 |
 
-Если исследовать одну за другой, всё дерево займёт 15 д 20 ч 30 мин. С бустом, включённым всё время, — 7 д 22 ч 15 мин; для этого нужно бустов: 8, Thulium: 40 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 31 д 22 ч 30 мин. С бустом, включённым всё время, — 15 д 23 ч 15 мин; для этого нужно бустов: 16, Thulium: 80 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 
@@ -305,13 +374,13 @@ Base CPU I => Base CPU II => Jump CPU
 
 Ни один не продаётся в магазине: исследуйте технологию, затем создайте CPU в Сборочном цехе. Наведите курсор на CPU в его дереве, чтобы увидеть, что для него требует Сборочный цех.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **Что они делают.** Extra Slots CPU I, II и III добавляют каждому кораблю слоты устройств: 3, 5 и 7; вместе с 3 слотами, которые уже есть у каждого корабля, всего получается 6, 8 и 10. Более высокий CPU заменяет предыдущий: II не прибавляется к I.
+- **Что они делают.** Extra Slots CPU I, II и III добавляют каждому кораблю слоты устройств: 3, 5 и 7; всего получается 6, 8 и 10 у корабля, у которого уже есть 3, и 5, 7 и 9 у корабля, у которого уже есть 2. Более высокий CPU заменяет предыдущий: II не прибавляется к I.
 - **Устанавливается, а не носится.** Extra Slots CPU — не предмет: когда вы забираете его в Сборочном цехе, он устанавливается в ваш Skylab, действует на каждый корабль в обеих конфигурациях и не занимает слот. Остаётся после вайпа.
 - **По порядку.** Создавайте их один за другим: II — только когда установлен I, III — только когда установлен II; до тех пор Сборочный цех подскажет, какой установить сначала. Все три стоят 117 000 Thulium: 12 000, 30 000 и 75 000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **Что делает.** Прыгает на вашем корабле в любой корпоративный сектор вашего мира — и вашей корпорации, и других, включая их домашние секторы (`M`, `T` и `G`, секторы с 1 по 4) — за **500 Thulium** за прыжок. Число использований не ограничено: платите только Thulium. В Опасный сектор (`DS`) и в нейтральный сектор (`N`) не ведёт никогда.
 - **Прыжок.** Нажмите слот JMP, выберите сектор на карте «Звёздная система» и подтвердите: корабль заряжается 5 с, затем прибывает к вратам этого сектора под защитой, как после любого прыжка через врата. После прибытия CPU остывает 30 с.
@@ -319,7 +388,7 @@ Base CPU I => Base CPU II => Jump CPU
 - **Не из нейтрального сектора:** пилот в нейтральном секторе или без корпорации не может пользоваться им.
 - Он может вывести из Опасного сектора, если вы не в бою.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **Что делают.** Телепортируют ваш корабль на базу вашей корпорации, в безопасную зону вокруг её станции (`M-1`, `T-1` или `G-1`, сектор с Mission Control) без затрат Thulium. Запускаются со слота BSE на панели.
 - **Не в бою.** Зарядка — 10 с, одинаковая для обоих. Нельзя начать в течение 10 с после выстрела или попадания, в маскировке или когда вы уже в безопасной зоне своей базы, а выстрел или попадание во время зарядки её отменяют.
@@ -331,7 +400,7 @@ Base CPU I => Base CPU II => Jump CPU
 
 - **Расходуется, не перезаряжается.** Каждое использование тратит одно из использований CPU, а CPU без использований исчезает: создайте новый. Если установлены оба, первым расходуется лучший (II).
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **Что делает.** Сам выпускает Repair Drone, установленный в ваших слотах устройств, всякий раз, когда вы могли бы выпустить его вручную: корпус не полон, дрон ещё не выпущен и с последнего попадания прошло 10 с. Порог корпуса настраивать не нужно.
 - Занимает собственный слот устройств и ничего не делает без Repair Drone в слоте устройств той же конфигурации. Repair Drone из слота способностей он никогда не выпускает (это кнопка Emergency Repair).

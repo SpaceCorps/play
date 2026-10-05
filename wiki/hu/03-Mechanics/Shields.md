@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -13,13 +13,15 @@ A hajód végső pajzsparaméterei a következőképpen alakulnak:
 
 ### 1. Foglalathatékonyság és csökkenő hozadék {#1-slot-efficiency-diminishing-returns}
 
-A hajtóművekhez hasonlóan a felszerelt pajzsok (és hibridgenerátorok) kapacitás szerint vannak sorba rendezve, és rájuk a foglalathatékonyság (magfoglalat: 100%, támogató foglalat: 75%, segédfoglalat: 50%, a drón foglalata: 100%, mint egy magfoglalat), valamint a sorrendjükön alapuló csökkenő hozadék görbéje vonatkozik. A [drónjaid](/wiki/03-Mechanics/Drones.md) egyikén lévő pajzs a hajó saját pajzsaival együtt kerül sorba:
+A hajtóművekhez hasonlóan a felszerelt pajzsok (és hibridgenerátorok) a legjobbtól kezdve vannak sorba rendezve, és rájuk a foglalathatékonyság (magfoglalat: 100%, támogató foglalat: 75%, segédfoglalat: 50%, a drón foglalata: 100%, mint egy magfoglalat), valamint a sorrendjükön alapuló csökkenő hozadék görbéje vonatkozik. Egy pajzsot az alapján rangsorolnak, hogy mi számít belőle: a kapacitása szorozva a foglalata részesedésével. A töltődésnek saját sorrendje van (az értéke szorozva a foglalat részesedésével), és a **négy legjobb** pajzsbónusz számít. A [drónjaid](/wiki/03-Mechanics/Drones.md) egyikén lévő pajzs a hajó saját pajzsaival együtt kerül sorba:
 
 - **1–4. pajzs**: **100%** (1,0) határhatékonyság.
 - **5. pajzs**: **85%** (0,85) határhatékonyság.
 - **6. pajzs**: **70%** (0,70) határhatékonyság.
 - **7. pajzs**: **55%** (0,55) határhatékonyság.
 - **8. és a további**: **50%** (0,50) határhatékonyság. (A 0.4.7-es verzióig ez 25% volt, mint a hajtóműveknél; a hajtóművek továbbra is 25%-ot kapnak, lásd: [Sebesség](/wiki/03-Mechanics/Speed.md).)
+
+**A több felszerelés sosem csökkenti a pajzsodat.** Egy pajzs vagy pajzscella hozzáadása sosem csökkenti a pajzskapacitásodat vagy a töltődésedet: minden szám a legjobbtól kezdve van sorba rendezve aszerint, hogy mi számít, így az új darab azt a helyet foglalja el, amelyet megérdemel. Az elnyelés a pajzsaid átlaga, ezért azt egy új, az átlagodnál gyengébb pajzs csökkenti; egy cella soha.
 
 **A hangár megmutatja.** Az a pajzs, hajtómű vagy adaptív mag, amely nem a teljes erejével számít, kis százalékot visel a foglalatán (például `64%`: az 5. pajzs 85%-kal, támogató foglalatban, 75%-kal), és ráhúzva a kurzort megjelenik a részletezés. Ha a harci statisztikák Pajzsok és Sebesség csempéire viszed a kurzort, rang szerint látod a tárgyaidat, és azt, hogy egy újabb mennyit számítana. A repülés közbeni Hajó ablak ugyanezeket a listákat mutatja, ha a pajzssávjára és a sebességére viszed a kurzort.
 
@@ -68,4 +70,4 @@ A számokat lásd: [Boosterek](/wiki/06-Items/Boosters.md).
 A pajzsok idővel passzívan regenerálódnak, hogy harcra készen tartsanak.
 
 - **Regenerációs ütem**: ha a pajzsok a maximális kapacitás alatt vannak, másodpercenként a töltődési sebességednek megfelelő pajzspontot állítanak vissza.
-- **Megszakítás harcban (15 mp késleltetés)**: a regeneráció leáll, ha sebzést kapsz, és csak **15 másodpercnyi** sebzésmentesség után indul újra.
+- **Megszakítás harcban (15 mp késleltetés)**: a regeneráció leáll, ha sebzést kapsz, és csak **15 másodpercnyi** sebzésmentesség után indul újra. Az Adamant és a Redoubt drónformáció ([Drónformációk](/wiki/03-Mechanics/Formations.md)) kivétel: másodpercenként pajzsot ad vissza, harcban is.

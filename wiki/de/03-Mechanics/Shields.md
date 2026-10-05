@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -13,13 +13,15 @@ Die endgültigen Schildwerte deines Schiffs werden so berechnet:
 
 ### 1. Slot-Wirkungsgrad & abnehmender Ertrag {#1-slot-efficiency-diminishing-returns}
 
-Ähnlich wie bei Triebwerken werden ausgerüstete Schilde (und Hybridgeneratoren) nach Kapazität sortiert und dem Wirkungsgrad ihres Slots (Kern: 100 %, Support: 75 %, Hilfs: 50 %, der Slot einer Drohne: 100 %, wie ein Kern-Slot) sowie einer Kurve des abnehmenden Ertrags nach ihrem Rang unterworfen. Ein Schild auf einer deiner [Drohnen](/wiki/03-Mechanics/Drones.md) wird mit den eigenen Schilden des Schiffs eingereiht:
+Ähnlich wie bei Triebwerken werden ausgerüstete Schilde (und Hybridgeneratoren) mit den besten zuerst gereiht und dem Wirkungsgrad ihres Slots (Kern: 100 %, Support: 75 %, Hilfs: 50 %, der Slot einer Drohne: 100 %, wie ein Kern-Slot) sowie einer Kurve des abnehmenden Ertrags nach ihrem Rang unterworfen. Ein Schild wird nach dem gereiht, was von ihm zählt: seine Kapazität mal der Anteil seines Slots. Die Aufladung hat ihre eigene Reihenfolge (ihr Wert mal der Anteil des Slots), und die **vier besten** Schildboni zählen. Ein Schild auf einer deiner [Drohnen](/wiki/03-Mechanics/Drones.md) wird mit den eigenen Schilden des Schiffs eingereiht:
 
 - **1. bis 4. Schild**: **100 %** (1,0) Grenzeffizienz.
 - **5. Schild**: **85 %** (0,85) Grenzeffizienz.
 - **6. Schild**: **70 %** (0,70) Grenzeffizienz.
 - **7. Schild**: **55 %** (0,55) Grenzeffizienz.
 - **Ab dem 8. Schild**: **50 %** (0,50) Grenzeffizienz. (Bis Version 0.4.7 waren es 25 %, wie bei den Triebwerken; Triebwerke behalten 25 %, siehe [Tempo](/wiki/03-Mechanics/Speed.md).)
+
+**Mehr Ausrüstung senkt deinen Schild nie.** Ein Schild oder eine Schildzelle, die du hinzufügst, senkt nie deine Schildkapazität oder deine Aufladung: Jede Zahl wird mit dem Besten zuerst gereiht, nach dem, was zählt, also nimmt ein neues Teil den Platz ein, den es verdient. Die Absorption ist der Durchschnitt deiner Schilde, daher senkt sie ein neuer Schild, der schwächer ist als dein Durchschnitt; eine Zelle nie.
 
 **Der Hangar zeigt es.** Ein Schild, ein Triebwerk oder ein Adaptiver Kern, der nicht mit seiner vollen Stärke zählt, trägt auf seinem Slot eine kleine Prozentangabe (zum Beispiel `64%`: das 5. Schild mit 85 % in einem Support-Slot mit 75 %); beim Darüberfahren siehst du die Aufschlüsselung. Fährst du über die Kacheln Schilde und Tempo der Kampfwerte, siehst du deine Gegenstände nach Rang und was ein weiterer zählen würde. Das Fenster Schiff im Flug zeigt dieselben Listen, wenn du über seine Schildleiste und das Tempo fährst.
 
@@ -68,4 +70,4 @@ Die Zahlen stehen unter [Booster](/wiki/06-Items/Boosters.md).
 Schilde regenerieren sich mit der Zeit passiv, damit du kampfbereit bleibst.
 
 - **Regenerationsschritt**: Liegen die Schilde unter der maximalen Kapazität, stellen sie pro Sekunde so viele Schildpunkte wieder her, wie deine Aufladerate beträgt.
-- **Kampfunterbrechung (15 s Verzögerung)**: Die Regeneration endet, sobald du Schaden nimmst, und setzt erst nach **15 Sekunden** ohne Schaden wieder ein.
+- **Kampfunterbrechung (15 s Verzögerung)**: Die Regeneration endet, sobald du Schaden nimmst, und setzt erst nach **15 Sekunden** ohne Schaden wieder ein. Die Drohnenformationen Adamant und Redoubt ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)) sind die Ausnahme: Sie geben jede Sekunde Schild zurück, auch im Kampf.

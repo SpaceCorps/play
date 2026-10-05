@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2b63df451b6a864e -->
+<!-- wiki-i18n source: 1855960bc32d6626 -->
 <!-- wiki-i18n title: Extras -->
-# Extras {#extras}
+# Extras
 
-Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (drei auf jedem Schiff, pro Konfiguration, und mehr mit den Extra Slots CPUs). Du schaltest eines über die Extras-Auswahl der Aktionsleiste ein oder über einen Slot der Aktionsleiste, dem du es zugewiesen hast. Sie wirken nur in der Konfiguration, die du fliegst: Setzt du eines in die andere Konfiguration ein, wartet es, bis du wechselst.
+Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (zwei auf Protos, Kitefin, Ostirion und Nomad, den Schiffen, mit denen du startest oder die du kaufst, und drei auf Paragon, Ironclad, Wraith und Storm, den Schiffen, die du baust, pro Konfiguration, und 3, 5 oder 7 mehr mit den Extra Slots CPUs). Du schaltest eines über die Extras-Auswahl der Aktionsleiste ein oder über einen Slot der Aktionsleiste, dem du es zugewiesen hast. Sie wirken nur in der Konfiguration, die du fliegst: Setzt du eines in die andere Konfiguration ein, wartet es, bis du wechselst.
 
 | Extra | Wirkung | Nutzungen | Preis |
 | :---- | :------ | :-------- | :---- |
@@ -14,9 +14,14 @@ Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (drei auf jedem Sch
 
 Die Cloaking CPUs und die EMP Charge gibt es nur im Shop. Sie lassen sich nicht zusammenführen, und nichts verschenkt sie.
 
-Sieben weitere CPUs werden nicht verkauft: Die Montage stellt sie her, sobald das Forschungszentrum des Skylab sie erforscht hat (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Es sind die Extra Slots CPU I, II und III, die Jump CPU, die Base CPU I und II und die Auto-Repair CPU, und [der letzte Abschnitt](#research-cpus) sagt, was jede tut. Wie die Cloaking CPU sind die Jump CPU und die Base CPUs etwas für einen ruhigen Moment: Keine der drei startet innerhalb von 10 Sekunden nach einem Schuss, den du abgibst, oder einem Treffer, den du einsteckst.
+Das **Startpaket** eines neuen Piloten legt schon zwei Extras in die beiden Extra-Slots der Protos: eine **Base CPU I** (10 Nutzungen, ein Teleport zur Basis deines Konzerns) und eine **Repair Drone I**. Ziehe sie aus der Extras-Auswahl der Aktionsleiste auf einen Slot, um sie zu benutzen. Nur neue Piloten bekommen das Paket: Wer sich vor 0.4.10 angemeldet hat, hat es nicht.
+
+Sieben weitere CPUs werden nicht verkauft: Die Montage stellt sie her, sobald das Forschungszentrum des Skylab sie erforscht hat (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Es sind die Extra Slots CPU I, II und III, die Jump CPU, die Base CPU I und II und die Auto-Repair CPU, und [der letzte Abschnitt](#research-cpus) sagt, was jede tut. Wie die Cloaking CPU sind die Jump CPU und die Base CPUs etwas für einen ruhigen Moment: Keine der drei startet innerhalb von 10 Sekunden nach einem Schuss, den du abgibst, oder einem Treffer, den du einsteckst. Die beiden Warp-CPUs, die Jump CPU und die Base CPUs, werden außerdem verweigert, solange du einen Missionsgegenstand trägst („Mit einem Missionsgegenstand an Bord kannst du keine Warp-CPU benutzen.“): siehe [Missionsgegenstände](/wiki/03-Mechanics/Quests.md#quest-items).
 
 Auf jedem Extra steht ein kurzes Kürzel auf seinem Slot der Aktionsleiste: **REP** für eine Repair Drone, **CLK** für eine Cloaking CPU, **EMP** für die EMP Charge und **ARP**, **BSE** und **JMP** für die Auto-Repair, die Base und die Jump CPU. Die Extra Slots CPUs haben keinen Slot: Sie werden in deinem Skylab installiert. Zeige auf einen Slot, um zu lesen, was ein Druck gerade bewirkt oder warum er nichts bewirkt.
+
+![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -49,11 +54,11 @@ Base CPU I -> Base CPU II
 ```
 <!-- item-tree:end -->
 
-## Repair Drones {#repair-drones}
+## Repair Drones
 
-Schalte eine Repair Drone ein (REP), und sie repariert die Hülle, bis sie voll ist. Sie startet erst nach 10 Sekunden ohne Treffer, und jeder Treffer schaltet sie wieder aus. Sind mehrere ausgerüstet, arbeitet die beste. Eine [Auto-Repair CPU](#auto-repair-cpu) schaltet sie dir wieder ein. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md).
+Schalte eine Repair Drone ein (REP), und sie repariert die Hülle, bis sie voll ist. Sie startet erst nach 10 Sekunden ohne Treffer, und jeder Treffer schaltet sie wieder aus. Sind mehrere ausgerüstet, arbeitet die beste. Eine [Auto-Repair CPU](#auto-repair-cpu) schaltet sie dir wieder ein. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md). Während sie repariert, fliegen kleine Reparaturdrohnen aus dem Schiff, kreisen um es und bestrahlen die Hülle, eine für eine Repair Drone I, zwei für eine II, drei für eine III oder IV, und die Piloten in deiner Nähe sehen sie; wenn die Reparatur endet, docken sie wieder an.
 
-## Cloaking CPU {#cloaking-cpu}
+## Cloaking CPU
 
 Drücke den CLK-Slot, um dich zu tarnen. **Ein Druck ist eine Nutzung**, egal welches Paket, und die übrigen Nutzungen siehst du am Slot und im Hangar. Eine Tarnung hat **kein Zeitlimit**: Sie bleibt an, bis du sie ausschaltest oder etwas sie unterbricht.
 
@@ -72,7 +77,7 @@ Drücke den CLK-Slot, um dich zu tarnen. **Ein Druck ist eine Nutzung**, egal we
 
 S, M und L verhalten sich gleich: Die größeren Pakete sind nur pro Nutzung günstiger (500, 450 und 400 Thulium).
 
-## EMP Charge {#emp-charge}
+## EMP Charge
 
 Drücke den EMP-Slot im Kampf. **3 Sekunden** lang kann dich niemand anvisieren, und **jeder, der dich anvisiert hatte, verliert die Zielerfassung** sofort, wo auch immer er ist: Piloten, Aliens und Konzernpiloten. Einem Piloten, dessen Zielerfassung abbricht, wird „Zielerfassung verloren: Das Ziel hat einen EMP eingesetzt“ gemeldet. Wer in diesen 3 Sekunden versucht, dich anzuvisieren, wird abgewiesen.
 
@@ -102,13 +107,13 @@ Drücke den EMP-Slot im Kampf. **3 Sekunden** lang kann dich niemand anvisieren,
 
 Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU dann in der Montage her. Zeige im Baum auf eine CPU, um zu sehen, was die Montage dafür verlangt.
 
-### Extra Slots CPUs {#extra-slots-cpus}
+### Extra Slots CPUs
 
-- **Was sie tun.** Extra Slots CPU I, II und III geben jedem Schiff 3, 5 und 7 Extra-Slots mehr, also 6, 8 und 10 insgesamt mit den 3, die jedes Schiff hat. Eine höhere CPU ersetzt die vorige: II kommt nicht zu I dazu.
+- **Was sie tun.** Extra Slots CPU I, II und III geben jedem Schiff 3, 5 und 7 Extra-Slots mehr, also 6, 8 und 10 insgesamt bei einem Schiff mit 3 eigenen und 5, 7 und 9 bei einem mit 2. Eine höhere CPU ersetzt die vorige: II kommt nicht zu I dazu.
 - **Installiert, nicht getragen.** Eine Extra Slots CPU ist kein Gegenstand: Holst du sie in der Montage ab, installiert sie sich in deinem Skylab, für jedes Schiff in beiden Konfigurationen, und sie belegt keinen Slot. Sie bleibt über den Wipe erhalten.
 - **In Reihenfolge.** Stelle sie nacheinander her: II erst, wenn I installiert ist, III erst, wenn II installiert ist; bis dahin sagt dir die Montage, welche du zuerst installieren musst. Die drei kosten zusammen 117.000 Thulium: 12.000, 30.000 und 75.000.
 
-### Jump CPU {#jump-cpu}
+### Jump CPU
 
 - **Was sie tut.** Sie springt mit deinem Schiff in jeden Konzern-Sektor deiner Welt, den deines eigenen Konzerns wie die der anderen, deren Heimatsektoren eingeschlossen (`M`, `T` und `G`, Sektoren 1 bis 4), für **500 Thulium** pro Sprung. Sie hat keine Nutzungsgrenze: Du zahlst nur das Thulium. Sie führt nie in einen Gefahrensektor (`DS`) oder einen neutralen Sektor (`N`).
 - **Der Sprung.** Drücke den Slot JMP, wähle den Sektor auf der Karte Sternensystem und bestätige: Das Schiff lädt 5 Sekunden lang auf und kommt dann an einem Tor dieses Sektors an, geschützt wie nach jedem Torsprung. Nach der Ankunft kühlt die CPU 30 Sekunden lang ab.
@@ -116,7 +121,7 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 - **Nicht aus einem neutralen Sektor:** Ein Pilot in einem neutralen Sektor oder ohne Konzern kann sie nicht benutzen.
 - Sie darf einen Gefahrensektor verlassen, wenn du nicht im Kampf bist.
 
-### Base CPUs {#base-cpus}
+### Base CPUs
 
 - **Was sie tun.** Sie teleportieren dein Schiff zur Basis deines Konzerns, in die Schutzzone um die Station (`M-1`, `T-1` oder `G-1`, der Sektor mit Mission Control), ohne Thulium-Kosten. Du startest sie über den Slot BSE der Aktionsleiste.
 - **Nicht im Kampf.** Eine Aufladung von 10 Sekunden, für beide gleich. Sie startet nicht innerhalb von 10 Sekunden nach einem Schuss oder Treffer, nicht getarnt und nicht, wenn du schon in der Schutzzone deiner Basis bist, und ein Schuss oder Treffer beim Aufladen bricht sie ab.
@@ -128,7 +133,7 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 
 - **Verbraucht, nicht aufgeladen.** Jede Nutzung nimmt der CPU eine ihrer Nutzungen, und eine CPU ohne verbleibende Nutzungen ist weg: Stelle eine neue her. Sind beide eingebaut, wird die bessere (II) zuerst verbraucht.
 
-### Auto-Repair CPU {#auto-repair-cpu}
+### Auto-Repair CPU
 
 - **Was sie tut.** Sie schickt die Repair Drone aus deinen Extra-Slots von allein los, sobald du sie auch von Hand hättest losschicken können: Deine Hülle ist nicht voll, die Drohne ist nicht schon draußen und seit dem letzten Treffer sind 10 Sekunden vergangen. Eine Hüllengrenze musst du nicht einstellen.
 - Sie belegt einen eigenen Extra-Slot und tut nichts ohne eine Repair Drone in einem Extra-Slot derselben Konfiguration. Eine Repair Drone in einem Fähigkeits-Slot schickt sie nie los (das ist die Schaltfläche Emergency Repair).

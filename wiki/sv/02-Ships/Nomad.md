@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: c933b6ff218e0dd6 -->
+<!-- wiki-i18n source: a69782bc2215e128 -->
 <!-- wiki-i18n title: Nomad -->
-# Nomad {#nomad}
+# Nomad
 
 Nomad är en kryssare med dubbelt så stort skrov och dubbelt så många kanoner som en Ostirion: ett hammarhuvud mellan Ostirion och Paragon, som köps i butiken med krediter och Thulium tillsammans. Alla piloter får köpa den.
 
@@ -9,7 +9,7 @@ Nomad är en kryssare med dubbelt så stort skrov och dubbelt så många kanoner
 - **Träffpoäng (HP)**: 96 000
 - **Grundhastighet**: 200
 - **Laserplatser**: 6
-- **Extraplatser**: 3
+- **Extraplatser**: 2
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -30,7 +30,7 @@ Nomad är en kryssare med dubbelt så stort skrov och dubbelt så många kanoner
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Ingen forskning behövs.** Det här skeppet har ingen egen teknologi.
-- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 6, 8 och 10 sammanlagt med de 3 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **Fler extraplatser.** Extra Slots CPU I, II och III, installerade i din Skylab, ger det här skeppet 3, 5 och 7 extraplatser till: 5, 7 och 9 sammanlagt med de 2 det redan har. Du forskar fram och tillverkar dem som vilket annat föremål som helst: se [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

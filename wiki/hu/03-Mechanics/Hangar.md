@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: d888495e0809faa2 -->
+<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
 A hajód cseréjéhez nem kell visszatérned a bázisra. Biztonságos zónán belülről megnyithatod a **hangár** ablakot (a bal felső eszköztár raktár ikonú gombja), és megváltoztathatod, mi van felszerelve, átválthatsz a másik konfigurációra, vagy repülhetsz egy másik hajóval, amely a tiéd, a játék elhagyása nélkül. Az ablak az állomás hangár oldala, ugyanazokkal a foglalatokkal, értékekkel és leltárral, egy ablakban a játék fölött. A tárgyak illeszkedéséről lásd: [Leltár és felszerelés](/wiki/03-Mechanics/Inventory.md).
+
+![The Hangar window in flight, opened at the station on its Drones view: the drones, the list of drone formations and the inventory](../../img/wiki-img/shots/hangar-window.jpg)
 
 ## Mikor nyitott {#when-it-is-open}
 
@@ -20,6 +22,8 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 - **Bármelyik konfiguráció.** Előkészítheted a Konfig 2-t, miközben a Konfig 1-gyel repülsz, aztán átválthatsz a **Konfigváltás** billentyűvel. A hangár **Repülés: Konfig** gombja ugyanezt a váltást végzi.
 - **Bármelyik hajó.** Állíts be egy másik hajót aktívnak, és onnan repülsz vele, ahol vagy. A hajód modellje megváltozik a közelben lévők előtt.
 - **Egy új pajzs, hajtómű vagy adaptív mag üresen indul**, mint az állomáson: a konfigurációjának pajzstöltése üres, amíg újra nem töltődik.
+- **Drónformációk.** A Drónok nézet a drónjaid alatt felsorolja a formációkat, amelyek a tieid. Nem kell őket felszerelni: repülés közben húzol egyet a gyorssáv Formációk listájából egy helyre, és a hely kattintása vagy billentyűje viseli, biztonságos zónában várakozás nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
+- **Extrák.** A négy átlagos hajónak, a Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak (azoknak, amelyekkel kezdesz vagy amelyeket megveszel) konfigurációnként 2 extrafoglalata van; a négy hajónak, amelyet a Gyártásban készítesz, a Paragonnak, az Ironcladnek, a Wraithnek és a Stormnak, 3. A Skylabod Extra Slots CPU-i 3, 5 vagy 7 foglalatot adnak még hozzá: 5, 7 vagy 9 az átlagos hajóknál és 6, 8 vagy 10 a gyártottaknál ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)). A 0.4.10-zel egy átlagos hajó harmadik extráját leszerelték, és a leltáradba került: semmi sem törlődött, és egy csevegőüzenetet kaptál.
 
 ## Hajócsere {#changing-ship}
 

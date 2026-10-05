@@ -5,7 +5,7 @@ Defensive modules provide shield capacity, absorb damage, and recharge your defe
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
 
-## Item tree {#item-tree}
+## Item tree
 
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 

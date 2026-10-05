@@ -1,8 +1,27 @@
-<!-- wiki-i18n source: 885da8b1fe8a0f3a -->
+<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
 Die Weltraumkarte ist deine Navigationsoberfläche für die Reise durch das SpaceCorps-Universum. Jeder Konzern kontrolliert einen Teil des Weltraums, angeordnet in einer bestimmten Topologie, die sowohl sichere Erkundung als auch gefährliche PvP-Begegnungen ermöglicht.
+
+![Galaxy Gates](../../img/wiki-img/shots/gates.jpg)
+![Sector DS-1 as the game draws it](../../img/wiki-img/shots/sector-DS-1.jpg)
+![Sector DS-2 as the game draws it](../../img/wiki-img/shots/sector-DS-2.jpg)
+![Sector DS-3 as the game draws it](../../img/wiki-img/shots/sector-DS-3.jpg)
+![Sector DS-4 as the game draws it](../../img/wiki-img/shots/sector-DS-4.jpg)
+![Sector G-1 as the game draws it](../../img/wiki-img/shots/sector-G-1.jpg)
+![Sector G-2 as the game draws it](../../img/wiki-img/shots/sector-G-2.jpg)
+![Sector G-3 as the game draws it](../../img/wiki-img/shots/sector-G-3.jpg)
+![Sector G-4 as the game draws it](../../img/wiki-img/shots/sector-G-4.jpg)
+![Sector M-1 as the game draws it](../../img/wiki-img/shots/sector-M-1.jpg)
+![Sector M-2 as the game draws it](../../img/wiki-img/shots/sector-M-2.jpg)
+![Sector M-3 as the game draws it](../../img/wiki-img/shots/sector-M-3.jpg)
+![Sector M-4 as the game draws it](../../img/wiki-img/shots/sector-M-4.jpg)
+![Sector T-1 as the game draws it](../../img/wiki-img/shots/sector-T-1.jpg)
+![Sector T-2 as the game draws it](../../img/wiki-img/shots/sector-T-2.jpg)
+![Sector T-3 as the game draws it](../../img/wiki-img/shots/sector-T-3.jpg)
+![Sector T-4 as the game draws it](../../img/wiki-img/shots/sector-T-4.jpg)
+![The Star System map: the sectors, the PvP sectors, the gates and the company routes, with the portal ring that joins each company's x-4 sector to the next company's x-3 sector](../../img/wiki-img/shots/star-system.jpg)
 
 ## Der Aufbau des Universums {#the-universe-structure}
 
@@ -10,7 +29,7 @@ Das Universum besteht aus den drei großen Konzernsektoren (Mars, Terra, Galacti
 
 - **x-1 (Heimatbasis)**: Die Startkarte jedes Konzerns (M-1, T-1, G-1). Die sicherste Zone.
 - **x-2 -> x-3**: Expansionszonen mit immer stärkeren Aliens.
-- **x-4 (Grenze)**: Das Tor zum PvP-Sektor.
+- **x-4 (Grenze)**: Das Tor zum PvP-Sektor und zu `x-3` eines anderen Konzerns (der Ring, siehe unten).
 - **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4.
 
 Nur die Heimatbasen haben eine Station. Dort öffnet sich **Mission Control**, und ihre Schutzzone reicht 1.600 Einheiten weit um sie herum. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu deiner Basis.
@@ -52,10 +71,16 @@ Auf der Weltraumkarte reist du über **Sprungtore** (Portale). Die [Jump CPU](/w
   - `M-4` ist mit `DS-1` verbunden
   - `T-4` ist mit `DS-2` verbunden
   - `G-4` ist mit `DS-3` verbunden
-- **Invasionsrouten (Reisen zwischen Konzernen)**: Um durch die Tore in das Gebiet eines feindlichen Konzerns zu gelangen, musst du die PvP-Zone durchqueren. Ein Mars-Pilot, der in Terra einfallen will, muss zum Beispiel von `M-4` in den Gefahrensektor `DS-1` fliegen, durch das Sprungtor nach `DS-2` wechseln und dann über `T-4` in den Terra-Raum eindringen; um Galactic zu erreichen, wechselt er durch das Sprungtor nach `DS-3` und dringt über `G-4` ein.
+- **Der Ring**: Die Grenzkarte (`x-4`) jedes Konzerns hat ein weiteres Tor, und zwar zu `x-3` des **nächsten Konzerns**; jedes `x-3` hat das Tor zurück. Die drei Verbindungen bilden einen Ring um die Gefahrensektoren, sodass jeder Konzern einen Weg hinaus und einen Weg hinein hat:
+  - `M-4` ist mit Terras `T-3` verbunden
+  - `T-4` ist mit Galactics `G-3` verbunden
+  - `G-4` ist mit Mars’ `M-3` verbunden
+
+  Der Ring steht jedem Piloten offen, für welchen Konzern er auch fliegt: Er ist ein zweiter Reiseweg zwischen den Karten der Konzerne, der die PvP-Zone nicht durchquert. Ein Ringtor steht in einer eigenen Ecke, abseits der anderen Tore seiner Karte, mit der üblichen Schutzzone von 660 Einheiten um sich, und der Sprung funktioniert wie an jedem Tor. Wo du auf der anderen Seite angegriffen werden darfst, hängt wie überall von deiner Welt ab: In Alpha ist `T-3` kein PvP-Sektor, `T-4` aber schon, in Beta sind es beide, in Gamma jeder Sektor.
+- **Invasionsrouten (Reisen zwischen Konzernen)**: Es gibt zwei Wege durch die Tore in das Gebiet eines anderen Konzerns. Der kurze ist der Ring: Ein Mars-Pilot fliegt von `M-4` durch das Ringtor in Terras `T-3` (drei Sprünge von der Mars-Basis aus, `M-1` → `M-2` → `M-4` → `T-3`) und weiter nach `T-4` oder `T-2`; Galactics `G-4` führt ebenso in Mars’ `M-3` und Terras `T-4` in Galactics `G-3`. Der lange Weg durchquert die PvP-Zone: von `M-4` in den Gefahrensektor `DS-1`, durch das Sprungtor nach `DS-2` und über `T-4` in den Terra-Raum; um Galactic zu erreichen, wechselt man durch das Sprungtor nach `DS-3` und dringt über `G-4` ein.
 - **Das Gefahrensektor-Dreieck**: `DS-1`, `DS-2` und `DS-3` sind alle miteinander verbunden. Jeder von ihnen hat das Tor eines Konzerns (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` hat keines.
 - **Das Zentrum**: Alle drei äußeren Gefahrensektoren (`DS-1`, `DS-2` und `DS-3`) sind direkt mit der Zentralkarte **`DS-4`** verbunden, der gefährlichsten und lohnendsten PvP-Zone des Universums. Genau in ihrer Mitte hängt ein **Schwarzes Loch**: Die Portale und die Flugrouten zwischen ihnen halten großen Abstand, doch ein Schiff, das hineinfliegt, spürt erst seine Strahlung, dann seinen Sog und wird an seinem Ereignishorizont zerstört. Siehe [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md).
 
 ### Die Jump CPU {#the-jump-cpu}
 
-Die [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) bringt dein Schiff ohne Tor in jeden Konzern-Sektor deiner Welt, für 500 Thulium pro Sprung, auch in die Heimatsektoren der Feinde. Sie führt nie in einen Gefahrensektor, startet nicht im Kampf, und du erforschst sie zuerst im Forschungszentrum des Skylab ([Forschung](/wiki/03-Mechanics/Research.md)). Die [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) bringen dich auf dieselbe Weise nach Hause.
+Die [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) bringt dein Schiff ohne Tor in jeden Konzern-Sektor deiner Welt, für 500 Thulium pro Sprung, auch in die Heimatsektoren der Feinde. Sie führt nie in einen Gefahrensektor, startet nicht im Kampf, und du erforschst sie zuerst im Forschungszentrum des Skylab ([Forschung](/wiki/03-Mechanics/Research.md)). Die [Base CPUs](/wiki/06-Items/Extras.md#base-cpus) bringen dich auf dieselbe Weise nach Hause. Eine Warp-CPU, also die Jump CPU oder eine Base CPU, wird verweigert, solange du einen Missionsgegenstand trägst („Mit einem Missionsgegenstand an Bord kannst du keine Warp-CPU benutzen.“): Fliege durch die Tore nach Hause ([Missionsgegenstände](/wiki/03-Mechanics/Quests.md#quest-items)).

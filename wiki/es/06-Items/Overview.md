@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: Resumen -->
 # Resumen de objetos {#items-overview}
 
@@ -45,7 +45,7 @@ Los mejores amplificadores láser, los niveles II a IV de las células de escudo
 
 De media, un Goombah suelta 4 Cataclysite, 3,25 Ship Fragments, 0,6 Reinforced Hull Plates y 0,25 Power Cores, así que el botín de un Nova Amp o de un Apex Amp requiere unos 8 Goombahs, el de una célula unos 7 (nivel II), 10 (III) o 14 (IV) y el de un Heavy Shield Core unos 14; el de un propulsor unos 4 (nivel II), 10 (III) o 19 (IV) y el de un Engine III unos 19. Un Bulwark suelta 2 Cataclysite, 2 Ship Fragments y 0,3 Reinforced Hull Plates, pero ningún Power Core.
 
-Las Velkonite Reinforced Plates no caen como botín: la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md) las fabrica a partir de mineral de Velkonite, 40 de mineral por placa con la Forja del Skylab en nivel 1. Un Colector de Velkonite de nivel 1 extrae 12 de mineral por hora, así que las 3 placas de un amplificador son 10 horas de minería y las 6 placas de una célula o de un propulsor de nivel IV, 20 horas (4 y 8 horas con un colector de nivel 5); las 4 placas del nivel III son 13 horas, las 2 del nivel II 7, y las 6 placas de un Heavy Shield Core o de un Engine III, 20. Consulta [Recursos](/wiki/06-Items/Resources.md) para saber de dónde sale cada material.
+Las Velkonite Reinforced Plates no caen como botín: la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md) las fabrica a partir de mineral de Velkonite, 40 de mineral por placa con la Forja del Skylab en nivel 1. Un Colector de Velkonite de nivel 1 extrae 10 de mineral por hora, así que las 3 placas de un amplificador son 12 horas de minería y las 6 placas de una célula o de un propulsor de nivel IV, 24 horas (7 y 13 horas con un colector de nivel 5); las 4 placas del nivel III son 16 horas, las 2 del nivel II 8, y las 6 placas de un Heavy Shield Core o de un Engine III, 24. Consulta [Recursos](/wiki/06-Items/Resources.md) para saber de dónde sale cada material.
 
 El **Helios Beam** es una mejora del mismo tipo, un láser a partir de un láser: consume un Starfire-3 y requiere 2.000 Thulium, 50 Cataclysite, 2 Power Cores, 4 Reinforced Hull Plates y 18 Orvium Reinforced Plates, y conserva el grado de encantamiento del Starfire-3 de la misma manera. Lo mismo vale para el **Starfire-3**: consume un Quantum Laser 3 y requiere 1.500 Thulium, 100.000 créditos, 15 Ship Fragments, 1 Reinforced Hull Plate y 8 Velkonite Reinforced Plates, y conserva el grado de encantamiento del Quantum Laser 3. Los dos están en la página [Láseres](/wiki/06-Items/Lasers.md); la tabla de arriba recoge los amplificadores, las células y los propulsores de los niveles II a IV, el Heavy Shield Core y el Engine III.
 
@@ -82,7 +82,7 @@ Todos los materiales y las dos monedas, con su origen y para qué sirve cada uno
 
 ## Categorías {#categories}
 
-La tienda, el inventario del hangar y las demás listas de objetos siguen un mismo orden: la nave, luego un láser con sus amplificadores y su munición, un escudo con sus células, un motor con sus propulsores, los núcleos adaptativos, los extras, los drones, los potenciadores y los recursos. Dentro de cada tipo, lo más barato va primero.
+La tienda, el inventario del hangar y las demás listas de objetos siguen un mismo orden: la nave, luego un láser con sus amplificadores y su munición, un escudo con sus células, un motor con sus propulsores, los núcleos adaptativos, los extras, los drones, las formaciones de drones, los potenciadores y los recursos. Dentro de cada tipo, lo más barato va primero.
 
 - **Láseres**: tus sistemas de armas principales, y los [amplificadores](/wiki/06-Items/Lasers.md) que van en ellos.
 - **Escudos**: generadores y [células](/wiki/06-Items/Shields.md) para la defensa.
@@ -90,4 +90,5 @@ La tienda, el inventario del hangar y las demás listas de objetos siguen un mis
 - **Repair Drones**: extras que reparan tu casco, cada uno más rápido que el anterior: el Repair Drone I, II y III cuestan 5.000, 15.000 y 35.000 créditos, el Repair Drone IV 2.000 Thulium. Las velocidades de reparación están en [Combate](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU y EMP Charge**: extras para una pelea o una huida: una Cloaking CPU oculta tu nave hasta que la terminas (S, M y L: 10, 25 y 50 usos, 5.000, 11.250 y 20.000 Thulium), una EMP Charge te hace imposible de fijar durante 3 segundos, rompe todas las fijaciones sobre ti y termina todos los camuflajes cercanos (500 Thulium). Consulta [Extras](/wiki/06-Items/Extras.md).
 - **CPU de investigación**: las Extra Slots CPU añaden ranuras de extra a cada nave, la Jump CPU te lleva a un sector de corporación por Thulium, las Base CPU te llevan a casa y la Auto-Repair CPU lanza tu Repair Drone por sí sola. No se venden: se investigan y luego se fabrican en Ensamblaje. Consulta [Extras](/wiki/06-Items/Extras.md#research-cpus).
+- **Formaciones de drones**: dieciséis objetos para tus drones que dan bonificaciones y cobran costes, como un escudo mayor a cambio de armas más débiles. No se venden: investígalas y después fabrícalas en Ensamblaje con Thulium. Consulta [Formaciones de drones](/wiki/03-Mechanics/Formations.md).
 - **Recursos**: lo que sueltan los alienígenas y lo que fabrica el Skylab para la fabricación: Ship Fragments, los cuatro cristales, Power Cores, las placas de Velkonite y de Orvium, y dos que vienen de otro lado: el **Dark Matter**, que el [agujero negro](/wiki/03-Mechanics/Black-Hole.md) devuelve a cambio de un cohete N.I.K.E., y la **Dark Matter Plate** que Ensamblaje prensa a partir de ella para los dos últimos pasos de [La Forja](/wiki/06-Items/Forge.md).

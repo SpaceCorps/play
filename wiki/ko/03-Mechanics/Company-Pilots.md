@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 56d4ff7e377afa21 -->
+<!-- wiki-i18n source: a811f0df5512e3b7 -->
 <!-- wiki-i18n title: 기업 파일럿 -->
 # 기업 파일럿 {#company-pilots}
 
 모든 기업은 본거지 섹터(`M-1`~`M-4`, `T-1`~`T-4`, `G-1`~`G-4`)에 소규모 NPC 파일럿 편대를 두고 있습니다. 이들은 하루 종일 기업을 위해 비행하며 소속 기업의 파일럿을 돕습니다.
+
+![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## 이들은 누구인가 {#who-they-are}
 
@@ -12,6 +15,7 @@
   - 흡수율 45%: 실드가 공격의 45%를, 선체가 55%를 받습니다
   - 일제 사격당 기본 피해량 195(x1 탄약), 치명타 확률 없음, 사거리 700
 - **미니맵**: 소속 기업의 파일럿은 초록색 마름모, 다른 기업의 파일럿은 호박색 마름모로 표시됩니다.
+- **계급 없음**: 비행 중 파일럿 이름 앞에 보이는 작은 기호는 그 파일럿의 [계급](/wiki/03-Mechanics/Ranks.md)이며 실제 파일럿의 것입니다. 기업 파일럿에게는 계급이 없습니다. 기업 페이지는 내 기업의 실제 파일럿을 PvE 포인트 순으로 보여 줍니다.
 
 ## 하는 일 {#what-they-do}
 

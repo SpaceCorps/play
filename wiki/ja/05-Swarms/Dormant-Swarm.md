@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2543654c0a5dfec9 -->
+<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
 <!-- wiki-i18n title: Dormant の群れ -->
 # Dormant の群れ {#dormant-swarm}
 
@@ -47,7 +47,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Dormant Force {#dormant-force}
+### Dormant Force
 
 土台は Wraith で、船体、シールド、ダメージはその100%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
@@ -56,7 +56,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 | 船体 | 324,000 | 486,000 | 648,000 |
 | シールド | 83,400 | 125,100 | 166,800 |
 | レーザーのダメージ （毎秒1斉射） | 2,880 | 4,320 | 5,760 |
-| 速度 | 225 | 225 | 225 |
+| 速度 | 220 | 220 | 220 |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | ロケットのダメージ （最大） | 7,500 | 11,250 | 15,000 |
@@ -74,7 +74,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 | 4 種のエピック [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) と [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) のうち 1つ （ランダム） | 50% | 1 |
 
-### Dormant Pulse {#dormant-pulse}
+### Dormant Pulse
 
 土台は Paragon で、船体、シールド、ダメージはその100%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 

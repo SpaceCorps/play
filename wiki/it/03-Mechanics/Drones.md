@@ -1,24 +1,28 @@
-<!-- wiki-i18n source: 5a4769d6626caeff -->
+<!-- wiki-i18n source: e65164e763773d17 -->
 <!-- wiki-i18n title: Droni -->
 # Meccaniche dei droni {#drone-mechanics}
 
-I droni sono unità di supporto autonome che volano accanto alla tua nave. Forniscono slot di equipaggiamento aggiuntivi e contribuiscono direttamente alle prestazioni di combattimento della tua nave. Uno Slave Drone cresce anche: guadagna esperienza ogni volta che distruggi un alieno e sale attraverso **otto livelli**, da una piccola sfera corazzata a una cannoniera dalle ali a mezzaluna. In Assemblaggio uno Slave Drone può essere potenziato a **Master Drone**, che ricomincia i suoi livelli (vedi Master Drone più sotto).
+I droni sono unità di supporto autonome che volano accanto alla tua nave. Forniscono slot di equipaggiamento aggiuntivi e contribuiscono direttamente alle prestazioni di combattimento della tua nave. Uno Slave Drone cresce anche: guadagna esperienza ogni volta che distruggi un alieno e sale attraverso **otto livelli**, da una piccola sfera corazzata a una cannoniera dalle ali a mezzaluna. In Assemblaggio uno Slave Drone può essere potenziato a **Master Drone**, che ricomincia i suoi livelli (vedi Master Drone più sotto). I droni ti permettono anche di indossare una **formazione di droni**: funziona solo se hai almeno un drone nella tua flotta (vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
+
+![Emergency Repair: repair drones beam the hull](../../img/wiki-img/shots/emergency-repair.jpg)
 
 ## Ottenere droni {#getting-drones}
 
 Ogni drone che possiedi, uno **Slave Drone** o un Master Drone, apre i suoi slot per droni (uno per uno Slave Drone, due per un Master Drone), fino a **8** droni. Il Negozio vende gli Slave Drone in cambio di crediti, e dal quarto in poi anche di Thulium. Ognuno costa più del precedente: i prezzi sono in [Droni](/wiki/06-Items/Drones.md).
 
-## Formazione e movimento {#formation-movement}
+## Disposizione di volo e movimento {#formation-movement}
 
-I droni volano in una formazione standard **“Gregario” (2-2-4)**:
+I droni volano in una disposizione standard **“Gregario” (2-2-4)**:
 
 - **2 droni** accanto alla nave, uno per fianco.
 - **2 droni** accanto e appena dietro di essa.
 - **4 droni** in coda, dietro.
 
-Usano un algoritmo di inseguimento fluido che regola la loro posizione in base alla velocità e alla rotazione della tua nave, stringendo la formazione durante le manovre brusche. Nessuno vola davanti a te.
+Usano un algoritmo di inseguimento fluido che regola la loro posizione in base alla velocità e alla rotazione della tua nave, stringendo la disposizione durante le manovre brusche. Nessuno vola davanti a te.
 
-I droni sono piccoli e restano vicini: un drone di livello 8 misura circa 19,5 unità di larghezza (una Protos 50) e un drone di livello 1 è una palla di circa 8, quindi l’intera formazione sta entro circa 135 unità dalla tua nave. Il drone che hai comprato per primo ha più esperienza e vola sul tuo fianco sinistro, il secondo sul destro, e i più recenti seguono dietro.
+I droni sono piccoli e restano vicini: un drone di livello 8 misura circa 19,5 unità di larghezza (una Protos 50) e un drone di livello 1 è una palla di circa 8, quindi l’intera disposizione sta entro circa 135 unità dalla tua nave. Il drone che hai comprato per primo ha più esperienza e vola sul tuo fianco sinistro, il secondo sul destro, e i più recenti seguono dietro.
+
+Questa disposizione è solo l’aspetto dei droni, ed è la stessa qualunque [formazione di droni](/wiki/03-Mechanics/Formations.md) tu indossi. Una formazione di droni è un insieme di bonus e costi, non un altro modo di volare.
 
 ## Equipaggiamento e statistiche {#equipment-stats}
 
@@ -27,8 +31,9 @@ I droni funzionano come supporti di equipaggiamento che ampliano la tua nave.
 - Uno Slave Drone ha **1 slot** e un Master Drone **2**, fino a **8 droni**.
 - In questi slot puoi equipaggiare **laser** e **scudi**, in entrambi gli slot di un Master Drone. Nient’altro ci sta: niente motori, niente Nuclei adattivi.
 - **I laser contano per intero.** Un laser su un drone spara quando spari tu, aggiunge il suo danno alla tua raffica e usa munizioni come qualsiasi altro laser (ogni laser brucia un’unità di munizioni a raffica). I due laser di un Master Drone sono due laser.
-- **Anche gli scudi contano per intero.** Uno scudo su un drone conta come uno in uno slot principale, in entrambi gli slot: la sua capacità e la sua ricarica con le sue celle, il suo assorbimento nella media della tua nave, il suo bonus scudo e la sua penalità di velocità. Viene classificato insieme agli scudi della nave per capacità (i quattro più grandi contano per intero, dal quinto in poi contano meno, vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)), e i bonus della Forgia, i bonus dell’Emporio e la penetrazione dello scudo di un attaccante agiscono su di esso come su qualsiasi scudo. Il livello del drone potenzia solo il suo laser, mai il suo scudo. Mentre un drone viene potenziato, i suoi slot sono offline, lo scudo come il laser. Prima dell’aggiornamento 0.4.7 uno scudo su un drone non aggiungeva nulla.
+- **Anche gli scudi contano per intero.** Uno scudo su un drone conta come uno in uno slot principale, in entrambi gli slot: la sua capacità e la sua ricarica con le sue celle, il suo assorbimento nella media della tua nave, il suo bonus scudo e la sua penalità di velocità. Viene classificato insieme agli scudi della nave in base a ciò che conta dopo la quota dello slot (lo slot di un drone conta il 100%; i quattro migliori contano per intero, dal quinto in poi contano meno, vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)), e i bonus della Forgia, i bonus dell’Emporio e la penetrazione dello scudo di un attaccante agiscono su di esso come su qualsiasi scudo. Il livello del drone potenzia solo il suo laser, mai il suo scudo. Mentre un drone viene potenziato, i suoi slot sono offline, lo scudo come il laser. Prima dell’aggiornamento 0.4.7 uno scudo su un drone non aggiungeva nulla.
 - **Un laser o uno scudo?** Uno slot ne ospita uno solo dei due: un laser aggiunge un laser alla tua raffica, uno scudo aggiunge i suoi punti scudo. Su una nave piccola con buoni scudi i punti in più aggiungono poco, perché lo scafo finisce prima; su uno scafo grande ti permettono di incassare molto di più.
+- **Le formazioni richiedono un drone, non uno slot.** Una [formazione di droni](/wiki/03-Mechanics/Formations.md) funziona finché possiedi almeno un drone. Non occupa nessuno slot drone, e il numero di droni, i loro livelli e ciò che portano non la cambiano.
 
 ## Livelli {#levels}
 
@@ -83,7 +88,7 @@ Il **laser montato nello slot di un drone** infligge più danno base man mano ch
 
 La curva è tarata in modo che un drone nuovo raggiunga il livello 2 in circa un’ora di gioco normale (a caccia di Bulwark e Goombah) e il livello 8 in circa 27 ore di gioco. Quelle ore valgono per un pilota che compra il primo drone verso le missioni del livello 7; con un equipaggiamento più debole ci vuole di più (fino a circa 4 ore per il livello 2 e 150 ore per il livello 8). Dare la caccia a un solo tipo di alieno è al massimo circa il 50% più veloce di un mix normale. I droni restano dopo il reset della stagione con i loro livelli e la loro esperienza, quindi quelle ore si spendono una sola volta, nel numero di stagioni che servono: un pilota che gioca mezz’ora al giorno ci arriva in un paio di stagioni.
 
-### Master Drone {#master-drone}
+### Master Drone
 
 Uno Slave Drone diventa un **Master Drone** quando lo potenzi in Assemblaggio, una volta ricercata la tecnologia del Master Drone ([Ricerca](/wiki/03-Mechanics/Research.md)). La ricetta costa 40.000 Thulium e 100 Ship Fragment e richiede 60 secondi, e non consuma un drone: **scegli tu quale Slave Drone è** (il selettore mostra livello e XP di ciascuno), e quello stesso drone, con il suo numero, il suo slot e tutto ciò che vi è montato, diventa un Master Drone quando il lavoro finisce, con un secondo slot vuoto. Niente va nel tuo inventario e non c’è nulla da ritirare: il Registro di gioco ti dice quando è finito, anche per un potenziamento terminato mentre eri via.
 
@@ -97,3 +102,4 @@ Un Master Drone è uno dei tuoi 8 droni: conta per il limite dei droni e per il 
 
 - **Laser**: i droni sparano con i loro laser equipaggiati contro il tuo bersaglio agganciato.
 - **Danno**: i droni possono subire danni (se esiste una logica di entità distinta; attualmente condividono per lo più la riserva della nave ma sono visivamente distinti). _Nota: attualmente i droni sono estensioni indistruttibili della nave._
+- **Repair Drone**: gli oggetti Repair Drone (da I a IV) sono [extra](/wiki/06-Items/Extras.md#repair-drones), non droni della tua flotta. Mentre uno ripara il tuo scafo, piccoli droni di riparazione escono dalla nave, le girano attorno e la colpiscono con i loro raggi, e i piloti vicini li vedono.

@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 A Phantasm idegenek agresszív, kísértetosztályú drónok. Megtámadnak minden játékost, aki belép az aggrósugarukba (700 egység), és elveszítik az érdeklődésüket, ha a pilóta több mint 1 200 egységre van tőlük, vagy ha 2 000 egységet repültek az üldözés kezdőpontjától (2 500, illetve 3 000 egység, ha a pilóta rájuk lőtt, lásd [Harc](/wiki/03-Mechanics/Combat.md)); azt a pilótát, aki az elmúlt 10 másodpercben eltalált egyet, egyáltalán nem engedik el, és a Phantasm arra a pilótára repül, valahányszor az a fegyvere hatótávján (700 egység) kívül van. Ha több pilóta lő rá, a Phantasm az első pilótánál marad, aki rálőtt, amíg az a pilóta folyamatosan találja (lásd [Kivel harcol egy idegen](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). A [rajok](/wiki/05-Swarms/Swarms.md) hajói külön idegenfajok, saját cikkekkel a Rajok kategóriában.
 

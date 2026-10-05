@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 0d2453772c374a74 -->
+<!-- wiki-i18n source: 440dd341e5b80c44 -->
 <!-- wiki-i18n title: Bulwark -->
-# Bulwark {#bulwark}
+# Bulwark
 
 Les Bulwarks sont des plateformes défensives lourdement blindées. Très agressifs, ils frappent fort : un Bulwark prend en chasse tout pilote sans protection qui se trouve dans son rayon d’aggro (700 unités). Il abandonne la poursuite quand le pilote est à plus de 1 200 unités ou après avoir parcouru 2 000 unités depuis le début de la poursuite (2 500 et 3 000 pour un pilote qui lui a tiré dessus, voir [Combat](/wiki/03-Mechanics/Combat.md)) ; un pilote qui l’a touché au cours des 10 dernières secondes n’est jamais lâché, et le Bulwark fonce sur ce pilote chaque fois que celui-ci est hors de sa portée d’arme (700 unités). Si plusieurs pilotes lui tirent dessus, il s’en tient au premier qui lui a tiré dessus, tant que ce pilote continue de le toucher (voir [Contre qui un alien se bat](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Les vaisseaux des [essaims](/wiki/05-Swarms/Swarms.md) sont des espèces d’aliens à part, avec leurs propres articles dans la catégorie Essaims.
 

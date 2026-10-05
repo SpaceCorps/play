@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Seeker の群れ -->
 # Seeker の群れ {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Boss Seeker の報酬は**ちょうど Seeker 10体分**です。Seeker のク�
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 土台は Seeker で、船体、シールド、ダメージはその400%です。速度と射程は土台の艦のものです。
 
@@ -74,7 +74,7 @@ Boss Seeker の報酬は**ちょうど Seeker 10体分**です。Seeker のク�
 | Ultra Core | 100% | 2–4 |
 | クレジットで買える 8 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 土台は Seeker で、船体、シールド、ダメージはその100%です。速度と射程は土台の艦のものです。
 

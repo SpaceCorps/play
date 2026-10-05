@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Enjambre Seeker -->
 # Enjambre Seeker {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarm
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 Base: Seeker, con 400 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original.
 
@@ -74,7 +74,7 @@ Base: Seeker, con 400 % de casco, escudo y daño; la velocidad y el alcance son
 | Ultra Core | 100 % | 2–4 |
 | Uno de los 8 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 Base: Seeker, con 100 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original.
 

@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 Wraith는 최강의 전함급 함선으로, 비할 데 없는 화력과 막대한 실드 용량, 탁월한 속도를 자랑합니다.
 
 ## 능력치 {#stats}
 
 - **내구도(HP)**: 324,000
-- **기본 속도**: 225
+- **기본 속도**: 220
 - **레이저 슬롯**: 12
 - **부가 슬롯**: 3
 

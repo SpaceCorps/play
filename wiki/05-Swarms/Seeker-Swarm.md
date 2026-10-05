@@ -2,7 +2,7 @@
 
 The Seeker Swarm is the smallest of the [swarms](/wiki/05-Swarms/Swarms.md): a **Boss Seeker** and the **Seeker Slaves** that guard it and heal it. It lives in the sectors where new pilots start to fly, so it is the first swarm most pilots meet. The Boss Seeker never starts a fight, but once you shoot it, it is far more dangerous than the [Seeker](/wiki/04-Aliens/Seeker.md) it is built from.
 
-## At a glance {#at-a-glance}
+## At a glance
 
 <!-- seeker-glance:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -20,23 +20,23 @@ The Seeker Swarm is the smallest of the [swarms](/wiki/05-Swarms/Swarms.md): a *
 
 <!-- seeker-glance:end -->
 
-## The members {#the-members}
+## The members
 
 - **Boss Seeker**: a much larger Seeker, in the swarm's tint and with its name over it, with many times a Seeker's hull, shield and damage (the numbers are below). It is passive: it roams until a pilot hits it, then stops where it is and fires at that pilot, and the ships of its swarm that are close join in. Its weapon's range and its speed are a Seeker's, and it never mends its hull by itself.
 - **Seeker Slave**: a plain Seeker in the swarm's tint. Slaves keep close to the boss, join the fight when a swarm ship near them is hit, and each one that is near the boss heals its hull. A slave mends its own hull after a rest, as a Seeker does.
 
-## How the fight goes {#how-the-fight-goes}
+## How the fight goes
 
 - **Leave it alone until your ship can take it.** A Boss Seeker hits harder than any pilot's first ship can bear: a new pilot's Protos, with no shield yet, is destroyed in seconds once the boss and its slaves are on it.
 - **Stay out of reach.** The boss and its slaves are slower than a Protos, and their weapons reach less far than a Quantum Laser 2's (see [Lasers & Ammo](/wiki/06-Items/Lasers.md)): a pilot who has such lasers and keeps beyond their range takes no damage while it fires. A pilot with Quantum Laser 1 cannot stay out of reach.
 - **The slaves heal faster than a lone new pilot hits.** Together they mend more than one pilot's lasers deal with x1 ammo, so bring a partner and x2 ammo. Two pilots with Quantum Laser 2 who keep their distance take the boss down in about a minute in Alpha, and much faster with x2 ammo.
 - **The boss comes back** after the time in the *At a glance* list, at full strength, in the same sector, and its slaves come one after the other.
 
-## Rewards and drops {#rewards-and-drops}
+## Rewards and drops
 
 The Boss Seeker pays **exactly ten Seekers**: ten times a Seeker's Credits, Thulium, XP and Honor, split by damage among the pilots who fought it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Its box holds ten Seekers' loot and, on top of it, ammo and rockets below Epic, for the pilot who dealt the most damage. The slaves pay a small amount and drop nothing; killing them is no way to farm, since they come back with the boss.
 
-## The numbers {#the-numbers}
+## The numbers
 
 The numbers of the swarm's ships in the three worlds ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)).
 

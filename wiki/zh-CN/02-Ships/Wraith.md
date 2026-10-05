@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 Wraith 是终极战列舰级舰船，拥有无与伦比的火力、庞大的护盾容量和出众的速度。
 
 ## 属性 {#stats}
 
 - **生命值（HP）**：324,000
-- **基础速度**：225
+- **基础速度**：220
 - **激光槽位**：12
 - **附加槽位**：3
 

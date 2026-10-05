@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: babc7a19c6dcab42 -->
+<!-- wiki-i18n source: 0ed9858d316d7ddd -->
 <!-- wiki-i18n title: Seeker 虫群 -->
 # Seeker 虫群 {#seeker-swarm}
 
@@ -45,7 +45,7 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 <!-- seeker-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-### Boss Seeker {#boss-seeker}
+### Boss Seeker
 
 基于 Seeker，拥有其 400% 的船体、护盾和伤害；速度和射程与原舰船相同。
 
@@ -74,7 +74,7 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 | Ultra Core | 100% | 2–4 |
 | 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 2–3 |
 
-### Seeker Slave {#seeker-slave}
+### Seeker Slave
 
 基于 Seeker，拥有其 100% 的船体、护盾和伤害；速度和射程与原舰船相同。
 

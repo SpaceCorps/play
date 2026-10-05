@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 4f84f886cea54500 -->
+<!-- wiki-i18n source: b21f5edc663ee913 -->
 <!-- wiki-i18n title: Trou noir -->
 # Le trou noir {#the-black-hole}
 
 Au centre exact du Secteur dangereux 4 (`DS-4`, le cœur de la zone PvP), un trou noir est suspendu dans l’obscurité. Il est le même dans chaque monde (Alpha, Beta et Gamma), chaque jour de la saison, Protocole de paix compris. Il prend tout ce qui s’approche trop près, et ne rend qu’une chose : de la [Dark Matter](#dark-matter), contre une roquette N.I.K.E. tirée dedans.
+
+![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
+![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
 
 ## Les anneaux {#the-rings}
 
@@ -17,7 +20,7 @@ Les distances se mesurent depuis le centre du secteur, en unités de carte. Le s
 
 Les portails du Secteur dangereux 4 et les couloirs qui les relient passent tous bien à l’écart de la radiation : vous ne la croisez donc jamais par accident en traversant le secteur.
 
-## Radiation {#radiation}
+## Radiation
 
 Les dégâts sont un **pourcentage des PV maximum totaux de votre vaisseau** (coque plus bouclier) chaque seconde : à une distance donnée, toutes les classes de vaisseau tiennent donc exactement aussi longtemps. Un Protos et un Wraith à 2 000 unités consument tous deux un vaisseau plein en 50 secondes.
 
@@ -40,7 +43,7 @@ Entre deux lignes, les dégâts augmentent de façon linéaire. En points de vie
 | Ostirion | 82 500 | 454 | 660 | 1 650 | 4 125 | 9 075 |
 | Nomad | 130 500 | 718 | 1 044 | 2 610 | 6 525 | 14 355 |
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 194 500 | 1 070 | 1 556 | 3 890 | 9 725 | 21 395 |
+| Storm | 198 000 | 1 089 | 1 584 | 3 960 | 9 900 | 21 780 |
 | Wraith | 372 000 | 2 046 | 2 976 | 7 440 | 18 600 | 40 920 |
 | Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
 
@@ -75,17 +78,17 @@ Votre **point de non-retour** est la distance où l’attraction égale votre vi
 | Vaisseau (équipement de série) | Vitesse | Point de non-retour |
 | :--- | ---: | ---: |
 | Ironclad | 99 | 1 974 |
-| Protos | 155 | 1 627 |
+| Protos | 165 | 1 577 |
 | Kitefin | 184 | 1 480 |
 | Ostirion | 208 | 1 362 |
 | Nomad | 211 | 1 347 |
 | Paragon | 222 | 1 287 |
-| Wraith | 238 | 1 171 |
-| Storm | 256 | 1 046 |
+| Wraith | 233 | 1 208 |
+| Storm | 263 | 995 |
 
 Un vaisseau plus rapide que 272 unités par seconde (un équipement de course, ou un Wraith de série avec un Afterburner actif) a son point de non-retour là où il a toujours été : à une vitesse de 300, il est à 885 ; à 432, il est à 747.
 
-Misez sur la vitesse et vous pourrez repartir de plus profond ; chargez-vous de boucliers lourds et vous ne le pourrez pas (un Ironclad, le vaisseau le plus lent, avec un Heavy Shield Core dans chacun de ses 14 emplacements vole à 39,1, avec son point de non-retour à environ 2 600). Seule une pointe de vitesse ramène un vaisseau qui se trouve juste en deçà de son point de non-retour : un [Afterburner](/wiki/03-Mechanics/Abilities.md) actif compte, et repousse le point de non-retour plus profond tant qu’il dure (dix secondes avec un moteur, quinze avec deux, vingt avec trois ; l’Afterburner III fait passer celui d’un Protos de série de 1 627 à 1 105 et celui d’un Wraith de série de 1 171 à 793). Rien ne peut repartir d’en deçà d’environ 390 unités, pas même un vaisseau conçu pour la vitesse, avec chaque statistique de vitesse enchantée au maximum et la plus forte pointe de vitesse active (un Afterburner III enchanté jusqu’au plafond, x1,69) ; un vaisseau non enchanté conçu pour la vitesse (des Engine III et des Adaptive Core II avec des Impulse Thruster IV et Momentum Thruster IV), avec un Afterburner III, repart au mieux d’au-delà de 425.
+Misez sur la vitesse et vous pourrez repartir de plus profond ; chargez-vous de boucliers lourds et vous ne le pourrez pas (un Ironclad, le vaisseau le plus lent, avec un Heavy Shield Core dans chacun de ses 14 emplacements vole à 39,1, avec son point de non-retour à environ 2 600). Seule une pointe de vitesse ramène un vaisseau qui se trouve juste en deçà de son point de non-retour : un [Afterburner](/wiki/03-Mechanics/Abilities.md) actif compte, et repousse le point de non-retour plus profond tant qu’il dure (dix secondes avec un moteur, quinze avec deux, vingt avec trois ; l’Afterburner III fait passer celui d’un Protos de série de 1 577 à 989 et celui d’un Wraith de série de 1 208 à 801). Rien ne peut repartir d’en deçà d’environ 390 unités, pas même un vaisseau conçu pour la vitesse, avec chaque statistique de vitesse enchantée au maximum et la plus forte pointe de vitesse active (un Afterburner III enchanté jusqu’au plafond, x1,69) ; un vaisseau non enchanté conçu pour la vitesse (des Engine III et des Adaptive Core II avec des Impulse Thruster IV), avec un Afterburner III, repart au mieux d’au-delà de 429.
 
 La chute depuis le point de non-retour commence lentement : un vaisseau quelques unités en deçà, à pleine puissance, est aspiré en vingt secondes ou plus, puis de plus en plus vite. L’attraction n’est pas du vol : elle ne compte pour aucune distance parcourue.
 
@@ -124,13 +127,13 @@ Des paramètres aident là où le trou est lourd ou fatigant pour les yeux : **
 
 Les drones volent avec leur vaisseau. Aucune cargaison n’est jamais déposée dans l’anneau : une caisse qui y tomberait est placée sur son bord. Les caisses de Dark Matter sont la seule exception.
 
-## Dark Matter {#dark-matter}
+## Dark Matter
 
 Le trou rend de la **Dark Matter** pour chaque roquette **N.I.K.E.** qui l’atteint. Une N.I.K.E. est une roquette de 67 500 à 75 000 dégâts qui frappe le premier vaisseau qu’elle peut blesser et s’y épuise ; si rien n’est sur son chemin, elle vole jusqu’au trou et se consume en franchissant l’horizon des événements. L’[Assemblage](/wiki/06-Items/Rockets.md) fabrique les N.I.K.E. une fois leur technologie recherchée ([Recherche](/wiki/03-Mechanics/Research.md)), cinq par fabrication (100 000 crédits, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Le tir.** Une N.I.K.E. parcourt 4 050 unités en 4,5 secondes (900 par seconde), tout droit vers l’endroit visé : sans cible sélectionnée, placez le curseur sur le trou noir (ou pointez votre vaisseau vers lui). Elle atteint l’horizon depuis n’importe quel point entre la limite de la radiation (4 000 unités) et 4 380 unités du centre. Plus loin, elle tombe trop court et est perdue. Comme toute roquette, elle utilise le minuteur commun de 5 secondes (aucun laser n’a besoin d’être installé) ; la tirer met fin à votre protection de zone sûre et à votre occultation. **Un vaisseau sur la trajectoire la prend à la place** : un rival qui attend à la limite, ou un pilote d’une autre corporation qui ramasse des caisses sur le chemin, encaisse 67 500 à 75 000 dégâts et le trou n’a rien. Les aliens et les pilotes de corporation n’entrent jamais dans l’anneau : une trajectoire dégagée, c’est donc à vous de la garder dégagée ; la roquette traverse votre propre corporation et les vaisseaux qui sont à l’abri de vos tirs. Si vous quittez la carte après le tir, elle continue sans blesser personne et produit quand même votre Dark Matter.
+- **Le tir.** Une N.I.K.E. parcourt 4 050 unités en 4,5 secondes (900 par seconde), tout droit vers l’endroit visé : sans cible sélectionnée, placez le curseur sur le trou noir (ou pointez votre vaisseau vers lui). Elle atteint l’horizon depuis n’importe quel point entre la limite de la radiation (4 000 unités) et 4 380 unités du centre. Plus loin, elle tombe trop court et est perdue. Comme toute roquette, elle utilise le minuteur commun de 5 secondes (aucun laser n’a besoin d’être installé) ; la tirer met fin à votre protection de zone sûre et à votre occultation. **Un vaisseau sur la trajectoire la prend à la place** : un rival qui attend à la limite, ou un pilote d’une autre corporation qui ramasse des caisses sur le chemin, encaisse 67 500 à 75 000 dégâts et le trou n’a rien. Les aliens et les pilotes de corporation n’entrent jamais dans l’anneau : une trajectoire dégagée, c’est donc à vous de la garder dégagée ; la roquette traverse votre propre corporation et les vaisseaux qui sont à l’abri de vos tirs. Si vous quittez la carte après le tir, elle continue sans blesser personne et produit quand même votre Dark Matter. Une formation de drones peut changer ce délai et les dégâts du coup (voir [Formations de drones et roquettes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
 - **Ce qui revient.** Chaque N.I.K.E. qui atteint l’horizon donne **1, 2 ou 3 Dark Matter** (2 en moyenne : cinq N.I.K.E. en font donc environ dix), dans une ou deux petites caisses qui apparaissent sur le bord de la zone du trou, **entre 3 050 et 3 950 unités du centre**, près de la ligne par laquelle votre tir est arrivé. L’attraction s’arrête à 3 000 : les caisses et les vaisseaux qui les ramassent ne sont donc pas attirés, et la radiation y est de 0,3 à 0,8 % des PV d’un vaisseau par seconde : une minute au milieu de la bande coûte un tiers de votre vaisseau. Un vaisseau plein y tient trois minutes.
 - **À qui.** Les caisses sont à vous, et à votre clan, pendant **60 secondes** à partir du tir. Ensuite, n’importe qui sur la carte peut les prendre, et elles dérivent au loin au bout de **4 minutes**. Le Secteur dangereux est un secteur PvP : attendez-vous à de la compagnie. Un pilote qui se déconnecte après avoir tiré garde ses caisses.
 - **Combien.** Une carte contient au plus 32 caisses de Dark Matter ; une nouvelle chasse la plus ancienne d’entre elles, et jamais une caisse d’un autre type. Le [Resource Magnet](/wiki/03-Mechanics/Cargo.md) n’ajoute rien à la Dark Matter.
 - **Ce que vous voyez.** Quand une N.I.K.E. franchit l’horizon, elle est étirée dans le trou, l’espace ondule à partir de son point d’entrée, et le disque et l’anneau de photons s’embrasent pendant environ une seconde et demie (un tiers de ce temps, deux fois moins lumineux, avec **Réduire les animations**). Un instant plus tard, les caisses sortent du trou et dérivent jusqu’à leur place sur le bord : chacune est un orbe violet-noir au bord brillant, parsemé d’étincelles, facile à voir de loin, et intitulé **Dark Matter** quand vous le survolez. Les vôtres affichent au-dessus d’elles les secondes qui vous restent, et apparaissent sur la mini-carte sous la forme d’une petite marque violette, comme pour votre clan ; les caisses des autres pilotes n’apparaissent sur la mini-carte qu’une fois leur minute écoulée.
-- **À quoi elle sert.** L’Assemblage presse 5 Dark Matter avec une Velkonite Reinforced Plate et une Orvium Reinforced Plate en une **Dark Matter Plate**, et [la Forge](/wiki/06-Items/Forge.md) en demande deux pour faire passer un objet de Divin à Fracturant, puis de nouveau de Fracturant à Éternel : dix Dark Matter par étape. Le [Centre de recherche](/wiki/03-Mechanics/Research.md#dark-matter) du Skylab exige lui aussi de la Dark Matter : 10 pour chacune des 15 technologies du haut de son arbre, 150 en tout, introduites avant le début de la recherche.
+- **À quoi elle sert.** L’Assemblage presse 5 Dark Matter avec une Velkonite Reinforced Plate et une Orvium Reinforced Plate en une **Dark Matter Plate**, et [la Forge](/wiki/06-Items/Forge.md) en demande deux pour faire passer un objet de Divin à Fracturant, puis de nouveau de Fracturant à Éternel : dix Dark Matter par étape. Le [Centre de recherche](/wiki/03-Mechanics/Research.md#dark-matter) du Skylab exige lui aussi de la Dark Matter : 10 pour chacune des 15 technologies du haut de son arbre, 150 en tout, introduites avant le début de la recherche. Les formations de drones en demandent aussi, 5, 13 ou 20 selon leur puissance : 189 de plus, 339 en tout.

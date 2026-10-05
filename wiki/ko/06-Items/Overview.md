@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3347f07e039fb7ef -->
+<!-- wiki-i18n source: 83375593d5e8ed9f -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -45,7 +45,7 @@
 
 Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced Hull Plate 0.6개, Power Core 0.25개를 드롭합니다. 따라서 Nova Amp나 Apex Amp에 필요한 드롭은 Goombah 약 8기, 셀은 티어 II 약 7기·III 약 10기·IV 약 14기, Heavy Shield Core는 약 14기, 추진기는 티어 II 약 4기·III 약 10기·IV 약 19기, Engine III는 약 19기분입니다. Bulwark는 Cataclysite 2개, Ship Fragment 2개, Reinforced Hull Plate 0.3개를 드롭하지만 Power Core는 드롭하지 않습니다.
 
-Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 12개를 채굴하므로 증폭기의 플레이트 3장은 채굴 10시간, 티어 IV 셀이나 추진기의 플레이트 6장은 20시간 분량입니다(레벨 5 수집기라면 4시간과 8시간). 티어 III의 플레이트 4장은 13시간, 티어 II의 플레이트 2장은 7시간, Heavy Shield Core나 Engine III의 플레이트 6장은 20시간 분량입니다. 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
+Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로 증폭기의 플레이트 3장은 채굴 12시간, 티어 IV 셀이나 추진기의 플레이트 6장은 24시간 분량입니다(레벨 5 수집기라면 7시간과 13시간). 티어 III의 플레이트 4장은 16시간, 티어 II의 플레이트 2장은 8시간, Heavy Shield Core나 Engine III의 플레이트 6장은 24시간 분량입니다. 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
 
 **Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-3를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개가 필요하며, Starfire-3의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-3**도 마찬가지입니다. Quantum Laser 3를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser 3의 인챈트 등급을 이어받습니다. 둘 다 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
 
@@ -82,7 +82,7 @@ Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mecha
 
 ## 분류 {#categories}
 
-상점, 격납고 인벤토리와 그 밖의 아이템 목록은 같은 순서로 정렬됩니다. 함선, 이어서 증폭기와 탄약이 딸린 레이저, 셀이 딸린 실드, 추진기가 딸린 엔진, 적응형 코어, 부가 장비, 드론, 부스터, 자원 순입니다. 같은 종류 안에서는 가장 저렴한 것이 먼저 옵니다.
+상점, 격납고 인벤토리와 그 밖의 아이템 목록은 같은 순서로 정렬됩니다. 함선, 이어서 증폭기와 탄약이 딸린 레이저, 셀이 딸린 실드, 추진기가 딸린 엔진, 적응형 코어, 부가 장비, 드론, 드론 편대, 부스터, 자원 순입니다. 같은 종류 안에서는 가장 저렴한 것이 먼저 옵니다.
 
 - **레이저**: 주력 무기 시스템과, 거기에 장착하는 [증폭기](/wiki/06-Items/Lasers.md).
 - **실드**: 방어용 발생기와 [셀](/wiki/06-Items/Shields.md).
@@ -90,4 +90,5 @@ Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mecha
 - **Repair Drone**: 선체를 수리하는 부가 장비이며, 뒤로 갈수록 더 빠릅니다. Repair Drone I~III의 가격은 각각 5,000, 15,000, 35,000 크레딧이고, Repair Drone IV는 2,000 Thulium입니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다.
 - **Cloaking CPU와 EMP Charge**: 전투나 도주를 위한 부가 장비입니다. Cloaking CPU는 직접 끌 때까지 함선을 숨기고(S, M, L은 사용 횟수 10, 25, 50회이며 가격은 5,000, 11,250, 20,000 Thulium), EMP Charge는 3초 동안 당신을 대상으로 지정할 수 없게 만들고 당신에 대한 모든 락온을 끊으며 주변의 모든 은폐를 해제합니다(500 Thulium). [부가 장비](/wiki/06-Items/Extras.md)를 참고하세요.
 - **연구 CPU**: Extra Slots CPU는 모든 함선의 부가 슬롯을 늘려 주고, Jump CPU는 Thulium을 내고 기업 섹터로 데려다주며, Base CPU는 기지로 돌려보내 주고, Auto-Repair CPU는 Repair Drone을 알아서 내보냅니다. 판매하지 않습니다. 연구한 뒤 어셈블리에서 제작합니다. [부가 장비](/wiki/06-Items/Extras.md#research-cpus)를 참고하세요.
+- **드론 편대**: 드론을 위한 16종의 아이템으로, 보너스를 주는 대신 대가를 요구합니다(예: 실드가 커지는 대신 무기가 약해짐). 판매하지 않습니다. 연구한 뒤 어셈블리에서 Thulium으로 제작하세요. [드론 편대](/wiki/03-Mechanics/Formations.md)를 참고하세요.
 - **자원**: 제작을 위해 외계인이 드롭하거나 Skylab이 만드는 것들입니다. Ship Fragment, 크리스탈 4종, Power Core, Velkonite와 Orvium 플레이트, 그리고 다른 곳에서 나오는 두 가지가 있습니다. N.I.K.E. 로켓을 쏘면 [블랙홀](/wiki/03-Mechanics/Black-Hole.md)이 돌려주는 **Dark Matter**와, 어셈블리가 이를 압착해 만드는 **Dark Matter Plate**입니다. 후자는 [대장간](/wiki/06-Items/Forge.md)의 최상위 두 단계에 쓰입니다.

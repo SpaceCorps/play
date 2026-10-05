@@ -1,8 +1,12 @@
-<!-- wiki-i18n source: 1fb27e9af6058c8b -->
+<!-- wiki-i18n source: 2329e422c8d1d27c -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
 Det här avsnittet beskriver hur skada beräknas, tillämpas och repareras under strider i SpaceCorps.
+
+![The death screen: respawn at the nearest portal or on the spot, each with its lock](../../img/wiki-img/shots/death.jpg)
+![The flight screen in a fight: ship and pilot windows, the target, the hotbar, the chat, the log and the minimap](../../img/wiki-img/shots/hud-fight.jpg)
+![The Target window: the alien, its distance, hull and shield](../../img/wiki-img/shots/hud-target.jpg)
 
 ## Skadeberäkning {#damage-calculation}
 
@@ -27,11 +31,12 @@ Varje salva har en chans att bli en kritisk träff.
 
 Till sist tillämpas globala multiplikatorer (som aktiva boosters eller multiplikatorer för laserammunition som x2, x3, x4) för att få den slutliga skadan:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
+- En buren [drönarformation](/wiki/03-Mechanics/Formations.md) kan multiplicera resultatet en gång till: till exempel Auger +21 % laserskada, Gyre −11 % och, mot utomjordingar, Culler +12 % (en egen faktor, inte en del av boosterprocenten).
 - Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md).
 
 ### 3b. Raketer {#3b-rockets}
 
-En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 600 till 2 000, en Lancet III 4 800 till 6 000, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, mindre mot kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den.
+En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 600 till 2 000, en Lancet III 4 800 till 6 000, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, mindre mot kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare.
 
 ### 4. Att vända sig mot målet {#4-facing-the-target}
 
@@ -54,7 +59,7 @@ En utomjordings belöning går till piloten som sköt den först, inte till den 
 - **Att se det**: när du väljer en utomjording som en annan pilot har paxat visar Målfönstret *Paxad av* den piloten och *Ingen belöning*.
 - [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) paxar aldrig en utomjording, och en utomjording de gör slut på betalar ändå piloten som har paxet.
 - En pilot i en [grupp](/wiki/03-Mechanics/Groups.md) delar det som dess pax betalar med de gruppkamrater som är nära och skjuter; själva paxet är pilotens ensam.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses är undantaget**: en svärmboss och varje Dormant Pulse betalar efter den skada varje pilot gjort på dem, inte efter första träffen, och deras lastlåda går till piloten som gjorde mest skada ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). De övriga följeslagarna, Pirate Scouts och Seeker Slaves, betalar efter paxet som vilken utomjording som helst. Ett svärmskepps PvE-poäng står på sidan Svärmar.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare, Dormant Pulses och [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är undantaget**: en svärmboss, varje Dormant Pulse och varje Clan Warden betalar efter den skada varje pilot gjort på dem, inte efter första träffen, och deras lastlåda går till piloten som gjorde mest skada ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). De övriga följeslagarna, Pirate Scouts och Seeker Slaves, betalar efter paxet som vilken utomjording som helst. Ett svärmskepps PvE-poäng står på sidan Svärmar.
 
 ---
 
@@ -87,9 +92,9 @@ En utomjording som har valt dig som mål (en Phantasm, Bulwark eller Crystalys s
 
 En utomjording som ger upp strövar vidare från där den står, aldrig vidare till där den senast såg dig (inte ens när du kamouflerar dig eller avfyrar en EMP), och väljer dig inte som mål igen på **8 sekunder**, om du inte skjuter på den. Varje utomjording bestämmer själv, så en blandad flock glesnar när du flyger iväg. Utomjordingar följer dig aldrig in i en säker zon eller genom en portal, och de som tappade bort dig nära en sådan tar sig därifrån, var och en åt sitt håll, så att de inte väntar i en hög. En utomjordings intressegräns är aldrig kortare än dess anfallsräckvidd och aggroradie, plus 100 enheter.
 
-Utomjordingar klumpar inte ihop sig: en flock som är ute efter en pilot håller visst avstånd mellan sina skepp medan den närmar sig (150 enheter mellan skroven, så en flock Phantasm flyger 250 enheter från varandra i stället för skrov mot skrov), och en utomjording som ger sig av med andra i närheten flyger bort från dem, så en flock som har tappat sin pilot splittras åt alla håll.
+Utomjordingar skjuter inte undan varandra: en flock efter en pilot närmar sig utan att lämna något utrymme mellan sina skepp, och en flock som tappat sin pilot sprids först när varje utomjording väljer sin egen väg. En utomjording håller däremot avstånd till ett **skepp**: den hamnar aldrig inuti en pilots skrov, och en pilot som parkerar på en knuffar den med sig.
 
-Att flyga fortare hjälper bara till en viss gräns: en Protos (150) är långsammare än varje utomjording som jagar (Phantasm 160, Bulwark 175, Crystalys 230), så det är avståndsgränsen, inte din hastighet, som avslutar jakten.
+Att flyga fortare hjälper bara till en viss gräns: en Protos (160) är inte snabbare än någon utomjording som jagar (Phantasm 160, Bulwark 175, Crystalys 230), så det är avståndsgränsen, inte din hastighet, som avslutar jakten.
 
 ---
 
@@ -104,6 +109,7 @@ Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **geno
 - **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där).
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
+- **Drönarformationer.** Rampart höjer din absorption med 17 % (Shrike sänker den med 6 %), och Asterism ger varje direkt träff på dig 7 % chans att inte göra någon skada alls (ett flytande ”Miss” visas), och de träffar som landar delas av sköld och skrov som vanligt. Gemini (+9 poäng) och Stiletto (+16) lägger genomträngning till din egen ammunition och direkta raketer, upp till 40 % sammanlagt ([Drönarformationer](/wiki/03-Mechanics/Formations.md)).
 
 ### 2. Immunitet i säker zon {#2-safe-zone-immunity}
 
@@ -127,8 +133,9 @@ För att återhämta sig efter strid kan piloter förlita sig på passiv regener
 
 - **Funktion**: Återställer sköldpoäng motsvarande din skölds laddningstakt per sekund.
 - **Fördröjning**: Avbryts av strid; den passiva regenereringen återupptas först efter **15 sekunder** utan skada.
+- **Drönarformationer**: Adamant och Redoubt ger tillbaka sköld varje sekund, även i strid (se [Drönarformationer](/wiki/03-Mechanics/Formations.md)).
 
-### 1b. Siphon Battery {#1b-siphon-battery}
+### 1b. Siphon Battery
 
 Ammunitionen [Siphon Battery](/wiki/06-Items/Lasers.md) lägger den sköld den dränerar från ett mål till din direkt, upp till ditt maximum. Att få sköld är ingen skada du tar, så det fördröjer inte din passiva regenerering.
 

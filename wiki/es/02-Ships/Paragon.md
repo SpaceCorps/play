@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: d37c87fbe6d3997a -->
+<!-- wiki-i18n source: d6867c2daec4fa77 -->
 <!-- wiki-i18n title: Paragon -->
-# Paragon {#paragon}
+# Paragon
 
 La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre defensa y ataque y adecuado para operaciones de flota y patrullas fronterizas.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bbd76eb145ce6188 -->
+<!-- wiki-i18n source: c1ec7aa1207d519d -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -9,6 +9,8 @@
 - [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md): Dormant Force와 그 Dormant Pulse. 가장 강한 무리이며 전리품이 가장 풍부합니다.
 
 무리의 함선은 **각각 독립된 종류의 외계인**입니다. 고유한 이름과 고유한 처치 횟수를 가지며, Seeker나 Phantasm 같은 다른 외계인으로는 집계되지 않습니다. 무리의 함선은 바탕이 된 함선의 모양을 하고 있고, 고유한 색조를 띠며 머리 위에 이름이 표시됩니다. Boss Seeker는 훨씬 큰 Seeker입니다.
+
+**클랜 워든**은 공개된 무리가 아닙니다. 클랜은 일일 라인의 마지막 단계를 위해 자기 워든을 직접 소환하며, 그 클랜만 피해를 줄 수 있습니다. 섹터를 돌아다니는 워든을 만날 일은 없고, 아래 표에도 나오지 않습니다. [클랜](/wiki/03-Mechanics/Clans.md#clan-wardens)을 참고하세요.
 
 ## 세 무리 {#the-three-swarms}
 
@@ -97,4 +99,4 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 
 <!-- swarms-points:end -->
 
-무리의 처치는 다른 외계인의 처치로 집계되지 않습니다. Boss Seeker나 Seeker Slave는 Seeker를 요구하는 퀘스트에서 Seeker로 인정되지 않으며, 초기화 포인트의 이정표([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points))도 다섯 외계인의 것뿐입니다.
+무리의 처치는 다른 외계인의 처치로 집계되지 않습니다. Boss Seeker나 Seeker Slave는 Seeker를 요구하는 퀘스트에서 Seeker로 인정되지 않으며, 초기화 포인트의 이정표([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points))도 다섯 외계인의 것뿐입니다. 무리 함선을 요구하는 미션은 [무리 미션](/wiki/03-Mechanics/Quests.md#swarm-missions)에 정리되어 있습니다.

@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 0105c89d1cbd6996 -->
+<!-- wiki-i18n source: da31a9c98f00d180 -->
 <!-- wiki-i18n title: Protos -->
-# Protos {#protos}
+# Protos
 
 A Protos az egyszerű kezdőhajó, amelyet minden új pilóta megkap a SpaceCorpsban. Könnyű, de a kezdő műveletekhez jól fejleszthető.
 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 8 000
-- **Alapsebesség**: 150
+- **Alapsebesség**: 160
 - **Lézerfoglalatok**: 2
-- **Extrafoglalatok**: 3
+- **Extrafoglalatok**: 2
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 
@@ -30,7 +30,7 @@ A Protos az egyszerű kezdőhajó, amelyet minden új pilóta megkap a SpaceCorp
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
 - **Nem kell kutatni.** Ennek a hajónak nincs saját technológiája.
-- **További extrafoglalatok.** A Skylabodba telepített Extra Slots CPU I, II és III ennek a hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 6, 8 és 10 foglalatot a saját 3 mellé. Úgy kutatod ki és készíted el őket, mint bármelyik más tárgyat: lásd [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
+- **További extrafoglalatok.** A Skylabodba telepített Extra Slots CPU I, II és III ennek a hajónak 3, 5 és 7 további extrafoglalatot ad, vagyis összesen 5, 7 és 9 foglalatot a saját 2 mellé. Úgy kutatod ki és készíted el őket, mint bármelyik más tárgyat: lásd [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus).
 
 <!-- research-ship:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 68b8f5293ad88b67 -->
+<!-- wiki-i18n source: 969bfa836749a15e -->
 <!-- wiki-i18n title: Framdrivning -->
 # Framdrivning och fart {#propulsion-speed}
 
@@ -48,7 +48,7 @@ Motorernas sköldbonus finns i föremålsdatan, men spelet har aldrig tillämpat
 
 ## Styrraketer {#thrusters}
 
-Styrraketer sätts inuti motorer eller adaptiva kärnor för att höja farten de ger. Det finns två familjer med fyra nivåer var: **Impulse Thruster** ger mest fast fart och multiplicerar farten hos motorn de sitter i lite, **Momentum Thruster** ger mindre fast fart, men multiplicerar den mer. En motor (eller adaptiv kärna) med styrraketer ger **sin egen grundhastighet plus styrraketernas fasta fartökningar, alltihop gånger styrraketernas fartmultiplikatorer multiplicerade med varandra** ([så beräknas hastigheten](/wiki/03-Mechanics/Speed.md)): en Engine III med tre Momentum Thruster IV ger (6 + 3 x 12) x 1,14 x 1,14 x 1,14 = 62,2, med tre Impulse Thruster IV (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5, och en Adaptive Core II med två Impulse Thruster IV ger (0 + 2 x 17) x 1,02 x 1,02 = 35,4 (31,2 med två Momentum Thruster IV).
+Styrraketer sätts inuti motorer eller adaptiva kärnor för att höja farten de ger. Det finns två familjer med fyra nivåer var: **Impulse Thruster** ger mest fast fart och multiplicerar farten hos motorn de sitter i lite, **Momentum Thruster** ger mindre fast fart, men multiplicerar den mer. En motor (eller adaptiv kärna) med styrraketer ger **sin egen grundhastighet plus styrraketernas fasta fartökningar, alltihop gånger styrraketernas fartmultiplikatorer multiplicerade med varandra** ([så beräknas hastigheten](/wiki/03-Mechanics/Speed.md)): en Engine III med tre Momentum Thruster IV ger (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, med tre Impulse Thruster IV (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5, och en Adaptive Core II med två Impulse Thruster IV ger (0 + 2 x 17) x 1,02 x 1,02 = 35,4 (29,6 med två Momentum Thruster IV).
 
 | Namn | Sällsynthet | Fast fartökning | Fartmultiplikator | Kostnad |
 | :--- | :--- | :---: | :---: | :--- |
@@ -56,17 +56,17 @@ Styrraketer sätts inuti motorer eller adaptiva kärnor för att höja farten de
 | **Impulse Thruster II** | Vanlig | +10 | ×1,02 | Kan bara tillverkas |
 | **Impulse Thruster III** | Sällsynt | +15 | ×1,03 | Kan bara tillverkas |
 | **Impulse Thruster IV** | Episk | +17 | ×1,02 | Kan bara tillverkas |
-| **Momentum Thruster I** | Skral | +4 | ×1,08 | 20 000 krediter |
-| **Momentum Thruster II** | Vanlig | +8 | ×1,10 | Kan bara tillverkas |
-| **Momentum Thruster III** | Sällsynt | +11 | ×1,13 | Kan bara tillverkas |
-| **Momentum Thruster IV** | Episk | +12 | ×1,14 | Kan bara tillverkas |
+| **Momentum Thruster I** | Skral | +4 | ×1,06 | 20 000 krediter |
+| **Momentum Thruster II** | Vanlig | +8 | ×1,07 | Kan bara tillverkas |
+| **Momentum Thruster III** | Sällsynt | +11 | ×1,09 | Kan bara tillverkas |
+| **Momentum Thruster IV** | Episk | +12 | ×1,11 | Kan bara tillverkas |
 
-Vilken familj som är snabbast beror på var den sitter. Impulse Thruster ger mer i en adaptiv kärna och i en motor med en eller två styrraketer; Momentum Thruster på samma nivå ger mer i en Engine III där alla tre platserna är fyllda (62,2 mot 60,5 på nivå IV, och en Impulse Thruster IV med två Momentum Thruster IV, 62,3, är det bästa en Engine III kan bli).
+På varje nivå ger en Impulse Thruster mer än en Momentum Thruster på samma nivå, i en adaptiv kärna och i en motor med en, två eller tre styrraketer (60,5 mot 57,4 med tre styrraketer på nivå IV i en Engine III, och tre Impulse Thruster IV är det bästa en Engine III kan bli). Det en Momentum Thruster har extra är en andra bonus (nedan).
 
-En bonus på en styrrakets fartmultiplikator från [Smedjan](/wiki/06-Items/Forge.md) ökar delen över 1 (en bonus på +15 % på ×1,14 ger ×1,161), och Smedjan slumpar ingen bonus på en multiplikator på ×1,05 eller lägre: på en Impulse Thrusters ×1,02 eller ×1,03 vore den värd en tusendel. En Impulse Thruster rymmer en bonus (sin fasta fart), en Momentum Thruster två.
+En bonus på en styrrakets fartmultiplikator från [Smedjan](/wiki/06-Items/Forge.md) ökar delen över 1 (en bonus på +15 % på ×1,11 ger ×1,1265), och Smedjan slumpar ingen bonus på en multiplikator på ×1,05 eller lägre: på en Impulse Thrusters ×1,02 eller ×1,03 vore den värd en tusendel. En Impulse Thruster rymmer en bonus (sin fasta fart), en Momentum Thruster två.
 
 Nivå I i varje familj säljs för 20 000 krediter. Nivå II till IV tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules), var och en av styrraketen i samma familj en nivå under (en Impulse Thruster II av en Impulse Thruster I, en III av en II, en IV av en III), med Thulium, byte och Velkonite Reinforced Plates från din Skylab (2, 4 och 6 plåtar). En styrraket byter aldrig familj: du väljer Impulse eller Momentum när du köper nivå I. Var och en behåller förtrollningsnivån hos den styrraket den förbrukar, och dess bonusar slumpas på nytt ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Styrraketer passar inte i en [förmågeplats](/wiki/03-Mechanics/Abilities.md); de hör hemma inuti motorer och adaptiva kärnor.
 
 ### Köra ifrån utomjordingar {#outrunning-aliens}
 
-Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion med en Engine II och två styrraketer når fart 223,1 med Impulse Thruster I: fortfarande under Crystalys, så det krävs en styrraket tillverkad i Monteringen för att köra ifrån den (234,0 med Impulse Thruster II, 245,5 med III, 249,1 med IV). Momentum Thruster flyger lite lägre på det skeppet (222,6 med en Momentum Thruster I; 233,2, 242,5 och 245,8 med II till IV): nivå I i båda familjerna ligger under en Crystalys, och varje nivå som tillverkas i Monteringen ligger över.
+Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion med en Engine II och två styrraketer når fart 223,1 med Impulse Thruster I: fortfarande under Crystalys, så det krävs en styrraket tillverkad i Monteringen för att köra ifrån den (234,0 med Impulse Thruster II, 245,5 med III, 249,1 med IV). Momentum Thruster flyger lite lägre på det skeppet (222,0 med en Momentum Thruster I; 231,8, 240,1 och 243,9 med II till IV): nivå I i båda familjerna ligger under en Crystalys, och varje nivå som tillverkas i Monteringen ligger över.

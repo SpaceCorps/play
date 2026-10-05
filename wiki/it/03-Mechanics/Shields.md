@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 815a7ed973fd7e50 -->
+<!-- wiki-i18n source: a523b862d9fc9447 -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -13,13 +13,15 @@ I parametri finali dello scudo della tua nave si calcolano così:
 
 ### 1. Efficienza degli slot e rendimenti decrescenti {#1-slot-efficiency-diminishing-returns}
 
-Come per i motori, gli scudi equipaggiati (e i generatori ibridi) vengono ordinati per capacità e soggetti all’efficienza dello slot (principale: 100%, di supporto: 75%, ausiliario: 50%, lo slot di un drone: 100%, come uno slot principale) e a una curva di rendimenti decrescenti basata sulla loro posizione. Uno scudo su uno dei tuoi [droni](/wiki/03-Mechanics/Drones.md) viene classificato insieme a quelli della nave:
+Come per i motori, gli scudi equipaggiati (e i generatori ibridi) vengono ordinati dal migliore e soggetti all’efficienza dello slot (principale: 100%, di supporto: 75%, ausiliario: 50%, lo slot di un drone: 100%, come uno slot principale) e a una curva di rendimenti decrescenti basata sulla loro posizione. Uno scudo viene classificato in base a ciò che conta di lui: la sua capacità per la quota del suo slot. La ricarica ha un proprio ordine (il suo valore per la quota dello slot), e contano i **quattro migliori** bonus scudo. Uno scudo su uno dei tuoi [droni](/wiki/03-Mechanics/Drones.md) viene classificato insieme a quelli della nave:
 
 - **Dal 1º al 4º scudo**: **100%** (1,0) di efficienza marginale.
 - **5º scudo**: **85%** (0,85) di efficienza marginale.
 - **6º scudo**: **70%** (0,70) di efficienza marginale.
 - **7º scudo**: **55%** (0,55) di efficienza marginale.
 - **8º e oltre**: **50%** (0,50) di efficienza marginale. (Fino alla versione 0.4.7 era il 25%, come per i motori; i motori restano al 25%, vedi [Velocità](/wiki/03-Mechanics/Speed.md).)
+
+**Aggiungere non abbassa mai il tuo scudo.** Aggiungere uno scudo o una cella scudo non abbassa mai la tua capacità scudo né la tua ricarica: ogni numero viene ordinato dal migliore in base a ciò che conta, quindi un pezzo nuovo prende il posto che si merita. L’assorbimento è la media dei tuoi scudi, quindi lo abbassa un nuovo scudo più debole della tua media; una cella mai.
 
 **L’hangar lo mostra.** Uno scudo, un motore o un nucleo adattivo che non conta con tutta la sua forza porta una piccola percentuale sul suo slot (per esempio `64%`: il 5º scudo, all’85%, in uno slot di supporto, al 75%), e passandoci sopra il cursore compare il dettaglio. Passa il cursore sulle caselle Scudi e Velocità delle statistiche di combattimento per vedere i tuoi oggetti per posizione e quanto conterebbe uno in più. La finestra Nave in volo mostra le stesse liste quando passi il cursore sulla sua barra dello scudo e sulla velocità.
 
@@ -68,4 +70,4 @@ Per i numeri vedi [Booster](/wiki/06-Items/Boosters.md).
 Gli scudi si rigenerano passivamente nel tempo per tenerti pronto al combattimento.
 
 - **Impulso di rigenerazione**: se gli scudi sono sotto la capacità massima, ripristinano ogni secondo punti scudo pari alla tua velocità di ricarica.
-- **Interruzione da combattimento (ritardo di 15 s)**: la rigenerazione si ferma quando subisci danni e riprende solo dopo **15 secondi** senza subirne.
+- **Interruzione da combattimento (ritardo di 15 s)**: la rigenerazione si ferma quando subisci danni e riprende solo dopo **15 secondi** senza subirne. Le formazioni di droni Adamant e Redoubt ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)) fanno eccezione: restituiscono scudo ogni secondo, anche in combattimento.

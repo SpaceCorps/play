@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 11c0c437552d59ea -->
+<!-- wiki-i18n source: 62e2a68759c08dec -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
 A SpaceCorps univerzumát egy ismétlődő szezonális ciklus irányítja. 30 naponta a galaxis egy kozmikus resetet él át, amelyet **wipe**-nak hívnak. Bár a reset ijesztően hangozhat, valójában a felkészülés és a tervezés végső próbája: átviheted a legjobb felszerelésedet, kiválaszthatod a következő világodat, és állandó, szezonokon átívelő bónuszokat építhetsz.
 
 ---
+
+![The Season page](../../img/wiki-img/shots/season.jpg)
 
 ## A 30 napos szezon menetrendje {#30-day-season-schedule}
 
@@ -48,6 +50,7 @@ A következő tárgyak mindig védettek, és automatikusan átkerülnek a követ
 1. Az éppen aktív hajód.
 2. Minden tárgy, amely jelenleg fel van szerelve arra az aktív hajóra, mind a **Konfig 1**, mind a **Konfig 2** konfigurációban (a lézereket, pajzsokat, hajtóműveket és generátorokat is beleértve).
 3. Minden drónod, a szintjével és a tapasztalatával együtt: a [Slave Drone-jaid](/wiki/03-Mechanics/Drones.md) megmaradnak, így a drónfoglalataid nyitva maradnak, és a következő drónod ára a birtokolt darabszámtól folytatódik. A drónfoglalatba szerelt lézerek és pajzsok a fenti szabályt követik: akkor maradnak meg, ha az aktív hajón vannak.
+4. Minden drónformáció, amelyet birtokolsz ([Drónformációk](/wiki/03-Mechanics/Formations.md)), bárhol is van: a leltáradban, a gyorssávodon vagy egy hajón. A drónjaidhoz hasonlóan ezek is megmaradnak, anélkül, hogy a tranzittároló kapacitásából foglalnának.
 
 ### Kézi átvitel (tranzittároló) {#manual-carry-over-transport-cache-}
 A leltáradban lévő további tárgyakhoz, amelyeket meg szeretnél menteni (pl. tartalék fegyverzet, gyártási nyersanyagok vagy extra pajzsgenerátorok):
@@ -83,7 +86,7 @@ A SpaceCorpsban három **világ** működik. Mindegyik az egész galaxis külön
 Hogyan működnek a világok:
 
 * **Idegenek**: egy világ idegenerőssége megszorozza az idegenek életerejét, pajzsát, pajzstöltődését és sebzését. A sebességük és a hatótávjuk mindenhol ugyanaz.
-* **Jutalom**: egy kilövés annak a világnak megfelelően fizet, amelyben történik. Egy küldetés annak a világnak megfelelően fizet, amelyben teljesítetted (a legalacsonyabbnak megfelelően, ha kettőt is érint), akármelyik világban veszed is át, és az időkorlátos küldetések időkorlátja a Betában 1,5-szer, a Gammában kétszer olyan hosszú ([Küldetések](/wiki/03-Mechanics/Quests.md)). A zsákmány és a vállalati pilóták minden világban ugyanazok, így egy magasabb világ óránként többet hoz, de a harcai több javításba kerülnek.
+* **Jutalom**: egy kilövés annak a világnak megfelelően fizet, amelyben történik. Egy küldetés annak a világnak megfelelően fizet, amelyben teljesítetted (a legalacsonyabbnak megfelelően, ha kettőt is érint), akármelyik világban veszed is át (az állomásküldetésnek nincs saját világa, és annak a világnak megfelelően fizet, amelyben repülsz, amikor átveszed), és az időkorlátos küldetések időkorlátja a Betában 1,5-szer, a Gammában kétszer olyan hosszú ([Küldetések](/wiki/03-Mechanics/Quests.md)). A zsákmány és a vállalati pilóták minden világban ugyanazok, így egy magasabb világ óránként többet hoz, de a harcai több javításba kerülnek.
 * **PvP**: a térképen mindenki annak a világnak a tagja, így egyetlen szabály érvényes az egész térképre, a vállalati pilótákat is beleértve. A biztonságos zónák és a Békeprotokoll (1–3. nap) minden világot védenek.
 * **Repülés közben**: a világ neve a szektor azonosítója előtt áll a jobb felső sarokban („Beta · M-2”). A Hajó ablak címsorában lévő jelvény megmondja, hol állsz: **Védett** egy biztonságos zónában, **Nincs PvP** a Békeprotokoll alatt vagy ott, ahol a világod tiltja a PvP-t, **PvP** ott, ahol más pilóták megtámadhatnak. Ha fölé viszed az egeret, megmutatja a szabályt. A [galaxistérkép](/wiki/01-General/Spacemap%20Travel.md) a világod szabálya szerint színezi a szektorokat.
 
@@ -97,7 +100,9 @@ Hogyan működnek a világok:
 
 ## Szezonokon átívelő fejlődés (állandó buffok) {#cross-season-progression-permanent-buffs-}
 
-A wipe elveszi a hajóidat és a tárgyaidat (kivéve az aktív hajódat a rajta lévő mindennel, a tranzittárolódat és a drónjaidat), és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé.
+A wipe elveszi a hajóidat és a tárgyaidat (kivéve az aktív hajódat a rajta lévő mindennel, a tranzittárolódat és a drónjaidat), és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé, kivéve azokat a szintküldetéseket, amelyeket a 0.4.10-es frissítés átdolgozott: közülük 64-et még egyszer felkínálnak ([Küldetések](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+
+**Klánok és rangok.** Egy klán pontjai, bónuszszintjei és napi vonalai minden wipe-nál újra kezdődnek, így minden szezon új verseny a teljes bónuszokért; maga a klán, a tagjai, a bankja és az adója marad ([Klánok](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A vállalati rangod is marad: a PvE-rangpontjaidat követi, amelyeket a wipe nem nulláz ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Az állandó buffok boltja {#the-permanent-buff-store}
 Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átívelnek az összes szezonon. Ezek a buffok halmozódnak, és jelentős passzív bónuszokat adnak:
@@ -128,4 +133,4 @@ A wipe-pontok mérföldkövekből jönnek, amelyeket magad veszel át, a játék
 
 Csak azok a kilövések számítanak, amelyekért jutalmat kapsz (lásd [Harc](/wiki/03-Mechanics/Combat.md)). Egy mérföldkő akkor fizet, ha teljes: 99 Seeker nem fizet semmit, a 100. 1 WP-t fizet, a rá következő kilövések pedig a 200. felé számítanak.
 
-**Küldetések.** Az első teljesített küldetésed 5 WP-t fizet, aztán minden 5. (az 5., 10., 15. és így tovább, a 100.-ig) további 5 WP-t fizet, összesen 105 WP-t.
+**Küldetések.** Az első teljesített küldetésed 5 WP-t fizet, aztán minden 5. (az 5., 10., 15. és így tovább, a 85.-ig) további 5 WP-t fizet, összesen 90 WP-t. Csak a szintküldetések számítanak (összesen 88; az állomásküldetések és a Kihívások sora nem, lásd a [Küldetések](/wiki/03-Mechanics/Quests.md) oldalt), és az újra elvégzett, átdolgozott szintküldetés nem számít másodszor.

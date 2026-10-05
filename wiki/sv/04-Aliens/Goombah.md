@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Goombah är mäktiga utomjordiska skepp i kryssarklass. De har hög sköldkapacitet och gör enorm skada, men de börjar aldrig en strid: en Goombah anfaller bara den pilot som anföll den. Skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md) är särskilda slags utomjordingar, med egna artiklar i kategorin Svärmar.
 

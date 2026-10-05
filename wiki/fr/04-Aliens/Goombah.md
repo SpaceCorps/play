@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont une grande capacité de bouclier et infligent des dégâts massifs, mais ne déclenchent jamais un combat : un Goombah n’attaque que le pilote qui l’a attaqué. Les vaisseaux des [essaims](/wiki/05-Swarms/Swarms.md) sont des espèces d’aliens à part, avec leurs propres articles dans la catégorie Essaims.
 

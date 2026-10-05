@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9c10cf44ca1e9046 -->
+<!-- wiki-i18n source: ada9270855f7afe9 -->
 <!-- wiki-i18n title: Goombah -->
-# Goombah {#goombah}
+# Goombah
 
 Goombahs sind furchteinflößende Alien-Schiffe der Kreuzerklasse. Sie haben eine hohe Schildkapazität und richten gewaltigen Schaden an, beginnen aber nie einen Kampf: Ein Goombah greift nur den Piloten an, der ihn angegriffen hat. Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 

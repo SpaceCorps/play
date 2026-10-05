@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 9da9d769bbd866ae -->
+<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
 <!-- wiki-i18n title: Phantasm -->
-# Phantasm {#phantasm}
+# Phantasm
 
 Phantasm은 공격적인 유령급 드론입니다. 어그로 반경(700유닛) 안에 들어오는 플레이어는 누구든 공격하며, 파일럿이 1,200유닛 넘게 멀어지거나 Phantasm이 추격을 시작한 지점에서 2,000유닛을 날아가면 관심을 잃습니다(Phantasm에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(700유닛) 밖에 있을 때마다 Phantasm은 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Phantasm은 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 

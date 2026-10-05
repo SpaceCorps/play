@@ -1,6 +1,6 @@
-<!-- wiki-i18n source: 149e34b610132a0e -->
+<!-- wiki-i18n source: 23337c1f109c154d -->
 <!-- wiki-i18n title: Ironclad -->
-# Ironclad {#ironclad}
+# Ironclad
 
 Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest plats för sköldar, något den betalar för med färre kanoner och en långsammare drivning. Den tillverkas i Monteringen, mellan Paragon och Wraith.
 

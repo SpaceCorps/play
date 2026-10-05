@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 La Wraith è la suprema nave di classe corazzata, con una potenza di fuoco senza rivali, una capacità di scudo enorme e velocità eccezionali.
 
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 324.000
-- **Velocità di base**: 225
+- **Velocità di base**: 220
 - **Slot laser**: 12
 - **Slot extra**: 3
 

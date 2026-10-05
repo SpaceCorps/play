@@ -5,7 +5,7 @@ The Wraith is the ultimate battleship-class vessel, boasting unmatched firepower
 ## Stats
 
 - **Hitpoints (HP)**: 324,000
-- **Base Speed**: 225
+- **Base Speed**: 220
 - **Laser Slots**: 12
 - **Extra Slots**: 3
 

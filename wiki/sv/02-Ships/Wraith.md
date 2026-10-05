@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: 3897f0f0451eb8a8 -->
+<!-- wiki-i18n source: 50fa888ddacd9f80 -->
 <!-- wiki-i18n title: Wraith -->
-# Wraith {#wraith}
+# Wraith
 
 Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldkapacitet och exceptionell hastighet.
 
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 324 000
-- **Grundhastighet**: 225
+- **Grundhastighet**: 220
 - **Laserplatser**: 12
 - **Extraplatser**: 3
 
