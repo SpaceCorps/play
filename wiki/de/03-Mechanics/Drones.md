@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Jede Drohne, die du besitzt, eine **Slave Drone** oder eine Master Drone, schalt
 
 ## Fluganordnung & Bewegung {#formation-movement}
 
-Drohnen fliegen in einer Standard-**„Wingman“-Anordnung (2-2-4)**:
+Ohne getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) fliegen deine Drohnen in der Standard-**„Wingman“-Anordnung (2-2-4)**, der **Standard**-Anordnung:
 
 - **2 Drohnen** neben dem Schiff, eine auf jeder Flanke.
 - **2 Drohnen** neben und knapp hinter ihm.
 - **4 Drohnen** dahinter.
 
-Sie nutzen einen flüssigen Folgealgorithmus, der ihre Position an Tempo und Drehung deines Schiffs anpasst und die Anordnung bei scharfen Manövern enger zieht. Niemand fliegt vor dir.
+Sie nutzen einen flüssigen Folgealgorithmus, der ihre Position an Tempo und Drehung deines Schiffs anpasst und die Anordnung bei scharfen Manövern enger zieht. In dieser Anordnung fliegt niemand vor dir.
 
-Drohnen sind klein und bleiben nah: Eine Drohne auf Level 8 ist etwa 19,5 Einheiten breit (eine Protos 50), und eine Drohne auf Level 1 ist eine Kugel von etwa 8, sodass die ganze Anordnung in etwa 135 Einheiten um dein Schiff Platz findet. Die Drohne, die du zuerst gekauft hast, hat die meiste Erfahrung und fliegt auf deiner linken Flanke, die zweite auf deiner rechten, und die neuesten fliegen hinterher.
+Drohnen sind klein und bleiben nah: Eine Drohne auf Level 8 ist etwa 19,5 Einheiten breit (eine Protos 50), und eine Drohne auf Level 1 ist eine Kugel von etwa 8, sodass die ganze Anordnung in etwa 135 Einheiten zu beiden Seiten deines Schiffs und hinter ihm Platz findet. Die Drohne, die du zuerst gekauft hast, hat die meiste Erfahrung und fliegt in dieser Anordnung auf deiner linken Flanke, die zweite auf deiner rechten, und die neuesten fliegen hinterher.
 
-Diese Anordnung bestimmt nur, wie die Drohnen aussehen, und sie ist dieselbe, welche [Drohnenformation](/wiki/03-Mechanics/Formations.md) du auch trägst. Eine Drohnenformation ist ein Satz aus Boni und Preisen, keine andere Art zu fliegen.
+Trägst du eine [Drohnenformation](/wiki/03-Mechanics/Formations.md), verlassen die Drohnen diese Anordnung: **Jede der 16 Formationen hat eine eigene Form**, ein Dach über den Flügeln, eine Raute, ein Herz, Flügel, ein Schwert, einen Bohrer und mehr, und die Drohnen gleiten in unter einer Sekunde dorthin. Die Form wird für die Drohnen gebaut, die du hast, bis zu 8, und sie dreht sich mit deinem Schiff. Andere Piloten sehen sie auch. [So fliegen sie](/wiki/03-Mechanics/Formations.md#how-they-fly) zeigt alle sechzehn. Trage **Standard**, den Eintrag der Formationenliste, der keine Formation ist, und die Drohnen fliegen wieder die Wingman-Anordnung.
+
+Du kannst die Drohnen in Einstellungen › Oberfläche ausschalten: **Eigene Drohnen anzeigen** für deine und **Gegnerische Drohnen anzeigen** für die anderer Piloten.
 
 ## Ausrüstung & Werte {#equipment-stats}
 

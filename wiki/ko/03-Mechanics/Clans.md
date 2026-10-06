@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: 클랜 -->
 # 클랜 {#clans}
 
@@ -263,7 +263,7 @@
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-워든은 처치 통계에 자기 이름으로 집계되며, 내 [계급](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)에 PvE 포인트를 더합니다. 워든 I, II, III의 리더는 **10, 15, 25**, 부하는 1기당 1입니다.
+워든은 처치 통계에 자기 이름으로 집계되며, 내 [계급](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)에 PvE 포인트를 더합니다. 리더는 워든의 종류와 강도에 따라 **13~35**(워든 III이 가장 높음), 부하는 1기당 **1~6**이며 승무원이 강할수록 많습니다.
 
 ---
 

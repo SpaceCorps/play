@@ -63,7 +63,7 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 | Thulium | 725 | 1 450 | 2 175 |
 | Erfarenhet (XP) | 29 000 | 58 000 | 87 000 |
 | Heder | 232 | 464 | 696 |
-| PvE-poäng per nedskjutning | 10 | 10 | 10 |
+| PvE-poäng per nedskjutning | 15 | 15 | 15 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
@@ -90,7 +90,7 @@ Bygger på Kitefin med 50 % av skrov, sköld och skada; hastighet och räckvidd
 | Thulium | 4 | 8 | 12 |
 | Erfarenhet (XP) | 100 | 200 | 300 |
 | Heder | 2 | 4 | 6 |
-| PvE-poäng per nedskjutning | 1 | 1 | 1 |
+| PvE-poäng per nedskjutning | 4 | 4 | 4 |
 
 **Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.
 

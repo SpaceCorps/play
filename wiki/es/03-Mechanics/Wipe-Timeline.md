@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Así funcionan los mundos:
 
 El Reinicio se lleva tus naves y tus objetos (salvo tu nave activa con todo lo que lleva equipado, tu Alijo de Transporte y tus drones) y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre, salvo las misiones de nivel que la actualización 0.4.10 rehízo: 64 de ellas se ofrecen una vez más ([Misiones](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clanes y rangos.** Los puntos, los niveles de mejora y las líneas diarias de un clan empiezan de nuevo en cada reinicio, así que cada temporada es una nueva carrera por las mejoras al máximo; el clan en sí, sus miembros, su banco y su impuesto se quedan ([Clanes](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Tu rango de corporación también se queda: sigue tus puntos de clasificación PvE, que un reinicio no restablece ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clanes y rangos.** Los puntos, los niveles de mejora y las líneas diarias de un clan empiezan de nuevo en cada reinicio, así que cada temporada es una nueva carrera por las mejoras al máximo; el clan en sí, sus miembros, su banco y su impuesto se quedan ([Clanes](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Tus puntos de clasificación PvE también se quedan, así que un reinicio no te mueve en la clasificación de tu corporación: tu rango sigue tu puesto allí, no la temporada ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La tienda de mejoras permanentes {#the-permanent-buff-store}
 Puedes gastar los PR acumulados en mejoras permanentes que se conservan en todas las temporadas para siempre. Estas mejoras se acumulan y dan importantes bonificaciones pasivas:

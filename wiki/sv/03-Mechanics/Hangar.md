@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ Pågående reparationer hindrar dig inte. Överallt annars öppnas Hangarfönstr
 ## Vad du kan ändra {#what-you-can-change}
 
 - **Utrusta och ta av vad som helst**, i alla slags platser: lasrar, generatorer (sköldar, motorer, adaptiva kärnor), extrautrustning, förmågeplatser och drönarplatser, samt förstärkarna, cellerna och styrraketerna som sitter i dem. Dra föremål till platserna, eller klicka på dem, precis som på stationen. Ditt skepp följer med direkt: värden, lasrar, förmågor och snabbfältet.
+- **Ta av allt.** Knappen **Ta av allt** i Hangarens verktygsfält tömmer i ett svep konfigurationen som visas i vyn **Rymdskepp**: lasrar, sköldar, motorer, adaptiva kärnor, extrautrustning och förmågeplatser **och lasrarna och sköldarna i dina drönares platser**, med förstärkarna, cellerna och styrraketerna som sitter i dem. Allt går tillbaka till ditt förråd, allt eller inget. Dina **drönare förblir dina** (en drönare monteras aldrig på ett skepp, så det finns inget att ta av den) och den **drönarformation** du bär sitter kvar. Den andra konfigurationen rörs inte. I flygning gäller reglerna för alla ändringar: från en säker zon, utanför strid. Vyn **Drönare** har en egen knapp som bara tömmer drönarnas platser.
 - **Båda konfigurationerna.** Du kan förbereda Konfig 2 medan du flyger med Konfig 1 och sedan byta med tangenten Byt konfig. En knapp **Flyg konfig** i hangaren gör samma byte.
 - **Vilket skepp som helst.** Gör ett annat skepp aktivt så flyger du det därifrån du är. Ditt skepps modell byts inför ögonen på alla i närheten.
 - **En ny sköld, motor eller adaptiv kärna börjar tom**, som på stationen: konfigurationens sköldladdning är tom tills den har laddats upp.

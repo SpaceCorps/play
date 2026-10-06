@@ -47,7 +47,7 @@ AI agents, automated test suites, and scripting environments should invoke this 
 ---
 
 <!-- release:packages -->
-## 3. Package Inventory & Release Artifacts (v0.4.10)
+## 3. Package Inventory & Release Artifacts (v0.4.11)
 
 Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
 
@@ -56,29 +56,29 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 1. **macOS Universal:**
    - Filename: `SpaceCorps2027-macos-universal.dmg`
    - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
-   - Size: 133,357,228 bytes (133.4 MB)
-   - SHA-256: `19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9`
+   - Size: 133,975,864 bytes (134.0 MB)
+   - SHA-256: `edb976b5c6e6692accb4b6c7997befeaf4013cc25d187d07877284eb379ab3e3`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
 
 2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
-   - Size: 127,838,255 bytes (127.8 MB)
-   - SHA-256: `67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4`
+   - Size: 128,417,513 bytes (128.4 MB)
+   - SHA-256: `da074f723dbfd5ebc16d44d68ea5f39bf3c7be0c333b54a4849705c4fc04871e`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
 3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
-   - Size: 123,550,200 bytes (123.6 MB)
-   - SHA-256: `581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb`
+   - Size: 124,107,256 bytes (124.1 MB)
+   - SHA-256: `feeded82801029d9137f5ab0d180632572442e129f1fdafb9979801e42fda1f0`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
 4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
-   - Size: 128,644,851 bytes (128.6 MB)
-   - SHA-256: `1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669`
+   - Size: 129,219,571 bytes (129.2 MB)
+   - SHA-256: `df3d8d5bd32ed0cf9309f19a1e320226d0d449340e1b8f9ab6b6bb117f65c29a`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
 
 Signed checksums: each release also carries `SHA256SUMS` (the SHA-256 of every package above,

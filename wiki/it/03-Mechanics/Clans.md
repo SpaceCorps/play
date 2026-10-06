@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -263,7 +263,7 @@ Il Custode lascia **una cassa** per il pilota che ha inflitto più danni; è sua
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-Un Custode viene contato con il proprio nome nelle tue statistiche degli abbattimenti e aggiunge punti PvE al tuo [grado](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 o 25** per il capo di un Custode I, II o III, e 1 per ogni aiutante.
+Un Custode viene contato con il proprio nome nelle tue statistiche degli abbattimenti e aggiunge punti PvE al tuo [grado](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **da 13 a 35** per il capo, secondo il Custode e la sua forza (un Custode III vale di più), e **da 1 a 6** per ogni aiutante, di più per un equipaggio più forte.
 
 ---
 

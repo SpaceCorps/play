@@ -89,7 +89,7 @@ Built from the Paragon at 100% of its hull, shield and damage; its speed and ran
 | Thulium | 255 | 510 | 765 |
 | Experience (XP) | 15,200 | 30,400 | 45,600 |
 | Honor | 66 | 132 | 198 |
-| PvE points per kill | 10 | 10 | 10 |
+| PvE points per kill | 11 | 11 | 11 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 

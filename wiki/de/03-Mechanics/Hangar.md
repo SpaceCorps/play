@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ Laufende Reparaturen halten dich nicht auf. Überall sonst öffnet sich das Hang
 ## Was du ändern kannst {#what-you-can-change}
 
 - **Alles ausrüsten und ablegen**, in jeder Art von Slot: Laser, Generatoren (Schilde, Triebwerke, adaptive Kerne), Extras, Fähigkeits-Slots und Drohnen-Slots sowie die Verstärker, Zellen und Schubdüsen darin. Ziehe Gegenstände auf Slots oder klicke sie an, genau wie in der Station. Dein Schiff folgt sofort: Werte, Laser, Fähigkeiten und die Aktionsleiste.
+- **Alles ablegen.** Die Schaltfläche **Alles ablegen** in der Symbolleiste des Hangars leert in einem Zug die Konfiguration, die in der Ansicht **Raumschiff** gezeigt wird: die Laser, Schilde, Triebwerke, adaptiven Kerne, Extras und Fähigkeits-Slots **und die Laser und Schilde in den Slots deiner Drohnen**, samt den Verstärkern, Zellen und Schubdüsen darin. Alles wandert zurück in dein Inventar, ganz oder gar nicht. Deine **Drohnen bleiben dir** (eine Drohne wird nie an ein Schiff angelegt, an ihr gibt es also nichts abzulegen), und die **Drohnenformation**, die du trägst, bleibt an. Die andere Konfiguration wird nicht angerührt. Im Flug gelten die Regeln jeder Änderung: aus einer Schutzzone, außerhalb eines Kampfes. Die Ansicht **Drohnen** hat eine eigene Schaltfläche, die nur die Slots der Drohnen leert.
 - **Beide Konfigurationen.** Du kannst Konfig 2 vorbereiten, während du Konfig 1 fliegst, und dann mit der Taste Konfig wechseln tauschen. Eine Schaltfläche **Konfig 1 fliegen** bzw. **Konfig 2 fliegen** im Hangar macht denselben Wechsel.
 - **Jedes Schiff.** Aktiviere ein anderes Schiff, und du fliegst es von dort aus, wo du bist. Das Modell deines Schiffs wechselt vor den Augen aller in der Nähe.
 - **Ein neuer Schild, ein neues Triebwerk oder ein neuer adaptiver Kern startet leer**, wie in der Station: Die Schildladung seiner Konfiguration ist leer, bis sie sich auflädt.

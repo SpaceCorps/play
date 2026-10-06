@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: 编队 -->
 # 无人机编队 {#drone-formations}
 
 **无人机编队**是无人机围绕飞船形成的一种阵型，它会改变飞船的战斗方式。每个编队都带来一些加成，也要付出一些代价：护盾更大但武器更弱，火箭更猛但船体更薄，击杀外星人更快但飞船更慢。共有 **16** 种。你在 [Skylab](/wiki/03-Mechanics/Skylab.md) 研究它，在装配站制作它，同一时间启用**一个**，可以是你拥有的任何一个。你每 **2 秒**可以换一次，战斗中也可以。
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@
 - **获得。** 在研究中心研究它的科技（有两棵树，*防御* 和 *打击与机动*），然后在装配站用 Thulium 制作。最便宜的要 7,000 Thulium 和 5 Dark Matter，最贵的要 46,000 Thulium 和 20 Dark Matter。商店不出售任何编队。
 - **拥有它。** 编队不装备在任何地方：库存里有一份就够了。你至少需要一架无人机，Slave Drone 或 Master Drone 都行，否则任何编队都不会生效。
 - **使用。** 把它从快捷栏的编队列表拖到任意槽位上。点击槽位或按它的键即可启用编队。列表里还有表示“无编队”的**标准**：把它拖到槽位上并按下，就回到无编队。每 2 秒可以切换一次，没有战斗锁定。
+- **看到它。** 每种编队都有自己的形状，你的无人机会在你的舰船周围按这个形状飞行：屋顶、心形、翅膀、剑、钻头。其他飞行员也能看到。见[飞行形状](#how-they-fly)。
 - **为接下来的一分钟选择。** 每种编队都要为它的加成付出代价，所以没有哪一种处处最强。选适合你接下来要做的事的那一种：狩猎、决斗、发射火箭，或者逃跑。
 
 > [!NOTE]
-> 编队不是你的无人机在飞船旁飞行时的“Wingman”布局（[无人机机制](/wiki/03-Mechanics/Drones.md#formation-movement)）。那种布局只决定它们的外观，不管你使用哪种编队，它都一样。无人机编队是一组加成和代价。
+> 无人机编队是两样东西：一组加成和代价，以及你的无人机飞行时的**形状**（[飞行形状](#how-they-fly)）。没有启用编队时，它们按简单的“Wingman”布局飞行（[无人机机制](/wiki/03-Mechanics/Drones.md#formation-movement)）。
 
 ## 获得编队 {#getting-a-formation}
 
@@ -32,7 +39,37 @@
 - **每 2 秒一次，战斗中也可以。** 没有战斗锁定，也没有稳定时间：新数值立刻生效。如果你请求得太早，聊天里会显示“1.4 秒后可再次切换编队。”在安全区内几乎不用等待。
 - **它会跟着你。** 游戏会记住你上次启用的编队，并在出击或重生时再次请求它。切换配置（`C` 键）不会取消它，也不用等待。
 - **需要无人机。** 如果你的舰队里没有 Slave Drone 或 Master Drone，编队什么也不会做。一架就够了：无人机的数量、等级和所携带的东西都无关紧要。
-- **其他人能看到。** 选中一名飞行员，目标窗口会显示“编队：”和它的名称。不会与你的小队共享任何东西。
+- **其他人能看到。** 每位能看到你舰船的飞行员，也会看到你的无人机按你的编队形状飞行。选中一名飞行员，目标窗口会显示“编队：”和它的名称。不会与你的小队共享任何东西。
+
+## 飞行形状 {#how-they-fly}
+
+每种编队都会给你的无人机**自己的形状**。启用一种，无人机就会离开简单的“Wingman”布局，用 **0.8 秒**滑行到它在你舰船周围的形状，绕过船体，绝不会穿过去。这是空间中的形状：Testudo 的屋顶悬在机翼上方，Auger 是一个圆锥，整个形状会随你的舰船一起转向，所以它的前方永远是你的船头所指的方向。其中六种在本页顶部的图片里，每张都是一艘 Paragon 加八台 8 级无人机，从上方观看，镜头略微倾斜：Auger、Culler、Gyre、Sanctum、Stiletto 和 Testudo。
+
+- **没有编队，就没有形状。** 没有启用任何编队时（编队列表里的**标准**），无人机按[无人机机制](/wiki/03-Mechanics/Drones.md#formation-movement)里简单的“Wingman”布局飞行。
+- **按你拥有的无人机构建。** 形状正好是为你拥有的无人机数量构建的，1 到 8 台：有一两台时你只能看到它的开头，有全部 **8** 台时才是完整的形状，就像图片里那样。它们的等级和所携带的物品对形状没有任何影响。
+- **贴合你的舰船。** 长的舰船飞出的形状比小舰船的更长，无人机会与船体保持距离。
+- **所有人都能看到。** 其他飞行员会看到你的形状，你也会看到他们的。距离你的镜头超过 **3,500 单位** 的舰船不显示无人机，人多时只有最近的 **64** 艘显示。
+- **关闭它。** 设置 › 界面里有**显示我的无人机**和**显示敌方无人机**（其他飞行员的无人机）。它们只改变你看到的内容：你的编队加成照常生效。**减弱动态效果**（设置 › 图形）会让会动的形状，即 Cordon、Asterism、Culler、Gyre 和 Auger，保持静止，并把滑行缩短到 **0.2 秒**。
+- **看高度。** 屋顶、碗和钻头有高度，而正上方的视角几乎看不出来。用右键拖动转动镜头（[新手入门](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)），就能从侧面看到它们。
+
+| 编队 | 形状 | 会动的部分 |
+| :--- | :--- | :--- |
+| **Testudo** | 屋顶：机翼上方的两列无人机，中间留出舰船的脊背 | 无 |
+| **Adamant** | 环绕舰船的菱形：前方一个角、后方一个角、两侧各一个角 | 无 |
+| **Sanctum** | 船头前方的心形，尖端朝向你的舰船 | 无 |
+| **Redoubt** | 碗形：环绕船体的一圈、机翼上方的一对，以及最上面的一台 | 无 |
+| **Cordon** | 环绕舰船的宽圆环 | 每 24 秒转一圈 |
+| **Rampart** | 横在船头前方的一堵墙，两端像钳子一样向前弯 | 无 |
+| **Asterism** | 四个尖角的光之星：前、后和两侧各有一个尖角 | 每台无人机每 1.5 秒胀大并缩小一次 |
+| **Bodkin** | 以你的舰船为箭头的箭：船头前一个箭尖，沿两舷的倒刺，后方一根箭杆 | 无 |
+| **Ballista** | 舰船前方的 V 形，两臂沿两侧向后伸 | 无 |
+| **Centurion** | 方阵：守卫排成环绕舰船的矩形 | 无 |
+| **Shrike** | 船头前方的三叉戟，舰船是它的柄：一排三台加三根叉尖，中间一根最长 | 无 |
+| **Culler** | 翅膀：两侧各一把无人机扇面，有长有短，无人机数量为奇数时船头前多一个头 | 翅尖每 2.4 秒起落一次 |
+| **Gemini** | 双矛：沿每一舷各一列无人机，矛尖在船头前方 | 无 |
+| **Stiletto** | 以舰船为剑柄的剑：船头前最多六台组成的剑身，船头处一对作护手 | 无 |
+| **Gyre** | 车轮：由辐条连接的轮缘和轮毂 | 每 6 秒转一圈 |
+| **Auger** | 钻头：环绕舰船的圆锥，尖端在船头前方，宽端在你身后，无人机指向你注视的方向 | 无人机绕舰船的飞行轴螺旋转动，每 3 秒一圈 |
 
 ## 十六种编队 {#the-sixteen-formations}
 

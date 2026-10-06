@@ -2,6 +2,12 @@
 
 A **drone formation** is a pattern your drones take around the ship, and it changes how the ship fights. Every formation gives some bonuses and charges some prices: a bigger shield for weaker guns, harder rockets for a thinner hull, faster alien kills for a slower ship. There are **16**. You research one in your [Skylab](/wiki/03-Mechanics/Skylab.md), make it in Assembly and wear **one** at a time, any of the ones you own. You may change it every **2 seconds**, in a fight too.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../img/wiki-img/shots/research-formations.jpg)
@@ -11,10 +17,11 @@ A **drone formation** is a pattern your drones take around the ship, and it chan
 - **Get one.** Research its technology in the Research Centre (two trees, *Defence* and *Strike & Mobility*), then craft it in Assembly for Thulium. The cheapest costs 7,000 Thulium and 5 Dark Matter, the dearest 46,000 Thulium and 20 Dark Matter. The Shop sells none.
 - **Own it.** A formation is not fitted anywhere: a copy in your inventory is enough. You need at least one drone, a Slave Drone or a Master Drone, or no formation works.
 - **Wear it.** Drag it from the hotbar's Formations list onto any slot. Click the slot or press its key to wear the formation. The list also has **Standard**, which is no formation: drag it onto a slot and press that to wear none again. You may change once every 2 seconds, and there is no combat lock.
+- **See it.** Each formation has its own shape, and your drones fly it round your ship: a roof, a heart, wings, a sword, a drill. Other pilots see it too. See [How they fly](#how-they-fly).
 - **Pick for the next minute.** Every formation pays for its bonuses, so none is best everywhere. Wear the one that suits what you are about to do: hunt, duel, fire rockets or run.
 
 > [!NOTE]
-> A formation is not the "Wingman" layout in which your drones fly beside the ship ([Drone Mechanics](/wiki/03-Mechanics/Drones.md#formation-movement)). That layout is only how they look, and it is the same whichever formation you wear. A drone formation is a set of bonuses and prices.
+> A drone formation is two things: a set of bonuses and prices, and the **shape** your drones fly in ([How they fly](#how-they-fly)). With no formation worn they fly the plain "Wingman" layout ([Drone Mechanics](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## Getting a formation
 
@@ -30,7 +37,37 @@ A **drone formation** is a pattern your drones take around the ship, and it chan
 - **Every 2 seconds, in a fight too.** There is no combat lock and no settle time: the new numbers are in force at once. If you ask too soon, the chat says "The formation can change again in 1.4 s." Inside a safe zone there is no wait to speak of.
 - **It follows you.** The game remembers the formation you wore last and asks for it again when you launch or respawn. A swap of configuration (key `C`) leaves it on, with no wait.
 - **It needs a drone.** With no Slave Drone or Master Drone in your fleet, the formation does nothing. One is enough: the number of drones, their levels and what they carry do not matter.
-- **Others can see it.** Select a pilot, and the Target window says "Formation:" and its name. Nothing is shared with your group.
+- **Others can see it.** Every pilot who sees your ship sees your drones fly the shape of your formation. Select a pilot, and the Target window says "Formation:" and its name. Nothing is shared with your group.
+
+## How they fly
+
+Every formation gives your drones **a shape of its own**. Wear one and the drones leave the plain Wingman layout and glide into its shape round your ship, in **0.8 seconds**, swinging round the hull and never through it. It is a shape in space: the roof of Testudo floats over the wings, the Auger is a cone, and the whole shape turns with your ship, so its front is always where your nose points. Six of them are in the pictures at the top of this page, each a Paragon with eight level 8 drones seen from above with the camera tilted a little: Auger, Culler, Gyre, Sanctum, Stiletto and Testudo.
+
+- **No formation, no shape.** With none worn (**Standard** in the Formations list) the drones fly the plain "Wingman" layout of [Drone Mechanics](/wiki/03-Mechanics/Drones.md#formation-movement).
+- **Made for the drones you have.** A shape is built for exactly the drones you own, 1 to 8: with one or two you see only the start of it, with all **8** the whole shape, as in the pictures. Their levels and what they carry change nothing.
+- **Fitted to your ship.** A long ship flies a longer shape than a small one, and the drones keep clear of the hull.
+- **Seen by everyone.** Other pilots see your shape and you see theirs. A ship more than **3,500 units** from your camera shows no drones, and in a crowd only the nearest **64** ships do.
+- **Switch it off.** Settings › Interface has **Show My Drones** and **Show Enemy Drones** (the drones of other pilots). They only change what you see: your formation's bonuses work as before. **Reduce Motion** (Settings › Graphics) holds the shapes that move, Cordon, Asterism, Culler, Gyre and Auger, still and cuts the glide to **0.2 seconds**.
+- **See the height.** The roof, the bowl and the drill have height, which a view from straight above shows little of. Turn the camera with a right drag ([Getting Started](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) to see them from the side.
+
+| Formation | The shape | What moves |
+| :--- | :--- | :--- |
+| **Testudo** | A roof: two columns of drones over the wings, the ship's spine left open between them | Nothing |
+| **Adamant** | A diamond round the ship: a corner ahead, one behind and one at each side | Nothing |
+| **Sanctum** | A heart ahead of the nose, its point toward your ship | Nothing |
+| **Redoubt** | A bowl: a ring round the hull, a pair over the wings and one drone on top | Nothing |
+| **Cordon** | A wide ring round the ship | It turns once in 24 seconds |
+| **Rampart** | A wall across the nose, its ends bent forward like claws | Nothing |
+| **Asterism** | A four-pointed star of lights: points ahead, behind and to each side | Each drone swells and shrinks, once every 1.5 seconds |
+| **Bodkin** | An arrow with your ship as its head: a tip ahead of the nose, barbs along the flanks and a shaft trailing behind | Nothing |
+| **Ballista** | A V ahead of the ship, its arms sweeping back along the sides | Nothing |
+| **Centurion** | A block: guards in a rectangle round the ship | Nothing |
+| **Shrike** | A trident ahead of the nose, the ship its handle: a row of three and three prongs, the middle one the longest | Nothing |
+| **Culler** | Wings: a fan of drones on each side, long and short, and a head ahead of the nose when the number of drones is odd | The wing tips rise and fall once every 2.4 seconds |
+| **Gemini** | Twin spears: a column of drones along each flank, the tips ahead of the nose | Nothing |
+| **Stiletto** | A sword with the ship for its hilt: a blade of up to six drones ahead of the nose and a pair at the nose for the crossguard | Nothing |
+| **Gyre** | A wheel: a rim and a hub joined by spokes | It spins once in 6 seconds |
+| **Auger** | A drill: a cone round the ship, its tip ahead of the nose and its wide end behind you, the drones pointing the way you look | The drones spiral round the ship's line of flight once in 3 seconds |
 
 ## The sixteen formations
 

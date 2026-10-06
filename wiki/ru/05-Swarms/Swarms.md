@@ -90,10 +90,10 @@
 
 | Корабль роя | Рой | Очки PvE за убийство |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Рой Pirate | 10 |
-| **Pirate Scout** | Рой Pirate | 1 |
+| **Pirate Boss** | Рой Pirate | 15 |
+| **Pirate Scout** | Рой Pirate | 4 |
 | **Dormant Force** | Рой Dormant | 25 |
-| **Dormant Pulse** | Рой Dormant | 10 |
+| **Dormant Pulse** | Рой Dormant | 11 |
 | **Boss Seeker** | Рой Seeker | 5 |
 | **Seeker Slave** | Рой Seeker | 1 |
 

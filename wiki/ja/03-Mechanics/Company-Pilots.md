@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: a811f0df5512e3b7 -->
+<!-- wiki-i18n source: b4f15f0383031b07 -->
 <!-- wiki-i18n title: 企業パイロット -->
 # 企業パイロット {#company-pilots}
 
 各企業は、本拠地のセクター（`M-1` ～ `M-4`、`T-1` ～ `T-4`、`G-1` ～ `G-4`）に、NPC パイロットの小隊を配置しています。彼らは24時間、企業のために飛び、その企業のパイロットに手を貸します。
 
-![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## 彼らについて {#who-they-are}
@@ -15,7 +15,7 @@
   - 吸収率45%：シールドが各攻撃の45%を受け、船体が55%を受けます
   - 斉射ごとの基本ダメージ195（x1 弾薬）、クリティカル率なし、射程700
 - **ミニマップ**：自企業のパイロットは緑のひし形、他企業のパイロットは琥珀色のひし形で表示されます。
-- **階級なし**：飛行中にパイロット名の前に出る小さな記号はそのパイロットの[階級](/wiki/03-Mechanics/Ranks.md)で、本物のパイロットのものです。企業パイロットには階級がありません。企業ページでは、あなたの企業の本物のパイロットが PvE ポイント順に並びます。
+- **階級なし**：飛行中にパイロット名の前に出る小さな記号はそのパイロットの[階級](/wiki/03-Mechanics/Ranks.md)で、本物のパイロットのものです。企業パイロットには階級がなく、あなたの企業のランキングにも載りません。企業ページでは、あなたの企業の本物のパイロットが PvE ポイントの多い順に並び、パイロットの階級はその並びでの順位です。
 
 ## 彼らの行動 {#what-they-do}
 

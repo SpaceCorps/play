@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -263,7 +263,7 @@ Väktaren släpper **en låda** åt den pilot som gjorde mest skada; den är pil
 | Wrath Warden | Quorvium | – | – | 5–10 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8 %) |
 
-En väktare räknas under sitt eget namn i din nedskjutningsstatistik och ger PvE-poäng till din [grad](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 eller 25** för ledaren av en väktare I, II eller III, och 1 för varje hjälpare.
+En väktare räknas under sitt eget namn i din nedskjutningsstatistik och ger PvE-poäng till din [grad](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13 till 35** för ledaren, efter väktare och styrka (en väktare III är värd mest), och **1 till 6** för varje hjälpare, mer för en starkare besättning.
 
 ---
 

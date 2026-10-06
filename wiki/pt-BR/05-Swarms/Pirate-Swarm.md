@@ -63,7 +63,7 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 | Thulium | 725 | 1.450 | 2.175 |
 | Experiência (XP) | 29.000 | 58.000 | 87.000 |
 | Honra | 232 | 464 | 696 |
-| Pontos PvE por abate | 10 | 10 | 10 |
+| Pontos PvE por abate | 15 | 15 | 15 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
@@ -90,7 +90,7 @@ Base: Kitefin, com 50% de casco, escudo e dano; a velocidade e o alcance são os
 | Thulium | 4 | 8 | 12 |
 | Experiência (XP) | 100 | 200 | 300 |
 | Honra | 2 | 4 | 6 |
-| Pontos PvE por abate | 1 | 1 | 1 |
+| Pontos PvE por abate | 4 | 4 | 4 |
 
 **Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.
 

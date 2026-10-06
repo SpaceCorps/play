@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Drönare -->
 # Drönarmekanik {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Varje drönare du har, en **Slave Drone** eller en Master Drone, öppnar sina dr
 
 ## Flyguppställning och rörelse {#formation-movement}
 
-Drönare flyger i en standarduppställning av typen **”Wingman” (2-2-4)**:
+Utan någon bärd [drönarformation](/wiki/03-Mechanics/Formations.md) flyger dina drönare i standarduppställningen **”Wingman” (2-2-4)**, uppställningen **Standard**:
 
 - **2 drönare** bredvid skeppet, en på varje flank.
 - **2 drönare** bredvid och strax bakom det.
 - **4 drönare** som följer efter.
 
-De använder en mjuk följealgoritm som justerar deras position efter ditt skepps hastighet och rotation och drar ihop uppställningen under skarpa manövrar. Ingen flyger framför dig.
+De använder en mjuk följealgoritm som justerar deras position efter ditt skepps hastighet och rotation och drar ihop uppställningen under skarpa manövrar. I den här uppställningen flyger ingen framför dig.
 
-Drönare är små och håller sig nära: en drönare på nivå 8 är omkring 19,5 enheter bred (en Protos är 50) och en drönare på nivå 1 är ett klot på ungefär 8, så hela uppställningen ryms inom ungefär 135 enheter från ditt skepp. Drönaren du köpte först har mest erfarenhet och flyger på din vänstra flank, den andra på din högra, och de nyaste följer efter bakom.
+Drönare är små och håller sig nära: en drönare på nivå 8 är omkring 19,5 enheter bred (en Protos är 50) och en drönare på nivå 1 är ett klot på ungefär 8, så hela uppställningen ryms inom ungefär 135 enheter på var sida om ditt skepp och bakom det. Drönaren du köpte först har mest erfarenhet och flyger i den här uppställningen på din vänstra flank, den andra på din högra, och de nyaste följer efter bakom.
 
-Den här uppställningen är bara hur drönarna ser ut, och den är densamma oavsett vilken [drönarformation](/wiki/03-Mechanics/Formations.md) du bär. En drönarformation är en uppsättning bonusar och priser, inte ett annat sätt att flyga.
+Bär du en [drönarformation](/wiki/03-Mechanics/Formations.md) lämnar drönarna den här uppställningen: **var och en av de 16 formationerna har en egen form**, ett tak över vingarna, en romb, ett hjärta, vingar, ett svärd, en borr och fler, och drönarna glider dit på mindre än en sekund. Formen byggs för de drönare du har, upp till 8, och vrider sig med ditt skepp. Andra piloter ser den också. [Så flyger de](/wiki/03-Mechanics/Formations.md#how-they-fly) visar alla sexton. Bär **Standard**, posten i Formationslistan som inte är någon formation, så flyger drönarna ”Wingman”-uppställningen igen.
+
+Du kan stänga av drönarna under Inställningar › Gränssnitt: **Visa mina drönare** för dina egna och **Visa fientliga drönare** för andra pilotars.
 
 ## Utrustning och värden {#equipment-stats}
 

@@ -63,7 +63,7 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 | Thulium | 725 | 1 450 | 2 175 |
 | Expérience (XP) | 29 000 | 58 000 | 87 000 |
 | Honneur | 232 | 464 | 696 |
-| Points PvE par élimination | 10 | 10 | 10 |
+| Points PvE par élimination | 15 | 15 | 15 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.
 
@@ -90,7 +90,7 @@ Base : Kitefin, avec 50 % de coque, de bouclier et de dégâts ; la vitesse e
 | Thulium | 4 | 8 | 12 |
 | Expérience (XP) | 100 | 200 | 300 |
 | Honneur | 2 | 4 | 6 |
-| Points PvE par élimination | 1 | 1 | 1 |
+| Points PvE par élimination | 4 | 4 | 4 |
 
 **Butin** : aucun. L’élimination ne paie que ses crédits, son Thulium, son XP et son honneur.
 

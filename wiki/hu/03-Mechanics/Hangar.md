@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 ## Mit módosíthatsz {#what-you-can-change}
 
 - **Bármit felszerelhetsz és leszerelhetsz**, mindenféle foglalatban: lézerek, generátorok (pajzsok, hajtóművek, adaptív magok), extrák, képességfoglalatok és drónfoglalatok, és a beléjük szerelt erősítők, cellák és fúvókák. Húzd a tárgyakat a foglalatokra, vagy kattints rájuk, pontosan úgy, mint az állomáson. A hajód azonnal követi: az értékek, a lézerek, a képességek és a gyorssáv.
+- **Összes leszerelése.** A hangár eszköztárának **Összes leszerelése** gombja egy lépésben kiüríti az **Űrhajó** nézetben mutatott konfigurációt: a lézereket, pajzsokat, hajtóműveket, adaptív magokat, extrákat és képességfoglalatokat **és a drónjaid foglalataiban lévő lézereket és pajzsokat**, a beléjük szerelt erősítőkkel, cellákkal és fúvókákkal együtt. Minden visszakerül a készletedbe, vagy mind, vagy semmi. A **drónjaid a tieid maradnak** (drónt soha nem szerelnek hajóra, így nincs mit róla leszerelni), és a **drónformáció**, amelyet viselsz, rajta marad. A másik konfigurációhoz nem nyúl. Repülés közben minden változtatás szabályai érvényesek: biztonságos zónából, harcon kívül. A **Drónok** nézetnek saját gombja van, amely csak a drónok foglalatait üríti ki.
 - **Bármelyik konfiguráció.** Előkészítheted a Konfig 2-t, miközben a Konfig 1-gyel repülsz, aztán átválthatsz a **Konfigváltás** billentyűvel. A hangár **Repülés: Konfig** gombja ugyanezt a váltást végzi.
 - **Bármelyik hajó.** Állíts be egy másik hajót aktívnak, és onnan repülsz vele, ahol vagy. A hajód modellje megváltozik a közelben lévők előtt.
 - **Egy új pajzs, hajtómű vagy adaptív mag üresen indul**, mint az állomáson: a konfigurációjának pajzstöltése üres, amíg újra nem töltődik.

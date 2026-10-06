@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: Formazioni -->
 # Formazioni di droni {#drone-formations}
 
 Una **formazione di droni** è uno schema che i tuoi droni prendono attorno alla nave, e cambia il modo in cui la nave combatte. Ogni formazione dà alcuni bonus e fa pagare alcuni costi: uno scudo più grande in cambio di armi più deboli, razzi più duri in cambio di uno scafo più sottile, uccisioni di alieni più rapide in cambio di una nave più lenta. Ce ne sono **16**. Ne ricerchi una nel tuo [Skylab](/wiki/03-Mechanics/Skylab.md), la costruisci all’Assemblaggio e ne indossi **una** alla volta, una qualsiasi tra quelle che possiedi. Puoi cambiarla ogni **2 secondi**, anche in combattimento.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@ Una **formazione di droni** è uno schema che i tuoi droni prendono attorno alla
 - **Procurala.** Ricerca la sua tecnologia nel Centro ricerche (due alberi, *Difesa* e *Attacco e mobilità*), poi costruiscila all’Assemblaggio in cambio di Thulium. La più economica costa 7.000 Thulium e 5 Dark Matter, la più cara 46.000 Thulium e 20 Dark Matter. Il Negozio non ne vende nessuna.
 - **Possiedila.** Una formazione non si monta da nessuna parte: basta un esemplare nel tuo inventario. Ti serve almeno un drone, uno Slave Drone o un Master Drone, altrimenti nessuna formazione funziona.
 - **Indossala.** Trascinala dall’elenco Formazioni della barra rapida su uno slot qualsiasi. Clicca lo slot o premi il suo tasto per indossare la formazione. L’elenco ha anche **Standard**, che è nessuna formazione: trascinalo su uno slot e premilo per non indossarne più nessuna. Puoi cambiare una volta ogni 2 secondi, e non c’è blocco di combattimento.
+- **Guardala.** Ogni formazione ha la sua forma, e i tuoi droni la volano intorno alla tua nave: un tetto, un cuore, ali, una spada, una trivella. Anche gli altri piloti la vedono. Vedi [Come volano](#how-they-fly).
 - **Scegli per il prossimo minuto.** Ogni formazione fa pagare i suoi bonus, quindi nessuna è la migliore ovunque. Indossa quella adatta a ciò che stai per fare: cacciare, un duello, lanciare razzi o scappare.
 
 > [!NOTE]
-> Una formazione non è la disposizione “Wingman” con cui i tuoi droni volano accanto alla nave ([Meccaniche dei droni](/wiki/03-Mechanics/Drones.md#formation-movement)). Quella disposizione è solo il loro aspetto, ed è la stessa qualunque formazione tu indossi. Una formazione di droni è un insieme di bonus e costi.
+> Una formazione di droni è due cose: un insieme di bonus e costi, e la **forma** in cui volano i tuoi droni ([Come volano](#how-they-fly)). Senza formazione indossata volano nella semplice disposizione “Wingman” ([Meccaniche dei droni](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## Ottenere una formazione {#getting-a-formation}
 
@@ -32,7 +39,37 @@ Una **formazione di droni** è uno schema che i tuoi droni prendono attorno alla
 - **Ogni 2 secondi, anche in combattimento.** Non c’è blocco di combattimento né tempo di assestamento: i nuovi valori valgono subito. Se lo chiedi troppo presto, la chat dice “La formazione potrà cambiare di nuovo tra 1,4 s.” Dentro una zona sicura non c’è praticamente attesa.
 - **Ti segue.** Il gioco ricorda l’ultima formazione che hai indossato e la richiede di nuovo al decollo e alla rinascita. Un cambio di configurazione (tasto `C`) la lascia addosso, senza attesa.
 - **Serve un drone.** Senza uno Slave Drone o un Master Drone nella tua flotta, la formazione non fa niente. Ne basta uno: il numero di droni, i loro livelli e ciò che portano non contano.
-- **Gli altri la vedono.** Seleziona un pilota, e la finestra Bersaglio dice “Formazione:” e il suo nome. Con il tuo gruppo non si condivide niente.
+- **Gli altri la vedono.** Ogni pilota che vede la tua nave vede i tuoi droni volare nella forma della tua formazione. Seleziona un pilota, e la finestra Bersaglio dice “Formazione:” e il suo nome. Con il tuo gruppo non si condivide niente.
+
+## Come volano {#how-they-fly}
+
+Ogni formazione dà ai tuoi droni **una forma tutta sua**. Indossane una e i droni lasciano la semplice disposizione “Wingman” e scivolano in **0,8 secondi** nella sua forma intorno alla tua nave, aggirando lo scafo senza mai attraversarlo. È una forma nello spazio: il tetto della Testudo galleggia sopra le ali, l’Auger è un cono, e l’intera forma ruota con la tua nave, quindi il suo davanti è sempre dove punta il tuo muso. Sei di loro sono nelle immagini in cima a questa pagina, ognuna con una Paragon e otto droni di livello 8, visti dall’alto con la telecamera un po’ inclinata: Auger, Culler, Gyre, Sanctum, Stiletto e Testudo.
+
+- **Nessuna formazione, nessuna forma.** Senza formazione indossata (**Standard** nell’elenco Formazioni) i droni volano nella semplice disposizione “Wingman” delle [Meccaniche dei droni](/wiki/03-Mechanics/Drones.md#formation-movement).
+- **Fatta per i droni che hai.** Una forma è costruita per esattamente i droni che possiedi, da 1 a 8: con uno o due ne vedi solo l’inizio, con tutti e **8** la forma intera, come nelle immagini. I loro livelli e ciò che portano non cambiano nulla.
+- **Adatta alla tua nave.** Una nave lunga vola in una forma più lunga di una piccola, e i droni restano a distanza dallo scafo.
+- **Vista da tutti.** Gli altri piloti vedono la tua forma e tu vedi la loro. Una nave a più di **3.500 unità** dalla tua telecamera non mostra droni, e in una folla lo fanno solo le **64** navi più vicine.
+- **Spegnila.** Impostazioni › Interfaccia ha **Mostra i miei droni** e **Mostra droni nemici** (i droni degli altri piloti). Cambiano solo ciò che vedi: i bonus della tua formazione funzionano come prima. **Riduci movimento** (Impostazioni › Grafica) tiene ferme le forme che si muovono, Cordon, Asterism, Culler, Gyre e Auger, e accorcia lo scivolamento a **0,2 secondi**.
+- **Vedi l’altezza.** Il tetto, la coppa e la trivella hanno altezza, che una vista da direttamente sopra mostra poco. Ruota la telecamera trascinando con il tasto destro ([Per iniziare](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) per vederli di lato.
+
+| Formazione | La forma | Cosa si muove |
+| :--- | :--- | :--- |
+| **Testudo** | Un tetto: due colonne di droni sopra le ali, con il dorso della nave libero in mezzo | Niente |
+| **Adamant** | Un rombo intorno alla nave: un angolo davanti, uno dietro e uno per lato | Niente |
+| **Sanctum** | Un cuore davanti al muso, con la punta verso la tua nave | Niente |
+| **Redoubt** | Una coppa: un anello intorno allo scafo, una coppia sopra le ali e un drone in cima | Niente |
+| **Cordon** | Un ampio anello intorno alla nave | Ruota una volta ogni 24 secondi |
+| **Rampart** | Un muro davanti al muso, con le estremità piegate in avanti come chele | Niente |
+| **Asterism** | Una stella di luci a quattro punte: punte davanti, dietro e per lato | Ogni drone si gonfia e si restringe, una volta ogni 1,5 secondi |
+| **Bodkin** | Una freccia con la tua nave per punta: una punta davanti al muso, alette lungo i fianchi e un’asta dietro | Niente |
+| **Ballista** | Una V davanti alla nave, con le braccia rivolte all’indietro lungo i lati | Niente |
+| **Centurion** | Un blocco: guardie in un rettangolo intorno alla nave | Niente |
+| **Shrike** | Un tridente davanti al muso, con la nave per manico: una fila di tre e tre punte, quella di mezzo la più lunga | Niente |
+| **Culler** | Ali: un ventaglio di droni per lato, lunghi e corti, e una testa davanti al muso quando il numero di droni è dispari | Le punte delle ali salgono e scendono una volta ogni 2,4 secondi |
+| **Gemini** | Lance gemelle: una colonna di droni lungo ogni fianco, con le punte davanti al muso | Niente |
+| **Stiletto** | Una spada con la nave per elsa: una lama di fino a sei droni davanti al muso e una coppia al muso come guardia | Niente |
+| **Gyre** | Una ruota: un cerchio e un mozzo uniti da raggi | Gira una volta ogni 6 secondi |
+| **Auger** | Una trivella: un cono intorno alla nave, con la punta davanti al muso e l’estremità larga dietro di te, i droni puntati dove guardi | I droni girano a spirale attorno all’asse di volo della nave, una volta ogni 3 secondi |
 
 ## Le sedici formazioni {#the-sixteen-formations}
 

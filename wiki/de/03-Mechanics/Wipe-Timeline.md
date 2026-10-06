@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ So funktionieren die Welten:
 
 Der Wipe nimmt dir deine Schiffe und Gegenstände (außer deinem aktiven Schiff mit allem, was daran ausgerüstet ist, deinem Transport-Cache und deinen Drohnen) und setzt dich in den Heimatsektor deines Konzerns zurück; dein Level, deine Credits, dein Thulium und deine Rangpunkte werden nicht zurückgesetzt. Darüber hinaus tragen deine gesamten Pilotenleistungen zu dauerhafter Stärke bei. Alien-Abschüsse und abgeschlossene Missionen bringen **Wipe-Punkte (WP)**. Deine [Missionen](/wiki/03-Mechanics/Quests.md) selbst, erledigte wie laufende, bleiben erhalten: Jede lässt sich pro Pilot nur einmal erledigen, für immer, außer den Level-Missionen, die das Update 0.4.10 überarbeitet hat: 64 davon werden noch einmal angeboten ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clans und Ränge.** Die Punkte, Boost-Stufen und Tageslinien eines Clans beginnen bei jedem Wipe von vorn, jede Saison ist also ein neues Rennen um volle Boosts; der Clan selbst, seine Mitglieder, seine Bank und seine Steuer bleiben ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Auch dein Konzernrang bleibt: Er folgt deinen PvE-Rangpunkten, die ein Wipe nicht zurücksetzt ([Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clans und Ränge.** Die Punkte, Boost-Stufen und Tageslinien eines Clans beginnen bei jedem Wipe von vorn, jede Saison ist also ein neues Rennen um volle Boosts; der Clan selbst, seine Mitglieder, seine Bank und seine Steuer bleiben ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Auch deine PvE-Rangpunkte bleiben, ein Wipe verschiebt dich also nicht in der Rangliste deines Konzerns: Dein Rang folgt deinem Platz dort, nicht der Saison ([Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Der Shop für dauerhafte Buffs {#the-permanent-buff-store}
 Deine angesammelten WP kannst du für dauerhafte Buffs ausgeben, die für immer über alle Saisons hinweg erhalten bleiben. Diese Buffs stapeln sich und geben spürbare passive Boni:

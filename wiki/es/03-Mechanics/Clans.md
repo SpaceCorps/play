@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -263,7 +263,7 @@ El guardián suelta **un cofre** para el piloto que causó más daño; es suyo y
 | Wrath Warden | Quorvium | – | – | 5–10 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8 %) |
 
-Un guardián cuenta con su propio nombre en tus estadísticas de derribos y suma puntos PvE a tu [rango](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 o 25** por el líder de un guardián I, II o III, y 1 por cada ayudante.
+Un guardián cuenta con su propio nombre en tus estadísticas de derribos y suma puntos PvE a tu [rango](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13 a 35** por el líder, según el guardián y su fuerza (un guardián III es el que más vale), y **1 a 6** por cada ayudante, más cuanto más fuerte es la tripulación.
 
 ---
 

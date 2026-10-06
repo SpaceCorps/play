@@ -61,7 +61,7 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 | Thulium | 725 | 1,450 | 2,175 |
 | Experience (XP) | 29,000 | 58,000 | 87,000 |
 | Honor | 232 | 464 | 696 |
-| PvE points per kill | 10 | 10 | 10 |
+| PvE points per kill | 15 | 15 | 15 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
@@ -88,7 +88,7 @@ Built from the Kitefin at 50% of its hull, shield and damage; its speed and rang
 | Thulium | 4 | 8 | 12 |
 | Experience (XP) | 100 | 200 | 300 |
 | Honor | 2 | 4 | 6 |
-| PvE points per kill | 1 | 1 | 1 |
+| PvE points per kill | 4 | 4 | 4 |
 
 **Drop**: none. The kill pays its Credits, Thulium, XP and Honor only.
 

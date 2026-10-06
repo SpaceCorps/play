@@ -91,7 +91,7 @@ Base : Paragon, avec 100 % de coque, de bouclier et de dégâts ; la vitesse 
 | Thulium | 255 | 510 | 765 |
 | Expérience (XP) | 15 200 | 30 400 | 45 600 |
 | Honneur | 66 | 132 | 198 |
-| Points PvE par élimination | 10 | 10 | 10 |
+| Points PvE par élimination | 11 | 11 | 11 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.
 

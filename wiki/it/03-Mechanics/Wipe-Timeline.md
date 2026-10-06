@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Come funzionano i mondi:
 
 Il reset si porta via le tue navi e i tuoi oggetti (tranne la tua nave attiva con tutto ciò che vi è montato, il tuo Deposito di trasporto e i tuoi droni) e ti riporta al settore base della tua corporazione; il tuo livello, i tuoi crediti, il tuo Thulium e i tuoi punti classifica non vengono azzerati. In più, i tuoi risultati complessivi da pilota contribuiscono a una potenza permanente. Sconfiggere alieni e completare missioni assegna **punti reset (PR)**. Le tue [missioni](/wiki/03-Mechanics/Quests.md) stesse, completate e in corso, passano alla stagione successiva: ognuna si può completare una volta per pilota, per sempre, tranne le missioni di livello che l’aggiornamento 0.4.10 ha rielaborato: 64 di loro vengono offerte ancora una volta ([Missioni](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clan e gradi.** I punti, i livelli dei potenziamenti e le linee giornaliere di un clan ricominciano a ogni reset, quindi ogni stagione è una nuova corsa ai potenziamenti al massimo; il clan stesso, i suoi membri, la sua banca e la sua tassa restano ([Clan](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Resta anche il tuo grado di corporazione: segue i tuoi punti classifica PvE, che un reset non azzera ([Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clan e gradi.** I punti, i livelli dei potenziamenti e le linee giornaliere di un clan ricominciano a ogni reset, quindi ogni stagione è una nuova corsa ai potenziamenti al massimo; il clan stesso, i suoi membri, la sua banca e la sua tassa restano ([Clan](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Restano anche i tuoi punti classifica PvE, quindi un reset non ti sposta nella classifica della tua corporazione: il tuo grado segue la tua posizione lì, non la stagione ([Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### L’Emporio dei potenziamenti permanenti {#the-permanent-buff-store}
 Puoi spendere i tuoi PR accumulati in potenziamenti permanenti che passano a tutte le stagioni per sempre. Questi potenziamenti si sommano e danno consistenti bonus passivi:

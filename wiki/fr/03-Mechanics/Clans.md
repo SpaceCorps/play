@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -263,7 +263,7 @@ Le Gardien lâche **une caisse** pour le pilote qui a infligé le plus de dégâ
 | Wrath Warden | Quorvium | – | – | 5–10 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8 %) |
 
-Un Gardien est compté sous son propre nom dans vos statistiques de destructions et ajoute des points PvE à votre [grade](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) : **10, 15 ou 25** pour le meneur d’un Gardien I, II ou III, et 1 pour chaque auxiliaire.
+Un Gardien est compté sous son propre nom dans vos statistiques de destructions et ajoute des points PvE à votre [grade](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) : **13 à 35** pour le meneur, selon le Gardien et sa force (un Gardien III vaut le plus), et **1 à 6** pour chaque auxiliaire, plus pour un équipage plus fort.
 
 ---
 

@@ -63,7 +63,7 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | Thulium | 725 | 1.450 | 2.175 |
 | Erfahrung (EP) | 29.000 | 58.000 | 87.000 |
 | Ehre | 232 | 464 | 696 |
-| PvE-Punkte pro Abschuss | 10 | 10 | 10 |
+| PvE-Punkte pro Abschuss | 15 | 15 | 15 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 
@@ -90,7 +90,7 @@ Basis: Kitefin mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Thulium | 4 | 8 | 12 |
 | Erfahrung (EP) | 100 | 200 | 300 |
 | Ehre | 2 | 4 | 6 |
-| PvE-Punkte pro Abschuss | 1 | 1 | 1 |
+| PvE-Punkte pro Abschuss | 4 | 4 | 4 |
 
 **Beute**: keine. Der Abschuss zahlt nur seine Credits, sein Thulium, seine EP und seine Ehre.
 

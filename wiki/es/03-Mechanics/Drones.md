@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Drones -->
 # Mecánicas de los drones {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Cada dron que tienes, sea un **Slave Drone** o un Master Drone, abre sus ranuras
 
 ## Disposición de vuelo y movimiento {#formation-movement}
 
-Los drones vuelan en una disposición estándar **«Compañero de ala» (2-2-4)**:
+Sin ninguna [formación de drones](/wiki/03-Mechanics/Formations.md) puesta, tus drones vuelan en la disposición estándar **«Compañero de ala» (2-2-4)**, la disposición **Estándar**:
 
 - **2 drones** junto a la nave, uno en cada flanco.
 - **2 drones** a los lados y justo detrás.
 - **4 drones** en cola, detrás.
 
-Usan un algoritmo de seguimiento suave que ajusta su posición según la velocidad y la rotación de tu nave, y cierran la disposición en las maniobras bruscas. Ninguno vuela por delante de ti.
+Usan un algoritmo de seguimiento suave que ajusta su posición según la velocidad y la rotación de tu nave, y cierran la disposición en las maniobras bruscas. En esta disposición, ninguno vuela por delante de ti.
 
-Los drones son pequeños y se mantienen cerca: un dron de nivel 8 mide unas 19,5 unidades de ancho (una Protos, 50) y uno de nivel 1 es una bola de unas 8, así que toda la disposición cabe en unas 135 unidades alrededor de tu nave. El dron que compraste primero es el que tiene más experiencia y vuela en tu flanco izquierdo, el segundo en el derecho, y los más nuevos van detrás.
+Los drones son pequeños y se mantienen cerca: un dron de nivel 8 mide unas 19,5 unidades de ancho (una Protos, 50) y uno de nivel 1 es una bola de unas 8, así que toda la disposición cabe en unas 135 unidades a cada lado de tu nave y detrás de ella. El dron que compraste primero es el que tiene más experiencia y vuela en esta disposición en tu flanco izquierdo, el segundo en el derecho, y los más nuevos van detrás.
 
-Esta disposición es solo el aspecto de los drones, y es la misma sea cual sea la [formación de drones](/wiki/03-Mechanics/Formations.md) que lleves. Una formación de drones es un conjunto de bonificaciones y costes, no otra forma de volar.
+Si llevas una [formación de drones](/wiki/03-Mechanics/Formations.md), los drones abandonan esta disposición: **cada una de las 16 formaciones tiene su propia forma**, un tejado sobre las alas, un rombo, un corazón, alas, una espada, un taladro y más, y los drones se deslizan hasta ella en menos de un segundo. La forma se hace para los drones que tienes, hasta 8, y gira con tu nave. Los demás pilotos también la ven. [Cómo vuelan](/wiki/03-Mechanics/Formations.md#how-they-fly) muestra las dieciséis. Lleva **Estándar**, la entrada de la lista de Formaciones que no es ninguna formación, y los drones vuelven a volar la disposición «Compañero de ala».
+
+Puedes apagar los drones en Configuración › Interfaz: **Mostrar mis drones** para los tuyos y **Mostrar drones enemigos** para los de otros pilotos.
 
 ## Equipo y estadísticas {#equipment-stats}
 

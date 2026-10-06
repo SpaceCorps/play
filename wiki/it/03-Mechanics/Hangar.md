@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ Le riparazioni in corso non ti fermano. In qualsiasi altro posto la finestra Han
 ## Cosa puoi cambiare {#what-you-can-change}
 
 - **Equipaggia e rimuovi qualsiasi cosa**, in ogni tipo di slot: laser, generatori (scudi, motori, Nuclei adattivi), extra, slot abilità e slot drone, e gli amp, le celle e i propulsori montati al loro interno. Trascina gli oggetti sugli slot, o cliccaci sopra, esattamente come alla stazione. La tua nave si adegua subito: statistiche, laser, abilità e barra rapida.
+- **Rimuovi tutto.** Il pulsante **Rimuovi tutto** nella barra degli strumenti dell’Hangar svuota in un colpo la configurazione mostrata nella vista **Astronave**: laser, scudi, motori, Nuclei adattivi, extra e slot abilità **e i laser e gli scudi negli slot dei tuoi droni**, con gli amp, le celle e i propulsori montati al loro interno. Tutto torna nel tuo inventario, tutto o niente. I tuoi **droni restano tuoi** (un drone non viene mai montato su una nave, quindi non c’è nulla da togliere) e la **formazione di droni** che indossi resta addosso. L’altra configurazione non viene toccata. In volo valgono le regole di ogni modifica: da una zona sicura, fuori dal combattimento. La vista **Droni** ha un pulsante tutto suo che svuota solo gli slot dei droni.
 - **Entrambe le configurazioni.** Puoi preparare la Config 2 mentre voli con la Config 1, poi passare all’altra con il tasto Cambia conf.; un pulsante **Usa config** nell’Hangar fa lo stesso cambio.
 - **Qualsiasi nave.** Imposta attiva un’altra nave e voli con essa da dove ti trovi. Il modello della tua nave cambia davanti a tutti quelli nelle vicinanze.
 - **Un nuovo scudo, motore o Nucleo adattivo parte vuoto**, come alla stazione: la carica di scudo della sua configurazione è vuota finché non si ricarica.

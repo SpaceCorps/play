@@ -90,10 +90,10 @@ Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de d
 
 | Nave de enjambre | Enjambre | Puntos PvE por derribo |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Enjambre Pirate | 10 |
-| **Pirate Scout** | Enjambre Pirate | 1 |
+| **Pirate Boss** | Enjambre Pirate | 15 |
+| **Pirate Scout** | Enjambre Pirate | 4 |
 | **Dormant Force** | Enjambre Dormant | 25 |
-| **Dormant Pulse** | Enjambre Dormant | 10 |
+| **Dormant Pulse** | Enjambre Dormant | 11 |
 | **Boss Seeker** | Enjambre Seeker | 5 |
 | **Seeker Slave** | Enjambre Seeker | 1 |
 

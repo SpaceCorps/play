@@ -261,7 +261,7 @@ The Warden drops **one box** for the pilot who dealt the most damage; it is that
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-A Warden counts under its own name in your kill statistics and adds PvE points to your [rank](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 or 25** for the leader of a Warden I, II or III, and 1 for each helper.
+A Warden counts under its own name in your kill statistics and adds PvE points to your [rank](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13 to 35** for the leader, by Warden and strength (a Warden III is worth the most), and **1 to 6** for each helper, more for a stronger crew.
 
 ---
 

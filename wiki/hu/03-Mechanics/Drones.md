@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Drónok -->
 # Drónmechanika {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Minden drón, amelyet birtokolsz, akár **Slave Drone**, akár Master Drone, meg
 
 ## Repülési elrendezés és mozgás {#formation-movement}
 
-A drónok egy szokásos **„Wingman” elrendezésben (2–2–4)** repülnek:
+Viselt [drónformáció](/wiki/03-Mechanics/Formations.md) nélkül a drónjaid a szokásos **„Wingman” elrendezésben (2–2–4)** repülnek, az **Alap** elrendezésben:
 
 - **2 drón** a hajó mellett, egy-egy a két oldalán.
 - **2 drón** mellette és kicsit mögötte.
 - **4 drón** mögötte, a nyomában.
 
-Sima követési algoritmust használnak, amely a hajód sebessége és elfordulása alapján igazítja a helyzetüket, éles manőverek közben összeszorítva az elrendezést. Senki sem repül előtted.
+Sima követési algoritmust használnak, amely a hajód sebessége és elfordulása alapján igazítja a helyzetüket, éles manőverek közben összeszorítva az elrendezést. Ebben az elrendezésben senki sem repül előtted.
 
-A drónok kicsik, és közel maradnak: egy 8. szintű drón körülbelül 19,5 egység átmérőjű (egy Protos 50), egy 1. szintű drón pedig egy körülbelül 8 egység átmérőjű gömb, így az egész elrendezés nagyjából 135 egységen belül elfér a hajódtól. Az a drón, amelyet először vettél, rendelkezik a legtöbb tapasztalattal, és a bal oldaladon repül, a második a jobbon, a legújabbak pedig hátul követnek.
+A drónok kicsik, és közel maradnak: egy 8. szintű drón körülbelül 19,5 egység átmérőjű (egy Protos 50), egy 1. szintű drón pedig egy körülbelül 8 egység átmérőjű gömb, így az egész elrendezés nagyjából 135 egységen belül elfér a hajód két oldalán és mögötte. Az a drón, amelyet először vettél, rendelkezik a legtöbb tapasztalattal, és ebben az elrendezésben a bal oldaladon repül, a második a jobbon, a legújabbak pedig hátul követnek.
 
-Ez az elrendezés csak a drónok megjelenése, és ugyanaz, bármelyik [drónformációt](/wiki/03-Mechanics/Formations.md) viseled. A drónformáció bónuszok és árak összessége, nem a repülésnek egy másik módja.
+Viselj egy [drónformációt](/wiki/03-Mechanics/Formations.md), és a drónok elhagyják ezt az elrendezést: **a 16 formáció mindegyikének saját alakzata van**, egy tető a szárnyak fölött, egy rombusz, egy szív, szárnyak, egy kard, egy fúró és más, és a drónok egy másodpercnél rövidebb idő alatt átsiklanak oda. Az alakzat a meglévő drónjaidra épül, legfeljebb 8-ra, és együtt fordul a hajóddal. A többi pilóta is látja. A [Hogyan repülnek](/wiki/03-Mechanics/Formations.md#how-they-fly) mind a tizenhatot megmutatja. Viseld az **Alap**-ot, a gyorssáv Formációk listájának azt a tételét, amely nem formáció, és a drónok újra a „Wingman” elrendezésben repülnek.
+
+A drónokat kikapcsolhatod a Beállítások › Felület alatt: a **Saját drónok mutatása** a tieidre, az **Ellenséges drónok mutatása** a többi pilóta drónjaira vonatkozik.
 
 ## Felszerelés és értékek {#equipment-stats}
 

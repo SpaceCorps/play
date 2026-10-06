@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: クラン -->
 # クラン {#clans}
 
@@ -263,7 +263,7 @@
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-ウォーデンは、撃破統計にその名前で数えられ、あなたの[階級](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)に PvE ポイントを加えます。ウォーデン I、II、III のリーダーは**10、15、25**、手下は1体につき1です。
+ウォーデンは、撃破統計にその名前で数えられ、あなたの[階級](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)に PvE ポイントを加えます。リーダーはウォーデンの種類と強さに応じて**13〜35**（ウォーデン III が最大）、手下は1体につき**1〜6**で、強い乗員ほど多くなります。
 
 ---
 

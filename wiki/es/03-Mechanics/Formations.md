@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: Formaciones -->
 # Formaciones de drones {#drone-formations}
 
 Una **formación de drones** es un patrón que adoptan tus drones alrededor de la nave, y cambia cómo combate. Cada formación da algunas bonificaciones y cobra algunos costes: un escudo mayor a cambio de armas más débiles, cohetes más duros a cambio de un casco más fino, muertes de aliens más rápidas a cambio de una nave más lenta. Hay **16**. Investigas una en tu [Skylab](/wiki/03-Mechanics/Skylab.md), la fabricas en el Ensamblaje y llevas **una** a la vez, cualquiera de las que tengas. Puedes cambiarla cada **2 segundos**, también en combate.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@ Una **formación de drones** es un patrón que adoptan tus drones alrededor de l
 - **Consíguela.** Investiga su tecnología en el Centro de investigación (dos árboles, *Defensa* y *Ataque y movilidad*) y fabrícala después en Ensamblaje con Thulium. La más barata cuesta 7.000 Thulium y 5 Dark Matter, la más cara 46.000 Thulium y 20 Dark Matter. La tienda no vende ninguna.
 - **Tenla.** Una formación no se equipa en ningún sitio: basta con una copia en tu inventario. Necesitas al menos un dron, un Slave Drone o un Master Drone, o ninguna formación funciona.
 - **Llévala.** Arrástrala desde la lista de Formaciones de la barra rápida a cualquier ranura. Haz clic en la ranura o pulsa su tecla para llevar la formación. La lista también tiene **Estándar**, que es no llevar ninguna: arrástralo a una ranura y púlsala para volver a no llevar ninguna. Puedes cambiar una vez cada 2 segundos, y no hay bloqueo de combate.
+- **Verla.** Cada formación tiene su propia forma, y tus drones la vuelan alrededor de tu nave: un tejado, un corazón, alas, una espada, un taladro. Los demás pilotos también la ven. Consulta [Cómo vuelan](#how-they-fly).
 - **Elige para el próximo minuto.** Cada formación cobra sus bonificaciones, así que ninguna es la mejor en todo. Lleva la que encaje con lo que vas a hacer: cazar, un duelo, disparar cohetes o huir.
 
 > [!NOTE]
-> Una formación no es la disposición «Wingman» en la que tus drones vuelan junto a la nave ([Mecánicas de los drones](/wiki/03-Mechanics/Drones.md#formation-movement)). Esa disposición solo es cómo se ven, y es la misma sea cual sea la formación que lleves. Una formación de drones es un conjunto de bonificaciones y costes.
+> Una formación de drones son dos cosas: un conjunto de bonificaciones y costes, y la **forma** en que vuelan tus drones ([Cómo vuelan](#how-they-fly)). Si no llevas ninguna formación, vuelan la disposición sencilla «Wingman» ([Mecánicas de los drones](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## Conseguir una formación {#getting-a-formation}
 
@@ -32,7 +39,37 @@ Una **formación de drones** es un patrón que adoptan tus drones alrededor de l
 - **Cada 2 segundos, también en combate.** No hay bloqueo de combate ni tiempo de asentamiento: los nuevos valores rigen al instante. Si lo pides demasiado pronto, el chat dice «La formación podrá cambiar de nuevo en 1,4 s». Dentro de una zona segura casi no hay espera.
 - **Te sigue.** El juego recuerda la última formación que llevaste y la pide de nuevo al despegar o reaparecer. Un cambio de configuración (tecla `C`) la deja puesta, sin espera.
 - **Necesita un dron.** Sin ningún Slave Drone ni Master Drone en tu flota, la formación no hace nada. Basta con uno: no importan el número de drones, sus niveles ni lo que llevan.
-- **Los demás la ven.** Selecciona a un piloto y la ventana Objetivo dice «Formación:» y su nombre. No se comparte nada con tu grupo.
+- **Los demás la ven.** Todo piloto que ve tu nave ve a tus drones volar la forma de tu formación. Selecciona a un piloto y la ventana Objetivo dice «Formación:» y su nombre. No se comparte nada con tu grupo.
+
+## Cómo vuelan {#how-they-fly}
+
+Cada formación da a tus drones **una forma propia**. Si llevas una, los drones dejan la disposición sencilla «Compañero de ala» y se deslizan en **0,8 segundos** hasta su forma alrededor de tu nave, rodeando el casco y sin atravesarlo nunca. Es una forma en el espacio: el tejado de Testudo flota sobre las alas, Auger es un cono, y toda la forma gira con tu nave, así que su frente está siempre donde apunta tu morro. Seis de ellas están en las imágenes de arriba de esta página, cada una con una Paragon y ocho drones de nivel 8, vistos desde arriba con la cámara algo inclinada: Auger, Culler, Gyre, Sanctum, Stiletto y Testudo.
+
+- **Sin formación, sin forma.** Si no llevas ninguna (**Estándar** en la lista de Formaciones), los drones vuelan la disposición sencilla «Compañero de ala» de las [Mecánicas de los drones](/wiki/03-Mechanics/Drones.md#formation-movement).
+- **Hecha para los drones que tienes.** Una forma se construye para exactamente los drones que posees, de 1 a 8: con uno o dos ves solo su comienzo, con los **8** la forma entera, como en las imágenes. Sus niveles y lo que llevan no cambian nada.
+- **Ajustada a tu nave.** Una nave larga vuela una forma más larga que una pequeña, y los drones guardan distancia con el casco.
+- **La ve todo el mundo.** Los demás pilotos ven tu forma y tú ves la suya. Una nave a más de **3.500 unidades** de tu cámara no muestra drones, y en una multitud solo lo hacen las **64** naves más cercanas.
+- **Apagarla.** Configuración › Interfaz tiene **Mostrar mis drones** y **Mostrar drones enemigos** (los drones de otros pilotos). Solo cambian lo que ves: las bonificaciones de tu formación funcionan como antes. **Reducir movimiento** (Configuración › Gráficos) deja quietas las formas que se mueven, Cordon, Asterism, Culler, Gyre y Auger, y acorta el deslizamiento a **0,2 segundos**.
+- **Ver la altura.** El tejado, el cuenco y el taladro tienen altura, que una vista desde justo arriba apenas muestra. Gira la cámara arrastrando con el botón derecho ([Primeros pasos](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) para verlos de lado.
+
+| Formación | La forma | Qué se mueve |
+| :--- | :--- | :--- |
+| **Testudo** | Un tejado: dos columnas de drones sobre las alas, con el lomo de la nave libre entre ellas | Nada |
+| **Adamant** | Un rombo alrededor de la nave: una esquina delante, otra detrás y una a cada lado | Nada |
+| **Sanctum** | Un corazón delante del morro, con su punta hacia tu nave | Nada |
+| **Redoubt** | Un cuenco: un anillo alrededor del casco, un par sobre las alas y un dron encima | Nada |
+| **Cordon** | Un anillo ancho alrededor de la nave | Gira una vez cada 24 segundos |
+| **Rampart** | Un muro cruzado delante del morro, con los extremos curvados hacia delante como pinzas | Nada |
+| **Asterism** | Una estrella de luces de cuatro puntas: puntas delante, detrás y a cada lado | Cada dron se hincha y se encoge, una vez cada 1,5 segundos |
+| **Bodkin** | Una flecha con tu nave de cabeza: una punta delante del morro, lengüetas a lo largo de los flancos y un astil detrás | Nada |
+| **Ballista** | Una V delante de la nave, con los brazos echados hacia atrás por los lados | Nada |
+| **Centurion** | Un bloque: guardias en un rectángulo alrededor de la nave | Nada |
+| **Shrike** | Un tridente delante del morro, con la nave de mango: una fila de tres y tres púas, la del medio la más larga | Nada |
+| **Culler** | Alas: un abanico de drones a cada lado, largos y cortos, y una cabeza delante del morro cuando el número de drones es impar | Las puntas de las alas suben y bajan una vez cada 2,4 segundos |
+| **Gemini** | Lanzas gemelas: una columna de drones a lo largo de cada flanco, con las puntas delante del morro | Nada |
+| **Stiletto** | Una espada con la nave de empuñadura: una hoja de hasta seis drones delante del morro y un par en el morro de guarda | Nada |
+| **Gyre** | Una rueda: un aro y un cubo unidos por radios | Gira una vez cada 6 segundos |
+| **Auger** | Un taladro: un cono alrededor de la nave, con la punta delante del morro y el extremo ancho detrás de ti, y los drones apuntan hacia donde miras | Los drones giran en espiral alrededor del eje de avance de la nave, una vez cada 3 segundos |
 
 ## Las dieciséis formaciones {#the-sixteen-formations}
 

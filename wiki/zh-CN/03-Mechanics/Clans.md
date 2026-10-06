@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: 战队 -->
 # 战队 {#clans}
 
@@ -263,7 +263,7 @@
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-守卫会以自己的名字计入你的击杀统计，并为你的[军衔](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)增加 PvE 积分：守卫 I、II、III 的头领分别是 **10、15、25**，每个帮手是 1。
+守卫会以自己的名字计入你的击杀统计，并为你的[军衔](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)增加 PvE 积分：头领按守卫和强度计为 **13 到 35**（守卫 III 最高），每个帮手 **1 到 6**，随从越强越多。
 
 ---
 

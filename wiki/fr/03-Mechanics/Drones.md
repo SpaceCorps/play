@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Drones -->
 # Mécaniques des drones {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Chaque drone que vous possédez, **Slave Drone** ou Master Drone, ouvre ses empl
 
 ## Disposition de vol et déplacement {#formation-movement}
 
-Les drones volent selon la **disposition « Ailier » standard (2-2-4)** :
+Sans [formation de drones](/wiki/03-Mechanics/Formations.md) portée, vos drones volent selon la **disposition « Ailier » standard (2-2-4)**, la disposition **Standard** :
 
 - **2 drones** à côté du vaisseau, un sur chaque flanc.
 - **2 drones** à côté et juste derrière lui.
 - **4 drones** qui suivent derrière.
 
-Ils utilisent un algorithme de suivi fluide qui ajuste leur position selon la vitesse et la rotation de votre vaisseau, en resserrant la disposition lors des manœuvres brusques. Personne ne vole devant vous.
+Ils utilisent un algorithme de suivi fluide qui ajuste leur position selon la vitesse et la rotation de votre vaisseau, en resserrant la disposition lors des manœuvres brusques. Dans cette disposition, personne ne vole devant vous.
 
-Les drones sont petits et restent près de vous : un drone de niveau 8 fait environ 19,5 unités de large (un Protos en fait 50) et un drone de niveau 1 est une boule d’environ 8, si bien que toute la disposition tient à environ 135 unités de votre vaisseau au plus. Le drone acheté en premier a le plus d’expérience et vole sur votre flanc gauche, le deuxième sur votre flanc droit, et les plus récents suivent derrière.
+Les drones sont petits et restent près de vous : un drone de niveau 8 fait environ 19,5 unités de large (un Protos en fait 50) et un drone de niveau 1 est une boule d’environ 8, si bien que toute la disposition tient à environ 135 unités de part et d’autre de votre vaisseau et derrière lui. Le drone acheté en premier a le plus d’expérience et vole dans cette disposition sur votre flanc gauche, le deuxième sur votre flanc droit, et les plus récents suivent derrière.
 
-Cette disposition ne concerne que l’apparence des drones, et elle est la même quelle que soit la [formation de drones](/wiki/03-Mechanics/Formations.md) que vous portez. Une formation de drones est un ensemble de bonus et de prix, pas une autre façon de voler.
+Portez une [formation de drones](/wiki/03-Mechanics/Formations.md) et les drones quittent cette disposition : **chacune des 16 formations a sa propre forme**, un toit au-dessus des ailes, un losange, un cœur, des ailes, une épée, une foreuse et d’autres, et les drones glissent vers elle en moins d’une seconde. La forme est faite pour les drones que vous avez, jusqu’à 8, et elle tourne avec votre vaisseau. Les autres pilotes la voient aussi. [Comment ils volent](/wiki/03-Mechanics/Formations.md#how-they-fly) montre les seize. Portez **Standard**, l’entrée de la liste Formations qui n’est aucune formation, et les drones volent de nouveau selon la disposition « Ailier ».
+
+Vous pouvez éteindre les drones dans Paramètres › Interface : **Afficher mes drones** pour les vôtres et **Afficher les drones ennemis** pour ceux des autres pilotes.
 
 ## Équipement et statistiques {#equipment-stats}
 

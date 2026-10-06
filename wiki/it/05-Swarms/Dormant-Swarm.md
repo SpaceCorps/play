@@ -91,7 +91,7 @@ Base: Paragon, con il 100% di scafo, scudo e danno; velocità e portata sono que
 | Thulium | 255 | 510 | 765 |
 | Esperienza (XP) | 15.200 | 30.400 | 45.600 |
 | Onore | 66 | 132 | 198 |
-| Punti PvE per abbattimento | 10 | 10 | 10 |
+| Punti PvE per abbattimento | 11 | 11 | 11 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 

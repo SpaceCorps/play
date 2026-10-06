@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -263,7 +263,7 @@ Az őrző **egy ládát** ejt annak a pilótának, aki a legtöbb sebzést okozt
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-Az őrző a saját nevén számít a lelövési statisztikádban, és PvE-pontot ad a [rangodhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 vagy 25** egy I, II vagy III őrző vezéréért, és 1 minden segítőért.
+Az őrző a saját nevén számít a lelövési statisztikádban, és PvE-pontot ad a [rangodhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13–35** a vezérért, az őrzőtől és erősségétől függően (a III őrző ér a legtöbbet), és **1–6** minden segítőért, erősebb legénységért többet.
 
 ---
 

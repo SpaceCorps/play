@@ -91,7 +91,7 @@ Alapja: Paragon, hajótestének, pajzsának és sebzésének 100%-a; a sebesség
 | Thulium | 255 | 510 | 765 |
 | Tapasztalat (XP) | 15 200 | 30 400 | 45 600 |
 | Becsület | 66 | 132 | 198 |
-| PvE-pont kilövésenként | 10 | 10 | 10 |
+| PvE-pont kilövésenként | 11 | 11 | 11 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 

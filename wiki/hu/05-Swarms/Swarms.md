@@ -90,10 +90,10 @@ Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztiká
 
 | Rajhajó | Raj | PvE-pont kilövésenként |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate-raj | 10 |
-| **Pirate Scout** | Pirate-raj | 1 |
+| **Pirate Boss** | Pirate-raj | 15 |
+| **Pirate Scout** | Pirate-raj | 4 |
 | **Dormant Force** | Dormant-raj | 25 |
-| **Dormant Pulse** | Dormant-raj | 10 |
+| **Dormant Pulse** | Dormant-raj | 11 |
 | **Boss Seeker** | Seeker-raj | 5 |
 | **Seeker Slave** | Seeker-raj | 1 |
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: a811f0df5512e3b7 -->
+<!-- wiki-i18n source: b4f15f0383031b07 -->
 <!-- wiki-i18n title: Konzernpiloten -->
 # Konzernpiloten {#company-pilots}
 
 Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, `G-1` bis `G-4`) eine kleine Staffel von NPC-Piloten. Sie fliegen rund um die Uhr für den Konzern und helfen seinen Piloten.
 
-![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Wer sie sind {#who-they-are}
@@ -15,7 +15,7 @@ Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, 
   - Absorption 45 %: Ihre Schilde nehmen 45 % jedes Treffers, die Hülle 55 %
   - 195 Grundschaden pro Salve (x1-Munition), keine Krit-Chance, Reichweite 700
 - **Auf der Minikarte**: eine grüne Raute für die Piloten deines Konzerns, eine bernsteinfarbene für die eines anderen Konzerns.
-- **Kein Rang**: Das kleine Symbol vor dem Namen eines Piloten im Flug ist sein [Rang](/wiki/03-Mechanics/Ranks.md) und gehört echten Piloten. Konzernpiloten haben keins. Die Konzernseite reiht die echten Piloten deines Konzerns nach PvE-Punkten.
+- **Kein Rang**: Das kleine Symbol vor dem Namen eines Piloten im Flug ist sein [Rang](/wiki/03-Mechanics/Ranks.md) und gehört echten Piloten. Konzernpiloten haben keins und stehen nicht in der Rangliste deines Konzerns. Die Konzernseite listet die echten Piloten deines Konzerns mit den meisten PvE-Punkten zuerst, und der Rang eines Piloten ist sein Platz in dieser Liste.
 
 ## Was sie tun {#what-they-do}
 

@@ -90,10 +90,10 @@ Seeker 虫群和 Pirate 虫群会在 Boss 出现和被击毁时，通知所在�
 
 | 虫群舰船 | 虫群 | 每次击杀的 PvE 积分 |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate 虫群 | 10 |
-| **Pirate Scout** | Pirate 虫群 | 1 |
+| **Pirate Boss** | Pirate 虫群 | 15 |
+| **Pirate Scout** | Pirate 虫群 | 4 |
 | **Dormant Force** | Dormant 虫群 | 25 |
-| **Dormant Pulse** | Dormant 虫群 | 10 |
+| **Dormant Pulse** | Dormant 虫群 | 11 |
 | **Boss Seeker** | Seeker 虫群 | 5 |
 | **Seeker Slave** | Seeker 虫群 | 1 |
 

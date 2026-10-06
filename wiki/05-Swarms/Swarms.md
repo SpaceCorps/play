@@ -88,10 +88,10 @@ Every kill is counted under the ship's own name in your kill statistics, and add
 
 | Swarm ship | Swarm | PvE points per kill |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate Swarm | 10 |
-| **Pirate Scout** | Pirate Swarm | 1 |
+| **Pirate Boss** | Pirate Swarm | 15 |
+| **Pirate Scout** | Pirate Swarm | 4 |
 | **Dormant Force** | Dormant Swarm | 25 |
-| **Dormant Pulse** | Dormant Swarm | 10 |
+| **Dormant Pulse** | Dormant Swarm | 11 |
 | **Boss Seeker** | Seeker Swarm | 5 |
 | **Seeker Slave** | Seeker Swarm | 1 |
 

@@ -91,7 +91,7 @@ Basis: Paragon mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | Thulium | 255 | 510 | 765 |
 | Erfahrung (EP) | 15.200 | 30.400 | 45.600 |
 | Ehre | 66 | 132 | 198 |
-| PvE-Punkte pro Abschuss | 10 | 10 | 10 |
+| PvE-Punkte pro Abschuss | 11 | 11 | 11 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 

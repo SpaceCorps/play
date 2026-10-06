@@ -91,7 +91,7 @@ Base: Paragon, con 100 % de casco, escudo y daño; la velocidad y el alcance so
 | Thulium | 255 | 510 | 765 |
 | Experiencia (XP) | 15.200 | 30.400 | 45.600 |
 | Honor | 66 | 132 | 198 |
-| Puntos PvE por derribo | 10 | 10 | 10 |
+| Puntos PvE por derribo | 11 | 11 | 11 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 

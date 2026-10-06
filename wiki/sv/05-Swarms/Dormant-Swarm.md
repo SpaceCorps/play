@@ -91,7 +91,7 @@ Bygger på Paragon med 100 % av skrov, sköld och skada; hastighet och räckvid
 | Thulium | 255 | 510 | 765 |
 | Erfarenhet (XP) | 15 200 | 30 400 | 45 600 |
 | Heder | 66 | 132 | 198 |
-| PvE-poäng per nedskjutning | 10 | 10 | 10 |
+| PvE-poäng per nedskjutning | 11 | 11 | 11 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 

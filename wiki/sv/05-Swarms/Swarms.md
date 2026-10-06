@@ -90,10 +90,10 @@ Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik
 
 | Svärmskepp | Svärm | PvE-poäng per nedskjutning |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate-svärm | 10 |
-| **Pirate Scout** | Pirate-svärm | 1 |
+| **Pirate Boss** | Pirate-svärm | 15 |
+| **Pirate Scout** | Pirate-svärm | 4 |
 | **Dormant Force** | Dormant-svärm | 25 |
-| **Dormant Pulse** | Dormant-svärm | 10 |
+| **Dormant Pulse** | Dormant-svärm | 11 |
 | **Boss Seeker** | Seeker-svärm | 5 |
 | **Seeker Slave** | Seeker-svärm | 1 |
 

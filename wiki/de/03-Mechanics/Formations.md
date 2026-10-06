@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: Formationen -->
 # Drohnenformationen {#drone-formations}
 
 Eine **Drohnenformation** ist ein Muster, in dem deine Drohnen dein Schiff umgeben, und sie verändert, wie das Schiff kämpft. Jede Formation gibt einige Boni und verlangt einige Preise: einen größeren Schild für schwächere Waffen, härtere Raketen für eine dünnere Hülle, schnellere Alien-Abschüsse für ein langsameres Schiff. Es gibt **16**. Du erforschst eine in deinem [Skylab](/wiki/03-Mechanics/Skylab.md), baust sie in der Montage und trägst **eine** zur Zeit, eine beliebige von denen, die du besitzt. Du darfst sie alle **2 Sekunden** wechseln, auch im Kampf.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@ Eine **Drohnenformation** ist ein Muster, in dem deine Drohnen dein Schiff umgeb
 - **Beschaffen.** Erforsche ihre Technologie im Forschungszentrum (zwei Bäume, *Verteidigung* und *Angriff & Mobilität*) und baue sie dann in der Montage für Thulium. Die günstigste kostet 7.000 Thulium und 5 Dark Matter, die teuerste 46.000 Thulium und 20 Dark Matter. Der Shop verkauft keine.
 - **Besitzen.** Eine Formation wird nirgends angelegt: Ein Exemplar in deinem Inventar genügt. Du brauchst mindestens eine Drohne, eine Slave Drone oder eine Master Drone, sonst wirkt keine Formation.
 - **Tragen.** Ziehe sie aus der Formationenliste der Aktionsleiste auf einen beliebigen Slot. Klicke den Slot an oder drücke seine Taste, um die Formation zu tragen. In der Liste steht auch **Standard**, also keine Formation: Ziehe es auf einen Slot und drücke ihn, um wieder keine zu tragen. Du darfst einmal alle 2 Sekunden wechseln, und es gibt keine Kampfsperre.
+- **Ansehen.** Jede Formation hat eine eigene Form, und deine Drohnen fliegen sie rund um dein Schiff: ein Dach, ein Herz, Flügel, ein Schwert, einen Bohrer. Andere Piloten sehen sie auch. Siehe [So fliegen sie](#how-they-fly).
 - **Wähle für die nächste Minute.** Jede Formation lässt sich ihre Boni bezahlen, also ist keine überall die beste. Trage die, die zu dem passt, was du gleich tust: jagen, ein Duell, Raketen abfeuern oder fliehen.
 
 > [!NOTE]
-> Eine Formation ist nicht die „Wingman“-Anordnung, in der deine Drohnen neben dem Schiff fliegen ([Drohnenmechanik](/wiki/03-Mechanics/Drones.md#formation-movement)). Diese Anordnung bestimmt nur, wie sie aussehen, und sie ist dieselbe, welche Formation du auch trägst. Eine Drohnenformation ist ein Satz aus Boni und Preisen.
+> Eine Drohnenformation ist zweierlei: ein Satz aus Boni und Preisen und die **Form**, in der deine Drohnen fliegen ([So fliegen sie](#how-they-fly)). Ohne getragene Formation fliegen sie die schlichte „Wingman“-Anordnung ([Drohnenmechanik](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## Eine Formation beschaffen {#getting-a-formation}
 
@@ -32,7 +39,37 @@ Eine **Drohnenformation** ist ein Muster, in dem deine Drohnen dein Schiff umgeb
 - **Alle 2 Sekunden, auch im Kampf.** Es gibt keine Kampfsperre und keine Wartezeit zum Einschwingen: Die neuen Werte gelten sofort. Fragst du zu früh an, schreibt der Chat „Die Formation kann in 1,4 s wieder gewechselt werden.“ In einer Schutzzone gibt es praktisch keine Wartezeit.
 - **Sie folgt dir.** Das Spiel merkt sich die Formation, die du zuletzt getragen hast, und verlangt sie beim Start und beim Respawn erneut. Ein Wechsel der Konfiguration (Taste `C`) lässt sie an, ohne Wartezeit.
 - **Sie braucht eine Drohne.** Ohne Slave Drone oder Master Drone in deiner Flotte tut die Formation nichts. Eine genügt: Die Zahl der Drohnen, ihre Level und was sie tragen, spielen keine Rolle.
-- **Andere sehen sie.** Wähle einen Piloten an, und das Zielfenster zeigt „Formation:“ und ihren Namen. Mit deiner Gruppe wird nichts geteilt.
+- **Andere sehen sie.** Jeder Pilot, der dein Schiff sieht, sieht deine Drohnen die Form deiner Formation fliegen. Wähle einen Piloten an, und das Zielfenster zeigt „Formation:“ und ihren Namen. Mit deiner Gruppe wird nichts geteilt.
+
+## So fliegen sie {#how-they-fly}
+
+Jede Formation gibt deinen Drohnen **eine eigene Form**. Trägst du eine, verlassen die Drohnen die schlichte Wingman-Anordnung und gleiten in **0,8 Sekunden** in ihre Form rund um dein Schiff, wobei sie um die Hülle herumschwenken und nie hindurchfliegen. Es ist eine Form im Raum: Das Dach der Testudo schwebt über den Flügeln, die Auger ist ein Kegel, und die ganze Form dreht sich mit deinem Schiff, ihre Vorderseite ist also immer dort, wohin deine Nase zeigt. Sechs davon sind auf den Bildern oben auf dieser Seite zu sehen, jede mit einer Paragon und acht Drohnen auf Level 8, von oben gesehen und mit leicht geneigter Kamera: Auger, Culler, Gyre, Sanctum, Stiletto und Testudo.
+
+- **Keine Formation, keine Form.** Ist keine getragen (**Standard** in der Formationenliste), fliegen die Drohnen die schlichte „Wingman“-Anordnung aus der [Drohnenmechanik](/wiki/03-Mechanics/Drones.md#formation-movement).
+- **Gebaut für die Drohnen, die du hast.** Eine Form wird für genau die Drohnen gebaut, die du besitzt, 1 bis 8: Mit einer oder zwei siehst du nur ihren Anfang, mit allen **8** die ganze Form, wie auf den Bildern. Ihre Level und was sie tragen, ändern nichts.
+- **Dem Schiff angepasst.** Ein langes Schiff fliegt eine längere Form als ein kleines, und die Drohnen halten Abstand zur Hülle.
+- **Für alle sichtbar.** Andere Piloten sehen deine Form, und du siehst ihre. Ein Schiff, das mehr als **3.500 Einheiten** von deiner Kamera entfernt ist, zeigt keine Drohnen, und in einer Menge tun es nur die nächsten **64** Schiffe.
+- **Ausschalten.** Einstellungen › Oberfläche hat **Eigene Drohnen anzeigen** und **Gegnerische Drohnen anzeigen** (die Drohnen anderer Piloten). Sie ändern nur, was du siehst: Die Boni deiner Formation wirken wie zuvor. **Bewegung reduzieren** (Einstellungen › Grafik) hält die Formen still, die sich bewegen, Cordon, Asterism, Culler, Gyre und Auger, und kürzt das Gleiten auf **0,2 Sekunden**.
+- **Die Höhe sehen.** Das Dach, die Schale und der Bohrer haben Höhe, von der eine Ansicht von direkt oben wenig zeigt. Drehe die Kamera mit Rechtsziehen ([Erste Schritte](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)), um sie von der Seite zu sehen.
+
+| Formation | Die Form | Was sich bewegt |
+| :--- | :--- | :--- |
+| **Testudo** | Ein Dach: zwei Reihen Drohnen über den Flügeln, der Rücken des Schiffs bleibt dazwischen frei | Nichts |
+| **Adamant** | Eine Raute um das Schiff: eine Ecke vorn, eine hinten und eine an jeder Seite | Nichts |
+| **Sanctum** | Ein Herz vor der Nase, seine Spitze zu deinem Schiff | Nichts |
+| **Redoubt** | Eine Schale: ein Ring um die Hülle, ein Paar über den Flügeln und eine Drohne obenauf | Nichts |
+| **Cordon** | Ein weiter Ring um das Schiff | Er dreht sich einmal in 24 Sekunden |
+| **Rampart** | Eine Wand quer vor der Nase, die Enden wie Scheren nach vorn gebogen | Nichts |
+| **Asterism** | Ein vierzackiger Stern aus Lichtern: Zacken vorn, hinten und an jeder Seite | Jede Drohne schwillt an und schrumpft, einmal alle 1,5 Sekunden |
+| **Bodkin** | Ein Pfeil mit deinem Schiff als Spitze: eine Spitze vor der Nase, Widerhaken an den Flanken und ein Schaft dahinter | Nichts |
+| **Ballista** | Ein V vor dem Schiff, seine Arme zurück an den Seiten entlang | Nichts |
+| **Centurion** | Ein Block: Wachen in einem Rechteck um das Schiff | Nichts |
+| **Shrike** | Ein Dreizack vor der Nase, das Schiff sein Schaft: eine Reihe aus drei und drei Zinken, die mittlere die längste | Nichts |
+| **Culler** | Flügel: ein Fächer aus Drohnen auf jeder Seite, lang und kurz, und ein Kopf vor der Nase, wenn die Zahl der Drohnen ungerade ist | Die Flügelspitzen heben und senken sich einmal alle 2,4 Sekunden |
+| **Gemini** | Zwillingsspeere: eine Reihe Drohnen an jeder Flanke, die Spitzen vor der Nase | Nichts |
+| **Stiletto** | Ein Schwert mit dem Schiff als Heft: eine Klinge aus bis zu sechs Drohnen vor der Nase und ein Paar an der Nase als Parierstange | Nichts |
+| **Gyre** | Ein Rad: ein Kranz und eine Nabe, durch Speichen verbunden | Es dreht sich einmal in 6 Sekunden |
+| **Auger** | Ein Bohrer: ein Kegel um das Schiff, seine Spitze vor der Nase und sein breites Ende hinter dir, die Drohnen zeigen in deine Blickrichtung | Die Drohnen spiralen einmal in 3 Sekunden um die Flugachse des Schiffs |
 
 ## Die sechzehn Formationen {#the-sixteen-formations}
 

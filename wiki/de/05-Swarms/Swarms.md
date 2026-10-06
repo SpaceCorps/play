@@ -90,10 +90,10 @@ Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatis
 
 | Schwarmschiff | Schwarm | PvE-Punkte pro Abschuss |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate-Schwarm | 10 |
-| **Pirate Scout** | Pirate-Schwarm | 1 |
+| **Pirate Boss** | Pirate-Schwarm | 15 |
+| **Pirate Scout** | Pirate-Schwarm | 4 |
 | **Dormant Force** | Dormant-Schwarm | 25 |
-| **Dormant Pulse** | Dormant-Schwarm | 10 |
+| **Dormant Pulse** | Dormant-Schwarm | 11 |
 | **Boss Seeker** | Seeker-Schwarm | 5 |
 | **Seeker Slave** | Seeker-Schwarm | 1 |
 

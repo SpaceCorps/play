@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -263,7 +263,7 @@ Der Wächter lässt **eine Kiste** für den Piloten fallen, der den meisten Scha
 | Wrath Warden | Quorvium | – | – | 5–10 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8 %) |
 
-Ein Wächter zählt in deiner Abschussstatistik unter seinem eigenen Namen und bringt deinem [Rang](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) PvE-Punkte: **10, 15 oder 25** für den Anführer eines Wächters I, II oder III und 1 für jeden Helfer.
+Ein Wächter zählt in deiner Abschussstatistik unter seinem eigenen Namen und bringt deinem [Rang](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) PvE-Punkte: **13 bis 35** für den Anführer, je nach Wächter und Stärke (ein Wächter III bringt am meisten), und **1 bis 6** für jeden Helfer, mehr für eine stärkere Besatzung.
 
 ---
 

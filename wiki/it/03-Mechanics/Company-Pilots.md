@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: a811f0df5512e3b7 -->
+<!-- wiki-i18n source: b4f15f0383031b07 -->
 <!-- wiki-i18n title: Piloti di corporazione -->
 # Piloti di corporazione {#company-pilots}
 
 Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base (da `M-1` a `M-4`, da `T-1` a `T-4`, da `G-1` a `G-4`). Volano per la corporazione giorno e notte e danno una mano ai suoi piloti.
 
-![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Chi sono {#who-they-are}
@@ -15,7 +15,7 @@ Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base 
   - assorbimento 45%: i loro scudi prendono il 45% di ogni colpo, lo scafo il 55%
   - 195 di danno base per raffica (munizioni x1), nessuna probabilità critica, portata 700
 - **Sulla minimappa**: un rombo verde per i piloti della tua corporazione, uno ambra per quelli di un’altra.
-- **Nessun grado**: il piccolo simbolo davanti al nome di un pilota in volo è il suo [grado](/wiki/03-Mechanics/Ranks.md) e appartiene ai piloti veri. I piloti di corporazione non ne hanno. La pagina Corporazione classifica i piloti veri della tua corporazione per punti PvE.
+- **Nessun grado**: il piccolo simbolo davanti al nome di un pilota in volo è il suo [grado](/wiki/03-Mechanics/Ranks.md) e appartiene ai piloti veri. I piloti di corporazione non ne hanno e non sono nella classifica della tua corporazione. La pagina Corporazione elenca i piloti veri della tua corporazione, con più punti PvE per primi, e il grado di un pilota è la sua posizione in quell’elenco.
 
 ## Cosa fanno {#what-they-do}
 

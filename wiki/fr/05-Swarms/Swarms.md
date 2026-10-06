@@ -90,10 +90,10 @@ Chaque élimination est comptée sous le nom propre du vaisseau dans vos statist
 
 | Vaisseau d’essaim | Essaim | Points PvE par élimination |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Essaim Pirate | 10 |
-| **Pirate Scout** | Essaim Pirate | 1 |
+| **Pirate Boss** | Essaim Pirate | 15 |
+| **Pirate Scout** | Essaim Pirate | 4 |
 | **Dormant Force** | Essaim Dormant | 25 |
-| **Dormant Pulse** | Essaim Dormant | 10 |
+| **Dormant Pulse** | Essaim Dormant | 11 |
 | **Boss Seeker** | Essaim Seeker | 5 |
 | **Seeker Slave** | Essaim Seeker | 1 |
 

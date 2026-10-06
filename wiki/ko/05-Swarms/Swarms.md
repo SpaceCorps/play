@@ -90,10 +90,10 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 
 | 무리의 함선 | 무리 | 처치당 PvE 포인트 |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate 무리 | 10 |
-| **Pirate Scout** | Pirate 무리 | 1 |
+| **Pirate Boss** | Pirate 무리 | 15 |
+| **Pirate Scout** | Pirate 무리 | 4 |
 | **Dormant Force** | Dormant 무리 | 25 |
-| **Dormant Pulse** | Dormant 무리 | 10 |
+| **Dormant Pulse** | Dormant 무리 | 11 |
 | **Boss Seeker** | Seeker 무리 | 5 |
 | **Seeker Slave** | Seeker 무리 | 1 |
 

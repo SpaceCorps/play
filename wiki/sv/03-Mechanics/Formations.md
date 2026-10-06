@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: Formationer -->
 # Drönarformationer {#drone-formations}
 
 En **drönarformation** är ett mönster som dina drönare tar runt skeppet, och den ändrar hur skeppet slåss. Varje formation ger några bonusar och tar ut några priser: en större sköld mot svagare vapen, hårdare raketer mot ett tunnare skrov, snabbare utomjordingsdödande mot ett långsammare skepp. Det finns **16**. Du forskar fram en i ditt [Skylab](/wiki/03-Mechanics/Skylab.md), tillverkar den i Monteringen och bär **en** åt gången, vilken som helst av dem du äger. Du får byta var **2:a sekund**, även i strid.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@ En **drönarformation** är ett mönster som dina drönare tar runt skeppet, och
 - **Skaffa en.** Forska fram dess teknik i Forskningscentrum (två träd, *Försvar* och *Anfall och rörlighet*) och tillverka den sedan i Monteringen för Thulium. Den billigaste kostar 7 000 Thulium och 5 Dark Matter, den dyraste 46 000 Thulium och 20 Dark Matter. Butiken säljer ingen.
 - **Äg den.** En formation sätts inte på någonstans: en kopia i ditt förråd räcker. Du behöver minst en drönare, en Slave Drone eller en Master Drone, annars fungerar ingen formation.
 - **Bär den.** Dra den från Formationslistan i snabbfältet till valfri plats. Klicka på platsen eller tryck på dess tangent för att bära formationen. Listan har också **Standard**, som är ingen formation: dra den till en plats och tryck på den för att åter bära ingen. Du får byta en gång var 2:a sekund, och det finns ingen stridsspärr.
+- **Se den.** Varje formation har en egen form, och dina drönare flyger den runt ditt skepp: ett tak, ett hjärta, vingar, ett svärd, en borr. Andra piloter ser den också. Se [Så flyger de](#how-they-fly).
 - **Välj för nästa minut.** Varje formation tar betalt för sina bonusar, så ingen är bäst överallt. Bär den som passar det du ska göra: jaga, en envig, skjuta raketer eller fly.
 
 > [!NOTE]
-> En formation är inte ”Wingman”-uppställningen där dina drönare flyger bredvid skeppet ([Drönarmekanik](/wiki/03-Mechanics/Drones.md#formation-movement)). Den uppställningen är bara hur de ser ut, och den är densamma oavsett vilken formation du bär. En drönarformation är en uppsättning bonusar och priser.
+> En drönarformation är två saker: en uppsättning bonusar och priser, och den **form** dina drönare flyger i ([Så flyger de](#how-they-fly)). Utan bärd formation flyger de i den enkla ”Wingman”-uppställningen ([Drönarmekanik](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## Skaffa en formation {#getting-a-formation}
 
@@ -32,7 +39,37 @@ En **drönarformation** är ett mönster som dina drönare tar runt skeppet, och
 - **Var 2:a sekund, även i strid.** Det finns ingen stridsspärr och ingen inställningstid: de nya värdena gäller direkt. Om du frågar för tidigt säger chatten ”Formationen kan bytas igen om 1,4 s.” Inne i en säker zon är det i praktiken ingen väntan.
 - **Den följer dig.** Spelet minns formationen du bar senast och ber om den igen vid start och återuppstånd. Ett byte av konfiguration (tangent `C`) låter den sitta kvar, utan väntan.
 - **Den kräver en drönare.** Utan Slave Drone eller Master Drone i din flotta gör formationen ingenting. En räcker: antalet drönare, deras nivåer och vad de bär spelar ingen roll.
-- **Andra kan se den.** Markera en pilot, så skriver Målfönstret ”Formation:” och dess namn. Inget delas med din grupp.
+- **Andra kan se den.** Varje pilot som ser ditt skepp ser dina drönare flyga formationens form. Markera en pilot, så skriver Målfönstret ”Formation:” och dess namn. Inget delas med din grupp.
+
+## Så flyger de {#how-they-fly}
+
+Varje formation ger dina drönare **en egen form**. Bär du en lämnar drönarna den enkla ”Wingman”-uppställningen och glider på **0,8 sekunder** in i dess form runt ditt skepp, runt skrovet och aldrig genom det. Det är en form i rymden: Testudos tak svävar över vingarna, Auger är en kon, och hela formen vrider sig med ditt skepp, så dess framsida är alltid dit din nos pekar. Sex av dem finns på bilderna överst på den här sidan, var och en med en Paragon och åtta drönare på nivå 8, sedda uppifrån med kameran lätt lutad: Auger, Culler, Gyre, Sanctum, Stiletto och Testudo.
+
+- **Ingen formation, ingen form.** Bär du ingen (**Standard** i Formationslistan) flyger drönarna den enkla ”Wingman”-uppställningen i [Drönarmekanik](/wiki/03-Mechanics/Drones.md#formation-movement).
+- **Byggd för de drönare du har.** En form byggs för exakt de drönare du äger, 1 till 8: med en eller två ser du bara början av den, med alla **8** hela formen, som på bilderna. Deras nivåer och vad de bär ändrar ingenting.
+- **Anpassad efter ditt skepp.** Ett långt skepp flyger en längre form än ett litet, och drönarna håller avstånd till skrovet.
+- **Syns för alla.** Andra piloter ser din form och du ser deras. Ett skepp som är mer än **3 500 enheter** från din kamera visar inga drönare, och i en folksamling gör bara de närmaste **64** skeppen det.
+- **Stäng av den.** Inställningar › Gränssnitt har **Visa mina drönare** och **Visa fientliga drönare** (andra pilotars drönare). De ändrar bara vad du ser: din formations bonusar fungerar som förut. **Minska rörelser** (Inställningar › Grafik) håller de former som rör sig, Cordon, Asterism, Culler, Gyre och Auger, stilla och kortar glidningen till **0,2 sekunder**.
+- **Se höjden.** Taket, skålen och borren har höjd, som en vy rakt uppifrån visar föga. Vrid kameran med högerdrag ([Kom igång](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) för att se dem från sidan.
+
+| Formation | Formen | Vad som rör sig |
+| :--- | :--- | :--- |
+| **Testudo** | Ett tak: två kolonner drönare över vingarna, skeppets rygg lämnas fri mellan dem | Ingenting |
+| **Adamant** | En romb runt skeppet: ett hörn framför, ett bakom och ett på varje sida | Ingenting |
+| **Sanctum** | Ett hjärta framför nosen, med spetsen mot ditt skepp | Ingenting |
+| **Redoubt** | En skål: en ring runt skrovet, ett par över vingarna och en drönare överst | Ingenting |
+| **Cordon** | En vid ring runt skeppet | Den vrider sig ett varv på 24 sekunder |
+| **Rampart** | En vägg tvärs framför nosen, med ändarna böjda framåt som klor | Ingenting |
+| **Asterism** | En fyruddig stjärna av ljus: uddar framåt, bakåt och åt varje sida | Varje drönare sväller och krymper, en gång var 1,5 sekund |
+| **Bodkin** | En pil med ditt skepp som spets: en udd framför nosen, hullingar längs flankerna och ett skaft bakom | Ingenting |
+| **Ballista** | Ett V framför skeppet, med armarna svepta bakåt längs sidorna | Ingenting |
+| **Centurion** | Ett block: vakter i en rektangel runt skeppet | Ingenting |
+| **Shrike** | En treudd framför nosen, med skeppet som skaft: en rad om tre och tre uddar, den mittersta längst | Ingenting |
+| **Culler** | Vingar: en solfjäder av drönare på varje sida, långa och korta, och ett huvud framför nosen när antalet drönare är udda | Vingspetsarna stiger och sjunker en gång var 2,4 sekund |
+| **Gemini** | Tvillingspjut: en kolonn drönare längs varje flank, med spetsarna framför nosen | Ingenting |
+| **Stiletto** | Ett svärd med skeppet som fäste: ett blad av upp till sex drönare framför nosen och ett par vid nosen som parerstång | Ingenting |
+| **Gyre** | Ett hjul: en fälg och ett nav förbundna med ekrar | Det snurrar ett varv på 6 sekunder |
+| **Auger** | En borr: en kon runt skeppet, med spetsen framför nosen och den breda änden bakom dig, drönarna pekar dit du tittar | Drönarna skruvar sig runt skeppets flygaxel, ett varv på 3 sekunder |
 
 ## De sexton formationerna {#the-sixteen-formations}
 

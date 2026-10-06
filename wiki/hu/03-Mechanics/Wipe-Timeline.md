@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Hogyan működnek a világok:
 
 A wipe elveszi a hajóidat és a tárgyaidat (kivéve az aktív hajódat a rajta lévő mindennel, a tranzittárolódat és a drónjaidat), és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé, kivéve azokat a szintküldetéseket, amelyeket a 0.4.10-es frissítés átdolgozott: közülük 64-et még egyszer felkínálnak ([Küldetések](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Klánok és rangok.** Egy klán pontjai, bónuszszintjei és napi vonalai minden wipe-nál újra kezdődnek, így minden szezon új verseny a teljes bónuszokért; maga a klán, a tagjai, a bankja és az adója marad ([Klánok](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A vállalati rangod is marad: a PvE-rangpontjaidat követi, amelyeket a wipe nem nulláz ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Klánok és rangok.** Egy klán pontjai, bónuszszintjei és napi vonalai minden wipe-nál újra kezdődnek, így minden szezon új verseny a teljes bónuszokért; maga a klán, a tagjai, a bankja és az adója marad ([Klánok](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A PvE-rangpontjaid is maradnak, így a wipe nem mozdít el a vállalatod ranglistáján: a rangod az ottani helyezésedet követi, nem a szezont ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Az állandó buffok boltja {#the-permanent-buff-store}
 Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átívelnek az összes szezonon. Ezek a buffok halmozódnak, és jelentős passzív bónuszokat adnak:

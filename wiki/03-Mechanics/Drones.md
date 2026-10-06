@@ -10,17 +10,19 @@ Every drone you hold, a **Slave Drone** or a Master Drone, opens its drone slots
 
 ## Flight Layout & Movement {#formation-movement}
 
-Drones fly in a standard **"Wingman" layout (2-2-4)**:
+With no [drone formation](/wiki/03-Mechanics/Formations.md) worn, your drones fly the standard **"Wingman" layout (2-2-4)**, the **Standard** layout:
 
 - **2 Drones** beside the ship, one on each flank.
 - **2 Drones** beside and just behind it.
 - **4 Drones** trailing behind.
 
-They utilize a smooth following algorithm that adjusts their position based on your ship's speed and rotation, tightening the layout during sharp maneuvers. Nobody flies ahead of you.
+They utilize a smooth following algorithm that adjusts their position based on your ship's speed and rotation, tightening the layout during sharp maneuvers. In this layout nobody flies ahead of you.
 
-Drones are small, and they stay close: a level-8 drone is about 19.5 units across (a Protos is 50) and a level-1 drone is a ball of about 8, so the whole layout fits within roughly 135 units of your ship. The drone you bought first has the most experience and flies on your left flank, the second on your right, and the newest trail behind.
+Drones are small, and they stay close: a level-8 drone is about 19.5 units across (a Protos is 50) and a level-1 drone is a ball of about 8, so the whole layout fits within roughly 135 units to each side of your ship and behind it. The drone you bought first has the most experience and flies on your left flank in this layout, the second on your right, and the newest trail behind.
 
-This layout is only how the drones look, and it is the same whichever [drone formation](/wiki/03-Mechanics/Formations.md) you wear. A drone formation is a set of bonuses and prices, not a different way of flying.
+Wear a [drone formation](/wiki/03-Mechanics/Formations.md) and the drones leave this layout: **each of the 16 formations has its own shape**, a roof over the wings, a diamond, a heart, wings, a sword, a drill and more, and the drones glide to it in under a second. The shape is made for the drones you have, up to 8, and it turns with your ship. Other pilots see it too. [How they fly](/wiki/03-Mechanics/Formations.md#how-they-fly) shows all sixteen. Wear **Standard**, the entry of the hotbar's Formations list that is no formation, and the drones fly the Wingman layout again.
+
+You can switch the drones off in Settings › Interface: **Show My Drones** for yours and **Show Enemy Drones** for those of other pilots.
 
 ## Equipment & Stats
 

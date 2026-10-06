@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: 編成 -->
 # ドローン編成 {#drone-formations}
 
 **ドローン編成**とは、ドローンが艦の周りで取る陣形で、艦の戦い方を変えます。どの編成にもボーナスと代償があります。シールドが大きくなる代わりに武器が弱くなる、ロケットが強くなる代わりに船体が薄くなる、エイリアンを速く倒せる代わりに艦が遅くなる、といった具合です。種類は**16**。[Skylab](/wiki/03-Mechanics/Skylab.md) で研究し、アセンブリで作成し、持っているものの中から**1つ**ずつ使います。切り替えは**2秒**に1回で、戦闘中でもできます。
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@
 - **入手する。** 研究センターでその技術を研究し（*防衛* と *攻撃と機動* の2つのツリー）、アセンブリでThuliumを使って作成します。いちばん安いものは7,000 Thulium と 5 Dark Matter、いちばん高いものは46,000 Thulium と 20 Dark Matter です。ショップでは売っていません。
 - **持つ。** 編成はどこにも装備しません。インベントリに1つあれば十分です。ドローン（Slave Drone か Master Drone）が1機以上必要で、いなければどの編成も働きません。
 - **使う。** ホットバーの編成リストから好きなスロットにドラッグします。スロットをクリックするかそのキーを押すと編成を使います。リストには編成なしを表す「標準」もあり、スロットにドラッグしてそれを押すと、編成なしに戻せます。切り替えは2秒に1回で、戦闘ロックはありません。
+- **見る。** どの編成にも独自の形があり、ドローンは艦のまわりでその形に飛びます。屋根、ハート、翼、剣、ドリルなどです。ほかのパイロットにも見えます。[飛び方](#how-they-fly)を参照。
 - **次の1分に合わせて選ぶ。** どの編成もボーナスの代償を払うので、どこでも最強の編成はありません。これからすること（狩り、決闘、ロケット、逃走）に合うものを使いましょう。
 
 > [!NOTE]
-> 編成は、ドローンが艦の横を飛ぶ「Wingman」の配置（[ドローンの仕組み](/wiki/03-Mechanics/Drones.md#formation-movement)）のことではありません。その配置は見た目だけで、どの編成を使っていても同じです。ドローン編成は、ボーナスと代償の組み合わせです。
+> ドローン編成は2つのものです。ボーナスと代償の組み合わせと、ドローンが飛ぶ**形**です（[飛び方](#how-they-fly)）。編成を使っていないときは、簡素な「Wingman」の配置で飛びます（[ドローンの仕組み](/wiki/03-Mechanics/Drones.md#formation-movement)）。
 
 ## 編成を手に入れる {#getting-a-formation}
 
@@ -32,7 +39,37 @@
 - **2秒ごと、戦闘中でも。** 戦闘ロックも、落ち着くまでの待ち時間もありません。新しい数値はすぐに有効になります。早すぎると、チャットに「あと 1.4 秒で編成を切り替えられます。」と出ます。セーフゾーンの中では、ほとんど待たずに切り替えられます。
 - **ついてくる。** ゲームは最後に使った編成を覚えていて、出撃やリスポーンのときにもう一度求めます。構成の切り替え（`C` キー）をしても編成はそのままで、待ち時間もありません。
 - **ドローンが必要です。** 艦隊に Slave Drone も Master Drone もいなければ、編成は何もしません。1機いれば十分で、ドローンの数、レベル、載せているものは関係ありません。
-- **ほかのパイロットにも見えます。** パイロットを選択すると、ターゲットウィンドウに「編成：」とその名前が出ます。グループとは何も共有されません。
+- **ほかのパイロットにも見えます。** あなたの艦が見えるパイロットには、あなたのドローンが編成の形に飛ぶ様子も見えます。パイロットを選択すると、ターゲットウィンドウに「編成：」とその名前が出ます。グループとは何も共有されません。
+
+## 飛び方 {#how-they-fly}
+
+どの編成も、ドローンに**独自の形**を与えます。編成を使うと、ドローンは簡素なウィングマン配置を離れ、**0.8秒**で艦のまわりのその形へ滑らかに移ります。船体をよけて回り込み、突き抜けることはありません。形は空間の中にあります。Testudo の屋根は翼の上に浮かび、Auger は円錐で、形全体が艦と一緒に向きを変えるので、前方はいつも艦首の向く先です。そのうち6つは、このページの上部の画像にあります。どれも Paragon とレベル8のドローン8機を、少し傾けたカメラで上から見たものです：Auger、Culler、Gyre、Sanctum、Stiletto、Testudo。
+
+- **編成なしなら形もなし。** 編成を使っていないとき（編成リストの**標準**）、ドローンは[ドローンの仕組み](/wiki/03-Mechanics/Drones.md#formation-movement)の簡素な「ウィングマン」配置で飛びます。
+- **持っているドローンに合わせて作られます。** 形は、持っているドローンの数ちょうどに合わせて作られます（1〜8機）。1〜2機なら形の最初の部分だけ、**8機**そろえば画像のように形全体が見えます。ドローンのレベルや載せているものは関係ありません。
+- **艦に合わせた大きさ。** 長い艦は小さい艦より長い形で飛び、ドローンは船体との間隔を保ちます。
+- **みんなに見えます。** ほかのパイロットにはあなたの形が見え、あなたにも相手の形が見えます。カメラから**3,500ユニット**より遠い艦にはドローンが表示されず、混み合っているときは近い順に**64隻**だけが表示されます。
+- **表示を切る。** 設定 › インターフェース に**自分のドローンを表示**と**敵のドローンを表示**（ほかのパイロットのドローン）があります。変わるのは見た目だけで、編成のボーナスはそのまま働きます。**動きを減らす**（設定 › グラフィック）は、動く形、つまり Cordon、Asterism、Culler、Gyre、Auger を止めたままにし、滑らかに移る時間を**0.2秒**に縮めます。
+- **高さを見る。** 屋根、ボウル、ドリルには高さがありますが、真上からの視点ではあまり見えません。右ドラッグでカメラを回すと（[はじめに](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)）、横から見られます。
+
+| 編成 | 形 | 動き |
+| :--- | :--- | :--- |
+| **Testudo** | 屋根：翼の上に2列のドローン、その間は艦の背を空けています | なし |
+| **Adamant** | 艦を囲むひし形：前に1つ、後ろに1つ、左右に1つずつ角があります | なし |
+| **Sanctum** | 艦首の前のハート、先端は艦のほうを向きます | なし |
+| **Redoubt** | ボウル：船体を囲むリング、翼の上の2機、いちばん上の1機 | なし |
+| **Cordon** | 艦を囲む大きなリング | 24秒で1周します |
+| **Rampart** | 艦首の前を横切る壁、両端は爪のように前へ曲がります | なし |
+| **Asterism** | 4つの尖りを持つ光の星：前、後ろ、左右に尖りがあります | 各ドローンが1.5秒ごとに1回、膨らんで縮みます |
+| **Bodkin** | 艦を矢じりにした矢：艦首の前に先端、側面に沿って返し、後ろに矢柄 | なし |
+| **Ballista** | 艦の前のV字、腕は側面に沿って後ろへ流れます | なし |
+| **Centurion** | ブロック：艦を囲む長方形に並ぶ護衛 | なし |
+| **Shrike** | 艦首の前の三叉の槍、艦が柄：3機の列と3本の穂先、中央がいちばん長い | なし |
+| **Culler** | 翼：両側にドローンの扇、長いものと短いもの、ドローンの数が奇数のときは艦首の前に頭 | 翼の先が2.4秒ごとに1回、上下します |
+| **Gemini** | 双子の槍：両側面に沿ったドローンの列、穂先は艦首の前 | なし |
+| **Stiletto** | 艦を柄にした剣：艦首の前に最大6機の刃、艦首に鍔の2機 | なし |
+| **Gyre** | 車輪：リムとハブをスポークでつないだもの | 6秒で1回転します |
+| **Auger** | ドリル：艦を囲む円錐、先端は艦首の前、広い側は後ろ、ドローンは見ている方向を向きます | ドローンが艦の進行軸のまわりを3秒で1周するらせんを描きます |
 
 ## 16種類の編成 {#the-sixteen-formations}
 

@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.10"
-date: "2026-10-05"
+version: "0.4.11"
+date: "2026-10-06"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 133357228
-    sha256: "19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9"
+    size: 133975864
+    sha256: "edb976b5c6e6692accb4b6c7997befeaf4013cc25d187d07877284eb379ab3e3"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 127838255
-    sha256: "67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4"
+    size: 128417513
+    sha256: "da074f723dbfd5ebc16d44d68ea5f39bf3c7be0c333b54a4849705c4fc04871e"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 123550200
-    sha256: "581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb"
+    size: 124107256
+    sha256: "feeded82801029d9137f5ab0d180632572442e129f1fdafb9979801e42fda1f0"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 128644851
-    sha256: "1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669"
+    size: 129219571
+    sha256: "df3d8d5bd32ed0cf9309f19a1e320226d0d449340e1b8f9ab6b6bb117f65c29a"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.10)
+## Downloads (Version 0.4.11)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (133.4 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9` |
-| **Windows** | x86_64 | `.zip` (127.8 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4` |
-| **Linux** | x86_64 | `.AppImage` (123.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb` |
-| **Linux** | x86_64 | `.tar.gz` (128.6 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `1e51ee9e8f75ed253b9bec51397adc151c25d9b624b72f496bd1ac750fa4c669` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (134.0 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `edb976b5c6e6692accb4b6c7997befeaf4013cc25d187d07877284eb379ab3e3` |
+| **Windows** | x86_64 | `.zip` (128.4 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `da074f723dbfd5ebc16d44d68ea5f39bf3c7be0c333b54a4849705c4fc04871e` |
+| **Linux** | x86_64 | `.AppImage` (124.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `feeded82801029d9137f5ab0d180632572442e129f1fdafb9979801e42fda1f0` |
+| **Linux** | x86_64 | `.tar.gz` (129.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `df3d8d5bd32ed0cf9309f19a1e320226d0d449340e1b8f9ab6b6bb117f65c29a` |
 <!-- /release:downloads -->
 
 ---
@@ -72,190 +72,139 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.10 · 2026-10-05
+### 0.4.11 · 2026-10-06
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.10)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.11)
 
-SpaceCorps 2027 0.4.10 rebuilds the Skylab's numbers and adds 16 drone formations in two new research trees, reworked level missions (quest items, visits, stays, hull limits) with a Challenge line of 50 very hard missions, a daily line of missions for clans with three Clan Wardens and permanent clan boosts, company ranks, a ring of jump gates between the companies, and a wiki with pictures and search. The Skylab's farms, collectors, Storage, Forgery and Solar each have their own output, price and upgrade time at every one of their 20 levels; you keep your levels, nothing is charged or refunded, and what your farms had stored is paid out once at the old rate. A Solar upgrade now stops the farms of almost every station until it is done. The 16 formations change your ship's shield, hull, speed, lasers, rockets and kill rewards, and you change the one you wear from the hotbar every 2 seconds. It also fixes a ship's total shield falling when you add a shield or a cell, and closes two loopholes in how lasers and extras are fitted. Some things get stricter or cheaper, so the "If you already play" list below is worth reading.
+SpaceCorps 2027 0.4.11 makes ranks per company, draws the drone formations as shapes round your ship, gives the Group window a new layout, makes Unequip all take the equipment off your drones too, and sets the PvE points of the swarm aliens and Clan Wardens by their toughness like the older aliens (their kills already counted; only the figures change). Your rank is now your place among the pilots of your company: the best pilot is its only Senior Admiral (20,000 PvE points at least), the others follow by place, and each rank needs a minimum of PvE points. Each of the 16 formations places your drones in a pattern of its own, other pilots see it, and the Auger is a cone with its tip ahead of your ship. Your rank can go down now, and many ranks will at the first start: read "If you already play".
 
 #### What's new
 
 **Highlights**
-- **The Skylab has new tables.** The Credit Farm makes 500 credits an hour at level 1 and 50,000 at level 20, the Thulium Farm 50 to 1,600 Thulium an hour, the Velkonite Collector 10 to 80 and the Orvium Collector 10 to 40 ore an hour. The first upgrade of each of the farms, collectors, Storage, Forgery and Solar takes 5 minutes and the last 12 to 36 hours, and the climbs cost far less Thulium than before. The Credit Farm is now built free. The whole station to level 20 takes about 18 days instead of 22.6.
-- **Solar makes only 25% of its power while it upgrades.** For almost every station that means the farms and collectors stop until the upgrade is done (up to 24 hours at the top). Plan a Solar upgrade like a blackout of your farms.
-- **16 drone formations**, researched in two new trees of the Research Centre (Defence 6, Strike & Mobility 10) and crafted in Assembly for 7,000 to 46,000 Thulium each. You own them, drag any of them (and a built-in Standard) from the hotbar's Formations menu onto a slot, and click the slot or press its key to wear that formation. You can change once every 2 seconds, in a fight too. A formation works while you own at least one drone.
-- **Level missions are chains.** Of the ten missions of every level, three carry a **quest item** home to Mission Control, two visit marked points, two hold a sector for a number of minutes and three stay plain kill missions; the new steps are added to the kills, and a step can say "do not lose more than N hull points" or "do not die". 64 missions were reworked; levels 3 and 4 are no longer one long Phantasm grind.
-- **The Challenge line:** 50 hard missions in five tiers (Proving Ground, Iron Border, The Centre, The Abyss, Legends), from pilot level 3, with kills by the thousand, vigils of up to 3 hours, convoys, clean runs and a black hole walk, paid in credits, Thulium, experience, items and boosters (honor in tier I). They take your boosters, the world multiplier and your clan's boosts like any other mission.
-- **Clans have a daily line:** four hunts or patrols in order and then the day's **Clan Warden**, a boss only your clan can hurt (three Wardens in rotation, each in three strengths). A finished line pays 100 clan points, which the Leader and Co-Leaders spend on three permanent boosts of ten levels: **Clan Damage** (+0.5% per level), **Clan Thulium** and **Clan Credit** (+1% per level).
-- **Company ranks:** your PvE points earn a military rank, 24 of them from Junior Pilot to Senior Admiral. A small symbol shows before your name on ship tags, in chat, in the kill feed and on profiles, and your rank keeps through the season wipe.
-- **Ships:** the **Storm** has 13 lasers (it had 10), 4 core and 2 auxiliary generator slots and 150,000 hull, and flies at 250. The **Protos** flies at 160 and the **Wraith** at 220. The four ships you buy (Protos, Kitefin, Ostirion and Nomad) have **2 extra slots** instead of 3; the four you craft keep 3. A new pilot starts with a Base CPU I and a Repair Drone I fitted in the Protos' two extra slots.
-- **A ring of jump gates:** each company's x-4 sector has a second gate, to another company's x-3 (Mars M-4 to Terra T-3, Terra T-4 to Galactic G-3, Galactic G-4 to Mars M-3), so there is a loop between the maps that does not cross the Danger Sectors.
-- **Fixes:** adding a shield or a shield cell can no longer lower a ship's total shield, adding a thruster or an engine can no longer lower its speed, an extra now has to sit in a box the ship really has, and a laser fitted with no slot named takes a free laser slot.
-- **Aliens no longer push each other apart**, which takes work off the server on every tick. **Repair Drones fitted as extras** now fly out and beam your hull for everyone to see. **20 new quiet sounds.**
-- **The wiki has pictures and a search:** every article has its own icon, most open with a banner, small icons stand in front of names, a click shows a picture large, and a search box finds text across all articles in your language. New articles: Drone Formations and Ranks.
+- **Ranks per company.** Your rank is your place among the pilots of your company, all three worlds together. The best pilot is the only **Senior Admiral** and needs 20,000 PvE points; the others follow down 23 ranks by place, a fifth of them Junior Pilots and the best tenth Captains or better, and each rank also has a **minimum of PvE points**. Only pilots who flew in the last **30 days** are on the ladder. A rank can fall when pilots pass you (never announced); a rise is. The Company page shows your place, percentile, the pilot to pass and the whole pyramid.
+- **Drone formations are shapes you can see.** Each of the 16 formations places your drones in a pattern round your ship, turning with it, and other pilots see yours: Testudo a roof of shields, Sanctum a heart, Stiletto a sword, Gyre a wheel and **Auger a cone round the ship with its tip ahead**. With no formation (Standard) they fly the escort you know.
+- **The Group window** puts the shield bar (blue) under the hull bar (green), and a groupmate's target to the right of the bars.
+- **Unequip all** in the Hangar's Spaceship view also takes the lasers and shields off your drones, with the amps and cells in them. Your drones and the formation you wear stay.
+- **Swarm aliens and Clan Wardens count by their toughness.** Their kills counted before; their PvE points now follow the same rule as the Seeker, Phantasm, Bulwark, Goombah and Crystalys, and the PvE card (the (i) on the PvE tiles) lists them.
 
 **If you already play: what changes for you**
-- **Your Skylab keeps its levels, and its numbers change.** Nothing is charged or refunded for the difference. At the update everything your farms and collectors had stored (up to 72 hours of each, the "hopper") is **paid out once, at the old hourly rate,** and the hoppers start empty. At high levels the new farms make much less than the old ones (a level-20 Credit Farm 50,000 credits an hour, it made 597,630; a level-15 Thulium Farm 950 Thulium an hour, it made 1,969), the Thulium Farm at levels 2 to 8 and the Orvium Collector at levels 1 to 4 make more than before (up to 30% and up to two thirds). Prices and times follow the new tables from level 1 on, so a climb you have not made yet costs far less Thulium and its last steps take hours, not days; its first upgrade takes 5 minutes where it took 36 seconds to 3 minutes, and some climbs cost more credits (see "Skylab: the new tables").
-- **Solar:** while it upgrades it makes 25% of the power of its current level. The farms and collectors stop for the whole upgrade unless everything else in your station is at least five levels below Solar (a full station needs more); what they hold stays and can be collected. A Solar upgrade that is running at the update makes 25% from then on. The price of a Solar upgrade is now the Forgery's (24,000 credits for the climb from level 1 to 3 instead of 1,679).
-- **The Resource Storage holds a different amount of each ore** (240 of each at level 1, 7,680 Velkonite and 3,840 Orvium at level 20). **Ore you hold above the new limit stays,** but your collectors stop collecting that ore until you spend it below the limit.
-- **Mission Control has new missions.** If you finished one of the 64 reworked level missions, it is offered again and you do the new version for its **full reward** (credits, Thulium, experience, honor, items). A reward you had finished but not yet claimed is paid at the larger of the old and the new amount. A mission you have under way is carried over to its new steps by the share you had done, never dropped. Your mission count and your Wipe Points never go down, and a mission never earns Wipe Points twice in a season. The 24 level missions that did not change and the 10 Station missions stay as they are. A level's Special is locked again until you have done that level's missions again. You see one notice at your first flight.
-- **The four ships you buy have 2 extra slots** (Protos, Kitefin, Ostirion, Nomad), so with the Extra Slots CPUs I, II and III they have 5, 7 and 9 extra slots; the Paragon, Ironclad, Wraith and Storm keep 3 (6, 8 and 10). If you had a third extra fitted on one of the four, it is **unequipped into your inventory** at the update (nothing is deleted; you get one notice at your first flight).
-- **The Storm** is now a Class IV Dreadnought by the wiki's rule (more than 10 lasers). The Wraith is a little slower and the Protos a little faster. No ship's price or recipe changed.
-- **Shield totals can go up, never down.** If your loadout was hit by the shield bug (a shield or a cell lowered the total), it reads more now.
-- **Formations work for every pilot who owns a drone.** You do not fit them: owning one is enough, and **all the formations you own stay through the season wipe** like your drones. Research and crafting of a formation are once per account.
-- **Aliens may overlap** and several can stand on the same spot; they still keep out of your ship's hull. An alien that gives up on a pilot flies to a random point of the map again.
-- **A Warden is not a Seeker:** a Clan Warden does not count for any alien-kill mission. Hard (Challenge) missions pay base x world x boosters x your clan's boosts, so in Gamma a mission pays three times its printed numbers before any booster.
-- **Clan points, boost levels and the daily lines start at zero** at the update (nothing existed before) and again at every season wipe. **Ranks keep through the wipe.**
-- **A 0.4.9 client keeps working** against the 0.4.10 server, but it cannot take the missions that need the new game, wear a formation or see the clan line and the ranks (see Updating).
+- **Many ranks fall at the update, once.** The ladder is relative, so the rank your PvE points gave in 0.4.10 is not the rank your place gives now (the Senior Admiral needed 750,000 points; it needs 20,000 and first place). Nobody sees a "rank down" message; if your place now gives a rank above the best one you were told, you see **Promoted** once at your next launch.
+- **A rank is no longer for life.** The season wipe keeps your points and so your place, but your rank follows the company: it falls when others pass you, and rises when you pass them or pilots leave the ladder.
+- **30 days away takes you off the ladder:** you count as a Junior Pilot until you launch again or open the Company page, and then you take your place back with the points you left. The 30 days start at the update, so nobody is off the ladder on the first day.
+- **Your PvE points can go up at the first start** if you killed swarm aliens or Clan Wardens (Pirate Boss 15, Pirate Scout 4, Wardens 13 to 35): the server counts every pilot's kills again at its start. No figure went down, so the new figures take no point away.
+- **Unequip all** in the Spaceship view now also empties your drones' slots; the items go to your inventory.
+- **Small changes:** your drones appear in place when you launch instead of flying out from the ship, and each Group window row is 4 points taller (44, it was 40).
+- **A 0.4.10 client keeps working** against the 0.4.11 server, but the new Company page, the shapes, the Group window and the drones in Unequip all need the 0.4.11 client.
 
-**Skylab: the new tables**
-- **Every module has its own numbers at each of its 20 levels** (the Credit Farm, Thulium Farm, Velkonite Collector, Orvium Collector, Resource Storage, Forgery and Solar; the Core and the Research Centre keep theirs):
+**Company ranks: the ladder**
+- **The order:** the pilots of a company, all worlds together, are ordered by their stored PvE points (a tie goes to the higher level, then to the older pilot). Nothing else counts: not PvP points, honor, credits, the clan or Wipe Points.
+- **The shares:** place 1 is the Senior Admiral, alone. Of the pilots behind him 20.1% are Junior Pilots, and each rank above holds fewer: the best 10.2% are Captains or better, the best 4.9% Majors or better, the best 0.86% Generals or better, and 0.15% are Admirals.
+- **The minimum:** a rank also needs PvE points, and your rank is the lower of what your place gives and what your points allow. A company that has only just begun cannot hand out the top ranks for nothing.
+- **Small companies:** the cuts round down, so a company has a pilot at a rank by place only when it is big enough to fill it with a whole pilot: 11 pilots for a Captain, 46 for a Colonel, 118 for a General, 301 for a Junior Admiral, 675 for an Admiral. In a company of 30 the second pilot is a Senior Major at best. The last column of the table is the smallest company that has a pilot at the rank by place; at a slightly larger size the band can be empty again when a cut moves.
+- **Who is on the ladder:** pilots of a company with PvE points above zero who flew in the last 30 days. Everybody else is a Junior Pilot wherever a rank shows (ship tags, chat, the Hall of Fame, profiles) and has no place. A pilot who comes back is placed with the points he left, when he launches or opens the Company page.
+- **How a rank moves:** a kill moves you up the order at once and every symbol on the screen follows in the next update. **Promoted** shows when you reach a rank above the best you were told since you last launched, so a pilot who is passed and passes back is not told twice. A fall is silent. From Junior Major up your company, flying in your world, hears about a promotion your own points earned.
+- **The Company page** (Company ranking) shows your rank and your place ("Place 16 of 31") with your percentile ("Top 52%"); under the bar to your next rank either "301 PvE points to pass nova and reach Sergeant" (the place holds you) or "600 PvE points to Junior Colonel" (the minimum holds you); the best pilot of your company; **All ranks**, the pyramid of the 24 ranks with the share of the company each holds, how many pilots hold it now and its minimum points; and the best 50 pilots of your company across all three worlds.
 
-  | | Level 1 | Level 10 | Level 20 | 0.4.9 at level 20 | First upgrade | Last upgrade |
-  |---|--:|--:|--:|--:|--:|--:|
-  | Credit Farm (credits an hour) | 500 | 7,500 | 50,000 | 597,630 | 5 min | 12 h |
-  | Thulium Farm (Thulium an hour) | 50 | 450 | 1,600 | 7,310 | 5 min | 36 h |
-  | Velkonite Collector (ore an hour) | 10 | 32 | 80 | 833 | 5 min | 24 h |
-  | Orvium Collector (ore an hour) | 10 | 24 | 40 | 416 | 5 min | 36 h |
-  | Resource Storage (Velkonite / Orvium held) | 240 / 240 | 1,920 / 1,440 | 7,680 / 3,840 | 62,450 each | 5 min | 12 h |
-  | Forgery (ore per plate, Velkonite / Orvium) | 40 / 80 | 35.5 / 71 | 30 / 60 | 28.6 / 57.2 | 5 min | 24 h |
-  | Solar | same power as before | | | | 5 min | 24 h |
+  | # | Rank | PvE points needed in 0.4.10 | Minimum in 0.4.11 | Share of the pilots behind the leader | Held by place from a company of |
+  |--:|---|--:|--:|--:|--:|
+  | 1 | Junior Pilot | 0 | 0 | 20.1% | 2 |
+  | 2 | Pilot | 150 | 150 | 16.1% | 4 |
+  | 3 | Senior Pilot | 350 | 350 | 12.9% | 6 |
+  | 4 | Junior Sergeant | 700 | 610 | 10.3% | 3 |
+  | 5 | Sergeant | 1,200 | 800 | 8.24% | 4 |
+  | 6 | Senior Sergeant | 2,000 | 1,000 | 6.59% | 8 |
+  | 7 | Junior Lieutenant | 3,000 | 1,300 | 5.27% | 5 |
+  | 8 | Lieutenant | 4,500 | 1,500 | 4.22% | 6 |
+  | 9 | Senior Lieutenant | 6,500 | 1,900 | 3.38% | 8 |
+  | 10 | Junior Captain | 9,000 | 2,200 | 2.70% | 9 |
+  | 11 | Captain | 12,500 | 2,600 | 2.16% | 11 |
+  | 12 | Senior Captain | 17,000 | 3,000 | 1.73% | 14 |
+  | 13 | Junior Major | 23,000 | 3,500 | 1.38% | 17 |
+  | 14 | Major | 31,000 | 4,100 | 1.11% | 22 |
+  | 15 | Senior Major | 42,000 | 4,700 | 0.88% | 28 |
+  | 16 | Junior Colonel | 58,000 | 5,600 | 0.71% | 35 |
+  | 17 | Colonel | 80,000 | 6,500 | 0.57% | 46 |
+  | 18 | Senior Colonel | 110,000 | 7,700 | 0.45% | 61 |
+  | 19 | Junior General | 150,000 | 8,900 | 0.36% | 84 |
+  | 20 | General | 200,000 | 10,000 | 0.29% | 118 |
+  | 21 | Senior General | 280,000 | 12,000 | 0.23% | 178 |
+  | 22 | Junior Admiral | 380,000 | 14,000 | 0.19% | 301 |
+  | 23 | Admiral | 520,000 | 17,000 | 0.15% | 675 |
+  | 24 | Senior Admiral | 750,000 | 20,000 | the best pilot, alone | 1 |
 
-  A farm's price and time follow the table for every step: for example the Credit Farm costs 5,000 credits and 1 Thulium for the first upgrade and 7,000,000 credits and 550 Thulium for the last, and the Thulium Farm 7,000 credits and 45 Thulium for the first and 8,500,000 credits and 16,000 Thulium for the last. The numbers are in the Skylab's help cards and on the wiki's Skylab page.
-- **What a module costs from its build to level 20** (the build and all 19 upgrades):
+**Drone formations you can see**
+- **One pattern for each formation,** drawn for your ship and for every other pilot's, turning with the ship's heading: the pattern is built for exactly the number of drones you own (1 to 8), not cut from a bigger one, so with one more drone the pattern is made again and the others move a little to make room. Which formation a ship wears is told to everybody who sees the ship; a ship that comes into view has its drones in place from the first frame.
 
-  | Module | Credits before | Credits now | Thulium before | Thulium now |
-  |---|--:|--:|--:|--:|
-  | Credit Farm | 20.1 million | 26.2 million | 2.0 million | 2,399 |
-  | Thulium Farm | 796.8 million | 32.3 million | 79.7 million | 67,890 |
-  | Velkonite or Orvium Collector | 66.5 million | 21.0 million | 3.3 million | 78,950 |
-  | Resource Storage | 20.9 million | 18.2 million | 1.0 million | 2,649 |
-  | Forgery | 66.5 million | 35.0 million | 3.3 million | 37,300 |
-  | Solar | 1.0 million | 35.0 million | 104,000 | 36,850 |
+  | Formation | The shape round the ship | Moves |
+  |---|---|---|
+  | Testudo | a roof of shield tiles in two columns over the wings, the ship's spine left open | hovers |
+  | Adamant | a diamond: a corner ahead, behind and to each side | hovers |
+  | Sanctum | a heart ahead of the nose, its point towards the ship | hovers |
+  | Redoubt | a dome: a ring hugging the hull, a pair over the flanks and a crown on top | hovers |
+  | Cordon | a wide oval ring round the ship | turns once in 24 seconds |
+  | Rampart | a wall across the nose, its ends reaching forward like claws | hovers |
+  | Asterism | a four-pointed star round the ship | twinkles every 1.5 seconds |
+  | Bodkin | an arrow with your ship as its head: a tip ahead, barbs on the flanks, a shaft behind | hovers |
+  | Ballista | a V ahead of the ship, its arms sweeping back along the sides | hovers |
+  | Centurion | a block: a rectangle of guards round the ship | hovers |
+  | Shrike | a trident: a row of three across the nose and three tines ahead, the middle one longest | hovers |
+  | Culler | wings: a fan of four drones on each side | flap every 2.4 seconds |
+  | Gemini | twin spears: a column of four along each flank, the tips ahead of the nose | hovers |
+  | Stiletto | a sword with your ship as its hilt: a blade of drones ahead of the nose and a pair at the nose as the crossguard | hovers |
+  | Gyre | a wheel round the ship, a rim and a hub | spins once in 6 seconds |
+  | Auger | **the drill: a cone round the ship**, its tip ahead of the nose and opening backward at 25 degrees to the line you look along | spirals about that line once in 3 seconds |
 
-- **Whole station:** to take the seven tabled modules from their builds to level 20 now costs 188,739,000 credits and 304,988 Thulium in all. The Core's timers are unchanged and still set the pace: the whole station to level 20 takes about 18 days (it took 22.6), the Thulium Farm and the Orvium Collector finishing last, 36 hours after the Core.
-- **Build prices:** the Credit Farm is built free (it cost 1,000 credits and 100 Thulium). Solar is still 500 credits and 50 Thulium. The Velkonite and Orvium Collectors cost 20,000 credits and 500 Thulium (10,000 credits before), the Resource Storage 5,000 credits and 250 Thulium (10,000 and 500), the Forgery 5,000 credits and 500 Thulium (10,000 and 500). The Thulium Farm, the Core and the Research Centre are as before.
-- **Solar:** its power at each level is unchanged. It is built for 500 credits and 50 Thulium; its upgrades now cost and take what the Forgery's do. **While it upgrades it makes 25% of the power of its current level;** the new level's power starts when the upgrade ends. A station that then uses more than it makes stops: every farm and collector stops producing, and the Forgery starts no new batch, until the upgrade is done. Only a station whose other modules are at least five levels below Solar runs through it (a full station with the whole supply chain needs a little more). A module that is upgrading or switched off draws no power, so lifting the farms together with Solar costs nothing extra. The help cards, the power tip and the Station missions' briefings say so in all 12 languages.
-- **Storage:** a bank holds its own amount of each ore. Ore above the new limit stays and the collector stops until you are below it.
-- **Forgery:** a plate takes a little less ore with every level, from 40 to 30 Velkonite and from 80 to 60 Orvium (level 14 Orvium: 67.5).
-- **One payout at the update:** every uncollected pile of the farms and collectors, at most 72 hours of each, is paid once at the old rate of that module's level and the hopper is emptied. It is a payout, not a collection: the Station missions that ask you to collect do not count it, and no booster touches it. A level-10 pilot gets at most 1,487,595 credits, 38,176 Thulium, 6,437 Velkonite and 3,218 Orvium; a level-20 pilot at most 43,029,388 credits and 526,291 Thulium.
-- **Research from ore:** a Velkonite is now worth 210 science and an Orvium 321 to the Research Centre (they were 40 and 80), to match the smaller collectors. **This means cheaper ore, not faster research:** a research still burns 1 science a second (2 with a boost), so an hour of research costs 17 Velkonite or 11 Orvium instead of 90 or 45, and the time and the tank limit you, not the ore.
-- **Station missions:** the briefings of First Farm, Payday, Brighter Panels, Growing Season and Open the Supply Line quote the new prices, timers and the Solar rule. Their goals and rewards are unchanged; they are paid with the same multipliers as other missions (see Missions).
+- **The Auger** is the owner's drill: its axis is the line your ship looks along, so it points where you point and turns with you. With eight drones they sit on the tip and three rings behind it (1, 2, 2 and 3). From the usual camera, looking down at 70 degrees, eight drones read as a sparse spiral; tilt the camera with a right-drag to see the cone.
+- **Changing formation** glides each drone to its new place in 0.8 seconds, round your hull and never through it, never a jump. A swap during a glide starts from where the drones are.
+- **Standard** (no formation worn) is the escort of 0.4.10, the 2-2-4 layout, unchanged. Your drones now appear in it in place at launch instead of flying out from the ship.
+- **Other pilots see your shape** (the server told them which formation you wear since 0.4.10; 0.4.11 also says it in the join, so a ship that is already there is not drawn in the wrong shape for a moment).
+- **A picture of each pattern** turns in the tooltip of a formation slot, of an entry of the Formations menu and on the formation's item card (the Hangar's Drones view, Assembly and the Shop). It shows the pattern round a Paragon with eight drones.
+- **Settings:** Show My Drones and Show Enemy Drones turn the drones off as before. **Reduce Motion** holds the turning, flapping and twinkling patterns still and shortens the glide to 0.2 seconds. Ships more than 3,500 units from the camera draw no drones, and at most the nearest 64 ships do.
+- **What did not change:** every formation's bonuses and prices, the 2-second limit, the sound of a change (the one 0.4.10 added) and which drones you own. The shapes are the client's drawing; the server does not know where a drone flies.
 
-**Drone formations**
-- **What a formation is:** a pattern your drones take round the ship. Each gives some bonuses and charges some prices, for example a bigger shield for weaker guns. **You own a formation; you do not fit it.** A formation works while you own at least one drone (a Slave Drone or a Master Drone; it need not be fitted), and more drones do not make it stronger. One formation is worn at a time.
-- **Wearing one:** the hotbar has a **Formations** menu next to Ammo, Rockets and Extras. It lists every formation you own and a built-in **Standard** (no formation, always there). Drag any entry onto a slot of the hotbar; clicking that slot or pressing its key makes that formation the one you wear, and a Standard slot takes the formation off. You can change **once every 2 seconds**, with no lock in a fight; in a safe zone a change starts no timer. Swapping between your two configurations does not change the formation you wear and does not start the timer. The Ship window shows the formation you wear and the Target window the one your target wears. A quiet sound plays when you change.
-- **Research and crafting:** the 16 formations are 16 technologies in two new Research Centre trees, **Defence** (6: Testudo, Adamant, Sanctum, Redoubt, Cordon, Rampart) and **Strike & Mobility** (10: Asterism, Centurion, Shrike, Gyre, Culler, Auger, Bodkin, Ballista, Gemini, Stiletto). A research takes 10 hours, 1 day or 2 days and needs **5, 13 or 20 Dark Matter** (189 for all sixteen; 339 for the whole tree with the 15 older technologies). Then you craft the formation in Assembly (a new Drones category) for Thulium, 330,500 for all sixteen, plus ship fragments, plates and power cores (the strongest also Ancient Control Units). The chains: Testudo, Sanctum, Rampart; Adamant, Redoubt, Cordon; Asterism, Bodkin, Ballista; Centurion, Shrike, Culler; Gemini, Stiletto; Gyre, Auger. All sixteen researches one after another take 16 days 2 hours (half of it with the Thulium boost).
+**The Group window**
+- **Hull above shield:** each member's green hull bar has the blue shield bar beneath it, both as wide as the row's text column while the member has no target beside them. A ship with no shield fitted shows the hull bar alone, in the same place.
+- **The target to the right:** a member who is shooting has the mark, name and two thin bars of what he shoots at to the right of his bars, in the lines of the two bars; beside a target the member's bars are shorter (at the default width 105 points long, 195 without a target). The distance and the arrow stay at the top right of the row. In the new form a row is **44 points tall (it was 40) with or without a target**, so nothing jumps when a mate starts or stops shooting.
+- **Narrow windows keep the old form:** below about 240 points of window width there is no room beside the bars, and the target goes beneath them as in 0.4.10, making that row 21 points taller. The default width of 250 points is wide enough; a width you saved is kept.
+- **Long names:** the name keeps at least 90 points; when it would be cut shorter the level text leaves the line (it stays in the hover card), and the place text is cut with an ellipsis before it could lie over the name. At the default width a long target name such as "Pirate Boss Xerxes" is cut with an ellipsis (the hover card has it whole).
+- **Hover** shows one card at a time: the hull bar's, the shield bar's, the target's or the member's.
 
-  | Formation | Gives | Costs | Research | Dark Matter | Thulium |
-  |---|---|---|--:|--:|--:|
-  | **Defence** | | | | | |
-  | Testudo | +14% shield | -5% all damage | 10 h | 5 | 7,500 |
-  | Adamant | regenerates 1.2% of your maximum shield a second (up to 5,750) | -15% hull | 10 h | 5 | 9,000 |
-  | Sanctum | +10% shield, +15% hull | -9% laser damage | 1 day | 13 | 20,000 |
-  | Redoubt | +38% shield, regenerates 0.7% a second (up to 4,500), rocket reload 27% shorter | -12% laser damage, -11% speed | 1 day | 13 | 21,000 |
-  | Cordon | +95% shield | -3% speed, -11% laser damage, rocket reload 11% longer | 1 day | 13 | 21,500 |
-  | Rampart | +17% shield absorbance | -17% speed | 2 days | 20 | 38,500 |
-  | **Strike & Mobility** | | | | | |
-  | Asterism | +24% rocket damage, 7% chance to dodge a direct hit | rocket reload 35% longer | 10 h | 5 | 7,000 |
-  | Centurion | +32% honor from alien kills | -5% laser damage, -5% hull, -7% shield | 10 h | 5 | 8,000 |
-  | Shrike | +7.5% laser damage to aliens, +6% XP from alien kills | -6% shield absorbance | 10 h | 5 | 8,500 |
-  | Gyre | +10% speed | -11% laser damage, drains 0.5% of your current shield a second in a fight | 1 day | 13 | 20,000 |
-  | Culler | +12% damage to aliens, +12% XP from alien kills | -10% speed | 1 day | 13 | 20,000 |
-  | Auger | +21% laser damage | -9% speed | 1 day | 13 | 20,500 |
-  | Bodkin | +29% rocket damage | -6% laser damage | 1 day | 13 | 21,000 |
-  | Ballista | +55% rocket damage | -13% hull | 1 day | 13 | 24,000 |
-  | Gemini | +9 points of shield penetration | -22% shield | 2 days | 20 | 38,000 |
-  | Stiletto | +16 points of shield penetration, +13% hull | drains 3.5% of your current shield a second in a fight | 2 days | 20 | 46,000 |
+**Unequip all**
+- **What it does now:** in the Hangar's Spaceship view the button takes off every item of the configuration on show, **including the lasers and shields in your drones' slots** and the amps and cells fitted in them. They return to your inventory. Its tip reads "Unequip every ship and drone item in this configuration". The Drones view's button, which took only the drones' items, is unchanged.
+- **What stays:** your drones. A drone is owned, never fitted, so there is nothing to take off a ship; what you fit "on a drone" are the lasers and shields in its slots. The formation you wear stays too: it is a choice, not equipment.
+- **All or nothing:** the server now does the whole list in one step, so a failure half way leaves everything as it was. No item is lost or duplicated. The other configuration is not touched. The same rules as before apply: docked, or in flight from a safe zone and out of combat, and an item in the Transport Cache refuses the whole list.
+- **In flight** your ship follows at once: no laser, no shield. Your hull does not change (nothing in a drone slot adds to it), and your shield is only cut to the new maximum.
 
-- **Rockets:** a formation changes all 14 rockets, the N.U.K.E. and the N.I.K.E. included. A rocket's damage factor is fixed the moment you fire it (changing formation while it flies changes nothing), and so is the wait after a launch: Asterism lengthens it by 35 percent, Cordon by 11 percent, Redoubt shortens it by 27 percent, but never below the rocket's flight time plus a tenth of a second (a N.U.K.E. waits at least 4.1 s, a N.I.K.E. at least 4.6 s). The rocket cards show the damage you would deal with your formation. A formation's rocket bonuses together can never raise a rocket's damage by more than 59 percent, so the one-shot limits of the big rockets hold (a N.I.K.E. with the best formation still cannot destroy a fresh Paragon at once).
-- **Hull and shield:** a formation with a hull percent changes your ship's **maximum hull** everywhere you read it (flight, the Ship window, the Hangar tile). A change keeps your hull's fraction: 80 percent of the old maximum becomes 80 percent of the new one, both ways, so changing back and forth gives no free hull. Your current shield is only cut when the maximum falls, and nothing is refilled when it rises. Shield Surge and Emergency Repair heal the same amount whatever you wear.
-- **Evasion** (Asterism, 7%) is a **chance to dodge**: each direct hit on you (a laser volley, a direct rocket, an alien's shot) has that chance to do no damage at all, and a floating **"Miss"** shows over your ship, with one quiet sound. The other hits land whole. An area blast has no aim and is never dodged.
-- **Shield regeneration and drain:** Adamant and Redoubt regenerate part of your shield every second, in a fight or not, up to the cap shown. Stiletto and Gyre take a share of your current shield every second while you are in a fight (10 seconds after a hit or a shot) and never inside a safe zone; the drain stops the moment you change formation.
-- **Penetration** adds to your ammo's and a direct rocket's shield penetration; the sum stops at 40 percent. **XP and honor** bonuses (Shrike, Culler, Centurion) count only after the formation has been worn for 10 seconds, and only for alien kills (swarms included), not for missions or pilots, so changing in and out does not farm them.
-- **The Hangar and the item cards:** the Hangar's Drones view lists the formations you own; a formation's item card lists its bonuses in green and its prices in red, and each of the 16 has its own picture (a block under a roof, an arrow, a star, twin spears, a diamond and so on, coloured by role). Other pilots see which formation you wear.
-- **What it is worth:** the model puts the best formation of the moment at about 14 percent over a plain ship for a pilot who owns all sixteen and changes between hunting, a duel and a flight; the best single formation in a duel (Gemini) about 18.5 percent. A pilot who swaps formations with N.I.K.E.s in hand is about 1.3 times a plain ship in a duel. These are the balance model's numbers, not measured in play; the first season will retune them.
+**PvE points: the swarm aliens and the Clan Wardens**
+- **The rule is the old aliens' rule:** a kill pays the square root of the alien's hull plus shield over 1,600 (a Seeker's), rounded: Seeker 1, Phantasm 2, Bulwark 4, Goombah 7, Crystalys 16. The swarm aliens and the Clan Wardens' crews are held to it now. A kill of one counted before (since 0.4.8, and the Wardens since 0.4.10); their figures were set by hand and some paid less than an old alien of about the same toughness (a Pirate Scout paid 1 where a Bulwark pays 4).
+- **19 of the 29 figures changed, none went down:**
 
-**Missions: levels 1 to 8**
-- **New steps.** *Quest items:* an item that drops only for you from an alien (after enough kills it is guaranteed), one that lies on the map, or one that comes from the Nth kill; you pick it up and **carry it home to Mission Control**. A cyan beacon marks it for you alone, and the Active Quests window shows "Carrying" and how far Mission Control is. *Visit:* fly to a marked point (a gold ring on the map and the minimap). *Stay:* hold a sector for a number of minutes outside the safe zones, in total or in one stretch (a death starts a one-stretch stay again). Items stay in the company sectors; visits and stays can go to the Danger Sectors. A Base CPU or Jump CPU cannot be used while you carry an item.
-- **Conditions.** A whole mission or a single step can say **"Hull limit N HP"** (do not lose more than that many hull points while it runs: the number the hull bar shows, after shields and absorbance; black hole radiation counts, shields do not) and **"No death."** Mission Control and the Active Quests window show a pill and a live bar ("Hull damage: 1,240 / 3,000"). If you break a condition the step starts again, a carried item is lost and must be fetched again; nothing is lost for good. The limits are set generously on purpose: aliens hit hard and a pilot has about half of it absorbed.
-- **The mix.** Every level has ten regular missions and its Special: **3** with an item, **2** with a visit, **2** with a stay and **3** plain kill missions. A mission with a new step is a chain of two to five steps (kill specific aliens, fly to a point, hold a sector, take an item home) in order, or steps open together ("hold the gate for 4 minutes while you destroy 8 Seekers"). One set serves Mars, Terra and Galactic; only the officer's portrait differs.
-- **Kills stay, with more variety.** Every mission that had a kill in 0.4.9 still has one. Level 3's kill steps add up to 108 kills (92 in 0.4.9, all Phantasm): 36 Seekers, 57 Phantasm and, from season day 4, the Seeker swarm (3 Boss Seekers and 12 Seeker Slaves). Level 4's kill steps add up to 134 (152 in 0.4.9, 150 of them Phantasm): 46 Seekers, 60 Phantasm, 13 Bulwarks and the swarm. The Specials of levels 3 and 4 hunt the Seeker swarm and open once the swarms appear on season day 4. Missions that ask for swarm members cannot be taken before that day.
-- **Pace.** The chains are longer than the patrols they replace: by the balance model a level takes 1.1 to 1.5 times as long (levels 4 to 8 about 1.3 to 1.5 times). A level's experience is still 85 percent of its gap to the next level, so a level pays a little less an hour.
-- **Redo, carry-over and notice:** see "If you already play". A mission that is not reworked is untouched; the 10 Station missions are untouched.
-- **Pay:** Station missions and Challenge missions are now paid like level missions: the printed number is the **base**, and the world multiplier (Alpha 1, Beta 2, Gamma 3), your boosters and Premium experience and your clan's Credit and Thulium boosts multiply it. A Station mission has no world of its own and pays the world you fly in when you claim it. A claim is one write: a second claim is refused and nothing is paid twice.
+  | Alien | Before | Now |
+  |---|--:|--:|
+  | Pirate Boss | 10 | 15 |
+  | Pirate Scout | 1 | 4 |
+  | Dormant Pulse | 10 | 11 |
+  | Brood Warden I, II, III | 10, 15, 25 | 14, 18, 35 |
+  | Siege Warden I, II, III | 10, 15, 25 | 13, 17, 32 |
+  | Wrath Warden I, II, III | 10, 15, 25 | 14, 18, 34 |
+  | Brood Drone III | 1 | 2 |
+  | Siege Escort I, II, III | 1 | 2, 3, 6 |
+  | Wrath Guard I, II, III | 1 | 2, 3, 6 |
 
-**Missions: the Challenge line**
-- **50 missions in five tiers of ten,** opening when your **pilot reaches level 3**: **Proving Ground** (tier I), **Iron Border** (II), **The Centre** (III), **The Abyss** (IV) and **Legends** (V, lifetime totals and a capstone, Warden of the Line, about 20 hours). Up to three Challenge missions are active at once, beside your level missions. Each can be done once. They survive the wipe and do not count for the Wipe Points of missions.
-- **A tier opens when the missions of the tier before are claimed.** Tiers IV and V open when nine of the ten are claimed: the Dormant Force missions (Dormant Dawn, Dormant Dusk), sized for a crew of about eight, are not asked for. The Challenges tab of Mission Control shows the tiers, the next one locked, and what each mission asks.
-- **What they ask:** kill grinds (1,000 to 10,000 Seekers or Phantasm, up to 2,000 Bulwarks, 1,000 Goombahs and 150 Crystalys), swarm hunts (from season day 4; the Pirate Boss and Dormant missions are group missions), stays (45 minutes in a company sector up to 3 hours in the Danger Sectors, where a ship that moves 300 units every 30 seconds counts, since nothing there can be shot), convoys (bring down the guards of a core and carry it home under a hull limit and no death), clean "Untouched" runs (a number of kills while losing no more than a limit of hull, up to 556,000 points), a tour of the four corners of a Danger Sector and a walk round the black hole's rim.
-- **Kills count for your group:** the killer and the group mates within 4,000 units who fired in the last 15 seconds (the level missions keep their own rule).
-- **The pay** is the base below, multiplied as above; the line is balanced at the lower end of its range, so it can be raised later.
-
-  | Tier | Hours (model) | Credits | Thulium | Experience | Honor |
-  |---|--:|--:|--:|--:|--:|
-  | I Proving Ground | 22 | 9,355,000 | 70,125 | 435,500 | 26,140 |
-  | II Iron Border | 46 | 6,200,000 | 46,450 | 471,000 | none |
-  | III The Centre | 56 | 11,995,000 | 90,020 | 887,000 | none |
-  | IV The Abyss | 74 | 26,215,000 | 196,615 | 1,880,500 | none |
-  | V Legends | 176 | 48,390,000 | 362,865 | 3,110,000 | none |
-  | All 50 | 374 | 102,155,000 | 766,075 | 6,784,000 | 26,140 |
-
-  Honor is paid in tier I only (honor has no use yet). Items are resources that gate real builds (Power Cores, Cataclysite, plates, at most three Ancient Control Units a tier, no Dark Matter) and a booster on most missions. **What a multiplier does:** Crystalys Reign prints 7,725,000 credits and 57,925 Thulium. In Alpha you are paid that; in Gamma three times it (23,175,000 credits and 173,775 Thulium) before any booster; with the largest Thulium buff and your clan's full Thulium boost on top the most it can pay is 243,285 Thulium.
-
-**Clans: the daily line, the Wardens and the boosts**
-- **The line:** every clan has one line a day, four hunts or patrols in order and then the day's Clan Warden. The whole clan's kills and flying add to **one shared total**. Counts depend on the clan's tier, which the server takes from the five highest-level members: under mean level 4 Recruit, 4 to under 7 Veteran, 7 or more Elite (a Veteran clan asks for 300 Seekers on a Seeker Sweep day). A pilot **takes part from 5 percent of the day's work** (about 8 minutes of hunting) and at least **three** pilots must reach it before a step closes. The line resets every season day (24-hour blocks from the season's start), not at midnight UTC. The Operations tab in the Fleet window shows the steps, their progress, your own work against the minimum and how many members have reached it.
-- **Pay:** a finished line pays the clan **100 clan points** (15, 15, 20 and 20 for the four steps and 30 for the Warden); each pilot who took part gets a personal reward (Recruit 5,000 credits and 20 Thulium, Veteran 15,000 and 60, Elite 22,000 and 90).
-- **The Wardens:** the Brood Warden (day 1, then every third day) has four drones that heal it, so split your fire; the Siege Warden (day 2, 5, ...) keeps moving, mends itself and fires Rivet rockets at the pilot who hurt it, so keep moving and rotate the tank; the Wrath Warden (day 3, 6, ...) fights in place, mends itself and hits 1.5 times as hard below half hull, so get it under half hull fast. Each comes in three strengths (I, II, III) that follow the clan's tier. **The Leader or a Co-Leader summons it** from flight, in a company sector x-2, x-3 or x-4 outside the safe zones, once step 4 is done and at least 30 minutes of the day are left; two summons a day, one Warden out at a time. It appears 3,000 to 4,500 units from the caller, stands shielded for a 90-second warm-up and stays up for 40 minutes; **only pilots of the calling clan can hurt it.** A Warden has Alpha strength and Alpha pay in every world. By the model **5 pilots win in about 5 minutes and 3 pilots slowly (9 to 10 minutes, narrowly), best on x2 ammo**; those times are calculated, not measured. Its pay is that of 30 Phantasm (tier I: 90,000 credits, 360 Thulium, 9,000 XP, 180 honor), 24 Bulwarks (tier II: 120,000, 600, 19,200, 240) or 16 Goombahs (tier III: 240,000, 1,200, 48,000, 384), split by damage, plus a loot box. A Warden is worth PvE points like any alien (10, 15 or 25 by strength), is drawn in a fourth colour (the clan's) and is named with its clan in the kill feed.
-- **Clan boosts:** the Leader and the Co-Leaders spend clan points on **Clan Damage** (10 levels of +0.5%, +5% in all), **Clan Thulium** (10 levels of +1%) and **Clan Credit** (10 levels of +1%). A level costs 22 points for the first and 58 for the tenth (400 for one boost, 1,200 for all three), so a clan that finishes every line has all 30 levels by season day 12 (the season has 29 days). A purchase is final and takes effect at once, even in flight, for every member. **Damage** applies to your lasers against aliens and pilots, not to rockets. **Thulium and Credit** apply to what kills and mission claims pay (your own share, a boss share and a group share), not to the Skylab's farms, rockets, bonus codes or the clan's own payouts. A boost that is under one whole unit on a kill is carried and paid when it adds up, so +10% on a Seeker's 4 Thulium is not rounded away.
-- **Wipe:** clan points, boost levels and lines start again at every wipe; the clan, its roster and its bank stay.
-
-**Company ranks**
-- **24 ranks:** Junior Pilot, Pilot, Senior Pilot; the same three grades of Sergeant, Lieutenant, Captain, Major, Colonel, General and Admiral, up to Senior Admiral. The rank is a function of your **PvE points** (150 for Pilot, 700 for Junior Sergeant, 9,000 for Junior Captain, 23,000 for Junior Major, 150,000 for Junior General, 750,000 for Senior Admiral), so it follows what the points do, and **it keeps through the season wipe**, which keeps the points.
-- **Where you see it:** only the symbol (chevrons, bars, stars, laurels) shows, before the name: on ship tags, in the Target window, in chat, in groups, in the kill feed, in the Hall of Fame and on pilot profiles. The words appear when you hover over it, and on the Company page.
-- **The Company page** has a new **Company ranking**: the pilots of your company by PvE points, your own place, a bar to your next rank and the list of all 24 ranks with the points each needs. The ranking is per world. A promotion shows a toast with a quiet sound of its own; from Junior Major up your company sees it in the chat.
-
-**Ships, slots and the starter kit**
-- **The numbers:**
-
-  | | Protos | Storm | Wraith |
-  |---|--:|--:|--:|
-  | Base speed | 160 (was 150) | 250 (was 240) | 220 (was 225) |
-  | Hull | 8,000 | 150,000 (was 160,000) | 324,000 |
-  | Lasers | 2 | 13 (was 10) | 12 |
-  | Generator slots (core, support, auxiliary) | 4 (2, 2, 0) | 10 (4, 4, 2) (was 3, 4, 3) | 12 (4, 4, 4) |
-
-  The **Storm** is still the fastest ship and now has the most lasers of any ship; with more than 10 lasers the wiki rates it a Class IV Dreadnought. The Dormant Force swarm flies at the Wraith's new 220. No ship's price, recipe or crafting time changed.
-- Momentum Thrusters: speed multiplier I 1.08 -> 1.06, II 1.10 -> 1.07, III 1.13 -> 1.09, IV 1.14 -> 1.11.
-- **Extra slots:** the four ships you **buy** (Protos, Kitefin, Ostirion, Nomad) have **2**, the four you **craft** (Paragon, Ironclad, Wraith, Storm) have **3**; the Extra Slots CPUs I, II and III add 3, 5 and 7 on top (5, 7 and 9 on the regular ships, 6, 8 and 10 on the craftable ones). Extras above the limit are unequipped into the inventory at the update, the highest box first, with their uses (nothing is deleted).
-- **Starter kit:** a new pilot's Protos also gets a **Base CPU I** (10 uses; it takes your ship back to your company's base) and a **Repair Drone I** that slowly repairs your hull, both fitted in its two extra slots. The Emergency Repair drone in the ability slot, the Quantum Laser 1 and the starting ammo are unchanged. Pilots who enlisted before this update get no kit.
-
-**Combat, fixes and loopholes**
-- **Shields:** a ship's total shield capacity and recharge **never go down when you add a shield or a cell.** The game ranked a ship's shields by raw capacity alone and ignored which slot each sits in, so a cell in a support or auxiliary shield could lift it above a core shield and cost more than the cell gave: an Ostirion with six Heavy cores and 18 Capacity IV cells read 494,828 after the 17th cell and 483,120 after the 18th; it now reads 524,409. A shield's absorbance is still the average of the shields, so a new, weaker shield can lower it; a cell never does.
-- **Speed:** adding a thruster or an engine can no longer lower a ship's speed, and the order your items are listed in no longer changes the number (the same kind of ordering mistake). A Kitefin with five engines read 227.50 and fell to 226.58 when a thruster was added; it now reads 231.55 with it.
-- **Aliens no longer push each other apart.** Packs can overlap and several aliens attacking you can stand on the same spot; they still keep out of your ship's hull. The server does less work every tick, most on maps with many aliens.
-- **Repair Drones fitted in an extra slot** show their drones: press REP, or let the Auto-Repair CPU do it, and small drones leave your ship, circle it and aim soft green beams at its hull while it repairs, then dock when it stops. Other pilots see them. They follow the Repair Drone's rank (I to IV: one, two, three, three drones), your graphics setting and Reduce Motion.
-- **Two loopholes in fitting, closed.** (1) **An extra (a CPU, a Repair Drone) now has to sit in a box the ship really has:** the extras limit holds for any slot number a hand-made request names, and an extra fitted with no slot named, or with a slot number the ship does not have, goes into a free extra slot or is refused ("No free slot for this item on this ship."). (2) **A laser fitted with no slot named (-1) takes a free laser slot of the ship** and no longer keeps a drone-slot number into the other configuration, which let a pilot stack lasers beyond the laser limit. **Naming a drone's slot works exactly as before, for lasers and for shields:** a laser or a shield in a drone slot is as legitimate as it was (a Slave Drone has 1 slot, a Master Drone 2). The game's Hangar never sends -1, so no pilot who plays through the Hangar notices either change. **Pilots who used a loophole keep what they have:** lasers already stacked stay where they are, and nothing was reset or deleted for it; the one thing that moves is the regular ships' extras cut above, which sends any extras above a regular ship's new limit back to the inventory, those fitted through the loophole included.
-- **Gear can no longer be hidden in a third loadout slot that survives the wipe.** A ship has two loadouts, 1 and 2; naming a laser, a shield or an extra into any other number is refused ("This ship has no such slot."), and gear a hand-made request had already parked in another loadout number no longer survives the season wipe.
-- **Needs the new game:** missions with an item, a hull limit or "No death" and the Warden's summon are refused to a game from before 0.4.10 with an "Update the game" line (see Updating).
-
-**Portals: the ring**
-- **Three new links:** your company's border sector (x-4) has a second jump gate to another company's x-3: Mars' M-4 opens on Terra's T-3, Terra's T-4 on Galactic's G-3, Galactic's G-4 on Mars' M-3, and each of those x-3 maps has a gate back (6 gates). They are open to every pilot of any company, with the usual 3-second jump and a protected ring of 660 units round the gate. Where you can be attacked on the other side still depends on your world (in Alpha, x-3 is safe from pilots and x-4 is not). The Star System window and the wiki's chart are redrawn so the new routes are clear: the Danger Sectors in the middle, the three companies round them. The gates are added to existing worlds at the update.
-
-**Sounds**
-- **20 new quiet sounds** for your actions, each limited so it never stacks: seven for quest items and missions (finding, picking up, delivering and losing an item, reaching a spot, finishing a stay, breaking a run), ten for the clan line (a step done, the line done, a new line, the one-hour warning, a summon, a Warden armed, destroyed or lost, a boost bought, your reward), one when you change formation, one for a rank-up and one for a dodged hit. The sound bank in memory grows from 23.8 to about 27.5 MiB.
+- **What stays:** Seeker 1, Phantasm 2, Bulwark 4, Goombah 7, Crystalys 16, Seeker Slave 1, Brood Drone I and II 1, and two kinds that pay **more** than the rule: the Boss Seeker 5 (the rule says 2) and the Dormant Force 25 (the rule says 16), so nobody loses points at the recount.
+- **The PvE card** (the (i) on the PvE tiles) lists the five old aliens and now a row for each swarm (Seeker Swarm 1 to 5, Pirate Swarm 4 to 15, Dormant Swarm 11 to 25) and one for the Clan Wardens (1 to 35), each from the member's figure to the boss's. The Ranking calculation's line "Points per alien kill" lists every alien with its figure.
+- **Who is paid:** as for any alien, the pilot whose hit claimed it, or, for a swarm's leader and a Dormant Pulse, every party with at least 5% of the damage; a group's kill pays the weight to its payee and the others their share of the experience.
+- **Not changed:** the Wipe Point kill milestones count the five old aliens only and pay nothing for a swarm alien; a group mate gets experience but not the weight.
 
 **The wiki**
-- **Pictures:** every article has its own icon in the list, most open with a banner, and screenshots of the game's windows, ships, aliens, swarms, abilities and sectors sit in the pages they describe; the Black Hole article shows the black hole of Danger Sector 4 as the game draws it. Small icons stand in front of names in headings, lists and tables. Click a picture to see it large; Esc or a click outside closes it and the arrow keys flip through the page's pictures.
-- **Search:** type in the box at the top of the article list (or press Ctrl+K, Cmd+K or / in the wiki) and the list turns into results across every article in your language, best match first, with the article's picture, its category and a snippet with your words highlighted. Use Up, Down and Enter, or click; the article opens at the first match with every match highlighted and a bar to step through them. Case and accents do not matter and several words find pages that have all of them.
-- **New and changed pages:** the new articles Drone Formations and Ranks; Skylab, Resources, Research, Quests, Clans, Getting Started, Hangar, Drones, Rockets, Shields, Speed, Combat, Wipe Timeline, Extras, Spacemap Travel and the Storm page changed. All in the game's 12 languages.
+- **Ranks** is rewritten for the company ladder (place and minimum, who is on the ladder, how a rank moves, the Company page, how long it takes) with a new picture of the pyramid, and the Company page picture is retaken. The Clans, Company Pilots, Getting Started and Wipe Timeline articles carry the matching sentences, and the PvE tables have the new figures. All in the game's 12 languages.
 
 **For administrators and the server**
-- **New files under `Resources/`:** `Formations.json`, `Ranks.json`, `ClanLines.json`, `ClanWardens.json` and `QuestCarry.json`. Changed: `SkylabConfig.json` (per-level arrays and Solar's `powerWhileUpgradingShare`; the old formula keys are gone, so **deploy the image, never a 0.4.10 binary on 0.4.9 files or the other way round**), `Research.json` (the 16 formations, the ores' science), `quests.json` (148 definitions), `Rockets.json` and `AlienLeash.json` (their notes only), `Swarms.json` (the Dormant Force's speed), `Values/ranking-config.json` (the Wardens count as aliens for PvE points: 10, 15 or 25 by strength) and the seeds (the formation items and recipes, the ships' numbers; the 18 Warden alien kinds are added to the alien table from `ClanWardens.json`). **The server checks the new files at the start** and refuses to start on a wrong one ("Refusing to start: <file>: ..."), before it touches the database.
-- **Four data steps at the first start** (each guarded by a `DataMigrations` row, logged once): `star-system-ring-v1` (the six ring gates), `skylab-tables-v1` (every pile paid once at the old rate; it stops the start with exit code 2 if it fails, leaving the database untouched), `quests-levels-mix-v1` (active missions carried, waiting claims frozen at the larger reward, completions of reworked missions cleared for the redo, the one-time notice) and `extras-limit-v1` (extras over the limit unequipped). **Five new tables:** `ClanSeason`, `ClanLineDays`, `ClanLineContrib`, `ClanPointLedger` (with an index) and `PilotRanks`. **No backup was taken for this release and these steps are one-way for the data** (docs/DEPLOY.md, "The deploy of 0.4.10: the checklist").
-- **Client features:** the game announces what it understands (`X-Client-Features`); the server requires `quest-points` for a mission with an item, a hull limit or no-death and `clans` for the Warden's summon; `formations` is announced but not required.
-- **Counters** for the first season (formation changes and time worn, clan lines and Wardens, quest starts, kills per hour) at `GET /api/admin/counters`. New admin tools for clans (`/api/admin/clans/:id/...`: the line, points, skip a step, reset a day, summon a Warden).
-- **The release job:** `marketing/**` and `scripts/marketing/**` never make a release (since 0.3.4), so a marketing-only change set, the Reddit pack included, merges without one. The installed job is a copy and only changes when it is reinstalled; the copy in use already has the startup-repair gate (it is byte for byte the script of 0.4.9), so for 0.4.10 a reinstall (`scripts/release/install-auto-release.sh`) is optional and changes a comment only.
+- **One new table, `PilotSeen`** (`PlayerId` primary key, `Day`: the Unix day a pilot last flew), made when the server starts, only while `dormantDays` is above 0, with one row for each pilot; at the first start every pilot gets today's date. A 0.4.10 server ignores it. **No data step, no rename, no startup repair, no new file under `Resources/`, no new environment variable.** The release job's backup check finds exactly one line: `schema CREATE TABLE IF NOT EXISTS PILOTSEEN`.
+- **Changed files:** `Resources/Ranks.json` (version 2: `scale`, `dormantDays` 30, `rebuildSeconds` 600 and the share of each rank; `points` is the minimum now) and `Values/ranking-config.json` (the 19 figures). **Deploy the image, never a 0.4.11 binary on 0.4.10's files:** the old `Ranks.json` stops the start with "Refusing to start: Resources/Ranks.json: ...".
+- **The ladders** are lists in memory, read at the start and again every 10 minutes; a kill moves one entry. The start logs `Company ladders: N pilots in M companies, K left off for not having been seen in 30 days` and one line for each company with its best pilot's points and rank. An admin's edit of a pilot's level, experience or company and a deleted account move the ladder too.
+- **One new key on the wire:** the join (`MapDetails`) says which formation each ship wears; older clients ignore it.
+- **Rolling back to 0.4.10** (code only) starts cleanly. A pilot whose stored rank is lower than his 0.4.10 rank sees **Promoted** once at his next join.
 <!-- /patchnotes:latest -->
 
 ---
@@ -268,18 +217,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 19cf3dbe53de83b55e4a0c1f62f68d80c60ceb092f5781aafeaecacd095a14f9
+# Expected: edb976b5c6e6692accb4b6c7997befeaf4013cc25d187d07877284eb379ab3e3
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 67f39ffafbf2f72ddcb1dd5d74f4acd10fd0b086f73bf1cfe09065986dcaf2c4
+# Expected: da074f723dbfd5ebc16d44d68ea5f39bf3c7be0c333b54a4849705c4fc04871e
 ```
 
 ### Linux
 ```bash
-echo "581bc0cce453d95589a33d42b2443be49f1e18676efe0313ae02f7d5923385bb  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "feeded82801029d9137f5ab0d180632572442e129f1fdafb9979801e42fda1f0  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

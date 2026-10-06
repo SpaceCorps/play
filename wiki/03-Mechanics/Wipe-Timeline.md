@@ -100,7 +100,7 @@ How the worlds work:
 
 The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever, except the level missions that update 0.4.10 reworked: 64 of them are offered once more ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clans and ranks.** A clan's points, boost levels and daily lines start again at every wipe, so every season is a new race to full boosts; the clan itself, its members, its bank and its tax stay ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Your company rank stays too: it follows your PvE ranking points, which a wipe does not reset ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clans and ranks.** A clan's points, boost levels and daily lines start again at every wipe, so every season is a new race to full boosts; the clan itself, its members, its bank and its tax stay ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Your PvE ranking points stay too, so a wipe does not move you on your company's ladder: your rank follows your place there, not the season ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### The Permanent Buff Store
 You can spend your accrued WP on permanent buffs that carry over across all seasons forever. These buffs stack and provide significant passive bonuses:

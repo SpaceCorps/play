@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Så fungerar världarna:
 
 Wipen tar dina skepp och föremål (utom ditt aktiva skepp med allt som sitter på det, ditt transportförråd och dina drönare) och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin, utom de nivåuppdrag som uppdatering 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Klaner och grader.** En klans poäng, bonusnivåer och dagslinjer börjar om vid varje wipe, så varje säsong är ett nytt lopp mot full bonus; klanen själv, dess medlemmar, dess bank och dess skatt finns kvar ([Klaner](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Din koncerngrad finns också kvar: den följer dina PvE-rankingpoäng, som en wipe inte nollställer ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Klaner och grader.** En klans poäng, bonusnivåer och dagslinjer börjar om vid varje wipe, så varje säsong är ett nytt lopp mot full bonus; klanen själv, dess medlemmar, dess bank och dess skatt finns kvar ([Klaner](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Dina PvE-rankingpoäng finns också kvar, så en wipe flyttar dig inte på din koncerns lista: din grad följer din plats där, inte säsongen ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Butiken för permanenta buffar {#the-permanent-buff-store}
 Du kan spendera dina intjänade WP på permanenta buffar som följer med över alla säsonger för alltid. De här buffarna staplas och ger betydande passiva bonusar:

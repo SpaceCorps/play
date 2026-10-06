@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 ## O que você pode mudar {#what-you-can-change}
 
 - **Equipar e desequipar qualquer coisa**, em todo tipo de slot: lasers, geradores (escudos, motores, núcleos adaptativos), extras, slots de habilidade e slots de drone, além dos amplificadores, células e propulsores encaixados neles. Arraste os itens para os slots, ou clique neles, exatamente como na estação. Sua nave acompanha na hora: atributos, lasers, habilidades e barra de atalhos.
+- **Desequipar tudo.** O botão **Desequipar tudo** da barra de ferramentas do Hangar esvazia de uma vez a configuração mostrada na visão **Nave**: os lasers, escudos, motores, núcleos adaptativos, extras e slots de habilidade **e os lasers e escudos nos slots dos seus drones**, com os amplificadores, células e propulsores encaixados neles. Tudo volta para o seu inventário, tudo ou nada. Seus **drones continuam seus** (um drone nunca é equipado em uma nave, então não há nada a tirar dele) e a **formação de drones** que você usa continua ativa. A outra configuração não é tocada. Em voo valem as regras de qualquer mudança: a partir de uma zona segura, fora de combate. A visão **Drones** tem um botão próprio que esvazia só os slots dos drones.
 - **Qualquer uma das duas configurações.** Você pode preparar a configuração 2 enquanto voa com a configuração 1 e depois trocar com a tecla Trocar config. Um botão **Voar com config.** no hangar faz a mesma troca.
 - **Qualquer nave.** Ative outra nave e você voa com ela de onde está. O modelo da sua nave muda diante de todos que estão por perto.
 - **Um novo escudo, motor ou núcleo adaptativo começa vazio**, como na estação: a carga de escudo da configuração fica vazia até recarregar.

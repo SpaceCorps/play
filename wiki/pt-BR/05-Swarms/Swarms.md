@@ -90,10 +90,10 @@ Todo abate é contado com o nome próprio da nave nas suas estatísticas de abat
 
 | Nave de enxame | Enxame | Pontos PvE por abate |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Enxame Pirate | 10 |
-| **Pirate Scout** | Enxame Pirate | 1 |
+| **Pirate Boss** | Enxame Pirate | 15 |
+| **Pirate Scout** | Enxame Pirate | 4 |
 | **Dormant Force** | Enxame Dormant | 25 |
-| **Dormant Pulse** | Enxame Dormant | 10 |
+| **Dormant Pulse** | Enxame Dormant | 11 |
 | **Boss Seeker** | Enxame Seeker | 5 |
 | **Seeker Slave** | Enxame Seeker | 1 |
 

@@ -63,7 +63,7 @@ Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 | Thulium | 725 | 1.450 | 2.175 |
 | Experiencia (XP) | 29.000 | 58.000 | 87.000 |
 | Honor | 232 | 464 | 696 |
-| Puntos PvE por derribo | 10 | 10 | 10 |
+| Puntos PvE por derribo | 15 | 15 | 15 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 
@@ -90,7 +90,7 @@ Base: Kitefin, con 50 % de casco, escudo y daño; la velocidad y el alcance son
 | Thulium | 4 | 8 | 12 |
 | Experiencia (XP) | 100 | 200 | 300 |
 | Honor | 2 | 4 | 6 |
-| Puntos PvE por derribo | 1 | 1 | 1 |
+| Puntos PvE por derribo | 4 | 4 | 4 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.
 

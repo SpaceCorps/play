@@ -63,7 +63,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 | Thulium | 725 | 1 450 | 2 175 |
 | Tapasztalat (XP) | 29 000 | 58 000 | 87 000 |
 | Becsület | 232 | 464 | 696 |
-| PvE-pont kilövésenként | 10 | 10 | 10 |
+| PvE-pont kilövésenként | 15 | 15 | 15 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
@@ -90,7 +90,7 @@ Alapja: Kitefin, hajótestének, pajzsának és sebzésének 50%-a; a sebessége
 | Thulium | 4 | 8 | 12 |
 | Tapasztalat (XP) | 100 | 200 | 300 |
 | Becsület | 2 | 4 | 6 |
-| PvE-pont kilövésenként | 1 | 1 | 1 |
+| PvE-pont kilövésenként | 4 | 4 | 4 |
 
 **Zsákmány**: nincs. A kilövés csak a kreditjét, Thuliumát, XP-jét és becsületét fizeti.
 

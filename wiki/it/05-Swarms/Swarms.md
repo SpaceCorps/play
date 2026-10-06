@@ -90,10 +90,10 @@ Ogni abbattimento viene contato con il nome proprio della nave nelle tue statist
 
 | Nave di sciame | Sciame | Punti PvE per abbattimento |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Sciame Pirate | 10 |
-| **Pirate Scout** | Sciame Pirate | 1 |
+| **Pirate Boss** | Sciame Pirate | 15 |
+| **Pirate Scout** | Sciame Pirate | 4 |
 | **Dormant Force** | Sciame Dormant | 25 |
-| **Dormant Pulse** | Sciame Dormant | 10 |
+| **Dormant Pulse** | Sciame Dormant | 11 |
 | **Boss Seeker** | Sciame Seeker | 5 |
 | **Seeker Slave** | Sciame Seeker | 1 |
 

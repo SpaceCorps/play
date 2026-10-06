@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: a811f0df5512e3b7 -->
+<!-- wiki-i18n source: b4f15f0383031b07 -->
 <!-- wiki-i18n title: Пилоты корпораций -->
 # Пилоты корпораций {#company-pilots}
 
 У каждой корпорации в её домашних секторах (с `M-1` по `M-4`, с `T-1` по `T-4`, с `G-1` по `G-4`) есть небольшой отряд пилотов-NPC. Они летают на благо корпорации круглосуточно и помогают её пилотам.
 
-![The Company page: your rank, your place and the progress to the next rank, and the pilots of your company by PvE points with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Кто они {#who-they-are}
@@ -15,7 +15,7 @@
   - поглощение 45%: их щиты принимают 45% каждого попадания, корпус — 55%
   - 195 базового урона за залп (боеприпасы x1), без шанса крита, дальность 700
 - **На миникарте**: зелёный ромб для пилотов вашей корпорации, янтарный — для пилотов другой корпорации.
-- **Без звания**: маленький значок перед именем пилота в полёте — это [звание](/wiki/03-Mechanics/Ranks.md) пилота, и оно есть только у настоящих пилотов. У пилотов корпорации звания нет. Страница «Корпорация» ранжирует настоящих пилотов вашей корпорации по очкам PvE.
+- **Без звания**: маленький значок перед именем пилота в полёте — это [звание](/wiki/03-Mechanics/Ranks.md) пилота, и оно есть только у настоящих пилотов. У пилотов корпорации звания нет, и в рейтинге вашей корпорации их нет. Страница «Корпорация» перечисляет настоящих пилотов вашей корпорации, первыми — с наибольшим числом очков PvE, и звание пилота — это его место в этом списке.
 
 ## Чем они занимаются {#what-they-do}
 

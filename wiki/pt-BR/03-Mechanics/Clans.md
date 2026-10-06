@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b98e7995bde4597b -->
+<!-- wiki-i18n source: cc29967a9f16c91b -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -263,7 +263,7 @@ O Guardião solta **uma caixa** para o piloto que causou mais dano; ela é dele 
 | Wrath Warden | Quorvium | – | – | 5–10 (70%) |
 | Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
 
-Um Guardião conta com o próprio nome nas suas estatísticas de abates e soma pontos PvE à sua [patente](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **10, 15 ou 25** pelo líder de um Guardião I, II ou III, e 1 por cada ajudante.
+Um Guardião conta com o próprio nome nas suas estatísticas de abates e soma pontos PvE à sua [patente](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13 a 35** pelo líder, conforme o Guardião e a sua força (um Guardião III vale o máximo), e **1 a 6** por cada ajudante, mais para uma tripulação mais forte.
 
 ---
 

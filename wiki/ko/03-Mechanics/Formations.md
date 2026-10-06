@@ -1,9 +1,15 @@
-<!-- wiki-i18n source: d12dd951873dbb91 -->
+<!-- wiki-i18n source: 5848c2376fcf87d8 -->
 <!-- wiki-i18n title: 편대 -->
 # 드론 편대 {#drone-formations}
 
 **드론 편대**는 드론이 함선 둘레에서 취하는 대형이며, 함선이 싸우는 방식을 바꿉니다. 모든 편대는 보너스를 주고 대가를 요구합니다. 실드가 커지는 대신 무기가 약해지거나, 로켓이 강해지는 대신 선체가 얇아지거나, 에일리언을 더 빨리 잡는 대신 함선이 느려지는 식입니다. 모두 **16종**입니다. [Skylab](/wiki/03-Mechanics/Skylab.md)에서 연구하고 어셈블리에서 제작한 뒤, 가진 것 중 **하나**를 골라 씁니다. 전투 중에도 **2초**에 한 번 바꿀 수 있습니다.
 
+![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
+![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
+![Gyre: a wheel of eight drones, a rim and a hub joined by spokes, spinning round the ship](../../img/wiki-img/shots/formation-shape-gyre.jpg)
+![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
+![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
+![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
 ![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -13,10 +19,11 @@
 - **구하기.** 연구 센터에서 그 기술을 연구하고(*방어*와 *공격·기동* 두 개의 트리), 어셈블리에서 Thulium으로 제작합니다. 가장 싼 것은 Thulium 7,000과 Dark Matter 5, 가장 비싼 것은 Thulium 46,000과 Dark Matter 20입니다. 상점에서는 팔지 않습니다.
 - **가지기.** 편대는 어디에도 장착하지 않습니다. 인벤토리에 하나만 있으면 됩니다. 드론(Slave Drone 또는 Master Drone)이 최소 한 기 필요하며, 없으면 어떤 편대도 작동하지 않습니다.
 - **사용하기.** 퀵슬롯의 편대 목록에서 원하는 슬롯으로 드래그하세요. 슬롯을 클릭하거나 그 키를 누르면 편대를 씁니다. 목록에는 편대 없음을 뜻하는 ‘표준’도 있어, 슬롯에 드래그해 누르면 다시 편대 없는 상태가 됩니다. 2초에 한 번 바꿀 수 있고, 전투 잠금은 없습니다.
+- **보기.** 편대마다 고유한 모양이 있고, 드론이 함선 둘레에서 그 모양으로 날아다닙니다. 지붕, 하트, 날개, 검, 드릴 같은 모양입니다. 다른 파일럿에게도 보입니다. [비행 모양](#how-they-fly)을 참고하세요.
 - **다음 1분에 맞춰 고르기.** 편대는 모두 보너스의 대가를 치르므로 어디서나 최고인 편대는 없습니다. 지금 하려는 일(사냥, 결투, 로켓, 도주)에 맞는 편대를 쓰세요.
 
 > [!NOTE]
-> 편대는 드론이 함선 옆에서 나는 “Wingman” 배치([드론 시스템](/wiki/03-Mechanics/Drones.md#formation-movement))가 아닙니다. 그 배치는 겉모습일 뿐이고, 어떤 편대를 쓰든 똑같습니다. 드론 편대는 보너스와 대가의 묶음입니다.
+> 드론 편대는 두 가지입니다. 보너스와 대가의 묶음, 그리고 드론이 나는 **모양**입니다([비행 모양](#how-they-fly)). 편대를 쓰지 않으면 드론은 단순한 “Wingman” 배치로 납니다([드론 시스템](/wiki/03-Mechanics/Drones.md#formation-movement)).
 
 ## 편대 얻기 {#getting-a-formation}
 
@@ -32,7 +39,37 @@
 - **2초마다, 전투 중에도.** 전투 잠금도 안정화 시간도 없습니다. 새 수치는 즉시 적용됩니다. 너무 일찍 요청하면 채팅에 “1.4초 후에 편대를 다시 바꿀 수 있습니다.”라고 나옵니다. 안전 지대 안에서는 사실상 기다림이 없습니다.
 - **따라옵니다.** 게임은 마지막으로 쓴 편대를 기억하고, 출격하거나 부활할 때 다시 요청합니다. 구성을 바꿔도(`C` 키) 그대로이며, 기다릴 필요가 없습니다.
 - **드론이 필요합니다.** 함대에 Slave Drone도 Master Drone도 없으면 편대는 아무 일도 하지 않습니다. 한 기면 충분하며, 드론의 수, 레벨, 장착한 것은 상관없습니다.
-- **다른 파일럿도 볼 수 있습니다.** 파일럿을 선택하면 대상 창에 “편대:”와 그 이름이 나옵니다. 그룹과 공유되는 것은 없습니다.
+- **다른 파일럿도 볼 수 있습니다.** 내 함선이 보이는 파일럿에게는 내 드론이 내 편대의 모양으로 나는 모습도 보입니다. 파일럿을 선택하면 대상 창에 “편대:”와 그 이름이 나옵니다. 그룹과 공유되는 것은 없습니다.
+
+## 비행 모양 {#how-they-fly}
+
+편대마다 드론에게 **고유한 모양**을 줍니다. 편대를 쓰면 드론은 단순한 윙맨 배치를 떠나 **0.8초** 만에 함선 둘레의 그 모양으로 미끄러지듯 옮겨 가며, 선체를 돌아서 가고 절대 통과하지 않습니다. 모양은 공간에 있습니다. Testudo의 지붕은 날개 위에 떠 있고, Auger는 원뿔이며, 모양 전체가 함선과 함께 방향을 바꾸므로 그 앞쪽은 언제나 함선의 선수가 향하는 곳입니다. 그중 여섯 가지는 이 페이지 위쪽 그림에 있으며, 모두 Paragon과 레벨 8 드론 여덟 기를 카메라를 조금 기울여 위에서 본 모습입니다. Auger, Culler, Gyre, Sanctum, Stiletto, Testudo입니다.
+
+- **편대 없음, 모양 없음.** 편대를 쓰지 않으면(편대 목록의 **표준**) 드론은 [드론 시스템](/wiki/03-Mechanics/Drones.md#formation-movement)의 단순한 “Wingman” 배치로 납니다.
+- **가진 드론에 맞춰 만들어집니다.** 모양은 가진 드론 수에 정확히 맞춰 만들어집니다(1~8기). 한두 기이면 모양의 시작 부분만, **8기**이면 그림처럼 모양 전체가 보입니다. 드론의 레벨이나 장착한 것은 아무것도 바꾸지 않습니다.
+- **함선에 맞춰집니다.** 긴 함선은 작은 함선보다 긴 모양으로 날고, 드론은 선체와 거리를 둡니다.
+- **모두에게 보입니다.** 다른 파일럿은 내 모양을 보고, 나도 그들의 모양을 봅니다. 카메라에서 **3,500유닛**보다 먼 함선은 드론을 표시하지 않으며, 붐비는 곳에서는 가까운 **64척**만 표시합니다.
+- **끄기.** 설정 › 인터페이스에 **내 드론 표시**와 **적 드론 표시**(다른 파일럿의 드론)가 있습니다. 보이는 것만 바뀌고, 편대의 보너스는 그대로 작동합니다. **움직임 줄이기**(설정 › 그래픽)는 움직이는 모양인 Cordon, Asterism, Culler, Gyre, Auger를 멈춰 두고 미끄러지는 시간을 **0.2초**로 줄입니다.
+- **높이 보기.** 지붕, 그릇, 드릴에는 높이가 있는데, 바로 위에서 보는 시점에서는 거의 보이지 않습니다. 오른쪽 드래그로 카메라를 돌리면([시작하기](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) 옆에서 볼 수 있습니다.
+
+| 편대 | 모양 | 움직이는 것 |
+| :--- | :--- | :--- |
+| **Testudo** | 지붕: 날개 위의 드론 두 줄, 그 사이는 함선의 등이 비어 있음 | 없음 |
+| **Adamant** | 함선을 둘러싼 마름모: 앞에 꼭짓점 하나, 뒤에 하나, 양옆에 하나씩 | 없음 |
+| **Sanctum** | 선수 앞의 하트, 뾰족한 끝이 함선을 향함 | 없음 |
+| **Redoubt** | 그릇: 선체를 둘러싼 고리, 날개 위의 두 기, 맨 위의 한 기 | 없음 |
+| **Cordon** | 함선을 둘러싼 넓은 고리 | 24초에 한 바퀴 돕니다 |
+| **Rampart** | 선수 앞을 가로지르는 벽, 양 끝이 집게처럼 앞으로 휨 | 없음 |
+| **Asterism** | 네 갈래 빛의 별: 앞, 뒤, 양옆에 뾰족한 끝 | 각 드론이 1.5초마다 한 번 부풀었다 줄어듭니다 |
+| **Bodkin** | 함선이 화살촉인 화살: 선수 앞에 끝, 옆면을 따라 미늘, 뒤에 화살대 | 없음 |
+| **Ballista** | 함선 앞의 V자, 팔이 옆면을 따라 뒤로 뻗음 | 없음 |
+| **Centurion** | 블록: 함선을 둘러싼 직사각형의 호위 | 없음 |
+| **Shrike** | 선수 앞의 삼지창, 함선이 자루: 세 기의 줄과 세 갈래, 가운데가 가장 김 | 없음 |
+| **Culler** | 날개: 양쪽에 드론 부채, 긴 것과 짧은 것, 드론 수가 홀수이면 선수 앞에 머리 | 날개 끝이 2.4초마다 한 번 오르내립니다 |
+| **Gemini** | 쌍창: 양 옆면을 따라 늘어선 드론 줄, 끝이 선수 앞 | 없음 |
+| **Stiletto** | 함선이 손잡이인 검: 선수 앞에 최대 여섯 기의 날과 선수에 날밑 한 쌍 | 없음 |
+| **Gyre** | 수레바퀴: 테두리와 중심이 바큇살로 이어짐 | 6초에 한 바퀴 돕니다 |
+| **Auger** | 드릴: 함선을 둘러싼 원뿔, 끝이 선수 앞, 넓은 쪽이 뒤, 드론은 바라보는 방향을 향함 | 드론이 함선의 비행 축을 따라 3초에 한 바퀴 나선을 그립니다 |
 
 ## 16종의 편대 {#the-sixteen-formations}
 

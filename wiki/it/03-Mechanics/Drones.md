@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e65164e763773d17 -->
+<!-- wiki-i18n source: 7ed6ed3056da695a -->
 <!-- wiki-i18n title: Droni -->
 # Meccaniche dei droni {#drone-mechanics}
 
@@ -12,17 +12,19 @@ Ogni drone che possiedi, uno **Slave Drone** o un Master Drone, apre i suoi slot
 
 ## Disposizione di volo e movimento {#formation-movement}
 
-I droni volano in una disposizione standard **“Gregario” (2-2-4)**:
+Senza una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata, i tuoi droni volano nella disposizione standard **“Gregario” (2-2-4)**, la disposizione **Standard**:
 
 - **2 droni** accanto alla nave, uno per fianco.
 - **2 droni** accanto e appena dietro di essa.
 - **4 droni** in coda, dietro.
 
-Usano un algoritmo di inseguimento fluido che regola la loro posizione in base alla velocità e alla rotazione della tua nave, stringendo la disposizione durante le manovre brusche. Nessuno vola davanti a te.
+Usano un algoritmo di inseguimento fluido che regola la loro posizione in base alla velocità e alla rotazione della tua nave, stringendo la disposizione durante le manovre brusche. In questa disposizione nessuno vola davanti a te.
 
-I droni sono piccoli e restano vicini: un drone di livello 8 misura circa 19,5 unità di larghezza (una Protos 50) e un drone di livello 1 è una palla di circa 8, quindi l’intera disposizione sta entro circa 135 unità dalla tua nave. Il drone che hai comprato per primo ha più esperienza e vola sul tuo fianco sinistro, il secondo sul destro, e i più recenti seguono dietro.
+I droni sono piccoli e restano vicini: un drone di livello 8 misura circa 19,5 unità di larghezza (una Protos 50) e un drone di livello 1 è una palla di circa 8, quindi l’intera disposizione sta entro circa 135 unità ai lati della tua nave e dietro di essa. Il drone che hai comprato per primo ha più esperienza e in questa disposizione vola sul tuo fianco sinistro, il secondo sul destro, e i più recenti seguono dietro.
 
-Questa disposizione è solo l’aspetto dei droni, ed è la stessa qualunque [formazione di droni](/wiki/03-Mechanics/Formations.md) tu indossi. Una formazione di droni è un insieme di bonus e costi, non un altro modo di volare.
+Indossa una [formazione di droni](/wiki/03-Mechanics/Formations.md) e i droni lasciano questa disposizione: **ognuna delle 16 formazioni ha la sua forma**, un tetto sopra le ali, un rombo, un cuore, ali, una spada, una trivella e altre, e i droni scivolano verso di essa in meno di un secondo. La forma è fatta per i droni che hai, fino a 8, e ruota con la tua nave. Anche gli altri piloti la vedono. [Come volano](/wiki/03-Mechanics/Formations.md#how-they-fly) le mostra tutte e sedici. Indossa **Standard**, la voce dell’elenco Formazioni che non è nessuna formazione, e i droni tornano a volare nella disposizione “Gregario”.
+
+Puoi spegnere i droni in Impostazioni › Interfaccia: **Mostra i miei droni** per i tuoi e **Mostra droni nemici** per quelli degli altri piloti.
 
 ## Equipaggiamento e statistiche {#equipment-stats}
 

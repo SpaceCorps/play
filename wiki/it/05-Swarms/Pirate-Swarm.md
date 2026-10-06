@@ -63,7 +63,7 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 | Thulium | 725 | 1.450 | 2.175 |
 | Esperienza (XP) | 29.000 | 58.000 | 87.000 |
 | Onore | 232 | 464 | 696 |
-| Punti PvE per abbattimento | 10 | 10 | 10 |
+| Punti PvE per abbattimento | 15 | 15 | 15 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
@@ -90,7 +90,7 @@ Base: Kitefin, con il 50% di scafo, scudo e danno; velocità e portata sono quel
 | Thulium | 4 | 8 | 12 |
 | Esperienza (XP) | 100 | 200 | 300 |
 | Onore | 2 | 4 | 6 |
-| Punti PvE per abbattimento | 1 | 1 | 1 |
+| Punti PvE per abbattimento | 4 | 4 | 4 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.
 

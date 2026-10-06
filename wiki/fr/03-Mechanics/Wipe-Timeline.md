@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Comment fonctionnent les mondes :
 
 La réinitialisation vous prend vos vaisseaux et vos objets (sauf votre vaisseau actif avec tout ce qui y est installé, votre cache de transport et vos drones) et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours, sauf les missions de niveau que la mise à jour 0.4.10 a remaniées : 64 d’entre elles sont proposées une fois de plus ([Quêtes](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clans et grades.** Les points, les niveaux de bonus et les lignes du jour d’un clan repartent de zéro à chaque réinitialisation : chaque saison est une nouvelle course aux bonus maximaux ; le clan lui-même, ses membres, sa banque et sa taxe restent ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Votre grade de corporation reste aussi : il suit vos points de classement PvE, qu’une réinitialisation ne remet pas à zéro ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clans et grades.** Les points, les niveaux de bonus et les lignes du jour d’un clan repartent de zéro à chaque réinitialisation : chaque saison est une nouvelle course aux bonus maximaux ; le clan lui-même, ses membres, sa banque et sa taxe restent ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Vos points de classement PvE restent aussi : une réinitialisation ne vous déplace donc pas dans le classement de votre corporation, et votre grade suit votre place, pas la saison ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La boutique des bonus permanents {#the-permanent-buff-store}
 Vous pouvez dépenser vos PR accumulés en bonus permanents qui se conservent d’une saison à l’autre, pour toujours. Ces bonus se cumulent et procurent d’importants avantages passifs :

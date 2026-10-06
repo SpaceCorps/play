@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62e2a68759c08dec -->
+<!-- wiki-i18n source: ad2a2514b2a51c82 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -102,7 +102,7 @@ Como os mundos funcionam:
 
 O Reset leva as suas naves e itens (exceto a sua nave ativa com tudo o que está equipado nela, o seu Cache de Transporte e os seus drones) e coloca você de volta no setor de origem da sua corporação; o seu nível, os créditos, o Thulium e os pontos de ranking não voltam a zero. Além disso, as suas conquistas gerais como piloto contribuem para um poder permanente. Destruir alienígenas e concluir missões concede **pontos de reset (PR)**. As suas [missões](/wiki/03-Mechanics/Quests.md) em si, concluídas e em andamento, passam para a próxima temporada: cada uma pode ser feita uma vez por piloto, para sempre, exceto as missões de nível que a atualização 0.4.10 refez: 64 delas são oferecidas mais uma vez ([Missões](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clãs e patentes.** Os pontos, os níveis de bônus e as linhas diárias de um clã recomeçam a cada reset, então cada temporada é uma nova corrida aos bônus no máximo; o clã em si, os membros dele, o banco e a taxa continuam ([Clãs](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A sua patente de corporação também continua: ela acompanha os seus pontos de ranking PvE, que um reset não zera ([Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clãs e patentes.** Os pontos, os níveis de bônus e as linhas diárias de um clã recomeçam a cada reset, então cada temporada é uma nova corrida aos bônus no máximo; o clã em si, os membros dele, o banco e a taxa continuam ([Clãs](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Os seus pontos de ranking PvE também continuam, então um reset não move você no ranking da sua corporação: a sua patente segue a sua posição lá, não a temporada ([Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### A loja de bônus permanentes {#the-permanent-buff-store}
 Você pode gastar os seus PR acumulados em bônus permanentes que passam por todas as temporadas para sempre. Esses bônus se acumulam e dão vantagens passivas significativas:

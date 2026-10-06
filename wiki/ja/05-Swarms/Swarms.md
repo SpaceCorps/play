@@ -90,10 +90,10 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 
 | 群れの艦 | 群れ | 撃破1回あたりの PvE ポイント |
 | :--- | :--- | ---: |
-| **Pirate Boss** | Pirate の群れ | 10 |
-| **Pirate Scout** | Pirate の群れ | 1 |
+| **Pirate Boss** | Pirate の群れ | 15 |
+| **Pirate Scout** | Pirate の群れ | 4 |
 | **Dormant Force** | Dormant の群れ | 25 |
-| **Dormant Pulse** | Dormant の群れ | 10 |
+| **Dormant Pulse** | Dormant の群れ | 11 |
 | **Boss Seeker** | Seeker の群れ | 5 |
 | **Seeker Slave** | Seeker の群れ | 1 |
 

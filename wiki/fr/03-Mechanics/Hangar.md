@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaaba3fffe8e8a67 -->
+<!-- wiki-i18n source: a6d1c3f189d0e637 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -19,6 +19,7 @@ Les réparations en cours ne vous bloquent pas. Partout ailleurs, la fenêtre Ha
 ## Ce que vous pouvez modifier {#what-you-can-change}
 
 - **Équiper et déséquiper n’importe quoi**, dans tous les types d’emplacements : lasers, générateurs (boucliers, moteurs, cœurs adaptatifs), extras, emplacements de compétence et emplacements de drone, ainsi que les amplis, cellules et propulseurs qui y sont installés. Faites glisser les objets sur les emplacements, ou cliquez dessus, exactement comme à la station. Votre vaisseau suit aussitôt : stats, lasers, compétences et barre rapide.
+- **Tout déséquiper.** Le bouton **Tout déséquiper** de la barre d’outils du Hangar vide d’un coup la configuration affichée dans la vue **Vaisseau** : les lasers, boucliers, moteurs, cœurs adaptatifs, extras et emplacements de compétence **et les lasers et boucliers dans les emplacements de vos drones**, avec les amplis, cellules et propulseurs qui y sont installés. Tout retourne dans votre inventaire, en entier ou pas du tout. Vos **drones restent à vous** (un drone n’est jamais monté sur un vaisseau, il n’y a donc rien à lui retirer) et la **formation de drones** que vous portez reste en place. L’autre configuration n’est pas touchée. En vol, les règles de tout changement s’appliquent : depuis une zone sûre, hors combat. La vue **Drones** a un bouton à elle qui ne vide que les emplacements des drones.
 - **L’une ou l’autre configuration.** Vous pouvez préparer la config 2 en pilotant avec la config 1, puis basculer avec la touche Changer config. Un bouton **Piloter avec config** du hangar fait le même changement.
 - **N’importe quel vaisseau.** Activez un autre vaisseau et vous le pilotez depuis l’endroit où vous êtes. Le modèle de votre vaisseau change devant tous ceux qui sont à proximité.
 - **Un nouveau bouclier, moteur ou cœur adaptatif démarre vide**, comme à la station : la charge de bouclier de sa configuration est vide jusqu’à ce qu’elle se recharge.
