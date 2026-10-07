@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fde0e896bc82b2a3 -->
+<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
 <!-- wiki-i18n title: Sebesség -->
 # Sebességszámítás {#speed-calculation}
 
@@ -19,7 +19,7 @@ Minden felszerelt hajtómű sebességet termel, és minden olyan adaptív mag is
 - **Fúvókák fix bónusza**: a fúvókák összes fix sebességnövelésének összege (pl. az Impulse Thruster III `+15` sebességet ad).
 - **Fúvókaszorzó**: az adott hajtóműbe szerelt összes fúvóka sebességszorzójának szorzata (pl. a Momentum Thruster III értéke `1.09`, vagyis `+9%`, az Impulse Thruster III-é `1.03`, vagyis `+3%`). Mindent megszoroz, amit a hajtómű termel: a saját alapsebességét és a fúvókák fix bónuszait is. Az adaptív magnak nincs saját alapsebessége, de a fúvókái fix bónuszait a szorzó így is megszorozza.
 
-Egy Engine III (alapsebesség 6) három Momentum Thruster IV-gyel (`+12`, `1.11`) (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4 sebességet termel, három Impulse Thruster IV-gyel (`+17`, `1.02`) pedig (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5-öt. A Kovácsműhely bónusza egy fúvóka szorzóján az 1 feletti részt növeli: +15% a `1.11` szorzón `1.1265` értéket ad.
+Egy Engine III (alapsebesség 6) három Momentum Thruster IV-gyel (`+13.1`, `1.11`) (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0 sebességet termel, három Impulse Thruster IV-gyel (`+16.5`, `1.035`) pedig (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5-öt. A Kovácsműhely bónusza egy fúvóka szorzóján az 1 feletti részt növeli: +15% a `1.11` szorzón `1.1265` értéket ad.
 
 ### 2. Csökkenő hozadék (határhatékonyság) {#2-diminishing-returns-marginal-efficiency-}
 

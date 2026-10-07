@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate-Schwarm -->
 # Pirate-Schwarm {#pirate-swarm}
 
@@ -7,7 +7,7 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 ## Auf einen Blick {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Wo**: Die Sektoren `x-2` und `x-3` jedes Konzerns
 - **Wie viele**: Einer in jedem dieser Sektoren, 6 in jeder Welt
@@ -32,7 +32,7 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 - **Schieß auf den Boss, nicht auf die Scouts.** Die Scouts heilen den Boss, aber die Heilung ist klein gegen seine Hülle, und ein neuer Scout kommt so oft, wie die Liste *Auf einen Blick* sagt: Eine Gruppe, die zuerst die Scouts abschießt, holt sie nie ein, und nur eine sehr große Gruppe kann sie beseitigen und braucht dann trotzdem länger für den Boss als eine, die sie in Ruhe gelassen hat. Die Scouts kosten dich Zeit, sie entscheiden den Kampf nicht.
 - **Lenke die Scouts ab.** Ein Scout heilt nur, solange er in Reichweite des Bosses ist; ein Scout, der dir aus der Reichweite folgt, heilt nichts, und eine Ostirion ist schneller als ein Scout.
 - **Bleib in Bewegung.** Die Rakete des Bosses ist gerade und ungelenkt: Ein Schiff, das in Bewegung bleibt, weicht ihr aus, eines, das stillsteht, wird getroffen.
-- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition schaffen ihn in Alpha in etwa fünf Minuten; eine Ostirion allein schafft es nicht, eine Paragon allein schon. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
+- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition schaffen ihn in Alpha in etwa fünf Minuten, aber nur knapp und nur, solange sich die Treffer verteilen: Ein Trio, bei dem ein Pilot das ganze Feuer abbekommt, verliert. Fünf schaffen ihn in drei bis vier Minuten; eine Ostirion allein schafft es nicht, eine Paragon allein schon. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, im selben Sektor.
 
 ## Belohnungen und Beute {#rewards-and-drops}
@@ -44,7 +44,7 @@ Der Pirate Boss zahlt für den Kampf, der er ist: Eine Minute Kampf gegen ihn za
 Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 
 ### Pirate Scout
 
-Basis: Kitefin mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds.
+Basis: Kitefin mit 50 % der Hülle und 75 % des Laserschadens; Tempo und Reichweite bleiben die des Vorbilds.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hülle | 12.000 | 18.000 | 24.000 |
 | Schild | 9.818 | 14.727 | 19.636 |
-| Laserschaden (eine Salve pro Sekunde) | 98 | 147 | 196 |
+| Laserschaden (eine Salve pro Sekunde) | 147 | 221 | 294 |
 | Tempo | 175 | 175 | 175 |
 | Laserreichweite | 700 | 700 | 700 |
 | Aggro-Radius | 700 | 700 | 700 |

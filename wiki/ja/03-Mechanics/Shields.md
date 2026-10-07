@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: シールド -->
 # シールドの仕組み {#shield-mechanics}
 
@@ -41,8 +41,8 @@
 \[\text{Shield Share} = \text{clamp}(\text{Absorbance} - \text{Penetration},\ 0,\ 100\%)\]
 
 - シールドが受け持つのは、攻撃のうち最大 `round(damage x share)` で、残りは船体が受けます。シールドの残りが取り分に足りないときは、足りない分が HP に回り、シールドが0なら、すべてのダメージが HP に直接当たります。
-- **シールド貫通の出どころ**：単体ロケットの*シールド貫通*（Lancet I 10%、Lancet II 25%、Lancet III 35%、Rivet I 5%、Rivet II 25%、Rivet III 35%、N.I.K.E. 35%。範囲爆発にはありません。[ロケット](/wiki/06-Items/Rockets.md)を参照）と、レーザー弾薬のシールド貫通（Ultra Core 5%、Experimental Fusion Core 10%。[レーザーと弾薬](/wiki/06-Items/Lasers.md)を参照）です。エイリアンにはなく、x1 と x2 の弾薬にもありません。
-- **例**：吸収率80%で Lancet III（35%）を受けた場合、シールドが攻撃の45%を、船体が55%を受けます。100%の場合は、65%と35%です。112%で貫通12%の場合は、攻撃の全量を受け止めます。45%（Light Shield Core のみ）で35%を受けた場合は、10%がシールド、残りが船体に当たります。Light Shield Core を完全に貫通するロケットはありません。
+- **シールド貫通の出どころ**：単体ロケットの*シールド貫通*（Lancet I 10%、Lancet II 25%、Lancet III 35%、Rivet I 5%、Rivet II 25%、Rivet III 35%、N.I.K.E. 35%。範囲爆発にはありません。[ロケット](/wiki/06-Items/Rockets.md)を参照）と、レーザー弾薬のシールド貫通（Ultra Core 5%、Experimental Fusion Core 10%。[レーザーと弾薬](/wiki/06-Items/Lasers.md)を参照）です。エイリアンにはなく、x1 と x2 の弾薬にもありません。レーザーの命中は、射手のレーザーの Penetration Amp（スロットごとに +2%～+8%、レーザー全体の平均）とドローン編成の貫通（Gemini +9%、Stiletto +16%）も差し引きます。合計はレーザーでは**50%**、ロケットでは40%で頭打ちです（[レーザーの命中の合計](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+- **例**：吸収率80%で Lancet III（35%）を受けた場合、シールドが攻撃の45%を、船体が55%を受けます。100%の場合は、65%と35%です。112%で貫通12%の場合は、攻撃の全量を受け止めます。45%（Light Shield Core のみ）で35%を受けた場合は、10%がシールド、残りが船体に当たります。Light Shield Core を完全に貫通するロケットはありません。最強のレーザー（50%）は、それを成し遂げます。それに対して最高のシールド（80%）が受けるのは命中の30%、船体は70%で、Light Shield Core 単体（45%）は何も受けません。
 - エイリアンには吸収率のステータスがなく、攻撃を80% / 20%に振り分けます（その攻撃の貫通ぶんは引かれます）。
 - Siphon Battery のダメージはシールドだけから引かれ、吸収率も貫通も関係しません。
 
@@ -57,9 +57,9 @@
 
 シールド関連のブーストはどれも、3つのステータスのうち1つを上げ、ブースターウィンドウでは、それぞれの種類の下に表示されます。
 
-- **容量**（最大シールドポイント）：Shield Wall ブースターと、永続の Shield Capacity Boost。
+- **容量**（最大シールドポイント）：Shield Wall Booster 1 と 2 のブースターと、永続の Shield Capacity Boost。
 - **吸収率**（攻撃のうちシールドが受け持つ割合）：永続の Shield Absorbance Boost（1レベルごとに+0.1ポイント、最大+10ポイント）。
-- **リチャージ**（毎秒回復するシールドポイント）：Shield Regen ブースター。
+- **リチャージ**（毎秒回復するシールドポイント）：Shield Regen Booster。
 
 数値は[ブースター](/wiki/06-Items/Boosters.md)を参照してください。
 

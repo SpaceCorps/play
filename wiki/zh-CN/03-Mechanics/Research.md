@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee1ab2403a7af6d8 -->
+<!-- wiki-i18n source: 6b5935229efa5068 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -6,7 +6,9 @@
 
 本页汇集了完整的科技树及每项科技所需的时间、每种资源提供的科研点、Thulium 加速、Dark Matter 规则和新的 CPU。所有数字都直接读取自游戏自身的数据，因此始终与游戏中一致。
 
+![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
+![The Research view of the Skylab with the pointer on Impulse Thruster III: its kind and tier, what it does, its numbers, the four tiers of its family and what Assembly asks to craft it](../../img/wiki-img/shots/research-hover.jpg)
 
 ## 研究中心 {#the-research-centre}
 
@@ -26,6 +28,10 @@
 - **核心低于 10 级时**无法研究，所以在装配站里还不能制造任何新东西。空间站任务会带你把核心升上去。
 
 <!-- research-centre:end -->
+
+**激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十二项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要三块板：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
+
+在你 Skylab 的**研究**视图里，一项科技告诉你的比下面树中的方框更多。将指针悬停在一项科技上，会弹出一张卡片，写着研究时间和消耗的科研点，下面是该物品**是什么、有什么用**：它的类型和在所属系列中的等级（例如四个 Impulse Thruster 中的第三个）、描述、与机库和商店所示相同的数值（激光的伤害、暴击率和射程，护盾的护盾容量、充能速率和吸收率，推进器的速度提升和速度倍率，火箭的伤害、爆炸半径和射程，无人机编队给予什么、要付出什么代价）、所属系列各等级的小表格，以及研究完成后装配站制造它所需的东西：时间、信用点和 Thulium，以及材料。这样你在研究之前就能看到某个等级能带来什么。点击科技即可选中它：树旁边的卡片会在**开始研究**按钮下方完整显示同样的内容。
 
 ### 各等级的储罐 {#the-tank-at-every-level}
 
@@ -101,11 +107,11 @@
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- 下表中的 15 项科技，每项除科研点外还需要 **10 个 Dark Matter**：开始前把它放入研究中心（取自物品栏，舰船须已降落），研究开始时会取走它。
+- 下表中的 16 项科技，每项除科研点外还需要 **10 个 Dark Matter**：开始前把它放入研究中心（取自物品栏，舰船须已降落），研究开始时会取走它。
 - **规则：** 稀有度达到 史诗 或更高、且研究耗时 10 小时 或更久的物品。用来产出 Dark Matter 的 N.I.K.E. 永远不需要它。
 - **无人机编队**不适用此规则：每项编队研究都需要 Dark Matter，按强度为 5、13 或 20，如下表所示。
 - **取消研究时，**为它放入的 Dark Matter 会退回研究中心。进度和已经消耗的科研点则不会退回。
-- 全部加起来共需 339 个 Dark Matter。
+- 全部加起来共需 349 个 Dark Matter。
 
 | 科技 | 稀有度 | 研究时间 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -115,8 +121,8 @@
 | [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | 史诗 | 10 小时 | 10 |
 | [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | 神话 | 1 天 | 10 |
 | [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | 神话 | 1 天 | 10 |
-| [Nova Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
-| [Apex Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
+| [Damage Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
+| [Crit Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
 | [Ironclad](/wiki/02-Ships/Ironclad.md) | 史诗 | 1 天 | 10 |
 | [Storm](/wiki/02-Ships/Storm.md) | 史诗 | 1 天 | 10 |
 | [Wraith](/wiki/02-Ships/Wraith.md) | 神话 | 2 天 | 10 |
@@ -140,6 +146,7 @@
 | [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 史诗 | 1 天 | 13 |
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 史诗 | 10 小时 | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 史诗 | 1 天 | 13 |
+| [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -155,11 +162,11 @@
 ```tree research
 Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
@@ -170,11 +177,11 @@ Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
 ```tree research
 Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 
 Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
 Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
@@ -185,19 +192,29 @@ Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ```tree research
 Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Nova Amp | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Pulse Amp, 1 Power Core, 30 Cataclysite, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Apex Amp | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Prism Amp, 1 Power Core, 30 Cataclysite, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Damage Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Crit Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Crit Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 20 Daraxium, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 1 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 
 Quantum Laser 3 => Starfire-3 => Helios Beam
+Damage Amp II => Damage Amp III => Damage Amp IV
+Crit Amp II => Crit Amp III => Crit Amp IV
+Penetration Amp II => Penetration Amp III => Penetration Amp IV
 ```
 
 ### 增益 {#tree-boosters}
 
 ```tree research
-Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
 ```
 
 ### 无人机 {#tree-drones}
@@ -233,9 +250,9 @@ N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | resea
 ```tree research
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 20 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 
@@ -289,26 +306,26 @@ Gyre Formation => Auger Formation
 | :--- | :--- | :--- | ---: | ---: | ---: |
 | [Impulse Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 分钟 | 1,800 | – |
 | [Impulse Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Impulse Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 小时 | 10,800 | – |
-| [Impulse Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Impulse Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 小时 | 36,000 | 10 |
+| [Impulse Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Impulse Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 小时 | 36,000 | 10 |
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 分钟 | 1,800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 小时 | 10,800 | – |
-| [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 小时 | 36,000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | – | B | 3 小时 | 10,800 | – |
+| [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 小时 | 36,000 | 10 |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 小时 | 10,800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 分钟 | 1,800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 小时 | 10,800 | – |
-| [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | C | 10 小时 | 36,000 | 10 |
+| [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 小时 | 36,000 | 10 |
 | [Capacity Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 分钟 | 1,800 | – |
 | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 小时 | 10,800 | – |
-| [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | C | 10 小时 | 36,000 | 10 |
-| [Heavy Shield Core](/wiki/06-Items/Shields.md#shield-cores) | – | B | 3 小时 | 10,800 | – |
+| [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 小时 | 36,000 | 10 |
+| [Heavy Shield Core](/wiki/06-Items/Shields.md#shield-cores) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 小时 | 10,800 | – |
 | [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | – | B | 3 小时 | 10,800 | – |
 | [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | D | 1 天 | 86,400 | 10 |
-| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | D | 1 天 | 86,400 | 10 |
-| [Nova Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | C | 10 小时 | 36,000 | 10 |
-| [Apex Amp](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | C | 10 小时 | 36,000 | 10 |
-| [Damage Amp II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
-| [Shield Wall II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
-| [Hull Plating II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
+| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | D | 1 天 | 86,400 | 10 |
+| [Damage Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Damage Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 小时 | 36,000 | 10 |
+| [Crit Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Crit Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 小时 | 36,000 | 10 |
+| [Laser Damage Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
+| [Shield Wall Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
+| [Hull Plating Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 小时 | 10,800 | – |
 | [Master Drone](/wiki/06-Items/Drones.md#available-drones) | – | C | 10 小时 | 36,000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 小时 | 21,600 | – |
 | [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 天 | 86,400 | 10 |
@@ -319,9 +336,9 @@ Gyre Formation => Auger Formation
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | D | 1 天 | 86,400 | 10 |
 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | – | A | 30 分钟 | 1,800 | – |
 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | C | 10 小时 | 36,000 | – |
-| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | D | 1 天 | 86,400 | 10 |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | D | 1 天 | 86,400 | 10 |
 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | – | B | 3 小时 | 10,800 | – |
-| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | C | 10 小时 | 36,000 | – |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 小时 | 36,000 | – |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | D | 1 天 | 86,400 | 10 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | – | B | 6 小时 | 21,600 | – |
 | [Testudo Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 小时 | 36,000 | 5 |
@@ -340,18 +357,25 @@ Gyre Formation => Auger Formation
 | [Cordon Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | [Redoubt Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | D | 1 天 | 86,400 | 13 |
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | C | 10 小时 | 36,000 | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | – | D | 1 天 | 86,400 | 13 |
+| [Damage Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 分钟 | 1,800 | – |
+| [Damage Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Damage Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 小时 | 10,800 | – |
+| [Crit Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 分钟 | 1,800 | – |
+| [Crit Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Crit Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 小时 | 10,800 | – |
+| [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 分钟 | 1,800 | – |
+| [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 小时 | 10,800 | – |
+| [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 小时 | 36,000 | 10 |
 
 按研究时间划分的类别：
 
 | 类别 | 研究时间 | 科技数 | 逐项研究合计 | 科研点 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 分钟 | 5 | 2 小时 30 分钟 | 9,000 | 0 |
-| B | 3 小时 至 6 小时 | 14 | 2 天 | 172,800 | 0 |
-| C | 10 小时 | 14 | 5 天 20 小时 | 504,000 | 85 |
+| A | 30 分钟 | 8 | 4 小时 | 14,400 | 0 |
+| B | 3 小时 至 6 小时 | 17 | 2 天 9 小时 | 205,200 | 0 |
+| C | 10 小时 | 15 | 6 天 6 小时 | 540,000 | 95 |
 | D | 1 天 至 2 天 | 20 | 24 天 | 2,073,600 | 254 |
-| 全部 |  | 53 | 31 天 22 小时 30 分钟 | 2,759,400 | 339 |
+| 全部 |  | 60 | 32 天 19 小时 | 2,833,200 | 349 |
 
-逐项依次研究，整棵科技树共需 31 天 22 小时 30 分钟。若全程开着加速，需要 15 天 23 小时 15 分钟，即 16 次加速和 80,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 32 天 19 小时。若全程开着加速，需要 16 天 9 小时 30 分钟，即 17 次加速和 85,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 
@@ -366,9 +390,9 @@ Gyre Formation => Auger Formation
 | :--- | :--- | :--- | ---: | ---: |
 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30 分钟 | – | 12,000 | 5 分钟 |
 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 10 小时 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | 30,000 | 10 分钟 |
-| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 天 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75,000 | 15 分钟 |
+| [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | 1 天 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | 75,000 | 15 分钟 |
 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 3 小时 | – | 8,000 | 5 分钟 |
-| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 小时 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus) | 20,000 | 10 分钟 |
+| [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 小时 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20,000 | 10 分钟 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 天 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 分钟 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 小时 | – | 15,000 | 10 分钟 |
 

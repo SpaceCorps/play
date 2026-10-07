@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fde0e896bc82b2a3 -->
+<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -19,7 +19,7 @@ Varje utrustad motor ger hastighet, och det gör varje adaptiv kärna som har st
 - **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+15` hastighet).
 - **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.09` eller `+9%`, Impulse Thruster III `1.03` eller `+3%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
 
-En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+12`, `1.11`) ger (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, och med tre Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.11` ger `1.1265`.
+En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+13.1`, `1.11`) ger (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0, och med tre Impulse Thruster IV (`+16.5`, `1.035`) (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.11` ger `1.1265`.
 
 ### 2. Avtagande avkastning (marginaleffektivitet) {#2-diminishing-returns-marginal-efficiency-}
 

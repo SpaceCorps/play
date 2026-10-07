@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Chaque saison va du jour 1 au jour 30 (la réinitialisation commence par son com
 | **Compte à rebours** | Jours 26–30 | Événement 4 | La phase du compte à rebours final. Tous les pilotes se pressent pour compléter et verrouiller la cargaison qu’ils emportent avant l’éruption. |
 | **La réinitialisation** | Jour 30 | Éruption du trou noir | L’univers est détruit et renaît. Les pilotes passent dans le monde qu’ils ont choisi comme destination pour la saison suivante. |
 
-En dehors de la réinitialisation elle-même, seules deux choses suivent le calendrier : le Protocole de paix (jours 1–3) change une règle, et dès le jour 4 les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent et restent jusqu’à la réinitialisation. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu, mais aucun d’eux ne donne encore de récompenses, d’apparitions ou de bonus spéciaux qui lui soient propres.
+En dehors de la réinitialisation elle-même, seules trois choses suivent le calendrier : le Protocole de paix (jours 1–3) change une règle, dès le jour 4 les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent et restent jusqu’à la réinitialisation, et les [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) ne prélèvent plus de frais dès le jour 28 et sont fermées dès le jour 30. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu, mais aucun d’eux ne donne encore de récompenses, d’apparitions ou de bonus spéciaux qui lui soient propres.
 
 ---
 
@@ -43,7 +43,7 @@ Vous obtenez des pièces avec l’interface du Matérialiseur d’énergie, qui 
 
 ## Cache de transport (capsule de voyage) {#transport-cache-travel-capsule-}
 
-Une fois les 100 pièces rassemblées et le Chrono-Gate entièrement stabilisé, le portail ouvre l’accès à votre **cache de transport** personnelle (aussi appelée chariot de transfert ou capsule de voyage). Cette dimension de poche empêche vos possessions d’être effacées lors de la réinitialisation.
+Une fois les 100 pièces rassemblées et le Chrono-Gate entièrement stabilisé, le portail ouvre l’accès à votre **cache de transport** personnelle (aussi appelée chariot de transfert ou capsule de voyage). Cette dimension de poche empêche vos possessions d’être effacées lors de la réinitialisation. Les objets que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vous reviennent à la réinitialisation comme objets en vrac, que la réinitialisation supprime comme le reste si vous ne les mettez pas dans le Cache ; les enchères que vous détenez dans des lots sont remboursées.
 
 ### Transfert automatique (gratuit) {#automatic-carry-over-free-}
 Les éléments suivants sont toujours protégés et passent automatiquement à la saison suivante, sans consommer **aucune** capacité de votre cache de transport :

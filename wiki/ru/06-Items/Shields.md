@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06696a3c765a00c4 -->
+<!-- wiki-i18n source: aff32f1e7e47620e -->
 <!-- wiki-i18n title: Щиты -->
 # Щиты и защита {#shields-defense}
 
@@ -14,7 +14,7 @@
 ```tree
 Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.md#shield-cores
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
@@ -24,8 +24,8 @@ Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | res
 Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
 Adaptive Core I -> Adaptive Core II -> Adaptive Core III
@@ -44,7 +44,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Basic Shield Core** | Обычный | 15 000 | 500/с | 48% | +10% | -3% | 2 | Shield Surge II | 2 000 Thulium |
 | **Heavy Shield Core** | Редкий | 25 000 | 833/с | 50% | +20% | -5% | 3 | Shield Surge III | Только крафт |
 
-**Heavy Shield Core** создаётся в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Basic Shield Core за 2 000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plate и 6 Velkonite Reinforced Plate из вашего Skylab. Он сохраняет уровень зачарования израсходованного щита, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Сначала снимите Basic Shield Core с корабля (и извлеките из него ячейки): щит, который установлен или в который вложены ячейки, не расходуется.
+**Heavy Shield Core** создаётся в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Basic Shield Core за 2 000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plate и 3 Dark Matter Plate ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Он сохраняет уровень зачарования израсходованного щита, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Сначала снимите Basic Shield Core с корабля (и извлеките из него ячейки): щит, который установлен или в который вложены ячейки, не расходуется.
 
 **Поглощение** — это доля каждого попадания, которую принимают ваши щиты; остальное получает корпус. Сам по себе щит даёт **от 45 до 50%**, а остальное добавляют его ячейки: лучший щит с лучшими ячейками (Heavy Shield Core с тремя ячейками Absorption Shield Cell IV) даёт **80%** — это максимум, который есть у корабля без дополнительных усилений. Сверх этого добавляют два постоянных бонуса: Shield Absorbance Boost из магазина сезона (+0,1 пункта за уровень, 100 уровней, по 25 очков вайпа каждый) и бонусы поглощения из Кузницы. Нынешние источники очков вайпа (855 в сумме при предельных значениях, переносятся через вайпы; новые источники запланированы) покупают 34 из этих 100 уровней (+3,4 пункта), что вместе с полностью выкованным комплектом уровня «Вечный» даёт около **95%**. Но значение не ограничено 100%: *пробитие щита* атакующего вычитается из него, поэтому всё, что у корабля выше 100%, — запас против пробития. См. [Механика щитов](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
@@ -77,4 +77,4 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Absorption Shield Cell III** | Редкий | +4 500 | +375/с | +8% | Только крафт |
 | **Absorption Shield Cell IV** | Эпический | +6 000 | +500/с | +10% | Только крафт |
 
-Ступень I каждого семейства продаётся за 30 000 кредитов. Ступени II–IV создаются в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules), каждая из ячейки того же семейства ступенью ниже (Capacity Shield Cell II из Capacity Shield Cell I, III из II, IV из III) за Thulium, добычу с пришельцев и Velkonite Reinforced Plate из вашего Skylab (2, 4 и 6 пластин). Ячейка никогда не меняет семейство: Capacity или Absorption вы выбираете, когда покупаете ступень I. Новая ячейка сохраняет уровень зачарования израсходованной ячейки, а её бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ячейки не подходят для [слота способности](/wiki/03-Mechanics/Abilities.md): их место — внутри щитов и адаптивных ядер.
+Ступень I каждого семейства продаётся за 30 000 кредитов. Ступени II–IV создаются в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules), каждая из ячейки того же семейства ступенью ниже (Capacity Shield Cell II из Capacity Shield Cell I, III из II, IV из III) за Thulium, добычу с пришельцев и пластины: 2 или 4 Velkonite Reinforced Plate из вашего Skylab для ступени II или III и 3 Dark Matter Plate для ступени IV. Ячейка никогда не меняет семейство: Capacity или Absorption вы выбираете, когда покупаете ступень I. Новая ячейка сохраняет уровень зачарования израсходованной ячейки, а её бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ячейки не подходят для [слота способности](/wiki/03-Mechanics/Abilities.md): их место — внутри щитов и адаптивных ядер.

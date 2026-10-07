@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Dormant 무리 -->
 # Dormant 무리 {#dormant-swarm}
 
@@ -7,7 +7,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 ## 한눈에 보기 {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **위치**: 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다
 - **개수**: 월드마다 하나
@@ -25,14 +25,14 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 ## 구성원 {#the-members}
 
 - **Dormant Force**: 온전한 힘의 Wraith로, 레이저가 일반적인 장비의 3배로 강하게 때립니다. 무리를 이끌고, 공격받기 전까지는 비공격적이며, 처음 공격한 파일럿에게 **직선 로켓**을 발사합니다.
-- **Dormant Pulse**: 온전한 힘의 Paragon으로, 같은 종류의 무거운 레이저와 자체 로켓을 가집니다. Pulse는 Force 가까이에서 비행하며, Force가 격파되면 그중 하나가 리더를 이어받습니다.
+- **Dormant Pulse**: 온전한 힘의 Paragon으로, 같은 종류의 무거운 레이저를 가지며, 레이저 한 발의 위력은 Force의 두 배입니다. 자체 로켓도 가집니다. Pulse는 Force보다 레이저 수가 적어서 일제 사격 전체는 Force보다 크지만 두 배는 아닙니다(수치는 아래에 있습니다). Pulse는 Force 가까이에서 비행하며, Force가 격파되면 그중 하나가 리더를 이어받습니다.
 
 모두 비공격적이어서 먼저 파일럿을 쫓지 않습니다. 하나를 공격하면 그 가까이 있는 나머지가 처음 공격한 파일럿을 상대로 전투에 합류합니다.
 
 ## 전투의 흐름 {#how-the-fight-goes}
 
 - **찾으세요.** 나타나면 월드 전체에 알려지고, 위험 섹터 맵과 은하 지도에 표시가 뜹니다. *한눈에 보기* 목록의 시간 동안 한 맵에 머문 뒤 다른 위험 섹터의 게이트로 날아가 점프합니다. 위험 섹터 밖으로 나가는 게이트는 절대 쓰지 않고, 블랙홀의 고리 안으로도 들어가지 않습니다. 가장 느린 함선의 속도로 비행하며, 파일럿처럼 공격받는 동안에는 점프를 시작하거나 끝내지 않습니다.
-- **혼자서도, 소수로도 쓰러뜨릴 수 없습니다.** 레벨 8 파일럿 여덟 명이 Paragon을 타고 x2 또는 x4 탄약을 쓰면 Alpha에서 약 1분 만에 격파하며, 잃는 함선은 많아야 한 척입니다. Paragon 한 척은 격파당하고, x2 탄약으로는 세 척도 마찬가지입니다. Beta와 Gamma의 무리는 더 강하므로([월드](/wiki/05-Swarms/Swarms.md#the-worlds)) 그 월드에서는 더 큰 그룹이 필요합니다.
+- **혼자서도, 소수로도 쓰러뜨릴 수 없습니다.** 레벨 8 파일럿 여덟 명이 Paragon을 타고 x2 또는 x4 탄약을 쓰면 Alpha에서 약 1분 만에 격파하며, 잃는 함선은 많아야 한 척입니다. Paragon 한 척은 격파당하고, x2 탄약으로는 세 척이나 네 척도 마찬가지입니다. Beta와 Gamma의 무리는 더 강하므로([월드](/wiki/05-Swarms/Swarms.md#the-worlds)) 그 월드에서는 더 큰 그룹이 필요합니다.
 - **승부는 레이저가 가릅니다.** 합치면 로켓 없이도 1분이 안 되어 Paragon을 격파할 수 있고, 최고의 실드를 갖춘 Paragon도 2분이 안 되어 격파합니다. 가진 최고의 실드로 피해를 빠르게 입히세요.
 - **한 척씩.** 각 함선은 자체 선체와 자체 보상이 있으므로 Force나 Pulse가 먼저 격파될 수 있습니다. 무리는 전체가 격파되었을 때만 교체되며, *한눈에 보기* 목록의 시간이 지난 뒤입니다.
 
@@ -45,11 +45,11 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 무리 함선의 세 월드에서의 수치입니다([월드](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-바탕은 Wraith이며, 선체와 실드, 피해량은 그 100%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+바탕은 Wraith이며, 선체는 그 100%, 레이저 피해량은 그 300%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 
 ### Dormant Pulse
 
-바탕은 Paragon이며, 선체와 실드, 피해량은 그 100%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+바탕은 Paragon이며, 선체는 그 100%, 레이저 피해량은 그 600%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다. 5초마다 직선 로켓을 한 발 발사합니다: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 선체 | 128,000 | 192,000 | 256,000 |
 | 실드 | 64,570 | 96,855 | 129,140 |
-| 레이저 피해량(초당 일제 사격 1회) | 1,920 | 2,880 | 3,840 |
+| 레이저 피해량(초당 일제 사격 1회) | 3,840 | 5,760 | 7,680 |
 | 속도 | 210 | 210 | 210 |
 | 레이저 사거리 | 800 | 800 | 800 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |

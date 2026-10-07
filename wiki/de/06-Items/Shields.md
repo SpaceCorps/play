@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06696a3c765a00c4 -->
+<!-- wiki-i18n source: aff32f1e7e47620e -->
 <!-- wiki-i18n title: Schilde -->
 # Schilde & Verteidigung {#shields-defense}
 
@@ -14,7 +14,7 @@ Was die Montage herstellt, braucht zuerst seine Technologie; zeige auf einen Geg
 ```tree
 Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.md#shield-cores
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
@@ -24,8 +24,8 @@ Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | res
 Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
 Adaptive Core I -> Adaptive Core II -> Adaptive Core III
@@ -44,7 +44,7 @@ Rüste Schilde aus, um aktive Schutzbarrieren zu erzeugen, in den Generator-Slot
 | **Basic Shield Core** | Gewöhnlich | 15.000 | 500/s | 48 % | +10 % | -3 % | 2 | Shield Surge II | 2.000 Thulium |
 | **Heavy Shield Core** | Selten | 25.000 | 833/s | 50 % | +20 % | -5 % | 3 | Shield Surge III | Nur herstellbar |
 
-Der **Heavy Shield Core** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Basic Shield Core hergestellt, mit 2.000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plates und 6 Velkonite Reinforced Plates aus deinem Skylab. Er behält die Verzauberungsstufe des Kerns, den er verbraucht, und seine Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm den Basic Shield Core zuerst von deinem Schiff (und seine Zellen aus ihm): Ein Kern, der ausgerüstet ist oder Zellen enthält, wird nicht verbraucht.
+Der **Heavy Shield Core** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Basic Shield Core hergestellt, mit 2.000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plates und 3 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Er behält die Verzauberungsstufe des Kerns, den er verbraucht, und seine Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm den Basic Shield Core zuerst von deinem Schiff (und seine Zellen aus ihm): Ein Kern, der ausgerüstet ist oder Zellen enthält, wird nicht verbraucht.
 
 Die **Absorption** ist der Anteil jedes Treffers, den deine Schilde nehmen; den Rest nimmt die Hülle. Ein Schild allein hat **45 bis 50 %**, und seine Zellen steuern den Rest bei: Der beste Schild mit den besten Zellen (ein Heavy Shield Core mit drei Absorption Shield Cell IV) hat **80 %**, das meiste, was ein Schiff ab Werk hat. Zwei dauerhafte Boosts kommen dazu: der Schildabsorptions-Boost des Saison-Shops (+0,1 Punkte pro Level, 100 Level, je 25 Wipe-Punkte) und die Absorptionsboni der Schmiede. Die heutigen Quellen für Wipe-Punkte (insgesamt 855 an ihren Obergrenzen, über Wipes hinweg behalten; weitere Quellen sind geplant) kaufen 34 dieser 100 Level (+3,4 Punkte), womit ein voll geschmiedetes ewiges Set etwa **95 %** erreicht. Der Wert ist jedoch nicht auf 100 % begrenzt: Die *Schilddurchdringung* eines Angreifers wird davon abgezogen, was ein Schiff über 100 % hat, ist also sein Spielraum gegen Durchdringung. Siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
@@ -77,4 +77,4 @@ Schildzellen werden in Schilde oder adaptive Kerne eingesetzt (so viele, wie der
 | **Absorption Shield Cell III** | Selten | +4.500 | +375/s | +8 % | Nur herstellbar |
 | **Absorption Shield Cell IV** | Episch | +6.000 | +500/s | +10 % | Nur herstellbar |
 
-Stufe I jeder Familie wird für 30.000 Credits verkauft. Die Stufen II bis IV werden in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) hergestellt, jede aus der Zelle derselben Familie eine Stufe darunter (eine Capacity Shield Cell II aus einer Capacity Shield Cell I, eine III aus einer II, eine IV aus einer III), mit Thulium, Beute und Velkonite Reinforced Plates aus deinem Skylab (2, 4 und 6 Platten). Eine Zelle wechselt nie die Familie: Capacity oder Absorption wählst du beim Kauf der Stufe I. Die neue Zelle behält die Verzauberungsstufe der Zelle, die sie verbraucht, und ihre Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Zellen passen nicht in einen [Fähigkeits-Slot](/wiki/03-Mechanics/Abilities.md); sie gehören in Schilde und adaptive Kerne.
+Stufe I jeder Familie wird für 30.000 Credits verkauft. Die Stufen II bis IV werden in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) hergestellt, jede aus der Zelle derselben Familie eine Stufe darunter (eine Capacity Shield Cell II aus einer Capacity Shield Cell I, eine III aus einer II, eine IV aus einer III), mit Thulium, Beute und Platten: 2 oder 4 Velkonite Reinforced Plates aus deinem Skylab für Stufe II oder III und 3 Dark Matter Plates für Stufe IV. Eine Zelle wechselt nie die Familie: Capacity oder Absorption wählst du beim Kauf der Stufe I. Die neue Zelle behält die Verzauberungsstufe der Zelle, die sie verbraucht, und ihre Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Zellen passen nicht in einen [Fähigkeits-Slot](/wiki/03-Mechanics/Abilities.md); sie gehören in Schilde und adaptive Kerne.

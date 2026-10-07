@@ -7,7 +7,7 @@ Seeker 무리는 [무리](/wiki/05-Swarms/Swarms.md) 중 가장 작으며, **Bos
 ## 한눈에 보기 {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **위치**: 모든 기업의 `x-1`와 `x-2` 섹터
 - **개수**: 해당 섹터마다 하나씩, 월드마다 6개
@@ -43,7 +43,7 @@ Boss Seeker의 보상은 **정확히 Seeker 10마리분**입니다. Seeker의 �
 무리 함선의 세 월드에서의 수치입니다([월드](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

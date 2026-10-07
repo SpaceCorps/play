@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
@@ -22,6 +22,10 @@ Ao contrário dos jogos espaciais tradicionais, o SpaceCorps tem slots de equipa
 
 O inventário lista seus itens na mesma ordem da Loja, seja qual for a ordem em que você os comprou, criou ou encontrou. As categorias que combinam ficam juntas: lasers, amplificadores de laser e munição de laser; escudos e células de escudo; motores e propulsores; núcleos adaptativos; extras (drones de reparo); drones e formações de drones; e, por fim, recursos. Dentro de uma categoria vem primeiro o mais barato (créditos antes de Thulium) e depois o que não tem preço: o equipamento “só por criação” e os itens de saque, da raridade mais fraca para a mais forte (lasers de uma mesma raridade, do dano mais fraco para o mais forte). A munição de laser vai de x1 a x4 e, depois, vem a Siphon Battery. Os foguetes seguem o tipo (alvo único antes de explosão em área, guiado antes de reto) e depois o grau, então o foguete Épico, que custa Thulium, vem por último no seu tipo. As cópias de um mesmo item seguem o grau de encantamento. Acima da grade, um botão por categoria usa a mesma ordem, cada um com o número de itens que a busca encontra nela. Cada botão liga ou desliga sozinho, então você pode ocultar a munição e os drones de reparo enquanto trabalha com lasers, escudos e motores: clique em um botão para mostrar ou ocultar a categoria dele, use Shift+clique (ou clique duplo) para deixar ligada só essa categoria e clique nele de novo para trazer o resto de volta. **Todas** mostra todas as categorias e **Nenhuma** oculta todas, para você ligar só as que quiser. Um botão riscado está desligado; um botão com uma marca de seleção está ligado. A busca funciona nas categorias que estão ligadas, e a sua escolha fica guardada junto com o seu piloto. Se tudo estiver oculto, a grade avisa e oferece **Mostrar todas as categorias**.
 
+## Itens vendáveis {#marketable-items}
+
+Os itens que você ganhou (drops, recompensas de missões e o que a Montagem e a Forja fazem) levam uma pequena etiqueta **Vendável** no bloco, e o cartão do item diz “Vendável” ou, numa pilha da qual só parte pode ser vendida, “Vendável (3 de 5)”. O chip **Somente vendável**, ao lado dos chips de categoria, mostra só esses itens. Um **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do [Leilão](/wiki/03-Mechanics/Auction.md) (ele não aparece em voo: vender é uma página da estação). O que você comprou, ganhou em lote ou recebeu de presente não tem etiqueta e não pode ser vendido de novo.
+
 ## Equipar item em item (subslots) {#item-to-item-equipping-sub-sockets-}
 
 Alguns itens principais podem “equipar” itens de apoio secundários (o chamado subslot) para ampliar seus parâmetros. Para usar um subslot, arraste o item de apoio diretamente sobre o item principal no inventário do seu hangar.
@@ -30,7 +34,7 @@ Alguns itens principais podem “equipar” itens de apoio secundários (o chama
 
 | Item principal | Itens aceitos no subslot | Efeito resultante |
 | :--- | :--- | :--- |
-| **Laser** | Amplificador de laser (amp.) | Aumenta o dano base e os atributos de acerto crítico |
+| **Laser** | Amplificador de laser (amp.) | Aumenta o dano base e os atributos de acerto crítico, ou tira pontos da absorção do alvo (Penetration Amp) |
 | **Escudo** | Célula de escudo | Aumenta a capacidade do escudo e a taxa de recarga |
 | **Motor** | Propulsor | Aumenta a velocidade do motor e os multiplicadores |
 | **Gerador híbrido** | Célula de escudo OU propulsor | Aumenta a capacidade do escudo, a taxa de recarga ou a velocidade |

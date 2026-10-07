@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Varje säsong löper över dag 1 till 30 (wipen börjar med sin nedräkning på 
 | **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart och låsa den last de tar med sig före utbrottet. |
 | **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt. Piloter flyttas till den värld de valde som destination för nästa säsong. |
 
-Bortsett från själva wipen är det bara två saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, och från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten, men inget av dem ger särskilda belöningar, nya fiender eller bonusar av eget än.
+Bortsett från själva wipen är det bara tre saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten, men inget av dem ger särskilda belöningar, nya fiender eller bonusar av eget än.
 
 ---
 
@@ -43,7 +43,7 @@ Du får delar genom att använda gränssnittet Energimaterialiserare, som snurra
 
 ## Transportförråd (reskapsel) {#transport-cache-travel-capsule-}
 
-När alla 100 delar är samlade och Chrono-Gate är helt stabiliserad öppnar portalen åtkomst till ditt personliga **transportförråd** (kallas också överföringsvagnen eller reskapseln). Den här fickdimensionen skyddar dina tillhörigheter från att raderas under wipen.
+När alla 100 delar är samlade och Chrono-Gate är helt stabiliserad öppnar portalen åtkomst till ditt personliga **transportförråd** (kallas också överföringsvagnen eller reskapseln). Den här fickdimensionen skyddar dina tillhörigheter från att raderas under wipen. Föremål du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) kommer tillbaka till dig vid wipen som lösa föremål, som wipen raderar som allt annat om du inte lägger dem i Transportförrådet; buden du håller i lotter betalas tillbaka.
 
 ### Automatisk överföring (gratis) {#automatic-carry-over-free-}
 Följande föremål är alltid skyddade och följer med till nästa säsong automatiskt, och tar **noll** kapacitet i ditt transportförråd:

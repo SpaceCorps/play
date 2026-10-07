@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6d1c3f189d0e637 -->
+<!-- wiki-i18n source: 9c17f4775a1e2000 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -23,8 +23,10 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 - **Bármelyik konfiguráció.** Előkészítheted a Konfig 2-t, miközben a Konfig 1-gyel repülsz, aztán átválthatsz a **Konfigváltás** billentyűvel. A hangár **Repülés: Konfig** gombja ugyanezt a váltást végzi.
 - **Bármelyik hajó.** Állíts be egy másik hajót aktívnak, és onnan repülsz vele, ahol vagy. A hajód modellje megváltozik a közelben lévők előtt.
 - **Egy új pajzs, hajtómű vagy adaptív mag üresen indul**, mint az állomáson: a konfigurációjának pajzstöltése üres, amíg újra nem töltődik.
-- **Drónformációk.** A Drónok nézet a drónjaid alatt felsorolja a formációkat, amelyek a tieid. Nem kell őket felszerelni: repülés közben húzol egyet a gyorssáv Formációk listájából egy helyre, és a hely kattintása vagy billentyűje viseli, biztonságos zónában várakozás nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
+- **Drónformációk.** A Drónok nézet a drónjaid alatt felsorolja a formációkat, amelyek a tieid. Nem kell őket felszerelni: repülés közben húzol egyet a gyorssáv Formációk listájából egy helyre, és a hely kattintása vagy billentyűje viseli, ugyanazzal a 2 másodperces várakozással, mint bárhol, biztonságos zónában is ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
 - **Extrák.** A négy átlagos hajónak, a Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak (azoknak, amelyekkel kezdesz vagy amelyeket megveszel) konfigurációnként 2 extrafoglalata van; a négy hajónak, amelyet a Gyártásban készítesz, a Paragonnak, az Ironcladnek, a Wraithnek és a Stormnak, 3. A Skylabod Extra Slots CPU-i 3, 5 vagy 7 foglalatot adnak még hozzá: 5, 7 vagy 9 az átlagos hajóknál és 6, 8 vagy 10 a gyártottaknál ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)). A 0.4.10-zel egy átlagos hajó harmadik extráját leszerelték, és a leltáradba került: semmi sem törlődött, és egy csevegőüzenetet kaptál.
+
+Az eladás nem tartozik az ablakhoz: az [Aukciót](/wiki/03-Mechanics/Auction.md) megnyitó kalapács az állomás Hangárjához tartozik, maga az Aukció pedig az állomás egyik oldala.
 
 ## Hajócsere {#changing-ship}
 

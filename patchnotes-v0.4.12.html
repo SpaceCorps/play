@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.12 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.12: Opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining, where rockets break rocks that throw chunks of Credits, Thulium and ore…">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.12.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.12.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.12 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.12: Opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining, where rockets break rocks that throw chunks of Credits, Thulium and ore…">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.12.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.12 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.12",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.12.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.12.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.12.html",
+      "name": "SpaceCorps 2027 0.4.12 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.12: Opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining, where rockets break rocks that throw chunks of Credits, Thulium and ore…",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-07"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.12.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.12" aria-labelledby="v0.4.12-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.12-title">0.4.12 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-10-07" data-date>7 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.12">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.12 opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining, where rockets break rocks that throw chunks of Credits, Thulium and ore; it reworks the laser amps into three families of four with a new Penetration Amp, asks the last tier of gear for Dark Matter Plates, puts "Booster" in the name of every booster, makes the Clan Wardens hit three times as hard and, from the update after this one, downloads only what changed. Many items change their names at the first start: read "If you already play".</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>The Auction.</strong> Pilots of level 5 and up sell what they earned for Credits or Thulium, and bid on one lot of ammo, rockets or EMP Charges every hour. What you buy or are given can never be sold again.</li><li><strong>Asteroid mining.</strong> 27 kinds of rock on 16 maps. Only rockets break them, and a broken rock throws small chunks of Credits, Thulium and ore.</li><li><strong>Laser amps in three families of four,</strong> with a new <strong>Penetration Amp</strong>. Only tier I is sold; II to IV are made in Assembly.</li><li><strong>The last tier asks for 3 Dark Matter Plates</strong> instead of Velkonite plates, in 12 recipes.</li><li><strong>Every booster has "Booster" in its name</strong> (11 renamed, none has "Amp").</li><li><strong>Updates download only what changed,</strong> from the update after this one. This update is downloaded whole.</li><li><strong>Clan Wardens hit three times as hard.</strong> Bring about seven pilots, not five.</li><li><strong>New rocket damage ranges,</strong> and area rockets deal half their damage at the edge of a blast.</li><li><strong>Thrusters:</strong> every tier is better than the one below, in both families.</li><li><strong>Smaller changes:</strong> a 2-second wait between formation swaps, cargo pick-up in 0.5 seconds, quest items on your own map, everybody's numbers on your target, a wider Group window, a turning Stiletto, a Clan boosts card, a Dark Matter article.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>This update is downloaded whole.</strong> The patches start with the next one.</li><li><strong>19 items change names at the first start:</strong> the 11 boosters and 8 laser amps. Your pieces, tiers, buffs and booster time stay. Your shop booster "Damage Amp II" is now <strong>Laser Damage Booster 2</strong>, and your Arc Amp is now <strong>Damage Amp II</strong>.</li><li><strong>The Arc, Focus, Pulse and Prism Amps leave the Shop.</strong> You keep yours; tiers II to IV are made in Assembly from the tier below, after their research. The update gives you the research of every amp you hold and of the amps below it.</li><li><strong>The last tier needs Dark Matter Plates.</strong> What you own stays yours. To make another of the 12 items you need the technology <strong>Dark Matter Plate</strong> and 3 plates; only holders of a Damage Amp IV or a Crit Amp IV get the technology from the update, the others research it if they have not already (1 day, 10 Dark Matter).</li><li><strong>The Auction marks what you hold:</strong> once, at the first start, the gear the Shop does not sell and 8 resources become Marketable (nine definitions the Shop once sold, the two Reinforced Plates and each pilot's oldest Base CPU I stay unmarked). The Auction opens 30 minutes after the server's first start.</li><li><strong>Wardens: bring about seven pilots.</strong> Five usually lose now. A clan too small for its Warden keeps the 70 points of its four missions but not the reward of the line.</li><li><strong>A formation swap waits 2 seconds everywhere,</strong> safe zones included.</li><li><strong>Quest items, visits and stays count only on your own company's map.</strong></li><li><strong>Rockets roll in new ranges.</strong> The rockets of the Pirate Boss, the Dormant swarm and the Siege Wardens keep their old damage.</li><li><strong>Your first login and the time you play are kept</strong> and shown on your profile; admins get a Metrics page.</li><li><strong>A 0.4.11 client keeps working</strong> against the 0.4.12 server, but it cannot use the Auction, and it shows names, art and texts the old way until you update.</li></ul>
+        <h3>The Auction</h3>
+        <ul><li><strong>Who and where:</strong> pilots of level 5 or more, at the station (the gavel and the page are not shown in flight: land to sell ammo or rockets). One Market for the three worlds, in four sections: <strong>Market</strong>, <strong>Lots</strong>, <strong>My listings</strong> and <strong>History</strong>.</li><li><strong>Marketable means earned.</strong> Drops of aliens and swarms, the ore and finds a broken rock leaves, quest rewards and everything the Assembly makes carry a small <strong>Marketable</strong> tag in your Hangar (a Forge merge keeps it only if both pieces had it). What you buy in the Shop, win in a lot, buy on the Market or are given (codes, invite packs, the starter kit) does not, and can never be sold. A gavel beside the trash opens the sell sheet, a <strong>Marketable only</strong> chip shows what you can sell, and the Assembly says "Result: Marketable" on a recipe and links to the Auction for a material you lack.</li><li><strong>What can be listed:</strong> 80 kinds (gear, ammo, rockets, extras and 10 resources). The Ancient Control Unit, the Velkonite and Orvium ores, the Dark Matter Plate, the Jump CPU, the Extra Slots CPUs, the N.U.K.E. and the N.I.K.E., ships, drones, drone formations and boosters never can. Dark Matter Plates are not on the Auction at all.</li><li><strong>Prices:</strong> a whole number of Credits or of Thulium per lot, never both and never under the item's least price. <strong>There is no highest price for an item,</strong> but one listing cannot be worth more than your daily limit in its currency (the table below). Pieces sell one at a time; ammo and some resources sell in lots of 10 or 100.</li><li><strong>The rate:</strong> 1 Thulium = 1,000 Credits is <strong>only the rule for the least price of a Thulium listing</strong> (the least price in Credits over 1,000, rounded up, for the 42 kinds whose least Thulium price is 20 or more; the other 38 are priced in Credits only). It is not an exchange rate: nothing is swapped and no worth is shown. <strong>A Thulium listing can therefore be cheap: a Quantum Laser 3 may be listed from 170 Thulium, while the Assembly asks 1,500 Thulium to make one.</strong> Most sellers will ask Credits.</li><li><strong>Time, slots and limits</strong> by level:</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Level</th><th scope="col">Open listings</th><th scope="col">Longest listing (hours)</th><th scope="col">Daily limit, Credits</th><th scope="col">Daily limit, Thulium</th></tr></thead><tbody><tr><th scope="row">5</th><td>6</td><td>48</td><td>4,500,000</td><td>22,500</td></tr><tr><th scope="row">10</th><td>16</td><td>72</td><td>15,000,000</td><td>75,000</td></tr><tr><th scope="row">13</th><td>22</td><td>72</td><td>20,000,000</td><td>100,000</td></tr><tr><th scope="row">20</th><td>30</td><td>72</td><td>20,000,000</td><td>100,000</td></tr></tbody></table></div>
+        <p>A listing runs 12, 24, 48 or 72 hours. Each currency has its own daily limit on what you can sell and on what you can buy, in any 24 hours. Between two pilots at most 8,000,000 Credits or 40,000 Thulium pass in 24 hours. Credits and Thulium are never added together; Premium changes none of it.</p>
+        <ul><li><strong>Fees, burned:</strong> a deposit of 1% of the price for every 24 hours of a listing (1.5% from level 10; at least 50 Credits or 1 Thulium), paid when you list and never returned, and 5% of the price when it sells. No fees from day 28 of the season; from day 30 the Auction is closed, but you can still cancel.</li><li><strong>Lots:</strong> the game puts up 24 lots a day, one an hour, of x2 or x3 ammo, rockets or EMP Charges, open for 4 hours. The opening bid is 40% of the Shop price and each bid must beat the high bid by 5%. Your bid is paid at once and comes back at once if someone outbids you; a bid in the last 2 minutes extends the end (up to 5 times); you can lead 2 lots at once and win 6 in 24 hours. The winning bid is burned, and what you win is for flying: never Marketable. While few pilots use the Auction the lots are small (10% of the full size), growing to full size once 30 pilots of level 5 or more have looked in the last 3 days.</li><li><strong>Seeing it:</strong> you get a toast and the new balance when something sells (a burst of sales is one toast) and a badge on the Auction entry while the page is closed. The Auction has six quiet sounds of its own: posting, a listing ending, a sale, a bid, being outbid and winning.</li><li><strong>At the first start</strong> the gear the Shop does not sell and 8 resources you hold (Ship Fragment, Reinforced Hull Plate, Power Core, Daraxium, Nyxite, Cataclysite, Quorvium and Dark Matter) are marked Marketable once. <strong>They are not marked:</strong> the Quantum Laser 3, the Absorption Shield Cells II and III, the Impulse Thrusters II and III and the Damage and Crit Amps II and III (the Shop once sold them), the Velkonite and Orvium Reinforced Plates (what you hold mixes quest plates with Skylab plates) and the oldest Base CPU I of each pilot (the starter kit's). New ones of those that you craft or a quest pays are marked.</li><li><strong>The wipe:</strong> every open listing comes back to you as a loose item and the wipe then clears loose items like any other, so cancel and put what you want to keep in the Transport Cache. Open lots are cancelled and your bids refunded. A listing leaves your inventory until it sells, you cancel it or it runs out; rockets you have listed or lead in a lot count toward the most you may carry.</li><li><strong>What the Auction does not give you, said plainly.</strong> Selling loot is not a grind: raw alien drops are worth 0.4 to 0.9 percent of what the same level-5 hunting hour pays in kills. There is no dealer: buy orders, where a pilot says what he wants to buy and for how much, are not in this version. Shop gear is not for resale: the Quantum Laser 1 and 2, the Light and Basic Shield Cores, Engine I and II, the first tier of cells and thrusters, the amps the Shop sells and bought ammo can't be sold again.</li></ul>
+        <h3>Asteroid mining</h3>
+        <ul><li><strong>Where:</strong> every real map has rocks: the 12 company maps (x-1 to x-4 of Mars, Terra and Galactic) and the four Danger Sectors (from season day 4); the neutral maps have none. 27 kinds in 8 families, and each of the 16 maps has a mix of its own of 5 or 6 kinds (no two the same): 12 rocks on an x-1 map, 14 on x-2, 16 on x-3, 18 on x-4, 24 on a Danger Sector. A broken rock grows back in another place after 2, 3 or 5 minutes by ring (the Motherlode after an hour).</li><li><strong>How you break one:</strong> click the rock, then fire a rocket at it. The guided rockets (Lancet, Ember) need it selected and in lock range, the straight ones (Rivet, Scatter) fly to its centre, and the N.U.K.E. works too. A rocket fired at a rock hits that rock and no other; <strong>lasers and drones do nothing to rocks.</strong> The Target window shows its hull, its armour, who has dealt how much and how many of the rocket you hold it will take.</li><li><strong>In your plane:</strong> the rocks you can mine are real 3D lumps with the ships' flight plane through their middle, drawn behind every hull, so ships, rockets and chunks pass over them; the dim background asteroids far below are scenery. A ring on the ground says how a rock breaks (single: ordinary; double: armoured; dashed: brittle), and the minimap shows each rock as a hexagon.</li><li><strong>Hit points</strong> (Alpha; Beta x1.5, Gamma x2, like aliens). <strong>Armour</strong> takes a flat amount off every hit (a hit still does at least a fifth of its damage); <strong>brittle</strong> rocks take 1.6 times the damage from area rockets (Ember and Scatter):</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Kind</th><th scope="col">Family</th><th scope="col">Hull</th><th scope="col">Radius</th><th scope="col">Notes</th></tr></thead><tbody><tr><th scope="row">Pebble</th><td>Stone</td><td>8,500</td><td>40</td><td>-</td></tr><tr><th scope="row">Cobble</th><td>Stone</td><td>10,000</td><td>55</td><td>-</td></tr><tr><th scope="row">Glimmer</th><td>Crystal</td><td>9,000</td><td>45</td><td>brittle</td></tr><tr><th scope="row">Rime</th><td>Ice</td><td>12,000</td><td>60</td><td>-</td></tr><tr><th scope="row">Cache Pod</th><td>Salvage</td><td>14,000</td><td>48</td><td>-</td></tr><tr><th scope="row">Dark Chondrite</th><td>Stone</td><td>12,000</td><td>60</td><td>-</td></tr><tr><th scope="row">Ironhide</th><td>Iron</td><td>14,000</td><td>55</td><td>armour 500</td></tr><tr><th scope="row">Vein Rock</th><td>Stone</td><td>18,000</td><td>70</td><td>-</td></tr><tr><th scope="row">Nyx Geode</th><td>Crystal</td><td>26,000</td><td>85</td><td>brittle</td></tr><tr><th scope="row">Scrap Hulk</th><td>Salvage</td><td>20,000</td><td>70</td><td>-</td></tr><tr><th scope="row">Slag Block</th><td>Stone</td><td>24,000</td><td>80</td><td>-</td></tr><tr><th scope="row">Plateback</th><td>Iron</td><td>36,000</td><td>90</td><td>armour 1,500</td></tr><tr><th scope="row">Cataclast</th><td>Stone</td><td>36,000</td><td>90</td><td>-</td></tr><tr><th scope="row">Lode Rock</th><td>Stone</td><td>52,000</td><td>105</td><td>-</td></tr><tr><th scope="row">Derelict Hulk</th><td>Salvage</td><td>52,000</td><td>100</td><td>-</td></tr><tr><th scope="row">Thulium Geode</th><td>Treasure</td><td>66,000</td><td>95</td><td>brittle</td></tr><tr><th scope="row">Quorvium Boulder</th><td>Crystal</td><td>48,000</td><td>100</td><td>brittle</td></tr><tr><th scope="row">Cataclysite Mass</th><td>Stone</td><td>72,000</td><td>115</td><td>-</td></tr><tr><th scope="row">Anvil</th><td>Iron</td><td>80,000</td><td>125</td><td>armour 3,000</td></tr><tr><th scope="row">Derelict Cruiser</th><td>Salvage</td><td>72,000</td><td>120</td><td>-</td></tr><tr><th scope="row">Thulium Cluster</th><td>Treasure</td><td>100,000</td><td>120</td><td>-</td></tr><tr><th scope="row">Vault Rock</th><td>Treasure</td><td>130,000</td><td>135</td><td>-</td></tr><tr><th scope="row">Rich Lode</th><td>Stone</td><td>80,000</td><td>130</td><td>-</td></tr><tr><th scope="row">Prism Cluster</th><td>Crystal</td><td>100,000</td><td>140</td><td>brittle</td></tr><tr><th scope="row">Ancient Husk</th><td>Relic</td><td>120,000</td><td>150</td><td>armour 2,000</td></tr><tr><th scope="row">Star Crystal</th><td>Treasure</td><td>150,000</td><td>150</td><td>brittle</td></tr><tr><th scope="row">Motherlode</th><td>Titan</td><td>450,000</td><td>240</td><td>back after 60 min</td></tr></tbody></table></div>
+        <ul><li><strong>The break pays in chunks.</strong> Nothing is paid when a rock breaks: it throws small chunks, gold nuggets for Credits, lavender crystals for Thulium and a rough stone for ore and rare finds. Each pilot who dealt 5% of the damage or more is paid (a group is one party), and his chunks are reserved for him and his clan for 30 seconds, free for everybody after that and gone after 180 seconds. You collect them like cargo (half a second) and the pick-up pays. A break lays at most 24 chunks and a map holds at most 36.</li><li><strong>What a rock pays</strong> (Alpha; Credits and Thulium x2 in Beta and x3 in Gamma): a Pebble 2,200 to 3,700 Credits and sometimes 1 Thulium, a Motherlode 116,300 to 193,800 Credits and 55 to 127 Thulium, with the ore of its kind.</li><li><strong>Limits:</strong> the chunks pay after your daily limits: Thulium 3,000, 4,500 and 6,000 and Credits 13, 18 and 21 million in any 24 hours in Alpha, Beta and Gamma. Boosters, Premium, clan boosts and Loot Luck change nothing; the Resource Magnet Booster adds to the resources of an ore chunk. When the map has no room for your chunks you are paid at once.</li><li><strong>What rocks never give:</strong> no XP, honor, kills, rank, Wipe Points, quest progress or drone XP. The design models a miner's hour at 0.4 to 0.75 of the best hunting hour of the same level, plus the ore a hunter would find; nothing of it has been measured in the live game.</li><li><strong>Sounds and help:</strong> five quiet sounds (selecting a rock, a refused order, a hit, a break and a pick-up that pays) and a Help card.</li></ul>
+        <h3>Laser amps: three families of four</h3>
+        <ul><li><strong>Names and numbers:</strong> Damage Amp I to IV, Crit Amp I to IV and the new Penetration Amp I to IV, named like the shield cells. The eight amps you had keep every number and rarity; only the names change. Only the first amp of each family is sold; each step above it is an <strong>Assembly upgrade of the piece below</strong> (it keeps the enchant tier; the buffs are rolled again).</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Amp</th><th scope="col">Was</th><th scope="col">What it adds</th><th scope="col">How you get it</th></tr></thead><tbody><tr><th scope="row">Damage Amp I</th><td>Damage Amp 1</td><td>+10 damage, +5% critical chance, +5 critical damage</td><td>Shop, 10,000 Credits</td></tr><tr><th scope="row">Damage Amp II</th><td>Arc Amp</td><td>+16 damage, +5% critical chance, +8 critical damage</td><td>Assembly from a Damage Amp I: 250 Thulium, 10 Cataclysite, 1 Velkonite Reinforced Plate</td></tr><tr><th scope="row">Damage Amp III</th><td>Pulse Amp</td><td>+26 damage, +6% critical chance, +13 critical damage</td><td>Assembly from a Damage Amp II: 1,000 Thulium, 20 Cataclysite, 1 Power Core, 2 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Damage Amp IV</th><td>Nova Amp</td><td>+38 damage, +7% critical chance, +20 critical damage</td><td>Assembly from a Damage Amp III: 1,200 Thulium, 30 Cataclysite, 1 Power Core, 3 Dark Matter Plates</td></tr><tr><th scope="row">Crit Amp I</th><td>Crit Amp 1</td><td>+15% critical chance</td><td>Shop, 15,000 Credits</td></tr><tr><th scope="row">Crit Amp II</th><td>Focus Amp</td><td>+20% critical chance, +14 critical damage</td><td>Assembly from a Crit Amp I: 250 Thulium, 10 Cataclysite, 1 Velkonite Reinforced Plate</td></tr><tr><th scope="row">Crit Amp III</th><td>Prism Amp</td><td>+25% critical chance, +24 critical damage</td><td>Assembly from a Crit Amp II: 1,000 Thulium, 20 Cataclysite, 1 Power Core, 2 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Crit Amp IV</th><td>Apex Amp</td><td>+25% critical chance, +44 critical damage</td><td>Assembly from a Crit Amp III: 1,200 Thulium, 30 Cataclysite, 1 Power Core, 3 Dark Matter Plates</td></tr><tr><th scope="row">Penetration Amp I</th><td>new</td><td>+2 points of shield penetration</td><td>Shop, 15,000 Credits</td></tr><tr><th scope="row">Penetration Amp II</th><td>new</td><td>+4 points of shield penetration</td><td>Assembly from a Penetration Amp I: 250 Thulium, 10 Cataclysite, 20 Daraxium, 1 Velkonite Reinforced Plate</td></tr><tr><th scope="row">Penetration Amp III</th><td>new</td><td>+6 points of shield penetration</td><td>Assembly from a Penetration Amp II: 1,000 Thulium, 20 Cataclysite, 30 Nyxite, 1 Power Core, 2 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Penetration Amp IV</th><td>new</td><td>+8 points of shield penetration</td><td>Assembly from a Penetration Amp III: 1,200 Thulium, 30 Cataclysite, 40 Quorvium, 1 Power Core, 3 Dark Matter Plates</td></tr></tbody></table></div>
+        <ul><li><strong>Penetration</strong> takes points off the absorbance of the ship you hit: the shield takes the share of a laser hit that is the target's absorbance less your penetration. A ship's amp penetration is the mean over its lasers (weighted by their damage), added to the ammo's and the formation's. <strong>A laser hit is cut at 50 points; rockets are still cut at 40.</strong> The best laser (Experimental Fusion Core 10, Stiletto 16 and three Penetration Amp IV 24) reaches exactly 50: the best shield out of the box (80% absorbance) still takes 30% of every hit.</li><li><strong>When a Penetration Amp is worth a slot:</strong> against absorbance above about 95% (Season Store, Forge and Rampart builds). Against the best shield out of the box a Crit Amp of the same tier is still about 10% faster, and a Penetration Amp does not kill aliens faster than a Damage or Crit Amp of its tier. A Forge buff on a Penetration Amp IV is wasted in the best build. <strong>A shield core with no cell (45, 48 or 50% absorbance) is pierced whole by a laser carrying 50 points.</strong></li><li><strong>The cost:</strong> a Damage Amp IV used to be 2,700 Thulium (a Pulse Amp bought for 1,500 and the 1,200 step); it is now a Damage Amp I (10,000 Credits) and 250 + 1,000 + 1,200 = 2,450 Thulium, with materials and 3 Dark Matter Plates. The research tree has 60 technologies (53 before): seven new ones for the amps' steps.</li></ul>
+        <h3>The last tier: Dark Matter Plates</h3>
+        <ul><li><strong>The rule:</strong> the best tier of every chain asks for 3 Dark Matter Plates in place of its Velkonite plates. A plate is pressed in Assembly from 5 Dark Matter (the black hole gives it for N.I.K.E. rockets), a Velkonite and an Orvium Reinforced Plate and 250 Thulium, in 120 seconds.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Item</th><th scope="col">Dark Matter Plates</th><th scope="col">Velkonite plates it asked in 0.4.11</th></tr></thead><tbody><tr><th scope="row">Damage Amp IV</th><td>3</td><td>3 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Crit Amp IV</th><td>3</td><td>3 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Penetration Amp IV</th><td>3</td><td>new in 0.4.12</td></tr><tr><th scope="row">Absorption Shield Cell IV</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Capacity Shield Cell IV</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Impulse Thruster IV</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Momentum Thruster IV</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Heavy Shield Core</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Engine III</th><td>3</td><td>6 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Extra Slots CPU III</th><td>3</td><td>20 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Base CPU II</th><td>3</td><td>8 Velkonite Reinforced Plates</td></tr><tr><th scope="row">Helios Beam</th><td>3</td><td>no Velkonite plates</td></tr></tbody></table></div>
+        <ul><li><strong>What a piece costs:</strong> 3 plates are 15 Dark Matter, 3 Velkonite and 3 Orvium plates and 750 Thulium of pressing. A Wraith with the last tier in every slot (60 pieces) holds 180 plates, 900 Dark Matter.</li><li><strong>Research:</strong> each of the 12 technologies needs the technology <strong>Dark Matter Plate</strong> first (1 day, 10 Dark Matter). A craft needs only its own technology, so what you already researched stays yours, but the plates need the plate's technology: the first start gives it to the holders of a Damage Amp IV or a Crit Amp IV, and everybody else researches it if he has not already (the technology is older than this release: a pilot who researched it for the Forge keeps it).</li><li><strong>Not changed:</strong> the Quantum Laser 3, the Starfire-3, the tier II and III steps, the Jump CPU, the Auto-Repair CPU (no tiers), the 16 drone formations and the ships. The Auction's least prices of these items rose with them.</li></ul>
+        <h3>Every booster is a Booster</h3>
+        <ul><li><strong>The rule:</strong> every shop booster has "Booster" in its name and none has "Amp", so that a booster is never taken for a laser amp. A booster is time on your account, so your boosters' time carries over; the old names:</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Old name</th><th scope="col">New name</th></tr></thead><tbody><tr><th scope="row">Damage Amp</th><td>Laser Damage Booster 1</td></tr><tr><th scope="row">Damage Amp II</th><td>Laser Damage Booster 2</td></tr><tr><th scope="row">Shield Wall</th><td>Shield Wall Booster 1</td></tr><tr><th scope="row">Shield Wall II</th><td>Shield Wall Booster 2</td></tr><tr><th scope="row">Hull Plating</th><td>Hull Plating Booster 1</td></tr><tr><th scope="row">Hull Plating II</th><td>Hull Plating Booster 2</td></tr><tr><th scope="row">Shield Regen</th><td>Shield Regen Booster</td></tr><tr><th scope="row">Experience Kit</th><td>Experience Booster</td></tr><tr><th scope="row">Honor Beacon</th><td>Honor Booster</td></tr><tr><th scope="row">Resource Magnet</th><td>Resource Magnet Booster</td></tr><tr><th scope="row">Loot Luck</th><td>Loot Luck Booster</td></tr></tbody></table></div>
+        <h3>Updates download only what changed</h3>
+        <ul><li><strong>What the game does:</strong> the updater first looks for a signed <strong>patch</strong> built from the copy of the game you have installed; if it cannot use it, for any reason, it downloads the whole package as before, without an error. The patch is one more line of the signed <code>SHA256SUMS</code>, it carries the SHA-256 of what it builds, and the game installs the result only after the same checks as a whole package.</li><li><strong>What it saves</strong> (one release back; sizes of the design, measured on parts of real builds and not yet on whole releases):</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Package</th><th scope="col">Whole</th><th scope="col">Patch</th></tr></thead><tbody><tr><th scope="row">Windows zip</th><td>128.4 MB</td><td>about 2.2 MB</td></tr><tr><th scope="row">Linux tar.gz</th><td>129.2 MB</td><td>about 2.6 MB</td></tr><tr><th scope="row">macOS dmg</th><td>134.0 MB</td><td>about 4 MB</td></tr><tr><th scope="row">Linux AppImage</th><td>124.1 MB</td><td>about 21 MB</td></tr></tbody></table></div>
+        <ul><li><strong>When:</strong> this version is downloaded whole, because the game you have now cannot apply a patch. <strong>The first update by patch is 0.4.12 to 0.4.13.</strong> Patches exist for the newest 8 earlier releases (3 for the AppImage); older versions download the whole package. Hangar copies are updated by Hangar and Steam copies by Steam.</li><li><strong>A switch for one machine:</strong> <code>SPACECORPS_UPDATE_DELTA=0</code> makes the game download the whole package.</li></ul>
+        <h3>Clan Wardens and the swarms</h3>
+        <ul><li><strong>Three times the damage:</strong> all nine Wardens (Brood, Siege and Wrath, each in strengths I, II and III) and their crews (Brood Drones, Siege Escorts, Wrath Guards) fire lasers with three times the damage of a volley. The Wrath Warden still hits half again as hard below half its hull. Hull, shield, speed, range, pay, loot and the Siege Warden's rocket are as they were.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Warden</th><th scope="col">Volley at strength I, II, III in 0.4.11</th><th scope="col">Volley now</th></tr></thead><tbody><tr><th scope="row">Brood Warden</th><td>43, 259, 1,030</td><td>129, 777, 3,090</td></tr><tr><th scope="row">Siege Warden</th><td>16, 97, 615</td><td>48, 291, 1,845</td></tr><tr><th scope="row">Wrath Warden</th><td>32, 194, 820</td><td>96, 582, 2,460</td></tr></tbody></table></div>
+        <ul><li><strong>Bring about seven pilots.</strong> In our tests in the game five pilots lost most of the fights, even with Shield Surge and Emergency Repair, seven won every fight we ran, and ten won in under three minutes and losing one ship. Bring x2 ammo, shoot a Brood Warden's drones first, keep moving against a Siege Warden and use your abilities. A Warden's lasers destroy the ship it fights in one and a half to four minutes.</li><li><strong>A clan too small for its Warden</strong> keeps the 70 points of its four missions and can call the Warden again (two summons a day), but nobody gets the reward for the line, which is paid when the Warden is destroyed, and the clan has all 30 boost levels on season day 18 at the soonest, not on day 12.</li><li><strong>The swarm suites:</strong> a Dormant Pulse's volley goes from 1,920 to 3,840 and a Pirate Scout's from 98 to 147. The Dormant Force and the Pirate Boss are as they were. The Dormant Swarm now takes five Paragons with x2 ammo when 30% of their rockets land (it took four).</li><li><strong>The Clans wiki page and the in-game Help tell all of this,</strong> in 12 languages: what a Warden is, how hard it hits, how many pilots to bring, what a small clan keeps, the pay and the loot.</li><li><strong>Clan boosts show in the Boosters window.</strong> A <strong>Clan boosts</strong> card under your timed boosters lists your clan's tag, then each boost with its bonus and level (for example Lv 3/10), with no timer. The Dashboard's Boosters card and a pilot's profile list them too.</li></ul>
+        <h3>Rockets</h3>
+        <ul><li><strong>Damage ranges:</strong> each shop rocket rolls its damage once, when it is fired, between its own minimum and maximum (before: 80% to 100% of the top number).</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Rocket</th><th scope="col">Before</th><th scope="col">Now</th></tr></thead><tbody><tr><th scope="row">Lancet I</th><td>1,600 to 2,000</td><td>1,700 to 2,100</td></tr><tr><th scope="row">Lancet II</th><td>3,200 to 4,000</td><td>3,500 to 4,200</td></tr><tr><th scope="row">Lancet III</th><td>4,800 to 6,000</td><td>5,200 to 6,200</td></tr><tr><th scope="row">Rivet I</th><td>2,000 to 2,500</td><td>2,200 to 2,700</td></tr><tr><th scope="row">Rivet II</th><td>4,000 to 5,000</td><td>4,500 to 5,250</td></tr><tr><th scope="row">Rivet III</th><td>6,000 to 7,500</td><td>7,000 to 8,000</td></tr><tr><th scope="row">Ember I</th><td>1,120 to 1,400</td><td>1,200 to 1,400</td></tr><tr><th scope="row">Ember II</th><td>2,240 to 2,800</td><td>2,400 to 2,900</td></tr><tr><th scope="row">Ember III</th><td>3,360 to 4,200</td><td>3,500 to 4,500</td></tr><tr><th scope="row">Scatter I</th><td>1,400 to 1,750</td><td>1,500 to 1,750</td></tr><tr><th scope="row">Scatter II</th><td>2,800 to 3,500</td><td>3,000 to 3,500</td></tr><tr><th scope="row">Scatter III</th><td>4,200 to 5,250</td><td>4,500 to 5,500</td></tr></tbody></table></div>
+        <ul><li><strong>Area rockets</strong> (Ember I to III, Scatter I to III) deal 50% of their damage at the edge of the blast (it was 35%, 35% and 30% for the Embers and 30%, 30% and 25% for the Scatters).</li><li><strong>Aliens' rockets are not changed:</strong> the Pirate Boss, the Dormant swarm and the Siege Wardens fire the damage of 0.4.11.</li></ul>
+        <h3>Thrusters</h3>
+        <ul><li><strong>Each tier is better than the one before,</strong> in both families. The Impulse Thrusters keep the bigger flat bonus and the Momentum Thrusters the bigger multiplier.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Thruster</th><th scope="col">0.4.11</th><th scope="col">Now</th></tr></thead><tbody><tr><th scope="row">Impulse Thruster I</th><td>+5 speed, x1.02</td><td>+5 speed, x1.02</td></tr><tr><th scope="row">Impulse Thruster II</th><td>+10 speed, x1.02</td><td>+10 speed, x1.025</td></tr><tr><th scope="row">Impulse Thruster III</th><td>+15 speed, x1.03</td><td>+15 speed, x1.03</td></tr><tr><th scope="row">Impulse Thruster IV</th><td>+17 speed, x1.02</td><td>+16.5 speed, x1.035</td></tr><tr><th scope="row">Momentum Thruster I</th><td>+4 speed, x1.06</td><td>+4.5 speed, x1.06</td></tr><tr><th scope="row">Momentum Thruster II</th><td>+8 speed, x1.07</td><td>+9 speed, x1.07</td></tr><tr><th scope="row">Momentum Thruster III</th><td>+11 speed, x1.09</td><td>+12.5 speed, x1.09</td></tr><tr><th scope="row">Momentum Thruster IV</th><td>+12 speed, x1.11</td><td>+13.1 speed, x1.11</td></tr></tbody></table></div>
+        <h3>Smaller changes</h3>
+        <ul><li><strong>Formation swaps wait 2 seconds everywhere.</strong> Before, inside a safe zone formations changed with no wait. The slots and the list show the wait, and a press too early says "Formation ready in x s". The game's own restore of your remembered formation at the start of a flight counts as a swap.</li><li><strong>Cargo pick-up takes half a second</strong> instead of one.</li><li><strong>Quest items, visits and stays count only on your own company's map</strong> (G-2 for a Galactic pilot, not M-2 or T-2), and the task says "Counts only in G-2". Kills and distance still count on every company's sector.</li><li><strong>The numbers on your target:</strong> the ship under your lock-on circle shows the damage and heal numbers of everybody (yours brighter), from lasers, rockets, drones, aliens and repairs; hits that land together are one number. <strong>Show damage dealt by others on my target</strong> in Settings, Interface, turns the others' numbers off.</li><li><strong>The Group window opens 280 points wide</strong> (it was 250) in new layouts; a width you saved stays.</li><li><strong>The Stiletto turns:</strong> its crossguard pair turns round the blade once in 3 seconds and the blade stays straight. Reduce Motion holds it still.</li><li><strong>Research hover cards:</strong> a technology's tooltip says what the item does, with its numbers and its tier table.</li><li><strong>Dark Matter is easier to find.</strong> A new wiki article, <strong>Dark Matter and Dark Matter Plates</strong>, in the game's 12 languages (the wiki search finds it by "dark matter plate", "plate" and the old word "socket"); the Research Centre now says plain "Dark Matter", and a technology that needs it says where it comes from and has a <strong>Wiki</strong> button.</li><li><strong>The patch notes page on the download site stays small:</strong> the newest release in full and a one-line list of the others (it was 369 KB for 22 releases; with every release up to this one it is about 54 KB).</li></ul>
+        <h3>Your first login, time played and the Metrics page</h3>
+        <ul><li><strong>Your profile</strong> shows your <strong>First login</strong> and your <strong>Time played</strong>, to every pilot who opens it, like your level. For pilots who played before the update, the first login is the day of their first login after it and the time starts at 0 then. The time counts while your game is connected and answering: a game that says nothing for 60 seconds stops counting. Both go when you delete your account.</li><li><strong>Admins</strong> see a <strong>Metrics</strong> section in the Admin page (Overview, Retention, Economy, Gameplay, Technical, Funnel, an Explorer and exports): counts of how the game is used, and, for each account and day, only whether it connected, how many times, for how long and with which build of the game (your game now sends its version and where it came from with its requests). The per-account days are kept for 365 days and deleted with the account; the counts hold no account, name or address.</li></ul>
+        <h3>For administrators and the server</h3>
+        <ul><li><strong>Data steps at the first start:</strong> <code>research-amps-v1</code> (the research of the amps you hold) and <code>market-marketable-v1</code> (the Marketable labels), each once. 19 items are renamed in place, as in 0.4.8.</li><li><strong>New tables:</strong> <code>MarketListings</code>, <code>MarketTrades</code>, <code>AuctionLots</code>, <code>AuctionBids</code>, <code>MarketSeen</code>, <code>MarketBans</code>, <code>MetricsDaily</code>, <code>MetricsHourly</code>, <code>MetricsActive</code> and <code>PilotMetrics</code>, a new column <code>PlayerItems.Marketable</code> and its trigger. A 0.4.11 server ignores them.</li><li><strong>Files:</strong> three new data files, <code>Resources/Market.json</code>, <code>Resources/Auction.json</code> and <code>Resources/Asteroids.json</code>. Admins can hold or return a listing, ban a pilot from the Auction and void a lot, and every admin action is recorded.</li><li><strong>Delta updates:</strong> the release job builds the patches, and a bad published patch can be withdrawn for every game at once.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.11.html" rel="prev">← 0.4.11</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (patchnotes/v0.4.8.part.html) is fetched and put in. The page
+   opened at #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails)
+   the link inside the entry opens the release's own page, patchnotes-v0.4.8.html. */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    return fetch('patchnotes/' + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

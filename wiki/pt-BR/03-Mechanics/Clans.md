@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc29967a9f16c91b -->
+<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -10,9 +10,11 @@ Fundar um clã ou entrar em um permite reunir recursos, melhorar o banco compart
 - Cada etapa concluída paga pontos do clã na hora: 15, 15, 20, 20 e 30, ou seja, **100 pontos** por uma linha inteira.
 - O Líder e os Vice-líderes gastam os pontos em três [bônus](#clan-points-and-boosts) de dez níveis cada: **Dano** (até +5%), **Thulium** (até +10%) e **Créditos** (até +10%).
 - Um clã que conclui todas as linhas comprou todos os níveis no **dia 12 da temporada**. Os pontos e os níveis recomeçam a cada reset.
-- É preciso ter pelo menos **três membros** que tenham feito a sua parte e cerca de cinco pilotos para a luta contra o Guardião.
-- A linha e os bônus exigem um jogo da versão 0.4.10 ou mais recente.
+- É preciso ter pelo menos **três membros** que tenham feito a sua parte e **cerca de sete pilotos** para a luta contra o Guardião: cinco costumam perder e dez vencem com facilidade ([que tripulação é preciso](#how-big-a-crew)). Uma tripulação pequena demais perde a luta: o clã então fica com os **70 pontos** das quatro missões, mas a linha não é concluída e não paga [a sua recompensa](#the-reward-for-you).
+- A sua nave mostra os bônus que tem na janela **Boosters**, em um cartão próprio ([onde vê-los](#the-three-boosts)).
+- A linha e os bônus exigem um jogo da versão 0.4.10 ou mais recente; o cartão na janela Boosters, a 0.4.12 ou mais recente.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
@@ -103,7 +105,7 @@ Todo clã recebe uma **linha diária** por dia: cinco etapas, feitas **em ordem*
 | | **Uma linha concluída** | **100** |
 
 - Só conta a **etapa aberta**. Um abate feito enquanto a etapa 1 está aberta conta para a etapa 1 e para mais nada. Quando a etapa 1 termina, a etapa 2 abre do zero. O que você abate além da meta de uma etapa não é guardado para a seguinte.
-- Uma etapa paga os seus pontos **no momento em que termina**. Um clã que conclui as quatro missões e depois não consegue reunir uma tripulação para o Guardião ainda fica com **70 pontos**.
+- Uma etapa paga os seus pontos **no momento em que termina**. Um clã que conclui as quatro missões e depois não consegue reunir uma tripulação para o Guardião, ou perde a luta, ainda fica com **70 pontos**; [a sua recompensa](#the-reward-for-you) só vem com a linha concluída.
 - O trabalho de todos vai para **uma contagem compartilhada**: os abates do alienígena da etapa aberta e a distância voada por todos os seus membros se somam, então ninguém precisa fazer uma etapa sozinho.
 
 ### O dia {#the-day}
@@ -150,7 +152,7 @@ As linhas seguem um ciclo de sete: a linha do dia de temporada *d* é a de núme
 
 ### A sua recompensa {#the-reward-for-you}
 
-Quando a linha é concluída, cada membro que atingiu o mínimo e ainda está no clã recebe um pagamento, mesmo que esteja offline. O pagamento é fixo: bônus, boosters e o mundo não o alteram.
+Quando a linha é concluída, isto é, quando o Guardião é destruído, cada membro que atingiu o mínimo e ainda está no clã recebe um pagamento, mesmo que esteja offline. Uma linha que termina sem o Guardião não paga recompensa, não importa o que as quatro missões tenham feito. O pagamento é fixo: bônus, boosters e o mundo não o alteram.
 
 | Categoria | Créditos | Thulium |
 | :--- | ---: | ---: |
@@ -162,7 +164,7 @@ Quando a linha é concluída, cada membro que atingiu o mínimo e ainda está no
 
 ## Guardiões do clã {#clan-wardens}
 
-Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos [enxames](/wiki/05-Swarms/Swarms.md) públicos que vagam por um setor: o seu clã **o invoca** e **só o seu clã pode feri-lo**. Três Guardiões se revezam, um por dia: dia 1 **Brood**, dia 2 **Siege**, dia 3 **Wrath**, dia 4 Brood de novo, e assim por diante (o dia 15 é um dia de Wrath). Cada um vem em três forças, **I, II e III**, definidas pela categoria do clã. Um Guardião é um alienígena de um tipo próprio, como as naves de um enxame: ele não conta como Seeker, Phantasm nem qualquer outro alienígena.
+Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos [enxames](/wiki/05-Swarms/Swarms.md) públicos que vagam por um setor: o seu clã **o invoca** e **só o seu clã pode feri-lo**. Três Guardiões se revezam, um por dia: dia 1 **Brood**, dia 2 **Siege**, dia 3 **Wrath**, dia 4 Brood de novo, e assim por diante (o dia 15 é um dia de Wrath). Cada um vem em três forças, **I, II e III**, definidas pela categoria do clã. Um Guardião é um alienígena de um tipo próprio, como as naves de um enxame: ele não conta como Seeker, Phantasm nem qualquer outro alienígena. Os lasers dele batem forte, então um Guardião é uma luta para uma tripulação completa: leve cerca de sete pilotos, porque cinco costumam perder ([que tripulação é preciso](#how-big-a-crew)).
 
 | Guardião | Dias de temporada | Papel | Como luta |
 | :--- | :--- | :--- | :--- |
@@ -176,64 +178,70 @@ Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos 
 - **Quem.** O Líder ou um Vice-líder.
 - **Como.** Em voo: o botão **Invocar aqui** aparece na tela de voo assim que a etapa 4 termina e pede a sua confirmação. Fique fora das zonas seguras, em um setor de corporação **x-2, x-3 ou x-4** (de qualquer corporação) do seu mundo. A aba Operações mostra o Guardião do dia, as invocações restantes e por que o botão está esmaecido, mas um Guardião é invocado a partir da nave.
 - **Onde ele aparece.** De 3.000 a 4.500 unidades da sua nave, no seu mundo: só os pilotos desse mundo conseguem chegar até ele. A aba recomenda **x-2 para um clã Recruta, x-3 para Veterano e x-4 para Elite**. As [regras de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) de sempre do setor escolhido continuam valendo.
-- **Aquecimento.** Ele fica **90 segundos** blindado e passivo («carregando») e todo piloto do clã que está online é avisado de onde. Voe até lá enquanto ele carrega: passados os 90 segundos, ele está ativo.
+- **Aquecimento.** Ele fica **90 segundos** blindado e passivo («carregando») e todo piloto do clã que está online é avisado de onde. Voe até lá enquanto ele carrega: passados os 90 segundos, ele está ativo. Uma cápsula sob o selo de zona segura na tela de voo o acompanha: o nome dele, «carregando» com o tempo que falta, depois «ativo» com o setor e o tempo até ele se retirar, e «furioso» quando um Wrath Warden fica abaixo da metade do casco.
 - **Só o seu clã.** Os tiros de pilotos de qualquer outro clã são ignorados e não o fazem reagir.
 - **Como termina.** Quando ele é destruído. Ele **se retira** 40 minutos depois de ativado, quando o dia acaba, quando nenhum piloto do seu clã está em voo no mapa dele há 2 minutos ou quando o servidor reinicia (essa invocação é devolvida). Um Guardião que se retira custa uma invocação, e a chamada seguinte é o mesmo Guardião com força total.
 
 ### Lutar contra um Guardião {#fighting-a-warden}
 
 - **Um Guardião luta contra o primeiro piloto que o acertou**, como qualquer chefe: deixe a nave mais resistente da tripulação começar e use [Shield Surge e Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Leve munição x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Uma tripulação de cinco vence até com munição x1, mais devagar; uma de três, não.
-- **Brood:** os drones curam o casco dele, e uma tripulação de três que os ignora perde. Atire neles primeiro: um morre em um segundo ou menos sob o fogo de cinco pilotos, e o seguinte chega depois de 8 segundos.
+- **Leve cerca de sete pilotos, com munição x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Cinco costumam perder e dez vencem com facilidade. A tabela abaixo é o melhor caso, e mesmo nele três perdem para qualquer Guardião e quatro só vencem os Siege Warden I e II. Na tabela, a menor tripulação que pode vencer tem de 4 a 5 pilotos com munição x2 e de 6 a 8 com munição x1.
+- **Brood:** os drones curam o casco dele, e uma tripulação que os ignora perde: cinco pilotos que atiram só no Guardião caem todos com cerca de metade dele ainda de pé, e dez levam cerca de um quinto a mais de tempo. Atire neles primeiro: um morre em um segundo ou menos sob o fogo de cinco pilotos, e o seguinte chega depois de 8 segundos.
 - **Siege:** os foguetes dele são retos e sem guia, então uma nave que não para de se mover desvia da maioria. Não pare de se mover e revezem-se como alvo.
 - **Wrath:** quando o casco dele cai abaixo da metade, cada rajada acerta uma vez e meia mais forte, então a segunda metade da luta é a perigosa. Derrube a primeira metade rápido, mantenha os escudos de pé e guarde o Emergency Repair para a fúria.
 
 ### Que tripulação é preciso {#how-big-a-crew}
 
 > [!NOTE]
-> Estes tempos são **calculados** a partir dos números abaixo, não medidos no jogo: uma tripulação nas naves e no equipamento para os quais a categoria foi feita, todos atirando no Guardião. Um traço significa que não calculamos.
+> Estes tempos são **calculados** a partir dos números abaixo, não medidos no jogo. A tripulação está nas naves e no equipamento para os quais a categoria foi feita, e a tabela é o seu **melhor caso**: cada piloto usa Shield Surge e Emergency Repair assim que ficam prontos, e a tripulação atira primeiro nos ajudantes do Guardião quando isso é melhor. O Guardião e os seus ajudantes atiram todos no piloto que acertou primeiro e ninguém desvia. **Uma luta de verdade é mais dura que a tabela.** A linha dos cinco pilotos é apertada mesmo no melhor caso (uma vitória que custa uma ou duas naves), e nas mesmas lutas feitas no próprio jogo, com pilotos controlados por script, cinco pilotos perderam a maioria das lutas que fizemos, mesmo usando as duas habilidades; sete venceram todas as suas e dez venceram com facilidade. Uma tripulação de cinco pilotos que não usa nenhuma habilidade e só atira no Guardião perde para sete dos nove Guardiões; sete pilotos que fazem o mesmo vencem oito deles (todos menos o Brood Warden III, que os drones curam) e perdem de uma a três naves, e dez vencem os nove.
+
+A tabela é o melhor caso, com munição x2; no jogo, cinco pilotos costumam perder e cerca de sete vencem.
 
 | Tripulação | Com munição x2 | Com munição x1 |
 | :--- | :--- | :--- |
-| 2 pilotos | perdem para Brood e Siege; vencem Wrath em cerca de 17 minutos | – |
-| 3 pilotos | vencem em 9 a 10 minutos, por pouco: o casco do tanque termina baixo e um piloto pode cair | perdem |
-| 5 pilotos | vencem em cerca de 5 minutos | vencem em 12 a 14 minutos |
-| 7 pilotos | vencem em cerca de 3,4 minutos | – |
-| 10 pilotos | vencem em cerca de 2,3 minutos | – |
+| 3 pilotos | perdem para todos os Guardiões, depois de 4,7 a 13,8 minutos; o Guardião fica com algo entre um quarto e dois terços do casco e do escudo | perdem |
+| 4 pilotos | só vencem os Siege Warden I e II, em cerca de 8 minutos, perdendo 1 nave | perdem |
+| 5 pilotos | vencem todos os Guardiões em 5,3 a 6,5 minutos, perdendo de 1 a 2 naves | perdem |
+| 7 pilotos | vencem todos os Guardiões em 3,3 a 3,6 minutos, perdendo de 0 a 1 naves | vencem todos os Guardiões, menos os Brood Warden II e III, em 8,7 a 12,3 minutos, perdendo de 1 a 4 naves |
+| 10 pilotos | vencem todos os Guardiões em 2,2 a 2,4 minutos, perdendo de 0 a 1 naves | vencem todos os Guardiões em 5,1 a 5,6 minutos, perdendo de 1 a 2 naves |
 
-Uma tripulação de categoria inferior à do Guardião perde: uma tripulação Recruta de cinco não consegue matar um Guardião Veterano, nem uma Veterana um Guardião Elite. O Guardião do **seu** clã sempre combina com a **sua** categoria.
+No melhor caso, a menor tripulação que vence com munição x2 tem de **4 pilotos** (contra os Siege Warden I e II) a **5** (contra os outros sete) e perde de **1 a 2** naves ao fazer isso; com munição x1, tem de **6 a 8** pilotos e perde de 2 a 4. Uma tripulação de **sete** vence todos os Guardiões com munição x2 e perde no máximo uma nave no melhor caso. Os lasers de um Guardião acertam com dezenas, até mais de cem, por rajada na força I (de 48 a 129) e com milhares na força III (de 1.845 a 3.090), e os seus ajudantes somam: a nave contra a qual ele luta cai entre um minuto e meio e quatro minutos, e então ele passa para a seguinte, de modo que até uma tripulação que vence perde naves.
+
+A tabela vale para uma tripulação com o equipamento da própria categoria do Guardião. Naves mais fracas vão pior: dez pilotos com equipamento de Recruta não conseguem matar um Guardião Veterano, nem dez com equipamento de Veterano um Guardião Elite. O Guardião do **seu** clã sempre combina com a **sua** categoria, que os cinco melhores pilotos do clã definem, então leve-os.
+
+**Um clã pequeno demais para o seu Guardião** (menos de cerca de sete pilotos naquele dia) não fica de fora. As quatro missões pagam os seus **70 pontos** aconteça o que acontecer com o Guardião, os pontos compram bônus e o clã pode invocar o Guardião de novo se ainda tiver uma invocação (são duas por dia): se a tripulação cai e fica longe, o Guardião se retira, o que custa uma invocação, e a chamada seguinte o traz de volta com força total. Mas a linha não é concluída, então ninguém recebe [a sua recompensa](#the-reward-for-you), e um clã que nunca mata o seu Guardião tem os 30 níveis de bônus no dia de temporada 18 no mais cedo, não no dia 12 ([quanto tempo leva](#how-long-it-takes)).
 
 ### Os números dos Guardiões {#warden-numbers}
 
-Os Guardiões têm os mesmos números em todos os mundos (os de Alpha), e o pagamento deles também. Cada drone, escolta ou guarda tem os números da segunda tabela e fica junto do Guardião: um Brood Drone cura o casco do Guardião, um Siege Escort ou um Wrath Guard atira com lasers.
+Os Guardiões têm os mesmos números em todos os mundos (os de Alpha), e o pagamento deles também. Cada drone, escolta ou guarda tem os números da segunda tabela e fica junto do Guardião: um Brood Drone cura o casco do Guardião, um Siege Escort ou um Wrath Guard atira com lasers. Uma rajada são os tiros de todos os lasers de uma nave em um segundo, sorteados entre 80 e 100% do número mostrado; um Wrath Warden com menos da metade do casco bate uma vez e meia mais forte. O Guardião e os seus ajudantes atiram todos no piloto contra quem o Guardião luta, então as rajadas se somam: um Brood Warden III com os seus quatro drones põe até 4.350 por segundo em uma única nave. O [foguete Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) do Siege Warden não é sorteado: ele acerta com no máximo **2.500** na força I, **5.000** na II e **7.500** na III, enquanto o Rivet de um piloto é sorteado entre um número mínimo e um máximo. Ele vai em linha reta, então uma nave que não para de se mover não é atingida.
 
 | Guardião | Casco | Escudo | Dano dos lasers (uma salva por segundo) | Velocidade | Alcance dos lasers | Se conserta sozinho (casco por segundo) | Foguete e segundos entre os tiros |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166.000 | 136.000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288.000 | 236.000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1.060.000 | 870.000 | 1.030 | 90 | 800 | – | – |
-| Siege Warden I | 143.000 | 117.000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248.000 | 203.000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915.000 | 745.000 | 615 | 110 | 800 | 1.385 | Rivet III: 8 |
-| Wrath Warden I | 163.000 | 133.000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282.000 | 231.000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1.040.000 | 850.000 | 820 | 90 | 900 | 1.385 | – |
+| Brood Warden I | 166.000 | 136.000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288.000 | 236.000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1.060.000 | 870.000 | 3.090 | 90 | 800 | – | – |
+| Siege Warden I | 143.000 | 117.000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248.000 | 203.000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915.000 | 745.000 | 1.845 | 110 | 800 | 1.385 | Rivet III: 8 |
+| Wrath Warden I | 163.000 | 133.000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282.000 | 231.000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1.040.000 | 850.000 | 2.460 | 90 | 900 | 1.385 | – |
 
 | Ajudante | Quantos | Casco | Escudo | Dano dos lasers (uma salva por segundo) | Velocidade | Cura o Guardião (casco por segundo) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1.200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4.000 | 3.500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4.300 | 3.500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7.400 | 6.100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27.500 | 22.500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4.900 | 4.000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8.500 | 6.900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31.000 | 25.500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1.200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4.000 | 3.500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4.300 | 3.500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7.400 | 6.100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27.500 | 22.500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4.900 | 4.000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8.500 | 6.900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31.000 | 25.500 | 495 | 180 | – |
 
 ### Pagamento e saque {#warden-pay-and-loot}
 
-Um Guardião paga o mesmo que uma pilha do alienígena pesado da categoria: **30 Phantasms** para um Guardião I, **24 Bulwarks** para um II e **16 Goombahs** para um III. É um bolo só, dividido por dano entre os pilotos que causaram pelo menos 5% do dano, do mesmo jeito que com o líder de um [enxame](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Seus [bônus do clã](#what-the-boosts-apply-to) valem para a sua parte. Pela nossa conta, os créditos cobrem a munição x1 que uma tripulação de cinco queima, e a munição x2 custa mais Thulium do que o Guardião paga: é uma luta pelos pontos e pela caixa.
+Um Guardião paga o mesmo que uma pilha do alienígena pesado da categoria: **30 Phantasms** para um Guardião I, **24 Bulwarks** para um II e **16 Goombahs** para um III. É um bolo só, dividido por dano entre os pilotos que causaram pelo menos 5% do dano, do mesmo jeito que com o líder de um [enxame](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Seus [bônus do clã](#what-the-boosts-apply-to) valem para a sua parte. Pela nossa conta, os créditos cobrem mais ou menos a munição x1 que a menor tripulação capaz de vencer queima, e a munição x2 custa mais Thulium do que o Guardião paga: é uma luta pelos pontos e pela caixa. O pagamento não mudou na 0.4.12, quando os lasers dos Guardiões ficaram mais fortes: o total não cresce com o dano que você leva nem com as naves que perde.
 
 | Força do Guardião | Créditos | Thulium | Experiência (XP) | Honra |
 | :--- | ---: | ---: | ---: | ---: |
@@ -279,6 +287,8 @@ Os pontos do clã pertencem ao clã. Cada etapa que o clã conclui soma ao seu s
 | **Thulium da frota** | 10 | +1% | +10% | Thulium de abates e recompensas de missões |
 | **Créditos da frota** | 10 | +1% | +10% | Créditos de abates e recompensas de missões |
 
+**Onde vê-los.** Em voo, a janela **Boosters** lista os bônus que a sua nave tem em um cartão próprio, **Bônus da frota**, sob os boosters com tempo: a tag do seu clã e uma linha para cada bônus com o seu valor e o seu nível (Nív. 3/10). Eles não têm cronômetro, porque um bônus do clã dura enquanto você estiver no clã. Passe o mouse sobre uma linha para ver em que ele age. Um clã que ainda não comprou nada mostra «Sua frota ainda não tem bônus», e um piloto sem clã não vê o cartão. O cartão Boosters do **Painel** e o perfil de um piloto também os listam. O cartão mostra o que a sua nave aplica, como o servidor informa ao jogo, então um nível que os oficiais acabaram de comprar aparece na hora. Um jogo anterior à 0.4.12 aplica os bônus e não mostra o cartão.
+
 ### Preços {#boost-prices}
 
 O preço de um nível é **22 pontos do clã mais 4 por cada nível anterior**, e é o mesmo para os três bônus: 400 pontos por um bônus, **1.200 pelos três**, o que dá doze linhas concluídas.
@@ -300,13 +310,13 @@ O preço de um nível é **22 pontos do clã mais 4 por cada nível anterior**, 
 
 - **Dano da frota** soma a todo o dano de laser que a sua nave causa: em alienígenas, naves de enxame, Guardiões e outros pilotos. Ele **não vale para foguetes**, de nenhum tipo.
 - **Thulium da frota e Créditos da frota** somam ao pagamento dos abates de alienígenas (os seus, a sua parte de um chefe e a sua parte de um abate em grupo) e à recompensa de cada missão que você resgata, de nível, da estação ou Desafio ([Missões](/wiki/03-Mechanics/Quests.md#rewards)). Eles **não valem para** as fazendas do [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm), os pagamentos do banco, os códigos de bônus nem a recompensa da linha diária.
-- **Eles se somam aos seus outros bônus** (boosters como o Damage Amp, os bônus da [loja de bônus permanentes](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): as porcentagens se somam. Os amplificadores de laser (Amps) não estão entre eles: somam dano fixo, e as porcentagens valem para o total. Cinco pontos de Dano da frota ao lado de 50 de outras fontes dão 55, que é 3,3% mais dano do que antes.
+- **Eles se somam aos seus outros bônus** (boosters como o Laser Damage Booster, os bônus da [loja de bônus permanentes](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): as porcentagens se somam. Os amplificadores de laser (Amps) não estão entre eles: somam dano fixo, e as porcentagens valem para o total. Cinco pontos de Dano da frota ao lado de 50 de outras fontes dão 55, que é 3,3% mais dano do que antes.
 - **Uma fração não se perde.** Um bônus muitas vezes soma menos de uma unidade a um abate: 10% dos 4 Thulium de um Seeker são 0,4. O jogo guarda a fração e a paga junto com as unidades dos seus próximos abates, de modo que dez Seekers pagam os 4 que lhe são devidos. A fração que você tem na mão se perde quando você sai do jogo.
 - **Entrar e sair.** Um piloto tem os bônus a partir do momento em que entra no clã e os perde no momento em que sai, é expulso ou o clã é dissolvido. O clã mantém os seus níveis.
 
 ### Quanto tempo leva {#how-long-it-takes}
 
-Um clã que conclui todas as linhas ganha 100 pontos por dia. Se os oficiais compram igualmente nos três bônus, ele tem **4 níveis depois da primeira linha, 10 depois da terceira, 16 depois da quinta e todos os 30 no dia de temporada 12**. Quatorze linhas já acabaram quando o dia 15 começa, então um clã assim tem duas linhas de folga. Um dia que não é concluído ainda paga as etapas feitas. Depois do último nível, a linha continua rodando e continua pagando a sua recompensa; os pontos continuam somando ao que o clã ganhou nesta temporada, o que a dica dos pontos do clã no cartão Bônus da frota mostra.
+Um clã que conclui todas as linhas ganha 100 pontos por dia. Se os oficiais compram igualmente nos três bônus, ele tem **4 níveis depois da primeira linha, 10 depois da terceira, 16 depois da quinta e todos os 30 no dia de temporada 12**. Quatorze linhas já acabaram quando o dia 15 começa, então um clã assim tem duas linhas de folga. Um dia que não é concluído ainda paga as etapas feitas: um clã que cumpre as quatro missões mas nunca mata o seu Guardião ganha 70 pontos por dia e tem os 30 níveis no dia de temporada 18 no mais cedo. Depois do último nível, a linha continua rodando e continua pagando a sua recompensa; os pontos continuam somando ao que o clã ganhou nesta temporada, o que a dica dos pontos do clã no cartão Bônus da frota mostra.
 
 ### Pontos e o reset {#clan-points-and-the-wipe}
 

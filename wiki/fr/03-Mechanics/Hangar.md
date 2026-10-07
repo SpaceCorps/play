@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6d1c3f189d0e637 -->
+<!-- wiki-i18n source: 9c17f4775a1e2000 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -23,8 +23,10 @@ Les réparations en cours ne vous bloquent pas. Partout ailleurs, la fenêtre Ha
 - **L’une ou l’autre configuration.** Vous pouvez préparer la config 2 en pilotant avec la config 1, puis basculer avec la touche Changer config. Un bouton **Piloter avec config** du hangar fait le même changement.
 - **N’importe quel vaisseau.** Activez un autre vaisseau et vous le pilotez depuis l’endroit où vous êtes. Le modèle de votre vaisseau change devant tous ceux qui sont à proximité.
 - **Un nouveau bouclier, moteur ou cœur adaptatif démarre vide**, comme à la station : la charge de bouclier de sa configuration est vide jusqu’à ce qu’elle se recharge.
-- **Formations de drones.** La vue Drones liste sous vos drones les formations que vous possédez. Elles ne se montent pas : en vol, vous en faites glisser une depuis la liste Formations de la barre rapide sur un emplacement, et le clic ou la touche de cet emplacement la porte, sans attente dans une zone sûre ([Formations de drones](/wiki/03-Mechanics/Formations.md)).
+- **Formations de drones.** La vue Drones liste sous vos drones les formations que vous possédez. Elles ne se montent pas : en vol, vous en faites glisser une depuis la liste Formations de la barre rapide sur un emplacement, et le clic ou la touche de cet emplacement la porte, avec la même attente de 2 secondes que partout, zone sûre comprise ([Formations de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** Les quatre vaisseaux ordinaires, le Protos, le Kitefin, l’Ostirion et le Nomad (ceux avec lesquels vous commencez ou que vous achetez), ont 2 emplacements extras par configuration ; les quatre vaisseaux que vous fabriquez à l’Assemblage, le Paragon, l’Ironclad, le Wraith et le Storm, en ont 3. Les Extra Slots CPU de votre Skylab en ajoutent 3, 5 ou 7 : 5, 7 ou 9 sur les ordinaires et 6, 8 ou 10 sur ceux que l’on fabrique ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Avec la 0.4.10, un troisième extra sur un vaisseau ordinaire a été retiré et placé dans votre inventaire : rien n’a été supprimé, et vous avez reçu un message dans le chat.
+
+Vendre ne fait pas partie de la fenêtre : le marteau qui ouvre les [Enchères](/wiki/03-Mechanics/Auction.md) appartient au Hangar de la station, et les Enchères sont elles-mêmes une page de la station.
 
 ## Changer de vaisseau {#changing-ship}
 

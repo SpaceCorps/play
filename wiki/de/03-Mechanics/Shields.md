@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 \[\text{Schildanteil} = \text{Begrenzen}(\text{Absorption} - \text{Durchdringung};\ 0;\ 100\%)\]
 
 - Die Schilde nehmen höchstens `round(damage x share)` des Treffers; die Hülle nimmt den Rest. Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter, und stehen die Schilde auf 0, trifft der gesamte Schaden direkt die HP.
-- **Woher die Durchdringung kommt**: die *Schilddurchdringung* einer direkten Rakete (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; Flächenschaden hat keine, siehe [Raketen](/wiki/06-Items/Rockets.md)) und die der Lasermunition (Ultra Core 5 %, Experimental Fusion Core 10 %; siehe [Laser & Munition](/wiki/06-Items/Lasers.md)). Aliens haben keine, ebenso wenig die Munition x1 und x2.
-- **Beispiele**: 80 % Absorption gegen eine Lancet III (35 %): Die Schilde nehmen 45 % des Treffers, die Hülle 55 %. 100 % dagegen: 65 % und 35 %. 112 % gegen 12 % Durchdringung: der ganze Treffer. 45 % (ein Light Shield Core allein) gegen 35 %: 10 % auf den Schild, der Rest auf die Hülle. Keine Rakete durchdringt einen Light Shield Core vollständig.
+- **Woher die Durchdringung kommt**: die *Schilddurchdringung* einer direkten Rakete (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; Flächenschaden hat keine, siehe [Raketen](/wiki/06-Items/Rockets.md)) und die der Lasermunition (Ultra Core 5 %, Experimental Fusion Core 10 %; siehe [Laser & Munition](/wiki/06-Items/Lasers.md)). Aliens haben keine, ebenso wenig die Munition x1 und x2. Ein Lasertreffer nimmt außerdem die Penetration Amps der Laser des Schützen (+2 % bis +8 % pro Slot, der Mittelwert über seine Laser) und die Durchdringung einer Drohnenformation (Gemini +9 %, Stiletto +16 %): Die Summe endet bei **50 %** für einen Laser und bei 40 % für eine Rakete ([so setzt sich ein Lasertreffer zusammen](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Beispiele**: 80 % Absorption gegen eine Lancet III (35 %): Die Schilde nehmen 45 % des Treffers, die Hülle 55 %. 100 % dagegen: 65 % und 35 %. 112 % gegen 12 % Durchdringung: der ganze Treffer. 45 % (ein Light Shield Core allein) gegen 35 %: 10 % auf den Schild, der Rest auf die Hülle. Keine Rakete durchdringt einen Light Shield Core vollständig. Der beste Laser (50 %) schafft es: Gegen ihn nimmt der beste Schild (80 %) 30 % des Treffers und die Hülle 70 %, ein Light Shield Core allein (45 %) nimmt nichts.
 - Aliens haben keinen Absorptionswert: Sie teilen jeden Treffer 80 % / 20 % auf, abzüglich der Durchdringung des Treffers.
 - Der Schaden einer Siphon Battery geht allein vom Schild ab: Absorption und Durchdringung spielen dabei keine Rolle.
 
@@ -57,9 +57,9 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 
 Jeder Schild-Boost erhöht einen der drei Werte und steht im Fenster Booster unter seiner eigenen Art:
 
-- **Kapazität** (maximale Schildpunkte): die Booster Shield Wall und der dauerhafte Schildkapazitäts-Boost.
+- **Kapazität** (maximale Schildpunkte): Shield Wall Booster 1 und 2 und der dauerhafte Schildkapazitäts-Boost.
 - **Absorption** (der Anteil eines Treffers, den deine Schilde nehmen): der dauerhafte Schildabsorptions-Boost (+0,1 Punkte pro Level, höchstens +10 Punkte).
-- **Aufladung** (pro Sekunde wiederhergestellte Schildpunkte): der Booster Shield Regen.
+- **Aufladung** (pro Sekunde wiederhergestellte Schildpunkte): der Shield Regen Booster.
 
 Die Zahlen stehen unter [Booster](/wiki/06-Items/Boosters.md).
 

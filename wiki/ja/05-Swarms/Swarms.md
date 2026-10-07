@@ -15,7 +15,7 @@
 ## 3つの群れ {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 群れ | 場所 | 数 | リーダー | 配下 | 復活 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 ## すべての群れのルール {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - 群れはシーズン4日目からワイプまで現れます。
 - 群れの艦が攻撃されると、その艦から1,500ユニット以内にいる同じ群れの艦が、最初に攻撃したパイロットに対して戦いに加わります。
@@ -46,7 +46,7 @@
 ワールドは、ほかのすべてのエイリアンと同じように群れを強化します（[ワールド](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）。群れの艦の船体、シールド、シールドリチャージ、レーザーのダメージ、ロケットのダメージ、回復は、Alpha の数値に下の強さを掛けたもので、撃破の報酬には下の報酬倍率が掛かります。速度、射程、ドロップはどのワールドでも同じです。各記事に、3つのワールドそれぞれでの各艦の数値が載っています。
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | ワールド | 強さ | 報酬倍率 |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 撃破はすべて、その艦自身の名前でキルの統計に数えられ、ランキングに PvE ポイントを加えます。
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 群れの艦 | 群れ | 撃破1回あたりの PvE ポイント |
 | :--- | :--- | ---: |

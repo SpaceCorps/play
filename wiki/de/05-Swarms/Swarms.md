@@ -15,7 +15,7 @@ Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen e
 ## Die drei Schwärme {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Schwarm | Wo | Wie viele | Anführer | Begleiter | Kehrt zurück |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe
 ## Die Regeln jedes Schwarms {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Die Schwärme erscheinen ab Saisontag 4 bis zum Wipe.
 - Wird ein Schwarmschiff getroffen, greifen die Schiffe seines Schwarms im Umkreis von 1.500 Einheiten gegen den ersten Piloten ein, der es getroffen hat.
@@ -46,7 +46,7 @@ Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe
 Die Welt skaliert einen Schwarm wie jedes Alien ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): Hülle, Schild, Schildaufladung, Laserschaden, Raketenschaden und Heilung eines Schwarmschiffs sind die Werte von Alpha mal der Stärke unten, und ein Abschuss zahlt die Bezahlung unten. Tempo, Reichweite und Beute sind in jeder Welt gleich. Die Artikel nennen die Werte jedes Schiffs in allen drei Welten.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Welt | Stärke | Bezahlung |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Ein gewöhnliches Alien zahlt an den Piloten, der es zuerst getroffen hat ([Kamp
 Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatistik gezählt und bringt PvE-Punkte für deine Rangliste:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Schwarmschiff | Schwarm | PvE-Punkte pro Abschuss |
 | :--- | :--- | ---: |

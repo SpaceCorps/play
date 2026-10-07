@@ -1,8 +1,16 @@
-<!-- wiki-i18n source: 615b51aa98d6a27d -->
+<!-- wiki-i18n source: 8e594dc8a7d6e482 -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
 Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekunder som träffar mycket hårdare än en lasersalva. Tolv raketer i fyra typer, tre nivåer vardera, ytterligare två som bara Monteringen tillverkar, och **en omladdningstimer på 5 sekunder som alla delar**, vilken du än avfyrar. De vanliga och sällsynta raketerna köps med **krediter**; de fyra episka raketerna köps med **Thulium**. En [drönarformation](/wiki/03-Mechanics/Formations.md) kan höja en raket skada och göra den timern längre eller kortare: se [Drönarformationer och raketer](#drone-formations-and-rockets).
+
+## På en minut {#in-one-minute}
+
+- **Tolv raketer att köpa.** Fyra sorter (Lancet, Rivet, Ember, Scatter), tre nivåer var. De vanliga och sällsynta kostar krediter, de episka Thulium. Ytterligare två raketer, N.U.K.E. och N.I.K.E., tillverkas i Monteringen.
+- **Varje raket slumpar sin skada.** När du avfyrar den väljer spelet ett tal mellan raketens lägsta och högsta skada (en Lancet I: 1 700 till 2 100). Ditt skepp, dina lasrar, förstärkare och boosters ändrar inget, bara en drönarformation gör det. De raketer som utomjordingar skjuter slumpar inte: de gör ett fast tal ([Mot utomjordingarna](#against-the-aliens)).
+- **Explosioner är starkast i mitten.** Ember- och Scatter-raketer briserar och skadar varje skepp inom ringen: hela talet i mitten, hälften av det vid kanten.
+- **En timer för alla.** Efter varje avfyrning väntar du 5 sekunder till nästa, vilken raket det än är.
+- **Målsökande eller rak.** En målsökande raket (Lancet, Ember) behöver ett mål du har valt. En rak (Rivet, Scatter) flyger mot din muspekare.
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -45,58 +53,59 @@ Varje typ är en **familj** som har namn efter sin vanliga raket, och nivån är
 
 - **Målsökande** raketer kräver ett valt mål inom sin **låsräckvidd** när de avfyras. De styr efter det med begränsad svängtakt, så ett snabbt skepp långt borta kan köra ifrån en billig raket. Om målet förstörs, lämnar området eller når en säker zon fortsätter raketen rakt fram och väljer inget nytt.
 - **Raka** raketer behöver inget mål och ignorerar det du har valt: de flyger alltid mot din **markör**, mot punkten under den i flygvyn. **Klicka på platsen för en rak raket för att armera den** (platsen får en vit ram och ett hårkors, och din muspekare blir ett hårkors över rymden), sedan **klicka i rymden**: raketen flyger mot punkten du klickade på och ditt skepp stannar där det är. Esc, ett högerklick eller samma plats igen släpper den. Om raketerna fortfarande laddas om säger klicket bara det, och raketen förblir armerad. Siffertangenterna och **Avfyra raket** skjuter direkt mot den sista punkt markören hade i flygvyn; innan markören har varit där flyger de dit ditt skepp **pekar**. De flyger rakt, så ett skepp som korsar i fart kan väja undan dem.
-- En raket med **enkelmål** träffar det första skepp den får träffa (en målsökande bara sitt mål). En raket med **områdesskada** exploderar bredvid det första skepp den möter, vid den punkt du siktade på, eller där dess flykt tar slut, och skadar varje skepp inom sin **explosionsradie**: full skada i mitten, mindre mot kanten. Ringen som explosionen ritar på kartan är dess exakta räckvidd.
+- En raket med **enkelmål** träffar det första skepp den får träffa (en målsökande bara sitt mål). En raket med **områdesskada** exploderar bredvid det första skepp den möter, vid den punkt du siktade på, eller där dess flykt tar slut, och skadar varje skepp inom sin **explosionsradie**: full skada i mitten, hälften av den vid kanten. Ringen som explosionen ritar på kartan är dess exakta räckvidd.
+- **Asteroider.** En raket som avfyras mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) träffar den asteroiden och inget annat, och en raket som inte avfyras mot en flyger igenom alla asteroider. De tolv raketerna i butiken och N.U.K.E. kan spränga en; N.I.K.E. kan det inte.
 
 ## De tolv raketerna {#the-twelve-rockets}
 
-Varje raket har **sin egen skada, som slumpas fram när du avfyrar den**: mellan **80 % och 100 %** av dess högsta tal, och tabellen visar den lägsta och den högsta. Den beror inte på ditt skepp, dina lasrar, dina Damage Amps, dina boosters, din ammunition eller dina drönare, och en raket ger aldrig kritiska träffar. Bara en **drönarformation** ändrar den: tabellen här anger skadan utan formation (se [Drönarformationer och raketer](#drone-formations-and-rockets)). En raket med enkelmål gör den framslumpade skadan på det skepp den träffar; en explosion slumpar en gång och gör den på **varje skepp inom den**, hela talet i mitten och mindre mot kanten. *Sköldgenomträngning* dras av från målets absorption för den träffen (ett skepps absorption är den andel av en träff som dess sköldar tar, se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)): en Lancet III:s 35 % lämnar sköldarna på ett skepp med 80 % 45 % av träffen och skickar de övriga 55 % till skrovet. En explosion har ingen.
+Varje raket har **sin egen skada, som slumpas fram när du avfyrar den**: var som helst mellan dess lägsta och dess högsta tal, och tabellen visar båda och medelvärdet. Den beror inte på ditt skepp, dina lasrar och deras förstärkare, dina boosters, din ammunition eller dina drönare, och en raket ger aldrig kritiska träffar. Bara en **drönarformation** ändrar den: tabellen här anger skadan utan formation (se [Drönarformationer och raketer](#drone-formations-and-rockets)). En raket med enkelmål gör den framslumpade skadan på det skepp den träffar; en explosion slumpar en gång och gör den på **varje skepp inom den**, hela talet i mitten och hälften av det vid kanten. *Sköldgenomträngning* dras av från målets absorption för den träffen (ett skepps absorption är den andel av en träff som dess sköldar tar, se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)): en Lancet III:s 35 % lämnar sköldarna på ett skepp med 80 % 45 % av träffen och skickar de övriga 55 % till skrovet. En explosion har ingen.
 
-| Namn | Typ | Sällsynthet | Skada | Sköldgenomträngning | Explosionsradie | Låsräckvidd | Räckvidd | Fart | Pris | Högst så många kan du bära |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Målsökande, enkelmål | Vanlig | 1 600–2 000 | 10 % | – | 700 | 1 040 | 520 | 500 krediter | 5 000 |
-| **Lancet II** | Målsökande, enkelmål | Sällsynt | 3 200–4 000 | 25 % | – | 1 000 | 1 584 | 660 | 800 krediter | 2 000 |
-| **Lancet III** | Målsökande, enkelmål | Episk | 4 800–6 000 | 35 % | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Rak, enkelmål | Vanlig | 2 000–2 500 | 5 % | – | – | 1 080 | 900 | 500 krediter | 5 000 |
-| **Rivet II** | Rak, enkelmål | Sällsynt | 4 000–5 000 | 25 % | – | – | 1 120 | 700 | 800 krediter | 2 000 |
-| **Rivet III** | Rak, enkelmål | Episk | 6 000–7 500 | 35 % | – | – | 1 100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Målsökande, områdesskada | Vanlig | 1 120–1 400 | – | 170 | 700 | 1 000 | 500 | 500 krediter | 5 000 |
-| **Ember II** | Målsökande, områdesskada | Sällsynt | 2 240–2 800 | – | 230 | 920 | 1 500 | 600 | 800 krediter | 2 000 |
-| **Ember III** | Målsökande, områdesskada | Episk | 3 360–4 200 | – | 300 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Rak, områdesskada | Vanlig | 1 400–1 750 | – | 210 | – | 1 088 | 640 | 500 krediter | 5 000 |
-| **Scatter II** | Rak, områdesskada | Sällsynt | 2 800–3 500 | – | 290 | – | 1 080 | 540 | 800 krediter | 2 000 |
-| **Scatter III** | Rak, områdesskada | Episk | 4 200–5 250 | – | 400 | – | 1 092 | 420 | 5 Thulium | 500 |
+| Namn | Typ | Sällsynthet | Skada | Medel | Sköldgenomträngning | Explosionsradie | Låsräckvidd | Räckvidd | Fart | Pris | Högst så många kan du bära |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
+| **Lancet I** | Målsökande, enkelmål | Vanlig | 1 700–2 100 | 1 900 | 10 % | – | 700 | 1 040 | 520 | 500 krediter | 5 000 |
+| **Lancet II** | Målsökande, enkelmål | Sällsynt | 3 500–4 200 | 3 850 | 25 % | – | 1 000 | 1 584 | 660 | 800 krediter | 2 000 |
+| **Lancet III** | Målsökande, enkelmål | Episk | 5 200–6 200 | 5 700 | 35 % | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
+| **Rivet I** | Rak, enkelmål | Vanlig | 2 200–2 700 | 2 450 | 5 % | – | – | 1 080 | 900 | 500 krediter | 5 000 |
+| **Rivet II** | Rak, enkelmål | Sällsynt | 4 500–5 250 | 4 875 | 25 % | – | – | 1 120 | 700 | 800 krediter | 2 000 |
+| **Rivet III** | Rak, enkelmål | Episk | 7 000–8 000 | 7 500 | 35 % | – | – | 1 100 | 500 | 5 Thulium | 500 |
+| **Ember I** | Målsökande, områdesskada | Vanlig | 1 200–1 400 | 1 300 | – | 170 | 700 | 1 000 | 500 | 500 krediter | 5 000 |
+| **Ember II** | Målsökande, områdesskada | Sällsynt | 2 400–2 900 | 2 650 | – | 230 | 920 | 1 500 | 600 | 800 krediter | 2 000 |
+| **Ember III** | Målsökande, områdesskada | Episk | 3 500–4 500 | 4 000 | – | 300 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
+| **Scatter I** | Rak, områdesskada | Vanlig | 1 500–1 750 | 1 625 | – | 210 | – | 1 088 | 640 | 500 krediter | 5 000 |
+| **Scatter II** | Rak, områdesskada | Sällsynt | 3 000–3 500 | 3 250 | – | 290 | – | 1 080 | 540 | 800 krediter | 2 000 |
+| **Scatter III** | Rak, områdesskada | Episk | 4 500–5 500 | 5 000 | – | 400 | – | 1 092 | 420 | 5 Thulium | 500 |
 
-Ju dyrare nivån är, desto hårdare träffar en raket, desto längre når den, desto mer sköldgenomträngning har den och desto färre kan du bära; de dyra ger också mest skada för pengarna. En rak raket gör **25 % mer** än den målsökande raketen av samma nivå och samma slag för samma pris, eftersom du måste sikta den. En explosion gör 70 % av vad raketen med enkelmål i dess nivå gör, på varje skepp den täcker. Skadan i en explosion är störst i mitten; den faller till 25 till 35 % vid kanten. Ett skott gör i genomsnitt 90 % av sitt högsta tal, och tabellen längre ner som räknar raketer utgår från det.
+Ju dyrare nivån är, desto hårdare träffar en raket, desto längre når den, desto mer sköldgenomträngning har den och desto färre kan du bära; de dyra ger också mest skada för pengarna. En rak raket gör i genomsnitt 23 till 32 % mer än den målsökande raketen av samma nivå och samma slag för samma pris (en fjärdedel till en tredjedel mer), eftersom du måste sikta den. En explosion gör ungefär två tredjedelar av vad raketen med enkelmål av samma nivå och slag gör (66 till 70 % i genomsnitt: en Ember mot en Lancet, en Scatter mot en Rivet), på varje skepp den täcker. Skadan i en explosion är full i mitten och faller i en rak linje till **hälften vid kanten**: ett skepp vars skrov ligger halvvägs ut tar 75 %, och ett vars skrov ligger utanför ringen tar ingenting. Ett skott gör i genomsnitt mitten av sitt intervall, 89 till 94 % av sitt högsta tal, och tabellen längre ner som räknar raketer utgår från det.
 
 ## Vad de kostar {#what-they-cost}
 
-En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 6 000 krediter i minuten för en vanlig raket, 9 600 för en sällsynt och 60 Thulium för en episk, mot de 1 800 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Raketer väger ingenting: de tar inget utrymme i transportförrådet. En raket var 5:e sekund är bara tolv i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna.
+En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 6 000 krediter i minuten för en vanlig raket, 9 600 för en sällsynt och 60 Thulium för en episk, mot de 1 800 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Raketer väger ingenting: de tar inget utrymme i transportförrådet. En raket var 5:e sekund är bara tolv i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna. Det du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#limits) och lotterna du leder där räknas in i den gränsen när du köper eller budar på en raket.
 
 Butiken listar raketerna en typ i taget, var och en under sitt namn, med den vanliga raketen först och den episka sist; hangaren, transportförrådet och väljaren Raketer använder samma ordning.
 
 ## Mot utomjordingarna {#against-the-aliens}
 
-Så många raketer krävs för att skjuta ner en utomjording, en raketsort i taget (Alpha; utomjordingar i Beta och Gamma är 1,5 respektive 2 gånger så starka). En explosion räknas som det skepp den briserar bredvid tar emot den, en bit från mitten. En utomjordings sköld tar 80 % av en träff, minus raketens sköldgenomträngning. Här slumpar varje raket fram medelvärdet. Vid det lägsta slumptalet krävs ungefär 10 till 15 % fler raketer än tabellen anger (en Lancet I behöver 50 för en Goombah, inte 45), vid det bästa ungefär 10 % färre (40). En Rivet II skjuter bara ner en Phantasm med en träff vid ett slumptal på 89 % eller mer och behöver två under det.
+Så många raketer krävs för att skjuta ner en utomjording, en raketsort i taget, där varje raket slumpar fram medelvärdet av sitt intervall (Alpha; utomjordingar i Beta och Gamma är 1,5 respektive 2 gånger så starka). En explosion räknas som det skepp den briserar bredvid tar emot den, en bit från mitten (87 till 93 % av skadan i mitten). En utomjordings sköld tar 80 % av en träff, minus raketens sköldgenomträngning. Vid det lägsta slumptalet krävs upp till 15 % fler raketer än tabellen anger (en Lancet I behöver 48 för en Goombah, inte 43), vid det bästa upp till 13 % färre (39). En Rivet II, en Lancet III och en Rivet III skjuter ner en Phantasm med en träff vid varje slumptal; en Rivet I behöver två vid ett slumptal på 2 600 eller mer, och tre under det.
 
 | Raketer som krävs | Seeker (1 600) | Phantasm (5 200) | Bulwark (26 000) | Goombah (80 000) | Crystalys (416 000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 15 | 45 | 232 |
-| **Lancet II** | 1 | 2 | 8 | 20 | 116 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 78 |
-| **Rivet I** | 1 | 3 | 12 | 36 | 185 |
-| **Rivet II** | 1 | 1 | 6 | 16 | 93 |
-| **Rivet III** | 1 | 1 | 4 | 9 | 62 |
-| **Ember I** | 2 | 5 | 25 | 77 | 399 |
-| **Ember II** | 1 | 3 | 13 | 37 | 193 |
-| **Ember III** | 1 | 2 | 8 | 25 | 128 |
-| **Scatter I** | 2 | 4 | 20 | 60 | 311 |
-| **Scatter II** | 1 | 2 | 10 | 29 | 151 |
-| **Scatter III** | 1 | 2 | 7 | 20 | 100 |
+| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
+| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
+| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
+| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
+| **Ember I** | 2 | 5 | 24 | 71 | 369 |
+| **Ember II** | 1 | 3 | 12 | 34 | 177 |
+| **Ember III** | 1 | 2 | 8 | 23 | 116 |
+| **Scatter I** | 2 | 4 | 18 | 56 | 287 |
+| **Scatter II** | 1 | 2 | 9 | 27 | 141 |
+| **Scatter III** | 1 | 2 | 6 | 18 | 90 |
 
-- De **vanliga** raketerna med enkelmål skjuter ner en Seeker med en träff vid varje slumptal och en Phantasm med tre (en Lancet I behöver en fjärde vid sitt lägsta); de är vardagsraketerna i de första sektorerna. De **sällsynta** är till för Bulwark och Goombah: åtta Lancet II-raketer tar en Bulwark på ungefär 35 sekunders timer. De **episka** skjuter ner en Phantasm med en träff vid varje slumptal och en Goombah med nio till elva. Explosionerna är värda sitt pris när flera utomjordingar står tätt: en Scatter III som briserar över en flock på fem Phantasm gör ungefär 18 000 skada över flocken i ett enda skott.
-- En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: för den utomjording den är avsedd för kostar en raket med enkelmål ungefär en sjundedel till tre fjärdedelar av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga raketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger. Att skjuta ner **Crystalys** med bara en sort kräver 62 till 399 raketer och minst fem minuters timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 5:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
+- De **vanliga** raketerna med enkelmål skjuter ner en Seeker med en träff vid varje slumptal och en Phantasm med tre (en Lancet I behöver en fjärde vid sitt lägsta); de är vardagsraketerna i de första sektorerna. De **sällsynta** är till för Bulwark och Goombah: sju Lancet II-raketer tar en Bulwark på ungefär 30 sekunders timer. De **episka** raketerna med enkelmål skjuter ner en Goombah med åtta (Rivet III) till elva (Lancet III). Explosionerna är värda sitt pris när flera utomjordingar står tätt: en Scatter III som briserar över en flock på fem Phantasm (alla inom 250 enheter från målet du siktade på) gör ungefär 21 000 skada över flocken i ett enda skott.
+- En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: en raket med enkelmål kostar mellan 15 % (en Rivet II mot en Phantasm) och 95 % (en Lancet I mot en Crystalys) av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga explosionsraketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger (en Ember I mot en Bulwark: 120 %). Att skjuta ner **Crystalys** med bara en sort kräver 56 till 369 raketer och minst fyra och en halv minuts timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 5:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
 - Betalningen för en nedskjutning är densamma hur den än gjordes (se [Crystalys](/wiki/04-Aliens/Crystalys.md) för den största), så en nedskjutning med raket lönar sig när den sparar tid och kostar mindre än den ger.
-- **Även utomjordingar skjuter raketer.** Pirate Boss samt Dormant Force och Pulses i [svärmarna](/wiki/05-Swarms/Swarms.md) skjuter raka Rivet-raketer på piloten som attackerade dem, med samma 5-sekunderstimer. Ett skepp som håller sig i rörelse undviker dem. Svärmarnas bossar tappar också raketer i sina lådor.
+- **Även utomjordingar skjuter raketer.** Pirate Boss samt Dormant Force och Pulses i [svärmarna](/wiki/05-Swarms/Swarms.md) och Siege Wardens i [klanerna](/wiki/03-Mechanics/Clans.md#clan-wardens) skjuter raka Rivet-raketer på piloten som attackerade dem, med samma 5-sekunderstimer. **En utomjordings raket slumpar inte och använder inte intervallen ovan**: den gör en fast skada på 2 500 (Rivet I), 5 000 (Rivet II) eller 7 500 (Rivet III), mer i Beta och Gamma, där utomjordingar är 1,5 respektive 2 gånger så starka (en Clan Wardens raket är densamma i alla världar). Ett skepp som håller sig i rörelse undviker dem. Svärmarnas bossar tappar också raketer i sina lådor.
 
 ## Raketerna som bara kan tillverkas {#the-craft-only-rockets}
 
@@ -131,7 +140,7 @@ En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som �
 - **Omladdning.** Asterism gör den gemensamma timern 35 % längre (6,75 sekunder), Cordon 11 % längre (5,55) och Redoubt 27 % kortare (3,65), men aldrig kortare än raketens flygtid plus ett ögonblick: 4,1 sekunder efter en N.U.K.E. och 4,6 efter en N.I.K.E. Väntan sätts när du avfyrar, så att byta formation efteråt förkortar den inte, och laddcirkeln över raketplatserna följer den.
 - **De två storas gränser står sig.** Med den bästa formationen träffar en N.I.K.E. med upp till 116 250, vilket en oskadad Paragon (128 000) överlever, och en N.U.K.E. med upp till 77 500, vilket en Goombah (80 000) överlever.
 - **Undanmanöver.** Asterisms 7 % undanmanöver ger en direkt raket som träffar dig 7 % chans att inte göra någon skada alls, och ett flytande ”Miss” visas över ditt skepp; en områdesexplosion har inget sikte och undviks aldrig.
-- **Genomträngning.** Gemini och Stiletto lägger sina poäng till sköldgenomträngningen hos en direkt raket (en explosion har ingen), upp till 40 % sammanlagt.
+- **Genomträngning.** Gemini och Stiletto lägger sina poäng till sköldgenomträngningen hos en direkt raket (en explosion har ingen), upp till 40 % sammanlagt. En laserträff går upp till 50 % ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regler {#rules}
 
@@ -140,7 +149,7 @@ En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som �
 - Raketer följer lasrarnas regler: inget inom en **säker zon** skadas, ingen pilot skadas innan **Fredsprotokollet** upphör eller där en sektor förbjuder PvP, och **din egen koncern och din egen grupp skadas aldrig** av dina raketer, vare sig direktträff eller explosion.
 - Att avfyra en raket avslutar ditt eget skydd i säker zon direkt. Det är ett skott: det avslutar också ditt eget **kamouflage**, och Cloaking CPU:n laddas då om i en minut, som efter varje slut på ett kamouflage. Kamouflerad eller inte hindrar en avfyrning dig från att kamouflera dig under de 10 sekunderna efteråt (se [Extrautrustning](/wiki/06-Items/Extras.md)).
 - Ett skepp som är **kamouflerat** eller inom **de 3 sekunderna av sin EMP** går inte att låsa på: en målsökande raket nekas, och en som redan flyger mot det tappar sin målfixering och flyger rakt vidare. En rak raket med enkelmål flyger igenom ett sådant skepp. En raket med **områdesskada** kräver ingen målfixering, så den skadar de skepp den täcker, kamouflerade eller inte, och den avslutar ett kamouflage (se [Extrautrustning](/wiki/06-Items/Extras.md)).
-- **Ingenting begränsar vad en raket gör mot en pilot.** En annan pilots skepp tar full skada: sköldarna först (deras absorption minus raketens sköldgenomträngning), sedan skrovet. De små skeppen klarar sig inte. På standardsköldkärnorna (Light, 45 % absorption) förstör en N.I.K.E. vid varje slumptal en färsk Protos, Kitefin eller Ostirion med en träff (en Paragon förlorar 47 till 53 % av sitt skrov, en Wraith ungefär en femtedel), och en N.U.K.E. förstör en Protos var som helst i sin explosion, en Kitefin inom ungefär 50 enheter från detonationen (220 vid det bästa slumptalet) och inget större i en enda explosion. Två Lancet III-raketer eller två Rivet III-raketer förstör en Protos vid varje slumptal; en Wraith tål mellan 48 och 75 av dem. Fredsprotokollet, de säkra zonerna och din koncern är det som står mellan en pilot och en raket. De här siffrorna gäller ett skepp utan formation; en raketformation höjer dem med upp till 55 % (se [Drönarformationer och raketer](#drone-formations-and-rockets)).
+- **Ingenting begränsar vad en raket gör mot en pilot.** En annan pilots skepp tar full skada: sköldarna först (deras absorption minus raketens sköldgenomträngning), sedan skrovet. De små skeppen klarar sig inte. På standardsköldkärnorna (Light, 45 % absorption) förstör en N.I.K.E. vid varje slumptal en färsk Protos, Kitefin eller Ostirion med en träff (en Paragon förlorar 47 till 53 % av sitt skrov, en Wraith ungefär en femtedel), och en N.U.K.E. förstör en Protos var som helst i sin explosion, en Kitefin inom ungefär 50 enheter från detonationen (220 vid det bästa slumptalet) och inget större i en enda explosion. Två Lancet III-raketer eller två Rivet III-raketer förstör en Protos vid varje slumptal; en Wraith tål mellan 45 och 70 av dem. Fredsprotokollet, de säkra zonerna och din koncern är det som står mellan en pilot och en raket. De här siffrorna gäller ett skepp utan formation; en raketformation höjer dem med upp till 55 % (se [Drönarformationer och raketer](#drone-formations-and-rockets)).
 - Bara en rakets **direktträff** paxar en utomjording (se [Strid](/wiki/03-Mechanics/Combat.md)); en explosions kant kan skada en utomjording som någon redan har paxat utan att stjäla den. Varje utomjording en explosion skadar, även en sovande, vänder sig mot dig, som vid en lasersträff (en Seeker eller en Goombah, som bara slår tillbaka, inräknade); en som explosionen missar förblir sovande.
 - Timern är din: den överlever ett hopp, en återanslutning, ett skeppsbyte och ett förstört skepp.
 

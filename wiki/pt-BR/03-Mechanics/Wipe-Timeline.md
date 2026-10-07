@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Cada temporada vai do dia 1 ao dia 30 (o Reset começa com a contagem regressiva
 | **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar e bloquear a carga que vão levar consigo antes da erupção. |
 | **O Reset** | Dia 30 | Erupção do Buraco Negro | O universo é destruído e renasce. Os pilotos passam para o mundo que escolheram como destino para a próxima temporada. |
 
-Além do próprio reset, só duas coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, e a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo, mas nenhum deles dá ainda recompensas, aparições ou bônus especiais próprios.
+Além do próprio reset, só três coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo, mas nenhum deles dá ainda recompensas, aparições ou bônus especiais próprios.
 
 ---
 
@@ -43,7 +43,7 @@ Você obtém peças usando a interface do Materializador de Energia, que gira se
 
 ## Cache de Transporte (cápsula de viagem) {#transport-cache-travel-capsule-}
 
-Quando as 100 peças são coletadas e o Chrono-Gate está totalmente estabilizado, o portal abre o acesso ao seu **Cache de Transporte** pessoal (também conhecido como carrinho de transferência ou cápsula de viagem). Essa dimensão de bolso protege os seus pertences de serem apagados durante o reset.
+Quando as 100 peças são coletadas e o Chrono-Gate está totalmente estabilizado, o portal abre o acesso ao seu **Cache de Transporte** pessoal (também conhecido como carrinho de transferência ou cápsula de viagem). Essa dimensão de bolso protege os seus pertences de serem apagados durante o reset. Os itens que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) voltam para você no reset como itens soltos, que o reset apaga como o resto se você não os puser no Cache; os lances que você mantém em lotes são devolvidos.
 
 ### Transferência automática (grátis) {#automatic-carry-over-free-}
 Os itens a seguir são sempre protegidos e passam para a próxima temporada automaticamente, sem consumir **nenhuma** capacidade do seu Cache de Transporte:

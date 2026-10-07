@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 1. Un **colector** extrae mineral, una cantidad por hora, en su propia tolva (72 horas de producción).
 2. **Recoger** pasa el mineral de la tolva al **Almacén de recursos**, la reserva, donde cada mineral se guarda por separado.
 3. La **Forja** toma de la reserva el mineral que necesita cuando empieza un lote y hace placas, a 10 segundos por placa, un lote a la vez.
-4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/06-Items/Lasers.md) las convierte en un Quantum Laser 3, un Starfire-3 o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate para [la Forja de Ensamblaje](/wiki/06-Items/Forge.md).
+4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/06-Items/Lasers.md) las convierte en un Quantum Laser 3, un Starfire-3 o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate, que piden [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) y el último nivel de cada cadena de mejora.
 
 ### Colector de Velkonite y Colector de Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 - **Recoger placas**: pasa las placas terminadas a tu inventario mientras tu **nave está aterrizada**, y el resto del lote sigue en marcha. Se puede empezar un lote nuevo cuando la Forja está vacía.
 - Un lote en marcha termina aunque apagues la Forja o la mejores. Un lote **nuevo** necesita que la Forja esté encendida, que no se esté mejorando y que la energía del Skylab esté en equilibrio.
 - **Energía**: 30 en el nivel 1, con un aumento del 15 % por nivel.
+- **No comercializable**: las placas que fabrica la Forja no se pueden vender en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items); si no, serían el mayor producto de su Mercado. Siguen sirviendo como material para el Ensamblaje y la Forja.
 
 ### Construirlos {#building-them}
 
@@ -148,7 +149,7 @@ Los dos colectores cuestan **10 Ship Fragments, 20.000 créditos y 500 de Thuliu
 
 ## El Centro de investigación {#the-research-centre}
 
-El noveno módulo convierte recursos en ciencia e investiga las tecnologías que Ensamblaje necesita antes de fabricar nada nuevo. Se construye desde el nivel 10 del Núcleo, tiene los niveles 1 a 10, consume energía y no se puede apagar. Sus números, lo que quema como combustible, el impulso y el árbol de tecnologías completo están en la página de [Investigación](/wiki/03-Mechanics/Research.md).
+El noveno módulo convierte recursos en ciencia e investiga las tecnologías que Ensamblaje necesita antes de fabricar nada nuevo. Se construye desde el nivel 10 del Núcleo, tiene los niveles 1 a 10, consume energía y no se puede apagar. Sus números, lo que quema como combustible, el impulso y el árbol de tecnologías completo están en la página de [Investigación](/wiki/03-Mechanics/Research.md). Las tecnologías más altas necesitan además Dark Matter, que añades al Centro: [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) explica cómo conseguirlo.
 
 ## Mecánicas {#mechanics}
 
@@ -265,7 +266,7 @@ Cada granja y cada colector tiene una tolva para unas 72 horas de lo que produce
 
 ### El reinicio {#the-wipe}
 
-El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter introducido y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md).
+El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter que contiene y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Planifica tu Skylab {#planning-your-skylab}
 

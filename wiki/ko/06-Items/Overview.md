@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 83375593d5e8ed9f -->
+<!-- wiki-i18n source: 34583e4cd1123983 -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -22,32 +22,39 @@
 
 잠긴 카드에는 **연구 열기** 버튼이 있어서, 누르면 그 기술이 선택된 상태로 Skylab의 연구 보기가 열립니다. 카드에는 재료와 가격이 그대로 보이므로 계획을 세울 수 있으며, 잠긴 레시피는 카테고리에서 맨 뒤에 놓입니다. Extra Slots CPU는 아래 단계도 기다립니다. Extra Slots CPU II의 카드는 먼저 Extra Slots CPU I을 설치하라고 안내하고, III의 카드는 II를 요구합니다.
 
-최상위 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않습니다. 각각 어셈블리에서 한 단계 아래의 부품(Heavy Shield Core는 Basic Shield Core로, Engine III는 Engine II로, Impulse Thruster III는 Impulse Thruster II로), 약간의 Thulium, 외계인 드롭, Skylab 단조소의 플레이트로 만듭니다. 부품은 인벤토리에 장착되지 않은 상태여야 합니다. 먼저 함선에서 떼어 내고 레이저, 실드, 엔진에서 꺼내세요(실드나 엔진에는 자신의 셀이나 추진기가 들어 있지 않아야 합니다). 수송 보관함에서도 꺼내야 합니다. **새 아이템은 소모한 부품의 [인챈트](/wiki/06-Items/Overview.md#item-enchants) 등급을 이어받으며, 보너스는 다시 굴립니다**(신성한 Pulse Amp로는 원래와 같은 수의 새 보너스를 가진 신성한 Nova Amp가 만들어집니다). 어느 사본을 쓸지는 직접 고를 수 있습니다. 사본이 서로 다르면 어셈블리의 제작법 카드가 보여 주고, 표준보다 높은 등급을 쓰기 전에는 먼저 묻습니다. 아무것도 고르지 않으면 인챈트 등급이 가장 낮은 것부터 쓰이므로 가장 높은 등급의 사본은 남습니다(같은 등급이라면 보너스와 상관없이 가장 오래된 것부터). 전체 규칙은 [대장간](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly) 페이지에 있습니다.
+최상위 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않습니다. 각각 어셈블리에서 한 단계 아래의 부품(Heavy Shield Core는 Basic Shield Core로, Engine III는 Engine II로, Impulse Thruster III는 Impulse Thruster II로), 약간의 Thulium, 외계인 드롭, 플레이트(Skylab 단조소의 Velkonite 플레이트, 마지막 티어에는 Dark Matter Plate 3개)로 만듭니다. 부품은 인벤토리에 장착되지 않은 상태여야 합니다. 먼저 함선에서 떼어 내고 레이저, 실드, 엔진에서 꺼내세요(실드나 엔진에는 자신의 셀이나 추진기가 들어 있지 않아야 합니다). 수송 보관함에서도 꺼내야 합니다. **새 아이템은 소모한 부품의 [인챈트](/wiki/06-Items/Overview.md#item-enchants) 등급을 이어받으며, 보너스는 다시 굴립니다**(신성한 Damage Amp III로는 원래와 같은 수의 새 보너스를 가진 신성한 Damage Amp IV가 만들어집니다). 어느 사본을 쓸지는 직접 고를 수 있습니다. 사본이 서로 다르면 어셈블리의 제작법 카드가 보여 주고, 표준보다 높은 등급을 쓰기 전에는 먼저 묻습니다. 아무것도 고르지 않으면 인챈트 등급이 가장 낮은 것부터 쓰이므로 가장 높은 등급의 사본은 남습니다(같은 등급이라면 보너스와 상관없이 가장 오래된 것부터). 전체 규칙은 [대장간](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly) 페이지에 있습니다.
 
 | 업그레이드 | 소모 | Thulium | 재료 | 시간 |
 | :--- | :--- | :---: | :--- | :---: |
-| **Nova Amp** | Pulse Amp 1개 | 1,200 | Cataclysite 30개, Power Core 1개, Velkonite Reinforced Plate 3개 | 60초 |
-| **Apex Amp** | Prism Amp 1개 | 1,200 | Cataclysite 30개, Power Core 1개, Velkonite Reinforced Plate 3개 | 60초 |
+| **Damage Amp II** | Damage Amp I 1개 | 250 | Cataclysite 10개, Velkonite Reinforced Plate 1개 | 60초 |
+| **Damage Amp III** | Damage Amp II 1개 | 1,000 | Cataclysite 20개, Power Core 1개, Velkonite Reinforced Plate 2개 | 60초 |
+| **Damage Amp IV** | Damage Amp III 1개 | 1,200 | Cataclysite 30개, Power Core 1개, Dark Matter Plate 3개 | 60초 |
+| **Crit Amp II** | Crit Amp I 1개 | 250 | Cataclysite 10개, Velkonite Reinforced Plate 1개 | 60초 |
+| **Crit Amp III** | Crit Amp II 1개 | 1,000 | Cataclysite 20개, Power Core 1개, Velkonite Reinforced Plate 2개 | 60초 |
+| **Crit Amp IV** | Crit Amp III 1개 | 1,200 | Cataclysite 30개, Power Core 1개, Dark Matter Plate 3개 | 60초 |
+| **Penetration Amp II** | Penetration Amp I 1개 | 250 | Daraxium 20개, Cataclysite 10개, Velkonite Reinforced Plate 1개 | 60초 |
+| **Penetration Amp III** | Penetration Amp II 1개 | 1,000 | Nyxite 30개, Cataclysite 20개, Power Core 1개, Velkonite Reinforced Plate 2개 | 60초 |
+| **Penetration Amp IV** | Penetration Amp III 1개 | 1,200 | Quorvium 40개, Cataclysite 30개, Power Core 1개, Dark Matter Plate 3개 | 90초 |
 | **Capacity Shield Cell II** | Capacity Shield Cell I 1개 | 1,000 | Cataclysite 10개, Reinforced Hull Plate 4개, Velkonite Reinforced Plate 2개 | 60초 |
 | **Capacity Shield Cell III** | Capacity Shield Cell II 1개 | 1,500 | Cataclysite 15개, Reinforced Hull Plate 6개, Velkonite Reinforced Plate 4개 | 60초 |
-| **Capacity Shield Cell IV** | Capacity Shield Cell III 1개 | 2,500 | Cataclysite 20개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개 | 90초 |
+| **Capacity Shield Cell IV** | Capacity Shield Cell III 1개 | 2,500 | Cataclysite 20개, Reinforced Hull Plate 8개, Dark Matter Plate 3개 | 90초 |
 | **Absorption Shield Cell II** | Absorption Shield Cell I 1개 | 1,000 | Cataclysite 10개, Reinforced Hull Plate 4개, Velkonite Reinforced Plate 2개 | 60초 |
 | **Absorption Shield Cell III** | Absorption Shield Cell II 1개 | 1,500 | Cataclysite 15개, Reinforced Hull Plate 6개, Velkonite Reinforced Plate 4개 | 60초 |
-| **Absorption Shield Cell IV** | Absorption Shield Cell III 1개 | 2,500 | Cataclysite 20개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개 | 90초 |
+| **Absorption Shield Cell IV** | Absorption Shield Cell III 1개 | 2,500 | Cataclysite 20개, Reinforced Hull Plate 8개, Dark Matter Plate 3개 | 90초 |
 | **Impulse Thruster II** | Impulse Thruster I 1개 | 1,000 | Ship Fragment 10개, Power Core 1개, Velkonite Reinforced Plate 2개 | 60초 |
 | **Impulse Thruster III** | Impulse Thruster II 1개 | 1,500 | Ship Fragment 30개, Power Core 2개, Velkonite Reinforced Plate 4개 | 60초 |
-| **Impulse Thruster IV** | Impulse Thruster III 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Velkonite Reinforced Plate 6개 | 90초 |
+| **Impulse Thruster IV** | Impulse Thruster III 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Dark Matter Plate 3개 | 90초 |
 | **Momentum Thruster II** | Momentum Thruster I 1개 | 1,000 | Ship Fragment 10개, Power Core 1개, Velkonite Reinforced Plate 2개 | 60초 |
 | **Momentum Thruster III** | Momentum Thruster II 1개 | 1,500 | Ship Fragment 30개, Power Core 2개, Velkonite Reinforced Plate 4개 | 60초 |
-| **Momentum Thruster IV** | Momentum Thruster III 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Velkonite Reinforced Plate 6개 | 90초 |
-| **Heavy Shield Core** | Basic Shield Core 1개 | 2,000 | Cataclysite 20개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개 | 90초 |
-| **Engine III** | Engine II 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Velkonite Reinforced Plate 6개 | 90초 |
+| **Momentum Thruster IV** | Momentum Thruster III 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Dark Matter Plate 3개 | 90초 |
+| **Heavy Shield Core** | Basic Shield Core 1개 | 2,000 | Cataclysite 20개, Reinforced Hull Plate 8개, Dark Matter Plate 3개 | 90초 |
+| **Engine III** | Engine II 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Dark Matter Plate 3개 | 90초 |
 
-Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced Hull Plate 0.6개, Power Core 0.25개를 드롭합니다. 따라서 Nova Amp나 Apex Amp에 필요한 드롭은 Goombah 약 8기, 셀은 티어 II 약 7기·III 약 10기·IV 약 14기, Heavy Shield Core는 약 14기, 추진기는 티어 II 약 4기·III 약 10기·IV 약 19기, Engine III는 약 19기분입니다. Bulwark는 Cataclysite 2개, Ship Fragment 2개, Reinforced Hull Plate 0.3개를 드롭하지만 Power Core는 드롭하지 않습니다.
+Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced Hull Plate 0.6개, Power Core 0.25개를 드롭합니다. 따라서 Damage Amp IV나 Crit Amp IV에 필요한 드롭은 Goombah 약 8기, 셀은 티어 II 약 7기·III 약 10기·IV 약 14기, Heavy Shield Core는 약 14기, 추진기는 티어 II 약 4기·III 약 10기·IV 약 19기, Engine III는 약 19기분입니다. Bulwark는 Cataclysite 2개, Ship Fragment 2개, Reinforced Hull Plate 0.3개를 드롭하지만 Power Core는 드롭하지 않습니다. 티어 II나 III의 Damage Amp 또는 Crit Amp는 Goombah 약 3기, 약 5기분이고, Penetration Amp도 같지만 Quorvium 40개만 약 14기분입니다(Daraxium과 Nyxite는 Seeker, Phantasm, Bulwark가 드롭합니다).
 
-Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로 증폭기의 플레이트 3장은 채굴 12시간, 티어 IV 셀이나 추진기의 플레이트 6장은 24시간 분량입니다(레벨 5 수집기라면 7시간과 13시간). 티어 III의 플레이트 4장은 16시간, 티어 II의 플레이트 2장은 8시간, Heavy Shield Core나 Engine III의 플레이트 6장은 24시간 분량입니다. 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
+플레이트는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 티어 II와 III의 Velkonite Reinforced Plate를 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로 티어 III 셀이나 추진기의 플레이트 4장은 채굴 16시간, 티어 II의 플레이트 2장은 8시간 분량입니다. 티어 III 증폭기는 플레이트 2장(8시간), 티어 II 증폭기는 플레이트 1장(4시간)입니다. 마지막 티어는 대신 **Dark Matter Plate 3개**를 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam이 여기에 해당합니다. 어셈블리는 플레이트의 제작법을 연구한 뒤 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 플레이트 하나를 압착하며, Dark Matter는 블랙홀에서 나옵니다. 마지막 티어 부품 하나에는 Dark Matter 15개, 곧 N.I.K.E. 로켓 평균 7.5발 분량이 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)). 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
 
-**Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-3를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개가 필요하며, Starfire-3의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-3**도 마찬가지입니다. Quantum Laser 3를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser 3의 인챈트 등급을 이어받습니다. 둘 다 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
+**Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-3를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개가 필요하며, Starfire-3의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-3**도 마찬가지입니다. Quantum Laser 3를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser 3의 인챈트 등급을 이어받습니다. 둘 다 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
 
 ## 아이템 인챈트 {#item-enchants}
 
@@ -61,8 +68,8 @@ Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mecha
 | 4. **파열하는** | 3 | +6–11% | 0.1% |
 | 5. **영원한** | 4 | +9–15% | 0.01% |
 
-- 상점 아이템은 항상 표준 등급입니다. 어셈블리에서 만든 장비는 수령할 때 등급이 정해집니다(확률 열). 그보다 높은 등급은 [대장간](/wiki/06-Items/Forge.md)에서 한 단계씩 올립니다. 유일한 다른 방법은 어셈블리의 모듈 업그레이드(Nova Amp, Apex Amp, 티어 II~IV의 실드 셀과 추진기, Heavy Shield Core, Engine III, Helios Beam)이며, 이는 재료가 된 부품의 등급을 이어받습니다.
-- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser 1, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp 1, Repair Drone은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 1.02나 1.03에는 대장간이 보너스를 붙이지 않으며, 붙여도 천분의 일 정도의 효과입니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다.
+- 상점 아이템은 항상 표준 등급입니다. 어셈블리에서 만든 장비는 수령할 때 등급이 정해집니다(확률 열). 그보다 높은 등급은 [대장간](/wiki/06-Items/Forge.md)에서 한 단계씩 올립니다. 유일한 다른 방법은 어셈블리의 모듈 업그레이드(Damage Amp IV, Crit Amp IV, 티어 II~IV의 실드 셀과 추진기, Heavy Shield Core, Engine III, Helios Beam)이며, 이는 재료가 된 부품의 등급을 이어받습니다.
+- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser 1, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.02~x1.035에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
 - [대장간](/wiki/06-Items/Forge.md#buffs-by-tier)은 아이템의 첫 보너스 이후의 칸을 확률로만 채웁니다. 등급 상승은 첫 보너스를 항상 주고, 새 등급이 여는 나머지 칸은 50% 확률로 채워집니다. 그래서 한 등급이 담는 보너스는 최대 그 수까지입니다(신성한 등급 아이템은 절반의 확률로 2개).
 - **사거리** 보너스는 어느 등급에서도 +5%를 넘지 않습니다.
 - 보너스는 바로 위 단계 아이템에 비하면 작습니다. 보너스를 최대로 채운 Quantum Laser 1도 평범한 Quantum Laser 2보다 피해량이 낮습니다.
@@ -91,4 +98,4 @@ Velkonite Reinforced Plate는 드롭되지 않습니다. [Skylab](/wiki/03-Mecha
 - **Cloaking CPU와 EMP Charge**: 전투나 도주를 위한 부가 장비입니다. Cloaking CPU는 직접 끌 때까지 함선을 숨기고(S, M, L은 사용 횟수 10, 25, 50회이며 가격은 5,000, 11,250, 20,000 Thulium), EMP Charge는 3초 동안 당신을 대상으로 지정할 수 없게 만들고 당신에 대한 모든 락온을 끊으며 주변의 모든 은폐를 해제합니다(500 Thulium). [부가 장비](/wiki/06-Items/Extras.md)를 참고하세요.
 - **연구 CPU**: Extra Slots CPU는 모든 함선의 부가 슬롯을 늘려 주고, Jump CPU는 Thulium을 내고 기업 섹터로 데려다주며, Base CPU는 기지로 돌려보내 주고, Auto-Repair CPU는 Repair Drone을 알아서 내보냅니다. 판매하지 않습니다. 연구한 뒤 어셈블리에서 제작합니다. [부가 장비](/wiki/06-Items/Extras.md#research-cpus)를 참고하세요.
 - **드론 편대**: 드론을 위한 16종의 아이템으로, 보너스를 주는 대신 대가를 요구합니다(예: 실드가 커지는 대신 무기가 약해짐). 판매하지 않습니다. 연구한 뒤 어셈블리에서 Thulium으로 제작하세요. [드론 편대](/wiki/03-Mechanics/Formations.md)를 참고하세요.
-- **자원**: 제작을 위해 외계인이 드롭하거나 Skylab이 만드는 것들입니다. Ship Fragment, 크리스탈 4종, Power Core, Velkonite와 Orvium 플레이트, 그리고 다른 곳에서 나오는 두 가지가 있습니다. N.I.K.E. 로켓을 쏘면 [블랙홀](/wiki/03-Mechanics/Black-Hole.md)이 돌려주는 **Dark Matter**와, 어셈블리가 이를 압착해 만드는 **Dark Matter Plate**입니다. 후자는 [대장간](/wiki/06-Items/Forge.md)의 최상위 두 단계에 쓰입니다.
+- **자원**: 제작을 위해 외계인이 드롭하거나 Skylab이 만드는 것들입니다. Ship Fragment, 크리스탈 4종, Power Core, Velkonite와 Orvium 플레이트, 그리고 다른 곳에서 나오는 두 가지가 있습니다. N.I.K.E. 로켓을 쏘면 [블랙홀](/wiki/03-Mechanics/Black-Hole.md)이 돌려주는 **Dark Matter**와, 어셈블리가 이를 압착해 만드는 **Dark Matter Plate**입니다. 후자는 모든 강화 계열의 마지막 티어와 [대장간](/wiki/06-Items/Forge.md)의 최상위 두 단계에 쓰입니다.

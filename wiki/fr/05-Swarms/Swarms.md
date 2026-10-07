@@ -15,7 +15,7 @@ Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son pr
 ## Les trois essaims {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Essaim | Où | Combien | Meneur | Suivants | Revient |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Les essaims commencent à apparaître au **Premier contact** et restent jusqu’
 ## Les règles de chaque essaim {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Les essaims apparaissent à partir du jour 4 de la saison jusqu’à la réinitialisation.
 - Quand un vaisseau d’essaim est touché, les vaisseaux de son essaim situés à moins de 1 500 unités se joignent au combat contre le premier pilote qui l’a touché.
@@ -46,7 +46,7 @@ Les essaims commencent à apparaître au **Premier contact** et restent jusqu’
 Le monde met un essaim à l’échelle comme il le fait pour tout alien ([Mondes](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)) : la coque, le bouclier, la recharge du bouclier, les dégâts des lasers, les dégâts des roquettes et les soins d’un vaisseau d’essaim sont les valeurs d’Alpha multipliées par la puissance ci-dessous, et une élimination paie le gain ci-dessous. La vitesse, la portée et le butin sont les mêmes dans tous les mondes. Les articles donnent les valeurs de chaque vaisseau dans les trois mondes.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Monde | Puissance | Gain |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Un alien ordinaire paie le pilote qui l’a touché en premier ([Combat](/wiki/0
 Chaque élimination est comptée sous le nom propre du vaisseau dans vos statistiques d’éliminations et ajoute des points PvE à votre classement :
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Vaisseau d’essaim | Essaim | Points PvE par élimination |
 | :--- | :--- | ---: |

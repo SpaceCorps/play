@@ -39,8 +39,8 @@ Some attacks have a **shield penetration**: points taken off your absorbance for
 \[\text{Shield Share} = \text{clamp}(\text{Absorbance} - \text{Penetration},\ 0,\ 100\%)\]
 
 - The shields take `round(damage x share)` of the hit at most; the hull takes the rest. A shield too low for its share passes the difference to HP, and if shields are at 0, all damage hits HP directly.
-- **Where penetration comes from**: a direct rocket's *Shield penetration* (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; area blasts have none, see [Rockets](/wiki/06-Items/Rockets.md)) and the laser ammo's (Ultra Core 5%, Experimental Fusion Core 10%; see [Lasers & Ammo](/wiki/06-Items/Lasers.md)). Aliens have none, and neither do the x1 and x2 ammo.
-- **Examples**: 80% absorbance against a Lancet III (35%): the shields take 45% of the hit, the hull 55%. 100% against it: 65% and 35%. 112% against 12% penetration: all of the hit. 45% (a Light Shield Core alone) against 35%: 10% on the shield, the rest on the hull. No rocket penetrates a Light Shield Core completely.
+- **Where penetration comes from**: a direct rocket's *Shield penetration* (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; area blasts have none, see [Rockets](/wiki/06-Items/Rockets.md)) and the laser ammo's (Ultra Core 5%, Experimental Fusion Core 10%; see [Lasers & Ammo](/wiki/06-Items/Lasers.md)). Aliens have none, and neither do the x1 and x2 ammo. A laser hit also takes the Penetration Amps of the shooter's lasers (+2% to +8% a slot, the mean over its lasers) and a drone formation's penetration (Gemini +9%, Stiletto +16%); the total stops at **50%** for a laser and at 40% for a rocket ([how a laser hit adds up](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Examples**: 80% absorbance against a Lancet III (35%): the shields take 45% of the hit, the hull 55%. 100% against it: 65% and 35%. 112% against 12% penetration: all of the hit. 45% (a Light Shield Core alone) against 35%: 10% on the shield, the rest on the hull. No rocket penetrates a Light Shield Core completely. The best laser (50%) does: against it the best shield (80%) takes 30% of the hit and the hull 70%, and a Light Shield Core alone (45%) takes none.
 - Aliens have no absorbance stat: they split every hit 80% / 20%, less the penetration of the hit.
 - A Siphon Battery's damage comes out of the shield alone: absorbance and penetration do not come into it.
 
@@ -55,9 +55,9 @@ Some attacks have a **shield penetration**: points taken off your absorbance for
 
 Every shield boost raises one of the three stats and is listed under its own kind in the Boosters window:
 
-- **Capacity** (maximum shield points): Shield Wall boosters and the permanent Shield Capacity Boost.
+- **Capacity** (maximum shield points): Shield Wall Booster 1 and 2 and the permanent Shield Capacity Boost.
 - **Absorbance** (the share of a hit your shields take): the permanent Shield Absorbance Boost (+0.1 points per level, +10 points at most).
-- **Recharge** (shield points restored per second): the Shield Regen booster.
+- **Recharge** (shield points restored per second): the Shield Regen Booster.
 
 See [Boosters](/wiki/06-Items/Boosters.md) for the numbers.
 

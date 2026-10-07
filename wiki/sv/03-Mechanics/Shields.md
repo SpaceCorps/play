@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 \[\text{Sköldandel} = \text{clamp}(\text{Absorption} - \text{Genomträngning},\ 0,\ 100\%)\]
 
 - Sköldarna tar högst `round(damage x share)` av träffen; skrovet tar resten. En sköld som är för låg för sin andel för över skillnaden till HP, och är sköldarna på 0 går all skada direkt på HP.
-- **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen.
-- **Exempel**: 80 % absorption mot en Lancet III (35 %): sköldarna tar 45 % av träffen, skrovet 55 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. Ingen raket tränger helt igenom en Light Shield Core.
+- **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen. En laserträff drar också av Penetration Amps i skyttens lasrar (+2 % till +8 % per plats, medelvärdet över dess lasrar) och en drönarformations genomträngning (Gemini +9 %, Stiletto +16 %): summan stannar vid **50 %** för en laser och vid 40 % för en raket ([så läggs en laserträff ihop](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Exempel**: 80 % absorption mot en Lancet III (35 %): sköldarna tar 45 % av träffen, skrovet 55 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. Ingen raket tränger helt igenom en Light Shield Core. Den bästa lasern (50 %) klarar det: mot den tar den bästa skölden (80 %) 30 % av träffen och skrovet 70 %, och en Light Shield Core ensam (45 %) tar ingenting.
 - Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning.
 - Skadan från en Siphon Battery tas enbart ur målets sköld: absorption och genomträngning spelar ingen roll.
 
@@ -57,9 +57,9 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 
 Varje sköldförstärkning höjer ett av de tre värdena och listas under sin egen sort i fönstret Boosters:
 
-- **Kapacitet** (maximala sköldpoäng): Shield Wall-boosters och den permanenta förstärkningen Shield Capacity Boost.
+- **Kapacitet** (maximala sköldpoäng): Shield Wall Booster 1 och 2 och den permanenta förstärkningen Shield Capacity Boost.
 - **Absorption** (den andel av en träff som dina sköldar tar): den permanenta förstärkningen Shield Absorbance Boost (+0,1 punkter per nivå, högst +10 punkter).
-- **Laddning** (sköldpoäng som återställs per sekund): boostern Shield Regen.
+- **Laddning** (sköldpoäng som återställs per sekund): Shield Regen Booster.
 
 Se [Boosters](/wiki/06-Items/Boosters.md) för siffrorna.
 

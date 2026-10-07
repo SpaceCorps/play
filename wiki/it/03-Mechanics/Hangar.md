@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6d1c3f189d0e637 -->
+<!-- wiki-i18n source: 9c17f4775a1e2000 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -23,8 +23,10 @@ Le riparazioni in corso non ti fermano. In qualsiasi altro posto la finestra Han
 - **Entrambe le configurazioni.** Puoi preparare la Config 2 mentre voli con la Config 1, poi passare all’altra con il tasto Cambia conf.; un pulsante **Usa config** nell’Hangar fa lo stesso cambio.
 - **Qualsiasi nave.** Imposta attiva un’altra nave e voli con essa da dove ti trovi. Il modello della tua nave cambia davanti a tutti quelli nelle vicinanze.
 - **Un nuovo scudo, motore o Nucleo adattivo parte vuoto**, come alla stazione: la carica di scudo della sua configurazione è vuota finché non si ricarica.
-- **Formazioni di droni.** La vista Droni elenca sotto i tuoi droni le formazioni che possiedi. Non si montano: in volo ne trascini una dall’elenco Formazioni della barra rapida su uno slot, e il clic o il tasto di quello slot la indossa, senza attesa dentro una zona sicura ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
+- **Formazioni di droni.** La vista Droni elenca sotto i tuoi droni le formazioni che possiedi. Non si montano: in volo ne trascini una dall’elenco Formazioni della barra rapida su uno slot, e il clic o il tasto di quello slot la indossa, con la stessa attesa di 2 secondi di ovunque, zona sicura compresa ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
 - **Extra.** Le quattro navi normali, Protos, Kitefin, Ostirion e Nomad (quelle con cui inizi o che compri), hanno 2 slot extra per configurazione; le quattro navi che costruisci all’Assemblaggio, Paragon, Ironclad, Wraith e Storm, ne hanno 3. Le Extra Slots CPU del tuo Skylab ne aggiungono 3, 5 o 7: quindi 5, 7 o 9 sulle normali e 6, 8 o 10 su quelle costruite ([Extra](/wiki/06-Items/Extras.md#extra-slots-cpus)). Con la 0.4.10, un terzo extra su una nave normale è stato rimosso e messo nel tuo inventario: non è stato cancellato nulla, e hai ricevuto un messaggio in chat.
+
+Vendere non fa parte della finestra: il martelletto che apre l’[Asta](/wiki/03-Mechanics/Auction.md) appartiene all’Hangar della stazione, e l’Asta stessa è una pagina della stazione.
 
 ## Cambiare nave {#changing-ship}
 

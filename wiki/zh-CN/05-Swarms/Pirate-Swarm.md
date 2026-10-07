@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate 虫群 -->
 # Pirate 虫群 {#pirate-swarm}
 
@@ -7,7 +7,7 @@ Pirate 虫群由一个 **Pirate Boss** 和它的 **Pirate Scout** 组成：Pirat
 ## 一览 {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **位置**：每个企业的 `x-2` 和 `x-3` 星区
 - **数量**：每个星区 一个， 每个世界 共 6 个
@@ -32,7 +32,7 @@ Pirate 虫群由一个 **Pirate Boss** 和它的 **Pirate Scout** 组成：Pirat
 - **打 Boss，不要打 Scout。** Scout 会治疗 Boss，但与 Boss 的船体相比，治疗量很小，而且新的 Scout 会按*一览*列表所说的频率出现：先击杀 Scout 的小队永远赶不上它们，只有非常庞大的小队才能清掉它们，而且仍比不去管它们的小队花更长时间击败 Boss。Scout 只会耗费你的时间，不会决定战斗。
 - **把 Scout 引开。** Scout 只有在 Boss 的范围之内才会治疗，所以跟着你离开该范围的 Scout 什么也治疗不了，而 Ostirion 比 Scout 更快。
 - **保持移动。** Boss 的火箭是直线的，不带制导：保持移动的舰船可以躲开，原地不动的舰船则会被击中。
-- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，在 Alpha 中大约五分钟就能击败它；单独一艘 Ostirion 做不到，单独一艘 Paragon 可以。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
+- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，在 Alpha 中大约五分钟就能击败它，但很勉强，而且只在伤害被分摊时才行：让一名飞行员承受全部火力的三人组会输。五个人三到四分钟就能击败它；单独一艘 Ostirion 做不到，单独一艘 Paragon 可以。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
 - **Boss 会回来**，在*一览*列表给出的时间之后，出现在同一个星区。
 
 ## 奖励与掉落 {#rewards-and-drops}
@@ -44,7 +44,7 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 虫群舰船在三个世界中的数值（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)）。
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 
 ### Pirate Scout
 
-基于 Kitefin，拥有其 50% 的船体、护盾和伤害；速度和射程与原舰船相同。
+基于 Kitefin，拥有其 50% 的船体和 75% 的激光伤害；速度和射程与原舰船相同。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 船体 | 12,000 | 18,000 | 24,000 |
 | 护盾 | 9,818 | 14,727 | 19,636 |
-| 激光伤害 （每秒一轮齐射） | 98 | 147 | 196 |
+| 激光伤害 （每秒一轮齐射） | 147 | 221 | 294 |
 | 速度 | 175 | 175 | 175 |
 | 激光射程 | 700 | 700 | 700 |
 | 仇恨范围 | 700 | 700 | 700 |

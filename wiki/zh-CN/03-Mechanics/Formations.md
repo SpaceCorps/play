@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 5848c2376fcf87d8 -->
+<!-- wiki-i18n source: 6610566ed231b387 -->
 <!-- wiki-i18n title: 编队 -->
 # 无人机编队 {#drone-formations}
 
-**无人机编队**是无人机围绕飞船形成的一种阵型，它会改变飞船的战斗方式。每个编队都带来一些加成，也要付出一些代价：护盾更大但武器更弱，火箭更猛但船体更薄，击杀外星人更快但飞船更慢。共有 **16** 种。你在 [Skylab](/wiki/03-Mechanics/Skylab.md) 研究它，在装配站制作它，同一时间启用**一个**，可以是你拥有的任何一个。你每 **2 秒**可以换一次，战斗中也可以。
+**无人机编队**是无人机围绕飞船形成的一种阵型，它会改变飞船的战斗方式。每个编队都带来一些加成，也要付出一些代价：护盾更大但武器更弱，火箭更猛但船体更薄，击杀外星人更快但飞船更慢。共有 **16** 种。你在 [Skylab](/wiki/03-Mechanics/Skylab.md) 研究它，在装配站制作它，同一时间启用**一个**，可以是你拥有的任何一个。你每 **2 秒**可以换一次，战斗中和安全区内都一样。
 
 ![Auger: the Drill, drones spiralling in a cone round the ship, its tip ahead of the nose](../../img/wiki-img/shots/formation-shape-auger.jpg)
 ![Culler: four drones in a fan on each side of the ship, like wings](../../img/wiki-img/shots/formation-shape-culler.jpg)
@@ -10,7 +10,7 @@
 ![Sanctum: eight drones in a heart ahead of the nose, its point toward the ship](../../img/wiki-img/shots/formation-shape-sanctum.jpg)
 ![Stiletto: a blade of six drones ahead of the nose and a crossguard pair, a sword with the ship for its hilt](../../img/wiki-img/shots/formation-shape-stiletto.jpg)
 ![Testudo: eight drones in two columns over the wings, a roof with the ship's spine left open](../../img/wiki-img/shots/formation-shape-testudo.jpg)
-![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by the wedge that sweeps away until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
+![The hotbar with four drone formations in its slots: the one worn lit and the others dimmed by a dark wedge that sweeps away with the seconds left until the next change is allowed](../../img/wiki-img/shots/formations-bar.jpg)
 ![The Hangar's Drones view with the list of the drone formations you own under the drones](../../img/wiki-img/shots/formations-rack.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 
@@ -18,7 +18,7 @@
 
 - **获得。** 在研究中心研究它的科技（有两棵树，*防御* 和 *打击与机动*），然后在装配站用 Thulium 制作。最便宜的要 7,000 Thulium 和 5 Dark Matter，最贵的要 46,000 Thulium 和 20 Dark Matter。商店不出售任何编队。
 - **拥有它。** 编队不装备在任何地方：库存里有一份就够了。你至少需要一架无人机，Slave Drone 或 Master Drone 都行，否则任何编队都不会生效。
-- **使用。** 把它从快捷栏的编队列表拖到任意槽位上。点击槽位或按它的键即可启用编队。列表里还有表示“无编队”的**标准**：把它拖到槽位上并按下，就回到无编队。每 2 秒可以切换一次，没有战斗锁定。
+- **使用。** 把它从快捷栏的编队列表拖到任意槽位上。点击槽位或按它的键即可启用编队。列表里还有表示“无编队”的**标准**：把它拖到槽位上并按下，就回到无编队。每 2 秒可以切换一次，安全区内也一样，没有战斗锁定。
 - **看到它。** 每种编队都有自己的形状，你的无人机会在你的舰船周围按这个形状飞行：屋顶、心形、翅膀、剑、钻头。其他飞行员也能看到。见[飞行形状](#how-they-fly)。
 - **为接下来的一分钟选择。** 每种编队都要为它的加成付出代价，所以没有哪一种处处最强。选适合你接下来要做的事的那一种：狩猎、决斗、发射火箭，或者逃跑。
 
@@ -34,10 +34,11 @@
 ## 使用编队 {#wearing-a-formation}
 
 - **放在快捷栏上。** 快捷栏上方的**编队**按钮会打开你拥有的编队列表。像弹药或火箭那样，把一个拖到任意一排的任意槽位上。槽位会显示编队的图片和它的三个字母，并沿用该槽位的按键。
-- **飞行中启用。** 点击槽位或按它的键。再按一次亮着的槽位不会有任何反应；想不启用任何编队，就把列表里的**标准**放到一个槽位上并按下。你正在启用的编队所在的槽位是亮的。切换之后，一个扇形阴影会扫过其他编队槽位，直到允许下一次切换；在此期间按下，槽位会闪红。飞船窗口的标题栏会写出你正在启用的编队。
+- **飞行中启用。** 点击槽位或按它的键。再按一次亮着的槽位不会有任何反应；想不启用任何编队，就把列表里的**标准**放到一个槽位上并按下。你正在启用的编队所在的槽位是亮的。飞船窗口的标题栏会写出你正在启用的编队。
 - **按键。** 编队使用你放置它的槽位的按键（起初是 1 到 9 和 Shift+1 到 Shift+9）。你可以在 设置 › 操作 里重新绑定这些槽位。
-- **每 2 秒一次，战斗中也可以。** 没有战斗锁定，也没有稳定时间：新数值立刻生效。如果你请求得太早，聊天里会显示“1.4 秒后可再次切换编队。”在安全区内几乎不用等待。
-- **它会跟着你。** 游戏会记住你上次启用的编队，并在出击或重生时再次请求它。切换配置（`C` 键）不会取消它，也不用等待。
+- **每 2 秒一次，不论在哪。** 没有战斗锁定，也没有稳定时间：新数值立刻生效。切换之后，下一次要等 2 秒，战斗中、开阔太空里和安全区内都一样。出击或重生后的第一次切换会立刻生效，并开始这 2 秒。
+- **等待看得见。** 切换后的 2 秒里，其他每个编队槽位和编队列表的每一项都会被一个暗色扇形阴影盖住，阴影逐渐退去，并显示剩余秒数（1.8、1.5、0.4 ……）。太早按下槽位时不会发送任何请求：槽位闪红，响起轻柔的拒绝音，并提示“编队 1.2 秒后可用”。按住按键时，同一条提示里的秒数会随之变化。开启**减弱动态效果**后，槽位只是保持变暗，显示整数秒，没有扫动效果。如果请求还是过早到达（比如连接很慢），聊天里会显示“1.4 秒后可再次切换编队。”
+- **它会跟着你。** 游戏会记住你上次启用的编队，并在出击或重生时再次请求它。这算作你的第一次切换：它立刻生效并开始这 2 秒，所以紧接着手动切换需要等待。切换配置（`C` 键）不会取消它，也不用等待。
 - **需要无人机。** 如果你的舰队里没有 Slave Drone 或 Master Drone，编队什么也不会做。一架就够了：无人机的数量、等级和所携带的东西都无关紧要。
 - **其他人能看到。** 每位能看到你舰船的飞行员，也会看到你的无人机按你的编队形状飞行。选中一名飞行员，目标窗口会显示“编队：”和它的名称。不会与你的小队共享任何东西。
 
@@ -141,7 +142,7 @@
 - **损耗只在使用编队时进行。** Stiletto 和 Gyre 每秒燃烧你*当前*护盾的一部分，但只在战斗中（最近 10 秒内被击中、开过激光或发射过火箭），而且在安全区内绝不会发生。切换编队后，损耗立即停止。它不算伤害，所以不会重新开始护盾充能前的 15 秒。
 - **回复在战斗中也有效。** Adamant 和 Redoubt 每秒回复你最大护盾的一部分，叠加在飞船自身的充能之上，上限见表格。护盾充满时停止，也不算受到的伤害。
 - **闪避是躲开一次直接命中的几率。** Asterism 的 7% 意味着每次对你的直接命中（一轮激光齐射、一枚直接命中的火箭、外星人的射击）都有 7% 的几率完全不造成伤害，你的飞船上方会浮现“未命中”。其余命中会全额落下，所以在多次命中中你大约少受 7% 的伤害，但单独一枚火箭要么全中要么全无。范围爆炸没有瞄准，永远不会被闪避。
-- **穿透叠加在弹药的穿透上。** Gemini 和 Stiletto 把自己的点数加到你的弹药和直接命中火箭的穿透上。总和最高为 40%，爆炸没有穿透。
+- **穿透叠加在弹药的穿透上。** Gemini 和 Stiletto 把自己的点数加到你的弹药和直接命中火箭的穿透上。总和最高为：火箭 40%，激光 50%（激光增幅器也会叠加），爆炸没有穿透。
 - **火箭，全部 14 种。** 编队的火箭加成会乘到每一枚火箭的伤害上，包括 N.U.K.E. 和 N.I.K.E.。Testudo 对所有伤害的代价同样作用于火箭，Culler 对外星人的伤害则作用于击中外星人的火箭。同一枚火箭上的所有系数加起来最高为 ×1.59。最强的火箭编队 Ballista（+55%）能让一枚 N.I.K.E. 造成最高 116,250 的伤害，一枚 N.U.K.E. 最高 77,500：一艘完好的 Paragon（128,000）仍能扛住前者，一只 Goombah（80,000）能扛住后者。
 - **火箭的装填时间在发射时确定。** 5 秒在 Asterism 下变为 6.75 秒，在 Cordon 下变为 5.55 秒，在 Redoubt 下变为 3.65 秒，但绝不会短于火箭的飞行时间再加一小段余量：N.U.K.E. 之后是 4.1 秒，N.I.K.E. 之后是 4.6 秒。之后再切换编队，不会缩短你已有的等待。
 - **技能不跟随编队。** Shield Surge 和 Emergency Repair 按不含编队的最大值计算总量，所以切换不会让它们变强。Afterburner 乘的是你当前的速度，Repair Drone 修复的是你当前最大船体的一部分。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Enxame Dormant -->
 # Enxame Dormant {#dormant-swarm}
 
@@ -7,7 +7,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 ## Resumo rápido {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Onde**: Os setores de perigo `DS-1`, `DS-2`, `DS-3`, `DS-4`, voando de um para outro
 - **Quantos**: Um em cada mundo
@@ -25,14 +25,14 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 ## Os membros {#the-members}
 
 - **Dormant Force**: uma Wraith com força total, com lasers que batem três vezes mais forte que os de um equipamento típico. Ela lidera o enxame, é passiva até ser acertada e dispara **foguetes retos** no primeiro piloto que a acertou.
-- **Dormant Pulse**: uma Paragon com força total, com o mesmo tipo de lasers pesados e foguetes próprios. As Pulses voam perto da Force, e quando a Force é destruída uma delas assume a liderança.
+- **Dormant Pulse**: uma Paragon com força total, com lasers pesados do mesmo tipo, cada um batendo duas vezes mais forte que um da Force, e foguetes próprios. Uma Pulse tem menos lasers que a Force, então a sua rajada inteira é maior que a da Force, mas não o dobro (os números estão abaixo). As Pulses voam perto da Force, e quando a Force é destruída uma delas assume a liderança.
 
 São passivas: nunca vão atrás de um piloto. Se uma delas é acertada, as outras que estão perto entram na luta contra o primeiro piloto que a acertou.
 
 ## Como a luta transcorre {#how-the-fight-goes}
 
 - **Encontre-o.** O mundo inteiro é avisado quando ele aparece, e um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. Ele fica num mapa pelo tempo da lista *Resumo rápido*, depois voa até o portão de outro setor de perigo e salta; nunca usa um portão que saia dos setores de perigo e nunca entra no anel do buraco negro. Voa na velocidade da nave mais lenta e, como um piloto, não inicia nem termina um salto sob fogo.
-- **Não se derrota sozinho, nem com poucos.** Oito pilotos de nível 8 em Paragons com munição x2 ou x4 o destroem em cerca de um minuto em Alpha, perdendo no máximo uma nave; uma Paragon sozinha é destruída, e três com munição x2 também. Os enxames de Beta e Gamma são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então esses mundos pedem grupos maiores.
+- **Não se derrota sozinho, nem com poucos.** Oito pilotos de nível 8 em Paragons com munição x2 ou x4 o destroem em cerca de um minuto em Alpha, perdendo no máximo uma nave; uma Paragon sozinha é destruída, e três ou quatro com munição x2 também. Os enxames de Beta e Gamma são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então esses mundos pedem grupos maiores.
 - **Os lasers dele decidem a luta.** Juntos, podem destruir uma Paragon em menos de um minuto, e até uma com os melhores escudos em menos de dois, com foguetes ou sem: leve o seu dano rápido, com os melhores escudos que tiver.
 - **Nave por nave.** Cada nave tem o seu casco e o seu pagamento, então a Force ou uma Pulse pode ser destruída primeiro. O enxame só é substituído quando é destruído por inteiro, depois do tempo da lista *Resumo rápido*.
 
@@ -45,11 +45,11 @@ Cada nave paga por si, pelo dano causado a ela ([como o abate de um chefe paga](
 Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Base: Wraith, com 100% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem. Dispara um foguete reto a cada 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Base: Wraith, com 100% do casco e 300% do dano dos lasers; a velocidade e o alcance são os da nave de origem. Dispara um foguete reto a cada 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Base: Wraith, com 100% de casco, escudo e dano; a velocidade e o alcance são os
 
 ### Dormant Pulse
 
-Base: Paragon, com 100% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem. Dispara um foguete reto a cada 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Base: Paragon, com 100% do casco e 600% do dano dos lasers; a velocidade e o alcance são os da nave de origem. Dispara um foguete reto a cada 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Casco | 128.000 | 192.000 | 256.000 |
 | Escudo | 64.570 | 96.855 | 129.140 |
-| Dano dos lasers (uma salva por segundo) | 1.920 | 2.880 | 3.840 |
+| Dano dos lasers (uma salva por segundo) | 3.840 | 5.760 | 7.680 |
 | Velocidade | 210 | 210 | 210 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |

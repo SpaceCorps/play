@@ -1,6 +1,8 @@
-<!-- wiki-i18n source: 380267094f925178 -->
+<!-- wiki-i18n source: 630505c843ae163b -->
 <!-- wiki-i18n title: ブースター -->
 # ブースター {#boosters}
+
+<!-- wiki-search: damage amp; damage amp ii; shield wall; shield wall ii; hull plating; hull plating ii; shield regen; experience kit; honor beacon; resource magnet; loot luck -->
 
 ブースターは、艦のステータスを一時的に変化させ、戦闘、防御、レベル上げ、資源の収集を強化します。
 
@@ -12,21 +14,21 @@
 アセンブリで作れるものは、先にその技術が必要です。アイテムにカーソルを合わせると、研究にかかる時間が分かります。技術ツリー、燃料、ブーストは [研究](/wiki/03-Mechanics/Research.md) を参照してください。
 
 ```tree
-Experience Kit | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Honor Beacon | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Damage Amp II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Regen | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Resource Magnet | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Damage Amp | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Loot Luck | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Experience Booster | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Honor Booster | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Regen Booster | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Resource Magnet Booster | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster 1 | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Loot Luck Booster | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 
-Shield Wall -> Shield Wall II
-Hull Plating -> Hull Plating II
-Damage Amp -> Damage Amp II
+Shield Wall Booster 1 -> Shield Wall Booster 2
+Hull Plating Booster 1 -> Hull Plating Booster 2
+Laser Damage Booster 1 -> Laser Damage Booster 2
 ```
 <!-- item-tree:end -->
 
@@ -41,21 +43,24 @@ Damage Amp -> Damage Amp II
 
 ## 有効なブースター {#active-boosters}
 
-すべてのブースターの基本持続時間は**10時間**で、購入、受け取り、または回収と同時にすぐ有効になります。3つの**II**ブースターは販売されていません。Skylab でその技術を研究し（[研究](/wiki/03-Mechanics/Research.md)）、アセンブリで製作します。製作したものを回収すると、購入したときと同じようにすぐ10時間が始まります。
+すべてのブースターの基本持続時間は**10時間**で、購入、受け取り、または回収と同時にすぐ有効になります。**2段階目**の3つのブースター（Laser Damage Booster 2、Shield Wall Booster 2、Hull Plating Booster 2）は販売されていません。Skylab でその技術を研究し（[研究](/wiki/03-Mechanics/Research.md)）、アセンブリで製作します。製作したものを回収すると、購入したときと同じようにすぐ10時間が始まります。
 
 | 名前 | レアリティ | 基本効果（10時間） | 価格（Thulium） |
 | :--- | :--- | :--- | :--- |
-| **Damage Amp** | レア | レーザーダメージ +10% | 20,000 |
-| **Damage Amp II** | レア | レーザーダメージ +10% | アセンブリ：20,000 |
-| **Shield Wall** | レア | シールド容量 +25%（最大シールドポイント） | 15,000 |
-| **Shield Wall II** | レア | シールド容量 +25%（最大シールドポイント） | アセンブリ：15,000 |
-| **Hull Plating** | レア | 最大 HP +10% | 15,000 |
-| **Hull Plating II** | レア | 最大 HP +10% | アセンブリ：15,000 |
-| **Shield Regen** | レア | シールドリチャージ速度 +25%（1秒あたりに回復するシールドポイント） | 10,000 |
-| **Experience Kit** | コモン | 経験値の獲得量 +20% | 8,000 |
-| **Honor Beacon** | コモン | 名誉ポイントの獲得量 +20% | 10,000 |
-| **Resource Magnet** | レア | 積荷コンテナの獲得量 +25% | 18,000 |
-| **Loot Luck** | レジェンダリー | NPC からのレアドロップ率 +5% | 30,000 |
+| **Laser Damage Booster 1** | レア | レーザーダメージ +10% | 20,000 |
+| **Laser Damage Booster 2** | レア | レーザーダメージ +10% | アセンブリ：20,000 |
+| **Shield Wall Booster 1** | レア | シールド容量 +25%（最大シールドポイント） | 15,000 |
+| **Shield Wall Booster 2** | レア | シールド容量 +25%（最大シールドポイント） | アセンブリ：15,000 |
+| **Hull Plating Booster 1** | レア | 最大 HP +10% | 15,000 |
+| **Hull Plating Booster 2** | レア | 最大 HP +10% | アセンブリ：15,000 |
+| **Shield Regen Booster** | レア | シールドリチャージ速度 +25%（1秒あたりに回復するシールドポイント） | 10,000 |
+| **Experience Booster** | コモン | 経験値の獲得量 +20% | 8,000 |
+| **Honor Booster** | コモン | 名誉ポイントの獲得量 +20% | 10,000 |
+| **Resource Magnet Booster** | レア | 積荷コンテナの獲得量 +25% | 18,000 |
+| **Loot Luck Booster** | レジェンダリー | NPC からのレアドロップ率 +5% | 30,000 |
+
+> [!NOTE]
+> **ブースターか、アンプか？** 別のものです。すべてのブースターは名前に **Booster** が付き、タイマーで動き、装着するものはありません。**Laser Damage Booster 1** と **Laser Damage Booster 2** は、10時間のあいだレーザーダメージ +10% で、ショップかアセンブリで手に入ります。**Damage Amp**、**Crit Amp**、**Penetration Amp**（ティアI～IV）はレーザーアンプです。レーザーのアンプスロットに装着するモジュールで、タイマーはありません（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。0.4.12 より前、ブースターの名前は Damage Amp と Damage Amp II、Shield Wall と Shield Wall II、Hull Plating と Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet、Loot Luck でした。作動中のブースターは、新しい名前のまま続いています。
 
 ---
 
@@ -65,8 +70,8 @@ Damage Amp -> Damage Amp II
 
 | 種類 | 内容 | 上げるブースト |
 | :--- | :--- | :--- |
-| **シールド容量** | 最大シールドポイント | Shield Wall、Shield Wall II、永続バフ **Shield Capacity Boost**（シーズンストア） |
+| **シールド容量** | 最大シールドポイント | Shield Wall Booster 1、Shield Wall Booster 2、永続バフ **Shield Capacity Boost**（シーズンストア） |
 | **シールド吸収率** | 各攻撃のうちシールドが受ける割合（残りは船体に当たります）。100%を超えることもあります | 永続バフ **Shield Absorbance Boost**（シーズンストア）：1レベルにつき +0.1ポイント（25 WP）、最大 +10ポイント。ブースターでは上がりません |
-| **シールドリチャージ** | 1秒あたりに回復するシールドポイント | Shield Regen。永続バフでは上がりません |
+| **シールドリチャージ** | 1秒あたりに回復するシールドポイント | Shield Regen Booster。永続バフでは上がりません |
 
 同じ種類のブーストは合算され、別の種類には加算されません。永続バフについては[シーズンをまたぐ成長](/wiki/03-Mechanics/Wipe-Timeline.md)、ステータス自体については[シールドの仕組み](/wiki/03-Mechanics/Shields.md)をご覧ください。

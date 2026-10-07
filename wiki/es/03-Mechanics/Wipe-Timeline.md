@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Cada temporada va del día 1 al 30 (el Reinicio empieza con su cuenta regresiva 
 | **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar y bloquear la carga que se llevan antes de la erupción. |
 | **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
 
-Aparte del propio reinicio, solo dos cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, y desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y perfil y en el Panel del juego, pero ninguno da todavía recompensas, apariciones ni bonificaciones especiales propias.
+Aparte del propio reinicio, solo tres cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y perfil y en el Panel del juego, pero ninguno da todavía recompensas, apariciones ni bonificaciones especiales propias.
 
 ---
 
@@ -43,7 +43,7 @@ Las piezas se consiguen con la interfaz del Materializador de Energía, que hace
 
 ## Alijo de Transporte (cápsula de viaje) {#transport-cache-travel-capsule-}
 
-Una vez reunidas las 100 piezas y estabilizado por completo el Chrono-Gate, el portal da acceso a tu **Alijo de Transporte** personal (también conocido como carro de traspaso o cápsula de viaje). Esta dimensión de bolsillo protege tus pertenencias para que no se borren durante el reinicio.
+Una vez reunidas las 100 piezas y estabilizado por completo el Chrono-Gate, el portal da acceso a tu **Alijo de Transporte** personal (también conocido como carro de traspaso o cápsula de viaje). Esta dimensión de bolsillo protege tus pertenencias para que no se borren durante el reinicio. Los objetos que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vuelven a ti con el reinicio como objetos sueltos, que el reinicio borra como el resto si no los guardas en el Alijo; las pujas que tienes en lotes se devuelven.
 
 ### Traspaso automático (gratis) {#automatic-carry-over-free-}
 Los siguientes objetos siempre están protegidos y pasan automáticamente a la siguiente temporada, sin ocupar **nada** de la capacidad de tu Alijo de Transporte:

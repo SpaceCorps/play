@@ -7,7 +7,7 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 ## I korthet {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Var**: Sektorerna `x-1` och `x-2` i varje koncern
 - **Hur många**: En i var och en av de sektorerna, 6 i varje värld
@@ -43,7 +43,7 @@ Boss Seeker betalar **exakt tio Seekers**: tio gånger en Seekers krediter, Thul
 Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2329e422c8d1d27c -->
+<!-- wiki-i18n source: f1a8f6f654c02a2d -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -22,21 +22,21 @@ Les dégâts de base de tous les lasers équipés (y compris les lasers des dron
 
 Chaque salve a une chance d’être un coup critique.
 - **Taux critique** : le taux critique moyen des lasers équipés, plus la somme des taux critiques de tous les amplis laser équipés.
-- **Multiplicateur critique** : si un tir est critique, le tirage de dégâts est multiplié par **1,5**. Le nombre de dégâts d’une salve critique s’affiche en cyan glacé, plus grand, avec un « ! ».
+- **Multiplicateur critique** : si un tir est critique, le tirage de dégâts est multiplié par **1,5**. Le nombre de dégâts d’une salve critique s’affiche en cyan glacé, plus grand, avec un « ! » (voir [Nombres de dégâts et de soins](#damage-and-heal-numbers)).
 - Les Quantum Laser 1 et 2 n’ont pas de taux critique propre : ce sont leurs amplis qui le leur donnent.
 - **Dégâts critiques fixes** : les dégâts critiques fixes des amplis laser s’ajoutent après le multiplicateur.
   - Formule : `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
 ### 3. Multiplicateurs globaux {#3-global-multipliers}
 
-Enfin, les multiplicateurs globaux (comme les boosters actifs ou les multiplicateurs des munitions laser x2, x3, x4) sont appliqués pour obtenir les dégâts finaux :
+Enfin, les multiplicateurs globaux (comme les boosters actifs, par exemple les +10 % d’un Laser Damage Booster, ou les multiplicateurs des munitions laser x2, x3, x4) sont appliqués pour obtenir les dégâts finaux :
 - Formule : `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée peut encore multiplier le résultat : par exemple Auger +21 % de dégâts laser, Gyre −11 % et, contre les aliens, Culler +12 % (un facteur à part, qui ne fait pas partie du pourcentage des boosters).
 - Les munitions **Siphon Battery** ont le multiplicateur x1 mais une autre cible : leurs dégâts sont pris sur le seul bouclier de la cible (jamais sur la coque, quelle que soit l’absorption) et vont dans votre propre bouclier, jusqu’à votre maximum. Voir [Lasers et munitions](/wiki/06-Items/Lasers.md).
 
 ### 3b. Roquettes {#3b-rockets}
 
-Une [roquette](/wiki/06-Items/Rockets.md) a ses propres dégâts (de 1 600 à 2 000 pour une Lancet I, de 4 800 à 6 000 pour une Lancet III, de 45 000 à 50 000 pour une N.U.K.E.), déterminés une fois par un jet au moment du tir et les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle ne fait pas de coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, moins vers le bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent. Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule chose qui change les deux : une formation de roquettes augmente les dégâts de chaque roquette (jusqu’à +55 %), et quelques-unes allongent ou raccourcissent le minuteur.
+Une [roquette](/wiki/06-Items/Rockets.md) a ses propres dégâts (de 1 700 à 2 100 pour une Lancet I, de 5 200 à 6 200 pour une Lancet III, de 45 000 à 50 000 pour une N.U.K.E.), déterminés une fois par un jet au moment du tir et les mêmes pour tous les vaisseaux : vos lasers, amplis, boosters et munitions ne les changent pas, et elle ne fait pas de coup critique. Toutes les roquettes partagent un même délai de **5 secondes**. Une roquette à cible unique a une **pénétration de bouclier** : elle est retranchée de l’absorption de votre cible (voir Subir des dégâts, plus bas) ; une explosion blesse tous les vaisseaux dans son rayon, le nombre entier au centre et la moitié au bord. Rien ne plafonne ce qu’une roquette retire au vaisseau d’un pilote : le bouclier d’abord, puis la coque. Les roquettes ne blessent jamais votre propre corporation ni votre propre [groupe](/wiki/03-Mechanics/Groups.md), quelles que soient les corporations qui le composent. Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule chose qui change les deux : une formation de roquettes augmente les dégâts de chaque roquette (jusqu’à +55 %), et quelques-unes allongent ou raccourcissent le minuteur. Les [astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md) ne subissent des dégâts que des roquettes : les lasers et les drones ne leur font rien, et une roquette ne touche que l’astéroïde sur lequel elle a été tirée.
 
 ### 4. Face à la cible {#4-facing-the-target}
 
@@ -45,6 +45,16 @@ Un vaisseau ou un alien qui a verrouillé sa cible et tire se tourne vers elle, 
 ### 5. Portée {#5-range}
 
 Un vaisseau tire une salve par seconde tant que sa cible est dans sa **portée**, et suspend le tir tant que la cible est plus loin : le tir cesse de consommer des munitions jusqu’à ce que la cible soit de nouveau assez proche, et le panneau de la cible indique « Hors de portée ». La portée est **la moyenne des portées de tous vos lasers** (ceux de vos drones compris), arrondie à l’unité la plus proche, et c’est un seul nombre pour tout le vaisseau : en deçà, tous les lasers tirent ; au-delà, aucun. Un laser à longue portée à côté de lasers plus courts n’allonge donc pas votre portée : un Starfire-3 (850) et deux Quantum Laser 2 (700) donnent 750. Un bonus de portée de la Forge compte sur son propre laser, avant la moyenne. Un vaisseau sans laser ne peut pas tirer au laser, et le hangar n’affiche aucune portée pour lui (un tiret) ; ses roquettes tirent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Voir [Lasers et munitions](/wiki/06-Items/Lasers.md) pour la portée propre de chaque laser.
+
+## Nombres de dégâts et de soins {#damage-and-heal-numbers}
+
+Un coup s’affiche comme un nombre qui flotte au-dessus du vaisseau qu’il touche. **Vos propres nombres** s’affichent toujours : les dégâts que vous infligez, ceux que vous subissez et vos propres réparations. **Le vaisseau sous votre cercle de verrouillage** en montre davantage : chaque coup et chaque soin qu’il reçoit, **de n’importe quelle source**. Cela comprend les lasers, roquettes et drones des autres pilotes, les aliens, les Clan Wardens, ainsi que les réparations et la régénération de bouclier du vaisseau lui-même. Quand quelqu’un d’autre tire sur votre cible, vous voyez ses dégâts.
+
+- **Couleurs.** Or : dégâts sur un alien ou sur un pilote ennemi. Rouge avec un moins : dégâts sur un vaisseau que vous protégez (un pilote de votre propre corporation ou de votre groupe) et dégâts que vous subissez vous-même. Vert avec un plus : un soin, comme une Emergency Repair, un Repair Drone ou un bouclier qui revient. « Miss » en argent pâle : un coup direct que l’esquive d’une formation a dévié. Une salve critique est plus grande et se termine par un « ! » (cyan glacé quand elle touche un alien ou un ennemi).
+- **Les vôtres restent plus lumineux.** Les nombres des autres sur votre cible sont un peu plus petits et plus pâles, et se tiennent dans une colonne à droite du vaisseau, pour ne jamais couvrir les vôtres.
+- **Un nombre pour une foule.** Les coups qui arrivent ensemble sont additionnés en un seul nombre suivi d’un compte (`×35`). Quarante pilotes qui tirent sur un vaisseau font environ deux nombres par seconde, et jamais plus de sept. Les soins s’affichent une fois par seconde.
+- **Seulement le vaisseau sous le cercle.** Tout autre vaisseau ne montre que vos propres coups et les coups que vous recevez. Les radiations du trou noir et le drain de bouclier d’une formation n’ont pas de nombres : ils se voient sur les barres.
+- **Le réglage.** Paramètres › Interface › **Afficher les dégâts des autres sur ma cible**, activé par défaut. Désactivé, vous ne voyez que vos propres nombres. **Réduire les animations** garde tous les nombres immobiles : aucun n’apparaît d’un bond ni ne monte.
 
 ---
 
@@ -106,10 +116,10 @@ Quand votre vaisseau est touché par un ennemi ou un PNJ, les dégâts sont trai
 
 Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**absorption moyenne** de votre vaisseau : la moyenne de l’absorption de vos boucliers, chacun avec celle de ses cellules de bouclier, plus le Shield Absorbance Boost de la Boutique de saison (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md)). Elle n’est **pas plafonnée à 100 %** : la part d’un tir que prennent les boucliers est votre absorption **moins la pénétration de bouclier de l’attaquant**, entre 0 % et 100 %.
 - L’**absorption** (par ex. 80 % pour le meilleur bouclier avec les meilleures cellules, 56 % pour un Basic Shield Core avec deux Absorption Shield Cell I) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Lancet III laissent 45 % sur les boucliers d’un vaisseau à 80 %, et le reste (ici 55 %) frappe directement les PV.
-- La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %).
+- La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %). Les Penetration Amps des lasers du tireur (+2 % à +8 % par emplacement) et une formation de drones s’y ajoutent : un tir laser s’arrête à 50 %, une roquette à 40 %.
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.
-- **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 6 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+9 points) et Stiletto (+16) ajoutent de la pénétration à vos propres munitions et aux roquettes directes, jusqu’à 40 % en tout ([Formations de drones](/wiki/03-Mechanics/Formations.md)).
+- **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 6 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+9 points) et Stiletto (+16) ajoutent de la pénétration à vos propres munitions et aux roquettes directes, jusqu’à 40 % en tout ([Formations de drones](/wiki/03-Mechanics/Formations.md)). Pour un laser, le total va jusqu’à 50 %, et ses amplis comptent aussi.
 
 ### 2. Immunité en zone sûre {#2-safe-zone-immunity}
 

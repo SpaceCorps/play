@@ -110,7 +110,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 1. A **collector** mines ore, an amount an hour, into its own hopper (72 hours' worth).
 2. **Collect** moves the ore from the hopper into the **Resource Storage**, the bank, where each ore is kept apart.
 3. The **Forgery** takes the ore it needs from the bank when a batch starts, and makes plates, 10 seconds a plate, one batch at a time.
-4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/06-Items/Lasers.md) turns them into a Quantum Laser 3, a Starfire-3 or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate for [The Forge](/wiki/06-Items/Forge.md).
+4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/06-Items/Lasers.md) turns them into a Quantum Laser 3, a Starfire-3 or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate, which [The Forge](/wiki/06-Items/Forge.md) and the last tier of every upgrade chain ask for.
 
 ### Velkonite Collector and Orvium Collector
 
@@ -135,6 +135,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 - **Collect plates**: moves the finished plates into your inventory while your **ship is landed**, and the rest of the batch keeps running. A new batch can start once the Forgery is empty.
 - A batch that is running finishes even if you switch the Forgery off or upgrade it. A **new** batch needs the Forgery switched on, not being upgraded, and the Skylab's power in balance.
 - **Power**: 30 at level 1, growing by 15% a level.
+- **Not Marketable**: the plates the Forgery makes can't be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items), or they would be the biggest good of its Market. They are still material for the Assembly and the Forge.
 
 ### Building them
 
@@ -146,7 +147,7 @@ The two collectors cost **10 Ship Fragments, 20,000 Credits and 500 Thulium** ea
 
 ## The Research Centre
 
-The ninth module turns resources into science and researches the technologies that Assembly needs before it will make anything new. It is built from Core level 10, has levels 1 to 10, draws power and cannot be switched off. Its numbers, what it burns as fuel, the boost and the whole technology tree are on the [Research](/wiki/03-Mechanics/Research.md) page.
+The ninth module turns resources into science and researches the technologies that Assembly needs before it will make anything new. It is built from Core level 10, has levels 1 to 10, draws power and cannot be switched off. Its numbers, what it burns as fuel, the boost and the whole technology tree are on the [Research](/wiki/03-Mechanics/Research.md) page. The highest technologies also need Dark Matter, which you add to the Centre: [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) says how to get it.
 
 ## Mechanics
 
@@ -263,7 +264,7 @@ Every farm and collector has a hopper for about 72 hours of what it makes. You c
 
 ### The wipe
 
-The Skylab is never wiped: modules keep their levels, the Resource Storage keeps its ore and the Research Centre keeps its technologies, its tank of science, the Dark Matter plugged into it and a research under way. The plates in your inventory are items like any other, so they follow the [wipe rules](/wiki/03-Mechanics/Wipe-Timeline.md).
+The Skylab is never wiped: modules keep their levels, the Resource Storage keeps its ore and the Research Centre keeps its technologies, its tank of science, the Dark Matter it holds and a research under way. The plates in your inventory are items like any other, so they follow the [wipe rules](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Planning your Skylab
 

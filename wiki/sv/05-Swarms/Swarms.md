@@ -15,7 +15,7 @@ Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskj
 ## De tre svärmarna {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Svärm | Var | Hur många | Ledare | Följeslagare | Kommer tillbaka |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen 
 ## Reglerna för varje svärm {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Svärmarna dyker upp från säsongsdag 4 till wipen.
 - När ett svärmskepp träffas ansluter sig svärmens skepp inom 1 500 enheter från det till striden mot den första piloten som träffade det.
@@ -46,7 +46,7 @@ Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen 
 Världen skalar en svärm som den skalar varje utomjording ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): ett svärmskepps skrov, sköld, sköldladdning, laserskada, raketskada och läkning är Alphas värden gånger styrkan nedan, och en nedskjutning betalar den betalning som anges nedan. Hastighet, räckvidd och byte är desamma i alla världar. Artiklarna anger varje skepps värden i alla tre världar.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Värld | Styrka | Betalning |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ En vanlig utomjording betalar piloten som träffade den först ([Strid](/wiki/03
 Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik och ger PvE-poäng till din ranking:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Svärmskepp | Svärm | PvE-poäng per nedskjutning |
 | :--- | :--- | ---: |

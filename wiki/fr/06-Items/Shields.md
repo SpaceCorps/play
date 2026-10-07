@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06696a3c765a00c4 -->
+<!-- wiki-i18n source: aff32f1e7e47620e -->
 <!-- wiki-i18n title: Boucliers -->
 # Boucliers et défense {#shields-defense}
 
@@ -14,7 +14,7 @@ Ce que fabrique l’Assemblage exige d’abord sa technologie ; pointez un obje
 ```tree
 Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.md#shield-cores
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
@@ -24,8 +24,8 @@ Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | res
 Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
 Adaptive Core I -> Adaptive Core II -> Adaptive Core III
@@ -44,7 +44,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Basic Shield Core** | Commun | 15 000 | 500/s | 48 % | +10 % | -3 % | 2 | Shield Surge II | 2 000 Thulium |
 | **Heavy Shield Core** | Rare | 25 000 | 833/s | 50 % | +20 % | -5 % | 3 | Shield Surge III | À fabriquer |
 
-Le **Heavy Shield Core** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core, avec 2 000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plates et 6 Velkonite Reinforced Plates de votre Skylab. Il garde le rang d’enchantement du bouclier qu’il consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord le Basic Shield Core de votre vaisseau (et sortez-en les cellules) : un bouclier installé ou qui contient des cellules n’est pas consommé.
+Le **Heavy Shield Core** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core, avec 2 000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plates et 3 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Il garde le rang d’enchantement du bouclier qu’il consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord le Basic Shield Core de votre vaisseau (et sortez-en les cellules) : un bouclier installé ou qui contient des cellules n’est pas consommé.
 
 L’**absorption** est la part de chaque tir que prennent vos boucliers ; la coque encaisse le reste. Un bouclier seul donne **45 à 50 %**, et ses cellules ajoutent le reste : le meilleur bouclier avec les meilleures cellules (un Heavy Shield Core avec trois Absorption Shield Cell IV) donne **80 %**, le maximum qu’un vaisseau possède d’emblée. Deux bonus permanents s’y ajoutent : le Shield Absorbance Boost de la Boutique de saison (+0,1 point par niveau, 100 niveaux, 25 points de réinitialisation chacun) et les bonus d’absorption de la Forge. Les sources actuelles de points de réinitialisation (855 au total à leur plafond, conservés d’une réinitialisation à l’autre ; d’autres sources sont prévues) achètent 34 de ces 100 niveaux (+3,4 points), ce qui, avec un ensemble Éternel entièrement forgé, donne environ **95 %**. La stat n’est cependant pas plafonnée à 100 % : la *pénétration de bouclier* d’un attaquant en est retranchée, si bien que ce qu’un vaisseau a au-dessus de 100 % est sa marge face à la pénétration. Voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
@@ -77,4 +77,4 @@ Les cellules de bouclier s’installent dans des boucliers ou des cœurs adaptat
 | **Absorption Shield Cell III** | Rare | +4 500 | +375/s | +8 % | À fabriquer |
 | **Absorption Shield Cell IV** | Épique | +6 000 | +500/s | +10 % | À fabriquer |
 
-Le palier I de chaque famille se vend 30 000 crédits. Les paliers II à IV se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules), chacun à partir de la cellule de la même famille un palier en dessous (une Capacity Shield Cell II à partir d’une Capacity Shield Cell I, une III à partir d’une II, une IV à partir d’une III), avec du Thulium, du butin et des Velkonite Reinforced Plates de votre Skylab (2, 4 et 6 plaques). Une cellule ne change jamais de famille : vous choisissez Capacity ou Absorption en achetant le palier I. La nouvelle cellule garde le rang d’enchantement de la cellule qu’elle consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les cellules ne vont pas dans un [emplacement de compétence](/wiki/03-Mechanics/Abilities.md) ; elles se placent dans des boucliers et des cœurs adaptatifs.
+Le palier I de chaque famille se vend 30 000 crédits. Les paliers II à IV se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules), chacun à partir de la cellule de la même famille un palier en dessous (une Capacity Shield Cell II à partir d’une Capacity Shield Cell I, une III à partir d’une II, une IV à partir d’une III), avec du Thulium, du butin et des plaques : 2 ou 4 Velkonite Reinforced Plates de votre Skylab pour le palier II ou III, et 3 Dark Matter Plates pour le palier IV. Une cellule ne change jamais de famille : vous choisissez Capacity ou Absorption en achetant le palier I. La nouvelle cellule garde le rang d’enchantement de la cellule qu’elle consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les cellules ne vont pas dans un [emplacement de compétence](/wiki/03-Mechanics/Abilities.md) ; elles se placent dans des boucliers et des cœurs adaptatifs.

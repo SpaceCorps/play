@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6d1c3f189d0e637 -->
+<!-- wiki-i18n source: 9c17f4775a1e2000 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -23,8 +23,10 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 - **Qualquer uma das duas configurações.** Você pode preparar a configuração 2 enquanto voa com a configuração 1 e depois trocar com a tecla Trocar config. Um botão **Voar com config.** no hangar faz a mesma troca.
 - **Qualquer nave.** Ative outra nave e você voa com ela de onde está. O modelo da sua nave muda diante de todos que estão por perto.
 - **Um novo escudo, motor ou núcleo adaptativo começa vazio**, como na estação: a carga de escudo da configuração fica vazia até recarregar.
-- **Formações de drones.** A tela Drones lista sob os seus drones as formações que você tem. Elas não são equipadas: em voo você arrasta uma da lista de Formações da barra de atalhos para um slot, e o clique ou a tecla desse slot a usa, sem espera dentro de uma zona segura ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
+- **Formações de drones.** A tela Drones lista sob os seus drones as formações que você tem. Elas não são equipadas: em voo você arrasta uma da lista de Formações da barra de atalhos para um slot, e o clique ou a tecla desse slot a usa, com a mesma espera de 2 segundos de qualquer lugar, inclusive dentro de uma zona segura ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** As quatro naves comuns, Protos, Kitefin, Ostirion e Nomad (as com que você começa ou que compra), têm 2 slots extras por configuração; as quatro naves que você fabrica na Montagem, Paragon, Ironclad, Wraith e Storm, têm 3. As Extra Slots CPUs do seu Skylab dão 3, 5 ou 7 a mais: 5, 7 ou 9 nas comuns e 6, 8 ou 10 nas fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Com a 0.4.10, um terceiro extra em uma nave comum foi desequipado e foi para o seu inventário: nada foi apagado, e você recebeu uma mensagem no chat.
+
+Vender não faz parte da janela: o martelo que abre o [Leilão](/wiki/03-Mechanics/Auction.md) pertence ao Hangar da estação, e o próprio Leilão é uma página da estação.
 
 ## Trocar de nave {#changing-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Essaim Pirate -->
 # Essaim Pirate {#pirate-swarm}
 
@@ -7,7 +7,7 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 ## D’un coup d’œil {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Où** : Les secteurs `x-2` et `x-3` de chaque corporation
 - **Combien** : Un dans chacun de ces secteurs, 6 dans chaque monde
@@ -32,7 +32,7 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 - **Tirez sur le boss, pas sur les Scouts.** Les Scouts soignent le boss, mais ce soin est faible à côté de sa coque, et un nouveau Scout arrive aussi souvent que le dit la liste *D’un coup d’œil* : un groupe qui élimine d’abord les Scouts ne prend jamais d’avance sur eux, et seul un très grand groupe peut les éliminer tous et met pourtant plus de temps à finir le boss que celui qui les a laissés tranquilles. Les Scouts vous coûtent du temps, ils ne décident pas du combat.
 - **Éloignez les Scouts.** Un Scout ne soigne que tant qu’il est à portée du boss, donc un Scout qui vous suit hors de cette portée ne soigne rien, et un Ostirion est plus rapide qu’un Scout.
 - **Restez en mouvement.** La roquette du boss est droite et non guidée : un vaisseau qui reste en mouvement l’esquive, un vaisseau immobile est touché.
-- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 peuvent l’abattre en environ cinq minutes dans Alpha ; un Ostirion seul n’y arrive pas, un Paragon seul si. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
+- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 peuvent l’abattre en environ cinq minutes dans Alpha, mais de justesse et seulement tant que les coups se répartissent : un trio qui laisse un pilote encaisser tout le feu perd. Cinq l’abattent en trois à quatre minutes ; un Ostirion seul n’y arrive pas, un Paragon seul si. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
 - **Le boss revient** après le délai de la liste *D’un coup d’œil*, dans le même secteur.
 
 ## Récompenses et butin {#rewards-and-drops}
@@ -44,7 +44,7 @@ Le Pirate Boss paie à la mesure du combat qu’il est : une minute de combat c
 Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 
 ### Pirate Scout
 
-Base : Kitefin, avec 50 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine.
+Base : Kitefin, avec 50 % de sa coque et 75 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Coque | 12 000 | 18 000 | 24 000 |
 | Bouclier | 9 818 | 14 727 | 19 636 |
-| Dégâts des lasers (une salve par seconde) | 98 | 147 | 196 |
+| Dégâts des lasers (une salve par seconde) | 147 | 221 | 294 |
 | Vitesse | 175 | 175 | 175 |
 | Portée des lasers | 700 | 700 | 700 |
 | Rayon d’aggro | 700 | 700 | 700 |

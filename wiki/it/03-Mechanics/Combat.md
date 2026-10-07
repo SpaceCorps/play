@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2329e422c8d1d27c -->
+<!-- wiki-i18n source: f1a8f6f654c02a2d -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -22,21 +22,21 @@ Si somma il danno base di tutti i laser equipaggiati (compresi i laser sui droni
 
 Ogni raffica ha una probabilità di essere un colpo critico.
 - **Probabilità critica**: la probabilità critica media dei laser equipaggiati più la somma delle probabilità critiche di tutti gli amp laser equipaggiati.
-- **Moltiplicatore critico**: se un colpo è critico, il tiro del danno viene moltiplicato per **1,5x**. Il numero del danno di una raffica critica è mostrato in azzurro ghiaccio, più grande, con un “!”.
+- **Moltiplicatore critico**: se un colpo è critico, il tiro del danno viene moltiplicato per **1,5x**. Il numero del danno di una raffica critica è mostrato in azzurro ghiaccio, più grande, con un “!” (vedi [Numeri di danno e di cura](#damage-and-heal-numbers)).
 - Quantum Laser 1 e 2 non hanno una probabilità critica propria: la danno i loro amp.
 - **Danno critico fisso**: l’eventuale danno critico fisso degli amp laser viene aggiunto dopo il moltiplicatore.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
 ### 3. Moltiplicatori globali {#3-global-multipliers}
 
-Infine si applicano i moltiplicatori globali (come i booster attivi o i moltiplicatori delle munizioni laser, per esempio x2, x3, x4) per ottenere il danno finale:
+Infine si applicano i moltiplicatori globali (come i booster attivi, per esempio il +10% di un Laser Damage Booster, o i moltiplicatori delle munizioni laser, per esempio x2, x3, x4) per ottenere il danno finale:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata può moltiplicare ancora il risultato: per esempio Auger +21% di danno laser, Gyre −11% e, contro gli alieni, Culler +12% (un fattore a parte, non compreso nella percentuale dei booster).
 - Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 
 ### 3b. Razzi {#3b-rockets}
 
-Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.600 a 2.000, un Lancet III da 4.800 a 6.000, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, meno verso il bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer.
+Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.700 a 2.100, un Lancet III da 5.200 a 6.200, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **5 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, il numero intero al centro e la metà al bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer. Gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md) subiscono danni solo dai razzi: i laser e i droni non fanno nulla, e un razzo colpisce solo l’asteroide contro cui è stato sparato.
 
 ### 4. Voltarsi verso il bersaglio {#4-facing-the-target}
 
@@ -45,6 +45,16 @@ Una nave o un alieno che ha agganciato un bersaglio e spara si volta verso di es
 ### 5. Portata {#5-range}
 
 Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua **portata**, e trattiene il fuoco finché il bersaglio è più lontano: il fuoco smette di consumare munizioni finché il bersaglio non è di nuovo abbastanza vicino, e la finestra Bersaglio dice “Fuori portata”. La portata è **la media delle portate di tutti i tuoi laser** (compresi i laser nei tuoi droni), arrotondata all’unità più vicina, ed è un unico numero per tutta la nave: entro di essa spara ogni laser, fuori nessuno. Un laser a lungo raggio accanto a laser corti quindi non allunga la tua portata: una Starfire-3 (850) e due Quantum Laser 2 (700) fanno 750. Un bonus di portata della Forgia conta sul proprio laser prima della media. Una nave senza laser non può sparare con i laser, e l’Hangar non mostra alcuna portata per essa (un trattino); i suoi razzi sparano comunque, ciascuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Per la portata di ciascun laser vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
+
+## Numeri di danno e di cura {#damage-and-heal-numbers}
+
+Un colpo appare come un numero che fluttua sopra la nave che colpisce. **I tuoi numeri** si vedono sempre: il danno che infliggi, il danno che subisci e le tue riparazioni. **La nave sotto il tuo cerchio di aggancio** ne mostra di più: ogni colpo e ogni cura che riceve, **da qualsiasi fonte**. Cioè i laser, i razzi e i droni di altri piloti, gli alieni, i Clan Warden e le riparazioni e la rigenerazione dello scudo della nave stessa. Quando un altro spara al tuo bersaglio, vedi il suo danno.
+
+- **Colori.** Oro: danno a un alieno o a un pilota nemico. Rosso con un meno: danno a una nave che proteggi (un pilota della tua corporazione o del tuo gruppo) e il danno che subisci tu. Verde con un più: una cura, come una Emergency Repair, un Repair Drone o uno scudo che torna. “Miss” in argento chiaro: un colpo diretto che la schivata di una formazione ha deviato. Una raffica critica è più grande e finisce con un “!” (azzurro ghiaccio quando colpisce un alieno o un nemico).
+- **I tuoi restano più luminosi.** I numeri degli altri sul tuo bersaglio sono un po’ più piccoli e più tenui, e stanno in una colonna a destra della nave, così non coprono mai i tuoi.
+- **Un numero per una folla.** I colpi che arrivano insieme si sommano in un solo numero con un conteggio dopo (`×35`). Quaranta piloti che sparano a una nave fanno circa due numeri al secondo, e mai più di sette. Le cure compaiono una volta al secondo.
+- **Solo la nave sotto il cerchio.** Ogni altra nave mostra solo i tuoi colpi e i colpi che subisci. Le radiazioni del buco nero e il drenaggio di scudo di una formazione non hanno numeri: si vedono sulle barre.
+- **L’impostazione.** Impostazioni › Interfaccia › **Mostra il danno inflitto da altri al mio bersaglio**, attiva di default. Se la disattivi, vedi solo i tuoi numeri. **Riduci movimento** tiene fermi tutti i numeri: nessuno compare di scatto né sale.
 
 ---
 
@@ -106,10 +116,10 @@ Quando la tua nave viene colpita da un nemico o da un NPC, il danno viene elabor
 
 Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbimento medio** della tua nave: la media dell’assorbimento dei tuoi scudi, ciascuno con quello delle sue celle scudo, più lo Shield Absorbance Boost dell’Emporio (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)). **Non ha un tetto del 100%**: ciò che gli scudi prendono di un colpo è il tuo assorbimento **meno la penetrazione dello scudo dell’attaccante**, tra 0% e 100%.
 - L’**assorbimento** (ad es. 80% per il miglior scudo con le migliori celle, 56% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 45% agli scudi di una nave all’80%, e il resto (il 55% in questo caso) colpisce direttamente i punti scafo.
-- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%).
+- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +2% a +8% per slot) e una formazione di droni si sommano: un colpo laser si ferma al 50%, un razzo al 40%.
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
-- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, fino al 40% in tutto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
+- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, fino al 40% in tutto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser il totale arriva fino al 50%, e contano anche i suoi amp.
 
 ### 2. Immunità della zona sicura {#2-safe-zone-immunity}
 

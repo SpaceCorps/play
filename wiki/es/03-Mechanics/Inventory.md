@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario y equipamiento {#inventory-equipment}
 
@@ -22,6 +22,10 @@ A diferencia de los juegos espaciales tradicionales, SpaceCorps tiene ranuras de
 
 El inventario enumera tus objetos en el mismo orden que la tienda, sea cual sea el orden en que los compraste, fabricaste o encontraste. Los tipos que van juntos están juntos: láseres, amplificadores láser y munición láser; escudos y células de escudo; motores y propulsores; núcleos adaptativos; extras (Repair Drones); drones y formaciones de drones; y después los recursos. Dentro de un tipo va primero lo más barato (los créditos antes que el Thulium) y luego lo que no tiene precio: el equipo solo fabricable y los botines, de la rareza más débil a la más fuerte (los láseres de una misma rareza, del menor daño al mayor). La munición láser va de x1 a x4 y después la Siphon Battery. Los cohetes se ordenan por clase (un objetivo antes que explosión en área, guiados antes que rectos) y luego por grado, así que el cohete épico, que cuesta Thulium, queda el último de su clase. Las copias de un mismo objeto se ordenan por su grado de encantamiento. Encima de la cuadrícula, un chip por tipo sigue el mismo orden, cada uno con el número de objetos que encuentra en él la búsqueda. Cada chip se activa o se desactiva por separado, así que puedes ocultar la munición y los Repair Drones mientras trabajas con láseres, escudos y motores: haz clic en un chip para mostrar u ocultar su tipo, haz clic con Shift (o doble clic) para dejar activado solo ese tipo y vuelve a hacer clic en él para recuperar los demás. **Todas** muestra todos los tipos y **Ninguna** los oculta todos, para activar solo los que quieras. Un chip tachado está desactivado y un chip con una marca de verificación está activado. La búsqueda actúa sobre los tipos que están activados, y tu elección se guarda con tu piloto. Si todo está oculto, la cuadrícula lo indica y ofrece **Mostrar todas las categorías**.
 
+## Objetos comercializables {#marketable-items}
+
+Los objetos que has ganado (botín, recompensas de misiones y lo que fabrican el Ensamblaje y la Forja) llevan una pequeña etiqueta **Comercializable** en su casilla, y la tarjeta del objeto dice «Comercializable» o, en una pila de la que solo se pueden vender algunas unidades, «Comercializable (3 de 5)». El chip **Solo comercializable**, junto a los chips de categoría, muestra solo esos objetos. Un **martillo** junto a la papelera de un objeto con etiqueta abre la hoja de venta de la [Subasta](/wiki/03-Mechanics/Auction.md) (en vuelo no se muestra: vender es una página de la estación). Lo que has comprado, ganado o te han regalado no lleva etiqueta y no se puede volver a vender.
+
 ## Instalar objetos en objetos (subranuras) {#item-to-item-equipping-sub-sockets-}
 
 Algunos objetos principales pueden «equipar» objetos secundarios de apoyo (lo que se llama instalar en subranuras) para amplificar sus parámetros. Para instalar en una subranura, arrastra el objeto de apoyo directamente sobre el objeto principal en el inventario de tu hangar.
@@ -30,7 +34,7 @@ Algunos objetos principales pueden «equipar» objetos secundarios de apoyo (lo 
 
 | Objeto principal | Objetos admitidos en subranuras | Efecto resultante |
 | :--- | :--- | :--- |
-| **Láser** | Amplificador láser (amp.) | Aumenta el daño base y las estadísticas de golpe crítico |
+| **Láser** | Amplificador láser (amp.) | Aumenta el daño base y las estadísticas de impacto crítico, o resta puntos a la absorción del objetivo (Penetration Amp) |
 | **Escudo** | Célula de escudo | Aumenta la capacidad de escudo y la velocidad de recarga |
 | **Motor** | Propulsor | Aumenta la velocidad del motor y sus multiplicadores |
 | **Generador híbrido** | Célula de escudo O propulsor | Aumenta la capacidad de escudo, la velocidad de recarga o la velocidad |

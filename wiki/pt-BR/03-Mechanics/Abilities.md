@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1f9dad98b1e0c6d8 -->
+<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades ativas da nave {#active-ship-abilities}
 
@@ -86,7 +86,7 @@ Vários módulos do mesmo tipo em uma configuração: o de menor nível define a
 
 <!-- abilities:end -->
 
-Os escudos e motores de nível III (o Heavy Shield Core, o Engine III) não são vendidos: você os faz na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Basic Shield Core e de um Engine II, com Thulium, drops e Velkonite Reinforced Plates da Forja do seu [Skylab](/wiki/03-Mechanics/Skylab.md). O Emergency Repair tem um quarto nível, o Repair Drone IV.
+Os escudos e motores de nível III (o Heavy Shield Core, o Engine III) não são vendidos: você os faz na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Basic Shield Core e de um Engine II, com Thulium, drops e 3 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). O Emergency Repair tem um quarto nível, o Repair Drone IV.
 
 ## Tempos de recarga e limites {#cooldowns-and-limits}
 

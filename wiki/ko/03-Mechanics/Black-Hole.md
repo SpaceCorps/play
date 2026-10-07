@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: b21f5edc663ee913 -->
+<!-- wiki-i18n source: 240bad7b031a48fe -->
 <!-- wiki-i18n title: 블랙홀 -->
 # 블랙홀 {#the-black-hole}
 
-위험 섹터 4(`DS-4`, PvP 구역의 중심) 한가운데에는 어둠 속에 블랙홀이 떠 있습니다. 모든 월드(Alpha, Beta, Gamma)에서, 평화 프로토콜 기간을 포함해 시즌의 모든 날에 똑같이 존재합니다. 블랙홀은 너무 가까이 다가온 것을 모두 삼키지만, 단 하나는 돌려줍니다. 바로 블랙홀에 N.I.K.E. 로켓을 쏘았을 때 나오는 [Dark Matter](#dark-matter)입니다.
+<!-- wiki-search: black hole -->
+
+위험 섹터 4(`DS-4`, PvP 구역의 중심) 한가운데에는 어둠 속에 블랙홀이 떠 있습니다. 모든 월드(Alpha, Beta, Gamma)에서, 평화 프로토콜 기간을 포함해 시즌의 모든 날에 똑같이 존재합니다. 블랙홀은 너무 가까이 다가온 것을 모두 삼키지만, 단 하나는 돌려줍니다. 바로 블랙홀에 N.I.K.E. 로켓을 쏘았을 때 나오는 [Dark Matter](#dark-matter)입니다. 연구에서 플레이트까지의 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -88,7 +90,7 @@
 
 초당 272유닛보다 빠른 함선(러너 구성, 또는 Afterburner를 작동 중인 기본 Wraith)은 귀환 불능 지점이 원래 있던 자리에 그대로 있습니다. 속도 300에서는 885, 432에서는 747입니다.
 
-속도에 맞춰 구성하면 더 깊은 곳에서도 빠져나올 수 있고, 무거운 실드를 가득 실으면 그럴 수 없습니다(가장 느린 함선인 Ironclad의 14개 슬롯 모두에 Heavy Shield Core를 장착하면 속도는 39.1이고 귀환 불능 지점은 약 2,600입니다). 귀환 불능 지점 바로 안쪽에 들어온 함선을 되돌릴 수 있는 것은 순간 가속뿐입니다. 작동 중인 [Afterburner](/wiki/03-Mechanics/Abilities.md)가 여기에 해당하며, 작동하는 동안 귀환 불능 지점을 더 깊은 곳으로 옮겨 줍니다(엔진 1개면 10초, 2개면 15초, 3개면 20초. Afterburner III는 기본 Protos의 지점을 1,577에서 989로, 기본 Wraith의 지점을 1,208에서 801으로 옮깁니다). 속도 능력치를 전부 최대로 인챈트하고 가장 강한 가속(상한까지 인챈트한 Afterburner III, x1.69)을 작동시킨, 속도에 맞춘 함선조차도 약 390유닛 이내에서는 누구도 빠져나올 수 없습니다. 인챈트하지 않은 속도형 함선(Engine III와 Adaptive Core II에 Impulse Thruster IV를 장착한 구성)은 Afterburner III를 써도 아무리 잘해야 429유닛 바깥에서만 빠져나올 수 있습니다.
+속도에 맞춰 구성하면 더 깊은 곳에서도 빠져나올 수 있고, 무거운 실드를 가득 실으면 그럴 수 없습니다(가장 느린 함선인 Ironclad의 14개 슬롯 모두에 Heavy Shield Core를 장착하면 속도는 39.1이고 귀환 불능 지점은 약 2,600입니다). 귀환 불능 지점 바로 안쪽에 들어온 함선을 되돌릴 수 있는 것은 순간 가속뿐입니다. 작동 중인 [Afterburner](/wiki/03-Mechanics/Abilities.md)가 여기에 해당하며, 작동하는 동안 귀환 불능 지점을 더 깊은 곳으로 옮겨 줍니다(엔진 1개면 10초, 2개면 15초, 3개면 20초. Afterburner III는 기본 Protos의 지점을 1,577에서 989로, 기본 Wraith의 지점을 1,208에서 801으로 옮깁니다). 속도 능력치를 전부 최대로 인챈트하고 가장 강한 가속(상한까지 인챈트한 Afterburner III, x1.69)을 작동시킨, 속도에 맞춘 함선조차도 약 390유닛 이내에서는 누구도 빠져나올 수 없습니다. 인챈트하지 않은 속도형 함선(Engine III에 Impulse Thruster IV 1개와 Momentum Thruster IV 2개, Adaptive Core II에 Impulse Thruster IV 2개를 장착한 구성)은 Afterburner III를 써도 아무리 잘해야 427유닛 바깥에서만 빠져나올 수 있습니다.
 
 귀환 불능 지점에서의 추락은 천천히 시작됩니다. 지점에서 몇 유닛만 안쪽에 있는 함선은 전속력으로 날아도 20초 넘게 걸려 끌려 들어가고, 그다음부터는 점점 더 빨라집니다. 인력에 끌려가는 것은 비행이 아니므로 비행 거리에 포함되지 않습니다.
 
@@ -127,13 +129,15 @@
 
 드론은 함선과 함께 날아갑니다. 화물은 링 안쪽에는 절대 놓이지 않습니다. 링 안에 떨어질 화물 상자는 링 가장자리에 놓입니다. Dark Matter 상자만 유일한 예외입니다.
 
-## Dark Matter
+## Dark Matter 얻기 {#dark-matter}
+
+Dark Matter가 처음이신가요? 연구에서 플레이트까지의 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다. 이 절은 블랙홀 쪽 이야기입니다.
 
 블랙홀은 자신에게 닿은 **N.I.K.E.** 로켓 한 발마다 **Dark Matter**를 돌려줍니다. N.I.K.E.는 피해량 67,500~75,000의 로켓으로, 처음 만난, 피해를 줄 수 있는 함선에 명중하고 그 함선에 소모됩니다. 가로막는 것이 없으면 블랙홀까지 날아가 사건의 지평선을 넘는 순간 소멸합니다. N.I.K.E.는 기술을 연구한 뒤([연구](/wiki/03-Mechanics/Research.md)) [어셈블리](/wiki/06-Items/Rockets.md)에서 제작하며, 1회에 5발입니다(크레딧 100,000, Thulium 1,500, Ship Fragment 20, Reinforced Hull Plate 4, Cataclysite 40).
 
 - **발사.** N.I.K.E.는 조준한 곳을 향해 곧장 날아가며, 4.5초 동안 4,050유닛(초당 900유닛)을 비행합니다. 선택한 대상이 없으면 커서를 블랙홀에 올려 두세요(또는 함선을 블랙홀 쪽으로 향하세요). 방사선 가장자리(4,000유닛)부터 중심에서 4,380유닛 사이 어디서든 지평선에 닿습니다. 그보다 멀면 닿지 못하고 낭비됩니다. 모든 로켓과 마찬가지로 공통 5초 타이머를 쓰며(레이저를 장착하지 않아도 됩니다), 발사하면 안전 지대 보호와 은폐가 해제됩니다. **사선 위에 있는 함선이 대신 맞습니다.** 가장자리에서 기다리는 적이나 경로에서 화물 상자를 회수하는 다른 기업 파일럿은 67,500~75,000의 피해를 받고, 블랙홀은 아무것도 얻지 못합니다. 외계인과 기업 파일럿은 링 안쪽에 절대 들어오지 않으므로 사선을 비워 두는 것은 당신의 몫입니다. 로켓은 같은 기업의 함선과 당신으로부터 안전한 함선을 통과합니다. 발사한 뒤 맵을 떠나더라도 로켓은 아무도 해치지 않고 계속 날아가 당신의 Dark Matter를 만들어 냅니다. 드론 편대는 이 타이머와 명중 시 피해량을 바꿀 수 있습니다([드론 편대와 로켓](/wiki/06-Items/Rockets.md#drone-formations-and-rockets) 참고).
 - **돌아오는 것.** 지평선에 닿은 N.I.K.E. 한 발마다 **Dark Matter 1개, 2개 또는 3개**가 나옵니다(평균 2개로, N.I.K.E. 약 5발이면 10개). 이것은 작은 상자 한두 개에 담겨, 발사한 사선이 들어온 방향 근처의 블랙홀 영역 가장자리, 즉 **중심에서 3,050~3,950유닛** 지점에 나타납니다. 인력은 3,000유닛에서 끝나므로 상자도, 상자를 가져가는 함선도 끌려가지 않지만, 그곳의 방사선은 함선 HP의 초당 0.3~0.8%입니다. 이 띠의 한가운데에서 1분을 보내면 함선의 3분의 1을 잃습니다. 가득 찬 함선은 그곳에서 3분을 버팁니다.
 - **누구의 것인가.** 상자는 발사 후 **60초** 동안 내 것이며 내 클랜의 것이기도 합니다. 그 뒤에는 맵의 누구나 가져갈 수 있고, **4분**이 지나면 떠내려가 사라집니다. 위험 섹터는 PvP 섹터이므로 다른 파일럿이 나타날 것을 각오하세요. 발사한 뒤 로그아웃한 파일럿의 상자도 여전히 그 파일럿의 것입니다.
-- **수량.** 한 맵에는 Dark Matter 상자가 최대 32개까지 있을 수 있으며, 새 상자가 생기면 그중 가장 오래된 것이 밀려납니다. 다른 종류의 상자는 절대 밀려나지 않습니다. [Resource Magnet](/wiki/03-Mechanics/Cargo.md)은 Dark Matter에는 아무것도 더하지 않습니다.
+- **수량.** 한 맵에는 Dark Matter 상자가 최대 32개까지 있을 수 있으며, 새 상자가 생기면 그중 가장 오래된 것이 밀려납니다. 다른 종류의 상자는 절대 밀려나지 않습니다. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md)은 Dark Matter에는 아무것도 더하지 않습니다.
 - **보이는 모습.** N.I.K.E.가 지평선을 넘으면 블랙홀 속으로 가늘게 늘어나며 빨려 들어가고, 들어간 자리에서 공간이 물결치며 퍼져 나가고, 원반과 광자 고리가 약 1.5초 동안 번쩍입니다(**움직임 줄이기**에서는 그 3분의 1 길이에 절반의 밝기). 잠시 뒤 상자가 블랙홀에서 나와 가장자리의 제자리로 떠갑니다. 각 상자는 밝은 테두리와 반짝임이 있는 보랏빛 도는 검은 구체로 멀리서도 잘 보이며, 마우스를 올리면 **Dark Matter**라는 이름이 표시됩니다. 내 상자에는 남은 시간(초)이 표시되고, 클랜의 상자와 마찬가지로 미니맵에 작은 보라색 표시로 나타납니다. 다른 파일럿의 상자는 그 1분이 지나야 미니맵에 표시됩니다.
-- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 15개 각각에 10개씩, 모두 150개를 연구가 시작되기 전에 넣어 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 339개입니다.
+- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. 모든 강화 계열의 마지막 티어는 플레이트 3개를 요구하며, 부품 하나에 Dark Matter 15개입니다. 티어 IV의 Amp, 실드 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III, Base CPU II가 해당합니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 16개 각각에 10개씩, 모두 160개를 연구가 시작되기 전에 센터에 추가해 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 349개입니다. Helios Beam과 티어 IV Amp 3개를 합하면 Dark Matter 60개이고, 마지막 티어 부품으로만 채운 Wraith는 900개입니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Jede Saison läuft über die Tage 1 bis 30 (der Wipe beginnt mit seinem 5-Minute
 | **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen und zu sperren, bevor die Eruption kommt. |
 | **Der Reset** | Tag 30 | Schwarzloch-Eruption | Das Universum wird zerstört und neu geboren. Die Piloten wechseln in die Welt, die sie als Ziel für die nächste Saison gewählt haben. |
 
-Abgesehen vom Wipe selbst folgen nur zwei Dinge dem Kalender: Das Friedensprotokoll (Tag 1–3) ändert eine Regel, und ab Tag 4 tauchen die [Schwärme](/wiki/05-Swarms/Swarms.md) auf und bleiben bis zum Wipe. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels, aber keines von ihnen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
+Abgesehen vom Wipe selbst folgen nur drei Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, und die [Auktion](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels, aber keines von ihnen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
 
 ---
 
@@ -43,7 +43,7 @@ Teile bekommst du über die Oberfläche des Energie-Materialisators, der lokale 
 
 ## Transport-Cache (Reisekapsel) {#transport-cache-travel-capsule-}
 
-Sobald alle 100 Teile gesammelt sind und das Chrono-Gate vollständig stabilisiert ist, öffnet das Portal den Zugang zu deinem persönlichen **Transport-Cache** (auch Mitnahmewagen oder Reisekapsel genannt). Diese Taschendimension schützt deinen Besitz davor, beim Wipe gelöscht zu werden.
+Sobald alle 100 Teile gesammelt sind und das Chrono-Gate vollständig stabilisiert ist, öffnet das Portal den Zugang zu deinem persönlichen **Transport-Cache** (auch Mitnahmewagen oder Reisekapsel genannt). Diese Taschendimension schützt deinen Besitz davor, beim Wipe gelöscht zu werden. Gegenstände, die du in der [Auktion](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) eingestellt hast, kommen beim Wipe als lose Gegenstände zu dir zurück und werden vom Wipe wie alles andere gelöscht, wenn du sie nicht in den Cache legst; die Gebote, die du in Losen hältst, werden erstattet.
 
 ### Automatische Mitnahme (kostenlos) {#automatic-carry-over-free-}
 Folgendes ist immer geschützt und wird automatisch in die nächste Saison mitgenommen, wobei es **keine** Kapazität in deinem Transport-Cache verbraucht:

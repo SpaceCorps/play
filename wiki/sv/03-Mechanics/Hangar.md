@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6d1c3f189d0e637 -->
+<!-- wiki-i18n source: 9c17f4775a1e2000 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -23,8 +23,10 @@ Pågående reparationer hindrar dig inte. Överallt annars öppnas Hangarfönstr
 - **Båda konfigurationerna.** Du kan förbereda Konfig 2 medan du flyger med Konfig 1 och sedan byta med tangenten Byt konfig. En knapp **Flyg konfig** i hangaren gör samma byte.
 - **Vilket skepp som helst.** Gör ett annat skepp aktivt så flyger du det därifrån du är. Ditt skepps modell byts inför ögonen på alla i närheten.
 - **En ny sköld, motor eller adaptiv kärna börjar tom**, som på stationen: konfigurationens sköldladdning är tom tills den har laddats upp.
-- **Drönarformationer.** Vyn Drönare listar under dina drönare de formationer du äger. De sätts inte på: under flygning drar du en från Formationslistan i snabbfältet till en plats, och platsens klick eller tangent bär den, inne i en säker zon utan väntan ([Drönarformationer](/wiki/03-Mechanics/Formations.md)).
+- **Drönarformationer.** Vyn Drönare listar under dina drönare de formationer du äger. De sätts inte på: under flygning drar du en från Formationslistan i snabbfältet till en plats, och platsens klick eller tangent bär den, med samma väntan på 2 sekunder som överallt, också inne i en säker zon ([Drönarformationer](/wiki/03-Mechanics/Formations.md)).
 - **Extrautrustning.** De fyra vanliga skeppen, Protos, Kitefin, Ostirion och Nomad (de du börjar med eller köper), har 2 extraplatser per konfiguration; de fyra skepp du tillverkar i Monteringen, Paragon, Ironclad, Wraith och Storm, har 3. Extra Slots CPU i din Skylab lägger till 3, 5 eller 7: 5, 7 eller 9 på de vanliga och 6, 8 eller 10 på de tillverkade ([Extrautrustning](/wiki/06-Items/Extras.md#extra-slots-cpus)). När 0.4.10 kom togs en tredje extrautrustning på ett vanligt skepp av och hamnade i ditt inventarie: inget raderades, och du fick ett chattmeddelande.
+
+Att sälja ingår inte i fönstret: klubban som öppnar [Auktionen](/wiki/03-Mechanics/Auction.md) hör till stationens Hangar, och Auktionen är själv en sida på stationen.
 
 ## Byta skepp {#changing-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario ed equipaggiamento {#inventory-equipment}
 
@@ -22,6 +22,10 @@ A differenza dei giochi spaziali tradizionali, SpaceCorps ha slot di equipaggiam
 
 L’inventario elenca i tuoi oggetti nello stesso ordine del Negozio, qualunque sia l’ordine in cui li hai acquistati, creati o trovati. I tipi che stanno insieme sono vicini: laser, amp laser e munizioni laser; scudi e celle scudo; motori e propulsori; Nuclei adattivi; extra (Repair Drone); droni e formazioni di droni; poi le risorse. All’interno di un tipo viene per primo il più economico (crediti prima del Thulium), poi ciò che non ha prezzo: equipaggiamento solo da creare e bottino, a partire dalla rarità più bassa (i laser della stessa rarità, dal danno più basso). Le munizioni laser vanno da x1 a x4, poi la Siphon Battery. I razzi vanno per tipo (a bersaglio singolo prima di quelli ad area, guidati prima di quelli dritti) e poi per grado, quindi il razzo Epico, che costa Thulium, viene per ultimo nel suo tipo. Le copie di uno stesso oggetto vanno per grado di incantamento. Sopra la griglia, un chip per ogni tipo segue lo stesso ordine, ciascuno con il numero di oggetti che la ricerca vi trova. Ogni chip si attiva o disattiva da solo, così puoi nascondere munizioni e Repair Drone mentre lavori su laser, scudi e motori: clicca su un chip per mostrare o nascondere il suo tipo, Shift+clic (o doppio clic) per lasciare attivo solo quel tipo, e cliccalo di nuovo per riportare gli altri. **Tutte** mostra ogni tipo e **Nessuna** li nasconde tutti, per attivare solo quelli che vuoi. Un chip barrato è disattivato, un chip con un segno di spunta è attivo. La ricerca agisce sui tipi attivi, e la tua scelta viene ricordata con il tuo pilota. Se tutto è nascosto, la griglia lo dice e propone **Mostra tutte le categorie**.
 
+## Oggetti vendibili {#marketable-items}
+
+Gli oggetti che hai guadagnato (bottino, ricompense delle missioni e ciò che fanno l’Assemblaggio e la Forgia) portano un piccolo contrassegno **Vendibile** sulla casella, e la scheda dell’oggetto dice «Vendibile» oppure, per una pila di cui si può vendere solo una parte, «Vendibile (3 / 5)». Il filtro **Solo vendibile** accanto ai filtri di categoria mostra solo questi oggetti. Un **martelletto** accanto al cestino di un oggetto contrassegnato apre la scheda di vendita dell’[Asta](/wiki/03-Mechanics/Auction.md) (in volo non compare: vendere è una pagina della stazione). Ciò che hai comprato, vinto o ricevuto in regalo non ha contrassegno e non si può rivendere.
+
 ## Equipaggiare un oggetto in un altro (sotto-slot) {#item-to-item-equipping-sub-sockets-}
 
 Alcuni oggetti primari possono “equipaggiare” oggetti di supporto secondari (il cosiddetto montaggio in sotto-slot) per amplificare i loro parametri. Per montare in un sotto-slot, trascina l’oggetto di supporto direttamente sull’oggetto primario nell’inventario dell’Hangar.
@@ -30,7 +34,7 @@ Alcuni oggetti primari possono “equipaggiare” oggetti di supporto secondari 
 
 | Oggetto primario | Oggetti accettati nei sotto-slot | Effetto risultante |
 | :--- | :--- | :--- |
-| **Laser** | Amplificatore laser (Amp) | Aumenta il danno base e le statistiche dei colpi critici |
+| **Laser** | Amplificatore laser (Amp) | Aumenta il danno base e le statistiche dei colpi critici, oppure toglie punti all’assorbimento del bersaglio (Penetration Amp) |
 | **Shield Core** | Cella scudo | Aumenta la capacità dello scudo e la velocità di ricarica |
 | **Motore** | Propulsore | Aumenta la velocità del motore e i moltiplicatori |
 | **Generatore ibrido** | Cella scudo OPPURE propulsore | Aumenta la capacità dello scudo, la velocità di ricarica o la velocità |

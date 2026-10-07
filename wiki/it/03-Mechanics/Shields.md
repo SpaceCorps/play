@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 \[\text{Quota dello scudo} = \text{clamp}(\text{Assorbimento} - \text{Penetrazione},\ 0,\ 100\%)\]
 
 - Gli scudi prendono al massimo `round(damage x share)` del colpo; lo scafo prende il resto. Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo, e se gli scudi sono a 0 tutto il danno colpisce direttamente i punti scafo.
-- **Da dove viene la penetrazione**: dalla *penetrazione dello scudo* di un razzo diretto (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; le esplosioni ad area non ne hanno, vedi [Razzi](/wiki/06-Items/Rockets.md)) e da quella delle munizioni laser (Ultra Core 5%, Experimental Fusion Core 10%; vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)). Gli alieni non ne hanno, e nemmeno le munizioni x1 e x2.
-- **Esempi**: con un assorbimento dell’80% contro un Lancet III (35%) gli scudi prendono il 45% del colpo, lo scafo il 55%. Con il 100%: 65% e 35%. Con il 112% contro una penetrazione del 12%: tutto il colpo. Con il 45% (un Light Shield Core da solo) contro il 35%: il 10% sullo scudo, il resto sullo scafo. Nessun razzo penetra completamente un Light Shield Core.
+- **Da dove viene la penetrazione**: dalla *penetrazione dello scudo* di un razzo diretto (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; le esplosioni ad area non ne hanno, vedi [Razzi](/wiki/06-Items/Rockets.md)) e da quella delle munizioni laser (Ultra Core 5%, Experimental Fusion Core 10%; vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)). Gli alieni non ne hanno, e nemmeno le munizioni x1 e x2. Un colpo laser toglie anche i Penetration Amp dei laser di chi spara (da +2% a +8% per slot, la media dei suoi laser) e la penetrazione di una formazione di droni (Gemini +9%, Stiletto +16%): il totale si ferma al **50%** per un laser e al 40% per un razzo ([come si somma un colpo laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Esempi**: con un assorbimento dell’80% contro un Lancet III (35%) gli scudi prendono il 45% del colpo, lo scafo il 55%. Con il 100%: 65% e 35%. Con il 112% contro una penetrazione del 12%: tutto il colpo. Con il 45% (un Light Shield Core da solo) contro il 35%: il 10% sullo scudo, il resto sullo scafo. Nessun razzo penetra completamente un Light Shield Core. Il miglior laser (50%) ci riesce: contro di esso il miglior scudo (80%) prende il 30% del colpo e lo scafo il 70%, e un Light Shield Core da solo (45%) non prende nulla.
 - Gli alieni non hanno una statistica di assorbimento: ripartiscono ogni colpo 80% / 20%, meno la penetrazione del colpo.
 - Il danno di una Siphon Battery esce solo dallo scudo: assorbimento e penetrazione non c’entrano.
 
@@ -57,9 +57,9 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 
 Ogni bonus agli scudi aumenta una delle tre statistiche e compare sotto il proprio tipo nella finestra Booster:
 
-- **Capacità** (punti scudo massimi): i booster Shield Wall e lo Shield Capacity Boost permanente.
+- **Capacità** (punti scudo massimi): Shield Wall Booster 1 e 2 e lo Shield Capacity Boost permanente.
 - **Assorbimento** (la quota di un colpo che prendono i tuoi scudi): lo Shield Absorbance Boost permanente (+0,1 punti per livello, al massimo +10 punti).
-- **Ricarica** (punti scudo ripristinati al secondo): il booster Shield Regen.
+- **Ricarica** (punti scudo ripristinati al secondo): lo Shield Regen Booster.
 
 Per i numeri vedi [Booster](/wiki/06-Items/Boosters.md).
 

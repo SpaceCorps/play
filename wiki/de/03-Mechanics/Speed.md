@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fde0e896bc82b2a3 -->
+<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
 <!-- wiki-i18n title: Tempo -->
 # Tempoberechnung {#speed-calculation}
 
@@ -19,7 +19,7 @@ Jedes ausgerüstete Triebwerk erzeugt Tempo, und ebenso jeder adaptive Kern, der
 - **Fester Schubdüsen-Bonus**: Die Summe aller festen Tempozuschläge durch Schubdüsen (z. B. ist Impulse Thruster III `+15` Tempo).
 - **Schubdüsen-Faktor**: Das Produkt aller Tempo-Faktoren der Schubdüsen, die in diesem Triebwerk stecken (z. B. ist Momentum Thruster III `1.09` oder `+9%`, Impulse Thruster III `1.03` oder `+3%`). Er multipliziert alles, was das Triebwerk erzeugt: sein eigenes Grundtempo und die festen Boni der Schubdüsen. Ein adaptiver Kern hat kein eigenes Grundtempo, und die festen Boni seiner Schubdüsen werden trotzdem multipliziert.
 
-Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+12`, `1.11`) erzeugt (6 + 3 x 12) x 1,11 x 1,11 x 1,11 = 57,4, mit drei Impulse Thruster IV (`+17`, `1.02`) (6 + 3 x 17) x 1,02 x 1,02 x 1,02 = 60,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.11` ergibt `1.1265`.
+Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+13.1`, `1.11`) erzeugt (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0, mit drei Impulse Thruster IV (`+16.5`, `1.035`) (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.11` ergibt `1.1265`.
 
 ### 2. Abnehmender Ertrag (Grenzeffizienz) {#2-diminishing-returns-marginal-efficiency-}
 

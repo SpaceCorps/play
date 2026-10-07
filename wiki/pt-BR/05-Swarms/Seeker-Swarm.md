@@ -7,7 +7,7 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 ## Resumo rápido {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Onde**: Os setores `x-1` e `x-2` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
@@ -43,7 +43,7 @@ O Boss Seeker paga **exatamente dez Seekers**: dez vezes os créditos, o Thulium
 Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

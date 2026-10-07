@@ -15,7 +15,7 @@
 ## 三个虫群 {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 虫群 | 位置 | 数量 | 头领 | 随从 | 回归 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 ## 每个虫群的规则 {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - 虫群从赛季第 4 天起出现，直到重置。
 - 虫群舰船被击中时，其所在虫群中距它 1,500 单位以内的舰船会加入战斗，对付第一个击中它的飞行员。
@@ -46,7 +46,7 @@
 世界对虫群的强化与对所有外星人一样（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）：虫群舰船的船体、护盾、护盾充能、激光伤害、火箭伤害和治疗量，都是 Alpha 的数值乘以下面的强度，击杀则按下面的奖励倍率支付。速度、射程和掉落在所有世界中相同。各篇文章给出了每艘舰船在三个世界中的数值。
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 世界 | 强度 | 奖励倍率 |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Seeker 虫群和 Pirate 虫群会在 Boss 出现和被击毁时，通知所在�
 每次击杀都以舰船自己的名字计入你的击杀统计，并为你的排名增加 PvE 积分：
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 虫群舰船 | 虫群 | 每次击杀的 PvE 积分 |
 | :--- | :--- | ---: |

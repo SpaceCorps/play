@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Premiers pas -->
 # Premiers pas dans SpaceCorps {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@ Bienvenue dans l’expérience ultime de la guerre spatiale. En tant que pilote 
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ Pour survivre et prospérer, vous devez gérer deux monnaies et garder un œil s
 - **Honneur** : un score, et non de l’argent, qui mesure votre loyauté et votre réputation. L’honneur ne détermine pas votre [grade](/wiki/03-Mechanics/Ranks.md), qui est votre place parmi les pilotes de votre corporation selon les points PvE, et attaquer des pilotes alliés de votre propre faction pénalise lourdement votre honneur : détruire un pilote de votre propre corporation, qu’il s’agisse du vaisseau d’un joueur ou de l’un de ses [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), coûte 100 points d’honneur. Il en va de même si vous le touchez dans les 15 secondes avant que quelque chose d’autre ne le détruise : affaiblir un pilote de votre corporation pour qu’un alien l’achève coûte autant que l’élimination. Éliminer un pilote de votre corporation n’est pas une élimination PvP et ne rapporte aucun point PvP. Changer de corporation vous prend la moitié de votre honneur, arrondie vers le bas ; un honneur de 0 ou moins reste tel quel ([Changer de corporation](#changing-your-company)).
 
 À la station, vos Crédits, votre Thulium et votre Honneur se trouvent en haut à droite de chaque page, à côté de votre secteur et du bouton **Décoller**. Quand la fenêtre est trop étroite pour un montant long, il est abrégé (987,7 M) ; pointez-le pour lire le nombre entier.
+
+## Profils de pilote {#pilot-profiles}
+
+Cliquez sur le nom d’un pilote dans le Panthéon (**Communauté › Classements**), sur la page **Statistiques** ou dans la liste des membres d’un clan, et le **profil** du pilote s’ouvre : corporation, monde et clan, niveau, expérience, honneur et points de classement, les aliens et les pilotes qu’il a détruits, et le vaisseau qu’il pilote avec ses valeurs. Deux cases indiquent depuis combien de temps le pilote est là :
+
+- **Première connexion.** Le jour où le pilote s’est connecté pour la première fois, sous forme de date dans votre propre fuseau horaire. Un pilote qui jouait avant la 0.4.12 affiche le jour de sa première connexion depuis cette mise à jour, et un tiret indique un pilote qui ne s’est pas connecté depuis.
+- **Temps de jeu.** Combien de temps le jeu du pilote a été connecté au serveur, en heures et minutes ( « 128 h 15 min » ,  « 45 min » ), en vol ou à la station. Le temps passé à ne rien faire compte aussi. Le décompte a commencé avec la 0.4.12 : pour un pilote qui jouait avant, c’est donc le temps écoulé depuis cette mise à jour.
+
+Les deux sont publics, comme le niveau et le grade : tout pilote connecté peut les lire dans un profil. La réinitialisation de la saison ne les remet pas à zéro.
 
 ## Changer de corporation {#changing-your-company}
 
@@ -64,14 +74,14 @@ SpaceCorps permet de personnaliser les commandes clavier (dans le panneau Param�
 | :--- | :--- | :--- |
 | **Déplacer le vaisseau** | `Left Click` sur la carte spatiale | Envoie votre vaisseau vers les coordonnées cliquées. |
 | **Tourner et zoomer la caméra** | `Right Drag`, `Mouse Wheel` | Le clic droit glissé fait tourner la vue autour de votre vaisseau ; la molette (ou un glisser avec le bouton du milieu) zoome et dézoome, de 30 unités jusqu’à 1 500, ce qui montre environ 4 400 sur 2 650 unités d’espace (2,25 fois la surface d’une vue à 1 000 unités). La rotation et le zoom reviennent en douceur à la vue de repos deux secondes après que vous avez relâché, sauf si vous activez **La caméra reste où je la place** dans Paramètres › Général : la vue garde alors l’angle et la distance que vous lui avez donnés (le bouton **Réinitialiser la vue** à côté de cet interrupteur la remet une fois à la vue de repos, tout comme le fait de le désactiver). **Zoom de la caméra** dans Paramètres › Général règle la distance de repos, de 50 % à 338 % (150 % par défaut) ; avec l’interrupteur activé, le déplacer amène la caméra à la nouvelle distance. |
-| **Sélectionner une cible** | `Left Click` sur une entité | Sélectionne un alien, un pilote ennemi ou un portail comme cible active. La fenêtre Cible (voir plus bas) affiche son nom, sa distance, sa coque et son bouclier. |
+| **Sélectionner une cible** | `Left Click` sur une entité | Sélectionne un alien, un pilote ennemi ou un portail comme cible active. La fenêtre Cible (voir plus bas) affiche son nom, sa distance, sa coque et son bouclier. Un clic sur un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md) le sélectionne sans changer votre cible : seules les roquettes le blessent. |
 | **Attaquer la cible sélectionnée** | `Key A` (ou `Ctrl + Click`) | Commence à tirer avec vos lasers et vos roquettes sur la cible sélectionnée. |
 | **Tirer roquette** | `Key R` | Tire la dernière roquette que vous avez lancée (ou la première de la barre rapide) : une roquette guidée vers votre cible sélectionnée, une roquette droite vers votre curseur. Pour viser à la souris avec une roquette droite, cliquez sur son emplacement de la barre rapide pour l’armer, puis cliquez dans l’espace. Toutes les roquettes partagent un délai de 5 secondes (une formation de drones peut le changer). |
 | **Sauter par un portail** | `Key J` | Lance un saut quand vous êtes à moins de 500 unités d’un portail (dans sa zone sûre). Le saut dure 3 secondes (une barre au-dessus de la barre rapide l’indique) et vous devez rester à portée jusqu’à la fin. Dans les secteurs dangereux, vous ne pouvez pas en lancer un tant que vous êtes attaqué. |
 | **Changer de configuration** | `Key C` | Bascule entre Config 1 et Config 2 (change la configuration active de lasers, boucliers et vitesse). |
 | **Barre rapide principale** | `Digits 1 - 9` | Active les objets ou actions des emplacements de votre barre rapide principale du HUD (p. ex. munitions, robots de réparation). |
 | **Barre rapide secondaire** | `Shift + Digits 1 - 9` | Active les objets ou actions des emplacements de votre barre rapide secondaire. La rangée s’affiche au-dessus de la principale dès qu’elle contient quelque chose ; ouvrez le sélecteur Munitions, Roquettes ou Extras (ou faites glisser un emplacement) pour y placer un objet. |
-| **Formation de drones** | la touche de son emplacement | Porte la formation de cet emplacement. Faites-l’y glisser depuis la liste Formations de la barre rapide, qui contient aussi Standard, aucune formation. Vous pouvez changer une fois toutes les 2 secondes, même en combat. Voir [Formations de drones](/wiki/03-Mechanics/Formations.md). |
+| **Formation de drones** | la touche de son emplacement | Porte la formation de cet emplacement. Faites-l’y glisser depuis la liste Formations de la barre rapide, qui contient aussi Standard, aucune formation. Vous pouvez changer une fois toutes les 2 secondes, en combat comme dans une zone sûre ; les emplacements affichent les secondes restantes. Voir [Formations de drones](/wiki/03-Mechanics/Formations.md). |
 | **Plein écran** | `F11` ou `Alt + Enter` (Windows) | Active ou désactive le plein écran sans bordure ; le bouton en haut à droite de l’écran de vol fait de même sous Windows et macOS. Ces deux touches sont fixes et n’apparaissent pas parmi les raccourcis modifiables. `Alt + Enter` est sans effet pendant que vous écrivez dans le chat. |
 | **Choisir où réapparaître** | `Keys 1 - 3` | Sur l’écran de destruction : `1` à la base, `2` au portail le plus proche, `3` sur place. Voir *Destruction et réapparition* plus haut. |
 | **Fenêtre cible** | `Key V` | Affiche ou masque la fenêtre Cible. Le premier bouton de la barre d’outils en haut à gauche fait de même. |
@@ -79,7 +89,7 @@ SpaceCorps permet de personnaliser les commandes clavier (dans le panneau Param�
 
 ## La fenêtre Cible {#the-target-window}
 
-Cliquez sur un alien ou un pilote et la **fenêtre Cible** affiche ce que vous avez sélectionné : son nom, sa distance, les barres de coque et de bouclier, et si vous lui tirez dessus. Son bouton **viseur** lance et arrête l’attaque (comme `A`), et le bouton **X** abandonne la cible (comme `Esc`). Quand rien n’est sélectionné, elle l’indique en une ligne.
+Cliquez sur un alien ou un pilote et la **fenêtre Cible** affiche ce que vous avez sélectionné : son nom, sa distance, les barres de coque et de bouclier, et si vous lui tirez dessus. Son bouton **viseur** lance et arrête l’attaque (comme `A`), et le bouton **X** abandonne la cible (comme `Esc`). Quand rien n’est sélectionné, elle l’indique en une ligne. Cliquez sur un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) et la fenêtre affiche sa coque, ce qu’il laisse en se brisant et combien de votre roquette il faut.
 
 C’est une fenêtre comme les autres. Faites-la glisser par sa barre de titre pour la placer où vous voulez, fermez-la avec le voyant rouge dans son coin ou avec le **premier bouton de la barre d’outils en haut à gauche** (ou `V`), et rouvrez-la de la même façon. Sa position et le fait qu’elle soit ouverte ou non sont mémorisés pour votre compte. Elle apparaît d’abord en haut de l’écran, entre les deux barres d’outils. La fermer ne fait que masquer l’affichage : votre cible reste sélectionnée et votre attaque continue.
 

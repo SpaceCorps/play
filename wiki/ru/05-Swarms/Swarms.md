@@ -15,7 +15,7 @@
 ## Три роя {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Рой | Где | Сколько | Лидер | Свита | Возвращается |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 ## Правила каждого роя {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Рои появляются с 4-го дня сезона и до вайпа.
 - Когда по кораблю роя попадают, корабли его роя в пределах 1 500 единиц от него вступают в бой против первого пилота, попавшего по нему.
@@ -46,7 +46,7 @@
 Мир усиливает рой так же, как любого пришельца ([Миры](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): корпус, щит, восстановление щита, урон лазеров, урон ракет и лечение корабля роя равны значениям Alpha, умноженным на силу ниже, а убийство приносит награду с множителем ниже. Скорость, дальность и добыча одинаковы во всех мирах. В статьях приведены значения каждого корабля для всех трёх миров.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Мир | Сила | Награда |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@
 Каждое убийство засчитывается под собственным именем корабля в вашей статистике убийств и добавляет очки PvE в ваш рейтинг:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Корабль роя | Рой | Очки PvE за убийство |
 | :--- | :--- | ---: |

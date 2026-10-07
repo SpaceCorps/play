@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ A túléléshez és a boldoguláshoz két fizetőeszközt kell kezelned, és sze
 - **Becsület**: Pontszám, nem pénz: a hűséged és a megbecsültséged mércéje. A becsület nem határozza meg a [rangodat](/wiki/03-Mechanics/Ranks.md), az a vállalatod pilótái közötti helyezésed PvE-pontok szerint. A saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat. A vállalatváltás elveszi a becsületed felét, lefelé kerekítve; a 0 vagy annál kisebb becsület változatlan marad ([Vállalatváltás](#changing-your-company)).
 
 Az állomáson a Krediteid, a Thuliumod és a Becsületed minden oldal jobb felső sarkában látható, a szektorod és az **Indulás** gomb mellett. Ha az ablak túl keskeny egy hosszú összeghez, az rövidítve jelenik meg (987,7M); mutass rá, hogy elolvashasd a teljes számot.
+
+## Pilótaprofilok {#pilot-profiles}
+
+Kattints egy pilóta nevére a Dicsőségcsarnokban (**Közösség › Rangsor**), a **Statisztika** oldalon vagy egy klán tagjainak listájában, és megnyílik a pilóta **profilja**: vállalat, világ és klán, szint, tapasztalat, becsület és rangpontok, a kilőtt idegenek és pilóták, valamint a hajó, amellyel repül, az értékeivel. Két csempe mutatja, mióta játszik a pilóta:
+
+- **Első belépés.** Az a nap, amikor a pilóta először belépett, dátumként a saját időzónádban. Aki a 0.4.12 előtt is játszott, annál az a nap látszik, amikor a frissítés óta először belépett; a kötőjel olyan pilótát jelöl, aki azóta nem lépett be.
+- **Játékidő.** Mennyi ideig volt a pilóta játéka a szerverhez kapcsolódva, órában és percben („128 ó 15 p”, „45 p”), repülés közben vagy az állomáson. A tétlenül töltött idő is számít. A számlálás a 0.4.12-vel kezdődött, így a korábban játszó pilótánál a frissítés óta eltelt idő látszik.
+
+Mindkettő nyilvános, mint a szint és a rang: bármelyik bejelentkezett pilóta elolvashatja egy profilon. A szezon wipe-ja egyiket sem nullázza.
 
 ## Vállalatváltás {#changing-your-company}
 
@@ -64,14 +74,14 @@ A SpaceCorps testreszabható billentyűkiosztást támogat (a játékon belüli 
 | :--- | :--- | :--- |
 | **Hajó mozgatása** | `Left Click` az űrtérképen | A hajódat a kattintott célkoordinátákhoz irányítja. |
 | **A kamera forgatása és nagyítása** | `Right Drag`, `Mouse Wheel` | A jobb húzás a hajód körül forgatja a nézetet; a görgő (vagy a középső húzás) nagyít és kicsinyít, 30 egység távolságtól 1 500-ig, ami nagyjából 4 400 × 2 650 egységnyi teret mutat (egy 1 000 egységes nézet területének 2,25-szöröse). A forgatás és a nagyítás két másodperccel az elengedés után visszasimul a nyugalmi nézetbe, hacsak nem kapcsolod be a Beállítások › Általános lapon a következő kapcsolót: **A kamera ott marad, ahol hagyom**. Ekkor a nézet megtartja a megadott szöget és távolságot (a kapcsoló melletti **Nézet visszaállítása** gomb egyszer visszaállítja a nyugalmi nézetet, és a kapcsoló kikapcsolása is ezt teszi). A Beállítások › Általános lap **Kamerazoom** beállítása adja meg a nyugalmi távolságot 50% és 338% között (az alapértelmezett 150%); bekapcsolt kapcsolónál az érték módosítása az új távolságra viszi a kamerát. |
-| **Célpont kijelölése** | `Left Click` egy entitáson | Idegent, ellenséges pilótát vagy portált jelöl ki aktív célpontként. A Célpontablak (lásd alább) mutatja a nevét, a távolságát, a hajótestét és a pajzsát. |
+| **Célpont kijelölése** | `Left Click` egy entitáson | Idegent, ellenséges pilótát vagy portált jelöl ki aktív célpontként. A Célpontablak (lásd alább) mutatja a nevét, a távolságát, a hajótestét és a pajzsát. Egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kattintva kijelölöd, a célpontod megváltoztatása nélkül: csak a rakéták sebzik. |
 | **Kijelölt célpont támadása** | `Key A` (vagy `Ctrl + Click`) | Elindítja a tüzelést a lézereiddel és a rakétáiddal a kijelölt célpontra. |
 | **Rakétakilövés** | `Key R` | Kilövi az utoljára indított rakétát (vagy a gyorssáv elsőjét): az irányított rakéta a kijelölt célpontra megy, az egyenes a kurzor felé. Egyenes rakéta egérrel való célzásához kattints a gyorssávon a helyére, hogy élesítsd, majd kattints az űrbe. Minden rakéta közös, 5 másodperces időzítőt használ (egy drónformáció megváltoztathatja). |
 | **Ugrás a portálon át** | `Key J` | Ugrást indít, ha egy portáltól 500 egységen belül vagy (a biztonságos zónáján belül). Az ugrás 3 másodpercig tart (a gyorssáv felett egy sáv mutatja), és a végéig hatótávon belül kell maradnod. A veszélyes szektorokban nem indíthatsz ugrást, amíg támadás alatt állsz. |
 | **Konfiguráció váltása** | `Key C` | Vált a Konfig 1 és a Konfig 2 között (az aktív lézerek/pajzsok/sebesség összeállítását cseréli). |
 | **Elsődleges gyorssáv** | `Digits 1 - 9` | A HUD elsődleges gyorssávjának adott helyén lévő tárgyakat/műveleteket aktiválja (pl. lőszer, javítórobotok). |
 | **Másodlagos gyorssáv** | `Shift + Digits 1 - 9` | A másodlagos gyorssáv helyein lévő tárgyakat/műveleteket aktiválja. A sor az elsődleges fölött jelenik meg, amint tartalmaz valamit; tárgy elhelyezéséhez nyisd meg a Lőszer, a Rakéták vagy az Extrák választóját (vagy húzz át egy helyet). |
-| **Drónformáció** | a helye billentyűje | Viseli az adott helyen lévő formációt. Húzd oda a gyorssáv Formációk listájából, amelyen az Alap is ott van, vagyis a formáció nélküli állapot. 2 másodpercenként egyszer válthatsz, harcban is. Lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md). |
+| **Drónformáció** | a helye billentyűje | Viseli az adott helyen lévő formációt. Húzd oda a gyorssáv Formációk listájából, amelyen az Alap is ott van, vagyis a formáció nélküli állapot. 2 másodpercenként egyszer válthatsz, harcban és biztonságos zónában egyaránt; a helyek mutatják a hátralévő másodperceket. Lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md). |
 | **Teljes képernyő** | `F11` vagy `Alt + Enter` (Windows) | Be- vagy kikapcsolja a keret nélküli teljes képernyőt; a repülési képernyő jobb felső sarkában lévő gomb Windowson és macOS-en ugyanezt teszi. Ez a két billentyű rögzített, és nem szerepel a módosítható kiosztások között. Az `Alt + Enter` vár, amíg a chatben gépelsz. |
 | **Újraéledési hely választása** | `Keys 1 - 3` | A halálképernyőn: `1` a bázison, `2` a legközelebbi portálnál, `3` helyben. Lásd fent: *Megsemmisülés és újraéledés*. |
 | **Célpontablak** | `Key V` | Megjeleníti vagy elrejti a Célpontablakot. Az eszköztár bal felső sarkában lévő első gomb ugyanezt teszi. |
@@ -79,7 +89,7 @@ A SpaceCorps testreszabható billentyűkiosztást támogat (a játékon belüli 
 
 ## A Célpontablak {#the-target-window}
 
-Kattints egy idegenre vagy egy pilótára, és a **Célpontablak** megmutatja, mit jelöltél ki: a nevét, a távolságát, a hajótest- és pajzssávokat, és hogy tüzelsz-e rá. A **célkereszt** gombja elindítja és leállítja a támadást (ugyanaz, mint az `A`), az **X** gomb pedig elejti a célpontot (ugyanaz, mint az `Esc`). Ha nincs semmi kijelölve, egy sorban jelzi ezt.
+Kattints egy idegenre vagy egy pilótára, és a **Célpontablak** megmutatja, mit jelöltél ki: a nevét, a távolságát, a hajótest- és pajzssávokat, és hogy tüzelsz-e rá. A **célkereszt** gombja elindítja és leállítja a támadást (ugyanaz, mint az `A`), az **X** gomb pedig elejti a célpontot (ugyanaz, mint az `Esc`). Ha nincs semmi kijelölve, egy sorban jelzi ezt. Kattints egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is), és az ablak megmutatja a hajótestét, mit hagy hátra, és hány darab kell belőle a rakétádból.
 
 Ugyanolyan ablak, mint a többi. Húzd a címsoránál fogva bárhová, zárd be a sarkában lévő piros lámpával vagy az **eszköztár bal felső sarkában lévő első gombbal** (vagy a `V` billentyűvel), és ugyanígy nyisd meg újra. Azt, hogy hová teszed, és hogy nyitva van-e, a fiókod megjegyzi. A képernyő tetején indul, a két eszköztár között. A bezárás csak az adatkijelzést rejti el: a célpontod kijelölve marad, és a támadásod folytatódik.
 

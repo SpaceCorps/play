@@ -7,7 +7,7 @@ A Seeker-raj a [rajok](/wiki/05-Swarms/Swarms.md) legkisebbike: egy **Boss Seeke
 ## Röviden {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Hol**: Minden vállalat `x-1` és `x-2` szektora
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 6
@@ -43,7 +43,7 @@ A Boss Seeker **pontosan tíz Seekert** fizet: egy Seeker kreditjének, Thulium�
 A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

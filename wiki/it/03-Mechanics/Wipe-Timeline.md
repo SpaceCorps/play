@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Ogni stagione va dal giorno 1 al giorno 30 (il reset parte con il suo conto alla
 | **Conto finale** | Giorni 26–30 | Evento 4 | La fase del conto finale. Tutti i piloti corrono a completare e bloccare il carico che portano con sé prima dell’eruzione. |
 | **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce. I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. |
 
-A parte il reset in sé, solo due cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, e dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali propri.
+A parte il reset in sé, solo tre cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali propri.
 
 ---
 
@@ -43,7 +43,7 @@ I pezzi si ottengono usando l’interfaccia del Materializzatore di energia, che
 
 ## Deposito di trasporto (capsula di viaggio) {#transport-cache-travel-capsule-}
 
-Una volta raccolti tutti i 100 pezzi e stabilizzato completamente il Chrono-Gate, il portale apre l’accesso al tuo **Deposito di trasporto** personale (noto anche come carrello di trasferimento o capsula di viaggio). Questa dimensione tascabile protegge i tuoi averi dalla cancellazione durante il reset.
+Una volta raccolti tutti i 100 pezzi e stabilizzato completamente il Chrono-Gate, il portale apre l’accesso al tuo **Deposito di trasporto** personale (noto anche come carrello di trasferimento o capsula di viaggio). Questa dimensione tascabile protegge i tuoi averi dalla cancellazione durante il reset. Gli oggetti che hai messo all’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tornano a te al reset come oggetti sfusi, che il reset cancella come il resto se non li metti nel Deposito di trasporto; le offerte che tieni nei lotti vengono restituite.
 
 ### Passaggio automatico (gratuito) {#automatic-carry-over-free-}
 I seguenti oggetti sono sempre protetti e passano alla stagione successiva automaticamente, senza consumare **alcuna** capacità nel tuo Deposito di trasporto:

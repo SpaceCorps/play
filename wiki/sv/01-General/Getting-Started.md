@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@ Välkommen till den ultimata rymdkrigsupplevelsen. Som pilot i SpaceCorps repres
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ För att överleva och klara dig måste du hushålla med två valutor och hålla
 - **Heder**: Ett poängvärde, inte pengar: ett mått på din lojalitet och ställning i fraktionen. Heder avgör inte din [grad](/wiki/03-Mechanics/Ranks.md), som är din plats bland piloterna i din koncern efter PvE-poäng, och att angripa piloter i din egen fraktion straffar din hedersrating hårt: att förstöra en pilot i din egen koncern, en spelares skepp eller en av dess [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), kostar 100 heder. Det gör även att träffa en under de 15 sekunderna innan något annat förstör den: att mjuka upp en koncernkamrat åt en utomjording som ska göra slut på den kostar lika mycket som själva nedskjutningen. Att skjuta ner en koncernkamrat räknas inte som en PvP-nedskjutning och ger inga PvP-poäng. Att byta koncern tar hälften av din heder, avrundat nedåt; en heder på 0 eller lägre ligger kvar som den är ([Byta koncern](#changing-your-company)).
 
 På stationen står dina krediter, ditt Thulium och din heder uppe till höger på varje sida, bredvid din sektor och knappen **Flyg ut**. Är fönstret för smalt för ett långt belopp förkortas det (987,7M); peka på det för att läsa hela talet.
+
+## Pilotprofiler {#pilot-profiles}
+
+Klicka på en pilots namn i Hedersgalleriet (**Gemenskap › Ranking**), på sidan **Statistik** eller i en klans medlemslista, så öppnas pilotens **profil**: koncern, värld och klan, nivå, erfarenhet, heder och rankingpoäng, de aliens och piloter piloten har förstört och skeppet piloten flyger, med dess värden. Två rutor visar hur länge piloten har spelat:
+
+- **Första inloggning.** Den dag då piloten loggade in för första gången, som ett datum i din egen tidszon. En pilot som spelade före 0.4.12 visar dagen då piloten först loggade in efter den uppdateringen, och ett streck står för en pilot som inte har loggat in sedan dess.
+- **Speltid.** Hur länge pilotens spel har varit anslutet till servern, i timmar och minuter (”128 h 15 min”, ”45 min”), under flygning eller på stationen. Tid då du står still räknas också. Räkningen började med 0.4.12, så för en pilot som spelade före det är det tiden sedan uppdateringen.
+
+Båda är offentliga, som nivå och grad: varje inloggad pilot kan läsa dem på en profil. Säsongens wipe nollställer ingen av dem.
 
 ## Byta koncern {#changing-your-company}
 
@@ -64,14 +74,14 @@ SpaceCorps har anpassningsbar tangentbordsstyrning (du når den via panelen Inst
 | :--- | :--- | :--- |
 | **Flyga skeppet** | `Left Click` på Spacemap | Skickar ditt skepp mot koordinaterna du klickade på. |
 | **Vrida och zooma kameran** | `Right Drag`, `Mouse Wheel` | Med högerdrag vrider du vyn runt ditt skepp; med hjulet (eller ett drag med mittenknappen) zoomar du in och ut, från 30 enheters avstånd ut till 1 500, vilket visar ungefär 4 400 gånger 2 650 enheter rymd (2,25 gånger ytan av en vy på 1 000 enheter). Din vridning och din zoom glider tillbaka till viloläget två sekunder efter att du har släppt, om du inte slår på **Kameran stannar där jag lämnar den** under Inställningar › Allmänt: då behåller vyn vinkeln och avståndet du gav den (knappen **Återställ vy** bredvid det reglaget sätter tillbaka den i viloläget en gång, och det gör även att slå av reglaget). **Kamerazoom** under Inställningar › Allmänt anger viloavståndet, från 50 % till 338 % (150 % är standard); när reglaget är på tar kameran sig till det nya avståndet när du ändrar värdet. |
-| **Välja mål** | `Left Click` på ett objekt | Väljer en utomjording, en fientlig pilot eller en portal som ditt aktiva mål. Målfönstret (se nedan) visar dess namn, avstånd, skrov och sköld. |
+| **Välja mål** | `Left Click` på ett objekt | Väljer en utomjording, en fientlig pilot eller en portal som ditt aktiva mål. Målfönstret (se nedan) visar dess namn, avstånd, skrov och sköld. Ett klick på en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) väljer den utan att ändra ditt mål: bara raketer skadar den. |
 | **Anfall valt mål** | `Key A` (eller `Ctrl + Click`) | Börjar avfyra dina lasrar och raketer mot det valda målet. |
 | **Avfyra raket** | `Key R` | Avfyrar den raket du sköt senast (eller den första i snabbfältet): en målsökande raket mot ditt valda mål, en rak raket mot din markör. För att sikta en rak raket med musen klickar du på dess plats i snabbfältet för att armera den och klickar sedan i rymden. Alla raketer delar en timer på 5 sekunder (en drönarformation kan ändra den). |
 | **Hoppa genom portal** | `Key J` | Startar ett hopp när du är inom 500 enheter från en portal (inne i dess säkra zon). Hoppet tar 3 sekunder (ett fält ovanför snabbfältet visar det) och du måste stanna inom räckhåll tills det är klart. I farosektorerna kan du inte starta ett hopp medan du är under attack. |
 | **Byt konfiguration** | `Key C` | Växlar mellan Konfig 1 och Konfig 2 (byter aktiv uppsättning av lasrar, sköldar och fart). |
 | **Primärt snabbfält** | `Digits 1 - 9` | Aktiverar föremål och åtgärder på din primära snabbfältsplats i HUD:en (t.ex. ammunition, reparationsdrönare). |
 | **Sekundärt snabbfält** | `Shift + Digits 1 - 9` | Aktiverar föremål och åtgärder på dina sekundära snabbfältsplatser. Raden visas ovanför den primära så snart den innehåller något; öppna väljaren Ammunition, Raketer eller Extra (eller dra en plats) för att placera ett föremål där. |
-| **Drönarformation** | tangenten för dess plats | Bär formationen på den platsen. Dra den dit från Formationslistan i snabbfältet, där det också finns Standard, ingen formation. Du får byta en gång var 2:a sekund, även i strid. Se [Drönarformationer](/wiki/03-Mechanics/Formations.md). |
+| **Drönarformation** | tangenten för dess plats | Bär formationen på den platsen. Dra den dit från Formationslistan i snabbfältet, där det också finns Standard, ingen formation. Du får byta en gång var 2:a sekund, både i strid och i en säker zon; platserna visar sekunderna som är kvar. Se [Drönarformationer](/wiki/03-Mechanics/Formations.md). |
 | **Helskärm** | `F11` eller `Alt + Enter` (Windows) | Slår kantlös helskärm på eller av; knappen uppe till höger på flygskärmen gör detsamma på Windows och macOS. De här två tangenterna är fasta och finns inte bland bindningarna du kan ändra. `Alt + Enter` väntar medan du skriver i chatten. |
 | **Välj var du återvänder** | `Keys 1 - 3` | På dödsskärmen: `1` vid basen, `2` vid närmaste portal, `3` på platsen. Se *Förstörelse och återkomst* ovan. |
 | **Målfönster** | `Key V` | Visar eller döljer målfönstret. Den första knappen i verktygsfältet uppe till vänster gör detsamma. |
@@ -79,7 +89,7 @@ SpaceCorps har anpassningsbar tangentbordsstyrning (du når den via panelen Inst
 
 ## Målfönstret {#the-target-window}
 
-Klicka på en utomjording eller en pilot så visar **målfönstret** vad du har valt: namn, avstånd, staplarna för skrov och sköld och om du skjuter på målet. Dess **korshårsknapp** startar och stoppar attacken (samma som `A`), och **X**-knappen avmarkerar målet (samma som `Esc`). När inget är valt säger det så på en rad.
+Klicka på en utomjording eller en pilot så visar **målfönstret** vad du har valt: namn, avstånd, staplarna för skrov och sköld och om du skjuter på målet. Dess **korshårsknapp** startar och stoppar attacken (samma som `A`), och **X**-knappen avmarkerar målet (samma som `Esc`). När inget är valt säger det så på en rad. Klicka på en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) så visar fönstret dess skrov, vad den lämnar och hur många av din raket den tar.
 
 Det är ett fönster som de andra. Dra det i titelraden för att placera det var som helst, stäng det med den röda lampan i hörnet eller med **den första knappen i verktygsfältet uppe till vänster** (eller `V`), och öppna det igen på samma sätt. Var du lämnar det och om det är öppet sparas för ditt konto. Det börjar högst upp på skärmen, mellan de två verktygsfälten. Att stänga det döljer bara avläsningen: ditt mål förblir valt och din attack fortsätter.
 

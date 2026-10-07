@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 1. Egy **gyűjtő** ércet bányászik, óránként egy meghatározott mennyiséget, a saját tárolójába (72 órányi termelés fér bele).
 2. A **begyűjtés** áthelyezi az ércet a tárolóból az **Erőforrás-raktárba**, a bankba, ahol minden érc külön van tárolva.
 3. A **Kovácsműhely** az adag indulásakor kiveszi a raktárból a szükséges ércet, és lemezeket készít, lemezenként 10 másodperc alatt, egyszerre egy adagot.
-4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/06-Items/Lasers.md) ezekből Quantum Laser 3-at, Starfire-3-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) számára.
+4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/06-Items/Lasers.md) ezekből Quantum Laser 3-at, Starfire-3-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít, amelyet a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) és minden fejlesztési lánc utolsó szintje kér.
 
 ### Velkonite-gyűjtő és Orvium-gyűjtő {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 - **Lemezek begyűjtése**: a kész lemezeket a készletedbe helyezi, miközben a **hajód leszállt**, és az adag többi része tovább készül. Új adag akkor indítható, amikor a Kovácsműhely üres.
 - Egy futó adag akkor is befejeződik, ha kikapcsolod a Kovácsműhelyt, vagy fejleszted. Egy **új** adaghoz a Kovácsműhelynek bekapcsolva kell lennie, nem állhat fejlesztés alatt, és a Skylab energiájának egyensúlyban kell lennie.
 - **Energia**: 30 az 1. szinten, szintenként 15%-kal növekedve.
+- **Nem eladható**: a Kovácsműhely lemezei nem adhatók el az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), különben ők lennének a Piac legnagyobb árucikke. Anyagként továbbra is használhatók a Gyártásban és a Kovácsműhelyben.
 
 ### Építésük {#building-them}
 
@@ -148,7 +149,7 @@ A két gyűjtő darabja **10 Ship Fragments, 20 000 kredit és 500 Thulium**, a
 
 ## A Kutatóközpont {#the-research-centre}
 
-A kilencedik modul a nyersanyagokat tudománnyá alakítja, és kikutatja azokat a technológiákat, amelyekre a Gyártásnak szüksége van, mielőtt bármi újat elkészítene. A Mag 10. szintjétől építhető, 1–10. szintje van, energiát fogyaszt, és nem kapcsolható ki. A számai, az, hogy mit éget el üzemanyagként, a boost és a teljes technológiafa a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon található.
+A kilencedik modul a nyersanyagokat tudománnyá alakítja, és kikutatja azokat a technológiákat, amelyekre a Gyártásnak szüksége van, mielőtt bármi újat elkészítene. A Mag 10. szintjétől építhető, 1–10. szintje van, energiát fogyaszt, és nem kapcsolható ki. A számai, az, hogy mit éget el üzemanyagként, a boost és a teljes technológiafa a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon található. A legmagasabb technológiákhoz Dark Matter is kell, amelyet a Központhoz adsz: a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) leírja, hogyan szerezhetsz.
 
 ## Mechanika {#mechanics}
 
@@ -265,7 +266,7 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 
 ### A wipe {#the-wipe}
 
-A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a belehelyezett Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik.
+A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a benne lévő Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik.
 
 ## A Skylabod megtervezése {#planning-your-skylab}
 

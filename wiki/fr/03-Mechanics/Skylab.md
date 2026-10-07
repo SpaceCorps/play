@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Quatre modules transforment le temps passé loin du clavier en plaques pour vos 
 1. Un **collecteur** extrait du minerai, une quantité donnée par heure, dans son propre réservoir (de quoi stocker 72 heures).
 2. **Récupérer** déplace le minerai du réservoir vers l’**Entrepôt de ressources**, la banque, où chaque minerai est gardé à part.
 3. La **Fonderie** prend dans la banque le minerai dont elle a besoin au début d’un lot, et fabrique des plaques, 10 secondes par plaque, un lot à la fois.
-4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/06-Items/Lasers.md) les transforme en Quantum Laser 3, en Starfire-3 ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate pour [la Forge](/wiki/06-Items/Forge.md).
+4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/06-Items/Lasers.md) les transforme en Quantum Laser 3, en Starfire-3 ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate, que demandent [la Forge](/wiki/06-Items/Forge.md) et le dernier palier de chaque chaîne d’amélioration.
 
 ### Collecteur de Velkonite et Collecteur d’Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Quatre modules transforment le temps passé loin du clavier en plaques pour vos 
 - **Récupérer les plaques** : déplace les plaques terminées dans votre inventaire tant que votre **vaisseau est amarré**, et le reste du lot continue. Un nouveau lot peut commencer une fois la Fonderie vide.
 - Un lot en cours se termine même si vous éteignez la Fonderie ou l’améliorez. Un **nouveau** lot exige que la Fonderie soit allumée, pas en cours d’amélioration, et que l’énergie du Skylab soit à l’équilibre.
 - **Énergie** : 30 au niveau 1, soit 15 % de plus par niveau.
+- **Non vendable** : les plaques que fabrique la Fonderie ne peuvent pas être vendues aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items), sinon elles seraient la plus grosse marchandise de son Marché. Elles servent toujours de matériau à l’Assemblage et à la Forge.
 
 ### Les construire {#building-them}
 
@@ -148,7 +149,7 @@ Les deux collecteurs coûtent chacun **10 Ship Fragments, 20 000 crédits et 50
 
 ## Le Centre de recherche {#the-research-centre}
 
-Le neuvième module transforme des ressources en science et recherche les technologies dont l’Assemblage a besoin avant de fabriquer quoi que ce soit de nouveau. Il se construit à partir du niveau 10 du Noyau, a les niveaux 1 à 10, consomme de l’énergie et ne peut pas être éteint. Ses chiffres, ce qu’il brûle comme carburant, le boost et tout l’arbre des technologies sont sur la page [Recherche](/wiki/03-Mechanics/Research.md).
+Le neuvième module transforme des ressources en science et recherche les technologies dont l’Assemblage a besoin avant de fabriquer quoi que ce soit de nouveau. Il se construit à partir du niveau 10 du Noyau, a les niveaux 1 à 10, consomme de l’énergie et ne peut pas être éteint. Ses chiffres, ce qu’il brûle comme carburant, le boost et tout l’arbre des technologies sont sur la page [Recherche](/wiki/03-Mechanics/Research.md). Les technologies les plus hautes demandent aussi de la Dark Matter, que vous ajoutez au Centre : [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) explique comment l’obtenir.
 
 ## Mécaniques {#mechanics}
 
@@ -265,7 +266,7 @@ Chaque ferme et chaque collecteur a un réservoir pour environ 72 heures de sa p
 
 ### La réinitialisation {#the-wipe}
 
-Le Skylab n’est jamais réinitialisé : les modules gardent leurs niveaux, l’Entrepôt de ressources garde son minerai et le Centre de recherche garde ses technologies, son réservoir de science, la Dark Matter introduite et une recherche en cours. Les plaques de votre inventaire sont des objets comme les autres : elles suivent donc les [règles de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md).
+Le Skylab n’est jamais réinitialisé : les modules gardent leurs niveaux, l’Entrepôt de ressources garde son minerai et le Centre de recherche garde ses technologies, son réservoir de science, la Dark Matter qu’il contient et une recherche en cours. Les plaques de votre inventaire sont des objets comme les autres : elles suivent donc les [règles de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Planifier votre Skylab {#planning-your-skylab}
 

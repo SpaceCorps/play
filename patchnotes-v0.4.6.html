@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.6 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.6: Adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent, the number can pass 100, and rockets and the strong laser ammo penetrate.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.6.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.6.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.6 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.6: Adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent, the number can pass 100, and rockets and the strong laser ammo penetrate.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.6.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.6 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.6",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.6.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.6.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.6.html",
+      "name": "SpaceCorps 2027 0.4.6 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.6: Adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent, the number can pass 100, and rockets and the strong laser ammo penetrate.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-01"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.6.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.6" aria-labelledby="v0.4.6-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.6-title">0.4.6</h2>
+        <p class="note-meta"><time datetime="2026-10-01" data-date>1 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.6">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.6 adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent, the number can pass 100, and rockets and the strong laser ammo penetrate. The Master Drone gets its second slot, aliens fly at whoever hits them, the target panel is a window, Wipe Points from alien kills need half the kills, and the camera zooms out farther and can stay where you put it. Shields, Wipe Points and ranges change, so the "If you already play" list below is worth reading.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>The Ironclad:</strong> a crafted Epic tank with 600,000 hull, 14 generator slots and 6 lasers, for 10,500 Thulium and parts in Assembly. Its base speed is the lowest of the roster.</li><li><strong>Shields reworked:</strong> cores of 45, 48 and 50 percent, cells of 2 to 10 points, the best set exactly 80. The number may pass 100; rockets and the x3 and x4 ammo penetrate. Small ships are less tanky.</li><li><strong>The Master Drone has two slots,</strong> the ones you already upgraded too.</li><li><strong>Aliens fly at whoever hits them,</strong> blasts of area rockets included: no more free hits on a Gorvane from just outside its range.</li><li><strong>A ship shoots as far as the average of its lasers,</strong> not its longest: mixed fits reach less.</li><li><strong>The target panel is a window</strong> (key <strong>V</strong>).</li><li><strong>Wipe Points from alien kills need half the kills.</strong> <strong>Clan donations are capped</strong> at 1,000,000 credits per pilot in 24 hours.</li><li><strong>The camera zooms out 50 percent farther</strong> and can stay where you put it.</li><li><strong>Repair drones fly,</strong> with quiet sounds. The Mission Control label is a <strong>bubble above the station</strong> you click.</li><li><strong>Windows:</strong> the picture keeps moving while you drag the window, and Copy, Ctrl+C, Ctrl+X and Ctrl+V work (new, and not yet tried by us on every Windows setup). Copy and paste now reach the system clipboard on macOS and Linux too.</li><li>Also: a quieter engine hum, the login music at your volume, no salvage from company pilots, no black hole bubble on the screen, a pilot sheet of one width, soft clicks on toolbar buttons, and password resets for administrators.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Your shields give less out of the box.</strong> Light 45 percent (it was 70), Basic 48 (80), Heavy 50 (85); cells add 2 to 10 points; the best set is 80, not 100. A stock Protos takes 14,545 damage before it is destroyed instead of 26,667; the Wraith is as it was. Forge buffs and Season Store levels stay (a level is now +0.1 point).</li><li><strong>Your range may be shorter.</strong> A ship shoots as far as the average of its lasers (a Protos with a Quantum Laser 1 and 2: 650, not 700). Equal lasers are as before. The level 6 to 8 quest fits now reach 750 to 775 against a Gorvane's 800.</li><li><strong>Your next Wipe Points claim may pay more.</strong> What you claimed counts at the new size once, so you are paid up to the new rate for the kills you have. Nobody loses points.</li><li><strong>A Master Drone you upgraded has a second slot,</strong> empty, and keeps what it carried.</li><li><strong>Clan donations stop at 1,000,000 credits in any 24 hours,</strong> over all clans.</li><li><strong>Company pilots drop no salvage.</strong> Ship Fragments and Reinforced Hull Plates come from aliens and mission rewards.</li><li><strong>The target panel is the Target window,</strong> open at the top centre until you move or close it. <strong>V</strong> shows or hides it; a key you bound to V shows a conflict in Settings.</li><li><strong>The black hole's bubble on the screen is gone.</strong> The minimap and the warnings still show it.</li><li><strong>Engine hums are half as loud,</strong> and toolbar buttons click softly (Settings › Button Sounds).</li></ul>
+        <h3>The Ironclad</h3>
+        <ul><li><strong>What it is:</strong> an Epic tank made in Assembly, between the Paragon (Rare) and the Wraith (Mythical) in rarity and recipe. It has more hull than either: <strong>600,000</strong> (the Wraith 324,000, the Paragon 128,000), and more generator slots: <strong>14</strong>, 7 core, 4 support and 3 auxiliary (the Wraith 12, the Paragon 8). It has <strong>6 lasers</strong> (the Paragon 8, the Wraith 12), 3 extra slots and 3 ability slots. It is a tank, not a better ship.</li><li><strong>The price:</strong> 10,500 Thulium, 200 Ship Fragments, 35 Reinforced Hull Plates, 10 Power Cores and 1 Ancient Control Unit, 15 minutes of crafting. Ancient Control Units come from Crystalys and mission rewards.</li><li><strong>Speed:</strong> its base speed is <strong>140</strong>, the lowest of the roster (Protos 150, Wraith 225). With the usual fits it is slower than the Wraith: a stock Ironclad flies at about 147 against the Wraith's 238, a typical build at about 269 against 345, and with a Basic Shield Core in all 14 slots it flies at 92, the slowest ship a pilot can build (its point of no return at the black hole is then about 2,040 units, and the black hole's card says 1,200 to 2,000). <strong>The Wraith stays faster in every ordinary build.</strong> A build fitted only for speed, with Adaptive Cores and Plasma Thrusters, can match or edge past a Wraith with the same fit, by a few percent (up to about 8 percent in the fits we measured), and Forge buffs on the speed stats move it further ahead (with every speed stat at the top of the Eternal tier, by up to about 17 percent in the fits we measured).</li><li><strong>In a fight:</strong> a Wraith destroys an Ironclad faster than the other way round, and an Ironclad destroys a Paragon.</li><li><strong>Looks:</strong> a new ship model in teal, cream and orange with twin engines and glowing strips. A 0.4.5 client draws it as a Protos.</li></ul>
+        <h3>Shields reworked</h3>
+        <ul><li><strong>The cores alone:</strong> Light 45 percent, Basic 48, Heavy 50 (they were 70, 80 and 85). <strong>The cells add points:</strong> Basic +2, Advanced +4, Reinforced +6, Elite +7, Prime +8, Sovereign +10. <strong>The best set, a Heavy core with three Sovereign cells, is exactly 80 percent,</strong> and nothing out of the box is more. A Light core with its cell is at most 55, a Basic core with two cells at most 68.</li><li><strong>It may pass 100.</strong> Absorbance is the share of a hit your shields take; the rest goes to the hull. Now it is not cut at 100: a hit's penetration is taken off it (between 0 and 100 percent), so what you have above 100 is a margin. The Hangar, the Ship window and the pilot sheet show the same number, with the Season Store buff counted.</li><li><strong>Penetration:</strong> rockets take points off the absorbance: Lancet 10, Javelin 25, Harpoon 35, Rivet 5, Mallet 25, Piledriver 35, N.I.K.E. 35 (they were shares of it, 10 to 50). The Ultra Core (x3 ammo) takes 5 and the Experimental Fusion Core (x4 ammo) 10. Blasts, aliens, company pilots and the x1 and x2 ammo take none.</li><li><strong>Ways to 100 and beyond:</strong> the Season Store's Shield Absorbance Boost is now <strong>+0.1 point a level</strong> (it was 0.1 percent of the stat), up to +10 at 100 levels, still <strong>25 Wipe Points a level</strong>. The levels you bought stay and are worth the same or more. Forge buffs multiply the stat as before: an Eternal piece rolled at the top adds up to 12 points to the best set. Today's sources of Wipe Points (855 in total at their caps, carried across wipes) buy 34 levels, +3.4 points, which with a fully forged Eternal set is about 95 percent; the top of the Boost is a goal for several wipes, and more sources of Wipe Points are planned.</li><li><strong>Small ships are less tanky.</strong> Damage taken before the hull is gone, with no repair: a stock Protos 14,545 (it was 26,667), a Protos with the best cells 40,000 (it was 370,950), a Kitefin with mid shields 54,545 (135,712), an Ostirion with mid shields 109,091 (183,094), a Paragon with the best build 640,000 (695,109). The Wraith is unchanged. A stock Protos lasts 18 seconds against a Bulwark where it lasted 33. Rockets hurt more too: a Harpoon puts 90 percent of its damage on the hull of a stock Protos where 65 percent went before.</li><li>Forged and enchanted shields keep their multipliers: a Heavy core forged to x1.12 is now 0.5 x 1.12 = 56 percent.</li></ul>
+        <h3>The Master Drone's second slot</h3>
+        <ul><li>A Master Drone has <strong>two slots,</strong> each taking a laser or a shield, as its item card always said. Both lasers add their damage, count in the volley, use ammo and get the drone's level bonus. The Drones view draws a box for each slot; a drop goes to the box under the pointer, and a click fills the boxes in order.</li><li><strong>Every Master Drone you already upgraded has the second slot,</strong> empty, and its first slot keeps what it carried. Nothing is moved and nothing is charged.</li><li><strong>A shield in a drone slot adds no capacity,</strong> as before, in either slot. It still takes a place in the order your shields are counted in, so keep shields in the ship's own slots.</li><li>A Slave Drone still has one slot; upgrading stays 40,000 Thulium and 100 Ship Fragments.</li></ul>
+        <h3>Aliens fly at whoever hits them</h3>
+        <ul><li><strong>Area rockets provoke aliens.</strong> The edge of a blast from an Ember, Corona, Eclipse, Scatter, Barrage, Maelstrom or N.U.K.E. now turns every alien it hurts on the pilot who fired it, as a laser hit does; before, only the alien the rocket burst beside did. An alien out of the blast stays where it was. Damage, the kill claim and the rewards are as before. As for lasers, a pilot inside its 3 seconds of EMP provokes nobody.</li><li><strong>An alien you are hitting comes for you.</strong> For 10 seconds after your last hit (each hit starts the 10 seconds again) it flies at you at its own speed whenever you are beyond its weapon range (Seeker 600, Phantasm and Bulwark 700, Gorvane 800, Crystalys 900), and fires once you are in range. It no longer stands still, and it no longer lets go at 2,500 units while you keep hitting it. So there is no spot from where a Starfire-3 (850) or a Helios Beam (900) hits a Gorvane for free.</li><li><strong>Several pilots:</strong> the alien still goes for the last pilot to hit it, with one exception: it does not turn from the pilot it is flying at to another who hits it from beyond its range and is no nearer, so a group just outside its range cannot keep it running from one to the next without ever answering.</li><li><strong>Company pilots answer rockets too:</strong> a squad pilot hit by an enemy player's rocket, direct or blast, now fights back as it does for a laser.</li><li><strong>A bystander's blast can pull an alien off the pilot tanking it,</strong> as a bystander's laser always could. The kill claim stays with the first pilot.</li></ul>
+        <h3>Shooting range is the average of the lasers</h3>
+        <ul><li>A ship's range is the <strong>average of the ranges of its lasers</strong> (the lasers on the flown configuration and in the drone slots), one number for all of them, rounded to the nearest. Before, it was the longest laser's, so one Helios Beam among cheap lasers set the whole volley's reach. Ships whose lasers are all alike are unchanged. The Hangar tile reads "Avg. range" where they differ, and its tip lists each laser's own.</li><li><strong>Examples</strong> (Quantum Laser 1 reaches 600, Quantum Laser 2 700, Quantum Laser 3 800, Starfire-3 850, Helios Beam 900):</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Ship</th><th scope="col">Fit</th><th scope="col">Before</th><th scope="col">Now</th></tr></thead><tbody><tr><th scope="row">Protos</th><td>2 Quantum Laser 2</td><td>700</td><td>700</td></tr><tr><th scope="row">Protos</th><td>Quantum Laser 1 + Quantum Laser 2</td><td>700</td><td>650</td></tr><tr><th scope="row">Kitefin</th><td>Quantum Laser 3 + 2 Quantum Laser 1</td><td>800</td><td>667</td></tr><tr><th scope="row">Ostirion</th><td>3 Starfire-3</td><td>850</td><td>850</td></tr><tr><th scope="row">Ostirion</th><td>Starfire-3 + 2 Quantum Laser 2 (the level 6 quest's fit)</td><td>850</td><td>750</td></tr><tr><th scope="row">Ostirion</th><td>Helios Beam + 2 Quantum Laser 1</td><td>900</td><td>700</td></tr><tr><th scope="row">Paragon</th><td>3 Starfire-3 + 3 Quantum Laser 2 (the level 8 quest's fit)</td><td>850</td><td>775</td></tr><tr><th scope="row">Wraith</th><td>12 Helios Beam</td><td>900</td><td>900</td></tr></tbody></table></div>
+        <ul><li><strong>The quests that kite a Gorvane:</strong> the level 6, 7 and 8 fits (Starfire-3 beside Quantum Laser 2) reach 750, 750 and 775, still past a Bulwark's 700 but 50, 50 and 25 short of a Gorvane's 800. A fit of Starfire-3 only still reaches 850. The quests' times for the Gorvane were not changed.</li><li><strong>A long laser among short ones counts for less:</strong> a Helios Beam in place of a Quantum Laser 1 adds 100 units to a 3-laser ship and 25 to a 12-laser one. A Forge range buff moves the ship's range by only its laser's share. A fit that averages under 700 is out-reached by company pilots (700), and a Phantasm or Bulwark (aggro radius 700) starts its chase before such a ship can fire.</li></ul>
+        <h3>The Target window</h3>
+        <ul><li>The panel that showed your target (name, distance, hull and shield, the attack and clear buttons) is now a <strong>window:</strong> drag it anywhere, close it with its light, open it with the first button of the top-left toolbar or with <strong>V</strong> (change the key in Settings › Controls, "Target Window"). The game remembers where you put it and whether it is open.</li><li>It is open at the top centre, in the toolbars' row, on every account, and says "No target. Click a ship or an alien." while nothing is selected. Once you close it, it stays closed until you open it.</li><li>Closing it hides only the readout: the target stays selected and the attack key (A), Esc and the hotbar work as before.</li></ul>
+        <h3>Wipe Points from alien kills: half the kills</h3>
+        <ul><li>A Wipe Points milestone takes <strong>100 kills</strong> of a Seeker, Phantasm or Bulwark (it was 200) and <strong>50</strong> of a Gorvane or Crystalys (it was 100). The points per milestone (1, 2, 3, 4 and 5 WP) and the 50 milestones per alien are unchanged, so the most an alien ever pays (50, 100, 150, 200 and 250 WP, 750 in all) is the same: you reach it with half the kills (5,000 of the first three, 2,500 of the last two). The Season page and the help card show the new sizes.</li><li><strong>Your earlier claims are adjusted once,</strong> at the first start of the 0.4.6 server: what you were paid counts as milestones at the new size, so your next claim pays what the new rate gives for the kills you already have, up to the same maximum. A pilot with 1,000 Seekers who had claimed 5 times can claim 5 more. Nobody is paid at the update, nobody loses points and nobody is paid twice.</li><li><strong>Update the game.</strong> A 0.4.5 client keeps counting in the old size: its Season page shows milestones of 200 and 100 kills, its Claim button can offer a different amount than the server pays, and a pilot who has been paid everything can still see a button that pays nothing.</li></ul>
+        <h3>Clan donations are capped</h3>
+        <ul><li>A pilot can send <strong>at most 1,000,000 credits into clans in any 24 hours,</strong> summed over every clan. The window slides: a donation counts for 24 hours from its second. Leaving a clan, joining another or a season wipe do not give a new allowance.</li><li>The donate sheet shows <strong>what you can still send,</strong> a bar, the cap, and when the next credits come back. <strong>Max</strong> fills in the most you may send now. A donation over the allowance is refused whole, with the amount you still may send.</li><li>The numbers are a file on the server (<code>ClanBank.json</code>) and may change.</li></ul>
+        <h3>Company pilots leave no salvage</h3>
+        <ul><li>A destroyed company pilot (the friendly squad ships of the home sectors) no longer leaves a salvage box, whoever or whatever destroys it. Aliens leave their loot as before, and so do the mission rewards. This takes a source away from Ship Fragments and Reinforced Hull Plates: they still come from aliens and from mission rewards, and the Shop does not sell them.</li></ul>
+        <h3>The camera</h3>
+        <ul><li><strong>Zoom out another 50 percent:</strong> the mouse wheel (and the middle-button drag) now goes out to 1,500 units from the ship (it was 1,000), which shows about 4,400 by 2,650 units of space, and the <strong>Camera Zoom</strong> slider in Settings goes up to <strong>338 percent</strong> (it was 225). The default is still 150 percent. The server already sends the whole map to every pilot, so nothing pops in at the edge.</li><li><strong>Camera stays where I put it</strong> (Settings › General, under Camera Zoom; off by default): normally your turn and your zoom ease back to the resting view two seconds after you let go. With the switch on, the view keeps the angle and distance you gave it. <strong>Reset view</strong> next to the switch puts it back once, and so does switching it off. The Camera Zoom slider still moves the camera to its distance.</li><li>A 0.4.5 client stops at 225 percent and may write 225 back over a saved 338 when it saves your settings.</li></ul>
+        <h3>Repair drones</h3>
+        <ul><li>While <strong>Emergency Repair</strong> runs, one to three small drones fly out of your ship, circle the hull and aim soft green beams at its plates, and dock again when the ten seconds end. A <strong>Shield Surge</strong> gets up to two blue drones inside its bubble. Every pilot on the map sees them. Graphics: High draws up to three drone models for your own ship (two for another pilot's), Medium one drone model plus a second drone as a glow (another pilot's repair: one model), Low only the beams and a glow, with no model; Reduce Motion parks them.</li><li><strong>Quiet sounds go with it:</strong> a blip as the drones leave, one as they dock (the Shield Surge's a fourth higher) and a faint tone under the beams, all far under the repair's own sound. They follow the Sound Effects volume and mute. Nobody has heard them on a real speaker yet; tell us if they are too loud or too quiet.</li></ul>
+        <h3>Mission Control is a bubble above the station</h3>
+        <ul><li>The Mission Control label is no longer a button that slid to the corner of the screen: it is a <strong>bubble in the world above the station</strong> with its tail pointing down at it. Click it to open Mission Control without flying the ship. It keeps its size at every zoom and fades out near the edges of the screen; the "Safe zone active" chip slides out of its way, and a window you drag over it covers it.</li><li>With the station's roof off the screen there is no bubble. Zoomed all the way in, the station's name tag shows instead and opens Mission Control when you click it; at the start of a flight far from the station, with the station off the screen, nothing shows. The Mission Control button in the toolbar still works in the safe zone.</li></ul>
+        <h3>The black hole's bubble is gone</h3>
+        <ul><li>The small black hole in a glow at the edge of the flight view, with "Black hole, N units", is removed. The hole itself is drawn in the world as before, the warnings (the gauge, the red vignette, the point-of-no-return line, the sounds) and the marks on the minimap and the maps stay. In the default camera the hole is on the screen only within about 3,000 units, so from farther off nothing in the flight view shows where it is, unless you turn the camera down to look across the plane: look at the minimap.</li></ul>
+        <h3>Sounds</h3>
+        <ul><li><strong>The engine hum is 6 dB quieter:</strong> half the amplitude, for the own ship, other players, aliens and company pilots, at idle, cruise and full speed alike. Nothing else changed: lasers, hits, explosions, the interface and the music are as before. If it is still too loud, say so.</li><li><strong>The music starts at your volume on the login screen too.</strong> The engine's volume buses used to start at full and reach your level a moment after the first sound; they start at your level now, and the screens before sign-in play the volume the last pilot on this computer had (15 percent on a new one). An account that saved a music volume of 40 before 0.4.4 still plays 40 after it signs in.</li><li><strong>Toolbar buttons click softly.</strong> The buttons of both toolbars, the lights that close a window, the buttons in window headers, the hotbar's picker chips, the chat's tabs and the fold rows now make the kit's soft click, and a tick as the pointer settles on a button. The tick never played for any button before, because of a counter it relied on that stood still; it plays now, on the kit's own buttons too. Settings › Button Sounds switches them off.</li></ul>
+        <h3>The pilot sheet keeps one width</h3>
+        <ul><li>The sheet that opens when you click a pilot (Rankings, the Hall of Fame, the clan roster) grew wider with every item and module the pilot carried. It is now one width (at most 720 points) whatever the pilot carries: the name and a line of totals stay on top, and the equipment scrolls under them in groups (Lasers, Generators, Ability slots, Extras, Drones), one tile per item, with the modules it carries as a "+n" badge. Stat tiles shrink their text before cutting it, on every page.</li></ul>
+        <h3>Windows: dragging the window and copy and paste</h3>
+        <ul><li><strong>The picture keeps moving while you drag or resize the window</strong> by its title bar. Windows stops the game's frames while it moves a window; the game now asks for frames from a second thread during the move. <strong>We have not been able to run this on a real Windows PC.</strong> The log (<code>spacecorps2027.log</code>) has a line per drag with its frames per second, and a line ending "the picture did not update" means it did not work on your PC. If it misbehaves, start the game with <code>SPACECORPS_NO_MOVE_FIX</code> set to <code>1</code> (or add <code>"move_fix": false</code> to <code>client.json</code>) to turn it off. The system menu (right-click on the title bar, Alt+Space) still freezes the picture while it is open.</li><li><strong>Copy, Ctrl+C, Ctrl+X and Ctrl+V work.</strong> The game never used the system clipboard: the Copy button next to your invite code said "Copied" for text only the game could read, and Ctrl+V pasted only what the game itself had copied. Now the Copy buttons (invite code, invite message, About's build line) and Ctrl+C, Ctrl+X and Ctrl+V in text fields use the system clipboard on <strong>Windows, macOS and Linux</strong> (Cmd on a Mac). The invite code is a selectable field. If the system refuses, a message says so. <strong>The Windows part has never been through a real Windows PC and Linux only through stand-in tools;</strong> on Linux the game needs <code>wl-copy</code>, <code>xclip</code> or <code>xsel</code> installed. Ctrl+C, Ctrl+X and Ctrl+V are no longer keys you can bind to a game action.</li></ul>
+        <h3>Administrators</h3>
+        <ul><li>Administrators can <strong>reset a pilot's forgotten password</strong> (typed, or generated and shown once; the server keeps only the scrambled form), <strong>set exact values</strong> (credits, Thulium, Wipe Points, honor, experience, level) and <strong>edit a pilot's inventory,</strong> on the Admin page. <strong>Every change an administrator makes to an account is recorded</strong> (who, which pilot, what, the values before and after, when; never a password) and kept for a year. Records of the older admin buttons are kept too.</li></ul>
+        <h3>Smaller changes</h3>
+        <ul><li><strong>Invite Friends:</strong> the scrambled network address a redemption stores is <strong>erased from our database 30 days after the redemption</strong> (before, it was kept for good). Unused space inside the database file can still hold a stale copy until it is reused. The rest of the record stays.</li><li><strong>The Season Store card</strong> for the Shield Absorbance Boost says "points", not a percentage. The Boosters window shows the buff in points.</li><li><strong>Texts and help:</strong> the Master Drone's description says it has 2 slots; the wiki's Rockets page says a blast turns every alien it hurts; the help cards for Range, Shield absorbance, Clan donations and the Black hole are updated.</li><li><strong>The wiki:</strong> pages for the Ironclad, the new range rule, the new shields (Shields, Combat, Rockets, Lasers, Forge, Wipe Timeline) and the clan donation cap; the hull bars of the ship articles are drawn against 700,000 now.</li><li><strong>Credits page:</strong> the clan line names the donation cap.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.5.html" rel="prev">← 0.4.5</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <a href="patchnotes-v0.4.7.html" rel="next">0.4.7 →</a>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (patchnotes/v0.4.8.part.html) is fetched and put in. The page
+   opened at #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails)
+   the link inside the entry opens the release's own page, patchnotes-v0.4.8.html. */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    return fetch('patchnotes/' + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

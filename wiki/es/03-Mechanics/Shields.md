@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecánicas de los escudos {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 \[\text{Parte del escudo} = \text{clamp}(\text{Absorción} - \text{Penetración},\ 0,\ 100\,\%)\]
 
 - Los escudos reciben como mucho `round(damage x share)` del impacto; el casco recibe el resto. Un escudo demasiado bajo para su parte pasa la diferencia a los HP, y si los escudos están a 0, todo el daño va directamente a los HP.
-- **De dónde viene la penetración**: la *penetración de escudo* de un cohete directo (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; las explosiones en área no tienen, consulta [Cohetes](/wiki/06-Items/Rockets.md)) y la de la munición láser (Ultra Core 5 %, Experimental Fusion Core 10 %; consulta [Láseres y munición](/wiki/06-Items/Lasers.md)). Los alienígenas no tienen, y tampoco la munición x1 y x2.
-- **Ejemplos**: 80 % de absorción contra un Lancet III (35 %): los escudos reciben el 45 % del impacto, el casco el 55 %. Con 100 % contra él: 65 % y 35 %. Con 112 % contra un 12 % de penetración: todo el impacto. Con 45 % (un Light Shield Core solo) contra 35 %: 10 % en el escudo y el resto en el casco. Ningún cohete atraviesa por completo un Light Shield Core.
+- **De dónde viene la penetración**: la *penetración de escudo* de un cohete directo (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; las explosiones en área no tienen, consulta [Cohetes](/wiki/06-Items/Rockets.md)) y la de la munición láser (Ultra Core 5 %, Experimental Fusion Core 10 %; consulta [Láseres y munición](/wiki/06-Items/Lasers.md)). Los alienígenas no tienen, y tampoco la munición x1 y x2. Un impacto láser también incluye los Penetration Amps de los láseres del atacante (de +2 % a +8 % por ranura, la media de sus láseres) y la penetración de una formación de drones (Gemini +9 %, Stiletto +16 %); la suma se detiene en el **50 %** para un láser y en el 40 % para un cohete ([cómo se suma un impacto láser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Ejemplos**: 80 % de absorción contra un Lancet III (35 %): los escudos reciben el 45 % del impacto, el casco el 55 %. Con 100 % contra él: 65 % y 35 %. Con 112 % contra un 12 % de penetración: todo el impacto. Con 45 % (un Light Shield Core solo) contra 35 %: 10 % en el escudo y el resto en el casco. Ningún cohete atraviesa por completo un Light Shield Core. El mejor láser (50 %) sí lo consigue: contra él, el mejor escudo (80 %) recibe el 30 % del impacto y el casco el 70 %, y un Light Shield Core solo (45 %) no recibe nada.
 - Los alienígenas no tienen estadística de absorción: reparten cada impacto 80 % / 20 %, menos la penetración del impacto.
 - El daño de una Siphon Battery sale solo del escudo: la absorción y la penetración no intervienen.
 
@@ -57,9 +57,9 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 
 Cada aumento de escudo sube una de las tres estadísticas y aparece en su propia categoría en la ventana Potenciadores:
 
-- **Capacidad** (puntos de escudo máximos): los potenciadores Shield Wall y la mejora permanente Shield Capacity Boost.
+- **Capacidad** (puntos de escudo máximos): los potenciadores Shield Wall Booster 1 y 2 y la mejora permanente Shield Capacity Boost.
 - **Absorción** (la parte de un impacto que se llevan tus escudos): la mejora permanente Shield Absorbance Boost (+0,1 puntos por nivel, como mucho +10 puntos).
-- **Recarga** (puntos de escudo restaurados por segundo): el potenciador Shield Regen.
+- **Recarga** (puntos de escudo restaurados por segundo): el Shield Regen Booster.
 
 Consulta [Potenciadores](/wiki/06-Items/Boosters.md) para ver las cifras.
 

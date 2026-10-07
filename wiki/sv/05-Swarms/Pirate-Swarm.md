@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate-svärm -->
 # Pirate-svärm {#pirate-swarm}
 
@@ -7,7 +7,7 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 ## I korthet {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Var**: Sektorerna `x-2` och `x-3` i varje koncern
 - **Hur många**: En i var och en av de sektorerna, 6 i varje värld
@@ -32,7 +32,7 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 - **Skjut på bossen, inte på Scouts.** Scouts läker bossen, men läkningen är liten jämfört med dess skrov, och en ny Scout kommer så ofta som listan *I korthet* säger: en grupp som skjuter Scouts först kommer aldrig före dem, och bara en mycket stor grupp kan röja dem och behöver ändå längre tid på bossen än en grupp som lät dem vara. Scouts kostar dig tid, de avgör inte striden.
 - **Led bort Scouts.** En Scout läker bara så länge den är inom bossens räckhåll, så en Scout som följer dig utanför det läker ingenting, och en Ostirion är snabbare än en Scout.
 - **Fortsätt röra dig.** Bossens raket är rak och ostyrd: ett skepp som håller sig i rörelse undviker den, ett som står still blir träffat.
-- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 kan fälla den på ungefär fem minuter i Alpha; en Ostirion ensam klarar det inte, en Paragon ensam gör det. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
+- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 kan fälla den på ungefär fem minuter i Alpha, men bara precis, och bara så länge träffarna fördelas: en trio där en pilot tar all eld förlorar. Fem fäller den på tre till fyra minuter; en Ostirion ensam klarar det inte, en Paragon ensam gör det. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, i samma sektor.
 
 ## Belöningar och byte {#rewards-and-drops}
@@ -44,7 +44,7 @@ Pirate Boss betalar efter den strid den är: en minuts strid mot den betalar mer
 Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 
 ### Pirate Scout
 
-Bygger på Kitefin med 50 % av skrov, sköld och skada; hastighet och räckvidd är förlagans.
+Bygger på Kitefin med 50 % av skrovet och 75 % av laserskadan; hastighet och räckvidd är förlagans.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Skrov | 12 000 | 18 000 | 24 000 |
 | Sköld | 9 818 | 14 727 | 19 636 |
-| Laserskada (en salva per sekund) | 98 | 147 | 196 |
+| Laserskada (en salva per sekund) | 147 | 221 | 294 |
 | Hastighet | 175 | 175 | 175 |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | 700 | 700 | 700 |

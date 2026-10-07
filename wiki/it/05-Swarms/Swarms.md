@@ -15,7 +15,7 @@ I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Cust
 ## I tre sciami {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Sciame | Dove | Quanti | Capo | Seguaci | Ritorna |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al re
 ## Le regole di ogni sciame {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Gli sciami compaiono dal giorno 4 della stagione fino al reset.
 - Quando una nave di sciame viene colpita, le navi del suo sciame entro 1.500 unità da essa si uniscono allo scontro contro il primo pilota che l’ha colpita.
@@ -46,7 +46,7 @@ Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al re
 Il mondo scala uno sciame come scala ogni alieno ([Mondi](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): scafo, scudo, ricarica dello scudo, danno dei laser, danno dei razzi e cura di una nave di sciame sono i valori di Alpha moltiplicati per la potenza qui sotto, e un abbattimento paga la ricompensa qui sotto. Velocità, portata e bottino sono uguali in ogni mondo. Gli articoli danno i valori di ogni nave nei tre mondi.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Mondo | Potenza | Ricompensa |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Un alieno normale paga il pilota che lo ha colpito per primo ([Combattimento](/w
 Ogni abbattimento viene contato con il nome proprio della nave nelle tue statistiche degli abbattimenti e aggiunge punti PvE alla tua classifica:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Nave di sciame | Sciame | Punti PvE per abbattimento |
 | :--- | :--- | ---: |

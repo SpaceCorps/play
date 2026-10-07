@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc29967a9f16c91b -->
+<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -10,9 +10,11 @@ Klán alapítása vagy belépés egy klánba lehetővé teszi, hogy összevond a
 - Minden befejezett lépés azonnal klánpontot ad: 15, 15, 20, 20 és 30, vagyis egy egész vonal **100 pontot**.
 - A Vezér és az Alvezérek a pontokat három [bónuszra](#clan-points-and-boosts) költik, mindegyik tíz szintes: **Sebzés** (legfeljebb +5%), **Thulium** (legfeljebb +10%) és **Kredit** (legfeljebb +10%).
 - Az a klán, amely minden vonalat teljesít, a **12. szezonnapon** megvett minden szintet. A pontok és a szintek minden wipe-nál újrakezdődnek.
-- Legalább **három tag** kell, aki megtette a részét, és nagyjából öt pilóta az őrző elleni harchoz.
-- A vonalhoz és a bónuszokhoz 0.4.10-es vagy újabb verziójú játék kell.
+- Legalább **három tag** kell, aki megtette a részét, és **nagyjából hét pilóta** az őrző elleni harchoz: öt többnyire veszít, tíz könnyedén nyer ([mekkora legénység kell](#how-big-a-crew)). Egy túl kicsi legénység elveszíti a harcot: a klán ilyenkor megtartja a négy küldetés **70 pontját**, de a vonal nem készül el, és nem fizeti ki [a te jutalmadat](#the-reward-for-you).
+- A hajód a meglévő bónuszokat a **Boosterek** ablakban mutatja, egy külön kártyán ([hol látod őket](#the-three-boosts)).
+- A vonalhoz és a bónuszokhoz 0.4.10-es vagy újabb verziójú játék kell, a Boosterek ablak kártyájához 0.4.12-es vagy újabb.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
@@ -103,7 +105,7 @@ Minden klán naponta egy **napi vonalat** kap: öt lépést, amelyeket az egész
 | | **Egy befejezett vonal** | **100** |
 
 - Csak a **nyitott lépés számít**. Az a lelövés, amely az 1. lépés nyitott ideje alatt történik, az 1. lépésnek számít, és semmi másnak. Ha az 1. lépés kész, a 2. lépés nulláról nyílik meg. Amit egy lépés célján túl lősz le, azt nem tartjuk meg a következőnek.
-- Egy lépés a pontjait **abban a pillanatban fizeti ki, amikor kész**. Az a klán, amely megcsinálja a négy küldetést, aztán nem tud legénységet összehozni az őrzőhöz, így is megtart **70 pontot**.
+- Egy lépés a pontjait **abban a pillanatban fizeti ki, amikor kész**. Az a klán, amely megcsinálja a négy küldetést, aztán nem tud legénységet összehozni az őrzőhöz, vagy elveszíti a harcot, így is megtart **70 pontot**; [a te jutalmad](#the-reward-for-you) csak a kész vonallal jön.
 - Mindenki munkája **egy közös számlálóba** megy: a nyitott lépés idegenének lelövései és az összes tagod megtett távolsága összeadódik, így senkinek sem kell egyedül végigvinnie egy lépést.
 
 ### A nap {#the-day}
@@ -150,7 +152,7 @@ A vonalak hetes ciklusban követik egymást: a *d* szezonnap vonalának száma 1
 
 ### A te jutalmad {#the-reward-for-you}
 
-Ha a vonal kész, minden tag kap kifizetést, aki elérte a minimumot és még a klánban van, még akkor is, ha offline. A kifizetés fix: a bónuszok, a boosterek és a világ nem változtatják.
+Ha a vonal kész, vagyis az őrző elpusztult, minden tag kap kifizetést, aki elérte a minimumot és még a klánban van, még akkor is, ha offline. Az a vonal, amely az őrző nélkül ér véget, nem fizet jutalmat, bármit tettek is a négy küldetéssel. A kifizetés fix: a bónuszok, a boosterek és a világ nem változtatják.
 
 | Fokozat | Kredit | Thulium |
 | :--- | ---: | ---: |
@@ -162,7 +164,7 @@ Ha a vonal kész, minden tag kap kifizetést, aki elérte a minimumot és még a
 
 ## Klánőrzők {#clan-wardens}
 
-A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek.
+A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek. A lézerei keményen ütnek, ezért az őrző teljes legénységnek való harc: vigyél nagyjából hét pilótát, mert öt többnyire veszít ([mekkora legénység kell](#how-big-a-crew)).
 
 | Őrző | Szezonnapok | Szerep | Hogyan harcol |
 | :--- | :--- | :--- | :--- |
@@ -176,64 +178,70 @@ A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban k�
 - **Ki.** A Vezér vagy egy Alvezér.
 - **Hogyan.** Repülés közben: a **Megidézés itt** gomb a repülőképernyőn jelenik meg, amint a 4. lépés kész, és megerősítést kér. Légy a védett zónákon kívül, egy vállalat **x-2, x-3 vagy x-4** szektorában (bármelyik vállalatén) a világodban. A Műveletek fül mutatja a nap őrzőjét, a megmaradt megidézéseket és azt, miért szürke a gomb, de az őrzőt a hajóról idézik meg.
 - **Hol jelenik meg.** A hajódtól 3 000–4 500 egységre, a világodban: csak az adott világ pilótái érhetik el. A fül **x-2-t ajánl Újonc klánnak, x-3-at Veteránnak és x-4-et Elitnek**. A kiválasztott szektor szokásos [PvP-szabályai](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) továbbra is érvényesek.
-- **Bemelegítés.** **90 másodpercig** pajzsos és passzív („töltődik”), és minden online klánpilótát értesítenek, hol. Repülj oda, amíg töltődik: a 90 másodperc után élesítve van.
+- **Bemelegítés.** **90 másodpercig** pajzsos és passzív („töltődik”), és minden online klánpilótát értesítenek, hol. Repülj oda, amíg töltődik: a 90 másodperc után élesítve van. Egy kapszula a repülési képernyőn a biztonságos zóna jelvénye alatt követi: a nevét, a „töltődik” állapotot a hátralévő idővel, majd az „élesítve” állapotot a szektorával és a visszavonulásig hátralévő idővel, a „dühöng” állapotot pedig akkor, amikor egy Wrath Warden a törzse felénél kevesebbel rendelkezik.
 - **Csak a klánod.** Más klánok pilótáinak lövéseit figyelmen kívül hagyja, és nem váltanak ki viszontlövést.
 - **Hogyan ér véget.** Amikor elpusztítják. **Visszavonul**, ha 40 perce élesedett, ha a nap véget ér, ha a klánod egyik pilótája sem volt 2 percig a térképén repülésben, vagy ha a szerver újraindul (ekkor a megidézést visszakapod). Egy visszavonuló őrző egy megidézésbe kerül, és a következő hívás ugyanaz az őrző teljes erővel.
 
 ### Őrző elleni harc {#fighting-a-warden}
 
 - **Az őrző azzal a pilótával harcol, aki először eltalálta**, mint minden boss: hagyd, hogy a legszívósabb hajó kezdje, és használd a [Shield Surge-öt és az Emergency Repairt](/wiki/03-Mechanics/Abilities.md).
-- **Vigyél x2 lőszert** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Egy ötfős legénység x1 lőszerrel is nyer, lassabban; egy háromfős nem.
-- **Brood:** a drónok gyógyítják a törzsét, és az a háromfős legénység, amely figyelmen kívül hagyja őket, veszít. Őket lődd előbb: egy öt pilóta tüzében egy másodperc alatt vagy hamarabb elpusztul, és a következő 8 másodperc múlva jön.
+- **Vigyél nagyjából hét pilótát, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Öt többnyire veszít, tíz könnyedén nyer. Az alábbi táblázat a legjobb eset, és még abban is három pilóta minden őrző ellen veszít, négy pedig csak a Siege Warden I és II ellen nyer. A táblázatban a legkisebb legénység, amely nyerhet, x2 lőszerrel 4–5, x1 lőszerrel 6–8 pilótából áll.
+- **Brood:** a drónok gyógyítják a törzsét, és az a legénység, amely figyelmen kívül hagyja őket, veszít: az öt pilóta, amely csak az őrzőre lő, mind elesik, amikor az őrzőnek nagyjából a fele még áll, a tíz pedig nagyjából egyötödével tovább tart. Őket lődd előbb: egy öt pilóta tüzében egy másodperc alatt vagy hamarabb elpusztul, és a következő 8 másodperc múlva jön.
 - **Siege:** a rakétái egyenesek és irányítatlanok, így a mozgásban maradó hajó a legtöbbet kikerüli. Maradj mozgásban, és felváltva legyetek a célpont.
 - **Wrath:** amint a törzse a fele alá esik, minden sorozat másfélszer akkorát üt, így a harc második fele a veszélyes. Az első felét gyorsan döntsd le, tartsd fenn a pajzsot, és az Emergency Repairt tartogasd a dühre.
 
 ### Mekkora legénység kell {#how-big-a-crew}
 
 > [!NOTE]
-> Ezek az idők az alábbi számokból **kiszámítottak**, nem játékban mértek: a fokozathoz készült hajókban és felszerelésben ülő legénység, amely mind az őrzőre lő. A kötőjel azt jelenti, hogy nem számoltuk ki.
+> Ezek az idők az alábbi számokból **kiszámítottak**, nem játékban mértek. A legénység a fokozathoz készült hajókban és felszerelésben ül, és a táblázat a **legjobb esete**: minden pilóta azonnal használja a Shield Surge és az Emergency Repair képességet, amint kész, és a legénység először az őrző segítőire lő, ha az jobb. Az őrző és a segítői mind arra a pilótára lőnek, aki először találta el, és senki nem tér ki. **Egy valódi harc nehezebb a táblázatnál.** Az öt pilótás sor a legjobb esetben is szoros (győzelem, de egy-két hajóba kerül), és ugyanezekben a harcokban, amelyeket magában a játékban, szkriptelt pilótákkal futtattunk le, öt pilóta a legtöbb harcot elvesztette, még ha mindkét képességet használta is; hét pilóta mindegyiket megnyerte, tíz pedig könnyedén nyert. Az az ötfős legénység, amely nem használ képességet, és csak az őrzőre lő, a kilenc őrzőből hetet elveszít; hét pilóta, aki ugyanezt teszi, nyolcat legyőz (mindet a Brood Warden III kivételével, akit a drónjai gyógyítanak), és egy-három hajót veszít, tíz pilóta pedig mind a kilencet legyőzi.
+
+A táblázat a legjobb eset, x2 lőszerrel; játékban öt pilóta többnyire veszít, nagyjából hét pedig nyer.
 
 | Legénység | x2 lőszerrel | x1 lőszerrel |
 | :--- | :--- | :--- |
-| 2 pilóta | veszítenek Brood és Siege ellen; Wrath ellen nyernek nagyjából 17 perc alatt | – |
-| 3 pilóta | 9–10 perc alatt nyernek, hajszálra: a tank törzse alacsonyan végez, és egy pilóta elveszhet | veszítenek |
-| 5 pilóta | nagyjából 5 perc alatt nyernek | 12–14 perc alatt nyernek |
-| 7 pilóta | nagyjából 3,4 perc alatt nyernek | – |
-| 10 pilóta | nagyjából 2,3 perc alatt nyernek | – |
+| 3 pilóta | minden őrző ellen veszítenek, 4,7–13,8 perc után; az őrzőnek törzséből és pajzsából negyed és kétharmad közötti rész marad meg | veszítenek |
+| 4 pilóta | csak a Siege Warden I és II ellen nyernek, nagyjából 8 perc alatt, 1 hajót elvesztve | veszítenek |
+| 5 pilóta | minden őrző ellen nyernek 5,3–6,5 perc alatt, 1–2 hajót elvesztve | veszítenek |
+| 7 pilóta | minden őrző ellen nyernek 3,3–3,6 perc alatt, 0–1 hajót elvesztve | a Brood Warden II és III kivételével minden őrző ellen nyernek, 8,7–12,3 perc alatt, 1–4 hajót elvesztve |
+| 10 pilóta | minden őrző ellen nyernek 2,2–2,4 perc alatt, 0–1 hajót elvesztve | minden őrző ellen nyernek 5,1–5,6 perc alatt, 1–2 hajót elvesztve |
 
-Az őrzőnél alacsonyabb fokozatú legénység veszít: egy ötfős Újonc legénység nem tud legyőzni egy Veterán őrzőt, és egy Veterán legénység sem egy Elit őrzőt. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik.
+A legjobb esetben a legkisebb legénység, amely x2 lőszerrel nyer, **4 pilótából** (a Siege Warden I és II ellen) **5-ből** (a többi hét ellen) áll, és közben **1–2** hajót veszít; x1 lőszerrel **6–8** pilóta kell, és 2–4 hajót veszít. A **hét** pilótás legénység x2 lőszerrel minden őrzőt legyőz, és a legjobb esetben legfeljebb egy hajót veszít. Egy őrző lézerei az I. erősségnél néhány tíz, akár száz fölötti (48–129), a III.-nál több ezer (1 845–3 090) sebzést ütnek egy sorozatban, és a segítői is hozzáadnak: a hajó, amely ellen küzd, másfél és négy perc között elesik, aztán a következőre fordul, így még a nyerő legénység is hajókat veszít.
+
+A táblázat egy olyan legénységre vonatkozik, amely az őrző saját fokozatának felszerelésében van. A gyengébb hajók rosszabbul szerepelnek: tíz pilóta Újonc felszerelésben nem tud legyőzni egy Veterán őrzőt, és tíz Veterán felszerelésben sem egy Elit őrzőt. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik, amelyet a klán öt legjobb pilótája határoz meg, ezért vidd őket.
+
+**Az a klán, amely túl kicsi az őrzőjéhez,** (aznap nagyjából hét pilótánál kevesebb) nincs kizárva. A négy küldetés **70 pontot** fizet, bármi történik az őrzővel, a pontokból bónuszokat lehet venni, és a klán újra megidézheti az őrzőt, ha maradt még megidézése (naponta kettő van): ha a legénység elesik és távol marad, az őrző visszavonul, ami egy megidézésbe kerül, és a következő hívás teljes erővel hozza vissza. De a vonal nem készül el, így senki nem kapja meg [a te jutalmadat](#the-reward-for-you), és az a klán, amely sosem győzi le az őrzőjét, a 30 bónuszszintet leghamarabb a 18. szezonnapon éri el, nem a 12.-en ([mennyi ideig tart](#how-long-it-takes)).
 
 ### Az őrzők számai {#warden-numbers}
 
-Az őrzők számai minden világban ugyanazok (az Alpha-számok), és a fizetésük is. Minden drón, kísérő és őr a második táblázat számaival rendelkezik, és az őrző mellett állnak: a Brood Drone az őrző törzsét gyógyítja, a Siege Escort vagy a Wrath Guard lézerrel lő.
+Az őrzők számai minden világban ugyanazok (az Alpha-számok), és a fizetésük is. Minden drón, kísérő és őr a második táblázat számaival rendelkezik, és az őrző mellett állnak: a Brood Drone az őrző törzsét gyógyítja, a Siege Escort vagy a Wrath Guard lézerrel lő. Egy sorozat egy hajó összes lézerének lövése egy másodperc alatt, a kijelzett szám 80 és 100%-a között kisorsolva; a félnél kevesebb törzzsel rendelkező Wrath Warden másfélszer keményebben üt. Az őrző és a segítői mind arra a pilótára lőnek, akivel az őrző harcol, így a sorozataik összeadódnak: egy Brood Warden III a négy drónjával akár 4 350-at is rak egy hajóra másodpercenként. A Siege Warden [Rivet-rakétája](/wiki/06-Items/Rockets.md#the-twelve-rockets) nincs kisorsolva: az I. erősségnél legfeljebb **2 500**, a II.-nál **5 000**, a III.-nál **7 500** sebzést okoz, míg egy pilóta Rivetjének sebzése egy legkisebb és egy legnagyobb szám között sorsolódik ki. Egyenesen repül, ezért a mozgásban maradó hajót elvéti.
 
 | Őrző | Törzs | Pajzs | Lézersebzés (másodpercenként egy sorozat) | Sebesség | Lézer hatótávja | Magát javítja (törzs másodpercenként) | Rakéta és másodpercek a lövések között |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166 000 | 136 000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288 000 | 236 000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1 060 000 | 870 000 | 1 030 | 90 | 800 | – | – |
-| Siege Warden I | 143 000 | 117 000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248 000 | 203 000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915 000 | 745 000 | 615 | 110 | 800 | 1 385 | Rivet III: 8 |
-| Wrath Warden I | 163 000 | 133 000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282 000 | 231 000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1 040 000 | 850 000 | 820 | 90 | 900 | 1 385 | – |
+| Brood Warden I | 166 000 | 136 000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288 000 | 236 000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1 060 000 | 870 000 | 3 090 | 90 | 800 | – | – |
+| Siege Warden I | 143 000 | 117 000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248 000 | 203 000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915 000 | 745 000 | 1 845 | 110 | 800 | 1 385 | Rivet III: 8 |
+| Wrath Warden I | 163 000 | 133 000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282 000 | 231 000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1 040 000 | 850 000 | 2 460 | 90 | 900 | 1 385 | – |
 
 | Segítő | Hány | Törzs | Pajzs | Lézersebzés (másodpercenként egy sorozat) | Sebesség | Gyógyítja az őrzőt (törzs másodpercenként) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1 200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4 000 | 3 500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4 300 | 3 500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7 400 | 6 100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27 500 | 22 500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4 900 | 4 000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8 500 | 6 900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31 000 | 25 500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1 200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4 000 | 3 500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4 300 | 3 500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7 400 | 6 100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27 500 | 22 500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4 900 | 4 000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8 500 | 6 900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31 000 | 25 500 | 495 | 180 | – |
 
 ### Fizetés és zsákmány {#warden-pay-and-loot}
 
-Az őrző annyit fizet, mint egy halom a fokozat nehéz idegeneiből: **30 Phantasm** egy I őrzőért, **24 Bulwark** egy II-ért és **16 Goombah** egy III-ért. Ez egyetlen kassza, sebzés szerint osztják szét azok között a pilóták között, akik a sebzés legalább 5%-át okozták, ugyanúgy, mint egy [raj](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays) vezérénél. A [klánbónuszaid](#what-the-boosts-apply-to) a te részedre érvényesek. A számításunk szerint a kreditek fedezik az x1 lőszert, amelyet egy ötfős legénység elégett, az x2 lőszer pedig több Thuliumba kerül, mint amennyit az őrző fizet: a harc a pontokért és a ládáért van.
+Az őrző annyit fizet, mint egy halom a fokozat nehéz idegeneiből: **30 Phantasm** egy I őrzőért, **24 Bulwark** egy II-ért és **16 Goombah** egy III-ért. Ez egyetlen kassza, sebzés szerint osztják szét azok között a pilóták között, akik a sebzés legalább 5%-át okozták, ugyanúgy, mint egy [raj](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays) vezérénél. A [klánbónuszaid](#what-the-boosts-apply-to) a te részedre érvényesek. A számításunk szerint a kreditek nagyjából fedezik azt az x1 lőszert, amelyet a legkisebb nyerni képes legénység elhasznál, az x2 lőszer pedig több Thuliumba kerül, mint amennyit az őrző fizet: a harc a pontokért és a ládáért van. A fizetés nem változott a 0.4.12-ben, amikor az őrzők lézerei erősebbek lettek: az összeg nem nő a kapott sebzéssel vagy az elvesztett hajókkal.
 
 | Az őrző erőssége | Kredit | Thulium | Tapasztalat (XP) | Becsület |
 | :--- | ---: | ---: | ---: | ---: |
@@ -279,6 +287,8 @@ A klánpontok a klánéi. Minden lépés, amelyet a klán befejez, növeli az eg
 | **Flotta Thulium** | 10 | +1% | +10% | Thulium lelövésekből és küldetésjutalmakból |
 | **Flotta kredit** | 10 | +1% | +10% | Kredit lelövésekből és küldetésjutalmakból |
 
+**Hol látod őket.** Repülés közben a **Boosterek** ablak egy külön **Flottabónuszok** kártyán listázza a hajód bónuszait az időzített boosterek alatt: a klánod címkéje, majd bónuszonként egy sor az értékével és a szintjével (Szint 3/10). Nincs időzítőjük, mert a klánbónusz addig tart, amíg a klánban vagy. Vidd az egeret egy sor fölé, hogy lásd, mire hat. Az a klán, amely még nem vett semmit, ezt mutatja: „A flottádnak még nincs bónusza”, a klán nélküli pilóta pedig nem lát kártyát. Az **Irányítópult** Boosterek kártyája és egy pilóta profilja is listázza őket. A kártya azt mutatja, amit a hajód alkalmaz, ahogy a szerver közli a játékkal, így egy szint, amelyet a tisztek épp most vettek, azonnal megjelenik. A 0.4.12-nél régebbi játék alkalmazza a bónuszokat, de nem mutat kártyát.
+
 ### Árak {#boost-prices}
 
 Egy szint ára **22 klánpont plusz 4 minden előző szintért**, és a három bónusznál ugyanannyi: 400 pont egy bónuszért, **1 200 mindhárom**, ez tizenkét befejezett vonal.
@@ -300,13 +310,13 @@ Egy szint ára **22 klánpont plusz 4 minden előző szintért**, és a három b
 
 - A **Flotta sebzés** hozzáad a hajód által okozott összes lézersebzéshez: idegenekre, rajhajókra, őrzőkre és más pilótákra. **Nem hat a rakétákra**, semmilyen fajtára.
 - A **Flotta Thulium és a Flotta kredit** hozzáad az idegenek lelövéseinek fizetéséhez (a saját lelövéseidhez, a bossból és a csoportos lelövésből járó részedhez) és minden általad átvett küldetés jutalmához, legyen az szint-, állomás- vagy Kihívás-küldetés ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)). **Nem hatnak** a [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm) farmjaira, a bankkifizetésekre, a bónuszkódokra és a napi vonal jutalmára.
-- **Összeadódnak a többi bónuszoddal** (az olyan boosterek, mint a Damage Amp, az [állandó buffok boltjának](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store) buffjai): a százalékok összeadódnak. A lézererősítők (Ampek) nem tartoznak ide: fix sebzést adnak hozzá, a százalékok pedig az összegre vonatkoznak. Öt pont Flotta sebzés 50 mellett, más forrásból, 55-öt ad, ami 3,3%-kal több sebzés, mint azelőtt.
+- **Összeadódnak a többi bónuszoddal** (az olyan boosterek, mint a Laser Damage Booster, az [állandó buffok boltjának](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store) buffjai): a százalékok összeadódnak. A lézererősítők (Ampek) nem tartoznak ide: fix sebzést adnak hozzá, a százalékok pedig az összegre vonatkoznak. Öt pont Flotta sebzés 50 mellett, más forrásból, 55-öt ad, ami 3,3%-kal több sebzés, mint azelőtt.
 - **A tört nem vész el.** A bónusz gyakran egy egységnél kevesebbet ad egy lelövéshez: egy Seeker 4 Thuliumának 10%-a 0,4. A játék megjegyzi a törtet, és a következő lelövéseid egységeivel együtt fizeti ki, így tíz Seeker kifizeti a neked járó 4-et. A kezedben lévő tört kijelentkezéskor elvész.
 - **Belépés és kilépés.** A pilóta attól a pillanattól kapja a bónuszokat, hogy belép a klánba, és abban a pillanatban veszíti el, hogy kilép, kizárják, vagy a klánt feloszlatják. A klán megtartja a szintjeit.
 
 ### Mennyi ideig tart {#how-long-it-takes}
 
-Az a klán, amely minden vonalat teljesít, naponta 100 pontot szerez. Ha a tisztek egyenlően vásárolnak a három bónuszból, **az első vonal után 4 szintje van, a harmadik után 10, az ötödik után 16, és mind a 30 a 12. szezonnapon**. A 15. nap kezdetekor tizennégy vonal már lezárult, így az ilyen klánnak két vonalnyi tartaléka van. Az a nap, amely nem készül el, a kész lépéseket így is kifizeti. Az utolsó szint után a vonal tovább fut, és tovább fizeti a te jutalmadat; a pontok tovább adódnak ahhoz, amit a klán ebben a szezonban szerzett, amit a klánpontok súgója mutat a Flottabónuszok kártyán.
+Az a klán, amely minden vonalat teljesít, naponta 100 pontot szerez. Ha a tisztek egyenlően vásárolnak a három bónuszból, **az első vonal után 4 szintje van, a harmadik után 10, az ötödik után 16, és mind a 30 a 12. szezonnapon**. A 15. nap kezdetekor tizennégy vonal már lezárult, így az ilyen klánnak két vonalnyi tartaléka van. Az a nap, amely nem készül el, a kész lépéseket így is kifizeti: az a klán, amely megcsinálja a négy küldetést, de sosem győzi le az őrzőjét, napi 70 pontot szerez, és a 30 szintet leghamarabb a 18. szezonnapon éri el. Az utolsó szint után a vonal tovább fut, és tovább fizeti a te jutalmadat; a pontok tovább adódnak ahhoz, amit a klán ebben a szezonban szerzett, amit a klánpontok súgója mutat a Flottabónuszok kártyán.
 
 ### Pontok és a wipe {#clan-points-and-the-wipe}
 

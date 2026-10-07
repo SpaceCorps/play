@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Enxame Pirate -->
 # Enxame Pirate {#pirate-swarm}
 
@@ -7,7 +7,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 ## Resumo rápido {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Onde**: Os setores `x-2` e `x-3` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
@@ -32,7 +32,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Atire no chefe, não nos Scouts.** Os Scouts curam o chefe, mas a cura é pequena perto do casco dele, e um novo Scout chega com a frequência que a lista *Resumo rápido* indica: um grupo que mata os Scouts primeiro nunca passa à frente deles, e só um grupo muito grande consegue eliminá-los e ainda assim leva mais tempo para acabar com o chefe do que um que os deixou em paz. Os Scouts custam tempo, não decidem a luta.
 - **Afaste os Scouts.** Um Scout só cura enquanto está ao alcance do chefe, então um Scout que segue você para fora desse alcance não cura nada, e uma Ostirion é mais rápida que um Scout.
 - **Não pare de se mover.** O foguete do chefe é reto e não guiado: uma nave que não para de se mover o esquiva, uma parada é atingida.
-- **Leve um grupo.** Três pilotos em Ostirions com munição x2 podem derrubá-lo em cerca de cinco minutos em Alpha; uma Ostirion sozinha não consegue, uma Paragon sozinha consegue. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
+- **Leve um grupo.** Três pilotos em Ostirions com munição x2 podem derrubá-lo em cerca de cinco minutos em Alpha, mas por pouco e só enquanto os acertos são divididos: um trio que deixa um piloto levar todo o fogo perde. Cinco o derrubam em três a quatro minutos; uma Ostirion sozinha não consegue, uma Paragon sozinha consegue. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, no mesmo setor.
 
 ## Recompensas e saque {#rewards-and-drops}
@@ -44,7 +44,7 @@ O Pirate Boss paga pela luta que ele é: um minuto de luta contra ele paga mais 
 Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 
 ### Pirate Scout
 
-Base: Kitefin, com 50% de casco, escudo e dano; a velocidade e o alcance são os da nave de origem.
+Base: Kitefin, com 50% do casco e 75% do dano dos lasers; a velocidade e o alcance são os da nave de origem.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Casco | 12.000 | 18.000 | 24.000 |
 | Escudo | 9.818 | 14.727 | 19.636 |
-| Dano dos lasers (uma salva por segundo) | 98 | 147 | 196 |
+| Dano dos lasers (uma salva por segundo) | 147 | 221 | 294 |
 | Velocidade | 175 | 175 | 175 |
 | Alcance dos lasers | 700 | 700 | 700 |
 | Raio de agressão | 700 | 700 | 700 |

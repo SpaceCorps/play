@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2329e422c8d1d27c -->
+<!-- wiki-i18n source: f1a8f6f654c02a2d -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -22,21 +22,21 @@ Der Grundschaden aller ausgerüsteten Laser (einschließlich der Laser auf Drohn
 
 Jede Salve hat eine Chance, ein kritischer Treffer zu sein.
 - **Krit-Chance**: Die durchschnittliche Krit-Chance der ausgerüsteten Laser plus die Summe der Krit-Chancen aller ausgerüsteten Laserverstärker.
-- **Krit-Multiplikator**: Ist ein Schuss kritisch, wird der Schadenswurf mit **1,5x** multipliziert. Die Schadenszahl einer kritischen Salve wird in Eisblau angezeigt, größer und mit einem „!“.
+- **Krit-Multiplikator**: Ist ein Schuss kritisch, wird der Schadenswurf mit **1,5x** multipliziert. Die Schadenszahl einer kritischen Salve wird in Eisblau angezeigt, größer und mit einem „!“ (siehe [Schadens- und Heilungszahlen](#damage-and-heal-numbers)).
 - Quantum Laser 1 und 2 haben keine eigene Krit-Chance: Ihre Verstärker geben sie ihnen.
 - **Fester Krit-Schaden**: Fester kritischer Schaden von Laserverstärkern wird nach dem Multiplikator addiert.
   - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
 ### 3. Globale Multiplikatoren {#3-global-multipliers}
 
-Zuletzt werden globale Multiplikatoren (etwa aktive Booster oder Multiplikatoren der Lasermunition wie x2, x3, x4) angewendet, um den endgültigen Schaden zu erhalten:
+Zuletzt werden globale Multiplikatoren (etwa aktive Booster, zum Beispiel die +10 % eines Laser Damage Booster, oder Multiplikatoren der Lasermunition wie x2, x3, x4) angewendet, um den endgültigen Schaden zu erhalten:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) kann das Ergebnis noch einmal multiplizieren: zum Beispiel Auger +21 % Laserschaden, Gyre −11 % und gegen Aliens Culler +12 % (ein eigener Faktor, nicht Teil des Booster-Prozentsatzes).
 - Die Munition **Siphon Battery** hat den Multiplikator x1, aber ein anderes Ziel: Ihr Schaden geht allein vom Schild des Ziels ab (nie von der Hülle, egal wie hoch die Absorption) und fließt in deinen eigenen Schild, bis zu deinem Maximum. Siehe [Laser & Munition](/wiki/06-Items/Lasers.md).
 
 ### 3b. Raketen {#3b-rockets}
 
-Eine [Rakete](/wiki/06-Items/Rockets.md) hat ihren eigenen Schaden (eine Lancet I 1.600 bis 2.000, eine Lancet III 4.800 bis 6.000, eine N.U.K.E. 45.000 bis 50.000), der beim Abfeuern einmal ausgewürfelt wird und für jedes Schiff derselbe ist: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt keinen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, zum Rand hin schwächer. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören. Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einzige, was beides verändert: Eine Raketenformation erhöht den Schaden jeder Rakete (bis zu +55 %), und einige machen den Timer länger oder kürzer.
+Eine [Rakete](/wiki/06-Items/Rockets.md) hat ihren eigenen Schaden (eine Lancet I 1.700 bis 2.100, eine Lancet III 5.200 bis 6.200, eine N.U.K.E. 45.000 bis 50.000), der beim Abfeuern einmal ausgewürfelt wird und für jedes Schiff derselbe ist: Deine Laser, Verstärker, Booster und deine Munition ändern ihn nicht, und es gibt keinen kritischen Treffer. Alle Raketen teilen sich einen **5-Sekunden**-Timer. Eine Rakete mit Einzelziel hat eine **Schilddurchdringung**: Sie wird von der Absorption deines Ziels abgezogen (siehe „Schaden nehmen“ weiter unten); eine Explosion trifft jedes Schiff in ihrem Radius, die volle Zahl im Zentrum und die Hälfte davon am Rand. Nichts begrenzt, was eine Rakete dem Schiff eines Piloten nimmt: erst den Schild, dann die Hülle. Raketen verletzen nie deinen eigenen Konzern oder deine eigene [Gruppe](/wiki/03-Mechanics/Groups.md), egal welchen Konzernen ihre Mitglieder angehören. Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einzige, was beides verändert: Eine Raketenformation erhöht den Schaden jeder Rakete (bis zu +55 %), und einige machen den Timer länger oder kürzer. [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md) nehmen nur durch Raketen Schaden: Laser und Drohnen richten bei ihnen nichts aus, und eine Rakete trifft nur den Asteroiden, auf den sie abgefeuert wurde.
 
 ### 4. Dem Ziel zugewandt {#4-facing-the-target}
 
@@ -45,6 +45,16 @@ Ein Schiff oder Alien, das ein Ziel anvisiert hat und feuert, dreht sich dem Zie
 ### 5. Reichweite {#5-range}
 
 Ein Schiff feuert eine Salve pro Sekunde, solange sein Ziel innerhalb seiner **Reichweite** ist, und hält das Feuer, solange das Ziel weiter entfernt ist: Das Feuer kostet dann keine Munition, bis das Ziel wieder nah genug ist, und das Zielfenster zeigt „Außer Reichweite“. Die Reichweite ist **der Durchschnitt der Reichweiten all deiner Laser** (auch der Laser in deinen Drohnen), auf die nächste Einheit gerundet, und sie ist eine einzige Zahl für das ganze Schiff: Innerhalb davon feuert jeder Laser, außerhalb keiner. Ein weitreichender Laser neben kurzen verlängert deine Reichweite also nicht: Ein Starfire-3 (850) und zwei Quantum Laser 2 (700) ergeben 750. Ein Schmiede-Buff auf die Reichweite zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ein Schiff ohne Laser kann seine Laser nicht abfeuern, und der Hangar zeigt dafür keine Reichweite an (einen Strich); seine Raketen feuern trotzdem, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Die eigene Reichweite jedes Lasers steht unter [Laser & Munition](/wiki/06-Items/Lasers.md).
+
+## Schadens- und Heilungszahlen {#damage-and-heal-numbers}
+
+Ein Treffer erscheint als Zahl, die über dem Schiff schwebt, das er trifft. **Deine eigenen Zahlen** werden immer angezeigt: der Schaden, den du austeilst, der Schaden, den du nimmst, und deine eigenen Reparaturen. **Das Schiff unter deiner Zielerfassung** zeigt mehr: jeden Treffer und jede Heilung, die es bekommt, **aus jeder Quelle**. Das heißt: die Laser, Raketen und Drohnen anderer Piloten, Aliens, Clan Wardens sowie die eigenen Reparaturen und die Schildregeneration des Schiffs. Wenn jemand anderes auf dein Ziel schießt, siehst du seinen Schaden.
+
+- **Farben.** Gold: Schaden an einem Alien oder einem gegnerischen Piloten. Rot mit einem Minus: Schaden an einem Schiff, das du schützt (ein Pilot deines eigenen Konzerns oder deiner Gruppe), und der Schaden, den du selbst nimmst. Grün mit einem Plus: eine Heilung, etwa eine Emergency Repair, eine Repair Drone oder ein Schild, der zurückkommt. Blasssilbernes „Miss“: ein direkter Treffer, den die Ausweichchance einer Formation abgelenkt hat. Eine kritische Salve ist größer und endet auf „!“ (eisblau, wenn sie ein Alien oder einen Gegner trifft).
+- **Deine bleiben heller.** Die Zahlen anderer auf deinem Ziel sind etwas kleiner und blasser und stehen in einer Spalte rechts vom Schiff, damit sie deine nie verdecken.
+- **Eine Zahl für eine Menge.** Treffer, die zusammen landen, werden zu einer Zahl mit einer Anzahl dahinter addiert (`×35`). Vierzig Piloten, die auf ein Schiff feuern, ergeben etwa zwei Zahlen pro Sekunde und nie mehr als sieben. Heilungen erscheinen einmal pro Sekunde.
+- **Nur das Schiff unter dem Kreis.** Jedes andere Schiff zeigt nur deine eigenen Treffer und die Treffer auf dich. Die Strahlung des Schwarzen Lochs und der Schilddrain einer Formation haben keine Zahlen: Sie zeigen sich nur auf den Balken.
+- **Die Einstellung.** Einstellungen › Oberfläche › **Schaden anderer auf meinem Ziel anzeigen**, standardmäßig an. Ausgeschaltet siehst du nur deine eigenen Zahlen. **Bewegung reduzieren** hält jede Zahl ruhig: Keine ploppt auf oder steigt.
 
 ---
 
@@ -106,10 +116,10 @@ Wird dein Schiff von einem Feind oder NPC getroffen, wird der Schaden so verarbe
 
 Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schiffs auf Schilde und Trefferpunkte aufgeteilt: dem Durchschnitt der Absorption deiner Schilde, jeweils mit der ihrer Schildzellen, plus dem Schildabsorptions-Boost aus dem Saison-Shop (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)). Sie ist **nicht auf 100 % begrenzt**: Was die Schilde von einem Treffer nehmen, ist deine Absorption **abzüglich der Schilddurchdringung des Angreifers**, zwischen 0 % und 100 %.
 - **Absorption** (z. B. 80 % für den besten Schild mit den besten Zellen, 56 % für einen Basic Shield Core mit zwei Absorption Shield Cell I) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Lancet III lassen 45 % auf den Schilden eines Schiffs mit 80 %, und der Rest (dort 55 %) trifft direkt die HP.
-- **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %).
+- **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %). Die Penetration Amps der Laser des Schützen (+2 % bis +8 % pro Slot) und eine Drohnenformation kommen dazu: Ein Lasertreffer endet bei 50 %, eine Rakete bei 40 %.
 - Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter; sind die Schilde ganz erschöpft, trifft **100 %** des gesamten restlichen Schadens die HP.
 - Aliens haben keinen Absorptionswert: Ihre Schilde nehmen 80 % jedes Treffers (abzüglich der Durchdringung des Treffers), ihre Hülle den Rest.
-- **Drohnenformationen.** Rampart erhöht deine Absorption um 17 % (Shrike senkt sie um 6 %), und Asterism gibt jedem direkten Treffer auf dich eine Chance von 7 %, gar keinen Schaden anzurichten (ein schwebendes „Verfehlt“ erscheint), und die Treffer, die ankommen, teilen sich Schild und Hülle wie gewohnt. Gemini (+9 Punkte) und Stiletto (+16) addieren Durchdringung zu deiner eigenen Munition und zu direkten Raketen, insgesamt bis zu 40 % ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
+- **Drohnenformationen.** Rampart erhöht deine Absorption um 17 % (Shrike senkt sie um 6 %), und Asterism gibt jedem direkten Treffer auf dich eine Chance von 7 %, gar keinen Schaden anzurichten (ein schwebendes „Verfehlt“ erscheint), und die Treffer, die ankommen, teilen sich Schild und Hülle wie gewohnt. Gemini (+9 Punkte) und Stiletto (+16) addieren Durchdringung zu deiner eigenen Munition und zu direkten Raketen, insgesamt bis zu 40 % ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)). Bei einem Laser reicht die Summe bis 50 %, und seine Amps zählen mit.
 
 ### 2. Immunität in Schutzzonen {#2-safe-zone-immunity}
 

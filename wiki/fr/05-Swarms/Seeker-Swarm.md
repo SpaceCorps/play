@@ -7,7 +7,7 @@ L’essaim Seeker est le plus petit des [essaims](/wiki/05-Swarms/Swarms.md) : 
 ## D’un coup d’œil {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Où** : Les secteurs `x-1` et `x-2` de chaque corporation
 - **Combien** : Un dans chacun de ces secteurs, 6 dans chaque monde
@@ -43,7 +43,7 @@ Le Boss Seeker paie **exactement dix Seekers** : dix fois les crédits, le Thul
 Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

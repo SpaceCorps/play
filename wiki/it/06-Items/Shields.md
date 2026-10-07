@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06696a3c765a00c4 -->
+<!-- wiki-i18n source: aff32f1e7e47620e -->
 <!-- wiki-i18n title: Scudi -->
 # Scudi e difesa {#shields-defense}
 
@@ -14,7 +14,7 @@ Ciò che crea l’Assemblaggio richiede prima la sua tecnologia; passa il puntat
 ```tree
 Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.md#shield-cores
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cores
+Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
@@ -24,8 +24,8 @@ Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | res
 Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 6 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
 Adaptive Core I -> Adaptive Core II -> Adaptive Core III
@@ -44,7 +44,7 @@ Equipaggia gli Shield Core per generare barriere difensive attive, negli slot de
 | **Basic Shield Core** | Comune | 15.000 | 500/s | 48% | +10% | -3% | 2 | Shield Surge II | 2.000 Thulium |
 | **Heavy Shield Core** | Raro | 25.000 | 833/s | 50% | +20% | -5% | 3 | Shield Surge III | Solo da creare |
 
-L’**Heavy Shield Core** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Basic Shield Core, con 2.000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plate e 6 Velkonite Reinforced Plate dal tuo Skylab. Mantiene il grado di incantamento del nucleo che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima il Basic Shield Core dalla tua nave (e togli da esso le sue celle): uno Shield Core montato sulla nave o che contiene celle non viene consumato.
+L’**Heavy Shield Core** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Basic Shield Core, con 2.000 Thulium, 20 Cataclysite, 8 Reinforced Hull Plate e 3 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Mantiene il grado di incantamento del nucleo che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima il Basic Shield Core dalla tua nave (e togli da esso le sue celle): uno Shield Core montato sulla nave o che contiene celle non viene consumato.
 
 L’**assorbimento** è la quota di ogni colpo che i tuoi scudi prendono; il resto lo prende lo scafo. Uno scudo da solo ha **dal 45 al 50%** e le sue celle aggiungono il resto: il miglior scudo con le migliori celle (un Heavy Shield Core con tre Absorption Shield Cell IV) arriva all’**80%**, il massimo che una nave ha di serie. A questo si aggiungono due potenziamenti permanenti: lo Shield Absorbance Boost dell’Emporio (+0,1 punti a livello, 100 livelli, 25 punti reset ciascuno) e i bonus di assorbimento della Forgia. Le fonti attuali di punti reset (855 in totale al loro massimo, portati da un reset all’altro; altre fonti sono previste) comprano 34 di quei 100 livelli (+3,4 punti), il che con un set Eterno completamente forgiato fa circa il **95%**. La statistica però non ha un tetto al 100%: la *penetrazione dello scudo* di un attaccante viene tolta da essa, quindi ciò che una nave ha oltre il 100% è il suo margine contro la penetrazione. Vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
@@ -77,4 +77,4 @@ Le celle scudo si montano dentro gli Shield Core o i Nuclei adattivi (tante quan
 | **Absorption Shield Cell III** | Raro | +4.500 | +375/s | +8% | Solo da creare |
 | **Absorption Shield Cell IV** | Epico | +6.000 | +500/s | +10% | Solo da creare |
 
-Il tier I di ogni famiglia si compra a 30.000 crediti. I tier da II a IV si creano in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules), ciascuno dalla cella della stessa famiglia un tier più in basso (una Capacity Shield Cell II da una Capacity Shield Cell I, una III da una II, una IV da una III), con Thulium, drop e Velkonite Reinforced Plate dal tuo Skylab (2, 4 e 6 piastre). Una cella non cambia mai famiglia: scegli Capacity o Absorption quando compri il tier I. La nuova cella mantiene il grado di incantamento della cella che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Le celle non entrano in uno [slot abilità](/wiki/03-Mechanics/Abilities.md): vanno dentro gli scudi e i Nuclei adattivi.
+Il tier I di ogni famiglia si compra a 30.000 crediti. I tier da II a IV si creano in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules), ciascuno dalla cella della stessa famiglia un tier più in basso (una Capacity Shield Cell II da una Capacity Shield Cell I, una III da una II, una IV da una III), con Thulium, drop e piastre: 2 o 4 Velkonite Reinforced Plate dal tuo Skylab per il tier II o III, e 3 Dark Matter Plate per il tier IV. Una cella non cambia mai famiglia: scegli Capacity o Absorption quando compri il tier I. La nuova cella mantiene il grado di incantamento della cella che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Le celle non entrano in uno [slot abilità](/wiki/03-Mechanics/Abilities.md): vanno dentro gli scudi e i Nuclei adattivi.

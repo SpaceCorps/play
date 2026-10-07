@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: 실드 -->
 # 실드 시스템 {#shield-mechanics}
 
@@ -41,8 +41,8 @@
 \[\text{실드 몫} = \text{clamp}(\text{흡수율} - \text{관통},\ 0,\ 100\%)\]
 
 - 실드는 공격에서 최대 `round(damage x share)`만큼을 받고, 선체가 나머지를 받습니다. 몫에 비해 실드가 너무 낮으면 모자란 만큼이 HP로 넘어가며, 실드가 0이면 모든 피해가 HP에 직접 들어갑니다.
-- **관통의 출처**: 직접 로켓의 *실드 관통*(Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%. 범위 폭발에는 관통이 없습니다. [로켓](/wiki/06-Items/Rockets.md) 참조)과 레이저 탄약의 관통(Ultra Core 5%, Experimental Fusion Core 10%. [레이저와 탄약](/wiki/06-Items/Lasers.md) 참조)입니다. 외계인에게는 관통이 없으며, x1과 x2 탄약에도 없습니다.
-- **예시**: 흡수율 80%인 함선이 Lancet III(35%)에 맞으면 실드가 공격의 45%를, 선체가 55%를 받습니다. 흡수율 100%라면 65%와 35%입니다. 흡수율 112%가 관통 12%의 공격을 받으면 공격 전체를 실드가 받습니다. 45%(Light Shield Core 단독)가 35%를 받으면 실드가 10%를, 나머지를 선체가 받습니다. Light Shield Core를 완전히 관통하는 로켓은 없습니다.
+- **관통의 출처**: 직접 로켓의 *실드 관통*(Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%. 범위 폭발에는 관통이 없습니다. [로켓](/wiki/06-Items/Rockets.md) 참조)과 레이저 탄약의 관통(Ultra Core 5%, Experimental Fusion Core 10%. [레이저와 탄약](/wiki/06-Items/Lasers.md) 참조)입니다. 외계인에게는 관통이 없으며, x1과 x2 탄약에도 없습니다. 레이저 공격은 또한 쏘는 쪽 레이저의 Penetration Amp(슬롯당 +2%~+8%, 그 레이저들의 평균)와 드론 편대의 관통(Gemini +9%, Stiletto +16%)도 뺍니다. 합계는 레이저는 **50%**, 로켓은 40%에서 멈춥니다([레이저 공격이 더해지는 방식](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **예시**: 흡수율 80%인 함선이 Lancet III(35%)에 맞으면 실드가 공격의 45%를, 선체가 55%를 받습니다. 흡수율 100%라면 65%와 35%입니다. 흡수율 112%가 관통 12%의 공격을 받으면 공격 전체를 실드가 받습니다. 45%(Light Shield Core 단독)가 35%를 받으면 실드가 10%를, 나머지를 선체가 받습니다. Light Shield Core를 완전히 관통하는 로켓은 없습니다. 최강의 레이저(50%)는 해냅니다. 그 레이저를 맞으면 가장 좋은 실드(80%)는 공격의 30%를, 선체는 70%를 받고, Light Shield Core 단독(45%)은 아무것도 받지 못합니다.
 - 외계인에게는 흡수율 능력치가 없습니다. 외계인은 모든 공격을 80% / 20%로 나누어 받으며, 여기서 공격의 관통만큼을 뺍니다.
 - Siphon Battery의 피해는 실드에서만 빠져나갑니다. 흡수율과 관통은 관여하지 않습니다.
 
@@ -57,9 +57,9 @@
 
 실드 부스트는 모두 세 능력치 중 하나를 올리며, 부스터 창에서 각자의 종류 아래에 표시됩니다.
 
-- **용량**(최대 실드 포인트): Shield Wall 부스터와 영구 실드 용량 부스트(Shield Capacity Boost).
+- **용량**(최대 실드 포인트): Shield Wall Booster 1과 2 부스터, 그리고 영구 실드 용량 부스트(Shield Capacity Boost).
 - **흡수율**(실드가 받는 공격의 몫): 영구 실드 흡수율 부스트(Shield Absorbance Boost, 레벨당 +0.1포인트, 최대 +10포인트).
-- **재충전**(초당 회복되는 실드 포인트): Shield Regen 부스터.
+- **재충전**(초당 회복되는 실드 포인트): Shield Regen Booster.
 
 수치는 [부스터](/wiki/06-Items/Boosters.md)에서 확인하세요.
 

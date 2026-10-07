@@ -17,7 +17,7 @@ Every engine equipped generates speed, and so does every Adaptive Core that hold
 - **Thruster Flat Bonus**: The sum of all flat speed additions from thrusters (e.g. Impulse Thruster III is `+15` speed).
 - **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Momentum Thruster III is `1.09` or `+9%`, Impulse Thruster III `1.03` or `+3%`). It multiplies everything the engine makes: its own base speed and the thrusters' flat bonuses. An Adaptive Core has no base speed of its own, and its thrusters' flat bonuses are multiplied all the same.
 
-An Engine III (base speed 6) with three Momentum Thruster IVs (`+12`, `1.11`) makes (6 + 3 x 12) x 1.11 x 1.11 x 1.11 = 57.4, and with three Impulse Thruster IVs (`+17`, `1.02`) (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.11` makes `1.1265`.
+An Engine III (base speed 6) with three Momentum Thruster IVs (`+13.1`, `1.11`) makes (6 + 3 x 13.1) x 1.11 x 1.11 x 1.11 = 62.0, and with three Impulse Thruster IVs (`+16.5`, `1.035`) (6 + 3 x 16.5) x 1.035 x 1.035 x 1.035 = 61.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.11` makes `1.1265`.
 
 ### 2. Diminishing Returns (Marginal Efficiency)
 

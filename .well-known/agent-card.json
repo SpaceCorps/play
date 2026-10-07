@@ -2,7 +2,7 @@
   "name": "SpaceCorps 2027 Agent Portal",
   "description": "Autonomous agent discovery and package verification interface for SpaceCorps 2027, a cross-platform space MMO built on Space3d engine.",
   "url": "https://spacecorps.github.io/play/",
-  "version": "0.4.11",
+  "version": "0.4.12",
   "capabilities": [
     "game-client-download",
     "sha256-verification",

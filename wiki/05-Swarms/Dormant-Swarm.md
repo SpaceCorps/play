@@ -5,7 +5,7 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 ## At a glance
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Where**: The Danger Sectors `DS-1`, `DS-2`, `DS-3`, `DS-4`, flying from one to another
 - **How many**: One in each world
@@ -23,14 +23,14 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 ## The members
 
 - **Dormant Force**: a Wraith at full strength, with lasers that hit three times as hard as a typical fit's. It leads the swarm, is passive until it is hit, and fires **straight rockets** at the first pilot who hit it.
-- **Dormant Pulse**: a Paragon at full strength, with the same kind of heavy lasers and its own rockets. The Pulses fly close to the Force, and when the Force is destroyed one of them takes over as leader.
+- **Dormant Pulse**: a Paragon at full strength, with heavy lasers of the same kind, each hitting twice as hard as one of the Force's, and its own rockets. A Pulse has fewer lasers than the Force, so its whole volley is bigger than the Force's, not twice as big (the numbers are below). The Pulses fly close to the Force, and when the Force is destroyed one of them takes over as leader.
 
 They are passive: they never go after a pilot. Hit one of them, and the others close to it join in against the first pilot who hit it.
 
 ## How the fight goes
 
 - **Find it.** The whole world is told when it appears, and a marker shows it on the maps of the Danger Sectors and on the galaxy map. It stays on a map for the time in the *At a glance* list, then flies to the gate of another Danger Sector and jumps; it never takes a gate out of the Danger Sectors and never goes into the black hole's ring. It flies at the speed of its slowest ship, and like a pilot it does not start or end a jump while it is under fire.
-- **It cannot be taken alone, or by a few.** Eight level 8 pilots in Paragons with x2 or x4 ammo destroy it in about a minute in Alpha, losing at most one ship; one Paragon alone is destroyed, and so are three with x2 ammo. The swarms of Beta and Gamma are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so those worlds need larger groups.
+- **It cannot be taken alone, or by a few.** Eight level 8 pilots in Paragons with x2 or x4 ammo destroy it in about a minute in Alpha, losing at most one ship; one Paragon alone is destroyed, and so are three or four with x2 ammo. The swarms of Beta and Gamma are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so those worlds need larger groups.
 - **Its lasers decide the fight.** Together they can destroy a Paragon in under a minute, and even one with the best shields in under two, rockets or not: bring your damage fast, with the best shields you have.
 - **Ship by ship.** Each ship has its own hull and its own pay, so the Force or a Pulse can be destroyed first. The swarm is replaced only when all of it is destroyed, after the time in the *At a glance* list.
 
@@ -43,11 +43,11 @@ Each ship pays by itself, by the damage dealt to it ([how a boss kill pays](/wik
 The numbers of the swarm's ships in the three worlds ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Built from the Wraith at 100% of its hull, shield and damage; its speed and range are the ship's own. Fires a straight rocket every 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Built from the Wraith at 100% of its hull and 300% of its laser damage; its speed and range are the ship's own. Fires a straight rocket every 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -74,13 +74,13 @@ Built from the Wraith at 100% of its hull, shield and damage; its speed and rang
 
 ### Dormant Pulse
 
-Built from the Paragon at 100% of its hull, shield and damage; its speed and range are the ship's own. Fires a straight rocket every 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Built from the Paragon at 100% of its hull and 600% of its laser damage; its speed and range are the ship's own. Fires a straight rocket every 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hull | 128,000 | 192,000 | 256,000 |
 | Shield | 64,570 | 96,855 | 129,140 |
-| Laser damage (a volley a second) | 1,920 | 2,880 | 3,840 |
+| Laser damage (a volley a second) | 3,840 | 5,760 | 7,680 |
 | Speed | 210 | 210 | 210 |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |

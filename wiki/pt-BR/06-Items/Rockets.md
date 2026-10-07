@@ -1,8 +1,16 @@
-<!-- wiki-i18n source: 615b51aa98d6a27d -->
+<!-- wiki-i18n source: 8e594dc8a7d6e482 -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
 Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada poucos segundos que bate muito mais forte que uma rajada de laser. Doze foguetes em quatro tipos, três raridades cada, mais dois que só a Montagem fabrica, e **um único temporizador de recarga de 5 segundos que todos compartilham**, qualquer que você dispare. Os foguetes Comuns e Raros são comprados com **créditos**; os quatro foguetes Épicos são comprados com **Thulium**. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) pode aumentar o dano de um foguete e alongar ou encurtar esse temporizador: veja [Formações de drones e foguetes](#drone-formations-and-rockets).
+
+## Em um minuto {#in-one-minute}
+
+- **Doze foguetes para comprar.** Quatro tipos (Lancet, Rivet, Ember, Scatter), três raridades cada um. Os Comuns e Raros custam créditos, os Épicos Thulium. Mais dois foguetes, a N.U.K.E. e a N.I.K.E., são feitos na Montagem.
+- **Cada foguete sorteia o seu dano.** Ao disparar, o jogo escolhe um número entre o menor e o maior dano do foguete (um Lancet I: de 1.700 a 2.100). A sua nave, os seus lasers, os amplificadores e os boosters não mudam nada, só uma formação de drones muda. Os foguetes que os alienígenas disparam não sorteiam: causam um número fixo ([Contra os alienígenas](#against-the-aliens)).
+- **As explosões são mais fortes no meio.** Os foguetes Ember e Scatter explodem e ferem toda nave dentro do anel: o número inteiro no centro, metade dele na borda.
+- **Um temporizador para todos.** Depois de qualquer disparo você espera 5 segundos até o próximo, seja qual for o foguete.
+- **Guiado ou reto.** Um foguete guiado (Lancet, Ember) precisa de um alvo que você selecionou. Um reto (Rivet, Scatter) voa em direção ao seu cursor.
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -45,58 +53,59 @@ Cada tipo é uma **família**, com o nome do seu foguete comum, e a raridade é 
 
 - Os foguetes **guiados** precisam de um alvo selecionado dentro do **alcance de travamento** quando saem. Eles o perseguem com uma taxa de curva limitada, então uma nave rápida e distante pode escapar de um foguete barato. Se o alvo morre, sai ou chega a uma zona segura, o foguete continua voando reto e não escolhe outro.
 - Os foguetes **retos** não precisam de alvo e ignoram o que você selecionou: eles sempre voam em direção ao seu **cursor**, ao ponto sob ele na visão de voo. **Clique no slot de um foguete reto para armá-lo** (o slot ganha uma moldura branca e uma mira, e o cursor do mouse vira uma mira sobre o espaço), depois **clique no espaço**: o foguete voa em direção ao ponto em que você clicou e a sua nave fica onde está. Esc, um clique direito ou o mesmo slot de novo o solta. Se os foguetes ainda estão recarregando, o clique apenas avisa isso e o foguete continua armado. As teclas numéricas e **Disparar foguete** disparam na hora em direção ao último ponto que o cursor teve na visão de voo; antes de o cursor ter passado por ela, eles voam para onde a sua nave **aponta**. Eles voam reto, então uma nave que cruza em velocidade pode desviar deles.
-- Um foguete de **alvo único** atinge a primeira nave que puder atingir (um guiado, só o alvo dele). Um foguete de **explosão em área** explode ao lado da primeira nave que encontra, no ponto para onde você o apontou, ou onde o voo dele termina, e fere toda nave dentro do seu **raio da explosão**: dano total no centro, menos em direção à borda. O anel que a explosão desenha no mapa é o alcance exato dela.
+- Um foguete de **alvo único** atinge a primeira nave que puder atingir (um guiado, só o alvo dele). Um foguete de **explosão em área** explode ao lado da primeira nave que encontra, no ponto para onde você o apontou, ou onde o voo dele termina, e fere toda nave dentro do seu **raio da explosão**: dano total no centro, metade dele na borda. O anel que a explosão desenha no mapa é o alcance exato dela.
+- **Asteroides.** Um foguete disparado contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) atinge esse asteroide e nada mais, e um foguete que não é disparado contra um atravessa todos os asteroides. Os doze foguetes da loja e o N.U.K.E. podem quebrar um; o N.I.K.E. não.
 
 ## Os doze foguetes {#the-twelve-rockets}
 
-Cada foguete tem **o seu próprio dano, sorteado quando você o dispara**: entre **80% e 100%** do número máximo dele, e a tabela mostra o menor e o maior. Ele não depende da sua nave, dos seus lasers, dos seus Damage Amps, dos seus boosters, da sua munição nem dos seus drones, e um foguete nunca causa crítico. Só uma **formação de drones** o muda: a tabela aqui dá o dano sem formação (veja [Formações de drones e foguetes](#drone-formations-and-rockets)). Um foguete de alvo único causa o dano sorteado à nave que atinge; uma explosão sorteia uma vez só e o causa a **toda nave dentro dela**, o número inteiro no centro e menos em direção à borda. A *penetração de escudo* é descontada da absorção do seu alvo naquele acerto (a absorção de uma nave é a parte de um impacto que os escudos dela recebem, veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)): os 35% de um Lancet III deixam os escudos de uma nave com 80% com 45% do impacto e mandam os outros 55% para o casco. Os foguetes de explosão em área não têm penetração.
+Cada foguete tem **o seu próprio dano, sorteado quando você o dispara**: em qualquer ponto entre o menor e o maior número dele, e a tabela mostra os dois e a média. Ele não depende da sua nave, dos seus lasers e dos amplificadores deles, dos seus boosters, da sua munição nem dos seus drones, e um foguete nunca causa crítico. Só uma **formação de drones** o muda: a tabela aqui dá o dano sem formação (veja [Formações de drones e foguetes](#drone-formations-and-rockets)). Um foguete de alvo único causa o dano sorteado à nave que atinge; uma explosão sorteia uma vez só e o causa a **toda nave dentro dela**, o número inteiro no centro e metade dele na borda. A *penetração de escudo* é descontada da absorção do seu alvo naquele acerto (a absorção de uma nave é a parte de um impacto que os escudos dela recebem, veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)): os 35% de um Lancet III deixam os escudos de uma nave com 80% com 45% do impacto e mandam os outros 55% para o casco. Os foguetes de explosão em área não têm penetração.
 
-| Nome | Tipo | Raridade | Dano | Penetração de escudo | Raio da explosão | Alcance de travamento | Alcance | Velocidade | Preço | Máximo que você carrega |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guiado, alvo único | Comum | 1.600–2.000 | 10% | – | 700 | 1.040 | 520 | 500 créditos | 5.000 |
-| **Lancet II** | Guiado, alvo único | Raro | 3.200–4.000 | 25% | – | 1.000 | 1.584 | 660 | 800 créditos | 2.000 |
-| **Lancet III** | Guiado, alvo único | Épico | 4.800–6.000 | 35% | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Reto, alvo único | Comum | 2.000–2.500 | 5% | – | – | 1.080 | 900 | 500 créditos | 5.000 |
-| **Rivet II** | Reto, alvo único | Raro | 4.000–5.000 | 25% | – | – | 1.120 | 700 | 800 créditos | 2.000 |
-| **Rivet III** | Reto, alvo único | Épico | 6.000–7.500 | 35% | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guiado, explosão em área | Comum | 1.120–1.400 | – | 170 | 700 | 1.000 | 500 | 500 créditos | 5.000 |
-| **Ember II** | Guiado, explosão em área | Raro | 2.240–2.800 | – | 230 | 920 | 1.500 | 600 | 800 créditos | 2.000 |
-| **Ember III** | Guiado, explosão em área | Épico | 3.360–4.200 | – | 300 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Reto, explosão em área | Comum | 1.400–1.750 | – | 210 | – | 1.088 | 640 | 500 créditos | 5.000 |
-| **Scatter II** | Reto, explosão em área | Raro | 2.800–3.500 | – | 290 | – | 1.080 | 540 | 800 créditos | 2.000 |
-| **Scatter III** | Reto, explosão em área | Épico | 4.200–5.250 | – | 400 | – | 1.092 | 420 | 5 Thulium | 500 |
+| Nome | Tipo | Raridade | Dano | Média | Penetração de escudo | Raio da explosão | Alcance de travamento | Alcance | Velocidade | Preço | Máximo que você carrega |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
+| **Lancet I** | Guiado, alvo único | Comum | 1.700–2.100 | 1.900 | 10% | – | 700 | 1.040 | 520 | 500 créditos | 5.000 |
+| **Lancet II** | Guiado, alvo único | Raro | 3.500–4.200 | 3.850 | 25% | – | 1.000 | 1.584 | 660 | 800 créditos | 2.000 |
+| **Lancet III** | Guiado, alvo único | Épico | 5.200–6.200 | 5.700 | 35% | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
+| **Rivet I** | Reto, alvo único | Comum | 2.200–2.700 | 2.450 | 5% | – | – | 1.080 | 900 | 500 créditos | 5.000 |
+| **Rivet II** | Reto, alvo único | Raro | 4.500–5.250 | 4.875 | 25% | – | – | 1.120 | 700 | 800 créditos | 2.000 |
+| **Rivet III** | Reto, alvo único | Épico | 7.000–8.000 | 7.500 | 35% | – | – | 1.100 | 500 | 5 Thulium | 500 |
+| **Ember I** | Guiado, explosão em área | Comum | 1.200–1.400 | 1.300 | – | 170 | 700 | 1.000 | 500 | 500 créditos | 5.000 |
+| **Ember II** | Guiado, explosão em área | Raro | 2.400–2.900 | 2.650 | – | 230 | 920 | 1.500 | 600 | 800 créditos | 2.000 |
+| **Ember III** | Guiado, explosão em área | Épico | 3.500–4.500 | 4.000 | – | 300 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
+| **Scatter I** | Reto, explosão em área | Comum | 1.500–1.750 | 1.625 | – | 210 | – | 1.088 | 640 | 500 créditos | 5.000 |
+| **Scatter II** | Reto, explosão em área | Raro | 3.000–3.500 | 3.250 | – | 290 | – | 1.080 | 540 | 800 créditos | 2.000 |
+| **Scatter III** | Reto, explosão em área | Épico | 4.500–5.500 | 5.000 | – | 400 | – | 1.092 | 420 | 5 Thulium | 500 |
 
-Quanto mais cara a raridade, mais forte o foguete bate, mais longe ele chega, mais penetração de escudo ele tem e menos você pode carregar; os caros também dão o maior dano pelo que custam. Um foguete reto causa **25% a mais** que o foguete guiado da mesma raridade e do mesmo tipo pelo mesmo preço, porque você precisa mirar. Uma explosão causa 70% do foguete de alvo único da mesma raridade, a toda nave que ela cobre. O dano de uma explosão é o do centro; ele cai para 25 a 35% na borda. Um disparo causa em média 90% do número máximo, e a tabela que conta foguetes mais abaixo usa esse valor.
+Quanto mais cara a raridade, mais forte o foguete bate, mais longe ele chega, mais penetração de escudo ele tem e menos você pode carregar; os caros também dão o maior dano pelo que custam. Um foguete reto causa de 23 a 32% a mais, em média, que o foguete guiado da mesma raridade e do mesmo tipo pelo mesmo preço (de um quarto a um terço), porque você precisa mirar. Uma explosão causa cerca de dois terços do foguete de alvo único da mesma raridade e do mesmo tipo (de 66 a 70% em média: um Ember em relação a um Lancet, um Scatter em relação a um Rivet), a toda nave que ela cobre. O dano de uma explosão é total no centro e cai em linha reta até **metade dele na borda**: uma nave cujo casco está a meio caminho da borda recebe 75%, e uma com o casco fora do anel não recebe nada. Um disparo causa em média o meio do seu intervalo, de 89 a 94% do número máximo, e a tabela que conta foguetes mais abaixo usa esse valor.
 
 ## Quanto custam {#what-they-cost}
 
-Um foguete Comum custa 500 créditos, um Raro 800 créditos e um Épico 5 Thulium, em todos os tipos. Disparados a cada temporizador, isso dá 6.000 créditos por minuto para um foguete Comum, 9.600 para um Raro e 60 Thulium para um Épico, contra os 1.800 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Uma pilha cheia são 5.000 foguetes Comuns (2.500.000 créditos), 2.000 Raros (1.600.000 créditos) ou 500 Épicos (2.500 Thulium): você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. Foguetes não pesam nada: não ocupam espaço no Cache de Transporte. Um foguete a cada 5 segundos são só doze por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas.
+Um foguete Comum custa 500 créditos, um Raro 800 créditos e um Épico 5 Thulium, em todos os tipos. Disparados a cada temporizador, isso dá 6.000 créditos por minuto para um foguete Comum, 9.600 para um Raro e 60 Thulium para um Épico, contra os 1.800 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Uma pilha cheia são 5.000 foguetes Comuns (2.500.000 créditos), 2.000 Raros (1.600.000 créditos) ou 500 Épicos (2.500 Thulium): você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. Foguetes não pesam nada: não ocupam espaço no Cache de Transporte. Um foguete a cada 5 segundos são só doze por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas. O que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#limits) e os lotes que você lidera lá contam para esse limite quando você compra um foguete ou dá lance nele.
 
 A Loja lista os foguetes um tipo de cada vez, cada um sob o seu nome, com o foguete Comum primeiro e o Épico por último; o hangar, o Cache de Transporte e o seletor de Foguetes usam a mesma ordem.
 
 ## Contra os alienígenas {#against-the-aliens}
 
-Os foguetes necessários para matar um alienígena, um tipo de foguete de cada vez (Alpha; os alienígenas do Beta e do Gamma têm 1,5 e 2 vezes a força). Uma explosão conta como a nave ao lado da qual ela explode a recebe, um pouco aquém do centro. O escudo de um alienígena recebe 80% de um impacto, menos a penetração de escudo do foguete. Aqui cada foguete sorteia a média. Com o sorteio mais baixo, um abate leva cerca de 10 a 15% mais foguetes do que a tabela diz (um Lancet I precisa de 50 para um Goombah, não de 45); com o melhor, cerca de 10% menos (40). Um Rivet II só mata um Phantasm com um acerto num sorteio de 89% ou mais; abaixo disso, precisa de dois.
+Os foguetes necessários para matar um alienígena, um tipo de foguete de cada vez, com cada foguete sorteando a média do seu intervalo (Alpha; os alienígenas do Beta e do Gamma têm 1,5 e 2 vezes a força). Uma explosão conta como a nave ao lado da qual ela explode a recebe, um pouco aquém do centro (de 87 a 93% do dano do centro). O escudo de um alienígena recebe 80% de um impacto, menos a penetração de escudo do foguete. Com o sorteio mais baixo, um abate leva até 15% mais foguetes do que a tabela diz (um Lancet I precisa de 48 para um Goombah, não de 43); com o melhor, até 13% menos (39). Um Rivet II, um Lancet III e um Rivet III matam um Phantasm com um acerto em qualquer sorteio; um Rivet I precisa de dois num sorteio de 2.600 ou mais, e de três abaixo disso.
 
 | Foguetes para matar | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 15 | 45 | 232 |
-| **Lancet II** | 1 | 2 | 8 | 20 | 116 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 78 |
-| **Rivet I** | 1 | 3 | 12 | 36 | 185 |
-| **Rivet II** | 1 | 1 | 6 | 16 | 93 |
-| **Rivet III** | 1 | 1 | 4 | 9 | 62 |
-| **Ember I** | 2 | 5 | 25 | 77 | 399 |
-| **Ember II** | 1 | 3 | 13 | 37 | 193 |
-| **Ember III** | 1 | 2 | 8 | 25 | 128 |
-| **Scatter I** | 2 | 4 | 20 | 60 | 311 |
-| **Scatter II** | 1 | 2 | 10 | 29 | 151 |
-| **Scatter III** | 1 | 2 | 7 | 20 | 100 |
+| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
+| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
+| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
+| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
+| **Ember I** | 2 | 5 | 24 | 71 | 369 |
+| **Ember II** | 1 | 3 | 12 | 34 | 177 |
+| **Ember III** | 1 | 2 | 8 | 23 | 116 |
+| **Scatter I** | 2 | 4 | 18 | 56 | 287 |
+| **Scatter II** | 1 | 2 | 9 | 27 | 141 |
+| **Scatter III** | 1 | 2 | 6 | 18 | 90 |
 
-- Os foguetes de alvo único **Comuns** matam um Seeker com um acerto em qualquer sorteio e um Phantasm com três (um Lancet I precisa de um quarto no sorteio mais baixo); são os foguetes do dia a dia dos primeiros setores. Os **Raros** são para o Bulwark e o Goombah: oito foguetes Lancet II derrubam um Bulwark em cerca de 35 segundos de temporizador. Os **Épicos** matam um Phantasm com um acerto em qualquer sorteio e um Goombah com nove a onze. As explosões valem o preço quando vários alienígenas estão juntos: um Scatter III explodindo sobre um bando de cinco Phantasms causa cerca de 18.000 de dano ao bando em um único disparo.
-- Um abate só com foguetes é um gasto de verdade, não um jeito de ficar rico: para o alienígena a que se destina, um foguete de alvo único custa de cerca de um sétimo a três quartos do que o abate paga (créditos, e Thulium a 200 créditos cada), e os foguetes fracos contra os alienígenas fortes custam mais do que o abate paga. Matar o **Crystalys** com um único tipo exige de 62 a 399 foguetes e no mínimo cinco minutos de temporizador; uma pilha cheia de 500 foguetes Épicos basta para quatro a oito deles. O alienígena mais forte pede um plano: seus lasers com munição x2, um foguete intermediário a cada 5 segundos desde o primeiro segundo, e os foguetes grandes abaixo como o golpe extra.
+- Os foguetes de alvo único **Comuns** matam um Seeker com um acerto em qualquer sorteio e um Phantasm com três (um Lancet I precisa de um quarto no sorteio mais baixo); são os foguetes do dia a dia dos primeiros setores. Os **Raros** são para o Bulwark e o Goombah: sete foguetes Lancet II derrubam um Bulwark em cerca de 30 segundos de temporizador. Os **Épicos** de alvo único matam um Goombah com oito (Rivet III) a onze (Lancet III). As explosões valem o preço quando vários alienígenas estão juntos: um Scatter III explodindo sobre um bando de cinco Phantasms (todos a até 250 unidades do alvo para o qual você mirou) causa cerca de 21.000 de dano ao bando em um único disparo.
+- Um abate só com foguetes é um gasto de verdade, não um jeito de ficar rico: um foguete de alvo único custa de 15% (um Rivet II num Phantasm) a 95% (um Lancet I num Crystalys) do que o abate paga (créditos, e Thulium a 200 créditos cada), e as explosões fracas contra os alienígenas fortes custam mais do que o abate paga (um Ember I num Bulwark: 120%). Matar o **Crystalys** com um único tipo exige de 56 a 369 foguetes e no mínimo quatro minutos e meio de temporizador; uma pilha cheia de 500 foguetes Épicos basta para quatro a oito deles. O alienígena mais forte pede um plano: seus lasers com munição x2, um foguete intermediário a cada 5 segundos desde o primeiro segundo, e os foguetes grandes abaixo como o golpe extra.
 - O pagamento de um abate é o mesmo, seja como for que ele foi feito (veja [o Crystalys](/wiki/04-Aliens/Crystalys.md) para o maior), então um abate com foguetes compensa quando poupa tempo e custa menos do que paga.
-- **Alienígenas também disparam foguetes.** O Pirate Boss, a Dormant Force e as Pulses dos [enxames](/wiki/05-Swarms/Swarms.md) lançam foguetes Rivet retos no piloto que os atacou, com o mesmo temporizador de 5 segundos. Uma nave que não para de se mover os esquiva. Os chefes dos enxames também largam foguetes nas suas caixas.
+- **Alienígenas também disparam foguetes.** O Pirate Boss, a Dormant Force e as Pulses dos [enxames](/wiki/05-Swarms/Swarms.md) e os Siege Wardens dos [clãs](/wiki/03-Mechanics/Clans.md#clan-wardens) lançam foguetes Rivet retos no piloto que os atacou, com o mesmo temporizador de 5 segundos. **O foguete de um alienígena não sorteia e não usa os intervalos acima**: causa um dano fixo de 2.500 (Rivet I), 5.000 (Rivet II) ou 7.500 (Rivet III), mais no Beta e no Gamma, onde os alienígenas têm 1,5 e 2 vezes a força (o foguete de um Clan Warden é o mesmo em todos os mundos). Uma nave que não para de se mover os esquiva. Os chefes dos enxames também largam foguetes nas suas caixas.
 
 ## Os foguetes só por criação {#the-craft-only-rockets}
 
@@ -131,7 +140,7 @@ Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única 
 - **Recarga.** Asterism alonga o temporizador compartilhado em 35% (6,75 segundos), Cordon em 11% (5,55) e Redoubt o encurta em 27% (3,65), mas nunca abaixo do voo do foguete mais um instante: 4,1 segundos depois de um N.U.K.E. e 4,6 depois de um N.I.K.E. A espera é fixada ao disparar, então trocar de formação depois não a encurta, e o círculo sobre os slots de foguete a acompanha.
 - **Os limites dos dois grandes continuam valendo.** Com a melhor formação, um N.I.K.E. acerta com até 116.250, o que um Paragon intacto (128.000) sobrevive, e um N.U.K.E. com até 77.500, o que um Goombah (80.000) sobrevive.
 - **Evasão.** Os 7% de evasão de Asterism dão a um foguete direto que atinge você 7% de chance de não causar dano nenhum, e um “Errou” flutuante aparece sobre a sua nave; uma explosão em área não mira e nunca é esquivada.
-- **Penetração.** Gemini e Stiletto somam seus pontos à penetração de escudo de um foguete direto (uma explosão não tem), até 40% no total.
+- **Penetração.** Gemini e Stiletto somam seus pontos à penetração de escudo de um foguete direto (uma explosão não tem), até 40% no total. Um acerto de laser vai até 50% ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regras {#rules}
 
@@ -140,7 +149,7 @@ Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única 
 - Os foguetes seguem as regras dos lasers: nada dentro de uma **zona segura** é ferido, nenhum piloto é ferido antes de o **Protocolo de Paz** terminar ou onde um setor proíbe PvP, e **a sua própria corporação e o seu próprio grupo nunca são feridos** pelos seus foguetes, de impacto direto ou de explosão.
 - Lançar um foguete encerra na hora a sua própria proteção de zona segura. É um disparo: ele também encerra a sua própria **camuflagem**, e a Cloaking CPU então recarrega por um minuto, como depois de qualquer fim de camuflagem. Camuflado ou não, um lançamento impede você de se camuflar nos 10 segundos seguintes (veja [Extras](/wiki/06-Items/Extras.md)).
 - Uma nave **camuflada** ou dentro dos **3 segundos do seu EMP** não pode ser travada: um foguete guiado é recusado, e um que já voa contra ela perde a trava e segue reto. Um foguete reto de alvo único atravessa uma nave assim. Uma **explosão em área** não precisa de trava, então fere as naves que ela cobre, camufladas ou não, e encerra uma camuflagem (veja [Extras](/wiki/06-Items/Extras.md)).
-- **Nada limita o que um foguete causa a um piloto.** A nave de outro piloto recebe o dano inteiro: primeiro o escudo (a absorção dele menos a penetração de escudo do foguete), depois o casco. As naves pequenas não resistem. Com os núcleos de escudo de série (Light, 45% de absorção), uma N.I.K.E. destrói, em qualquer sorteio, uma Protos, Kitefin ou Ostirion intacta com um acerto (uma Paragon perde de 47 a 53% do casco, uma Wraith cerca de um quinto), e uma N.U.K.E. destrói uma Protos em qualquer ponto da sua explosão, uma Kitefin a até cerca de 50 unidades da explosão (220 no melhor sorteio) e nada maior em uma única explosão. Dois foguetes Lancet III ou dois Rivet III destroem uma Protos em qualquer sorteio; uma Wraith exige de 48 a 75 deles. O Protocolo de Paz, as zonas seguras e a sua corporação são o que fica entre um piloto e um foguete. Esses números são de uma nave sem formação; uma formação de foguetes os aumenta em até 55% (veja [Formações de drones e foguetes](#drone-formations-and-rockets)).
+- **Nada limita o que um foguete causa a um piloto.** A nave de outro piloto recebe o dano inteiro: primeiro o escudo (a absorção dele menos a penetração de escudo do foguete), depois o casco. As naves pequenas não resistem. Com os núcleos de escudo de série (Light, 45% de absorção), uma N.I.K.E. destrói, em qualquer sorteio, uma Protos, Kitefin ou Ostirion intacta com um acerto (uma Paragon perde de 47 a 53% do casco, uma Wraith cerca de um quinto), e uma N.U.K.E. destrói uma Protos em qualquer ponto da sua explosão, uma Kitefin a até cerca de 50 unidades da explosão (220 no melhor sorteio) e nada maior em uma única explosão. Dois foguetes Lancet III ou dois Rivet III destroem uma Protos em qualquer sorteio; uma Wraith exige de 45 a 70 deles. O Protocolo de Paz, as zonas seguras e a sua corporação são o que fica entre um piloto e um foguete. Esses números são de uma nave sem formação; uma formação de foguetes os aumenta em até 55% (veja [Formações de drones e foguetes](#drone-formations-and-rockets)).
 - Só o **acerto direto** de um foguete reivindica um alienígena (veja [Combate](/wiki/03-Mechanics/Combat.md)); a borda de uma explosão pode ferir um alienígena já reivindicado sem roubá-lo. Todo alienígena que uma explosão fere, um que dormia também, se volta contra você, como acontece com um acerto de laser (inclusive um Seeker ou um Goombah, que só revidam); o que a explosão erra continua dormindo.
 - O temporizador é seu: ele sobrevive a um salto, a uma reconexão, a uma troca de nave e a uma nave destruída.
 

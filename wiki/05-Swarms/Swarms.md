@@ -13,7 +13,7 @@ The **Clan Wardens** are not public swarms. A clan calls its own Warden for the 
 ## The three swarms
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Swarm | Where | How many | Leader | Followers | Comes back |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ The swarms begin to appear at **First Contact** and stay until the wipe (see the
 ## The rules of every swarm
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - The swarms appear from season day 4 until the wipe.
 - When a swarm ship is hit, the ships of its swarm within 1,500 units of it join the fight against the first pilot who hit it.
@@ -44,7 +44,7 @@ The swarms begin to appear at **First Contact** and stay until the wipe (see the
 The world scales a swarm as it scales every alien ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): a swarm ship's hull, shield, shield recharge, laser damage, rocket damage and healing are the Alpha numbers times the strength below, and a kill pays the pay below. Speed, range and drops are the same in every world. The articles give each ship's numbers in all three worlds.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | World | Strength | Pay |
 | :--- | ---: | ---: |
@@ -84,7 +84,7 @@ An ordinary alien pays the pilot who hit it first ([Combat](/wiki/03-Mechanics/C
 Every kill is counted under the ship's own name in your kill statistics, and adds PvE points to your ranking:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Swarm ship | Swarm | PvE points per kill |
 | :--- | :--- | ---: |

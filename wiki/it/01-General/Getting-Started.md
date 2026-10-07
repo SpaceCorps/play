@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@ Ti diamo il benvenuto nell’esperienza definitiva di guerra spaziale. Come pilo
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ Per sopravvivere e prosperare devi gestire due valute e tenere d’occhio il tuo
 - **Onore**: un punteggio, non denaro: la misura della tua lealtà e della tua reputazione. L’onore non determina il tuo [grado](/wiki/03-Mechanics/Ranks.md), che è la tua posizione tra i piloti della tua corporazione per punti PvE, e attaccare i piloti alleati della tua stessa fazione penalizza pesantemente il tuo onore: distruggere un pilota della tua corporazione, cioè la nave di un giocatore o uno dei suoi [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), costa 100 onore. Lo stesso vale se ne colpisci uno nei 15 secondi prima che qualcos’altro lo distrugga: indebolire un pilota della tua corporazione perché un alieno lo finisca costa quanto l’abbattimento. Abbattere un pilota della tua corporazione non è un abbattimento PvP e non dà punti PvP. Cambiare corporazione ti toglie metà del tuo onore, arrotondata per difetto; un onore pari o inferiore a 0 resta com’è ([Cambiare corporazione](#changing-your-company)).
 
 Alla stazione, i tuoi Crediti, il tuo Thulium e il tuo Onore si trovano in alto a destra in ogni pagina, accanto al tuo settore e al pulsante **Decolla**. Se la finestra è troppo stretta per una cifra lunga, questa viene abbreviata (987,7M); punta il cursore su di essa per leggere il numero intero.
+
+## Profili dei piloti {#pilot-profiles}
+
+Clicca sul nome di un pilota nell’Albo d’oro (**Comunità › Classifiche**), nella pagina **Statistiche** o nell’elenco dei membri di un clan, e si apre il **profilo** del pilota: corporazione, mondo e clan, livello, esperienza, onore e punti classifica, gli alieni e i piloti che ha distrutto e la nave che pilota, con i suoi numeri. Due riquadri dicono da quanto tempo il pilota gioca:
+
+- **Primo accesso.** Il giorno in cui il pilota ha effettuato il primo accesso, come data nel tuo fuso orario. Un pilota che giocava prima della 0.4.12 mostra il giorno del suo primo accesso dopo quell’aggiornamento, e un trattino indica un pilota che da allora non ha più effettuato l’accesso.
+- **Tempo di gioco.** Per quanto tempo il gioco del pilota è stato collegato al server, in ore e minuti (“128 h 15 min”, “45 min”), in volo o alla stazione. Conta anche il tempo passato fermo. Il conteggio è iniziato con la 0.4.12, quindi per un pilota che giocava prima è il tempo trascorso da quell’aggiornamento.
+
+Entrambi sono pubblici, come livello e grado: qualsiasi pilota connesso può leggerli in un profilo. Il reset della stagione non li azzera.
 
 ## Cambiare corporazione {#changing-your-company}
 
@@ -64,14 +74,14 @@ SpaceCorps supporta comandi da tastiera personalizzabili (si trovano nel pannell
 | :--- | :--- | :--- |
 | **Muovi la nave** | `Left Click` sulla mappa spaziale | Indirizza la nave verso le coordinate di destinazione cliccate. |
 | **Ruota la camera e usa lo zoom** | `Right Drag`, `Mouse Wheel` | Trascinare con il tasto destro ruota la vista intorno alla nave; la rotella (o un trascinamento con il tasto centrale) fa zoom avanti e indietro, da 30 unità di distanza fino a 1.500, da cui si vedono circa 4.400 per 2.650 unità di spazio (2,25 volte l’area di una vista di 1.000 unità). La rotazione e lo zoom tornano gradualmente alla vista a riposo due secondi dopo che li hai lasciati, a meno che tu non attivi **La camera resta dove la lascio** in Impostazioni › Generali: allora la vista mantiene l’angolazione e la distanza che le hai dato (il pulsante **Reimposta vista** accanto a quell’interruttore la riporta una volta alla vista a riposo, e lo stesso fa disattivarlo). **Zoom camera** in Impostazioni › Generali imposta la distanza a riposo, dal 50% al 338% (il valore predefinito è 150%); con l’interruttore attivo, spostarlo porta la camera alla nuova distanza. |
-| **Seleziona bersaglio** | `Left Click` su un’entità | Seleziona un alieno, un pilota nemico o un portale come bersaglio attivo. La finestra Bersaglio (vedi sotto) ne mostra nome, distanza, scafo e scudo. |
+| **Seleziona bersaglio** | `Left Click` su un’entità | Seleziona un alieno, un pilota nemico o un portale come bersaglio attivo. La finestra Bersaglio (vedi sotto) ne mostra nome, distanza, scafo e scudo. Un clic su un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) lo seleziona senza cambiare il tuo bersaglio: lo danneggiano solo i razzi. |
 | **Attacca il bersaglio selezionato** | `Key A` (o `Ctrl + Click`) | Inizia a sparare al bersaglio selezionato con i tuoi laser e razzi. |
 | **Lancia razzo** | `Key R` | Lancia l’ultimo razzo che hai usato (o il primo della barra rapida): un razzo guidato verso il bersaglio selezionato, uno dritto verso il cursore. Per mirare un razzo dritto con il mouse, clicca sul suo slot della barra rapida per armarlo, poi clicca nello spazio. Tutti i razzi condividono un timer di 5 secondi (una formazione di droni può cambiarlo). |
 | **Salta nel portale** | `Key J` | Avvia un salto quando sei entro 500 unità da un portale (dentro la sua zona sicura). Il salto dura 3 secondi (lo indica una barra sopra la barra rapida) e devi restare nel raggio finché non è finito. Nei settori pericolosi non puoi avviarne uno mentre sei sotto attacco. |
 | **Cambia configurazione** | `Key C` | Passa dalla Config 1 alla Config 2 e viceversa (cambia l’assetto attivo di laser, scudi e velocità). |
 | **Barra rapida primaria** | `Digits 1 - 9` | Attiva oggetti e azioni nello slot della barra rapida primaria dell’HUD (ad es. munizioni, droni di riparazione). |
 | **Barra rapida secondaria** | `Shift + Digits 1 - 9` | Attiva oggetti e azioni negli slot della barra rapida secondaria. La riga compare sopra quella primaria non appena contiene qualcosa; apri il selettore di Munizioni, Razzi o Extra (oppure trascina uno slot) per metterci un oggetto. |
-| **Formazione di droni** | il tasto del suo slot | Indossa la formazione di quello slot. Trascinala lì dall’elenco Formazioni della barra rapida, che ha anche Standard, nessuna formazione. Puoi cambiare una volta ogni 2 secondi, anche in combattimento. Vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md). |
+| **Formazione di droni** | il tasto del suo slot | Indossa la formazione di quello slot. Trascinala lì dall’elenco Formazioni della barra rapida, che ha anche Standard, nessuna formazione. Puoi cambiare una volta ogni 2 secondi, in combattimento come in una zona sicura; gli slot mostrano i secondi che restano. Vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md). |
 | **Schermo intero** | `F11` o `Alt + Enter` (Windows) | Attiva o disattiva lo schermo intero senza bordi; il pulsante in alto a destra nella schermata di volo fa lo stesso su Windows e macOS. Questi due tasti sono fissi e non compaiono tra i tasti che puoi cambiare. `Alt + Enter` non fa nulla finché scrivi nella chat. |
 | **Scegli dove fare respawn** | `Keys 1 - 3` | Nella schermata di distruzione: `1` alla base, `2` al portale più vicino, `3` sul posto. Vedi *Distruzione e respawn* sopra. |
 | **Finestra bersaglio** | `Key V` | Mostra o nasconde la finestra Bersaglio. Il primo pulsante della barra degli strumenti in alto a sinistra fa lo stesso. |
@@ -79,7 +89,7 @@ SpaceCorps supporta comandi da tastiera personalizzabili (si trovano nel pannell
 
 ## La finestra Bersaglio {#the-target-window}
 
-Clicca su un alieno o su un pilota e la finestra **Bersaglio** mostra ciò che hai selezionato: il nome, la distanza, le barre di scafo e scudo e se stai sparando contro di esso. Il pulsante del **mirino** avvia e ferma l’attacco (come `A`), e il pulsante **X** deseleziona il bersaglio (come `Esc`). Se non è selezionato nulla, lo dice in una riga.
+Clicca su un alieno o su un pilota e la finestra **Bersaglio** mostra ciò che hai selezionato: il nome, la distanza, le barre di scafo e scudo e se stai sparando contro di esso. Il pulsante del **mirino** avvia e ferma l’attacco (come `A`), e il pulsante **X** deseleziona il bersaglio (come `Esc`). Se non è selezionato nulla, lo dice in una riga. Clicca su un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) e la finestra mostra il suo scafo, che cosa lascia e quanti razzi del tuo tipo servono.
 
 È una finestra come le altre. Trascinala per la barra del titolo per metterla dove vuoi, chiudila con la luce rossa nel suo angolo o con il **primo pulsante della barra degli strumenti in alto a sinistra** (o con `V`), e riaprila allo stesso modo. Il gioco ricorda per il tuo account dove la lasci e se è aperta. All’inizio sta in alto sullo schermo, tra le due barre degli strumenti. Chiuderla nasconde solo i dati mostrati: il bersaglio resta selezionato e il tuo attacco continua.
 

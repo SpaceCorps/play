@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 1. Un **collettore** estrae minerale, una certa quantità all’ora, nella propria tramoggia (pari a 72 ore di produzione).
 2. **Raccogli** sposta il minerale dalla tramoggia al **Magazzino risorse**, la riserva in cui ogni minerale è tenuto separato.
 3. La **Fucina** preleva dalla riserva il minerale che le serve quando parte un lotto, e produce piastre, 10 secondi a piastra, un lotto alla volta.
-4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/06-Items/Lasers.md) le trasforma in un Quantum Laser 3, una Starfire-3 o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate per [la Forgia](/wiki/06-Items/Forge.md).
+4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/06-Items/Lasers.md) le trasforma in un Quantum Laser 3, una Starfire-3 o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate, che chiedono [la Forgia](/wiki/06-Items/Forge.md) e l’ultimo tier di ogni catena di potenziamento.
 
 ### Collettore Velkonite e Collettore Orvium {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 - **Ritira piastre**: sposta le piastre finite nel tuo inventario mentre la tua **nave è atterrata**, e il resto del lotto continua. Un nuovo lotto può partire quando la Fucina è vuota.
 - Un lotto in corso si completa anche se spegni la Fucina o la potenzi. Un lotto **nuovo** richiede che la Fucina sia accesa, non in potenziamento, e che l’energia dello Skylab sia in equilibrio.
 - **Energia**: 30 al livello 1, con un aumento del 15% per livello.
+- **Non vendibile**: le piastre che produce la Fucina non si possono vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items), altrimenti sarebbero la merce più grande del suo Mercato. Restano materiale per l’Assemblaggio e la Forgia.
 
 ### Costruirli {#building-them}
 
@@ -148,7 +149,7 @@ I due collettori costano **10 Ship Fragment, 20.000 crediti e 500 Thulium** cias
 
 ## Il Centro ricerche {#the-research-centre}
 
-Il nono modulo trasforma le risorse in scienza e ricerca le tecnologie di cui l’Assemblaggio ha bisogno prima di creare qualcosa di nuovo. Si costruisce dal livello 10 del Nucleo, ha i livelli da 1 a 10, consuma energia e non si può spegnere. I suoi numeri, ciò che brucia come carburante, il boost e l’intero albero delle tecnologie sono nella pagina [Ricerca](/wiki/03-Mechanics/Research.md).
+Il nono modulo trasforma le risorse in scienza e ricerca le tecnologie di cui l’Assemblaggio ha bisogno prima di creare qualcosa di nuovo. Si costruisce dal livello 10 del Nucleo, ha i livelli da 1 a 10, consuma energia e non si può spegnere. I suoi numeri, ciò che brucia come carburante, il boost e l’intero albero delle tecnologie sono nella pagina [Ricerca](/wiki/03-Mechanics/Research.md). Le tecnologie più alte richiedono anche Dark Matter, che aggiungi al Centro: [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) spiega come ottenerla.
 
 ## Meccaniche {#mechanics}
 
@@ -265,7 +266,7 @@ Ogni fattoria e collettore ha una tramoggia per circa 72 ore della sua produzion
 
 ### Il reset {#the-wipe}
 
-Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse conserva il suo minerale e il Centro ricerche conserva le sue tecnologie, il suo serbatoio di scienza, la Dark Matter inserita e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md).
+Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse conserva il suo minerale e il Centro ricerche conserva le sue tecnologie, il suo serbatoio di scienza, la Dark Matter che contiene e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Pianificare il tuo Skylab {#planning-your-skylab}
 

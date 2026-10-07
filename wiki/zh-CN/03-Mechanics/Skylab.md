@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Skylab 按自己的时钟运转，与你的舰船无关：你不在时，模块�
 1. **采集器**每小时开采一定数量的矿石，存入自己的料斗（最多 72 小时的量）。
 2. **收取**会把矿石从料斗转入**资源仓库**，每种矿石在其中分开存放。
 3. **锻造厂**在一批开始时从资源仓库取走所需的矿石，然后制作强化板，每块 10 秒，一次只做一批。
-4. **收取强化板**会把完成的强化板转入你的物品栏（你的舰船必须已降落）。[装配站](/wiki/06-Items/Lasers.md)可以把它们制成 Quantum Laser 3、Starfire-3 或 Helios Beam；两种强化板各一块，再加 5 个 Dark Matter，则可制成供[锻造炉](/wiki/06-Items/Forge.md)使用的 Dark Matter Plate。
+4. **收取强化板**会把完成的强化板转入你的物品栏（你的舰船必须已降落）。[装配站](/wiki/06-Items/Lasers.md)可以把它们制成 Quantum Laser 3、Starfire-3 或 Helios Beam；两种强化板各一块，再加 5 个 Dark Matter，则可制成 Dark Matter Plate，[锻造炉](/wiki/06-Items/Forge.md)和每条升级链的最后一阶都要用到它。
 
 ### Velkonite 采集器和 Orvium 采集器 {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Skylab 按自己的时钟运转，与你的舰船无关：你不在时，模块�
 - **收取强化板**：在你的**舰船已降落**时，把已完成的强化板转入你的物品栏，这一批的其余部分继续进行。锻造厂清空后，才能开始新的一批。
 - 正在进行的一批，即使你关闭或升级锻造厂，也会完成。**新**的一批则要求锻造厂处于开启状态、没有在升级，并且 Skylab 的电力收支平衡。
 - **电力**：1 级时为 30，每级增长 15%。
+- **不可交易**：锻造厂制作的板材不能在[拍卖行](/wiki/03-Mechanics/Auction.md#marketable-items)出售，否则它们会成为市场上最大的商品。它们仍然可以作为装配站和锻造炉的材料使用。
 
 ### 建造它们 {#building-them}
 
@@ -148,7 +149,7 @@ Skylab 按自己的时钟运转，与你的舰船无关：你不在时，模块�
 
 ## 研究中心 {#the-research-centre}
 
-第九个模块把资源变成科研点，并研究装配站制造新东西之前所需的科技。它从核心 10 级开始可以建造，共有 1 到 10 级，需要电力，并且无法关闭。它的各项数字、作为燃料消耗什么、加速以及完整的科技树，都在[研究](/wiki/03-Mechanics/Research.md)页面上。
+第九个模块把资源变成科研点，并研究装配站制造新东西之前所需的科技。它从核心 10 级开始可以建造，共有 1 到 10 级，需要电力，并且无法关闭。它的各项数字、作为燃料消耗什么、加速以及完整的科技树，都在[研究](/wiki/03-Mechanics/Research.md)页面上。最高等级的科技还需要 Dark Matter，需要你添加到研究中心：获取方法见 [Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)。
 
 ## 机制 {#mechanics}
 
@@ -265,7 +266,7 @@ Skylab 按自己的时钟运转，与你的舰船无关：你不在时，模块�
 
 ### 重置 {#the-wipe}
 
-Skylab 永远不会被重置：模块保留各自的等级，资源仓库保留其中的矿石，研究中心保留它的科技、科研点储罐、已放入的 Dark Matter 和进行中的研究。你物品栏里的强化板和其他物品一样，因此遵循[重置规则](/wiki/03-Mechanics/Wipe-Timeline.md)。
+Skylab 永远不会被重置：模块保留各自的等级，资源仓库保留其中的矿石，研究中心保留它的科技、科研点储罐、里面的 Dark Matter 和进行中的研究。你物品栏里的强化板和其他物品一样，因此遵循[重置规则](/wiki/03-Mechanics/Wipe-Timeline.md)。
 
 ## 规划你的 Skylab {#planning-your-skylab}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fde0e896bc82b2a3 -->
+<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
 <!-- wiki-i18n title: 速度 -->
 # 速度计算 {#speed-calculation}
 
@@ -19,7 +19,7 @@
 - **推进器固定加成**：推进器提供的所有固定速度加值之和（例如 Impulse Thruster III 为 `+15` 速度）。
 - **推进器倍率**：嵌入该引擎的所有推进器的速度倍率之积（例如 Momentum Thruster III 为 `1.09`，即 `+9%`，Impulse Thruster III 为 `1.03`，即 `+3%`）。它会乘上引擎产生的全部速度：引擎自身的基础速度和推进器的固定加成。自适应核心没有自己的基础速度，但它的推进器的固定加成同样会被乘上倍率。
 
-装有三个 Momentum Thruster IV（`+12`、`1.11`）的 Engine III（基础速度 6）产生的速度为 (6 + 3 x 12) x 1.11 x 1.11 x 1.11 = 57.4；装三个 Impulse Thruster IV（`+17`、`1.02`）则为 (6 + 3 x 17) x 1.02 x 1.02 x 1.02 = 60.5。锻造炉加在推进器倍率上的加成作用于超出 1 的部分：`1.11` 加上 +15% 得到 `1.1265`。
+装有三个 Momentum Thruster IV（`+13.1`、`1.11`）的 Engine III（基础速度 6）产生的速度为 (6 + 3 x 13.1) x 1.11 x 1.11 x 1.11 = 62.0；装三个 Impulse Thruster IV（`+16.5`、`1.035`）则为 (6 + 3 x 16.5) x 1.035 x 1.035 x 1.035 = 61.5。锻造炉加在推进器倍率上的加成作用于超出 1 的部分：`1.11` 加上 +15% 得到 `1.1265`。
 
 ### 2. 收益递减（边际效率） {#2-diminishing-returns-marginal-efficiency-}
 

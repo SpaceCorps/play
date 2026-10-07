@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1f9dad98b1e0c6d8 -->
+<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -86,7 +86,7 @@ Flera moduler av ett slag i en konfiguration: den lägst rankade sätter styrkan
 
 <!-- abilities:end -->
 
-Sköldar och motorer av rang III (Heavy Shield Core, Engine III) säljs inte: du tillverkar dem i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Basic Shield Core och en Engine II, med Thulium, det utomjordingarna släpper och Velkonite Reinforced Plates från smedjan i din [Skylab](/wiki/03-Mechanics/Skylab.md). Emergency Repair har en fjärde rang, Repair Drone IV.
+Sköldar och motorer av rang III (Heavy Shield Core, Engine III) säljs inte: du tillverkar dem i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Basic Shield Core och en Engine II, med Thulium, det utomjordingarna släpper och 3 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair har en fjärde rang, Repair Drone IV.
 
 ## Återhämtning och gränser {#cooldowns-and-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2329e422c8d1d27c -->
+<!-- wiki-i18n source: f1a8f6f654c02a2d -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -22,21 +22,21 @@ Se suma el daño base de todos los láseres equipados (incluidos los láseres de
 
 Cada andanada tiene una probabilidad de ser un golpe crítico.
 - **Probabilidad de crítico**: la probabilidad de crítico media de los láseres equipados más la suma de las probabilidades de crítico de todos los amplificadores láser equipados.
-- **Multiplicador crítico**: si un disparo es crítico, la tirada de daño se multiplica por **1,5x**. El número de daño de una andanada crítica se muestra en azul hielo, más grande y con un «!».
+- **Multiplicador crítico**: si un disparo es crítico, la tirada de daño se multiplica por **1,5x**. El número de daño de una andanada crítica se muestra en azul hielo, más grande y con un «!» (consulta [Números de daño y de curación](#damage-and-heal-numbers)).
 - Los Quantum Laser 1 y 2 no tienen probabilidad de crítico propia: se la dan sus amplificadores.
 - **Daño crítico fijo**: el daño crítico plano de los amplificadores láser se suma después del multiplicador.
   - Fórmula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
 ### 3. Multiplicadores globales {#3-global-multipliers}
 
-Por último, se aplican los multiplicadores globales (como los potenciadores activos o los multiplicadores de la munición láser, como x2, x3 o x4) para obtener el daño final:
+Por último, se aplican los multiplicadores globales (como los potenciadores activos, por ejemplo el +10 % de un Laser Damage Booster, o los multiplicadores de la munición láser, como x2, x3 o x4) para obtener el daño final:
 - Fórmula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta puede multiplicar el resultado una vez más: por ejemplo Auger +21 % de daño láser, Gyre −11 % y, contra alienígenas, Culler +12 % (un factor aparte, no parte del porcentaje de potenciadores).
 - La munición **Siphon Battery** tiene el multiplicador x1, pero otro destino: su daño sale solo del escudo del objetivo (nunca del casco, sea cual sea la absorción) y pasa a tu propio escudo, hasta tu máximo. Consulta [Láseres y munición](/wiki/06-Items/Lasers.md).
 
 ### 3b. Cohetes {#3b-rockets}
 
-Un [cohete](/wiki/06-Items/Rockets.md) tiene su propio daño (un Lancet I hace de 1.600 a 2.000, un Lancet III de 4.800 a 6.000, una N.U.K.E. de 45.000 a 50.000), que se sortea una vez al dispararlo y es el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene golpe crítico. Todos los cohetes comparten una misma recarga de **5 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, menos cuanto más cerca del borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único que cambia ambas cosas: una formación de cohetes aumenta el daño de cada cohete (hasta +55 %), y algunas alargan o acortan el temporizador.
+Un [cohete](/wiki/06-Items/Rockets.md) tiene su propio daño (un Lancet I hace de 1.700 a 2.100, un Lancet III de 5.200 a 6.200, una N.U.K.E. de 45.000 a 50.000), que se sortea una vez al dispararlo y es el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene golpe crítico. Todos los cohetes comparten una misma recarga de **5 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, el número completo en el centro y la mitad en el borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único que cambia ambas cosas: una formación de cohetes aumenta el daño de cada cohete (hasta +55 %), y algunas alargan o acortan el temporizador. Los [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md) solo reciben daño de los cohetes: los láseres y los drones no les hacen nada, y un cohete solo golpea el asteroide contra el que se disparó.
 
 ### 4. Encarar al objetivo {#4-facing-the-target}
 
@@ -45,6 +45,16 @@ Una nave o un alienígena que tiene fijado un objetivo y le dispara se gira haci
 ### 5. Alcance {#5-range}
 
 Una nave dispara una andanada por segundo mientras su objetivo está dentro de su **alcance**, y deja de disparar mientras el objetivo está más lejos: el fuego deja de gastar munición hasta que el objetivo vuelve a estar lo bastante cerca, y el panel del objetivo indica «Fuera de alcance». El alcance es **la media de los alcances de todos tus láseres** (también de los láseres de tus drones), redondeada a la unidad más cercana, y es un único número para toda la nave: dentro de él disparan todos los láseres; fuera, ninguno. Por eso un láser de largo alcance junto a otros cortos no amplía tu alcance: un Starfire-3 (850) y dos Quantum Laser 2 (700) dan 750. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Una nave sin láser no puede disparar sus láseres, y el hangar no muestra alcance para ella (un guion); sus cohetes siguen disparando, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). Consulta [Láseres y munición](/wiki/06-Items/Lasers.md) para ver el alcance propio de cada láser.
+
+## Números de daño y de curación {#damage-and-heal-numbers}
+
+Un impacto se muestra como un número que flota sobre la nave a la que alcanza. **Tus propios números** se muestran siempre: el daño que causas, el daño que recibes y tus propias reparaciones. **La nave bajo tu círculo de fijación** muestra más: cada impacto y cada curación que recibe, **de cualquier origen**. Eso incluye los láseres, cohetes y drones de otros pilotos, los alienígenas, los Clan Wardens y las reparaciones y la regeneración de escudo de la propia nave. Cuando otro dispara a tu objetivo, ves su daño.
+
+- **Colores.** Dorado: daño a un alienígena o a un piloto enemigo. Rojo con un signo menos: daño a una nave que proteges (un piloto de tu propia corporación o de tu grupo) y el daño que recibes tú. Verde con un signo más: una curación, como una Emergency Repair, un Repair Drone o un escudo que se recupera. «Miss» en plata pálida: un impacto directo que la evasión de una formación desvió. Una andanada crítica es más grande y termina en «!» (azul hielo cuando alcanza a un alienígena o a un enemigo).
+- **Los tuyos se ven más.** Los números de otros sobre tu objetivo son algo más pequeños y tenues, y se colocan en una columna a la derecha de la nave, para que nunca tapen los tuyos.
+- **Un número para una multitud.** Los impactos que llegan juntos se suman en un solo número con una cuenta detrás (`×35`). Cuarenta pilotos disparando a una nave dan unos dos números por segundo, y nunca más de siete. Las curaciones salen una vez por segundo.
+- **Solo la nave bajo el círculo.** Cualquier otra nave muestra solo tus propios impactos y los que recibes. La radiación del agujero negro y el drenaje de escudo de una formación no tienen números: se ven en las barras.
+- **El ajuste.** Configuración › Interfaz › **Mostrar el daño de otros en mi objetivo**, activado por defecto. Desactivado, solo ves tus propios números. **Reducir movimiento** mantiene quietos todos los números: ninguno aparece de golpe ni sube.
 
 ---
 
@@ -106,10 +116,10 @@ Cuando un enemigo o un NPC impacta tu nave, el daño se procesa así:
 
 El daño entrante se reparte entre los escudos y los puntos de vida según la **absorción media** de tu nave: la media de la absorción de tus escudos, cada uno con la de sus células de escudo, más la mejora Shield Absorbance Boost de la Tienda de temporada (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)). **No tiene un tope del 100 %**: lo que los escudos se llevan de un impacto es tu absorción **menos la penetración de escudo del atacante**, entre el 0 % y el 100 %.
 - Los escudos reciben la **absorción** de cada impacto (p. ej., 80 % con el mejor escudo y las mejores células, 56 % con un Basic Shield Core con dos Absorption Shield Cell I), menos la penetración del impacto: el 35 % de un Lancet III deja un 45 % en los escudos de una nave con 80 %, y el resto (allí, el 55 %) va directo a los HP.
-- La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %).
+- La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %). Los Penetration Amps de los láseres del atacante (de +2 % a +8 % por ranura) y una formación de drones se suman a ella: un impacto láser se detiene en el 50 %, un cohete en el 40 %.
 - Un escudo demasiado bajo para su parte pasa la diferencia a los HP; si los escudos están totalmente agotados, el **100 %** de todo el daño restante va a los HP.
 - Los alienígenas no tienen estadística de absorción: sus escudos reciben el 80 % de cada impacto (menos la penetración del impacto) y su casco, el resto.
-- **Formaciones de drones.** Rampart aumenta tu absorción un 17 % (Shrike la reduce un 6 %), y Asterism da a cada impacto directo contra ti un 7 % de probabilidad de no causar ningún daño (aparece un «Fallo» flotante), y los impactos que llegan se reparten entre escudo y casco como siempre. Gemini (+9 puntos) y Stiletto (+16) suman penetración a tu propia munición y a los cohetes directos, hasta un 40 % en total ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)).
+- **Formaciones de drones.** Rampart aumenta tu absorción un 17 % (Shrike la reduce un 6 %), y Asterism da a cada impacto directo contra ti un 7 % de probabilidad de no causar ningún daño (aparece un «Fallo» flotante), y los impactos que llegan se reparten entre escudo y casco como siempre. Gemini (+9 puntos) y Stiletto (+16) suman penetración a tu propia munición y a los cohetes directos, hasta un 40 % en total ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)). En un láser la suma llega hasta el 50 %, y sus amps también cuentan.
 
 ### 2. Inmunidad en zona segura {#2-safe-zone-immunity}
 

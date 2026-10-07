@@ -20,21 +20,21 @@ The base damage of all equipped lasers (including lasers on drones) and their sl
 
 Every volley has a chance to be a Critical Hit.
 - **Critical Chance**: The average critical chance of equipped lasers plus the sum of all equipped laser amplifier critical chances.
-- **Critical Multiplier**: If a shot is critical, the damage roll is multiplied by **1.5x**. The damage number of a critical volley is shown in ice cyan, larger, with a "!".
+- **Critical Multiplier**: If a shot is critical, the damage roll is multiplied by **1.5x**. The damage number of a critical volley is shown in ice cyan, larger, with a "!" (see [Damage and Heal Numbers](#damage-and-heal-numbers)).
 - Quantum Laser 1 and 2 have no critical chance of their own: their amplifiers give it.
 - **Fixed Critical Damage**: Any flat critical damage from laser amplifiers is added after the multiplier.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
 ### 3. Global Multipliers
 
-Finally, global multipliers (such as active boosters or laser ammunition multipliers like x2, x3, x4) are applied to obtain the final damage output:
+Finally, global multipliers (such as active boosters, for example a Laser Damage Booster's +10%, or laser ammunition multipliers like x2, x3, x4) are applied to obtain the final damage output:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - A worn [drone formation](/wiki/03-Mechanics/Formations.md) can multiply the result once more: for example Auger +21% laser damage, Gyre −11%, and against aliens Culler +12% (a separate factor, not part of the booster percent).
 - **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/06-Items/Lasers.md).
 
 ### 3b. Rockets
 
-A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,600 to 2,000, a Lancet III 4,800 to 6,000, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, less toward the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it. A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that changes both: a rocket formation raises the damage of every rocket (up to +55%), and a few lengthen or shorten the timer.
+A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,700 to 2,100, a Lancet III 5,200 to 6,200, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **5 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, the full number at the centre and half of it at the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it. A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that changes both: a rocket formation raises the damage of every rocket (up to +55%), and a few lengthen or shorten the timer. [Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md) take damage from rockets only: lasers and drones do nothing to them, and a rocket hits only the asteroid it was fired at.
 
 ### 4. Facing the Target
 
@@ -43,6 +43,16 @@ A ship or alien locked on and firing turns to face its target, whichever way it 
 ### 5. Range
 
 A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). See [Lasers & Ammo](/wiki/06-Items/Lasers.md) for each laser's own range.
+
+## Damage and Heal Numbers
+
+A hit shows as a number floating over the ship it lands on. **Your own numbers** always show: the damage you deal, the damage you take and your own repairs. **The ship under your lock-on circle** shows more: every hit and every heal it receives, **from any source**. That means other pilots' lasers, rockets and drones, aliens, Clan Wardens, and the ship's own repairs and shield regeneration. When somebody else is shooting your target, you see their damage.
+
+- **Colours.** Gold: damage on an alien or an enemy pilot. Red with a minus: damage on a ship you protect (a pilot of your own company or your group) and the damage you take yourself. Green with a plus: a heal, such as an Emergency Repair, a Repair Drone or a shield coming back. Pale silver "Miss": a direct hit that a formation's evasion turned aside. A critical volley is larger and ends in "!" (ice cyan when it hits an alien or an enemy).
+- **Yours stay brighter.** The numbers of others on your target are a little smaller and fainter, and stand in a column to the right of the ship, so they never cover yours.
+- **One number for a crowd.** Hits that land together are added into one number with a count after it (`×35`). Forty pilots firing at one ship make about two numbers a second, and never more than seven. Heals show once a second.
+- **Only the ship under the circle.** Every other ship shows only your own hits and the hits on you. The radiation of the black hole and the shield drain of a formation have no numbers: they show on the bars.
+- **The setting.** Settings › Interface › **Show damage dealt by others on my target**, on by default. Switched off, you see your own numbers only. **Reduce Motion** keeps every number still: none pops in or rises.
 
 ---
 
@@ -104,10 +114,10 @@ When your ship is hit by an enemy or NPC, damage is processed as follows:
 
 Incoming damage is divided between shields and hitpoints by your ship's **Average Absorbance**: the average of your shields' absorbance, each with its Shield Cells', plus the Season Store's Shield Absorbance Boost (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)). It is **not capped at 100%**: what the shields take of a hit is your absorbance **less the attacker's shield penetration**, between 0% and 100%.
 - **Absorbance** (e.g. 80% for the best shield with the best cells, 56% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 45% on the shields of a 80% ship, and the rest (55% there) hits HP directly.
-- **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there).
+- **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there). The Penetration Amps of the shooter's lasers (+2% to +8% a slot) and a drone formation add to it: a laser hit stops at 50%, a rocket at 40%.
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.
-- **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 6%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+9 points) and Stiletto (+16) add penetration to your own ammo and direct rockets, up to 40% in all ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
+- **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 6%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+9 points) and Stiletto (+16) add penetration to your own ammo and direct rockets, up to 40% in all ([Drone Formations](/wiki/03-Mechanics/Formations.md)). For a laser the total goes up to 50%, and its amps count too.
 
 ### 2. Safe Zone Immunity
 

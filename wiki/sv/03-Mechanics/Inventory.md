@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventarie -->
 # Inventarie och utrustning {#inventory-equipment}
 
@@ -22,6 +22,10 @@ Till skillnad från traditionella rymdspel har SpaceCorps utrustningsplatser i d
 
 Inventariet listar dina föremål i samma ordning som butiken, oavsett i vilken ordning du köpte, tillverkade eller hittade dem. Slag som hör ihop står tillsammans: lasrar, laserförstärkare och laserammunition; sköldar och sköldceller; motorer och styrraketer; adaptiva kärnor; extrautrustning (Repair Drones); drönare och drönarformationer; sedan resurser. Inom ett slag kommer det billigaste först (krediter före Thulium), sedan det som saknar pris: utrustning som bara kan tillverkas och byte, med den svagaste sällsyntheten först (lasrar av en sällsynthet, med den svagaste skadan först). Laserammunition går från x1 till x4, sedan Siphon Battery. Raketer sorteras efter slag (enkelmål före områdesskada, målsökande före raka) och sedan efter nivå, så den episka raketen, som kostar Thulium, kommer sist i sitt slag. Exemplar av ett och samma föremål sorteras efter förtrollningsnivå. Ovanför rutnätet finns en filterknapp per slag i samma ordning, var och en med antalet föremål som sökningen hittar i det slaget. Varje filterknapp slår på eller av sig själv, så du kan dölja ammunition och Repair Drones medan du arbetar med lasrar, sköldar och motorer: klicka på en filterknapp för att visa eller dölja dess slag, Shift-klicka (eller dubbelklicka) för att bara låta det slaget vara på, och klicka på den igen för att få tillbaka resten. **Alla** visar alla slag och **Inga** döljer alla, så att du kan slå på bara dem du vill ha. En överstruken filterknapp är av, en filterknapp med en bockmarkering är på. Sökningen gäller de slag som är på, och ditt val sparas med din pilot. Om allt är dolt säger rutnätet det och erbjuder **Visa alla kategorier**.
 
+## Säljbara föremål {#marketable-items}
+
+Föremål du har förtjänat (byte, uppdragsbelöningar och det som Monteringen och Smedjan tillverkar) har en liten **Säljbart**-etikett på rutan, och föremålskortet säger ”Säljbart” eller, för en hög där bara en del kan säljas, ”Säljbart (3 av 5)”. Knappen **Endast säljbart** vid kategoriknapparna visar bara de föremålen. En **klubba** bredvid papperskorgen på ett märkt föremål öppnar säljbladet i [Auktionen](/wiki/03-Mechanics/Auction.md) (den visas inte i flykt: att sälja är en sida på stationen). Det du har köpt, vunnit eller fått i present har ingen etikett och kan inte säljas igen.
+
 ## Föremål i föremål (undersockel) {#item-to-item-equipping-sub-sockets-}
 
 Vissa primära föremål kan ”utrusta” sekundära stödföremål (kallas att sätta i undersockel) för att förstärka sina parametrar. För att sätta i undersockel drar du stödföremålet direkt på det primära föremålet i ditt inventarie i hangaren.
@@ -30,7 +34,7 @@ Vissa primära föremål kan ”utrusta” sekundära stödföremål (kallas att
 
 | Primärt föremål | Godkända undersockelföremål | Resulterande effekt |
 | :--- | :--- | :--- |
-| **Laser** | Laserförstärkare | Ökar grundskadan och de kritiska träffvärdena |
+| **Laser** | Laserförstärkare | Höjer grundskadan och värdena för kritiska träffar, eller drar poäng av målets absorption (Penetration Amp) |
 | **Sköld** | Sköldcell | Ökar sköldkapaciteten och laddningstakten |
 | **Motor** | Styrraket | Ökar motorns fart och multiplikatorer |
 | **Hybridgenerator** | Sköldcell ELLER styrraket | Ökar sköldkapaciteten, laddningstakten eller farten |

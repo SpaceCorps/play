@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -7,7 +7,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 ## Röviden {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Hol**: Minden vállalat `x-2` és `x-3` szektora
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 6
@@ -32,7 +32,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **A bosst lődd, ne a Scoutokat.** A Scoutok gyógyítják a bosst, de a gyógyítás kicsi a boss hajótestéhez képest, és új Scout olyan gyakran érkezik, ahogy a *Röviden* lista mondja: az a csoport, amelyik előbb a Scoutokat lövi, sosem kerül előnybe velük szemben, és csak egy nagyon nagy csoport tudja kitakarítani őket, mégis tovább tart neki a boss befejezése, mint annak, amelyik békén hagyta őket. A Scoutok időt vesznek el tőled, a harcot nem ők döntik el.
 - **Vezesd el a Scoutokat.** A Scout csak addig gyógyít, amíg a boss hatótávján belül van, így az a Scout, amelyik a hatótávon kívülre követ téged, semmit sem gyógyít, és az Ostirion gyorsabb a Scoutnál.
 - **Mozogj folyamatosan.** A boss rakétája egyenes és nem önirányító: a folyamatosan mozgó hajó kitér előle, az álló hajót eltalálja.
-- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel nagyjából öt perc alatt leterítheti Alphában; egy Ostirion egyedül nem, egy Paragon egyedül igen. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
+- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel nagyjából öt perc alatt leterítheti Alphában, de csak éppen hogy, és csak amíg a találatok szétoszlanak: az a trió, amelynél egy pilóta kapja az összes tüzet, veszít. Öten három-négy perc alatt leterítik; egy Ostirion egyedül nem, egy Paragon egyedül igen. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, ugyanabban a szektorban.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
@@ -44,7 +44,7 @@ A Pirate Boss a harc értékéhez mérten fizet: egy perc harc vele többet fize
 A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 
 ### Pirate Scout
 
-Alapja: Kitefin, hajótestének, pajzsának és sebzésének 50%-a; a sebessége és a hatótávja a mintahajóé.
+Alapja: Kitefin, hajótestének 50%-a és lézersebzésének 75%-a; a sebessége és a hatótávja a mintahajóé.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hajótest | 12 000 | 18 000 | 24 000 |
 | Pajzs | 9 818 | 14 727 | 19 636 |
-| Lézersebzés (másodpercenként egy sorozat) | 98 | 147 | 196 |
+| Lézersebzés (másodpercenként egy sorozat) | 147 | 221 | 294 |
 | Sebesség | 175 | 175 | 175 |
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | 700 | 700 | 700 |

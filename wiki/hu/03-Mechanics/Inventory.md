@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -22,6 +22,10 @@ A hagyományos űrjátékokkal ellentétben a SpaceCorpsban dinamikusan sávokra
 
 A leltár a tárgyaidat ugyanabban a sorrendben listázza, mint a Bolt, függetlenül attól, milyen sorrendben vetted, gyártottad vagy találtad őket. Az összetartozó fajták együtt vannak: lézerek, lézererősítők és lézerlőszerek; pajzsok és pajzscellák; hajtóművek és fúvókák; adaptív magok; extrák (Repair Drone-ok); drónok és drónformációk; végül a nyersanyagok. Egy fajtán belül a legolcsóbb az első (előbb a kreditben, aztán a Thuliumban fizetős), utána az, aminek nincs ára: a csak gyártható felszerelés és a zsákmány, a leggyengébb ritkasággal kezdve (az azonos ritkaságú lézerek közül a leggyengébb sebzésűvel). A lézerlőszer x1-től x4-ig követi egymást, utána a Siphon Battery. A rakéták fajta szerint következnek (előbb az egy célpontú, aztán a területi robbanású, előbb az irányított, aztán az egyenes), majd fokozat szerint, így az Epikus rakéta, amely Thuliumba kerül, a fajtájában az utolsó. Egy tárgy példányai a bűvölési fokozatuk szerint sorakoznak. A rács fölött minden fajtához egy szűrőgomb tartozik, ugyanebben a sorrendben, mindegyik azzal a számmal, ahány tárgyat a keresés talál benne. Mindegyik szűrőgomb külön kapcsolható be vagy ki, így elrejtheted a lőszert és a Repair Drone-okat, amíg lézereken, pajzsokon és hajtóműveken dolgozol: kattints egy szűrőgombra a fajtája megjelenítéséhez vagy elrejtéséhez, Shift-kattintással (vagy dupla kattintással) csak azt a fajtát hagyod bekapcsolva, és kattints rá újra, hogy a többi visszajöjjön. A **Mind** minden fajtát megmutat, az **Egyik sem** mindet elrejti, hogy csak azokat kapcsold be, amelyeket szeretnél. Az áthúzott szűrőgomb ki van kapcsolva, a pipával jelölt be. A keresés a bekapcsolt fajtákon dolgozik, és a választásodat a pilótáddal együtt megjegyzi a játék. Ha minden el van rejtve, a rács ezt kiírja, és felajánlja a **Minden kategória megjelenítése** gombot.
 
+## Eladható tárgyak {#marketable-items}
+
+A megszerzett tárgyak (zsákmány, küldetésjutalmak, és amit a Gyártás és a Kovácsműhely előállít) csempéjén kis **Eladható** címke látszik, a tárgykártya pedig azt írja: „Eladható”, vagy egy olyan köteg esetén, amelynek csak egy része adható el, „Eladható (3 / 5)”. A kategóriachipek melletti **Csak eladható** chip csak ezeket a tárgyakat mutatja. A címkézett tárgy szemetese mellett megjelenő **kalapács** megnyitja az [Aukció](/wiki/03-Mechanics/Auction.md) eladólapját (repülés közben nem látszik: az eladás az állomás egyik oldala). Amit vásároltál, nyertél vagy ajándékba kaptál, nem kap címkét, és nem adható el újra.
+
 ## Tárgy a tárgyba szerelés (alfoglalatok) {#item-to-item-equipping-sub-sockets-}
 
 Egyes elsődleges tárgyak „felszerelhetnek” másodlagos támogató tárgyakat (ezt nevezzük alfoglalatba szerelésnek), hogy erősítsék a paramétereiket. Az alfoglalatba szereléshez húzd a támogató tárgyat közvetlenül az elsődleges tárgyra a hangár leltárában.
@@ -30,7 +34,7 @@ Egyes elsődleges tárgyak „felszerelhetnek” másodlagos támogató tárgyak
 
 | Elsődleges tárgy | Elfogadott alfoglalat-tárgyak | Eredmény |
 | :--- | :--- | :--- |
-| **Lézer** | Lézererősítő (Amp) | Növeli az alapsebzést és a kritikus találat értékeit |
+| **Lézer** | Lézererősítő (Amp) | Növeli az alapsebzést és a kritikus találat értékeit, vagy pontokat von le a célpont elnyeléséből (Penetration Amp) |
 | **Pajzs** | Pajzscella | Növeli a pajzskapacitást és a töltődési sebességet |
 | **Hajtómű** | Fúvóka | Növeli a hajtómű sebességét és szorzóit |
 | **Hibridgenerátor** | Pajzscella VAGY fúvóka | Növeli a pajzskapacitást, a töltődési sebességet vagy a sebességet |

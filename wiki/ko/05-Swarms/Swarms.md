@@ -15,7 +15,7 @@
 ## 세 무리 {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 무리 | 위치 | 개수 | 리더 | 부하 | 복귀 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 ## 모든 무리의 규칙 {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - 무리는 시즌 4일차부터 초기화까지 나타납니다.
 - 무리의 함선이 공격받으면, 그 함선에서 1,500유닛 이내에 있는 같은 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다.
@@ -46,7 +46,7 @@
 월드는 다른 모든 외계인과 마찬가지로 무리를 강화합니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 무리 함선의 선체, 실드, 실드 재충전, 레이저 피해량, 로켓 피해량, 회복량은 Alpha의 수치에 아래의 강도를 곱한 값이고, 처치 보상에는 아래의 보상 배율이 곱해집니다. 속도, 사거리, 전리품은 모든 월드에서 같습니다. 각 문서에 세 월드에서의 함선별 수치가 나와 있습니다.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 월드 | 강도 | 보상 배율 |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 모든 처치는 그 함선 고유의 이름으로 처치 통계에 집계되며, 랭킹에 PvE 포인트를 더합니다.
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | 무리의 함선 | 무리 | 처치당 PvE 포인트 |
 | :--- | :--- | ---: |

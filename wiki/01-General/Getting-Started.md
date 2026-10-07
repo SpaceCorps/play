@@ -7,6 +7,7 @@ Welcome to the ultimate space warfare experience. As a pilot in SpaceCorps, you 
 ![The Game Log and the minimap](../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../img/wiki-img/shots/rankings.jpg)
 
@@ -18,6 +19,15 @@ To survive and thrive, you must manage two currencies and keep an eye on your Ho
 - **Honor**: A score, not money: a measure of your loyalty and standing. Honor does not set your [rank](/wiki/03-Mechanics/Ranks.md), which is your place among the pilots of your company by PvE points, and attacking friendly pilots from your own faction will heavily penalize your Honor rating: destroying a pilot of your own company, a player's ship or one of its [Company Pilots](/wiki/03-Mechanics/Company-Pilots.md), costs 100 Honor. So does hitting one in the 15 seconds before something else destroys it: softening up a company mate for an alien to finish costs as much as the kill. Killing a company mate is no PvP kill and earns no PvP points. Changing company takes half of your Honor, rounded down; an Honor of 0 or less stays as it is ([Changing Your Company](#changing-your-company)).
 
 In the station your Credits, Thulium and Honor sit in the top right corner of every page, beside your sector and the **Launch** button. When the window is too narrow for a long amount it is shortened (987.7M); point at it to read the whole number.
+
+## Pilot Profiles
+
+Click a pilot's name in the Hall of Fame (**Community › Rankings**), on the **Stats** page or in a clan's list of members and the pilot's **profile** opens: company, world and clan, level, experience, honor and ranking points, the aliens and pilots the pilot has destroyed, and the ship they fly with its numbers. Two tiles say how long the pilot has been around:
+
+- **First login.** The day the pilot first signed in, as a date in your own time zone. A pilot who played before 0.4.12 shows the day they first signed in since that update, and a dash stands for a pilot who has not signed in since.
+- **Time played.** How long the pilot's game has been connected to the server, in hours and minutes ("128 h 15 min", "45 min"), in flight or at the station. Time spent standing still counts too. Counting began with 0.4.12, so for a pilot who played before it, it is the time since that update.
+
+Both are public, like level and rank: any signed-in pilot can read them on a profile. The season's wipe does not reset them.
 
 ## Changing Your Company
 
@@ -62,14 +72,14 @@ SpaceCorps supports customizable keyboard layout controls (accessible via the in
 | :--- | :--- | :--- |
 | **Move Ship** | `Left Click` on Spacemap | Directs your ship to fly to the clicked destination coordinates. |
 | **Turn and Zoom the Camera** | `Right Drag`, `Mouse Wheel` | Right drag turns the view around your ship; the wheel (or a middle drag) zooms in and out, from 30 units away out to 1,500, which shows about 4,400 by 2,650 units of space (2.25 times the area of a 1,000-unit view). Your turn and your zoom ease back to the resting view two seconds after you let go, unless you switch on **Camera stays where I put it** in Settings › General: then the view keeps the angle and distance you gave it (the **Reset view** button next to that switch puts it back at the resting view once, and so does switching it off). **Camera Zoom** in Settings › General sets the resting distance, from 50 % to 338 % (150 % is the default); with the switch on, moving it takes the camera to the new distance. |
-| **Select Target** | `Left Click` on Entity | Selects an alien, enemy pilot, or portal as your active target. The Target window (see below) shows its name, distance, hull and shield. |
+| **Select Target** | `Left Click` on Entity | Selects an alien, enemy pilot, or portal as your active target. The Target window (see below) shows its name, distance, hull and shield. A click on an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) selects it without changing your target: only rockets hurt it. |
 | **Attack Selected Target** | `Key A` (or `Ctrl + Click`) | Starts firing your lasers and rockets at the selected target. |
 | **Fire Rocket** | `Key R` | Fires the rocket you launched last (or the first on the hotbar): a guided rocket at your selected target, a straight one toward your cursor. To aim a straight rocket with the mouse, click its hotbar slot to arm it, then click in space. All rockets share a 5 second timer (a drone formation can change it). |
 | **Jump Portal** | `Key J` | Starts a jump when you are within 500 units of a portal (inside its safe zone). The jump takes 3 seconds (a bar over the hotbar shows it) and you must stay in range until it is done. In the Danger Sectors you cannot start one while you are under attack. |
 | **Swap Configuration** | `Key C` | Swaps between Config 1 and Config 2 (swaps active lasers/shields/speed setup). |
 | **Primary Hotbar** | `Digits 1 - 9` | Activates items/actions in your primary HUD hotbar slot (e.g., ammo, repair bots). |
 | **Secondary Hotbar** | `Shift + Digits 1 - 9` | Activates items/actions in your secondary hotbar slots. The row shows above the primary one once it holds something; open the Ammo, Rockets or Extras picker (or drag a slot) to place an item there. |
-| **Drone Formation** | the key of its hotbar slot | Wears the formation on that slot. Drag it there from the hotbar's Formations list, which also has Standard, no formation. You may change once every 2 seconds, in a fight too. See [Drone Formations](/wiki/03-Mechanics/Formations.md). |
+| **Drone Formation** | the key of its hotbar slot | Wears the formation on that slot. Drag it there from the hotbar's Formations list, which also has Standard, no formation. You may change once every 2 seconds, in a fight and in a safe zone alike; the slots show the seconds left. See [Drone Formations](/wiki/03-Mechanics/Formations.md). |
 | **Fullscreen** | `F11` or `Alt + Enter` (Windows) | Switches borderless fullscreen on or off; the button in the top right of the flight screen does the same on Windows and macOS. These two keys are fixed and don't appear among the bindings you can change. `Alt + Enter` waits while you type in the chat. |
 | **Choose where to respawn** | `Keys 1 - 3` | On the death screen: `1` at base, `2` at the nearest portal, `3` on the spot. See *Dying and Coming Back* above. |
 | **Target Window** | `Key V` | Shows or hides the Target window. The first button of the toolbar at the top left does the same. |
@@ -77,7 +87,7 @@ SpaceCorps supports customizable keyboard layout controls (accessible via the in
 
 ## The Target Window
 
-Click an alien or a pilot and the **Target window** shows what you have selected: its name, its distance, the hull and shield bars, and whether you are firing at it. Its **crosshair** button starts and stops the attack (the same as `A`), and the **X** button drops the target (the same as `Esc`). With nothing selected it says so in one line.
+Click an alien or a pilot and the **Target window** shows what you have selected: its name, its distance, the hull and shield bars, and whether you are firing at it. Its **crosshair** button starts and stops the attack (the same as `A`), and the **X** button drops the target (the same as `Esc`). With nothing selected it says so in one line. Click an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) and the window shows its hull, what it breaks into and how many of your rocket it takes.
 
 It is a window like the others. Drag it by its title bar to put it anywhere, close it with the red light in its corner or with the **first button of the toolbar at the top left** (or `V`), and open it again the same way. Where you leave it and whether it is open are remembered for your account. It starts at the top of the screen, between the two toolbars. Closing it only hides the readout: your target stays selected and your attack goes on.
 

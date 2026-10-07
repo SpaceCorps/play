@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Dormant の群れ -->
 # Dormant の群れ {#dormant-swarm}
 
@@ -7,7 +7,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 ## ひと目で {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **場所**：危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る
 - **数**：各ワールドに1つ
@@ -25,14 +25,14 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 ## メンバー {#the-members}
 
 - **Dormant Force**：全力の Wraith で、レーザーは典型的な装備の3倍の威力があります。群れを率い、攻撃されるまで非攻撃的で、最初に攻撃したパイロットに**直進ロケット**を撃ちます。
-- **Dormant Pulse**：全力の Paragon で、同じ種類の重いレーザーと専用のロケットを持ちます。Pulse は Force の近くを飛び、Force が撃破されるとそのうちの1隻がリーダーを引き継ぎます。
+- **Dormant Pulse**：全力の Paragon で、同じ種類の重いレーザーを持ち、その1発ごとの威力は Force のレーザーの2倍です。専用のロケットも持ちます。Pulse は Force よりレーザーの数が少ないので、斉射全体は Force より大きいものの、2倍にはなりません（数値は下の表にあります）。Pulse は Force の近くを飛び、Force が撃破されるとそのうちの1隻がリーダーを引き継ぎます。
 
 どれも非攻撃的で、自分からパイロットを襲うことはありません。1隻を攻撃すると、その近くにいるほかの艦が、最初に攻撃したパイロットに対して戦いに加わります。
 
 ## 戦いの流れ {#how-the-fight-goes}
 
 - **見つけましょう。** 現れるとワールド全体に知らされ、危険セクターのマップと銀河マップに印が付きます。*ひと目で*の一覧の時間だけ1つのマップにとどまり、その後ほかの危険セクターのゲートへ飛んでジャンプします。危険セクターの外へ出るゲートは使わず、ブラックホールのリングにも入りません。最も遅い艦の速度で飛び、パイロットと同じく、攻撃を受けている間はジャンプを始めることも終えることもありません。
-- **1人でも、少人数でも倒せません。** レベル 8 のパイロット8人が Paragon に乗り、x2 または x4 弾薬を使えば、Alpha でおよそ1分で撃破でき、失う艦は多くても1隻です。Paragon 1隻では撃破されてしまい、x2 弾薬では3隻でも同じです。Beta と Gamma の群れはより強いので（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）、それらのワールドではより大きなグループが必要です。
+- **1人でも、少人数でも倒せません。** レベル 8 のパイロット8人が Paragon に乗り、x2 または x4 弾薬を使えば、Alpha でおよそ1分で撃破でき、失う艦は多くても1隻です。Paragon 1隻では撃破されてしまい、x2 弾薬では3隻や4隻でも同じです。Beta と Gamma の群れはより強いので（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）、それらのワールドではより大きなグループが必要です。
 - **勝負を決めるのはレーザーです。** 合わせれば、ロケットがなくても1分足らずで Paragon を撃破でき、最良のシールドを持つ Paragon でも2分足らずです。持っている最良のシールドで、ダメージを素早く与えましょう。
 - **1隻ずつ。** 各艦に独自の船体と独自の報酬があるので、Force と Pulse のどちらが先に撃破されることもあります。群れが入れ替わるのは、全体が撃破されたときだけで、*ひと目で*の一覧の時間がたってからです。
 
@@ -45,11 +45,11 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 群れの艦の3つのワールドでの数値です（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）。
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-土台は Wraith で、船体、シールド、ダメージはその100%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
+土台は Wraith で、船体はその100%、レーザーのダメージはその300%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 
 ### Dormant Pulse
 
-土台は Paragon で、船体、シールド、ダメージはその100%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
+土台は Paragon で、船体はその100%、レーザーのダメージはその600%です。速度と射程は土台の艦のものです。5秒ごとに直進ロケットを1発撃ちます：[Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets)。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 船体 | 128,000 | 192,000 | 256,000 |
 | シールド | 64,570 | 96,855 | 129,140 |
-| レーザーのダメージ （毎秒1斉射） | 1,920 | 2,880 | 3,840 |
+| レーザーのダメージ （毎秒1斉射） | 3,840 | 5,760 | 7,680 |
 | 速度 | 210 | 210 | 210 |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |

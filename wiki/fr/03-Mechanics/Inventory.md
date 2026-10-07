@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventaire -->
 # Inventaire et équipement {#inventory-equipment}
 
@@ -22,6 +22,10 @@ Contrairement aux jeux spatiaux traditionnels, SpaceCorps propose des emplacemen
 
 L’inventaire liste vos objets dans le même ordre que la boutique, quel que soit l’ordre dans lequel vous les avez achetés, fabriqués ou trouvés. Les catégories qui vont ensemble sont regroupées : lasers, amplis laser et munitions laser ; boucliers et cellules de bouclier ; moteurs et propulseurs ; cœurs adaptatifs ; extras (Repair Drones) ; drones et formations de drones ; puis ressources. Au sein d’une catégorie, le moins cher vient en premier (les crédits avant le Thulium), puis ce qui n’a pas de prix : l’équipement à fabriquer uniquement et les objets de butin, de la rareté la plus faible à la plus élevée (pour les lasers d’une même rareté, les dégâts les plus faibles en premier). Les munitions laser vont de x1 à x4, puis vient la Siphon Battery. Les roquettes se classent par type (cible unique avant explosion de zone, guidée avant droite) puis par rang : la roquette Épique, qui coûte du Thulium, arrive donc en dernier dans son type. Les exemplaires d’un même objet se classent selon leur rang d’enchantement. Au-dessus de la grille, une pastille par catégorie suit le même ordre, avec le nombre d’objets que la recherche y trouve. Chaque pastille s’active ou se désactive seule : vous pouvez donc masquer les munitions et les Repair Drones pendant que vous travaillez sur les lasers, les boucliers et les moteurs. Cliquez sur une pastille pour afficher ou masquer sa catégorie, Shift+clic (ou double-clic) pour ne laisser que cette catégorie activée, et cliquez de nouveau dessus pour ramener les autres. **Toutes** affiche toutes les catégories et **Aucune** les masque toutes, pour n’activer que celles que vous voulez. Une pastille barrée est désactivée, une pastille avec une coche est activée. La recherche porte sur les catégories activées, et votre choix est mémorisé avec votre pilote. Si tout est masqué, la grille l’indique et propose **Afficher toutes les catégories**.
 
+## Objets vendables {#marketable-items}
+
+Les objets que vous avez gagnés (butin, récompenses de missions et ce que fabriquent l’Assemblage et la Forge) portent une petite étiquette **Vendable** sur leur case, et la fiche de l’objet indique « Vendable » ou, pour une pile dont seule une partie peut être vendue, « Vendable (3 sur 5) ». La pastille **Vendable uniquement**, à côté des pastilles de catégorie, ne montre que ces objets. Un **marteau** à côté de la corbeille d’un objet étiqueté ouvre la fiche de vente des [Enchères](/wiki/03-Mechanics/Auction.md) (il n’est pas affiché en vol : vendre se fait sur une page de la station). Ce que vous avez acheté, gagné ou reçu en cadeau n’a pas d’étiquette et ne peut pas être revendu.
+
 ## Équiper un objet dans un autre (sous-emplacements) {#item-to-item-equipping-sub-sockets-}
 
 Certains objets principaux peuvent « équiper » des objets de soutien secondaires (c’est ce qu’on appelle le sous-emplacement) pour amplifier leurs paramètres. Pour installer un objet dans un sous-emplacement, faites glisser l’objet de soutien directement sur l’objet principal dans l’inventaire de votre hangar.
@@ -30,7 +34,7 @@ Certains objets principaux peuvent « équiper » des objets de soutien second
 
 | Objet principal | Objets acceptés en sous-emplacement | Effet obtenu |
 | :--- | :--- | :--- |
-| **Laser** | Ampli laser (amplificateur) | Augmente les dégâts de base et les stats de coup critique |
+| **Laser** | Ampli laser (amplificateur) | Augmente les dégâts de base et les stats de coup critique, ou retranche des points à l’absorption de la cible (Penetration Amp) |
 | **Bouclier** | Cellule de bouclier | Augmente la capacité du bouclier et la vitesse de recharge |
 | **Moteur** | Propulseur | Augmente la vitesse du moteur et ses multiplicateurs |
 | **Générateur hybride** | Cellule de bouclier OU propulseur | Augmente la capacité du bouclier, la vitesse de recharge ou la vitesse |

@@ -5,7 +5,7 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 ## At a glance
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Where**: The sectors `x-2` and `x-3` of every company
 - **How many**: One in each of those sectors, 6 in each world
@@ -30,7 +30,7 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Shoot the boss, not the scouts.** The scouts heal the boss, but the heal is small next to the boss's hull, and a new scout comes as often as the *At a glance* list says: a group that kills the scouts first never gets ahead of them, and only a very large group can clear them and still takes longer to finish the boss than one that left them alone. The scouts cost you time, they do not decide the fight.
 - **Lead the scouts away.** A scout heals only while it is within reach of the boss, so a scout that follows you out of reach heals nothing, and an Ostirion is faster than a scout.
 - **Keep moving.** The boss's rocket is straight and unguided: a ship that keeps moving sidesteps it, a ship that stands still is hit.
-- **Bring a group.** Three pilots in Ostirions with x2 ammo can take it in about five minutes in Alpha; one Ostirion alone cannot, and one Paragon alone can. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
+- **Bring a group.** Three pilots in Ostirions with x2 ammo can take it in about five minutes in Alpha, but only just, and only while the hits are shared: a trio that lets one pilot take all the fire loses. Five take it in three to four minutes; one Ostirion alone cannot, and one Paragon alone can. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
 - **The boss comes back** after the time in the *At a glance* list, in the same sector.
 
 ## Rewards and drops
@@ -42,7 +42,7 @@ The Pirate Boss pays for the fight it is: a minute of fighting it pays more than
 The numbers of the swarm's ships in the three worlds ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -73,13 +73,13 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 
 ### Pirate Scout
 
-Built from the Kitefin at 50% of its hull, shield and damage; its speed and range are the ship's own.
+Built from the Kitefin at 50% of its hull and 75% of its laser damage; its speed and range are the ship's own.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hull | 12,000 | 18,000 | 24,000 |
 | Shield | 9,818 | 14,727 | 19,636 |
-| Laser damage (a volley a second) | 98 | 147 | 196 |
+| Laser damage (a volley a second) | 147 | 221 | 294 |
 | Speed | 175 | 175 | 175 |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | 700 | 700 | 700 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 1. Ein **Kollektor** fördert Erz, eine bestimmte Menge pro Stunde, in seinen eigenen Speicher (für 72 Stunden).
 2. **Abholen** bringt das Erz aus dem Speicher ins **Ressourcenlager**, wo jedes Erz für sich eingelagert wird.
 3. Die **Schmiede** nimmt das Erz, das sie braucht, aus dem Lager, wenn eine Charge startet, und macht daraus Platten, 10 Sekunden pro Platte, eine Charge nach der anderen.
-4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/06-Items/Lasers.md) macht daraus einen Quantum Laser 3, einen Starfire-3 oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate für die [Schmiede der Montage](/wiki/06-Items/Forge.md).
+4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/06-Items/Lasers.md) macht daraus einen Quantum Laser 3, einen Starfire-3 oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate, die die [Schmiede der Montage](/wiki/06-Items/Forge.md) und die letzte Stufe jeder Aufwertungskette verlangen.
 
 ### Velkonite-Kollektor und Orvium-Kollektor {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 - **Platten abholen**: bringt die fertigen Platten in dein Inventar, solange dein **Schiff gelandet ist**, und der Rest der Charge läuft weiter. Eine neue Charge kann starten, sobald die Schmiede leer ist.
 - Eine laufende Charge wird fertig, auch wenn du die Schmiede ausschaltest oder ausbaust. Eine **neue** Charge braucht eine eingeschaltete Schmiede, die nicht gerade ausgebaut wird, und eine ausgeglichene Energiebilanz des Skylab.
 - **Energie**: 30 auf Level 1, mit jedem Level 15 % mehr.
+- **Nicht handelbar**: Die Platten, die die Schmiede herstellt, können nicht in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkauft werden, sonst wären sie die größte Ware ihres Markts. Als Material für die Montage und die Schmiede taugen sie weiterhin.
 
 ### Der Bau {#building-them}
 
@@ -148,7 +149,7 @@ Die beiden Kollektoren kosten je **10 Ship Fragments, 20.000 Credits und 500 Thu
 
 ## Das Forschungszentrum {#the-research-centre}
 
-Das neunte Modul macht aus Ressourcen Wissenschaft und erforscht die Technologien, die die Montage braucht, bevor sie etwas Neues herstellt. Es wird ab Kern-Level 10 gebaut, hat Level 1 bis 10, braucht Energie und lässt sich nicht abschalten. Seine Zahlen, was es als Treibstoff verbrennt, der Boost und der ganze Technologiebaum stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md).
+Das neunte Modul macht aus Ressourcen Wissenschaft und erforscht die Technologien, die die Montage braucht, bevor sie etwas Neues herstellt. Es wird ab Kern-Level 10 gebaut, hat Level 1 bis 10, braucht Energie und lässt sich nicht abschalten. Seine Zahlen, was es als Treibstoff verbrennt, der Boost und der ganze Technologiebaum stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md). Die höchsten Technologien brauchen außerdem Dark Matter, das du dem Zentrum hinzufügst: [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) sagt, wie du es bekommst.
 
 ## Mechanik {#mechanics}
 
@@ -265,7 +266,7 @@ Jede Farm und jeder Kollektor hat einen Speicher für etwa 72 Stunden der eigene
 
 ### Der Wipe {#the-wipe}
 
-Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das eingesetzte Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md).
+Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das darin liegende Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Dein Skylab planen {#planning-your-skylab}
 

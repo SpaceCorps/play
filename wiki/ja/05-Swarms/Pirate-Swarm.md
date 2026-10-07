@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate の群れ -->
 # Pirate の群れ {#pirate-swarm}
 
@@ -7,7 +7,7 @@ Pirate の群れは、**Pirate Boss** とその **Pirate Scout** からなりま
 ## ひと目で {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **場所**：各企業の `x-2` と `x-3` セクター
 - **数**：各セクターに 1つ （各ワールドに 計6つ）
@@ -32,7 +32,7 @@ Pirate の群れは、**Pirate Boss** とその **Pirate Scout** からなりま
 - **Scout ではなくボスを撃ちましょう。** Scout はボスを回復しますが、ボスの船体に比べれば回復量はわずかで、新しい Scout は*ひと目で*の一覧の頻度で現れます。先に Scout を倒すグループは、追いつくことがありません。とても大きなグループなら Scout を一掃できますが、それでも放っておいたグループよりボスを倒すのに時間がかかります。Scout は時間を奪うだけで、戦いの勝敗は決めません。
 - **Scout を引き離しましょう。** Scout はボスの射程内にいる間だけ回復するので、あなたを追ってその範囲の外に出た Scout は何も回復せず、Ostirion は Scout より速いです。
 - **動き続けましょう。** ボスのロケットは直進で誘導されません。動き続ける艦はかわせますが、止まっている艦には当たります。
-- **グループを組みましょう。** Ostirion に乗った3人のパイロットが x2 弾薬を使えば、Alpha でおよそ5分で倒せます。Ostirion 1隻では倒せませんが、Paragon 1隻なら倒せます。ボスは最初に攻撃したパイロットに応じるので、いちばん頑丈な艦に最初に攻撃させ、これだけ長い戦いではアビリティ（Emergency Repair、Shield Surge：[アビリティ](/wiki/03-Mechanics/Abilities.md)）を使いましょう。まだレベル 2 や 3 のパイロットは、自分が飛ぶセクターであっても弱すぎます。強くなるまで近づかないでください。
+- **グループを組みましょう。** Ostirion に乗った3人のパイロットが x2 弾薬を使えば、Alpha でおよそ5分で倒せますが、ぎりぎりであり、被弾が分散している間だけです。1人のパイロットが攻撃を全部受けてしまう3人組は負けます。5人なら3〜4分で倒せます。Ostirion 1隻では倒せませんが、Paragon 1隻なら倒せます。ボスは最初に攻撃したパイロットに応じるので、いちばん頑丈な艦に最初に攻撃させ、これだけ長い戦いではアビリティ（Emergency Repair、Shield Surge：[アビリティ](/wiki/03-Mechanics/Abilities.md)）を使いましょう。まだレベル 2 や 3 のパイロットは、自分が飛ぶセクターであっても弱すぎます。強くなるまで近づかないでください。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに現れます。
 
 ## 報酬とドロップ {#rewards-and-drops}
@@ -44,7 +44,7 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 群れの艦の3つのワールドでの数値です（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）。
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 
 ### Pirate Scout
 
-土台は Kitefin で、船体、シールド、ダメージはその50%です。速度と射程は土台の艦のものです。
+土台は Kitefin で、船体はその50%、レーザーのダメージはその75%です。速度と射程は土台の艦のものです。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 船体 | 12,000 | 18,000 | 24,000 |
 | シールド | 9,818 | 14,727 | 19,636 |
-| レーザーのダメージ （毎秒1斉射） | 98 | 147 | 196 |
+| レーザーのダメージ （毎秒1斉射） | 147 | 221 | 294 |
 | 速度 | 175 | 175 | 175 |
 | レーザーの射程 | 700 | 700 | 700 |
 | 索敵範囲 | 700 | 700 | 700 |

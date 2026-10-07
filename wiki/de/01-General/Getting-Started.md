@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Erste Schritte -->
 # Erste Schritte in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@ Willkommen zum ultimativen Erlebnis im Weltraumkrieg. Als Pilot in SpaceCorps k�
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ Um zu überleben und voranzukommen, musst du zwei Währungen verwalten und deine
 - **Ehre**: Ein Punktestand, kein Geld: das Maß für deine Loyalität und dein Ansehen. Die Ehre bestimmt nicht deinen [Rang](/wiki/03-Mechanics/Ranks.md), der dein Platz unter den Piloten deines Konzerns nach PvE-Punkten ist, und Angriffe auf befreundete Piloten deiner eigenen Fraktion kosten dich viel Ehre: Einen Piloten deines eigenen Konzerns zu zerstören, also das Schiff eines Spielers oder einen seiner [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md), kostet 100 Ehre. Dasselbe gilt, wenn du einen in den 15 Sekunden triffst, bevor etwas anderes ihn zerstört: Einen Konzernkameraden für ein Alien sturmreif zu schießen kostet so viel wie der Abschuss selbst. Der Abschuss eines Konzernkameraden ist kein PvP-Abschuss und bringt keine PvP-Punkte. Ein Konzernwechsel nimmt dir die Hälfte deiner Ehre, abgerundet; eine Ehre von 0 oder weniger bleibt, wie sie ist ([Den Konzern wechseln](#changing-your-company)).
 
 Auf der Station stehen deine Credits, dein Thulium und deine Ehre auf jeder Seite oben rechts, neben deinem Sektor und der Schaltfläche **Starten**. Ist das Fenster für einen langen Betrag zu schmal, wird er gekürzt (987,7 Mio.); zeige darauf, um die ganze Zahl zu lesen.
+
+## Pilotenprofile {#pilot-profiles}
+
+Klicke auf den Namen eines Piloten in der Ruhmeshalle (**Community › Ranglisten**), auf der Seite **Statistik** oder in der Mitgliederliste eines Clans, und das **Profil** des Piloten öffnet sich: Konzern, Welt und Clan, Level, Erfahrung, Ehre und Rangpunkte, die zerstörten Aliens und Piloten und das Schiff, das er fliegt, samt seinen Werten. Zwei Felder zeigen, wie lange der Pilot schon dabei ist:
+
+- **Erster Login.** Der Tag, an dem sich der Pilot zum ersten Mal angemeldet hat, als Datum in deiner eigenen Zeitzone. Bei einem Piloten, der vor 0.4.12 gespielt hat, steht der Tag, an dem er sich seit diesem Update zum ersten Mal angemeldet hat; ein Strich steht für einen Piloten, der sich seitdem nicht angemeldet hat.
+- **Spielzeit.** Wie lange das Spiel des Piloten mit dem Server verbunden war, in Stunden und Minuten („128 Std. 15 Min.“, „45 Min.“), im Flug oder auf der Station. Auch Zeit, in der du nur dastehst, zählt mit. Gezählt wird seit 0.4.12; bei einem Piloten, der davor gespielt hat, ist es also die Zeit seit diesem Update.
+
+Beides ist öffentlich, wie Level und Rang: Jeder angemeldete Pilot kann es in einem Profil lesen. Der Wipe der Saison setzt beides nicht zurück.
 
 ## Den Konzern wechseln {#changing-your-company}
 
@@ -64,14 +74,14 @@ SpaceCorps unterstützt eine anpassbare Tastenbelegung (erreichbar über die Ein
 | :--- | :--- | :--- |
 | **Schiff bewegen** | `Left Click` auf die Weltraumkarte | Lässt dein Schiff zu den angeklickten Zielkoordinaten fliegen. |
 | **Kamera drehen und zoomen** | `Right Drag`, `Mouse Wheel` | Rechts ziehen dreht die Ansicht um dein Schiff; das Mausrad (oder Ziehen mit der mittleren Maustaste) zoomt hinein und heraus, von 30 Einheiten Abstand bis 1.500, was etwa 4.400 mal 2.650 Einheiten des Weltraums zeigt (die 2,25-fache Fläche einer Ansicht aus 1.000 Einheiten). Drehung und Zoom gleiten zwei Sekunden nach dem Loslassen in die Ruheansicht zurück, außer du schaltest **Kamera bleibt, wo ich sie lasse** in Einstellungen › Allgemein ein: Dann behält die Ansicht den Winkel und den Abstand, den du ihr gegeben hast (die Schaltfläche **Ansicht zurücksetzen** neben diesem Schalter setzt sie einmal auf die Ruheansicht zurück, ebenso das Ausschalten des Schalters). **Kamerazoom** in Einstellungen › Allgemein legt den Abstand der Ruheansicht fest, von 50 % bis 338 % (Standard: 150 %); bei eingeschaltetem Schalter bringt eine Änderung die Kamera auf den neuen Abstand. |
-| **Ziel auswählen** | `Left Click` auf ein Objekt | Wählt ein Alien, einen feindlichen Piloten oder ein Portal als dein aktives Ziel. Das Zielfenster (siehe unten) zeigt Name, Entfernung, Hülle und Schild. |
+| **Ziel auswählen** | `Left Click` auf ein Objekt | Wählt ein Alien, einen feindlichen Piloten oder ein Portal als dein aktives Ziel. Das Zielfenster (siehe unten) zeigt Name, Entfernung, Hülle und Schild. Ein Klick auf einen [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md) wählt ihn, ohne dein Ziel zu ändern: Ihm schaden nur Raketen. |
 | **Gewähltes Ziel angreifen** | `Key A` (oder `Ctrl + Click`) | Eröffnet mit deinen Lasern und Raketen das Feuer auf das gewählte Ziel. |
 | **Rakete feuern** | `Key R` | Feuert die Rakete, die du zuletzt abgefeuert hast (oder die erste in der Aktionsleiste): eine gelenkte auf dein gewähltes Ziel, eine gerade in Richtung deines Mauszeigers. Willst du eine gerade Rakete mit der Maus ausrichten, klicke ihren Slot in der Aktionsleiste an, um sie scharf zu machen, und klicke dann in den Weltraum. Alle Raketen teilen sich einen Timer von 5 Sekunden (eine Drohnenformation kann ihn ändern). |
 | **Portalsprung** | `Key J` | Startet einen Sprung, wenn du höchstens 500 Einheiten von einem Portal entfernt bist (in seiner Schutzzone). Der Sprung dauert 3 Sekunden (ein Balken über der Aktionsleiste zeigt ihn an), und du musst in Reichweite bleiben, bis er abgeschlossen ist. In den Gefahrensektoren kannst du keinen starten, solange du angegriffen wirst. |
 | **Konfiguration wechseln** | `Key C` | Wechselt zwischen Konfig 1 und Konfig 2 (tauscht die aktive Zusammenstellung aus Lasern, Schilden und Tempo). |
 | **Primäre Aktionsleiste** | `Digits 1 - 9` | Aktiviert Gegenstände/Aktionen in den Slots deiner primären Aktionsleiste im HUD (z. B. Munition, Reparaturbots). |
 | **Sekundäre Aktionsleiste** | `Shift + Digits 1 - 9` | Aktiviert Gegenstände/Aktionen in den Slots deiner sekundären Aktionsleiste. Die Leiste erscheint über der primären, sobald etwas darin liegt; öffne die Auswahl für Munition, Raketen oder Extras (oder ziehe einen Slot), um dort einen Gegenstand abzulegen. |
-| **Drohnenformation** | die Taste ihres Slots | Trägt die Formation auf diesem Slot. Ziehe sie aus der Formationenliste der Aktionsleiste dorthin; dort steht auch Standard, keine Formation. Du darfst einmal alle 2 Sekunden wechseln, auch im Kampf. Siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md). |
+| **Drohnenformation** | die Taste ihres Slots | Trägt die Formation auf diesem Slot. Ziehe sie aus der Formationenliste der Aktionsleiste dorthin; dort steht auch Standard, keine Formation. Du darfst einmal alle 2 Sekunden wechseln, im Kampf wie in einer Schutzzone; die Slots zeigen die verbleibenden Sekunden. Siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md). |
 | **Vollbild** | `F11` oder `Alt + Enter` (Windows) | Schaltet randloses Vollbild ein oder aus; die Schaltfläche oben rechts im Flugbildschirm macht unter Windows und macOS dasselbe. Diese beiden Tasten sind fest vergeben und erscheinen nicht unter den Belegungen, die du ändern kannst. `Alt + Enter` wartet, während du im Chat tippst. |
 | **Wähle, wo du zurückkehrst** | `Keys 1 - 3` | Auf dem Zerstörungsbildschirm: `1` an der Basis, `2` am nächsten Portal, `3` an Ort und Stelle. Siehe *Zerstörung und Rückkehr* oben. |
 | **Zielfenster** | `Key V` | Blendet das Zielfenster ein oder aus. Die erste Schaltfläche der Symbolleiste oben links macht dasselbe. |
@@ -79,7 +89,7 @@ SpaceCorps unterstützt eine anpassbare Tastenbelegung (erreichbar über die Ein
 
 ## Das Zielfenster {#the-target-window}
 
-Klicke ein Alien oder einen Piloten an, und das **Zielfenster** zeigt, was du ausgewählt hast: Name, Entfernung, die Balken für Hülle und Schild und ob du darauf feuerst. Die Schaltfläche mit dem **Fadenkreuz** startet und stoppt den Angriff (wie `A`), und die Schaltfläche **X** hebt das Ziel auf (wie `Esc`). Ist nichts ausgewählt, sagt das Fenster das in einer Zeile.
+Klicke ein Alien oder einen Piloten an, und das **Zielfenster** zeigt, was du ausgewählt hast: Name, Entfernung, die Balken für Hülle und Schild und ob du darauf feuerst. Die Schaltfläche mit dem **Fadenkreuz** startet und stoppt den Angriff (wie `A`), und die Schaltfläche **X** hebt das Ziel auf (wie `Esc`). Ist nichts ausgewählt, sagt das Fenster das in einer Zeile. Klicke einen [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) an, und das Fenster zeigt seine Hülle, was er hinterlässt und wie viele deiner Rakete er braucht.
 
 Es ist ein Fenster wie die anderen. Ziehe es an seiner Titelleiste, wohin du willst, schließe es mit dem roten Licht in seiner Ecke oder mit der **ersten Schaltfläche der Symbolleiste oben links** (oder `V`) und öffne es auf demselben Weg wieder. Wo du es lässt und ob es offen ist, wird für dein Konto gespeichert. Anfangs steht es oben am Bildschirm, zwischen den beiden Symbolleisten. Das Schließen blendet nur die Anzeige aus: Dein Ziel bleibt ausgewählt, und dein Angriff läuft weiter.
 

@@ -15,7 +15,7 @@ Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su prop
 ## Los tres enjambres {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Enjambre | Dónde | Cuántos | Líder | Seguidores | Vuelve |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta e
 ## Las reglas de todos los enjambres {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Los enjambres aparecen desde el día 4 de la temporada hasta el reinicio.
 - Cuando una nave de enjambre recibe un impacto, las naves de su enjambre a menos de 1.500 unidades se suman al combate contra el primer piloto que la impactó.
@@ -46,7 +46,7 @@ Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta e
 El mundo escala un enjambre como escala a todos los alienígenas ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): el casco, el escudo, la recarga del escudo, el daño de los láseres, el daño de los cohetes y la curación de una nave de enjambre son las cifras de Alpha multiplicadas por la fuerza de más abajo, y un derribo paga la paga de más abajo. La velocidad, el alcance y el botín son iguales en todos los mundos. Los artículos dan las cifras de cada nave en los tres mundos.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Mundo | Fuerza | Paga |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Un alienígena normal paga al piloto que lo impactó primero ([Combate](/wiki/03
 Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de derribos y suma puntos PvE a tu clasificación:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Nave de enjambre | Enjambre | Puntos PvE por derribo |
 | :--- | :--- | ---: |

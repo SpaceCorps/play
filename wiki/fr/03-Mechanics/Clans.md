@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc29967a9f16c91b -->
+<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -10,9 +10,11 @@ Fonder un clan ou en rejoindre un vous permet de mettre vos ressources en commun
 - Chaque étape terminée rapporte aussitôt des points de clan : 15, 15, 20, 20 et 30, soit **100 points** pour une ligne complète.
 - Le chef et les chefs adjoints dépensent les points dans trois [bonus](#clan-points-and-boosts) de dix niveaux chacun : **Dégâts** (jusqu’à +5 %), **Thulium** (jusqu’à +10 %) et **Crédits** (jusqu’à +10 %).
 - Un clan qui termine chaque ligne a acheté tous les niveaux au **jour 12 de la saison**. Les points et les niveaux repartent de zéro à chaque réinitialisation.
-- Il faut au moins **trois membres** qui ont fait leur part, et environ cinq pilotes pour le combat contre le Gardien.
-- La ligne et les bonus demandent un jeu en version 0.4.10 ou plus récente.
+- Il faut au moins **trois membres** qui ont fait leur part, et **environ sept pilotes** pour le combat contre le Gardien : cinq perdent le plus souvent et dix gagnent sans peine ([quel équipage il faut](#how-big-a-crew)). Un équipage trop petit perd le combat : le clan garde alors les **70 points** des quatre missions, mais la ligne n’est pas terminée et ne paie pas [votre récompense](#the-reward-for-you).
+- Votre vaisseau affiche les bonus qu’il a dans la fenêtre **Boosters**, sur une carte à part ([où les voir](#the-three-boosts)).
+- La ligne et les bonus demandent un jeu en version 0.4.10 ou plus récente ; la carte de la fenêtre Boosters, la 0.4.12 ou plus récente.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
@@ -103,7 +105,7 @@ Chaque clan reçoit une **ligne du jour** par jour : cinq étapes, à faire **d
 | | **Une ligne terminée** | **100** |
 
 - Seule l’**étape ouverte compte**. Une destruction faite pendant que l’étape 1 est ouverte compte pour l’étape 1 et pour rien d’autre. Quand l’étape 1 est terminée, l’étape 2 s’ouvre à zéro. Ce que vous détruisez au-delà de l’objectif d’une étape n’est pas gardé pour la suivante.
-- Une étape rapporte ses points **à l’instant où elle est terminée**. Un clan qui finit les quatre missions puis ne parvient pas à réunir un équipage pour le Gardien garde tout de même **70 points**.
+- Une étape rapporte ses points **à l’instant où elle est terminée**. Un clan qui finit les quatre missions puis ne parvient pas à réunir un équipage pour le Gardien, ou perd le combat, garde tout de même **70 points** ; [votre récompense](#the-reward-for-you) ne vient qu’avec la ligne terminée.
 - Le travail de tous va dans **un seul compteur partagé** : les destructions de l’alien de l’étape ouverte et la distance parcourue par tous vos membres s’additionnent, personne n’a donc à faire une étape seul.
 
 ### Le jour {#the-day}
@@ -150,7 +152,7 @@ Les lignes tournent sur un cycle de sept : la ligne du jour de saison *d* porte
 
 ### Votre récompense {#the-reward-for-you}
 
-Quand la ligne est terminée, chaque membre qui a atteint le minimum et qui est toujours dans le clan est payé, même hors ligne. Le versement est fixe : les bonus, les boosters et le monde ne le changent pas.
+Quand la ligne est terminée, c’est-à-dire quand le Gardien est détruit, chaque membre qui a atteint le minimum et qui est toujours dans le clan est payé, même hors ligne. Une ligne qui se termine sans le Gardien ne paie aucune récompense, quoi qu’aient fait les quatre missions. Le versement est fixe : les bonus, les boosters et le monde ne le changent pas.
 
 | Palier | Crédits | Thulium |
 | :--- | ---: | ---: |
@@ -162,7 +164,7 @@ Quand la ligne est terminée, chaque membre qui a atteint le minimum et qui est 
 
 ## Gardiens de clan {#clan-wardens}
 
-Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas l’un des [essaims](/wiki/05-Swarms/Swarms.md) publics qui rôdent dans un secteur : votre clan **l’invoque** et **seul votre clan peut le blesser**. Trois Gardiens se relaient, un par jour : jour 1 **Brood**, jour 2 **Siege**, jour 3 **Wrath**, jour 4 de nouveau Brood, et ainsi de suite (le jour 15 est un jour Wrath). Chacun existe en trois forces, **I, II et III**, fixées par le palier du clan. Un Gardien est un alien d’un genre à part, comme les vaisseaux d’un essaim : il ne compte pas comme un Seeker, un Phantasm ni aucun autre alien.
+Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas l’un des [essaims](/wiki/05-Swarms/Swarms.md) publics qui rôdent dans un secteur : votre clan **l’invoque** et **seul votre clan peut le blesser**. Trois Gardiens se relaient, un par jour : jour 1 **Brood**, jour 2 **Siege**, jour 3 **Wrath**, jour 4 de nouveau Brood, et ainsi de suite (le jour 15 est un jour Wrath). Chacun existe en trois forces, **I, II et III**, fixées par le palier du clan. Un Gardien est un alien d’un genre à part, comme les vaisseaux d’un essaim : il ne compte pas comme un Seeker, un Phantasm ni aucun autre alien. Ses lasers frappent fort, un Gardien est donc un combat pour un équipage complet : venez avec environ sept pilotes, car cinq perdent le plus souvent ([quel équipage il faut](#how-big-a-crew)).
 
 | Gardien | Jours de saison | Rôle | Comment il combat |
 | :--- | :--- | :--- | :--- |
@@ -176,64 +178,70 @@ Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas
 - **Qui.** Le chef ou un chef adjoint.
 - **Comment.** En vol : le bouton **Invoquer ici** apparaît sur l’écran de vol dès que l’étape 4 est terminée, et vous demande de confirmer. Soyez hors des zones sûres, dans un secteur de corporation **x-2, x-3 ou x-4** (de n’importe quelle corporation) de votre monde. L’onglet Opérations montre le Gardien du jour, les invocations restantes et pourquoi le bouton est grisé, mais un Gardien s’invoque depuis le vaisseau.
 - **Où il apparaît.** À 3 000 à 4 500 unités de votre vaisseau, dans votre monde : seuls les pilotes de ce monde peuvent l’atteindre. L’onglet recommande **x-2 pour un clan Recrue, x-3 pour Vétéran et x-4 pour Élite**. Les [règles de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) habituelles du secteur choisi s’appliquent toujours.
-- **Montée en charge.** Il reste **90 secondes** protégé et passif (« montée en charge »), et chaque pilote du clan en ligne est informé de l’endroit. Volez vers lui pendant qu’il se charge : passé les 90 secondes, il est actif.
+- **Montée en charge.** Il reste **90 secondes** protégé et passif (« montée en charge »), et chaque pilote du clan en ligne est informé de l’endroit. Volez vers lui pendant qu’il se charge : passé les 90 secondes, il est actif. Une capsule sous le badge de zone sûre de l’écran de vol le suit : son nom, « montée en charge » avec le temps restant, puis « actif » avec son secteur et le temps avant son retrait, et « enragé » quand un Wrath Warden passe sous la moitié de sa coque.
 - **Seulement votre clan.** Les tirs des pilotes de tout autre clan sont ignorés et ne le font pas riposter.
 - **Comment cela se termine.** Quand il est détruit. Il **se retire** 40 minutes après son activation, à la fin du jour, quand aucun pilote de votre clan n’a été en vol sur sa carte pendant 2 minutes, ou au redémarrage du serveur (l’invocation est alors rendue). Un Gardien qui se retire coûte une invocation, et l’appel suivant est le même Gardien à pleine force.
 
 ### Combattre un Gardien {#fighting-a-warden}
 
 - **Un Gardien combat le premier pilote qui l’a touché**, comme tout boss : laissez le vaisseau le plus robuste de l’équipage commencer, et utilisez [Shield Surge et Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Emportez des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Un équipage de cinq gagne même avec des munitions x1, plus lentement ; un équipage de trois, non.
-- **Brood :** les drones soignent sa coque, et un équipage de trois qui les ignore perd. Détruisez-les d’abord : l’un meurt en une seconde ou moins sous le tir de cinq pilotes, et le suivant arrive après 8 secondes.
+- **Venez avec environ sept pilotes et des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Cinq perdent le plus souvent et dix gagnent sans peine. Le tableau ci-dessous est le meilleur cas, et même dans ce cas trois perdent contre tous les Gardiens et quatre ne gagnent que contre les Siege Warden I et II. Dans le tableau, le plus petit équipage qui peut gagner compte de 4 à 5 pilotes avec des munitions x2 et de 6 à 8 avec des munitions x1.
+- **Brood :** les drones soignent sa coque, et un équipage qui les ignore perd : cinq pilotes qui ne tirent que sur le Gardien tombent tous alors qu’il lui reste environ la moitié, et dix mettent environ un cinquième de temps en plus. Détruisez-les d’abord : l’un meurt en une seconde ou moins sous le tir de cinq pilotes, et le suivant arrive après 8 secondes.
 - **Siege :** ses roquettes sont droites et non guidées, un vaisseau qui reste en mouvement en esquive donc la plupart. Restez en mouvement et servez de cible à tour de rôle.
 - **Wrath :** dès que sa coque passe sous la moitié, chaque salve frappe une fois et demie plus fort, la seconde moitié du combat est donc la dangereuse. Abattez la première moitié vite, gardez les boucliers levés et gardez Emergency Repair pour la rage.
 
 ### Quel équipage il faut {#how-big-a-crew}
 
 > [!NOTE]
-> Ces durées sont **calculées** à partir des chiffres ci-dessous, pas mesurées en jeu : un équipage dans les vaisseaux et l’équipement pour lesquels le palier est fait, tous tirant sur le Gardien. Un tiret signifie que nous ne l’avons pas calculé.
+> Ces durées sont **calculées** à partir des chiffres ci-dessous, pas mesurées en jeu. L’équipage est dans les vaisseaux et l’équipement pour lesquels le palier est fait, et le tableau est son **meilleur cas** : chaque pilote utilise Shield Surge et Emergency Repair dès qu’ils sont prêts, et l’équipage tire d’abord sur les aides du Gardien quand c’est mieux. Le Gardien et ses aides tirent tous sur le pilote qui a frappé en premier et personne n’esquive. **Un vrai combat est plus dur que le tableau.** La ligne des cinq pilotes est juste même dans le meilleur cas (une victoire qui coûte un ou deux vaisseaux), et dans les mêmes combats menés dans le jeu lui-même, avec des pilotes pilotés par script, cinq pilotes ont perdu la plupart des combats que nous avons menés, même en utilisant les deux capacités ; sept ont gagné chacun des leurs, et dix ont gagné sans peine. Un équipage de cinq pilotes qui n’utilise aucune capacité et ne tire que sur le Gardien perd contre sept des neuf Gardiens ; sept pilotes qui font de même en battent huit (tous sauf le Brood Warden III, que ses drones soignent) et perdent de un à trois vaisseaux, et dix les battent tous les neuf.
+
+Le tableau est le meilleur cas, avec des munitions x2 ; en jeu, cinq pilotes perdent le plus souvent et environ sept gagnent.
 
 | Équipage | Avec munitions x2 | Avec munitions x1 |
 | :--- | :--- | :--- |
-| 2 pilotes | perdent contre Brood et Siege ; gagnent contre Wrath en environ 17 minutes | – |
-| 3 pilotes | gagnent en 9 à 10 minutes, de justesse : la coque du tank finit basse et un pilote peut tomber | perdent |
-| 5 pilotes | gagnent en environ 5 minutes | gagnent en 12 à 14 minutes |
-| 7 pilotes | gagnent en environ 3,4 minutes | – |
-| 10 pilotes | gagnent en environ 2,3 minutes | – |
+| 3 pilotes | perdent contre tous les Gardiens, au bout de 4,7 à 13,8 minutes ; le Gardien garde entre un quart et deux tiers de sa coque et de son bouclier | perdent |
+| 4 pilotes | ne gagnent que contre les Siege Warden I et II, en environ 8 minutes, en perdant 1 vaisseau | perdent |
+| 5 pilotes | gagnent contre tous les Gardiens en 5,3 à 6,5 minutes, en perdant de 1 à 2 vaisseaux | perdent |
+| 7 pilotes | gagnent contre tous les Gardiens en 3,3 à 3,6 minutes, en perdant de 0 à 1 vaisseaux | gagnent contre tous les Gardiens sauf les Brood Warden II et III, en 8,7 à 12,3 minutes, en perdant de 1 à 4 vaisseaux |
+| 10 pilotes | gagnent contre tous les Gardiens en 2,2 à 2,4 minutes, en perdant de 0 à 1 vaisseaux | gagnent contre tous les Gardiens en 5,1 à 5,6 minutes, en perdant de 1 à 2 vaisseaux |
 
-Un équipage d’un palier inférieur à celui du Gardien perd : un équipage Recrue de cinq ne peut pas tuer un Gardien Vétéran, ni un équipage Vétéran un Gardien Élite. Le Gardien de **votre** clan correspond toujours à **votre** palier.
+Dans le meilleur cas, le plus petit équipage qui gagne avec des munitions x2 compte de **4 pilotes** (contre les Siege Warden I et II) à **5** (contre les sept autres) et perd de **1 à 2** vaisseaux en le faisant ; avec des munitions x1, il compte de **6 à 8** pilotes et en perd de 2 à 4. Un équipage de **sept** gagne contre tous les Gardiens avec des munitions x2 et perd au plus un vaisseau dans le meilleur cas. Les lasers d’un Gardien frappent de quelques dizaines à plus de cent par salve en force I (de 48 à 129) et à des milliers en force III (de 1 845 à 3 090), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en une minute et demie à quatre minutes, puis il passe au suivant, si bien qu’un équipage qui gagne perd quand même des vaisseaux.
+
+Le tableau vaut pour un équipage dans l’équipement du palier propre au Gardien. Des vaisseaux plus faibles font moins bien : dix pilotes en équipement Recrue ne peuvent pas tuer un Gardien Vétéran, ni dix en équipement Vétéran un Gardien Élite. Le Gardien de **votre** clan correspond toujours à **votre** palier, que fixent les cinq meilleurs pilotes du clan : amenez-les.
+
+**Un clan trop petit pour son Gardien** (moins d’environ sept pilotes ce jour-là) n’est pas exclu. Les quatre missions paient leurs **70 points** quoi qu’il arrive au Gardien, les points achètent des bonus, et le clan peut rappeler le Gardien s’il lui reste une invocation (il y en a deux par jour) : si l’équipage tombe et reste à l’écart, le Gardien se retire, ce qui coûte une invocation, et l’appel suivant le ramène à pleine force. Mais la ligne n’est pas terminée, donc personne ne reçoit [votre récompense](#the-reward-for-you), et un clan qui ne tue jamais son Gardien a les 30 niveaux de bonus au plus tôt au jour de saison 18, et non au jour 12 ([combien de temps cela prend](#how-long-it-takes)).
 
 ### Les chiffres des Gardiens {#warden-numbers}
 
-Les Gardiens ont les mêmes chiffres dans tous les mondes (ceux d’Alpha), ainsi que leur gain. Chaque drone, escorte ou garde a les chiffres du second tableau, et ils restent auprès du Gardien : un Brood Drone soigne la coque du Gardien, un Siege Escort ou un Wrath Guard tire au laser.
+Les Gardiens ont les mêmes chiffres dans tous les mondes (ceux d’Alpha), ainsi que leur gain. Chaque drone, escorte ou garde a les chiffres du second tableau, et ils restent auprès du Gardien : un Brood Drone soigne la coque du Gardien, un Siege Escort ou un Wrath Guard tire au laser. Une salve est l’ensemble des tirs de tous les lasers d’un vaisseau en une seconde, tirée entre 80 et 100 % du chiffre indiqué ; un Wrath Warden sous la moitié de sa coque frappe une fois et demie plus fort. Le Gardien et ses aides tirent tous sur le pilote que le Gardien combat, leurs salves s’additionnent donc : un Brood Warden III avec ses quatre drones met jusqu’à 4 350 par seconde sur un seul vaisseau. La [roquette Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) du Siege Warden n’est pas tirée au hasard : elle frappe à **2 500** au plus en force I, **5 000** en force II et **7 500** en force III, alors que le Rivet d’un pilote est tiré entre un plus petit et un plus grand chiffre. Elle file droit : un vaisseau qui continue de bouger est manqué.
 
 | Gardien | Coque | Bouclier | Dégâts des lasers (une salve par seconde) | Vitesse | Portée des lasers | Se répare (coque par seconde) | Roquette et secondes entre les tirs |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166 000 | 136 000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288 000 | 236 000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1 060 000 | 870 000 | 1 030 | 90 | 800 | – | – |
-| Siege Warden I | 143 000 | 117 000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248 000 | 203 000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915 000 | 745 000 | 615 | 110 | 800 | 1 385 | Rivet III: 8 |
-| Wrath Warden I | 163 000 | 133 000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282 000 | 231 000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1 040 000 | 850 000 | 820 | 90 | 900 | 1 385 | – |
+| Brood Warden I | 166 000 | 136 000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288 000 | 236 000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1 060 000 | 870 000 | 3 090 | 90 | 800 | – | – |
+| Siege Warden I | 143 000 | 117 000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248 000 | 203 000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915 000 | 745 000 | 1 845 | 110 | 800 | 1 385 | Rivet III: 8 |
+| Wrath Warden I | 163 000 | 133 000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282 000 | 231 000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1 040 000 | 850 000 | 2 460 | 90 | 900 | 1 385 | – |
 
 | Auxiliaire | Nombre | Coque | Bouclier | Dégâts des lasers (une salve par seconde) | Vitesse | Soigne le Gardien (coque par seconde) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1 200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4 000 | 3 500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4 300 | 3 500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7 400 | 6 100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27 500 | 22 500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4 900 | 4 000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8 500 | 6 900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31 000 | 25 500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1 200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4 000 | 3 500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4 300 | 3 500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7 400 | 6 100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27 500 | 22 500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4 900 | 4 000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8 500 | 6 900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31 000 | 25 500 | 495 | 180 | – |
 
 ### Gain et butin {#warden-pay-and-loot}
 
-Un Gardien paie autant qu’un tas de l’alien lourd du palier : **30 Phantasms** pour un Gardien I, **24 Bulwarks** pour un II et **16 Goombahs** pour un III. C’est une seule cagnotte, partagée selon les dégâts entre les pilotes qui ont infligé au moins 5 % des dégâts, comme pour le meneur d’un [essaim](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Vos [bonus de clan](#what-the-boosts-apply-to) s’appliquent à votre part. Selon notre calcul, les crédits couvrent les munitions x1 que brûle un équipage de cinq, et les munitions x2 coûtent plus de Thulium que le Gardien n’en paie : c’est un combat pour les points et la caisse.
+Un Gardien paie autant qu’un tas de l’alien lourd du palier : **30 Phantasms** pour un Gardien I, **24 Bulwarks** pour un II et **16 Goombahs** pour un III. C’est une seule cagnotte, partagée selon les dégâts entre les pilotes qui ont infligé au moins 5 % des dégâts, comme pour le meneur d’un [essaim](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Vos [bonus de clan](#what-the-boosts-apply-to) s’appliquent à votre part. Selon notre calcul, les crédits couvrent à peu près les munitions x1 que brûle le plus petit équipage qui peut gagner, et les munitions x2 coûtent plus de Thulium que le Gardien n’en paie : c’est un combat pour les points et la caisse. Le gain n’a pas changé en 0.4.12, quand les lasers des Gardiens sont devenus plus forts : la cagnotte ne grandit pas avec les dégâts que vous encaissez ni avec les vaisseaux que vous perdez.
 
 | Force du Gardien | Crédits | Thulium | Expérience (XP) | Honneur |
 | :--- | ---: | ---: | ---: | ---: |
@@ -279,6 +287,8 @@ Les points de clan appartiennent au clan. Chaque étape que le clan termine ajou
 | **Thulium de flotte** | 10 | +1 % | +10 % | Thulium des destructions et des récompenses de mission |
 | **Crédits de flotte** | 10 | +1 % | +10 % | Crédits des destructions et des récompenses de mission |
 
+**Où les voir.** En vol, la fenêtre **Boosters** liste les bonus que votre vaisseau a sur une carte à part, **Bonus de flotte**, sous les boosters à durée : le tag de votre clan, puis une ligne par bonus avec sa valeur et son niveau (Niv. 3/10). Ils n’ont pas de minuteur, car un bonus de clan dure tant que vous êtes dans le clan. Survolez une ligne pour voir sur quoi il agit. Un clan qui n’a encore rien acheté affiche « Votre flotte n’a pas encore de bonus », et un pilote sans clan ne voit pas de carte. La carte Boosters du **tableau de bord** et le profil d’un pilote les listent aussi. La carte montre ce que votre vaisseau applique, tel que le serveur le dit au jeu, si bien qu’un niveau que les officiers viennent d’acheter apparaît tout de suite. Un jeu antérieur à la 0.4.12 applique les bonus et n’affiche pas de carte.
+
 ### Prix {#boost-prices}
 
 Le prix d’un niveau est de **22 points de clan plus 4 par niveau précédent**, et il est le même pour les trois bonus : 400 points pour un bonus, **1 200 pour les trois**, soit douze lignes terminées.
@@ -300,13 +310,13 @@ Le prix d’un niveau est de **22 points de clan plus 4 par niveau précédent**
 
 - **Dégâts de flotte** s’ajoute à tous les dégâts laser de votre vaisseau : sur les aliens, les vaisseaux d’essaim, les Gardiens et les autres pilotes. Il **n’agit pas sur les roquettes**, de quelque sorte que ce soit.
 - **Thulium de flotte et Crédits de flotte** s’ajoutent au gain des destructions d’aliens (les vôtres, votre part d’un boss et votre part d’une destruction en groupe) et à la récompense de chaque mission que vous réclamez, de niveau, Station ou Défi ([Quêtes](/wiki/03-Mechanics/Quests.md#rewards)). Ils **n’agissent pas sur** les fermes du [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm), les versements de la banque, les codes bonus ni la récompense de la ligne du jour.
-- **Ils s’ajoutent à vos autres bonus** (boosters comme le Damage Amp, les bonus de la [boutique des bonus permanents](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)) : les pourcentages s’additionnent. Les amplificateurs laser (Amps) n’en font pas partie : ils ajoutent des dégâts fixes, et les pourcentages s’appliquent au total. Cinq points de Dégâts de flotte à côté de 50 d’autres sources font 55, soit 3,3 % de dégâts en plus qu’avant.
+- **Ils s’ajoutent à vos autres bonus** (boosters comme le Laser Damage Booster, les bonus de la [boutique des bonus permanents](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)) : les pourcentages s’additionnent. Les amplificateurs laser (Amps) n’en font pas partie : ils ajoutent des dégâts fixes, et les pourcentages s’appliquent au total. Cinq points de Dégâts de flotte à côté de 50 d’autres sources font 55, soit 3,3 % de dégâts en plus qu’avant.
 - **Une fraction n’est pas perdue.** Un bonus ajoute souvent moins d’une unité à une destruction : 10 % des 4 Thulium d’un Seeker font 0,4. Le jeu garde la fraction et la verse avec les unités de vos destructions suivantes, si bien que dix Seekers paient les 4 qui vous sont dus. La fraction que vous détenez est perdue quand vous vous déconnectez.
 - **Arrivées et départs.** Un pilote a les bonus dès l’instant où il rejoint le clan et les perd à l’instant où il le quitte, est renvoyé ou que le clan est dissous. Le clan garde ses niveaux.
 
 ### Combien de temps cela prend {#how-long-it-takes}
 
-Un clan qui termine chaque ligne gagne 100 points par jour. Si les officiers achètent à parts égales dans les trois bonus, il a **4 niveaux après la première ligne, 10 après la troisième, 16 après la cinquième et les 30 au jour de saison 12**. Quatorze lignes sont passées quand le jour 15 commence, un tel clan a donc deux lignes d’avance. Un jour non terminé paie tout de même les étapes faites. Après le dernier niveau, la ligne continue et continue de payer votre récompense ; les points continuent de s’ajouter à ce que le clan a gagné cette saison, ce que l’info-bulle des points de clan sur la carte Bonus de flotte indique.
+Un clan qui termine chaque ligne gagne 100 points par jour. Si les officiers achètent à parts égales dans les trois bonus, il a **4 niveaux après la première ligne, 10 après la troisième, 16 après la cinquième et les 30 au jour de saison 12**. Quatorze lignes sont passées quand le jour 15 commence, un tel clan a donc deux lignes d’avance. Un jour non terminé paie tout de même les étapes faites : un clan qui vient à bout des quatre missions mais ne tue jamais son Gardien gagne 70 points par jour et a les 30 niveaux au plus tôt au jour de saison 18. Après le dernier niveau, la ligne continue et continue de payer votre récompense ; les points continuent de s’ajouter à ce que le clan a gagné cette saison, ce que l’info-bulle des points de clan sur la carte Bonus de flotte indique.
 
 ### Points et réinitialisation {#clan-points-and-the-wipe}
 

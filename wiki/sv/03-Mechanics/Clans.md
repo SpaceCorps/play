@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc29967a9f16c91b -->
+<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -10,9 +10,11 @@ Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den 
 - Varje klart steg betalar klanpoäng direkt: 15, 15, 20, 20 och 30, alltså **100 poäng** för en hel linje.
 - Ledaren och vice ledarna lägger poängen på tre [bonusar](#clan-points-and-boosts) med tio nivåer vardera: **Skada** (upp till +5 %), **Thulium** (upp till +10 %) och **Krediter** (upp till +10 %).
 - En klan som klarar varje linje har köpt alla nivåer på **säsongsdag 12**. Poäng och nivåer börjar om vid varje wipe.
-- Du behöver minst **tre medlemmar** som gjort sin del och ungefär fem piloter för striden mot väktaren.
-- Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare.
+- Du behöver minst **tre medlemmar** som gjort sin del och **ungefär sju piloter** för striden mot väktaren: fem förlorar oftast och tio vinner med lätthet ([hur stor besättning som behövs](#how-big-a-crew)). En för liten besättning förlorar striden: klanen behåller då de **70 poängen** från de fyra uppdragen, men linjen blir inte klar och betalar ingen [belöning till dig](#the-reward-for-you).
+- Ditt skepp visar de bonusar det har i fönstret **Boosters**, på ett eget kort ([var du ser dem](#the-three-boosts)).
+- Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare, kortet i fönstret Boosters version 0.4.12 eller senare.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
@@ -103,7 +105,7 @@ Varje klan får en **dagslinje** per dag: fem steg som hela klanen gör tillsamm
 | | **En klar linje** | **100** |
 
 - Bara det **öppna steget räknas**. En nedskjutning som sker medan steg 1 är öppet räknas för steg 1 och inget annat. När steg 1 är klart öppnas steg 2 från noll. Det du skjuter ned utöver ett stegs mål sparas inte till nästa.
-- Ett steg betalar sina poäng **i samma stund som det är klart**. En klan som klarar de fyra uppdragen och sedan inte får ihop en besättning till väktaren behåller ändå **70 poäng**.
+- Ett steg betalar sina poäng **i samma stund som det är klart**. En klan som klarar de fyra uppdragen och sedan inte får ihop en besättning till väktaren, eller förlorar striden, behåller ändå **70 poäng**; [belöningen till dig](#the-reward-for-you) kommer först när linjen är klar.
 - Allas arbete går in i **en gemensam räknare**: nedskjutningarna av det öppna stegets utomjording och sträckan som alla dina medlemmar flyger läggs ihop, så ingen behöver göra ett steg ensam.
 
 ### Dagen {#the-day}
@@ -150,7 +152,7 @@ Linjerna går i en cykel om sju: linjen för säsongsdag *d* har nummer 1 + ((*d
 
 ### Din belöning {#the-reward-for-you}
 
-När linjen är klar får varje medlem som nått minimum och fortfarande är i klanen en utbetalning, även om hen är offline. Utbetalningen är fast: bonusar, boosters och världen ändrar den inte.
+När linjen är klar, alltså när väktaren är förgjord, får varje medlem som nått minimum och fortfarande är i klanen en utbetalning, även om hen är offline. En linje som slutar utan väktaren betalar ingen belöning, vad de fyra uppdragen än gjort. Utbetalningen är fast: bonusar, boosters och världen ändrar den inte.
 
 | Nivå | Krediter | Thulium |
 | :--- | ---: | ---: |
@@ -162,7 +164,7 @@ När linjen är klar får varje medlem som nått minimum och fortfarande är i k
 
 ## Klanväktare {#clan-wardens}
 
-En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording.
+En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. Dess lasrar slår hårt, så en väktare är en strid för en full besättning: ta med ungefär sju piloter, för fem förlorar oftast ([hur stor besättning som behövs](#how-big-a-crew)).
 
 | Väktare | Säsongsdagar | Roll | Hur den strider |
 | :--- | :--- | :--- | :--- |
@@ -176,64 +178,70 @@ En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publi
 - **Vem.** Ledaren eller en vice ledare.
 - **Hur.** Under flygning: knappen **Kalla fram här** dyker upp på flygskärmen så fort steg 4 är klart och ber dig bekräfta. Var utanför skyddszonerna, i en koncerns sektor **x-2, x-3 eller x-4** (vilken koncern som helst) i din värld. Fliken Operationer visar dagens väktare, frammaningarna som är kvar och varför knappen är nedtonad, men en väktare kallas fram från skeppet.
 - **Var den dyker upp.** 3 000 till 4 500 enheter från ditt skepp, i din värld: bara piloter i den världen kan nå den. Fliken rekommenderar **x-2 för en Rekryt-klan, x-3 för Veteran och x-4 för Elit**. De vanliga [PvP-reglerna](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) för sektorn du väljer gäller fortfarande.
-- **Uppvärmning.** Den står **90 sekunder** skärmad och passiv (»startar upp«), och varje klanpilot som är online får veta var. Flyg dit medan den startar upp: när de 90 sekunderna är över är den aktiv.
+- **Uppvärmning.** Den står **90 sekunder** skärmad och passiv (»startar upp«), och varje klanpilot som är online får veta var. Flyg dit medan den startar upp: när de 90 sekunderna är över är den aktiv. En kapsel under skyddszonsmärket på flygskärmen följer den: dess namn, ”startar upp” med tiden som är kvar, sedan ”aktiv” med dess sektor och tiden tills den drar sig tillbaka, och ”rasande” när en Wrath Warden har under halva skrovet.
 - **Bara din klan.** Skott från andra klaners piloter ignoreras och får den inte att slå tillbaka.
 - **Hur det tar slut.** När den förgörs. Den **drar sig tillbaka** 40 minuter efter att den aktiverades, när dagen tar slut, när ingen pilot i din klan har varit ute i flygning på dess karta på 2 minuter, eller när servern startar om (den frammaningen ges tillbaka). En väktare som drar sig tillbaka kostar en frammaning, och nästa anrop är samma väktare med full styrka.
 
 ### Strida mot en väktare {#fighting-a-warden}
 
 - **En väktare strider mot den pilot som träffade den först**, som varje boss: låt besättningens kraftigaste skepp börja och använd [Shield Surge och Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Ta med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). En besättning på fem vinner även med x1-ammunition, långsammare; en på tre gör det inte.
-- **Brood:** drönarna läker dess skrov, och en besättning på tre som struntar i dem förlorar. Skjut dem först: en dör på en sekund eller mindre under eld från fem piloter, och nästa kommer efter 8 sekunder.
+- **Ta med ungefär sju piloter, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Fem förlorar oftast och tio vinner med lätthet. Tabellen nedan är bästa fallet, och även i den förlorar tre mot varje väktare och fyra vinner bara mot Siege Warden I och II. I tabellen har den minsta besättning som kan vinna 4 till 5 piloter med x2-ammunition och 6 till 8 med x1-ammunition.
+- **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar: fem piloter som bara skjuter på väktaren faller alla när ungefär hälften av den står kvar, och tio behöver ungefär en femtedel längre tid. Skjut dem först: en dör på en sekund eller mindre under eld från fem piloter, och nästa kommer efter 8 sekunder.
 - **Siege:** dess raketer är raka och ostyrda, så ett skepp som fortsätter röra sig väjer för de flesta. Fortsätt röra dig och turas om att vara måltavla.
 - **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet.
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 
 > [!NOTE]
-> Dessa tider är **uträknade** från siffrorna nedan, inte mätta i spelet: en besättning i de skepp och med den utrustning som nivån är gjord för, alla skjuter på väktaren. Ett streck betyder att vi inte har räknat ut det.
+> Dessa tider är **uträknade** från siffrorna nedan, inte mätta i spelet. Besättningen är i de skepp och med den utrustning som nivån är gjord för, och tabellen är dess **bästa fall**: varje pilot använder Shield Surge och Emergency Repair så fort de är redo, och besättningen skjuter först på väktarens hjälpare när det är bättre. Väktaren och dess hjälpare skjuter alla på piloten som träffade först och ingen väjer. **En verklig strid är hårdare än tabellen.** Raden med fem piloter är knapp även i bästa fall (en seger som kostar ett eller två skepp), och i samma strider körda i själva spelet, med skriptstyrda piloter, förlorade fem piloter de flesta av de strider vi körde, även när de använde båda förmågorna; sju vann alla sina och tio vann med lätthet. En besättning på fem piloter som inte använder någon förmåga och bara skjuter på väktaren förlorar mot sju av de nio väktarna; sju piloter som gör likadant vinner mot åtta av dem (alla utom Brood Warden III, vars drönare läker den) och förlorar ett till tre skepp, och tio vinner mot alla nio.
+
+Tabellen är bästa fallet, med x2-ammunition; i spelet förlorar fem piloter oftast och ungefär sju vinner.
 
 | Besättning | Med x2-ammunition | Med x1-ammunition |
 | :--- | :--- | :--- |
-| 2 piloter | förlorar mot Brood och Siege; vinner mot Wrath på ungefär 17 minuter | – |
-| 3 piloter | vinner på 9 till 10 minuter, knappt: tankens skrov är lågt på slutet och en pilot kan gå förlorad | förlorar |
-| 5 piloter | vinner på ungefär 5 minuter | vinner på 12 till 14 minuter |
-| 7 piloter | vinner på ungefär 3,4 minuter | – |
-| 10 piloter | vinner på ungefär 2,3 minuter | – |
+| 3 piloter | förlorar mot alla väktare, efter 4,7 till 13,8 minuter; väktaren behåller mellan en fjärdedel och två tredjedelar av skrov och sköld | förlorar |
+| 4 piloter | vinner bara mot Siege Warden I och II, på ungefär 8 minuter, och förlorar 1 skepp | förlorar |
+| 5 piloter | vinner mot alla väktare på 5,3 till 6,5 minuter och förlorar 1 till 2 skepp | förlorar |
+| 7 piloter | vinner mot alla väktare på 3,3 till 3,6 minuter och förlorar 0 till 1 skepp | vinner mot alla väktare utom Brood Warden II och III, på 8,7 till 12,3 minuter, och förlorar 1 till 4 skepp |
+| 10 piloter | vinner mot alla väktare på 2,2 till 2,4 minuter och förlorar 0 till 1 skepp | vinner mot alla väktare på 5,1 till 5,6 minuter och förlorar 1 till 2 skepp |
 
-En besättning på lägre nivå än väktaren förlorar: en Rekryt-besättning på fem kan inte döda en Veteran-väktare, och en Veteran-besättning ingen Elit-väktare. **Din** klans väktare matchar alltid **din** nivå.
+I bästa fall har den minsta besättningen som vinner med x2-ammunition **4 piloter** (mot Siege Warden I och II) till **5** (mot de andra sju) och förlorar **1 till 2** skepp på vägen; med x1-ammunition har den **6 till 8** piloter och förlorar 2 till 4. En besättning på **sju** vinner mot alla väktare med x2-ammunition och förlorar i bästa fall högst ett skepp. En väktares lasrar slår med tiotals upp till över hundra per salva i styrka I (48 till 129) och med tusentals i styrka III (1 845 till 3 090), och hjälparna lägger till sitt: skeppet den slåss mot faller på mellan en och en halv och fyra minuter, och sedan tar den nästa, så även en besättning som vinner förlorar skepp.
+
+Tabellen gäller en besättning med utrustning för väktarens egen nivå. Svagare skepp klarar sig sämre: tio piloter i Rekryt-utrustning kan inte döda en Veteran-väktare, och tio i Veteran-utrustning ingen Elit-väktare. **Din** klans väktare matchar alltid **din** nivå, som klanens fem bästa piloter bestämmer, så ta med dem.
+
+**En klan som är för liten för sin väktare** (färre än ungefär sju piloter den dagen) är inte utestängd. De fyra uppdragen betalar sina **70 poäng** vad som än händer med väktaren, poängen köper bonusar, och klanen kan kalla fram väktaren igen om den har en frammaning kvar (det finns två per dag): faller besättningen och håller sig borta drar sig väktaren tillbaka, vilket kostar en frammaning, och nästa anrop för tillbaka den med full styrka. Men linjen blir inte klar, så ingen får [belöningen till dig](#the-reward-for-you), och en klan som aldrig dödar sin väktare har alla 30 bonusnivåer tidigast på säsongsdag 18, inte på dag 12 ([hur lång tid det tar](#how-long-it-takes)).
 
 ### Väktarnas siffror {#warden-numbers}
 
-Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras betalning också. Varje drönare, eskort eller vakt har siffrorna i den andra tabellen, och de står vid väktaren: en Brood Drone läker väktarens skrov, en Siege Escort eller en Wrath Guard avfyrar lasrar.
+Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras betalning också. Varje drönare, eskort eller vakt har siffrorna i den andra tabellen, och de står vid väktaren: en Brood Drone läker väktarens skrov, en Siege Escort eller en Wrath Guard avfyrar lasrar. En salva är skotten från alla lasrar på ett skepp under en sekund, slumpade mellan 80 och 100 % av siffran som visas; en Wrath Warden under halva skrovet slår en och en halv gång så hårt. Väktaren och dess hjälpare skjuter alla på piloten som väktaren slåss mot, så deras salvor läggs ihop: en Brood Warden III med sina fyra drönare lägger upp till 4 350 i sekunden på ett skepp. [Rivet-raketen](/wiki/06-Items/Rockets.md#the-twelve-rockets) från Siege Warden slumpas inte: den slår med högst **2 500** i styrka I, **5 000** i styrka II och **7 500** i styrka III, medan en pilots Rivet slumpas mellan ett lägsta och ett högsta tal. Den flyger rakt, så ett skepp som fortsätter röra sig missas.
 
 | Väktare | Skrov | Sköld | Laserskada (en salva per sekund) | Hastighet | Laserräckvidd | Lagar sig själv (skrov per sekund) | Raket och sekunder mellan skotten |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166 000 | 136 000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288 000 | 236 000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1 060 000 | 870 000 | 1 030 | 90 | 800 | – | – |
-| Siege Warden I | 143 000 | 117 000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248 000 | 203 000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915 000 | 745 000 | 615 | 110 | 800 | 1 385 | Rivet III: 8 |
-| Wrath Warden I | 163 000 | 133 000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282 000 | 231 000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1 040 000 | 850 000 | 820 | 90 | 900 | 1 385 | – |
+| Brood Warden I | 166 000 | 136 000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288 000 | 236 000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1 060 000 | 870 000 | 3 090 | 90 | 800 | – | – |
+| Siege Warden I | 143 000 | 117 000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248 000 | 203 000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915 000 | 745 000 | 1 845 | 110 | 800 | 1 385 | Rivet III: 8 |
+| Wrath Warden I | 163 000 | 133 000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282 000 | 231 000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1 040 000 | 850 000 | 2 460 | 90 | 900 | 1 385 | – |
 
 | Hjälpare | Hur många | Skrov | Sköld | Laserskada (en salva per sekund) | Hastighet | Läker väktaren (skrov per sekund) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1 200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4 000 | 3 500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4 300 | 3 500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7 400 | 6 100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27 500 | 22 500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4 900 | 4 000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8 500 | 6 900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31 000 | 25 500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1 200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4 000 | 3 500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4 300 | 3 500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7 400 | 6 100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27 500 | 22 500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4 900 | 4 000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8 500 | 6 900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31 000 | 25 500 | 495 | 180 | – |
 
 ### Betalning och byte {#warden-pay-and-loot}
 
-En väktare betalar lika mycket som en hög av nivåns tunga utomjording: **30 Phantasm** för en väktare I, **24 Bulwark** för en II och **16 Goombah** för en III. Det är en enda pott, delad efter skada mellan de piloter som gjort minst 5 % av skadan, på samma sätt som för ledaren i en [svärm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Dina [klanbonusar](#what-the-boosts-apply-to) gäller din andel. Enligt vår beräkning täcker kredierna den x1-ammunition som en besättning på fem bränner, och x2-ammunition kostar mer Thulium än väktaren betalar: det är en strid om poängen och lådan.
+En väktare betalar lika mycket som en hög av nivåns tunga utomjording: **30 Phantasm** för en väktare I, **24 Bulwark** för en II och **16 Goombah** för en III. Det är en enda pott, delad efter skada mellan de piloter som gjort minst 5 % av skadan, på samma sätt som för ledaren i en [svärm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Dina [klanbonusar](#what-the-boosts-apply-to) gäller din andel. Enligt vår beräkning täcker kredierna ungefär den x1-ammunition som den minsta besättning som kan vinna bränner, och x2-ammunition kostar mer Thulium än väktaren betalar: det är en strid om poängen och lådan. Betalningen ändrades inte i 0.4.12, när väktarnas lasrar blev starkare: potten växer inte med skadan du tar eller skeppen du förlorar.
 
 | Väktarens styrka | Krediter | Thulium | Erfarenhet (XP) | Heder |
 | :--- | ---: | ---: | ---: | ---: |
@@ -279,6 +287,8 @@ Klanpoängen tillhör klanen. Varje steg som klanen gör klart ökar dess saldo.
 | **Flott-Thulium** | 10 | +1 % | +10 % | Thulium från nedskjutningar och uppdragsbelöningar |
 | **Flottkrediter** | 10 | +1 % | +10 % | Krediter från nedskjutningar och uppdragsbelöningar |
 
+**Var du ser dem.** Under flygning visar fönstret **Boosters** de bonusar ditt skepp har på ett eget kort, **Flottbonusar**, under de tidsbegränsade boostersen: din klans tagg, sedan en rad per bonus med dess värde och nivå (Nivå 3/10). De har ingen timer, eftersom en klanbonus gäller så länge du är med i klanen. För musen över en rad för att se vad den verkar på. En klan som inte köpt något än visar ”Din flotta har inga bonusar än”, och en pilot utan klan ser inget kort. **Översiktens** Boosters-kort och en pilots profil listar dem också. Kortet visar vad ditt skepp tillämpar, så som servern säger det till spelet, så en nivå som officerarna just köpt syns direkt. Ett spel äldre än 0.4.12 tillämpar bonusarna men visar inget kort.
+
 ### Priser {#boost-prices}
 
 Priset för en nivå är **22 klanpoäng plus 4 för varje nivå före den**, och det är detsamma för de tre bonusarna: 400 poäng för en bonus, **1 200 för alla tre**, vilket är tolv klara linjer.
@@ -300,13 +310,13 @@ Priset för en nivå är **22 klanpoäng plus 4 för varje nivå före den**, oc
 
 - **Flottskada** läggs till all laserskada ditt skepp gör: mot utomjordingar, svärmskepp, väktare och andra piloter. Den **påverkar inte raketer**, av något slag.
 - **Flott-Thulium och Flottkrediter** läggs till betalningen för nedskjutningar av utomjordingar (dina egna, din andel av en boss och din andel av en gruppnedskjutning) och till belöningen för varje uppdrag du hämtar ut, nivå-, Station- eller Utmaningsuppdrag ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)). De **påverkar inte** [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm)-farmarna, bankutbetalningar, bonuskoder eller belöningen för dagslinjen.
-- **De läggs ihop med dina andra bonusar** (boosters som Damage Amp, buffarna i [butiken för permanenta buffar](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): procenten läggs ihop. Laserförstärkare (Amps) hör inte dit: de ger fast skada, och procenten gäller summan. Fem poäng Flottskada bredvid 50 från andra källor blir 55, vilket är 3,3 % mer skada än förut.
+- **De läggs ihop med dina andra bonusar** (boosters som Laser Damage Booster, buffarna i [butiken för permanenta buffar](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): procenten läggs ihop. Laserförstärkare (Amps) hör inte dit: de ger fast skada, och procenten gäller summan. Fem poäng Flottskada bredvid 50 från andra källor blir 55, vilket är 3,3 % mer skada än förut.
 - **En bråkdel går inte förlorad.** En bonus lägger ofta till mindre än en enhet på en nedskjutning: 10 % av en Seekers 4 Thulium är 0,4. Spelet sparar bråkdelen och betalar ut den med enheterna från dina nästa nedskjutningar, så att tio Seekers betalar de 4 du har rätt till. Bråkdelen du håller i försvinner när du loggar ut.
 - **Gå med och lämna.** En pilot har bonusarna från det att hen går med i klanen och förlorar dem i samma stund som hen lämnar, avskedas eller klanen upplöses. Klanen behåller sina nivåer.
 
 ### Hur lång tid det tar {#how-long-it-takes}
 
-En klan som klarar varje linje tjänar 100 poäng om dagen. Om officerarna köper jämnt över de tre bonusarna har den **4 nivåer efter första linjen, 10 efter tredje, 16 efter femte och alla 30 på säsongsdag 12**. Fjorton linjer är över när dag 15 börjar, så en sådan klan har två linjer att gå på. En dag som inte blir klar betalar ändå för de steg som gjorts. Efter sista nivån fortsätter linjen och betalar fortfarande din belöning; poängen fortsätter läggas till det klanen tjänat den här säsongen, vilket verktygstipset för klanpoängen på kortet Flottbonusar visar.
+En klan som klarar varje linje tjänar 100 poäng om dagen. Om officerarna köper jämnt över de tre bonusarna har den **4 nivåer efter första linjen, 10 efter tredje, 16 efter femte och alla 30 på säsongsdag 12**. Fjorton linjer är över när dag 15 börjar, så en sådan klan har två linjer att gå på. En dag som inte blir klar betalar ändå för de steg som gjorts: en klan som klarar de fyra uppdragen men aldrig dödar sin väktare tjänar 70 poäng om dagen och har alla 30 nivåer tidigast på säsongsdag 18. Efter sista nivån fortsätter linjen och betalar fortfarande din belöning; poängen fortsätter läggas till det klanen tjänat den här säsongen, vilket verktygstipset för klanpoängen på kortet Flottbonusar visar.
 
 ### Poäng och wipe {#clan-points-and-the-wipe}
 

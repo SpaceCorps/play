@@ -21,8 +21,10 @@ Repairs going on don't stop you. Anywhere else the Hangar window still opens, bu
 - **Either configuration.** You can prepare Config 2 while flying Config 1, then swap with the Switch Config key. A **Fly config** button in the Hangar does the same swap.
 - **Any ship.** Set another ship active and you fly it from where you are. Your ship's model changes in front of everyone nearby.
 - **A new shield, engine or Adaptive Core starts empty**, as in the station: its configuration's shield charge is empty until it recharges.
-- **Drone formations.** The Drones view lists the formations you own under your drones. They are not fitted: in flight you drag one from the hotbar's Formations list onto a slot, and that slot's click or key wears it, with no wait inside a safe zone ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
+- **Drone formations.** The Drones view lists the formations you own under your drones. They are not fitted: in flight you drag one from the hotbar's Formations list onto a slot, and that slot's click or key wears it, with the same 2-second wait as anywhere, a safe zone included ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** The four regular ships, the Protos, Kitefin, Ostirion and Nomad (the ones you start with or buy), have 2 extra slots in each configuration; the four ships you craft in Assembly, the Paragon, Ironclad, Wraith and Storm, have 3. The Extra Slots CPUs of your Skylab add 3, 5 or 7 on top: 5, 7 or 9 on the regular ships and 6, 8 or 10 on the crafted ones ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). When 0.4.10 came, a third extra on a regular ship was unequipped into your inventory: nothing was deleted, and you got one chat message.
+
+Selling is not part of the window: the gavel that opens the [Auction](/wiki/03-Mechanics/Auction.md) belongs to the Hangar of the station, and the Auction itself is a page of the station.
 
 ## Changing Ship
 

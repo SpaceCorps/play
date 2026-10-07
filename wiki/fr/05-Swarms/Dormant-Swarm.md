@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Essaim Dormant -->
 # Essaim Dormant {#dormant-swarm}
 
@@ -7,7 +7,7 @@ L’essaim Dormant est une **Dormant Force** avec ses **Dormant Pulses** : un g
 ## D’un coup d’œil {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Où** : Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`, `DS-4`, qu’il parcourt de l’un à l’autre
 - **Combien** : Un dans chaque monde
@@ -25,14 +25,14 @@ L’essaim Dormant est une **Dormant Force** avec ses **Dormant Pulses** : un g
 ## Les membres {#the-members}
 
 - **Dormant Force** : un Wraith à pleine force, avec des lasers qui frappent trois fois plus fort que ceux d’un équipement typique. Elle mène l’essaim, est passive tant qu’on ne la touche pas, et tire des **roquettes droites** sur le premier pilote qui l’a touchée.
-- **Dormant Pulse** : un Paragon à pleine force, avec le même genre de lasers lourds et ses propres roquettes. Les Pulses volent près de la Force, et quand la Force est détruite, l’une d’elles prend la tête.
+- **Dormant Pulse** : un Paragon à pleine force, avec des lasers lourds du même genre, dont chacun frappe deux fois plus fort qu’un laser de la Force, et ses propres roquettes. Une Pulse a moins de lasers que la Force, si bien que sa salve entière est plus grande que celle de la Force, sans être deux fois plus grande (les chiffres sont plus bas). Les Pulses volent près de la Force, et quand la Force est détruite, l’une d’elles prend la tête.
 
 Ils sont passifs : ils n’attaquent jamais un pilote. Si l’un d’eux est touché, les autres proches de lui se joignent au combat contre le premier pilote qui l’a touché.
 
 ## Le déroulement du combat {#how-the-fight-goes}
 
 - **Trouvez-le.** Le monde entier est prévenu quand il apparaît, et un marqueur le montre sur les cartes des secteurs dangereux et sur la carte de la galaxie. Il reste sur une carte le temps indiqué dans la liste *D’un coup d’œil*, puis vole vers la porte d’un autre secteur dangereux et saute ; il ne prend jamais une porte qui sort des secteurs dangereux et n’entre jamais dans l’anneau du trou noir. Il vole à la vitesse de son vaisseau le plus lent et, comme un pilote, ne commence ni ne termine un saut sous le feu.
-- **On ne le bat pas seul, ni à quelques-uns.** Huit pilotes de niveau 8 en Paragon avec des munitions x2 ou x4 le détruisent en environ une minute dans Alpha, en perdant au plus un vaisseau ; un Paragon seul est détruit, et trois avec des munitions x2 aussi. Les essaims de Beta et de Gamma sont plus forts ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)), ces mondes demandent donc de plus grands groupes.
+- **On ne le bat pas seul, ni à quelques-uns.** Huit pilotes de niveau 8 en Paragon avec des munitions x2 ou x4 le détruisent en environ une minute dans Alpha, en perdant au plus un vaisseau ; un Paragon seul est détruit, et trois ou quatre avec des munitions x2 aussi. Les essaims de Beta et de Gamma sont plus forts ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)), ces mondes demandent donc de plus grands groupes.
 - **Ses lasers décident du combat.** Ensemble, ils peuvent détruire un Paragon en moins d’une minute, et même un Paragon aux meilleurs boucliers en moins de deux, roquettes ou non : amenez vos dégâts vite, avec les meilleurs boucliers que vous ayez.
 - **Vaisseau par vaisseau.** Chaque vaisseau a sa propre coque et son propre gain, la Force ou une Pulse peut donc être détruite en premier. L’essaim n’est remplacé que lorsqu’il est entièrement détruit, après le délai de la liste *D’un coup d’œil*.
 
@@ -45,11 +45,11 @@ Chaque vaisseau paie pour lui-même, selon les dégâts qu’il a subis ([commen
 Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Base : Wraith, avec 100 % de sa coque et 300 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Base : Wraith, avec 100 % de coque, de bouclier et de dégâts ; la vitesse e
 
 ### Dormant Pulse
 
-Base : Paragon, avec 100 % de coque, de bouclier et de dégâts ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Base : Paragon, avec 100 % de sa coque et 600 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine. Tire une roquette droite toutes les 5 s : [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Coque | 128 000 | 192 000 | 256 000 |
 | Bouclier | 64 570 | 96 855 | 129 140 |
-| Dégâts des lasers (une salve par seconde) | 1 920 | 2 880 | 3 840 |
+| Dégâts des lasers (une salve par seconde) | 3 840 | 5 760 | 7 680 |
 | Vitesse | 210 | 210 | 210 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |

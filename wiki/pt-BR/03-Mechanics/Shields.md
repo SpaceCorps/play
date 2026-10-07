@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 \[\text{Parte do escudo} = \text{limitar}(\text{Absorção} - \text{Penetração},\ 0,\ 100\%)\]
 
 - Os escudos recebem no máximo `round(damage x share)` do impacto; o casco recebe o resto. Um escudo baixo demais para a sua parte passa a diferença para os HP, e se os escudos estão em 0, todo o dano atinge os HP diretamente.
-- **De onde vem a penetração**: a *Penetração de escudo* de um foguete de alvo único (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; as explosões em área não têm, veja [Foguetes](/wiki/06-Items/Rockets.md)) e a da munição de laser (Ultra Core 5%, Experimental Fusion Core 10%; veja [Lasers e munição](/wiki/06-Items/Lasers.md)). Os alienígenas não têm, e a munição x1 e x2 também não.
-- **Exemplos**: 80% de absorção contra um Lancet III (35%): os escudos recebem 45% do impacto, o casco 55%. 100% contra ele: 65% e 35%. 112% contra 12% de penetração: o impacto inteiro. 45% (um Light Shield Core sozinho) contra 35%: 10% no escudo, o resto no casco. Nenhum foguete penetra completamente um Light Shield Core.
+- **De onde vem a penetração**: a *Penetração de escudo* de um foguete de alvo único (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; as explosões em área não têm, veja [Foguetes](/wiki/06-Items/Rockets.md)) e a da munição de laser (Ultra Core 5%, Experimental Fusion Core 10%; veja [Lasers e munição](/wiki/06-Items/Lasers.md)). Os alienígenas não têm, e a munição x1 e x2 também não. Um acerto de laser também tira os Penetration Amps dos lasers de quem atira (+2% a +8% por slot, a média dos lasers dele) e a penetração de uma formação de drones (Gemini +9%, Stiletto +16%): o total para em **50%** para um laser e em 40% para um foguete ([como um acerto de laser se soma](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Exemplos**: 80% de absorção contra um Lancet III (35%): os escudos recebem 45% do impacto, o casco 55%. 100% contra ele: 65% e 35%. 112% contra 12% de penetração: o impacto inteiro. 45% (um Light Shield Core sozinho) contra 35%: 10% no escudo, o resto no casco. Nenhum foguete penetra completamente um Light Shield Core. O melhor laser (50%) consegue: contra ele, o melhor escudo (80%) recebe 30% do impacto e o casco 70%, e um Light Shield Core sozinho (45%) não recebe nada.
 - Os alienígenas não têm atributo de absorção: eles dividem cada impacto em 80% / 20%, menos a penetração do impacto.
 - O dano de uma Siphon Battery sai só do escudo: a absorção e a penetração não entram na conta.
 
@@ -57,9 +57,9 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 
 Todo bônus de escudo aumenta um dos três atributos e aparece na janela Boosters sob a sua própria categoria:
 
-- **Capacidade** (pontos de escudo máximos): os boosters Shield Wall e o Shield Capacity Boost permanente.
+- **Capacidade** (pontos de escudo máximos): os boosters Shield Wall Booster 1 e 2 e o Shield Capacity Boost permanente.
 - **Absorção** (a parte de um impacto que os seus escudos recebem): o Shield Absorbance Boost permanente (+0,1 ponto por nível, no máximo +10 pontos).
-- **Recarga** (pontos de escudo restaurados por segundo): o booster Shield Regen.
+- **Recarga** (pontos de escudo restaurados por segundo): o Shield Regen Booster.
 
 Veja [Boosters](/wiki/06-Items/Boosters.md) para os números.
 

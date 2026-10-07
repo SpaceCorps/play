@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1f9dad98b1e0c6d8 -->
+<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
 <!-- wiki-i18n title: Fähigkeiten -->
 # Aktive Schiffsfähigkeiten {#active-ship-abilities}
 
@@ -86,7 +86,7 @@ Mehrere Module einer Art in einer Konfiguration: Das mit dem niedrigsten Rang be
 
 <!-- abilities:end -->
 
-Schilde und Triebwerke von Rang III (der Heavy Shield Core, Engine III) werden nicht verkauft: Du stellst sie in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Basic Shield Core und einem Engine II her, mit Thulium, Beute und Velkonite Reinforced Plates aus der Schmiede deines [Skylab](/wiki/03-Mechanics/Skylab.md). Emergency Repair hat einen vierten Rang, die Repair Drone IV.
+Schilde und Triebwerke von Rang III (der Heavy Shield Core, Engine III) werden nicht verkauft: Du stellst sie in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Basic Shield Core und einem Engine II her, mit Thulium, Beute und 3 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair hat einen vierten Rang, die Repair Drone IV.
 
 ## Abklingzeiten und Grenzen {#cooldowns-and-limits}
 

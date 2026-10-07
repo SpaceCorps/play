@@ -7,7 +7,7 @@ El enjambre Seeker es el más pequeño de los [enjambres](/wiki/05-Swarms/Swarms
 ## De un vistazo {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Dónde**: Los sectores `x-1` y `x-2` de cada corporación
 - **Cuántos**: Uno en cada uno de esos sectores, 6 en cada mundo
@@ -43,7 +43,7 @@ El Boss Seeker paga **exactamente diez Seekers**: diez veces los créditos, el T
 Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

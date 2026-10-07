@@ -1,0 +1,212 @@
+<!-- wiki-i18n source: ac0edd812a5c4dcb -->
+<!-- wiki-i18n title: オークション -->
+# オークション {#auction}
+
+オークションは、パイロット同士のマーケットと、ゲーム自身による毎時のロットを、ステーションメニューの1ページにまとめたものです。ショップと同じくステーションのページで、ドッキング中に使い、飛行中は使えません。4つのセクションがあります。**マーケット**は、ほかのパイロットが売っているものです。**ロット**はゲーム自身の出品で、毎時1つ出ます。**自分の出品**は、あなた自身が売りに出しているものです。**履歴**は、あなたの売却、購入、落札したロットです。
+
+<!-- market-glance:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+- オークションを使う（出品、購入、入札する）には**レベル5**が必要です。
+- 出品の価格は1ロットあたり、整数のクレジットか整数のThuliumで付けます（両方は不可）。そのアイテムの最低価格を下回ることはできません。**上限価格はありません。**
+- Thuliumでの価格は、クレジットでの最低価格を1,000で割って切り上げた額以上で、最低価格が20Thulium以上になるアイテムに限られます。レートの役割はそれだけです。**1 Thulium = 1,000クレジットは最低価格のための決まりで、為替レートではありません。**何も交換されず、価値も表示されず、クレジットとThuliumが合算されることもありません。
+- 出品できるのは80種類で、そのうち42種類はThuliumでも価格を付けられます。
+- 出品期間は12 / 24 / 48 / 72時間のいずれかで、レベルが許す最長までです（下のレベル表）。
+- **出品料**は、出品が続く24時間ごとに価格の1%で、最低でも50クレジットまたは1 Thuliumです。出品時に支払い、取り消しても返金されません。
+- レベル10からは、出品料は1.5%になります。
+- **税**は価格の5%です。出品が売れたとき、販売者が受け取る額から差し引かれます。
+- 出品料と税は破棄されます。誰の手にも渡りません。
+- シーズン28日目からワイプまでは、出品料も税もかかりません。
+- シーズン30日目からは、新しいシーズンが始まるまでオークションは閉まります。出品、購入、入札はできませんが、自分の出品の取り消しはできます。
+- 売れる額と買える額には、通貨ごとに別々の上限があります（24時間単位、下のレベル表）。ロットの落札は数えません。
+- 2人のパイロットの間（一方が他方から買う場合）では、24時間に最大で8,000,000クレジットまたは40,000 Thuliumまでしか動きません。
+
+<!-- market-glance:end -->
+
+## 出品可能なアイテム {#marketable-items}
+
+売れるのは、**獲得した**アイテムだけです。獲得したものはすべて、[ハンガー](/wiki/03-Mechanics/Inventory.md#marketable-items)で小さな**出品可能**のタグが付きます。宇宙で拾ったもの（エイリアン、群れ、Warden、ブラックホールのドロップ：[積荷](/wiki/03-Mechanics/Cargo.md)）、ミッションが支払うもの（[クエスト](/wiki/03-Mechanics/Quests.md#rewards)）、そしてアセンブリと鍛冶場が作るものすべてです。ショップで**購入した**もの、ロットで落札したもの、マーケットで買ったもの、ボーナスコード、招待パック、スターターキットで受け取ったもの、返金として戻ってきたものは出品可能ではなく、二度と売ることはできません。転売のためだけに買われるものがない、ということです。スカイラボの鍛造所が作るプレートも出品可能ではありませんが、ミッションが支払うReinforced Plateは出品可能です。
+
+タグはスイッチではなくユニットの数です。弾薬のスタックには購入分と獲得分が混ざることがあり、カードには「出品可能（3 / 5）」と表示されます。スタックの一部を使うとき（発射、クラフト）は、普通のユニットが先になくなるので、出品可能なものが最も長く残ります。[鍛冶場](/wiki/06-Items/Forge.md#merge)で2つの品を統合すると、両方にタグがあった場合だけタグが残り、プレビューにそう表示されます。失敗した鍛冶場のステップは、素材を普通のユニットとして返します。
+
+ハンガーの**出品可能のみ**チップは売れるものだけを表示し、タグの付いたアイテムのごみ箱の隣にある**木槌**は、そのアイテムのオークション出品シートを開きます。アセンブリでは、結果が出品可能なレシピにそう表示され、不足している素材には、その名前を検索欄に入れてオークションを開くリンクがあります。
+
+オークション導入時（0.4.12）、すでに持っていた、ショップが売っていない装備と資源には、一度だけタグが付けられました。次のものは付きませんでした。ショップがかつて売っていたか、持っているものに購入品と獲得品が混ざっているためです。Quantum Laser 3、Absorption Shield Cell IIとIII、Impulse Thruster IIとIII、2種類のReinforced Plate、そして各パイロットの最も古いBase CPU I（スターターキットのもの）です。これらを新たに獲得またはクラフトしたものにはタグが付きます。
+
+## 売れるもの {#what-can-be-sold}
+
+<!-- market-kinds:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+| 種類 | 売れるアイテム | 数 |
+| :--- | :--- | ---: |
+| **レーザー** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **レーザーアンプ** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
+| **シールドコア** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
+| **エンジン** | Engine I, Engine II, Engine III | 3 |
+| **Adaptive Core** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
+| **シールドセル** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
+| **スラスター** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
+| **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Ultra Core（10個単位）, Experimental Fusion Core | 5 |
+| **ロケット** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **資源** | Cataclysite（100個単位）, Ship Fragment（100個単位）, Daraxium（100個単位）, Nyxite（100個単位）, Quorvium（10個単位）, Reinforced Hull Plate（10個単位）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
+
+<!-- market-kinds:end -->
+
+艦船、ドローン、ドローンフォーメーション、ブースター、サブスクリプションは売れません。Ancient Control Unit、鉱石のVelkoniteとOrvium、Dark Matter Plate、Jump CPU、Extra Slots CPU、N.U.K.E.、N.I.K.E.も売れません。Dark Matter Plateは、商品としても価格としても、オークションにはまったく登場しません。装備中のアイテム、ほかのアイテムに組み込まれたアイテム、モジュールを持つアイテム、[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)にあるアイテムは出品できず、使用済みのCloaking CPU、EMP Charge、Base CPUも出品できません。弾薬とロケットはステーションから売ります。先に機体を着陸させてください。
+
+## 売る {#selling}
+
+**アイテムを出品**を押し（またはハンガーの木槌を押し）、獲得したものを選び、クレジットかThuliumを選び、1ロットの価格と出品期間を決めます。シートには、最低価格、価格を入力する3つのチップ（**最低価格**、今いちばん安い出品より1だけ安い**即売**、直近の売却価格の**適正**）、そして出品する前に、出品料、税、受取額が表示されます。1個の品は1ロットです。弾薬や一部の資源は10個や100個のロット単位で売られ、整数のロット数で売ります。出品したものはインベントリから離れ、売れるか、取り消すか、期限が切れるまでサーバーが預かります。その後はタグ付きで戻ってきます。いつでも取り消せます。シーズンの最後の数日でも同じです。出品はスナップショットです。価格を変えるには、出品を取り消して出し直します（出品料はもう一度かかります）。
+
+どのアイテムにも**最低価格**がありますが、**上限価格はありません**。好きな額を付けてください。表は、いくつかのアイテムの最低価格です。
+
+<!-- market-bands:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+| アイテム | 1ロットの個数 | 最低価格、クレジット | 最低価格、Thulium |
+| :--- | ---: | ---: | ---: |
+| Quantum Laser 2 | 1 | 32,000 | 32 |
+| Quantum Laser 3 | 1 | 170,000 | 170 |
+| Helios Beam | 1 | 1,600,000 | 1,600 |
+| Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
+| Heavy Shield Core | 1 | 870,000 | 870 |
+| Impulse Thruster IV | 1 | 980,000 | 980 |
+| EMP Charge | 1 | 40,000 | 40 |
+| Cloaking CPU S | 1 | 400,000 | 400 |
+| Ultra Core | 10 | 800 | クレジットのみ |
+| Lancet I | 1 | 200 | クレジットのみ |
+| Ship Fragment | 100 | 600 | クレジットのみ |
+| Dark Matter | 1 | 33,000 | 33 |
+
+<!-- market-bands:end -->
+
+Thuliumでの価格には、ルールが1つだけあります。クレジットでの最低価格をレートで割って切り上げた額です。レートは、ゲームがThuliumに付けた価値ではありません。Thuliumでの最低価格を計算するためだけのもので、そのためThuliumを持つパイロットにとっては、Thuliumでの出品が安くなることがあります。ほとんどの売り手はクレジットで値を付けるでしょう。安いアイテム（弾薬、ロケット、ほとんどの装備の最初の段階、一般的な資源）はクレジットだけで価格を付けます。Thulium 1つでは刻みが大きすぎるからです。
+
+あなたの**出品中**のもの（と、管理者が保留にした出品）は枠を使います。レベルが上がると、枠が増え、出品を長く続けられ、1日に売れる額と買える額も増えます。
+
+<!-- market-limits:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+| レベル | 出品枠 | 最長の出品期間 | 1日、クレジット | 1日、Thulium | 24時間あたりの出品料 |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| 5 | 6 | 48時間 | 4,500,000 | 22,500 | 1% |
+| 6 | 8 | 48時間 | 6,000,000 | 30,000 | 1% |
+| 7 | 10 | 48時間 | 7,500,000 | 37,500 | 1% |
+| 8 | 12 | 48時間 | 8,500,000 | 42,500 | 1% |
+| 9 | 14 | 48時間 | 10,000,000 | 50,000 | 1% |
+| 10 | 16 | 72時間 | 15,000,000 | 75,000 | 1.5% |
+| 11 | 18 | 72時間 | 15,000,000 | 75,000 | 1.5% |
+| 12 | 20 | 72時間 | 15,000,000 | 75,000 | 1.5% |
+| 13 | 22 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 14 | 22 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 15 | 24 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 16 | 24 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 17 | 26 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 18 | 26 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 19 | 28 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+| 20以上 | 30 | 72時間 | 20,000,000 | 100,000 | 1.5% |
+
+<!-- market-limits:end -->
+
+## 手数料 {#fees}
+
+出品には**出品料**がかかり、出品時に支払って返金されません。売却には**税**がかかり、販売者が受け取る額から差し引かれます。どちらも出品の通貨で支払われ、**破棄**されます。誰の手にも渡らないので、自分自身と取引しても誰も得をしません。シーズンの最後の2日間は、出品料も税もかかりません。
+
+<!-- market-fees:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+| 出品 | 価格 | 出品料 | 税 | 販売者の受取額 |
+| :--- | ---: | ---: | ---: | ---: |
+| Quantum Laser 3：レベル6、24時間 | 170,000クレジット | 1,700クレジット | 8,500クレジット | 161,500クレジット |
+| Quantum Laser 3：レベル10、72時間 | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Helios Beam：レベル12、72時間 | 2,500,000クレジット | 112,500クレジット | 125,000クレジット | 2,375,000クレジット |
+| Helios Beam：レベル12、72時間、シーズン終盤 | 2,500,000クレジット | 0クレジット | 0クレジット | 2,500,000クレジット |
+
+<!-- market-fees:end -->
+
+## 買う {#buying}
+
+**マーケット**には、ほかのパイロットが売っているものが並びます。名前で検索し、アイテム、エンチャント、通貨で絞り込み、価格順、終了が近い順、新しい順で並べ替えられます。出品を選ぶと、それが何か、誰が売っているか、いつまで続くか、そして価格が直近の売却価格、今の最安値、ショップの価格と比べてどうかが分かります。スタックは整数のロット単位で買います。大きな購入では、もう一度確認が出ます。販売者には税を引いた額がすぐに支払われます。あなたは出品料も税も払いません。買ったものは**出品可能ではありません**。**購入**ボタンの隣にページが「入手するもの：取引不可」と表示するのは、売れるのは自分で獲得したものだけだからです。自分の出品は買えません。見ている間に売れた出品には、「その出品はもうありません。」と表示されます。
+
+## 上限 {#limits}
+
+売れる額と買える額には、通貨ごとに別々の1日の上限があり、直近24時間で数えます。2人のパイロットの間で動く額にも上限があるので、サブアカウントで大金を素早く動かすことはできません。クレジットとThuliumは合算されません。Thuliumで売った人が使うのはThuliumの上限だけです。各上限をどれだけ使ったかは、**履歴**で分かります。上限はレベルとともに増え、プレミアムはどれも変えません。ロットの落札は数えません。
+
+出品中のロケット、トップに立っているロットのロケット、手元のロケットは、どれも持てるロケットの最大数に数えられます。出品を使って、ショップのスタックが許す以上を持つことはできません。
+
+## 自分の出品と履歴 {#my-listings-and-history}
+
+**自分の出品**には、枠と、それぞれの出品が状態（公開中、売却済み、取り消し、期限切れ、返却、保留中）とともに表示され、**取り消す**ボタン、終了した出品の**再出品**、そして同じアイテムのほかの出品がもっと安いときの**他に安い出品**チップがあります。期限が切れた出品は、自動でインベントリに戻ります。**履歴**には、売ったもの、買ったもの、落札したものが税とともに表示され、上限も分かります。ゲームはオークションの帳簿を90日間保管します。
+
+何かが売れると、通知（トースト）、オークションのサウンド、新しい残高でお知らせし、ページを閉じている間はオークションの項目にバッジが付きます。続けて売れても通知は1つです。オークションには専用の控えめなサウンドがあり、そこで行うことや起こることごと（出品、終了、売却、入札、競り負け、落札）に1つずつ鳴り、インターフェースの音量に従います。
+
+## 毎時のロット {#the-hourly-lots}
+
+ロットはゲーム自身の出品で、弾薬、ロケット、EMP Chargeを、毎時、入札で売ります。ショップより安く弾薬を手に入れる方法であり、落札額が破棄されるのでシンクでもあります。開くのは下の1日の表にあるロットだけです（x1やx4の弾薬、Siphon Battery、特殊なロケットは出ません）。通貨はショップのものです。
+
+<!-- market-lots:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+- 毎UTC時の始まりに新しいロットが開き、4時間開いたままなので、同時に4件が開いています。
+- 開始価格は、商品のショップ価格の40%です。以降の入札は、最高入札額より5%以上高く、かつ100クレジットまたは1 Thulium以上多くなければなりません。
+- 入札額はすぐに支払われ、保留されます。誰かに上回られると、すぐに戻ってきます。
+- ロットの終了前2分以内に入札すると、終了が入札の2分後に延びます。最大5回までです。
+- 同時に2件のロットでトップに立て、24時間に6件のロットを落札できます。
+- 落札したものは飛ぶためのもので、取引のためのものではありません。出品可能にはなりません。落札額は破棄されます。誰も入札しなかったロットは売れず、誰にも費用はかかりません。
+- ロットの大きさは、直近3日間にオークションを見たレベル5以上のパイロットの数で決まります。誰もいなければ表の大きさの10%、30人以上で全量になり、刻みは弾薬が500、ロケットが50、EMP Chargeが1です。
+- シーズン終了前の6時間は、ロットは作られません。ワイプで、まだ開いているロットは取り消され、入札はすべて返されます。
+
+<!-- market-lots:end -->
+
+<!-- market-day:begin -->
+<!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
+
+| UTC時 | ロット | 全量 | 支払い通貨 | 全量での開始価格 |
+| :--- | :--- | ---: | :--- | ---: |
+| 00:00 | Scatter III | 250 | Thulium | 500 Thulium |
+| 01:00 | Advanced Plasma | 5,000 | Thulium | 1,000 Thulium |
+| 02:00 | Lancet I | 2,500 | クレジット | 500,000クレジット |
+| 03:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+| 04:00 | Ultra Core | 5,000 | Thulium | 2,000 Thulium |
+| 05:00 | Rivet II | 1,000 | クレジット | 320,000クレジット |
+| 06:00 | Advanced Plasma | 2,000 | Thulium | 400 Thulium |
+| 07:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
+| 08:00 | Ember I | 2,500 | クレジット | 500,000クレジット |
+| 09:00 | Ultra Core | 10,000 | Thulium | 4,000 Thulium |
+| 10:00 | Scatter II | 1,000 | クレジット | 320,000クレジット |
+| 11:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+| 12:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
+| 13:00 | Lancet III | 250 | Thulium | 500 Thulium |
+| 14:00 | Ultra Core | 2,000 | Thulium | 800 Thulium |
+| 15:00 | Advanced Plasma | 5,000 | Thulium | 1,000 Thulium |
+| 16:00 | Ultra Core | 10,000 | Thulium | 4,000 Thulium |
+| 17:00 | Rivet I | 2,500 | クレジット | 500,000クレジット |
+| 18:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
+| 19:00 | Ember II | 1,000 | クレジット | 320,000クレジット |
+| 20:00 | Ultra Core | 5,000 | Thulium | 2,000 Thulium |
+| 21:00 | Advanced Plasma | 5,000 | Thulium | 1,000 Thulium |
+| 22:00 | Advanced Plasma | 2,000 | Thulium | 400 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+
+<!-- market-day:end -->
+
+オークションを使うパイロットが少ないときはロットも小さく、ごく少数のパイロットに毎時何千発もの弾薬が提示されることはありません。見るパイロットが増えるにつれて、大きくなります。
+
+## シーズンとワイプ {#the-season-and-the-wipe}
+
+オークションはシーズンに従います（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md)を参照）。最後の2日間は手数料がかかりません。30日目、ワイプの5分間のカウントダウンが始まるときから閉まり、出品、購入、入札はできず、その時に終わるロットは取り消されて入札は返され、自分の出品は取り消せます。出品はシーズンの終わりを超えて続くことはありません。
+
+ワイプでは、**開いている出品はすべて売り手に戻り**、バラのアイテムになります。ワイプはその後、バラのアイテムをほかのものと同じように消去します（残るのは[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)に入れたものだけです）。残したいものは、売るか、取り消してキャッシュに入れてください。まだ開いているロットは取り消され、入札は返されます。クレジットとThuliumはワイプされません。
+
+## オークションが与えないもの {#what-the-auction-does-not-give-you}
+
+オークションは、獲得したものを取引するためのものです。その限界についても正直にお伝えします。
+
+- **ドロップを売ることは、グラインドになりません。**エイリアンの生のドロップは資源だけで、同じレベル5の狩りの1時間がキルで支払う額の0.4～0.9パーセントの価値しかありません。新しいパイロットにマーケットが与えるのは、ミッションが支払う不要な装備（一度きり）、チャレンジミッションの資源、群れのボスの箱、そして自分で作ったものです。
+- **ディーラーはいません。**パイロットが何をいくらで買いたいかを示す買い注文は、このバージョンにはありません。それまでは、商人になれるのは、素材を買い、アセンブリで装備を作って売る職人と、ワイプをまたいでトランスポートキャッシュに在庫を持つ倉庫係のパイロットだけです。
+- **ショップの装備は転売用ではありません。**ショップで購入した装備は再び売れません。Quantum Laser 1と2、LightとBasicのShield Core、Engine IとII、セルとスラスターの最初の段階、ショップが売るアンプ、購入した弾薬が含まれます。パイロットが持てる、出品可能なQuantum Laser 2は、ミッションが一度だけ支払うものです。
+- **プレートはミッションから来ます。**マーケットにあるVelkoniteとOrvium Reinforced Plateは、チャレンジミッションが支払うものです。鍛造所のプレートは含まれません。含めるとマーケット最大の商品になってしまうからです。
+
+出品がおかしいと思ったら、通常の方法で報告してください。ゲームの管理者は、出品を保留にしたり、返却したり、オークションを一時停止したり、パイロットを利用禁止にしたりでき、その操作はすべて記録されます。

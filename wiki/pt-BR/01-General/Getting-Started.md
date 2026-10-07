@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ec87933483054d8f -->
+<!-- wiki-i18n source: a44ddf47d42a20f6 -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -9,6 +9,7 @@ Boas-vindas à experiência definitiva de guerra espacial. Como piloto do SpaceC
 ![The Game Log and the minimap](../../img/wiki-img/shots/hud-minimap.jpg)
 ![The ship and pilot windows: hull, shield, experience, honor, credits and Thulium](../../img/wiki-img/shots/hud-ship.jpg)
 ![The Dashboard: your ship, your season and the flight controls](../../img/wiki-img/shots/page-dashboard.jpg)
+![A pilot's profile: level, experience, honor and ranking points, the kills, the day of the first login and the time played](../../img/wiki-img/shots/pilot-sheet.jpg)
 ![The Ranking window: your points and how they are calculated](../../img/wiki-img/shots/ranking-window.jpg)
 ![Rankings: the Hall of Fame](../../img/wiki-img/shots/rankings.jpg)
 
@@ -20,6 +21,15 @@ Para sobreviver e prosperar, você precisa administrar duas moedas e ficar de ol
 - **Honra**: Uma pontuação, não dinheiro: uma medida da sua lealdade e do seu prestígio na corporação. A honra não define a sua [patente](/wiki/03-Mechanics/Ranks.md), que é a sua posição entre os pilotos da sua corporação por pontos PvE, e atacar pilotos aliados da sua própria corporação penaliza muito a sua honra: destruir um piloto da sua própria corporação, seja a nave de um jogador ou um dos [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) dela, custa 100 de honra. Atingir um deles nos 15 segundos antes de outra coisa destruí-lo custa o mesmo: enfraquecer um colega de corporação para um alienígena terminar sai tão caro quanto o abate. Matar um colega de corporação não é um abate PvP e não rende pontos PvP. Trocar de corporação tira metade da sua honra, arredondada para baixo; uma honra de 0 ou menos fica como está ([Trocar de corporação](#changing-your-company)).
 
 Na estação, seus Créditos, seu Thulium e sua Honra ficam no canto superior direito de cada página, ao lado do seu setor e do botão **Decolar**. Quando a janela é estreita demais para um valor longo, ele aparece abreviado (987,7M); passe o mouse sobre ele para ler o número inteiro.
+
+## Perfis de piloto {#pilot-profiles}
+
+Clique no nome de um piloto no Hall da Fama (**Comunidade › Rankings**), na página **Estatísticas** ou na lista de membros de um clã, e o **perfil** do piloto se abre: corporação, mundo e clã, nível, experiência, honra e pontos de ranking, os alienígenas e pilotos que ele destruiu e a nave que ele pilota, com os números dela. Dois blocos dizem há quanto tempo o piloto joga:
+
+- **Primeiro login.** O dia em que o piloto entrou pela primeira vez, como uma data no seu próprio fuso horário. Um piloto que jogava antes da 0.4.12 mostra o dia em que entrou pela primeira vez desde essa atualização, e um traço indica um piloto que não entrou desde então.
+- **Tempo de jogo.** Por quanto tempo o jogo do piloto ficou conectado ao servidor, em horas e minutos (“128 h 15 min”, “45 min”), em voo ou na estação. O tempo parado também conta. A contagem começou com a 0.4.12; para um piloto que jogava antes, é o tempo desde essa atualização.
+
+Os dois são públicos, como o nível e a patente: qualquer piloto conectado pode lê-los em um perfil. O reset da temporada não zera nenhum dos dois.
 
 ## Trocar de corporação {#changing-your-company}
 
@@ -64,14 +74,14 @@ O SpaceCorps oferece controles de teclado personalizáveis (acessíveis pelo pai
 | :--- | :--- | :--- |
 | **Mover a nave** | `Left Click` no mapa espacial | Faz a sua nave voar até as coordenadas de destino em que você clicou. |
 | **Girar e aproximar a câmera** | `Right Drag`, `Mouse Wheel` | Arrastar com o botão direito gira a visão em torno da sua nave; a roda (ou um arrasto com o botão do meio) aproxima e afasta, de 30 unidades de distância até 1.500, o que mostra cerca de 4.400 por 2.650 unidades de espaço (2,25 vezes a área de uma visão de 1.000 unidades). A sua rotação e o seu zoom voltam suavemente à visão de repouso dois segundos depois de você soltar, a menos que você ative **A câmera fica onde eu deixar** em Configurações › Geral: então a visão mantém o ângulo e a distância que você deu (o botão **Redefinir visão**, ao lado dessa opção, devolve a câmera à visão de repouso uma vez, e desativar a opção faz o mesmo). **Zoom da câmera**, em Configurações › Geral, define a distância de repouso, de 50% a 338% (150% é o padrão); com a opção ativada, alterar o zoom leva a câmera à nova distância. |
-| **Selecionar alvo** | `Left Click` em um objeto | Seleciona um alienígena, um piloto inimigo ou um portal como alvo ativo. A janela do alvo (veja abaixo) mostra o nome, a distância, o casco e o escudo dele. |
+| **Selecionar alvo** | `Left Click` em um objeto | Seleciona um alienígena, um piloto inimigo ou um portal como alvo ativo. A janela do alvo (veja abaixo) mostra o nome, a distância, o casco e o escudo dele. Um clique em um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) o seleciona sem mudar o seu alvo: só os foguetes o ferem. |
 | **Atacar o alvo selecionado** | `Key A` (ou `Ctrl + Click`) | Começa a disparar seus lasers e foguetes contra o alvo selecionado. |
 | **Disparar foguete** | `Key R` | Dispara o foguete que você lançou por último (ou o primeiro da barra de atalhos): um foguete guiado contra o alvo selecionado, um reto em direção ao cursor. Para mirar um foguete reto com o mouse, clique no slot dele na barra de atalhos para armá-lo e depois clique no espaço. Todos os foguetes compartilham um temporizador de 5 segundos (uma formação de drones pode alterá-lo). |
 | **Saltar pelo portal** | `Key J` | Inicia um salto quando você está a até 500 unidades de um portal (dentro da zona segura dele). O salto leva 3 segundos (uma barra acima da barra de atalhos mostra isso) e você precisa ficar ao alcance até ele terminar. Nos setores de perigo, você não pode iniciar um enquanto está sob ataque. |
 | **Trocar de configuração** | `Key C` | Alterna entre a Config. 1 e a Config. 2 (troca a configuração ativa de lasers/escudos/velocidade). |
 | **Barra de atalhos principal** | `Digits 1 - 9` | Ativa itens/ações nos slots da sua barra de atalhos principal do HUD (por exemplo, munição, drones de reparo). |
 | **Barra de atalhos secundária** | `Shift + Digits 1 - 9` | Ativa itens/ações nos slots da sua barra de atalhos secundária. A fileira aparece acima da principal quando tem algo; abra o seletor de Munição, Foguetes ou Extras (ou arraste um slot) para colocar um item ali. |
-| **Formação de drones** | a tecla do seu slot | Usa a formação desse slot. Arraste-a até lá da lista de Formações da barra de atalhos, que também tem Padrão, nenhuma formação. Você pode trocar uma vez a cada 2 segundos, também em combate. Veja [Formações de drones](/wiki/03-Mechanics/Formations.md). |
+| **Formação de drones** | a tecla do seu slot | Usa a formação desse slot. Arraste-a até lá da lista de Formações da barra de atalhos, que também tem Padrão, nenhuma formação. Você pode trocar uma vez a cada 2 segundos, tanto em combate quanto numa zona segura; os slots mostram os segundos que faltam. Veja [Formações de drones](/wiki/03-Mechanics/Formations.md). |
 | **Tela cheia** | `F11` ou `Alt + Enter` (Windows) | Ativa ou desativa a tela cheia sem bordas; o botão no canto superior direito da tela de voo faz o mesmo no Windows e no macOS. Essas duas teclas são fixas e não aparecem entre os atalhos que você pode mudar. `Alt + Enter` espera enquanto você digita no chat. |
 | **Escolher onde reaparecer** | `Keys 1 - 3` | Na tela de destruição: `1` na base, `2` no portal mais próximo, `3` no local. Veja *Destruição e reaparecimento* acima. |
 | **Janela do alvo** | `Key V` | Mostra ou oculta a janela do alvo. O primeiro botão da barra de ferramentas, no canto superior esquerdo, faz o mesmo. |
@@ -79,7 +89,7 @@ O SpaceCorps oferece controles de teclado personalizáveis (acessíveis pelo pai
 
 ## A janela do alvo {#the-target-window}
 
-Clique em um alienígena ou em um piloto e a **janela do alvo** mostra o que você selecionou: o nome, a distância, as barras de casco e de escudo e se você está atirando nele. O botão de **mira** inicia e interrompe o ataque (o mesmo que `A`), e o botão **X** desmarca o alvo (o mesmo que `Esc`). Sem nada selecionado, ela avisa isso em uma linha.
+Clique em um alienígena ou em um piloto e a **janela do alvo** mostra o que você selecionou: o nome, a distância, as barras de casco e de escudo e se você está atirando nele. O botão de **mira** inicia e interrompe o ataque (o mesmo que `A`), e o botão **X** desmarca o alvo (o mesmo que `Esc`). Sem nada selecionado, ela avisa isso em uma linha. Clique em um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is) e a janela mostra o casco dele, o que ele deixa e quantos foguetes do seu tipo ele leva.
 
 Ela é uma janela como as outras. Arraste-a pela barra de título para colocá-la onde quiser, feche-a com a luz vermelha no canto dela ou com o **primeiro botão da barra de ferramentas, no canto superior esquerdo** (ou `V`), e abra-a de novo do mesmo jeito. Onde você a deixa e se ela está aberta ficam guardados na sua conta. Ela começa no alto da tela, entre as duas barras de ferramentas. Fechá-la só oculta o painel: o seu alvo continua selecionado e o seu ataque prossegue.
 

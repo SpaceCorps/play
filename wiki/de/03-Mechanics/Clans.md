@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc29967a9f16c91b -->
+<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -10,9 +10,11 @@ Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bünd
 - Jeder abgeschlossene Schritt zahlt sofort Clanpunkte: 15, 15, 20, 20 und 30, also **100 Punkte** für eine ganze Linie.
 - Der Anführer und die Stellvertreter geben die Punkte für drei [Boni](#clan-points-and-boosts) mit je zehn Stufen aus: **Schaden** (bis +5 %), **Thulium** (bis +10 %) und **Credits** (bis +10 %).
 - Ein Clan, der jede Linie schafft, hat am **Saisontag 12** jede Stufe gekauft. Punkte und Stufen beginnen mit jedem Wipe neu.
-- Du brauchst mindestens **drei Mitglieder**, die ihren Teil geleistet haben, und etwa fünf Piloten für den Kampf gegen den Wächter.
-- Linie und Boni brauchen ein Spiel ab Version 0.4.10.
+- Du brauchst mindestens **drei Mitglieder**, die ihren Teil geleistet haben, und **etwa sieben Piloten** für den Kampf gegen den Wächter: Fünf verlieren meistens, zehn gewinnen mühelos ([wie groß die Besatzung sein muss](#how-big-a-crew)). Eine zu kleine Besatzung verliert den Kampf: Der Clan behält dann die **70 Punkte** der vier Missionen, aber die Linie ist nicht abgeschlossen und zahlt keine [Belohnung für dich](#the-reward-for-you).
+- Dein Schiff zeigt die Boni, die es hat, im **Booster-Fenster** auf einer eigenen Karte ([wo du sie siehst](#the-three-boosts)).
+- Linie und Boni brauchen ein Spiel ab Version 0.4.10, die Karte im Booster-Fenster ab 0.4.12.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
@@ -103,7 +105,7 @@ Jeder Clan bekommt täglich eine **Tageslinie**: fünf Schritte, die der ganze C
 | | **Eine abgeschlossene Linie** | **100** |
 
 - Nur der **offene Schritt zählt**. Ein Abschuss, der gelingt, während Schritt 1 offen ist, zählt für Schritt 1 und für nichts sonst. Ist Schritt 1 erledigt, beginnt Schritt 2 bei null. Was du über das Ziel eines Schritts hinaus abschießt, wird nicht für den nächsten aufgehoben.
-- Ein Schritt zahlt seine Punkte **in dem Moment, in dem er erledigt ist**. Ein Clan, der die vier Missionen schafft und dann keine Besatzung für den Wächter zusammenbekommt, behält trotzdem **70 Punkte**.
+- Ein Schritt zahlt seine Punkte **in dem Moment, in dem er erledigt ist**. Ein Clan, der die vier Missionen schafft und dann keine Besatzung für den Wächter zusammenbekommt oder den Kampf verliert, behält trotzdem **70 Punkte**; die [Belohnung für dich](#the-reward-for-you) kommt erst mit der abgeschlossenen Linie.
 - Die Arbeit aller geht in **einen gemeinsamen Zähler**: Die Abschüsse des Aliens im offenen Schritt und die Strecke, die alle deine Mitglieder fliegen, werden addiert. Niemand muss einen Schritt allein schaffen.
 
 ### Der Tag {#the-day}
@@ -150,7 +152,7 @@ Die Linien laufen in einem Zyklus von sieben: Die Linie des Saisontags *d* hat d
 
 ### Deine Belohnung {#the-reward-for-you}
 
-Ist die Linie abgeschlossen, bekommt jedes Mitglied, das sein Minimum erreicht hat und noch im Clan ist, eine Auszahlung, auch wenn es offline ist. Sie ist pauschal: Boni, Booster und die Welt ändern sie nicht.
+Ist die Linie abgeschlossen, das heißt der Wächter zerstört, bekommt jedes Mitglied, das sein Minimum erreicht hat und noch im Clan ist, eine Auszahlung, auch wenn es offline ist. Eine Linie, die ohne den Wächter endet, zahlt keine Belohnung, egal was die vier Missionen geschafft haben. Sie ist pauschal: Boni, Booster und die Welt ändern sie nicht.
 
 | Stufe | Credits | Thulium |
 | :--- | ---: | ---: |
@@ -162,7 +164,7 @@ Ist die Linie abgeschlossen, bekommt jedes Mitglied, das sein Minimum erreicht h
 
 ## Clan-Wächter {#clan-wardens}
 
-Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien.
+Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien. Seine Laser treffen hart, ein Wächter ist also ein Kampf für eine volle Besatzung: Bring etwa sieben Piloten mit, denn fünf verlieren meistens ([wie groß die Besatzung sein muss](#how-big-a-crew)).
 
 | Wächter | Saisontage | Rolle | Wie er kämpft |
 | :--- | :--- | :--- | :--- |
@@ -176,64 +178,70 @@ Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öf
 - **Wer.** Der Anführer oder ein Stellvertreter.
 - **Wie.** Im Flug: Der Knopf **Hier rufen** erscheint auf dem Flugbildschirm, sobald Schritt 4 erledigt ist, und lässt dich bestätigen. Sei außerhalb der Schutzzonen, in einem Konzernsektor **x-2, x-3 oder x-4** (eines beliebigen Konzerns) deiner Welt. Der Reiter Einsätze zeigt den Wächter des Tages, die übrigen Rufe und warum der Knopf ausgegraut ist, aber ein Wächter wird vom Schiff aus gerufen.
 - **Wo er erscheint.** 3.000 bis 4.500 Einheiten von deinem Schiff entfernt, in deiner Welt: Nur Piloten dieser Welt erreichen ihn. Der Reiter empfiehlt **x-2 für einen Rekruten-Clan, x-3 für Veteranen und x-4 für Elite**. Die üblichen [PvP-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) des gewählten Sektors gelten weiter.
-- **Aufwärmen.** Er steht **90 Sekunden** lang abgeschirmt und passiv da („fährt hoch“), und jeder Clanpilot, der online ist, erfährt, wo. Flieg hin, während er hochfährt: Nach den 90 Sekunden ist er kampfbereit.
+- **Aufwärmen.** Er steht **90 Sekunden** lang abgeschirmt und passiv da („fährt hoch“), und jeder Clanpilot, der online ist, erfährt, wo. Flieg hin, während er hochfährt: Nach den 90 Sekunden ist er kampfbereit. Eine Kapsel unter der Schutzzonen-Anzeige auf dem Flugbildschirm begleitet ihn: sein Name, „fährt hoch“ mit der Restzeit, dann „kampfbereit“ mit seinem Sektor und der Zeit bis zum Rückzug, und „rasend“, sobald ein Wrath Warden unter der halben Hülle ist.
 - **Nur dein Clan.** Die Schüsse von Piloten anderer Clans werden ignoriert und bringen ihn nicht dazu, zurückzuschießen.
 - **Wie es endet.** Wenn er zerstört wird. Er **zieht sich zurück**, 40 Minuten nachdem er kampfbereit wurde, wenn der Tag endet, wenn kein Pilot deines Clans 2 Minuten lang in seinem Sektor im Flug war oder wenn der Server neu startet (dann wird der Ruf zurückgegeben). Ein Wächter, der sich zurückzieht, kostet einen Ruf, und der nächste Ruf ist derselbe Wächter mit voller Stärke.
 
 ### Einen Wächter bekämpfen {#fighting-a-warden}
 
 - **Ein Wächter kämpft gegen den Piloten, der ihn zuerst getroffen hat**, wie jeder Boss: Lass das robusteste Schiff der Besatzung beginnen und nutze [Shield Surge und Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Nimm x2-Munition mit** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Eine Besatzung von fünf gewinnt auch mit x1-Munition, nur langsamer; eine von drei nicht.
-- **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung von drei, die sie ignoriert, verliert. Schieß sie zuerst ab: Eine stirbt unter dem Feuer von fünf Piloten in einer Sekunde oder weniger, und die nächste kommt nach 8 Sekunden.
+- **Bring etwa sieben Piloten und x2-Munition mit** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Fünf verlieren meistens, zehn gewinnen mühelos. Die Tabelle unten zeigt den besten Fall, und selbst in ihm verlieren drei gegen jeden Wächter, und vier gewinnen nur gegen die Siege Warden I und II. In der Tabelle hat die kleinste Besatzung, die gewinnen kann, 4 bis 5 Piloten mit x2-Munition und 6 bis 8 mit x1-Munition.
+- **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, verliert: Fünf Piloten, die nur auf den Wächter schießen, fallen alle, wenn noch etwa die Hälfte von ihm steht, und zehn brauchen etwa ein Fünftel länger. Schieß sie zuerst ab: Eine stirbt unter dem Feuer von fünf Piloten in einer Sekunde oder weniger, und die nächste kommt nach 8 Sekunden.
 - **Siege:** Seine Raketen fliegen gerade und ungelenkt, ein Schiff, das in Bewegung bleibt, weicht den meisten aus. Bleib in Bewegung und wechselt euch als Ziel ab.
 - **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf.
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 
 > [!NOTE]
-> Diese Zeiten sind aus den Zahlen unten **berechnet**, nicht im Spiel gemessen: eine Besatzung in den Schiffen und der Ausrüstung, für die die Stufe gemacht ist, die alle auf den Wächter feuern. Ein Strich heißt, dass wir es nicht berechnet haben.
+> Diese Zeiten sind aus den Zahlen unten **berechnet**, nicht im Spiel gemessen. Die Besatzung fliegt in den Schiffen und der Ausrüstung, für die die Stufe gemacht ist, und die Tabelle zeigt ihren **besten Fall**: Jeder Pilot setzt Shield Surge und Emergency Repair ein, sobald sie bereit sind, und die Besatzung schießt zuerst auf die Helfer des Wächters, wenn das besser ist. Der Wächter und seine Helfer feuern alle auf den Piloten, der zuerst getroffen hat, und niemand weicht aus. **Ein echter Kampf ist härter als die Tabelle.** Die Zeile mit fünf Piloten ist selbst im besten Fall knapp (ein Sieg, der ein oder zwei Schiffe kostet), und in denselben Kämpfen, die wir im Spiel selbst mit skriptgesteuerten Piloten ausgetragen haben, verloren fünf Piloten die meisten, auch wenn sie beide Fähigkeiten einsetzten; sieben gewannen jeden ihrer Kämpfe, und zehn gewannen mühelos. Eine Besatzung aus fünf Piloten, die keine Fähigkeit einsetzt und nur auf den Wächter schießt, verliert gegen sieben der neun Wächter; sieben Piloten, die dasselbe tun, gewinnen gegen acht von ihnen (alle außer dem Brood Warden III, dessen Drohnen ihn heilen) und verlieren ein bis drei Schiffe, und zehn gewinnen gegen alle neun.
+
+Die Tabelle zeigt den besten Fall mit x2-Munition; im Spiel verlieren fünf Piloten meistens, und etwa sieben gewinnen.
 
 | Besatzung | Mit x2-Munition | Mit x1-Munition |
 | :--- | :--- | :--- |
-| 2 Piloten | verlieren gegen Brood und Siege; gewinnen gegen Wrath in etwa 17 Minuten | – |
-| 3 Piloten | gewinnen in 9 bis 10 Minuten, knapp: Die Hülle des Tanks ist am Ende niedrig, und ein Pilot kann ausfallen | verlieren |
-| 5 Piloten | gewinnen in etwa 5 Minuten | gewinnen in 12 bis 14 Minuten |
-| 7 Piloten | gewinnen in etwa 3,4 Minuten | – |
-| 10 Piloten | gewinnen in etwa 2,3 Minuten | – |
+| 3 Piloten | verlieren gegen jeden Wächter, nach 4,7 bis 13,8 Minuten; der Wächter behält zwischen einem Viertel und zwei Dritteln seiner Hülle und seines Schilds | verlieren |
+| 4 Piloten | gewinnen nur gegen die Siege Warden I und II, in etwa 8 Minuten, und verlieren 1 Schiff | verlieren |
+| 5 Piloten | gewinnen gegen jeden Wächter in 5,3 bis 6,5 Minuten und verlieren 1 bis 2 Schiffe | verlieren |
+| 7 Piloten | gewinnen gegen jeden Wächter in 3,3 bis 3,6 Minuten und verlieren 0 bis 1 Schiffe | gewinnen gegen jeden Wächter außer den Brood Warden II und III, in 8,7 bis 12,3 Minuten, und verlieren 1 bis 4 Schiffe |
+| 10 Piloten | gewinnen gegen jeden Wächter in 2,2 bis 2,4 Minuten und verlieren 0 bis 1 Schiffe | gewinnen gegen jeden Wächter in 5,1 bis 5,6 Minuten und verlieren 1 bis 2 Schiffe |
 
-Eine Besatzung einer niedrigeren Stufe als der Wächter verliert: Eine Rekruten-Besatzung von fünf kann keinen Veteranen-Wächter töten, und eine Veteranen-Besatzung keinen Elite-Wächter. Der Wächter **deines** Clans passt immer zu **deiner** Stufe.
+Im besten Fall hat die kleinste Besatzung, die mit x2-Munition gewinnt, **4 Piloten** (gegen die Siege Warden I und II) bis **5** (gegen die anderen sieben) und verliert dabei **1 bis 2** Schiffe; mit x1-Munition hat sie **6 bis 8** Piloten und verliert 2 bis 4. Eine Besatzung von **sieben** gewinnt mit x2-Munition gegen jeden Wächter und verliert im besten Fall höchstens ein Schiff. Die Laser eines Wächters treffen in Stärke I mit einigen Dutzend bis über hundert pro Salve (48 bis 129) und in Stärke III mit Tausenden (1.845 bis 3.090), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in anderthalb bis vier Minuten, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, Schiffe.
+
+Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des Wächters. Schwächere Schiffe schneiden schlechter ab: Zehn Piloten in Rekruten-Ausrüstung können keinen Veteranen-Wächter töten, und zehn in Veteranen-Ausrüstung keinen Elite-Wächter. Der Wächter **deines** Clans passt immer zu **deiner** Stufe, die die fünf besten Piloten des Clans bestimmen, bring sie also mit.
+
+**Ein Clan, der für seinen Wächter zu klein ist,** ist nicht ausgesperrt (weniger als etwa sieben Piloten am Tag). Die vier Missionen zahlen ihre **70 Punkte**, was auch mit dem Wächter geschieht, die Punkte kaufen Boni, und der Clan kann den Wächter erneut rufen, wenn er noch einen Ruf übrig hat (es sind zwei pro Tag): Fällt die Besatzung und bleibt weg, zieht sich der Wächter zurück, das kostet einen Ruf, und der nächste Ruf bringt ihn mit voller Stärke zurück. Aber die Linie ist nicht abgeschlossen, also bekommt niemand die [Belohnung für dich](#the-reward-for-you), und ein Clan, der seinen Wächter nie besiegt, hat alle 30 Bonusstufen frühestens am Saisontag 18 statt am Tag 12 ([wie lange es dauert](#how-long-it-takes)).
 
 ### Die Zahlen der Wächter {#warden-numbers}
 
-Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihre Bezahlung. Jede Drohne, jeder Begleiter und jede Wache hat die Zahlen der zweiten Tabelle, und sie stehen beim Wächter: Eine Brood Drone heilt die Hülle des Wächters, eine Siege Escort oder eine Wrath Guard feuert Laser.
+Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihre Bezahlung. Jede Drohne, jeder Begleiter und jede Wache hat die Zahlen der zweiten Tabelle, und sie stehen beim Wächter: Eine Brood Drone heilt die Hülle des Wächters, eine Siege Escort oder eine Wrath Guard feuert Laser. Eine Salve sind die Schüsse aller Laser eines Schiffs in einer Sekunde, ausgewürfelt zwischen 80 und 100 % der angezeigten Zahl; ein Wrath Warden mit weniger als der halben Hülle trifft anderthalbmal so hart. Der Wächter und seine Helfer feuern alle auf den Piloten, gegen den der Wächter kämpft, ihre Salven addieren sich also: Ein Brood Warden III mit seinen vier Drohnen legt bis zu 4.350 pro Sekunde auf ein Schiff. Die [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) des Siege Warden wird nicht ausgewürfelt: Sie trifft mit höchstens **2.500** in Stärke I, **5.000** in Stärke II und **7.500** in Stärke III, während die Rivet eines Piloten zwischen einer kleinsten und einer größten Zahl gewürfelt wird. Sie fliegt geradeaus, ein Schiff, das in Bewegung bleibt, wird also verfehlt.
 
 | Wächter | Hülle | Schild | Laserschaden (eine Salve pro Sekunde) | Tempo | Laserreichweite | Repariert sich selbst (Hülle pro Sekunde) | Rakete und Sekunden zwischen den Schüssen |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166.000 | 136.000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288.000 | 236.000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1.060.000 | 870.000 | 1.030 | 90 | 800 | – | – |
-| Siege Warden I | 143.000 | 117.000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248.000 | 203.000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915.000 | 745.000 | 615 | 110 | 800 | 1.385 | Rivet III: 8 |
-| Wrath Warden I | 163.000 | 133.000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282.000 | 231.000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1.040.000 | 850.000 | 820 | 90 | 900 | 1.385 | – |
+| Brood Warden I | 166.000 | 136.000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288.000 | 236.000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1.060.000 | 870.000 | 3.090 | 90 | 800 | – | – |
+| Siege Warden I | 143.000 | 117.000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248.000 | 203.000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915.000 | 745.000 | 1.845 | 110 | 800 | 1.385 | Rivet III: 8 |
+| Wrath Warden I | 163.000 | 133.000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282.000 | 231.000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1.040.000 | 850.000 | 2.460 | 90 | 900 | 1.385 | – |
 
 | Helfer | Anzahl | Hülle | Schild | Laserschaden (eine Salve pro Sekunde) | Tempo | Heilt den Wächter (Hülle pro Sekunde) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1.200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4.000 | 3.500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4.300 | 3.500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7.400 | 6.100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27.500 | 22.500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4.900 | 4.000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8.500 | 6.900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31.000 | 25.500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1.200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4.000 | 3.500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4.300 | 3.500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7.400 | 6.100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27.500 | 22.500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4.900 | 4.000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8.500 | 6.900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31.000 | 25.500 | 495 | 180 | – |
 
 ### Bezahlung und Beute {#warden-pay-and-loot}
 
-Ein Wächter zahlt so viel wie ein Stapel des schweren Aliens der Stufe: **30 Phantasms** für einen Wächter I, **24 Bulwarks** für einen II und **16 Goombahs** für einen III. Es ist ein Topf, aufgeteilt nach Schaden unter den Piloten, die mindestens 5 % des Schadens verursacht haben, genauso wie beim Anführer eines [Schwarms](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Deine [Clan-Boni](#what-the-boosts-apply-to) gelten für deinen Anteil. Nach unserer Rechnung decken die Credits die x1-Munition, die eine Besatzung von fünf verbrennt, und x2-Munition kostet mehr Thulium, als der Wächter zahlt: Es ist ein Kampf um die Punkte und die Kiste.
+Ein Wächter zahlt so viel wie ein Stapel des schweren Aliens der Stufe: **30 Phantasms** für einen Wächter I, **24 Bulwarks** für einen II und **16 Goombahs** für einen III. Es ist ein Topf, aufgeteilt nach Schaden unter den Piloten, die mindestens 5 % des Schadens verursacht haben, genauso wie beim Anführer eines [Schwarms](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Deine [Clan-Boni](#what-the-boosts-apply-to) gelten für deinen Anteil. Nach unserer Rechnung decken die Credits ungefähr die x1-Munition, die die kleinste Besatzung verbrennt, die gewinnen kann, und x2-Munition kostet mehr Thulium, als der Wächter zahlt: Es ist ein Kampf um die Punkte und die Kiste. Die Bezahlung hat sich in 0.4.12 nicht geändert, als die Laser der Wächter stärker wurden: Der Topf wächst nicht mit dem Schaden, den du einsteckst, oder den Schiffen, die du verlierst.
 
 | Stärke des Wächters | Credits | Thulium | Erfahrung (EP) | Ehre |
 | :--- | ---: | ---: | ---: | ---: |
@@ -279,6 +287,8 @@ Clanpunkte gehören dem Clan. Jeder Schritt, den der Clan abschließt, erhöht s
 | **Flotten-Thulium** | 10 | +1 % | +10 % | Thulium aus Abschüssen und Missionsbelohnungen |
 | **Flotten-Credits** | 10 | +1 % | +10 % | Credits aus Abschüssen und Missionsbelohnungen |
 
+**Wo du sie siehst.** Im Flug zeigt das **Booster-Fenster** die Boni, die dein Schiff hat, auf einer eigenen Karte **Flottenboni** unter den zeitlich begrenzten Boostern: das Tag deines Clans, dann eine Zeile pro Bonus mit seinem Wert und seiner Stufe (Stufe 3/10). Sie haben keinen Timer, denn ein Clanbonus gilt, solange du im Clan bist. Fahr mit der Maus über eine Zeile, um zu sehen, worauf sie wirkt. Ein Clan, der noch nichts gekauft hat, zeigt „Deine Flotte hat noch keine Boni“, und ein Pilot ohne Clan sieht keine Karte. Die Booster-Karte des **Dashboards** und das Profil eines Piloten listen sie ebenfalls. Die Karte zeigt, was dein Schiff anwendet, so wie der Server es dem Spiel mitteilt, eine Stufe, die die Offiziere gerade gekauft haben, erscheint also sofort. Ein Spiel vor 0.4.12 wendet die Boni an und zeigt keine Karte.
+
 ### Preise {#boost-prices}
 
 Der Preis einer Stufe ist **22 Clanpunkte plus 4 für jede Stufe davor**, und er ist für alle drei Boni gleich: 400 Punkte für einen Bonus, **1.200 für alle drei**, das sind zwölf abgeschlossene Linien.
@@ -300,13 +310,13 @@ Der Preis einer Stufe ist **22 Clanpunkte plus 4 für jede Stufe davor**, und er
 
 - **Flotten-Schaden** erhöht den gesamten Laserschaden deines Schiffs: gegen Aliens, Schwarmschiffe, Wächter und andere Piloten. Er wirkt **nicht auf Raketen**, auf keine Art.
 - **Flotten-Thulium und Flotten-Credits** erhöhen die Bezahlung von Alien-Abschüssen (deine eigenen, dein Anteil an einem Boss und dein Anteil an einem Gruppenabschuss) und die Belohnung jeder Mission, die du einlöst, ob Level-, Station- oder Herausforderungs-Mission ([Quests](/wiki/03-Mechanics/Quests.md#rewards)). Sie wirken **nicht auf** die Farmen des [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm), Bankauszahlungen, Bonuscodes oder die Belohnung der Tageslinie.
-- **Sie addieren sich zu deinen anderen Boni** (Booster wie der Damage Amp, die Boni des [Saison-Shops](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): Die Prozente werden addiert. Laserverstärker (Amps) gehören nicht dazu: Sie addieren festen Schaden, und die Prozente gelten für die Summe. Fünf Punkte Flotten-Schaden neben 50 aus anderen Quellen ergeben 55, das sind 3,3 % mehr Schaden als vorher.
+- **Sie addieren sich zu deinen anderen Boni** (Booster wie der Laser Damage Booster, die Boni des [Saison-Shops](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): Die Prozente werden addiert. Laserverstärker (Amps) gehören nicht dazu: Sie addieren festen Schaden, und die Prozente gelten für die Summe. Fünf Punkte Flotten-Schaden neben 50 aus anderen Quellen ergeben 55, das sind 3,3 % mehr Schaden als vorher.
 - **Ein Bruchteil geht nicht verloren.** Ein Bonus bringt einem Abschuss oft weniger als eine Einheit: 10 % von 4 Thulium eines Seekers sind 0,4. Das Spiel merkt sich den Bruchteil und zahlt ihn mit den Einheiten deiner nächsten Abschüsse aus, sodass zehn Seeker die 4 zahlen, die dir zustehen. Der Bruchteil, den du gerade hältst, verfällt, wenn du dich abmeldest.
 - **Beitreten und Austreten.** Ein Pilot hat die Boni ab dem Moment, in dem er dem Clan beitritt, und verliert sie in dem Moment, in dem er austritt, rausgeworfen wird oder der Clan aufgelöst wird. Der Clan behält seine Stufen.
 
 ### Wie lange es dauert {#how-long-it-takes}
 
-Ein Clan, der jede Linie schafft, verdient 100 Punkte pro Tag. Wenn die Offiziere gleichmäßig auf die drei Boni verteilt kaufen, hat er **4 Stufen nach der ersten Linie, 10 nach der dritten, 16 nach der fünften und alle 30 am Saisontag 12**. Vierzehn Linien sind vorbei, wenn Tag 15 beginnt, ein solcher Clan hat also zwei Linien Spielraum. Ein Tag, der nicht fertig wird, zahlt trotzdem für die erledigten Schritte. Nach der letzten Stufe läuft die Linie weiter und zahlt weiter deine Belohnung; die Punkte zählen weiter in das, was der Clan in dieser Saison verdient hat, das der Hover-Tooltip der Clanpunkte auf der Karte Flottenboni zeigt.
+Ein Clan, der jede Linie schafft, verdient 100 Punkte pro Tag. Wenn die Offiziere gleichmäßig auf die drei Boni verteilt kaufen, hat er **4 Stufen nach der ersten Linie, 10 nach der dritten, 16 nach der fünften und alle 30 am Saisontag 12**. Vierzehn Linien sind vorbei, wenn Tag 15 beginnt, ein solcher Clan hat also zwei Linien Spielraum. Ein Tag, der nicht fertig wird, zahlt trotzdem für die erledigten Schritte: Ein Clan, der die vier Missionen schafft, seinen Wächter aber nie besiegt, verdient 70 Punkte pro Tag und hat alle 30 Stufen frühestens am Saisontag 18. Nach der letzten Stufe läuft die Linie weiter und zahlt weiter deine Belohnung; die Punkte zählen weiter in das, was der Clan in dieser Saison verdient hat, das der Hover-Tooltip der Clanpunkte auf der Karte Flottenboni zeigt.
 
 ### Punkte und der Wipe {#clan-points-and-the-wipe}
 

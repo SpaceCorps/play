@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.4 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.4: Brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage, two craft-only rockets that make Dark Matter for the Forge&#x27;s top tiers…">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.4.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.4.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.4 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.4: Brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage, two craft-only rockets that make Dark Matter for the Forge&#x27;s top tiers…">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.4.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.4 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.4",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.4.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.4.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.4.html",
+      "name": "SpaceCorps 2027 0.4.4 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.4: Brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage, two craft-only rockets that make Dark Matter for the Forge's top tiers…",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-09-30"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.4.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.4" aria-labelledby="v0.4.4-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.4-title">0.4.4</h2>
+        <p class="note-meta"><time datetime="2026-09-30" data-date>30 September 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.4">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.4 brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage, two craft-only rockets that make Dark Matter for the Forge's top tiers, abilities that stack, a Cloaking CPU without a timer, a stronger black hole, the Hangar in flight, twelve new modules and fullscreen on Windows. Terra's four sectors are a loop again, and Skylab upgrades from level 6 take longer and longer. Some setups change or get weaker, and this page says which.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>Groups:</strong> up to 5 pilots of any company see each other's ship, hull and shield, share the rewards of an alien kill and count for each other's kill missions. The chat has Global, Local and Group tabs, and the Group window opens on <strong>B</strong>.</li><li><strong>Rockets, reworked:</strong> every rocket does a fixed amount of damage (2,000 for a Lancet up to 7,500 for a Piledriver) and costs 500 or 800 credits, or 5 Thulium. Rockets without a lock fly toward your cursor, and a slot click arms one. Nothing caps what a rocket does to a pilot.</li><li><strong>N.U.K.E., N.I.K.E. and Dark Matter:</strong> two rockets that only Assembly makes. The N.U.K.E. is the biggest blast in the game. The N.I.K.E. hits a ship for 75,000, or makes Dark Matter if it falls into the black hole first. The Forge's steps to Rupturing and Eternal now need 2 Dark Matter Plates each.</li><li><strong>Twelve new modules:</strong> four laser amps, two shield cells, two thrusters, and an upgrade at the top of each family that keeps the Forge tier of the piece it uses up.</li><li><strong>Abilities stack:</strong> several shields, engines or Repair Drones in your ability slots add 50% each. The Shield Surge puts shield back over 10 seconds and Emergency Repair heals over 10 seconds. New pilots start with a Repair Drone I fitted.</li><li><strong>The Cloaking CPU has no timer.</strong> Other companies see a red dot on the minimap, an EMP within 1,500 units ends your cloak, and any end costs a minute of recharge.</li><li><strong>The black hole</strong> pulls harder and carries a ship that stops, can be seen from anywhere in Danger Sector 4, and has debris that spirals in.</li><li><strong>The Hangar works in flight,</strong> inside a safe zone's ring: fit items, swap configuration or fly another of your ships.</li><li><strong>Jumping takes 3 seconds</strong> and picking up a cargo box 1. In a Danger Sector you can't jump while under attack.</li><li><strong>Skylab upgrades take days at the top:</strong> from level 6 each takes 1.6 times as long as the one before, up to 6 days for the last step.</li><li><strong>Terra is a loop again.</strong> The 0.4.3 diamond is taken back: <code>T-1</code> has one portal.</li><li><strong>Fullscreen on Windows</strong> (button, F11, Alt+Enter). It is new and nobody has run it on a real Windows PC yet.</li><li>Also: the Helios Beam is made from a Starfire-3, a Slave Drone becomes a Master Drone in place, a Resources page in the wiki, aliens let go of a pilot they have not shot at, Chrono-Gate scans cost a tenth, Shift no longer stops the flight keys, and alt-tab no longer leaves the game behind the server.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Rocket prices change for everyone.</strong> Common rockets cost 500 credits (the Lancet was 100, the Rivet and Scatter 60), Rare ones 800, and the four Epic ones (Harpoon, Piledriver, Eclipse, Maelstrom) cost 5 Thulium instead of credits. Rockets you own stay yours, and nobody is refunded.</li><li><strong>A rocket no longer depends on your ship.</strong> It does its own fixed damage, so a rocket from a weak ship hits harder than before and one from a strong ship may hit softer.</li><li><strong>Rockets have no cap on pilots any more.</strong> A N.I.K.E. destroys a fresh Protos, Kitefin or Ostirion in one hit (an Ostirion with Light Shield Cores). Safe zones, the Peace Protocol, sectors without PvP, your company and your group still protect you.</li><li><strong>Rockets without a lock</strong> (Rivet, Mallet, Piledriver, Scatter, Barrage, Maelstrom) fly toward your cursor, whatever you have selected. A click on their slot arms them and your next click in space fires.</li><li><strong>The Forge's steps to Rupturing and Eternal need 2 Dark Matter Plates each,</strong> on top of what they took. Only N.I.K.E.s fired into the black hole make Dark Matter, so until you have plates a Godly item stays Godly. Gear that is already Rupturing or Eternal keeps its tier.</li><li><strong>The Shield Surge no longer gives an overshield.</strong> It puts back 30, 60 or 100% of your maximum shield over 10 seconds. <strong>Emergency Repair heals over 10 seconds</strong> instead of at once. You can fit several modules of a kind in your ability slots. Pilots who already play are not given a starter Repair Drone.</li><li><strong>The Cloaking CPU no longer runs out,</strong> and the recharge after any end is 60 seconds instead of 20. Other companies see where you are as a red dot. <strong>An EMP now ends every cloak within 1,500 units of it,</strong> your own company's too.</li><li><strong>Jumps and cargo take time.</strong> A jump takes 3 seconds and a cargo box 1. <strong>Return to Base is still an instant exit,</strong> also in a Danger Sector fight.</li><li><strong>Skylab upgrades from level 6 take longer,</strong> up to 6 days at the top. Upgrades already running keep the time they were given. <strong>Upgrading Solar switches off every farm and collector until it is done,</strong> as it always did, but now that can be days. The upgrade sheet warns you.</li><li><strong>The Helios Beam needs a Starfire-3</strong> and uses it up. Crafts you already started keep what you paid.</li><li><strong>Crafting a Master Drone</strong> upgrades one of your Slave Drones in place, and its level and experience start again at 0. Nothing lands in your inventory.</li><li><strong>Terra's sectors are a loop again.</strong> The <code>T-1</code> to <code>T-3</code> portal of 0.4.3 is gone.</li><li><strong>The black hole</strong> carries a ship that stops. Slow ships have their point of no return farther out: a stock Protos at about 1,630 units instead of about 1,190.</li><li><strong>Aliens</strong> you have not shot at lose interest at 1,200 units. Aliens you did shoot follow you a little farther than before (2,500 units).</li><li><strong>The Hangar's equip, unequip, delete and revive routes answer 409 outside a safe zone's ring</strong> while you fly. Tools and scripts that changed equipment in flight from anywhere now get a refusal.</li><li><strong>Chrono-Gate scans cost 5,000 credits and 5 Thulium,</strong> a tenth of before. The chances are the same.</li><li><strong>Music starts at volume 15.</strong> Settings you saved keep their value.</li><li><strong>The chat has a Global tab now.</strong> What you type goes to the tab in view, and Global reaches every pilot online, so look at which tab is open before you type.</li></ul>
+        <h3>Groups and chat channels</h3>
+        <ul><li>A <strong>group</strong> is up to 5 pilots of <strong>any company</strong>. Friends who fly for different companies can be one group, even enemies in the PvP sectors. Members see each other's ship, hull and shield, how far away they are and where, and members who are cloaked too. The Group window opens on <strong>B</strong> (rebind it in Settings › Controls) or from its button in the toolbar.</li><li><strong>Invite</strong> a pilot by selecting them and pressing <strong>Invite to group</strong> in the target panel, by right-clicking their name in the chat, or with <strong>+</strong> in the Group window. The pilot gets a card with <strong>Accept</strong> (Y) and <strong>Deny</strong> (Escape) and 60 seconds to answer. You can't invite a pilot who is in a group, who has <strong>Do Not Disturb</strong> on (the bell in the Group window, or Settings › General › Groups) or who has too many invitations waiting. You can send 10 invitations a minute, and 3 of them to other companies.</li><li>An invitation from <strong>another company</strong> names the company, is marked <strong>Enemy</strong> and warns what accepting means, so nobody joins by mistake: its members see your ship, hull, shield and the map you are on, even when you are cloaked, and you can't attack each other. A pilot of another company who leaves your group can't be invited by you again for a minute.</li><li>The first invitation that is accepted makes its sender the <strong>leader</strong>. The leader invites, removes members and hands the lead on. Anyone can leave, a group of one ends by itself, and when the leader leaves the member who has been in longest leads. You can be in one group at a time. If your connection drops or you dock, your place is kept for 2 minutes.</li><li><strong>Members can't hurt each other.</strong> You can't lock on to a groupmate with a laser or a guided rocket, your shots and blasts pass through them, and nothing you do to one counts as a kill for anyone. That holds for company mates in one group too. Company mates who are not in the same group are as before: destroying one costs 100 honor. An EMP doesn't break the cloak of its owner's groupmates. When you leave or are removed, a former mate is fair game again at once.</li><li><strong>A kill's rewards are shared.</strong> When a member destroys an alien, its credits, Thulium, experience and honor are split by level among the members who are on the same map, alive, within 4,000 units of the wreck and <strong>fired a laser or a rocket in the last 15 seconds</strong>. The one who made the kill always has a share and gets what rounding leaves. The cargo crate, the kill in the statistics and the ranking, and the drones' experience stay with the killer. Kills of pilots are not shared.</li><li><strong>Missions count for the group.</strong> A kill also counts for the kill missions of every member on the same map who fired in the last 15 seconds, wherever they are on it. The mission's own rules still decide what counts.</li><li>The chat has three tabs: <strong>Global</strong> (every pilot online, in every world), <strong>Local</strong> (your map) and <strong>Group</strong> (your group, wherever it is). Each has its colour, a tab counts the lines you have not read, and the line you type goes to the tab in view. You can also start a line with <code>/g</code>, <code>/l</code> or <code>/p</code>. Global allows 3 lines in a burst and then one every 2 seconds.</li><li><strong>Groups live in the server's memory,</strong> so every server update ends them: invite each other again. A new season ends them too.</li></ul>
+        <h3>Rockets: fixed damage, new prices</h3>
+        <ul><li>A rocket now has <strong>its own damage, a fixed number of points.</strong> It is the same whoever fires it: your ship, lasers, amps, boosters, ammo and drones change nothing, and a rocket never crits. A single-target rocket deals its damage to the ship it hits. A blast deals it to every ship inside, the whole number at the centre and 25 to 35% at the edge. The timer is still 5 seconds for all rockets together.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Rocket</th><th scope="col">Kind</th><th scope="col">Damage</th><th scope="col">Skips the shield</th><th scope="col">Blast radius</th><th scope="col">Price</th><th scope="col">Carry at most</th></tr></thead><tbody><tr><th scope="row">Lancet</th><td>guided, one ship</td><td>2,000</td><td>15%</td><td></td><td>500 credits</td><td>500</td></tr><tr><th scope="row">Javelin</th><td>guided, one ship</td><td>4,000</td><td>30%</td><td></td><td>800 credits</td><td>200</td></tr><tr><th scope="row">Harpoon</th><td>guided, one ship</td><td>6,000</td><td>50%</td><td></td><td>5 Thulium</td><td>50</td></tr><tr><th scope="row">Rivet</th><td>straight, one ship</td><td>2,500</td><td>10%</td><td></td><td>500 credits</td><td>500</td></tr><tr><th scope="row">Mallet</th><td>straight, one ship</td><td>5,000</td><td>30%</td><td></td><td>800 credits</td><td>200</td></tr><tr><th scope="row">Piledriver</th><td>straight, one ship</td><td>7,500</td><td>50%</td><td></td><td>5 Thulium</td><td>50</td></tr><tr><th scope="row">Ember</th><td>guided, blast</td><td>1,400</td><td></td><td>170</td><td>500 credits</td><td>500</td></tr><tr><th scope="row">Corona</th><td>guided, blast</td><td>2,800</td><td></td><td>230</td><td>800 credits</td><td>200</td></tr><tr><th scope="row">Eclipse</th><td>guided, blast</td><td>4,200</td><td></td><td>300</td><td>5 Thulium</td><td>50</td></tr><tr><th scope="row">Scatter</th><td>straight, blast</td><td>1,750</td><td></td><td>210</td><td>500 credits</td><td>500</td></tr><tr><th scope="row">Barrage</th><td>straight, blast</td><td>3,500</td><td></td><td>290</td><td>800 credits</td><td>200</td></tr><tr><th scope="row">Maelstrom</th><td>straight, blast</td><td>5,250</td><td></td><td>400</td><td>5 Thulium</td><td>50</td></tr></tbody></table></div>
+        <ul><li>A straight rocket does 25% more than the guided rocket of its tier for the same price, because you have to aim it. A blast does 70% of the single-target rocket of its tier, to every ship it covers.</li><li><strong>Nothing caps a hit on a pilot.</strong> In 0.4.3 one rocket took at most a quarter of another pilot's hull. Now a rocket hits a pilot like any hit: the shield takes its share (less what the rocket skips) and the rest goes to the hull. By our model two Piledrivers or three Harpoons destroy a fresh Protos, five to seven rockets a Kitefin, and ten to thirteen an Ostirion. The rest of the rules are as in 0.4.3: no rocket hurts a ship in a safe zone, before the Peace Protocol ends, in a sector where pilots may not fight, or in your own company or group, and you need a laser fitted to fire one.</li><li><strong>Rockets without a lock always fly toward your cursor,</strong> at the point under it in the flight view, even with a target selected. <strong>Click the slot of a Rivet, Mallet, Piledriver, Scatter, Barrage or Maelstrom to arm it.</strong> The slot gets a white frame, the cursor becomes a crosshair, and your next click in space fires the rocket toward that click without moving your ship. Escape, a right click, the same slot again, another slot, a jump, a death, or opening Settings or the Galaxy map lets go of it. If the timer is still running the click only tells you so and the rocket stays armed. The number keys and <strong>R</strong> fire at once toward the cursor. Guided rockets still lock the target you selected.</li><li>The Shop, the Hangar, the Transport Cache and the Rockets picker list the rockets one kind at a time (guided single target, straight single target, guided blast, straight blast), cheapest tier first.</li><li>The five missions you start with now give rockets to try: Basic Training: Combat 50 Lancets, Speed Trial 50 Rivets, Combined Operations 30 Embers, Frontier Defense 30 Scatters and Phantasm Hunter 20 Javelins. Only pilots who finish them from now on get them.</li></ul>
+        <h3>The N.U.K.E., the N.I.K.E. and Dark Matter</h3>
+        <ul><li>Two rockets are not in the Shop. <strong>Assembly makes them</strong> and they follow every rule above. Both fly toward your cursor.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Rocket</th><th scope="col">Damage</th><th scope="col">Reach</th><th scope="col">Carry at most</th><th scope="col">Assembly</th></tr></thead><tbody><tr><th scope="row">N.U.K.E.</th><td>50,000 at the centre of a 900-unit blast, 12,500 at its edge</td><td>flies 1,200 units, 4 seconds</td><td>10</td><td>one: 150,000 credits, 3,000 Thulium, 6 Maelstrom, 4 Power Cores, 10 Reinforced Hull Plates, 40 Ship Fragments, 80 Cataclysite (900 s)</td></tr><tr><th scope="row">N.I.K.E.</th><td>75,000 to one ship, half of it skipping the shield</td><td>flies 4,050 units, 4.5 seconds</td><td>20</td><td>five: 100,000 credits, 1,500 Thulium, 20 Ship Fragments, 4 Reinforced Hull Plates, 40 Cataclysite (300 s)</td></tr></tbody></table></div>
+        <ul><li>The <strong>N.U.K.E.</strong> is the biggest blast in the game, more than twice the reach of the Maelstrom. It wipes out every Seeker and Phantasm in its blast. Against pilots it destroys a fresh Protos within about 560 units of the burst (160 with Heavy Shield Cores) and no bigger ship in one blast. It bursts with a white flash, a ring showing its reach, a mushroom cloud and a shake of the camera (a short dim flash and no shake with Reduce Motion).</li><li>The <strong>N.I.K.E.</strong> hits the first ship it touches and is spent on it. A fresh Protos, Kitefin or Ostirion is destroyed in one hit (an Ostirion with Light Shield Cores only). It takes about a third of a Paragon's hull and about a seventh of a Wraith's. It flies through your own company and group, ships in a safe zone and ships you may not hurt yet.</li><li><strong>The N.I.K.E. also feeds the black hole.</strong> Fired from within about 4,380 units of the middle of Danger Sector 4, a N.I.K.E. that crosses the event horizon before it touches a ship is swallowed, and the hole gives back <strong>Dark Matter</strong> for it. If a ship is in the way, it is hit for 75,000 and you get no Dark Matter. Aliens and company pilots keep out of the hole's ring, so only pilots who went in for Dark Matter, or who wait for you at the rim, can be in the way. If you leave the map after firing, the N.I.K.E. flies on, hurts nobody and still makes your Dark Matter.</li><li><strong>Dark Matter</strong> lies in small crates on the rim of the hole's zone, 3,050 to 3,950 units from its centre, about two Dark Matter per N.I.K.E. (one to three, a crate holds up to two). The crates are yours and your clan's for 60 seconds, then anyone's, and they are gone after 240 seconds. A map holds at most 32. They look like violet-black orbs that come out of the hole, show the seconds you still have them to yourself and have a violet mark on the minimap.</li><li><strong>Assembly presses a Dark Matter Plate</strong> from 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate and 250 Thulium (120 s).</li><li><strong>The Forge's steps to Rupturing and Eternal take 2 Dark Matter Plates each.</strong> The steps to Tainted and Godly are as before. A failed step gives half of the materials and half of the Thulium back (of the 2 plates, 1).</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Step</th><th scope="col">Success</th><th scope="col">Credits</th><th scope="col">Materials</th></tr></thead><tbody><tr><th scope="row">Rupturing</th><td>75%</td><td>200,000</td><td>20 Reinforced Hull Plates, 120 Cataclysite, 2 Dark Matter Plates</td></tr><tr><th scope="row">Eternal</th><td>60%</td><td>500,000 and 2,000 Thulium</td><td>8 Power Cores, 240 Quorvium, 2 Dark Matter Plates</td></tr></tbody></table></div>
+        <ul><li>Two plates are 10 Dark Matter, about 5 N.I.K.E.s. Counting failed steps, a successful step costs about 6 to 7 N.I.K.E.s, and each N.I.K.E. costs 20,000 credits and 300 Thulium in Assembly fees, besides its materials. As a weapon a N.I.K.E. is the worst value in the game and the best single hit.</li></ul>
+        <h3>Twelve new modules</h3>
+        <ul><li>Laser amps, shield cells and thrusters are the modules you fit into lasers, shield cores and engines. Each family now has a credit rung, a Thulium rung and an upgrade.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Family</th><th scope="col">Credits</th><th scope="col">Thulium</th><th scope="col">Upgrade (Assembly)</th></tr></thead><tbody><tr><th scope="row">Damage amps</th><td><strong>Arc Amp</strong> 60,000: +16 damage, +5% crit</td><td><strong>Pulse Amp</strong> 1,500: +26, +6%</td><td><strong>Nova Amp</strong>: +38 damage, +7% crit</td></tr><tr><th scope="row">Crit amps</th><td><strong>Focus Amp</strong> 60,000: +20% crit, +14 crit damage</td><td><strong>Prism Amp</strong> 1,500: +25%, +24</td><td><strong>Apex Amp</strong>: +25% crit, +44 crit damage</td></tr><tr><th scope="row">Shield cells</th><td><strong>Reinforced Shield Cell</strong> 90,000: +4,200 capacity, +350 recharge, +5% absorbance</td><td><strong>Prime Shield Cell</strong> 8,000: +8,500, +700, +7%</td><td><strong>Sovereign Shield Cell</strong>: +12,000, +1,000, +8%</td></tr><tr><th scope="row">Thrusters</th><td><strong>Vector Thruster</strong> 80,000: +7 speed, x1.02</td><td><strong>Ion Thruster</strong> 3,000: +13, x1.08</td><td><strong>Plasma Thruster</strong>: +18, x1.12</td></tr></tbody></table></div>
+        <ul><li><strong>The upgrades are made in Assembly</strong> from the Thulium piece below them. You can't buy them.<ul><li><strong>Nova Amp:</strong> 1 Pulse Amp, 30 Cataclysite, 1 Power Core, 3 Velkonite Reinforced Plates and 1,200 Thulium (60 s).</li><li><strong>Apex Amp:</strong> 1 Prism Amp, 30 Cataclysite, 1 Power Core, 3 Velkonite Reinforced Plates and 1,200 Thulium (60 s).</li><li><strong>Sovereign Shield Cell:</strong> 1 Prime Shield Cell, 20 Cataclysite, 8 Reinforced Hull Plates, 6 Velkonite Reinforced Plates and 2,500 Thulium (90 s).</li><li><strong>Plasma Thruster:</strong> 1 Ion Thruster, 60 Ship Fragments, 3 Power Cores, 6 Velkonite Reinforced Plates and 2,000 Thulium (90 s).</li></ul></li><li><strong>An upgrade keeps the Forge tier of the piece it uses up and rolls its buffs again.</strong> A Godly Pulse Amp makes a Godly Nova Amp with new buffs. A Standard piece makes a Standard one. The Velkonite Reinforced Plates come from your Skylab Forgery.</li><li>When you hold copies of the piece in several tiers, the recipe card shows them so you can choose which one is used, and asks first before it uses one above Standard. A piece that is fitted on a ship or holds other modules can't be used, and the card tells you what to take out.</li><li>The Heavy Shield Core, Engine III, Thruster III and Adaptive Core III still have no price and no recipe.</li></ul>
+        <h3>Abilities that stack</h3>
+        <ul><li>An ability slot may now hold <strong>several modules of one kind.</strong> All the shield cores, engines or Repair Drones in one configuration's ability slots are one ability. <strong>The worst-ranked one sets the strength and the cooldown, and every other module adds 50% of that base</strong> (two modules make 1.5 times, three make 2 times).</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Ability</th><th scope="col">What a stack changes</th><th scope="col">What it keeps</th></tr></thead><tbody><tr><th scope="row">Afterburner (engines)</th><td>lasts 10 seconds plus 5 for each extra engine: two engines 15 s, three 20 s</td><td>the speed bonus and the cooldown</td></tr><tr><th scope="row">Shield Surge (shield cores)</th><td>puts back 100% plus 50% per extra core of its total</td><td>the 10 seconds and the cooldown</td></tr><tr><th scope="row">Emergency Repair (Repair Drones)</th><td>heals 100% plus 50% per extra drone of its total</td><td>the 10 seconds and the cooldown</td></tr></tbody></table></div>
+        <ul><li>A module takes the slot of another ability, so a ship trades breadth for depth. The hulls have 1 ability slot (Protos, Kitefin), 2 (Ostirion) or 3 (Paragon, Wraith). A Protos or Kitefin can't stack. A better module beside a worse one buys the bonus and never a better base: a Light core beside a Basic one restores 45% of your shield (30% plus half of it), less than the Basic core alone (60%).</li><li><strong>The Shield Surge puts shield back</strong> instead of giving an overshield. Over 10 seconds it restores 30%, 60% or 100% of your maximum shield (Light, Basic, Heavy core), evenly, and never less than the core's own capacity (10,000, 15,000, 25,000). Hits don't stop it, the shield never goes above its maximum, and what it restored stays when it ends. It is still refused inside a safe zone, and now also on a ship with no shield. <strong>A Surge pressed on a full shield starts the cooldown and restores nothing.</strong></li><li><strong>Emergency Repair heals over 10 seconds</strong> what it used to heal at once: 20%, 25%, 32% or 40% of your maximum hull. Hits don't interrupt it, and it is still refused at full hull. The cooldowns are as before (120, 105, 90 and 75 seconds).</li><li>The black hole's radiation doesn't stop a running Surge or repair.</li><li><strong>New pilots start with a Repair Drone I fitted</strong> in the first ability slot of their Protos, so the Emergency Repair button (E) works from the first minute. Pilots who already play get nothing extra.</li><li>The Surge keeps its bubble, and your shield bar (and a target's) fills while it runs. The Hangar shows a stack as "x2" or "x3" with the real numbers, and Emergency Repair glows, sends out motes and shows "+N" a second while it heals.</li></ul>
+        <h3>Cloaking CPU and EMP Charge</h3>
+        <ul><li><strong>A cloak has no timer.</strong> It lasts until you press the CPU again, fire a laser or launch a rocket, enter a safe zone, an area blast hits you, an EMP goes off within 1,500 units of you, or you jump, die or log out. The chip at the top says "Cloaked" and the uses you have left, without seconds, and the slot glows "ON". Collecting cargo still doesn't end it.</li><li><strong>The recharge is one minute, however the cloak ends</strong> (it was 20 seconds). It stays with you when you log out, die or jump, and a server restart clears it. If you press too early the slot flashes red. You still can't cloak inside a safe zone or within 10 seconds of a hit or a shot, and one press is still one use.</li><li><strong>Other pilots see a red dot</strong> at your position on their minimap, from anywhere on the map, refreshed twice a second. The dot has no name, ship or company, can't be clicked or targeted and can't be locked. Your own company still sees you as a pale ghost, and so does your group. A new (i) on the minimap explains the dot. Aliens don't see you, as before.</li><li><strong>An EMP ends cloaks.</strong> Every cloaked ship within <strong>1,500 units</strong> of the EMP's owner is revealed, pilots of other companies and <strong>your own company's too</strong>, except the owner's groupmates. A pilot whose cloak breaks is told "Cloak broken: an EMP went off nearby" and starts the minute of recharge. The ring of the EMP is drawn out to its full reach. The EMP is otherwise as before: 3 seconds without locks, every lock on you breaks, a 30 second recharge, 500 Thulium a charge.</li><li>A pilot who saw you cloak can follow your dot as it moves, since the dot is still a position. We left that as it is.</li></ul>
+        <h3>The black hole: pull, sight and debris</h3>
+        <ul><li><strong>The pull moves you.</strong> A ship that stops anywhere inside 3,000 units of the middle is carried toward it: 25 units a second at 2,800 units from the middle, 60 at 2,300, 120 at 1,800 and 220 at 1,300. In 0.4.3 a ship could hold still wherever the pull was weaker than its speed. The last 900 units are as before, and the radiation (4,000) and the event horizon (300) are unchanged.</li><li><strong>Slow ships pass their point of no return farther out.</strong> Ships faster than about 272 units a second keep theirs.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Ship or speed</th><th scope="col">Point of no return in 0.4.3</th><th scope="col">Now</th></tr></thead><tbody><tr><th scope="row">slowest possible ship (124)</th><td>1,299</td><td>1,781</td></tr><tr><th scope="row">stock Protos (155)</th><td>1,185</td><td>1,627</td></tr><tr><th scope="row">stock Kitefin (184)</th><td>1,100</td><td>1,480</td></tr><tr><th scope="row">stock Ostirion (208)</th><td>1,044</td><td>1,362</td></tr><tr><th scope="row">stock Paragon (222)</th><td>1,014</td><td>1,287</td></tr><tr><th scope="row">stock Wraith (238)</th><td>982</td><td>1,171</td></tr><tr><th scope="row">Protos with Afterburner III (247)</th><td>966</td><td>1,105</td></tr><tr><th scope="row">runner Protos (265)</th><td>936</td><td>976</td></tr><tr><th scope="row">anything over about 272</th><td>unchanged</td><td>unchanged</td></tr></tbody></table></div>
+        <ul><li><strong>You can see it from anywhere in Danger Sector 4.</strong> A small black hole in a glow on the edge of your screen points to it and shows the distance, and it grows into the real picture as you get close. The stars of the inflow fall at the pull's own speed, and your engine flame and wake follow the current.</li><li><strong>Debris</strong> (real rocks and hull fragments) circles the hole and falls in along spirals, faster and tumbling quicker the closer it gets, glowing orange in the disk's light and torn apart before the horizon.</li><li>The Star System map marks the hole in the middle of <code>DS-4</code>.</li></ul>
+        <h3>Jumping and cargo take time</h3>
+        <ul><li><strong>A jump takes 3 seconds,</strong> picking up a <strong>cargo box takes 1.</strong> Your ship keeps flying. A bar over the hotbar fills, and it turns red with the reason if the server calls it off. Everyone can see a portal charge while a pilot jumps, and a crate being scanned while a pilot collects it.</li><li>The jump needs a portal within 500 units the whole time, and is cancelled if you leave that range. The pick-up needs the box within 200 units.</li><li><strong>Outside the Danger Sectors an attack doesn't interrupt a jump.</strong> In a Danger Sector (<code>DS-1</code> to <code>DS-4</code>) <strong>you can't start a jump if you were hit in the last 10 seconds, and a hit while you jump cancels it.</strong> The black hole's radiation is not an attack.</li><li><strong>Return to Base is not covered.</strong> It is still an instant exit, also from a Danger Sector fight. We left it that way on purpose.</li></ul>
+        <h3>The Hangar in flight</h3>
+        <ul><li>Open the <strong>Hangar</strong> window (the warehouse button in the top-left toolbar) inside the ring of a safe zone (a station or a portal) and you can fit and unfit items in any slot, swap configuration and <strong>make another ship of yours active, without returning to base.</strong> A ship you switch to keeps the hull and shields it had, so changing ship never repairs. Cooldowns, ammo, rockets, experience and your Slave Drones stay with you.</li><li>It opens only when the ship is alive and protected by the ring, not cloaked or inside its own EMP window, and <strong>quiet for 10 seconds:</strong> no hit taken, no shot or rocket fired and no rocket of yours still in the air. Everywhere else the window opens read-only and says why.</li><li>The server refuses too: equip, unequip, delete, revive and making a ship active answer <strong>409</strong> ("You can only change your ship in a safe zone.") while you fly outside a ring. The configuration swap (C) still works anywhere, every 5 seconds.</li><li>In the Hangar's inventory every category is now its own on/off switch, so you can hide ammo and Repair Drones while you manage lasers, shields and engines. It remembers your choice. Double-clicking the only category that is on brings all of them back.</li></ul>
+        <h3>Skylab: upgrades that take days</h3>
+        <ul><li>Getting a module from level 1 to level 6 takes what it did. <strong>From level 6 to 7 it takes 20 minutes, and every step after that about 1.6 times as long as the one before,</strong> the same for all eight modules: 20 minutes, 30 minutes, 50 minutes, 1 h 20 min, 2 h 15 min, 3 h 30 min, 5 h 30 min, 9 h and 14 h, then <strong>1 day from level 15 to 16,</strong> 1 d 12 h, 2 d 12 h, 4 d and <strong>6 days for the last step, 19 to 20.</strong></li><li>No module goes above the Core, so the Core sets the pace. Bringing the Core from level 1 to 20 takes about 16 and a half days, and the whole station about 22 and a half. The costs are as before, and there is no way to hurry an upgrade.</li><li><strong>Upgrades already running keep the time they were given,</strong> and a module that was upgrading when the server updated finishes when it would have.</li><li><strong>Solar is the module to plan around.</strong> A module being upgraded is offline, and Solar is the only one that makes power, so <strong>a Solar upgrade switches every farm and collector off for its whole length</strong> and the production lost is never made up. The upgrade sheet, the module sheet and the preview of Solar's Upgrade button warn you before you click. The build sheet says the station has no power meanwhile.</li><li>The Skylab wiki page has the station at every level from 1 to 20 as pictures, the cards of all eight modules and the table of times. The wiki can show pictures now.</li></ul>
+        <h3>Assembly: the Helios Beam and the Master Drone</h3>
+        <ul><li><strong>The Helios Beam is made from a Starfire-3:</strong> 1 Starfire-3, 50 Cataclysite, 2 Power Cores, 18 Orvium Reinforced Plates, 4 Reinforced Hull Plates and 2,000 Thulium (180 s). It was 5,000 Thulium, 20 Orvium plates and 5 hull plates with no Starfire-3 (300 s). The Starfire-3 and the Helios Beam together cost as much Thulium as the Helios Beam alone did, and the Starfire-3 adds its own 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate and 100,000 credits.</li><li>Like the module upgrades, it <strong>keeps the Forge tier of the Starfire-3 and rolls its buffs again.</strong> The Assembly tells you when the piece an upgrade needs is missing, fitted on a ship, holding amps or in the Transport Cache, and what to do: take your Starfire-3 off its ship and its amps out before you upgrade it. A Helios Beam you queued before the update is collected as you paid for it.</li><li><strong>A Slave Drone becomes a Master Drone in place.</strong> In Assembly you pick which drone (the one with the least experience is pre-selected). It keeps its number, slot and fittings, nothing goes into your inventory and there is nothing to collect. <strong>Its level and experience start again at 0</strong> when the 60 second upgrade finishes: the Assembly warns you and asks you to confirm when the drone has experience. The price is as before, 100 Ship Fragments and 40,000 Thulium. While it is queued the drone's slot is offline. The Master Drone flies as a gold gunship.</li><li>Master Drones crafted in 0.4.3 stay as they are: loose items that do nothing. The number of drones, their prices and the limit of eight are unchanged.</li></ul>
+        <h3>Terra is a loop again</h3>
+        <ul><li><strong>This corrects the 0.4.3 notes,</strong> which said Terra's four sectors form a diamond and that <code>T-3</code> is one gate from Terra's home. The diamond showed two portals in <code>T-1</code> while Mars and Galactic have one, and we took it back.</li><li>Every company has the same loop now. The base <code>x-1</code> has <strong>one portal, to <code>x-2</code>.</strong> <code>x-2</code> opens on <code>x-3</code> and <code>x-4</code>, and <code>x-3</code> and <code>x-4</code> are linked. Terra's <code>T-4</code> still opens on <code>DS-2</code>. <code>T-3</code> is two gates from home again.</li><li>The server moves the live gates back when it starts: <code>T-1</code> to <code>T-3</code> goes and <code>T-2</code> to <code>T-3</code> returns. Your position stays where it was. If you stood next to the old <code>T-1</code> to <code>T-3</code> portal, it is gone.</li><li>The Star System map draws one dot for each portal and one line for each pair of sectors, and tells you which sector a portal leads to when you point at its dot.</li></ul>
+        <h3>Aliens let go</h3>
+        <ul><li>An alien you have <strong>not</strong> shot gives up the chase when you are more than <strong>1,200 units</strong> away, or when it has flown <strong>2,000 units</strong> from where the chase began. An alien you <strong>did</strong> shoot (in the last minute) holds on to 2,500 units and flies at most 3,000. Before, the only limit was a gap of 2,000 units, which a ship as fast as the alien never reached.</li><li>An alien that lets go roams from where it is, ignores you for 8 seconds unless you shoot it again, and near a gate or a safe zone heads away from it instead of waiting there. A pack no longer follows you across the map to the gate.</li><li>The trade-off: a pilot who shoots an alien and then outruns it is followed about 500 units farther than in 0.4.3. An alien that gives up because you reached a safe zone also ignores you for 8 seconds after you leave it.</li></ul>
+        <h3>Fullscreen on Windows, and a log file</h3>
+        <ul><li><strong>Fullscreen is new on Windows.</strong> The button at the top right, <strong>F11</strong> and <strong>Alt+Enter</strong> switch the game to a borderless window that covers the whole screen, taskbar included. Alt+Enter waits while you type in the chat. Settings › Controls lists both keys under "Fixed keys", and an action of yours bound to F11 or Alt+Enter is shown in red as sharing a key. On macOS the button works as before, and Linux has no fullscreen yet.</li><li><strong>It has never been run on a real Windows PC.</strong> We wrote it and built it on a Mac. If it misbehaves, press F11 again to leave it. <strong>To turn it off completely,</strong> start the game with the environment variable <code>SPACECORPS_NO_FULLSCREEN</code> set to <code>1</code>, or add <code>"fullscreen": false</code> to the file <code>.spacecorps2027\client.json</code> in your user folder.</li><li><strong>The game keeps a log file,</strong> <code>.spacecorps2027\spacecorps2027.log</code> in your user folder (<code>~/.spacecorps2027/spacecorps2027.log</code> on macOS and Linux), so you can send it to us when something misbehaves. It holds warnings, errors, the fullscreen steps and one line with your version and system. The game writes no account data to it, and passwords, tokens and your home folder's name are cut out before a line is written as a second lock (the cutting has known gaps for formats the game doesn't write today). It is 1 MB at most, and the older half is <code>spacecorps2027.log.1</code>.</li></ul>
+        <h3>Keys, chat and alt-tab</h3>
+        <ul><li><strong>Shift no longer stops the flight keys.</strong> J (jump), A (attack), C, R, Q, W and E work while you hold Shift, unless you bound Shift plus that key to something else (then that binding wins). Ctrl or Alt held still blocks them, and the number keys keep their Shift row.</li><li><strong>The chat and the ability keys could go dead together.</strong> A Shift, Ctrl or Alt the system never told the game you had let go of stayed "held", so Enter wouldn't open the chat, Escape wouldn't leave it and Q, W and E did nothing. The game now checks those keys against the system, lets go of them when you come back to its window, lets Escape always get you out of the chat, and Enter brings the chat in front of a window covering it. We never reproduced the exact cause, so these are fail-safes (see Known issues).</li><li><strong>Alt-tab no longer leaves the game behind.</strong> When the game stopped drawing for a few seconds (alt-tab, minimising, a stall), your ship and the ones around you were drawn 0.7 to 1.1 seconds behind the server and stayed there until you changed map. Now the game catches up within a tenth of a second.</li></ul>
+        <h3>Smaller changes</h3>
+        <ul><li><strong>The wiki has a Resources page:</strong> every material and currency, where to get each one, what it is for and the best way to farm it, with the figures for Alpha (Beta pays 2 times, Gamma 3 times). It explains which plates the crafts and upgrades need. The wiki also has a Groups page, and its Rockets, Forge, Abilities, Black Hole, Skylab, Hangar, Drones and Extras pages follow the new rules.</li><li><strong>Chrono-Gate scans</strong> (the Energy Materializer's scans for Chrono-Gate parts) cost 5,000 credits (1% chance of a part) or 5 Thulium (10%). They cost 50,000 and 50 before, and the chances are the same.</li><li><strong>Music</strong> starts at volume 15, where it was 40. A volume you saved keeps its value.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.3.html" rel="prev">← 0.4.3</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <a href="patchnotes-v0.4.5.html" rel="next">0.4.5 →</a>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (patchnotes/v0.4.8.part.html) is fetched and put in. The page
+   opened at #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails)
+   the link inside the entry opens the release's own page, patchnotes-v0.4.8.html. */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    return fetch('patchnotes/' + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

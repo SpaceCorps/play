@@ -15,7 +15,7 @@ Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu pró
 ## Os três enxames {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Enxame | Onde | Quantos | Líder | Seguidores | Volta |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (vej
 ## As regras de todo enxame {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - Os enxames aparecem a partir do dia 4 da temporada até o reset.
 - Quando uma nave de enxame é acertada, as naves do seu enxame a até 1.500 unidades dela entram na luta contra o primeiro piloto que a acertou.
@@ -46,7 +46,7 @@ Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (vej
 O mundo escala um enxame como escala todo alienígena ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): o casco, o escudo, a recarga do escudo, o dano dos lasers, o dano dos foguetes e a cura de uma nave de enxame são os números de Alpha vezes a força abaixo, e um abate paga a recompensa abaixo. Velocidade, alcance e saque são iguais em todos os mundos. Os artigos dão os números de cada nave nos três mundos.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Mundo | Força | Pagamento |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ Um alienígena comum paga o piloto que o acertou primeiro ([Combate](/wiki/03-Me
 Todo abate é contado com o nome próprio da nave nas suas estatísticas de abates e soma pontos PvE ao seu ranking:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Nave de enxame | Enxame | Pontos PvE por abate |
 | :--- | :--- | ---: |

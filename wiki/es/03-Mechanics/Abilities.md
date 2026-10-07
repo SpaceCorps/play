@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1f9dad98b1e0c6d8 -->
+<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades activas de la nave {#active-ship-abilities}
 
@@ -86,7 +86,7 @@ Varios módulos de un mismo tipo en una configuración: el de peor rango fija la
 
 <!-- abilities:end -->
 
-Los escudos y motores de rango III (el Heavy Shield Core, el Engine III) no se venden: se fabrican en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) a partir de un Basic Shield Core y un Engine II, con Thulium, lo que sueltan los alienígenas y Velkonite Reinforced Plates de la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md). Emergency Repair tiene un cuarto rango, el Repair Drone IV.
+Los escudos y motores de rango III (el Heavy Shield Core, el Engine III) no se venden: se fabrican en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) a partir de un Basic Shield Core y un Engine II, con Thulium, lo que sueltan los alienígenas y 3 Dark Matter Plates ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair tiene un cuarto rango, el Repair Drone IV.
 
 ## Recargas y límites {#cooldowns-and-limits}
 

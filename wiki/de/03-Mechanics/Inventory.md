@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad9b37b491751af9 -->
+<!-- wiki-i18n source: bd41027ba69c57cb -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
@@ -22,6 +22,10 @@ Anders als in herkömmlichen Weltraumspielen hat SpaceCorps dynamisch gestufte A
 
 Das Inventar listet deine Gegenstände in derselben Reihenfolge wie der Shop auf, egal in welcher Reihenfolge du sie gekauft, hergestellt oder gefunden hast. Arten, die zusammengehören, stehen zusammen: Laser, Laserverstärker und Lasermunition; Schilde und Schildzellen; Triebwerke und Schubdüsen; adaptive Kerne; Extras (Repair Drones); Drohnen und Drohnenformationen; dann Ressourcen. Innerhalb einer Art kommt das Günstigste zuerst (Credits vor Thulium), dann das, was keinen Preis hat: nur herstellbare Ausrüstung und Beute, die schwächste Seltenheit zuerst (Laser einer Seltenheit, der mit dem schwächsten Schaden zuerst). Lasermunition steht von x1 bis x4, dann die Siphon Battery. Raketen sortieren sich nach Art (Einzelziel vor Flächenschaden, gelenkt vor geradeaus) und dann nach Stufe, daher steht die epische Rakete, die Thulium kostet, in ihrer Art zuletzt. Exemplare eines Gegenstands sortieren sich nach ihrer Verzauberungsstufe. Über dem Raster steht pro Art ein Chip in derselben Reihenfolge, jeweils mit der Zahl der Gegenstände, die die Suche darin findet. Jeder Chip lässt sich einzeln ein- oder ausschalten, sodass du Munition und Repair Drones ausblenden kannst, während du an Lasern, Schilden und Triebwerken arbeitest: Klicke einen Chip an, um seine Art ein- oder auszublenden; ein Shift-Klick (oder Doppelklick) lässt nur diese Art eingeschaltet, und ein weiterer Klick darauf holt den Rest zurück. **Alle** zeigt jede Art, und **Keine** blendet alle aus, damit du nur die einschaltest, die du willst. Ein durchgestrichener Chip ist aus, ein Chip mit Häkchen ist an. Die Suche arbeitet mit den Arten, die an sind, und deine Wahl wird bei deinem Piloten gespeichert. Ist alles ausgeblendet, sagt das Raster das und bietet **Alle Kategorien anzeigen** an.
 
+## Handelbare Gegenstände {#marketable-items}
+
+Gegenstände, die du verdient hast (Beute, Missionsbelohnungen und alles, was die Montage und die Schmiede herstellen), tragen auf ihrer Kachel ein kleines Etikett **Handelbar**, und die Gegenstandskarte zeigt „Handelbar“ oder, bei einem Stapel, von dem nur ein Teil verkauft werden kann, „Handelbar (3 von 5)“. Der Chip **Nur Handelbares** neben den Kategorie-Chips zeigt nur diese Gegenstände. Ein **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der [Auktion](/wiki/03-Mechanics/Auction.md) (im Flug wird er nicht angezeigt: Verkaufen ist eine Seite der Station). Was du gekauft, gewonnen oder geschenkt bekommen hast, trägt kein Etikett und kann nicht wieder verkauft werden.
+
 ## Gegenstand in Gegenstand ausrüsten (Sub-Sockets) {#item-to-item-equipping-sub-sockets-}
 
 Manche Hauptgegenstände können sekundäre Hilfsgegenstände „ausrüsten“ (man spricht von Sub-Socketing), um ihre Werte zu verstärken. Um etwas in einen Sub-Socket zu setzen, ziehe den Hilfsgegenstand direkt auf den Hauptgegenstand in deinem Hangar-Inventar.
@@ -30,7 +34,7 @@ Manche Hauptgegenstände können sekundäre Hilfsgegenstände „ausrüsten“ (
 
 | Hauptgegenstand | Zulässige Sub-Socket-Gegenstände | Resultierende Wirkung |
 | :--- | :--- | :--- |
-| **Laser** | Laserverstärker (Amp) | Erhöht Grundschaden und Werte für kritische Treffer |
+| **Laser** | Laserverstärker (Amp) | Erhöht Grundschaden und Werte für kritische Treffer oder zieht Punkte von der Absorption des Ziels ab (Penetration Amp) |
 | **Schild** | Schildzelle | Erhöht Schildkapazität und Aufladerate |
 | **Triebwerk** | Schubdüse | Erhöht Tempo und Faktoren des Triebwerks |
 | **Hybridgenerator** | Schildzelle ODER Schubdüse | Erhöht Schildkapazität, Aufladerate oder Tempo |

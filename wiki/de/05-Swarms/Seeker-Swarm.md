@@ -7,7 +7,7 @@ Der Seeker-Schwarm ist der kleinste der [Schwärme](/wiki/05-Swarms/Swarms.md): 
 ## Auf einen Blick {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Wo**: Die Sektoren `x-1` und `x-2` jedes Konzerns
 - **Wie viele**: Einer in jedem dieser Sektoren, 6 in jeder Welt
@@ -43,7 +43,7 @@ Der Boss Seeker zahlt **genau zehn Seeker**: das Zehnfache von Credits, Thulium,
 Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

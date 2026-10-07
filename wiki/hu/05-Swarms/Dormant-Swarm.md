@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Dormant-raj -->
 # Dormant-raj {#dormant-swarm}
 
@@ -7,7 +7,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 ## Röviden {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Hol**: A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`, `DS-4`; az egyikből a másikba repül
 - **Hány**: Világonként egy
@@ -25,14 +25,14 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 ## A tagok {#the-members}
 
 - **Dormant Force**: teljes erejű Wraith, olyan lézerekkel, amelyek háromszor olyan keményen ütnek, mint egy tipikus felszerelésé. Ő vezeti a rajt, passzív, amíg el nem találják, és **egyenes rakétákat** lő az első pilótára, aki eltalálta.
-- **Dormant Pulse**: teljes erejű Paragon, ugyanolyan nehéz lézerekkel és saját rakétákkal. A Pulse-ok a Force közelében repülnek, és ha a Force megsemmisül, egyikük átveszi a vezetést.
+- **Dormant Pulse**: teljes erejű Paragon, ugyanolyan fajta nehéz lézerekkel, amelyek egyenként kétszer olyan keményen ütnek, mint a Force lézerei, és saját rakétákkal. Egy Pulse-nak kevesebb lézere van, mint a Force-nak, így a teljes sorozata nagyobb a Force-énál, de nem kétszer akkora (a számok lent találhatók). A Pulse-ok a Force közelében repülnek, és ha a Force megsemmisül, egyikük átveszi a vezetést.
 
 Passzívak: soha nem mennek rá egy pilótára. Ha az egyiküket eltalálják, a közelében lévők beszállnak a harcba az első pilóta ellen, aki eltalálta.
 
 ## A harc menete {#how-the-fight-goes}
 
 - **Keresd meg.** Az egész világ értesül róla, amikor megjelenik, és egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A *Röviden* listában szereplő ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül, és ugrik; soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem repül a fekete lyuk gyűrűjébe. A leglassabb hajója sebességével repül, és mint egy pilóta, tűz alatt nem kezd és nem fejez be ugrást.
-- **Egyedül vagy kevesen nem győzhető le.** Nyolc 8. szintű pilóta Paragonban, x2 vagy x4 lőszerrel, nagyjából egy perc alatt megsemmisíti Alphában, legfeljebb egy hajót veszítve; egy Paragon egyedül megsemmisül, és három is, x2 lőszerrel. A Beta és a Gamma rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért azokhoz a világokhoz nagyobb csoportok kellenek.
+- **Egyedül vagy kevesen nem győzhető le.** Nyolc 8. szintű pilóta Paragonban, x2 vagy x4 lőszerrel, nagyjából egy perc alatt megsemmisíti Alphában, legfeljebb egy hajót veszítve; egy Paragon egyedül megsemmisül, és három vagy négy is, x2 lőszerrel. A Beta és a Gamma rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért azokhoz a világokhoz nagyobb csoportok kellenek.
 - **A lézerei döntik el a harcot.** Együtt egy percen belül megsemmisíthetnek egy Paragont, a legjobb pajzsokkal felszereltet is két percen belül, rakéták nélkül is: gyorsan vidd be a sebzésedet, a legjobb pajzsokkal, amid van.
 - **Hajóról hajóra.** Minden hajónak saját hajóteste és saját fizetése van, így a Force vagy egy Pulse előbb is megsemmisülhet. A rajt csak akkor pótolják, ha teljesen megsemmisült, a *Röviden* lista szerinti idő múlva.
 
@@ -45,11 +45,11 @@ Minden hajó külön fizet, a rá leadott sebzés szerint ([hogyan fizet egy bos
 A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Alapja: Wraith, hajótestének, pajzsának és sebzésének 100%-a; a sebessége
 
 ### Dormant Pulse
 
-Alapja: Paragon, hajótestének, pajzsának és sebzésének 100%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Alapja: Paragon, hajótestének 100%-a és lézersebzésének 600%-a; a sebessége és a hatótávja a mintahajóé. 5 mp alatt egy egyenes rakétát lő ki: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hajótest | 128 000 | 192 000 | 256 000 |
 | Pajzs | 64 570 | 96 855 | 129 140 |
-| Lézersebzés (másodpercenként egy sorozat) | 1 920 | 2 880 | 3 840 |
+| Lézersebzés (másodpercenként egy sorozat) | 3 840 | 5 760 | 7 680 |
 | Sebesség | 210 | 210 | 210 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |

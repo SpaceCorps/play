@@ -7,7 +7,7 @@ Seeker 虫群是[虫群](/wiki/05-Swarms/Swarms.md)中最小的一个：一个 *
 ## 一览 {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **位置**：每个企业的 `x-1` 和 `x-2` 星区
 - **数量**：每个星区 一个， 每个世界 共 6 个
@@ -43,7 +43,7 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 虫群舰船在三个世界中的数值（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)）。
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

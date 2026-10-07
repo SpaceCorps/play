@@ -19,7 +19,7 @@ Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdo
 | **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete and lock their carrying cargo before the eruption. |
 | **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn. Pilots move to the world they chose as their destination for the next season. |
 
-Apart from the wipe itself, only two things follow the calendar: the Peace Protocol (days 1–3) changes a rule, and from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses of its own yet.
+Apart from the wipe itself, only three things follow the calendar: the Peace Protocol (days 1–3) changes a rule, from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe, and the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) charges no fees from day 28 and is closed from day 30. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses of its own yet.
 
 ---
 
@@ -41,7 +41,7 @@ You obtain parts by using the Energy Materializer interface, which spins local e
 
 ## Transport Cache (Travel Capsule)
 
-Once all 100 parts are collected and the Chrono-Gate is fully stabilized, the portal opens access to your personal **Transport Cache** (also known as the carry-over cart or travel capsule). This pocket dimension shields your belongings from being deleted during the wipe.
+Once all 100 parts are collected and the Chrono-Gate is fully stabilized, the portal opens access to your personal **Transport Cache** (also known as the carry-over cart or travel capsule). This pocket dimension shields your belongings from being deleted during the wipe. Items you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) come back to you at the wipe as loose items, which the wipe deletes like the rest unless you put them in the Cache; the bids you hold in lots are refunded.
 
 ### Automatic Carry-Over (Free)
 The following items are always protected and carry over to the next season automatically, consuming **zero** capacity in your Transport Cache:

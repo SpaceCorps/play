@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Dormant-svärm -->
 # Dormant-svärm {#dormant-swarm}
 
@@ -7,7 +7,7 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 ## I korthet {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Var**: Farosektorerna `DS-1`, `DS-2`, `DS-3`, `DS-4`, flyger från den ena till den andra
 - **Hur många**: En i varje värld
@@ -25,14 +25,14 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 ## Medlemmarna {#the-members}
 
 - **Dormant Force**: en Wraith med full styrka, med lasrar som slår tre gånger så hårt som en typisk utrustnings. Den leder svärmen, är passiv tills den träffas och skjuter **raka raketer** på den första piloten som träffade den.
-- **Dormant Pulse**: en Paragon med full styrka, med samma slags tunga lasrar och egna raketer. Pulses flyger nära Force, och när Force förstörs tar en av dem över ledningen.
+- **Dormant Pulse**: en Paragon med full styrka, med tunga lasrar av samma slag, där varje laser slår dubbelt så hårt som en av Forces, och egna raketer. En Pulse har färre lasrar än Force, så dess hela salva är större än Forces men inte dubbelt så stor (siffrorna står nedan). Pulses flyger nära Force, och när Force förstörs tar en av dem över ledningen.
 
 De är passiva: de går aldrig på en pilot. Träffas en av dem ansluter sig de andra i närheten till striden mot den första piloten som träffade den.
 
 ## Hur striden går till {#how-the-fight-goes}
 
 - **Hitta den.** Hela världen får veta när den dyker upp, och en markering visar den på kartorna över farosektorerna och på galaxkartan. Den stannar på en karta så länge listan *I korthet* anger, flyger sedan till porten till en annan farosektor och hoppar; den tar aldrig en port ut ur farosektorerna och flyger aldrig in i det svarta hålets ring. Den flyger med hastigheten hos sitt långsammaste skepp och startar eller avslutar, liksom en pilot, inget hopp under beskjutning.
-- **Den går inte att besegra ensam, eller med några få.** Åtta piloter på nivå 8 i Paragon med ammunition x2 eller x4 förstör den på ungefär en minut i Alpha och förlorar högst ett skepp; en Paragon ensam förstörs, och det gör även tre med ammunition x2. Svärmarna i Beta och Gamma är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de världarna kräver större grupper.
+- **Den går inte att besegra ensam, eller med några få.** Åtta piloter på nivå 8 i Paragon med ammunition x2 eller x4 förstör den på ungefär en minut i Alpha och förlorar högst ett skepp; en Paragon ensam förstörs, och det gör även tre eller fyra med ammunition x2. Svärmarna i Beta och Gamma är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de världarna kräver större grupper.
 - **Dess lasrar avgör striden.** Tillsammans kan de förstöra en Paragon på under en minut, och till och med en med de bästa sköldarna på under två, med eller utan raketer: få in din skada snabbt, med de bästa sköldarna du har.
 - **Skepp för skepp.** Varje skepp har sitt eget skrov och sin egen betalning, så Force eller en Pulse kan förstöras först. Svärmen ersätts först när den är helt förstörd, efter tiden i listan *I korthet*.
 
@@ -45,11 +45,11 @@ Varje skepp betalar för sig, efter den skada det fick ([hur nedskjutningen av e
 Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Bygger på Wraith med 100 % av skrov, sköld och skada; hastighet och räckvidd
 
 ### Dormant Pulse
 
-Bygger på Paragon med 100 % av skrov, sköld och skada; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Bygger på Paragon med 100 % av skrovet och 600 % av laserskadan; hastighet och räckvidd är förlagans. Skjuter en rak raket var 5 s: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Skrov | 128 000 | 192 000 | 256 000 |
 | Sköld | 64 570 | 96 855 | 129 140 |
-| Laserskada (en salva per sekund) | 1 920 | 2 880 | 3 840 |
+| Laserskada (en salva per sekund) | 3 840 | 5 760 | 7 680 |
 | Hastighet | 210 | 210 | 210 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |

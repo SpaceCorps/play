@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ff7c642a32b0da1 -->
+<!-- wiki-i18n source: 011fc9c31c4045f1 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa la
 1. En **samlare** bryter malm, en viss mängd i timmen, in i sitt eget lager (72 timmars produktion).
 2. **Hämta** flyttar malmen från samlarens lager in i **Resurslagret**, malmbanken, där varje malm förvaras för sig.
 3. **Smedjan** tar den malm den behöver från malmbanken när en sats startar, och gör plåtar, 10 sekunder per plåt, en sats i taget.
-4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/06-Items/Lasers.md) gör dem till en Quantum Laser 3, en Starfire-3 eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate för [Smedjan](/wiki/06-Items/Forge.md).
+4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/06-Items/Lasers.md) gör dem till en Quantum Laser 3, en Starfire-3 eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate, som [Smedjan](/wiki/06-Items/Forge.md) och sista nivån i varje uppgraderingskedja kräver.
 
 ### Velkonite-samlare och Orvium-samlare {#velkonite-collector-and-orvium-collector}
 
@@ -137,6 +137,7 @@ Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa la
 - **Hämta plåtar**: flyttar de färdiga plåtarna till ditt inventarie medan ditt **skepp är landat**, och resten av satsen fortsätter. En ny sats kan startas när Smedjan är tom.
 - En sats som pågår blir klar även om du stänger av Smedjan eller uppgraderar den. En **ny** sats kräver att Smedjan är påslagen, inte uppgraderas, och att Skylabs energi är i balans.
 - **Energi**: 30 på nivå 1, och det ökar med 15 % per nivå.
+- **Inte säljbart**: plattorna som Smedjan tillverkar kan inte säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items), annars skulle de bli den största varan på dess Marknad. De duger fortfarande som material för Monteringen och Smedjan.
 
 ### Att bygga dem {#building-them}
 
@@ -148,7 +149,7 @@ De två samlarna kostar **10 Ship Fragments, 20 000 krediter och 500 Thulium** 
 
 ## Forskningscentrumet {#the-research-centre}
 
-Den nionde modulen gör om resurser till vetenskap och forskar fram de teknologier som Monteringen behöver innan den tillverkar något nytt. Den byggs från kärnnivå 10, har nivå 1 till 10, drar energi och kan inte stängas av. Dess siffror, vad den bränner som bränsle, boosten och hela teknologiträdet finns på sidan [Forskning](/wiki/03-Mechanics/Research.md).
+Den nionde modulen gör om resurser till vetenskap och forskar fram de teknologier som Monteringen behöver innan den tillverkar något nytt. Den byggs från kärnnivå 10, har nivå 1 till 10, drar energi och kan inte stängas av. Dess siffror, vad den bränner som bränsle, boosten och hela teknologiträdet finns på sidan [Forskning](/wiki/03-Mechanics/Research.md). De högsta teknikerna kräver också Dark Matter, som du lägger till i centret: [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) säger hur du får tag på den.
 
 ## Mekanik {#mechanics}
 
@@ -265,7 +266,7 @@ Varje farm och samlare har ett lager för ungefär 72 timmars produktion. Du hä
 
 ### Wipen {#the-wipe}
 
-Skylab nollställs aldrig: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin tank med vetenskap, den Dark Matter som satts i och en pågående forskning. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md).
+Skylab nollställs aldrig: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin tank med vetenskap, den Dark Matter som finns i det och en pågående forskning. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md).
 
 ## Planera din Skylab {#planning-your-skylab}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Enjambre Pirate -->
 # Enjambre Pirate {#pirate-swarm}
 
@@ -7,7 +7,7 @@ El enjambre Pirate es un **Pirate Boss** con sus **Pirate Scouts**: una nave eno
 ## De un vistazo {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Dónde**: Los sectores `x-2` y `x-3` de cada corporación
 - **Cuántos**: Uno en cada uno de esos sectores, 6 en cada mundo
@@ -32,7 +32,7 @@ El enjambre Pirate es un **Pirate Boss** con sus **Pirate Scouts**: una nave eno
 - **Dispara al jefe, no a los Scouts.** Los Scouts curan al jefe, pero la curación es pequeña comparada con su casco, y llega un Scout nuevo con la frecuencia que indica la lista *De un vistazo*: un grupo que mata primero a los Scouts nunca les saca ventaja, y solo un grupo muy grande puede despejarlos y aun así tarda más en acabar con el jefe que uno que los dejó en paz. Los Scouts te cuestan tiempo, no deciden el combate.
 - **Aleja a los Scouts.** Un Scout cura solo mientras está al alcance del jefe, así que un Scout que te sigue fuera de ese alcance no cura nada, y una Ostirion es más rápida que un Scout.
 - **No dejes de moverte.** El cohete del jefe es recto y no teledirigido: una nave que no deja de moverse lo esquiva, una que se queda quieta recibe el impacto.
-- **Lleva un grupo.** Tres pilotos en Ostirions con munición x2 pueden derribarlo en unos cinco minutos en Alpha; una Ostirion sola no puede, y una Paragon sola sí. El jefe responde al primer piloto que lo impactó, así que deja que empiece la nave más resistente, y usa tus habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) en un combate tan largo. Los pilotos que aún son de nivel 2 o 3 son demasiado débiles para él, incluso donde vuelan: mantente lejos hasta que seas más fuerte.
+- **Lleva un grupo.** Tres pilotos en Ostirions con munición x2 pueden derribarlo en unos cinco minutos en Alpha, pero por poco y solo mientras los golpes se reparten: un trío que deja que un piloto reciba todo el fuego pierde. Cinco lo derriban en tres o cuatro minutos; una Ostirion sola no puede, y una Paragon sola sí. El jefe responde al primer piloto que lo impactó, así que deja que empiece la nave más resistente, y usa tus habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) en un combate tan largo. Los pilotos que aún son de nivel 2 o 3 son demasiado débiles para él, incluso donde vuelan: mantente lejos hasta que seas más fuerte.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, en el mismo sector.
 
 ## Recompensas y botín {#rewards-and-drops}
@@ -44,7 +44,7 @@ El Pirate Boss paga por el combate que es: un minuto de combate contra él paga 
 Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 
 ### Pirate Scout
 
-Base: Kitefin, con 50 % de casco, escudo y daño; la velocidad y el alcance son los de la nave original.
+Base: Kitefin, con 50 % del casco y 75 % del daño de los láseres; la velocidad y el alcance son los de la nave original.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Casco | 12.000 | 18.000 | 24.000 |
 | Escudo | 9.818 | 14.727 | 19.636 |
-| Daño de los láseres (una salva por segundo) | 98 | 147 | 196 |
+| Daño de los láseres (una salva por segundo) | 147 | 221 | 294 |
 | Velocidad | 175 | 175 | 175 |
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | 700 | 700 | 700 |

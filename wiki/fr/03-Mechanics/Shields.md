@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a523b862d9fc9447 -->
+<!-- wiki-i18n source: 7af844c9c2785078 -->
 <!-- wiki-i18n title: Boucliers -->
 # Mécaniques des boucliers {#shield-mechanics}
 
@@ -41,8 +41,8 @@ Certaines attaques ont une **pénétration de bouclier** : des points retranch�
 \[\text{Part du bouclier} = \text{borner}(\text{Absorption} - \text{Pénétration},\ 0,\ 100\ \%)\]
 
 - Les boucliers prennent au plus `round(damage x share)` du tir ; la coque prend le reste. Un bouclier trop faible pour sa part reporte la différence sur les PV, et si les boucliers sont à 0, tous les dégâts frappent directement les PV.
-- **D’où vient la pénétration** : la *pénétration de bouclier* d’une roquette directe (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 % ; les explosions de zone n’en ont pas, voir [Roquettes](/wiki/06-Items/Rockets.md)) et celle des munitions laser (Ultra Core 5 %, Experimental Fusion Core 10 % ; voir [Lasers et munitions](/wiki/06-Items/Lasers.md)). Les aliens n’en ont pas, et les munitions x1 et x2 non plus.
-- **Exemples** : avec 80 % d’absorption face à une Lancet III (35 %), les boucliers prennent 45 % du tir, la coque 55 %. Avec 100 % : 65 % et 35 %. Avec 112 % face à 12 % de pénétration : la totalité du tir. Avec 45 % (un Light Shield Core seul) face à 35 % : 10 % sur le bouclier, le reste sur la coque. Aucune roquette ne pénètre complètement un Light Shield Core.
+- **D’où vient la pénétration** : la *pénétration de bouclier* d’une roquette directe (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 % ; les explosions de zone n’en ont pas, voir [Roquettes](/wiki/06-Items/Rockets.md)) et celle des munitions laser (Ultra Core 5 %, Experimental Fusion Core 10 % ; voir [Lasers et munitions](/wiki/06-Items/Lasers.md)). Les aliens n’en ont pas, et les munitions x1 et x2 non plus. Un tir laser retranche aussi les Penetration Amps des lasers du tireur (+2 % à +8 % par emplacement, la moyenne de ses lasers) et la pénétration d’une formation de drones (Gemini +9 %, Stiletto +16 %) : le total s’arrête à **50 %** pour un laser et à 40 % pour une roquette ([comment un tir laser s’additionne](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Exemples** : avec 80 % d’absorption face à une Lancet III (35 %), les boucliers prennent 45 % du tir, la coque 55 %. Avec 100 % : 65 % et 35 %. Avec 112 % face à 12 % de pénétration : la totalité du tir. Avec 45 % (un Light Shield Core seul) face à 35 % : 10 % sur le bouclier, le reste sur la coque. Aucune roquette ne pénètre complètement un Light Shield Core. Le meilleur laser (50 %) y arrive : contre lui, le meilleur bouclier (80 %) encaisse 30 % du tir et la coque 70 %, et un Light Shield Core seul (45 %) n’encaisse rien.
 - Les aliens n’ont pas de statistique d’absorption : ils répartissent chaque tir 80 % / 20 %, moins la pénétration du tir.
 - Les dégâts d’une Siphon Battery sont pris sur le seul bouclier : l’absorption et la pénétration n’entrent pas en jeu.
 
@@ -57,9 +57,9 @@ Certaines attaques ont une **pénétration de bouclier** : des points retranch�
 
 Chaque bonus de bouclier augmente l’une des trois statistiques et figure sous son propre type dans la fenêtre Boosters :
 
-- **Capacité** (points de bouclier maximum) : les boosters Shield Wall et le Shield Capacity Boost permanent.
+- **Capacité** (points de bouclier maximum) : les boosters Shield Wall Booster 1 et 2 et le Shield Capacity Boost permanent.
 - **Absorption** (la part d’un tir que prennent vos boucliers) : le Shield Absorbance Boost permanent (+0,1 point par niveau, +10 points au maximum).
-- **Recharge** (points de bouclier restaurés par seconde) : le booster Shield Regen.
+- **Recharge** (points de bouclier restaurés par seconde) : le Shield Regen Booster.
 
 Voir [Boosters](/wiki/06-Items/Boosters.md) pour les chiffres.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17a693ffb6d8a4f2 -->
+<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
 <!-- wiki-i18n title: Pirate 무리 -->
 # Pirate 무리 {#pirate-swarm}
 
@@ -7,7 +7,7 @@ Pirate 무리는 **Pirate Boss**와 그 **Pirate Scout**로 이루어집니다. 
 ## 한눈에 보기 {#at-a-glance}
 
 <!-- pirate-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **위치**: 모든 기업의 `x-2`와 `x-3` 섹터
 - **개수**: 해당 섹터마다 하나씩, 월드마다 6개
@@ -32,7 +32,7 @@ Pirate 무리는 **Pirate Boss**와 그 **Pirate Scout**로 이루어집니다. 
 - **Scout가 아니라 보스를 쏘세요.** Scout는 보스를 회복시키지만, 보스의 선체에 비하면 회복량은 작고, 새 Scout는 *한눈에 보기* 목록이 알려 주는 간격으로 나타납니다. Scout를 먼저 잡는 그룹은 결코 앞서지 못하고, 아주 큰 그룹만이 Scout를 치울 수 있지만 그래도 내버려 둔 그룹보다 보스를 쓰러뜨리는 데 더 오래 걸립니다. Scout는 시간을 빼앗을 뿐 전투의 승패를 가르지는 않습니다.
 - **Scout를 따돌리세요.** Scout는 보스의 사거리 안에 있는 동안에만 회복시키므로, 당신을 쫓아 그 범위를 벗어난 Scout는 아무것도 회복시키지 못하고, Ostirion은 Scout보다 빠릅니다.
 - **계속 움직이세요.** 보스의 로켓은 직선이며 유도되지 않습니다. 계속 움직이는 함선은 피하지만 멈춘 함선은 맞습니다.
-- **그룹을 데려가세요.** Ostirion을 탄 세 파일럿이 x2 탄약을 쓰면 Alpha에서 약 5분 만에 쓰러뜨릴 수 있습니다. Ostirion 한 척으로는 못 하지만 Paragon 한 척으로는 할 수 있습니다. 보스는 처음 공격한 파일럿에게 응수하므로 가장 튼튼한 함선이 먼저 공격하게 하고, 이렇게 긴 전투에서는 능력(Emergency Repair, Shield Surge: [능력](/wiki/03-Mechanics/Abilities.md))을 사용하세요. 아직 레벨 2나 3인 파일럿은 자신이 비행하는 섹터에서도 너무 약합니다. 더 강해질 때까지 가까이 가지 마세요.
+- **그룹을 데려가세요.** Ostirion을 탄 세 파일럿이 x2 탄약을 쓰면 Alpha에서 약 5분 만에 쓰러뜨릴 수 있지만, 아슬아슬하며 피해가 나뉘어 들어올 때만 가능합니다. 한 파일럿이 모든 공격을 받아 내는 세 명은 집니다. 다섯 명은 3~4분 만에 쓰러뜨립니다. Ostirion 한 척으로는 못 하지만 Paragon 한 척으로는 할 수 있습니다. 보스는 처음 공격한 파일럿에게 응수하므로 가장 튼튼한 함선이 먼저 공격하게 하고, 이렇게 긴 전투에서는 능력(Emergency Repair, Shield Surge: [능력](/wiki/03-Mechanics/Abilities.md))을 사용하세요. 아직 레벨 2나 3인 파일럿은 자신이 비행하는 섹터에서도 너무 약합니다. 더 강해질 때까지 가까이 가지 마세요.
 - **보스는 돌아옵니다.** *한눈에 보기* 목록의 시간이 지나면 같은 섹터에 나타납니다.
 
 ## 보상과 전리품 {#rewards-and-drops}
@@ -44,7 +44,7 @@ Pirate Boss는 그 싸움에 걸맞은 보상을 지급합니다. 그와 1분 �
 무리 함선의 세 월드에서의 수치입니다([월드](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- pirate-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Pirate Boss
 
@@ -75,13 +75,13 @@ Pirate Boss는 그 싸움에 걸맞은 보상을 지급합니다. 그와 1분 �
 
 ### Pirate Scout
 
-바탕은 Kitefin이며, 선체와 실드, 피해량은 그 50%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다.
+바탕은 Kitefin이며, 선체는 그 50%, 레이저 피해량은 그 75%입니다. 속도와 사거리는 바탕이 된 함선의 것입니다.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 선체 | 12,000 | 18,000 | 24,000 |
 | 실드 | 9,818 | 14,727 | 19,636 |
-| 레이저 피해량(초당 일제 사격 1회) | 98 | 147 | 196 |
+| 레이저 피해량(초당 일제 사격 1회) | 147 | 221 | 294 |
 | 속도 | 175 | 175 | 175 |
 | 레이저 사거리 | 700 | 700 | 700 |
 | 어그로 반경 | 700 | 700 | 700 |

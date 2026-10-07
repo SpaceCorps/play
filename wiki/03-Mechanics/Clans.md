@@ -8,9 +8,11 @@ Forming or joining a Clan allows you to pool resources, level up shared banking,
 - Every finished step pays clan points at once: 15, 15, 20, 20 and 30, so **100 points** for a whole line.
 - The Leader and the Co-Leaders spend the points on three [boosts](#clan-points-and-boosts) of ten levels each: **Damage** (up to +5%), **Thulium** (up to +10%) and **Credits** (up to +10%).
 - A clan that finishes every line has bought every level on **season day 12**. Points and levels start again at every wipe.
-- You need at least **three members** who did their part, and about five pilots for the Warden's fight.
-- The line and the boosts need a game of version 0.4.10 or later.
+- You need at least **three members** who did their part, and **about seven pilots** for the Warden's fight: five usually lose and ten win easily ([how big a crew](#how-big-a-crew)). A crew that is too small loses the fight: the clan then keeps the **70 points** of the four missions, but the line is not finished and pays no [reward for you](#the-reward-for-you).
+- Your ship shows the boosts it has in the **Boosters window**, on a card of its own ([where you see them](#the-three-boosts)).
+- The line and the boosts need a game of version 0.4.10 or later; the card in the Boosters window, 0.4.12 or later.
 
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../img/wiki-img/shots/clan-warden.jpg)
 
@@ -101,7 +103,7 @@ Every clan gets one **daily line** a day: five steps, done **in order**, by the 
 | | **A finished line** | **100** |
 
 - Only the **open step counts**. A kill made while step 1 is open counts for step 1 and for nothing else. When step 1 is done, step 2 opens at zero. What you kill above a step's target is not saved for the next one.
-- A step pays its points **the moment it is done**. A clan that finishes the four missions and then cannot get a crew together for the Warden still keeps **70 points**.
+- A step pays its points **the moment it is done**. A clan that finishes the four missions and then cannot get a crew together for the Warden, or loses the fight, still keeps **70 points**; the [reward for you](#the-reward-for-you) comes only with the finished line.
 - Everyone's work goes into **one shared count**: the kills of the open step's alien and the distance flown by all your members add up, so nobody has to do a step alone.
 
 ### The day
@@ -148,7 +150,7 @@ The lines come in a cycle of seven: the line of season day *d* is number 1 + ((*
 
 ### The reward for you
 
-When the line is finished, every member who reached the minimum and is still in the clan is paid, even if he is offline. The payout is flat: it is not changed by boosts, boosters or the world.
+When the line is finished, which means the Warden is destroyed, every member who reached the minimum and is still in the clan is paid, even if he is offline. A line that ends without the Warden pays no reward, whatever the four missions did. The payout is flat: it is not changed by boosts, boosters or the world.
 
 | Tier | Credits | Thulium |
 | :--- | ---: | ---: |
@@ -160,7 +162,7 @@ When the line is finished, every member who reached the minimum and is still in 
 
 ## Clan Wardens
 
-A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien.
+A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. Its lasers hit hard, so a Warden is a fight for a full crew: bring about seven pilots, because five usually lose ([how big a crew](#how-big-a-crew)).
 
 | Warden | Season days | Role | How it fights |
 | :--- | :--- | :--- | :--- |
@@ -174,64 +176,70 @@ A **Clan Warden** is the boss at the end of the daily line. It is not one of the
 - **Who.** The Leader or a Co-Leader.
 - **How.** From flight: the **Summon here** button appears on the flight screen once step 4 is done, and asks you to confirm. Be outside the safe zones, in a company sector **x-2, x-3 or x-4** (any company's) of your world. The Operations tab shows the day's Warden, the summons left and why the button is dimmed, but a Warden is called from the ship.
 - **Where it appears.** 3,000 to 4,500 units from your ship, in your world: only pilots of that world can reach it. The tab recommends **x-2 for a Recruit clan, x-3 for Veteran and x-4 for Elite**. The usual [PvP rules](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) of the sector you pick still hold.
-- **Warm-up.** It stands shielded and passive for **90 seconds** ("powering up") and every clan pilot who is online is told where. Fly in while it warms up: when the 90 seconds are over it is armed.
+- **Warm-up.** It stands shielded and passive for **90 seconds** ("powering up") and every clan pilot who is online is told where. Fly in while it warms up: when the 90 seconds are over it is armed. A capsule under the safe-zone badge on the flight screen follows it: its name, "powering up" and the time left, then "armed" with its sector and the time until it withdraws, and "enraged" once a Wrath Warden is under half its hull.
 - **Only your clan.** The shots of any other clan's pilots are ignored and do not make it fight back.
 - **How it ends.** When it is destroyed. It **withdraws** 40 minutes after it armed, when the day ends, when none of your clan's pilots has been out in flight on its map for 2 minutes, or when the server restarts (that summon is given back). A Warden that withdraws costs one summon, and the next call is the same Warden at full strength.
 
 ### Fighting a Warden
 
 - **A Warden fights the first pilot who hit it**, like any boss: let the sturdiest ship of the crew start, and use [Shield Surge and Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). A crew of five wins even with x1 ammo, slowly; a crew of three does not.
-- **Brood:** the drones heal its hull, and a crew of three that ignores them loses. Kill them first: one dies in a second or less under the fire of five pilots, and the next one comes after 8 seconds.
+- **Bring about seven pilots, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). Five usually lose and ten win easily. The table below is the best case, and even in it three lose to every Warden and four win only against the Siege Warden I and II. In the table the smallest crew that can win has 4 to 5 pilots with x2 ammo and 6 to 8 with x1 ammo.
+- **Brood:** the drones heal its hull, and a crew that ignores them loses: five pilots who shoot only the Warden all fall with about half of it standing, and ten take about a fifth longer. Kill them first: one dies in a second or less under the fire of five pilots, and the next one comes after 8 seconds.
 - **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target.
 - **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage.
 
 ### How big a crew
 
 > [!NOTE]
-> These times are **calculated** from the numbers below, not measured in play: a crew in the ships and gear the tier is made for, all firing at the Warden. A dash means we did not calculate it.
+> These times are **calculated** from the numbers below, not measured in play, and the table is the crew's **best case**: the crew is in the ships and gear the tier is made for, every pilot uses Shield Surge and Emergency Repair as soon as they are ready, the crew shoots the Warden's helpers first when that is better. The Warden and its helpers all fire at the pilot who hit first, and nobody dodges. **A real fight is harder than the table.** The five-pilot row is a close call even in the best case (a win that costs one or two ships), and in the same fights run in the game itself, with scripted pilots, five pilots lost most of the fights we ran, even when they used both abilities; seven won every one of theirs, and ten won easily. A crew of five that uses no ability and shoots only the Warden loses to seven of the nine Wardens; seven pilots who do the same win eight of them (all but the Brood Warden III, whose drones heal it) and lose one to three ships, and ten win all nine.
+
+The table is the best case, with x2 ammo; in play, five pilots usually lose and about seven win.
 
 | Crew | With x2 ammo | With x1 ammo |
 | :--- | :--- | :--- |
-| 2 pilots | lose to Brood and Siege; win against Wrath in about 17 minutes | – |
-| 3 pilots | win in 9 to 10 minutes, narrowly: the tank's hull ends low and a pilot may be lost | lose |
-| 5 pilots | win in about 5 minutes | win in 12 to 14 minutes |
-| 7 pilots | win in about 3.4 minutes | – |
-| 10 pilots | win in about 2.3 minutes | – |
+| 3 pilots | lose to every Warden, after 4.7 to 13.8 minutes; the Warden keeps between a quarter and two thirds of its hull and shield | lose |
+| 4 pilots | win only against the Siege Warden I and II, in about 8 minutes, losing 1 ship | lose |
+| 5 pilots | win against every Warden in 5.3 to 6.5 minutes, losing 1 to 2 ships | lose |
+| 7 pilots | win against every Warden in 3.3 to 3.6 minutes, losing 0 to 1 ships | win against every Warden but the Brood Warden II and III, in 8.7 to 12.3 minutes, losing 1 to 4 ships |
+| 10 pilots | win against every Warden in 2.2 to 2.4 minutes, losing 0 to 1 ships | win against every Warden in 5.1 to 5.6 minutes, losing 1 to 2 ships |
 
-A crew of a lower tier than the Warden loses: a Recruit crew of five cannot kill a Veteran Warden, and a Veteran crew cannot kill an Elite one. The Warden of **your** clan always matches **your** tier.
+In the best case the smallest crew that wins with x2 ammo has **4 pilots** (against the Siege Warden I and II) to **5** (against the other seven) and loses **1 to 2** ships doing it; with x1 ammo it has **6 to 8** pilots and loses 2 to 4. A crew of **seven** wins against every Warden with x2 ammo and loses at most one ship in the best case. A Warden's lasers hit for tens to over a hundred a volley at strength I (48 to 129) and thousands at strength III (1,845 to 3,090), and its helpers add to it: the ship it fights falls in one and a half to four minutes, and then it turns on the next one, so even a crew that wins loses ships.
+
+The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse: ten pilots in Recruit gear cannot kill a Veteran Warden, and ten in Veteran gear cannot kill an Elite one. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
+
+**A clan too small for its Warden** (fewer than about seven pilots on the day) is not shut out. The four missions pay their **70 points** whatever happens to the Warden, the points buy boosts, and the clan can call the Warden again if it has a summon left (there are two a day): if the crew falls and stays away, the Warden withdraws, which costs one summon, and the next call brings it back at full strength. But the line is not finished, so nobody gets the [reward for you](#the-reward-for-you), and a clan that never kills its Warden has all 30 boost levels on season day 18 at the soonest, not on day 12 ([how long it takes](#how-long-it-takes)).
 
 ### Warden numbers
 
-The Wardens have the same numbers in every world (the Alpha numbers), and so does their pay. Each drone, escort or guard has the numbers of the second table, and they stand with the Warden: a Brood Drone heals the Warden's hull, a Siege Escort or a Wrath Guard fires lasers.
+The Wardens have the same numbers in every world (the Alpha numbers), and so does their pay. Each drone, escort or guard has the numbers of the second table, and they stand with the Warden: a Brood Drone heals the Warden's hull, a Siege Escort or a Wrath Guard fires lasers. A volley is the shots of all of a ship's lasers in one second, rolled between 80 and 100% of the number shown; a Wrath Warden below half its hull hits half again as hard. The Warden and its helpers all fire at the pilot the Warden fights, so their volleys add up: a Brood Warden III with its four drones puts up to 4,350 a second on one ship. The Siege Warden's [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) does not roll: it hits for at most **2,500** at strength I, **5,000** at II and **7,500** at III, where a pilot's Rivet rolls between a lowest and a highest number. It is straight, so a ship that keeps moving is missed.
 
 | Warden | Hull | Shield | Laser damage (a volley a second) | Speed | Laser range | Mends itself (hull a second) | Rocket and seconds between shots |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166,000 | 136,000 | 43 | 90 | 600 | – | – |
-| Brood Warden II | 288,000 | 236,000 | 259 | 90 | 700 | – | – |
-| Brood Warden III | 1,060,000 | 870,000 | 1,030 | 90 | 800 | – | – |
-| Siege Warden I | 143,000 | 117,000 | 16 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248,000 | 203,000 | 97 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915,000 | 745,000 | 615 | 110 | 800 | 1,385 | Rivet III: 8 |
-| Wrath Warden I | 163,000 | 133,000 | 32 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282,000 | 231,000 | 194 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1,040,000 | 850,000 | 820 | 90 | 900 | 1,385 | – |
+| Brood Warden I | 166,000 | 136,000 | 129 | 90 | 600 | – | – |
+| Brood Warden II | 288,000 | 236,000 | 777 | 90 | 700 | – | – |
+| Brood Warden III | 1,060,000 | 870,000 | 3,090 | 90 | 800 | – | – |
+| Siege Warden I | 143,000 | 117,000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
+| Siege Warden II | 248,000 | 203,000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
+| Siege Warden III | 915,000 | 745,000 | 1,845 | 110 | 800 | 1,385 | Rivet III: 8 |
+| Wrath Warden I | 163,000 | 133,000 | 96 | 90 | 700 | 215 | – |
+| Wrath Warden II | 282,000 | 231,000 | 582 | 90 | 800 | 375 | – |
+| Wrath Warden III | 1,040,000 | 850,000 | 2,460 | 90 | 900 | 1,385 | – |
 
 | Helper | How many | Hull | Shield | Laser damage (a volley a second) | Speed | Heals the Warden (hull a second) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 4 | 170 | 120 |
-| Brood Drone II | 4 | 1,200 | 900 | 26 | 170 | 210 |
-| Brood Drone III | 4 | 4,000 | 3,500 | 105 | 170 | 770 |
-| Siege Escort I | 2 | 4,300 | 3,500 | 2 | 175 | – |
-| Siege Escort II | 2 | 7,400 | 6,100 | 15 | 175 | – |
-| Siege Escort III | 2 | 27,500 | 22,500 | 95 | 175 | – |
-| Wrath Guard I | 2 | 4,900 | 4,000 | 6 | 180 | – |
-| Wrath Guard II | 2 | 8,500 | 6,900 | 39 | 180 | – |
-| Wrath Guard III | 2 | 31,000 | 25,500 | 165 | 180 | – |
+| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
+| Brood Drone II | 4 | 1,200 | 900 | 78 | 170 | 210 |
+| Brood Drone III | 4 | 4,000 | 3,500 | 315 | 170 | 770 |
+| Siege Escort I | 2 | 4,300 | 3,500 | 6 | 175 | – |
+| Siege Escort II | 2 | 7,400 | 6,100 | 45 | 175 | – |
+| Siege Escort III | 2 | 27,500 | 22,500 | 285 | 175 | – |
+| Wrath Guard I | 2 | 4,900 | 4,000 | 18 | 180 | – |
+| Wrath Guard II | 2 | 8,500 | 6,900 | 117 | 180 | – |
+| Wrath Guard III | 2 | 31,000 | 25,500 | 495 | 180 | – |
 
 ### Pay and loot {#warden-pay-and-loot}
 
-A Warden pays the same as a stack of the tier's heavy alien: **30 Phantasms** for a Warden I, **24 Bulwarks** for a II and **16 Goombahs** for a III. It is one pot, split by damage between the pilots who dealt at least 5% of the damage, the same way as the leader of a [swarm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Your [clan boosts](#what-the-boosts-apply-to) apply to your share. In our calculation the credits cover the x1 ammo a crew of five burns, and x2 ammo costs more Thulium than the Warden pays: it is a fight for the points and the box.
+A Warden pays the same as a stack of the tier's heavy alien: **30 Phantasms** for a Warden I, **24 Bulwarks** for a II and **16 Goombahs** for a III. It is one pot, split by damage between the pilots who dealt at least 5% of the damage, the same way as the leader of a [swarm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Your [clan boosts](#what-the-boosts-apply-to) apply to your share. In our calculation the credits cover about the x1 ammo that the smallest crew that can win burns, and x2 ammo costs more Thulium than the Warden pays: it is a fight for the points and the box. The pay did not change in 0.4.12, when the Wardens' lasers got stronger: the pot does not grow with the damage you take or the ships you lose.
 
 | Strength of the Warden | Credits | Thulium | Experience (XP) | Honor |
 | :--- | ---: | ---: | ---: | ---: |
@@ -277,6 +285,8 @@ Clan points belong to the clan. Every step the clan finishes adds to its balance
 | **Clan Thulium** | 10 | +1% | +10% | Thulium from kills and mission rewards |
 | **Clan Credit** | 10 | +1% | +10% | Credits from kills and mission rewards |
 
+**Where you see them.** In flight, the **Boosters window** lists the boosts your ship has on a **Clan boosts** card of its own, under the timed boosters: your clan's tag, then a row for each boost with its bonus and its level (Lv 3/10). They have no timer, because a clan boost lasts as long as you are in the clan. Hover a row to see what it works on. A clan that has bought nothing yet shows "Your clan has no boosts yet", and a pilot without a clan sees no card. The **Dashboard**'s Boosters card and a pilot's profile list them too. The card shows what your ship applies, as the server tells the game, so a level the officers have just bought shows at once. A game older than 0.4.12 applies the boosts and shows no card.
+
 ### Prices {#boost-prices}
 
 The price of a level is **22 clan points plus 4 for every level before it**, and it is the same for the three boosts: 400 points for one boost, **1,200 for all three**, which is twelve finished lines.
@@ -298,13 +308,13 @@ The price of a level is **22 clan points plus 4 for every level before it**, and
 
 - **Clan Damage** adds to all laser damage your ship deals: to aliens, swarm ships, Wardens and other pilots. It **does not touch rockets**, of any kind.
 - **Clan Thulium and Clan Credit** add to the pay of alien kills (your own, your share of a boss and your share of a group kill) and to the reward of every mission you claim, level, Station and Challenge ([Quests](/wiki/03-Mechanics/Quests.md#rewards)). They **do not touch** the [Skylab](/wiki/03-Mechanics/Skylab.md#credit-farm-and-thulium-farm) farms, bank payouts, bonus codes or the reward of the daily line.
-- **They add up with your other bonuses** (boosters such as the Damage Amp, the buffs of the [Season Store](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): the percentages are added. Laser amplifiers (Amps) are not among them: they add flat damage, and the percentages apply to the total. Five points of Clan Damage next to 50 from other sources make 55, which is 3.3% more damage than before.
+- **They add up with your other bonuses** (boosters such as the Laser Damage Booster, the buffs of the [Season Store](/wiki/03-Mechanics/Wipe-Timeline.md#the-permanent-buff-store)): the percentages are added. Laser amplifiers (Amps) are not among them: they add flat damage, and the percentages apply to the total. Five points of Clan Damage next to 50 from other sources make 55, which is 3.3% more damage than before.
 - **A fraction is not lost.** A boost often adds less than one unit to a kill: 10% of a Seeker's 4 Thulium is 0.4. The game keeps the fraction and pays it with the units of your next kills, so ten Seekers pay the 4 you are owed. The fraction you hold is dropped when you log out.
 - **Joining and leaving.** A pilot has the boosts from the moment he joins the clan and loses them the moment he leaves, is kicked or the clan is disbanded. The clan keeps its levels.
 
 ### How long it takes
 
-A clan that finishes every line earns 100 points a day. If the officers buy evenly across the three boosts, it has **4 levels after the first line, 10 after the third, 16 after the fifth and all 30 on season day 12**. Fourteen lines are over when day 15 begins, so such a clan has two lines to spare. A day that is not finished still pays for the steps done. After the last level the line keeps running and keeps paying the reward for you; the points go on adding to what the clan earned this season, which the hover tip of the clan points on the Clan boosts card shows.
+A clan that finishes every line earns 100 points a day. If the officers buy evenly across the three boosts, it has **4 levels after the first line, 10 after the third, 16 after the fifth and all 30 on season day 12**. Fourteen lines are over when day 15 begins, so such a clan has two lines to spare. A day that is not finished still pays for the steps done: a clan that gets through the four missions but never kills its Warden earns 70 points a day and has all 30 levels on season day 18 at the soonest. After the last level the line keeps running and keeps paying the reward for you; the points go on adding to what the clan earned this season, which the hover tip of the clan points on the Clan boosts card shows.
 
 ### Points and the wipe {#clan-points-and-the-wipe}
 

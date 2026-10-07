@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b61bcf681aaad50b -->
+<!-- wiki-i18n source: c5a5092155c3410c -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
@@ -44,7 +44,7 @@ La maggior parte delle missioni non è più “distruggi tot di questi”: sono 
 - L’undicesima missione di ogni livello è la sua **Speciale**. Resta bloccata finché **tutte e dieci** le altre missioni del livello non sono completate (riscosse o in attesa di essere riscosse), e la sua scheda dice quante te ne mancano.
 - Le Speciali pagano più esperienza di qualsiasi altra missione del loro livello, e in più **oggetti**: laser, parti di scudo, generatori, Power Core, Ship Fragment, munizioni e tempo di booster.
 - Le Speciali dei livelli 3 e 4, **Spaccaalveare** ed **Epurazione dell’alveare**, sono [cacce allo sciame](#swarm-missions): si aprono dal giorno 4 della stagione.
-- Anche le missioni normali del livello 1 danno ciascuna un piccolo oggetto iniziale: un Light Shield Core, un Repair Drone, un Damage Amp, una Absorption Shield Cell I, un po’ di munizioni e una scorta di razzi per provarne ogni tipo (Lancet I, Rivet I, Ember I e Scatter I, e Lancet II dalla Speciale).
+- Anche le missioni normali del livello 1 danno ciascuna un piccolo oggetto iniziale: un Light Shield Core, un Repair Drone, un Damage Amp I, una Absorption Shield Cell I, un po’ di munizioni e una scorta di razzi per provarne ogni tipo (Lancet I, Rivet I, Ember I e Scatter I, e Lancet II dalla Speciale).
 
 ## Missioni a catena {#chained-missions}
 
@@ -75,7 +75,7 @@ Cosa interrompe il trasporto:
 - **Un limite di scafo superato** o una regola **senza morire** fa fallire il trasporto allo stesso modo: vedi [Condizioni](#conditions).
 - **La CPU di salto e la CPU base si rifiutano di funzionare finché trasporti un oggetto.** Torna a casa passando dalle porte. Le porte, l’occultamento e lo Shield Surge restano utilizzabili.
 - Se esci dal gioco, quando torni continui a trasportare l’oggetto. Un drop che stava sulla mappa è sparito, e il prossimo abbattimento valido lo lascia di nuovo.
-- Gli oggetti ci sono solo nei settori delle corporazioni da `x-1` a `x-4`, **mai nei settori pericolosi**.
+- Gli oggetti ci sono solo nei settori delle corporazioni da `x-1` a `x-4`, **mai nei settori pericolosi**, e solo in quelli della **tua corporazione**: l’oggetto di un pilota di Galactic sta in `G-2`, mai in `M-2` o `T-2`. Un alieno lascia cadere il tuo oggetto solo se muore nel settore della tua corporazione.
 - In un [gruppo](/wiki/03-Mechanics/Groups.md) ogni membro per cui l’abbattimento conta (vedi [Dove conta](#where-it-counts)) e che ha la missione tira e vede il proprio oggetto. Nessuno può darne, prenderne o condividerne uno.
 
 > [!TIP]
@@ -83,11 +83,11 @@ Cosa interrompe il trasporto:
 
 ## Visitare un punto e restare {#visit-and-stay}
 
-**Visitare un punto.** Un passaggio di visita indica un punto di un settore con due numeri, “9.000 / 4.500”. Sono gli stessi numeri che la barra del titolo della minimappa mostra per la tua nave, quindi puoi orientarti con loro. Avvicinati a meno di **400 unità** dal punto e conta subito; non devi fermarti (un percorso che finisce a Mission Control finisce dentro la zona sicura della stazione). Il punto è un **anello dorato** sullo schermo e un rombo dorato sulla minimappa.
+**Visitare un punto.** Un passaggio di visita indica un punto di un settore con due numeri, “9.000 / 4.500”. Sono gli stessi numeri che la barra del titolo della minimappa mostra per la tua nave, quindi puoi orientarti con loro. Avvicinati a meno di **400 unità** dal punto e conta subito; non devi fermarti (un percorso che finisce a Mission Control finisce dentro la zona sicura della stazione). Il punto è un **anello dorato** sullo schermo e un rombo dorato sulla minimappa. Conta solo sulla mappa della tua corporazione, non nello stesso settore di un’altra.
 
 **Restare in un settore.** Un passaggio di permanenza chiede qualche minuto in un settore. Conta solo finché sono vere tutte e tre queste condizioni:
 
-- sei nel settore che il passaggio indica;
+- sei nel settore che il passaggio indica (per un `x-n`, la mappa della tua corporazione);
 - sei **fuori da ogni zona sicura** (l’anello di una stazione o di una porta: il tempo dentro un anello non conta);
 - la tua nave è **attiva**: ha percorso 300 unità o sparato un colpo negli ultimi 30 secondi. Una nave parcheggiata non guadagna nulla.
 
@@ -141,7 +141,7 @@ Otto missioni dall’elenco vero, dalla prima ora alla linea delle Sfide. I loro
 - **Corriere pesante** (livello 4, 40 minuti). Distruggi 10 Phantasm in `x-3`, raggiungi i punti 13.400 / 5.000 e 13.600 / 1.900, poi prendi il Manifest da un Bulwark (25% per abbattimento, di sicuro al 5º) e portalo a Mission Control con una perdita di scafo di al massimo 17.000 punti e senza morire. Paga 10.500 XP, 52.000 crediti e 315 Thulium.
 - **Spaccaalveare** (Speciale del livello 3, dal giorno 4 della stagione). Distruggi 3 Boss Seeker e 12 Seeker Slave, in qualsiasi settore, e 6 Phantasm in `x-3`, in qualsiasi ordine. Paga 6.800 XP, 54.500 crediti, 170 Thulium, un Quantum Laser 2, 10 Ship Fragment e 200 Ultra Core.
 - **Grand tour** (livello 8, 25 minuti, senza morire). Vola a 8.000 / 4.500 in `x-4`, poi a 6.000 / 4.500 nel centro, distruggi 2 Goombah nell’`x-4` di una corporazione rivale e vola al suo cuore a 8.000 / 4.500. Le [porte dell’Anello](/wiki/01-General/Spacemap%20Travel.md#jump-links) e il centro portano entrambi laggiù. Paga 66.000 XP, 165.000 crediti e 1.320 Thulium.
-- **Intatto** (Sfida). Distruggi 25 Phantasm in `x-3` di fila perdendo al massimo 39.000 punti di scafo. Se superi il limite, il conteggio torna a 0. Paga, come base, 44.000 XP, 855.000 crediti, 6.405 Thulium, 2.370 di onore, un’Ancient Control Unit e 5 ore di Shield Wall II.
+- **Intatto** (Sfida). Distruggi 25 Phantasm in `x-3` di fila perdendo al massimo 39.000 punti di scafo. Se superi il limite, il conteggio torna a 0. Paga, come base, 44.000 XP, 855.000 crediti, 6.405 Thulium, 2.370 di onore, un’Ancient Control Unit e 5 ore di Shield Wall Booster 2.
 
 ## Missioni Stazione {#station-missions}
 
@@ -191,11 +191,11 @@ Le [tabelle](#challenge-missions-table) riportano ogni numero di ogni missione.
 
 ## Dove conta {#where-it-counts}
 
-La maggior parte dei passaggi indica il settore in cui contano, e solo gli abbattimenti e la distanza percorsa **lì** contano per loro. Una visita, una permanenza e un oggetto indicano il loro settore allo stesso modo. Alcuni passaggi di abbattimento non ne indicano nessuno e contano in **qualsiasi** settore: le navi degli sciami di Spaccaalveare ed Epurazione dell’alveare, e le grandi cacce della linea delle Sfide (Piaga di Seeker, Marea di Phantasm, Muro di Bulwark, Caccia all’alveare, Caccia agli esploratori e le grandi cacce delle fasce dopo la fascia I). I passaggi delle missioni Stazione leggono il tuo Skylab e non hanno nemmeno loro un settore. Il settore compare accanto a un passaggio come una delle tue mappe:
+La maggior parte dei passaggi indica il settore in cui contano, e solo gli abbattimenti e la distanza percorsa **lì** contano per loro. Una visita, una permanenza e un oggetto indicano il loro settore allo stesso modo, ma sono più severi: contano solo sulla mappa della **tua corporazione**. Un oggetto che una missione colloca in `G-2` si trova in `G-2` e da nessun’altra parte, e un pilota di Galactic non ne trova traccia in `M-2` di Mars né in `T-2` di Terra. Gli abbattimenti e la distanza percorsa contano in quel settore di qualsiasi corporazione. Alcuni passaggi di abbattimento non ne indicano nessuno e contano in **qualsiasi** settore: le navi degli sciami di Spaccaalveare ed Epurazione dell’alveare, e le grandi cacce della linea delle Sfide (Piaga di Seeker, Marea di Phantasm, Muro di Bulwark, Caccia all’alveare, Caccia agli esploratori e le grandi cacce delle fasce dopo la fascia I). I passaggi delle missioni Stazione leggono il tuo Skylab e non hanno nemmeno loro un settore. Il settore compare accanto a un passaggio come una delle tue mappe:
 
 | Nelle tabelle | Significa | Vedi (da pilota di Mars) |
 | :--- | :--- | :--- |
-| `x-1` … `x-4` | quel settore di qualsiasi corporazione: la tua o un’altra | `M-3` |
+| `x-1` … `x-4` | per abbattimenti e distanza percorsa: quel settore di qualsiasi corporazione, la tua o un’altra; per un oggetto, una visita e una permanenza: solo il settore della tua corporazione | `M-3` |
 | `DS-x` | qualsiasi settore del centro PvP, i settori pericolosi da `DS-1` a `DS-4` | `DS-x` |
 | `rival x-4` | il settore di confine di un’altra corporazione (non il tuo), un breve salto dalle porte dell’Anello o attraverso il centro | `T-4 · G-4` |
 
@@ -212,6 +212,7 @@ Le missioni risalgono i settori insieme al tuo livello:
 | 7 | il confine | incursioni nel centro PvP (`DS-x`) |
 | 8 | il confine | il centro e i confini delle altre corporazioni |
 
+- **Il badge accanto a un passaggio** indica la sua mappa, per esempio `G-2`. Passaci sopra il puntatore: per un oggetto, una visita o una permanenza dice “Conta solo in G-2”; per un abbattimento o un volo aggiunge “o nel settore `x-2` di un’altra corporazione”.
 - **Le pattuglie contano solo fuori dalle zone sicure.** Girare intorno all’anello di un portale non vale come pattuglia del settore.
 - **Un abbattimento conta per una missione di livello**: quella che stai seguendo, se può usarlo, altrimenti la prima delle tue missioni attive che può. In più conta per ogni Sfida che lo chiede, e ogni tuo passaggio con un oggetto della missione che aspetta quell’alieno tira il suo drop.
 - Un alieno che finisce un [pilota di corporazione](/wiki/03-Mechanics/Company-Pilots.md) della tua corporazione mentre lo stai combattendo conta come un tuo abbattimento, anche per le tue missioni.
@@ -226,11 +227,12 @@ Le missioni risalgono i settori insieme al tuo livello:
 
 ## Ricompense {#rewards}
 
-- Esperienza, crediti, Thulium e onore vengono moltiplicati per il [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) in cui hai completato la missione: 1x in Alpha, 2x in Beta, 3x in Gamma. I tuoi booster (l’Experience Kit, l’Honor Beacon) li aumentano, e Premium raddoppia l’esperienza. I bonus di Thulium e di crediti del tuo [clan](/wiki/03-Mechanics/Clans.md) si aggiungono ai crediti e al Thulium di ogni missione che riscuoti: di livello, Stazione e Sfida.
+- Esperienza, crediti, Thulium e onore vengono moltiplicati per il [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) in cui hai completato la missione: 1x in Alpha, 2x in Beta, 3x in Gamma. I tuoi booster (l’Experience Booster, l’Honor Booster) li aumentano, e Premium raddoppia l’esperienza. I bonus di Thulium e di crediti del tuo [clan](/wiki/03-Mechanics/Clans.md) si aggiungono ai crediti e al Thulium di ogni missione che riscuoti: di livello, Stazione e Sfida.
 - **Le missioni Stazione e le Sfide pagano come le missioni di livello.** I numeri stampati nelle loro tabelle sono la **base**. Una Sfida viene pagata in base al mondo in cui l’hai completata, come una missione di livello (il più basso, se si estende su due). Una missione Stazione non ha un mondo suo: paga il mondo in cui voli quando la riscuoti.
 - **Un esempio.** **Piaga di Seeker** (Sfida) ha una base di 1.100.000 crediti, 8.260 Thulium, 31.500 XP e 3.060 di onore. Completata e riscossa in Gamma senza nulla di attivo, paga 3.300.000 crediti, 24.780 Thulium, 94.500 XP e 9.180 di onore. Con i bonus di crediti e Thulium del tuo clan al massimo (+10% ciascuno) paga 3.630.000 crediti e 27.258 Thulium.
 - **Il tetto della banca del clan.** Per quanto grande sia una riscossione, un pilota può inviare al massimo 1.000.000 di crediti nei [clan](/wiki/03-Mechanics/Clans.md#2-donations) in qualsiasi arco di 24 ore.
 - **Oggetti e tempo di booster sono uguali in ogni mondo.** Gli oggetti vanno nel tuo inventario, le ore di booster si aggiungono a quelle che restano al booster, e le munizioni sono pronte a sparare anche se riscuoti in volo.
+- **Gli oggetti sono vendibili.** Ciò che una missione paga in oggetti (equipaggiamento, munizioni, razzi, materiali, Reinforced Plate) si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items) dal livello 5. Le missioni Sfida non pagano equipaggiamento: i loro oggetti sono materiali e Reinforced Plate.
 
 ## Le missioni rielaborate {#reworked-missions}
 
@@ -278,7 +280,7 @@ Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di s
 | Operazioni congiunte | Operazioni | Distruggi Seeker ×8 in x-1 → Porta Cargo Pod a Mission Control (Seeker in x-1 può lasciarlo: 15% per abbattimento, di sicuro all’abbattimento n. 10) (perdita di scafo al massimo 3.000 punti) | – | 1.550 | 8.000 | 15 | 16 | Advanced Plasma ×100, Ember I ×30 |
 | Colpisci e fuggi | Ricognizione | Distruggi Seeker ×4 in x-2 → Vola al punto 4.000 / 6.500 in x-2 → Vola al punto 9.500 / 1.800 in x-2 | – | 700 | 3.500 | 5 | 7 | Absorption Shield Cell I ×1 |
 | Cacciatore di grosse prede | Combattimento | Distruggi Seeker ×10 in x-1 → Porta Trophy Tag a Mission Control (distruggi 10 Seeker in x-1: l’ultimo lo porta con sé) (perdita di scafo al massimo 3.000 punti) | – | 2.150 | 11.000 | 20 | 22 | Standard Battery ×1.000 |
-| Difesa di frontiera | Combattimento | Distruggi Seeker ×15 in x-2 → Porta Relay Part dal punto 12.500 / 4.800 in x-2 a Mission Control (perdita di scafo al massimo 3.000 punti) | – | 2.350 | 12.000 | 25 | 24 | Damage Amp 1 ×1, Scatter I ×30 |
+| Difesa di frontiera | Combattimento | Distruggi Seeker ×15 in x-2 → Porta Relay Part dal punto 12.500 / 4.800 in x-2 a Mission Control (perdita di scafo al massimo 3.000 punti) | – | 2.350 | 12.000 | 25 | 24 | Damage Amp I ×1, Scatter I ×30 |
 | La prova del fuoco | Operazioni | Distruggi Seeker ×8 in x-1 → Resta 5 min di fila in x-2 → Distruggi Seeker ×8 in x-2 | 20 min | 2.300 | 11.500 | 25 | 23 | Advanced Plasma ×150 |
 | **Cacciatore di Phantasm** (Speciale) | Operazioni | Distruggi Phantasm ×2 in x-2; Distruggi Seeker ×15 in x-2 | – | 3.400 | 17.000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
@@ -298,7 +300,7 @@ Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di s
 | Recupero del ripetitore | Combattimento | Distruggi Seeker ×25 in x-2 → Porta Relay dal punto 4.000 / 6.500 in x-2 a Mission Control (perdita di scafo al massimo 3.000 punti) | – | 2.200 | 15.500 | 45 | 22 | – |
 | Corsa alla porta | Ricognizione | Vola al punto 12.500 / 4.800 in x-2 → Vola al punto 12.500 / 2.500 in x-2 → Vola al punto 3.500 / 6.200 in x-3 (intera missione: senza perdere la nave) | 8 min | 700 | 5.000 | 15 | 7 | – |
 | Difendere il varco | Operazioni | Vola al punto 12.500 / 2.500 in x-2; Resta 4 min di fila in x-2; Distruggi Seeker ×8 in x-2; Distruggi Phantasm ×3 in x-2 (intera missione: senza perdere la nave) | 15 min | 1.500 | 10.500 | 30 | 15 | – |
-| **Epurazione dei Phantasm** (Speciale) | Operazioni | Distruggi Phantasm ×6 in x-2 → Distruggi Seeker ×15 in x-2 → Pattuglia 4.000 unità in x-3 | 30 min | 3.400 | 24.000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp 1 ×1, Ship Fragment ×5, Advanced Plasma ×300 |
+| **Epurazione dei Phantasm** (Speciale) | Operazioni | Distruggi Phantasm ×6 in x-2 → Distruggi Seeker ×15 in x-2 → Pattuglia 4.000 unità in x-3 | 30 min | 3.400 | 24.000 | 70 | 34 | Capacity Shield Cell I ×1, Crit Amp I ×1, Ship Fragment ×5, Advanced Plasma ×300 |
 
 ### Livello 3: Il terzo settore {#level-3-the-third-sector}
 
@@ -334,7 +336,7 @@ Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di s
 | Corsa del dispaccio | Ricognizione | Distruggi Bulwark ×2 in x-3 → Porta Dispatch a Mission Control (distruggi 6 Phantasm in x-3: l’ultimo lo porta con sé) (perdita di scafo al massimo 17.000 punti) | – | 6.500 | 32.000 | 195 | 65 | – |
 | Ripulitura | Combattimento | Distruggi Seeker ×18 in x-2; Distruggi Bulwark ×3 in x-3 | – | 5.250 | 26.000 | 160 | 52 | – |
 | Guardia di confine | Operazioni | Distruggi Phantasm ×10 in x-3 → Vola al punto 6.500 / 2.200 in x-4 → Resta 6 min di fila in x-4 | 20 min | 5.250 | 26.000 | 160 | 52 | – |
-| **Epurazione dell’alveare** (Speciale) | Operazioni | Distruggi Boss Seeker ×3; Distruggi Seeker Slave ×12; Distruggi Bulwark ×2 in x-3; Vola al punto 11.500 / 6.800 in x-4 (dal giorno 4 della stagione) | – | 13.500 | 68.000 | 405 | 135 | Basic Shield Core ×1, Ship Fragment ×10, Reinforced Hull Plate ×2, booster Shield Regen, 5 h |
+| **Epurazione dell’alveare** (Speciale) | Operazioni | Distruggi Boss Seeker ×3; Distruggi Seeker Slave ×12; Distruggi Bulwark ×2 in x-3; Vola al punto 11.500 / 6.800 in x-4 (dal giorno 4 della stagione) | – | 13.500 | 68.000 | 405 | 135 | Basic Shield Core ×1, Ship Fragment ×10, Reinforced Hull Plate ×2, Shield Regen Booster, 5 h |
 
 ### Livello 5: La linea dei Bulwark {#level-5-the-bulwark-line}
 
@@ -352,7 +354,7 @@ Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di s
 | Turno di notte | Ricognizione | Resta 15 min in x-3 (perdita di scafo al massimo 40.000 punti); Distruggi Phantasm ×4 in x-3 | – | 5.000 | 20.000 | 150 | 38 | – |
 | Spaccascudi | Combattimento | Distruggi Bulwark ×5 in x-3 | – | 15.500 | 62.000 | 465 | 116 | – |
 | Martello e incudine | Operazioni | Distruggi Phantasm ×6 in x-3 → Distruggi Bulwark ×4 in x-3 → Resta 6 min di fila in x-4 | – | 10.500 | 42.000 | 315 | 79 | – |
-| **Marea di ferro** (Speciale) | Operazioni | Distruggi Bulwark ×5 in x-3 → Distruggi Phantasm ×15 in x-3 → Pattuglia 6.000 unità in x-4 | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-3 ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, booster Experience Kit, 5 h |
+| **Marea di ferro** (Speciale) | Operazioni | Distruggi Bulwark ×5 in x-3 → Distruggi Phantasm ×15 in x-3 → Pattuglia 6.000 unità in x-4 | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-3 ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
 
 ### Livello 6: Il confine {#level-6-the-border}
 
@@ -406,7 +408,7 @@ Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di s
 | Tieni il confine | Operazioni | Distruggi Bulwark ×12 in x-4; Distruggi Goombah ×3 in x-4 | 30 min | 134.000 | 335.000 | 2.680 | 670 | – |
 | Deposito profondo | Ricognizione | Distruggi Goombah ×3 in x-4 → Porta Deep Cache dal punto 9.500 / 6.200 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) | – | 62.000 | 155.000 | 1.240 | 310 | – |
 | Tenere il centro | Operazioni | Distruggi Bulwark ×8 in x-4 → Distruggi Goombah ×3 in x-4 → Resta 8 min di fila in DS-x | 35 min | 94.000 | 235.000 | 1.880 | 470 | – |
-| **Comando di prima linea** (Speciale) | Operazioni | Distruggi Bulwark ×10 in x-4 → Pattuglia 10.000 unità in DS-x → Distruggi Goombah ×4 in rival x-4 | – | 218.000 | 545.000 | 4.360 | 1.090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, booster Damage Amp, 10 h |
+| **Comando di prima linea** (Speciale) | Operazioni | Distruggi Bulwark ×10 in x-4 → Pattuglia 10.000 unità in DS-x → Distruggi Goombah ×4 in rival x-4 | – | 218.000 | 545.000 | 4.360 | 1.090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster 1, 10 h |
 
 ### Missioni Stazione {#station-missions-table}
 
@@ -435,16 +437,16 @@ Dieci missioni, in qualsiasi ordine. La fascia successiva si apre quando le hai 
 
 | Missione | Ufficiale | Compiti | Limite di tempo | XP | Crediti | Thulium | Onore | Oggetti |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Piaga di Seeker | Combattimento | Distruggi Seeker ×1.000 | – | 31.500 | 1.100.000 | 8.260 | 3.060 | Power Core ×6, booster Experience Kit, 5 h |
-| Marea di Phantasm | Combattimento | Distruggi Phantasm ×1.000 | – | 65.500 | 1.605.000 | 12.035 | 4.460 | Reinforced Hull Plate ×20, booster Damage Amp, 5 h |
+| Piaga di Seeker | Combattimento | Distruggi Seeker ×1.000 | – | 31.500 | 1.100.000 | 8.260 | 3.060 | Power Core ×6, Experience Booster, 5 h |
+| Marea di Phantasm | Combattimento | Distruggi Phantasm ×1.000 | – | 65.500 | 1.605.000 | 12.035 | 4.460 | Reinforced Hull Plate ×20, Laser Damage Booster 1, 5 h |
 | Muro di Bulwark | Combattimento | Distruggi Bulwark ×150 | – | 103.000 | 2.610.000 | 19.585 | 7.420 | Ancient Control Unit ×2 |
-| Intatto | Operazioni | Distruggi Phantasm ×25 in x-3 (perdita di scafo al massimo 39.000 punti) | – | 44.000 | 855.000 | 6.405 | 2.370 | Ancient Control Unit ×1, booster Shield Wall II, 5 h |
-| Caccia all’alveare | Combattimento | Distruggi Boss Seeker ×40 (dal giorno 4 della stagione) | – | 11.000 | 355.000 | 2.660 | 990 | Power Core ×4, booster Loot Luck, 3 h |
-| Caccia agli esploratori | Combattimento | Distruggi Pirate Scout ×40 (dal giorno 4 della stagione) | – | 27.500 | 425.000 | 3.170 | 1.170 | Power Core ×4, booster Hull Plating II, 5 h |
-| Veglia di ferro | Ricognizione | Resta 45 min di fila in x-3 | – | 37.500 | 540.000 | 4.030 | 1.490 | Velkonite Reinforced Plate ×3, booster Shield Regen, 5 h |
+| Intatto | Operazioni | Distruggi Phantasm ×25 in x-3 (perdita di scafo al massimo 39.000 punti) | – | 44.000 | 855.000 | 6.405 | 2.370 | Ancient Control Unit ×1, Shield Wall Booster 2, 5 h |
+| Caccia all’alveare | Combattimento | Distruggi Boss Seeker ×40 (dal giorno 4 della stagione) | – | 11.000 | 355.000 | 2.660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
+| Caccia agli esploratori | Combattimento | Distruggi Pirate Scout ×40 (dal giorno 4 della stagione) | – | 27.500 | 425.000 | 3.170 | 1.170 | Power Core ×4, Hull Plating Booster 2, 5 h |
+| Veglia di ferro | Ricognizione | Resta 45 min di fila in x-3 | – | 37.500 | 540.000 | 4.030 | 1.490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
 | La sfida del centro | Ricognizione | Vola al punto 8.000 / 4.500 in x-4 → Distruggi Bulwark ×4 in x-4 → Vola al punto 6.000 / 4.500 in DS-x → Vola al punto 26.000 / 4.500 in DS-x → Vola al punto 6.500 / 2.200 in x-4 → Vola al punto 1.500 / 1.500 in x-1 (intera missione: senza perdere la nave) | – | 28.000 | 405.000 | 3.025 | 1.120 | Velkonite Reinforced Plate ×3 |
 | Convoglio | Operazioni | Distruggi Bulwark ×5 in x-4 → Porta Convoy Core dal punto 9.500 / 6.200 in x-4 a Mission Control (perdita di scafo al massimo 17.000 punti) (senza perdere la nave) | – | 74.500 | 1.075.000 | 8.065 | 2.990 | Orvium Reinforced Plate ×1 |
-| Cento in un’ora | Operazioni | Distruggi Phantasm ×100 in x-3 | 1 h | 13.000 | 385.000 | 2.890 | 1.070 | booster Honor Beacon, 5 h |
+| Cento in un’ora | Operazioni | Distruggi Phantasm ×100 in x-3 | 1 h | 13.000 | 385.000 | 2.890 | 1.070 | Honor Booster, 5 h |
 
 #### Fascia 2 · Confine di ferro {#challenge-tier-2}
 
@@ -452,16 +454,16 @@ Dieci missioni, in qualsiasi ordine. La fascia successiva si apre quando le hai 
 
 | Missione | Ufficiale | Compiti | Limite di tempo | XP | Crediti | Thulium | Onore | Oggetti |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Flagello di Seeker | Combattimento | Distruggi Seeker ×2.500 | – | 52.000 | 520.000 | 3.900 | 0 | Power Core ×8, booster Experience Kit, 6 h |
-| Diluvio di Phantasm | Combattimento | Distruggi Phantasm ×2.500 | – | 85.500 | 855.000 | 6.420 | 0 | Reinforced Hull Plate ×25, booster Damage Amp, 6 h |
+| Flagello di Seeker | Combattimento | Distruggi Seeker ×2.500 | – | 52.000 | 520.000 | 3.900 | 0 | Power Core ×8, Experience Booster, 6 h |
+| Diluvio di Phantasm | Combattimento | Distruggi Phantasm ×2.500 | – | 85.500 | 855.000 | 6.420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster 1, 6 h |
 | Tempesta di Bulwark | Combattimento | Distruggi Bulwark ×400 | – | 71.500 | 1.255.000 | 9.405 | 0 | Cataclysite ×40 |
-| Caccia ai Goombah | Combattimento | Distruggi Goombah ×100 | – | 58.500 | 1.135.000 | 8.495 | 0 | Orvium Reinforced Plate ×4, booster Loot Luck, 4 h |
-| Caccia all’alveare II | Combattimento | Distruggi Boss Seeker ×100 (dal giorno 4 della stagione) | – | 20.000 | 200.000 | 1.485 | 0 | Power Core ×6, booster Resource Magnet, 6 h |
-| Caccia agli esploratori II | Combattimento | Distruggi Pirate Scout ×120 (dal giorno 4 della stagione) | – | 25.500 | 290.000 | 2.165 | 0 | Velkonite Reinforced Plate ×8, booster Hull Plating, 6 h |
-| Resa dei conti pirata | Combattimento | Distruggi Pirate Boss ×3 (dal giorno 4 della stagione) | – | 11.000 | 285.000 | 2.125 | 0 | Ancient Control Unit ×1, booster Shield Wall, 6 h |
-| Veglia di ferro II | Ricognizione | Resta 90 min di fila in x-4 | – | 57.500 | 575.000 | 4.320 | 0 | Velkonite Reinforced Plate ×6, booster Shield Regen, 6 h |
-| Convoglio II | Operazioni | Distruggi Bulwark ×8 in x-4 → Porta Iron Core dal punto 12.500 / 6.000 in x-4 a Mission Control (perdita di scafo al massimo 17.000 punti) (senza perdere la nave) | – | 70.500 | 735.000 | 5.520 | 0 | Orvium Reinforced Plate ×3, booster Hull Plating II, 8 h |
-| Intatto II | Operazioni | Distruggi Bulwark ×15 in x-4 (perdita di scafo al massimo 60.000 punti) | – | 19.000 | 350.000 | 2.615 | 0 | Ancient Control Unit ×1, booster Damage Amp II, 8 h |
+| Caccia ai Goombah | Combattimento | Distruggi Goombah ×100 | – | 58.500 | 1.135.000 | 8.495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
+| Caccia all’alveare II | Combattimento | Distruggi Boss Seeker ×100 (dal giorno 4 della stagione) | – | 20.000 | 200.000 | 1.485 | 0 | Power Core ×6, Resource Magnet Booster, 6 h |
+| Caccia agli esploratori II | Combattimento | Distruggi Pirate Scout ×120 (dal giorno 4 della stagione) | – | 25.500 | 290.000 | 2.165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster 1, 6 h |
+| Resa dei conti pirata | Combattimento | Distruggi Pirate Boss ×3 (dal giorno 4 della stagione) | – | 11.000 | 285.000 | 2.125 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 6 h |
+| Veglia di ferro II | Ricognizione | Resta 90 min di fila in x-4 | – | 57.500 | 575.000 | 4.320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
+| Convoglio II | Operazioni | Distruggi Bulwark ×8 in x-4 → Porta Iron Core dal punto 12.500 / 6.000 in x-4 a Mission Control (perdita di scafo al massimo 17.000 punti) (senza perdere la nave) | – | 70.500 | 735.000 | 5.520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster 2, 8 h |
+| Intatto II | Operazioni | Distruggi Bulwark ×15 in x-4 (perdita di scafo al massimo 60.000 punti) | – | 19.000 | 350.000 | 2.615 | 0 | Ancient Control Unit ×1, Laser Damage Booster 2, 8 h |
 
 #### Fascia 3 · Il Centro {#challenge-tier-3}
 
@@ -469,16 +471,16 @@ Dieci missioni, in qualsiasi ordine. La fascia successiva si apre quando ne hai 
 
 | Missione | Ufficiale | Compiti | Limite di tempo | XP | Crediti | Thulium | Onore | Oggetti |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Terrore dei Goombah | Combattimento | Distruggi Goombah ×250 | – | 134.500 | 2.380.000 | 17.855 | 0 | Cataclysite ×50, booster Experience Kit, 8 h |
-| Pestilenza di Bulwark | Combattimento | Distruggi Bulwark ×800 | – | 132.000 | 2.080.000 | 15.615 | 0 | Power Core ×10, booster Damage Amp, 8 h |
-| Oceano di Phantasm | Combattimento | Distruggi Phantasm ×5.000 | – | 180.000 | 1.800.000 | 13.500 | 0 | Reinforced Hull Plate ×30, booster Resource Magnet, 8 h |
-| Prova dei Crystalys | Combattimento | Distruggi Crystalys ×10 | – | 18.000 | 250.000 | 1.880 | 0 | Orvium Reinforced Plate ×6, booster Loot Luck, 5 h |
-| Rovina dei pirati | Combattimento | Distruggi Pirate Boss ×10 (dal giorno 4 della stagione) | – | 29.000 | 775.000 | 5.805 | 0 | Ancient Control Unit ×1, booster Hull Plating, 8 h |
-| Alba dei Dormant | Combattimento | Distruggi Dormant Force ×3 (dal giorno 4 della stagione) | – | 46.000 | 750.000 | 5.625 | 0 | Cataclysite ×40, booster Shield Wall, 8 h |
-| Veglia del centro | Ricognizione | Resta 60 min di fila in DS-x | – | 98.000 | 980.000 | 7.365 | 0 | Velkonite Reinforced Plate ×10, booster Shield Regen, 8 h |
-| I quattro angoli | Ricognizione | Vola al punto 3.000 / 3.000 in DS-x → Vola al punto 29.000 / 3.000 in DS-x → Vola al punto 29.000 / 15.000 in DS-x → Vola al punto 3.000 / 15.000 in DS-x → Vola al punto 1.500 / 1.500 in x-1 (intera missione: perdita di scafo al massimo 104.000 punti) (intera missione: senza perdere la nave) | – | 98.000 | 980.000 | 7.365 | 0 | Orvium Reinforced Plate ×4, booster Hull Plating II, 10 h |
-| Convoglio III | Operazioni | Distruggi Goombah ×4 in x-4 → Porta Centre Core dal punto 13.000 / 3.000 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 119.000 | 1.260.000 | 9.460 | 0 | Ancient Control Unit ×1, booster Shield Wall II, 10 h |
-| Intatto III | Operazioni | Distruggi Goombah ×8 in x-4 (perdita di scafo al massimo 350.000 punti) | – | 32.500 | 740.000 | 5.550 | 0 | Power Core ×8, booster Damage Amp II, 10 h |
+| Terrore dei Goombah | Combattimento | Distruggi Goombah ×250 | – | 134.500 | 2.380.000 | 17.855 | 0 | Cataclysite ×50, Experience Booster, 8 h |
+| Pestilenza di Bulwark | Combattimento | Distruggi Bulwark ×800 | – | 132.000 | 2.080.000 | 15.615 | 0 | Power Core ×10, Laser Damage Booster 1, 8 h |
+| Oceano di Phantasm | Combattimento | Distruggi Phantasm ×5.000 | – | 180.000 | 1.800.000 | 13.500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8 h |
+| Prova dei Crystalys | Combattimento | Distruggi Crystalys ×10 | – | 18.000 | 250.000 | 1.880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
+| Rovina dei pirati | Combattimento | Distruggi Pirate Boss ×10 (dal giorno 4 della stagione) | – | 29.000 | 775.000 | 5.805 | 0 | Ancient Control Unit ×1, Hull Plating Booster 1, 8 h |
+| Alba dei Dormant | Combattimento | Distruggi Dormant Force ×3 (dal giorno 4 della stagione) | – | 46.000 | 750.000 | 5.625 | 0 | Cataclysite ×40, Shield Wall Booster 1, 8 h |
+| Veglia del centro | Ricognizione | Resta 60 min di fila in DS-x | – | 98.000 | 980.000 | 7.365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
+| I quattro angoli | Ricognizione | Vola al punto 3.000 / 3.000 in DS-x → Vola al punto 29.000 / 3.000 in DS-x → Vola al punto 29.000 / 15.000 in DS-x → Vola al punto 3.000 / 15.000 in DS-x → Vola al punto 1.500 / 1.500 in x-1 (intera missione: perdita di scafo al massimo 104.000 punti) (intera missione: senza perdere la nave) | – | 98.000 | 980.000 | 7.365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster 2, 10 h |
+| Convoglio III | Operazioni | Distruggi Goombah ×4 in x-4 → Porta Centre Core dal punto 13.000 / 3.000 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 119.000 | 1.260.000 | 9.460 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
+| Intatto III | Operazioni | Distruggi Goombah ×8 in x-4 (perdita di scafo al massimo 350.000 punti) | – | 32.500 | 740.000 | 5.550 | 0 | Power Core ×8, Laser Damage Booster 2, 10 h |
 
 #### Fascia 4 · L’Abisso {#challenge-tier-4}
 
@@ -486,16 +488,16 @@ Dieci missioni, in qualsiasi ordine. La fascia successiva si apre quando ne hai 
 
 | Missione | Ufficiale | Compiti | Limite di tempo | XP | Crediti | Thulium | Onore | Oggetti |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Epurazione di Crystalys | Combattimento | Distruggi Crystalys ×50 | – | 122.000 | 2.575.000 | 19.320 | 0 | Cataclysite ×60, booster Experience Kit, 10 h |
-| Disfatta dei Goombah | Combattimento | Distruggi Goombah ×500 | – | 233.500 | 3.345.000 | 25.105 | 0 | Power Core ×12, booster Damage Amp, 10 h |
-| Fine dei pirati | Combattimento | Distruggi Pirate Boss ×25 (dal giorno 4 della stagione) | – | 99.500 | 2.445.000 | 18.325 | 0 | Orvium Reinforced Plate ×8, booster Loot Luck, 6 h |
-| Tramonto dei Dormant | Combattimento | Distruggi Dormant Force ×10 (dal giorno 4 della stagione) | – | 180.500 | 2.770.000 | 20.780 | 0 | Ancient Control Unit ×1, booster Shield Wall, 10 h |
-| Passeggiata sul bordo | Ricognizione | Vola al punto 16.000 / 5.300 in DS-4 → Vola al punto 19.700 / 9.000 in DS-4 → Vola al punto 16.000 / 12.700 in DS-4 → Vola al punto 12.300 / 9.000 in DS-4 (intera missione: perdita di scafo al massimo 76.000 punti) (intera missione: senza perdere la nave) | – | 162.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, booster Hull Plating II, 10 h |
-| Veglia sul bordo | Ricognizione | Resta 90 min di fila in DS-4 | – | 162.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, booster Shield Regen, 10 h |
-| Terreno nemico | Ricognizione | Resta 120 min di fila in rival x-4 | – | 343.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, booster Hull Plating, 10 h |
-| Convoglio dell’abisso | Operazioni | Distruggi Goombah ×6 in x-4 → Porta Abyss Core dal punto 12.800 / 6.800 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 198.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, booster Shield Wall II, 10 h |
-| Intatto IV | Operazioni | Distruggi Crystalys ×3 in x-4 (perdita di scafo al massimo 480.000 punti) | – | 61.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, booster Damage Amp II, 10 h |
-| Mare di Bulwark | Combattimento | Distruggi Bulwark ×2.000 | – | 318.500 | 4.735.000 | 35.500 | 0 | Reinforced Hull Plate ×40, booster Resource Magnet, 10 h |
+| Epurazione di Crystalys | Combattimento | Distruggi Crystalys ×50 | – | 122.000 | 2.575.000 | 19.320 | 0 | Cataclysite ×60, Experience Booster, 10 h |
+| Disfatta dei Goombah | Combattimento | Distruggi Goombah ×500 | – | 233.500 | 3.345.000 | 25.105 | 0 | Power Core ×12, Laser Damage Booster 1, 10 h |
+| Fine dei pirati | Combattimento | Distruggi Pirate Boss ×25 (dal giorno 4 della stagione) | – | 99.500 | 2.445.000 | 18.325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
+| Tramonto dei Dormant | Combattimento | Distruggi Dormant Force ×10 (dal giorno 4 della stagione) | – | 180.500 | 2.770.000 | 20.780 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 10 h |
+| Passeggiata sul bordo | Ricognizione | Vola al punto 16.000 / 5.300 in DS-4 → Vola al punto 19.700 / 9.000 in DS-4 → Vola al punto 16.000 / 12.700 in DS-4 → Vola al punto 12.300 / 9.000 in DS-4 (intera missione: perdita di scafo al massimo 76.000 punti) (intera missione: senza perdere la nave) | – | 162.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster 2, 10 h |
+| Veglia sul bordo | Ricognizione | Resta 90 min di fila in DS-4 | – | 162.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
+| Terreno nemico | Ricognizione | Resta 120 min di fila in rival x-4 | – | 343.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, Hull Plating Booster 1, 10 h |
+| Convoglio dell’abisso | Operazioni | Distruggi Goombah ×6 in x-4 → Porta Abyss Core dal punto 12.800 / 6.800 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 198.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
+| Intatto IV | Operazioni | Distruggi Crystalys ×3 in x-4 (perdita di scafo al massimo 480.000 punti) | – | 61.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster 2, 10 h |
+| Mare di Bulwark | Combattimento | Distruggi Bulwark ×2.000 | – | 318.500 | 4.735.000 | 35.500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10 h |
 
 #### Fascia 5 · Leggende {#challenge-tier-5}
 
@@ -503,16 +505,16 @@ Dieci missioni, in qualsiasi ordine. Questa è l’ultima fascia.
 
 | Missione | Ufficiale | Compiti | Limite di tempo | XP | Crediti | Thulium | Onore | Oggetti |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Diecimila Seeker | Combattimento | Distruggi Seeker ×10.000 | – | 322.500 | 5.700.000 | 42.755 | 0 | Power Core ×15, booster Experience Kit, 10 h |
-| Diecimila Phantasm | Combattimento | Distruggi Phantasm ×10.000 | – | 420.000 | 4.200.000 | 31.500 | 0 | Reinforced Hull Plate ×50, booster Damage Amp, 10 h |
-| Legione di Goombah | Combattimento | Distruggi Goombah ×1.000 | – | 467.500 | 6.700.000 | 50.250 | 0 | Cataclysite ×80, booster Resource Magnet, 10 h |
-| Regno dei Crystalys | Combattimento | Distruggi Crystalys ×150 | – | 365.500 | 7.725.000 | 57.925 | 0 | Orvium Reinforced Plate ×12, booster Loot Luck, 10 h |
-| Dominio dei Dormant | Combattimento | Distruggi Dormant Force ×25 (dal giorno 4 della stagione) | – | 394.000 | 6.350.000 | 47.605 | 0 | Ancient Control Unit ×1, booster Shield Wall, 10 h |
-| Trono dei pirati | Combattimento | Distruggi Pirate Boss ×60 (dal giorno 4 della stagione) | – | 191.000 | 5.325.000 | 39.925 | 0 | Ancient Control Unit ×1, booster Hull Plating, 10 h |
-| Ultima veglia | Ricognizione | Resta 180 min di fila in DS-x | – | 338.000 | 3.380.000 | 25.355 | 0 | Velkonite Reinforced Plate ×15, booster Shield Regen, 10 h |
-| Convoglio zero | Operazioni | Distruggi Goombah ×8 in x-4 → Distruggi Crystalys ×1 in x-4 → Porta Zero Core dal punto 13.600 / 4.400 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 252.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, booster Shield Wall II, 10 h |
-| Intatto zero | Operazioni | Distruggi Goombah ×20 in x-4 (perdita di scafo al massimo 556.000 punti) | – | 87.000 | 1.540.000 | 11.555 | 0 | Orvium Reinforced Plate ×10, booster Damage Amp II, 10 h |
-| Custode della Linea | Operazioni | Distruggi Goombah ×400 in x-4 → Distruggi Crystalys ×30 in x-4 → Resta 60 min di fila in x-4 → Vola al punto 8.000 / 4.500 in rival x-4 → Vola al punto 26.000 / 4.500 in DS-x → Vola al punto 1.500 / 1.500 in x-1 | – | 272.500 | 4.730.000 | 35.460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, booster Hull Plating II, 10 h |
+| Diecimila Seeker | Combattimento | Distruggi Seeker ×10.000 | – | 322.500 | 5.700.000 | 42.755 | 0 | Power Core ×15, Experience Booster, 10 h |
+| Diecimila Phantasm | Combattimento | Distruggi Phantasm ×10.000 | – | 420.000 | 4.200.000 | 31.500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster 1, 10 h |
+| Legione di Goombah | Combattimento | Distruggi Goombah ×1.000 | – | 467.500 | 6.700.000 | 50.250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10 h |
+| Regno dei Crystalys | Combattimento | Distruggi Crystalys ×150 | – | 365.500 | 7.725.000 | 57.925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
+| Dominio dei Dormant | Combattimento | Distruggi Dormant Force ×25 (dal giorno 4 della stagione) | – | 394.000 | 6.350.000 | 47.605 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 10 h |
+| Trono dei pirati | Combattimento | Distruggi Pirate Boss ×60 (dal giorno 4 della stagione) | – | 191.000 | 5.325.000 | 39.925 | 0 | Ancient Control Unit ×1, Hull Plating Booster 1, 10 h |
+| Ultima veglia | Ricognizione | Resta 180 min di fila in DS-x | – | 338.000 | 3.380.000 | 25.355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
+| Convoglio zero | Operazioni | Distruggi Goombah ×8 in x-4 → Distruggi Crystalys ×1 in x-4 → Porta Zero Core dal punto 13.600 / 4.400 in x-4 a Mission Control (perdita di scafo al massimo 46.000 punti) (senza perdere la nave) | – | 252.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
+| Intatto zero | Operazioni | Distruggi Goombah ×20 in x-4 (perdita di scafo al massimo 556.000 punti) | – | 87.000 | 1.540.000 | 11.555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster 2, 10 h |
+| Custode della Linea | Operazioni | Distruggi Goombah ×400 in x-4 → Distruggi Crystalys ×30 in x-4 → Resta 60 min di fila in x-4 → Vola al punto 8.000 / 4.500 in rival x-4 → Vola al punto 26.000 / 4.500 in DS-x → Vola al punto 1.500 / 1.500 in x-1 | – | 272.500 | 4.730.000 | 35.460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster 2, 10 h |
 
 
 <!-- quests:end -->

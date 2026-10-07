@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: b21f5edc663ee913 -->
+<!-- wiki-i18n source: 240bad7b031a48fe -->
 <!-- wiki-i18n title: ブラックホール -->
 # ブラックホール {#the-black-hole}
 
-危険セクター 4（`DS-4`、PvP ゾーンの中心）のちょうど真ん中に、ブラックホールが闇の中に浮かんでいます。どのワールド（Alpha、Beta、Gamma）でも、シーズンのどの日でも、平和プロトコル中でも、同じです。近づきすぎたものは飲み込み、返すのはただ1つ、N.I.K.E. ロケットを撃ち込んだときの [Dark Matter](#dark-matter) だけです。
+<!-- wiki-search: black hole -->
+
+危険セクター 4（`DS-4`、PvP ゾーンの中心）のちょうど真ん中に、ブラックホールが闇の中に浮かんでいます。どのワールド（Alpha、Beta、Gamma）でも、シーズンのどの日でも、平和プロトコル中でも、同じです。近づきすぎたものは飲み込み、返すのはただ1つ、N.I.K.E. ロケットを撃ち込んだときの [Dark Matter](#dark-matter) だけです。研究からプレートまでの全体の流れは [Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)にあります。
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -88,7 +90,7 @@
 
 毎秒272ユニットを超える速さの艦（高速特化の構成、または Afterburner を作動中の標準の Wraith）では、帰還不能点は、もともとあった位置のままです。速度300なら885、432なら747です。
 
-速度に特化すれば、より深い位置からでも脱出できます。重いシールドを積み込むと、できなくなります（最も遅い艦である Ironclad が、14スロットすべてに Heavy Shield Core を入れると、速度39.1で飛び、帰還不能点は約2,600になります）。帰還不能点のすぐ内側から艦を引き返させられるのは、急加速だけです。作動中の [Afterburner](/wiki/03-Mechanics/Abilities.md) がそれに当たり、作動している間は帰還不能点をより内側へ移します（エンジン1つで10秒、2つで15秒、3つで20秒。Afterburner III は、標準の Protos の帰還不能点を1,577から989に、標準の Wraith のものを1,208から801にします）。約390ユニットより内側からは、何をしても脱出できません。速度ステータスをすべて最大までエンチャントした高速特化の艦に、最強の加速（上限までエンチャントした Afterburner III、x1.69）を作動させても同じです。エンチャントしていない高速特化の艦（Engine III と Adaptive Core II に Impulse Thruster IV を組み合わせたもの）が Afterburner III を使った場合、脱出できるのは、せいぜい429の外側からです。
+速度に特化すれば、より深い位置からでも脱出できます。重いシールドを積み込むと、できなくなります（最も遅い艦である Ironclad が、14スロットすべてに Heavy Shield Core を入れると、速度39.1で飛び、帰還不能点は約2,600になります）。帰還不能点のすぐ内側から艦を引き返させられるのは、急加速だけです。作動中の [Afterburner](/wiki/03-Mechanics/Abilities.md) がそれに当たり、作動している間は帰還不能点をより内側へ移します（エンジン1つで10秒、2つで15秒、3つで20秒。Afterburner III は、標準の Protos の帰還不能点を1,577から989に、標準の Wraith のものを1,208から801にします）。約390ユニットより内側からは、何をしても脱出できません。速度ステータスをすべて最大までエンチャントした高速特化の艦に、最強の加速（上限までエンチャントした Afterburner III、x1.69）を作動させても同じです。エンチャントしていない高速特化の艦（Engine III に Impulse Thruster IV 1基と Momentum Thruster IV 2基、Adaptive Core II に Impulse Thruster IV 2基を組み合わせたもの）が Afterburner III を使った場合、脱出できるのは、せいぜい427の外側からです。
 
 帰還不能点からの落下は、ゆっくり始まります。帰還不能点の数ユニット内側にいる艦は、全速力でも、20秒以上かけて引き込まれ、そのあとは加速度的に速くなります。引力による移動は飛行ではないため、飛行距離には数えられません。
 
@@ -127,13 +129,15 @@
 
 ドローンは艦とともに飛びます。積荷がリングの内側に置かれることはなく、そこに落ちるはずのコンテナはその縁に置かれます。例外は Dark Matter のコンテナだけです。
 
-## Dark Matter
+## Dark Matter の入手 {#dark-matter}
+
+Dark Matter は初めてですか？ 研究からプレートまでの全体の流れは [Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)にあります。この節は、ブラックホール側の話です。
 
 ブラックホールは、到達した **N.I.K.E.** ロケットに対して **Dark Matter** を返します。N.I.K.E. は67,500～75,000ダメージのロケットで、傷つけられる最初の艦に命中し、そこで使い切られます。進路上に何もなければ、ブラックホールまで飛び、事象の地平線を越えたところで消費されます。N.I.K.E. は、その技術を研究したあと（[研究](/wiki/03-Mechanics/Research.md)）、[アセンブリ](/wiki/06-Items/Rockets.md)で製作でき、1回の製作で5発です（100,000クレジット、1,500 Thulium、Ship Fragment 20個、Reinforced Hull Plate 4個、Cataclysite 40個）。
 
 - **発射。** N.I.K.E. は、狙った場所へまっすぐに、4.5秒で4,050ユニット（毎秒900）飛びます。ターゲットを選択していないときは、カーソルをブラックホールに合わせます（または艦をそちらへ向けます）。中心から4,000ユニット（放射線の縁）～4,380ユニットの間のどこからでも、地平線に届きます。それより遠くからだと届かず、無駄になります。すべてのロケットと同じく、共有の5秒タイマーを使います（レーザーを装備している必要はありません）。発射すると、セーフゾーンの保護とステルスは解除されます。**射線上にいる艦が、代わりに受けます。**縁で待ち構えるライバルや、途中でコンテナを回収している他企業のパイロットは、67,500～75,000のダメージを受け、ブラックホールは何も得られません。エイリアンと企業パイロットはリングの内側には決して入らないので、射線を空けておくのはあなた次第です。ロケットは、自分の企業と、あなたの攻撃から保護されている艦をすり抜けて飛びます。撃ったあとにマップを離れても、ロケットは誰も傷つけずに飛び続け、それでもあなたの Dark Matter を生みます。ドローン編成は、このタイマーと命中時のダメージを変えることがあります（[ドローン編成とロケット](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)を参照）。
 - **返ってくるもの。**地平線に届いた N.I.K.E. 1発につき、**Dark Matter が1、2、または3個**出ます（平均は2個で、N.I.K.E. 5発でおよそ10個になります）。1つか2つの小さなコンテナとして、ブラックホール領域の縁、**中心から3,050～3,950ユニット**の、撃ち込んだ線の近くに現れます。引力は3,000で終わるため、コンテナと、それを取る艦は引かれませんが、そこでの放射線は艦の HP の毎秒0.3～0.8%です。帯域の真ん中で1分過ごすと、艦の3分の1を失います。満タンの艦は、そこで3分もちます。
 - **誰のものか。**コンテナは、撃ってから**60秒間**は、あなたとあなたのクランのものです。それ以降は、マップ上の誰でも取れ、**4分**後に漂い去ります。危険セクターは PvP セクターなので、ほかのパイロットが来ることを覚悟してください。撃ったあとにログアウトしたパイロットも、コンテナは自分のものです。
-- **何個まで。**1つのマップに置ける Dark Matter のコンテナは最大32個で、新しいコンテナは、そのうち最も古いものを押し出し、ほかの種類のコンテナを押し出すことはありません。[Resource Magnet](/wiki/03-Mechanics/Cargo.md) は、Dark Matter を増やしません。
+- **何個まで。**1つのマップに置ける Dark Matter のコンテナは最大32個で、新しいコンテナは、そのうち最も古いものを押し出し、ほかの種類のコンテナを押し出すことはありません。[Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) は、Dark Matter を増やしません。
 - **見えるもの。** N.I.K.E. が地平線を越えると、ブラックホールに引き伸ばされて吸い込まれ、入った場所から空間に波紋が広がり、円盤と光子リングが約1.5秒間、強く輝きます（**動きを減らす**では、その3分の1の長さで、光の強さは半分です）。少しして、コンテナがブラックホールから出てきて、縁の所定の位置へ漂っていきます。それぞれ、明るい縁と煌めきを持つ、紫がかった黒い球体で、遠くからでも見つけやすく、カーソルを合わせると **Dark Matter** と表示されます。自分のコンテナには残り秒数が表示され、ミニマップには小さな紫の印が出ます。クランのコンテナも同様です。ほかのパイロットのコンテナがミニマップに表示されるのは、その1分が過ぎてからです。
-- **使い道。**アセンブリは、Dark Matter 5個を、Velkonite Reinforced Plate と Orvium Reinforced Plate とともに **Dark Matter Plate** に加工します。[鍛冶場](/wiki/06-Items/Forge.md)は、アイテムを「神級」から「破裂」へ、そして「破裂」から「永遠」へ上げるのに、それを2枚要求します。1段階につき Dark Matter 10個です。Skylab の[研究センター](/wiki/03-Mechanics/Research.md#dark-matter)も Dark Matter を必要とします。技術ツリーの頂点にある15の技術それぞれに10個、合計150個を、研究が始まる前にセットします。ドローン編成の研究も Dark Matter を必要とし、強さに応じて 5、13、20 のいずれかです。そのぶん 189 個が加わり、合計 339 個になります。
+- **使い道。**アセンブリは、Dark Matter 5個を、Velkonite Reinforced Plate と Orvium Reinforced Plate とともに **Dark Matter Plate** に加工します。[鍛冶場](/wiki/06-Items/Forge.md)は、アイテムを「神級」から「破裂」へ、そして「破裂」から「永遠」へ上げるのに、それを2枚要求します。1段階につき Dark Matter 10個です。各強化系統の最終ティアはプレートを3枚要求し、部品1つにつき Dark Matter 15個です。対象は、ティアIVの Amp、シールドセル、スラスター、Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III、Base CPU II です。Skylab の[研究センター](/wiki/03-Mechanics/Research.md#dark-matter)も Dark Matter を必要とします。技術ツリーの頂点にある16の技術それぞれに10個、合計160個を、研究が始まる前にセンターへ追加します。ドローン編成の研究も Dark Matter を必要とし、強さに応じて 5、13、20 のいずれかです。そのぶん 189 個が加わり、合計 349 個になります。Helios Beam とティアIVの Amp 3つを合わせると Dark Matter 60個、最終ティアの部品だけを積んだ Wraith なら 900個です（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。

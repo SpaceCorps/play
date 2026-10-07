@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4bfb24feda6f6bf5 -->
+<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
 <!-- wiki-i18n title: Dormant-Schwarm -->
 # Dormant-Schwarm {#dormant-swarm}
 
@@ -7,7 +7,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 ## Auf einen Blick {#at-a-glance}
 
 <!-- dormant-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Wo**: Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`, `DS-4`, von einem zum anderen fliegend
 - **Wie viele**: Einer in jeder Welt
@@ -25,14 +25,14 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 ## Die Mitglieder {#the-members}
 
 - **Dormant Force**: eine Wraith mit voller Stärke, mit Lasern, die dreimal so hart treffen wie die einer typischen Ausrüstung. Sie führt den Schwarm an, ist passiv, bis sie getroffen wird, und feuert **gerade Raketen** auf den ersten Piloten, der sie getroffen hat.
-- **Dormant Pulse**: eine Paragon mit voller Stärke, mit derselben Art schwerer Laser und eigenen Raketen. Die Pulses fliegen dicht bei der Force, und wenn die Force zerstört wird, übernimmt eine von ihnen die Führung.
+- **Dormant Pulse**: eine Paragon mit voller Stärke, mit schweren Lasern derselben Art, von denen jeder doppelt so hart trifft wie einer der Force, und eigenen Raketen. Eine Pulse hat weniger Laser als die Force, ihre ganze Salve ist also größer als die der Force, aber nicht doppelt so groß (die Zahlen stehen unten). Die Pulses fliegen dicht bei der Force, und wenn die Force zerstört wird, übernimmt eine von ihnen die Führung.
 
 Sie sind passiv: Sie gehen nie auf einen Piloten los. Wird eines von ihnen getroffen, greifen die anderen in seiner Nähe mit ein, und zwar gegen den ersten Piloten, der es getroffen hat.
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
 - **Finde ihn.** Die ganze Welt erfährt, wenn er auftaucht, und eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Er bleibt so lange auf einer Karte, wie die Liste *Auf einen Blick* sagt, fliegt dann zum Tor eines anderen Gefahrensektors und springt; er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs. Er fliegt mit dem Tempo seines langsamsten Schiffs und beginnt oder beendet, wie ein Pilot, keinen Sprung unter Beschuss.
-- **Allein oder zu wenigen ist er nicht zu schaffen.** Acht Piloten von Level 8 in Paragons mit x2- oder x4-Munition zerstören ihn in Alpha in etwa einer Minute und verlieren höchstens ein Schiff; eine Paragon allein wird zerstört, und mit x2-Munition auch drei. Die Schwärme von Beta und Gamma sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), diese Welten brauchen also größere Gruppen.
+- **Allein oder zu wenigen ist er nicht zu schaffen.** Acht Piloten von Level 8 in Paragons mit x2- oder x4-Munition zerstören ihn in Alpha in etwa einer Minute und verlieren höchstens ein Schiff; eine Paragon allein wird zerstört, und mit x2-Munition auch drei oder vier. Die Schwärme von Beta und Gamma sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), diese Welten brauchen also größere Gruppen.
 - **Seine Laser entscheiden den Kampf.** Zusammen können sie eine Paragon in unter einer Minute zerstören, selbst eine mit den besten Schilden in unter zwei Minuten, mit oder ohne Raketen: Bring deinen Schaden schnell ins Ziel, mit den besten Schilden, die du hast.
 - **Schiff für Schiff.** Jedes Schiff hat seine eigene Hülle und seine eigene Bezahlung, die Force oder eine Pulse kann also zuerst zerstört werden. Der Schwarm wird erst ersetzt, wenn er ganz zerstört ist, und zwar nach der Zeit in der Liste *Auf einen Blick*.
 
@@ -45,11 +45,11 @@ Jedes Schiff zahlt für sich, nach dem Schaden, der ihm zugefügt wurde ([so zah
 Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- dormant-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Dormant Force
 
-Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Basis: Wraith mit 100 % der Hülle und 300 % des Laserschadens; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
@@ -76,13 +76,13 @@ Basis: Wraith mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 
 ### Dormant Pulse
 
-Basis: Paragon mit 100 % von Hülle, Schild und Schaden; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
+Basis: Paragon mit 100 % der Hülle und 600 % des Laserschadens; Tempo und Reichweite bleiben die des Vorbilds. Feuert alle 5 s eine gerade Rakete ab: [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hülle | 128.000 | 192.000 | 256.000 |
 | Schild | 64.570 | 96.855 | 129.140 |
-| Laserschaden (eine Salve pro Sekunde) | 1.920 | 2.880 | 3.840 |
+| Laserschaden (eine Salve pro Sekunde) | 3.840 | 5.760 | 7.680 |
 | Tempo | 210 | 210 | 210 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |

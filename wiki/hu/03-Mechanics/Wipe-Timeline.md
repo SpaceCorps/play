@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ad2a2514b2a51c82 -->
+<!-- wiki-i18n source: 986c641910ea7fae -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -21,7 +21,7 @@ Minden szezon az 1. naptól a 30. napig tart (a wipe a 30. nap kezdetekor indul�
 | **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa és lezárja a magával vitt rakományát. |
 | **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik. A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. |
 
-A wipe-on kívül csak két dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, és a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton, de egyik sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
+A wipe-on kívül csak három dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak, az [Aukció](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) pedig a 28. naptól nem szed díjat, a 30. naptól pedig zárva van. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton, de egyik sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
 
 ---
 
@@ -43,7 +43,7 @@ Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi e
 
 ## Tranzittároló (utazókapszula) {#transport-cache-travel-capsule-}
 
-Amint mind a 100 alkatrész megvan, és a Chrono-Gate teljesen stabilizálva van, a portál megnyitja a hozzáférést a személyes **tranzittárolódhoz** (átviteli kocsi vagy utazókapszula néven is ismert). Ez a zsebdimenzió megvédi a holmidat attól, hogy törlődjön a wipe alatt.
+Amint mind a 100 alkatrész megvan, és a Chrono-Gate teljesen stabilizálva van, a portál megnyitja a hozzáférést a személyes **tranzittárolódhoz** (átviteli kocsi vagy utazókapszula néven is ismert). Ez a zsebdimenzió megvédi a holmidat attól, hogy törlődjön a wipe alatt. Az [Aukción](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) meghirdetett tárgyaid a wipe-kor laza tárgyként visszajönnek hozzád, amelyeket a wipe a többihez hasonlóan töröl, ha nem teszed őket a Tranzittárolóba; a tételekben tartott licitjeidet visszatérítik.
 
 ### Automatikus átvitel (ingyenes) {#automatic-carry-over-free-}
 A következő tárgyak mindig védettek, és automatikusan átkerülnek a következő szezonba, miközben **nulla** kapacitást foglalnak a tranzittárolódban:

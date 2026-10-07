@@ -7,7 +7,7 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 ## In breve {#at-a-glance}
 
 <!-- seeker-glance:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - **Dove**: I settori `x-1` e `x-2` di ogni corporazione
 - **Quanti**: Uno in ciascuno di quei settori, 6 in ogni mondo
@@ -43,7 +43,7 @@ Il Boss Seeker paga **esattamente dieci Seeker**: dieci volte i crediti, il Thul
 I valori delle navi dello sciame nei tre mondi ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)).
 
 <!-- seeker-members:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 ### Boss Seeker
 

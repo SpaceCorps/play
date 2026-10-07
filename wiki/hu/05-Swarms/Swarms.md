@@ -15,7 +15,7 @@ A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépésé
 ## A három raj {#the-three-swarms}
 
 <!-- swarms-list:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Raj | Hol | Hány | Vezér | Kísérők | Visszatér |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (l
 ## Minden raj szabályai {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 - A rajok a szezon 4. napjától a wipe-ig jelennek meg.
 - Ha egy rajhajót eltalálnak, a rajának 1 500 egységen belüli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta.
@@ -46,7 +46,7 @@ A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (l
 A világ úgy skálázza a rajt, ahogy minden idegent ([Világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): a rajhajók hajóteste, pajzsa, pajzstöltődése, lézersebzése, rakétasebzése és gyógyítása az Alpha értékeinek és az alábbi erősségnek a szorzata, a kilövés pedig az alábbi fizetést adja. A sebesség, a hatótáv és a zsákmány minden világban ugyanaz. A cikkek minden hajó értékeit megadják mindhárom világban.
 
 <!-- swarms-world:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Világ | Erősség | Fizetés |
 | :--- | ---: | ---: |
@@ -86,7 +86,7 @@ A közönséges idegen annak a pilótának fizet, aki először eltalálta ([Har
 Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztikádban, és PvE-pontokat ad a rangsorodhoz:
 
 <!-- swarms-points:begin -->
-<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
 | Rajhajó | Raj | PvE-pont kilövésenként |
 | :--- | :--- | ---: |
