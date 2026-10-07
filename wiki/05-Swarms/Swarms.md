@@ -8,7 +8,7 @@ A **swarm** is a group of aliens that roams part of the galaxy under a **leader*
 
 Their ships are **aliens of kinds of their own**: they have their own names and their own kill counts, and none of them counts as a Seeker, a Phantasm or any other alien. A swarm ship has the shape of the ship it is built on, in a tint of its own, with its name over it; the Boss Seeker is a much larger Seeker.
 
-The **Clan Wardens** are not public swarms. A clan calls its own Warden for the last step of its daily line, and only that clan can hurt it: no pilot meets one roaming a sector, and the tables below do not list them. See [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
+The **Clan Wardens** are not public swarms. A clan calls its own Warden for the last step of its daily line, and only that clan can hurt it: no pilot meets one roaming a sector, and the tables below do not list them. A Warden is paid by damage like a swarm boss, but its loot is not one box for the top dealer: every pilot who dealt 5% or more gets a [private box](/wiki/03-Mechanics/Cargo.md#private-boxes) of his own. See [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## The three swarms
 

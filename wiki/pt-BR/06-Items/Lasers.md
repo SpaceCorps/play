@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers e munição {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Equipe lasers diretamente nos slots de arma da nave ou dentro de drones para aum
 A coluna Alcance é a de cada laser. **Sua nave atira na média dos alcances dos seus lasers** (os lasers dos seus drones também contam), arredondada para a unidade mais próxima, e todos os lasers disparam assim que o alvo está dentro dessa distância. Um Starfire-3 ao lado de dois Quantum Laser 2 dá à nave um alcance de 750, não de 850; três Starfire-3 mantêm 850, e lasers todos iguais não mudam nada. Um bônus de alcance da Forja conta no próprio laser antes de a média ser calculada. Sem nenhum laser, o hangar não mostra alcance (um traço) e os lasers não podem atirar, mas os seus foguetes ainda podem, cada um com o próprio alcance (veja [Foguetes](/wiki/06-Items/Rockets.md)). No hangar, o bloco diz “Alcance médio” quando seus lasers diferem, e passar o mouse sobre ele lista o alcance de cada laser.
 
 O Quantum Laser 1 e o 2 não têm chance de crítico própria (“–”): um Damage Amp ou um Crit Amp nos slots deles a traz (um Penetration Amp não). Os acertos críticos aparecem em outra cor nos números de dano flutuantes (ciano gelo, maiores, com um “!”; veja [Números de dano e de cura](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+Os lasers também danificam [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), mas só com 5% do que uma rajada faz a uma nave (contam os seus amplificadores, boosters, munição e acertos críticos, e depois a blindagem do asteroide é descontada; a Siphon Battery não pode danificar nenhum). Para quebrá-los, a ferramenta são os foguetes.
 
 ### Fabricando os três melhores lasers {#making-the-top-three-lasers}
 

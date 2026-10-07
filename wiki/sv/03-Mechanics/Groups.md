@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -37,7 +37,7 @@ Var och en får en del i proportion till sin **nivå**, oavsett koncern (kredite
 
 Nedskjutningens meddelande säger det: den som gjorde nedskjutningen får sin egen **BELÖNING**-rad med sin del, följd av ”Belöningarna delades med 2 gruppmedlemmar: din del är 40%”, och en kamrat som får betalt för en del läser ”*Utomjording* förintades av *pilot*; din grupps andel ger dig betalt” med beloppen. Meddelandena visas i Spelloggen.
 
-Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlådan** (byte och resurser), nedskjutningen i dennes statistik och ranking, nedskjutningsräkningen för wipepoäng och drönarnas erfarenhet. Nedskjutningar av andra piloter delas inte.
+Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlådan** (byte och resurser; undantaget är en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), vars byte är en privat låda åt varje kamrat som får en del), nedskjutningen i dennes statistik och ranking, nedskjutningsräkningen för wipepoäng och drönarnas erfarenhet. Nedskjutningar av andra piloter delas inte.
 
 ## Dela uppdrag {#sharing-missions}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -10,7 +10,7 @@ Un **enjambre** es un grupo de alienígenas que recorre una parte de la galaxia 
 
 Sus naves son **alienígenas de tipos propios**: tienen nombres propios y contadores de derribos propios, y ninguna cuenta como un Seeker, un Phantasm ni ningún otro alienígena. Una nave de enjambre tiene la forma de la nave en la que se basa, con un tinte propio y su nombre encima; el Boss Seeker es un Seeker mucho más grande.
 
-Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su propio guardián para el último paso de su línea diaria, y solo ese clan puede dañarlo: ningún piloto se topa con uno vagando por un sector, y las tablas de abajo no los incluyen. Consulta [Clanes](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su propio guardián para el último paso de su línea diaria, y solo ese clan puede dañarlo: ningún piloto se topa con uno vagando por un sector, y las tablas de abajo no los incluyen. A un guardián se le paga por el daño, como al jefe de un enjambre, pero su botín no es una caja para quien más daño causó: cada piloto que causó el 5 % del daño o más recibe una [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes) propia. Consulta [Clanes](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Los tres enjambres {#the-three-swarms}
 

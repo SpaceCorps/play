@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter e Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@ La **Dark Matter** è la risorsa che sta dietro la cima dell’albero delle tecn
 1. **Costruisci il Centro ricerche e ricerca il N.I.K.E.** Il Centro si sblocca al livello 10 del Nucleo dello Skylab ([Ricerca](/wiki/03-Mechanics/Research.md)). La tecnologia del N.I.K.E. richiede 3 ore e non chiede Dark Matter.
 2. **Crea N.I.K.E. all’Assemblaggio.** Una creazione fa 5 razzi in 5 minuti per 100.000 crediti, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate e 40 Cataclysite. Puoi portarne 20. Vedi [Razzi](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Vola nel Settore pericoloso 4 (`DS-4`).** È il settore PvP al centro della galassia, e il buco nero pende dal suo centro esatto in ogni mondo ([Il buco nero](/wiki/03-Mechanics/Black-Hole.md)). Nessun alieno né pilota di corporazione si avvicina, ma altri piloti sì.
-4. **Spara al buco nero dal suo bordo.** Le radiazioni iniziano a 4.000 unità dal centro. Un N.I.K.E. vola per 4.050 unità, quindi puoi sparare da qualsiasi punto tra 4.000 e 4.380 unità di distanza. Senza un bersaglio selezionato, metti il cursore sul buco. Puoi lanciare un razzo ogni 5 secondi. Da più lontano non ci arriva.
+4. **Spara al buco nero dal suo bordo.** Le radiazioni iniziano a 4.000 unità dal centro. Un N.I.K.E. vola per 4.050 unità, quindi puoi sparare da qualsiasi punto tra 4.000 e 4.380 unità di distanza. Senza un bersaglio selezionato, metti il cursore sul buco. Puoi lanciare un razzo ogni 4,6 secondi. Da più lontano non ci arriva.
 5. **Raccogli le casse.** Ogni N.I.K.E. che raggiunge il buco restituisce **1, 2 o 3 Dark Matter** (1 una volta su quattro, 2 una su due, 3 una su quattro), in una o due casse da 2 al massimo. Cadono sul bordo della zona del buco, tra 3.050 e 3.950 unità dal centro, vicino alla linea del tuo colpo. Avvicinati a meno di 200 unità da ciascuna: la raccolta dura mezzo secondo.
 6. **Portala a casa.** La Dark Matter va nel tuo inventario. Alla stazione, con la nave atterrata, puoi aggiungerla al Centro ricerche o usarla all’Assemblaggio.
 

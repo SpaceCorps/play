@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Zerstörte Aliens hinterlassen ihre Beute im Weltraum als leuchtende Frachtkiste
 - **Konzernpiloten** hinterlassen keine Kiste, wenn sie zerstört werden, egal wer oder was sie zerstört. Siehe [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md).
 - **Schiffe von Spielern** hinterlassen weder Wrack noch Kiste, wenn sie zerstört werden, egal wer oder was sie zerstört, und dem Piloten wird nichts aus dem Inventar genommen.
 - **Das Schwarze Loch** legt für eine hineingeschossene N.I.K.E.-Rakete Kisten mit **Dark Matter** an den Rand seiner Zone (siehe [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md)). Sie sind die einzige Art von Kiste, die innerhalb des Rings des Lochs liegt.
-- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md), die Dormant Pulses und die [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lassen eine eigene Kiste mit Munition, Raketen und Ressourcen fallen. Sie ist für den Piloten reserviert, der dem Schiff den meisten Schaden zugefügt hat (und für dessen Clan), nicht für den, der es als Erster getroffen hat.
+- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md) und die Dormant Pulses** lassen eine eigene Kiste mit Munition, Raketen und Ressourcen fallen. Sie ist für den Piloten reserviert, der dem Schiff den meisten Schaden zugefügt hat (und für dessen Clan), nicht für den, der es als Erster getroffen hat.
+- **Ein [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lässt keine solche Kiste fallen: Jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine eigene [private Kiste](#private-boxes) mit seinem Anteil an der Beute.
 - **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)** hinterlassen **Brocken** statt einer Kiste: kleine Nuggets und Kristalle mit Credits und Thulium und einen Stein mit Erz. Die Credits und das Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden, und es gilt ein Limit je 24 Stunden. Ein Brocken wird eingesammelt wie eine Kiste, und er ist für die Piloten reserviert, die ihn verdient haben, und dann frei, wie eine Kiste.
 
 Ein Alien, das ein Konzernpilot erledigt, lässt seine Beute für den Piloten fallen, dem der Abschuss zählt (den, der seinen Anspruch hält, sonst den Piloten seines Konzerns, der es bekämpft); ein Alien, gegen das ein Konzernpilot allein gekämpft hat, lässt nichts fallen, da Konzernpiloten nie einsammeln.
@@ -37,6 +38,15 @@ Die Lichter der Kiste nehmen die Farbe des seltensten Gegenstands darin an: Tür
 - Nur ein Schiff auf der Karte der Kiste kann sie nehmen: Wirst du auf dem Weg (oder in der halben Sekunde, die das Einsammeln dauert) zerstört, springst du oder loggst du dich aus, bleibt die Kiste für die anderen liegen.
 - Sammeln zwei Piloten dieselbe Kiste gleichzeitig ein, bekommt sie der, dessen Einsammeln zuerst fertig ist, genau einmal; der andere erfährt, dass sie weg ist.
 - Eine Kiste, die niemand nimmt, treibt nach **3 Minuten** davon (in den letzten 10 Sekunden blinkt sie). Eine Karte fasst höchstens 64 Kisten; würde eine neue diese Zahl überschreiten, verschwindet die älteste. Asteroiden-Brocken haben innerhalb der 64 einen eigenen Pool: Sie verdrängen keine andere Kiste, und keine andere Kiste verdrängt einen Brocken ([die Regeln](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark-Matter-Kisten halten 4 Minuten und gehören in der ersten Minute dir allein.
+
+## Private Kisten {#private-boxes}
+
+Die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ist nicht eine Kiste für einen Piloten: **Jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine eigene Kiste**, ausgewürfelt für seinen Anteil (für 20 % des Schadens etwa ein Fünftel jeder Menge; [die Einzelheiten](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Nur du siehst sie, und nur du kannst sie einsammeln.** Dein Clan und deine Gruppe sehen sie nicht und können sie nicht nehmen; für alle anderen ist sie schlicht nicht da. Auf deinem Bildschirm hat sie einen dünnen Ring unter sich.
+- **Sie liegt 10 Minuten** ab dem Abschuss, und die ganze Zeit gehört sie dir: Es gibt keine Wartezeit von 30 Sekunden. Danach treibt sie davon wie jede Kiste. Das Spielprotokoll nennt dir deinen Anteil an der Beute, wenn der Wächter fällt.
+- **Sie verdrängt keine anderen Kisten.** Private Kisten haben einen eigenen Pool neben den 64 einer Karte (höchstens 32), sodass der Abschuss eines Wächters nie den Platz einer anderen Kiste einnimmt und eine volle Karte dich nie deine Kiste kostet.
+- Das Einsammeln ist wie bei jeder Kiste ([oben](#collecting)): Dein Schiff fliegt hin, und das Einsammeln dauert eine halbe Sekunde.
 
 ## Booster {#boosters}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
+<!-- wiki-i18n source: 3d121321d2746bbe -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -10,7 +10,8 @@ Klán alapítása vagy belépés egy klánba lehetővé teszi, hogy összevond a
 - Minden befejezett lépés azonnal klánpontot ad: 15, 15, 20, 20 és 30, vagyis egy egész vonal **100 pontot**.
 - A Vezér és az Alvezérek a pontokat három [bónuszra](#clan-points-and-boosts) költik, mindegyik tíz szintes: **Sebzés** (legfeljebb +5%), **Thulium** (legfeljebb +10%) és **Kredit** (legfeljebb +10%).
 - Az a klán, amely minden vonalat teljesít, a **12. szezonnapon** megvett minden szintet. A pontok és a szintek minden wipe-nál újrakezdődnek.
-- Legalább **három tag** kell, aki megtette a részét, és **nagyjából hét pilóta** az őrző elleni harchoz: öt többnyire veszít, tíz könnyedén nyer ([mekkora legénység kell](#how-big-a-crew)). Egy túl kicsi legénység elveszíti a harcot: a klán ilyenkor megtartja a négy küldetés **70 pontját**, de a vonal nem készül el, és nem fizeti ki [a te jutalmadat](#the-reward-for-you).
+- Legalább **három tag** kell, aki megtette a részét, és **nagy legénység** az őrző elleni harchoz: a 0.4.13 óta az őrzőnek ötször akkora a törzse, a pajzsa és a lézersebzése, mint volt, ezért azok a legénységek, amelyek korábban nyertek, nagyjából hét pilóta, most veszítenek ([mekkora legénység kell](#how-big-a-crew)). Egy túl kicsi legénység elveszíti a harcot: a klán ilyenkor megtartja a négy küldetés **70 pontját**, de a vonal nem készül el, és nem fizeti ki [a te jutalmadat](#the-reward-for-you).
+- Az őrző nagy kasszát fizet, sebzés szerint elosztva, és **minden pilóta, aki a sebzés legalább 5%-át okozta, saját privát ládát kap** a zsákmányból járó részével, amelyet csak ő lát, és csak ő vehet fel ([fizetés és zsákmány](#warden-pay-and-loot)).
 - A hajód a meglévő bónuszokat a **Boosterek** ablakban mutatja, egy külön kártyán ([hol látod őket](#the-three-boosts)).
 - A vonalhoz és a bónuszokhoz 0.4.10-es vagy újabb verziójú játék kell, a Boosterek ablak kártyájához 0.4.12-es vagy újabb.
 
@@ -164,7 +165,7 @@ Ha a vonal kész, vagyis az őrző elpusztult, minden tag kap kifizetést, aki e
 
 ## Klánőrzők {#clan-wardens}
 
-A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek. A lézerei keményen ütnek, ezért az őrző teljes legénységnek való harc: vigyél nagyjából hét pilótát, mert öt többnyire veszít ([mekkora legénység kell](#how-big-a-crew)).
+A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek. Az őrző nagyon erős: ötször akkora a törzse, a pajzsa és a lézersebzése, mint a 0.4.13 előtt volt, ezért a lehető legnagyobb legénységnek való harc, amelyet a klánod össze tud hozni ([mekkora legénység kell](#how-big-a-crew)).
 
 | Őrző | Szezonnapok | Szerep | Hogyan harcol |
 | :--- | :--- | :--- | :--- |
@@ -185,91 +186,90 @@ A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban k�
 ### Őrző elleni harc {#fighting-a-warden}
 
 - **Az őrző azzal a pilótával harcol, aki először eltalálta**, mint minden boss: hagyd, hogy a legszívósabb hajó kezdje, és használd a [Shield Surge-öt és az Emergency Repairt](/wiki/03-Mechanics/Abilities.md).
-- **Vigyél nagyjából hét pilótát, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Öt többnyire veszít, tíz könnyedén nyer. Az alábbi táblázat a legjobb eset, és még abban is három pilóta minden őrző ellen veszít, négy pedig csak a Siege Warden I és II ellen nyer. A táblázatban a legkisebb legénység, amely nyerhet, x2 lőszerrel 4–5, x1 lőszerrel 6–8 pilótából áll.
-- **Brood:** a drónok gyógyítják a törzsét, és az a legénység, amely figyelmen kívül hagyja őket, veszít: az öt pilóta, amely csak az őrzőre lő, mind elesik, amikor az őrzőnek nagyjából a fele még áll, a tíz pedig nagyjából egyötödével tovább tart. Őket lődd előbb: egy öt pilóta tüzében egy másodperc alatt vagy hamarabb elpusztul, és a következő 8 másodperc múlva jön.
+- **Vigyél akkora legénységet, amekkorát csak tudsz, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Azok a legénységek, amelyek a 0.4.13 előtt nyertek, nagyjából hét pilóta, most veszítenek. Az alábbi táblázat számítás és a legjobb eset: még abban is tíz pilóta minden őrző ellen veszít, és a legkisebb nyerni képes legénység x2 lőszerrel 18–26, x1 lőszerrel 28–39 pilótából áll.
+- **Brood:** a drónok gyógyítják a törzsét, és az a legénység, amely figyelmen kívül hagyja őket, veszít, még egy nagy is. Először őket lődd, és lődd tovább őket: 8 másodperc múlva új érkezik.
 - **Siege:** a rakétái egyenesek és irányítatlanok, így a mozgásban maradó hajó a legtöbbet kikerüli. Maradj mozgásban, és felváltva legyetek a célpont.
 - **Wrath:** amint a törzse a fele alá esik, minden sorozat másfélszer akkorát üt, így a harc második fele a veszélyes. Az első felét gyorsan döntsd le, tartsd fenn a pajzsot, és az Emergency Repairt tartogasd a dühre.
 
 ### Mekkora legénység kell {#how-big-a-crew}
 
 > [!NOTE]
-> Ezek az idők az alábbi számokból **kiszámítottak**, nem játékban mértek. A legénység a fokozathoz készült hajókban és felszerelésben ül, és a táblázat a **legjobb esete**: minden pilóta azonnal használja a Shield Surge és az Emergency Repair képességet, amint kész, és a legénység először az őrző segítőire lő, ha az jobb. Az őrző és a segítői mind arra a pilótára lőnek, aki először találta el, és senki nem tér ki. **Egy valódi harc nehezebb a táblázatnál.** Az öt pilótás sor a legjobb esetben is szoros (győzelem, de egy-két hajóba kerül), és ugyanezekben a harcokban, amelyeket magában a játékban, szkriptelt pilótákkal futtattunk le, öt pilóta a legtöbb harcot elvesztette, még ha mindkét képességet használta is; hét pilóta mindegyiket megnyerte, tíz pedig könnyedén nyert. Az az ötfős legénység, amely nem használ képességet, és csak az őrzőre lő, a kilenc őrzőből hetet elveszít; hét pilóta, aki ugyanezt teszi, nyolcat legyőz (mindet a Brood Warden III kivételével, akit a drónjai gyógyítanak), és egy-három hajót veszít, tíz pilóta pedig mind a kilencet legyőzi.
+> A 0.4.13 óta minden őrzőnek és minden segítőjének **ötször akkora** a törzse, a pajzsa, a lézersebzése, az önjavítása és a gyógyítása, mint a 0.4.12-ben volt (a sebesség, a hatótáv és a segítők száma ugyanaz). Ötször tovább tart lebontani, és végig ötször keményebben üt, ezért azok a legénységek, amelyek korábban nyertek, most veszítenek. **A játékban még nem harcoltunk az új őrzők ellen: az alábbi idők számítottak, nem mértek.** A legénység **legjobb esetét** mutatják: a legénység azokban a hajókban és abban a felszerelésben van, amelyekre a fokozat készült, minden pilóta használja a Shield Surge-et és az Emergency Repairt, amint készen állnak, a legénység elsőként az őrző segítőire lő, ha az jobb, az őrző és a segítői mind arra a pilótára lőnek, aki először eltalálta, és senki sem hajt ki. A 0.4.12-ben ugyanez a számítás bizakodóbb volt, mint a játékban magával, szkriptelt pilótákkal lefuttatott harcok, ezért egy valódi harc keményebb lehet a táblázatnál, és egy jó legénység jobban is teljesíthet: vedd útmutatásnak, nem ígéretnek.
 
-A táblázat a legjobb eset, x2 lőszerrel; játékban öt pilóta többnyire veszít, nagyjából hét pedig nyer.
+A táblázat a legjobb eset; játék közben vidd, akit csak tudsz.
 
 | Legénység | x2 lőszerrel | x1 lőszerrel |
 | :--- | :--- | :--- |
-| 3 pilóta | minden őrző ellen veszítenek, 4,7–13,8 perc után; az őrzőnek törzséből és pajzsából negyed és kétharmad közötti rész marad meg | veszítenek |
-| 4 pilóta | csak a Siege Warden I és II ellen nyernek, nagyjából 8 perc alatt, 1 hajót elvesztve | veszítenek |
-| 5 pilóta | minden őrző ellen nyernek 5,3–6,5 perc alatt, 1–2 hajót elvesztve | veszítenek |
-| 7 pilóta | minden őrző ellen nyernek 3,3–3,6 perc alatt, 0–1 hajót elvesztve | a Brood Warden II és III kivételével minden őrző ellen nyernek, 8,7–12,3 perc alatt, 1–4 hajót elvesztve |
-| 10 pilóta | minden őrző ellen nyernek 2,2–2,4 perc alatt, 0–1 hajót elvesztve | minden őrző ellen nyernek 5,1–5,6 perc alatt, 1–2 hajót elvesztve |
+| 5 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 88–96% megmarad | veszítenek |
+| 10 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 55–87% megmarad | veszítenek |
+| 20 pilóta | csak a Siege Warden I és II ellen nyernek, 8,5–8,6 perc alatt, 7 hajót elvesztve | veszítenek |
+| 30 pilóta | minden őrző ellen nyernek 4,5–5,1 perc alatt, 3–11 hajót elvesztve | csak a Siege Warden I és II ellen nyernek, 12,6–12,8 perc alatt, 10 hajót elvesztve |
 
-A legjobb esetben a legkisebb legénység, amely x2 lőszerrel nyer, **4 pilótából** (a Siege Warden I és II ellen) **5-ből** (a többi hét ellen) áll, és közben **1–2** hajót veszít; x1 lőszerrel **6–8** pilóta kell, és 2–4 hajót veszít. A **hét** pilótás legénység x2 lőszerrel minden őrzőt legyőz, és a legjobb esetben legfeljebb egy hajót veszít. Egy őrző lézerei az I. erősségnél néhány tíz, akár száz fölötti (48–129), a III.-nál több ezer (1 845–3 090) sebzést ütnek egy sorozatban, és a segítői is hozzáadnak: a hajó, amely ellen küzd, másfél és négy perc között elesik, aztán a következőre fordul, így még a nyerő legénység is hajókat veszít.
+A számításban a legkisebb legénység, amely x2 lőszerrel nyer, **18–26 pilótából** áll (a legkevesebből a Siege Warden I és II ellen), és közben **9–17** hajót veszít; x1 lőszerrel **28–39** pilótából áll, és 13–27 hajót veszít. Az őrző lézerei az I erősségnél százas nagyságrendet ütnek sorozatonként (240–645), a III erősségnél ezreset (9 225–15 450), és a segítői ehhez hozzáadódnak: a hajó, amellyel harcol, 19–59 másodperc alatt elesik, aztán a következőre fordul, így még egy nyerő legénység is sok hajót veszít.
 
-A táblázat egy olyan legénységre vonatkozik, amely az őrző saját fokozatának felszerelésében van. A gyengébb hajók rosszabbul szerepelnek: tíz pilóta Újonc felszerelésben nem tud legyőzni egy Veterán őrzőt, és tíz Veterán felszerelésben sem egy Elit őrzőt. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik, amelyet a klán öt legjobb pilótája határoz meg, ezért vidd őket.
+A táblázat egy olyan legénységre vonatkozik, amely az őrző saját fokozatának felszerelésében van. A gyengébb hajók rosszabbul szerepelnek. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik, amelyet a klán öt legjobb pilótája határoz meg, ezért vidd őket.
 
-**Az a klán, amely túl kicsi az őrzőjéhez,** (aznap nagyjából hét pilótánál kevesebb) nincs kizárva. A négy küldetés **70 pontot** fizet, bármi történik az őrzővel, a pontokból bónuszokat lehet venni, és a klán újra megidézheti az őrzőt, ha maradt még megidézése (naponta kettő van): ha a legénység elesik és távol marad, az őrző visszavonul, ami egy megidézésbe kerül, és a következő hívás teljes erővel hozza vissza. De a vonal nem készül el, így senki nem kapja meg [a te jutalmadat](#the-reward-for-you), és az a klán, amely sosem győzi le az őrzőjét, a 30 bónuszszintet leghamarabb a 18. szezonnapon éri el, nem a 12.-en ([mennyi ideig tart](#how-long-it-takes)).
+**Az a klán, amely túl kicsi az őrzőjéhez,** nincs kizárva. A négy küldetés **70 pontot** fizet, bármi történik az őrzővel, a pontokból bónuszokat lehet venni, és a klán újra megidézheti az őrzőt, ha maradt még megidézése (naponta kettő van): ha a legénység elesik és távol marad, az őrző visszavonul, ami egy megidézésbe kerül, és a következő hívás teljes erővel hozza vissza. De a vonal nem készül el, így senki nem kapja meg [a te jutalmadat](#the-reward-for-you), és az a klán, amely sosem győzi le az őrzőjét, a 30 bónuszszintet leghamarabb a 18. szezonnapon éri el, nem a 12.-en ([mennyi ideig tart](#how-long-it-takes)).
 
 ### Az őrzők számai {#warden-numbers}
 
-Az őrzők számai minden világban ugyanazok (az Alpha-számok), és a fizetésük is. Minden drón, kísérő és őr a második táblázat számaival rendelkezik, és az őrző mellett állnak: a Brood Drone az őrző törzsét gyógyítja, a Siege Escort vagy a Wrath Guard lézerrel lő. Egy sorozat egy hajó összes lézerének lövése egy másodperc alatt, a kijelzett szám 80 és 100%-a között kisorsolva; a félnél kevesebb törzzsel rendelkező Wrath Warden másfélszer keményebben üt. Az őrző és a segítői mind arra a pilótára lőnek, akivel az őrző harcol, így a sorozataik összeadódnak: egy Brood Warden III a négy drónjával akár 4 350-at is rak egy hajóra másodpercenként. A Siege Warden [Rivet-rakétája](/wiki/06-Items/Rockets.md#the-twelve-rockets) nincs kisorsolva: az I. erősségnél legfeljebb **2 500**, a II.-nál **5 000**, a III.-nál **7 500** sebzést okoz, míg egy pilóta Rivetjének sebzése egy legkisebb és egy legnagyobb szám között sorsolódik ki. Egyenesen repül, ezért a mozgásban maradó hajót elvéti.
+Az őrzők számai minden világban ugyanazok (az Alpha-számok), és a fizetésük is. Minden drón, kísérő és őr a második táblázat számaival rendelkezik, és az őrző mellett állnak: a Brood Drone az őrző törzsét gyógyítja, a Siege Escort vagy a Wrath Guard lézerrel lő. Egy sorozat egy hajó összes lézerének lövése egy másodperc alatt, a kijelzett szám 80 és 100%-a között kisorsolva; a félnél kevesebb törzzsel rendelkező Wrath Warden másfélszer keményebben üt. Az őrző és a segítői mind arra a pilótára lőnek, akivel az őrző harcol, így a sorozataik összeadódnak: egy Brood Warden III a négy drónjával akár 21 750-at is rak egy hajóra másodpercenként. A Siege Warden [Rivet-rakétája](/wiki/06-Items/Rockets.md#the-twelve-rockets) nincs kisorsolva: az I. erősségnél legfeljebb **2 500**, a II.-nál **5 000**, a III.-nál **7 500** sebzést okoz, míg egy pilóta Rivetjének sebzése egy legkisebb és egy legnagyobb szám között sorsolódik ki. Egyenesen repül, ezért a mozgásban maradó hajót elvéti.
 
 | Őrző | Törzs | Pajzs | Lézersebzés (másodpercenként egy sorozat) | Sebesség | Lézer hatótávja | Magát javítja (törzs másodpercenként) | Rakéta és másodpercek a lövések között |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166 000 | 136 000 | 129 | 90 | 600 | – | – |
-| Brood Warden II | 288 000 | 236 000 | 777 | 90 | 700 | – | – |
-| Brood Warden III | 1 060 000 | 870 000 | 3 090 | 90 | 800 | – | – |
-| Siege Warden I | 143 000 | 117 000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248 000 | 203 000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915 000 | 745 000 | 1 845 | 110 | 800 | 1 385 | Rivet III: 8 |
-| Wrath Warden I | 163 000 | 133 000 | 96 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282 000 | 231 000 | 582 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1 040 000 | 850 000 | 2 460 | 90 | 900 | 1 385 | – |
+| Brood Warden I | 830 000 | 680 000 | 645 | 90 | 600 | – | – |
+| Brood Warden II | 1 440 000 | 1 180 000 | 3 885 | 90 | 700 | – | – |
+| Brood Warden III | 5 300 000 | 4 350 000 | 15 450 | 90 | 800 | – | – |
+| Siege Warden I | 715 000 | 585 000 | 240 | 110 | 600 | 1 075 | Rivet I: 24 |
+| Siege Warden II | 1 240 000 | 1 015 000 | 1 455 | 110 | 700 | 1 875 | Rivet II: 12 |
+| Siege Warden III | 4 575 000 | 3 725 000 | 9 225 | 110 | 800 | 6 925 | Rivet III: 8 |
+| Wrath Warden I | 815 000 | 665 000 | 480 | 90 | 700 | 1 075 | – |
+| Wrath Warden II | 1 410 000 | 1 155 000 | 2 910 | 90 | 800 | 1 875 | – |
+| Wrath Warden III | 5 200 000 | 4 250 000 | 12 300 | 90 | 900 | 6 925 | – |
 
 | Segítő | Hány | Törzs | Pajzs | Lézersebzés (másodpercenként egy sorozat) | Sebesség | Gyógyítja az őrzőt (törzs másodpercenként) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
-| Brood Drone II | 4 | 1 200 | 900 | 78 | 170 | 210 |
-| Brood Drone III | 4 | 4 000 | 3 500 | 315 | 170 | 770 |
-| Siege Escort I | 2 | 4 300 | 3 500 | 6 | 175 | – |
-| Siege Escort II | 2 | 7 400 | 6 100 | 45 | 175 | – |
-| Siege Escort III | 2 | 27 500 | 22 500 | 285 | 175 | – |
-| Wrath Guard I | 2 | 4 900 | 4 000 | 18 | 180 | – |
-| Wrath Guard II | 2 | 8 500 | 6 900 | 117 | 180 | – |
-| Wrath Guard III | 2 | 31 000 | 25 500 | 495 | 180 | – |
+| Brood Drone I | 4 | 3 500 | 2 500 | 60 | 170 | 600 |
+| Brood Drone II | 4 | 6 000 | 4 500 | 390 | 170 | 1 050 |
+| Brood Drone III | 4 | 20 000 | 17 500 | 1 575 | 170 | 3 850 |
+| Siege Escort I | 2 | 21 500 | 17 500 | 30 | 175 | – |
+| Siege Escort II | 2 | 37 000 | 30 500 | 225 | 175 | – |
+| Siege Escort III | 2 | 137 500 | 112 500 | 1 425 | 175 | – |
+| Wrath Guard I | 2 | 24 500 | 20 000 | 90 | 180 | – |
+| Wrath Guard II | 2 | 42 500 | 34 500 | 585 | 180 | – |
+| Wrath Guard III | 2 | 155 000 | 127 500 | 2 475 | 180 | – |
 
 ### Fizetés és zsákmány {#warden-pay-and-loot}
 
-Az őrző annyit fizet, mint egy halom a fokozat nehéz idegeneiből: **30 Phantasm** egy I őrzőért, **24 Bulwark** egy II-ért és **16 Goombah** egy III-ért. Ez egyetlen kassza, sebzés szerint osztják szét azok között a pilóták között, akik a sebzés legalább 5%-át okozták, ugyanúgy, mint egy [raj](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays) vezérénél. A [klánbónuszaid](#what-the-boosts-apply-to) a te részedre érvényesek. A számításunk szerint a kreditek nagyjából fedezik azt az x1 lőszert, amelyet a legkisebb nyerni képes legénység elhasznál, az x2 lőszer pedig több Thuliumba kerül, mint amennyit az őrző fizet: a harc a pontokért és a ládáért van. A fizetés nem változott a 0.4.12-ben, amikor az őrzők lézerei erősebbek lettek: az összeg nem nő a kapott sebzéssel vagy az elvesztett hajókkal.
+Az őrző tízszer annyit fizet, mint amennyit a fokozat nehéz idegeneiből álló halom fizet: **300 Phantasm** egy I őrzőért, **240 Bulwark** egy II-ért és **160 Goombah** egy III-ért. Ez egyetlen kassza, sebzés szerint osztják szét azok között a pilóták között, akik a sebzés legalább 5%-át okozták, ugyanúgy, mint egy [raj](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays) vezérénél. A [klánbónuszaid](#what-the-boosts-apply-to) a te részedre érvényesek. Az összeg nem nő a kapott sebzéssel, az elégetett lőszerrel vagy az elvesztett hajókkal.
 
 | Az őrző erőssége | Kredit | Thulium | Tapasztalat (XP) | Becsület |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 90 000 | 360 | 9 000 | 180 |
-| II | 120 000 | 600 | 19 200 | 240 |
-| III | 240 000 | 1 200 | 48 000 | 384 |
+| I | 900 000 | 3 600 | 90 000 | 1 800 |
+| II | 1 200 000 | 6 000 | 192 000 | 2 400 |
+| III | 2 400 000 | 12 000 | 480 000 | 3 840 |
 
-Az őrző **egy ládát** ejt annak a pilótának, aki a legtöbb sebzést okozta; 30 másodpercig az övé és a klánjáé ([Rakomány](/wiki/03-Mechanics/Cargo.md)). A zárójelben lévő esély a megadott számú dobás mindegyikére vonatkozik: az (5 × 50%) öt dobás, egyenként 50% eséllyel.
+**Minden fizetett pilóta saját ládát kap** a roncsnál, a zsákmányból járó részével. A táblázat azt sorolja fel, amit az egész kilövés kisorsol, és az a pilóta, aki a sebzés 20%-át okozta, nagyjából minden mennyiség ötödére dob: a részt véletlenszerűen kerekítik, így az átlag pontos, és egy kis rész is néha kap ritka sort. **Csak te látod a ládádat, és csak te veheted fel**, sem a klánod, sem a csoportod, és **10 percig** áll, a 30 másodperces várakozás nélkül ([privát ládák](/wiki/03-Mechanics/Cargo.md#private-boxes)). Egy [csoportban](/wiki/03-Mechanics/Groups.md#sharing-kills) a tagok egy pilótának számítanak az 5%-hoz, és a részét úgy osztják el, ahogy egy csoportban bármelyik kilövést (a közelben lévő és lövő társak, szint szerint): minden társ, aki részt kap, ennek a résznek privát ládáját kapja. A Játéknapló megmondja a részedet. Az a pilóta, aki 5%-nál kevesebbet okozott, nem kap fizetést, és neki nem rakunk le ládát; a Játéknapló ezt megmondja neki. A zárójelben lévő esély a megadott számú dobás mindegyikére vonatkozik: az (5 × 50%) öt dobás, egyenként 50% eséllyel.
 
 | Őrző | Tárgy | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 3–5 | 8–12 | 15–25 |
-| Brood Warden | Advanced Plasma | 100–200 | 300–600 | – |
-| Brood Warden | Daraxium | 1–2 (5 × 50%) | – | – |
-| Brood Warden | Nyxite | – | 2–4 (5 × 50%) | – |
-| Brood Warden | Ultra Core | – | – | 300–500 |
-| Brood Warden | Quorvium | – | – | 5–10 (60%) |
-| Siege Warden | Ship Fragment | 2–4 | 6–10 | 12–20 |
-| Siege Warden | Siphon Battery | 100–200 | 300–500 | 800–1 200 |
-| Siege Warden | Kreditért vehető rakéta (egy fajta, véletlenszerűen) | 2–3 | 5–8 | 8–12 |
-| Siege Warden | Reinforced Hull Plate | – | 1 (30%) | – |
-| Siege Warden | Epikus rakéta (egy fajta, véletlenszerűen) | – | – | 1–2 (50%) |
-| Wrath Warden | Ship Fragment | 4–6 | 8–12 | – |
-| Wrath Warden | Cataclysite | 3–5 | 5–10 | – |
-| Wrath Warden | Reinforced Hull Plate | 1 (25%) | 1 (50%) | 1–2 (70%) |
-| Wrath Warden | Power Core | – | 1 (15%) | 1 (35%) |
-| Wrath Warden | Quorvium | – | – | 5–10 (70%) |
-| Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
+| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
+| Brood Warden | Advanced Plasma | 2 000–4 000 | 6 000–12 000 | – |
+| Brood Warden | Daraxium | 10–20 (5 × 50%) | – | – |
+| Brood Warden | Nyxite | – | 20–40 (5 × 50%) | – |
+| Brood Warden | Ultra Core | – | – | 6 000–10 000 |
+| Brood Warden | Quorvium | – | – | 50–100 (60%) |
+| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
+| Siege Warden | Siphon Battery | 2 000–4 000 | 6 000–10 000 | 16 000–24 000 |
+| Siege Warden | Kreditért vehető rakéta (egy fajta, véletlenszerűen) | 20–30 | 50–80 | 80–120 |
+| Siege Warden | Reinforced Hull Plate | – | 10 (30%) | – |
+| Siege Warden | Epikus rakéta (egy fajta, véletlenszerűen) | – | – | 10–20 (50%) |
+| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
+| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
+| Wrath Warden | Reinforced Hull Plate | 10 (25%) | 10 (50%) | 10–20 (70%) |
+| Wrath Warden | Power Core | – | 10 (15%) | 10 (35%) |
+| Wrath Warden | Quorvium | – | – | 50–100 (70%) |
+| Wrath Warden | Ancient Control Unit | – | – | 10 (8%) |
 
 Az őrző a saját nevén számít a lelövési statisztikádban, és PvE-pontot ad a [rangodhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13–35** a vezérért, az őrzőtől és erősségétől függően (a III őrző ér a legtöbbet), és **1–6** minden segítőért, erősebb legénységért többet.
 

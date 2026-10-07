@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 “射程”一列是每把激光自己的射程。**你的舰船以所有激光射程的平均值开火**（无人机中的激光也计入），四舍五入取整，目标一进入这个距离，每把激光就会开火。一把 Starfire-3 加两把 Quantum Laser 2，舰船的射程是 750，而不是 850；三把 Starfire-3 则保持 850，而全都相同的激光不会带来任何变化。锻造炉的射程加成会在取平均值之前先计入其所在的那把激光。没有激光时，机库不显示射程（只有一条短横线），激光无法开火，但你的火箭仍然可以，每枚各有自己的射程（见[火箭](/wiki/06-Items/Rockets.md)）。在机库中，当你的激光射程不一致时，对应的图块会写着“平均射程”，把鼠标悬停在上面会列出每把激光的射程。
 
 Quantum Laser 1 和 2 自身没有暴击率（“–”）：装在它们槽位中的 Damage Amp 或 Crit Amp 会带来暴击率（Penetration Amp 不会）。暴击在飘出的伤害数字中以不同的颜色显示（冰青色、更大，并带有“!”；见[伤害与治疗数字](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)）。
+
+激光也能伤害[小行星](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)，但只有一轮齐射对飞船伤害的 5%（你的增幅器、增益、弹药和暴击都会计入，之后再扣除小行星的装甲；Siphon Battery 无法伤害小行星）。击碎小行星要靠火箭。
 
 ### 制造顶级的三把激光 {#making-the-top-three-lasers}
 

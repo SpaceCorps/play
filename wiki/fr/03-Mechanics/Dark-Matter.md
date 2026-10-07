@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 1. **Construisez le Centre de recherche et recherchez la N.I.K.E.** Le Centre s’ouvre au niveau 10 du Noyau du Skylab ([Recherche](/wiki/03-Mechanics/Research.md)). La technologie de la N.I.K.E. prend 3 heures et ne demande pas de Dark Matter.
 2. **Fabriquez des N.I.K.E. à l’Assemblage.** Une fabrication donne 5 roquettes en 5 minutes pour 100 000 crédits, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate et 40 Cataclysite. Vous pouvez en porter 20. Voir [Roquettes](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Volez jusqu’au Secteur dangereux 4 (`DS-4`).** C’est le secteur PvP au milieu de la galaxie, et le trou noir y flotte à son centre exact dans chaque monde ([Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Aucun alien ni pilote de corporation ne s’en approche, mais d’autres pilotes, si.
-4. **Tirez sur le trou noir depuis son bord.** La radiation commence à 4 000 unités du centre. Une N.I.K.E. vole 4 050 unités, vous pouvez donc tirer de n’importe où entre 4 000 et 4 380 unités. Sans cible sélectionnée, placez le curseur sur le trou. Vous pouvez tirer une roquette toutes les 5 secondes. De plus loin, elle tombe trop court.
+4. **Tirez sur le trou noir depuis son bord.** La radiation commence à 4 000 unités du centre. Une N.I.K.E. vole 4 050 unités, vous pouvez donc tirer de n’importe où entre 4 000 et 4 380 unités. Sans cible sélectionnée, placez le curseur sur le trou. Vous pouvez tirer une roquette toutes les 4,6 secondes. De plus loin, elle tombe trop court.
 5. **Ramassez les caisses.** Chaque N.I.K.E. qui atteint le trou rend **1, 2 ou 3 Dark Matter** (1 une fois sur quatre, 2 une fois sur deux, 3 une fois sur quatre), dans une ou deux caisses de 2 au plus. Elles tombent au bord de la zone du trou, entre 3 050 et 3 950 unités du centre, près de la ligne de votre tir. Approchez-vous à moins de 200 unités de chacune : le ramassage dure une demi-seconde.
 6. **Rapportez-la.** La Dark Matter va dans votre inventaire. À la station, vaisseau posé, vous pouvez l’ajouter au Centre de recherche ou l’utiliser à l’Assemblage.
 

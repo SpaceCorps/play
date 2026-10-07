@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -10,7 +10,7 @@ A **raj** idegenek csoportja, amely egy **vezér** alatt járja a galaxis egy r�
 
 A hajóik **saját fajú idegenek**: saját nevük és saját kilövésszámlálójuk van, és egyik sem számít Seekernek, Phantasmnak vagy más idegennek. A rajhajó alakja a hajóé, amelyre épül, saját színezéssel és fölötte a nevével; a Boss Seeker egy sokkal nagyobb Seeker.
 
-A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépéséhez maga idézi meg az őrzőjét, és csak az a klán sebezheti: egyik pilóta sem találkozik olyannal, amely egy szektorban kóborol, és az alábbi táblázatok nem sorolják fel őket. Lásd: [Klánok](/wiki/03-Mechanics/Clans.md#clan-wardens).
+A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépéséhez maga idézi meg az őrzőjét, és csak az a klán sebezheti: egyik pilóta sem találkozik olyannal, amely egy szektorban kóborol, és az alábbi táblázatok nem sorolják fel őket. Az őrzőért sebzés szerint fizetnek, mint egy rajvezérért, de a zsákmánya nem egyetlen láda annak, aki a legtöbb sebzést okozta: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](/wiki/03-Mechanics/Cargo.md#private-boxes) kap. Lásd: [Klánok](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## A három raj {#the-three-swarms}
 

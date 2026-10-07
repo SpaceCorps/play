@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac0edd812a5c4dcb -->
+<!-- wiki-i18n source: d2b36e0a1271e933 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
-Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Wie der Shop ist sie eine Seite der Station: Du nutzt sie angedockt, nicht im Flug. Sie hat vier Bereiche. **Markt** zeigt, was andere Piloten verkaufen. **Lose** sind die eigenen Angebote des Spiels, eines pro Stunde. **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast.
+Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Wie der Shop ist sie eine Seite der Station: Du nutzt sie angedockt, nicht im Flug. Sie hat vier Bereiche. **Markt** zeigt, was andere Piloten verkaufen. **Lose** sind die eigenen Angebote des Spiels, eines pro Stunde. **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast, und wie dein Handel gelaufen ist.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -11,7 +11,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
 - Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 20 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
 - 80 Sorten lassen sich einstellen, und 42 davon können auch in Thulium bepreist werden.
-- Ein Angebot läuft 12 / 24 / 48 / 72 Stunden, höchstens so lange, wie dein Level erlaubt (siehe die Leveltabelle unten).
+- Ein Angebot läuft 24 / 72 / 168 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 1 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 1,5 %.
 - Die **Steuer** beträgt 5 % des Preises. Sie wird von dem abgezogen, was der Verkäufer erhält, wenn das Angebot verkauft wird.
@@ -58,7 +58,7 @@ Schiffe, Drohnen, Drohnenformationen, Booster und Abos können nie verkauft werd
 
 ## Verkaufen {#selling}
 
-Drücke **Gegenstand verkaufen** (oder den Auktionshammer im Hangar), wähle, was du verdient hast, entscheide dich für Credits oder Thulium, lege den Preis eines Postens fest und wie lange das Angebot läuft. Das Blatt zeigt den Mindestpreis, drei Chips, die einen Preis eintragen (**Minimum**; **Schnellverkauf**, einen unter dem niedrigsten Angebot im Moment; und **Fair**, der Preis des letzten Verkaufs), sowie Einstellgebühr, Steuer und das, was du erhältst, noch bevor du einstellst. Ein Stück ist ein Posten zu eins; Munition und manche Ressourcen werden in Posten zu 10 oder 100 verkauft, und du verkaufst eine ganze Zahl von Posten. Was du einstellst, verlässt dein Inventar und wird vom Server gehalten, bis es sich verkauft, du es zurückziehst oder es abläuft; dann kommt es mit seinem Etikett zurück. Du kannst jederzeit zurückziehen, auch in den letzten Tagen einer Saison. Ein Angebot ist eine Momentaufnahme: Um einen Preis zu ändern, ziehe das Angebot zurück und stelle es neu ein (die Einstellgebühr wird dann erneut fällig).
+Drücke **Gegenstand verkaufen** (oder den Auktionshammer im Hangar), wähle, was du verdient hast (ein Auswahlmenü für Kategorien grenzt die Liste ein, mit denselben Kategorien wie im Markt), entscheide dich für Credits oder Thulium, lege den Preis eines Postens fest und wie lange das Angebot läuft: 1, 3 oder 7 Tage. Das Blatt zeigt den Mindestpreis, drei Chips, die einen Preis eintragen (**Minimum**; **Schnellverkauf**, einen unter dem niedrigsten Angebot im Moment; und **Fair**, der Preis des letzten Verkaufs), sowie Einstellgebühr, Steuer und das, was du erhältst, noch bevor du einstellst. Unter dem Preis zeigt **Ähnliche Angebote** in einem Diagramm, zu welchen Preisen derselbe Gegenstand mit derselben Verzauberung gerade angeboten wird, in der Währung, die du gewählt hast: Dein Preis ist eine Linie darin, der Mindestpreis, der letzte Verkauf und der Preis im Shop sind markiert, eine Zeile in Worten sagt, wo dein Preis stünde, und darunter stehen die drei günstigsten Angebote. Ein Stück ist ein Posten zu eins; Munition und manche Ressourcen werden in Posten zu 10 oder 100 verkauft, und du verkaufst eine ganze Zahl von Posten. Was du einstellst, verlässt dein Inventar und wird vom Server gehalten, bis es sich verkauft, du es zurückziehst oder es abläuft; dann kommt es mit seinem Etikett zurück. Du kannst jederzeit zurückziehen, auch in den letzten Tagen einer Saison. Ein Angebot ist eine Momentaufnahme: Um einen Preis zu ändern, ziehe das Angebot zurück und stelle es neu ein (die Einstellgebühr wird dann erneut fällig).
 
 Jede Sorte hat einen **Mindestpreis**, und es gibt **keinen Höchstpreis**: Verlange, was du willst. Die Tabelle zeigt den Mindestpreis einiger Sorten.
 
@@ -84,29 +84,29 @@ Jede Sorte hat einen **Mindestpreis**, und es gibt **keinen Höchstpreis**: Verl
 
 Ein Preis in Thulium folgt einer einzigen Regel: der Mindestpreis in Credits geteilt durch den Kurs, aufgerundet. Der Kurs ist kein Wert, den das Spiel dem Thulium beimisst. Er legt nur fest, wie der Mindestpreis in Thulium berechnet wird, und deshalb kann ein Angebot in Thulium für einen Piloten mit Thulium günstig sein. Die meisten Verkäufer werden Credits verlangen. Günstige Sorten (Munition, Raketen, die erste Stufe der meisten Ausrüstung und die gewöhnlichen Ressourcen) werden nur in Credits bepreist, weil ein ganzes Thulium ein zu großer Schritt wäre.
 
-Deine **offenen Angebote** (und ein Angebot, das ein Admin angehalten hat) belegen Plätze. Mit steigendem Level bekommst du mehr Plätze, ein Angebot darf länger laufen, und du darfst pro Tag mehr verkaufen und kaufen.
+Deine **offenen Angebote** (und ein Angebot, das ein Admin angehalten hat) belegen Plätze. Mit steigendem Level bekommst du mehr Plätze, bis zu einem Höchstwert, und du darfst pro Tag mehr verkaufen und kaufen. Wie lange ein Angebot laufen darf, ist auf jedem Level gleich.
 
 <!-- market-limits:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 | Level | Offene Angebote | Längste Laufzeit | Pro Tag, Credits | Pro Tag, Thulium | Einstellgebühr je 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 6 | 48 h | 4.500.000 | 22.500 | 1 % |
-| 6 | 8 | 48 h | 6.000.000 | 30.000 | 1 % |
-| 7 | 10 | 48 h | 7.500.000 | 37.500 | 1 % |
-| 8 | 12 | 48 h | 8.500.000 | 42.500 | 1 % |
-| 9 | 14 | 48 h | 10.000.000 | 50.000 | 1 % |
-| 10 | 16 | 72 h | 15.000.000 | 75.000 | 1,5 % |
-| 11 | 18 | 72 h | 15.000.000 | 75.000 | 1,5 % |
-| 12 | 20 | 72 h | 15.000.000 | 75.000 | 1,5 % |
-| 13 | 22 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 14 | 22 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 15 | 24 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 16 | 24 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 17 | 26 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 18 | 26 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 19 | 28 | 72 h | 20.000.000 | 100.000 | 1,5 % |
-| 20 und höher | 30 | 72 h | 20.000.000 | 100.000 | 1,5 % |
+| 5 | 20 | 168 h | 4.500.000 | 22.500 | 1 % |
+| 6 | 40 | 168 h | 6.000.000 | 30.000 | 1 % |
+| 7 | 70 | 168 h | 7.500.000 | 37.500 | 1 % |
+| 8 | 100 | 168 h | 8.500.000 | 42.500 | 1 % |
+| 9 | 100 | 168 h | 10.000.000 | 50.000 | 1 % |
+| 10 | 100 | 168 h | 15.000.000 | 75.000 | 1,5 % |
+| 11 | 100 | 168 h | 15.000.000 | 75.000 | 1,5 % |
+| 12 | 100 | 168 h | 15.000.000 | 75.000 | 1,5 % |
+| 13 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 14 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 15 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 16 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 17 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 18 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 19 | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
+| 20 und höher | 100 | 168 h | 20.000.000 | 100.000 | 1,5 % |
 
 <!-- market-limits:end -->
 
@@ -121,30 +121,30 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 | :--- | ---: | ---: | ---: | ---: |
 | Quantum Laser 3: Level 6, 24 h | 170.000 Credits | 1.700 Credits | 8.500 Credits | 161.500 Credits |
 | Quantum Laser 3: Level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
-| Helios Beam: Level 12, 72 h | 2.500.000 Credits | 112.500 Credits | 125.000 Credits | 2.375.000 Credits |
-| Helios Beam: Level 12, 72 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
+| Helios Beam: Level 12, 168 h | 2.500.000 Credits | 262.500 Credits | 125.000 Credits | 2.375.000 Credits |
+| Helios Beam: Level 12, 168 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
 
 <!-- market-fees:end -->
 
 ## Kaufen {#buying}
 
-Der **Markt** zeigt, was andere Piloten verkaufen. Suche nach Namen, filtere nach Sorte, Verzauberung und Währung und sortiere nach Preis, danach, was zuerst endet, oder danach, was am neuesten ist. Wähle ein Angebot, um zu sehen, was es ist, wer es verkauft, wie lange es läuft und wie sein Preis zum letzten Verkauf, zum niedrigsten Preis im Moment und zum Preis im Shop steht. Ein Stapel wird in ganzen Posten gekauft. Ein großer Kauf fragt noch einmal nach. Der Verkäufer wird sofort bezahlt, abzüglich der Steuer; du zahlst weder Einstellgebühr noch Steuer. Was du kaufst, ist **nicht handelbar**: Die Seite sagt neben **Kaufen für …** „Du erhältst: nicht handelbar“, weil nur verkauft werden kann, was du verdienst. Dein eigenes Angebot kannst du nicht kaufen. Ein Angebot, das sich verkauft, während du es ansiehst, meldet „Dieses Angebot ist nicht mehr da.“
+Der **Markt** zeigt, was andere Piloten verkaufen. Grenze die Liste mit den **Kategorie-Chips** ein (einer für jede Art von Gegenstand, mit der Zahl der Angebote darin), suche nach Namen, filtere nach Verzauberung und Währung und sortiere nach Preis, danach, was zuerst endet, oder danach, was am neuesten ist. Wähle ein Angebot, um zu sehen, was es ist, wer es verkauft, wie lange es läuft und wie sein Preis zum letzten Verkauf, zum niedrigsten Preis im Moment und zum Preis im Shop steht. Ein Stapel wird in ganzen Posten gekauft. Ein großer Kauf fragt noch einmal nach. Der Verkäufer wird sofort bezahlt, abzüglich der Steuer; du zahlst weder Einstellgebühr noch Steuer. Was du kaufst, ist **nicht handelbar**: Die Seite sagt neben **Kaufen für …** „Du erhältst: nicht handelbar“, weil nur verkauft werden kann, was du verdienst. Dein eigenes Angebot kannst du nicht kaufen. Ein Angebot, das sich verkauft, während du es ansiehst, meldet „Dieses Angebot ist nicht mehr da.“
 
 ## Limits
 
-Jede Währung hat ein eigenes Tageslimit dafür, wie viel du verkaufen und wie viel du kaufen kannst, gezählt über die letzten 24 Stunden, und ein Limit dafür, was zwischen zwei Piloten fließt, damit ein zweiter Account kein schneller Weg ist, ein Vermögen zu verschieben. Credits und Thulium werden nie zusammengezählt: Wer für Thulium verkauft, verbraucht sein Thulium-Limit und sonst nichts. Wie viel von jedem Limit du verbraucht hast, siehst du im **Verlauf**. Die Limits wachsen mit dem Level, und Premium ändert keines davon. Gewonnene Lose zählen nicht mit.
+Jede Währung hat ein eigenes Tageslimit dafür, wie viel du verkaufen und wie viel du kaufen kannst, gezählt über die letzten 24 Stunden, und ein Limit dafür, was zwischen zwei Piloten fließt, damit ein zweiter Account kein schneller Weg ist, ein Vermögen zu verschieben. Credits und Thulium werden nie zusammengezählt: Wer für Thulium verkauft, verbraucht sein Thulium-Limit und sonst nichts. Das Verkaufsblatt warnt dich, wenn ein Verkauf dein Tageslimit fürs Verkaufen überschreiten würde, und wenn ein Kauf dein Tageslimit fürs Kaufen überschreiten würde, sagt der Markt es dir und sperrt **Kaufen für …**. Die Limits wachsen mit dem Level, und Premium ändert keines davon. Gewonnene Lose zählen nicht mit.
 
 Raketen in einem Angebot, in einem Los, das du anführst, und in deinem Frachtraum zählen alle zur größten Zahl einer Rakete, die du tragen darfst: Mit einem Angebot lässt sich nicht mehr tragen, als der Stapel des Shops erlaubt.
 
 ## Meine Angebote und Verlauf {#my-listings-and-history}
 
-**Meine Angebote** zeigt deine Plätze und jedes Angebot mit seinem Zustand (offen, verkauft, abgebrochen, abgelaufen, zurückgegeben oder angehalten), einer Schaltfläche **Zurückziehen**, **Erneut einstellen** für ein beendetes und einem Chip **Unterboten**, wenn ein anderes Angebot derselben Sache weniger verlangt. Ein Angebot, das abgelaufen ist, kommt von selbst in dein Inventar zurück. Der **Verlauf** zeigt, was du verkauft, gekauft und gewonnen hast, samt Steuer, und deine Limits. Das Spiel bewahrt das Hauptbuch der Auktion 90 Tage auf.
+**Meine Angebote** zeigt deine Plätze und jedes Angebot mit seinem Zustand (offen, verkauft, abgebrochen, abgelaufen, zurückgegeben oder angehalten), einer Schaltfläche **Zurückziehen**, **Erneut einstellen** für ein beendetes und einem Chip **Unterboten**, wenn ein anderes Angebot derselben Sache weniger verlangt. Ein Angebot, das abgelaufen ist, kommt von selbst in dein Inventar zurück. Der **Verlauf** beginnt mit deinem Handel der letzten 30 Tage: deine Verkäufe und Käufe, was du eingenommen und ausgegeben hast, die Gebühren und Steuern, die du bezahlt hast, dein Gesamtergebnis, dein bester Verkauf, dein durchschnittlicher Verkauf und der Gegenstand, den du am meisten gehandelt hast, dazu zwei Liniendiagramme: deine Einnahmen pro Tag und dein Ergebnis bisher (für Credits oder für Thulium, jeweils eines). Darunter steht die Liste dessen, was du verkauft, gekauft und gewonnen hast, samt Steuer. Das Spiel bewahrt das Hauptbuch der Auktion 90 Tage auf.
 
 Du erfährst, wenn etwas verkauft wird: durch einen Toast, den Ton der Auktion und den neuen Kontostand, und durch ein Zeichen am Eintrag der Auktion, solange die Seite geschlossen ist. Eine Folge von Verkäufen ist ein Toast. Die Auktion hat eigene leise Töne, einen für alles, was du dort tust oder was dir dort geschieht (Einstellen, Beenden, ein Verkauf, ein Gebot, überboten werden, gewinnen), und sie folgen der Lautstärke der Oberfläche.
 
 ## Die stündlichen Lose {#the-hourly-lots}
 
-Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, jede Stunde, auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete), in der Währung des Shops.
+Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, jede Stunde, auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete), in der Währung des Shops. Ein Raketenlos ist nie größer als die größte Zahl dieser Rakete, die du tragen darfst (der Stapel des Shops); ein Gebot, das dich darüber brächte, wird abgelehnt. Biete also auf ein Raketenlos, wenn du wenig von dieser Rakete trägst.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -153,7 +153,6 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 - Das Startgebot beträgt 40 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits oder 1 Thulium mehr betragen.
 - Dein Gebot wird sofort bezahlt und gehalten. Wirst du überboten, bekommst du es sofort zurück.
 - Ein Gebot in den letzten 2 min eines Loses verschiebt dessen Ende auf 2 min nach dem Gebot, höchstens 5-mal.
-- Du kannst 2 Lose gleichzeitig anführen und 6 Lose in 24 Stunden gewinnen.
 - Was du gewinnst, ist zum Fliegen da, nicht zum Handeln: Es ist nie handelbar. Das Gewinngebot wird vernichtet. Auf ein Los, auf das niemand bietet, wird nichts verkauft, und es kostet niemanden etwas.
 - Wie groß ein Los ist, richtet sich nach den Piloten ab Level 5, die in den letzten 3 Tagen in die Auktion geschaut haben: Bei keinem sind es 10 % der Größe in der Tabelle, ab 30 die volle Größe, in Schritten von 500 bei Munition, 50 bei Raketen und 1 bei EMP Charges.
 - In den letzten 6 Stunden einer Saison wird kein Los mehr gemacht. Der Wipe bricht die noch offenen Lose ab, und jedes Gebot geht zurück.
@@ -165,29 +164,29 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 
 | UTC-Stunde | Los | Volle Größe | Bezahlt in | Startgebot bei voller Größe |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 250 | Thulium | 500 Thulium |
-| 01:00 | Advanced Plasma | 5.000 | Thulium | 1.000 Thulium |
-| 02:00 | Lancet I | 2.500 | Credits | 500.000 Credits |
+| 00:00 | Scatter III | 1.250 | Thulium | 2.500 Thulium |
+| 01:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
+| 02:00 | Lancet I | 12.500 | Credits | 2.500.000 Credits |
 | 03:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 04:00 | Ultra Core | 5.000 | Thulium | 2.000 Thulium |
-| 05:00 | Rivet II | 1.000 | Credits | 320.000 Credits |
-| 06:00 | Advanced Plasma | 2.000 | Thulium | 400 Thulium |
-| 07:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 08:00 | Ember I | 2.500 | Credits | 500.000 Credits |
-| 09:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 10:00 | Scatter II | 1.000 | Credits | 320.000 Credits |
+| 04:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
+| 05:00 | Rivet II | 5.000 | Credits | 1.600.000 Credits |
+| 06:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
+| 07:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
+| 08:00 | Ember I | 12.500 | Credits | 2.500.000 Credits |
+| 09:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
+| 10:00 | Scatter II | 5.000 | Credits | 1.600.000 Credits |
 | 11:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 12:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 13:00 | Lancet III | 250 | Thulium | 500 Thulium |
-| 14:00 | Ultra Core | 2.000 | Thulium | 800 Thulium |
-| 15:00 | Advanced Plasma | 5.000 | Thulium | 1.000 Thulium |
-| 16:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 17:00 | Rivet I | 2.500 | Credits | 500.000 Credits |
-| 18:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 19:00 | Ember II | 1.000 | Credits | 320.000 Credits |
-| 20:00 | Ultra Core | 5.000 | Thulium | 2.000 Thulium |
-| 21:00 | Advanced Plasma | 5.000 | Thulium | 1.000 Thulium |
-| 22:00 | Advanced Plasma | 2.000 | Thulium | 400 Thulium |
+| 12:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
+| 13:00 | Lancet III | 1.250 | Thulium | 2.500 Thulium |
+| 14:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
+| 15:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
+| 16:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
+| 17:00 | Rivet I | 12.500 | Credits | 2.500.000 Credits |
+| 18:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
+| 19:00 | Ember II | 5.000 | Credits | 1.600.000 Credits |
+| 20:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
+| 21:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
+| 22:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
 | 23:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
 
 <!-- market-day:end -->

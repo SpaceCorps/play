@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@
 1. **Construye el Centro de investigación e investiga la N.I.K.E.** El Centro se desbloquea con el Núcleo del Skylab de nivel 10 ([Investigación](/wiki/03-Mechanics/Research.md)). La tecnología de la N.I.K.E. tarda 3 horas y no pide Dark Matter.
 2. **Fabrica N.I.K.E. en el Ensamblaje.** Una fabricación hace 5 cohetes en 5 minutos por 100.000 créditos, 1.500 de Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate y 40 Cataclysite. Puedes llevar 20. Consulta [Cohetes](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Vuela al Sector de peligro 4 (`DS-4`).** Es el sector PvP del centro de la galaxia, y el agujero negro cuelga de su centro exacto en todos los mundos ([El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Ningún alienígena ni piloto de corporación se acerca a él, pero otros pilotos sí.
-4. **Dispara al agujero negro desde su borde.** La radiación empieza a 4.000 unidades del centro. Una N.I.K.E. vuela 4.050 unidades, así que puedes disparar desde cualquier punto entre 4.000 y 4.380 unidades de distancia. Sin objetivo seleccionado, pon el cursor sobre el agujero. Puedes disparar un cohete cada 5 segundos. Desde más lejos se queda corto.
+4. **Dispara al agujero negro desde su borde.** La radiación empieza a 4.000 unidades del centro. Una N.I.K.E. vuela 4.050 unidades, así que puedes disparar desde cualquier punto entre 4.000 y 4.380 unidades de distancia. Sin objetivo seleccionado, pon el cursor sobre el agujero. Puedes disparar un cohete cada 4,6 segundos. Desde más lejos se queda corto.
 5. **Recoge las cajas.** Cada N.I.K.E. que llega al agujero devuelve **1, 2 o 3 Dark Matter** (1 una cuarta parte de las veces, 2 la mitad, 3 una cuarta parte), en una o dos cajas de 2 como máximo. Caen en el borde de la zona del agujero, a entre 3.050 y 3.950 unidades del centro, cerca de la línea de tu disparo. Acércate a menos de 200 unidades de cada una: recogerla tarda medio segundo.
 6. **Llévala a casa.** La Dark Matter va a tu inventario. En la estación, con la nave aterrizada, puedes añadirla al Centro de investigación o usarla en el Ensamblaje.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -37,7 +37,7 @@ Ognuno riceve una parte in proporzione al proprio **livello**, qualunque sia la 
 
 L’avviso dell’abbattimento lo dice: la riga **RICOMPENSE** di chi ha abbattuto mostra la sua parte, seguita da “Ricompense condivise con 2 compagni di gruppo. La tua parte: 40%.”, e un compagno che riceve una parte legge “*Alieno* è stato distrutto da *pilota*; la quota del tuo gruppo ti spetta” con gli importi. Gli avvisi compaiono nel Registro di gioco.
 
-Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse), l’abbattimento nelle sue statistiche e nella classifica, il conteggio degli abbattimenti per i punti reset e l’esperienza dei droni. Gli abbattimenti di altri piloti non vengono condivisi.
+Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse; l’eccezione è un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), il cui bottino è una cassa privata per ogni compagno che riceve una parte), l’abbattimento nelle sue statistiche e nella classifica, il conteggio degli abbattimenti per i punti reset e l’esperienza dei droni. Gli abbattimenti di altri piloti non vengono condivisi.
 
 ## Missioni condivise {#sharing-missions}
 

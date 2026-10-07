@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -37,7 +37,7 @@ Mindenki a **szintjével** arányos részt kap, bármelyik vállalatból való i
 
 A kilövés értesítése ezt jelzi: a kilövő saját **JUTALOM** sora mutatja a részét, utána ez következik: „A jutalom megosztva 2 csoporttárssal: a te részed 40%.”, a részt kapó csoporttárs pedig ezt olvassa: „*pilóta* megsemmisített egy *Alien* idegent; a csoportod részesedése téged illet”, az összegekkel. Az értesítések a Játéknaplóban jelennek meg.
 
-Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyagok), a kilövés a statisztikájában és a rangsorában, a wipe-pontokhoz tartozó kilövésszám és a drónok tapasztalata. Más pilóták kilövéseit nem osztják meg.
+Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyagok; a kivétel egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), amelynek zsákmánya minden részt kapó csoporttársnak privát láda), a kilövés a statisztikájában és a rangsorában, a wipe-pontokhoz tartozó kilövésszám és a drónok tapasztalata. Más pilóták kilövéseit nem osztják meg.
 
 ## Küldetések megosztása {#sharing-missions}
 

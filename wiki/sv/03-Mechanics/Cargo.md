@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 - **Koncernpiloter** lämnar ingen låda när de förstörs, vem eller vad som än förstör dem. Se [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md).
 - **Spelarskepp** lämnar inget vrak och ingen låda när de förstörs, vem eller vad som än förstör dem, och ingenting tas från pilotens inventarie.
 - **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare, Dormant Pulses och [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
+- **En [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar ingen sådan låda: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](#private-boxes) med sin del av bytet.
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker, och en gräns för varje period på 24 timmar gäller. En bit plockas upp som en låda, och den är reserverad för piloterna som förtjänade den och sedan fri, som en låda.
 
 En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
@@ -37,6 +38,15 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 - Bara ett skepp på lådans karta kan ta den: om du förstörs, hoppar eller loggar ut på vägen (eller under den halva sekund upplockningen tar), blir lådan kvar åt de andra.
 - Om två piloter plockar upp samma låda samtidigt får den vars upplockning blir klar först den, exakt en gång; den andra får veta att den är borta.
 - En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Asteroidbitar har en egen pool inom de 64: de trycker inte bort någon annan låda, och ingen annan låda trycker bort en bit ([reglerna](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten.
+
+## Privata lådor {#private-boxes}
+
+Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är inte en låda åt en pilot: **varje pilot som gjort minst 5 % av skadan får en egen låda**, slumpad för sin del (för 20 % av skadan ungefär en femtedel av varje mängd; [detaljerna](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Bara du ser den och bara du kan ta den.** Din klan och din grupp ser den inte och kan inte ta den; för alla andra finns den helt enkelt inte. På din skärm har den en tunn ring under sig.
+- **Den ligger kvar i 10 minuter** från nedskjutningen, och hela tiden är den din: det finns ingen väntan på 30 sekunder. Sedan driver den iväg som vilken låda som helst. Spelloggen berättar din del av bytet när väktaren faller.
+- **Den knuffar inte ut andra lådor.** Privata lådor har en egen pool vid sidan av kartans 64 (högst 32), så en väktares nedskjutning tar aldrig platsen från en annan låda, och en full karta kostar dig aldrig din låda.
+- Att plocka upp den fungerar som med vilken låda som helst ([ovan](#collecting)): ditt skepp flyger till den, och upplockningen tar en halv sekund.
 
 ## Boosters
 

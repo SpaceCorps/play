@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 사거리 열은 각 레이저의 고유 사거리입니다. **함선은 장착한 레이저 사거리의 평균**(드론에 장착한 레이저도 포함)을 가장 가까운 정수로 반올림한 거리에서 사격하며, 대상이 그 거리 안에 들어오면 모든 레이저가 사격합니다. Starfire-3 한 개와 Quantum Laser 2 두 개를 함께 쓰면 함선의 사거리는 850이 아니라 750이고, Starfire-3 세 개면 850이 유지되며, 레이저가 모두 같으면 달라지는 것이 없습니다. 대장간의 사거리 보너스는 평균을 내기 전에 해당 레이저에 먼저 적용됩니다. 레이저가 없으면 격납고에는 사거리가 표시되지 않고(줄표로 나옵니다) 레이저는 사격할 수 없지만, 로켓은 여전히 각자의 사거리로 발사할 수 있습니다([로켓](/wiki/06-Items/Rockets.md) 참고). 격납고에서는 레이저들의 사거리가 서로 다르면 타일에 “평균 사거리”라고 표시되며, 마우스를 올리면 각 레이저의 사거리가 나열됩니다.
 
 Quantum Laser 1, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯에 Damage Amp나 Crit Amp를 넣어야 치명타 확률이 생깁니다(Penetration Amp는 아닙니다). 치명타는 떠오르는 피해 숫자에서 다른 색으로 표시됩니다(얼음빛 하늘색에 더 크게, “!”가 붙습니다. [피해와 회복 숫자](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers) 참고).
+
+레이저도 [소행성](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)에 피해를 주지만, 일제 사격이 함선에 주는 피해의 5%뿐입니다(증폭기, 부스터, 탄약, 치명타가 반영되고 그다음 소행성의 장갑이 차감되며, Siphon Battery는 소행성에 피해를 줄 수 없습니다). 소행성을 부수는 데 맞는 도구는 로켓입니다.
 
 ### 상위 레이저 3종 제작 {#making-the-top-three-lasers}
 

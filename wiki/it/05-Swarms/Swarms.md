@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -10,7 +10,7 @@ Uno **sciame** è un gruppo di alieni che percorre una parte della galassia sott
 
 Le loro navi sono **alieni di specie a sé**: hanno nomi propri e contatori di abbattimenti propri, e nessuna conta come un Seeker, un Phantasm o un altro alieno. Una nave di sciame ha la forma della nave su cui è costruita, con una tinta tutta sua e il suo nome sopra; il Boss Seeker è un Seeker molto più grande.
 
-I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Custode per l’ultima fase della sua linea giornaliera, e solo quel clan può danneggiarlo: nessun pilota ne incontra uno che si aggira in un settore, e le tabelle qui sotto non li elencano. Vedi [Clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
+I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Custode per l’ultima fase della sua linea giornaliera, e solo quel clan può danneggiarlo: nessun pilota ne incontra uno che si aggira in un settore, e le tabelle qui sotto non li elencano. Un Custode viene pagato in base ai danni, come il capo di uno sciame, ma il suo bottino non è una cassa per chi ha inflitto più danni: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) tutta sua. Vedi [Clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## I tre sciami {#the-three-swarms}
 

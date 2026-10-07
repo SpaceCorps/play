@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Utrusta lasrar direkt i skeppets laserplatser eller i drönare för att öka din
 Kolumnen Räckvidd är varje lasers egen. **Ditt skepp skjuter på medelvärdet av sina lasrars räckvidder** (lasrarna i dina drönare räknas också), avrundat till närmaste enhet, och varje laser avfyras så fort målet är inom det avståndet. En Starfire-3 bredvid två Quantum Laser 2 ger skeppet räckvidden 750, inte 850; tre Starfire-3 behåller 850, och lasrar som alla är lika ändrar ingenting. En räckviddsbonus från Smedjan räknas på sin egen laser innan medelvärdet tas. Utan laser visar hangaren ingen räckvidd (ett streck) och inga lasrar kan skjuta, men dina raketer kan det ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). I hangaren står det ”Medelräckvidd” på rutan där dina lasrar skiljer sig åt, och när du pekar på den listas varje lasers räckvidd.
 
 Quantum Laser 1 och 2 har ingen egen kritisk chans (”–”): en Damage Amp eller en Crit Amp i deras platser ger den (en Penetration Amp gör det inte). Kritiska träffar visas i en annan färg i de flytande skadesiffrorna (isblå, större, med ett ”!”; se [Skade- och läkningssiffror](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+Lasrar skadar också [asteroider](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), men bara med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av; Siphon Battery kan inte skada någon). För att slå sönder dem är raketer rätt verktyg.
 
 ### Tillverkning av de tre översta lasrarna {#making-the-top-three-lasers}
 

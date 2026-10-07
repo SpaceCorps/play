@@ -10,7 +10,8 @@ Destroyed aliens leave their loot in space as glowing cargo crates. Fly over and
 - **Company pilots** leave no crate when they are destroyed, whoever or whatever destroys them. See [Company pilots](/wiki/03-Mechanics/Company-Pilots.md).
 - **Player ships** leave no wreck and no crate when they are destroyed, whoever or whatever destroys them, and nothing is taken from the pilot's inventory.
 - **The black hole** lays crates of **Dark Matter** on the rim of its zone for a N.I.K.E. rocket fired into it (see [The Black Hole](/wiki/03-Mechanics/Black-Hole.md)). They are the one kind of crate that lies inside the hole's ring.
-- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md), the Dormant Pulses and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
+- **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) and the Dormant Pulses** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
+- **A [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lays no such box: every pilot who dealt 5% or more of the damage gets a [private box](#private-boxes) of his own, with his share of the loot.
 - **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)** leave **chunks** instead of one crate: small nuggets and crystals that hold Credits and Thulium, and a stone that holds ore. The Credits and Thulium are paid when you collect a chunk, not when the asteroid breaks, and a limit for every 24 hours applies. A chunk is collected like a crate, and it is reserved for the pilots who earned it and then free, as a crate is.
 
 An alien a company pilot finishes drops its loot for the pilot the kill counts for (the one holding its claim, else the pilot of its company fighting it); one a company pilot fought alone drops nothing, since company pilots never collect.
@@ -35,6 +36,15 @@ The crate's lights take the colour of the rarest item inside: teal for common lo
 - Only a ship on the crate's map can take it: if you are destroyed, jump or log off on the way (or during the half second the pickup takes), the crate stays for the others.
 - If two pilots collect the same crate at once, the one whose pickup finishes first gets it, exactly once; the other is told it is gone.
 - A crate nobody takes drifts away after **3 minutes** (it blinks in its last 10 seconds). A map holds at most 64 crates; when a new one would pass that, the oldest goes. Asteroid chunks have a pool of their own inside the 64: they never push another crate out, and no other crate pushes a chunk out ([the rules](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark Matter crates last 4 minutes, and are yours alone for the first minute.
+
+## Private Boxes
+
+A [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)'s loot is not one crate for one pilot: **every pilot who dealt at least 5% of the damage gets a crate of his own**, rolled for his share (about a fifth of every amount for 20% of the damage; [the details](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Only you see it, and only you can take it.** Your clan and your group do not see it and cannot take it; to everyone else it is simply not there. It shows on your screen with a thin ring under it.
+- **It lies for 10 minutes** from the kill, and the whole time it is yours: there is no 30-second wait. Then it drifts away like any crate. The Game Log tells you your share of the loot when the Warden falls.
+- **It does not push other crates out.** Private boxes have a pool of their own beside the 64 of a map (at most 32), so a Warden's kill never takes the place of another crate, and a full map never costs you your box.
+- Collecting is the same as for any crate ([above](#collecting)): your ship flies to it and the pickup takes half a second.
 
 ## Boosters
 

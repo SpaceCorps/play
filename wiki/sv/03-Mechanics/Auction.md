@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac0edd812a5c4dcb -->
+<!-- wiki-i18n source: d2b36e0a1271e933 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
-Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Liksom Butiken är den en sida på stationen: du använder den dockad, inte i flykt. Den har fyra delar. **Marknad** är det andra piloter säljer. **Lotter** är spelets egna erbjudanden, ett varje timme. **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit.
+Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Liksom Butiken är den en sida på stationen: du använder den dockad, inte i flykt. Den har fyra delar. **Marknad** är det andra piloter säljer. **Lotter** är spelets egna erbjudanden, ett varje timme. **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit, och hur din handel har gått.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -11,7 +11,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 20 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
 - 80 föremål kan läggas ut, och 42 av dem kan även prissättas i Thulium.
-- En annons löper 12 / 24 / 48 / 72 timmar, högst så länge som din nivå tillåter (nivåtabellen nedan).
+- En annons löper 24 / 72 / 168 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 1 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 1,5 %.
 - **Skatten** är 5 % av priset. Den dras av från det säljaren får när annonsen säljs.
@@ -58,7 +58,7 @@ Skepp, drönare, drönarformationer, boosters och prenumerationer kan aldrig sä
 
 ## Sälja {#selling}
 
-Tryck på **Sälj ett föremål** (eller klubban i Hangaren), välj det du har förtjänat, välj krediter eller Thulium, sätt priset för ett parti och hur länge annonsen ska löpa. Bladet visar det lägsta priset, tre knappar som fyller i ett pris (**Minimum**; **Snabbförsäljning**, ett under den billigaste annonsen just nu; och **Rimligt**, priset på den senaste försäljningen) och depositionen, skatten och det du får, innan du lägger ut. En enskild del är ett parti om ett; ammunition och en del resurser säljs i partier om 10 eller 100, och du säljer ett helt antal partier. Det du lägger ut lämnar ditt inventarie och hålls av servern tills det säljs, du avbryter eller det löper ut; då kommer det tillbaka, med sin etikett. Du kan avbryta när som helst, även under säsongens sista dagar. En annons är en ögonblicksbild: för att ändra ett pris avbryter du annonsen och lägger ut den igen (depositionen betalas på nytt).
+Tryck på **Sälj ett föremål** (eller klubban i Hangaren), välj det du har förtjänat (en kategorimeny avgränsar listan, med samma kategorier som Marknaden), välj krediter eller Thulium, sätt priset för ett parti och hur länge annonsen ska löpa: 1, 3 eller 7 dagar. Bladet visar det lägsta priset, tre knappar som fyller i ett pris (**Minimum**; **Snabbförsäljning**, ett under den billigaste annonsen just nu; och **Rimligt**, priset på den senaste försäljningen) och depositionen, skatten och det du får, innan du lägger ut. Under priset visar **Liknande annonser** i ett diagram till vilka priser samma föremål med samma förtrollning är utlagt just nu, i den valuta du har valt: ditt pris är en linje i det, det lägsta priset, den senaste försäljningen och Butikens pris är markerade, en rad i ord säger var ditt pris skulle hamna, och de tre billigaste annonserna visas under. En enskild del är ett parti om ett; ammunition och en del resurser säljs i partier om 10 eller 100, och du säljer ett helt antal partier. Det du lägger ut lämnar ditt inventarie och hålls av servern tills det säljs, du avbryter eller det löper ut; då kommer det tillbaka, med sin etikett. Du kan avbryta när som helst, även under säsongens sista dagar. En annons är en ögonblicksbild: för att ändra ett pris avbryter du annonsen och lägger ut den igen (depositionen betalas på nytt).
 
 Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: be om vad du vill. Tabellen visar det lägsta priset för några föremål.
 
@@ -84,29 +84,29 @@ Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: 
 
 Ett pris i Thulium följer en enda regel: det lägsta priset i krediter delat med kursen, avrundat uppåt. Kursen är inget värde som spelet sätter på Thulium. Den bestämmer bara hur det lägsta priset i Thulium räknas ut, och därför kan en annons i Thulium vara billig för en pilot som har Thulium. De flesta säljare kommer att begära krediter. Billiga föremål (ammunition, raketer, första graden av det mesta av utrustningen och de vanliga resurserna) prissätts bara i krediter, eftersom ett helt Thulium vore ett för stort steg.
 
-Dina **öppna annonser** (och en annons som en admin har pausat) tar upp platser. När du går upp i nivå får du fler platser, en annons får löpa längre och du kan sälja och köpa mer per dygn.
+Dina **öppna annonser** (och en annons som en admin har pausat) tar upp platser. När du går upp i nivå får du fler platser, upp till ett tak, och du kan sälja och köpa mer per dygn. Hur länge en annons får löpa är detsamma på alla nivåer.
 
 <!-- market-limits:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 | Nivå | Öppna annonser | Längsta tid | Per dygn, krediter | Per dygn, Thulium | Deposition per 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 6 | 48 h | 4 500 000 | 22 500 | 1 % |
-| 6 | 8 | 48 h | 6 000 000 | 30 000 | 1 % |
-| 7 | 10 | 48 h | 7 500 000 | 37 500 | 1 % |
-| 8 | 12 | 48 h | 8 500 000 | 42 500 | 1 % |
-| 9 | 14 | 48 h | 10 000 000 | 50 000 | 1 % |
-| 10 | 16 | 72 h | 15 000 000 | 75 000 | 1,5 % |
-| 11 | 18 | 72 h | 15 000 000 | 75 000 | 1,5 % |
-| 12 | 20 | 72 h | 15 000 000 | 75 000 | 1,5 % |
-| 13 | 22 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 14 | 22 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 15 | 24 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 16 | 24 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 17 | 26 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 18 | 26 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 19 | 28 | 72 h | 20 000 000 | 100 000 | 1,5 % |
-| 20 och uppåt | 30 | 72 h | 20 000 000 | 100 000 | 1,5 % |
+| 5 | 20 | 168 h | 4 500 000 | 22 500 | 1 % |
+| 6 | 40 | 168 h | 6 000 000 | 30 000 | 1 % |
+| 7 | 70 | 168 h | 7 500 000 | 37 500 | 1 % |
+| 8 | 100 | 168 h | 8 500 000 | 42 500 | 1 % |
+| 9 | 100 | 168 h | 10 000 000 | 50 000 | 1 % |
+| 10 | 100 | 168 h | 15 000 000 | 75 000 | 1,5 % |
+| 11 | 100 | 168 h | 15 000 000 | 75 000 | 1,5 % |
+| 12 | 100 | 168 h | 15 000 000 | 75 000 | 1,5 % |
+| 13 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 14 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 15 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 16 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 17 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 18 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 19 | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
+| 20 och uppåt | 100 | 168 h | 20 000 000 | 100 000 | 1,5 % |
 
 <!-- market-limits:end -->
 
@@ -121,30 +121,30 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 | :--- | ---: | ---: | ---: | ---: |
 | Quantum Laser 3: nivå 6, 24 h | 170 000 krediter | 1 700 krediter | 8 500 krediter | 161 500 krediter |
 | Quantum Laser 3: nivå 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
-| Helios Beam: nivå 12, 72 h | 2 500 000 krediter | 112 500 krediter | 125 000 krediter | 2 375 000 krediter |
-| Helios Beam: nivå 12, 72 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
+| Helios Beam: nivå 12, 168 h | 2 500 000 krediter | 262 500 krediter | 125 000 krediter | 2 375 000 krediter |
+| Helios Beam: nivå 12, 168 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
 
 <!-- market-fees:end -->
 
 ## Köpa {#buying}
 
-**Marknaden** visar det andra piloter säljer. Sök på namn, filtrera på föremål, förtrollning och valuta, och sortera efter pris, efter det som slutar först eller efter det som är nyast. Välj en annons för att se vad det är, vem som säljer, hur länge den löper och hur priset står sig mot den senaste försäljningen, det lägsta priset just nu och Butikens pris. En hög köps i hela partier. Ett stort köp ber dig bekräfta en gång till. Säljaren får betalt direkt, minus skatten; du betalar varken deposition eller skatt. Det du köper är **inte säljbart**: sidan säger ”Du får: inte säljbart” bredvid **Köp för …**, eftersom bara det du förtjänar kan säljas. Du kan inte köpa din egen annons. En annons som säljs medan du tittar på den säger ”Den annonsen finns inte längre.”
+**Marknaden** visar det andra piloter säljer. Avgränsa listan med **kategoriknapparna** (en för varje sorts föremål, med antalet annonser i den), sök på namn, filtrera på förtrollning och valuta, och sortera efter pris, efter det som slutar först eller efter det som är nyast. Välj en annons för att se vad det är, vem som säljer, hur länge den löper och hur priset står sig mot den senaste försäljningen, det lägsta priset just nu och Butikens pris. En hög köps i hela partier. Ett stort köp ber dig bekräfta en gång till. Säljaren får betalt direkt, minus skatten; du betalar varken deposition eller skatt. Det du köper är **inte säljbart**: sidan säger ”Du får: inte säljbart” bredvid **Köp för …**, eftersom bara det du förtjänar kan säljas. Du kan inte köpa din egen annons. En annons som säljs medan du tittar på den säger ”Den annonsen finns inte längre.”
 
 ## Gränser {#limits}
 
-Varje valuta har sin egen dagliga gräns för hur mycket du kan sälja och hur mycket du kan köpa, räknat över de senaste 24 timmarna, och en gräns för hur mycket som går mellan två piloter, så att ett andra konto inte är något snabbt sätt att flytta en förmögenhet. Krediter och Thulium läggs aldrig ihop: den som säljer för Thulium använder sin Thulium-gräns och inget annat. Hur mycket du har använt av varje gräns ser du i **Historik**. Gränserna växer med nivån, och Premium ändrar ingen av dem. Vunna lotter räknas inte.
+Varje valuta har sin egen dagliga gräns för hur mycket du kan sälja och hur mycket du kan köpa, räknat över de senaste 24 timmarna, och en gräns för hur mycket som går mellan två piloter, så att ett andra konto inte är något snabbt sätt att flytta en förmögenhet. Krediter och Thulium läggs aldrig ihop: den som säljer för Thulium använder sin Thulium-gräns och inget annat. Säljbladet varnar dig när en försäljning skulle gå över din dagliga säljgräns, och när ett köp skulle gå över din dagliga köpgräns säger Marknaden det och låter **Köp för …** vara avstängd. Gränserna växer med nivån, och Premium ändrar ingen av dem. Vunna lotter räknas inte.
 
 Raketer i en annons, i en lott du leder och i ditt lastrum räknas alla in i det största antal av en raket du får bära: med en annons kan du inte bära mer än Butikens hög tillåter.
 
 ## Mina annonser och Historik {#my-listings-and-history}
 
-**Mina annonser** visar dina platser och varje annons med sitt tillstånd (öppen, såld, avbruten, utgången, återlämnad eller pausad), en knapp **Återkalla**, **Lägg ut igen** för en avslutad och en etikett **Underbjuden** när en annan annons på samma föremål begär mindre. En annons som har löpt ut kommer av sig själv tillbaka till ditt inventarie. **Historik** visar vad du har sålt, köpt och vunnit, med skatten, och dina gränser. Spelet sparar Auktionens huvudbok i 90 dagar.
+**Mina annonser** visar dina platser och varje annons med sitt tillstånd (öppen, såld, avbruten, utgången, återlämnad eller pausad), en knapp **Återkalla**, **Lägg ut igen** för en avslutad och en etikett **Underbjuden** när en annan annons på samma föremål begär mindre. En annons som har löpt ut kommer av sig själv tillbaka till ditt inventarie. **Historik** börjar med din handel de senaste 30 dagarna: dina försäljningar och köp, vad du har tjänat och gett ut, avgifterna och skatterna du har betalat, ditt nettoresultat, din bästa försäljning, din genomsnittliga försäljning och det föremål du har handlat mest med, samt två linjediagram: dina intäkter per dag och ditt resultat hittills (för krediter eller för Thulium, en i taget). Under dem kommer listan över vad du har sålt, köpt och vunnit, med skatten. Spelet sparar Auktionens huvudbok i 90 dagar.
 
 Du får veta när något säljs: genom ett meddelande, Auktionens ljud och det nya saldot, och genom en bricka vid Auktionens post så länge sidan är stängd. En följd av försäljningar är ett meddelande. Auktionen har egna dova ljud, ett för varje sak du gör eller som händer dig där (lägga ut, avsluta, en försäljning, ett bud, bli överbjuden, vinna), och de följer gränssnittets volym.
 
 ## Lotterna varje timme {#the-hourly-lots}
 
-Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varje timme, att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket), i Butikens valuta.
+Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varje timme, att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket), i Butikens valuta. En raketlott är aldrig större än det största antal av den raketen du får bära (Butikens hög), så ett bud som skulle ta dig över det avvisas: bjud på en raketlott när du bär få av den raketen.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -153,7 +153,6 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varj
 - Startbudet är 40 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter eller 1 Thulium mer.
 - Ditt bud betalas direkt och hålls kvar. Om någon överbjuder dig kommer det tillbaka direkt.
 - Ett bud under de sista 2 min av en lott flyttar dess slut till 2 min efter budet, högst 5 gånger.
-- Du kan leda 2 lotter samtidigt och vinna 6 lotter på 24 timmar.
 - Det du vinner är till för att flyga, inte för att handla med: det är aldrig säljbart. Det vinnande budet förbränns. En lott som ingen bjuder på säljs inte och kostar ingen något.
 - Hur stor en lott är följer piloterna på nivå 5 eller högre som tittat på auktionen de senaste 3 dagarna: med ingen är den 10 % av storleken i tabellen, med 30 eller fler full storlek, i steg om 500 för ammunition, 50 för raketer och 1 för EMP Charges.
 - Under de sista 6 timmarna av en säsong skapas ingen lott. Wipen avbryter de lotter som fortfarande är öppna, och varje bud går tillbaka.
@@ -165,29 +164,29 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varj
 
 | UTC-timme | Lott | Full storlek | Betalas i | Startbud vid full storlek |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 250 | Thulium | 500 Thulium |
-| 01:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 02:00 | Lancet I | 2 500 | Krediter | 500 000 krediter |
+| 00:00 | Scatter III | 1 250 | Thulium | 2 500 Thulium |
+| 01:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 02:00 | Lancet I | 12 500 | Krediter | 2 500 000 krediter |
 | 03:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 04:00 | Ultra Core | 5 000 | Thulium | 2 000 Thulium |
-| 05:00 | Rivet II | 1 000 | Krediter | 320 000 krediter |
-| 06:00 | Advanced Plasma | 2 000 | Thulium | 400 Thulium |
-| 07:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 08:00 | Ember I | 2 500 | Krediter | 500 000 krediter |
-| 09:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 10:00 | Scatter II | 1 000 | Krediter | 320 000 krediter |
+| 04:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
+| 05:00 | Rivet II | 5 000 | Krediter | 1 600 000 krediter |
+| 06:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
+| 07:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 08:00 | Ember I | 12 500 | Krediter | 2 500 000 krediter |
+| 09:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
+| 10:00 | Scatter II | 5 000 | Krediter | 1 600 000 krediter |
 | 11:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 12:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 13:00 | Lancet III | 250 | Thulium | 500 Thulium |
-| 14:00 | Ultra Core | 2 000 | Thulium | 800 Thulium |
-| 15:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 16:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 17:00 | Rivet I | 2 500 | Krediter | 500 000 krediter |
-| 18:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 19:00 | Ember II | 1 000 | Krediter | 320 000 krediter |
-| 20:00 | Ultra Core | 5 000 | Thulium | 2 000 Thulium |
-| 21:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 22:00 | Advanced Plasma | 2 000 | Thulium | 400 Thulium |
+| 12:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 13:00 | Lancet III | 1 250 | Thulium | 2 500 Thulium |
+| 14:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
+| 15:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 16:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
+| 17:00 | Rivet I | 12 500 | Krediter | 2 500 000 krediter |
+| 18:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 19:00 | Ember II | 5 000 | Krediter | 1 600 000 krediter |
+| 20:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
+| 21:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 22:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
 | 23:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
 
 <!-- market-day:end -->

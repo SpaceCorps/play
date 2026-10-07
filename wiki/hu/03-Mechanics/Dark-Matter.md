@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 1. **Építsd fel a Kutatóközpontot, és kutasd ki a N.I.K.E.-t.** A Központ a Skylab Magjának 10. szintjén nyílik meg ([Kutatás](/wiki/03-Mechanics/Research.md)). A N.I.K.E. technológiája 3 óráig tart, és nem kér Dark Mattert.
 2. **Gyárts N.I.K.E.-ket a Gyártásban.** Egy gyártás 5 rakétát ad 5 perc alatt, 100 000 kreditért, 1 500 Thuliumért, 20 Ship Fragmentért, 4 Reinforced Hull Plate-ért és 40 Cataclysite-ért. 20-at vihetsz magaddal. Lásd: [Rakéták](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Repülj a Veszélyes szektor 4-be (`DS-4`).** Ez a galaxis közepén lévő PvP-szektor, és a feketelyuk minden világban a pontos közepén lebeg ([A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Idegenek és vállalati pilóták sosem mennek a közelébe, más pilóták viszont igen.
-4. **Lőj a feketelyukra a pereméről.** A sugárzás a középponttól 4 000 egységre kezdődik. A N.I.K.E. 4 050 egységet repül, így bárhonnan kilőheted 4 000 és 4 380 egység távolság között. Ha nincs kijelölt célpont, vidd a kurzort a lyukra. 5 másodpercenként lőhetsz ki egy rakétát. Messzebbről rövid marad.
+4. **Lőj a feketelyukra a pereméről.** A sugárzás a középponttól 4 000 egységre kezdődik. A N.I.K.E. 4 050 egységet repül, így bárhonnan kilőheted 4 000 és 4 380 egység távolság között. Ha nincs kijelölt célpont, vidd a kurzort a lyukra. 4,6 másodpercenként lőhetsz ki egy rakétát. Messzebbről rövid marad.
 5. **Szedd fel a ládákat.** Minden N.I.K.E., amely eléri a lyukat, **1, 2 vagy 3 Dark Mattert** ad vissza (az esetek negyedében 1-et, felében 2-t, negyedében 3-at), egy vagy két, legfeljebb 2 darabos ládában. A lyuk zónájának peremén landolnak, a középponttól 3 050–3 950 egységre, a lövésed vonalának közelében. Menj mindegyikhez 200 egységen belülre: a felszedés fél másodpercig tart.
 6. **Vidd haza.** A Dark Matter a leltáradba kerül. Az állomáson, leszállt hajóval hozzáadhatod a Kutatóközponthoz, vagy felhasználhatod a Gyártásban.
 

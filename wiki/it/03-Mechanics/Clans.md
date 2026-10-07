@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5326d0eb87e5eb5c -->
+<!-- wiki-i18n source: 3d121321d2746bbe -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -10,7 +10,8 @@ Fondare un clan o entrare in uno ti permette di mettere in comune le risorse, po
 - Ogni fase completata paga subito punti clan: 15, 15, 20, 20 e 30, cioè **100 punti** per una linea intera.
 - Il Leader e i Co-leader spendono i punti in tre [potenziamenti](#clan-points-and-boosts) di dieci livelli ciascuno: **Danno** (fino a +5%), **Thulium** (fino a +10%) e **Crediti** (fino a +10%).
 - Un clan che completa ogni linea ha comprato ogni livello al **giorno 12 della stagione**. I punti e i livelli ricominciano a ogni reset.
-- Servono almeno **tre membri** che abbiano fatto la loro parte e **circa sette piloti** per lo scontro con il Custode: cinque di solito perdono e dieci vincono con facilità ([quale equipaggio serve](#how-big-a-crew)). Un equipaggio troppo piccolo perde lo scontro: il clan tiene allora i **70 punti** delle quattro missioni, ma la linea non è completata e non paga [la tua ricompensa](#the-reward-for-you).
+- Servono almeno **tre membri** che abbiano fatto la loro parte e **un grande equipaggio** per lo scontro con il Custode: dalla 0.4.13 un Custode ha cinque volte lo scafo, lo scudo e il danno laser che aveva, quindi gli equipaggi che prima vincevano, di circa sette piloti, ora perdono ([quale equipaggio serve](#how-big-a-crew)). Un equipaggio troppo piccolo perde lo scontro: il clan tiene allora i **70 punti** delle quattro missioni, ma la linea non è completata e non paga [la tua ricompensa](#the-reward-for-you).
+- Un Custode paga un grosso montepremi, diviso in base ai danni, e **ogni pilota che ha inflitto il 5% dei danni o più riceve una cassa privata** con la sua parte del bottino, che solo lui vede e solo lui può raccogliere ([ricompensa e bottino](#warden-pay-and-loot)).
 - La tua nave mostra i potenziamenti che ha nella finestra **Booster**, su una scheda a parte ([dove vederli](#the-three-boosts)).
 - La linea e i potenziamenti richiedono un gioco della versione 0.4.10 o successiva; la scheda nella finestra Booster, la 0.4.12 o successiva.
 
@@ -164,7 +165,7 @@ Quando la linea è completata, cioè quando il Custode è distrutto, ogni membro
 
 ## Custodi del clan {#clan-wardens}
 
-Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno degli [sciami](/wiki/05-Swarms/Swarms.md) pubblici che si aggirano in un settore: il tuo clan **lo convoca** e **solo il tuo clan può danneggiarlo**. Tre Custodi si alternano, uno al giorno: giorno 1 **Brood**, giorno 2 **Siege**, giorno 3 **Wrath**, giorno 4 di nuovo Brood, e così via (il giorno 15 è un giorno Wrath). Ognuno esiste in tre potenze, **I, II e III**, stabilite dalla difficoltà del clan. Un Custode è un alieno di un genere a parte, come le navi di uno sciame: non conta come Seeker, Phantasm né altro alieno. I suoi laser colpiscono duro, quindi un Custode è uno scontro per un equipaggio al completo: porta circa sette piloti, perché cinque di solito perdono ([quale equipaggio serve](#how-big-a-crew)).
+Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno degli [sciami](/wiki/05-Swarms/Swarms.md) pubblici che si aggirano in un settore: il tuo clan **lo convoca** e **solo il tuo clan può danneggiarlo**. Tre Custodi si alternano, uno al giorno: giorno 1 **Brood**, giorno 2 **Siege**, giorno 3 **Wrath**, giorno 4 di nuovo Brood, e così via (il giorno 15 è un giorno Wrath). Ognuno esiste in tre potenze, **I, II e III**, stabilite dalla difficoltà del clan. Un Custode è un alieno di un genere a parte, come le navi di uno sciame: non conta come Seeker, Phantasm né altro alieno. Un Custode è molto forte: ha cinque volte lo scafo, lo scudo e il danno laser che aveva prima della 0.4.13, quindi è uno scontro per il più grande equipaggio che il tuo clan riesca a radunare ([quale equipaggio serve](#how-big-a-crew)).
 
 | Custode | Giorni di stagione | Ruolo | Come combatte |
 | :--- | :--- | :--- | :--- |
@@ -185,91 +186,90 @@ Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno
 ### Combattere un Custode {#fighting-a-warden}
 
 - **Un Custode combatte il primo pilota che lo ha colpito**, come ogni boss: lascia cominciare la nave più robusta dell’equipaggio e usa [Shield Surge ed Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Porta circa sette piloti, con munizioni x2** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Cinque di solito perdono e dieci vincono con facilità. La tabella qui sotto è il caso migliore, e anche in esso tre perdono contro ogni Custode e quattro vincono solo contro i Siege Warden I e II. Nella tabella l’equipaggio più piccolo che può vincere ha da 4 a 5 piloti con munizioni x2 e da 6 a 8 con munizioni x1.
-- **Brood:** i droni curano il suo scafo, e un equipaggio che li ignora perde: cinque piloti che sparano solo al Custode cadono tutti quando ne resta in piedi circa la metà, e dieci impiegano circa un quinto di tempo in più. Abbattili per primi: uno muore in un secondo o meno sotto il fuoco di cinque piloti, e il successivo arriva dopo 8 secondi.
+- **Porta il più grande equipaggio possibile, con munizioni x2** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Gli equipaggi che vincevano prima della 0.4.13, di circa sette piloti, ora perdono. La tabella qui sotto è un calcolo e il caso migliore: anche in esso dieci piloti perdono contro ogni Custode, e il più piccolo equipaggio che può vincere ha 18–26 piloti con munizioni x2 e 28–39 con munizioni x1.
+- **Brood:** i droni curano il suo scafo, e un equipaggio che li ignora perde, anche se è grande. Abbattili per primi e continua ad abbatterli: ne arriva uno nuovo dopo 8 secondi.
 - **Siege:** i suoi razzi sono dritti e non guidati, quindi una nave che continua a muoversi ne schiva la maggior parte. Non fermarti e fate a turno da bersaglio.
 - **Wrath:** quando il suo scafo scende sotto la metà, ogni raffica colpisce una volta e mezza più forte, quindi la seconda metà dello scontro è quella pericolosa. Abbatti in fretta la prima metà, tieni alti gli scudi e conserva Emergency Repair per la furia.
 
 ### Quale equipaggio serve {#how-big-a-crew}
 
 > [!NOTE]
-> Questi tempi sono **calcolati** dai numeri qui sotto, non misurati in gioco. L’equipaggio ha le navi e l’equipaggiamento per cui è pensata la difficoltà, e la tabella è il suo **caso migliore**: ogni pilota usa Shield Surge ed Emergency Repair appena sono pronti, e l’equipaggio spara prima agli aiutanti del Custode quando è meglio. Il Custode e i suoi aiutanti sparano tutti al pilota che ha colpito per primo e nessuno schiva. **Uno scontro vero è più duro della tabella.** La riga dei cinque piloti è risicata anche nel caso migliore (una vittoria che costa una o due navi), e negli stessi scontri svolti nel gioco vero e proprio, con piloti guidati da script, cinque piloti hanno perso la maggior parte degli scontri che abbiamo fatto, anche usando entrambe le abilità; sette li hanno vinti tutti e dieci hanno vinto con facilità. Un equipaggio di cinque piloti che non usa nessuna abilità e spara solo al Custode perde contro sette dei nove Custodi; sette piloti che fanno lo stesso ne battono otto (tutti tranne il Brood Warden III, che i suoi droni curano) e perdono da una a tre navi, e dieci li battono tutti e nove.
+> Dalla 0.4.13 ogni Custode e ogni aiutante ha **cinque volte** lo scafo, lo scudo, il danno laser, l’autoriparazione e la cura che aveva nella 0.4.12 (velocità, portata e numero di aiutanti sono gli stessi). Ci vuole cinque volte più tempo per abbatterlo e per tutto quel tempo colpisce cinque volte più forte, quindi gli equipaggi che prima vincevano ora perdono. **Non abbiamo ancora combattuto i nuovi Custodi nel gioco: i tempi qui sotto sono calcolati, non misurati.** Mostrano il **caso migliore** dell’equipaggio: l’equipaggio è nelle navi e nell’equipaggiamento per cui è fatta la difficoltà, ogni pilota usa Shield Surge ed Emergency Repair non appena sono pronte, l’equipaggio spara prima agli aiutanti del Custode quando è meglio, il Custode e i suoi aiutanti sparano tutti al pilota che ha colpito per primo e nessuno schiva. Nella 0.4.12 lo stesso calcolo era più ottimista degli scontri fatti nel gioco stesso con piloti automatici, quindi uno scontro vero può essere più duro della tabella e un buon equipaggio può fare meglio: prendila come una guida, non come una promessa.
 
-La tabella è il caso migliore, con munizioni x2; in gioco cinque piloti di solito perdono e circa sette vincono.
+La tabella è il caso migliore; in gioco, porta più gente che puoi.
 
 | Equipaggio | Con munizioni x2 | Con munizioni x1 |
 | :--- | :--- | :--- |
-| 3 piloti | perdono contro ogni Custode, dopo 4,7–13,8 minuti; il Custode conserva tra un quarto e due terzi di scafo e scudo | perdono |
-| 4 piloti | vincono solo contro i Siege Warden I e II, in circa 8 minuti, perdendo 1 nave | perdono |
-| 5 piloti | vincono contro ogni Custode in 5,3–6,5 minuti, perdendo da 1 a 2 navi | perdono |
-| 7 piloti | vincono contro ogni Custode in 3,3–3,6 minuti, perdendo da 0 a 1 navi | vincono contro ogni Custode tranne i Brood Warden II e III, in 8,7–12,3 minuti, perdendo da 1 a 4 navi |
-| 10 piloti | vincono contro ogni Custode in 2,2–2,4 minuti, perdendo da 0 a 1 navi | vincono contro ogni Custode in 5,1–5,6 minuti, perdendo da 1 a 2 navi |
+| 5 piloti | perdono contro ogni Custode; il Custode conserva l’88–96% di scafo e scudo | perdono |
+| 10 piloti | perdono contro ogni Custode; il Custode conserva il 55–87% di scafo e scudo | perdono |
+| 20 piloti | vincono solo contro i Siege Warden I e II, in 8,5–8,6 minuti, perdendo 7 navi | perdono |
+| 30 piloti | vincono contro ogni Custode in 4,5–5,1 minuti, perdendo da 3 a 11 navi | vincono solo contro i Siege Warden I e II, in 12,6–12,8 minuti, perdendo 10 navi |
 
-Nel caso migliore l’equipaggio più piccolo che vince con munizioni x2 ha da **4 piloti** (contro i Siege Warden I e II) a **5** (contro gli altri sette) e perde da **1 a 2** navi nel farlo; con munizioni x1 ha da **6 a 8** piloti e ne perde da 2 a 4. Un equipaggio di **sette** vince contro ogni Custode con munizioni x2 e nel caso migliore perde al massimo una nave. I laser di un Custode colpiscono con decine di danni a raffica, fino a oltre cento, in potenza I (da 48 a 129) e con migliaia in potenza III (da 1.845 a 3.090), e i suoi aiutanti si sommano: la nave contro cui combatte cade tra un minuto e mezzo e quattro minuti, poi passa alla successiva, quindi anche un equipaggio che vince perde delle navi.
+Nel calcolo il più piccolo equipaggio che vince con munizioni x2 ha **18–26 piloti** (il minimo contro i Siege Warden I e II) e perde **9–17** navi nel farlo; con munizioni x1 ha **28–39** piloti e ne perde 13–27. I laser di un Custode colpiscono con centinaia a raffica alla potenza I (240–645) e con migliaia alla potenza III (9.225–15.450), e i suoi aiutanti si sommano: la nave contro cui combatte cade in 19–59 secondi, poi si volta contro la successiva, quindi anche un equipaggio che vince perde molte navi.
 
-La tabella vale per un equipaggio con l’equipaggiamento della difficoltà propria del Custode. Navi più deboli fanno peggio: dieci piloti con equipaggiamento da Recluta non possono uccidere un Custode Veterano, né dieci da Veterano un Custode Élite. Il Custode del **tuo** clan corrisponde sempre alla **tua** difficoltà, che fissano i cinque migliori piloti del clan, quindi portali.
+La tabella vale per un equipaggio con l’equipaggiamento della difficoltà propria del Custode. Navi più deboli fanno peggio. Il Custode del **tuo** clan corrisponde sempre alla **tua** difficoltà, che fissano i cinque migliori piloti del clan, quindi portali.
 
-**Un clan troppo piccolo per il suo Custode** (meno di circa sette piloti quel giorno) non resta escluso. Le quattro missioni pagano i loro **70 punti** qualunque cosa succeda al Custode, i punti comprano potenziamenti e il clan può richiamare il Custode se gli resta una convocazione (sono due al giorno): se l’equipaggio cade e resta lontano, il Custode si ritira, il che costa una convocazione, e la chiamata successiva lo riporta a piena potenza. Ma la linea non è completata, quindi nessuno riceve [la tua ricompensa](#the-reward-for-you), e un clan che non uccide mai il suo Custode ha tutti i 30 livelli di potenziamento al più presto il giorno di stagione 18, non il giorno 12 ([quanto ci vuole](#how-long-it-takes)).
+**Un clan troppo piccolo per il suo Custode** non resta escluso. Le quattro missioni pagano i loro **70 punti** qualunque cosa succeda al Custode, i punti comprano potenziamenti e il clan può richiamare il Custode se gli resta una convocazione (sono due al giorno): se l’equipaggio cade e resta lontano, il Custode si ritira, il che costa una convocazione, e la chiamata successiva lo riporta a piena potenza. Ma la linea non è completata, quindi nessuno riceve [la tua ricompensa](#the-reward-for-you), e un clan che non uccide mai il suo Custode ha tutti i 30 livelli di potenziamento al più presto il giorno di stagione 18, non il giorno 12 ([quanto ci vuole](#how-long-it-takes)).
 
 ### I numeri dei Custodi {#warden-numbers}
 
-I Custodi hanno gli stessi numeri in ogni mondo (quelli di Alpha), e così la loro ricompensa. Ogni drone, scorta o guardia ha i numeri della seconda tabella, e restano accanto al Custode: un Brood Drone cura lo scafo del Custode, una Siege Escort o una Wrath Guard spara con i laser. Una raffica sono i colpi di tutti i laser di una nave in un secondo, estratti tra l’80 e il 100% del numero mostrato; un Wrath Warden sotto metà dello scafo colpisce una volta e mezza più forte. Il Custode e i suoi aiutanti sparano tutti al pilota contro cui combatte il Custode, quindi le loro raffiche si sommano: un Brood Warden III con i suoi quattro droni mette fino a 4.350 al secondo su una sola nave. Il [razzo Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) del Siege Warden non è estratto a sorte: colpisce con al massimo **2.500** in potenza I, **5.000** in potenza II e **7.500** in potenza III, mentre il Rivet di un pilota è estratto tra un numero minimo e uno massimo. Va dritto, quindi una nave che continua a muoversi viene mancata.
+I Custodi hanno gli stessi numeri in ogni mondo (quelli di Alpha), e così la loro ricompensa. Ogni drone, scorta o guardia ha i numeri della seconda tabella, e restano accanto al Custode: un Brood Drone cura lo scafo del Custode, una Siege Escort o una Wrath Guard spara con i laser. Una raffica sono i colpi di tutti i laser di una nave in un secondo, estratti tra l’80 e il 100% del numero mostrato; un Wrath Warden sotto metà dello scafo colpisce una volta e mezza più forte. Il Custode e i suoi aiutanti sparano tutti al pilota contro cui combatte il Custode, quindi le loro raffiche si sommano: un Brood Warden III con i suoi quattro droni mette fino a 21.750 al secondo su una sola nave. Il [razzo Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) del Siege Warden non è estratto a sorte: colpisce con al massimo **2.500** in potenza I, **5.000** in potenza II e **7.500** in potenza III, mentre il Rivet di un pilota è estratto tra un numero minimo e uno massimo. Va dritto, quindi una nave che continua a muoversi viene mancata.
 
 | Custode | Scafo | Scudo | Danno dei laser (una raffica al secondo) | Velocità | Portata dei laser | Si ripara da solo (scafo al secondo) | Razzo e secondi tra i colpi |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 166.000 | 136.000 | 129 | 90 | 600 | – | – |
-| Brood Warden II | 288.000 | 236.000 | 777 | 90 | 700 | – | – |
-| Brood Warden III | 1.060.000 | 870.000 | 3.090 | 90 | 800 | – | – |
-| Siege Warden I | 143.000 | 117.000 | 48 | 110 | 600 | 215 | Rivet I: 24 |
-| Siege Warden II | 248.000 | 203.000 | 291 | 110 | 700 | 375 | Rivet II: 12 |
-| Siege Warden III | 915.000 | 745.000 | 1.845 | 110 | 800 | 1.385 | Rivet III: 8 |
-| Wrath Warden I | 163.000 | 133.000 | 96 | 90 | 700 | 215 | – |
-| Wrath Warden II | 282.000 | 231.000 | 582 | 90 | 800 | 375 | – |
-| Wrath Warden III | 1.040.000 | 850.000 | 2.460 | 90 | 900 | 1.385 | – |
+| Brood Warden I | 830.000 | 680.000 | 645 | 90 | 600 | – | – |
+| Brood Warden II | 1.440.000 | 1.180.000 | 3.885 | 90 | 700 | – | – |
+| Brood Warden III | 5.300.000 | 4.350.000 | 15.450 | 90 | 800 | – | – |
+| Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Rivet I: 24 |
+| Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Rivet II: 12 |
+| Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Rivet III: 8 |
+| Wrath Warden I | 815.000 | 665.000 | 480 | 90 | 700 | 1.075 | – |
+| Wrath Warden II | 1.410.000 | 1.155.000 | 2.910 | 90 | 800 | 1.875 | – |
+| Wrath Warden III | 5.200.000 | 4.250.000 | 12.300 | 90 | 900 | 6.925 | – |
 
 | Aiutante | Quanti | Scafo | Scudo | Danno dei laser (una raffica al secondo) | Velocità | Cura il Custode (scafo al secondo) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 700 | 500 | 12 | 170 | 120 |
-| Brood Drone II | 4 | 1.200 | 900 | 78 | 170 | 210 |
-| Brood Drone III | 4 | 4.000 | 3.500 | 315 | 170 | 770 |
-| Siege Escort I | 2 | 4.300 | 3.500 | 6 | 175 | – |
-| Siege Escort II | 2 | 7.400 | 6.100 | 45 | 175 | – |
-| Siege Escort III | 2 | 27.500 | 22.500 | 285 | 175 | – |
-| Wrath Guard I | 2 | 4.900 | 4.000 | 18 | 180 | – |
-| Wrath Guard II | 2 | 8.500 | 6.900 | 117 | 180 | – |
-| Wrath Guard III | 2 | 31.000 | 25.500 | 495 | 180 | – |
+| Brood Drone I | 4 | 3.500 | 2.500 | 60 | 170 | 600 |
+| Brood Drone II | 4 | 6.000 | 4.500 | 390 | 170 | 1.050 |
+| Brood Drone III | 4 | 20.000 | 17.500 | 1.575 | 170 | 3.850 |
+| Siege Escort I | 2 | 21.500 | 17.500 | 30 | 175 | – |
+| Siege Escort II | 2 | 37.000 | 30.500 | 225 | 175 | – |
+| Siege Escort III | 2 | 137.500 | 112.500 | 1.425 | 175 | – |
+| Wrath Guard I | 2 | 24.500 | 20.000 | 90 | 180 | – |
+| Wrath Guard II | 2 | 42.500 | 34.500 | 585 | 180 | – |
+| Wrath Guard III | 2 | 155.000 | 127.500 | 2.475 | 180 | – |
 
 ### Ricompensa e bottino {#warden-pay-and-loot}
 
-Un Custode paga quanto una pila dell’alieno pesante della difficoltà: **30 Phantasm** per un Custode I, **24 Bulwark** per un II e **16 Goombah** per un III. È un unico montepremi, diviso in base ai danni tra i piloti che hanno inflitto almeno il 5% dei danni, come per il capo di uno [sciame](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). I tuoi [potenziamenti del clan](#what-the-boosts-apply-to) valgono per la tua parte. Secondo i nostri calcoli i crediti coprono più o meno le munizioni x1 che brucia l’equipaggio più piccolo che può vincere, e le munizioni x2 costano più Thulium di quanto ne paghi il Custode: è uno scontro per i punti e per la cassa. La ricompensa non è cambiata nella 0.4.12, quando i laser dei Custodi sono diventati più forti: la somma non cresce con il danno che subisci né con le navi che perdi.
+Un Custode paga dieci volte quanto paga una pila dell’alieno pesante della difficoltà: **300 Phantasm** per un Custode I, **240 Bulwark** per un II e **160 Goombah** per un III. È un unico montepremi, diviso in base ai danni tra i piloti che hanno inflitto almeno il 5% dei danni, come per il capo di uno [sciame](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). I tuoi [potenziamenti del clan](#what-the-boosts-apply-to) valgono per la tua parte. La somma non cresce con il danno che subisci, le munizioni che bruci o le navi che perdi.
 
 | Potenza del Custode | Crediti | Thulium | Esperienza (XP) | Onore |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 90.000 | 360 | 9.000 | 180 |
-| II | 120.000 | 600 | 19.200 | 240 |
-| III | 240.000 | 1.200 | 48.000 | 384 |
+| I | 900.000 | 3.600 | 90.000 | 1.800 |
+| II | 1.200.000 | 6.000 | 192.000 | 2.400 |
+| III | 2.400.000 | 12.000 | 480.000 | 3.840 |
 
-Il Custode lascia **una cassa** per il pilota che ha inflitto più danni; è sua e del suo clan per 30 secondi ([Carico](/wiki/03-Mechanics/Cargo.md)). Una probabilità tra parentesi vale per ciascuno dei tiri indicati: (5 × 50%) sono cinque tiri con il 50% di probabilità ciascuno.
+**Ogni pilota pagato riceve una cassa tutta sua** sui resti, con la sua parte del bottino. La tabella elenca ciò che estrae l’intero abbattimento, e un pilota che ha inflitto il 20% dei danni estrae circa un quinto di ogni quantità: una parte è arrotondata a caso, quindi la media è esatta e una piccola parte ottiene comunque a volte una riga rara. **Solo tu vedi la tua cassa e solo tu puoi raccoglierla**, non il tuo clan né il tuo gruppo, e resta lì per **10 minuti**, senza l’attesa di 30 secondi ([casse private](/wiki/03-Mechanics/Cargo.md#private-boxes)). In un [gruppo](/wiki/03-Mechanics/Groups.md#sharing-kills) i membri contano come un solo pilota per il 5%, e la sua parte si divide come si divide ogni abbattimento in un gruppo (i compagni vicini che stanno sparando, in base al livello): ogni compagno che riceve una parte ottiene una cassa privata di quella parte. Il Registro di gioco ti dice la tua parte. Un pilota che ha inflitto meno del 5% non viene pagato e per lui non viene deposta nessuna cassa; il Registro di gioco glielo dice. Una probabilità tra parentesi vale per ciascuno dei tiri indicati: (5 × 50%) sono cinque tiri con il 50% di probabilità ciascuno.
 
 | Custode | Oggetto | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 3–5 | 8–12 | 15–25 |
-| Brood Warden | Advanced Plasma | 100–200 | 300–600 | – |
-| Brood Warden | Daraxium | 1–2 (5 × 50%) | – | – |
-| Brood Warden | Nyxite | – | 2–4 (5 × 50%) | – |
-| Brood Warden | Ultra Core | – | – | 300–500 |
-| Brood Warden | Quorvium | – | – | 5–10 (60%) |
-| Siege Warden | Ship Fragment | 2–4 | 6–10 | 12–20 |
-| Siege Warden | Siphon Battery | 100–200 | 300–500 | 800–1.200 |
-| Siege Warden | Razzo acquistabile con i crediti (un tipo, a caso) | 2–3 | 5–8 | 8–12 |
-| Siege Warden | Reinforced Hull Plate | – | 1 (30%) | – |
-| Siege Warden | Razzo epico (un tipo, a caso) | – | – | 1–2 (50%) |
-| Wrath Warden | Ship Fragment | 4–6 | 8–12 | – |
-| Wrath Warden | Cataclysite | 3–5 | 5–10 | – |
-| Wrath Warden | Reinforced Hull Plate | 1 (25%) | 1 (50%) | 1–2 (70%) |
-| Wrath Warden | Power Core | – | 1 (15%) | 1 (35%) |
-| Wrath Warden | Quorvium | – | – | 5–10 (70%) |
-| Wrath Warden | Ancient Control Unit | – | – | 1 (8%) |
+| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
+| Brood Warden | Advanced Plasma | 2.000–4.000 | 6.000–12.000 | – |
+| Brood Warden | Daraxium | 10–20 (5 × 50%) | – | – |
+| Brood Warden | Nyxite | – | 20–40 (5 × 50%) | – |
+| Brood Warden | Ultra Core | – | – | 6.000–10.000 |
+| Brood Warden | Quorvium | – | – | 50–100 (60%) |
+| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
+| Siege Warden | Siphon Battery | 2.000–4.000 | 6.000–10.000 | 16.000–24.000 |
+| Siege Warden | Razzo acquistabile con i crediti (un tipo, a caso) | 20–30 | 50–80 | 80–120 |
+| Siege Warden | Reinforced Hull Plate | – | 10 (30%) | – |
+| Siege Warden | Razzo epico (un tipo, a caso) | – | – | 10–20 (50%) |
+| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
+| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
+| Wrath Warden | Reinforced Hull Plate | 10 (25%) | 10 (50%) | 10–20 (70%) |
+| Wrath Warden | Power Core | – | 10 (15%) | 10 (35%) |
+| Wrath Warden | Quorvium | – | – | 50–100 (70%) |
+| Wrath Warden | Ancient Control Unit | – | – | 10 (8%) |
 
 Un Custode viene contato con il proprio nome nelle tue statistiche degli abbattimenti e aggiunge punti PvE al tuo [grado](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **da 13 a 35** per il capo, secondo il Custode e la sua forza (un Custode III vale di più), e **da 1 a 6** per ogni aiutante, di più per un equipaggio più forte.
 

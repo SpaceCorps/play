@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -37,7 +37,7 @@ Cada uno recibe una parte proporcional a su **nivel**, sea cual sea su corporaci
 
 El aviso del derribo lo indica: la línea de **RECOMPENSAS** del propio piloto que derriba muestra su parte, seguida de «Recompensas compartidas con 2 compañeros de grupo: tu parte es el 40%.», y un compañero al que se paga una parte lee «*Alienígena* fue derribado por *piloto*; la parte de tu grupo te lo abona» con las cantidades. Los avisos aparecen en el Registro de juego.
 
-Lo que sigue siendo solo del que derriba: la **caja de carga** (botín y recursos), el derribo en sus estadísticas y su clasificación, el recuento de derribos de los puntos de reinicio y la experiencia de los drones. Los derribos de otros pilotos no se reparten.
+Lo que sigue siendo solo del que derriba: la **caja de carga** (botín y recursos; la excepción es un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), cuyo botín es una caja privada para cada compañero que cobra una parte), el derribo en sus estadísticas y su clasificación, el recuento de derribos de los puntos de reinicio y la experiencia de los drones. Los derribos de otros pilotos no se reparten.
 
 ## Reparto de misiones {#sharing-missions}
 

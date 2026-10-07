@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -10,7 +10,7 @@ Um **enxame** é um grupo de alienígenas que percorre uma parte da galáxia sob
 
 As naves deles são **alienígenas de tipos próprios**: têm nomes próprios e contagens de abates próprias, e nenhuma conta como um Seeker, um Phantasm ou qualquer outro alienígena. Uma nave de enxame tem a forma da nave em que se baseia, com uma tonalidade própria e o nome por cima; o Boss Seeker é um Seeker bem maior.
 
-Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu próprio Guardião para a última etapa da sua linha diária, e só esse clã pode feri-lo: nenhum piloto encontra um deles vagando por um setor, e as tabelas abaixo não os listam. Veja [Clãs](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu próprio Guardião para a última etapa da sua linha diária, e só esse clã pode feri-lo: nenhum piloto encontra um deles vagando por um setor, e as tabelas abaixo não os listam. Um Guardião é pago por dano, como o chefe de um enxame, mas o saque dele não é uma caixa para quem causou mais dano: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) só dele. Veja [Clãs](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Os três enxames {#the-three-swarms}
 

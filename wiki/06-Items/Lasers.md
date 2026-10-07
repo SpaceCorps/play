@@ -59,6 +59,8 @@ The Range column is each laser's own. **Your ship fires at the average of the ra
 
 The Quantum Laser 1 and 2 have no critical chance of their own ("–"): a Damage Amp or a Crit Amp in their slots brings it (a Penetration Amp does not). Critical hits show in a different colour in the floating damage numbers (ice cyan, larger, with a "!"; see [Damage and Heal Numbers](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
 
+Lasers hurt [asteroids](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) too, but only at 5% of what a volley does to a ship (your amps, boosters, ammo and critical hits count, then the asteroid's armour comes off; the Siphon Battery cannot hurt one). Rockets are the tool for breaking them.
+
 ### Making the top three lasers
 
 The **Quantum Laser 3**, the **Starfire-3** and the **Helios Beam** are made only in **Assembly**. The Quantum Laser 3 is no longer sold in the Shop; a pilot who already owns one keeps it. Each recipe asks for plates from the [Skylab's](/wiki/03-Mechanics/Skylab.md) Forgery, and the Helios Beam for 3 Dark Matter Plates as well:

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a44ddf47d42a20f6 -->
+<!-- wiki-i18n source: 1c4c10c32d15f6ea -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -74,9 +74,9 @@ A SpaceCorps testreszabható billentyűkiosztást támogat (a játékon belüli 
 | :--- | :--- | :--- |
 | **Hajó mozgatása** | `Left Click` az űrtérképen | A hajódat a kattintott célkoordinátákhoz irányítja. |
 | **A kamera forgatása és nagyítása** | `Right Drag`, `Mouse Wheel` | A jobb húzás a hajód körül forgatja a nézetet; a görgő (vagy a középső húzás) nagyít és kicsinyít, 30 egység távolságtól 1 500-ig, ami nagyjából 4 400 × 2 650 egységnyi teret mutat (egy 1 000 egységes nézet területének 2,25-szöröse). A forgatás és a nagyítás két másodperccel az elengedés után visszasimul a nyugalmi nézetbe, hacsak nem kapcsolod be a Beállítások › Általános lapon a következő kapcsolót: **A kamera ott marad, ahol hagyom**. Ekkor a nézet megtartja a megadott szöget és távolságot (a kapcsoló melletti **Nézet visszaállítása** gomb egyszer visszaállítja a nyugalmi nézetet, és a kapcsoló kikapcsolása is ezt teszi). A Beállítások › Általános lap **Kamerazoom** beállítása adja meg a nyugalmi távolságot 50% és 338% között (az alapértelmezett 150%); bekapcsolt kapcsolónál az érték módosítása az új távolságra viszi a kamerát. |
-| **Célpont kijelölése** | `Left Click` egy entitáson | Idegent, ellenséges pilótát vagy portált jelöl ki aktív célpontként. A Célpontablak (lásd alább) mutatja a nevét, a távolságát, a hajótestét és a pajzsát. Egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kattintva kijelölöd, a célpontod megváltoztatása nélkül: csak a rakéták sebzik. |
-| **Kijelölt célpont támadása** | `Key A` (vagy `Ctrl + Click`) | Elindítja a tüzelést a lézereiddel és a rakétáiddal a kijelölt célpontra. |
-| **Rakétakilövés** | `Key R` | Kilövi az utoljára indított rakétát (vagy a gyorssáv elsőjét): az irányított rakéta a kijelölt célpontra megy, az egyenes a kurzor felé. Egyenes rakéta egérrel való célzásához kattints a gyorssávon a helyére, hogy élesítsd, majd kattints az űrbe. Minden rakéta közös, 5 másodperces időzítőt használ (egy drónformáció megváltoztathatja). |
+| **Célpont kijelölése** | `Left Click` egy entitáson | Idegent, ellenséges pilótát vagy portált jelöl ki aktív célpontként. A Célpontablak (lásd alább) mutatja a nevét, a távolságát, a hajótestét és a pajzsát. Egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kattintva kijelölöd, a célpontod megváltoztatása nélkül; a rakéták szétlövik, a lézereid pedig egy kicsit sebzik. |
+| **Kijelölt célpont támadása** | `Key A` (vagy `Ctrl + Click`) | Elindítja a tüzelést a lézereiddel és a rakétáiddal a kijelölt célpontra. Ha nincs hajó vagy idegen kijelölve, a lézereiddel a kijelölt [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) tüzel. |
+| **Rakétakilövés** | `Key R` | Kilövi az utoljára indított rakétát (vagy a gyorssáv elsőjét): az irányított rakéta a kijelölt célpontra megy, az egyenes a kurzor felé. Egyenes rakéta egérrel való célzásához kattints a gyorssávon a helyére, hogy élesítsd, majd kattints az űrbe. Minden rakéta közös, 3 másodperces időzítőt használ (egy drónformáció megváltoztathatja). |
 | **Ugrás a portálon át** | `Key J` | Ugrást indít, ha egy portáltól 500 egységen belül vagy (a biztonságos zónáján belül). Az ugrás 3 másodpercig tart (a gyorssáv felett egy sáv mutatja), és a végéig hatótávon belül kell maradnod. A veszélyes szektorokban nem indíthatsz ugrást, amíg támadás alatt állsz. |
 | **Konfiguráció váltása** | `Key C` | Vált a Konfig 1 és a Konfig 2 között (az aktív lézerek/pajzsok/sebesség összeállítását cseréli). |
 | **Elsődleges gyorssáv** | `Digits 1 - 9` | A HUD elsődleges gyorssávjának adott helyén lévő tárgyakat/műveleteket aktiválja (pl. lőszer, javítórobotok). |
@@ -89,7 +89,7 @@ A SpaceCorps testreszabható billentyűkiosztást támogat (a játékon belüli 
 
 ## A Célpontablak {#the-target-window}
 
-Kattints egy idegenre vagy egy pilótára, és a **Célpontablak** megmutatja, mit jelöltél ki: a nevét, a távolságát, a hajótest- és pajzssávokat, és hogy tüzelsz-e rá. A **célkereszt** gombja elindítja és leállítja a támadást (ugyanaz, mint az `A`), az **X** gomb pedig elejti a célpontot (ugyanaz, mint az `Esc`). Ha nincs semmi kijelölve, egy sorban jelzi ezt. Kattints egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is), és az ablak megmutatja a hajótestét, mit hagy hátra, és hány darab kell belőle a rakétádból.
+Kattints egy idegenre vagy egy pilótára, és a **Célpontablak** megmutatja, mit jelöltél ki: a nevét, a távolságát, a hajótest- és pajzssávokat, és hogy tüzelsz-e rá. A **célkereszt** gombja elindítja és leállítja a támadást (ugyanaz, mint az `A`), az **X** gomb pedig elejti a célpontot (ugyanaz, mint az `Esc`). Ha nincs semmi kijelölve, egy sorban jelzi ezt. Kattints egy [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md#what-an-asteroid-is), és az ablak megmutatja a hajótestét, mit hagy hátra, és hány darab kell belőle a rakétádból, illetve hány sortűz a lézereidből.
 
 Ugyanolyan ablak, mint a többi. Húzd a címsoránál fogva bárhová, zárd be a sarkában lévő piros lámpával vagy az **eszköztár bal felső sarkában lévő első gombbal** (vagy a `V` billentyűvel), és ugyanígy nyisd meg újra. Azt, hogy hová teszed, és hogy nyitva van-e, a fiókod megjegyzi. A képernyő tetején indul, a két eszköztár között. A bezárás csak az adatkijelzést rejti el: a célpontod kijelölve marad, és a támadásod folytatódik.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -10,7 +10,7 @@ En **svärm** är en grupp utomjordingar som drar runt i en del av galaxen under
 
 Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskjutningsräknare, och inget av dem räknas som en Seeker, en Phantasm eller någon annan utomjording. Ett svärmskepp har formen av skeppet det bygger på, i en egen nyans och med sitt namn ovanför; Boss Seeker är en mycket större Seeker.
 
-**Klanväktarna** är inga publika svärmar. En klan kallar fram sin egen väktare för sista steget i sin dagslinje, och bara den klanen kan skada den: ingen pilot möter en som ströftar omkring i en sektor, och tabellerna nedan listar dem inte. Se [Klaner](/wiki/03-Mechanics/Clans.md#clan-wardens).
+**Klanväktarna** är inga publika svärmar. En klan kallar fram sin egen väktare för sista steget i sin dagslinje, och bara den klanen kan skada den: ingen pilot möter en som ströftar omkring i en sektor, och tabellerna nedan listar dem inte. En väktare betalas efter skada, som en svärmboss, men dess byte är inte en låda åt den som gjorde mest skada: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](/wiki/03-Mechanics/Cargo.md#private-boxes). Se [Klaner](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## De tre svärmarna {#the-three-swarms}
 

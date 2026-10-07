@@ -6,7 +6,7 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.12"
+version: "0.4.13"
 date: "2026-10-07"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
@@ -14,29 +14,29 @@ platforms:
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 136200933
-    sha256: "6f2142d89397fccb040f9003c71eacf70140f85f35c9c9cb1f94239be2c5a8c4"
+    size: 136488825
+    sha256: "fc8dc6f0c5b3869ae25593085c759eb941272aa7635964206b85718512b5ec0f"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 130353150
-    sha256: "5aea120f56a4517cf929673f629616a731bf556bfa891fa071e5f49b3fe314b9"
+    size: 130462225
+    sha256: "776d293512ae7ae8d56551d26e5e28461a34472f130a99fb850d575ea3285fcc"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 125966840
-    sha256: "b16bab1e994d7cd9d13118d094daee9a37f9cbddcf2679624c69420ac6c57072"
+    size: 126073336
+    sha256: "0fa91346f79632e7976a66a992f4704925de8dd37b84cac81e42184e7898d8b4"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 131175501
-    sha256: "3efd86048f92c35b216c10af276304dadd8a697d7dc9d473e9eda3ae05612fce"
+    size: 131279772
+    sha256: "37a112ac30d66cb3e0c44c99684e03fea89f06c84902b53bc21e1e48d1ad1a63"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.12)
+## Downloads (Version 0.4.13)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (136.2 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `6f2142d89397fccb040f9003c71eacf70140f85f35c9c9cb1f94239be2c5a8c4` |
-| **Windows** | x86_64 | `.zip` (130.4 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `5aea120f56a4517cf929673f629616a731bf556bfa891fa071e5f49b3fe314b9` |
-| **Linux** | x86_64 | `.AppImage` (126.0 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `b16bab1e994d7cd9d13118d094daee9a37f9cbddcf2679624c69420ac6c57072` |
-| **Linux** | x86_64 | `.tar.gz` (131.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `3efd86048f92c35b216c10af276304dadd8a697d7dc9d473e9eda3ae05612fce` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (136.5 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `fc8dc6f0c5b3869ae25593085c759eb941272aa7635964206b85718512b5ec0f` |
+| **Windows** | x86_64 | `.zip` (130.5 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `776d293512ae7ae8d56551d26e5e28461a34472f130a99fb850d575ea3285fcc` |
+| **Linux** | x86_64 | `.AppImage` (126.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `0fa91346f79632e7976a66a992f4704925de8dd37b84cac81e42184e7898d8b4` |
+| **Linux** | x86_64 | `.tar.gz` (131.3 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `37a112ac30d66cb3e0c44c99684e03fea89f06c84902b53bc21e1e48d1ad1a63` |
 <!-- /release:downloads -->
 
 ---
@@ -72,249 +72,115 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.12 · 2026-10-07
+### 0.4.13 · 2026-10-07
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.12)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.13)
 
-SpaceCorps 2027 0.4.12 opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining, where rockets break rocks that throw chunks of Credits, Thulium and ore; it reworks the laser amps into three families of four with a new Penetration Amp, asks the last tier of gear for Dark Matter Plates, puts "Booster" in the name of every booster, makes the Clan Wardens hit three times as hard and, from the update after this one, downloads only what changed. Many items change their names at the first start: read "If you already play".
+SpaceCorps 2027 0.4.13 lets lasers hurt asteroids, shortens every rocket's recharge to 3 seconds and triples what rocks pay. The Auction gets 100 listing slots, 1-, 3- and 7-day listings and free bidding on the hourly lots, the Clan Wardens become five times stronger and ten times richer with a private box for every pilot who dealt 5 percent of the damage, and a 0.4.12 game installs this update as a patch instead of the whole package.
 
 #### What's new
 
 **Highlights**
-- **The Auction.** Pilots of level 5 and up sell what they earned for Credits or Thulium, and bid on one lot of ammo, rockets or EMP Charges every hour. What you buy or are given can never be sold again.
-- **Asteroid mining.** 27 kinds of rock on 16 maps. Only rockets break them, and a broken rock throws small chunks of Credits, Thulium and ore.
-- **Laser amps in three families of four,** with a new **Penetration Amp**. Only tier I is sold; II to IV are made in Assembly.
-- **The last tier asks for 3 Dark Matter Plates** instead of Velkonite plates, in 12 recipes.
-- **Every booster has "Booster" in its name** (11 renamed, none has "Amp").
-- **Updates download only what changed,** from the update after this one. This update is downloaded whole.
-- **Clan Wardens hit three times as hard.** Bring about seven pilots, not five.
-- **New rocket damage ranges,** and area rockets deal half their damage at the edge of a blast.
-- **Thrusters:** every tier is better than the one below, in both families.
-- **Smaller changes:** a 2-second wait between formation swaps, cargo pick-up in 0.5 seconds, quest items on your own map, everybody's numbers on your target, a wider Group window, a turning Stiletto, a Clan boosts card, a Dark Matter article.
+- **Lasers hurt asteroids, at 5 percent.** Select a rock, then double-click it (or press the attack key or an ammo slot when no ship or alien is selected). A volley does 5 percent of what it would do to a ship (amps, boosters, critical hits and ammo all count), then the rock's armour comes off. A rocket is still the quick way.
+- **Rocks pay three times as much** Credits, Thulium and ore. The daily limits did not change, so you reach them about four times sooner in the design's model.
+- **Every rocket recharges in 3 seconds,** not 5. The N.U.K.E. and the N.I.K.E. keep their long flight and wait 4.1 and 4.6 seconds.
+- **The Auction:** listings run 1, 3 or 7 days, you get 20 slots at level 5 and 100 from level 8, the sell sheet charts the similar listings, the Market has category chips, History shows your statistics and line charts, and switching sections no longer flickers. **The deposit is still 1% for every day, so a 7-day listing pays 7% and none of it comes back.**
+- **The hourly lots hold five times as much ammo and rockets, and have no limits:** lead as many lots as you like and win as many as you like in a day.
+- **Clan Wardens are five times stronger and pay ten times as much** (ammo twenty times). Every pilot who dealt 5% of the damage gets his share of the pay and a private box that only he sees.
+- **Rocks keep their natural height,** and the circle on a selected rock stays on it while you fly round it.
+- **Fixes:** the asteroids no longer disappear after you sign in again, and the Game Log has a line for each piece of a mined chunk.
+- **The first update by patch:** a 0.4.12 game downloads only what changed.
 
 **If you already play: what changes for you**
-- **This update is downloaded whole.** The patches start with the next one.
-- **19 items change names at the first start:** the 11 boosters and 8 laser amps. Your pieces, tiers, buffs and booster time stay. Your shop booster "Damage Amp II" is now **Laser Damage Booster 2**, and your Arc Amp is now **Damage Amp II**.
-- **The Arc, Focus, Pulse and Prism Amps leave the Shop.** You keep yours; tiers II to IV are made in Assembly from the tier below, after their research. The update gives you the research of every amp you hold and of the amps below it.
-- **The last tier needs Dark Matter Plates.** What you own stays yours. To make another of the 12 items you need the technology **Dark Matter Plate** and 3 plates; only holders of a Damage Amp IV or a Crit Amp IV get the technology from the update, the others research it if they have not already (1 day, 10 Dark Matter).
-- **The Auction marks what you hold:** once, at the first start, the gear the Shop does not sell and 8 resources become Marketable (nine definitions the Shop once sold, the two Reinforced Plates and each pilot's oldest Base CPU I stay unmarked). The Auction opens 30 minutes after the server's first start.
-- **Wardens: bring about seven pilots.** Five usually lose now. A clan too small for its Warden keeps the 70 points of its four missions but not the reward of the line.
-- **A formation swap waits 2 seconds everywhere,** safe zones included.
-- **Quest items, visits and stays count only on your own company's map.**
-- **Rockets roll in new ranges.** The rockets of the Pirate Boss, the Dormant swarm and the Siege Wardens keep their old damage.
-- **Your first login and the time you play are kept** and shown on your profile; admins get a Metrics page.
-- **A 0.4.11 client keeps working** against the 0.4.12 server, but it cannot use the Auction, and it shows names, art and texts the old way until you update.
+- **Update the game.** A 0.4.12 game installs this update as a patch; if the patch cannot be applied it downloads the whole package, with no error. A 0.4.11 or older game downloads the whole package.
+- **Nothing is converted at the first start:** no item is renamed and no data step runs. Your items, Credits, Thulium, listings and bids stay as they are. As at every server update, the rocks are placed again and the chunks and boxes lying on a map are not saved: collect yours first.
+- **Your open listings keep their end time and the deposit they paid;** new ones use 1, 3 or 7 days. Your slots grow at once. The lot that is open at the update keeps its size; the next ones are the big ones.
+- **The first Warden you summon after the update is the new one.** The old advice of about seven pilots no longer holds: in the design's model the smallest crew that wins is 18 pilots (against a Siege Warden I or II) to 26 on x2 ammo, and nobody has fought the new Wardens in the game yet.
+- **A 0.4.12 game keeps working** against the 0.4.13 server. What comes from the server shows at once: the 3-second recharge, the rocks' pay, the Auction's times, slots and lots, the Wardens. What needs the 0.4.13 game: lasers at rocks (the old game still says they cannot break one), the Lasers line on a rock's card, the Auction's chart, chips and statistics (its History still shows the daily limits), the taller rocks, the circle that stays on the rock, and the Game Log's lines for ore and items. A private Warden box looks like an ordinary box in the old game, without its teal ring.
 
-**The Auction**
-- **Who and where:** pilots of level 5 or more, at the station (the gavel and the page are not shown in flight: land to sell ammo or rockets). One Market for the three worlds, in four sections: **Market**, **Lots**, **My listings** and **History**.
-- **Marketable means earned.** Drops of aliens and swarms, the ore and finds a broken rock leaves, quest rewards and everything the Assembly makes carry a small **Marketable** tag in your Hangar (a Forge merge keeps it only if both pieces had it). What you buy in the Shop, win in a lot, buy on the Market or are given (codes, invite packs, the starter kit) does not, and can never be sold. A gavel beside the trash opens the sell sheet, a **Marketable only** chip shows what you can sell, and the Assembly says "Result: Marketable" on a recipe and links to the Auction for a material you lack.
-- **What can be listed:** 80 kinds (gear, ammo, rockets, extras and 10 resources). The Ancient Control Unit, the Velkonite and Orvium ores, the Dark Matter Plate, the Jump CPU, the Extra Slots CPUs, the N.U.K.E. and the N.I.K.E., ships, drones, drone formations and boosters never can. Dark Matter Plates are not on the Auction at all.
-- **Prices:** a whole number of Credits or of Thulium per lot, never both and never under the item's least price. **There is no highest price for an item,** but one listing cannot be worth more than your daily limit in its currency (the table below). Pieces sell one at a time; ammo and some resources sell in lots of 10 or 100.
-- **The rate:** 1 Thulium = 1,000 Credits is **only the rule for the least price of a Thulium listing** (the least price in Credits over 1,000, rounded up, for the 42 kinds whose least Thulium price is 20 or more; the other 38 are priced in Credits only). It is not an exchange rate: nothing is swapped and no worth is shown. **A Thulium listing can therefore be cheap: a Quantum Laser 3 may be listed from 170 Thulium, while the Assembly asks 1,500 Thulium to make one.** Most sellers will ask Credits.
-- **Time, slots and limits** by level:
+**Asteroids**
+- **How lasers work on a rock.** Order the attack the way you do at an alien: a double click on the rock always fires at it, and the attack key and the ammo slots do when no ship or alien is selected (a selected ship or alien comes first). Your lasers fire one volley a second while the rock's centre is within their range, one round of ammo for each laser. A volley takes 5% of what the same volley would do to a ship with no shield and no armour: your lasers, amps, boosters, critical hits, the ammo and the formation you wear all count. Then the rock's armour comes off, with the floor rockets have (a volley still takes at least a fifth of its damage). Siphon Battery ammo drains shields and nothing else, so the game refuses the order with a message. Drones fire nothing at a rock of their own; a laser in a drone slot is part of your volley.
+- **Rockets and lasers share one count.** The damage of both goes in the same list, so everybody who dealt 5% of the damage is paid, whatever he used, and a rock the lasers broke pays the same chunks. The rock's card and the Target window say **Lasers: about N volleys** under the rocket estimate, and the "Rockets only" badge is gone.
+- **Rocks pay three times as much.** Every amount of Credits, Thulium and ore a rock pays is three times what 0.4.12 paid. The chance of Thulium and of the rare finds (Reinforced Hull Plates, Power Cores) did not change, and Beta and Gamma still pay twice and three times Alpha's amounts. Alpha:
 
-  | Level | Open listings | Longest listing (hours) | Daily limit, Credits | Daily limit, Thulium |
-  |--:|--:|--:|--:|--:|
-  | 5 | 6 | 48 | 4,500,000 | 22,500 |
-  | 10 | 16 | 72 | 15,000,000 | 75,000 |
-  | 13 | 22 | 72 | 20,000,000 | 100,000 |
-  | 20 | 30 | 72 | 20,000,000 | 100,000 |
+  | Rock | Credits in 0.4.12 | Credits now | Thulium in 0.4.12 | Thulium now |
+  |---|---|---|---|---|
+  | Pebble | 2,200 to 3,700 | 6,600 to 11,100 | 1, sometimes | 3, sometimes |
+  | Plateback | 10,550 to 17,600 | 31,650 to 52,800 | 3 to 6, half the time | 9 to 18, half the time |
+  | Thulium Geode | 14,150 to 23,600 | 42,450 to 70,800 | 6 to 14, every time | 18 to 42, every time |
+  | Motherlode | 116,300 to 193,800 | 348,900 to 581,400 | 55 to 127, every time | 165 to 381, every time |
 
-  A listing runs 12, 24, 48 or 72 hours. Each currency has its own daily limit on what you can sell and on what you can buy, in any 24 hours. Between two pilots at most 8,000,000 Credits or 40,000 Thulium pass in 24 hours. Credits and Thulium are never added together; Premium changes none of it.
-- **Fees, burned:** a deposit of 1% of the price for every 24 hours of a listing (1.5% from level 10; at least 50 Credits or 1 Thulium), paid when you list and never returned, and 5% of the price when it sells. No fees from day 28 of the season; from day 30 the Auction is closed, but you can still cancel.
-- **Lots:** the game puts up 24 lots a day, one an hour, of x2 or x3 ammo, rockets or EMP Charges, open for 4 hours. The opening bid is 40% of the Shop price and each bid must beat the high bid by 5%. Your bid is paid at once and comes back at once if someone outbids you; a bid in the last 2 minutes extends the end (up to 5 times); you can lead 2 lots at once and win 6 in 24 hours. The winning bid is burned, and what you win is for flying: never Marketable. While few pilots use the Auction the lots are small (10% of the full size), growing to full size once 30 pilots of level 5 or more have looked in the last 3 days.
-- **Seeing it:** you get a toast and the new balance when something sells (a burst of sales is one toast) and a badge on the Auction entry while the page is closed. The Auction has six quiet sounds of its own: posting, a listing ending, a sale, a bid, being outbid and winning.
-- **At the first start** the gear the Shop does not sell and 8 resources you hold (Ship Fragment, Reinforced Hull Plate, Power Core, Daraxium, Nyxite, Cataclysite, Quorvium and Dark Matter) are marked Marketable once. **They are not marked:** the Quantum Laser 3, the Absorption Shield Cells II and III, the Impulse Thrusters II and III and the Damage and Crit Amps II and III (the Shop once sold them), the Velkonite and Orvium Reinforced Plates (what you hold mixes quest plates with Skylab plates) and the oldest Base CPU I of each pilot (the starter kit's). New ones of those that you craft or a quest pays are marked.
-- **The wipe:** every open listing comes back to you as a loose item and the wipe then clears loose items like any other, so cancel and put what you want to keep in the Transport Cache. Open lots are cancelled and your bids refunded. A listing leaves your inventory until it sells, you cancel it or it runs out; rockets you have listed or lead in a lot count toward the most you may carry.
-- **What the Auction does not give you, said plainly.** Selling loot is not a grind: raw alien drops are worth 0.4 to 0.9 percent of what the same level-5 hunting hour pays in kills. There is no dealer: buy orders, where a pilot says what he wants to buy and for how much, are not in this version. Shop gear is not for resale: the Quantum Laser 1 and 2, the Light and Basic Shield Cores, Engine I and II, the first tier of cells and thrusters, the amps the Shop sells and bought ammo can't be sold again.
-
-**Asteroid mining**
-- **Where:** every real map has rocks: the 12 company maps (x-1 to x-4 of Mars, Terra and Galactic) and the four Danger Sectors (from season day 4); the neutral maps have none. 27 kinds in 8 families, and each of the 16 maps has a mix of its own of 5 or 6 kinds (no two the same): 12 rocks on an x-1 map, 14 on x-2, 16 on x-3, 18 on x-4, 24 on a Danger Sector. A broken rock grows back in another place after 2, 3 or 5 minutes by ring (the Motherlode after an hour).
-- **How you break one:** click the rock, then fire a rocket at it. The guided rockets (Lancet, Ember) need it selected and in lock range, the straight ones (Rivet, Scatter) fly to its centre, and the N.U.K.E. works too. A rocket fired at a rock hits that rock and no other; **lasers and drones do nothing to rocks.** The Target window shows its hull, its armour, who has dealt how much and how many of the rocket you hold it will take.
-- **In your plane:** the rocks you can mine are real 3D lumps with the ships' flight plane through their middle, drawn behind every hull, so ships, rockets and chunks pass over them; the dim background asteroids far below are scenery. A ring on the ground says how a rock breaks (single: ordinary; double: armoured; dashed: brittle), and the minimap shows each rock as a hexagon.
-- **Hit points** (Alpha; Beta x1.5, Gamma x2, like aliens). **Armour** takes a flat amount off every hit (a hit still does at least a fifth of its damage); **brittle** rocks take 1.6 times the damage from area rockets (Ember and Scatter):
-
-  | Kind | Family | Hull | Radius | Notes |
-  |---|---|--:|--:|---|
-  | Pebble | Stone | 8,500 | 40 | - |
-  | Cobble | Stone | 10,000 | 55 | - |
-  | Glimmer | Crystal | 9,000 | 45 | brittle |
-  | Rime | Ice | 12,000 | 60 | - |
-  | Cache Pod | Salvage | 14,000 | 48 | - |
-  | Dark Chondrite | Stone | 12,000 | 60 | - |
-  | Ironhide | Iron | 14,000 | 55 | armour 500 |
-  | Vein Rock | Stone | 18,000 | 70 | - |
-  | Nyx Geode | Crystal | 26,000 | 85 | brittle |
-  | Scrap Hulk | Salvage | 20,000 | 70 | - |
-  | Slag Block | Stone | 24,000 | 80 | - |
-  | Plateback | Iron | 36,000 | 90 | armour 1,500 |
-  | Cataclast | Stone | 36,000 | 90 | - |
-  | Lode Rock | Stone | 52,000 | 105 | - |
-  | Derelict Hulk | Salvage | 52,000 | 100 | - |
-  | Thulium Geode | Treasure | 66,000 | 95 | brittle |
-  | Quorvium Boulder | Crystal | 48,000 | 100 | brittle |
-  | Cataclysite Mass | Stone | 72,000 | 115 | - |
-  | Anvil | Iron | 80,000 | 125 | armour 3,000 |
-  | Derelict Cruiser | Salvage | 72,000 | 120 | - |
-  | Thulium Cluster | Treasure | 100,000 | 120 | - |
-  | Vault Rock | Treasure | 130,000 | 135 | - |
-  | Rich Lode | Stone | 80,000 | 130 | - |
-  | Prism Cluster | Crystal | 100,000 | 140 | brittle |
-  | Ancient Husk | Relic | 120,000 | 150 | armour 2,000 |
-  | Star Crystal | Treasure | 150,000 | 150 | brittle |
-  | Motherlode | Titan | 450,000 | 240 | back after 60 min |
-
-- **The break pays in chunks.** Nothing is paid when a rock breaks: it throws small chunks, gold nuggets for Credits, lavender crystals for Thulium and a rough stone for ore and rare finds. Each pilot who dealt 5% of the damage or more is paid (a group is one party), and his chunks are reserved for him and his clan for 30 seconds, free for everybody after that and gone after 180 seconds. You collect them like cargo (half a second) and the pick-up pays. A break lays at most 24 chunks and a map holds at most 36.
-- **What a rock pays** (Alpha; Credits and Thulium x2 in Beta and x3 in Gamma): a Pebble 2,200 to 3,700 Credits and sometimes 1 Thulium, a Motherlode 116,300 to 193,800 Credits and 55 to 127 Thulium, with the ore of its kind.
-- **Limits:** the chunks pay after your daily limits: Thulium 3,000, 4,500 and 6,000 and Credits 13, 18 and 21 million in any 24 hours in Alpha, Beta and Gamma. Boosters, Premium, clan boosts and Loot Luck change nothing; the Resource Magnet Booster adds to the resources of an ore chunk. When the map has no room for your chunks you are paid at once.
-- **What rocks never give:** no XP, honor, kills, rank, Wipe Points, quest progress or drone XP. The design models a miner's hour at 0.4 to 0.75 of the best hunting hour of the same level, plus the ore a hunter would find; nothing of it has been measured in the live game.
-- **Sounds and help:** five quiet sounds (selecting a rock, a refused order, a hit, a break and a pick-up that pays) and a Help card.
-
-**Laser amps: three families of four**
-- **Names and numbers:** Damage Amp I to IV, Crit Amp I to IV and the new Penetration Amp I to IV, named like the shield cells. The eight amps you had keep every number and rarity; only the names change. Only the first amp of each family is sold; each step above it is an **Assembly upgrade of the piece below** (it keeps the enchant tier; the buffs are rolled again).
-
-  | Amp | Was | What it adds | How you get it |
-  |---|---|---|---|
-  | Damage Amp I | Damage Amp 1 | +10 damage, +5% critical chance, +5 critical damage | Shop, 10,000 Credits |
-  | Damage Amp II | Arc Amp | +16 damage, +5% critical chance, +8 critical damage | Assembly from a Damage Amp I: 250 Thulium, 10 Cataclysite, 1 Velkonite Reinforced Plate |
-  | Damage Amp III | Pulse Amp | +26 damage, +6% critical chance, +13 critical damage | Assembly from a Damage Amp II: 1,000 Thulium, 20 Cataclysite, 1 Power Core, 2 Velkonite Reinforced Plates |
-  | Damage Amp IV | Nova Amp | +38 damage, +7% critical chance, +20 critical damage | Assembly from a Damage Amp III: 1,200 Thulium, 30 Cataclysite, 1 Power Core, 3 Dark Matter Plates |
-  | Crit Amp I | Crit Amp 1 | +15% critical chance | Shop, 15,000 Credits |
-  | Crit Amp II | Focus Amp | +20% critical chance, +14 critical damage | Assembly from a Crit Amp I: 250 Thulium, 10 Cataclysite, 1 Velkonite Reinforced Plate |
-  | Crit Amp III | Prism Amp | +25% critical chance, +24 critical damage | Assembly from a Crit Amp II: 1,000 Thulium, 20 Cataclysite, 1 Power Core, 2 Velkonite Reinforced Plates |
-  | Crit Amp IV | Apex Amp | +25% critical chance, +44 critical damage | Assembly from a Crit Amp III: 1,200 Thulium, 30 Cataclysite, 1 Power Core, 3 Dark Matter Plates |
-  | Penetration Amp I | new | +2 points of shield penetration | Shop, 15,000 Credits |
-  | Penetration Amp II | new | +4 points of shield penetration | Assembly from a Penetration Amp I: 250 Thulium, 10 Cataclysite, 20 Daraxium, 1 Velkonite Reinforced Plate |
-  | Penetration Amp III | new | +6 points of shield penetration | Assembly from a Penetration Amp II: 1,000 Thulium, 20 Cataclysite, 30 Nyxite, 1 Power Core, 2 Velkonite Reinforced Plates |
-  | Penetration Amp IV | new | +8 points of shield penetration | Assembly from a Penetration Amp III: 1,200 Thulium, 30 Cataclysite, 40 Quorvium, 1 Power Core, 3 Dark Matter Plates |
-
-- **Penetration** takes points off the absorbance of the ship you hit: the shield takes the share of a laser hit that is the target's absorbance less your penetration. A ship's amp penetration is the mean over its lasers (weighted by their damage), added to the ammo's and the formation's. **A laser hit is cut at 50 points; rockets are still cut at 40.** The best laser (Experimental Fusion Core 10, Stiletto 16 and three Penetration Amp IV 24) reaches exactly 50: the best shield out of the box (80% absorbance) still takes 30% of every hit.
-- **When a Penetration Amp is worth a slot:** against absorbance above about 95% (Season Store, Forge and Rampart builds). Against the best shield out of the box a Crit Amp of the same tier is still about 10% faster, and a Penetration Amp does not kill aliens faster than a Damage or Crit Amp of its tier. A Forge buff on a Penetration Amp IV is wasted in the best build. **A shield core with no cell (45, 48 or 50% absorbance) is pierced whole by a laser carrying 50 points.**
-- **The cost:** a Damage Amp IV used to be 2,700 Thulium (a Pulse Amp bought for 1,500 and the 1,200 step); it is now a Damage Amp I (10,000 Credits) and 250 + 1,000 + 1,200 = 2,450 Thulium, with materials and 3 Dark Matter Plates. The research tree has 60 technologies (53 before): seven new ones for the amps' steps.
-
-**The last tier: Dark Matter Plates**
-- **The rule:** the best tier of every chain asks for 3 Dark Matter Plates in place of its Velkonite plates. A plate is pressed in Assembly from 5 Dark Matter (the black hole gives it for N.I.K.E. rockets), a Velkonite and an Orvium Reinforced Plate and 250 Thulium, in 120 seconds.
-
-  | Item | Dark Matter Plates | Velkonite plates it asked in 0.4.11 |
-  |---|--:|---|
-  | Damage Amp IV | 3 | 3 Velkonite Reinforced Plates |
-  | Crit Amp IV | 3 | 3 Velkonite Reinforced Plates |
-  | Penetration Amp IV | 3 | new in 0.4.12 |
-  | Absorption Shield Cell IV | 3 | 6 Velkonite Reinforced Plates |
-  | Capacity Shield Cell IV | 3 | 6 Velkonite Reinforced Plates |
-  | Impulse Thruster IV | 3 | 6 Velkonite Reinforced Plates |
-  | Momentum Thruster IV | 3 | 6 Velkonite Reinforced Plates |
-  | Heavy Shield Core | 3 | 6 Velkonite Reinforced Plates |
-  | Engine III | 3 | 6 Velkonite Reinforced Plates |
-  | Extra Slots CPU III | 3 | 20 Velkonite Reinforced Plates |
-  | Base CPU II | 3 | 8 Velkonite Reinforced Plates |
-  | Helios Beam | 3 | no Velkonite plates |
-
-- **What a piece costs:** 3 plates are 15 Dark Matter, 3 Velkonite and 3 Orvium plates and 750 Thulium of pressing. A Wraith with the last tier in every slot (60 pieces) holds 180 plates, 900 Dark Matter.
-- **Research:** each of the 12 technologies needs the technology **Dark Matter Plate** first (1 day, 10 Dark Matter). A craft needs only its own technology, so what you already researched stays yours, but the plates need the plate's technology: the first start gives it to the holders of a Damage Amp IV or a Crit Amp IV, and everybody else researches it if he has not already (the technology is older than this release: a pilot who researched it for the Forge keeps it).
-- **Not changed:** the Quantum Laser 3, the Starfire-3, the tier II and III steps, the Jump CPU, the Auto-Repair CPU (no tiers), the 16 drone formations and the ships. The Auction's least prices of these items rose with them.
-
-**Every booster is a Booster**
-- **The rule:** every shop booster has "Booster" in its name and none has "Amp", so that a booster is never taken for a laser amp. A booster is time on your account, so your boosters' time carries over; the old names:
-
-  | Old name | New name |
-  |---|---|
-  | Damage Amp | Laser Damage Booster 1 |
-  | Damage Amp II | Laser Damage Booster 2 |
-  | Shield Wall | Shield Wall Booster 1 |
-  | Shield Wall II | Shield Wall Booster 2 |
-  | Hull Plating | Hull Plating Booster 1 |
-  | Hull Plating II | Hull Plating Booster 2 |
-  | Shield Regen | Shield Regen Booster |
-  | Experience Kit | Experience Booster |
-  | Honor Beacon | Honor Booster |
-  | Resource Magnet | Resource Magnet Booster |
-  | Loot Luck | Loot Luck Booster |
-
-**Updates download only what changed**
-- **What the game does:** the updater first looks for a signed **patch** built from the copy of the game you have installed; if it cannot use it, for any reason, it downloads the whole package as before, without an error. The patch is one more line of the signed `SHA256SUMS`, it carries the SHA-256 of what it builds, and the game installs the result only after the same checks as a whole package.
-- **What it saves** (one release back; sizes of the design, measured on parts of real builds and not yet on whole releases):
-
-  | Package | Whole | Patch |
-  |---|--:|--:|
-  | Windows zip | 128.4 MB | about 2.2 MB |
-  | Linux tar.gz | 129.2 MB | about 2.6 MB |
-  | macOS dmg | 134.0 MB | about 4 MB |
-  | Linux AppImage | 124.1 MB | about 21 MB |
-
-- **When:** this version is downloaded whole, because the game you have now cannot apply a patch. **The first update by patch is 0.4.12 to 0.4.13.** Patches exist for the newest 8 earlier releases (3 for the AppImage); older versions download the whole package. Hangar copies are updated by Hangar and Steam copies by Steam.
-- **A switch for one machine:** `SPACECORPS_UPDATE_DELTA=0` makes the game download the whole package.
-
-**Clan Wardens and the swarms**
-- **Three times the damage:** all nine Wardens (Brood, Siege and Wrath, each in strengths I, II and III) and their crews (Brood Drones, Siege Escorts, Wrath Guards) fire lasers with three times the damage of a volley. The Wrath Warden still hits half again as hard below half its hull. Hull, shield, speed, range, pay, loot and the Siege Warden's rocket are as they were.
-
-  | Warden | Volley at strength I, II, III in 0.4.11 | Volley now |
-  |---|---|---|
-  | Brood Warden | 43, 259, 1,030 | 129, 777, 3,090 |
-  | Siege Warden | 16, 97, 615 | 48, 291, 1,845 |
-  | Wrath Warden | 32, 194, 820 | 96, 582, 2,460 |
-
-- **Bring about seven pilots.** In our tests in the game five pilots lost most of the fights, even with Shield Surge and Emergency Repair, seven won every fight we ran, and ten won in under three minutes and losing one ship. Bring x2 ammo, shoot a Brood Warden's drones first, keep moving against a Siege Warden and use your abilities. A Warden's lasers destroy the ship it fights in one and a half to four minutes.
-- **A clan too small for its Warden** keeps the 70 points of its four missions and can call the Warden again (two summons a day), but nobody gets the reward for the line, which is paid when the Warden is destroyed, and the clan has all 30 boost levels on season day 18 at the soonest, not on day 12.
-- **The swarm suites:** a Dormant Pulse's volley goes from 1,920 to 3,840 and a Pirate Scout's from 98 to 147. The Dormant Force and the Pirate Boss are as they were. The Dormant Swarm now takes five Paragons with x2 ammo when 30% of their rockets land (it took four).
-- **The Clans wiki page and the in-game Help tell all of this,** in 12 languages: what a Warden is, how hard it hits, how many pilots to bring, what a small clan keeps, the pay and the loot.
-- **Clan boosts show in the Boosters window.** A **Clan boosts** card under your timed boosters lists your clan's tag, then each boost with its bonus and level (for example Lv 3/10), with no timer. The Dashboard's Boosters card and a pilot's profile list them too.
+- **The daily limits did not change:** Thulium 3,000, 4,500 and 6,000 and Credits 13, 18 and 21 million in any 24 hours in Alpha, Beta and Gamma. In the design's model, on the best map, a pilot now reaches Alpha's Thulium limit in about 1.8 hours of mining (it took 7.7) and its Credits limit in about 2.7 hours (it took 11.9). What a chunk would pay past the limit is not paid, as before.
+- **Rocks keep their natural height.** 0.4.12 capped how tall a rock is drawn, so the big ones, the Motherlode and the Prism Cluster, looked squashed. A rock is drawn in its own proportions now, and ships, rockets and chunks still pass over it.
+- **The circle stays on the rock.** A click on empty space used to let the rock go, so its circle vanished when you tried to fly round it. Now that click only flies. Escape, the cross of the Target window, a jump or the rock's break let it go, and a click on a ship, an alien or another rock selects that one. A click next to the selected rock flies there too.
 
 **Rockets**
-- **Damage ranges:** each shop rocket rolls its damage once, when it is fired, between its own minimum and maximum (before: 80% to 100% of the top number).
+- **One recharge of 3 seconds for every rocket** (5 before), twenty launches a minute. The N.U.K.E. and the N.I.K.E. fly for 4 and 4.5 seconds, so a launch waits for the flight: 4.1 seconds for the N.U.K.E. and 4.6 for the N.I.K.E. The rockets that aliens fire (the swarms' and the Siege Wardens') keep their own pace. A drone formation that shortens or lengthens the recharge still does so on the 3 seconds, and no launch waits less than its rocket's flight.
+- **A formation's rocket bonus counts against ships and rocks the same.** The Ballista's +55% multiplies a rocket's damage on a pilot, an alien and a rock alike (with other formation bonuses it is cut at 1.59 times), and a rock's armour comes off the total after it. The game already did this; this release adds the tests that hold it.
 
-  | Rocket | Before | Now |
-  |---|---|---|
-  | Lancet I | 1,600 to 2,000 | 1,700 to 2,100 |
-  | Lancet II | 3,200 to 4,000 | 3,500 to 4,200 |
-  | Lancet III | 4,800 to 6,000 | 5,200 to 6,200 |
-  | Rivet I | 2,000 to 2,500 | 2,200 to 2,700 |
-  | Rivet II | 4,000 to 5,000 | 4,500 to 5,250 |
-  | Rivet III | 6,000 to 7,500 | 7,000 to 8,000 |
-  | Ember I | 1,120 to 1,400 | 1,200 to 1,400 |
-  | Ember II | 2,240 to 2,800 | 2,400 to 2,900 |
-  | Ember III | 3,360 to 4,200 | 3,500 to 4,500 |
-  | Scatter I | 1,400 to 1,750 | 1,500 to 1,750 |
-  | Scatter II | 2,800 to 3,500 | 3,000 to 3,500 |
-  | Scatter III | 4,200 to 5,250 | 4,500 to 5,500 |
+**The Auction**
+- **Listing times: 1 day, 3 days or 7 days** (24, 72 or 168 hours) at every level; the sell sheet starts at 1 day. They were 12, 24, 48 and, from level 10, 72 hours.
+- **The deposit did not change, and it grows with the days.** It is 1% of the price for every day the listing runs (1.5% from level 10; at least 50 Credits or 1 Thulium), paid when you list and **never returned, even if you cancel**. A 1-day listing pays 1%, a 3-day listing 3% and a **7-day listing 7%** (10.5% from level 10), and the 5% tax comes on top when it sells. The sell sheet says the percent on the deposit line. **A price cannot be changed: cancel and list again, and the deposit is paid again.** A listing made late in the season still ends with the season, and pays the deposit of the time you chose. Example, a price of 1,000,000 Credits at level 5 to 9: the deposit is 10,000 for 1 day, 30,000 for 3 days and 70,000 for 7 days, and a sale pays 50,000 of tax.
+- **More slots:**
 
-- **Area rockets** (Ember I to III, Scatter I to III) deal 50% of their damage at the edge of the blast (it was 35%, 35% and 30% for the Embers and 30%, 30% and 25% for the Scatters).
-- **Aliens' rockets are not changed:** the Pirate Boss, the Dormant swarm and the Siege Wardens fire the damage of 0.4.11.
+  | Level | Open listings | Daily limit, Credits | Daily limit, Thulium |
+  |--:|--:|--:|--:|
+  | 5 | 20 | 4,500,000 | 22,500 |
+  | 6 | 40 | 6,000,000 | 30,000 |
+  | 7 | 70 | 7,500,000 | 37,500 |
+  | 8 | 100 | 8,500,000 | 42,500 |
+  | 10 | 100 | 15,000,000 | 75,000 |
+  | 13 and up | 100 | 20,000,000 | 100,000 |
 
-**Thrusters**
-- **Each tier is better than the one before,** in both families. The Impulse Thrusters keep the bigger flat bonus and the Momentum Thrusters the bigger multiplier.
+  (They were 6 at level 5, growing to 30 at level 20.) The daily limits on what you sell and buy, and what may pass between two pilots (8,000,000 Credits or 40,000 Thulium), did not change.
+- **Similar listings, a chart in the sell sheet.** Once you pick an item, the sheet draws the open listings of other pilots for that item and enchant tier (the 50 cheapest) by price, in the currency you chose: bars for how many ask what, a band under the item's least price, and lines for your own price (it moves as you type), the last sale and the Shop's price. It says where your price would stand ("Your price would be the lowest of 6 listings") and lists the three cheapest ("Cheapest now"). With no listing it says so and shows the least price.
+- **Category chips.** The Market can be filtered by Everything, Lasers, Laser Amps, Shields, Shield Cells, Engines, Thrusters, Adaptive Cores, Laser Ammo, Rockets, Resources or Extras. Each chip counts what is for sale under your other filters. The sell sheet's list of your items has the same categories in a drop-down, with how many of your items each holds.
+- **History shows you, not limits.** The daily-limit bars are gone from it (the limits themselves still apply, and the sell sheet warns when a sale may have to wait). In their place, for your last 30 days: sales and purchases (with the units and how many were Lot wins), what you earned after tax, what you spent, the fees and taxes you paid (the tax and the deposits), your net result, your best sale, your average sale and purchase and the item you traded most, and two line charts, **Earned per day** and **Result so far**. Everything is for one currency at a time, Credits or Thulium, with a switch when you traded in both: the two are never added.
+- **No flicker between views.** A switch between Market, Lots, My listings and History finds its data already asked for, and a filter or a category keeps the last list on screen, dimmed and marked "Updating…", until the new one arrives; the page no longer shows an empty frame in between.
+- **The hourly lots are five times bigger: ammo and rockets, all of them.** The 24 lots a day hold 5 times the amount of 0.4.12: the ammo lots run from 10,000 to 50,000 rounds (Advanced Plasma and Ultra Core), the rocket lots from 1,250 to 12,500 (Lancet I, Rivet I and Ember I 12,500; Rivet II, Scatter II and Ember II 5,000; Lancet III and Scatter III 1,250); the three lots of EMP Charges stay at 5. The reserve is still 40% of the Shop's price for each unit, so a lot's opening bid is five times higher too. Lots are full size only when 30 pilots of level 5 or more have looked at the Auction in the last 3 days; with nobody looking they are 10% of that.
+- **No limits on bidding on the lots.** You may lead as many lots as you like, win as many as you like in a day, and a rocket lot may be bigger than the stack of that rocket you can carry: it joins your stack. (The Shop and the Market still stop at the stack.) **What stays:** you must be level 5 or more, each bid must beat the high bid by 5%, a bid in the last 2 minutes extends the end (up to 5 times), a lot has its reserve, a bid needs the Credits or Thulium in your wallet (it is held and comes back when you are outbid), and two bids of yours must be a couple of seconds apart. Lot wins count toward none of the daily limits.
 
-  | Thruster | 0.4.11 | Now |
-  |---|---|---|
-  | Impulse Thruster I | +5 speed, x1.02 | +5 speed, x1.02 |
-  | Impulse Thruster II | +10 speed, x1.02 | +10 speed, x1.025 |
-  | Impulse Thruster III | +15 speed, x1.03 | +15 speed, x1.03 |
-  | Impulse Thruster IV | +17 speed, x1.02 | +16.5 speed, x1.035 |
-  | Momentum Thruster I | +4 speed, x1.06 | +4.5 speed, x1.06 |
-  | Momentum Thruster II | +8 speed, x1.07 | +9 speed, x1.07 |
-  | Momentum Thruster III | +11 speed, x1.09 | +12.5 speed, x1.09 |
-  | Momentum Thruster IV | +12 speed, x1.11 | +13.1 speed, x1.11 |
+**Clan Wardens**
+- **Five times the strength.** All nine Wardens (Brood, Siege and Wrath, each in strengths I, II and III) and their crews (Brood Drones, Siege Escorts, Wrath Guards) have five times the hull, shield and laser damage they had in 0.4.12, and five times the self-repair of the Siege and Wrath Wardens and the healing of the Brood Drones. Speed, range, the number in the crew, the Siege Warden's rocket and the Wrath Warden's rage below half its hull are as they were.
 
-**Smaller changes**
-- **Formation swaps wait 2 seconds everywhere.** Before, inside a safe zone formations changed with no wait. The slots and the list show the wait, and a press too early says "Formation ready in x s". The game's own restore of your remembered formation at the start of a flight counts as a swap.
-- **Cargo pick-up takes half a second** instead of one.
-- **Quest items, visits and stays count only on your own company's map** (G-2 for a Galactic pilot, not M-2 or T-2), and the task says "Counts only in G-2". Kills and distance still count on every company's sector.
-- **The numbers on your target:** the ship under your lock-on circle shows the damage and heal numbers of everybody (yours brighter), from lasers, rockets, drones, aliens and repairs; hits that land together are one number. **Show damage dealt by others on my target** in Settings, Interface, turns the others' numbers off.
-- **The Group window opens 280 points wide** (it was 250) in new layouts; a width you saved stays.
-- **The Stiletto turns:** its crossguard pair turns round the blade once in 3 seconds and the blade stays straight. Reduce Motion holds it still.
-- **Research hover cards:** a technology's tooltip says what the item does, with its numbers and its tier table.
-- **Dark Matter is easier to find.** A new wiki article, **Dark Matter and Dark Matter Plates**, in the game's 12 languages (the wiki search finds it by "dark matter plate", "plate" and the old word "socket"); the Research Centre now says plain "Dark Matter", and a technology that needs it says where it comes from and has a **Wiki** button.
-- **The patch notes page on the download site stays small:** the newest release in full and a one-line list of the others (it was 369 KB for 22 releases; with every release up to this one it is about 54 KB).
+  | Warden | Hull in 0.4.12 | Hull now | Shield in 0.4.12 | Shield now | Volley in 0.4.12 | Volley now |
+  |---|--:|--:|--:|--:|--:|--:|
+  | Brood Warden I | 166,000 | 830,000 | 136,000 | 680,000 | 129 | 645 |
+  | Brood Warden II | 288,000 | 1,440,000 | 236,000 | 1,180,000 | 777 | 3,885 |
+  | Brood Warden III | 1,060,000 | 5,300,000 | 870,000 | 4,350,000 | 3,090 | 15,450 |
+  | Siege Warden I | 143,000 | 715,000 | 117,000 | 585,000 | 48 | 240 |
+  | Siege Warden II | 248,000 | 1,240,000 | 203,000 | 1,015,000 | 291 | 1,455 |
+  | Siege Warden III | 915,000 | 4,575,000 | 745,000 | 3,725,000 | 1,845 | 9,225 |
+  | Wrath Warden I | 163,000 | 815,000 | 133,000 | 665,000 | 96 | 480 |
+  | Wrath Warden II | 282,000 | 1,410,000 | 231,000 | 1,155,000 | 582 | 2,910 |
+  | Wrath Warden III | 1,040,000 | 5,200,000 | 850,000 | 4,250,000 | 2,460 | 12,300 |
 
-**Your first login, time played and the Metrics page**
-- **Your profile** shows your **First login** and your **Time played**, to every pilot who opens it, like your level. For pilots who played before the update, the first login is the day of their first login after it and the time starts at 0 then. The time counts while your game is connected and answering: a game that says nothing for 60 seconds stops counting. Both go when you delete your account.
-- **Admins** see a **Metrics** section in the Admin page (Overview, Retention, Economy, Gameplay, Technical, Funnel, an Explorer and exports): counts of how the game is used, and, for each account and day, only whether it connected, how many times, for how long and with which build of the game (your game now sends its version and where it came from with its requests). The per-account days are kept for 365 days and deleted with the account; the counts hold no account, name or address.
+- **Ten times the pay.** A kill pays ten times the Credits, Thulium, experience and honor, and every quantity in the loot box is ten times, **the rare lines too**: a Wrath Warden III can drop 10 Power Cores (35% of the time) and 10 Ancient Control Units (8%). **The laser ammo lines are twenty times:** Advanced Plasma, Ultra Core and Siphon Battery; a Siege Warden III drops 16,000 to 24,000 Siphon Batteries, for example. The pay of a whole kill, before it is shared by damage:
+
+  | Strength | Credits | Thulium | Experience | Honor |
+  |---|--:|--:|--:|--:|
+  | I | 900,000 | 3,600 | 90,000 | 1,800 |
+  | II | 1,200,000 | 6,000 | 192,000 | 2,400 |
+  | III | 2,400,000 | 12,000 | 480,000 | 3,840 |
+
+- **Everybody with 5% gets his share, and a box of his own.** Before, the clan got one box and the fastest pilot to claim it kept it. Now every pilot who dealt at least 5% of the damage gets his part of the pay (as before) **and a private box that only he sees and only he can collect**, holding his part of every amount: with 20% of the damage you get about a fifth of each line. It lies where the Warden fell for 10 minutes; nobody else, not even your clan or group, can take it, and it has no 30-second wait. A group counts as one pilot for the 5%, and its part is shared among the mates who are close and shooting, as the pay is, each with his own box. When nobody reaches 5%, the pilot who dealt the most is paid all. The Game Log says "Warden loot: your share 20%: a private box lies where it fell, for 10 minutes." and the box has a thin teal ring. The other swarm bosses are as they were: one box for the top dealer, kept for him and his clan for 30 seconds.
+- **As they were:** the Wardens' ranking points (a Warden kill counts for company ranks as before) and the clan points of the daily line.
+
+**Fixes**
+- **Asteroids no longer disappear after you sign in again.** After a new sign-in in the same session the rocks were not drawn until you restarted the game. The same clean-up could take the rocks away when you changed the particle quality in flight. They are drawn at once now.
+- **The Game Log has a line for each piece of a mined chunk.** The Credits and the Thulium were one line ("Mining: +3500 credits and +4 Thulium."); each is its own line now, and every item of an ore chunk ("Mining: +3 Cataclysite.") is one more. Items you take from an alien's crate are as before.
+
+**Updates by patch**
+- **What the game does.** The updater looks for a signed **patch** built from the copy you have installed; if it cannot use it, for any reason, it downloads the whole package as before, without an error. The patch is one more line of the signed `SHA256SUMS`, and the game installs the result only after the same checks as a whole package.
+- **What it saves.** The patches made for 0.4.12 (from 0.4.11, as a rehearsal: no game could use them) were 5.7 MB for Windows, 6.1 MB for Linux, 11.4 MB for macOS and 23.3 MB for the AppImage, against 126 to 136 MB for the packages. The design had promised 2 to 4 MB for the first three; they came out larger. The sizes of this release's patches are on the release page.
+- **When.** Only a 0.4.12 game applies a patch, and only from 0.4.12 to 0.4.13. A 0.4.11 or older game downloads the whole package once and updates by patch from then on. Hangar copies are updated by Hangar.
+- **A switch for one machine:** `SPACECORPS_UPDATE_DELTA=0` makes the game download the whole package.
 
 **For administrators and the server**
-- **Data steps at the first start:** `research-amps-v1` (the research of the amps you hold) and `market-marketable-v1` (the Marketable labels), each once. 19 items are renamed in place, as in 0.4.8.
-- **New tables:** `MarketListings`, `MarketTrades`, `AuctionLots`, `AuctionBids`, `MarketSeen`, `MarketBans`, `MetricsDaily`, `MetricsHourly`, `MetricsActive` and `PilotMetrics`, a new column `PlayerItems.Marketable` and its trigger. A 0.4.11 server ignores them.
-- **Files:** three new data files, `Resources/Market.json`, `Resources/Auction.json` and `Resources/Asteroids.json`. Admins can hold or return a listing, ban a pilot from the Auction and void a lot, and every admin action is recorded.
-- **Delta updates:** the release job builds the patches, and a bad published patch can be withdrawn for every game at once.
+- **No data step, no table, no column, no rename and no repair.** The backup gate prints nothing for this release. Six data files change: `Asteroids.json`, `Auction.json`, `Market.json`, `Rockets.json`, `ClanLines.json` and `ClanWardens.json`.
+- **The Wardens' 18 alien rows are rewritten by name at every start** by the seeder (hull, shield, damage and pay of the ids 12 to 29), so the first start of this server makes the new Wardens; the limit of one item in a box is 100,000 now (it was 9,999).
+- **Two new reads for the Auction page:** `GET /api/market/counts` (the category chips) and `GET /api/market/stats` (History). A 0.4.13 game on a 0.4.12 server gets a 404 from them and shows the page without the chips' counts and the statistics.
+- **New counters:** `asteroid_laser_hits{world}` and `asteroid_laser_damage{world}`. The daily mining totals of every pilot start from zero when the server restarts, as at every restart.
 <!-- /patchnotes:latest -->
 
 ---
@@ -327,18 +193,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 6f2142d89397fccb040f9003c71eacf70140f85f35c9c9cb1f94239be2c5a8c4
+# Expected: fc8dc6f0c5b3869ae25593085c759eb941272aa7635964206b85718512b5ec0f
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 5aea120f56a4517cf929673f629616a731bf556bfa891fa071e5f49b3fe314b9
+# Expected: 776d293512ae7ae8d56551d26e5e28461a34472f130a99fb850d575ea3285fcc
 ```
 
 ### Linux
 ```bash
-echo "b16bab1e994d7cd9d13118d094daee9a37f9cbddcf2679624c69420ac6c57072  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "0fa91346f79632e7976a66a992f4704925de8dd37b84cac81e42184e7898d8b4  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

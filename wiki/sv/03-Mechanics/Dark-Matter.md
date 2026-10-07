@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@
 1. **Bygg forskningscentrumet och forska fram N.I.K.E.** Centrumet öppnas på Skylabs kärnnivå 10 ([Forskning](/wiki/03-Mechanics/Research.md)). N.I.K.E.:s teknologi tar 3 timmar och kräver ingen Dark Matter.
 2. **Tillverka N.I.K.E. i Monteringen.** En tillverkning ger 5 raketer på 5 minuter för 100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate och 40 Cataclysite. Du kan bära 20. Se [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Flyg till Farosektor 4 (`DS-4`).** Det är PvP-sektorn mitt i galaxen, och det svarta hålet hänger i dess exakta mitt i varje värld ([Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). Ingen utomjording och ingen koncernpilot kommer i närheten, men andra piloter gör det.
-4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 050 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 380 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket var 5:e sekund. Från längre bort hamnar den för kort.
+4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 050 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 380 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket med 4,6 sekunders mellanrum. Från längre bort hamnar den för kort.
 5. **Plocka upp lådorna.** Varje N.I.K.E. som når hålet ger tillbaka **1, 2 eller 3 Dark Matter** (1 en gång av fyra, 2 varannan gång, 3 en gång av fyra), i en eller två lådor med högst 2. De landar vid kanten av hålets zon, 3 050 till 3 950 enheter från mitten, nära linjen för ditt skott. Flyg till inom 200 enheter från varje låda: upplockningen tar en halv sekund.
 6. **Ta den hem.** Dark Matter hamnar i ditt inventarie. På stationen, med landat skepp, kan du lägga till den i forskningscentrumet eller använda den i Monteringen.
 

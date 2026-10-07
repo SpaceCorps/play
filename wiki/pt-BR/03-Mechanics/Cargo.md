@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **Pilotos de corporação** não deixam caixa quando são destruídos, seja quem ou o que for que os destrua. Veja [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md).
 - **Naves de pilotos** não deixam destroços nem caixa quando são destruídas, seja quem ou o que for que as destrua, e nada é tirado do inventário do piloto.
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md), as Dormant Pulses e os [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
+- **Um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** não larga uma caixa assim: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](#private-boxes) só dele, com a sua parte do saque.
 - Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra, e vale um limite a cada 24 horas. Um fragmento é coletado como uma caixa, e fica reservado para os pilotos que o mereceram e depois livre, como uma caixa.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
@@ -37,6 +38,15 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 - Só uma nave que esteja no mapa da caixa pode pegá-la: se você for destruído, saltar ou se desconectar no caminho (ou durante o meio segundo que a coleta leva), a caixa fica para os outros.
 - Se dois pilotos coletam a mesma caixa ao mesmo tempo, quem terminar a coleta primeiro fica com ela, uma única vez; o outro é avisado de que ela sumiu.
 - Uma caixa que ninguém pega some à deriva depois de **3 minutos** (ela pisca nos últimos 10 segundos). Um mapa comporta no máximo 64 caixas; quando uma nova passaria desse limite, a mais antiga some. Os fragmentos de asteroide têm um espaço próprio dentro das 64: eles não expulsam nenhuma outra caixa, e nenhuma outra caixa expulsa um fragmento ([as regras](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). As caixas de Dark Matter duram 4 minutos e são só suas no primeiro minuto.
+
+## Caixas privadas {#private-boxes}
+
+O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) não é uma caixa para um piloto só: **cada piloto que causou pelo menos 5% do dano recebe uma caixa só dele**, sorteada para a sua parte (para 20% do dano, cerca de um quinto de cada quantidade; [os detalhes](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Só você a vê e só você pode pegá-la.** O seu clã e o seu grupo não a veem e não podem pegá-la; para todos os outros ela simplesmente não existe. Na sua tela, ela tem um anel fino embaixo.
+- **Ela fica 10 minutos** a partir do abate, e durante todo esse tempo é sua: não há espera de 30 segundos. Depois ela vai à deriva como qualquer caixa. O Registro do jogo mostra a sua parte do saque quando o Guardião cai.
+- **Ela não empurra outras caixas para fora.** As caixas privadas têm uma reserva própria ao lado das 64 de um mapa (no máximo 32), então o abate de um Guardião nunca toma o lugar de outra caixa, e um mapa cheio nunca faz você perder a sua.
+- Pegar é como com qualquer caixa ([acima](#collecting)): a sua nave voa até ela e a coleta leva meio segundo.
 
 ## Boosters
 

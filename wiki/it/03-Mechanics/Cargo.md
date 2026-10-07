@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Gli alieni distrutti lasciano il loro bottino nello spazio sotto forma di casse 
 - I **piloti di corporazione** non lasciano nessuna cassa quando vengono distrutti, chiunque o qualunque cosa li distrugga. Vedi [Piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md).
 - Le **navi dei giocatori** non lasciano né relitto né cassa quando vengono distrutte, chiunque o qualunque cosa le distrugga, e al pilota non viene tolto nulla dall’inventario.
 - Il **buco nero** posa casse di **Dark Matter** sul bordo della sua zona per ogni razzo N.I.K.E. lanciato al suo interno (vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md)). Sono l’unico tipo di cassa che si trova dentro l’anello del buco nero.
-- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md), le Dormant Pulse e i [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
+- **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** non lascia una cassa del genere: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte del bottino.
 - Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza, e vale un limite per ogni periodo di 24 ore. Un frammento si raccoglie come una cassa, ed è riservato ai piloti che l’hanno meritato e poi libero, come una cassa.
 
 Un alieno finito da un pilota di corporazione rilascia il suo bottino per il pilota a cui l’abbattimento viene attribuito (chi ne detiene la rivendicazione, altrimenti il pilota della stessa corporazione che lo sta combattendo); uno combattuto da un pilota di corporazione da solo non rilascia nulla, perché i piloti di corporazione non raccolgono mai.
@@ -37,6 +38,15 @@ Le luci della cassa prendono il colore dell’oggetto più raro al suo interno: 
 - Solo una nave presente sulla mappa della cassa può prenderla: se vieni distrutto, salti o ti disconnetti lungo la strada (o durante il mezzo secondo che la raccolta richiede), la cassa resta agli altri.
 - Se due piloti raccolgono la stessa cassa contemporaneamente, la ottiene quello la cui raccolta finisce per prima, una sola volta; all’altro viene detto che non c’è più.
 - Una cassa che nessuno prende va alla deriva dopo **3 minuti** (lampeggia negli ultimi 10 secondi). Una mappa contiene al massimo 64 casse; quando una nuova supererebbe il limite, la più vecchia sparisce. I frammenti di asteroide hanno un gruppo tutto loro all’interno delle 64: non scacciano nessun’altra cassa, e nessun’altra cassa scaccia un frammento ([le regole](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Le casse di Dark Matter durano 4 minuti, e sono solo tue per il primo minuto.
+
+## Casse private {#private-boxes}
+
+Il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) non è una cassa per un solo pilota: **ogni pilota che ha inflitto almeno il 5% dei danni riceve una cassa tutta sua**, estratta per la sua parte (per il 20% dei danni, circa un quinto di ogni quantità; [i dettagli](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Solo tu la vedi e solo tu puoi raccoglierla.** Il tuo clan e il tuo gruppo non la vedono e non possono prenderla; per tutti gli altri semplicemente non c’è. Sul tuo schermo ha un anello sottile sotto.
+- **Resta lì 10 minuti** dall’abbattimento, e per tutto il tempo è tua: non c’è l’attesa di 30 secondi. Poi se ne va alla deriva come ogni cassa. Il Registro di gioco ti dice la tua parte del bottino quando il Custode cade.
+- **Non scaccia altre casse.** Le casse private hanno una riserva a sé accanto alle 64 di una mappa (al massimo 32), così l’abbattimento di un Custode non prende mai il posto di un’altra cassa e una mappa piena non ti fa mai perdere la tua.
+- La raccolta è la stessa di ogni cassa ([sopra](#collecting)): la tua nave vola fino a lei e la raccolta dura mezzo secondo.
 
 ## Booster {#boosters}
 

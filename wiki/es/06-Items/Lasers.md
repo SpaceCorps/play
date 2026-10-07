@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Láseres -->
 # Láseres y munición {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Equipa láseres directamente en las ranuras de láser de la nave o dentro de dro
 La columna Alcance es la de cada láser por separado. **Tu nave dispara al alcance medio de sus láseres** (cuentan también los láseres de tus drones), redondeado a la unidad más cercana, y todos los láseres disparan en cuanto el objetivo está dentro de esa distancia. Un Starfire-3 junto a dos Quantum Laser 2 da a la nave un alcance de 750, no de 850; tres Starfire-3 mantienen 850, y los láseres que son todos iguales no cambian nada. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Sin ningún láser, el hangar no muestra alcance (un guion) y los láseres no pueden disparar, pero tus cohetes sí, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). En el hangar, la casilla dice «Alcance medio» cuando tus láseres difieren, y al pasar el cursor por encima se lista el alcance de cada láser.
 
 El Quantum Laser 1 y el 2 no tienen probabilidad de crítico propia («–»): se la da un Damage Amp o un Crit Amp en sus ranuras (un Penetration Amp no). Los golpes críticos se muestran con otro color en los números de daño flotantes (azul hielo, más grandes y con un «!»; consulta [Números de daño y de curación](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+Los láseres también dañan los [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), pero solo con el 5 % de lo que una andanada hace a una nave (cuentan tus amplificadores, potenciadores, munición y golpes críticos, y después se resta el blindaje del asteroide; la Siphon Battery no puede dañar ninguno). Para romperlos, la herramienta son los cohetes.
 
 ### Cómo se fabrican los tres mejores láseres {#making-the-top-three-lasers}
 

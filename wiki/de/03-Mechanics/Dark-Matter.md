@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5daa88b340a0b7c9 -->
+<!-- wiki-i18n source: 9d59c70b1467b484 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -33,7 +33,7 @@
 1. **Baue das Forschungszentrum und erforsche die N.I.K.E.** Das Zentrum wird bei Skylab-Kern-Level 10 freigeschaltet ([Forschung](/wiki/03-Mechanics/Research.md)). Die Technologie der N.I.K.E. dauert 3 Stunden und verlangt kein Dark Matter.
 2. **Stelle N.I.K.E.s in der Montage her.** Eine Herstellung macht in 5 Minuten 5 Raketen, für 100.000 Credits, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate und 40 Cataclysite. Du kannst 20 tragen. Siehe [Raketen](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Fliege nach Gefahrensektor 4 (`DS-4`).** Er ist der PvP-Sektor in der Mitte der Galaxie, und das Schwarze Loch hängt in jeder Welt genau in seinem Zentrum ([Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md)). Kein Alien und kein Konzernpilot kommt in seine Nähe, andere Piloten aber schon.
-4. **Schieße vom Rand aus auf das Schwarze Loch.** Die Strahlung beginnt 4.000 Einheiten von der Mitte. Eine N.I.K.E. fliegt 4.050 Einheiten, also kannst du von überall zwischen 4.000 und 4.380 Einheiten Entfernung feuern. Ohne gewähltes Ziel setzt du den Mauszeiger auf das Loch. Du kannst alle 5 Sekunden eine Rakete abfeuern. Von weiter draußen fällt sie zu kurz.
+4. **Schieße vom Rand aus auf das Schwarze Loch.** Die Strahlung beginnt 4.000 Einheiten von der Mitte. Eine N.I.K.E. fliegt 4.050 Einheiten, also kannst du von überall zwischen 4.000 und 4.380 Einheiten Entfernung feuern. Ohne gewähltes Ziel setzt du den Mauszeiger auf das Loch. Du kannst alle 4,6 Sekunden eine Rakete abfeuern. Von weiter draußen fällt sie zu kurz.
 5. **Sammle die Kisten ein.** Jede N.I.K.E., die das Loch erreicht, bringt **1, 2 oder 3 Dark Matter** zurück (zu einem Viertel 1, zur Hälfte 2, zu einem Viertel 3), in einer oder zwei Kisten mit höchstens 2. Sie landen am Rand der Zone des Lochs, 3.050 bis 3.950 Einheiten von der Mitte, nahe der Linie deines Schusses. Fliege bis auf 200 Einheiten an jede heran: Das Einsammeln dauert eine halbe Sekunde.
 6. **Bring es nach Hause.** Dark Matter kommt in dein Inventar. An der Station kannst du es bei gelandetem Schiff dem Forschungszentrum hinzufügen oder in der Montage verwenden.
 

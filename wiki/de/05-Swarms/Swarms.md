@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -10,7 +10,7 @@ Ein **Schwarm** ist eine Gruppe von Aliens, die unter einem **Anführer** durch 
 
 Ihre Schiffe sind **Aliens eigener Arten**: Sie haben eigene Namen und eigene Abschusszähler, und keines von ihnen zählt als Seeker, Phantasm oder irgendein anderes Alien. Ein Schwarmschiff hat die Gestalt des Schiffs, auf dem es aufbaut, in einer eigenen Färbung und mit seinem Namen darüber; der Boss Seeker ist ein viel größerer Seeker.
 
-Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen eigenen Wächter für den letzten Schritt seiner Tageslinie, und nur dieser Clan kann ihn verletzen: Kein Pilot trifft einen auf Streifzug durch einen Sektor, und die Tabellen unten führen sie nicht auf. Siehe [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen eigenen Wächter für den letzten Schritt seiner Tageslinie, und nur dieser Clan kann ihn verletzen: Kein Pilot trifft einen auf Streifzug durch einen Sektor, und die Tabellen unten führen sie nicht auf. Ein Wächter wird wie ein Schwarm-Boss nach Schaden bezahlt, aber seine Beute ist nicht eine Kiste für den, der den meisten Schaden verursacht hat: Jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine eigene [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes). Siehe [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Die drei Schwärme {#the-three-swarms}
 

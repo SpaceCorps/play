@@ -35,7 +35,7 @@ Each gets a part in proportion to their **level**, whatever their company (the c
 
 The kill's notice says so: the killer's own **REWARDS** line shows their part, followed by "Rewards shared with 2 group mates: your part is 40%", and a mate who is paid a part reads "*Alien* was destroyed by *pilot*; your group's share pays you" with the amounts. The notices show in the Game Log.
 
-What stays the killer's alone: the **cargo crate** (loot and resources), the kill in their statistics and ranking, the Wipe Point kill count and the drones' experience. Kills of other pilots are not shared.
+What stays the killer's alone: the **cargo crate** (loot and resources; a [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) is the exception, whose loot is a private box for every mate who is paid a part), the kill in their statistics and ranking, the Wipe Point kill count and the drones' experience. Kills of other pilots are not shared.
 
 ## Sharing Missions
 

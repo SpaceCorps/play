@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -37,7 +37,7 @@ Jeder bekommt einen Anteil im Verhältnis zu seinem **Level**, egal welcher Konz
 
 Die Meldung zum Abschuss sagt das: Die eigene **BELOHNUNG**-Zeile des Schützen zeigt seinen Anteil, gefolgt von „Belohnungen mit 2 Gruppenmitgliedern geteilt: dein Anteil beträgt 40%“, und ein Mitglied, dem ein Anteil ausgezahlt wird, liest „*Alien* wurde von *Pilot* zerstört; der Anteil deiner Gruppe zahlt sich aus“ mit den Beträgen. Die Meldungen erscheinen im Spielprotokoll.
 
-Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen), der Abschuss in seiner Statistik und Rangliste, die Abschusszahl für die Wipe-Punkte und die Erfahrung der Drohnen. Abschüsse anderer Piloten werden nicht geteilt.
+Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen; die Ausnahme ist ein [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dessen Beute für jedes Mitglied, das einen Anteil bekommt, eine private Kiste ist), der Abschuss in seiner Statistik und Rangliste, die Abschusszahl für die Wipe-Punkte und die Erfahrung der Drohnen. Abschüsse anderer Piloten werden nicht geteilt.
 
 ## Missionen teilen {#sharing-missions}
 

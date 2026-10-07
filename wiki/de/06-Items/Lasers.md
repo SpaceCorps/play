@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Rüste Laser direkt in den Laser-Slots des Schiffs oder in Drohnen aus, um deine
 Die Spalte Reichweite ist die jedes einzelnen Lasers. **Dein Schiff feuert mit dem Durchschnitt der Reichweiten seiner Laser** (die Laser in deinen Drohnen zählen mit), auf die nächste ganze Einheit gerundet, und jeder Laser feuert, sobald das Ziel innerhalb dieser Entfernung liegt. Ein Starfire-3 neben zwei Quantum Laser 2 gibt einem Schiff die Reichweite 750, nicht 850; drei Starfire-3 behalten 850, und lauter gleiche Laser ändern nichts. Ein Reichweiten-Bonus aus der Schmiede zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ohne Laser zeigt der Hangar keine Reichweite (einen Strich), und die Laser können nicht feuern, deine Raketen aber schon, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Im Hangar steht auf der Kachel „Ø Reichweite“, wo sich deine Laser unterscheiden, und fährst du mit der Maus darüber, werden die Reichweiten der einzelnen Laser aufgelistet.
 
 Quantum Laser 1 und 2 haben keine eigene Krit-Chance („–“): Ein Damage Amp oder ein Crit Amp in ihren Slots bringt sie mit (ein Penetration Amp nicht). Kritische Treffer erscheinen in den schwebenden Schadenszahlen in einer anderen Farbe (eisblau, größer, mit einem „!“; siehe [Schadens- und Heilungszahlen](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+Laser beschädigen auch [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), aber nur mit 5 % dessen, was eine Salve einem Schiff antut (deine Verstärker, Booster, Munition und kritischen Treffer zählen, danach wird die Panzerung des Asteroiden abgezogen; die Siphon Battery kann keinen beschädigen). Zum Zerbrechen sind Raketen das richtige Werkzeug.
 
 ### Die obersten drei Laser herstellen {#making-the-top-three-lasers}
 

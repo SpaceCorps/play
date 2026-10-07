@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Szerelj lézereket közvetlenül a hajó lézerfoglalataiba vagy drónokba, hogy
 A Hatótáv oszlop az egyes lézerek saját értéke. **A hajód a lézerei hatótávjának átlagával tüzel** (a drónokban lévő lézerek is számítanak), a legközelebbi egységre kerekítve, és minden lézer akkor tüzel, amint a célpont ezen a távolságon belülre kerül. Egy Starfire-3 két Quantum Laser 2 mellett 750-es hajóhatótávot ad, nem 850-et; három Starfire-3 megtartja a 850-et, az egyforma lézerek pedig semmin sem változtatnak. Egy Kovácsműhely-hatótávbónusz a saját lézerén számít, mielőtt az átlagot kiszámolják. Lézer nélkül a hangár nem mutat hatótávot (egy gondolatjelet), és a lézerek nem tudnak tüzelni, de a rakétáid igen, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). A hangárban a csempe „Átl. hatótáv” feliratot kap, ha a lézereid eltérnek, és ha fölé viszed az egeret, felsorolja az egyes lézerek hatótávját.
 
 A Quantum Laser 1-nek és a Quantum Laser 2-nek nincs saját kritikus esélye („–”): a foglalataikba tett Damage Amp vagy Crit Amp adja meg (a Penetration Amp nem). A kritikus találatok más színnel jelennek meg a lebegő sebzésszámokban (jégkék, nagyobb, „!” jellel; lásd: [Sebzés- és gyógyulásszámok](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+A lézerek az [aszteroidákat](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) is sebzik, de csak annak az 5%-ával, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja; a Siphon Battery nem tud aszteroidát sebezni). Széttörésükhöz a rakéták a megfelelő eszköz.
 
 ### A legfelső három lézer elkészítése {#making-the-top-three-lasers}
 

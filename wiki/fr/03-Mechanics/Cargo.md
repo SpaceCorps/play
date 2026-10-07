@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Les pilotes de corporation** ne laissent aucune caisse quand ils sont détruits, quel qu’en soit l’auteur. Voir [Pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md).
 - **Les vaisseaux de joueurs** ne laissent ni épave ni caisse quand ils sont détruits, quel qu’en soit l’auteur, et rien n’est prélevé dans l’inventaire du pilote.
 - **Le trou noir** dépose des caisses de **Dark Matter** au bord de sa zone pour toute roquette N.I.K.E. tirée dedans (voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Ce sont les seules caisses qui se trouvent à l’intérieur de l’anneau du trou.
-- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md), les Dormant Pulses et les [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
+- **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** ne laisse pas une caisse de ce genre : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](#private-boxes) à lui, avec sa part du butin.
 - **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise, et une limite par tranche de 24 heures s’applique. Un fragment se ramasse comme une caisse, et il est réservé aux pilotes qui l’ont mérité, puis libre, comme une caisse.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
@@ -37,6 +38,15 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 - Seul un vaisseau présent sur la carte de la caisse peut la prendre : si vous êtes détruit, si vous sautez ou si vous vous déconnectez en chemin (ou pendant la demi-seconde que dure la récupération), la caisse reste pour les autres.
 - Si deux pilotes récupèrent la même caisse en même temps, celui dont la récupération s’achève en premier l’obtient, une seule fois ; l’autre est prévenu qu’elle a disparu.
 - Une caisse que personne ne prend dérive au loin au bout de **3 minutes** (elle clignote pendant ses 10 dernières secondes). Une carte contient au plus 64 caisses ; quand une nouvelle dépasserait ce nombre, la plus ancienne disparaît. Les fragments d’astéroïde ont un contingent à eux dans les 64 : ils ne chassent aucune autre caisse, et aucune autre caisse ne chasse un fragment ([les règles](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Les caisses de Dark Matter durent 4 minutes, et n’appartiennent qu’à vous pendant la première minute.
+
+## Caisses privées {#private-boxes}
+
+Le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n’est pas une caisse pour un seul pilote : **chaque pilote qui a infligé au moins 5 % des dégâts reçoit une caisse à lui**, tirée pour sa part (pour 20 % des dégâts, environ un cinquième de chaque quantité ; [les détails](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Vous seul la voyez et vous seul pouvez la ramasser.** Votre clan et votre groupe ne la voient pas et ne peuvent pas la prendre ; pour tous les autres, elle n’existe simplement pas. Sur votre écran, elle a un anneau fin dessous.
+- **Elle reste 10 minutes** à partir de l’élimination, et pendant tout ce temps elle est à vous : il n’y a pas d’attente de 30 secondes. Ensuite elle dérive et disparaît comme n’importe quelle caisse. Le Journal de jeu vous donne votre part du butin quand le Gardien tombe.
+- **Elle ne chasse aucune autre caisse.** Les caisses privées ont une réserve à elles à côté des 64 d’une carte (32 au plus) : l’élimination d’un Gardien ne prend jamais la place d’une autre caisse, et une carte pleine ne vous coûte jamais votre caisse.
+- La récupération est la même que pour toute caisse ([plus haut](#collecting)) : votre vaisseau vole jusqu’à elle et la récupération prend une demi-seconde.
 
 ## Boosters
 

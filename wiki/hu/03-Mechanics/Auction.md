@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac0edd812a5c4dcb -->
+<!-- wiki-i18n source: d2b36e0a1271e933 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
-Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. A Bolthoz hasonlóan ez is az állomás egyik oldala: dokkolva használod, nem repülés közben. Négy része van. A **Piac** azt mutatja, amit más pilóták árulnak. A **Tételek** a játék saját ajánlatai, óránként egy. A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja.
+Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. A Bolthoz hasonlóan ez is az állomás egyik oldala: dokkolva használod, nem repülés közben. Négy része van. A **Piac** azt mutatja, amit más pilóták árulnak. A **Tételek** a játék saját ajánlatai, óránként egy. A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja, és azt, hogyan alakult a kereskedésed.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -11,7 +11,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
 - A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 20 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
 - 80 tárgy hirdethető meg, és 42 közülük Thuliumban is árazható.
-- Egy hirdetés 12 / 24 / 48 / 72 órán át fut, legfeljebb addig, amit a szinted megenged (lásd lent a szinttáblázatot).
+- Egy hirdetés 24 / 72 / 168 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 1%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 1,5%.
 - Az **adó**: az ár 5%. Az eladó bevételéből vonják le, amikor a hirdetés elkel.
@@ -58,7 +58,7 @@ Hajók, drónok, drónformációk, boosterek és előfizetések soha nem adható
 
 ## Eladás {#selling}
 
-Nyomd meg a **Tárgy eladása** gombot (vagy a kalapácsot a Hangárban), válaszd ki, amit megszereztél, döntsd el, kreditben vagy Thuliumban kéred, add meg egy csomag árát, és azt, hogy meddig fusson a hirdetés. A lap megmutatja a legkisebb árat, három chipet, amely beírja az árat (**Minimum**; **Gyors eladás**, eggyel a jelenleg legolcsóbb hirdetés alatt; és **Reális**, az utolsó eladás ára), valamint a letétet, az adót és azt, amit kapsz, még mielőtt meghirdetnéd. Egy darab egy csomag; a lőszert és néhány erőforrást 10 vagy 100 darabos csomagokban árulják, és egész számú csomagot adsz el. Amit meghirdetsz, elhagyja a készletedet, és a szerver őrzi, amíg el nem kel, vissza nem vonod, vagy le nem jár; akkor visszajön, a címkéjével együtt. Bármikor visszavonhatod, a szezon utolsó napjaiban is. A hirdetés pillanatkép: az ár módosításához vond vissza a hirdetést, és hirdesd meg újra (a letétet újra ki kell fizetni).
+Nyomd meg a **Tárgy eladása** gombot (vagy a kalapácsot a Hangárban), válaszd ki, amit megszereztél (egy kategóriaválasztó szűkíti a listát, ugyanazokkal a kategóriákkal, mint a Piacon), döntsd el, kreditben vagy Thuliumban kéred, add meg egy csomag árát, és azt, hogy meddig fusson a hirdetés: 1, 3 vagy 7 napig. A lap megmutatja a legkisebb árat, három chipet, amely beírja az árat (**Minimum**; **Gyors eladás**, eggyel a jelenleg legolcsóbb hirdetés alatt; és **Reális**, az utolsó eladás ára), valamint a letétet, az adót és azt, amit kapsz, még mielőtt meghirdetnéd. Az ár alatt a **Hasonló hirdetések** egy diagramon mutatja, milyen áron hirdetik most ugyanazt a tárgyat ugyanazzal a varázslattal, a választott pénznemben: az árad egy vonal rajta, a legkisebb ár, az utolsó eladás és a Bolt ára meg van jelölve, egy szöveges sor megmondja, hol állna az árad, és alatta látszik a három legolcsóbb hirdetés. Egy darab egy csomag; a lőszert és néhány erőforrást 10 vagy 100 darabos csomagokban árulják, és egész számú csomagot adsz el. Amit meghirdetsz, elhagyja a készletedet, és a szerver őrzi, amíg el nem kel, vissza nem vonod, vagy le nem jár; akkor visszajön, a címkéjével együtt. Bármikor visszavonhatod, a szezon utolsó napjaiban is. A hirdetés pillanatkép: az ár módosításához vond vissza a hirdetést, és hirdesd meg újra (a letétet újra ki kell fizetni).
 
 Minden tárgynak van **legkisebb ára**, és **legmagasabb ár nincs**: kérj annyit, amennyit akarsz. A táblázat néhány tárgy legkisebb árát mutatja.
 
@@ -84,29 +84,29 @@ Minden tárgynak van **legkisebb ára**, és **legmagasabb ár nincs**: kérj an
 
 A Thulium-ár egyetlen szabályt követ: a kreditben megadott legkisebb ár osztva az árfolyammal, felfelé kerekítve. Az árfolyam nem olyan érték, amelyet a játék a Thuliumnak tulajdonít. Csak azt adja meg, hogyan számolják ki a legkisebb Thulium-árat, és emiatt egy Thulium-hirdetés olcsó lehet annak a pilótának, akinek van Thuliuma. A legtöbb eladó krediteket fog kérni. Az olcsó tárgyakat (lőszer, rakéták, a legtöbb felszerelés első fokozata és a közönséges erőforrások) csak kreditben árazzák, mert egy egész Thulium túl nagy lépés lenne.
 
-A **nyitott hirdetéseid** (és az a hirdetés, amelyet egy admin felfüggesztett) helyeket foglalnak. Ahogy szintet lépsz, több helyed lesz, egy hirdetés tovább futhat, és naponta többet adhatsz el és vehetsz.
+A **nyitott hirdetéseid** (és az a hirdetés, amelyet egy admin felfüggesztett) helyeket foglalnak. Ahogy szintet lépsz, több helyed lesz, egy felső határig, és naponta többet adhatsz el és vehetsz. Az, hogy egy hirdetés meddig futhat, minden szinten ugyanannyi.
 
 <!-- market-limits:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 | Szint | Nyitott hirdetések | Leghosszabb futamidő | Naponta, kredit | Naponta, Thulium | Letét 24 óránként |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 6 | 48 óra | 4 500 000 | 22 500 | 1% |
-| 6 | 8 | 48 óra | 6 000 000 | 30 000 | 1% |
-| 7 | 10 | 48 óra | 7 500 000 | 37 500 | 1% |
-| 8 | 12 | 48 óra | 8 500 000 | 42 500 | 1% |
-| 9 | 14 | 48 óra | 10 000 000 | 50 000 | 1% |
-| 10 | 16 | 72 óra | 15 000 000 | 75 000 | 1,5% |
-| 11 | 18 | 72 óra | 15 000 000 | 75 000 | 1,5% |
-| 12 | 20 | 72 óra | 15 000 000 | 75 000 | 1,5% |
-| 13 | 22 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 14 | 22 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 15 | 24 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 16 | 24 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 17 | 26 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 18 | 26 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 19 | 28 | 72 óra | 20 000 000 | 100 000 | 1,5% |
-| 20. szinttől | 30 | 72 óra | 20 000 000 | 100 000 | 1,5% |
+| 5 | 20 | 168 óra | 4 500 000 | 22 500 | 1% |
+| 6 | 40 | 168 óra | 6 000 000 | 30 000 | 1% |
+| 7 | 70 | 168 óra | 7 500 000 | 37 500 | 1% |
+| 8 | 100 | 168 óra | 8 500 000 | 42 500 | 1% |
+| 9 | 100 | 168 óra | 10 000 000 | 50 000 | 1% |
+| 10 | 100 | 168 óra | 15 000 000 | 75 000 | 1,5% |
+| 11 | 100 | 168 óra | 15 000 000 | 75 000 | 1,5% |
+| 12 | 100 | 168 óra | 15 000 000 | 75 000 | 1,5% |
+| 13 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 14 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 15 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 16 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 17 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 18 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 19 | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
+| 20. szinttől | 100 | 168 óra | 20 000 000 | 100 000 | 1,5% |
 
 <!-- market-limits:end -->
 
@@ -121,30 +121,30 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 | :--- | ---: | ---: | ---: | ---: |
 | Quantum Laser 3: 6. szint, 24 óra | 170 000 kredit | 1 700 kredit | 8 500 kredit | 161 500 kredit |
 | Quantum Laser 3: 10. szint, 72 óra | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
-| Helios Beam: 12. szint, 72 óra | 2 500 000 kredit | 112 500 kredit | 125 000 kredit | 2 375 000 kredit |
-| Helios Beam: 12. szint, 72 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
+| Helios Beam: 12. szint, 168 óra | 2 500 000 kredit | 262 500 kredit | 125 000 kredit | 2 375 000 kredit |
+| Helios Beam: 12. szint, 168 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
 
 <!-- market-fees:end -->
 
 ## Vásárlás {#buying}
 
-A **Piac** azt mutatja, amit más pilóták árulnak. Keress név szerint, szűrj tárgy, varázslat és pénznem szerint, és rendezz ár szerint, aszerint, mi ér véget leghamarabb, vagy aszerint, mi a legújabb. Válassz egy hirdetést, hogy lásd, mi az, ki árulja, meddig fut, és hogyan viszonyul az ára az utolsó eladáshoz, a jelenlegi legalacsonyabb árhoz és a Bolt árához. A köteget egész csomagokban veszed meg. Egy nagy vásárlás még egyszer megerősítést kér. Az eladó azonnal megkapja a pénzét, az adó levonásával; te nem fizetsz sem letétet, sem adót. Amit megveszel, az **nem eladható**: az oldal a **Vásárlás** gomb mellett azt írja: „Amit kapsz: nem eladható”, mert csak az adható el, amit megszerzel. A saját hirdetésedet nem veheted meg. Az a hirdetés, amely elkel, miközben nézed, azt írja: „Ez a hirdetés már nincs meg.”
+A **Piac** azt mutatja, amit más pilóták árulnak. Szűkítsd a listát a **kategória-chipekkel** (minden tárgytípushoz egy, a bennük lévő hirdetések számával), keress név szerint, szűrj varázslat és pénznem szerint, és rendezz ár szerint, aszerint, mi ér véget leghamarabb, vagy aszerint, mi a legújabb. Válassz egy hirdetést, hogy lásd, mi az, ki árulja, meddig fut, és hogyan viszonyul az ára az utolsó eladáshoz, a jelenlegi legalacsonyabb árhoz és a Bolt árához. A köteget egész csomagokban veszed meg. Egy nagy vásárlás még egyszer megerősítést kér. Az eladó azonnal megkapja a pénzét, az adó levonásával; te nem fizetsz sem letétet, sem adót. Amit megveszel, az **nem eladható**: az oldal a **Vásárlás** gomb mellett azt írja: „Amit kapsz: nem eladható”, mert csak az adható el, amit megszerzel. A saját hirdetésedet nem veheted meg. Az a hirdetés, amely elkel, miközben nézed, azt írja: „Ez a hirdetés már nincs meg.”
 
 ## Korlátok {#limits}
 
-Minden pénznemnek külön napi korlátja van arra, mennyit adhatsz el és mennyit vehetsz, az utolsó 24 órában számolva, és van korlát arra is, mennyi mehet át két pilóta között, hogy egy második fiók ne legyen gyors módja egy vagyon áthelyezésének. A kreditet és a Thuliumot soha nem adják össze: aki Thuliumért ad el, az a Thulium-korlátját használja, mást nem. Hogy az egyes korlátokból mennyit használtál el, az **Előzményekben** látod. A korlátok a szinttel nőnek, és a Premium egyiket sem változtatja meg. A megnyert tételek nem számítanak.
+Minden pénznemnek külön napi korlátja van arra, mennyit adhatsz el és mennyit vehetsz, az utolsó 24 órában számolva, és van korlát arra is, mennyi mehet át két pilóta között, hogy egy második fiók ne legyen gyors módja egy vagyon áthelyezésének. A kreditet és a Thuliumot soha nem adják össze: aki Thuliumért ad el, az a Thulium-korlátját használja, mást nem. Az eladási lap figyelmeztet, ha egy eladás átlépné a napi eladási korlátodat, és ha egy vásárlás átlépné a napi vásárlási korlátodat, a Piac szól, és nem engedi a **Vásárlás** gombot. A korlátok a szinttel nőnek, és a Premium egyiket sem változtatja meg. A megnyert tételek nem számítanak.
 
 A hirdetésben lévő, a vezetett tételben lévő és a rakteredben lévő rakéták mind beleszámítanak abba a legnagyobb számba, amennyit egy rakétából vihetsz: egy hirdetéssel nem vihetsz többet, mint amennyit a Bolt köteg megenged.
 
 ## Hirdetéseim és Előzmények {#my-listings-and-history}
 
-A **Hirdetéseim** megmutatja a helyeidet és minden hirdetést az állapotával (nyitott, eladott, visszavont, lejárt, visszaadott vagy felfüggesztett), egy **Visszavonás** gombbal, egy lezárthoz **Újra meghirdet** gombbal, és **Alákínálták** chippel, ha ugyanannak a tárgynak egy másik hirdetése kevesebbet kér. A lejárt hirdetés magától visszakerül a készletedbe. Az **Előzmények** azt mutatja, mit adtál el, vettél és nyertél, az adóval együtt, és a korlátaidat. A játék az Aukció főkönyvét 90 napig őrzi.
+A **Hirdetéseim** megmutatja a helyeidet és minden hirdetést az állapotával (nyitott, eladott, visszavont, lejárt, visszaadott vagy felfüggesztett), egy **Visszavonás** gombbal, egy lezárthoz **Újra meghirdet** gombbal, és **Alákínálták** chippel, ha ugyanannak a tárgynak egy másik hirdetése kevesebbet kér. A lejárt hirdetés magától visszakerül a készletedbe. Az **Előzmények** az elmúlt 30 nap kereskedésével kezdődik: az eladásaid és a vásárlásaid, mennyit kerestél és költöttél, a kifizetett díjak és adók, a nettó eredményed, a legjobb eladásod, az átlagos eladásod és a legtöbbet forgalmazott tárgyad, valamint két vonaldiagram: a napi bevételed és az eredményed eddig (kreditben vagy Thuliumban, egyszerre eggyel). Alatta áll annak a listája, mit adtál el, vettél és nyertél, az adóval együtt. A játék az Aukció főkönyvét 90 napig őrzi.
 
 Arról, hogy valami elkelt, értesítést kapsz: üzenetet, az Aukció hangját és az új egyenleget, az Aukció bejegyzésén pedig jelvényt, amíg az oldal zárva van. Egy eladássorozat egy üzenet. Az Aukciónak saját halk hangjai vannak, mindenre egy, amit ott teszel vagy ami ott veled történik (meghirdetés, lejárat, eladás, licit, túllicitálás, nyerés), és követik a kezelőfelület hangerejét.
 
 ## Az óránkénti tételek {#the-hourly-lots}
 
-A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként, licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta), a Bolt saját pénznemében.
+A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként, licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta), a Bolt saját pénznemében. A rakétatétel sosem nagyobb annál, amennyit az adott rakétából vihetsz (a Bolt köteg), ezért az a licit, amely ezen túlvinne, el lesz utasítva: akkor licitálj rakétatételre, ha keveset viszel az adott rakétából.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -153,7 +153,6 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 - A kikiáltási ár az áru bolti árának 40%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit vagy 1 Thulium többnek kell lennie.
 - Az ajánlatod azonnal kifizetődik és zárolva marad. Ha valaki túllicitál, azonnal visszakapod.
 - Ha egy tétel utolsó 2 perc idejében licitálsz, a tétel vége a licit után 2 perc múlva lesz, legfeljebb 5 alkalommal.
-- Egyszerre 2 tételnél vezethetsz, és 24 óra alatt 6 tételt nyerhetsz.
 - Amit nyersz, repülésre való, nem kereskedésre: sosem eladható. A nyertes licit megsemmisül. Az a tétel, amelyre senki nem licitál, nem kel el, és senkinek nem kerül semmibe.
 - A tétel mérete azokon a pilótákon múlik, akik legalább 5. szintűek, és az utolsó 3 napban megnézték az aukciót: ha egy sincs, a táblázatbeli méret 10%, 30 vagy több pilótánál a teljes méret, lépésekben: 500 (lőszer), 50 (rakéta) és 1 (EMP Charge).
 - A szezon utolsó 6 órájában nem készül új tétel. A wipe lemondja a még nyitott tételeket, és minden licit visszamegy.
@@ -165,29 +164,29 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 
 | UTC-óra | Tétel | Teljes méret | Fizetőeszköz | Kikiáltási ár teljes méretnél |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 250 | Thulium | 500 Thulium |
-| 01:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 02:00 | Lancet I | 2 500 | Kredit | 500 000 kredit |
+| 00:00 | Scatter III | 1 250 | Thulium | 2 500 Thulium |
+| 01:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 02:00 | Lancet I | 12 500 | Kredit | 2 500 000 kredit |
 | 03:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 04:00 | Ultra Core | 5 000 | Thulium | 2 000 Thulium |
-| 05:00 | Rivet II | 1 000 | Kredit | 320 000 kredit |
-| 06:00 | Advanced Plasma | 2 000 | Thulium | 400 Thulium |
-| 07:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 08:00 | Ember I | 2 500 | Kredit | 500 000 kredit |
-| 09:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 10:00 | Scatter II | 1 000 | Kredit | 320 000 kredit |
+| 04:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
+| 05:00 | Rivet II | 5 000 | Kredit | 1 600 000 kredit |
+| 06:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
+| 07:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 08:00 | Ember I | 12 500 | Kredit | 2 500 000 kredit |
+| 09:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
+| 10:00 | Scatter II | 5 000 | Kredit | 1 600 000 kredit |
 | 11:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 12:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 13:00 | Lancet III | 250 | Thulium | 500 Thulium |
-| 14:00 | Ultra Core | 2 000 | Thulium | 800 Thulium |
-| 15:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 16:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 17:00 | Rivet I | 2 500 | Kredit | 500 000 kredit |
-| 18:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 19:00 | Ember II | 1 000 | Kredit | 320 000 kredit |
-| 20:00 | Ultra Core | 5 000 | Thulium | 2 000 Thulium |
-| 21:00 | Advanced Plasma | 5 000 | Thulium | 1 000 Thulium |
-| 22:00 | Advanced Plasma | 2 000 | Thulium | 400 Thulium |
+| 12:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 13:00 | Lancet III | 1 250 | Thulium | 2 500 Thulium |
+| 14:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
+| 15:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 16:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
+| 17:00 | Rivet I | 12 500 | Kredit | 2 500 000 kredit |
+| 18:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
+| 19:00 | Ember II | 5 000 | Kredit | 1 600 000 kredit |
+| 20:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
+| 21:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
+| 22:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
 | 23:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
 
 <!-- market-day:end -->

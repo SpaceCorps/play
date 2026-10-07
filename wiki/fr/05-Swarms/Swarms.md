@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c1ec7aa1207d519d -->
+<!-- wiki-i18n source: 2e7e76790e2b0906 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -10,7 +10,7 @@ Un **essaim** est un groupe d’aliens qui parcourt une partie de la galaxie sou
 
 Leurs vaisseaux sont des **aliens d’espèces à part** : ils ont leurs propres noms et leurs propres compteurs d’éliminations, et aucun ne compte comme un Seeker, un Phantasm ou un autre alien. Un vaisseau d’essaim a la forme du vaisseau sur lequel il est construit, avec une teinte à lui et son nom au-dessus ; le Boss Seeker est un Seeker bien plus grand.
 
-Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son propre Gardien pour la dernière étape de sa ligne du jour, et seul ce clan peut le blesser : aucun pilote n’en croise un qui rôde dans un secteur, et les tableaux ci-dessous ne les listent pas. Voir [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son propre Gardien pour la dernière étape de sa ligne du jour, et seul ce clan peut le blesser : aucun pilote n’en croise un qui rôde dans un secteur, et les tableaux ci-dessous ne les listent pas. Un Gardien est payé selon les dégâts, comme le meneur d’un essaim, mais son butin n’est pas une caisse pour celui qui a infligé le plus de dégâts : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) à lui. Voir [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Les trois essaims {#the-three-swarms}
 

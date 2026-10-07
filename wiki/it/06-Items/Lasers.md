@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Equipaggia i laser direttamente negli slot laser della nave o dentro i droni per
 La colonna Portata è quella di ciascun laser. **La tua nave spara alla media delle portate dei suoi laser** (contano anche i laser nei tuoi droni), arrotondata all’unità più vicina, e ogni laser spara quando il bersaglio è entro quella distanza. Una Starfire-3 accanto a due Quantum Laser 2 dà alla nave una portata di 750, non di 850; tre Starfire-3 mantengono 850, e laser tutti uguali non cambiano nulla. Un bonus di portata della Forgia conta sul proprio laser prima che si faccia la media. Senza laser l’Hangar non indica nessuna portata (un trattino) e i laser non possono sparare, ma i tuoi razzi sì, ognuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Nell’Hangar il riquadro dice “Portata media” dove i tuoi laser differiscono, e passandoci sopra elenca la portata di ciascun laser.
 
 Il Quantum Laser 1 e il 2 non hanno una probabilità critica propria (“–”): la porta un Damage Amp o un Crit Amp nei loro slot (un Penetration Amp no). I colpi critici appaiono in un colore diverso nei numeri di danno fluttuanti (azzurro ghiaccio, più grandi, con un “!”; vedi [Numeri di danno e di cura](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+I laser danneggiano anche gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), ma solo al 5% di quello che una raffica fa a una nave (contano i tuoi amp, booster, munizioni e colpi critici, poi si toglie la corazza dell’asteroide; la Siphon Battery non può danneggiarne nessuno). Per spezzarli lo strumento sono i razzi.
 
 ### Creare i tre laser più alti {#making-the-top-three-lasers}
 

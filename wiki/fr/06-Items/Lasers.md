@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7254affc4860b01c -->
+<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -60,6 +60,8 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 La colonne Portée est celle de chaque laser. **Votre vaisseau tire à la moyenne des portées de ses lasers** (les lasers de vos drones comptent aussi), arrondie à l’unité la plus proche, et chaque laser tire dès que la cible se trouve à l’intérieur de cette distance. Un Starfire-3 à côté de deux Quantum Laser 2 donne au vaisseau une portée de 750, et non de 850 ; trois Starfire-3 gardent 850, et des lasers tous identiques ne changent rien. Un bonus de portée de la Forge compte sur son propre laser avant que la moyenne ne soit calculée. Sans laser, le hangar n’affiche aucune portée (un tiret) et les lasers ne peuvent pas tirer, mais vos roquettes le peuvent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Dans le hangar, la tuile indique « Portée moy. » quand vos lasers diffèrent, et son survol liste la portée de chaque laser.
 
 Les Quantum Laser 1 et 2 n’ont pas de taux critique propre (« – ») : un Damage Amp ou un Crit Amp dans leurs emplacements leur en apporte un (un Penetration Amp non). Les coups critiques s’affichent dans une autre couleur parmi les nombres de dégâts flottants (cyan glacé, plus grands, avec un « ! » ; voir [Nombres de dégâts et de soins](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+
+Les lasers endommagent aussi les [astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), mais à 5 % seulement de ce qu’une salve inflige à un vaisseau (vos amplis, boosters, munitions et coups critiques comptent, puis le blindage de l’astéroïde se retranche ; la Siphon Battery ne peut en endommager aucun). Pour les briser, l’outil, ce sont les roquettes.
 
 ### Fabriquer les trois meilleurs lasers {#making-the-top-three-lasers}
 

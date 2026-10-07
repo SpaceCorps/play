@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f1a8f6f654c02a2d -->
+<!-- wiki-i18n source: 48656849587d467a -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Till sist tillämpas globala multiplikatorer (som aktiva boosters, till exempel 
 
 ### 3b. Raketer {#3b-rockets}
 
-En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **5 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och hälften av det vid kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar bara skada av raketer: lasrar och drönare gör ingenting med dem, och en raket träffar bara asteroiden den avfyrades mot.
+En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **3 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och hälften av det vid kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar skada av raketer och av lasrar med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av); drönare gör ingenting med dem, och en raket träffar bara asteroiden den avfyrades mot.
 
 ### 4. Att vända sig mot målet {#4-facing-the-target}
 

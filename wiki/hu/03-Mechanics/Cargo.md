@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -12,7 +12,8 @@ A megsemmisített idegenek a zsákmányukat izzó rakományládákként hagyják
 - A **vállalati pilóták** nem hagynak ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket. Lásd: [Vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md).
 - A **pilóták hajói** nem hagynak roncsot és ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket, és a pilóta leltárából nem vesznek el semmit.
 - A **feketelyuk** **Dark Matter**-ládákat rak le a zónája peremén a beléje lőtt N.I.K.E. rakétáért (lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Ők az egyetlen fajta láda, amely a lyuk gyűrűjén belül fekszik.
-- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei, a Dormant Pulse-ok és a [Clan Wardenek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
+- **Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** nem ejt ilyen ládát: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](#private-boxes) kap a zsákmányból járó részével.
 - Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor, és 24 óránként egy korlát érvényes. A darabot úgy veszik fel, mint egy ládát, és azoknak a pilótáknak van fenntartva, akik kiérdemelték, utána szabad, mint egy láda.
 
 Az az idegen, amelyet egy vállalati pilóta fejez be, a zsákmányát annak a pilótának dobja, akinek a kilövés számít (aki a foglalását tartja, különben a vállalatának az ellene harcoló pilótája); az az idegen, amellyel egy vállalati pilóta egyedül harcolt, semmit sem dob, mert a vállalati pilóták sosem gyűjtenek.
@@ -37,6 +38,15 @@ A láda fényei a benne lévő legritkább tárgy színét öltik: kékeszöld a
 - Csak a láda térképén lévő hajó veheti fel: ha megsemmisülsz, ugrasz vagy kijelentkezel útközben (vagy a felvétel fél másodpercében), a láda a többieknek marad.
 - Ha két pilóta egyszerre gyűjti ugyanazt a ládát, az kapja meg, akinek a felvétele hamarabb ér véget, pontosan egyszer; a másiknak azt mondják, hogy már nincs meg.
 - Egy láda, amelyet senki sem vesz fel, **3 perc** múlva elsodródik (az utolsó 10 másodpercében villog). Egy térképen legfeljebb 64 láda lehet; amikor egy új túllépné ezt, a legrégebbi eltűnik. Az aszteroidadarabok saját keretet kapnak a 64-en belül: egyetlen más ládát sem szorítanak ki, és egyetlen más láda sem szorít ki darabot ([a szabályok](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). A Dark Matter-ládák 4 percig élnek, és az első percben kizárólag a tieid.
+
+## Privát ládák {#private-boxes}
+
+Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmánya nem egyetlen láda egyetlen pilótának: **minden pilóta, aki a sebzés legalább 5%-át okozta, saját ládát kap**, az ő részére kisorsolva (a sebzés 20%-áért nagyjából minden mennyiség ötödét; [a részletek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Csak te látod, és csak te veheted fel.** A klánod és a csoportod nem látja, és nem veheti fel; mindenki más számára egyszerűen nincs ott. A képernyődön egy vékony gyűrű van alatta.
+- **10 percig áll** a kilövéstől számítva, és végig a tiéd: nincs 30 másodperces várakozás. Utána elsodródik, mint bármelyik láda. A Játéknapló megmondja a zsákmányból járó részedet, amikor az őrző elesik.
+- **Nem szorít ki más ládákat.** A privát ládáknak saját készletük van a térkép 64 ládája mellett (legfeljebb 32), így egy őrző kilövése soha nem veszi el egy másik láda helyét, és egy tele térkép miatt soha nem veszíted el a ládádat.
+- A felvétel ugyanaz, mint bármelyik ládánál ([fent](#collecting)): a hajód odarepül, a felvétel fél másodpercig tart.
 
 ## Boosterek {#boosters}
 

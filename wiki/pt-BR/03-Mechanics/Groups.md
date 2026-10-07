@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -37,7 +37,7 @@ Cada um recebe uma parte proporcional ao seu **nível**, seja qual for a corpora
 
 O aviso do abate informa isso: a linha **RECOMPENSAS** do próprio autor do abate mostra a parte dele, seguida de “Recompensas divididas com 2 colegas de grupo: sua parte é 40%.”, e um colega que recebe uma parte lê “*Alienígena* foi abatido por *piloto*; a parte do seu grupo garante o pagamento a você.” com os valores. Os avisos aparecem no Registro do jogo.
 
-O que fica só com o autor do abate: a **caixa de carga** (saque e recursos), o abate nas estatísticas e no ranking dele, a contagem de abates dos pontos de reset e a experiência dos drones. Os abates de outros pilotos não são divididos.
+O que fica só com o autor do abate: a **caixa de carga** (saque e recursos; a exceção é um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), cujo saque é uma caixa privada para cada colega que recebe uma parte), o abate nas estatísticas e no ranking dele, a contagem de abates dos pontos de reset e a experiência dos drones. Os abates de outros pilotos não são divididos.
 
 ## Dividindo missões {#sharing-missions}
 

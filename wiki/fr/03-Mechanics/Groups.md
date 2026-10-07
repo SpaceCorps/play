@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 08ea16894faae386 -->
+<!-- wiki-i18n source: b8b329b84df29bde -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -37,7 +37,7 @@ Chacun reçoit une part proportionnelle à son **niveau**, quelle que soit sa co
 
 La notification de l’élimination le dit : la ligne **RÉCOMPENSES** de l’auteur de l’élimination indique sa part, suivie de « Récompenses partagées avec 2 coéquipiers : votre part est de 40 % », et un coéquipier qui reçoit une part lit « *Alien* a été abattu par *pilote* ; la part de votre groupe vous rapporte » avec les montants. Les notifications s’affichent dans le Journal de jeu.
 
-Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison** (butin et ressources), l’élimination dans ses statistiques et son classement, le décompte d’éliminations des points de réinitialisation et l’expérience des drones. Les éliminations d’autres pilotes ne sont pas partagées.
+Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison** (butin et ressources ; l’exception est un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dont le butin est une caisse privée pour chaque coéquipier payé d’une part), l’élimination dans ses statistiques et son classement, le décompte d’éliminations des points de réinitialisation et l’expérience des drones. Les éliminations d’autres pilotes ne sont pas partagées.
 
 ## Partage des missions {#sharing-missions}
 

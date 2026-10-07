@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e557d3b660ce9ebb -->
+<!-- wiki-i18n source: e8ccf0e85479a269 -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -12,7 +12,8 @@ Los alienígenas destruidos dejan su botín en el espacio en forma de cajas de c
 - Los **pilotos de corporación** no dejan caja cuando los destruyen, sea quien sea o lo que sea lo que los destruye. Consulta [Pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md).
 - Las **naves de los jugadores** no dejan restos ni caja cuando las destruyen, sea quien sea o lo que sea lo que las destruye, y no se quita nada del inventario del piloto.
 - El **agujero negro** deja cajas de **Dark Matter** en el borde de su zona por cada cohete N.I.K.E. que se dispara contra él (consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Son el único tipo de caja que queda dentro del anillo del agujero.
-- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md), los Dormant Pulses y los [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
+- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
+- **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** no suelta una caja así: cada piloto que causó el 5 % del daño o más recibe una [caja privada](#private-boxes) propia, con su parte del botín.
 - **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide, y se aplica un límite cada 24 horas. Un fragmento se recoge como una caja, y está reservado para los pilotos que lo ganaron y después libre, como una caja.
 
 Un alienígena al que remata un piloto de corporación suelta su botín para el piloto al que cuenta el derribo (el que tiene su reclamación o, si no, el piloto de su corporación que lo está combatiendo); uno que un piloto de corporación combatió en solitario no suelta nada, porque los pilotos de corporación nunca recogen.
@@ -37,6 +38,15 @@ Las luces de la caja toman el color del objeto más raro que contiene: turquesa 
 - Solo puede tomarla una nave que esté en el mapa de la caja: si te destruyen, saltas o te desconectas por el camino (o durante el medio segundo que dura la recogida), la caja se queda para los demás.
 - Si dos pilotos recogen la misma caja a la vez, se la lleva aquel cuya recogida termina primero, una sola vez; al otro se le avisa de que ya no está.
 - Una caja que nadie toma se aleja a la deriva a los **3 minutos** (parpadea en sus últimos 10 segundos). Un mapa admite como máximo 64 cajas; cuando una nueva superaría ese número, desaparece la más antigua. Los fragmentos de asteroide tienen un grupo propio dentro de las 64: no expulsan ninguna otra caja, y ninguna otra caja expulsa un fragmento ([las reglas](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Las cajas de Dark Matter duran 4 minutos y son solo tuyas durante el primer minuto.
+
+## Cajas privadas {#private-boxes}
+
+El botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) no es una caja para un solo piloto: **cada piloto que causó al menos el 5 % del daño recibe una caja propia**, sorteada para su parte (para el 20 % del daño, más o menos una quinta parte de cada cantidad; [los detalles](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+
+- **Solo tú la ves y solo tú puedes recogerla.** Tu clan y tu grupo no la ven ni pueden cogerla; para todos los demás, simplemente no está. En tu pantalla tiene un anillo fino debajo.
+- **Dura 10 minutos** desde el derribo, y todo ese tiempo es tuya: no hay espera de 30 segundos. Después se aleja a la deriva como cualquier caja. El Registro de juego te dice tu parte del botín cuando cae el guardián.
+- **No expulsa otras cajas.** Las cajas privadas tienen un grupo propio junto a las 64 de un mapa (32 como máximo), así que la muerte de un guardián nunca ocupa el sitio de otra caja y un mapa lleno nunca te cuesta tu caja.
+- Recogerla es igual que con cualquier caja ([arriba](#collecting)): tu nave vuela hasta ella y la recogida dura medio segundo.
 
 ## Potenciadores {#boosters}
 
