@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa la
 1. En **samlare** bryter malm, en viss mängd i timmen, in i sitt eget lager (72 timmars produktion).
 2. **Hämta** flyttar malmen från samlarens lager in i **Resurslagret**, malmbanken, där varje malm förvaras för sig.
 3. **Smedjan** tar den malm den behöver från malmbanken när en sats startar, och gör plåtar, 10 sekunder per plåt, en sats i taget.
-4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/06-Items/Lasers.md) gör dem till en Quantum Laser 3, en Starfire-3 eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate, som [Smedjan](/wiki/06-Items/Forge.md) och sista nivån i varje uppgraderingskedja kräver.
+4. **Hämta plåtar** flyttar de färdiga plåtarna till ditt inventarie (ditt skepp måste vara landat). [Monteringen](/wiki/06-Items/Lasers.md) gör dem till en Quantum Laser III, en Starfire-III eller en Helios Beam, och, en av varje tillsammans med 5 Dark Matter, till en Dark Matter Plate, som [Smedjan](/wiki/06-Items/Forge.md) och sista nivån i varje uppgraderingskedja kräver.
 
 ### Velkonite-samlare och Orvium-samlare {#velkonite-collector-and-orvium-collector}
 

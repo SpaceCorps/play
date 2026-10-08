@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 1. Egy **gyűjtő** ércet bányászik, óránként egy meghatározott mennyiséget, a saját tárolójába (72 órányi termelés fér bele).
 2. A **begyűjtés** áthelyezi az ércet a tárolóból az **Erőforrás-raktárba**, a bankba, ahol minden érc külön van tárolva.
 3. A **Kovácsműhely** az adag indulásakor kiveszi a raktárból a szükséges ércet, és lemezeket készít, lemezenként 10 másodperc alatt, egyszerre egy adagot.
-4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/06-Items/Lasers.md) ezekből Quantum Laser 3-at, Starfire-3-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít, amelyet a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) és minden fejlesztési lánc utolsó szintje kér.
+4. A **Lemezek begyűjtése** a kész lemezeket a készletedbe helyezi (a hajódnak leszállt állapotban kell lennie). A [Gyártás](/wiki/06-Items/Lasers.md) ezekből Quantum Laser III-at, Starfire-III-at vagy Helios Beamet készít, és mindkét fajta lemezből egyet-egyet 5 Dark Matterrel együtt egy Dark Matter Plate-té alakít, amelyet a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) és minden fejlesztési lánc utolsó szintje kér.
 
 ### Velkonite-gyűjtő és Orvium-gyűjtő {#velkonite-collector-and-orvium-collector}
 

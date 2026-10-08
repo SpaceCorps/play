@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 1. Ein **Kollektor** fördert Erz, eine bestimmte Menge pro Stunde, in seinen eigenen Speicher (für 72 Stunden).
 2. **Abholen** bringt das Erz aus dem Speicher ins **Ressourcenlager**, wo jedes Erz für sich eingelagert wird.
 3. Die **Schmiede** nimmt das Erz, das sie braucht, aus dem Lager, wenn eine Charge startet, und macht daraus Platten, 10 Sekunden pro Platte, eine Charge nach der anderen.
-4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/06-Items/Lasers.md) macht daraus einen Quantum Laser 3, einen Starfire-3 oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate, die die [Schmiede der Montage](/wiki/06-Items/Forge.md) und die letzte Stufe jeder Aufwertungskette verlangen.
+4. **Platten abholen** bringt die fertigen Platten in dein Inventar (dein Schiff muss gelandet sein). Die [Montage](/wiki/06-Items/Lasers.md) macht daraus einen Quantum Laser III, einen Starfire-III oder einen Helios Beam und, aus je einer der beiden Platten mit 5 Dark Matter, eine Dark Matter Plate, die die [Schmiede der Montage](/wiki/06-Items/Forge.md) und die letzte Stufe jeder Aufwertungskette verlangen.
 
 ### Velkonite-Kollektor und Orvium-Kollektor {#velkonite-collector-and-orvium-collector}
 

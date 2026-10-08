@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@
 各強化系統の最終ティアは **Dark Matter Plate 3枚** を要求し、Velkonite プレートは要求しません。Velkonite プレートを使うのはその手前のティアです。12個の部品です。
 
 - **レーザーアンプ：** Damage Amp IV、Crit Amp IV、Penetration Amp IV。それぞれティアIIIのアンプから作ります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
-- **Helios Beam**：Starfire-3 から作り、Orvium Reinforced Plate 18枚も使います（[レーザーと弾薬](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
+- **Helios Beam**：Starfire-III から作り、Orvium Reinforced Plate 18枚も使います（[レーザーと弾薬](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
 - **シールドセル：** Absorption Shield Cell IV、Capacity Shield Cell IV。それぞれティアIIIのセルから作ります（[シールド](/wiki/06-Items/Shields.md#shield-cells)）。
 - **Heavy Shield Core**：Basic Shield Core から作ります（[シールド](/wiki/06-Items/Shields.md#shield-cores)）。
 - **スラスター：** Impulse Thruster IV、Momentum Thruster IV。それぞれティアIIIのスラスターから作ります（[推進装置](/wiki/06-Items/Propulsion.md#thrusters)）。
 - **Engine III**：Engine II から作ります（[推進装置](/wiki/06-Items/Propulsion.md#engines)）。
 - **CPU：** Extra Slots CPU III は Orvium Reinforced Plate 6枚、Base CPU II は2枚も使います（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
-**次のものは Dark Matter Plate を要求しません。** Quantum Laser 3 と Starfire-3（Velkonite プレート）、すべての系統のティアIIとIII（アンプは Velkonite プレート1枚または2枚、セルとスラスターは2枚または4枚）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I と II、Base CPU I、16種類のドローン編成、そして艦船です。[鍛冶場](/wiki/06-Items/Forge.md)は、最上位の2ステップそれぞれで従来どおり2枚を要求します。
+**次のものは Dark Matter Plate を要求しません。** Quantum Laser III と Starfire-III（Velkonite プレート）、すべての系統のティアIIとIII（アンプは Velkonite プレート1枚または2枚、セルとスラスターは2枚または4枚）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I と II、Base CPU I、16種類のドローン編成、そして艦船です。[鍛冶場](/wiki/06-Items/Forge.md)は、最上位の2ステップそれぞれで従来どおり2枚を要求します。
 
 プレート1枚は、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮して作るので、部品1つの3枚には、Velkonite プレート3枚、Orvium プレート3枚、750 Thulium も要ります。すべてに最終ティアを使ったときの合計は次のとおりです。
 

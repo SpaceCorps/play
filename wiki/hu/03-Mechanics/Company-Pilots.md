@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b4f15f0383031b07 -->
+<!-- wiki-i18n source: d5060b7c32b5d83e -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
@@ -10,7 +10,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 ## Kik ők {#who-they-are}
 
 - **Osztag**: vállalati szektoronként 3 pilóta minden világban (az Alpha, a Beta és a Gamma világnak saját osztagai vannak), mindegyik a vállalat rövidítésével és egy hívójellel szerepel, pl. **[M] Vesper**. A névtábláikon egy kis robotjel és a vállalat színe látszik.
-- **Hajó**: egy [Ostirion](/wiki/02-Ships/Ostirion.md) három **Quantum Laser 2** lézerrel, két **Light Shield Core** pajzzsal, egy **Engine I** hajtóművel és egy **Repair Drone I**-gyel:
+- **Hajó**: egy [Ostirion](/wiki/02-Ships/Ostirion.md) három **Quantum Laser II** lézerrel, két **Light Shield Core** pajzzsal, egy **Engine I** hajtóművel és egy **Repair Drone I**-gyel:
   - 48 000 életerő, 22 000 pajzspont, sebesség: 202
   - elnyelés 45%: a pajzsaik minden találat 45%-át fogják fel, a hajótest pedig az 55%-át
   - sortűzenként 195 alapsebzés (x1 lőszer), nincs kritikus esély, hatótáv: 700

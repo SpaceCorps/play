@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
 Az **aszteroidák** nagy sziklák, amelyek a vállalatok szektoraiban és a veszélyes szektorokban a repülési síkban fekszenek. Soha nem mozdulnak, és soha nem lőnek. Törj szét egyet **rakétákkal** vagy **lézerekkel**, és apró **darabokra** robban, amelyekben kredit, Thulium és érc van; ezeket úgy veszed fel, mint a [rakományt](/wiki/03-Mechanics/Cargo.md). Erre a munkára a rakéta való: a lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak, a drónok pedig nem ártanak neki.
 
-A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, becsületet vagy rangsorpontot, és a kilőtt rakéták kreditbe vagy Thuliumba kerülnek. Amit ad: kredit és Thulium, érc a [Kovácsműhelyhez](/wiki/06-Items/Forge.md) és a gyártáshoz harc nélkül, és olyan munka, amelyen egy [csoport](/wiki/03-Mechanics/Groups.md) osztozhat. Jól fizet: a játék saját modellje szerint egy óra a megfelelő aszteroidákon a megfelelő rakétával nagyjából 2,8–7,6-szorosát hozza a szinted legjobb vadászórája hozamának, a rakéták árának levonása után. A napi korlátok ([A világok](#the-worlds)) megszabják a határát, és hamar eléred őket: Alphában egy kitartó bányász egy jó szektorban kevesebb mint 2 óra alatt eléri a Thulium-korlátot, és nagyjából 2,7 óra alatt a kreditkorlátot.
+A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, becsületet vagy rangsorpontot, és a kilőtt rakéták kreditbe vagy Thuliumba kerülnek. Amit ad: kredit és Thulium, érc a [Kovácsműhelyhez](/wiki/06-Items/Forge.md) és a gyártáshoz harc nélkül, és olyan munka, amelyen egy [csoport](/wiki/03-Mechanics/Groups.md) osztozhat. Jól fizet: a játék saját modellje szerint egy óra a megfelelő aszteroidákon a megfelelő rakétával nagyjából 2,6–6,8-szorosát hozza a szinted legjobb vadászórája hozamának, a rakéták árának levonása után. A napi korlátok ([A világok](#the-worlds)) megszabják a határát, és hamar eléred őket: Alphában egy kitartó bányász egy jó szektorban kevesebb mint 2 óra alatt eléri a Thulium-korlátot, és nagyjából 2,7 óra alatt a kreditkorlátot.
 
 ## Mi az aszteroida {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ Mindegyik közül a legnagyobb, csoportnak való szikla.
 
 ## Mit nem ad {#what-it-does-not-give}
 
-Az aszteroida nem kilövés. A szétlövése nem ad XP-t, becsületet, kilövésszámot, PvE- vagy PvP-pontot, rangsort, [wipe-pontot](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), drón-XP-t, és semmilyen előrehaladást egy [küldetésben](/wiki/03-Mechanics/Quests.md). A Szezonbolt boostjai sem hatnak rá. Azt adja, ami a táblázatokban áll: kreditet, Thuliumot és ércet, amelyeket a [Nyersanyagok](/wiki/06-Items/Resources.md) oldal az idegenek zsákmányával együtt sorol fel.
+Az aszteroida nem kilövés. A szétlövése nem ad XP-t, becsületet, kilövésszámot, PvE- vagy PvP-pontot, rangsort, [wipe-pontot](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), drón-XP-t, és semmilyen előrehaladást egy [küldetésben](/wiki/03-Mechanics/Quests.md), kivéve az egyes szintek [aszteroidás küldetését](/wiki/03-Mechanics/Quests.md#levels). A Szezonbolt boostjai sem hatnak rá. Azt adja, ami a táblázatokban áll: kreditet, Thuliumot és ércet, amelyeket a [Nyersanyagok](/wiki/06-Items/Resources.md) oldal az idegenek zsákmányával együtt sorol fel.
 
 ## Tippek {#tips}
 

@@ -110,7 +110,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 1. A **collector** mines ore, an amount an hour, into its own hopper (72 hours' worth).
 2. **Collect** moves the ore from the hopper into the **Resource Storage**, the bank, where each ore is kept apart.
 3. The **Forgery** takes the ore it needs from the bank when a batch starts, and makes plates, 10 seconds a plate, one batch at a time.
-4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/06-Items/Lasers.md) turns them into a Quantum Laser 3, a Starfire-3 or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate, which [The Forge](/wiki/06-Items/Forge.md) and the last tier of every upgrade chain ask for.
+4. **Collect plates** moves the finished plates into your inventory (your ship must be landed). [Assembly](/wiki/06-Items/Lasers.md) turns them into a Quantum Laser III, a Starfire-III or a Helios Beam, and, one of each with 5 Dark Matter, into a Dark Matter Plate, which [The Forge](/wiki/06-Items/Forge.md) and the last tier of every upgrade chain ask for.
 
 ### Velkonite Collector and Orvium Collector
 

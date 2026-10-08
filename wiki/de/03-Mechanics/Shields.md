@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 
 Jeder Schild-Boost erhöht einen der drei Werte und steht im Fenster Booster unter seiner eigenen Art:
 
-- **Kapazität** (maximale Schildpunkte): Shield Wall Booster 1 und 2 und der dauerhafte Schildkapazitäts-Boost.
+- **Kapazität** (maximale Schildpunkte): Shield Wall Booster I und II und der dauerhafte Schildkapazitäts-Boost.
 - **Absorption** (der Anteil eines Treffers, den deine Schilde nehmen): der dauerhafte Schildabsorptions-Boost (+0,1 Punkte pro Level, höchstens +10 Punkte).
 - **Aufladung** (pro Sekunde wiederhergestellte Schildpunkte): der Shield Regen Booster.
 

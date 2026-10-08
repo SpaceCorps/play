@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 630505c843ae163b -->
+<!-- wiki-i18n source: bf2f009d73842c4b -->
 <!-- wiki-i18n title: Boosterek -->
 # Boosterek {#boosters}
 
@@ -16,19 +16,19 @@ Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret
 ```tree
 Experience Booster | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Honor Booster | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
 Shield Regen Booster | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Resource Magnet Booster | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 1 | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster I | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Loot Luck Booster | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 
-Shield Wall Booster 1 -> Shield Wall Booster 2
-Hull Plating Booster 1 -> Hull Plating Booster 2
-Laser Damage Booster 1 -> Laser Damage Booster 2
+Shield Wall Booster I -> Shield Wall Booster II
+Hull Plating Booster I -> Hull Plating Booster II
+Laser Damage Booster I -> Laser Damage Booster II
 ```
 <!-- item-tree:end -->
 
@@ -43,16 +43,16 @@ A boosterek additív skálázási rendszert használnak:
 
 ## Aktív boosterek {#active-boosters}
 
-Minden booster alapesetben **10 órán** át tart, és vásárláskor, megszerzéskor vagy átvételkor azonnal aktiválódik. A három **másodikszintű** booster (Laser Damage Booster 2, Shield Wall Booster 2 és Hull Plating Booster 2) nem kapható: a technológiájukat a Skylabban kutatod ki ([Kutatás](/wiki/03-Mechanics/Research.md)), majd a Gyártásban elkészíted őket, és az átvételkor a 10 órájuk azonnal elindul, ahogy vásárláskor is.
+Minden booster alapesetben **10 órán** át tart, és vásárláskor, megszerzéskor vagy átvételkor azonnal aktiválódik. A három **másodikszintű** booster (Laser Damage Booster II, Shield Wall Booster II és Hull Plating Booster II) nem kapható: a technológiájukat a Skylabban kutatod ki ([Kutatás](/wiki/03-Mechanics/Research.md)), majd a Gyártásban elkészíted őket, és az átvételkor a 10 órájuk azonnal elindul, ahogy vásárláskor is.
 
 | Név | Ritkaság | Alaphatás (10 óra) | Ár (Thulium) |
 | :--- | :--- | :--- | :--- |
-| **Laser Damage Booster 1** | Ritka | +10% lézersebzés | 20 000 |
-| **Laser Damage Booster 2** | Ritka | +10% lézersebzés | Gyártás: 20 000 |
-| **Shield Wall Booster 1** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | 15 000 |
-| **Shield Wall Booster 2** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | Gyártás: 15 000 |
-| **Hull Plating Booster 1** | Ritka | +10% max. életerő | 15 000 |
-| **Hull Plating Booster 2** | Ritka | +10% max. életerő | Gyártás: 15 000 |
+| **Laser Damage Booster I** | Ritka | +10% lézersebzés | 20 000 |
+| **Laser Damage Booster II** | Ritka | +10% lézersebzés | Gyártás: 20 000 |
+| **Shield Wall Booster I** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | 15 000 |
+| **Shield Wall Booster II** | Ritka | +25% pajzskapacitás (a pajzspontok maximuma) | Gyártás: 15 000 |
+| **Hull Plating Booster I** | Ritka | +10% max. életerő | 15 000 |
+| **Hull Plating Booster II** | Ritka | +10% max. életerő | Gyártás: 15 000 |
 | **Shield Regen Booster** | Ritka | +25% pajzstöltődési sebesség (másodpercenként visszatöltődő pajzspontok) | 10 000 |
 | **Experience Booster** | Gyakori | +20% szerzett tapasztalat | 8 000 |
 | **Honor Booster** | Gyakori | +20% szerzett becsületpont | 10 000 |
@@ -60,7 +60,7 @@ Minden booster alapesetben **10 órán** át tart, és vásárláskor, megszerz�
 | **Loot Luck Booster** | Legendás | +5% esély ritka zsákmányra az NPC-ktől | 30 000 |
 
 > [!NOTE]
-> **Booster vagy erősítő?** Két különböző dolog. Minden boosternek **Booster** van a nevében, időzítőn fut, és nincs mibe szerelni: a **Laser Damage Booster 1** és a **Laser Damage Booster 2** 10 órára +10% lézersebzést ad, a Boltból vagy a Gyártásból. A **Damage Amp**, a **Crit Amp** és a **Penetration Amp** (I–IV. szint) lézererősítők: modulok, amelyeket a lézer erősítőfoglalatába szerelsz, időzítő nélkül ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 előtt a boosterek neve Damage Amp és Damage Amp II, Shield Wall és Shield Wall II, Hull Plating és Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet és Loot Luck volt; a futó boostereid az új neveiken futottak tovább.
+> **Booster vagy erősítő?** Két különböző dolog. Minden boosternek **Booster** van a nevében, időzítőn fut, és nincs mibe szerelni: a **Laser Damage Booster I** és a **Laser Damage Booster II** 10 órára +10% lézersebzést ad, a Boltból vagy a Gyártásból. A **Damage Amp**, a **Crit Amp** és a **Penetration Amp** (I–IV. szint) lézererősítők: modulok, amelyeket a lézer erősítőfoglalatába szerelsz, időzítő nélkül ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 előtt a boosterek neve Damage Amp és Damage Amp II, Shield Wall és Shield Wall II, Hull Plating és Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet és Loot Luck volt; a futó boostereid az új neveiken futottak tovább.
 
 ---
 
@@ -70,7 +70,7 @@ A pajzsnak három külön értéke van, és minden pajzsboost pontosan egyet nö
 
 | Fajta | Mi ez | Mi növeli |
 | :--- | :--- | :--- |
-| **Pajzskapacitás** | A pajzspontjaid maximuma | Shield Wall Booster 1, Shield Wall Booster 2, az állandó **Shield Capacity Boost** (Szezonbolt) |
+| **Pajzskapacitás** | A pajzspontjaid maximuma | Shield Wall Booster I, Shield Wall Booster II, az állandó **Shield Capacity Boost** (Szezonbolt) |
 | **Pajzselnyelés** | A találatok azon része, amelyet a pajzsaid felfognak (a többit a hajótest kapja); meghaladhatja a 100%-ot | Az állandó **Shield Absorbance Boost** (Szezonbolt): szintenként +0,1 pont 25 WP-ért, legfeljebb +10 pont. Booster nem növeli |
 | **Pajzstöltődés** | Másodpercenként visszatöltődő pajzspontok | Shield Regen Booster. Állandó buff nem növeli |
 

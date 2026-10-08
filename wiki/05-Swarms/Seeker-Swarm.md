@@ -28,8 +28,8 @@ The Seeker Swarm is the smallest of the [swarms](/wiki/05-Swarms/Swarms.md): a *
 ## How the fight goes
 
 - **Leave it alone until your ship can take it.** A Boss Seeker hits harder than any pilot's first ship can bear: a new pilot's Protos, with no shield yet, is destroyed in seconds once the boss and its slaves are on it.
-- **Stay out of reach.** The boss and its slaves are slower than a Protos, and their weapons reach less far than a Quantum Laser 2's (see [Lasers & Ammo](/wiki/06-Items/Lasers.md)): a pilot who has such lasers and keeps beyond their range takes no damage while it fires. A pilot with Quantum Laser 1 cannot stay out of reach.
-- **The slaves heal faster than a lone new pilot hits.** Together they mend more than one pilot's lasers deal with x1 ammo, so bring a partner and x2 ammo. Two pilots with Quantum Laser 2 who keep their distance take the boss down in about a minute in Alpha, and much faster with x2 ammo.
+- **Stay out of reach.** The boss and its slaves are slower than a Protos, and their weapons reach less far than a Quantum Laser II's (see [Lasers & Ammo](/wiki/06-Items/Lasers.md)): a pilot who has such lasers and keeps beyond their range takes no damage while it fires. A pilot with Quantum Laser I cannot stay out of reach.
+- **The slaves heal faster than a lone new pilot hits.** Together they mend more than one pilot's lasers deal with x1 ammo, so bring a partner and x2 ammo. Two pilots with Quantum Laser II who keep their distance take the boss down in about a minute in Alpha, and much faster with x2 ammo.
 - **The boss comes back** after the time in the *At a glance* list, at full strength, in the same sector, and its slaves come one after the other.
 
 ## Rewards and drops

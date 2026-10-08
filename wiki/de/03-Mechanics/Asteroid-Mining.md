@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
 **Asteroiden** sind große Felsbrocken, die in der Flugebene der Konzernsektoren und der Gefahrensektoren liegen. Sie bewegen sich nie und schießen nie. Zerbrich einen mit **Raketen** oder **Lasern**, und er zerfällt in kleine **Brocken** aus Credits, Thulium und Erz, die du einsammelst wie [Fracht](/wiki/03-Mechanics/Cargo.md). Raketen sind das richtige Werkzeug dafür: Deine Laser beschädigen einen Asteroiden zwar auch, aber nur mit 5 % dessen, was sie einem Schiff antun, und Drohnen richten bei ihm nichts aus.
 
-Der Abbau ist eine andere Arbeit als die Jagd, kein Ersatz dafür: Er gibt keine EP, keine Ehre und keine Ranglistenpunkte, und die Raketen, die du abfeuerst, kosten Credits oder Thulium. Dafür bekommst du Credits und Thulium, Erz für die [Schmiede](/wiki/06-Items/Forge.md) und fürs Herstellen ohne Kampf und eine Arbeit, die eine [Gruppe](/wiki/03-Mechanics/Groups.md) teilen kann. Er zahlt gut: Nach dem eigenen Modell des Spiels bringt eine Stunde an den richtigen Asteroiden mit der richtigen Rakete etwa das 2,8- bis 7,6-Fache der besten Jagdstunde deines Levels, wenn die Raketen bezahlt sind. Die Tageslimits unter [Die Welten](#the-worlds) setzen eine Grenze, und du erreichst sie bald: In Alpha erreicht ein Pilot, der gleichmäßig abbaut, in einem guten Sektor das Thulium-Limit in unter 2 Stunden und das Credits-Limit in etwa 2,7 Stunden.
+Der Abbau ist eine andere Arbeit als die Jagd, kein Ersatz dafür: Er gibt keine EP, keine Ehre und keine Ranglistenpunkte, und die Raketen, die du abfeuerst, kosten Credits oder Thulium. Dafür bekommst du Credits und Thulium, Erz für die [Schmiede](/wiki/06-Items/Forge.md) und fürs Herstellen ohne Kampf und eine Arbeit, die eine [Gruppe](/wiki/03-Mechanics/Groups.md) teilen kann. Er zahlt gut: Nach dem eigenen Modell des Spiels bringt eine Stunde an den richtigen Asteroiden mit der richtigen Rakete etwa das 2,6- bis 6,8-Fache der besten Jagdstunde deines Levels, wenn die Raketen bezahlt sind. Die Tageslimits unter [Die Welten](#the-worlds) setzen eine Grenze, und du erreichst sie bald: In Alpha erreicht ein Pilot, der gleichmäßig abbaut, in einem guten Sektor das Thulium-Limit in unter 2 Stunden und das Credits-Limit in etwa 2,7 Stunden.
 
 ## Was ein Asteroid ist {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ Der größte von allen, ein Fels für eine Gruppe.
 
 ## Was er nicht gibt {#what-it-does-not-give}
 
-Ein Asteroid ist kein Abschuss. Ihn zu zerbrechen gibt keine EP, keine Ehre, keine Abschusszählung, keine PvE- oder PvP-Punkte, keine Rangliste, keine [Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), keine Drohnen-EP und keinen Fortschritt bei einer [Mission](/wiki/03-Mechanics/Quests.md). Auch die Boosts des Saison-Shops wirken nicht darauf. Er gibt, was in den Tabellen steht: Credits, Thulium und Erz, die die Seite [Ressourcen](/wiki/06-Items/Resources.md) zusammen mit der Beute der Aliens aufführt.
+Ein Asteroid ist kein Abschuss. Ihn zu zerbrechen gibt keine EP, keine Ehre, keine Abschusszählung, keine PvE- oder PvP-Punkte, keine Rangliste, keine [Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), keine Drohnen-EP und keinen Fortschritt bei einer [Mission](/wiki/03-Mechanics/Quests.md), außer bei der [Asteroiden-Mission jedes Levels](/wiki/03-Mechanics/Quests.md#levels). Auch die Boosts des Saison-Shops wirken nicht darauf. Er gibt, was in den Tabellen steht: Credits, Thulium und Erz, die die Seite [Ressourcen](/wiki/06-Items/Resources.md) zusammen mit der Beute der Aliens aufführt.
 
 ## Tipps {#tips}
 

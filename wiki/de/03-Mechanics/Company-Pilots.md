@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b4f15f0383031b07 -->
+<!-- wiki-i18n source: d5060b7c32b5d83e -->
 <!-- wiki-i18n title: Konzernpiloten -->
 # Konzernpiloten {#company-pilots}
 
@@ -10,7 +10,7 @@ Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, 
 ## Wer sie sind {#who-they-are}
 
 - **Staffel**: 3 Piloten pro Konzernsektor in jeder Welt (Alpha, Beta und Gamma haben jeweils eigene Staffeln), jeder benannt mit dem Kürzel des Konzerns und einem Rufzeichen, z. B. **[M] Vesper**. Ihre Namensschilder tragen ein kleines Robotersymbol und die Farbe des Konzerns.
-- **Schiff**: eine [Ostirion](/wiki/02-Ships/Ostirion.md) mit drei **Quantum Laser 2**, zwei **Light Shield Cores**, einem **Engine I** und einer **Repair Drone I**:
+- **Schiff**: eine [Ostirion](/wiki/02-Ships/Ostirion.md) mit drei **Quantum Laser II**, zwei **Light Shield Cores**, einem **Engine I** und einer **Repair Drone I**:
   - 48.000 Trefferpunkte, 22.000 Schildpunkte, Tempo 202
   - Absorption 45 %: Ihre Schilde nehmen 45 % jedes Treffers, die Hülle 55 %
   - 195 Grundschaden pro Salve (x1-Munition), keine Krit-Chance, Reichweite 700

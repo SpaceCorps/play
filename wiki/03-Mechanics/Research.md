@@ -18,7 +18,7 @@ This page has the whole technology tree with the time each technology takes, the
 - **The tank.** The Centre keeps its science in a tank that holds 12 h of research at level 1 and 25% more with every level (the table below).
 - **Fuel into science.** A resource you feed becomes science at once, as the fuel table shows. A research burns 1 science for every second of its research time; with the tank empty it waits, and it goes on when you feed the Centre.
 - **A free first hour.** A new Centre starts with 3,600 science in its tank, 1 h of research.
-- **One at a time.** The Centre researches one technology at a time. There is no queue.
+- **One at a time.** The Centre researches one technology at a time, but you can line up to 5 more behind it with the Queue button. Each one starts by itself the moment the one before it finishes, even while you are away. Nothing is paid when you queue: a technology takes its Dark Matter when it starts, and a queued one can be taken out again for free.
 - **While you are away.** A research runs on the server's clock, so it goes on after you log out, until it is finished or the tank is empty. A blackout or an upgrade of the Centre does not stop it.
 - **Power.** The Centre draws 25 at level 1 and 15% more with every level, and it cannot be switched off.
 - **The wipe keeps all of it:** your technologies, the science in the tank, the Dark Matter plugged in, a research under way and the boost.
@@ -29,7 +29,7 @@ This page has the whole technology tree with the time each technology takes, the
 
 **The laser amps and the last tier.** The Damage, Crit and Penetration Amps of tiers II to IV are researched crafts like the rest. Pilots who held or had queued amps when the amp families came received the technology of each of those amps and of the tiers below them. Twelve technologies need a technology of another tree, the Dark Matter Plate's of the Resources tree, because the last tier of every upgrade chain asks for three plates: the tier IV Damage, Crit and Penetration Amps, the tier IV Absorption and Capacity Shield Cells, the tier IV Impulse and Momentum Thrusters, the Heavy Shield Core, the Engine III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. A pilot who researched one of them earlier keeps it, and needs the plate's technology to craft its plates. The tree below draws no arrow for it, but the table lists it and the card in the game names it ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
-In the **Research** view of your Skylab a technology tells you more than a box of the trees below. Point at one and a card opens with the research time and the science it burns and, under them, what the item **is and does**: its kind and its tier in its family (for example the third of the four Impulse Thrusters), its description, its numbers as the Hangar and the Shop show them (the damage, crit chance and range of a laser, the capacity, recharge and absorbance of a shield, the speed boost and multiplier of a thruster, the damage, blast and range of a rocket, what a drone formation gives and what it costs you), a small table of the tiers of its family, and what Assembly then asks to craft it: the time, the Credits and Thulium and the materials. So you can see what a tier gives before you research it. Click a technology to pick it: the card beside the tree shows the same in full, under the **Start research** button.
+In the **Research** view of your Skylab a technology tells you more than a box of the trees below. Point at one and a card opens with the research time and the science it burns and, under them, what the item **is and does**: its kind and its tier in its family (for example the third of the four Impulse Thrusters), its description, its numbers as the Hangar and the Shop show them (the damage, crit chance and range of a laser, the capacity, recharge and absorbance of a shield, the speed boost and multiplier of a thruster, the damage, blast and range of a rocket, what a drone formation gives and what it costs you), a small table of the tiers of its family, and what Assembly then asks to craft it: the time, the Credits and Thulium and the materials. So you can see what a tier gives before you research it. Click a technology to pick it: the card beside the tree shows the same in full, under the **Start research** button. While a research runs, **Queue** takes the place of the Start button: a queued technology shows its order number on the tree, and a queue card under the research that runs lists them all, each with a cross to take it out. If the next one cannot start (the Dark Matter it needs is not in the Centre, or the tank is empty), the queue waits and says why, until you fix it and press **Start queue**.
 
 ### The tank at every level
 
@@ -117,7 +117,7 @@ The technologies at the top of the tree need Dark Matter as well. It comes from 
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | Epic | 10 h | 10 |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | Epic | 10 h | 10 |
 | [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | Epic | 10 h | 10 |
-| [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | Mythical | 1 d | 10 |
+| [Starfire-III](/wiki/06-Items/Lasers.md#lasers) | Mythical | 1 d | 10 |
 | [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | Mythical | 1 d | 10 |
 | [Damage Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Epic | 10 h | 10 |
 | [Crit Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Epic | 10 h | 10 |
@@ -188,9 +188,9 @@ Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ### Lasers & Ammo {#tree-lasers}
 
 ```tree research
-Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Damage Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -201,7 +201,7 @@ Penetration Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 18
 Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 1 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 
-Quantum Laser 3 => Starfire-3 => Helios Beam
+Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -210,9 +210,9 @@ Penetration Amp II => Penetration Amp III => Penetration Amp IV
 ### Boosters {#tree-boosters}
 
 ```tree research
-Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
 ```
 
 ### Drones {#tree-drones}
@@ -316,14 +316,14 @@ Gyre Formation => Auger Formation
 | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 h | 10,800 | – |
 | [Capacity Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Capacity Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 h | 36,000 | 10 |
 | [Heavy Shield Core](/wiki/06-Items/Shields.md#shield-cores) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 h | 10,800 | – |
-| [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | – | B | 3 h | 10,800 | – |
-| [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | [Quantum Laser 3](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86,400 | 10 |
-| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Starfire-3](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86,400 | 10 |
+| [Quantum Laser III](/wiki/06-Items/Lasers.md#lasers) | – | B | 3 h | 10,800 | – |
+| [Starfire-III](/wiki/06-Items/Lasers.md#lasers) | [Quantum Laser III](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86,400 | 10 |
+| [Helios Beam](/wiki/06-Items/Lasers.md#lasers) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Starfire-III](/wiki/06-Items/Lasers.md#lasers) | D | 1 d | 86,400 | 10 |
 | [Damage Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Damage Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36,000 | 10 |
 | [Crit Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Crit Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36,000 | 10 |
-| [Laser Damage Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
-| [Shield Wall Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
-| [Hull Plating Booster 2](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
+| [Laser Damage Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
+| [Shield Wall Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
+| [Hull Plating Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10,800 | – |
 | [Master Drone](/wiki/06-Items/Drones.md#available-drones) | – | C | 10 h | 36,000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 h | 21,600 | – |
 | [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 d | 86,400 | 10 |

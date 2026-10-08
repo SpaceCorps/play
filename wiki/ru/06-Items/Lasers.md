@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
+<!-- wiki-i18n source: 9288511cf701ce85 -->
 <!-- wiki-i18n title: Лазеры -->
 # Лазеры и боеприпасы {#lasers-ammo}
 
@@ -14,11 +14,11 @@
 То, что создаёт Сборочный цех, сначала требует своей технологии; наведите курсор на предмет, чтобы увидеть, сколько длится её исследование. Дерево технологий, топливо и буст: [Исследования](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Quantum Laser 1 | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 2 | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -31,13 +31,13 @@ Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 1080
 Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Standard Battery | ammo, common | buy 10 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
+Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser 1 -> Quantum Laser 2 -> Quantum Laser 3 => Starfire-3 => Helios Beam
+Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -51,39 +51,39 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 
 | Название | Редкость | Базовый урон | Шанс крита | Дальность | Слоты усилителей | Цена |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser 1** | Ветхий | 55 | – | 600 | 1 | 8 000 кредитов |
-| **Quantum Laser 2** | Обычный | 65 | – | 700 | 2 | 80 000 кредитов |
-| **Quantum Laser 3** | Редкий | 80 | 10% | 800 | 3 | Только крафт |
-| **Starfire-3** | Мифический | 135 | 15% | 850 | 3 | Только крафт |
+| **Quantum Laser I** | Ветхий | 55 | – | 600 | 1 | 8 000 кредитов |
+| **Quantum Laser II** | Обычный | 65 | – | 700 | 2 | 80 000 кредитов |
+| **Quantum Laser III** | Редкий | 80 | 10% | 800 | 3 | Только крафт |
+| **Starfire-III** | Мифический | 135 | 15% | 850 | 3 | Только крафт |
 | **Helios Beam** | Мифический | 185 | 25% | 900 | 3 | Только крафт |
 
-В колонке «Дальность» указана дальность каждого лазера по отдельности. **Ваш корабль стреляет на среднюю дальность своих лазеров** (лазеры в ваших дронах тоже учитываются), округлённую до ближайшей единицы, и все лазеры стреляют, как только цель оказывается в пределах этого расстояния. Starfire-3 рядом с двумя Quantum Laser 2 даёт кораблю дальность 750, а не 850; три Starfire-3 сохраняют 850, а одинаковые лазеры ничего не меняют. Бонус дальности из Кузницы учитывается у своего лазера до усреднения. Без лазеров ангар не показывает дальность (прочерк), и лазеры стрелять не могут, но ваши ракеты всё равно могут, каждая со своей дальностью (см. [Ракеты](/wiki/06-Items/Rockets.md)). В ангаре плитка показывает «Ср. дальность», если лазеры различаются, а при наведении курсора перечисляется дальность каждого лазера.
+В колонке «Дальность» указана дальность каждого лазера по отдельности. **Ваш корабль стреляет на среднюю дальность своих лазеров** (лазеры в ваших дронах тоже учитываются), округлённую до ближайшей единицы, и все лазеры стреляют, как только цель оказывается в пределах этого расстояния. Starfire-III рядом с двумя Quantum Laser II даёт кораблю дальность 750, а не 850; три Starfire-III сохраняют 850, а одинаковые лазеры ничего не меняют. Бонус дальности из Кузницы учитывается у своего лазера до усреднения. Без лазеров ангар не показывает дальность (прочерк), и лазеры стрелять не могут, но ваши ракеты всё равно могут, каждая со своей дальностью (см. [Ракеты](/wiki/06-Items/Rockets.md)). В ангаре плитка показывает «Ср. дальность», если лазеры различаются, а при наведении курсора перечисляется дальность каждого лазера.
 
-У Quantum Laser 1 и 2 собственного шанса крита нет («–»): его даёт Damage Amp или Crit Amp в их слотах (Penetration Amp не даёт). Критические попадания отображаются в плавающих числах урона другим цветом (ледяной голубой, крупнее, с «!»; см. [Числа урона и лечения](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+У Quantum Laser I и II собственного шанса крита нет («–»): его даёт Damage Amp или Crit Amp в их слотах (Penetration Amp не даёт). Критические попадания отображаются в плавающих числах урона другим цветом (ледяной голубой, крупнее, с «!»; см. [Числа урона и лечения](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
 
 Лазеры тоже повреждают [астероиды](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one), но лишь на 5% от того, что залп наносит кораблю (усилители, бустеры, боеприпасы и критические попадания учитываются, потом вычитается броня астероида; Siphon Battery астероиды повредить не может). Чтобы разбить астероид, нужны ракеты.
 
 ### Создание трёх лучших лазеров {#making-the-top-three-lasers}
 
-**Quantum Laser 3**, **Starfire-3** и **Helios Beam** создаются только в **Сборочном цехе**. Quantum Laser 3 больше не продаётся в магазине; у пилота, который уже владеет им, он остаётся. Каждый рецепт требует пластины из Кузницы [Skylab](/wiki/03-Mechanics/Skylab.md), а Helios Beam — ещё и 3 Dark Matter Plate:
+**Quantum Laser III**, **Starfire-III** и **Helios Beam** создаются только в **Сборочном цехе**. Quantum Laser III больше не продаётся в магазине; у пилота, который уже владеет им, он остаётся. Каждый рецепт требует пластины из Кузницы [Skylab](/wiki/03-Mechanics/Skylab.md), а Helios Beam — ещё и 3 Dark Matter Plate:
 
 | Лазер | Время создания | Что требуется |
 | :--- | :---: | :--- |
-| Quantum Laser 3 | 1 мин | 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
-| Starfire-3 | 1 мин | 1 Quantum Laser 3, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 кредитов |
-| Helios Beam | 3 мин | 1 Starfire-3, 50 Cataclysite, 2 Power Core, 18 Orvium Reinforced Plate, 3 Dark Matter Plate, 4 Reinforced Hull Plate, 2 000 Thulium |
+| Quantum Laser III | 1 мин | 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
+| Starfire-III | 1 мин | 1 Quantum Laser III, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 кредитов |
+| Helios Beam | 3 мин | 1 Starfire-III, 50 Cataclysite, 2 Power Core, 18 Orvium Reinforced Plate, 3 Dark Matter Plate, 4 Reinforced Hull Plate, 2 000 Thulium |
 
 Страница Сборочного цеха показывает, что у вас есть и что требует рецепт, а кнопка «Собрать» сообщает, чего вам не хватает. Наведите курсор на изображение или название рецепта либо на один из его материалов, чтобы увидеть полное описание и характеристики предмета.
 
-**Starfire-3 создаётся из Quantum Laser 3.** Сначала вы создаёте Quantum Laser 3, а Starfire-3 расходует его. То, что уже потратил Quantum Laser 3, повторно не требуется, поэтому вместе они стоят ровно столько, сколько раньше стоил один Starfire-3: 3 000 Thulium, 100 000 кредитов, 25 Ship Fragment, 10 Velkonite Reinforced Plate, 1 Reinforced Hull Plate и 2 минуты. Если Quantum Laser 3 у вас уже есть, вы платите только за собственную часть Starfire-3. Правила те же, что у Helios Beam (ниже): Starfire-3 сохраняет уровень зачарования израсходованного Quantum Laser 3 (Божественный Quantum Laser 3 даёт Божественный Starfire-3), а его бонусы выпадают заново; вы выбираете, какой Quantum Laser 3 пойдёт в дело, карточка сначала спросит подтверждение, прежде чем использовать предмет выше Стандартного, а Quantum Laser 3 должен быть свободным: **сначала снимите его с корабля** (вложенные в него усилители вернутся в инвентарь) и извлеките из транспортного тайника. Когда он стоит на корабле, кнопка «Собрать» сообщает «Сначала снимите Quantum Laser 3».
+**Starfire-III создаётся из Quantum Laser III.** Сначала вы создаёте Quantum Laser III, а Starfire-III расходует его. То, что уже потратил Quantum Laser III, повторно не требуется, поэтому вместе они стоят ровно столько, сколько раньше стоил один Starfire-III: 3 000 Thulium, 100 000 кредитов, 25 Ship Fragment, 10 Velkonite Reinforced Plate, 1 Reinforced Hull Plate и 2 минуты. Если Quantum Laser III у вас уже есть, вы платите только за собственную часть Starfire-III. Правила те же, что у Helios Beam (ниже): Starfire-III сохраняет уровень зачарования израсходованного Quantum Laser III (Божественный Quantum Laser III даёт Божественный Starfire-III), а его бонусы выпадают заново; вы выбираете, какой Quantum Laser III пойдёт в дело, карточка сначала спросит подтверждение, прежде чем использовать предмет выше Стандартного, а Quantum Laser III должен быть свободным: **сначала снимите его с корабля** (вложенные в него усилители вернутся в инвентарь) и извлеките из транспортного тайника. Когда он стоит на корабле, кнопка «Собрать» сообщает «Сначала снимите Quantum Laser III».
 
-**Helios Beam создаётся из Starfire-3.** Сначала вы создаёте Starfire-3 (3 000 Thulium и 100 000 кредитов вместе с его Quantum Laser 3), а Helios Beam расходует его, как [Master Drone](/wiki/06-Items/Drones.md) расходует Slave Drone. То, что уже потратил Starfire-3, повторно не требуется, поэтому вместе они стоят те 5 000 Thulium, Cataclysite, Power Core и Reinforced Hull Plate, которые Helios Beam требовал сам по себе, и 18 пластин Orvium вместо 20 (десять пластин Velkonite у Starfire-3 заменяют недостающие две), а ещё, раз Helios Beam — последняя ступень своей цепочки, 3 Dark Matter Plate; сверх этого вы платите 100 000 кредитов и 25 Ship Fragment за Starfire-3. Правило то же, что и у [улучшения модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): Helios Beam сохраняет уровень зачарования израсходованного Starfire-3 (Божественный Starfire-3 даёт Божественный Helios Beam), а его бонусы выпадают заново; если у вас несколько Starfire-3, вы выбираете, какой пойдёт в дело, а карточка сначала спросит подтверждение, прежде чем использовать предмет выше Стандартного. Starfire-3 должен быть свободным: **сначала снимите его с корабля** (вложенные в него усилители вернутся в инвентарь) и извлеките из транспортного тайника. Когда он стоит на корабле, кнопка «Собрать» сообщает «Сначала снимите Starfire-3».
+**Helios Beam создаётся из Starfire-III.** Сначала вы создаёте Starfire-III (3 000 Thulium и 100 000 кредитов вместе с его Quantum Laser III), а Helios Beam расходует его, как [Master Drone](/wiki/06-Items/Drones.md) расходует Slave Drone. То, что уже потратил Starfire-III, повторно не требуется, поэтому вместе они стоят те 5 000 Thulium, Cataclysite, Power Core и Reinforced Hull Plate, которые Helios Beam требовал сам по себе, и 18 пластин Orvium вместо 20 (десять пластин Velkonite у Starfire-III заменяют недостающие две), а ещё, раз Helios Beam — последняя ступень своей цепочки, 3 Dark Matter Plate; сверх этого вы платите 100 000 кредитов и 25 Ship Fragment за Starfire-III. Правило то же, что и у [улучшения модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): Helios Beam сохраняет уровень зачарования израсходованного Starfire-III (Божественный Starfire-III даёт Божественный Helios Beam), а его бонусы выпадают заново; если у вас несколько Starfire-III, вы выбираете, какой пойдёт в дело, а карточка сначала спросит подтверждение, прежде чем использовать предмет выше Стандартного. Starfire-III должен быть свободным: **сначала снимите его с корабля** (вложенные в него усилители вернутся в инвентарь) и извлеките из транспортного тайника. Когда он стоит на корабле, кнопка «Собрать» сообщает «Сначала снимите Starfire-III».
 
 Откуда берутся пластины:
 
-- **Velkonite Reinforced Plate** (Quantum Laser 3 и Starfire-3) куются из Velkonite, по 40 руды на пластину на 1-м уровне Кузницы Skylab. **Orvium Reinforced Plate** (Helios Beam) куются из Orvium, по 80 руды на пластину.
+- **Velkonite Reinforced Plate** (Quantum Laser III и Starfire-III) куются из Velkonite, по 40 руды на пластину на 1-м уровне Кузницы Skylab. **Orvium Reinforced Plate** (Helios Beam) куются из Orvium, по 80 руды на пластину.
 - **Dark Matter Plate** (3 для Helios Beam) прессуются в Сборочном цехе из 5 Dark Matter, Velkonite Reinforced Plate, Orvium Reinforced Plate и 250 Thulium, после того как вы изучите их рецепт. На три нужно 15 Dark Matter — в среднем 7,5 ракеты N.I.K.E., выпущенной в [чёрную дыру](/wiki/03-Mechanics/Black-Hole.md). Весь путь описан в статье [Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md).
-- Руда поступает только от сборщиков вашего Skylab. Сборщик Velkonite 5-го уровня добывает 18 Velkonite в час, поэтому пластины для Quantum Laser 3 требуют около 4 часов добычи, а десять пластин для Starfire-3 (две в его Quantum Laser 3, восемь на его собственном шаге) — около 22. Дольше всего делается Helios Beam: для его 18 пластин нужно 1 440 Orvium, то есть около 4 суток работы сборщика Orvium 5-го уровня, а ещё 3 пластины Orvium внутри его 3 Dark Matter Plate добавляют 240 Orvium, около 17 часов.
+- Руда поступает только от сборщиков вашего Skylab. Сборщик Velkonite 5-го уровня добывает 18 Velkonite в час, поэтому пластины для Quantum Laser III требуют около 4 часов добычи, а десять пластин для Starfire-III (две в его Quantum Laser III, восемь на его собственном шаге) — около 22. Дольше всего делается Helios Beam: для его 18 пластин нужно 1 440 Orvium, то есть около 4 суток работы сборщика Orvium 5-го уровня, а ещё 3 пластины Orvium внутри его 3 Dark Matter Plate добавляют 240 Orvium, около 17 часов.
 - Хранилище ресурсов вмещает 240 единиц каждой руды на 1-м уровне: 6 пластин Velkonite или 3 пластины Orvium при кузнице 1-го уровня. Поэтому куйте по ходу дела (партия кузницы — до 10 пластин на 1-м уровне) или улучшайте хранилище.
 - Откованные пластины ждут в Кузнице, пока вы не заберёте их (корабль должен стоять в отсеке), и попадают в инвентарь как обычные предметы.
 
@@ -93,7 +93,7 @@ Ship Fragment, Cataclysite, Power Core и Reinforced Hull Plate выпадают
 
 ## Лазерные усилители (Amp) {#laser-amplifiers-amps-}
 
-Устанавливайте их прямо в слот лазера, чтобы улучшить его характеристики. Есть **три линейки по четыре ступени**, названные как ячейки щита: **Damage Amp** добавляет фиксированное количество урона, **Crit Amp** добавляет шанс критического попадания и фиксированный критический урон, а **Penetration Amp** вычитает очки из поглощения вашей цели ([ниже](#shield-penetration-of-a-laser-hit)). Это не [бустеры](/wiki/06-Items/Boosters.md): **Laser Damage Booster 1** и **Laser Damage Booster 2** — бустеры с таймером (+10% к урону лазеров на 10 часов), и вставлять в них нечего.
+Устанавливайте их прямо в слот лазера, чтобы улучшить его характеристики. Есть **три линейки по четыре ступени**, названные как ячейки щита: **Damage Amp** добавляет фиксированное количество урона, **Crit Amp** добавляет шанс критического попадания и фиксированный критический урон, а **Penetration Amp** вычитает очки из поглощения вашей цели ([ниже](#shield-penetration-of-a-laser-hit)). Это не [бустеры](/wiki/06-Items/Boosters.md): **Laser Damage Booster I** и **Laser Damage Booster II** — бустеры с таймером (+10% к урону лазеров на 10 часов), и вставлять в них нечего.
 
 | Название | Редкость | Бонус к базовому урону | Бонус к шансу крита | Фикс. критический урон | Цена |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -128,9 +128,9 @@ Helios Beam с тремя Amp ступени IV — это 4 модуля пос
 
 ### Какой усилитель куда ставить {#which-amp-goes-where}
 
-Усилитель урона добавляет любому лазеру одинаковый урон, поэтому больше всего он даёт на **лазерах Quantum**. Усилитель крита умножает то, что лазер уже наносит, так что чем сильнее бьёт лазер, тем он ценнее: на **Starfire-3** он равен линейке урона, а на **Helios Beam** выходит вперёд примерно на 3,5%. Шанс крита лазера ограничен 100%: три Crit Amp III или Crit Amp IV доводят Helios Beam ровно до этого значения. Penetration Amp не даёт ни урона, ни шанса крита: он нужен против кораблей, чьи щиты иначе приняли бы большую часть вашего попадания ([ниже](#when-is-a-penetration-amp-worth-a-slot)).
+Усилитель урона добавляет любому лазеру одинаковый урон, поэтому больше всего он даёт на **лазерах Quantum**. Усилитель крита умножает то, что лазер уже наносит, так что чем сильнее бьёт лазер, тем он ценнее: на **Starfire-III** он равен линейке урона, а на **Helios Beam** выходит вперёд примерно на 3,5%. Шанс крита лазера ограничен 100%: три Crit Amp III или Crit Amp IV доводят Helios Beam ровно до этого значения. Penetration Amp не даёт ни урона, ни шанса крита: он нужен против кораблей, чьи щиты иначе приняли бы большую часть вашего попадания ([ниже](#when-is-a-penetration-amp-worth-a-slot)).
 
-С одинаковыми усилителями лазер всегда сильнее нижестоящего, поэтому лучший усилитель никогда не заменяет лучший лазер: Quantum Laser 3 с тремя Damage Amp IV наносит меньше урона, чем Helios Beam с тремя Damage Amp I (при деталях одного уровня зачарования: Quantum Laser 3 и Damage Amp IV, выкованные до «Божественного» уровня или выше, с лучшими выпавшими бонусами, могут обойти обычный Helios Beam с Damage Amp I, на уровне «Божественный» — едва-едва).
+С одинаковыми усилителями лазер всегда сильнее нижестоящего, поэтому лучший усилитель никогда не заменяет лучший лазер: Quantum Laser III с тремя Damage Amp IV наносит меньше урона, чем Helios Beam с тремя Damage Amp I (при деталях одного уровня зачарования: Quantum Laser III и Damage Amp IV, выкованные до «Божественного» уровня или выше, с лучшими выпавшими бонусами, могут обойти обычный Helios Beam с Damage Amp I, на уровне «Божественный» — едва-едва).
 
 
 ---
@@ -141,7 +141,7 @@ Helios Beam с тремя Amp ступени IV — это 4 модуля пос
 
 | Название | Редкость | Множитель урона | Пробитие щита | Цена за шт. |
 | :--- | :--- | :---: | :---: | :--- |
-| **Standard Battery** | Обычный | 1,0x | – | 10 кредитов |
+| **Standard Battery** | Обычный | 1,0x | – | 5 кредитов |
 | **Advanced Plasma** | Редкий | 2,0x | – | 0,5 Thulium |
 | **Ultra Core** | Редкий | 3,0x | 5% | 1,0 Thulium |
 | **Experimental Fusion Core** | Эпический | 4,0x | 10% | 2,2 Thulium |
@@ -167,7 +167,7 @@ Siphon Battery — боеприпас для кражи щитов вместо 
 Каждое попадание лазера вычитает очки из поглощения вашей цели из трёх источников, которые складываются: ваши **боеприпасы** (Ultra Core 5%, Experimental Fusion Core 10%), ваши **Penetration Amp** и **построение дронов** (Gemini +9%, Stiletto +16%; [Построения дронов](/wiki/03-Mechanics/Formations.md)). Сумма **останавливается на 50%** для лазера; сумма прямой ракеты — на 40% ([Ракеты](/wiki/06-Items/Rockets.md)). Щиты затем принимают поглощение цели за вычетом пробития попадания, а корпус — остальное ([Механика щитов](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Ваши усилители считаются как среднее по вашим лазерам.** Залп — это одно попадание, поэтому игра складывает пробитие усилителей каждого лазера (лазеры в ваших дронах тоже считаются) и берёт среднее по вашим лазерам, где вес каждого — его урон, как и для шанса крита. Три Penetration Amp IV в каждом лазере дают 24%; один Penetration Amp IV в одном лазере из двенадцати — 0,67%. У Wraith 12 лазеров и 36 слотов усилителей, и нужно заполнить все 36, чтобы получить 24%.
-- **Ангар это показывает.** Как только усилители ваших лазеров дают пробитие, среди боевых характеристик Ангара появляется плитка **Пробитие** с цифрой; боеприпасы и построение в неё не входят.
+- **Ангар это показывает.** Среди боевых характеристик Ангара на каждом корабле есть плитка **Пробитие** с цифрой ваших усилителей (0,0% без Penetration Amp); боеприпасы и построение в неё не входят. Наведите на плитку, чтобы прочитать пределы: сумма попадания лазера останавливается на 50%, ракеты — на 40%.
 - **Лучший лазер достигает потолка ровно.** Experimental Fusion Core (10%), Stiletto (16%) и три Penetration Amp IV в каждом лазере (24%) дают 50%.
 - **Бонус Кузницы на Penetration Amp IV в такой сборке пропадает впустую.** Penetration Amp можно ковать, как и другие усилители, и его единственный бонус умножает пробитие: «Вечный» бонус (от +9% до +15%) делает Penetration Amp IV 8,7–9,2 пункта вместо 8. Но 10 + 16 + 24 уже дают потолок 50%, и каждый лишний пункт отсекается (три «Вечных» дали бы 53,6%, обрезанные до 50%).
 

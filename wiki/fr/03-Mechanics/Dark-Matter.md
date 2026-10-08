@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@ Le wipe laisse intacte la Dark Matter de votre Centre.
 Le dernier palier de chaque chaîne d’amélioration demande **3 Dark Matter Plates** et aucune plaque de Velkonite : ce sont les paliers d’avant qui prennent celles-ci. 12 pièces :
 
 - **Amplis laser :** Damage Amp IV, Crit Amp IV et Penetration Amp IV, chacun à partir de l’ampli du palier III ([Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **Le Helios Beam**, à partir d’un Starfire-3, avec ses 18 Orvium Reinforced Plates ([Lasers et munitions](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **Le Helios Beam**, à partir d’un Starfire-III, avec ses 18 Orvium Reinforced Plates ([Lasers et munitions](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Cellules de bouclier :** Absorption Shield Cell IV et Capacity Shield Cell IV, chacune à partir de la cellule du palier III ([Boucliers](/wiki/06-Items/Shields.md#shield-cells)).
 - **Le Heavy Shield Core**, à partir d’un Basic Shield Core ([Boucliers](/wiki/06-Items/Shields.md#shield-cores)).
 - **Propulseurs :** Impulse Thruster IV et Momentum Thruster IV, chacun à partir du propulseur du palier III ([Propulsion](/wiki/06-Items/Propulsion.md#thrusters)).
 - **L’Engine III**, à partir d’un Engine II ([Propulsion](/wiki/06-Items/Propulsion.md#engines)).
 - **CPU :** Extra Slots CPU III, avec 6 Orvium Reinforced Plates, et Base CPU II, avec 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Ceux-ci ne demandent pas de Dark Matter Plates :** le Quantum Laser 3 et le Starfire-3 (plaques de Velkonite), les paliers II et III de chaque chaîne (1 ou 2 plaques de Velkonite pour un ampli, 2 ou 4 pour une cellule ou un propulseur), le Jump CPU, l’Auto-Repair CPU, Extra Slots CPU I et II, Base CPU I, les 16 formations de drones et les vaisseaux. [La Forge](/wiki/06-Items/Forge.md) garde ses 2 plates à chacun de ses deux paliers les plus hauts.
+**Ceux-ci ne demandent pas de Dark Matter Plates :** le Quantum Laser III et le Starfire-III (plaques de Velkonite), les paliers II et III de chaque chaîne (1 ou 2 plaques de Velkonite pour un ampli, 2 ou 4 pour une cellule ou un propulseur), le Jump CPU, l’Auto-Repair CPU, Extra Slots CPU I et II, Base CPU I, les 16 formations de drones et les vaisseaux. [La Forge](/wiki/06-Items/Forge.md) garde ses 2 plates à chacun de ses deux paliers les plus hauts.
 
 Une plate est pressée à partir de 5 Dark Matter, d’une Velkonite Reinforced Plate, d’une Orvium Reinforced Plate et de 250 Thulium ; les 3 plates d’une pièce prennent donc aussi 3 plaques de Velkonite, 3 plaques d’Orvium et 750 Thulium. Ce que contient un vaisseau complet, avec le dernier palier partout :
 

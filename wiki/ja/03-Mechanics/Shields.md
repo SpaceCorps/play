@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: シールド -->
 # シールドの仕組み {#shield-mechanics}
 
@@ -57,7 +57,7 @@
 
 シールド関連のブーストはどれも、3つのステータスのうち1つを上げ、ブースターウィンドウでは、それぞれの種類の下に表示されます。
 
-- **容量**（最大シールドポイント）：Shield Wall Booster 1 と 2 のブースターと、永続の Shield Capacity Boost。
+- **容量**（最大シールドポイント）：Shield Wall Booster I と II のブースターと、永続の Shield Capacity Boost。
 - **吸収率**（攻撃のうちシールドが受け持つ割合）：永続の Shield Absorbance Boost（1レベルごとに+0.1ポイント、最大+10ポイント）。
 - **リチャージ**（毎秒回復するシールドポイント）：Shield Regen Booster。
 

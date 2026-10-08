@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Enchères -->
 # Enchères {#auction}
 
@@ -9,8 +9,8 @@ Les Enchères sont le marché des pilotes et, en même temps, les lots de chaque
 
 - Il faut être au **niveau 5** pour utiliser les enchères : pour mettre en vente, acheter et enchérir.
 - Une annonce est mise à prix par lot, en crédits entiers ou en Thulium entier (pas les deux), et jamais sous le prix minimum de l’objet. Il n’y a **pas de prix maximum**.
-- Un prix en Thulium vaut au moins le prix minimum en crédits divisé par 1 000, arrondi à l’entier supérieur, et seulement pour les objets dont le prix minimum atteint 20 Thulium ou plus. C’est tout ce que fait le taux : **1 Thulium = 1 000 crédits est une règle pour le prix minimum, pas un taux de change.** Rien n’est échangé, aucune valeur n’est affichée, et les crédits et le Thulium ne sont jamais additionnés.
-- 80 objets peuvent être mis en vente, et 42 d’entre eux peuvent aussi être mis à prix en Thulium.
+- Un prix en Thulium vaut au moins le prix minimum en crédits divisé par 1 000, arrondi à l’entier supérieur, et seulement pour les objets dont le prix minimum atteint 1 Thulium ou plus. C’est tout ce que fait le taux : **1 Thulium = 1 000 crédits est une règle pour le prix minimum, pas un taux de change.** Rien n’est échangé, aucune valeur n’est affichée, et les crédits et le Thulium ne sont jamais additionnés.
+- 80 objets peuvent être mis en vente, et 79 d’entre eux peuvent aussi être mis à prix en Thulium.
 - Une annonce dure 24 / 72 / 168 heures, au choix : les durées sont les mêmes à tous les niveaux.
 - Le **dépôt** est de 1 % du prix pour chaque période de 24 heures de l’annonce, au minimum 50 crédits ou 1 Thulium. Vous le payez à la mise en vente ; il n’est jamais remboursé, même si vous annulez l’annonce.
 - À partir du niveau 10, le dépôt est de 1,5 %.
@@ -31,7 +31,7 @@ L’étiquette est un nombre d’unités, pas un interrupteur : une pile de mun
 
 La pastille **Vendable uniquement** du Hangar ne montre que ce que vous pouvez vendre, et le **marteau** à côté de la corbeille d’un objet étiqueté ouvre pour lui la fiche de vente des Enchères. Dans l’Assemblage, une recette dont le résultat est vendable le dit, et un matériau qui vous manque a un lien qui ouvre les Enchères avec son nom dans la zone de recherche.
 
-Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez déjà et que la Boutique ne vend pas, ainsi que les ressources, ont été étiquetés une fois. Ceux-ci ne l’ont pas été, parce que la Boutique les a vendus un temps ou parce que ce que vous détenez mêle pièces achetées et gagnées : le Quantum Laser 3, les Absorption Shield Cells II et III, les Impulse Thrusters II et III, les deux Reinforced Plates et la plus ancienne Base CPU I de chaque pilote (celle du kit de départ). Les nouveaux exemplaires que vous gagnez ou fabriquez sont étiquetés.
+Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez déjà et que la Boutique ne vend pas, ainsi que les ressources, ont été étiquetés une fois. Ceux-ci ne l’ont pas été, parce que la Boutique les a vendus un temps ou parce que ce que vous détenez mêle pièces achetées et gagnées : le Quantum Laser III, les Absorption Shield Cells II et III, les Impulse Thrusters II et III, les deux Reinforced Plates et la plus ancienne Base CPU I de chaque pilote (celle du kit de départ). Les nouveaux exemplaires que vous gagnez ou fabriquez sont étiquetés.
 
 ## Ce qui peut être vendu {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez 
 
 | Catégorie | Objets que vous pouvez vendre | Nombre |
 | :--- | :--- | ---: |
-| **Lasers** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Lasers** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Amplis laser** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Boucliers** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Moteurs** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Chaque objet a un **prix minimum** et il n’y a **pas de prix maximum** : dema
 
 | Objet | Vendu par lots de | Prix minimum, crédits | Prix minimum, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32 000 | 32 |
-| Quantum Laser 3 | 1 | 170 000 | 170 |
+| Quantum Laser II | 1 | 32 000 | 32 |
+| Quantum Laser III | 1 | 170 000 | 170 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
 | Impulse Thruster IV | 1 | 980 000 | 980 |
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
-| Ultra Core | 10 | 800 | Crédits seulement |
-| Lancet I | 1 | 200 | Crédits seulement |
-| Ship Fragment | 100 | 600 | Crédits seulement |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33 000 | 33 |
 
 <!-- market-bands:end -->
 
-Un prix en Thulium suit une seule règle : le prix minimum en crédits divisé par le taux, arrondi à l’entier supérieur. Le taux n’est pas une valeur que le jeu donne au Thulium. Il sert seulement à calculer le prix minimum en Thulium, et à cause de lui une annonce en Thulium peut être bon marché pour un pilote qui a du Thulium. La plupart des vendeurs demanderont des crédits. Les objets bon marché (munitions, roquettes, le premier rang de la plupart de l’équipement et les ressources communes) ne se mettent à prix qu’en crédits, car un Thulium entier serait un pas trop grand.
+Un prix en Thulium suit une seule règle : le prix minimum en crédits divisé par le taux, arrondi à l’entier supérieur. Le taux n’est pas une valeur que le jeu donne au Thulium. Il sert seulement à calculer le prix minimum en Thulium, et à cause de lui une annonce en Thulium peut être bon marché pour un pilote qui a du Thulium. La plupart des vendeurs demanderont des crédits. Tous les objets sauf le **Quorvium** peuvent être mis à prix en Thulium, les bon marché aussi (munitions, roquettes, ressources communes) : leur prix minimum est alors de 1 Thulium, le plus petit pas. Seul le Quorvium reste en crédits uniquement, car 1 Thulium vaudrait plus qu’un lot de Quorvium.
 
 Vos **annonces ouvertes** (et une annonce qu’un admin a suspendue) occupent des emplacements. En montant de niveau, vous avez plus d’emplacements, jusqu’à un maximum, et vous pouvez vendre et acheter davantage par jour. La durée que peut avoir une annonce est la même à tous les niveaux.
 
@@ -119,8 +119,8 @@ Une annonce coûte un **dépôt**, payé à la mise en vente et jamais rembours�
 
 | Annonce | Prix | Dépôt | Taxe | Le vendeur reçoit |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3 : niveau 6, 24 h | 170 000 crédits | 1 700 crédits | 8 500 crédits | 161 500 crédits |
-| Quantum Laser 3 : niveau 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III : niveau 6, 24 h | 170 000 crédits | 1 700 crédits | 8 500 crédits | 161 500 crédits |
+| Quantum Laser III : niveau 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam : niveau 12, 168 h | 2 500 000 crédits | 262 500 crédits | 125 000 crédits | 2 375 000 crédits |
 | Helios Beam : niveau 12, 168 h, pendant les derniers jours d’une saison | 2 500 000 crédits | 0 crédits | 0 crédits | 2 500 000 crédits |
 
@@ -205,7 +205,7 @@ Les Enchères servent à échanger ce que vous gagnez, et elles sont honnêtes s
 
 - **Vendre du butin n’est pas un grind.** Le butin brut des aliens n’est composé que de ressources et vaut de 0,4 à 0,9 pour cent de ce que paient en kills la même heure de chasse au niveau 5. Ce que le Marché donne à un nouveau pilote, c’est l’équipement que lui paient ses missions et dont il n’a pas besoin (une fois), les ressources des missions Défi, les caisses des boss d’essaim et ce qu’il fabrique.
 - **Il n’y a pas de revendeur.** Les ordres d’achat, où un pilote dit ce qu’il veut acheter et pour combien, ne sont pas dans cette version. En attendant, les seuls marchands sont l’artisan, qui achète des matériaux, fabrique de l’équipement dans l’Assemblage et le vend, et le pilote entrepôt, qui garde son stock dans le Cache de transport à travers la réinitialisation.
-- **L’équipement de la Boutique n’est pas fait pour être revendu.** L’équipement que vous avez acheté en Boutique ne peut pas être revendu : cela comprend le Quantum Laser 1 et 2, le Light et le Basic Shield Core, Engine I et II, le premier rang de cellules et de propulseurs, les amplis que vend la Boutique et les munitions achetées. Le seul Quantum Laser 2 vendable d’un pilote est celui qu’une mission paie une fois.
+- **L’équipement de la Boutique n’est pas fait pour être revendu.** L’équipement que vous avez acheté en Boutique ne peut pas être revendu : cela comprend le Quantum Laser I et II, le Light et le Basic Shield Core, Engine I et II, le premier rang de cellules et de propulseurs, les amplis que vend la Boutique et les munitions achetées. Le seul Quantum Laser II vendable d’un pilote est celui qu’une mission paie une fois.
 - **Les plaques viennent des missions.** Les Velkonite et Orvium Reinforced Plates du Marché sont celles que paient les missions Défi. Les plaques de la Fonderie restent dehors, sinon elles seraient la plus grosse marchandise du Marché.
 
 Si une annonce vous semble anormale, signalez-la de la façon habituelle : les administrateurs du jeu peuvent suspendre une annonce, la rendre, mettre les Enchères en pause ou en exclure un pilote, et chacune de ces actions est enregistrée.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter и Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@
 Последняя ступень каждой цепочки улучшений требует **3 Dark Matter Plate** и не требует пластин Velkonite: их берут ступени до неё. 12 модулей:
 
 - **Лазерные усилители:** Damage Amp IV, Crit Amp IV и Penetration Amp IV, каждый из усилителя ступени III ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **Helios Beam** из Starfire-3, вместе с его 18 Orvium Reinforced Plate ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **Helios Beam** из Starfire-III, вместе с его 18 Orvium Reinforced Plate ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Ячейки щита:** Absorption Shield Cell IV и Capacity Shield Cell IV, каждая из ячейки ступени III ([Щиты](/wiki/06-Items/Shields.md#shield-cells)).
 - **Heavy Shield Core** из Basic Shield Core ([Щиты](/wiki/06-Items/Shields.md#shield-cores)).
 - **Ускорители:** Impulse Thruster IV и Momentum Thruster IV, каждый из ускорителя ступени III ([Двигательные системы](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Engine III** из Engine II ([Двигательные системы](/wiki/06-Items/Propulsion.md#engines)).
 - **CPU:** Extra Slots CPU III, с 6 Orvium Reinforced Plate, и Base CPU II, с 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Эти не требуют Dark Matter Plate:** Quantum Laser 3 и Starfire-3 (пластины Velkonite), ступени II и III каждой цепочки (1 или 2 пластины Velkonite для усилителя, 2 или 4 для ячейки или ускорителя), Jump CPU, Auto-Repair CPU, Extra Slots CPU I и II, Base CPU I, 16 построений дронов и корабли. [Кузница](/wiki/06-Items/Forge.md) по-прежнему требует по 2 пластины на каждой из двух высших ступеней.
+**Эти не требуют Dark Matter Plate:** Quantum Laser III и Starfire-III (пластины Velkonite), ступени II и III каждой цепочки (1 или 2 пластины Velkonite для усилителя, 2 или 4 для ячейки или ускорителя), Jump CPU, Auto-Repair CPU, Extra Slots CPU I и II, Base CPU I, 16 построений дронов и корабли. [Кузница](/wiki/06-Items/Forge.md) по-прежнему требует по 2 пластины на каждой из двух высших ступеней.
 
 Пластина прессуется из 5 Dark Matter, Velkonite Reinforced Plate, Orvium Reinforced Plate и 250 Thulium, поэтому 3 пластины одного модуля — это ещё 3 пластины Velkonite, 3 пластины Orvium и 750 Thulium. Сколько вмещает целая сборка с последней ступенью везде:
 

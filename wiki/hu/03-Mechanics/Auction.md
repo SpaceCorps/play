@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -9,8 +9,8 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 
 - Az aukció használatához **5. szint** kell: hirdetéshez, vásárláshoz és licitáláshoz.
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
-- A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 20 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
-- 80 tárgy hirdethető meg, és 42 közülük Thuliumban is árazható.
+- A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 1 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
+- 80 tárgy hirdethető meg, és 79 közülük Thuliumban is árazható.
 - Egy hirdetés 24 / 72 / 168 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 1%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 1,5%.
@@ -31,7 +31,7 @@ A címke egységek száma, nem kapcsoló: egy lőszerköteg tartalmazhat vásár
 
 A Hangár **Csak eladható** chipje csak azt mutatja, amit el tudsz adni, a címkézett tárgy szemetese melletti **kalapács** pedig megnyitja hozzá az Aukció eladólapját. A Gyártásban az a recept, amelynek eredménye eladható, ezt kiírja, és a hiányzó nyersanyagnál van egy hivatkozás, amely megnyitja az Aukciót a nevével a keresőmezőben.
 
-Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amelyet a Bolt nem árul, és az erőforrásaidat egyszer megcímkézték. Ezeket nem, mert a Bolt egykor árulta őket, vagy mert amid van, az vásárolt és megszerzett darabokat is vegyít: a Quantum Laser 3, az Absorption Shield Cell II és III, az Impulse Thruster II és III, a két Reinforced Plate és minden pilóta legrégebbi Base CPU I-e (a kezdőcsomagé). Az újakat, amelyeket megszerzel vagy elkészítesz, megcímkézik.
+Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amelyet a Bolt nem árul, és az erőforrásaidat egyszer megcímkézték. Ezeket nem, mert a Bolt egykor árulta őket, vagy mert amid van, az vásárolt és megszerzett darabokat is vegyít: a Quantum Laser III, az Absorption Shield Cell II és III, az Impulse Thruster II és III, a két Reinforced Plate és minden pilóta legrégebbi Base CPU I-e (a kezdőcsomagé). Az újakat, amelyeket megszerzel vagy elkészítesz, megcímkézik.
 
 ## Mi adható el {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 
 | Típus | Amit eladhatsz | Darab |
 | :--- | :--- | ---: |
-| **Lézerek** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Lézerek** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Lézererősítők** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Pajzsok** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Hajtóművek** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Minden tárgynak van **legkisebb ára**, és **legmagasabb ár nincs**: kérj an
 
 | Tárgy | Csomagméret | Legkisebb ár, kredit | Legkisebb ár, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32 000 | 32 |
-| Quantum Laser 3 | 1 | 170 000 | 170 |
+| Quantum Laser II | 1 | 32 000 | 32 |
+| Quantum Laser III | 1 | 170 000 | 170 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
 | Impulse Thruster IV | 1 | 980 000 | 980 |
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
-| Ultra Core | 10 | 800 | Csak kredit |
-| Lancet I | 1 | 200 | Csak kredit |
-| Ship Fragment | 100 | 600 | Csak kredit |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33 000 | 33 |
 
 <!-- market-bands:end -->
 
-A Thulium-ár egyetlen szabályt követ: a kreditben megadott legkisebb ár osztva az árfolyammal, felfelé kerekítve. Az árfolyam nem olyan érték, amelyet a játék a Thuliumnak tulajdonít. Csak azt adja meg, hogyan számolják ki a legkisebb Thulium-árat, és emiatt egy Thulium-hirdetés olcsó lehet annak a pilótának, akinek van Thuliuma. A legtöbb eladó krediteket fog kérni. Az olcsó tárgyakat (lőszer, rakéták, a legtöbb felszerelés első fokozata és a közönséges erőforrások) csak kreditben árazzák, mert egy egész Thulium túl nagy lépés lenne.
+A Thulium-ár egyetlen szabályt követ: a kreditben megadott legkisebb ár osztva az árfolyammal, felfelé kerekítve. Az árfolyam nem olyan érték, amelyet a játék a Thuliumnak tulajdonít. Csak azt adja meg, hogyan számolják ki a legkisebb Thulium-árat, és emiatt egy Thulium-hirdetés olcsó lehet annak a pilótának, akinek van Thuliuma. A legtöbb eladó krediteket fog kérni. A Quorvium kivételével minden tárgy árazható Thuliumban, az olcsók is (lőszer, rakéták, a közönséges erőforrások): a legkisebb áruk ilyenkor 1 Thulium, a legkisebb lépés. Egyedül a Quorvium árazható kizárólag kreditben, mert 1 Thulium többet érne, mint egy csomagja.
 
 A **nyitott hirdetéseid** (és az a hirdetés, amelyet egy admin felfüggesztett) helyeket foglalnak. Ahogy szintet lépsz, több helyed lesz, egy felső határig, és naponta többet adhatsz el és vehetsz. Az, hogy egy hirdetés meddig futhat, minden szinten ugyanannyi.
 
@@ -119,8 +119,8 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 
 | Hirdetés | Ár | Letét | Adó | Az eladó kapja |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: 6. szint, 24 óra | 170 000 kredit | 1 700 kredit | 8 500 kredit | 161 500 kredit |
-| Quantum Laser 3: 10. szint, 72 óra | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: 6. szint, 24 óra | 170 000 kredit | 1 700 kredit | 8 500 kredit | 161 500 kredit |
+| Quantum Laser III: 10. szint, 72 óra | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: 12. szint, 168 óra | 2 500 000 kredit | 262 500 kredit | 125 000 kredit | 2 375 000 kredit |
 | Helios Beam: 12. szint, 168 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
 
@@ -205,7 +205,7 @@ Az Aukció arra való, hogy kereskedj azzal, amit megszerzel, és őszinte a kor
 
 - **A zsákmány eladása nem grind.** A nyers idegenzsákmány csak erőforrás, és annak 0,4–0,9 százalékát éri, amit ugyanaz az 5. szintű vadászóra a lelövésekért kifizet. Amit a Piac egy új pilótának ad, az a felszerelés, amelyet a küldetései kifizetnek, és amelyre nincs szüksége (egyszer), a Kihívás-küldetések erőforrásai, a rajvezérek dobozai és amit maga gyárt.
 - **Nincs kereskedő.** A vételi megbízások, amelyekben a pilóta megmondja, mit akar venni és mennyiért, nincsenek ebben a változatban. Addig az egyetlen kereskedő a kézműves, aki anyagot vesz, a Gyártásban felszerelést készít, és eladja, valamint a raktáros pilóta, aki a készletét a Tranzittárolóban tartja a wipe-on át.
-- **A Bolt felszerelése nem továbbeladásra való.** A Boltban vásárolt felszerelés nem adható el újra: idetartozik az 1. és 2. Quantum Laser, a Light és a Basic Shield Core, az Engine I és II, a cellák és fúvókák első fokozata, a Bolt által árult amp-ok és a vásárolt lőszer. Egy pilóta egyetlen eladható Quantum Laser 2-je az, amelyet egy küldetés egyszer kifizet.
+- **A Bolt felszerelése nem továbbeladásra való.** A Boltban vásárolt felszerelés nem adható el újra: idetartozik a Quantum Laser I és II, a Light és a Basic Shield Core, az Engine I és II, a cellák és fúvókák első fokozata, a Bolt által árult amp-ok és a vásárolt lőszer. Egy pilóta egyetlen eladható Quantum Laser II-je az, amelyet egy küldetés egyszer kifizet.
 - **A lemezek küldetésekből jönnek.** A Piacon lévő Velkonite és Orvium Reinforced Plate-ek azok, amelyeket a Kihívás-küldetések fizetnek ki. A Kovácsműhely lemezei kimaradnak, különben ők lennének a Piac legnagyobb árucikke.
 
 Ha egy hirdetés furcsának tűnik, jelezd a szokásos módon: a játék adminisztrátorai felfüggeszthetnek egy hirdetést, visszaadhatják, szüneteltethetik az Aukciót vagy kitilthatnak belőle egy pilótát, és minden ilyen műveletet rögzítenek.

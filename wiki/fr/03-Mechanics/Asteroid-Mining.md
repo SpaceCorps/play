@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
 Les **astéroïdes** sont de gros rochers qui flottent dans le plan de vol des secteurs des corporations et des secteurs dangereux. Ils ne bougent jamais et ne tirent jamais. Brisez-en un avec des **roquettes** ou des **lasers** et il éclate en petits **fragments** de crédits, de Thulium et de minerai, que vous ramassez comme une [cargaison](/wiki/03-Mechanics/Cargo.md). Les roquettes sont l’outil qu’il faut : vos lasers endommagent aussi un astéroïde, mais à 5 % seulement de ce qu’ils infligent à un vaisseau, et les drones ne lui font rien.
 
-L’extraction est un travail différent de la chasse, pas un remplacement : elle ne donne ni XP, ni honneur, ni points de classement, et les roquettes que vous tirez coûtent des crédits ou du Thulium. Elle vous offre des crédits et du Thulium, du minerai pour la [Forge](/wiki/06-Items/Forge.md) et pour fabriquer sans combattre, et un travail qu’un [groupe](/wiki/03-Mechanics/Groups.md) peut partager. Elle paie bien : selon le modèle du jeu lui-même, une heure sur les bons astéroïdes avec la bonne roquette rapporte de 2,8 à 7,6 fois la meilleure heure de chasse de votre niveau, une fois les roquettes payées. Les limites journalières de [Les mondes](#the-worlds) la plafonnent, et vous les atteignez vite : dans Alpha, un mineur régulier dans un bon secteur atteint la limite de Thulium en moins de 2 heures et celle de crédits en environ 2,7 heures.
+L’extraction est un travail différent de la chasse, pas un remplacement : elle ne donne ni XP, ni honneur, ni points de classement, et les roquettes que vous tirez coûtent des crédits ou du Thulium. Elle vous offre des crédits et du Thulium, du minerai pour la [Forge](/wiki/06-Items/Forge.md) et pour fabriquer sans combattre, et un travail qu’un [groupe](/wiki/03-Mechanics/Groups.md) peut partager. Elle paie bien : selon le modèle du jeu lui-même, une heure sur les bons astéroïdes avec la bonne roquette rapporte de 2,6 à 6,8 fois la meilleure heure de chasse de votre niveau, une fois les roquettes payées. Les limites journalières de [Les mondes](#the-worlds) la plafonnent, et vous les atteignez vite : dans Alpha, un mineur régulier dans un bon secteur atteint la limite de Thulium en moins de 2 heures et celle de crédits en environ 2,7 heures.
 
 ## Ce qu’est un astéroïde {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ Le plus gros de tous, un rocher pour un groupe.
 
 ## Ce qu’il ne donne pas {#what-it-does-not-give}
 
-Un astéroïde n’est pas une élimination. Le briser ne donne ni XP, ni honneur, ni compte d’éliminations, ni points PvE ou PvP, ni classement, ni [points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), ni XP de drone, ni progression dans une [mission](/wiki/03-Mechanics/Quests.md). Les bonus de la boutique de saison ne s’y appliquent pas non plus. Il donne ce qui est dans les tableaux : des crédits, du Thulium et du minerai, que la page [Ressources](/wiki/06-Items/Resources.md) liste avec le butin des aliens.
+Un astéroïde n’est pas une élimination. Le briser ne donne ni XP, ni honneur, ni compte d’éliminations, ni points PvE ou PvP, ni classement, ni [points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), ni XP de drone, ni progression dans une [mission](/wiki/03-Mechanics/Quests.md), sauf la [mission d’astéroïdes de chaque niveau](/wiki/03-Mechanics/Quests.md#levels). Les bonus de la boutique de saison ne s’y appliquent pas non plus. Il donne ce qui est dans les tableaux : des crédits, du Thulium et du minerai, que la page [Ressources](/wiki/06-Items/Resources.md) liste avec le butin des aliens.
 
 ## Conseils {#tips}
 

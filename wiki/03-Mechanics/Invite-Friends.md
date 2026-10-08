@@ -17,7 +17,7 @@ A friend enters your code under **Community › Invite Friends** (the page shows
 | **Credits** | 100,000 |
 | **Thulium** | 5,000 |
 | **N.I.K.E.** | 1 |
-| **Quantum Laser 2** | 1 |
+| **Quantum Laser II** | 1 |
 | **Engine II** | 1 |
 | **Advanced Plasma** | 1,000 |
 

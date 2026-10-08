@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fbb5e8cfaee8aa9f -->
+<!-- wiki-i18n source: 9288511cf701ce85 -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -14,11 +14,11 @@ A fegyverek a SpaceCorps elsődleges eszközei a sebzés okozására.
 Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Quantum Laser 1 | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 2 | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -31,13 +31,13 @@ Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 1080
 Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Standard Battery | ammo, common | buy 10 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
+Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser 1 -> Quantum Laser 2 -> Quantum Laser 3 => Starfire-3 => Helios Beam
+Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -51,39 +51,39 @@ Szerelj lézereket közvetlenül a hajó lézerfoglalataiba vagy drónokba, hogy
 
 | Név | Ritkaság | Alapsebzés | Kritikus esély | Hatótáv | Erősítőfoglalatok | Ár |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser 1** | Silány | 55 | – | 600 | 1 | 8 000 kredit |
-| **Quantum Laser 2** | Gyakori | 65 | – | 700 | 2 | 80 000 kredit |
-| **Quantum Laser 3** | Ritka | 80 | 10% | 800 | 3 | Csak gyártható |
-| **Starfire-3** | Mitikus | 135 | 15% | 850 | 3 | Csak gyártható |
+| **Quantum Laser I** | Silány | 55 | – | 600 | 1 | 8 000 kredit |
+| **Quantum Laser II** | Gyakori | 65 | – | 700 | 2 | 80 000 kredit |
+| **Quantum Laser III** | Ritka | 80 | 10% | 800 | 3 | Csak gyártható |
+| **Starfire-III** | Mitikus | 135 | 15% | 850 | 3 | Csak gyártható |
 | **Helios Beam** | Mitikus | 185 | 25% | 900 | 3 | Csak gyártható |
 
-A Hatótáv oszlop az egyes lézerek saját értéke. **A hajód a lézerei hatótávjának átlagával tüzel** (a drónokban lévő lézerek is számítanak), a legközelebbi egységre kerekítve, és minden lézer akkor tüzel, amint a célpont ezen a távolságon belülre kerül. Egy Starfire-3 két Quantum Laser 2 mellett 750-es hajóhatótávot ad, nem 850-et; három Starfire-3 megtartja a 850-et, az egyforma lézerek pedig semmin sem változtatnak. Egy Kovácsműhely-hatótávbónusz a saját lézerén számít, mielőtt az átlagot kiszámolják. Lézer nélkül a hangár nem mutat hatótávot (egy gondolatjelet), és a lézerek nem tudnak tüzelni, de a rakétáid igen, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). A hangárban a csempe „Átl. hatótáv” feliratot kap, ha a lézereid eltérnek, és ha fölé viszed az egeret, felsorolja az egyes lézerek hatótávját.
+A Hatótáv oszlop az egyes lézerek saját értéke. **A hajód a lézerei hatótávjának átlagával tüzel** (a drónokban lévő lézerek is számítanak), a legközelebbi egységre kerekítve, és minden lézer akkor tüzel, amint a célpont ezen a távolságon belülre kerül. Egy Starfire-III két Quantum Laser II mellett 750-es hajóhatótávot ad, nem 850-et; három Starfire-III megtartja a 850-et, az egyforma lézerek pedig semmin sem változtatnak. Egy Kovácsműhely-hatótávbónusz a saját lézerén számít, mielőtt az átlagot kiszámolják. Lézer nélkül a hangár nem mutat hatótávot (egy gondolatjelet), és a lézerek nem tudnak tüzelni, de a rakétáid igen, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). A hangárban a csempe „Átl. hatótáv” feliratot kap, ha a lézereid eltérnek, és ha fölé viszed az egeret, felsorolja az egyes lézerek hatótávját.
 
-A Quantum Laser 1-nek és a Quantum Laser 2-nek nincs saját kritikus esélye („–”): a foglalataikba tett Damage Amp vagy Crit Amp adja meg (a Penetration Amp nem). A kritikus találatok más színnel jelennek meg a lebegő sebzésszámokban (jégkék, nagyobb, „!” jellel; lásd: [Sebzés- és gyógyulásszámok](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+A Quantum Laser I-nek és a Quantum Laser II-nek nincs saját kritikus esélye („–”): a foglalataikba tett Damage Amp vagy Crit Amp adja meg (a Penetration Amp nem). A kritikus találatok más színnel jelennek meg a lebegő sebzésszámokban (jégkék, nagyobb, „!” jellel; lásd: [Sebzés- és gyógyulásszámok](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
 
 A lézerek az [aszteroidákat](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) is sebzik, de csak annak az 5%-ával, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja; a Siphon Battery nem tud aszteroidát sebezni). Széttörésükhöz a rakéták a megfelelő eszköz.
 
 ### A legfelső három lézer elkészítése {#making-the-top-three-lasers}
 
-A **Quantum Laser 3**, a **Starfire-3** és a **Helios Beam** csak a **Gyártásban** készül. A Quantum Laser 3-at már nem árulják a Boltban; aki már birtokol egyet, megtartja. Mindegyik recept a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelyéből származó lemezeket kér, a Helios Beam pedig ezenfelül 3 Dark Matter Plate-et:
+A **Quantum Laser III**, a **Starfire-III** és a **Helios Beam** csak a **Gyártásban** készül. A Quantum Laser III-at már nem árulják a Boltban; aki már birtokol egyet, megtartja. Mindegyik recept a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelyéből származó lemezeket kér, a Helios Beam pedig ezenfelül 3 Dark Matter Plate-et:
 
 | Lézer | Gyártási idő | Ez kell hozzá |
 | :--- | :---: | :--- |
-| Quantum Laser 3 | 1 perc | 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
-| Starfire-3 | 1 perc | 1 Quantum Laser 3, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 kredit |
-| Helios Beam | 3 perc | 1 Starfire-3, 50 Cataclysite, 2 Power Core, 18 Orvium Reinforced Plate, 3 Dark Matter Plate, 4 Reinforced Hull Plate, 2 000 Thulium |
+| Quantum Laser III | 1 perc | 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
+| Starfire-III | 1 perc | 1 Quantum Laser III, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 kredit |
+| Helios Beam | 3 perc | 1 Starfire-III, 50 Cataclysite, 2 Power Core, 18 Orvium Reinforced Plate, 3 Dark Matter Plate, 4 Reinforced Hull Plate, 2 000 Thulium |
 
 A Gyártás oldal megmutatja, mid van meg ahhoz képest, amit egy recept kér, az Elkészítés gomb pedig megmondja, mi hiányzik. Ha egy recept képére vagy nevére, esetleg valamelyik alapanyagára mutatsz, megjelenik a tárgy teljes leírása és az értékei.
 
-**A Starfire-3 egy Quantum Laser 3-ból készül.** Előbb elkészíted a Quantum Laser 3-at, a Starfire-3 pedig elhasználja. Amit a Quantum Laser 3 már elvett, azt nem kéri újra, így a kettő együtt pontosan azt kéri, amit egy Starfire-3 önmagában kért: 3 000 Thuliumot, 100 000 kreditet, 25 Ship Fragmentet, 10 Velkonite Reinforced Plate-et, 1 Reinforced Hull Plate-et és 2 percet. Ha már van Quantum Laser 3-ad, csak a Starfire-3 saját részét fizeted. A szabályok a Helios Beaméi, lent: a Starfire-3 megtartja az elhasznált Quantum Laser 3 bűvölési fokozatát (egy Isteni Quantum Laser 3-ból Isteni Starfire-3 lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Quantum Laser 3 megy el, a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel, és a Quantum Laser 3-nak szabadnak kell lennie: **előbb vedd le a hajódról** (az erősítői visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Quantum Laser 3”.
+**A Starfire-III egy Quantum Laser III-ból készül.** Előbb elkészíted a Quantum Laser III-at, a Starfire-III pedig elhasználja. Amit a Quantum Laser III már elvett, azt nem kéri újra, így a kettő együtt pontosan azt kéri, amit egy Starfire-III önmagában kért: 3 000 Thuliumot, 100 000 kreditet, 25 Ship Fragmentet, 10 Velkonite Reinforced Plate-et, 1 Reinforced Hull Plate-et és 2 percet. Ha már van Quantum Laser III-ad, csak a Starfire-III saját részét fizeted. A szabályok a Helios Beaméi, lent: a Starfire-III megtartja az elhasznált Quantum Laser III bűvölési fokozatát (egy Isteni Quantum Laser III-ból Isteni Starfire-III lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Quantum Laser III megy el, a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel, és a Quantum Laser III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (az erősítői visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Quantum Laser III”.
 
-**A Helios Beam egy Starfire-3-ból készül.** Előbb elkészíted a Starfire-3-at (3 000 Thulium és 100 000 kredit a hozzá tartozó Quantum Laser 3-mal együtt), a Helios Beam pedig elhasználja, ahogyan a [Master Drone](/wiki/06-Items/Drones.md) elhasznál egy Slave Drone-t. Amit a Starfire-3 már elvett, azt nem kéri újra, így a kettő együtt azt kéri, amit a Helios Beam önmagában kért: az 5 000 Thuliumot, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull Plate-eket, valamint 18 Orvium lemezt 20 helyett (a Starfire-3 tíz Velkonite lemeze pótolja a hiányzó kettőt), és mivel a Helios Beam a láncának utolsó szintje, 3 Dark Matter Plate-et; ezenkívül a Starfire-3-hoz tartozó 100 000 kreditet és 25 Ship Fragmentet fizeted. A szabály ugyanaz, mint a [modulfejlesztéseknél](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): a Helios Beam megtartja az elhasznált Starfire-3 bűvölési fokozatát (egy Isteni Starfire-3-ból Isteni Helios Beam lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Starfire-3 megy el, ha több is van nálad, és a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel. A Starfire-3-nak szabadnak kell lennie: **előbb vedd le a hajódról** (a belé szerelt erősítők visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Starfire-3”.
+**A Helios Beam egy Starfire-III-ból készül.** Előbb elkészíted a Starfire-III-at (3 000 Thulium és 100 000 kredit a hozzá tartozó Quantum Laser III-mal együtt), a Helios Beam pedig elhasználja, ahogyan a [Master Drone](/wiki/06-Items/Drones.md) elhasznál egy Slave Drone-t. Amit a Starfire-III már elvett, azt nem kéri újra, így a kettő együtt azt kéri, amit a Helios Beam önmagában kért: az 5 000 Thuliumot, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull Plate-eket, valamint 18 Orvium lemezt 20 helyett (a Starfire-III tíz Velkonite lemeze pótolja a hiányzó kettőt), és mivel a Helios Beam a láncának utolsó szintje, 3 Dark Matter Plate-et; ezenkívül a Starfire-III-hoz tartozó 100 000 kreditet és 25 Ship Fragmentet fizeted. A szabály ugyanaz, mint a [modulfejlesztéseknél](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): a Helios Beam megtartja az elhasznált Starfire-III bűvölési fokozatát (egy Isteni Starfire-III-ból Isteni Helios Beam lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Starfire-III megy el, ha több is van nálad, és a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel. A Starfire-III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (a belé szerelt erősítők visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Starfire-III”.
 
 Honnan jönnek a lemezek:
 
-- A **Velkonite Reinforced Plate**-eket (Quantum Laser 3 és Starfire-3) Velkonite-ércből kovácsolják, a kovácsműhely 1. szintjén lemezenként 40 érc. Az **Orvium Reinforced Plate**-eket (Helios Beam) Orvium-ércből kovácsolják, lemezenként 80 érc.
+- A **Velkonite Reinforced Plate**-eket (Quantum Laser III és Starfire-III) Velkonite-ércből kovácsolják, a kovácsműhely 1. szintjén lemezenként 40 érc. Az **Orvium Reinforced Plate**-eket (Helios Beam) Orvium-ércből kovácsolják, lemezenként 80 érc.
 - A **Dark Matter Plate**-eket (3 a Helios Beamhez) a Gyártásban préselik 5 Dark Matterből, egy Velkonite és egy Orvium Reinforced Plate-ből és 250 Thuliumból, miután kikutattad a receptjüket. A három 15 Dark Mattert kér, átlagosan 7,5 N.I.K.E. rakétányit a [feketelyukból](/wiki/03-Mechanics/Black-Hole.md): a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) cikk az egész utat leírja.
-- Az ércet csak a Skylabod gyűjtői adják. Egy 5. szintű Velkonite-gyűjtő óránként 18 Velkonite-ot bányászik, így egy Quantum Laser 3 lemezei körülbelül 4 óra bányászatba kerülnek, egy Starfire-3 tíz lemeze (kettő a hozzá szükséges Quantum Laser 3-ban, nyolc a saját lépésében) körülbelül 22-be. A Helios Beam a hosszú: a 18 lemezéhez 1 440 Orvium kell, ami egy 5. szintű Orvium-gyűjtőtől körülbelül 4 nap, a 3 Dark Matter Plate-jében lévő további 3 Orvium lemez pedig még 240 Orviumot jelent, körülbelül 17 órát.
+- Az ércet csak a Skylabod gyűjtői adják. Egy 5. szintű Velkonite-gyűjtő óránként 18 Velkonite-ot bányászik, így egy Quantum Laser III lemezei körülbelül 4 óra bányászatba kerülnek, egy Starfire-III tíz lemeze (kettő a hozzá szükséges Quantum Laser III-ban, nyolc a saját lépésében) körülbelül 22-be. A Helios Beam a hosszú: a 18 lemezéhez 1 440 Orvium kell, ami egy 5. szintű Orvium-gyűjtőtől körülbelül 4 nap, a 3 Dark Matter Plate-jében lévő további 3 Orvium lemez pedig még 240 Orviumot jelent, körülbelül 17 órát.
 - Az erőforrás-raktár az 1. szinten ércenként 240-et tárol: 6 Velkonite-lemezt vagy 3 Orvium-lemezt a Kovácsműhely 1. szintjén. Ezért menet közben kovácsolj (a Kovácsműhely adagja az 1. szinten legfeljebb 10 lemez), vagy fejleszd a raktárat.
 - A kovácsolt lemezek a kovácsműhelyben várnak, amíg leszállt hajóval be nem gyűjtöd őket, és közönséges tárgyakként a leltáradba kerülnek.
 
@@ -93,7 +93,7 @@ A Ship Fragmenteket, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull P
 
 ## Lézererősítők (Amp-ek) {#laser-amplifiers-amps-}
 
-Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. **Három vonal van, mindegyikben négy szint**, a pajzscellákhoz hasonló nevekkel: a **Damage Amp** fix mennyiségű sebzést ad, a **Crit Amp** kritikus esélyt és fix kritikus sebzést, a **Penetration Amp** pedig pontokat von le a célpont elnyeléséből ([lejjebb](#shield-penetration-of-a-laser-hit)). Nem azonosak a [boosterekkel](/wiki/06-Items/Boosters.md): a **Laser Damage Booster 1** és a **Laser Damage Booster 2** időzített boosterek (+10% lézersebzés 10 órára), amelyekbe nincs mit szerelni.
+Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. **Három vonal van, mindegyikben négy szint**, a pajzscellákhoz hasonló nevekkel: a **Damage Amp** fix mennyiségű sebzést ad, a **Crit Amp** kritikus esélyt és fix kritikus sebzést, a **Penetration Amp** pedig pontokat von le a célpont elnyeléséből ([lejjebb](#shield-penetration-of-a-laser-hit)). Nem azonosak a [boosterekkel](/wiki/06-Items/Boosters.md): a **Laser Damage Booster I** és a **Laser Damage Booster II** időzített boosterek (+10% lézersebzés 10 órára), amelyekbe nincs mit szerelni.
 
 | Név | Ritkaság | Alapsebzés-növelés | Kritikus esély növelése | Fix kritikus sebzés | Ár |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -128,9 +128,9 @@ Egy Helios Beam a 3 IV. szintű ampjával 4 utolsó szintű darabot tartalmaz: 1
 
 ### Melyik erősítő hova való {#which-amp-goes-where}
 
-A sebzéserősítő bármelyik lézerhez ugyanannyi sebzést ad, ezért a **Quantum lézereken** ér a legtöbbet. A kritikus erősítő megsokszorozza azt, amit a lézer már tud, ezért annál többet ér, minél erősebben üt a lézer: a **Starfire-3**-on egyenlő a sebzésvonallal, a **Helios Beamen** pedig körülbelül 3,5%-kal előzi meg azt. A lézer kritikus esélye 100%-nál megáll: három Crit Amp III vagy Crit Amp IV pontosan ennyire viszi a Helios Beamet. A Penetration Amp nem ad sem sebzést, sem kritikus esélyt: azoknak a hajóknak való, amelyeknek a pajzsa különben a találatod nagy részét felfogná ([lejjebb](#when-is-a-penetration-amp-worth-a-slot)).
+A sebzéserősítő bármelyik lézerhez ugyanannyi sebzést ad, ezért a **Quantum lézereken** ér a legtöbbet. A kritikus erősítő megsokszorozza azt, amit a lézer már tud, ezért annál többet ér, minél erősebben üt a lézer: a **Starfire-III**-on egyenlő a sebzésvonallal, a **Helios Beamen** pedig körülbelül 3,5%-kal előzi meg azt. A lézer kritikus esélye 100%-nál megáll: három Crit Amp III vagy Crit Amp IV pontosan ennyire viszi a Helios Beamet. A Penetration Amp nem ad sem sebzést, sem kritikus esélyt: azoknak a hajóknak való, amelyeknek a pajzsa különben a találatod nagy részét felfogná ([lejjebb](#when-is-a-penetration-amp-worth-a-slot)).
 
-Ugyanazzal az erősítővel feltöltve egy lézer mindig erősebb, mint az alatta lévő, így egy jobb erősítő sosem pótol egy jobb lézert: egy Quantum Laser 3 három Damage Amp IV-gyel kevesebbet sebez, mint egy Helios Beam három Damage Amp I-gyel (azonos bűvölési fokozatú darabokkal: egy Isteni vagy jobb fokozatra kovácsolt Quantum Laser 3 és Damage Amp IV a legjobb kisorsolt bónuszokkal megelőzhet egy sima, Damage Amp I-es Helios Beamet, Isteninél egy hajszállal).
+Ugyanazzal az erősítővel feltöltve egy lézer mindig erősebb, mint az alatta lévő, így egy jobb erősítő sosem pótol egy jobb lézert: egy Quantum Laser III három Damage Amp IV-gyel kevesebbet sebez, mint egy Helios Beam három Damage Amp I-gyel (azonos bűvölési fokozatú darabokkal: egy Isteni vagy jobb fokozatra kovácsolt Quantum Laser III és Damage Amp IV a legjobb kisorsolt bónuszokkal megelőzhet egy sima, Damage Amp I-es Helios Beamet, Isteninél egy hajszállal).
 
 
 ---
@@ -141,7 +141,7 @@ Elhasználódó elemek, amelyek megsokszorozzák a lézersortüzeid sebzését:
 
 | Név | Ritkaság | Sebzésszorzó | Pajzsáthatolás | Ár darabonként |
 | :--- | :--- | :---: | :---: | :--- |
-| **Standard Battery** | Gyakori | x1,0 | – | 10 kredit |
+| **Standard Battery** | Gyakori | x1,0 | – | 5 kredit |
 | **Advanced Plasma** | Ritka | x2,0 | – | 0,5 Thulium |
 | **Ultra Core** | Ritka | x3,0 | 5% | 1,0 Thulium |
 | **Experimental Fusion Core** | Epikus | x4,0 | 10% | 2,2 Thulium |
@@ -167,7 +167,7 @@ A Siphon Battery pajzslopásra való lőszer, a hajótestek összetörése helye
 Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +9%, Stiletto +16%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). Az összeg lézer esetén **50%-nál megáll**; egy egycélpontos rakétáé 40%-nál ([Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden lézerben 24%; egy Penetration Amp IV tizenkét lézerből egyben 0,67%. Egy Wraithnek 12 lézere és 36 erősítőfoglalata van, és mind a 36-ot meg kell tölteni a 24%-hoz.
-- **A Hangár mutatja.** Amint a lézereid erősítői adnak áthatolást, a Hangár harci értékei között megjelenik egy **Áthatolás** csempe az értékkel; a lőszer és a formáció nincs benne.
+- **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe az erősítőid értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. Mutass a csempére a határok elolvasásához: egy lézertalálat összege 50%-nál áll meg, egy rakétáé 40%-nál.
 - **A legjobb lézer pontosan eléri a határt.** Egy Experimental Fusion Core (10%), egy Stiletto (16%) és három Penetration Amp IV minden lézerben (24%) együtt 50%.
 - **Egy kovácsműhelyes buff egy Penetration Amp IV-en ebben a felállásban kárba vész.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 8-ról 8,7–9,2 pontra viszi. De a 10 + 16 + 24 már kiadja az 50%-os határt, minden további pont lemetszésre kerül (három Örök együtt 53,6% lenne, 50%-ra vágva).
 

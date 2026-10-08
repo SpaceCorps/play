@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
 **Asteroider** är stora stenar som ligger i flygplanet i koncernernas sektorer och i farosektorerna. De rör sig aldrig och skjuter aldrig. Spräng en med **raketer** eller **lasrar** så brister den i små **bitar** av krediter, Thulium och malm, som du plockar upp som [last](/wiki/03-Mechanics/Cargo.md). Raketer är rätt verktyg för jobbet: dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp, och drönare gör ingenting med den.
 
-Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,8 till 7,6 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Dagsgränserna i [Världarna](#the-worlds) sätter ett tak, och du når dem snart: i Alpha når en jämn brytare i en bra sektor Thulium-gränsen på under 2 timmar och kreditgränsen på ungefär 2,7 timmar.
+Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,6 till 6,8 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Dagsgränserna i [Världarna](#the-worlds) sätter ett tak, och du når dem snart: i Alpha når en jämn brytare i en bra sektor Thulium-gränsen på under 2 timmar och kreditgränsen på ungefär 2,7 timmar.
 
 ## Vad en asteroid är {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ Den största av alla, en sten för en grupp.
 
 ## Vad den inte ger {#what-it-does-not-give}
 
-En asteroid är ingen nedskjutning. Att spränga en ger ingen XP, ingen heder, inget antal nedskjutningar, inga PvE- eller PvP-poäng, ingen rankning, inga [wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), ingen drönar-XP och inga framsteg i ett [uppdrag](/wiki/03-Mechanics/Quests.md). Säsongsbutikens boostar påverkar den inte heller. Den ger det som står i tabellerna: krediter, Thulium och malm, som sidan [Resurser](/wiki/06-Items/Resources.md) listar tillsammans med utomjordingarnas byte.
+En asteroid är ingen nedskjutning. Att spränga en ger ingen XP, ingen heder, inget antal nedskjutningar, inga PvE- eller PvP-poäng, ingen rankning, inga [wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), ingen drönar-XP och inga framsteg i ett [uppdrag](/wiki/03-Mechanics/Quests.md), utom i [asteroiduppdraget på varje nivå](/wiki/03-Mechanics/Quests.md#levels). Säsongsbutikens boostar påverkar den inte heller. Den ger det som står i tabellerna: krediter, Thulium och malm, som sidan [Resurser](/wiki/06-Items/Resources.md) listar tillsammans med utomjordingarnas byte.
 
 ## Tips
 

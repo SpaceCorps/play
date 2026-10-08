@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Seeker-raj -->
 # Seeker-raj {#seeker-swarm}
 
@@ -30,8 +30,8 @@ A Seeker-raj a [rajok](/wiki/05-Swarms/Swarms.md) legkisebbike: egy **Boss Seeke
 ## A harc menete {#how-the-fight-goes}
 
 - **Hagyd békén, amíg a hajód nem bírja el.** A Boss Seeker keményebben üt, mint amit egy pilóta első hajója elbír: az új pilóta pajzs nélküli Protosát másodpercek alatt megsemmisítik, amint a boss és a Slave-jei rákerülnek.
-- **Maradj hatótávon kívül.** A boss és a Slave-ek lassabbak egy Protosnál, a fegyvereik pedig kevésbé hatnak el messzire, mint egy Quantum Laser 2 (lásd [Lézerek és lőszer](/wiki/06-Items/Lasers.md)): aki ilyen lézerekkel repül, és a hatótávjukon kívül marad, nem szenved sebzést, miközben tüzelnek. A Quantum Laser 1-es pilóta nem tud hatótávon kívül maradni.
-- **A Slave-ek gyorsabban gyógyítanak, mint ahogy egy magányos új pilóta sebez.** Együtt többet gyógyítanak, mint amennyit egy pilóta lézerei okoznak x1 lőszerrel, ezért vigyél társat és x2 lőszert. Két Quantum Laser 2-es pilóta, aki tartja a távolságot, nagyjából egy perc alatt leteríti a bosst Alphában, x2 lőszerrel pedig sokkal gyorsabban.
+- **Maradj hatótávon kívül.** A boss és a Slave-ek lassabbak egy Protosnál, a fegyvereik pedig kevésbé hatnak el messzire, mint egy Quantum Laser II (lásd [Lézerek és lőszer](/wiki/06-Items/Lasers.md)): aki ilyen lézerekkel repül, és a hatótávjukon kívül marad, nem szenved sebzést, miközben tüzelnek. A Quantum Laser I-es pilóta nem tud hatótávon kívül maradni.
+- **A Slave-ek gyorsabban gyógyítanak, mint ahogy egy magányos új pilóta sebez.** Együtt többet gyógyítanak, mint amennyit egy pilóta lézerei okoznak x1 lőszerrel, ezért vigyél társat és x2 lőszert. Két Quantum Laser II-es pilóta, aki tartja a távolságot, nagyjából egy perc alatt leteríti a bosst Alphában, x2 lőszerrel pedig sokkal gyorsabban.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, teljes erővel, ugyanabban a szektorban, a Slave-ei pedig egymás után érkeznek.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}

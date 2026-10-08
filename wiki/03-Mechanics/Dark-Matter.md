@@ -75,14 +75,14 @@ The wipe keeps the Dark Matter in your Centre.
 The last tier of every upgrade chain asks for **3 Dark Matter Plates**, and for no Velkonite plates: the tiers before it are the ones that take those. 12 pieces:
 
 - **Laser amps:** Damage Amp IV, Crit Amp IV and Penetration Amp IV, each made from the amp of tier III ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **The Helios Beam**, made from a Starfire-3, with its 18 Orvium Reinforced Plates ([Lasers & Ammo](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **The Helios Beam**, made from a Starfire-III, with its 18 Orvium Reinforced Plates ([Lasers & Ammo](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Shield cells:** Absorption Shield Cell IV and Capacity Shield Cell IV, each made from the cell of tier III ([Shields](/wiki/06-Items/Shields.md#shield-cells)).
 - **The Heavy Shield Core**, made from a Basic Shield Core ([Shields](/wiki/06-Items/Shields.md#shield-cores)).
 - **Thrusters:** Impulse Thruster IV and Momentum Thruster IV, each made from the thruster of tier III ([Propulsion](/wiki/06-Items/Propulsion.md#thrusters)).
 - **The Engine III**, made from an Engine II ([Propulsion](/wiki/06-Items/Propulsion.md#engines)).
 - **CPUs:** Extra Slots CPU III, with 6 Orvium Reinforced Plates, and Base CPU II, with 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**These do not take Dark Matter Plates:** the Quantum Laser 3 and the Starfire-3 (Velkonite plates), tiers II and III of every chain (1 or 2 Velkonite plates for an amp, 2 or 4 for a cell or a thruster), the Jump CPU, the Auto-Repair CPU, Extra Slots CPU I and II, Base CPU I, the 16 drone formations and the ships. [The Forge](/wiki/06-Items/Forge.md) keeps its 2 plates on each of its top two steps.
+**These do not take Dark Matter Plates:** the Quantum Laser III and the Starfire-III (Velkonite plates), tiers II and III of every chain (1 or 2 Velkonite plates for an amp, 2 or 4 for a cell or a thruster), the Jump CPU, the Auto-Repair CPU, Extra Slots CPU I and II, Base CPU I, the 16 drone formations and the ships. [The Forge](/wiki/06-Items/Forge.md) keeps its 2 plates on each of its top two steps.
 
 A plate is pressed from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium, so the 3 plates of a piece also take 3 Velkonite plates, 3 Orvium plates and 750 Thulium. What a whole build holds, with the last tier everywhere:
 

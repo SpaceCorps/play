@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Seeker-svärm -->
 # Seeker-svärm {#seeker-swarm}
 
@@ -30,8 +30,8 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 ## Hur striden går till {#how-the-fight-goes}
 
 - **Låt den vara tills ditt skepp klarar den.** En Boss Seeker slår hårdare än en pilots första skepp tål: en ny pilots Protos, ännu utan sköld, förstörs på sekunder så snart bossen och dess Slaves är över den.
-- **Håll dig utom räckhåll.** Bossen och dess Slaves är långsammare än en Protos, och deras vapen når kortare än en Quantum Laser 2 (se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)): en pilot som har sådana lasrar och håller sig bortom deras räckvidd tar ingen skada medan de skjuter. En pilot med Quantum Laser 1 kan inte hålla sig utom räckhåll.
-- **Slaves läker snabbare än en ensam ny pilot träffar.** Tillsammans läker de mer än en pilots lasrar gör med ammunition x1, så ta med en kamrat och ammunition x2. Två piloter med Quantum Laser 2 som håller avstånd fäller bossen på ungefär en minut i Alpha, och mycket snabbare med ammunition x2.
+- **Håll dig utom räckhåll.** Bossen och dess Slaves är långsammare än en Protos, och deras vapen når kortare än en Quantum Laser II (se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)): en pilot som har sådana lasrar och håller sig bortom deras räckvidd tar ingen skada medan de skjuter. En pilot med Quantum Laser I kan inte hålla sig utom räckhåll.
+- **Slaves läker snabbare än en ensam ny pilot träffar.** Tillsammans läker de mer än en pilots lasrar gör med ammunition x1, så ta med en kamrat och ammunition x2. Två piloter med Quantum Laser II som håller avstånd fäller bossen på ungefär en minut i Alpha, och mycket snabbare med ammunition x2.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, vid full styrka, i samma sektor, och dess Slaves kommer en efter en.
 
 ## Belöningar och byte {#rewards-and-drops}

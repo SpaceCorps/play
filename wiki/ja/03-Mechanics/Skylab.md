@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Skylab の中枢です。コアのレベルが、ほかのすべてのモジュ�
 1. **コレクター**が、1時間あたり一定量の鉱石を、専用のホッパー（貯蔵部。72時間分）に採掘します。
 2. **回収**すると、鉱石がホッパーから**資源貯蔵庫**（バンク）に移り、そこで鉱石の種類ごとに別々に保管されます。
 3. **鍛造所**は、バッチの開始時に必要な鉱石をバンクから取り、1枚10秒でプレートを作ります。一度に作れるのは1バッチだけです。
-4. **プレートを回収**すると、完成したプレートがインベントリに移ります（艦が着陸している必要があります）。[アセンブリ](/wiki/06-Items/Lasers.md)は、それらを Quantum Laser 3、Starfire-3、Helios Beam に仕上げます。また、それぞれ1枚ずつに Dark Matter 5個を加えると Dark Matter Plate になり、[鍛冶場](/wiki/06-Items/Forge.md)と各強化系統の最終ティアがこれを要求します。
+4. **プレートを回収**すると、完成したプレートがインベントリに移ります（艦が着陸している必要があります）。[アセンブリ](/wiki/06-Items/Lasers.md)は、それらを Quantum Laser III、Starfire-III、Helios Beam に仕上げます。また、それぞれ1枚ずつに Dark Matter 5個を加えると Dark Matter Plate になり、[鍛冶場](/wiki/06-Items/Forge.md)と各強化系統の最終ティアがこれを要求します。
 
 ### Velkonite コレクターと Orvium コレクター {#velkonite-collector-and-orvium-collector}
 

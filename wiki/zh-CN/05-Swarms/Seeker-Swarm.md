@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Seeker 虫群 -->
 # Seeker 虫群 {#seeker-swarm}
 
@@ -30,8 +30,8 @@ Seeker 虫群是[虫群](/wiki/05-Swarms/Swarms.md)中最小的一个：一个 *
 ## 战斗过程 {#how-the-fight-goes}
 
 - **在你的舰船扛得住之前别去招惹它。** Boss Seeker 的打击比飞行员的第一艘舰船能承受的更重：新手飞行员还没有护盾的 Protos，一旦被 Boss 和它的 Slave 缠上，几秒钟就会被击毁。
-- **待在射程之外。** Boss 和它的 Slave 比 Protos 慢，武器射程也比 Quantum Laser 2 短（见[激光与弹药](/wiki/06-Items/Lasers.md)）：装备这种激光并待在其射程之外的飞行员，在它们开火时不会受到伤害。装备 Quantum Laser 1 的飞行员无法待在射程之外。
-- **Slave 的治疗比孤身新手的输出更快。** 它们加在一起的治疗量超过一名用 x1 弹药的飞行员的激光所造成的伤害，所以带上搭档和 x2 弹药。两名装备 Quantum Laser 2 并保持距离的飞行员，在 Alpha 中大约一分钟就能击败 Boss，用 x2 弹药则快得多。
+- **待在射程之外。** Boss 和它的 Slave 比 Protos 慢，武器射程也比 Quantum Laser II 短（见[激光与弹药](/wiki/06-Items/Lasers.md)）：装备这种激光并待在其射程之外的飞行员，在它们开火时不会受到伤害。装备 Quantum Laser I 的飞行员无法待在射程之外。
+- **Slave 的治疗比孤身新手的输出更快。** 它们加在一起的治疗量超过一名用 x1 弹药的飞行员的激光所造成的伤害，所以带上搭档和 x2 弹药。两名装备 Quantum Laser II 并保持距离的飞行员，在 Alpha 中大约一分钟就能击败 Boss，用 x2 弹药则快得多。
 - **Boss 会回来**，在*一览*列表给出的时间之后，满状态，出现在同一个星区，它的 Slave 会一只接一只地到来。
 
 ## 奖励与掉落 {#rewards-and-drops}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 
 Todo bônus de escudo aumenta um dos três atributos e aparece na janela Boosters sob a sua própria categoria:
 
-- **Capacidade** (pontos de escudo máximos): os boosters Shield Wall Booster 1 e 2 e o Shield Capacity Boost permanente.
+- **Capacidade** (pontos de escudo máximos): os boosters Shield Wall Booster I e II e o Shield Capacity Boost permanente.
 - **Absorção** (a parte de um impacto que os seus escudos recebem): o Shield Absorbance Boost permanente (+0,1 ponto por nível, no máximo +10 pontos).
 - **Recarga** (pontos de escudo restaurados por segundo): o Shield Regen Booster.
 

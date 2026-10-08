@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51df970a4edf8416 -->
+<!-- wiki-i18n source: 82acce8e49f71c02 -->
 <!-- wiki-i18n title: Convidar amigos -->
 # Convidar amigos {#invite-friends}
 
@@ -19,7 +19,7 @@ Um amigo digita o seu código em **Comunidade › Convidar amigos** (a página m
 | **Créditos** | 100.000 |
 | **Thulium** | 5.000 |
 | **N.I.K.E.** | 1 |
-| **Quantum Laser 2** | 1 |
+| **Quantum Laser II** | 1 |
 | **Engine II** | 1 |
 | **Advanced Plasma** | 1.000 |
 

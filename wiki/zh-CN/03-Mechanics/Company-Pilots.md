@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b4f15f0383031b07 -->
+<!-- wiki-i18n source: d5060b7c32b5d83e -->
 <!-- wiki-i18n title: 企业飞行员 -->
 # 企业飞行员 {#company-pilots}
 
@@ -10,7 +10,7 @@
 ## 他们是谁 {#who-they-are}
 
 - **小队**：每个世界中，企业的每个星区各有 3 名飞行员（Alpha、Beta 和 Gamma 各有自己的小队），每人的名字由企业标签和一个呼号组成，例如 **[M] Vesper**。他们的名牌上带有一个小机器人标记，并使用企业的颜色。
-- **舰船**：一艘 [Ostirion](/wiki/02-Ships/Ostirion.md)，装有三门 **Quantum Laser 2**、两个 **Light Shield Core**、一台 **Engine I** 和一台 **Repair Drone I**：
+- **舰船**：一艘 [Ostirion](/wiki/02-Ships/Ostirion.md)，装有三门 **Quantum Laser II**、两个 **Light Shield Core**、一台 **Engine I** 和一台 **Repair Drone I**：
   - 48,000 生命值、22,000 护盾值、速度 202
   - 吸收率 45%：护盾承受每次攻击的 45%，船体承受 55%
   - 每轮齐射基础伤害 195（x1 弹药），无暴击率，射程 700

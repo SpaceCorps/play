@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Az összes felszerelt lézer (a drónokon lévőket is beleértve) és a belesze
 Minden sortűz kritikus találat is lehet.
 - **Kritikus esély**: a felszerelt lézerek kritikus esélyének átlaga, plusz az összes felszerelt lézererősítő kritikus esélyének összege.
 - **Kritikus szorzó**: ha egy lövés kritikus, a sebzésdobás **1,5-szeresére** nő. A kritikus sortűz sebzésszáma jégkékben, nagyobb méretben, „!” jellel jelenik meg (lásd: [Sebzés- és gyógyulásszámok](#damage-and-heal-numbers)).
-- A Quantum Laser 1 és 2 lézernek nincs saját kritikus esélye: azt az erősítőik adják.
+- A Quantum Laser I és II lézernek nincs saját kritikus esélye: azt az erősítőik adják.
 - **Fix kritikus sebzés**: a lézererősítők bármilyen fix kritikus sebzése a szorzó után adódik hozzá.
   - Képlet: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Az a hajó vagy idegen, amely célba vett valakit és tüzel, a célpontja felé
 
 ### 5. Hatótáv {#5-range}
 
-Egy hajó másodpercenként egy sortüzet ad le, amíg a célpontja a **hatótávján** belül van, és visszatartja a tüzet, amíg a célpont távolabb van: ilyenkor a tűz nem fogyaszt lőszert, amíg a célpont újra elég közel nem kerül, és a célpontablak azt írja: „Hatótávon kívül”. A hatótáv **az összes lézered hatótávjának átlaga** (a drónjaidban lévő lézereket is beleértve), a legközelebbi egységre kerekítve, és egyetlen szám az egész hajóra: azon belül minden lézer tüzel, azon kívül egyik sem. Egy nagy hatótávú lézer a rövidebbek mellett ezért nem növeli meg a hatótávodat: egy Starfire-3 (850) és két Quantum Laser 2 (700) együtt 750-et ad. A Kovácsműhely hatótávbuffja a saját lézerén számít, az átlagolás előtt. A lézer nélküli hajó nem tud a lézereivel tüzelni, és a hangár nem mutat hozzá hatótávot (gondolatjel áll helyette): a rakétái továbbra is tüzelnek, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). Az egyes lézerek saját hatótávját lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
+Egy hajó másodpercenként egy sortüzet ad le, amíg a célpontja a **hatótávján** belül van, és visszatartja a tüzet, amíg a célpont távolabb van: ilyenkor a tűz nem fogyaszt lőszert, amíg a célpont újra elég közel nem kerül, és a célpontablak azt írja: „Hatótávon kívül”. A hatótáv **az összes lézered hatótávjának átlaga** (a drónjaidban lévő lézereket is beleértve), a legközelebbi egységre kerekítve, és egyetlen szám az egész hajóra: azon belül minden lézer tüzel, azon kívül egyik sem. Egy nagy hatótávú lézer a rövidebbek mellett ezért nem növeli meg a hatótávodat: egy Starfire-III (850) és két Quantum Laser II (700) együtt 750-et ad. A Kovácsműhely hatótávbuffja a saját lézerén számít, az átlagolás előtt. A lézer nélküli hajó nem tud a lézereivel tüzelni, és a hangár nem mutat hozzá hatótávot (gondolatjel áll helyette): a rakétái továbbra is tüzelnek, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). Az egyes lézerek saját hatótávját lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
 
 ## Sebzés- és gyógyulásszámok {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) minden játékos 
 
 ## Az idegenek elvesztik az érdeklődésüket {#aliens-lose-interest}
 
-Egyetlen idegen sem követ téged keresztül az egész térképen. De az az idegen, amelyet **találsz**, nem veszíti el az érdeklődését, hanem harcol veled: az utolsó találatod után **10 másodpercig** (minden találat újraindítja a 10 másodpercet, egy lézersortűz, egy rakéta vagy egy robbanás széle egyaránt) a saját sebességével rád repül, valahányszor a támadási hatótávján kívül vagy (Seeker 600, Phantasm és Bulwark 700, Goombah 800, Crystalys 900), és addig közeledik és tüzel, amíg hatótávon belülre nem kerülsz. Nincs korlátja annak, mekkora távolságra követ, amíg te találod. Az a lézer, amely az idegen fegyverénél messzebbre hat (a Starfire-3 hatótávja 850 egység, a Helios Beam hatótávja 900), nem teszi lehetővé, hogy olyan helyről találd el, ahonnan az nem tud válaszolni, és egy gyorsabb hajó is csak addig tartja maga mögött, amíg lősz rá. Azonnal elenged viszont, ha biztonságos zónába érsz, álcázod magad, vagy elhagyod a térképet.
+Egyetlen idegen sem követ téged keresztül az egész térképen. De az az idegen, amelyet **találsz**, nem veszíti el az érdeklődését, hanem harcol veled: az utolsó találatod után **10 másodpercig** (minden találat újraindítja a 10 másodpercet, egy lézersortűz, egy rakéta vagy egy robbanás széle egyaránt) a saját sebességével rád repül, valahányszor a támadási hatótávján kívül vagy (Seeker 600, Phantasm és Bulwark 700, Goombah 800, Crystalys 900), és addig közeledik és tüzel, amíg hatótávon belülre nem kerülsz. Nincs korlátja annak, mekkora távolságra követ, amíg te találod. Az a lézer, amely az idegen fegyverénél messzebbre hat (a Starfire-III hatótávja 850 egység, a Helios Beam hatótávja 900), nem teszi lehetővé, hogy olyan helyről találd el, ahonnan az nem tud válaszolni, és egy gyorsabb hajó is csak addig tartja maga mögött, amíg lősz rá. Azonnal elenged viszont, ha biztonságos zónába érsz, álcázod magad, vagy elhagyod a térképet.
 
 Ha több pilóta találja el ugyanazt az idegent, az az elsőnél marad, aki rálőtt (lásd [Kivel harcol egy idegen](#who-an-alien-fights)): afelé a pilóta felé közeledik, és tüzel rá, így egy csoport, amely épp a hatótávján kívül áll körülötte, nem tudja egyikről a másikra futtatni anélkül, hogy az idegen valaha is válaszolna.
 

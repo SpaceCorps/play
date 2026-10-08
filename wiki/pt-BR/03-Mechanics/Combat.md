@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -23,7 +23,7 @@ O dano base de todos os lasers equipados (incluindo os lasers dos drones) e dos 
 Toda rajada tem uma chance de ser um acerto crítico.
 - **Chance de crítico**: a chance de crítico média dos lasers equipados mais a soma das chances de crítico de todos os amplificadores de laser equipados.
 - **Multiplicador de crítico**: se um disparo é crítico, o sorteio de dano é multiplicado por **1,5x**. O número de dano de uma rajada crítica aparece em ciano gelo, maior, com um “!” (veja [Números de dano e de cura](#damage-and-heal-numbers)).
-- Os Quantum Laser 1 e 2 não têm chance de crítico própria: quem a dá são os amplificadores deles.
+- Os Quantum Laser I e II não têm chance de crítico própria: quem a dá são os amplificadores deles.
 - **Dano crítico fixo**: qualquer dano crítico fixo dos amplificadores de laser é somado depois do multiplicador.
   - Fórmula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Uma nave ou um alienígena que está com o alvo travado e atirando gira para fic
 
 ### 5. Alcance {#5-range}
 
-Uma nave dispara uma rajada por segundo enquanto o alvo está dentro do seu **alcance**, e segura o fogo enquanto o alvo está mais longe: o fogo deixa de gastar munição até o alvo chegar perto o bastante de novo, e o painel do alvo mostra “Fora de alcance”. O alcance é **a média dos alcances de todos os seus lasers** (os lasers dos drones também), arredondada para a unidade mais próxima, e é um único número para a nave inteira: dentro dele todo laser dispara, fora dele nenhum dispara. Um laser de longo alcance ao lado de lasers curtos, portanto, não amplia o seu alcance: um Starfire-3 (850) e dois Quantum Laser 2 (700) dão 750. Um bônus de alcance da Forja conta no próprio laser antes da média. Uma nave sem laser não pode disparar os lasers, e o hangar não mostra alcance para ela (um traço); os foguetes dela ainda disparam, cada um com o seu próprio alcance (veja [Foguetes](/wiki/06-Items/Rockets.md)). Veja [Lasers e munição](/wiki/06-Items/Lasers.md) para o alcance de cada laser.
+Uma nave dispara uma rajada por segundo enquanto o alvo está dentro do seu **alcance**, e segura o fogo enquanto o alvo está mais longe: o fogo deixa de gastar munição até o alvo chegar perto o bastante de novo, e o painel do alvo mostra “Fora de alcance”. O alcance é **a média dos alcances de todos os seus lasers** (os lasers dos drones também), arredondada para a unidade mais próxima, e é um único número para a nave inteira: dentro dele todo laser dispara, fora dele nenhum dispara. Um laser de longo alcance ao lado de lasers curtos, portanto, não amplia o seu alcance: um Starfire-III (850) e dois Quantum Laser II (700) dão 750. Um bônus de alcance da Forja conta no próprio laser antes da média. Uma nave sem laser não pode disparar os lasers, e o hangar não mostra alcance para ela (um traço); os foguetes dela ainda disparam, cada um com o seu próprio alcance (veja [Foguetes](/wiki/06-Items/Rockets.md)). Veja [Lasers e munição](/wiki/06-Items/Lasers.md) para o alcance de cada laser.
 
 ## Números de dano e de cura {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ Os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) contam depois
 
 ## Alienígenas perdem o interesse {#aliens-lose-interest}
 
-Nenhum alienígena segue você pelo mapa inteiro. Mas um alienígena que você está **acertando** não está perdendo o interesse, ele está lutando contra você: por **10 segundos** depois do seu último acerto (cada acerto reinicia os 10 segundos, seja uma rajada de laser, um foguete ou a borda de uma explosão), ele voa na sua direção, na velocidade dele, sempre que você está além do seu alcance de ataque (Seeker 600, Phantasm e Bulwark 700, Goombah 800, Crystalys 900), e continua se aproximando e atirando até você estar ao alcance. Não há limite para a distância que ele percorre enquanto você continuar a acertá-lo. Um laser que alcança mais longe que a arma do alienígena (um Starfire-3 alcança 850 unidades, um Helios Beam 900) não deixa você acertá-lo de onde ele não pode responder, e uma nave mais rápida só o mantém atrás de você enquanto você continuar atirando. Ele ainda desiste de você na hora se você chega a uma zona segura, se camufla ou sai do mapa.
+Nenhum alienígena segue você pelo mapa inteiro. Mas um alienígena que você está **acertando** não está perdendo o interesse, ele está lutando contra você: por **10 segundos** depois do seu último acerto (cada acerto reinicia os 10 segundos, seja uma rajada de laser, um foguete ou a borda de uma explosão), ele voa na sua direção, na velocidade dele, sempre que você está além do seu alcance de ataque (Seeker 600, Phantasm e Bulwark 700, Goombah 800, Crystalys 900), e continua se aproximando e atirando até você estar ao alcance. Não há limite para a distância que ele percorre enquanto você continuar a acertá-lo. Um laser que alcança mais longe que a arma do alienígena (um Starfire-III alcança 850 unidades, um Helios Beam 900) não deixa você acertá-lo de onde ele não pode responder, e uma nave mais rápida só o mantém atrás de você enquanto você continuar atirando. Ele ainda desiste de você na hora se você chega a uma zona segura, se camufla ou sai do mapa.
 
 Quando vários pilotos acertam o mesmo alienígena, ele continua no primeiro que atirou nele (veja [Contra quem um alienígena luta](#who-an-alien-fights)): ele se aproxima desse piloto e atira, de modo que um grupo parado ao redor dele, logo fora do alcance, não consegue mantê-lo correndo de um para o outro sem nunca responder.
 

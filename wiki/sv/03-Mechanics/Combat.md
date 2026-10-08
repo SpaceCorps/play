@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Grundskadan hos alla utrustade lasrar (även lasrar på drönare) och deras lase
 Varje salva har en chans att bli en kritisk träff.
 - **Kritisk chans**: Den genomsnittliga kritiska chansen hos utrustade lasrar plus summan av alla utrustade laserförstärkares kritiska chanser.
 - **Kritisk multiplikator**: Om ett skott är kritiskt multipliceras skadeutfallet med **1,5×**. Skadetalet för en kritisk salva visas i isblått, större, med ett ”!” (se [Skade- och läkningssiffror](#damage-and-heal-numbers)).
-- Quantum Laser 1 och 2 har ingen egen kritisk chans: deras förstärkare ger den.
+- Quantum Laser I och II har ingen egen kritisk chans: deras förstärkare ger den.
 - **Fast kritisk skada**: All fast kritisk skada från laserförstärkare läggs till efter multiplikatorn.
   - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Ett skepp eller en utomjording som har låst på ett mål och skjuter vänder si
 
 ### 5. Räckvidd {#5-range}
 
-Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd**, och håller elden medan målet är längre bort: elden slutar kosta ammunition tills målet är tillräckligt nära igen, och Målfönstret visar ”Utom räckhåll”. Räckvidden är **medelvärdet av räckvidden hos alla dina lasrar** (även lasrarna i dina drönare), avrundat till närmaste enhet, och det är ett enda tal för hela skeppet: inom den skjuter varje laser, utanför den ingen. En långräckviddig laser bredvid korta förlänger därför inte din räckvidd: en Starfire-3 (850) och två Quantum Laser 2 (700) ger 750. En räckviddsbonus från Smedjan räknas på sin egen laser före medelvärdet. Ett skepp utan laser kan inte avfyra sina lasrar, och Hangaren visar ingen räckvidd för det (ett streck); dess raketer avfyras ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md) för varje lasers egen räckvidd.
+Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd**, och håller elden medan målet är längre bort: elden slutar kosta ammunition tills målet är tillräckligt nära igen, och Målfönstret visar ”Utom räckhåll”. Räckvidden är **medelvärdet av räckvidden hos alla dina lasrar** (även lasrarna i dina drönare), avrundat till närmaste enhet, och det är ett enda tal för hela skeppet: inom den skjuter varje laser, utanför den ingen. En långräckviddig laser bredvid korta förlänger därför inte din räckvidd: en Starfire-III (850) och två Quantum Laser II (700) ger 750. En räckviddsbonus från Smedjan räknas på sin egen laser före medelvärdet. Ett skepp utan laser kan inte avfyra sina lasrar, och Hangaren visar ingen räckvidd för det (ett streck); dess raketer avfyras ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md) för varje lasers egen räckvidd.
 
 ## Skade- och läkningssiffror {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ När den första piloten faller bort (lämnar kartan, når en säker zon, blir o
 
 ## Utomjordingar tappar intresset {#aliens-lose-interest}
 
-Ingen utomjording följer dig över hela kartan. Men en utomjording som du **träffar** tappar inte intresset, den strider mot dig: under **10 sekunder** efter din senaste träff (varje träff startar de 10 sekunderna om, en lasersalva, en raket eller kanten av en explosion lika) flyger den mot dig, i sin egen hastighet, så snart du är utanför dess anfallsräckvidd (Seeker 600, Phantasm och Bulwark 700, Goombah 800, Crystalys 900), och fortsätter att närma sig och skjuta tills du är inom räckvidd. Det finns ingen gräns för hur långt den följer medan du fortsätter att träffa den. En laser som når längre än utomjordingens vapen (en Starfire-3 når 850 enheter, en Helios Beam 900) låter dig inte träffa den från ett avstånd där den inte kan svara, och ett snabbare skepp håller den bara bakom dig så länge du fortsätter skjuta. Den släpper dig ändå direkt om du når en säker zon, kamouflerar dig eller lämnar kartan.
+Ingen utomjording följer dig över hela kartan. Men en utomjording som du **träffar** tappar inte intresset, den strider mot dig: under **10 sekunder** efter din senaste träff (varje träff startar de 10 sekunderna om, en lasersalva, en raket eller kanten av en explosion lika) flyger den mot dig, i sin egen hastighet, så snart du är utanför dess anfallsräckvidd (Seeker 600, Phantasm och Bulwark 700, Goombah 800, Crystalys 900), och fortsätter att närma sig och skjuta tills du är inom räckvidd. Det finns ingen gräns för hur långt den följer medan du fortsätter att träffa den. En laser som når längre än utomjordingens vapen (en Starfire-III når 850 enheter, en Helios Beam 900) låter dig inte träffa den från ett avstånd där den inte kan svara, och ett snabbare skepp håller den bara bakom dig så länge du fortsätter skjuta. Den släpper dig ändå direkt om du når en säker zon, kamouflerar dig eller lämnar kartan.
 
 När flera piloter träffar samma utomjording håller den sig till den som sköt först (se [Vem en utomjording slåss mot](#who-an-alien-fights)): den närmar sig den piloten och skjuter, så en grupp som står runt den precis utanför dess räckvidd kan inte få den att flyga fram och tillbaka mellan dem utan att den någonsin svarar.
 

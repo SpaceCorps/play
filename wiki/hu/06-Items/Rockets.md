@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
@@ -79,7 +79,7 @@ Minél drágább a fokozat, annál erősebben üt a rakéta, annál messzebbre h
 
 ## Mennyibe kerülnek {#what-they-cost}
 
-Egy Gyakori rakéta 500 kreditbe kerül, egy Ritka 800 kreditbe, egy Epikus 5 Thuliumba, minden fajtában. Minden időzítőnél kilőve ez percenként 10 000 kredit a Gyakori rakétánál, 16 000 a Ritkánál és 100 Thulium az Epikusnál, szemben azzal az 1 800 kredit/perccel, amennyit egy Ostirion három lézere x1 lőszerrel elfogyaszt. Egy teli köteg 5 000 Gyakori rakéta (2 500 000 kredit), 2 000 Ritka (1 600 000 kredit) vagy 500 Epikus (2 500 Thulium): a teli kötegig annyit veszel, amennyit akarsz, és egy rakéta *legfeljebb ennyit vihetsz* értéke az egyetlen korlát arra, hányat tarthatsz. A rakéták semmit sem nyomnak: nem foglalnak helyet a tranzittárolóban. A 3 másodpercenkénti egy rakéta percenként csak húsz, így a rakéta a lézereid tetejére jövő löket: az olcsók a gyenge idegeneknek, a drágák a nagy harcokra. Amit az [Aukción](/wiki/03-Mechanics/Auction.md#limits) meghirdettél, és a tételek, amelyekben vezetsz, beleszámítanak ebbe a korlátba, amikor rakétát vásárolsz vagy licitálsz rá.
+Egy Gyakori rakéta 500 kreditbe kerül, egy Ritka 800 kreditbe, egy Epikus 5 Thuliumba, minden fajtában. Minden időzítőnél kilőve ez percenként 10 000 kredit a Gyakori rakétánál, 16 000 a Ritkánál és 100 Thulium az Epikusnál, szemben azzal a 900 kredit/perccel, amennyit egy Ostirion három lézere x1 lőszerrel elfogyaszt. Egy teli köteg 5 000 Gyakori rakéta (2 500 000 kredit), 2 000 Ritka (1 600 000 kredit) vagy 500 Epikus (2 500 Thulium): a teli kötegig annyit veszel, amennyit akarsz, és egy rakéta *legfeljebb ennyit vihetsz* értéke az egyetlen korlát arra, hányat tarthatsz. A rakéták semmit sem nyomnak: nem foglalnak helyet a tranzittárolóban. A 3 másodpercenkénti egy rakéta percenként csak húsz, így a rakéta a lézereid tetejére jövő löket: az olcsók a gyenge idegeneknek, a drágák a nagy harcokra. Amit az [Aukción](/wiki/03-Mechanics/Auction.md#limits) meghirdettél, és a tételek, amelyekben vezetsz, beleszámítanak ebbe a korlátba, amikor rakétát vásárolsz vagy licitálsz rá.
 
 A Bolt a rakétákat fajtánként sorolja fel, mindegyiket a neve alatt, elöl a Gyakori rakétával és a végén az Epikussal; a hangár, a tranzittároló és a Rakéták menü ugyanezt a sorrendet használja.
 

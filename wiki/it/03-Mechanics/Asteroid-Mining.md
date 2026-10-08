@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Estrazione di asteroidi -->
 # Estrazione di asteroidi {#asteroid-mining}
 
 Gli **asteroidi** sono grandi rocce che giacciono nel piano di volo dei settori delle corporazioni e dei settori pericolosi. Non si muovono mai e non sparano mai. Spezzane uno con i **razzi** o con i **laser** e si frantuma in piccoli **frammenti** di crediti, Thulium e minerale, che raccogli come un [carico](/wiki/03-Mechanics/Cargo.md). I razzi sono lo strumento per questo lavoro: anche i tuoi laser danneggiano un asteroide, ma solo al 5% di quello che fanno a una nave, e i droni non gli fanno nulla.
 
-L’estrazione è un lavoro diverso dalla caccia, non un suo sostituto: non dà XP, onore né punti classifica, e i razzi che spari costano crediti o Thulium. Ti dà crediti e Thulium, minerale per la [Forgia](/wiki/06-Items/Forge.md) e per la fabbricazione senza combattere, e un lavoro che un [gruppo](/wiki/03-Mechanics/Groups.md) può condividere. Rende bene: secondo il modello del gioco stesso, un’ora sugli asteroidi giusti con il razzo giusto vale da 2,8 a 7,6 volte la migliore ora di caccia del tuo livello, una volta pagati i razzi. I limiti giornalieri di [I mondi](#the-worlds) la frenano, e li raggiungi presto: in Alpha, un minatore costante in un buon settore raggiunge il limite di Thulium in meno di 2 ore e quello dei crediti in circa 2,7 ore.
+L’estrazione è un lavoro diverso dalla caccia, non un suo sostituto: non dà XP, onore né punti classifica, e i razzi che spari costano crediti o Thulium. Ti dà crediti e Thulium, minerale per la [Forgia](/wiki/06-Items/Forge.md) e per la fabbricazione senza combattere, e un lavoro che un [gruppo](/wiki/03-Mechanics/Groups.md) può condividere. Rende bene: secondo il modello del gioco stesso, un’ora sugli asteroidi giusti con il razzo giusto vale da 2,6 a 6,8 volte la migliore ora di caccia del tuo livello, una volta pagati i razzi. I limiti giornalieri di [I mondi](#the-worlds) la frenano, e li raggiungi presto: in Alpha, un minatore costante in un buon settore raggiunge il limite di Thulium in meno di 2 ore e quello dei crediti in circa 2,7 ore.
 
 ## Che cos’è un asteroide {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ Il più grande di tutti, una roccia per un gruppo.
 
 ## Che cosa non dà {#what-it-does-not-give}
 
-Un asteroide non è un abbattimento. Spezzarlo non dà XP, onore, conteggio di abbattimenti, punti PvE o PvP, classifica, [punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), XP dei droni né progressi in una [missione](/wiki/03-Mechanics/Quests.md). Neppure i potenziamenti dell’Emporio lo toccano. Dà quello che c’è nelle tabelle: crediti, Thulium e minerale, che la pagina [Risorse](/wiki/06-Items/Resources.md) elenca insieme al bottino degli alieni.
+Un asteroide non è un abbattimento. Spezzarlo non dà XP, onore, conteggio di abbattimenti, punti PvE o PvP, classifica, [punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), XP dei droni né progressi in una [missione](/wiki/03-Mechanics/Quests.md), tranne la [missione degli asteroidi di ogni livello](/wiki/03-Mechanics/Quests.md#levels). Neppure i potenziamenti dell’Emporio lo toccano. Dà quello che c’è nelle tabelle: crediti, Thulium e minerale, che la pagina [Risorse](/wiki/06-Items/Resources.md) elenca insieme al bottino degli alieni.
 
 ## Consigli {#tips}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 34583e4cd1123983 -->
+<!-- wiki-i18n source: f2c5a34006933e29 -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -54,7 +54,7 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 
 플레이트는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 티어 II와 III의 Velkonite Reinforced Plate를 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로 티어 III 셀이나 추진기의 플레이트 4장은 채굴 16시간, 티어 II의 플레이트 2장은 8시간 분량입니다. 티어 III 증폭기는 플레이트 2장(8시간), 티어 II 증폭기는 플레이트 1장(4시간)입니다. 마지막 티어는 대신 **Dark Matter Plate 3개**를 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam이 여기에 해당합니다. 어셈블리는 플레이트의 제작법을 연구한 뒤 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 플레이트 하나를 압착하며, Dark Matter는 블랙홀에서 나옵니다. 마지막 티어 부품 하나에는 Dark Matter 15개, 곧 N.I.K.E. 로켓 평균 7.5발 분량이 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)). 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
 
-**Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-3를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개가 필요하며, Starfire-3의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-3**도 마찬가지입니다. Quantum Laser 3를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser 3의 인챈트 등급을 이어받습니다. 둘 다 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
+**Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-III를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개가 필요하며, Starfire-III의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-III**도 마찬가지입니다. Quantum Laser III를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser III의 인챈트 등급을 이어받습니다. 둘 다 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
 
 ## 아이템 인챈트 {#item-enchants}
 
@@ -69,10 +69,10 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 | 5. **영원한** | 4 | +9–15% | 0.01% |
 
 - 상점 아이템은 항상 표준 등급입니다. 어셈블리에서 만든 장비는 수령할 때 등급이 정해집니다(확률 열). 그보다 높은 등급은 [대장간](/wiki/06-Items/Forge.md)에서 한 단계씩 올립니다. 유일한 다른 방법은 어셈블리의 모듈 업그레이드(Damage Amp IV, Crit Amp IV, 티어 II~IV의 실드 셀과 추진기, Heavy Shield Core, Engine III, Helios Beam)이며, 이는 재료가 된 부품의 등급을 이어받습니다.
-- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser 1, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.02~x1.035에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
+- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser I, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.02~x1.035에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
 - [대장간](/wiki/06-Items/Forge.md#buffs-by-tier)은 아이템의 첫 보너스 이후의 칸을 확률로만 채웁니다. 등급 상승은 첫 보너스를 항상 주고, 새 등급이 여는 나머지 칸은 50% 확률로 채워집니다. 그래서 한 등급이 담는 보너스는 최대 그 수까지입니다(신성한 등급 아이템은 절반의 확률로 2개).
 - **사거리** 보너스는 어느 등급에서도 +5%를 넘지 않습니다.
-- 보너스는 바로 위 단계 아이템에 비하면 작습니다. 보너스를 최대로 채운 Quantum Laser 1도 평범한 Quantum Laser 2보다 피해량이 낮습니다.
+- 보너스는 바로 위 단계 아이템에 비하면 작습니다. 보너스를 최대로 채운 Quantum Laser I도 평범한 Quantum Laser II보다 피해량이 낮습니다.
 
 인챈트된 능력치는 아이템 아이콘 격자 카드에 표시되며(예: 오염된 등급은 `[T]`, 신성한 등급은 `[G]`), 아이템의 능력치 툴팁에도 나열됩니다.
 

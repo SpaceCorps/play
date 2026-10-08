@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
 **小行星**是躺在企业星区和危险星区飞行平面上的大块岩石。它们从不移动，也从不开火。用**火箭**或**激光**击碎一颗，它就会炸成含有信用点、Thulium 和矿石的小**碎块**，你可以像拾取[货物](/wiki/03-Mechanics/Cargo.md)一样捡起它们。火箭才是干这件事的工具：激光也能伤害小行星，但只有对飞船伤害的 5%，无人机则对它毫无作用。
 
-采矿和狩猎是两种不同的工作，前者替代不了后者：它不给经验值、荣誉或排名点数，而且你发射的火箭要花费信用点或 Thulium。它给你的是信用点和 Thulium、不用战斗就能得到的[锻造炉](/wiki/06-Items/Forge.md)和制造所需的矿石，以及一份[小队](/wiki/03-Mechanics/Groups.md)可以分着做的工作。它报酬丰厚：按游戏自己的模型，在合适的小行星上用合适的火箭采一小时，扣除火箭成本后，大约相当于你等级上最佳狩猎一小时的 2.8 到 7.6 倍。每日上限（见[世界](#the-worlds)）给它封了顶，而且你很快就会碰到：在 Alpha，稳定采矿的飞行员在好星区不到 2 小时就能达到 Thulium 上限，大约 2.7 小时就能达到信用点上限。
+采矿和狩猎是两种不同的工作，前者替代不了后者：它不给经验值、荣誉或排名点数，而且你发射的火箭要花费信用点或 Thulium。它给你的是信用点和 Thulium、不用战斗就能得到的[锻造炉](/wiki/06-Items/Forge.md)和制造所需的矿石，以及一份[小队](/wiki/03-Mechanics/Groups.md)可以分着做的工作。它报酬丰厚：按游戏自己的模型，在合适的小行星上用合适的火箭采一小时，扣除火箭成本后，大约相当于你等级上最佳狩猎一小时的 2.6 到 6.8 倍。每日上限（见[世界](#the-worlds)）给它封了顶，而且你很快就会碰到：在 Alpha，稳定采矿的飞行员在好星区不到 2 小时就能达到 Thulium 上限，大约 2.7 小时就能达到信用点上限。
 
 ## 什么是小行星 {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@
 
 ## 它不给什么 {#what-it-does-not-give}
 
-小行星不算击杀。击碎它不会给经验值、荣誉、击杀数、PvE 或 PvP 点数、排名、[重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)、无人机经验值，也不推进任何[任务](/wiki/03-Mechanics/Quests.md)。赛季商店的增益也对它无效。它给的是表里写的东西：信用点、Thulium 和矿石，[资源](/wiki/06-Items/Resources.md)页面把它们和外星人的掉落一起列了出来。
+小行星不算击杀。击碎它不会给经验值、荣誉、击杀数、PvE 或 PvP 点数、排名、[重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)、无人机经验值，也不推进任何[任务](/wiki/03-Mechanics/Quests.md)，每个等级的[小行星任务](/wiki/03-Mechanics/Quests.md#levels)除外。赛季商店的增益也对它无效。它给的是表里写的东西：信用点、Thulium 和矿石，[资源](/wiki/06-Items/Resources.md)页面把它们和外星人的掉落一起列了出来。
 
 ## 小贴士 {#tips}
 

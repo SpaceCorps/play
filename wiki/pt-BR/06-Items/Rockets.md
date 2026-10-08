@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
@@ -79,7 +79,7 @@ Quanto mais cara a raridade, mais forte o foguete bate, mais longe ele chega, ma
 
 ## Quanto custam {#what-they-cost}
 
-Um foguete Comum custa 500 créditos, um Raro 800 créditos e um Épico 5 Thulium, em todos os tipos. Disparados a cada temporizador, isso dá 10.000 créditos por minuto para um foguete Comum, 16.000 para um Raro e 100 Thulium para um Épico, contra os 1.800 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Uma pilha cheia são 5.000 foguetes Comuns (2.500.000 créditos), 2.000 Raros (1.600.000 créditos) ou 500 Épicos (2.500 Thulium): você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. Foguetes não pesam nada: não ocupam espaço no Cache de Transporte. Um foguete a cada 3 segundos são só vinte por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas. O que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#limits) e os lotes que você lidera lá contam para esse limite quando você compra um foguete ou dá lance nele.
+Um foguete Comum custa 500 créditos, um Raro 800 créditos e um Épico 5 Thulium, em todos os tipos. Disparados a cada temporizador, isso dá 10.000 créditos por minuto para um foguete Comum, 16.000 para um Raro e 100 Thulium para um Épico, contra os 900 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Uma pilha cheia são 5.000 foguetes Comuns (2.500.000 créditos), 2.000 Raros (1.600.000 créditos) ou 500 Épicos (2.500 Thulium): você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. Foguetes não pesam nada: não ocupam espaço no Cache de Transporte. Um foguete a cada 3 segundos são só vinte por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas. O que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#limits) e os lotes que você lidera lá contam para esse limite quando você compra um foguete ou dá lance nele.
 
 A Loja lista os foguetes um tipo de cada vez, cada um sob o seu nome, com o foguete Comum primeiro e o Épico por último; o hangar, o Cache de Transporte e o seletor de Foguetes usam a mesma ordem.
 

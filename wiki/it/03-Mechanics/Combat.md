@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Si somma il danno base di tutti i laser equipaggiati (compresi i laser sui droni
 Ogni raffica ha una probabilità di essere un colpo critico.
 - **Probabilità critica**: la probabilità critica media dei laser equipaggiati più la somma delle probabilità critiche di tutti gli amp laser equipaggiati.
 - **Moltiplicatore critico**: se un colpo è critico, il tiro del danno viene moltiplicato per **1,5x**. Il numero del danno di una raffica critica è mostrato in azzurro ghiaccio, più grande, con un “!” (vedi [Numeri di danno e di cura](#damage-and-heal-numbers)).
-- Quantum Laser 1 e 2 non hanno una probabilità critica propria: la danno i loro amp.
+- Quantum Laser I e II non hanno una probabilità critica propria: la danno i loro amp.
 - **Danno critico fisso**: l’eventuale danno critico fisso degli amp laser viene aggiunto dopo il moltiplicatore.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Una nave o un alieno che ha agganciato un bersaglio e spara si volta verso di es
 
 ### 5. Portata {#5-range}
 
-Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua **portata**, e trattiene il fuoco finché il bersaglio è più lontano: il fuoco smette di consumare munizioni finché il bersaglio non è di nuovo abbastanza vicino, e la finestra Bersaglio dice “Fuori portata”. La portata è **la media delle portate di tutti i tuoi laser** (compresi i laser nei tuoi droni), arrotondata all’unità più vicina, ed è un unico numero per tutta la nave: entro di essa spara ogni laser, fuori nessuno. Un laser a lungo raggio accanto a laser corti quindi non allunga la tua portata: una Starfire-3 (850) e due Quantum Laser 2 (700) fanno 750. Un bonus di portata della Forgia conta sul proprio laser prima della media. Una nave senza laser non può sparare con i laser, e l’Hangar non mostra alcuna portata per essa (un trattino); i suoi razzi sparano comunque, ciascuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Per la portata di ciascun laser vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
+Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua **portata**, e trattiene il fuoco finché il bersaglio è più lontano: il fuoco smette di consumare munizioni finché il bersaglio non è di nuovo abbastanza vicino, e la finestra Bersaglio dice “Fuori portata”. La portata è **la media delle portate di tutti i tuoi laser** (compresi i laser nei tuoi droni), arrotondata all’unità più vicina, ed è un unico numero per tutta la nave: entro di essa spara ogni laser, fuori nessuno. Un laser a lungo raggio accanto a laser corti quindi non allunga la tua portata: una Starfire-III (850) e due Quantum Laser II (700) fanno 750. Un bonus di portata della Forgia conta sul proprio laser prima della media. Una nave senza laser non può sparare con i laser, e l’Hangar non mostra alcuna portata per essa (un trattino); i suoi razzi sparano comunque, ciascuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Per la portata di ciascun laser vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 
 ## Numeri di danno e di cura {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ I [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) contano dopo og
 
 ## Gli alieni perdono interesse {#aliens-lose-interest}
 
-Nessun alieno ti segue per tutta la mappa. Ma un alieno che stai **colpendo** non sta perdendo interesse, sta combattendo contro di te: per **10 secondi** dopo il tuo ultimo colpo (ogni colpo fa ripartire i 10 secondi, una raffica laser, un razzo o il bordo di un’esplosione allo stesso modo) ti vola contro, alla sua velocità, ogni volta che sei oltre la sua portata d’attacco (Seeker 600, Phantasm e Bulwark 700, Goombah 800, Crystalys 900), e continua ad avvicinarsi e a sparare finché non sei a portata. Non ha alcun limite alla distanza che percorre per seguirti finché continui a colpirlo. Un laser che arriva più lontano dell’arma dell’alieno (una Starfire-3 arriva a 850 unità, un Helios Beam a 900) non ti permette di colpirlo da dove non può rispondere, e una nave più veloce lo tiene dietro di te solo finché continui a sparare. Ti lascia comunque subito se raggiungi una zona sicura, ti occulti o lasci la mappa.
+Nessun alieno ti segue per tutta la mappa. Ma un alieno che stai **colpendo** non sta perdendo interesse, sta combattendo contro di te: per **10 secondi** dopo il tuo ultimo colpo (ogni colpo fa ripartire i 10 secondi, una raffica laser, un razzo o il bordo di un’esplosione allo stesso modo) ti vola contro, alla sua velocità, ogni volta che sei oltre la sua portata d’attacco (Seeker 600, Phantasm e Bulwark 700, Goombah 800, Crystalys 900), e continua ad avvicinarsi e a sparare finché non sei a portata. Non ha alcun limite alla distanza che percorre per seguirti finché continui a colpirlo. Un laser che arriva più lontano dell’arma dell’alieno (una Starfire-III arriva a 850 unità, un Helios Beam a 900) non ti permette di colpirlo da dove non può rispondere, e una nave più veloce lo tiene dietro di te solo finché continui a sparare. Ti lascia comunque subito se raggiungi una zona sicura, ti occulti o lasci la mappa.
 
 Quando più piloti colpiscono lo stesso alieno, esso resta sul primo che gli ha sparato (vedi [Contro chi combatte un alieno](#who-an-alien-fights)): si avvicina a quel pilota e spara, così un gruppo fermo intorno a lui appena fuori dalla sua portata non può tenerlo in corsa dall’uno all’altro senza che mai risponda.
 

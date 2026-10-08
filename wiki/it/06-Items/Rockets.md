@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -79,7 +79,7 @@ Più cara è la fascia, più forte colpisce un razzo, più lontano arriva, più 
 
 ## Quanto costano {#what-they-cost}
 
-Un razzo Comune costa 500 crediti, uno Raro 800 crediti e uno Epico 5 Thulium, in ogni tipo. Lanciati a ogni timer, fanno 10.000 crediti al minuto per un razzo Comune, 16.000 per uno Raro e 100 Thulium per uno Epico, contro i 1.800 crediti al minuto che bruciano a x1 i tre laser di una nave Ostirion. Una scorta piena è di 5.000 razzi Comuni (2.500.000 crediti), 2.000 Rari (1.600.000 crediti) o 500 Epici (2.500 Thulium): ne compri quanti vuoi fino a quel numero, e il *massimo trasportabile* di un razzo è l’unico tetto a quanti ne possiedi. I razzi non pesano nulla: non occupano spazio nel Deposito di trasporto. Un razzo ogni 3 secondi sono solo venti al minuto, quindi un razzo è il picco di danno che si aggiunge ai tuoi laser: quelli economici per gli alieni deboli, quelli cari per gli scontri grossi. Ciò che hai messo all’[Asta](/wiki/03-Mechanics/Auction.md#limits) e i lotti in cui sei in testa contano in questo limite quando compri un razzo o fai un’offerta su di esso.
+Un razzo Comune costa 500 crediti, uno Raro 800 crediti e uno Epico 5 Thulium, in ogni tipo. Lanciati a ogni timer, fanno 10.000 crediti al minuto per un razzo Comune, 16.000 per uno Raro e 100 Thulium per uno Epico, contro i 900 crediti al minuto che bruciano a x1 i tre laser di una nave Ostirion. Una scorta piena è di 5.000 razzi Comuni (2.500.000 crediti), 2.000 Rari (1.600.000 crediti) o 500 Epici (2.500 Thulium): ne compri quanti vuoi fino a quel numero, e il *massimo trasportabile* di un razzo è l’unico tetto a quanti ne possiedi. I razzi non pesano nulla: non occupano spazio nel Deposito di trasporto. Un razzo ogni 3 secondi sono solo venti al minuto, quindi un razzo è il picco di danno che si aggiunge ai tuoi laser: quelli economici per gli alieni deboli, quelli cari per gli scontri grossi. Ciò che hai messo all’[Asta](/wiki/03-Mechanics/Auction.md#limits) e i lotti in cui sei in testa contano in questo limite quando compri un razzo o fai un’offerta su di esso.
 
 Il Negozio elenca i razzi un tipo alla volta, ciascuno sotto il proprio nome, con il razzo Comune per primo e quello Epico per ultimo; l’Hangar, il Deposito di trasporto e il selettore Razzi usano lo stesso ordine.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b4f15f0383031b07 -->
+<!-- wiki-i18n source: d5060b7c32b5d83e -->
 <!-- wiki-i18n title: 기업 파일럿 -->
 # 기업 파일럿 {#company-pilots}
 
@@ -10,7 +10,7 @@
 ## 이들은 누구인가 {#who-they-are}
 
 - **편대**: 월드마다 기업 섹터당 파일럿 3명입니다(Alpha, Beta, Gamma 월드에는 각각 자체 편대가 있습니다). 이름은 기업 태그와 콜사인으로 이루어지며, 예를 들면 **[M] Vesper**입니다. 이름표에는 작은 로봇 표시와 기업의 색상이 붙습니다.
-- **함선**: **Quantum Laser 2** 3개, **Light Shield Core** 2개, **Engine I** 1개, **Repair Drone I** 1개를 장착한 [Ostirion](/wiki/02-Ships/Ostirion.md)입니다.
+- **함선**: **Quantum Laser II** 3개, **Light Shield Core** 2개, **Engine I** 1개, **Repair Drone I** 1개를 장착한 [Ostirion](/wiki/02-Ships/Ostirion.md)입니다.
   - 내구도 48,000, 실드 포인트 22,000, 속도 202
   - 흡수율 45%: 실드가 공격의 45%를, 선체가 55%를 받습니다
   - 일제 사격당 기본 피해량 195(x1 탄약), 치명타 확률 없음, 사거리 700

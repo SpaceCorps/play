@@ -21,7 +21,7 @@ The base damage of all equipped lasers (including lasers on drones) and their sl
 Every volley has a chance to be a Critical Hit.
 - **Critical Chance**: The average critical chance of equipped lasers plus the sum of all equipped laser amplifier critical chances.
 - **Critical Multiplier**: If a shot is critical, the damage roll is multiplied by **1.5x**. The damage number of a critical volley is shown in ice cyan, larger, with a "!" (see [Damage and Heal Numbers](#damage-and-heal-numbers)).
-- Quantum Laser 1 and 2 have no critical chance of their own: their amplifiers give it.
+- Quantum Laser I and II have no critical chance of their own: their amplifiers give it.
 - **Fixed Critical Damage**: Any flat critical damage from laser amplifiers is added after the multiplier.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -42,7 +42,7 @@ A ship or alien locked on and firing turns to face its target, whichever way it 
 
 ### 5. Range
 
-A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-3 (850) and two Quantum Laser 2 (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). See [Lasers & Ammo](/wiki/06-Items/Lasers.md) for each laser's own range.
+A ship fires one volley a second while its target is inside its **range**, and holds fire while the target is farther: the fire stops costing ammo until the target is close enough again, and the target panel says "Out of range". The range is **the average of the ranges of all your lasers** (the lasers in your drones too), rounded to the nearest unit, and it is one number for the whole ship: inside it every laser fires, outside it none does. A long-range laser beside short ones therefore does not stretch your reach: a Starfire-III (850) and two Quantum Laser II (700) make 750. A Forge range buff counts on its own laser before the average. A ship with no laser cannot fire its lasers, and the Hangar shows no range for it (a dash); its rockets still fire, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). See [Lasers & Ammo](/wiki/06-Items/Lasers.md) for each laser's own range.
 
 ## Damage and Heal Numbers
 
@@ -89,7 +89,7 @@ When the first pilot drops out (it leaves the map, reaches a safe zone, goes dar
 
 ## Aliens Lose Interest
 
-No alien follows you across the map. But an alien you are **hitting** is not losing interest, it is fighting you: for **10 seconds** after your last hit (every hit starts the 10 seconds again, a laser volley, a rocket or the edge of a blast alike) it flies at you, at its own speed, whenever you are beyond its attack range (Seeker 600, Phantasm and Bulwark 700, Goombah 800, Crystalys 900), and keeps closing in and firing until you are in range. It has no limit on how far it follows while you keep hitting it. A laser that reaches farther than the alien's weapon (a Starfire-3 reaches 850 units, a Helios Beam 900) does not let you hit it from where it cannot answer, and a faster ship only keeps it behind you for as long as you keep shooting. It still drops you at once if you reach a safe zone, cloak, or leave the map.
+No alien follows you across the map. But an alien you are **hitting** is not losing interest, it is fighting you: for **10 seconds** after your last hit (every hit starts the 10 seconds again, a laser volley, a rocket or the edge of a blast alike) it flies at you, at its own speed, whenever you are beyond its attack range (Seeker 600, Phantasm and Bulwark 700, Goombah 800, Crystalys 900), and keeps closing in and firing until you are in range. It has no limit on how far it follows while you keep hitting it. A laser that reaches farther than the alien's weapon (a Starfire-III reaches 850 units, a Helios Beam 900) does not let you hit it from where it cannot answer, and a faster ship only keeps it behind you for as long as you keep shooting. It still drops you at once if you reach a safe zone, cloak, or leave the map.
 
 When several pilots hit the same alien, it stays on the first who shot it (see [Who an Alien Fights](#who-an-alien-fights)): it closes in on that pilot and fires, so a group standing around it just outside its range cannot keep it running from one to the next without ever answering.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
@@ -79,7 +79,7 @@ Je teurer die Stufe, desto härter trifft eine Rakete, desto weiter reicht sie, 
 
 ## Was sie kosten {#what-they-cost}
 
-Eine gewöhnliche Rakete kostet 500 Credits, eine seltene 800 Credits und eine epische 5 Thulium, in jeder Art. Bei jedem Timer abgefeuert sind das 10.000 Credits pro Minute für eine gewöhnliche Rakete, 16.000 für eine seltene und 100 Thulium für eine epische, gegenüber den 1.800 Credits pro Minute, die die drei Laser einer Ostirion bei x1 verbrennen. Ein voller Vorrat sind 5.000 gewöhnliche Raketen (2.500.000 Credits), 2.000 seltene (1.600.000 Credits) oder 500 epische (2.500 Thulium): Du kaufst so viele, wie du willst, bis zu dieser Zahl, und die *maximal tragbare Menge* einer Rakete ist die einzige Grenze dafür, wie viele du hältst. Raketen wiegen nichts: Sie nehmen im Transport-Cache keinen Platz ein. Eine Rakete alle 3 Sekunden sind nur zwanzig pro Minute, eine Rakete ist also der Burst obendrauf zu deinen Lasern: die billigen für die schwachen Aliens, die teuren für die großen Kämpfe. Was du in der [Auktion](/wiki/03-Mechanics/Auction.md#limits) eingestellt hast und die Lose, die du dort anführst, zählen zu diesem Limit, wenn du eine Rakete kaufst oder auf sie bietest.
+Eine gewöhnliche Rakete kostet 500 Credits, eine seltene 800 Credits und eine epische 5 Thulium, in jeder Art. Bei jedem Timer abgefeuert sind das 10.000 Credits pro Minute für eine gewöhnliche Rakete, 16.000 für eine seltene und 100 Thulium für eine epische, gegenüber den 900 Credits pro Minute, die die drei Laser einer Ostirion bei x1 verbrennen. Ein voller Vorrat sind 5.000 gewöhnliche Raketen (2.500.000 Credits), 2.000 seltene (1.600.000 Credits) oder 500 epische (2.500 Thulium): Du kaufst so viele, wie du willst, bis zu dieser Zahl, und die *maximal tragbare Menge* einer Rakete ist die einzige Grenze dafür, wie viele du hältst. Raketen wiegen nichts: Sie nehmen im Transport-Cache keinen Platz ein. Eine Rakete alle 3 Sekunden sind nur zwanzig pro Minute, eine Rakete ist also der Burst obendrauf zu deinen Lasern: die billigen für die schwachen Aliens, die teuren für die großen Kämpfe. Was du in der [Auktion](/wiki/03-Mechanics/Auction.md#limits) eingestellt hast und die Lose, die du dort anführst, zählen zu diesem Limit, wenn du eine Rakete kaufst oder auf sie bietest.
 
 Der Shop listet die Raketen Art für Art auf, jede unter ihrem Namen, die gewöhnliche zuerst und die epische zuletzt; der Hangar, der Transport-Cache und die Raketenauswahl nutzen dieselbe Reihenfolge.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@
 每条升级链的最后一阶需要 **3 块 Dark Matter Plate**，不需要 Velkonite 板：前面的几阶才会用到它们。共 12 件：
 
 - **激光增幅器：** Damage Amp IV、Crit Amp IV 和 Penetration Amp IV，各由 III 阶增幅器制成（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
-- **Helios Beam**，由 Starfire-3 制成，另需 18 块 Orvium Reinforced Plate（[激光与弹药](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
+- **Helios Beam**，由 Starfire-III 制成，另需 18 块 Orvium Reinforced Plate（[激光与弹药](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
 - **护盾电池：** Absorption Shield Cell IV 和 Capacity Shield Cell IV，各由 III 阶电池制成（[护盾](/wiki/06-Items/Shields.md#shield-cells)）。
 - **Heavy Shield Core**，由 Basic Shield Core 制成（[护盾](/wiki/06-Items/Shields.md#shield-cores)）。
 - **推进器：** Impulse Thruster IV 和 Momentum Thruster IV，各由 III 阶推进器制成（[推进](/wiki/06-Items/Propulsion.md#thrusters)）。
 - **Engine III**，由 Engine II 制成（[推进](/wiki/06-Items/Propulsion.md#engines)）。
 - **CPU：** Extra Slots CPU III 另需 6 块 Orvium Reinforced Plate，Base CPU II 另需 2 块（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
-**以下不需要 Dark Matter Plate：** Quantum Laser 3 和 Starfire-3（用 Velkonite 板）、每条链的 II 阶和 III 阶（增幅器用 1 块或 2 块 Velkonite 板，电池或推进器用 2 块或 4 块）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I 和 II、Base CPU I、16 种无人机编队以及各艘舰船。[锻造炉](/wiki/06-Items/Forge.md)的最高两步仍各要求 2 块。
+**以下不需要 Dark Matter Plate：** Quantum Laser III 和 Starfire-III（用 Velkonite 板）、每条链的 II 阶和 III 阶（增幅器用 1 块或 2 块 Velkonite 板，电池或推进器用 2 块或 4 块）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I 和 II、Base CPU I、16 种无人机编队以及各艘舰船。[锻造炉](/wiki/06-Items/Forge.md)的最高两步仍各要求 2 块。
 
 一块板由 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制而成，所以一件部件的 3 块板还需要 3 块 Velkonite 板、3 块 Orvium 板和 750 Thulium。处处都用最后一阶时，整套配置共含：
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 34583e4cd1123983 -->
+<!-- wiki-i18n source: f2c5a34006933e29 -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -54,7 +54,7 @@
 
 板不会掉落。你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用 Velkonite 矿石制造 II 阶和 III 阶所需的 Velkonite Reinforced Plate，锻造厂 1 级时每块板 40 个矿石。1 级的 Velkonite 采集器每小时开采 10 个矿石，所以一个 III 阶护盾电池或推进器的 4 块板相当于 16 小时的开采，II 阶的 2 块板相当于 8 小时；III 阶增幅器需要 2 块板（8 小时），II 阶增幅器只需 1 块板（4 小时）。最后一阶则改为需要 **3 块 Dark Matter Plate**：IV 阶的增幅器、护盾电池和推进器，以及 Heavy Shield Core、Engine III 和 Helios Beam。装配站在你研究了这块板的配方之后，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制每一块 Dark Matter Plate，而 Dark Matter 来自黑洞：一件最后一阶的部件含有 15 个 Dark Matter，平均相当于 7.5 枚 N.I.K.E. 火箭（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。各种材料的来源见[资源](/wiki/06-Items/Resources.md)。
 
-**Helios Beam** 是同一类的升级，由激光制成激光：它会消耗一把 Starfire-3，并需要 2,000 Thulium、50 个 Cataclysite、2 个 Power Core、4 块 Reinforced Hull Plate、18 块 Orvium Reinforced Plate 和 3 块 Dark Matter Plate，并以同样的方式沿用 Starfire-3 的附魔等级。**Starfire-3** 也是如此：它会消耗一把 Quantum Laser 3，并需要 1,500 Thulium、100,000 信用点、15 个 Ship Fragment、1 块 Reinforced Hull Plate 和 8 块 Velkonite Reinforced Plate，并沿用 Quantum Laser 3 的附魔等级。两者都在[激光与弹药](/wiki/06-Items/Lasers.md)页面中；上表列出的是增幅器、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core 和 Engine III。
+**Helios Beam** 是同一类的升级，由激光制成激光：它会消耗一把 Starfire-III，并需要 2,000 Thulium、50 个 Cataclysite、2 个 Power Core、4 块 Reinforced Hull Plate、18 块 Orvium Reinforced Plate 和 3 块 Dark Matter Plate，并以同样的方式沿用 Starfire-III 的附魔等级。**Starfire-III** 也是如此：它会消耗一把 Quantum Laser III，并需要 1,500 Thulium、100,000 信用点、15 个 Ship Fragment、1 块 Reinforced Hull Plate 和 8 块 Velkonite Reinforced Plate，并沿用 Quantum Laser III 的附魔等级。两者都在[激光与弹药](/wiki/06-Items/Lasers.md)页面中；上表列出的是增幅器、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core 和 Engine III。
 
 ## 物品附魔 {#item-enchants}
 
@@ -69,10 +69,10 @@
 | 5. **永恒** | 4 | +9% 至 +15% | 0.01% |
 
 - 商店物品始终是标准等级。你在装配站制造的装备会在你领取时随机得到一个等级（见几率一列）。在此之上，等级可以在[锻造炉](/wiki/06-Items/Forge.md)中逐级提升；另一种途径是装配站的模块升级（Damage Amp IV、Crit Amp IV、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core、Engine III、Helios Beam），它们沿用制作它们所用部件的等级。
-- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项（Quantum Laser 1 和 2 为两项，因为它们自身没有暴击率），引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I 或 Repair Drone 有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.02 到 x1.035 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
+- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项（Quantum Laser I 和 II 为两项，因为它们自身没有暴击率），引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I 或 Repair Drone 有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.02 到 x1.035 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
 - [锻造炉](/wiki/06-Items/Forge.md#buffs-by-tier)只按概率填上物品第一项加成之后的槽位：升级一定会给第一项加成，新等级开出的其他槽位各以 50% 的概率填上。所以一个等级最多能承载这么多项加成（神圣物品有一半的概率有两项）。
 - **射程**加成在任何等级都不会超过 +5%。
-- 与更高一级的物品相比，加成始终很小：加满的 Quantum Laser 1 造成的伤害，仍然低于一把普通的 Quantum Laser 2。
+- 与更高一级的物品相比，加成始终很小：加满的 Quantum Laser I 造成的伤害，仍然低于一把普通的 Quantum Laser II。
 
 附魔后的属性会显示在物品图标网格的卡片上（例如腐化显示为 `[T]`，神圣显示为 `[G]`；中文界面中分别是“腐”和“神”），并在物品的属性提示中以轮廓标出。
 

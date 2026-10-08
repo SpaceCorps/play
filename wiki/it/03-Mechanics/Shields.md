@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 
 Ogni bonus agli scudi aumenta una delle tre statistiche e compare sotto il proprio tipo nella finestra Booster:
 
-- **Capacità** (punti scudo massimi): Shield Wall Booster 1 e 2 e lo Shield Capacity Boost permanente.
+- **Capacità** (punti scudo massimi): Shield Wall Booster I e II e lo Shield Capacity Boost permanente.
 - **Assorbimento** (la quota di un colpo che prendono i tuoi scudi): lo Shield Absorbance Boost permanente (+0,1 punti per livello, al massimo +10 punti).
 - **Ricarica** (punti scudo ripristinati al secondo): lo Shield Regen Booster.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter와 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@
 모든 강화 계열의 마지막 티어는 **Dark Matter Plate 3개**를 요구하며 Velkonite 플레이트는 요구하지 않습니다. Velkonite 플레이트를 쓰는 것은 그 앞의 티어입니다. 12개 부품은 다음과 같습니다.
 
 - **레이저 증폭기:** Damage Amp IV, Crit Amp IV, Penetration Amp IV. 각각 티어 III 증폭기로 만듭니다([레이저와 탄약](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **Helios Beam**: Starfire-3로 만들며 Orvium Reinforced Plate 18개도 듭니다([레이저와 탄약](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **Helios Beam**: Starfire-III로 만들며 Orvium Reinforced Plate 18개도 듭니다([레이저와 탄약](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **실드 셀:** Absorption Shield Cell IV, Capacity Shield Cell IV. 각각 티어 III 셀로 만듭니다([실드](/wiki/06-Items/Shields.md#shield-cells)).
 - **Heavy Shield Core**: Basic Shield Core로 만듭니다([실드](/wiki/06-Items/Shields.md#shield-cores)).
 - **추진기:** Impulse Thruster IV, Momentum Thruster IV. 각각 티어 III 추진기로 만듭니다([추진 장치](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Engine III**: Engine II로 만듭니다([추진 장치](/wiki/06-Items/Propulsion.md#engines)).
 - **CPU:** Extra Slots CPU III는 Orvium Reinforced Plate 6개, Base CPU II는 2개도 듭니다([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**다음은 Dark Matter Plate를 요구하지 않습니다.** Quantum Laser 3와 Starfire-3(Velkonite 플레이트), 모든 계열의 티어 II와 III(증폭기는 Velkonite 플레이트 1개 또는 2개, 셀과 추진기는 2개 또는 4개), Jump CPU, Auto-Repair CPU, Extra Slots CPU I과 II, Base CPU I, 드론 편대 16종, 그리고 함선입니다. [대장간](/wiki/06-Items/Forge.md)은 가장 높은 두 단계에서 각각 2개를 그대로 요구합니다.
+**다음은 Dark Matter Plate를 요구하지 않습니다.** Quantum Laser III와 Starfire-III(Velkonite 플레이트), 모든 계열의 티어 II와 III(증폭기는 Velkonite 플레이트 1개 또는 2개, 셀과 추진기는 2개 또는 4개), Jump CPU, Auto-Repair CPU, Extra Slots CPU I과 II, Base CPU I, 드론 편대 16종, 그리고 함선입니다. [대장간](/wiki/06-Items/Forge.md)은 가장 높은 두 단계에서 각각 2개를 그대로 요구합니다.
 
 플레이트 1개는 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 압착하므로, 부품 하나의 플레이트 3개에는 Velkonite 플레이트 3개, Orvium 플레이트 3개, 750 Thulium도 듭니다. 모든 곳에 마지막 티어를 썼을 때 전체가 담는 양은 다음과 같습니다.
 

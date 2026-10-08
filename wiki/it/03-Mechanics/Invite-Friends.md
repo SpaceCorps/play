@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51df970a4edf8416 -->
+<!-- wiki-i18n source: 82acce8e49f71c02 -->
 <!-- wiki-i18n title: Invita amici -->
 # Invita amici {#invite-friends}
 
@@ -19,7 +19,7 @@ Un amico inserisce il tuo codice in **Comunità › Invita amici** (la pagina mo
 | **Crediti** | 100.000 |
 | **Thulium** | 5000 |
 | **N.I.K.E.** | 1 |
-| **Quantum Laser 2** | 1 |
+| **Quantum Laser II** | 1 |
 | **Engine II** | 1 |
 | **Advanced Plasma** | 1000 |
 

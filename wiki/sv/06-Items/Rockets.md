@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
@@ -79,7 +79,7 @@ Ju dyrare nivån är, desto hårdare träffar en raket, desto längre når den, 
 
 ## Vad de kostar {#what-they-cost}
 
-En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 10 000 krediter i minuten för en vanlig raket, 16 000 för en sällsynt och 100 Thulium för en episk, mot de 1 800 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Raketer väger ingenting: de tar inget utrymme i transportförrådet. En raket var 3:e sekund är bara tjugo i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna. Det du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#limits) och lotterna du leder där räknas in i den gränsen när du köper eller budar på en raket.
+En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 10 000 krediter i minuten för en vanlig raket, 16 000 för en sällsynt och 100 Thulium för en episk, mot de 900 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Raketer väger ingenting: de tar inget utrymme i transportförrådet. En raket var 3:e sekund är bara tjugo i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna. Det du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#limits) och lotterna du leder där räknas in i den gränsen när du köper eller budar på en raket.
 
 Butiken listar raketerna en typ i taget, var och en under sitt namn, med den vanliga raketen först och den episka sist; hangaren, transportförrådet och väljaren Raketer använder samma ordning.
 

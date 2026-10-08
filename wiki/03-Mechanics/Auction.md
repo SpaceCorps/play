@@ -7,8 +7,8 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 
 - You need **level 5** to use the Auction: to list, to buy and to bid.
 - A listing is priced per lot, in whole Credits or whole Thulium (not both), and never under the kind's least price. There is **no highest price**.
-- A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 20 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
-- 80 kinds can be listed, and 42 of them can also be priced in Thulium.
+- A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 1 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
+- 80 kinds can be listed, and 79 of them can also be priced in Thulium.
 - A listing runs for 24 / 72 / 168 hours, as you choose: the choice is the same at every level.
 - The **deposit** is 1% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
 - From level 10 the deposit is 1.5%.
@@ -29,7 +29,7 @@ The tag is a number of units, not a switch: a stack of ammo can hold bought and 
 
 The Hangar's **Marketable only** chip shows only what you can sell, and the **gavel** beside the trash of a tagged item opens the Auction's sell sheet for it. In the Assembly, a recipe whose result is Marketable says so, and a material you are short of has a link that opens the Auction with its name in the search box.
 
-When the Auction came (0.4.12) the gear you already held that the Shop does not sell, and the resources, were tagged once. These were not, because the Shop once sold them or because what you hold mixes bought and earned pieces: the Quantum Laser 3, the Absorption Shield Cells II and III, the Impulse Thrusters II and III, the two Reinforced Plates, and the oldest Base CPU I of each pilot (the starter kit's). New ones of them that you earn or craft are tagged.
+When the Auction came (0.4.12) the gear you already held that the Shop does not sell, and the resources, were tagged once. These were not, because the Shop once sold them or because what you hold mixes bought and earned pieces: the Quantum Laser III, the Absorption Shield Cells II and III, the Impulse Thrusters II and III, the two Reinforced Plates, and the oldest Base CPU I of each pilot (the starter kit's). New ones of them that you earn or craft are tagged.
 
 ## What can be sold
 
@@ -38,7 +38,7 @@ When the Auction came (0.4.12) the gear you already held that the Shop does not 
 
 | Type | Kinds you can sell | Number |
 | :--- | :--- | ---: |
-| **Lasers** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Lasers** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Laser amps** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Shield cores** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Engines** | Engine I, Engine II, Engine III | 3 |
@@ -65,22 +65,22 @@ Every kind has a **least price**, and there is **no highest price**: ask what yo
 
 | Kind | Sold in lots of | Least price, Credits | Least price, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32,000 | 32 |
-| Quantum Laser 3 | 1 | 170,000 | 170 |
+| Quantum Laser II | 1 | 32,000 | 32 |
+| Quantum Laser III | 1 | 170,000 | 170 |
 | Helios Beam | 1 | 1,600,000 | 1,600 |
 | Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
 | Heavy Shield Core | 1 | 870,000 | 870 |
 | Impulse Thruster IV | 1 | 980,000 | 980 |
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
-| Ultra Core | 10 | 800 | Credits only |
-| Lancet I | 1 | 200 | Credits only |
-| Ship Fragment | 100 | 600 | Credits only |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33,000 | 33 |
 
 <!-- market-bands:end -->
 
-A price in Thulium follows one rule: the least price in Credits divided by the rate, rounded up. The rate is not a value the game puts on Thulium. It is only how the least Thulium price is worked out, and because of it a Thulium listing can be cheap for a pilot who has Thulium. Most sellers will ask Credits. Cheap kinds (ammo, rockets, the first tier of most gear and the common resources) are priced in Credits only, because a whole Thulium would be too big a step.
+A price in Thulium follows one rule: the least price in Credits divided by the rate, rounded up. The rate is not a value the game puts on Thulium. It is only how the least Thulium price is worked out, and because of it a Thulium listing can be cheap for a pilot who has Thulium. Most sellers will ask Credits. Every kind but **Quorvium** can be priced in Thulium, the cheap ones too (ammo, rockets, the common resources): their least price is then 1 Thulium, the smallest step. Quorvium alone is Credits only, because 1 Thulium would be more than a lot of it is worth.
 
 Your **open listings** (and a listing an admin has put on hold) use up slots. As you level up you get more slots, up to a top, and you may sell and buy more a day. How long a listing may run is the same at every level.
 
@@ -117,8 +117,8 @@ A listing costs a **deposit**, paid when you list and never returned, and a sale
 
 | Listing | Price | Deposit | Tax | The seller receives |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: level 6, 24 h | 170,000 Credits | 1,700 Credits | 8,500 Credits | 161,500 Credits |
-| Quantum Laser 3: level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: level 6, 24 h | 170,000 Credits | 1,700 Credits | 8,500 Credits | 161,500 Credits |
+| Quantum Laser III: level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: level 12, 168 h | 2,500,000 Credits | 262,500 Credits | 125,000 Credits | 2,375,000 Credits |
 | Helios Beam: level 12, 168 h, in the last days of a season | 2,500,000 Credits | 0 Credits | 0 Credits | 2,500,000 Credits |
 
@@ -203,7 +203,7 @@ The Auction is for trading what you earn, and it is honest about its limits.
 
 - **Selling loot is not a grind.** Raw alien drops are resources only and are worth 0.4 to 0.9 percent of what the same level-5 hunting hour pays in kills. What the Market gives a new pilot is the gear his missions pay and does not need (once), the resources of the Challenge missions, the boxes of the swarm bosses, and what he crafts.
 - **There is no dealer.** Buy orders, where a pilot says what he wants to buy and for how much, are not in this version. Until they are, the only merchants are the crafter, who buys materials, makes gear in the Assembly and sells it, and the warehouse pilot, who keeps stock in the Transport Cache through the wipe.
-- **Shop gear is not for resale.** Gear you bought from the Shop can't be sold again: that includes the Quantum Laser 1 and 2, the Light and Basic Shield Cores, Engine I and II, the first tier of cells and thrusters, the amps the Shop sells, and bought ammo. The one Marketable Quantum Laser 2 a pilot has is the one a mission pays once.
+- **Shop gear is not for resale.** Gear you bought from the Shop can't be sold again: that includes the Quantum Laser I and II, the Light and Basic Shield Cores, Engine I and II, the first tier of cells and thrusters, the amps the Shop sells, and bought ammo. The one Marketable Quantum Laser II a pilot has is the one a mission pays once.
 - **Plates come from missions.** The Velkonite and Orvium Reinforced Plates on the Market are the ones the Challenge missions pay. The Forgery's plates stay out, or they would be the biggest good of the Market.
 
 If a listing looks wrong, report it in the usual way: the game's administrators can put a listing on hold, return it, pause the Auction or ban a pilot from it, and every such action is recorded.

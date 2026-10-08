@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c95bb666244dead0 -->
+<!-- wiki-i18n source: f15c2484e0271474 -->
 <!-- wiki-i18n title: Mineração de asteroides -->
 # Mineração de asteroides {#asteroid-mining}
 
 **Asteroides** são grandes rochas que ficam no plano de voo dos setores das corporações e dos setores de perigo. Eles nunca se movem e nunca atiram. Quebre um com **foguetes** ou **lasers** e ele se despedaça em pequenos **fragmentos** de créditos, Thulium e minério, que você pega como [carga](/wiki/03-Mechanics/Cargo.md). Os foguetes são a ferramenta para o trabalho: seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave, e os drones não fazem nada com ele.
 
-A mineração é um trabalho diferente da caça, não um substituto dela: não dá XP, honra nem pontos de ranking, e os foguetes que você dispara custam créditos ou Thulium. O que ela dá são créditos e Thulium, minério para a [Forja](/wiki/06-Items/Forge.md) e para fabricar sem lutar, e um trabalho que um [grupo](/wiki/03-Mechanics/Groups.md) pode dividir. Ela paga bem: pelo modelo do próprio jogo, uma hora nos asteroides certos com o foguete certo rende de 2,8 a 7,6 vezes a melhor hora de caça do seu nível, depois de pagos os foguetes. Os limites diários de [Os mundos](#the-worlds) a seguram, e você os alcança logo: em Alpha, um minerador constante em um bom setor chega ao limite de Thulium em menos de 2 horas e ao de créditos em cerca de 2,7 horas.
+A mineração é um trabalho diferente da caça, não um substituto dela: não dá XP, honra nem pontos de ranking, e os foguetes que você dispara custam créditos ou Thulium. O que ela dá são créditos e Thulium, minério para a [Forja](/wiki/06-Items/Forge.md) e para fabricar sem lutar, e um trabalho que um [grupo](/wiki/03-Mechanics/Groups.md) pode dividir. Ela paga bem: pelo modelo do próprio jogo, uma hora nos asteroides certos com o foguete certo rende de 2,6 a 6,8 vezes a melhor hora de caça do seu nível, depois de pagos os foguetes. Os limites diários de [Os mundos](#the-worlds) a seguram, e você os alcança logo: em Alpha, um minerador constante em um bom setor chega ao limite de Thulium em menos de 2 horas e ao de créditos em cerca de 2,7 horas.
 
 ## O que é um asteroide {#what-an-asteroid-is}
 
@@ -192,7 +192,7 @@ O maior de todos, uma rocha para um grupo.
 
 ## O que ele não dá {#what-it-does-not-give}
 
-Um asteroide não é um abate. Quebrá-lo não dá XP, honra, contagem de abates, pontos de PvE ou PvP, ranking, [pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), XP de drone nem progresso em uma [missão](/wiki/03-Mechanics/Quests.md). Os boosts da loja de temporada também não o afetam. Ele dá o que está nas tabelas: créditos, Thulium e minério, que a página [Recursos](/wiki/06-Items/Resources.md) lista junto com o que os alienígenas deixam.
+Um asteroide não é um abate. Quebrá-lo não dá XP, honra, contagem de abates, pontos de PvE ou PvP, ranking, [pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), XP de drone nem progresso em uma [missão](/wiki/03-Mechanics/Quests.md), exceto a [missão de asteroides de cada nível](/wiki/03-Mechanics/Quests.md#levels). Os boosts da loja de temporada também não o afetam. Ele dá o que está nas tabelas: créditos, Thulium e minério, que a página [Recursos](/wiki/06-Items/Resources.md) lista junto com o que os alienígenas deixam.
 
 ## Dicas {#tips}
 

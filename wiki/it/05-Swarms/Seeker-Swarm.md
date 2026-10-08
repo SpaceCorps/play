@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Sciame Seeker -->
 # Sciame Seeker {#seeker-swarm}
 
@@ -30,8 +30,8 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 ## Come va lo scontro {#how-the-fight-goes}
 
 - **Lascialo stare finché la tua nave non può affrontarlo.** Un Boss Seeker colpisce più forte di quanto regga la prima nave di un pilota: il Protos di un pilota nuovo, ancora senza scudo, viene distrutto in pochi secondi appena il boss e i suoi Slave gli sono addosso.
-- **Resta fuori portata.** Il boss e i suoi Slave sono più lenti di un Protos e le loro armi arrivano meno lontano di un Quantum Laser 2 (vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)): un pilota che ha quei laser e resta oltre la loro portata non subisce danni mentre sparano. Un pilota con Quantum Laser 1 non può restare fuori portata.
-- **Gli Slave curano più in fretta di quanto colpisca un pilota nuovo da solo.** Insieme curano più di quanto infliggano i laser di un pilota con munizioni x1, quindi porta un compagno e munizioni x2. Due piloti con Quantum Laser 2 che mantengono la distanza abbattono il boss in circa un minuto in Alpha, e molto più in fretta con munizioni x2.
+- **Resta fuori portata.** Il boss e i suoi Slave sono più lenti di un Protos e le loro armi arrivano meno lontano di un Quantum Laser II (vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)): un pilota che ha quei laser e resta oltre la loro portata non subisce danni mentre sparano. Un pilota con Quantum Laser I non può restare fuori portata.
+- **Gli Slave curano più in fretta di quanto colpisca un pilota nuovo da solo.** Insieme curano più di quanto infliggano i laser di un pilota con munizioni x1, quindi porta un compagno e munizioni x2. Due piloti con Quantum Laser II che mantengono la distanza abbattono il boss in circa un minuto in Alpha, e molto più in fretta con munizioni x2.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nello stesso settore, e i suoi Slave arrivano uno dopo l’altro.
 
 ## Ricompense e bottino {#rewards-and-drops}

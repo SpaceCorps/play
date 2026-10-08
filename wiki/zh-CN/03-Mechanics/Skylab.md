@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Skylab 按自己的时钟运转，与你的舰船无关：你不在时，模块�
 1. **采集器**每小时开采一定数量的矿石，存入自己的料斗（最多 72 小时的量）。
 2. **收取**会把矿石从料斗转入**资源仓库**，每种矿石在其中分开存放。
 3. **锻造厂**在一批开始时从资源仓库取走所需的矿石，然后制作强化板，每块 10 秒，一次只做一批。
-4. **收取强化板**会把完成的强化板转入你的物品栏（你的舰船必须已降落）。[装配站](/wiki/06-Items/Lasers.md)可以把它们制成 Quantum Laser 3、Starfire-3 或 Helios Beam；两种强化板各一块，再加 5 个 Dark Matter，则可制成 Dark Matter Plate，[锻造炉](/wiki/06-Items/Forge.md)和每条升级链的最后一阶都要用到它。
+4. **收取强化板**会把完成的强化板转入你的物品栏（你的舰船必须已降落）。[装配站](/wiki/06-Items/Lasers.md)可以把它们制成 Quantum Laser III、Starfire-III 或 Helios Beam；两种强化板各一块，再加 5 个 Dark Matter，则可制成 Dark Matter Plate，[锻造炉](/wiki/06-Items/Forge.md)和每条升级链的最后一阶都要用到它。
 
 ### Velkonite 采集器和 Orvium 采集器 {#velkonite-collector-and-orvium-collector}
 

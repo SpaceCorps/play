@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Quatre modules transforment le temps passé loin du clavier en plaques pour vos 
 1. Un **collecteur** extrait du minerai, une quantité donnée par heure, dans son propre réservoir (de quoi stocker 72 heures).
 2. **Récupérer** déplace le minerai du réservoir vers l’**Entrepôt de ressources**, la banque, où chaque minerai est gardé à part.
 3. La **Fonderie** prend dans la banque le minerai dont elle a besoin au début d’un lot, et fabrique des plaques, 10 secondes par plaque, un lot à la fois.
-4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/06-Items/Lasers.md) les transforme en Quantum Laser 3, en Starfire-3 ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate, que demandent [la Forge](/wiki/06-Items/Forge.md) et le dernier palier de chaque chaîne d’amélioration.
+4. **Récupérer les plaques** déplace les plaques terminées dans votre inventaire (votre vaisseau doit être amarré). L’[Assemblage](/wiki/06-Items/Lasers.md) les transforme en Quantum Laser III, en Starfire-III ou en Helios Beam, et, une de chaque avec 5 Dark Matter, en Dark Matter Plate, que demandent [la Forge](/wiki/06-Items/Forge.md) et le dernier palier de chaque chaîne d’amélioration.
 
 ### Collecteur de Velkonite et Collecteur d’Orvium {#velkonite-collector-and-orvium-collector}
 

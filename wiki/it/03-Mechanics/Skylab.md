@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 1. Un **collettore** estrae minerale, una certa quantità all’ora, nella propria tramoggia (pari a 72 ore di produzione).
 2. **Raccogli** sposta il minerale dalla tramoggia al **Magazzino risorse**, la riserva in cui ogni minerale è tenuto separato.
 3. La **Fucina** preleva dalla riserva il minerale che le serve quando parte un lotto, e produce piastre, 10 secondi a piastra, un lotto alla volta.
-4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/06-Items/Lasers.md) le trasforma in un Quantum Laser 3, una Starfire-3 o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate, che chiedono [la Forgia](/wiki/06-Items/Forge.md) e l’ultimo tier di ogni catena di potenziamento.
+4. **Ritira piastre** sposta le piastre finite nel tuo inventario (la tua nave deve essere atterrata). L’[Assemblaggio](/wiki/06-Items/Lasers.md) le trasforma in un Quantum Laser III, una Starfire-III o un Helios Beam e, una di ciascun tipo con 5 Dark Matter, in una Dark Matter Plate, che chiedono [la Forgia](/wiki/06-Items/Forge.md) e l’ultimo tier di ogni catena di potenziamento.
 
 ### Collettore Velkonite e Collettore Orvium {#velkonite-collector-and-orvium-collector}
 

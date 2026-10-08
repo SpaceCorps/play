@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: 실드 -->
 # 실드 시스템 {#shield-mechanics}
 
@@ -57,7 +57,7 @@
 
 실드 부스트는 모두 세 능력치 중 하나를 올리며, 부스터 창에서 각자의 종류 아래에 표시됩니다.
 
-- **용량**(최대 실드 포인트): Shield Wall Booster 1과 2 부스터, 그리고 영구 실드 용량 부스트(Shield Capacity Boost).
+- **용량**(최대 실드 포인트): Shield Wall Booster I과 II 부스터, 그리고 영구 실드 용량 부스트(Shield Capacity Boost).
 - **흡수율**(실드가 받는 공격의 몫): 영구 실드 흡수율 부스트(Shield Absorbance Boost, 레벨당 +0.1포인트, 최대 +10포인트).
 - **재충전**(초당 회복되는 실드 포인트): Shield Regen Booster.
 

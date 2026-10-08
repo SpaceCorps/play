@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Skylab의 심장입니다. 코어의 레벨이 다른 모든 모듈의 최고 �
 1. **수집기**가 시간당 일정량의 광석을 채굴해 자체 저장소에 쌓습니다(72시간분).
 2. **수거**하면 광석이 저장소에서 **자원 창고**로 옮겨지며, 창고에서는 광석을 종류별로 따로 보관합니다.
 3. **단조소**는 배치를 시작할 때 필요한 광석을 창고에서 가져가 플레이트를 만듭니다. 플레이트 한 장에 10초가 걸리며, 한 번에 한 배치만 만듭니다.
-4. **플레이트 수거**를 하면 완성된 플레이트가 인벤토리로 옮겨집니다(함선이 착륙해 있어야 합니다). [어셈블리](/wiki/06-Items/Lasers.md)에서는 이 플레이트로 Quantum Laser 3, Starfire-3, Helios Beam을 만들고, 종류별로 하나씩과 Dark Matter 5개로는 Dark Matter Plate를 만듭니다. [대장간](/wiki/06-Items/Forge.md)과 모든 강화 계열의 마지막 티어가 이것을 요구합니다.
+4. **플레이트 수거**를 하면 완성된 플레이트가 인벤토리로 옮겨집니다(함선이 착륙해 있어야 합니다). [어셈블리](/wiki/06-Items/Lasers.md)에서는 이 플레이트로 Quantum Laser III, Starfire-III, Helios Beam을 만들고, 종류별로 하나씩과 Dark Matter 5개로는 Dark Matter Plate를 만듭니다. [대장간](/wiki/06-Items/Forge.md)과 모든 강화 계열의 마지막 티어가 이것을 요구합니다.
 
 ### Velkonite 수집기와 Orvium 수집기 {#velkonite-collector-and-orvium-collector}
 

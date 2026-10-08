@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Boucliers -->
 # Mécaniques des boucliers {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Certaines attaques ont une **pénétration de bouclier** : des points retranch�
 
 Chaque bonus de bouclier augmente l’une des trois statistiques et figure sous son propre type dans la fenêtre Boosters :
 
-- **Capacité** (points de bouclier maximum) : les boosters Shield Wall Booster 1 et 2 et le Shield Capacity Boost permanent.
+- **Capacité** (points de bouclier maximum) : les boosters Shield Wall Booster I et II et le Shield Capacity Boost permanent.
 - **Absorption** (la part d’un tir que prennent vos boucliers) : le Shield Absorbance Boost permanent (+0,1 point par niveau, +10 points au maximum).
 - **Recharge** (points de bouclier restaurés par seconde) : le Shield Regen Booster.
 

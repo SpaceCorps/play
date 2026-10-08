@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Enxame Seeker -->
 # Enxame Seeker {#seeker-swarm}
 
@@ -30,8 +30,8 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 ## Como a luta transcorre {#how-the-fight-goes}
 
 - **Deixe-o em paz até a sua nave aguentar.** Um Boss Seeker bate mais forte do que a primeira nave de um piloto suporta: a Protos de um piloto novo, ainda sem escudo, é destruída em segundos assim que o chefe e seus Slaves estão sobre ela.
-- **Fique fora do alcance.** O chefe e seus Slaves são mais lentos que uma Protos, e as armas deles alcançam menos que um Quantum Laser 2 (veja [Lasers e munição](/wiki/06-Items/Lasers.md)): um piloto que tem esses lasers e fica além do alcance deles não sofre dano enquanto eles atiram. Um piloto com Quantum Laser 1 não consegue ficar fora do alcance.
-- **Os Slaves curam mais rápido do que um piloto novo sozinho acerta.** Juntos, eles curam mais do que os lasers de um piloto causam com munição x1, então leve um parceiro e munição x2. Dois pilotos com Quantum Laser 2 que mantêm a distância derrubam o chefe em cerca de um minuto em Alpha, e bem mais rápido com munição x2.
+- **Fique fora do alcance.** O chefe e seus Slaves são mais lentos que uma Protos, e as armas deles alcançam menos que um Quantum Laser II (veja [Lasers e munição](/wiki/06-Items/Lasers.md)): um piloto que tem esses lasers e fica além do alcance deles não sofre dano enquanto eles atiram. Um piloto com Quantum Laser I não consegue ficar fora do alcance.
+- **Os Slaves curam mais rápido do que um piloto novo sozinho acerta.** Juntos, eles curam mais do que os lasers de um piloto causam com munição x1, então leve um parceiro e munição x2. Dois pilotos com Quantum Laser II que mantêm a distância derrubam o chefe em cerca de um minuto em Alpha, e bem mais rápido com munição x2.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, com a força toda, no mesmo setor, e seus Slaves chegam um depois do outro.
 
 ## Recompensas e saque {#rewards-and-drops}

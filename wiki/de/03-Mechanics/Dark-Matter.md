@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@ Der Wipe lässt das Dark Matter in deinem Zentrum unangetastet.
 Die letzte Stufe jeder Aufwertungskette verlangt **3 Dark Matter Plates** und keine Velkonite-Platten: Die Stufen davor sind es, die diese brauchen. 12 Teile:
 
 - **Laser-Amps:** Damage Amp IV, Crit Amp IV und Penetration Amp IV, jeder aus dem Amp der Stufe III hergestellt ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **Der Helios Beam**, aus einem Starfire-3 hergestellt, mit seinen 18 Orvium Reinforced Plates ([Laser & Munition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **Der Helios Beam**, aus einem Starfire-III hergestellt, mit seinen 18 Orvium Reinforced Plates ([Laser & Munition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Schildzellen:** Absorption Shield Cell IV und Capacity Shield Cell IV, jede aus der Zelle der Stufe III hergestellt ([Schilde](/wiki/06-Items/Shields.md#shield-cells)).
 - **Der Heavy Shield Core**, aus einem Basic Shield Core hergestellt ([Schilde](/wiki/06-Items/Shields.md#shield-cores)).
 - **Schubdüsen:** Impulse Thruster IV und Momentum Thruster IV, jede aus der Schubdüse der Stufe III hergestellt ([Antrieb](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Das Engine III**, aus einem Engine II hergestellt ([Antrieb](/wiki/06-Items/Propulsion.md#engines)).
 - **CPUs:** Extra Slots CPU III, mit 6 Orvium Reinforced Plates, und Base CPU II, mit 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Diese verlangen keine Dark Matter Plates:** der Quantum Laser 3 und der Starfire-3 (Velkonite-Platten), die Stufen II und III jeder Kette (1 oder 2 Velkonite-Platten für einen Amp, 2 oder 4 für eine Zelle oder eine Schubdüse), die Jump CPU, die Auto-Repair CPU, Extra Slots CPU I und II, Base CPU I, die 16 Drohnenformationen und die Schiffe. [Die Schmiede](/wiki/06-Items/Forge.md) behält ihre 2 Plates auf jeder ihrer beiden obersten Stufen.
+**Diese verlangen keine Dark Matter Plates:** der Quantum Laser III und der Starfire-III (Velkonite-Platten), die Stufen II und III jeder Kette (1 oder 2 Velkonite-Platten für einen Amp, 2 oder 4 für eine Zelle oder eine Schubdüse), die Jump CPU, die Auto-Repair CPU, Extra Slots CPU I und II, Base CPU I, die 16 Drohnenformationen und die Schiffe. [Die Schmiede](/wiki/06-Items/Forge.md) behält ihre 2 Plates auf jeder ihrer beiden obersten Stufen.
 
 Eine Plate wird aus 5 Dark Matter, einer Velkonite und einer Orvium Reinforced Plate und 250 Thulium gepresst, die 3 Plates eines Teils brauchen also auch 3 Velkonite-Platten, 3 Orvium-Platten und 750 Thulium. Was ein ganzer Aufbau enthält, mit der letzten Stufe überall:
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾机制 {#shield-mechanics}
 
@@ -57,7 +57,7 @@
 
 每种护盾增益都会提高三项属性之一，并在增益窗口中按各自的类别列出：
 
-- **容量**（最大护盾值）：Shield Wall Booster 1 和 2 增益，以及永久的 Shield Capacity Boost。
+- **容量**（最大护盾值）：Shield Wall Booster I 和 II 增益，以及永久的 Shield Capacity Boost。
 - **吸收率**（护盾承受每次攻击的份额）：永久的 Shield Absorbance Boost（每级 +0.1 点，最多 +10 点）。
 - **充能**（每秒恢复的护盾值）：Shield Regen Booster。
 

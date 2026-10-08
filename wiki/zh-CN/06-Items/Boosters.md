@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 630505c843ae163b -->
+<!-- wiki-i18n source: bf2f009d73842c4b -->
 <!-- wiki-i18n title: 增益 -->
 # 增益 {#boosters}
 
@@ -16,19 +16,19 @@
 ```tree
 Experience Booster | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Honor Booster | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
 Shield Regen Booster | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Resource Magnet Booster | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 1 | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster I | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Loot Luck Booster | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 
-Shield Wall Booster 1 -> Shield Wall Booster 2
-Hull Plating Booster 1 -> Hull Plating Booster 2
-Laser Damage Booster 1 -> Laser Damage Booster 2
+Shield Wall Booster I -> Shield Wall Booster II
+Hull Plating Booster I -> Hull Plating Booster II
+Laser Damage Booster I -> Laser Damage Booster II
 ```
 <!-- item-tree:end -->
 
@@ -43,16 +43,16 @@ Laser Damage Booster 1 -> Laser Damage Booster 2
 
 ## 生效中的增益 {#active-boosters}
 
-每个增益的基础持续时间都是 **10 小时**，购买、收到或领取后立即生效。三种**二阶**增益（Laser Damage Booster 2、Shield Wall Booster 2 和 Hull Plating Booster 2）不出售：你要先在 Skylab 里研究它们的科技（[研究](/wiki/03-Mechanics/Research.md)），再到装配站制造；领取一个时，它的 10 小时会像购买时一样立刻开始。
+每个增益的基础持续时间都是 **10 小时**，购买、收到或领取后立即生效。三种**二阶**增益（Laser Damage Booster II、Shield Wall Booster II 和 Hull Plating Booster II）不出售：你要先在 Skylab 里研究它们的科技（[研究](/wiki/03-Mechanics/Research.md)），再到装配站制造；领取一个时，它的 10 小时会像购买时一样立刻开始。
 
 | 名称 | 稀有度 | 基础效果（10 小时） | 价格（Thulium） |
 | :--- | :--- | :--- | :--- |
-| **Laser Damage Booster 1** | 稀有 | +10% 激光伤害 | 20,000 |
-| **Laser Damage Booster 2** | 稀有 | +10% 激光伤害 | 装配站：20,000 |
-| **Shield Wall Booster 1** | 稀有 | +25% 护盾容量（护盾点数上限） | 15,000 |
-| **Shield Wall Booster 2** | 稀有 | +25% 护盾容量（护盾点数上限） | 装配站：15,000 |
-| **Hull Plating Booster 1** | 稀有 | +10% 最大生命值 | 15,000 |
-| **Hull Plating Booster 2** | 稀有 | +10% 最大生命值 | 装配站：15,000 |
+| **Laser Damage Booster I** | 稀有 | +10% 激光伤害 | 20,000 |
+| **Laser Damage Booster II** | 稀有 | +10% 激光伤害 | 装配站：20,000 |
+| **Shield Wall Booster I** | 稀有 | +25% 护盾容量（护盾点数上限） | 15,000 |
+| **Shield Wall Booster II** | 稀有 | +25% 护盾容量（护盾点数上限） | 装配站：15,000 |
+| **Hull Plating Booster I** | 稀有 | +10% 最大生命值 | 15,000 |
+| **Hull Plating Booster II** | 稀有 | +10% 最大生命值 | 装配站：15,000 |
 | **Shield Regen Booster** | 稀有 | +25% 护盾充能速率（每秒恢复的护盾点数） | 10,000 |
 | **Experience Booster** | 普通 | +20% 经验值获取 | 8,000 |
 | **Honor Booster** | 普通 | +20% 荣誉点数获取 | 10,000 |
@@ -60,7 +60,7 @@ Laser Damage Booster 1 -> Laser Damage Booster 2
 | **Loot Luck Booster** | 传说 | +5% 来自 NPC 的稀有掉落率 | 30,000 |
 
 > [!NOTE]
-> **增益还是增幅器？** 它们是不同的东西。每个增益的名字里都有 **Booster**，按计时器运行，没有东西可装：**Laser Damage Booster 1** 和 **Laser Damage Booster 2** 能在 10 小时内提供 +10% 的激光伤害，可从商店或装配站获得。**Damage Amp**、**Crit Amp** 和 **Penetration Amp**（I 至 IV 阶）是激光增幅器：装入激光增幅槽位的模块，没有计时器（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。在 0.4.12 之前，这些增益叫 Damage Amp 和 Damage Amp II、Shield Wall 和 Shield Wall II、Hull Plating 和 Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet 和 Loot Luck；你正在运行的增益以新名字继续生效。
+> **增益还是增幅器？** 它们是不同的东西。每个增益的名字里都有 **Booster**，按计时器运行，没有东西可装：**Laser Damage Booster I** 和 **Laser Damage Booster II** 能在 10 小时内提供 +10% 的激光伤害，可从商店或装配站获得。**Damage Amp**、**Crit Amp** 和 **Penetration Amp**（I 至 IV 阶）是激光增幅器：装入激光增幅槽位的模块，没有计时器（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。在 0.4.12 之前，这些增益叫 Damage Amp 和 Damage Amp II、Shield Wall 和 Shield Wall II、Hull Plating 和 Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet 和 Loot Luck；你正在运行的增益以新名字继续生效。
 
 ---
 
@@ -70,7 +70,7 @@ Laser Damage Booster 1 -> Laser Damage Booster 2
 
 | 类型 | 含义 | 提升它的增益 |
 | :--- | :--- | :--- |
-| **护盾容量** | 你的护盾点数上限 | Shield Wall Booster 1、Shield Wall Booster 2，以及永久加成 **Shield Capacity Boost**（赛季商店） |
+| **护盾容量** | 你的护盾点数上限 | Shield Wall Booster I、Shield Wall Booster II，以及永久加成 **Shield Capacity Boost**（赛季商店） |
 | **护盾吸收率** | 每次攻击中由护盾承受的份额（其余落在船体上）；可以超过 100% | 永久加成 **Shield Absorbance Boost**（赛季商店）：每级 +0.1 点，每级需 25 重置点数，最多 +10 点。没有任何增益能提升它 |
 | **护盾充能** | 每秒恢复的护盾点数 | Shield Regen Booster。没有任何永久加成能提升它 |
 

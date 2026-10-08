@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 
 Minden pajzsboost a három érték egyikét növeli, és a Boosterek ablakban a saját fajtája alatt szerepel:
 
-- **Kapacitás** (a pajzspontok maximuma): a Shield Wall Booster 1 és 2, valamint az állandó Shield Capacity Boost.
+- **Kapacitás** (a pajzspontok maximuma): a Shield Wall Booster I és II, valamint az állandó Shield Capacity Boost.
 - **Elnyelés** (a találatnak az a része, amelyet a pajzsaid felfognak): az állandó Shield Absorbance Boost (szintenként +0,1 pont, legfeljebb +10 pont).
 - **Töltődés** (a másodpercenként visszatöltődő pajzspontok): a Shield Regen Booster.
 

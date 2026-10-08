@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@ Wipen lämnar Dark Matter i ditt centrum orörd.
 Sista nivån i varje uppgraderingskedja kräver **3 Dark Matter Plates** och inga Velkonite-plåtar: det är nivåerna före den som tar dem. 12 delar:
 
 - **Laserförstärkare:** Damage Amp IV, Crit Amp IV och Penetration Amp IV, var och en av förstärkaren på nivå III ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **Helios Beam**, av en Starfire-3, med sina 18 Orvium Reinforced Plates ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **Helios Beam**, av en Starfire-III, med sina 18 Orvium Reinforced Plates ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Sköldceller:** Absorption Shield Cell IV och Capacity Shield Cell IV, var och en av cellen på nivå III ([Sköldar](/wiki/06-Items/Shields.md#shield-cells)).
 - **Heavy Shield Core**, av en Basic Shield Core ([Sköldar](/wiki/06-Items/Shields.md#shield-cores)).
 - **Styrraketer:** Impulse Thruster IV och Momentum Thruster IV, var och en av styrraketen på nivå III ([Framdrivning](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Engine III**, av en Engine II ([Framdrivning](/wiki/06-Items/Propulsion.md#engines)).
 - **CPU:er:** Extra Slots CPU III, med 6 Orvium Reinforced Plates, och Base CPU II, med 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Dessa kräver inga Dark Matter Plates:** Quantum Laser 3 och Starfire-3 (Velkonite-plåtar), nivå II och III i varje kedja (1 eller 2 Velkonite-plåtar för en förstärkare, 2 eller 4 för en cell eller en styrraket), Jump CPU, Auto-Repair CPU, Extra Slots CPU I och II, Base CPU I, de 16 drönarformationerna och skeppen. [Smedjan](/wiki/06-Items/Forge.md) behåller sina 2 plattor på vart och ett av sina två översta steg.
+**Dessa kräver inga Dark Matter Plates:** Quantum Laser III och Starfire-III (Velkonite-plåtar), nivå II och III i varje kedja (1 eller 2 Velkonite-plåtar för en förstärkare, 2 eller 4 för en cell eller en styrraket), Jump CPU, Auto-Repair CPU, Extra Slots CPU I och II, Base CPU I, de 16 drönarformationerna och skeppen. [Smedjan](/wiki/06-Items/Forge.md) behåller sina 2 plattor på vart och ett av sina två översta steg.
 
 En platta pressas av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium, så de 3 plattorna i en del kräver också 3 Velkonite-plåtar, 3 Orvium-plåtar och 750 Thulium. Vad en hel uppsättning rymmer, med sista nivån överallt:
 

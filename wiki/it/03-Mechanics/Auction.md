@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Asta -->
 # Asta {#auction}
 
@@ -9,8 +9,8 @@ L’asta è il mercato dei piloti e, insieme, i lotti orari del gioco stesso, in
 
 - Ti serve il **livello 5** per usare l’asta: per mettere in vendita, comprare e fare offerte.
 - Un’inserzione ha un prezzo per lotto, in crediti interi o in Thulium interi (non entrambi), e mai sotto il prezzo minimo dell’oggetto. **Non esiste un prezzo massimo.**
-- Un prezzo in Thulium è almeno il prezzo minimo in crediti diviso per il tasso (1.000), arrotondato per eccesso, e solo per gli oggetti il cui prezzo minimo arriva a 20 Thulium o più. È tutto ciò che fa il tasso: **1 Thulium = 1.000 crediti è una regola per il prezzo minimo, non un tasso di cambio.** Nulla viene scambiato, nessun valore viene mostrato, e crediti e Thulium non si sommano mai.
-- 80 oggetti si possono mettere in vendita, e 42 di essi si possono anche prezzare in Thulium.
+- Un prezzo in Thulium è almeno il prezzo minimo in crediti diviso per il tasso (1.000), arrotondato per eccesso, e solo per gli oggetti il cui prezzo minimo arriva a 1 Thulium o più. È tutto ciò che fa il tasso: **1 Thulium = 1.000 crediti è una regola per il prezzo minimo, non un tasso di cambio.** Nulla viene scambiato, nessun valore viene mostrato, e crediti e Thulium non si sommano mai.
+- 80 oggetti si possono mettere in vendita, e 79 di essi si possono anche prezzare in Thulium.
 - Un’inserzione dura 24 / 72 / 168 ore, a tua scelta: le opzioni sono le stesse a ogni livello.
 - Il **deposito** è pari a 1% del prezzo per ogni 24 ore di durata dell’inserzione, con un minimo di 50 crediti o 1 Thulium. Lo paghi quando metti in vendita; non viene mai restituito, nemmeno se annulli l’inserzione.
 - Dal livello 10 il deposito è pari a 1,5%.
@@ -31,7 +31,7 @@ Il contrassegno è un numero di unità, non un interruttore: una pila di munizio
 
 Il filtro **Solo vendibile** dell’Hangar mostra solo ciò che puoi vendere, e il **martelletto** accanto al cestino di un oggetto contrassegnato apre per lui la scheda di vendita dell’Asta. Nell’Assemblaggio, una ricetta il cui risultato è vendibile lo dice, e un materiale che ti manca ha un collegamento che apre l’Asta con il suo nome nella ricerca.
 
-Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che il Negozio non vende, e le risorse, sono stati contrassegnati una volta. Questi no, perché il Negozio li ha venduti un tempo o perché ciò che hai mescola pezzi comprati e guadagnati: il Quantum Laser 3, le Absorption Shield Cell II e III, gli Impulse Thruster II e III, le due Reinforced Plate e la Base CPU I più vecchia di ogni pilota (quella del kit iniziale). I nuovi di questi che guadagni o crei sono contrassegnati.
+Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che il Negozio non vende, e le risorse, sono stati contrassegnati una volta. Questi no, perché il Negozio li ha venduti un tempo o perché ciò che hai mescola pezzi comprati e guadagnati: il Quantum Laser III, le Absorption Shield Cell II e III, gli Impulse Thruster II e III, le due Reinforced Plate e la Base CPU I più vecchia di ogni pilota (quella del kit iniziale). I nuovi di questi che guadagni o crei sono contrassegnati.
 
 ## Che cosa si può vendere {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che i
 
 | Tipo | Oggetti che puoi vendere | Numero |
 | :--- | :--- | ---: |
-| **Laser** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Laser** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Amplificatori laser** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Shield Core** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Motori** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Ogni oggetto ha un **prezzo minimo** e **non esiste un prezzo massimo**: chiedi 
 
 | Oggetto | Venduto in lotti da | Prezzo minimo, crediti | Prezzo minimo, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32.000 | 32 |
-| Quantum Laser 3 | 1 | 170.000 | 170 |
+| Quantum Laser II | 1 | 32.000 | 32 |
+| Quantum Laser III | 1 | 170.000 | 170 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
 | Impulse Thruster IV | 1 | 980.000 | 980 |
 | EMP Charge | 1 | 40.000 | 40 |
 | Cloaking CPU S | 1 | 400.000 | 400 |
-| Ultra Core | 10 | 800 | Solo crediti |
-| Lancet I | 1 | 200 | Solo crediti |
-| Ship Fragment | 100 | 600 | Solo crediti |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33.000 | 33 |
 
 <!-- market-bands:end -->
 
-Un prezzo in Thulium segue una sola regola: il prezzo minimo in crediti diviso per il tasso, arrotondato per eccesso. Il tasso non è un valore che il gioco dà al Thulium. Serve solo a calcolare il prezzo minimo in Thulium, e per questo un’inserzione in Thulium può essere economica per un pilota che ha Thulium. La maggior parte dei venditori chiederà crediti. Gli oggetti economici (munizioni, razzi, il primo grado della maggior parte dell’equipaggiamento e le risorse comuni) si prezzano solo in crediti, perché un Thulium intero sarebbe un passo troppo grande.
+Un prezzo in Thulium segue una sola regola: il prezzo minimo in crediti diviso per il tasso, arrotondato per eccesso. Il tasso non è un valore che il gioco dà al Thulium. Serve solo a calcolare il prezzo minimo in Thulium, e per questo un’inserzione in Thulium può essere economica per un pilota che ha Thulium. La maggior parte dei venditori chiederà crediti. Ogni oggetto tranne il **Quorvium** si può prezzare in Thulium, anche quelli economici (munizioni, razzi, risorse comuni): il loro prezzo minimo è allora 1 Thulium, il passo più piccolo. Solo il Quorvium si prezza unicamente in crediti, perché 1 Thulium varrebbe più di un suo lotto.
 
 Le tue **inserzioni aperte** (e un’inserzione che un admin ha sospeso) occupano posti. Salendo di livello hai più posti, fino a un massimo, e puoi vendere e comprare di più al giorno. Quanto può durare un’inserzione è uguale a ogni livello.
 
@@ -119,8 +119,8 @@ Un’inserzione costa un **deposito**, pagato quando la metti in vendita e mai r
 
 | Inserzione | Prezzo | Deposito | Imposta | Il venditore riceve |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: livello 6, 24 h | 170.000 crediti | 1.700 crediti | 8.500 crediti | 161.500 crediti |
-| Quantum Laser 3: livello 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: livello 6, 24 h | 170.000 crediti | 1.700 crediti | 8.500 crediti | 161.500 crediti |
+| Quantum Laser III: livello 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: livello 12, 168 h | 2.500.000 crediti | 262.500 crediti | 125.000 crediti | 2.375.000 crediti |
 | Helios Beam: livello 12, 168 h, negli ultimi giorni di una stagione | 2.500.000 crediti | 0 crediti | 0 crediti | 2.500.000 crediti |
 
@@ -205,7 +205,7 @@ L’Asta serve a scambiare ciò che guadagni, ed è onesta sui suoi limiti.
 
 - **Vendere bottino non è un grind.** Il bottino grezzo degli alieni è fatto solo di risorse e vale dallo 0,4 allo 0,9 per cento di ciò che la stessa ora di caccia al livello 5 paga in uccisioni. Ciò che il Mercato dà a un pilota nuovo è l’equipaggiamento che le sue missioni pagano e di cui non ha bisogno (una volta), le risorse delle missioni Sfida, le casse dei boss degli sciami e ciò che crea.
 - **Non c’è un commerciante.** Gli ordini d’acquisto, in cui un pilota dice che cosa vuole comprare e a quanto, non sono in questa versione. Finché non ci sono, gli unici commercianti sono l’artigiano, che compra materiali, crea equipaggiamento nell’Assemblaggio e lo vende, e il pilota magazziniere, che tiene le scorte nel Deposito di trasporto attraverso il reset.
-- **L’equipaggiamento del Negozio non è fatto per la rivendita.** L’equipaggiamento che hai comprato al Negozio non si può rivendere: ne fanno parte il Quantum Laser 1 e 2, il Light e il Basic Shield Core, Engine I e II, il primo grado di celle e propulsori, gli amp che vende il Negozio e le munizioni comprate. L’unico Quantum Laser 2 vendibile di un pilota è quello che una missione paga una volta.
+- **L’equipaggiamento del Negozio non è fatto per la rivendita.** L’equipaggiamento che hai comprato al Negozio non si può rivendere: ne fanno parte il Quantum Laser I e II, il Light e il Basic Shield Core, Engine I e II, il primo grado di celle e propulsori, gli amp che vende il Negozio e le munizioni comprate. L’unico Quantum Laser II vendibile di un pilota è quello che una missione paga una volta.
 - **Le piastre vengono dalle missioni.** Le Velkonite e Orvium Reinforced Plate sul Mercato sono quelle che pagano le missioni Sfida. Le piastre della Fucina restano fuori, altrimenti sarebbero la merce più grande del Mercato.
 
 Se un’inserzione ti sembra sbagliata, segnalala nel modo consueto: gli amministratori del gioco possono sospendere un’inserzione, restituirla, mettere in pausa l’Asta o escludere un pilota, e ogni azione di questo tipo viene registrata.

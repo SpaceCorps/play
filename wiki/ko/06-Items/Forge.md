@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb793276e5c69374 -->
+<!-- wiki-i18n source: 92d82b495e5ef112 -->
 <!-- wiki-i18n title: 대장간 -->
 # 대장간 {#the-forge}
 
@@ -39,7 +39,7 @@
 
 대장간이 생기기 전에 만든 장비는 당시 굴린 보너스를 그대로 유지하며, 이는 표의 값보다 작은 경우가 많습니다(그때의 신성한 등급 장비는 +2%일 수 있습니다). 보너스가 저절로 올라가는 일은 없습니다. 등급 상승은 각 보너스를 새 등급의 범위에서 다시 굴려 더 좋은 값을 유지하고, 병합은 능력치마다 더 좋은 값을 유지합니다.
 
-아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser 1, 2는 2개), 엔진과 적응형 코어는 2개, Momentum Thruster도 2개, Impulse Thruster는 1개(배율 1.02~1.035는 보너스를 붙일 가치가 없고 대장간은 1.05 이하의 배율에 보너스를 붙이지 않으므로, 그 보너스는 고정 속도에만 붙을 수 있습니다), Crit Amp I과 Repair Drone은 1개, 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 다음 등급이 담는 보너스 수가 아이템이 가질 수 있는 수를 넘지 않으면 패널이 이를 알려 주며, 그 등급은 보너스를 더 강하게 만들 뿐입니다. 사거리 보너스는 +5%를 넘지 않습니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
+아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser I, 2는 2개), 엔진과 적응형 코어는 2개, Momentum Thruster도 2개, Impulse Thruster는 1개(배율 1.02~1.035는 보너스를 붙일 가치가 없고 대장간은 1.05 이하의 배율에 보너스를 붙이지 않으므로, 그 보너스는 고정 속도에만 붙을 수 있습니다), Crit Amp I과 Repair Drone은 1개, 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 다음 등급이 담는 보너스 수가 아이템이 가질 수 있는 수를 넘지 않으면 패널이 이를 알려 주며, 그 등급은 보너스를 더 강하게 만들 뿐입니다. 사거리 보너스는 +5%를 넘지 않습니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
 
 **한 등급이 담는 보너스는 최대 그 수까지입니다.** 등급 상승은 아이템에 첫 보너스를 항상 줍니다. 새 등급이 여는 나머지 칸 중 아이템에 해당 능력치가 있는 칸은 **50% 확률로, 칸마다 따로 굴려서** 채워지고, 채워지지 않은 칸은 다음 등급 상승에서 다시 시도됩니다. 그래서 신성한 등급 실드 코어는 절반은 보너스가 2개, 나머지 절반은 1개입니다. 영원한 등급은 약 3번에 1번 4개가 모두 붙고(평균 3.1개), 능력치가 3개인 레이저는 3번에 2번 3개가 모두 붙으며, 엔진은 거의 항상 둘 다 붙습니다. 패널은 다음 등급에 대해 “최대”라고 표시하고 새 칸이 얼마나 자주 채워지는지도 알려 줍니다. 능력치가 1개인 아이템과 오염된 등급으로 가는 모든 단계는 영향을 받지 않으며, 이 규칙 이전에 만든 장비는 가진 보너스를 그대로 유지합니다. **병합**은 등급 상승이 놓친 칸을 채우는 방법입니다. 두 사본의 능력치별 가장 좋은 보너스를 등급 한도까지 남깁니다. 확률 때문에, 아래에서 설명하는 흡수율 보너스는 부품의 일부만 가집니다(영원한 등급 실드 코어는 78%, 영원한 등급 실드 셀은 88%). 그곳의 수치는 그 보너스를 가진 부품 기준입니다.
 
@@ -66,7 +66,7 @@
 
 ## 병합 {#merge}
 
-같은 아이템 사본 2개(Light Shield Core 두 개, Quantum Laser 2 두 개)가 하나가 됩니다. **병합**으로 전환한 뒤 남기려는 아이템(**기준**)을 클릭하고, 이어서 두 번째 사본(**제공 아이템**)을 클릭하세요. 확정하기 전에 패널이 결과를 보여 줍니다.
+같은 아이템 사본 2개(Light Shield Core 두 개, Quantum Laser II 두 개)가 하나가 됩니다. **병합**으로 전환한 뒤 남기려는 아이템(**기준**)을 클릭하고, 이어서 두 번째 사본(**제공 아이템**)을 클릭하세요. 확정하기 전에 패널이 결과를 보여 줍니다.
 
 - **기준은 유지됩니다.** 기준은 제자리에 남습니다. 함선에 장착되어 있거나 다른 아이템에 장착되어 있어도 되며, 기준에 장착된 모듈도 그대로 남습니다. **제공 아이템은 소모됩니다.** 제공 아이템은 장착되지 않은 상태(함선에 있지도, 다른 아이템에 장착되어 있지도 않은 상태)여야 하며, 거기에 장착된 모듈은 인벤토리로 돌아갑니다.
 - **결과는 둘 중 더 높은 등급을 가지며**, 능력치마다 **두 값 중 더 좋은 값**을 가집니다.
@@ -80,19 +80,19 @@
 
 ## 어셈블리의 모듈 업그레이드 {#module-upgrades-in-the-assembly}
 
-최상위 레이저 두 가지, 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않으며, Skylab에서 그 기술을 연구해야 어셈블리가 만들어 줍니다([연구](/wiki/03-Mechanics/Research.md)). 어셈블리의 **제작** 탭에서 한 단계 아래 부품을 업그레이드해 만듭니다. Damage Amp III를 **Damage Amp IV**로, Crit Amp III를 **Crit Amp IV**로, Capacity Shield Cell I을 **Capacity Shield Cell II**로(III, IV로 이어지며, Absorption Shield Cell, Impulse Thruster, Momentum Thruster도 같은 방식으로 오릅니다), Basic Shield Core를 **Heavy Shield Core**로, Engine II를 **Engine III**로, Quantum Laser 3를 **Starfire-3**로, Starfire-3를 **Helios Beam**으로 업그레이드합니다. 대장간과의 관계는 등급입니다. 각 증폭기 계열의 첫 티어(Damage Amp I, Crit Amp I, Penetration Amp I)는 상점에서 팝니다. 각 계열의 티어 II~IV는 같은 방식으로 만듭니다.
+최상위 레이저 두 가지, 레이저 증폭기, 티어 II~IV의 실드 셀과 추진기, 그리고 Heavy Shield Core와 Engine III는 판매하지 않으며, Skylab에서 그 기술을 연구해야 어셈블리가 만들어 줍니다([연구](/wiki/03-Mechanics/Research.md)). 어셈블리의 **제작** 탭에서 한 단계 아래 부품을 업그레이드해 만듭니다. Damage Amp III를 **Damage Amp IV**로, Crit Amp III를 **Crit Amp IV**로, Capacity Shield Cell I을 **Capacity Shield Cell II**로(III, IV로 이어지며, Absorption Shield Cell, Impulse Thruster, Momentum Thruster도 같은 방식으로 오릅니다), Basic Shield Core를 **Heavy Shield Core**로, Engine II를 **Engine III**로, Quantum Laser III를 **Starfire-III**로, Starfire-III를 **Helios Beam**으로 업그레이드합니다. 대장간과의 관계는 등급입니다. 각 증폭기 계열의 첫 티어(Damage Amp I, Crit Amp I, Penetration Amp I)는 상점에서 팝니다. 각 계열의 티어 II~IV는 같은 방식으로 만듭니다.
 
 - **등급은 유지됩니다.** 업그레이드는 부품 사본 1개를 소모하며, 새 아이템은 그 사본의 등급을 가집니다. 신성한 Damage Amp III로는 신성한 Damage Amp IV가, 표준 등급으로는 표준 등급의 Damage Amp IV가 나옵니다. 대장간에 들인 비용은 사라지지 않습니다. 업그레이드가 스스로 등급을 더해 주는 일은 없으므로, 표준 등급 부품은 항상 표준 등급 결과물을 만듭니다.
 - **보너스는 다시 굴립니다.** 새 아이템은 그 등급에 맞는 새 보너스를 받습니다. 개수는 소모하는 부품이 가졌던 수입니다(보너스 2개를 가진 신성한 Damage Amp III로는 2개를 가진 신성한 Damage Amp IV가, 1개뿐인 부품으로는 1개뿐인 것이 만들어지며, 표준보다 높은 등급에서는 최소 1개). 다만 등급이 담을 수 있는 수와 새 아이템이 가진 능력치 수가 상한이고, 각 보너스는 위 표의 해당 등급 범위 안에서 Damage Amp IV가 가진 능력치에 붙습니다. 그 밖에는 이전 부품에서 복사되는 것이 없으므로 새 보너스가 이전보다 좋을 수도 나쁠 수도 있으며, 평균적으로는 같습니다. 개수를 유지하는 것은 대장간이 놓친 칸을 업그레이드로 채우지 못하게 하기 위해서이며, 보너스를 줄이는 일은 결코 없습니다. 이 규칙 이전에 만든, 모든 칸이 찬 부품은 모두 유지됩니다. 보너스는 작업을 대기열에 넣는 순간 정해지고, 수령하는 것은 굴려진 그대로의 결과입니다. 수령을 미뤄도 달라지는 것은 없습니다. 그 이유는 업그레이드가 새 아이템을 만드는 것이고, 대장간의 주사위는 보유한 아이템에 던지기 때문입니다. 비용이 드는 부분은 등급입니다. 영원한 등급 부품은 대장간 단계만 해도 100만 크레딧이 넘지만, 보너스는 능력치 하나의 몇 퍼센트에 불과합니다.
-- **플레이트.** Thulium과 외계인 드롭 외에, 모든 모듈 업그레이드에는 플레이트가 필요합니다. 마지막 티어에는 **Dark Matter Plate 3개**가 필요합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam이 해당합니다. 그 앞 단계에는 **Velkonite Reinforced Plate**가 필요합니다. 티어 II 또는 III의 증폭기는 1개 또는 2개, 티어 II 또는 III의 셀이나 추진기는 2개 또는 4개, Starfire-3는 8개입니다(Helios Beam은 Orvium Reinforced Plate 18개도 필요합니다). 외계인은 이 중 어느 것도 드롭하지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 Velkonite와 Orvium 플레이트를 광석으로 만들며, 단조소 레벨 1에서는 Velkonite 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로, 티어 III 증폭기의 플레이트는 채굴 8시간, 티어 III 셀이나 추진기의 플레이트는 16시간 분량입니다(레벨 5 수집기라면 4시간과 9시간). 어셈블리는 플레이트의 제작법을 연구한 뒤 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)를 압착해 만듭니다. 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md) 페이지에 있습니다. 대장간 자체의 단계에는 드롭과 크레딧이 들고, 최상위 단계에는 Dark Matter Plate도 필요합니다(신성한 → 파열하는: Reinforced Hull Plate 20개와 Dark Matter Plate 2개, 파열하는 → 영원한: Dark Matter Plate 2개). 모듈 업그레이드의 마지막 티어가 쓰는 것과 같은 플레이트입니다.
+- **플레이트.** Thulium과 외계인 드롭 외에, 모든 모듈 업그레이드에는 플레이트가 필요합니다. 마지막 티어에는 **Dark Matter Plate 3개**가 필요합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam이 해당합니다. 그 앞 단계에는 **Velkonite Reinforced Plate**가 필요합니다. 티어 II 또는 III의 증폭기는 1개 또는 2개, 티어 II 또는 III의 셀이나 추진기는 2개 또는 4개, Starfire-III는 8개입니다(Helios Beam은 Orvium Reinforced Plate 18개도 필요합니다). 외계인은 이 중 어느 것도 드롭하지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 Velkonite와 Orvium 플레이트를 광석으로 만들며, 단조소 레벨 1에서는 Velkonite 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로, 티어 III 증폭기의 플레이트는 채굴 8시간, 티어 III 셀이나 추진기의 플레이트는 16시간 분량입니다(레벨 5 수집기라면 4시간과 9시간). 어셈블리는 플레이트의 제작법을 연구한 뒤 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)를 압착해 만듭니다. 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md) 페이지에 있습니다. 대장간 자체의 단계에는 드롭과 크레딧이 들고, 최상위 단계에는 Dark Matter Plate도 필요합니다(신성한 → 파열하는: Reinforced Hull Plate 20개와 Dark Matter Plate 2개, 파열하는 → 영원한: Dark Matter Plate 2개). 모듈 업그레이드의 마지막 티어가 쓰는 것과 같은 플레이트입니다.
 - **어느 사본이 쓰이는가.** 직접 고릅니다. 서로 다른 사본(다른 등급이나 다른 보너스)을 보유하고 있으면 제작법 카드에 타일 한 줄로 표시됩니다. 사용할 타일을 클릭하면 타일 아래 줄에 그것이 무엇이 되는지 표시됩니다(“신성한 Damage Amp III”, 이어서 “결과: 신성한 Damage Amp IV”). 아무것도 고르지 않으면 가장 평범한 것이 사용됩니다. 등급이 가장 낮은 것이 먼저이며, 같은 등급 안에서는 보너스와 상관없이 가장 오래된 것이 먼저입니다. 신성한 등급 이상의 사본은 더 평범한 사본이 장착되지 않은 채 남아 있는 한 사용되지 않습니다. 표준보다 높은 등급의 사본을 사용할 때는 먼저 확인을 묻고 아이템 이름을 알려 줍니다.
 - **사용할 수 있는 사본.** 장착되지 않은 사본만 쓸 수 있습니다. 함선에 장착되어 있거나(능력 슬롯도 마찬가지입니다), 다른 아이템에 장착되어 있거나, 자신이 셀이나 추진기를 품고 있거나, [수송 보관함](/wiki/03-Mechanics/Cargo.md)에 있는 사본은 사용할 수 없으며, 어셈블리가 그렇게 알려 줍니다. 먼저 장착을 해제하거나 보관함에서 꺼내세요. 함께 시작한 업그레이드 두 개가 같은 사본을 쓸 수는 없습니다.
 
-- **Starfire-3도 업그레이드입니다.** **Quantum Laser 3**를 재료로 만들며(1,500 Thulium, 100,000 크레딧, 드롭, Velkonite Reinforced Plate 8개: [레이저](/wiki/06-Items/Lasers.md) 참고), 위의 내용이 모두 적용됩니다. 신성한 Quantum Laser 3로는 새 보너스를 가진 신성한 Starfire-3가 만들어지고, 사본은 직접 고르며, 표준보다 높은 등급의 사본을 쓸 때는 카드가 먼저 묻고, Quantum Laser 3는 장착되지 않은 상태여야 합니다. 먼저 격납고에서 떼어 내야 하며, 그전까지 조립 버튼에는 “먼저 Quantum Laser 3 해제”라고 표시됩니다. 등급은 그 위로도 이어집니다. 신성한 Starfire-3로는 신성한 Helios Beam이 만들어집니다.
+- **Starfire-III도 업그레이드입니다.** **Quantum Laser III**를 재료로 만들며(1,500 Thulium, 100,000 크레딧, 드롭, Velkonite Reinforced Plate 8개: [레이저](/wiki/06-Items/Lasers.md) 참고), 위의 내용이 모두 적용됩니다. 신성한 Quantum Laser III로는 새 보너스를 가진 신성한 Starfire-III가 만들어지고, 사본은 직접 고르며, 표준보다 높은 등급의 사본을 쓸 때는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. 먼저 격납고에서 떼어 내야 하며, 그전까지 조립 버튼에는 “먼저 Quantum Laser III 해제”라고 표시됩니다. 등급은 그 위로도 이어집니다. 신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다.
 
-- **Helios Beam도 업그레이드입니다.** **Starfire-3**를 재료로 만들며(2,000 Thulium, 드롭, Orvium Reinforced Plate 18개, Dark Matter Plate 3개: [레이저](/wiki/06-Items/Lasers.md) 참고), 위의 내용이 모두 적용됩니다. 신성한 Starfire-3로는 새 보너스를 가진 신성한 Helios Beam이 만들어지고(Starfire-3가 가졌던 수만큼, 세 가지 능력치 중 최대 2개), 사본은 직접 고르며, 표준보다 높은 등급의 사본을 쓸 때는 카드가 먼저 묻고, Starfire-3는 장착되지 않은 상태여야 합니다. 레이저는 함선에 장착되어 있고 증폭기도 달고 있는 경우가 많으므로, 먼저 격납고에서 떼어 내야 합니다(장착한 증폭기는 인벤토리로 돌아갑니다). 그전까지 조립 버튼에는 “먼저 Starfire-3 해제”라고 표시됩니다.
+- **Helios Beam도 업그레이드입니다.** **Starfire-III**를 재료로 만들며(2,000 Thulium, 드롭, Orvium Reinforced Plate 18개, Dark Matter Plate 3개: [레이저](/wiki/06-Items/Lasers.md) 참고), 위의 내용이 모두 적용됩니다. 신성한 Starfire-III로는 새 보너스를 가진 신성한 Helios Beam이 만들어지고(Starfire-III가 가졌던 수만큼, 세 가지 능력치 중 최대 2개), 사본은 직접 고르며, 표준보다 높은 등급의 사본을 쓸 때는 카드가 먼저 묻고, Starfire-III는 장착되지 않은 상태여야 합니다. 레이저는 함선에 장착되어 있고 증폭기도 달고 있는 경우가 많으므로, 먼저 격납고에서 떼어 내야 합니다(장착한 증폭기는 인벤토리로 돌아갑니다). 그전까지 조립 버튼에는 “먼저 Starfire-III 해제”라고 표시됩니다.
 
-제작법과 비용, 규칙의 근거가 되는 수치는 [아이템 개요](/wiki/06-Items/Overview.md#upgrading-modules)에 있으며, Starfire-3와 Helios Beam은 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있습니다.
+제작법과 비용, 규칙의 근거가 되는 수치는 [아이템 개요](/wiki/06-Items/Overview.md#upgrading-modules)에 있으며, Starfire-III와 Helios Beam은 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있습니다.
 
 ## 오래된 서버 {#old-servers}
 

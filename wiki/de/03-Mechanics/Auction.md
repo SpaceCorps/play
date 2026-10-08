@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -9,8 +9,8 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 
 - Du brauchst **Level 5**, um die Auktion zu nutzen: zum Einstellen, Kaufen und Bieten.
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
-- Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 20 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
-- 80 Sorten lassen sich einstellen, und 42 davon können auch in Thulium bepreist werden.
+- Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 1 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
+- 80 Sorten lassen sich einstellen, und 79 davon können auch in Thulium bepreist werden.
 - Ein Angebot läuft 24 / 72 / 168 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 1 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 1,5 %.
@@ -31,7 +31,7 @@ Das Etikett ist eine Anzahl von Einheiten, kein Schalter: Ein Munitionsstapel ka
 
 Der Chip **Nur Handelbares** im Hangar zeigt nur, was du verkaufen kannst, und der **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der Auktion dafür. In der Montage sagt ein Rezept, dessen Ergebnis handelbar ist, das dazu, und bei einem Material, das dir fehlt, öffnet ein Link die Auktion mit dem Namen im Suchfeld.
 
-Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und die der Shop nicht verkauft, sowie die Ressourcen einmalig markiert. Nicht markiert wurden diese, weil der Shop sie einmal verkauft hat oder weil das, was du besitzt, gekaufte und verdiente Stücke mischt: der Quantum Laser 3, die Absorption Shield Cells II und III, die Impulse Thrusters II und III, die beiden Reinforced Plates und die älteste Base CPU I jedes Piloten (die des Starterpakets). Neue davon, die du verdienst oder herstellst, sind markiert.
+Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und die der Shop nicht verkauft, sowie die Ressourcen einmalig markiert. Nicht markiert wurden diese, weil der Shop sie einmal verkauft hat oder weil das, was du besitzt, gekaufte und verdiente Stücke mischt: der Quantum Laser III, die Absorption Shield Cells II und III, die Impulse Thrusters II und III, die beiden Reinforced Plates und die älteste Base CPU I jedes Piloten (die des Starterpakets). Neue davon, die du verdienst oder herstellst, sind markiert.
 
 ## Was verkauft werden kann {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 
 | Typ | Sorten, die du verkaufen kannst | Anzahl |
 | :--- | :--- | ---: |
-| **Laser** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Laser** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Laserverstärker** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Schildkerne** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Triebwerke** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Jede Sorte hat einen **Mindestpreis**, und es gibt **keinen Höchstpreis**: Verl
 
 | Sorte | Verkauft in Posten zu | Mindestpreis, Credits | Mindestpreis, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32.000 | 32 |
-| Quantum Laser 3 | 1 | 170.000 | 170 |
+| Quantum Laser II | 1 | 32.000 | 32 |
+| Quantum Laser III | 1 | 170.000 | 170 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
 | Impulse Thruster IV | 1 | 980.000 | 980 |
 | EMP Charge | 1 | 40.000 | 40 |
 | Cloaking CPU S | 1 | 400.000 | 400 |
-| Ultra Core | 10 | 800 | Nur Credits |
-| Lancet I | 1 | 200 | Nur Credits |
-| Ship Fragment | 100 | 600 | Nur Credits |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33.000 | 33 |
 
 <!-- market-bands:end -->
 
-Ein Preis in Thulium folgt einer einzigen Regel: der Mindestpreis in Credits geteilt durch den Kurs, aufgerundet. Der Kurs ist kein Wert, den das Spiel dem Thulium beimisst. Er legt nur fest, wie der Mindestpreis in Thulium berechnet wird, und deshalb kann ein Angebot in Thulium für einen Piloten mit Thulium günstig sein. Die meisten Verkäufer werden Credits verlangen. Günstige Sorten (Munition, Raketen, die erste Stufe der meisten Ausrüstung und die gewöhnlichen Ressourcen) werden nur in Credits bepreist, weil ein ganzes Thulium ein zu großer Schritt wäre.
+Ein Preis in Thulium folgt einer einzigen Regel: der Mindestpreis in Credits geteilt durch den Kurs, aufgerundet. Der Kurs ist kein Wert, den das Spiel dem Thulium beimisst. Er legt nur fest, wie der Mindestpreis in Thulium berechnet wird, und deshalb kann ein Angebot in Thulium für einen Piloten mit Thulium günstig sein. Die meisten Verkäufer werden Credits verlangen. Jede Sorte außer **Quorvium** kann in Thulium bepreist werden, auch die günstigen (Munition, Raketen, die gewöhnlichen Ressourcen): Ihr Mindestpreis ist dann 1 Thulium, der kleinste Schritt. Nur Quorvium gibt es allein in Credits, weil 1 Thulium mehr wäre, als ein Posten davon wert ist.
 
 Deine **offenen Angebote** (und ein Angebot, das ein Admin angehalten hat) belegen Plätze. Mit steigendem Level bekommst du mehr Plätze, bis zu einem Höchstwert, und du darfst pro Tag mehr verkaufen und kaufen. Wie lange ein Angebot laufen darf, ist auf jedem Level gleich.
 
@@ -119,8 +119,8 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 
 | Angebot | Preis | Einstellgebühr | Steuer | Der Verkäufer erhält |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: Level 6, 24 h | 170.000 Credits | 1.700 Credits | 8.500 Credits | 161.500 Credits |
-| Quantum Laser 3: Level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: Level 6, 24 h | 170.000 Credits | 1.700 Credits | 8.500 Credits | 161.500 Credits |
+| Quantum Laser III: Level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: Level 12, 168 h | 2.500.000 Credits | 262.500 Credits | 125.000 Credits | 2.375.000 Credits |
 | Helios Beam: Level 12, 168 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
 
@@ -205,7 +205,7 @@ Die Auktion dient dem Handel mit dem, was du verdienst, und sie ist ehrlich übe
 
 - **Beute zu verkaufen ist kein Grind.** Rohe Alien-Beute besteht nur aus Ressourcen und ist 0,4 bis 0,9 Prozent dessen wert, was dieselbe Jagdstunde auf Level 5 an Abschüssen auszahlt. Was der Markt einem neuen Piloten gibt, ist die Ausrüstung, die seine Missionen auszahlen und die er nicht braucht (einmalig), die Ressourcen der Herausforderungs-Missionen, die Kisten der Schwarm-Bosse und das, was er herstellt.
 - **Es gibt keinen Händler.** Kaufaufträge, bei denen ein Pilot sagt, was er kaufen will und für wie viel, gibt es in dieser Version nicht. Bis dahin sind die einzigen Händler der Handwerker, der Materialien kauft, in der Montage Ausrüstung herstellt und sie verkauft, und der Lagerpilot, der seinen Vorrat durch den Wipe im Transport-Cache hält.
-- **Shop-Ausrüstung ist nicht zum Weiterverkauf da.** Ausrüstung, die du im Shop gekauft hast, kann nicht wieder verkauft werden: Dazu gehören der Quantum Laser 1 und 2, der Light und der Basic Shield Core, Engine I und II, die erste Stufe der Zellen und Schubdüsen, die Amps, die der Shop verkauft, und gekaufte Munition. Der eine handelbare Quantum Laser 2 eines Piloten ist der, den eine Mission einmal auszahlt.
+- **Shop-Ausrüstung ist nicht zum Weiterverkauf da.** Ausrüstung, die du im Shop gekauft hast, kann nicht wieder verkauft werden: Dazu gehören der Quantum Laser I und II, der Light und der Basic Shield Core, Engine I und II, die erste Stufe der Zellen und Schubdüsen, die Amps, die der Shop verkauft, und gekaufte Munition. Der eine handelbare Quantum Laser II eines Piloten ist der, den eine Mission einmal auszahlt.
 - **Platten kommen aus Missionen.** Die Velkonite und Orvium Reinforced Plates auf dem Markt sind die, die die Herausforderungs-Missionen auszahlen. Die Platten der Schmiede bleiben draußen, sonst wären sie die größte Ware des Markts.
 
 Wenn ein Angebot nicht stimmt, melde es auf dem üblichen Weg: Die Admins des Spiels können ein Angebot anhalten, es zurückgeben, die Auktion pausieren oder einen Piloten davon ausschließen, und jede solche Handlung wird aufgezeichnet.

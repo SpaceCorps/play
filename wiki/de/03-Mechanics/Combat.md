@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Der Grundschaden aller ausgerüsteten Laser (einschließlich der Laser auf Drohn
 Jede Salve hat eine Chance, ein kritischer Treffer zu sein.
 - **Krit-Chance**: Die durchschnittliche Krit-Chance der ausgerüsteten Laser plus die Summe der Krit-Chancen aller ausgerüsteten Laserverstärker.
 - **Krit-Multiplikator**: Ist ein Schuss kritisch, wird der Schadenswurf mit **1,5x** multipliziert. Die Schadenszahl einer kritischen Salve wird in Eisblau angezeigt, größer und mit einem „!“ (siehe [Schadens- und Heilungszahlen](#damage-and-heal-numbers)).
-- Quantum Laser 1 und 2 haben keine eigene Krit-Chance: Ihre Verstärker geben sie ihnen.
+- Quantum Laser I und II haben keine eigene Krit-Chance: Ihre Verstärker geben sie ihnen.
 - **Fester Krit-Schaden**: Fester kritischer Schaden von Laserverstärkern wird nach dem Multiplikator addiert.
   - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Ein Schiff oder Alien, das ein Ziel anvisiert hat und feuert, dreht sich dem Zie
 
 ### 5. Reichweite {#5-range}
 
-Ein Schiff feuert eine Salve pro Sekunde, solange sein Ziel innerhalb seiner **Reichweite** ist, und hält das Feuer, solange das Ziel weiter entfernt ist: Das Feuer kostet dann keine Munition, bis das Ziel wieder nah genug ist, und das Zielfenster zeigt „Außer Reichweite“. Die Reichweite ist **der Durchschnitt der Reichweiten all deiner Laser** (auch der Laser in deinen Drohnen), auf die nächste Einheit gerundet, und sie ist eine einzige Zahl für das ganze Schiff: Innerhalb davon feuert jeder Laser, außerhalb keiner. Ein weitreichender Laser neben kurzen verlängert deine Reichweite also nicht: Ein Starfire-3 (850) und zwei Quantum Laser 2 (700) ergeben 750. Ein Schmiede-Buff auf die Reichweite zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ein Schiff ohne Laser kann seine Laser nicht abfeuern, und der Hangar zeigt dafür keine Reichweite an (einen Strich); seine Raketen feuern trotzdem, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Die eigene Reichweite jedes Lasers steht unter [Laser & Munition](/wiki/06-Items/Lasers.md).
+Ein Schiff feuert eine Salve pro Sekunde, solange sein Ziel innerhalb seiner **Reichweite** ist, und hält das Feuer, solange das Ziel weiter entfernt ist: Das Feuer kostet dann keine Munition, bis das Ziel wieder nah genug ist, und das Zielfenster zeigt „Außer Reichweite“. Die Reichweite ist **der Durchschnitt der Reichweiten all deiner Laser** (auch der Laser in deinen Drohnen), auf die nächste Einheit gerundet, und sie ist eine einzige Zahl für das ganze Schiff: Innerhalb davon feuert jeder Laser, außerhalb keiner. Ein weitreichender Laser neben kurzen verlängert deine Reichweite also nicht: Ein Starfire-III (850) und zwei Quantum Laser II (700) ergeben 750. Ein Schmiede-Buff auf die Reichweite zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ein Schiff ohne Laser kann seine Laser nicht abfeuern, und der Hangar zeigt dafür keine Reichweite an (einen Strich); seine Raketen feuern trotzdem, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Die eigene Reichweite jedes Lasers steht unter [Laser & Munition](/wiki/06-Items/Lasers.md).
 
 ## Schadens- und Heilungszahlen {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ Scheidet der erste Pilot aus (er verlässt die Karte, erreicht eine Schutzzone, 
 
 ## Aliens verlieren das Interesse {#aliens-lose-interest}
 
-Kein Alien folgt dir quer über die Karte. Ein Alien, das du **triffst**, verliert aber nicht das Interesse, es kämpft gegen dich: In den **10 Sekunden** nach deinem letzten Treffer (jeder Treffer startet die 10 Sekunden neu, ob Lasersalve, Rakete oder der Rand einer Explosion) fliegt es mit seinem eigenen Tempo auf dich zu, wann immer du außerhalb seiner Angriffsreichweite bist (Seeker 600, Phantasm und Bulwark 700, Goombah 800, Crystalys 900), und rückt weiter vor und feuert, bis du in Reichweite bist. Es gibt keine Grenze dafür, wie weit es dir folgt, solange du es weiter triffst. Ein Laser, der weiter reicht als die Waffe des Aliens (ein Starfire-3 reicht 850 Einheiten weit, ein Helios Beam 900), erlaubt dir nicht, es von dort aus zu treffen, wo es nicht antworten kann, und ein schnelleres Schiff hält es nur so lange hinter dir, wie du weiterschießt. Es lässt dich trotzdem sofort fallen, wenn du eine Schutzzone erreichst, dich tarnst oder die Karte verlässt.
+Kein Alien folgt dir quer über die Karte. Ein Alien, das du **triffst**, verliert aber nicht das Interesse, es kämpft gegen dich: In den **10 Sekunden** nach deinem letzten Treffer (jeder Treffer startet die 10 Sekunden neu, ob Lasersalve, Rakete oder der Rand einer Explosion) fliegt es mit seinem eigenen Tempo auf dich zu, wann immer du außerhalb seiner Angriffsreichweite bist (Seeker 600, Phantasm und Bulwark 700, Goombah 800, Crystalys 900), und rückt weiter vor und feuert, bis du in Reichweite bist. Es gibt keine Grenze dafür, wie weit es dir folgt, solange du es weiter triffst. Ein Laser, der weiter reicht als die Waffe des Aliens (ein Starfire-III reicht 850 Einheiten weit, ein Helios Beam 900), erlaubt dir nicht, es von dort aus zu treffen, wo es nicht antworten kann, und ein schnelleres Schiff hält es nur so lange hinter dir, wie du weiterschießt. Es lässt dich trotzdem sofort fallen, wenn du eine Schutzzone erreichst, dich tarnst oder die Karte verlässt.
 
 Treffen mehrere Piloten dasselbe Alien, bleibt es bei dem, der als Erster auf es geschossen hat (siehe [Gegen wen ein Alien kämpft](#who-an-alien-fights)): Es rückt auf diesen Piloten vor und feuert, sodass eine Gruppe, die knapp außerhalb seiner Reichweite um es herumsteht, es nicht von einem zum anderen hetzen kann, ohne dass es je antwortet.
 

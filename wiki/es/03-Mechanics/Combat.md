@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Se suma el daño base de todos los láseres equipados (incluidos los láseres de
 Cada andanada tiene una probabilidad de ser un golpe crítico.
 - **Probabilidad de crítico**: la probabilidad de crítico media de los láseres equipados más la suma de las probabilidades de crítico de todos los amplificadores láser equipados.
 - **Multiplicador crítico**: si un disparo es crítico, la tirada de daño se multiplica por **1,5x**. El número de daño de una andanada crítica se muestra en azul hielo, más grande y con un «!» (consulta [Números de daño y de curación](#damage-and-heal-numbers)).
-- Los Quantum Laser 1 y 2 no tienen probabilidad de crítico propia: se la dan sus amplificadores.
+- Los Quantum Laser I y II no tienen probabilidad de crítico propia: se la dan sus amplificadores.
 - **Daño crítico fijo**: el daño crítico plano de los amplificadores láser se suma después del multiplicador.
   - Fórmula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Una nave o un alienígena que tiene fijado un objetivo y le dispara se gira haci
 
 ### 5. Alcance {#5-range}
 
-Una nave dispara una andanada por segundo mientras su objetivo está dentro de su **alcance**, y deja de disparar mientras el objetivo está más lejos: el fuego deja de gastar munición hasta que el objetivo vuelve a estar lo bastante cerca, y el panel del objetivo indica «Fuera de alcance». El alcance es **la media de los alcances de todos tus láseres** (también de los láseres de tus drones), redondeada a la unidad más cercana, y es un único número para toda la nave: dentro de él disparan todos los láseres; fuera, ninguno. Por eso un láser de largo alcance junto a otros cortos no amplía tu alcance: un Starfire-3 (850) y dos Quantum Laser 2 (700) dan 750. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Una nave sin láser no puede disparar sus láseres, y el hangar no muestra alcance para ella (un guion); sus cohetes siguen disparando, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). Consulta [Láseres y munición](/wiki/06-Items/Lasers.md) para ver el alcance propio de cada láser.
+Una nave dispara una andanada por segundo mientras su objetivo está dentro de su **alcance**, y deja de disparar mientras el objetivo está más lejos: el fuego deja de gastar munición hasta que el objetivo vuelve a estar lo bastante cerca, y el panel del objetivo indica «Fuera de alcance». El alcance es **la media de los alcances de todos tus láseres** (también de los láseres de tus drones), redondeada a la unidad más cercana, y es un único número para toda la nave: dentro de él disparan todos los láseres; fuera, ninguno. Por eso un láser de largo alcance junto a otros cortos no amplía tu alcance: un Starfire-III (850) y dos Quantum Laser II (700) dan 750. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Una nave sin láser no puede disparar sus láseres, y el hangar no muestra alcance para ella (un guion); sus cohetes siguen disparando, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). Consulta [Láseres y munición](/wiki/06-Items/Lasers.md) para ver el alcance propio de cada láser.
 
 ## Números de daño y de curación {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ Los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) cuentan desp
 
 ## Los alienígenas pierden el interés {#aliens-lose-interest}
 
-Ningún alienígena te sigue por todo el mapa. Pero un alienígena al que estás **impactando** no está perdiendo el interés, está luchando contigo: durante **10 segundos** después de tu último impacto (cada impacto vuelve a empezar esos 10 segundos, ya sea una andanada láser, un cohete o el borde de una explosión) vuela hacia ti, a su propia velocidad, siempre que estés más allá de su alcance de ataque (Seeker 600, Phantasm y Bulwark 700, Goombah 800, Crystalys 900), y sigue acercándose y disparando hasta tenerte a su alcance. No hay límite de lo lejos que te sigue mientras sigas impactándolo. Un láser que llega más lejos que el arma del alienígena (un Starfire-3 llega a 850 unidades, un Helios Beam a 900) no te permite impactarlo desde donde no puede responder, y una nave más rápida solo lo mantiene detrás de ti mientras sigas disparando. Aun así, te suelta al instante si llegas a una zona segura, te camuflas o sales del mapa.
+Ningún alienígena te sigue por todo el mapa. Pero un alienígena al que estás **impactando** no está perdiendo el interés, está luchando contigo: durante **10 segundos** después de tu último impacto (cada impacto vuelve a empezar esos 10 segundos, ya sea una andanada láser, un cohete o el borde de una explosión) vuela hacia ti, a su propia velocidad, siempre que estés más allá de su alcance de ataque (Seeker 600, Phantasm y Bulwark 700, Goombah 800, Crystalys 900), y sigue acercándose y disparando hasta tenerte a su alcance. No hay límite de lo lejos que te sigue mientras sigas impactándolo. Un láser que llega más lejos que el arma del alienígena (un Starfire-III llega a 850 unidades, un Helios Beam a 900) no te permite impactarlo desde donde no puede responder, y una nave más rápida solo lo mantiene detrás de ti mientras sigas disparando. Aun así, te suelta al instante si llegas a una zona segura, te camuflas o sales del mapa.
 
 Cuando varios pilotos impactan al mismo alienígena, este se queda con el primero que le disparó (consulta [Contra quién lucha un alienígena](#who-an-alien-fights)): se acerca a ese piloto y le dispara, así que un grupo que lo rodea justo fuera de su alcance no puede tenerlo yendo de uno a otro sin que llegue nunca a responder.
 

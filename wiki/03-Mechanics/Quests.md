@@ -24,6 +24,7 @@ Most missions are no longer "destroy so many of these": they are short **chains*
 
 - Open **Mission Control** from the toolbar inside a station's safe zone, or click the **Mission Control** bubble above the station in your base sector (it follows the station on the map, so fly or zoom out until the station is in view). The **Normal Missions** tab lists your missions by level, the **Challenges** tab holds the [Challenge line](#challenge-line), and **Completed Missions** holds the ones waiting for you to claim their reward.
 - **Accept** a mission to start it. You can run **5 missions at once**; the [Station missions](#station-missions) have 3 slots of their own and the [Challenge missions](#challenge-line) 3 more. The mission you accepted last is the one you're **tracking** (a Station mission only when you track nothing and none of your missions is one that flying can advance): it shows in the **Active Quests** window, and kills and flight count toward it first. Pick another with the dots in the window's title bar.
+- A **badge** with a count sits on the Mission Control button, and on its **Normal Missions** and **Challenges** tabs while you are on another tab, as long as a mission or a Challenge can be accepted. Each new one comes with one toast and a quiet sound.
 - Some missions must be done **in order**. They carry an **In order** tag, and their steps are numbered: see [Chained missions](#chained-missions).
 - A mission with a quest item, a stay or a condition shows its state live in Active Quests: **Carrying** with the distance to Mission Control, the time you have stayed, the hull points you have lost (**Hull damage: 1,240 / 3,000**), **Do not die**. On the mission's card the same rules show as small pills: **Hull limit 3,000 HP**, **No death**, **In order**, and the clock of a timed mission.
 - **Abandon** a mission to drop it and its progress. It is back in the list at once, and you can take it again. An item you were carrying for it is gone.
@@ -36,6 +37,7 @@ Most missions are no longer "destroy so many of these": they are short **chains*
 - **Take them in any order.** None of the ten waits for another. (The steps inside one mission may have an order.)
 - Every level has the same mix: **three** missions with a quest item, **two** that send you to points on the map, **two** that make you stay in a sector and **three** plain hunts. A mission has one to four steps, and a hunt asks for one kind of alien or for several.
 - The missions of a level pay **85% of the experience** to the next level. The aliens they have you destroy pay the rest, and at low levels quite a bit more: you usually reach the next level before a set is finished.
+- **One Asteroids mission for each level.** Besides its ten and the Special, every level has a mission that asks you to break a number of [asteroids](/wiki/03-Mechanics/Asteroid-Mining.md) of kinds that live on better maps as the levels rise (the first pays 60 Rivet I; those of levels 7 and 8 open on season day 4). A break counts when it pays you a share (at least 5% of the damage the asteroid takes), with rockets or lasers. It is not one of the ten, so the Special does not wait for it, but it takes one of your 5 mission slots. Mission Control lists it after the Special, marked **Asteroids**; the tables at the end of this page do not.
 
 ## Special missions
 
@@ -89,7 +91,7 @@ Things that stop the carry:
 - you are **outside every safe zone** (a station's or a gate's ring: time in a ring does not count);
 - your ship is **active**: it has flown 300 units or fired a shot in the last 30 seconds. A parked ship earns nothing.
 
-There are two kinds. A stay that **adds up** keeps what you have: leave, die, come back, and the minutes are still there. A stay **in one stretch** starts again from zero when you die, jump or leave the sector (time in a ring or standing still only pauses it), and a toast says so.
+There are two kinds. A stay that **adds up** keeps what you have: leave, die, come back, and the minutes are still there, unless the stay or its mission has a hull limit or a no-death rule: then losing your ship or passing the limit starts the stay again (see [Conditions](#conditions)). A stay **in one stretch** starts again from zero when you die, jump or leave the sector (time in a ring or standing still only pauses it), and a toast says so.
 
 Stays and visits do not compete: every open one counts at once, whatever else you are doing. Kills are different: a kill counts for one level mission only (see [Where it counts](#where-it-counts)).
 
@@ -137,9 +139,9 @@ Eight missions from the real list, from the first hour to the Challenge line. Th
 - **Hold the Gate** (level 2, 15 minutes, no death). Four steps open at once: reach the point 12,500 / 2,500 in `x-2`, stay 4 minutes in one stretch there, and destroy 8 Seekers and 3 Phantasm. The kills count whenever you make them while the mission runs. Die, and everything starts again, but the clock does not.
 - **Nest Raid** (level 3). Destroy 7 Phantasm in `x-3`, fly to the nest at 7,500 / 7,600, then destroy Phantasm until the third one drops the Nest Core: it is scripted, the third kill always carries it. Bring it home with a hull loss of at most 3,000 points and without losing your ship. Pays 4,500 XP and 36,000 credits.
 - **Heavy Courier** (level 4, 40 minutes). Destroy 10 Phantasm in `x-3`, reach the points 13,400 / 5,000 and 13,600 / 1,900, then take the Manifest from a Bulwark (25% a kill, sure at the 5th) and carry it to Mission Control with a hull loss of at most 17,000 points and no death. Pays 10,500 XP, 52,000 credits and 315 Thulium.
-- **Hive Breaker** (level 3 Special, from season day 4). Destroy 3 Boss Seekers and 12 Seeker Slaves, in any sector, and 6 Phantasm in `x-3`, in any order. Pays 6,800 XP, 54,500 credits, 170 Thulium, a Quantum Laser 2, 10 Ship Fragments and 200 Ultra Core.
+- **Hive Breaker** (level 3 Special, from season day 4). Destroy 3 Boss Seekers and 12 Seeker Slaves, in any sector, and 6 Phantasm in `x-3`, in any order. Pays 6,800 XP, 54,500 credits, 170 Thulium, a Quantum Laser II, 10 Ship Fragments and 200 Ultra Core.
 - **Grand Tour** (level 8, 25 minutes, no death). Fly to 8,000 / 4,500 in `x-4`, then to 6,000 / 4,500 in the centre, destroy 2 Goombahs in a rival company's `x-4` and fly to its heart at 8,000 / 4,500. The [ring gates](/wiki/01-General/Spacemap%20Travel.md#jump-links) and the centre both lead there. Pays 66,000 XP, 165,000 credits and 1,320 Thulium.
-- **Untouched** (Challenge). Destroy 25 Phantasm in `x-3` in a row while losing no more than 39,000 hull points. Go over the limit and the count goes back to 0. Pays, at base, 44,000 XP, 855,000 credits, 6,405 Thulium, 2,370 honor, an Ancient Control Unit and 5 hours of Shield Wall Booster 2.
+- **Untouched** (Challenge). Destroy 25 Phantasm in `x-3` in a row while losing no more than 39,000 hull points. Go over the limit and the count goes back to 0. Pays, at base, 44,000 XP, 855,000 credits, 6,405 Thulium, 2,370 honor, an Ancient Control Unit and 5 hours of Shield Wall Booster II.
 
 ## Station missions
 
@@ -251,7 +253,7 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 - **PvP**: other companies' pilots can attack you in `x-4` and the centre in every world, from `x-2` up in Beta, and everywhere in Gamma (except in safe zones and during the Peace Protocol). The ring gates bring other companies' pilots into your `x-3` too: in Beta and Gamma one of them can destroy you there while you carry an item.
 - **Bulwarks** (`x-3`, `x-4`) outrun a Protos and hit hard. Fight them from an [Ostirion](/wiki/02-Ships/Ostirion.md), near a gate's safe zone, and pull back into it to repair.
-- **Goombahs** (`x-3`, `x-4`) have a range of 800, hit for 3,000 and never start a fight: leave one alone and it leaves you alone, shoot it and it turns on you until 10 seconds after your last hit (and it mends when left alone). A ship whose lasers are all [Starfire-3](/wiki/06-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are (an Ostirion or above; a Goombah flies 180, a Bulwark 175) you can fire without taking a hit. Your ship's range is the average of its lasers' ranges, so a Starfire-3 beside two Quantum Laser 2 fires from 750: far enough to keep away from a Bulwark (700), not from a Goombah (800). Level 5's Special gives you one; you can also make one in Assembly, from Velkonite Reinforced Plates that the Forgery of your [Skylab](/wiki/03-Mechanics/Skylab.md) makes.
+- **Goombahs** (`x-3`, `x-4`) have a range of 800, hit for 3,000 and never start a fight: leave one alone and it leaves you alone, shoot it and it turns on you until 10 seconds after your last hit (and it mends when left alone). A ship whose lasers are all [Starfire-III](/wiki/06-Items/Lasers.md) (range 850) outranges them and Bulwarks alike: with a ship faster than they are (an Ostirion or above; a Goombah flies 180, a Bulwark 175) you can fire without taking a hit. Your ship's range is the average of its lasers' ranges, so a Starfire-III beside two Quantum Laser II fires from 750: far enough to keep away from a Bulwark (700), not from a Goombah (800). Level 5's Special gives you one; you can also make one in Assembly, from Velkonite Reinforced Plates that the Forgery of your [Skylab](/wiki/03-Mechanics/Skylab.md) makes.
 - **Crystalys** roam the border (`x-4`). Nothing in reach of level 8 outranges one, and only a fast ship outruns it: keep your distance, and watch the minimap.
 - When you are destroyed you choose where to come back: at your base, at the nearest portal or on the spot (see [Dying and Coming Back](/wiki/01-General/Getting-Started.md)). A timed mission's clock keeps running meanwhile, a carried item is lost, and a no-death rule breaks.
 
@@ -280,7 +282,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Big Game Hunter | Combat | Destroy 10 Seekers in x-1 → Bring the Trophy Tag to Mission Control (destroy 10 Seeker in x-1: the last one carries it) (hull loss at most 3,000 points) | – | 2,150 | 11,000 | 20 | 22 | Standard Battery ×1,000 |
 | Frontier Defense | Combat | Destroy 15 Seekers in x-2 → Bring the Relay Part from the point 12,500 / 4,800 in x-2 to Mission Control (hull loss at most 3,000 points) | – | 2,350 | 12,000 | 25 | 24 | Damage Amp I ×1, Scatter I ×30 |
 | The Gauntlet | Ops | Destroy 8 Seekers in x-1 → Stay 5 min in one stretch in x-2 → Destroy 8 Seekers in x-2 | 20 min | 2,300 | 11,500 | 25 | 23 | Advanced Plasma ×150 |
-| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser 1 ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
+| **Phantasm Hunter** (Special) | Ops | Destroy 2 Phantasm in x-2; Destroy 15 Seekers in x-2 | – | 3,400 | 17,000 | 35 | 34 | Quantum Laser I ×1, Engine I ×1, Advanced Plasma ×250, Lancet II ×20 |
 
 ### Level 2: First Contact
 
@@ -316,7 +318,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Long Watch | Recon | Fly to the point 8,000 / 1,800 in x-3 → Stay 10 min in x-3 → Destroy 3 Phantasm in x-3 | – | 2,300 | 18,500 | 60 | 23 | – |
 | Drifting Probe | Combat | Destroy 6 Phantasm in x-3 → Bring the Probe from the point 11,800 / 3,300 in x-3 to Mission Control (hull loss at most 3,000 points) | – | 4,000 | 32,000 | 100 | 40 | – |
 | Overwatch | Ops | Destroy 4 Phantasm in x-3 → Stay 6 min in one stretch in x-3 → Destroy 4 Phantasm in x-3 | – | 2,700 | 21,500 | 70 | 27 | – |
-| **Hive Breaker** (Special) | Ops | Destroy 3 Boss Seekers; Destroy 12 Seeker Slaves; Destroy 6 Phantasm in x-3 (from season day 4) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser 2 ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Hive Breaker** (Special) | Ops | Destroy 3 Boss Seekers; Destroy 12 Seeker Slaves; Destroy 6 Phantasm in x-3 (from season day 4) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
 
 ### Level 4: Heavy Work
 
@@ -352,7 +354,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Night Shift | Recon | Stay 15 min in x-3 (hull loss at most 40,000 points); Destroy 4 Phantasm in x-3 | – | 5,000 | 20,000 | 150 | 38 | – |
 | Shield Breakers | Combat | Destroy 5 Bulwarks in x-3 | – | 15,500 | 62,000 | 465 | 116 | – |
 | Hammer and Anvil | Ops | Destroy 6 Phantasm in x-3 → Destroy 4 Bulwarks in x-3 → Stay 6 min in one stretch in x-4 | – | 10,500 | 42,000 | 315 | 79 | – |
-| **Iron Tide** (Special) | Ops | Destroy 5 Bulwarks in x-3 → Destroy 15 Phantasm in x-3 → Patrol 6,000 units in x-4 | 35 min | 27,000 | 108,000 | 810 | 202 | Starfire-3 ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Iron Tide** (Special) | Ops | Destroy 5 Bulwarks in x-3 → Destroy 15 Phantasm in x-3 → Patrol 6,000 units in x-4 | 35 min | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
 
 ### Level 6: The Border
 
@@ -406,7 +408,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Hold the Border | Ops | Destroy 12 Bulwarks in x-4; Destroy 3 Goombahs in x-4 | 30 min | 134,000 | 335,000 | 2,680 | 670 | – |
 | Deep Cache | Recon | Destroy 3 Goombahs in x-4 → Bring the Deep Cache from the point 9,500 / 6,200 in x-4 to Mission Control (hull loss at most 46,000 points) | – | 62,000 | 155,000 | 1,240 | 310 | – |
 | Centre Hold | Ops | Destroy 8 Bulwarks in x-4 → Destroy 3 Goombahs in x-4 → Stay 8 min in one stretch in DS-x | 35 min | 94,000 | 235,000 | 1,880 | 470 | – |
-| **Frontline Command** (Special) | Ops | Destroy 10 Bulwarks in x-4 → Patrol 10,000 units in DS-x → Destroy 4 Goombahs in rival x-4 | – | 218,000 | 545,000 | 4,360 | 1,090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster 1, 10 h |
+| **Frontline Command** (Special) | Ops | Destroy 10 Bulwarks in x-4 → Patrol 10,000 units in DS-x → Destroy 4 Goombahs in rival x-4 | – | 218,000 | 545,000 | 4,360 | 1,090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster I, 10 h |
 
 ### Station missions {#station-missions-table}
 
@@ -436,11 +438,11 @@ Ten missions, in any order. The next tier opens when all ten are claimed.
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
 | Seeker Plague | Combat | Destroy 1,000 Seekers | – | 31,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster, 5 h |
-| Phantasm Tide | Combat | Destroy 1,000 Phantasm | – | 65,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster 1, 5 h |
+| Phantasm Tide | Combat | Destroy 1,000 Phantasm | – | 65,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 h |
 | Bulwark Wall | Combat | Destroy 150 Bulwarks | – | 103,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
-| Untouched | Ops | Destroy 25 Phantasm in x-3 (hull loss at most 39,000 points) | – | 44,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster 2, 5 h |
+| Untouched | Ops | Destroy 25 Phantasm in x-3 (hull loss at most 39,000 points) | – | 44,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 h |
 | Hive Cull | Combat | Destroy 40 Boss Seekers (from season day 4) | – | 11,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
-| Scout Cull | Combat | Destroy 40 Pirate Scouts (from season day 4) | – | 27,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster 2, 5 h |
+| Scout Cull | Combat | Destroy 40 Pirate Scouts (from season day 4) | – | 27,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II, 5 h |
 | Iron Vigil | Recon | Stay 45 min in one stretch in x-3 | – | 37,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
 | Gauntlet of the Centre | Recon | Fly to the point 8,000 / 4,500 in x-4 → Destroy 4 Bulwarks in x-4 → Fly to the point 6,000 / 4,500 in DS-x → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 1,500 / 1,500 in x-1 (whole mission: no death) | – | 28,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
 | Convoy | Ops | Destroy 5 Bulwarks in x-4 → Bring the Convoy Core from the point 9,500 / 6,200 in x-4 to Mission Control (hull loss at most 17,000 points) (no death) | – | 74,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
@@ -453,15 +455,15 @@ Ten missions, in any order. The next tier opens when all ten are claimed.
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
 | Seeker Blight | Combat | Destroy 2,500 Seekers | – | 52,000 | 520,000 | 3,900 | 0 | Power Core ×8, Experience Booster, 6 h |
-| Phantasm Flood | Combat | Destroy 2,500 Phantasm | – | 85,500 | 855,000 | 6,420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster 1, 6 h |
+| Phantasm Flood | Combat | Destroy 2,500 Phantasm | – | 85,500 | 855,000 | 6,420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I, 6 h |
 | Bulwark Storm | Combat | Destroy 400 Bulwarks | – | 71,500 | 1,255,000 | 9,405 | 0 | Cataclysite ×40 |
 | Goombah Hunt | Combat | Destroy 100 Goombahs | – | 58,500 | 1,135,000 | 8,495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
 | Hive Culling II | Combat | Destroy 100 Boss Seekers (from season day 4) | – | 20,000 | 200,000 | 1,485 | 0 | Power Core ×6, Resource Magnet Booster, 6 h |
-| Scout Culling II | Combat | Destroy 120 Pirate Scouts (from season day 4) | – | 25,500 | 290,000 | 2,165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster 1, 6 h |
-| Pirate Reckoning | Combat | Destroy 3 Pirate Bosses (from season day 4) | – | 11,000 | 285,000 | 2,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 6 h |
+| Scout Culling II | Combat | Destroy 120 Pirate Scouts (from season day 4) | – | 25,500 | 290,000 | 2,165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 h |
+| Pirate Reckoning | Combat | Destroy 3 Pirate Bosses (from season day 4) | – | 11,000 | 285,000 | 2,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 h |
 | Iron Vigil II | Recon | Stay 90 min in one stretch in x-4 | – | 57,500 | 575,000 | 4,320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
-| Convoy II | Ops | Destroy 8 Bulwarks in x-4 → Bring the Iron Core from the point 12,500 / 6,000 in x-4 to Mission Control (hull loss at most 17,000 points) (no death) | – | 70,500 | 735,000 | 5,520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster 2, 8 h |
-| Untouched II | Ops | Destroy 15 Bulwarks in x-4 (hull loss at most 60,000 points) | – | 19,000 | 350,000 | 2,615 | 0 | Ancient Control Unit ×1, Laser Damage Booster 2, 8 h |
+| Convoy II | Ops | Destroy 8 Bulwarks in x-4 → Bring the Iron Core from the point 12,500 / 6,000 in x-4 to Mission Control (hull loss at most 17,000 points) (no death) | – | 70,500 | 735,000 | 5,520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 h |
+| Untouched II | Ops | Destroy 15 Bulwarks in x-4 (hull loss at most 60,000 points) | – | 19,000 | 350,000 | 2,615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 h |
 
 #### Tier 3 · The Centre {#challenge-tier-3}
 
@@ -470,15 +472,15 @@ Ten missions, in any order. The next tier opens when nine are claimed: the Dorma
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
 | Goombah Scourge | Combat | Destroy 250 Goombahs | – | 134,500 | 2,380,000 | 17,855 | 0 | Cataclysite ×50, Experience Booster, 8 h |
-| Bulwark Blight | Combat | Destroy 800 Bulwarks | – | 132,000 | 2,080,000 | 15,615 | 0 | Power Core ×10, Laser Damage Booster 1, 8 h |
+| Bulwark Blight | Combat | Destroy 800 Bulwarks | – | 132,000 | 2,080,000 | 15,615 | 0 | Power Core ×10, Laser Damage Booster I, 8 h |
 | Phantasm Ocean | Combat | Destroy 5,000 Phantasm | – | 180,000 | 1,800,000 | 13,500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8 h |
 | Crystalys Trial | Combat | Destroy 10 Crystalys | – | 18,000 | 250,000 | 1,880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
-| Pirate Bane | Combat | Destroy 10 Pirate Bosses (from season day 4) | – | 29,000 | 775,000 | 5,805 | 0 | Ancient Control Unit ×1, Hull Plating Booster 1, 8 h |
-| Dormant Dawn | Combat | Destroy 3 Dormant Force (from season day 4) | – | 46,000 | 750,000 | 5,625 | 0 | Cataclysite ×40, Shield Wall Booster 1, 8 h |
+| Pirate Bane | Combat | Destroy 10 Pirate Bosses (from season day 4) | – | 29,000 | 775,000 | 5,805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
+| Dormant Dawn | Combat | Destroy 3 Dormant Force (from season day 4) | – | 46,000 | 750,000 | 5,625 | 0 | Cataclysite ×40, Shield Wall Booster I, 8 h |
 | Centre Watch | Recon | Stay 60 min in one stretch in DS-x | – | 98,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
-| Four Corners | Recon | Fly to the point 3,000 / 3,000 in DS-x → Fly to the point 29,000 / 3,000 in DS-x → Fly to the point 29,000 / 15,000 in DS-x → Fly to the point 3,000 / 15,000 in DS-x → Fly to the point 1,500 / 1,500 in x-1 (whole mission: hull loss at most 104,000 points) (whole mission: no death) | – | 98,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster 2, 10 h |
-| Convoy III | Ops | Destroy 4 Goombahs in x-4 → Bring the Centre Core from the point 13,000 / 3,000 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 119,000 | 1,260,000 | 9,460 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
-| Untouched III | Ops | Destroy 8 Goombahs in x-4 (hull loss at most 350,000 points) | – | 32,500 | 740,000 | 5,550 | 0 | Power Core ×8, Laser Damage Booster 2, 10 h |
+| Four Corners | Recon | Fly to the point 3,000 / 3,000 in DS-x → Fly to the point 29,000 / 3,000 in DS-x → Fly to the point 29,000 / 15,000 in DS-x → Fly to the point 3,000 / 15,000 in DS-x → Fly to the point 1,500 / 1,500 in x-1 (whole mission: hull loss at most 104,000 points) (whole mission: no death) | – | 98,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 h |
+| Convoy III | Ops | Destroy 4 Goombahs in x-4 → Bring the Centre Core from the point 13,000 / 3,000 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 119,000 | 1,260,000 | 9,460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Untouched III | Ops | Destroy 8 Goombahs in x-4 (hull loss at most 350,000 points) | – | 32,500 | 740,000 | 5,550 | 0 | Power Core ×8, Laser Damage Booster II, 10 h |
 
 #### Tier 4 · The Abyss {#challenge-tier-4}
 
@@ -487,14 +489,14 @@ Ten missions, in any order. The next tier opens when nine are claimed: the Dorma
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
 | Crystalys Purge | Combat | Destroy 50 Crystalys | – | 122,000 | 2,575,000 | 19,320 | 0 | Cataclysite ×60, Experience Booster, 10 h |
-| Goombah Rout | Combat | Destroy 500 Goombahs | – | 233,500 | 3,345,000 | 25,105 | 0 | Power Core ×12, Laser Damage Booster 1, 10 h |
+| Goombah Rout | Combat | Destroy 500 Goombahs | – | 233,500 | 3,345,000 | 25,105 | 0 | Power Core ×12, Laser Damage Booster I, 10 h |
 | Pirate Doom | Combat | Destroy 25 Pirate Bosses (from season day 4) | – | 99,500 | 2,445,000 | 18,325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
-| Dormant Dusk | Combat | Destroy 10 Dormant Force (from season day 4) | – | 180,500 | 2,770,000 | 20,780 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 10 h |
-| Rim Walk | Recon | Fly to the point 16,000 / 5,300 in DS-4 → Fly to the point 19,700 / 9,000 in DS-4 → Fly to the point 16,000 / 12,700 in DS-4 → Fly to the point 12,300 / 9,000 in DS-4 (whole mission: hull loss at most 76,000 points) (whole mission: no death) | – | 162,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster 2, 10 h |
+| Dormant Dusk | Combat | Destroy 10 Dormant Force (from season day 4) | – | 180,500 | 2,770,000 | 20,780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Rim Walk | Recon | Fly to the point 16,000 / 5,300 in DS-4 → Fly to the point 19,700 / 9,000 in DS-4 → Fly to the point 16,000 / 12,700 in DS-4 → Fly to the point 12,300 / 9,000 in DS-4 (whole mission: hull loss at most 76,000 points) (whole mission: no death) | – | 162,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
 | Rim Vigil | Recon | Stay 90 min in one stretch in DS-4 | – | 162,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
-| Rival Ground | Recon | Stay 120 min in one stretch in rival x-4 | – | 343,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster 1, 10 h |
-| Abyss Convoy | Ops | Destroy 6 Goombahs in x-4 → Bring the Abyss Core from the point 12,800 / 6,800 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 198,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
-| Untouched IV | Ops | Destroy 3 Crystalys in x-4 (hull loss at most 480,000 points) | – | 61,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster 2, 10 h |
+| Rival Ground | Recon | Stay 120 min in one stretch in rival x-4 | – | 343,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
+| Abyss Convoy | Ops | Destroy 6 Goombahs in x-4 → Bring the Abyss Core from the point 12,800 / 6,800 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 198,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Untouched IV | Ops | Destroy 3 Crystalys in x-4 (hull loss at most 480,000 points) | – | 61,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
 | Bulwark Sea | Combat | Destroy 2,000 Bulwarks | – | 318,500 | 4,735,000 | 35,500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10 h |
 
 #### Tier 5 · Legends {#challenge-tier-5}
@@ -504,15 +506,15 @@ Ten missions, in any order. This is the last tier.
 | Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
 | Ten Thousand Seekers | Combat | Destroy 10,000 Seekers | – | 322,500 | 5,700,000 | 42,755 | 0 | Power Core ×15, Experience Booster, 10 h |
-| Ten Thousand Phantasm | Combat | Destroy 10,000 Phantasm | – | 420,000 | 4,200,000 | 31,500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster 1, 10 h |
+| Ten Thousand Phantasm | Combat | Destroy 10,000 Phantasm | – | 420,000 | 4,200,000 | 31,500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I, 10 h |
 | Goombah Legion | Combat | Destroy 1,000 Goombahs | – | 467,500 | 6,700,000 | 50,250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10 h |
 | Crystalys Reign | Combat | Destroy 150 Crystalys | – | 365,500 | 7,725,000 | 57,925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
-| Dormant Dominion | Combat | Destroy 25 Dormant Force (from season day 4) | – | 394,000 | 6,350,000 | 47,605 | 0 | Ancient Control Unit ×1, Shield Wall Booster 1, 10 h |
-| Pirate Throne | Combat | Destroy 60 Pirate Bosses (from season day 4) | – | 191,000 | 5,325,000 | 39,925 | 0 | Ancient Control Unit ×1, Hull Plating Booster 1, 10 h |
+| Dormant Dominion | Combat | Destroy 25 Dormant Force (from season day 4) | – | 394,000 | 6,350,000 | 47,605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Pirate Throne | Combat | Destroy 60 Pirate Bosses (from season day 4) | – | 191,000 | 5,325,000 | 39,925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
 | Last Watch | Recon | Stay 180 min in one stretch in DS-x | – | 338,000 | 3,380,000 | 25,355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
-| Convoy Zero | Ops | Destroy 8 Goombahs in x-4 → Destroy 1 Crystalys in x-4 → Bring the Zero Core from the point 13,600 / 4,400 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 252,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster 2, 10 h |
-| Untouched Zero | Ops | Destroy 20 Goombahs in x-4 (hull loss at most 556,000 points) | – | 87,000 | 1,540,000 | 11,555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster 2, 10 h |
-| Warden of the Line | Ops | Destroy 400 Goombahs in x-4 → Destroy 30 Crystalys in x-4 → Stay 60 min in one stretch in x-4 → Fly to the point 8,000 / 4,500 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 1,500 / 1,500 in x-1 | – | 272,500 | 4,730,000 | 35,460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster 2, 10 h |
+| Convoy Zero | Ops | Destroy 8 Goombahs in x-4 → Destroy 1 Crystalys in x-4 → Bring the Zero Core from the point 13,600 / 4,400 in x-4 to Mission Control (hull loss at most 46,000 points) (no death) | – | 252,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Untouched Zero | Ops | Destroy 20 Goombahs in x-4 (hull loss at most 556,000 points) | – | 87,000 | 1,540,000 | 11,555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
+| Warden of the Line | Ops | Destroy 400 Goombahs in x-4 → Destroy 30 Crystalys in x-4 → Stay 60 min in one stretch in x-4 → Fly to the point 8,000 / 4,500 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 1,500 / 1,500 in x-1 | – | 272,500 | 4,730,000 | 35,460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II, 10 h |
 
 
 <!-- quests:end -->

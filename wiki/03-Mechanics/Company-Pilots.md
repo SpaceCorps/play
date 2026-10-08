@@ -8,7 +8,7 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
 ## Who They Are
 
 - **Squad**: 3 pilots per company sector in each world (Alpha, Beta and Gamma have squads of their own), each named with the company's tag and a callsign, e.g. **[M] Vesper**. Their name tags carry a small robot mark and the company's colour.
-- **Ship**: an [Ostirion](/wiki/02-Ships/Ostirion.md) with three **Quantum Laser 2**, two **Light Shield Cores**, an **Engine I** and a **Repair Drone I**:
+- **Ship**: an [Ostirion](/wiki/02-Ships/Ostirion.md) with three **Quantum Laser II**, two **Light Shield Cores**, an **Engine I** and a **Repair Drone I**:
   - 48,000 hitpoints, 22,000 shield points, speed 202
   - absorbance 45%: their shields take 45% of each hit, the hull 55%
   - 195 base damage per volley (x1 ammo), no critical chance, 700 range

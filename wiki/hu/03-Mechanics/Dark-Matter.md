@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d59c70b1467b484 -->
+<!-- wiki-i18n source: 0eda863e69efaf17 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -77,14 +77,14 @@ A wipe érintetlenül hagyja a Központodban lévő Dark Mattert.
 Minden fejlesztési lánc utolsó szintje **3 Dark Matter Plate**-et kér, Velkonite lemezt viszont nem: azokat az előtte lévő szintek kérik. 12 darab:
 
 - **Lézererősítők:** Damage Amp IV, Crit Amp IV és Penetration Amp IV, mindegyik a III. szintű erősítőből ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
-- **A Helios Beam**, egy Starfire-3-ból, a 18 Orvium Reinforced Plate-jével ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
+- **A Helios Beam**, egy Starfire-III-ból, a 18 Orvium Reinforced Plate-jével ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
 - **Pajzscellák:** Absorption Shield Cell IV és Capacity Shield Cell IV, mindegyik a III. szintű cellából ([Pajzsok](/wiki/06-Items/Shields.md#shield-cells)).
 - **A Heavy Shield Core**, egy Basic Shield Core-ból ([Pajzsok](/wiki/06-Items/Shields.md#shield-cores)).
 - **Fúvókák:** Impulse Thruster IV és Momentum Thruster IV, mindegyik a III. szintű fúvókából ([Hajtás](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Az Engine III**, egy Engine II-ből ([Hajtás](/wiki/06-Items/Propulsion.md#engines)).
 - **CPU-k:** Extra Slots CPU III, 6 Orvium Reinforced Plate-tel, és Base CPU II, 2-vel ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Ezek nem kérnek Dark Matter Plate-et:** a Quantum Laser 3 és a Starfire-3 (Velkonite lemezek), minden lánc II. és III. szintje (1 vagy 2 Velkonite lemez egy erősítőhöz, 2 vagy 4 egy cellához vagy fúvókához), a Jump CPU, az Auto-Repair CPU, az Extra Slots CPU I és II, a Base CPU I, a 16 drónformáció és a hajók. [A Kovácsműhely](/wiki/06-Items/Forge.md) megtartja a 2 plate-et a két legfelső lépésén egyaránt.
+**Ezek nem kérnek Dark Matter Plate-et:** a Quantum Laser III és a Starfire-III (Velkonite lemezek), minden lánc II. és III. szintje (1 vagy 2 Velkonite lemez egy erősítőhöz, 2 vagy 4 egy cellához vagy fúvókához), a Jump CPU, az Auto-Repair CPU, az Extra Slots CPU I és II, a Base CPU I, a 16 drónformáció és a hajók. [A Kovácsműhely](/wiki/06-Items/Forge.md) megtartja a 2 plate-et a két legfelső lépésén egyaránt.
 
 Egy plate-et 5 Dark Matterből, egy Velkonite és egy Orvium Reinforced Plate-ből és 250 Thuliumból préselnek, így egy darab 3 plate-jéhez még 3 Velkonite lemez, 3 Orvium lemez és 750 Thulium is kell. Mit tartalmaz egy teljes felépítés, ha mindenhol az utolsó szint van:
 

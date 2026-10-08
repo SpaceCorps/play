@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -9,8 +9,8 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
-- Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 20 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 80 föremål kan läggas ut, och 42 av dem kan även prissättas i Thulium.
+- Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
+- 80 föremål kan läggas ut, och 79 av dem kan även prissättas i Thulium.
 - En annons löper 24 / 72 / 168 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 1 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 1,5 %.
@@ -31,7 +31,7 @@ Etiketten är ett antal enheter, inte en strömbrytare: en ammunitionshög kan i
 
 Knappen **Endast säljbart** i Hangaren visar bara det du kan sälja, och **klubban** bredvid papperskorgen på ett märkt föremål öppnar Auktionens säljblad för det. I Monteringen säger ett recept vars resultat är säljbart det, och ett material du saknar har en länk som öppnar Auktionen med dess namn i sökrutan.
 
-När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butiken inte säljer, och resurserna, en gång. Dessa märktes inte, eftersom Butiken en gång sålde dem eller eftersom det du har blandar köpta och förtjänade delar: Quantum Laser 3, Absorption Shield Cell II och III, Impulse Thruster II och III, de två Reinforced Plates och varje pilots äldsta Base CPU I (startpaketets). Nya av dem som du förtjänar eller tillverkar märks.
+När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butiken inte säljer, och resurserna, en gång. Dessa märktes inte, eftersom Butiken en gång sålde dem eller eftersom det du har blandar köpta och förtjänade delar: Quantum Laser III, Absorption Shield Cell II och III, Impulse Thruster II och III, de två Reinforced Plates och varje pilots äldsta Base CPU I (startpaketets). Nya av dem som du förtjänar eller tillverkar märks.
 
 ## Vad som kan säljas {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 
 | Typ | Föremål du kan sälja | Antal |
 | :--- | :--- | ---: |
-| **Lasrar** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Lasrar** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Laserförstärkare** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Sköldar** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Motorer** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: 
 
 | Föremål | Säljs i partier om | Lägsta pris, krediter | Lägsta pris, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32 000 | 32 |
-| Quantum Laser 3 | 1 | 170 000 | 170 |
+| Quantum Laser II | 1 | 32 000 | 32 |
+| Quantum Laser III | 1 | 170 000 | 170 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
 | Impulse Thruster IV | 1 | 980 000 | 980 |
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
-| Ultra Core | 10 | 800 | Bara krediter |
-| Lancet I | 1 | 200 | Bara krediter |
-| Ship Fragment | 100 | 600 | Bara krediter |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33 000 | 33 |
 
 <!-- market-bands:end -->
 
-Ett pris i Thulium följer en enda regel: det lägsta priset i krediter delat med kursen, avrundat uppåt. Kursen är inget värde som spelet sätter på Thulium. Den bestämmer bara hur det lägsta priset i Thulium räknas ut, och därför kan en annons i Thulium vara billig för en pilot som har Thulium. De flesta säljare kommer att begära krediter. Billiga föremål (ammunition, raketer, första graden av det mesta av utrustningen och de vanliga resurserna) prissätts bara i krediter, eftersom ett helt Thulium vore ett för stort steg.
+Ett pris i Thulium följer en enda regel: det lägsta priset i krediter delat med kursen, avrundat uppåt. Kursen är inget värde som spelet sätter på Thulium. Den bestämmer bara hur det lägsta priset i Thulium räknas ut, och därför kan en annons i Thulium vara billig för en pilot som har Thulium. De flesta säljare kommer att begära krediter. Alla föremål utom **Quorvium** kan prissättas i Thulium, även de billiga (ammunition, raketer, de vanliga resurserna): deras lägsta pris är då 1 Thulium, det minsta steget. Bara Quorvium prissätts enbart i krediter, eftersom 1 Thulium vore mer än ett parti av det är värt.
 
 Dina **öppna annonser** (och en annons som en admin har pausat) tar upp platser. När du går upp i nivå får du fler platser, upp till ett tak, och du kan sälja och köpa mer per dygn. Hur länge en annons får löpa är detsamma på alla nivåer.
 
@@ -119,8 +119,8 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 
 | Annons | Pris | Deposition | Skatt | Säljaren får |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: nivå 6, 24 h | 170 000 krediter | 1 700 krediter | 8 500 krediter | 161 500 krediter |
-| Quantum Laser 3: nivå 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: nivå 6, 24 h | 170 000 krediter | 1 700 krediter | 8 500 krediter | 161 500 krediter |
+| Quantum Laser III: nivå 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: nivå 12, 168 h | 2 500 000 krediter | 262 500 krediter | 125 000 krediter | 2 375 000 krediter |
 | Helios Beam: nivå 12, 168 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
 
@@ -205,7 +205,7 @@ Auktionen finns för att handla med det du förtjänar, och den är ärlig om si
 
 - **Att sälja byte är ingen grind.** Rått byte från utomjordingar är bara resurser och är värt 0,4 till 0,9 procent av vad samma jakttimme på nivå 5 betalar i dödade fiender. Det Marknaden ger en ny pilot är utrustningen som hans uppdrag betalar ut och som han inte behöver (en gång), resurserna från Utmaningsuppdragen, svärmbossarnas lådor och det han tillverkar.
 - **Det finns ingen mellanhand.** Köporder, där en pilot säger vad han vill köpa och för hur mycket, finns inte i den här versionen. Tills de gör det är de enda handlarna hantverkaren, som köper material, tillverkar utrustning i Monteringen och säljer den, och lagerpiloten, som håller lager i Transportförrådet genom wipen.
-- **Butikens utrustning är inte till för vidareförsäljning.** Utrustning du köpte i Butiken kan inte säljas igen: hit hör Quantum Laser 1 och 2, Light och Basic Shield Core, Engine I och II, första graden av celler och styrraketer, de amps som Butiken säljer och köpt ammunition. Den enda säljbara Quantum Laser 2 en pilot har är den som ett uppdrag betalar ut en gång.
+- **Butikens utrustning är inte till för vidareförsäljning.** Utrustning du köpte i Butiken kan inte säljas igen: hit hör Quantum Laser I och II, Light och Basic Shield Core, Engine I och II, första graden av celler och styrraketer, de amps som Butiken säljer och köpt ammunition. Den enda säljbara Quantum Laser II en pilot har är den som ett uppdrag betalar ut en gång.
 - **Plattor kommer från uppdrag.** Velkonite och Orvium Reinforced Plates på Marknaden är de som Utmaningsuppdragen betalar ut. Smedjans plattor står utanför, annars skulle de bli den största varan på Marknaden.
 
 Om en annons ser fel ut, anmäl den på vanligt sätt: spelets administratörer kan pausa en annons, återlämna den, pausa Auktionen eller stänga av en pilot från den, och varje sådan åtgärd registreras.

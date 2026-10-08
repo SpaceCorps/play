@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
@@ -79,7 +79,7 @@ Cuanto más cara es la gama, más fuerte golpea un cohete, más lejos llega, má
 
 ## Lo que cuestan {#what-they-cost}
 
-Un cohete común cuesta 500 créditos, uno raro 800 créditos y uno épico 5 Thulium, en todos los tipos. Disparados en cada temporizador, son 10.000 créditos por minuto con un cohete común, 16.000 con uno raro y 100 Thulium con uno épico, frente a los 1.800 créditos por minuto que gastan los tres láseres de una Ostirion con munición x1. Una reserva llena son 5.000 cohetes comunes (2.500.000 créditos), 2.000 raros (1.600.000 créditos) o 500 épicos (2.500 Thulium): puedes comprar tantos como quieras hasta ese límite, y el *máximo que puedes llevar* de un cohete es el único límite de cuántos tienes. Los cohetes no pesan nada: no ocupan sitio en el Alijo de Transporte. Un cohete cada 3 segundos son solo veinte por minuto, así que un cohete es la ráfaga que se suma a tus láseres: los baratos para los alienígenas débiles, los caros para los grandes combates. Lo que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#limits) y los lotes en los que vas en cabeza cuentan para ese límite cuando compras un cohete o pujas por él.
+Un cohete común cuesta 500 créditos, uno raro 800 créditos y uno épico 5 Thulium, en todos los tipos. Disparados en cada temporizador, son 10.000 créditos por minuto con un cohete común, 16.000 con uno raro y 100 Thulium con uno épico, frente a los 900 créditos por minuto que gastan los tres láseres de una Ostirion con munición x1. Una reserva llena son 5.000 cohetes comunes (2.500.000 créditos), 2.000 raros (1.600.000 créditos) o 500 épicos (2.500 Thulium): puedes comprar tantos como quieras hasta ese límite, y el *máximo que puedes llevar* de un cohete es el único límite de cuántos tienes. Los cohetes no pesan nada: no ocupan sitio en el Alijo de Transporte. Un cohete cada 3 segundos son solo veinte por minuto, así que un cohete es la ráfaga que se suma a tus láseres: los baratos para los alienígenas débiles, los caros para los grandes combates. Lo que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#limits) y los lotes en los que vas en cabeza cuentan para ese límite cuando compras un cohete o pujas por él.
 
 La tienda lista los cohetes un tipo tras otro, cada uno bajo su nombre, con el cohete común primero y el épico al final; el hangar, el Alijo de Transporte y el selector de Cohetes usan el mismo orden.
 

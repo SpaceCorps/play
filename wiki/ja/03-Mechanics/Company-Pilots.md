@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b4f15f0383031b07 -->
+<!-- wiki-i18n source: d5060b7c32b5d83e -->
 <!-- wiki-i18n title: 企業パイロット -->
 # 企業パイロット {#company-pilots}
 
@@ -10,7 +10,7 @@
 ## 彼らについて {#who-they-are}
 
 - **小隊**：各ワールドで、企業のセクター1つにつき3人です（Alpha、Beta、Gamma にはそれぞれ専用の小隊がいます）。名前は、企業のタグとコールサインで、たとえば **[M] Vesper** のようになります。名前タグには、小さなロボットのマークと企業の色が付いています。
-- **艦**：[Ostirion](/wiki/02-Ships/Ostirion.md) に、**Quantum Laser 2** を3基、**Light Shield Core** を2個、**Engine I** を1基、**Repair Drone I** を1つ載せています。
+- **艦**：[Ostirion](/wiki/02-Ships/Ostirion.md) に、**Quantum Laser II** を3基、**Light Shield Core** を2個、**Engine I** を1基、**Repair Drone I** を1つ載せています。
   - HP 48,000、シールドポイント 22,000、速度 202
   - 吸収率45%：シールドが各攻撃の45%を受け、船体が55%を受けます
   - 斉射ごとの基本ダメージ195（x1 弾薬）、クリティカル率なし、射程700

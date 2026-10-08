@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
@@ -9,8 +9,8 @@
 
 - 要使用拍卖行（挂单、购买和出价），需要 **5 级**。
 - 挂单按每组定价，用整数信用点或整数 Thulium（二选一），且不能低于该物品的最低价。**没有最高价。**
-- Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 20 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
-- 共有 80 种物品可以挂单，其中 42 种还可以用 Thulium 定价。
+- Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 1 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
+- 共有 80 种物品可以挂单，其中 79 种还可以用 Thulium 定价。
 - 挂单时长可在 24 / 72 / 168 小时中选择，每个等级的可选时长都一样。
 - **押金**是价格的 1%，按挂单每 24 小时计，最低 50 信用点 或 1 Thulium。挂单时支付，永远不退还，取消挂单也不退。
 - 从 10 级起，押金为 1.5%。
@@ -31,7 +31,7 @@
 
 机库里的**仅可交易**按钮只显示你能卖的东西，带标记物品的垃圾桶旁的**拍卖槌**会为它打开拍卖行的出售窗口。在装配站里，结果可交易的配方会这样标明，缺少的材料旁有一个链接，会用它的名字打开拍卖行的搜索。
 
-拍卖行上线时（0.4.12），你已有的商店不卖的装备以及资源，被一次性加上了标记。下面这些没有加标记，因为商店曾经卖过它们，或者因为你持有的东西里买来的和赚来的混在一起：Quantum Laser 3、Absorption Shield Cell II 和 III、Impulse Thruster II 和 III、两种 Reinforced Plate，以及每位飞行员最旧的 Base CPU I（新手套装里的那个）。你之后新赚到或制作的这些物品是带标记的。
+拍卖行上线时（0.4.12），你已有的商店不卖的装备以及资源，被一次性加上了标记。下面这些没有加标记，因为商店曾经卖过它们，或者因为你持有的东西里买来的和赚来的混在一起：Quantum Laser III、Absorption Shield Cell II 和 III、Impulse Thruster II 和 III、两种 Reinforced Plate，以及每位飞行员最旧的 Base CPU I（新手套装里的那个）。你之后新赚到或制作的这些物品是带标记的。
 
 ## 可以出售什么 {#what-can-be-sold}
 
@@ -40,7 +40,7 @@
 
 | 类型 | 可出售的物品 | 数量 |
 | :--- | :--- | ---: |
-| **激光** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **激光** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **激光增幅器** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **护盾核心** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **引擎** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@
 
 | 物品 | 每组数量 | 最低价，信用点 | 最低价，Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32,000 | 32 |
-| Quantum Laser 3 | 1 | 170,000 | 170 |
+| Quantum Laser II | 1 | 32,000 | 32 |
+| Quantum Laser III | 1 | 170,000 | 170 |
 | Helios Beam | 1 | 1,600,000 | 1,600 |
 | Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
 | Heavy Shield Core | 1 | 870,000 | 870 |
 | Impulse Thruster IV | 1 | 980,000 | 980 |
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
-| Ultra Core | 10 | 800 | 仅限信用点 |
-| Lancet I | 1 | 200 | 仅限信用点 |
-| Ship Fragment | 100 | 600 | 仅限信用点 |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33,000 | 33 |
 
 <!-- market-bands:end -->
 
-Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整。汇率不是游戏给 Thulium 定的价值，它只是用来算出 Thulium 最低价的办法，所以对持有 Thulium 的飞行员来说，Thulium 挂单可能很便宜。大多数卖家会要信用点。便宜的物品（弹药、火箭、大多数装备的第一阶，以及普通资源）只用信用点定价，因为一整个 Thulium 的步长太大了。
+Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整。汇率不是游戏给 Thulium 定的价值，它只是用来算出 Thulium 最低价的办法，所以对持有 Thulium 的飞行员来说，Thulium 挂单可能很便宜。大多数卖家会要信用点。除 **Quorvium** 外，每一种物品都可以用 Thulium 定价，便宜的也可以（弹药、火箭、普通资源）：它们的最低价就是 1 Thulium，也就是最小的一步。只有 Quorvium 仅限信用点定价，因为 1 Thulium 比一组 Quorvium 还要值钱。
 
 你的**开放挂单**（以及被管理员搁置的挂单）会占用挂单位。等级提高后，挂单位会增加，直到上限，每天可以卖和买的也更多。挂单能持续多久，在每个等级都一样。
 
@@ -119,8 +119,8 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 | 挂单 | 价格 | 押金 | 税 | 卖家所得 |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3：6 级，24 小时 | 170,000 信用点 | 1,700 信用点 | 8,500 信用点 | 161,500 信用点 |
-| Quantum Laser 3：10 级，72 小时 | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III：6 级，24 小时 | 170,000 信用点 | 1,700 信用点 | 8,500 信用点 | 161,500 信用点 |
+| Quantum Laser III：10 级，72 小时 | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam：12 级，168 小时 | 2,500,000 信用点 | 262,500 信用点 | 125,000 信用点 | 2,375,000 信用点 |
 | Helios Beam：12 级，168 小时，赛季最后几天 | 2,500,000 信用点 | 0 信用点 | 0 信用点 | 2,500,000 信用点 |
 
@@ -205,7 +205,7 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 - **卖掉落物不是刷钱的办法。**外星人的原始掉落只有资源，价值只有同一个 5 级狩猎小时击杀所得的 0.4% 到 0.9%。市场给新飞行员的，是他的任务发放而他又用不上的装备（只有一次）、挑战任务的资源、虫群首领的箱子，以及他自己制作的东西。
 - **没有经销商。**飞行员写明想买什么、出多少钱的求购单，这个版本里没有。在有之前，仅有的商人是手工匠（买材料，在装配站制作装备再卖掉）和仓库飞行员（把库存放在运输储藏库里度过重置）。
-- **商店的装备不是用来转卖的。**你在商店买的装备不能再次出售：这包括 Quantum Laser 1 和 2、Light 和 Basic Shield Core、Engine I 和 II、电池和推进器的第一阶、商店出售的增幅器，以及买来的弹药。一位飞行员手里唯一可交易的 Quantum Laser 2，就是任务发放一次的那一个。
+- **商店的装备不是用来转卖的。**你在商店买的装备不能再次出售：这包括 Quantum Laser I 和 II、Light 和 Basic Shield Core、Engine I 和 II、电池和推进器的第一阶、商店出售的增幅器，以及买来的弹药。一位飞行员手里唯一可交易的 Quantum Laser II，就是任务发放一次的那一个。
 - **板材来自任务。**市场上的 Velkonite 和 Orvium Reinforced Plate 是挑战任务发放的那些。锻造厂的板材不在其中，否则它们会成为市场上最大的商品。
 
 如果某个挂单看起来不对，请按通常的方式举报：游戏管理员可以搁置挂单、退回挂单、暂停拍卖行，或禁止某位飞行员使用它，每一次这样的操作都会被记录。

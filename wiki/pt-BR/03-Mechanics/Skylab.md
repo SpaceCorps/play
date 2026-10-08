@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Quatro módulos transformam o tempo longe do teclado nas placas para os seus mel
 1. Um **coletor** extrai minério, uma quantidade por hora, para o seu próprio armazenamento (o equivalente a 72 horas).
 2. **Coletar** move o minério do armazenamento para o **Depósito de recursos**, onde cada minério fica guardado à parte.
 3. A **Forja** pega no depósito o minério de que precisa quando um lote começa e faz placas, 10 segundos por placa, um lote de cada vez.
-4. **Coletar placas** move as placas prontas para o seu inventário (a sua nave precisa estar pousada). A [Montagem](/wiki/06-Items/Lasers.md) as transforma em um Quantum Laser 3, um Starfire-3 ou um Helios Beam e, uma de cada com 5 Dark Matter, em uma Dark Matter Plate, que a [Forja](/wiki/06-Items/Forge.md) e o último nível de cada cadeia de melhoria pedem.
+4. **Coletar placas** move as placas prontas para o seu inventário (a sua nave precisa estar pousada). A [Montagem](/wiki/06-Items/Lasers.md) as transforma em um Quantum Laser III, um Starfire-III ou um Helios Beam e, uma de cada com 5 Dark Matter, em uma Dark Matter Plate, que a [Forja](/wiki/06-Items/Forge.md) e o último nível de cada cadeia de melhoria pedem.
 
 ### Coletor de Velkonite e Coletor de Orvium {#velkonite-collector-and-orvium-collector}
 

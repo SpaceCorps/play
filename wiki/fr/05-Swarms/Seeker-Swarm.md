@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Essaim Seeker -->
 # Essaim Seeker {#seeker-swarm}
 
@@ -30,8 +30,8 @@ L’essaim Seeker est le plus petit des [essaims](/wiki/05-Swarms/Swarms.md) : 
 ## Le déroulement du combat {#how-the-fight-goes}
 
 - **Laissez-le tranquille tant que votre vaisseau ne peut pas l’affronter.** Un Boss Seeker frappe plus fort que ce que supporte le premier vaisseau d’un pilote : le Protos d’un nouveau pilote, encore sans bouclier, est détruit en quelques secondes dès que le boss et ses Slaves sont sur lui.
-- **Restez hors de portée.** Le boss et ses Slaves sont plus lents qu’un Protos, et leurs armes portent moins loin qu’un Quantum Laser 2 (voir [Lasers et munitions](/wiki/06-Items/Lasers.md)) : un pilote qui a de tels lasers et reste au-delà de leur portée ne subit aucun dégât pendant qu’ils tirent. Un pilote avec des Quantum Laser 1 ne peut pas rester hors de portée.
-- **Les Slaves soignent plus vite qu’un pilote débutant seul ne frappe.** Ensemble, ils soignent plus que ce qu’infligent les lasers d’un pilote avec des munitions x1 ; amenez donc un partenaire et des munitions x2. Deux pilotes avec des Quantum Laser 2 qui gardent leurs distances abattent le boss en environ une minute dans Alpha, et bien plus vite avec des munitions x2.
+- **Restez hors de portée.** Le boss et ses Slaves sont plus lents qu’un Protos, et leurs armes portent moins loin qu’un Quantum Laser II (voir [Lasers et munitions](/wiki/06-Items/Lasers.md)) : un pilote qui a de tels lasers et reste au-delà de leur portée ne subit aucun dégât pendant qu’ils tirent. Un pilote avec des Quantum Laser I ne peut pas rester hors de portée.
+- **Les Slaves soignent plus vite qu’un pilote débutant seul ne frappe.** Ensemble, ils soignent plus que ce qu’infligent les lasers d’un pilote avec des munitions x1 ; amenez donc un partenaire et des munitions x2. Deux pilotes avec des Quantum Laser II qui gardent leurs distances abattent le boss en environ une minute dans Alpha, et bien plus vite avec des munitions x2.
 - **Le boss revient** après le délai de la liste *D’un coup d’œil*, en pleine force, dans le même secteur, et ses Slaves arrivent l’un après l’autre.
 
 ## Récompenses et butin {#rewards-and-drops}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecánicas de los escudos {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 
 Cada aumento de escudo sube una de las tres estadísticas y aparece en su propia categoría en la ventana Potenciadores:
 
-- **Capacidad** (puntos de escudo máximos): los potenciadores Shield Wall Booster 1 y 2 y la mejora permanente Shield Capacity Boost.
+- **Capacidad** (puntos de escudo máximos): los potenciadores Shield Wall Booster I y II y la mejora permanente Shield Capacity Boost.
 - **Absorción** (la parte de un impacto que se llevan tus escudos): la mejora permanente Shield Absorbance Boost (+0,1 puntos por nivel, como mucho +10 puntos).
 - **Recarga** (puntos de escudo restaurados por segundo): el Shield Regen Booster.
 

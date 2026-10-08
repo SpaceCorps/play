@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 48656849587d467a -->
+<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Les dégâts de base de tous les lasers équipés (y compris les lasers des dron
 Chaque salve a une chance d’être un coup critique.
 - **Taux critique** : le taux critique moyen des lasers équipés, plus la somme des taux critiques de tous les amplis laser équipés.
 - **Multiplicateur critique** : si un tir est critique, le tirage de dégâts est multiplié par **1,5**. Le nombre de dégâts d’une salve critique s’affiche en cyan glacé, plus grand, avec un « ! » (voir [Nombres de dégâts et de soins](#damage-and-heal-numbers)).
-- Les Quantum Laser 1 et 2 n’ont pas de taux critique propre : ce sont leurs amplis qui le leur donnent.
+- Les Quantum Laser I et II n’ont pas de taux critique propre : ce sont leurs amplis qui le leur donnent.
 - **Dégâts critiques fixes** : les dégâts critiques fixes des amplis laser s’ajoutent après le multiplicateur.
   - Formule : `CritDamage = (Roll * 1.5) + FixedCritDamage`
 
@@ -44,7 +44,7 @@ Un vaisseau ou un alien qui a verrouillé sa cible et tire se tourne vers elle, 
 
 ### 5. Portée {#5-range}
 
-Un vaisseau tire une salve par seconde tant que sa cible est dans sa **portée**, et suspend le tir tant que la cible est plus loin : le tir cesse de consommer des munitions jusqu’à ce que la cible soit de nouveau assez proche, et le panneau de la cible indique « Hors de portée ». La portée est **la moyenne des portées de tous vos lasers** (ceux de vos drones compris), arrondie à l’unité la plus proche, et c’est un seul nombre pour tout le vaisseau : en deçà, tous les lasers tirent ; au-delà, aucun. Un laser à longue portée à côté de lasers plus courts n’allonge donc pas votre portée : un Starfire-3 (850) et deux Quantum Laser 2 (700) donnent 750. Un bonus de portée de la Forge compte sur son propre laser, avant la moyenne. Un vaisseau sans laser ne peut pas tirer au laser, et le hangar n’affiche aucune portée pour lui (un tiret) ; ses roquettes tirent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Voir [Lasers et munitions](/wiki/06-Items/Lasers.md) pour la portée propre de chaque laser.
+Un vaisseau tire une salve par seconde tant que sa cible est dans sa **portée**, et suspend le tir tant que la cible est plus loin : le tir cesse de consommer des munitions jusqu’à ce que la cible soit de nouveau assez proche, et le panneau de la cible indique « Hors de portée ». La portée est **la moyenne des portées de tous vos lasers** (ceux de vos drones compris), arrondie à l’unité la plus proche, et c’est un seul nombre pour tout le vaisseau : en deçà, tous les lasers tirent ; au-delà, aucun. Un laser à longue portée à côté de lasers plus courts n’allonge donc pas votre portée : un Starfire-III (850) et deux Quantum Laser II (700) donnent 750. Un bonus de portée de la Forge compte sur son propre laser, avant la moyenne. Un vaisseau sans laser ne peut pas tirer au laser, et le hangar n’affiche aucune portée pour lui (un tiret) ; ses roquettes tirent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Voir [Lasers et munitions](/wiki/06-Items/Lasers.md) pour la portée propre de chaque laser.
 
 ## Nombres de dégâts et de soins {#damage-and-heal-numbers}
 
@@ -91,7 +91,7 @@ Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) passent aprè
 
 ## Les aliens se désintéressent {#aliens-lose-interest}
 
-Aucun alien ne vous suit à travers toute la carte. Mais un alien que vous **touchez** ne se désintéresse pas de vous, il vous combat : pendant **10 secondes** après votre dernier coup (chaque coup relance les 10 secondes, qu’il s’agisse d’une salve de laser, d’une roquette ou du bord d’une explosion), il fonce sur vous, à sa propre vitesse, chaque fois que vous êtes au-delà de sa portée d’attaque (Seeker 600, Phantasm et Bulwark 700, Goombah 800, Crystalys 900), et continue d’approcher et de tirer jusqu’à ce que vous soyez à portée. Tant que vous continuez à le toucher, la distance sur laquelle il vous suit n’a pas de limite. Un laser qui porte plus loin que l’arme de l’alien (un Starfire-3 porte à 850 unités, un Helios Beam à 900) ne vous permet pas de le toucher depuis un endroit où il ne peut pas répondre, et un vaisseau plus rapide ne le garde derrière vous que tant que vous continuez à tirer. Il vous lâche quand même aussitôt si vous atteignez une zone sûre, si vous vous occultez ou si vous quittez la carte.
+Aucun alien ne vous suit à travers toute la carte. Mais un alien que vous **touchez** ne se désintéresse pas de vous, il vous combat : pendant **10 secondes** après votre dernier coup (chaque coup relance les 10 secondes, qu’il s’agisse d’une salve de laser, d’une roquette ou du bord d’une explosion), il fonce sur vous, à sa propre vitesse, chaque fois que vous êtes au-delà de sa portée d’attaque (Seeker 600, Phantasm et Bulwark 700, Goombah 800, Crystalys 900), et continue d’approcher et de tirer jusqu’à ce que vous soyez à portée. Tant que vous continuez à le toucher, la distance sur laquelle il vous suit n’a pas de limite. Un laser qui porte plus loin que l’arme de l’alien (un Starfire-III porte à 850 unités, un Helios Beam à 900) ne vous permet pas de le toucher depuis un endroit où il ne peut pas répondre, et un vaisseau plus rapide ne le garde derrière vous que tant que vous continuez à tirer. Il vous lâche quand même aussitôt si vous atteignez une zone sûre, si vous vous occultez ou si vous quittez la carte.
 
 Quand plusieurs pilotes touchent le même alien, il s’en tient au premier qui lui a tiré dessus (voir [Contre qui un alien se bat](#who-an-alien-fights)) : il fonce sur ce pilote et tire, si bien qu’un groupe posté autour de lui juste hors de sa portée ne peut pas le faire courir de l’un à l’autre sans qu’il riposte jamais.
 

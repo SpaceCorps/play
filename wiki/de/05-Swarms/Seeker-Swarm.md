@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Seeker-Schwarm -->
 # Seeker-Schwarm {#seeker-swarm}
 
@@ -30,8 +30,8 @@ Der Seeker-Schwarm ist der kleinste der [Schwärme](/wiki/05-Swarms/Swarms.md): 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
 - **Lass ihn in Ruhe, bis dein Schiff ihm gewachsen ist.** Ein Boss Seeker teilt härter aus, als das erste Schiff eines Piloten aushält: Die Protos eines neuen Piloten, noch ohne Schild, ist in Sekunden zerstört, sobald der Boss und seine Slaves auf ihr sind.
-- **Bleib außer Reichweite.** Der Boss und seine Slaves sind langsamer als eine Protos, und ihre Waffen reichen weniger weit als ein Quantum Laser 2 (siehe [Laser & Munition](/wiki/06-Items/Lasers.md)): Ein Pilot mit solchen Lasern, der außerhalb ihrer Reichweite bleibt, erleidet keinen Schaden, während sie feuern. Ein Pilot mit Quantum Laser 1 kann nicht außer Reichweite bleiben.
-- **Die Slaves heilen schneller, als ein einzelner neuer Pilot trifft.** Zusammen heilen sie mehr, als die Laser eines Piloten mit x1-Munition austeilen, also nimm einen Partner und x2-Munition mit. Zwei Piloten mit Quantum Laser 2, die Abstand halten, erledigen den Boss in Alpha in etwa einer Minute, mit x2-Munition viel schneller.
+- **Bleib außer Reichweite.** Der Boss und seine Slaves sind langsamer als eine Protos, und ihre Waffen reichen weniger weit als ein Quantum Laser II (siehe [Laser & Munition](/wiki/06-Items/Lasers.md)): Ein Pilot mit solchen Lasern, der außerhalb ihrer Reichweite bleibt, erleidet keinen Schaden, während sie feuern. Ein Pilot mit Quantum Laser I kann nicht außer Reichweite bleiben.
+- **Die Slaves heilen schneller, als ein einzelner neuer Pilot trifft.** Zusammen heilen sie mehr, als die Laser eines Piloten mit x1-Munition austeilen, also nimm einen Partner und x2-Munition mit. Zwei Piloten mit Quantum Laser II, die Abstand halten, erledigen den Boss in Alpha in etwa einer Minute, mit x2-Munition viel schneller.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, mit voller Stärke, im selben Sektor, und seine Slaves kommen nacheinander.
 
 ## Belohnungen und Beute {#rewards-and-drops}

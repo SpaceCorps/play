@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 630505c843ae163b -->
+<!-- wiki-i18n source: bf2f009d73842c4b -->
 <!-- wiki-i18n title: Booster -->
 # Booster {#boosters}
 
@@ -16,19 +16,19 @@ Was die Montage herstellt, braucht zuerst seine Technologie; zeige auf einen Geg
 ```tree
 Experience Booster | booster, common | buy 8000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Honor Booster | booster, common | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 2 | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 2 | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster II | booster, rare | craft 20000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 10800 s, 10800 science | 5 Ship Fragment | /wiki/06-Items/Boosters.md#active-boosters
 Shield Regen Booster | booster, rare | buy 10000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Shield Wall Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Hull Plating Booster 1 | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Shield Wall Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Hull Plating Booster I | booster, rare | buy 15000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Resource Magnet Booster | booster, rare | buy 18000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
-Laser Damage Booster 1 | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
+Laser Damage Booster I | booster, rare | buy 20000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 Loot Luck Booster | booster, legendary | buy 30000 Thulium | /wiki/06-Items/Boosters.md#active-boosters
 
-Shield Wall Booster 1 -> Shield Wall Booster 2
-Hull Plating Booster 1 -> Hull Plating Booster 2
-Laser Damage Booster 1 -> Laser Damage Booster 2
+Shield Wall Booster I -> Shield Wall Booster II
+Hull Plating Booster I -> Hull Plating Booster II
+Laser Damage Booster I -> Laser Damage Booster II
 ```
 <!-- item-tree:end -->
 
@@ -43,16 +43,16 @@ Booster skalieren additiv:
 
 ## Aktive Booster {#active-boosters}
 
-Jeder Booster hat eine Grundlaufzeit von **10 Stunden** und wird sofort beim Kauf, Erhalt oder Abholen aktiv. Die drei **Booster der zweiten Stufe** (Laser Damage Booster 2, Shield Wall Booster 2 und Hull Plating Booster 2) werden nicht verkauft: Du erforschst ihre Technologie im Skylab ([Forschung](/wiki/03-Mechanics/Research.md)) und stellst sie dann in der Montage her, und wer einen abholt, startet seine 10 Stunden sofort, wie beim Kauf.
+Jeder Booster hat eine Grundlaufzeit von **10 Stunden** und wird sofort beim Kauf, Erhalt oder Abholen aktiv. Die drei **Booster der zweiten Stufe** (Laser Damage Booster II, Shield Wall Booster II und Hull Plating Booster II) werden nicht verkauft: Du erforschst ihre Technologie im Skylab ([Forschung](/wiki/03-Mechanics/Research.md)) und stellst sie dann in der Montage her, und wer einen abholt, startet seine 10 Stunden sofort, wie beim Kauf.
 
 | Name | Seltenheit | Grundeffekt (10 Stunden) | Preis (Thulium) |
 | :--- | :--- | :--- | :--- |
-| **Laser Damage Booster 1** | Selten | +10 % Laserschaden | 20.000 |
-| **Laser Damage Booster 2** | Selten | +10 % Laserschaden | Montage: 20.000 |
-| **Shield Wall Booster 1** | Selten | +25 % Schildkapazität (maximale Schildpunkte) | 15.000 |
-| **Shield Wall Booster 2** | Selten | +25 % Schildkapazität (maximale Schildpunkte) | Montage: 15.000 |
-| **Hull Plating Booster 1** | Selten | +10 % max. Trefferpunkte | 15.000 |
-| **Hull Plating Booster 2** | Selten | +10 % max. Trefferpunkte | Montage: 15.000 |
+| **Laser Damage Booster I** | Selten | +10 % Laserschaden | 20.000 |
+| **Laser Damage Booster II** | Selten | +10 % Laserschaden | Montage: 20.000 |
+| **Shield Wall Booster I** | Selten | +25 % Schildkapazität (maximale Schildpunkte) | 15.000 |
+| **Shield Wall Booster II** | Selten | +25 % Schildkapazität (maximale Schildpunkte) | Montage: 15.000 |
+| **Hull Plating Booster I** | Selten | +10 % max. Trefferpunkte | 15.000 |
+| **Hull Plating Booster II** | Selten | +10 % max. Trefferpunkte | Montage: 15.000 |
 | **Shield Regen Booster** | Selten | +25 % Aufladerate der Schilde (pro Sekunde wiederhergestellte Schildpunkte) | 10.000 |
 | **Experience Booster** | Gewöhnlich | +20 % EP-Gewinn | 8.000 |
 | **Honor Booster** | Gewöhnlich | +20 % Gewinn an Ehrenpunkten | 10.000 |
@@ -60,7 +60,7 @@ Jeder Booster hat eine Grundlaufzeit von **10 Stunden** und wird sofort beim Kau
 | **Loot Luck Booster** | Legendär | +5 % Chance auf seltene Beute von NPCs | 30.000 |
 
 > [!NOTE]
-> **Booster oder Amp?** Das sind zwei verschiedene Dinge. Jeder Booster hat **Booster** im Namen, läuft auf einem Timer und braucht nichts zum Einsetzen: **Laser Damage Booster 1** und **Laser Damage Booster 2** geben +10 % Laserschaden für 10 Stunden, aus dem Shop oder aus der Montage. **Damage Amp**, **Crit Amp** und **Penetration Amp** (Stufen I bis IV) sind Laserverstärker: Module, die du in den Verstärker-Slot eines Lasers einsetzt, ohne Timer ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Vor 0.4.12 hießen die Booster Damage Amp und Damage Amp II, Shield Wall und Shield Wall II, Hull Plating und Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet und Loot Luck; die Booster, die bei dir liefen, liefen unter den neuen Namen weiter.
+> **Booster oder Amp?** Das sind zwei verschiedene Dinge. Jeder Booster hat **Booster** im Namen, läuft auf einem Timer und braucht nichts zum Einsetzen: **Laser Damage Booster I** und **Laser Damage Booster II** geben +10 % Laserschaden für 10 Stunden, aus dem Shop oder aus der Montage. **Damage Amp**, **Crit Amp** und **Penetration Amp** (Stufen I bis IV) sind Laserverstärker: Module, die du in den Verstärker-Slot eines Lasers einsetzt, ohne Timer ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Vor 0.4.12 hießen die Booster Damage Amp und Damage Amp II, Shield Wall und Shield Wall II, Hull Plating und Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet und Loot Luck; die Booster, die bei dir liefen, liefen unter den neuen Namen weiter.
 
 ---
 
@@ -70,7 +70,7 @@ Schilde haben drei getrennte Werte, und jeder Schildboost erhöht genau einen da
 
 | Art | Was es ist | Boosts, die ihn erhöhen |
 | :--- | :--- | :--- |
-| **Schildkapazität** | Deine maximalen Schildpunkte | Shield Wall Booster 1, Shield Wall Booster 2, der dauerhafte **Schildkapazitäts-Boost** (Saison-Shop) |
+| **Schildkapazität** | Deine maximalen Schildpunkte | Shield Wall Booster I, Shield Wall Booster II, der dauerhafte **Schildkapazitäts-Boost** (Saison-Shop) |
 | **Schildabsorption** | Der Anteil jedes Treffers, den deine Schilde nehmen (den Rest bekommt die Hülle); er kann 100 % übersteigen | Der dauerhafte **Schildabsorptions-Boost** (Saison-Shop): +0,1 Punkte pro Level für 25 WP, höchstens +10 Punkte. Kein Booster erhöht ihn |
 | **Schildaufladung** | Pro Sekunde wiederhergestellte Schildpunkte | Shield Regen Booster. Kein dauerhafter Buff erhöht sie |
 

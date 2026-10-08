@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 011fc9c31c4045f1 -->
+<!-- wiki-i18n source: 816a518f38caea05 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -112,7 +112,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 1. Un **colector** extrae mineral, una cantidad por hora, en su propia tolva (72 horas de producción).
 2. **Recoger** pasa el mineral de la tolva al **Almacén de recursos**, la reserva, donde cada mineral se guarda por separado.
 3. La **Forja** toma de la reserva el mineral que necesita cuando empieza un lote y hace placas, a 10 segundos por placa, un lote a la vez.
-4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/06-Items/Lasers.md) las convierte en un Quantum Laser 3, un Starfire-3 o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate, que piden [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) y el último nivel de cada cadena de mejora.
+4. **Recoger placas** pasa las placas terminadas a tu inventario (tu nave debe estar aterrizada). El [Ensamblaje](/wiki/06-Items/Lasers.md) las convierte en un Quantum Laser III, un Starfire-III o un Helios Beam y, una de cada con 5 Dark Matter, en una Dark Matter Plate, que piden [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) y el último nivel de cada cadena de mejora.
 
 ### Colector de Velkonite y Colector de Orvium {#velkonite-collector-and-orvium-collector}
 

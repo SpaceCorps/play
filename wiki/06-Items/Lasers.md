@@ -12,11 +12,11 @@ Weapons are the primary means of dealing damage in SpaceCorps.
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Quantum Laser 1 | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 2 | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser 3 | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Starfire-3 | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser 3, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-3, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -29,13 +29,13 @@ Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 1080
 Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Standard Battery | ammo, common | buy 10 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
+Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser 1 -> Quantum Laser 2 -> Quantum Laser 3 => Starfire-3 => Helios Beam
+Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -49,39 +49,39 @@ Equip lasers directly on ship weapon slots or inside drones to increase your off
 
 | Name | Rarity | Base Damage | Critical Chance | Range | Amp Slots | Cost |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser 1** | Shoddy | 55 | – | 600 | 1 | 8,000 Credits |
-| **Quantum Laser 2** | Common | 65 | – | 700 | 2 | 80,000 Credits |
-| **Quantum Laser 3** | Rare | 80 | 10% | 800 | 3 | Craftable Only |
-| **Starfire-3** | Mythical | 135 | 15% | 850 | 3 | Craftable Only |
+| **Quantum Laser I** | Shoddy | 55 | – | 600 | 1 | 8,000 Credits |
+| **Quantum Laser II** | Common | 65 | – | 700 | 2 | 80,000 Credits |
+| **Quantum Laser III** | Rare | 80 | 10% | 800 | 3 | Craftable Only |
+| **Starfire-III** | Mythical | 135 | 15% | 850 | 3 | Craftable Only |
 | **Helios Beam** | Mythical | 185 | 25% | 900 | 3 | Craftable Only |
 
-The Range column is each laser's own. **Your ship fires at the average of the ranges of its lasers** (the lasers in your drones count too), rounded to the nearest unit, and every laser fires once the target is inside that distance. A Starfire-3 beside two Quantum Laser 2 gives a ship range of 750, not 850; three Starfire-3 keep 850, and lasers that are all alike change nothing. A Forge range buff counts on its own laser before the average is taken. With no laser the Hangar shows no range (a dash) and the lasers cannot fire, but your rockets still can, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). In the Hangar the tile says "Avg. range" where your lasers differ, and hovering it lists each laser's range.
+The Range column is each laser's own. **Your ship fires at the average of the ranges of its lasers** (the lasers in your drones count too), rounded to the nearest unit, and every laser fires once the target is inside that distance. A Starfire-III beside two Quantum Laser II gives a ship range of 750, not 850; three Starfire-III keep 850, and lasers that are all alike change nothing. A Forge range buff counts on its own laser before the average is taken. With no laser the Hangar shows no range (a dash) and the lasers cannot fire, but your rockets still can, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). In the Hangar the tile says "Avg. range" where your lasers differ, and hovering it lists each laser's range.
 
-The Quantum Laser 1 and 2 have no critical chance of their own ("–"): a Damage Amp or a Crit Amp in their slots brings it (a Penetration Amp does not). Critical hits show in a different colour in the floating damage numbers (ice cyan, larger, with a "!"; see [Damage and Heal Numbers](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
+The Quantum Laser I and II have no critical chance of their own ("–"): a Damage Amp or a Crit Amp in their slots brings it (a Penetration Amp does not). Critical hits show in a different colour in the floating damage numbers (ice cyan, larger, with a "!"; see [Damage and Heal Numbers](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers)).
 
 Lasers hurt [asteroids](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) too, but only at 5% of what a volley does to a ship (your amps, boosters, ammo and critical hits count, then the asteroid's armour comes off; the Siphon Battery cannot hurt one). Rockets are the tool for breaking them.
 
 ### Making the top three lasers
 
-The **Quantum Laser 3**, the **Starfire-3** and the **Helios Beam** are made only in **Assembly**. The Quantum Laser 3 is no longer sold in the Shop; a pilot who already owns one keeps it. Each recipe asks for plates from the [Skylab's](/wiki/03-Mechanics/Skylab.md) Forgery, and the Helios Beam for 3 Dark Matter Plates as well:
+The **Quantum Laser III**, the **Starfire-III** and the **Helios Beam** are made only in **Assembly**. The Quantum Laser III is no longer sold in the Shop; a pilot who already owns one keeps it. Each recipe asks for plates from the [Skylab's](/wiki/03-Mechanics/Skylab.md) Forgery, and the Helios Beam for 3 Dark Matter Plates as well:
 
 | Laser | Crafting time | What it takes |
 | :--- | :---: | :--- |
-| Quantum Laser 3 | 1 min | 10 Ship Fragments, 2 Velkonite Reinforced Plates, 1,500 Thulium |
-| Starfire-3 | 1 min | 1 Quantum Laser 3, 15 Ship Fragments, 8 Velkonite Reinforced Plates, 1 Reinforced Hull Plate, 1,500 Thulium, 100,000 Credits |
-| Helios Beam | 3 min | 1 Starfire-3, 50 Cataclysite, 2 Power Cores, 18 Orvium Reinforced Plates, 3 Dark Matter Plates, 4 Reinforced Hull Plates, 2,000 Thulium |
+| Quantum Laser III | 1 min | 10 Ship Fragments, 2 Velkonite Reinforced Plates, 1,500 Thulium |
+| Starfire-III | 1 min | 1 Quantum Laser III, 15 Ship Fragments, 8 Velkonite Reinforced Plates, 1 Reinforced Hull Plate, 1,500 Thulium, 100,000 Credits |
+| Helios Beam | 3 min | 1 Starfire-III, 50 Cataclysite, 2 Power Cores, 18 Orvium Reinforced Plates, 3 Dark Matter Plates, 4 Reinforced Hull Plates, 2,000 Thulium |
 
 The Assembly page shows what you have against what a recipe takes, and the Assemble button says what you lack. Point at a recipe's picture or name, or at one of its materials, to read the item's full description and stats.
 
-**The Starfire-3 is made out of a Quantum Laser 3.** You make the Quantum Laser 3 first and the Starfire-3 uses it up. Nothing the Quantum Laser 3 already took is asked again, so the two together cost exactly what a Starfire-3 cost on its own: 3,000 Thulium, 100,000 Credits, 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate and 2 minutes. If you already have a Quantum Laser 3, you pay only the Starfire-3's own part. The rules are the Helios Beam's, below: the Starfire-3 keeps the enchant tier of the Quantum Laser 3 it uses up (a Godly Quantum Laser 3 makes a Godly Starfire-3) and its buffs are rolled again; you choose which Quantum Laser 3 goes, the card asks first before it uses one above Standard, and the Quantum Laser 3 must be loose: **take it off your ship first** (its amps go back to your inventory), and out of the Transport Cache. The Assemble button says "Unequip your Quantum Laser 3" when it is on a ship.
+**The Starfire-III is made out of a Quantum Laser III.** You make the Quantum Laser III first and the Starfire-III uses it up. Nothing the Quantum Laser III already took is asked again, so the two together cost exactly what a Starfire-III cost on its own: 3,000 Thulium, 100,000 Credits, 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate and 2 minutes. If you already have a Quantum Laser III, you pay only the Starfire-III's own part. The rules are the Helios Beam's, below: the Starfire-III keeps the enchant tier of the Quantum Laser III it uses up (a Godly Quantum Laser III makes a Godly Starfire-III) and its buffs are rolled again; you choose which Quantum Laser III goes, the card asks first before it uses one above Standard, and the Quantum Laser III must be loose: **take it off your ship first** (its amps go back to your inventory), and out of the Transport Cache. The Assemble button says "Unequip your Quantum Laser III" when it is on a ship.
 
-**The Helios Beam is made out of a Starfire-3.** You make the Starfire-3 first (3,000 Thulium and 100,000 Credits with its Quantum Laser 3) and the Helios Beam uses it up, as the [Master Drone](/wiki/06-Items/Drones.md) uses up a Slave Drone. Nothing the Starfire-3 already took is asked again, so the two together cost the 5,000 Thulium, the Cataclysite, Power Cores and Reinforced Hull Plates the Helios Beam asked for on its own, 18 Orvium plates instead of 20 (the Starfire-3's ten Velkonite plates stand in for the missing two) and, because the Helios Beam is the last tier of its chain, 3 Dark Matter Plates; what you pay besides is the Starfire-3's 100,000 Credits and 25 Ship Fragments. The rule is the one of the [module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): the Helios Beam keeps the enchant tier of the Starfire-3 it uses up (a Godly Starfire-3 makes a Godly Helios Beam) and its buffs are rolled again; you choose which Starfire-3 goes when you hold several, and the card asks first before it uses one above Standard. The Starfire-3 must be loose: **take it off your ship first** (the amps fitted into it go back to your inventory), and out of the Transport Cache. The Assemble button says "Unequip your Starfire-3" when it is on a ship.
+**The Helios Beam is made out of a Starfire-III.** You make the Starfire-III first (3,000 Thulium and 100,000 Credits with its Quantum Laser III) and the Helios Beam uses it up, as the [Master Drone](/wiki/06-Items/Drones.md) uses up a Slave Drone. Nothing the Starfire-III already took is asked again, so the two together cost the 5,000 Thulium, the Cataclysite, Power Cores and Reinforced Hull Plates the Helios Beam asked for on its own, 18 Orvium plates instead of 20 (the Starfire-III's ten Velkonite plates stand in for the missing two) and, because the Helios Beam is the last tier of its chain, 3 Dark Matter Plates; what you pay besides is the Starfire-III's 100,000 Credits and 25 Ship Fragments. The rule is the one of the [module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): the Helios Beam keeps the enchant tier of the Starfire-III it uses up (a Godly Starfire-III makes a Godly Helios Beam) and its buffs are rolled again; you choose which Starfire-III goes when you hold several, and the card asks first before it uses one above Standard. The Starfire-III must be loose: **take it off your ship first** (the amps fitted into it go back to your inventory), and out of the Transport Cache. The Assemble button says "Unequip your Starfire-III" when it is on a ship.
 
 Where the plates come from:
 
-- **Velkonite Reinforced Plates** (Quantum Laser 3 and Starfire-3) are forged from Velkonite, 40 ore a plate at Forgery level 1. **Orvium Reinforced Plates** (Helios Beam) are forged from Orvium, 80 ore a plate.
+- **Velkonite Reinforced Plates** (Quantum Laser III and Starfire-III) are forged from Velkonite, 40 ore a plate at Forgery level 1. **Orvium Reinforced Plates** (Helios Beam) are forged from Orvium, 80 ore a plate.
 - **Dark Matter Plates** (3 for the Helios Beam) are pressed in Assembly from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium, once you have researched their recipe. The three take 15 Dark Matter, 7.5 N.I.K.E. rockets on average from the [black hole](/wiki/03-Mechanics/Black-Hole.md): [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) has the whole path.
-- The ore comes only from your Skylab's collectors. A level 5 Velkonite Collector mines 18 Velkonite an hour, so the plates of a Quantum Laser 3 take about 4 hours of mining and a Starfire-3's ten (two in its Quantum Laser 3, eight in its own step) about 22. The Helios Beam is the long one: its 18 plates need 1,440 Orvium, about 4 days from a level 5 Orvium Collector, and the 3 more Orvium plates inside its 3 Dark Matter Plates add 240 Orvium, about 17 hours.
+- The ore comes only from your Skylab's collectors. A level 5 Velkonite Collector mines 18 Velkonite an hour, so the plates of a Quantum Laser III take about 4 hours of mining and a Starfire-III's ten (two in its Quantum Laser III, eight in its own step) about 22. The Helios Beam is the long one: its 18 plates need 1,440 Orvium, about 4 days from a level 5 Orvium Collector, and the 3 more Orvium plates inside its 3 Dark Matter Plates add 240 Orvium, about 17 hours.
 - The Resource Storage holds 240 of each ore at level 1: 6 Velkonite plates or 3 Orvium plates at Forgery level 1. So forge as you go (a Forgery batch is up to 10 plates at level 1) or upgrade the storage.
 - Forged plates wait in the Forgery until you collect them while your ship is landed, and land in your inventory as ordinary items.
 
@@ -91,7 +91,7 @@ Ship Fragments, Cataclysite, Power Cores and Reinforced Hull Plates drop from al
 
 ## Laser Amplifiers (Amps)
 
-Equip these directly into a laser's slot to augment its characteristics. There are **three families of four tiers**, named like the shield cells: the **Damage Amp** adds a flat amount of damage, the **Crit Amp** adds critical chance and flat critical damage, and the **Penetration Amp** takes points off your target's absorbance ([below](#shield-penetration-of-a-laser-hit)). They are not the [boosters](/wiki/06-Items/Boosters.md): the **Laser Damage Booster 1** and **Laser Damage Booster 2** are timed boosters (+10% laser damage for 10 hours), with nothing to fit.
+Equip these directly into a laser's slot to augment its characteristics. There are **three families of four tiers**, named like the shield cells: the **Damage Amp** adds a flat amount of damage, the **Crit Amp** adds critical chance and flat critical damage, and the **Penetration Amp** takes points off your target's absorbance ([below](#shield-penetration-of-a-laser-hit)). They are not the [boosters](/wiki/06-Items/Boosters.md): the **Laser Damage Booster I** and **Laser Damage Booster II** are timed boosters (+10% laser damage for 10 hours), with nothing to fit.
 
 | Name | Rarity | Base Damage Boost | Critical Chance Boost | Flat Critical Damage | Cost |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -126,9 +126,9 @@ A Helios Beam with its 3 tier IV amps holds 4 last-tier pieces: 12 Dark Matter P
 
 ### Which amp goes where
 
-A damage amp adds the same damage to any laser, so it is worth the most on the **Quantum lasers**. A crit amp multiplies what the laser already does, so it is worth more the harder the laser hits: it draws level with the damage line on the **Starfire-3** and comes out about 3.5% ahead on the **Helios Beam**. A laser's critical chance stops at 100%: three Crit Amp III or Crit Amp IV take a Helios Beam to exactly that. A Penetration Amp adds no damage and no critical chance: it is for ships whose shields would otherwise take most of your hit ([below](#when-is-a-penetration-amp-worth-a-slot)).
+A damage amp adds the same damage to any laser, so it is worth the most on the **Quantum lasers**. A crit amp multiplies what the laser already does, so it is worth more the harder the laser hits: it draws level with the damage line on the **Starfire-III** and comes out about 3.5% ahead on the **Helios Beam**. A laser's critical chance stops at 100%: three Crit Amp III or Crit Amp IV take a Helios Beam to exactly that. A Penetration Amp adds no damage and no critical chance: it is for ships whose shields would otherwise take most of your hit ([below](#when-is-a-penetration-amp-worth-a-slot)).
 
-Filled with the same amp, a laser is always stronger than the one below it, so a better amp never replaces a better laser: a Quantum Laser 3 with three Damage Amp IV does less than a Helios Beam with three Damage Amp I (with pieces of the same enchant tier: a Quantum Laser 3 and Damage Amp IV forged to Godly or better, with the best rolls, can pass a plain Helios Beam in Damage Amp I, by a hair at Godly).
+Filled with the same amp, a laser is always stronger than the one below it, so a better amp never replaces a better laser: a Quantum Laser III with three Damage Amp IV does less than a Helios Beam with three Damage Amp I (with pieces of the same enchant tier: a Quantum Laser III and Damage Amp IV forged to Godly or better, with the best rolls, can pass a plain Helios Beam in Damage Amp I, by a hair at Godly).
 
 ---
 
@@ -138,7 +138,7 @@ Consumable batteries that multiply the damage of your laser volleys:
 
 | Name | Rarity | Damage Multiplier | Shield Penetration | Price Per Unit |
 | :--- | :--- | :---: | :---: | :--- |
-| **Standard Battery** | Common | 1.0x | – | 10 Credits |
+| **Standard Battery** | Common | 1.0x | – | 5 Credits |
 | **Advanced Plasma** | Rare | 2.0x | – | 0.5 Thulium |
 | **Ultra Core** | Rare | 3.0x | 5% | 1.0 Thulium |
 | **Experimental Fusion Core** | Epic | 4.0x | 10% | 2.2 Thulium |
@@ -164,7 +164,7 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +9%, Stiletto +16%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). The total **stops at 50%** for a laser; a direct rocket's total stops at 40% ([Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 24%; one Penetration Amp IV in one laser of twelve makes 0.67%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 24%.
-- **The Hangar shows it.** Once your lasers' amps give any penetration, the combat stats of the Hangar have a **Penetration** tile with the figure; ammo and formation are not in it.
+- **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of your amps (0.0% without a Penetration Amp); ammo and formation are not in it. Point at the tile to read the caps: a laser hit's total stops at 50%, a rocket's at 40%.
 - **The best laser reaches the cap exactly.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (24%) make 50%.
 - **A Forge buff on a Penetration Amp IV is wasted in that build.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points instead of 8. But 10 + 16 + 24 already make the 50% cap, so every point more is cut off (three Eternal ones would add up to 53.6%, cut to 50%).
 

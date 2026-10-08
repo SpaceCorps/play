@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2b36e0a1271e933 -->
+<!-- wiki-i18n source: 9b9606619f84bd51 -->
 <!-- wiki-i18n title: Leilão -->
 # Leilão {#auction}
 
@@ -9,8 +9,8 @@ O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do p
 
 - Você precisa do **nível 5** para usar o leilão: para anunciar, comprar e dar lances.
 - Um anúncio tem preço por lote, em créditos inteiros ou em Thulium inteiro (não os dois), e nunca abaixo do preço mínimo do item. **Não existe preço máximo.**
-- Um preço em Thulium é, no mínimo, o preço mínimo em créditos dividido pela taxa (1.000), arredondado para cima, e só para os itens cujo preço mínimo chega a 20 Thulium ou mais. É só isso que a taxa faz: **1 Thulium = 1.000 créditos é uma regra para o preço mínimo, não uma taxa de câmbio.** Nada é trocado, nenhum valor é mostrado, e créditos e Thulium nunca são somados.
-- 80 itens podem ser anunciados, e 42 deles também podem ter preço em Thulium.
+- Um preço em Thulium é, no mínimo, o preço mínimo em créditos dividido pela taxa (1.000), arredondado para cima, e só para os itens cujo preço mínimo chega a 1 Thulium ou mais. É só isso que a taxa faz: **1 Thulium = 1.000 créditos é uma regra para o preço mínimo, não uma taxa de câmbio.** Nada é trocado, nenhum valor é mostrado, e créditos e Thulium nunca são somados.
+- 80 itens podem ser anunciados, e 79 deles também podem ter preço em Thulium.
 - Um anúncio dura 24 / 72 / 168 horas, à sua escolha: as opções são as mesmas em todos os níveis.
 - O **depósito** é de 1% do preço para cada 24 horas de duração do anúncio, com mínimo de 50 créditos ou 1 Thulium. Você paga ao anunciar; ele nunca é devolvido, nem se você cancelar o anúncio.
 - A partir do nível 10, o depósito é de 1,5%.
@@ -31,7 +31,7 @@ A etiqueta é um número de unidades, não um interruptor: uma pilha de muniçã
 
 O chip **Somente vendável** do Hangar mostra só o que você pode vender, e o **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do Leilão para ele. Na Montagem, uma receita cujo resultado é vendável diz isso, e um material que falta tem um link que abre o Leilão com o nome dele na busca.
 
-Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja não vende, e os recursos, foram marcados uma vez. Estes não foram, porque a Loja já os vendeu um dia ou porque o que você tem mistura peças compradas e ganhas: a Quantum Laser 3, as Absorption Shield Cells II e III, os Impulse Thrusters II e III, as duas Reinforced Plates e a Base CPU I mais antiga de cada piloto (a do kit inicial). Os novos desses que você ganhar ou criar são marcados.
+Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja não vende, e os recursos, foram marcados uma vez. Estes não foram, porque a Loja já os vendeu um dia ou porque o que você tem mistura peças compradas e ganhas: a Quantum Laser III, as Absorption Shield Cells II e III, os Impulse Thrusters II e III, as duas Reinforced Plates e a Base CPU I mais antiga de cada piloto (a do kit inicial). Os novos desses que você ganhar ou criar são marcados.
 
 ## O que pode ser vendido {#what-can-be-sold}
 
@@ -40,7 +40,7 @@ Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja
 
 | Tipo | Itens que você pode vender | Quantidade |
 | :--- | :--- | ---: |
-| **Lasers** | Quantum Laser 1, Quantum Laser 2, Quantum Laser 3, Starfire-3, Helios Beam | 5 |
+| **Lasers** | Quantum Laser I, Quantum Laser II, Quantum Laser III, Starfire-III, Helios Beam | 5 |
 | **Amplificadores de laser** | Damage Amp I, Crit Amp I, Penetration Amp I, Damage Amp II, Crit Amp II, Penetration Amp II, Damage Amp III, Crit Amp III, Penetration Amp III, Damage Amp IV, Crit Amp IV, Penetration Amp IV | 12 |
 | **Escudos** | Light Shield Core, Basic Shield Core, Heavy Shield Core | 3 |
 | **Motores** | Engine I, Engine II, Engine III | 3 |
@@ -67,22 +67,22 @@ Todo item tem um **preço mínimo** e **não existe preço máximo**: peça o qu
 
 | Item | Vendido em lotes de | Preço mínimo, créditos | Preço mínimo, Thulium |
 | :--- | ---: | ---: | ---: |
-| Quantum Laser 2 | 1 | 32.000 | 32 |
-| Quantum Laser 3 | 1 | 170.000 | 170 |
+| Quantum Laser II | 1 | 32.000 | 32 |
+| Quantum Laser III | 1 | 170.000 | 170 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
 | Impulse Thruster IV | 1 | 980.000 | 980 |
 | EMP Charge | 1 | 40.000 | 40 |
 | Cloaking CPU S | 1 | 400.000 | 400 |
-| Ultra Core | 10 | 800 | Só créditos |
-| Lancet I | 1 | 200 | Só créditos |
-| Ship Fragment | 100 | 600 | Só créditos |
+| Ultra Core | 10 | 800 | 1 |
+| Lancet I | 1 | 200 | 1 |
+| Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33.000 | 33 |
 
 <!-- market-bands:end -->
 
-Um preço em Thulium segue uma única regra: o preço mínimo em créditos dividido pela taxa, arredondado para cima. A taxa não é um valor que o jogo dá ao Thulium. Ela só diz como se calcula o preço mínimo em Thulium, e por isso um anúncio em Thulium pode ser barato para um piloto que tem Thulium. A maioria dos vendedores vai pedir créditos. Os itens baratos (munição, foguetes, o primeiro grau da maior parte do equipamento e os recursos comuns) têm preço só em créditos, porque um Thulium inteiro seria um passo grande demais.
+Um preço em Thulium segue uma única regra: o preço mínimo em créditos dividido pela taxa, arredondado para cima. A taxa não é um valor que o jogo dá ao Thulium. Ela só diz como se calcula o preço mínimo em Thulium, e por isso um anúncio em Thulium pode ser barato para um piloto que tem Thulium. A maioria dos vendedores vai pedir créditos. Todo item, menos o **Quorvium**, pode ter preço em Thulium, também os baratos (munição, foguetes, recursos comuns): o preço mínimo deles é então 1 Thulium, o menor passo. Só o Quorvium fica apenas em créditos, porque 1 Thulium valeria mais do que um lote dele.
 
 Os seus **anúncios abertos** (e um anúncio que um admin deixou em espera) ocupam vagas. Ao subir de nível você ganha mais vagas, até um máximo, e pode vender e comprar mais por dia. Quanto tempo um anúncio pode durar é igual em todos os níveis.
 
@@ -119,8 +119,8 @@ Um anúncio custa um **depósito**, pago ao anunciar e nunca devolvido, e uma ve
 
 | Anúncio | Preço | Depósito | Imposto | O vendedor recebe |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser 3: nível 6, 24 h | 170.000 créditos | 1.700 créditos | 8.500 créditos | 161.500 créditos |
-| Quantum Laser 3: nível 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: nível 6, 24 h | 170.000 créditos | 1.700 créditos | 8.500 créditos | 161.500 créditos |
+| Quantum Laser III: nível 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
 | Helios Beam: nível 12, 168 h | 2.500.000 créditos | 262.500 créditos | 125.000 créditos | 2.375.000 créditos |
 | Helios Beam: nível 12, 168 h, nos últimos dias de uma temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 
@@ -205,7 +205,7 @@ O Leilão serve para negociar o que você ganha, e é honesto sobre os seus limi
 
 - **Vender drops não é grind.** Os drops brutos de alienígenas são só recursos e valem de 0,4 a 0,9 por cento do que a mesma hora de caça no nível 5 paga em abates. O que o Mercado dá a um piloto novo é o equipamento que as missões dele pagam e de que ele não precisa (uma vez), os recursos das missões de Desafio, as caixas dos chefes de enxame e o que ele cria.
 - **Não há comerciante.** Ordens de compra, em que um piloto diz o que quer comprar e por quanto, não estão nesta versão. Até lá, os únicos comerciantes são o artesão, que compra materiais, cria equipamento na Montagem e o vende, e o piloto armazenador, que guarda estoque no Cache de Transporte durante o reset.
-- **O equipamento da Loja não é para revenda.** O equipamento que você comprou na Loja não pode ser vendido de novo: isso inclui a Quantum Laser 1 e 2, o Light e o Basic Shield Core, Engine I e II, o primeiro grau de células e propulsores, os amps que a Loja vende e a munição comprada. A única Quantum Laser 2 vendável de um piloto é a que uma missão paga uma vez.
+- **O equipamento da Loja não é para revenda.** O equipamento que você comprou na Loja não pode ser vendido de novo: isso inclui a Quantum Laser I e II, o Light e o Basic Shield Core, Engine I e II, o primeiro grau de células e propulsores, os amps que a Loja vende e a munição comprada. A única Quantum Laser II vendável de um piloto é a que uma missão paga uma vez.
 - **As placas vêm de missões.** As Velkonite e Orvium Reinforced Plates do Mercado são as que as missões de Desafio pagam. As placas da Forja ficam de fora; senão seriam a maior mercadoria do Mercado.
 
 Se um anúncio parecer errado, avise do jeito de sempre: os administradores do jogo podem deixar um anúncio em espera, devolvê-lo, pausar o Leilão ou banir um piloto dele, e toda ação assim é registrada.

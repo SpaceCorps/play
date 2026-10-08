@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7af844c9c2785078 -->
+<!-- wiki-i18n source: ff812e23011be0b8 -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -57,7 +57,7 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 
 Varje sköldförstärkning höjer ett av de tre värdena och listas under sin egen sort i fönstret Boosters:
 
-- **Kapacitet** (maximala sköldpoäng): Shield Wall Booster 1 och 2 och den permanenta förstärkningen Shield Capacity Boost.
+- **Kapacitet** (maximala sköldpoäng): Shield Wall Booster I och II och den permanenta förstärkningen Shield Capacity Boost.
 - **Absorption** (den andel av en träff som dina sköldar tar): den permanenta förstärkningen Shield Absorbance Boost (+0,1 punkter per nivå, högst +10 punkter).
 - **Laddning** (sköldpoäng som återställs per sekund): Shield Regen Booster.
 

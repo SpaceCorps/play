@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eb55f4d3469a2c5 -->
+<!-- wiki-i18n source: abed58eb82eb0e72 -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
@@ -79,7 +79,7 @@ Plus la gamme est chère, plus la roquette frappe fort, plus elle porte loin, pl
 
 ## Ce qu’elles coûtent {#what-they-cost}
 
-Une roquette commune coûte 500 crédits, une rare 800 crédits et une épique 5 Thulium, quel que soit le type. Tirée dès que le minuteur le permet, cela fait 10 000 crédits par minute pour une roquette commune, 16 000 pour une rare et 100 Thulium pour une épique, contre les 1 800 crédits par minute que brûlent les trois lasers d’un Ostirion en x1. Un stock plein, c’est 5 000 roquettes communes (2 500 000 crédits), 2 000 rares (1 600 000 crédits) ou 500 épiques (2 500 Thulium) : vous en achetez autant que vous voulez jusque-là, et le *maximum transportable* d’une roquette est la seule limite au nombre que vous en détenez. Les roquettes ne pèsent rien : elles ne prennent aucune place dans la cache de transport. Une roquette toutes les 3 secondes, ce n’est que vingt par minute, donc une roquette est un pic de puissance en plus de vos lasers : les bon marché pour les aliens faibles, les chères pour les gros combats. Ce que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#limits) et les lots que vous y menez comptent dans cette limite quand vous achetez une roquette ou enchérissez dessus.
+Une roquette commune coûte 500 crédits, une rare 800 crédits et une épique 5 Thulium, quel que soit le type. Tirée dès que le minuteur le permet, cela fait 10 000 crédits par minute pour une roquette commune, 16 000 pour une rare et 100 Thulium pour une épique, contre les 900 crédits par minute que brûlent les trois lasers d’un Ostirion en x1. Un stock plein, c’est 5 000 roquettes communes (2 500 000 crédits), 2 000 rares (1 600 000 crédits) ou 500 épiques (2 500 Thulium) : vous en achetez autant que vous voulez jusque-là, et le *maximum transportable* d’une roquette est la seule limite au nombre que vous en détenez. Les roquettes ne pèsent rien : elles ne prennent aucune place dans la cache de transport. Une roquette toutes les 3 secondes, ce n’est que vingt par minute, donc une roquette est un pic de puissance en plus de vos lasers : les bon marché pour les aliens faibles, les chères pour les gros combats. Ce que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#limits) et les lots que vous y menez comptent dans cette limite quand vous achetez une roquette ou enchérissez dessus.
 
 La boutique liste les roquettes un type à la fois, chacune sous son nom, la roquette commune en premier et l’épique en dernier ; le hangar, la cache de transport et le sélecteur de roquettes suivent le même ordre.
 

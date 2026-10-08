@@ -2,7 +2,7 @@
 
 **Asteroids** are big rocks that lie in the flight plane of the company sectors and the Danger Sectors. They never move and they never shoot. Break one with **rockets** or **lasers** and it bursts into small **chunks** of Credits, Thulium and ore, which you pick up like [cargo](/wiki/03-Mechanics/Cargo.md). Rockets are the tool for the job: your lasers hurt an asteroid too, but only at 5% of what they do to a ship, and drones do nothing to it.
 
-Mining is a different job from hunting, not a replacement for it: it earns no XP, honor or ranking points, and the rockets you fire cost Credits or Thulium. What it gives you is Credits and Thulium, ore for the [Forge](/wiki/06-Items/Forge.md) and for crafting without a fight, and a job that a [group](/wiki/03-Mechanics/Groups.md) can share. It pays well: by the game's own model an hour at the right asteroids with the right rocket earns about 2.8 to 7.6 times the best hunting hour of your level, once the rockets are paid for. The daily limits of [The worlds](#the-worlds) cap it, and you reach them soon: in Alpha, a steady miner on a good sector reaches the Thulium limit in under 2 hours and the Credits limit in about 2.7 hours.
+Mining is a different job from hunting, not a replacement for it: it earns no XP, honor or ranking points, and the rockets you fire cost Credits or Thulium. What it gives you is Credits and Thulium, ore for the [Forge](/wiki/06-Items/Forge.md) and for crafting without a fight, and a job that a [group](/wiki/03-Mechanics/Groups.md) can share. It pays well: by the game's own model an hour at the right asteroids with the right rocket earns about 2.6 to 6.8 times the best hunting hour of your level, once the rockets are paid for. The daily limits of [The worlds](#the-worlds) cap it, and you reach them soon: in Alpha, a steady miner on a good sector reaches the Thulium limit in under 2 hours and the Credits limit in about 2.7 hours.
 
 ## What an asteroid is
 
@@ -190,7 +190,7 @@ The biggest of all, a rock for a group.
 
 ## What it does not give
 
-An asteroid is no kill. Breaking one gives no XP, no honor, no kill count, no PvE or PvP points, no ranking, no [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), no drone XP and no progress on a [mission](/wiki/03-Mechanics/Quests.md). The Season Store's boosts do not touch it either. What it gives is what is in the tables: Credits, Thulium and ore, which the [Resources](/wiki/06-Items/Resources.md) page lists with the aliens' drops.
+An asteroid is no kill. Breaking one gives no XP, no honor, no kill count, no PvE or PvP points, no ranking, no [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points), no drone XP and no progress on a [mission](/wiki/03-Mechanics/Quests.md), except the [Asteroids mission of each level](/wiki/03-Mechanics/Quests.md#levels). The Season Store's boosts do not touch it either. What it gives is what is in the tables: Credits, Thulium and ore, which the [Resources](/wiki/06-Items/Resources.md) page lists with the aliens' drops.
 
 ## Tips
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ed9858d316d7ddd -->
+<!-- wiki-i18n source: fff5cfd69e987468 -->
 <!-- wiki-i18n title: Enjambre Seeker -->
 # Enjambre Seeker {#seeker-swarm}
 
@@ -30,8 +30,8 @@ El enjambre Seeker es el más pequeño de los [enjambres](/wiki/05-Swarms/Swarms
 ## Cómo transcurre el combate {#how-the-fight-goes}
 
 - **Déjalo en paz hasta que tu nave pueda con él.** Un Boss Seeker golpea más fuerte de lo que aguanta la primera nave de cualquier piloto: la Protos de un piloto nuevo, todavía sin escudo, es destruida en segundos en cuanto el jefe y sus Slaves se le echan encima.
-- **Mantente fuera de su alcance.** El jefe y sus Slaves son más lentos que una Protos, y sus armas llegan menos lejos que un Quantum Laser 2 (consulta [Láseres y munición](/wiki/06-Items/Lasers.md)): un piloto que tiene esos láseres y se mantiene más allá de su alcance no recibe daño mientras disparan. Un piloto con Quantum Laser 1 no puede mantenerse fuera de su alcance.
-- **Los Slaves curan más rápido de lo que golpea un piloto nuevo en solitario.** Juntos curan más de lo que causan los láseres de un piloto con munición x1, así que lleva un compañero y munición x2. Dos pilotos con Quantum Laser 2 que mantienen la distancia derriban al jefe en aproximadamente un minuto en Alpha, y mucho más rápido con munición x2.
+- **Mantente fuera de su alcance.** El jefe y sus Slaves son más lentos que una Protos, y sus armas llegan menos lejos que un Quantum Laser II (consulta [Láseres y munición](/wiki/06-Items/Lasers.md)): un piloto que tiene esos láseres y se mantiene más allá de su alcance no recibe daño mientras disparan. Un piloto con Quantum Laser I no puede mantenerse fuera de su alcance.
+- **Los Slaves curan más rápido de lo que golpea un piloto nuevo en solitario.** Juntos curan más de lo que causan los láseres de un piloto con munición x1, así que lleva un compañero y munición x2. Dos pilotos con Quantum Laser II que mantienen la distancia derriban al jefe en aproximadamente un minuto en Alpha, y mucho más rápido con munición x2.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en el mismo sector, y sus Slaves llegan uno tras otro.
 
 ## Recompensas y botín {#rewards-and-drops}

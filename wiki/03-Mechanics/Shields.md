@@ -55,7 +55,7 @@ Some attacks have a **shield penetration**: points taken off your absorbance for
 
 Every shield boost raises one of the three stats and is listed under its own kind in the Boosters window:
 
-- **Capacity** (maximum shield points): Shield Wall Booster 1 and 2 and the permanent Shield Capacity Boost.
+- **Capacity** (maximum shield points): Shield Wall Booster I and II and the permanent Shield Capacity Boost.
 - **Absorbance** (the share of a hit your shields take): the permanent Shield Absorbance Boost (+0.1 points per level, +10 points at most).
 - **Recharge** (shield points restored per second): the Shield Regen Booster.
 
