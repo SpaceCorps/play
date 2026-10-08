@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Asta -->
 # Asta {#auction}
 
@@ -25,7 +25,7 @@ L’asta è il mercato dei piloti e, insieme, i lotti orari del gioco stesso, in
 
 ## Oggetti vendibili {#marketable-items}
 
-Si possono vendere solo gli oggetti che hai **guadagnato**. Tutto ciò che guadagni porta nell’[Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) un piccolo contrassegno, **Vendibile**: ciò che raccogli nello spazio (bottino di alieni, sciami, Warden e buco nero: [Carico](/wiki/03-Mechanics/Cargo.md)), ciò che paga una missione ([Missioni](/wiki/03-Mechanics/Quests.md#rewards)) e tutto ciò che fanno l’Assemblaggio e la Forgia. Ciò che hai **comprato** al Negozio, vinto in un lotto, comprato sul Mercato, ricevuto con un codice bonus, un pacchetto d’invito o il kit iniziale, o riavuto come rimborso non è vendibile e non si può mai rivendere, così nulla viene comprato solo per essere rivenduto. Neppure le piastre prodotte dalla Fucina dello Skylab sono vendibili; le Reinforced Plate che paga una missione lo sono.
+Si possono vendere solo gli oggetti che hai **guadagnato**. Tutto ciò che guadagni porta nell’[Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) un piccolo contrassegno, **Vendibile**: ciò che raccogli nello spazio (bottino di alieni, sciami, Warden e buco nero: [Carico](/wiki/03-Mechanics/Cargo.md)), ciò che paga una missione ([Missioni](/wiki/03-Mechanics/Quests.md#rewards)) e tutto ciò che fanno l’Assemblaggio e la Forgia. Ciò che hai **comprato** al Negozio, vinto in un lotto, comprato sul Mercato, ricevuto con un codice bonus, un pacchetto d’invito o il kit iniziale, o riavuto come rimborso non è vendibile e non si può mai rivendere, così nulla viene comprato solo per essere rivenduto. Neppure le piastre prodotte dalla Fucina dello Skylab sono vendibili; le Reinforced Plate che paga una missione lo sono. Neppure le munizioni e i razzi prodotti dalla Stampante di munizioni e dalla Fabbrica di razzi dello Skylab sono vendibili.
 
 Il contrassegno è un numero di unità, non un interruttore: una pila di munizioni può contenere colpi comprati e guadagnati, e la scheda dice «Vendibile (3 / 5)». Quando usi una parte di una pila (sparare, creare), se ne vanno prima le unità semplici, così quelle vendibili durano più a lungo. Unire due pezzi nella [Forgia](/wiki/06-Items/Forge.md#merge) mantiene il contrassegno solo se lo avevano entrambi, e l’anteprima lo dice; un passaggio della Forgia che fallisce restituisce i suoi materiali come unità semplici.
 
@@ -68,7 +68,7 @@ Ogni oggetto ha un **prezzo minimo** e **non esiste un prezzo massimo**: chiedi 
 | Oggetto | Venduto in lotti da | Prezzo minimo, crediti | Prezzo minimo, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32.000 | 32 |
-| Quantum Laser III | 1 | 170.000 | 170 |
+| Quantum Laser III | 1 | 210.000 | 210 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
@@ -119,8 +119,8 @@ Un’inserzione costa un **deposito**, pagato quando la metti in vendita e mai r
 
 | Inserzione | Prezzo | Deposito | Imposta | Il venditore riceve |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: livello 6, 24 h | 170.000 crediti | 1.700 crediti | 8.500 crediti | 161.500 crediti |
-| Quantum Laser III: livello 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: livello 6, 24 h | 210.000 crediti | 2.100 crediti | 10.500 crediti | 199.500 crediti |
+| Quantum Laser III: livello 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: livello 12, 168 h | 2.500.000 crediti | 262.500 crediti | 125.000 crediti | 2.375.000 crediti |
 | Helios Beam: livello 12, 168 h, negli ultimi giorni di una stagione | 2.500.000 crediti | 0 crediti | 0 crediti | 2.500.000 crediti |
 

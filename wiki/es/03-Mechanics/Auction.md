@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
@@ -25,7 +25,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 
 ## Objetos comercializables {#marketable-items}
 
-Solo se pueden vender los objetos que has **ganado**. Todo lo que ganas lleva en el [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) una pequeña etiqueta, **Comercializable**: lo que recoges en el espacio (botín de alienígenas, enjambres, Wardens y agujero negro: [Carga](/wiki/03-Mechanics/Cargo.md)), lo que paga una misión ([Misiones](/wiki/03-Mechanics/Quests.md#rewards)) y todo lo que fabrican el Ensamblaje y la Forja. Lo que has **comprado** en la Tienda, ganado en un lote, comprado en el Mercado, recibido con un código de bonificación, un paquete de invitación o el kit inicial, o recuperado como reembolso no es comercializable y no se puede volver a vender, para que nada se compre solo para revenderlo. Las placas que fabrica la Forja del Skylab tampoco son comercializables; las Reinforced Plates que paga una misión sí.
+Solo se pueden vender los objetos que has **ganado**. Todo lo que ganas lleva en el [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) una pequeña etiqueta, **Comercializable**: lo que recoges en el espacio (botín de alienígenas, enjambres, Wardens y agujero negro: [Carga](/wiki/03-Mechanics/Cargo.md)), lo que paga una misión ([Misiones](/wiki/03-Mechanics/Quests.md#rewards)) y todo lo que fabrican el Ensamblaje y la Forja. Lo que has **comprado** en la Tienda, ganado en un lote, comprado en el Mercado, recibido con un código de bonificación, un paquete de invitación o el kit inicial, o recuperado como reembolso no es comercializable y no se puede volver a vender, para que nada se compre solo para revenderlo. Las placas que fabrica la Forja del Skylab tampoco son comercializables; las Reinforced Plates que paga una misión sí. Tampoco son comercializables la munición y los cohetes que fabrican la Impresora de munición y la Fábrica de cohetes del Skylab.
 
 La etiqueta es un número de unidades, no un interruptor: una pila de munición puede tener balas compradas y ganadas, y la tarjeta dice «Comercializable (3 de 5)». Cuando gastas parte de una pila (disparar, fabricar), se van primero las unidades normales, así que las comercializables duran más. Al combinar dos piezas en la [Forja](/wiki/06-Items/Forge.md#merge), la etiqueta se mantiene solo si las dos piezas la tenían, y la vista previa lo dice; un paso de la Forja que falla devuelve sus materiales como unidades normales.
 
@@ -68,7 +68,7 @@ Cada objeto tiene un **precio mínimo** y **no hay precio máximo**: pide lo que
 | Objeto | Se vende en lotes de | Precio mínimo, créditos | Precio mínimo, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32.000 | 32 |
-| Quantum Laser III | 1 | 170.000 | 170 |
+| Quantum Laser III | 1 | 210.000 | 210 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
@@ -119,8 +119,8 @@ Un anuncio cuesta un **depósito**, que se paga al publicar y nunca se devuelve,
 
 | Anuncio | Precio | Depósito | Impuesto | El vendedor recibe |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: nivel 6, 24 h | 170.000 créditos | 1.700 créditos | 8.500 créditos | 161.500 créditos |
-| Quantum Laser III: nivel 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: nivel 6, 24 h | 210.000 créditos | 2.100 créditos | 10.500 créditos | 199.500 créditos |
+| Quantum Laser III: nivel 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: nivel 12, 168 h | 2.500.000 créditos | 262.500 créditos | 125.000 créditos | 2.375.000 créditos |
 | Helios Beam: nivel 12, 168 h, en los últimos días de una temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
@@ -25,7 +25,7 @@
 
 ## 可交易的物品 {#marketable-items}
 
-只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。
+只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。
 
 标记是单位数量，不是开关：一叠弹药里可以既有买来的也有赚来的，卡片上会写“可交易（3/5）”。当你用掉一叠中的一部分（射击、制作）时，普通单位先用掉，所以可交易的单位留得最久。在[锻造炉](/wiki/06-Items/Forge.md#merge)里合并两件物品时，只有两件都带标记，标记才会保留，预览会显示这一点；失败的锻造炉步骤会把材料以普通单位退还。
 
@@ -68,7 +68,7 @@
 | 物品 | 每组数量 | 最低价，信用点 | 最低价，Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32,000 | 32 |
-| Quantum Laser III | 1 | 170,000 | 170 |
+| Quantum Laser III | 1 | 210,000 | 210 |
 | Helios Beam | 1 | 1,600,000 | 1,600 |
 | Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
 | Heavy Shield Core | 1 | 870,000 | 870 |
@@ -119,8 +119,8 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 | 挂单 | 价格 | 押金 | 税 | 卖家所得 |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III：6 级，24 小时 | 170,000 信用点 | 1,700 信用点 | 8,500 信用点 | 161,500 信用点 |
-| Quantum Laser III：10 级，72 小时 | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III：6 级，24 小时 | 210,000 信用点 | 2,100 信用点 | 10,500 信用点 | 199,500 信用点 |
+| Quantum Laser III：10 级，72 小时 | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam：12 级，168 小时 | 2,500,000 信用点 | 262,500 信用点 | 125,000 信用点 | 2,375,000 信用点 |
 | Helios Beam：12 级，168 小时，赛季最后几天 | 2,500,000 信用点 | 0 信用点 | 0 信用点 | 2,500,000 信用点 |
 

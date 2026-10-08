@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Leilão -->
 # Leilão {#auction}
 
@@ -25,7 +25,7 @@ O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do p
 
 ## Itens vendáveis {#marketable-items}
 
-Só podem ser vendidos os itens que você **ganhou**. Tudo o que você ganha leva no [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) uma pequena etiqueta, **Vendável**: o que você pega no espaço (drops de alienígenas, enxames, Wardens e do buraco negro: [Carga](/wiki/03-Mechanics/Cargo.md)), o que uma missão paga ([Missões](/wiki/03-Mechanics/Quests.md#rewards)) e tudo o que a Montagem e a Forja fazem. O que você **comprou** na Loja, venceu num lote, comprou no Mercado, recebeu por um código de bônus, um pacote de convite ou o kit inicial, ou recebeu de volta como reembolso não é vendável e nunca pode ser vendido de novo, para que nada seja comprado só para ser revendido. As placas que a Forja do Skylab faz também não são vendáveis; as Reinforced Plates que uma missão paga são.
+Só podem ser vendidos os itens que você **ganhou**. Tudo o que você ganha leva no [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) uma pequena etiqueta, **Vendável**: o que você pega no espaço (drops de alienígenas, enxames, Wardens e do buraco negro: [Carga](/wiki/03-Mechanics/Cargo.md)), o que uma missão paga ([Missões](/wiki/03-Mechanics/Quests.md#rewards)) e tudo o que a Montagem e a Forja fazem. O que você **comprou** na Loja, venceu num lote, comprou no Mercado, recebeu por um código de bônus, um pacote de convite ou o kit inicial, ou recebeu de volta como reembolso não é vendável e nunca pode ser vendido de novo, para que nada seja comprado só para ser revendido. As placas que a Forja do Skylab faz também não são vendáveis; as Reinforced Plates que uma missão paga são. A munição e os foguetes que a Impressora de munição e a Fábrica de foguetes do Skylab fazem também não são vendáveis.
 
 A etiqueta é um número de unidades, não um interruptor: uma pilha de munição pode ter tiros comprados e ganhos, e o cartão diz “Vendável (3 de 5)”. Quando você usa parte de uma pilha (atirar, criar), as unidades comuns saem primeiro, de modo que as vendáveis duram mais. Combinar duas peças na [Forja](/wiki/06-Items/Forge.md#merge) mantém a etiqueta só se as duas a tinham, e a pré-visualização avisa; uma etapa da Forja que falha devolve os materiais como unidades comuns.
 
@@ -68,7 +68,7 @@ Todo item tem um **preço mínimo** e **não existe preço máximo**: peça o qu
 | Item | Vendido em lotes de | Preço mínimo, créditos | Preço mínimo, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32.000 | 32 |
-| Quantum Laser III | 1 | 170.000 | 170 |
+| Quantum Laser III | 1 | 210.000 | 210 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
@@ -119,8 +119,8 @@ Um anúncio custa um **depósito**, pago ao anunciar e nunca devolvido, e uma ve
 
 | Anúncio | Preço | Depósito | Imposto | O vendedor recebe |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: nível 6, 24 h | 170.000 créditos | 1.700 créditos | 8.500 créditos | 161.500 créditos |
-| Quantum Laser III: nível 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: nível 6, 24 h | 210.000 créditos | 2.100 créditos | 10.500 créditos | 199.500 créditos |
+| Quantum Laser III: nível 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: nível 12, 168 h | 2.500.000 créditos | 262.500 créditos | 125.000 créditos | 2.375.000 créditos |
 | Helios Beam: nível 12, 168 h, nos últimos dias de uma temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 

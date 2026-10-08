@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9288511cf701ce85 -->
+<!-- wiki-i18n source: 15d21ac63e808c91 -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -16,7 +16,7 @@ Det som Monteringen tillverkar kräver först sin teknologi; håll pekaren över
 ```tree
 Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
 Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -37,7 +37,7 @@ Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
+Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -65,19 +65,21 @@ Lasrar skadar också [asteroider](/wiki/03-Mechanics/Asteroid-Mining.md#breaking
 
 ### Tillverkning av de tre översta lasrarna {#making-the-top-three-lasers}
 
-**Quantum Laser III**, **Starfire-III** och **Helios Beam** tillverkas bara i **Monteringen**. Quantum Laser III säljs inte längre i butiken; en pilot som redan äger en behåller den. Varje recept kräver plåtar från [Skylabs](/wiki/03-Mechanics/Skylab.md) smedja, och Helios Beam dessutom 3 Dark Matter Plates:
+**Quantum Laser III**, **Starfire-III** och **Helios Beam** tillverkas bara i **Monteringen**, var och en av lasern under den: en Quantum Laser II från butiken blir en Quantum Laser III, som blir en Starfire-III, som blir en Helios Beam. Quantum Laser III säljs inte längre i butiken; en pilot som redan äger en behåller den. Varje recept kräver plåtar från [Skylabs](/wiki/03-Mechanics/Skylab.md) smedja, och Helios Beam dessutom 3 Dark Matter Plates:
 
 | Laser | Tillverkningstid | Vad som krävs |
 | :--- | :---: | :--- |
-| Quantum Laser III | 1 min | 10 Ship Fragments, 2 Velkonite Reinforced Plates, 1 500 Thulium |
+| Quantum Laser III | 1 min | 1 Quantum Laser II, 10 Ship Fragments, 2 Velkonite Reinforced Plates, 1 500 Thulium |
 | Starfire-III | 1 min | 1 Quantum Laser III, 15 Ship Fragments, 8 Velkonite Reinforced Plates, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 krediter |
 | Helios Beam | 3 min | 1 Starfire-III, 50 Cataclysite, 2 Power Cores, 18 Orvium Reinforced Plates, 3 Dark Matter Plates, 4 Reinforced Hull Plates, 2 000 Thulium |
 
 Sidan Montering visar vad du har mot vad ett recept kräver, och knappen Montera säger vad du saknar. Peka på bilden eller namnet på ett recept, eller på ett av dess material, för att läsa föremålets fullständiga beskrivning och värden.
 
-**Starfire-III tillverkas av en Quantum Laser III.** Du tillverkar först Quantum Laser III och Starfire-III förbrukar den. Det som Quantum Laser III redan har kostat tas inte ut igen, så de två tillsammans kostar exakt det en Starfire-III kostade på egen hand: 3 000 Thulium, 100 000 krediter, 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate och 2 minuter. Har du redan en Quantum Laser III betalar du bara Starfire-III:s egen del. Reglerna är Helios Beams, nedan: Starfire-III behåller förtrollningsnivån hos den Quantum Laser III den förbrukar (en Gudomlig Quantum Laser III ger en Gudomlig Starfire-III) och dess bonusar slumpas på nytt; du väljer vilken Quantum Laser III som går åt, kortet frågar först innan det använder en över Standard, och Quantum Laser III måste ligga löst: **ta av den från ditt skepp först** (dess förstärkare går tillbaka till ditt inventarie), och ta ut den ur transportförrådet. Knappen Montera säger ”Ta ut Quantum Laser III först” när den sitter på ett skepp.
+**Quantum Laser III tillverkas av en Quantum Laser II.** Quantum Laser II är butikens laser (80 000 krediter) och Quantum Laser III förbrukar den, så receptets 10 Ship Fragments, 2 Velkonite Reinforced Plates och 1 500 Thulium kommer ovanpå den Quantum Laser II som du betalar för i butiken. Reglerna är Starfire-III:s, nedan: Quantum Laser III behåller förtrollningsnivån hos den Quantum Laser II den förbrukar (en Gudomlig Quantum Laser II ger en Gudomlig Quantum Laser III) och dess bonusar slumpas på nytt; du väljer vilken Quantum Laser II som går åt, kortet frågar först innan det använder en över Standard, och Quantum Laser II måste ligga löst: **ta av den från ditt skepp först** (dess förstärkare går tillbaka till ditt inventarie), och ta ut den ur transportförrådet. Knappen Montera säger ”Ta ut Quantum Laser II först” när den sitter på ett skepp.
 
-**Helios Beam tillverkas av en Starfire-III.** Du tillverkar först Starfire-III (3 000 Thulium och 100 000 krediter med dess Quantum Laser III) och Helios Beam förbrukar den, på samma sätt som [Master Drone](/wiki/06-Items/Drones.md) förbrukar en Slave Drone. Det som Starfire-III redan har kostat tas inte ut igen, så de två tillsammans kostar de 5 000 Thulium, Cataclysite, Power Cores och Reinforced Hull Plates som Helios Beam krävde på egen hand, 18 Orvium-plåtar i stället för 20 (Starfire-III:s tio Velkonite-plåtar ersätter de två som saknas) och, eftersom Helios Beam är sista nivån i sin kedja, 3 Dark Matter Plates; det du betalar utöver det är Starfire-III:s 100 000 krediter och 25 Ship Fragments. Regeln är den för [modulupgraderingarna](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): Helios Beam behåller förtrollningsnivån hos den Starfire-III den förbrukar (en Gudomlig Starfire-III ger en Gudomlig Helios Beam) och dess bonusar slumpas på nytt; du väljer vilken Starfire-III som går åt när du har flera, och kortet frågar först innan det använder en över Standard. Starfire-III måste ligga löst: **ta av den från ditt skepp först** (förstärkarna som sitter i den går tillbaka till ditt inventarie), och ta ut den ur transportförrådet. Knappen Montera säger ”Ta ut Starfire-III först” när den sitter på ett skepp.
+**Starfire-III tillverkas av en Quantum Laser III.** Du tillverkar först Quantum Laser III och Starfire-III förbrukar den. Det som Quantum Laser III redan har kostat tas inte ut igen, så de två tillsammans kostar det en Starfire-III kostade på egen hand (3 000 Thulium, 100 000 krediter, 25 Ship Fragments, 10 Velkonite Reinforced Plates, 1 Reinforced Hull Plate och 2 minuter) plus den Quantum Laser II som Quantum Laser III förbrukar. Har du redan en Quantum Laser III betalar du bara Starfire-III:s egen del. Reglerna är Helios Beams, nedan: Starfire-III behåller förtrollningsnivån hos den Quantum Laser III den förbrukar (en Gudomlig Quantum Laser III ger en Gudomlig Starfire-III) och dess bonusar slumpas på nytt; du väljer vilken Quantum Laser III som går åt, kortet frågar först innan det använder en över Standard, och Quantum Laser III måste ligga löst: **ta av den från ditt skepp först** (dess förstärkare går tillbaka till ditt inventarie), och ta ut den ur transportförrådet. Knappen Montera säger ”Ta ut Quantum Laser III först” när den sitter på ett skepp.
+
+**Helios Beam tillverkas av en Starfire-III.** Du tillverkar först Starfire-III (3 000 Thulium och 100 000 krediter med dess Quantum Laser III, som förbrukar en Quantum Laser II) och Helios Beam förbrukar den, på samma sätt som [Master Drone](/wiki/06-Items/Drones.md) förbrukar en Slave Drone. Det som Starfire-III redan har kostat tas inte ut igen, så de två tillsammans kostar de 5 000 Thulium, Cataclysite, Power Cores och Reinforced Hull Plates som Helios Beam krävde på egen hand, 18 Orvium-plåtar i stället för 20 (Starfire-III:s tio Velkonite-plåtar ersätter de två som saknas) och, eftersom Helios Beam är sista nivån i sin kedja, 3 Dark Matter Plates; det du betalar utöver det är Starfire-III:s 100 000 krediter och 25 Ship Fragments, och den enda Quantum Laser II i början av kedjan. Regeln är den för [modulupgraderingarna](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): Helios Beam behåller förtrollningsnivån hos den Starfire-III den förbrukar (en Gudomlig Starfire-III ger en Gudomlig Helios Beam) och dess bonusar slumpas på nytt; du väljer vilken Starfire-III som går åt när du har flera, och kortet frågar först innan det använder en över Standard. Starfire-III måste ligga löst: **ta av den från ditt skepp först** (förstärkarna som sitter i den går tillbaka till ditt inventarie), och ta ut den ur transportförrådet. Knappen Montera säger ”Ta ut Starfire-III först” när den sitter på ett skepp.
 
 Varifrån plåtarna kommer:
 

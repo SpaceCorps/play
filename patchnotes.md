@@ -16,50 +16,43 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
-## 0.4.14 · 2026-10-08
+## 0.4.15 · 2026-10-08
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.14)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.15)
 
-SpaceCorps 2027 0.4.14 adds a research queue of five, an asteroid mission at every level from 1 to 8 and a mark for the missions and Challenges you can accept. Every item name now has Roman numerals, x1 ammo costs 5 Credits, the Auction takes Thulium for every kind but Quorvium, and a 0.4.13 game installs this update as a patch.
+SpaceCorps 2027 0.4.15 is the Skylab update: when your Core reaches level 10 a bridge builds a second Core with six module seats, and two new modules, the Ammo Printer and the Rocket Factory, plug into it. The Quantum Laser III is now crafted from a Quantum Laser II, and the Ship window shows your Penetration.
 
 ### What's new
 
 **Highlights**
-- **Queue up to five technologies** in the Research Centre. Each starts by itself when the one before it finishes, even while you are away.
-- **A mark for what you can accept:** a badge with a count on Mission Control and its tabs, and one toast and a quiet sound whenever new ones come.
-- **An asteroid mission at every level from 1 to 8,** for kinds that live on better maps (level 1: 8 rocks and 60 Rivet I; levels 7 and 8: the Danger Sectors). Rockets and lasers both count.
-- **Roman numerals on every item:** Quantum Laser I, II and III, Starfire-III, and the Laser Damage, Shield Wall and Hull Plating Booster I and II. They are the same items: pieces, tiers, buffs and booster time stay.
-- **x1 ammo (Standard Battery) costs 5 Credits** in the Shop, not 10.
-- **The Auction takes Thulium for every kind but Quorvium;** the Power Core can be listed from 1 Thulium.
-- **The Hangar shows Penetration on every ship** (0.0% without a Penetration Amp). Its tip names the caps: a laser hit's total is capped at 50%, a rocket's at 40%.
-- **Fixes:** the stay missions say what starts a stay again, and their clock ticks every second; the Dashboard shows a booster's name, never a number; a cloaked ship's drones fade with its hull; the wiki's search box shows its whole focus border.
-- **For administrators:** the Admin page shows how often each invite code was used.
+- **A bridge and a second Core at Core level 10.** The Core's step from level 9 to 10 costs 2,000 Thulium on top of its 38,443 Credits. When it finishes, a bridge builds Core 2 with six module seats and the Solar Array moves to Core 2's far end. The Skylab page draws it and labels the free seats; a quiet sound and a toast tell you when the bridge is built.
+- **New module, the Ammo Printer** (levels 1 to 20), prints laser ammo from nothing: x2 (Advanced Plasma) 100 an hour at level 1 and 2,000 at level 20, x3 (Ultra Core) half of that, x4 (Experimental Fusion Core) a quarter. You pick one at a time.
+- **New module, the Rocket Factory** (levels 1 to 20), builds any of the twelve Shop rockets (Lancet, Rivet, Scatter and Ember, tiers I to III): a tier III rocket 0.5 an hour at level 1 and 10 at level 20; tier II is 1.25 times as fast, tier I twice.
+- **Both are 3D modules on Core 2:** five looks over their 20 levels, scaffolds and drones while they upgrade, and a sheet with the mode, storage, Collect and Upgrade.
+- **Fix:** the Quantum Laser III is crafted from a Quantum Laser II (a Shop item) besides 10 Ship Fragments, 2 Velkonite Reinforced Plates and 1,500 Thulium. Its least price in the Auction rises to 210,000 Credits (170,000 before), the Starfire-III's to 470,000 (430,000).
+- **The Ship window shows your Penetration.** A fourth chip, after the shields' share, reads the laser amps' share of the configuration you fly in whole percent: the number the Hangar's Penetration tile shows (0% without a Penetration Amp; it follows a configuration swap). To make room the Config and Speed chips show their icon and number only; hover them for the names. The tooltip says what penetration is and that a hit is capped at 50% for lasers and 40% for rockets.
 
 **If you already play: what changes for you**
-- **Update the game.** A 0.4.13 game installs this update as a patch; if the patch cannot be used it downloads the whole package, with no error. A 0.4.11 or older game downloads the whole package.
-- **Ten items are renamed at the first start,** in place: ids, pieces, tiers, buffs, crafts, Auction listings and booster time stay. The Laser Damage Booster 1 you hold is the Laser Damage Booster I.
-- **Eight missions are added to your list.** Those of the levels below yours are not offered (no pay for a level long done); yours and the levels above come as you reach them. They are not one of a level's ten and count in neither the Stats page nor the Wipe Points.
-- **Nothing else moves.** A technology under way carries on, the queue starts empty, open listings keep their price and currency. At your first sign-in the mark tells you once what is waiting.
-- **A 0.4.13 game keeps working** against the 0.4.14 server. It shows at once the Roman names, the price of x1 ammo, Thulium in the Auction and the asteroid missions (as a line with a count, "3/8"). It cannot queue research, show the badge, the new stay texts and clock, the Penetration tile on every ship, the drones' fade or the Dashboard fix, and a few item descriptions (the Quantum Laser III, the Starfire-III, the Booster II recipes) read in English in other languages until it updates.
+- **Update the game.** A 0.4.12, 0.4.13 or 0.4.14 game installs it as a patch, and downloads the whole package if the patch cannot be used. A 0.4.11 or older game downloads the whole package.
+- **At Core level 10 or higher you have the bridge and Core 2 at your next look,** free. Nothing is stored for them; the Solar Array keeps its level, power and upgrade.
+- **The 2,000 Thulium is paid by the step into level 10 only:** an upgrade already running keeps its price, and a Core at level 10 or higher pays nothing.
+- **Solar makes more power from level 7** (965 at level 7, 17,890 at level 20; levels 1 to 6 as before), so a full station stays covered. At the first start a producer that stood dark for want of power under the old table, and is powered under the new one, runs again from then; the dark time is not counted. Nothing that ran stops.
+- **The new recipe applies to crafts you start after the update;** a craft under way is not changed, and open listings keep their price.
+- **The Ship window's Penetration chip needs the update, not a server change:** the number is the one the Hangar's tile already gets from the server.
+- **A 0.4.14 game keeps working but draws the plain old station:** no bridge or Core 2, the Solar Array on Core 1, and no card for the Printer or the Factory, so it cannot build, switch or collect them. The step into level 10 shows 2,000 Thulium and works. Update before you build.
 
-**Missions and research**
-- **How the queue works.** Press Queue on a technology while another is researched; the tree shows order numbers and the Research window a queue card. Nothing is paid when you queue. Each prerequisite must be researched, under way or queued ahead of it, so a chain goes in order. The next one starts at the exact moment the one before finishes, if you could start it by hand then (the Centre not upgrading, power, Dark Matter in the Centre, fuel in the tank). If not, it stays first in line, nothing is taken, and the Research window says why: fix the cause and press Start. Each start takes the technology's Dark Matter then. Removing a queued technology is free (the queued ones that need it go too); cancelling the research under way starts nothing. Queueing, removing and a queued start each have a quiet sound.
-- **The mark** counts a mission as waiting when its line has a free slot (5 level missions, 3 Station missions, 3 Challenges) and your level and the season day are reached; it tells each one once on this computer.
-- **The asteroid missions** come after a level's Special and take one of your five active slots. A break counts when it pays you a share: at least 5% of the damage the rock took, or the top dealer when nobody reaches 5% (in a group, the payee and the mates the chunks reach). Only the named kinds on the named sector count (x-3 is the third sector of any company, DS-x any Danger Sector); levels 7 and 8 can be accepted from day 4 of the season. Level 1 asks 8 Pebbles, Cobbles, Glimmers, Rimes or Cache Pods in x-1; level 8, 6 Ancient Husks or Star Crystals in a Danger Sector. They pay from 400 experience, 2,000 Credits, 5 Thulium and 60 Rivet I to 36,000 experience, 90,000 Credits and 720 Thulium.
-- **The stay missions** Night Shift, Border Watch III and Frontline Watch now say that time in other sectors does not count and that losing your ship, or a hull loss past the limit, starts the stay again. Their clock counted in steps of 10 seconds; it ticks every second now.
-
-**Auction and shop**
-- **x1 ammo costs 5 Credits.** The Auction's least price follows: 200 Credits for a lot of 100 (400 before). Other ammo and the rockets keep their prices.
-- **Thulium for 79 of the 80 kinds.** The Auction's rule closed Thulium to a kind whose least price was under 20 Thulium: 38 kinds in 0.4.13, the Power Core among them. A Thulium price is a whole number from 1; only the Quorvium, a lot of which the design values at less than 1 Thulium, stays in Credits. Deposit and tax are paid in Thulium, as before.
+**The Ammo Printer and the Rocket Factory**
+- **Build.** Both stand on Core 2 (Printer north-east, Factory north-west), so you build them from Core level 10; before that the Build button says "Needs Core 2". A build costs 20,000 Credits, 500 Thulium and Ship Fragments (10 for the Printer, 15 for the Factory). Their levels follow your Core's. All 19 upgrades: Printer 22,011,000 Credits and 47,440 Thulium, Factory 5,527,300 and 11,994.
+- **Storage and Collect.** A module keeps up to 24 hours of what it makes, offline hours too, and stops when full; switching the mode counts the hours stored at the new mode's rate. Collect with your ship parked, in whole units: ammo has no carry limit, a rocket stops at your carry stack and the rest stays. What they make cannot be listed in the Auction. They draw Solar power and can be switched off.
 
 **For administrators and the server**
-- **The Admin page's Invites section** shows totals (codes, codes used, uses, friends who reached level 5, the last 24 hours, 7 and 30 days, rewards collected) and a sortable table with, per code, the friends who used it. `GET /api/admin/invites/stats`: read-only, admins only, nothing new stored, no code shown.
-- **At the first start:** one new table (`ResearchQueue`, empty), one data step (`quests-asteroid-v1`: the lower levels' missions are listed as not offered in each pilot's quest state) and the ten renames; the backup gate prints 18 lines. Eight data files change; the new routes are `POST /api/skylab/research/queue/:tech` and `dequeue/:tech`. No new counter or environment variable.
+- **At the first start:** one new table (`SkylabProduction`, empty) and one data step (`skylab-solar-v4`); the backup gate prints 2 lines. The bridge needs neither. Three data files change; the new route is `POST /api/skylab/mode/:type/:mode`. No new counter or environment variable.
 
 ## All releases
 
 Each line links the full notes of that release as Markdown (patchnotes/v<version>.md); its HTML page is patchnotes-v<version>.html.
 
+- [0.4.15](https://spacecorps.github.io/play/patchnotes/v0.4.15.md) · 2026-10-08 · The Skylab update: when your Core reaches level 10 a bridge builds a second Core with six module seats, and two new modules…
 - [0.4.14](https://spacecorps.github.io/play/patchnotes/v0.4.14.md) · 2026-10-08 · Adds a research queue of five, an asteroid mission at every level from 1 to 8 and a mark for the missions and Challenges you can accept.
 - [0.4.13](https://spacecorps.github.io/play/patchnotes/v0.4.13.md) · 2026-10-07 · Lets lasers hurt asteroids, shortens every rocket's recharge to 3 seconds and triples what rocks pay.
 - [0.4.12](https://spacecorps.github.io/play/patchnotes/v0.4.12.md) · 2026-10-07 · Opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining…

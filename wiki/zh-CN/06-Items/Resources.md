@@ -58,7 +58,7 @@
 **用途**
 
 - [Master Drone](/wiki/06-Items/Drones.md): **100** (另需 Slave Drone ×1, 40,000 Thulium)
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (另需 Velkonite Reinforced Plate ×2, 1,500 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (另需 Quantum Laser II ×1, Velkonite Reinforced Plate ×2, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **15** (另需 Quantum Laser III ×1, Reinforced Hull Plate ×1, Velkonite Reinforced Plate ×8, 100,000 信用点, 1,500 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **120** (另需 Power Core ×5, Reinforced Hull Plate ×20, 1,500 Thulium)
 - [Wraith](/wiki/02-Ships/Wraith.md): **300** (另需 Ancient Control Unit ×3, Power Core ×15, Reinforced Hull Plate ×50, 20,000 Thulium)
@@ -101,7 +101,8 @@
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个）: **20** (另需 Cataclysite ×40, Reinforced Hull Plate ×4, 100,000 信用点, 1,500 Thulium)
 - [锻造炉](/wiki/06-Items/Forge.md), 标准 → 腐化: **5** (另需 Daraxium ×15, 10,000 信用点；成功率 100%)
 - [锻造炉](/wiki/06-Items/Forge.md), 腐化 → 神圣: **30** (另需 Nyxite ×45, 50,000 信用点；成功率 90%)
-- [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：锻造厂, Orvium 采集器, 资源仓库, Velkonite 采集器 各 **10**（取自你的物品栏，而不是运输储藏库）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：弹药打印机, 锻造厂, Orvium 采集器, 资源仓库, Velkonite 采集器 各 **10**（取自你的物品栏，而不是运输储藏库）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：火箭工厂 各 **15**（取自你的物品栏，而不是运输储藏库）
 - [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：研究中心 各 **25**（取自你的物品栏，而不是运输储藏库）
 - [研究中心](/wiki/03-Mechanics/Research.md#fuel)，燃料：每个单位 **5** 科研点
 
@@ -448,7 +449,7 @@
 
 **用途**
 
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **2** (另需 Ship Fragment ×10, 1,500 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **2** (另需 Quantum Laser II ×1, Ship Fragment ×10, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **8** (另需 Quantum Laser III ×1, Reinforced Hull Plate ×1, Ship Fragment ×15, 100,000 信用点, 1,500 Thulium)
 - Dark Matter Plate: **1** (另需 Dark Matter ×5, Orvium Reinforced Plate ×1, 250 Thulium)
 - [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (另需 Impulse Thruster II ×1, Power Core ×2, Ship Fragment ×30, 1,500 Thulium)
@@ -487,7 +488,7 @@
 - [Penetration Amp II](/wiki/06-Items/Lasers.md): **1** (另需 Cataclysite ×10, Daraxium ×20, Penetration Amp I ×1, 250 Thulium)
 - [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (另需 Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Power Core ×1, 1,000 Thulium)
 
-**模块升级**：装配站可升级 Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II 和 Penetration Amp II → Penetration Amp III。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+**模块升级**：装配站可升级 Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II 和 Penetration Amp II → Penetration Amp III。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 
 **刷取方法**：给锻造厂供应矿石，开始一整批，并在你的舰船停靠时收取强化板。
 
@@ -626,7 +627,7 @@
 - **装配站**，每次制造：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 100,000。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：标准 → 腐化 10,000, 腐化 → 神圣 50,000, 神圣 → 裂变 200,000, 裂变 → 永恒 500,000。
 - **锻造炉合并**，按得到的等级：腐化 5,000, 神圣 25,000, 裂变 100,000, 永恒 250,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：信用点农场 0（1 级），7,000,000（20 级）, 锻造厂 5,000（1 级），9,000,000（20 级）, Orvium 采集器 20,000（1 级），5,500,000（20 级）, 研究中心 25,000（每级 x1.5）, 太阳能 500（1 级），9,000,000（20 级）, 资源仓库 5,000（1 级），4,500,000（20 级）, Thulium 农场 5,000（1 级），8,500,000（20 级）, Velkonite 采集器 20,000（1 级），5,500,000（20 级）。 核心始终存在，所以你为它支付的第一个价格是 2 级的价格：1,500（此后每级 x1.5）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 20,000（1 级），5,600,000（20 级）, 信用点农场 0（1 级），7,000,000（20 级）, 锻造厂 5,000（1 级），9,000,000（20 级）, Orvium 采集器 20,000（1 级），5,500,000（20 级）, 研究中心 25,000（每级 x1.5）, 火箭工厂 20,000（1 级），1,400,000（20 级）, 太阳能 500（1 级），9,000,000（20 级）, 资源仓库 5,000（1 级），4,500,000（20 级）, Thulium 农场 5,000（1 级），8,500,000（20 级）, Velkonite 采集器 20,000（1 级），5,500,000（20 级）。 核心始终存在，所以你为它支付的第一个价格是 2 级的价格：1,500（此后每级 x1.5）。
 - **能量具现器**：每次扫描 5,000 信用点，用于寻找 Chrono-Gate 的零件（[详情](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
 - **[战队](/wiki/03-Mechanics/Clans.md)**：向战队银行捐款（每位飞行员在任意 24 小时内最多 1,000,000 信用点），以及战队的每日税，即其领导者设定的、你信用点的一部分。
 
@@ -658,7 +659,7 @@
 - **商店**：有 26 件物品以 Thulium 标价（价格见它们的页面：[物品](/wiki/06-Items/Overview.md)和[火箭](/wiki/06-Items/Rockets.md)）。
 - **装配站**，每次制造：[Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 1,500。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：裂变 → 永恒 2,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：信用点农场 0（1 级），550（20 级）, 锻造厂 500（1 级），10,000（20 级）, Orvium 采集器 500（1 级），12,500（20 级）, 研究中心 500（每级 x1.5）, 太阳能 50（1 级），10,000（20 级）, 资源仓库 250（1 级），550（20 级）, Thulium 农场 500（1 级），16,000（20 级）, Velkonite 采集器 500（1 级），12,500（20 级）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 500（1 级），11,000（20 级）, 信用点农场 0（1 级），550（20 级）, 锻造厂 500（1 级），10,000（20 级）, Orvium 采集器 500（1 级），12,500（20 级）, 研究中心 500（每级 x1.5）, 火箭工厂 500（1 级），2,800（20 级）, 太阳能 50（1 级），10,000（20 级）, 资源仓库 250（1 级），550（20 级）, Thulium 农场 500（1 级），16,000（20 级）, Velkonite 采集器 500（1 级），12,500（20 级）。
 - **[研究](/wiki/03-Mechanics/Research.md#the-thulium-boost)**：研究中心的一次加速需要 5,000 Thulium。
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**：每次跳跃 500 Thulium。
 - **能量具现器**：每次扫描 5 Thulium，用于寻找 Chrono-Gate 的零件（[详情](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
@@ -670,7 +671,7 @@
 
 - **货箱**：外星人的掉落物会落在它爆炸处的一个货箱里，在 30 秒内专属于击杀它的飞行员和其战队。[Resource Magnet Booster](/wiki/06-Items/Boosters.md) 会让货箱的内容增加 25%。参见[货箱](/wiki/03-Mechanics/Cargo.md)。
 - **残骸**：被摧毁的[企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)不会留下货箱和零件，无论是谁或什么摧毁了它，所以飞行员的舰船不是材料来源。和平协议结束后，在你的[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)允许 PvP 的地方，你可以击落另一家企业的飞行员；摧毁你自己企业的飞行员会扣 100 荣誉。
-- **模块升级**：装配站通过升级低一级的部件来制造 Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III 和 Penetration Amp IV，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Quantum Laser III, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation 和 Gyre Formation 相同。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+- **模块升级**：装配站通过升级低一级的部件来制造 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III 和 Penetration Amp IV，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation 和 Gyre Formation 相同。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 - **存放位置**：装配站、锻造炉和 Skylab 建造使用的是物品栏里零散的物品堆。舰船上或运输储藏库中的物品堆不算。
 - **重置**：你物品栏中的材料遵循[重置规则](/wiki/03-Mechanics/Wipe-Timeline.md)；存放在 Skylab 资源仓库里的矿石会保留。
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Enchères -->
 # Enchères {#auction}
 
@@ -25,7 +25,7 @@ Les Enchères sont le marché des pilotes et, en même temps, les lots de chaque
 
 ## Objets vendables {#marketable-items}
 
-Seuls les objets que vous avez **gagnés** peuvent être vendus. Tout ce que vous gagnez porte dans le [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) une petite étiquette, **Vendable** : ce que vous ramassez dans l’espace (butin des aliens, des essaims, des Wardens et du trou noir : [Cargaison](/wiki/03-Mechanics/Cargo.md)), ce que paie une mission ([Quêtes](/wiki/03-Mechanics/Quests.md#rewards)) et tout ce que fabriquent l’Assemblage et la Forge. Ce que vous avez **acheté** en Boutique, gagné dans un lot, acheté sur le Marché, reçu avec un code bonus, un pack d’invitation ou le kit de départ, ou récupéré en remboursement n’est pas vendable et ne peut jamais être revendu, pour que rien ne soit acheté juste pour être revendu. Les plaques que fabrique la Fonderie du Skylab ne sont pas vendables non plus ; les Reinforced Plates qu’une mission paie le sont.
+Seuls les objets que vous avez **gagnés** peuvent être vendus. Tout ce que vous gagnez porte dans le [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) une petite étiquette, **Vendable** : ce que vous ramassez dans l’espace (butin des aliens, des essaims, des Wardens et du trou noir : [Cargaison](/wiki/03-Mechanics/Cargo.md)), ce que paie une mission ([Quêtes](/wiki/03-Mechanics/Quests.md#rewards)) et tout ce que fabriquent l’Assemblage et la Forge. Ce que vous avez **acheté** en Boutique, gagné dans un lot, acheté sur le Marché, reçu avec un code bonus, un pack d’invitation ou le kit de départ, ou récupéré en remboursement n’est pas vendable et ne peut jamais être revendu, pour que rien ne soit acheté juste pour être revendu. Les plaques que fabrique la Fonderie du Skylab ne sont pas vendables non plus ; les Reinforced Plates qu’une mission paie le sont. Les munitions et les roquettes que fabriquent l’Imprimante à munitions et l’Usine à roquettes du Skylab ne sont pas vendables non plus.
 
 L’étiquette est un nombre d’unités, pas un interrupteur : une pile de munitions peut contenir des coups achetés et gagnés, et la fiche indique « Vendable (3 sur 5) ». Quand vous utilisez une partie d’une pile (tir, fabrication), les unités ordinaires partent d’abord, si bien que les vendables durent le plus longtemps. Fusionner deux pièces dans la [Forge](/wiki/06-Items/Forge.md#merge) ne garde l’étiquette que si les deux pièces l’avaient, et l’aperçu le dit ; une étape de la Forge qui échoue rend ses matériaux sous forme d’unités ordinaires.
 
@@ -68,7 +68,7 @@ Chaque objet a un **prix minimum** et il n’y a **pas de prix maximum** : dema
 | Objet | Vendu par lots de | Prix minimum, crédits | Prix minimum, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32 000 | 32 |
-| Quantum Laser III | 1 | 170 000 | 170 |
+| Quantum Laser III | 1 | 210 000 | 210 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
@@ -119,8 +119,8 @@ Une annonce coûte un **dépôt**, payé à la mise en vente et jamais rembours�
 
 | Annonce | Prix | Dépôt | Taxe | Le vendeur reçoit |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III : niveau 6, 24 h | 170 000 crédits | 1 700 crédits | 8 500 crédits | 161 500 crédits |
-| Quantum Laser III : niveau 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III : niveau 6, 24 h | 210 000 crédits | 2 100 crédits | 10 500 crédits | 199 500 crédits |
+| Quantum Laser III : niveau 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam : niveau 12, 168 h | 2 500 000 crédits | 262 500 crédits | 125 000 crédits | 2 375 000 crédits |
 | Helios Beam : niveau 12, 168 h, pendant les derniers jours d’une saison | 2 500 000 crédits | 0 crédits | 0 crédits | 2 500 000 crédits |
 

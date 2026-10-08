@@ -43,14 +43,14 @@ Autonomous AI agents, tool callers, and automation frameworks should use SpaceCo
 ---
 
 <!-- release:telemetry -->
-## Current Release Telemetry (v0.4.14)
+## Current Release Telemetry (v0.4.15)
 
 | OS | Architecture | Package | Direct Download URL | File Size | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 136,668,403 bytes | 385e87a820ddafcac8145b6e8c58eb535b262d35f48f7a54aa2e57299e6bf730 |
-| Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 130,596,524 bytes | db4a410c8d1074c247f536a9a653f205f709c075c7074d29e6c211f4a4152115 |
-| Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 126,175,736 bytes | c6aeb9ed474bded88679c5dbda558c5d13c1e674f7749acbb4d5236348aa94b9 |
-| Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 131,422,321 bytes | 27573f486fb4e6728db14dbec87679faeca0ec190e927aeba82829eaec8400bf |
+| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 138,787,464 bytes | 9e28c083ea9e0bd3f077710a5027c597a533128dc8cdde590f83c550260501f3 |
+| Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 132,882,749 bytes | 2141d5a4181510dbb2d6703f7e0ab818e08444717242d7ae7ba48842ca3f975f |
+| Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 128,387,576 bytes | 405fb465d63769b3173d7553534f242479e9b8389d52af9b2bc64612f96b0abb |
+| Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 133,723,035 bytes | d7a327f4ea1ba5f9ae8d829bcac14cb1b45184a3d6500783796f0641813a2b52 |
 
 Released 2026-10-08. These values are `release.json`'s, written from it at release time.
 <!-- /release:telemetry -->
@@ -63,7 +63,7 @@ Released 2026-10-08. These values are `release.json`'s, written from it at relea
 ### macOS
 ```bash
 curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg
-echo "385e87a820ddafcac8145b6e8c58eb535b262d35f48f7a54aa2e57299e6bf730  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
+echo "9e28c083ea9e0bd3f077710a5027c597a533128dc8cdde590f83c550260501f3  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
 hdiutil attach SpaceCorps2027-macos-universal.dmg
 cp -R "/Volumes/SpaceCorps 2027/SpaceCorps 2027.app" /Applications/
 hdiutil detach "/Volumes/SpaceCorps 2027"
@@ -74,7 +74,7 @@ xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"
 ```powershell
 Invoke-WebRequest -Uri "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip" -OutFile "SpaceCorps2027.zip"
 $hash = (Get-FileHash -Path "SpaceCorps2027.zip" -Algorithm SHA256).Hash.ToLower()
-if ($hash -ne "db4a410c8d1074c247f536a9a653f205f709c075c7074d29e6c211f4a4152115") { throw "Checksum mismatch" }
+if ($hash -ne "2141d5a4181510dbb2d6703f7e0ab818e08444717242d7ae7ba48842ca3f975f") { throw "Checksum mismatch" }
 Expand-Archive -Path "SpaceCorps2027.zip" -DestinationPath "$HOME\SpaceCorps2027"
 # The game is "$HOME\SpaceCorps2027\SpaceCorps 2027\spacecorps2027.exe": one program, no assets folder.
 ```
@@ -82,7 +82,7 @@ Expand-Archive -Path "SpaceCorps2027.zip" -DestinationPath "$HOME\SpaceCorps2027
 ### Linux
 ```bash
 curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage
-echo "c6aeb9ed474bded88679c5dbda558c5d13c1e674f7749acbb4d5236348aa94b9  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "405fb465d63769b3173d7553534f242479e9b8389d52af9b2bc64612f96b0abb  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 chmod +x SpaceCorps2027-linux-x86_64.AppImage
 ./SpaceCorps2027-linux-x86_64.AppImage
 ```

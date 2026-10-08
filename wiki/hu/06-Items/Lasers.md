@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9288511cf701ce85 -->
+<!-- wiki-i18n source: 15d21ac63e808c91 -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -16,7 +16,7 @@ Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret
 ```tree
 Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
 Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -37,7 +37,7 @@ Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
+Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -65,19 +65,21 @@ A lézerek az [aszteroidákat](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-on
 
 ### A legfelső három lézer elkészítése {#making-the-top-three-lasers}
 
-A **Quantum Laser III**, a **Starfire-III** és a **Helios Beam** csak a **Gyártásban** készül. A Quantum Laser III-at már nem árulják a Boltban; aki már birtokol egyet, megtartja. Mindegyik recept a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelyéből származó lemezeket kér, a Helios Beam pedig ezenfelül 3 Dark Matter Plate-et:
+A **Quantum Laser III**, a **Starfire-III** és a **Helios Beam** csak a **Gyártásban** készül, mindegyik a nála eggyel gyengébb lézerből: a Boltból származó Quantum Laser II-ből Quantum Laser III lesz, abból Starfire-III, abból pedig Helios Beam. A Quantum Laser III-at már nem árulják a Boltban; aki már birtokol egyet, megtartja. Mindegyik recept a [Skylab](/wiki/03-Mechanics/Skylab.md) kovácsműhelyéből származó lemezeket kér, a Helios Beam pedig ezenfelül 3 Dark Matter Plate-et:
 
 | Lézer | Gyártási idő | Ez kell hozzá |
 | :--- | :---: | :--- |
-| Quantum Laser III | 1 perc | 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
+| Quantum Laser III | 1 perc | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1 500 Thulium |
 | Starfire-III | 1 perc | 1 Quantum Laser III, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 1 Reinforced Hull Plate, 1 500 Thulium, 100 000 kredit |
 | Helios Beam | 3 perc | 1 Starfire-III, 50 Cataclysite, 2 Power Core, 18 Orvium Reinforced Plate, 3 Dark Matter Plate, 4 Reinforced Hull Plate, 2 000 Thulium |
 
 A Gyártás oldal megmutatja, mid van meg ahhoz képest, amit egy recept kér, az Elkészítés gomb pedig megmondja, mi hiányzik. Ha egy recept képére vagy nevére, esetleg valamelyik alapanyagára mutatsz, megjelenik a tárgy teljes leírása és az értékei.
 
-**A Starfire-III egy Quantum Laser III-ból készül.** Előbb elkészíted a Quantum Laser III-at, a Starfire-III pedig elhasználja. Amit a Quantum Laser III már elvett, azt nem kéri újra, így a kettő együtt pontosan azt kéri, amit egy Starfire-III önmagában kért: 3 000 Thuliumot, 100 000 kreditet, 25 Ship Fragmentet, 10 Velkonite Reinforced Plate-et, 1 Reinforced Hull Plate-et és 2 percet. Ha már van Quantum Laser III-ad, csak a Starfire-III saját részét fizeted. A szabályok a Helios Beaméi, lent: a Starfire-III megtartja az elhasznált Quantum Laser III bűvölési fokozatát (egy Isteni Quantum Laser III-ból Isteni Starfire-III lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Quantum Laser III megy el, a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel, és a Quantum Laser III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (az erősítői visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Quantum Laser III”.
+**A Quantum Laser III egy Quantum Laser II-ből készül.** A Quantum Laser II a Bolt lézere (80 000 kredit), a Quantum Laser III pedig elhasználja, így a recept 10 Ship Fragmentje, 2 Velkonite Reinforced Plate-je és 1 500 Thuliumja azon felül jön, amit a Quantum Laser II-ért a Boltban fizetsz. A szabályok a Starfire-III-éi, lent: a Quantum Laser III megtartja az elhasznált Quantum Laser II bűvölési fokozatát (egy Isteni Quantum Laser II-ből Isteni Quantum Laser III lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Quantum Laser II megy el, a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel, és a Quantum Laser II-nek szabadnak kell lennie: **előbb vedd le a hajódról** (az erősítői visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Quantum Laser II”.
 
-**A Helios Beam egy Starfire-III-ból készül.** Előbb elkészíted a Starfire-III-at (3 000 Thulium és 100 000 kredit a hozzá tartozó Quantum Laser III-mal együtt), a Helios Beam pedig elhasználja, ahogyan a [Master Drone](/wiki/06-Items/Drones.md) elhasznál egy Slave Drone-t. Amit a Starfire-III már elvett, azt nem kéri újra, így a kettő együtt azt kéri, amit a Helios Beam önmagában kért: az 5 000 Thuliumot, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull Plate-eket, valamint 18 Orvium lemezt 20 helyett (a Starfire-III tíz Velkonite lemeze pótolja a hiányzó kettőt), és mivel a Helios Beam a láncának utolsó szintje, 3 Dark Matter Plate-et; ezenkívül a Starfire-III-hoz tartozó 100 000 kreditet és 25 Ship Fragmentet fizeted. A szabály ugyanaz, mint a [modulfejlesztéseknél](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): a Helios Beam megtartja az elhasznált Starfire-III bűvölési fokozatát (egy Isteni Starfire-III-ból Isteni Helios Beam lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Starfire-III megy el, ha több is van nálad, és a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel. A Starfire-III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (a belé szerelt erősítők visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Starfire-III”.
+**A Starfire-III egy Quantum Laser III-ból készül.** Előbb elkészíted a Quantum Laser III-at, a Starfire-III pedig elhasználja. Amit a Quantum Laser III már elvett, azt nem kéri újra, így a kettő együtt azt kéri, amit egy Starfire-III önmagában kért (3 000 Thuliumot, 100 000 kreditet, 25 Ship Fragmentet, 10 Velkonite Reinforced Plate-et, 1 Reinforced Hull Plate-et és 2 percet), és ezen felül azt a Quantum Laser II-t, amelyet a Quantum Laser III elhasznál. Ha már van Quantum Laser III-ad, csak a Starfire-III saját részét fizeted. A szabályok a Helios Beaméi, lent: a Starfire-III megtartja az elhasznált Quantum Laser III bűvölési fokozatát (egy Isteni Quantum Laser III-ból Isteni Starfire-III lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Quantum Laser III megy el, a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel, és a Quantum Laser III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (az erősítői visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Quantum Laser III”.
+
+**A Helios Beam egy Starfire-III-ból készül.** Előbb elkészíted a Starfire-III-at (3 000 Thulium és 100 000 kredit a hozzá tartozó Quantum Laser III-mal együtt, amely elhasznál egy Quantum Laser II-t), a Helios Beam pedig elhasználja, ahogyan a [Master Drone](/wiki/06-Items/Drones.md) elhasznál egy Slave Drone-t. Amit a Starfire-III már elvett, azt nem kéri újra, így a kettő együtt azt kéri, amit a Helios Beam önmagában kért: az 5 000 Thuliumot, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull Plate-eket, valamint 18 Orvium lemezt 20 helyett (a Starfire-III tíz Velkonite lemeze pótolja a hiányzó kettőt), és mivel a Helios Beam a láncának utolsó szintje, 3 Dark Matter Plate-et; ezenkívül a Starfire-III-hoz tartozó 100 000 kreditet és 25 Ship Fragmentet fizeted, meg a lánc elején álló egy Quantum Laser II-t. A szabály ugyanaz, mint a [modulfejlesztéseknél](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly): a Helios Beam megtartja az elhasznált Starfire-III bűvölési fokozatát (egy Isteni Starfire-III-ból Isteni Helios Beam lesz), a bónuszai pedig újra kisorsolódnak; te döntöd el, melyik Starfire-III megy el, ha több is van nálad, és a kártya megkérdezi, mielőtt a Normálnál magasabbat használna fel. A Starfire-III-nak szabadnak kell lennie: **előbb vedd le a hajódról** (a belé szerelt erősítők visszakerülnek a leltárba), és vedd ki a tranzittárolóból is. Ha a hajón van, az Elkészítés gomb ezt írja: „Előbb vedd le: Starfire-III”.
 
 Honnan jönnek a lemezek:
 

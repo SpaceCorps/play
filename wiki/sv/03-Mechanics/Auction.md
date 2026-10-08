@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -25,7 +25,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 
 ## Säljbara föremål {#marketable-items}
 
-Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det.
+Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det. Ammunitionen och raketerna som Ammunitionsskrivaren och Raketfabriken i Skylab tillverkar är inte heller säljbara.
 
 Etiketten är ett antal enheter, inte en strömbrytare: en ammunitionshög kan innehålla både köpta och förtjänade skott, och kortet säger ”Säljbart (3 av 5)”. När du använder en del av en hög (skjuter, tillverkar) går de vanliga enheterna först, så att de säljbara räcker längst. När du slår ihop två delar i [Smedjan](/wiki/06-Items/Forge.md#merge) finns etiketten kvar bara om båda delarna hade den, och förhandsvisningen säger det; ett steg i Smedjan som misslyckas ger tillbaka sitt material som vanliga enheter.
 
@@ -68,7 +68,7 @@ Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: 
 | Föremål | Säljs i partier om | Lägsta pris, krediter | Lägsta pris, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32 000 | 32 |
-| Quantum Laser III | 1 | 170 000 | 170 |
+| Quantum Laser III | 1 | 210 000 | 210 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
@@ -119,8 +119,8 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 
 | Annons | Pris | Deposition | Skatt | Säljaren får |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: nivå 6, 24 h | 170 000 krediter | 1 700 krediter | 8 500 krediter | 161 500 krediter |
-| Quantum Laser III: nivå 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: nivå 6, 24 h | 210 000 krediter | 2 100 krediter | 10 500 krediter | 199 500 krediter |
+| Quantum Laser III: nivå 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: nivå 12, 168 h | 2 500 000 krediter | 262 500 krediter | 125 000 krediter | 2 375 000 krediter |
 | Helios Beam: nivå 12, 168 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
 

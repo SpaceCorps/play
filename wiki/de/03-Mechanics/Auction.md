@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -25,7 +25,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 
 ## Handelbare Gegenstände {#marketable-items}
 
-Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es.
+Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es. Auch die Munition und die Raketen, die der Munitionsdrucker und die Raketenfabrik des Skylab herstellen, sind nicht handelbar.
 
 Das Etikett ist eine Anzahl von Einheiten, kein Schalter: Ein Munitionsstapel kann gekaufte und verdiente Schuss enthalten, und die Karte zeigt „Handelbar (3 von 5)“. Wenn du einen Teil eines Stapels verbrauchst (Schießen, Herstellen), gehen zuerst die einfachen Einheiten weg, sodass die handelbaren am längsten halten. Beim Zusammenführen zweier Stücke in der [Schmiede](/wiki/06-Items/Forge.md#merge) bleibt das Etikett nur, wenn beide Stücke es hatten, und die Vorschau sagt das; ein fehlgeschlagener Schritt der Schmiede gibt seine Materialien als einfache Einheiten zurück.
 
@@ -68,7 +68,7 @@ Jede Sorte hat einen **Mindestpreis**, und es gibt **keinen Höchstpreis**: Verl
 | Sorte | Verkauft in Posten zu | Mindestpreis, Credits | Mindestpreis, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32.000 | 32 |
-| Quantum Laser III | 1 | 170.000 | 170 |
+| Quantum Laser III | 1 | 210.000 | 210 |
 | Helios Beam | 1 | 1.600.000 | 1.600 |
 | Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
 | Heavy Shield Core | 1 | 870.000 | 870 |
@@ -119,8 +119,8 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 
 | Angebot | Preis | Einstellgebühr | Steuer | Der Verkäufer erhält |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: Level 6, 24 h | 170.000 Credits | 1.700 Credits | 8.500 Credits | 161.500 Credits |
-| Quantum Laser III: Level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: Level 6, 24 h | 210.000 Credits | 2.100 Credits | 10.500 Credits | 199.500 Credits |
+| Quantum Laser III: Level 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: Level 12, 168 h | 2.500.000 Credits | 262.500 Credits | 125.000 Credits | 2.375.000 Credits |
 | Helios Beam: Level 12, 168 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
 

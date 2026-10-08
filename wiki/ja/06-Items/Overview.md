@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2c5a34006933e29 -->
+<!-- wiki-i18n source: 5c120158150a483e -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
@@ -54,7 +54,7 @@ Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.
 
 プレートはドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、ティアIIとIIIの Velkonite Reinforced Plate を Velkonite 鉱石から作ります（鍛造所レベル1ではプレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、ティアIIIのセルやスラスターのプレート4枚は16時間分、ティアIIのプレート2枚は8時間分の採掘になります。ティアIIIのアンプはプレート2枚（8時間分）、ティアIIのアンプはプレート1枚（4時間分）です。最終ティアは、代わりに **Dark Matter Plate 3枚** を要求します。対象は、ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Helios Beam です。アセンブリは、プレートのレシピを研究したあとで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium からプレート1枚を圧縮します。Dark Matter はブラックホールから来るので、最終ティアの部品1つに Dark Matter 15個、N.I.K.E. ロケット平均7.5発分が入っています（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)を参照してください。
 
-**Helios Beam** も同じ種類の強化で、レーザーからレーザーを作ります。Starfire-III を1基消費し、2,000 Thulium、Cataclysite 50個、Power Core 2個、Reinforced Hull Plate 4枚、Orvium Reinforced Plate 18枚、Dark Matter Plate 3枚が必要で、同じように Starfire-III のエンチャント段階を引き継ぎます。**Starfire-III** も同様です。Quantum Laser III を1基消費し、1,500 Thulium、100,000クレジット、Ship Fragment 15個、Reinforced Hull Plate 1枚、Velkonite Reinforced Plate 8枚が必要で、Quantum Laser III のエンチャント段階を引き継ぎます。どちらも[レーザー](/wiki/06-Items/Lasers.md)のページに載っています。上の表に載っているのは、アンプ、ティアII～IVのセルとスラスター、Heavy Shield Core、Engine III です。
+**Helios Beam** も同じ種類の強化で、レーザーからレーザーを作ります。Starfire-III を1基消費し、2,000 Thulium、Cataclysite 50個、Power Core 2個、Reinforced Hull Plate 4枚、Orvium Reinforced Plate 18枚、Dark Matter Plate 3枚が必要で、同じように Starfire-III のエンチャント段階を引き継ぎます。**Starfire-III** も同様です。Quantum Laser III を1基消費し、1,500 Thulium、100,000クレジット、Ship Fragment 15個、Reinforced Hull Plate 1枚、Velkonite Reinforced Plate 8枚が必要で、Quantum Laser III のエンチャント段階を引き継ぎます。**Quantum Laser III** も同様です。Quantum Laser II（ショップのレーザー）を1基消費し、1,500 Thulium、Ship Fragment 10個、Velkonite Reinforced Plate 2枚が必要で、Quantum Laser II のエンチャント段階を引き継ぎます。3つとも[レーザー](/wiki/06-Items/Lasers.md)のページに載っています。上の表に載っているのは、アンプ、ティアII～IVのセルとスラスター、Heavy Shield Core、Engine III です。
 
 ## アイテムのエンチャント {#item-enchants}
 
@@ -68,7 +68,7 @@ Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.
 | 4. **破裂** | 3 | +6～+11% | 0.1% |
 | 5. **永遠** | 4 | +9～+15% | 0.01% |
 
-- ショップのアイテムは常に標準です。アセンブリで製作した装備は、受け取るときに段階が決まります（確率の列）。それより上の段階へは、[鍛冶場](/wiki/06-Items/Forge.md)で1段階ずつ上げていきます。もう1つの方法は、アセンブリでのモジュールの強化（Damage Amp IV、Crit Amp IV、ティアII～IVのシールドセルとスラスター、Heavy Shield Core、Engine III、Helios Beam）で、これは元の部品の段階を引き継ぎます。
+- ショップのアイテムは常に標準です。アセンブリで製作した装備は、受け取るときに段階が決まります（確率の列）。それより上の段階へは、[鍛冶場](/wiki/06-Items/Forge.md)で1段階ずつ上げていきます。もう1つの方法は、アセンブリでのモジュールの強化（Damage Amp IV、Crit Amp IV、ティアII～IVのシールドセルとスラスター、Heavy Shield Core、Engine III、Quantum Laser III、Starfire-III、Helios Beam）で、これは元の部品の段階を引き継ぎます。
 - アイテムは、自身が持つステータスの数を超えるボーナスを持てません。シールドコアは4つ、レーザーは3つ（Quantum Laser I と II は固有のクリティカル率がないため2つ）、エンジン、Momentum Thruster、アダプティブコアは2つ、Impulse Thruster、Crit Amp I、Repair Drone は1つ（Impulse Thruster は強化できるのが固定の速度だけです。1.02～1.035倍の倍率には鍛冶場はボーナスを付けません。効果はほとんどないからです）、それより上位のクリティカルアンプは2つ、ダメージアンプとシールドセルは3つです。段階の上限は、この2つの数のうち小さい方です。Penetration Amp のステータスは1つだけなので、ボーナスも1つしか持てません。
 - [鍛冶場](/wiki/06-Items/Forge.md#buffs-by-tier)は、アイテムの最初のボーナスより後の枠を確率でしか埋めません。段階アップでは最初のボーナスは必ず付き、新しい段階で増えるほかの枠は50%の確率で埋まります。そのため、1つの段階が持てるボーナスはその数までです（神級のアイテムは半分の確率で2つ）。
 - **射程**のボーナスは、どの段階でも +5% を超えません。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9288511cf701ce85 -->
+<!-- wiki-i18n source: 15d21ac63e808c91 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -16,7 +16,7 @@ SpaceCorps에서 무기는 피해를 입히는 주된 수단입니다.
 ```tree
 Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
 Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -37,7 +37,7 @@ Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
+Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -65,19 +65,21 @@ Quantum Laser I, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯
 
 ### 상위 레이저 3종 제작 {#making-the-top-three-lasers}
 
-**Quantum Laser III**, **Starfire-III**, **Helios Beam**은 **어셈블리**에서만 만들 수 있습니다. Quantum Laser III는 더 이상 상점에서 판매하지 않으며, 이미 보유한 파일럿은 계속 가지고 있습니다. 각 제작법에는 [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소에서 만든 플레이트가 필요하며, Helios Beam에는 Dark Matter Plate 3개도 필요합니다.
+**Quantum Laser III**, **Starfire-III**, **Helios Beam**은 **어셈블리**에서만 만들 수 있으며, 각각 한 단계 아래 레이저로 만듭니다. 상점의 Quantum Laser II가 Quantum Laser III가 되고, 그것이 Starfire-III가 되며, 다시 Helios Beam이 됩니다. Quantum Laser III는 더 이상 상점에서 판매하지 않으며, 이미 보유한 파일럿은 계속 가지고 있습니다. 각 제작법에는 [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소에서 만든 플레이트가 필요하며, Helios Beam에는 Dark Matter Plate 3개도 필요합니다.
 
 | 레이저 | 제작 시간 | 필요 재료 |
 | :--- | :---: | :--- |
-| Quantum Laser III | 1분 | Ship Fragment 10개, Velkonite Reinforced Plate 2개, 1,500 Thulium |
+| Quantum Laser III | 1분 | Quantum Laser II 1개, Ship Fragment 10개, Velkonite Reinforced Plate 2개, 1,500 Thulium |
 | Starfire-III | 1분 | Quantum Laser III 1개, Ship Fragment 15개, Velkonite Reinforced Plate 8개, Reinforced Hull Plate 1개, 1,500 Thulium, 100,000 크레딧 |
 | Helios Beam | 3분 | Starfire-III 1개, Cataclysite 50개, Power Core 2개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개, Reinforced Hull Plate 4개, 2,000 Thulium |
 
 어셈블리 페이지에는 제작법에 필요한 양과 보유량이 나란히 표시되며, 조립 버튼에는 부족한 것이 표시됩니다. 레시피의 이미지나 이름, 또는 재료에 마우스를 올리면 아이템의 전체 설명과 능력치가 표시됩니다.
 
-**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 예전에 Starfire-III 하나가 단독으로 요구하던 것과 정확히 같습니다. 3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 10개, Reinforced Hull Plate 1개, 그리고 2분입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급을 이어받고(신성한 Quantum Laser III로는 신성한 Starfire-III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
+**Quantum Laser III는 Quantum Laser II를 재료로 만듭니다.** Quantum Laser II는 상점에서 파는 레이저(80,000 크레딧)입니다. Quantum Laser III는 그것을 소모하므로, 제작법의 Ship Fragment 10개, Velkonite Reinforced Plate 2개, 1,500 Thulium은 상점에서 치른 Quantum Laser II에 더해집니다. 규칙은 아래에 나오는 Starfire-III의 규칙과 같습니다. Quantum Laser III는 소모한 Quantum Laser II의 인챈트 등급을 이어받고(신성한 Quantum Laser II로는 신성한 Quantum Laser III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser II를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser II는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser II 해제”라고 표시됩니다.
 
-**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 10장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 3개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급을 이어받고(신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다) 보너스는 다시 굴리며, 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
+**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 예전에 Starfire-III 하나가 단독으로 요구하던 것(3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 10개, Reinforced Hull Plate 1개, 그리고 2분)에, Quantum Laser III가 소모하는 Quantum Laser II를 더한 것입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급을 이어받고(신성한 Quantum Laser III로는 신성한 Starfire-III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
+
+**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧. Quantum Laser III는 Quantum Laser II를 소모합니다), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 10장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 3개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개, 그리고 계열 맨 앞의 Quantum Laser II 1개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급을 이어받고(신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다) 보너스는 다시 굴리며, 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
 
 플레이트의 출처는 다음과 같습니다.
 

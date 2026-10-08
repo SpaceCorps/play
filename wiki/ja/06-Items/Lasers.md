@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9288511cf701ce85 -->
+<!-- wiki-i18n source: 15d21ac63e808c91 -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -16,7 +16,7 @@
 ```tree
 Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
 Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
@@ -37,7 +37,7 @@ Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-
 Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
 
-Quantum Laser I -> Quantum Laser II -> Quantum Laser III => Starfire-III => Helios Beam
+Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
@@ -65,19 +65,21 @@ Quantum Laser I と II には、固有のクリティカル率がありません
 
 ### 上位3種のレーザーの製作 {#making-the-top-three-lasers}
 
-**Quantum Laser III**、**Starfire-III**、**Helios Beam** は、**アセンブリ**でのみ製作できます。Quantum Laser III はショップではもう販売されていませんが、すでに持っているパイロットはそのまま使えます。どのレシピも、[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所で作るプレートを必要とし、Helios Beam はさらに Dark Matter Plate 3枚を必要とします。
+**Quantum Laser III**、**Starfire-III**、**Helios Beam** は、**アセンブリ**でのみ製作できます。どれも1つ下のレーザーから作ります。ショップの Quantum Laser II が Quantum Laser III に、それが Starfire-III に、さらに Helios Beam になります。Quantum Laser III はショップではもう販売されていませんが、すでに持っているパイロットはそのまま使えます。どのレシピも、[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所で作るプレートを必要とし、Helios Beam はさらに Dark Matter Plate 3枚を必要とします。
 
 | レーザー | 製作時間 | 必要なもの |
 | :--- | :---: | :--- |
-| Quantum Laser III | 1分 | Ship Fragment 10個、Velkonite Reinforced Plate 2枚、1,500 Thulium |
+| Quantum Laser III | 1分 | Quantum Laser II 1基、Ship Fragment 10個、Velkonite Reinforced Plate 2枚、1,500 Thulium |
 | Starfire-III | 1分 | Quantum Laser III 1基、Ship Fragment 15個、Velkonite Reinforced Plate 8枚、Reinforced Hull Plate 1枚、1,500 Thulium、100,000クレジット |
 | Helios Beam | 3分 | Starfire-III 1基、Cataclysite 50個、Power Core 2個、Orvium Reinforced Plate 18枚、Dark Matter Plate 3枚、Reinforced Hull Plate 4枚、2,000 Thulium |
 
 アセンブリのページには、所持しているものとレシピに必要なものが並べて表示され、「製作」ボタンには足りないものが表示されます。 レシピの画像や名前、またはその材料にカーソルを合わせると、アイテムの説明全文とステータスが表示されます。
 
-**Starfire-III は Quantum Laser III から作ります。**まず Quantum Laser III を作り、Starfire-III はそれを消費します。Quantum Laser III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Starfire-III が単独で要求していたものとちょうど同じで、3,000 Thulium、100,000クレジット、Ship Fragment 25個、Velkonite Reinforced Plate 10枚、Reinforced Hull Plate 1枚、そして2分です。すでに Quantum Laser III を持っているなら、支払うのは Starfire-III 自身の分だけです。ルールは、下の Helios Beam と同じです。Starfire-III は、消費した Quantum Laser III のエンチャント段階を引き継ぎ（神級の Quantum Laser III からは神級の Starfire-III ができます）、ボーナスは引き直されます。どの Quantum Laser III を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIIを外してください」と表示されます。
+**Quantum Laser III は Quantum Laser II から作ります。**Quantum Laser II はショップのレーザー（80,000クレジット）で、Quantum Laser III はそれを消費します。そのため、レシピの Ship Fragment 10個、Velkonite Reinforced Plate 2枚、1,500 Thulium は、ショップで支払う Quantum Laser II に上乗せされます。ルールは、下の Starfire-III と同じです。Quantum Laser III は、消費した Quantum Laser II のエンチャント段階を引き継ぎ（神級の Quantum Laser II からは神級の Quantum Laser III ができます）、ボーナスは引き直されます。どの Quantum Laser II を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser II は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIを外してください」と表示されます。
 
-**Helios Beam は Starfire-III から作ります。**まず Starfire-III を作り（Quantum Laser III を含めて3,000 Thulium と100,000クレジット）、Helios Beam はそれを消費します。[Master Drone](/wiki/06-Items/Drones.md) が Slave Drone を消費するのと同じです。Starfire-III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Helios Beam が単独で要求していた5,000 Thulium、Cataclysite、Power Core、Reinforced Hull Plate と、20枚ではなく18枚の Orvium プレート（Starfire-III の Velkonite プレート10枚が、不足する2枚の代わりになります）、そして Helios Beam は系統の最終ティアなので Dark Matter Plate 3枚です。これ以外にかかるのは、Starfire-III の100,000クレジットと Ship Fragment 25個です。ルールは[モジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)と同じです。Helios Beam は、消費した Starfire-III のエンチャント段階を引き継ぎ（神級の Starfire-III からは神級の Helios Beam ができます）、ボーナスは引き直されます。複数持っている場合はどの Starfire-III を使うか選べ、標準より上の段階のものを使うときは、カードが先に確認します。Starfire-III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にStarfire-IIIを外してください」と表示されます。
+**Starfire-III は Quantum Laser III から作ります。**まず Quantum Laser III を作り、Starfire-III はそれを消費します。Quantum Laser III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Starfire-III が単独で要求していたもの（3,000 Thulium、100,000クレジット、Ship Fragment 25個、Velkonite Reinforced Plate 10枚、Reinforced Hull Plate 1枚、そして2分）に、Quantum Laser III が消費する Quantum Laser II を加えたものです。すでに Quantum Laser III を持っているなら、支払うのは Starfire-III 自身の分だけです。ルールは、下の Helios Beam と同じです。Starfire-III は、消費した Quantum Laser III のエンチャント段階を引き継ぎ（神級の Quantum Laser III からは神級の Starfire-III ができます）、ボーナスは引き直されます。どの Quantum Laser III を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIIを外してください」と表示されます。
+
+**Helios Beam は Starfire-III から作ります。**まず Starfire-III を作り（Quantum Laser III を含めて3,000 Thulium と100,000クレジット。Quantum Laser III は Quantum Laser II を消費します）、Helios Beam はそれを消費します。[Master Drone](/wiki/06-Items/Drones.md) が Slave Drone を消費するのと同じです。Starfire-III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Helios Beam が単独で要求していた5,000 Thulium、Cataclysite、Power Core、Reinforced Hull Plate と、20枚ではなく18枚の Orvium プレート（Starfire-III の Velkonite プレート10枚が、不足する2枚の代わりになります）、そして Helios Beam は系統の最終ティアなので Dark Matter Plate 3枚です。これ以外にかかるのは、Starfire-III の100,000クレジットと Ship Fragment 25個、そして系統の最初にある Quantum Laser II 1基です。ルールは[モジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)と同じです。Helios Beam は、消費した Starfire-III のエンチャント段階を引き継ぎ（神級の Starfire-III からは神級の Helios Beam ができます）、ボーナスは引き直されます。複数持っている場合はどの Starfire-III を使うか選べ、標準より上の段階のものを使うときは、カードが先に確認します。Starfire-III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にStarfire-IIIを外してください」と表示されます。
 
 プレートの入手元：
 

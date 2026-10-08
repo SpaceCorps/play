@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b9606619f84bd51 -->
+<!-- wiki-i18n source: d7e1133b56dbdf93 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -25,7 +25,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 
 ## Eladható tárgyak {#marketable-items}
 
-Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen.
+Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen. A Skylab Lőszernyomtatójának és Rakétagyárának lőszerei és rakétái sem eladhatók.
 
 A címke egységek száma, nem kapcsoló: egy lőszerköteg tartalmazhat vásároltat és megszerzettet, a kártya pedig azt írja: „Eladható (3 / 5)”. Ha a köteg egy részét felhasználod (lövés, gyártás), először a közönséges egységek fogynak, így az eladhatók tartanak a legtovább. Két darab összevonásakor a [Kovácsműhelyben](/wiki/06-Items/Forge.md#merge) a címke csak akkor marad meg, ha mindkét darabnak megvolt, és az előnézet ezt jelzi; egy meghiúsult kovácsműhelyi lépés a nyersanyagait közönséges egységként adja vissza.
 
@@ -68,7 +68,7 @@ Minden tárgynak van **legkisebb ára**, és **legmagasabb ár nincs**: kérj an
 | Tárgy | Csomagméret | Legkisebb ár, kredit | Legkisebb ár, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32 000 | 32 |
-| Quantum Laser III | 1 | 170 000 | 170 |
+| Quantum Laser III | 1 | 210 000 | 210 |
 | Helios Beam | 1 | 1 600 000 | 1 600 |
 | Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
 | Heavy Shield Core | 1 | 870 000 | 870 |
@@ -119,8 +119,8 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 
 | Hirdetés | Ár | Letét | Adó | Az eladó kapja |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: 6. szint, 24 óra | 170 000 kredit | 1 700 kredit | 8 500 kredit | 161 500 kredit |
-| Quantum Laser III: 10. szint, 72 óra | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: 6. szint, 24 óra | 210 000 kredit | 2 100 kredit | 10 500 kredit | 199 500 kredit |
+| Quantum Laser III: 10. szint, 72 óra | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: 12. szint, 168 óra | 2 500 000 kredit | 262 500 kredit | 125 000 kredit | 2 375 000 kredit |
 | Helios Beam: 12. szint, 168 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
 

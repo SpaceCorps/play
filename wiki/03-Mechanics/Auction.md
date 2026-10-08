@@ -23,7 +23,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 
 ## Marketable items
 
-Only items you **earned** can be sold. Everything you earn carries a small tag, **Marketable**, in the [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items): what you pick up in space (alien, swarm, Warden and black hole drops: [Cargo Boxes](/wiki/03-Mechanics/Cargo.md)), what a mission pays ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) and everything the Assembly and the Forge make. What you **bought** in the Shop, won in a lot, bought on the Market, got from a bonus code, an invite pack or the starter kit, or got back as a refund is not Marketable and can never be sold again, so nothing is bought only to be resold. The plates the Skylab's Forgery makes are not Marketable either; the Reinforced Plates a mission pays are.
+Only items you **earned** can be sold. Everything you earn carries a small tag, **Marketable**, in the [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items): what you pick up in space (alien, swarm, Warden and black hole drops: [Cargo Boxes](/wiki/03-Mechanics/Cargo.md)), what a mission pays ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) and everything the Assembly and the Forge make. What you **bought** in the Shop, won in a lot, bought on the Market, got from a bonus code, an invite pack or the starter kit, or got back as a refund is not Marketable and can never be sold again, so nothing is bought only to be resold. The plates the Skylab's Forgery makes are not Marketable either; the Reinforced Plates a mission pays are. The ammo and the rockets that the Skylab's Ammo Printer and Rocket Factory make are not Marketable either.
 
 The tag is a number of units, not a switch: a stack of ammo can hold bought and earned rounds, and the card says "Marketable (3 of 5)". When you use part of a stack (firing, crafting) the plain units go first, so the Marketable ones last longest. Merging two pieces in the [Forge](/wiki/06-Items/Forge.md#merge) keeps the tag only when both pieces had it, and the merge preview says so; a Forge step that fails gives its materials back as plain units.
 
@@ -66,7 +66,7 @@ Every kind has a **least price**, and there is **no highest price**: ask what yo
 | Kind | Sold in lots of | Least price, Credits | Least price, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32,000 | 32 |
-| Quantum Laser III | 1 | 170,000 | 170 |
+| Quantum Laser III | 1 | 210,000 | 210 |
 | Helios Beam | 1 | 1,600,000 | 1,600 |
 | Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
 | Heavy Shield Core | 1 | 870,000 | 870 |
@@ -117,8 +117,8 @@ A listing costs a **deposit**, paid when you list and never returned, and a sale
 
 | Listing | Price | Deposit | Tax | The seller receives |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: level 6, 24 h | 170,000 Credits | 1,700 Credits | 8,500 Credits | 161,500 Credits |
-| Quantum Laser III: level 10, 72 h | 170 Thulium | 8 Thulium | 8 Thulium | 162 Thulium |
+| Quantum Laser III: level 6, 24 h | 210,000 Credits | 2,100 Credits | 10,500 Credits | 199,500 Credits |
+| Quantum Laser III: level 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
 | Helios Beam: level 12, 168 h | 2,500,000 Credits | 262,500 Credits | 125,000 Credits | 2,375,000 Credits |
 | Helios Beam: level 12, 168 h, in the last days of a season | 2,500,000 Credits | 0 Credits | 0 Credits | 2,500,000 Credits |
 
