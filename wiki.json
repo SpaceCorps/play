@@ -1,9 +1,9 @@
 {
-  "version": "0.4.17",
+  "version": "0.4.18",
   "date": "2026-10-09",
   "title": "SpaceCorps 2027 Wiki & Codex",
   "description": "The game's own wiki (assets/wiki of the release), rebuilt at every release: ships, mechanics, aliens and items, with the pictures the game shows.",
-  "source": "assets/wiki of SpaceCorps 2027 0.4.17",
+  "source": "assets/wiki of SpaceCorps 2027 0.4.18",
   "languages": [
     {
       "code": "de",

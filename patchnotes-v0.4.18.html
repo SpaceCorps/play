@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-i18n="patchnotes.meta.title">SpaceCorps 2027 · Patch notes</title>
-<meta name="description" content="Every update of SpaceCorps 2027, newest first: what changed for players in each release." data-i18n-content="patchnotes.meta.description">
+<title>SpaceCorps 2027 0.4.18 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.18: Fixes the Danger Sector update: the pulsars, the giant excavators and the Dormant Swamp now show when you fly into a Danger Sector through a gate.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#141312">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
 <meta name="author" content="SpaceCorps">
-<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes.html">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.18.html">
 <link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
-<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes.md">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.18.md">
 <link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
 <link rel="help" href="https://spacecorps.github.io/play/llms.txt">
 <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -26,14 +26,14 @@
 <link rel="manifest" href="site.webmanifest">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="SpaceCorps">
-<meta property="og:title" content="SpaceCorps 2027 · Patch notes">
-<meta property="og:description" content="Every update of SpaceCorps 2027, newest first: what changed for players in each release.">
-<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes.html">
+<meta property="og:title" content="SpaceCorps 2027 0.4.18 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.18: Fixes the Danger Sector update: the pulsars, the giant excavators and the Dormant Swamp now show when you fly into a Danger Sector through a gate.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.18.html">
 <meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SpaceCorps 2027 · Patch notes">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.18 · Patch notes">
 <meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
@@ -60,28 +60,38 @@
           "position": 3,
           "name": "Patch Notes",
           "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.18",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.18.html"
         }
       ]
     },
     {
-      "@type": "CollectionPage",
-      "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage",
-      "url": "https://spacecorps.github.io/play/patchnotes.html",
-      "name": "SpaceCorps 2027 Patch Notes",
-      "description": "Chronological release history and changelogs for SpaceCorps 2027.",
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.18.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.18.html",
+      "name": "SpaceCorps 2027 0.4.18 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.18: Fixes the Danger Sector update: the pulsars, the giant excavators and the Dormant Swamp now show when you fly into a Danger Sector through a gate.",
       "publisher": {
         "@type": "Organization",
         "name": "SpaceCorps",
         "url": "https://spacecorps.github.io/",
         "logo": "https://spacecorps.github.io/play/img/icon-128.png"
-      }
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-09"
     }
   ]
 }
 </script>
 <script>
 if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
-  window.location.href = 'patchnotes.md';
+  window.location.href = 'patchnotes/v0.4.18.md';
 }
 </script>
 <!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
@@ -196,7 +206,6 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
   <section class="section notes-page" aria-labelledby="notes-title">
     <div class="section-head">
       <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
-      <p data-i18n="patchnotes.page-lede">Every update of SpaceCorps 2027, newest first. The notes are written in English.</p>
     </div>
     <p class="notes-cta">
       <a class="btn btn-secondary" href="./#download">
@@ -218,124 +227,11 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
         <ul><li>The fix is on the server: you need no new game. The server restarts for the update and every pilot who is in a Danger Sector then is sent the sector as before.</li><li>A game of 0.4.16 or older still cannot see any of it; update the game.</li><li>Nobody has played a full excavator run, a Void wave or the swamp for long yet, and the numbers come from a model. Please tell us what feels wrong.</li></ul>
       </div>
     </article>
-    <section class="card note-index" aria-labelledby="note-index-title">
-      <h2 id="note-index-title" data-i18n="patchnotes.all">All patch notes</h2>
-      <ul class="note-index-list">
-        <li><a class="note-row" href="#v0.4.18"><span class="note-v">0.4.18</span><time class="note-d" datetime="2026-10-09" data-date>9 October 2026</time><span class="note-s" lang="en">Fixes the Danger Sector update: the pulsars, the giant excavators and the Dormant Swamp now show when you fly into a Danger Sector through…</span></a></li>
-        <li><details id="v0.4.17">
-          <summary><span class="note-v">0.4.17</span><time class="note-d" datetime="2026-10-09" data-date>9 October 2026</time><span class="note-s" lang="en">The Danger Sector update: when a season reaches day 11 (the Tech Surge), the machines of a lost civilisation wake up.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.17.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.17"}'>Everything new in 0.4.17</a></div>
-        </details></li>
-        <li><details id="v0.4.16">
-          <summary><span class="note-v">0.4.16</span><time class="note-d" datetime="2026-10-09" data-date>9 October 2026</time><span class="note-s" lang="en">The clans and ships update: clans get a page, posts, a daily bonus and wars that end by consent…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.16.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.16"}'>Everything new in 0.4.16</a></div>
-        </details></li>
-        <li><details id="v0.4.15">
-          <summary><span class="note-v">0.4.15</span><time class="note-d" datetime="2026-10-08" data-date>8 October 2026</time><span class="note-s" lang="en">The Skylab update: when your Core reaches level 10 a bridge builds a second Core with six module seats, and two new modules…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.15.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.15"}'>Everything new in 0.4.15</a></div>
-        </details></li>
-        <li><details id="v0.4.14">
-          <summary><span class="note-v">0.4.14</span><time class="note-d" datetime="2026-10-08" data-date>8 October 2026</time><span class="note-s" lang="en">Adds a research queue of five, an asteroid mission at every level from 1 to 8 and a mark for the missions and Challenges you can accept.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.14.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.14"}'>Everything new in 0.4.14</a></div>
-        </details></li>
-        <li><details id="v0.4.13">
-          <summary><span class="note-v">0.4.13</span><time class="note-d" datetime="2026-10-07" data-date>7 October 2026</time><span class="note-s" lang="en">Lets lasers hurt asteroids, shortens every rocket's recharge to 3 seconds and triples what rocks pay.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.13.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.13"}'>Everything new in 0.4.13</a></div>
-        </details></li>
-        <li><details id="v0.4.12">
-          <summary><span class="note-v">0.4.12</span><time class="note-d" datetime="2026-10-07" data-date>7 October 2026</time><span class="note-s" lang="en">Opens the Auction, where pilots of level 5 and up sell what they earned to each other, and asteroid mining…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.12.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.12"}'>Everything new in 0.4.12</a></div>
-        </details></li>
-        <li><details id="v0.4.11">
-          <summary><span class="note-v">0.4.11</span><time class="note-d" datetime="2026-10-06" data-date>6 October 2026</time><span class="note-s" lang="en">Makes ranks per company, draws the drone formations as shapes round your ship, gives the Group window a new layout…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.11.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.11"}'>Everything new in 0.4.11</a></div>
-        </details></li>
-        <li><details id="v0.4.10">
-          <summary><span class="note-v">0.4.10</span><time class="note-d" datetime="2026-10-05" data-date>5 October 2026</time><span class="note-s" lang="en">Rebuilds the Skylab's numbers and adds 16 drone formations in two new research trees, reworked level missions…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.10.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.10"}'>Everything new in 0.4.10</a></div>
-        </details></li>
-        <li><details id="v0.4.9">
-          <summary><span class="note-v">0.4.9</span><time class="note-d" datetime="2026-10-04" data-date>4 October 2026</time><span class="note-s" lang="en">Adds the Research Centre to the Skylab: from Core level 10 you feed it resources and research technologies…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.9.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.9"}'>Everything new in 0.4.9</a></div>
-        </details></li>
-        <li><details id="v0.4.8">
-          <summary><span class="note-v">0.4.8</span><time class="note-d" datetime="2026-10-03" data-date>3 October 2026</time><span class="note-s" lang="en">Puts three swarms of alien bosses on the map.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.8.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.8"}'>Everything new in 0.4.8</a></div>
-        </details></li>
-        <li><details id="v0.4.7">
-          <summary><span class="note-v">0.4.7</span><time class="note-d" datetime="2026-10-02" data-date>2 October 2026</time><span class="note-s" lang="en">Puts ten missions about your Skylab into Mission Control and gives Solar enough power for the whole station.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.7.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.7"}'>Everything new in 0.4.7</a></div>
-        </details></li>
-        <li><details id="v0.4.6">
-          <summary><span class="note-v">0.4.6</span><time class="note-d" datetime="2026-10-01" data-date>1 October 2026</time><span class="note-s" lang="en">Adds the Ironclad, a crafted tank with the most hull of any ship, and reworks the shields: the best set is 80 percent…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.6.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.6"}'>Everything new in 0.4.6</a></div>
-        </details></li>
-        <li><details id="v0.4.5">
-          <summary><span class="note-v">0.4.5</span><time class="note-d" datetime="2026-10-01" data-date>1 October 2026</time><span class="note-s" lang="en">Lets you choose where to come back when your ship is destroyed, adds a kill feed with funny lines to the Global chat…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.5.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.5"}'>Everything new in 0.4.5</a></div>
-        </details></li>
-        <li><details id="v0.4.4">
-          <summary><span class="note-v">0.4.4</span><time class="note-d" datetime="2026-09-30" data-date>30 September 2026</time><span class="note-s" lang="en">Brings groups of up to five pilots from any company with three chat channels, a rework of the rockets with fixed damage…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.4.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.4"}'>Everything new in 0.4.4</a></div>
-        </details></li>
-        <li><details id="v0.4.3">
-          <summary><span class="note-v">0.4.3</span><time class="note-d" datetime="2026-09-30" data-date>30 September 2026</time><span class="note-s" lang="en">Brings rockets, three active abilities, the Cloaking CPU and the EMP, the Forge…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.3.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.3"}'>Everything new in 0.4.3</a></div>
-        </details></li>
-        <li><details id="v0.4.2">
-          <summary><span class="note-v">0.4.2</span><time class="note-d" datetime="2026-09-29" data-date>29 September 2026</time><span class="note-s" lang="en">Rebalances weapons, ships, Repair Drones and aliens (some setups got weaker, and this page says which), draws critical hits differently…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.2.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.2"}'>Everything new in 0.4.2</a></div>
-        </details></li>
-        <li><details id="v0.4.1">
-          <summary><span class="note-v">0.4.1</span><time class="note-d" datetime="2026-09-28" data-date>28 September 2026</time><span class="note-s" lang="en">Stops the flicker on the login screen and in Skylab, and shows each pilot's clan tag next to their company letter.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.1.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.1"}'>Everything new in 0.4.1</a></div>
-        </details></li>
-        <li><details id="v0.4.0">
-          <summary><span class="note-v">0.4.0</span><time class="note-d" datetime="2026-09-27" data-date>27 September 2026</time><span class="note-s" lang="en">A graphics overhaul.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.4.0.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.4.0"}'>Everything new in 0.4.0</a></div>
-        </details></li>
-        <li><details id="v0.3.4">
-          <summary><span class="note-v">0.3.4</span><time class="note-d" datetime="2026-09-27" data-date>27 September 2026</time><span class="note-s" lang="en">Gives every item a real 3D model, with its icon rendered from it.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.3.4.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.3.4"}'>Everything new in 0.3.4</a></div>
-        </details></li>
-        <li><details id="v0.3.3">
-          <summary><span class="note-v">0.3.3</span><time class="note-d" datetime="2026-09-27" data-date>27 September 2026</time><span class="note-s" lang="en">Gives every mission a face: each company's officers now hand out its quests.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.3.3.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.3.3"}'>Everything new in 0.3.3</a></div>
-        </details></li>
-        <li><details id="v0.3.2">
-          <summary><span class="note-v">0.3.2</span><time class="note-d" datetime="2026-09-27" data-date>27 September 2026</time><span class="note-s" lang="en">Makes text easier to read everywhere: every label, number and button now stands out clearly from what is behind it.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.3.2.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.3.2"}'>Everything new in 0.3.2</a></div>
-        </details></li>
-        <li><details id="v0.3.1">
-          <summary><span class="note-v">0.3.1</span><time class="note-d" datetime="2026-09-27" data-date>27 September 2026</time><span class="note-s" lang="en">A small maintenance update: the game runs on the latest version of its engine.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.3.1.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.3.1"}'>Everything new in 0.3.1</a></div>
-        </details></li>
-        <li><details id="v0.3.0">
-          <summary><span class="note-v">0.3.0</span><time class="note-d" datetime="2026-09-26" data-date>26 September 2026</time><span class="note-s" lang="en">Splits the galaxy into three separate worlds: Alpha, Beta and Gamma.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.3.0.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.3.0"}'>Everything new in 0.3.0</a></div>
-        </details></li>
-        <li><details id="v0.2.3">
-          <summary><span class="note-v">0.2.3</span><time class="note-d" datetime="2026-09-26" data-date>26 September 2026</time><span class="note-s" lang="en">Makes shields, shield cells, thrusters and laser amps work the way the item cards say: your absorbance now decides how much of each hit…</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.2.3.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.2.3"}'>Everything new in 0.2.3</a></div>
-        </details></li>
-        <li><details id="v0.2.2">
-          <summary><span class="note-v">0.2.2</span><time class="note-d" datetime="2026-09-26" data-date>26 September 2026</time><span class="note-s" lang="en">The first version that arrives through the game's own updater.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.2.2.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.2.2"}'>Everything new in 0.2.2</a></div>
-        </details></li>
-        <li><details id="v0.2.1">
-          <summary><span class="note-v">0.2.1</span><time class="note-d" datetime="2026-09-26" data-date>26 September 2026</time><span class="note-s" lang="en">Keeps itself up to date, adds an About screen, and fixes the repair drone.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.2.1.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.2.1"}'>Everything new in 0.2.1</a></div>
-        </details></li>
-        <li><details id="v0.2.0">
-          <summary><span class="note-v">0.2.0</span><time class="note-d" datetime="2026-09-26" data-date>26 September 2026</time><span class="note-s" lang="en">Brings new graphics, company pilots flying alongside you, cargo to pick up, a new sound system, and the whole game in ten languages.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.2.0.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.2.0"}'>Everything new in 0.2.0</a></div>
-        </details></li>
-        <li><details id="v0.1.0">
-          <summary><span class="note-v">0.1.0</span><time class="note-d" datetime="2026-09-25" data-date>25 September 2026</time><span class="note-s" lang="en">The first public build of SpaceCorps 2027: the SpaceCorps space MMO, rebuilt as a native desktop game.</span></summary>
-          <div class="note-old-body"><a href="patchnotes-v0.1.0.html" data-i18n="patchnotes.more" data-i18n-args='{"version": "0.1.0"}'>Everything new in 0.1.0</a></div>
-        </details></li>
-      </ul>
-    </section>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.17.html" rel="prev">← 0.4.17</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
     <!-- /patchnotes:list -->
     </div>
   </section>
