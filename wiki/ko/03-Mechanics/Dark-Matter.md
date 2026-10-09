@@ -1,17 +1,17 @@
-<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
+<!-- wiki-i18n source: b01a24b52ccba9fa -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter와 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; 암흑 물질; 암흑물질; dark matter plate; dark matter plates; plate; plates; 플레이트; dark matter socket; dark matter sockets; socket; sockets; 소켓; dark matter 소켓 -->
 
-**Dark Matter**는 기술 트리의 꼭대기, 대장간의 가장 높은 두 단계, 그리고 모든 강화 계열의 마지막 티어 뒤에 있는 자원입니다. 살 수도 캘 수도 없고, 일반 외계인도 떨어뜨리지 않습니다. **블랙홀(black hole)**에 **N.I.K.E.** 로켓을 쏘아 넣어 **직접 만들고**, 블랙홀이 되돌려 주는 상자를 줍습니다. **Dark Matter Plate**는 그 제작법을 연구한 뒤 어셈블리에서 Dark Matter를 눌러 만듭니다. 이 페이지는 각각이 어디서 나오는지, 어디에 쓰이는지, 어떤 순서로 하면 되는지 알려 줍니다.
+**Dark Matter**는 기술 트리의 꼭대기, 대장간의 가장 높은 두 단계, 그리고 모든 강화 계열의 마지막 티어 뒤에 있는 자원입니다. 살 수도 캘 수도 없고, 일반 외계인도 떨어뜨리지 않습니다. **블랙홀(black hole)**에 **N.I.K.E.** 로켓을 쏘아 넣어 **직접 만들고**, 블랙홀이 되돌려 주는 상자를 줍습니다. **Dark Matter Plate**는 그 제작법을 연구한 뒤 어셈블리에서 Dark Matter를 눌러 만듭니다. 이 페이지는 각각이 어디서 나오는지, 어디에 쓰이는지, 어떤 순서로 하면 되는지 알려 줍니다. 시즌 11일차부터 Dark Matter는 **거대 굴착기의 연료**이기도 하며([거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)), [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)의 일부 외계인도 조금 떨어뜨립니다.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 
 ## 1분 요약 {#in-one-minute}
 
 - **Dark Matter는 자원이며, 어디서나 그냥 Dark Matter라고 부릅니다.** 위험 섹터 4(`DS-4`) 중앙의 블랙홀이 만듭니다. 블랙홀에 닿은 N.I.K.E. 로켓 한 발마다 Dark Matter 1~3개(평균 2개)가 그 영역 가장자리의 작은 상자에 담겨 돌아옵니다.
-- **용도.** 연구 센터의 기술 83개가 요구하며, 하나당 5~40개, 모두 904개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다.
+- **용도.** 연구 센터의 기술 83개가 요구하며, 하나당 5~40개, 모두 904개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다. 시즌 11일차부터는 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)도 연료로 태웁니다. 탱크 하나는 Dark Matter 몇 개이며, 굴착기가 파괴되면 사라집니다.
 - **연구 센터에서는** 시작을 누르기 전에 화물칸의 Dark Matter를 추가합니다(함선이 착륙한 상태에서). 연구는 시작할 때 그것을 가져갑니다.
 - **Dark Matter Plate는 다른 아이템입니다.** 먼저 제작법을 연구하고(트리의 자원 그룹: 1일과 Dark Matter 10개), 그다음 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 제작합니다.
 - **플레이트의 용도.** 모든 강화 계열의 마지막 티어는 **3개**를 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III, Base CPU II입니다(12개). 대장간은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 2개, 파열하는 등급에서 영원한 등급으로 올릴 때 2개를 더 요구합니다.
@@ -24,7 +24,7 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **무엇인가** | 영웅 등급 자원 | 신화 등급 자원 |
-| **어디서 나오나** | 위험 섹터 4의 블랙홀(쏘아 넣은 N.I.K.E. 로켓에 대해). Dormant 무리에서도 조금 | 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 눌러 만듦 |
+| **어디서 나오나** | 위험 섹터 4의 블랙홀(쏘아 넣은 N.I.K.E. 로켓에 대해). Dormant 무리와 Dormant Swamp의 Inert Mass에서도 조금 | 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 눌러 만듦 |
 | **먼저 할 일** | N.I.K.E.를 연구하고(3시간, Dark Matter 불필요) 몇 개 제작 | 플레이트 제작법을 연구(1일, Dark Matter 10개) |
 | **용도** | 연구 비용(기술 83개, 모두 904개)과 플레이트 | 모든 강화 계열의 마지막 티어: 12개 부품마다 3개; 대장간: 가장 높은 두 단계에 각각 2개 |
 
@@ -32,7 +32,7 @@
 
 1. **연구 센터를 짓고 N.I.K.E.를 연구합니다.** 연구 센터는 Skylab 코어 레벨 10에서 열립니다([연구](/wiki/03-Mechanics/Research.md)). N.I.K.E. 기술은 3시간이 걸리고 Dark Matter가 필요 없습니다.
 2. **어셈블리에서 N.I.K.E.를 제작합니다.** 1회 제작으로 5분 만에 로켓 5발이 나오며, 크레딧 100,000, Thulium 1,500, Ship Fragment 20개, Reinforced Hull Plate 4개, Cataclysite 40개가 듭니다. 20발까지 가질 수 있습니다. [로켓](/wiki/06-Items/Rockets.md#the-craft-only-rockets)을 참고하세요.
-3. **위험 섹터 4(`DS-4`)로 날아갑니다.** 은하 중앙의 PvP 섹터이며, 블랙홀은 모든 월드에서 그 정중앙에 떠 있습니다([블랙홀](/wiki/03-Mechanics/Black-Hole.md)). 외계인과 기업 파일럿은 근처에 오지 않지만 다른 파일럿은 옵니다.
+3. **위험 섹터 4(`DS-4`)로 날아갑니다.** 은하 중앙의 PvP 섹터이며, 블랙홀은 모든 월드에서 그 정중앙에 떠 있습니다([블랙홀](/wiki/03-Mechanics/Black-Hole.md)). 외계인과 기업 파일럿은 근처에 오지 않지만 다른 파일럿은 옵니다. 시즌 11일차부터 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)의 외계인은 섹터의 왼쪽 위 모서리에 살며, 내 사격선에서 멀리 떨어져 있습니다.
 4. **블랙홀 가장자리에서 쏩니다.** 방사선은 중심에서 4,000유닛부터 시작합니다. N.I.K.E.는 4,050유닛을 날아가므로 4,000~4,380유닛 거리 어디서든 쏠 수 있습니다. 선택한 대상이 없으면 커서를 블랙홀에 올려 두세요. 로켓은 4.6초에 한 발씩 쏠 수 있습니다. 그보다 멀면 닿지 못합니다.
 5. **상자를 줍습니다.** 블랙홀에 닿은 N.I.K.E. 한 발마다 **Dark Matter 1개, 2개 또는 3개**(네 번에 한 번은 1개, 두 번에 한 번은 2개, 네 번에 한 번은 3개)가 최대 2개짜리 상자 한두 개에 담겨 돌아옵니다. 상자는 블랙홀 영역 가장자리, 중심에서 3,050~3,950유닛 지점의 내가 쏜 선 근처에 떨어집니다. 각 상자에서 200유닛 이내로 다가가세요. 줍는 데는 0.5초가 걸립니다.
 6. **가져옵니다.** Dark Matter는 인벤토리에 들어갑니다. 정거장에서 함선이 착륙한 상태라면 연구 센터에 추가하거나 어셈블리에서 쓸 수 있습니다.
@@ -44,7 +44,7 @@
 - **상자는 60초 동안 내 것**이며 내 클랜의 것이기도 합니다. 그 뒤에는 맵의 누구나 가져갈 수 있고, 240초가 지나면 사라집니다. 한 맵에는 Dark Matter 상자가 최대 32개까지 있을 수 있으며, 새 상자가 생기면 그중 가장 오래된 것이 밀려납니다.
 - **가장자리는 방사선 안입니다.** 그곳에서는 매초 함선 최대 HP의 0.3~0.8%를 잃으며, 블랙홀에 가까울수록 더 많이 잃습니다. 가득 찬 함선은 약 2~5분을 버팁니다. 띠의 한가운데에서 1분을 보내면 3분의 1을 잃습니다. 인력은 3,000유닛에서 끝나므로 나도 상자도 끌려가지 않습니다.
 - **위험 섹터 4는 PvP입니다.** 적이 내 사선 위에서 기다릴 수 있습니다. N.I.K.E.는 처음 닿은 함선에 명중하고(피해 67,500~75,000) 블랙홀은 아무것도 얻지 못합니다. 60초가 지난 뒤 상자를 노리는 적도 있을 수 있습니다. 가장자리에서 쏘고, 쏜 순서대로 상자를 줍고, 동료와 함께 가세요.
-- **두 번째의 작은 출처.** [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)의 Dormant Pulse는 다섯 번에 한 번, 가장 많은 피해를 준 파일럿에게 Dark Matter 1~5개를 떨어뜨립니다. 이 무리는 큰 그룹이 필요합니다.
+- **두 번째의 작은 출처.** [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)의 Dormant Pulse는 다섯 번에 한 번, 가장 많은 피해를 준 파일럿에게 Dark Matter 1~5개를 떨어뜨립니다. 이 무리는 큰 그룹이 필요합니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)의 Inert Mass도 가끔 떨어뜨리지만, 늪의 포대 아래에 있습니다.
 
 ## 연구 센터의 Dark Matter {#in-the-research-centre}
 
@@ -124,6 +124,7 @@ Paragon의 40개는 레이저 8개, 그 증폭기 24개, 발전기 및 지원 �
 ## 더 읽어 보기 {#where-to-read-more}
 
 - [블랙홀](/wiki/03-Mechanics/Black-Hole.md#dark-matter): 링, 방사선, 상자를 자세히.
+- [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md): Dark Matter를 연료로 태우는 기계.
 - [연구](/wiki/03-Mechanics/Research.md): 연구 센터, 연료, 모든 기술.
 - [로켓](/wiki/06-Items/Rockets.md#the-craft-only-rockets): N.I.K.E.와 N.U.K.E.
 - [자원](/wiki/06-Items/Resources.md#dark-matter): 다른 자원들 가운데 Dark Matter와 Dark Matter Plate.

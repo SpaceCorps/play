@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be279a1fbb360e1d -->
+<!-- wiki-i18n source: b3c1a5c5512f39cd -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -16,12 +16,12 @@ Jede Saison läuft über die Tage 1 bis 30 (der Wipe beginnt mit seinem 5-Minute
 | :--- | :--- | :--- | :--- |
 | **Friedensprotokoll** | Tag 1–3 | Kein PvP | Ein frischer Start, ganz auf PvE-Fortschritt, Ressourcen-Farming und Schiffbau ausgerichtet, ohne die Bedrohung durch Kämpfe zwischen Spielern. |
 | **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten), und die drei [Schwärme](/wiki/05-Swarms/Swarms.md) tauchen auf: Sie bleiben bis zum Wipe, durch die Phasen nach dieser hindurch. Die Phase selbst gibt noch keine besonderen Belohnungen. |
-| **Techschub** | Tag 11–18 | Event 2 | Noch keine besonderen Effekte: Erträge und Aliens sind wie in jeder anderen Phase. |
+| **Techschub** | Tag 11–18 | Event 2 | Die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) verändern sich: ein Pulsar mit einem [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) auf `DS-1` bis `DS-3`, der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, Slumbering Voids und ein Dormant-Schwarm, der früher zurückkommt und doppelt zahlt. Das alles bleibt bis zum Wipe. Die Phase gibt keine eigenen Belohnungen. |
 | **Kriegsspiele** | Tag 19–25 | Event 3 | Noch keine besonderen Effekte: PvP funktioniert wie in jeder Phase nach dem Friedensprotokoll. |
 | **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen und zu sperren, bevor die Eruption kommt. |
 | **Der Reset** | Tag 30 | Schwarzloch-Eruption | Das Universum wird zerstört und neu geboren, und jeder [Clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) wird aufgelöst. Die Piloten wechseln in die Welt, die sie als Ziel für die nächste Saison gewählt haben. |
 
-Abgesehen vom Wipe selbst folgen nur drei Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, und die [Auktion](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels, aber keines von ihnen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
+Abgesehen vom Wipe selbst folgen nur vier Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, ab Tag 11 bekommen die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) ihre Pulsare, Riesenbagger und den Dormant Swamp, die bis zum Wipe bleiben, und das [Auktionshaus](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels. Event 2 verändert die Gefahrensektoren wie oben; keines der anderen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
 
 ---
 

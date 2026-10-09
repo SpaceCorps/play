@@ -96,7 +96,7 @@ There are two kinds. A stay that **adds up** keeps what you have: leave, die, co
 Stays and visits do not compete: every open one counts at once, whatever else you are doing. Kills are different: a kill counts for one level mission only (see [Where it counts](#where-it-counts)).
 
 > [!NOTE]
-> Visits and stays may lead into the Danger Sectors (Centre Recon, Centre Vigil and Centre Hold do), where other companies' pilots can attack you. Quest items never do.
+> Visits and stays may lead into the Danger Sectors (Centre Recon, Centre Vigil and Centre Hold do), where other companies' pilots can attack you. Quest items never do. A visit point in `DS-x` counts in any Danger Sector: from season day 11 do the points near the top-left corner of `DS-4`, such as the corner of **Four Corners**, in `DS-1`, `DS-2` or `DS-3`, because that corner of `DS-4` is inside the guns of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Swarm missions
 
@@ -104,7 +104,7 @@ Thirteen missions ask for the ships of the [swarms](/wiki/05-Swarms/Swarms.md). 
 
 - **They open on season day 4**, the day the swarms appear ([30-day schedule](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Before it Mission Control refuses them with "This mission opens on season day 4".
 - A swarm ship counts under **its own name**: a Boss Seeker or a Seeker Slave is no Seeker, a Pirate Scout is no Phantasm.
-- The step names no sector, because the swarms roam: the [Seeker Swarm](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` and `x-2`, the [Pirate Swarm](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` and `x-3`, the [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md) in the Danger Sectors. A Boss Seeker or a Pirate Boss comes back 2 minutes after it falls.
+- The step names no sector, because the swarms roam: the [Seeker Swarm](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` and `x-2`, the [Pirate Swarm](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` and `x-3`, the [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md) in the Danger Sectors. A Boss Seeker or a Pirate Boss comes back 2 minutes after it falls. From season day 11 the Dormant Swarm starts at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - The Dormant missions are for a crew: there is one Dormant Swarm in each world, and a group of strong ships takes it ([how the fight goes](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). The next tier does not wait for **Dormant Dawn** or **Dormant Dusk** ([the Challenge line](#challenge-line)).
 - A Boss Seeker hits harder than a new pilot's ship can bear: read [how the fight goes](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) before you start.
 
@@ -169,7 +169,7 @@ From **pilot level 3**, the **Challenges** tab of Mission Control opens a second
 - **Your kills pay on top.** The aliens you destroy still pay their own credits, Thulium and honor as ever; the claim comes in addition to that.
 - **Kills count twice.** A kill counts for every Challenge mission that asks for it **and** for the one level mission it counts for, so a thousand-kill mission never starves your level missions.
 - **Groups.** A kill counts for the pilot who is paid for it and for every group mate within **4,000 units** of the wreck who fired a laser or a rocket in the last 15 seconds. Each pilot keeps their own count.
-- **Stays need shots, except in the centre.** A stay in `x-3`, in `x-4` or in a rival's `x-4` counts only while you have fired a shot in the last 60 seconds, so a parked or circling ship earns nothing. The stays in the Danger Sectors (**Centre Watch**, **Rim Vigil**, **Last Watch**), where no alien lives, count a ship that has flown 300 units or fired in the last 30 seconds, as the stays of the level missions do.
+- **Stays need shots, except in the centre.** A stay in `x-3`, in `x-4` or in a rival's `x-4` counts only while you have fired a shot in the last 60 seconds, so a parked or circling ship earns nothing. The stays in the Danger Sectors (**Centre Watch**, **Rim Vigil**, **Last Watch**), where no ordinary alien lives (the aliens that wake from season day 11, see [Danger Sectors](/wiki/01-General/Danger-Sectors.md), do not change the rule), count a ship that has flown 300 units or fired in the last 30 seconds, as the stays of the level missions do.
 
 What each tier asks, with missions from the tables:
 

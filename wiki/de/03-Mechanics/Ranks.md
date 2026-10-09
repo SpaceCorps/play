@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 26f4bca5b9b9516f -->
+<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
@@ -125,6 +125,9 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -132,11 +135,11 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten sechs die Schiffe der drei Schwärme. Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
+Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten sechs die Schiffe der drei Schwärme und die nächsten drei die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (ab Saisontag 11). Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
 
 Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 300 + 160 + 40 = **912** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
 
-Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, dasselbe für die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Die Symbole {#the-symbols}
 

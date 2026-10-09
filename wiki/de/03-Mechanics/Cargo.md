@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
@@ -37,7 +37,7 @@ Die Lichter der Kiste nehmen die Farbe des seltensten Gegenstands darin an: Tür
 - Danach darf **jeder** auf der Karte sie nehmen.
 - Nur ein Schiff auf der Karte der Kiste kann sie nehmen: Wirst du auf dem Weg (oder in der halben Sekunde, die das Einsammeln dauert) zerstört, springst du oder loggst du dich aus, bleibt die Kiste für die anderen liegen.
 - Sammeln zwei Piloten dieselbe Kiste gleichzeitig ein, bekommt sie der, dessen Einsammeln zuerst fertig ist, genau einmal; der andere erfährt, dass sie weg ist.
-- Eine Kiste, die niemand nimmt, treibt nach **3 Minuten** davon (in den letzten 10 Sekunden blinkt sie). Eine Karte fasst höchstens 64 Kisten; würde eine neue diese Zahl überschreiten, verschwindet die älteste. Asteroiden-Brocken haben innerhalb der 64 einen eigenen Pool: Sie verdrängen keine andere Kiste, und keine andere Kiste verdrängt einen Brocken ([die Regeln](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark-Matter-Kisten halten 4 Minuten und gehören in der ersten Minute dir allein.
+- Eine Kiste, die niemand nimmt, treibt nach **3 Minuten** davon (in den letzten 10 Sekunden blinkt sie). Eine Karte fasst höchstens 64 Kisten; würde eine neue diese Zahl überschreiten, verschwindet die älteste. Asteroiden-Brocken haben innerhalb der 64 einen eigenen Pool: Sie verdrängen keine andere Kiste, und keine andere Kiste verdrängt einen Brocken ([die Regeln](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark-Matter-Kisten halten 4 Minuten und gehören in der ersten Minute dir allein. Die Kisten eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) sind ab dem ersten Moment für jeden frei, halten länger als eine Kiste sonst und haben einen eigenen Pool, sie verdrängen also nie eine andere Kiste.
 
 ## Private Kisten {#private-boxes}
 

@@ -26,10 +26,10 @@ Jeder Ertrag auf dieser Seite gilt **pro Abschuss, im Durchschnitt**: die Chance
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Selten | Crystalys, Missionen | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Forschungszentrum |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Gewöhnlich | Phantasm, Seeker, Asteroiden | Penetration Amp II, Schmiede, Forschungszentrum |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Gewöhnlich | Phantasm, Bulwark, Asteroiden | Penetration Amp III, Schmiede, Forschungszentrum |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Gewöhnlich | Crystalys, Goombah, Bulwark, Asteroiden, Missionen | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Schmiede, Forschungszentrum |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Gewöhnlich | Crystalys, Goombah, Asteroiden | Penetration Amp IV, Schmiede, Forschungszentrum |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Ungewöhnlich | Skylab-Kollektor | Skylab-Schmiede, Forschungszentrum |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Selten | Skylab-Kollektor | Skylab-Schmiede, Forschungszentrum |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Gewöhnlich | Crystalys, Goombah, Bulwark, Asteroiden, Riesenbagger, Missionen | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Schmiede, Forschungszentrum |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Gewöhnlich | Crystalys, Goombah, Asteroiden, Riesenbagger | Penetration Amp IV, Schmiede, Forschungszentrum |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Ungewöhnlich | Riesenbagger, Skylab-Kollektor | Skylab-Schmiede, Forschungszentrum |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Selten | Riesenbagger, Skylab-Kollektor | Skylab-Schmiede, Forschungszentrum |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Selten | Missionen, Skylab-Schmiede | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Episch | Missionen, Skylab-Schmiede | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Episch | das Schwarze Loch (eine verschluckte N.I.K.E.) | Dark Matter Plate, Forschungszentrum |
@@ -330,6 +330,7 @@ Ein misslungener Schmiedeschritt gibt 50 % seiner Materialien zurück, abgerund
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100 % für 2 | 2 |
 
 - **Asteroiden**: steckt in den Brocken von Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (die Mengen stehen unter [Asteroidenabbau](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 1.157 davon in Alpha (mehr in Beta und Gamma), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut.
 - **Missionen**: Bulwark-Sturm (Herausforderung) 245; Crystalys-Säuberung (Herausforderung) 292; Dormant-Morgenröte (Herausforderung) 54; Goombah-Legion (Herausforderung) 160; Goombah-Geißel (Herausforderung) 281; Feindesland (Herausforderung) 50; Wächter der Linie (Herausforderung) 298.
 - **Sonst**: nicht im Shop erhältlich.
 
@@ -373,6 +374,7 @@ Ein misslungener Schmiedeschritt gibt 50 % seiner Materialien zurück, abgerund
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100 % für 2 bis 4 | 3 |
 
 - **Asteroiden**: steckt in den Brocken von Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (die Mengen stehen unter [Asteroidenabbau](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 514 davon in Alpha (mehr in Beta und Gamma), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut.
 - **Sonst**: nicht im Shop erhältlich.
 
 **Wofür es gebraucht wird**
@@ -391,6 +393,7 @@ Ein misslungener Schmiedeschritt gibt 50 % seiner Materialien zurück, abgerund
 
 **So bekommst du es**
 
+- **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 320 davon in jeder Welt (das Erz des Skylab, begrenzt auf 4 Stunden eines Sammlers der Stufe 20), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut. Das Erz kommt in deine Fracht und ist dort Treibstoff des Forschungszentrums; die Schmiede nimmt Erz nur aus dem Ressourcenlager.
 - **Skylab**: Nur der Velkonite-Kollektor baut es ab, in einen Speicher für 72 Stunden; Abholen bringt es dann ins Ressourcenlager. Aliens lassen es nicht fallen.
 
 | Modul-Level | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@ Der Bau des Kollektors braucht Kern-Level 5, 10 Ship Fragments, 20.000 Credits u
 
 **So bekommst du es**
 
+- **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 160 davon in jeder Welt (das Erz des Skylab, begrenzt auf 4 Stunden eines Sammlers der Stufe 20), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut. Das Erz kommt in deine Fracht und ist dort Treibstoff des Forschungszentrums; die Schmiede nimmt Erz nur aus dem Ressourcenlager.
 - **Skylab**: Nur der Orvium-Kollektor baut es ab, in einen Speicher für 72 Stunden; Abholen bringt es dann ins Ressourcenlager. Aliens lassen es nicht fallen.
 
 | Modul-Level | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 **So bekommst du es**
 
 - **Das Schwarze Loch**: Eine [N.I.K.E.](/wiki/06-Items/Rockets.md)-Rakete, die den Ereignishorizont des Schwarzen Lochs in der Mitte von Gefahrensektor 4 überquert, wird verschluckt, und das Loch gibt **1, 2 oder 3** Dark Matter zurück (im Durchschnitt 2), in Kisten zu höchstens 2 am Rand seiner Zone, 3.050 bis 3.950 Einheiten von seinem Zentrum. Die Kisten gehören 60 Sekunden lang dir und deinem Clan und bleiben 240 Sekunden liegen. Eine N.I.K.E., die unterwegs auf ein Schiff trifft, trifft stattdessen dieses und ist verbraucht. Siehe [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) und [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** des Dormant Swamp: ab Saisontag 11 enthalten 5 % ihrer Kisten 1–3. Sie lebt unter den Geschützen des Sumpfs.
 - **Sonst**: nicht im Shop erhältlich.
 
 **Wofür es gebraucht wird**
 
 - Dark Matter Plate: **5** (mit 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md), Treibstoff: eines brennt **10** Minuten Abbau, und der Tank fasst 3
 - [Forschungszentrum](/wiki/03-Mechanics/Research.md#dark-matter), die obersten Technologien: bei 34 davon je **10**
 
 **So farmst du es**: Feuere [N.I.K.E.](/wiki/06-Items/Rockets.md)-Raketen ins Schwarze Loch (die Montage stellt sie her) und hol dir die Kisten am Rand seiner Zone vor allen anderen. Den ganzen Weg beschreibt [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
@@ -651,6 +657,7 @@ Das sind die Raten einer Station mit genug Energie: Ein Energiedefizit hält jed
 - **Zum Start**: Das Konto eines neuen Piloten hat 100 Thulium.
 - **Aliens**: Jeder Abschuss zahlt sie (Tabelle oben).
 - **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)**: Die Brocken eines zerbrochenen Asteroiden zahlen sie, bis zu einem Limit je 24 Stunden (auf dieser Seite).
+- **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 4.821 davon in Alpha (mehr in Beta und Gamma), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut.
 - **[Missionen](/wiki/03-Mechanics/Quests.md)**: 51.010 Thulium über die 88 Missionen mit der Bezahlung von Alpha, von 170 auf Level 1 bis 21.760 auf Level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Die Thulium-Farm produziert sie, während du weg bist, in einen Speicher für 72 Stunden.
 

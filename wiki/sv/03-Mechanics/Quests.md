@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -98,7 +98,7 @@ Det finns två sorter. En vistelse som **summeras** behåller det du har: lämna
 Vistelser och besök konkurrerar inte: varje öppen räknas direkt, vad du än gör. Nedskjutningar är annorlunda: en nedskjutning räknas bara för ett nivåuppdrag (se [Var det räknas](#where-it-counts)).
 
 > [!NOTE]
-> Besök och vistelser kan leda in i farosektorerna (Centrumspaning, Vaka i centrum och Håll centrum gör det), där andra koncerners piloter kan attackera dig. Uppdragsföremål gör det aldrig.
+> Besök och vistelser kan leda in i farosektorerna (Centrumspaning, Vaka i centrum och Håll centrum gör det), där andra koncerners piloter kan attackera dig. Uppdragsföremål gör det aldrig. En besökspunkt i `DS-x` räknas i vilken farosektor som helst: från säsongsdag 11 tar du punkterna nära det övre vänstra hörnet av `DS-4`, som hörnet i **Fyra hörn**, i `DS-1`, `DS-2` eller `DS-3`, eftersom det hörnet av `DS-4` ligger inom räckhåll för kanonerna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Svärmuppdrag {#swarm-missions}
 
@@ -106,7 +106,7 @@ Tretton uppdrag kräver skeppen i [svärmarna](/wiki/05-Swarms/Swarms.md). Två 
 
 - **De öppnas på säsongsdag 4**, dagen då svärmarna dyker upp ([30-dagarsschemat](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Före den avvisar Mission Control dem med ”Det här uppdraget öppnas på säsongsdag 4”.
 - Ett svärmskepp räknas under **sitt eget namn**: en Boss Seeker eller en Seeker Slave är ingen Seeker, en Pirate Scout är ingen Phantasm.
-- Steget anger ingen sektor, eftersom svärmarna rör sig: [Seeker-svärmen](/wiki/05-Swarms/Seeker-Swarm.md) i `x-1` och `x-2`, [Pirate-svärmen](/wiki/05-Swarms/Pirate-Swarm.md) i `x-2` och `x-3`, [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) i farosektorerna. En Boss Seeker eller en Pirate Boss kommer tillbaka 2 minuter efter att den fallit.
+- Steget anger ingen sektor, eftersom svärmarna rör sig: [Seeker-svärmen](/wiki/05-Swarms/Seeker-Swarm.md) i `x-1` och `x-2`, [Pirate-svärmen](/wiki/05-Swarms/Pirate-Swarm.md) i `x-2` och `x-3`, [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) i farosektorerna. En Boss Seeker eller en Pirate Boss kommer tillbaka 2 minuter efter att den fallit. Från säsongsdag 11 börjar Dormant-svärmen vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - Dormant-uppdragen är för en besättning: det finns en Dormant-svärm i varje värld, och en grupp starka skepp tar den ([hur striden går till](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). Nästa steg väntar inte på **Dormant-gryning** eller **Dormant-skymning** ([Utmaningslinjen](#challenge-line)).
 - En Boss Seeker slår hårdare än en ny pilots skepp klarar: läs [hur striden går till](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) innan du börjar.
 
@@ -171,7 +171,7 @@ Från **pilotnivå 3** öppnar fliken **Utmaningar** i Mission Control en andra 
 - **Dina nedskjutningar betalar ovanpå.** Utomjordingarna du förstör betalar fortfarande sina egna krediter, sitt Thulium och sin heder som förr; belöningen kommer utöver det.
 - **Nedskjutningar räknas två gånger.** En nedskjutning räknas för varje Utmaning som kräver den **och** för det ena nivåuppdrag den räknas för, så ett tusen-nedskjutningsuppdrag svälter aldrig dina nivåuppdrag.
 - **Grupper.** En nedskjutning räknas för den pilot som får betalt för den och för varje gruppmedlem inom **4 000 enheter** från vraket som har avfyrat en laser eller en raket de senaste 15 sekunderna. Varje pilot för sin egen räkning.
-- **Vistelser kräver skott, utom i centrum.** En vistelse i `x-3`, i `x-4` eller i en rivals `x-4` räknas bara medan du har avfyrat ett skott de senaste 60 sekunderna, så ett parkerat eller cirkulerande skepp tjänar ingenting. Vistelserna i farosektorerna (**Centrumvakten**, **Kantvakten**, **Sista vakten**), där ingen utomjording lever, räknas för ett skepp som har flugit 300 enheter eller avfyrat ett skott de senaste 30 sekunderna, som nivåuppdragens vistelser.
+- **Vistelser kräver skott, utom i centrum.** En vistelse i `x-3`, i `x-4` eller i en rivals `x-4` räknas bara medan du har avfyrat ett skott de senaste 60 sekunderna, så ett parkerat eller cirkulerande skepp tjänar ingenting. Vistelserna i farosektorerna (**Centrumvakten**, **Kantvakten**, **Sista vakten**), där ingen vanlig utomjording lever (de utomjordingar som vaknar från säsongsdag 11, se [Farosektorer](/wiki/01-General/Danger-Sectors.md), ändrar inte regeln), räknas för ett skepp som har flugit 300 enheter eller avfyrat ett skott de senaste 30 sekunderna, som nivåuppdragens vistelser.
 
 Vad varje steg kräver, med uppdrag ur tabellerna:
 

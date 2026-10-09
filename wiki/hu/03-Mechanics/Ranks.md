@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 26f4bca5b9b9516f -->
+<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -125,6 +125,9 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -132,11 +135,11 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Az első öt sor a hétköznapi idegen, a következő hat a három raj hajója. A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
+Az első öt sor a hétköznapi idegen, a következő hat a három raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától). A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
 
 Például egy 4. szintű pilóta, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 300 + 160 + 40 = **912** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 
-A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens).
+A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, ugyanezt a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegeneinél, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## A jelek {#the-symbols}
 

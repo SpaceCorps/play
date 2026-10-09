@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -37,7 +37,7 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 - Därefter får **vem som helst** på kartan ta den.
 - Bara ett skepp på lådans karta kan ta den: om du förstörs, hoppar eller loggar ut på vägen (eller under den halva sekund upplockningen tar), blir lådan kvar åt de andra.
 - Om två piloter plockar upp samma låda samtidigt får den vars upplockning blir klar först den, exakt en gång; den andra får veta att den är borta.
-- En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Asteroidbitar har en egen pool inom de 64: de trycker inte bort någon annan låda, och ingen annan låda trycker bort en bit ([reglerna](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten.
+- En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Asteroidbitar har en egen pool inom de 64: de trycker inte bort någon annan låda, och ingen annan låda trycker bort en bit ([reglerna](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten. Lådorna från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) är fria för vem som helst från det ögonblick de ligger, ligger kvar längre än en vanlig låda och har en egen pool, så de trycker aldrig ut en annan låda.
 
 ## Privata lådor {#private-boxes}
 

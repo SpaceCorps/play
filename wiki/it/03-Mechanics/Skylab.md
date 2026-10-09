@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 
 ## La filiera {#the-supply-chain}
 
-Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre per i tuoi laser migliori. Il minerale arriva **solo** dai collettori (tutti i materiali e le valute sono nella pagina [Risorse](/wiki/06-Items/Resources.md)): gli alieni non lo rilasciano e il Negozio non lo vende.
+Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre per i tuoi laser migliori. Il minerale arriva **solo** dai collettori (tutti i materiali e le valute sono nella pagina [Risorse](/wiki/06-Items/Resources.md)): gli alieni non lo rilasciano e il Negozio non lo vende. (Anche un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) deposita un po’ di Velkonite e Orvium in casse, ma quel minerale va nel tuo carico, dove è carburante del Centro ricerche, e la Fucina non lo prende.)
 
 1. Un **collettore** estrae minerale, una certa quantità all’ora, nella propria tramoggia (pari a 72 ore di produzione).
 2. **Raccogli** sposta il minerale dalla tramoggia al **Magazzino risorse**, la riserva in cui ogni minerale è tenuto separato.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -20,14 +20,14 @@ Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su prop
 | Enjambre | Dónde | Cuántos | Líder | Seguidores | Vuelve |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Enjambre Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Los sectores `x-2` y `x-3` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Pirate Boss** | Hasta 5 × Pirate Scout, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
-| [**Enjambre Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Los sectores de peligro `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando de uno a otro | Uno en cada mundo | **Dormant Force** | 2 × Dormant Pulse, que vuelan con el líder | 1 h después de que destruyan a todo el enjambre, en un sector de peligro al azar |
+| [**Enjambre Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Los sectores de peligro `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando de uno a otro | Uno en cada mundo | **Dormant Force** | 2 × Dormant Pulse, que vuelan con el líder | 1 h después de que destruyan a todo el enjambre, en un sector de peligro al azar. Desde el día 11 de la temporada: 30 min, en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), y cada nave paga ×2 |
 | [**Enjambre Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Los sectores `x-1` y `x-2` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Seeker** | Hasta 4 × Seeker Slave, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
 
 <!-- swarms-list:end -->
 
 ## Cuándo y dónde {#when-and-where}
 
-Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta el reinicio (consulta la [Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); el día es la primera línea de las reglas de más abajo). **Cada mundo tiene sus propios enjambres** en los mismos lugares, así que el Pirate Boss de Alpha y el de Beta son dos naves distintas, y un enjambre que destruyes en tu mundo no queda destruido en otro. Un enjambre destruido vuelve pasado el tiempo de la tabla de arriba.
+Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta el reinicio (consulta la [Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); el día es la primera línea de las reglas de más abajo). **Cada mundo tiene sus propios enjambres** en los mismos lugares, así que el Pirate Boss de Alpha y el de Beta son dos naves distintas, y un enjambre que destruyes en tu mundo no queda destruido en otro. Un enjambre destruido vuelve pasado el tiempo de la tabla de arriba. El Enjambre Dormant cambia el día 11 de la temporada (evento 2): aparece en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), vuelve antes y paga el doble.
 
 ## Las reglas de todos los enjambres {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Un alienígena normal paga al piloto que lo impactó primero ([Combate](/wiki/03
 - **La caja de carga es para el piloto que más daño causó.** Es suya (y de su clan) durante 30 segundos, como con cualquier alienígena, y después puede cogerla cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tiene su propio recuento de daño y su propia caja.
 - **Los seguidores pagan como siempre**: los Pirate Scouts y los Seeker Slaves pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
 - **La paga de un jefe está hecha para superar a los alienígenas de su entorno.** Un minuto de combate contra un Pirate Boss paga más que un minuto de combate contra un Goombah, y el enjambre Dormant paga todavía más; el Boss Seeker paga exactamente diez Seekers.
+- **Los alienígenas del Dormant Swamp** (el Slumbering Void, la Inert Mass y el Unwakened) se pagan como un jefe, según el daño, y suman puntos PvE a tu clasificación; sus cifras están en [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de derribos y suma puntos PvE a tu clasificación:
 

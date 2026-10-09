@@ -1,17 +1,17 @@
-<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
+<!-- wiki-i18n source: b01a24b52ccba9fa -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; 暗物质; dark matter plate; dark matter plates; plate; plates; 板; 强化板; dark matter socket; dark matter sockets; socket; sockets; 插槽; dark matter 插槽 -->
 
-**Dark Matter** 是科技树顶端、锻造炉最高两级以及每条升级链最后一阶背后的资源。它不能购买，不能开采，普通外星人也不会掉落：你要向**黑洞（black hole）**发射 **N.I.K.E.** 火箭来**制造**它，再拾取黑洞抛回的货箱。**Dark Matter Plate** 在装配站由 Dark Matter 压制而成，前提是你已研究了它的配方。本页说明两者各自从哪里来、有什么用，以及该按什么顺序去做。
+**Dark Matter** 是科技树顶端、锻造炉最高两级以及每条升级链最后一阶背后的资源。它不能购买，不能开采，普通外星人也不会掉落：你要向**黑洞（black hole）**发射 **N.I.K.E.** 火箭来**制造**它，再拾取黑洞抛回的货箱。**Dark Matter Plate** 在装配站由 Dark Matter 压制而成，前提是你已研究了它的配方。本页说明两者各自从哪里来、有什么用，以及该按什么顺序去做。从赛季第 11 天起，Dark Matter 也是**巨型挖掘机的燃料**（[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)），[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的少数外星人也会掉落一点。
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 
 ## 一分钟了解 {#in-one-minute}
 
 - **Dark Matter 是一种资源，在任何地方都只叫 Dark Matter。** 危险星区 4（`DS-4`）中央的黑洞会产出它：每枚抵达黑洞的 N.I.K.E. 火箭会返还 1 到 3 个 Dark Matter（平均 2 个），装在黑洞区域边缘的小货箱里。
-- **有什么用。** 研究中心的 83 项科技需要它，每项 5 到 40 个，共 904 个；装配站还把它压制成 Dark Matter Plate。
+- **有什么用。** 研究中心的 83 项科技需要它，每项 5 到 40 个，共 904 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。
 - **在研究中心**，你在按下开始之前，从货舱里添加 Dark Matter（舰船须已降落）。研究开始时会取用它。
 - **Dark Matter Plate 是另一种物品。** 先研究它的配方（科技树的资源组：1 天和 10 个 Dark Matter），再到装配站用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 制造它。
 - **板有什么用。** 每条升级链的最后一阶需要 **3 块**：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 12 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。
@@ -24,7 +24,7 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **是什么** | 史诗资源 | 神话资源 |
-| **从哪里来** | 危险星区 4 的黑洞，用于发射进去的 N.I.K.E. 火箭；Dormant 虫群也会少量掉落 | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
+| **从哪里来** | 危险星区 4 的黑洞，对射入其中的 N.I.K.E. 火箭；少量来自 Dormant 虫群和 Dormant Swamp 的 Inert Mass | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
 | **先做什么** | 研究 N.I.K.E.（3 小时，不需要 Dark Matter）并制造一些 | 研究板的配方（1 天，10 个 Dark Matter） |
 | **有什么用** | 研究的花费（83 项科技，共 904 个）和板 | 每条升级链的最后一阶：12 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
 
@@ -32,7 +32,7 @@
 
 1. **建造研究中心并研究 N.I.K.E.** 研究中心在 Skylab 核心 10 级时解锁（[研究](/wiki/03-Mechanics/Research.md)）。N.I.K.E. 的科技需要 3 小时，不需要 Dark Matter。
 2. **在装配站制造 N.I.K.E.** 一次制造用 5 分钟做出 5 枚火箭，花费 100,000 信用点、1,500 Thulium、20 个 Ship Fragment、4 个 Reinforced Hull Plate 和 40 个 Cataclysite。你最多可携带 20 枚。参见[火箭](/wiki/06-Items/Rockets.md#the-craft-only-rockets)。
-3. **飞往危险星区 4（`DS-4`）。** 它是银河中央的 PvP 星区，黑洞在每个世界里都悬在它的正中心（[黑洞](/wiki/03-Mechanics/Black-Hole.md)）。外星人和企业飞行员不会靠近，但其他飞行员会。
+3. **飞往危险星区 4（`DS-4`）。** 它是银河中央的 PvP 星区，黑洞在每个世界里都悬在它的正中心（[黑洞](/wiki/03-Mechanics/Black-Hole.md)）。外星人和企业飞行员不会靠近，但其他飞行员会。从赛季第 11 天起，[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的外星人住在星区的左上角，远离你的射击线。
 4. **在黑洞边缘向它开火。** 辐射从距中心 4,000 单位处开始。N.I.K.E. 飞行 4,050 单位，所以你可以在距离 4,000 到 4,380 单位之间的任何位置开火。没有选中目标时，把光标放在黑洞上。你每 4.6 秒可以发射一枚火箭。从更远处发射会打不到。
 5. **拾取货箱。** 每枚抵达黑洞的 N.I.K.E. 会返还 **1、2 或 3 个 Dark Matter**（四次中有一次是 1 个，两次是 2 个，一次是 3 个），装在一两个最多容纳 2 个的货箱里。货箱落在黑洞区域边缘，距中心 3,050 到 3,950 单位，靠近你射击的那条线。靠近每个货箱到 200 单位以内：拾取需要半秒。
 6. **带回去。** Dark Matter 会进入你的物品栏。在空间站里，舰船降落后，你可以把它添加到研究中心，或在装配站使用。
@@ -44,7 +44,7 @@
 - **货箱在 60 秒内归你**，也归你的战队。之后地图上的任何人都可以拾取，240 秒后它们会消失。一张地图最多容纳 32 个 Dark Matter 货箱，新的会把其中最旧的挤掉。
 - **边缘位于辐射之中。** 那里每秒会消耗你舰船最大 HP 的 0.3% 到 0.8%，越靠近黑洞越多。满状态的舰船大约能撑 2 到 5 分钟；在这条带中间待一分钟会耗掉三分之一。引力在 3,000 单位处结束，所以没有什么会把你或货箱带走。
 - **危险星区 4 是 PvP。** 对手可能在你的射线上守着：N.I.K.E. 会击中它碰到的第一艘舰船（67,500 到 75,000 伤害），黑洞什么也得不到。对手也可能在你的 60 秒结束后来等货箱。从边缘开火，按射击顺序拾取货箱，并结伴而行。
-- **第二个、较小的来源。** [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)的 Dormant Pulse 有五分之一的几率为对它造成最多伤害的飞行员掉落 1 到 5 个 Dark Matter。这个虫群需要一个大队伍。
+- **第二个、较小的来源。** [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)的 Dormant Pulse 有五分之一的几率为对它造成最多伤害的飞行员掉落 1 到 5 个 Dark Matter。这个虫群需要一个大队伍。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的 Inert Mass 偶尔也会掉落一些，但它生活在沼泽炮台之下。
 
 ## 研究中心里的 Dark Matter {#in-the-research-centre}
 
@@ -124,6 +124,7 @@ Paragon 的 40 件部件是它的 8 把激光、这些激光上的 24 个增幅�
 ## 延伸阅读 {#where-to-read-more}
 
 - [黑洞](/wiki/03-Mechanics/Black-Hole.md#dark-matter)：环、辐射和货箱的完整说明。
+- [巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)：把 Dark Matter 当燃料烧的机器。
 - [研究](/wiki/03-Mechanics/Research.md)：研究中心、燃料和每项科技。
 - [火箭](/wiki/06-Items/Rockets.md#the-craft-only-rockets)：N.I.K.E. 和 N.U.K.E.
 - [资源](/wiki/06-Items/Resources.md#dark-matter)：Dark Matter 和 Dark Matter Plate 与其他资源。

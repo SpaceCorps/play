@@ -26,10 +26,10 @@
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 稀有 | Crystalys, 任务 | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, 研究中心 |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | 普通 | Phantasm, Seeker, 小行星 | Penetration Amp II, 锻造炉, 研究中心 |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | 普通 | Phantasm, Bulwark, 小行星 | Penetration Amp III, 锻造炉, 研究中心 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 普通 | Crystalys, Goombah, Bulwark, 小行星, 任务 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 锻造炉, 研究中心 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 普通 | Crystalys, Goombah, 小行星 | Penetration Amp IV, 锻造炉, 研究中心 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 优秀 | Skylab 采集器 | Skylab 锻造厂, 研究中心 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 稀有 | Skylab 采集器 | Skylab 锻造厂, 研究中心 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 普通 | Crystalys, Goombah, Bulwark, 小行星, 巨型挖掘机, 任务 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 锻造炉, 研究中心 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 普通 | Crystalys, Goombah, 小行星, 巨型挖掘机 | Penetration Amp IV, 锻造炉, 研究中心 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 优秀 | 巨型挖掘机, Skylab 采集器 | Skylab 锻造厂, 研究中心 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 稀有 | 巨型挖掘机, Skylab 采集器 | Skylab 锻造厂, 研究中心 |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 稀有 | 任务, Skylab 锻造厂 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 史诗 | 任务, Skylab 锻造厂 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 史诗 | 黑洞（被吞噬的 N.I.K.E.） | Dark Matter Plate, 研究中心 |
@@ -330,6 +330,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%：2 | 2 |
 
 - **小行星**：在 Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 1,157 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **任务**：Bulwark 风暴（挑战）245; Crystalys 肃清（挑战）292; Dormant 黎明（挑战）54; Goombah 军团（挑战）160; Goombah 天灾（挑战）281; 敌境（挑战）50; 防线守护者（挑战）298。
 - **另外**：商店不出售。
 
@@ -373,6 +374,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%：2 至 4 | 3 |
 
 - **小行星**：在 Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 514 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **另外**：商店不出售。
 
 **用途**
@@ -391,6 +393,7 @@
 
 **获取方式**
 
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 320 个（Skylab 的矿石，上限为 20 级采集器 4 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱，在那里是研究中心的燃料；锻造炉只从资源仓库取矿石。
 - **Skylab**：只有 Velkonite 采集器 会开采它，存入可容纳 72 小时产量的料斗，然后“收取”把它转入 资源仓库。外星人不会掉落它。
 
 | 模块等级 | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@
 
 **获取方式**
 
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 160 个（Skylab 的矿石，上限为 20 级采集器 4 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱，在那里是研究中心的燃料；锻造炉只从资源仓库取矿石。
 - **Skylab**：只有 Orvium 采集器 会开采它，存入可容纳 72 小时产量的料斗，然后“收取”把它转入 资源仓库。外星人不会掉落它。
 
 | 模块等级 | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@
 **获取方式**
 
 - **黑洞**：一枚 [N.I.K.E.](/wiki/06-Items/Rockets.md) 火箭穿过危险星区 4 中央黑洞的事件视界后会被吞噬，黑洞会返还 **1, 2 或 3** 个 Dark Matter（平均 2 个），装在每个最多 2 个的货箱里，出现在其区域的边缘，距中心 3,050 至 3,950 单位。这些货箱在 60 秒内归你和你的战队所有，存在 240 秒。途中遇到舰船的 N.I.K.E. 会改为击中它并被消耗。参见 [Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 和 [黑洞](/wiki/03-Mechanics/Black-Hole.md#dark-matter)。
+- Dormant Swamp 的 **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**：从赛季第 11 天起，它的货箱中有 5% 装有 1–3 个。它生活在沼泽炮台之下。
 - **另外**：商店不出售。
 
 **用途**
 
 - Dark Matter Plate: **5** (另需 Orvium Reinforced Plate ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
+- [巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)，燃料：1 个可烧 **10** 分钟的开采，燃料箱可放 3 个
 - [研究中心](/wiki/03-Mechanics/Research.md#dark-matter)，顶端科技：34 项中每项 **10** 个
 
 **刷取方法**：向黑洞发射 [N.I.K.E.](/wiki/06-Items/Rockets.md) 火箭（由装配站制造），并赶在别人之前拾取其区域边缘的货箱。完整流程见 [Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)。
@@ -651,6 +657,7 @@
 - **初始**：新飞行员的账号里有 100 Thulium。
 - **外星人**：每次击杀都会给（见上表）。
 - **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付，每 24 小时有一个上限（见那一页）。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 4,821 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **[任务](/wiki/03-Mechanics/Quests.md)**：Alpha 的 88 个任务共给 51,010 Thulium，从 1 级的 170 到 8 级的 21,760。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：Thulium 农场 会在你离线时生产信用点，存入可容纳 72 小时产量的料斗。
 

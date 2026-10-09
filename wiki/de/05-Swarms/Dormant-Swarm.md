@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
+<!-- wiki-i18n source: bb8bc80ba6889fba -->
 <!-- wiki-i18n title: Dormant-Schwarm -->
 # Dormant-Schwarm {#dormant-swarm}
 
-Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Pulses**: einer Gruppe von Schiffen, die nie einen Kampf beginnen und sehr hart zuschlagen, sobald sie geweckt sind. Es gibt nur einen in jeder Welt. Er wandert von einem Gefahrensektor zum nächsten, und er ist der härteste Kampf und die reichste Beute unter den Schwärmen: ein Kampf für eine große Gruppe der stärksten Schiffe.
+Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Pulses**: einer Gruppe von Schiffen, die nie einen Kampf beginnen und sehr hart zuschlagen, sobald sie geweckt sind. Es gibt nur einen in jeder Welt. Er wandert von einem Gefahrensektor zum nächsten, und er ist der härteste Kampf und die reichste Beute unter den Schwärmen: ein Kampf für eine große Gruppe der stärksten Schiffe. Ab Saisontag 11 startet er im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, kehrt früher zurück und zahlt doppelt so viel (siehe die Liste *Auf einen Blick*).
 
 ## Auf einen Blick {#at-a-glance}
 
@@ -18,6 +18,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 - **Anführer zerstört**: Dormant Pulse übernimmt die Führung
 - **Reise**: Bleibt 8 bis 15 min auf einer Karte und fliegt dann zum Tor eines anderen Gefahrensektors. Er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs
 - **Kehrt zurück**: 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor
+- **Ab Saisontag 11**: Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4` statt in einem zufälligen Gefahrensektor, kehrt 30 min nach der Zerstörung des ganzen Schwarms zurück, und jedes Schiff zahlt ×2 (Credits, Thulium, EP und Ehre; die Beute bleibt gleich)
 - **Meldungen**: Die Piloten der ganzen Welt erfahren, wann der Schwarm auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- dormant-glance:end -->
@@ -31,18 +32,18 @@ Sie sind passiv: Sie gehen nie auf einen Piloten los. Wird eines von ihnen getro
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
-- **Finde ihn.** Die ganze Welt erfährt, wenn er auftaucht, und eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Er bleibt so lange auf einer Karte, wie die Liste *Auf einen Blick* sagt, fliegt dann zum Tor eines anderen Gefahrensektors und springt; er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs. Er fliegt mit dem Tempo seines langsamsten Schiffs und beginnt oder beendet, wie ein Pilot, keinen Sprung unter Beschuss.
+- **Finde ihn.** Die ganze Welt erfährt, wenn er auftaucht, und eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Er bleibt so lange auf einer Karte, wie die Liste *Auf einen Blick* sagt, fliegt dann zum Tor eines anderen Gefahrensektors und springt; er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs. Er fliegt mit dem Tempo seines langsamsten Schiffs und beginnt oder beendet, wie ein Pilot, keinen Sprung unter Beschuss. Ab Saisontag 11 erscheint er zuerst knapp außerhalb der Zone des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), wo eine Gruppe außerhalb der Geschütze des Sumpfs auf ihn warten kann, und fliegt dann durch ein Tor von `DS-4` hinaus.
 - **Allein oder zu wenigen ist er nicht zu schaffen.** Acht Piloten von Level 8 in Paragons mit x2- oder x4-Munition zerstören ihn in Alpha in etwa einer Minute und verlieren höchstens ein Schiff; eine Paragon allein wird zerstört, und mit x2-Munition auch drei oder vier. Die Schwärme von Beta und Gamma sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), diese Welten brauchen also größere Gruppen.
 - **Seine Laser entscheiden den Kampf.** Zusammen können sie eine Paragon in unter einer Minute zerstören, selbst eine mit den besten Schilden in unter zwei Minuten, mit oder ohne Raketen: Bring deinen Schaden schnell ins Ziel, mit den besten Schilden, die du hast.
 - **Schiff für Schiff.** Jedes Schiff hat seine eigene Hülle und seine eigene Bezahlung, die Force oder eine Pulse kann also zuerst zerstört werden. Der Schwarm wird erst ersetzt, wenn er ganz zerstört ist, und zwar nach der Zeit in der Liste *Auf einen Blick*.
 
 ## Belohnungen und Beute {#rewards-and-drops}
 
-Jedes Schiff zahlt für sich, nach dem Schaden, der ihm zugefügt wurde ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), und jedes lässt eine Kiste für den Piloten fallen, der ihm den meisten Schaden zugefügt hat. Die **Kiste der Force** ist der Preis: sehr viel x3- und x4-Munition, Epische Raketen einer Sorte und hin und wieder eine N.I.K.E. oder eine N.U.K.E. Die **Pulses** lassen vielleicht eine Ancient Control Unit, einen Power Core oder Dark Matter fallen. Eine Minute Kampf gegen den Schwarm zahlt mehr als eine Minute Kampf gegen den Crystalys, das bestbezahlte Alien.
+Jedes Schiff zahlt für sich, nach dem Schaden, der ihm zugefügt wurde ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), und jedes lässt eine Kiste für den Piloten fallen, der ihm den meisten Schaden zugefügt hat. Die **Kiste der Force** ist der Preis: sehr viel x3- und x4-Munition, Epische Raketen einer Sorte und hin und wieder eine N.I.K.E. oder eine N.U.K.E. Die **Pulses** lassen vielleicht eine Ancient Control Unit, einen Power Core oder Dark Matter fallen. Eine Minute Kampf gegen den Schwarm zahlt mehr als eine Minute Kampf gegen den Crystalys, das bestbezahlte Alien. Ab Saisontag 11 zahlt jedes Schiff doppelt so viel (siehe die Liste *Auf einen Blick*); die Kisten bleiben gleich.
 
 ## Die Werte {#the-numbers}
 
-Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)).
+Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)). Die Credits, das Thulium, die EP und die Ehre in den Tabellen sind die Bezahlung vor Saisontag 11; ab diesem Tag zahlt ein Abschuss doppelt so viel.
 
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->

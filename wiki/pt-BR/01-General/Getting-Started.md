@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b4de17b88336f9c -->
+<!-- wiki-i18n source: fdf147fcd54ecb68 -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -61,7 +61,7 @@ Quando o seu casco chega a 0, a nave é destruída e a tela de destruição perg
 - **Uma escolha que o servidor recusa não custa nada.** Se uma escolha não puder ser usada (ainda bloqueada, sem portal no setor, você mudou de mundo desde que foi destruído), o bloqueio não é gasto e a sua nave não é movida; você escolhe de novo.
 - **Proteção de reaparecimento.** Qualquer que seja o lugar escolhido, sua nave não pode sofrer dano nem ser travada por **3 segundos** depois de voltar, e os alienígenas perdem o interesse nela; assim, quem destruiu a sua nave não consegue destruí-la de novo na hora. Nesses mesmos 3 segundos **você também não pode atacar**: um laser ou um foguete é recusado com um aviso, e a proteção não acaba antes. O HUD mostra os segundos restantes. Ela termina quando eles acabam.
 - **O buraco negro.** Um lugar dentro do anel de radiação do [buraco negro](/wiki/03-Mechanics/Black-Hole.md) (a 4.200 unidades do centro do Setor de perigo 4) nunca serve para reaparecer: se você foi destruído ali, “No local” coloca você no ponto mais próximo fora do anel, na linha que vai do centro até o seu lugar, e avisa.
-- **Setores de perigo.** As três escolhas também funcionam lá.
+- **Setores de perigo.** As três escolhas também funcionam lá. «No local» é movido para fora da radiação de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation) superaquecida e para fora da zona do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), como para fora do anel do buraco negro: quem entra no jogo dentro de uma delas também é colocado fora.
 - **O casco volta limitado.** Você volta com o casco da sua nave **até no máximo 10.000** e o escudo vazio, seja qual for o lugar escolhido. A Protos (8.000 de casco) volta cheia; as naves maiores (dos 24.000 da Kitefin aos 600.000 da Ironclad) voltam com 10.000, então repare antes da próxima luta com um Repair Drone ou uma Emergency Repair (veja [Combate](/wiki/03-Mechanics/Combat.md) e [Habilidades](/wiki/03-Mechanics/Abilities.md)). O escudo recarrega como de costume. A tela de destruição avisa isso.
 - **O que mais uma destruição custa:** você não perde nenhum item, e a escolha só decide onde você aparece. Suas habilidades estão prontas, e você volta sem camuflagem e fora de qualquer janela de EMP. Você continua no seu [grupo](/wiki/03-Mechanics/Groups.md).
 - **Atracação.** “Voltar à base” na tela de destruição leva você de volta à base, como sempre, com o mesmo casco. Se o jogo fechar antes de você escolher, recupere a nave de graça no [Hangar](/wiki/03-Mechanics/Hangar.md); você fica na sua base, com o mesmo casco e sem escudo.

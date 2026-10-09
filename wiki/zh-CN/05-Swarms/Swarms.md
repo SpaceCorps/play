@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: 虫群 -->
 # 虫群 {#swarms}
 
@@ -20,14 +20,14 @@
 | 虫群 | 位置 | 数量 | 头领 | 随从 | 回归 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate 虫群**](/wiki/05-Swarms/Pirate-Swarm.md) | 每个企业的 `x-2` 和 `x-3` 星区 | 每个星区 一个， 每个世界 共 6 个 | **Pirate Boss** | 最多 5 × Pirate Scout， 每 10 秒 出现 一个新的 | 头领 被击毁 2 分钟 后， 在同一星区 |
-| [**Dormant 虫群**](/wiki/05-Swarms/Dormant-Swarm.md) | 危险星区 `DS-1`, `DS-2`, `DS-3`, `DS-4`， 在它们之间 飞行 | 每个世界一个 | **Dormant Force** | 2 × Dormant Pulse， 与头领 一同飞行 | 整个虫群 被击毁 1 小时 后， 在随机的 危险星区 |
+| [**Dormant 虫群**](/wiki/05-Swarms/Dormant-Swarm.md) | 危险星区 `DS-1`, `DS-2`, `DS-3`, `DS-4`， 在它们之间 飞行 | 每个世界一个 | **Dormant Force** | 2 × Dormant Pulse， 与头领 一同飞行 | 整个虫群 被击毁 1 小时 后， 在随机的 危险星区。从赛季第 11 天起：30 分钟，在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，每艘飞船的奖励为 ×2 |
 | [**Seeker 虫群**](/wiki/05-Swarms/Seeker-Swarm.md) | 每个企业的 `x-1` 和 `x-2` 星区 | 每个星区 一个， 每个世界 共 6 个 | **Boss Seeker** | 最多 4 × Seeker Slave， 每 10 秒 出现 一个新的 | 头领 被击毁 2 分钟 后， 在同一星区 |
 
 <!-- swarms-list:end -->
 
 ## 何时何地 {#when-and-where}
 
-虫群从**初次接触**起开始出现，并一直留到重置（见[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md)；具体日期在下面规则的第一行）。**每个世界都有自己的虫群**，位置相同，所以 Alpha 的 Pirate Boss 和 Beta 的 Pirate Boss 是两艘不同的舰船，你在自己世界击毁的虫群，在别的世界里并未被击毁。被击毁的虫群会在上表给出的时间后回来。
+虫群从**初次接触**起开始出现，并一直留到重置（见[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md)；具体日期在下面规则的第一行）。**每个世界都有自己的虫群**，位置相同，所以 Alpha 的 Pirate Boss 和 Beta 的 Pirate Boss 是两艘不同的舰船，你在自己世界击毁的虫群，在别的世界里并未被击毁。被击毁的虫群会在上表给出的时间后回来。Dormant 虫群在赛季第 11 天（活动 2）发生变化：它出现在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，回归更早，奖励翻倍。
 
 ## 每个虫群的规则 {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Seeker 虫群和 Pirate 虫群会在 Boss 出现和被击毁时，通知所在�
 - **货箱归造成伤害最多的飞行员。** 和任何外星人一样，它在 30 秒内属于该飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。Dormant 的每艘舰船都有自己的伤害统计和自己的货箱。
 - **随从照常支付**：Pirate Scout 和 Seeker Slave 把奖励付给第一个击中它们的飞行员，它们的奖励与 Boss 相比很少。
 - **Boss 的奖励被设计得高于它周围的外星人。** 与 Pirate Boss 战斗一分钟的收益高于与 Goombah 战斗一分钟，Dormant 虫群还要更高；Boss Seeker 的奖励恰好是十只 Seeker。
+- **Dormant Swamp 的外星人**（Slumbering Void、Inert Mass 和 Unwakened）像首领一样按伤害支付奖励，并为你的排名增加 PvE 积分；它们的数字见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)。
 
 每次击杀都以舰船自己的名字计入你的击杀统计，并为你的排名增加 PvE 积分：
 

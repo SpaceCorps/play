@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Quêtes -->
 # Quêtes {#quests}
 
@@ -98,7 +98,7 @@ Il y en a deux sortes. Un séjour qui **s’additionne** garde ce que vous avez�
 Les séjours et les visites ne se font pas concurrence : chacun d’eux, tant qu’il est ouvert, compte aussitôt, quoi que vous fassiez d’autre. Les éliminations sont différentes : une élimination ne compte que pour une mission de niveau (voir [Où ça compte](#where-it-counts)).
 
 > [!NOTE]
-> Les visites et les séjours peuvent mener dans les secteurs dangereux (Reconnaissance du centre, Veille du centre et Tenir le centre le font), où les pilotes d’autres corporations peuvent vous attaquer. Les objets de mission, jamais.
+> Les visites et les séjours peuvent mener dans les secteurs dangereux (Reconnaissance du centre, Veille du centre et Tenir le centre le font), où les pilotes d’autres corporations peuvent vous attaquer. Les objets de mission, jamais. Un point de visite en `DS-x` compte dans n’importe quel secteur dangereux : dès le jour 11 de la saison, faites les points proches du coin supérieur gauche de `DS-4`, comme le coin de **Quatre coins**, dans `DS-1`, `DS-2` ou `DS-3`, car ce coin de `DS-4` est sous les canons du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Missions d’essaim {#swarm-missions}
 
@@ -106,7 +106,7 @@ Treize missions demandent les vaisseaux des [essaims](/wiki/05-Swarms/Swarms.md)
 
 - **Elles s’ouvrent au jour 4 de la saison**, le jour où les essaims apparaissent ([calendrier de 30 jours](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Avant cela, Mission Control les refuse avec « Cette mission s’ouvre au jour 4 de la saison. »
 - Un vaisseau d’essaim compte sous **son propre nom** : un Boss Seeker ou un Seeker Slave n’est pas un Seeker, un Pirate Scout n’est pas un Phantasm.
-- L’étape ne nomme aucun secteur, parce que les essaims se déplacent : l’[essaim Seeker](/wiki/05-Swarms/Seeker-Swarm.md) dans `x-1` et `x-2`, l’[essaim Pirate](/wiki/05-Swarms/Pirate-Swarm.md) dans `x-2` et `x-3`, l’[essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) dans les secteurs dangereux. Un Boss Seeker ou un Pirate Boss revient 2 minutes après sa chute.
+- L’étape ne nomme aucun secteur, parce que les essaims se déplacent : l’[essaim Seeker](/wiki/05-Swarms/Seeker-Swarm.md) dans `x-1` et `x-2`, l’[essaim Pirate](/wiki/05-Swarms/Pirate-Swarm.md) dans `x-2` et `x-3`, l’[essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) dans les secteurs dangereux. Un Boss Seeker ou un Pirate Boss revient 2 minutes après sa chute. Dès le jour 11 de la saison, l’Essaim Dormant commence au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - Les missions Dormant sont faites pour un équipage : il y a un essaim Dormant dans chaque monde, et un groupe de vaisseaux puissants en vient à bout ([comment se déroule le combat](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). Le palier suivant n’attend ni **Aube des Dormants** ni **Crépuscule des Dormants** ([la ligne des Défis](#challenge-line)).
 - Un Boss Seeker frappe plus fort que ce que le vaisseau d’un nouveau pilote peut encaisser : lisez [comment se déroule le combat](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) avant de vous lancer.
 
@@ -171,7 +171,7 @@ Huit missions de la vraie liste, de la première heure à la ligne des Défis. L
 - **Vos éliminations paient en plus.** Les aliens que vous détruisez paient toujours leurs propres crédits, Thulium et honneur ; la récompense s’y ajoute.
 - **Les éliminations comptent deux fois.** Une élimination compte pour chaque Défi qui la demande **et** pour la mission de niveau pour laquelle elle compte, si bien qu’une mission de mille éliminations n’affame jamais vos missions de niveau.
 - **Groupes.** Une élimination compte pour le pilote qui en est payé et pour chaque membre du groupe à moins de **4 000 unités** de l’épave qui a tiré au laser ou à la roquette dans les 15 dernières secondes. Chaque pilote tient son propre compte.
-- **Les séjours demandent des tirs, sauf au centre.** Un séjour dans `x-3`, dans `x-4` ou dans la `x-4` d’un rival ne compte que tant que vous avez tiré dans les 60 dernières secondes, si bien qu’un vaisseau garé ou qui tourne en rond ne gagne rien. Les séjours dans les secteurs dangereux (**Veille du centre**, **Veille du trou noir**, **Dernière veille**), où ne vit aucun alien, comptent pour un vaisseau qui a parcouru 300 unités ou tiré dans les 30 dernières secondes, comme ceux des missions de niveau.
+- **Les séjours demandent des tirs, sauf au centre.** Un séjour dans `x-3`, dans `x-4` ou dans la `x-4` d’un rival ne compte que tant que vous avez tiré dans les 60 dernières secondes, si bien qu’un vaisseau garé ou qui tourne en rond ne gagne rien. Les séjours dans les secteurs dangereux (**Veille du centre**, **Veille du trou noir**, **Dernière veille**), où ne vit aucun alien ordinaire (les aliens qui s’éveillent dès le jour 11 de la saison, voir [Secteurs dangereux](/wiki/01-General/Danger-Sectors.md), ne changent pas la règle), comptent pour un vaisseau qui a parcouru 300 unités ou tiré dans les 30 dernières secondes, comme ceux des missions de niveau.
 
 Ce que demande chaque palier, avec des missions des tableaux :
 

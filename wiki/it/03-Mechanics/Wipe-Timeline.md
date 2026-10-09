@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be279a1fbb360e1d -->
+<!-- wiki-i18n source: b3c1a5c5512f39cd -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -16,12 +16,12 @@ Ogni stagione va dal giorno 1 al giorno 30 (il reset parte con il suo conto alla
 | :--- | :--- | :--- | :--- |
 | **Protocollo di pace** | Giorni 1–3 | Fase senza PvP | Un nuovo inizio incentrato interamente sulla progressione PvE, sul farming di risorse e sulla costruzione delle navi, senza la minaccia di scontri tra giocatori. |
 | **Primo contatto** | Giorni 4–10 | Evento 1 | Il PvP si apre (secondo la regola del tuo mondo, vedi Mondi più sotto) e i tre [sciami](/wiki/05-Swarms/Swarms.md) cominciano ad apparire: restano fino al reset, attraverso le fasi successive. La fase in sé non dà ancora ricompense speciali. |
-| **Balzo tecnologico** | Giorni 11–18 | Evento 2 | Ancora nessun effetto speciale: premi e alieni sono gli stessi di qualsiasi altra fase. |
+| **Balzo tecnologico** | Giorni 11–18 | Evento 2 | I [settori pericolosi](/wiki/01-General/Danger-Sectors.md) cambiano: un pulsar con un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) su `DS-1`–`DS-3`, il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) su `DS-4`, Slumbering Void, e uno Sciame Dormant che ritorna prima e paga il doppio. Tutto resta fino al reset. La fase non dà ricompense proprie. |
 | **Giochi di guerra** | Giorni 19–25 | Evento 3 | Ancora nessun effetto speciale: il PvP funziona come in ogni fase dopo il Protocollo di pace. |
 | **Conto finale** | Giorni 26–30 | Evento 4 | La fase del conto finale. Tutti i piloti corrono a completare e bloccare il carico che portano con sé prima dell’eruzione. |
 | **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce, e ogni [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) viene sciolto. I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. |
 
-A parte il reset in sé, solo tre cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali propri.
+A parte il reset in sé, solo quattro cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, dal giorno 11 i [settori pericolosi](/wiki/01-General/Danger-Sectors.md) ricevono i loro pulsar, escavatori giganti e il Dormant Swamp, che restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco. L’evento 2 cambia i settori pericolosi come sopra; nessuno degli altri dà ancora ricompense, spawn o bonus speciali propri.
 
 ---
 

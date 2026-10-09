@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
@@ -20,7 +20,7 @@ Avstånden räknas från sektorns mitt, i kartenheter. Sektorn är 32 000 gång
 | **Punkt utan återvändo** | ungefär 1 000 till 2 600 | Där dragningen är lika stark som ditt skepps fart. Innanför den dras du in, även med full kraft. Den beror på din fart. |
 | **Händelsehorisont** | 300 | Varje skepp som når den förstörs på stört, oavsett skrov och sköld. |
 
-Farosektor 4:s portaler och lederna mellan dem ligger alla långt utanför strålningen, så du råkar aldrig in i den på vägen igenom.
+Farosektor 4:s portaler och lederna mellan dem ligger alla långt utanför strålningen, så du råkar aldrig in i den på vägen igenom. Från säsongsdag 11 rymmer samma sektor också [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), i sitt övre vänstra hörn, långt från hålet; utomjordingarna där kommer aldrig in i hålets ringar.
 
 ## Strålning {#radiation}
 

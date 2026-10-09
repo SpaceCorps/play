@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -20,14 +20,14 @@
 | 무리 | 위치 | 개수 | 리더 | 부하 | 복귀 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate 무리**](/wiki/05-Swarms/Pirate-Swarm.md) | 모든 기업의 `x-2`와 `x-3` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Pirate Boss** | 최대 5 × Pirate Scout, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
-| [**Dormant 무리**](/wiki/05-Swarms/Dormant-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다 | 월드마다 하나 | **Dormant Force** | 2 × Dormant Pulse, 리더와 함께 비행 | 무리 전체가 격파되고 1시간 뒤, 무작위 위험 섹터에서 |
+| [**Dormant 무리**](/wiki/05-Swarms/Dormant-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다 | 월드마다 하나 | **Dormant Force** | 2 × Dormant Pulse, 리더와 함께 비행 | 무리 전체가 격파되고 1시간 뒤, 무작위 위험 섹터에서. 시즌 11일차부터: 30분, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서, 모든 함선의 보상 ×2 |
 | [**Seeker 무리**](/wiki/05-Swarms/Seeker-Swarm.md) | 모든 기업의 `x-1`와 `x-2` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Seeker** | 최대 4 × Seeker Slave, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
 
 <!-- swarms-list:end -->
 
 ## 언제, 어디에 {#when-and-where}
 
-무리는 **첫 접촉**부터 나타나기 시작해 초기화까지 남아 있습니다([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md) 참조. 날짜는 아래 규칙의 첫 줄에 있습니다). **월드마다 자기만의 무리가 있으며** 위치는 같습니다. 그래서 Alpha의 Pirate Boss와 Beta의 Pirate Boss는 서로 다른 함선이고, 내 월드에서 처치한 무리가 다른 월드에서 처치되는 것은 아닙니다. 처치된 무리는 위 표의 시간이 지나면 돌아옵니다.
+무리는 **첫 접촉**부터 나타나기 시작해 초기화까지 남아 있습니다([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md) 참조. 날짜는 아래 규칙의 첫 줄에 있습니다). **월드마다 자기만의 무리가 있으며** 위치는 같습니다. 그래서 Alpha의 Pirate Boss와 Beta의 Pirate Boss는 서로 다른 함선이고, 내 월드에서 처치한 무리가 다른 월드에서 처치되는 것은 아닙니다. 처치된 무리는 위 표의 시간이 지나면 돌아옵니다. Dormant 무리는 시즌 11일차(이벤트 2)에 달라집니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에 나타나고, 더 일찍 돌아오며, 보상이 두 배입니다.
 
 ## 모든 무리의 규칙 {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 - **화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다.** 다른 외계인과 마찬가지로 30초 동안은 그 파일럿(과 소속 클랜)의 것이고, 그 뒤에는 누구나 가져갈 수 있습니다([화물](/wiki/03-Mechanics/Cargo.md)). Dormant의 각 함선은 자체 피해 집계와 자체 상자를 가집니다.
 - **부하는 평소처럼 지급합니다.** Pirate Scout와 Seeker Slave는 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
 - **보스의 보상은 주변 외계인보다 크게 설계되어 있습니다.** Pirate Boss와 1분 싸우면 Goombah와 1분 싸우는 것보다 보상이 많고, Dormant 무리는 그보다도 많습니다. Boss Seeker의 보상은 정확히 Seeker 10마리분입니다.
+- **Dormant Swamp의 외계인**(Slumbering Void, Inert Mass, Unwakened)은 보스처럼 피해에 따라 보상이 지급되고 내 순위의 PvE 포인트에 더해집니다. 수치는 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)에 있습니다.
 
 모든 처치는 그 함선 고유의 이름으로 처치 통계에 집계되며, 랭킹에 PvE 포인트를 더합니다.
 

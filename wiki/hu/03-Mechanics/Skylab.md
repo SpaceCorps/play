@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 
 ## Az ellátási lánc {#the-supply-chain}
 
-Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja.
+Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja. (Az [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is hagy némi Velkonite-ot és Orviumot ládákban, de ez az érc a rakományodba kerül, ahol a Kutatóközpont üzemanyaga, és a kovácsműhely nem veszi fel.)
 
 1. Egy **gyűjtő** ércet bányászik, óránként egy meghatározott mennyiséget, a saját tárolójába (72 órányi termelés fér bele).
 2. A **begyűjtés** áthelyezi az ércet a tárolóból az **Erőforrás-raktárba**, a bankba, ahol minden érc külön van tárolva.

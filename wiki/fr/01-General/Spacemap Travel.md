@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -30,7 +30,7 @@ L’univers comprend trois grands secteurs de corporation (Mars, Terra, Galactic
 - **x-1 (base d’origine)** : la carte de départ de chaque corporation (M-1, T-1, G-1). La zone la plus sûre.
 - **x-2 -> x-3** : des zones d’expansion aux aliens de plus en plus coriaces.
 - **x-4 (frontière)** : la porte d’entrée du secteur PvP et du `x-3` d’une autre corporation (l’Anneau, plus bas).
-- **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4.
+- **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4. Dès le jour 11 de la saison, il contient aussi des pulsars avec des excavatrices géantes et le Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md)).
 
 Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
 
@@ -79,7 +79,7 @@ Les déplacements sur la carte spatiale passent par les **portes de saut** (les 
   L’Anneau est ouvert à tous les pilotes, quelle que soit la corporation pour laquelle ils volent : c’est une seconde manière de voyager entre les cartes des corporations, qui ne traverse pas la zone PvP. Une porte de l’Anneau se tient dans un coin à part, loin des autres portes de sa carte, avec la zone sûre habituelle de 660 unités autour d’elle, et le saut fonctionne comme à n’importe quelle porte. L’endroit où l’on peut vous attaquer de l’autre côté dépend de votre monde, comme partout : dans Alpha, `T-3` n’est pas un secteur PvP mais `T-4` l’est, dans Beta les deux le sont, dans Gamma tous les secteurs le sont.
 - **Routes d’invasion (voyages entre corporations)** : il y a deux façons d’entrer par les portes sur le territoire d’une autre corporation. La courte est l’Anneau : un pilote de Mars vole de `M-4` jusqu’au `T-3` de Terra par la porte de l’Anneau (trois sauts depuis la base de Mars, `M-1` → `M-2` → `M-4` → `T-3`), puis poursuit vers `T-4` ou `T-2` ; le `G-4` de Galactic mène de la même façon au `M-3` de Mars, et le `T-4` de Terra au `G-3` de Galactic. La longue traverse la zone PvP : de `M-4` jusqu’au secteur dangereux `DS-1`, par la porte de saut vers `DS-2`, puis dans l’espace de Terra par `T-4` ; pour atteindre Galactic, on franchit la porte de saut vers `DS-3` et l’on entre par `G-4`.
 - **Le triangle des secteurs dangereux** : `DS-1`, `DS-2` et `DS-3` sont tous reliés entre eux. Chacun abrite la porte d’une corporation (Mars dans `DS-1`, Terra dans `DS-2`, Galactic dans `DS-3`) ; `DS-4` n’en a aucune.
-- **Le cœur central** : les trois secteurs dangereux extérieurs (`DS-1`, `DS-2` et `DS-3`) sont reliés directement à la carte centrale **`DS-4`**, la zone PvP la plus dangereuse et la plus lucrative de l’univers. Un **trou noir** se trouve exactement en son milieu : les portails et les couloirs qui les relient en restent bien éloignés, mais un vaisseau qui s’y aventure subit sa radiation, puis son attraction, et est détruit à son horizon des événements. Voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md).
+- **Le cœur central** : les trois secteurs dangereux extérieurs (`DS-1`, `DS-2` et `DS-3`) sont reliés directement à la carte centrale **`DS-4`**, la zone PvP la plus dangereuse et la plus lucrative de l’univers. Un **trou noir** se trouve exactement en son milieu : les portails et les couloirs qui les relient en restent bien éloignés, mais un vaisseau qui s’y aventure subit sa radiation, puis son attraction, et est détruit à son horizon des événements. Voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md). Dès le jour 11 de la saison, le coin supérieur gauche de `DS-4` contient le [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), dont les canons tirent sur tout vaisseau qu’ils voient.
 
 ### Le Jump CPU {#the-jump-cpu}
 

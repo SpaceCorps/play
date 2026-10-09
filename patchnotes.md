@@ -16,137 +16,105 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
-## 0.4.16 · 2026-10-09
+## 0.4.17 · 2026-10-09
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.16)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.17)
 
-SpaceCorps 2027 0.4.16 is the clans and ships update: clans get a page, posts, a daily bonus and wars that end by consent, ranks become fixed places with a gold crown, crafting makes batches, and your crafted ships turn grey, wear Hull Plating and convert into thirteen designs with abilities of their own. Clans now belong to a world, and the next Wipe disbands every clan.
+SpaceCorps 2027 0.4.17 is the Danger Sector update: when a season reaches day 11 (the Tech Surge), the machines of a lost civilisation wake up. DS-1, DS-2 and DS-3 get a pulsar and a giant excavator that mines Thulium and rare ore when you fuel it with Dark Matter, DS-4 gets the Dormant Swamp and its guns, three new dormant aliens (the Slumbering Void, the Inert Mass and The Unwakened) defend them, and the Dormant Swarm comes back twice as fast and pays twice.
 
 ### What's new
 
 **Highlights**
-- **Clans:** a Clan Page any pilot can open, Management (the old Admin tab) with requirements, a Discord link and a description, posts, a Who is online window (key H), wars that end only when the other clan agrees, a daily bonus from the Fleet Treasury and a Log tab.
-- **Ranks are fixed places in each company:** Senior Admiral needs 50,000 PvE points and has 1 place, down to Junior General at 25,000 with 15. The pilot with the most PvE points on the server wears a gold crown.
-- **Crafting makes batches:** x5, x10 or Max of a recipe is one entry in the one Production Queue, with one timer and one Collect.
-- **Clan Wardens call reinforcements** (a wave every minute, three at most) and pay three times as much; Brood Warden III has half the hull and shield. **Challenges** pay by a rate card, at most 100,000 Thulium a claim and exactly five times the experience.
-- **Shield penetration has no cap any more,** and the Ship window shows the total your next laser hit starts from.
-- **Ships:** the four crafted ships are grey, and Hull Plating I to III goes into hull plate slots (Paragon 5, Storm 7, Ironclad 15, Wraith 9), each opened by research.
-- **Thirteen designs** (THUNDER, BUCKY, LICH, NOTSUM, BRATAN, RECON, DUMA, TITANIC, RAPTOR, BILLY, MENATI, ATARAXIS and MATT) change what a ship does: convert one of your ships in the Assembly (it cannot be undone). **Seven abilities** (Blink, Chameleon, Focus Fire, Venom, Diminisher, Heal Pod and Shield Buff) sit on the F key. Every new action has its own quiet sound.
+- **A pulsar and a giant excavator** on DS-1, DS-2 and DS-3 of every world. Put Dark Matter in its tank (3 at most; 1 burns for 10 minutes), choose Thulium, Cataclysite, Quorvium, Orvium or Velkonite at the control panel and start it: everyone in the world is told in chat. A box lands around it every 20 seconds for anyone to take. A full run of 30 minutes is worth about what 2 to 3 pilots hunting for Thulium the best way make in that time (4,821 Thulium in Alpha).
+- **Mining calls Slumbering Voids:** 2 every 2 minutes, 8 at most, each 25,000 hull and 150,000 shield at speed 400. If no pilot is left to fight them they attack the excavator (200,000 hull in Alpha): destroyed, it rests for an hour and its fuel is lost.
+- **After 30 minutes of mining in all, the excavator overheats** and rests for an hour, and it and its pulsar radiate: 10% of a ship's hull and shield every second, so a ship dies in 10 seconds. You are warned 60 and 15 seconds before.
+- **The Dormant Swamp,** the top-left corner of DS-4: a N.I.K.E. every 2 seconds, a N.U.K.E. every 5 seconds and two laser turrets of about 50,000 a hit fire at every ship they see within 4,300 units, and none of them sees a cloaked ship. Five **Inert Masses** and two patrolling Voids live there, and **The Unwakened** (10 million hull and 10 million shield, 75,000 damage a second within 700 units) sleeps in the middle and cannot be hurt yet.
+- **The Dormant Swarm** starts from the swamp, is back 30 minutes after its last ship dies (it was an hour) and pays twice the Credits, Thulium, experience and honor.
+- **Ranking:** a Slumbering Void gives 10 PvE points, an Inert Mass 15 and The Unwakened 112.
+- **New look and sound:** purple-black models with glowing violet seams, the excavator's control panel, a radiation gauge, 15 new quiet sounds and every new text in 12 languages.
 
 **If you already play: what changes for you**
-- **The next Wipe disbands every clan, and its Fleet Treasury is lost.** A clan now belongs to a world and goes with the Wipe at the end of the 30-day season. Until then the Leader and Co-Leaders can pay the treasury out to the pilots, within each pilot's daily payout limit. Credits already paid out stay with the pilot. The Wipe countdown reminds the clan members who are online.
-- **Update the game.** A 0.4.12, 0.4.13, 0.4.14 or 0.4.15 game installs it as a patch, and downloads the whole package if the patch cannot be used. A 0.4.11 or older game downloads the whole package.
-- **Your clan keeps working until the Wipe.** It gets the world of its Leader. Members who fly in another world stay, but a clan takes only pilots of its own world from now on.
-- **Everyone's rank is worked out again at the first start.** It can rise or fall. A pilot who rises is told once ("Promoted") at the next join; a rank that falls is lowered quietly. The Company page shows yours.
-- **Challenges you started pay the new numbers when you claim them;** the ones you claimed stay claimed. A craft under way goes on.
-- **Your ships turn grey and keep every fitting.** The hull plate slots start locked: each one is a Skylab technology of 1 hour and 10 Dark Matter. Hull Plating I is in the Shop for 5,000 Thulium.
-- **A 0.4.15 game keeps working but shows none of the new features,** and a war can no longer be replaced by an alliance or a pact.
+- **Nothing changes before season day 11.** From that day (event 2, the Tech Surge) to the next Wipe the Danger Sectors hold all of the above. A world that is past day 11 when you update gets it at once.
+- **Update the game.** A 0.4.12, 0.4.13, 0.4.14, 0.4.15 or 0.4.16 game installs it as a patch (a Linux AppImage game from 0.4.14), and downloads the whole package if the patch cannot be used. A 0.4.11 or older game downloads the whole package.
+- **A game that has not updated cannot see the swamp, the pulsars or the radiation, and they still hurt it.** A 0.4.16 game keeps working, but it draws no pulsar, excavator or swamp, has no control panel, and sees the new aliens as ordinary ones.
+- **The Dormant Swarm changes from day 11:** it starts at the swamp, is back after 30 minutes and pays twice (the loot box is the same).
+- **Rocks near the new places are gone:** there are none within 2,600 units of a pulsar, 2,200 of an excavator or 4,900 of the swamp.
+- **A login or an "on the spot" respawn never puts you inside the radiation or the swamp's zone:** you are moved out of it and told so.
+- **Dark Matter has a new use** (the excavator's fuel). An Inert Mass can drop it, and The Unwakened would drop a lot.
+- No Credits, Thulium or items are paid, moved or removed by the update.
 
-**Clans: the Clan Page and Management**
-- **The Clan Page.** Click a clan's name in the Find list, in the leaderboards or on a pilot's profile (or Preview in Management) to read about any clan: its Leader, level and pilots, its world, the Experience, Honor and PvE and PvP ranking points of its pilots added up, what it asks of new pilots, its Discord link and description, and its active boosters. It never shows the roster, the treasury or the applications.
-- **Requirements.** Leaders and Co-Leaders set a minimum level (1 to 21) and a minimum company rank (Pilot, Sergeant, Lieutenant, Captain, Major, Colonel, General or Admiral; a rank counts from its lowest grade, so Captain takes a Junior Captain and above). The Find list marks what you lack and disables Apply and Join with the reason. An officer's invitation skips the requirements.
-- **Description and Discord.** A description of up to 200 characters and a Discord invite link; only discord.gg and discord.com/invite links are accepted, and the game opens nothing else.
-- **Bigger clans:** 15, 25, 50, 75 and 100 pilots at levels 1 to 5 (level 1 held 10). Management also has a table of the five levels with their prices; only the Leader upgrades, paying from the Fleet Treasury.
-- **Thulium Treasury.** A pill in the clan header and in Management: a counter kept for a later update. Nothing pays into it yet.
+**The pulsar and the giant excavator**
+- **Where.** One pulsar and one giant excavator on each of DS-1, DS-2 and DS-3 in every world (nine pairs). The excavator stands 900 units from its pulsar, in the open part of the map, far from the gates. DS-4 has the black hole instead. A label "Excavator" hangs over the machine within 1,400 units: click it to open the **Giant excavator** sheet.
+- **The control panel.** The sheet works within 600 units of the excavator. It shows the fuel tank (three cells), the heat, the hull, the five resources with what each lays a minute in your world, **Add Dark Matter** and **Start mining**. Anyone can add fuel, choose and start; the choice can be changed until Start and is locked while it runs. A refusal ("You are too far from the control panel", "You have no Dark Matter", "The tank can hold no more Dark Matter") shows in red.
+- **Fuel.** Add Dark Matter takes 1 Dark Matter from your cargo (not one that is fitted, not one in the Transport Cache). The tank holds 3, never more than the excavator can still burn before it overheats; 1 burns for 10 minutes. **If the excavator is destroyed, the fuel in its tank is lost.**
+- **Mining.** Start tells the whole world in chat and the Game Log ("[pilot] started the giant excavator on DS-1: mining Thulium, 30 minutes of fuel. Slumbering Voids will come for it."). A box lies 450 to 900 units from the excavator every 20 seconds (90 in a full run) for 5 minutes. Anyone can pick one up, first come, with no daily limit on its Thulium. Normal PvP rules apply here: nothing protects a miner from a raider.
+- **Out of fuel before the heat limit,** it is ready again with its heat kept: add Dark Matter and start again.
 
-**Clans: people**
-- **Posts.** The Leader and Co-Leaders write posts of up to 200 characters, one every 10 seconds each and 20 alive at most. Members read them in the new Posts tab and get a toast for a new one; the author and the officers can delete a post. A link is refused.
-- **Map column.** The Members list shows the sector and the world of each clan mate who is online. A docked pilot counts as offline.
-- **Who is online.** A button at the top right (key H) opens a window with the pilots of your world: rank, company, clan tag, name and level, a search box and an Invite button that sends a Group invitation. It refreshes every 10 seconds and lists up to 100 pilots. A pilot who is cloaked from you is not listed.
-
-**Clans: diplomacy, the daily bonus and the log**
-- **Wars end by consent.** The Leader or a Co-Leader asks the other clan for peace; the other clan accepts or declines, and a decline means a wait of 1 hour before asking again. A request lasts 24 hours and you can take it back. A war is no longer replaced by an alliance or a pact, but you can still declare war over one. An alliance and a pact can be cancelled or switched into each other at once, and the officers of the other clan hear of it.
-- **Daily bonus.** The Leader sets an amount for each clan rank (Pilot, Elder, Co-Leader, Leader): 0 is off, otherwise 1,000 to 1,000,000 Credits. It is paid once a day from the Fleet Treasury at a member's first check that day, to members who have been in the clan for at least 24 hours. When the treasury is short that member gets nothing that day.
-- **Log.** A new tab for members with the last 200 events in your own language: every clan quest step with the pilots who took part (even a single pilot), the treasury, the roster, ranks and diplomacy.
-
-**Clans: worlds and the Wipe**
-- **A clan belongs to one world,** the world of the pilot who founded it. You can only find, join, rank, invite and make treaties with clans of the world you fly in, and the Find list and both leaderboards show only those. A pilot who has not chosen a world cannot found or join a clan yet. The Clan Page names the clan's world.
-- **The Wipe disbands every clan.** The clan, its roster, Fleet Treasury, posts, log, requirements, daily bonus, points, boosters, treaties and Wardens are gone. What stays: the Credits already paid out to you, and your own daily donation record (a Wipe is not a second allowance). Pay the treasury out before it comes.
-- **Existing clans.** A clan gets the world of its Leader. A member who flies in another world stays until the Wipe but cannot be added again once he leaves; a treaty or war across worlds stands and can be ended, but none can be made.
-
-**Ranking**
-- **A rank is the highest one you reach and have room in.** Each company has a fixed number of places for its six best ranks:
-
-| Rank | Places in a company | PvE points needed |
-|---|---|---|
-| Senior Admiral | 1 | 50,000 |
-| Admiral | 2 | 45,000 |
-| Junior Admiral | 4 | 40,000 |
-| Senior General | 8 | 30,000 |
-| General | 10 | 27,500 |
-| Junior General | 15 | 25,000 |
-
-- **Below Junior General** the minimums step down by 2,500 a rank, from Senior Colonel at 22,500 to Junior Captain at 2,500, with no limit on places. The nine lowest ranks keep their old minimums (0 to 1,900).
-- **Equal points are the same rank.** A pilot with 29,000 and one with 28,000 are both Generals; a tie at the edge of a limited rank takes the better rank. A pilot who has been away for 30 days holds no place.
-- **A gold crown** stands over the rank symbol of the pilot (or pilots, if tied) with the most PvE points on the whole server: on name tags, in chat, in the kill feed, in the group list, in the Hall of Fame and on profiles.
-- **The Company page's All ranks table** now shows the places, how many pilots hold each rank and the points each needs.
-
-**Crafting**
-- **One queue, and batches.** On a recipe card pick x1, x5, x10 or Max (as many as you can pay for, up to 25). A batch is one entry in the Production Queue with one timer (the recipe's time for each copy) and one Collect that hands out everything. It is paid in full up front, all or none, and each piece of equipment rolls its enchant tier on its own. Ships, Extra Slots CPUs and upgrades are still made one at a time.
-- **Collect all.** A button in the Production Queue when two or more crafts are finished. A queue holds 100 entries; a batch counts as one.
-
-**Wardens and Challenges**
-- **Brood Warden III is easier:** half the hull (2,650,000) and half the shield (2,175,000), and its drones mend half as much and come every 16 seconds instead of 8. The other eight Wardens keep their strength.
-- **Reinforcements.** Once a Warden is armed, a wave of the sector's aliens arrives every minute, up to three waves alive at once: 5 Phantasm in x-2, 10 Phantasm in x-3, 10 Bulwarks in x-4. They are ordinary aliens that anyone can shoot; they stop coming when the Warden is gone. The clan hears of each wave in chat and the Game Log.
-- **Warden kills pay three times as much:** Credits, Thulium, experience, honor and the laser ammo in the loot box. A Brood Warden III now pays 7,200,000 Credits and 36,000 Thulium (2,400,000 and 12,000 before).
-- **Challenges pay by a rate card.** One kill pays at least what it paid in tier I, and each tier adds 10% more per kill, in Credits and Thulium. Bulwark Storm (400 Bulwarks) goes from 9,405 to 57,450 Thulium.
-- **A ceiling of 100,000 Thulium a claim.** Ten of the biggest hunts (Goombah Scourge, Bulwark Blight, Goombah Rout, Bulwark Sea, Ten Thousand Seekers, Ten Thousand Phantasm, Goombah Legion, Crystalys Reign, Pirate Throne and Warden of the Line) pay exactly 100,000, with their Credits and items scaled down together. The ceiling is on the base claim shown in Mission Control: your world's multiplier and your boosters apply on top, as for every quest.
-- **Experience is exactly five times what it was,** in all 50 Challenges (Bulwark Wall: 515,000). Power Cores, Reinforced Hull Plates and Cataclysite grow with the pay; the rare Orvium and Velkonite Reinforced Plates and the Ancient Control Units stay as they were. Nothing pays less than before.
-
-**Shield penetration**
-- **No cap.** A laser hit used to stop at 50% penetration and a direct rocket at 40%; now every point counts. The laser amps, the drone formation you wear, the ammo you fire and the rocket itself add up, and a shield's share of a hit is its absorbance minus the penetration, never below 0.
-- **A formation counts from the next volley.** The server uses it the moment you pick it.
-- **The Ship window's Penetration chip** adds up what your next laser hit starts from: your amps, the worn formation and the ammo you fire. It changes the moment you pick a formation or an ammo, and its tooltip lists the parts. The Hangar tile shows the amps of the configuration it shows.
-
-**Ships: grey, Hull Plating and hull plate slots**
-- **Grey ships.** The Paragon, Storm, Ironclad and Wraith, and their designs, are painted in grey, the base for skins later. Engine flames and navigation lights keep their colours. The Hangar, Shop and Assembly show new icons.
-- **Hull Plating I, II and III** add 5,000, 10,000 and 15,000 hull to crafted ships. I is in the Shop for 5,000 Thulium; II and III are made in the Assembly from the plate before it (each needs its technology in the Skylab). The Forge takes every plating; the Auction lists II and III but not I.
-- **Hull plate slots:** Paragon 5, Storm 7, Ironclad 15, Wraith 9; a design has its ship's slots. Plating fits only here, from the Hangar's new Hull plates card. Every slot is a technology in the Skylab of 1 hour and 10 Dark Matter (36 in all), each behind the one before; a locked slot says so and a click opens the research.
-- **Fitting.** Plates stay on when you swap configurations (key C). Your hull keeps its fraction when you fit or take off a plate, so a plate never heals and never kills. Four new quiet sounds mark fitting, taking off, unlocking and a locked slot.
-
-**Ships: thirteen designs**
-- **Convert a ship into a design** from the Assembly's Designs section. You research the design first (10 hours and 10 Dark Matter each), then the ship you own is converted in place, in 10 minutes, with its drones, plates and fittings. **It cannot be undone:** to get another design or the original ship, craft the ship again. A ship you are flying or a wrecked one cannot be converted, and lasers that no longer have a slot go back to your inventory with their amps and Forge rolls. The ship comes out with full hull and shields.
-- A conversion is one job of the Production Queue (never a batch), locks the ship until it is done, finishes by itself (Collect all leaves it alone) and plays its own short sound. A design is never sold in the Shop or listed in the Auction, and a kill of a design pays the same PvP points as a kill of its ship.
-- **Every design has its own model,** the ship with small changes that show what it does, still in grey. BUCKY and TITANIC are drawn a fifth bigger, which also makes them easier to hit. The Hangar shows a DESIGN badge, the Target window and the kill feed a tag.
-
-| Design | Ship | What it changes | Converting |
+| A full run lays (30 minutes, 3 Dark Matter) | Alpha | Beta | Gamma |
 |---|---|---|---|
-| THUNDER | Paragon | -25% base hull, +40 base speed, +1 laser slot | 1,000 Thulium |
-| BUCKY | Paragon | +25% base hull, -20 base speed, -1 laser slot, +10% shield absorption, +20% size | 1,000 Thulium |
-| LICH | Paragon | +1% shield regeneration a second | 1,000 Thulium |
-| NOTSUM | Storm | -20% base hull, +20 base speed, +2% speed, Blink | 7,500 Thulium |
-| BRATAN | Storm | -50 base speed, +2 laser slots, -50% shields, +10% shield penetration | 7,500 Thulium |
-| RECON | Storm | -20% base hull, +5% speed, -2 laser slots, Chameleon | 7,500 Thulium |
-| DUMA | Ironclad | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire | 5,000 Thulium |
-| TITANIC | Ironclad | +2 laser slots, +1 core slot, +20% shields, +20% size, Blink (1,500 speed) | 19,000 Thulium |
-| RAPTOR | Wraith | +1 laser slot, +5% all damage, Venom | 20,500 Thulium |
-| BILLY | Wraith | +5% base hull, +10 base speed, +10% shields, Diminisher | 19,500 Thulium |
-| MENATI | Wraith | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 24,000 Thulium |
-| ATARAXIS | Wraith | -1 laser slot, +25% shields, +10% shield absorption, Shield Buff | 21,500 Thulium |
-| MATT | Wraith | -10% base hull, +2 laser slots, -20% shields, +10% laser penetration | 13,500 Thulium |
+| Thulium | 4,821 | 7,714 | 9,643 |
+| Cataclysite | 1,157 | 1,851 | 2,314 |
+| Quorvium | 514 | 823 | 1,029 |
+| Velkonite | 320 | 320 | 320 |
+| Orvium | 160 | 160 | 160 |
 
-Besides Thulium a conversion takes Ship Fragments, Reinforced Hull Plates and Power Cores (30, 5 and 2 for a Paragon design, 75, 13 and 4 for a Wraith design), an Ancient Control Unit for every design but the Paragon's, and 3 to 8 Dark Matter Plates.
+Velkonite and Orvium, the Skylab's two ores, are capped at 4 hours of a level 20 collector of that ore, so a run never speeds the Skylab up by more than that. Thulium, Cataclysite and Quorvium are laid at the same worth, in the model's figures about what 2.5 pilots make in half an hour hunting for Thulium the best way (3,857 Thulium an hour each, counted before the cost of their ammo); Beta and Gamma scale it by 1.6 and 2, and the Voids' pay and boxes come on top.
 
-**Ships: seven abilities on the F key**
-- **The fourth button.** A design with an ability has a fourth button beside the extras button, on the key F (you can rebind it). Each ability has its own effect, sound and tooltip.
+- **Overheating.** Mining adds heat, and the heat never cools while the excavator stands idle: after 30 minutes of mining in all, however many runs it takes, the excavator overheats and rests for an hour. The tank is emptied, the boxes already on the ground stay, and the map is warned 60 and 15 seconds before.
+- **Radiation.** While it rests, overheated or destroyed, the excavator and its pulsar radiate. A ship within 1,100 units of the excavator or 1,300 of the pulsar loses 10% of its hull and shield every second, shield first, cloaked or not: a ship at full strength dies in 10 seconds, and the kill is credited to the last enemy who hit it. Aliens are not hurt. The circles are drawn on the flight view and the minimap (an amber ring in the last minute, red and dashed while they radiate) and a gauge shows the dose. **The Ironclad (speed 92) cannot leave the circles in 10 seconds from the panel or the far boxes: leave in the 60-second warning.**
+- **Slumbering Voids.** The first wave comes 60 seconds after a start, then every 120 seconds: 2 Voids from the edge of the map, at most 8 alive, none in the last 60 seconds before the overheat. They hunt the pilots near the excavator; the ones left over start flying away 90 seconds after the run ends, unless they are fighting.
+- **The siege.** When no pilot is left for them to hunt (dead, cloaked, in a safe ring or farther than 7,000 units) for 15 seconds, the Voids shoot the excavator for a quarter of their laser damage. At 0 hull it is destroyed: it rests for an hour, its hull is full again and its fuel is lost. Pilots cannot hurt it, and nothing but the Voids does. Its hull is 200,000 in Alpha, 300,000 in Beta and 400,000 in Gamma.
+- **A server restart pauses a run:** fuel, heat, choice and cooldown are saved; the next wave comes 60 seconds after.
 
-| Ability | Design | What it does | Recharge |
+**The Dormant Swamp**
+- **Where.** The top-left corner of DS-4: a zone of 4,300 units around its middle, more than 6,700 units from the nearest portal ring and clear of the black hole. A ship that crosses the notice ring at 4,800 units is told once ("Warning: the Dormant Swamp. Its turrets fire on every ship they see, and something sleeps in the middle.").
+- **The guns** stand in the middle and cannot be hurt. Each aims at the nearest ship it sees, with the world's strength on its damage (1.5 times in Beta, 2 in Gamma):
+
+| Gun | Fires | Hits for | Reaches |
 |---|---|---|---|
-| Blink | NOTSUM, TITANIC | 1 second at speed 2,500 (TITANIC 1,500); stops at your order or the edge of the map | 120 s |
-| Chameleon | RECON | Other players cannot see you or find you on the radar; your own company sees a ghost. An EMP jams it for 5 s. It ends when you take damage, fire lasers, launch a rocket, pick up a box or enter a safe zone | 60 s after it ends |
-| Focus Fire | DUMA | 5 s: every enemy pilot and alien within 1,000 units must lock onto you and cannot attack anyone else. Your groupmates and pilots in a safe zone are skipped | 60 s |
-| Venom | RAPTOR | 100,000 hull damage over 30 s to the target you have locked within laser range, a pilot or an alien; shields do not stop it | 120 s |
-| Diminisher | BILLY | 10 s: you take a quarter of the damage and deal three quarters | 120 s |
-| Heal Pod | MENATI | Drops a pod for 5 s: you, your group and your company mates within 600 units get 10,000 plus 1% of their own maximum hull back every second | 120 s |
-| Shield Buff | ATARAXIS | 10 s: your shield capacity is doubled and regenerates 2% of it a second | 120 s |
+| N.I.K.E. | every 2 seconds | 75,000, 35% penetration | 3,640 units |
+| N.U.K.E. | every 5 seconds | 50,000, blast of 900 units | 1,080 units |
+| Two laser turrets | every second | 45,000 to 55,000 each | 2,500 units |
+
+- **A cloak is the way in.** No gun sees a cloaked ship, a ship in an EMP's window, a ship in a safe ring or one in its 3 seconds of respawn protection, so a cloaked ship can fly through the whole zone up to The Unwakened's aura. Nothing else can be done to the base yet. A Wraith with the best shields lasts 3 to 13 seconds inside the zone in Alpha.
+- **Five Inert Masses** stay within 2,400 units of the middle. Each fires a **Dormant Lance** every 6 seconds at the nearest ship it sees: a homing rocket (speed 750) that hits for 5,000 to 8,000 with 40% penetration and follows you for 7 seconds. Only a cloak, an EMP, a safe ring or a jump breaks its hold. A dead Mass is back 60 minutes later. Nobody else can fire, craft or sell a Lance.
+- **Two Slumbering Voids** patrol 4,600 to 6,500 units from the middle, outside the guns' reach, and are back 60 minutes after one dies.
+- **The Unwakened** stands in the middle at speed 10 and burns every ship within 700 units for 75,000 a second (cloaked ships too; 1.5 and 2 times in Beta and Gamma). **He is immune for now:** shots and rockets land and do nothing, the Target window shows full bars and the hit says "Immune". Quests and events of a later update are meant to turn that off.
+- Nothing in the swamp ever follows a cloaked pilot or enters the black hole's circle.
+
+**The three new dormant aliens** (Alpha numbers; Beta and Gamma have 1.5 and 2 times the hull, shield and damage and pay 2 and 3 times as much)
+
+| | Slumbering Void | Inert Mass | The Unwakened |
+|---|---|---|---|
+| Hull / shield | 25,000 / 150,000 | 250,000 / 100,000 | 10,000,000 / 10,000,000 |
+| Shield takes | 80% of each hit | 80% of each hit | 80% of each hit |
+| Speed | 400 | 60 | 10 |
+| Weapon | lasers, 2,400 to 3,000 a volley | Dormant Lance, 5,000 to 8,000 | aura, 75,000 a second |
+| Where | in waves at a mining excavator; 2 patrol the swamp | 5 in the swamp | 1 in the middle of the swamp |
+| Pays | 23,000 Credits, 60 Thulium, 3,600 experience, 16 honor | 125,000 Credits, 335 Thulium, 20,200 experience, 88 honor | 7,500,000 Credits, 20,000 Thulium, 1,200,000 experience, 5,200 honor (nobody can earn it yet) |
+| PvE points | 10 | 15 | 112 |
+
+- **Pay and box.** A kill pays every pilot who did at least 5% of the damage, by their share, and the loot box is first reserved for the pilot who did the most. A Void's box holds, 60% of the time, 30 to 60 of one laser ammo (Ultra Core or Experimental Fusion Core) and, 40% of the time, 1 to 3 of one Epic rocket; never Dark Matter and never a N.I.K.E. An Inert Mass's box: 400 to 800 of the two ammos, 20 to 40 of one Epic rocket, and by chance 1 to 2 N.I.K.E. (5%), 1 to 3 Dark Matter (5%), an Ancient Control Unit (10%) and 1 to 2 Power Cores (25%). The Unwakened's box is written down and out of reach: 10,000 to 15,000 of the two ammos, 500 to 800 Epic rockets, 20 to 30 N.I.K.E., 5 to 10 N.U.K.E., 40 to 60 Dark Matter, 10 to 20 Ancient Control Units and 100 to 200 Power Cores.
+- **How hard.** A Void's shield takes 80% of every hit while it stands, so its hull goes after about 125,000 damage with no shield penetration, 55,556 with 25% and 35,714 with 50%. An Inert Mass takes about 350,000. In the model three level 8 Paragons with x2 ammo destroy a Void in 27 seconds and an Inert Mass in 76.
+- **The Voids are fast:** speed 400 is a Storm on Afterburner III. Only a gate, a safe ring or a cloak gets away from one.
+- **They count.** Every kill goes in your kill statistics under the alien's own name and gives the PvE points above, toward your rank and the gold crown, as the swarms' kills do (they have counters of their own); no quest or Challenge asks for them yet. A Void's death is told to nobody, an Inert Mass's to its map and the kill feed.
+
+**The Dormant Swarm from day 11**
+- **It starts at the swamp** (4,700 units from the middle, outside the zone) and flies out through the gates as before, keeping 450 units clear of the zone. It is **back 30 minutes after the whole swarm is destroyed** (it was 60), and **pays twice:** a Dormant Force now pays 400,000 Credits and 1,070 Thulium, a Dormant Pulse 190,000 and 510 (Alpha), and experience and honor double too. The loot box, its strength, speed and route are the same. Before day 11 nothing about it changes.
+
+**What you see and hear**
+- The pulsar is a violet core with two sweeping beams, the excavator a hexagonal frame with a spiral drill and three fuel cells, the swamp's zone, its notice ring and its turrets are drawn, and the aliens have their own purple-black models with violet trails. The minimap and the Star System map mark the pulsar, the excavator (with its state and time) and the swamp.
+- The flight view warns you when a flight order leads into the radiation or the swamp's guns, and the death screen says "Moved out of a danger zone" when an on-the-spot respawn was moved.
+- **15 new quiet sounds,** each with its own rate limit on the effects volume: the sheet opening, a unit of fuel, one tick for each resource, the start, the overheat warning and the overheat, a wave, the radiation, the swamp's warning, each of the three guns, an immune hit, and two hums (a mining excavator and The Unwakened).
 
 **For administrators and the server**
-- **At the first start:** two data steps (`clans-world-v1` gives each clan the world of its Leader, `ranks-v2` lowers the stored rank of a pilot whose rank falls), one new column on `Clans` and two on `CraftingJobs`, seven new tables with their indexes (the clans' profile, posts, log, the daily bonus's settings and ledger, peace requests and the quest step players), and the seeder adds the Hull Plating and the thirteen designs with their recipes. The backup gate lists them. Two data files are new (`CraftingConfig.json`, `Designs.json`) and thirteen change. New routes: the Clan Page, posts, positions, log, bonus, peace, requirements and profile under `/api/clan`, `GET /api/online`, and `/api/assembly/collect-all` and `craft-config`. One new client feature string, `heal-pods`. No new environment variable.
+- **At the first start:** one new table (`ExcavatorStates`, one row for each of the nine excavators, written on every change and every 60 seconds; the Wipe empties it), and the seeder adds three alien rows (Inert Mass, The Unwakened, Slumbering Void) and one rocket row, the Dormant Lance, that nobody can fire, craft or list. No data step. The backup gate lists one line. Two data files are new (`Excavator.json`, `DormantSwamp.json`) and four change (`Swarms.json`, `Rockets.json`, `Market.json`, `ranking-config.json`). New routes: `GET /api/admin/excavators`, `POST /api/admin/excavators/:tool` (fuel, resource, start, stop, heat, cooldown, destroy, overheat, wave, reset), `GET /api/admin/swamp`, `POST /api/admin/swamp/immunity` and `POST /api/admin/swamp/voids`, every call recorded. One new client feature string, `dormant-ds`, thirteen new `excavator_*` counters. No new environment variable.
 
 ## All releases
 
 Each line links the full notes of that release as Markdown (patchnotes/v<version>.md); its HTML page is patchnotes-v<version>.html.
 
+- [0.4.17](https://spacecorps.github.io/play/patchnotes/v0.4.17.md) · 2026-10-09 · The Danger Sector update: when a season reaches day 11 (the Tech Surge), the machines of a lost civilisation wake up.
 - [0.4.16](https://spacecorps.github.io/play/patchnotes/v0.4.16.md) · 2026-10-09 · The clans and ships update: clans get a page, posts, a daily bonus and wars that end by consent…
 - [0.4.15](https://spacecorps.github.io/play/patchnotes/v0.4.15.md) · 2026-10-08 · The Skylab update: when your Core reaches level 10 a bridge builds a second Core with six module seats, and two new modules…
 - [0.4.14](https://spacecorps.github.io/play/patchnotes/v0.4.14.md) · 2026-10-08 · Adds a research queue of five, an asteroid mission at every level from 1 to 8 and a mark for the missions and Challenges you can accept.

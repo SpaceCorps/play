@@ -70,7 +70,7 @@ The tables below give the numbers of an Alpha asteroid. **Hull** is the world's 
 
 ## Where they are
 
-Every sector of the three companies' home sectors and of the Danger Sectors has asteroids, in a mix of its own: mostly the kinds of its ring, with a guest or two from the next ring up or down. The neutral sectors, which no gate leads to, have none. The asteroids of the Danger Sectors appear from the season day in the table, the day PvP opens ([First Contact](/wiki/03-Mechanics/Wipe-Timeline.md)), and the others from the first day. After a break, a new asteroid of the same kind grows back after the time of the sector's row.
+Every sector of the three companies' home sectors and of the Danger Sectors has asteroids, in a mix of its own: mostly the kinds of its ring, with a guest or two from the next ring up or down. The neutral sectors, which no gate leads to, have none. The asteroids of the Danger Sectors appear from the season day in the table, the day PvP opens ([First Contact](/wiki/03-Mechanics/Wipe-Timeline.md)), and the others from the first day. After a break, a new asteroid of the same kind grows back after the time of the sector's row. From season day 11 no asteroid lies near a pulsar, a giant excavator or the middle of the Dormant Swamp ([Danger Sectors](/wiki/01-General/Danger-Sectors.md#where-everything-is)), and a rock that stood there when event 2 began is gone.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’
 
 ## La chaîne d’approvisionnement {#the-supply-chain}
 
-Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/06-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas.
+Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/06-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas. (Une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) dépose aussi un peu de Velkonite et d’Orvium dans des caisses, mais ce minerai va dans votre cargaison, où il sert de carburant au Centre de recherche, et la Fonderie ne le prend pas.)
 
 1. Un **collecteur** extrait du minerai, une quantité donnée par heure, dans son propre réservoir (de quoi stocker 72 heures).
 2. **Récupérer** déplace le minerai du réservoir vers l’**Entrepôt de ressources**, la banque, où chaque minerai est gardé à part.

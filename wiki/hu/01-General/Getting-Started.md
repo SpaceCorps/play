@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b4de17b88336f9c -->
+<!-- wiki-i18n source: fdf147fcd54ecb68 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -61,7 +61,7 @@ Ha a hajótested 0-ra csökken, a hajó megsemmisül, és a halálképernyő meg
 - **A szerver által elutasított választás semmibe sem kerül.** Ha egy választás nem használható (még zárolt, nincs portál a szektorban, a megsemmisülésed óta világot váltottál), a zárolás nem indul el, és a hajód nem mozdul el; újra választasz.
 - **Újraéledési védelem.** Bárhol is térsz vissza, a hajódat a visszatérése után **3 másodpercig** nem lehet sebezni és nem lehet célba venni, az idegenek pedig elveszítik iránta az érdeklődésüket, így az, aki megsemmisített, nem tud azonnal újra megsemmisíteni. Ugyanebben a 3 másodpercben **te sem támadhatsz**: a lézert vagy a rakétát a játék egy üzenettel elutasítja, és a védelem nem ér véget korábban. A HUD mutatja a hátralévő másodperceket. Akkor ér véget, amikor lejárnak.
 - **A feketelyuk.** A [feketelyuk](/wiki/03-Mechanics/Black-Hole.md) sugárzási gyűrűjén belüli hely (a Veszélyes szektor 4 közepétől 4 200 egységre) sosem lehet újraéledési hely: ha ott semmisültél meg, a „Helyben” a gyűrűn kívüli legközelebbi pontra tesz, a középpontból a megsemmisülésed helyén át húzott vonalon, és ezt közli veled.
-- **Veszélyes szektorok.** Mindhárom választás ott is működik.
+- **Veszélyes szektorok.** Mindhárom választás ott is működik. A „Helyben” újraélés kimozdít a túlmelegedett [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation) sugárzásából és a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) zónájából, ahogy a feketelyuk gyűrűjéből is: aki ezek egyikében jelentkezik be, azt is kívülre teszik.
 - **A hajótested korlátozva tér vissza.** A hajód hajótestével térsz vissza, **legfeljebb 10 000**-rel, és üres pajzzsal, bármelyik helyet választod. A Protos (8 000 hajótest) teljesen feltöltve tér vissza; a nagyobb hajók (a Kitefin 24 000-étől az Ironclad 600 000-éig) 10 000-rel, ezért a következő harc előtt javíts egy Repair Drone-nal, vagy használd az Emergency Repair képességet (lásd: [Harc](/wiki/03-Mechanics/Combat.md) és [Képességek](/wiki/03-Mechanics/Abilities.md)). A pajzs a megszokott módon töltődik. A halálképernyő is szól erről.
 - **Mibe kerül még a megsemmisülés:** nem veszítesz tárgyat, és a választás csak azt dönti el, hol jelensz meg. A képességeid használatra készek, és álcázás nélkül, EMP-ablakon kívül térsz vissza. A [csoportodban](/wiki/03-Mechanics/Groups.md) maradsz.
 - **Dokkolás.** A halálképernyőn a „Vissza a bázisra” a bázison éleszt újra, ahogy mindig, ugyanazzal a hajótesttel. Ha a játék bezárul, mielőtt választanál, éleszd újra a hajót ingyen a [hangárban](/wiki/03-Mechanics/Hangar.md); a bázisodon leszel, ugyanazzal a hajótesttel és pajzs nélkül.

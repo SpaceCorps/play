@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: 소행성 채굴 -->
 # 소행성 채굴 {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 
 ## 있는 곳 {#where-they-are}
 
-세 기업의 본거지 섹터와 위험 섹터에는 모두 소행성이 있으며, 섹터마다 구성이 다릅니다. 대개 그 링의 종류이고, 한 단계 위나 아래 링에서 온 손님이 한두 종류 섞입니다. 어떤 게이트도 이어지지 않는 중립 섹터에는 없습니다. 위험 섹터의 소행성은 표에 적힌 시즌 일차부터 나타나는데, PvP가 열리는 날입니다([첫 접촉](/wiki/03-Mechanics/Wipe-Timeline.md)). 나머지는 첫날부터 있습니다. 부서진 뒤에는 그 섹터 줄에 적힌 시간이 지나면 같은 종류의 새 소행성이 자랍니다.
+세 기업의 본거지 섹터와 위험 섹터에는 모두 소행성이 있으며, 섹터마다 구성이 다릅니다. 대개 그 링의 종류이고, 한 단계 위나 아래 링에서 온 손님이 한두 종류 섞입니다. 어떤 게이트도 이어지지 않는 중립 섹터에는 없습니다. 위험 섹터의 소행성은 표에 적힌 시즌 일차부터 나타나는데, PvP가 열리는 날입니다([첫 접촉](/wiki/03-Mechanics/Wipe-Timeline.md)). 나머지는 첫날부터 있습니다. 부서진 뒤에는 그 섹터 줄에 적힌 시간이 지나면 같은 종류의 새 소행성이 자랍니다. 시즌 11일차부터 펄서, 거대 굴착기, Dormant Swamp 중심 가까이에는 소행성이 없으며([위험 섹터](/wiki/01-General/Danger-Sectors.md#where-everything-is)), 이벤트 2가 시작될 때 그곳에 있던 바위는 사라집니다.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

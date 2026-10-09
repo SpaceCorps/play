@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Az alábbi táblázatok egy Alpha-aszteroida számait adják. A **Hajótest** a 
 
 ## Hol vannak {#where-they-are}
 
-A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyikében vannak aszteroidák, saját keverékben: főleg a gyűrűjük fajtái, egy-két vendéggel a következő vagy az előző gyűrűből. A semleges szektorokban, ahová nem vezet kapu, nincs egy sem. A veszélyes szektorok aszteroidái a táblázatban szereplő szezonnaptól jelennek meg, attól a naptól, amikor megnyílik a PvP ([Első kapcsolat](/wiki/03-Mechanics/Wipe-Timeline.md)), a többi az első naptól. Egy szétlövés után ugyanolyan fajtájú új aszteroida nő ki a szektor sorában megadott idő múlva.
+A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyikében vannak aszteroidák, saját keverékben: főleg a gyűrűjük fajtái, egy-két vendéggel a következő vagy az előző gyűrűből. A semleges szektorokban, ahová nem vezet kapu, nincs egy sem. A veszélyes szektorok aszteroidái a táblázatban szereplő szezonnaptól jelennek meg, attól a naptól, amikor megnyílik a PvP ([Első kapcsolat](/wiki/03-Mechanics/Wipe-Timeline.md)), a többi az első naptól. Egy szétlövés után ugyanolyan fajtájú új aszteroida nő ki a szektor sorában megadott idő múlva. A szezon 11. napjától egyetlen aszteroida sem fekszik pulzár, óriás kotrógép vagy a Dormant Swamp közepe közelében ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md#where-everything-is)), és a szikla, amely ott állt, amikor a 2. esemény elkezdődött, eltűnt.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

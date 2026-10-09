@@ -1,17 +1,17 @@
-<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
+<!-- wiki-i18n source: b01a24b52ccba9fa -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; mörk materia; dark matter plate; dark matter plates; plate; plates; platta; plattor; dark matter socket; dark matter sockets; socket; sockets; uttag; dark matter uttag -->
 
-**Dark Matter** är resursen bakom toppen av teknologiträdet, Smedjans två högsta steg och sista nivån i varje uppgraderingskedja. Du kan varken köpa eller bryta den, och vanliga utomjordingar tappar den inte: du **tillverkar den vid det svarta hålet (black hole)** genom att skjuta **N.I.K.E.**-raketer in i det, och plockar upp lådorna som det kastar tillbaka. En **Dark Matter Plate** pressas i Monteringen av Dark Matter, när du har forskat fram receptet. Den här sidan säger var var och en kommer ifrån, vad den används till och i vilken ordning du gör saker.
+**Dark Matter** är resursen bakom toppen av teknologiträdet, Smedjans två högsta steg och sista nivån i varje uppgraderingskedja. Du kan varken köpa eller bryta den, och vanliga utomjordingar tappar den inte: du **tillverkar den vid det svarta hålet (black hole)** genom att skjuta **N.I.K.E.**-raketer in i det, och plockar upp lådorna som det kastar tillbaka. En **Dark Matter Plate** pressas i Monteringen av Dark Matter, när du har forskat fram receptet. Den här sidan säger var var och en kommer ifrån, vad den används till och i vilken ordning du gör saker. Från säsongsdag 11 är Dark Matter också **jättegrävmaskinernas bränsle** ([Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)), och några utomjordingar i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) tappar lite.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 
 ## På en minut {#in-one-minute}
 
 - **Dark Matter är en resurs och heter bara Dark Matter överallt.** Det svarta hålet mitt i Farosektor 4 (`DS-4`) tillverkar den: varje N.I.K.E.-raket som når hålet ger tillbaka 1 till 3 Dark Matter (2 i snitt), i små lådor vid kanten av hålets zon.
-- **Vad den används till.** 83 teknologier i forskningscentrumet kräver den, 5 till 40 var och 904 sammanlagt, och Monteringen pressar den till Dark Matter Plate.
+- **Vad den används till.** 83 teknologier i forskningscentrumet kräver den, 5 till 40 var och 904 sammanlagt, och Monteringen pressar den till Dark Matter Plate. Från säsongsdag 11 bränner även en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) den, som bränsle: en tank är några få Dark Matter, och den går förlorad om grävmaskinen förstörs.
 - **I forskningscentrumet** lägger du till Dark Matter från ditt lastrum (med landat skepp) innan du trycker på Starta. Forskningen tar den när den startar.
 - **En Dark Matter Plate är ett annat föremål.** Forska först fram receptet (gruppen Resurser i trädet: 1 dag och 10 Dark Matter), och tillverka den sedan i Monteringen av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium.
 - **Vad en platta används till.** Sista nivån i varje uppgraderingskedja kräver **3**: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III och Base CPU II (12 delar). Smedjan kräver 2 för att höja ett föremål från Gudomlig till Rämnande, och 2 till från Rämnande till Evig.
@@ -24,7 +24,7 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Vad det är** | En Episk resurs | En Mytisk resurs |
-| **Var den kommer ifrån** | Det svarta hålet i Farosektor 4, för N.I.K.E.-raketer som skjuts in i det; lite från Dormant-svärmen | Monteringen, pressad av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium |
+| **Var den kommer ifrån** | Det svarta hålet i farosektor 4, för N.I.K.E.-raketer som skjuts in i det; lite från Dormant-svärmen och från Inert Masses i Dormant Swamp | Monteringen, pressad av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium |
 | **Vad du gör först** | Forska fram N.I.K.E. (3 h, ingen Dark Matter) och tillverka några | Forska fram plattans recept (1 d, 10 Dark Matter) |
 | **Vad den används till** | Forskningskostnader (83 teknologier, 904 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 3 för var och en av 12 delar; Smedjan: 2 för vart och ett av dess två översta steg |
 
@@ -32,7 +32,7 @@
 
 1. **Bygg forskningscentrumet och forska fram N.I.K.E.** Centrumet öppnas på Skylabs kärnnivå 10 ([Forskning](/wiki/03-Mechanics/Research.md)). N.I.K.E.:s teknologi tar 3 timmar och kräver ingen Dark Matter.
 2. **Tillverka N.I.K.E. i Monteringen.** En tillverkning ger 5 raketer på 5 minuter för 100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate och 40 Cataclysite. Du kan bära 20. Se [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
-3. **Flyg till Farosektor 4 (`DS-4`).** Det är PvP-sektorn mitt i galaxen, och det svarta hålet hänger i dess exakta mitt i varje värld ([Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). Ingen utomjording och ingen koncernpilot kommer i närheten, men andra piloter gör det.
+3. **Flyg till Farosektor 4 (`DS-4`).** Det är PvP-sektorn mitt i galaxen, och det svarta hålet hänger i dess exakta mitt i varje värld ([Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). Ingen utomjording och ingen koncernpilot kommer i närheten, men andra piloter gör det. Från säsongsdag 11 lever utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) i sektorns övre vänstra hörn, långt från din skottlinje.
 4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 050 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 380 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket med 4,6 sekunders mellanrum. Från längre bort hamnar den för kort.
 5. **Plocka upp lådorna.** Varje N.I.K.E. som når hålet ger tillbaka **1, 2 eller 3 Dark Matter** (1 en gång av fyra, 2 varannan gång, 3 en gång av fyra), i en eller två lådor med högst 2. De landar vid kanten av hålets zon, 3 050 till 3 950 enheter från mitten, nära linjen för ditt skott. Flyg till inom 200 enheter från varje låda: upplockningen tar en halv sekund.
 6. **Ta den hem.** Dark Matter hamnar i ditt inventarie. På stationen, med landat skepp, kan du lägga till den i forskningscentrumet eller använda den i Monteringen.
@@ -44,7 +44,7 @@ Ungefär **5 raketer ger 10 Dark Matter**. Resource Magnet Booster lägger inte 
 - **Lådorna är dina i 60 sekunder**, och din klans. Därefter får vem som helst på kartan ta dem, och efter 240 sekunder försvinner de. En karta rymmer högst 32 lådor med Dark Matter, och en ny knuffar ut den äldsta av dem.
 - **Kanten ligger inne i strålningen.** Där kostar den 0,3 till 0,8 % av ditt skepps totala HP varje sekund, mer ju närmare hålet du är. Ett helt skepp klarar ungefär 2 till 5 minuter; en minut mitt i bandet kostar en tredjedel. Dragningen slutar vid 3 000 enheter, så ingenting drar bort varken dig eller lådorna.
 - **Farosektor 4 är PvP.** En rival kan vänta på din linje: en N.I.K.E. träffar det första skeppet den rör vid (67 500 till 75 000 skada) och hålet får ingenting. En rival kan också vänta på lådorna när dina 60 sekunder är slut. Skjut från kanten, plocka upp lådorna i den ordning du sköt och ta med sällskap.
-- **En andra, liten källa.** En Dormant Pulse i [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) tappar 1 till 5 Dark Matter en gång av fem, åt piloten som gjorde mest skada på den. Svärmen kräver en stor grupp.
+- **En andra, liten källa.** En Dormant Pulse i [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) tappar 1 till 5 Dark Matter en gång av fem, åt piloten som gjorde mest skada på den. Svärmen kräver en stor grupp. En Inert Mass i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) tappar också lite då och då, men den lever under träskets kanoner.
 
 ## Dark Matter i forskningscentrumet {#in-the-research-centre}
 
@@ -124,6 +124,7 @@ En första uppgradering från noll är receptet (10) och två plattor (10): 20 D
 ## Läs mer {#where-to-read-more}
 
 - [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md#dark-matter): ringarna, strålningen och lådorna i detalj.
+- [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md): maskinen som bränner Dark Matter som bränsle.
 - [Forskning](/wiki/03-Mechanics/Research.md): forskningscentrumet, bränslet och varje teknologi.
 - [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets): N.I.K.E. och N.U.K.E.
 - [Resurser](/wiki/06-Items/Resources.md#dark-matter): Dark Matter och Dark Matter Plate bland de andra resurserna.

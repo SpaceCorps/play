@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -37,7 +37,7 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 - Depois disso, **qualquer um** no mapa pode pegá-la.
 - Só uma nave que esteja no mapa da caixa pode pegá-la: se você for destruído, saltar ou se desconectar no caminho (ou durante o meio segundo que a coleta leva), a caixa fica para os outros.
 - Se dois pilotos coletam a mesma caixa ao mesmo tempo, quem terminar a coleta primeiro fica com ela, uma única vez; o outro é avisado de que ela sumiu.
-- Uma caixa que ninguém pega some à deriva depois de **3 minutos** (ela pisca nos últimos 10 segundos). Um mapa comporta no máximo 64 caixas; quando uma nova passaria desse limite, a mais antiga some. Os fragmentos de asteroide têm um espaço próprio dentro das 64: eles não expulsam nenhuma outra caixa, e nenhuma outra caixa expulsa um fragmento ([as regras](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). As caixas de Dark Matter duram 4 minutos e são só suas no primeiro minuto.
+- Uma caixa que ninguém pega some à deriva depois de **3 minutos** (ela pisca nos últimos 10 segundos). Um mapa comporta no máximo 64 caixas; quando uma nova passaria desse limite, a mais antiga some. Os fragmentos de asteroide têm um espaço próprio dentro das 64: eles não expulsam nenhuma outra caixa, e nenhuma outra caixa expulsa um fragmento ([as regras](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). As caixas de Dark Matter duram 4 minutos e são só suas no primeiro minuto. As caixas de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) são livres para qualquer um desde o momento em que caem, duram mais que uma caixa comum e têm um conjunto próprio, então nunca empurram outra caixa para fora.
 
 ## Caixas privadas {#private-boxes}
 

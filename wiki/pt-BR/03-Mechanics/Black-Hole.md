@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Buraco negro -->
 # O buraco negro {#the-black-hole}
 
@@ -20,7 +20,7 @@ As distâncias são contadas a partir do centro do setor, em unidades do mapa. O
 | **Ponto sem retorno** | cerca de 1.000 a 2.600 | Onde a atração se iguala à velocidade da sua nave. Dentro dele, mesmo a toda potência, você é puxado para dentro. Depende da sua velocidade. |
 | **Horizonte de eventos** | 300 | Qualquer nave que o alcance é destruída na hora, seja qual for o casco e o escudo. |
 
-Os portais do Setor de perigo 4 e as rotas entre eles passam bem longe da radiação, então você nunca a encontra por acidente no caminho.
+Os portais do Setor de perigo 4 e as rotas entre eles passam bem longe da radiação, então você nunca a encontra por acidente no caminho. A partir do dia 11 da temporada o mesmo setor abriga também o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), no canto superior esquerdo, longe do buraco; os alienígenas de lá nunca entram nos anéis do buraco.
 
 ## Radiação {#radiation}
 

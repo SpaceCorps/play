@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
@@ -20,14 +20,14 @@
 | 群れ | 場所 | 数 | リーダー | 配下 | 復活 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate の群れ**](/wiki/05-Swarms/Pirate-Swarm.md) | 各企業の `x-2` と `x-3` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Pirate Boss** | 最大 5 体の Pirate Scout、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
-| [**Dormant の群れ**](/wiki/05-Swarms/Dormant-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る | 各ワールドに1つ | **Dormant Force** | 2 体の Dormant Pulse、 リーダーと 一緒に飛行 | 群れ全体撃破の 1時間 後、 ランダムな 危険セクター |
+| [**Dormant の群れ**](/wiki/05-Swarms/Dormant-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る | 各ワールドに1つ | **Dormant Force** | 2 体の Dormant Pulse、 リーダーと 一緒に飛行 | 群れ全体撃破の 1時間 後、 ランダムな 危険セクター。シーズン11日目から：30分、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) で、どの艦も報酬は ×2 |
 | [**Seeker の群れ**](/wiki/05-Swarms/Seeker-Swarm.md) | 各企業の `x-1` と `x-2` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Seeker** | 最大 4 体の Seeker Slave、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
 
 <!-- swarms-list:end -->
 
 ## いつ、どこに {#when-and-where}
 
-群れは**ファーストコンタクト**から現れ始め、ワイプまで残ります（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md)を参照。日付は下のルールの最初の行にあります）。**各ワールドにそれぞれの群れがいて**、場所は同じです。そのため Alpha の Pirate Boss と Beta の Pirate Boss は別々の艦で、自分のワールドで倒した群れがほかのワールドで倒されたことにはなりません。倒された群れは、上の表の時間がたつと戻ってきます。
+群れは**ファーストコンタクト**から現れ始め、ワイプまで残ります（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md)を参照。日付は下のルールの最初の行にあります）。**各ワールドにそれぞれの群れがいて**、場所は同じです。そのため Alpha の Pirate Boss と Beta の Pirate Boss は別々の艦で、自分のワールドで倒した群れがほかのワールドで倒されたことにはなりません。倒された群れは、上の表の時間がたつと戻ってきます。Dormant の群れはシーズン11日目（イベント2）に変わります。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) に現れ、早く戻り、報酬が2倍になります。
 
 ## すべての群れのルール {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 - **積荷コンテナは最もダメージを与えたパイロットのものになります。** 通常のエイリアンと同じく、30秒間はそのパイロット（とそのクラン）のもので、その後は誰でも取れます（[積荷](/wiki/03-Mechanics/Cargo.md)）。Dormant の各艦には、それぞれ独自のダメージ集計と独自のコンテナがあります。
 - **配下はいつもどおりに支払います。** Pirate Scout と Seeker Slave は最初に攻撃したパイロットに報酬を払い、その報酬はボスに比べて少額です。
 - **ボスの報酬は、周囲のエイリアンを上回るように作られています。** Pirate Boss と戦う1分は、Goombah と戦う1分より多く報酬を払い、Dormant の群れはさらに多く払います。Boss Seeker の報酬は、ちょうど Seeker 10体分です。
+- **Dormant Swamp のエイリアン**（Slumbering Void、Inert Mass、Unwakened）は、ボスと同じくダメージに応じて報酬が支払われ、ランキングの PvE ポイントに加わります。数値は [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)にあります。
 
 撃破はすべて、その艦自身の名前でキルの統計に数えられ、ランキングに PvE ポイントを加えます。
 

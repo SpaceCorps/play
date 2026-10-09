@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -37,7 +37,7 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 - Passé ce délai, **n’importe qui** sur la carte peut la prendre.
 - Seul un vaisseau présent sur la carte de la caisse peut la prendre : si vous êtes détruit, si vous sautez ou si vous vous déconnectez en chemin (ou pendant la demi-seconde que dure la récupération), la caisse reste pour les autres.
 - Si deux pilotes récupèrent la même caisse en même temps, celui dont la récupération s’achève en premier l’obtient, une seule fois ; l’autre est prévenu qu’elle a disparu.
-- Une caisse que personne ne prend dérive au loin au bout de **3 minutes** (elle clignote pendant ses 10 dernières secondes). Une carte contient au plus 64 caisses ; quand une nouvelle dépasserait ce nombre, la plus ancienne disparaît. Les fragments d’astéroïde ont un contingent à eux dans les 64 : ils ne chassent aucune autre caisse, et aucune autre caisse ne chasse un fragment ([les règles](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Les caisses de Dark Matter durent 4 minutes, et n’appartiennent qu’à vous pendant la première minute.
+- Une caisse que personne ne prend dérive au loin au bout de **3 minutes** (elle clignote pendant ses 10 dernières secondes). Une carte contient au plus 64 caisses ; quand une nouvelle dépasserait ce nombre, la plus ancienne disparaît. Les fragments d’astéroïde ont un contingent à eux dans les 64 : ils ne chassent aucune autre caisse, et aucune autre caisse ne chasse un fragment ([les règles](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Les caisses de Dark Matter durent 4 minutes, et n’appartiennent qu’à vous pendant la première minute. Les caisses d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) sont libres pour n’importe qui dès l’instant où elles tombent, durent plus longtemps qu’une caisse ordinaire et ont un pool à elles, si bien qu’elles ne chassent jamais une autre caisse.
 
 ## Caisses privées {#private-boxes}
 

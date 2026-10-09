@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -98,7 +98,7 @@ Hay dos tipos. Una permanencia que **se suma** conserva lo que tienes: sal, muer
 Las permanencias y las visitas no compiten: todas las abiertas cuentan a la vez, hagas lo que hagas. Los derribos son distintos: un derribo cuenta para una sola misión de nivel (mira [Dónde cuenta](#where-it-counts)).
 
 > [!NOTE]
-> Las visitas y las permanencias pueden llevar a los sectores de peligro (Reconocimiento del centro, Vigilia del centro y Mantener el centro lo hacen), donde los pilotos de otras corporaciones pueden atacarte. Los objetos de misión, nunca.
+> Las visitas y las permanencias pueden llevar a los sectores de peligro (Reconocimiento del centro, Vigilia del centro y Mantener el centro lo hacen), donde los pilotos de otras corporaciones pueden atacarte. Los objetos de misión, nunca. Un punto de visita en `DS-x` cuenta en cualquier sector de peligro: desde el día 11 de la temporada haz los puntos cercanos a la esquina superior izquierda de `DS-4`, como la esquina de **Cuatro esquinas**, en `DS-1`, `DS-2` o `DS-3`, porque esa esquina de `DS-4` está dentro del alcance de los cañones del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Misiones de enjambre {#swarm-missions}
 
@@ -106,7 +106,7 @@ Trece misiones piden las naves de los [enjambres](/wiki/05-Swarms/Swarms.md). Do
 
 - **Se abren el día 4 de la temporada**, el día en que aparecen los enjambres ([calendario de 30 días](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Antes, Mission Control las rechaza con «Esta misión se abre el día 4 de la temporada».
 - Una nave de enjambre cuenta con **su propio nombre**: un Boss Seeker o un Seeker Slave no es un Seeker, un Pirate Scout no es un Phantasm.
-- El paso no nombra ningún sector, porque los enjambres se desplazan: el [Enjambre Seeker](/wiki/05-Swarms/Seeker-Swarm.md) en `x-1` y `x-2`, el [Enjambre Pirate](/wiki/05-Swarms/Pirate-Swarm.md) en `x-2` y `x-3`, el [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) en los sectores de peligro. Un Boss Seeker o un Pirate Boss vuelve 2 minutos después de caer.
+- El paso no nombra ningún sector, porque los enjambres se desplazan: el [Enjambre Seeker](/wiki/05-Swarms/Seeker-Swarm.md) en `x-1` y `x-2`, el [Enjambre Pirate](/wiki/05-Swarms/Pirate-Swarm.md) en `x-2` y `x-3`, el [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) en los sectores de peligro. Un Boss Seeker o un Pirate Boss vuelve 2 minutos después de caer. Desde el día 11 de la temporada el Enjambre Dormant empieza en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - Las misiones Dormant son para una tripulación: hay un Enjambre Dormant en cada mundo, y un grupo de naves fuertes lo derriba ([cómo transcurre el combate](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). El siguiente rango no espera a **Alba de los Dormant** ni a **Ocaso de los Dormant** ([la línea de Desafíos](#challenge-line)).
 - Un Boss Seeker golpea más fuerte de lo que aguanta la nave de un piloto nuevo: lee [cómo va el combate](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) antes de empezar.
 
@@ -171,7 +171,7 @@ Desde el **nivel de piloto 3**, la pestaña **Desafíos** de Mission Control abr
 - **Tus derribos pagan aparte.** Los alienígenas que destruyes siguen pagando sus propios créditos, Thulium y honor como siempre; la recompensa llega además de eso.
 - **Los derribos cuentan dos veces.** Un derribo cuenta para cada Desafío que lo pide **y** para la misión de nivel para la que cuenta, así que una misión de mil derribos nunca deja sin derribos a tus misiones de nivel.
 - **Grupos.** Un derribo cuenta para el piloto a quien se le paga y para cada compañero de grupo a menos de **4.000 unidades** de los restos que haya disparado un láser o un cohete en los últimos 15 segundos. Cada piloto lleva su propia cuenta.
-- **Las permanencias piden disparos, salvo en el centro.** Una permanencia en `x-3`, en `x-4` o en la `x-4` de un rival solo cuenta mientras hayas disparado en los últimos 60 segundos, así que una nave aparcada o dando vueltas no gana nada. Las permanencias en los sectores de peligro (**Vigilia del centro**, **Vigilia del abismo**, **Última vigilia**), donde no vive ningún alienígena, cuentan una nave que ha recorrido 300 unidades o ha disparado en los últimos 30 segundos, como las permanencias de las misiones de nivel.
+- **Las permanencias piden disparos, salvo en el centro.** Una permanencia en `x-3`, en `x-4` o en la `x-4` de un rival solo cuenta mientras hayas disparado en los últimos 60 segundos, así que una nave aparcada o dando vueltas no gana nada. Las permanencias en los sectores de peligro (**Vigilia del centro**, **Vigilia del abismo**, **Última vigilia**), donde no vive ningún alienígena corriente (los alienígenas que despiertan desde el día 11 de la temporada, consulta [Sectores de peligro](/wiki/01-General/Danger-Sectors.md), no cambian la regla), cuentan una nave que ha recorrido 300 unidades o ha disparado en los últimos 30 segundos, como las permanencias de las misiones de nivel.
 
 Lo que pide cada rango, con misiones de las tablas:
 

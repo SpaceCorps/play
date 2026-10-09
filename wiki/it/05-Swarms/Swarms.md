@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -20,14 +20,14 @@ I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Cust
 | Sciame | Dove | Quanti | Capo | Seguaci | Ritorna |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Sciame Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | I settori `x-2` e `x-3` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Pirate Boss** | Fino a 5 × Pirate Scout, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
-| [**Sciame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | I settori pericolosi `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando dall’uno all’altro | Uno in ogni mondo | **Dormant Force** | 2 × Dormant Pulse, che volano con il capo | 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale |
+| [**Sciame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | I settori pericolosi `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando dall’uno all’altro | Uno in ogni mondo | **Dormant Force** | 2 × Dormant Pulse, che volano con il capo | 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale. Dal giorno 11 della stagione: 30 min, nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e ogni nave paga ×2 |
 | [**Sciame Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | I settori `x-1` e `x-2` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Seeker** | Fino a 4 × Seeker Slave, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
 
 <!-- swarms-list:end -->
 
 ## Quando e dove {#when-and-where}
 
-Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al reset (vedi la [Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md); il giorno è la prima riga delle regole qui sotto). **Ogni mondo ha i suoi sciami** negli stessi posti: il Pirate Boss di Alpha e quello di Beta sono due navi diverse, e uno sciame che distruggi nel tuo mondo non è distrutto in un altro. Uno sciame distrutto torna dopo il tempo indicato nella tabella qui sopra.
+Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al reset (vedi la [Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md); il giorno è la prima riga delle regole qui sotto). **Ogni mondo ha i suoi sciami** negli stessi posti: il Pirate Boss di Alpha e quello di Beta sono due navi diverse, e uno sciame che distruggi nel tuo mondo non è distrutto in un altro. Uno sciame distrutto torna dopo il tempo indicato nella tabella qui sopra. Lo Sciame Dormant cambia al giorno 11 della stagione (evento 2): compare nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), ritorna prima e paga il doppio.
 
 ## Le regole di ogni sciame {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Un alieno normale paga il pilota che lo ha colpito per primo ([Combattimento](/w
 - **La cassa di carico va al pilota che ha inflitto più danno.** È sua (e del suo clan) per 30 secondi, come per ogni alieno, poi chiunque può prenderla ([Carico](/wiki/03-Mechanics/Cargo.md)). Ogni nave Dormant ha il suo conteggio del danno e la sua cassa.
 - **I seguaci pagano come al solito**: i Pirate Scout e i Seeker Slave pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
 - **La ricompensa di un boss è fatta per battere gli alieni attorno a lui.** Un minuto di scontro con un Pirate Boss paga più di un minuto di scontro con un Goombah, e lo sciame Dormant paga ancora di più; il Boss Seeker paga esattamente dieci Seeker.
+- **Gli alieni del Dormant Swamp** (lo Slumbering Void, l’Inert Mass e l’Unwakened) vengono pagati come un boss, in base al danno, e aggiungono punti PvE alla tua classifica; i loro numeri sono in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Ogni abbattimento viene contato con il nome proprio della nave nelle tue statistiche degli abbattimenti e aggiunge punti PvE alla tua classifica:
 

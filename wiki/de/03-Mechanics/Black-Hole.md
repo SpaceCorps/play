@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
@@ -20,7 +20,7 @@ Die Entfernungen gelten ab der Mitte des Sektors, in Karteneinheiten. Der Sektor
 | **Punkt ohne Wiederkehr** | etwa 1.000 bis 2.600 | Dort, wo der Sog dem Tempo deines Schiffs entspricht. Innerhalb davon wirst du selbst mit voller Kraft hineingezogen. Er hängt von deinem Tempo ab. |
 | **Ereignishorizont** | 300 | Jedes Schiff, das ihn erreicht, wird sofort zerstört, egal wie stark Hülle und Schild sind. |
 
-Die Portale von Gefahrensektor 4 und die Bahnen zwischen ihnen verlaufen alle weit außerhalb der Strahlung, sodass du ihr auf der Durchreise nie zufällig begegnest.
+Die Portale von Gefahrensektor 4 und die Bahnen zwischen ihnen verlaufen alle weit außerhalb der Strahlung, sodass du ihr auf der Durchreise nie zufällig begegnest. Ab Saisontag 11 liegt im selben Sektor außerdem der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in seiner oberen linken Ecke, weit vom Loch entfernt; die Aliens dort kommen nie in die Ringe des Lochs.
 
 ## Strahlung {#radiation}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -20,14 +20,14 @@ Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen e
 | Schwarm | Wo | Wie viele | Anführer | Begleiter | Kehrt zurück |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate-Schwarm**](/wiki/05-Swarms/Pirate-Swarm.md) | Die Sektoren `x-2` und `x-3` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Pirate Boss** | Bis zu 5 × Pirate Scout, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
-| [**Dormant-Schwarm**](/wiki/05-Swarms/Dormant-Swarm.md) | Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`, `DS-4`, von einem zum anderen fliegend | Einer in jeder Welt | **Dormant Force** | 2 × Dormant Pulse, die mit dem Anführer fliegen | 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor |
+| [**Dormant-Schwarm**](/wiki/05-Swarms/Dormant-Swarm.md) | Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`, `DS-4`, von einem zum anderen fliegend | Einer in jeder Welt | **Dormant Force** | 2 × Dormant Pulse, die mit dem Anführer fliegen | 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor. Ab Saisontag 11: 30 min, im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und jedes Schiff zahlt ×2 |
 | [**Seeker-Schwarm**](/wiki/05-Swarms/Seeker-Swarm.md) | Die Sektoren `x-1` und `x-2` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Seeker** | Bis zu 4 × Seeker Slave, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
 
 <!-- swarms-list:end -->
 
 ## Wann und wo {#when-and-where}
 
-Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe die [Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md); den Tag nennt die erste Zeile der Regeln unten). **Jede Welt hat ihre eigenen Schwärme** an denselben Orten: Der Pirate Boss von Alpha und der von Beta sind zwei verschiedene Schiffe, und ein Schwarm, den du in deiner Welt zerstörst, bleibt in einer anderen bestehen. Ein zerstörter Schwarm kehrt nach der Zeit in der Tabelle oben zurück.
+Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe die [Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md); den Tag nennt die erste Zeile der Regeln unten). **Jede Welt hat ihre eigenen Schwärme** an denselben Orten: Der Pirate Boss von Alpha und der von Beta sind zwei verschiedene Schiffe, und ein Schwarm, den du in deiner Welt zerstörst, bleibt in einer anderen bestehen. Ein zerstörter Schwarm kehrt nach der Zeit in der Tabelle oben zurück. Der Dormant-Schwarm ändert sich an Saisontag 11 (Event 2): Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kehrt früher zurück und zahlt doppelt so viel.
 
 ## Die Regeln jedes Schwarms {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Ein gewöhnliches Alien zahlt an den Piloten, der es zuerst getroffen hat ([Kamp
 - **Die Frachtkiste geht an den Piloten mit dem meisten Schaden.** Sie gehört 30 Sekunden lang diesem Piloten (und seinem Clan), wie bei jedem Alien, danach kann sie jeder nehmen ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Jedes Dormant-Schiff hat seine eigene Schadenszählung und seine eigene Kiste.
 - **Begleiter zahlen wie üblich**: Die Pirate Scouts und die Seeker Slaves zahlen an den Piloten, der sie zuerst getroffen hat, und ihre Bezahlung ist klein gegen die eines Bosses.
 - **Die Bezahlung eines Bosses soll die Aliens um ihn herum übertreffen.** Eine Minute Kampf gegen einen Pirate Boss zahlt mehr als eine Minute Kampf gegen einen Goombah, und der Dormant-Schwarm zahlt noch mehr; der Boss Seeker zahlt genau zehn Seeker.
+- **Die Aliens des Dormant Swamp** (der Slumbering Void, die Inert Mass und der Unwakened) werden wie ein Boss bezahlt, nach dem Schaden, und bringen PvE-Punkte für deinen Rang; ihre Zahlen stehen in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatistik gezählt und bringt PvE-Punkte für deine Rangliste:
 

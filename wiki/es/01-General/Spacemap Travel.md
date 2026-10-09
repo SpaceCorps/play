@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
@@ -30,7 +30,7 @@ El universo consta de tres grandes sectores de corporación (Mars, Terra, Galact
 - **x-1 (base de origen)**: El mapa inicial de cada corporación (M-1, T-1, G-1). La zona más segura.
 - **x-2 -> x-3**: Zonas de expansión con alienígenas cada vez más duros.
 - **x-4 (frontera)**: La puerta de entrada al sector PvP y al `x-3` de otra corporación (el Anillo, más abajo).
-- **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4.
+- **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4. Desde el día 11 de la temporada contiene además púlsares con excavadoras gigantes y el Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md)).
 
 Solo las bases de origen tienen una estación. Es donde se abre **Mission Control**, y su zona segura se extiende 1.600 unidades a su alrededor. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a tu base para tus misiones.
 
@@ -79,7 +79,7 @@ Los viajes por el mapa espacial se hacen a través de **portales de salto**, o s
   El Anillo está abierto a todos los pilotos, sea cual sea la corporación por la que vuelen: es una segunda forma de viajar entre los mapas de las corporaciones que no cruza la zona PvP. Un portal del Anillo está en una esquina propia, lejos de los demás portales de su mapa, con la zona segura habitual de 660 unidades a su alrededor, y el salto funciona como en cualquier portal. Dónde pueden atacarte al otro lado depende de tu mundo, como en todas partes: en Alpha `T-3` no es un sector PvP pero `T-4` sí, en Beta lo son ambos, en Gamma todos los sectores.
 - **Rutas de invasión (viajes entre corporaciones)**: Hay dos formas de entrar por los portales en territorio de otra corporación. La corta es el Anillo: un piloto de Mars vuela de `M-4` al `T-3` de Terra por el portal del Anillo (tres saltos desde la base de Mars, `M-1` → `M-2` → `M-4` → `T-3`) y sigue hacia `T-4` o `T-2`; el `G-4` de Galactic lleva al `M-3` de Mars, y el `T-4` de Terra al `G-3` de Galactic, del mismo modo. La larga cruza la zona PvP: de `M-4` al sector de peligro `DS-1`, por el portal de salto hacia `DS-2` y al espacio de Terra por `T-4`; para llegar a Galactic, se cruza el portal de salto hacia `DS-3` y se entra por `G-4`.
 - **El triángulo de los sectores de peligro**: `DS-1`, `DS-2` y `DS-3` están conectados entre sí. Cada uno tiene el portal de una corporación (Mars en `DS-1`, Terra en `DS-2`, Galactic en `DS-3`); `DS-4` no tiene ninguno.
-- **El núcleo central**: Los tres sectores de peligro exteriores (`DS-1`, `DS-2` y `DS-3`) conectan directamente con el mapa central, **`DS-4`**, la zona PvP más peligrosa y lucrativa del universo. En su centro exacto flota un **agujero negro**: los portales y las rutas entre ellos quedan bien lejos de él, pero una nave que se adentra sufre primero su radiación, luego su atracción, y es destruida en su horizonte de sucesos. Consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md).
+- **El núcleo central**: Los tres sectores de peligro exteriores (`DS-1`, `DS-2` y `DS-3`) conectan directamente con el mapa central, **`DS-4`**, la zona PvP más peligrosa y lucrativa del universo. En su centro exacto flota un **agujero negro**: los portales y las rutas entre ellos quedan bien lejos de él, pero una nave que se adentra sufre primero su radiación, luego su atracción, y es destruida en su horizonte de sucesos. Consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md). Desde el día 11 de la temporada la esquina superior izquierda de `DS-4` contiene el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), cuyos cañones disparan a toda nave que ven.
 
 ### La Jump CPU {#the-jump-cpu}
 

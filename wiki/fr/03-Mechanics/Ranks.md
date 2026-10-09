@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 26f4bca5b9b9516f -->
+<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
@@ -125,6 +125,9 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -132,11 +135,11 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Les cinq premières lignes sont les aliens ordinaires et les six suivantes les vaisseaux des trois essaims. Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
+Les cinq premières lignes sont les aliens ordinaires, les six suivantes les vaisseaux des trois essaims et les trois suivantes les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dès le jour 11 de la saison). Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
 
 Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
 
-La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
+La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, la même chose pour les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Les symboles {#the-symbols}
 

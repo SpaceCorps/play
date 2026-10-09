@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
@@ -72,7 +72,7 @@
 
 ## 它们在哪里 {#where-they-are}
 
-三个企业的所有母星区和危险星区都有小行星，各有自己的组合：主要是它所在环的种类，再加上一两种来自上一环或下一环的“客人”。没有传送门通往的中立星区没有小行星。危险星区的小行星从表中的赛季日开始出现，也就是 PvP 开启的那一天（[初次接触](/wiki/03-Mechanics/Wipe-Timeline.md)），其余的从第一天起就有。击碎之后，同种类的新小行星会在该星区那一行所写的时间后重新长出来。
+三个企业的所有母星区和危险星区都有小行星，各有自己的组合：主要是它所在环的种类，再加上一两种来自上一环或下一环的“客人”。没有传送门通往的中立星区没有小行星。危险星区的小行星从表中的赛季日开始出现，也就是 PvP 开启的那一天（[初次接触](/wiki/03-Mechanics/Wipe-Timeline.md)），其余的从第一天起就有。击碎之后，同种类的新小行星会在该星区那一行所写的时间后重新长出来。从赛季第 11 天起，脉冲星、巨型挖掘机和 Dormant Swamp 中心附近没有小行星（[危险星区](/wiki/01-General/Danger-Sectors.md#where-everything-is)），活动 2 开始时在那里的岩石会消失。
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

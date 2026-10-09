@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Trou noir -->
 # Le trou noir {#the-black-hole}
 
@@ -20,7 +20,7 @@ Les distances se mesurent depuis le centre du secteur, en unités de carte. Le s
 | **Point de non-retour** | environ 1 000 à 2 600 | Là où l’attraction égale la vitesse de votre vaisseau. En deçà, même à pleine puissance, vous êtes aspiré. Il dépend de votre vitesse. |
 | **Horizon des événements** | 300 | Tout vaisseau qui l’atteint est détruit sur-le-champ, quels que soient sa coque et son bouclier. |
 
-Les portails du Secteur dangereux 4 et les couloirs qui les relient passent tous bien à l’écart de la radiation : vous ne la croisez donc jamais par accident en traversant le secteur.
+Les portails du Secteur dangereux 4 et les couloirs qui les relient passent tous bien à l’écart de la radiation : vous ne la croisez donc jamais par accident en traversant le secteur. Dès le jour 11 de la saison, le même secteur contient aussi le [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), dans son coin supérieur gauche, loin du trou ; les aliens de là-bas n’entrent jamais dans les anneaux du trou.
 
 ## Radiation
 

@@ -26,10 +26,10 @@
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Crystalys, миссии | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Исследовательский центр |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Обычный | Phantasm, Seeker, астероиды | Penetration Amp II, Кузница, Исследовательский центр |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Обычный | Phantasm, Bulwark, астероиды | Penetration Amp III, Кузница, Исследовательский центр |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Обычный | Crystalys, Goombah, Bulwark, астероиды, миссии | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Обычный | Crystalys, Goombah, астероиды | Penetration Amp IV, Кузница, Исследовательский центр |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | Сборщик Skylab | Кузница Skylab, Исследовательский центр |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | Сборщик Skylab | Кузница Skylab, Исследовательский центр |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Обычный | Crystalys, Goombah, Bulwark, астероиды, гигантский экскаватор, миссии | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Кузница, Исследовательский центр |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Обычный | Crystalys, Goombah, астероиды, гигантский экскаватор | Penetration Amp IV, Кузница, Исследовательский центр |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | гигантский экскаватор, Сборщик Skylab | Кузница Skylab, Исследовательский центр |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | гигантский экскаватор, Сборщик Skylab | Кузница Skylab, Исследовательский центр |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Редкий | миссии, Кузница Skylab | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | миссии, Кузница Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Эпический | чёрная дыра (проглоченная N.I.K.E.) | Dark Matter Plate, Исследовательский центр |
@@ -330,6 +330,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%: 2 | 2 |
 
 - **Астероиды**: лежит в обломках: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона полный запуск выдаёт в Альфе 1 157 ед. (в Бете и Гамме больше) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления.
 - **Миссии**: Буря Bulwark (Испытание) 245; Чистка Crystalys (Испытание) 292; Рассвет Dormant (Испытание) 54; Легион Goombah (Испытание) 160; Кара Goombah (Испытание) 281; Вражеская земля (Испытание) 50; Страж Линии (Испытание) 298.
 - **Помимо этого**: в магазине не продаётся.
 
@@ -373,6 +374,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%: от 2 до 4 | 3 |
 
 - **Астероиды**: лежит в обломках: Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона полный запуск выдаёт в Альфе 514 ед. (в Бете и Гамме больше) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -391,6 +393,7 @@
 
 **Как получить**
 
+- **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона полный запуск выдаёт в каждом мире 320 ед. (руда Skylab, не больше, чем сборщик 20-го уровня даёт за 4 ч) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления. Руда попадает в ваш груз, где служит топливом Исследовательского центра; Кузница берёт руду только из Хранилища ресурсов.
 - **Skylab**: добывает её только Сборщик Velkonite, в бункер на 72 ч, затем Сбор переносит её в Хранилище ресурсов. С пришельцев она не выпадает.
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@
 
 **Как получить**
 
+- **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона полный запуск выдаёт в каждом мире 160 ед. (руда Skylab, не больше, чем сборщик 20-го уровня даёт за 4 ч) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления. Руда попадает в ваш груз, где служит топливом Исследовательского центра; Кузница берёт руду только из Хранилища ресурсов.
 - **Skylab**: добывает её только Сборщик Orvium, в бункер на 72 ч, затем Сбор переносит её в Хранилище ресурсов. С пришельцев она не выпадает.
 
 | Уровень модуля | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@
 **Как получить**
 
 - **Чёрная дыра**: ракета [N.I.K.E.](/wiki/06-Items/Rockets.md), пересёкшая горизонт событий чёрной дыры в центре Опасного сектора 4, поглощается, и дыра возвращает **1, 2 или 3** Dark Matter (2 в среднем) в контейнерах не более 2 на краю своей зоны, на расстоянии от 3 050 до 3 950 единиц от центра. Контейнеры принадлежат вам и вашему клану 60 с и существуют 240 с. N.I.K.E., встретившая на пути корабль, попадает в него и расходуется. См. [Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) и [Чёрная дыра](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** у Dormant Swamp: с 11-го дня сезона в 5% её контейнеров лежит 1–3 ед. Она живёт под орудиями болота.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
 
 - Dark Matter Plate: **5** (с 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md), топливо: одна единица горит **10** мин добычи, а в бак помещается 3
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#dark-matter), верхние технологии: по **10** на каждую из 34 технологий
 
 **Как добыть**: запускайте ракеты [N.I.K.E.](/wiki/06-Items/Rockets.md) в чёрную дыру (их создаёт Сборочный цех) и забирайте контейнеры с края её зоны раньше других. Весь путь описан на странице [Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md).
@@ -651,6 +657,7 @@
 - **В начале**: на счёте нового пилота 100 Thulium.
 - **Пришельцы**: платит каждое убийство (таблица выше).
 - **[Астероиды](/wiki/03-Mechanics/Asteroid-Mining.md)**: платят обломки разбитого астероида, до предела за каждые 24 часа (он указан на той странице).
+- **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона полный запуск выдаёт в Альфе 4 821 ед. (в Бете и Гамме больше) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления.
 - **[Миссии](/wiki/03-Mechanics/Quests.md)**: за все 88 миссий в Alpha выплачивается Thulium: 51 010 (от 170 на уровне 1 до 21 760 на уровне 8).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Ферма Thulium производит их, пока вас нет, в бункер на 72 ч.
 

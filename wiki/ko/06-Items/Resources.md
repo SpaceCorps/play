@@ -26,10 +26,10 @@
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 희귀 | Crystalys, 미션 | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, 연구 센터 |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | 일반 | Phantasm, Seeker, 소행성 | Penetration Amp II, 대장간, 연구 센터 |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | 일반 | Phantasm, Bulwark, 소행성 | Penetration Amp III, 대장간, 연구 센터 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 일반 | Crystalys, Goombah, Bulwark, 소행성, 미션 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 일반 | Crystalys, Goombah, 소행성 | Penetration Amp IV, 대장간, 연구 센터 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 고급 | Skylab 수집기 | Skylab 단조소, 연구 센터 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 희귀 | Skylab 수집기 | Skylab 단조소, 연구 센터 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 일반 | Crystalys, Goombah, Bulwark, 소행성, 거대 굴착기, 미션 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 대장간, 연구 센터 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 일반 | Crystalys, Goombah, 소행성, 거대 굴착기 | Penetration Amp IV, 대장간, 연구 센터 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 고급 | 거대 굴착기, Skylab 수집기 | Skylab 단조소, 연구 센터 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 희귀 | 거대 굴착기, Skylab 수집기 | Skylab 단조소, 연구 센터 |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 희귀 | 미션, Skylab 단조소 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 영웅 | 미션, Skylab 단조소 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 영웅 | 블랙홀(삼켜진 N.I.K.E.) | Dark Matter Plate, 연구 센터 |
@@ -330,6 +330,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% 확률로 2개 | 2 |
 
 - **소행성**: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode의 조각에 들어 있습니다(양은 [소행성 채굴](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)에 있습니다).
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 1,157개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **미션**: Bulwark 폭풍(도전 과제) 245; Crystalys 소탕(도전 과제) 292; Dormant의 새벽(도전 과제) 54; Goombah 군단(도전 과제) 160; Goombah의 재앙(도전 과제) 281; 적지(도전 과제) 50; 전선의 수호자(도전 과제) 298.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
@@ -373,6 +374,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% 확률로 2~4개 | 3 |
 
 - **소행성**: Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode의 조각에 들어 있습니다(양은 [소행성 채굴](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)에 있습니다).
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 514개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -391,6 +393,7 @@
 
 **얻는 방법**
 
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 320개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 4시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어가며 거기서는 연구 센터의 연료입니다. 단조소는 광석을 자원 창고에서만 가져옵니다.
 - **Skylab**: Velkonite 수집기만 채굴하며, 72시간분을 저장하는 저장소에 쌓입니다. 수거하면 자원 창고로 옮겨집니다. 외계인은 드롭하지 않습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@
 
 **얻는 방법**
 
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 160개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 4시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어가며 거기서는 연구 센터의 연료입니다. 단조소는 광석을 자원 창고에서만 가져옵니다.
 - **Skylab**: Orvium 수집기만 채굴하며, 72시간분을 저장하는 저장소에 쌓입니다. 수거하면 자원 창고로 옮겨집니다. 외계인은 드롭하지 않습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@
 **얻는 방법**
 
 - **블랙홀**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓이 위험 섹터 4 한가운데 있는 블랙홀의 사건의 지평선을 넘으면 삼켜지고, 블랙홀은 영역 가장자리(중심에서 3,050~3,950유닛)의 상자(상자당 최대 2개)에 **1, 2 또는 3**개의 Dark Matter(평균 2개)를 돌려줍니다. 상자는 60초 동안 내 것이자 내 클랜의 것이며, 240초 동안 남아 있습니다. 도중에 함선을 만난 N.I.K.E.는 그 함선을 대신 맞히고 소모됩니다. [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)와 [블랙홀](/wiki/03-Mechanics/Black-Hole.md#dark-matter)을 참고하세요.
+- Dormant Swamp의 **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**: 시즌 11일차부터 상자의 5%에 1–3개가 들어 있습니다. 늪의 포대 아래에 있습니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
 
 - Dark Matter Plate: **5** (함께 필요: Orvium Reinforced Plate 1개, Velkonite Reinforced Plate 1개, Thulium 250)
+- [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md), 연료: 1개는 **10**분의 채굴 동안 타고, 탱크에는 3개가 들어갑니다
 - [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter), 최상위 기술: 34개 기술 각각에 **10**개
 
 **모으는 방법**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓을 블랙홀에 쏘고(어셈블리에서 제작), 다른 누군가가 가져가기 전에 블랙홀 영역 가장자리의 상자를 회수하세요. 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
@@ -651,6 +657,7 @@
 - **시작 시**: 신규 파일럿의 계정에 들어 있는 Thulium: 100.
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
 - **[소행성](/wiki/03-Mechanics/Asteroid-Mining.md)**: 부서진 소행성의 조각이 지급합니다. 24시간마다 한도가 있습니다(그 페이지에 있습니다).
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 4,821개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 Thulium 합계: 51,010(레벨 1의 170부터 레벨 8의 21,760까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 Thulium 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 

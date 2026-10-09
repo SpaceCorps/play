@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
+<!-- wiki-i18n source: bb8bc80ba6889fba -->
 <!-- wiki-i18n title: Dormant-raj -->
 # Dormant-raj {#dormant-swarm}
 
-A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja, amelyek soha nem kezdenek harcot, és nagyon keményen ütnek, ha felébresztik őket. Világonként csak egy van. Az egyik veszélyes szektorból a másikba vándorol, és a rajok közül ez a legkeményebb harc és a leggazdagabb zsákmány: harc a legerősebb hajók nagy csoportjának.
+A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja, amelyek soha nem kezdenek harcot, és nagyon keményen ütnek, ha felébresztik őket. Világonként csak egy van. Az egyik veszélyes szektorból a másikba vándorol, és a rajok közül ez a legkeményebb harc és a leggazdagabb zsákmány: harc a legerősebb hajók nagy csoportjának. A szezon 11. napjától a `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál indul, hamarabb tér vissza, és kétszer annyit fizet (lásd a *Dióhéjban* listát).
 
 ## Röviden {#at-a-glance}
 
@@ -18,6 +18,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 - **A vezér megsemmisül**: A vezetést Dormant Pulse veszi át
 - **Útvonal**: 8–15 perc ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül. Soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem lép be a fekete lyuk gyűrűjébe
 - **Visszatér**: 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban
+- **A szezon 11. napjától**: A `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál jelenik meg egy véletlenszerű veszélyes szektor helyett, 30 perc azután tér vissza, hogy az egész raj megsemmisült, és minden hajó ×2-szeresét fizeti (kredit, Thulium, XP és becsület; a zsákmány ugyanaz marad)
 - **Értesítés**: Az egész világ pilótái értesülnek arról, mikor jelenik meg a raj, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. Egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- dormant-glance:end -->
@@ -31,18 +32,18 @@ Passzívak: soha nem mennek rá egy pilótára. Ha az egyiküket eltalálják, a
 
 ## A harc menete {#how-the-fight-goes}
 
-- **Keresd meg.** Az egész világ értesül róla, amikor megjelenik, és egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A *Röviden* listában szereplő ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül, és ugrik; soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem repül a fekete lyuk gyűrűjébe. A leglassabb hajója sebességével repül, és mint egy pilóta, tűz alatt nem kezd és nem fejez be ugrást.
+- **Keresd meg.** Az egész világ értesül róla, amikor megjelenik, és egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A *Röviden* listában szereplő ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül, és ugrik; soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem repül a fekete lyuk gyűrűjébe. A leglassabb hajója sebességével repül, és mint egy pilóta, tűz alatt nem kezd és nem fejez be ugrást. A szezon 11. napjától először közvetlenül a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) zónáján kívül jelenik meg, ahol egy csoport a mocsár lövegeitől távol várhatja, majd a `DS-4` egyik kapuján át kirepül.
 - **Egyedül vagy kevesen nem győzhető le.** Nyolc 8. szintű pilóta Paragonban, x2 vagy x4 lőszerrel, nagyjából egy perc alatt megsemmisíti Alphában, legfeljebb egy hajót veszítve; egy Paragon egyedül megsemmisül, és három vagy négy is, x2 lőszerrel. A Beta és a Gamma rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért azokhoz a világokhoz nagyobb csoportok kellenek.
 - **A lézerei döntik el a harcot.** Együtt egy percen belül megsemmisíthetnek egy Paragont, a legjobb pajzsokkal felszereltet is két percen belül, rakéták nélkül is: gyorsan vidd be a sebzésedet, a legjobb pajzsokkal, amid van.
 - **Hajóról hajóra.** Minden hajónak saját hajóteste és saját fizetése van, így a Force vagy egy Pulse előbb is megsemmisülhet. A rajt csak akkor pótolják, ha teljesen megsemmisült, a *Röviden* lista szerinti idő múlva.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
-Minden hajó külön fizet, a rá leadott sebzés szerint ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), és mindegyik ládát ejt annak a pilótának, aki neki a legtöbb sebzést okozta. A **Force ládája** a fődíj: rengeteg x3 és x4 lőszer, egyféle Epikus rakéta, és időnként egy N.I.K.E. vagy egy N.U.K.E. A **Pulse-ok** ejthetnek Ancient Control Unitot, Power Core-t vagy Dark Mattert. Egy perc harc a rajjal többet fizet, mint egy perc harc a Crystalysszel, a legjobban fizető idegennel.
+Minden hajó külön fizet, a rá leadott sebzés szerint ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), és mindegyik ládát ejt annak a pilótának, aki neki a legtöbb sebzést okozta. A **Force ládája** a fődíj: rengeteg x3 és x4 lőszer, egyféle Epikus rakéta, és időnként egy N.I.K.E. vagy egy N.U.K.E. A **Pulse-ok** ejthetnek Ancient Control Unitot, Power Core-t vagy Dark Mattert. Egy perc harc a rajjal többet fizet, mint egy perc harc a Crystalysszel, a legjobban fizető idegennel. A szezon 11. napjától minden hajó kétszer annyit fizet (lásd a *Dióhéjban* listát); a ládák ugyanazok.
 
 ## A számok {#the-numbers}
 
-A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)).
+A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)). A táblázatok kreditjei, Thuliuma, XP-je és becsülete a szezon 11. napja előtti fizetések; attól a naptól egy kilövés kétszer annyit fizet.
 
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->

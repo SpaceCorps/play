@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
@@ -20,7 +20,7 @@ Le distanze si misurano dal centro del settore, in unità di mappa. Il settore m
 | **Punto di non ritorno** | da circa 1.000 a 2.600 | Dove l’attrazione eguaglia la velocità della tua nave. Al suo interno, anche a piena potenza, vieni risucchiato. Dipende dalla tua velocità. |
 | **Orizzonte degli eventi** | 300 | Qualsiasi nave lo raggiunga viene distrutta all’istante, qualunque siano il suo scafo e il suo scudo. |
 
-I portali del Settore pericoloso 4 e le rotte tra di essi passano tutti ben al di fuori delle radiazioni, quindi non le incontri mai per caso mentre attraversi il settore.
+I portali del Settore pericoloso 4 e le rotte tra di essi passano tutti ben al di fuori delle radiazioni, quindi non le incontri mai per caso mentre attraversi il settore. Dal giorno 11 della stagione lo stesso settore contiene anche il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), nell’angolo in alto a sinistra, lontano dal buco; gli alieni di lì non entrano mai negli anelli del buco.
 
 ## Radiazioni {#radiation}
 

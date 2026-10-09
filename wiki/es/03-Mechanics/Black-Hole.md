@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Agujero negro -->
 # El agujero negro {#the-black-hole}
 
@@ -20,7 +20,7 @@ Las distancias se miden desde el centro del sector, en unidades del mapa. El sec
 | **Punto de no retorno** | de unos 1.000 a 2.600 | Donde la atracción iguala la velocidad de tu nave. Dentro de él, ni a toda potencia puedes evitar que te arrastre. Depende de tu velocidad. |
 | **Horizonte de sucesos** | 300 | Toda nave que lo alcanza es destruida al instante, sean cuales sean su casco y su escudo. |
 
-Los portales del sector de peligro 4 y las rutas entre ellos pasan todos muy por fuera de la radiación, así que nunca te la encuentras por accidente al cruzar.
+Los portales del sector de peligro 4 y las rutas entre ellos pasan todos muy por fuera de la radiación, así que nunca te la encuentras por accidente al cruzar. Desde el día 11 de la temporada el mismo sector contiene además el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), en su esquina superior izquierda, lejos del agujero; los alienígenas de allí nunca entran en los anillos del agujero.
 
 ## Radiación {#radiation}
 

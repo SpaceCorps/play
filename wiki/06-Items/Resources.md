@@ -24,10 +24,10 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Rare | Crystalys, missions | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Research Centre |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Common | Phantasm, Seeker, asteroids | Penetration Amp II, Forge, Research Centre |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Common | Phantasm, Bulwark, asteroids | Penetration Amp III, Forge, Research Centre |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Common | Crystalys, Goombah, Bulwark, asteroids, missions | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forge, Research Centre |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Common | Crystalys, Goombah, asteroids | Penetration Amp IV, Forge, Research Centre |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Uncommon | Skylab collector | Skylab Forgery, Research Centre |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | Skylab collector | Skylab Forgery, Research Centre |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Common | Crystalys, Goombah, Bulwark, asteroids, giant excavator, missions | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forge, Research Centre |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Common | Crystalys, Goombah, asteroids, giant excavator | Penetration Amp IV, Forge, Research Centre |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Uncommon | giant excavator, Skylab collector | Skylab Forgery, Research Centre |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | giant excavator, Skylab collector | Skylab Forgery, Research Centre |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Rare | missions, Skylab Forgery | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epic | missions, Skylab Forgery | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epic | the black hole (a swallowed N.I.K.E.) | Dark Matter Plate, Research Centre |
@@ -328,6 +328,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% for 2 | 2 |
 
 - **Asteroids**: left in the chunks of Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (see [Asteroid Mining](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) for the amounts).
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 1,157 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **Missions**: Bulwark Storm (Challenge) 245; Crystalys Purge (Challenge) 292; Dormant Dawn (Challenge) 54; Goombah Legion (Challenge) 160; Goombah Scourge (Challenge) 281; Rival Ground (Challenge) 50; Warden of the Line (Challenge) 298.
 - **Otherwise**: not sold in the Shop.
 
@@ -371,6 +372,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% for 2 to 4 | 3 |
 
 - **Asteroids**: left in the chunks of Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (see [Asteroid Mining](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) for the amounts).
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 514 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
@@ -389,6 +391,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 
 **How to get it**
 
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 320 of it in every world (the Skylab's ore, capped at 4 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo, where it is Research Centre fuel; the Forgery takes ore from the Resource Storage only.
 - **Skylab**: only the Velkonite Collector mines it, into a hopper of 72 hours, then Collect moves it to the Resource Storage. Aliens do not drop it.
 
 | Module level | 1 | 5 | 10 | 15 | 20 |
@@ -414,6 +417,7 @@ Building the collector takes Core level 5, 10 Ship Fragments, 20,000 credits and
 
 **How to get it**
 
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 160 of it in every world (the Skylab's ore, capped at 4 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo, where it is Research Centre fuel; the Forgery takes ore from the Resource Storage only.
 - **Skylab**: only the Orvium Collector mines it, into a hopper of 72 hours, then Collect moves it to the Resource Storage. Aliens do not drop it.
 
 | Module level | 1 | 5 | 10 | 15 | 20 |
@@ -547,11 +551,13 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 **How to get it**
 
 - **The black hole**: a [N.I.K.E.](/wiki/06-Items/Rockets.md) rocket that crosses the event horizon of the black hole in the middle of Danger Sector 4 is swallowed, and the hole gives back **1, 2 or 3** Dark Matter (2 on average) in crates of at most 2 on the rim of its zone, 3,050 to 3,950 units from its centre. The crates are yours and your clan's for 60 seconds and last 240 seconds. A N.I.K.E. that meets a ship on its way hits it instead and is used up. See [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) and [The Black Hole](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** of the Dormant Swamp: from season day 11, 5% of its boxes hold 1–3. It lives under the swamp's guns.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
 
 - Dark Matter Plate: **5** (with 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md), fuel: one burns for **10** minutes of mining, and the tank holds 3
 - [Research Centre](/wiki/03-Mechanics/Research.md#dark-matter), the top technologies: **10** for each of 34 of them
 
 **How to farm it**: fire [N.I.K.E.](/wiki/06-Items/Rockets.md) rockets into the black hole (Assembly makes them) and take the crates from the rim of its zone before anyone else does. The whole path is in [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
@@ -649,6 +655,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 - **At the start**: a new pilot's account holds 100 Thulium.
 - **Aliens**: every kill pays it (the table above).
 - **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it, up to a limit for every 24 hours (on that page).
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 4,821 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **[Missions](/wiki/03-Mechanics/Quests.md)**: 51,010 Thulium over the 88 missions at Alpha pay, from 170 at level 1 to 21,760 at level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: the Thulium Farm makes it while you are away, into a hopper of 72 hours.
 

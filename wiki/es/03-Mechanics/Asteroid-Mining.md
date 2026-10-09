@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Las tablas de abajo dan los números de un asteroide de Alpha. **Casco** es el f
 
 ## Dónde están {#where-they-are}
 
-Todos los sectores de origen de las tres corporaciones y de los sectores de peligro tienen asteroides, con una mezcla propia: sobre todo los tipos de su anillo, con uno o dos invitados del anillo siguiente o del anterior. Los sectores neutrales, a los que no lleva ningún portal, no tienen ninguno. Los asteroides de los sectores de peligro aparecen desde el día de temporada de la tabla, el día en que se abre el PvP ([Primer Contacto](/wiki/03-Mechanics/Wipe-Timeline.md)), y los demás desde el primer día. Tras una rotura, un asteroide nuevo del mismo tipo vuelve a crecer pasado el tiempo de la fila del sector.
+Todos los sectores de origen de las tres corporaciones y de los sectores de peligro tienen asteroides, con una mezcla propia: sobre todo los tipos de su anillo, con uno o dos invitados del anillo siguiente o del anterior. Los sectores neutrales, a los que no lleva ningún portal, no tienen ninguno. Los asteroides de los sectores de peligro aparecen desde el día de temporada de la tabla, el día en que se abre el PvP ([Primer Contacto](/wiki/03-Mechanics/Wipe-Timeline.md)), y los demás desde el primer día. Tras una rotura, un asteroide nuevo del mismo tipo vuelve a crecer pasado el tiempo de la fila del sector. Desde el día 11 de la temporada ningún asteroide queda cerca de un púlsar, de una excavadora gigante ni del centro del Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md#where-everything-is)), y una roca que estaba allí cuando empezó el evento 2 desaparece.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

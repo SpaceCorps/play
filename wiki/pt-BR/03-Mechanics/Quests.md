@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Missões -->
 # Missões {#quests}
 
@@ -98,7 +98,7 @@ Há dois tipos. Uma permanência que **soma** guarda o que você já tem: saia, 
 As permanências e as visitas não competem: toda aberta conta na hora, o que quer que você esteja fazendo. Os abates são diferentes: um abate conta para uma só missão de nível (veja [Onde conta](#where-it-counts)).
 
 > [!NOTE]
-> As visitas e as permanências podem levar aos setores de perigo (Reconhecimento do centro, Vigília do centro e Segurar o centro levam), onde pilotos de outras corporações podem atacar você. Os itens de missão, nunca.
+> As visitas e as permanências podem levar aos setores de perigo (Reconhecimento do centro, Vigília do centro e Segurar o centro levam), onde pilotos de outras corporações podem atacar você. Os itens de missão, nunca. Um ponto de visita em `DS-x` vale em qualquer setor de perigo: a partir do dia 11 da temporada, faça os pontos perto do canto superior esquerdo de `DS-4`, como o canto de **Quatro Cantos**, em `DS-1`, `DS-2` ou `DS-3`, porque esse canto de `DS-4` está sob o alcance dos canhões do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Missões de enxame {#swarm-missions}
 
@@ -106,7 +106,7 @@ Treze missões pedem as naves dos [enxames](/wiki/05-Swarms/Swarms.md). Duas sã
 
 - **Elas abrem no dia 4 da temporada**, o dia em que os enxames aparecem ([calendário de 30 dias](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Antes disso, o Mission Control as recusa com “Esta missão abre no dia 4 da temporada”.
 - Uma nave de enxame conta com **o seu próprio nome**: um Boss Seeker ou um Seeker Slave não é um Seeker, um Pirate Scout não é um Phantasm.
-- A etapa não indica nenhum setor, porque os enxames se deslocam: o [Enxame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) em `x-1` e `x-2`, o [Enxame Pirate](/wiki/05-Swarms/Pirate-Swarm.md) em `x-2` e `x-3`, o [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) nos setores de perigo. Um Boss Seeker ou um Pirate Boss volta 2 minutos depois de cair.
+- A etapa não indica nenhum setor, porque os enxames se deslocam: o [Enxame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) em `x-1` e `x-2`, o [Enxame Pirate](/wiki/05-Swarms/Pirate-Swarm.md) em `x-2` e `x-3`, o [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) nos setores de perigo. Um Boss Seeker ou um Pirate Boss volta 2 minutos depois de cair. A partir do dia 11 da temporada o Enxame Dormant começa no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - As missões Dormant são para uma tripulação: há um Enxame Dormant em cada mundo, e um grupo de naves fortes o derruba ([como a luta transcorre](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). A fase seguinte não espera por **Alvorada dos Dormant** nem por **Crepúsculo dos Dormant** ([a linha de Desafios](#challenge-line)).
 - Um Boss Seeker bate mais forte do que a nave de um piloto novo aguenta: leia [como a luta se desenrola](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) antes de começar.
 
@@ -171,7 +171,7 @@ A partir do **nível de piloto 3**, a aba **Desafios** do Mission Control abre u
 - **Seus abates pagam por fora.** Os alienígenas que você destrói continuam pagando os próprios créditos, Thulium e honra como sempre; a recompensa vem além disso.
 - **Os abates contam duas vezes.** Um abate conta para cada Desafio que o pede **e** para a missão de nível para a qual ele conta, então uma missão de mil abates nunca deixa as suas missões de nível sem abates.
 - **Grupos.** Um abate conta para o piloto que é pago por ele e para cada colega de grupo a menos de **4.000 unidades** dos destroços que tenha disparado um laser ou um foguete nos últimos 15 segundos. Cada piloto mantém a sua própria contagem.
-- **As permanências exigem tiros, exceto no centro.** Uma permanência em `x-3`, em `x-4` ou na `x-4` de um rival só conta enquanto você tiver dado um tiro nos últimos 60 segundos, então uma nave estacionada ou rodando em círculos não ganha nada. As permanências nos setores de perigo (**Vigília do centro**, **Vigília da borda**, **Última vigília**), onde não vive nenhum alienígena, contam para uma nave que percorreu 300 unidades ou atirou nos últimos 30 segundos, como as das missões de nível.
+- **As permanências exigem tiros, exceto no centro.** Uma permanência em `x-3`, em `x-4` ou na `x-4` de um rival só conta enquanto você tiver dado um tiro nos últimos 60 segundos, então uma nave estacionada ou rodando em círculos não ganha nada. As permanências nos setores de perigo (**Vigília do centro**, **Vigília da borda**, **Última vigília**), onde não vive nenhum alienígena comum (os alienígenas que despertam a partir do dia 11 da temporada, veja [Setores de perigo](/wiki/01-General/Danger-Sectors.md), não mudam a regra), contam para uma nave que percorreu 300 unidades ou atirou nos últimos 30 segundos, como as das missões de nível.
 
 O que cada fase pede, com missões das tabelas:
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -98,7 +98,7 @@ Es gibt zwei Arten. Ein Aufenthalt, der sich **aufsummiert**, behält, was du ha
 Aufenthalte und Besuche konkurrieren nicht: Jeder offene zählt sofort, was du sonst auch tust. Abschüsse sind anders: Ein Abschuss zählt nur für eine Level-Mission (siehe [Wo es zählt](#where-it-counts)).
 
 > [!NOTE]
-> Besuche und Aufenthalte können in die Gefahrensektoren führen (Zentrumsaufklärung, Wache im Zentrum und Zentrum halten tun es), wo Piloten anderer Konzerne dich angreifen können. Missionsgegenstände nie.
+> Besuche und Aufenthalte können in die Gefahrensektoren führen (Zentrumsaufklärung, Wache im Zentrum und Zentrum halten tun es), wo Piloten anderer Konzerne dich angreifen können. Missionsgegenstände nie. Ein Besuchspunkt in `DS-x` zählt in jedem Gefahrensektor: Erledige ab Saisontag 11 die Punkte nahe der oberen linken Ecke von `DS-4`, etwa die Ecke von **Vier Ecken**, in `DS-1`, `DS-2` oder `DS-3`, denn diese Ecke von `DS-4` liegt im Feuer der Geschütze des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Schwarmmissionen {#swarm-missions}
 
@@ -106,7 +106,7 @@ Dreizehn Missionen verlangen die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.
 
 - **Sie öffnen sich am Saisontag 4**, dem Tag, an dem die Schwärme erscheinen ([30-Tage-Saisonplan](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Davor lehnt Mission Control sie ab mit „Diese Mission öffnet sich am Saisontag 4.“
 - Ein Schwarmschiff zählt unter **seinem eigenen Namen**: Ein Boss Seeker oder ein Seeker Slave ist kein Seeker, ein Pirate Scout kein Phantasm.
-- Der Schritt nennt keinen Sektor, weil die Schwärme umherziehen: der [Seeker-Schwarm](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` und `x-2`, der [Pirate-Schwarm](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` und `x-3`, der [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md) in den Gefahrensektoren. Ein Boss Seeker oder ein Pirate Boss kommt 2 Minuten nach seinem Fall zurück.
+- Der Schritt nennt keinen Sektor, weil die Schwärme umherziehen: der [Seeker-Schwarm](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` und `x-2`, der [Pirate-Schwarm](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` und `x-3`, der [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md) in den Gefahrensektoren. Ein Boss Seeker oder ein Pirate Boss kommt 2 Minuten nach seinem Fall zurück. Ab Saisontag 11 startet der Dormant-Schwarm im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - Die Dormant-Missionen sind für eine Crew: In jeder Welt gibt es einen Dormant-Schwarm, und eine Gruppe starker Schiffe nimmt ihn auf ([so verläuft der Kampf](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). Die nächste Stufe wartet nicht auf **Dormant-Morgenröte** oder **Dormant-Abendrot** ([die Linie der Herausforderungen](#challenge-line)).
 - Ein Boss Seeker trifft härter, als das Schiff eines neuen Piloten aushält: Lies, [wie der Kampf verläuft](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes), bevor du anfängst.
 
@@ -171,7 +171,7 @@ Ab **Pilotenlevel 3** öffnet der Tab **Herausforderungen** von Mission Control 
 - **Deine Abschüsse zahlen obendrauf.** Die Aliens, die du zerstörst, zahlen weiter ihre eigenen Credits, ihr Thulium und ihre Ehre wie immer; die Belohnung kommt zusätzlich dazu.
 - **Abschüsse zählen doppelt.** Ein Abschuss zählt für jede Herausforderung, die ihn verlangt, **und** für die eine Level-Mission, für die er zählt, sodass eine Mission mit tausend Abschüssen deine Level-Missionen nie aushungert.
 - **Gruppen.** Ein Abschuss zählt für den Piloten, der dafür bezahlt wird, und für jedes Gruppenmitglied im Umkreis von **4.000 Einheiten** um das Wrack, das in den letzten 15 Sekunden einen Laser oder eine Rakete abgefeuert hat. Jeder Pilot führt seinen eigenen Zähler.
-- **Aufenthalte brauchen Schüsse, außer im Zentrum.** Ein Aufenthalt in `x-3`, in `x-4` oder in der `x-4` eines Rivalen zählt nur, solange du in den letzten 60 Sekunden einen Schuss abgegeben hast, ein geparktes oder kreisendes Schiff verdient also nichts. Die Aufenthalte in den Gefahrensektoren (**Wache im Zentrum**, **Randwache**, **Letzte Wache**), wo kein Alien lebt, zählen für ein Schiff, das in den letzten 30 Sekunden 300 Einheiten geflogen ist oder geschossen hat, wie bei den Aufenthalten der Level-Missionen.
+- **Aufenthalte brauchen Schüsse, außer im Zentrum.** Ein Aufenthalt in `x-3`, in `x-4` oder in der `x-4` eines Rivalen zählt nur, solange du in den letzten 60 Sekunden einen Schuss abgegeben hast, ein geparktes oder kreisendes Schiff verdient also nichts. Die Aufenthalte in den Gefahrensektoren (**Wache im Zentrum**, **Randwache**, **Letzte Wache**), wo kein gewöhnliches Alien lebt (die Aliens, die ab Saisontag 11 erwachen, siehe [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md), ändern die Regel nicht), zählen für ein Schiff, das in den letzten 30 Sekunden 300 Einheiten geflogen ist oder geschossen hat, wie bei den Aufenthalten der Level-Missionen.
 
 Was jede Stufe verlangt, mit Missionen aus den Tabellen:
 

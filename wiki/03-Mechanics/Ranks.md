@@ -123,6 +123,9 @@ A tougher alien is worth more: a kill adds points by how much damage it takes to
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -130,11 +133,11 @@ A tougher alien is worth more: a kill adds points by how much damage it takes to
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-The first five rows are the regular aliens and the next six the ships of the three swarms. Last come the Clan Wardens, the leaders of a Clan Warden fight, and their crews, the Brood Drones, Siege Escorts and Wrath Guards: I, II and III are the Warden's strength, and the points of each are listed in that order.
+The first five rows are the regular aliens, the next six the ships of the three swarms and the next three the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (from season day 11). Last come the Clan Wardens, the leaders of a Clan Warden fight, and their crews, the Brood Drones, Siege Escorts and Wrath Guards: I, II and III are the Warden's strength, and the points of each are listed in that order.
 
 For example, a pilot at level 4 with 12,500 experience who has destroyed 300 Seekers, 80 Phantasms and 10 Bulwarks has 400 + 12 + 300 + 160 + 40 = **912** points. That makes him a Sergeant: the minimum is 800, and the next rank, Senior Sergeant, asks 1,000. Up to Senior Colonel nothing but the points count.
 
-The **Rankings** page (Community › Rankings) shows how your own points are made up, and the **Hall of Fame** on it lists the best pilots. The **(i)** next to the PvE points there lists the five aliens, what a kill in each of the swarms ([Swarms](/wiki/05-Swarms/Swarms.md)) is worth, from its smallest ship to its boss, and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#clan-wardens).
+The **Rankings** page (Community › Rankings) shows how your own points are made up, and the **Hall of Fame** on it lists the best pilots. The **(i)** next to the PvE points there lists the five aliens, what a kill in each of the swarms ([Swarms](/wiki/05-Swarms/Swarms.md)) is worth, from its smallest ship to its boss, the same for the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## The symbols
 

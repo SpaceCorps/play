@@ -35,7 +35,7 @@ The crate's lights take the colour of the rarest item inside: teal for common lo
 - After that, **anyone** on the map may take it.
 - Only a ship on the crate's map can take it: if you are destroyed, jump or log off on the way (or during the half second the pickup takes), the crate stays for the others.
 - If two pilots collect the same crate at once, the one whose pickup finishes first gets it, exactly once; the other is told it is gone.
-- A crate nobody takes drifts away after **3 minutes** (it blinks in its last 10 seconds). A map holds at most 64 crates; when a new one would pass that, the oldest goes. Asteroid chunks have a pool of their own inside the 64: they never push another crate out, and no other crate pushes a chunk out ([the rules](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark Matter crates last 4 minutes, and are yours alone for the first minute.
+- A crate nobody takes drifts away after **3 minutes** (it blinks in its last 10 seconds). A map holds at most 64 crates; when a new one would pass that, the oldest goes. The boxes of a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) are free for anyone from the moment they lie, last longer than a crate and have a pool of their own, so they never push another crate out. Asteroid chunks have a pool of their own inside the 64: they never push another crate out, and no other crate pushes a chunk out ([the rules](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark Matter crates last 4 minutes, and are yours alone for the first minute.
 
 ## Private Boxes
 

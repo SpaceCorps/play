@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -20,14 +20,14 @@ Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskj
 | Svärm | Var | Hur många | Ledare | Följeslagare | Kommer tillbaka |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate-svärm**](/wiki/05-Swarms/Pirate-Swarm.md) | Sektorerna `x-2` och `x-3` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Pirate Boss** | Upp till 5 × Pirate Scout, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
-| [**Dormant-svärm**](/wiki/05-Swarms/Dormant-Swarm.md) | Farosektorerna `DS-1`, `DS-2`, `DS-3`, `DS-4`, flyger från den ena till den andra | En i varje värld | **Dormant Force** | 2 × Dormant Pulse, som flyger med ledaren | 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor |
+| [**Dormant-svärm**](/wiki/05-Swarms/Dormant-Swarm.md) | Farosektorerna `DS-1`, `DS-2`, `DS-3`, `DS-4`, flyger från den ena till den andra | En i varje värld | **Dormant Force** | 2 × Dormant Pulse, som flyger med ledaren | 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor. Från säsongsdag 11: 30 min, vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och varje skepp betalar ×2 |
 | [**Seeker-svärm**](/wiki/05-Swarms/Seeker-Swarm.md) | Sektorerna `x-1` och `x-2` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Seeker** | Upp till 4 × Seeker Slave, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
 
 <!-- swarms-list:end -->
 
 ## När och var {#when-and-where}
 
-Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen (se [Wipe-tidslinjen](/wiki/03-Mechanics/Wipe-Timeline.md); dagen står på första raden i reglerna nedan). **Varje värld har sina egna svärmar** på samma platser, så Pirate Boss i Alpha och den i Beta är två olika skepp, och en svärm du förstör i din värld är inte förstörd i en annan. En förstörd svärm kommer tillbaka efter tiden i tabellen ovan.
+Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen (se [Wipe-tidslinjen](/wiki/03-Mechanics/Wipe-Timeline.md); dagen står på första raden i reglerna nedan). **Varje värld har sina egna svärmar** på samma platser, så Pirate Boss i Alpha och den i Beta är två olika skepp, och en svärm du förstör i din värld är inte förstörd i en annan. En förstörd svärm kommer tillbaka efter tiden i tabellen ovan. Dormant-svärmen förändras på säsongsdag 11 (event 2): den dyker upp vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kommer tillbaka tidigare och betalar dubbelt.
 
 ## Reglerna för varje svärm {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ En vanlig utomjording betalar piloten som träffade den först ([Strid](/wiki/03
 - **Lastlådan går till piloten som gjorde mest skada.** Den är den pilotens (och dess klans) i 30 sekunder, som för varje utomjording, och sedan kan vem som helst ta den ([Last](/wiki/03-Mechanics/Cargo.md)). Varje Dormant-skepp har sin egen skaderäkning och sin egen låda.
 - **Följeslagare betalar som vanligt**: Pirate Scouts och Seeker Slaves betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
 - **Betalningen för en boss är gjord för att slå utomjordingarna omkring den.** En minuts strid mot en Pirate Boss betalar mer än en minuts strid mot en Goombah, och Dormant-svärmen betalar ännu mer; Boss Seeker betalar exakt tio Seekers.
+- **Dormant Swamps utomjordingar** (Slumbering Void, Inert Mass och Unwakened) betalas som en boss, efter skada, och ger PvE-poäng till din ranking; deras siffror finns i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik och ger PvE-poäng till din ranking:
 

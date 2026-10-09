@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Spacemap-resor -->
 # Spacemap-resor {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Universum består av tre huvudsektorer för koncernerna (Mars, Terra, Galactic) 
 - **x-1 (hembas)**: Startkartan för varje koncern (M-1, T-1, G-1). Den säkraste zonen.
 - **x-2 -> x-3**: Expansionszoner med successivt tuffare utomjordingar.
 - **x-4 (gräns)**: Porten till PvP-sektorn och till en annan koncerns `x-3` (Ringen, nedan).
-- **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4.
+- **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4. Från säsongsdag 11 rymmer den också pulsarer med jättegrävmaskiner och Dormant Swamp ([Farosektorer](/wiki/01-General/Danger-Sectors.md)).
 
 Bara hembaserna har en station. Det är där **Mission Control** öppnas, och dess säkra zon sträcker sig 1 600 enheter runt den. Farosektorerna har ingen station, `DS-1` inte heller: de enda säkra zonerna där är ringarna på 660 enheter runt hoppportalerna, och Mission Control kan inte öppnas där; flyg tillbaka till din bas för dina uppdrag.
 
@@ -79,7 +79,7 @@ Resor på Spacemap sker via **portaler** (hoppportaler). [Jump CPU](/wiki/06-Ite
   Ringen är öppen för alla piloter, oavsett vilken koncern de flyger för: den är ett andra sätt att resa mellan koncernernas kartor som inte korsar PvP-zonen. En ringportal står i ett eget hörn, långt från de andra portalerna på sin karta, med den vanliga säkra zonen på 660 enheter runt sig, och hoppet fungerar som vid vilken portal som helst. Var du kan bli anfallen på andra sidan beror på din värld, som överallt: i Alpha är `T-3` ingen PvP-sektor men `T-4` är det, i Beta är båda det, i Gamma är varje sektor det.
 - **Invasionsvägar (resor mellan koncerner)**: Det finns två vägar genom portalerna in på en annan koncerns territorium. Den korta är Ringen: en pilot från Mars flyger från `M-4` genom ringportalen in i Terras `T-3` (tre hopp från Mars bas, `M-1` → `M-2` → `M-4` → `T-3`) och vidare till `T-4` eller `T-2`; Galactics `G-4` leder på samma sätt in i Mars `M-3` och Terras `T-4` in i Galactics `G-3`. Den långa korsar PvP-zonen: från `M-4` in i farosektorn `DS-1`, genom hoppportalen till `DS-2` och sedan in i Terras rymd genom `T-4`; för att nå Galactic tar du hoppportalen till `DS-3` och går in genom `G-4`.
 - **Farosektortriangeln**: `DS-1`, `DS-2` och `DS-3` är alla förbundna med varandra. Var och en av dem har en koncerns portal (Mars i `DS-1`, Terra i `DS-2`, Galactic i `DS-3`); `DS-4` har ingen.
-- **Kärnan i mitten**: Alla tre yttre farosektorer (`DS-1`, `DS-2` och `DS-3`) är direkt förbundna med mittkartan **`DS-4`**, den farligaste och mest givande PvP-zonen i universum. Ett **svart hål** hänger mitt i den: portalerna och lederna mellan dem ligger långt från det, men ett skepp som flyger in känner dess strålning, sedan dess dragning, och förstörs vid dess händelsehorisont. Se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md).
+- **Kärnan i mitten**: Alla tre yttre farosektorer (`DS-1`, `DS-2` och `DS-3`) är direkt förbundna med mittkartan **`DS-4`**, den farligaste och mest givande PvP-zonen i universum. Ett **svart hål** hänger mitt i den: portalerna och lederna mellan dem ligger långt från det, men ett skepp som flyger in känner dess strålning, sedan dess dragning, och förstörs vid dess händelsehorisont. Se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md). Från säsongsdag 11 rymmer det övre vänstra hörnet av `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), vars kanoner skjuter på varje skepp de ser.
 
 ### Jump CPU {#the-jump-cpu}
 

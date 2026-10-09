@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
+<!-- wiki-i18n source: bb8bc80ba6889fba -->
 <!-- wiki-i18n title: Enxame Dormant -->
 # Enxame Dormant {#dormant-swarm}
 
-O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo de naves que nunca começam uma luta e batem muito forte depois de acordadas. Há só um em cada mundo. Ele vagueia de um setor de perigo para o seguinte e é a luta mais dura e o saque mais rico dos enxames: uma luta para um grupo grande das naves mais fortes.
+O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo de naves que nunca começam uma luta e batem muito forte depois de acordadas. Há só um em cada mundo. Ele vagueia de um setor de perigo para o seguinte e é a luta mais dura e o saque mais rico dos enxames: uma luta para um grupo grande das naves mais fortes. A partir do dia 11 da temporada ele começa no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4`, volta mais cedo e paga o dobro (veja a lista *Em resumo*).
 
 ## Resumo rápido {#at-a-glance}
 
@@ -18,6 +18,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 - **Líder destruído**: Dormant Pulse assume a liderança
 - **Deslocamento**: Fica 8 a 15 min num mapa, depois voa até o portão de outro setor de perigo. Nunca usa os portões que saem dos setores de perigo e nunca entra no anel do buraco negro
 - **Volta**: 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório
+- **A partir do dia 11 da temporada**: Aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4` em vez de num setor de perigo aleatório, volta 30 min depois que o enxame inteiro é destruído, e cada nave paga ×2 (créditos, Thulium, XP e honra; o espólio continua o mesmo)
 - **Avisos**: Os pilotos do mundo inteiro são avisados quando o enxame aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. Um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- dormant-glance:end -->
@@ -31,18 +32,18 @@ São passivas: nunca vão atrás de um piloto. Se uma delas é acertada, as outr
 
 ## Como a luta transcorre {#how-the-fight-goes}
 
-- **Encontre-o.** O mundo inteiro é avisado quando ele aparece, e um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. Ele fica num mapa pelo tempo da lista *Resumo rápido*, depois voa até o portão de outro setor de perigo e salta; nunca usa um portão que saia dos setores de perigo e nunca entra no anel do buraco negro. Voa na velocidade da nave mais lenta e, como um piloto, não inicia nem termina um salto sob fogo.
+- **Encontre-o.** O mundo inteiro é avisado quando ele aparece, e um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. Ele fica num mapa pelo tempo da lista *Resumo rápido*, depois voa até o portão de outro setor de perigo e salta; nunca usa um portão que saia dos setores de perigo e nunca entra no anel do buraco negro. Voa na velocidade da nave mais lenta e, como um piloto, não inicia nem termina um salto sob fogo. A partir do dia 11 da temporada ele aparece primeiro logo fora da zona do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), onde um grupo pode esperá-lo fora do alcance dos canhões do pântano, e depois sai voando por um portão de `DS-4`.
 - **Não se derrota sozinho, nem com poucos.** Oito pilotos de nível 8 em Paragons com munição x2 ou x4 o destroem em cerca de um minuto em Alpha, perdendo no máximo uma nave; uma Paragon sozinha é destruída, e três ou quatro com munição x2 também. Os enxames de Beta e Gamma são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então esses mundos pedem grupos maiores.
 - **Os lasers dele decidem a luta.** Juntos, podem destruir uma Paragon em menos de um minuto, e até uma com os melhores escudos em menos de dois, com foguetes ou sem: leve o seu dano rápido, com os melhores escudos que tiver.
 - **Nave por nave.** Cada nave tem o seu casco e o seu pagamento, então a Force ou uma Pulse pode ser destruída primeiro. O enxame só é substituído quando é destruído por inteiro, depois do tempo da lista *Resumo rápido*.
 
 ## Recompensas e saque {#rewards-and-drops}
 
-Cada nave paga por si, pelo dano causado a ela ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), e cada uma larga uma caixa para o piloto que mais lhe causou dano. A **caixa da Force** é o prêmio: muita munição x3 e x4, foguetes Épicos de um só tipo e, de vez em quando, um N.I.K.E. ou um N.U.K.E. As **Pulses** podem largar uma Ancient Control Unit, um Power Core ou Dark Matter. Um minuto de luta contra o enxame paga mais do que um minuto de luta contra o Crystalys, o alienígena mais bem pago.
+Cada nave paga por si, pelo dano causado a ela ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), e cada uma larga uma caixa para o piloto que mais lhe causou dano. A **caixa da Force** é o prêmio: muita munição x3 e x4, foguetes Épicos de um só tipo e, de vez em quando, um N.I.K.E. ou um N.U.K.E. As **Pulses** podem largar uma Ancient Control Unit, um Power Core ou Dark Matter. Um minuto de luta contra o enxame paga mais do que um minuto de luta contra o Crystalys, o alienígena mais bem pago. A partir do dia 11 da temporada cada nave paga o dobro (veja a lista *Em resumo*); as caixas são as mesmas.
 
 ## Os números {#the-numbers}
 
-Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)).
+Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)). Os créditos, o Thulium, o XP e a honra das tabelas são o pagamento anterior ao dia 11 da temporada; a partir desse dia um abate paga o dobro.
 
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 26f4bca5b9b9516f -->
+<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
@@ -125,6 +125,9 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -132,11 +135,11 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-De fem första raderna är de vanliga utomjordingarna och de sex nästa de tre svärmarnas skepp. Sist kommer klanväktarna, ledarna i en klanväktarstrid, och deras besättningar, Brood Drone, Siege Escort och Wrath Guard: I, II och III är väktarens styrka, och poängen står i den ordningen.
+De fem första raderna är de vanliga utomjordingarna, de sex nästa de tre svärmarnas skepp och de tre nästa utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (från säsongsdag 11). Sist kommer klanväktarna, ledarna i en klanväktarstrid, och deras besättningar, Brood Drone, Siege Escort och Wrath Guard: I, II och III är väktarens styrka, och poängen står i den ordningen.
 
 Till exempel har en pilot på nivå 4 med 12 500 erfarenhet som har förstört 300 Seeker, 80 Phantasm och 10 Bulwark 400 + 12 + 300 + 160 + 40 = **912** poäng. Det gör honom eller henne till Sergeant: minimum är 800, och nästa grad, Senior sergeant, kräver 1 000. Upp till Senior överste räknas bara poängen.
 
-Sidan **Ranking** (Gemenskap › Ranking) visar hur dina egna poäng är sammansatta, och **Hedersgalleriet** där listar de bästa piloterna. **(i)** vid PvE-poängen där nämner de fem utomjordingarna, vad en nedskjutning i var och en av [svärmarna](/wiki/05-Swarms/Swarms.md) är värd, från det minsta skeppet till bossen, och [klanväktarna](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Sidan **Ranking** (Gemenskap › Ranking) visar hur dina egna poäng är sammansatta, och **Hedersgalleriet** där listar de bästa piloterna. **(i)** vid PvE-poängen där nämner de fem utomjordingarna, vad en nedskjutning i var och en av [svärmarna](/wiki/05-Swarms/Swarms.md) är värd, från det minsta skeppet till bossen, detsamma för utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och [klanväktarna](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
 ## Symbolerna {#the-symbols}
 

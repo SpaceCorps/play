@@ -28,7 +28,7 @@ The universe comprises three main company sectors (Mars, Terra, Galactic) and a 
 - **x-1 (Home Base)**: The starting map for each company (M-1, T-1, G-1). Safest zone.
 - **x-2 -> x-3**: Expansion zones with progressively tougher aliens.
 - **x-4 (Border)**: The gateway to the PvP sector, and to another company's `x-3` (the Ring, below).
-- **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4.
+- **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4. From season day 11 it also holds pulsars with giant excavators and the Dormant Swamp ([Danger Sectors](/wiki/01-General/Danger-Sectors.md)).
 
 Only the home bases have a station. It is where **Mission Control** opens, and its safe zone reaches 1,600 units around it. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to your base for your missions.
 
@@ -77,7 +77,7 @@ Spacemap travel is conducted via **Jump Gates** (Portals). A [Jump CPU](/wiki/06
   The ring is open to every pilot, whatever company they fly for: it is a second way to travel between the companies' maps that does not cross the PvP zone. A ring gate stands in a corner of its own, away from the other gates of its map, with the usual safe zone of 660 units around it, and the jump works as at any gate. Where you may be attacked on the other side depends on your world, as everywhere: in Alpha `T-3` is not a PvP sector but `T-4` is, in Beta both are, in Gamma every sector is.
 - **Invasion Paths (Inter-Company Travel)**: There are two ways into another company's territory through the gates. The short one is the Ring: a Mars pilot flies from `M-4` through the ring gate into Terra's `T-3` (three jumps from the Mars base, `M-1` → `M-2` → `M-4` → `T-3`), and on to `T-4` or `T-2`; Galactic's `G-4` leads into Mars' `M-3` and Terra's `T-4` into Galactic's `G-3` the same way. The long one crosses the PvP zone: from `M-4` into Danger Sector `DS-1`, across the jump gate to `DS-2`, and into Terra space through `T-4`; to reach Galactic, cross the jump gate to `DS-3` and enter through `G-4`.
 - **The Danger Sector Triangle**: `DS-1`, `DS-2` and `DS-3` all connect to each other. Each of them has one company's gate (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` has none.
-- **The Core Center**: All three outer Danger Sectors (`DS-1`, `DS-2`, and `DS-3`) connect directly to the center map **`DS-4`**, the most dangerous and rewarding PvP zone in the universe. A **black hole** hangs in the exact middle of it: the portals and the lanes between them stay well clear, but a ship that flies in feels its radiation, then its pull, and is destroyed at its event horizon. See [The Black Hole](/wiki/03-Mechanics/Black-Hole.md).
+- **The Core Center**: All three outer Danger Sectors (`DS-1`, `DS-2`, and `DS-3`) connect directly to the center map **`DS-4`**, the most dangerous and rewarding PvP zone in the universe. A **black hole** hangs in the exact middle of it: the portals and the lanes between them stay well clear, but a ship that flies in feels its radiation, then its pull, and is destroyed at its event horizon. See [The Black Hole](/wiki/03-Mechanics/Black-Hole.md). From season day 11 the top-left corner of `DS-4` holds the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), whose guns fire on every ship they see.
 
 ### The Jump CPU
 

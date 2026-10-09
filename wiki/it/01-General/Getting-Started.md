@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b4de17b88336f9c -->
+<!-- wiki-i18n source: fdf147fcd54ecb68 -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -61,7 +61,7 @@ Quando lo scafo arriva a 0 la nave viene distrutta e la schermata di distruzione
 - **Una scelta che il server rifiuta non costa nulla.** Se una scelta non si può usare (ancora bloccata, nessun portale nel settore, hai cambiato mondo dopo la distruzione) il blocco non scatta e la tua nave non viene spostata; scegli di nuovo.
 - **Protezione dopo il respawn.** Qualunque posto tu scelga, la tua nave non può essere danneggiata né agganciata per **3 secondi** dopo il ritorno, e gli alieni perdono interesse per lei, quindi chi ti ha distrutto non può distruggerti di nuovo subito. Negli stessi 3 secondi **non puoi attaccare nemmeno tu**: un laser o un razzo viene rifiutato con un avviso, e la protezione non termina prima. L’HUD mostra i secondi rimasti. Termina quando sono finiti.
 - **Il buco nero.** Un luogo dentro l’anello di radiazioni del [buco nero](/wiki/03-Mechanics/Black-Hole.md) (a 4.200 unità dal centro del Settore pericoloso 4) non è mai un luogo in cui tornare: se la distruzione è avvenuta lì, “Sul posto” ti porta nel punto più vicino fuori dall’anello, sulla linea che va dal centro al luogo della distruzione, e te lo segnala.
-- **Settori pericolosi.** Anche lì funzionano tutte e tre le scelte.
+- **Settori pericolosi.** Anche lì funzionano tutte e tre le scelte. «Sul posto» viene spostato fuori dalle radiazioni di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation) surriscaldato e fuori dalla zona del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), come fuori dall’anello del buco nero: anche chi accede dentro una di esse viene messo fuori.
 - **Lo scafo torna limitato.** Torni con lo scafo della tua nave **fino a un massimo di 10.000** e lo scudo vuoto, qualunque posto tu scelga. La Protos (8.000 di scafo) torna piena; le navi più grandi (dai 24.000 della Kitefin ai 600.000 della Ironclad) tornano con 10.000, quindi ripara prima dello scontro successivo con un Repair Drone o una Emergency Repair (vedi [Combattimento](/wiki/03-Mechanics/Combat.md) e [Abilità](/wiki/03-Mechanics/Abilities.md)). Lo scudo si ricarica come al solito. La schermata di distruzione te lo dice.
 - **Cosa costa ancora una distruzione:** non perdi nessun oggetto, e la scelta decide solo dove compari. Le tue abilità sono pronte, e torni senza occultamento attivo e fuori da qualsiasi finestra EMP. Resti nel tuo [gruppo](/wiki/03-Mechanics/Groups.md).
 - **Attracco.** “Torna alla base” nella schermata di distruzione ti riporta alla base, come sempre, con lo stesso scafo. Se il gioco si chiude prima che tu scelga, ripristina la nave gratis nell’[Hangar](/wiki/03-Mechanics/Hangar.md); ti trovi alla tua base, con lo stesso scafo e senza scudo.

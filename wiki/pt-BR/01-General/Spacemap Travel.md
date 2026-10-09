@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Viagem pelo mapa espacial -->
 # Viagem pelo mapa espacial {#spacemap-travel}
 
@@ -30,7 +30,7 @@ O universo é formado por três setores principais de corporações (Mars, Terra
 - **x-1 (Base de origem)**: O mapa inicial de cada corporação (M-1, T-1, G-1). A zona mais segura.
 - **x-2 -> x-3**: Zonas de expansão com alienígenas cada vez mais fortes.
 - **x-4 (Fronteira)**: A porta de entrada para o setor PvP e para o `x-3` de outra corporação (o Anel, abaixo).
-- **DS-x (Setores de perigo)**: A zona PvP central que conecta todas as corporações: DS-1 a DS-4.
+- **DS-x (Setores de perigo)**: A zona PvP central que conecta todas as corporações: DS-1 a DS-4. A partir do dia 11 da temporada ele contém também pulsares com escavadeiras gigantes e o Dormant Swamp ([Setores de perigo](/wiki/01-General/Danger-Sectors.md)).
 
 Só as bases de origem têm uma estação. É nela que abre **Mission Control**, e a zona segura dela alcança 1.600 unidades ao redor. Os setores de perigo não têm estação, nem o `DS-1`: as únicas zonas seguras ali são os anéis de 660 unidades ao redor dos portais de salto, e **Mission Control** não pode ser aberto ali; volte voando à sua base para ver as suas missões.
 
@@ -79,7 +79,7 @@ A viagem pelo mapa espacial é feita por **portais de salto**. A [Jump CPU](/wik
   O Anel está aberto a todos os pilotos, seja qual for a corporação por que voem: é uma segunda forma de viajar entre os mapas das corporações que não atravessa a zona PvP. Um portal do Anel fica num canto só seu, longe dos outros portais do seu mapa, com a zona segura de sempre de 660 unidades ao redor, e o salto funciona como em qualquer portal. Onde você pode ser atacado do outro lado depende do seu mundo, como em todo lugar: em Alpha `T-3` não é um setor PvP, mas `T-4` é; em Beta os dois são; em Gamma todos os setores são.
 - **Rotas de invasão (viagem entre corporações)**: Há dois caminhos pelos portais para o território de outra corporação. O curto é o Anel: um piloto da Mars voa de `M-4`, pelo portal do Anel, até o `T-3` da Terra (três saltos a partir da base da Mars, `M-1` → `M-2` → `M-4` → `T-3`) e segue para `T-4` ou `T-2`; o `G-4` da Galactic leva ao `M-3` da Mars e o `T-4` da Terra ao `G-3` da Galactic, do mesmo modo. O longo atravessa a zona PvP: de `M-4` até o setor de perigo `DS-1`, pelo portal de salto para `DS-2` e então para o espaço da Terra por `T-4`; para chegar à Galactic, atravessa-se o portal de salto para `DS-3` e entra-se por `G-4`.
 - **O triângulo dos setores de perigo**: `DS-1`, `DS-2` e `DS-3` se conectam todos entre si. Cada um deles tem o portal de uma corporação (Mars em `DS-1`, Terra em `DS-2`, Galactic em `DS-3`); `DS-4` não tem nenhum.
-- **O núcleo central**: Os três setores de perigo externos (`DS-1`, `DS-2` e `DS-3`) se conectam diretamente ao mapa central **`DS-4`**, a zona PvP mais perigosa e mais recompensadora do universo. Um **buraco negro** paira bem no meio dele: os portais e as rotas entre eles ficam bem longe, mas uma nave que entra sente a sua radiação, depois a sua atração e é destruída no horizonte de eventos. Veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md).
+- **O núcleo central**: Os três setores de perigo externos (`DS-1`, `DS-2` e `DS-3`) se conectam diretamente ao mapa central **`DS-4`**, a zona PvP mais perigosa e mais recompensadora do universo. Um **buraco negro** paira bem no meio dele: os portais e as rotas entre eles ficam bem longe, mas uma nave que entra sente a sua radiação, depois a sua atração e é destruída no horizonte de eventos. Veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md). A partir do dia 11 da temporada o canto superior esquerdo de `DS-4` abriga o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), cujos canhões atiram em toda nave que veem.
 
 ### A Jump CPU {#the-jump-cpu}
 

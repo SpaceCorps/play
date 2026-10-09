@@ -18,14 +18,14 @@ The **Clan Wardens** are not public swarms. A clan calls its own Warden for the 
 | Swarm | Where | How many | Leader | Followers | Comes back |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate Swarm**](/wiki/05-Swarms/Pirate-Swarm.md) | The sectors `x-2` and `x-3` of every company | One in each of those sectors, 6 in each world | **Pirate Boss** | Up to 5 × Pirate Scout, a new one every 10 s | 2 min after the leader is destroyed, in the same sector |
-| [**Dormant Swarm**](/wiki/05-Swarms/Dormant-Swarm.md) | The Danger Sectors `DS-1`, `DS-2`, `DS-3`, `DS-4`, flying from one to another | One in each world | **Dormant Force** | 2 × Dormant Pulse, flying with the leader | 1 h after the whole swarm is destroyed, in a random Danger Sector |
+| [**Dormant Swarm**](/wiki/05-Swarms/Dormant-Swarm.md) | The Danger Sectors `DS-1`, `DS-2`, `DS-3`, `DS-4`, flying from one to another | One in each world | **Dormant Force** | 2 × Dormant Pulse, flying with the leader | 1 h after the whole swarm is destroyed, in a random Danger Sector. From season day 11: 30 min, at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), and every ship pays ×2 |
 | [**Seeker Swarm**](/wiki/05-Swarms/Seeker-Swarm.md) | The sectors `x-1` and `x-2` of every company | One in each of those sectors, 6 in each world | **Boss Seeker** | Up to 4 × Seeker Slave, a new one every 10 s | 2 min after the leader is destroyed, in the same sector |
 
 <!-- swarms-list:end -->
 
 ## When and where
 
-The swarms begin to appear at **First Contact** and stay until the wipe (see the [Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md); the day is the first line of the rules below). **Every world has its own swarms** in the same places, so the Pirate Boss of Alpha and the one of Beta are two different ships, and a swarm you destroy in your world is not destroyed in another. A swarm that is destroyed comes back after the time in the table above.
+The swarms begin to appear at **First Contact** and stay until the wipe (see the [Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md); the day is the first line of the rules below). **Every world has its own swarms** in the same places, so the Pirate Boss of Alpha and the one of Beta are two different ships, and a swarm you destroy in your world is not destroyed in another. A swarm that is destroyed comes back after the time in the table above. The Dormant Swarm changes on season day 11 (event 2): it appears at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), comes back sooner and pays twice as much.
 
 ## The rules of every swarm
 
@@ -80,6 +80,7 @@ An ordinary alien pays the pilot who hit it first ([Combat](/wiki/03-Mechanics/C
 - **The cargo box goes to the pilot who dealt the most damage.** It is that pilot's (and its clan's) for 30 seconds, as for any alien, and then anyone can take it ([Cargo](/wiki/03-Mechanics/Cargo.md)). Each Dormant ship has its own damage count and its own box.
 - **Followers pay the usual way**: the Pirate Scouts and the Seeker Slaves pay the pilot who hit them first, and their pay is small next to a boss's.
 - **The pay of a boss is made to beat the aliens around it.** A minute of fighting a Pirate Boss pays more than a minute of fighting a Goombah, and the Dormant Swarm pays more still; the Boss Seeker pays exactly ten Seekers.
+- **The Dormant Swamp's aliens** (the Slumbering Void, the Inert Mass and the Unwakened) are paid like a boss, by damage, and add PvE points to your ranking; their numbers are in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Every kill is counted under the ship's own name in your kill statistics, and adds PvE points to your ranking:
 

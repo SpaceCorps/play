@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Das Universum besteht aus den drei großen Konzernsektoren (Mars, Terra, Galacti
 - **x-1 (Heimatbasis)**: Die Startkarte jedes Konzerns (M-1, T-1, G-1). Die sicherste Zone.
 - **x-2 -> x-3**: Expansionszonen mit immer stärkeren Aliens.
 - **x-4 (Grenze)**: Das Tor zum PvP-Sektor und zu `x-3` eines anderen Konzerns (der Ring, siehe unten).
-- **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4.
+- **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4. Ab Saisontag 11 enthält sie außerdem Pulsare mit Riesenbaggern und den Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md)).
 
 Nur die Heimatbasen haben eine Station. Dort öffnet sich **Mission Control**, und ihre Schutzzone reicht 1.600 Einheiten weit um sie herum. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu deiner Basis.
 
@@ -79,7 +79,7 @@ Auf der Weltraumkarte reist du über **Sprungtore** (Portale). Die [Jump CPU](/w
   Der Ring steht jedem Piloten offen, für welchen Konzern er auch fliegt: Er ist ein zweiter Reiseweg zwischen den Karten der Konzerne, der die PvP-Zone nicht durchquert. Ein Ringtor steht in einer eigenen Ecke, abseits der anderen Tore seiner Karte, mit der üblichen Schutzzone von 660 Einheiten um sich, und der Sprung funktioniert wie an jedem Tor. Wo du auf der anderen Seite angegriffen werden darfst, hängt wie überall von deiner Welt ab: In Alpha ist `T-3` kein PvP-Sektor, `T-4` aber schon, in Beta sind es beide, in Gamma jeder Sektor.
 - **Invasionsrouten (Reisen zwischen Konzernen)**: Es gibt zwei Wege durch die Tore in das Gebiet eines anderen Konzerns. Der kurze ist der Ring: Ein Mars-Pilot fliegt von `M-4` durch das Ringtor in Terras `T-3` (drei Sprünge von der Mars-Basis aus, `M-1` → `M-2` → `M-4` → `T-3`) und weiter nach `T-4` oder `T-2`; Galactics `G-4` führt ebenso in Mars’ `M-3` und Terras `T-4` in Galactics `G-3`. Der lange Weg durchquert die PvP-Zone: von `M-4` in den Gefahrensektor `DS-1`, durch das Sprungtor nach `DS-2` und über `T-4` in den Terra-Raum; um Galactic zu erreichen, wechselt man durch das Sprungtor nach `DS-3` und dringt über `G-4` ein.
 - **Das Gefahrensektor-Dreieck**: `DS-1`, `DS-2` und `DS-3` sind alle miteinander verbunden. Jeder von ihnen hat das Tor eines Konzerns (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` hat keines.
-- **Das Zentrum**: Alle drei äußeren Gefahrensektoren (`DS-1`, `DS-2` und `DS-3`) sind direkt mit der Zentralkarte **`DS-4`** verbunden, der gefährlichsten und lohnendsten PvP-Zone des Universums. Genau in ihrer Mitte hängt ein **Schwarzes Loch**: Die Portale und die Flugrouten zwischen ihnen halten großen Abstand, doch ein Schiff, das hineinfliegt, spürt erst seine Strahlung, dann seinen Sog und wird an seinem Ereignishorizont zerstört. Siehe [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md).
+- **Das Zentrum**: Alle drei äußeren Gefahrensektoren (`DS-1`, `DS-2` und `DS-3`) sind direkt mit der Zentralkarte **`DS-4`** verbunden, der gefährlichsten und lohnendsten PvP-Zone des Universums. Genau in ihrer Mitte hängt ein **Schwarzes Loch**: Die Portale und die Flugrouten zwischen ihnen halten großen Abstand, doch ein Schiff, das hineinfliegt, spürt erst seine Strahlung, dann seinen Sog und wird an seinem Ereignishorizont zerstört. Siehe [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md). Ab Saisontag 11 enthält die obere linke Ecke von `DS-4` den [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), dessen Geschütze auf jedes Schiff feuern, das sie sehen.
 
 ### Die Jump CPU {#the-jump-cpu}
 

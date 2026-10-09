@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Viaggiare sulla mappa -->
 # Viaggiare sulla mappa spaziale {#spacemap-travel}
 
@@ -30,7 +30,7 @@ L’universo comprende tre grandi settori di corporazione (Mars, Terra, Galactic
 - **x-1 (base)**: la mappa di partenza di ogni corporazione (M-1, T-1, G-1). La zona più sicura.
 - **x-2 -> x-3**: zone di espansione con alieni via via più duri.
 - **x-4 (confine)**: il passaggio verso il settore PvP e verso l’`x-3` di un’altra corporazione (l’Anello, più sotto).
-- **DS-x (settori pericolosi)**: la zona PvP centrale che collega tutte le corporazioni: da DS-1 a DS-4.
+- **DS-x (settori pericolosi)**: la zona PvP centrale che collega tutte le corporazioni: da DS-1 a DS-4. Dal giorno 11 della stagione contiene anche pulsar con escavatori giganti e il Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md)).
 
 Solo le basi hanno una stazione. È lì che si apre **Mission Control**, e la sua zona sicura si estende per 1.600 unità intorno a essa. I settori pericolosi non hanno stazioni, `DS-1` compreso: le uniche zone sicure lì sono gli anelli di 660 unità intorno alle porte di salto, e lì Mission Control non si può aprire; torna in volo alla tua base per le tue missioni.
 
@@ -79,7 +79,7 @@ Sulla mappa spaziale si viaggia attraverso le **porte di salto** (portali). La [
   L’Anello è aperto a ogni pilota, per qualunque corporazione voli: è un secondo modo di viaggiare tra le mappe delle corporazioni che non attraversa la zona PvP. Una porta dell’Anello sorge in un angolo tutto suo, lontano dalle altre porte della sua mappa, con la solita zona sicura di 660 unità attorno, e il salto funziona come a qualsiasi altra porta. Dove puoi essere attaccato dall’altra parte dipende dal tuo mondo, come ovunque: in Alpha `T-3` non è un settore PvP ma `T-4` sì, in Beta lo sono entrambi, in Gamma lo è ogni settore.
 - **Vie d’invasione (viaggi tra corporazioni)**: ci sono due modi per entrare dalle porte nel territorio di un’altra corporazione. Quello breve è l’Anello: un pilota di Mars vola da `M-4` al `T-3` di Terra attraverso la porta dell’Anello (tre salti dalla base di Mars, `M-1` → `M-2` → `M-4` → `T-3`) e prosegue verso `T-4` o `T-2`; allo stesso modo il `G-4` di Galactic porta all’`M-3` di Mars e il `T-4` di Terra al `G-3` di Galactic. Quello lungo attraversa la zona PvP: da `M-4` nel settore pericoloso `DS-1`, attraverso la porta di salto verso `DS-2` e poi nello spazio di Terra attraverso `T-4`; per raggiungere Galactic si attraversa la porta di salto verso `DS-3` e si entra attraverso `G-4`.
 - **Il triangolo dei settori pericolosi**: `DS-1`, `DS-2` e `DS-3` sono tutti collegati tra loro. Ognuno ha il portale di una corporazione (Mars in `DS-1`, Terra in `DS-2`, Galactic in `DS-3`); `DS-4` non ne ha.
-- **Il nucleo centrale**: tutti e tre i settori pericolosi esterni (`DS-1`, `DS-2` e `DS-3`) sono collegati direttamente alla mappa centrale **`DS-4`**, la zona PvP più pericolosa e ricca di ricompense dell’universo. Un **buco nero** si trova esattamente al centro: i portali e le rotte tra di essi restano ben lontani, ma una nave che vi si addentra sente prima le sue radiazioni, poi la sua attrazione, e viene distrutta al suo orizzonte degli eventi. Vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md).
+- **Il nucleo centrale**: tutti e tre i settori pericolosi esterni (`DS-1`, `DS-2` e `DS-3`) sono collegati direttamente alla mappa centrale **`DS-4`**, la zona PvP più pericolosa e ricca di ricompense dell’universo. Un **buco nero** si trova esattamente al centro: i portali e le rotte tra di essi restano ben lontani, ma una nave che vi si addentra sente prima le sue radiazioni, poi la sua attrazione, e viene distrutta al suo orizzonte degli eventi. Vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md). Dal giorno 11 della stagione l’angolo in alto a sinistra di `DS-4` contiene il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), i cui cannoni sparano a ogni nave che vedono.
 
 ### La Jump CPU {#the-jump-cpu}
 

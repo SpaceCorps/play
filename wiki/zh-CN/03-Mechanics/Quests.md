@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: 任务 -->
 # 任务 {#quests}
 
@@ -98,7 +98,7 @@
 停留和到访互不竞争：每个开放的步骤，无论你同时在做什么，都会同时计数。击杀则不同：一次击杀只计入一个等级任务（见[计数范围](#where-it-counts)）。
 
 > [!NOTE]
-> 到访和停留可以通往危险星区（中央侦察、中央守夜和固守中央都会），那里其他企业的飞行员可以攻击你。任务物品则绝不会出现在那里。
+> 到访和停留可以通往危险星区（中央侦察、中央守夜和固守中央都会），那里其他企业的飞行员可以攻击你。任务物品则绝不会出现在那里。`DS-x` 中的到访点在任何危险星区都算数：从赛季第 11 天起，靠近 `DS-4` 左上角的点，例如**四个角落**的那个角，请到 `DS-1`、`DS-2` 或 `DS-3` 去完成，因为 `DS-4` 的这个角落处在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 炮台的火力之下。
 
 ## 虫群任务 {#swarm-missions}
 
@@ -106,7 +106,7 @@
 
 - **它们从赛季第 4 天起开放**，也就是虫群出现的那一天（[30 天赛季日程](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)）。在那之前，Mission Control 会拒绝：“此任务在赛季第 4 天开放。”
 - 虫群飞船按**它们自己的名字**计数：Boss Seeker 或 Seeker Slave 不算 Seeker，Pirate Scout 也不算 Phantasm。
-- 该步骤不指定星区，因为虫群四处游荡：[Seeker 虫群](/wiki/05-Swarms/Seeker-Swarm.md)在 `x-1` 和 `x-2`，[Pirate 虫群](/wiki/05-Swarms/Pirate-Swarm.md)在 `x-2` 和 `x-3`，[Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)在危险星区。Boss Seeker 或 Pirate Boss 在被击毁 2 分钟后回来。
+- 该步骤不指定星区，因为虫群四处游荡：[Seeker 虫群](/wiki/05-Swarms/Seeker-Swarm.md)在 `x-1` 和 `x-2`，[Pirate 虫群](/wiki/05-Swarms/Pirate-Swarm.md)在 `x-2` 和 `x-3`，[Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)在危险星区。Boss Seeker 或 Pirate Boss 在被击毁 2 分钟后回来。从赛季第 11 天起，Dormant 虫群从 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 开始。
 - Dormant 任务是为一个小队准备的：每个世界有一支 Dormant 虫群，需要一群强力飞船才能击败它（[战斗过程](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)）。下一阶不需要等 **Dormant 黎明** 或 **Dormant 黄昏**（[挑战任务线](#challenge-line)）。
 - Boss Seeker 的攻击比新手飞行员的飞船能承受的更狠：开始之前，请先读一读[战斗是怎么进行的](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes)。
 
@@ -171,7 +171,7 @@
 - **你的击杀另外计酬。** 你击毁的外星人仍照常支付它们自己的信用点、Thulium 和荣誉；任务奖励是在这些之外另给的。
 - **击杀会计两次。** 一次击杀会计入每个要求它的挑战任务，**同时**也计入它所计入的那一个等级任务，所以一个千次击杀的任务绝不会饿着你的等级任务。
 - **小队。** 一次击杀会计入获得该击杀奖励的飞行员，以及残骸 **4,000 单位**范围内、最近 15 秒内用激光或火箭开过火的每名小队成员。每名飞行员各自计数。
-- **停留需要开火，中央除外。** 在 `x-3`、`x-4` 或对手企业的 `x-4` 中的停留，只在你最近 60 秒内开过火时才计数，所以停着或绕圈的飞船什么也赚不到。危险星区中的停留（**中央值守**、**边缘守夜**、**最后的守夜**）因为那里没有外星人，所以最近 30 秒内飞行了 300 单位或开过火的飞船就计数，与等级任务的停留相同。
+- **停留需要开火，中央除外。** 在 `x-3`、`x-4` 或对手企业的 `x-4` 中的停留，只在你最近 60 秒内开过火时才计数，所以停着或绕圈的飞船什么也赚不到。危险星区中的停留（**中央值守**、**边缘守夜**、**最后的守夜**）因为那里没有普通的外星人（从赛季第 11 天起苏醒的外星人见[危险星区](/wiki/01-General/Danger-Sectors.md)，不改变这条规则），所以最近 30 秒内飞行了 300 单位或开过火的飞船就计数，与等级任务的停留相同。
 
 每一阶的要求，附表格中的任务示例：
 

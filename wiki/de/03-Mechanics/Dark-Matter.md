@@ -1,17 +1,17 @@
-<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
+<!-- wiki-i18n source: b01a24b52ccba9fa -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; dunkle materie; dark matter plate; dark matter plates; plate; plates; platte; platten; dark matter socket; dark matter sockel; dark matter sockets; socket; sockets; sockel -->
 
-**Dark Matter** ist die Ressource hinter der Spitze des Technologiebaums, den beiden höchsten Stufen der Schmiede und der letzten Stufe jeder Aufwertungskette. Du kannst sie weder kaufen noch abbauen, und gewöhnliche Aliens lassen sie nicht fallen: Du **stellst sie am Schwarzen Loch (black hole) her**, indem du **N.I.K.E.**-Raketen hineinschießt, und sammelst die Kisten ein, die es zurückwirft. Eine **Dark Matter Plate** wird in der Montage aus Dark Matter gepresst, sobald du ihr Rezept erforscht hast. Diese Seite sagt, woher beides kommt, wofür es gut ist und in welcher Reihenfolge du vorgehst.
+**Dark Matter** ist die Ressource hinter der Spitze des Technologiebaums, den beiden höchsten Stufen der Schmiede und der letzten Stufe jeder Aufwertungskette. Du kannst sie weder kaufen noch abbauen, und gewöhnliche Aliens lassen sie nicht fallen: Du **stellst sie am Schwarzen Loch (black hole) her**, indem du **N.I.K.E.**-Raketen hineinschießt, und sammelst die Kisten ein, die es zurückwirft. Eine **Dark Matter Plate** wird in der Montage aus Dark Matter gepresst, sobald du ihr Rezept erforscht hast. Diese Seite sagt, woher beides kommt, wofür es gut ist und in welcher Reihenfolge du vorgehst. Ab Saisontag 11 ist Dark Matter außerdem der **Treibstoff der Riesenbagger** ([Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)), und einige Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) lassen ein wenig fallen.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 
 ## In einer Minute {#in-one-minute}
 
 - **Dark Matter ist eine Ressource und heißt überall einfach Dark Matter.** Das Schwarze Loch in der Mitte von Gefahrensektor 4 (`DS-4`) stellt es her: Jede N.I.K.E.-Rakete, die das Loch erreicht, bringt 1 bis 3 Dark Matter zurück (im Schnitt 2), in kleinen Kisten am Rand seiner Zone.
-- **Wofür es gut ist.** 83 Technologien des Forschungszentrums verlangen es, je 5 bis 40 und insgesamt 904, und die Montage presst daraus die Dark Matter Plate.
+- **Wofür es gut ist.** 83 Technologien des Forschungszentrums verlangen es, je 5 bis 40 und insgesamt 904, und die Montage presst daraus die Dark Matter Plate. Ab Saisontag 11 verbrennt auch ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) es als Treibstoff: Ein Tank sind wenige Dark Matter, und es ist verloren, wenn der Bagger zerstört wird.
 - **Im Forschungszentrum** fügst du Dark Matter aus deinem Frachtraum hinzu (bei gelandetem Schiff), bevor du auf Start drückst. Die Forschung nimmt es beim Start.
 - **Eine Dark Matter Plate ist ein anderer Gegenstand.** Erforsche zuerst ihr Rezept (die Gruppe Ressourcen im Baum: 1 Tag und 10 Dark Matter), dann stellst du sie in der Montage her, aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium.
 - **Wofür eine Plate gut ist.** Die letzte Stufe jeder Aufwertungskette verlangt **3**: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III und Base CPU II (12 Teile). Die Schmiede verlangt 2 davon, um einen Gegenstand von Göttlich auf Berstend zu heben, und 2 weitere von Berstend auf Ewig.
@@ -24,7 +24,7 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Was es ist** | Eine epische Ressource | Eine mythische Ressource |
-| **Woher es kommt** | Das Schwarze Loch in Gefahrensektor 4, für hineingeschossene N.I.K.E.-Raketen; ein wenig vom Dormant-Schwarm | Die Montage, gepresst aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium |
+| **Woher es kommt** | Das Schwarze Loch in Gefahrensektor 4, für hineingeschossene N.I.K.E.-Raketen; ein wenig vom Dormant-Schwarm und von den Inert Masses des Dormant Swamp | Die Montage, gepresst aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium |
 | **Was du zuerst tust** | Die N.I.K.E. erforschen (3 h, kein Dark Matter) und welche herstellen | Das Rezept der Plate erforschen (1 d, 10 Dark Matter) |
 | **Wofür es gut ist** | Forschungskosten (83 Technologien, insgesamt 904) und die Plate | Die letzte Stufe jeder Aufwertungskette: 3 für jedes von 12 Teilen; die Schmiede: 2 für jede ihrer beiden obersten Stufen |
 
@@ -32,7 +32,7 @@
 
 1. **Baue das Forschungszentrum und erforsche die N.I.K.E.** Das Zentrum wird bei Skylab-Kern-Level 10 freigeschaltet ([Forschung](/wiki/03-Mechanics/Research.md)). Die Technologie der N.I.K.E. dauert 3 Stunden und verlangt kein Dark Matter.
 2. **Stelle N.I.K.E.s in der Montage her.** Eine Herstellung macht in 5 Minuten 5 Raketen, für 100.000 Credits, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate und 40 Cataclysite. Du kannst 20 tragen. Siehe [Raketen](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
-3. **Fliege nach Gefahrensektor 4 (`DS-4`).** Er ist der PvP-Sektor in der Mitte der Galaxie, und das Schwarze Loch hängt in jeder Welt genau in seinem Zentrum ([Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md)). Kein Alien und kein Konzernpilot kommt in seine Nähe, andere Piloten aber schon.
+3. **Fliege nach Gefahrensektor 4 (`DS-4`).** Er ist der PvP-Sektor in der Mitte der Galaxie, und das Schwarze Loch hängt in jeder Welt genau in seinem Zentrum ([Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md)). Kein Alien und kein Konzernpilot kommt in seine Nähe, andere Piloten aber schon. Ab Saisontag 11 leben die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) in der oberen linken Ecke des Sektors, weit weg von deiner Schusslinie.
 4. **Schieße vom Rand aus auf das Schwarze Loch.** Die Strahlung beginnt 4.000 Einheiten von der Mitte. Eine N.I.K.E. fliegt 4.050 Einheiten, also kannst du von überall zwischen 4.000 und 4.380 Einheiten Entfernung feuern. Ohne gewähltes Ziel setzt du den Mauszeiger auf das Loch. Du kannst alle 4,6 Sekunden eine Rakete abfeuern. Von weiter draußen fällt sie zu kurz.
 5. **Sammle die Kisten ein.** Jede N.I.K.E., die das Loch erreicht, bringt **1, 2 oder 3 Dark Matter** zurück (zu einem Viertel 1, zur Hälfte 2, zu einem Viertel 3), in einer oder zwei Kisten mit höchstens 2. Sie landen am Rand der Zone des Lochs, 3.050 bis 3.950 Einheiten von der Mitte, nahe der Linie deines Schusses. Fliege bis auf 200 Einheiten an jede heran: Das Einsammeln dauert eine halbe Sekunde.
 6. **Bring es nach Hause.** Dark Matter kommt in dein Inventar. An der Station kannst du es bei gelandetem Schiff dem Forschungszentrum hinzufügen oder in der Montage verwenden.
@@ -44,7 +44,7 @@ Etwa **5 Raketen machen 10 Dark Matter**. Der Resource Magnet Booster fügt nich
 - **Die Kisten gehören dir 60 Sekunden lang**, und deinem Clan. Danach darf jeder auf der Karte sie nehmen, und nach 240 Sekunden verschwinden sie. Eine Karte fasst höchstens 32 Dark-Matter-Kisten, und eine neue verdrängt die älteste von ihnen.
 - **Der Rand liegt in der Strahlung.** Sie kostet dort jede Sekunde 0,3 bis 0,8 % der gesamten HP deines Schiffs, mehr, je näher du am Loch bist. Ein volles Schiff hält etwa 2 bis 5 Minuten durch; eine Minute in der Mitte des Bands kostet ein Drittel. Der Sog endet bei 3.000 Einheiten, also trägt nichts dich oder die Kisten fort.
 - **Gefahrensektor 4 ist PvP.** Ein Rivale kann auf deiner Linie warten: Eine N.I.K.E. trifft das erste Schiff, das sie berührt (67.500 bis 75.000 Schaden), und das Loch bekommt nichts. Ein Rivale kann auch auf die Kisten warten, wenn deine 60 Sekunden vorbei sind. Schieße vom Rand, sammle die Kisten in der Reihenfolge deiner Schüsse ein und bring Begleitung mit.
-- **Eine zweite, kleine Quelle.** Eine Dormant Pulse des [Dormant-Schwarms](/wiki/05-Swarms/Dormant-Swarm.md) lässt in einem von fünf Fällen 1 bis 5 Dark Matter fallen, für den Piloten, der ihr den meisten Schaden zugefügt hat. Der Schwarm braucht eine große Gruppe.
+- **Eine zweite, kleine Quelle.** Eine Dormant Pulse des [Dormant-Schwarms](/wiki/05-Swarms/Dormant-Swarm.md) lässt in einem von fünf Fällen 1 bis 5 Dark Matter fallen, für den Piloten, der ihr den meisten Schaden zugefügt hat. Der Schwarm braucht eine große Gruppe. Auch eine Inert Mass des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) lässt hin und wieder welches fallen, doch sie lebt unter den Geschützen des Sumpfs.
 
 ## Dark Matter im Forschungszentrum {#in-the-research-centre}
 
@@ -124,6 +124,7 @@ Ein erstes Upgrade aus dem Nichts ist das Rezept (10) und zwei Plates (10): 20 D
 ## Mehr dazu {#where-to-read-more}
 
 - [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#dark-matter): die Ringe, die Strahlung und die Kisten im Einzelnen.
+- [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md): die Maschine, die Dark Matter als Treibstoff verbrennt.
 - [Forschung](/wiki/03-Mechanics/Research.md): das Forschungszentrum, der Treibstoff und jede Technologie.
 - [Raketen](/wiki/06-Items/Rockets.md#the-craft-only-rockets): die N.I.K.E. und die N.U.K.E.
 - [Ressourcen](/wiki/06-Items/Resources.md#dark-matter): Dark Matter und die Dark Matter Plate unter den anderen Ressourcen.

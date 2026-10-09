@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 26f4bca5b9b9516f -->
+<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
 <!-- wiki-i18n title: 계급 -->
 # 계급 {#ranks}
 
@@ -125,6 +125,9 @@ PvE 포인트는 세 가지로 계산됩니다.
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Slumbering Void | 10 |
+| Inert Mass | 15 |
+| The Unwakened | 112 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -132,11 +135,11 @@ PvE 포인트는 세 가지로 계산됩니다.
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-처음 다섯 줄은 일반 외계인, 그다음 여섯 줄은 세 무리의 함선입니다. 마지막은 클랜 워든 전투의 리더인 워든과 그 승무원인 Brood Drone, Siege Escort, Wrath Guard입니다. I, II, III은 워든의 강도이며, 포인트는 그 순서로 적혀 있습니다.
+처음 다섯 줄은 일반 외계인, 그다음 여섯 줄은 세 무리의 함선, 그다음 세 줄은 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)의 외계인(시즌 11일차부터)입니다. 마지막은 클랜 워든 전투의 리더인 워든과 그 승무원인 Brood Drone, Siege Escort, Wrath Guard입니다. I, II, III은 워든의 강도이며, 포인트는 그 순서로 적혀 있습니다.
 
 예를 들어 레벨 4에 경험치 12,500인 파일럿이 Seeker 300마리, Phantasm 80마리, Bulwark 10마리를 격파했다면 400 + 12 + 300 + 160 + 40 = **912**포인트입니다. 이러면 중사입니다. 최소는 800이고, 다음 계급인 시니어 중사에는 1,000이 필요합니다. 시니어 대령까지는 포인트만 따집니다.
 
-**랭킹** 페이지(커뮤니티 › 랭킹)에서는 내 포인트가 어떻게 이루어지는지 볼 수 있고, 거기 있는 **명예의 전당**에는 최고의 파일럿들이 나옵니다. 그곳 PvE 포인트 옆의 **(i)**에는 다섯 종류의 외계인, 각 [무리](/wiki/05-Swarms/Swarms.md)에서 처치당 얻는 포인트(가장 작은 함선부터 보스까지), 그리고 [클랜 워든](/wiki/03-Mechanics/Clans.md#clan-wardens)이 나옵니다.
+**랭킹** 페이지(커뮤니티 › 랭킹)에서는 내 포인트가 어떻게 이루어지는지 볼 수 있고, 거기 있는 **명예의 전당**에는 최고의 파일럿들이 나옵니다. 그곳 PvE 포인트 옆의 **(i)**에는 다섯 종류의 외계인, 각 [무리](/wiki/05-Swarms/Swarms.md)에서 처치당 얻는 포인트(가장 작은 함선부터 보스까지), 같은 방식의 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 외계인 포인트, 그리고 [클랜 워든](/wiki/03-Mechanics/Clans.md#clan-wardens)이 나옵니다.
 
 ## 기호 {#the-symbols}
 

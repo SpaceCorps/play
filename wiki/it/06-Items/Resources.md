@@ -26,10 +26,10 @@ Ogni resa in questa pagina è **per abbattimento, in media**: la probabilità di
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Crystalys, missioni | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Centro ricerche |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Comune | Phantasm, Seeker, asteroidi | Penetration Amp II, Forgia, Centro ricerche |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Comune | Phantasm, Bulwark, asteroidi | Penetration Amp III, Forgia, Centro ricerche |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Comune | Crystalys, Goombah, Bulwark, asteroidi, missioni | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forgia, Centro ricerche |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Comune | Crystalys, Goombah, asteroidi | Penetration Amp IV, Forgia, Centro ricerche |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Non comune | Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Raro | Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Comune | Crystalys, Goombah, Bulwark, asteroidi, escavatore gigante, missioni | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forgia, Centro ricerche |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Comune | Crystalys, Goombah, asteroidi, escavatore gigante | Penetration Amp IV, Forgia, Centro ricerche |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Non comune | escavatore gigante, Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Raro | escavatore gigante, Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Raro | missioni, Fucina dello Skylab | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epico | missioni, Fucina dello Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epico | il buco nero (un N.I.K.E. inghiottito) | Dark Matter Plate, Centro ricerche |
@@ -330,6 +330,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% per 2 | 2 |
 
 - **Asteroidi**: si trova nei frammenti di Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (le quantità sono in [Estrazione di asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 1.157 in Alpha (di più in Beta e Gamma), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae.
 - **Missioni**: Tempesta di Bulwark (Sfida) 245; Epurazione di Crystalys (Sfida) 292; Alba dei Dormant (Sfida) 54; Legione di Goombah (Sfida) 160; Terrore dei Goombah (Sfida) 281; Terreno nemico (Sfida) 50; Custode della Linea (Sfida) 298.
 - **Altrimenti**: non si vende nel Negozio.
 
@@ -373,6 +374,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% per da 2 a 4 | 3 |
 
 - **Asteroidi**: si trova nei frammenti di Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (le quantità sono in [Estrazione di asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 514 in Alpha (di più in Beta e Gamma), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae.
 - **Altrimenti**: non si vende nel Negozio.
 
 **A cosa serve**
@@ -391,6 +393,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **Dove si ottiene**
 
+- **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 320 in ogni mondo (il minerale dello Skylab, limitato a 4 ore di un collettore di livello 20), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae. Il minerale va nel tuo carico, dove è carburante del Centro ricerche; la Fucina prende il minerale solo dal Magazzino risorse.
 - **Skylab**: lo estrae solo il Collettore Velkonite, in una tramoggia da 72 ore, poi Raccogli lo sposta nel Magazzino risorse. Gli alieni non lo rilasciano.
 
 | Livello del modulo | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@ Per costruire il collettore servono il Nucleo al livello 5, 10 Ship Fragment, 20
 
 **Dove si ottiene**
 
+- **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 160 in ogni mondo (il minerale dello Skylab, limitato a 4 ore di un collettore di livello 20), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae. Il minerale va nel tuo carico, dove è carburante del Centro ricerche; la Fucina prende il minerale solo dal Magazzino risorse.
 - **Skylab**: lo estrae solo il Collettore Orvium, in una tramoggia da 72 ore, poi Raccogli lo sposta nel Magazzino risorse. Gli alieni non lo rilasciano.
 
 | Livello del modulo | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 **Dove si ottiene**
 
 - **Il buco nero**: un razzo [N.I.K.E.](/wiki/06-Items/Rockets.md) che attraversa l’orizzonte degli eventi del buco nero al centro del Settore pericoloso 4 viene inghiottito, e il buco restituisce **1, 2 o 3** Dark Matter (2 in media) in casse da 2 al massimo sul bordo della sua zona, da 3.050 a 3.950 unità dal suo centro. Le casse sono tue, e del tuo clan, per 60 secondi e durano 240 secondi. Un N.I.K.E. che incontra una nave lungo il percorso colpisce quella nave e si esaurisce. Vedi [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) e [Il buco nero](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** del Dormant Swamp: dal giorno 11 della stagione, 5% delle sue casse contiene 1–3. Vive sotto i cannoni della palude.
 - **Altrimenti**: non si vende nel Negozio.
 
 **A cosa serve**
 
 - Dark Matter Plate: **5** (con 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), carburante: una brucia per **10** minuti di estrazione, e il serbatoio ne contiene 3
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#dark-matter), le tecnologie in cima: **10** per ciascuna di 34 di esse
 
 **Come farmare**: lancia razzi [N.I.K.E.](/wiki/06-Items/Rockets.md) nel buco nero (li produce l’Assemblaggio) e prendi le casse dal bordo della sua zona prima di chiunque altro. Il percorso completo è in [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md).
@@ -651,6 +657,7 @@ Sono i valori di una stazione alimentata: un deficit di energia ferma ogni fatto
 - **All’inizio**: l’account di un nuovo pilota contiene 100 Thulium.
 - **Alieni**: ogni abbattimento ne paga (la tabella qui sopra).
 - **[Asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)**: i frammenti di un asteroide spezzato ne pagano, fino a un limite per ogni periodo di 24 ore (su quella pagina).
+- **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 4.821 in Alpha (di più in Beta e Gamma), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae.
 - **[Missioni](/wiki/03-Mechanics/Quests.md)**: le 88 missioni pagano in tutto 51.010 Thulium ad Alpha, da 170 al livello 1 a 21.760 al livello 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: la Fattoria Thulium ne produce mentre sei via, in una tramoggia da 72 ore.
 

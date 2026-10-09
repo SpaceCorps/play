@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Les tableaux ci-dessous donnent les chiffres d’un astéroïde d’Alpha. **Coq
 
 ## Où ils se trouvent {#where-they-are}
 
-Chaque secteur d’origine des trois corporations et des secteurs dangereux a des astéroïdes, dans un mélange qui lui est propre : surtout les types de son anneau, avec un ou deux invités de l’anneau du dessus ou du dessous. Les secteurs neutres, où aucun portail ne mène, n’en ont aucun. Les astéroïdes des secteurs dangereux apparaissent à partir du jour de saison du tableau, le jour où le PvP s’ouvre ([Premier contact](/wiki/03-Mechanics/Wipe-Timeline.md)), les autres dès le premier jour. Après une destruction, un nouvel astéroïde du même type repousse après le délai de la ligne du secteur.
+Chaque secteur d’origine des trois corporations et des secteurs dangereux a des astéroïdes, dans un mélange qui lui est propre : surtout les types de son anneau, avec un ou deux invités de l’anneau du dessus ou du dessous. Les secteurs neutres, où aucun portail ne mène, n’en ont aucun. Les astéroïdes des secteurs dangereux apparaissent à partir du jour de saison du tableau, le jour où le PvP s’ouvre ([Premier contact](/wiki/03-Mechanics/Wipe-Timeline.md)), les autres dès le premier jour. Après une destruction, un nouvel astéroïde du même type repousse après le délai de la ligne du secteur. Dès le jour 11 de la saison, aucun astéroïde ne se trouve près d’un pulsar, d’une excavatrice géante ni du milieu du Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md#where-everything-is)), et une roche qui s’y trouvait quand l’événement 2 a commencé a disparu.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

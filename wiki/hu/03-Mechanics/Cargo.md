@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -37,7 +37,7 @@ A láda fényei a benne lévő legritkább tárgy színét öltik: kékeszöld a
 - Ezután a térképen **bárki** felveheti.
 - Csak a láda térképén lévő hajó veheti fel: ha megsemmisülsz, ugrasz vagy kijelentkezel útközben (vagy a felvétel fél másodpercében), a láda a többieknek marad.
 - Ha két pilóta egyszerre gyűjti ugyanazt a ládát, az kapja meg, akinek a felvétele hamarabb ér véget, pontosan egyszer; a másiknak azt mondják, hogy már nincs meg.
-- Egy láda, amelyet senki sem vesz fel, **3 perc** múlva elsodródik (az utolsó 10 másodpercében villog). Egy térképen legfeljebb 64 láda lehet; amikor egy új túllépné ezt, a legrégebbi eltűnik. Az aszteroidadarabok saját keretet kapnak a 64-en belül: egyetlen más ládát sem szorítanak ki, és egyetlen más láda sem szorít ki darabot ([a szabályok](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). A Dark Matter-ládák 4 percig élnek, és az első percben kizárólag a tieid.
+- Egy láda, amelyet senki sem vesz fel, **3 perc** múlva elsodródik (az utolsó 10 másodpercében villog). Egy térképen legfeljebb 64 láda lehet; amikor egy új túllépné ezt, a legrégebbi eltűnik. Az aszteroidadarabok saját keretet kapnak a 64-en belül: egyetlen más ládát sem szorítanak ki, és egyetlen más láda sem szorít ki darabot ([a szabályok](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). A Dark Matter-ládák 4 percig élnek, és az első percben kizárólag a tieid. Az [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) ládái attól a pillanattól szabadok mindenkinek, hogy lehullanak, tovább maradnak, mint egy közönséges láda, és saját készletük van, így sosem szorítanak ki másik ládát.
 
 ## Privát ládák {#private-boxes}
 

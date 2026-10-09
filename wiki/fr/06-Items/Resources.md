@@ -26,10 +26,10 @@ Tous les rendements de cette page sont **par élimination, en moyenne** : la pr
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Rare | Crystalys, missions | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Centre de recherche |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Commun | Phantasm, Seeker, astéroïdes | Penetration Amp II, Forge, Centre de recherche |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Commun | Phantasm, Bulwark, astéroïdes | Penetration Amp III, Forge, Centre de recherche |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Commun | Crystalys, Goombah, Bulwark, astéroïdes, missions | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forge, Centre de recherche |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Commun | Crystalys, Goombah, astéroïdes | Penetration Amp IV, Forge, Centre de recherche |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Peu commun | Collecteur du Skylab | Fonderie du Skylab, Centre de recherche |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | Collecteur du Skylab | Fonderie du Skylab, Centre de recherche |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Commun | Crystalys, Goombah, Bulwark, astéroïdes, excavatrice géante, missions | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forge, Centre de recherche |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Commun | Crystalys, Goombah, astéroïdes, excavatrice géante | Penetration Amp IV, Forge, Centre de recherche |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Peu commun | excavatrice géante, Collecteur du Skylab | Fonderie du Skylab, Centre de recherche |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Rare | excavatrice géante, Collecteur du Skylab | Fonderie du Skylab, Centre de recherche |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Rare | missions, Fonderie du Skylab | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Épique | missions, Fonderie du Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Épique | le trou noir (une N.I.K.E. engloutie) | Dark Matter Plate, Centre de recherche |
@@ -330,6 +330,7 @@ Une étape de Forge qui échoue rend 50 % de ses matériaux, arrondis à l’en
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100 % pour 2 | 2 |
 
 - **Astéroïdes** : se trouve dans les fragments de Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (les quantités sont dans [Extraction d’astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 1 157 en Alpha (davantage en Bêta et Gamma), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait.
 - **Missions** : Tempête de Bulwarks (Défi) 245; Purge des Crystalys (Défi) 292; Aube des Dormants (Défi) 54; Légion de Goombahs (Défi) 160; Terreur des Goombahs (Défi) 281; Terre ennemie (Défi) 50; Gardien de la Ligne (Défi) 298.
 - **Sinon** : pas en vente à la boutique.
 
@@ -373,6 +374,7 @@ Une étape de Forge qui échoue rend 50 % de ses matériaux, arrondis à l’en
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100 % pour 2 à 4 | 3 |
 
 - **Astéroïdes** : se trouve dans les fragments de Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (les quantités sont dans [Extraction d’astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 514 en Alpha (davantage en Bêta et Gamma), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait.
 - **Sinon** : pas en vente à la boutique.
 
 **Utilité**
@@ -391,6 +393,7 @@ Une étape de Forge qui échoue rend 50 % de ses matériaux, arrondis à l’en
 
 **Comment l’obtenir**
 
+- **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 320 dans tous les mondes (le minerai du Skylab, plafonné à 4 heures d’un collecteur de niveau 20), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait. Le minerai va dans votre cargaison, où il sert de carburant au Centre de recherche ; la Fonderie ne prend son minerai que dans l’Entrepôt de ressources.
 - **Skylab** : seul le Collecteur de Velkonite l’extrait, dans un réservoir de 72 heures, puis Récupérer le déplace vers l’Entrepôt de ressources. Les aliens n’en lâchent pas.
 
 | Niveau du module | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@ Construire le collecteur exige le Noyau au niveau 5, 10 Ship Fragments, 20 000 
 
 **Comment l’obtenir**
 
+- **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 160 dans tous les mondes (le minerai du Skylab, plafonné à 4 heures d’un collecteur de niveau 20), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait. Le minerai va dans votre cargaison, où il sert de carburant au Centre de recherche ; la Fonderie ne prend son minerai que dans l’Entrepôt de ressources.
 - **Skylab** : seul le Collecteur d’Orvium l’extrait, dans un réservoir de 72 heures, puis Récupérer le déplace vers l’Entrepôt de ressources. Les aliens n’en lâchent pas.
 
 | Niveau du module | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 **Comment l’obtenir**
 
 - **Le trou noir** : une roquette [N.I.K.E.](/wiki/06-Items/Rockets.md) qui franchit l’horizon des événements du trou noir, au centre du Secteur dangereux 4, est engloutie, et le trou rend **1, 2 ou 3** Dark Matter (2 en moyenne) dans des caisses de 2 au plus, au bord de sa zone, entre 3 050 et 3 950 unités de son centre. Les caisses sont à vous et à votre clan pendant 60 secondes et durent 240 secondes. Une N.I.K.E. qui rencontre un vaisseau en chemin le touche à la place et est consumée. Voir [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) et [Le trou noir](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** du Dormant Swamp : dès le jour 11 de la saison, 5 % de ses caisses contiennent 1–3. Elle vit sous les canons du marais.
 - **Sinon** : pas en vente à la boutique.
 
 **Utilité**
 
 - Dark Matter Plate: **5** (avec 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), carburant : une brûle **10** minutes d’extraction, et le réservoir en contient 3
 - [Centre de recherche](/wiki/03-Mechanics/Research.md#dark-matter), les technologies du haut : **10** pour chacune de 34 d’entre elles
 
 **Comment en tirer le plus** : tirez des roquettes [N.I.K.E.](/wiki/06-Items/Rockets.md) dans le trou noir (l’Assemblage les fabrique) et récupérez les caisses au bord de sa zone avant tout le monde. Le chemin complet est dans [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
@@ -651,6 +657,7 @@ Ce sont les taux d’une station alimentée en énergie : un déficit d’éner
 - **Au départ** : le compte d’un nouveau pilote contient 100 Thulium.
 - **Aliens** : chaque élimination en rapporte (le tableau ci-dessus).
 - **[Astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** : les fragments d’un astéroïde brisé en rapportent, jusqu’à une limite par tranche de 24 heures (sur cette page).
+- **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 4 821 en Alpha (davantage en Bêta et Gamma), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait.
 - **[Missions](/wiki/03-Mechanics/Quests.md)** : les 88 missions rapportent 51 010 Thulium en tout à Alpha, de 170 au niveau 1 à 21 760 au niveau 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** : la Ferme à Thulium en produit pendant votre absence, dans un réservoir de 72 heures.
 

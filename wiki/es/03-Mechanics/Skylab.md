@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 
 ## La cadena de suministro {#the-supply-chain}
 
-Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/06-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende.
+Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/06-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende. (Una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también suelta algo de Velkonite y Orvium en cajas, pero ese mineral va a tu carga, donde es combustible del Centro de investigación, y la Forja no lo toma.)
 
 1. Un **colector** extrae mineral, una cantidad por hora, en su propia tolva (72 horas de producción).
 2. **Recoger** pasa el mineral de la tolva al **Almacén de recursos**, la reserva, donde cada mineral se guarda por separado.

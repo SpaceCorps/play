@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -37,7 +37,7 @@ Las luces de la caja toman el color del objeto más raro que contiene: turquesa 
 - Pasado ese tiempo, **cualquiera** que esté en el mapa puede tomarla.
 - Solo puede tomarla una nave que esté en el mapa de la caja: si te destruyen, saltas o te desconectas por el camino (o durante el medio segundo que dura la recogida), la caja se queda para los demás.
 - Si dos pilotos recogen la misma caja a la vez, se la lleva aquel cuya recogida termina primero, una sola vez; al otro se le avisa de que ya no está.
-- Una caja que nadie toma se aleja a la deriva a los **3 minutos** (parpadea en sus últimos 10 segundos). Un mapa admite como máximo 64 cajas; cuando una nueva superaría ese número, desaparece la más antigua. Los fragmentos de asteroide tienen un grupo propio dentro de las 64: no expulsan ninguna otra caja, y ninguna otra caja expulsa un fragmento ([las reglas](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Las cajas de Dark Matter duran 4 minutos y son solo tuyas durante el primer minuto.
+- Una caja que nadie toma se aleja a la deriva a los **3 minutos** (parpadea en sus últimos 10 segundos). Un mapa admite como máximo 64 cajas; cuando una nueva superaría ese número, desaparece la más antigua. Los fragmentos de asteroide tienen un grupo propio dentro de las 64: no expulsan ninguna otra caja, y ninguna otra caja expulsa un fragmento ([las reglas](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Las cajas de Dark Matter duran 4 minutos y son solo tuyas durante el primer minuto. Las cajas de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) son libres para cualquiera desde el momento en que caen, duran más que una caja normal y tienen un grupo propio, así que nunca expulsan a otra caja.
 
 ## Cajas privadas {#private-boxes}
 

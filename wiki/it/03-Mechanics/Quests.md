@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
@@ -98,7 +98,7 @@ Ce ne sono due tipi. Una permanenza che **si somma** conserva quello che hai: es
 Le permanenze e le visite non competono: ognuna aperta conta subito, qualunque altra cosa tu stia facendo. Gli abbattimenti sono diversi: un abbattimento conta per una sola missione di livello (vedi [Dove conta](#where-it-counts)).
 
 > [!NOTE]
-> Le visite e le permanenze possono portare nei settori pericolosi (Ricognizione del centro, Veglia del centro e Tenere il centro lo fanno), dove i piloti di altre corporazioni possono attaccarti. Gli oggetti della missione mai.
+> Le visite e le permanenze possono portare nei settori pericolosi (Ricognizione del centro, Veglia del centro e Tenere il centro lo fanno), dove i piloti di altre corporazioni possono attaccarti. Gli oggetti della missione mai. Un punto di visita in `DS-x` vale in qualsiasi settore pericoloso: dal giorno 11 della stagione fai i punti vicini all’angolo in alto a sinistra di `DS-4`, come l’angolo di **Quattro angoli**, in `DS-1`, `DS-2` o `DS-3`, perché quell’angolo di `DS-4` è sotto il tiro dei cannoni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 
 ## Missioni dello sciame {#swarm-missions}
 
@@ -106,7 +106,7 @@ Tredici missioni chiedono le navi degli [sciami](/wiki/05-Swarms/Swarms.md). Due
 
 - **Si aprono il giorno 4 della stagione**, il giorno in cui compaiono gli sciami ([calendario di 30 giorni](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Prima, Mission Control le rifiuta con “Questa missione si apre il giorno 4 della stagione”.
 - Una nave dello sciame conta con **il proprio nome**: un Boss Seeker o un Seeker Slave non è un Seeker, un Pirate Scout non è un Phantasm.
-- Il passaggio non indica nessun settore, perché gli sciami si spostano: lo [Sciame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` e `x-2`, lo [Sciame Pirate](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` e `x-3`, lo [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) nei settori pericolosi. Un Boss Seeker o un Pirate Boss torna 2 minuti dopo essere caduto.
+- Il passaggio non indica nessun settore, perché gli sciami si spostano: lo [Sciame Seeker](/wiki/05-Swarms/Seeker-Swarm.md) in `x-1` e `x-2`, lo [Sciame Pirate](/wiki/05-Swarms/Pirate-Swarm.md) in `x-2` e `x-3`, lo [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) nei settori pericolosi. Un Boss Seeker o un Pirate Boss torna 2 minuti dopo essere caduto. Dal giorno 11 della stagione lo Sciame Dormant parte dal [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - Le missioni Dormant sono per un equipaggio: c’è uno Sciame Dormant in ogni mondo, e lo abbatte un gruppo di navi forti ([come va lo scontro](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). La fascia successiva non aspetta **Alba dei Dormant** né **Tramonto dei Dormant** ([la linea delle Sfide](#challenge-line)).
 - Un Boss Seeker colpisce più forte di quanto la nave di un pilota nuovo possa sopportare: leggi [come va lo scontro](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes) prima di cominciare.
 
@@ -171,7 +171,7 @@ Dal **livello pilota 3**, la scheda **Sfide** di Mission Control apre una second
 - **I tuoi abbattimenti pagano in più.** Gli alieni che distruggi pagano ancora i loro crediti, il loro Thulium e il loro onore come sempre; la ricompensa si aggiunge a questo.
 - **Gli abbattimenti contano due volte.** Un abbattimento conta per ogni Sfida che lo chiede **e** per la missione di livello per cui conta, così una missione da mille abbattimenti non affama mai le tue missioni di livello.
 - **Gruppi.** Un abbattimento conta per il pilota che ne viene pagato e per ogni compagno di gruppo entro **4.000 unità** dal relitto che abbia sparato con un laser o un razzo negli ultimi 15 secondi. Ogni pilota tiene il proprio conteggio.
-- **Le permanenze richiedono colpi, tranne al centro.** Una permanenza in `x-3`, in `x-4` o nella `x-4` di un rivale conta solo finché hai sparato un colpo negli ultimi 60 secondi, quindi una nave parcheggiata o che gira in tondo non guadagna nulla. Le permanenze nei settori pericolosi (**Veglia del centro**, **Veglia sul bordo**, **Ultima veglia**), dove non vive nessun alieno, contano per una nave che ha percorso 300 unità o sparato negli ultimi 30 secondi, come quelle delle missioni di livello.
+- **Le permanenze richiedono colpi, tranne al centro.** Una permanenza in `x-3`, in `x-4` o nella `x-4` di un rivale conta solo finché hai sparato un colpo negli ultimi 60 secondi, quindi una nave parcheggiata o che gira in tondo non guadagna nulla. Le permanenze nei settori pericolosi (**Veglia del centro**, **Veglia sul bordo**, **Ultima veglia**), dove non vive nessun alieno ordinario (gli alieni che si risvegliano dal giorno 11 della stagione, vedi [Settori pericolosi](/wiki/01-General/Danger-Sectors.md), non cambiano la regola), contano per una nave che ha percorso 300 unità o sparato negli ultimi 30 secondi, come quelle delle missioni di livello.
 
 Che cosa chiede ogni fascia, con missioni dalle tabelle:
 

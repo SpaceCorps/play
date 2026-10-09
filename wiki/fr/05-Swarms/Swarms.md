@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -20,14 +20,14 @@ Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son pr
 | Essaim | Où | Combien | Meneur | Suivants | Revient |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Essaim Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Les secteurs `x-2` et `x-3` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Pirate Boss** | Jusqu’à 5 × Pirate Scout, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
-| [**Essaim Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`, `DS-4`, qu’il parcourt de l’un à l’autre | Un dans chaque monde | **Dormant Force** | 2 × Dormant Pulse, qui volent avec le meneur | 1 h après la destruction de tout l’essaim, dans un secteur dangereux tiré au hasard |
+| [**Essaim Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`, `DS-4`, qu’il parcourt de l’un à l’autre | Un dans chaque monde | **Dormant Force** | 2 × Dormant Pulse, qui volent avec le meneur | 1 h après la destruction de tout l’essaim, dans un secteur dangereux tiré au hasard. Dès le jour 11 de la saison : 30 min, au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et chaque vaisseau paie ×2 |
 | [**Essaim Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Les secteurs `x-1` et `x-2` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Seeker** | Jusqu’à 4 × Seeker Slave, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
 
 <!-- swarms-list:end -->
 
 ## Quand et où {#when-and-where}
 
-Les essaims commencent à apparaître au **Premier contact** et restent jusqu’à la réinitialisation (voir la [Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md) ; le jour est la première ligne des règles ci-dessous). **Chaque monde a ses propres essaims**, aux mêmes endroits : le Pirate Boss d’Alpha et celui de Beta sont deux vaisseaux différents, et un essaim que vous détruisez dans votre monde n’est pas détruit dans un autre. Un essaim détruit revient après le délai du tableau ci-dessus.
+Les essaims commencent à apparaître au **Premier contact** et restent jusqu’à la réinitialisation (voir la [Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md) ; le jour est la première ligne des règles ci-dessous). **Chaque monde a ses propres essaims**, aux mêmes endroits : le Pirate Boss d’Alpha et celui de Beta sont deux vaisseaux différents, et un essaim que vous détruisez dans votre monde n’est pas détruit dans un autre. Un essaim détruit revient après le délai du tableau ci-dessus. L’Essaim Dormant change au jour 11 de la saison (événement 2) : il apparaît au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), revient plus tôt et paie le double.
 
 ## Les règles de chaque essaim {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Un alien ordinaire paie le pilote qui l’a touché en premier ([Combat](/wiki/0
 - **La caisse de cargaison va au pilote qui a infligé le plus de dégâts.** Elle est à lui (et à son clan) pendant 30 secondes, comme pour tout alien, puis n’importe qui peut la prendre ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Chaque vaisseau Dormant a son propre décompte de dégâts et sa propre caisse.
 - **Les suivants paient comme d’habitude** : les Pirate Scouts et les Seeker Slaves paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
 - **Le gain d’un boss est fait pour battre les aliens qui l’entourent.** Une minute de combat contre un Pirate Boss paie plus qu’une minute de combat contre un Goombah, et l’essaim Dormant paie plus encore ; le Boss Seeker paie exactement dix Seekers.
+- **Les aliens du Dormant Swamp** (le Slumbering Void, l’Inert Mass et l’Unwakened) sont payés comme un boss, selon les dégâts, et ajoutent des points PvE à votre classement ; leurs chiffres sont dans [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Chaque élimination est comptée sous le nom propre du vaisseau dans vos statistiques d’éliminations et ajoute des points PvE à votre classement :
 

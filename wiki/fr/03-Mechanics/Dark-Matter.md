@@ -1,17 +1,17 @@
-<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
+<!-- wiki-i18n source: b01a24b52ccba9fa -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; matiere noire; dark matter plate; dark matter plates; plate; plates; plaque; plaques; dark matter socket; dark matter sockets; socket; sockets; emplacement; emplacement de dark matter -->
 
-La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre des technologies, les deux plus hauts paliers de la Forge et le dernier palier de chaque chaîne d’amélioration. On ne peut ni l’acheter, ni la miner, ni la prendre sur les aliens ordinaires : vous la **fabriquez au trou noir (black hole)** en y tirant des roquettes **N.I.K.E.**, puis vous ramassez les caisses qu’il vous renvoie. Une **Dark Matter Plate** est pressée à l’Assemblage à partir de Dark Matter, une fois sa recette recherchée. Cette page dit d’où vient chacune, à quoi elle sert et dans quel ordre procéder.
+La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre des technologies, les deux plus hauts paliers de la Forge et le dernier palier de chaque chaîne d’amélioration. On ne peut ni l’acheter, ni la miner, ni la prendre sur les aliens ordinaires : vous la **fabriquez au trou noir (black hole)** en y tirant des roquettes **N.I.K.E.**, puis vous ramassez les caisses qu’il vous renvoie. Une **Dark Matter Plate** est pressée à l’Assemblage à partir de Dark Matter, une fois sa recette recherchée. Cette page dit d’où vient chacune, à quoi elle sert et dans quel ordre procéder. Dès le jour 11 de la saison, la Dark Matter est aussi le **carburant des excavatrices géantes** ([Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)), et quelques aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en lâchent un peu.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 
 ## En une minute {#in-one-minute}
 
 - **La Dark Matter est une ressource, et elle s’appelle simplement Dark Matter partout.** Le trou noir au centre du Secteur dangereux 4 (`DS-4`) la fabrique : chaque roquette N.I.K.E. qui atteint le trou rend de 1 à 3 Dark Matter (2 en moyenne), dans de petites caisses au bord de sa zone.
-- **À quoi elle sert.** 83 technologies du Centre de recherche en demandent, de 5 à 40 chacune et 904 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate.
+- **À quoi elle sert.** 83 technologies du Centre de recherche en demandent, de 5 à 40 chacune et 904 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite.
 - **Dans le Centre de recherche**, vous ajoutez de la Dark Matter depuis votre soute (vaisseau posé) avant d’appuyer sur Lancer. La recherche la prend à son début.
 - **Une Dark Matter Plate est un autre objet.** Recherchez d’abord sa recette (le groupe Ressources de l’arbre : 1 jour et 10 Dark Matter), puis fabriquez-la à l’Assemblage avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium.
 - **À quoi sert une plate.** Le dernier palier de chaque chaîne d’amélioration en demande **3** : les amps, cellules de bouclier et propulseurs du palier IV, le Heavy Shield Core, l’Engine III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II (12 pièces). La Forge en demande 2 pour faire passer un objet de Divin à Fracturant, et 2 de plus de Fracturant à Éternel.
@@ -24,7 +24,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Ce que c’est** | Une ressource Épique | Une ressource Mythique |
-| **D’où elle vient** | Le trou noir du Secteur dangereux 4, pour les roquettes N.I.K.E. qu’on y tire ; un peu de l’Essaim Dormant | L’Assemblage, pressée avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium |
+| **D’où elle vient** | Le trou noir du secteur dangereux 4, pour les roquettes N.I.K.E. tirées dedans ; un peu de l’Essaim Dormant et des Inert Masses du Dormant Swamp | L’Assemblage, pressée avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium |
 | **Ce qu’on fait d’abord** | Rechercher la N.I.K.E. (3 h, sans Dark Matter) et en fabriquer | Rechercher la recette de la plate (1 j, 10 Dark Matter) |
 | **À quoi elle sert** | Les coûts de recherche (83 technologies, 904 en tout) et la plate | Le dernier palier de chaque chaîne d’amélioration : 3 pour chacune des 12 pièces ; la Forge : 2 pour chacun de ses deux paliers les plus hauts |
 
@@ -32,7 +32,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 
 1. **Construisez le Centre de recherche et recherchez la N.I.K.E.** Le Centre s’ouvre au niveau 10 du Noyau du Skylab ([Recherche](/wiki/03-Mechanics/Research.md)). La technologie de la N.I.K.E. prend 3 heures et ne demande pas de Dark Matter.
 2. **Fabriquez des N.I.K.E. à l’Assemblage.** Une fabrication donne 5 roquettes en 5 minutes pour 100 000 crédits, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate et 40 Cataclysite. Vous pouvez en porter 20. Voir [Roquettes](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
-3. **Volez jusqu’au Secteur dangereux 4 (`DS-4`).** C’est le secteur PvP au milieu de la galaxie, et le trou noir y flotte à son centre exact dans chaque monde ([Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Aucun alien ni pilote de corporation ne s’en approche, mais d’autres pilotes, si.
+3. **Volez jusqu’au Secteur dangereux 4 (`DS-4`).** C’est le secteur PvP au milieu de la galaxie, et le trou noir y flotte à son centre exact dans chaque monde ([Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Aucun alien ni pilote de corporation ne s’en approche, mais d’autres pilotes, si. Dès le jour 11 de la saison, les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) vivent dans le coin supérieur gauche du secteur, loin de votre ligne de tir.
 4. **Tirez sur le trou noir depuis son bord.** La radiation commence à 4 000 unités du centre. Une N.I.K.E. vole 4 050 unités, vous pouvez donc tirer de n’importe où entre 4 000 et 4 380 unités. Sans cible sélectionnée, placez le curseur sur le trou. Vous pouvez tirer une roquette toutes les 4,6 secondes. De plus loin, elle tombe trop court.
 5. **Ramassez les caisses.** Chaque N.I.K.E. qui atteint le trou rend **1, 2 ou 3 Dark Matter** (1 une fois sur quatre, 2 une fois sur deux, 3 une fois sur quatre), dans une ou deux caisses de 2 au plus. Elles tombent au bord de la zone du trou, entre 3 050 et 3 950 unités du centre, près de la ligne de votre tir. Approchez-vous à moins de 200 unités de chacune : le ramassage dure une demi-seconde.
 6. **Rapportez-la.** La Dark Matter va dans votre inventaire. À la station, vaisseau posé, vous pouvez l’ajouter au Centre de recherche ou l’utiliser à l’Assemblage.
@@ -44,7 +44,7 @@ Environ **5 roquettes font 10 Dark Matter**. Le Resource Magnet Booster n’y aj
 - **Les caisses sont à vous pendant 60 secondes**, et à votre clan. Ensuite, n’importe qui sur la carte peut les prendre, et elles disparaissent au bout de 240 secondes. Une carte contient au plus 32 caisses de Dark Matter, et une nouvelle chasse la plus ancienne d’entre elles.
 - **Le bord est dans la radiation.** Elle y coûte de 0,3 à 0,8 % des PV totaux de votre vaisseau chaque seconde, davantage près du trou. Un vaisseau plein y tient environ 2 à 5 minutes ; une minute au milieu de la bande en coûte un tiers. L’attraction s’arrête à 3 000 unités, rien ne vous emporte donc, ni vous ni les caisses.
 - **Le Secteur dangereux 4 est PvP.** Un rival peut attendre sur votre ligne : une N.I.K.E. frappe le premier vaisseau qu’elle touche (67 500 à 75 000 de dégâts) et le trou n’a rien. Un rival peut aussi attendre les caisses une fois vos 60 secondes écoulées. Tirez depuis le bord, ramassez les caisses dans l’ordre de vos tirs et venez accompagné.
-- **Une seconde source, petite.** Une Dormant Pulse de l’[Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) laisse de 1 à 5 Dark Matter une fois sur cinq, pour le pilote qui lui a fait le plus de dégâts. L’essaim demande un grand groupe.
+- **Une seconde source, petite.** Une Dormant Pulse de l’[Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) laisse de 1 à 5 Dark Matter une fois sur cinq, pour le pilote qui lui a fait le plus de dégâts. L’essaim demande un grand groupe. Une Inert Mass du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en lâche aussi de temps en temps, mais elle vit sous les canons du marais.
 
 ## La Dark Matter dans le Centre de recherche {#in-the-research-centre}
 
@@ -124,6 +124,7 @@ Une première amélioration à partir de rien, c’est la recette (10) et deux p
 ## Pour en savoir plus {#where-to-read-more}
 
 - [Le trou noir](/wiki/03-Mechanics/Black-Hole.md#dark-matter) : les anneaux, la radiation et les caisses en détail.
+- [Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) : la machine qui brûle de la Dark Matter comme carburant.
 - [Recherche](/wiki/03-Mechanics/Research.md) : le Centre de recherche, le carburant et chaque technologie.
 - [Roquettes](/wiki/06-Items/Rockets.md#the-craft-only-rockets) : la N.I.K.E. et la N.U.K.E.
 - [Ressources](/wiki/06-Items/Resources.md#dark-matter) : la Dark Matter et la Dark Matter Plate parmi les autres ressources.

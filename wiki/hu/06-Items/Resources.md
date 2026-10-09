@@ -26,10 +26,10 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Ritka | Crystalys, küldetések | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Kutatóközpont |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Gyakori | Phantasm, Seeker, aszteroidák | Penetration Amp II, Kovácsműhely, Kutatóközpont |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Gyakori | Phantasm, Bulwark, aszteroidák | Penetration Amp III, Kovácsműhely, Kutatóközpont |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Gyakori | Crystalys, Goombah, Bulwark, aszteroidák, küldetések | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Kovácsműhely, Kutatóközpont |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Gyakori | Crystalys, Goombah, aszteroidák | Penetration Amp IV, Kovácsműhely, Kutatóközpont |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Szokatlan | Skylab-gyűjtő | Skylab-kovácsműhely, Kutatóközpont |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Ritka | Skylab-gyűjtő | Skylab-kovácsműhely, Kutatóközpont |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Gyakori | Crystalys, Goombah, Bulwark, aszteroidák, óriás kotrógép, küldetések | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Kovácsműhely, Kutatóközpont |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Gyakori | Crystalys, Goombah, aszteroidák, óriás kotrógép | Penetration Amp IV, Kovácsműhely, Kutatóközpont |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Szokatlan | óriás kotrógép, Skylab-gyűjtő | Skylab-kovácsműhely, Kutatóközpont |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Ritka | óriás kotrógép, Skylab-gyűjtő | Skylab-kovácsműhely, Kutatóközpont |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Ritka | küldetések, Skylab-kovácsműhely | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epikus | küldetések, Skylab-kovácsműhely | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epikus | a feketelyuk (egy elnyelt N.I.K.E.) | Dark Matter Plate, Kutatóközpont |
@@ -330,6 +330,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% eséllyel 2 db | 2 |
 
 - **Aszteroidák**: ezeknek a darabjaiban van: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (a mennyiségek az [Aszteroidabányászat](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) oldalon vannak).
+- **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 1 157 egységet ad belőle Alphában (Betában és Gammában többet), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon.
 - **Küldetések**: Bulwark-vihar (Kihívás) 245; Crystalys-tisztogatás (Kihívás) 292; Dormant-hajnal (Kihívás) 54; Goombah-légió (Kihívás) 160; Goombah-ostor (Kihívás) 281; Ellenséges terep (Kihívás) 50; A Vonal őre (Kihívás) 298.
 - **Egyébként**: a Boltban nem kapható.
 
@@ -373,6 +374,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% eséllyel 2–4 db | 3 |
 
 - **Aszteroidák**: ezeknek a darabjaiban van: Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (a mennyiségek az [Aszteroidabányászat](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) oldalon vannak).
+- **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 514 egységet ad belőle Alphában (Betában és Gammában többet), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon.
 - **Egyébként**: a Boltban nem kapható.
 
 **Mire jó**
@@ -391,6 +393,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 
 **Így szerezheted meg**
 
+- **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 320 egységet ad belőle minden világban (a Skylab ércéből, egy 20. szintű gyűjtő 4 órájára korlátozva), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon. Az érc a rakományodba kerül, ahol a Kutatóközpont üzemanyaga; a kovácsműhely csak az Erőforrás-raktárból vesz ércet.
 - **Skylab**: kizárólag a gyűjtő bányássza (Velkonite-gyűjtő) egy 72 órányi termelésre elegendő tárolóba, majd a begyűjtés áthelyezi az ércet a raktárba (Erőforrás-raktár). Az idegenek nem dobják.
 
 | Modul szintje | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@ A gyűjtő megépítéséhez 5. szintű Mag, 10 Ship Fragment, 20 000 kredit é
 
 **Így szerezheted meg**
 
+- **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 160 egységet ad belőle minden világban (a Skylab ércéből, egy 20. szintű gyűjtő 4 órájára korlátozva), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon. Az érc a rakományodba kerül, ahol a Kutatóközpont üzemanyaga; a kovácsműhely csak az Erőforrás-raktárból vesz ércet.
 - **Skylab**: kizárólag a gyűjtő bányássza (Orvium-gyűjtő) egy 72 órányi termelésre elegendő tárolóba, majd a begyűjtés áthelyezi az ércet a raktárba (Erőforrás-raktár). Az idegenek nem dobják.
 
 | Modul szintje | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 **Így szerezheted meg**
 
 - **A feketelyuk**: a Veszélyes szektor 4 közepén lévő feketelyuk eseményhorizontját átlépő [N.I.K.E.](/wiki/06-Items/Rockets.md) rakétát a lyuk elnyeli, és **1, 2 vagy 3** Dark Mattert ad vissza (átlagosan 2) a zónája peremén lévő ládákban, amelyek egyenként legfeljebb 2 Dark Mattert tartalmaznak, a középponttól 3 050–3 950 egységre. A ládák 60 másodpercig a tieid és a klánodé, és 240 másodpercig maradnak meg. Az a N.I.K.E., amely útközben hajóval találkozik, ehelyett azt találja el, és elhasználódik. Lásd: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) és [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- A Dormant Swamp **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**-e: a szezon 11. napjától ládáinak 5% része tartalmaz 1–3 egységet. A mocsár lövegei alatt él.
 - **Egyébként**: a Boltban nem kapható.
 
 **Mire jó**
 
 - Dark Matter Plate: **5** (emellett: 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md), üzemanyag: egy **10** percnyi bányászatig ég, és a tartály 3 egységet fogad be
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#dark-matter), a legfelső technológiák: **10** 34 technológia mindegyikéhez
 
 **Így farmolhatod**: lőj [N.I.K.E.](/wiki/06-Items/Rockets.md) rakétákat a feketelyukba (a Gyártás készíti őket), és vedd fel a ládákat a zónája pereméről, mielőtt bárki más megtenné. A teljes utat a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) írja le.
@@ -651,6 +657,7 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 - **Kezdetkor**: egy új pilóta számláján 100 Thulium van.
 - **Idegenek**: minden kilövés fizet belőle (lásd a fenti táblázatot).
 - **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik, 24 óránként egy korlátig (azon az oldalon).
+- **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 4 821 egységet ad belőle Alphában (Betában és Gammában többet), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon.
 - **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 88 küldetés összesen 51 010 Thuliumot fizet az Alphában, szintenként 170 Thuliumtól (1. szint) 21 760 Thuliumig (8. szint).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: amíg távol vagy, a farm (Thuliumfarm) termeli egy 72 órányi termelésre elegendő tárolóba.
 

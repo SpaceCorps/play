@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6ad05a3dc7e0e2f6 -->
+<!-- wiki-i18n source: 1b81da9c3cf72282 -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Az univerzum három fő vállalati szektorból (Mars, Terra, Galactic) és egy k
 - **x-1 (Otthoni bázis)**: Minden vállalat kezdőtérképe (M-1, T-1, G-1). A legbiztonságosabb zóna.
 - **x-2 -> x-3**: Terjeszkedési zónák egyre erősebb idegenekkel.
 - **x-4 (Határ)**: A PvP-szektor kapuja, és egy másik vállalat `x-3` szektoráé is (a Gyűrű, lásd lent).
-- **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4.
+- **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4. A szezon 11. napjától pulzárokat is tartalmaz óriás kotrógépekkel, és a Dormant Swamp-ot ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md)).
 
 Csak az otthoni bázisokon van állomás. Itt nyílik meg a **Mission Control**, az állomás biztonságos zónája pedig 1 600 egységnyire terjed ki körülötte. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza a bázisodra.
 
@@ -79,7 +79,7 @@ Az űrtérképen az utazás **ugrókapukon** (portálokon) át zajlik. A [Jump C
   A Gyűrű minden pilóta előtt nyitva áll, bármelyik vállalatnál repüljön is: ez egy második út a vállalatok térképei között, amely nem halad át a PvP-zónán. A gyűrűkapu a térképének egy külön sarkában áll, távol a térkép többi kapujától, körülötte a szokásos 660 egység sugarú biztonságos zónával, az ugrás pedig úgy működik, mint bármelyik kapunál. Hogy a túloldalon hol támadhatnak meg, az – mint mindenhol – a világodtól függ: az Alphában a `T-3` nem PvP-szektor, a `T-4` viszont az, a Betában mindkettő az, a Gammában minden szektor az.
 - **Inváziós útvonalak (vállalatok közötti utazás)**: Egy másik vállalat területére a kapukon át két út vezet. A rövid a Gyűrű: a Mars vállalat pilótája az `M-4` szektorból a gyűrűkapun át a Terra `T-3` szektorába repül (három ugrás a Mars bázisától, `M-1` → `M-2` → `M-4` → `T-3`), onnan tovább a `T-4` vagy a `T-2` felé; a Galactic `G-4` szektora ugyanígy a Mars `M-3` szektorába vezet, a Terra `T-4` szektora pedig a Galactic `G-3` szektorába. A hosszú a PvP-zónán át vezet: az `M-4` szektorból a `DS-1` veszélyes szektorba, az ugrókapun át a `DS-2` szektorba, majd a `T-4` szektoron át a Terra területére; a Galactic területére a `DS-3` szektorba vezető ugrókapun át, majd a `G-4` szektoron keresztül jut be.
 - **A veszélyes szektorok háromszöge**: A `DS-1`, a `DS-2` és a `DS-3` szektor mind összeköttetésben áll egymással. Mindegyikben van egy vállalat kapuja (a Mars vállalaté a `DS-1` szektorban, a Terra vállalaté a `DS-2` szektorban, a Galactic vállalaté a `DS-3` szektorban); a `DS-4` szektornak egy sincs.
-- **A központi mag**: Mindhárom külső veszélyes szektor (`DS-1`, `DS-2` és `DS-3`) közvetlenül a központi **`DS-4`** térképhez kapcsolódik, amely az univerzum legveszélyesebb és legjobban jutalmazó PvP-zónája. Pontosan a közepén egy **feketelyuk** lebeg: a portálok és a köztük futó útvonalak jó messze maradnak tőle, de az a hajó, amely beröpül, először a sugárzását, majd a vonzását érzi, az eseményhorizontján pedig megsemmisül. Lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md).
+- **A központi mag**: Mindhárom külső veszélyes szektor (`DS-1`, `DS-2` és `DS-3`) közvetlenül a központi **`DS-4`** térképhez kapcsolódik, amely az univerzum legveszélyesebb és legjobban jutalmazó PvP-zónája. Pontosan a közepén egy **feketelyuk** lebeg: a portálok és a köztük futó útvonalak jó messze maradnak tőle, de az a hajó, amely beröpül, először a sugárzását, majd a vonzását érzi, az eseményhorizontján pedig megsemmisül. Lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md). A szezon 11. napjától a `DS-4` bal felső sarkában a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) áll, amelynek lövegei minden hajóra tüzelnek, amit látnak.
 
 ### A Jump CPU {#the-jump-cpu}
 

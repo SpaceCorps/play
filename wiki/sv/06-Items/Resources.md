@@ -26,10 +26,10 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Sällsynt | Crystalys, uppdrag | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Forskningscentrum |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Vanlig | Phantasm, Seeker, asteroider | Penetration Amp II, Smedjan, Forskningscentrum |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Vanlig | Phantasm, Bulwark, asteroider | Penetration Amp III, Smedjan, Forskningscentrum |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Vanlig | Crystalys, Goombah, Bulwark, asteroider, uppdrag | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Smedjan, Forskningscentrum |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Vanlig | Crystalys, Goombah, asteroider | Penetration Amp IV, Smedjan, Forskningscentrum |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Ovanlig | Skylab-samlare | Skylabs smedjemodul, Forskningscentrum |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | Sällsynt | Skylab-samlare | Skylabs smedjemodul, Forskningscentrum |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Vanlig | Crystalys, Goombah, Bulwark, asteroider, jättegrävmaskin, uppdrag | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Smedjan, Forskningscentrum |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Vanlig | Crystalys, Goombah, asteroider, jättegrävmaskin | Penetration Amp IV, Smedjan, Forskningscentrum |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Ovanlig | jättegrävmaskin, Skylab-samlare | Skylabs smedjemodul, Forskningscentrum |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | Sällsynt | jättegrävmaskin, Skylab-samlare | Skylabs smedjemodul, Forskningscentrum |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Sällsynt | uppdrag, Skylabs smedjemodul | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Episk | uppdrag, Skylabs smedjemodul | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Episk | det svarta hålet (en uppslukad N.I.K.E.) | Dark Matter Plate, Forskningscentrum |
@@ -330,6 +330,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100 % för 2 | 2 |
 
 - **Asteroider**: finns i bitarna från Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (mängderna står på sidan [Asteroidbrytning](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 1 157 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **Uppdrag**: Bulwark-storm (Utmaning) 245; Crystalys-utrensning (Utmaning) 292; Dormant-gryning (Utmaning) 54; Goombah-legionen (Utmaning) 160; Goombah-gisslet (Utmaning) 281; Fiendemark (Utmaning) 50; Linjens väktare (Utmaning) 298.
 - **I övrigt**: säljs inte i butiken.
 
@@ -373,6 +374,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100 % för 2 till 4 | 3 |
 
 - **Asteroider**: finns i bitarna från Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (mängderna står på sidan [Asteroidbrytning](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 514 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **I övrigt**: säljs inte i butiken.
 
 **Vad det används till**
@@ -391,6 +393,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 
 **Så får du det**
 
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 320 av den i varje värld (Skylabs malm, begränsad till 4 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last, där den är bränsle för Forskningscentrumet; Smedjan tar bara malm från Resurslagret.
 - **Skylab**: bara modulen Velkonite-samlare bryter den, in i ett lager för 72 timmar, sedan flyttar Hämta den till modulen Resurslager. Utomjordingar släpper den inte.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@ Att bygga samlaren kräver kärnnivå 5, 10 Ship Fragments, 20 000 krediter och
 
 **Så får du det**
 
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 160 av den i varje värld (Skylabs malm, begränsad till 4 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last, där den är bränsle för Forskningscentrumet; Smedjan tar bara malm från Resurslagret.
 - **Skylab**: bara modulen Orvium-samlare bryter den, in i ett lager för 72 timmar, sedan flyttar Hämta den till modulen Resurslager. Utomjordingar släpper den inte.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 **Så får du det**
 
 - **Det svarta hålet**: en [N.I.K.E.](/wiki/06-Items/Rockets.md)-raket som korsar händelsehorisonten i det svarta hålet mitt i Farosektor 4 sväljs, och hålet ger tillbaka **1, 2 eller 3** Dark Matter (2 i genomsnitt) i lådor på högst 2 vid randen av dess zon, 3 050 till 3 950 enheter från dess mitt. Lådorna är dina, och din klans, i 60 sekunder och finns kvar i 240 sekunder. En N.I.K.E. som möter ett skepp på vägen träffar det i stället och är förbrukad. Se [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) och [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** i Dormant Swamp: från säsongsdag 11 innehåller 5 % av dess lådor 1–3. Den lever under träskets kanoner.
 - **I övrigt**: säljs inte i butiken.
 
 **Vad det används till**
 
 - Dark Matter Plate: **5** (med 1 Orvium Reinforced Plate, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), bränsle: en brinner i **10** minuters brytning, och tanken rymmer 3
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter), de översta teknologierna: **10** för var och en av 34 av dem
 
 **Så farmar du det**: avfyra [N.I.K.E.](/wiki/06-Items/Rockets.md)-raketer in i det svarta hålet (Monteringen tillverkar dem) och ta lådorna vid randen av dess zon innan någon annan gör det. Hela vägen finns i [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
@@ -651,6 +657,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 - **Vid start**: en ny pilots konto har 100 Thulium.
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den, upp till en gräns för varje period på 24 timmar (på den sidan).
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 4 821 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 51 010 Thulium över de 88 uppdragen i Alpha, från 170 på nivå 1 till 21 760 på nivå 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Thuliumfarm producerar den medan du är borta, in i ett lager för 72 timmar.
 

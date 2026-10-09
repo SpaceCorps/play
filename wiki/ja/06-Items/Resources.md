@@ -26,10 +26,10 @@
 | [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | レア | Crystalys, ミッション | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, 研究センター |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | コモン | Phantasm, Seeker, 小惑星 | Penetration Amp II, 鍛冶場, 研究センター |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | コモン | Phantasm, Bulwark, 小惑星 | Penetration Amp III, 鍛冶場, 研究センター |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | コモン | Crystalys, Goombah, Bulwark, 小惑星, ミッション | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 鍛冶場, 研究センター |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | コモン | Crystalys, Goombah, 小惑星 | Penetration Amp IV, 鍛冶場, 研究センター |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | アンコモン | Skylab コレクター | Skylab の鍛造所, 研究センター |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | レア | Skylab コレクター | Skylab の鍛造所, 研究センター |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | コモン | Crystalys, Goombah, Bulwark, 小惑星, 巨大掘削機, ミッション | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 鍛冶場, 研究センター |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | コモン | Crystalys, Goombah, 小惑星, 巨大掘削機 | Penetration Amp IV, 鍛冶場, 研究センター |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | アンコモン | 巨大掘削機, Skylab コレクター | Skylab の鍛造所, 研究センター |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | レア | 巨大掘削機, Skylab コレクター | Skylab の鍛造所, 研究センター |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | レア | ミッション, Skylab の鍛造所 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | エピック | ミッション, Skylab の鍛造所 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | エピック | ブラックホール（飲み込まれた N.I.K.E.） | Dark Matter Plate, 研究センター |
@@ -330,6 +330,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%で2個 | 2 |
 
 - **小惑星**：Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode の破片に入っています（量は[小惑星採掘](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)にあります）。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは1,157個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **ミッション**：Bulwark の嵐（チャレンジ）×245; Crystalys の粛清（チャレンジ）×292; Dormant の夜明け（チャレンジ）×54; Goombah 軍団（チャレンジ）×160; Goombah の天罰（チャレンジ）×281; 敵地（チャレンジ）×50; 戦線の守護者（チャレンジ）×298。
 - **それ以外**：ショップでは販売していません。
 
@@ -373,6 +374,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%で2～4個 | 3 |
 
 - **小惑星**：Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode の破片に入っています（量は[小惑星採掘](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)にあります）。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは514個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **それ以外**：ショップでは販売していません。
 
 **用途**
@@ -391,6 +393,7 @@
 
 **入手方法**
 
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも320個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター4時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入り、そこでは研究センターの燃料になります。鍛造所が鉱石を取るのは資源貯蔵庫からだけです。
 - **Skylab**：Velkonite コレクターだけが採掘し、72時間分を貯められるホッパーに入れます。**回収**すると資源貯蔵庫に移ります。エイリアンはドロップしません。
 
 | モジュールレベル | 1 | 5 | 10 | 15 | 20 |
@@ -416,6 +419,7 @@
 
 **入手方法**
 
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも160個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター4時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入り、そこでは研究センターの燃料になります。鍛造所が鉱石を取るのは資源貯蔵庫からだけです。
 - **Skylab**：Orvium コレクターだけが採掘し、72時間分を貯められるホッパーに入れます。**回収**すると資源貯蔵庫に移ります。エイリアンはドロップしません。
 
 | モジュールレベル | 1 | 5 | 10 | 15 | 20 |
@@ -549,11 +553,13 @@
 **入手方法**
 
 - **ブラックホール**：危険セクター 4 の中心にあるブラックホールの事象の地平線を越えた [N.I.K.E.](/wiki/06-Items/Rockets.md) ロケットは飲み込まれ、ブラックホールは **1, 2 または 3** 個の Dark Matter（平均2個）を返します。コンテナは1つにつき最大2個で、領域の縁の、中心から3,050～3,950ユニットの地点に現れます。コンテナは60秒間はあなたとあなたのクランのもので、240秒間残ります。途中で艦に出会った N.I.K.E. は、その艦に命中し、使い切られます。[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)と[ブラックホール](/wiki/03-Mechanics/Black-Hole.md#dark-matter)を参照してください。
+- Dormant Swamp の **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**：シーズン11日目から、そのコンテナの5%に1–3個入っています。沼の砲台の下にいます。
 - **それ以外**：ショップでは販売していません。
 
 **用途**
 
 - Dark Matter Plate: **5** (ほかに Orvium Reinforced Plate ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
+- [巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)、燃料：1個で **10** 分の採掘ができ、タンクには3個入ります
 - [研究センター](/wiki/03-Mechanics/Research.md#dark-matter)、最上位の技術：34個の技術それぞれに **10** 個
 
 **集め方**：[N.I.K.E.](/wiki/06-Items/Rockets.md) ロケット（アセンブリで製作できます）をブラックホールに撃ち込み、ほかの誰かより先に、領域の縁のコンテナを取ります。全体の流れは [Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) にあります。
@@ -651,6 +657,7 @@
 - **初期状態**：新しいパイロットのアカウントには、100 Thulium があります。
 - **エイリアン**：撃破するたびに支払われます（上の表）。
 - **[小惑星](/wiki/03-Mechanics/Asteroid-Mining.md)**：壊れた小惑星の破片が支払います。24時間ごとの上限があります（そのページにあります）。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは4,821個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **[ミッション](/wiki/03-Mechanics/Quests.md)**：Alpha の報酬で、88個のミッション全体の合計は51,010 Thulium です。レベルごとの合計は、レベル 1 の170 Thulium から、レベル 8 の21,760 Thulium までです。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：Thulium ファームが、あなたの不在の間も生産し、72時間分を貯められるホッパーに入れます。
 

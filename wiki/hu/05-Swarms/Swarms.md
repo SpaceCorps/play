@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -20,14 +20,14 @@ A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépésé
 | Raj | Hol | Hány | Vezér | Kísérők | Visszatér |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Pirate-raj**](/wiki/05-Swarms/Pirate-Swarm.md) | Minden vállalat `x-2` és `x-3` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Pirate Boss** | Legfeljebb 5 × Pirate Scout, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
-| [**Dormant-raj**](/wiki/05-Swarms/Dormant-Swarm.md) | A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`, `DS-4`; az egyikből a másikba repül | Világonként egy | **Dormant Force** | 2 × Dormant Pulse, a vezérrel együtt repülnek | 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban |
+| [**Dormant-raj**](/wiki/05-Swarms/Dormant-Swarm.md) | A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`, `DS-4`; az egyikből a másikba repül | Világonként egy | **Dormant Force** | 2 × Dormant Pulse, a vezérrel együtt repülnek | 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban. A szezon 11. napjától: 30 perc, a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál, és minden hajó ×2-szeresét fizeti |
 | [**Seeker-raj**](/wiki/05-Swarms/Seeker-Swarm.md) | Minden vállalat `x-1` és `x-2` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Seeker** | Legfeljebb 4 × Seeker Slave, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 
 <!-- swarms-list:end -->
 
 ## Mikor és hol {#when-and-where}
 
-A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (lásd a [Wipe-idővonalat](/wiki/03-Mechanics/Wipe-Timeline.md); a napot az alábbi szabályok első sora adja meg). **Minden világnak megvannak a saját rajai** ugyanazokon a helyeken, így az Alpha Pirate Bossa és a Beta Pirate Bossa két különböző hajó, és az a raj, amelyet a saját világodban megsemmisítesz, egy másikban nem semmisül meg. A megsemmisített raj a fenti táblázatban szereplő idő múlva tér vissza.
+A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (lásd a [Wipe-idővonalat](/wiki/03-Mechanics/Wipe-Timeline.md); a napot az alábbi szabályok első sora adja meg). **Minden világnak megvannak a saját rajai** ugyanazokon a helyeken, így az Alpha Pirate Bossa és a Beta Pirate Bossa két különböző hajó, és az a raj, amelyet a saját világodban megsemmisítesz, egy másikban nem semmisül meg. A megsemmisített raj a fenti táblázatban szereplő idő múlva tér vissza. A Dormant-raj a szezon 11. napján (2. esemény) megváltozik: a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál jelenik meg, hamarabb tér vissza, és kétszer annyit fizet.
 
 ## Minden raj szabályai {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ A közönséges idegen annak a pilótának fizet, aki először eltalálta ([Har
 - **A rakományláda annak a pilótának jár, aki a legtöbb sebzést okozta.** Az övé (és a klánjáé) 30 másodpercig, mint minden idegennél, utána bárki elviheti ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Minden Dormant-hajónak saját sebzésszámlálója és saját ládája van.
 - **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok és a Seeker Slave-ek annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
 - **Egy boss fizetése úgy van megszabva, hogy felülmúlja a körülötte lévő idegeneket.** Egy perc harc egy Pirate Bossszal többet fizet, mint egy perc harc egy Goombah ellen, a Dormant-raj pedig még többet; a Boss Seeker pontosan tíz Seekert fizet.
+- **A Dormant Swamp idegenei** (a Slumbering Void, az Inert Mass és az Unwakened) úgy fizetnek, mint egy főellenség, a sebzés szerint, és PvE-pontokat adnak a rangsorodhoz; a számaik itt vannak: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztikádban, és PvE-pontokat ad a rangsorodhoz:
 

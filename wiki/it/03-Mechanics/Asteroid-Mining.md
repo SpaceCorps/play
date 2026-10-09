@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Estrazione di asteroidi -->
 # Estrazione di asteroidi {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Le tabelle qui sotto riportano i numeri di un asteroide di Alpha. **Scafo** è i
 
 ## Dove si trovano {#where-they-are}
 
-Ogni settore di casa delle tre corporazioni e dei settori pericolosi ha asteroidi, in un mix proprio: soprattutto i tipi del suo anello, con uno o due ospiti dall’anello sopra o sotto. I settori neutrali, a cui non porta nessun portale, non ne hanno. Gli asteroidi dei settori pericolosi compaiono dal giorno di stagione indicato in tabella, il giorno in cui si apre il PvP ([Primo contatto](/wiki/03-Mechanics/Wipe-Timeline.md)), gli altri dal primo giorno. Dopo una rottura, un nuovo asteroide dello stesso tipo ricresce dopo il tempo indicato nella riga del settore.
+Ogni settore di casa delle tre corporazioni e dei settori pericolosi ha asteroidi, in un mix proprio: soprattutto i tipi del suo anello, con uno o due ospiti dall’anello sopra o sotto. I settori neutrali, a cui non porta nessun portale, non ne hanno. Gli asteroidi dei settori pericolosi compaiono dal giorno di stagione indicato in tabella, il giorno in cui si apre il PvP ([Primo contatto](/wiki/03-Mechanics/Wipe-Timeline.md)), gli altri dal primo giorno. Dopo una rottura, un nuovo asteroide dello stesso tipo ricresce dopo il tempo indicato nella riga del settore. Dal giorno 11 della stagione nessun asteroide si trova vicino a un pulsar, a un escavatore gigante o al centro del Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md#where-everything-is)), e una roccia che stava lì quando è iniziato l’evento 2 è sparita.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

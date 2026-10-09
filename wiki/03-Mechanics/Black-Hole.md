@@ -16,7 +16,7 @@ Distances are from the centre of the sector, in map units. The sector is 32,000 
 | **Point of no return** | about 1,000 to 2,600 | Where the pull equals your ship's speed. Inside it, even at full power, you are drawn in. It depends on your speed. |
 | **Event horizon** | 300 | Any ship that reaches it is destroyed at once, whatever its hull and shield. |
 
-The portals of Danger Sector 4 and the lanes between them all pass well outside the radiation, so you never meet it by accident on the way through.
+The portals of Danger Sector 4 and the lanes between them all pass well outside the radiation, so you never meet it by accident on the way through. From season day 11 the same sector also holds the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in its top-left corner, far from the hole; the aliens there never come into the hole's rings.
 
 ## Radiation
 

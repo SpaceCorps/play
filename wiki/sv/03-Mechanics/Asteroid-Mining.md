@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens f
 
 ## Var de finns {#where-they-are}
 
-Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad.
+Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Från säsongsdag 11 ligger ingen asteroid nära en pulsar, en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

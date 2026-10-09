@@ -118,7 +118,7 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 
 ## The supply chain
 
-Four modules turn time spent away from the keyboard into the plates for your best lasers. Ore comes **only** from the collectors (all the materials and currencies are on the [Resources](/wiki/06-Items/Resources.md) page): aliens do not drop it and the Shop does not sell it.
+Four modules turn time spent away from the keyboard into the plates for your best lasers. Ore comes **only** from the collectors (all the materials and currencies are on the [Resources](/wiki/06-Items/Resources.md) page): aliens do not drop it and the Shop does not sell it. (A [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) also lays some Velkonite and Orvium in boxes, but that ore goes to your cargo, where it is Research Centre fuel, and the Forgery does not take it.)
 
 1. A **collector** mines ore, an amount an hour, into its own hopper (72 hours' worth).
 2. **Collect** moves the ore from the hopper into the **Resource Storage**, the bank, where each ore is kept apart.

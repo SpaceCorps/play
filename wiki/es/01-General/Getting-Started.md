@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b4de17b88336f9c -->
+<!-- wiki-i18n source: fdf147fcd54ecb68 -->
 <!-- wiki-i18n title: Primeros pasos -->
 # Primeros pasos en SpaceCorps {#getting-started-in-spacecorps}
 
@@ -61,7 +61,7 @@ Cuando tu casco llega a 0, la nave queda destruida y la pantalla de muerte te pr
 - **Una opción que el servidor rechaza no cuesta nada.** Si una opción no se puede usar (sigue bloqueada, no hay portal en el sector, has cambiado de mundo desde que moriste), el bloqueo no se gasta y tu nave no se mueve; vuelves a elegir.
 - **Protección al reaparecer.** Elijas el sitio que elijas, tu nave no puede recibir daño ni ser fijada durante **3 segundos** tras volver, y los alienígenas pierden el interés en ella, así que quien te destruyó no puede volver a destruirte enseguida. Esos mismos 3 segundos **tú tampoco puedes atacar**: un láser o un cohete se rechaza con un aviso, y la protección no termina antes. El HUD muestra los segundos que quedan. Termina cuando se agotan.
 - **El agujero negro.** Un lugar dentro del anillo de radiación del [agujero negro](/wiki/03-Mechanics/Black-Hole.md) (a 4.200 unidades del centro del sector de peligro 4) nunca es un lugar al que volver: si te destruyeron allí, «En el sitio» te coloca en el punto más cercano fuera del anillo, en la línea que sale del centro y pasa por tu posición, y te lo indica.
-- **Sectores de peligro.** Las tres opciones también funcionan allí.
+- **Sectores de peligro.** Las tres opciones también funcionan allí. «En el sitio» se traslada fuera de la radiación de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation) sobrecalentada y fuera de la zona del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), como fuera del anillo del agujero negro: quien inicia sesión dentro de una de ellas también es colocado fuera.
 - **Tu casco vuelve limitado.** Vuelves con el casco de tu nave **hasta un máximo de 10.000** y el escudo vacío, elijas el sitio que elijas. La Protos (8.000 de casco) vuelve entera; las naves más grandes (de los 24.000 de la Kitefin a los 600.000 de la Ironclad) vuelven con 10.000, así que repara antes del siguiente combate con un Repair Drone o una Emergency Repair (consulta [Combate](/wiki/03-Mechanics/Combat.md) y [Habilidades](/wiki/03-Mechanics/Abilities.md)). El escudo se recarga como siempre. La pantalla de muerte te lo dice.
 - **Lo que cuesta una destrucción, aparte de eso:** no pierdes ningún objeto, y la opción solo decide dónde apareces. Tus habilidades están listas, y vuelves sin camuflaje y fuera de cualquier ventana de EMP. Sigues en tu [grupo](/wiki/03-Mechanics/Groups.md).
 - **Atracar.** «Volver a la base» en la pantalla de muerte te devuelve a la base, como siempre, con el mismo casco. Si el juego se cierra antes de que elijas, repara la nave gratis en el [hangar](/wiki/03-Mechanics/Hangar.md); estarás en tu base, con el mismo casco y sin escudo.

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7b6c7a0bdcd6cfbd -->
+<!-- wiki-i18n source: bb8bc80ba6889fba -->
 <!-- wiki-i18n title: Dormant 虫群 -->
 # Dormant 虫群 {#dormant-swarm}
 
-Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：一群从不主动开战、一旦被唤醒就出手极重的舰船。每个世界只有一个。它在各个危险星区之间游荡，是所有虫群中最难的战斗、最丰厚的掉落：这是一场需要由最强舰船组成的大型小队来打的战斗。
+Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：一群从不主动开战、一旦被唤醒就出手极重的舰船。每个世界只有一个。它在各个危险星区之间游荡，是所有虫群中最难的战斗、最丰厚的掉落：这是一场需要由最强舰船组成的大型小队来打的战斗。从赛季第 11 天起，它从 `DS-4` 的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 开始，回归更早，奖励翻倍（见*概览*列表）。
 
 ## 一览 {#at-a-glance}
 
@@ -18,6 +18,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 - **头领被击毁后**：Dormant Pulse 接任头领
 - **移动**：在一张地图上停留 8 至 15 分钟，然后飞向另一个危险星区的传送门。它从不使用通往危险星区之外的传送门，也从不进入黑洞的环带
 - **回归**：整个虫群 被击毁 1 小时 后， 在随机的 危险星区
+- **从赛季第 11 天起**：它出现在 `DS-4` 的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，而不是随机的危险星区；整个虫群被击毁 30 分钟 后回归；每艘飞船的奖励为 ×2（信用点、Thulium、XP 和荣誉；掉落不变）
 - **通知**：整个世界的飞行员会被告知虫群何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。危险星区的地图和星系地图上会标出它。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- dormant-glance:end -->
@@ -31,18 +32,18 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 
 ## 战斗过程 {#how-the-fight-goes}
 
-- **找到它。** 它出现时整个世界都会收到通知，并在危险星区的地图和星系地图上标出。它会在一张地图上停留*一览*列表给出的时间，然后飞向另一个危险星区的传送门并跃迁；它从不使用通往危险星区之外的传送门，也从不进入黑洞的环带。它以最慢那艘舰船的速度飞行，并且和飞行员一样，在受到攻击时不会开始或结束跃迁。
+- **找到它。** 它出现时整个世界都会收到通知，并在危险星区的地图和星系地图上标出。它会在一张地图上停留*一览*列表给出的时间，然后飞向另一个危险星区的传送门并跃迁；它从不使用通往危险星区之外的传送门，也从不进入黑洞的环带。它以最慢那艘舰船的速度飞行，并且和飞行员一样，在受到攻击时不会开始或结束跃迁。从赛季第 11 天起，它先出现在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 区域的外面，小队可以在沼泽炮台打不到的地方等它，然后它从 `DS-4` 的一个传送门飞出。
 - **一个人或少数几个人打不赢它。** 八名 8 级飞行员驾驶 Paragon、使用 x2 或 x4 弹药，在 Alpha 中大约一分钟就能将它击毁，最多损失一艘舰船；单独一艘 Paragon 会被击毁，使用 x2 弹药的三艘或四艘也一样。Beta 和 Gamma 的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），所以那些世界需要更大的小队。
 - **它的激光决定战斗。** 它们加在一起，不到一分钟就能击毁一艘 Paragon，装备最好护盾的也不到两分钟，不用火箭也一样：用你拥有的最好的护盾，尽快打出伤害。
 - **一艘接一艘。** 每艘舰船都有自己的船体和自己的奖励，所以 Force 或某个 Pulse 可能先被击毁。只有整个虫群都被击毁之后，才会在*一览*列表给出的时间后重新出现。
 
 ## 奖励与掉落 {#rewards-and-drops}
 
-每艘舰船都单独支付奖励，按它所受的伤害计算（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)），并各自为对它造成伤害最多的飞行员掉落一个货箱。**Force 的货箱**是大奖：大量 x3 和 x4 弹药、同一种史诗级火箭，偶尔还有一枚 N.I.K.E. 或 N.U.K.E.。**Pulse** 可能掉落 Ancient Control Unit、Power Core 或 Dark Matter。与这个虫群战斗一分钟的收益高于与 Crystalys（报酬最高的外星人）战斗一分钟。
+每艘舰船都单独支付奖励，按它所受的伤害计算（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)），并各自为对它造成伤害最多的飞行员掉落一个货箱。**Force 的货箱**是大奖：大量 x3 和 x4 弹药、同一种史诗级火箭，偶尔还有一枚 N.I.K.E. 或 N.U.K.E.。**Pulse** 可能掉落 Ancient Control Unit、Power Core 或 Dark Matter。与这个虫群战斗一分钟的收益高于与 Crystalys（报酬最高的外星人）战斗一分钟。从赛季第 11 天起，每艘飞船的奖励翻倍（见*概览*列表）；货箱不变。
 
 ## 数值 {#the-numbers}
 
-虫群舰船在三个世界中的数值（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)）。
+虫群舰船在三个世界中的数值（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)）。表中的信用点、Thulium、XP 和荣誉是赛季第 11 天之前的奖励；从那天起，一次击杀的奖励翻倍。
 
 <!-- dormant-members:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->

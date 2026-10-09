@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c09d6729ddb6f774 -->
+<!-- wiki-i18n source: dca1960eb6339be8 -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -98,7 +98,7 @@ Kétféle van. Az **összeadódó** tartózkodás megtartja, amid van: kimész, 
 A tartózkodások és a látogatások nem versengenek: minden nyitott egyszerre számít, bármi mást is csinálsz. A kilövések mások: egy kilövés csak egy szintküldetésnek számít (lásd a [Hol számít](#where-it-counts) részt).
 
 > [!NOTE]
-> A látogatások és a tartózkodások vezethetnek a veszélyes szektorokba (a Központfelderítés, a Központi őrség és A központ tartása oda vezet), ahol más vállalatok pilótái megtámadhatnak. Küldetéstárgyak oda soha nem vezetnek.
+> A látogatások és a tartózkodások vezethetnek a veszélyes szektorokba (a Központfelderítés, a Központi őrség és A központ tartása oda vezet), ahol más vállalatok pilótái megtámadhatnak. Küldetéstárgyak oda soha nem vezetnek. A `DS-x` látogatási pontja bármely veszélyes szektorban számít: a szezon 11. napjától a `DS-4` bal felső sarkához közeli pontokat, például a **Négy sarok** sarkát, a `DS-1`, `DS-2` vagy `DS-3` szektorban teljesítsd, mert a `DS-4` ezen sarka a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) lövegeinek tüzében áll.
 
 ## Rajküldetések {#swarm-missions}
 
@@ -106,7 +106,7 @@ Tizenhárom küldetés kéri a [rajok](/wiki/05-Swarms/Swarms.md) hajóit. Kett�
 
 - **A szezon 4. napján nyílnak meg**, azon a napon, amikor a rajok megjelennek ([30 napos szezonmenetrend](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Előtte a Küldetésirányítás ezzel utasítja el őket: „Ez a küldetés a szezon 4. napján nyílik meg.”
 - A rajok hajói **a saját nevükön** számítanak: egy Boss Seeker vagy egy Seeker Slave nem Seeker, egy Pirate Scout nem Phantasm.
-- A lépés nem nevez meg szektort, mert a rajok barangolnak: a [Seeker-raj](/wiki/05-Swarms/Seeker-Swarm.md) az `x-1` és az `x-2` szektorban, a [Pirate-raj](/wiki/05-Swarms/Pirate-Swarm.md) az `x-2` és az `x-3` szektorban, a [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) a veszélyes szektorokban. Egy Boss Seeker vagy egy Pirate Boss 2 perccel a bukása után visszatér.
+- A lépés nem nevez meg szektort, mert a rajok barangolnak: a [Seeker-raj](/wiki/05-Swarms/Seeker-Swarm.md) az `x-1` és az `x-2` szektorban, a [Pirate-raj](/wiki/05-Swarms/Pirate-Swarm.md) az `x-2` és az `x-3` szektorban, a [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) a veszélyes szektorokban. Egy Boss Seeker vagy egy Pirate Boss 2 perccel a bukása után visszatér. A szezon 11. napjától a Dormant-raj a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál indul.
 - A Dormant-küldetések egy legénységnek valók: minden világban egy Dormant-raj van, és erős hajók egy csoportja győzi le ([a harc menete](/wiki/05-Swarms/Dormant-Swarm.md#how-the-fight-goes)). A következő fokozat nem vár a **Dormant-hajnal** vagy a **Dormant-alkony** küldetésre ([a Kihívások sora](#challenge-line)).
 - Egy Boss Seeker erősebben üt, mint amit egy új pilóta hajója elbír: olvasd el, [hogyan zajlik a harc](/wiki/05-Swarms/Seeker-Swarm.md#how-the-fight-goes), mielőtt nekikezdesz.
 
@@ -171,7 +171,7 @@ A **3. pilótaszinttől** a Küldetésirányítás **Kihívások** lapja egy má
 - **A kilövéseid ráadásként fizetnek.** A megsemmisített idegenek a szokásos módon fizetik a saját kreditjüket, Thuliumukat és becsületüket; a jutalom ezen felül jár.
 - **A kilövések kétszer számítanak.** Egy kilövés minden olyan Kihívásnak számít, amely kéri, **és** annak az egy szintküldetésnek is, amelynek számít, így egy ezer kilövéses küldetés sosem éhezteti ki a szintküldetéseidet.
 - **Csoportok.** Egy kilövés annak a pilótának számít, aki a díját kapja, és minden olyan csoporttársnak, aki a roncs **4 000 egységes** körzetében van, és az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt. Minden pilóta a saját számlálóját vezeti.
-- **A tartózkodáshoz lövések kellenek, a központ kivételével.** Az `x-3`, az `x-4` vagy egy rivális `x-4` szektorában a tartózkodás csak addig számít, amíg az elmúlt 60 másodpercben lőttél, így az álló vagy körözgető hajó nem keres semmit. A veszélyes szektorokban (**Központi őrség**, **Peremőrség**, **Utolsó őrség**), ahol nem él idegen, az a hajó számít, amely az elmúlt 30 másodpercben 300 egységet repült vagy lőtt, ahogy a szintküldetések tartózkodásainál.
+- **A tartózkodáshoz lövések kellenek, a központ kivételével.** Az `x-3`, az `x-4` vagy egy rivális `x-4` szektorában a tartózkodás csak addig számít, amíg az elmúlt 60 másodpercben lőttél, így az álló vagy körözgető hajó nem keres semmit. A veszélyes szektorokban (**Központi őrség**, **Peremőrség**, **Utolsó őrség**), ahol nem él közönséges idegen (a szezon 11. napjától ébredő idegenek, lásd [Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md), nem változtatnak a szabályon), az a hajó számít, amely az elmúlt 30 másodpercben 300 egységet repült vagy lőtt, ahogy a szintküldetések tartózkodásainál.
 
 Mit kér az egyes fokozat, a táblázatok küldetéseivel:
 

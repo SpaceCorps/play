@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e8ccf0e85479a269 -->
+<!-- wiki-i18n source: b6f8831b3da223b2 -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -37,7 +37,7 @@ Le luci della cassa prendono il colore dell’oggetto più raro al suo interno: 
 - Dopo, **chiunque** sulla mappa può prenderla.
 - Solo una nave presente sulla mappa della cassa può prenderla: se vieni distrutto, salti o ti disconnetti lungo la strada (o durante il mezzo secondo che la raccolta richiede), la cassa resta agli altri.
 - Se due piloti raccolgono la stessa cassa contemporaneamente, la ottiene quello la cui raccolta finisce per prima, una sola volta; all’altro viene detto che non c’è più.
-- Una cassa che nessuno prende va alla deriva dopo **3 minuti** (lampeggia negli ultimi 10 secondi). Una mappa contiene al massimo 64 casse; quando una nuova supererebbe il limite, la più vecchia sparisce. I frammenti di asteroide hanno un gruppo tutto loro all’interno delle 64: non scacciano nessun’altra cassa, e nessun’altra cassa scaccia un frammento ([le regole](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Le casse di Dark Matter durano 4 minuti, e sono solo tue per il primo minuto.
+- Una cassa che nessuno prende va alla deriva dopo **3 minuti** (lampeggia negli ultimi 10 secondi). Una mappa contiene al massimo 64 casse; quando una nuova supererebbe il limite, la più vecchia sparisce. I frammenti di asteroide hanno un gruppo tutto loro all’interno delle 64: non scacciano nessun’altra cassa, e nessun’altra cassa scaccia un frammento ([le regole](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Le casse di Dark Matter durano 4 minuti, e sono solo tue per il primo minuto. Le casse di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) sono libere per chiunque dal momento in cui cadono, durano più di una cassa normale e hanno una riserva propria, quindi non scacciano mai un’altra cassa.
 
 ## Casse private {#private-boxes}
 

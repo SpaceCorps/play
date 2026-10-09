@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55d6cdfda1970b32 -->
+<!-- wiki-i18n source: 7f0874c517580c9b -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
@@ -20,7 +20,7 @@ A távolságok a szektor középpontjától értendők, térképi egységben. A 
 | **A nincs visszaút pontja** | kb. 1 000–2 600 | Ott van, ahol a vonzás egyenlő a hajód sebességével. Ezen belül még teljes tolóerővel is behúz a lyuk. A sebességedtől függ. |
 | **Eseményhorizont** | 300 | Minden hajó, amely eléri, azonnal megsemmisül, bármilyen hajótest és pajzs van rajta. |
 
-A Veszélyes szektor 4 portáljai és a köztük futó útvonalak mind jóval a sugárzáson kívül haladnak, így átutazás közben sosem találkozol vele véletlenül.
+A Veszélyes szektor 4 portáljai és a köztük futó útvonalak mind jóval a sugárzáson kívül haladnak, így átutazás közben sosem találkozol vele véletlenül. A szezon 11. napjától ugyanebben a szektorban a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) is áll, a bal felső sarkában, messze a lyuktól; az ottani idegenek sosem lépnek be a lyuk gyűrűibe.
 
 ## Sugárzás {#radiation}
 

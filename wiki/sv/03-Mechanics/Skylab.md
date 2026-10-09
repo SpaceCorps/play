@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 
 ## Försörjningskedjan {#the-supply-chain}
 
-Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa lasrar. Malm kommer **bara** från samlarna (alla material och valutor finns på sidan [Resurser](/wiki/06-Items/Resources.md)): utomjordingar tappar den inte och butiken säljer den inte.
+Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa lasrar. Malm kommer **bara** från samlarna (alla material och valutor finns på sidan [Resurser](/wiki/06-Items/Resources.md)): utomjordingar tappar den inte och butiken säljer den inte. (En [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) lämnar också lite Velkonite och Orvium i lådor, men den malmen hamnar i din last, där den är bränsle för Forskningscentrumet, och Smedjan tar den inte.)
 
 1. En **samlare** bryter malm, en viss mängd i timmen, in i sitt eget lager (72 timmars produktion).
 2. **Hämta** flyttar malmen från samlarens lager in i **Resurslagret**, malmbanken, där varje malm förvaras för sig.

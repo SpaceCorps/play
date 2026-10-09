@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 ## A cadeia de suprimentos {#the-supply-chain}
 
-Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/06-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende.
+Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/06-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende. (Uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) também solta um pouco de Velkonite e Orvium em caixas, mas esse minério vai para a sua carga, onde é combustível do Centro de Pesquisa, e a Forja não o pega.)
 
 1. Um **coletor** extrai minério, uma quantidade por hora, para o seu próprio armazenamento (o equivalente a 72 horas).
 2. **Coletar** move o minério do armazenamento para o **Depósito de recursos**, onde cada minério fica guardado à parte.

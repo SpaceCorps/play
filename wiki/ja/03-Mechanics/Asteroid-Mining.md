@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: 小惑星採掘 -->
 # 小惑星採掘 {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Alpha、Beta、Gamma の各ワールドには、同じ場所にそれぞれ独�
 
 ## ある場所 {#where-they-are}
 
-3つの企業の本拠地セクターと危険セクターのすべてに小惑星があり、セクターごとに構成が違います。主にそのリングの種類で、1つ上か下のリングから1、2種類が加わります。ゲートが通じていない中立セクターにはありません。危険セクターの小惑星は、表にあるシーズン日から現れます。PvP が解禁される日です（[ファーストコンタクト](/wiki/03-Mechanics/Wipe-Timeline.md)）。ほかは初日からあります。壊れたあとは、そのセクターの行にある時間がたつと、同じ種類の新しい小惑星が育ちます。
+3つの企業の本拠地セクターと危険セクターのすべてに小惑星があり、セクターごとに構成が違います。主にそのリングの種類で、1つ上か下のリングから1、2種類が加わります。ゲートが通じていない中立セクターにはありません。危険セクターの小惑星は、表にあるシーズン日から現れます。PvP が解禁される日です（[ファーストコンタクト](/wiki/03-Mechanics/Wipe-Timeline.md)）。ほかは初日からあります。壊れたあとは、そのセクターの行にある時間がたつと、同じ種類の新しい小惑星が育ちます。シーズン11日目からは、パルサー、巨大掘削機、Dormant Swamp の中心の近くに小惑星はなく（[危険セクター](/wiki/01-General/Danger-Sectors.md#where-everything-is)）、イベント2が始まったときにそこにあった岩は消えます。
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

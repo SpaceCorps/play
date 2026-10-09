@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b4de17b88336f9c -->
+<!-- wiki-i18n source: fdf147fcd54ecb68 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -61,7 +61,7 @@ När ditt skrov når 0 förstörs skeppet och dödsskärmen frågar var du vill 
 - **Ett val som servern nekar kostar ingenting.** Om ett val inte kan användas (fortfarande låst, ingen portal i sektorn, du har bytt värld sedan du förstördes) förbrukas inte låsningen och ditt skepp flyttas inte; du väljer igen.
 - **Skydd efter återkomst.** Vilken plats du än väljer kan ditt skepp varken skadas eller låsas på under **3 sekunder** efter att det kommit tillbaka, och utomjordingar tappar intresset för det, så den som förstörde dig kan inte förstöra dig igen direkt. Under samma 3 sekunder **kan du inte heller anfalla**: en laser eller en raket avvisas med ett meddelande, och skyddet tar inte slut i förtid. HUD:en visar hur många sekunder som återstår. Skyddet tar slut när de gått.
 - **Det svarta hålet.** En plats inom strålningsringen kring det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md) (4 200 enheter från mitten av Farosektor 4) är aldrig en plats att återvända till: om du förstördes där placerar ”på platsen” dig vid den närmaste punkten utanför ringen, på linjen från mitten genom din plats, och talar om det för dig.
-- **Farosektorer.** Alla tre valen fungerar där också.
+- **Farosektorer.** Alla tre valen fungerar där också. ”På platsen” flyttas ut ur strålningen från en överhettad [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation) och ut ur zonen kring [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), som ut ur det svarta hålets ring: en pilot som loggar in inne i någon av dem placeras också utanför.
 - **Skrovet kommer tillbaka begränsat.** Du återvänder med skeppets skrov **högst 10 000** och tom sköld, vilken plats du än väljer. Protos (8 000 skrov) kommer tillbaka fullt; de större skeppen (från Kitefins 24 000 till Ironclads 600 000) kommer tillbaka med 10 000, så reparera före nästa strid med en Repair Drone eller en Emergency Repair (se [Strid](/wiki/03-Mechanics/Combat.md) och [Förmågor](/wiki/03-Mechanics/Abilities.md)). Skölden laddas som vanligt. Dödsskärmen säger det.
 - **Vad en förstörelse i övrigt kostar:** du förlorar inga föremål, och valet avgör bara var du dyker upp. Dina förmågor är redo, och du återvänder utan kamouflage och utanför alla EMP-fönster. Du stannar kvar i din [grupp](/wiki/03-Mechanics/Groups.md).
 - **Dockning.** ”Tillbaka till basen” på dödsskärmen tar dig tillbaka till basen, som alltid, med samma skrov. Stängs spelet innan du har valt kan du reparera skeppet gratis i [hangaren](/wiki/03-Mechanics/Hangar.md); du är då vid din bas, med samma skrov och utan sköld.

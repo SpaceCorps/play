@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2e7e76790e2b0906 -->
+<!-- wiki-i18n source: 0c56fb69c3771892 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -20,14 +20,14 @@ Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu pró
 | Enxame | Onde | Quantos | Líder | Seguidores | Volta |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [**Enxame Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Os setores `x-2` e `x-3` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Pirate Boss** | Até 5 × Pirate Scout, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
-| [**Enxame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Os setores de perigo `DS-1`, `DS-2`, `DS-3`, `DS-4`, voando de um para outro | Um em cada mundo | **Dormant Force** | 2 × Dormant Pulse, voando com o líder | 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório |
+| [**Enxame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Os setores de perigo `DS-1`, `DS-2`, `DS-3`, `DS-4`, voando de um para outro | Um em cada mundo | **Dormant Force** | 2 × Dormant Pulse, voando com o líder | 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório. A partir do dia 11 da temporada: 30 min, no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e cada nave paga ×2 |
 | [**Enxame Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Os setores `x-1` e `x-2` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Seeker** | Até 4 × Seeker Slave, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
 
 <!-- swarms-list:end -->
 
 ## Quando e onde {#when-and-where}
 
-Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (veja a [Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md); o dia é a primeira linha das regras abaixo). **Cada mundo tem os seus próprios enxames** nos mesmos lugares, então o Pirate Boss de Alpha e o de Beta são duas naves diferentes, e um enxame que você destrói no seu mundo não é destruído em outro. Um enxame destruído volta depois do tempo da tabela acima.
+Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (veja a [Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md); o dia é a primeira linha das regras abaixo). **Cada mundo tem os seus próprios enxames** nos mesmos lugares, então o Pirate Boss de Alpha e o de Beta são duas naves diferentes, e um enxame que você destrói no seu mundo não é destruído em outro. Um enxame destruído volta depois do tempo da tabela acima. O Enxame Dormant muda no dia 11 da temporada (evento 2): aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), volta mais cedo e paga o dobro.
 
 ## As regras de todo enxame {#the-rules-of-every-swarm}
 
@@ -82,6 +82,7 @@ Um alienígena comum paga o piloto que o acertou primeiro ([Combate](/wiki/03-Me
 - **A caixa de carga vai para o piloto que mais causou dano.** Ela é desse piloto (e do clã dele) por 30 segundos, como com qualquer alienígena, e depois qualquer um pode pegá-la ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tem a sua própria contagem de dano e a sua própria caixa.
 - **Os seguidores pagam como de costume**: os Pirate Scouts e os Seeker Slaves pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
 - **O pagamento de um chefe é feito para superar os alienígenas ao redor.** Um minuto de luta contra um Pirate Boss paga mais do que um minuto de luta contra um Goombah, e o enxame Dormant paga ainda mais; o Boss Seeker paga exatamente dez Seekers.
+- **Os alienígenas do Dormant Swamp** (o Slumbering Void, a Inert Mass e o Unwakened) são pagos como um chefe, pelo dano, e somam pontos PvE ao seu ranking; os números deles estão em [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Todo abate é contado com o nome próprio da nave nas suas estatísticas de abates e soma pontos PvE ao seu ranking:
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f15c2484e0271474 -->
+<!-- wiki-i18n source: bc32fd762bb7742c -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
@@ -72,7 +72,7 @@ Die Tabellen unten nennen die Zahlen eines Alpha-Asteroiden. **Hülle** ist der 
 
 ## Wo sie liegen {#where-they-are}
 
-Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat Asteroiden, in einer eigenen Mischung: meist die Arten seines Rings, mit einem oder zwei Gästen aus dem nächsten Ring darüber oder darunter. Die neutralen Sektoren, zu denen kein Tor führt, haben keine. Die Asteroiden der Gefahrensektoren erscheinen ab dem Saisontag aus der Tabelle, dem Tag, an dem PvP sich öffnet ([Erstkontakt](/wiki/03-Mechanics/Wipe-Timeline.md)), die anderen ab dem ersten Tag. Nach dem Zerbrechen wächst ein neuer Asteroid derselben Art nach der Zeit aus der Zeile des Sektors wieder nach.
+Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat Asteroiden, in einer eigenen Mischung: meist die Arten seines Rings, mit einem oder zwei Gästen aus dem nächsten Ring darüber oder darunter. Die neutralen Sektoren, zu denen kein Tor führt, haben keine. Die Asteroiden der Gefahrensektoren erscheinen ab dem Saisontag aus der Tabelle, dem Tag, an dem PvP sich öffnet ([Erstkontakt](/wiki/03-Mechanics/Wipe-Timeline.md)), die anderen ab dem ersten Tag. Nach dem Zerbrechen wächst ein neuer Asteroid derselben Art nach der Zeit aus der Zeile des Sektors wieder nach. Ab Saisontag 11 liegt kein Asteroid in der Nähe eines Pulsars, eines Riesenbaggers oder der Mitte des Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md#where-everything-is)), und ein Felsen, der dort stand, als Event 2 begann, ist verschwunden.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

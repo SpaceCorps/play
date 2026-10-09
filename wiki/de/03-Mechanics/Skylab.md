@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d06e4b2673a5b545 -->
+<!-- wiki-i18n source: 6d47517c2e0ba61e -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -120,7 +120,7 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 ## Die Versorgungskette {#the-supply-chain}
 
-Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht.
+Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht. (Ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) legt ebenfalls etwas Velkonite und Orvium in Kisten ab, doch dieses Erz kommt in deine Fracht, wo es Treibstoff des Forschungszentrums ist, und die Schmiede nimmt es nicht.)
 
 1. Ein **Kollektor** fördert Erz, eine bestimmte Menge pro Stunde, in seinen eigenen Speicher (für 72 Stunden).
 2. **Abholen** bringt das Erz aus dem Speicher ins **Ressourcenlager**, wo jedes Erz für sich eingelagert wird.
