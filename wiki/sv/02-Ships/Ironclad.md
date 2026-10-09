@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 23337c1f109c154d -->
+<!-- wiki-i18n source: 31da41b4ca191641 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -10,6 +10,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 - **Grundhastighet**: 92
 - **Laserplatser**: 6
 - **Extraplatser**: 3
+- **Pansarplatser**: 15
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -26,6 +27,14 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 ## Forskning {#research}
 
+- **Pansarplatser.** Det här skeppet har 15 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 15 fyllda med Hull Plating III ger 225 000 skrov.
+- **Designer.** Skeppet har 2 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
+
+| Design | Vad den ändrar |
+| :--- | :--- |
+| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire |
+| **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink (hastighet begränsad till 1 500) |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -36,4 +45,4 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 ## Bakgrund {#lore}
 
-Ironclad började som ett belägringsskrov: en pansrad kil byggd för att stå framför stationens kanoner och ta emot allt som Svärmen kastade mot den. Varven behöll pansaret och gjorde det tjockare, gav den sju kärnplatser för generatorer och 85 % mer skrov än Wraith, hängde ett par överdimensionerade motorgondoler på baksidan för att flytta tyngden och skar ner kanonerna till sex för att betala för det. Den är inte byggd för att köra ifrån något, och den behöver inte vara det. Piloter parkerar den mellan Svärmen och det de vill skydda och låter den blågröna pläteringen göra jobbet. De gräddvita pansarplattorna byts ut efter varje insats; de orange remsorna längs vingarna är det enda på den som någonsin var tänkt att synas.
+Ironclad började som ett belägringsskrov: en pansrad kil byggd för att stå framför stationens kanoner och ta emot allt som Svärmen kastade mot den. Varven behöll pansaret och gjorde det tjockare, gav den sju kärnplatser för generatorer och 85 % mer skrov än Wraith, hängde ett par överdimensionerade motorgondoler på baksidan för att flytta tyngden och skar ner kanonerna till sex för att betala för det. Den är inte byggd för att köra ifrån något, och den behöver inte vara det. Piloter parkerar den mellan Svärmen och det de vill skydda och låter den mörkgrå pläteringen göra jobbet. De ljusa pansarplattorna byts ut efter varje insats; de ljusa remsorna längs vingarna är det enda på den som någonsin var tänkt att synas.

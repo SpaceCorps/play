@@ -10,7 +10,7 @@
 - Чтобы пользоваться аукционом (выставлять, покупать и делать ставки), нужен **уровень 5**.
 - Объявление оценивается за партию, в целых кредитах или в целых Thulium (не в обоих сразу), и никогда не ниже минимальной цены предмета. **Максимальной цены нет.**
 - Цена в Thulium не меньше минимальной цены в кредитах, делённой на курс (1 000), с округлением вверх, и только для предметов, у которых минимальная цена достигает 1 Thulium или больше. Это всё, что делает курс: **1 Thulium = 1 000 кредитов — правило для минимальной цены, а не обменный курс.** Ничего не обменивается, никакая стоимость не показывается, а кредиты и Thulium никогда не складываются.
-- Выставить можно 80 видов предметов, и 79 из них можно оценить ещё и в Thulium.
+- Выставить можно 82 видов предметов, и 81 из них можно оценить ещё и в Thulium.
 - Объявление идёт 24 / 72 / 168 ч — на ваш выбор; варианты одинаковы на любом уровне.
 - **Взнос** — 1% цены за каждые 24 часа объявления, но не меньше 50 кредитов или 1 Thulium. Его платят при выставлении; он никогда не возвращается, даже если вы снимете объявление.
 - С уровня 10 взнос составляет 1,5%.
@@ -50,6 +50,7 @@
 | **Лазерные боеприпасы** | Standard Battery (партиями по 100), Siphon Battery (партиями по 10), Advanced Plasma (партиями по 10), Ultra Core (партиями по 10), Experimental Fusion Core | 5 |
 | **Ракеты** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Устройства** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Броня корпуса** | Hull Plating II, Hull Plating III | 2 |
 | **Ресурсы** | Cataclysite (партиями по 100), Ship Fragment (партиями по 100), Daraxium (партиями по 100), Nyxite (партиями по 100), Quorvium (партиями по 10), Reinforced Hull Plate (партиями по 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 23337c1f109c154d -->
+<!-- wiki-i18n source: 31da41b4ca191641 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -10,6 +10,7 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 - **基础速度**：92
 - **激光槽位**：6
 - **附加槽位**：3
+- **装甲槽位**: 15
 
 ### 发生器与支援槽位 {#generator-support-slots}
 
@@ -26,6 +27,14 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 
 ## 研究 {#research}
 
+- **装甲槽位。** 这艘舰船有 15 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。15 个槽位全部装上 Hull Plating III，可增加 225,000 点船体。
+- **设计。** 这艘舰船有 2 种[设计](/wiki/03-Mechanics/Ship-Designs.md)。研究其中一种（10 小时和 10 个 Dark Matter），然后在装配站把你的 Ironclad 改装成它：改装无法撤销。
+
+| 设计 | 改变了什么 |
+| :--- | :--- |
+| **Ironclad DUMA** | 基础船体 +20%，基础速度 -20，激光槽位 -3，护盾吸收率 +10%，Focus Fire |
+| **Ironclad TITANIC** | 激光槽位 +2，核心槽位 +1，护盾容量 +20%，模型尺寸 +20%，Blink（速度上限 1,500） |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -36,4 +45,4 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 
 ## 背景故事 {#lore}
 
-Ironclad 最初是一种攻城船体：一个包着装甲板的楔形舰身，专门摆在空间站火炮前方，承受虫群投来的一切攻击。船厂保留了这身装甲并将其加厚，为它配上 7 个核心发生器槽位和比 Wraith 多 85% 的船体，在尾部挂了一对超大的引擎舱来推动这身重量，又把火炮削减到 6 门作为代价。它不是为了甩开谁而造的，也无需如此。飞行员把它停在虫群与想要守护的目标之间，让青绿色的装甲板去干活。奶白色的装甲板每次出击后都要更换；机翼上的橙色条纹，是它身上唯一本就打算给人看的部分。
+Ironclad 最初是一种攻城船体：一个包着装甲板的楔形舰身，专门摆在空间站火炮前方，承受虫群投来的一切攻击。船厂保留了这身装甲并将其加厚，为它配上 7 个核心发生器槽位和比 Wraith 多 85% 的船体，在尾部挂了一对超大的引擎舱来推动这身重量，又把火炮削减到 6 门作为代价。它不是为了甩开谁而造的，也无需如此。飞行员把它停在虫群与想要守护的目标之间，让深灰色的装甲板去干活。浅色的装甲板每次出击后都要更换；机翼上的浅色条纹，是它身上唯一本就打算给人看的部分。

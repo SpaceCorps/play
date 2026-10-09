@@ -1,84 +1,86 @@
-<!-- wiki-i18n source: 09eab0ba9b8c9863 -->
+<!-- wiki-i18n source: 26f4bca5b9b9516f -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
-Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es una escala militar de 8 categorías con 3 grados cada una, 24 rangos en total. Tu rango es tu **puesto entre los pilotos de tu corporación**, contado en **puntos PvE**: los puntos que ganas por tu nivel, tu experiencia y los alienígenas que destruyes. En vuelo el juego muestra solo un pequeño **símbolo** delante del nombre de un piloto, para que distingas de un vistazo a los mejores pilotos de una corporación de un recién llegado. Las palabras están en la página Corporación y al pasar el puntero sobre un símbolo.
+Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es una escala militar de 8 categorías con 3 grados cada una, 24 rangos en total. Tu rango sale de tus **puntos PvE**: los puntos que ganas por tu nivel, tu experiencia y los alienígenas que destruyes. Cada rango exige un **mínimo** de puntos PvE, y los seis mejores rangos tienen además un número fijo de **plazas** en cada corporación. En vuelo el juego muestra solo un pequeño **símbolo** delante del nombre de un piloto, para que distingas de un vistazo a los mejores pilotos de una corporación de un recién llegado, y un piloto de todo el servidor lleva una **corona** dorada sobre su símbolo. Las palabras están en la página Corporación y al pasar el puntero sobre un símbolo.
 
 **En un minuto**
 
-- Tu corporación lleva una sola lista de sus pilotos, con el que más puntos PvE tiene en primer lugar. Tu rango sale de tu puesto en esa lista.
-- Solo el mejor piloto de la corporación es el **Almirante sénior**. Todos los demás se reparten de arriba abajo entre los otros 23 rangos: pocos pilotos arriba, la mayoría abajo.
-- Cada rango exige además un **mínimo de puntos PvE**, para que una corporación pequeña o nueva no pueda repartir los rangos más altos gratis. El Almirante sénior necesita 20.000.
-- Tu rango se mueve. Baja cuando otros pilotos te adelantan y sube cuando los adelantas. Una bajada nunca se anuncia; un nuevo mejor rango, sí.
-- Solo están en la lista los pilotos con puntos PvE que han volado en los últimos 30 días. Todos los demás son Piloto júnior hasta que vuelvan a volar.
-- El reinicio no cambia los puntos de nadie, así que la lista no empieza de cero.
+- Tu corporación lleva una sola lista de sus pilotos, con el que más puntos PvE tiene en primer lugar. Cada corporación tiene la suya, y los pilotos de las otras corporaciones nunca cuentan contra ti.
+- Tienes el **rango más alto cuyo mínimo alcanzan tus puntos y que aún tiene una plaza libre en tu corporación**.
+- Los seis mejores rangos tienen un número de plazas por corporación: **Almirante sénior 1** (desde 50.000 puntos PvE), **Almirante 2** (desde 45.000), **Almirante júnior 4** (desde 40.000), **General sénior 8** (desde 30.000), **General 10** (desde 27.500) y **General júnior 15** (desde 25.000). Los rangos de abajo no tienen límite de pilotos, y cada uno pide 2.500 puntos menos que el rango de encima, hasta los 2.500 del rango Capitán júnior.
+- **Mismos puntos, mismo rango.** Dos pilotos con los mismos puntos nunca tienen rangos distintos. Cuando la última plaza de un rango cae dentro de un empate, todos los empatados toman el mejor rango, aunque eso supere sus plazas.
+- Solo están en una lista los pilotos con puntos PvE que han volado en los últimos 30 días. Todos los demás son Piloto júnior hasta que vuelvan a volar, y no ocupan ninguna plaza.
+- Una **corona** dorada sobre el símbolo marca al piloto con más puntos PvE de todo el servidor: todas las corporaciones, los tres mundos.
+- Tu rango se mueve. Hasta Coronel sénior depende solo de tus puntos, así que solo sube. Los seis mejores rangos también se mueven con los demás pilotos de tu corporación: pueden bajar cuando otros ocupan las plazas por encima de ti. Una bajada nunca se anuncia; un nuevo mejor rango, sí.
+- El reinicio no cambia los puntos de nadie, así que las listas no empiezan de cero.
 - El símbolo delante de un nombre es el rango: una forma para la categoría y de una a tres marcas para el grado.
 
-![All ranks on the Company page: the 24 ranks as a pyramid, each with its share of the company, the pilots who hold it now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![The gold crown over a rank symbol, shown on the Generals and the Admirals](../../img/wiki-img/shots/rank-crown.jpg)
 ![The 24 company ranks: eight tiers of three grades, each a symbol of chevrons, bars, stars and a laurel](../../img/wiki-img/shots/ranks-sheet.jpg)
 
 ## Cómo se calcula tu rango {#the-company-ladder}
 
-Los pilotos de tu corporación, **los tres mundos juntos**, forman una sola fila, con el que más puntos PvE tiene en primer lugar. Si dos pilotos tienen los mismos puntos, va delante el de mayor nivel y después el más antiguo. Esa fila es la **clasificación** de tu corporación, y tu rango sale de dos cosas:
+Los pilotos de tu corporación, **los tres mundos juntos**, forman una sola fila, con el que más puntos PvE tiene en primer lugar. Esa fila es la **clasificación**. Si dos pilotos tienen los mismos puntos, va delante el de mayor nivel y después el más antiguo, pero eso solo ordena la lista: nunca les da rangos distintos. Tu rango sale de dos cosas, tus puntos y las plazas de tu corporación:
 
-1. **Tu puesto.** El piloto del puesto 1 es el **Almirante sénior**, él solo. Los pilotos que van detrás se reparten entre los otros 23 rangos según porcentajes de la clasificación, y cada rango tiene una cuarta parte más de pilotos que el rango de arriba. Así, aproximadamente una quinta parte de los pilotos son Piloto júnior, y el décimo mejor es Capitán o más.
-2. **Tus puntos.** Cada rango exige un mínimo de puntos PvE ([la tabla de abajo](#the-24-ranks)). Tienes el menor de los dos rangos: el que te da tu puesto y el que alcanzan tus puntos.
+1. **Cada rango tiene un mínimo** de puntos PvE ([la tabla de abajo](#the-24-ranks)). Un piloto nunca tiene un rango cuyo mínimo sus puntos no han alcanzado.
+2. **Los seis mejores rangos tienen plazas.** Se llenan desde arriba, el mejor rango primero: los mejores pilotos que alcanzan 50.000 puntos tienen el rango Almirante sénior, hasta su única plaza; de los pilotos que quedan, los mejores que alcanzan 45.000 tienen el rango Almirante, hasta sus dos plazas; y así hasta General júnior.
+3. **Todos los demás tienen el rango más alto que sus puntos alcanzan por debajo de esos seis**, que es Coronel sénior como mucho. Un piloto que alcanza el mínimo de un rango pero encuentra sus plazas llenas baja al mejor rango que tiene abierto.
+4. **Un empate nunca se rompe.** Los pilotos con los mismos puntos tienen el mismo rango. Si la última plaza de un rango cae dentro de un empate, todo el empate toma el mejor rango, de modo que un rango puede tener más pilotos que plazas, y nunca menos de los debidos.
 
-**Un ejemplo.** Una corporación tiene 31 pilotos en su clasificación. Solo por el puesto, los rangos quedan así; la última columna son los puntos PvE mínimos que exige el rango.
+**Un ejemplo.** Los doce mejores pilotos de una corporación, con el rango que tiene cada uno:
 
-| Puesto | Rango | Puntos PvE mínimos |
-| :---: | :--- | ---: |
-| 1 | Almirante sénior | 20.000 |
-| 2 | Mayor sénior | 4.700 |
-| 3 | Capitán sénior | 3.000 |
-| 4 | Capitán | 2.600 |
-| 5 | Teniente sénior | 1.900 |
-| 6–7 | Teniente | 1.500 |
-| 8 | Teniente júnior | 1.300 |
-| 9–10 | Sargento sénior | 1.000 |
-| 11–13 | Sargento | 800 |
-| 14–16 | Sargento júnior | 610 |
-| 17–20 | Piloto sénior | 350 |
-| 21–24 | Piloto | 150 |
-| 25–31 | Piloto júnior | 0 |
+| Puesto | Puntos PvE | Rango |
+| :---: | ---: | :--- |
+| 1 | 60.000 | Almirante sénior |
+| 2 | 52.000 | Almirante |
+| 3 | 51.000 | Almirante |
+| 4 | 50.500 | Almirante júnior |
+| 5 | 44.000 | Almirante júnior |
+| 6 | 30.000 | General sénior |
+| 7 | 29.000 | General |
+| 8 | 28.000 | General |
+| 9 | 26.000 | General júnior |
+| 10 | 24.999 | Coronel sénior |
+| 11 | 21.000 | Coronel |
+| 12 | 1.000 | Sargento sénior |
 
-Estás en el puesto 16 de 31 con 1.800 puntos PvE. La página Corporación dice «Puesto 16 de 31» y una pequeña etiqueta «Top 52 %»: estás entre el 52 % mejor de tu corporación. Los puestos del 14 al 16 son Sargento júnior, así que ese es tu rango, aunque solo por tus puntos llegarías a Teniente (1.500). Para ser Sargento tienes que llegar al puesto 13. Es de Sable, que tiene 2.100 puntos PvE. Para superarlo necesitas 2.101, es decir, 301 más, y la página Corporación te lo dice exactamente: «301 puntos PvE para superar a Sable y llegar a Sargento».
-
-Los puntos también cuentan arriba del todo. Si el mejor piloto de esta corporación tiene 12.000 puntos PvE, es General sénior hasta que llegue a 20.000, sea cual sea su puesto.
+El puesto 4 tiene 50.500 puntos, que bastan para el rango Almirante sénior, pero la única plaza de ese rango y las dos de Almirante están ocupadas, así que es Almirante júnior. Los puestos 7 y 8 tienen 29.000 y 28.000: los dos alcanzan los 27.500 de General y no los 30.000 de General sénior, y a General aún le quedan plazas, así que los dos son General. El piloto con 24.999 está a un punto de General júnior y es Coronel sénior, el mejor rango que tiene abierto. Si dos pilotos de los primeros puestos tuvieran los dos 60.000, ambos serían Almirante sénior, y los dos siguientes, con 50.000 y 45.000, serían Almirante.
 
 > [!NOTE]
-> Los rangos se cortan en pilotos enteros, así que una corporación pequeña no tiene a nadie en algunos de los rangos más altos. Un Coronel necesita una corporación de al menos 46 pilotos en la clasificación, un General 118, un General sénior 178, un Almirante júnior 301 y un Almirante 675. El puesto 1 es la excepción: toda corporación lo tiene, y su piloto es el Almirante sénior en cuanto tiene 20.000 puntos PvE.
+> Las plazas solo limitan cuando más pilotos de una corporación alcanzan un mínimo que plazas tiene el rango. En una corporación pequeña el rango depende solo de los puntos: un piloto solo en su corporación es Coronel con 21.000 puntos PvE y Almirante sénior con 50.000.
 
 ## Los 24 rangos {#the-24-ranks}
 
-La **parte** es la fracción de tu corporación que tiene exactamente este rango; el mejor piloto, que está solo arriba, no se cuenta. El **mínimo** son los puntos PvE más bajos que exige el rango, sea cual sea tu puesto.
+Las **plazas** son cuántos pilotos de una misma corporación pueden tener exactamente este rango; un guion significa sin límite. El **mínimo** son los puntos PvE más bajos que pide el rango.
 
-| # | Rango | Parte de la corporación | Puntos PvE mínimos |
+| # | Rango | Plazas por corporación | Puntos PvE mínimos |
 | :---: | :--- | ---: | ---: |
-| 1 | Piloto júnior | 20,1 % | 0 |
-| 2 | Piloto | 16,1 % | 150 |
-| 3 | Piloto sénior | 12,9 % | 350 |
-| 4 | Sargento júnior | 10,3 % | 610 |
-| 5 | Sargento | 8,24 % | 800 |
-| 6 | Sargento sénior | 6,59 % | 1.000 |
-| 7 | Teniente júnior | 5,27 % | 1.300 |
-| 8 | Teniente | 4,22 % | 1.500 |
-| 9 | Teniente sénior | 3,38 % | 1.900 |
-| 10 | Capitán júnior | 2,7 % | 2.200 |
-| 11 | Capitán | 2,16 % | 2.600 |
-| 12 | Capitán sénior | 1,73 % | 3.000 |
-| 13 | Mayor júnior | 1,38 % | 3.500 |
-| 14 | Mayor | 1,11 % | 4.100 |
-| 15 | Mayor sénior | 0,88 % | 4.700 |
-| 16 | Coronel júnior | 0,71 % | 5.600 |
-| 17 | Coronel | 0,57 % | 6.500 |
-| 18 | Coronel sénior | 0,45 % | 7.700 |
-| 19 | General júnior | 0,36 % | 8.900 |
-| 20 | General | 0,29 % | 10.000 |
-| 21 | General sénior | 0,23 % | 12.000 |
-| 22 | Almirante júnior | 0,19 % | 14.000 |
-| 23 | Almirante | 0,15 % | 17.000 |
-| 24 | Almirante sénior | #1 | 20.000 |
+| 1 | Piloto júnior | – | 0 |
+| 2 | Piloto | – | 150 |
+| 3 | Piloto sénior | – | 350 |
+| 4 | Sargento júnior | – | 610 |
+| 5 | Sargento | – | 800 |
+| 6 | Sargento sénior | – | 1.000 |
+| 7 | Teniente júnior | – | 1.300 |
+| 8 | Teniente | – | 1.500 |
+| 9 | Teniente sénior | – | 1.900 |
+| 10 | Capitán júnior | – | 2.500 |
+| 11 | Capitán | – | 5.000 |
+| 12 | Capitán sénior | – | 7.500 |
+| 13 | Mayor júnior | – | 10.000 |
+| 14 | Mayor | – | 12.500 |
+| 15 | Mayor sénior | – | 15.000 |
+| 16 | Coronel júnior | – | 17.500 |
+| 17 | Coronel | – | 20.000 |
+| 18 | Coronel sénior | – | 22.500 |
+| 19 | General júnior | 15 | 25.000 |
+| 20 | General | 10 | 27.500 |
+| 21 | General sénior | 8 | 30.000 |
+| 22 | Almirante júnior | 4 | 40.000 |
+| 23 | Almirante | 2 | 45.000 |
+| 24 | Almirante sénior | 1 | 50.000 |
 
 ## Quién está en la clasificación {#who-is-on-the-ladder}
 
@@ -88,19 +90,19 @@ Un piloto está en la clasificación de su corporación cuando se cumplen **las 
 - tiene puntos PvE: el primer derribo mete a un piloto nuevo en la clasificación;
 - ha volado en los últimos **30 días**.
 
-Un piloto que no está en la clasificación es **Piloto júnior** allí donde se muestra un rango, no tiene puesto y no aparece en la lista de la corporación. La regla existe para que un piloto que probó el juego una vez y se fue no se quede abajo para siempre, y para que un piloto ausente no conserve el mejor rango durante meses.
+Un piloto que no está en la clasificación es un **Piloto júnior** allí donde aparezca un rango, no tiene puesto y no está en la lista de la corporación. La regla existe para que un piloto que probó el juego una vez y se fue no se quede abajo para siempre, y para que un piloto ausente no pueda conservar durante meses una de las pocas mejores plazas ni la corona.
 
 > [!TIP]
-> No pierdes nada mientras estás fuera. Tus puntos se conservan, y cuando despegas de nuevo, o solo abres la página Corporación, vuelves a ocupar tu sitio con los puntos con los que te fuiste. Si eras el mejor piloto, vuelves a ser el Almirante sénior, y el piloto que tenía el rango baja un puesto.
+> No se pierde nada mientras estás fuera. Tus puntos se conservan, y cuando vuelves a despegar, o solo abres la página Corporación, te colocan de nuevo con los puntos con los que te fuiste, en el rango que esos puntos y las plazas de tu corporación te dan entonces.
 
-Si cambias de corporación, tus puntos se van contigo y ocupas un lugar en la clasificación de la nueva corporación, el que ahí te den.
+Si cambias de corporación, tus puntos van contigo y entras en la clasificación de la nueva corporación, con el rango que sus plazas te dan allí.
 
 ## Tu rango se mueve {#your-rank-moves}
 
-- **Baja** cuando otros pilotos te adelantan. Cada piloto que te adelanta te quita un puesto, y si ese era el último puesto de tu rango, bajas un grado.
-- **Sube** cuando adelantas a otros, en cuanto se cuenta tu derribo.
-- También se mueve cuando pilotos entran en la clasificación o salen de ella, porque cada rango es una parte de la corporación. Una corporación que crece nunca baja a un piloto que conserva su puesto; cuando se van pilotos, uno que esté en el borde de un rango puede perder un grado.
-- Solo se te avisa de tu rango cuando **sube** ([Ascensos](#promotions)). Una bajada nunca se anuncia: tu símbolo simplemente cambia.
+- **Hasta Coronel sénior dependen solo de tus puntos.** El rango sube cuando tus puntos alcanzan el siguiente mínimo, en cuanto se cuenta tu derribo, y ningún otro piloto puede bajarlo.
+- **Los seis mejores rangos se mueven con los demás pilotos de tu corporación.** Un piloto que alcanza un mínimo antes que tú ocupa una de las plazas, y cuando las plazas de tu rango están llenas bajas al siguiente rango que tienes abierto. Cuando un piloto sale de la clasificación o de la corporación, se abre una plaza y los pilotos que van detrás pueden subir a ella.
+- Un piloto con los mismos puntos que tú o menos nunca te quita una plaza.
+- Tu propio rango se te comunica cuando **sube**, y solo entonces ([Ascensos](#promotions)). Una bajada nunca se anuncia: tu símbolo simplemente cambia.
 
 ## Cómo se ganan los puntos PvE {#how-you-earn-pve-points}
 
@@ -132,7 +134,7 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 
 Las cinco primeras filas son los alienígenas normales y las seis siguientes las naves de los tres enjambres. Al final van los guardianes del clan, los líderes de un combate contra un guardián, y sus tripulaciones, los Brood Drones, Siege Escorts y Wrath Guards: I, II y III son la fuerza del guardián, y los puntos van en ese orden.
 
-Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia que ha destruido 300 Seekers, 80 Phantasms y 10 Bulwarks tiene 400 + 12 + 300 + 160 + 40 = **912** puntos. Eso basta para el mínimo de un Sargento (800); que lo sea o no depende de su puesto en la corporación.
+Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia que ha destruido 300 Seekers, 80 Phantasm y 10 Bulwarks tiene 400 + 12 + 300 + 160 + 40 = **912** puntos. Eso lo hace Sargento: el mínimo es 800, y el siguiente rango, Sargento sénior, pide 1.000. Hasta Coronel sénior solo cuentan los puntos.
 
 La página **Clasificaciones** (Comunidad › Clasificaciones) muestra cómo se componen tus puntos, y el **Salón de la Fama** de esa página lista a los mejores pilotos. La **(i)** junto a los puntos PvE de esa página nombra los cinco alienígenas, lo que vale un derribo en cada uno de los [enjambres](/wiki/05-Swarms/Swarms.md), de su nave más pequeña a su jefe, y los [guardianes del clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
@@ -151,15 +153,22 @@ El juego dibuja un rango como un pequeño símbolo: una **forma** para la catego
 | General | estrellas de cinco puntas | naranja |
 | Almirante | una corona de laurel abierta por arriba alrededor de una a tres estrellas | rosa |
 
+## La corona {#the-crown}
+
+El piloto con **más puntos PvE de todo el servidor** lleva una pequeña **corona** dorada sobre el símbolo de su rango. «Todo el servidor» significa todas las corporaciones y los tres mundos, no solo tu corporación: hay una corona en el servidor, y el mejor piloto de cada corporación sigue teniendo el rango propio. Si varios pilotos tienen exactamente los mismos puntos en lo más alto, todos la llevan.
+
+Solo puede llevarla un piloto que esté en una clasificación. Un piloto que ha estado 30 días fuera no la lleva, por muchos puntos que tenga: la corona pasa al mejor piloto que está en una clasificación, y la recupera cuando vuelve a volar y va por delante. Nadie recibe aviso cuando la corona cambia de dueño, se ve. No es un rango y no da nada: pasa el puntero sobre un símbolo coronado y su sugerencia dice «Mejor piloto PvE del servidor».
+
 ## Dónde los ves {#where-you-see-them}
 
-En vuelo ves **solo el símbolo**, nunca las palabras. Está delante del nombre del piloto:
+En vuelo ves **solo el símbolo**, nunca las palabras. Está delante del nombre del piloto, y la corona encima, en todos estos sitios:
 
 - sobre una nave, en la etiqueta de nombre, y en la ventana Objetivo;
 - en el chat, delante del nombre del piloto que escribió la línea;
 - en la lista de tu grupo y en la información de un compañero de grupo en el minimapa;
 - en el registro de bajas, delante de cada piloto nombrado (no delante de los alienígenas);
-- en el Salón de la Fama, en la ventana de clasificación y, grande, en el perfil de un piloto.
+- en el Salón de la Fama, en la ventana de clasificación y, grande, en el perfil de un piloto;
+- en la página Corporación: tu propio rango, la lista de los mejores pilotos y la tabla de todos los rangos.
 
 Las **palabras** (Sargento júnior, Capitán …) están en la página Corporación y al pasar el puntero: apoya el puntero sobre un símbolo. Un símbolo muestra dónde está un piloto entre los pilotos de **su propia corporación**: el Mayor de otra corporación es un Mayor entre los suyos, no entre los tuyos. Los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) son los escuadrones del propio juego y no tienen rango.
 
@@ -167,11 +176,11 @@ Las **palabras** (Sargento júnior, Capitán …) están en la página Corporaci
 
 Abre **Economía › Corporación**. Su sección **Clasificación de la corporación** muestra, de arriba abajo:
 
-- **Tu rango**: su símbolo y nombre, tu puesto («Puesto 16 de 31») y una pequeña etiqueta con tu percentil («Top 52 %»).
-- **Una barra y una línea debajo** que dicen qué exige el siguiente rango. Una línea como «301 puntos PvE para superar a Sable y llegar a Sargento» nombra al último piloto del siguiente rango: supéralo y el rango es tuyo. Cuando solo te frenan tus puntos, la línea dice cuántos puntos PvE te faltan aún. El Almirante sénior lee «El rango más alto.»
+- **Tu rango**: su símbolo (con la corona, si es tuya) y su nombre, tu puesto («Puesto 16 de 31») y una pequeña etiqueta con tu percentil («Top 52 %»).
+- **Una barra y una línea debajo** que dicen lo que pide el siguiente rango. Una línea como «2.500 puntos PvE para General júnior» dice cuántos puntos PvE más pide el mínimo del siguiente rango. Cuando el siguiente rango no tiene plaza libre, la línea nombra al piloto que ocupa la última: «3.100 puntos PvE para superar a Sable y llegar a General júnior». Basta con igualar sus puntos, porque los mismos puntos tienen el mismo rango. En el rango Almirante sénior se lee «El rango más alto.»
 - **El mejor piloto** de tu corporación, con sus puntos.
-- **Todos los rangos**, plegado hasta que lo abres: los 24 rangos como una pirámide, cada uno con una barra tan ancha como su parte de la corporación y tres columnas: **Parte**, **Pilotos** (cuántos lo tienen ahora mismo) y **Mín. puntos**. Tu propio rango está marcado, y una ayuda en una fila dice: «El 10,2 % mejor de tu corporación tiene un rango de Capitán o superior.» Una línea bajo la tabla dice quién está en la clasificación.
-- **La lista**: los mejores **50 pilotos de tu corporación en los tres mundos**, con puesto, símbolo, nombre y puntos PvE. Tu propia fila está marcada.
+- **Todos los rangos**, plegado hasta que lo abres: los 24 rangos, el mejor primero, con sus **Plazas** por corporación (un guion: sin límite), los **Pilotos** que lo tienen ahora, con una barra tan ancha como el rango que más tiene, y los **Mín. puntos**. Tu propio rango está marcado, y una sugerencia en una fila dice: «Almirante sénior: 1 plaza por corporación, desde 50.000 puntos PvE.» Una línea bajo la tabla dice quién está en la clasificación.
+- **La lista**: los **50 mejores pilotos de tu corporación en los tres mundos**, con puesto, símbolo, nombre y puntos PvE. Tu propia fila está marcada.
 
 - Un piloto sin puntos PvE todavía no está en la clasificación ni en la lista: destruye un alienígena para entrar. Un piloto que lleva 30 días fuera tampoco está, hasta que despega o abre la página de nuevo.
 - Solo se muestran nombres y cifras públicas.
@@ -183,10 +192,10 @@ Abre **Economía › Corporación**. Su sección **Clasificación de la corporac
 
 ## Rangos y reinicio {#ranks-and-the-wipe}
 
-Un reinicio no cambia los puntos de nadie. Conserva tu nivel, tu experiencia y tus estadísticas de derribos ([Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), y tus puntos PvE se calculan a partir de ellos, así que la clasificación de tu corporación queda en el mismo orden después del reinicio. Tu rango, en cambio, ya no es para toda la vida: sigue a tu puesto, así que se mueve a medida que lo hacen los pilotos de tu corporación, y un piloto que pasa 30 días fuera sale de la clasificación hasta que vuelve a volar.
+Un reinicio no cambia los puntos de nadie. Conserva tu nivel, tu experiencia y tus estadísticas de derribos ([Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), y tus puntos PvE se calculan a partir de ellos, así que la clasificación de tu corporación queda en el mismo orden tras el reinicio, y también los rangos y la corona. Tu rango ya no es para siempre, sin embargo: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
 
 ## Cuánto se tarda {#how-long-it-takes}
 
-Son **estimaciones** de un modelo de lo rápido que caza un piloto, no mediciones. El mínimo de puntos no es lo difícil: un piloto que caza unas dos horas al día, 58 horas en una temporada, tiene unos 21.200 puntos PvE tras una temporada, más de lo que exige incluso el Almirante sénior. En horas de caza, el mínimo de un Piloto llega en la primera hora, el de un Sargento en 4, el de un Capitán en unas 9, el de un Mayor en 14, el de un Coronel en 22, el de un General en 32, el de un Almirante en 48 y el del Almirante sénior en 55.
+Son **estimaciones** de un modelo de lo rápido que caza un piloto, no mediciones. Un piloto que caza unas dos horas al día, 58 horas en una temporada, tiene unos 21.200 puntos PvE tras una temporada: Coronel. En horas de caza, el mínimo de Piloto llega en la primera hora, el de Sargento en 4, el de Capitán en 18, el de Mayor en 38, el de Coronel en 55, el de General júnior en 67, el de General en 73, el de General sénior en 78, el de Almirante júnior en 101, el de Almirante en 113 y el de Almirante sénior en 124.
 
-Lo que decide tu rango es tu puesto, y los demás pilotos también cazan. En una corporación de 31 pilotos, solo los cuatro mejores pueden ser Capitán o más, tengan los demás los puntos que tengan. El mínimo de puntos evita que una corporación joven reparta los rangos más altos; el puesto mantiene pequeña la cima de una corporación antigua.
+Así que un piloto activo típico llega a los rangos con plazas en su segunda temporada. Que consiga una plaza depende de los demás pilotos de su corporación, que también cazan: las plazas de un rango solo importan cuando más pilotos alcanzan su mínimo que plazas tiene. Hasta entonces el rango depende solo de tus puntos.

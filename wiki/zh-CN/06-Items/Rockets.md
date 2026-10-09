@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: 火箭 -->
 # 火箭 {#rockets}
 
@@ -140,7 +140,7 @@ Scatter I -> Scatter II -> Scatter III => N.U.K.E.
 - **装填。** Asterism 让共用计时器变长 35%（4.05 秒），Cordon 变长 11%（3.33 秒），Redoubt 变短 27%（2.19 秒），但绝不会短于火箭的飞行时间再加一小段余量。穿着 Redoubt 时，快的火箭（Lancet I、Rivet I 和 II、Ember I、Scatter I 和 II）等 2.19 秒，Rivet III 等 2.3 秒，Lancet III 等 2.9 秒，Ember III 等整整 3 秒；无论穿什么编队，N.U.K.E. 和 N.I.K.E. 之后都要等 4.1 秒和 4.6 秒。等待时间在发射时确定，所以之后再切换编队不会缩短它，火箭槽位上方的扇形也跟随它。
 - **两枚大型火箭的上限依然成立。** 用最好的编队，N.I.K.E. 最高造成 116,250 的伤害，完好的 Paragon（128,000）能扛住；N.U.K.E. 最高 77,500，Goombah（80,000）能扛住。
 - **闪避。** Asterism 的 7% 闪避让击中你的直接命中火箭有 7% 的几率完全不造成伤害，你的飞船上方会浮现“未命中”；范围爆炸没有瞄准，永远不会被闪避。
-- **穿透。** Gemini 和 Stiletto 把自己的点数加到直接命中火箭的护盾穿透上（爆炸没有穿透），总计最高 40%。激光命中最高到 50%（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+- **穿透。** Gemini 和 Stiletto 把自己的点数加到直接命中火箭的护盾穿透上（爆炸没有穿透），没有上限：Lancet III 加上 Stiletto 是 51%。激光命中也以同样的方式把它们加到弹药和增幅器的穿透上（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
 ## 规则 {#rules}
 

@@ -1,35 +1,98 @@
-<!-- wiki-i18n source: 3d121321d2746bbe -->
+<!-- wiki-i18n source: e67774df0345c0b5 -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
-Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den gemensamma banken, ställa in skattesatser, samordna dig med medlemmar i din fraktion och sköta diplomati. En klan har också arbete att göra tillsammans: varje dag får den en **dagslinje** av uppdrag som slutar med en boss som bara klanen kan skada, och poängen den tjänar köper **permanenta bonusar** åt varje medlem. (På spelets Klan-sida kallas en klan en *flotta*, och dess poäng och bonusar heter där flottpoäng och flottbonusar.)
+Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den gemensamma banken, ställa in skattesatser, samordna dig med medlemmar i din fraktion och sköta diplomati. En klan har också arbete att göra tillsammans: varje dag får den en **dagslinje** av uppdrag som slutar med en boss som bara klanen kan skada, och poängen den tjänar köper **permanenta bonusar** åt varje medlem. (På spelets Klan-sida kallas en klan en *flotta*, och dess poäng och bonusar heter där flottpoäng och flottbonusar.) **En klan hör till en värld och försvinner med wipen:** du kan bara gå med i klaner i din egen värld, och vid varje wipe upplöses alla klaner ([Klaner och världar](#clans-and-worlds)).
 
 **På en minut**
 
+- Varje klan har en **klansida** som varje pilot i dess värld kan öppna: nivå, piloter, ledare, beskrivning, Discord-länk, krav, sammanlagda poäng och bonusar ([Klansidan](#the-clan-page)). Ledaren och vice ledarna ställer in den under **Hantering** ([Hantering](#management)).
+- En klan har en **värld** (grundarens), tar bara emot piloter från den världen, och **wipen upplöser den tillsammans med dess kassa**: betala ut Flottans kassa innan nedräkningen tar slut ([wipen](#the-wipe-disbands-every-clan)).
+- Ledaren och vice ledarna skriver [inlägg](#clan-posts) till hela klanen, varje medlem ser [på vilken karta](#where-your-clan-mates-are) de andra flyger, fönstret [Vem är online](#who-is-online) (tangent **H**) bjuder in vilken pilot som helst i din värld till din grupp, ledaren kan betala en [dagsbonus](#4-daily-bonus) ur Flottans kassa, och fliken [Logg](#fleet-log) berättar för klanen vad som hänt i den.
+- Ett krig tar bara slut om den andra klanen går med på det, och en allians eller en pakt tar slut direkt när någon av de två klanerna säger upp den ([Diplomati](#diplomacy)).
 - Varje säsongsdag får din klan en [dagslinje](#daily-line): fyra uppdrag som görs i ordning (skjuta ned utomjordingar, flyga en sträcka, vissa dagar fälla svärmbossar), sedan en [klanväktare](#clan-wardens), en boss som du kallar fram och som bara din klan kan skada.
 - Varje klart steg betalar klanpoäng direkt: 15, 15, 20, 20 och 30, alltså **100 poäng** för en hel linje.
 - Ledaren och vice ledarna lägger poängen på tre [bonusar](#clan-points-and-boosts) med tio nivåer vardera: **Skada** (upp till +5 %), **Thulium** (upp till +10 %) och **Krediter** (upp till +10 %).
-- En klan som klarar varje linje har köpt alla nivåer på **säsongsdag 12**. Poäng och nivåer börjar om vid varje wipe.
+- En klan som klarar varje linje har köpt alla nivåer på **säsongsdag 12**. Poäng, nivåer och själva klanen tar slut med wipen.
 - Du behöver minst **tre medlemmar** som gjort sin del och **en stor besättning** för striden mot väktaren: sedan 0.4.13 har en väktare fem gånger så mycket skrov, sköld och laserskada som tidigare, så besättningarna som förut vann, ungefär sju piloter, förlorar nu ([hur stor besättning som behövs](#how-big-a-crew)). En för liten besättning förlorar striden: klanen behåller då de **70 poängen** från de fyra uppdragen, men linjen blir inte klar och betalar ingen [belöning till dig](#the-reward-for-you).
-- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)).
+- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)). Sedan 0.4.16 är betalningen tre gånger så stor, och så länge en väktare står **kommer en våg av kartans utomjordingar varje minut** ([vågor](#waves-of-aliens)).
 - Ditt skepp visar de bonusar det har i fönstret **Boosters**, på ett eget kort ([var du ser dem](#the-three-boosts)).
-- Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare, kortet i fönstret Boosters version 0.4.12 eller senare.
+- Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare, kortet i fönstret Boosters version 0.4.12 eller senare, klansidan, inläggen, onlinefönstret, dagsbonusen, fredsbegärandena, loggen och klaner per värld version 0.4.16 eller senare.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
+## Klaner och världar {#clans-and-worlds}
+
+### En klan, en värld {#one-clan-one-world}
+
+En klan hör till en **värld**, Alpha, Beta eller Gamma ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): grundarens värld. Att grunda en kostar ingenting, men du måste ha valt din värld först.
+
+- **Du kan bara gå med i en klan i din egen värld.** Du kan inte ansöka till, gå med i, bli inbjuden av eller alliera dig med en klan i en annan värld, och spelet säger varför när du försöker. En pilot från en annan värld kan inte heller bjudas in eller tas emot.
+- **Du ser bara klanerna i din värld.** Flottregistret och båda topplistorna (PvE och PvP) visar bara dem, och sidan för en klan i en annan värld går inte att öppna. Klannamn och taggar är unika över alla tre världar: ett namn som är taget i Gamma är inte ledigt i Alpha före wipen.
+- **Allianser, pakter och krig finns bara mellan klaner i samma värld.** De som slöts mellan världar före 0.4.16 gäller tills de sägs upp, och ett sådant krig kan fortfarande avslutas i samförstånd ([Diplomati](#diplomacy)).
+- **Klaner som redan fanns** tog sin ledares värld. En medlem från en annan värld som redan var med blir kvar till wipen eller tills hen går; hen kan inte tas emot igen.
+
+### Wipen upplöser varje klan {#the-wipe-disbands-every-clan}
+
+Vid [wipen](/wiki/03-Mechanics/Wipe-Timeline.md) upplöses varje klan, i alla tre världar. Med den försvinner: medlemmarna, **Flottans kassa**, ansökningar och inbjudningar, allianser, pakter och krig, inläggen, loggen, kraven, beskrivningen och Discord-länken, dagsbonusen, klanpoängen och bonusnivåerna samt dagens linje. Klanens namn och tagg blir lediga igen, och en ny klan börjar på nivå 1.
+
+- **Du behåller** alla krediter som klanen redan betalat ut till dig (utbetalningar, dagsbonusar, linjens belöningar) och din donationsgräns, som wipen inte nollställer ([Donationer](#2-donations)).
+- **Du förlorar** klanen och **allt som ligger kvar i dess Flottans kassa**, om inte ledaren eller en vice ledare har betalat ut det till piloterna före wipen ([Utbetalningar från banken](#3-bank-payouts)).
+- **Nedräkningen varnar klanerna.** Med sin första varning, 5 minuter före wipen, får varje pilot som är med i en klan en rad och ett meddelande: wipen upplöser varje klan, dess kassa går förlorad, och ledare och vice ledare ska betala ut Flottans kassa till sina piloter nu. Kortet Flottans kassa under Hantering säger detsamma.
+
+---
+
+## Klansidan {#the-clan-page}
+
+Varje klan har en sida som **varje pilot i dess värld kan öppna**, vare sig piloten är med i en klan eller inte. Klicka på klanens namn i **flottregistret** (Community › Klan, så länge du inte är med i någon klan), i någon av de två **topplistorna** eller på en **pilots profil**; knappen **Förhandsgranska klansidan** under Hantering visar din egen klan så som en pilot utanför ser den. Sidan visar:
+
+- **Klanen**: namn och tagg, nivå, piloterna just nu och hur många nivån rymmer (»Nivå 2 · 14/25 piloter«), ledaren (klicka på namnet för profilen), dess värld, hur piloter går med (Öppen, Ansökningar eller Bara inbjudna), **beskrivningen** (högst 200 tecken, skriven av ledaren eller en vice ledare) och **Discord-länken** med en knapp **Öppna Discord**. Bara länkar med `discord.gg` och `discord.com/invite` godtas, och spelet öppnar inget annat.
+- **Sammanlagda poäng**: erfarenhets-, heders-, PvE- och PvP-rankingpoängen för alla piloter som är med i klanen just nu, sammanräknade.
+- **Krav** ([nedan](#requirements)), med en bock eller ett kryss för det du uppfyller.
+- **Klanboosters**: de bonusar klanen har köpt och hur många dagar de gäller, till wipen.
+- **Ansök** eller **Gå med nu**, som i flottregistret. Knappen är grå, med orsaken, när klanen är full eller du saknar ett krav.
+
+Sidan visar aldrig medlemslistan, kassorna, ansökningarna eller klanpoängen: de är till för klanens egna medlemmar.
+
+### Krav {#requirements}
+
+Ledaren och vice ledarna kan kräva två saker av en pilot som vill in:
+
+- **En lägsta nivå**, från 1 (inget krav) till 21.
+- **En lägsta grad**: en gradnivå i koncernens grader, från **Pilot** (inget krav) till **Amiral**: Pilot, Sergeant, Löjtnant, Kapten, Major, Överste, General, Amiral ([Grader](/wiki/03-Mechanics/Ranks.md)). En nivå räknas från sin lägsta grad: en klan som kräver Kapten tar emot en Junior kapten och varje pilot över hen. Det är graden du har just nu på din koncerns lista, inte världen du flyger i.
+
+De kontrolleras när en pilot **ansöker eller går med**. En officers **inbjudan** hoppar över dem, och det gör också en ansökan som en officer godkänner. Flottregistret visar dem som små kapslar under klanens namn, röd för den du inte uppfyller; en klan som inte har ställt in något kräver inget.
+
+---
+
 ## Klanens utveckling {#clan-progression}
 
-Klaner börjar på nivå 1 och kan uppgraderas till nivå 5. För att uppgradera klanen måste krediter betalas från **Klanbanken**. Uppgraderingar ökar medlemskapaciteten och de dagliga utbetalningsgränserna.
+Klaner börjar på nivå 1 och kan uppgraderas till nivå 5. För att uppgradera klanen måste krediter betalas från **klanbanken** (i spelet heter den **Flottans kassa**). Uppgraderingar ökar medlemskapaciteten och de dagliga utbetalningsgränserna; klanbonusarna köps med klanpoäng, inte med nivåer.
 
 | Klannivå | Medlemsgräns | Daglig utbetalningsgräns (per medlem) | Uppgraderingskostnad (krediter) |
 | :---: | :---: | :---: | :--- |
-| **Nivå 1** | 10 | 1 000 000 KRD | — |
+| **Nivå 1** | 15 | 1 000 000 KRD | — |
 | **Nivå 2** | 25 | 2 000 000 KRD | 10 000 000 KRD |
 | **Nivå 3** | 50 | 3 000 000 KRD | 100 000 000 KRD |
 | **Nivå 4** | 75 | 4 000 000 KRD | 1 000 000 000 KRD |
 | **Nivå 5** | 100 | 5 000 000 KRD | 10 000 000 000 KRD |
+
+---
+
+## Hantering {#management}
+
+Fliken **Hantering** i klanfönstret (till 0.4.16 hette den Admin) är till för ledaren och vice ledarna; de andra medlemmarna ser ett lås. Dess kort, uppifrån:
+
+- **Värvningsprotokoll**: hur piloter går med. **Öppen** tar emot varje pilot som uppfyller kraven direkt, **Ansökningar** låter en officer avgöra varje ansökan, **Bara inbjudna** tar inte emot någon som inte bjudits in.
+- **Skatteinställningar**: den dagliga skattesatsen, 0 % till 5 % ([Daglig skatt](#1-daily-taxation)).
+- **Ansökningskrav**: lägsta nivå och lägsta grad ([Krav](#requirements)).
+- **Klansida**: beskrivningen (200 tecken) och Discord-länken som piloter utanför klanen läser, och knappen **Förhandsgranska klansidan** ([Klansidan](#the-clan-page)). Klanens egna medlemmar läser länken i Översikten.
+- **Flottans kassa**: krediterna från donationer och den dagliga skatten, med påminnelsen att wipen upplöser klanen och kassan går förlorad.
+- **Thulium-kassa**: en andra kassa, som visas bredvid Flottans kassa i klanfönstrets sidhuvud. Den är tom, och ingenting betalas in i den eller ut ur den: den är reserverad för en framtida uppdatering.
+- **Flottans utveckling** och **Uppgraderingar**: de fem nivåerna med hur många piloter var och en rymmer, det mesta en medlem kan få utbetalat på en dag och priset, samt ledarens uppgraderingsknapp. Bara ledaren uppgraderar.
+- **Dagsbonus**: ledarens belopp för varje grad ([Dagsbonus](#4-daily-bonus)).
 
 ---
 
@@ -57,14 +120,24 @@ Klaner drivs av ett skattebaserat ekonomiskt system:
 - **Utbetalningsgränser**: Klanens ledare och officerare kan fördela krediter från Klanbanken till enskilda medlemmar.
 - **Daglig gräns**: En medlem kan inte ta emot mer än `1,000,000 * ClanLevel` krediter i utbetalningar under en enda kalenderdag (UTC).
 
+### 4. Dagsbonus {#4-daily-bonus}
+
+Ledaren kan betala varje medlem en fast bonus ur Flottans kassa, en gång om dagen.
+
+- **Ställa in den.** På kortet **Dagsbonus** under Hantering anger ledaren ett belopp för varje roll: Pilot, Äldste, Vice ledare och Ledare. **0 stänger av en roll**; varje annat belopp är **1 000 till 1 000 000 krediter**. Vice ledarna ser kortet men kan inte ändra det. Att spara tar ingenting ur kassan. Kortet visar vad en hel dag skulle kosta om alla piloter spelade och hur många dagar kassan skulle räcka.
+- **Utbetalning.** En medlem får betalt **en gång per säsongsdag**, vid sin första kontroll den dagen: när hen ansluter, när dagen byts medan hen är online och när ledaren sparar nya belopp. En säsongsdag är klanlinjens 24 timmar, inte midnatt UTC ([Dagen](#the-day)). Piloten får en Systemrad och en rad i Spelloggen, och Översikten visar »Dagsbonus: X krediter« och om den betalats i dag.
+- **Vem.** En pilot som varit med i klanen i **minst 24 timmar**, och **en bonus per pilot och säsongsdag över alla klaner**: den som byter klan för att hämta mer får betalt en gång.
+- **En knapp kassa.** Kassan betalar bara det den har och går aldrig under noll. När den inte kan betala en medlems belopp hoppas medlemmen över den dagen, även om kassan fylls på senare samma dag, och [Flottans logg](#fleet-log) noterar det en gång. Piloterna får betalt i den ordning de ansluter tills kassan är tom.
+- **Ingen utbetalning ur banken.** Bonusen använder inte en medlems dagliga utbetalningsgräns.
+
 ---
 
 ## Hierarki och roller {#hierarchy-roles}
 
 Klaner använder en rollbaserad gradstruktur för att hantera behörigheter:
 
-- **Ledare (roll 3)**: Har full administrativ åtkomst, inklusive uppgradering, att ställa in skatter, diplomati, befordringar, att avskeda medlemmar och att upplösa klanen.
-- **Vice ledare (roll 2)**: Kan ställa in skattesatser, betala ut krediter, hantera diplomati och befordra eller degradera lägre grader.
+- **Ledare (roll 3)**: Har full administrativ åtkomst, inklusive uppgradering, att ställa in skatter, krav, klansida och dagsbonus, diplomati, inlägg, befordringar, att avskeda medlemmar och att upplösa klanen.
+- **Vice ledare (roll 2)**: Kan ställa in skattesatser, krav och klansida, betala ut krediter, hantera diplomati, skriva inlägg och befordra eller degradera lägre grader.
 - **Äldste (roll 1)**: Betrodd medlem som kan godkänna nya ansökningar till klanen.
 - **Medlem (roll 0)**: Vanlig spelare utan administrativa behörigheter.
 
@@ -75,6 +148,9 @@ Klaner använder en rollbaserad gradstruktur för att hantera behörigheter:
 | **Upplösa klanen** | ✅ | ❌ | ❌ | ❌ |
 | **Uppgradera klanen** | ✅ | ❌ | ❌ | ❌ |
 | **Ställa in skattesats** | ✅ | ✅ | ❌ | ❌ |
+| **Ställa in krav och klansida** | ✅ | ✅ | ❌ | ❌ |
+| **Ställa in dagsbonus** | ✅ | ❌ | ❌ | ❌ |
+| **Skriva klaninlägg** | ✅ | ✅ | ❌ | ❌ |
 | **Betala ut krediter** | ✅ | ✅ | ❌ | ❌ |
 | **Hantera diplomati** | ✅ | ✅ | ❌ | ❌ |
 | **Köpa klanbonusar** | ✅ | ✅ | ❌ | ❌ |
@@ -87,6 +163,32 @@ Klaner använder en rollbaserad gradstruktur för att hantera behörigheter:
 ### När ledaren lämnar {#when-the-leader-leaves}
 
 En ledare kan inte lämna en klan som fortfarande har andra medlemmar: befordra först en vice ledare till ledare (ledaren går då ner till vice ledare), eller lämna sist, vilket upplöser klanen. Om ledaren raderar sitt konto (Inställningar › Konto) går ledarskapet till den medlem som har högst grad, vid lika den som varit med längst; en ledare som är ensam i klanen upplöser den, banken inräknad.
+
+---
+
+## Klaninlägg {#clan-posts}
+
+Ett **inlägg** är en kort lapp till hela klanen, en anslagstavla för officerarnas nyheter. Det finns på fliken **Inlägg** i klanfönstret.
+
+- **Vem skriver.** Ledaren och vice ledarna. Alla medlemmar läser. Ledaren och vice ledarna tar bort vilket inlägg som helst, och en författare tar bort sitt eget, även efter att ha degraderats.
+- **Texten.** Högst **200 tecken** på en rad, med en räknare under rutan; Enter skickar. **Inga länkar**: ett inlägg med en länk avvisas.
+- **Gränser.** Ett inlägg per författare var **10:e sekund**, och klanen behåller **20** åt gången: det 21:a tränger ut det äldsta.
+- **Hur länge.** Ett inlägg varar till wipen.
+- **Meddelande.** De medlemmar som är online får ett meddelande (»Nova har skrivit ett inlägg till flottan.«) och ett svagt ljud, högst en gång per en och en halv sekund oavsett hur många inlägg som kommer. Listan visar det nyaste först, med författaren och hur länge sedan det skrevs.
+
+## Var dina klankamrater finns {#where-your-clan-mates-are}
+
+Kolumnen **Karta** i medlemslistan visar sektorn där varje pilot i din klan flyger (»T-2«), med världen framför när det inte är din egen (»Beta · T-2«). Den läses om var 10:e sekund medan listan är öppen. Bara **kartan** visas, aldrig koordinater, och ingenting sparas. En pilot som är **dockad eller utloggad** står som **Offline**, och det gör också en pilot vars kamouflerade skepp du inte skulle kunna se på en karta ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): en klan häver inte ett kamouflage.
+
+## Vem är online {#who-is-online}
+
+Knappen **Vem är online** i systemverktygsfältet (uppe till höger) eller tangenten **H** (kan bindas om under Inställningar › Kontroller) öppnar fönstret **Piloter online**.
+
+- **Vem som visas.** Piloterna som flyger just nu i **din värld**, utom du själv: Alpha, Beta och Gamma möts inte. En pilot vars kamouflerade skepp du inte kan se visas inte och räknas inte. Fönstret visar högst **100** rader, först dina klankamrater, sedan de högre nivåerna, sedan efter namn, och överst det verkliga antalet piloter som är online.
+- **Vad en rad visar.** Pilotens namn, nivå, koncern, klantagg och gradsymbol: det chatten och topplistorna redan visar. Aldrig en position, en karta eller skeppets tillstånd.
+- **Sök.** Skriv en del av ett namn eller av en klantagg; fönstret frågar servern igen när listan var avkortad.
+- **Bjud in.** Radens knapp **Bjud in** är gruppfönstrets egen inbjudan ([Grupper](/wiki/03-Mechanics/Groups.md)), med samma svar och avslag (piloten är med i en grupp, gruppen är full, Stör ej är på). Knappen är grå, med orsaken när du håller muspekaren över den, när spelet redan vet att inbjudan skulle avvisas.
+- Listan läses om var 10:e sekund medan fönstret är öppet.
 
 ---
 
@@ -133,7 +235,7 @@ Nivån avgör hur många utomjordingar uppdragen kräver, vilken utomjording det
 - **Ditt minimum.** För att få del av dagens belöning måste du göra **5 % av dagens arbete**, ungefär åtta minuters riktig jakt. Fliken visar det som »Ditt arbete i dag: 312 av 469 enheter«. En arbetsenhet är en sekund av spelande: en nedskjutning räknas som den tid det tar att hitta och förgöra den utomjordingen, och en flygsträcka som den tid det tar att flyga den. För en Veteran-klan är en Seeker värd ungefär 12 enheter, en Phantasm 22, en Bulwark 123 och 1 000 flugna enheter ungefär 5; minimum är 446 till 480 enheter, oavsett dag och nivå.
 - **Minst tre medlemmar** måste ha nått sitt minimum innan ett steg kan bli klart. Är ett steg fullt och färre har nått det **väntar** det (»Steg 3 är fullt, men bara 2 medlemmar har nått sitt minimum«), och nedskjutningar av det stegets utomjording läggs fortfarande till arbetet för de medlemmar som gjorde dem tills den tredje kommer upp. En klan med färre än tre piloter kan inte göra klart något steg.
 - **Vem som får en nedskjutning.** Piloten som får betalt för nedskjutningen och hens gruppkamrater inom 4 000 enheter som sköt de senaste 15 sekunderna ([Grupper](/wiki/03-Mechanics/Groups.md#sharing-kills)). En klan räknar en nedskjutning **en gång**, hur många av dess piloter som än var med i gruppen, och nedskjutningens arbete delas lika mellan dem. Två klaner i en grupp räknar den en gång var.
-- **Vilka nedskjutningar.** Bara det öppna stegets utomjording: den vanliga Seeker, Phantasm, Bulwark eller Goombah. Svärmskepp, andra piloter och en väktares hjälpare räknas inte som dessa utomjordingar. Vilken värld som helst räknas, och en nedskjutning räknas mer i en starkare värld: **1 i Alpha, 1,5 i Beta, 2 i Gamma** ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ett bossteg räknar [svärmarnas](/wiki/05-Swarms/Swarms.md) bossar, en för varje klan som har en pilot som gjorde minst 5 % av skadan.
+- **Vilka nedskjutningar.** Bara det öppna stegets utomjording: den vanliga Seeker, Phantasm, Bulwark eller Goombah. Svärmskepp, andra piloter och en väktares hjälpare räknas inte som dessa utomjordingar. En nedskjutning räknas för den värld där den sker, och mer i en starkare värld: **1 i Alpha, 1,5 i Beta, 2 i Gamma** ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ett bossteg räknar [svärmarnas](/wiki/05-Swarms/Swarms.md) bossar, en för varje klan som har en pilot som gjorde minst 5 % av skadan.
 - **Flygning.** Ett patrullsteg räknar sträckan varje pilot flyger utanför skyddszonerna; fem piloter som flyger tillsammans lägger till fem gånger sträckan.
 - **Gå med och lämna.** Det du gjorde förblir räknat om du lämnar. En pilot som går med räknas från det ögonblicket.
 
@@ -165,11 +267,11 @@ När linjen är klar, alltså när väktaren är förgjord, får varje medlem so
 
 ## Klanväktare {#clan-wardens}
 
-En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)).
+En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)). Sedan 0.4.16 har Brood Warden III **hälften** så mycket skrov och sköld, dess drönare läker hälften så mycket och kommer hälften så ofta, och varje väktare tar med sig [vågor av utomjordingar](#waves-of-aliens) så länge den står.
 
 | Väktare | Säsongsdagar | Roll | Hur den strider |
 | :--- | :--- | :--- | :--- |
-| **Brood Warden** | 1, 4, 7, 10 … | Kupans väktare: dela upp din eld | Fyra små **Brood Drones** läker dess skrov, och en ny kommer var 8:e sekund så länge färre än fyra lever. Skjut drönarna först, sedan väktaren. |
+| **Brood Warden** | 1, 4, 7, 10 … | Kupans väktare: dela upp din eld | Fyra små **Brood Drones** läker dess skrov, och en ny kommer var 8:e sekund så länge färre än fyra lever (var 16:e sekund för Brood Warden III). Skjut drönarna först, sedan väktaren. |
 | **Siege Warden** | 2, 5, 8, 11 … | Belägringsbrytare: fortsätt röra dig | Den ströftar omkring och avfyrar en rak [Rivet-raket](/wiki/06-Items/Rockets.md#the-twelve-rockets) mot den pilot som träffade den först, och lagar sig själv. Två **Siege Escorts** lägger till laserelden. Fortsätt röra dig och turas om att vara måltavla. |
 | **Wrath Warden** | 3, 6, 9, 12 … | Krigsherre: slå ned raseriet | Den strider på stället och lagar sig själv. Under halv skrovstyrka träffar dess lasrar **en och en halv gång så hårt**. Två **Wrath Guards** lägger till laserelden. Ta ned den snabbt och håll sköldarna uppe. |
 
@@ -186,26 +288,42 @@ En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publi
 ### Strida mot en väktare {#fighting-a-warden}
 
 - **En väktare strider mot den pilot som träffade den först**, som varje boss: låt besättningens kraftigaste skepp börja och använd [Shield Surge och Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 18 till 26 piloter med x2-ammunition och 28 till 39 med x1-ammunition.
-- **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar, även en stor. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder.
+- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 18 till 26 piloter med x2-ammunition och 26 till 38 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen.
+- **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar, även en stor. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder (efter 16 för Brood Warden III).
 - **Siege:** dess raketer är raka och ostyrda, så ett skepp som fortsätter röra sig väjer för de flesta. Fortsätt röra dig och turas om att vara måltavla.
 - **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet.
+
+### Vågor av utomjordingar {#waves-of-aliens}
+
+Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväpnad** (de 90 sekundernas uppvärmning har inga vågor, så besättningen hinner samlas) kommer **var 60:e sekund** en **våg** av vanliga utomjordingar från kartan den står på, så länge väktaren står.
+
+| Karta | En våg | Högst levande samtidigt |
+| :--- | :--- | ---: |
+| x-2 | 5 Phantasm | 15 |
+| x-3 | 10 Phantasm | 30 |
+| x-4 | 10 Bulwark | 30 |
+
+- **Högst tre vågor lever.** En våg lever så länge en av dess utomjordingar gör det. En våg som ska komma när tre lever hoppas över och sparas inte till senare; nästa kommer en minut senare.
+- **Det är kartans egna utomjordingar**, den sort som anfaller piloter, gjorda så som kartan gör dem: en starkare värld ger dem mer skrov, sköld och skada ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). De kommer 500 till 1 200 enheter från väktaren, utspridda runt den.
+- **De ingår inte i striden om väktaren.** De läker ingenting, och att skjuta på dem ger ingenting till din andel av skadan på väktaren. Vilken pilot på kartan som helst kan döda dem. Var och en betalar sin utomjordings vanliga betalning i din värld och ger PvE-poäng: en hel våg om 5 Phantasm betalar 15 000 krediter i Alpha, en om 10 Bulwark 50 000, under 2 % av vad den svagaste väktaren betalar.
+- **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler; utomjordingarna som redan är ute blir kvar och är kartans vanliga utomjordingar. En omstart av servern avslutar dem tillsammans med väktaren.
+- **Klanen får veta.** Varje våg annonseras på chattens flik System och i Spelloggen: »Brood Warden I kallar på förstärkning i M-3: 10 Phantasm.«
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 
 > [!NOTE]
-> Sedan 0.4.13 har varje väktare och varje hjälpare **fem gånger** så mycket skrov, sköld, laserskada, självreparation och läkning som i 0.4.12 (fart, räckvidd och antalet hjälpare är desamma). Den tar fem gånger så lång tid att fälla och slår fem gånger så hårt hela tiden, så besättningarna som förut vann förlorar nu. **Vi har ännu inte slagits mot de nya väktarna i spelet: tiderna nedan är beräknade, inte uppmätta.** De visar besättningens **bästa fall**: besättningen sitter i de skepp och den utrustning som nivån är gjord för, varje pilot använder Shield Surge och Emergency Repair så snart de är redo, besättningen skjuter först på väktarens hjälpare när det är bättre, väktaren och dess hjälpare skjuter alla på piloten som träffade först, och ingen väjer. I 0.4.12 var samma beräkning mer hoppfull än striderna vi körde i själva spelet med skriptade piloter, så en riktig strid kan vara tuffare än tabellen, och en bra besättning kan klara sig bättre: ta den som en vägledning, inte ett löfte.
+> Sedan 0.4.13 har varje väktare och varje hjälpare **fem gånger** så mycket skrov, sköld, laserskada, självreparation och läkning som i 0.4.12 (fart, räckvidd och antalet hjälpare är desamma); sedan 0.4.16 har Brood Warden III bara hälften av det skrovet och den skölden, och dess drönare hälften av den läkningen. Den tar fem gånger så lång tid att fälla och slår fem gånger så hårt hela tiden, så besättningarna som förut vann förlorar nu. **Vi har ännu inte slagits mot de nya väktarna i spelet: tiderna nedan är beräknade, inte uppmätta.** De visar besättningens **bästa fall**: besättningen sitter i de skepp och den utrustning som nivån är gjord för, varje pilot använder Shield Surge och Emergency Repair så snart de är redo, besättningen skjuter först på väktarens hjälpare när det är bättre, väktaren och dess hjälpare skjuter alla på piloten som träffade först, och ingen väjer. I 0.4.12 var samma beräkning mer hoppfull än striderna vi körde i själva spelet med skriptade piloter, så en riktig strid kan vara tuffare än tabellen, och en bra besättning kan klara sig bättre: ta den som en vägledning, inte ett löfte. **Vågorna av utomjordingar ingår inte i beräkningen**, så en riktig strid är tuffare än tabellen.
 
 Tabellen visar bästa fallet; i spelet, ta med så många du kan.
 
 | Besättning | Med x2-ammunition | Med x1-ammunition |
 | :--- | :--- | :--- |
 | 5 piloter | förlorar mot varje väktare; väktaren behåller 88 till 96 % av sitt skrov och sin sköld | förlorar |
-| 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 87 % av sitt skrov och sin sköld | förlorar |
-| 20 piloter | vinner bara mot Siege Warden I och II, på 8,5 till 8,6 minuter, och förlorar 7 skepp | förlorar |
-| 30 piloter | vinner mot alla väktare på 4,5 till 5,1 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 12,6 till 12,8 minuter, och förlorar 10 skepp |
+| 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 85 % av sitt skrov och sin sköld | förlorar |
+| 20 piloter | vinner bara mot Siege Warden I och II, på 8,5 till 8,6 minuter, och förlorar 7 skepp, samt mot Brood Warden III, på 3,7 minuter, och förlorar 8 skepp | förlorar |
+| 30 piloter | vinner mot alla väktare på 2,0 till 5,1 minuter och förlorar 3 till 10 skepp | vinner bara mot Siege Warden I och II, på 12,6 till 12,8 minuter, och förlorar 10 skepp, samt mot Brood Warden III, på 5,0 minuter, och förlorar 11 skepp |
 
-I beräkningen har den minsta besättning som vinner med x2-ammunition **18 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **9 till 17** skepp på köpet; med x1-ammunition har den **28 till 39** piloter och förlorar 13 till 27. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 19 till 59 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
+I beräkningen har den minsta besättning som vinner med x2-ammunition **18 till 26 piloter** (som minst mot Siege Warden I och II och Brood Warden III) och förlorar **9 till 17** skepp på köpet; med x1-ammunition har den **26 till 38** piloter och förlorar 13 till 27. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 19 till 59 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
 
 Tabellen gäller en besättning med utrustning för väktarens egen nivå. Svagare skepp klarar sig sämre. **Din** klans väktare matchar alltid **din** nivå, som klanens fem bästa piloter bestämmer, så ta med dem.
 
@@ -219,7 +337,7 @@ Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras 
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
 | Brood Warden I | 830 000 | 680 000 | 645 | 90 | 600 | – | – |
 | Brood Warden II | 1 440 000 | 1 180 000 | 3 885 | 90 | 700 | – | – |
-| Brood Warden III | 5 300 000 | 4 350 000 | 15 450 | 90 | 800 | – | – |
+| Brood Warden III | 2 650 000 | 2 175 000 | 15 450 | 90 | 800 | – | – |
 | Siege Warden I | 715 000 | 585 000 | 240 | 110 | 600 | 1 075 | Rivet I: 24 |
 | Siege Warden II | 1 240 000 | 1 015 000 | 1 455 | 110 | 700 | 1 875 | Rivet II: 12 |
 | Siege Warden III | 4 575 000 | 3 725 000 | 9 225 | 110 | 800 | 6 925 | Rivet III: 8 |
@@ -231,7 +349,7 @@ Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras 
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Brood Drone I | 4 | 3 500 | 2 500 | 60 | 170 | 600 |
 | Brood Drone II | 4 | 6 000 | 4 500 | 390 | 170 | 1 050 |
-| Brood Drone III | 4 | 20 000 | 17 500 | 1 575 | 170 | 3 850 |
+| Brood Drone III | 4 | 20 000 | 17 500 | 1 575 | 170 | 1 925 |
 | Siege Escort I | 2 | 21 500 | 17 500 | 30 | 175 | – |
 | Siege Escort II | 2 | 37 000 | 30 500 | 225 | 175 | – |
 | Siege Escort III | 2 | 137 500 | 112 500 | 1 425 | 175 | – |
@@ -241,26 +359,26 @@ Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras 
 
 ### Betalning och byte {#warden-pay-and-loot}
 
-En väktare betalar tio gånger så mycket som en hög av nivåns tunga utomjording: **300 Phantasm** för en väktare I, **240 Bulwark** för en II och **160 Goombah** för en III. Det är en enda pott, delad efter skada mellan de piloter som gjort minst 5 % av skadan, på samma sätt som för ledaren i en [svärm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Dina [klanbonusar](#what-the-boosts-apply-to) gäller din andel. Potten växer inte med skadan du tar, ammunitionen du bränner eller skeppen du förlorar.
+En väktare betalar så mycket som en hög av nivåns tunga utomjording skulle betala: **900 Phantasm** för en väktare I, **720 Bulwark** för en II och **480 Goombah** för en III, tre gånger så mycket som före 0.4.16. Det är en enda pott, delad efter skada mellan de piloter som gjort minst 5 % av skadan, på samma sätt som för ledaren i en [svärm](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Dina [klanbonusar](#what-the-boosts-apply-to) gäller din andel. Potten växer inte med skadan du tar, ammunitionen du bränner eller skeppen du förlorar.
 
 | Väktarens styrka | Krediter | Thulium | Erfarenhet (XP) | Heder |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 900 000 | 3 600 | 90 000 | 1 800 |
-| II | 1 200 000 | 6 000 | 192 000 | 2 400 |
-| III | 2 400 000 | 12 000 | 480 000 | 3 840 |
+| I | 2 700 000 | 10 800 | 270 000 | 5 400 |
+| II | 3 600 000 | 18 000 | 576 000 | 7 200 |
+| III | 7 200 000 | 36 000 | 1 440 000 | 11 520 |
 
 **Varje pilot som får betalt får en egen låda** vid vraket, med sin del av bytet. Tabellen listar vad hela nedskjutningen slumpar fram, och en pilot som gjort 20 % av skadan slumpar för ungefär en femtedel av varje mängd: en del avrundas slumpmässigt, så medelvärdet är exakt och en liten del får ändå ibland en sällsynt rad. **Bara du ser din låda och bara du kan ta den**, inte din klan och inte din grupp, och den ligger kvar i **10 minuter**, utan väntan på 30 sekunder ([privata lådor](/wiki/03-Mechanics/Cargo.md#private-boxes)). I en [grupp](/wiki/03-Mechanics/Groups.md#sharing-kills) räknas medlemmarna som en enda pilot för de 5 %, och dess del delas som varje nedskjutning delas i en grupp (kamraterna som är nära och skjuter, efter nivå): varje kamrat som får en del får en privat låda med den delen. Spelloggen berättar din del. En pilot som gjort mindre än 5 % får inget betalt och ingen låda läggs ut åt hen; Spelloggen säger det. En chans inom parentes gäller för vart och ett av de angivna kasten: (5 × 50 %) är fem kast med 50 % chans vardera.
 
 | Väktare | Föremål | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
 | Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 2 000–4 000 | 6 000–12 000 | – |
+| Brood Warden | Advanced Plasma | 6 000–12 000 | 18 000–36 000 | – |
 | Brood Warden | Daraxium | 10–20 (5 × 50 %) | – | – |
 | Brood Warden | Nyxite | – | 20–40 (5 × 50 %) | – |
-| Brood Warden | Ultra Core | – | – | 6 000–10 000 |
+| Brood Warden | Ultra Core | – | – | 18 000–30 000 |
 | Brood Warden | Quorvium | – | – | 50–100 (60 %) |
 | Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 2 000–4 000 | 6 000–10 000 | 16 000–24 000 |
+| Siege Warden | Siphon Battery | 6 000–12 000 | 18 000–30 000 | 48 000–72 000 |
 | Siege Warden | Raket som köps för krediter (en sort, slumpad) | 20–30 | 50–80 | 80–120 |
 | Siege Warden | Reinforced Hull Plate | – | 10 (30 %) | – |
 | Siege Warden | Episk raket (en sort, slumpad) | – | – | 10–20 (50 %) |
@@ -270,6 +388,8 @@ En väktare betalar tio gånger så mycket som en hög av nivåns tunga utomjord
 | Wrath Warden | Power Core | – | 10 (15 %) | 10 (35 %) |
 | Wrath Warden | Quorvium | – | – | 50–100 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 10 (8 %) |
+
+Sedan 0.4.16 är lasrarnas ammunitionsrader (Advanced Plasma, Ultra Core och Siphon Battery) tre gånger så stora som förut; de övriga raderna är oförändrade.
 
 En väktare räknas under sitt eget namn i din nedskjutningsstatistik och ger PvE-poäng till din [grad](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points): **13 till 35** för ledaren, efter väktare och styrka (en väktare III är värd mest), och **1 till 6** för varje hjälpare, mer för en starkare besättning.
 
@@ -320,20 +440,47 @@ En klan som klarar varje linje tjänar 100 poäng om dagen. Om officerarna köpe
 
 ### Poäng och wipe {#clan-points-and-the-wipe}
 
-Vid varje wipe **börjar klanens poäng, bonusnivåer och linjer om från början**, så varje säsong är ett nytt lopp mot fulla bonusar. Själva klanen, dess medlemmar, dess bank och dess skatt förblir som de är.
+Wipen upplöser varje klan ([Wipen upplöser varje klan](#the-wipe-disbands-every-clan)), så **en klans poäng, bonusnivåer och linjer tar slut med den**, och en klan som grundas efter wipen börjar från noll: varje säsong är ett nytt lopp mot fulla bonusar.
 
 ---
 
 ## Diplomati {#diplomacy}
 
-Klaner kan upprätta formella diplomatiska förbindelser med andra organisationer genom att ange målklanens tagg:
+Ledaren och vice ledarna kan upprätta formella diplomatiska förbindelser med en annan klan i sin **värld** genom att ange dess tagg ([Klaner och världar](#clans-and-worlds)):
 
 - **Allians**: Formellt allierade klaner. Vänlig status visas på kartan.
 - **Icke-angreppspakt (NAP)**: Man kommer överens om att inte inleda fientligheter.
 - **Krig**: Formell krigsförklaring. Krigsmål kan angripas var som helst utan straff.
 
+### Ändra och avsluta ett avtal {#changing-and-ending-a-treaty}
+
+En allians, en pakt och ett krig börjar alla direkt, utan den andra klanens samtycke. Hur de slutar är olika:
+
+| Nu | Du kan | Vad som händer |
+| :--- | :--- | :--- |
+| **Allians** | Byta till pakt, säga upp, förklara krig | En pakt ersätter den direkt; en uppsägning avslutar den direkt för båda klanerna; ett krig ersätter den. |
+| **Pakt** | Byta till allians, säga upp, förklara krig | En allians ersätter den direkt; en uppsägning avslutar den direkt för båda klanerna; ett krig ersätter den. |
+| **Krig** | Be om fred | Det slutar **bara när den andra klanen går med på det**. En allians eller en pakt kan inte ersätta det, och ingen kan säga upp det på egen hand. |
+
+- **Säga upp och byta** är ett tryck av en ledare eller vice ledare i någon av de två klanerna, med en bekräftelse vid uppsägning. Det finns ingen uppsägningstid.
+- **Be om fred.** En ledare eller vice ledare i en klan i krig trycker på **Be om fred**. Begäran gäller i **24 timmar**. Den andra klanens ledare eller vice ledare **godtar** den (kriget är över för båda) eller **avslår** den (kriget fortsätter, och du kan be igen **1 timme** efter avslaget). Du kan **dra tillbaka begäran** när som helst. Om båda klanerna ber sluts fred direkt.
+- **Begäranden om fred** listas på ett kort på fliken Diplomati, med Godta och Avslå för officerarna.
+- **Alla får veta.** Varje ändring hamnar i båda klanernas [Flottans logg](#fleet-log), och den andra klanens ledare och vice ledare som är online får en Systemrad, ett meddelande och ett ljud. En pilot utanför de två klanerna får inte veta något.
+- **Gamla avtal.** En allians, en pakt eller ett krig som slöts mellan klaner i olika världar före 0.4.16 kan fortfarande sägas upp eller avslutas i samförstånd, och inga nya kan sluta.
+
+---
+
+## Flottans logg {#fleet-log}
+
+Fliken **Logg**, den sista i klanfönstret, är klanens egen historia. **Bara klanens piloter kan läsa den.** Den behåller de senaste **200 raderna** till wipen, visar 50 per sida, den nyaste först, och läses om var 10:e sekund medan den är öppen. Den berättar:
+
+- **Klanens uppdrag.** Varje klart steg i dagslinjen, med de piloter vars arbete räknades för steget, även när det var en enda pilot: Flottuppdraget ”Seeker Sweep” är slutfört. Piloter som deltog: ”Nova”, ”Vega”. Väktaren är steg 5 och loggas med sin sort och styrka; den klara linjen har en rad för sig. En pilot vars arbete drogs tillbaka, eller vars andel av väktaren är under 5 %, nämns inte.
+- **Flottans kassa.** Donationer, den dagliga skatten (en rad per dag), utbetalningar, uppgraderingar, varje betald dagsbonus, en dag då den inte kunde betala (en rad per dag för hela klanen) och varje gång ledaren ändrar beloppen.
+- **Besättningen.** Klanens grundande, piloter som går med (öppen klan, godkänd ansökan eller inbjudan), lämnar eller avskedas, gradändringar och en ny ledare.
+- **Diplomati.** Varje allians, pakt, krig, uppsägning och begäran om fred, formulerad från din klans sida (»Vår flotta slöt en allians med [TAG] Name.«).
+
 ---
 
 ## Ta med en vän {#bringing-a-friend}
 
-En vän som är ny i spelet kan gå med med din personliga inbjudningskod och får ett startpaket; se [Bjud in vänner](/wiki/03-Mechanics/Invite-Friends.md). Väl i spelet kan vännen ansöka till din klan som vilken pilot som helst.
+En vän som är ny i spelet kan gå med med din personliga inbjudningskod och får ett startpaket; se [Bjud in vänner](/wiki/03-Mechanics/Invite-Friends.md). Väl i spelet kan vännen ansöka till din klan som vilken pilot som helst i samma värld.

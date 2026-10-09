@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario y equipamiento {#inventory-equipment}
 
@@ -17,6 +17,7 @@ A diferencia de los juegos espaciales tradicionales, SpaceCorps tiene ranuras de
   - **Ranuras sin asignar o heredadas**: los objetos colocados aquí no aportan nada a las estadísticas.
   - **La acumulación también pierde fuerza**: los escudos y los motores se ordenan del más fuerte al más débil (por lo que cuenta cada uno tras la parte de su ranura), y la parte de la banda se multiplica por la de su puesto: del 1.º al 4.º cuentan por completo, el 5.º, el 6.º y el 7.º un 85 %, un 70 % y un 55 %, y del 8.º en adelante un 50 % en los escudos y un 25 % en los motores. Consulta [Escudos](/wiki/03-Mechanics/Shields.md) y [Velocidad](/wiki/03-Mechanics/Speed.md).
 - **Ranuras de extra**: para objetos de utilidad especializados, como los Repair Drones. La Protos, la Kitefin, la Ostirion y la Nomad tienen dos; la Paragon, la Ironclad, la Wraith y la Storm, que fabricas, tienen tres. Las Extra Slots CPU ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) suman 3, 5 o 7 más.
+- **Ranuras de blindaje**: para el [blindaje de casco](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), que suma casco. Solo las tienen las cuatro naves que fabricas (la Paragon 5, la Storm 7, la Ironclad 15 y la Wraith 9), cada una bloqueada hasta que la investigas en el Skylab, y son iguales en las dos configuraciones.
 
 ## Orden del inventario {#inventory-order}
 

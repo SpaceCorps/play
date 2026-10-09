@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: Inventarie -->
 # Inventarie och utrustning {#inventory-equipment}
 
@@ -17,6 +17,7 @@ Till skillnad från traditionella rymdspel har SpaceCorps utrustningsplatser i d
   - **Otilldelade platser/äldre platser**: Föremål som placeras här bidrar inte till värdena.
   - **Staplingen ger också mindre**: sköldar och motorer rangordnas med de starkaste först (efter vad var och en räknas för efter platsens andel), och bandets andel multipliceras sedan med deras rangs: den 1:a till 4:e räknas fullt, den 5:e till 7:e med 85 %, 70 % och 55 %, den 8:e och framåt med 50 % för sköldar och 25 % för motorer. Se [Sköldar](/wiki/03-Mechanics/Shields.md) och [Hastighet](/wiki/03-Mechanics/Speed.md).
 - **Extraplatser**: För specialiserad nyttoutrustning, till exempel Repair Drones. Protos, Kitefin, Ostirion och Nomad har två; Paragon, Ironclad, Wraith och Storm, som du tillverkar, har tre. Extra Slots CPU ([Extrautrustning](/wiki/06-Items/Extras.md#extra-slots-cpus)) ger 3, 5 eller 7 till.
+- **Pansarplatser**: För [skrovpansar](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), som lägger till skrov. Bara de fyra skeppen du tillverkar har dem (Paragon 5, Storm 7, Ironclad 15 och Wraith 9), var och en låst tills du forskar fram den i Skylab, och de är lika i båda konfigurationerna.
 
 ## Inventariets ordning {#inventory-order}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eda863e69efaf17 -->
+<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -11,7 +11,7 @@
 ## På en minut {#in-one-minute}
 
 - **Dark Matter är en resurs och heter bara Dark Matter överallt.** Det svarta hålet mitt i Farosektor 4 (`DS-4`) tillverkar den: varje N.I.K.E.-raket som når hålet ger tillbaka 1 till 3 Dark Matter (2 i snitt), i små lådor vid kanten av hålets zon.
-- **Vad den används till.** 32 teknologier i forskningscentrumet kräver den, 5 till 20 var och 349 sammanlagt, och Monteringen pressar den till Dark Matter Plate.
+- **Vad den används till.** 83 teknologier i forskningscentrumet kräver den, 5 till 40 var och 904 sammanlagt, och Monteringen pressar den till Dark Matter Plate.
 - **I forskningscentrumet** lägger du till Dark Matter från ditt lastrum (med landat skepp) innan du trycker på Starta. Forskningen tar den när den startar.
 - **En Dark Matter Plate är ett annat föremål.** Forska först fram receptet (gruppen Resurser i trädet: 1 dag och 10 Dark Matter), och tillverka den sedan i Monteringen av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium.
 - **Vad en platta används till.** Sista nivån i varje uppgraderingskedja kräver **3**: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III och Base CPU II (12 delar). Smedjan kräver 2 för att höja ett föremål från Gudomlig till Rämnande, och 2 till från Rämnande till Evig.
@@ -26,7 +26,7 @@
 | **Vad det är** | En Episk resurs | En Mytisk resurs |
 | **Var den kommer ifrån** | Det svarta hålet i Farosektor 4, för N.I.K.E.-raketer som skjuts in i det; lite från Dormant-svärmen | Monteringen, pressad av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium |
 | **Vad du gör först** | Forska fram N.I.K.E. (3 h, ingen Dark Matter) och tillverka några | Forska fram plattans recept (1 d, 10 Dark Matter) |
-| **Vad den används till** | Forskningskostnader (32 teknologier, 349 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 3 för var och en av 12 delar; Smedjan: 2 för vart och ett av dess två översta steg |
+| **Vad den används till** | Forskningskostnader (83 teknologier, 904 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 3 för var och en av 12 delar; Smedjan: 2 för vart och ett av dess två översta steg |
 
 ## Så får du tag på Dark Matter {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@ Ungefär **5 raketer ger 10 Dark Matter**. Resource Magnet Booster lägger inte 
 
 ## Dark Matter i forskningscentrumet {#in-the-research-centre}
 
-Teknologier högst upp i trädet kräver Dark Matter utöver sin forskning: **10** för var och en av de 16 översta teknologierna, och **5, 13 eller 20** för var och en av de 16 drönarformationerna (ju starkare formation, desto mer). Tabellen i [Forskning](/wiki/03-Mechanics/Research.md#dark-matter) listar dem alla.
+Teknologier högst upp i trädet kräver Dark Matter utöver sin forskning: **10** för var och en av de 16 översta teknologierna, och **5, 13 eller 20** för var och en av de 16 drönarformationerna (ju starkare formation, desto mer). De två forskningarna för Hull Plating kräver **25 och 40**, och skeppsteknologierna, de 13 designerna och de 36 pansarplatserna, **10** var. Tabellerna i [Forskning](/wiki/03-Mechanics/Research.md#dark-matter) listar dem alla.
 
 1. **Öppna vyn Forskning** i din Skylab på stationen och välj teknologin. Dess kort har en rad **Dark Matter**: hur mycket som finns i centrumet, av hur mycket den kräver (till exempel 3 / 10).
 2. **Tryck på Lägg till.** Det flyttar Dark Matter från ditt lastrum till forskningscentrumet, det som saknas, så långt du bär den. Ditt skepp måste vara landat. **Ta tillbaka** lämnar den tillbaka till ditt lastrum.
@@ -105,7 +105,7 @@ De 40 delarna i en Paragon är dess 8 lasrar, deras 24 Amp och dess 8 generator-
 | En Dark Matter Plate | 5 | 2,5 |
 | De två plattorna till ett steg i Smedjan | 10 | 5 |
 | De tre plattorna i en del av sista nivån | 15 | 7,5 |
-| Varje teknologi som kräver Dark Matter | 349 | 175 |
+| Varje teknologi som kräver Dark Matter | 904 | 452 |
 
 En första uppgradering från noll är receptet (10) och två plattor (10): 20 Dark Matter, ungefär 10 N.I.K.E.-raketer, alltså två tillverkningar. En första förstärkare av nivå IV från noll är plattans recept (10), förstärkarens egen teknologi (10) och 3 plattor (15): 35 Dark Matter, ungefär 18 N.I.K.E.-raketer.
 

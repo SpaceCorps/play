@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1ad7127494a07e66 -->
+<!-- wiki-i18n source: 55d6cdfda1970b32 -->
 <!-- wiki-i18n title: 黑洞 -->
 # 黑洞 {#the-black-hole}
 
@@ -88,6 +88,8 @@
 | Wraith | 233 | 1,208 |
 | Storm | 263 | 995 |
 
+舰船设计会改变其舰船的速度，不归点也随之改变：DUMA 比 Ironclad 慢，NOTSUM 比 Storm 快。
+
 速度超过每秒 272 单位的舰船（追求极速的配置，或开着 Afterburner 的标准 Wraith），不归点仍在它一贯所在的位置：速度为 300 时是 885，速度为 432 时是 747。
 
 为速度而配置，你就能从更深处脱身；装满重型护盾，则做不到（一艘 Ironclad，也是最慢的舰船，14 个槽位全装 Heavy Shield Core 时，速度只有 39.1，不归点约在 2,600）。只有一阵爆发的速度，才能把一艘刚越过不归点不远的舰船拉回来：运行中的 [Afterburner](/wiki/03-Mechanics/Abilities.md) 就算数，并且在它运行期间会让不归点更靠近中心（一台引擎十秒，两台十五秒，三台二十秒；Afterburner III 会把标准 Protos 的不归点从 1,577 降到 989，把标准 Wraith 的从 1,208 降到 801）。在大约 390 单位以内，没有任何东西能脱身，哪怕是为速度而配置、所有速度属性都附魔到顶、并且最强爆发正在运行的舰船（附魔到上限的 Afterburner III，x1.69）；一艘未附魔、为速度而配置的舰船（Engine III 装一个 Impulse Thruster IV 和两个 Momentum Thruster IV，Adaptive Core II 装两个 Impulse Thruster IV），带 Afterburner III，最好的情况下也只能从 427 以外脱身。
@@ -140,4 +142,4 @@
 - **归谁所有。**从射击起 **60 秒**内，这些货箱归你和你的战队所有。之后地图上的任何人都可以拾取它们，并且它们会在 **4 分钟**后飘走。危险星区是 PvP 星区，所以要做好有人来抢的准备。在开火后下线的飞行员，仍然拥有它的货箱。
 - **数量上限。**一张地图最多容纳 32 个 Dark Matter 货箱；新的货箱会把其中最旧的挤掉，而绝不会挤掉其他种类的货箱。[Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) 不会给 Dark Matter 增加任何东西。
 - **你会看到什么。**当 N.I.K.E. 越过视界时，它会被拉长并扯入黑洞，空间从它进入的地方泛起涟漪，吸积盘和光子环会闪耀约一秒半（在**减弱动态效果**下是其三分之一的时间、一半的亮度）。片刻之后，货箱从黑洞中飞出，飘向它们在边缘上的位置：每个都是一颗带明亮边缘和闪光的紫黑色球体，从远处就很容易看见，悬停时标题为 **Dark Matter**。属于你的货箱上方会显示你剩余的秒数，并在小地图上显示为一个小小的紫罗兰色标记，你的战队也一样；其他飞行员的货箱，要等他们的那一分钟过去之后才会显示在小地图上。
-- **有什么用。**装配站可以把 5 个 Dark Matter 连同一块 Velkonite Reinforced Plate 和一块 Orvium Reinforced Plate 压制成一块 **Dark Matter Plate**，而[锻造炉](/wiki/06-Items/Forge.md)需要两块这样的板，才能把物品从神圣提升到裂变，再从裂变提升到永恒：每一步需要十个 Dark Matter。每条升级链的最后一阶需要 3 块板，即每件 15 个 Dark Matter：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II。Skylab 的[研究中心](/wiki/03-Mechanics/Research.md#dark-matter)同样需要 Dark Matter：科技树顶端的 16 项科技每项 10 个，共 160 个，须在研究开始前添加到研究中心。无人机编队同样需要 Dark Matter，按强度为 5、13 或 20 个：另外 189 个，共 349 个。一个带有三个 IV 阶 Amp 的 Helios Beam 含有 60 个 Dark Matter，全部用最后一阶部件的 Wraith 则含有 900 个（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+- **有什么用。**装配站可以把 5 个 Dark Matter 连同一块 Velkonite Reinforced Plate 和一块 Orvium Reinforced Plate 压制成一块 **Dark Matter Plate**，而[锻造炉](/wiki/06-Items/Forge.md)需要两块这样的板，才能把物品从神圣提升到裂变，再从裂变提升到永恒：每一步需要十个 Dark Matter。每条升级链的最后一阶需要 3 块板，即每件 15 个 Dark Matter：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II。Skylab 的[研究中心](/wiki/03-Mechanics/Research.md#dark-matter)同样需要 Dark Matter：科技树顶端的 16 项科技每项 10 个，共 160 个，须在研究开始前添加到研究中心。无人机编队同样需要 Dark Matter，按强度为 5、13 或 20 个：另外 189 个，共 349 个。Hull Plating 的两项研究另外需要 65 个，舰船的 13 种设计和 36 项装甲科技另外需要 490 个（[研究](/wiki/03-Mechanics/Research.md#ship-technologies)）。一个带有三个 IV 阶 Amp 的 Helios Beam 含有 60 个 Dark Matter，全部用最后一阶部件的 Wraith 则含有 900 个（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。

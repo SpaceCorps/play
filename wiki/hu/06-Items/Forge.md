@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -6,7 +6,7 @@ A **Kovácsműhely** a Gyártás oldal második lapja (és a repülés közbeni 
 
 ## Mi kovácsolható {#what-can-be-forged}
 
-Lézerek, lézererősítők, pajzsmagok, pajzscellák, hajtóművek, fúvókák, adaptív magok és Repair Drone-ok: bármelyik egyedi felszerelés, amely [bűvölési bónuszokat](/wiki/06-Items/Overview.md) hordozhat. Lehet a leltáradban, egy hajón (ott marad, és azonnal az új fokozatával működik) vagy egy másik tárgyba építve. Drónokat, hajókat, lőszert, nyersanyagokat és boostereket nem lehet kovácsolni, és a tranzittárolóban lévő semmit sem: előbb vedd ki.
+Lézerek, lézererősítők, pajzsmagok, pajzscellák, hajtóművek, fúvókák, adaptív magok, Repair Drone-ok és [hajótest-páncélzat](/wiki/06-Items/Hull-Plating.md): bármelyik egyedi felszerelés, amely [bűvölési bónuszokat](/wiki/06-Items/Overview.md) hordozhat. Lehet a leltáradban, egy hajón (ott marad, és azonnal az új fokozatával működik) vagy egy másik tárgyba építve. Drónokat, hajókat, lőszert, nyersanyagokat és boostereket nem lehet kovácsolni, és a tranzittárolóban lévő semmit sem: előbb vedd ki.
 
 ## Fokozatemelés {#tier-up}
 
@@ -39,7 +39,7 @@ Az utolsó két lépés mindegyike **2 Dark Matter Plate-et** kér, mindenen fel
 
 A Kovácsműhely előtt készült felszerelés megtartja azokat a bónuszokat, amelyekkel kisorsolták, és ezek gyakran kisebbek a táblázat értékeinél (egy akkori Isteni darab +2%-ot is hordozhat). Maguktól semmi sem növeli őket: a fokozatemelés minden bónuszt újra kisorsol az új fokozat tartományában, és a jobb értéket tartja meg, az összevonás pedig minden jellemzőnél a jobb értéket tartja meg.
 
-Egy tárgy nem bírhat több bónuszt, mint ahány jellemzője van: egy pajzsmagnak négy, egy lézernek három (a Quantum Laser I-nek és II-nek kettő), egy hajtóműnek vagy egy adaptív magnak kettő, egy Momentum Thrusternek kettő, egy Impulse Thrusternek egy (az 1,02–1,035 szorzója túl kicsi egy bónuszhoz, és az 1,05 vagy annál kisebb szorzóra a Kovácsműhely nem sorsol bónuszt, ezért a bónusza csak a fix sebességen lehet), egy Crit Amp I-nek vagy egy Repair Drone-nak egy, a magasabb kritikus erősítőknek kettő, a sebzéserősítőknek és a pajzscelláknak három. Ha a következő fokozat nem bír több bónuszt, mint amennyit a tárgy hordozhat, a panel ezt kiírja: ilyenkor a fokozat csak erősebbé teszi a bónuszokat. A hatótávbónuszok sosem lépik át a +5%-ot. A Penetration Ampnek egyetlen értéke van, ezért egyetlen buffot hordoz.
+Egy tárgy nem bírhat több bónuszt, mint ahány jellemzője van: egy pajzsmagnak négy, egy lézernek három (a Quantum Laser I-nek és II-nek kettő), egy hajtóműnek vagy egy adaptív magnak kettő, egy Momentum Thrusternek kettő, egy Impulse Thrusternek egy (az 1,02–1,035 szorzója túl kicsi egy bónuszhoz, és az 1,05 vagy annál kisebb szorzóra a Kovácsműhely nem sorsol bónuszt, ezért a bónusza csak a fix sebességen lehet), egy Crit Amp I-nek, egy Repair Drone-nak vagy egy hajótest-páncélzatnak egy (a hajóteste), a magasabb kritikus erősítőknek kettő, a sebzéserősítőknek és a pajzscelláknak három. Ha a következő fokozat nem bír több bónuszt, mint amennyit a tárgy hordozhat, a panel ezt kiírja: ilyenkor a fokozat csak erősebbé teszi a bónuszokat. A hatótávbónuszok sosem lépik át a +5%-ot. A Penetration Ampnek egyetlen értéke van, ezért egyetlen buffot hordoz.
 
 **Egy fokozat legfeljebb ennyi bónuszt bír.** A fokozatemelés mindig megadja a tárgynak az első bónuszt; minden más helyet, amelyet az új fokozat megnyit, és amelyhez a tárgynak van jellemzője, **50%-os eséllyel, egyenként külön dobással** tölt be, a kimaradt helyet pedig a következő fokozatemelés újra megpróbálja. Így egy Isteni pajzsmagnak az esetek felében két bónusza van, a másik felében egy; egy Örök nagyjából minden harmadik esetben mind a négyet megkapja (átlagosan 3,1-et), a három jellemzős lézer három esetből kettőben mindhármat, a hajtómű pedig szinte mindig mindkettőt. A panel a következő fokozatnál „legfeljebb” szót ír, és megmutatja, milyen gyakran telik be egy új hely. Az egyetlen jellemzős tárgyakat és a Fertőzötthöz vezető minden lépést ez nem érinti, a szabály előtt készült felszerelés pedig megtartja a bónuszait. Az **összevonás** feltölti azt a helyet, amelyet egy fokozatemelés kihagyott: két példány minden jellemzőjén a jobb bónuszt tartja meg, a fokozat határáig. Az esély miatt egy darab az alább leírt elnyelésbónuszt csak részben viseli (egy Örök pajzsmag az esetek 78%-ában, egy Örök pajzscella 88%-ában): az ottani számok azokra a darabokra érvényesek, amelyek viselik.
 
@@ -47,7 +47,7 @@ A **pajzs elnyelésbónusza** (és egy pajzscella elnyelésnövelő bónusza) me
 
 A hajtóművek, fúvókák, adaptív magok és Repair Drone-ok keveset mozdulnak egy százalékos bónusztól (egy Engine II 4 sebességet ad, így a +12% fél pont): ha a fokozatot akarod, kovácsold őket, ne az értékek miatt.
 
-**A Penetration Amp buffja** megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et foglalatonként 8,7–9,2 pontra viszi 8 helyett. A legjobb lézerben (egy Fusion Core, egy Stiletto és három Penetration Amp IV minden lézerben) a 10 + 16 + 24 már eléri a lézertalálat 50%-os felső határát, ezért ez a buff ott kárba vész; ott érdemes, ahol az összeg a határ alatt marad ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**A Penetration Amp buffja** megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et foglalatonként 8,7–9,2 pontra viszi 8 helyett. Semmi sem korlátozza egy találat áthatolását, így minden pont számít: a legjobb lézerben (egy Fusion Core, egy Stiletto és három Penetration Amp IV minden lézerben) a 10 + 16 + 24 összesen 50%, három Örök buff pedig akár 53,6%-ra emeli ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Honnan jönnek a nyersanyagok {#where-the-materials-drop}
 

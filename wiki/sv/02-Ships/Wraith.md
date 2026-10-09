@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50fa888ddacd9f80 -->
+<!-- wiki-i18n source: 1d13345263aa1a6a -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -10,6 +10,7 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 - **Grundhastighet**: 220
 - **Laserplatser**: 12
 - **Extraplatser**: 3
+- **Pansarplatser**: 9
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -26,6 +27,17 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Forskning {#research}
 
+- **Pansarplatser.** Det här skeppet har 9 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 9 fyllda med Hull Plating III ger 135 000 skrov.
+- **Designer.** Skeppet har 5 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
+
+| Design | Vad den ändrar |
+| :--- | :--- |
+| **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom |
+| **Wraith BILLY** | +5 % basskrov, +10 bashastighet, +10 % sköldkapacitet, Diminisher |
+| **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod |
+| **Wraith ATARAXIS** | -1 laserplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff |
+| **Wraith MATT** | -10 % basskrov, +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -36,4 +48,4 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Bakgrund {#lore}
 
-Slagskeppet Wraith är en produkt av hemlig black ops-forskning och höjdpunkten i slagskeppskonstruktion. Dess drivsystem av mörk materia och täta energinät gör att det kan föra flera kraftfulla laserbatterier samtidigt. Extremt sällsynt och dyrt: synen av en Wraith på sensorerna räcker för att få även de mest luttrade piratkaptenerna att vända om.
+Slagskeppet Wraith är en produkt av hemlig black ops-forskning och höjdpunkten i slagskeppskonstruktion. Dess drivsystem av mörk materia och täta energinät gör att det kan föra flera kraftfulla laserbatterier samtidigt. Extremt sällsynt och dyrt: synen av en Wraith på sensorerna räcker för att få även de mest luttrade piratkaptenerna att vända om. Det lämnar Monteringen i slätt grått, och dess designer likaså.

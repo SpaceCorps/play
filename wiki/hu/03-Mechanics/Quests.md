@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -17,7 +17,7 @@ A legtöbb küldetés már nem az, hogy „semmisíts meg ennyit ezekből”: r�
 - **Láncok.** A **Sorrendben** jelzésű küldetések lépései egymás után nyílnak meg, és csak a nyitott lépés számít.
 - **Négyféle lépés a kilövéseken kívül.** Egy **küldetéstárgy**, amely csak neked esik le, és amelyet a Küldetésirányításhoz kell vinned, egy **meglátogatandó pont**, egy pár perces **tartózkodás** egy szektorban, és a szezon 4. napjától egy **raj**, amelyre vadászni kell.
 - **Feltételek.** Egy lépés vagy egy egész küldetés előírhatja, hogy „legfeljebb N hajótestpont veszteség” vagy „hajóvesztés nélkül”. Ha megszeged, az a lépés vagy a küldetés elölről indul. Semmi sem vész el végleg.
-- **A Kihívások sora.** Ötven nagyon nehéz küldetés öt, egyenként tízes fokozatban, a 3. pilótaszinttől. Az I. fokozat összesen 9 355 000 kreditet, 70 125 Thuliumot és 435 500 XP-t fizet, alapértékekben: úgy fizetnek, mint egy szintküldetés ([Jutalmak](#rewards)).
+- **A Kihívások sora.** Ötven nagyon nehéz küldetés öt, egyenként tízes fokozatban, a 3. pilótaszinttől. A munka szerint fizetnek: egy kilövés annyit ér, amennyit az I. fokozat fizet érte, és fokozatonként 10%-kal többet, egy küldetés pedig legfeljebb 100 000 Thuliumot fizet. Az I. fokozat összesen 9 355 000 kreditet, 70 125 Thuliumot és 2 177 500 XP-t fizet, alapértékekben ([A Kihívások sora](#challenge-line)).
 - **Átdolgozva a 0.4.10-ben.** A szintküldetések közül 64 új változat. Ha valamelyiket teljesítetted, újra felkínálják, teljes jutalommal ([részletek](#reworked-missions)).
 
 ## Küldetésirányítás {#mission-control}
@@ -143,7 +143,7 @@ Nyolc küldetés a valódi listából, az első órától a Kihívások soráig.
 - **Nehéz futár** (4. szint, 40 perc). Semmisíts meg 10 Phantasmot az `x-3` szektorban, érd el a 13 400 / 5 000 és a 13 600 / 1 900 pontot, aztán vedd el a Manifestet egy Bulwarktól (25% kilövésenként, az 5.-nél biztosan), és vidd a Küldetésirányításhoz legfeljebb 17 000 hajótestpont veszteséggel és halál nélkül. Fizet 10 500 XP-t, 52 000 kreditet és 315 Thuliumot.
 - **Rajtörő** (a 3. szint Különleges küldetése, a szezon 4. napjától). Semmisíts meg 3 Boss Seekert és 12 Seeker Slave-et bármelyik szektorban, 6 Phantasmot pedig az `x-3` szektorban, tetszőleges sorrendben. Fizet 6 800 XP-t, 54 500 kreditet, 170 Thuliumot, egy Quantum Laser II-t, 10 Ship Fragmentet és 200 Ultra Core-t.
 - **Nagy körút** (8. szint, 25 perc, halál nélkül). Repülj a 8 000 / 4 500 pontra az `x-4` szektorban, aztán a 6 000 / 4 500 pontra a központban, semmisíts meg 2 Goombah-t egy rivális vállalat `x-4` szektorában, és repülj a szíméhez, a 8 000 / 4 500 pontra. A [gyűrűkapuk](/wiki/01-General/Spacemap%20Travel.md#jump-links) és a központ is oda vezet. Fizet 66 000 XP-t, 165 000 kreditet és 1 320 Thuliumot.
-- **Érintetlen** (Kihívás). Semmisíts meg 25 Phantasmot az `x-3` szektorban egyhuzamban, és közben legfeljebb 39 000 hajótestpontot veszíts. Ha túllépsz a korláton, a számláló visszaesik 0-ra. Alapértékben 44 000 XP-t, 855 000 kreditet, 6 405 Thuliumot, 2 370 becsületet, egy Ancient Control Unitot és 5 óra Shield Wall Booster II-t fizet.
+- **Érintetlen** (Kihívás). Semmisíts meg 25 Phantasmot az `x-3` szektorban egyhuzamban, és közben legfeljebb 39 000 hajótestpontot veszíts. Ha túllépsz a korláton, a számláló visszaesik 0-ra. Alapértékben 220 000 XP-t, 855 000 kreditet, 6 405 Thuliumot, 2 370 becsületet, egy Ancient Control Unitot és 5 óra Shield Wall Booster II-t fizet.
 
 ## Állomásküldetések {#station-missions}
 
@@ -164,6 +164,11 @@ A **3. pilótaszinttől** a Küldetésirányítás **Kihívások** lapja egy má
 - **Tíz tetszőleges sorrendben.** Egy fokozat tíz küldetése egyszerre nyitva áll. A **II. fokozat** akkor nyílik meg, ha az I. fokozat mind a tízét átvetted, a **III. fokozat** pedig akkor, ha a II. fokozat mind a tízét átvetted. A **IV. és az V. fokozat** akkor nyílik meg, ha az előttük lévő tízből **kilencet** átvettél: a **Dormant-hajnal** (III. fokozat) és a **Dormant-alkony** (IV. fokozat) a [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) küldetése, amelyhez legénység kell, ezért választhatók.
 - **Egyszerre három**, az 5 szintküldetésed és a 3 állomásküldetésed mellett.
 - **Úgy fizetnek, mint egy szintküldetés.** A táblázatokban lévő jutalom az **alap**, egyszer fizetik: a világod bónusza, a boosterek, a prémium XP és a klánod kredit- és Thulium-bónuszai megszorozzák, ahogy a [Jutalmak](#rewards) példával elmagyarázza. **Becsületet csak az I. fokozat fizet.** Túlélik a wipe-ot, és nem számítanak a küldetések wipe-pontjaiba.
+- **A kifizetés követi a munkát.** Egy Kihívásban egy idegenfajta egy kilövése annyit ér, amennyit az I. fokozat fizet érte, és **minden fokozattal 10%-kal többet** (II. fokozat ×1,10, III. fokozat ×1,21, IV. fokozat ×1,331, V. fokozat ×1,4641). Így a **Bulwark-fal** 150 Bulwarkja az I. fokozatban 19 585 Thuliumot fizet, a **Bulwark-vihar** 400 Bulwarkja a II. fokozatban 57 450-et: egy Bulwark ott 10%-kal többet ér. A tartózkodások, körutak és tiszta futamok ugyanezt a szabályt követik az egy fokozattal alacsonyabb, azonos fajtájú küldetéshez képest.
+- **Küldetésenként legfeljebb 100 000 Thulium.** A legnagyobb vadászatok többet fizetnének. Ha egy jutalom 100 000 Thuliumnál többre jönne ki, az egész jutalmat együtt csökkentik, amíg a Thuliuma pontosan 100 000 nem lesz: a kreditek, a becsület és a tárgyak ugyanabban az arányban zsugorodnak. Tíz küldetést csökkentenek így: **Goombah-ostor**, **Bulwark-pestis**, **Goombah-vereség**, **Bulwark-tenger**, **Tízezer Seeker**, **Tízezer Phantasm**, **Goombah-légió**, **Crystalys-uralom**, **Kalóztrón** és **A Vonal őre**. A másik negyven teljes összeget fizet.
+- **Tapasztalat: ötszörös.** Mind az ötven küldetés tapasztalata pontosan 5-szöröse annak, amit a 0.4.16 előtt fizettek, bármit is csökkent a felső határ.
+- **A tárgyak a pénzzel együtt nőnek.** A Power Core-ok, a Reinforced Hull Plate-ek és a Cataclysite a jutalom kreditjeivel és Thuliumával nőnek. Az Orvium és a Velkonite Reinforced Plate-ek, valamint az Ancient Control Unitok a régi mennyiségeknél maradnak, a booster-órák pedig ugyanannyiak.
+- **A kilövéseid ráadásként fizetnek.** A megsemmisített idegenek a szokásos módon fizetik a saját kreditjüket, Thuliumukat és becsületüket; a jutalom ezen felül jár.
 - **A kilövések kétszer számítanak.** Egy kilövés minden olyan Kihívásnak számít, amely kéri, **és** annak az egy szintküldetésnek is, amelynek számít, így egy ezer kilövéses küldetés sosem éhezteti ki a szintküldetéseidet.
 - **Csoportok.** Egy kilövés annak a pilótának számít, aki a díját kapja, és minden olyan csoporttársnak, aki a roncs **4 000 egységes** körzetében van, és az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt. Minden pilóta a saját számlálóját vezeti.
 - **A tartózkodáshoz lövések kellenek, a központ kivételével.** Az `x-3`, az `x-4` vagy egy rivális `x-4` szektorában a tartózkodás csak addig számít, amíg az elmúlt 60 másodpercben lőttél, így az álló vagy körözgető hajó nem keres semmit. A veszélyes szektorokban (**Központi őrség**, **Peremőrség**, **Utolsó őrség**), ahol nem él idegen, az a hajó számít, amely az elmúlt 30 másodpercben 300 egységet repült vagy lőtt, ahogy a szintküldetések tartózkodásainál.
@@ -180,13 +185,13 @@ Egy fokozat tíz küldetése összesen ennyit fizet **alapértékben** (a világ
 
 | Fokozat | Kredit | Thulium | XP | Becsület |
 | :--- | --: | --: | --: | --: |
-| 1. fokozat · Próbatér | 9 355 000 | 70 125 | 435 500 | 26 140 |
-| 2. fokozat · Vashatár | 6 200 000 | 46 450 | 471 000 | 0 |
-| 3. fokozat · A Központ | 11 995 000 | 90 020 | 887 000 | 0 |
-| 4. fokozat · A Mélység | 26 215 000 | 196 615 | 1 880 500 | 0 |
-| 5. fokozat · Legendák | 48 390 000 | 362 865 | 3 110 000 | 0 |
+| 1. fokozat · Próbatér | 9 355 000 | 70 125 | 2 177 500 | 26 140 |
+| 2. fokozat · Vashatár | 26 975 000 | 202 910 | 2 355 000 | 0 |
+| 3. fokozat · A Központ | 46 665 000 | 338 600 | 4 435 000 | 0 |
+| 4. fokozat · A Mélység | 63 270 000 | 410 335 | 9 402 500 | 0 |
+| 5. fokozat · Legendák | 111 595 000 | 723 915 | 15 550 000 | 0 |
 
-Minden küldetés minden számát a [táblázatok](#challenge-missions-table) tartalmazzák.
+Mind az ötven együtt alapértékben 257 860 000 kreditet, 1 745 885 Thuliumot és 33 920 000 XP-t fizet. Minden küldetés minden számát a [táblázatok](#challenge-missions-table) tartalmazzák.
 
 > [!TIP]
 > Fogadd el a nagy vadászatokat, amint eléred a 3. szintet: a Seeker-pestis és a Phantasm-ár minden kilövést, bármelyik szektorban, attól a pillanattól számol, hogy elfogadod őket, a szintküldetéseid mellett.
@@ -231,7 +236,7 @@ A küldetések a szinteddel együtt emelkednek a szektorokban:
 
 - A tapasztalatot, a kreditet, a Thuliumot és a becsületet megszorozza annak a [világnak](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) a szorzója, amelyben a küldetést teljesítetted: 1× az Alphában, 2× a Betában, 3× a Gammában. A boostereid (Experience Booster, Honor Booster) hozzáadódnak, a prémium pedig megduplázza a tapasztalatot. A [klánod](/wiki/03-Mechanics/Clans.md) Thulium- és kreditbónusza minden átvett küldetés kreditjéhez és Thuliumához hozzáadódik: a szint-, az állomás- és a Kihívás-küldetésekéhez.
 - **Az állomásküldetések és a Kihívások úgy fizetnek, mint a szintküldetések.** A táblázataikban kiírt számok az **alap**. A Kihívás annak a világnak megfelelően fizet, amelyben teljesítetted, mint egy szintküldetés (a legalacsonyabbnak megfelelően, ha kettőt is érint). Az állomásküldetésnek nincs saját világa: annak a világnak megfelelően fizet, amelyben repülsz, amikor átveszed.
-- **Egy példa.** A **Seeker-pestis** (Kihívás) alapja 1 100 000 kredit, 8 260 Thulium, 31 500 XP és 3 060 becsület. A Gammában teljesítve és átvéve, bekapcsolt semmivel, 3 300 000 kreditet, 24 780 Thuliumot, 94 500 XP-t és 9 180 becsületet fizet. A klánod kredit- és Thulium-bónuszával a maximumon (mindegyik +10%) 3 630 000 kreditet és 27 258 Thuliumot fizet.
+- **Egy példa.** A **Seeker-pestis** (Kihívás) alapja 1 100 000 kredit, 8 260 Thulium, 157 500 XP és 3 060 becsület. A Gammában teljesítve és átvéve, bekapcsolt semmivel, 3 300 000 kreditet, 24 780 Thuliumot, 472 500 XP-t és 9 180 becsületet fizet. A klánod kredit- és Thulium-bónuszával a maximumon (mindegyik +10%) 3 630 000 kreditet és 27 258 Thuliumot fizet.
 - **A klánbank plafonja.** Bármekkora is egy jutalom, egy pilóta bármely 24 órában legfeljebb 1 000 000 kreditet küldhet [klánokba](/wiki/03-Mechanics/Clans.md#2-donations).
 - **A tárgyak és a boosteridő minden világban ugyanannyi.** A tárgyak a leltáradba kerülnek, a boosterórák hozzáadódnak ahhoz, amennyi a boosterből még hátravan, a lőszer pedig akkor is rögtön kilőhető, ha repülés közben veszed át.
 - **A tárgyak eladhatók.** Amit egy küldetés tárgyként kifizet (felszerelés, lőszer, rakéták, anyagok, Reinforced Plate-ek), az 5. szinttől eladható az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items). A Kihívás-küldetések nem fizetnek felszerelést: a tárgyaik anyagok és Reinforced Plate-ek.
@@ -431,7 +436,7 @@ A küldetéstárgy így szerepel: „elejtheti: pusztításonként 15%, a 10. pu
 
 ### Kihívások {#challenge-missions-table}
 
-50 küldetés a 3. szintű és magasabb szintű pilótáknak, összesen 6 784 000 XP. Mindegyik egyszer fizet. A számok az alapot jelentik: a világbónusz, a boosterek, a Prémium XP és a flottabónuszok ráadódnak, akárcsak egy szintküldetésnél.
+50 küldetés a 3. szintű és magasabb szintű pilótáknak, összesen 33 920 000 XP. Mindegyik egyszer fizet. A számok az alapot jelentik: a világbónusz, a boosterek, a Prémium XP és a flottabónuszok ráadódnak, akárcsak egy szintküldetésnél.
 
 #### 1. fokozat · Próbatér {#challenge-tier-1}
 
@@ -439,16 +444,16 @@ Tíz küldetés, tetszőleges sorrendben. A következő fokozat akkor nyílik me
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker-pestis | Harc | Seeker megsemmisítése ×1 000 | – | 31 500 | 1 100 000 | 8 260 | 3 060 | Power Core ×6, Experience Booster, 5 óra |
-| Phantasm-ár | Harc | Phantasm megsemmisítése ×1 000 | – | 65 500 | 1 605 000 | 12 035 | 4 460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 óra |
-| Bulwark-fal | Harc | Bulwark megsemmisítése ×150 | – | 103 000 | 2 610 000 | 19 585 | 7 420 | Ancient Control Unit ×2 |
-| Érintetlen | Műveletek | Phantasm megsemmisítése ×25 (x-3) (legfeljebb 39 000 hajótestpont veszteség) | – | 44 000 | 855 000 | 6 405 | 2 370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 óra |
-| Rajvadászat | Harc | Boss Seeker megsemmisítése ×40 (a szezon 4. napjától) | – | 11 000 | 355 000 | 2 660 | 990 | Power Core ×4, Loot Luck Booster, 3 óra |
-| Felderítővadászat | Harc | Pirate Scout megsemmisítése ×40 (a szezon 4. napjától) | – | 27 500 | 425 000 | 3 170 | 1 170 | Power Core ×4, Hull Plating Booster II, 5 óra |
-| Vasőrség | Felderítés | Maradj 45 percig megszakítás nélkül (x-3) | – | 37 500 | 540 000 | 4 030 | 1 490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 óra |
-| A központ vesszőfutása | Felderítés | Repülj a 8 000 / 4 500 pontra (x-4) → Bulwark megsemmisítése ×4 (x-4) → Repülj a 6 000 / 4 500 pontra (DS-x) → Repülj a 26 000 / 4 500 pontra (DS-x) → Repülj a 6 500 / 2 200 pontra (x-4) → Repülj a 1 500 / 1 500 pontra (x-1) (az egész küldetés alatt: hajóvesztés nélkül) | – | 28 000 | 405 000 | 3 025 | 1 120 | Velkonite Reinforced Plate ×3 |
-| Konvoj | Műveletek | Bulwark megsemmisítése ×5 (x-4) → Told haza a Küldetésirányításhoz: Convoy Core (a(z) x-4 szektor 9 500 / 6 200 pontjától) (legfeljebb 17 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 74 500 | 1 075 000 | 8 065 | 2 990 | Orvium Reinforced Plate ×1 |
-| Száz egy óra alatt | Műveletek | Phantasm megsemmisítése ×100 (x-3) | 1 óra | 13 000 | 385 000 | 2 890 | 1 070 | Honor Booster, 5 óra |
+| Seeker-pestis | Harc | Seeker megsemmisítése ×1 000 | – | 157 500 | 1 100 000 | 8 260 | 3 060 | Power Core ×6, Experience Booster, 5 óra |
+| Phantasm-ár | Harc | Phantasm megsemmisítése ×1 000 | – | 327 500 | 1 605 000 | 12 035 | 4 460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 óra |
+| Bulwark-fal | Harc | Bulwark megsemmisítése ×150 | – | 515 000 | 2 610 000 | 19 585 | 7 420 | Ancient Control Unit ×2 |
+| Érintetlen | Műveletek | Phantasm megsemmisítése ×25 (x-3) (legfeljebb 39 000 hajótestpont veszteség) | – | 220 000 | 855 000 | 6 405 | 2 370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 óra |
+| Rajvadászat | Harc | Boss Seeker megsemmisítése ×40 (a szezon 4. napjától) | – | 55 000 | 355 000 | 2 660 | 990 | Power Core ×4, Loot Luck Booster, 3 óra |
+| Felderítővadászat | Harc | Pirate Scout megsemmisítése ×40 (a szezon 4. napjától) | – | 137 500 | 425 000 | 3 170 | 1 170 | Power Core ×4, Hull Plating Booster II, 5 óra |
+| Vasőrség | Felderítés | Maradj 45 percig megszakítás nélkül (x-3) | – | 187 500 | 540 000 | 4 030 | 1 490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 óra |
+| A központ vesszőfutása | Felderítés | Repülj a 8 000 / 4 500 pontra (x-4) → Bulwark megsemmisítése ×4 (x-4) → Repülj a 6 000 / 4 500 pontra (DS-x) → Repülj a 26 000 / 4 500 pontra (DS-x) → Repülj a 6 500 / 2 200 pontra (x-4) → Repülj a 1 500 / 1 500 pontra (x-1) (az egész küldetés alatt: hajóvesztés nélkül) | – | 140 000 | 405 000 | 3 025 | 1 120 | Velkonite Reinforced Plate ×3 |
+| Konvoj | Műveletek | Bulwark megsemmisítése ×5 (x-4) → Told haza a Küldetésirányításhoz: Convoy Core (a(z) x-4 szektor 9 500 / 6 200 pontjától) (legfeljebb 17 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 372 500 | 1 075 000 | 8 065 | 2 990 | Orvium Reinforced Plate ×1 |
+| Száz egy óra alatt | Műveletek | Phantasm megsemmisítése ×100 (x-3) | 1 óra | 65 000 | 385 000 | 2 890 | 1 070 | Honor Booster, 5 óra |
 
 #### 2. fokozat · Vashatár {#challenge-tier-2}
 
@@ -456,16 +461,16 @@ Tíz küldetés, tetszőleges sorrendben. A következő fokozat akkor nyílik me
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker-járvány | Harc | Seeker megsemmisítése ×2 500 | – | 52 000 | 520 000 | 3 900 | 0 | Power Core ×8, Experience Booster, 6 óra |
-| Phantasm-özön | Harc | Phantasm megsemmisítése ×2 500 | – | 85 500 | 855 000 | 6 420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I, 6 óra |
-| Bulwark-vihar | Harc | Bulwark megsemmisítése ×400 | – | 71 500 | 1 255 000 | 9 405 | 0 | Cataclysite ×40 |
-| Goombah-vadászat | Harc | Goombah megsemmisítése ×100 | – | 58 500 | 1 135 000 | 8 495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 óra |
-| Rajvadászat II | Harc | Boss Seeker megsemmisítése ×100 (a szezon 4. napjától) | – | 20 000 | 200 000 | 1 485 | 0 | Power Core ×6, Resource Magnet Booster, 6 óra |
-| Felderítővadászat II | Harc | Pirate Scout megsemmisítése ×120 (a szezon 4. napjától) | – | 25 500 | 290 000 | 2 165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 óra |
-| Kalózleszámolás | Harc | Pirate Boss megsemmisítése ×3 (a szezon 4. napjától) | – | 11 000 | 285 000 | 2 125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 óra |
-| Vasőrség II | Felderítés | Maradj 90 percig megszakítás nélkül (x-4) | – | 57 500 | 575 000 | 4 320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 óra |
-| Konvoj II | Műveletek | Bulwark megsemmisítése ×8 (x-4) → Told haza a Küldetésirányításhoz: Iron Core (a(z) x-4 szektor 12 500 / 6 000 pontjától) (legfeljebb 17 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 70 500 | 735 000 | 5 520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 óra |
-| Érintetlen II | Műveletek | Bulwark megsemmisítése ×15 (x-4) (legfeljebb 60 000 hajótestpont veszteség) | – | 19 000 | 350 000 | 2 615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 óra |
+| Seeker-járvány | Harc | Seeker megsemmisítése ×2 500 | – | 260 000 | 3 025 000 | 22 715 | 0 | Power Core ×47, Experience Booster, 6 óra |
+| Phantasm-özön | Harc | Phantasm megsemmisítése ×2 500 | – | 427 500 | 4 415 000 | 33 100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I, 6 óra |
+| Bulwark-vihar | Harc | Bulwark megsemmisítése ×400 | – | 357 500 | 7 660 000 | 57 450 | 0 | Cataclysite ×245 |
+| Goombah-vadászat | Harc | Goombah megsemmisítése ×100 | – | 292 500 | 5 745 000 | 43 090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 óra |
+| Rajvadászat II | Harc | Boss Seeker megsemmisítése ×100 (a szezon 4. napjától) | – | 100 000 | 980 000 | 7 315 | 0 | Power Core ×30, Resource Magnet Booster, 6 óra |
+| Felderítővadászat II | Harc | Pirate Scout megsemmisítése ×120 (a szezon 4. napjától) | – | 127 500 | 1 405 000 | 10 465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 óra |
+| Kalózleszámolás | Harc | Pirate Boss megsemmisítése ×3 (a szezon 4. napjától) | – | 55 000 | 425 000 | 3 980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 óra |
+| Vasőrség II | Felderítés | Maradj 90 percig megszakítás nélkül (x-4) | – | 287 500 | 1 190 000 | 8 870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 óra |
+| Konvoj II | Műveletek | Bulwark megsemmisítése ×8 (x-4) → Told haza a Küldetésirányításhoz: Iron Core (a(z) x-4 szektor 12 500 / 6 000 pontjától) (legfeljebb 17 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 352 500 | 1 185 000 | 8 875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 óra |
+| Érintetlen II | Műveletek | Bulwark megsemmisítése ×15 (x-4) (legfeljebb 60 000 hajótestpont veszteség) | – | 95 000 | 945 000 | 7 050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 óra |
 
 #### 3. fokozat · A Központ {#challenge-tier-3}
 
@@ -473,16 +478,16 @@ Tíz küldetés, tetszőleges sorrendben. A következő fokozat akkor nyílik me
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah-ostor | Harc | Goombah megsemmisítése ×250 | – | 134 500 | 2 380 000 | 17 855 | 0 | Cataclysite ×50, Experience Booster, 8 óra |
-| Bulwark-pestis | Harc | Bulwark megsemmisítése ×800 | – | 132 000 | 2 080 000 | 15 615 | 0 | Power Core ×10, Laser Damage Booster I, 8 óra |
-| Phantasm-óceán | Harc | Phantasm megsemmisítése ×5 000 | – | 180 000 | 1 800 000 | 13 500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8 óra |
-| Crystalys-próba | Harc | Crystalys megsemmisítése ×10 | – | 18 000 | 250 000 | 1 880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 óra |
-| Kalózvész | Harc | Pirate Boss megsemmisítése ×10 (a szezon 4. napjától) | – | 29 000 | 775 000 | 5 805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 óra |
-| Dormant-hajnal | Harc | Dormant Force megsemmisítése ×3 (a szezon 4. napjától) | – | 46 000 | 750 000 | 5 625 | 0 | Cataclysite ×40, Shield Wall Booster I, 8 óra |
-| Központi őrség | Felderítés | Maradj 60 percig megszakítás nélkül (DS-x) | – | 98 000 | 980 000 | 7 365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 óra |
-| Négy sarok | Felderítés | Repülj a 3 000 / 3 000 pontra (DS-x) → Repülj a 29 000 / 3 000 pontra (DS-x) → Repülj a 29 000 / 15 000 pontra (DS-x) → Repülj a 3 000 / 15 000 pontra (DS-x) → Repülj a 1 500 / 1 500 pontra (x-1) (az egész küldetés alatt legfeljebb 104 000 hajótestpont veszteség) (az egész küldetés alatt: hajóvesztés nélkül) | – | 98 000 | 980 000 | 7 365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 óra |
-| Konvoj III | Műveletek | Goombah megsemmisítése ×4 (x-4) → Told haza a Küldetésirányításhoz: Centre Core (a(z) x-4 szektor 13 000 / 3 000 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 119 000 | 1 260 000 | 9 460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
-| Érintetlen III | Műveletek | Goombah megsemmisítése ×8 (x-4) (legfeljebb 350 000 hajótestpont veszteség) | – | 32 500 | 740 000 | 5 550 | 0 | Power Core ×8, Laser Damage Booster II, 10 óra |
+| Goombah-ostor | Harc | Goombah megsemmisítése ×250 | – | 672 500 | 13 335 000 | 100 000 | 0 | Cataclysite ×281, Experience Booster, 8 óra |
+| Bulwark-pestis | Harc | Bulwark megsemmisítése ×800 | – | 660 000 | 13 330 000 | 100 000 | 0 | Power Core ×65, Laser Damage Booster I, 8 óra |
+| Phantasm-óceán | Harc | Phantasm megsemmisítése ×5 000 | – | 900 000 | 9 715 000 | 72 815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8 óra |
+| Crystalys-próba | Harc | Crystalys megsemmisítése ×10 | – | 90 000 | 3 160 000 | 12 640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 óra |
+| Kalózvész | Harc | Pirate Boss megsemmisítése ×10 (a szezon 4. napjától) | – | 145 000 | 1 560 000 | 14 585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 óra |
+| Dormant-hajnal | Harc | Dormant Force megsemmisítése ×3 (a szezon 4. napjától) | – | 230 000 | 1 260 000 | 6 310 | 0 | Cataclysite ×54, Shield Wall Booster I, 8 óra |
+| Központi őrség | Felderítés | Maradj 60 percig megszakítás nélkül (DS-x) | – | 490 000 | 980 000 | 7 365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 óra |
+| Négy sarok | Felderítés | Repülj a 3 000 / 3 000 pontra (DS-x) → Repülj a 29 000 / 3 000 pontra (DS-x) → Repülj a 29 000 / 15 000 pontra (DS-x) → Repülj a 3 000 / 15 000 pontra (DS-x) → Repülj a 1 500 / 1 500 pontra (x-1) (az egész küldetés alatt legfeljebb 104 000 hajótestpont veszteség) (az egész küldetés alatt: hajóvesztés nélkül) | – | 490 000 | 980 000 | 7 365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 óra |
+| Konvoj III | Műveletek | Goombah megsemmisítése ×4 (x-4) → Told haza a Küldetésirányításhoz: Centre Core (a(z) x-4 szektor 13 000 / 3 000 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 595 000 | 1 305 000 | 9 765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
+| Érintetlen III | Műveletek | Goombah megsemmisítése ×8 (x-4) (legfeljebb 350 000 hajótestpont veszteség) | – | 162 500 | 1 040 000 | 7 755 | 0 | Power Core ×12, Laser Damage Booster II, 10 óra |
 
 #### 4. fokozat · A Mélység {#challenge-tier-4}
 
@@ -490,16 +495,16 @@ Tíz küldetés, tetszőleges sorrendben. A következő fokozat akkor nyílik me
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys-tisztogatás | Harc | Crystalys megsemmisítése ×50 | – | 122 000 | 2 575 000 | 19 320 | 0 | Cataclysite ×60, Experience Booster, 10 óra |
-| Goombah-vereség | Harc | Goombah megsemmisítése ×500 | – | 233 500 | 3 345 000 | 25 105 | 0 | Power Core ×12, Laser Damage Booster I, 10 óra |
-| Kalózvég | Harc | Pirate Boss megsemmisítése ×25 (a szezon 4. napjától) | – | 99 500 | 2 445 000 | 18 325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 óra |
-| Dormant-alkony | Harc | Dormant Force megsemmisítése ×10 (a szezon 4. napjától) | – | 180 500 | 2 770 000 | 20 780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 óra |
-| Peremjárás | Felderítés | Repülj a 16 000 / 5 300 pontra (DS-4) → Repülj a 19 700 / 9 000 pontra (DS-4) → Repülj a 16 000 / 12 700 pontra (DS-4) → Repülj a 12 300 / 9 000 pontra (DS-4) (az egész küldetés alatt legfeljebb 76 000 hajótestpont veszteség) (az egész küldetés alatt: hajóvesztés nélkül) | – | 162 000 | 1 620 000 | 12 150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 óra |
-| Peremőrség | Felderítés | Maradj 90 percig megszakítás nélkül (DS-4) | – | 162 000 | 1 620 000 | 12 150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 óra |
-| Ellenséges terep | Felderítés | Maradj 120 percig megszakítás nélkül (rival x-4) | – | 343 500 | 3 435 000 | 25 760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 óra |
-| Szakadék-konvoj | Műveletek | Goombah megsemmisítése ×6 (x-4) → Told haza a Küldetésirányításhoz: Abyss Core (a(z) x-4 szektor 12 800 / 6 800 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 198 000 | 2 090 000 | 15 660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
-| Érintetlen IV | Műveletek | Crystalys megsemmisítése ×3 (x-4) (legfeljebb 480 000 hajótestpont veszteség) | – | 61 000 | 1 580 000 | 11 865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 óra |
-| Bulwark-tenger | Harc | Bulwark megsemmisítése ×2 000 | – | 318 500 | 4 735 000 | 35 500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10 óra |
+| Crystalys-tisztogatás | Harc | Crystalys megsemmisítése ×50 | – | 610 000 | 17 370 000 | 69 515 | 0 | Cataclysite ×292, Experience Booster, 10 óra |
+| Goombah-vereség | Harc | Goombah megsemmisítése ×500 | – | 1 167 500 | 13 330 000 | 100 000 | 0 | Power Core ×48, Laser Damage Booster I, 10 óra |
+| Kalózvég | Harc | Pirate Boss megsemmisítése ×25 (a szezon 4. napjától) | – | 497 500 | 4 285 000 | 40 110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 óra |
+| Dormant-alkony | Harc | Dormant Force megsemmisítése ×10 (a szezon 4. napjától) | – | 902 500 | 4 610 000 | 23 125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 óra |
+| Peremjárás | Felderítés | Repülj a 16 000 / 5 300 pontra (DS-4) → Repülj a 19 700 / 9 000 pontra (DS-4) → Repülj a 16 000 / 12 700 pontra (DS-4) → Repülj a 12 300 / 9 000 pontra (DS-4) (az egész küldetés alatt legfeljebb 76 000 hajótestpont veszteség) (az egész küldetés alatt: hajóvesztés nélkül) | – | 810 000 | 1 620 000 | 12 150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 óra |
+| Peremőrség | Felderítés | Maradj 90 percig megszakítás nélkül (DS-4) | – | 810 000 | 1 620 000 | 12 150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 óra |
+| Ellenséges terep | Felderítés | Maradj 120 percig megszakítás nélkül (rival x-4) | – | 1 717 500 | 3 435 000 | 25 760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 óra |
+| Szakadék-konvoj | Műveletek | Goombah megsemmisítése ×6 (x-4) → Told haza a Küldetésirányításhoz: Abyss Core (a(z) x-4 szektor 12 800 / 6 800 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 990 000 | 2 090 000 | 15 660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
+| Érintetlen IV | Műveletek | Crystalys megsemmisítése ×3 (x-4) (legfeljebb 480 000 hajótestpont veszteség) | – | 305 000 | 1 580 000 | 11 865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 óra |
+| Bulwark-tenger | Harc | Bulwark megsemmisítése ×2 000 | – | 1 592 500 | 13 330 000 | 100 000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10 óra |
 
 #### 5. fokozat · Legendák {#challenge-tier-5}
 
@@ -507,16 +512,16 @@ Tíz küldetés, tetszőleges sorrendben. Ez az utolsó fokozat.
 
 | Küldetés | Megbízó | Feladatok | Időkorlát | XP | Kredit | Thulium | Becsület | Tárgyak |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Tízezer Seeker | Harc | Seeker megsemmisítése ×10 000 | – | 322 500 | 5 700 000 | 42 755 | 0 | Power Core ×15, Experience Booster, 10 óra |
-| Tízezer Phantasm | Harc | Phantasm megsemmisítése ×10 000 | – | 420 000 | 4 200 000 | 31 500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I, 10 óra |
-| Goombah-légió | Harc | Goombah megsemmisítése ×1 000 | – | 467 500 | 6 700 000 | 50 250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10 óra |
-| Crystalys-uralom | Harc | Crystalys megsemmisítése ×150 | – | 365 500 | 7 725 000 | 57 925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 óra |
-| Dormant-hódítás | Harc | Dormant Force megsemmisítése ×25 (a szezon 4. napjától) | – | 394 000 | 6 350 000 | 47 605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 óra |
-| Kalóztrón | Harc | Pirate Boss megsemmisítése ×60 (a szezon 4. napjától) | – | 191 000 | 5 325 000 | 39 925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 óra |
-| Utolsó őrség | Felderítés | Maradj 180 percig megszakítás nélkül (DS-x) | – | 338 000 | 3 380 000 | 25 355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 óra |
-| Nullás konvoj | Műveletek | Goombah megsemmisítése ×8 (x-4) → Crystalys megsemmisítése ×1 (x-4) → Told haza a Küldetésirányításhoz: Zero Core (a(z) x-4 szektor 13 600 / 4 400 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 252 000 | 2 740 000 | 20 535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
-| Érintetlen nulla | Műveletek | Goombah megsemmisítése ×20 (x-4) (legfeljebb 556 000 hajótestpont veszteség) | – | 87 000 | 1 540 000 | 11 555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 óra |
-| A Vonal őre | Műveletek | Goombah megsemmisítése ×400 (x-4) → Crystalys megsemmisítése ×30 (x-4) → Maradj 60 percig megszakítás nélkül (x-4) → Repülj a 8 000 / 4 500 pontra (rival x-4) → Repülj a 26 000 / 4 500 pontra (DS-x) → Repülj a 1 500 / 1 500 pontra (x-1) | – | 272 500 | 4 730 000 | 35 460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II, 10 óra |
+| Tízezer Seeker | Harc | Seeker megsemmisítése ×10 000 | – | 1 612 500 | 13 325 000 | 100 000 | 0 | Power Core ×36, Experience Booster, 10 óra |
+| Tízezer Phantasm | Harc | Phantasm megsemmisítése ×10 000 | – | 2 100 000 | 13 340 000 | 100 000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10 óra |
+| Goombah-légió | Harc | Goombah megsemmisítése ×1 000 | – | 2 337 500 | 13 330 000 | 100 000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10 óra |
+| Crystalys-uralom | Harc | Crystalys megsemmisítése ×150 | – | 1 827 500 | 24 990 000 | 100 000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 óra |
+| Dormant-hódítás | Harc | Dormant Force megsemmisítése ×25 (a szezon 4. napjától) | – | 1 970 000 | 12 670 000 | 63 590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 óra |
+| Kalóztrón | Harc | Pirate Boss megsemmisítése ×60 (a szezon 4. napjától) | – | 955 000 | 10 680 000 | 100 000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 óra |
+| Utolsó őrség | Felderítés | Maradj 180 percig megszakítás nélkül (DS-x) | – | 1 690 000 | 3 560 000 | 26 735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 óra |
+| Nullás konvoj | Műveletek | Goombah megsemmisítése ×8 (x-4) → Crystalys megsemmisítése ×1 (x-4) → Told haza a Küldetésirányításhoz: Zero Core (a(z) x-4 szektor 13 600 / 4 400 pontjától) (legfeljebb 46 000 hajótestpont veszteség) (hajóvesztés nélkül) | – | 1 260 000 | 2 740 000 | 20 535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 óra |
+| Érintetlen nulla | Műveletek | Goombah megsemmisítése ×20 (x-4) (legfeljebb 556 000 hajótestpont veszteség) | – | 435 000 | 1 740 000 | 13 055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 óra |
+| A Vonal őre | Műveletek | Goombah megsemmisítése ×400 (x-4) → Crystalys megsemmisítése ×30 (x-4) → Maradj 60 percig megszakítás nélkül (x-4) → Repülj a 8 000 / 4 500 pontra (rival x-4) → Repülj a 26 000 / 4 500 pontra (DS-x) → Repülj a 1 500 / 1 500 pontra (x-1) | – | 1 362 500 | 15 220 000 | 100 000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10 óra |
 
 
 <!-- quests:end -->

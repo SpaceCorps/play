@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5c120158150a483e -->
+<!-- wiki-i18n source: eeecb37fc86f287d -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -49,12 +49,24 @@
 | **Momentum Thruster IV** | Momentum Thruster III 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Dark Matter Plate 3개 | 90초 |
 | **Heavy Shield Core** | Basic Shield Core 1개 | 2,000 | Cataclysite 20개, Reinforced Hull Plate 8개, Dark Matter Plate 3개 | 90초 |
 | **Engine III** | Engine II 1개 | 2,000 | Ship Fragment 60개, Power Core 3개, Dark Matter Plate 3개 | 90초 |
+| **Hull Plating II** | Hull Plating I 1개 | 2,500 | Ship Fragment 150개, Reinforced Hull Plate 20개, Power Core 6개, Dark Matter Plate 5개 | 300초 |
+| **Hull Plating III** | Hull Plating II 1개 | 4,000 | Ship Fragment 300개, Reinforced Hull Plate 40개, Power Core 12개, Ancient Control Unit 1개, Dark Matter Plate 8개 | 600초 |
 
 Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced Hull Plate 0.6개, Power Core 0.25개를 드롭합니다. 따라서 Damage Amp IV나 Crit Amp IV에 필요한 드롭은 Goombah 약 8기, 셀은 티어 II 약 7기·III 약 10기·IV 약 14기, Heavy Shield Core는 약 14기, 추진기는 티어 II 약 4기·III 약 10기·IV 약 19기, Engine III는 약 19기분입니다. Bulwark는 Cataclysite 2개, Ship Fragment 2개, Reinforced Hull Plate 0.3개를 드롭하지만 Power Core는 드롭하지 않습니다. 티어 II나 III의 Damage Amp 또는 Crit Amp는 Goombah 약 3기, 약 5기분이고, Penetration Amp도 같지만 Quorvium 40개만 약 14기분입니다(Daraxium과 Nyxite는 Seeker, Phantasm, Bulwark가 드롭합니다).
 
 플레이트는 드롭되지 않습니다. [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소가 티어 II와 III의 Velkonite Reinforced Plate를 Velkonite 광석으로 만들며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. 레벨 1 Velkonite 수집기는 시간당 광석 10개를 채굴하므로 티어 III 셀이나 추진기의 플레이트 4장은 채굴 16시간, 티어 II의 플레이트 2장은 8시간 분량입니다. 티어 III 증폭기는 플레이트 2장(8시간), 티어 II 증폭기는 플레이트 1장(4시간)입니다. 마지막 티어는 대신 **Dark Matter Plate 3개**를 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam이 여기에 해당합니다. 어셈블리는 플레이트의 제작법을 연구한 뒤 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 플레이트 하나를 압착하며, Dark Matter는 블랙홀에서 나옵니다. 마지막 티어 부품 하나에는 Dark Matter 15개, 곧 N.I.K.E. 로켓 평균 7.5발 분량이 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)). 모든 재료의 획득처는 [자원](/wiki/06-Items/Resources.md)을 참고하세요.
 
 **Helios Beam**도 같은 종류의 업그레이드로, 레이저에서 레이저를 만드는 것입니다. Starfire-III를 소모하고 2,000 Thulium, Cataclysite 50개, Power Core 2개, Reinforced Hull Plate 4개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개가 필요하며, Starfire-III의 인챈트 등급도 같은 방식으로 이어받습니다. **Starfire-III**도 마찬가지입니다. Quantum Laser III를 소모하고 1,500 Thulium, 100,000 크레딧, Ship Fragment 15개, Reinforced Hull Plate 1개, Velkonite Reinforced Plate 8개가 필요하며, Quantum Laser III의 인챈트 등급을 이어받습니다. **Quantum Laser III**도 마찬가지입니다. Quantum Laser II(상점의 레이저)를 소모하고 1,500 Thulium, Ship Fragment 10개, Velkonite Reinforced Plate 2개가 필요하며, Quantum Laser II의 인챈트 등급을 이어받습니다. 셋 모두 [레이저](/wiki/06-Items/Lasers.md) 페이지에 있으며, 위 표에는 증폭기, 티어 II~IV의 셀과 추진기, Heavy Shield Core, Engine III가 나와 있습니다.
+
+## 생산 대기열 {#the-production-queue}
+
+어셈블리가 만드는 것은 모두 **하나의 생산 대기열**을 거칩니다. 제작 탭 맨 위의 카드입니다. 작업은 **하나씩** 진행됩니다. 새 작업은 앞 작업이 끝나면 시작되고, 자리를 비운 동안에도 진행되며, 비용은 대기열에 넣을 때 지불합니다. 완료된 작업은 수령을 기다립니다. **수령**은 그 작업을 내주고, **모두 수령**(완료된 작업이 두 개부터 표시됩니다)은 완료된 작업을 한꺼번에 내줍니다. 대기열에는 **최대 100개의 작업**이 들어갑니다. 진행 중인 것, 기다리는 것, 완료됐지만 아직 수령하지 않은 것을 모두 합친 수입니다.
+
+**여러 개를 한 번에.** 허용하는 제작법 카드에는 조립 버튼 위에 **×1**, **×5**, **×10**, **최대** 칩이 있습니다. 묶음은 여러 개가 아니라 **하나의 작업**입니다. 제작법 시간에 개수를 곱한 시간 동안 진행되고, 타이머도 대기열의 줄도 하나이며(예를 들어 ×5로 표시), **한 번 수령하면 모든 개수가 나옵니다**. **모든** 개수의 비용, 즉 크레딧, Thulium, 재료는 **선불로, 전부 아니면 전무로** 빠져나갑니다. 모든 개수를 지불할 수 없으면 아무것도 빠져나가지 않고 아무것도 대기열에 들어가지 않습니다. 지불할 수 없는 칩은 회색으로 표시되고, **최대**는 지금 지불할 수 있는 개수이며 최대 25개입니다. 여러 개일 때 카드에는 총비용, 총 재료, 총 시간이 표시됩니다. 들고 다닐 수 있는 로켓 수를 넘기게 되는 로켓 묶음은 통째로 거절됩니다.
+
+**한 번에 하나씩만.** 함선, Extra Slots CPU, 장비 한 점의 업그레이드(Damage Amp III로 Damage Amp IV, Basic Shield Core로 Heavy Shield Core), Master Drone의 업그레이드에는 칩이 없습니다. 각각 내가 고른 하나를 소모하거나 설치하기 때문입니다. 그래도 여러 건을 차례로 대기열에 넣을 수는 있습니다. 함선을 [디자인](/wiki/03-Mechanics/Ship-Designs.md)으로 개조하는 작업도 이런 작업의 하나이며 저절로 끝납니다. 수령할 것은 없고, **모두 수령**에서도 빠집니다.
+
+**조각마다 따로 굴립니다.** 장비는 수령할 때 [인챈트](#item-enchants) 등급을 굴리고, 묶음의 조각 하나하나가 따로 굴립니다. 한 묶음의 레이저 열 개는 하나씩 만들 때와 같은 열 번의 별개 굴림입니다. 업그레이드는 소모한 장비의 등급을 그대로 이어받습니다.
 
 ## 아이템 인챈트 {#item-enchants}
 
@@ -69,7 +81,7 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 | 5. **영원한** | 4 | +9–15% | 0.01% |
 
 - 상점 아이템은 항상 표준 등급입니다. 어셈블리에서 만든 장비는 수령할 때 등급이 정해집니다(확률 열). 그보다 높은 등급은 [대장간](/wiki/06-Items/Forge.md)에서 한 단계씩 올립니다. 유일한 다른 방법은 어셈블리의 모듈 업그레이드(Damage Amp IV, Crit Amp IV, 티어 II~IV의 실드 셀과 추진기, Heavy Shield Core, Engine III, Quantum Laser III, Starfire-III, Helios Beam)이며, 이는 재료가 된 부품의 등급을 이어받습니다.
-- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser I, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.02~x1.035에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
+- 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개(Quantum Laser I, 2는 고유 치명타 확률이 없으므로 2개), 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone, 선체 장갑은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.02~x1.035에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
 - [대장간](/wiki/06-Items/Forge.md#buffs-by-tier)은 아이템의 첫 보너스 이후의 칸을 확률로만 채웁니다. 등급 상승은 첫 보너스를 항상 주고, 새 등급이 여는 나머지 칸은 50% 확률로 채워집니다. 그래서 한 등급이 담는 보너스는 최대 그 수까지입니다(신성한 등급 아이템은 절반의 확률로 2개).
 - **사거리** 보너스는 어느 등급에서도 +5%를 넘지 않습니다.
 - 보너스는 바로 위 단계 아이템에 비하면 작습니다. 보너스를 최대로 채운 Quantum Laser I도 평범한 Quantum Laser II보다 피해량이 낮습니다.
@@ -89,8 +101,9 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 
 ## 분류 {#categories}
 
-상점, 격납고 인벤토리와 그 밖의 아이템 목록은 같은 순서로 정렬됩니다. 함선, 이어서 증폭기와 탄약이 딸린 레이저, 셀이 딸린 실드, 추진기가 딸린 엔진, 적응형 코어, 부가 장비, 드론, 드론 편대, 부스터, 자원 순입니다. 같은 종류 안에서는 가장 저렴한 것이 먼저 옵니다.
+상점, 격납고 인벤토리와 그 밖의 아이템 목록은 같은 순서로 정렬됩니다. 함선, 그 선체 장갑, 이어서 증폭기와 탄약이 딸린 레이저, 셀이 딸린 실드, 추진기가 딸린 엔진, 적응형 코어, 부가 장비, 드론, 드론 편대, 부스터, 자원 순입니다. 같은 종류 안에서는 가장 저렴한 것이 먼저 옵니다.
 
+- **선체 장갑**: 제작하는 네 함선의 장갑 슬롯에 들어가는 장갑으로, Hull Plating I에서 III까지 올라갈수록 더 많은 선체를 더합니다. [선체 장갑](/wiki/06-Items/Hull-Plating.md)을 보세요.
 - **레이저**: 주력 무기 시스템과, 거기에 장착하는 [증폭기](/wiki/06-Items/Lasers.md).
 - **실드**: 방어용 발생기와 [셀](/wiki/06-Items/Shields.md).
 - **추진 장치**: 속도를 위한 엔진과 [추진기](/wiki/06-Items/Propulsion.md).

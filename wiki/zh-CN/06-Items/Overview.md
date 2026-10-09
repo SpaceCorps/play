@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5c120158150a483e -->
+<!-- wiki-i18n source: eeecb37fc86f287d -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -49,12 +49,24 @@
 | **Momentum Thruster IV** | 1 个 Momentum Thruster III | 2,000 | 60 个 Ship Fragment、3 个 Power Core、3 块 Dark Matter Plate | 90 秒 |
 | **Heavy Shield Core** | 1 个 Basic Shield Core | 2,000 | 20 个 Cataclysite、8 块 Reinforced Hull Plate、3 块 Dark Matter Plate | 90 秒 |
 | **Engine III** | 1 个 Engine II | 2,000 | 60 个 Ship Fragment、3 个 Power Core、3 块 Dark Matter Plate | 90 秒 |
+| **Hull Plating II** | 1 个 Hull Plating I | 2,500 | 150 个 Ship Fragment、20 个 Reinforced Hull Plate、6 个 Power Core、5 块 Dark Matter Plate | 300 秒 |
+| **Hull Plating III** | 1 个 Hull Plating II | 4,000 | 300 个 Ship Fragment、40 个 Reinforced Hull Plate、12 个 Power Core、1 个 Ancient Control Unit、8 块 Dark Matter Plate | 600 秒 |
 
 平均每架 Goombah 掉落 4 个 Cataclysite、3.25 个 Ship Fragment、0.6 块 Reinforced Hull Plate 和 0.25 个 Power Core，所以制作一个 Damage Amp IV 或 Crit Amp IV 所需的掉落物大约要击毁 8 架 Goombah，电池 II 阶约 7 架、III 阶约 10 架、IV 阶约 14 架，Heavy Shield Core 约 14 架，推进器 II 阶约 4 架、III 阶约 10 架、IV 阶约 19 架，Engine III 约 19 架。每架 Bulwark 掉落 2 个 Cataclysite、2 个 Ship Fragment 和 0.3 块 Reinforced Hull Plate，但不掉落 Power Core。II 阶或 III 阶的 Damage Amp 或 Crit Amp 大约要击毁 3 架或 5 架 Goombah，Penetration Amp 也一样，只是它的 40 个 Quorvium 约需 14 架（Daraxium 和 Nyxite 由 Seeker、Phantasm 和 Bulwark 掉落）。
 
 板不会掉落。你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用 Velkonite 矿石制造 II 阶和 III 阶所需的 Velkonite Reinforced Plate，锻造厂 1 级时每块板 40 个矿石。1 级的 Velkonite 采集器每小时开采 10 个矿石，所以一个 III 阶护盾电池或推进器的 4 块板相当于 16 小时的开采，II 阶的 2 块板相当于 8 小时；III 阶增幅器需要 2 块板（8 小时），II 阶增幅器只需 1 块板（4 小时）。最后一阶则改为需要 **3 块 Dark Matter Plate**：IV 阶的增幅器、护盾电池和推进器，以及 Heavy Shield Core、Engine III 和 Helios Beam。装配站在你研究了这块板的配方之后，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制每一块 Dark Matter Plate，而 Dark Matter 来自黑洞：一件最后一阶的部件含有 15 个 Dark Matter，平均相当于 7.5 枚 N.I.K.E. 火箭（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。各种材料的来源见[资源](/wiki/06-Items/Resources.md)。
 
 **Helios Beam** 是同一类的升级，由激光制成激光：它会消耗一把 Starfire-III，并需要 2,000 Thulium、50 个 Cataclysite、2 个 Power Core、4 块 Reinforced Hull Plate、18 块 Orvium Reinforced Plate 和 3 块 Dark Matter Plate，并以同样的方式沿用 Starfire-III 的附魔等级。**Starfire-III** 也是如此：它会消耗一把 Quantum Laser III，并需要 1,500 Thulium、100,000 信用点、15 个 Ship Fragment、1 块 Reinforced Hull Plate 和 8 块 Velkonite Reinforced Plate，并沿用 Quantum Laser III 的附魔等级。**Quantum Laser III** 也是如此：它会消耗一把 Quantum Laser II（商店里的激光），并需要 1,500 Thulium、10 个 Ship Fragment 和 2 块 Velkonite Reinforced Plate，并沿用 Quantum Laser II 的附魔等级。三者都在[激光与弹药](/wiki/06-Items/Lasers.md)页面中；上表列出的是增幅器、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core 和 Engine III。
+
+## 生产队列 {#the-production-queue}
+
+装配站制造的一切都要经过**同一条生产队列**，也就是“制造”标签页顶部的那张卡片。队列里的任务**一次只做一个**：前一个完成后，新的才开始，你不在线时也一样，付款发生在加入队列的那一刻。完成的任务会等你来领：**领取**交付一个任务，**全部领取**（有两个及以上已完成任务时出现）一次交付所有已完成的任务。队列**最多容纳 100 个任务**：正在进行的、在等待的，以及已完成但还没领取的。
+
+**一次做多份。** 允许批量的配方卡片，在“组装”按钮上方有 **×1**、**×5**、**×10** 和 **最大** 几个选项。一批是**一个任务**，而不是好几个：它的耗时是配方时间乘以份数，只有一个计时器、队列里只占一行（比如标着 ×5），**一次领取就交付全部份数**。**所有**份数的费用，即信用点、Thulium 和材料，会**预先扣除，要么全部，要么一点也不扣**：如果你付不起每一份，就什么都不会扣，也不会排入队列。付不起的选项会变灰，**最大**就是你现在付得起的份数，最多 25 份。多份时，卡片会显示总费用、总材料和总时间。一批会让你超过火箭携带上限的火箭，会被整批拒绝。
+
+**一次只做一个。** 舰船、Extra Slots CPU、装备的升级（用 Damage Amp III 升成 Damage Amp IV，用 Basic Shield Core 升成 Heavy Shield Core）和 Master Drone 的升级都没有批量选项：每一个都会消耗或安装你选定的那一件。你仍然可以把好几个排进队列，一个接一个。把舰船改装成[设计](/wiki/03-Mechanics/Ship-Designs.md)也是这样一个任务，它会自行完成：没有东西需要领取，**全部领取**也不会包含它。
+
+**每一件各自掷骰。** 装备在你领取时掷出它的[附魔](#item-enchants)等级，一批里的每一件都各自掷骰：一批十把激光，就是十次独立的掷骰，和你一把一把做出来一样。升级会沿用被它消耗的那一件的等级。
 
 ## 物品附魔 {#item-enchants}
 
@@ -69,7 +81,7 @@
 | 5. **永恒** | 4 | +9% 至 +15% | 0.01% |
 
 - 商店物品始终是标准等级。你在装配站制造的装备会在你领取时随机得到一个等级（见几率一列）。在此之上，等级可以在[锻造炉](/wiki/06-Items/Forge.md)中逐级提升；另一种途径是装配站的模块升级（Damage Amp IV、Crit Amp IV、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core、Engine III、Quantum Laser III、Starfire-III、Helios Beam），它们沿用制作它们所用部件的等级。
-- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项（Quantum Laser I 和 II 为两项，因为它们自身没有暴击率），引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I 或 Repair Drone 有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.02 到 x1.035 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
+- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项（Quantum Laser I 和 II 为两项，因为它们自身没有暴击率），引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I、Repair Drone 或船体装甲有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.02 到 x1.035 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
 - [锻造炉](/wiki/06-Items/Forge.md#buffs-by-tier)只按概率填上物品第一项加成之后的槽位：升级一定会给第一项加成，新等级开出的其他槽位各以 50% 的概率填上。所以一个等级最多能承载这么多项加成（神圣物品有一半的概率有两项）。
 - **射程**加成在任何等级都不会超过 +5%。
 - 与更高一级的物品相比，加成始终很小：加满的 Quantum Laser I 造成的伤害，仍然低于一把普通的 Quantum Laser II。
@@ -89,8 +101,9 @@
 
 ## 类别 {#categories}
 
-商店、机库的物品栏和其他物品列表都按同一顺序排列：先是舰船，然后是激光及其增幅器和弹药，护盾及其电池，引擎及其推进器，自适应核心，附加装置，无人机，无人机编队，增益和资源。同一种类之内，最便宜的排在最前。
+商店、机库的物品栏和其他物品列表都按同一顺序排列：先是舰船，然后是它的船体装甲，再是激光及其增幅器和弹药，护盾及其电池，引擎及其推进器，自适应核心，附加装置，无人机，无人机编队，增益和资源。同一种类之内，最便宜的排在最前。
 
+- **船体装甲**：用于你制造的四艘舰船的装甲槽位的护甲，Hull Plating I 到 III，每一阶增加更多船体。见[船体装甲](/wiki/06-Items/Hull-Plating.md)。
 - **激光**：你的主要武器系统，以及装入其中的[增幅器](/wiki/06-Items/Lasers.md)。
 - **护盾**：用于防御的发生器和[电池](/wiki/06-Items/Shields.md)。
 - **推进**：提供速度的引擎和[推进器](/wiki/06-Items/Propulsion.md)。

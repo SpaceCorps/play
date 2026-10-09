@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: 物品栏 -->
 # 物品栏与装备 {#inventory-equipment}
 
@@ -17,6 +17,7 @@
   - **未分配/旧版槽位**：放在这里的物品不提供任何属性。
   - **叠加也会递减**：护盾和引擎按强度从高到低排名（按各自在槽位份额之后所计入的值），档位的份额再乘以它们所在名次的份额：第 1 到第 4 件全额计入，第 5 到第 7 件分别按 85%、70% 和 55% 计入，第 8 件及以后：护盾按 50%、引擎按 25% 计入。参见[护盾](/wiki/03-Mechanics/Shields.md)和[速度](/wiki/03-Mechanics/Speed.md)。
 - **附加槽位**：用于专门的功能物品，例如 Repair Drone。Protos、Kitefin、Ostirion 和 Nomad 有两个；你制造的 Paragon、Ironclad、Wraith 和 Storm 有三个；Extra Slots CPU（[附加装置](/wiki/06-Items/Extras.md#extra-slots-cpus)）能再增加 3、5 或 7 个。
+- **装甲槽位**：用于增加船体的[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)。只有你制造的四艘舰船才有（Paragon 5 个，Storm 7 个，Ironclad 15 个，Wraith 9 个），每个在你于 Skylab 研究之前都是锁定的，两种配置里都一样。
 
 ## 物品栏排序 {#inventory-order}
 

@@ -8,7 +8,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - You need **level 5** to use the Auction: to list, to buy and to bid.
 - A listing is priced per lot, in whole Credits or whole Thulium (not both), and never under the kind's least price. There is **no highest price**.
 - A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 1 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
-- 80 kinds can be listed, and 79 of them can also be priced in Thulium.
+- 82 kinds can be listed, and 81 of them can also be priced in Thulium.
 - A listing runs for 24 / 72 / 168 hours, as you choose: the choice is the same at every level.
 - The **deposit** is 1% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
 - From level 10 the deposit is 1.5%.
@@ -48,6 +48,7 @@ When the Auction came (0.4.12) the gear you already held that the Shop does not 
 | **Laser ammo** | Standard Battery (in lots of 100), Siphon Battery (in lots of 10), Advanced Plasma (in lots of 10), Ultra Core (in lots of 10), Experimental Fusion Core | 5 |
 | **Rockets** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Hull plating** | Hull Plating II, Hull Plating III | 2 |
 | **Resources** | Cataclysite (in lots of 100), Ship Fragment (in lots of 100), Daraxium (in lots of 100), Nyxite (in lots of 100), Quorvium (in lots of 10), Reinforced Hull Plate (in lots of 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

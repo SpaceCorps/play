@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -6,7 +6,7 @@ La **Forja** es la segunda pestaña de la página de Ensamblaje (y de la ventana
 
 ## Qué se puede forjar {#what-can-be-forged}
 
-Láseres, amplificadores láser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos y Repair Drones: cualquier pieza de equipo que pueda llevar [bonificaciones de encantamiento](/wiki/06-Items/Overview.md). Puede estar en tu inventario, en una nave (se queda allí y funciona con su nuevo grado de inmediato) o instalada dentro de otro objeto. Los drones, las naves, la munición, los recursos y los potenciadores no se pueden forjar, ni tampoco nada que esté en el Alijo de Transporte: sácalo primero.
+Láseres, amplificadores láser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos, Repair Drones y [blindaje de casco](/wiki/06-Items/Hull-Plating.md): cualquier pieza de equipo que pueda llevar [bonificaciones de encantamiento](/wiki/06-Items/Overview.md). Puede estar en tu inventario, en una nave (se queda allí y funciona con su nuevo grado de inmediato) o instalada dentro de otro objeto. Los drones, las naves, la munición, los recursos y los potenciadores no se pueden forjar, ni tampoco nada que esté en el Alijo de Transporte: sácalo primero.
 
 ## Subir grado {#tier-up}
 
@@ -39,7 +39,7 @@ Los dos últimos pasos piden **2 Dark Matter Plates** cada uno, además de todo 
 
 El equipo fabricado antes de la Forja conserva las bonificaciones con las que salió, y a menudo son menores que las de la tabla (una pieza de grado Divino de aquella época puede llevar +2 %). Nada las sube por sí solo: una subida de grado vuelve a sortear cada bonificación en el rango del nuevo grado y se queda con el mejor valor, y una combinación se queda con el mejor valor de cada estadística.
 
-Un objeto no puede llevar más bonificaciones que estadísticas tiene: un núcleo de escudo tiene cuatro; un láser, tres (el Quantum Laser I y el II tienen dos); un motor o un núcleo adaptativo, dos; un Momentum Thruster, dos; un Impulse Thruster, una (su multiplicador de 1,02 a 1,035 es demasiado pequeño para una bonificación, y la Forja no sortea ninguna sobre un multiplicador de 1,05 o menos, así que su bonificación solo puede recaer en la velocidad fija); un Crit Amp I o un Repair Drone, una; los amplificadores de crítico superiores, dos; los amplificadores de daño y las células de escudo, tres. Cuando el siguiente grado no admite más bonificaciones de las que el objeto puede llevar, el panel lo indica: entonces el grado solo hace más fuertes las bonificaciones. Las bonificaciones de alcance nunca pasan de +5 %. Un Penetration Amp tiene una sola estadística, así que lleva una sola bonificación.
+Un objeto no puede llevar más bonificaciones que estadísticas tiene: un núcleo de escudo tiene cuatro; un láser, tres (el Quantum Laser I y el II tienen dos); un motor o un núcleo adaptativo, dos; un Momentum Thruster, dos; un Impulse Thruster, una (su multiplicador de 1,02 a 1,035 es demasiado pequeño para una bonificación, y la Forja no sortea ninguna sobre un multiplicador de 1,05 o menos, así que su bonificación solo puede recaer en la velocidad fija); un Crit Amp I, un Repair Drone o un blindaje de casco, una (su casco); los amplificadores de crítico superiores, dos; los amplificadores de daño y las células de escudo, tres. Cuando el siguiente grado no admite más bonificaciones de las que el objeto puede llevar, el panel lo indica: entonces el grado solo hace más fuertes las bonificaciones. Las bonificaciones de alcance nunca pasan de +5 %. Un Penetration Amp tiene una sola estadística, así que lleva una sola bonificación.
 
 **Un grado admite como máximo ese número de bonificaciones.** Una subida de grado da siempre a un objeto su primera bonificación; cada otra ranura que abre el nuevo grado y para la que el objeto tiene una estadística se llena con un **50 % de probabilidad, cada una con su propia tirada**, y una ranura que falla se vuelve a intentar en la siguiente subida de grado. Así, un núcleo de escudo Divino tiene dos bonificaciones la mitad de las veces y una la otra mitad; uno Eterno tiene las cuatro más o menos una de cada tres veces (3,1 de media), un láser con tres estadísticas tiene las tres dos de cada tres veces, y un motor casi siempre tiene las dos. El panel dice «hasta» para el siguiente grado e indica con qué frecuencia se llena una ranura nueva. Los objetos con una sola estadística y todo paso a Corrupto no se ven afectados, y el equipo hecho antes de esta regla conserva sus bonificaciones. Una **combinación** llena una ranura que una subida de grado dejó pasar: conserva la mejor bonificación de cada estadística de dos copias, hasta el límite del grado. Por el azar, una pieza lleva la bonificación de absorción que se describe a continuación solo una parte de las veces (un núcleo de escudo Eterno el 78 %, una célula de escudo Eterna el 88 %): las cifras de ahí son para piezas que la llevan.
 
@@ -47,7 +47,7 @@ La **bonificación de absorción de un escudo** (y el aumento de absorción de u
 
 Los motores, los propulsores, los núcleos adaptativos y los Repair Drones apenas cambian con una bonificación porcentual (un Engine II suma 4 de velocidad, así que +12 % es medio punto): fórjalos si quieres el grado, no por las estadísticas.
 
-**La bonificación de un Penetration Amp** multiplica su penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 8,7 a 9,2 puntos por ranura en lugar de 8. En el mejor láser (un Fusion Core, un Stiletto y tres Penetration Amp IV en cada láser), 10 + 16 + 24 ya alcanzan el tope del 50 % de un impacto láser, así que esa bonificación se desperdicia ahí; compensa donde la suma queda por debajo del tope ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**La bonificación de un Penetration Amp** multiplica su penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 8,7 a 9,2 puntos por ranura en lugar de 8. Nada limita la penetración de un impacto, así que cada punto cuenta: en el mejor láser (un Fusion Core, un Stiletto y tres Penetration Amp IV en cada láser), 10 + 16 + 24 dan el 50 %, y tres bonificaciones Eternas lo suben hasta un 53,6 % ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### De dónde caen los materiales {#where-the-materials-drop}
 

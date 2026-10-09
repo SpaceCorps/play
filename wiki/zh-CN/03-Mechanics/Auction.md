@@ -10,7 +10,7 @@
 - 要使用拍卖行（挂单、购买和出价），需要 **5 级**。
 - 挂单按每组定价，用整数信用点或整数 Thulium（二选一），且不能低于该物品的最低价。**没有最高价。**
 - Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 1 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
-- 共有 80 种物品可以挂单，其中 79 种还可以用 Thulium 定价。
+- 共有 82 种物品可以挂单，其中 81 种还可以用 Thulium 定价。
 - 挂单时长可在 24 / 72 / 168 小时中选择，每个等级的可选时长都一样。
 - **押金**是价格的 1%，按挂单每 24 小时计，最低 50 信用点 或 1 Thulium。挂单时支付，永远不退还，取消挂单也不退。
 - 从 10 级起，押金为 1.5%。
@@ -50,6 +50,7 @@
 | **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Ultra Core（每组 10 个）, Experimental Fusion Core | 5 |
 | **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **资源** | Cataclysite（每组 100 个）, Ship Fragment（每组 100 个）, Daraxium（每组 100 个）, Nyxite（每组 100 个）, Quorvium（每组 10 个）, Reinforced Hull Plate（每组 10 个）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

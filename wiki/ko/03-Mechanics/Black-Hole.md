@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1ad7127494a07e66 -->
+<!-- wiki-i18n source: 55d6cdfda1970b32 -->
 <!-- wiki-i18n title: 블랙홀 -->
 # 블랙홀 {#the-black-hole}
 
@@ -88,6 +88,8 @@
 | Wraith | 233 | 1,208 |
 | Storm | 263 | 995 |
 
+함선 디자인은 원래 함선의 속도를 바꾸며, 귀환 불능 지점도 함께 바뀝니다. DUMA는 Ironclad보다 느리고, NOTSUM은 Storm보다 빠릅니다.
+
 초당 272유닛보다 빠른 함선(러너 구성, 또는 Afterburner를 작동 중인 기본 Wraith)은 귀환 불능 지점이 원래 있던 자리에 그대로 있습니다. 속도 300에서는 885, 432에서는 747입니다.
 
 속도에 맞춰 구성하면 더 깊은 곳에서도 빠져나올 수 있고, 무거운 실드를 가득 실으면 그럴 수 없습니다(가장 느린 함선인 Ironclad의 14개 슬롯 모두에 Heavy Shield Core를 장착하면 속도는 39.1이고 귀환 불능 지점은 약 2,600입니다). 귀환 불능 지점 바로 안쪽에 들어온 함선을 되돌릴 수 있는 것은 순간 가속뿐입니다. 작동 중인 [Afterburner](/wiki/03-Mechanics/Abilities.md)가 여기에 해당하며, 작동하는 동안 귀환 불능 지점을 더 깊은 곳으로 옮겨 줍니다(엔진 1개면 10초, 2개면 15초, 3개면 20초. Afterburner III는 기본 Protos의 지점을 1,577에서 989로, 기본 Wraith의 지점을 1,208에서 801으로 옮깁니다). 속도 능력치를 전부 최대로 인챈트하고 가장 강한 가속(상한까지 인챈트한 Afterburner III, x1.69)을 작동시킨, 속도에 맞춘 함선조차도 약 390유닛 이내에서는 누구도 빠져나올 수 없습니다. 인챈트하지 않은 속도형 함선(Engine III에 Impulse Thruster IV 1개와 Momentum Thruster IV 2개, Adaptive Core II에 Impulse Thruster IV 2개를 장착한 구성)은 Afterburner III를 써도 아무리 잘해야 427유닛 바깥에서만 빠져나올 수 있습니다.
@@ -140,4 +142,4 @@ Dark Matter가 처음이신가요? 연구에서 플레이트까지의 전체 과
 - **누구의 것인가.** 상자는 발사 후 **60초** 동안 내 것이며 내 클랜의 것이기도 합니다. 그 뒤에는 맵의 누구나 가져갈 수 있고, **4분**이 지나면 떠내려가 사라집니다. 위험 섹터는 PvP 섹터이므로 다른 파일럿이 나타날 것을 각오하세요. 발사한 뒤 로그아웃한 파일럿의 상자도 여전히 그 파일럿의 것입니다.
 - **수량.** 한 맵에는 Dark Matter 상자가 최대 32개까지 있을 수 있으며, 새 상자가 생기면 그중 가장 오래된 것이 밀려납니다. 다른 종류의 상자는 절대 밀려나지 않습니다. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md)은 Dark Matter에는 아무것도 더하지 않습니다.
 - **보이는 모습.** N.I.K.E.가 지평선을 넘으면 블랙홀 속으로 가늘게 늘어나며 빨려 들어가고, 들어간 자리에서 공간이 물결치며 퍼져 나가고, 원반과 광자 고리가 약 1.5초 동안 번쩍입니다(**움직임 줄이기**에서는 그 3분의 1 길이에 절반의 밝기). 잠시 뒤 상자가 블랙홀에서 나와 가장자리의 제자리로 떠갑니다. 각 상자는 밝은 테두리와 반짝임이 있는 보랏빛 도는 검은 구체로 멀리서도 잘 보이며, 마우스를 올리면 **Dark Matter**라는 이름이 표시됩니다. 내 상자에는 남은 시간(초)이 표시되고, 클랜의 상자와 마찬가지로 미니맵에 작은 보라색 표시로 나타납니다. 다른 파일럿의 상자는 그 1분이 지나야 미니맵에 표시됩니다.
-- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. 모든 강화 계열의 마지막 티어는 플레이트 3개를 요구하며, 부품 하나에 Dark Matter 15개입니다. 티어 IV의 Amp, 실드 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III, Base CPU II가 해당합니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 16개 각각에 10개씩, 모두 160개를 연구가 시작되기 전에 센터에 추가해 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 349개입니다. Helios Beam과 티어 IV Amp 3개를 합하면 Dark Matter 60개이고, 마지막 티어 부품으로만 채운 Wraith는 900개입니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. 모든 강화 계열의 마지막 티어는 플레이트 3개를 요구하며, 부품 하나에 Dark Matter 15개입니다. 티어 IV의 Amp, 실드 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III, Base CPU II가 해당합니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 16개 각각에 10개씩, 모두 160개를 연구가 시작되기 전에 센터에 추가해 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 349개입니다. Hull Plating의 연구 두 개가 65개를 더하고, 함선 디자인과 장갑 슬롯이 490개를 더합니다([연구](/wiki/03-Mechanics/Research.md#ship-technologies)). Helios Beam과 티어 IV Amp 3개를 합하면 Dark Matter 60개이고, 마지막 티어 부품으로만 채운 Wraith는 900개입니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

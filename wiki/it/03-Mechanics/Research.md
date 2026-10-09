@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: Ricerca -->
 # Ricerca {#research}
 
@@ -110,8 +110,9 @@ Le tecnologie in cima all’albero richiedono anche Dark Matter. Viene dal [buco
 - **10 Dark Matter** per ciascuna delle 16 tecnologie della tabella qui sotto, oltre alla scienza: inseriscila nel Centro ricerche (dal tuo inventario, con la nave atterrata) prima di iniziare, e la ricerca la prende quando parte.
 - **La regola:** un oggetto di rarità Epico o superiore la cui ricerca dura 10 h o più. La N.I.K.E., con cui si produce la Dark Matter, non ne ha mai bisogno.
 - **Le formazioni di droni** sono fuori dalla regola: ogni ricerca di formazione richiede Dark Matter, 5, 13 o 20 in base alla potenza, come mostra la tabella.
+- **La corazza dello scafo** è fuori dalla regola anche lei: le sue due ricerche richiedono di più, 25 Dark Matter per un giorno di ricerca e 40 per due giorni, come mostra la tabella.
 - **Se annulli una ricerca,** la Dark Matter che hai inserito per essa torna al Centro. L’avanzamento e la scienza già bruciata, no.
-- Tutte insieme richiedono 349 Dark Matter.
+- Tutte insieme richiedono 414 Dark Matter.
 
 | Tecnologia | Rarità | Tempo di ricerca | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ Le tecnologie in cima all’albero richiedono anche Dark Matter. Viene dal [buco
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epico | 10 h | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epico | 1 g | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Epico | 10 h | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Raro | 1 g | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Epico | 2 g | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Corazza dello scafo {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Design delle navi e slot corazza {#ship-technologies}
+
+La famiglia Navi della vista Ricerca del tuo Skylab contiene due tipi di tecnologie che non sono creazioni. L’albero qui sopra le lascia fuori, perché ciò che aprono è uno slot o una conversione, non un oggetto.
+
+- **Slot corazza.** Una tecnologia per ogni [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) delle quattro navi che costruisci. Ciascuna viene dopo la precedente, la prima dopo la tecnologia della nave stessa. Nel gioco gli slot di una nave sono un’unica scheda con un punto per ogni slot.
+- **Design delle navi.** Una tecnologia per ogni [design](/wiki/03-Mechanics/Ship-Designs.md). Ciascuna ha bisogno della tecnologia della sua nave e di quella della Dark Matter Plate.
+
+I loro tempi, il loro Dark Matter e i totali sono nella pagina [Design delle navi](/wiki/03-Mechanics/Ship-Designs.md#the-technologies).
 
 ## Tutte le tecnologie {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 min | 1.800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 h | 10.800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36.000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 g | 86.400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 g | 172.800 | 40 |
 
 Le classi, per tempo di ricerca:
 
@@ -372,10 +395,10 @@ Le classi, per tempo di ricerca:
 | A | 30 min | 8 | 4 h | 14.400 | 0 |
 | B | da 3 h a 6 h | 17 | 2 g 9 h | 205.200 | 0 |
 | C | 10 h | 15 | 6 g 6 h | 540.000 | 95 |
-| D | da 1 g a 2 g | 20 | 24 g | 2.073.600 | 254 |
-| Tutte |  | 60 | 32 g 19 h | 2.833.200 | 349 |
+| D | da 1 g a 2 g | 22 | 27 g | 2.332.800 | 319 |
+| Tutte |  | 62 | 35 g 19 h | 3.092.400 | 414 |
 
-Ricercato una tecnologia dopo l’altra, l’intero albero richiede 32 g 19 h. Con il boost sempre attivo richiede 16 g 9 h 30 min, cioè 17 boost e 85.000 Thulium; la scienza è la stessa.
+Ricercato una tecnologia dopo l’altra, l’intero albero richiede 35 g 19 h. Con il boost sempre attivo richiede 17 g 21 h 30 min, cioè 18 boost e 90.000 Thulium; la scienza è la stessa.
 
 <!-- research-technologies:end -->
 

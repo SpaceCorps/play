@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
+<!-- wiki-i18n source: 0c1a854ca2f3f87c -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -116,10 +116,10 @@ Quando la tua nave viene colpita da un nemico o da un NPC, il danno viene elabor
 
 Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbimento medio** della tua nave: la media dell’assorbimento dei tuoi scudi, ciascuno con quello delle sue celle scudo, più lo Shield Absorbance Boost dell’Emporio (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)). **Non ha un tetto del 100%**: ciò che gli scudi prendono di un colpo è il tuo assorbimento **meno la penetrazione dello scudo dell’attaccante**, tra 0% e 100%.
 - L’**assorbimento** (ad es. 80% per il miglior scudo con le migliori celle, 56% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 45% agli scudi di una nave all’80%, e il resto (il 55% in questo caso) colpisce direttamente i punti scafo.
-- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +2% a +8% per slot) e una formazione di droni si sommano: un colpo laser si ferma al 50%, un razzo al 40%.
+- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +2% a +8% per slot) e una formazione di droni si sommano, e niente limita il totale.
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
-- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, fino al 40% in tutto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser il totale arriva fino al 50%, e contano anche i suoi amp.
+- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, senza tetto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser contano anche i suoi amp.
 
 ### 2. Immunità della zona sicura {#2-safe-zone-immunity}
 

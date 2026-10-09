@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -110,8 +110,9 @@ Skylab の**研究**表示では、技術が下のツリーのボックスより
 - 下の表の 16個の技術それぞれに、科学に加えて **10 個の Dark Matter** が必要です。開始前に研究センターへセットしてください（インベントリから、艦は着陸した状態で）。研究は開始時にそれを受け取ります。
 - **ルール：** レアリティが エピック 以上で、研究に 10時間 以上かかるアイテム。Dark Matter を作るための N.I.K.E. には、これは決して必要ありません。
 - **ドローン編成**はこのルールの対象外です。編成の研究はどれも Dark Matter を必要とし、強さに応じて 5、13、20 のいずれかです（表のとおり）。
+- **船体装甲**もこのルールの対象外です。2つの研究はより多く必要とし、1日の研究で Dark Matter 25、2日の研究で 40 です（表のとおり）。
 - **研究をキャンセルすると、**そのためにセットした Dark Matter はセンターに戻ります。進捗と、すでに燃やした科学は戻りません。
-- すべて合わせて 349 個の Dark Matter が必要です。
+- すべて合わせて 414 個の Dark Matter が必要です。
 
 | 技術 | レアリティ | 研究時間 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ Skylab の**研究**表示では、技術が下のツリーのボックスより
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 10時間 | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | エピック | 1日 | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | エピック | 10時間 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | レア | 1日 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | エピック | 2日 | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### 船体装甲 {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## 艦のデザインと装甲スロット {#ship-technologies}
+
+Skylab の研究画面の「艦」ファミリーには、製作ではない技術が2種類あります。上のツリーには含まれていません。開くのがアイテムではなく、スロットか改造だからです。
+
+- **装甲スロット。** アセンブリで製作する4隻の艦の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)1つにつき、技術が1つあります。どれも前のものの次に進みます。最初のものは艦自身の技術の次です。ゲームでは、艦のスロットは1枚のカードにまとめられ、スロット1つにつき点が1つ付きます。
+- **艦のデザイン。** [デザイン](/wiki/03-Mechanics/Ship-Designs.md)1つにつき、技術が1つあります。どれも艦の技術と Dark Matter Plate の技術が必要です。
+
+それぞれの時間、Dark Matter、合計は[艦のデザイン](/wiki/03-Mechanics/Ship-Designs.md#the-technologies)のページにあります。
 
 ## すべての技術 {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30分 | 1,800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3時間 | 10,800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10時間 | 36,000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1日 | 86,400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2日 | 172,800 | 40 |
 
 研究時間によるクラス：
 
@@ -372,10 +395,10 @@ Gyre Formation => Auger Formation
 | A | 30分 | 8 | 4時間 | 14,400 | 0 |
 | B | 3時間～6時間 | 17 | 2日9時間 | 205,200 | 0 |
 | C | 10時間 | 15 | 6日6時間 | 540,000 | 95 |
-| D | 1日～2日 | 20 | 24日 | 2,073,600 | 254 |
-| 合計 |  | 60 | 32日19時間 | 2,833,200 | 349 |
+| D | 1日～2日 | 22 | 27日 | 2,332,800 | 319 |
+| 合計 |  | 62 | 35日19時間 | 3,092,400 | 414 |
 
-1つずつ順に研究すると、ツリー全体で 32日19時間 かかります。ブーストを常にかけると 16日9時間30分 で、ブースト 17 個と 85,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 35日19時間 かかります。ブーストを常にかけると 17日21時間30分 で、ブースト 18 個と 90,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 

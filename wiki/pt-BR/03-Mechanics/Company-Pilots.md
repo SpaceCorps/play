@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
 Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores de origem (`M-1` a `M-4`, `T-1` a `T-4`, `G-1` a `G-4`). Eles voam pela corporação 24 horas por dia e dão uma mão aos pilotos dela.
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Quem são {#who-they-are}
@@ -15,7 +15,7 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
   - absorção de 45%: os escudos deles recebem 45% de cada impacto, e o casco, 55%
   - 195 de dano base por rajada (munição x1), sem chance de crítico, alcance de 700
 - **No minimapa**: um losango verde para os pilotos da sua corporação, um âmbar para os de outra corporação.
-- **Sem patente**: o pequeno símbolo antes do nome de um piloto em voo é a [patente](/wiki/03-Mechanics/Ranks.md) dele e pertence a pilotos de verdade. Os pilotos de corporação não têm nenhuma e não estão no ranking da sua corporação. A página Corporação lista os pilotos de verdade da sua corporação, com mais pontos PvE primeiro, e a patente de um piloto é a posição dele nessa lista.
+- **Sem patente**: o pequeno símbolo antes do nome de um piloto em voo é a [patente](/wiki/03-Mechanics/Ranks.md) dele e pertence a pilotos de verdade. Os pilotos de corporação não têm nenhuma e não estão no ranking da sua corporação. A página Corporação lista os pilotos de verdade da sua corporação, com mais pontos PvE primeiro, e a patente de um piloto vem dos pontos PvE dele nessa lista e, nas seis melhores patentes, das vagas da corporação.
 
 ## O que eles fazem {#what-they-do}
 

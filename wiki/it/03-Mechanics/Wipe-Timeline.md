@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 986c641910ea7fae -->
+<!-- wiki-i18n source: be279a1fbb360e1d -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -19,7 +19,7 @@ Ogni stagione va dal giorno 1 al giorno 30 (il reset parte con il suo conto alla
 | **Balzo tecnologico** | Giorni 11–18 | Evento 2 | Ancora nessun effetto speciale: premi e alieni sono gli stessi di qualsiasi altra fase. |
 | **Giochi di guerra** | Giorni 19–25 | Evento 3 | Ancora nessun effetto speciale: il PvP funziona come in ogni fase dopo il Protocollo di pace. |
 | **Conto finale** | Giorni 26–30 | Evento 4 | La fase del conto finale. Tutti i piloti corrono a completare e bloccare il carico che portano con sé prima dell’eruzione. |
-| **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce. I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. |
+| **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce, e ogni [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) viene sciolto. I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. |
 
 A parte il reset in sé, solo tre cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco, ma nessuno di essi dà ancora ricompense, spawn o bonus speciali propri.
 
@@ -75,7 +75,7 @@ Prima che la stagione finisca devi cliccare **Conferma e blocca** nell’interfa
 
 ## Mondi: Alpha, Beta e Gamma {#worlds-alpha-beta-and-gamma}
 
-SpaceCorps ha tre **mondi**. Ognuno è una copia separata dell’intera galassia: ogni settore, con i propri alieni, [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), carico, chat e piloti. Voli solo nel tuo mondo e incontri solo i suoi piloti; il tuo account, i tuoi oggetti, il tuo clan e le classifiche sono condivisi da tutti e tre.
+SpaceCorps ha tre **mondi**. Ognuno è una copia separata dell’intera galassia: ogni settore, con i propri alieni, [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), carico, chat e piloti. Voli solo nel tuo mondo e incontri solo i suoi piloti; il tuo account, i tuoi oggetti e le classifiche dei piloti sono condivisi da tutti e tre. Un clan appartiene a un mondo, accoglie solo i suoi piloti e viene sciolto al reset ([Clan e mondi](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | Mondo | Rischio | Forza degli alieni | Premi di kill e missioni | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Come funzionano i mondi:
 
 Il reset si porta via le tue navi e i tuoi oggetti (tranne la tua nave attiva con tutto ciò che vi è montato, il tuo Deposito di trasporto e i tuoi droni) e ti riporta al settore base della tua corporazione; il tuo livello, i tuoi crediti, il tuo Thulium e i tuoi punti classifica non vengono azzerati. In più, i tuoi risultati complessivi da pilota contribuiscono a una potenza permanente. Sconfiggere alieni e completare missioni assegna **punti reset (PR)**. Le tue [missioni](/wiki/03-Mechanics/Quests.md) stesse, completate e in corso, passano alla stagione successiva: ognuna si può completare una volta per pilota, per sempre, tranne le missioni di livello che l’aggiornamento 0.4.10 ha rielaborato: 64 di loro vengono offerte ancora una volta ([Missioni](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clan e gradi.** I punti, i livelli dei potenziamenti e le linee giornaliere di un clan ricominciano a ogni reset, quindi ogni stagione è una nuova corsa ai potenziamenti al massimo; il clan stesso, i suoi membri, la sua banca e la sua tassa restano ([Clan](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Restano anche i tuoi punti classifica PvE, quindi un reset non ti sposta nella classifica della tua corporazione: il tuo grado segue la tua posizione lì, non la stagione ([Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clan e gradi.** Il reset scioglie ogni clan, con il suo Tesoro della flotta, i suoi avvisi, il suo registro, i suoi trattati, i suoi punti e i livelli dei potenziamenti, quindi ogni stagione è una nuova corsa a fondare un clan e a riempirne i potenziamenti; i crediti che un clan ti ha già pagato restano, e resta anche il tuo limite di donazioni ([Clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Leader e Co-leader: pagate il Tesoro della flotta prima che finisca il conto alla rovescia. Restano anche i tuoi punti classifica PvE, quindi un reset non ti sposta nella classifica della tua corporazione: il tuo grado segue la tua posizione lì, non la stagione ([Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### L’Emporio dei potenziamenti permanenti {#the-permanent-buff-store}
 Puoi spendere i tuoi PR accumulati in potenziamenti permanenti che passano a tutte le stagioni per sempre. Questi potenziamenti si sommano e danno consistenti bonus passivi:

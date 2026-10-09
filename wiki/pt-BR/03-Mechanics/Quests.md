@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: Missões -->
 # Missões {#quests}
 
@@ -17,7 +17,7 @@ A maioria das missões não é mais “destrua tantos destes”: são **cadeias*
 - **Cadeias.** As etapas de uma missão com a etiqueta **Em ordem** se abrem uma depois da outra, e só a etapa aberta conta.
 - **Quatro tipos de etapa além dos abates.** Um **item de missão** que cai só para você e que você leva ao Mission Control, um **ponto a visitar**, uma **permanência** de alguns minutos em um setor e, a partir do dia 4 da temporada, um **enxame** para caçar.
 - **Condições.** Uma etapa ou uma missão inteira pode dizer “perda de casco de no máximo N pontos” ou “sem perder a nave”. Se você a quebrar, essa etapa (ou a missão) recomeça. Nada se perde para sempre.
-- **A linha de Desafios.** Cinquenta missões muito difíceis em cinco fases de dez, a partir do nível de piloto 3. A fase I paga ao todo 9.355.000 créditos, 70.125 Thulium e 435.500 XP, como valores base: elas pagam como uma missão de nível ([Recompensas](#rewards)).
+- **A linha de Desafios.** Cinquenta missões muito difíceis em cinco fases de dez, a partir do nível de piloto 3. Elas pagam conforme o trabalho: um abate vale o que a fase I paga por ele, mais 10% a cada fase acima, e uma missão paga no máximo 100.000 de Thulium. A fase I paga ao todo 9.355.000 créditos, 70.125 Thulium e 2.177.500 XP, como valores base ([A linha de Desafios](#challenge-line)).
 - **Refeitas na 0.4.10.** 64 das missões de nível são versões novas. Se você tinha feito uma delas, ela é oferecida de novo, com a recompensa completa ([detalhes](#reworked-missions)).
 
 ## Mission Control
@@ -143,7 +143,7 @@ Oito missões da lista real, da primeira hora até a linha de Desafios. Os núme
 - **Correio pesado** (nível 4, 40 minutos). Destrua 10 Phantasm em `x-3`, alcance os pontos 13.400 / 5.000 e 13.600 / 1.900, depois pegue o Manifest de um Bulwark (25% por abate, garantido no 5º) e leve-o ao Mission Control com uma perda de casco de no máximo 17.000 pontos e sem morrer. Paga 10.500 XP, 52.000 créditos e 315 Thulium.
 - **Quebra-colmeia** (Especial do nível 3, a partir do dia 4 da temporada). Destrua 3 Boss Seekers e 12 Seeker Slaves, em qualquer setor, e 6 Phantasm em `x-3`, em qualquer ordem. Paga 6.800 XP, 54.500 créditos, 170 Thulium, um Quantum Laser II, 10 Ship Fragments e 200 Ultra Core.
 - **A grande volta** (nível 8, 25 minutos, sem morrer). Voe até 8.000 / 4.500 em `x-4`, depois até 6.000 / 4.500 no centro, destrua 2 Goombahs no `x-4` de uma corporação rival e voe até o coração dele, em 8.000 / 4.500. Os [portais do Anel](/wiki/01-General/Spacemap%20Travel.md#jump-links) e o centro levam os dois até lá. Paga 66.000 XP, 165.000 créditos e 1.320 Thulium.
-- **Intocado** (Desafio). Destrua 25 Phantasm em `x-3` em sequência, perdendo no máximo 39.000 pontos de casco. Passou do limite, a contagem volta a 0. Paga, na base, 44.000 XP, 855.000 créditos, 6.405 Thulium, 2.370 de honra, uma Ancient Control Unit e 5 horas de Shield Wall Booster II.
+- **Intocado** (Desafio). Destrua 25 Phantasm em `x-3` em sequência, perdendo no máximo 39.000 pontos de casco. Passou do limite, a contagem volta a 0. Paga, na base, 220.000 XP, 855.000 créditos, 6.405 Thulium, 2.370 de honra, uma Ancient Control Unit e 5 horas de Shield Wall Booster II.
 
 ## Missões da estação {#station-missions}
 
@@ -164,6 +164,11 @@ A partir do **nível de piloto 3**, a aba **Desafios** do Mission Control abre u
 - **Dez em qualquer ordem.** As dez missões de uma fase ficam abertas juntas. A **fase II** abre quando você resgata as dez da fase I, e a **fase III** quando resgata as dez da fase II. As **fases IV e V** abrem quando você resgata **nove das dez** que vêm antes: **Alvorada dos Dormant** (fase III) e **Crepúsculo dos Dormant** (fase IV) são missões do [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md), que precisa de uma tripulação, então são opcionais.
 - **Três ao mesmo tempo**, além das suas 5 missões de nível e das 3 missões da estação.
 - **Elas pagam como uma missão de nível.** A recompensa das tabelas é a **base**, paga uma vez: o bônus do seu mundo, os boosters, o XP Premium e os bônus de créditos e de Thulium do seu clã a multiplicam, como [Recompensas](#rewards) explica com um exemplo. **A honra só a fase I paga.** Elas sobrevivem ao wipe e não contam para os pontos de reset das missões.
+- **O pagamento acompanha o trabalho.** Em um Desafio, o abate de um tipo de alienígena vale o que a fase I paga por ele, e **10% a mais em cada fase acima** (fase II ×1,10, fase III ×1,21, fase IV ×1,331, fase V ×1,4641). Assim, os 150 Bulwarks de **Muralha de Bulwarks** pagam 19.585 Thulium na fase I, e os 400 de **Tempestade de Bulwarks** na fase II pagam 57.450: lá um Bulwark vale 10% a mais. As permanências, os circuitos e as corridas limpas seguem a mesma regra em relação à missão do mesmo tipo uma fase abaixo.
+- **Um teto de 100.000 de Thulium por missão.** As maiores caçadas pagariam mais. Quando uma recompensa passa de 100.000 de Thulium, a recompensa inteira é reduzida de uma vez até que o Thulium dela seja exatamente 100.000: créditos, honra e itens diminuem na mesma proporção. Dez missões são reduzidas: **Flagelo dos Goombahs**, **Pestilência de Bulwarks**, **Debandada de Goombahs**, **Mar de Bulwarks**, **Dez mil Seekers**, **Dez mil Phantasm**, **Legião de Goombahs**, **Reinado dos Crystalys**, **Trono dos piratas** e **Guardião da Linha**. As outras quarenta pagam por inteiro.
+- **Experiência: cinco vezes.** A experiência das cinquenta missões é exatamente 5 vezes o que elas pagavam antes da 0.4.16, seja o que for que o teto reduza.
+- **Os itens crescem com o dinheiro.** Os Power Cores, as Reinforced Hull Plates e a Cataclysite crescem com os créditos e o Thulium da recompensa. As Orvium e Velkonite Reinforced Plates e as Ancient Control Units ficam nas quantidades de sempre, e as horas de booster são as mesmas.
+- **Seus abates pagam por fora.** Os alienígenas que você destrói continuam pagando os próprios créditos, Thulium e honra como sempre; a recompensa vem além disso.
 - **Os abates contam duas vezes.** Um abate conta para cada Desafio que o pede **e** para a missão de nível para a qual ele conta, então uma missão de mil abates nunca deixa as suas missões de nível sem abates.
 - **Grupos.** Um abate conta para o piloto que é pago por ele e para cada colega de grupo a menos de **4.000 unidades** dos destroços que tenha disparado um laser ou um foguete nos últimos 15 segundos. Cada piloto mantém a sua própria contagem.
 - **As permanências exigem tiros, exceto no centro.** Uma permanência em `x-3`, em `x-4` ou na `x-4` de um rival só conta enquanto você tiver dado um tiro nos últimos 60 segundos, então uma nave estacionada ou rodando em círculos não ganha nada. As permanências nos setores de perigo (**Vigília do centro**, **Vigília da borda**, **Última vigília**), onde não vive nenhum alienígena, contam para uma nave que percorreu 300 unidades ou atirou nos últimos 30 segundos, como as das missões de nível.
@@ -180,13 +185,13 @@ As dez missões de uma fase pagam isto **no total, na base** (o seu mundo, os se
 
 | Fase | Créditos | Thulium | XP | Honra |
 | :--- | --: | --: | --: | --: |
-| Fase 1 · Campo de provas | 9.355.000 | 70.125 | 435.500 | 26.140 |
-| Fase 2 · Fronteira de Ferro | 6.200.000 | 46.450 | 471.000 | 0 |
-| Fase 3 · O Centro | 11.995.000 | 90.020 | 887.000 | 0 |
-| Fase 4 · O Abismo | 26.215.000 | 196.615 | 1.880.500 | 0 |
-| Fase 5 · Lendas | 48.390.000 | 362.865 | 3.110.000 | 0 |
+| Fase 1 · Campo de provas | 9.355.000 | 70.125 | 2.177.500 | 26.140 |
+| Fase 2 · Fronteira de Ferro | 26.975.000 | 202.910 | 2.355.000 | 0 |
+| Fase 3 · O Centro | 46.665.000 | 338.600 | 4.435.000 | 0 |
+| Fase 4 · O Abismo | 63.270.000 | 410.335 | 9.402.500 | 0 |
+| Fase 5 · Lendas | 111.595.000 | 723.915 | 15.550.000 | 0 |
 
-As [tabelas](#challenge-missions-table) trazem cada número de cada missão.
+As cinquenta juntas pagam como base 257.860.000 créditos, 1.745.885 Thulium e 33.920.000 XP. As [tabelas](#challenge-missions-table) trazem cada número de cada missão.
 
 > [!TIP]
 > Aceite as grandes caçadas assim que chegar ao nível 3: Praga de Seekers e Maré de Phantasm contam cada abate, em qualquer setor, a partir do momento em que você as aceita, junto com as suas missões de nível.
@@ -231,7 +236,7 @@ As missões sobem pelos setores conforme o seu nível:
 
 - A experiência, os créditos, o Thulium e a honra são multiplicados pelo [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) em que a missão foi feita: 1x no Alpha, 2x no Beta, 3x no Gamma. Os seus boosters (o Experience Booster, o Honor Booster) somam a eles, e o Premium dobra a experiência. Os bônus de Thulium e de créditos do seu [clã](/wiki/03-Mechanics/Clans.md) somam-se aos créditos e ao Thulium de toda missão que você resgata: de nível, da estação e Desafio.
 - **As missões da estação e os Desafios pagam como as missões de nível.** Os números impressos nas tabelas deles são a **base**. Um Desafio é pago conforme o mundo em que você o fez, como uma missão de nível (o mais baixo, caso abranja dois). Uma missão da estação não tem mundo próprio: ela paga o mundo em que você voa quando a resgata.
-- **Um exemplo.** **Praga de Seekers** (Desafio) tem base de 1.100.000 créditos, 8.260 Thulium, 31.500 XP e 3.060 de honra. Feito e resgatado no Gamma sem nada ligado, paga 3.300.000 créditos, 24.780 Thulium, 94.500 XP e 9.180 de honra. Com os bônus de créditos e de Thulium do seu clã no máximo (+10% cada), paga 3.630.000 créditos e 27.258 Thulium.
+- **Um exemplo.** **Praga de Seekers** (Desafio) tem base de 1.100.000 créditos, 8.260 Thulium, 157.500 XP e 3.060 de honra. Feito e resgatado no Gamma sem nada ligado, paga 3.300.000 créditos, 24.780 Thulium, 472.500 XP e 9.180 de honra. Com os bônus de créditos e de Thulium do seu clã no máximo (+10% cada), paga 3.630.000 créditos e 27.258 Thulium.
 - **O teto do banco do clã.** Por maior que seja um resgate, um piloto pode enviar no máximo 1.000.000 de créditos para [clãs](/wiki/03-Mechanics/Clans.md#2-donations) em quaisquer 24 horas.
 - **Os itens e o tempo de booster são os mesmos em todos os mundos.** Os itens vão para o seu inventário, as horas de booster somam ao que o booster ainda tem, e a munição fica pronta para disparar mesmo que você resgate a recompensa em voo.
 - **Os itens são vendáveis.** O que uma missão paga em itens (equipamento, munição, foguetes, materiais, Reinforced Plates) pode ser vendido no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items) a partir do nível 5. As missões de Desafio não pagam equipamento: os itens delas são materiais e Reinforced Plates.
@@ -431,7 +436,7 @@ Um item de missão aparece como “pode soltá-lo: 15% por abate, garantido no a
 
 ### Desafios {#challenge-missions-table}
 
-50 missões para pilotos de nível 3 ou acima, 6.784.000 XP no total. Cada uma paga uma única vez. Os números são a base: o bônus de mundo, os boosters, o XP Premium e os bônus da frota se somam, como em uma missão de nível.
+50 missões para pilotos de nível 3 ou acima, 33.920.000 XP no total. Cada uma paga uma única vez. Os números são a base: o bônus de mundo, os boosters, o XP Premium e os bônus da frota se somam, como em uma missão de nível.
 
 #### Fase 1 · Campo de provas {#challenge-tier-1}
 
@@ -439,16 +444,16 @@ Dez missões, em qualquer ordem. A próxima fase abre quando você resgata as de
 
 | Missão | Oficial | Tarefas | Limite de tempo | XP | Créditos | Thulium | Honra | Itens |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Praga de Seekers | Combate | Destrua Seeker ×1.000 | – | 31.500 | 1.100.000 | 8.260 | 3.060 | Power Core ×6, Experience Booster, 5 h |
-| Maré de Phantasm | Combate | Destrua Phantasm ×1.000 | – | 65.500 | 1.605.000 | 12.035 | 4.460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 h |
-| Muralha de Bulwarks | Combate | Destrua Bulwark ×150 | – | 103.000 | 2.610.000 | 19.585 | 7.420 | Ancient Control Unit ×2 |
-| Intocado | Operações | Destrua Phantasm ×25 em x-3 (perda de casco de no máximo 39.000 pontos) | – | 44.000 | 855.000 | 6.405 | 2.370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 h |
-| Caça à colmeia | Combate | Destrua Boss Seeker ×40 (a partir do dia 4 da temporada) | – | 11.000 | 355.000 | 2.660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
-| Caça aos batedores | Combate | Destrua Pirate Scout ×40 (a partir do dia 4 da temporada) | – | 27.500 | 425.000 | 3.170 | 1.170 | Power Core ×4, Hull Plating Booster II, 5 h |
-| Vigília de ferro | Reconhecimento | Permaneça 45 min seguidos em x-3 | – | 37.500 | 540.000 | 4.030 | 1.490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
-| O desafio do centro | Reconhecimento | Voe até o ponto 8.000 / 4.500 em x-4 → Destrua Bulwark ×4 em x-4 → Voe até o ponto 6.000 / 4.500 em DS-x → Voe até o ponto 26.000 / 4.500 em DS-x → Voe até o ponto 6.500 / 2.200 em x-4 → Voe até o ponto 1.500 / 1.500 em x-1 (missão inteira: sem perder a nave) | – | 28.000 | 405.000 | 3.025 | 1.120 | Velkonite Reinforced Plate ×3 |
-| Comboio | Operações | Destrua Bulwark ×5 em x-4 → Leve Convoy Core do ponto 9.500 / 6.200 em x-4 à Mission Control (perda de casco de no máximo 17.000 pontos) (sem perder a nave) | – | 74.500 | 1.075.000 | 8.065 | 2.990 | Orvium Reinforced Plate ×1 |
-| Cem em uma hora | Operações | Destrua Phantasm ×100 em x-3 | 1 h | 13.000 | 385.000 | 2.890 | 1.070 | Honor Booster, 5 h |
+| Praga de Seekers | Combate | Destrua Seeker ×1.000 | – | 157.500 | 1.100.000 | 8.260 | 3.060 | Power Core ×6, Experience Booster, 5 h |
+| Maré de Phantasm | Combate | Destrua Phantasm ×1.000 | – | 327.500 | 1.605.000 | 12.035 | 4.460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 h |
+| Muralha de Bulwarks | Combate | Destrua Bulwark ×150 | – | 515.000 | 2.610.000 | 19.585 | 7.420 | Ancient Control Unit ×2 |
+| Intocado | Operações | Destrua Phantasm ×25 em x-3 (perda de casco de no máximo 39.000 pontos) | – | 220.000 | 855.000 | 6.405 | 2.370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 h |
+| Caça à colmeia | Combate | Destrua Boss Seeker ×40 (a partir do dia 4 da temporada) | – | 55.000 | 355.000 | 2.660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
+| Caça aos batedores | Combate | Destrua Pirate Scout ×40 (a partir do dia 4 da temporada) | – | 137.500 | 425.000 | 3.170 | 1.170 | Power Core ×4, Hull Plating Booster II, 5 h |
+| Vigília de ferro | Reconhecimento | Permaneça 45 min seguidos em x-3 | – | 187.500 | 540.000 | 4.030 | 1.490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
+| O desafio do centro | Reconhecimento | Voe até o ponto 8.000 / 4.500 em x-4 → Destrua Bulwark ×4 em x-4 → Voe até o ponto 6.000 / 4.500 em DS-x → Voe até o ponto 26.000 / 4.500 em DS-x → Voe até o ponto 6.500 / 2.200 em x-4 → Voe até o ponto 1.500 / 1.500 em x-1 (missão inteira: sem perder a nave) | – | 140.000 | 405.000 | 3.025 | 1.120 | Velkonite Reinforced Plate ×3 |
+| Comboio | Operações | Destrua Bulwark ×5 em x-4 → Leve Convoy Core do ponto 9.500 / 6.200 em x-4 à Mission Control (perda de casco de no máximo 17.000 pontos) (sem perder a nave) | – | 372.500 | 1.075.000 | 8.065 | 2.990 | Orvium Reinforced Plate ×1 |
+| Cem em uma hora | Operações | Destrua Phantasm ×100 em x-3 | 1 h | 65.000 | 385.000 | 2.890 | 1.070 | Honor Booster, 5 h |
 
 #### Fase 2 · Fronteira de Ferro {#challenge-tier-2}
 
@@ -456,16 +461,16 @@ Dez missões, em qualquer ordem. A próxima fase abre quando você resgata as de
 
 | Missão | Oficial | Tarefas | Limite de tempo | XP | Créditos | Thulium | Honra | Itens |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Peste de Seekers | Combate | Destrua Seeker ×2.500 | – | 52.000 | 520.000 | 3.900 | 0 | Power Core ×8, Experience Booster, 6 h |
-| Dilúvio de Phantasm | Combate | Destrua Phantasm ×2.500 | – | 85.500 | 855.000 | 6.420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I, 6 h |
-| Tempestade de Bulwarks | Combate | Destrua Bulwark ×400 | – | 71.500 | 1.255.000 | 9.405 | 0 | Cataclysite ×40 |
-| Caça aos Goombahs | Combate | Destrua Goombah ×100 | – | 58.500 | 1.135.000 | 8.495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
-| Caça à colmeia II | Combate | Destrua Boss Seeker ×100 (a partir do dia 4 da temporada) | – | 20.000 | 200.000 | 1.485 | 0 | Power Core ×6, Resource Magnet Booster, 6 h |
-| Caça aos batedores II | Combate | Destrua Pirate Scout ×120 (a partir do dia 4 da temporada) | – | 25.500 | 290.000 | 2.165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 h |
-| Acerto de contas pirata | Combate | Destrua Pirate Boss ×3 (a partir do dia 4 da temporada) | – | 11.000 | 285.000 | 2.125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 h |
-| Vigília de ferro II | Reconhecimento | Permaneça 90 min seguidos em x-4 | – | 57.500 | 575.000 | 4.320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
-| Comboio II | Operações | Destrua Bulwark ×8 em x-4 → Leve Iron Core do ponto 12.500 / 6.000 em x-4 à Mission Control (perda de casco de no máximo 17.000 pontos) (sem perder a nave) | – | 70.500 | 735.000 | 5.520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 h |
-| Intocado II | Operações | Destrua Bulwark ×15 em x-4 (perda de casco de no máximo 60.000 pontos) | – | 19.000 | 350.000 | 2.615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 h |
+| Peste de Seekers | Combate | Destrua Seeker ×2.500 | – | 260.000 | 3.025.000 | 22.715 | 0 | Power Core ×47, Experience Booster, 6 h |
+| Dilúvio de Phantasm | Combate | Destrua Phantasm ×2.500 | – | 427.500 | 4.415.000 | 33.100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I, 6 h |
+| Tempestade de Bulwarks | Combate | Destrua Bulwark ×400 | – | 357.500 | 7.660.000 | 57.450 | 0 | Cataclysite ×245 |
+| Caça aos Goombahs | Combate | Destrua Goombah ×100 | – | 292.500 | 5.745.000 | 43.090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
+| Caça à colmeia II | Combate | Destrua Boss Seeker ×100 (a partir do dia 4 da temporada) | – | 100.000 | 980.000 | 7.315 | 0 | Power Core ×30, Resource Magnet Booster, 6 h |
+| Caça aos batedores II | Combate | Destrua Pirate Scout ×120 (a partir do dia 4 da temporada) | – | 127.500 | 1.405.000 | 10.465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 h |
+| Acerto de contas pirata | Combate | Destrua Pirate Boss ×3 (a partir do dia 4 da temporada) | – | 55.000 | 425.000 | 3.980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 h |
+| Vigília de ferro II | Reconhecimento | Permaneça 90 min seguidos em x-4 | – | 287.500 | 1.190.000 | 8.870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
+| Comboio II | Operações | Destrua Bulwark ×8 em x-4 → Leve Iron Core do ponto 12.500 / 6.000 em x-4 à Mission Control (perda de casco de no máximo 17.000 pontos) (sem perder a nave) | – | 352.500 | 1.185.000 | 8.875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 h |
+| Intocado II | Operações | Destrua Bulwark ×15 em x-4 (perda de casco de no máximo 60.000 pontos) | – | 95.000 | 945.000 | 7.050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 h |
 
 #### Fase 3 · O Centro {#challenge-tier-3}
 
@@ -473,16 +478,16 @@ Dez missões, em qualquer ordem. A próxima fase abre quando você resgata nove:
 
 | Missão | Oficial | Tarefas | Limite de tempo | XP | Créditos | Thulium | Honra | Itens |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Flagelo dos Goombahs | Combate | Destrua Goombah ×250 | – | 134.500 | 2.380.000 | 17.855 | 0 | Cataclysite ×50, Experience Booster, 8 h |
-| Pestilência de Bulwarks | Combate | Destrua Bulwark ×800 | – | 132.000 | 2.080.000 | 15.615 | 0 | Power Core ×10, Laser Damage Booster I, 8 h |
-| Oceano de Phantasm | Combate | Destrua Phantasm ×5.000 | – | 180.000 | 1.800.000 | 13.500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8 h |
-| Prova dos Crystalys | Combate | Destrua Crystalys ×10 | – | 18.000 | 250.000 | 1.880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
-| Ruína dos piratas | Combate | Destrua Pirate Boss ×10 (a partir do dia 4 da temporada) | – | 29.000 | 775.000 | 5.805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
-| Alvorada dos Dormant | Combate | Destrua Dormant Force ×3 (a partir do dia 4 da temporada) | – | 46.000 | 750.000 | 5.625 | 0 | Cataclysite ×40, Shield Wall Booster I, 8 h |
-| Vigília do centro | Reconhecimento | Permaneça 60 min seguidos em DS-x | – | 98.000 | 980.000 | 7.365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
-| Os quatro cantos | Reconhecimento | Voe até o ponto 3.000 / 3.000 em DS-x → Voe até o ponto 29.000 / 3.000 em DS-x → Voe até o ponto 29.000 / 15.000 em DS-x → Voe até o ponto 3.000 / 15.000 em DS-x → Voe até o ponto 1.500 / 1.500 em x-1 (missão inteira: perda de casco de no máximo 104.000 pontos) (missão inteira: sem perder a nave) | – | 98.000 | 980.000 | 7.365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 h |
-| Comboio III | Operações | Destrua Goombah ×4 em x-4 → Leve Centre Core do ponto 13.000 / 3.000 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 119.000 | 1.260.000 | 9.460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Intocado III | Operações | Destrua Goombah ×8 em x-4 (perda de casco de no máximo 350.000 pontos) | – | 32.500 | 740.000 | 5.550 | 0 | Power Core ×8, Laser Damage Booster II, 10 h |
+| Flagelo dos Goombahs | Combate | Destrua Goombah ×250 | – | 672.500 | 13.335.000 | 100.000 | 0 | Cataclysite ×281, Experience Booster, 8 h |
+| Pestilência de Bulwarks | Combate | Destrua Bulwark ×800 | – | 660.000 | 13.330.000 | 100.000 | 0 | Power Core ×65, Laser Damage Booster I, 8 h |
+| Oceano de Phantasm | Combate | Destrua Phantasm ×5.000 | – | 900.000 | 9.715.000 | 72.815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8 h |
+| Prova dos Crystalys | Combate | Destrua Crystalys ×10 | – | 90.000 | 3.160.000 | 12.640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
+| Ruína dos piratas | Combate | Destrua Pirate Boss ×10 (a partir do dia 4 da temporada) | – | 145.000 | 1.560.000 | 14.585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
+| Alvorada dos Dormant | Combate | Destrua Dormant Force ×3 (a partir do dia 4 da temporada) | – | 230.000 | 1.260.000 | 6.310 | 0 | Cataclysite ×54, Shield Wall Booster I, 8 h |
+| Vigília do centro | Reconhecimento | Permaneça 60 min seguidos em DS-x | – | 490.000 | 980.000 | 7.365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
+| Os quatro cantos | Reconhecimento | Voe até o ponto 3.000 / 3.000 em DS-x → Voe até o ponto 29.000 / 3.000 em DS-x → Voe até o ponto 29.000 / 15.000 em DS-x → Voe até o ponto 3.000 / 15.000 em DS-x → Voe até o ponto 1.500 / 1.500 em x-1 (missão inteira: perda de casco de no máximo 104.000 pontos) (missão inteira: sem perder a nave) | – | 490.000 | 980.000 | 7.365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 h |
+| Comboio III | Operações | Destrua Goombah ×4 em x-4 → Leve Centre Core do ponto 13.000 / 3.000 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 595.000 | 1.305.000 | 9.765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Intocado III | Operações | Destrua Goombah ×8 em x-4 (perda de casco de no máximo 350.000 pontos) | – | 162.500 | 1.040.000 | 7.755 | 0 | Power Core ×12, Laser Damage Booster II, 10 h |
 
 #### Fase 4 · O Abismo {#challenge-tier-4}
 
@@ -490,16 +495,16 @@ Dez missões, em qualquer ordem. A próxima fase abre quando você resgata nove:
 
 | Missão | Oficial | Tarefas | Limite de tempo | XP | Créditos | Thulium | Honra | Itens |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Expurgo de Crystalys | Combate | Destrua Crystalys ×50 | – | 122.000 | 2.575.000 | 19.320 | 0 | Cataclysite ×60, Experience Booster, 10 h |
-| Debandada de Goombahs | Combate | Destrua Goombah ×500 | – | 233.500 | 3.345.000 | 25.105 | 0 | Power Core ×12, Laser Damage Booster I, 10 h |
-| Fim dos piratas | Combate | Destrua Pirate Boss ×25 (a partir do dia 4 da temporada) | – | 99.500 | 2.445.000 | 18.325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
-| Crepúsculo dos Dormant | Combate | Destrua Dormant Force ×10 (a partir do dia 4 da temporada) | – | 180.500 | 2.770.000 | 20.780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Caminhada na borda | Reconhecimento | Voe até o ponto 16.000 / 5.300 em DS-4 → Voe até o ponto 19.700 / 9.000 em DS-4 → Voe até o ponto 16.000 / 12.700 em DS-4 → Voe até o ponto 12.300 / 9.000 em DS-4 (missão inteira: perda de casco de no máximo 76.000 pontos) (missão inteira: sem perder a nave) | – | 162.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
-| Vigília da borda | Reconhecimento | Permaneça 90 min seguidos em DS-4 | – | 162.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
-| Território inimigo | Reconhecimento | Permaneça 120 min seguidos em rival x-4 | – | 343.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
-| Comboio do abismo | Operações | Destrua Goombah ×6 em x-4 → Leve Abyss Core do ponto 12.800 / 6.800 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 198.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Intocado IV | Operações | Destrua Crystalys ×3 em x-4 (perda de casco de no máximo 480.000 pontos) | – | 61.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
-| Mar de Bulwarks | Combate | Destrua Bulwark ×2.000 | – | 318.500 | 4.735.000 | 35.500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10 h |
+| Expurgo de Crystalys | Combate | Destrua Crystalys ×50 | – | 610.000 | 17.370.000 | 69.515 | 0 | Cataclysite ×292, Experience Booster, 10 h |
+| Debandada de Goombahs | Combate | Destrua Goombah ×500 | – | 1.167.500 | 13.330.000 | 100.000 | 0 | Power Core ×48, Laser Damage Booster I, 10 h |
+| Fim dos piratas | Combate | Destrua Pirate Boss ×25 (a partir do dia 4 da temporada) | – | 497.500 | 4.285.000 | 40.110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
+| Crepúsculo dos Dormant | Combate | Destrua Dormant Force ×10 (a partir do dia 4 da temporada) | – | 902.500 | 4.610.000 | 23.125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Caminhada na borda | Reconhecimento | Voe até o ponto 16.000 / 5.300 em DS-4 → Voe até o ponto 19.700 / 9.000 em DS-4 → Voe até o ponto 16.000 / 12.700 em DS-4 → Voe até o ponto 12.300 / 9.000 em DS-4 (missão inteira: perda de casco de no máximo 76.000 pontos) (missão inteira: sem perder a nave) | – | 810.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
+| Vigília da borda | Reconhecimento | Permaneça 90 min seguidos em DS-4 | – | 810.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
+| Território inimigo | Reconhecimento | Permaneça 120 min seguidos em rival x-4 | – | 1.717.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
+| Comboio do abismo | Operações | Destrua Goombah ×6 em x-4 → Leve Abyss Core do ponto 12.800 / 6.800 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 990.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Intocado IV | Operações | Destrua Crystalys ×3 em x-4 (perda de casco de no máximo 480.000 pontos) | – | 305.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
+| Mar de Bulwarks | Combate | Destrua Bulwark ×2.000 | – | 1.592.500 | 13.330.000 | 100.000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10 h |
 
 #### Fase 5 · Lendas {#challenge-tier-5}
 
@@ -507,16 +512,16 @@ Dez missões, em qualquer ordem. Esta é a última fase.
 
 | Missão | Oficial | Tarefas | Limite de tempo | XP | Créditos | Thulium | Honra | Itens |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Dez mil Seekers | Combate | Destrua Seeker ×10.000 | – | 322.500 | 5.700.000 | 42.755 | 0 | Power Core ×15, Experience Booster, 10 h |
-| Dez mil Phantasm | Combate | Destrua Phantasm ×10.000 | – | 420.000 | 4.200.000 | 31.500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I, 10 h |
-| Legião de Goombahs | Combate | Destrua Goombah ×1.000 | – | 467.500 | 6.700.000 | 50.250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10 h |
-| Reinado dos Crystalys | Combate | Destrua Crystalys ×150 | – | 365.500 | 7.725.000 | 57.925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
-| Domínio dos Dormant | Combate | Destrua Dormant Force ×25 (a partir do dia 4 da temporada) | – | 394.000 | 6.350.000 | 47.605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Trono dos piratas | Combate | Destrua Pirate Boss ×60 (a partir do dia 4 da temporada) | – | 191.000 | 5.325.000 | 39.925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
-| Última vigília | Reconhecimento | Permaneça 180 min seguidos em DS-x | – | 338.000 | 3.380.000 | 25.355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
-| Comboio zero | Operações | Destrua Goombah ×8 em x-4 → Destrua Crystalys ×1 em x-4 → Leve Zero Core do ponto 13.600 / 4.400 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 252.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Intocado zero | Operações | Destrua Goombah ×20 em x-4 (perda de casco de no máximo 556.000 pontos) | – | 87.000 | 1.540.000 | 11.555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
-| Guardião da Linha | Operações | Destrua Goombah ×400 em x-4 → Destrua Crystalys ×30 em x-4 → Permaneça 60 min seguidos em x-4 → Voe até o ponto 8.000 / 4.500 em rival x-4 → Voe até o ponto 26.000 / 4.500 em DS-x → Voe até o ponto 1.500 / 1.500 em x-1 | – | 272.500 | 4.730.000 | 35.460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II, 10 h |
+| Dez mil Seekers | Combate | Destrua Seeker ×10.000 | – | 1.612.500 | 13.325.000 | 100.000 | 0 | Power Core ×36, Experience Booster, 10 h |
+| Dez mil Phantasm | Combate | Destrua Phantasm ×10.000 | – | 2.100.000 | 13.340.000 | 100.000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10 h |
+| Legião de Goombahs | Combate | Destrua Goombah ×1.000 | – | 2.337.500 | 13.330.000 | 100.000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10 h |
+| Reinado dos Crystalys | Combate | Destrua Crystalys ×150 | – | 1.827.500 | 24.990.000 | 100.000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
+| Domínio dos Dormant | Combate | Destrua Dormant Force ×25 (a partir do dia 4 da temporada) | – | 1.970.000 | 12.670.000 | 63.590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Trono dos piratas | Combate | Destrua Pirate Boss ×60 (a partir do dia 4 da temporada) | – | 955.000 | 10.680.000 | 100.000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
+| Última vigília | Reconhecimento | Permaneça 180 min seguidos em DS-x | – | 1.690.000 | 3.560.000 | 26.735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
+| Comboio zero | Operações | Destrua Goombah ×8 em x-4 → Destrua Crystalys ×1 em x-4 → Leve Zero Core do ponto 13.600 / 4.400 em x-4 à Mission Control (perda de casco de no máximo 46.000 pontos) (sem perder a nave) | – | 1.260.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Intocado zero | Operações | Destrua Goombah ×20 em x-4 (perda de casco de no máximo 556.000 pontos) | – | 435.000 | 1.740.000 | 13.055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
+| Guardião da Linha | Operações | Destrua Goombah ×400 em x-4 → Destrua Crystalys ×30 em x-4 → Permaneça 60 min seguidos em x-4 → Voe até o ponto 8.000 / 4.500 em rival x-4 → Voe até o ponto 26.000 / 4.500 em DS-x → Voe até o ponto 1.500 / 1.500 em x-1 | – | 1.362.500 | 15.220.000 | 100.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10 h |
 
 
 <!-- quests:end -->

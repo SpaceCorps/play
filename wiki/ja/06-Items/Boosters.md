@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: ブースター -->
 # ブースター {#boosters}
 
@@ -60,7 +60,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 | **Loot Luck Booster** | レジェンダリー | NPC からのレアドロップ率 +5% | 30,000 |
 
 > [!NOTE]
-> **ブースターか、アンプか？** 別のものです。すべてのブースターは名前に **Booster** が付き、タイマーで動き、装着するものはありません。**Laser Damage Booster I** と **Laser Damage Booster II** は、10時間のあいだレーザーダメージ +10% で、ショップかアセンブリで手に入ります。**Damage Amp**、**Crit Amp**、**Penetration Amp**（ティアI～IV）はレーザーアンプです。レーザーのアンプスロットに装着するモジュールで、タイマーはありません（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。0.4.12 より前、ブースターの名前は Damage Amp と Damage Amp II、Shield Wall と Shield Wall II、Hull Plating と Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet、Loot Luck でした。作動中のブースターは、新しい名前のまま続いています。
+> **ブースターか、アンプか？** 別のものです。すべてのブースターは名前に **Booster** が付き、タイマーで動き、装着するものはありません。**Laser Damage Booster I** と **Laser Damage Booster II** は、10時間のあいだレーザーダメージ +10% で、ショップかアセンブリで手に入ります。**Damage Amp**、**Crit Amp**、**Penetration Amp**（ティアI～IV）はレーザーアンプです。レーザーのアンプスロットに装着するモジュールで、タイマーはありません（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。0.4.12 より前、ブースターの名前は Damage Amp と Damage Amp II、Shield Wall と Shield Wall II、Hull Plating と Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet、Loot Luck でした。作動中のブースターは、新しい名前のまま続いています。Hull Plating **Booster** は、艦の装甲スロットに入る装甲 **Hull Plating** とは別のものです（[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)）。
 
 ---
 

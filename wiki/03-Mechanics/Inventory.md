@@ -15,6 +15,7 @@ Unlike traditional space games, SpaceCorps features dynamically tiered equipment
   - **Unassigned/Legacy Slots**: Items placed here do not contribute to stats.
   - **Stacking fades too**: shields and engines are ranked strongest first (by what each counts after its slot's share), and the band's share is then multiplied by their rank's: the 1st to 4th count in full, the 5th to 7th 85%, 70% and 55%, the 8th onward 50% for shields and 25% for engines. See [Shields](/wiki/03-Mechanics/Shields.md) and [Speed](/wiki/03-Mechanics/Speed.md).
 - **Extra Slots**: For specialized utility items, such as Repair Drones. The Protos, Kitefin, Ostirion and Nomad have two; the Paragon, Ironclad, Wraith and Storm, which you craft, have three. The Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) add 3, 5 or 7 more.
+- **Hull Plate Slots**: For [Hull Plating](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), which adds hull. Only the four ships you craft have them (the Paragon 5, the Storm 7, the Ironclad 15 and the Wraith 9), each locked until you research it in the Skylab, and they are the same in both configurations.
 
 ## Inventory Order
 

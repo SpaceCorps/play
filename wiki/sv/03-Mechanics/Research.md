@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -110,8 +110,9 @@ Teknologierna högst upp i trädet kräver också Dark Matter. Den kommer från 
 - **10 Dark Matter** för var och en av de 16 teknologierna i tabellen nedan, utöver vetenskapen: sätt i den i forskningscentrumet (från ditt inventarie, med landat skepp) innan du startar, så tar forskningen den när den börjar.
 - **Regeln:** ett föremål med raritet Episk eller högre vars forskning tar 10 h eller mer. N.I.K.E., som är sättet att få fram Dark Matter, behöver den aldrig.
 - **Drönarformationer** står utanför regeln: varje formationsforskning kräver Dark Matter, 5, 13 eller 20 efter styrka, som tabellen visar.
+- **Skrovpansar** står också utanför regeln: dess två forskningar kräver mer, 25 Dark Matter för en dags forskning och 40 för två dagar, som tabellen visar.
 - **Avbryter du en forskning** går den Dark Matter du satte i för den tillbaka till centret. Framsteget och vetenskapen som redan bränts gör det inte.
-- Alla tillsammans kräver 349 Dark Matter.
+- Alla tillsammans kräver 414 Dark Matter.
 
 | Teknologi | Raritet | Forskningstid | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ Teknologierna högst upp i trädet kräver också Dark Matter. Den kommer från 
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Episk | 10 h | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Episk | 1 d | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Episk | 10 h | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Sällsynt | 1 d | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Episk | 2 d | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Skrovpansar {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Skeppsdesigner och pansarplatser {#ship-technologies}
+
+Skeppsfamiljen i forskningsvyn i din Skylab har två slags teknologier som inte är tillverkningar. Trädet ovan utelämnar dem, eftersom det de öppnar är en plats eller en ombyggnad, inte ett föremål.
+
+- **Pansarplatser.** En teknologi för varje [pansarplats](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) på de fyra skeppen du tillverkar. Var och en kommer efter den förra, den första efter skeppets egen teknologi. I spelet är ett skepps platser ett enda kort med en prick för varje plats.
+- **Skeppsdesigner.** En teknologi för varje [design](/wiki/03-Mechanics/Ship-Designs.md). Var och en kräver teknologin för sitt skepp och den för Dark Matter Plate.
+
+Deras tider, deras Dark Matter och summorna står på sidan [Skeppsdesigner](/wiki/03-Mechanics/Ship-Designs.md#the-technologies).
 
 ## Alla teknologier {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 min | 1 800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 h | 10 800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36 000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 d | 86 400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 d | 172 800 | 40 |
 
 Klasserna efter forskningstid:
 
@@ -372,10 +395,10 @@ Klasserna efter forskningstid:
 | A | 30 min | 8 | 4 h | 14 400 | 0 |
 | B | 3 h till 6 h | 17 | 2 d 9 h | 205 200 | 0 |
 | C | 10 h | 15 | 6 d 6 h | 540 000 | 95 |
-| D | 1 d till 2 d | 20 | 24 d | 2 073 600 | 254 |
-| Alla |  | 60 | 32 d 19 h | 2 833 200 | 349 |
+| D | 1 d till 2 d | 22 | 27 d | 2 332 800 | 319 |
+| Alla |  | 62 | 35 d 19 h | 3 092 400 | 414 |
 
-Framforskat en efter en tar hela trädet 32 d 19 h. Med boosten på hela tiden tar det 16 d 9 h 30 min, alltså 17 boostar och 85 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 35 d 19 h. Med boosten på hela tiden tar det 17 d 21 h 30 min, alltså 18 boostar och 90 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 

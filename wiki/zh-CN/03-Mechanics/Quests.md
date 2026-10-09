@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: 任务 -->
 # 任务 {#quests}
 
@@ -17,7 +17,7 @@
 - **任务链。** 带有**按顺序**标记的任务，其步骤会一个接一个地开放，只有当前开放的步骤才会计数。
 - **除击杀外还有四种步骤。** 只为你掉落、需要运到 Mission Control 的**任务物品**，**要到访的坐标点**，在星区里停留几分钟的**停留**，以及从赛季第 4 天起要猎杀的**虫群**。
 - **条件。** 一个步骤或整个任务可以要求“船体损失最多 N 点”或“不得被击毁”。违反条件，该步骤（或整个任务）就会重新开始。不会永久损失任何东西。
-- **挑战任务线。** 从飞行员等级 3 起可以接取的五阶共五十个难度极高的任务，每阶十个。第一阶合计发放 9,355,000 信用点、70,125 Thulium 和 435,500 经验值，均为基础值：它们的发放方式与等级任务相同（[奖励](#rewards)）。
+- **挑战任务线。** 从飞行员等级 3 起可以接取的五阶共五十个难度极高的任务，每阶十个。奖励按工作量计算：击杀的价值等于第一阶为它支付的数额，每高一阶再多 10%，单个任务最多支付 100,000 Thulium。第一阶合计发放 9,355,000 信用点、70,125 Thulium 和 2,177,500 经验值，均为基础值（[挑战任务线](#challenge-line)）。
 - **0.4.10 中重做。** 等级任务中有 64 个是新版本。如果你完成过其中某个，它会重新提供给你，并给予全额奖励（[详情](#reworked-missions)）。
 
 ## Mission Control
@@ -143,7 +143,7 @@
 - **重型信使**（4 级，40 分钟）。在 `x-3` 击毁 10 只 Phantasm，到达 13,400 / 5,000 和 13,600 / 1,900 两个点，然后从一只 Bulwark 那里拿到 Manifest（每次击毁 25%，第 5 次必定掉落），在船体损失最多 17,000 点、不可死亡的条件下运到 Mission Control。奖励 10,500 经验值、52,000 信用点和 315 Thulium。
 - **破巢者**（3 级特别任务，从赛季第 4 天起）。在任意星区击毁 3 只 Boss Seeker 和 12 只 Seeker Slave，并在 `x-3` 击毁 6 只 Phantasm，顺序不限。奖励 6,800 经验值、54,500 信用点、170 Thulium、一个 Quantum Laser II、10 个 Ship Fragment 和 200 个 Ultra Core。
 - **大巡游**（8 级，25 分钟，不可死亡）。飞到 `x-4` 的 8,000 / 4,500，再飞到中央星区的 6,000 / 4,500，在对手企业的 `x-4` 击毁 2 只 Goombah，然后飞到它的中心 8,000 / 4,500。[星环传送门](/wiki/01-General/Spacemap%20Travel.md#jump-links)和中央星区都能到达那里。奖励 66,000 经验值、165,000 信用点和 1,320 Thulium。
-- **毫发无伤**（挑战）。在 `x-3` 连续击毁 25 只 Phantasm，同时船体损失不超过 39,000 点。超过限制，计数就回到 0。按基础值发放 44,000 经验值、855,000 信用点、6,405 Thulium、2,370 荣誉、一个 Ancient Control Unit 和 5 小时的 Shield Wall Booster II。
+- **毫发无伤**（挑战）。在 `x-3` 连续击毁 25 只 Phantasm，同时船体损失不超过 39,000 点。超过限制，计数就回到 0。按基础值发放 220,000 经验值、855,000 信用点、6,405 Thulium、2,370 荣誉、一个 Ancient Control Unit 和 5 小时的 Shield Wall Booster II。
 
 ## 空间站任务 {#station-missions}
 
@@ -164,6 +164,11 @@
 - **十个任务任意顺序。** 一阶的十个任务同时开放。**第二阶**在你领取了第一阶全部十个任务的奖励后开放，**第三阶**在你领取了第二阶全部十个任务的奖励后开放。**第四阶和第五阶**在你领取了前一阶**十个中的九个**后开放：**Dormant 黎明**（第三阶）和 **Dormant 黄昏**（第四阶）是 [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)的任务，需要一个小队，所以是可选的。
 - **同时进行三个**，与你的 5 个等级任务和 3 个空间站任务分开计算。
 - **它们的发放方式与等级任务相同。** 表中的奖励是**基础值**，只发一次：你所在世界的加成、增益、高级会员经验和战队的信用点与 Thulium 加成会把它乘上去，[奖励](#rewards)里有一个例子。**荣誉只有第一阶发放。** 它们会保留到赛季重置之后，并且不计入任务的重置点数。
+- **奖励随工作量而定。** 在挑战任务里，击杀某一种外星人的价值等于第一阶为它支付的数额，**每高一阶多 10%**（第二阶 ×1.10、第三阶 ×1.21、第四阶 ×1.331、第五阶 ×1.4641）。所以第一阶**Bulwark 之墙**里的 150 只 Bulwark 付 19,585 Thulium，第二阶**Bulwark 风暴**里的 400 只付 57,450：Bulwark 在那里贵 10%。停留、巡游和零失误通关也按同一规则，以低一阶、同类的任务为基准。
+- **每个任务最多 100,000 Thulium。** 最大的几场狩猎本来会付得更多。当一份奖励超过 100,000 Thulium 时，整份奖励会一起按比例缩减，直到它的 Thulium 恰好是 100,000：信用点、荣誉和物品按相同比例减少。被缩减的有十个任务：**Goombah 天灾**、**Bulwark 疫祸**、**Goombah 溃败**、**Bulwark 之海**、**一万只 Seeker**、**一万架 Phantasm**、**Goombah 军团**、**Crystalys 王朝**、**海盗王座** 和 **防线守护者**。其余四十个全额发放。
+- **经验值：五倍。** 全部五十个任务的经验值恰好是 0.4.16 之前的 5 倍，上限不会削减它。
+- **物品随金额增长。** Power Core、Reinforced Hull Plate 和 Cataclysite 会随奖励的信用点和 Thulium 一起增长。Orvium 和 Velkonite Reinforced Plate 以及 Ancient Control Unit 保持原来的数量，增益道具的时长也相同。
+- **你的击杀另外计酬。** 你击毁的外星人仍照常支付它们自己的信用点、Thulium 和荣誉；任务奖励是在这些之外另给的。
 - **击杀会计两次。** 一次击杀会计入每个要求它的挑战任务，**同时**也计入它所计入的那一个等级任务，所以一个千次击杀的任务绝不会饿着你的等级任务。
 - **小队。** 一次击杀会计入获得该击杀奖励的飞行员，以及残骸 **4,000 单位**范围内、最近 15 秒内用激光或火箭开过火的每名小队成员。每名飞行员各自计数。
 - **停留需要开火，中央除外。** 在 `x-3`、`x-4` 或对手企业的 `x-4` 中的停留，只在你最近 60 秒内开过火时才计数，所以停着或绕圈的飞船什么也赚不到。危险星区中的停留（**中央值守**、**边缘守夜**、**最后的守夜**）因为那里没有外星人，所以最近 30 秒内飞行了 300 单位或开过火的飞船就计数，与等级任务的停留相同。
@@ -180,13 +185,13 @@
 
 | 阶 | 信用点 | Thulium | 经验值 | 荣誉 |
 | :--- | --: | --: | --: | --: |
-| 第 1 阶 · 试炼场 | 9,355,000 | 70,125 | 435,500 | 26,140 |
-| 第 2 阶 · 钢铁边境 | 6,200,000 | 46,450 | 471,000 | 0 |
-| 第 3 阶 · 中心区 | 11,995,000 | 90,020 | 887,000 | 0 |
-| 第 4 阶 · 深渊 | 26,215,000 | 196,615 | 1,880,500 | 0 |
-| 第 5 阶 · 传奇 | 48,390,000 | 362,865 | 3,110,000 | 0 |
+| 第 1 阶 · 试炼场 | 9,355,000 | 70,125 | 2,177,500 | 26,140 |
+| 第 2 阶 · 钢铁边境 | 26,975,000 | 202,910 | 2,355,000 | 0 |
+| 第 3 阶 · 中心区 | 46,665,000 | 338,600 | 4,435,000 | 0 |
+| 第 4 阶 · 深渊 | 63,270,000 | 410,335 | 9,402,500 | 0 |
+| 第 5 阶 · 传奇 | 111,595,000 | 723,915 | 15,550,000 | 0 |
 
-每个任务的每个数字都在[表格](#challenge-missions-table)里。
+全部五十个合计基础值为 257,860,000 信用点、1,745,885 Thulium 和 33,920,000 经验值。每个任务的每个数字都在[表格](#challenge-missions-table)里。
 
 > [!TIP]
 > 一到 3 级就接下大型猎杀任务：Seeker 瘟疫和 Phantasm 浪潮会从你接受它们的那一刻起，在任何星区计入每一次击杀，与你的等级任务并行。
@@ -231,7 +236,7 @@
 
 - 经验值、信用点、Thulium 和荣誉会乘以任务完成时所在的[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)的倍数：Alpha 为 1 倍，Beta 为 2 倍，Gamma 为 3 倍。你的增益（Experience Booster、Honor Booster）会在此基础上追加，而高级会员会让经验值翻倍。你[战队](/wiki/03-Mechanics/Clans.md)的 Thulium 和信用点加成，会加到你领取的每个任务（等级任务、空间站任务和挑战任务）的信用点和 Thulium 上。
 - **空间站任务和挑战任务的发放方式与等级任务相同。** 它们表格中印出的数字是**基础值**。挑战任务按你完成时所在的世界发放，与等级任务一样（如果跨越了两个世界，则取较低的那个）。空间站任务没有自己的世界：它按你领取时所在的世界发放。
-- **一个例子。** **Seeker 瘟疫**（挑战）的基础值是 1,100,000 信用点、8,260 Thulium、31,500 经验值和 3,060 荣誉。在 Gamma 完成并领取，什么都没有开启时，它发放 3,300,000 信用点、24,780 Thulium、94,500 经验值和 9,180 荣誉。战队的信用点与 Thulium 加成都满级（各 +10%）时，它发放 3,630,000 信用点和 27,258 Thulium。
+- **一个例子。** **Seeker 瘟疫**（挑战）的基础值是 1,100,000 信用点、8,260 Thulium、157,500 经验值和 3,060 荣誉。在 Gamma 完成并领取，什么都没有开启时，它发放 3,300,000 信用点、24,780 Thulium、472,500 经验值和 9,180 荣誉。战队的信用点与 Thulium 加成都满级（各 +10%）时，它发放 3,630,000 信用点和 27,258 Thulium。
 - **战队银行的上限。** 无论一笔奖励有多大，一名飞行员在任意 24 小时内最多只能向[战队](/wiki/03-Mechanics/Clans.md#2-donations)转入 1,000,000 信用点。
 - **物品和增益时间在每个世界都一样**。物品会进入你的物品栏，增益小时数会加到该增益的剩余时间上，即使你在飞行中领取，弹药也可以立即发射。
 - **物品是可交易的。**任务以物品形式发放的奖励（装备、弹药、火箭、材料、Reinforced Plate）从 5 级起可以在[拍卖行](/wiki/03-Mechanics/Auction.md#marketable-items)出售。挑战任务不发放装备：它们的物品是材料和 Reinforced Plate。
@@ -431,7 +436,7 @@
 
 ### 挑战 {#challenge-missions-table}
 
-50 个面向 3 级及以上飞行员的任务，共计 6,784,000 经验值。每个任务只发一次奖励。表中的数字是基础值，世界加成、增益、高级会员经验和战队加成会像等级任务一样叠加。
+50 个面向 3 级及以上飞行员的任务，共计 33,920,000 经验值。每个任务只发一次奖励。表中的数字是基础值，世界加成、增益、高级会员经验和战队加成会像等级任务一样叠加。
 
 #### 第 1 阶 · 试炼场 {#challenge-tier-1}
 
@@ -439,16 +444,16 @@
 
 | 任务 | 军官 | 任务目标 | 时限 | 经验值 | 信用点 | Thulium | 荣誉 | 物品 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 瘟疫 | 战斗 | 摧毁 1,000 架 Seeker | – | 31,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster，5 小时 |
-| Phantasm 浪潮 | 战斗 | 摧毁 1,000 架 Phantasm | – | 65,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I，5 小时 |
-| Bulwark 之墙 | 战斗 | 摧毁 150 架 Bulwark | – | 103,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
-| 毫发无伤 | 行动 | x-3：摧毁 25 架 Phantasm（船体损失最多 39,000 点） | – | 44,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II，5 小时 |
-| 清巢行动 | 战斗 | 摧毁 40 架 Boss Seeker（从赛季第 4 天起） | – | 11,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster，3 小时 |
-| 斥候清剿 | 战斗 | 摧毁 40 架 Pirate Scout（从赛季第 4 天起） | – | 27,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II，5 小时 |
-| 钢铁守夜 | 侦察 | x-3：连续停留 45 分钟 | – | 37,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster，5 小时 |
-| 中央闯关 | 侦察 | x-4：飞往坐标点 8,000 / 4,500 → x-4：摧毁 4 架 Bulwark → DS-x：飞往坐标点 6,000 / 4,500 → DS-x：飞往坐标点 26,000 / 4,500 → x-4：飞往坐标点 6,500 / 2,200 → x-1：飞往坐标点 1,500 / 1,500（整个任务期间：不得被击毁） | – | 28,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
-| 护送 | 行动 | x-4：摧毁 5 架 Bulwark → 把 Convoy Core 从 x-4 的坐标点 9,500 / 6,200 送到 Mission Control（船体损失最多 17,000 点）（不得被击毁） | – | 74,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
-| 一小时百架 | 行动 | x-3：摧毁 100 架 Phantasm | 1 小时 | 13,000 | 385,000 | 2,890 | 1,070 | Honor Booster，5 小时 |
+| Seeker 瘟疫 | 战斗 | 摧毁 1,000 架 Seeker | – | 157,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster，5 小时 |
+| Phantasm 浪潮 | 战斗 | 摧毁 1,000 架 Phantasm | – | 327,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I，5 小时 |
+| Bulwark 之墙 | 战斗 | 摧毁 150 架 Bulwark | – | 515,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
+| 毫发无伤 | 行动 | x-3：摧毁 25 架 Phantasm（船体损失最多 39,000 点） | – | 220,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II，5 小时 |
+| 清巢行动 | 战斗 | 摧毁 40 架 Boss Seeker（从赛季第 4 天起） | – | 55,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster，3 小时 |
+| 斥候清剿 | 战斗 | 摧毁 40 架 Pirate Scout（从赛季第 4 天起） | – | 137,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II，5 小时 |
+| 钢铁守夜 | 侦察 | x-3：连续停留 45 分钟 | – | 187,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster，5 小时 |
+| 中央闯关 | 侦察 | x-4：飞往坐标点 8,000 / 4,500 → x-4：摧毁 4 架 Bulwark → DS-x：飞往坐标点 6,000 / 4,500 → DS-x：飞往坐标点 26,000 / 4,500 → x-4：飞往坐标点 6,500 / 2,200 → x-1：飞往坐标点 1,500 / 1,500（整个任务期间：不得被击毁） | – | 140,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
+| 护送 | 行动 | x-4：摧毁 5 架 Bulwark → 把 Convoy Core 从 x-4 的坐标点 9,500 / 6,200 送到 Mission Control（船体损失最多 17,000 点）（不得被击毁） | – | 372,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
+| 一小时百架 | 行动 | x-3：摧毁 100 架 Phantasm | 1 小时 | 65,000 | 385,000 | 2,890 | 1,070 | Honor Booster，5 小时 |
 
 #### 第 2 阶 · 钢铁边境 {#challenge-tier-2}
 
@@ -456,16 +461,16 @@
 
 | 任务 | 军官 | 任务目标 | 时限 | 经验值 | 信用点 | Thulium | 荣誉 | 物品 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 疫病 | 战斗 | 摧毁 2,500 架 Seeker | – | 52,000 | 520,000 | 3,900 | 0 | Power Core ×8, Experience Booster，6 小时 |
-| Phantasm 洪流 | 战斗 | 摧毁 2,500 架 Phantasm | – | 85,500 | 855,000 | 6,420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I，6 小时 |
-| Bulwark 风暴 | 战斗 | 摧毁 400 架 Bulwark | – | 71,500 | 1,255,000 | 9,405 | 0 | Cataclysite ×40 |
-| Goombah 猎杀 | 战斗 | 摧毁 100 架 Goombah | – | 58,500 | 1,135,000 | 8,495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster，4 小时 |
-| 清巢行动 II | 战斗 | 摧毁 100 架 Boss Seeker（从赛季第 4 天起） | – | 20,000 | 200,000 | 1,485 | 0 | Power Core ×6, Resource Magnet Booster，6 小时 |
-| 斥候清剿 II | 战斗 | 摧毁 120 架 Pirate Scout（从赛季第 4 天起） | – | 25,500 | 290,000 | 2,165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I，6 小时 |
-| 海盗清算 | 战斗 | 摧毁 3 架 Pirate Boss（从赛季第 4 天起） | – | 11,000 | 285,000 | 2,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，6 小时 |
-| 钢铁守夜 II | 侦察 | x-4：连续停留 90 分钟 | – | 57,500 | 575,000 | 4,320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster，6 小时 |
-| 护送 II | 行动 | x-4：摧毁 8 架 Bulwark → 把 Iron Core 从 x-4 的坐标点 12,500 / 6,000 送到 Mission Control（船体损失最多 17,000 点）（不得被击毁） | – | 70,500 | 735,000 | 5,520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II，8 小时 |
-| 毫发无伤 II | 行动 | x-4：摧毁 15 架 Bulwark（船体损失最多 60,000 点） | – | 19,000 | 350,000 | 2,615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II，8 小时 |
+| Seeker 疫病 | 战斗 | 摧毁 2,500 架 Seeker | – | 260,000 | 3,025,000 | 22,715 | 0 | Power Core ×47, Experience Booster，6 小时 |
+| Phantasm 洪流 | 战斗 | 摧毁 2,500 架 Phantasm | – | 427,500 | 4,415,000 | 33,100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I，6 小时 |
+| Bulwark 风暴 | 战斗 | 摧毁 400 架 Bulwark | – | 357,500 | 7,660,000 | 57,450 | 0 | Cataclysite ×245 |
+| Goombah 猎杀 | 战斗 | 摧毁 100 架 Goombah | – | 292,500 | 5,745,000 | 43,090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster，4 小时 |
+| 清巢行动 II | 战斗 | 摧毁 100 架 Boss Seeker（从赛季第 4 天起） | – | 100,000 | 980,000 | 7,315 | 0 | Power Core ×30, Resource Magnet Booster，6 小时 |
+| 斥候清剿 II | 战斗 | 摧毁 120 架 Pirate Scout（从赛季第 4 天起） | – | 127,500 | 1,405,000 | 10,465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I，6 小时 |
+| 海盗清算 | 战斗 | 摧毁 3 架 Pirate Boss（从赛季第 4 天起） | – | 55,000 | 425,000 | 3,980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，6 小时 |
+| 钢铁守夜 II | 侦察 | x-4：连续停留 90 分钟 | – | 287,500 | 1,190,000 | 8,870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster，6 小时 |
+| 护送 II | 行动 | x-4：摧毁 8 架 Bulwark → 把 Iron Core 从 x-4 的坐标点 12,500 / 6,000 送到 Mission Control（船体损失最多 17,000 点）（不得被击毁） | – | 352,500 | 1,185,000 | 8,875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II，8 小时 |
+| 毫发无伤 II | 行动 | x-4：摧毁 15 架 Bulwark（船体损失最多 60,000 点） | – | 95,000 | 945,000 | 7,050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II，8 小时 |
 
 #### 第 3 阶 · 中心区 {#challenge-tier-3}
 
@@ -473,16 +478,16 @@
 
 | 任务 | 军官 | 任务目标 | 时限 | 经验值 | 信用点 | Thulium | 荣誉 | 物品 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah 天灾 | 战斗 | 摧毁 250 架 Goombah | – | 134,500 | 2,380,000 | 17,855 | 0 | Cataclysite ×50, Experience Booster，8 小时 |
-| Bulwark 疫祸 | 战斗 | 摧毁 800 架 Bulwark | – | 132,000 | 2,080,000 | 15,615 | 0 | Power Core ×10, Laser Damage Booster I，8 小时 |
-| Phantasm 汪洋 | 战斗 | 摧毁 5,000 架 Phantasm | – | 180,000 | 1,800,000 | 13,500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster，8 小时 |
-| Crystalys 试炼 | 战斗 | 摧毁 10 架 Crystalys | – | 18,000 | 250,000 | 1,880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster，5 小时 |
-| 海盗克星 | 战斗 | 摧毁 10 架 Pirate Boss（从赛季第 4 天起） | – | 29,000 | 775,000 | 5,805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I，8 小时 |
-| Dormant 黎明 | 战斗 | 摧毁 3 架 Dormant Force（从赛季第 4 天起） | – | 46,000 | 750,000 | 5,625 | 0 | Cataclysite ×40, Shield Wall Booster I，8 小时 |
-| 中央值守 | 侦察 | DS-x：连续停留 60 分钟 | – | 98,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster，8 小时 |
-| 四角巡行 | 侦察 | DS-x：飞往坐标点 3,000 / 3,000 → DS-x：飞往坐标点 29,000 / 3,000 → DS-x：飞往坐标点 29,000 / 15,000 → DS-x：飞往坐标点 3,000 / 15,000 → x-1：飞往坐标点 1,500 / 1,500（整个任务期间：船体损失最多 104,000 点）（整个任务期间：不得被击毁） | – | 98,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II，10 小时 |
-| 护送 III | 行动 | x-4：摧毁 4 架 Goombah → 把 Centre Core 从 x-4 的坐标点 13,000 / 3,000 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 119,000 | 1,260,000 | 9,460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
-| 毫发无伤 III | 行动 | x-4：摧毁 8 架 Goombah（船体损失最多 350,000 点） | – | 32,500 | 740,000 | 5,550 | 0 | Power Core ×8, Laser Damage Booster II，10 小时 |
+| Goombah 天灾 | 战斗 | 摧毁 250 架 Goombah | – | 672,500 | 13,335,000 | 100,000 | 0 | Cataclysite ×281, Experience Booster，8 小时 |
+| Bulwark 疫祸 | 战斗 | 摧毁 800 架 Bulwark | – | 660,000 | 13,330,000 | 100,000 | 0 | Power Core ×65, Laser Damage Booster I，8 小时 |
+| Phantasm 汪洋 | 战斗 | 摧毁 5,000 架 Phantasm | – | 900,000 | 9,715,000 | 72,815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster，8 小时 |
+| Crystalys 试炼 | 战斗 | 摧毁 10 架 Crystalys | – | 90,000 | 3,160,000 | 12,640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster，5 小时 |
+| 海盗克星 | 战斗 | 摧毁 10 架 Pirate Boss（从赛季第 4 天起） | – | 145,000 | 1,560,000 | 14,585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I，8 小时 |
+| Dormant 黎明 | 战斗 | 摧毁 3 架 Dormant Force（从赛季第 4 天起） | – | 230,000 | 1,260,000 | 6,310 | 0 | Cataclysite ×54, Shield Wall Booster I，8 小时 |
+| 中央值守 | 侦察 | DS-x：连续停留 60 分钟 | – | 490,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster，8 小时 |
+| 四角巡行 | 侦察 | DS-x：飞往坐标点 3,000 / 3,000 → DS-x：飞往坐标点 29,000 / 3,000 → DS-x：飞往坐标点 29,000 / 15,000 → DS-x：飞往坐标点 3,000 / 15,000 → x-1：飞往坐标点 1,500 / 1,500（整个任务期间：船体损失最多 104,000 点）（整个任务期间：不得被击毁） | – | 490,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II，10 小时 |
+| 护送 III | 行动 | x-4：摧毁 4 架 Goombah → 把 Centre Core 从 x-4 的坐标点 13,000 / 3,000 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 595,000 | 1,305,000 | 9,765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
+| 毫发无伤 III | 行动 | x-4：摧毁 8 架 Goombah（船体损失最多 350,000 点） | – | 162,500 | 1,040,000 | 7,755 | 0 | Power Core ×12, Laser Damage Booster II，10 小时 |
 
 #### 第 4 阶 · 深渊 {#challenge-tier-4}
 
@@ -490,16 +495,16 @@
 
 | 任务 | 军官 | 任务目标 | 时限 | 经验值 | 信用点 | Thulium | 荣誉 | 物品 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys 肃清 | 战斗 | 摧毁 50 架 Crystalys | – | 122,000 | 2,575,000 | 19,320 | 0 | Cataclysite ×60, Experience Booster，10 小时 |
-| Goombah 溃败 | 战斗 | 摧毁 500 架 Goombah | – | 233,500 | 3,345,000 | 25,105 | 0 | Power Core ×12, Laser Damage Booster I，10 小时 |
-| 海盗末日 | 战斗 | 摧毁 25 架 Pirate Boss（从赛季第 4 天起） | – | 99,500 | 2,445,000 | 18,325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster，6 小时 |
-| Dormant 黄昏 | 战斗 | 摧毁 10 架 Dormant Force（从赛季第 4 天起） | – | 180,500 | 2,770,000 | 20,780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，10 小时 |
-| 边缘环行 | 侦察 | DS-4：飞往坐标点 16,000 / 5,300 → DS-4：飞往坐标点 19,700 / 9,000 → DS-4：飞往坐标点 16,000 / 12,700 → DS-4：飞往坐标点 12,300 / 9,000（整个任务期间：船体损失最多 76,000 点）（整个任务期间：不得被击毁） | – | 162,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II，10 小时 |
-| 边缘守夜 | 侦察 | DS-4：连续停留 90 分钟 | – | 162,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster，10 小时 |
-| 敌境 | 侦察 | rival x-4：连续停留 120 分钟 | – | 343,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I，10 小时 |
-| 深渊护送 | 行动 | x-4：摧毁 6 架 Goombah → 把 Abyss Core 从 x-4 的坐标点 12,800 / 6,800 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 198,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
-| 毫发无伤 IV | 行动 | x-4：摧毁 3 架 Crystalys（船体损失最多 480,000 点） | – | 61,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II，10 小时 |
-| Bulwark 之海 | 战斗 | 摧毁 2,000 架 Bulwark | – | 318,500 | 4,735,000 | 35,500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster，10 小时 |
+| Crystalys 肃清 | 战斗 | 摧毁 50 架 Crystalys | – | 610,000 | 17,370,000 | 69,515 | 0 | Cataclysite ×292, Experience Booster，10 小时 |
+| Goombah 溃败 | 战斗 | 摧毁 500 架 Goombah | – | 1,167,500 | 13,330,000 | 100,000 | 0 | Power Core ×48, Laser Damage Booster I，10 小时 |
+| 海盗末日 | 战斗 | 摧毁 25 架 Pirate Boss（从赛季第 4 天起） | – | 497,500 | 4,285,000 | 40,110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster，6 小时 |
+| Dormant 黄昏 | 战斗 | 摧毁 10 架 Dormant Force（从赛季第 4 天起） | – | 902,500 | 4,610,000 | 23,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，10 小时 |
+| 边缘环行 | 侦察 | DS-4：飞往坐标点 16,000 / 5,300 → DS-4：飞往坐标点 19,700 / 9,000 → DS-4：飞往坐标点 16,000 / 12,700 → DS-4：飞往坐标点 12,300 / 9,000（整个任务期间：船体损失最多 76,000 点）（整个任务期间：不得被击毁） | – | 810,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II，10 小时 |
+| 边缘守夜 | 侦察 | DS-4：连续停留 90 分钟 | – | 810,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster，10 小时 |
+| 敌境 | 侦察 | rival x-4：连续停留 120 分钟 | – | 1,717,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I，10 小时 |
+| 深渊护送 | 行动 | x-4：摧毁 6 架 Goombah → 把 Abyss Core 从 x-4 的坐标点 12,800 / 6,800 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 990,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
+| 毫发无伤 IV | 行动 | x-4：摧毁 3 架 Crystalys（船体损失最多 480,000 点） | – | 305,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II，10 小时 |
+| Bulwark 之海 | 战斗 | 摧毁 2,000 架 Bulwark | – | 1,592,500 | 13,330,000 | 100,000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster，10 小时 |
 
 #### 第 5 阶 · 传奇 {#challenge-tier-5}
 
@@ -507,16 +512,16 @@
 
 | 任务 | 军官 | 任务目标 | 时限 | 经验值 | 信用点 | Thulium | 荣誉 | 物品 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| 一万只 Seeker | 战斗 | 摧毁 10,000 架 Seeker | – | 322,500 | 5,700,000 | 42,755 | 0 | Power Core ×15, Experience Booster，10 小时 |
-| 一万架 Phantasm | 战斗 | 摧毁 10,000 架 Phantasm | – | 420,000 | 4,200,000 | 31,500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I，10 小时 |
-| Goombah 军团 | 战斗 | 摧毁 1,000 架 Goombah | – | 467,500 | 6,700,000 | 50,250 | 0 | Cataclysite ×80, Resource Magnet Booster，10 小时 |
-| Crystalys 王朝 | 战斗 | 摧毁 150 架 Crystalys | – | 365,500 | 7,725,000 | 57,925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster，10 小时 |
-| Dormant 统治 | 战斗 | 摧毁 25 架 Dormant Force（从赛季第 4 天起） | – | 394,000 | 6,350,000 | 47,605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，10 小时 |
-| 海盗王座 | 战斗 | 摧毁 60 架 Pirate Boss（从赛季第 4 天起） | – | 191,000 | 5,325,000 | 39,925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I，10 小时 |
-| 最后的守夜 | 侦察 | DS-x：连续停留 180 分钟 | – | 338,000 | 3,380,000 | 25,355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster，10 小时 |
-| 护送零号 | 行动 | x-4：摧毁 8 架 Goombah → x-4：摧毁 1 架 Crystalys → 把 Zero Core 从 x-4 的坐标点 13,600 / 4,400 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 252,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
-| 毫发无伤零 | 行动 | x-4：摧毁 20 架 Goombah（船体损失最多 556,000 点） | – | 87,000 | 1,540,000 | 11,555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II，10 小时 |
-| 防线守护者 | 行动 | x-4：摧毁 400 架 Goombah → x-4：摧毁 30 架 Crystalys → x-4：连续停留 60 分钟 → rival x-4：飞往坐标点 8,000 / 4,500 → DS-x：飞往坐标点 26,000 / 4,500 → x-1：飞往坐标点 1,500 / 1,500 | – | 272,500 | 4,730,000 | 35,460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II，10 小时 |
+| 一万只 Seeker | 战斗 | 摧毁 10,000 架 Seeker | – | 1,612,500 | 13,325,000 | 100,000 | 0 | Power Core ×36, Experience Booster，10 小时 |
+| 一万架 Phantasm | 战斗 | 摧毁 10,000 架 Phantasm | – | 2,100,000 | 13,340,000 | 100,000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I，10 小时 |
+| Goombah 军团 | 战斗 | 摧毁 1,000 架 Goombah | – | 2,337,500 | 13,330,000 | 100,000 | 0 | Cataclysite ×160, Resource Magnet Booster，10 小时 |
+| Crystalys 王朝 | 战斗 | 摧毁 150 架 Crystalys | – | 1,827,500 | 24,990,000 | 100,000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster，10 小时 |
+| Dormant 统治 | 战斗 | 摧毁 25 架 Dormant Force（从赛季第 4 天起） | – | 1,970,000 | 12,670,000 | 63,590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I，10 小时 |
+| 海盗王座 | 战斗 | 摧毁 60 架 Pirate Boss（从赛季第 4 天起） | – | 955,000 | 10,680,000 | 100,000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I，10 小时 |
+| 最后的守夜 | 侦察 | DS-x：连续停留 180 分钟 | – | 1,690,000 | 3,560,000 | 26,735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster，10 小时 |
+| 护送零号 | 行动 | x-4：摧毁 8 架 Goombah → x-4：摧毁 1 架 Crystalys → 把 Zero Core 从 x-4 的坐标点 13,600 / 4,400 送到 Mission Control（船体损失最多 46,000 点）（不得被击毁） | – | 1,260,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II，10 小时 |
+| 毫发无伤零 | 行动 | x-4：摧毁 20 架 Goombah（船体损失最多 556,000 点） | – | 435,000 | 1,740,000 | 13,055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II，10 小时 |
+| 防线守护者 | 行动 | x-4：摧毁 400 架 Goombah → x-4：摧毁 30 架 Crystalys → x-4：连续停留 60 分钟 → rival x-4：飞往坐标点 8,000 / 4,500 → DS-x：飞往坐标点 26,000 / 4,500 → x-1：飞往坐标点 1,500 / 1,500 | – | 1,362,500 | 15,220,000 | 100,000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II，10 小时 |
 
 
 <!-- quests:end -->

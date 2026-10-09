@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
 Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`M-1`–`M-4`, `T-1`–`T-4`, `G-1`–`G-4`). Éjjel-nappal a vállalatukért repülnek, és segítenek a vállalat pilótáinak.
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Kik ők {#who-they-are}
@@ -15,7 +15,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
   - elnyelés 45%: a pajzsaik minden találat 45%-át fogják fel, a hajótest pedig az 55%-át
   - sortűzenként 195 alapsebzés (x1 lőszer), nincs kritikus esély, hatótáv: 700
 - **A minitérképen**: zöld rombusz a saját vállalatod pilótáinak, borostyánsárga egy másik vállalatéinak.
-- **Nincs rang**: a pilóta neve előtti kis jel repülés közben a pilóta [rangja](/wiki/03-Mechanics/Ranks.md), és valódi pilótáké. A vállalati pilótáknak nincs, és nincsenek rajta a vállalatod ranglistáján. A Vállalat oldal a vállalatod valódi pilótáit sorolja fel, elöl a legtöbb PvE-ponttal rendelkezőkkel, és a pilóta rangja a listán elfoglalt helye.
+- **Nincs rang**: a pilóta neve előtti kis jel repülés közben a pilóta [rangja](/wiki/03-Mechanics/Ranks.md), és valódi pilótáké. A vállalati pilótáknak nincs, és nincsenek rajta a vállalatod ranglistáján. A Vállalat oldal a vállalatod valódi pilótáit sorolja fel, elöl a legtöbb PvE-ponttal rendelkezőkkel, és a pilóta rangja a listán szereplő PvE-pontjaiból, a hat legjobb rangnál pedig a vállalat helyeiből adódik.
 
 ## Mit csinálnak {#what-they-do}
 

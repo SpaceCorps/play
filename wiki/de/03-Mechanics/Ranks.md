@@ -1,84 +1,86 @@
-<!-- wiki-i18n source: 09eab0ba9b8c9863 -->
+<!-- wiki-i18n source: 26f4bca5b9b9516f -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
-Jeder Pilot hat einen **Rang**, vom Junior-Piloten bis zum Senior-Admiral. Es ist eine militärische Leiter aus 8 Stufen mit je 3 Graden, insgesamt 24 Ränge. Dein Rang ist dein **Platz unter den Piloten deines Konzerns**, gezählt in **PvE-Punkten**: den Punkten, die du für dein Level, deine Erfahrung und die Aliens bekommst, die du zerstörst. Im Flug zeigt das Spiel nur ein kleines **Symbol** vor dem Namen eines Piloten, sodass du die besten Piloten eines Konzerns auf einen Blick von einem frischen unterscheiden kannst. Die Wörter stehen auf der Konzernseite und im Hover-Tooltip eines Symbols.
+Jeder Pilot hat einen **Rang**, vom Junior-Pilot bis zum Senior-Admiral. Es ist eine militärische Leiter aus 8 Stufen mit je 3 Graden, insgesamt 24 Ränge. Dein Rang ergibt sich aus deinen **PvE-Punkten**: den Punkten, die du für dein Level, deine Erfahrung und die Aliens bekommst, die du zerstörst. Jeder Rang verlangt ein **Minimum** an PvE-Punkten, und die sechs besten Ränge haben außerdem eine feste Zahl von **Plätzen** in jedem Konzern. Im Flug zeigt das Spiel nur ein kleines **Symbol** vor dem Namen eines Piloten, sodass du die besten Piloten eines Konzerns auf einen Blick von einem frischen unterscheiden kannst, und ein Pilot des ganzen Servers trägt eine goldene **Krone** über seinem Symbol. Die Wörter stehen auf der Konzernseite und im Hover-Tooltip eines Symbols.
 
 **In einer Minute**
 
-- Dein Konzern führt eine einzige Liste seiner Piloten, der Pilot mit den meisten PvE-Punkten zuerst. Dein Rang ergibt sich aus deinem Platz in dieser Liste.
-- Nur der beste Pilot des Konzerns ist der **Senior-Admiral**. Alle anderen werden von oben nach unten auf die übrigen 23 Ränge verteilt: wenige Piloten weit oben, die meisten unten.
-- Jeder Rang verlangt außerdem ein **Minimum an PvE-Punkten**, damit ein kleiner oder junger Konzern die obersten Ränge nicht umsonst vergeben kann. Der Senior-Admiral braucht 20.000.
-- Dein Rang bewegt sich. Er sinkt, wenn andere Piloten dich überholen, und steigt, wenn du sie überholst. Ein Abstieg wird nie gemeldet; ein neuer bester Rang schon.
-- Nur Piloten mit PvE-Punkten, die in den letzten 30 Tagen geflogen sind, stehen in der Liste. Alle anderen sind Junior-Piloten, bis sie wieder fliegen.
-- Der Wipe ändert niemandes Punkte, die Liste fängt also nicht von vorn an.
+- Dein Konzern führt eine einzige Liste seiner Piloten, der Pilot mit den meisten PvE-Punkten zuerst. Jeder Konzern hat seine eigene, und die Piloten der anderen Konzerne zählen nie gegen dich.
+- Du hast den **höchsten Rang, dessen Minimum deine Punkte erreichen und für den in deinem Konzern noch ein Platz frei ist**.
+- Die sechs besten Ränge haben eine Zahl von Plätzen pro Konzern: **Senior-Admiral 1** (ab 50.000 PvE-Punkten), **Admiral 2** (ab 45.000), **Junior-Admiral 4** (ab 40.000), **Senior-General 8** (ab 30.000), **General 10** (ab 27.500) und **Junior-General 15** (ab 25.000). Die Ränge darunter haben keine Begrenzung für Piloten, und jeder verlangt 2.500 Punkte weniger als der Rang über ihm, bis hinunter zu den 2.500 Punkten für den Rang Junior-Hauptmann.
+- **Gleiche Punkte, gleicher Rang.** Zwei Piloten mit denselben Punkten haben nie verschiedene Ränge. Fällt der letzte Platz eines Rangs in eine Gleichstandsgruppe, bekommen alle Gleichplatzierten den besseren Rang, auch wenn das über die Plätze hinausgeht.
+- Nur Piloten mit PvE-Punkten, die in den letzten 30 Tagen geflogen sind, stehen in einer Liste. Alle anderen gelten als Junior-Pilot, bis sie wieder fliegen, und haben keinen Platz.
+- Eine **goldene Krone** über dem Symbol kennzeichnet den Piloten mit den meisten PvE-Punkten des ganzen Servers: alle Konzerne, alle drei Welten.
+- Dein Rang bewegt sich. Bis einschließlich Senior-Oberst hängt er nur von deinen Punkten ab und steigt deshalb nur. Die sechs besten Ränge bewegen sich außerdem mit den anderen Piloten deines Konzerns: Sie können sinken, wenn andere die Plätze über dir einnehmen. Ein Abstieg wird nie gemeldet; ein neuer bester Rang schon.
+- Der Wipe ändert niemandes Punkte, die Listen fangen also nicht von vorn an.
 - Das Symbol vor einem Namen ist der Rang: eine Form für die Stufe, ein bis drei Markierungen für den Grad.
 
-![All ranks on the Company page: the 24 ranks as a pyramid, each with its share of the company, the pilots who hold it now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![The gold crown over a rank symbol, shown on the Generals and the Admirals](../../img/wiki-img/shots/rank-crown.jpg)
 ![The 24 company ranks: eight tiers of three grades, each a symbol of chevrons, bars, stars and a laurel](../../img/wiki-img/shots/ranks-sheet.jpg)
 
 ## So entsteht dein Rang {#the-company-ladder}
 
-Die Piloten deines Konzerns, **alle drei Welten zusammen**, stehen in einer Reihe, der Pilot mit den meisten PvE-Punkten zuerst. Haben zwei Piloten gleich viele Punkte, liegt der mit dem höheren Level vorn, danach der ältere Pilot. Diese Reihe ist die **Rangliste** deines Konzerns, und dein Rang ergibt sich aus zwei Dingen:
+Die Piloten deines Konzerns, **alle drei Welten zusammen**, stehen in einer Reihe, der Pilot mit den meisten PvE-Punkten zuerst. Diese Reihe ist die **Rangliste**. Haben zwei Piloten gleich viele Punkte, steht der mit dem höheren Level zuerst, danach der ältere Pilot, aber das bestimmt nur die Reihenfolge der Liste: Es gibt ihnen nie verschiedene Ränge. Dein Rang ergibt sich aus zwei Dingen, deinen Punkten und den Plätzen deines Konzerns:
 
-1. **Dein Platz.** Der Pilot auf Platz 1 ist der **Senior-Admiral**, ganz allein. Die Piloten hinter ihm werden nach Anteilen der Rangliste auf die übrigen 23 Ränge verteilt, und jeder Rang umfasst ein Viertel mehr Piloten als der Rang über ihm. So ist etwa ein Fünftel der Piloten Junior-Pilot, und die besten zehn Prozent sind Hauptmann oder besser.
-2. **Deine Punkte.** Jeder Rang verlangt ein Minimum an PvE-Punkten ([die Tabelle unten](#the-24-ranks)). Du hast den niedrigeren der beiden Ränge: den, den dein Platz ergibt, und den, den deine Punkte erreichen.
+1. **Jeder Rang hat ein Minimum** an PvE-Punkten ([die Tabelle unten](#the-24-ranks)). Ein Pilot hat nie einen Rang, dessen Minimum seine Punkte nicht erreicht haben.
+2. **Die sechs besten Ränge haben Plätze.** Sie werden von oben gefüllt, der beste Rang zuerst: Die besten Piloten, die 50.000 Punkte erreichen, bekommen den Rang Senior-Admiral, bis zu dem einen Platz; von den übrigen Piloten bekommen die besten, die 45.000 erreichen, den Rang Admiral, bis zu den zwei Plätzen; und so weiter bis hinunter zu Junior-General.
+3. **Alle anderen haben den höchsten Rang unter diesen sechs, den ihre Punkte erreichen**, und das ist höchstens Senior-Oberst. Ein Pilot, der das Minimum eines Rangs erreicht, aber dessen Plätze voll findet, fällt auf den besten Rang, der ihm offensteht.
+4. **Ein Gleichstand wird nie getrennt.** Piloten mit denselben Punkten haben denselben Rang. Fällt der letzte Platz eines Rangs in einen Gleichstand, bekommt der ganze Gleichstand den besseren Rang, sodass ein Rang mehr Piloten haben kann, als er Plätze hat, und nie weniger, als er sollte.
 
-**Ein Beispiel.** Ein Konzern hat 31 Piloten in der Rangliste. Nach dem Platz allein sieht es so aus; die letzte Spalte nennt die wenigsten PvE-Punkte, die der Rang verlangt.
+**Ein Beispiel.** Die zwölf besten Piloten eines Konzerns, mit dem Rang, den jeder hat:
 
-| Platz | Rang | Mindest-PvE-Punkte |
-| :---: | :--- | ---: |
-| 1 | Senior-Admiral | 20.000 |
-| 2 | Senior-Major | 4.700 |
-| 3 | Senior-Hauptmann | 3.000 |
-| 4 | Hauptmann | 2.600 |
-| 5 | Senior-Leutnant | 1.900 |
-| 6–7 | Leutnant | 1.500 |
-| 8 | Junior-Leutnant | 1.300 |
-| 9–10 | Senior-Sergeant | 1.000 |
-| 11–13 | Sergeant | 800 |
-| 14–16 | Junior-Sergeant | 610 |
-| 17–20 | Senior-Pilot | 350 |
-| 21–24 | Pilot | 150 |
-| 25–31 | Junior-Pilot | 0 |
+| Platz | PvE-Punkte | Rang |
+| :---: | ---: | :--- |
+| 1 | 60.000 | Senior-Admiral |
+| 2 | 52.000 | Admiral |
+| 3 | 51.000 | Admiral |
+| 4 | 50.500 | Junior-Admiral |
+| 5 | 44.000 | Junior-Admiral |
+| 6 | 30.000 | Senior-General |
+| 7 | 29.000 | General |
+| 8 | 28.000 | General |
+| 9 | 26.000 | Junior-General |
+| 10 | 24.999 | Senior-Oberst |
+| 11 | 21.000 | Oberst |
+| 12 | 1.000 | Senior-Sergeant |
 
-Du bist auf Platz 16 von 31 und hast 1.800 PvE-Punkte. Die Konzernseite zeigt „Platz 16 von 31“ und ein kleines Etikett „Top 52 %“: Du gehörst zu den besten 52 Prozent deines Konzerns. Die Plätze 14 bis 16 sind Junior-Sergeants, also ist das dein Rang, obwohl deine Punkte allein für Leutnant reichen würden (1.500). Um Sergeant zu werden, musst du Platz 13 erreichen. Er gehört Sable, der 2.100 PvE-Punkte hat. Um ihn zu überholen, brauchst du 2.101, also 301 mehr, und genau das sagt dir die Konzernseite: „301 PvE-Punkte, um Sable zu überholen und Sergeant zu erreichen“.
-
-Auch ganz oben zählen die Punkte. Hat der beste Pilot dieses Konzerns 12.000 PvE-Punkte, ist er Senior-General, bis er 20.000 hat, auf welchem Platz er auch steht.
+Platz 4 hat 50.500 Punkte, genug für den Rang Senior-Admiral, aber der eine Platz dieses Rangs und die zwei des Rangs Admiral sind vergeben, also ist er Junior-Admiral. Platz 7 und 8 haben 29.000 und 28.000: Beide erreichen die 27.500 für General, aber nicht die 30.000 für Senior-General, und bei General sind noch Plätze frei, also sind beide General. Der Pilot mit 24.999 liegt einen Punkt unter Junior-General und ist Senior-Oberst, der beste Rang, der ihm offensteht. Hätten zwei Piloten auf den ersten Plätzen beide 60.000, wären beide Senior-Admiral, und die nächsten zwei, mit 50.000 und 45.000, wären Admiral.
 
 > [!NOTE]
-> Die Ränge werden in ganzen Piloten zugeschnitten, deshalb hat ein kleiner Konzern in manchen höheren Rängen niemanden. Ein Oberst braucht einen Konzern mit mindestens 46 Piloten in der Rangliste, ein General 118, ein Senior-General 178, ein Junior-Admiral 301 und ein Admiral 675. Platz 1 ist die Ausnahme: Jeder Konzern hat ihn, und sein Pilot ist der Senior-Admiral, sobald er 20.000 PvE-Punkte hat.
+> Die Plätze binden nur, wenn mehr Piloten eines Konzerns ein Minimum erreichen, als der Rang Plätze hat. In einem kleinen Konzern entscheiden allein die Punkte über den Rang: Ein Pilot allein in seinem Konzern ist mit 21.000 PvE-Punkten Oberst und mit 50.000 Senior-Admiral.
 
 ## Die 24 Ränge {#the-24-ranks}
 
-Der **Anteil** ist der Teil deines Konzerns, der genau diesen Rang hat; der beste Pilot, der allein an der Spitze steht, wird nicht mitgezählt. Das **Minimum** sind die wenigsten PvE-Punkte, die der Rang verlangt, auf welchem Platz du auch stehst.
+Die **Plätze** sind die Zahl der Piloten eines Konzerns, die genau diesen Rang haben können; ein Strich heißt keine Begrenzung. Das **Minimum** sind die wenigsten PvE-Punkte, die der Rang verlangt.
 
-| # | Rang | Anteil am Konzern | Mindest-PvE-Punkte |
+| # | Rang | Plätze pro Konzern | Mindest-PvE-Punkte |
 | :---: | :--- | ---: | ---: |
-| 1 | Junior-Pilot | 20,1 % | 0 |
-| 2 | Pilot | 16,1 % | 150 |
-| 3 | Senior-Pilot | 12,9 % | 350 |
-| 4 | Junior-Sergeant | 10,3 % | 610 |
-| 5 | Sergeant | 8,24 % | 800 |
-| 6 | Senior-Sergeant | 6,59 % | 1.000 |
-| 7 | Junior-Leutnant | 5,27 % | 1.300 |
-| 8 | Leutnant | 4,22 % | 1.500 |
-| 9 | Senior-Leutnant | 3,38 % | 1.900 |
-| 10 | Junior-Hauptmann | 2,7 % | 2.200 |
-| 11 | Hauptmann | 2,16 % | 2.600 |
-| 12 | Senior-Hauptmann | 1,73 % | 3.000 |
-| 13 | Junior-Major | 1,38 % | 3.500 |
-| 14 | Major | 1,11 % | 4.100 |
-| 15 | Senior-Major | 0,88 % | 4.700 |
-| 16 | Junior-Oberst | 0,71 % | 5.600 |
-| 17 | Oberst | 0,57 % | 6.500 |
-| 18 | Senior-Oberst | 0,45 % | 7.700 |
-| 19 | Junior-General | 0,36 % | 8.900 |
-| 20 | General | 0,29 % | 10.000 |
-| 21 | Senior-General | 0,23 % | 12.000 |
-| 22 | Junior-Admiral | 0,19 % | 14.000 |
-| 23 | Admiral | 0,15 % | 17.000 |
-| 24 | Senior-Admiral | #1 | 20.000 |
+| 1 | Junior-Pilot | – | 0 |
+| 2 | Pilot | – | 150 |
+| 3 | Senior-Pilot | – | 350 |
+| 4 | Junior-Sergeant | – | 610 |
+| 5 | Sergeant | – | 800 |
+| 6 | Senior-Sergeant | – | 1.000 |
+| 7 | Junior-Leutnant | – | 1.300 |
+| 8 | Leutnant | – | 1.500 |
+| 9 | Senior-Leutnant | – | 1.900 |
+| 10 | Junior-Hauptmann | – | 2.500 |
+| 11 | Hauptmann | – | 5.000 |
+| 12 | Senior-Hauptmann | – | 7.500 |
+| 13 | Junior-Major | – | 10.000 |
+| 14 | Major | – | 12.500 |
+| 15 | Senior-Major | – | 15.000 |
+| 16 | Junior-Oberst | – | 17.500 |
+| 17 | Oberst | – | 20.000 |
+| 18 | Senior-Oberst | – | 22.500 |
+| 19 | Junior-General | 15 | 25.000 |
+| 20 | General | 10 | 27.500 |
+| 21 | Senior-General | 8 | 30.000 |
+| 22 | Junior-Admiral | 4 | 40.000 |
+| 23 | Admiral | 2 | 45.000 |
+| 24 | Senior-Admiral | 1 | 50.000 |
 
 ## Wer in der Rangliste steht {#who-is-on-the-ladder}
 
@@ -88,19 +90,19 @@ Ein Pilot steht in der Rangliste seines Konzerns, wenn **alle drei** Punkte zutr
 - er hat PvE-Punkte: Der erste Abschuss bringt einen neuen Piloten in die Rangliste;
 - er ist in den letzten **30 Tagen** geflogen.
 
-Ein Pilot, der nicht in der Rangliste steht, ist überall, wo ein Rang erscheint, ein **Junior-Pilot**, hat keinen Platz und steht nicht in der Liste des Konzerns. Die Regel gibt es, damit ein Pilot, der das Spiel einmal ausprobiert hat und gegangen ist, nicht für immer unten sitzt, und damit ein Pilot, der weg ist, den besten Rang nicht monatelang behalten kann.
+Ein Pilot, der nicht in der Rangliste steht, ist überall, wo ein Rang erscheint, ein **Junior-Pilot**, hat keinen Platz und steht nicht in der Liste des Konzerns. Die Regel gibt es, damit ein Pilot, der das Spiel einmal ausprobiert hat und gegangen ist, nicht für immer unten sitzt, und damit ein Pilot, der weg ist, keinen der wenigen besten Plätze und nicht die Krone monatelang behalten kann.
 
 > [!TIP]
-> Solange du weg bist, geht nichts verloren. Deine Punkte bleiben, und wenn du wieder startest oder nur die Konzernseite öffnest, wirst du mit den Punkten, mit denen du gegangen bist, wieder eingeordnet. Warst du der beste Pilot, bist du wieder Senior-Admiral, und der Pilot, der den Rang hielt, rutscht einen Platz nach unten.
+> Solange du weg bist, geht nichts verloren. Deine Punkte bleiben, und wenn du wieder startest oder nur die Konzernseite öffnest, wirst du mit den Punkten, mit denen du gegangen bist, wieder eingeordnet, in dem Rang, den dir diese Punkte und die Plätze deines Konzerns dann geben.
 
-Wenn du den Konzern wechselst, gehen deine Punkte mit, und du stehst in der Rangliste des neuen Konzerns auf dem Platz, den sie dir dort geben.
+Wenn du den Konzern wechselst, gehen deine Punkte mit, und du stehst in der Rangliste des neuen Konzerns, mit dem Rang, den dir seine Plätze dort geben.
 
 ## Dein Rang bewegt sich {#your-rank-moves}
 
-- Er **sinkt**, wenn andere Piloten dich überholen. Jeder Pilot, der dich überholt, nimmt dir einen Platz, und war das der letzte Platz deines Rangs, fällst du einen Grad.
-- Er **steigt**, wenn du andere überholst, sobald dein Abschuss gezählt ist.
-- Er kann sich auch bewegen, wenn Piloten in die Rangliste kommen oder sie verlassen, denn jeder Rang ist ein Anteil des Konzerns. Ein wachsender Konzern senkt keinen Piloten, der seinen Platz behält; wenn Piloten gehen, kann ein Pilot am Rand eines Rangs einen Grad verlieren.
-- Dir wird dein Rang nur gemeldet, wenn er **steigt** ([Beförderungen](#promotions)). Ein Abstieg wird nie angekündigt: Dein Symbol ändert sich einfach.
+- **Bis einschließlich Senior-Oberst zählen allein deine Punkte.** Der Rang steigt, wenn deine Punkte das nächste Minimum erreichen, sobald dein Abschuss gezählt ist, und kein anderer Pilot kann ihn senken.
+- **Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns.** Ein Pilot, der ein Minimum vor dir erreicht, nimmt einen der Plätze, und sind die Plätze deines Rangs voll, fällst du auf den nächsten Rang, der dir offensteht. Verlässt ein Pilot die Rangliste oder den Konzern, wird ein Platz frei, und die Piloten hinter ihm können nachrücken.
+- Ein Pilot mit gleich vielen oder weniger Punkten als du nimmt dir nie einen Platz weg.
+- Dir wird dein Rang nur gemeldet, wenn er **steigt**, und nur dann ([Beförderungen](#promotions)). Ein Abstieg wird nie angekündigt: Dein Symbol ändert sich einfach.
 
 ## So verdienst du PvE-Punkte {#how-you-earn-pve-points}
 
@@ -132,7 +134,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 
 Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten sechs die Schiffe der drei Schwärme. Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
 
-Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 300 + 160 + 40 = **912** Punkte. Das reicht für das Minimum eines Sergeants (800); ob er einer ist, hängt von seinem Platz im Konzern ab.
+Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 300 + 160 + 40 = **912** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
 
 Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
@@ -151,15 +153,22 @@ Das Spiel zeichnet einen Rang als kleines Symbol: eine **Form** für die Stufe, 
 | General | fünfzackige Sterne | Orange |
 | Admiral | ein nach oben offener Lorbeerkranz um einen bis drei Sterne | Rosé |
 
+## Die Krone {#the-crown}
+
+Der Pilot mit den **meisten PvE-Punkten des ganzen Servers** trägt eine kleine **goldene Krone** über dem Symbol seines Rangs. „Der ganze Server“ heißt jeder Konzern und alle drei Welten, nicht nur dein Konzern: Es gibt eine Krone auf dem Server, und der beste Pilot jedes Konzerns hat trotzdem den Rang seines eigenen. Haben mehrere Piloten ganz oben genau gleich viele Punkte, tragen alle sie.
+
+Nur ein Pilot in einer Rangliste kann sie tragen. Ein Pilot, der 30 Tage weg war, trägt sie nicht, egal wie viele Punkte er hat: Die Krone geht an den besten Piloten, der in einer Rangliste steht, und er bekommt sie zurück, wenn er wieder fliegt und vorn liegt. Niemand wird informiert, wenn die Krone wandert, man sieht sie. Sie ist kein Rang und bringt nichts: Halte den Zeiger auf ein gekröntes Symbol, und sein Tooltip sagt „Bester PvE-Pilot des Servers“.
+
 ## Wo du sie siehst {#where-you-see-them}
 
-Im Flug siehst du **nur das Symbol**, nie die Wörter. Es steht vor dem Namen des Piloten:
+Im Flug siehst du **nur das Symbol**, nie die Wörter. Es steht vor dem Namen des Piloten, und die Krone darüber, an all diesen Stellen:
 
 - über einem Schiff, im Namensschild, und im Zielfenster;
 - im Chat, vor dem Namen des Piloten, der die Zeile geschrieben hat;
 - in der Liste deiner Gruppe und im Hover-Tooltip eines Gruppenmitglieds auf der Minikarte;
 - im Kill-Feed, vor jedem genannten Piloten (nicht vor Aliens);
-- in der Ruhmeshalle, im Ranglistenfenster und, groß, im Profil eines Piloten.
+- in der Ruhmeshalle, im Ranglistenfenster und, groß, im Profil eines Piloten;
+- auf der Konzernseite: dein eigener Rang, die Liste der besten Piloten und die Tabelle aller Ränge.
 
 Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und in einem Hover-Tooltip: Halte den Zeiger auf ein Symbol. Ein Symbol zeigt, wo ein Pilot unter den Piloten **seines eigenen Konzerns** steht: Der Major eines anderen Konzerns ist ein Major unter den Seinen, nicht unter deinen. [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) sind die Staffeln des Spiels selbst und haben keinen Rang.
 
@@ -167,10 +176,10 @@ Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und
 
 Öffne **Wirtschaft › Konzern**. Der Abschnitt **Konzernrangliste** zeigt von oben nach unten:
 
-- **Deinen Rang**: Symbol und Name, deinen Platz („Platz 16 von 31“) und ein kleines Etikett mit deinem Prozentrang („Top 52 %“).
-- **Einen Balken und darunter eine Zeile**, die sagt, was der nächste Rang verlangt. Eine Zeile wie „301 PvE-Punkte, um Sable zu überholen und Sergeant zu erreichen“ nennt den letzten Piloten des nächsten Rangs: Überhole ihn, und der Rang gehört dir. Hält dich nur deine Punktzahl zurück, sagt die Zeile, wie viele PvE-Punkte dir noch fehlen. Beim Senior-Admiral steht „Der höchste Rang.“
+- **Deinen Rang**: sein Symbol (mit der Krone, wenn sie dir gehört) und Name, deinen Platz („Platz 16 von 31“) und ein kleines Etikett mit deinem Prozentrang („Top 52 %“).
+- **Einen Balken und darunter eine Zeile**, die sagt, was der nächste Rang verlangt. Eine Zeile wie „2.500 PvE-Punkte bis Junior-General“ sagt, wie viele PvE-Punkte dir zum Minimum des nächsten Rangs noch fehlen. Hat der nächste Rang keinen freien Platz, nennt die Zeile den Piloten, der den letzten hält: „3.100 PvE-Punkte, um Sable zu überholen und Junior-General zu erreichen“. Seine Punktzahl zu erreichen genügt, denn gleiche Punkte haben denselben Rang. Beim Rang Senior-Admiral steht „Der höchste Rang.“
 - **Den besten Piloten** deines Konzerns mit seinen Punkten.
-- **Alle Ränge**, zugeklappt, bis du sie öffnest: die 24 Ränge als Pyramide, jeder mit einem Balken so breit wie sein Anteil am Konzern, seinem **Anteil**, den **Piloten**, die ihn gerade haben, und den **Mindestpunkten**. Dein eigener Rang ist markiert, und ein Tooltip an einer Zeile sagt: „Die besten 10,2 % deines Konzerns haben Hauptmann oder höher.“ Eine Zeile unter der Tabelle sagt, wer in der Rangliste steht.
+- **Alle Ränge**, zugeklappt, bis du sie öffnest: die 24 Ränge, der beste zuerst, mit den Spalten **Plätze** pro Konzern (ein Strich: keine Begrenzung), **Piloten** (wer den Rang gerade hat, mit einem Balken so breit wie beim Rang mit den meisten von ihnen) und **Mindestpunkte**. Dein eigener Rang ist markiert, und ein Tooltip an einer Zeile sagt: „Senior-Admiral: 1 Platz pro Konzern, ab 50.000 PvE-Punkten.“ Eine Zeile unter der Tabelle sagt, wer in der Rangliste steht.
 - **Die Liste**: die besten **50 Piloten deines Konzerns in allen drei Welten**, mit Platz, Symbol, Name und PvE-Punkten. Deine eigene Zeile ist markiert.
 
 - Ein Pilot ohne PvE-Punkte steht nicht in der Rangliste und nicht in der Liste: Zerstöre ein Alien, um auf sie zu kommen. Ein Pilot, der 30 Tage weg war, steht auch nicht darin, bis er wieder startet oder die Seite öffnet.
@@ -183,10 +192,10 @@ Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und
 
 ## Ränge und der Wipe {#ranks-and-the-wipe}
 
-Ein Wipe ändert niemandes Punkte. Er behält dein Level, deine Erfahrung und deine Abschussstatistik ([Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), und deine PvE-Punkte werden daraus berechnet, also hat die Rangliste deines Konzerns nach dem Wipe dieselbe Reihenfolge. Dein Rang gilt aber nicht mehr fürs Leben: Er folgt deinem Platz, bewegt sich also mit den Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
+Ein Wipe ändert niemandes Punkte. Er behält dein Level, deine Erfahrung und deine Abschussstatistik ([Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), und deine PvE-Punkte werden daraus berechnet, also hat die Rangliste deines Konzerns nach dem Wipe dieselbe Reihenfolge, und die Ränge und die Krone bleiben es auch. Dein Rang gilt aber nicht mehr fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
 
 ## Wie lange es dauert {#how-long-it-takes}
 
-Das sind **Schätzungen** aus einem Modell, wie schnell ein Pilot jagt, keine Messungen. Das Minimum an Punkten ist nicht das Schwere: Ein Pilot, der etwa zwei Stunden am Tag jagt, 58 Stunden in einer Saison, hat nach einer Saison etwa 21.200 PvE-Punkte, mehr, als selbst der Senior-Admiral verlangt. In Jagdstunden kommt das Minimum des Rangs Pilot innerhalb der ersten Stunde, das eines Sergeants nach 4, das eines Hauptmanns nach etwa 9, das eines Majors nach 14, das eines Obersts nach 22, das eines Generals nach 32, das eines Admirals nach 48 und das des Senior-Admirals nach 55.
+Das sind **Schätzungen** aus einem Modell, wie schnell ein Pilot jagt, keine Messungen. Ein Pilot, der etwa zwei Stunden am Tag jagt, 58 Stunden in einer Saison, hat nach einer Saison etwa 21.200 PvE-Punkte: Oberst. In Jagdstunden kommt das Minimum von Pilot innerhalb der ersten Stunde, das von Sergeant nach 4, das von Hauptmann nach 18, das von Major nach 38, das von Oberst nach 55, das von Junior-General nach 67, das von General nach 73, das von Senior-General nach 78, das von Junior-Admiral nach 101, das von Admiral nach 113 und das von Senior-Admiral nach 124.
 
-Was deinen Rang entscheidet, ist dein Platz, und die anderen Piloten jagen auch. In einem Konzern mit 31 Piloten können nur die besten vier Hauptmann oder besser sein, egal wie viele Punkte die anderen haben. Das Punkteminimum hindert einen jungen Konzern daran, die obersten Ränge zu verschenken; der Platz hält die Spitze eines alten Konzerns klein.
+Ein typischer aktiver Pilot erreicht die Ränge mit Plätzen also in seiner zweiten Saison. Ob er einen Platz bekommt, hängt von den anderen Piloten seines Konzerns ab, die auch jagen: Die Plätze eines Rangs zählen erst, wenn mehr Piloten sein Minimum erreichen, als er Plätze hat. Bis dahin sind es allein deine Punkte.

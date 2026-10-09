@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
@@ -140,7 +140,7 @@ Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único
 - **Recarga.** Asterism alarga el temporizador compartido un 35 % (4,05 segundos), Cordon un 11 % (3,33) y Redoubt lo acorta un 27 % (2,19), pero nunca por debajo del vuelo del cohete más un instante. Con Redoubt, los cohetes rápidos (Lancet I, Rivet I y II, Ember I, Scatter I y II) esperan los 2,19 segundos, un Rivet III espera 2,3, un Lancet III 2,9 y un Ember III los 3 completos; el N.U.K.E. y el N.I.K.E. esperan 4,1 y 4,6 segundos, lleves lo que lleves. La espera se fija al disparar, así que cambiar de formación después no la acorta, y el barrido sobre las ranuras de cohete la sigue.
 - **Los límites de los dos grandes se mantienen.** Con la mejor formación un N.I.K.E. golpea con hasta 116.250, lo que un Paragon intacto (128.000) sobrevive, y un N.U.K.E. con hasta 77.500, lo que sobrevive un Goombah (80.000).
 - **Evasión.** El 7 % de evasión de Asterism da a un cohete directo que te alcanza un 7 % de probabilidad de no causar ningún daño, y sobre tu nave aparece un «Fallo» flotante; una explosión de área no apunta y nunca se esquiva.
-- **Penetración.** Gemini y Stiletto suman sus puntos a la penetración de escudo de un cohete directo (una explosión no tiene), hasta un 40 % en total. Un impacto láser llega hasta el 50 % ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Penetración.** Gemini y Stiletto suman sus puntos a la penetración de escudo de un cohete directo (una explosión no tiene), sin tope: un Lancet III con un Stiletto llega al 51 %. Un impacto láser las suma igual a la de su munición y sus amps ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Reglas {#rules}
 

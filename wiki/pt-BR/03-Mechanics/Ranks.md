@@ -1,84 +1,86 @@
-<!-- wiki-i18n source: 09eab0ba9b8c9863 -->
+<!-- wiki-i18n source: 26f4bca5b9b9516f -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
-Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma escada militar de 8 categorias com 3 graus cada, 24 patentes no total. A sua patente é a sua **posição entre os pilotos da sua corporação**, contada em **pontos PvE**: os pontos que você ganha pelo seu nível, pela sua experiência e pelos alienígenas que destrói. Em voo, o jogo mostra só um pequeno **símbolo** antes do nome de um piloto, para você distinguir de relance os melhores pilotos de uma corporação de um novato. As palavras estão na página Corporação e na dica de um símbolo.
+Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma escada militar de 8 categorias com 3 graus cada, 24 patentes no total. A sua patente vem dos seus **pontos PvE**: os pontos que você ganha pelo seu nível, pela sua experiência e pelos alienígenas que destrói. Cada patente exige um **mínimo** de pontos PvE, e as seis melhores patentes também têm um número fixo de **vagas** em cada corporação. Em voo, o jogo mostra só um pequeno **símbolo** antes do nome de um piloto, para você distinguir de relance os melhores pilotos de uma corporação de um novato, e um piloto de todo o servidor usa uma **coroa** dourada sobre o símbolo. As palavras estão na página Corporação e na dica de um símbolo.
 
 **Em um minuto**
 
-- A sua corporação mantém uma única lista dos seus pilotos, com o piloto de mais pontos PvE primeiro. A sua patente vem da sua posição nessa lista.
-- Só o melhor piloto da corporação é o **Almirante sênior**. Todos os outros são distribuídos de cima para baixo nas outras 23 patentes: poucos pilotos no alto, a maioria embaixo.
-- Cada patente também exige um **mínimo de pontos PvE**, para que uma corporação pequena ou nova não possa distribuir as patentes mais altas de graça. O Almirante sênior precisa de 20.000.
-- A sua patente se move. Ela cai quando outros pilotos passam você e sobe quando você passa eles. Uma queda nunca é anunciada; uma nova melhor patente é.
-- Só estão na lista os pilotos com pontos PvE que voaram nos últimos 30 dias. Todos os outros são Piloto júnior até voltarem a voar.
-- O reset não muda os pontos de ninguém, então a lista não recomeça do zero.
+- A sua corporação mantém uma única lista dos seus pilotos, com o piloto de mais pontos PvE primeiro. Cada corporação tem a sua, e os pilotos das outras corporações nunca contam contra você.
+- Você tem a **patente mais alta cujo mínimo os seus pontos alcançam e que ainda tem uma vaga livre na sua corporação**.
+- As seis melhores patentes têm um número de vagas por corporação: **Almirante sênior 1** (a partir de 50.000 pontos PvE), **Almirante 2** (a partir de 45.000), **Almirante júnior 4** (a partir de 40.000), **General sênior 8** (a partir de 30.000), **General 10** (a partir de 27.500) e **General júnior 15** (a partir de 25.000). As patentes de baixo não têm limite de pilotos, e cada uma pede 2.500 pontos a menos que a de cima, até os 2.500 de Capitão júnior.
+- **Mesmos pontos, mesma patente.** Dois pilotos com os mesmos pontos nunca têm patentes diferentes. Quando a última vaga de uma patente cai no meio de um empate, todos os empatados ficam com a melhor patente, mesmo que isso passe do número de vagas.
+- Só estão em uma lista os pilotos com pontos PvE que voaram nos últimos 30 dias. Todos os outros são Piloto júnior até voltarem a voar, e não ocupam vaga.
+- Uma **coroa** dourada sobre o símbolo marca o piloto com mais pontos PvE de todo o servidor: todas as corporações, os três mundos.
+- A sua patente se move. Até Coronel sênior, ela depende só dos seus pontos, então só sobe. As seis melhores patentes também se movem com os outros pilotos da sua corporação: podem cair quando outros ocupam as vagas acima de você. Uma queda nunca é anunciada; uma nova melhor patente é.
+- O reset não muda os pontos de ninguém, então as listas não recomeçam do zero.
 - O símbolo antes de um nome é a patente: uma forma para a categoria, de uma a três marcas para o grau.
 
-![All ranks on the Company page: the 24 ranks as a pyramid, each with its share of the company, the pilots who hold it now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![The gold crown over a rank symbol, shown on the Generals and the Admirals](../../img/wiki-img/shots/rank-crown.jpg)
 ![The 24 company ranks: eight tiers of three grades, each a symbol of chevrons, bars, stars and a laurel](../../img/wiki-img/shots/ranks-sheet.jpg)
 
 ## Como a sua patente é calculada {#the-company-ladder}
 
-Os pilotos da sua corporação, **os três mundos juntos**, ficam em uma única fila, com o piloto de mais pontos PvE primeiro. Se dois pilotos têm os mesmos pontos, fica na frente o de nível mais alto e depois o piloto mais antigo. Essa fila é o **ranking** da corporação, e a sua patente vem de duas coisas:
+Os pilotos da sua corporação, **os três mundos juntos**, ficam em uma única fila, com o piloto de mais pontos PvE primeiro. Essa fila é o **ranking**. Se dois pilotos têm os mesmos pontos, fica na frente o de nível mais alto e depois o piloto mais antigo, mas isso só define a ordem da lista: nunca dá a eles patentes diferentes. A sua patente vem de duas coisas, os seus pontos e as vagas da sua corporação:
 
-1. **A sua posição.** O piloto na posição 1 é o **Almirante sênior**, sozinho. Os pilotos atrás dele são distribuídos nas outras 23 patentes por parcelas do ranking, e cada patente tem um quarto a mais de pilotos que a patente acima. Assim, cerca de um quinto dos pilotos é Piloto júnior, e o melhor décimo é Capitão ou mais.
-2. **Os seus pontos.** Cada patente exige um mínimo de pontos PvE ([a tabela abaixo](#the-24-ranks)). Você tem a menor das duas patentes: a que a sua posição dá e a que os seus pontos alcançam.
+1. **Cada patente tem um mínimo** de pontos PvE ([a tabela abaixo](#the-24-ranks)). Um piloto nunca tem uma patente cujo mínimo os pontos dele não alcançaram.
+2. **As seis melhores patentes têm vagas.** Elas são preenchidas de cima para baixo, a melhor patente primeiro: os melhores pilotos que alcançam 50.000 pontos ficam com a patente Almirante sênior, até a sua única vaga; dos pilotos que sobram, os melhores que alcançam 45.000 ficam com Almirante, até as suas duas vagas; e assim por diante até General júnior.
+3. **Todos os outros têm a patente mais alta que os pontos deles alcançam abaixo dessas seis**, que é Coronel sênior no máximo. Um piloto que alcança o mínimo de uma patente mas encontra as vagas dela cheias cai para a melhor patente que está aberta para ele.
+4. **Um empate nunca é desfeito.** Pilotos com os mesmos pontos têm a mesma patente. Se a última vaga de uma patente cai no meio de um empate, o empate inteiro fica com a melhor patente, então uma patente pode ter mais pilotos do que vagas, e nunca menos do que deveria.
 
-**Um exemplo.** Uma corporação tem 31 pilotos no ranking. Só pela posição, as patentes ficam assim; a última coluna é o mínimo de pontos PvE que a patente exige.
+**Um exemplo.** Os doze melhores pilotos de uma corporação, com a patente de cada um:
 
-| Posição | Patente | Mínimo de pontos PvE |
-| :---: | :--- | ---: |
-| 1 | Almirante sênior | 20.000 |
-| 2 | Major sênior | 4.700 |
-| 3 | Capitão sênior | 3.000 |
-| 4 | Capitão | 2.600 |
-| 5 | Tenente sênior | 1.900 |
-| 6–7 | Tenente | 1.500 |
-| 8 | Tenente júnior | 1.300 |
-| 9–10 | Sargento sênior | 1.000 |
-| 11–13 | Sargento | 800 |
-| 14–16 | Sargento júnior | 610 |
-| 17–20 | Piloto sênior | 350 |
-| 21–24 | Piloto | 150 |
-| 25–31 | Piloto júnior | 0 |
+| Posição | Pontos PvE | Patente |
+| :---: | ---: | :--- |
+| 1 | 60.000 | Almirante sênior |
+| 2 | 52.000 | Almirante |
+| 3 | 51.000 | Almirante |
+| 4 | 50.500 | Almirante júnior |
+| 5 | 44.000 | Almirante júnior |
+| 6 | 30.000 | General sênior |
+| 7 | 29.000 | General |
+| 8 | 28.000 | General |
+| 9 | 26.000 | General júnior |
+| 10 | 24.999 | Coronel sênior |
+| 11 | 21.000 | Coronel |
+| 12 | 1.000 | Sargento sênior |
 
-Você está na posição 16 de 31 com 1.800 pontos PvE. A página Corporação mostra «Posição 16 de 31» e uma pequena etiqueta «Top 52%»: você está entre os 52% melhores da sua corporação. As posições de 14 a 16 são Sargento júnior, então essa é a sua patente, embora só pelos pontos você chegasse a Tenente (1.500). Para virar Sargento, você precisa chegar à posição 13. Ela é de Sable, que tem 2.100 pontos PvE. Para passá-lo, você precisa de 2.101, ou seja, 301 a mais, e a página Corporação diz exatamente isso: «301 pontos PvE para ultrapassar Sable e chegar a Sargento».
-
-Os pontos também contam no topo. Se o melhor piloto desta corporação tem 12.000 pontos PvE, ele é General sênior até chegar a 20.000, seja qual for a sua posição.
+A posição 4 tem 50.500 pontos, que alcançam o mínimo de Almirante sênior, mas a única vaga dessa patente e as duas de Almirante estão ocupadas, então ele é Almirante júnior. As posições 7 e 8 têm 29.000 e 28.000: os dois alcançam os 27.500 de General e não os 30.000 de General sênior, e General ainda tem vagas, então os dois são General. O piloto com 24.999 está a um ponto de General júnior e é Coronel sênior, a melhor patente aberta para ele. Se dois pilotos nas primeiras posições tivessem os dois 60.000, ambos seriam Almirante sênior, e os dois seguintes, com 50.000 e 45.000, seriam Almirante.
 
 > [!NOTE]
-> As patentes são cortadas em pilotos inteiros, então uma corporação pequena não tem ninguém em algumas das patentes mais altas. Um Coronel exige uma corporação com pelo menos 46 pilotos no ranking, um General 118, um General sênior 178, um Almirante júnior 301 e um Almirante 675. A posição 1 é a exceção: toda corporação tem uma, e o piloto dela é o Almirante sênior assim que tem 20.000 pontos PvE.
+> As vagas só pesam quando mais pilotos de uma corporação alcançam um mínimo do que a patente tem de vagas. Em uma corporação pequena, a patente é simplesmente a dos pontos: um piloto sozinho na corporação é Coronel com 21.000 pontos PvE e Almirante sênior com 50.000.
 
 ## As 24 patentes {#the-24-ranks}
 
-A **parcela** é a parte da sua corporação que tem exatamente esta patente; o melhor piloto, que fica sozinho no topo, não é contado. O **mínimo** é o menor número de pontos PvE que a patente exige, seja qual for a sua posição.
+As **vagas** são quantos pilotos de uma mesma corporação podem ter exatamente esta patente; um traço significa sem limite. O **mínimo** é o menor número de pontos PvE que a patente pede.
 
-| # | Patente | Parcela da corporação | Mínimo de pontos PvE |
+| # | Patente | Vagas por corporação | Pontos PvE mínimos |
 | :---: | :--- | ---: | ---: |
-| 1 | Piloto júnior | 20,1% | 0 |
-| 2 | Piloto | 16,1% | 150 |
-| 3 | Piloto sênior | 12,9% | 350 |
-| 4 | Sargento júnior | 10,3% | 610 |
-| 5 | Sargento | 8,24% | 800 |
-| 6 | Sargento sênior | 6,59% | 1.000 |
-| 7 | Tenente júnior | 5,27% | 1.300 |
-| 8 | Tenente | 4,22% | 1.500 |
-| 9 | Tenente sênior | 3,38% | 1.900 |
-| 10 | Capitão júnior | 2,7% | 2.200 |
-| 11 | Capitão | 2,16% | 2.600 |
-| 12 | Capitão sênior | 1,73% | 3.000 |
-| 13 | Major júnior | 1,38% | 3.500 |
-| 14 | Major | 1,11% | 4.100 |
-| 15 | Major sênior | 0,88% | 4.700 |
-| 16 | Coronel júnior | 0,71% | 5.600 |
-| 17 | Coronel | 0,57% | 6.500 |
-| 18 | Coronel sênior | 0,45% | 7.700 |
-| 19 | General júnior | 0,36% | 8.900 |
-| 20 | General | 0,29% | 10.000 |
-| 21 | General sênior | 0,23% | 12.000 |
-| 22 | Almirante júnior | 0,19% | 14.000 |
-| 23 | Almirante | 0,15% | 17.000 |
-| 24 | Almirante sênior | #1 | 20.000 |
+| 1 | Piloto júnior | – | 0 |
+| 2 | Piloto | – | 150 |
+| 3 | Piloto sênior | – | 350 |
+| 4 | Sargento júnior | – | 610 |
+| 5 | Sargento | – | 800 |
+| 6 | Sargento sênior | – | 1.000 |
+| 7 | Tenente júnior | – | 1.300 |
+| 8 | Tenente | – | 1.500 |
+| 9 | Tenente sênior | – | 1.900 |
+| 10 | Capitão júnior | – | 2.500 |
+| 11 | Capitão | – | 5.000 |
+| 12 | Capitão sênior | – | 7.500 |
+| 13 | Major júnior | – | 10.000 |
+| 14 | Major | – | 12.500 |
+| 15 | Major sênior | – | 15.000 |
+| 16 | Coronel júnior | – | 17.500 |
+| 17 | Coronel | – | 20.000 |
+| 18 | Coronel sênior | – | 22.500 |
+| 19 | General júnior | 15 | 25.000 |
+| 20 | General | 10 | 27.500 |
+| 21 | General sênior | 8 | 30.000 |
+| 22 | Almirante júnior | 4 | 40.000 |
+| 23 | Almirante | 2 | 45.000 |
+| 24 | Almirante sênior | 1 | 50.000 |
 
 ## Quem está no ranking {#who-is-on-the-ladder}
 
@@ -88,19 +90,19 @@ Um piloto está no ranking da sua corporação quando **as três** condições s
 - ele tem pontos PvE: o primeiro abate coloca um piloto novo no ranking;
 - ele voou nos últimos **30 dias**.
 
-Um piloto que não está no ranking é um **Piloto júnior** onde quer que uma patente apareça, não tem posição e não está na lista da corporação. A regra existe para que um piloto que experimentou o jogo uma vez e foi embora não fique no fundo para sempre, e para que um piloto ausente não guarde a melhor patente por meses.
+Um piloto que não está no ranking é **Piloto júnior** onde quer que apareça uma patente, não tem vaga e não está na lista da corporação. A regra existe para que um piloto que experimentou o jogo uma vez e foi embora não fique no fundo para sempre, e para que um piloto ausente não possa manter por meses uma das poucas melhores vagas, nem a coroa.
 
 > [!TIP]
-> Você não perde nada enquanto está fora. Os seus pontos são mantidos, e quando você decola de novo, ou só abre a página Corporação, volta a ser colocado com os pontos com que saiu. Se você era o melhor piloto, é o Almirante sênior de novo, e o piloto que tinha a patente desce uma posição.
+> Nada se perde enquanto você está fora. Os seus pontos são mantidos, e quando você decola de novo, ou só abre a página Corporação, você é colocado outra vez com os pontos com que saiu, na patente que esses pontos e as vagas da sua corporação dão então.
 
-Se você mudar de corporação, os seus pontos vão com você e você fica no ranking da nova corporação, na posição que eles lhe dão lá.
+Se você trocar de corporação, os seus pontos vão com você e você entra no ranking da nova corporação, com a patente que as vagas dela lhe dão lá.
 
 ## A sua patente se move {#your-rank-moves}
 
-- Ela **cai** quando outros pilotos passam você. Cada piloto que passa você tira uma posição sua, e se era a última posição da sua patente, você perde um grau.
-- Ela **sobe** quando você passa outros, assim que o seu abate é contado.
-- Ela também pode se mover quando pilotos entram no ranking ou saem dele, porque cada patente é uma parcela da corporação. Uma corporação que cresce nunca rebaixa um piloto que mantém a sua posição; quando pilotos saem, um piloto na borda de uma patente pode perder um grau.
-- A sua patente só é avisada a você quando **sobe** ([Promoções](#promotions)). Uma queda nunca é anunciada: o seu símbolo simplesmente muda.
+- **Até Coronel sênior, são só os seus pontos.** A patente sobe quando os seus pontos alcançam o mínimo seguinte, assim que o seu abate é contado, e nenhum outro piloto pode baixá-la.
+- **As seis melhores patentes se movem com os outros pilotos da sua corporação.** Um piloto que alcança um mínimo antes de você ocupa uma das vagas, e quando as vagas da sua patente estão cheias você cai para a próxima patente aberta para você. Quando um piloto sai do ranking ou da corporação, uma vaga se abre e os pilotos atrás dele podem subir para ela.
+- Um piloto com os mesmos pontos que você, ou menos, nunca tira uma vaga de você.
+- A sua própria patente é comunicada a você quando **sobe**, e só então ([Promoções](#promotions)). Uma queda nunca é anunciada: o seu símbolo simplesmente muda.
 
 ## Como ganhar pontos PvE {#how-you-earn-pve-points}
 
@@ -132,7 +134,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 
 As cinco primeiras linhas são os alienígenas comuns e as seis seguintes as naves dos três enxames. No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
 
-Por exemplo, um piloto de nível 4 com 12.500 de experiência que destruiu 300 Seekers, 80 Phantasms e 10 Bulwarks tem 400 + 12 + 300 + 160 + 40 = **912** pontos. Isso basta para o mínimo de um Sargento (800); se ele é um depende da posição dele na corporação.
+Por exemplo, um piloto de nível 4 com 12.500 de experiência que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 300 + 160 + 40 = **912** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
 
 A página **Rankings** (Comunidade › Rankings) mostra como os seus pontos são compostos, e o **Hall da Fama** dela lista os melhores pilotos. O **(i)** ao lado dos pontos PvE ali cita os cinco alienígenas, quanto vale um abate em cada um dos [enxames](/wiki/05-Swarms/Swarms.md), da menor nave ao chefe, e os [Guardiões do clã](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
@@ -151,15 +153,22 @@ O jogo desenha uma patente como um pequeno símbolo: uma **forma** para a catego
 | General | estrelas de cinco pontas | laranja |
 | Almirante | uma coroa de louros aberta no alto em volta de uma a três estrelas | rosa |
 
+## A coroa {#the-crown}
+
+O piloto com **mais pontos PvE de todo o servidor** usa uma pequena **coroa** dourada sobre o símbolo da sua patente. “Todo o servidor” quer dizer todas as corporações e os três mundos, não só a sua corporação: há uma coroa no servidor, e o melhor piloto de cada corporação continua com a patente da própria. Se vários pilotos têm exatamente os mesmos pontos no topo, todos a usam.
+
+Só um piloto que está em um ranking pode usá-la. Um piloto que ficou 30 dias fora não a usa, por mais pontos que tenha: a coroa vai para o melhor piloto que está em um ranking, e ele a recupera quando voltar a voar e estiver na frente. Ninguém é avisado quando a coroa muda de dono, ela se vê. Não é uma patente e não dá nada: passe o ponteiro sobre um símbolo coroado e a dica dele diz “Melhor piloto PvE do servidor”.
+
 ## Onde você os vê {#where-you-see-them}
 
-Em voo você vê **só o símbolo**, nunca as palavras. Ele fica antes do nome do piloto:
+Em voo, você vê **só o símbolo**, nunca as palavras. Ele fica antes do nome do piloto, com a coroa sobre ele, em todos estes lugares:
 
 - sobre uma nave, na etiqueta de nome, e na janela do alvo;
 - no chat, antes do nome do piloto que escreveu a linha;
 - na lista do seu grupo e na dica de um colega de grupo no minimapa;
 - no registro de baixas, antes de cada piloto citado (não antes dos alienígenas);
-- no Hall da Fama, na janela de ranking e, grande, no perfil de um piloto.
+- no Hall da Fama, na janela de ranking e, grande, no perfil de um piloto;
+- na página Corporação: a sua própria patente, a lista dos melhores pilotos e a tabela de todas as patentes.
 
 As **palavras** (Sargento júnior, Capitão …) estão na página Corporação e em uma dica: apoie o ponteiro sobre um símbolo. Um símbolo mostra onde um piloto está entre os pilotos da **própria corporação**: o Major de outra corporação é um Major entre os dele, não entre os seus. Os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) são os esquadrões do próprio jogo e não têm patente.
 
@@ -167,11 +176,11 @@ As **palavras** (Sargento júnior, Capitão …) estão na página Corporação 
 
 Abra **Economia › Corporação**. A seção **Ranking da corporação** mostra, de cima para baixo:
 
-- **A sua patente**: o símbolo e o nome dela, a sua posição («Posição 16 de 31») e uma pequena etiqueta com o seu percentil («Top 52%»).
-- **Uma barra e uma linha embaixo dela** que dizem o que a próxima patente exige. Uma linha como «301 pontos PvE para ultrapassar Sable e chegar a Sargento» cita o último piloto da próxima patente: passe por ele e a patente é sua. Quando só os seus pontos seguram você, a linha diz quantos pontos PvE ainda faltam. O Almirante sênior lê «A patente mais alta.»
+- **A sua patente**: o símbolo (com a coroa, se for sua) e o nome, a sua posição (“Posição 16 de 31”) e uma pequena etiqueta com o seu percentil (“Top 52%”).
+- **Uma barra e uma linha embaixo** que dizem o que a próxima patente pede. Uma linha como “2.500 pontos PvE para General júnior” diz quantos pontos PvE a mais o mínimo da próxima patente pede. Quando a próxima patente não tem vaga livre, a linha nomeia o piloto que tem a última: “3.100 pontos PvE para ultrapassar Sable e chegar a General júnior”. Igualar os pontos dele basta, porque pontos iguais têm a mesma patente. Para Almirante sênior, a linha diz “A patente mais alta.”
 - **O melhor piloto** da sua corporação, com os pontos dele.
-- **Todas as patentes**, recolhida até você abrir: as 24 patentes como uma pirâmide, cada uma com uma barra tão larga quanto a sua parcela da corporação e três colunas: **Parcela**, **Pilotos** (quantos a têm agora) e **Mín. pontos**. A sua patente fica marcada, e uma dica em uma linha diz: «Os 10,2% melhores da sua corporação têm a patente Capitão ou superior.» Uma linha abaixo da tabela diz quem está no ranking.
-- **A lista**: os melhores **50 pilotos da sua corporação nos três mundos**, com posição, símbolo, nome e pontos PvE. A sua linha fica marcada.
+- **Todas as patentes**, fechado até você abrir: as 24 patentes, a melhor primeiro, com as **Vagas** por corporação (um traço: sem limite), os **Pilotos** que a têm agora, com uma barra tão larga quanto a patente que tem mais deles, e os **Mín. pontos**. A sua própria patente é marcada, e uma dica em uma linha diz: “Almirante sênior: 1 vaga por corporação, a partir de 50.000 pontos PvE.” Uma linha sob a tabela diz quem está no ranking.
+- **A lista**: os **50 melhores pilotos da sua corporação nos três mundos**, com posição, símbolo, nome e pontos PvE. A sua própria linha é marcada.
 
 - Um piloto sem pontos PvE ainda não está no ranking nem na lista: destrua um alienígena para entrar. Um piloto ausente há 30 dias também não está, até decolar de novo ou abrir a página.
 - Só nomes e números públicos são mostrados.
@@ -183,10 +192,10 @@ Abra **Economia › Corporação**. A seção **Ranking da corporação** mostra
 
 ## Patentes e o reset {#ranks-and-the-wipe}
 
-Um reset não muda os pontos de ninguém. Ele mantém o seu nível, a sua experiência e as suas estatísticas de abates ([Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), e os seus pontos PvE são calculados a partir deles, então depois do reset o ranking da sua corporação fica na mesma ordem. A sua patente, porém, não é mais para a vida toda: ela segue a sua posição, então se move junto com os pilotos da sua corporação, e um piloto que fica 30 dias fora sai do ranking até voltar a voar.
+Um reset não muda os pontos de ninguém. Ele mantém o seu nível, a sua experiência e as suas estatísticas de abates ([Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), e os seus pontos PvE são calculados a partir deles, então o ranking da sua corporação fica na mesma ordem depois do reset, e as patentes e a coroa também. A sua patente já não é para a vida toda, porém: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias fora sai do ranking até voltar a voar.
 
 ## Quanto tempo leva {#how-long-it-takes}
 
-Estas são **estimativas** de um modelo de quão rápido um piloto caça, não medições. O mínimo de pontos não é a parte difícil: um piloto que caça cerca de duas horas por dia, 58 horas em uma temporada, tem cerca de 21.200 pontos PvE depois de uma temporada, mais do que o Almirante sênior exige. Em horas de caça, o mínimo de um Piloto vem na primeira hora, o de um Sargento em 4, o de um Capitão em cerca de 9, o de um Major em 14, o de um Coronel em 22, o de um General em 32, o de um Almirante em 48 e o do Almirante sênior em 55.
+Estas são **estimativas** de um modelo de quão rápido um piloto caça, não medições. Um piloto que caça cerca de duas horas por dia, 58 horas em uma temporada, tem cerca de 21.200 pontos PvE depois de uma temporada: Coronel. Em horas de caça, o mínimo de Piloto chega dentro da primeira hora, o de Sargento em 4, o de Capitão em 18, o de Major em 38, o de Coronel em 55, o de General júnior em 67, o de General em 73, o de General sênior em 78, o de Almirante júnior em 101, o de Almirante em 113 e o de Almirante sênior em 124.
 
-O que decide a sua patente é a sua posição, e os outros pilotos também caçam. Em uma corporação de 31 pilotos, só os quatro melhores podem ser Capitão ou mais, tenham os outros os pontos que tiverem. O mínimo de pontos impede uma corporação jovem de distribuir as patentes mais altas; a posição mantém pequeno o topo de uma corporação antiga.
+Assim, um piloto ativo típico alcança as patentes com vagas na sua segunda temporada. Conseguir uma vaga depende dos outros pilotos da sua corporação, que também caçam: as vagas de uma patente só pesam quando mais pilotos alcançam o mínimo dela do que ela tem de vagas. Até lá, a patente é simplesmente a dos seus pontos.

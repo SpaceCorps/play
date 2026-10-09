@@ -4,7 +4,7 @@ The **Forge** is the second tab of the Assembly page (and of the Assembly window
 
 ## What can be forged
 
-Lasers, Laser Amps, Shield Cores, Shield Cells, Engines, Thrusters, Adaptive Cores and Repair Drones: any single piece of equipment that can carry [enchant buffs](/wiki/06-Items/Overview.md). It can be in your inventory, on a ship (it stays there and works with its new tier at once) or fitted into another item. Drones, ships, ammo, resources and boosters can't be forged, and neither can anything in the Transport Cache: take it out first.
+Lasers, Laser Amps, Shield Cores, Shield Cells, Engines, Thrusters, Adaptive Cores, Repair Drones and [Hull Plating](/wiki/06-Items/Hull-Plating.md): any single piece of equipment that can carry [enchant buffs](/wiki/06-Items/Overview.md). It can be in your inventory, on a ship (it stays there and works with its new tier at once) or fitted into another item. Drones, ships, ammo, resources and boosters can't be forged, and neither can anything in the Transport Cache: take it out first.
 
 ## Tier up
 
@@ -37,7 +37,7 @@ The last two steps ask for **2 Dark Matter Plates** each, on top of everything e
 
 Equipment made before the Forge keeps the buffs it was rolled with, and those are often smaller than the table (a Godly piece from back then can hold +2%). Nothing raises them by itself: a tier-up rolls each buff again in the new tier's range and keeps the better value, and a merge keeps the better value of each stat.
 
-An item can't hold more buffs than it has stats: a Shield Core has four, a laser three (the Quantum Laser I and II have two), an engine or an Adaptive Core two, a Momentum Thruster two, an Impulse Thruster one (its multiplier of 1.02 to 1.035 is too small to be worth a buff, and the Forge rolls none on a multiplier of 1.05 or less, so its buff can only be on the flat speed), a Crit Amp I or a Repair Drone one, the higher crit amps two, the damage amps and shield cells three. When the next tier holds no more buffs than the item can carry, the panel says so: the tier then only makes the buffs stronger. Range buffs never pass +5%. A Penetration Amp has one stat, so it holds one buff.
+An item can't hold more buffs than it has stats: a Shield Core has four, a laser three (the Quantum Laser I and II have two), an engine or an Adaptive Core two, a Momentum Thruster two, an Impulse Thruster one (its multiplier of 1.02 to 1.035 is too small to be worth a buff, and the Forge rolls none on a multiplier of 1.05 or less, so its buff can only be on the flat speed), a Crit Amp I, a Repair Drone or a Hull Plating one (its hull), the higher crit amps two, the damage amps and shield cells three. When the next tier holds no more buffs than the item can carry, the panel says so: the tier then only makes the buffs stronger. Range buffs never pass +5%. A Penetration Amp has one stat, so it holds one buff.
 
 **A tier holds that many buffs at most.** A tier-up always gives an item its first buff; every other slot the new tier opens, and the item has a stat for, is filled with a **50% chance, each on its own roll**, and a slot that misses is tried again by the next tier-up. So a Godly Shield Core has two buffs half the time and one the other half; an Eternal one has all four about a third of the time (3.1 buffs on average), a laser with three stats has all three two times in three, and an engine nearly always has both. The panel says "up to" for the next tier and how often a new slot fills. Items with one stat, and every step to Tainted, are not affected, and equipment made before this rule keeps the buffs it has. A **merge** is how you fill a slot a tier-up missed: it keeps the best buff of each stat of two copies, up to the tier's limit. Because of the chance, a piece carries the Absorbance buff described next only part of the time (an Eternal Shield Core 78% of the time, an Eternal Shield Cell 88%): the figures there are for pieces that carry it.
 
@@ -45,7 +45,7 @@ A **shield's Absorbance buff** (and a shield cell's Absorbance Boost) multiplies
 
 Engines, thrusters, Adaptive Cores and Repair Drones move very little with a percentage buff (an Engine II adds 4 speed, so +12% is half a point): forge them if you want the tier, not for the stats.
 
-**A Penetration Amp's buff** multiplies its penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points a slot instead of 8. In the best laser (a Fusion Core, a Stiletto and three Penetration Amp IV in every laser) 10 + 16 + 24 already reach the 50% cap of a laser hit, so that buff is wasted there; it pays where the sum is under the cap ([Lasers](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**A Penetration Amp's buff** multiplies its penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points a slot instead of 8. Nothing caps the penetration of a hit, so every point counts: in the best laser (a Fusion Core, a Stiletto and three Penetration Amp IV in every laser) 10 + 16 + 24 make 50%, and three Eternal buffs raise it to as much as 53.6% ([Lasers](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Where the materials drop
 

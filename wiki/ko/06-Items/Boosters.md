@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: 부스터 -->
 # 부스터 {#boosters}
 
@@ -60,7 +60,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 | **Loot Luck Booster** | 전설 | NPC에게서 얻는 희귀 드롭 확률 +5% | 30,000 |
 
 > [!NOTE]
-> **부스터인가, 증폭기인가?** 서로 다른 것입니다. 모든 부스터는 이름에 **Booster**가 들어 있고, 타이머로 작동하며, 끼울 것이 없습니다. **Laser Damage Booster I**과 **Laser Damage Booster II**는 10시간 동안 레이저 피해량 +10%를 주며, 상점이나 어셈블리에서 얻습니다. **Damage Amp**, **Crit Amp**, **Penetration Amp**(티어 I~IV)는 레이저 증폭기입니다. 레이저의 증폭기 슬롯에 끼우는 모듈이며, 타이머가 없습니다([레이저와 탄약](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 이전에는 부스터의 이름이 Damage Amp와 Damage Amp II, Shield Wall과 Shield Wall II, Hull Plating과 Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet, Loot Luck이었습니다. 작동 중이던 부스터는 새 이름으로 계속 이어졌습니다.
+> **부스터인가, 증폭기인가?** 서로 다른 것입니다. 모든 부스터는 이름에 **Booster**가 들어 있고, 타이머로 작동하며, 끼울 것이 없습니다. **Laser Damage Booster I**과 **Laser Damage Booster II**는 10시간 동안 레이저 피해량 +10%를 주며, 상점이나 어셈블리에서 얻습니다. **Damage Amp**, **Crit Amp**, **Penetration Amp**(티어 I~IV)는 레이저 증폭기입니다. 레이저의 증폭기 슬롯에 끼우는 모듈이며, 타이머가 없습니다([레이저와 탄약](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 이전에는 부스터의 이름이 Damage Amp와 Damage Amp II, Shield Wall과 Shield Wall II, Hull Plating과 Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet, Loot Luck이었습니다. 작동 중이던 부스터는 새 이름으로 계속 이어졌습니다. Hull Plating **Booster**는 함선의 장갑 슬롯에 들어가는 장갑 **Hull Plating**과 다른 것입니다([선체 장갑](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

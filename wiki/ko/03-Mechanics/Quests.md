@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: 퀘스트 -->
 # 퀘스트 {#quests}
 
@@ -17,7 +17,7 @@
 - **연계 미션.** **순서대로** 태그가 붙은 미션의 단계는 하나씩 차례로 열리며, 열려 있는 단계만 집계됩니다.
 - **격파 외에 네 가지 단계가 있습니다.** 나에게만 떨어지고 Mission Control로 가져가야 하는 **미션 아이템**, **방문할 지점**, 섹터에서 몇 분 보내는 **체류**, 그리고 시즌 4일째부터는 사냥하는 **무리**입니다.
 - **조건.** 단계나 미션 전체에 "선체 손실 최대 N 포인트" 또는 "격추되지 않을 것"이라는 조건이 붙을 수 있습니다. 조건을 깨면 그 단계(또는 미션)가 처음부터 다시 시작됩니다. 영구히 잃는 것은 없습니다.
-- **도전 과제 라인.** 파일럿 레벨 3부터 도전할 수 있는, 열 개씩 다섯 티어로 나뉜 아주 어려운 미션 50개입니다. 티어 1은 모두 합쳐 크레딧 9,355,000, Thulium 70,125, 경험치 435,500을 기본값으로 지급합니다. 레벨 미션처럼 지급됩니다([보상](#rewards)).
+- **도전 과제 라인.** 파일럿 레벨 3부터 도전할 수 있는, 열 개씩 다섯 티어로 나뉜 아주 어려운 미션 50개입니다. 보상은 일한 만큼 정해집니다. 처치 하나의 값어치는 티어 1이 그 처치에 주는 값이고 티어가 오를 때마다 10%씩 늘어나며, 미션 하나당 상한은 Thulium 100,000입니다. 티어 1은 모두 합쳐 크레딧 9,355,000, Thulium 70,125, 경험치 2,177,500을 기본값으로 지급합니다([도전 과제 라인](#challenge-line)).
 - **0.4.10에서 개편.** 레벨 미션 중 64개는 새 버전입니다. 이전에 완료했더라도 다시 제시되며, 보상도 전액 받습니다([자세히](#reworked-missions)).
 
 ## Mission Control
@@ -143,7 +143,7 @@
 - **중무장 운반**(레벨 4, 40분). `x-3`에서 Phantasm 10마리를 격파하고, 13,400 / 5,000과 13,600 / 1,900 지점에 도달한 뒤, Bulwark에게서 Manifest를 얻어(격파당 25%, 5번째에서 확정) 선체 손실 최대 17,000 포인트, 사망 금지 조건으로 Mission Control에 가져가세요. 보상은 10,500 XP, 52,000 크레딧, 315 Thulium입니다.
 - **둥지 파괴자**(레벨 3 스페셜, 시즌 4일째부터). Boss Seeker 3마리와 Seeker Slave 12마리는 아무 섹터에서, Phantasm 6마리는 `x-3`에서 원하는 순서로 격파하세요. 보상은 6,800 XP, 54,500 크레딧, 170 Thulium, Quantum Laser II, Ship Fragment 10개, Ultra Core 200개입니다.
 - **대장정**(레벨 8, 25분, 사망 금지). `x-4`의 8,000 / 4,500으로 날아가고, 이어서 중앙 섹터의 6,000 / 4,500으로 간 뒤, 라이벌 기업의 `x-4`에서 Goombah 2마리를 격파하고 그 중심인 8,000 / 4,500으로 날아가세요. [링 게이트](/wiki/01-General/Spacemap%20Travel.md#jump-links)로도 중앙 섹터로도 갈 수 있습니다. 보상은 66,000 XP, 165,000 크레딧, 1,320 Thulium입니다.
-- **무피해**(도전 과제). `x-3`에서 Phantasm 25마리를 연속으로 격파합니다. 잃는 선체 포인트는 최대 39,000까지입니다. 제한을 넘기면 카운트가 0으로 돌아갑니다. 기본값으로 경험치 44,000, 크레딧 855,000, Thulium 6,405, 명예 2,370, Ancient Control Unit 1개, Shield Wall Booster II 5시간을 지급합니다.
+- **무피해**(도전 과제). `x-3`에서 Phantasm 25마리를 연속으로 격파합니다. 잃는 선체 포인트는 최대 39,000까지입니다. 제한을 넘기면 카운트가 0으로 돌아갑니다. 기본값으로 경험치 220,000, 크레딧 855,000, Thulium 6,405, 명예 2,370, Ancient Control Unit 1개, Shield Wall Booster II 5시간을 지급합니다.
 
 ## 정거장 미션 {#station-missions}
 
@@ -164,6 +164,11 @@
 - **열 개를 원하는 순서로.** 한 티어의 미션 열 개는 모두 동시에 열려 있습니다. **티어 2**는 티어 1의 열 개를 모두 수령하면 열리고, **티어 3**은 티어 2의 열 개를 모두 수령하면 열립니다. **티어 4와 5**는 그 앞 티어의 **열 개 중 아홉 개**를 수령하면 열립니다. 티어 3의 **Dormant의 새벽**, 티어 4의 **Dormant의 황혼**: 승무원이 필요한 [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md) 미션이라 선택 사항입니다.
 - **동시에 3개**까지입니다. 레벨 미션 5개, 정거장 미션 3개와는 별도입니다.
 - **레벨 미션처럼 지급됩니다.** 표의 보상은 **기본값**이며 한 번만 지급됩니다. 내 월드의 보너스, 부스터, 프리미엄 경험치, 클랜의 크레딧·Thulium 보너스가 여기에 곱해집니다. 예시는 [보상](#rewards)에 있습니다. **명예는 티어 1만 지급합니다.** 와이프를 넘어 유지되며, 미션 와이프 포인트에는 집계되지 않습니다.
+- **보상은 일한 만큼 따라옵니다.** 도전 과제에서 어떤 외계인 종류 하나를 처치한 값어치는 티어 1이 그 처치에 주는 값이고, **티어가 하나 오를 때마다 10%씩 더 커집니다**(티어 2 ×1.10, 티어 3 ×1.21, 티어 4 ×1.331, 티어 5 ×1.4641). 그래서 티어 1 **Bulwark의 벽**의 Bulwark 150마리는 Thulium 19,585를, 티어 2 **Bulwark 폭풍**의 400마리는 57,450를 지급합니다. 거기서는 Bulwark 하나가 10% 더 값집니다. 체류, 순회, 무피해 주행도 한 티어 아래의 같은 종류 미션을 기준으로 같은 규칙을 따릅니다.
+- **미션 하나당 Thulium 100,000의 상한.** 가장 큰 사냥은 그보다 더 지급하게 됩니다. 보상의 Thulium이 100,000을 넘으면 보상 전체가 한꺼번에 줄어들어 Thulium이 정확히 100,000이 됩니다. 크레딧, 명예, 아이템도 같은 비율로 줄어듭니다. 이렇게 줄어드는 미션은 열 개입니다. **Goombah의 재앙**, **Bulwark 전염병**, **Goombah 궤멸**, **Bulwark의 바다**, **Seeker 일만 마리**, **Phantasm 일만 마리**, **Goombah 군단**, **Crystalys의 치세**, **해적의 왕좌**, **전선의 수호자**. 나머지 마흔 개는 전액을 지급합니다.
+- **경험치는 다섯 배.** 50개 미션 모두의 경험치는 0.4.16 이전에 지급하던 양의 정확히 5배이며, 상한이 깎는 것과 상관없습니다.
+- **아이템은 돈에 맞춰 늘어납니다.** Power Core, Reinforced Hull Plate, Cataclysite는 보상의 크레딧과 Thulium에 맞춰 늘어납니다. Orvium과 Velkonite Reinforced Plate, Ancient Control Unit은 예전 수량 그대로이고, 부스터 시간도 같습니다.
+- **처치 보상은 따로 더해집니다.** 격파한 외계인은 전과 같이 자신의 크레딧, Thulium, 명예를 지급하며, 미션 보상은 그 위에 더해집니다.
 - **처치는 두 번 집계됩니다.** 처치는 그것을 요구하는 모든 도전 과제에도, 집계되는 레벨 미션 하나에도 집계되므로, 천 마리 처치 미션이 레벨 미션을 굶기는 일은 없습니다.
 - **그룹.** 처치는 그 보상을 받는 파일럿과, 잔해에서 **4,000유닛** 이내에 있으면서 최근 15초 안에 레이저나 로켓을 쏜 그룹 멤버에게 집계됩니다. 집계는 파일럿마다 따로 합니다.
 - **체류에는 사격이 필요합니다. 중앙은 예외입니다.** `x-3`, `x-4`, 라이벌의 `x-4`에서의 체류는 최근 60초 안에 사격한 동안에만 집계되므로, 세워 두거나 맴돌기만 하는 함선은 아무것도 얻지 못합니다. 외계인이 살지 않는 위험 섹터의 체류(**중앙 감시**, **가장자리 철야**, **마지막 철야**)는 최근 30초 안에 300유닛을 이동했거나 사격한 함선이 집계되며, 레벨 미션의 체류와 같습니다.
@@ -180,13 +185,13 @@
 
 | 티어 | 크레딧 | Thulium | 경험치 | 명예 |
 | :--- | --: | --: | --: | --: |
-| 티어 1 · 시험장 | 9,355,000 | 70,125 | 435,500 | 26,140 |
-| 티어 2 · 철의 국경 | 6,200,000 | 46,450 | 471,000 | 0 |
-| 티어 3 · 중심부 | 11,995,000 | 90,020 | 887,000 | 0 |
-| 티어 4 · 심연 | 26,215,000 | 196,615 | 1,880,500 | 0 |
-| 티어 5 · 전설 | 48,390,000 | 362,865 | 3,110,000 | 0 |
+| 티어 1 · 시험장 | 9,355,000 | 70,125 | 2,177,500 | 26,140 |
+| 티어 2 · 철의 국경 | 26,975,000 | 202,910 | 2,355,000 | 0 |
+| 티어 3 · 중심부 | 46,665,000 | 338,600 | 4,435,000 | 0 |
+| 티어 4 · 심연 | 63,270,000 | 410,335 | 9,402,500 | 0 |
+| 티어 5 · 전설 | 111,595,000 | 723,915 | 15,550,000 | 0 |
 
-[표](#challenge-missions-table)에 모든 미션의 모든 수치가 있습니다.
+50개를 모두 합치면 기본값으로 크레딧 257,860,000, Thulium 1,745,885, 경험치 33,920,000를 지급합니다. [표](#challenge-missions-table)에 모든 미션의 모든 수치가 있습니다.
 
 > [!TIP]
 > 레벨 3이 되면 큰 사냥을 바로 수락하세요. Seeker 재앙과 Phantasm 해일은 수락한 순간부터의 모든 처치를, 어느 섹터에서든, 레벨 미션과 나란히 집계합니다.
@@ -231,7 +236,7 @@
 
 - 경험치, 크레딧, Thulium, 명예는 미션을 수행한 [월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)의 배율이 곱해져 지급됩니다. Alpha는 1배, Beta는 2배, Gamma는 3배입니다. 내 부스터(Experience Booster, Honor Booster)가 여기에 더해지고, 프리미엄은 경험치를 2배로 만들어 줍니다. [클랜](/wiki/03-Mechanics/Clans.md)의 Thulium·크레딧 부스트는 내가 수령하는 모든 미션(레벨, 정거장, 도전 과제)의 크레딧과 Thulium에 더해집니다.
 - **정거장 미션과 도전 과제는 레벨 미션처럼 지급됩니다.** 표에 인쇄된 수치는 **기본값**입니다. 도전 과제는 레벨 미션처럼 수행한 월드를 기준으로 지급됩니다(두 월드에 걸쳤다면 더 낮은 쪽). 정거장 미션에는 자체 월드가 없으며, 수령할 때 비행 중인 월드를 기준으로 지급됩니다.
-- **예시.** **Seeker 재앙**(도전 과제)의 기본값은 크레딧 1,100,000, Thulium 8,260, 경험치 31,500, 명예 3,060입니다. 아무것도 켜지 않고 Gamma에서 수행해 수령하면 다음을 지급합니다. 크레딧 3,300,000, Thulium 24,780, 경험치 94,500, 명예 9,180. 클랜의 크레딧·Thulium 부스트가 최대(각각 +10%)라면 다음과 같습니다. 크레딧 3,630,000, Thulium 27,258.
+- **예시.** **Seeker 재앙**(도전 과제)의 기본값은 크레딧 1,100,000, Thulium 8,260, 경험치 157,500, 명예 3,060입니다. 아무것도 켜지 않고 Gamma에서 수행해 수령하면 다음을 지급합니다. 크레딧 3,300,000, Thulium 24,780, 경험치 472,500, 명예 9,180. 클랜의 크레딧·Thulium 부스트가 최대(각각 +10%)라면 다음과 같습니다. 크레딧 3,630,000, Thulium 27,258.
 - **클랜 은행의 한도.** 보상이 아무리 커도, 파일럿이 24시간 동안 [클랜](/wiki/03-Mechanics/Clans.md#2-donations)에 보낼 수 있는 금액은 최대 크레딧 1,000,000입니다.
 - **아이템과 부스터 시간은 모든 월드에서 같습니다.** 아이템은 인벤토리로 들어가고, 부스터 시간은 그 부스터의 남은 시간에 더해지며, 탄약은 비행 중에 보상을 받더라도 바로 발사할 수 있습니다.
 - **아이템은 거래 가능합니다.** 미션이 아이템으로 주는 보상(장비, 탄약, 로켓, 재료, Reinforced Plate)은 레벨 5부터 [경매장](/wiki/03-Mechanics/Auction.md#marketable-items)에서 팔 수 있습니다. 도전 미션은 장비를 주지 않습니다. 그 아이템은 재료와 Reinforced Plate입니다.
@@ -431,7 +436,7 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 ### 도전 과제 {#challenge-missions-table}
 
-레벨 3 이상의 파일럿을 위한 미션 50개, 총 경험치 6,784,000. 보상은 미션마다 한 번씩만 지급됩니다. 표의 수치는 기본값이며, 월드 보너스, 부스터, 프리미엄 경험치, 클랜 부스트가 레벨 미션과 똑같이 더해집니다.
+레벨 3 이상의 파일럿을 위한 미션 50개, 총 경험치 33,920,000. 보상은 미션마다 한 번씩만 지급됩니다. 표의 수치는 기본값이며, 월드 보너스, 부스터, 프리미엄 경험치, 클랜 부스트가 레벨 미션과 똑같이 더해집니다.
 
 #### 티어 1 · 시험장 {#challenge-tier-1}
 
@@ -439,16 +444,16 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 | 미션 | 의뢰자 | 과제 | 제한 시간 | 경험치 | 크레딧 | Thulium | 명예 | 아이템 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 재앙 | 전투 | Seeker 1,000기 파괴 | – | 31,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster, 5시간 |
-| Phantasm 해일 | 전투 | Phantasm 1,000기 파괴 | – | 65,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5시간 |
-| Bulwark의 벽 | 전투 | Bulwark 150기 파괴 | – | 103,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
-| 무피해 | 작전 | x-3에서 Phantasm 25기 파괴 (선체 손실 최대 39,000 포인트) | – | 44,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II, 5시간 |
-| 둥지 솎아내기 | 전투 | Boss Seeker 40기 파괴 (시즌 4일째부터) | – | 11,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster, 3시간 |
-| 척후병 솎아내기 | 전투 | Pirate Scout 40기 파괴 (시즌 4일째부터) | – | 27,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II, 5시간 |
-| 강철 철야 | 정찰 | x-3에서 45분 연속 머무르기 | – | 37,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5시간 |
-| 중앙의 시련 | 정찰 | x-4에서 8,000 / 4,500 지점으로 비행 → x-4에서 Bulwark 4기 파괴 → DS-x에서 6,000 / 4,500 지점으로 비행 → DS-x에서 26,000 / 4,500 지점으로 비행 → x-4에서 6,500 / 2,200 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 (미션 전체: 격추되지 않을 것) | – | 28,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
-| 호송 | 작전 | x-4에서 Bulwark 5기 파괴 → x-4의 9,500 / 6,200 지점에서 Convoy Core을(를) Mission Control로 가져오기 (선체 손실 최대 17,000 포인트) (격추되지 않을 것) | – | 74,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
-| 한 시간에 백 마리 | 작전 | x-3에서 Phantasm 100기 파괴 | 1시간 | 13,000 | 385,000 | 2,890 | 1,070 | Honor Booster, 5시간 |
+| Seeker 재앙 | 전투 | Seeker 1,000기 파괴 | – | 157,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster, 5시간 |
+| Phantasm 해일 | 전투 | Phantasm 1,000기 파괴 | – | 327,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5시간 |
+| Bulwark의 벽 | 전투 | Bulwark 150기 파괴 | – | 515,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
+| 무피해 | 작전 | x-3에서 Phantasm 25기 파괴 (선체 손실 최대 39,000 포인트) | – | 220,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II, 5시간 |
+| 둥지 솎아내기 | 전투 | Boss Seeker 40기 파괴 (시즌 4일째부터) | – | 55,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster, 3시간 |
+| 척후병 솎아내기 | 전투 | Pirate Scout 40기 파괴 (시즌 4일째부터) | – | 137,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II, 5시간 |
+| 강철 철야 | 정찰 | x-3에서 45분 연속 머무르기 | – | 187,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5시간 |
+| 중앙의 시련 | 정찰 | x-4에서 8,000 / 4,500 지점으로 비행 → x-4에서 Bulwark 4기 파괴 → DS-x에서 6,000 / 4,500 지점으로 비행 → DS-x에서 26,000 / 4,500 지점으로 비행 → x-4에서 6,500 / 2,200 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 (미션 전체: 격추되지 않을 것) | – | 140,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
+| 호송 | 작전 | x-4에서 Bulwark 5기 파괴 → x-4의 9,500 / 6,200 지점에서 Convoy Core을(를) Mission Control로 가져오기 (선체 손실 최대 17,000 포인트) (격추되지 않을 것) | – | 372,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
+| 한 시간에 백 마리 | 작전 | x-3에서 Phantasm 100기 파괴 | 1시간 | 65,000 | 385,000 | 2,890 | 1,070 | Honor Booster, 5시간 |
 
 #### 티어 2 · 철의 국경 {#challenge-tier-2}
 
@@ -456,16 +461,16 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 | 미션 | 의뢰자 | 과제 | 제한 시간 | 경험치 | 크레딧 | Thulium | 명예 | 아이템 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 역병 | 전투 | Seeker 2,500기 파괴 | – | 52,000 | 520,000 | 3,900 | 0 | Power Core ×8, Experience Booster, 6시간 |
-| Phantasm 홍수 | 전투 | Phantasm 2,500기 파괴 | – | 85,500 | 855,000 | 6,420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I, 6시간 |
-| Bulwark 폭풍 | 전투 | Bulwark 400기 파괴 | – | 71,500 | 1,255,000 | 9,405 | 0 | Cataclysite ×40 |
-| Goombah 사냥 | 전투 | Goombah 100기 파괴 | – | 58,500 | 1,135,000 | 8,495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4시간 |
-| 둥지 솎아내기 II | 전투 | Boss Seeker 100기 파괴 (시즌 4일째부터) | – | 20,000 | 200,000 | 1,485 | 0 | Power Core ×6, Resource Magnet Booster, 6시간 |
-| 척후병 솎아내기 II | 전투 | Pirate Scout 120기 파괴 (시즌 4일째부터) | – | 25,500 | 290,000 | 2,165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6시간 |
-| 해적 청산 | 전투 | Pirate Boss 3기 파괴 (시즌 4일째부터) | – | 11,000 | 285,000 | 2,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6시간 |
-| 강철 철야 II | 정찰 | x-4에서 90분 연속 머무르기 | – | 57,500 | 575,000 | 4,320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6시간 |
-| 호송 II | 작전 | x-4에서 Bulwark 8기 파괴 → x-4의 12,500 / 6,000 지점에서 Iron Core을(를) Mission Control로 가져오기 (선체 손실 최대 17,000 포인트) (격추되지 않을 것) | – | 70,500 | 735,000 | 5,520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8시간 |
-| 무피해 II | 작전 | x-4에서 Bulwark 15기 파괴 (선체 손실 최대 60,000 포인트) | – | 19,000 | 350,000 | 2,615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8시간 |
+| Seeker 역병 | 전투 | Seeker 2,500기 파괴 | – | 260,000 | 3,025,000 | 22,715 | 0 | Power Core ×47, Experience Booster, 6시간 |
+| Phantasm 홍수 | 전투 | Phantasm 2,500기 파괴 | – | 427,500 | 4,415,000 | 33,100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I, 6시간 |
+| Bulwark 폭풍 | 전투 | Bulwark 400기 파괴 | – | 357,500 | 7,660,000 | 57,450 | 0 | Cataclysite ×245 |
+| Goombah 사냥 | 전투 | Goombah 100기 파괴 | – | 292,500 | 5,745,000 | 43,090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4시간 |
+| 둥지 솎아내기 II | 전투 | Boss Seeker 100기 파괴 (시즌 4일째부터) | – | 100,000 | 980,000 | 7,315 | 0 | Power Core ×30, Resource Magnet Booster, 6시간 |
+| 척후병 솎아내기 II | 전투 | Pirate Scout 120기 파괴 (시즌 4일째부터) | – | 127,500 | 1,405,000 | 10,465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6시간 |
+| 해적 청산 | 전투 | Pirate Boss 3기 파괴 (시즌 4일째부터) | – | 55,000 | 425,000 | 3,980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6시간 |
+| 강철 철야 II | 정찰 | x-4에서 90분 연속 머무르기 | – | 287,500 | 1,190,000 | 8,870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6시간 |
+| 호송 II | 작전 | x-4에서 Bulwark 8기 파괴 → x-4의 12,500 / 6,000 지점에서 Iron Core을(를) Mission Control로 가져오기 (선체 손실 최대 17,000 포인트) (격추되지 않을 것) | – | 352,500 | 1,185,000 | 8,875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8시간 |
+| 무피해 II | 작전 | x-4에서 Bulwark 15기 파괴 (선체 손실 최대 60,000 포인트) | – | 95,000 | 945,000 | 7,050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8시간 |
 
 #### 티어 3 · 중심부 {#challenge-tier-3}
 
@@ -473,16 +478,16 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 | 미션 | 의뢰자 | 과제 | 제한 시간 | 경험치 | 크레딧 | Thulium | 명예 | 아이템 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah의 재앙 | 전투 | Goombah 250기 파괴 | – | 134,500 | 2,380,000 | 17,855 | 0 | Cataclysite ×50, Experience Booster, 8시간 |
-| Bulwark 전염병 | 전투 | Bulwark 800기 파괴 | – | 132,000 | 2,080,000 | 15,615 | 0 | Power Core ×10, Laser Damage Booster I, 8시간 |
-| Phantasm 대양 | 전투 | Phantasm 5,000기 파괴 | – | 180,000 | 1,800,000 | 13,500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8시간 |
-| Crystalys 시험 | 전투 | Crystalys 10기 파괴 | – | 18,000 | 250,000 | 1,880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5시간 |
-| 해적의 파멸 | 전투 | Pirate Boss 10기 파괴 (시즌 4일째부터) | – | 29,000 | 775,000 | 5,805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8시간 |
-| Dormant의 새벽 | 전투 | Dormant Force 3기 파괴 (시즌 4일째부터) | – | 46,000 | 750,000 | 5,625 | 0 | Cataclysite ×40, Shield Wall Booster I, 8시간 |
-| 중앙 감시 | 정찰 | DS-x에서 60분 연속 머무르기 | – | 98,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8시간 |
-| 네 모서리 | 정찰 | DS-x에서 3,000 / 3,000 지점으로 비행 → DS-x에서 29,000 / 3,000 지점으로 비행 → DS-x에서 29,000 / 15,000 지점으로 비행 → DS-x에서 3,000 / 15,000 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 (미션 전체: 선체 손실 최대 104,000 포인트) (미션 전체: 격추되지 않을 것) | – | 98,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10시간 |
-| 호송 III | 작전 | x-4에서 Goombah 4기 파괴 → x-4의 13,000 / 3,000 지점에서 Centre Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 119,000 | 1,260,000 | 9,460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
-| 무피해 III | 작전 | x-4에서 Goombah 8기 파괴 (선체 손실 최대 350,000 포인트) | – | 32,500 | 740,000 | 5,550 | 0 | Power Core ×8, Laser Damage Booster II, 10시간 |
+| Goombah의 재앙 | 전투 | Goombah 250기 파괴 | – | 672,500 | 13,335,000 | 100,000 | 0 | Cataclysite ×281, Experience Booster, 8시간 |
+| Bulwark 전염병 | 전투 | Bulwark 800기 파괴 | – | 660,000 | 13,330,000 | 100,000 | 0 | Power Core ×65, Laser Damage Booster I, 8시간 |
+| Phantasm 대양 | 전투 | Phantasm 5,000기 파괴 | – | 900,000 | 9,715,000 | 72,815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8시간 |
+| Crystalys 시험 | 전투 | Crystalys 10기 파괴 | – | 90,000 | 3,160,000 | 12,640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5시간 |
+| 해적의 파멸 | 전투 | Pirate Boss 10기 파괴 (시즌 4일째부터) | – | 145,000 | 1,560,000 | 14,585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8시간 |
+| Dormant의 새벽 | 전투 | Dormant Force 3기 파괴 (시즌 4일째부터) | – | 230,000 | 1,260,000 | 6,310 | 0 | Cataclysite ×54, Shield Wall Booster I, 8시간 |
+| 중앙 감시 | 정찰 | DS-x에서 60분 연속 머무르기 | – | 490,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8시간 |
+| 네 모서리 | 정찰 | DS-x에서 3,000 / 3,000 지점으로 비행 → DS-x에서 29,000 / 3,000 지점으로 비행 → DS-x에서 29,000 / 15,000 지점으로 비행 → DS-x에서 3,000 / 15,000 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 (미션 전체: 선체 손실 최대 104,000 포인트) (미션 전체: 격추되지 않을 것) | – | 490,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10시간 |
+| 호송 III | 작전 | x-4에서 Goombah 4기 파괴 → x-4의 13,000 / 3,000 지점에서 Centre Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 595,000 | 1,305,000 | 9,765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
+| 무피해 III | 작전 | x-4에서 Goombah 8기 파괴 (선체 손실 최대 350,000 포인트) | – | 162,500 | 1,040,000 | 7,755 | 0 | Power Core ×12, Laser Damage Booster II, 10시간 |
 
 #### 티어 4 · 심연 {#challenge-tier-4}
 
@@ -490,16 +495,16 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 | 미션 | 의뢰자 | 과제 | 제한 시간 | 경험치 | 크레딧 | Thulium | 명예 | 아이템 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys 소탕 | 전투 | Crystalys 50기 파괴 | – | 122,000 | 2,575,000 | 19,320 | 0 | Cataclysite ×60, Experience Booster, 10시간 |
-| Goombah 궤멸 | 전투 | Goombah 500기 파괴 | – | 233,500 | 3,345,000 | 25,105 | 0 | Power Core ×12, Laser Damage Booster I, 10시간 |
-| 해적의 종말 | 전투 | Pirate Boss 25기 파괴 (시즌 4일째부터) | – | 99,500 | 2,445,000 | 18,325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6시간 |
-| Dormant의 황혼 | 전투 | Dormant Force 10기 파괴 (시즌 4일째부터) | – | 180,500 | 2,770,000 | 20,780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10시간 |
-| 가장자리 순회 | 정찰 | DS-4에서 16,000 / 5,300 지점으로 비행 → DS-4에서 19,700 / 9,000 지점으로 비행 → DS-4에서 16,000 / 12,700 지점으로 비행 → DS-4에서 12,300 / 9,000 지점으로 비행 (미션 전체: 선체 손실 최대 76,000 포인트) (미션 전체: 격추되지 않을 것) | – | 162,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10시간 |
-| 가장자리 철야 | 정찰 | DS-4에서 90분 연속 머무르기 | – | 162,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10시간 |
-| 적지 | 정찰 | rival x-4에서 120분 연속 머무르기 | – | 343,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10시간 |
-| 심연의 호송 | 작전 | x-4에서 Goombah 6기 파괴 → x-4의 12,800 / 6,800 지점에서 Abyss Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 198,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
-| 무피해 IV | 작전 | x-4에서 Crystalys 3기 파괴 (선체 손실 최대 480,000 포인트) | – | 61,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10시간 |
-| Bulwark의 바다 | 전투 | Bulwark 2,000기 파괴 | – | 318,500 | 4,735,000 | 35,500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10시간 |
+| Crystalys 소탕 | 전투 | Crystalys 50기 파괴 | – | 610,000 | 17,370,000 | 69,515 | 0 | Cataclysite ×292, Experience Booster, 10시간 |
+| Goombah 궤멸 | 전투 | Goombah 500기 파괴 | – | 1,167,500 | 13,330,000 | 100,000 | 0 | Power Core ×48, Laser Damage Booster I, 10시간 |
+| 해적의 종말 | 전투 | Pirate Boss 25기 파괴 (시즌 4일째부터) | – | 497,500 | 4,285,000 | 40,110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6시간 |
+| Dormant의 황혼 | 전투 | Dormant Force 10기 파괴 (시즌 4일째부터) | – | 902,500 | 4,610,000 | 23,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10시간 |
+| 가장자리 순회 | 정찰 | DS-4에서 16,000 / 5,300 지점으로 비행 → DS-4에서 19,700 / 9,000 지점으로 비행 → DS-4에서 16,000 / 12,700 지점으로 비행 → DS-4에서 12,300 / 9,000 지점으로 비행 (미션 전체: 선체 손실 최대 76,000 포인트) (미션 전체: 격추되지 않을 것) | – | 810,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10시간 |
+| 가장자리 철야 | 정찰 | DS-4에서 90분 연속 머무르기 | – | 810,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10시간 |
+| 적지 | 정찰 | rival x-4에서 120분 연속 머무르기 | – | 1,717,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10시간 |
+| 심연의 호송 | 작전 | x-4에서 Goombah 6기 파괴 → x-4의 12,800 / 6,800 지점에서 Abyss Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 990,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
+| 무피해 IV | 작전 | x-4에서 Crystalys 3기 파괴 (선체 손실 최대 480,000 포인트) | – | 305,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10시간 |
+| Bulwark의 바다 | 전투 | Bulwark 2,000기 파괴 | – | 1,592,500 | 13,330,000 | 100,000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10시간 |
 
 #### 티어 5 · 전설 {#challenge-tier-5}
 
@@ -507,16 +512,16 @@ Skylab에 관한 미션 10개, 총 경험치 8,300. 표의 수치는 기본값�
 
 | 미션 | 의뢰자 | 과제 | 제한 시간 | 경험치 | 크레딧 | Thulium | 명예 | 아이템 |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 일만 마리 | 전투 | Seeker 10,000기 파괴 | – | 322,500 | 5,700,000 | 42,755 | 0 | Power Core ×15, Experience Booster, 10시간 |
-| Phantasm 일만 마리 | 전투 | Phantasm 10,000기 파괴 | – | 420,000 | 4,200,000 | 31,500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I, 10시간 |
-| Goombah 군단 | 전투 | Goombah 1,000기 파괴 | – | 467,500 | 6,700,000 | 50,250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10시간 |
-| Crystalys의 치세 | 전투 | Crystalys 150기 파괴 | – | 365,500 | 7,725,000 | 57,925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10시간 |
-| Dormant의 지배 | 전투 | Dormant Force 25기 파괴 (시즌 4일째부터) | – | 394,000 | 6,350,000 | 47,605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10시간 |
-| 해적의 왕좌 | 전투 | Pirate Boss 60기 파괴 (시즌 4일째부터) | – | 191,000 | 5,325,000 | 39,925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10시간 |
-| 마지막 철야 | 정찰 | DS-x에서 180분 연속 머무르기 | – | 338,000 | 3,380,000 | 25,355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10시간 |
-| 호송 제로 | 작전 | x-4에서 Goombah 8기 파괴 → x-4에서 Crystalys 1기 파괴 → x-4의 13,600 / 4,400 지점에서 Zero Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 252,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
-| 무피해 제로 | 작전 | x-4에서 Goombah 20기 파괴 (선체 손실 최대 556,000 포인트) | – | 87,000 | 1,540,000 | 11,555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10시간 |
-| 전선의 수호자 | 작전 | x-4에서 Goombah 400기 파괴 → x-4에서 Crystalys 30기 파괴 → x-4에서 60분 연속 머무르기 → rival x-4에서 8,000 / 4,500 지점으로 비행 → DS-x에서 26,000 / 4,500 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 | – | 272,500 | 4,730,000 | 35,460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II, 10시간 |
+| Seeker 일만 마리 | 전투 | Seeker 10,000기 파괴 | – | 1,612,500 | 13,325,000 | 100,000 | 0 | Power Core ×36, Experience Booster, 10시간 |
+| Phantasm 일만 마리 | 전투 | Phantasm 10,000기 파괴 | – | 2,100,000 | 13,340,000 | 100,000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10시간 |
+| Goombah 군단 | 전투 | Goombah 1,000기 파괴 | – | 2,337,500 | 13,330,000 | 100,000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10시간 |
+| Crystalys의 치세 | 전투 | Crystalys 150기 파괴 | – | 1,827,500 | 24,990,000 | 100,000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10시간 |
+| Dormant의 지배 | 전투 | Dormant Force 25기 파괴 (시즌 4일째부터) | – | 1,970,000 | 12,670,000 | 63,590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10시간 |
+| 해적의 왕좌 | 전투 | Pirate Boss 60기 파괴 (시즌 4일째부터) | – | 955,000 | 10,680,000 | 100,000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10시간 |
+| 마지막 철야 | 정찰 | DS-x에서 180분 연속 머무르기 | – | 1,690,000 | 3,560,000 | 26,735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10시간 |
+| 호송 제로 | 작전 | x-4에서 Goombah 8기 파괴 → x-4에서 Crystalys 1기 파괴 → x-4의 13,600 / 4,400 지점에서 Zero Core을(를) Mission Control로 가져오기 (선체 손실 최대 46,000 포인트) (격추되지 않을 것) | – | 1,260,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10시간 |
+| 무피해 제로 | 작전 | x-4에서 Goombah 20기 파괴 (선체 손실 최대 556,000 포인트) | – | 435,000 | 1,740,000 | 13,055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10시간 |
+| 전선의 수호자 | 작전 | x-4에서 Goombah 400기 파괴 → x-4에서 Crystalys 30기 파괴 → x-4에서 60분 연속 머무르기 → rival x-4에서 8,000 / 4,500 지점으로 비행 → DS-x에서 26,000 / 4,500 지점으로 비행 → x-1에서 1,500 / 1,500 지점으로 비행 | – | 1,362,500 | 15,220,000 | 100,000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10시간 |
 
 
 <!-- quests:end -->

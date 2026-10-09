@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Бустеры -->
 # Бустеры {#boosters}
 
@@ -60,7 +60,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 | **Loot Luck Booster** | Легендарный | +5% к шансу выпадения редкой добычи с NPC | 30 000 |
 
 > [!NOTE]
-> **Бустер или усилитель?** Это разные вещи. У каждого бустера в названии есть **Booster**, он работает по таймеру, и вставлять в него нечего: **Laser Damage Booster I** и **Laser Damage Booster II** дают +10% к урону лазеров на 10 часов, из магазина или из Сборочного цеха. **Damage Amp**, **Crit Amp** и **Penetration Amp** (ступени I–IV) — лазерные усилители: модули, которые вставляются в слот усилителя лазера, без таймера ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). До 0.4.12 бустеры назывались Damage Amp и Damage Amp II, Shield Wall и Shield Wall II, Hull Plating и Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet и Loot Luck; те, что у вас шли, продолжили идти под новыми названиями.
+> **Бустер или усилитель?** Это разные вещи. У каждого бустера в названии есть **Booster**, он работает по таймеру, и вставлять в него нечего: **Laser Damage Booster I** и **Laser Damage Booster II** дают +10% к урону лазеров на 10 часов, из магазина или из Сборочного цеха. **Damage Amp**, **Crit Amp** и **Penetration Amp** (ступени I–IV) — лазерные усилители: модули, которые вставляются в слот усилителя лазера, без таймера ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). До 0.4.12 бустеры назывались Damage Amp и Damage Amp II, Shield Wall и Shield Wall II, Hull Plating и Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet и Loot Luck; те, что у вас шли, продолжили идти под новыми названиями. Hull Plating **Booster** — не та броня **Hull Plating**, что устанавливается в слоты брони корабля ([Броня корпуса](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

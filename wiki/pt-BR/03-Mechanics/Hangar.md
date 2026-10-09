@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c17f4775a1e2000 -->
+<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -18,13 +18,14 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 
 ## O que você pode mudar {#what-you-can-change}
 
-- **Equipar e desequipar qualquer coisa**, em todo tipo de slot: lasers, geradores (escudos, motores, núcleos adaptativos), extras, slots de habilidade e slots de drone, além dos amplificadores, células e propulsores encaixados neles. Arraste os itens para os slots, ou clique neles, exatamente como na estação. Sua nave acompanha na hora: atributos, lasers, habilidades e barra de atalhos.
+- **Equipar e desequipar qualquer coisa**, em todo tipo de slot: lasers, geradores (escudos, motores, núcleos adaptativos), extras, slots de habilidade, slots de drone e slots de blindagem, além dos amplificadores, células e propulsores encaixados neles. Arraste os itens para os slots, ou clique neles, exatamente como na estação. Sua nave acompanha na hora: atributos, lasers, habilidades e barra de atalhos.
 - **Desequipar tudo.** O botão **Desequipar tudo** da barra de ferramentas do Hangar esvazia de uma vez a configuração mostrada na visão **Nave**: os lasers, escudos, motores, núcleos adaptativos, extras e slots de habilidade **e os lasers e escudos nos slots dos seus drones**, com os amplificadores, células e propulsores encaixados neles. Tudo volta para o seu inventário, tudo ou nada. Seus **drones continuam seus** (um drone nunca é equipado em uma nave, então não há nada a tirar dele) e a **formação de drones** que você usa continua ativa. A outra configuração não é tocada. Em voo valem as regras de qualquer mudança: a partir de uma zona segura, fora de combate. A visão **Drones** tem um botão próprio que esvazia só os slots dos drones.
 - **Qualquer uma das duas configurações.** Você pode preparar a configuração 2 enquanto voa com a configuração 1 e depois trocar com a tecla Trocar config. Um botão **Voar com config.** no hangar faz a mesma troca.
 - **Qualquer nave.** Ative outra nave e você voa com ela de onde está. O modelo da sua nave muda diante de todos que estão por perto.
 - **Um novo escudo, motor ou núcleo adaptativo começa vazio**, como na estação: a carga de escudo da configuração fica vazia até recarregar.
 - **Formações de drones.** A tela Drones lista sob os seus drones as formações que você tem. Elas não são equipadas: em voo você arrasta uma da lista de Formações da barra de atalhos para um slot, e o clique ou a tecla desse slot a usa, com a mesma espera de 2 segundos de qualquer lugar, inclusive dentro de uma zona segura ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** As quatro naves comuns, Protos, Kitefin, Ostirion e Nomad (as com que você começa ou que compra), têm 2 slots extras por configuração; as quatro naves que você fabrica na Montagem, Paragon, Ironclad, Wraith e Storm, têm 3. As Extra Slots CPUs do seu Skylab dão 3, 5 ou 7 a mais: 5, 7 ou 9 nas comuns e 6, 8 ou 10 nas fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Com a 0.4.10, um terceiro extra em uma nave comum foi desequipado e foi para o seu inventário: nada foi apagado, e você recebeu uma mensagem no chat.
+- **Blindagem de casco.** As quatro naves que você fabrica têm [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para a blindagem de casco, cada um bloqueado até você pesquisá-lo no Skylab. Uma blindagem que você encaixa ou tira mantém a sua proporção de casco, e continua encaixada quando você troca de configuração.
 
 Vender não faz parte da janela: o martelo que abre o [Leilão](/wiki/03-Mechanics/Auction.md) pertence ao Hangar da estação, e o próprio Leilão é uma página da estação.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: Velocidade -->
 # Cálculo da velocidade {#speed-calculation}
 
@@ -9,6 +9,8 @@ A velocidade determina a rapidez com que a sua nave se move no mapa espacial, pe
 A velocidade final da sua nave é calculada no servidor com a seguinte fórmula:
 
 \[\text{Velocidade final} = (\text{Velocidade base da nave} + \text{Velocidade total dos motores}) \times (1,0 + \text{Percentual total de bônus de velocidade})\]
+
+Um [design de nave](/wiki/03-Mechanics/Ship-Designs.md) muda o primeiro termo (o THUNDER tem 40 de velocidade base a mais, o DUMA 20 a menos), e o NOTSUM e o RECON multiplicam a velocidade final por mais um fator, +2% e +5%.
 
 ### 1. Velocidade efetiva do motor {#1-effective-engine-speed}
 

@@ -17,7 +17,7 @@ Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdo
 | **Tech Surge** | Days 11–18 | Event 2 | No special effects yet: yields and aliens are the same as in any other phase. |
 | **War Games** | Days 19–25 | Event 3 | No special effects yet: PvP works as in every phase after the Peace Protocol. |
 | **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete and lock their carrying cargo before the eruption. |
-| **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn. Pilots move to the world they chose as their destination for the next season. |
+| **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn, and every [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) is disbanded. Pilots move to the world they chose as their destination for the next season. |
 
 Apart from the wipe itself, only three things follow the calendar: the Peace Protocol (days 1–3) changes a rule, from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe, and the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) charges no fees from day 28 and is closed from day 30. The four events are named phases of the season: they show on the game's Season page and Dashboard, but none of them gives special rewards, spawns or bonuses of its own yet.
 
@@ -73,7 +73,7 @@ Before the season ends, you must click **Confirm & Lock** in the Materializer in
 
 ## Worlds: Alpha, Beta and Gamma
 
-SpaceCorps runs three **worlds**. Each one is a separate copy of the whole galaxy: every sector, with its own aliens, [company pilots](/wiki/03-Mechanics/Company-Pilots.md), cargo, chat and pilots. You fly only in your own world and meet only its pilots; your account, items, clan and the leaderboards are shared by all three.
+SpaceCorps runs three **worlds**. Each one is a separate copy of the whole galaxy: every sector, with its own aliens, [company pilots](/wiki/03-Mechanics/Company-Pilots.md), cargo, chat and pilots. You fly only in your own world and meet only its pilots; your account, items and the pilot leaderboards are shared by all three. A clan belongs to one world, takes only its pilots and is disbanded at the wipe ([Clans and Worlds](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | World | Risk | Alien strength | Kill and quest pay | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -100,7 +100,7 @@ How the worlds work:
 
 The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever, except the level missions that update 0.4.10 reworked: 64 of them are offered once more ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clans and ranks.** A clan's points, boost levels and daily lines start again at every wipe, so every season is a new race to full boosts; the clan itself, its members, its bank and its tax stay ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Your PvE ranking points stay too, so a wipe does not move you on your company's ladder: your rank follows your place there, not the season ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clans and ranks.** The wipe disbands every clan, with its Fleet Treasury, posts, log, treaties, points and boost levels, so every season is a new race to found a clan and fill its boosts; the credits a clan has paid you stay, and so does your donation allowance ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Leaders and Co-Leaders: pay the Fleet Treasury out before the countdown ends. Your PvE ranking points stay too, so a wipe does not move you on your company's ladder: your rank follows your place there, not the season ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### The Permanent Buff Store
 You can spend your accrued WP on permanent buffs that carry over across all seasons forever. These buffs stack and provide significant passive bonuses:

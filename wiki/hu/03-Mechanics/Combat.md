@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c31c5f3aa8e72d85 -->
+<!-- wiki-i18n source: 0c1a854ca2f3f87c -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -116,10 +116,10 @@ Amikor a hajódat egy ellenség vagy NPC eltalálja, a sebzés a következőkép
 
 A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **átlagos elnyelése** szerint: a pajzsaid elnyelésének átlaga, mindegyik a pajzscelláival együtt, plusz a Szezonbolt Shield Absorbance Boost buffja (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)). **Nincs 100%-ra korlátozva**: az, amit a pajzsok egy találatból felfognak, az elnyelésed **mínusz a támadó pajzsáthatolása**, 0% és 100% között.
 - Minden találatnak az **elnyelés** (pl. 80% a legjobb pajzsnál a legjobb cellákkal, 56% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 45%-ot hagy a pajzsokon egy 80%-os hajónál, a többi (itt 55%) pedig közvetlenül az életerőt éri.
-- A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+2% és +8% között foglalatonként) és egy drónformáció hozzáadódnak: egy lézertalálat 50%-nál megáll, egy rakéta 40%-nál.
+- A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+2% és +8% között foglalatonként) és egy drónformáció hozzáadódnak, és semmi sem korlátozza az összeget.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.
-- **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 6%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+9 pont) és a Stiletto (+16) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, összesen legfeljebb 40%-ig ([Drónformációk](/wiki/03-Mechanics/Formations.md)). Lézer esetén az összeg 50%-ig megy, és az erősítői is beleszámítanak.
+- **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 6%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+9 pont) és a Stiletto (+16) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, felső határ nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)). Lézer esetén az erősítői is beleszámítanak.
 
 ### 2. Sebezhetetlenség a biztonságos zónában {#2-safe-zone-immunity}
 

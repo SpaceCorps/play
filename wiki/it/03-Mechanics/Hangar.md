@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c17f4775a1e2000 -->
+<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -18,13 +18,14 @@ Le riparazioni in corso non ti fermano. In qualsiasi altro posto la finestra Han
 
 ## Cosa puoi cambiare {#what-you-can-change}
 
-- **Equipaggia e rimuovi qualsiasi cosa**, in ogni tipo di slot: laser, generatori (scudi, motori, Nuclei adattivi), extra, slot abilità e slot drone, e gli amp, le celle e i propulsori montati al loro interno. Trascina gli oggetti sugli slot, o cliccaci sopra, esattamente come alla stazione. La tua nave si adegua subito: statistiche, laser, abilità e barra rapida.
+- **Equipaggia e rimuovi qualsiasi cosa**, in ogni tipo di slot: laser, generatori (scudi, motori, Nuclei adattivi), extra, slot abilità, slot drone e slot corazza, e gli amp, le celle e i propulsori montati al loro interno. Trascina gli oggetti sugli slot, o cliccaci sopra, esattamente come alla stazione. La tua nave si adegua subito: statistiche, laser, abilità e barra rapida.
 - **Rimuovi tutto.** Il pulsante **Rimuovi tutto** nella barra degli strumenti dell’Hangar svuota in un colpo la configurazione mostrata nella vista **Astronave**: laser, scudi, motori, Nuclei adattivi, extra e slot abilità **e i laser e gli scudi negli slot dei tuoi droni**, con gli amp, le celle e i propulsori montati al loro interno. Tutto torna nel tuo inventario, tutto o niente. I tuoi **droni restano tuoi** (un drone non viene mai montato su una nave, quindi non c’è nulla da togliere) e la **formazione di droni** che indossi resta addosso. L’altra configurazione non viene toccata. In volo valgono le regole di ogni modifica: da una zona sicura, fuori dal combattimento. La vista **Droni** ha un pulsante tutto suo che svuota solo gli slot dei droni.
 - **Entrambe le configurazioni.** Puoi preparare la Config 2 mentre voli con la Config 1, poi passare all’altra con il tasto Cambia conf.; un pulsante **Usa config** nell’Hangar fa lo stesso cambio.
 - **Qualsiasi nave.** Imposta attiva un’altra nave e voli con essa da dove ti trovi. Il modello della tua nave cambia davanti a tutti quelli nelle vicinanze.
 - **Un nuovo scudo, motore o Nucleo adattivo parte vuoto**, come alla stazione: la carica di scudo della sua configurazione è vuota finché non si ricarica.
 - **Formazioni di droni.** La vista Droni elenca sotto i tuoi droni le formazioni che possiedi. Non si montano: in volo ne trascini una dall’elenco Formazioni della barra rapida su uno slot, e il clic o il tasto di quello slot la indossa, con la stessa attesa di 2 secondi di ovunque, zona sicura compresa ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)).
 - **Extra.** Le quattro navi normali, Protos, Kitefin, Ostirion e Nomad (quelle con cui inizi o che compri), hanno 2 slot extra per configurazione; le quattro navi che costruisci all’Assemblaggio, Paragon, Ironclad, Wraith e Storm, ne hanno 3. Le Extra Slots CPU del tuo Skylab ne aggiungono 3, 5 o 7: quindi 5, 7 o 9 sulle normali e 6, 8 o 10 su quelle costruite ([Extra](/wiki/06-Items/Extras.md#extra-slots-cpus)). Con la 0.4.10, un terzo extra su una nave normale è stato rimosso e messo nel tuo inventario: non è stato cancellato nulla, e hai ricevuto un messaggio in chat.
+- **Corazza dello scafo.** Le quattro navi che costruisci hanno [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la corazza dello scafo, ciascuno bloccato finché non lo ricerchi nello Skylab. Una corazza che monti o smonti mantiene la tua quota di scafo, e resta montata quando cambi configurazione.
 
 Vendere non fa parte della finestra: il martelletto che apre l’[Asta](/wiki/03-Mechanics/Auction.md) appartiene all’Hangar della stazione, e l’Asta stessa è una pagina della stazione.
 

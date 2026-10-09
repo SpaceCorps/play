@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -60,7 +60,7 @@ Chaque booster dure **10 heures** de base et s’active dès l’achat, la réce
 | **Loot Luck Booster** | Légendaire | +5 % de chance de butin rare sur les PNJ | 30 000 |
 
 > [!NOTE]
-> **Booster ou ampli ?** Ce sont deux choses différentes. Tout booster a **Booster** dans son nom, tourne sur un minuteur et n’a rien à installer : le **Laser Damage Booster I** et le **Laser Damage Booster II** donnent +10 % de dégâts laser pendant 10 heures, en boutique ou à l’Assemblage. Le **Damage Amp**, le **Crit Amp** et le **Penetration Amp** (paliers I à IV) sont des amplificateurs laser : des modules qu’on installe dans l’emplacement d’ampli d’un laser, sans minuteur ([Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Avant 0.4.12, les boosters s’appelaient Damage Amp et Damage Amp II, Shield Wall et Shield Wall II, Hull Plating et Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet et Loot Luck ; ceux que vous aviez en cours ont continué sous leurs nouveaux noms.
+> **Booster ou ampli ?** Ce sont deux choses différentes. Tout booster a **Booster** dans son nom, tourne sur un minuteur et n’a rien à installer : le **Laser Damage Booster I** et le **Laser Damage Booster II** donnent +10 % de dégâts laser pendant 10 heures, en boutique ou à l’Assemblage. Le **Damage Amp**, le **Crit Amp** et le **Penetration Amp** (paliers I à IV) sont des amplificateurs laser : des modules qu’on installe dans l’emplacement d’ampli d’un laser, sans minuteur ([Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Avant 0.4.12, les boosters s’appelaient Damage Amp et Damage Amp II, Shield Wall et Shield Wall II, Hull Plating et Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet et Loot Luck ; ceux que vous aviez en cours ont continué sous leurs nouveaux noms. Le Hull Plating **Booster** n’est pas le blindage **Hull Plating** qui se monte dans les emplacements de blindage d’un vaisseau ([Blindage de coque](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Láseres -->
 # Láseres y munición {#lasers-ammo}
 
@@ -166,12 +166,12 @@ La Siphon Battery es una munición para robar escudos en lugar de romper cascos.
 
 ## Penetración de escudo de un impacto láser {#shield-penetration-of-a-laser-hit}
 
-Cada impacto láser resta puntos a la absorción de tu objetivo, de hasta tres fuentes que se suman: tu **munición** (Ultra Core 5 %, Experimental Fusion Core 10 %), tus **Penetration Amps** y una **formación de drones** (Gemini +9 %, Stiletto +16 %; [Formaciones de drones](/wiki/03-Mechanics/Formations.md)). El total **se detiene en el 50 %** para un láser; el de un cohete directo se detiene en el 40 % ([Cohetes](/wiki/06-Items/Rockets.md)). Los escudos reciben entonces la absorción del objetivo menos la penetración del impacto, y el casco el resto ([Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Cada impacto láser resta puntos a la absorción de tu objetivo, de hasta tres fuentes que se suman: tu **munición** (Ultra Core 5 %, Experimental Fusion Core 10 %), tus **Penetration Amps** y una **formación de drones** (Gemini +9 %, Stiletto +16 %; [Formaciones de drones](/wiki/03-Mechanics/Formations.md)). **Nada limita el total** (un cohete directo suma su propia penetración y la de la formación del mismo modo: [Cohetes](/wiki/06-Items/Rockets.md)). Los escudos reciben entonces la absorción del objetivo menos la penetración del impacto, y el casco el resto ([Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Tus amps cuentan como la media de tus láseres.** Una andanada es un solo impacto, así que el juego suma la penetración de los amps de cada láser (los láseres de tus drones cuentan también) y toma la media de tus láseres, cada uno ponderado por su daño, como hace con la probabilidad de crítico. Tres Penetration Amp IV en cada láser dan 24 %; un Penetration Amp IV en uno de doce láseres da 0,67 %. Un Wraith tiene 12 láseres y 36 ranuras de amp, y hay que llenar las 36 para llegar al 24 %.
-- **El Hangar lo muestra.** Las estadísticas de combate del Hangar tienen un recuadro **Penetración** en cada nave, con la cifra de tus amps (0,0 % sin ningún Penetration Amp); la munición y la formación no entran en ella. Apunta al recuadro para leer los topes: el total de un impacto láser se detiene en el 50 %, el de un cohete en el 40 %.
-- **El mejor láser llega justo al tope.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) y tres Penetration Amp IV en cada láser (24 %) suman 50 %.
-- **Una bonificación de la Forja en un Penetration Amp IV se desperdicia en ese montaje.** Un Penetration Amp se puede forjar como los demás amps, y su única bonificación multiplica la penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 8,7 a 9,2 puntos en lugar de 8. Pero 10 + 16 + 24 ya dan el tope del 50 %, y cada punto de más se recorta (tres Eternos sumarían 53,6 %, recortado a 50 %).
+- **El Hangar lo muestra.** Las estadísticas de combate del Hangar tienen un recuadro **Penetración** en cada nave, con la cifra de los amps láser de la configuración que muestra (0,0 % sin ningún Penetration Amp); la munición y la formación no entran en ella. La ventana **Nave** en vuelo tiene un chip **Penetración** al final de su fila inferior (los chips de configuración y velocidad muestran solo un icono y un número para dejarle sitio): muestra el total de un impacto láser, tus amps, la formación que llevas y la munición que disparas, sumados en cuanto cambias algo, y su sugerencia lista las tres partes.
+- **El mejor láser suma 50 %.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) y tres Penetration Amp IV en cada láser (24 %) suman 50 %.
+- **Una bonificación de la Forja en un Penetration Amp IV cuenta.** Un Penetration Amp se puede forjar como los demás amps, y su única bonificación multiplica la penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 8,7 a 9,2 puntos en lugar de 8. En el mejor montaje, tres Eternos suman 53,6 %, y cada punto cuenta.
 
 | Andanada láser | Munición | Amps (3 ranuras) | Formación | Total |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Lo que eso hace con los escudos del objetivo: cada celda es la parte de un impac
 | El mejor escudo, con Eterno de la Forja (mejor tirada) y la Tienda de temporada en su límite (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Cualquier alienígena (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-El mejor láser vacía un núcleo de escudo sin célula (el casco recibe todo el impacto); un núcleo con una célula conserva una parte de cada impacto, y el mejor escudo conserva el 30 % (45 % con las mejoras). Un cohete nunca vacía un escudo: su tope es el 40 %.
+El mejor láser vacía un núcleo de escudo sin célula (el casco recibe todo el impacto); un núcleo con una célula conserva una parte de cada impacto, y el mejor escudo conserva el 30 % (45 % con las mejoras). Un cohete por sí solo nunca vacía un escudo (35 % como máximo), pero un Lancet III o un Rivet III con un Stiletto (51 %) sí.
 
 ### ¿Cuándo compensa un Penetration Amp una ranura? {#when-is-a-penetration-amp-worth-a-slot}
 

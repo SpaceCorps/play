@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Booster -->
 # Booster {#boosters}
 
@@ -60,7 +60,7 @@ Jeder Booster hat eine Grundlaufzeit von **10 Stunden** und wird sofort beim Kau
 | **Loot Luck Booster** | Legendär | +5 % Chance auf seltene Beute von NPCs | 30.000 |
 
 > [!NOTE]
-> **Booster oder Amp?** Das sind zwei verschiedene Dinge. Jeder Booster hat **Booster** im Namen, läuft auf einem Timer und braucht nichts zum Einsetzen: **Laser Damage Booster I** und **Laser Damage Booster II** geben +10 % Laserschaden für 10 Stunden, aus dem Shop oder aus der Montage. **Damage Amp**, **Crit Amp** und **Penetration Amp** (Stufen I bis IV) sind Laserverstärker: Module, die du in den Verstärker-Slot eines Lasers einsetzt, ohne Timer ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Vor 0.4.12 hießen die Booster Damage Amp und Damage Amp II, Shield Wall und Shield Wall II, Hull Plating und Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet und Loot Luck; die Booster, die bei dir liefen, liefen unter den neuen Namen weiter.
+> **Booster oder Amp?** Das sind zwei verschiedene Dinge. Jeder Booster hat **Booster** im Namen, läuft auf einem Timer und braucht nichts zum Einsetzen: **Laser Damage Booster I** und **Laser Damage Booster II** geben +10 % Laserschaden für 10 Stunden, aus dem Shop oder aus der Montage. **Damage Amp**, **Crit Amp** und **Penetration Amp** (Stufen I bis IV) sind Laserverstärker: Module, die du in den Verstärker-Slot eines Lasers einsetzt, ohne Timer ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Vor 0.4.12 hießen die Booster Damage Amp und Damage Amp II, Shield Wall und Shield Wall II, Hull Plating und Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet und Loot Luck; die Booster, die bei dir liefen, liefen unter den neuen Namen weiter. Der Hull Plating **Booster** ist nicht die Panzerung **Hull Plating**, die in die Panzerungs-Slots eines Schiffs gehört ([Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

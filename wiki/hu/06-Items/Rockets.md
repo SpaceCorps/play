@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
@@ -140,7 +140,7 @@ A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen dolog, 
 - **Újratöltés.** Az Asterism 35%-kal hosszabbra (4,05 másodperc), a Cordon 11%-kal hosszabbra (3,33), a Redoubt 27%-kal rövidebbre (2,19) állítja a közös időzítőt, de soha nem rövidebbre, mint a rakéta repülése plusz egy pillanat. A Redoubt alatt a gyors rakéták (Lancet I, Rivet I és II, Ember I, Scatter I és II) a 2,19 másodpercet várják ki, egy Rivet III 2,3-at, egy Lancet III 2,9-et, egy Ember III a teljes 3-at; a N.U.K.E. és a N.I.K.E. után 4,1, illetve 4,6 másodperc a várakozás, bármit viselsz. A várakozás a kilövéskor dől el, ezért a későbbi formációváltás nem rövidíti, és a rakétahelyek feletti körcikk követi.
 - **A két nagy határai megmaradnak.** A legjobb formációval egy N.I.K.E. legfeljebb 116 250-es találatot ad, amit egy ép Paragon (128 000) túlél, egy N.U.K.E. legfeljebb 77 500-ast, amit egy Goombah (80 000) túlél.
 - **Kitérés.** Az Asterism 7%-os kitérése 7% esélyt ad arra, hogy a rád érkező közvetlen rakéta egyáltalán nem sebez, és a hajód fölött egy lebegő „Mellé” felirat jelenik meg; a területi robbanás nem céloz, és soha nem kerülhető ki.
-- **Átütés.** A Gemini és a Stiletto a pontjaikat egy közvetlen rakéta pajzsáthatolásához adják (a robbanásnak nincs), összesen legfeljebb 40%-ig. Egy lézertalálat 50%-ig mehet ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Átütés.** A Gemini és a Stiletto a pontjaikat egy közvetlen rakéta pajzsáthatolásához adják (a robbanásnak nincs), felső határ nélkül: egy Lancet III és egy Stiletto együtt 51%. Egy lézertalálat ugyanígy hozzáadja őket a lőszere és az erősítői átütéséhez ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Szabályok {#rules}
 

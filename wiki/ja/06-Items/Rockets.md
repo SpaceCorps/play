@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: ロケット -->
 # ロケット {#rockets}
 
@@ -140,7 +140,7 @@ Scatter I -> Scatter II -> Scatter III => N.U.K.E.
 - **リロード。** Asterism は共有タイマーを35%長く（4.05秒）、Cordon は11%長く（3.33秒）、Redoubt は27%短く（2.19秒）しますが、ロケットの飛行時間にわずかな猶予を足した時間より短くはなりません。Redoubt を着けていても、速いロケット（Lancet I、Rivet I と II、Ember I、Scatter I と II）は2.19秒、Rivet III は2.3秒、Lancet III は2.9秒、Ember III は丸3秒待ちます。N.U.K.E. と N.I.K.E. は、どの編成でも4.1秒と4.6秒待ちます。待ち時間は発射時に決まるので、そのあと編成を替えても短くならず、ロケットスロットの上の扇形もそれに従います。
 - **大きい2種の限界は変わりません。** 最強の編成でも N.I.K.E. は最大116,250で、無傷の Paragon（128,000）は耐えられ、N.U.K.E. は最大77,500で、Goombah（80,000）は耐えられます。
 - **回避。** Asterism の回避7%は、自分に当たる直撃ロケットが7%の確率でダメージを一切与えない、という意味で、自分の船の上に「ミス」と浮かんで表示されます。範囲爆発は狙いをつけないので、かわされることはありません。
-- **貫通。** Gemini と Stiletto は、そのポイントを直撃ロケットのシールド貫通に足します（爆発には貫通がありません）。合計は最大40%です。レーザーの命中は最大50%まで届きます（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+- **貫通。** Gemini と Stiletto は、そのポイントを直撃ロケットのシールド貫通に足します（爆発には貫通がありません）。合計に上限はありません。Lancet III に Stiletto を合わせると51%です。レーザーの命中も、弾薬とアンプの貫通に同じように足されます（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
 ## ルール {#rules}
 

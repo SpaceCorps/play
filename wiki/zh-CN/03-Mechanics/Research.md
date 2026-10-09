@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -110,8 +110,9 @@
 - 下表中的 16 项科技，每项除科研点外还需要 **10 个 Dark Matter**：开始前把它放入研究中心（取自物品栏，舰船须已降落），研究开始时会取走它。
 - **规则：** 稀有度达到 史诗 或更高、且研究耗时 10 小时 或更久的物品。用来产出 Dark Matter 的 N.I.K.E. 永远不需要它。
 - **无人机编队**不适用此规则：每项编队研究都需要 Dark Matter，按强度为 5、13 或 20，如下表所示。
+- **船体装甲**同样不适用此规则：它的两项研究要求更多，研究一天需要 25 个 Dark Matter，研究两天需要 40 个，如下表所示。
 - **取消研究时，**为它放入的 Dark Matter 会退回研究中心。进度和已经消耗的科研点则不会退回。
-- 全部加起来共需 349 个 Dark Matter。
+- 全部加起来共需 414 个 Dark Matter。
 
 | 科技 | 稀有度 | 研究时间 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 史诗 | 10 小时 | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 史诗 | 1 天 | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 史诗 | 10 小时 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 稀有 | 1 天 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 史诗 | 2 天 | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### 船体装甲 {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## 舰船设计与装甲槽位 {#ship-technologies}
+
+Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上面的科技树没有包含它们，因为它们开启的是一个槽位或一次改装，而不是一件物品。
+
+- **装甲槽位。** 你制造的四艘舰船的每个[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)各有一项科技。每项排在前一项之后，第一项排在该舰船自身的科技之后。在游戏中，一艘舰船的槽位是一张卡片，每个槽位一个圆点。
+- **舰船设计。** 每种[设计](/wiki/03-Mechanics/Ship-Designs.md)各有一项科技。每项都需要该舰船的科技和 Dark Matter Plate 的科技。
+
+它们各自的时间、Dark Matter 和合计在[舰船设计](/wiki/03-Mechanics/Ship-Designs.md#the-technologies)页面上。
 
 ## 全部科技 {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 分钟 | 1,800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 小时 | 10,800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 小时 | 36,000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 天 | 86,400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 天 | 172,800 | 40 |
 
 按研究时间划分的类别：
 
@@ -372,10 +395,10 @@ Gyre Formation => Auger Formation
 | A | 30 分钟 | 8 | 4 小时 | 14,400 | 0 |
 | B | 3 小时 至 6 小时 | 17 | 2 天 9 小时 | 205,200 | 0 |
 | C | 10 小时 | 15 | 6 天 6 小时 | 540,000 | 95 |
-| D | 1 天 至 2 天 | 20 | 24 天 | 2,073,600 | 254 |
-| 全部 |  | 60 | 32 天 19 小时 | 2,833,200 | 349 |
+| D | 1 天 至 2 天 | 22 | 27 天 | 2,332,800 | 319 |
+| 全部 |  | 62 | 35 天 19 小时 | 3,092,400 | 414 |
 
-逐项依次研究，整棵科技树共需 32 天 19 小时。若全程开着加速，需要 16 天 9 小时 30 分钟，即 17 次加速和 85,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 35 天 19 小时。若全程开着加速，需要 17 天 21 小时 30 分钟，即 18 次加速和 90,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -110,8 +110,9 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 - 아래 표의 기술 16개 각각에 과학과는 별도로 **Dark Matter 10개**가 필요합니다. 시작 전에 연구 센터에 넣어 두세요(인벤토리에서, 함선이 착륙한 상태). 연구는 시작할 때 그것을 가져갑니다.
 - **규칙:** 희귀도가 영웅 이상이면서 연구에 10시간 이상 걸리는 아이템. Dark Matter를 만드는 N.I.K.E.에는 결코 필요하지 않습니다.
 - **드론 편대**는 이 규칙에서 제외됩니다. 모든 편대 연구는 강도에 따라 Dark Matter 5, 13 또는 20개를 요구합니다(표 참고).
+- **선체 장갑**도 이 규칙에서 제외됩니다. 두 연구는 더 많이 요구하여, 하루짜리 연구는 Dark Matter 25개, 이틀짜리 연구는 40개입니다(표 참고).
 - **연구를 취소하면** 그 연구를 위해 넣어 둔 Dark Matter는 센터로 돌아옵니다. 진행도와 이미 태운 과학은 돌아오지 않습니다.
-- 전부 합치면 Dark Matter 349개가 필요합니다.
+- 전부 합치면 Dark Matter 414개가 필요합니다.
 
 | 기술 | 희귀도 | 연구 시간 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 영웅 | 10시간 | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | 영웅 | 1일 | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 영웅 | 10시간 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 희귀 | 1일 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 영웅 | 2일 | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### 선체 장갑 {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## 함선 디자인과 장갑 슬롯 {#ship-technologies}
+
+Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기술이 있습니다. 위의 트리에는 들어 있지 않습니다. 이 기술이 여는 것은 아이템이 아니라 슬롯이나 개조이기 때문입니다.
+
+- **장갑 슬롯.** 제작하는 네 함선의 [장갑 슬롯](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) 하나마다 기술이 하나씩 있습니다. 모두 앞의 기술 다음에 옵니다. 첫 번째는 함선 자체의 기술 다음입니다. 게임에서는 함선의 슬롯이 슬롯마다 점이 하나씩 붙은 카드 한 장입니다.
+- **함선 디자인.** [디자인](/wiki/03-Mechanics/Ship-Designs.md) 하나마다 기술이 하나씩 있습니다. 모두 그 함선의 기술과 Dark Matter Plate의 기술이 필요합니다.
+
+각 기술의 시간, Dark Matter, 합계는 [함선 디자인](/wiki/03-Mechanics/Ship-Designs.md#the-technologies) 페이지에 있습니다.
 
 ## 모든 기술 {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30분 | 1,800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3시간 | 10,800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10시간 | 36,000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1일 | 86,400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2일 | 172,800 | 40 |
 
 연구 시간별 등급:
 
@@ -372,10 +395,10 @@ Gyre Formation => Auger Formation
 | A | 30분 | 8 | 4시간 | 14,400 | 0 |
 | B | 3시간~6시간 | 17 | 2일 9시간 | 205,200 | 0 |
 | C | 10시간 | 15 | 6일 6시간 | 540,000 | 95 |
-| D | 1일~2일 | 20 | 24일 | 2,073,600 | 254 |
-| 전체 |  | 60 | 32일 19시간 | 2,833,200 | 349 |
+| D | 1일~2일 | 22 | 27일 | 2,332,800 | 319 |
+| 전체 |  | 62 | 35일 19시간 | 3,092,400 | 414 |
 
-하나씩 차례로 연구하면 트리 전체에 32일 19시간이 걸립니다. 부스트를 계속 켜 두면 16일 9시간 30분이 걸리며, 부스트 17개와 Thulium 85,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 35일 19시간이 걸립니다. 부스트를 계속 켜 두면 17일 21시간 30분이 걸리며, 부스트 18개와 Thulium 90,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 

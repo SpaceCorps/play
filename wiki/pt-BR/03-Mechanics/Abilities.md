@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
+<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades ativas da nave {#active-ship-abilities}
 
-As habilidades são os botões que você pressiona no calor de uma luta: um escudo que volta, uma explosão de velocidade para sair do alcance, um reparo quando o seu casco está quase no fim. Elas vêm do **escudo, motor ou drone de reparo** que você encaixa nos **slots de habilidade** da sua nave, e quanto melhor o item, melhor a habilidade. Elas foram feitas para o momento em que você precisa delas, não para serem pressionadas a cada recarga: cada uma dura cerca de dez segundos e depois descansa de um minuto e meio a dois minutos.
+As habilidades são os botões que você pressiona no calor de uma luta: um escudo que volta, uma explosão de velocidade para sair do alcance, um reparo quando o seu casco está quase no fim. Elas vêm do **escudo, motor ou drone de reparo** que você encaixa nos **slots de habilidade** da sua nave, e quanto melhor o item, melhor a habilidade. Elas foram feitas para o momento em que você precisa delas, não para serem pressionadas a cada recarga: cada uma dura cerca de dez segundos e depois descansa de um minuto e meio a dois minutos. Alguns [designs de naves](/wiki/03-Mechanics/Ship-Designs.md) têm mais uma, só deles: veja [Habilidades de nave](#ship-abilities).
 
 Um piloto novo começa com uma: o **Repair Drone I** do kit inicial já vem encaixado no slot de habilidade da Protos, então o botão do Emergency Repair (`E`) está lá desde o primeiro minuto. Um segundo Repair Drone I do kit fica num slot extra: esse repara o casco devagar sozinho e não é uma habilidade (veja [Extras](/wiki/06-Items/Extras.md#repair-drones)).
 
@@ -56,6 +56,30 @@ A sua velocidade final é multiplicada pelo bônus do nível durante a duração
 
 Cura uma parte do seu **casco máximo de forma uniforme ao longo de dez segundos**, nunca acima do máximo. Os acertos não o interrompem: é uma habilidade de emergência e funciona sob fogo, na radiação do buraco negro, sob camuflagem e dentro de uma janela de EMP. Termina quando o tempo acaba ou quando a sua nave é destruída. Não mexe no seu escudo, não conta como um acerto e deixa o reparo lento REP como estava. Recusado com o casco cheio.
 
+## Habilidades de nave {#ship-abilities}
+
+Oito dos treze [designs de naves](/wiki/03-Mechanics/Ship-Designs.md) vêm com uma habilidade que pertence ao design, não a um item. Ela não ocupa **nenhum slot de habilidade** e não precisa de nada encaixado: está lá enquanto você pilota o design. Tem um botão próprio, o quarto na coluna da barra de atalhos, e a tecla dela é `F` (você pode mudá-la nas configurações). Tem o seu próprio tempo de recarga, mantido como o das outras: trocar de configuração, saltar e se desconectar não o reiniciam, e uma nave destruída começa o voo seguinte com todas as habilidades prontas.
+
+| Habilidade | Design | O que faz | Duração | Recarga |
+| :--- | :--- | :--- | ---: | ---: |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocidade 2.500 (TITANIC: 1.500) na direção da sua ordem de movimento | 1 s | 120 s |
+| **Chameleon** | Storm RECON | Invisível para todos os outros pilotos, inclusive no minimapa | até se quebrar | 60 s |
+| **Focus Fire** | Ironclad DUMA | As naves inimigas a até 1.000 unidades são obrigadas a atacar você | 5 s | 60 s |
+| **Venom** | Wraith RAPTOR | 100.000 de dano direto ao casco de um alvo | 30 s | 120 s |
+| **Diminisher** | Wraith BILLY | Você sofre 75% menos dano e causa 25% menos | 10 s | 120 s |
+| **Heal Pod** | Wraith MENATI | Uma cápsula cura as naves aliadas a até 600 unidades em 10.000 + 1% do casco máximo delas por segundo | 5 s | 120 s |
+| **Shield Buff** | Wraith ATARAXIS | A sua capacidade de escudo dobra e regenera 2% do máximo por segundo | 10 s | 120 s |
+
+- **Blink.** Por 1 segundo a sua velocidade é 2.500 (a de um TITANIC é limitada a 1.500), na direção da sua ordem de movimento. Você para onde a ordem termina, e a borda do mapa também o para. Depois ela descansa por 120 segundos.
+- **Chameleon.** Você some: nenhum outro piloto vê você, nem no mapa nem no minimapa, e ninguém pode travar a mira em você. A sua própria corporação continua vendo você, como um fantasma. Um EMP não consegue quebrá-la. Ela termina quando você sofre qualquer dano, dispara uma saraivada de laser, lança um foguete, recolhe uma caixa ou entra numa zona segura, ou quando você aperta o botão de novo; os 60 segundos dela começam quando termina, seja como for. Você não pode ativá-la até 10 segundos depois de um disparo ou de um acerto, nem no anel de uma zona segura, nem enquanto um Cloaking CPU estiver ligado.
+- **Focus Fire.** Por 5 segundos, todo piloto inimigo e todo alienígena a até 1.000 unidades é obrigado a atacar você: a trava de um piloto é posta em você e não pode ser mudada, e um alienígena se volta contra você. Os pilotos do seu grupo e da sua corporação, as naves sob a proteção de uma zona segura e as naves camufladas ficam de fora, e ela é recusada dentro de uma zona segura ou sem nenhum inimigo ao alcance. Os pilotos forçados ainda podem voar para onde quiserem.
+- **Venom.** Trave a mira em um alvo ao alcance dos seus lasers e aperte: 100.000 de dano vão direto ao casco dele ao longo de 30 segundos, de modo uniforme, e o escudo dele não toma parte nenhuma. Funciona em pilotos de outras corporações e em alienígenas do mesmo jeito, não no seu grupo nem na sua corporação, não em uma nave que uma zona segura protege e não onde uma trava com laser é recusada (o Protocolo de Paz, um setor sem PvP). Uma nave carrega um Venom por vez. Cada tique conta como um acerto, então o alvo não pode se esconder numa zona segura até o fim. O reparo, um Heal Pod e um Diminisher no alvo o reduzem, ele termina quando o alvo ou você morre, e a baixa e os pontos dela são seus.
+- **Diminisher.** Por 10 segundos, cada acerto que você sofre é reduzido a um quarto antes de o seu escudo tomar a sua parte, então escudo e casco perdem um quarto cada, e cada acerto que você causa é reduzido a três quartos: lasers, foguetes diretos e explosões. Um segundo aperto não faz nada enquanto ela está ativa.
+- **Heal Pod.** Uma cápsula cai onde você está e fica por 5 segundos. A cada segundo ela cura toda nave aliada a até 600 unidades em 10.000 mais 1% do casco máximo dessa nave: você, o seu grupo e a sua corporação, mais ninguém, e nunca acima do máximo. Nada pode travar a cápsula nem atirar nela, e ela continua curando se você morrer.
+- **Shield Buff.** Por 10 segundos a sua capacidade de escudo é dobrada, com o escudo que você tem dobrado junto, e o escudo regenera 2% do máximo dobrado a cada segundo. Quando termina, a capacidade volta ao normal e o escudo vai com ela, mantendo a proporção, então ela nunca cura você: é espaço para aguentar golpes. É recusada em uma nave sem escudo.
+
+Um **EMP** que explode perto de você trava o botão por 5 segundos: o aperto é recusado e nenhuma recarga começa. Uma habilidade que já está em andamento continua, e um Chameleon continua escondido. Os outros pilotos também veem essas habilidades: um rastro atrás de um Blink, um anel vermelho e linhas até as naves que um Focus Fire obriga, um Chameleon só como fantasma para a própria corporação.
+
 ## Níveis {#ranks}
 
 A força de uma habilidade é uma **parte do número da sua própria nave** (escudo máximo, velocidade, casco máximo), então ela cresce com a nave. O nível vem do item: um modelo melhor dá uma habilidade melhor. Um item encantado soma o bônus de encantamento à força, no máximo 15%. A tabela vale para um módulo; a pilha vem logo abaixo.
@@ -98,7 +122,7 @@ Os escudos e motores de nível III (o Heavy Shield Core, o Engine III) não são
 
 ## Teclas e botões {#keys-and-buttons}
 
-`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair (todas reatribuíveis nas configurações). Cada botão aparece ao lado da barra de atalhos somente quando a sua configuração tem aquela habilidade, então o `E` de um piloto novo está lá desde o primeiro minuto. O anel em volta do ícone mostra em que estado a habilidade está: inteiro, na cor da habilidade, quando ela está pronta; esvaziando conforme os segundos restantes enquanto ela atua (o Emergency Repair também, agora que ele cura ao longo de dez segundos); e se enchendo de novo enquanto ela recarrega, com os segundos restantes no meio. Uma pilha de vários módulos traz a sua marca (`x2`, `x3`) no canto do botão. O botão do Emergency Repair fica esmaecido enquanto o seu casco está cheio, e o do Shield Surge em uma nave sem escudo algum. Passe o mouse sobre um botão para ver os números na sua nave, com a pilha contada (por exemplo, *Afterburner II x2: +45% de velocidade por 15 s*) e, enquanto um Surge ou um reparo atua, quanto ele dá por segundo e quanto ainda falta vir.
+`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair e `F` a habilidade do design da sua nave (todas reatribuíveis nas configurações). Cada botão aparece ao lado da barra de atalhos somente quando a sua configuração tem aquela habilidade (o botão `F`, quando a nave que você pilota tem uma), então o `E` de um piloto novo está lá desde o primeiro minuto. O anel em volta do ícone mostra em que estado a habilidade está: inteiro, na cor da habilidade, quando ela está pronta; esvaziando conforme os segundos restantes enquanto ela atua (o Emergency Repair também, agora que ele cura ao longo de dez segundos); e se enchendo de novo enquanto ela recarrega, com os segundos restantes no meio. Uma pilha de vários módulos traz a sua marca (`x2`, `x3`) no canto do botão. O botão do Emergency Repair fica esmaecido enquanto o seu casco está cheio, e o do Shield Surge em uma nave sem escudo algum. Passe o mouse sobre um botão para ver os números na sua nave, com a pilha contada (por exemplo, *Afterburner II x2: +45% de velocidade por 15 s*) e, enquanto um Surge ou um reparo atua, quanto ele dá por segundo e quanto ainda falta vir.
 
 ## No hangar {#in-the-hangar}
 

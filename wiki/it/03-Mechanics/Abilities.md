@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e186cfbf8fcfa1d0 -->
+<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
-Le abilità sono i pulsanti che premi nel pieno di uno scontro: uno scudo che torna, uno scatto di velocità per uscire dalla portata, una riparazione quando lo scafo è quasi a zero. Derivano dallo **scudo, dal motore o dal Repair Drone** che monti negli **Slot abilità** della tua nave, e migliore è l’oggetto, migliore è l’abilità. Sono fatte per il momento in cui ti servono, non per premerle a ogni ricarica: ciascuna dura circa dieci secondi e poi riposa da un minuto e mezzo a due minuti.
+Le abilità sono i pulsanti che premi nel pieno di uno scontro: uno scudo che torna, uno scatto di velocità per uscire dalla portata, una riparazione quando lo scafo è quasi a zero. Derivano dallo **scudo, dal motore o dal Repair Drone** che monti negli **Slot abilità** della tua nave, e migliore è l’oggetto, migliore è l’abilità. Sono fatte per il momento in cui ti servono, non per premerle a ogni ricarica: ciascuna dura circa dieci secondi e poi riposa da un minuto e mezzo a due minuti. Alcuni [design delle navi](/wiki/03-Mechanics/Ship-Designs.md) ne hanno una in più, tutta loro: vedi [Abilità delle navi](#ship-abilities).
 
 Un nuovo pilota ne ha già una: il **Repair Drone I** del kit iniziale è già montato nello slot abilità della Protos, quindi il pulsante di Emergency Repair (`E`) c’è fin dal primo minuto. Un secondo Repair Drone I del kit è in uno slot extra: quello ripara lo scafo lentamente da solo e non è un’abilità (vedi [Extra](/wiki/06-Items/Extras.md#repair-drones)).
 
@@ -56,6 +56,30 @@ Per tutta la sua durata la tua velocità finale viene moltiplicata per il bonus 
 
 Cura una quota del tuo **scafo massimo in modo uniforme nell’arco di dieci secondi**, mai oltre il massimo. I colpi non lo interrompono: è un’abilità d’emergenza, e funziona sotto il fuoco, nelle radiazioni del buco nero, con l’occultamento attivo e dentro la finestra di un EMP. Termina allo scadere del tempo o quando la tua nave viene distrutta. Non tocca il tuo scudo, non conta come un colpo e lascia la lenta riparazione REP com’era. Viene rifiutato a scafo pieno.
 
+## Abilità delle navi {#ship-abilities}
+
+Otto dei tredici [design delle navi](/wiki/03-Mechanics/Ship-Designs.md) hanno un’abilità che appartiene al design, non a un oggetto. Non occupa **nessuno slot abilità** e non richiede nulla di montato: c’è finché pilotti il design. Ha un pulsante tutto suo, il quarto nella colonna della barra rapida, e il suo tasto è `F` (modificabile nelle impostazioni). Ha la propria ricarica, che si mantiene come le altre: cambiare configurazione, saltare e disconnettersi non la azzerano, e una nave distrutta inizia il volo successivo con tutte le abilità pronte.
+
+| Abilità | Design | Cosa fa | Durata | Ricarica |
+| :--- | :--- | :--- | ---: | ---: |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocità 2.500 (TITANIC: 1.500) verso il tuo ordine di movimento | 1 s | 120 s |
+| **Chameleon** | Storm RECON | Invisibile a ogni altro pilota, minimappa compresa | finché non si spezza | 60 s |
+| **Focus Fire** | Ironclad DUMA | Le navi nemiche entro 1.000 unità sono costrette ad attaccarti | 5 s | 60 s |
+| **Venom** | Wraith RAPTOR | 100.000 di danno direttamente allo scafo di un bersaglio | 30 s | 120 s |
+| **Diminisher** | Wraith BILLY | Subisci il 75% di danno in meno e ne infliggi il 25% in meno | 10 s | 120 s |
+| **Heal Pod** | Wraith MENATI | Un baccello cura le navi alleate entro 600 unità di 10.000 + 1% del loro scafo massimo al secondo | 5 s | 120 s |
+| **Shield Buff** | Wraith ATARAXIS | La tua capacità dello scudo raddoppia e rigenera il 2% del suo massimo al secondo | 10 s | 120 s |
+
+- **Blink.** Per 1 secondo la tua velocità è 2.500 (quella di un TITANIC è limitata a 1.500), verso il tuo ordine di movimento. Ti fermi dove l’ordine finisce, e anche il bordo della mappa ti ferma. Poi riposa per 120 secondi.
+- **Chameleon.** Sparisci: nessun altro pilota ti vede, né sulla mappa né sulla minimappa, e nessuno può agganciarti. La tua corporazione continua a vederti, come un fantasma. Un EMP non può spezzarla. Termina quando subisci un qualsiasi danno, spari una raffica di laser, lanci un razzo, raccogli una cassa o entri in una zona sicura, oppure quando premi di nuovo il pulsante; i suoi 60 secondi partono quando termina, in qualunque modo. Non puoi avviarla entro 10 secondi da uno sparo o da un colpo subito, né nell’anello di una zona sicura, né mentre un Cloaking CPU è attivo.
+- **Focus Fire.** Per 5 secondi ogni pilota nemico e ogni alieno entro 1.000 unità è costretto ad attaccarti: l’aggancio di un pilota viene messo su di te e non si può cambiare, un alieno si rivolge contro di te. I piloti del tuo gruppo e della tua corporazione, le navi sotto la protezione di una zona sicura e le navi occultate restano escluse, e viene rifiutata in una zona sicura o senza nemici a portata. I piloti costretti possono comunque volare dove vogliono.
+- **Venom.** Aggancia un bersaglio alla portata dei tuoi laser e premi: 100.000 di danno vanno direttamente al suo scafo in 30 secondi, in modo uniforme, e il suo scudo non ne prende alcuna parte. Funziona sui piloti di altre corporazioni e sugli alieni allo stesso modo, non sul tuo gruppo né sulla tua corporazione, non su una nave protetta da una zona sicura e non dove un aggancio con il laser viene rifiutato (il Protocollo di pace, un settore senza PvP). Una nave porta un solo Venom alla volta. Ogni tic conta come un colpo, quindi il bersaglio non può nascondersi in una zona sicura fino alla fine. La riparazione, un Heal Pod e un Diminisher sul bersaglio lo riducono, termina quando muore il bersaglio o muori tu, e l’eliminazione e i suoi punti sono tuoi.
+- **Diminisher.** Per 10 secondi ogni colpo che subisci è ridotto a un quarto prima che il tuo scudo ne prenda la sua parte, quindi scudo e scafo perdono entrambi un quarto, e ogni colpo che infliggi è ridotto a tre quarti: laser, razzi diretti ed esplosioni. Una seconda pressione non fa nulla finché è attivo.
+- **Heal Pod.** Un baccello cade dove ti trovi e resta per 5 secondi. Ogni secondo cura ogni nave alleata entro 600 unità di 10.000 più l’1% dello scafo massimo di quella nave: te, il tuo gruppo e la tua corporazione, nessun altro, e mai oltre il massimo. Nulla può agganciare il baccello né colpirlo, e continua a curare se muori.
+- **Shield Buff.** Per 10 secondi la capacità del tuo scudo è raddoppiata, con lo scudo che hai raddoppiato insieme, e lo scudo rigenera il 2% del massimo raddoppiato ogni secondo. Quando finisce, la capacità torna normale e con lei lo scudo, mantenendo la sua quota, quindi non ti cura mai: è spazio per incassare colpi. Viene rifiutato su una nave senza scudo.
+
+Un **EMP** che esplode vicino a te blocca il pulsante per 5 secondi: la pressione viene rifiutata e nessuna ricarica parte. Un’abilità già in corso prosegue, e un Chameleon resta nascosto. Anche gli altri piloti vedono queste abilità: una scia dietro un Blink, un anello rosso e linee verso le navi che un Focus Fire costringe, un Chameleon solo come un fantasma per la sua stessa corporazione.
+
 ## Gradi {#ranks}
 
 La forza di un’abilità è una **quota di un valore della tua nave** (scudo massimo, velocità, scafo massimo), quindi cresce con la nave. Il grado dipende dall’oggetto: un modello migliore dà un’abilità migliore. Un oggetto incantato aggiunge alla forza il bonus del suo incantamento, al massimo il 15%. La tabella vale per un modulo; il cumulo è sotto.
@@ -98,7 +122,7 @@ Gli scudi e i motori di grado III (l’Heavy Shield Core, l’Engine III) non so
 
 ## Tasti e pulsanti {#keys-and-buttons}
 
-`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair (tutti configurabili nelle impostazioni). Ogni pulsante compare accanto alla barra rapida solo quando la tua configurazione ha quell’abilità, quindi la `E` di un nuovo pilota c’è fin dal primo minuto. L’anello attorno all’icona indica lo stato dell’abilità: pieno, nel colore dell’abilità, quando è pronta; si svuota con i secondi rimanenti mentre è attiva (anche l’Emergency Repair, ora che cura nell’arco di dieci secondi); si riempie di nuovo durante la ricarica, con i secondi rimanenti al centro. Un cumulo di più moduli porta il suo segno (`x2`, `x3`) nell’angolo del pulsante. Il pulsante di Emergency Repair è attenuato mentre lo scafo è pieno, e quello di Shield Surge su una nave del tutto priva di scudo. Passa il puntatore su un pulsante per vedere i valori sulla tua nave, cumulo compreso (per esempio *Afterburner II x2: +45% di velocità per 15 s*), e, mentre un Surge o una riparazione sono in corso, quanto restituisce ogni secondo e quanto deve ancora arrivare.
+`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair e `F` l’abilità del design della tua nave (tutti configurabili nelle impostazioni). Ogni pulsante compare accanto alla barra rapida solo quando la tua configurazione ha quell’abilità (il pulsante `F`, quando la nave che pilotti ne ha una), quindi la `E` di un nuovo pilota c’è fin dal primo minuto. L’anello attorno all’icona indica lo stato dell’abilità: pieno, nel colore dell’abilità, quando è pronta; si svuota con i secondi rimanenti mentre è attiva (anche l’Emergency Repair, ora che cura nell’arco di dieci secondi); si riempie di nuovo durante la ricarica, con i secondi rimanenti al centro. Un cumulo di più moduli porta il suo segno (`x2`, `x3`) nell’angolo del pulsante. Il pulsante di Emergency Repair è attenuato mentre lo scafo è pieno, e quello di Shield Surge su una nave del tutto priva di scudo. Passa il puntatore su un pulsante per vedere i valori sulla tua nave, cumulo compreso (per esempio *Afterburner II x2: +45% di velocità per 15 s*), e, mentre un Surge o una riparazione sono in corso, quanto restituisce ogni secondo e quanto deve ancora arrivare.
 
 ## Nell’Hangar {#in-the-hangar}
 

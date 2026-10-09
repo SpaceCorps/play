@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -110,8 +110,9 @@ Die Technologien an der Spitze des Baums brauchen zusätzlich Dark Matter. Es ko
 - **10 Dark Matter** für jede der 16 Technologien in der Tabelle unten, zusätzlich zur Wissenschaft: Setze es vor dem Start ins Forschungszentrum ein (aus deinem Inventar, bei gelandetem Schiff), die Forschung nimmt es beim Start.
 - **Die Regel:** ein Gegenstand der Seltenheit Episch oder höher, dessen Forschung 10 h oder länger dauert. Die N.I.K.E., mit der Dark Matter entsteht, braucht es nie.
 - **Drohnenformationen** stehen außerhalb der Regel: Jede Formationsforschung verlangt Dark Matter, je nach Stärke 5, 13 oder 20, wie die Tabelle zeigt.
+- **Hüllenpanzerung** steht ebenfalls außerhalb der Regel: Ihre beiden Forschungen verlangen mehr, 25 Dark Matter für einen Tag Forschung und 40 für zwei Tage, wie die Tabelle zeigt.
 - **Brichst du eine Forschung ab,** kehrt das dafür eingesetzte Dark Matter ins Zentrum zurück. Der Fortschritt und die schon verbrauchte Wissenschaft nicht.
-- Alle zusammen verlangen 349 Dark Matter.
+- Alle zusammen verlangen 414 Dark Matter.
 
 | Technologie | Seltenheit | Forschungsdauer | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ Die Technologien an der Spitze des Baums brauchen zusätzlich Dark Matter. Es ko
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Episch | 10 h | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Episch | 1 d | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Episch | 10 h | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Selten | 1 d | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Episch | 2 d | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Hüllenpanzerung {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Schiffsdesigns und Panzerungs-Slots {#ship-technologies}
+
+Die Schiffsfamilie der Forschungsansicht in deinem Skylab enthält zwei Arten von Technologien, die keine Herstellungen sind. Der Baum oben lässt sie aus, denn sie öffnen einen Slot oder einen Umbau, keinen Gegenstand.
+
+- **Panzerungs-Slots.** Eine Technologie für jeden [Panzerungs-Slot](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) der vier Schiffe, die du baust. Jede kommt nach der vorigen, die erste nach der Technologie des Schiffs selbst. Im Spiel sind die Slots eines Schiffs eine Karte mit einem Punkt für jeden.
+- **Schiffsdesigns.** Eine Technologie für jedes [Design](/wiki/03-Mechanics/Ship-Designs.md). Jede braucht die Technologie ihres Schiffs und die der Dark Matter Plate.
+
+Ihre Zeiten, ihr Dark Matter und die Summen stehen auf der Seite [Schiffsdesigns](/wiki/03-Mechanics/Ship-Designs.md#the-technologies).
 
 ## Alle Technologien {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 min | 1.800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 h | 10.800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36.000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 d | 86.400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 d | 172.800 | 40 |
 
 Die Klassen nach Forschungsdauer:
 
@@ -372,10 +395,10 @@ Die Klassen nach Forschungsdauer:
 | A | 30 min | 8 | 4 h | 14.400 | 0 |
 | B | 3 h bis 6 h | 17 | 2 d 9 h | 205.200 | 0 |
 | C | 10 h | 15 | 6 d 6 h | 540.000 | 95 |
-| D | 1 d bis 2 d | 20 | 24 d | 2.073.600 | 254 |
-| Alle |  | 60 | 32 d 19 h | 2.833.200 | 349 |
+| D | 1 d bis 2 d | 22 | 27 d | 2.332.800 | 319 |
+| Alle |  | 62 | 35 d 19 h | 3.092.400 | 414 |
 
-Nacheinander erforscht, dauert der ganze Baum 32 d 19 h. Mit ständig laufendem Boost sind es 16 d 9 h 30 min, das sind 17 Boosts und 85.000 Thulium; die Wissenschaft bleibt dieselbe.
+Nacheinander erforscht, dauert der ganze Baum 35 d 19 h. Mit ständig laufendem Boost sind es 17 d 21 h 30 min, das sind 18 Boosts und 90.000 Thulium; die Wissenschaft bleibt dieselbe.
 
 <!-- research-technologies:end -->
 

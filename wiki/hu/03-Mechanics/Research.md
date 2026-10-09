@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -110,8 +110,9 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 - **10 Dark Matter** az alábbi táblázat 16 technológiájának mindegyikéhez, a tudományon felül: a kutatás indulása előtt helyezd be a Kutatóközpontba (a leltáradból, leszállt hajóval), és a kutatás induláskor elveszi.
 - **A szabály:** egy Epikus vagy magasabb ritkaságú tárgy, amelynek kutatása 10 óra vagy tovább tart. Az N.I.K.E.-nek, amely a Dark Matter forrása, soha nincs rá szüksége.
 - **A drónformációk** kívül esnek a szabályon: minden formációkutatás Dark Mattert kér, erősségtől függően 5, 13 vagy 20 darabot, ahogy a táblázat mutatja.
+- **A hajótest-páncélzat** szintén kívül esik a szabályon: két kutatása többet kér, egy napnyi kutatásért 25, két napért 40 Dark Mattert, ahogy a táblázat mutatja.
 - **Ha megszakítasz egy kutatást,** a hozzá belehelyezett Dark Matter visszakerül a Kutatóközpontba. A haladás és az addig elégetett tudomány nem.
-- Együtt 349 Dark Mattert kérnek.
+- Együtt 414 Dark Mattert kérnek.
 
 | Technológia | Ritkaság | Kutatási idő | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 10 óra | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epikus | 1 nap | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Epikus | 10 óra | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Ritka | 1 nap | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Epikus | 2 nap | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Hajótest-páncélzat {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Hajódizájnok és páncélzatfoglalatok {#ship-technologies}
+
+A Skylab kutatási nézetének Hajók családjában kétféle technológia van, amely nem gyártás. A fenti fa kihagyja őket, mert amit megnyitnak, az egy foglalat vagy egy átalakítás, nem tárgy.
+
+- **Páncélzatfoglalatok.** Egy technológia a négy hajó, amelyet készítesz, minden [páncélzatfoglalatához](/wiki/06-Items/Hull-Plating.md#hull-plate-slots). Mindegyik az előző után jön, az első a hajó saját technológiája után. A játékban egy hajó foglalatai egyetlen kártya, foglalatonként egy ponttal.
+- **Hajódizájnok.** Egy technológia minden [dizájnhoz](/wiki/03-Mechanics/Ship-Designs.md). Mindegyikhez kell a hajója technológiája meg a Dark Matter Plate-é.
+
+Az idejük, a Dark Matterük és az összegek a [Hajódizájnok](/wiki/03-Mechanics/Ship-Designs.md#the-technologies) oldalon vannak.
 
 ## Az összes technológia {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 perc | 1 800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 óra | 10 800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 óra | 36 000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 nap | 86 400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 nap | 172 800 | 40 |
 
 Az osztályok kutatási idő szerint:
 
@@ -372,10 +395,10 @@ Az osztályok kutatási idő szerint:
 | A | 30 perc | 8 | 4 óra | 14 400 | 0 |
 | B | 3 óra–6 óra | 17 | 2 nap 9 óra | 205 200 | 0 |
 | C | 10 óra | 15 | 6 nap 6 óra | 540 000 | 95 |
-| D | 1 nap–2 nap | 20 | 24 nap | 2 073 600 | 254 |
-| Összesen |  | 60 | 32 nap 19 óra | 2 833 200 | 349 |
+| D | 1 nap–2 nap | 22 | 27 nap | 2 332 800 | 319 |
+| Összesen |  | 62 | 35 nap 19 óra | 3 092 400 | 414 |
 
-Egymás után kutatva a teljes fa 32 nap 19 óra alatt készül el. Ha a boost végig be van kapcsolva, 16 nap 9 óra 30 perc alatt, ami 17 boost és 85 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 35 nap 19 óra alatt készül el. Ha a boost végig be van kapcsolva, 17 nap 21 óra 30 perc alatt, ami 18 boost és 90 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -166,12 +166,12 @@ La Siphon Battery è una munizione per rubare scudi invece di spaccare scafi. In
 
 ## Penetrazione dello scudo di un colpo laser {#shield-penetration-of-a-laser-hit}
 
-Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +9%, Stiletto +16%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Il totale **si ferma al 50%** per un laser; quello di un razzo diretto si ferma al 40% ([Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +9%, Stiletto +16%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). **Niente limita il totale** (un razzo diretto somma allo stesso modo la propria penetrazione e quella della formazione: [Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser fanno 24%; un Penetration Amp IV in un laser su dodici fa 0,67%. Un Wraith ha 12 laser e 36 slot amp, e vanno riempiti tutti e 36 per arrivare al 24%.
-- **L’Hangar lo mostra.** Le statistiche di combattimento dell’Hangar hanno un riquadro **Penetrazione** su ogni nave, con il valore dei tuoi amp (0,0% senza Penetration Amp); munizioni e formazione non ne fanno parte. Passa sul riquadro per leggere i limiti: il totale di un colpo di laser si ferma al 50%, quello di un razzo al 40%.
-- **Il miglior laser raggiunge il tetto esattamente.** Un Experimental Fusion Core (10%), uno Stiletto (16%) e tre Penetration Amp IV in ogni laser (24%) fanno 50%.
-- **Un bonus della Forgia su un Penetration Amp IV è sprecato in quella configurazione.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 8,7–9,2 punti invece di 8. Ma 10 + 16 + 24 fanno già il tetto del 50%, e ogni punto in più viene tagliato (tre Eterni farebbero 53,6%, tagliato a 50%).
+- **L’Hangar lo mostra.** Le statistiche di combattimento dell’Hangar hanno un riquadro **Penetrazione** su ogni nave, con il valore degli amp laser della configurazione mostrata (0,0% senza Penetration Amp); munizioni e formazione non ne fanno parte. La finestra **Nave** in volo ha un chip **Penetrazione** in fondo alla riga in basso (i chip della configurazione e della velocità mostrano solo un’icona e un numero per fargli posto): mostra il totale di un colpo laser, i tuoi amp, la formazione che indossi e le munizioni che spari, sommati non appena cambi qualcosa, e il suo suggerimento elenca le tre parti.
+- **Il miglior laser fa il 50%.** Un Experimental Fusion Core (10%), uno Stiletto (16%) e tre Penetration Amp IV in ogni laser (24%) fanno 50%.
+- **Un bonus della Forgia su un Penetration Amp IV conta.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 8,7–9,2 punti invece di 8. Nella configurazione migliore, tre Eterni fanno 53,6%, e ogni punto conta.
 
 | Raffica laser | Munizioni | Amp (3 slot) | Formazione | Totale |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Cosa fa questo agli scudi del bersaglio: ogni cella è la quota di un colpo che 
 | Il miglior scudo, Forgia Eterna (miglior tiro) e l’Emporio al suo limite (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Qualsiasi alieno (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-Il miglior laser svuota un nucleo scudo senza cella (lo scafo prende tutto il colpo); un nucleo con una cella conserva una quota di ogni colpo, e il miglior scudo ne conserva il 30% (il 45% con i bonus). Un razzo non svuota mai uno scudo: il suo tetto è il 40%.
+Il miglior laser svuota un nucleo scudo senza cella (lo scafo prende tutto il colpo); un nucleo con una cella conserva una quota di ogni colpo, e il miglior scudo ne conserva il 30% (il 45% con i bonus). Un razzo da solo non svuota mai uno scudo (al massimo il 35%), ma un Lancet III o un Rivet III con uno Stiletto (il 51%) sì.
 
 ### Quando vale uno slot un Penetration Amp? {#when-is-a-penetration-amp-worth-a-slot}
 

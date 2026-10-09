@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -60,7 +60,7 @@ Todo booster dura **10 horas** de base e é ativado assim que você o compra, o 
 | **Loot Luck Booster** | Lendário | +5% de chance de drop raro de NPCs | 30.000 |
 
 > [!NOTE]
-> **Booster ou amp?** São coisas diferentes. Todo booster tem **Booster** no nome, funciona com um prazo e não tem nada para encaixar: o **Laser Damage Booster I** e o **Laser Damage Booster II** dão +10% de dano de laser por 10 horas, da Loja ou da Montagem. O **Damage Amp**, o **Crit Amp** e o **Penetration Amp** (níveis I a IV) são amplificadores de laser: módulos que você encaixa no slot de amp de um laser, sem prazo ([Lasers e munição](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Antes de 0.4.12 os boosters se chamavam Damage Amp e Damage Amp II, Shield Wall e Shield Wall II, Hull Plating e Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet e Loot Luck; os que você tinha em andamento continuaram com os novos nomes.
+> **Booster ou amp?** São coisas diferentes. Todo booster tem **Booster** no nome, funciona com um prazo e não tem nada para encaixar: o **Laser Damage Booster I** e o **Laser Damage Booster II** dão +10% de dano de laser por 10 horas, da Loja ou da Montagem. O **Damage Amp**, o **Crit Amp** e o **Penetration Amp** (níveis I a IV) são amplificadores de laser: módulos que você encaixa no slot de amp de um laser, sem prazo ([Lasers e munição](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Antes de 0.4.12 os boosters se chamavam Damage Amp e Damage Amp II, Shield Wall e Shield Wall II, Hull Plating e Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet e Loot Luck; os que você tinha em andamento continuaram com os novos nomes. O Hull Plating **Booster** não é a blindagem **Hull Plating** que se encaixa nos slots de blindagem de uma nave ([Blindagem de casco](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

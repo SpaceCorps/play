@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
 Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `M-4`, `T-1` till `T-4`, `G-1` till `G-4`). De flyger för koncernen dygnet runt och ger koncernens piloter en hjälpande hand.
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Vilka de är {#who-they-are}
@@ -15,7 +15,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
   - absorption 45 %: deras sköldar tar 45 % av varje träff, skrovet 55 %
   - 195 grundskada per salva (x1-ammunition), ingen kritisk chans, räckvidd 700
 - **På minikartan**: en grön romb för din koncerns piloter, en bärnstensfärgad för en annan koncerns.
-- **Ingen grad**: den lilla symbolen framför en pilots namn under flygning är pilotens [grad](/wiki/03-Mechanics/Ranks.md) och tillhör riktiga piloter. Koncernpiloter har ingen och står inte på din koncerns lista. Koncernsidan listar de riktiga piloterna i din koncern med flest PvE-poäng först, och pilotens grad är hans eller hennes plats i den listan.
+- **Ingen grad**: den lilla symbolen framför en pilots namn under flygning är pilotens [grad](/wiki/03-Mechanics/Ranks.md) och tillhör riktiga piloter. Koncernpiloter har ingen och står inte på din koncerns lista. Koncernsidan listar de riktiga piloterna i din koncern med flest PvE-poäng först, och pilotens grad kommer från hans eller hennes PvE-poäng i den listan och, för de sex bästa graderna, från koncernens platser.
 
 ## Vad de gör {#what-they-do}
 

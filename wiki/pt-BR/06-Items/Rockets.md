@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
@@ -140,7 +140,7 @@ Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única 
 - **Recarga.** Asterism alonga o temporizador compartilhado em 35% (4,05 segundos), Cordon em 11% (3,33) e Redoubt o encurta em 27% (2,19), mas nunca abaixo do voo do foguete mais um instante. Com o Redoubt, os foguetes rápidos (Lancet I, Rivet I e II, Ember I, Scatter I e II) esperam os 2,19 segundos, um Rivet III espera 2,3, um Lancet III 2,9 e um Ember III os 3 inteiros; o N.U.K.E. e o N.I.K.E. esperam 4,1 e 4,6 segundos, seja qual for a formação. A espera é fixada ao disparar, então trocar de formação depois não a encurta, e o círculo sobre os slots de foguete a acompanha.
 - **Os limites dos dois grandes continuam valendo.** Com a melhor formação, um N.I.K.E. acerta com até 116.250, o que um Paragon intacto (128.000) sobrevive, e um N.U.K.E. com até 77.500, o que um Goombah (80.000) sobrevive.
 - **Evasão.** Os 7% de evasão de Asterism dão a um foguete direto que atinge você 7% de chance de não causar dano nenhum, e um “Errou” flutuante aparece sobre a sua nave; uma explosão em área não mira e nunca é esquivada.
-- **Penetração.** Gemini e Stiletto somam seus pontos à penetração de escudo de um foguete direto (uma explosão não tem), até 40% no total. Um acerto de laser vai até 50% ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Penetração.** Gemini e Stiletto somam seus pontos à penetração de escudo de um foguete direto (uma explosão não tem), sem limite: um Lancet III com um Stiletto dá 51%. Um acerto de laser os soma do mesmo jeito à da munição e à dos amps ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regras {#rules}
 

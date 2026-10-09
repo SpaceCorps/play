@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -60,7 +60,7 @@ Varje booster varar i grundtiden **10 timmar** och aktiveras direkt när du köp
 | **Loot Luck Booster** | Legendarisk | +5 % chans till sällsynta byten från NPC:er | 30 000 |
 
 > [!NOTE]
-> **Booster eller förstärkare?** De är olika saker. Varje booster har **Booster** i namnet, går på en timer och har inget att montera: **Laser Damage Booster I** och **Laser Damage Booster II** ger +10 % laserskada i 10 timmar, från butiken eller Monteringen. **Damage Amp**, **Crit Amp** och **Penetration Amp** (nivå I till IV) är laserförstärkare: moduler du monterar i en lasers förstärkarplats, utan timer ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Före 0.4.12 hette boostersen Damage Amp och Damage Amp II, Shield Wall och Shield Wall II, Hull Plating och Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet och Loot Luck; de som gick hos dig fortsatte under de nya namnen.
+> **Booster eller förstärkare?** De är olika saker. Varje booster har **Booster** i namnet, går på en timer och har inget att montera: **Laser Damage Booster I** och **Laser Damage Booster II** ger +10 % laserskada i 10 timmar, från butiken eller Monteringen. **Damage Amp**, **Crit Amp** och **Penetration Amp** (nivå I till IV) är laserförstärkare: moduler du monterar i en lasers förstärkarplats, utan timer ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Före 0.4.12 hette boostersen Damage Amp och Damage Amp II, Shield Wall och Shield Wall II, Hull Plating och Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet och Loot Luck; de som gick hos dig fortsatte under de nya namnen. Hull Plating **Booster** är inte pansaret **Hull Plating** som monteras i ett skepps pansarplatser ([Skrovpansar](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

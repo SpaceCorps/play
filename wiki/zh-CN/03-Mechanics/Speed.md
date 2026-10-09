@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: 速度 -->
 # 速度计算 {#speed-calculation}
 
@@ -9,6 +9,8 @@
 你的舰船的最终速度由服务器按以下公式计算：
 
 \[\text{最终速度} = (\text{舰船基础速度} + \text{引擎总速度}) \times (1.0 + \text{速度加成总百分比})\]
+
+[舰船设计](/wiki/03-Mechanics/Ship-Designs.md)会改变第一项（THUNDER 的基础速度多 40，DUMA 少 20），而 NOTSUM 和 RECON 还会把最终速度再乘一个系数（+2% 和 +5%）。
 
 ### 1. 引擎的有效速度 {#1-effective-engine-speed}
 

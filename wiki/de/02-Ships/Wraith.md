@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50fa888ddacd9f80 -->
+<!-- wiki-i18n source: 1d13345263aa1a6a -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -10,6 +10,7 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 - **Grundtempo**: 220
 - **Laser-Slots**: 12
 - **Extra-Slots**: 3
+- **Panzerungs-Slots**: 9
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
@@ -26,6 +27,17 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 
 ## Forschung {#research}
 
+- **Panzerungs-Slots.** Die Wraith hat 9 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Wraith und an jedem ihrer Designs. Alle 9 mit Hull Plating III gefüllt ergeben 135.000 Hülle.
+- **Designs.** Die Wraith hat 5 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Wraith dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
+
+| Design | Was es ändert |
+| :--- | :--- |
+| **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom |
+| **Wraith BILLY** | +5 % Basis-Hülle, +10 Basis-Tempo, +10 % Schildkapazität, Diminisher |
+| **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod |
+| **Wraith ATARAXIS** | -1 Laser-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff |
+| **Wraith MATT** | -10 % Basis-Hülle, +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -36,4 +48,4 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 
 ## Hintergrund {#lore}
 
-Die Wraith, ein Schlachtschiff aus geheimer Black-Ops-Forschung, ist der Gipfel des Großkampfschiffbaus. Ihr Antrieb aus Dunkler Materie und ihre dichten Energienetze erlauben es ihr, mehrere Hochleistungs-Laserbänke gleichzeitig zu betreiben. Sie ist extrem selten und teuer, und schon der Anblick einer Wraith auf den Sensoren genügt, damit selbst die erfahrensten Piratenkapitäne umkehren.
+Die Wraith, ein Schlachtschiff aus geheimer Black-Ops-Forschung, ist der Gipfel des Großkampfschiffbaus. Ihr Antrieb aus Dunkler Materie und ihre dichten Energienetze erlauben es ihr, mehrere Hochleistungs-Laserbänke gleichzeitig zu betreiben. Sie ist extrem selten und teuer, und schon der Anblick einer Wraith auf den Sensoren genügt, damit selbst die erfahrensten Piratenkapitäne umkehren. Sie verlässt die Montage in schlichtem Grau, und ihre Designs ebenso.

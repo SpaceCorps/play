@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: 속도 -->
 # 속도 계산 {#speed-calculation}
 
@@ -9,6 +9,8 @@
 함선의 최종 속도는 서버에서 다음 공식으로 계산합니다.
 
 \[\text{최종 속도} = (\text{함선 기본 속도} + \text{엔진 속도 합계}) \times (1.0 + \text{속도 보너스 비율 합계})\]
+
+[함선 디자인](/wiki/03-Mechanics/Ship-Designs.md)은 첫 번째 항을 바꿉니다(THUNDER는 기본 속도가 40 높고 DUMA는 20 낮습니다). 또한 NOTSUM과 RECON은 최종 속도에 계수를 하나 더 곱합니다(+2%와 +5%).
 
 ### 1. 엔진의 실효 속도 {#1-effective-engine-speed}
 

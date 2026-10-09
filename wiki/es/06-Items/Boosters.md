@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Potenciadores -->
 # Potenciadores {#boosters}
 
@@ -60,7 +60,7 @@ Todos los potenciadores duran **10 horas** de base y se activan en cuanto los co
 | **Loot Luck Booster** | Legendario | +5 % de probabilidad de botín raro de los NPC | 30.000 |
 
 > [!NOTE]
-> **¿Potenciador o amp?** Son cosas distintas. Todo potenciador lleva **Booster** en el nombre, funciona con un temporizador y no se equipa en nada: el **Laser Damage Booster I** y el **Laser Damage Booster II** dan +10 % de daño láser durante 10 horas, desde la tienda o desde el Ensamblaje. El **Damage Amp**, el **Crit Amp** y el **Penetration Amp** (niveles I a IV) son amplificadores láser: módulos que se equipan en la ranura de amp de un láser, sin temporizador ([Láseres y munición](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Antes de 0.4.12 los potenciadores se llamaban Damage Amp y Damage Amp II, Shield Wall y Shield Wall II, Hull Plating y Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet y Loot Luck; los que tenías en marcha siguieron con sus nombres nuevos.
+> **¿Potenciador o amp?** Son cosas distintas. Todo potenciador lleva **Booster** en el nombre, funciona con un temporizador y no se equipa en nada: el **Laser Damage Booster I** y el **Laser Damage Booster II** dan +10 % de daño láser durante 10 horas, desde la tienda o desde el Ensamblaje. El **Damage Amp**, el **Crit Amp** y el **Penetration Amp** (niveles I a IV) son amplificadores láser: módulos que se equipan en la ranura de amp de un láser, sin temporizador ([Láseres y munición](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Antes de 0.4.12 los potenciadores se llamaban Damage Amp y Damage Amp II, Shield Wall y Shield Wall II, Hull Plating y Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet y Loot Luck; los que tenías en marcha siguieron con sus nombres nuevos. El Hull Plating **Booster** no es el blindaje **Hull Plating** que va en las ranuras de blindaje de una nave ([Blindaje de casco](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

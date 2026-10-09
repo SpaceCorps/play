@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -6,7 +6,7 @@ La **Forgia** è la seconda scheda della pagina Assemblaggio (e della finestra A
 
 ## Che cosa si può forgiare {#what-can-be-forged}
 
-Laser, amp laser, Shield Core, celle scudo, motori, propulsori, Nuclei adattivi e Repair Drone: qualsiasi singolo pezzo di equipaggiamento che possa portare [bonus di incantamento](/wiki/06-Items/Overview.md). Può trovarsi nel tuo inventario, su una nave (ci resta e funziona subito con il nuovo grado) o essere montato in un altro oggetto. Droni, navi, munizioni, risorse e booster non si possono forgiare, e nemmeno nulla che si trovi nel Deposito di trasporto: toglilo prima.
+Laser, amp laser, Shield Core, celle scudo, motori, propulsori, Nuclei adattivi, Repair Drone e [corazza dello scafo](/wiki/06-Items/Hull-Plating.md): qualsiasi singolo pezzo di equipaggiamento che possa portare [bonus di incantamento](/wiki/06-Items/Overview.md). Può trovarsi nel tuo inventario, su una nave (ci resta e funziona subito con il nuovo grado) o essere montato in un altro oggetto. Droni, navi, munizioni, risorse e booster non si possono forgiare, e nemmeno nulla che si trovi nel Deposito di trasporto: toglilo prima.
 
 ## Sali di grado {#tier-up}
 
@@ -39,7 +39,7 @@ Gli ultimi due passi richiedono ciascuno **2 Dark Matter Plate**, in aggiunta a 
 
 L’equipaggiamento creato prima della Forgia mantiene i bonus con cui è stato generato, e spesso sono più piccoli di quelli della tabella (un pezzo Divino di allora può contenere +2%). Nulla li aumenta da solo: un salto di grado genera di nuovo ogni bonus nell’intervallo del nuovo grado e mantiene il valore migliore, e un’unione mantiene il valore migliore di ogni statistica.
 
-Un oggetto non può contenere più bonus di quante statistiche ha: uno Shield Core ne ha quattro, un laser tre (il Quantum Laser I e il II ne hanno due), un motore o un Nucleo adattivo due, un Momentum Thruster due, un Impulse Thruster uno (il suo moltiplicatore di 1,02–1,035 è troppo piccolo per un bonus, e la Forgia non ne genera su un moltiplicatore di 1,05 o inferiore, quindi il suo bonus può stare solo sulla velocità fissa), un Crit Amp I o un Repair Drone uno, gli amp critici più alti due, gli amp di danno e le celle scudo tre. Quando il grado successivo non contiene più bonus di quanti l’oggetto ne possa portare, il pannello lo dice: il grado rende allora solo più forti i bonus. I bonus di portata non superano mai +5%. Un Penetration Amp ha una sola statistica, quindi porta un solo bonus.
+Un oggetto non può contenere più bonus di quante statistiche ha: uno Shield Core ne ha quattro, un laser tre (il Quantum Laser I e il II ne hanno due), un motore o un Nucleo adattivo due, un Momentum Thruster due, un Impulse Thruster uno (il suo moltiplicatore di 1,02–1,035 è troppo piccolo per un bonus, e la Forgia non ne genera su un moltiplicatore di 1,05 o inferiore, quindi il suo bonus può stare solo sulla velocità fissa), un Crit Amp I, un Repair Drone o una corazza dello scafo uno (il suo scafo), gli amp critici più alti due, gli amp di danno e le celle scudo tre. Quando il grado successivo non contiene più bonus di quanti l’oggetto ne possa portare, il pannello lo dice: il grado rende allora solo più forti i bonus. I bonus di portata non superano mai +5%. Un Penetration Amp ha una sola statistica, quindi porta un solo bonus.
 
 **Un grado contiene al massimo questo numero di bonus.** Un passo di grado dà sempre a un oggetto il suo primo bonus; ogni altro slot che il nuovo grado apre, e per cui l’oggetto ha una statistica, viene riempito con il **50% di probabilità, ciascuno con il proprio tiro**, e uno slot che fallisce viene ritentato dal passo di grado successivo. Quindi uno Shield Core Divino ha due bonus metà delle volte e uno l’altra metà; uno Eterno ha tutti e quattro circa una volta su tre (3,1 in media), un laser con tre statistiche ha tutti e tre due volte su tre, e un motore li ha quasi sempre entrambi. Il pannello dice “fino a” per il grado successivo e indica quanto spesso si riempie un nuovo slot. Gli oggetti con una sola statistica e ogni passo verso Corrotto non sono toccati, e l’equipaggiamento fatto prima di questa regola mantiene i suoi bonus. Un’**unione** riempie uno slot che un passo di grado ha mancato: mantiene il miglior bonus di ogni statistica di due copie, fino al limite del grado. Per via della probabilità, un pezzo porta il bonus di assorbimento descritto qui sotto solo in parte dei casi (uno Shield Core Eterno il 78% delle volte, una cella scudo Eterna l’88%): le cifre lì valgono per i pezzi che lo portano.
 
@@ -47,7 +47,7 @@ Il **bonus di assorbimento di uno scudo** (e il Bonus assorbimento di una cella 
 
 Motori, propulsori, Nuclei adattivi e Repair Drone cambiano pochissimo con un bonus percentuale (un Engine II aggiunge 4 di velocità, quindi +12% è mezzo punto): forgiali se vuoi il grado, non per le statistiche.
 
-**Il bonus di un Penetration Amp** moltiplica la sua penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 8,7–9,2 punti per slot invece di 8. Nel miglior laser (un Fusion Core, uno Stiletto e tre Penetration Amp IV in ogni laser) 10 + 16 + 24 raggiungono già il tetto del 50% di un colpo laser, quindi quel bonus lì è sprecato; serve dove la somma resta sotto il tetto ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Il bonus di un Penetration Amp** moltiplica la sua penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 8,7–9,2 punti per slot invece di 8. Nulla limita la penetrazione di un colpo, quindi ogni punto conta: nel miglior laser (un Fusion Core, uno Stiletto e tre Penetration Amp IV in ogni laser) 10 + 16 + 24 fanno 50%, e tre bonus Eterni la portano fino al 53,6% ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Da dove arrivano i materiali {#where-the-materials-drop}
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: Pilotos de corporación -->
 # Pilotos de corporación {#company-pilots}
 
 Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores de origen (`M-1` a `M-4`, `T-1` a `T-4`, `G-1` a `G-4`). Vuelan para la corporación a todas horas y echan una mano a sus pilotos.
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## Quiénes son {#who-they-are}
@@ -15,7 +15,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
   - absorción del 45 %: sus escudos reciben el 45 % de cada impacto y el casco, el 55 %
   - 195 de daño base por andanada (munición x1), sin probabilidad de crítico, alcance 700
 - **En el minimapa**: un rombo verde para los pilotos de tu corporación y uno ámbar para los de otra corporación.
-- **Sin rango**: el pequeño símbolo delante del nombre de un piloto en vuelo es su [rango](/wiki/03-Mechanics/Ranks.md) y pertenece a los pilotos reales. Los pilotos de corporación no tienen ninguno y no están en la clasificación de tu corporación. La página Corporación lista a los pilotos reales de tu corporación con más puntos PvE primero, y el rango de un piloto es su puesto en esa lista.
+- **Sin rango**: el pequeño símbolo delante del nombre de un piloto en vuelo es su [rango](/wiki/03-Mechanics/Ranks.md) y pertenece a los pilotos reales. Los pilotos de corporación no tienen ninguno y no están en la clasificación de tu corporación. La página Corporación lista a los pilotos reales de tu corporación con más puntos PvE primero, y el rango de un piloto sale de sus puntos PvE en esa lista y, en los seis mejores rangos, de las plazas que tiene la corporación.
 
 ## Qué hacen {#what-they-do}
 

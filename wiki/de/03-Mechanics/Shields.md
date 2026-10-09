@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ff812e23011be0b8 -->
+<!-- wiki-i18n source: fa02f72ab515dfbf -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -41,10 +41,21 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 \[\text{Schildanteil} = \text{Begrenzen}(\text{Absorption} - \text{Durchdringung};\ 0;\ 100\%)\]
 
 - Die Schilde nehmen höchstens `round(damage x share)` des Treffers; die Hülle nimmt den Rest. Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter, und stehen die Schilde auf 0, trifft der gesamte Schaden direkt die HP.
-- **Woher die Durchdringung kommt**: die *Schilddurchdringung* einer direkten Rakete (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; Flächenschaden hat keine, siehe [Raketen](/wiki/06-Items/Rockets.md)) und die der Lasermunition (Ultra Core 5 %, Experimental Fusion Core 10 %; siehe [Laser & Munition](/wiki/06-Items/Lasers.md)). Aliens haben keine, ebenso wenig die Munition x1 und x2. Ein Lasertreffer nimmt außerdem die Penetration Amps der Laser des Schützen (+2 % bis +8 % pro Slot, der Mittelwert über seine Laser) und die Durchdringung einer Drohnenformation (Gemini +9 %, Stiletto +16 %): Die Summe endet bei **50 %** für einen Laser und bei 40 % für eine Rakete ([so setzt sich ein Lasertreffer zusammen](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Beispiele**: 80 % Absorption gegen eine Lancet III (35 %): Die Schilde nehmen 45 % des Treffers, die Hülle 55 %. 100 % dagegen: 65 % und 35 %. 112 % gegen 12 % Durchdringung: der ganze Treffer. 45 % (ein Light Shield Core allein) gegen 35 %: 10 % auf den Schild, der Rest auf die Hülle. Keine Rakete durchdringt einen Light Shield Core vollständig. Der beste Laser (50 %) schafft es: Gegen ihn nimmt der beste Schild (80 %) 30 % des Treffers und die Hülle 70 %, ein Light Shield Core allein (45 %) nimmt nichts.
+- **Woher die Durchdringung kommt**: die *Schilddurchdringung* einer direkten Rakete (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; Flächenschaden hat keine, siehe [Raketen](/wiki/06-Items/Rockets.md)) und die der Lasermunition (Ultra Core 5 %, Experimental Fusion Core 10 %; siehe [Laser & Munition](/wiki/06-Items/Lasers.md)). Aliens haben keine, ebenso wenig die Munition x1 und x2. Ein Lasertreffer nimmt außerdem die Penetration Amps der Laser des Schützen (+2 % bis +8 % pro Slot, der Mittelwert über seine Laser) und die Durchdringung einer Drohnenformation (Gemini +9 %, Stiletto +16 %); eine direkte Rakete addiert die der Formation zu ihrer eigenen. **Nichts begrenzt die Summe**: Die Schilde fangen die Absorption abzüglich all dessen ab, bis hinunter zu nichts vom Treffer ([so setzt sich ein Lasertreffer zusammen](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Beispiele**: 80 % Absorption gegen eine Lancet III (35 %): Die Schilde nehmen 45 % des Treffers, die Hülle 55 %. 100 % dagegen: 65 % und 35 %. 112 % gegen 12 % Durchdringung: der ganze Treffer. 45 % (ein Light Shield Core allein) gegen 35 %: 10 % auf den Schild, der Rest auf die Hülle. Eine Rakete allein durchdringt keinen Kern vollständig, aber eine Lancet III mit einer Stiletto (35 % + 16 % = 51 %) lässt einem Light Shield Core allein (45 %) nichts vom Treffer, und der beste Laser (50 %) ebenso: Gegen diesen Laser nimmt der beste Schild (80 %) 30 % des Treffers und die Hülle 70 %.
 - Aliens haben keinen Absorptionswert: Sie teilen jeden Treffer 80 % / 20 % auf, abzüglich der Durchdringung des Treffers.
 - Der Schaden einer Siphon Battery geht allein vom Schild ab: Absorption und Durchdringung spielen dabei keine Rolle.
+
+**Wo die Schilde nichts nehmen.** Eine Durchdringung in Höhe der Absorption oder darüber lässt den Schilden nichts vom Treffer: Die Hülle nimmt alles. Die Tabelle zeigt, was die Schilde von einem Treffer des besten Lasers (50 %) und der besten direkten Rakete (eine Lancet III oder eine Rivet III mit einer Stiletto, 51 %) nehmen:
+
+| Schild | Absorption | Schilde nehmen, bester Laser (50 %) | Schilde nehmen, beste direkte Rakete (51 %) |
+| :--- | ---: | ---: | ---: |
+| Light Shield Core | 45 % | 0 % | 0 % |
+| Basic Shield Core | 48 % | 0 % | 0 % |
+| Heavy Shield Core | 50 % | 0 % | 0 % |
+| Der beste Schild ab Werk | 80 % | 30 % | 29 % |
+| Ein Schild mit 100 % | 100 % | 50 % | 49 % |
+| Ein Schild mit 120 % | 120 % | 70 % | 69 % |
 
 #### 100 % erreichen und überschreiten {#reaching-and-passing-100-}
 

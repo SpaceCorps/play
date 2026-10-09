@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5c120158150a483e -->
+<!-- wiki-i18n source: eeecb37fc86f287d -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
@@ -49,12 +49,24 @@ De översta laserförstärkarna, nivå II till IV av sköldcellerna och styrrake
 | **Momentum Thruster IV** | 1 Momentum Thruster III | 2 000 | 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | 90 s |
 | **Heavy Shield Core** | 1 Basic Shield Core | 2 000 | 20 Cataclysite, 8 Reinforced Hull Plate, 3 Dark Matter Plate | 90 s |
 | **Engine III** | 1 Engine II | 2 000 | 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | 90 s |
+| **Hull Plating II** | 1 Hull Plating I | 2 500 | 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | 300 s |
+| **Hull Plating III** | 1 Hull Plating II | 4 000 | 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | 600 s |
 
 I genomsnitt släpper en Goombah 4 Cataclysite, 3,25 Ship Fragments, 0,6 Reinforced Hull Plates och 0,25 Power Cores, så bytet till en Damage Amp IV eller en Crit Amp IV kräver ungefär 8 Goombah, bytet till en cell ungefär 7 (nivå II), 10 (III) eller 14 (IV) och till en Heavy Shield Core ungefär 14; bytet till en styrraket ungefär 4 (nivå II), 10 (III) eller 19 (IV) och till en Engine III ungefär 19. En Bulwark släpper 2 Cataclysite, 2 Ship Fragments och 0,3 Reinforced Hull Plates, men ingen Power Core. En Damage Amp eller en Crit Amp på nivå II eller III kräver ungefär 3 respektive 5 Goombah, och en Penetration Amp lika många utom sina 40 Quorvium, ungefär 14 (Daraxium och Nyxite släpps av Seeker, Phantasm och Bulwark).
 
 Plåtar släpps inte. Smedjemodulen i din [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar Velkonite Reinforced Plates för nivå II och III av Velkonite-malm, 40 malm per plåt på smedjemodulens nivå 1. En Velkonite-samlare på nivå 1 bryter 10 malm i timmen, så de 4 plåtarna till en cell eller en styrraket på nivå III är 16 timmars brytning och de 2 plåtarna på nivå II 8; en förstärkare på nivå III kräver 2 plåtar (8 timmar) och en på nivå II en enda plåt (4 timmar). Sista nivån kräver i stället **3 Dark Matter Plates**: en förstärkare, cell eller styrraket på nivå IV, Heavy Shield Core, Engine III och Helios Beam. Monteringen pressar varje platta av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium, när du har forskat fram plattans recept, och Dark Matter kommer från det svarta hålet: en del av sista nivån rymmer 15 Dark Matter, i genomsnitt 7,5 N.I.K.E.-raketer ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)). Se [Resurser](/wiki/06-Items/Resources.md) för varifrån varje material kommer.
 
 **Helios Beam** är en uppgradering av samma slag, en laser av en laser: den förbrukar en Starfire-III och kräver 2 000 Thulium, 50 Cataclysite, 2 Power Cores, 4 Reinforced Hull Plates, 18 Orvium Reinforced Plates och 3 Dark Matter Plates, och behåller Starfire-III:s förtrollningsnivå på samma sätt. Det gäller även **Starfire-III**: den förbrukar en Quantum Laser III och kräver 1 500 Thulium, 100 000 krediter, 15 Ship Fragments, 1 Reinforced Hull Plate och 8 Velkonite Reinforced Plates, och behåller Quantum Laser III:s förtrollningsnivå. Det gäller även **Quantum Laser III**: den förbrukar en Quantum Laser II (butikens laser) och kräver 1 500 Thulium, 10 Ship Fragments och 2 Velkonite Reinforced Plates, och behåller Quantum Laser II:s förtrollningsnivå. Alla tre finns på sidan [Lasrar](/wiki/06-Items/Lasers.md); tabellen ovan listar förstärkarna, cellerna och styrraketerna på nivå II till IV, Heavy Shield Core och Engine III.
+
+## Produktionskön {#the-production-queue}
+
+Allt som Monteringen tillverkar går genom **en enda produktionskö**, kortet högst upp på fliken Tillverkning. Dess jobb körs **ett i taget**: ett nytt jobb startar när det före är klart, också medan du är borta, och du betalar när du köar det. Ett färdigt jobb väntar på dig: **Hämta** lämnar ut det, och **Hämta alla** (visas från två färdiga jobb) lämnar ut alla färdiga jobb på en gång. Kön rymmer **högst 100 jobb**: det som körs, de som väntar och de färdiga som du ännu inte har hämtat.
+
+**Flera exemplar på en gång.** Ett receptkort som tillåter det har knapparna **×1**, **×5**, **×10** och **Max** ovanför knappen Montera. En sats är **ett jobb**, inte flera: den tar receptets tid gånger antalet exemplar, med en timer och en rad i kön (markerad ×5, till exempel), och **en enda Hämta lämnar ut alla exemplar**. Kostnaden för **alla** exemplar, krediterna, Thulium och materialen, tas **i förväg, helt eller inte alls**: kan du inte betala för varje exemplar tas inget och inget köas. En knapp du inte har råd med är nedtonad, och **Max** är så många exemplar som du kan betala just nu, upp till 25. Med flera exemplar visar kortet den totala kostnaden, de totala materialen och den totala tiden. En sats raketer som skulle ta dig förbi det största antalet raketer du kan bära avvisas i sin helhet.
+
+**Ett i taget.** Skepp, Extra Slots CPU, uppgraderingen av en utrustningsdel (en Damage Amp IV av en Damage Amp III, en Heavy Shield Core av en Basic Shield Core) och Master Drones uppgradering har inga knappar: var och en förbrukar eller installerar det enda du väljer. Du kan ändå köa flera av dem, den ena efter den andra. Ombyggnaden av ett skepp till en [design](/wiki/03-Mechanics/Ship-Designs.md) är också ett sådant jobb och blir klart av sig självt: det finns inget att hämta, och **Hämta alla** hoppar över det.
+
+**Varje del slumpas för sig.** Utrustning slumpar sin [förtrollningsnivå](#item-enchants) när du hämtar den, och varje del i en sats slumpas för sig: tio lasrar ur en sats är tio separata slumpningar, som om du hade gjort dem en och en. En uppgradering behåller nivån hos delen den förbrukade.
 
 ## Förtrollningar av föremål {#item-enchants}
 
@@ -69,7 +81,7 @@ Utrustning har en **förtrollning**: en nivå som låter den rymma upp till någ
 | 5. **Evig** | 4 | +9 % till +15 % | 0,01 % |
 
 - Butiksföremål är alltid Standard. Utrustning du bygger i Monteringen slumpar en nivå när du hämtar den (kolumnen Chans). Över det höjs nivån i [Smedjan](/wiki/06-Items/Forge.md), ett steg i taget; det enda andra sättet är en modulupgradering i Monteringen (en Damage Amp IV, en Crit Amp IV, en sköldcell eller styrraket på nivå II till IV, en Heavy Shield Core, en Engine III, en Quantum Laser III, en Starfire-III, Helios Beam), som behåller nivån hos delen den görs av.
-- Ett föremål rymmer aldrig fler bonusar än det har värden: en sköldkärna har fyra, en laser tre (Quantum Laser I och II två, eftersom de inte har någon egen kritisk chans), en motor, en Momentum Thruster eller en Adaptive Core två, en Impulse Thruster, en Crit Amp I eller en Repair Drone bara en (en Impulse Thruster har bara sin fasta fart att förstärka: Smedjan slumpar ingen bonus på dess multiplikator på x1,02 till x1,035, som vore värd nästan ingenting), de högre kritförstärkarna två, skadeförstärkarna och sköldcellerna tre. Nivåns gräns är det mindre av de två talen. En Penetration Amp har bara ett värde och rymmer därför en bonus.
+- Ett föremål rymmer aldrig fler bonusar än det har värden: en sköldkärna har fyra, en laser tre (Quantum Laser I och II två, eftersom de inte har någon egen kritisk chans), en motor, en Momentum Thruster eller en Adaptive Core två, en Impulse Thruster, en Crit Amp I, en Repair Drone eller ett skrovpansar bara en (en Impulse Thruster har bara sin fasta fart att förstärka: Smedjan slumpar ingen bonus på dess multiplikator på x1,02 till x1,035, som vore värd nästan ingenting), de högre kritförstärkarna två, skadeförstärkarna och sköldcellerna tre. Nivåns gräns är det mindre av de två talen. En Penetration Amp har bara ett värde och rymmer därför en bonus.
 - [Smedjan](/wiki/06-Items/Forge.md#buffs-by-tier) fyller platserna efter ett föremåls första bonus bara av en slump: en nivåhöjning ger alltid den första bonusen, och varje annan plats som den nya nivån öppnar fylls med 50 % chans. En nivå rymmer alltså högst så många bonusar (ett Gudomligt föremål har två hälften av gångerna).
 - En bonus på **Räckvidd** går aldrig över +5 %, på någon nivå.
 - Bonusar förblir små jämfört med nästa föremål uppåt: en maxad Quantum Laser I gör fortfarande mindre skada än en Quantum Laser II utan bonusar.
@@ -89,8 +101,9 @@ Varje material och båda valutorna, med varifrån var och en kommer och vad den 
 
 ## Kategorier {#categories}
 
-Butiken, hangarens inventarie och de andra föremålslistorna följer en och samma ordning: skeppet, sedan en laser med sina förstärkare och sin ammunition, en sköld med sina celler, en motor med sina styrraketer, de adaptiva kärnorna, extrautrustning, drönare, drönarformationer, boosters och resurser. Inom ett slag kommer det billigaste först.
+Butiken, hangarens inventarie och de andra föremålslistorna följer en och samma ordning: skeppet, dess skrovpansar, sedan en laser med sina förstärkare och sin ammunition, en sköld med sina celler, en motor med sina styrraketer, de adaptiva kärnorna, extrautrustning, drönare, drönarformationer, boosters och resurser. Inom ett slag kommer det billigaste först.
 
+- **Skrovpansar**: Pansar för pansarplatserna på de fyra skeppen du tillverkar, Hull Plating I till III, var och en med mer skrov. Se [Skrovpansar](/wiki/06-Items/Hull-Plating.md).
 - **Lasrar**: Dina primära vapensystem, och de [förstärkare](/wiki/06-Items/Lasers.md) som sätts i dem.
 - **Sköldar**: Generatorer och [celler](/wiki/06-Items/Shields.md) för försvar.
 - **Framdrivning**: Motorer och [styrraketer](/wiki/06-Items/Propulsion.md) för fart.

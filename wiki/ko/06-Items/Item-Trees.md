@@ -26,6 +26,18 @@ Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 scienc
 Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 300 Ship Fragment, 50 Reinforced Hull Plate, 15 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
 ```
 
+## 선체 장갑 {#hull-plating}
+
+자세한 내용과 가격: [선체 장갑](/wiki/06-Items/Hull-Plating.md)
+
+```tree
+Hull Plating I | hull-plating, uncommon | buy 5000 Thulium | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating I => Hull Plating II => Hull Plating III
+```
+
 ## 레이저와 탄약 {#lasers}
 
 자세한 내용과 가격: [레이저와 탄약](/wiki/06-Items/Lasers.md)

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
@@ -140,7 +140,7 @@ En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som �
 - **Omladdning.** Asterism gör den gemensamma timern 35 % längre (4,05 sekunder), Cordon 11 % längre (3,33) och Redoubt 27 % kortare (2,19), men aldrig kortare än raketens flygtid plus ett ögonblick. Med Redoubt väntar de snabba raketerna (Lancet I, Rivet I och II, Ember I, Scatter I och II) de 2,19 sekunderna, en Rivet III väntar 2,3, en Lancet III 2,9 och en Ember III hela 3; N.U.K.E. och N.I.K.E. väntar 4,1 och 4,6 sekunder vad du än bär. Väntan sätts när du avfyrar, så att byta formation efteråt förkortar den inte, och laddcirkeln över raketplatserna följer den.
 - **De två storas gränser står sig.** Med den bästa formationen träffar en N.I.K.E. med upp till 116 250, vilket en oskadad Paragon (128 000) överlever, och en N.U.K.E. med upp till 77 500, vilket en Goombah (80 000) överlever.
 - **Undanmanöver.** Asterisms 7 % undanmanöver ger en direkt raket som träffar dig 7 % chans att inte göra någon skada alls, och ett flytande ”Miss” visas över ditt skepp; en områdesexplosion har inget sikte och undviks aldrig.
-- **Genomträngning.** Gemini och Stiletto lägger sina poäng till sköldgenomträngningen hos en direkt raket (en explosion har ingen), upp till 40 % sammanlagt. En laserträff går upp till 50 % ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Genomträngning.** Gemini och Stiletto lägger sina poäng till sköldgenomträngningen hos en direkt raket (en explosion har ingen), utan tak: en Lancet III med en Stiletto ger 51 %. En laserträff lägger till dem på samma sätt till ammunitionens och förstärkarnas ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regler {#rules}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
+<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -10,6 +10,7 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 - **Grundhastighet**: 250
 - **Laserplatser**: 13
 - **Extraplatser**: 3
+- **Pansarplatser**: 7
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -26,6 +27,15 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 ## Forskning {#research}
 
+- **Pansarplatser.** Det här skeppet har 7 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 7 fyllda med Hull Plating III ger 105 000 skrov.
+- **Designer.** Skeppet har 3 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
+
+| Design | Vad den ändrar |
+| :--- | :--- |
+| **Storm NOTSUM** | -20 % basskrov, +20 bashastighet, +2 % hastighet, Blink |
+| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -50 % sköldkapacitet, +10 % sköldgenomträngning |
+| **Storm RECON** | -20 % basskrov, +5 % hastighet, -2 laserplatser, Chameleon |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -38,4 +48,4 @@ När du har forskat fram dess teknologi kostar det 1 [Ancient Control Unit](/wik
 
 ## Bakgrund {#lore}
 
-Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Benvit plätering över ett blågrönt skelett, med orange paneler och ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka tretton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.
+Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Ljusgrå plätering över ett mörkare skelett, med vita ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka tretton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.

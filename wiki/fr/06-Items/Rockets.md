@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
@@ -140,7 +140,7 @@ Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule
 - **Rechargement.** Asterism allonge le minuteur commun de 35 % (4,05 secondes), Cordon de 11 % (3,33) et Redoubt le raccourcit de 27 % (2,19), mais jamais en dessous du vol de la roquette plus un instant. Sous Redoubt, les roquettes rapides (Lancet I, Rivet I et II, Ember I, Scatter I et II) attendent les 2,19 secondes, une Rivet III attend 2,3, une Lancet III 2,9 et une Ember III les 3 pleines ; la N.U.K.E. et la N.I.K.E. attendent 4,1 et 4,6 secondes, quelle que soit la formation. L’attente est fixée au tir, donc changer de formation ensuite ne la raccourcit pas, et le balayage sur les emplacements de roquette la suit.
 - **Les limites des deux grosses tiennent.** Avec la meilleure formation, une N.I.K.E. frappe jusqu’à 116 250, ce qu’un Paragon intact (128 000) survit, et une N.U.K.E. jusqu’à 77 500, ce qu’un Goombah (80 000) survit.
 - **Esquive.** Les 7 % d’esquive d’Asterism donnent à une roquette directe qui vous touche 7 % de chances de ne faire aucun dégât, et un « Raté » flottant s’affiche au-dessus de votre vaisseau ; une explosion de zone ne vise pas et n’est jamais esquivée.
-- **Pénétration.** Gemini et Stiletto ajoutent leurs points à la pénétration de bouclier d’une roquette directe (une explosion n’en a pas), jusqu’à 40 % en tout. Un tir laser va jusqu’à 50 % ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Pénétration.** Gemini et Stiletto ajoutent leurs points à la pénétration de bouclier d’une roquette directe (une explosion n’en a pas), sans plafond : une Lancet III avec un Stiletto fait 51 %. Un tir laser les ajoute de la même façon à celles de ses munitions et de ses amplis ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Règles {#rules}
 

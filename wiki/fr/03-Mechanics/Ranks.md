@@ -1,84 +1,86 @@
-<!-- wiki-i18n source: 09eab0ba9b8c9863 -->
+<!-- wiki-i18n source: 26f4bca5b9b9516f -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
-Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une échelle militaire de 8 paliers de 3 degrés chacun, 24 grades au total. Votre grade est votre **place parmi les pilotes de votre corporation**, comptée en **points PvE** : les points que vous gagnez grâce à votre niveau, à votre expérience et aux aliens que vous détruisez. En vol, le jeu n’affiche qu’un petit **symbole** devant le nom d’un pilote, pour que vous distinguiez d’un coup d’œil les meilleurs pilotes d’une corporation d’une jeune recrue. Les mots se trouvent sur la page Corporation et dans l’info-bulle d’un symbole.
+Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une échelle militaire de 8 paliers de 3 degrés chacun, 24 grades au total. Votre grade vient de vos **points PvE** : les points que vous gagnez grâce à votre niveau, à votre expérience et aux aliens que vous détruisez. Chaque grade exige un **minimum** de points PvE, et les six meilleurs grades ont en plus un nombre fixe de **places** dans chaque corporation. En vol, le jeu n’affiche qu’un petit **symbole** devant le nom d’un pilote, pour que vous distinguiez d’un coup d’œil les meilleurs pilotes d’une corporation d’une jeune recrue, et un pilote de tout le serveur porte une **couronne** dorée au-dessus de son symbole. Les mots se trouvent sur la page Corporation et dans l’info-bulle d’un symbole.
 
 **En une minute**
 
-- Votre corporation tient une seule liste de ses pilotes, celui qui a le plus de points PvE en premier. Votre grade découle de votre place dans cette liste.
-- Seul le meilleur pilote de la corporation est **Amiral sénior**. Tous les autres sont répartis de haut en bas dans les 23 autres grades : peu de pilotes en haut, la plupart en bas.
-- Chaque grade exige aussi un **minimum de points PvE**, pour qu’une corporation petite ou récente ne puisse pas distribuer les plus hauts grades pour rien. L’Amiral sénior en demande 20 000.
-- Votre grade bouge. Il baisse quand d’autres pilotes vous dépassent et monte quand vous les dépassez. Une baisse n’est jamais annoncée ; un nouveau meilleur grade, si.
-- Seuls les pilotes qui ont des points PvE et ont volé durant les 30 derniers jours figurent dans la liste. Tous les autres sont Pilote junior jusqu’à leur prochain vol.
-- La réinitialisation ne change les points de personne : la liste ne repart donc pas de zéro.
+- Votre corporation tient une seule liste de ses pilotes, celui qui a le plus de points PvE en premier. Chaque corporation a la sienne, et les pilotes des autres corporations ne comptent jamais contre vous.
+- Vous avez le **grade le plus élevé dont vos points atteignent le minimum et qui a encore une place libre dans votre corporation**.
+- Les six meilleurs grades ont un nombre de places par corporation : **Amiral sénior 1** (à partir de 50 000 points PvE), **Amiral 2** (à partir de 45 000), **Amiral junior 4** (à partir de 40 000), **Général sénior 8** (à partir de 30 000), **Général 10** (à partir de 27 500) et **Général junior 15** (à partir de 25 000). Les grades en dessous n’ont pas de limite de pilotes, et chacun demande 2 500 points de moins que le grade au-dessus, jusqu’aux 2 500 du grade Capitaine junior.
+- **Mêmes points, même grade.** Deux pilotes qui ont les mêmes points n’ont jamais des grades différents. Quand la dernière place d’un grade tombe au milieu d’une égalité, tous les ex æquo prennent le meilleur grade, même si cela dépasse ses places.
+- Seuls les pilotes qui ont des points PvE et ont volé durant les 30 derniers jours figurent dans une liste. Tous les autres sont Pilote junior jusqu’à leur prochain vol, et n’ont pas de place.
+- Une **couronne** dorée au-dessus du symbole désigne le pilote qui a le plus de points PvE de tout le serveur : toutes les corporations, les trois mondes.
+- Votre grade bouge. Jusqu’à Colonel sénior, il ne dépend que de vos points, donc il ne fait que monter. Les six meilleurs grades bougent aussi avec les autres pilotes de votre corporation : ils peuvent baisser quand d’autres prennent les places au-dessus de vous. Une baisse n’est jamais annoncée ; un nouveau meilleur grade, si.
+- La réinitialisation ne change les points de personne : les listes ne repartent donc pas de zéro.
 - Le symbole devant un nom est le grade : une forme pour le palier, de une à trois marques pour le degré.
 
-![All ranks on the Company page: the 24 ranks as a pyramid, each with its share of the company, the pilots who hold it now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![The gold crown over a rank symbol, shown on the Generals and the Admirals](../../img/wiki-img/shots/rank-crown.jpg)
 ![The 24 company ranks: eight tiers of three grades, each a symbol of chevrons, bars, stars and a laurel](../../img/wiki-img/shots/ranks-sheet.jpg)
 
 ## Comment votre grade est calculé {#the-company-ladder}
 
-Les pilotes de votre corporation, **les trois mondes réunis**, se rangent sur une seule ligne, celui qui a le plus de points PvE en premier. À points égaux, celui qui a le niveau le plus élevé passe devant, puis le plus ancien. Cette ligne est le **classement** de la corporation, et votre grade vient de deux choses :
+Les pilotes de votre corporation, **les trois mondes réunis**, se rangent sur une seule ligne, celui qui a le plus de points PvE en premier. Cette ligne est le **classement**. À points égaux, celui qui a le niveau le plus élevé passe devant, puis le plus ancien, mais cela ne règle que l’ordre de la liste : cela ne donne jamais des grades différents. Votre grade vient de deux choses, vos points et les places de votre corporation :
 
-1. **Votre place.** Le pilote en place 1 est l’**Amiral sénior**, seul. Les pilotes derrière lui sont répartis dans les 23 autres grades par parts du classement, et chaque grade compte un quart de pilotes de plus que le grade au-dessus. Ainsi, environ un cinquième des pilotes sont Pilote junior, et le meilleur dixième est Capitaine ou mieux.
-2. **Vos points.** Chaque grade exige un minimum de points PvE ([le tableau ci-dessous](#the-24-ranks)). Vous avez le plus bas des deux grades : celui que donne votre place et celui qu’atteignent vos points.
+1. **Chaque grade a un minimum** de points PvE ([le tableau ci-dessous](#the-24-ranks)). Un pilote n’a jamais un grade dont ses points n’ont pas atteint le minimum.
+2. **Les six meilleurs grades ont des places.** Elles se remplissent par le haut, le meilleur grade d’abord : les meilleurs pilotes qui atteignent 50 000 points ont le grade Amiral sénior, jusqu’à son unique place ; parmi les pilotes restants, les meilleurs qui atteignent 45 000 ont le grade Amiral, jusqu’à ses deux places ; et ainsi de suite jusqu’à Général junior.
+3. **Tous les autres ont le grade le plus élevé que leurs points atteignent sous ces six**, soit Colonel sénior au mieux. Un pilote qui atteint le minimum d’un grade mais en trouve les places pleines descend au meilleur grade qui lui reste ouvert.
+4. **Une égalité n’est jamais coupée.** Les pilotes qui ont les mêmes points ont le même grade. Si la dernière place d’un grade tombe au milieu d’une égalité, toute l’égalité prend le meilleur grade : un grade peut donc compter plus de pilotes que de places, et jamais moins qu’il ne devrait.
 
-**Un exemple.** Une corporation compte 31 pilotes dans son classement. Par la place seule, les grades se répartissent ainsi ; la dernière colonne donne le minimum de points PvE que le grade exige.
+**Un exemple.** Les douze meilleurs pilotes d’une corporation, avec le grade de chacun :
 
-| Place | Grade | Points PvE minimum |
-| :---: | :--- | ---: |
-| 1 | Amiral sénior | 20 000 |
-| 2 | Commandant sénior | 4 700 |
-| 3 | Capitaine sénior | 3 000 |
-| 4 | Capitaine | 2 600 |
-| 5 | Lieutenant sénior | 1 900 |
-| 6–7 | Lieutenant | 1 500 |
-| 8 | Lieutenant junior | 1 300 |
-| 9–10 | Sergent sénior | 1 000 |
-| 11–13 | Sergent | 800 |
-| 14–16 | Sergent junior | 610 |
-| 17–20 | Pilote sénior | 350 |
-| 21–24 | Pilote | 150 |
-| 25–31 | Pilote junior | 0 |
+| Place | Points PvE | Grade |
+| :---: | ---: | :--- |
+| 1 | 60 000 | Amiral sénior |
+| 2 | 52 000 | Amiral |
+| 3 | 51 000 | Amiral |
+| 4 | 50 500 | Amiral junior |
+| 5 | 44 000 | Amiral junior |
+| 6 | 30 000 | Général sénior |
+| 7 | 29 000 | Général |
+| 8 | 28 000 | Général |
+| 9 | 26 000 | Général junior |
+| 10 | 24 999 | Colonel sénior |
+| 11 | 21 000 | Colonel |
+| 12 | 1 000 | Sergent sénior |
 
-Vous êtes en place 16 sur 31 avec 1 800 points PvE. La page Corporation affiche « Place 16 sur 31 » et une petite étiquette « Top 52 % » : vous faites partie des 52 % meilleurs de votre corporation. Les places 14 à 16 sont des Sergents juniors, c’est donc votre grade, alors que vos points seuls atteindraient Lieutenant (1 500). Pour devenir Sergent, il faut atteindre la place 13. Elle appartient à Sable, qui a 2 100 points PvE. Pour le dépasser, il vous en faut 2 101, soit 301 de plus, et la page Corporation vous le dit exactement : « 301 points PvE pour dépasser Sable et atteindre Sergent ».
-
-Les points comptent aussi tout en haut. Si le meilleur pilote de cette corporation a 12 000 points PvE, il est Général sénior jusqu’à en avoir 20 000, quelle que soit sa place.
+La place 4 a 50 500 points, ce qui suffit pour Amiral sénior, mais l’unique place de ce grade et les deux de Amiral sont prises : il est donc Amiral junior. Les places 7 et 8 ont 29 000 et 28 000 : toutes deux atteignent les 27 500 de Général et pas les 30 000 de Général sénior, et il reste des places pour Général : les deux pilotes sont donc Général. Le pilote qui a 24 999 est à un point de Général junior et il est Colonel sénior, le meilleur grade qui lui reste ouvert. Si deux pilotes des premières places avaient chacun 60 000, tous deux seraient Amiral sénior, et les deux suivants, avec 50 000 et 45 000, seraient Amiral.
 
 > [!NOTE]
-> Les grades sont découpés en pilotes entiers : une petite corporation n’a donc personne dans certains des grades supérieurs. Un Colonel demande une corporation d’au moins 46 pilotes dans le classement, un Général 118, un Général sénior 178, un Amiral junior 301 et un Amiral 675. La place 1 fait exception : toute corporation en a une, et son pilote est l’Amiral sénior dès qu’il a 20 000 points PvE.
+> Les places ne comptent que lorsque plus de pilotes d’une corporation atteignent un minimum que le grade n’a de places. Dans une petite corporation, le grade ne dépend que des points : un pilote seul dans sa corporation est Colonel avec 21 000 points PvE et Amiral sénior avec 50 000.
 
 ## Les 24 grades {#the-24-ranks}
 
-La **part** est la fraction de votre corporation qui détient exactement ce grade ; le meilleur pilote, seul au sommet, n’est pas compté. Le **minimum** est le plus petit nombre de points PvE que le grade exige, quelle que soit votre place.
+Les **places** sont le nombre de pilotes d’une même corporation qui peuvent avoir exactement ce grade ; un tiret signifie pas de limite. Le **minimum** est le moins de points PvE que le grade demande.
 
-| # | Grade | Part de la corporation | Points PvE minimum |
+| # | Grade | Places par corporation | Points PvE minimum |
 | :---: | :--- | ---: | ---: |
-| 1 | Pilote junior | 20,1 % | 0 |
-| 2 | Pilote | 16,1 % | 150 |
-| 3 | Pilote sénior | 12,9 % | 350 |
-| 4 | Sergent junior | 10,3 % | 610 |
-| 5 | Sergent | 8,24 % | 800 |
-| 6 | Sergent sénior | 6,59 % | 1 000 |
-| 7 | Lieutenant junior | 5,27 % | 1 300 |
-| 8 | Lieutenant | 4,22 % | 1 500 |
-| 9 | Lieutenant sénior | 3,38 % | 1 900 |
-| 10 | Capitaine junior | 2,7 % | 2 200 |
-| 11 | Capitaine | 2,16 % | 2 600 |
-| 12 | Capitaine sénior | 1,73 % | 3 000 |
-| 13 | Commandant junior | 1,38 % | 3 500 |
-| 14 | Commandant | 1,11 % | 4 100 |
-| 15 | Commandant sénior | 0,88 % | 4 700 |
-| 16 | Colonel junior | 0,71 % | 5 600 |
-| 17 | Colonel | 0,57 % | 6 500 |
-| 18 | Colonel sénior | 0,45 % | 7 700 |
-| 19 | Général junior | 0,36 % | 8 900 |
-| 20 | Général | 0,29 % | 10 000 |
-| 21 | Général sénior | 0,23 % | 12 000 |
-| 22 | Amiral junior | 0,19 % | 14 000 |
-| 23 | Amiral | 0,15 % | 17 000 |
-| 24 | Amiral sénior | #1 | 20 000 |
+| 1 | Pilote junior | – | 0 |
+| 2 | Pilote | – | 150 |
+| 3 | Pilote sénior | – | 350 |
+| 4 | Sergent junior | – | 610 |
+| 5 | Sergent | – | 800 |
+| 6 | Sergent sénior | – | 1 000 |
+| 7 | Lieutenant junior | – | 1 300 |
+| 8 | Lieutenant | – | 1 500 |
+| 9 | Lieutenant sénior | – | 1 900 |
+| 10 | Capitaine junior | – | 2 500 |
+| 11 | Capitaine | – | 5 000 |
+| 12 | Capitaine sénior | – | 7 500 |
+| 13 | Commandant junior | – | 10 000 |
+| 14 | Commandant | – | 12 500 |
+| 15 | Commandant sénior | – | 15 000 |
+| 16 | Colonel junior | – | 17 500 |
+| 17 | Colonel | – | 20 000 |
+| 18 | Colonel sénior | – | 22 500 |
+| 19 | Général junior | 15 | 25 000 |
+| 20 | Général | 10 | 27 500 |
+| 21 | Général sénior | 8 | 30 000 |
+| 22 | Amiral junior | 4 | 40 000 |
+| 23 | Amiral | 2 | 45 000 |
+| 24 | Amiral sénior | 1 | 50 000 |
 
 ## Qui figure dans le classement {#who-is-on-the-ladder}
 
@@ -88,19 +90,19 @@ Un pilote figure dans le classement de sa corporation quand **les trois** condit
 - il a des points PvE : la première destruction met un nouveau pilote dans le classement ;
 - il a volé durant les **30 derniers jours**.
 
-Un pilote qui n’est pas dans le classement est **Pilote junior** partout où un grade s’affiche, n’a pas de place et ne figure pas dans la liste de la corporation. La règle existe pour qu’un pilote qui a essayé le jeu une fois et est parti ne reste pas en bas pour toujours, et pour qu’un pilote absent ne puisse pas garder le meilleur grade pendant des mois.
+Un pilote qui n’est pas dans le classement est **Pilote junior** partout où un grade s’affiche, n’a pas de place et ne figure pas dans la liste de la corporation. La règle existe pour qu’un pilote qui a essayé le jeu une fois puis est parti ne reste pas au bas de l’échelle pour toujours, et pour qu’un pilote absent ne puisse pas garder pendant des mois l’une des rares meilleures places, ni la couronne.
 
 > [!TIP]
-> Rien n’est perdu pendant votre absence. Vos points sont conservés, et quand vous décollez de nouveau, ou ouvrez simplement la page Corporation, vous êtes replacé avec les points avec lesquels vous êtes parti. Si vous étiez le meilleur pilote, vous êtes de nouveau l’Amiral sénior, et le pilote qui tenait le grade descend d’une place.
+> Rien n’est perdu pendant votre absence. Vos points sont conservés, et quand vous repartez, ou que vous ouvrez simplement la page Corporation, vous êtes replacé avec les points que vous aviez en partant, dans le grade que ces points et les places de votre corporation vous donnent alors.
 
-Si vous changez de corporation, vos points vous suivent et vous figurez dans le classement de la nouvelle corporation, à la place qu’ils vous y donnent.
+Si vous changez de corporation, vos points vous suivent et vous entrez dans le classement de la nouvelle corporation, avec le grade que ses places vous y donnent.
 
 ## Votre grade bouge {#your-rank-moves}
 
-- Il **baisse** quand d’autres pilotes vous dépassent. Chaque pilote qui vous dépasse vous prend une place, et si c’était la dernière place de votre grade, vous perdez un degré.
-- Il **monte** quand vous dépassez d’autres pilotes, dès que votre destruction est comptée.
-- Il peut aussi bouger quand des pilotes entrent dans le classement ou le quittent, car chaque grade est une part de la corporation. Une corporation qui grandit n’abaisse jamais un pilote qui garde sa place ; quand des pilotes partent, un pilote au bord d’un grade peut perdre un degré.
-- Votre grade ne vous est annoncé que lorsqu’il **monte** ([Promotions](#promotions)). Une baisse n’est jamais annoncée : votre symbole change, c’est tout.
+- **Jusqu’à Colonel sénior, ce sont vos points seuls.** Le grade monte quand vos points atteignent le minimum suivant, dès que votre élimination est comptée, et aucun autre pilote ne peut le baisser.
+- **Les six meilleurs grades bougent avec les autres pilotes de votre corporation.** Un pilote qui atteint un minimum avant vous prend l’une des places, et quand les places de votre grade sont pleines, vous descendez au grade suivant qui vous reste ouvert. Quand un pilote quitte le classement ou la corporation, une place s’ouvre et les pilotes derrière lui peuvent y monter.
+- Un pilote qui a les mêmes points que vous, ou moins, ne vous prend jamais une place.
+- Votre propre grade ne vous est annoncé que lorsqu’il **monte** ([Promotions](#promotions)). Une baisse n’est jamais annoncée : votre symbole change, tout simplement.
 
 ## Comment gagner des points PvE {#how-you-earn-pve-points}
 
@@ -132,7 +134,7 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 
 Les cinq premières lignes sont les aliens ordinaires et les six suivantes les vaisseaux des trois essaims. Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
 
-Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasms et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. C’est assez pour le minimum d’un Sergent (800) ; qu’il le soit dépend de sa place dans la corporation.
+Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
 
 La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
@@ -151,15 +153,22 @@ Le jeu dessine un grade comme un petit symbole : une **forme** pour le palier, 
 | Général | étoiles à cinq branches | orange |
 | Amiral | une couronne de laurier ouverte en haut autour d’une à trois étoiles | rose |
 
+## La couronne {#the-crown}
+
+Le pilote qui a le **plus de points PvE de tout le serveur** porte une petite **couronne** dorée au-dessus du symbole de son grade. « Tout le serveur » veut dire toutes les corporations et les trois mondes, pas seulement la vôtre : il y a une couronne sur le serveur, et le meilleur pilote de chaque corporation garde quand même le grade qui est le sien. Si plusieurs pilotes ont exactement les mêmes points tout en haut, tous la portent.
+
+Seul un pilote qui figure dans un classement peut la porter. Un pilote absent depuis 30 jours ne la porte pas, quel que soit son nombre de points : la couronne va au meilleur pilote qui figure dans un classement, et il la retrouve quand il revole et repasse devant. Personne n’est prévenu quand la couronne change de tête, on la voit. Ce n’est pas un grade et elle ne donne rien : posez le pointeur sur un symbole couronné et son info-bulle dit « Meilleur pilote PvE du serveur ».
+
 ## Où les voir {#where-you-see-them}
 
-En vol, vous ne voyez **que le symbole**, jamais les mots. Il se place devant le nom du pilote :
+En vol, vous ne voyez que **le symbole**, jamais les mots. Il se trouve devant le nom du pilote, avec la couronne au-dessus, à tous ces endroits :
 
 - au-dessus d’un vaisseau, dans l’étiquette de nom, et dans la fenêtre Cible ;
 - dans le chat, devant le nom du pilote qui a écrit la ligne ;
 - dans la liste de votre groupe, et dans l’info-bulle d’un coéquipier de groupe sur la mini-carte ;
 - dans le fil des éliminations, devant chaque pilote nommé (pas devant les aliens) ;
-- dans le Panthéon, dans la fenêtre de classement et, en grand, sur le profil d’un pilote.
+- dans le Panthéon, dans la fenêtre de classement et, en grand, sur le profil d’un pilote ;
+- sur la page Corporation : votre propre grade, la liste des meilleurs pilotes et le tableau de tous les grades.
 
 Les **mots** (Sergent junior, Capitaine …) se trouvent sur la page Corporation et dans une info-bulle : posez le pointeur sur un symbole. Un symbole montre où se situe un pilote parmi les pilotes de **sa propre corporation** : le Commandant d’une autre corporation est un Commandant parmi les siens, pas parmi les vôtres. Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) sont les escadrons du jeu lui-même et n’ont pas de grade.
 
@@ -167,11 +176,11 @@ Les **mots** (Sergent junior, Capitaine …) se trouvent sur la page Corporation
 
 Ouvrez **Économie › Corporation**. Sa section **Classement de la corporation** affiche, de haut en bas :
 
-- **Votre grade** : son symbole et son nom, votre place (« Place 16 sur 31 ») et une petite étiquette avec votre percentile (« Top 52 % »).
-- **Une barre et une ligne en dessous** qui disent ce qu’exige le grade suivant. Une ligne comme « 301 points PvE pour dépasser Sable et atteindre Sergent » nomme le dernier pilote du grade suivant : dépassez-le et le grade est à vous. Quand seuls vos points vous retiennent, la ligne dit combien de points PvE il vous manque encore. L’Amiral sénior lit « Le grade le plus élevé. »
+- **Votre grade** : son symbole (avec la couronne, si elle est à vous) et son nom, votre place (« Place 16 sur 31 ») et une petite étiquette avec votre percentile (« Top 52 % »).
+- **Une barre et une ligne en dessous** qui disent ce que demande le grade suivant. Une ligne comme « 2 500 points PvE jusqu’à Général junior » dit combien de points PvE de plus demande le minimum du grade suivant. Quand le grade suivant n’a plus de place libre, la ligne nomme le pilote qui tient la dernière : « 3 100 points PvE pour dépasser Sable et atteindre Général junior ». Égaler ses points suffit, car des points égaux donnent le même grade. Pour Amiral sénior, la ligne dit « Le grade le plus élevé. »
 - **Le meilleur pilote** de votre corporation, avec ses points.
-- **Tous les grades**, replié jusqu’à ce que vous l’ouvriez : les 24 grades en pyramide, chacun avec une barre aussi large que sa part de la corporation et trois colonnes : **Part**, **Pilotes** (combien le détiennent en ce moment) et **Points min.**. Votre propre grade est marqué, et une info-bulle sur une ligne dit : « Les 10,2 % meilleurs de votre corporation ont au moins le grade Capitaine. » Une ligne sous le tableau dit qui figure dans le classement.
-- **La liste** : les **50 meilleurs pilotes de votre corporation dans les trois mondes**, avec place, symbole, nom et points PvE. Votre propre ligne est marquée.
+- **Tous les grades**, replié jusqu’à ce que vous l’ouvriez : les 24 grades, le meilleur en premier, avec leurs **Places** par corporation (un tiret : pas de limite), les **Pilotes** qui le détiennent en ce moment, avec une barre aussi large que le grade qui en compte le plus, et les **Points min.**. Votre propre grade est marqué, et une info-bulle sur une ligne dit : « Amiral sénior : 1 place par corporation, à partir de 50 000 points PvE. » Une ligne sous le tableau dit qui est dans le classement.
+- **La liste** : les **50 meilleurs pilotes de votre corporation sur les trois mondes**, avec place, symbole, nom et points PvE. Votre propre ligne est marquée.
 
 - Un pilote sans points PvE n’est ni dans le classement ni dans la liste : détruisez un alien pour y entrer. Un pilote absent depuis 30 jours n’y est pas non plus, jusqu’à ce qu’il décolle ou ouvre de nouveau la page.
 - Seuls les noms et les chiffres publics sont affichés.
@@ -183,10 +192,10 @@ Ouvrez **Économie › Corporation**. Sa section **Classement de la corporation*
 
 ## Grades et réinitialisation {#ranks-and-the-wipe}
 
-Une réinitialisation ne change les points de personne. Elle garde votre niveau, votre expérience et vos statistiques de destructions ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), et vos points PvE en sont calculés : le classement de votre corporation est donc dans le même ordre après la réinitialisation. Votre grade n’est toutefois plus à vie : il suit votre place, il bouge donc avec les pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
+Une réinitialisation ne change les points de personne. Elle conserve votre niveau, votre expérience et vos statistiques d’éliminations ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), et vos points PvE en sont calculés : le classement de votre corporation est donc dans le même ordre après la réinitialisation, et les grades et la couronne aussi. Votre grade n’est toutefois plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
 
 ## Combien de temps cela prend {#how-long-it-takes}
 
-Ce sont des **estimations** tirées d’un modèle de la vitesse à laquelle un pilote chasse, pas des mesures. Le minimum de points n’est pas le plus difficile : un pilote qui chasse environ deux heures par jour, soit 58 heures par saison, a environ 21 200 points PvE après une saison, plus que ce que demande même l’Amiral sénior. En heures de chasse, le minimum d’un Pilote vient dans la première heure, celui d’un Sergent en 4, celui d’un Capitaine en 9 environ, celui d’un Commandant en 14, celui d’un Colonel en 22, celui d’un Général en 32, celui d’un Amiral en 48 et celui de l’Amiral sénior en 55.
+Ce sont des **estimations** tirées d’un modèle de la vitesse à laquelle un pilote chasse, pas des mesures. Un pilote qui chasse environ deux heures par jour, soit 58 heures par saison, a environ 21 200 points PvE au bout d’une saison : Colonel. En heures de chasse, le minimum de Pilote arrive dans la première heure, celui de Sergent en 4, celui de Capitaine en 18, celui de Commandant en 38, celui de Colonel en 55, celui de Général junior en 67, celui de Général en 73, celui de Général sénior en 78, celui de Amiral junior en 101, celui de Amiral en 113 et celui de Amiral sénior en 124.
 
-Ce qui décide de votre grade, c’est votre place, et les autres pilotes chassent aussi. Dans une corporation de 31 pilotes, seuls les quatre meilleurs peuvent être Capitaine ou mieux, quel que soit le nombre de points des autres. Le minimum de points empêche une jeune corporation de distribuer les plus hauts grades ; la place garde petit le sommet d’une vieille corporation.
+Un pilote actif typique atteint donc les grades à places pendant sa deuxième saison. Obtenir une place dépend des autres pilotes de sa corporation, qui chassent aussi : les places d’un grade ne comptent que lorsque plus de pilotes en atteignent le minimum qu’il n’a de places. D’ici là, le grade ne dépend que de vos points.

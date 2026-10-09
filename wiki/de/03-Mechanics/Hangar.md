@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c17f4775a1e2000 -->
+<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -18,13 +18,14 @@ Laufende Reparaturen halten dich nicht auf. Überall sonst öffnet sich das Hang
 
 ## Was du ändern kannst {#what-you-can-change}
 
-- **Alles ausrüsten und ablegen**, in jeder Art von Slot: Laser, Generatoren (Schilde, Triebwerke, adaptive Kerne), Extras, Fähigkeits-Slots und Drohnen-Slots sowie die Verstärker, Zellen und Schubdüsen darin. Ziehe Gegenstände auf Slots oder klicke sie an, genau wie in der Station. Dein Schiff folgt sofort: Werte, Laser, Fähigkeiten und die Aktionsleiste.
+- **Alles ausrüsten und ablegen**, in jeder Art von Slot: Laser, Generatoren (Schilde, Triebwerke, adaptive Kerne), Extras, Fähigkeits-Slots, Drohnen-Slots und Panzerungs-Slots sowie die Verstärker, Zellen und Schubdüsen darin. Ziehe Gegenstände auf Slots oder klicke sie an, genau wie in der Station. Dein Schiff folgt sofort: Werte, Laser, Fähigkeiten und die Aktionsleiste.
 - **Alles ablegen.** Die Schaltfläche **Alles ablegen** in der Symbolleiste des Hangars leert in einem Zug die Konfiguration, die in der Ansicht **Raumschiff** gezeigt wird: die Laser, Schilde, Triebwerke, adaptiven Kerne, Extras und Fähigkeits-Slots **und die Laser und Schilde in den Slots deiner Drohnen**, samt den Verstärkern, Zellen und Schubdüsen darin. Alles wandert zurück in dein Inventar, ganz oder gar nicht. Deine **Drohnen bleiben dir** (eine Drohne wird nie an ein Schiff angelegt, an ihr gibt es also nichts abzulegen), und die **Drohnenformation**, die du trägst, bleibt an. Die andere Konfiguration wird nicht angerührt. Im Flug gelten die Regeln jeder Änderung: aus einer Schutzzone, außerhalb eines Kampfes. Die Ansicht **Drohnen** hat eine eigene Schaltfläche, die nur die Slots der Drohnen leert.
 - **Beide Konfigurationen.** Du kannst Konfig 2 vorbereiten, während du Konfig 1 fliegst, und dann mit der Taste Konfig wechseln tauschen. Eine Schaltfläche **Konfig 1 fliegen** bzw. **Konfig 2 fliegen** im Hangar macht denselben Wechsel.
 - **Jedes Schiff.** Aktiviere ein anderes Schiff, und du fliegst es von dort aus, wo du bist. Das Modell deines Schiffs wechselt vor den Augen aller in der Nähe.
 - **Ein neuer Schild, ein neues Triebwerk oder ein neuer adaptiver Kern startet leer**, wie in der Station: Die Schildladung seiner Konfiguration ist leer, bis sie sich auflädt.
 - **Drohnenformationen.** Die Drohnen-Ansicht listet unter deinen Drohnen die Formationen auf, die du besitzt. Sie werden nicht angelegt: Im Flug ziehst du eine aus der Formationenliste der Aktionsleiste auf einen Slot, und Klick oder Taste dieses Slots trägt sie, mit denselben 2 Sekunden Wartezeit wie überall, auch in einer Schutzzone ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** Die vier regulären Schiffe, Protos, Kitefin, Ostirion und Nomad (die, mit denen du startest oder die du kaufst), haben in jeder Konfiguration 2 Extra-Slots; die vier Schiffe, die du in der Montage baust, Paragon, Ironclad, Wraith und Storm, haben 3. Die Extra Slots CPUs deines Skylabs geben 3, 5 oder 7 obendrauf: 5, 7 oder 9 bei den regulären Schiffen und 6, 8 oder 10 bei den gebauten ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Mit 0.4.10 wurde ein dritter Extra auf einem regulären Schiff ins Inventar abgelegt: Nichts wurde gelöscht, und du hast eine Chatmeldung bekommen.
+- **Hüllenpanzerung.** Die vier Schiffe, die du baust, haben [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für Hüllenpanzerung, jeder gesperrt, bis du ihn im Skylab erforschst. Eine Panzerung, die du einbaust oder ablegst, lässt deinen Hüllenanteil unverändert, und sie bleibt dran, wenn du die Konfiguration wechselst.
 
 Verkaufen gehört nicht zum Fenster: Der Hammer, der die [Auktion](/wiki/03-Mechanics/Auction.md) öffnet, gehört zum Hangar der Station, und die Auktion selbst ist eine Seite der Station.
 

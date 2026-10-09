@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers e munição {#lasers-ammo}
 
@@ -166,12 +166,12 @@ A Siphon Battery é uma munição para roubar escudos em vez de quebrar cascos. 
 
 ## Penetração de escudo de um acerto de laser {#shield-penetration-of-a-laser-hit}
 
-Todo acerto de laser tira pontos da absorção do seu alvo, de até três fontes que se somam: a sua **munição** (Ultra Core 5%, Experimental Fusion Core 10%), os seus **Penetration Amps** e uma **formação de drones** (Gemini +9%, Stiletto +16%; [Formações de drones](/wiki/03-Mechanics/Formations.md)). O total **para em 50%** para um laser; o de um foguete de alvo único para em 40% ([Foguetes](/wiki/06-Items/Rockets.md)). Os escudos recebem então a absorção do alvo menos a penetração do acerto, e o casco o resto ([Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Todo acerto de laser tira pontos da absorção do seu alvo, de até três fontes que se somam: a sua **munição** (Ultra Core 5%, Experimental Fusion Core 10%), os seus **Penetration Amps** e uma **formação de drones** (Gemini +9%, Stiletto +16%; [Formações de drones](/wiki/03-Mechanics/Formations.md)). **Nada limita o total** (um foguete de alvo único soma do mesmo jeito a sua própria penetração e a da formação: [Foguetes](/wiki/06-Items/Rockets.md)). Os escudos recebem então a absorção do alvo menos a penetração do acerto, e o casco o resto ([Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Seus amps contam como a média dos seus lasers.** Uma rajada é um único acerto, então o jogo soma a penetração dos amps de cada laser (os lasers dos seus drones contam também) e tira a média dos seus lasers, cada um pesado pelo seu dano, como faz com a chance de crítico. Três Penetration Amp IV em cada laser dão 24%; um Penetration Amp IV em um de doze lasers dá 0,67%. Um Wraith tem 12 lasers e 36 slots de amp, e é preciso preencher os 36 para chegar a 24%.
-- **O Hangar mostra.** Os atributos de combate do Hangar têm um bloco **Penetração** em toda nave, com o valor dos seus amps (0,0% sem Penetration Amp); a munição e a formação não entram nele. Aponte para o bloco para ler os tetos: o total de um acerto de laser para em 50%, o de um foguete em 40%.
-- **O melhor laser chega ao teto exatamente.** Um Experimental Fusion Core (10%), um Stiletto (16%) e três Penetration Amp IV em cada laser (24%) dão 50%.
-- **Um bônus da Forja em um Penetration Amp IV é desperdiçado nessa montagem.** Um Penetration Amp pode ser forjado como os outros amps, e o único bônus dele multiplica a penetração: um bônus Eterno (+9% a +15%) leva um Penetration Amp IV a 8,7 a 9,2 pontos em vez de 8. Mas 10 + 16 + 24 já dão o teto de 50%, e cada ponto a mais é cortado (três Eternos somariam 53,6%, cortados em 50%).
+- **O Hangar mostra.** Os atributos de combate do Hangar têm um bloco **Penetração** em toda nave, com o valor dos amps de laser da configuração mostrada (0,0% sem Penetration Amp); a munição e a formação não entram nele. A janela **Nave** em voo tem uma ficha **Penetração** no fim da sua linha de baixo (as fichas de configuração e velocidade mostram só um ícone e um número para dar espaço): ela mostra o total de um acerto de laser, seus amps, a formação que você veste e a munição que você dispara, somados assim que você muda algo, e a dica dela lista as três partes.
+- **O melhor laser dá 50%.** Um Experimental Fusion Core (10%), um Stiletto (16%) e três Penetration Amp IV em cada laser (24%) dão 50%.
+- **Um bônus da Forja em um Penetration Amp IV conta.** Um Penetration Amp pode ser forjado como os outros amps, e o único bônus dele multiplica a penetração: um bônus Eterno (+9% a +15%) leva um Penetration Amp IV a 8,7 a 9,2 pontos em vez de 8. Na melhor montagem, três Eternos somam 53,6%, e cada ponto conta.
 
 | Rajada de laser | Munição | Amps (3 slots) | Formação | Total |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ O que isso faz com os escudos do alvo: cada célula é a parte de um acerto que 
 | O melhor escudo, Forja Eterna (melhor sorteio) e a Loja de PR no limite (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Qualquer alienígena (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-O melhor laser esvazia um núcleo de escudo sem célula (o casco recebe o acerto inteiro); um núcleo com uma célula mantém uma parte de cada acerto, e o melhor escudo mantém 30% dele (45% com os bônus). Um foguete nunca esvazia um escudo: o teto dele é 40%.
+O melhor laser esvazia um núcleo de escudo sem célula (o casco recebe o acerto inteiro); um núcleo com uma célula mantém uma parte de cada acerto, e o melhor escudo mantém 30% dele (45% com os bônus). Um foguete sozinho nunca esvazia um escudo (35% no máximo), mas um Lancet III ou um Rivet III com um Stiletto (51%) esvazia.
 
 ### Quando um Penetration Amp vale um slot? {#when-is-a-penetration-amp-worth-a-slot}
 

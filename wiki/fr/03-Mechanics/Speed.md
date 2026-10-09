@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: Vitesse -->
 # Calcul de la vitesse {#speed-calculation}
 
@@ -9,6 +9,8 @@ La vitesse détermine la rapidité avec laquelle votre vaisseau se déplace sur 
 La vitesse finale de votre vaisseau est calculée sur le serveur selon la formule suivante :
 
 \[\text{Vitesse finale} = (\text{Vitesse de base du vaisseau} + \text{Vitesse totale des moteurs}) \times (1,0 + \text{Pourcentage total de bonus de vitesse})\]
+
+Un [design de vaisseau](/wiki/03-Mechanics/Ship-Designs.md) change le premier terme (THUNDER a 40 de vitesse de base en plus, DUMA 20 en moins), et NOTSUM et RECON multiplient la vitesse finale par un facteur de plus, +2 % et +5 %.
 
 ### 1. Vitesse effective des moteurs {#1-effective-engine-speed}
 

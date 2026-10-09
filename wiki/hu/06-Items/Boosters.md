@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Boosterek -->
 # Boosterek {#boosters}
 
@@ -60,7 +60,7 @@ Minden booster alapesetben **10 órán** át tart, és vásárláskor, megszerz�
 | **Loot Luck Booster** | Legendás | +5% esély ritka zsákmányra az NPC-ktől | 30 000 |
 
 > [!NOTE]
-> **Booster vagy erősítő?** Két különböző dolog. Minden boosternek **Booster** van a nevében, időzítőn fut, és nincs mibe szerelni: a **Laser Damage Booster I** és a **Laser Damage Booster II** 10 órára +10% lézersebzést ad, a Boltból vagy a Gyártásból. A **Damage Amp**, a **Crit Amp** és a **Penetration Amp** (I–IV. szint) lézererősítők: modulok, amelyeket a lézer erősítőfoglalatába szerelsz, időzítő nélkül ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 előtt a boosterek neve Damage Amp és Damage Amp II, Shield Wall és Shield Wall II, Hull Plating és Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet és Loot Luck volt; a futó boostereid az új neveiken futottak tovább.
+> **Booster vagy erősítő?** Két különböző dolog. Minden boosternek **Booster** van a nevében, időzítőn fut, és nincs mibe szerelni: a **Laser Damage Booster I** és a **Laser Damage Booster II** 10 órára +10% lézersebzést ad, a Boltból vagy a Gyártásból. A **Damage Amp**, a **Crit Amp** és a **Penetration Amp** (I–IV. szint) lézererősítők: modulok, amelyeket a lézer erősítőfoglalatába szerelsz, időzítő nélkül ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). 0.4.12 előtt a boosterek neve Damage Amp és Damage Amp II, Shield Wall és Shield Wall II, Hull Plating és Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet és Loot Luck volt; a futó boostereid az új neveiken futottak tovább. A Hull Plating **Booster** nem az a **Hull Plating** páncélzat, amely a hajó páncélzatfoglalataiba kerül ([hajótest-páncélzat](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

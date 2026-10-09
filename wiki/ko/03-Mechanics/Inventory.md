@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: 인벤토리 -->
 # 인벤토리와 장비 {#inventory-equipment}
 
@@ -17,6 +17,7 @@
   - **미지정/레거시 슬롯**: 여기에 놓은 아이템은 능력치에 기여하지 않습니다.
   - **중첩도 효과가 줄어듭니다**: 실드와 엔진은 가장 강한 것부터(슬롯의 비율을 적용한 뒤의 값 기준으로) 순위가 매겨지고, 구간의 비율에 그 순위의 비율이 곱해집니다. 1~4번째는 전부 반영되고, 5~7번째는 85%, 70%, 55%, 8번째 이후는 실드가 50%, 엔진이 25%입니다. [실드](/wiki/03-Mechanics/Shields.md)와 [속도](/wiki/03-Mechanics/Speed.md)를 참고하세요.
 - **부가 슬롯**: Repair Drone처럼 특수한 보조 장비용입니다. Protos, Kitefin, Ostirion, Nomad에는 2개, 제작하는 Paragon, Ironclad, Wraith, Storm에는 3개가 있고, Extra Slots CPU([부가 장비](/wiki/06-Items/Extras.md#extra-slots-cpus))를 설치하면 3, 5 또는 7개가 늘어납니다.
+- **장갑 슬롯**: 선체를 늘려 주는 [선체 장갑](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)용입니다. 제작하는 네 함선에만 있고(Paragon 5개, Storm 7개, Ironclad 15개, Wraith 9개), Skylab에서 연구하기 전까지 각각 잠겨 있으며, 두 구성에서 같습니다.
 
 ## 인벤토리 정렬 순서 {#inventory-order}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
+<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -10,6 +10,7 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 - **Alapsebesség**: 250
 - **Lézerfoglalatok**: 13
 - **Extrafoglalatok**: 3
+- **Páncélzatfoglalatok**: 7
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 
@@ -26,6 +27,15 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 ## Kutatás {#research}
 
+- **Páncélzatfoglalatok.** Ennek a hajónak 7 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (7 darab) 105 000 hajótestet ad hozzá.
+- **Dizájnok.** Ennek a hajónak 3 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
+
+| Dizájn | Mit változtat |
+| :--- | :--- |
+| **Storm NOTSUM** | -20% alap hajótest, +20 alap sebesség, +2% sebesség, Blink |
+| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -50% pajzskapacitás, +10% pajzsáthatolás |
+| **Storm RECON** | -20% alap hajótest, +5% sebesség, -2 lézerfoglalat, Chameleon |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -38,4 +48,4 @@ Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártás
 
 ## Háttértörténet {#lore}
 
-A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Csontfehér páncél kékeszöld váz fölött, narancssárga panelekkel és fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizenhárom lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából fele egy Wraith-ének és nagyjából negyede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.
+A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Halványszürke páncél sötétebb váz fölött, fehér fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizenhárom lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából fele egy Wraith-ének és nagyjából negyede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.

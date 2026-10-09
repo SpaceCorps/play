@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eda863e69efaf17 -->
+<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -11,7 +11,7 @@
 ## In einer Minute {#in-one-minute}
 
 - **Dark Matter ist eine Ressource und heißt überall einfach Dark Matter.** Das Schwarze Loch in der Mitte von Gefahrensektor 4 (`DS-4`) stellt es her: Jede N.I.K.E.-Rakete, die das Loch erreicht, bringt 1 bis 3 Dark Matter zurück (im Schnitt 2), in kleinen Kisten am Rand seiner Zone.
-- **Wofür es gut ist.** 32 Technologien des Forschungszentrums verlangen es, je 5 bis 20 und insgesamt 349, und die Montage presst daraus die Dark Matter Plate.
+- **Wofür es gut ist.** 83 Technologien des Forschungszentrums verlangen es, je 5 bis 40 und insgesamt 904, und die Montage presst daraus die Dark Matter Plate.
 - **Im Forschungszentrum** fügst du Dark Matter aus deinem Frachtraum hinzu (bei gelandetem Schiff), bevor du auf Start drückst. Die Forschung nimmt es beim Start.
 - **Eine Dark Matter Plate ist ein anderer Gegenstand.** Erforsche zuerst ihr Rezept (die Gruppe Ressourcen im Baum: 1 Tag und 10 Dark Matter), dann stellst du sie in der Montage her, aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium.
 - **Wofür eine Plate gut ist.** Die letzte Stufe jeder Aufwertungskette verlangt **3**: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III und Base CPU II (12 Teile). Die Schmiede verlangt 2 davon, um einen Gegenstand von Göttlich auf Berstend zu heben, und 2 weitere von Berstend auf Ewig.
@@ -26,7 +26,7 @@
 | **Was es ist** | Eine epische Ressource | Eine mythische Ressource |
 | **Woher es kommt** | Das Schwarze Loch in Gefahrensektor 4, für hineingeschossene N.I.K.E.-Raketen; ein wenig vom Dormant-Schwarm | Die Montage, gepresst aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium |
 | **Was du zuerst tust** | Die N.I.K.E. erforschen (3 h, kein Dark Matter) und welche herstellen | Das Rezept der Plate erforschen (1 d, 10 Dark Matter) |
-| **Wofür es gut ist** | Forschungskosten (32 Technologien, insgesamt 349) und die Plate | Die letzte Stufe jeder Aufwertungskette: 3 für jedes von 12 Teilen; die Schmiede: 2 für jede ihrer beiden obersten Stufen |
+| **Wofür es gut ist** | Forschungskosten (83 Technologien, insgesamt 904) und die Plate | Die letzte Stufe jeder Aufwertungskette: 3 für jedes von 12 Teilen; die Schmiede: 2 für jede ihrer beiden obersten Stufen |
 
 ## So bekommst du Dark Matter {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@ Etwa **5 Raketen machen 10 Dark Matter**. Der Resource Magnet Booster fügt nich
 
 ## Dark Matter im Forschungszentrum {#in-the-research-centre}
 
-Technologien an der Spitze des Baums verlangen zusätzlich zu ihren Forschungspunkten Dark Matter: **10** für jede der 16 obersten Technologien und **5, 13 oder 20** für jede der 16 Drohnenformationen (je stärker die Formation, desto mehr). Die Tabelle in [Forschung](/wiki/03-Mechanics/Research.md#dark-matter) listet sie alle auf.
+Technologien an der Spitze des Baums verlangen zusätzlich zu ihren Forschungspunkten Dark Matter: **10** für jede der 16 obersten Technologien und **5, 13 oder 20** für jede der 16 Drohnenformationen (je stärker die Formation, desto mehr). Die beiden Forschungen der Hüllenpanzerung verlangen **25 und 40**, die Schiffstechnologien, die 13 Designs und die 36 Panzerungs-Slots, je **10**. Die Tabellen in [Forschung](/wiki/03-Mechanics/Research.md#dark-matter) listen sie alle auf.
 
 1. **Öffne die Ansicht Forschung** deines Skylab an der Station und wähle die Technologie. Ihre Karte hat eine Zeile **Dark Matter**: wie viel im Zentrum ist, von wie viel sie braucht (zum Beispiel 3 / 10).
 2. **Drücke Hinzufügen.** Das bringt Dark Matter aus deinem Frachtraum ins Forschungszentrum, so viel fehlt, soweit du es trägst. Dein Schiff muss gelandet sein. **Zurücknehmen** gibt es an deinen Frachtraum zurück.
@@ -105,7 +105,7 @@ Die 40 Teile einer Paragon sind ihre 8 Laser, deren 24 Amps und ihre 8 Generator
 | Eine Dark Matter Plate | 5 | 2,5 |
 | Die zwei Plates eines Schmiedeschritts | 10 | 5 |
 | Die drei Plates eines Teils der letzten Stufe | 15 | 7,5 |
-| Jede Technologie, die Dark Matter verlangt | 349 | 175 |
+| Jede Technologie, die Dark Matter verlangt | 904 | 452 |
 
 Ein erstes Upgrade aus dem Nichts ist das Rezept (10) und zwei Plates (10): 20 Dark Matter, etwa 10 N.I.K.E.-Raketen, also zwei Herstellungen. Ein erster Amp der Stufe IV aus dem Nichts sind das Rezept der Plate (10), die eigene Technologie des Amps (10) und 3 Plates (15): 35 Dark Matter, etwa 18 N.I.K.E.-Raketen.
 

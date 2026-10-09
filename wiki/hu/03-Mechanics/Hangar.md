@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c17f4775a1e2000 -->
+<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -18,13 +18,14 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 
 ## Mit módosíthatsz {#what-you-can-change}
 
-- **Bármit felszerelhetsz és leszerelhetsz**, mindenféle foglalatban: lézerek, generátorok (pajzsok, hajtóművek, adaptív magok), extrák, képességfoglalatok és drónfoglalatok, és a beléjük szerelt erősítők, cellák és fúvókák. Húzd a tárgyakat a foglalatokra, vagy kattints rájuk, pontosan úgy, mint az állomáson. A hajód azonnal követi: az értékek, a lézerek, a képességek és a gyorssáv.
+- **Bármit felszerelhetsz és leszerelhetsz**, mindenféle foglalatban: lézerek, generátorok (pajzsok, hajtóművek, adaptív magok), extrák, képességfoglalatok, drónfoglalatok és páncélzatfoglalatok, és a beléjük szerelt erősítők, cellák és fúvókák. Húzd a tárgyakat a foglalatokra, vagy kattints rájuk, pontosan úgy, mint az állomáson. A hajód azonnal követi: az értékek, a lézerek, a képességek és a gyorssáv.
 - **Összes leszerelése.** A hangár eszköztárának **Összes leszerelése** gombja egy lépésben kiüríti az **Űrhajó** nézetben mutatott konfigurációt: a lézereket, pajzsokat, hajtóműveket, adaptív magokat, extrákat és képességfoglalatokat **és a drónjaid foglalataiban lévő lézereket és pajzsokat**, a beléjük szerelt erősítőkkel, cellákkal és fúvókákkal együtt. Minden visszakerül a készletedbe, vagy mind, vagy semmi. A **drónjaid a tieid maradnak** (drónt soha nem szerelnek hajóra, így nincs mit róla leszerelni), és a **drónformáció**, amelyet viselsz, rajta marad. A másik konfigurációhoz nem nyúl. Repülés közben minden változtatás szabályai érvényesek: biztonságos zónából, harcon kívül. A **Drónok** nézetnek saját gombja van, amely csak a drónok foglalatait üríti ki.
 - **Bármelyik konfiguráció.** Előkészítheted a Konfig 2-t, miközben a Konfig 1-gyel repülsz, aztán átválthatsz a **Konfigváltás** billentyűvel. A hangár **Repülés: Konfig** gombja ugyanezt a váltást végzi.
 - **Bármelyik hajó.** Állíts be egy másik hajót aktívnak, és onnan repülsz vele, ahol vagy. A hajód modellje megváltozik a közelben lévők előtt.
 - **Egy új pajzs, hajtómű vagy adaptív mag üresen indul**, mint az állomáson: a konfigurációjának pajzstöltése üres, amíg újra nem töltődik.
 - **Drónformációk.** A Drónok nézet a drónjaid alatt felsorolja a formációkat, amelyek a tieid. Nem kell őket felszerelni: repülés közben húzol egyet a gyorssáv Formációk listájából egy helyre, és a hely kattintása vagy billentyűje viseli, ugyanazzal a 2 másodperces várakozással, mint bárhol, biztonságos zónában is ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
 - **Extrák.** A négy átlagos hajónak, a Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak (azoknak, amelyekkel kezdesz vagy amelyeket megveszel) konfigurációnként 2 extrafoglalata van; a négy hajónak, amelyet a Gyártásban készítesz, a Paragonnak, az Ironcladnek, a Wraithnek és a Stormnak, 3. A Skylabod Extra Slots CPU-i 3, 5 vagy 7 foglalatot adnak még hozzá: 5, 7 vagy 9 az átlagos hajóknál és 6, 8 vagy 10 a gyártottaknál ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)). A 0.4.10-zel egy átlagos hajó harmadik extráját leszerelték, és a leltáradba került: semmi sem törlődött, és egy csevegőüzenetet kaptál.
+- **Hajótest-páncélzat.** A négy hajónak, amelyet készítesz, [páncélzatfoglalatai](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vannak a hajótest-páncélzatnak, mindegyik zárolva, amíg a Skylabben ki nem kutatod. A páncélzat, amelyet felszerelsz vagy leszerelsz, megtartja a hajótested arányát, és rajta marad, ha konfigurációt váltasz.
 
 Az eladás nem tartozik az ablakhoz: az [Aukciót](/wiki/03-Mechanics/Auction.md) megnyitó kalapács az állomás Hangárjához tartozik, maga az Aukció pedig az állomás egyik oldala.
 

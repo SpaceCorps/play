@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 986c641910ea7fae -->
+<!-- wiki-i18n source: be279a1fbb360e1d -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -19,7 +19,7 @@ Minden szezon az 1. naptól a 30. napig tart (a wipe a 30. nap kezdetekor indul�
 | **Techroham** | 11–18. nap | 2. esemény | Különleges hatások egyelőre nincsenek: a hozamok és az idegenek ugyanazok, mint bármely más szakaszban. |
 | **Hadijátékok** | 19–25. nap | 3. esemény | Különleges hatások egyelőre nincsenek: a PvP úgy működik, mint a Békeprotokoll utáni minden szakaszban. |
 | **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa és lezárja a magával vitt rakományát. |
-| **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik. A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. |
+| **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik, és minden [klán](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) feloszlik. A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. |
 
 A wipe-on kívül csak három dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak, az [Aukció](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) pedig a 28. naptól nem szed díjat, a 30. naptól pedig zárva van. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton, de egyik sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
 
@@ -75,7 +75,7 @@ A szezon vége előtt rá kell kattintanod a **Zárolás** gombra a Materializá
 
 ## Világok: Alpha, Beta és Gamma {#worlds-alpha-beta-and-gamma}
 
-A SpaceCorpsban három **világ** működik. Mindegyik az egész galaxis külön másolata: minden szektor a saját idegeneivel, [vállalati pilótáival](/wiki/03-Mechanics/Company-Pilots.md), rakományával, chatjével és pilótáival. Csak a saját világodban repülsz, és csak az ottani pilótákkal találkozol; a fiókod, a tárgyaid, a klánod és a ranglisták mindhárom világban közösek.
+A SpaceCorpsban három **világ** működik. Mindegyik az egész galaxis külön másolata: minden szektor a saját idegeneivel, [vállalati pilótáival](/wiki/03-Mechanics/Company-Pilots.md), rakományával, chatjével és pilótáival. Csak a saját világodban repülsz, és csak az ottani pilótákkal találkozol; a fiókod, a tárgyaid és a pilóták ranglistái mindhárom világban közösek. A klán egy világhoz tartozik, csak annak pilótáit veszi fel, és a wipe-nál feloszlik ([Klánok és világok](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | Világ | Kockázat | Idegenek ereje | Jutalomszorzó | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Hogyan működnek a világok:
 
 A wipe elveszi a hajóidat és a tárgyaidat (kivéve az aktív hajódat a rajta lévő mindennel, a tranzittárolódat és a drónjaidat), és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé, kivéve azokat a szintküldetéseket, amelyeket a 0.4.10-es frissítés átdolgozott: közülük 64-et még egyszer felkínálnak ([Küldetések](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Klánok és rangok.** Egy klán pontjai, bónuszszintjei és napi vonalai minden wipe-nál újra kezdődnek, így minden szezon új verseny a teljes bónuszokért; maga a klán, a tagjai, a bankja és az adója marad ([Klánok](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). A PvE-rangpontjaid is maradnak, így a wipe nem mozdít el a vállalatod ranglistáján: a rangod az ottani helyezésedet követi, nem a szezont ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Klánok és rangok.** A wipe minden klánt feloszlat, a Flottakincstárával, a bejegyzéseivel, a naplójával, a szerződéseivel, a pontjaival és a bónuszszintjeivel együtt, így minden szezon új verseny egy klán alapításáért és a bónuszai megtöltéséért; a kreditek, amelyeket a klán már kifizetett neked, megmaradnak, és az adományi keretedet sem nullázza ([Klánok](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Vezérek és Alvezérek: a visszaszámlálás vége előtt fizessétek ki a Flottakincstárat. A PvE-rangpontjaid is maradnak, így a wipe nem mozdít el a vállalatod ranglistáján: a rangod az ottani helyezésedet követi, nem a szezont ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Az állandó buffok boltja {#the-permanent-buff-store}
 Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átívelnek az összes szezonon. Ezek a buffok halmozódnak, és jelentős passzív bónuszokat adnak:

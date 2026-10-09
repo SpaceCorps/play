@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: Inventaire -->
 # Inventaire et équipement {#inventory-equipment}
 
@@ -17,6 +17,7 @@ Contrairement aux jeux spatiaux traditionnels, SpaceCorps propose des emplacemen
   - **Emplacements non attribués ou hérités** : les objets placés ici ne contribuent pas aux stats.
   - **Le cumul s’estompe aussi** : les boucliers et les moteurs sont classés du plus fort au plus faible (selon ce que chacun compte après la part de son emplacement), et la part du palier est ensuite multipliée par celle de leur rang : du 1er au 4e, ils comptent en entier, le 5e, le 6e et le 7e comptent respectivement 85 %, 70 % et 55 %, et à partir du 8e, 50 % pour les boucliers et 25 % pour les moteurs. Voir [Boucliers](/wiki/03-Mechanics/Shields.md) et [Vitesse](/wiki/03-Mechanics/Speed.md).
 - **Emplacements extras** : pour les objets utilitaires spécialisés, comme les Repair Drones. Le Protos, le Kitefin, l’Ostirion et le Nomad en ont deux ; le Paragon, l’Ironclad, le Wraith et le Storm, que vous fabriquez, en ont trois. Les Extra Slots CPU ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) en ajoutent 3, 5 ou 7.
+- **Emplacements de blindage** : pour le [blindage de coque](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), qui ajoute de la coque. Seuls les quatre vaisseaux que vous fabriquez en ont (le Paragon 5, le Storm 7, l’Ironclad 15 et le Wraith 9), chacun verrouillé tant que vous ne l’avez pas recherché dans le Skylab, et ils sont identiques dans les deux configurations.
 
 ## Ordre de l’inventaire {#inventory-order}
 

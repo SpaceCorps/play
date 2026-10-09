@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: 기업 파일럿 -->
 # 기업 파일럿 {#company-pilots}
 
 모든 기업은 본거지 섹터(`M-1`~`M-4`, `T-1`~`T-4`, `G-1`~`G-4`)에 소규모 NPC 파일럿 편대를 두고 있습니다. 이들은 하루 종일 기업을 위해 비행하며 소속 기업의 파일럿을 돕습니다.
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## 이들은 누구인가 {#who-they-are}
@@ -15,7 +15,7 @@
   - 흡수율 45%: 실드가 공격의 45%를, 선체가 55%를 받습니다
   - 일제 사격당 기본 피해량 195(x1 탄약), 치명타 확률 없음, 사거리 700
 - **미니맵**: 소속 기업의 파일럿은 초록색 마름모, 다른 기업의 파일럿은 호박색 마름모로 표시됩니다.
-- **계급 없음**: 비행 중 파일럿 이름 앞에 보이는 작은 기호는 그 파일럿의 [계급](/wiki/03-Mechanics/Ranks.md)이며 실제 파일럿의 것입니다. 기업 파일럿에게는 계급이 없으며, 내 기업의 랭킹에도 오르지 않습니다. 기업 페이지는 내 기업의 실제 파일럿을 PvE 포인트가 많은 순으로 보여 주며, 파일럿의 계급은 그 목록에서의 순위입니다.
+- **계급 없음**: 비행 중 파일럿 이름 앞에 보이는 작은 기호는 그 파일럿의 [계급](/wiki/03-Mechanics/Ranks.md)이며 실제 파일럿의 것입니다. 기업 파일럿에게는 계급이 없으며, 내 기업의 랭킹에도 오르지 않습니다. 기업 페이지는 내 기업의 실제 파일럿을 PvE 포인트가 많은 순으로 보여 주며, 파일럿의 계급은 그 목록에서의 PvE 포인트로 정해지며, 상위 6개 계급은 기업의 정원도 따릅니다.
 
 ## 하는 일 {#what-they-do}
 

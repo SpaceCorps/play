@@ -10,7 +10,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - Az aukció használatához **5. szint** kell: hirdetéshez, vásárláshoz és licitáláshoz.
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
 - A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 1 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
-- 80 tárgy hirdethető meg, és 79 közülük Thuliumban is árazható.
+- 82 tárgy hirdethető meg, és 81 közülük Thuliumban is árazható.
 - Egy hirdetés 24 / 72 / 168 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 1%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 1,5%.
@@ -50,6 +50,7 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 | **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Experimental Fusion Core | 5 |
 | **Rakéták** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Hajótest-páncélzat** | Hull Plating II, Hull Plating III | 2 |
 | **Erőforrások** | Cataclysite (100 darabos csomagokban), Ship Fragment (100 darabos csomagokban), Daraxium (100 darabos csomagokban), Nyxite (100 darabos csomagokban), Quorvium (10 darabos csomagokban), Reinforced Hull Plate (10 darabos csomagokban), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

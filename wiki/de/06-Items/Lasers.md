@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -166,12 +166,12 @@ Die Siphon Battery ist Munition, um Schilde zu rauben, statt Hüllen zu brechen.
 
 ## Schilddurchdringung eines Lasertreffers {#shield-penetration-of-a-laser-hit}
 
-Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +9 %, Stiletto +16 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). Die Summe **endet bei 50 %** für einen Laser; die einer direkten Rakete endet bei 40 % ([Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +9 %, Stiletto +16 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Deine Amps zählen als Mittelwert deiner Laser.** Eine Salve ist ein Treffer, also addiert das Spiel die Durchdringung der Amps jedes Lasers (die Laser in deinen Drohnen zählen mit) und nimmt den Mittelwert über deine Laser, jeden nach seinem Schaden gewichtet, wie bei der Krit-Chance. Drei Penetration Amp IV in jedem Laser ergeben 24 %; ein Penetration Amp IV in einem von zwölf Lasern ergibt 0,67 %. Eine Wraith hat 12 Laser und 36 Amp-Slots, und alle 36 müssen gefüllt sein, um 24 % zu erreichen.
-- **Der Hangar zeigt es.** Die Kampfwerte des Hangars haben auf jedem Schiff eine Kachel **Durchdringung** mit dem Wert deiner Amps (0,0 % ohne Penetration Amp); Munition und Formation sind nicht darin. Zeig auf die Kachel, um die Obergrenzen zu lesen: Die Summe eines Lasertreffers endet bei 50 %, die einer Rakete bei 40 %.
-- **Der beste Laser erreicht die Grenze genau.** Ein Experimental Fusion Core (10 %), ein Stiletto (16 %) und drei Penetration Amp IV in jedem Laser (24 %) ergeben 50 %.
-- **Ein Schmiede-Bonus auf einem Penetration Amp IV ist in diesem Aufbau verschwendet.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 8,7 bis 9,2 Punkten statt 8. Aber 10 + 16 + 24 ergeben schon die 50 % der Grenze, jeder weitere Punkt wird abgeschnitten (drei ewige kämen zusammen auf 53,6 %, abgeschnitten bei 50 %).
+- **Der Hangar zeigt es.** Die Kampfwerte des Hangars haben auf jedem Schiff eine Kachel **Durchdringung** mit dem Wert der Laserverstärker der gezeigten Konfiguration (0,0 % ohne Penetration Amp); Munition und Formation sind nicht darin. Das Fenster **Schiff** im Flug hat am Ende seiner unteren Zeile einen Chip **Durchdringung** (die Chips für Konfiguration und Geschwindigkeit zeigen dafür nur ein Symbol und eine Zahl): Er zeigt die Summe eines Lasertreffers, deine Amps, die getragene Formation und die abgefeuerte Munition, zusammengezählt, sobald du etwas wechselst, und sein Tooltip nennt die drei Teile.
+- **Der beste Laser ergibt 50 %.** Ein Experimental Fusion Core (10 %), ein Stiletto (16 %) und drei Penetration Amp IV in jedem Laser (24 %) ergeben 50 %.
+- **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 8,7 bis 9,2 Punkten statt 8. Im besten Aufbau kommen drei ewige zusammen auf 53,6 %, und jeder Punkt davon zählt.
 
 | Lasersalve | Munition | Amps (3 Slots) | Formation | Summe |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Was das mit den Schilden des Ziels macht: Jede Zelle ist der Anteil eines Treffe
 | Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-Der beste Laser leert einen Schildkern ohne Zelle (die Hülle nimmt den ganzen Treffer); ein Kern mit einer Zelle behält einen Anteil jedes Treffers, und der beste Schild behält 30 % davon (45 % mit den Buffs). Eine Rakete leert nie einen Schild: Ihre Grenze ist 40 %.
+Der beste Laser leert einen Schildkern ohne Zelle (die Hülle nimmt den ganzen Treffer); ein Kern mit einer Zelle behält einen Anteil jedes Treffers, und der beste Schild behält 30 % davon (45 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (51 %) schon.
 
 ### Wann lohnt sich ein Penetration Amp für einen Slot? {#when-is-a-penetration-amp-worth-a-slot}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0eda863e69efaf17 -->
+<!-- wiki-i18n source: 8bf047cee1f3b4b9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -11,7 +11,7 @@
 ## 一分钟了解 {#in-one-minute}
 
 - **Dark Matter 是一种资源，在任何地方都只叫 Dark Matter。** 危险星区 4（`DS-4`）中央的黑洞会产出它：每枚抵达黑洞的 N.I.K.E. 火箭会返还 1 到 3 个 Dark Matter（平均 2 个），装在黑洞区域边缘的小货箱里。
-- **有什么用。** 研究中心的 32 项科技需要它，每项 5 到 20 个，共 349 个；装配站还把它压制成 Dark Matter Plate。
+- **有什么用。** 研究中心的 83 项科技需要它，每项 5 到 40 个，共 904 个；装配站还把它压制成 Dark Matter Plate。
 - **在研究中心**，你在按下开始之前，从货舱里添加 Dark Matter（舰船须已降落）。研究开始时会取用它。
 - **Dark Matter Plate 是另一种物品。** 先研究它的配方（科技树的资源组：1 天和 10 个 Dark Matter），再到装配站用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 制造它。
 - **板有什么用。** 每条升级链的最后一阶需要 **3 块**：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 12 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。
@@ -26,7 +26,7 @@
 | **是什么** | 史诗资源 | 神话资源 |
 | **从哪里来** | 危险星区 4 的黑洞，用于发射进去的 N.I.K.E. 火箭；Dormant 虫群也会少量掉落 | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
 | **先做什么** | 研究 N.I.K.E.（3 小时，不需要 Dark Matter）并制造一些 | 研究板的配方（1 天，10 个 Dark Matter） |
-| **有什么用** | 研究的花费（32 项科技，共 349 个）和板 | 每条升级链的最后一阶：12 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
+| **有什么用** | 研究的花费（83 项科技，共 904 个）和板 | 每条升级链的最后一阶：12 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
 
 ## 如何获得 Dark Matter {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@
 
 ## 研究中心里的 Dark Matter {#in-the-research-centre}
 
-科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 16 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格列出了全部。
+科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 16 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。Hull Plating 的两项研究需要 **25 个和 40 个**，舰船科技（13 种设计和 36 个装甲槽位）每项 **10 个**。[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格列出了全部。
 
 1. **在空间站打开 Skylab 的研究视图**，选择科技。它的卡片上有一行 **Dark Matter**：研究中心里有多少，它需要多少（例如 3 / 10）。
 2. **按下添加。** 它把 Dark Matter 从你的货舱移到研究中心，补上缺的部分，以你携带的数量为限。你的舰船必须已降落。**取回**会把它退回货舱。
@@ -105,7 +105,7 @@ Paragon 的 40 件部件是它的 8 把激光、这些激光上的 24 个增幅�
 | 一块 Dark Matter Plate | 5 | 2.5 |
 | 锻造炉一步所需的两块板 | 10 | 5 |
 | 一件最后一阶部件的三块板 | 15 | 7.5 |
-| 所有需要 Dark Matter 的科技 | 349 | 175 |
+| 所有需要 Dark Matter 的科技 | 904 | 452 |
 
 从零开始的第一次升级是配方（10 个）加两块板（10 个）：20 个 Dark Matter，约 10 枚 N.I.K.E. 火箭，也就是两次制造。从零开始的第一个 IV 阶增幅器是这块板的配方（10 个）、增幅器自己的科技（10 个）加 3 块板（15 个）：35 个 Dark Matter，约 18 枚 N.I.K.E. 火箭。
 

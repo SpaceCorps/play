@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50fa888ddacd9f80 -->
+<!-- wiki-i18n source: 1d13345263aa1a6a -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -10,6 +10,7 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 - **Alapsebesség**: 220
 - **Lézerfoglalatok**: 12
 - **Extrafoglalatok**: 3
+- **Páncélzatfoglalatok**: 9
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 
@@ -26,6 +27,17 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 
 ## Kutatás {#research}
 
+- **Páncélzatfoglalatok.** Ennek a hajónak 9 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (9 darab) 135 000 hajótestet ad hozzá.
+- **Dizájnok.** Ennek a hajónak 5 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
+
+| Dizájn | Mit változtat |
+| :--- | :--- |
+| **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom |
+| **Wraith BILLY** | +5% alap hajótest, +10 alap sebesség, +10% pajzskapacitás, Diminisher |
+| **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod |
+| **Wraith ATARAXIS** | -1 lézerfoglalat, +25% pajzskapacitás, +10% pajzselnyelés, Shield Buff |
+| **Wraith MATT** | -10% alap hajótest, +2 lézerfoglalat, -20% pajzskapacitás, +10% lézeres pajzsáthatolás |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -36,4 +48,4 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 
 ## Háttértörténet {#lore}
 
-A Wraith csatahajó titkosított, rejtett katonai kutatás terméke, a csatahajó-építés csúcsa. Sötétanyag-hajtóműve és sűrű energiahálói lehetővé teszik, hogy egyszerre több nagy teljesítményű lézersort vessen be. Rendkívül ritka és drága: ha egy Wraith feltűnik az érzékelőkön, még a legedzettebb kalózkapitányok is megfordulnak.
+A Wraith csatahajó titkosított, rejtett katonai kutatás terméke, a csatahajó-építés csúcsa. Sötétanyag-hajtóműve és sűrű energiahálói lehetővé teszik, hogy egyszerre több nagy teljesítményű lézersort vessen be. Rendkívül ritka és drága: ha egy Wraith feltűnik az érzékelőkön, még a legedzettebb kalózkapitányok is megfordulnak. Sima szürkén kerül ki a Gyártásból, és a dizájnjai is.

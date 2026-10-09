@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -166,12 +166,12 @@ La Siphon Battery est une munition qui sert à voler des boucliers plutôt qu’
 
 ## Pénétration de bouclier d’un tir laser {#shield-penetration-of-a-laser-hit}
 
-Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +9 %, Stiletto +16 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). Le total **s’arrête à 50 %** pour un laser ; celui d’une roquette directe s’arrête à 40 % ([Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +9 %, Stiletto +16 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 24 % ; un Penetration Amp IV dans un laser sur douze fait 0,67 %. Un Wraith a 12 lasers et 36 emplacements d’ampli, et il faut remplir les 36 pour atteindre 24 %.
-- **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre de vos amplis (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. Survolez la tuile pour lire les plafonds : le total d’un tir laser s’arrête à 50 %, celui d’une roquette à 40 %.
-- **Le meilleur laser atteint le plafond pile.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) et trois Penetration Amp IV dans chaque laser (24 %) font 50 %.
-- **Un bonus de Forge sur un Penetration Amp IV est gaspillé dans cette configuration.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 8,7 à 9,2 points au lieu de 8. Mais 10 + 16 + 24 font déjà le plafond de 50 %, et chaque point de plus est coupé (trois amplis Éternels feraient 53,6 %, coupés à 50 %).
+- **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre des amplis laser de la configuration affichée (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. La fenêtre **Vaisseau** en vol a une pastille **Pénétration** au bout de sa ligne du bas (les pastilles de configuration et de vitesse n’affichent qu’une icône et un chiffre pour lui faire de la place) : elle affiche le total d’un tir laser, vos amplis, la formation portée et les munitions tirées, additionnés dès que vous changez quelque chose, et son info-bulle liste les trois parts.
+- **Le meilleur laser fait 50 %.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) et trois Penetration Amp IV dans chaque laser (24 %) font 50 %.
+- **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 8,7 à 9,2 points au lieu de 8. Dans la meilleure configuration, trois amplis Éternels font 53,6 %, et chaque point compte.
 
 | Salve laser | Munitions | Amplis (3 emplacements) | Formation | Total |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Ce que cela fait aux boucliers de la cible : chaque case est la part d’un tir
 | Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-Le meilleur laser vide un noyau de bouclier sans cellule (la coque encaisse tout le tir) ; un noyau avec une cellule garde une part de chaque tir, et le meilleur bouclier en garde 30 % (45 % avec les bonus). Une roquette ne vide jamais un bouclier : son plafond est 40 %.
+Le meilleur laser vide un noyau de bouclier sans cellule (la coque encaisse tout le tir) ; un noyau avec une cellule garde une part de chaque tir, et le meilleur bouclier en garde 30 % (45 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (51 %) y arrive.
 
 ### Quand un Penetration Amp vaut-il un emplacement ? {#when-is-a-penetration-amp-worth-a-slot}
 

@@ -1,35 +1,98 @@
-<!-- wiki-i18n source: 3d121321d2746bbe -->
+<!-- wiki-i18n source: e67774df0345c0b5 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
-Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bündeln, die gemeinsame Bank aufzuwerten, Steuersätze festzulegen, dich mit Fraktionsmitgliedern abzustimmen und Diplomatie zu betreiben. Ein Clan hat außerdem gemeinsame Arbeit: Jeden Tag bekommt er eine **Tageslinie** aus Missionen, die mit einem Boss endet, den nur der Clan verletzen kann, und die Punkte, die er dabei verdient, kaufen **dauerhafte Boni** für jedes Mitglied. (Auf der Clan-Seite des Spiels heißt ein Clan „Flotte“, seine Punkte und Boni heißen dort Flottenpunkte und Flottenboni.)
+Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bündeln, die gemeinsame Bank aufzuwerten, Steuersätze festzulegen, dich mit Fraktionsmitgliedern abzustimmen und Diplomatie zu betreiben. Ein Clan hat außerdem gemeinsame Arbeit: Jeden Tag bekommt er eine **Tageslinie** aus Missionen, die mit einem Boss endet, den nur der Clan verletzen kann, und die Punkte, die er dabei verdient, kaufen **dauerhafte Boni** für jedes Mitglied. (Auf der Clan-Seite des Spiels heißt ein Clan „Flotte“, seine Punkte und Boni heißen dort Flottenpunkte und Flottenboni.) **Ein Clan gehört zu einer Welt und geht mit dem Wipe unter:** Du kannst nur Clans deiner eigenen Welt beitreten, und bei jedem Wipe wird jeder Clan aufgelöst ([Clans und Welten](#clans-and-worlds)).
 
 **In einer Minute**
 
+- Jeder Clan hat eine **Clan-Seite**, die jeder Pilot seiner Welt öffnen kann: Level, Piloten, Anführer, Beschreibung, Discord-Link, Voraussetzungen, gemeinsame Punkte und Boni ([Die Clan-Seite](#the-clan-page)). Der Anführer und die Stellvertreter richten sie im **Management** ein ([Management](#management)).
+- Ein Clan hat eine **Welt** (die seines Gründers), nimmt nur Piloten dieser Welt auf, und **der Wipe löst ihn samt Kasse auf**: Zahle die Flottenkasse aus, bevor der Countdown abläuft ([der Wipe](#the-wipe-disbands-every-clan)).
+- Der Anführer und die Stellvertreter schreiben [Beiträge](#clan-posts) für den ganzen Clan, jedes Mitglied sieht, [auf welcher Karte](#where-your-clan-mates-are) die anderen fliegen, das Fenster [Wer ist online](#who-is-online) (Taste **H**) lädt jeden Piloten deiner Welt in deine Gruppe ein, der Anführer kann einen [Tagesbonus](#4-daily-bonus) aus der Flottenkasse zahlen, und der Reiter [Protokoll](#fleet-log) erzählt dem Clan, was in ihm geschehen ist.
+- Ein Krieg endet nur, wenn der andere Clan zustimmt, und eine Allianz oder ein Pakt endet sofort, wenn einer der beiden Clans sie kündigt ([Diplomatie](#diplomacy)).
 - Jeden Saisontag bekommt dein Clan eine [Tageslinie](#daily-line): vier Missionen der Reihe nach (Aliens abschießen, eine Strecke fliegen, an manchen Tagen Schwarm-Bosse erledigen), danach einen [Clan-Wächter](#clan-wardens), einen Boss, den du rufst und den nur dein Clan verletzen kann.
 - Jeder abgeschlossene Schritt zahlt sofort Clanpunkte: 15, 15, 20, 20 und 30, also **100 Punkte** für eine ganze Linie.
 - Der Anführer und die Stellvertreter geben die Punkte für drei [Boni](#clan-points-and-boosts) mit je zehn Stufen aus: **Schaden** (bis +5 %), **Thulium** (bis +10 %) und **Credits** (bis +10 %).
-- Ein Clan, der jede Linie schafft, hat am **Saisontag 12** jede Stufe gekauft. Punkte und Stufen beginnen mit jedem Wipe neu.
+- Ein Clan, der jede Linie schafft, hat am **Saisontag 12** jede Stufe gekauft. Punkte, Stufen und der Clan selbst enden mit dem Wipe.
 - Du brauchst mindestens **drei Mitglieder**, die ihren Teil geleistet haben, und **eine große Besatzung** für den Kampf gegen den Wächter: Seit 0.4.13 hat ein Wächter fünfmal so viel Hülle, Schild und Laserschaden wie vorher, deshalb verlieren die Besatzungen, die früher gewannen (etwa sieben Piloten), jetzt ([wie groß die Besatzung sein muss](#how-big-a-crew)). Eine zu kleine Besatzung verliert den Kampf: Der Clan behält dann die **70 Punkte** der vier Missionen, aber die Linie ist nicht abgeschlossen und zahlt keine [Belohnung für dich](#the-reward-for-you).
-- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)).
+- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)). Seit 0.4.16 ist die Bezahlung dreimal so hoch, und solange ein Wächter steht, **kommt jede Minute eine Welle der Aliens der Karte** ([Wellen](#waves-of-aliens)).
 - Dein Schiff zeigt die Boni, die es hat, im **Booster-Fenster** auf einer eigenen Karte ([wo du sie siehst](#the-three-boosts)).
-- Linie und Boni brauchen ein Spiel ab Version 0.4.10, die Karte im Booster-Fenster ab 0.4.12.
+- Linie und Boni brauchen ein Spiel ab Version 0.4.10, die Karte im Booster-Fenster ab 0.4.12, die Clan-Seite, die Beiträge, das Online-Fenster, der Tagesbonus, die Friedensbitten, das Protokoll und die Clans pro Welt ab 0.4.16.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
 
+## Clans und Welten {#clans-and-worlds}
+
+### Ein Clan, eine Welt {#one-clan-one-world}
+
+Ein Clan gehört zu einer **Welt**, Alpha, Beta oder Gamma ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): der Welt des Piloten, der ihn gründet. Das Gründen kostet nichts, aber du musst vorher deine Welt gewählt haben.
+
+- **Du kannst nur einem Clan deiner eigenen Welt beitreten.** Du kannst dich bei einem Clan einer anderen Welt nicht bewerben, ihm nicht beitreten, nicht von ihm eingeladen werden und dich nicht mit ihm verbünden; das Spiel sagt dir, warum, wenn du es versuchst. Auch ein Pilot einer anderen Welt kann weder eingeladen noch angenommen werden.
+- **Du siehst nur die Clans deiner Welt.** Die Suche und beide Ranglisten (PvE und PvP) führen nur sie auf, und die Seite eines Clans aus einer anderen Welt lässt sich nicht öffnen. Clan-Namen und -Tags sind über die drei Welten hinweg eindeutig: Ein Name, der in Gamma vergeben ist, ist in Alpha bis zum Wipe nicht frei.
+- **Allianzen, Pakte und Kriege gibt es nur zwischen Clans einer Welt.** Eine, die vor 0.4.16 über Welten hinweg geschlossen wurde, bleibt bestehen, bis sie gekündigt wird, und ein solcher Krieg kann weiterhin im Einvernehmen beendet werden ([Diplomatie](#diplomacy)).
+- **Clans, die es schon gab,** haben die Welt ihres Anführers übernommen. Ein Mitglied einer anderen Welt, das schon drin war, bleibt bis zum Wipe oder bis es geht; wieder aufgenommen werden kann es nicht.
+
+### Der Wipe löst jeden Clan auf {#the-wipe-disbands-every-clan}
+
+Beim [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) wird jeder Clan aufgelöst, in allen drei Welten. Mit ihm verschwinden: die Mitglieder, die **Flottenkasse**, Bewerbungen und Einladungen, Allianzen, Pakte und Kriege, die Beiträge, das Protokoll, die Voraussetzungen, die Beschreibung und der Discord-Link, der Tagesbonus, die Clanpunkte und Boni-Stufen und die Linie des Tages. Name und Tag des Clans sind wieder frei, und ein neuer Clan beginnt auf Level 1.
+
+- **Du behältst** jeden Credit, den der Clan dir schon gezahlt hat (Auszahlungen, Tagesboni, Linienbelohnungen), und dein Spendenkontingent, das der Wipe nicht zurücksetzt ([Spenden](#2-donations)).
+- **Du verlierst** den Clan und **alles, was noch in seiner Flottenkasse liegt**, es sei denn, der Anführer oder ein Stellvertreter hat es vor dem Wipe an die Piloten ausgezahlt ([Auszahlungen aus der Bank](#3-bank-payouts)).
+- **Der Countdown sagt es den Clans.** Mit seiner ersten Warnung, 5 Minuten vor dem Wipe, bekommt jeder Pilot, der in einem Clan ist, eine Zeile und einen Hinweis: Der Wipe löst jeden Clan auf, seine Kasse geht verloren, und Anführer und Stellvertreter sollen die Flottenkasse jetzt an ihre Piloten auszahlen. Die Karte „Flottenkasse“ im Management sagt dasselbe.
+
+---
+
+## Die Clan-Seite {#the-clan-page}
+
+Jeder Clan hat eine Seite, die **jeder Pilot seiner Welt öffnen kann**, ob er in einem Clan ist oder nicht. Klicke den Namen des Clans im **Flottenregister** (Community › Clan, solange du in keinem Clan bist), in einer der beiden **Ranglisten** oder im **Profil eines Piloten**; die Schaltfläche **Vorschau der Clan-Seite** im Management zeigt deinen eigenen Clan so, wie ihn ein Pilot außerhalb sieht. Die Seite zeigt:
+
+- **Den Clan**: Name und Tag, Level, die Piloten jetzt und wie viele sein Level fasst („Level 2 · 14/25 Piloten“), den Anführer (Klick auf den Namen öffnet sein Profil), seine Welt, wie Piloten beitreten (Offen, Bewerbungen oder Nur auf Einladung), die **Beschreibung** (bis zu 200 Zeichen, vom Anführer oder einem Stellvertreter geschrieben) und den **Discord-Link** mit einer Schaltfläche **Discord öffnen**. Nur Links mit `discord.gg` und `discord.com/invite` werden angenommen, und das Spiel öffnet nichts anderes.
+- **Gemeinsame Punkte**: die Erfahrungs-, Ehren-, PvE- und PvP-Rangpunkte aller Piloten, die gerade im Clan sind, zusammengezählt.
+- **Voraussetzungen** ([unten](#requirements)), mit einem Häkchen oder einem Kreuz für das, was du erfüllst.
+- **Clan-Booster**: die Boni, die der Clan gekauft hat, und wie viele Tage sie noch gelten, bis zum Wipe.
+- **Bewerben** oder **Beitreten**, wie im Flottenregister. Die Schaltfläche ist grau, mit dem Grund, wenn der Clan voll ist oder dir eine Voraussetzung fehlt.
+
+Die Seite zeigt nie die Mitgliederliste, die Kassen, die Bewerbungen oder die Clanpunkte: Die sind den Mitgliedern des Clans vorbehalten.
+
+### Voraussetzungen {#requirements}
+
+Der Anführer und die Stellvertreter können von einem Piloten, der hinein will, zwei Dinge verlangen:
+
+- **Ein Mindestlevel**, von 1 (keine Voraussetzung) bis 21.
+- **Einen Mindestrang**: eine Rangstufe der Konzernränge, von **Pilot** (keine Voraussetzung) bis **Admiral**: Pilot, Sergeant, Leutnant, Hauptmann, Major, Oberst, General, Admiral ([Ränge](/wiki/03-Mechanics/Ranks.md)). Eine Stufe zählt ab ihrem niedrigsten Grad: Ein Clan, der Hauptmann verlangt, nimmt einen Junior-Hauptmann und jeden Piloten darüber. Gemeint ist der Rang, den du jetzt auf der Rangliste deines Konzerns hast, nicht die Welt, in der du fliegst.
+
+Geprüft wird, wenn sich ein Pilot **bewirbt oder beitritt**. Die **Einladung** eines Offiziers überspringt sie, ebenso eine Bewerbung, die ein Offizier annimmt. Das Flottenregister zeigt sie als kleine Kapseln unter dem Namen des Clans, rot für die, die du nicht erfüllst; ein Clan, der nichts festgelegt hat, verlangt nichts.
+
+---
+
 ## Clan-Fortschritt {#clan-progression}
 
-Clans beginnen auf Level 1 und lassen sich bis auf Level 5 aufwerten. Für das Aufwerten des Clans müssen Credits aus der **Clanbank** gezahlt werden. Upgrades erhöhen die Mitgliederkapazität und die täglichen Auszahlungslimits.
+Clans beginnen auf Level 1 und lassen sich bis auf Level 5 aufwerten. Für das Aufwerten des Clans müssen Credits aus der **Clanbank** gezahlt werden (im Spiel heißt sie **Flottenkasse**). Upgrades erhöhen die Mitgliederkapazität und die täglichen Auszahlungslimits; die Clan-Boni werden mit Clanpunkten gekauft, nicht mit Leveln.
 
 | Clan-Level | Mitgliederlimit | Tägliches Auszahlungslimit (pro Mitglied) | Upgrade-Kosten (Credits) |
 | :---: | :---: | :---: | :--- |
-| **Level 1** | 10 | 1.000.000 Cr | — |
+| **Level 1** | 15 | 1.000.000 Cr | — |
 | **Level 2** | 25 | 2.000.000 Cr | 10.000.000 Cr |
 | **Level 3** | 50 | 3.000.000 Cr | 100.000.000 Cr |
 | **Level 4** | 75 | 4.000.000 Cr | 1.000.000.000 Cr |
 | **Level 5** | 100 | 5.000.000 Cr | 10.000.000.000 Cr |
+
+---
+
+## Management
+
+Der Reiter **Management** im Clan-Fenster (bis 0.4.16 hieß er Admin) ist für den Anführer und die Stellvertreter; die anderen Mitglieder sehen ein Schloss. Seine Karten, von oben:
+
+- **Rekrutierungsprotokoll**: wie Piloten beitreten. **Offen** nimmt jeden Piloten auf, der die Voraussetzungen erfüllt, sofort, bei **Bewerbungen** entscheidet ein Offizier über jede Bewerbung, **Nur auf Einladung** nimmt keinen, der nicht eingeladen wurde.
+- **Finanzeinstellungen**: der tägliche Steuersatz, 0 % bis 5 % ([Tägliche Besteuerung](#1-daily-taxation)).
+- **Bewerbungsvoraussetzungen**: Mindestlevel und Mindestrang ([Voraussetzungen](#requirements)).
+- **Clan-Seite**: die Beschreibung (200 Zeichen) und der Discord-Link, die Piloten außerhalb des Clans lesen, und die Schaltfläche **Vorschau der Clan-Seite** ([Die Clan-Seite](#the-clan-page)). Die eigenen Mitglieder lesen den Link in der Übersicht.
+- **Flottenkasse**: die Credits aus Spenden und der täglichen Steuer, mit dem Hinweis, dass der Wipe den Clan auflöst und die Kasse verloren geht.
+- **Thulium-Kasse**: eine zweite Kasse, die neben der Flottenkasse in der Kopfzeile des Clan-Fensters steht. Sie ist leer, und nichts wird in sie ein- oder aus ihr ausgezahlt: Sie ist für ein künftiges Update reserviert.
+- **Flottenentwicklung** und **Upgrades**: die fünf Level mit den Piloten, die jedes fasst, dem Höchstbetrag, den ein Mitglied am Tag ausgezahlt bekommen kann, und dem Preis, dazu die Upgrade-Schaltfläche des Anführers. Nur der Anführer wertet auf.
+- **Tagesbonus**: der Betrag des Anführers für jeden Rang ([Tagesbonus](#4-daily-bonus)).
 
 ---
 
@@ -57,14 +120,24 @@ Clans arbeiten mit einem steuerbasierten Finanzsystem:
 - **Auszahlungslimits**: Clan-Anführer und Offiziere können Credits aus der Clanbank an einzelne Mitglieder verteilen.
 - **Tageslimit**: Ein Mitglied kann an einem einzigen Kalendertag (UTC) nicht mehr als `1,000,000 * ClanLevel` Credits an Auszahlungen erhalten.
 
+### 4. Tagesbonus {#4-daily-bonus}
+
+Der Anführer kann jedem Mitglied einmal am Tag einen festen Bonus aus der Flottenkasse zahlen.
+
+- **Festlegen.** Auf der Karte **Tagesbonus** des Managements gibt der Anführer für jeden Rang einen Betrag ein: Pilot, Ältester, Stellvertreter und Anführer. **0 schaltet einen Rang ab**; jeder andere Betrag liegt zwischen **1.000 und 1.000.000 Credits**. Die Stellvertreter sehen die Karte und können sie nicht ändern. Das Speichern nimmt nichts aus der Kasse. Die Karte zeigt, was ein ganzer Tag kosten würde, wenn jeder Pilot spielt, und für wie viele Tage die Kasse reichen würde.
+- **Zahlen.** Ein Mitglied wird **einmal pro Saisontag** bei seiner ersten Prüfung des Tages bezahlt: wenn es sich verbindet, wenn der Tag wechselt, während es online ist, und wenn der Anführer neue Beträge speichert. Ein Saisontag sind die 24 Stunden der Clan-Linie, nicht Mitternacht UTC ([Der Tag](#the-day)). Der Pilot bekommt eine Systemzeile und eine Zeile im Spielprotokoll, und die Übersicht zeigt „Tagesbonus: X Credits“ und ob er heute gezahlt wurde.
+- **Wer.** Ein Pilot, der **mindestens 24 Stunden** im Clan ist, und **ein Bonus pro Pilot und Saisontag über alle Clans hinweg**: Wer Clans wechselt, um mehr einzusammeln, wird einmal bezahlt.
+- **Eine knappe Kasse.** Die Kasse zahlt nur, was sie hat, und fällt nie unter null. Kann sie den Betrag eines Mitglieds nicht zahlen, wird es für diesen Tag übersprungen, auch wenn die Kasse später am Tag aufgefüllt wird, und das [Flottenprotokoll](#fleet-log) vermerkt es einmal. Die Piloten werden in der Reihenfolge bezahlt, in der sie sich verbinden, bis die Kasse leer ist.
+- **Keine Auszahlung.** Der Bonus verbraucht nicht das tägliche Auszahlungslimit eines Mitglieds.
+
 ---
 
 ## Hierarchie & Rollen {#hierarchy-roles}
 
 Clans nutzen eine rollenbasierte Rangstruktur, um Berechtigungen zu verwalten:
 
-- **Anführer (Rolle 3)**: Hat vollständigen Verwaltungszugriff: Upgrades, Steuern, Diplomatie, Beförderungen, Entlassungen und die Auflösung des Clans.
-- **Stellvertreter (Rolle 2)**: Kann Steuersätze festlegen, Credits auszahlen, die Diplomatie verwalten und niedrigere Ränge befördern oder degradieren.
+- **Anführer (Rolle 3)**: Hat vollständigen Verwaltungszugriff: Upgrades, Steuern, Voraussetzungen, Clan-Seite, Tagesbonus, Diplomatie, Beiträge, Beförderungen, Entlassungen und die Auflösung des Clans.
+- **Stellvertreter (Rolle 2)**: Kann Steuersätze, Voraussetzungen und die Clan-Seite festlegen, Credits auszahlen, die Diplomatie verwalten, Beiträge schreiben und niedrigere Ränge befördern oder degradieren.
 - **Ältester (Rolle 1)**: Vertrautes Mitglied, das neue Bewerbungen für den Clan annehmen kann.
 - **Mitglied (Rolle 0)**: Normaler Spieler ohne Verwaltungsrechte.
 
@@ -75,6 +148,9 @@ Clans nutzen eine rollenbasierte Rangstruktur, um Berechtigungen zu verwalten:
 | **Clan auflösen** | ✅ | ❌ | ❌ | ❌ |
 | **Clan aufwerten** | ✅ | ❌ | ❌ | ❌ |
 | **Steuersatz festlegen** | ✅ | ✅ | ❌ | ❌ |
+| **Voraussetzungen und Clan-Seite festlegen** | ✅ | ✅ | ❌ | ❌ |
+| **Tagesbonus festlegen** | ✅ | ❌ | ❌ | ❌ |
+| **Clan-Beiträge schreiben** | ✅ | ✅ | ❌ | ❌ |
 | **Credits auszahlen** | ✅ | ✅ | ❌ | ❌ |
 | **Diplomatie verwalten** | ✅ | ✅ | ❌ | ❌ |
 | **Clan-Boni kaufen** | ✅ | ✅ | ❌ | ❌ |
@@ -87,6 +163,32 @@ Clans nutzen eine rollenbasierte Rangstruktur, um Berechtigungen zu verwalten:
 ### Wenn der Anführer geht {#when-the-leader-leaves}
 
 Ein Anführer kann einen Clan, der noch andere Mitglieder hat, nicht verlassen: Befördere zuerst einen Stellvertreter zum Anführer (der Anführer tritt zum Stellvertreter zurück) oder gehe als Letzter, wodurch der Clan aufgelöst wird. Löscht der Anführer sein Konto (Einstellungen › Konto), geht die Führung an das ranghöchste Mitglied, bei Gleichstand an das am längsten dienende; ein Anführer, der allein im Clan ist, löst ihn auf, samt Bank.
+
+---
+
+## Clan-Beiträge {#clan-posts}
+
+Ein **Beitrag** ist eine kurze Notiz für den ganzen Clan, ein schwarzes Brett für die Neuigkeiten der Offiziere. Er steht im Reiter **Beiträge** des Clan-Fensters.
+
+- **Wer schreibt.** Der Anführer und die Stellvertreter. Jedes Mitglied liest mit. Der Anführer und die Stellvertreter löschen jeden Beitrag, und ein Autor löscht seinen eigenen, auch nachdem er degradiert wurde.
+- **Der Text.** Bis zu **200 Zeichen** in einer Zeile, mit einem Zähler unter dem Feld; die Eingabetaste sendet. **Keine Links**: Ein Beitrag mit einem Link wird abgelehnt.
+- **Grenzen.** Ein Beitrag pro Autor alle **10 Sekunden**, und der Clan behält **20** auf einmal: Der 21. verdrängt den ältesten.
+- **Wie lange.** Ein Beitrag hält bis zum Wipe.
+- **Mitteilung.** Die Mitglieder, die online sind, bekommen einen Hinweis („Nova hat an die Flotte gepostet.“) und einen leisen Ton, höchstens einmal in anderthalb Sekunden, egal wie viele Beiträge kommen. Die Liste zeigt den neuesten zuerst, mit dem Autor und wie lange er her ist.
+
+## Wo deine Clan-Kameraden sind {#where-your-clan-mates-are}
+
+Die Spalte **Karte** in der Mitgliederliste zeigt den Sektor, in dem jeder Pilot deines Clans fliegt („T-2“), mit der Welt davor, wenn es nicht deine eigene ist („Beta · T-2“). Sie wird alle 10 Sekunden neu gelesen, solange die Liste offen ist. Gezeigt wird nur die **Karte**, nie Koordinaten, und nichts wird gespeichert. Ein Pilot, der **angedockt oder abgemeldet** ist, steht auf **Offline**, ebenso ein Pilot, dessen getarntes Schiff du auf einer Karte nicht sehen könntest ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): Ein Clan hebt keine Tarnung auf.
+
+## Wer ist online {#who-is-online}
+
+Die Schaltfläche **Wer ist online** in der System-Symbolleiste (oben rechts) oder die Taste **H** (in Einstellungen › Steuerung belegbar) öffnet das Fenster **Piloten online**.
+
+- **Wer aufgeführt ist.** Die Piloten, die gerade in **deiner Welt** fliegen, außer dir selbst: Alpha, Beta und Gamma begegnen sich nicht. Ein Pilot, dessen getarntes Schiff du nicht sehen kannst, wird weder aufgeführt noch mitgezählt. Das Fenster zeigt höchstens **100** Zeilen, zuerst deine Clan-Kameraden, dann die höheren Level, dann nach Namen, und oben die wahre Zahl der Piloten, die online sind.
+- **Was eine Zeile zeigt.** Name, Level, Konzern, Clan-Tag und Rangsymbol des Piloten: das, was Chat und Ranglisten ohnehin zeigen. Nie eine Position, eine Karte oder den Zustand des Schiffs.
+- **Suche.** Tippe einen Teil eines Namens oder eines Clan-Tags; das Fenster fragt den Server erneut, wenn die Liste gekürzt war.
+- **Einladen.** Die Schaltfläche **Einladen** in einer Zeile ist die eigene Einladung des Gruppenfensters ([Gruppen](/wiki/03-Mechanics/Groups.md)), mit denselben Antworten und Ablehnungen (der Pilot ist in einer Gruppe, die Gruppe ist voll, Bitte nicht stören ist an). Die Schaltfläche ist grau, mit dem Grund beim Darüberfahren, wenn das Spiel schon weiß, dass die Einladung abgelehnt würde.
+- Die Liste wird alle 10 Sekunden neu gelesen, solange das Fenster offen ist.
 
 ---
 
@@ -133,7 +235,7 @@ Die Stufe bestimmt, wie viele Aliens die Missionen verlangen, welches Alien der 
 - **Dein Minimum.** Um an der Belohnung des Tages teilzuhaben, musst du **5 % der Tagesarbeit** leisten, etwa acht Minuten echte Jagd. Der Reiter zeigt es als „Deine Arbeit heute: 312 von 469 Einheiten“. Eine Arbeitseinheit ist eine Sekunde Spielzeit: Ein Abschuss zählt so viel, wie es dauert, dieses Alien zu finden und zu zerstören, und eine Flugstrecke so viel, wie der Flug dauert. Für einen Veteranen-Clan ist ein Seeker etwa 12 Einheiten wert, ein Phantasm 22, ein Bulwark 123 und 1.000 geflogene Einheiten etwa 5; das Minimum liegt bei 446 bis 480 Einheiten, an jedem Tag und in jeder Stufe.
 - **Mindestens drei Mitglieder** müssen ihr Minimum erreicht haben, bevor ein Schritt erledigt sein kann. Ist ein Schritt voll und haben es weniger geschafft, **wartet** er („Schritt 3 ist voll, aber erst 2 Mitglieder haben ihr Minimum erreicht“), und Abschüsse des Aliens dieses Schritts erhöhen weiter die Arbeit der Mitglieder, die sie gemacht haben, bis das dritte es geschafft hat. Ein Clan mit weniger als drei Piloten kann keinen Schritt abschließen.
 - **Wer einen Abschuss bekommt.** Der Pilot, der für den Abschuss bezahlt wird, und seine Gruppenmitglieder im Umkreis von 4.000 Einheiten, die in den letzten 15 Sekunden gefeuert haben ([Gruppen](/wiki/03-Mechanics/Groups.md#sharing-kills)). Ein Clan zählt einen Abschuss **einmal**, egal wie viele seiner Piloten in der Gruppe waren, und die Arbeit des Abschusses wird gleichmäßig auf sie verteilt. Zwei Clans in einer Gruppe zählen ihn je einmal.
-- **Welche Abschüsse.** Nur das Alien des offenen Schritts: der gewöhnliche Seeker, Phantasm, Bulwark oder Goombah. Schwarmschiffe, andere Piloten und die Helfer eines Wächters zählen nicht als diese Aliens. Jede Welt zählt, und ein Abschuss zählt in einer stärkeren Welt mehr: **1 in Alpha, 1,5 in Beta, 2 in Gamma** ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ein Boss-Schritt zählt die Bosse der [Schwärme](/wiki/05-Swarms/Swarms.md), einen für jeden Clan, der einen Piloten hat, der mindestens 5 % des Schadens verursacht hat.
+- **Welche Abschüsse.** Nur das Alien des offenen Schritts: der gewöhnliche Seeker, Phantasm, Bulwark oder Goombah. Schwarmschiffe, andere Piloten und die Helfer eines Wächters zählen nicht als diese Aliens. Ein Abschuss zählt für die Welt, in der er gelingt, und in einer stärkeren Welt mehr: **1 in Alpha, 1,5 in Beta, 2 in Gamma** ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ein Boss-Schritt zählt die Bosse der [Schwärme](/wiki/05-Swarms/Swarms.md), einen für jeden Clan, der einen Piloten hat, der mindestens 5 % des Schadens verursacht hat.
 - **Fliegen.** Ein Patrouillen-Schritt zählt die Strecke, die jeder Pilot außerhalb der Schutzzonen fliegt; fünf Piloten, die zusammen fliegen, bringen die fünffache Strecke.
 - **Beitreten und Austreten.** Was du getan hast, bleibt gezählt, wenn du gehst. Ein Pilot, der beitritt, zählt ab diesem Moment.
 
@@ -165,11 +267,11 @@ Ist die Linie abgeschlossen, das heißt der Wächter zerstört, bekommt jedes Mi
 
 ## Clan-Wächter {#clan-wardens}
 
-Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien. Ein Wächter ist sehr stark: Er hat fünfmal so viel Hülle, Schild und Laserschaden wie vor 0.4.13, also ist er ein Kampf für die größte Besatzung, die dein Clan aufbringen kann ([wie groß die Besatzung sein muss](#how-big-a-crew)).
+Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien. Ein Wächter ist sehr stark: Er hat fünfmal so viel Hülle, Schild und Laserschaden wie vor 0.4.13, also ist er ein Kampf für die größte Besatzung, die dein Clan aufbringen kann ([wie groß die Besatzung sein muss](#how-big-a-crew)). Seit 0.4.16 hat der Brood Warden III **halb** so viel Hülle und Schild, seine Drohnen heilen halb so viel und kommen halb so schnell, und jeder Wächter bringt [Wellen von Aliens](#waves-of-aliens) mit, solange er steht.
 
 | Wächter | Saisontage | Rolle | Wie er kämpft |
 | :--- | :--- | :--- | :--- |
-| **Brood Warden** | 1, 4, 7, 10 … | Hüter des Stocks: teile dein Feuer auf | Vier kleine **Brood Drones** heilen seine Hülle, und alle 8 Sekunden kommt eine neue, solange weniger als vier leben. Erst die Drohnen abschießen, dann den Wächter. |
+| **Brood Warden** | 1, 4, 7, 10 … | Hüter des Stocks: teile dein Feuer auf | Vier kleine **Brood Drones** heilen seine Hülle, und alle 8 Sekunden kommt eine neue, solange weniger als vier leben (beim Brood Warden III alle 16 Sekunden). Erst die Drohnen abschießen, dann den Wächter. |
 | **Siege Warden** | 2, 5, 8, 11 … | Belagerungsbrecher: bleib in Bewegung | Er streift umher, feuert eine gerade [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) auf den Piloten, der ihn zuerst getroffen hat, und repariert sich selbst. Zwei **Siege Escorts** feuern zusätzlich Laser. Bleib in Bewegung und wechselt euch als Ziel ab. |
 | **Wrath Warden** | 3, 6, 9, 12 … | Kriegsherr: schlage die Raserei | Er kämpft auf der Stelle und repariert sich selbst. Unter halber Hülle treffen seine Laser **anderthalbmal so hart**. Zwei **Wrath Guards** feuern zusätzlich Laser. Bring ihn schnell herunter und halte die Schilde oben. |
 
@@ -186,26 +288,42 @@ Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öf
 ### Einen Wächter bekämpfen {#fighting-a-warden}
 
 - **Ein Wächter kämpft gegen den Piloten, der ihn zuerst getroffen hat**, wie jeder Boss: Lass das robusteste Schiff der Besatzung beginnen und nutze [Shield Surge und Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 18 bis 26 Piloten mit x2-Munition und 28 bis 39 mit x1-Munition.
-- **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, verliert, selbst eine große. Schieß sie zuerst ab und schieß weiter auf sie: Nach 8 Sekunden kommt eine neue.
+- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 18 bis 26 Piloten mit x2-Munition und 26 bis 38 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten.
+- **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, verliert, selbst eine große. Schieß sie zuerst ab und schieß weiter auf sie: Nach 8 Sekunden kommt eine neue (beim Brood Warden III nach 16).
 - **Siege:** Seine Raketen fliegen gerade und ungelenkt, ein Schiff, das in Bewegung bleibt, weicht den meisten aus. Bleib in Bewegung und wechselt euch als Ziel ab.
 - **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf.
+
+### Wellen von Aliens {#waves-of-aliens}
+
+Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf** ist (die 90 Sekunden Aufwärmen haben keine Wellen, damit sich die Besatzung sammeln kann), kommt **alle 60 Sekunden** eine **Welle** gewöhnlicher Aliens der Karte, auf der er steht, solange der Wächter steht.
+
+| Karte | Eine Welle | Höchstens gleichzeitig am Leben |
+| :--- | :--- | ---: |
+| x-2 | 5 Phantasm | 15 |
+| x-3 | 10 Phantasm | 30 |
+| x-4 | 10 Bulwarks | 30 |
+
+- **Höchstens drei Wellen sind am Leben.** Eine Welle lebt, solange eines ihrer Aliens lebt. Eine Welle, die fällig ist, wenn drei leben, wird übersprungen und nicht aufgehoben; die nächste ist eine Minute später fällig.
+- **Es sind die eigenen Aliens der Karte**, die Art, die Piloten angreift, gemacht wie die der Karte: Eine stärkere Welt gibt ihnen mehr Hülle, Schild und Schaden ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Sie erscheinen 500 bis 1.200 Einheiten vom Wächter entfernt, rund um ihn verteilt.
+- **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle aus 5 Phantasm zahlt in Alpha 15.000 Credits, eine Welle aus 10 Bulwarks 50.000, unter 2 % dessen, was der schwächste Wächter zahlt.
+- **Sie hören mit dem Wächter auf.** Wird er zerstört oder zieht er sich zurück, kommen keine mehr; die Aliens, die schon draußen sind, bleiben und sind die gewöhnlichen Aliens der Karte. Ein Neustart des Servers beendet sie mit dem Wächter.
+- **Der Clan erfährt es.** Jede Welle wird im Reiter System des Chats und im Spielprotokoll angekündigt: „Brood Warden I ruft auf M-3 Verstärkung: 10 Phantasm.“
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 
 > [!NOTE]
-> Seit 0.4.13 hat jeder Wächter und jeder Helfer **fünfmal** so viel Hülle, Schild, Laserschaden, Selbstreparatur und Heilung wie in 0.4.12 (Geschwindigkeit, Reichweite und die Zahl der Helfer sind gleich). Er braucht fünfmal so lange, bis er fällt, und trifft die ganze Zeit fünfmal so hart, deshalb verlieren die Besatzungen, die früher gewannen, jetzt. **Wir haben gegen die neuen Wächter im Spiel noch nicht gekämpft: Die Zeiten unten sind berechnet, nicht gemessen.** Sie zeigen den **besten Fall** der Besatzung: Die Besatzung fliegt in den Schiffen und der Ausrüstung, für die die Stufe gemacht ist, jeder Pilot setzt Shield Surge und Emergency Repair ein, sobald sie bereit sind, die Besatzung schießt zuerst auf die Helfer des Wächters, wenn das besser ist, der Wächter und seine Helfer feuern alle auf den Piloten, der zuerst getroffen hat, und niemand weicht aus. In 0.4.12 war dieselbe Berechnung hoffnungsvoller als die Kämpfe, die wir im Spiel selbst mit skriptgesteuerten Piloten ausgetragen haben, ein echter Kampf kann also härter sein als die Tabelle, und eine gute Besatzung kann besser abschneiden: Nimm sie als Richtwert, nicht als Versprechen.
+> Seit 0.4.13 hat jeder Wächter und jeder Helfer **fünfmal** so viel Hülle, Schild, Laserschaden, Selbstreparatur und Heilung wie in 0.4.12 (Geschwindigkeit, Reichweite und die Zahl der Helfer sind gleich); seit 0.4.16 hat der Brood Warden III davon nur die halbe Hülle und den halben Schild und seine Drohnen die halbe Heilung. Er braucht fünfmal so lange, bis er fällt, und trifft die ganze Zeit fünfmal so hart, deshalb verlieren die Besatzungen, die früher gewannen, jetzt. **Wir haben gegen die neuen Wächter im Spiel noch nicht gekämpft: Die Zeiten unten sind berechnet, nicht gemessen.** Sie zeigen den **besten Fall** der Besatzung: Die Besatzung fliegt in den Schiffen und der Ausrüstung, für die die Stufe gemacht ist, jeder Pilot setzt Shield Surge und Emergency Repair ein, sobald sie bereit sind, die Besatzung schießt zuerst auf die Helfer des Wächters, wenn das besser ist, der Wächter und seine Helfer feuern alle auf den Piloten, der zuerst getroffen hat, und niemand weicht aus. In 0.4.12 war dieselbe Berechnung hoffnungsvoller als die Kämpfe, die wir im Spiel selbst mit skriptgesteuerten Piloten ausgetragen haben, ein echter Kampf kann also härter sein als die Tabelle, und eine gute Besatzung kann besser abschneiden: Nimm sie als Richtwert, nicht als Versprechen. **Die Wellen von Aliens sind in der Berechnung nicht enthalten**, ein echter Kampf ist also härter als die Tabelle.
 
 Die Tabelle zeigt den besten Fall; im Spiel bring so viele mit, wie du kannst.
 
 | Besatzung | Mit x2-Munition | Mit x1-Munition |
 | :--- | :--- | :--- |
 | 5 Piloten | verlieren gegen jeden Wächter; der Wächter behält 88 bis 96 % seiner Hülle und seines Schilds | verlieren |
-| 10 Piloten | verlieren gegen jeden Wächter; der Wächter behält 55 bis 87 % seiner Hülle und seines Schilds | verlieren |
-| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 8,5 bis 8,6 Minuten, und verlieren 7 Schiffe | verlieren |
-| 30 Piloten | gewinnen gegen jeden Wächter in 4,5 bis 5,1 Minuten und verlieren 3 bis 11 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 12,6 bis 12,8 Minuten, und verlieren 10 Schiffe |
+| 10 Piloten | verlieren gegen jeden Wächter; der Wächter behält 55 bis 85 % seiner Hülle und seines Schilds | verlieren |
+| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 8,5 bis 8,6 Minuten, und verlieren 7 Schiffe, und gegen den Brood Warden III, in 3,7 Minuten, und verlieren 8 Schiffe | verlieren |
+| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 5,1 Minuten und verlieren 3 bis 10 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 12,6 bis 12,8 Minuten, und verlieren 10 Schiffe, und gegen den Brood Warden III, in 5,0 Minuten, und verlieren 11 Schiffe |
 
-In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **18 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **9 bis 17** Schiffe; mit x1-Munition hat sie **28 bis 39** Piloten und verliert 13 bis 27. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 19 bis 59 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
+In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **18 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II und den Brood Warden III) und verliert dabei **9 bis 17** Schiffe; mit x1-Munition hat sie **26 bis 38** Piloten und verliert 13 bis 27. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 19 bis 59 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
 
 Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des Wächters. Schwächere Schiffe schneiden schlechter ab. Der Wächter **deines** Clans passt immer zu **deiner** Stufe, die die fünf besten Piloten des Clans bestimmen, bring sie also mit.
 
@@ -219,7 +337,7 @@ Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihr
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
 | Brood Warden I | 830.000 | 680.000 | 645 | 90 | 600 | – | – |
 | Brood Warden II | 1.440.000 | 1.180.000 | 3.885 | 90 | 700 | – | – |
-| Brood Warden III | 5.300.000 | 4.350.000 | 15.450 | 90 | 800 | – | – |
+| Brood Warden III | 2.650.000 | 2.175.000 | 15.450 | 90 | 800 | – | – |
 | Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Rivet I: 24 |
 | Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Rivet II: 12 |
 | Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Rivet III: 8 |
@@ -231,7 +349,7 @@ Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihr
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Brood Drone I | 4 | 3.500 | 2.500 | 60 | 170 | 600 |
 | Brood Drone II | 4 | 6.000 | 4.500 | 390 | 170 | 1.050 |
-| Brood Drone III | 4 | 20.000 | 17.500 | 1.575 | 170 | 3.850 |
+| Brood Drone III | 4 | 20.000 | 17.500 | 1.575 | 170 | 1.925 |
 | Siege Escort I | 2 | 21.500 | 17.500 | 30 | 175 | – |
 | Siege Escort II | 2 | 37.000 | 30.500 | 225 | 175 | – |
 | Siege Escort III | 2 | 137.500 | 112.500 | 1.425 | 175 | – |
@@ -241,26 +359,26 @@ Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihr
 
 ### Bezahlung und Beute {#warden-pay-and-loot}
 
-Ein Wächter zahlt das Zehnfache dessen, was ein Stapel des schweren Aliens der Stufe zahlt: **300 Phantasms** für einen Wächter I, **240 Bulwarks** für einen II und **160 Goombahs** für einen III. Es ist ein Topf, aufgeteilt nach Schaden unter den Piloten, die mindestens 5 % des Schadens verursacht haben, genauso wie beim Anführer eines [Schwarms](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Deine [Clan-Boni](#what-the-boosts-apply-to) gelten für deinen Anteil. Der Topf wächst nicht mit dem Schaden, den du einsteckst, der Munition, die du verbrennst, oder den Schiffen, die du verlierst.
+Ein Wächter zahlt so viel, wie ein Stapel des schweren Aliens der Stufe zahlen würde: **900 Phantasms** für einen Wächter I, **720 Bulwarks** für einen II und **480 Goombahs** für einen III, dreimal so viel wie vor 0.4.16. Es ist ein Topf, aufgeteilt nach Schaden unter den Piloten, die mindestens 5 % des Schadens verursacht haben, genauso wie beim Anführer eines [Schwarms](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays). Deine [Clan-Boni](#what-the-boosts-apply-to) gelten für deinen Anteil. Der Topf wächst nicht mit dem Schaden, den du einsteckst, der Munition, die du verbrennst, oder den Schiffen, die du verlierst.
 
 | Stärke des Wächters | Credits | Thulium | Erfahrung (EP) | Ehre |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 900.000 | 3.600 | 90.000 | 1.800 |
-| II | 1.200.000 | 6.000 | 192.000 | 2.400 |
-| III | 2.400.000 | 12.000 | 480.000 | 3.840 |
+| I | 2.700.000 | 10.800 | 270.000 | 5.400 |
+| II | 3.600.000 | 18.000 | 576.000 | 7.200 |
+| III | 7.200.000 | 36.000 | 1.440.000 | 11.520 |
 
 **Jeder Pilot, der bezahlt wird, bekommt eine eigene Kiste** am Wrack, mit seinem Anteil an der Beute. Die Tabelle zeigt, was der ganze Abschuss auswürfelt, und ein Pilot, der 20 % des Schadens verursacht hat, würfelt für etwa ein Fünftel jeder Menge: Ein Anteil wird zufällig gerundet, der Durchschnitt stimmt also genau, und ein kleiner Anteil bekommt trotzdem manchmal eine seltene Zeile. **Nur du siehst deine Kiste, und nur du kannst sie einsammeln**, nicht dein Clan und nicht deine Gruppe, und sie liegt **10 Minuten** lang, ohne die Wartezeit von 30 Sekunden ([private Kisten](/wiki/03-Mechanics/Cargo.md#private-boxes)). In einer [Gruppe](/wiki/03-Mechanics/Groups.md#sharing-kills) zählen die Mitglieder für die 5 % als ein Pilot, und sein Anteil wird geteilt, wie in einer Gruppe jeder Abschuss geteilt wird (die Mitglieder, die in der Nähe sind und schießen, nach Level): Jedes Mitglied, das einen Anteil bekommt, erhält eine private Kiste mit diesem Anteil. Das Spielprotokoll nennt dir deinen Anteil. Ein Pilot mit weniger als 5 % wird nicht bezahlt, und für ihn wird keine Kiste gelegt; das Spielprotokoll sagt es ihm. Eine Chance in Klammern gilt für jeden der genannten Würfe: (5 × 50 %) sind fünf Würfe mit je 50 % Chance.
 
 | Wächter | Gegenstand | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
 | Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 2.000–4.000 | 6.000–12.000 | – |
+| Brood Warden | Advanced Plasma | 6.000–12.000 | 18.000–36.000 | – |
 | Brood Warden | Daraxium | 10–20 (5 × 50 %) | – | – |
 | Brood Warden | Nyxite | – | 20–40 (5 × 50 %) | – |
-| Brood Warden | Ultra Core | – | – | 6.000–10.000 |
+| Brood Warden | Ultra Core | – | – | 18.000–30.000 |
 | Brood Warden | Quorvium | – | – | 50–100 (60 %) |
 | Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 2.000–4.000 | 6.000–10.000 | 16.000–24.000 |
+| Siege Warden | Siphon Battery | 6.000–12.000 | 18.000–30.000 | 48.000–72.000 |
 | Siege Warden | Rakete aus dem Credits-Shop (eine Sorte, zufällig) | 20–30 | 50–80 | 80–120 |
 | Siege Warden | Reinforced Hull Plate | – | 10 (30 %) | – |
 | Siege Warden | Epische Rakete (eine Sorte, zufällig) | – | – | 10–20 (50 %) |
@@ -270,6 +388,8 @@ Ein Wächter zahlt das Zehnfache dessen, was ein Stapel des schweren Aliens der 
 | Wrath Warden | Power Core | – | 10 (15 %) | 10 (35 %) |
 | Wrath Warden | Quorvium | – | – | 50–100 (70 %) |
 | Wrath Warden | Ancient Control Unit | – | – | 10 (8 %) |
+
+Seit 0.4.16 sind die Laser-Munitionszeilen (Advanced Plasma, Ultra Core und Siphon Battery) dreimal so groß wie vorher; die übrigen Zeilen sind unverändert.
 
 Ein Wächter zählt in deiner Abschussstatistik unter seinem eigenen Namen und bringt deinem [Rang](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) PvE-Punkte: **13 bis 35** für den Anführer, je nach Wächter und Stärke (ein Wächter III bringt am meisten), und **1 bis 6** für jeden Helfer, mehr für eine stärkere Besatzung.
 
@@ -320,20 +440,47 @@ Ein Clan, der jede Linie schafft, verdient 100 Punkte pro Tag. Wenn die Offizier
 
 ### Punkte und der Wipe {#clan-points-and-the-wipe}
 
-Bei jedem Wipe beginnen **Punkte, Boni-Stufen und Linien des Clans von vorn**, jede Saison ist also ein neues Rennen um volle Boni. Der Clan selbst, seine Mitglieder, seine Bank und seine Steuer bleiben, wie sie sind.
+Der Wipe löst jeden Clan auf ([Der Wipe löst jeden Clan auf](#the-wipe-disbands-every-clan)), also **enden Punkte, Boni-Stufen und Linien des Clans mit ihm**, und ein Clan, der nach dem Wipe gegründet wird, beginnt bei null: Jede Saison ist ein neues Rennen um volle Boni.
 
 ---
 
 ## Diplomatie {#diplomacy}
 
-Clans können formelle diplomatische Beziehungen zu anderen Organisationen aufnehmen, indem sie das Kürzel des Zielclans eingeben:
+Der Anführer und die Stellvertreter können formelle diplomatische Beziehungen zu einem anderen Clan ihrer **Welt** aufnehmen, indem sie dessen Kürzel eingeben ([Clans und Welten](#clans-and-worlds)):
 
 - **Allianz**: Formell verbündete Clans. Der freundliche Status wird auf der Karte angezeigt.
 - **NAP (Nichtangriffspakt)**: Die Vereinbarung, keine Feindseligkeiten aufzunehmen.
 - **Krieg**: Förmliche Kriegserklärung. Kriegsziele können überall ohne Strafe angegriffen werden.
 
+### Einen Vertrag ändern und beenden {#changing-and-ending-a-treaty}
+
+Eine Allianz, ein Pakt und ein Krieg beginnen alle sofort, ohne Zustimmung des anderen Clans. Wie sie enden, ist verschieden:
+
+| Jetzt | Du kannst | Was geschieht |
+| :--- | :--- | :--- |
+| **Allianz** | Zum Pakt wechseln, kündigen, Krieg erklären | Ein Pakt ersetzt sie sofort; eine Kündigung beendet sie sofort für beide Clans; ein Krieg ersetzt sie. |
+| **Pakt** | Zur Allianz wechseln, kündigen, Krieg erklären | Eine Allianz ersetzt ihn sofort; eine Kündigung beendet ihn sofort für beide Clans; ein Krieg ersetzt ihn. |
+| **Krieg** | Frieden erbitten | Er endet **nur, wenn der andere Clan zustimmt**. Eine Allianz oder ein Pakt kann ihn nicht ersetzen, und niemand kann ihn allein kündigen. |
+
+- **Kündigen und Wechseln** sind ein Druck eines Anführers oder Stellvertreters eines der beiden Clans, bei einer Kündigung mit einer Bestätigung. Es gibt keine Kündigungsfrist.
+- **Frieden erbitten.** Ein Anführer oder Stellvertreter eines Clans im Krieg drückt **Frieden erbitten**. Die Bitte gilt **24 Stunden**. Der Anführer oder Stellvertreter des anderen Clans **nimmt sie an** (der Krieg ist für beide vorbei) oder **lehnt sie ab** (der Krieg geht weiter, und du kannst **1 Stunde** nach der Ablehnung erneut fragen). Du kannst die Bitte jederzeit **zurücknehmen**. Bitten beide Clans, wird sofort Frieden geschlossen.
+- **Bitten um Kriegsende** stehen auf einer Karte im Reiter Diplomatie, mit Annehmen und Ablehnen für die Offiziere.
+- **Alle erfahren es.** Jede Änderung kommt in das [Flottenprotokoll](#fleet-log) beider Clans, und die Anführer und Stellvertreter des anderen Clans, die online sind, bekommen eine Systemzeile, einen Hinweis und einen Ton. Ein Pilot außerhalb der beiden Clans erfährt nichts.
+- **Alte Verträge.** Eine Allianz, ein Pakt oder ein Krieg, der vor 0.4.16 zwischen Clans verschiedener Welten geschlossen wurde, kann weiterhin gekündigt oder im Einvernehmen beendet werden; neue können nicht mehr geschlossen werden.
+
+---
+
+## Flottenprotokoll {#fleet-log}
+
+Der Reiter **Protokoll**, der letzte Reiter des Clan-Fensters, ist die eigene Geschichte des Clans. **Nur die Piloten des Clans können ihn lesen.** Er behält die letzten **200 Zeilen** bis zum Wipe, zeigt 50 pro Seite, die neueste zuerst, und wird alle 10 Sekunden neu gelesen, solange er offen ist. Er berichtet:
+
+- **Clan-Aufträge.** Jeden abgeschlossenen Schritt der Tageslinie, mit den Piloten, deren Arbeit für diesen Schritt zählte, auch wenn es ein Pilot allein war: Flottenauftrag „Seeker Sweep“ wurde abgeschlossen. Beteiligte Piloten: „Nova“, „Vega“. Der Wächter ist Schritt 5 und wird mit seiner Art und Stärke eingetragen; die abgeschlossene Linie hat eine eigene Zeile. Ein Pilot, dessen Arbeit zurückgenommen wurde oder dessen Anteil am Wächter unter 5 % liegt, wird nicht genannt.
+- **Die Flottenkasse.** Spenden, die tägliche Steuer (eine Zeile pro Tag), Auszahlungen, Upgrades, jeden gezahlten Tagesbonus, einen Tag, an dem sie nicht zahlen konnte (eine Zeile pro Tag für den ganzen Clan), und jedes Mal, wenn der Anführer die Beträge ändert.
+- **Die Mannschaft.** Die Gründung des Clans, Piloten, die beitreten (offen, angenommene Bewerbung oder Einladung), gehen oder entlassen werden, Rangänderungen und einen neuen Anführer.
+- **Diplomatie.** Jede Allianz, jeder Pakt, jeder Krieg, jede Kündigung und jede Bitte um Kriegsende, aus der Sicht deines Clans formuliert („Unsere Flotte hat eine Allianz mit [TAG] Name geschlossen.“).
+
 ---
 
 ## Einen Freund mitbringen {#bringing-a-friend}
 
-Ein Freund, der neu im Spiel ist, kann mit deinem persönlichen Einladungscode beitreten und bekommt ein Startpaket; siehe [Freunde einladen](/wiki/03-Mechanics/Invite-Friends.md). Sobald er im Spiel ist, kann er sich wie jeder Pilot bei deinem Clan bewerben.
+Ein Freund, der neu im Spiel ist, kann mit deinem persönlichen Einladungscode beitreten und bekommt ein Startpaket; siehe [Freunde einladen](/wiki/03-Mechanics/Invite-Friends.md). Sobald er im Spiel ist, kann er sich wie jeder Pilot derselben Welt bei deinem Clan bewerben.

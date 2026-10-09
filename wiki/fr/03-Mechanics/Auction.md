@@ -10,7 +10,7 @@ Les Enchères sont le marché des pilotes et, en même temps, les lots de chaque
 - Il faut être au **niveau 5** pour utiliser les enchères : pour mettre en vente, acheter et enchérir.
 - Une annonce est mise à prix par lot, en crédits entiers ou en Thulium entier (pas les deux), et jamais sous le prix minimum de l’objet. Il n’y a **pas de prix maximum**.
 - Un prix en Thulium vaut au moins le prix minimum en crédits divisé par 1 000, arrondi à l’entier supérieur, et seulement pour les objets dont le prix minimum atteint 1 Thulium ou plus. C’est tout ce que fait le taux : **1 Thulium = 1 000 crédits est une règle pour le prix minimum, pas un taux de change.** Rien n’est échangé, aucune valeur n’est affichée, et les crédits et le Thulium ne sont jamais additionnés.
-- 80 objets peuvent être mis en vente, et 79 d’entre eux peuvent aussi être mis à prix en Thulium.
+- 82 objets peuvent être mis en vente, et 81 d’entre eux peuvent aussi être mis à prix en Thulium.
 - Une annonce dure 24 / 72 / 168 heures, au choix : les durées sont les mêmes à tous les niveaux.
 - Le **dépôt** est de 1 % du prix pour chaque période de 24 heures de l’annonce, au minimum 50 crédits ou 1 Thulium. Vous le payez à la mise en vente ; il n’est jamais remboursé, même si vous annulez l’annonce.
 - À partir du niveau 10, le dépôt est de 1,5 %.
@@ -50,6 +50,7 @@ Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez 
 | **Munitions laser** | Standard Battery (par lots de 100), Siphon Battery (par lots de 10), Advanced Plasma (par lots de 10), Ultra Core (par lots de 10), Experimental Fusion Core | 5 |
 | **Roquettes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Blindage de coque** | Hull Plating II, Hull Plating III | 2 |
 | **Ressources** | Cataclysite (par lots de 100), Ship Fragment (par lots de 100), Daraxium (par lots de 100), Nyxite (par lots de 100), Quorvium (par lots de 10), Reinforced Hull Plate (par lots de 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

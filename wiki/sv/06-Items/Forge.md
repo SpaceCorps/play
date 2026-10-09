@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -6,7 +6,7 @@
 
 ## Vad som kan smidas {#what-can-be-forged}
 
-Lasrar, laserförstärkare, sköldkärnor, sköldceller, motorer, styrraketer, adaptiva kärnor och Repair Drones: varje enskild utrustningsdel som kan bära [förtrollningsbonusar](/wiki/06-Items/Overview.md). Den kan ligga i ditt inventarie, sitta på ett skepp (där blir den kvar och fungerar med sin nya nivå direkt) eller vara monterad i ett annat föremål. Drönare, skepp, ammunition, resurser och boosters kan inte smidas, och inte heller något i transportförrådet: ta ut det först.
+Lasrar, laserförstärkare, sköldkärnor, sköldceller, motorer, styrraketer, adaptiva kärnor, Repair Drones och [skrovpansar](/wiki/06-Items/Hull-Plating.md): varje enskild utrustningsdel som kan bära [förtrollningsbonusar](/wiki/06-Items/Overview.md). Den kan ligga i ditt inventarie, sitta på ett skepp (där blir den kvar och fungerar med sin nya nivå direkt) eller vara monterad i ett annat föremål. Drönare, skepp, ammunition, resurser och boosters kan inte smidas, och inte heller något i transportförrådet: ta ut det först.
 
 ## Nivå upp {#tier-up}
 
@@ -39,7 +39,7 @@ De två sista stegen kräver **2 Dark Matter Plates** vardera, utöver allt anna
 
 Utrustning som gjordes före Smedjan behåller de bonusar den slumpades med, och de är ofta mindre än tabellen anger (en Gudomlig del från den tiden kan ha +2 %). Ingenting höjer dem av sig självt: en nivåhöjning slumpar varje bonus på nytt inom den nya nivåns intervall och behåller det bättre värdet, och en sammanslagning behåller det bättre värdet för varje värde.
 
-Ett föremål kan inte rymma fler bonusar än det har värden: en sköldkärna har fyra, en laser tre (Quantum Laser I och II har två), en motor eller en adaptiv kärna två, en Momentum Thruster två, en Impulse Thruster en (dess multiplikator på 1,02 till 1,035 är för liten för en bonus, och Smedjan slumpar ingen på en multiplikator på 1,05 eller lägre, så dess bonus kan bara ligga på den fasta hastigheten), en Crit Amp I eller en Repair Drone bara en, de högre kritförstärkarna två, skadeförstärkarna och sköldcellerna tre. När nästa nivå inte rymmer fler bonusar än föremålet kan bära säger panelen det: nivån gör då bara bonusarna starkare. Bonusar på räckvidd går aldrig över +5 %. En Penetration Amp har bara ett värde och rymmer därför en bonus.
+Ett föremål kan inte rymma fler bonusar än det har värden: en sköldkärna har fyra, en laser tre (Quantum Laser I och II har två), en motor eller en adaptiv kärna två, en Momentum Thruster två, en Impulse Thruster en (dess multiplikator på 1,02 till 1,035 är för liten för en bonus, och Smedjan slumpar ingen på en multiplikator på 1,05 eller lägre, så dess bonus kan bara ligga på den fasta hastigheten), en Crit Amp I, en Repair Drone eller ett skrovpansar bara en (dess skrov), de högre kritförstärkarna två, skadeförstärkarna och sköldcellerna tre. När nästa nivå inte rymmer fler bonusar än föremålet kan bära säger panelen det: nivån gör då bara bonusarna starkare. Bonusar på räckvidd går aldrig över +5 %. En Penetration Amp har bara ett värde och rymmer därför en bonus.
 
 **En nivå rymmer högst så många bonusar.** En nivåhöjning ger alltid ett föremål dess första bonus; varje annan plats som den nya nivån öppnar, och som föremålet har ett värde för, fylls med **50 % chans, var och en med eget slag**, och en plats som missar försöks igen vid nästa nivåhöjning. En Gudomlig sköldkärna har alltså två bonusar hälften av gångerna och en den andra hälften; en Evig har alla fyra ungefär var tredje gång (3,1 i genomsnitt), en laser med tre värden har alla tre två gånger av tre, och en motor har nästan alltid båda. Panelen säger ”upp till” för nästa nivå och visar hur ofta en ny plats fylls. Föremål med bara ett värde och varje steg till Befläckad påverkas inte, och utrustning som gjordes före den här regeln behåller sina bonusar. En **sammanslagning** fyller en plats som en nivåhöjning missade: den behåller den bästa bonusen för varje värde hos två exemplar, upp till nivåns gräns. På grund av chansen bär en del absorptionsbonusen som beskrivs nedan bara delvis (en Evig sköldkärna 78 % av gångerna, en Evig sköldcell 88 %): siffrorna där gäller delar som bär den.
 
@@ -47,7 +47,7 @@ En **skölds absorptionsbonus** (och en sköldcells absorptionsökning) multipli
 
 Motorer, styrraketer, adaptiva kärnor och Repair Drones påverkas mycket lite av en procentbonus (en Engine II ger 4 i fart, så +12 % är en halv punkt): smid dem om du vill ha nivån, inte för värdena.
 
-**Bonusen på en Penetration Amp** multiplicerar dess genomträngning: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 8,7 till 9,2 punkter per plats i stället för 8. I den bästa lasern (en Fusion Core, en Stiletto och tre Penetration Amp IV i varje laser) når 10 + 16 + 24 redan taket på 50 % för en laserträff, så den bonusen är bortkastad där; den lönar sig där summan ligger under taket ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Bonusen på en Penetration Amp** multiplicerar dess genomträngning: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 8,7 till 9,2 punkter per plats i stället för 8. Inget begränsar genomträngningen i en träff, så varje punkt räknas: i den bästa lasern (en Fusion Core, en Stiletto och tre Penetration Amp IV i varje laser) blir 10 + 16 + 24 lika med 50 %, och tre Eviga bonusar lyfter det till så mycket som 53,6 % ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Varifrån materialen kommer {#where-the-materials-drop}
 

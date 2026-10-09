@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ddcb1cd2daeb2a47 -->
+<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -10,6 +10,7 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 - **Velocidade base**: 250
 - **Slots de laser**: 13
 - **Slots extras**: 3
+- **Slots de blindagem**: 7
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
@@ -26,6 +27,15 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 
 ## Pesquisa {#research}
 
+- **Slots de blindagem.** Esta nave tem 7 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 7 cheios de Hull Plating III, somam-se 105.000 de casco.
+- **Designs.** Esta nave tem 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Storm nele na Montagem: a mudança não pode ser desfeita.
+
+| Design | O que muda |
+| :--- | :--- |
+| **Storm NOTSUM** | -20% de casco base, +20 de velocidade base, +2% de velocidade, Blink |
+| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -50% de capacidade de escudo, +10% de penetração de escudo |
+| **Storm RECON** | -20% de casco base, +5% de velocidade, -2 slots de laser, Chameleon |
+
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
@@ -38,4 +48,4 @@ Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem cus
 
 ## História {#lore}
 
-A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem branco-osso sobre uma estrutura azul-petróleo, com painéis e faixas de luz laranja, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam treze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de metade do de uma Wraith e cerca de um quarto do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.
+A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem cinza-clara sobre uma estrutura mais escura, com faixas de luz brancas, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam treze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de metade do de uma Wraith e cerca de um quarto do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.

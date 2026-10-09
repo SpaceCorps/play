@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -166,12 +166,12 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 
 ## Sköldgenomträngning för en laserträff {#shield-penetration-of-a-laser-hit}
 
-Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %), dina **Penetration Amps** och en **drönarformation** (Gemini +9 %, Stiletto +16 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). Summan **stannar vid 50 %** för en laser; en direktraketts stannar vid 40 % ([Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %), dina **Penetration Amps** och en **drönarformation** (Gemini +9 %, Stiletto +16 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 24 %; en Penetration Amp IV i en av tolv lasrar ger 0,67 %. En Wraith har 12 lasrar och 36 förstärkarplatser, och alla 36 måste fyllas för att nå 24 %.
-- **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från dina förstärkare (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Peka på rutan för att läsa taken: summan för en lasträff stannar vid 50 %, för en raket vid 40 %.
-- **Den bästa lasern når taket exakt.** En Experimental Fusion Core (10 %), en Stiletto (16 %) och tre Penetration Amp IV i varje laser (24 %) ger 50 %.
-- **En smedjebonus på en Penetration Amp IV är bortkastad i den uppsättningen.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 8,7 till 9,2 punkter i stället för 8. Men 10 + 16 + 24 ger redan taket på 50 %, och varje punkt till kapas (tre eviga skulle bli 53,6 %, kapade till 50 %).
+- **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
+- **Den bästa lasern ger 50 %.** En Experimental Fusion Core (10 %), en Stiletto (16 %) och tre Penetration Amp IV i varje laser (24 %) ger 50 %.
+- **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 8,7 till 9,2 punkter i stället för 8. I den bästa uppsättningen blir tre eviga 53,6 %, och varje punkt räknas.
 
 | Lasersalva | Ammunition | Förstärkare (3 platser) | Formation | Summa |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Vad det gör med målets sköldar: varje ruta är den andel av en träff som **s
 | Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-Den bästa lasern tömmer en sköldkärna utan cell (skrovet tar hela träffen); en kärna med en cell behåller en andel av varje träff, och den bästa skölden behåller 30 % av den (45 % med förstärkningarna). En raket tömmer aldrig en sköld: dess tak är 40 %.
+Den bästa lasern tömmer en sköldkärna utan cell (skrovet tar hela träffen); en kärna med en cell behåller en andel av varje träff, och den bästa skölden behåller 30 % av den (45 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (51 %) gör det.
 
 ### När är en Penetration Amp värd en plats? {#when-is-a-penetration-amp-worth-a-slot}
 

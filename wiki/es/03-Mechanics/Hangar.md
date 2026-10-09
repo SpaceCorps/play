@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c17f4775a1e2000 -->
+<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
 <!-- wiki-i18n title: Hangar -->
 # El hangar en vuelo {#the-hangar-in-flight}
 
@@ -18,13 +18,14 @@ Las reparaciones en curso no te lo impiden. En cualquier otro lugar la ventana H
 
 ## Qué puedes cambiar {#what-you-can-change}
 
-- **Equipar y desequipar cualquier cosa**, en todos los tipos de ranura: láseres, generadores (escudos, motores, núcleos adaptativos), extras, ranuras de habilidad y ranuras de dron, y los amplificadores, células y propulsores instalados en ellos. Arrastra los objetos a las ranuras o haz clic en ellos, igual que en la estación. Tu nave se actualiza al instante: estadísticas, láseres, habilidades y barra rápida.
+- **Equipar y desequipar cualquier cosa**, en todos los tipos de ranura: láseres, generadores (escudos, motores, núcleos adaptativos), extras, ranuras de habilidad, ranuras de dron y ranuras de blindaje, y los amplificadores, células y propulsores instalados en ellos. Arrastra los objetos a las ranuras o haz clic en ellos, igual que en la estación. Tu nave se actualiza al instante: estadísticas, láseres, habilidades y barra rápida.
 - **Desequipar todo.** El botón **Desequipar todo** de la barra de herramientas del Hangar vacía de una vez la configuración que muestra la vista **Nave**: los láseres, escudos, motores, núcleos adaptativos, extras y ranuras de habilidad **y los láseres y escudos en las ranuras de tus drones**, con los amplificadores, células y propulsores instalados en ellos. Todo vuelve a tu inventario, entero o nada. Tus **drones siguen siendo tuyos** (un dron nunca se instala en una nave, así que no hay nada que quitarle) y la **formación de drones** que llevas sigue puesta. La otra configuración no se toca. En vuelo rigen las reglas de cualquier cambio: desde una zona segura, fuera de combate. La vista **Drones** tiene un botón propio que vacía solo las ranuras de los drones.
 - **Cualquiera de las dos configuraciones.** Puedes preparar la Config. 2 mientras vuelas con la Config. 1 y después cambiar con la tecla Cambiar config. Un botón **Volar con config.** del hangar hace el mismo cambio.
 - **Cualquier nave.** Activa otra nave y la pilotas desde donde estás. El modelo de tu nave cambia delante de todos los que están cerca.
 - **Un escudo, un motor o un núcleo adaptativo nuevo empieza vacío**, como en la estación: la carga de escudo de su configuración está vacía hasta que se recarga.
 - **Formaciones de drones.** La vista Drones lista bajo tus drones las formaciones que tienes. No se equipan: en vuelo arrastras una desde la lista de Formaciones de la barra rápida a una ranura, y el clic o la tecla de esa ranura la lleva, con la misma espera de 2 segundos que en cualquier sitio, también dentro de una zona segura ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** Las cuatro naves normales, la Protos, la Kitefin, la Ostirion y la Nomad (con las que empiezas o que compras), tienen 2 ranuras de extra en cada configuración; las cuatro naves que fabricas en Ensamblaje, la Paragon, la Ironclad, la Wraith y la Storm, tienen 3. Las Extra Slots CPU de tu Skylab suman 3, 5 o 7 más: 5, 7 o 9 en las normales y 6, 8 o 10 en las fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Con la 0.4.10, un tercer extra en una nave normal se desequipó y pasó a tu inventario: no se borró nada y recibiste un mensaje en el chat.
+- **Blindaje de casco.** Las cuatro naves que fabricas tienen [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para el blindaje de casco, cada una bloqueada hasta que la investigas en el Skylab. Un blindaje que pones o quitas conserva tu proporción de casco, y sigue puesto cuando cambias de configuración.
 
 Vender no forma parte de la ventana: el martillo que abre la [Subasta](/wiki/03-Mechanics/Auction.md) pertenece al Hangar de la estación, y la propia Subasta es una página de la estación.
 

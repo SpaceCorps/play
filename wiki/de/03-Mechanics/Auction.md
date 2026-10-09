@@ -10,7 +10,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Du brauchst **Level 5**, um die Auktion zu nutzen: zum Einstellen, Kaufen und Bieten.
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
 - Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 1 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
-- 80 Sorten lassen sich einstellen, und 79 davon können auch in Thulium bepreist werden.
+- 82 Sorten lassen sich einstellen, und 81 davon können auch in Thulium bepreist werden.
 - Ein Angebot läuft 24 / 72 / 168 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 1 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 1,5 %.
@@ -50,6 +50,7 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 | **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Ultra Core (in Posten zu 10), Experimental Fusion Core | 5 |
 | **Raketen** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Hüllenpanzerung** | Hull Plating II, Hull Plating III | 2 |
 | **Ressourcen** | Cataclysite (in Posten zu 100), Ship Fragment (in Posten zu 100), Daraxium (in Posten zu 100), Nyxite (in Posten zu 100), Quorvium (in Posten zu 10), Reinforced Hull Plate (in Posten zu 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

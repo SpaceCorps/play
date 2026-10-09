@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0e8dd778c7574921 -->
+<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -110,8 +110,9 @@
 - **10 Dark Matter** на каждую из 16 технологий в таблице ниже, сверх науки: вложите её в Исследовательский центр (из инвентаря, корабль на посадке) до начала, и исследование заберёт её при старте.
 - **Правило:** предмет редкости Эпический или выше, исследование которого занимает 10 ч или больше. N.I.K.E., с помощью которой добывают Dark Matter, её никогда не требует.
 - **Построения дронов** не подпадают под это правило: каждое исследование построения требует Dark Matter — 5, 13 или 20 в зависимости от силы, как показано в таблице.
+- **Броня корпуса** тоже не подпадает под это правило: её два исследования требуют больше — 25 Dark Matter за день исследования и 40 за два дня, как показано в таблице.
 - **Если отменить исследование,** вложенная для него Dark Matter возвращается в центр. Прогресс и уже сожжённая наука — нет.
-- Все вместе они требуют 349 Dark Matter.
+- Все вместе они требуют 414 Dark Matter.
 
 | Технология | Редкость | Время исследования | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -147,6 +148,8 @@
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 10 ч | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Эпический | 1 д | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Эпический | 10 ч | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Редкий | 1 д | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Эпический | 2 д | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -294,8 +297,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Броня корпуса {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Варианты кораблей и слоты брони {#ship-technologies}
+
+В семействе «Корабли» окна исследований вашего Skylab есть технологии двух видов, которые не являются изготовлением. Дерево выше их не показывает, потому что они открывают слот или переделку, а не предмет.
+
+- **Слоты брони.** По одной технологии на каждый [слот брони](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) четырёх кораблей, которые вы производите. Каждая идёт после предыдущей, а первая — после технологии самого корабля. В игре слоты корабля показаны одной карточкой с точкой на каждый слот.
+- **Варианты кораблей.** По одной технологии на каждый [вариант](/wiki/03-Mechanics/Ship-Designs.md). Каждая требует технологию корабля и технологию Dark Matter Plate.
+
+Их время, Dark Matter и итоги указаны на странице [Варианты кораблей](/wiki/03-Mechanics/Ship-Designs.md#the-technologies).
 
 ## Все технологии {#all-the-technologies}
 
@@ -364,6 +385,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 мин | 1 800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 ч | 10 800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 ч | 36 000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 д | 86 400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 д | 172 800 | 40 |
 
 Классы по времени исследования:
 
@@ -372,10 +395,10 @@ Gyre Formation => Auger Formation
 | A | 30 мин | 8 | 4 ч | 14 400 | 0 |
 | B | от 3 ч до 6 ч | 17 | 2 д 9 ч | 205 200 | 0 |
 | C | 10 ч | 15 | 6 д 6 ч | 540 000 | 95 |
-| D | от 1 д до 2 д | 20 | 24 д | 2 073 600 | 254 |
-| Все |  | 60 | 32 д 19 ч | 2 833 200 | 349 |
+| D | от 1 д до 2 д | 22 | 27 д | 2 332 800 | 319 |
+| Все |  | 62 | 35 д 19 ч | 3 092 400 | 414 |
 
-Если исследовать одну за другой, всё дерево займёт 32 д 19 ч. С бустом, включённым всё время, — 16 д 9 ч 30 мин; для этого нужно бустов: 17, Thulium: 85 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 35 д 19 ч. С бустом, включённым всё время, — 17 д 21 ч 30 мин; для этого нужно бустов: 18, Thulium: 90 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 

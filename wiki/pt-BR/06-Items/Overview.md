@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5c120158150a483e -->
+<!-- wiki-i18n source: eeecb37fc86f287d -->
 <!-- wiki-i18n title: Visão geral -->
 # Visão geral dos itens {#items-overview}
 
@@ -49,12 +49,24 @@ Os melhores amps de laser, os níveis II a IV das células de escudo e dos propu
 | **Momentum Thruster IV** | 1 Momentum Thruster III | 2.000 | 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | 90 s |
 | **Heavy Shield Core** | 1 Basic Shield Core | 2.000 | 20 Cataclysite, 8 Reinforced Hull Plate, 3 Dark Matter Plate | 90 s |
 | **Engine III** | 1 Engine II | 2.000 | 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | 90 s |
+| **Hull Plating II** | 1 Hull Plating I | 2.500 | 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | 300 s |
+| **Hull Plating III** | 1 Hull Plating II | 4.000 | 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | 600 s |
 
 Em média, um Goombah deixa cair 4 Cataclysite, 3,25 Ship Fragments, 0,6 Reinforced Hull Plates e 0,25 Power Cores, então os drops de um Damage Amp IV ou de um Crit Amp IV exigem cerca de 8 Goombahs, os de uma célula cerca de 7 (nível II), 10 (III) ou 14 (IV) e os de um Heavy Shield Core cerca de 14; os de um propulsor cerca de 4 (nível II), 10 (III) ou 19 (IV) e os de um Engine III cerca de 19. Um Bulwark deixa cair 2 Cataclysite, 2 Ship Fragments e 0,3 Reinforced Hull Plates, mas nenhum Power Core. Um Damage Amp ou um Crit Amp de nível II ou III exige cerca de 3 ou 5 Goombahs, e um Penetration Amp o mesmo, exceto pelos 40 Quorvium, cerca de 14 (o Daraxium e o Nyxite vêm de Seekers, Phantasms e Bulwarks).
 
 As placas não caem dos alienígenas. A Forja do seu [Skylab](/wiki/03-Mechanics/Skylab.md) faz as Velkonite Reinforced Plates dos níveis II e III a partir de minério de Velkonite, 40 de minério por placa no nível 1 da Forja. Um Coletor de Velkonite de nível 1 extrai 10 de minério por hora, então as 4 placas de uma célula ou de um propulsor de nível III são 16 horas de mineração e as 2 placas do nível II, 8; um amp de nível III leva 2 placas (8 horas) e um de nível II uma única placa (4 horas). O último nível pede **3 Dark Matter Plates** no lugar: um amp, uma célula ou um propulsor de nível IV, o Heavy Shield Core, o Engine III e o Helios Beam. A Montagem prensa cada plate a partir de 5 Dark Matter, uma Velkonite Reinforced Plate, uma Orvium Reinforced Plate e 250 Thulium, depois que você pesquisa a receita da plate, e a Dark Matter vem do buraco negro: uma peça do último nível guarda 15 Dark Matter, em média 7,5 foguetes N.I.K.E. ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)). Veja [Recursos](/wiki/06-Items/Resources.md) para saber de onde vem cada material.
 
 O **Helios Beam** é uma melhoria do mesmo tipo, um laser a partir de um laser: ele consome um Starfire-III e exige 2.000 Thulium, 50 Cataclysite, 2 Power Cores, 4 Reinforced Hull Plates, 18 Orvium Reinforced Plates e 3 Dark Matter Plates, e mantém o grau de encantamento do Starfire-III do mesmo modo. O **Starfire-III** também é: ele consome um Quantum Laser III e exige 1.500 Thulium, 100.000 créditos, 15 Ship Fragments, 1 Reinforced Hull Plate e 8 Velkonite Reinforced Plates, e mantém o grau de encantamento do Quantum Laser III. O **Quantum Laser III** também é: ele consome um Quantum Laser II (o laser da Loja) e exige 1.500 Thulium, 10 Ship Fragments e 2 Velkonite Reinforced Plates, e mantém o grau de encantamento do Quantum Laser II. Os três estão na página [Lasers](/wiki/06-Items/Lasers.md); a tabela acima lista os amps, as células e os propulsores dos níveis II a IV, o Heavy Shield Core e o Engine III.
+
+## A fila de produção {#the-production-queue}
+
+Tudo o que a Montagem faz passa por **uma única fila de produção**, o cartão no alto da aba Criação. Os trabalhos dela andam **um de cada vez**: um novo começa quando o anterior termina, também enquanto você está fora, e você paga ao colocá-lo na fila. Um trabalho terminado espera por você: **Coletar** entrega o trabalho, e **Coletar tudo** (aparece a partir de dois trabalhos terminados) entrega todos os terminados de uma vez. A fila comporta **no máximo 100 trabalhos**: o que está andando, os que esperam e os terminados que você ainda não coletou.
+
+**Várias cópias de uma vez.** Um cartão de receita que permite isso tem as fichas **×1**, **×5**, **×10** e **Máx.** acima do botão Montar. Um lote é **um trabalho**, não vários: ele dura o tempo da receita vezes o número de cópias, com um só cronômetro e uma só linha na fila (marcada ×5, por exemplo), e **uma só coleta entrega todas as cópias**. O custo de **todas** as cópias, os créditos, o Thulium e os materiais, é cobrado **antecipadamente, tudo ou nada**: se você não pode pagar todas as cópias, nada é cobrado e nada entra na fila. Uma ficha que você não pode pagar fica esmaecida, e **Máx.** é quantas cópias você pode pagar agora, até 25. Com várias cópias, o cartão mostra o custo total, os materiais totais e o tempo total. Um lote de foguetes que faria você passar do máximo de foguetes que pode carregar é recusado inteiro.
+
+**Um de cada vez.** Naves, Extra Slots CPUs, a melhoria de uma peça de equipamento (um Damage Amp IV a partir de um Damage Amp III, um Heavy Shield Core a partir de um Basic Shield Core) e a melhoria do Master Drone não têm fichas: cada uma gasta ou instala a única coisa que você escolhe. Você ainda pode colocar várias na fila, uma depois da outra. A conversão de uma nave em um [design](/wiki/03-Mechanics/Ship-Designs.md) também é um desses trabalhos e termina sozinha: não há nada para coletar, e **Coletar tudo** a deixa de fora.
+
+**Cada peça sorteia por conta própria.** O equipamento sorteia o seu [nível de encantamento](#item-enchants) quando você o coleta, e cada peça de um lote sorteia separadamente: dez lasers de um lote são dez sorteios distintos, como se você os tivesse feito um a um. Uma melhoria mantém o nível da peça que gastou.
 
 ## Encantamentos de itens {#item-enchants}
 
@@ -69,7 +81,7 @@ O equipamento traz um **Encantamento**: um grau que permite que ele comporte at�
 | 5. **Eterno** | 4 | +9% a +15% | 0,01% |
 
 - Os itens da Loja são sempre Padrão. O equipamento que você constrói na Montagem sorteia um grau quando você o coleta (a coluna de chance). Acima disso, o grau sobe na [Forja](/wiki/06-Items/Forge.md), uma etapa de cada vez; o único outro caminho é uma melhoria de módulo na Montagem (um Damage Amp IV, um Crit Amp IV, uma célula de escudo ou um propulsor de nível II a IV, um Heavy Shield Core, um Engine III, um Quantum Laser III, um Starfire-III, o Helios Beam), que mantém o grau da peça a partir da qual é feita.
-- Um item nunca comporta mais bônus do que tem atributos: um núcleo de escudo tem quatro, um laser três (o Quantum Laser I e o II, dois, já que não têm chance de crítico própria), um motor, um Momentum Thruster ou um núcleo adaptativo dois, um Impulse Thruster, um Crit Amp I ou um Repair Drone um (um Impulse Thruster só tem a velocidade fixa para melhorar: a Forja não sorteia bônus para o multiplicador dele, de x1,02 a x1,035, que não valeria quase nada), os amps de crítico mais altos dois, os amps de dano e as células de escudo três. O limite do grau é o menor dos dois números. Um Penetration Amp tem um único atributo, então leva um único bônus.
+- Um item nunca comporta mais bônus do que tem atributos: um núcleo de escudo tem quatro, um laser três (o Quantum Laser I e o II, dois, já que não têm chance de crítico própria), um motor, um Momentum Thruster ou um núcleo adaptativo dois, um Impulse Thruster, um Crit Amp I, um Repair Drone ou uma blindagem de casco um (um Impulse Thruster só tem a velocidade fixa para melhorar: a Forja não sorteia bônus para o multiplicador dele, de x1,02 a x1,035, que não valeria quase nada), os amps de crítico mais altos dois, os amps de dano e as células de escudo três. O limite do grau é o menor dos dois números. Um Penetration Amp tem um único atributo, então leva um único bônus.
 - A [Forja](/wiki/06-Items/Forge.md#buffs-by-tier) só preenche por chance as vagas depois do primeiro bônus de um item: uma subida de grau dá sempre o primeiro bônus, e cada outra vaga que o novo grau abre é preenchida com 50% de chance. Um grau comporta, portanto, esse número de bônus no máximo (um item Divino tem dois metade das vezes).
 - Um bônus de **Alcance** nunca passa de +5%, em nenhum grau.
 - Os bônus continuam pequenos perto do item seguinte: um Quantum Laser I no máximo ainda causa menos dano que um Quantum Laser II simples.
@@ -89,8 +101,9 @@ Todos os materiais e as duas moedas, com a origem e a finalidade de cada um, est
 
 ## Categorias {#categories}
 
-A Loja, o inventário do hangar e as outras listas de itens seguem uma só ordem: a nave, depois um laser com seus amps e sua munição, um escudo com suas células, um motor com seus propulsores, os núcleos adaptativos, os extras, os drones, as formações de drones, os boosters e os recursos. Dentro de cada tipo, o mais barato vem primeiro.
+A Loja, o inventário do hangar e as outras listas de itens seguem uma só ordem: a nave, a sua blindagem de casco, depois um laser com seus amps e sua munição, um escudo com suas células, um motor com seus propulsores, os núcleos adaptativos, os extras, os drones, as formações de drones, os boosters e os recursos. Dentro de cada tipo, o mais barato vem primeiro.
 
+- **Blindagem de casco**: armadura para os slots de blindagem das quatro naves que você fabrica, Hull Plating I a III, cada uma somando mais casco. Veja [Blindagem de casco](/wiki/06-Items/Hull-Plating.md).
 - **Lasers**: seus principais sistemas de armas, e os [amps](/wiki/06-Items/Lasers.md) que entram neles.
 - **Escudos**: geradores e [células](/wiki/06-Items/Shields.md) para defesa.
 - **Propulsão**: motores e [propulsores](/wiki/06-Items/Propulsion.md) para velocidade.

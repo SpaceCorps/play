@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ff812e23011be0b8 -->
+<!-- wiki-i18n source: fa02f72ab515dfbf -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾机制 {#shield-mechanics}
 
@@ -41,10 +41,21 @@
 \[\text{护盾份额} = \text{clamp}(\text{吸收率} - \text{穿透},\ 0,\ 100\%)\]
 
 - 护盾最多承受这次攻击的 `round(damage x share)`；其余由船体承受。护盾值不足以承担其份额时，差额会转给 HP；如果护盾值为 0，所有伤害都直接打在 HP 上。
-- **穿透的来源**：单体火箭的*护盾穿透*（Lancet I 10%、Lancet II 25%、Lancet III 35%、Rivet I 5%、Rivet II 25%、Rivet III 35%、N.I.K.E. 35%；范围爆炸没有穿透，见[火箭](/wiki/06-Items/Rockets.md)）以及激光弹药的穿透（Ultra Core 5%、Experimental Fusion Core 10%；见[激光与弹药](/wiki/06-Items/Lasers.md)）。外星人没有穿透，x1 和 x2 弹药也没有。激光命中还会扣除射手激光上的 Penetration Amp（每个槽位 +2% 至 +8%，是它所有激光的平均值）和无人机编队的穿透（Gemini +9%，Stiletto +16%）：激光的总和在 **50%** 封顶，火箭的在 40% 封顶（[激光命中是如何累加的](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
-- **示例**：80% 的吸收率对上 Lancet III（35%）：护盾承受这次攻击的 45%，船体承受 55%。100% 对上它：65% 和 35%。112% 对上 12% 的穿透：整次攻击都由护盾承受。45%（单独一个 Light Shield Core）对上 35%：10% 由护盾承受，其余由船体承受。没有任何火箭能完全穿透 Light Shield Core。最强的激光（50%）做到了：面对它，最好的护盾（80%）承受命中的 30%，船体承受 70%，单独一个 Light Shield Core（45%）则什么也承受不了。
+- **穿透的来源**：单体火箭的*护盾穿透*（Lancet I 10%、Lancet II 25%、Lancet III 35%、Rivet I 5%、Rivet II 25%、Rivet III 35%、N.I.K.E. 35%；范围爆炸没有穿透，见[火箭](/wiki/06-Items/Rockets.md)）以及激光弹药的穿透（Ultra Core 5%、Experimental Fusion Core 10%；见[激光与弹药](/wiki/06-Items/Lasers.md)）。外星人没有穿透，x1 和 x2 弹药也没有。激光命中还会扣除射手激光上的 Penetration Amp（每个槽位 +2% 至 +8%，是它所有激光的平均值）和无人机编队的穿透（Gemini +9%，Stiletto +16%）；直接命中火箭会把编队的穿透加到自己的穿透上。**总和没有上限**：护盾承受的是吸收率减去全部穿透后的部分，最低可以是命中的零（[激光命中是如何累加的](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+- **示例**：80% 的吸收率对上 Lancet III（35%）：护盾承受这次攻击的 45%，船体承受 55%。100% 对上它：65% 和 35%。112% 对上 12% 的穿透：整次攻击都由护盾承受。45%（单独一个 Light Shield Core）对上 35%：10% 由护盾承受，其余由船体承受。单独的火箭不能完全穿透任何核心，但 Lancet III 配上 Stiletto（35% + 16% = 51%），会让单独一个 Light Shield Core（45%）完全承受不了这次命中，最强的激光（50%）同样如此：面对这把激光，最好的护盾（80%）承受命中的 30%，船体承受 70%。
 - 外星人没有吸收率属性：它们按 80% / 20% 分配每次攻击，再减去该次攻击的穿透。
 - Siphon Battery 的伤害只从护盾中扣除：吸收率和穿透都不起作用。
+
+**护盾什么都承受不了的情形。** 穿透等于或高于吸收率时，护盾承受不到这次命中的任何部分，全部由船体承受。下表是护盾对最强激光（50%）和最强单体火箭（配 Stiletto 的 Lancet III 或 Rivet III，51%）单次命中所承受的比例：
+
+| 护盾 | 吸收率 | 护盾承受，最强激光（50%） | 护盾承受，最强单体火箭（51%） |
+| :--- | ---: | ---: | ---: |
+| Light Shield Core | 45% | 0% | 0% |
+| Basic Shield Core | 48% | 0% | 0% |
+| Heavy Shield Core | 50% | 0% | 0% |
+| 开箱即得的最强护盾 | 80% | 30% | 29% |
+| 吸收率 100% 的护盾 | 100% | 50% | 49% |
+| 吸收率 120% 的护盾 | 120% | 70% | 69% |
 
 #### 达到并超过 100% {#reaching-and-passing-100-}
 

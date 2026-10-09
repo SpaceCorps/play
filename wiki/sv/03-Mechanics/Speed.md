@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -9,6 +9,8 @@ Hastigheten avgör hur snabbt ditt skepp rör sig på rymdkartan, så att du kan
 Skeppets slutliga hastighet beräknas på servern med följande formel:
 
 \[\text{Slutlig hastighet} = (\text{Skeppets grundhastighet} + \text{Motorernas totala hastighet}) \times (1,0 + \text{Total fartbonus i procent})\]
+
+En [skeppsdesign](/wiki/03-Mechanics/Ship-Designs.md) ändrar den första termen (THUNDER har 40 mer grundfart, DUMA 20 mindre), och NOTSUM och RECON multiplicerar slutfarten med ytterligare en faktor, +2 % och +5 %.
 
 ### 1. Motorns effektiva hastighet {#1-effective-engine-speed}
 

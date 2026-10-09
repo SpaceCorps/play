@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 986c641910ea7fae -->
+<!-- wiki-i18n source: be279a1fbb360e1d -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -19,7 +19,7 @@ Varje säsong löper över dag 1 till 30 (wipen börjar med sin nedräkning på 
 | **Teknikboom** | Dag 11–18 | Event 2 | Inga särskilda effekter än: lönen och utomjordingarna är desamma som i alla andra faser. |
 | **Krigsspel** | Dag 19–25 | Event 3 | Inga särskilda effekter än: PvP fungerar som i varje fas efter Fredsprotokollet. |
 | **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart och låsa den last de tar med sig före utbrottet. |
-| **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt. Piloter flyttas till den värld de valde som destination för nästa säsong. |
+| **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt, och varje [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) upplöses. Piloter flyttas till den värld de valde som destination för nästa säsong. |
 
 Bortsett från själva wipen är det bara tre saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten, men inget av dem ger särskilda belöningar, nya fiender eller bonusar av eget än.
 
@@ -75,7 +75,7 @@ Innan säsongen tar slut måste du klicka på **Bekräfta och lås** i gränssni
 
 ## Världar: Alpha, Beta och Gamma {#worlds-alpha-beta-and-gamma}
 
-SpaceCorps har tre **världar**. Var och en är en separat kopia av hela galaxen: varje sektor, med egna utomjordingar, [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), last, chatt och piloter. Du flyger bara i din egen värld och möter bara dess piloter; ditt konto, dina föremål, din klan och topplistorna delas av alla tre.
+SpaceCorps har tre **världar**. Var och en är en separat kopia av hela galaxen: varje sektor, med egna utomjordingar, [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), last, chatt och piloter. Du flyger bara i din egen värld och möter bara dess piloter; ditt konto, dina föremål och pilotlistorna delas av alla tre. En klan hör till en värld, tar bara emot dess piloter och upplöses vid wipen ([Klaner och världar](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | Värld | Risk | Utomjordingarnas styrka | Lön för nedskjutningar och uppdrag | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Så fungerar världarna:
 
 Wipen tar dina skepp och föremål (utom ditt aktiva skepp med allt som sitter på det, ditt transportförråd och dina drönare) och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin, utom de nivåuppdrag som uppdatering 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Klaner och grader.** En klans poäng, bonusnivåer och dagslinjer börjar om vid varje wipe, så varje säsong är ett nytt lopp mot full bonus; klanen själv, dess medlemmar, dess bank och dess skatt finns kvar ([Klaner](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Dina PvE-rankingpoäng finns också kvar, så en wipe flyttar dig inte på din koncerns lista: din grad följer din plats där, inte säsongen ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Klaner och grader.** Wipen upplöser varje klan, med dess Flottans kassa, inlägg, logg, avtal, poäng och bonusnivåer, så varje säsong är ett nytt lopp om att grunda en klan och fylla dess bonusar; krediterna som en klan redan betalat ut till dig finns kvar, och det gör din donationsgräns också ([Klaner](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Ledare och vice ledare: betala ut Flottans kassa innan nedräkningen tar slut. Dina PvE-rankingpoäng finns också kvar, så en wipe flyttar dig inte på din koncerns lista: din grad följer din plats där, inte säsongen ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### Butiken för permanenta buffar {#the-permanent-buff-store}
 Du kan spendera dina intjänade WP på permanenta buffar som följer med över alla säsonger för alltid. De här buffarna staplas och ger betydande passiva bonusar:

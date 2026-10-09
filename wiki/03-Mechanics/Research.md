@@ -108,8 +108,9 @@ The technologies at the top of the tree need Dark Matter as well. It comes from 
 - **10 Dark Matter** for each of the 16 technologies in the table below, on top of the science: plug it into the Research Centre (from your inventory, with your ship landed) before you start, and the research takes it when it starts.
 - **The rule:** an item of rarity Epic or higher whose research takes 10 h or more. The N.I.K.E., which is how Dark Matter is made, never needs it.
 - **Drone formations** are outside the rule: every formation research asks Dark Matter, 5, 13 or 20 by strength, as the table shows.
+- **Hull Plating** is outside the rule too: its two researches ask more, 25 Dark Matter for a day of research and 40 for two days, as the table shows.
 - **Cancel a research** and the Dark Matter you plugged in for it comes back to the Centre. The progress and the science already burnt do not.
-- All of them together ask 349 Dark Matter.
+- All of them together ask 414 Dark Matter.
 
 | Technology | Rarity | Research time | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -145,6 +146,8 @@ The technologies at the top of the tree need Dark Matter as well. It comes from 
 | [Centurion Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epic | 10 h | 5 |
 | [Gyre Formation](/wiki/03-Mechanics/Formations.md#the-sixteen-formations) | Epic | 1 d | 13 |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Epic | 10 h | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Rare | 1 d | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Epic | 2 d | 40 |
 
 <!-- research-dark-matter:end -->
 
@@ -292,8 +295,26 @@ Centurion Formation => Shrike Formation => Culler Formation
 Gyre Formation => Auger Formation
 ```
 
+### Hull Plating {#tree-hull-plating}
+
+```tree research
+Hull Plating II | hull-plating, rare | craft 2500 Thulium, 300 s | research 86400 s, 86400 science, 25 Dark Matter | 1 Hull Plating I, 150 Ship Fragment, 20 Reinforced Hull Plate, 6 Power Core, 5 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172800 s, 172800 science, 40 Dark Matter | 1 Hull Plating II, 300 Ship Fragment, 40 Reinforced Hull Plate, 12 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/06-Items/Hull-Plating.md#the-three-platings
+
+Hull Plating II => Hull Plating III
+```
+
 
 <!-- research-tree:end -->
+
+## Ship designs and hull plate slots {#ship-technologies}
+
+The Ships family of the Research view in your Skylab holds two kinds of technology that are not crafts. The tree above leaves them out, because what they open is a slot or a conversion, not an item.
+
+- **Hull plate slots.** One technology for each [hull plate slot](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) of the four ships you craft. Each comes after the one before it, the first after the ship's own technology. In the game a ship's slots are one card with a pip for each.
+- **Ship designs.** One technology for each [design](/wiki/03-Mechanics/Ship-Designs.md). Each needs the technology of its ship and the one of the Dark Matter Plate.
+
+Their times, their Dark Matter and the totals are on the [Ship Designs](/wiki/03-Mechanics/Ship-Designs.md#the-technologies) page.
 
 ## All the technologies
 
@@ -362,6 +383,8 @@ Gyre Formation => Auger Formation
 | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | – | A | 30 min | 1,800 | – |
 | [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Penetration Amp II](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | B | 3 h | 10,800 | – |
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36,000 | 10 |
+| [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 d | 86,400 | 25 |
+| [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 d | 172,800 | 40 |
 
 The classes, by research time:
 
@@ -370,10 +393,10 @@ The classes, by research time:
 | A | 30 min | 8 | 4 h | 14,400 | 0 |
 | B | 3 h to 6 h | 17 | 2 d 9 h | 205,200 | 0 |
 | C | 10 h | 15 | 6 d 6 h | 540,000 | 95 |
-| D | 1 d to 2 d | 20 | 24 d | 2,073,600 | 254 |
-| All |  | 60 | 32 d 19 h | 2,833,200 | 349 |
+| D | 1 d to 2 d | 22 | 27 d | 2,332,800 | 319 |
+| All |  | 62 | 35 d 19 h | 3,092,400 | 414 |
 
-Researched one after another, the whole tree takes 32 d 19 h. With the boost on all the time it takes 16 d 9 h 30 min, which is 17 boosts and 85,000 Thulium; the science is the same.
+Researched one after another, the whole tree takes 35 d 19 h. With the boost on all the time it takes 17 d 21 h 30 min, which is 18 boosts and 90,000 Thulium; the science is the same.
 
 <!-- research-technologies:end -->
 

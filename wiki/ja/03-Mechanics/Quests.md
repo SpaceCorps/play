@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: クエスト -->
 # クエスト {#quests}
 
@@ -17,7 +17,7 @@
 - **チェーン。** **順番どおり**のタグが付いたミッションのステップは、1つずつ順に開き、カウントされるのは開いているステップだけです。
 - **撃破のほかに4種類のステップがあります。** あなただけにドロップし、Mission Control まで運ぶ**ミッションアイテム**、**訪れる地点**、セクターで数分間過ごす**滞在**、そしてシーズン4日目からは狩る**群れ**です。
 - **条件。** ステップやミッション全体に「船体の損失は最大Nポイントまで」や「撃破されないこと」という条件が付くことがあります。条件を破ると、そのステップ（またはミッション）はやり直しになります。永久に失われるものはありません。
-- **チャレンジライン。** パイロットレベル3から挑める、10個ずつ5つのティアに分かれた非常に難しい50個のミッションです。ティアIは、合計で9,355,000クレジット、70,125 Thulium、435,500 XP を基本値として支払います。レベルミッションと同じように支払われます（[報酬](#rewards)）。
+- **チャレンジライン。** パイロットレベル3から挑める、10個ずつ5つのティアに分かれた非常に難しい50個のミッションです。報酬は仕事量に応じて決まります。撃破1体の価値はティアIが支払う額で、ティアが1つ上がるごとに10%増え、ミッション1つの上限は100,000 Thulium です。ティアIは、合計で9,355,000クレジット、70,125 Thulium、2,177,500 XP を基本値として支払います（[チャレンジライン](#challenge-line)）。
 - **0.4.10で作り直し。** レベルミッションのうち64個は新バージョンです。以前に完了していた場合は、もう一度提示され、報酬も全額もらえます（[詳細](#reworked-missions)）。
 
 ## Mission Control
@@ -143,7 +143,7 @@
 - **重装の運び屋**（レベル4、40分）。`x-3` で Phantasm 10体を撃破し、13,400 / 5,000と13,600 / 1,900の地点に着き、Bulwark から Manifest を手に入れ（撃破ごとに25%、5体目で確定）、船体の損失を最大17,000ポイントまでに抑え、撃破されないまま Mission Control まで運びます。報酬は10,500 XP、52,000クレジット、315 Thulium です。
 - **巣穴破り**（レベル3のスペシャル、シーズン4日目から）。Boss Seeker 3体と Seeker Slave 12体はどのセクターでも、Phantasm 6体は `x-3` で、好きな順番で撃破します。報酬は6,800 XP、54,500クレジット、170 Thulium、Quantum Laser II、Ship Fragment 10個、Ultra Core 200個です。
 - **大巡航**（レベル8、25分、撃破されないこと）。`x-4` の8,000 / 4,500へ飛び、次に中央セクターの6,000 / 4,500へ飛び、ライバル企業の `x-4` で Goombah 2体を撃破して、その中心の8,000 / 4,500へ飛びます。[リングのゲート](/wiki/01-General/Spacemap%20Travel.md#jump-links)でも中央セクターでも行けます。報酬は66,000 XP、165,000クレジット、1,320 Thulium です。
-- **無傷**（チャレンジ）。`x-3` で Phantasm 25体を連続で撃破します。失う船体ポイントは最大39,000までです。制限を超えると、カウントは0に戻ります。基本値で、報酬は44,000 XP、855,000クレジット、6,405 Thulium、名誉2,370、Ancient Control Unit 1個、Shield Wall Booster II 5時間分です。
+- **無傷**（チャレンジ）。`x-3` で Phantasm 25体を連続で撃破します。失う船体ポイントは最大39,000までです。制限を超えると、カウントは0に戻ります。基本値で、報酬は220,000 XP、855,000クレジット、6,405 Thulium、名誉2,370、Ancient Control Unit 1個、Shield Wall Booster II 5時間分です。
 
 ## ステーションミッション {#station-missions}
 
@@ -164,6 +164,11 @@
 - **10個を好きな順番で。**ティアの10個のミッションは、すべて同時に開いています。**ティアII**は、ティアIの10個すべての報酬を受け取ると開き、**ティアIII**は、ティアIIの10個すべての報酬を受け取ると開きます。**ティアIVとV**は、その前のティアの**10個のうち9個**の報酬を受け取ると開きます。ティアIIIの **Dormant の夜明け** とティアIVの **Dormant の黄昏** は、クルーが必要な [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)のミッションなので、任意です。
 - **同時に3個まで。**レベルミッション5個とステーションミッション3個とは別枠です。
 - **レベルミッションと同じように支払われます。**表の報酬は**基本値**で、1回だけ支払われます。ワールドのボーナス、ブースター、プレミアム経験値、クランのクレジットと Thulium のブーストが掛け合わされます。例は[報酬](#rewards)にあります。**名誉を支払うのはティアIだけです。**ワイプを越えて残り、ミッションのワイプポイントにはカウントされません。
+- **報酬は仕事量に従います。**チャレンジでは、あるエイリアン1体の撃破の価値は、ティアIがその撃破に支払う額で、**ティアが1つ上がるごとに10%増えます**（ティアII ×1.10、ティアIII ×1.21、ティアIV ×1.331、ティアV ×1.4641）。たとえば、ティアIの**Bulwark の壁**の Bulwark 150体は Thulium 19,585 を支払い、ティアIIの**Bulwark の嵐**の400体は 57,450 を支払います。そこでは Bulwark 1体の価値が10%高くなります。滞在、周回、ノーミスの走破も、1つ下のティアにある同じ種類のミッションを基準に、同じ規則に従います。
+- **1つのミッションにつき Thulium 100,000 の上限。**最大級の狩りは、それ以上を支払うことになります。報酬の Thulium が100,000を超えるときは、報酬全体がまとめて切り下げられ、Thulium がちょうど100,000になります。クレジット、名誉、アイテムも同じ割合で減ります。切り下げられるのは10個のミッションです。**Goombah の天罰**、**Bulwark の疫禍**、**Goombah の壊走**、**Bulwark の海**、**Seeker 1万体**、**Phantasm 1万体**、**Goombah 軍団**、**Crystalys の治世**、**海賊の玉座**、**戦線の守護者**。残りの40個は満額で支払われます。
+- **経験値は5倍。**50個すべてのミッションの経験値は、0.4.16より前に支払われていた額のちょうど5倍です。上限による切り下げは経験値には及びません。
+- **アイテムはお金に合わせて増えます。**Power Core、Reinforced Hull Plate、Cataclysite は、報酬のクレジットと Thulium に合わせて増えます。Orvium と Velkonite の Reinforced Plate、Ancient Control Unit は従来の個数のままで、ブースターの時間も同じです。
+- **撃破の報酬は別に支払われます。**倒したエイリアンは、これまでどおり自分のクレジット、Thulium、名誉を支払います。ミッションの報酬はそれに加えて支払われます。
 - **撃破は2回カウントされます。**撃破は、それを求める各チャレンジにも、カウントされる1つのレベルミッションにもカウントされるので、1,000体撃破のミッションがレベルミッションを飢えさせることはありません。
 - **グループ。**撃破がカウントされるのは、その報酬を受け取るパイロットと、残骸から**4,000ユニット**以内にいて直近15秒の間にレーザーかロケットを撃ったグループの仲間です。カウントはパイロットごとに別々です。
 - **滞在には射撃が必要です。ただし中央は除きます。**`x-3`、`x-4`、ライバルの `x-4` での滞在は、直近60秒の間に射撃しているあいだだけカウントされるので、停止した艦や旋回するだけの艦は何も稼げません。危険セクター（**中央の見張り**、**縁の見張り**、**最後の見張り**）にはエイリアンがいないので、直近30秒の間に300ユニット移動したか射撃した艦がカウントされます。レベルミッションの滞在と同じです。
@@ -180,13 +185,13 @@
 
 | ティア | クレジット | Thulium | 経験値 | 名誉 |
 | :--- | --: | --: | --: | --: |
-| ティア 1 · 試練の場 | 9,355,000 | 70,125 | 435,500 | 26,140 |
-| ティア 2 · 鉄の国境 | 6,200,000 | 46,450 | 471,000 | 0 |
-| ティア 3 · 中枢 | 11,995,000 | 90,020 | 887,000 | 0 |
-| ティア 4 · 深淵 | 26,215,000 | 196,615 | 1,880,500 | 0 |
-| ティア 5 · 伝説 | 48,390,000 | 362,865 | 3,110,000 | 0 |
+| ティア 1 · 試練の場 | 9,355,000 | 70,125 | 2,177,500 | 26,140 |
+| ティア 2 · 鉄の国境 | 26,975,000 | 202,910 | 2,355,000 | 0 |
+| ティア 3 · 中枢 | 46,665,000 | 338,600 | 4,435,000 | 0 |
+| ティア 4 · 深淵 | 63,270,000 | 410,335 | 9,402,500 | 0 |
+| ティア 5 · 伝説 | 111,595,000 | 723,915 | 15,550,000 | 0 |
 
-[表](#challenge-missions-table)に、すべてのミッションのすべての数字が載っています。
+50個すべてを合わせると、基本値で257,860,000クレジット、1,745,885 Thulium、33,920,000 XP になります。[表](#challenge-missions-table)に、すべてのミッションのすべての数字が載っています。
 
 > [!TIP]
 > レベル3になったら、大きな狩りはすぐに受けておきましょう。Seeker の災厄と Phantasm の大波は、受けた瞬間からのすべての撃破を、どのセクターでも、レベルミッションと並行して数えます。
@@ -231,7 +236,7 @@
 
 - 経験値、クレジット、Thulium、名誉には、ミッションを達成した[ワールド](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)の倍率が掛かります。Alpha は1倍、Beta は2倍、Gamma は3倍です。ブースター（Experience Booster、Honor Booster）で増え、プレミアムでは経験値が2倍になります。[クラン](/wiki/03-Mechanics/Clans.md)の Thulium とクレジットのブーストも、受け取るすべてのミッション（レベル、ステーション、チャレンジ）のクレジットと Thulium に加わります。
 - **ステーションミッションとチャレンジは、レベルミッションと同じように支払われます。**表に印刷された数字は**基本値**です。チャレンジは、レベルミッションと同じく、達成したワールドで支払われます（2つのワールドにまたがる場合は低いほう）。ステーションミッションには専用のワールドがなく、受け取るときに飛んでいるワールドで支払われます。
-- **例。** **Seeker の災厄**（チャレンジ）の基本値は、1,100,000クレジット、8,260 Thulium、31,500 XP、名誉3,060です。何も有効にせずに Gamma で達成して受け取ると、3,300,000クレジット、24,780 Thulium、94,500 XP、名誉9,180が支払われます。クランのクレジットと Thulium のブーストが最大（それぞれ+10%）なら、3,630,000クレジットと27,258 Thulium になります。
+- **例。** **Seeker の災厄**（チャレンジ）の基本値は、1,100,000クレジット、8,260 Thulium、157,500 XP、名誉3,060です。何も有効にせずに Gamma で達成して受け取ると、3,300,000クレジット、24,780 Thulium、472,500 XP、名誉9,180が支払われます。クランのクレジットと Thulium のブーストが最大（それぞれ+10%）なら、3,630,000クレジットと27,258 Thulium になります。
 - **クランバンクの上限。**報酬がどれだけ大きくても、パイロットが24時間のうちにクランへ送れるのは、最大1,000,000クレジットです（[クラン](/wiki/03-Mechanics/Clans.md#2-donations)）。
 - **アイテムとブースターの時間は、どのワールドでも同じです。**アイテムはインベントリに入り、ブースターの時間は、そのブースターの残り時間に加算されます。弾薬は、飛行中に受け取ってもすぐに撃てます。
 - **アイテムは出品可能です。**ミッションが報酬として渡すアイテム（装備、弾薬、ロケット、素材、Reinforced Plate）は、レベル5から[オークション](/wiki/03-Mechanics/Auction.md#marketable-items)で売れます。チャレンジミッションは装備を渡しません。その報酬は素材とReinforced Plateです。
@@ -431,7 +436,7 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 ### チャレンジ {#challenge-missions-table}
 
-レベル3以上のパイロット向けのミッション50個、合計経験値 6,784,000。報酬は1つにつき1回だけ支払われます。表の数値は基本値で、ワールドボーナス、ブースター、プレミアム経験値、クランブーストがレベルミッションと同様に上乗せされます。
+レベル3以上のパイロット向けのミッション50個、合計経験値 33,920,000。報酬は1つにつき1回だけ支払われます。表の数値は基本値で、ワールドボーナス、ブースター、プレミアム経験値、クランブーストがレベルミッションと同様に上乗せされます。
 
 #### ティア 1 · 試練の場 {#challenge-tier-1}
 
@@ -439,16 +444,16 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 | ミッション | 依頼主 | タスク | 制限時間 | 経験値 | クレジット | Thulium | 名誉 | アイテム |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker の災厄 | 戦闘 | Seeker を1,000機撃破 | – | 31,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster、5時間 |
-| Phantasm の大波 | 戦闘 | Phantasm を1,000機撃破 | – | 65,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I、5時間 |
-| Bulwark の壁 | 戦闘 | Bulwark を150機撃破 | – | 103,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
-| 無傷 | 作戦 | Phantasm を25機撃破（x-3）（船体の損失は最大39,000ポイントまで） | – | 44,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II、5時間 |
-| 巣の間引き | 戦闘 | Boss Seeker を40機撃破（シーズン4日目から） | – | 11,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster、3時間 |
-| 斥候の間引き | 戦闘 | Pirate Scout を40機撃破（シーズン4日目から） | – | 27,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II、5時間 |
-| 鉄の見張り | 偵察 | 45分間、続けて滞在する（x-3） | – | 37,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster、5時間 |
-| 中央の試練 | 偵察 | ポイント 8,000 / 4,500 へ飛ぶ（x-4） → Bulwark を4機撃破（x-4） → ポイント 6,000 / 4,500 へ飛ぶ（DS-x） → ポイント 26,000 / 4,500 へ飛ぶ（DS-x） → ポイント 6,500 / 2,200 へ飛ぶ（x-4） → ポイント 1,500 / 1,500 へ飛ぶ（x-1）（ミッション全体：撃墜されないこと） | – | 28,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
-| 護送 | 作戦 | Bulwark を5機撃破（x-4） → x-4 のポイント 9,500 / 6,200 から Convoy Core を Mission Control へ届ける（船体の損失は最大17,000ポイントまで）（撃墜されないこと） | – | 74,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
-| 1時間で100体 | 作戦 | Phantasm を100機撃破（x-3） | 1時間 | 13,000 | 385,000 | 2,890 | 1,070 | Honor Booster、5時間 |
+| Seeker の災厄 | 戦闘 | Seeker を1,000機撃破 | – | 157,500 | 1,100,000 | 8,260 | 3,060 | Power Core ×6, Experience Booster、5時間 |
+| Phantasm の大波 | 戦闘 | Phantasm を1,000機撃破 | – | 327,500 | 1,605,000 | 12,035 | 4,460 | Reinforced Hull Plate ×20, Laser Damage Booster I、5時間 |
+| Bulwark の壁 | 戦闘 | Bulwark を150機撃破 | – | 515,000 | 2,610,000 | 19,585 | 7,420 | Ancient Control Unit ×2 |
+| 無傷 | 作戦 | Phantasm を25機撃破（x-3）（船体の損失は最大39,000ポイントまで） | – | 220,000 | 855,000 | 6,405 | 2,370 | Ancient Control Unit ×1, Shield Wall Booster II、5時間 |
+| 巣の間引き | 戦闘 | Boss Seeker を40機撃破（シーズン4日目から） | – | 55,000 | 355,000 | 2,660 | 990 | Power Core ×4, Loot Luck Booster、3時間 |
+| 斥候の間引き | 戦闘 | Pirate Scout を40機撃破（シーズン4日目から） | – | 137,500 | 425,000 | 3,170 | 1,170 | Power Core ×4, Hull Plating Booster II、5時間 |
+| 鉄の見張り | 偵察 | 45分間、続けて滞在する（x-3） | – | 187,500 | 540,000 | 4,030 | 1,490 | Velkonite Reinforced Plate ×3, Shield Regen Booster、5時間 |
+| 中央の試練 | 偵察 | ポイント 8,000 / 4,500 へ飛ぶ（x-4） → Bulwark を4機撃破（x-4） → ポイント 6,000 / 4,500 へ飛ぶ（DS-x） → ポイント 26,000 / 4,500 へ飛ぶ（DS-x） → ポイント 6,500 / 2,200 へ飛ぶ（x-4） → ポイント 1,500 / 1,500 へ飛ぶ（x-1）（ミッション全体：撃墜されないこと） | – | 140,000 | 405,000 | 3,025 | 1,120 | Velkonite Reinforced Plate ×3 |
+| 護送 | 作戦 | Bulwark を5機撃破（x-4） → x-4 のポイント 9,500 / 6,200 から Convoy Core を Mission Control へ届ける（船体の損失は最大17,000ポイントまで）（撃墜されないこと） | – | 372,500 | 1,075,000 | 8,065 | 2,990 | Orvium Reinforced Plate ×1 |
+| 1時間で100体 | 作戦 | Phantasm を100機撃破（x-3） | 1時間 | 65,000 | 385,000 | 2,890 | 1,070 | Honor Booster、5時間 |
 
 #### ティア 2 · 鉄の国境 {#challenge-tier-2}
 
@@ -456,16 +461,16 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 | ミッション | 依頼主 | タスク | 制限時間 | 経験値 | クレジット | Thulium | 名誉 | アイテム |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker の疫病 | 戦闘 | Seeker を2,500機撃破 | – | 52,000 | 520,000 | 3,900 | 0 | Power Core ×8, Experience Booster、6時間 |
-| Phantasm の洪水 | 戦闘 | Phantasm を2,500機撃破 | – | 85,500 | 855,000 | 6,420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I、6時間 |
-| Bulwark の嵐 | 戦闘 | Bulwark を400機撃破 | – | 71,500 | 1,255,000 | 9,405 | 0 | Cataclysite ×40 |
-| Goombah 狩り | 戦闘 | Goombah を100機撃破 | – | 58,500 | 1,135,000 | 8,495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster、4時間 |
-| 巣の間引き II | 戦闘 | Boss Seeker を100機撃破（シーズン4日目から） | – | 20,000 | 200,000 | 1,485 | 0 | Power Core ×6, Resource Magnet Booster、6時間 |
-| 斥候の間引き II | 戦闘 | Pirate Scout を120機撃破（シーズン4日目から） | – | 25,500 | 290,000 | 2,165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I、6時間 |
-| 海賊の清算 | 戦闘 | Pirate Boss を3機撃破（シーズン4日目から） | – | 11,000 | 285,000 | 2,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、6時間 |
-| 鉄の見張り II | 偵察 | 90分間、続けて滞在する（x-4） | – | 57,500 | 575,000 | 4,320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster、6時間 |
-| 護送 II | 作戦 | Bulwark を8機撃破（x-4） → x-4 のポイント 12,500 / 6,000 から Iron Core を Mission Control へ届ける（船体の損失は最大17,000ポイントまで）（撃墜されないこと） | – | 70,500 | 735,000 | 5,520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II、8時間 |
-| 無傷 II | 作戦 | Bulwark を15機撃破（x-4）（船体の損失は最大60,000ポイントまで） | – | 19,000 | 350,000 | 2,615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II、8時間 |
+| Seeker の疫病 | 戦闘 | Seeker を2,500機撃破 | – | 260,000 | 3,025,000 | 22,715 | 0 | Power Core ×47, Experience Booster、6時間 |
+| Phantasm の洪水 | 戦闘 | Phantasm を2,500機撃破 | – | 427,500 | 4,415,000 | 33,100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I、6時間 |
+| Bulwark の嵐 | 戦闘 | Bulwark を400機撃破 | – | 357,500 | 7,660,000 | 57,450 | 0 | Cataclysite ×245 |
+| Goombah 狩り | 戦闘 | Goombah を100機撃破 | – | 292,500 | 5,745,000 | 43,090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster、4時間 |
+| 巣の間引き II | 戦闘 | Boss Seeker を100機撃破（シーズン4日目から） | – | 100,000 | 980,000 | 7,315 | 0 | Power Core ×30, Resource Magnet Booster、6時間 |
+| 斥候の間引き II | 戦闘 | Pirate Scout を120機撃破（シーズン4日目から） | – | 127,500 | 1,405,000 | 10,465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I、6時間 |
+| 海賊の清算 | 戦闘 | Pirate Boss を3機撃破（シーズン4日目から） | – | 55,000 | 425,000 | 3,980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、6時間 |
+| 鉄の見張り II | 偵察 | 90分間、続けて滞在する（x-4） | – | 287,500 | 1,190,000 | 8,870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster、6時間 |
+| 護送 II | 作戦 | Bulwark を8機撃破（x-4） → x-4 のポイント 12,500 / 6,000 から Iron Core を Mission Control へ届ける（船体の損失は最大17,000ポイントまで）（撃墜されないこと） | – | 352,500 | 1,185,000 | 8,875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II、8時間 |
+| 無傷 II | 作戦 | Bulwark を15機撃破（x-4）（船体の損失は最大60,000ポイントまで） | – | 95,000 | 945,000 | 7,050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II、8時間 |
 
 #### ティア 3 · 中枢 {#challenge-tier-3}
 
@@ -473,16 +478,16 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 | ミッション | 依頼主 | タスク | 制限時間 | 経験値 | クレジット | Thulium | 名誉 | アイテム |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah の天罰 | 戦闘 | Goombah を250機撃破 | – | 134,500 | 2,380,000 | 17,855 | 0 | Cataclysite ×50, Experience Booster、8時間 |
-| Bulwark の疫禍 | 戦闘 | Bulwark を800機撃破 | – | 132,000 | 2,080,000 | 15,615 | 0 | Power Core ×10, Laser Damage Booster I、8時間 |
-| Phantasm の大海 | 戦闘 | Phantasm を5,000機撃破 | – | 180,000 | 1,800,000 | 13,500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster、8時間 |
-| Crystalys の試練 | 戦闘 | Crystalys を10機撃破 | – | 18,000 | 250,000 | 1,880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster、5時間 |
-| 海賊の災い | 戦闘 | Pirate Boss を10機撃破（シーズン4日目から） | – | 29,000 | 775,000 | 5,805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I、8時間 |
-| Dormant の夜明け | 戦闘 | Dormant Force を3機撃破（シーズン4日目から） | – | 46,000 | 750,000 | 5,625 | 0 | Cataclysite ×40, Shield Wall Booster I、8時間 |
-| 中央の見張り | 偵察 | 60分間、続けて滞在する（DS-x） | – | 98,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster、8時間 |
-| 四隅 | 偵察 | ポイント 3,000 / 3,000 へ飛ぶ（DS-x） → ポイント 29,000 / 3,000 へ飛ぶ（DS-x） → ポイント 29,000 / 15,000 へ飛ぶ（DS-x） → ポイント 3,000 / 15,000 へ飛ぶ（DS-x） → ポイント 1,500 / 1,500 へ飛ぶ（x-1）（ミッション全体：船体の損失は最大104,000ポイントまで）（ミッション全体：撃墜されないこと） | – | 98,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II、10時間 |
-| 護送 III | 作戦 | Goombah を4機撃破（x-4） → x-4 のポイント 13,000 / 3,000 から Centre Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 119,000 | 1,260,000 | 9,460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
-| 無傷 III | 作戦 | Goombah を8機撃破（x-4）（船体の損失は最大350,000ポイントまで） | – | 32,500 | 740,000 | 5,550 | 0 | Power Core ×8, Laser Damage Booster II、10時間 |
+| Goombah の天罰 | 戦闘 | Goombah を250機撃破 | – | 672,500 | 13,335,000 | 100,000 | 0 | Cataclysite ×281, Experience Booster、8時間 |
+| Bulwark の疫禍 | 戦闘 | Bulwark を800機撃破 | – | 660,000 | 13,330,000 | 100,000 | 0 | Power Core ×65, Laser Damage Booster I、8時間 |
+| Phantasm の大海 | 戦闘 | Phantasm を5,000機撃破 | – | 900,000 | 9,715,000 | 72,815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster、8時間 |
+| Crystalys の試練 | 戦闘 | Crystalys を10機撃破 | – | 90,000 | 3,160,000 | 12,640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster、5時間 |
+| 海賊の災い | 戦闘 | Pirate Boss を10機撃破（シーズン4日目から） | – | 145,000 | 1,560,000 | 14,585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I、8時間 |
+| Dormant の夜明け | 戦闘 | Dormant Force を3機撃破（シーズン4日目から） | – | 230,000 | 1,260,000 | 6,310 | 0 | Cataclysite ×54, Shield Wall Booster I、8時間 |
+| 中央の見張り | 偵察 | 60分間、続けて滞在する（DS-x） | – | 490,000 | 980,000 | 7,365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster、8時間 |
+| 四隅 | 偵察 | ポイント 3,000 / 3,000 へ飛ぶ（DS-x） → ポイント 29,000 / 3,000 へ飛ぶ（DS-x） → ポイント 29,000 / 15,000 へ飛ぶ（DS-x） → ポイント 3,000 / 15,000 へ飛ぶ（DS-x） → ポイント 1,500 / 1,500 へ飛ぶ（x-1）（ミッション全体：船体の損失は最大104,000ポイントまで）（ミッション全体：撃墜されないこと） | – | 490,000 | 980,000 | 7,365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II、10時間 |
+| 護送 III | 作戦 | Goombah を4機撃破（x-4） → x-4 のポイント 13,000 / 3,000 から Centre Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 595,000 | 1,305,000 | 9,765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
+| 無傷 III | 作戦 | Goombah を8機撃破（x-4）（船体の損失は最大350,000ポイントまで） | – | 162,500 | 1,040,000 | 7,755 | 0 | Power Core ×12, Laser Damage Booster II、10時間 |
 
 #### ティア 4 · 深淵 {#challenge-tier-4}
 
@@ -490,16 +495,16 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 | ミッション | 依頼主 | タスク | 制限時間 | 経験値 | クレジット | Thulium | 名誉 | アイテム |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys の粛清 | 戦闘 | Crystalys を50機撃破 | – | 122,000 | 2,575,000 | 19,320 | 0 | Cataclysite ×60, Experience Booster、10時間 |
-| Goombah の壊走 | 戦闘 | Goombah を500機撃破 | – | 233,500 | 3,345,000 | 25,105 | 0 | Power Core ×12, Laser Damage Booster I、10時間 |
-| 海賊の最期 | 戦闘 | Pirate Boss を25機撃破（シーズン4日目から） | – | 99,500 | 2,445,000 | 18,325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster、6時間 |
-| Dormant の黄昏 | 戦闘 | Dormant Force を10機撃破（シーズン4日目から） | – | 180,500 | 2,770,000 | 20,780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、10時間 |
-| 縁の周回 | 偵察 | ポイント 16,000 / 5,300 へ飛ぶ（DS-4） → ポイント 19,700 / 9,000 へ飛ぶ（DS-4） → ポイント 16,000 / 12,700 へ飛ぶ（DS-4） → ポイント 12,300 / 9,000 へ飛ぶ（DS-4）（ミッション全体：船体の損失は最大76,000ポイントまで）（ミッション全体：撃墜されないこと） | – | 162,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II、10時間 |
-| 縁の見張り | 偵察 | 90分間、続けて滞在する（DS-4） | – | 162,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster、10時間 |
-| 敵地 | 偵察 | 120分間、続けて滞在する（rival x-4） | – | 343,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I、10時間 |
-| 深淵の護送 | 作戦 | Goombah を6機撃破（x-4） → x-4 のポイント 12,800 / 6,800 から Abyss Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 198,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
-| 無傷 IV | 作戦 | Crystalys を3機撃破（x-4）（船体の損失は最大480,000ポイントまで） | – | 61,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II、10時間 |
-| Bulwark の海 | 戦闘 | Bulwark を2,000機撃破 | – | 318,500 | 4,735,000 | 35,500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster、10時間 |
+| Crystalys の粛清 | 戦闘 | Crystalys を50機撃破 | – | 610,000 | 17,370,000 | 69,515 | 0 | Cataclysite ×292, Experience Booster、10時間 |
+| Goombah の壊走 | 戦闘 | Goombah を500機撃破 | – | 1,167,500 | 13,330,000 | 100,000 | 0 | Power Core ×48, Laser Damage Booster I、10時間 |
+| 海賊の最期 | 戦闘 | Pirate Boss を25機撃破（シーズン4日目から） | – | 497,500 | 4,285,000 | 40,110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster、6時間 |
+| Dormant の黄昏 | 戦闘 | Dormant Force を10機撃破（シーズン4日目から） | – | 902,500 | 4,610,000 | 23,125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、10時間 |
+| 縁の周回 | 偵察 | ポイント 16,000 / 5,300 へ飛ぶ（DS-4） → ポイント 19,700 / 9,000 へ飛ぶ（DS-4） → ポイント 16,000 / 12,700 へ飛ぶ（DS-4） → ポイント 12,300 / 9,000 へ飛ぶ（DS-4）（ミッション全体：船体の損失は最大76,000ポイントまで）（ミッション全体：撃墜されないこと） | – | 810,000 | 1,620,000 | 12,150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II、10時間 |
+| 縁の見張り | 偵察 | 90分間、続けて滞在する（DS-4） | – | 810,000 | 1,620,000 | 12,150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster、10時間 |
+| 敵地 | 偵察 | 120分間、続けて滞在する（rival x-4） | – | 1,717,500 | 3,435,000 | 25,760 | 0 | Cataclysite ×50, Hull Plating Booster I、10時間 |
+| 深淵の護送 | 作戦 | Goombah を6機撃破（x-4） → x-4 のポイント 12,800 / 6,800 から Abyss Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 990,000 | 2,090,000 | 15,660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
+| 無傷 IV | 作戦 | Crystalys を3機撃破（x-4）（船体の損失は最大480,000ポイントまで） | – | 305,000 | 1,580,000 | 11,865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II、10時間 |
+| Bulwark の海 | 戦闘 | Bulwark を2,000機撃破 | – | 1,592,500 | 13,330,000 | 100,000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster、10時間 |
 
 #### ティア 5 · 伝説 {#challenge-tier-5}
 
@@ -507,16 +512,16 @@ Skylab に関するミッション10個、合計経験値 8,300。表の数値�
 
 | ミッション | 依頼主 | タスク | 制限時間 | 経験値 | クレジット | Thulium | 名誉 | アイテム |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker 1万体 | 戦闘 | Seeker を10,000機撃破 | – | 322,500 | 5,700,000 | 42,755 | 0 | Power Core ×15, Experience Booster、10時間 |
-| Phantasm 1万体 | 戦闘 | Phantasm を10,000機撃破 | – | 420,000 | 4,200,000 | 31,500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I、10時間 |
-| Goombah 軍団 | 戦闘 | Goombah を1,000機撃破 | – | 467,500 | 6,700,000 | 50,250 | 0 | Cataclysite ×80, Resource Magnet Booster、10時間 |
-| Crystalys の治世 | 戦闘 | Crystalys を150機撃破 | – | 365,500 | 7,725,000 | 57,925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster、10時間 |
-| Dormant の支配 | 戦闘 | Dormant Force を25機撃破（シーズン4日目から） | – | 394,000 | 6,350,000 | 47,605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、10時間 |
-| 海賊の玉座 | 戦闘 | Pirate Boss を60機撃破（シーズン4日目から） | – | 191,000 | 5,325,000 | 39,925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I、10時間 |
-| 最後の見張り | 偵察 | 180分間、続けて滞在する（DS-x） | – | 338,000 | 3,380,000 | 25,355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster、10時間 |
-| 護送ゼロ | 作戦 | Goombah を8機撃破（x-4） → Crystalys を1機撃破（x-4） → x-4 のポイント 13,600 / 4,400 から Zero Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 252,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
-| 無傷ゼロ | 作戦 | Goombah を20機撃破（x-4）（船体の損失は最大556,000ポイントまで） | – | 87,000 | 1,540,000 | 11,555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II、10時間 |
-| 戦線の守護者 | 作戦 | Goombah を400機撃破（x-4） → Crystalys を30機撃破（x-4） → 60分間、続けて滞在する（x-4） → ポイント 8,000 / 4,500 へ飛ぶ（rival x-4） → ポイント 26,000 / 4,500 へ飛ぶ（DS-x） → ポイント 1,500 / 1,500 へ飛ぶ（x-1） | – | 272,500 | 4,730,000 | 35,460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II、10時間 |
+| Seeker 1万体 | 戦闘 | Seeker を10,000機撃破 | – | 1,612,500 | 13,325,000 | 100,000 | 0 | Power Core ×36, Experience Booster、10時間 |
+| Phantasm 1万体 | 戦闘 | Phantasm を10,000機撃破 | – | 2,100,000 | 13,340,000 | 100,000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I、10時間 |
+| Goombah 軍団 | 戦闘 | Goombah を1,000機撃破 | – | 2,337,500 | 13,330,000 | 100,000 | 0 | Cataclysite ×160, Resource Magnet Booster、10時間 |
+| Crystalys の治世 | 戦闘 | Crystalys を150機撃破 | – | 1,827,500 | 24,990,000 | 100,000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster、10時間 |
+| Dormant の支配 | 戦闘 | Dormant Force を25機撃破（シーズン4日目から） | – | 1,970,000 | 12,670,000 | 63,590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I、10時間 |
+| 海賊の玉座 | 戦闘 | Pirate Boss を60機撃破（シーズン4日目から） | – | 955,000 | 10,680,000 | 100,000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I、10時間 |
+| 最後の見張り | 偵察 | 180分間、続けて滞在する（DS-x） | – | 1,690,000 | 3,560,000 | 26,735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster、10時間 |
+| 護送ゼロ | 作戦 | Goombah を8機撃破（x-4） → Crystalys を1機撃破（x-4） → x-4 のポイント 13,600 / 4,400 から Zero Core を Mission Control へ届ける（船体の損失は最大46,000ポイントまで）（撃墜されないこと） | – | 1,260,000 | 2,740,000 | 20,535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II、10時間 |
+| 無傷ゼロ | 作戦 | Goombah を20機撃破（x-4）（船体の損失は最大556,000ポイントまで） | – | 435,000 | 1,740,000 | 13,055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II、10時間 |
+| 戦線の守護者 | 作戦 | Goombah を400機撃破（x-4） → Crystalys を30機撃破（x-4） → 60分間、続けて滞在する（x-4） → ポイント 8,000 / 4,500 へ飛ぶ（rival x-4） → ポイント 26,000 / 4,500 へ飛ぶ（DS-x） → ポイント 1,500 / 1,500 へ飛ぶ（x-1） | – | 1,362,500 | 15,220,000 | 100,000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II、10時間 |
 
 
 <!-- quests:end -->

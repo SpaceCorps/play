@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 986c641910ea7fae -->
+<!-- wiki-i18n source: be279a1fbb360e1d -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -19,7 +19,7 @@ Chaque saison va du jour 1 au jour 30 (la réinitialisation commence par son com
 | **Essor technologique** | Jours 11–18 | Événement 2 | Pas encore d’effets spéciaux : les gains et les aliens sont les mêmes que dans toute autre phase. |
 | **Jeux de guerre** | Jours 19–25 | Événement 3 | Pas encore d’effets spéciaux : le PvP fonctionne comme dans toutes les phases qui suivent le Protocole de paix. |
 | **Compte à rebours** | Jours 26–30 | Événement 4 | La phase du compte à rebours final. Tous les pilotes se pressent pour compléter et verrouiller la cargaison qu’ils emportent avant l’éruption. |
-| **La réinitialisation** | Jour 30 | Éruption du trou noir | L’univers est détruit et renaît. Les pilotes passent dans le monde qu’ils ont choisi comme destination pour la saison suivante. |
+| **La réinitialisation** | Jour 30 | Éruption du trou noir | L’univers est détruit et renaît, et tous les [clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) sont dissous. Les pilotes passent dans le monde qu’ils ont choisi comme destination pour la saison suivante. |
 
 En dehors de la réinitialisation elle-même, seules trois choses suivent le calendrier : le Protocole de paix (jours 1–3) change une règle, dès le jour 4 les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent et restent jusqu’à la réinitialisation, et les [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) ne prélèvent plus de frais dès le jour 28 et sont fermées dès le jour 30. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu, mais aucun d’eux ne donne encore de récompenses, d’apparitions ou de bonus spéciaux qui lui soient propres.
 
@@ -75,7 +75,7 @@ Avant la fin de la saison, vous devez cliquer sur **Confirmer et verrouiller** d
 
 ## Mondes : Alpha, Beta et Gamma {#worlds-alpha-beta-and-gamma}
 
-SpaceCorps fait tourner trois **mondes**. Chacun est une copie séparée de toute la galaxie : chaque secteur, avec ses propres aliens, [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), cargaisons, chat et pilotes. Vous ne volez que dans votre propre monde et n’y croisez que ses pilotes ; votre compte, vos objets, votre clan et les classements sont communs aux trois.
+SpaceCorps fait tourner trois **mondes**. Chacun est une copie séparée de toute la galaxie : chaque secteur, avec ses propres aliens, [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), cargaisons, chat et pilotes. Vous ne volez que dans votre propre monde et n’y croisez que ses pilotes ; votre compte, vos objets et les classements de pilotes sont communs aux trois. Un clan appartient à un monde, n’accepte que ses pilotes et est dissous à la réinitialisation ([Clans et mondes](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | Monde | Risque | Force des aliens | Gains des éliminations et quêtes | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Comment fonctionnent les mondes :
 
 La réinitialisation vous prend vos vaisseaux et vos objets (sauf votre vaisseau actif avec tout ce qui y est installé, votre cache de transport et vos drones) et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours, sauf les missions de niveau que la mise à jour 0.4.10 a remaniées : 64 d’entre elles sont proposées une fois de plus ([Quêtes](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clans et grades.** Les points, les niveaux de bonus et les lignes du jour d’un clan repartent de zéro à chaque réinitialisation : chaque saison est une nouvelle course aux bonus maximaux ; le clan lui-même, ses membres, sa banque et sa taxe restent ([Clans](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Vos points de classement PvE restent aussi : une réinitialisation ne vous déplace donc pas dans le classement de votre corporation, et votre grade suit votre place, pas la saison ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clans et grades.** La réinitialisation dissout tous les clans, avec leur Trésor de la flotte, leurs annonces, leur journal, leurs traités, leurs points et leurs niveaux de bonus : chaque saison est donc une nouvelle course pour fonder un clan et remplir ses bonus ; les crédits qu’un clan vous a versés restent, et votre plafond de dons aussi ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Chefs et chefs adjoints : versez le Trésor de la flotte avant la fin du compte à rebours. Vos points de classement PvE restent aussi : une réinitialisation ne vous déplace donc pas dans le classement de votre corporation, et votre grade suit votre place, pas la saison ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La boutique des bonus permanents {#the-permanent-buff-store}
 Vous pouvez dépenser vos PR accumulés en bonus permanents qui se conservent d’une saison à l’autre, pour toujours. Ces bonus se cumulent et procurent d’importants avantages passifs :

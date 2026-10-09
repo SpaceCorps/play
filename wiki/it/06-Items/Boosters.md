@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: Booster -->
 # Booster {#boosters}
 
@@ -60,7 +60,7 @@ Ogni booster dura **10 ore** di base e si attiva subito all’acquisto, alla ric
 | **Loot Luck Booster** | Leggendario | +5% di probabilità di drop rari dagli NPC | 30.000 |
 
 > [!NOTE]
-> **Booster o amp?** Sono cose diverse. Ogni booster ha **Booster** nel nome, funziona a tempo e non ha nulla da montare: il **Laser Damage Booster I** e il **Laser Damage Booster II** danno +10% di danno laser per 10 ore, dal Negozio o dall’Assemblaggio. Il **Damage Amp**, il **Crit Amp** e il **Penetration Amp** (tier da I a IV) sono amplificatori laser: moduli che si montano nello slot amp di un laser, senza timer ([Laser e munizioni](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Prima di 0.4.12 i booster si chiamavano Damage Amp e Damage Amp II, Shield Wall e Shield Wall II, Hull Plating e Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet e Loot Luck; quelli che avevi in corso sono proseguiti con i nuovi nomi.
+> **Booster o amp?** Sono cose diverse. Ogni booster ha **Booster** nel nome, funziona a tempo e non ha nulla da montare: il **Laser Damage Booster I** e il **Laser Damage Booster II** danno +10% di danno laser per 10 ore, dal Negozio o dall’Assemblaggio. Il **Damage Amp**, il **Crit Amp** e il **Penetration Amp** (tier da I a IV) sono amplificatori laser: moduli che si montano nello slot amp di un laser, senza timer ([Laser e munizioni](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)). Prima di 0.4.12 i booster si chiamavano Damage Amp e Damage Amp II, Shield Wall e Shield Wall II, Hull Plating e Hull Plating II, Shield Regen, Experience Kit, Honor Beacon, Resource Magnet e Loot Luck; quelli che avevi in corso sono proseguiti con i nuovi nomi. L’Hull Plating **Booster** non è la corazza **Hull Plating** che si monta negli slot corazza di una nave ([Corazza dello scafo](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)).
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -6,7 +6,7 @@ La **Forge** est le deuxième onglet de la page Assemblage (et de la fenêtre As
 
 ## Ce qui peut être forgé {#what-can-be-forged}
 
-Lasers, amplis laser, boucliers, cellules de bouclier, moteurs, propulseurs, cœurs adaptatifs et Repair Drones : toute pièce d’équipement qui peut porter des [bonus d’enchantement](/wiki/06-Items/Overview.md). Elle peut se trouver dans votre inventaire, sur un vaisseau (elle y reste et fonctionne aussitôt avec son nouveau rang) ou installée dans un autre objet. Les drones, les vaisseaux, les munitions, les ressources et les boosters ne peuvent pas être forgés, pas plus que ce qui se trouve dans la cache de transport : sortez-le d’abord.
+Lasers, amplis laser, boucliers, cellules de bouclier, moteurs, propulseurs, cœurs adaptatifs, Repair Drones et [blindage de coque](/wiki/06-Items/Hull-Plating.md) : toute pièce d’équipement qui peut porter des [bonus d’enchantement](/wiki/06-Items/Overview.md). Elle peut se trouver dans votre inventaire, sur un vaisseau (elle y reste et fonctionne aussitôt avec son nouveau rang) ou installée dans un autre objet. Les drones, les vaisseaux, les munitions, les ressources et les boosters ne peuvent pas être forgés, pas plus que ce qui se trouve dans la cache de transport : sortez-le d’abord.
 
 ## Monter de rang {#tier-up}
 
@@ -39,7 +39,7 @@ Les deux dernières étapes demandent chacune **2 Dark Matter Plates**, en plus 
 
 L’équipement fabriqué avant la Forge garde les bonus qu’il avait obtenus, et ceux-ci sont souvent plus petits que ceux du tableau (une pièce de rang Divin de cette époque peut porter +2 %). Rien ne les augmente automatiquement : une montée de rang tire de nouveau chaque bonus dans la fourchette du nouveau rang et garde la meilleure valeur, et une fusion garde la meilleure valeur de chaque stat.
 
-Un objet ne peut pas porter plus de bonus qu’il n’a de stats : un bouclier en a quatre, un laser trois (les Quantum Laser I et II en ont deux), un moteur ou un cœur adaptatif deux, un Momentum Thruster deux, un Impulse Thruster un (son multiplicateur de 1,02 à 1,035 est trop petit pour un bonus, et la Forge n’en tire aucun sur un multiplicateur de 1,05 ou moins : son bonus ne peut donc porter que sur la vitesse fixe), un Crit Amp I ou un Repair Drone un, les amplis critiques de niveau supérieur deux, les amplis de dégâts et les cellules de bouclier trois. Quand le rang suivant ne porte pas plus de bonus que l’objet n’en peut recevoir, le panneau le signale : le rang ne fait alors que renforcer les bonus. Les bonus de portée ne dépassent jamais +5 %. Un Penetration Amp n’a qu’une seule stat, il porte donc un seul bonus.
+Un objet ne peut pas porter plus de bonus qu’il n’a de stats : un bouclier en a quatre, un laser trois (les Quantum Laser I et II en ont deux), un moteur ou un cœur adaptatif deux, un Momentum Thruster deux, un Impulse Thruster un (son multiplicateur de 1,02 à 1,035 est trop petit pour un bonus, et la Forge n’en tire aucun sur un multiplicateur de 1,05 ou moins : son bonus ne peut donc porter que sur la vitesse fixe), un Crit Amp I, un Repair Drone ou un blindage de coque un (sa coque), les amplis critiques de niveau supérieur deux, les amplis de dégâts et les cellules de bouclier trois. Quand le rang suivant ne porte pas plus de bonus que l’objet n’en peut recevoir, le panneau le signale : le rang ne fait alors que renforcer les bonus. Les bonus de portée ne dépassent jamais +5 %. Un Penetration Amp n’a qu’une seule stat, il porte donc un seul bonus.
 
 **Un rang porte au plus ce nombre de bonus.** Une montée de rang donne toujours à un objet son premier bonus ; chaque autre emplacement que le nouveau rang ouvre, et pour lequel l’objet a une stat, est rempli avec **50 % de chances, chacun avec son propre tirage**, et un emplacement qui échoue est retenté par la montée de rang suivante. Un bouclier Divin a donc deux bonus une fois sur deux et un seul l’autre fois ; un bouclier Éternel a les quatre environ une fois sur trois (3,1 en moyenne), un laser à trois stats a les trois deux fois sur trois, et un moteur a presque toujours les deux. Le panneau dit « jusqu’à » pour le rang suivant et indique à quelle fréquence un nouvel emplacement se remplit. Les objets à une seule stat et toute étape vers Souillé ne sont pas touchés, et l’équipement fabriqué avant cette règle garde ses bonus. Une **fusion** remplit un emplacement qu’une montée de rang a manqué : elle garde le meilleur bonus de chaque stat de deux exemplaires, jusqu’à la limite du rang. À cause du hasard, une pièce ne porte le bonus d’absorption décrit ci-dessous qu’une partie du temps (un bouclier Éternel 78 % du temps, une cellule de bouclier Éternel 88 %) : les chiffres de ce paragraphe valent pour les pièces qui le portent.
 
@@ -47,7 +47,7 @@ Le **bonus d’absorption d’un bouclier** (et le Boost d’absorption d’une 
 
 Les moteurs, propulseurs, cœurs adaptatifs et Repair Drones bougent très peu avec un bonus en pourcentage (un Engine II ajoute 4 de vitesse, donc +12 % font un demi-point) : forgez-les si vous voulez le rang, pas pour les stats.
 
-**Le bonus d’un Penetration Amp** multiplie sa pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 8,7 à 9,2 points par emplacement au lieu de 8. Dans le meilleur laser (un Fusion Core, un Stiletto et trois Penetration Amp IV dans chaque laser), 10 + 16 + 24 atteignent déjà le plafond de 50 % d’un tir laser : ce bonus y est donc gaspillé ; il sert là où la somme reste sous le plafond ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Le bonus d’un Penetration Amp** multiplie sa pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 8,7 à 9,2 points par emplacement au lieu de 8. Rien ne plafonne la pénétration d’un tir, donc chaque point compte : dans le meilleur laser (un Fusion Core, un Stiletto et trois Penetration Amp IV dans chaque laser), 10 + 16 + 24 font 50 %, et trois bonus Éternels le portent jusqu’à 53,6 % ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Où tombent les matériaux {#where-the-materials-drop}
 

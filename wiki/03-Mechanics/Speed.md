@@ -8,6 +8,8 @@ Your ship's final speed is calculated on the server using the following formula:
 
 \[\text{Final Speed} = (\text{Ship Base Speed} + \text{Total Engine Speed}) \times (1.0 + \text{Total Speed Bonus Percent})\]
 
+A [ship design](/wiki/03-Mechanics/Ship-Designs.md) changes the first term (THUNDER has 40 more base speed, DUMA 20 less), and NOTSUM and RECON multiply the final speed by one more factor, +2% and +5%.
+
 ### 1. Effective Engine Speed
 
 Every engine equipped generates speed, and so does every Adaptive Core that holds thrusters. If thrusters are nested in the engine, its speed is modified:

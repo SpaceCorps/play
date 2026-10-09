@@ -10,7 +10,7 @@
 - オークションを使う（出品、購入、入札する）には**レベル5**が必要です。
 - 出品の価格は1ロットあたり、整数のクレジットか整数のThuliumで付けます（両方は不可）。そのアイテムの最低価格を下回ることはできません。**上限価格はありません。**
 - Thuliumでの価格は、クレジットでの最低価格を1,000で割って切り上げた額以上で、最低価格が1Thulium以上になるアイテムに限られます。レートの役割はそれだけです。**1 Thulium = 1,000クレジットは最低価格のための決まりで、為替レートではありません。**何も交換されず、価値も表示されず、クレジットとThuliumが合算されることもありません。
-- 出品できるのは80種類で、そのうち79種類はThuliumでも価格を付けられます。
+- 出品できるのは82種類で、そのうち81種類はThuliumでも価格を付けられます。
 - 出品期間は24 / 72 / 168時間から選べます。選択肢はどのレベルでも同じです。
 - **出品料**は、出品が続く24時間ごとに価格の1%で、最低でも50クレジットまたは1 Thuliumです。出品時に支払い、取り消しても返金されません。
 - レベル10からは、出品料は1.5%になります。
@@ -50,6 +50,7 @@
 | **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Ultra Core（10個単位）, Experimental Fusion Core | 5 |
 | **ロケット** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **資源** | Cataclysite（100個単位）, Ship Fragment（100個単位）, Daraxium（100個単位）, Nyxite（100個単位）, Quorvium（10個単位）, Reinforced Hull Plate（10個単位）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

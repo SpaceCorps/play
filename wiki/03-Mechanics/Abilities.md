@@ -1,6 +1,6 @@
 # Active Ship Abilities
 
-Abilities are the buttons you press in the heat of a fight: a shield that comes back, a burst of speed to get out of range, a repair when your hull is nearly gone. They come from the **shield, engine or Repair Drone** you fit into your ship's **Ability Slots**, and the better that item, the better the ability. They are made for the moment you need them, not for pressing on every cooldown: each one takes about ten seconds and then rests for a minute and a half to two minutes.
+Abilities are the buttons you press in the heat of a fight: a shield that comes back, a burst of speed to get out of range, a repair when your hull is nearly gone. They come from the **shield, engine or Repair Drone** you fit into your ship's **Ability Slots**, and the better that item, the better the ability. They are made for the moment you need them, not for pressing on every cooldown: each one takes about ten seconds and then rests for a minute and a half to two minutes. A few [ship designs](/wiki/03-Mechanics/Ship-Designs.md) have one more, of their own: see [Ship abilities](#ship-abilities).
 
 A new pilot starts with one: the **Repair Drone I** of the starter kit is already fitted in the Protos' ability slot, so the Emergency Repair button (`E`) is there from the first minute. A second Repair Drone I from the kit sits in an extra slot: that one mends the hull slowly by itself and is not an ability (see [Extras](/wiki/06-Items/Extras.md#repair-drones)).
 
@@ -54,6 +54,30 @@ Your final speed is multiplied by the rank's bonus for its duration. It does not
 
 Heals a share of your **max hull evenly over ten seconds**, never above the max. Hits do not interrupt it: it is an emergency ability, and it works under fire, in the black hole's radiation, under a cloak and inside an EMP window. It ends when the time is up or when your ship is destroyed. It does not touch your shield, does not count as a hit, and leaves the slow REP repair as it was. Refused at full hull.
 
+## Ship abilities
+
+Eight of the thirteen [ship designs](/wiki/03-Mechanics/Ship-Designs.md) come with an ability that belongs to the design, not to an item. It takes **no ability slot** and needs nothing fitted: it is there as long as you fly the design. It has a button of its own, the fourth in the hotbar's column, and its key is `F` (you can change it in the settings). It has its own cooldown, kept like the others: swapping configuration, jumping and logging out do not reset it, and a ship that is destroyed starts the next flight with every ability ready.
+
+| Ability | Design | What it does | Lasts | Cooldown |
+| :--- | :--- | :--- | ---: | ---: |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Speed 2,500 (TITANIC: 1,500) toward your move order | 1 s | 120 s |
+| **Chameleon** | Storm RECON | Invisible to every other pilot, the minimap too | until it breaks | 60 s |
+| **Focus Fire** | Ironclad DUMA | Enemy ships within 1,000 units are forced to attack you | 5 s | 60 s |
+| **Venom** | Wraith RAPTOR | 100,000 damage straight to a target's hull | 30 s | 120 s |
+| **Diminisher** | Wraith BILLY | You take 75% less damage and deal 25% less | 10 s | 120 s |
+| **Heal Pod** | Wraith MENATI | A pod heals friendly ships within 600 units 10,000 + 1% of their max hull a second | 5 s | 120 s |
+| **Shield Buff** | Wraith ATARAXIS | Your shield capacity doubles and regenerates 2% of its maximum a second | 10 s | 120 s |
+
+- **Blink.** For 1 second your speed is 2,500 (a TITANIC's is capped at 1,500), toward your move order. You stop where the order ends, and the edge of the map stops you. Then it rests for 120 seconds.
+- **Chameleon.** You vanish: no other pilot sees you, on the map or on the minimap, and nobody can lock you. Your own company still sees you, as a ghost. An EMP cannot break it. It ends when you take any damage, fire a laser volley, launch a rocket, collect a box or enter a safe zone, or when you press the button again, and its 60 seconds start when it ends, however it ends. You cannot start it within 10 seconds of a shot or a hit, or inside a safe zone's ring, and not while a Cloaking CPU is on.
+- **Focus Fire.** For 5 seconds every enemy pilot and alien within 1,000 units is forced to attack you: a pilot's lock is set on you and cannot be changed, an alien turns on you. Pilots of your group and company, ships inside a safe zone's protection and cloaked ships are left alone, and it is refused inside a safe zone or with no enemy in range. They can still fly where they like.
+- **Venom.** Lock a target within your laser range and press: 100,000 damage goes straight to its hull over 30 seconds, evenly, and its shield takes no share. It works on pilots of other companies and on aliens alike, not on your group or company, not on a ship a safe zone protects, and not where a laser lock is refused (the Peace Protocol, a sector without PvP). A ship carries one Venom at a time. Every tick counts as a hit, so the target cannot hide in a safe zone until it ends. Repair, a Heal Pod and a Diminisher on the target cut it, it ends when the target or you die, and the kill and its points are yours.
+- **Diminisher.** For 10 seconds every hit you take is cut to a quarter before your shield takes its share, so shield and hull both lose a quarter, and every hit you deal is cut to three quarters: lasers, direct rockets and blasts. A second press does nothing while it runs.
+- **Heal Pod.** A pod drops where you are and stays for 5 seconds. Each second it heals every friendly ship within 600 units by 10,000 plus 1% of that ship's maximum hull: you, your group and your company, nobody else, and never above the maximum. Nothing can lock the pod or shoot it, and it goes on healing if you die.
+- **Shield Buff.** For 10 seconds your shield capacity is doubled, with the shield you hold doubled too, and the shield regenerates 2% of the doubled maximum each second. When it ends the capacity goes back and the shield goes with it, keeping its share, so the buff never heals you: it is room to be hit in. It is refused on a ship with no shield.
+
+An **EMP** that goes off near you jams the button for 5 seconds: a press is refused and no cooldown starts. An ability that is already running goes on, and a Chameleon stays hidden. The other pilots see these abilities too: a streak behind a Blink, a red ring and lines to the ships a Focus Fire forces, a Chameleon only as a ghost to its own company.
+
 ## Ranks
 
 The strength of an ability is a **share of your own ship's number** (max shield, speed, max hull), so it grows with the ship. The rank comes from the item: a better model gives a better ability. An enchanted item adds its enchant bonus to the strength, at most 15%. The table is for one module; the stack is below it.
@@ -96,7 +120,7 @@ Rank III shields and engines (the Heavy Shield Core, Engine III) are not sold: y
 
 ## Keys and buttons
 
-`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair (all configurable in the settings). Each button appears beside the hotbar only when your configuration has that ability, so a new pilot's `E` is there from the first minute. The ring around its icon tells where the ability is: whole in the ability's colour when it is ready, draining with the seconds left while it runs (the Emergency Repair too, now that it heals over ten seconds), and filling up again while it recharges, with the seconds left in the middle. A stack of several modules wears its mark (`x2`, `x3`) in the button's corner. The Emergency Repair button is dimmed while your hull is full, and the Shield Surge button on a ship with no shield at all. Hover a button for the numbers on your ship, the stack counted (for example *Afterburner II x2: +45% speed for 15 s*), and, while a Surge or a repair runs, how much it gives a second and how much is still to come.
+`Q` Shield Surge, `W` Afterburner, `E` Emergency Repair and `F` the ability of your ship's design (all configurable in the settings). Each button appears beside the hotbar only when your configuration has that ability (the `F` button, when the ship you fly has one), so a new pilot's `E` is there from the first minute. The ring around its icon tells where the ability is: whole in the ability's colour when it is ready, draining with the seconds left while it runs (the Emergency Repair too, now that it heals over ten seconds), and filling up again while it recharges, with the seconds left in the middle. A stack of several modules wears its mark (`x2`, `x3`) in the button's corner. The Emergency Repair button is dimmed while your hull is full, and the Shield Surge button on a ship with no shield at all. Hover a button for the numbers on your ship, the stack counted (for example *Afterburner II x2: +45% speed for 15 s*), and, while a Surge or a repair runs, how much it gives a second and how much is still to come.
 
 ## In the Hangar
 

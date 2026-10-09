@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -140,7 +140,7 @@ Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’uni
 - **Ricarica.** Asterism allunga il timer condiviso del 35% (4,05 secondi), Cordon dell’11% (3,33) e Redoubt lo accorcia del 27% (2,19), ma mai sotto il volo del razzo più un attimo. Con Redoubt i razzi veloci (Lancet I, Rivet I e II, Ember I, Scatter I e II) aspettano i 2,19 secondi, un Rivet III ne aspetta 2,3, un Lancet III 2,9 e un Ember III i 3 interi; il N.U.K.E. e il N.I.K.E. aspettano 4,1 e 4,6 secondi, qualunque formazione tu porti. L’attesa è fissata quando lanci, quindi cambiare formazione dopo non la accorcia, e il cerchio sopra gli slot dei razzi la segue.
 - **I limiti dei due grandi restano validi.** Con la formazione migliore una N.I.K.E. colpisce fino a 116.250, che un Paragon intatto (128.000) sopravvive, e una N.U.K.E. fino a 77.500, che un Goombah (80.000) sopravvive.
 - **Evasione.** Il 7% di evasione di Asterism dà a un razzo diretto che ti colpisce il 7% di probabilità di non fare alcun danno, e sopra la tua nave compare un “Mancato” fluttuante; un’esplosione ad area non prende la mira e non viene mai schivata.
-- **Penetrazione.** Gemini e Stiletto sommano i loro punti alla penetrazione dello scudo di un razzo diretto (un’esplosione non ne ha), fino al 40% in tutto. Un colpo laser arriva fino al 50% ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Penetrazione.** Gemini e Stiletto sommano i loro punti alla penetrazione dello scudo di un razzo diretto (un’esplosione non ne ha), senza tetto: un Lancet III con uno Stiletto arriva al 51%. Un colpo laser li somma allo stesso modo a quelli delle sue munizioni e dei suoi amp ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regole {#rules}
 

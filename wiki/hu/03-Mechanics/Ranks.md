@@ -1,84 +1,86 @@
-<!-- wiki-i18n source: 09eab0ba9b8c9863 -->
+<!-- wiki-i18n source: 26f4bca5b9b9516f -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
-Minden pilótának van egy **rangja**, a Junior pilótától a Senior admirálisig. Ez egy katonai létra 8 fokozattal, fokozatonként 3 szinttel, összesen 24 rang. A rangod a **vállalatod pilótái közötti helyezésed**, **PvE-pontokban** számolva: azokban a pontokban, amelyeket a szintedért, a tapasztalatodért és az elpusztított idegenekért kapsz. Repülés közben a játék csak egy kis **jelet** mutat a pilóta neve előtt, hogy első pillantásra megkülönböztesd egy vállalat legjobb pilótáit az újoncoktól. A szavak a Vállalat oldalon és a jel súgójában vannak.
+Minden pilótának van egy **rangja**, a Junior pilóta rangtól a Senior admirális rangig. Ez egy katonai létra 8 fokozattal, fokozatonként 3 szinttel, összesen 24 rang. A rangod a **PvE-pontjaidból** jön: azokból a pontokból, amelyeket a szintedért, a tapasztalatodért és az elpusztított idegenekért kapsz. Minden rang **minimális** PvE-pontot kér, és a hat legjobb rangnak ráadásul rögzített számú **helye** van minden vállalatban. Repülés közben a játék csak egy kis **jelet** mutat a pilóta neve előtt, hogy első pillantásra megkülönböztesd egy vállalat legjobb pilótáit az újoncoktól, és az egész szerver egyetlen pilótája arany **koronát** visel a jele fölött. A szavak a Vállalat oldalon és a jel súgójában vannak.
 
 **Egy percben**
 
-- A vállalatod egyetlen listát vezet a pilótáiról, elöl a legtöbb PvE-ponttal rendelkező pilótával. A rangod a listán elfoglalt helyedből jön.
-- Csak a vállalat legjobb pilótája a **Senior admirális**. Mindenki más fentről lefelé kerül a másik 23 rangba: kevés pilóta van fent, a legtöbb lent.
-- Minden rang **minimális PvE-pontot** is kér, hogy egy kicsi vagy új vállalat ne oszthassa ki ingyen a legmagasabb rangokat. A Senior admirálisnak 20 000 kell.
-- A rangod mozog. Csökken, ha más pilóták megelőznek, és nő, ha te előzöd meg őket. A csökkenést sosem jelentik be; az új legjobb rangot igen.
-- Csak azok a PvE-ponttal rendelkező pilóták szerepelnek a listán, akik az elmúlt 30 napban repültek. Mindenki más Junior pilóta, amíg újra nem repül.
-- A wipe senki pontjait nem változtatja meg, így a lista nem indul elölről.
+- A vállalatod egyetlen listát vezet a pilótáiról, elöl a legtöbb PvE-ponttal rendelkező pilótával. Minden vállalatnak sajátja van, és a többi vállalat pilótái soha nem számítanak ellened.
+- Te a **legmagasabb olyan rangot kapod, amelynek minimumát a pontjaid elérik, és amelyből még van szabad hely a vállalatodban**.
+- A hat legjobb rangnak vállalatonként meghatározott számú helye van: **Senior admirális 1** (50 000 PvE-ponttól), **Admirális 2** (45 000-tól), **Junior admirális 4** (40 000-tól), **Senior tábornok 8** (30 000-tól), **Tábornok 10** (27 500-tól) és **Junior tábornok 15** (25 000-tól). Az alattuk lévő rangoknál nincs korlát a pilóták számára, és mindegyik 2 500 ponttal kevesebbet kér, mint a fölötte lévő, egészen a Junior százados rang 2 500 pontjáig.
+- **Egyenlő pont, egyenlő rang.** Két azonos pontszámú pilóta soha nem kap különböző rangot. Ha egy rang utolsó helye döntetlen közepére esik, az összes holtversenyes pilóta a jobb rangot kapja, még ha ez túllépi is a helyeket.
+- Csak azok a PvE-ponttal rendelkező pilóták szerepelnek egy listán, akik az elmúlt 30 napban repültek. Mindenki más Junior pilóta, amíg újra nem repül, és nincs helye.
+- A jel fölötti arany **korona** az egész szerver legtöbb PvE-pontjával rendelkező pilótát jelöli: minden vállalat, mindhárom világ.
+- A rangod mozog. A Senior ezredes rangig csak a pontjaidtól függ, ezért csak emelkedhet. A hat legjobb rang a vállalatod többi pilótájával együtt is mozog: csökkenhetnek, ha mások foglalják el a helyeket feletted. A csökkenést sosem jelentik be; az új legjobb rangot igen.
+- A wipe senki pontjait nem változtatja meg, így a listák nem indulnak elölről.
 - A név előtti jel a rang: egy alak a fokozatnak, egy–három jelzés a szintnek.
 
-![All ranks on the Company page: the 24 ranks as a pyramid, each with its share of the company, the pilots who hold it now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
+![The gold crown over a rank symbol, shown on the Generals and the Admirals](../../img/wiki-img/shots/rank-crown.jpg)
 ![The 24 company ranks: eight tiers of three grades, each a symbol of chevrons, bars, stars and a laurel](../../img/wiki-img/shots/ranks-sheet.jpg)
 
 ## Hogyan alakul a rangod {#the-company-ladder}
 
-A vállalatod pilótái, **mindhárom világot együtt véve**, egy sorba állnak, elöl a legtöbb PvE-ponttal rendelkező pilótával. Ha két pilótának ugyanannyi pontja van, az áll elöl, akinek magasabb a szintje, utána a régebbi pilóta. Ez a sor a vállalatod **ranglistája**, és a rangod két dologból jön:
+A vállalatod pilótái, **mindhárom világot együtt véve**, egy sorba állnak, elöl a legtöbb PvE-ponttal rendelkező pilótával. Ez a sor a **ranglista**. Ha két pilótának ugyanannyi pontja van, az áll elöl a listán, akinek magasabb a szintje, utána a régebbi pilóta, de ez csak a lista sorrendjét határozza meg: soha nem ad nekik különböző rangot. A rangod két dologból jön, a pontjaidból és a vállalatod helyeiből:
 
-1. **A helyezésed.** Az 1. helyen álló pilóta a **Senior admirális**, egyedül. A mögötte lévő pilóták a ranglista részarányai szerint kerülnek a másik 23 rangba, és minden rangban negyeddel több pilóta van, mint a fölötte lévőben. Így a pilóták nagyjából egyötöde Junior pilóta, a legjobb tizedük pedig Százados vagy jobb.
-2. **A pontjaid.** Minden rang minimális PvE-pontot kér ([az alábbi táblázat](#the-24-ranks)). A két rang közül az alacsonyabbat viseled: azt, amit a helyezésed ad, és azt, amit a pontjaid elérnek.
+1. **Minden rangnak van minimuma** PvE-pontban ([az alábbi táblázat](#the-24-ranks)). Egy pilóta soha nem kap olyan rangot, amelynek minimumát a pontjai nem érték el.
+2. **A hat legjobb rangnak vannak helyei.** Fentről töltődnek fel, a legjobb rang elsőként: a legjobb pilóták, akik elérik az 50 000 pontot, megkapják a Senior admirális rangot, az egyetlen helyig; a megmaradt pilóták közül a legjobbak, akik elérik a 45 000 pontot, a Admirális rangot kapják, a két helyig; és így tovább egészen a Junior tábornok rangig.
+3. **Mindenki más a legmagasabb olyan rangot kapja, amelyet a pontjai e hat alatt elérnek**, ez legfeljebb Senior ezredes. Az a pilóta, aki eléri egy rang minimumát, de tele találja a helyeit, a legjobb számára nyitott rangra esik vissza.
+4. **A döntetlent soha nem választják szét.** Az azonos pontú pilóták azonos rangot kapnak. Ha egy rang utolsó helye egy döntetlenbe esik, az egész döntetlen a jobb rangot kapja, így egy rangon több pilóta lehet, mint ahány helye van, és soha nem kevesebb, mint amennyinek kellene.
 
-**Egy példa.** Egy vállalat ranglistáján 31 pilóta áll. Csak a helyezés szerint a rangok így alakulnak; az utolsó oszlop a rang által kért legkevesebb PvE-pont.
+**Egy példa.** Egy vállalat tizenkét legjobb pilótája, mindegyik rangjával:
 
-| Helyezés | Rang | Minimális PvE-pont |
-| :---: | :--- | ---: |
-| 1 | Senior admirális | 20 000 |
-| 2 | Senior őrnagy | 4 700 |
-| 3 | Senior százados | 3 000 |
-| 4 | Százados | 2 600 |
-| 5 | Senior hadnagy | 1 900 |
-| 6–7 | Hadnagy | 1 500 |
-| 8 | Junior hadnagy | 1 300 |
-| 9–10 | Senior őrmester | 1 000 |
-| 11–13 | Őrmester | 800 |
-| 14–16 | Junior őrmester | 610 |
-| 17–20 | Senior pilóta | 350 |
-| 21–24 | Pilóta | 150 |
-| 25–31 | Junior pilóta | 0 |
+| Hely | PvE-pont | Rang |
+| :---: | ---: | :--- |
+| 1 | 60 000 | Senior admirális |
+| 2 | 52 000 | Admirális |
+| 3 | 51 000 | Admirális |
+| 4 | 50 500 | Junior admirális |
+| 5 | 44 000 | Junior admirális |
+| 6 | 30 000 | Senior tábornok |
+| 7 | 29 000 | Tábornok |
+| 8 | 28 000 | Tábornok |
+| 9 | 26 000 | Junior tábornok |
+| 10 | 24 999 | Senior ezredes |
+| 11 | 21 000 | Ezredes |
+| 12 | 1 000 | Senior őrmester |
 
-A 31-ből a 16. helyen állsz, 1 800 PvE-ponttal. A Vállalat oldal ezt írja: „Helyezés: 16 / 31”, mellette egy kis címke: „Top 52%”: a vállalatod legjobb 52%-ába tartozol. A 14.–16. hely Junior őrmester, így ez a rangod, bár a pontjaid önmagukban a Hadnagy rangra is elegendők lennének (1 500). Őrmesterré válásodhoz a 13. helyet kell elérned. Az a hely Sable-é, akinek 2 100 PvE-pontja van. Hogy megelőzd, 2 101 kell, vagyis 301-gyel több, és a Vállalat oldal pontosan ezt mondja: „301 PvE-pont kell, hogy megelőzd Sable pilótát, és elérd a következőt: Őrmester”.
-
-A pontok fent is számítanak. Ha ennek a vállalatnak a legjobb pilótájának 12 000 PvE-pontja van, Senior tábornok marad, amíg el nem éri a 20 000-et, bármelyik helyen is áll.
+A 4. helyen 50 500 pont van, ami elég a Senior admirális rangra, de annak az egy helye és a Admirális két helye foglalt, ezért ő Junior admirális. A 7. és 8. helyen 29 000 és 28 000 pont van: mindketten elérik a Tábornok 27 500 pontját, a Senior tábornok 30 000 pontját viszont nem, és a Tábornok rangból van még szabad hely, ezért mindketten Tábornok. Az, akinek 24 999 pontja van, egy ponttal marad le a Junior tábornok rangtól, ezért Senior ezredes, a számára nyitott legjobb rang. Ha az első helyeken két pilótának is 60 000 pontja lenne, mindketten Senior admirális lennének, a következő kettő pedig, 50 000 és 45 000 ponttal, Admirális.
 
 > [!NOTE]
-> A rangokat egész pilótákra szabjuk, ezért egy kis vállalatnak a magasabb rangok egy részében nincs senkije. Egy Ezredeshez olyan vállalat kell, amelynek ranglistáján legalább 46 pilóta áll, egy Tábornokhoz 118, egy Senior tábornokhoz 178, egy Junior admirálishoz 301, egy Admirálishoz 675. Az 1. hely a kivétel: minden vállalatnak van ilyen, és a pilótája Senior admirális, amint megvan a 20 000 PvE-pontja.
+> A helyek csak akkor kötnek, ha egy vállalatban több pilóta éri el egy rang minimumát, mint ahány helye van. Kis vállalatban a rang egyszerűen a pontoké: az a pilóta, aki egyedül van a vállalatában, 21 000 PvE-ponttal Ezredes, 50 000 ponttal Senior admirális.
 
 ## A 24 rang {#the-24-ranks}
 
-Az **arány** a vállalatod azon része, amely pontosan ezt a rangot viseli; a legjobb pilótát, aki egyedül áll a csúcson, nem számoljuk. A **minimum** a rang által kért legkevesebb PvE-pont, bármelyik helyen is állsz.
+A **helyek** azt mondják meg, hány pilóta lehet egy vállalatban pontosan ezen a rangon; a kötőjel azt jelenti, hogy nincs korlát. A **minimum** az a legkevesebb PvE-pont, amelyet a rang kér.
 
-| # | Rang | A vállalat aránya | Minimális PvE-pont |
+| # | Rang | Helyek vállalatonként | Minimális PvE-pont |
 | :---: | :--- | ---: | ---: |
-| 1 | Junior pilóta | 20,1% | 0 |
-| 2 | Pilóta | 16,1% | 150 |
-| 3 | Senior pilóta | 12,9% | 350 |
-| 4 | Junior őrmester | 10,3% | 610 |
-| 5 | Őrmester | 8,24% | 800 |
-| 6 | Senior őrmester | 6,59% | 1 000 |
-| 7 | Junior hadnagy | 5,27% | 1 300 |
-| 8 | Hadnagy | 4,22% | 1 500 |
-| 9 | Senior hadnagy | 3,38% | 1 900 |
-| 10 | Junior százados | 2,7% | 2 200 |
-| 11 | Százados | 2,16% | 2 600 |
-| 12 | Senior százados | 1,73% | 3 000 |
-| 13 | Junior őrnagy | 1,38% | 3 500 |
-| 14 | Őrnagy | 1,11% | 4 100 |
-| 15 | Senior őrnagy | 0,88% | 4 700 |
-| 16 | Junior ezredes | 0,71% | 5 600 |
-| 17 | Ezredes | 0,57% | 6 500 |
-| 18 | Senior ezredes | 0,45% | 7 700 |
-| 19 | Junior tábornok | 0,36% | 8 900 |
-| 20 | Tábornok | 0,29% | 10 000 |
-| 21 | Senior tábornok | 0,23% | 12 000 |
-| 22 | Junior admirális | 0,19% | 14 000 |
-| 23 | Admirális | 0,15% | 17 000 |
-| 24 | Senior admirális | #1 | 20 000 |
+| 1 | Junior pilóta | – | 0 |
+| 2 | Pilóta | – | 150 |
+| 3 | Senior pilóta | – | 350 |
+| 4 | Junior őrmester | – | 610 |
+| 5 | Őrmester | – | 800 |
+| 6 | Senior őrmester | – | 1 000 |
+| 7 | Junior hadnagy | – | 1 300 |
+| 8 | Hadnagy | – | 1 500 |
+| 9 | Senior hadnagy | – | 1 900 |
+| 10 | Junior százados | – | 2 500 |
+| 11 | Százados | – | 5 000 |
+| 12 | Senior százados | – | 7 500 |
+| 13 | Junior őrnagy | – | 10 000 |
+| 14 | Őrnagy | – | 12 500 |
+| 15 | Senior őrnagy | – | 15 000 |
+| 16 | Junior ezredes | – | 17 500 |
+| 17 | Ezredes | – | 20 000 |
+| 18 | Senior ezredes | – | 22 500 |
+| 19 | Junior tábornok | 15 | 25 000 |
+| 20 | Tábornok | 10 | 27 500 |
+| 21 | Senior tábornok | 8 | 30 000 |
+| 22 | Junior admirális | 4 | 40 000 |
+| 23 | Admirális | 2 | 45 000 |
+| 24 | Senior admirális | 1 | 50 000 |
 
 ## Ki van a ranglistán {#who-is-on-the-ladder}
 
@@ -88,19 +90,19 @@ Egy pilóta akkor van a vállalata ranglistáján, ha **mindhárom** igaz:
 - van PvE-pontja: az első lelövés felteszi az új pilótát a ranglistára;
 - repült az elmúlt **30 napban**.
 
-Aki nincs a ranglistán, az mindenhol **Junior pilóta**, ahol rang látszik, nincs helyezése, és nincs rajta a vállalat listáján. A szabály azért van, hogy aki egyszer kipróbálta a játékot és elment, ne üljön örökre az alján, és hogy aki távol van, ne tarthassa hónapokig a legjobb rangot.
+Az a pilóta, aki nincs a ranglistán, mindenhol **Junior pilóta**, ahol rang látszik, nincs helye, és nincs rajta a vállalat listáján. A szabály azért van, hogy az a pilóta, aki egyszer kipróbálta a játékot, majd elment, ne üljön örökre alul, és hogy az a pilóta, aki távol van, ne tarthasson meg hónapokig egyet a kevés legjobb hely közül, sem a koronát.
 
 > [!TIP]
-> Amíg távol vagy, semmi nem vész el. A pontjaid megmaradnak, és amikor újra elindulsz, vagy csak megnyitod a Vállalat oldalt, azokkal a pontokkal kerülsz vissza, amelyekkel elmentél. Ha te voltál a legjobb pilóta, megint te vagy a Senior admirális, és a rangot tartó pilóta egy hellyel lejjebb csúszik.
+> Semmi sem vész el, amíg távol vagy. A pontjaid megmaradnak, és amikor újra elindulsz, vagy csak megnyitod a Vállalat oldalt, azokkal a pontokkal sorolnak vissza, amelyekkel elmentél, abba a rangba, amelyet ezek a pontok és a vállalatod helyei akkor adnak.
 
-Ha vállalatot váltasz, a pontjaid veled mennek, és az új vállalat ranglistáján abba a helyre kerülsz, amelyet ott adnak.
+Ha vállalatot váltasz, a pontjaid veled mennek, és az új vállalat ranglistájára kerülsz, azzal a ranggal, amelyet az ottani helyek adnak.
 
 ## A rangod mozog {#your-rank-moves}
 
-- **Csökken**, ha más pilóták megelőznek. Minden pilóta, aki megelőz, elvesz tőled egy helyet, és ha az a rangod utolsó helye volt, egy szintet esel.
-- **Nő**, ha te előzöl meg másokat, amint a lelövésed beszámít.
-- Akkor is mozoghat, ha pilóták kerülnek a ranglistára vagy lekerülnek róla, mert minden rang a vállalat egy része. A növekvő vállalat sosem ejt vissza olyan pilótát, aki megtartja a helyét; ha pilóták távoznak, egy rang szélén álló pilóta elveszíthet egy szintet.
-- A rangodról csak akkor kapsz értesítést, ha **nő** ([Előléptetések](#promotions)). A visszaesést sosem jelentik be: a jeled egyszerűen megváltozik.
+- **A Senior ezredes rangig csak a pontjaid számítanak.** A rang emelkedik, amikor a pontjaid elérik a következő minimumot, amint a kilövésed beszámít, és egyetlen másik pilóta sem csökkentheti.
+- **A hat legjobb rang a vállalatod többi pilótájával együtt mozog.** Az a pilóta, aki előtted éri el a minimumot, elfoglal egy helyet, és ha a rangod helyei megteltek, a következő számodra nyitott rangra esel vissza. Ha egy pilóta elhagyja a ranglistát vagy a vállalatot, egy hely megnyílik, és a mögötte lévők feljuthatnak rá.
+- Az a pilóta, akinek ugyanannyi pontja van, mint neked, vagy kevesebb, soha nem vesz el tőled helyet.
+- A saját rangodat csak akkor jelentik be neked, amikor **emelkedik**, és csak akkor ([Előléptetések](#promotions)). A csökkenést sosem jelentik be: a jeled egyszerűen megváltozik.
 
 ## Hogyan szerzel PvE-pontot {#how-you-earn-pve-points}
 
@@ -132,7 +134,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 
 Az első öt sor a hétköznapi idegen, a következő hat a három raj hajója. A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
 
-Például egy 4. szintű pilótának, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot pusztított el, 400 + 12 + 300 + 160 + 40 = **912** pontja van. Ez elég egy Őrmester minimumához (800); hogy az-e, a vállalatban elfoglalt helyétől függ.
+Például egy 4. szintű pilóta, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 300 + 160 + 40 = **912** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 
 A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
@@ -151,15 +153,22 @@ A játék a rangot kis jelként rajzolja ki: egy **alak** a fokozatnak, saját s
 | Tábornok | ötágú csillagok | narancs |
 | Admirális | felül nyitott babérkoszorú egy–három csillag körül | rózsaszín |
 
+## A korona {#the-crown}
+
+Az **egész szerver legtöbb PvE-pontjával** rendelkező pilóta egy kis **arany koronát** visel a rangja jele fölött. Az „egész szerver” minden vállalatot és mindhárom világot jelenti, nem csak a tiédet: a szerveren egy korona van, és minden vállalat legjobb pilótájának továbbra is a saját rangja van. Ha több pilótának pontosan ugyanannyi pontja van a csúcson, mindegyik viseli.
+
+Csak a ranglistán lévő pilóta viselheti. Aki 30 napja távol van, nem viseli, akárhány pontja van: a korona a ranglistán lévő legjobb pilótához kerül, és visszakapja, ha újra repül, és előrébb áll. A korona vándorlásáról senkit nem értesítenek, látni lehet. Nem rang, és nem ad semmit: tartsd az egérmutatót egy koronás jelen, és a súgója ezt mondja: „A szerver legjobb PvE-pilótája”.
+
 ## Hol látod őket {#where-you-see-them}
 
-Repülés közben **csak a jelet** látod, soha a szavakat. A pilóta neve előtt áll:
+Repülés közben **csak a jelet** látod, soha nem a szavakat. A pilóta neve előtt áll, fölötte a koronával, mindezeken a helyeken:
 
 - a hajó fölött, a névcímkén és a Célpontablakban;
 - a chaten, annak a pilótának a neve előtt, aki a sort írta;
 - a csoportod listájában és a csoporttársak súgójában a minitérképen;
 - a kill feedben, minden megnevezett pilóta előtt (az idegenek előtt nem);
-- a Dicsőségcsarnokban, a Rangsor ablakban és, nagyban, a pilóta profilján.
+- a Dicsőségcsarnokban, a Rangsor ablakban és, nagyban, a pilóta profilján;
+- a Vállalat oldalon: a saját rangod, a legjobb pilóták listája és az összes rang táblázata.
 
 A **szavak** (Junior őrmester, Százados …) a Vállalat oldalon és egy súgóban vannak: tartsd a mutatót egy jel fölött. Egy jel azt mutatja, hol áll egy pilóta a **saját vállalata** pilótái között: egy másik vállalat Őrnagya a sajátjai között Őrnagy, nem a tieid között. A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) a játék saját századai, és nincs rangjuk.
 
@@ -167,11 +176,11 @@ A **szavak** (Junior őrmester, Százados …) a Vállalat oldalon és egy súg�
 
 Nyisd meg a **Gazdaság › Vállalat** oldalt. A **Vállalati ranglista** szakasz fentről lefelé ezt mutatja:
 
-- **A rangodat**: a jelét és a nevét, a helyezésedet („Helyezés: 16 / 31”) és egy kis címkét a percentilisedről („Top 52%”).
-- **Egy sávot és alatta egy sort**, amely megmondja, mit kér a következő rang. Egy olyan sor, mint „301 PvE-pont kell, hogy megelőzd Sable pilótát, és elérd a következőt: Őrmester”, megnevezi a következő rang utolsó pilótáját: előzd meg, és a rang a tiéd. Ha csak a pontjaid tartanak vissza, a sor azt mondja meg, hány PvE-pont hiányzik még. A Senior admirálisnál ez áll: „A legmagasabb rang.”
-- **A legjobb pilótát** a vállalatodból, a pontjaival.
-- **Minden rang**, összecsukva, amíg ki nem nyitod: a 24 rang piramisként, mindegyik egy sávval, amely olyan széles, mint a rang aránya a vállalatban, mellette három oszloppal: **Arány**, **Pilóták** (hányan viselik most) és **Min. pont**. A saját rangod ki van emelve, és egy sor súgója ezt mondja: „A vállalatod legjobb 10,2%-a legalább Százados rangú.” A táblázat alatti sor megmondja, ki van a ranglistán.
-- **A lista**: a vállalatod legjobb **50 pilótája mindhárom világban**, helyezéssel, jellel, névvel és PvE-ponttal. A saját sorod ki van emelve.
+- **A rangod**: a jele (a koronával, ha a tiéd) és a neve, a helyed („Helyezés: 16 / 31”) és egy kis címke a százalékos helyezéseddel („Top 52%”).
+- **Egy sáv és alatta egy sor**, amely megmondja, mit kér a következő rang. Egy olyan sor, mint „2 500 PvE-pont a következőig: Junior tábornok”, megmondja, mennyi PvE-pont hiányzik még a következő rang minimumához. Ha a következő rangból nincs szabad hely, a sor megnevezi azt a pilótát, aki az utolsót birtokolja: „3 100 PvE-pont kell, hogy megelőzd Sable pilótát, és elérd a következőt: Junior tábornok”. Elég a pontjaival egyenlőt elérni, mert az egyenlő pontok ugyanazt a rangot adják. A Senior admirális rangnál ez áll: „A legmagasabb rang.”
+- **A vállalatod legjobb pilótája**, a pontjaival.
+- **Minden rang**, összecsukva, amíg ki nem nyitod: a 24 rang, a legjobb elöl, vállalatonkénti **Helyek** (kötőjel: nincs korlát) oszloppal, a most birtokló **Pilóták** oszloppal – sávval, amely olyan széles, mint a legtöbb pilótával rendelkező rang –, és a **Min. pont** oszloppal. A saját rangod ki van emelve, és egy sor súgója ezt mondja: „Senior admirális: vállalatonként 1 hely, 50 000 PvE-ponttól.” A táblázat alatti sor megmondja, ki van a ranglistán.
+- **A lista**: a vállalatod legjobb **50 pilótája mindhárom világból**, hellyel, jellel, névvel és PvE-pontokkal. A saját sorod ki van emelve.
 
 - Akinek még nincs PvE-pontja, az nincs a ranglistán és a listán sem: pusztíts el egy idegent, hogy felkerülj. Aki 30 napja távol van, az sincs rajta, amíg újra el nem indul, vagy meg nem nyitja az oldalt.
 - Csak nevek és nyilvános számok látszanak.
@@ -183,10 +192,10 @@ Nyisd meg a **Gazdaság › Vállalat** oldalt. A **Vállalati ranglista** szaka
 
 ## Rangok és a wipe {#ranks-and-the-wipe}
 
-A wipe senki pontjait nem változtatja meg. Megtartja a szintedet, a tapasztalatodat és a lelövési statisztikádat ([Wipe-idővonal](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), a PvE-pontjaidat pedig ezekből számoljuk, így a vállalatod ranglistája a wipe után ugyanabban a sorrendben áll. A rangod azonban már nem egy életre szól: a helyezésedet követi, tehát úgy mozog, ahogy a vállalatod pilótái, és aki 30 napig távol marad, lekerül a ranglistáról, amíg újra nem repül.
+A wipe senki pontjait nem változtatja meg. Megtartja a szintedet, a tapasztalatodat és a kilövési statisztikáidat ([Wipe-idővonal](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), a PvE-pontjaidat pedig ezekből számolják, így a vállalatod ranglistája a wipe után ugyanabban a sorrendben van, és a rangok meg a korona is ugyanazok. A rangod azonban már nem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és aki 30 napig távol marad, elhagyja a ranglistát, amíg újra nem repül.
 
 ## Mennyi ideig tart {#how-long-it-takes}
 
-Ezek **becslések** egy modellből arról, milyen gyorsan vadászik egy pilóta, nem mérések. A pontminimum nem a nehezebb rész: egy pilóta, aki napi két órát vadászik, szezononként 58 órát, egy szezon után nagyjából 21 200 PvE-pontot gyűjt, többet, mint amennyit akár a Senior admirális kér. Vadászórákban a Pilóta rang minimuma az első órán belül megvan, az Őrmesteré 4 óra alatt, a Századosé nagyjából 9 óra alatt, az Őrnagyé 14, az Ezredesé 22, a Tábornoké 32, az Admirálisé 48, a Senior admirálisé pedig 55 óra alatt.
+Ezek **becslések** egy modellből arról, milyen gyorsan vadászik egy pilóta, nem mérések. Az a pilóta, aki napi két órát vadászik, szezononként 58 órát, egy szezon után nagyjából 21 200 PvE-pontot gyűjt: Ezredes. Vadászóórákban a minimumok: Pilóta az első órán belül, Őrmester 4 óra, Százados 18, Őrnagy 38, Ezredes 55, Junior tábornok 67, Tábornok 73, Senior tábornok 78, Junior admirális 101, Admirális 113, Senior admirális 124.
 
-A rangodat a helyezésed dönti el, és a többi pilóta is vadászik. Egy 31 pilótás vállalatban csak a legjobb négy lehet Százados vagy jobb, akárhány pontja is van a többinek. A pontminimum megakadályozza, hogy egy fiatal vállalat szétossza a legmagasabb rangokat; a helyezés kicsin tartja egy régi vállalat csúcsát.
+Egy tipikus aktív pilóta tehát a második szezonjában éri el a helyekkel rendelkező rangokat. Hogy kap-e helyet, azon múlik, mit tesznek a vállalatának többi pilótái, akik szintén vadásznak: egy rang helyei csak akkor számítanak, ha többen érik el a minimumát, mint ahány helye van. Addig a rang egyszerűen a pontjaidé.

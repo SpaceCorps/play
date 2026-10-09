@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 986c641910ea7fae -->
+<!-- wiki-i18n source: be279a1fbb360e1d -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -19,7 +19,7 @@ Cada temporada va del día 1 al 30 (el Reinicio empieza con su cuenta regresiva 
 | **Auge Tecnológico** | Días 11–18 | Evento 2 | Aún sin efectos especiales: los rendimientos y los alienígenas son los mismos que en cualquier otra fase. |
 | **Juegos de Guerra** | Días 19–25 | Evento 3 | Aún sin efectos especiales: el PvP funciona como en todas las fases posteriores al Protocolo de paz. |
 | **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar y bloquear la carga que se llevan antes de la erupción. |
-| **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
+| **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace, y todos los [clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) se disuelven. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
 
 Aparte del propio reinicio, solo tres cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y perfil y en el Panel del juego, pero ninguno da todavía recompensas, apariciones ni bonificaciones especiales propias.
 
@@ -75,7 +75,7 @@ Antes de que termine la temporada, debes hacer clic en **Confirmar y bloquear** 
 
 ## Mundos: Alpha, Beta y Gamma {#worlds-alpha-beta-and-gamma}
 
-SpaceCorps tiene tres **mundos**. Cada uno es una copia separada de toda la galaxia: todos los sectores, con sus propios alienígenas, [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), carga, chat y pilotos. Solo vuelas en tu propio mundo y solo te cruzas con sus pilotos; tu cuenta, tus objetos, tu clan y las clasificaciones son comunes a los tres.
+SpaceCorps tiene tres **mundos**. Cada uno es una copia separada de toda la galaxia: todos los sectores, con sus propios alienígenas, [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), carga, chat y pilotos. Solo vuelas en tu propio mundo y solo te cruzas con sus pilotos; tu cuenta, tus objetos y las clasificaciones de pilotos son comunes a los tres. Un clan pertenece a un mundo, solo admite a sus pilotos y se disuelve en el reinicio ([Clanes y mundos](/wiki/03-Mechanics/Clans.md#clans-and-worlds)).
 
 | Mundo | Riesgo | Fuerza alienígena | Paga por derribos y misiones | PvP |
 | :--- | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Así funcionan los mundos:
 
 El Reinicio se lleva tus naves y tus objetos (salvo tu nave activa con todo lo que lleva equipado, tu Alijo de Transporte y tus drones) y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre, salvo las misiones de nivel que la actualización 0.4.10 rehízo: 64 de ellas se ofrecen una vez más ([Misiones](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
-**Clanes y rangos.** Los puntos, los niveles de mejora y las líneas diarias de un clan empiezan de nuevo en cada reinicio, así que cada temporada es una nueva carrera por las mejoras al máximo; el clan en sí, sus miembros, su banco y su impuesto se quedan ([Clanes](/wiki/03-Mechanics/Clans.md#clan-points-and-the-wipe)). Tus puntos de clasificación PvE también se quedan, así que un reinicio no te mueve en la clasificación de tu corporación: tu rango sigue tu puesto allí, no la temporada ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
+**Clanes y rangos.** El reinicio disuelve todos los clanes, con su Tesoro de la flota, sus avisos, su registro, sus tratados, sus puntos y sus niveles de mejora, así que cada temporada es una nueva carrera por fundar un clan y llenar sus mejoras; los créditos que un clan te ha pagado se quedan, y tu cupo de donaciones también ([Clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Líderes y colíderes: pagad el Tesoro de la flota antes de que termine la cuenta atrás. Tus puntos de clasificación PvE también se quedan, así que un reinicio no te mueve en la clasificación de tu corporación: tu rango sigue tu puesto allí, no la temporada ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
 ### La tienda de mejoras permanentes {#the-permanent-buff-store}
 Puedes gastar los PR acumulados en mejoras permanentes que se conservan en todas las temporadas para siempre. Estas mejoras se acumulan y dan importantes bonificaciones pasivas:

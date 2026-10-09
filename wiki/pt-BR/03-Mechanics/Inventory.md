@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
@@ -17,6 +17,7 @@ Ao contrário dos jogos espaciais tradicionais, o SpaceCorps tem slots de equipa
   - **Slots não atribuídos/legados**: os itens colocados aqui não contribuem para os atributos.
   - **O empilhamento também perde força**: escudos e motores são ordenados do mais forte ao mais fraco (pelo que cada um conta depois da parcela do seu slot), e a parcela da faixa é então multiplicada pela da posição deles: do 1º ao 4º contam por inteiro, o 5º, o 6º e o 7º contam 85%, 70% e 55%, e do 8º em diante contam 50% nos escudos e 25% nos motores. Veja [Escudos](/wiki/03-Mechanics/Shields.md) e [Velocidade](/wiki/03-Mechanics/Speed.md).
 - **Slots extras**: para itens utilitários especializados, como os drones de reparo. A Protos, a Kitefin, a Ostirion e a Nomad têm dois; a Paragon, a Ironclad, a Wraith e a Storm, que você fabrica, têm três. As Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) dão 3, 5 ou 7 a mais.
+- **Slots de blindagem**: para a [blindagem de casco](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), que soma casco. Só as quatro naves que você fabrica os têm (a Paragon 5, a Storm 7, a Ironclad 15 e a Wraith 9), cada um bloqueado até você pesquisá-lo no Skylab, e são iguais nas duas configurações.
 
 ## Ordem do inventário {#inventory-order}
 

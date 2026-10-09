@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: Sebesség -->
 # Sebességszámítás {#speed-calculation}
 
@@ -9,6 +9,8 @@ A sebesség határozza meg, milyen gyorsan mozog a hajód az űrtérképen: ezen
 A hajód végső sebességét a szerver a következő képlettel számolja ki:
 
 \[\text{Végső sebesség} = (\text{A hajó alapsebessége} + \text{A hajtóművek összsebessége}) \times (1,0 + \text{Összes sebességbónusz-százalék})\]
+
+A [hajódizájn](/wiki/03-Mechanics/Ship-Designs.md) az első tagot változtatja meg (a THUNDER alapsebessége 40-nel nagyobb, a DUMA-é 20-szal kisebb), a NOTSUM és a RECON pedig a végső sebességet még egy tényezővel szorozza, +2%-kal és +5%-kal.
 
 ### 1. Tényleges hajtóműsebesség {#1-effective-engine-speed}
 

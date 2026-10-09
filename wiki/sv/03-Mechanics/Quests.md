@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e700f4f20ab5a830 -->
+<!-- wiki-i18n source: c09d6729ddb6f774 -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -17,7 +17,7 @@ De flesta uppdrag är inte längre ”förstör så här många av dessa”: de 
 - **Kedjor.** Stegen i ett uppdrag med märket **I ordning** öppnas ett efter ett, och bara det öppna steget räknas.
 - **Fyra sorters steg vid sidan av nedskjutningar.** Ett **uppdragsföremål** som bara tappas åt dig och som du kör till Mission Control, en **punkt att besöka**, en **vistelse** på några minuter i en sektor och, från säsongsdag 4, en **svärm** att jaga.
 - **Villkor.** Ett steg eller ett helt uppdrag kan säga ”skrovförlust högst N poäng” eller ”utan att förlora skeppet”. Bryter du det börjar det steget, eller uppdraget, om. Inget går förlorat för alltid.
-- **Utmaningslinjen.** Femtio mycket svåra uppdrag i fem steg om tio, från pilotnivå 3. Steg I betalar sammanlagt 9 355 000 krediter, 70 125 Thulium och 435 500 XP, som grundvärden: de betalar som ett nivåuppdrag ([Belöningar](#rewards)).
+- **Utmaningslinjen.** Femtio mycket svåra uppdrag i fem steg om tio, från pilotnivå 3. De betalar efter arbetet: en nedskjutning är värd vad steg I betalar för den, och 10 % mer för varje steg upp, och ett uppdrag betalar högst 100 000 Thulium. Steg I betalar sammanlagt 9 355 000 krediter, 70 125 Thulium och 2 177 500 XP, som grundvärden ([Utmaningslinjen](#challenge-line)).
 - **Gjorda om i 0.4.10.** 64 av nivåuppdragen är nya versioner. Om du hade gjort ett av dem erbjuds det igen, med full belöning ([detaljer](#reworked-missions)).
 
 ## Mission Control
@@ -143,7 +143,7 @@ Gränserna anges i poäng, för det skepp du flyger på den nivån. Gränsen fö
 - **Tungt kurirjobb** (nivå 4, 40 minuter). Förstör 10 Phantasm i `x-3`, nå punkterna 13 400 / 5 000 och 13 600 / 1 900, ta sedan Manifest från en Bulwark (25 % per nedskjutning, säkert vid den femte) och ta den till Mission Control med en skrovförlust på högst 17 000 poäng och utan att förlora skeppet. Betalar 10 500 XP, 52 000 krediter och 315 Thulium.
 - **Kupekrossaren** (nivå 3:s specialuppdrag, från säsongsdag 4). Förstör 3 Boss Seekers och 12 Seeker Slaves i valfri sektor och 6 Phantasm i `x-3`, i valfri ordning. Betalar 6 800 XP, 54 500 krediter, 170 Thulium, en Quantum Laser II, 10 Ship Fragments och 200 Ultra Core.
 - **Stora rundturen** (nivå 8, 25 minuter, utan att förlora skeppet). Flyg till 8 000 / 4 500 i `x-4`, sedan till 6 000 / 4 500 i centrum, förstör 2 Goombahs i en rivaliserande koncerns `x-4` och flyg till dess hjärta vid 8 000 / 4 500. [Ringportalerna](/wiki/01-General/Spacemap%20Travel.md#jump-links) och centrum leder båda dit. Betalar 66 000 XP, 165 000 krediter och 1 320 Thulium.
-- **Orörd** (Utmaning). Förstör 25 Phantasm i `x-3` i rad och förlora högst 39 000 skrovpoäng. Går du över gränsen går räknaren tillbaka till 0. Betalar, som grundvärde, 44 000 XP, 855 000 krediter, 6 405 Thulium, 2 370 heder, en Ancient Control Unit och 5 timmar Shield Wall Booster II.
+- **Orörd** (Utmaning). Förstör 25 Phantasm i `x-3` i rad och förlora högst 39 000 skrovpoäng. Går du över gränsen går räknaren tillbaka till 0. Betalar, som grundvärde, 220 000 XP, 855 000 krediter, 6 405 Thulium, 2 370 heder, en Ancient Control Unit och 5 timmar Shield Wall Booster II.
 
 ## Station-uppdrag {#station-missions}
 
@@ -164,6 +164,11 @@ Från **pilotnivå 3** öppnar fliken **Utmaningar** i Mission Control en andra 
 - **Tio i valfri ordning.** De tio uppdragen i ett steg är öppna samtidigt. **Steg II** öppnas när du har hämtat alla tio i steg I, och **steg III** när du har hämtat alla tio i steg II. **Steg IV och V** öppnas när du har hämtat **nio av de tio** före dem: **Dormant-gryning** (steg III) och **Dormant-skymning** (steg IV) är uppdrag för [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md), som kräver en besättning, så de är valfria.
 - **Tre samtidigt**, vid sidan av dina 5 nivåuppdrag och 3 Station-uppdrag.
 - **De betalar som ett nivåuppdrag.** Belöningen i tabellerna är **grundvärdet**, betalat en gång: din världs bonus, boosters, Premium-XP och din klans kredit- och Thulium-bonusar multiplicerar det, som [Belöningar](#rewards) förklarar med ett exempel. **Heder betalas bara av steg I.** De överlever wipen, och de räknas inte för wipepoängen för uppdrag.
+- **Betalningen följer arbetet.** I en Utmaning är en nedskjutning av en sorts utomjording värd vad steg I betalar för den, och **10 % mer för varje steg upp** (steg II ×1,10, steg III ×1,21, steg IV ×1,331, steg V ×1,4641). Så de 150 Bulwark i **Bulwark-muren** betalar 19 585 Thulium i steg I, och de 400 i **Bulwark-storm** i steg II betalar 57 450: en Bulwark är värd 10 % mer där. Vistelser, rundor och rena genomföranden följer samma regel mot uppdraget av sin sort ett steg lägre.
+- **Ett tak på 100 000 Thulium per uppdrag.** De största jakterna skulle betala mer. När en belöning kommer upp i mer än 100 000 Thulium kortas hela belöningen ner tillsammans tills dess Thulium är exakt 100 000: krediter, heder och föremål krymper i samma proportion. Tio uppdrag kortas: **Goombah-gisslet**, **Bulwark-plågan**, **Goombah-krossen**, **Bulwark-havet**, **Tiotusen Seeker**, **Tiotusen Phantasm**, **Goombah-legionen**, **Crystalys-väldet**, **Piratthronen** och **Linjens väktare**. De andra fyrtio betalar fullt.
+- **XP: fem gånger.** XP:n i alla femtio uppdrag är exakt 5 gånger vad de betalade före 0.4.16, vad taket än kortar.
+- **Föremålen växer med pengarna.** Power Cores, Reinforced Hull Plates och Cataclysite växer med belöningens krediter och Thulium. Orvium och Velkonite Reinforced Plates och Ancient Control Units ligger kvar på sina gamla mängder, och boostertimmarna är desamma.
+- **Dina nedskjutningar betalar ovanpå.** Utomjordingarna du förstör betalar fortfarande sina egna krediter, sitt Thulium och sin heder som förr; belöningen kommer utöver det.
 - **Nedskjutningar räknas två gånger.** En nedskjutning räknas för varje Utmaning som kräver den **och** för det ena nivåuppdrag den räknas för, så ett tusen-nedskjutningsuppdrag svälter aldrig dina nivåuppdrag.
 - **Grupper.** En nedskjutning räknas för den pilot som får betalt för den och för varje gruppmedlem inom **4 000 enheter** från vraket som har avfyrat en laser eller en raket de senaste 15 sekunderna. Varje pilot för sin egen räkning.
 - **Vistelser kräver skott, utom i centrum.** En vistelse i `x-3`, i `x-4` eller i en rivals `x-4` räknas bara medan du har avfyrat ett skott de senaste 60 sekunderna, så ett parkerat eller cirkulerande skepp tjänar ingenting. Vistelserna i farosektorerna (**Centrumvakten**, **Kantvakten**, **Sista vakten**), där ingen utomjording lever, räknas för ett skepp som har flugit 300 enheter eller avfyrat ett skott de senaste 30 sekunderna, som nivåuppdragens vistelser.
@@ -180,13 +185,13 @@ De tio uppdragen i ett steg betalar så här **sammanlagt, som grundvärden** (d
 
 | Steg | Krediter | Thulium | XP | Heder |
 | :--- | --: | --: | --: | --: |
-| Steg 1 · Prövningen | 9 355 000 | 70 125 | 435 500 | 26 140 |
-| Steg 2 · Järngränsen | 6 200 000 | 46 450 | 471 000 | 0 |
-| Steg 3 · Centrum | 11 995 000 | 90 020 | 887 000 | 0 |
-| Steg 4 · Avgrunden | 26 215 000 | 196 615 | 1 880 500 | 0 |
-| Steg 5 · Legender | 48 390 000 | 362 865 | 3 110 000 | 0 |
+| Steg 1 · Prövningen | 9 355 000 | 70 125 | 2 177 500 | 26 140 |
+| Steg 2 · Järngränsen | 26 975 000 | 202 910 | 2 355 000 | 0 |
+| Steg 3 · Centrum | 46 665 000 | 338 600 | 4 435 000 | 0 |
+| Steg 4 · Avgrunden | 63 270 000 | 410 335 | 9 402 500 | 0 |
+| Steg 5 · Legender | 111 595 000 | 723 915 | 15 550 000 | 0 |
 
-[Tabellerna](#challenge-missions-table) har varje tal för varje uppdrag.
+Alla femtio tillsammans betalar som grundvärde 257 860 000 krediter, 1 745 885 Thulium och 33 920 000 XP. [Tabellerna](#challenge-missions-table) har varje tal för varje uppdrag.
 
 > [!TIP]
 > Anta de stora jakterna så fort du når nivå 3: Seeker-pest och Phantasm-flod räknar varje nedskjutning, i vilken sektor som helst, från det ögonblick du antar dem, vid sidan av dina nivåuppdrag.
@@ -231,7 +236,7 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 
 - Erfarenhet, krediter, Thulium och heder multipliceras med den [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) uppdraget gjordes i: 1× i Alpha, 2× i Beta, 3× i Gamma. Dina boosters (Experience Booster, Honor Booster) lägger till dem, och Premium fördubblar erfarenheten. Din [klans](/wiki/03-Mechanics/Clans.md) Thulium- och kreditbonusar läggs till krediterna och Thulium i varje uppdrag du hämtar: nivå-, Station- och Utmaningsuppdrag.
 - **Station-uppdrag och Utmaningar betalar som nivåuppdrag.** Talen som är tryckta i deras tabeller är **grundvärdet**. En Utmaning betalas efter världen du gjorde den i, som ett nivåuppdrag (den lägsta, om den sträcker sig över två). Ett Station-uppdrag har ingen egen värld: det betalar efter den värld du flyger i när du hämtar det.
-- **Ett exempel.** **Seeker-pest** (Utmaning) har grundvärdet 1 100 000 krediter, 8 260 Thulium, 31 500 XP och 3 060 heder. Gjord och hämtad i Gamma utan något påslaget betalar den 3 300 000 krediter, 24 780 Thulium, 94 500 XP och 9 180 heder. Med din klans kredit- och Thulium-bonusar på max (+10 % vardera) betalar den 3 630 000 krediter och 27 258 Thulium.
+- **Ett exempel.** **Seeker-pest** (Utmaning) har grundvärdet 1 100 000 krediter, 8 260 Thulium, 157 500 XP och 3 060 heder. Gjord och hämtad i Gamma utan något påslaget betalar den 3 300 000 krediter, 24 780 Thulium, 472 500 XP och 9 180 heder. Med din klans kredit- och Thulium-bonusar på max (+10 % vardera) betalar den 3 630 000 krediter och 27 258 Thulium.
 - **Klanbankens tak.** Hur stor en belöning än är kan en pilot skicka högst 1 000 000 krediter till [klaner](/wiki/03-Mechanics/Clans.md#2-donations) under valfria 24 timmar.
 - **Föremål och boostertid är desamma i varje värld.** Föremål går till ditt inventarie, boostertimmar läggs till det boostern har kvar, och ammunitionen är redo att avfyras även om du hämtar belöningen under flygning.
 - **Föremål är säljbara.** Det ett uppdrag betalar ut i föremål (utrustning, ammunition, raketer, material, Reinforced Plates) kan säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) från nivå 5. Utmaningsuppdragen betalar ingen utrustning: deras föremål är material och Reinforced Plates.
@@ -431,7 +436,7 @@ Ett uppdragsföremål står som ”kan tappa det: 15 % per nedskjutning, säker
 
 ### Utmaningar {#challenge-missions-table}
 
-50 uppdrag för piloter på nivå 3 och uppåt, sammanlagt 6 784 000 XP. Vart och ett betalar en gång. Siffrorna är grunden: världsbonus, boosters, Premium-XP och flottbonusar läggs till, precis som för ett nivåuppdrag.
+50 uppdrag för piloter på nivå 3 och uppåt, sammanlagt 33 920 000 XP. Vart och ett betalar en gång. Siffrorna är grunden: världsbonus, boosters, Premium-XP och flottbonusar läggs till, precis som för ett nivåuppdrag.
 
 #### Steg 1 · Prövningen {#challenge-tier-1}
 
@@ -439,16 +444,16 @@ Tio uppdrag i valfri ordning. Nästa steg öppnas när alla tio är hämtade.
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker-pest | Strid | Förstör Seeker ×1 000 | – | 31 500 | 1 100 000 | 8 260 | 3 060 | Power Core ×6, Experience Booster, 5 h |
-| Phantasm-flod | Strid | Förstör Phantasm ×1 000 | – | 65 500 | 1 605 000 | 12 035 | 4 460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 h |
-| Bulwark-muren | Strid | Förstör Bulwark ×150 | – | 103 000 | 2 610 000 | 19 585 | 7 420 | Ancient Control Unit ×2 |
-| Orörd | Operationer | Förstör Phantasm ×25 i x-3 (skrovförlust högst 39 000 poäng) | – | 44 000 | 855 000 | 6 405 | 2 370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 h |
-| Kupejakt | Strid | Förstör Boss Seeker ×40 (från säsongsdag 4) | – | 11 000 | 355 000 | 2 660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
-| Spejarjakt | Strid | Förstör Pirate Scout ×40 (från säsongsdag 4) | – | 27 500 | 425 000 | 3 170 | 1 170 | Power Core ×4, Hull Plating Booster II, 5 h |
-| Järnvakan | Spaning | Stanna 45 min i sträck i x-3 | – | 37 500 | 540 000 | 4 030 | 1 490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
-| Centrumets spetsrodd | Spaning | Flyg till punkten 8 000 / 4 500 i x-4 → Förstör Bulwark ×4 i x-4 → Flyg till punkten 6 000 / 4 500 i DS-x → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 1 500 / 1 500 i x-1 (hela uppdraget: utan att förlora skeppet) | – | 28 000 | 405 000 | 3 025 | 1 120 | Velkonite Reinforced Plate ×3 |
-| Konvoj | Operationer | Förstör Bulwark ×5 i x-4 → Ta Convoy Core från punkten 9 500 / 6 200 i x-4 till Mission Control (skrovförlust högst 17 000 poäng) (utan att förlora skeppet) | – | 74 500 | 1 075 000 | 8 065 | 2 990 | Orvium Reinforced Plate ×1 |
-| Hundra på en timme | Operationer | Förstör Phantasm ×100 i x-3 | 1 h | 13 000 | 385 000 | 2 890 | 1 070 | Honor Booster, 5 h |
+| Seeker-pest | Strid | Förstör Seeker ×1 000 | – | 157 500 | 1 100 000 | 8 260 | 3 060 | Power Core ×6, Experience Booster, 5 h |
+| Phantasm-flod | Strid | Förstör Phantasm ×1 000 | – | 327 500 | 1 605 000 | 12 035 | 4 460 | Reinforced Hull Plate ×20, Laser Damage Booster I, 5 h |
+| Bulwark-muren | Strid | Förstör Bulwark ×150 | – | 515 000 | 2 610 000 | 19 585 | 7 420 | Ancient Control Unit ×2 |
+| Orörd | Operationer | Förstör Phantasm ×25 i x-3 (skrovförlust högst 39 000 poäng) | – | 220 000 | 855 000 | 6 405 | 2 370 | Ancient Control Unit ×1, Shield Wall Booster II, 5 h |
+| Kupejakt | Strid | Förstör Boss Seeker ×40 (från säsongsdag 4) | – | 55 000 | 355 000 | 2 660 | 990 | Power Core ×4, Loot Luck Booster, 3 h |
+| Spejarjakt | Strid | Förstör Pirate Scout ×40 (från säsongsdag 4) | – | 137 500 | 425 000 | 3 170 | 1 170 | Power Core ×4, Hull Plating Booster II, 5 h |
+| Järnvakan | Spaning | Stanna 45 min i sträck i x-3 | – | 187 500 | 540 000 | 4 030 | 1 490 | Velkonite Reinforced Plate ×3, Shield Regen Booster, 5 h |
+| Centrumets spetsrodd | Spaning | Flyg till punkten 8 000 / 4 500 i x-4 → Förstör Bulwark ×4 i x-4 → Flyg till punkten 6 000 / 4 500 i DS-x → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 1 500 / 1 500 i x-1 (hela uppdraget: utan att förlora skeppet) | – | 140 000 | 405 000 | 3 025 | 1 120 | Velkonite Reinforced Plate ×3 |
+| Konvoj | Operationer | Förstör Bulwark ×5 i x-4 → Ta Convoy Core från punkten 9 500 / 6 200 i x-4 till Mission Control (skrovförlust högst 17 000 poäng) (utan att förlora skeppet) | – | 372 500 | 1 075 000 | 8 065 | 2 990 | Orvium Reinforced Plate ×1 |
+| Hundra på en timme | Operationer | Förstör Phantasm ×100 i x-3 | 1 h | 65 000 | 385 000 | 2 890 | 1 070 | Honor Booster, 5 h |
 
 #### Steg 2 · Järngränsen {#challenge-tier-2}
 
@@ -456,16 +461,16 @@ Tio uppdrag i valfri ordning. Nästa steg öppnas när alla tio är hämtade.
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Seeker-farsot | Strid | Förstör Seeker ×2 500 | – | 52 000 | 520 000 | 3 900 | 0 | Power Core ×8, Experience Booster, 6 h |
-| Phantasm-syndaflod | Strid | Förstör Phantasm ×2 500 | – | 85 500 | 855 000 | 6 420 | 0 | Reinforced Hull Plate ×25, Laser Damage Booster I, 6 h |
-| Bulwark-storm | Strid | Förstör Bulwark ×400 | – | 71 500 | 1 255 000 | 9 405 | 0 | Cataclysite ×40 |
-| Goombah-jakt | Strid | Förstör Goombah ×100 | – | 58 500 | 1 135 000 | 8 495 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
-| Kupejakt II | Strid | Förstör Boss Seeker ×100 (från säsongsdag 4) | – | 20 000 | 200 000 | 1 485 | 0 | Power Core ×6, Resource Magnet Booster, 6 h |
-| Spejarjakt II | Strid | Förstör Pirate Scout ×120 (från säsongsdag 4) | – | 25 500 | 290 000 | 2 165 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 h |
-| Piraternas uppgörelse | Strid | Förstör Pirate Boss ×3 (från säsongsdag 4) | – | 11 000 | 285 000 | 2 125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 h |
-| Järnvakan II | Spaning | Stanna 90 min i sträck i x-4 | – | 57 500 | 575 000 | 4 320 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
-| Konvoj II | Operationer | Förstör Bulwark ×8 i x-4 → Ta Iron Core från punkten 12 500 / 6 000 i x-4 till Mission Control (skrovförlust högst 17 000 poäng) (utan att förlora skeppet) | – | 70 500 | 735 000 | 5 520 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 h |
-| Orörd II | Operationer | Förstör Bulwark ×15 i x-4 (skrovförlust högst 60 000 poäng) | – | 19 000 | 350 000 | 2 615 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 h |
+| Seeker-farsot | Strid | Förstör Seeker ×2 500 | – | 260 000 | 3 025 000 | 22 715 | 0 | Power Core ×47, Experience Booster, 6 h |
+| Phantasm-syndaflod | Strid | Förstör Phantasm ×2 500 | – | 427 500 | 4 415 000 | 33 100 | 0 | Reinforced Hull Plate ×129, Laser Damage Booster I, 6 h |
+| Bulwark-storm | Strid | Förstör Bulwark ×400 | – | 357 500 | 7 660 000 | 57 450 | 0 | Cataclysite ×245 |
+| Goombah-jakt | Strid | Förstör Goombah ×100 | – | 292 500 | 5 745 000 | 43 090 | 0 | Orvium Reinforced Plate ×4, Loot Luck Booster, 4 h |
+| Kupejakt II | Strid | Förstör Boss Seeker ×100 (från säsongsdag 4) | – | 100 000 | 980 000 | 7 315 | 0 | Power Core ×30, Resource Magnet Booster, 6 h |
+| Spejarjakt II | Strid | Förstör Pirate Scout ×120 (från säsongsdag 4) | – | 127 500 | 1 405 000 | 10 465 | 0 | Velkonite Reinforced Plate ×8, Hull Plating Booster I, 6 h |
+| Piraternas uppgörelse | Strid | Förstör Pirate Boss ×3 (från säsongsdag 4) | – | 55 000 | 425 000 | 3 980 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 6 h |
+| Järnvakan II | Spaning | Stanna 90 min i sträck i x-4 | – | 287 500 | 1 190 000 | 8 870 | 0 | Velkonite Reinforced Plate ×6, Shield Regen Booster, 6 h |
+| Konvoj II | Operationer | Förstör Bulwark ×8 i x-4 → Ta Iron Core från punkten 12 500 / 6 000 i x-4 till Mission Control (skrovförlust högst 17 000 poäng) (utan att förlora skeppet) | – | 352 500 | 1 185 000 | 8 875 | 0 | Orvium Reinforced Plate ×3, Hull Plating Booster II, 8 h |
+| Orörd II | Operationer | Förstör Bulwark ×15 i x-4 (skrovförlust högst 60 000 poäng) | – | 95 000 | 945 000 | 7 050 | 0 | Ancient Control Unit ×1, Laser Damage Booster II, 8 h |
 
 #### Steg 3 · Centrum {#challenge-tier-3}
 
@@ -473,16 +478,16 @@ Tio uppdrag i valfri ordning. Nästa steg öppnas när nio är hämtade: uppdrag
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah-gisslet | Strid | Förstör Goombah ×250 | – | 134 500 | 2 380 000 | 17 855 | 0 | Cataclysite ×50, Experience Booster, 8 h |
-| Bulwark-plågan | Strid | Förstör Bulwark ×800 | – | 132 000 | 2 080 000 | 15 615 | 0 | Power Core ×10, Laser Damage Booster I, 8 h |
-| Phantasm-oceanen | Strid | Förstör Phantasm ×5 000 | – | 180 000 | 1 800 000 | 13 500 | 0 | Reinforced Hull Plate ×30, Resource Magnet Booster, 8 h |
-| Crystalys-prövningen | Strid | Förstör Crystalys ×10 | – | 18 000 | 250 000 | 1 880 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
-| Piraternas fördärv | Strid | Förstör Pirate Boss ×10 (från säsongsdag 4) | – | 29 000 | 775 000 | 5 805 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
-| Dormant-gryning | Strid | Förstör Dormant Force ×3 (från säsongsdag 4) | – | 46 000 | 750 000 | 5 625 | 0 | Cataclysite ×40, Shield Wall Booster I, 8 h |
-| Centrumvakten | Spaning | Stanna 60 min i sträck i DS-x | – | 98 000 | 980 000 | 7 365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
-| Fyra hörn | Spaning | Flyg till punkten 3 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 15 000 i DS-x → Flyg till punkten 3 000 / 15 000 i DS-x → Flyg till punkten 1 500 / 1 500 i x-1 (hela uppdraget: skrovförlust högst 104 000 poäng) (hela uppdraget: utan att förlora skeppet) | – | 98 000 | 980 000 | 7 365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 h |
-| Konvoj III | Operationer | Förstör Goombah ×4 i x-4 → Ta Centre Core från punkten 13 000 / 3 000 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 119 000 | 1 260 000 | 9 460 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Orörd III | Operationer | Förstör Goombah ×8 i x-4 (skrovförlust högst 350 000 poäng) | – | 32 500 | 740 000 | 5 550 | 0 | Power Core ×8, Laser Damage Booster II, 10 h |
+| Goombah-gisslet | Strid | Förstör Goombah ×250 | – | 672 500 | 13 335 000 | 100 000 | 0 | Cataclysite ×281, Experience Booster, 8 h |
+| Bulwark-plågan | Strid | Förstör Bulwark ×800 | – | 660 000 | 13 330 000 | 100 000 | 0 | Power Core ×65, Laser Damage Booster I, 8 h |
+| Phantasm-oceanen | Strid | Förstör Phantasm ×5 000 | – | 900 000 | 9 715 000 | 72 815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8 h |
+| Crystalys-prövningen | Strid | Förstör Crystalys ×10 | – | 90 000 | 3 160 000 | 12 640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
+| Piraternas fördärv | Strid | Förstör Pirate Boss ×10 (från säsongsdag 4) | – | 145 000 | 1 560 000 | 14 585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
+| Dormant-gryning | Strid | Förstör Dormant Force ×3 (från säsongsdag 4) | – | 230 000 | 1 260 000 | 6 310 | 0 | Cataclysite ×54, Shield Wall Booster I, 8 h |
+| Centrumvakten | Spaning | Stanna 60 min i sträck i DS-x | – | 490 000 | 980 000 | 7 365 | 0 | Velkonite Reinforced Plate ×10, Shield Regen Booster, 8 h |
+| Fyra hörn | Spaning | Flyg till punkten 3 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 15 000 i DS-x → Flyg till punkten 3 000 / 15 000 i DS-x → Flyg till punkten 1 500 / 1 500 i x-1 (hela uppdraget: skrovförlust högst 104 000 poäng) (hela uppdraget: utan att förlora skeppet) | – | 490 000 | 980 000 | 7 365 | 0 | Orvium Reinforced Plate ×4, Hull Plating Booster II, 10 h |
+| Konvoj III | Operationer | Förstör Goombah ×4 i x-4 → Ta Centre Core från punkten 13 000 / 3 000 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 595 000 | 1 305 000 | 9 765 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Orörd III | Operationer | Förstör Goombah ×8 i x-4 (skrovförlust högst 350 000 poäng) | – | 162 500 | 1 040 000 | 7 755 | 0 | Power Core ×12, Laser Damage Booster II, 10 h |
 
 #### Steg 4 · Avgrunden {#challenge-tier-4}
 
@@ -490,16 +495,16 @@ Tio uppdrag i valfri ordning. Nästa steg öppnas när nio är hämtade: uppdrag
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys-utrensning | Strid | Förstör Crystalys ×50 | – | 122 000 | 2 575 000 | 19 320 | 0 | Cataclysite ×60, Experience Booster, 10 h |
-| Goombah-krossen | Strid | Förstör Goombah ×500 | – | 233 500 | 3 345 000 | 25 105 | 0 | Power Core ×12, Laser Damage Booster I, 10 h |
-| Piraternas undergång | Strid | Förstör Pirate Boss ×25 (från säsongsdag 4) | – | 99 500 | 2 445 000 | 18 325 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
-| Dormant-skymning | Strid | Förstör Dormant Force ×10 (från säsongsdag 4) | – | 180 500 | 2 770 000 | 20 780 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Kantvandringen | Spaning | Flyg till punkten 16 000 / 5 300 i DS-4 → Flyg till punkten 19 700 / 9 000 i DS-4 → Flyg till punkten 16 000 / 12 700 i DS-4 → Flyg till punkten 12 300 / 9 000 i DS-4 (hela uppdraget: skrovförlust högst 76 000 poäng) (hela uppdraget: utan att förlora skeppet) | – | 162 000 | 1 620 000 | 12 150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
-| Kantvakten | Spaning | Stanna 90 min i sträck i DS-4 | – | 162 000 | 1 620 000 | 12 150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
-| Fiendemark | Spaning | Stanna 120 min i sträck i rival x-4 | – | 343 500 | 3 435 000 | 25 760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
-| Avgrundskonvojen | Operationer | Förstör Goombah ×6 i x-4 → Ta Abyss Core från punkten 12 800 / 6 800 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 198 000 | 2 090 000 | 15 660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Orörd IV | Operationer | Förstör Crystalys ×3 i x-4 (skrovförlust högst 480 000 poäng) | – | 61 000 | 1 580 000 | 11 865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
-| Bulwark-havet | Strid | Förstör Bulwark ×2 000 | – | 318 500 | 4 735 000 | 35 500 | 0 | Reinforced Hull Plate ×40, Resource Magnet Booster, 10 h |
+| Crystalys-utrensning | Strid | Förstör Crystalys ×50 | – | 610 000 | 17 370 000 | 69 515 | 0 | Cataclysite ×292, Experience Booster, 10 h |
+| Goombah-krossen | Strid | Förstör Goombah ×500 | – | 1 167 500 | 13 330 000 | 100 000 | 0 | Power Core ×48, Laser Damage Booster I, 10 h |
+| Piraternas undergång | Strid | Förstör Pirate Boss ×25 (från säsongsdag 4) | – | 497 500 | 4 285 000 | 40 110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
+| Dormant-skymning | Strid | Förstör Dormant Force ×10 (från säsongsdag 4) | – | 902 500 | 4 610 000 | 23 125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Kantvandringen | Spaning | Flyg till punkten 16 000 / 5 300 i DS-4 → Flyg till punkten 19 700 / 9 000 i DS-4 → Flyg till punkten 16 000 / 12 700 i DS-4 → Flyg till punkten 12 300 / 9 000 i DS-4 (hela uppdraget: skrovförlust högst 76 000 poäng) (hela uppdraget: utan att förlora skeppet) | – | 810 000 | 1 620 000 | 12 150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
+| Kantvakten | Spaning | Stanna 90 min i sträck i DS-4 | – | 810 000 | 1 620 000 | 12 150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
+| Fiendemark | Spaning | Stanna 120 min i sträck i rival x-4 | – | 1 717 500 | 3 435 000 | 25 760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
+| Avgrundskonvojen | Operationer | Förstör Goombah ×6 i x-4 → Ta Abyss Core från punkten 12 800 / 6 800 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 990 000 | 2 090 000 | 15 660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Orörd IV | Operationer | Förstör Crystalys ×3 i x-4 (skrovförlust högst 480 000 poäng) | – | 305 000 | 1 580 000 | 11 865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
+| Bulwark-havet | Strid | Förstör Bulwark ×2 000 | – | 1 592 500 | 13 330 000 | 100 000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10 h |
 
 #### Steg 5 · Legender {#challenge-tier-5}
 
@@ -507,16 +512,16 @@ Tio uppdrag i valfri ordning. Det här är sista steget.
 
 | Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Tiotusen Seeker | Strid | Förstör Seeker ×10 000 | – | 322 500 | 5 700 000 | 42 755 | 0 | Power Core ×15, Experience Booster, 10 h |
-| Tiotusen Phantasm | Strid | Förstör Phantasm ×10 000 | – | 420 000 | 4 200 000 | 31 500 | 0 | Reinforced Hull Plate ×50, Laser Damage Booster I, 10 h |
-| Goombah-legionen | Strid | Förstör Goombah ×1 000 | – | 467 500 | 6 700 000 | 50 250 | 0 | Cataclysite ×80, Resource Magnet Booster, 10 h |
-| Crystalys-väldet | Strid | Förstör Crystalys ×150 | – | 365 500 | 7 725 000 | 57 925 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
-| Dormant-herraväldet | Strid | Förstör Dormant Force ×25 (från säsongsdag 4) | – | 394 000 | 6 350 000 | 47 605 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Piratthronen | Strid | Förstör Pirate Boss ×60 (från säsongsdag 4) | – | 191 000 | 5 325 000 | 39 925 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
-| Sista vakten | Spaning | Stanna 180 min i sträck i DS-x | – | 338 000 | 3 380 000 | 25 355 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
-| Konvoj noll | Operationer | Förstör Goombah ×8 i x-4 → Förstör Crystalys ×1 i x-4 → Ta Zero Core från punkten 13 600 / 4 400 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 252 000 | 2 740 000 | 20 535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Orörd noll | Operationer | Förstör Goombah ×20 i x-4 (skrovförlust högst 556 000 poäng) | – | 87 000 | 1 540 000 | 11 555 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
-| Linjens väktare | Operationer | Förstör Goombah ×400 i x-4 → Förstör Crystalys ×30 i x-4 → Stanna 60 min i sträck i x-4 → Flyg till punkten 8 000 / 4 500 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 1 500 / 1 500 i x-1 | – | 272 500 | 4 730 000 | 35 460 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×100, Hull Plating Booster II, 10 h |
+| Tiotusen Seeker | Strid | Förstör Seeker ×10 000 | – | 1 612 500 | 13 325 000 | 100 000 | 0 | Power Core ×36, Experience Booster, 10 h |
+| Tiotusen Phantasm | Strid | Förstör Phantasm ×10 000 | – | 2 100 000 | 13 340 000 | 100 000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10 h |
+| Goombah-legionen | Strid | Förstör Goombah ×1 000 | – | 2 337 500 | 13 330 000 | 100 000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10 h |
+| Crystalys-väldet | Strid | Förstör Crystalys ×150 | – | 1 827 500 | 24 990 000 | 100 000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
+| Dormant-herraväldet | Strid | Förstör Dormant Force ×25 (från säsongsdag 4) | – | 1 970 000 | 12 670 000 | 63 590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
+| Piratthronen | Strid | Förstör Pirate Boss ×60 (från säsongsdag 4) | – | 955 000 | 10 680 000 | 100 000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
+| Sista vakten | Spaning | Stanna 180 min i sträck i DS-x | – | 1 690 000 | 3 560 000 | 26 735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
+| Konvoj noll | Operationer | Förstör Goombah ×8 i x-4 → Förstör Crystalys ×1 i x-4 → Ta Zero Core från punkten 13 600 / 4 400 i x-4 till Mission Control (skrovförlust högst 46 000 poäng) (utan att förlora skeppet) | – | 1 260 000 | 2 740 000 | 20 535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
+| Orörd noll | Operationer | Förstör Goombah ×20 i x-4 (skrovförlust högst 556 000 poäng) | – | 435 000 | 1 740 000 | 13 055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
+| Linjens väktare | Operationer | Förstör Goombah ×400 i x-4 → Förstör Crystalys ×30 i x-4 → Stanna 60 min i sträck i x-4 → Flyg till punkten 8 000 / 4 500 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 1 500 / 1 500 i x-1 | – | 1 362 500 | 15 220 000 | 100 000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10 h |
 
 
 <!-- quests:end -->

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d5060b7c32b5d83e -->
+<!-- wiki-i18n source: 50138d1e4d4865f8 -->
 <!-- wiki-i18n title: 企业飞行员 -->
 # 企业飞行员 {#company-pilots}
 
 每个企业都会在自己的本土星区（`M-1` 至 `M-4`、`T-1` 至 `T-4`、`G-1` 至 `G-4`）部署一支由 NPC 飞行员组成的小队。他们全天候为企业飞行，并协助企业的飞行员。
 
-![The Company page: your rank and your place in the company, what the next rank takes and which pilot to pass, the best pilot, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
+![The Company page: your rank and your place in the company, what the next rank takes, the best pilot with the crown, and the pilots of your company with their rank symbols](../../img/wiki-img/shots/company-ranking.jpg)
 ![The Company page](../../img/wiki-img/shots/company.jpg)
 
 ## 他们是谁 {#who-they-are}
@@ -15,7 +15,7 @@
   - 吸收率 45%：护盾承受每次攻击的 45%，船体承受 55%
   - 每轮齐射基础伤害 195（x1 弹药），无暴击率，射程 700
 - **在小地图上**：本企业的飞行员显示为绿色菱形，其他企业的飞行员显示为琥珀色菱形。
-- **没有军衔**：飞行时飞行员名字前的小符号是该飞行员的[军衔](/wiki/03-Mechanics/Ranks.md)，只属于真人飞行员。企业飞行员没有军衔，也不在你所在企业的榜单上。企业页面列出你所在企业的真人飞行员，PvE 积分最多的排在最前，飞行员的军衔就是他在这份列表里的名次。
+- **没有军衔**：飞行时飞行员名字前的小符号是该飞行员的[军衔](/wiki/03-Mechanics/Ranks.md)，只属于真人飞行员。企业飞行员没有军衔，也不在你所在企业的榜单上。企业页面列出你所在企业的真人飞行员，PvE 积分最多的排在最前，飞行员的军衔取决于他在这份列表里的 PvE 积分，前六个军衔还取决于企业的名额。
 
 ## 他们做什么 {#what-they-do}
 

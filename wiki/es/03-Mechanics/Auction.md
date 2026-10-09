@@ -10,7 +10,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 - Necesitas el **nivel 5** para usar la subasta: para publicar, comprar y pujar.
 - Un anuncio se pone a precio por lote, en créditos enteros o en Thulium entero (no los dos), y nunca por debajo del precio mínimo del objeto. **No hay precio máximo.**
 - Un precio en Thulium es como mínimo el precio mínimo en créditos dividido entre 1.000, redondeado hacia arriba, y solo para los objetos cuyo precio mínimo llega a 1 Thulium o más. Eso es todo lo que hace la tasa: **1 Thulium = 1.000 créditos es una regla para el precio mínimo, no un tipo de cambio.** No se cambia nada, no se muestra ningún valor y los créditos y el Thulium nunca se suman.
-- Se pueden publicar 80 objetos distintos, y 79 de ellos también se pueden poner a precio en Thulium.
+- Se pueden publicar 82 objetos distintos, y 81 de ellos también se pueden poner a precio en Thulium.
 - Un anuncio dura 24 / 72 / 168 horas, a tu elección: las opciones son las mismas en todos los niveles.
 - El **depósito** es el 1 % del precio por cada 24 horas que dura el anuncio, con un mínimo de 50 créditos o 1 Thulium. Lo pagas al publicar; nunca se devuelve, ni siquiera si cancelas el anuncio.
 - Desde el nivel 10, el depósito es el 1,5 %.
@@ -50,6 +50,7 @@ Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no v
 | **Munición láser** | Standard Battery (en lotes de 100), Siphon Battery (en lotes de 10), Advanced Plasma (en lotes de 10), Ultra Core (en lotes de 10), Experimental Fusion Core | 5 |
 | **Cohetes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Blindaje de casco** | Hull Plating II, Hull Plating III | 2 |
 | **Recursos** | Cataclysite (en lotes de 100), Ship Fragment (en lotes de 100), Daraxium (en lotes de 100), Nyxite (en lotes de 100), Quorvium (en lotes de 10), Reinforced Hull Plate (en lotes de 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->

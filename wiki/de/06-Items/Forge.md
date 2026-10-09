@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -6,7 +6,7 @@ Die **Schmiede** ist der zweite Tab der Montage-Seite (und des Montage-Fensters 
 
 ## Was sich schmieden lässt {#what-can-be-forged}
 
-Laser, Laserverstärker, Schilde, Schildzellen, Triebwerke, Schubdüsen, adaptive Kerne und Repair Drones: jedes einzelne Ausrüstungsstück, das [Verzauberungsboni](/wiki/06-Items/Overview.md) tragen kann. Es kann in deinem Inventar liegen, auf einem Schiff (es bleibt dort und wirkt sofort mit seiner neuen Stufe) oder in einen anderen Gegenstand eingesetzt sein. Drohnen, Schiffe, Munition, Ressourcen und Booster lassen sich nicht schmieden, ebenso wenig alles im Transport-Cache: Nimm es zuerst heraus.
+Laser, Laserverstärker, Schilde, Schildzellen, Triebwerke, Schubdüsen, adaptive Kerne, Repair Drones und [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md): jedes einzelne Ausrüstungsstück, das [Verzauberungsboni](/wiki/06-Items/Overview.md) tragen kann. Es kann in deinem Inventar liegen, auf einem Schiff (es bleibt dort und wirkt sofort mit seiner neuen Stufe) oder in einen anderen Gegenstand eingesetzt sein. Drohnen, Schiffe, Munition, Ressourcen und Booster lassen sich nicht schmieden, ebenso wenig alles im Transport-Cache: Nimm es zuerst heraus.
 
 ## Aufwerten {#tier-up}
 
@@ -39,7 +39,7 @@ Die letzten beiden Schritte verlangen jeweils **2 Dark Matter Plates**, zusätzl
 
 Ausrüstung, die vor der Schmiede hergestellt wurde, behält die Boni, mit denen sie ausgewürfelt wurde, und die sind oft kleiner als in der Tabelle (ein göttliches Stück von damals kann +2 % fassen). Nichts hebt sie von selbst an: Ein Aufwerten würfelt jeden Bonus im Bereich der neuen Stufe neu aus und behält den besseren Wert, und beim Zusammenführen bleibt für jeden Wert der bessere Bonus.
 
-Ein Gegenstand kann nicht mehr Boni fassen, als er Werte hat: Ein Schild hat vier, ein Laser drei (Quantum Laser I und II haben zwei), ein Triebwerk oder ein adaptiver Kern zwei, ein Momentum Thruster zwei, ein Impulse Thruster einen (sein Faktor von 1,02 bis 1,035 ist zu klein für einen Bonus, und die Schmiede würfelt keinen auf einen Faktor von 1,05 oder weniger, sein Bonus kann also nur auf dem festen Tempo liegen), ein Crit Amp I oder eine Repair Drone einen, die höheren Krit-Verstärker zwei, die Schadensverstärker und Schildzellen drei. Wenn die nächste Stufe nicht mehr Boni fasst, als der Gegenstand tragen kann, sagt das Panel es: Die Stufe macht die Boni dann nur stärker. Reichweiten-Boni gehen nie über +5 % hinaus. Ein Penetration Amp hat nur einen Wert und fasst deshalb einen Bonus.
+Ein Gegenstand kann nicht mehr Boni fassen, als er Werte hat: Ein Schild hat vier, ein Laser drei (Quantum Laser I und II haben zwei), ein Triebwerk oder ein adaptiver Kern zwei, ein Momentum Thruster zwei, ein Impulse Thruster einen (sein Faktor von 1,02 bis 1,035 ist zu klein für einen Bonus, und die Schmiede würfelt keinen auf einen Faktor von 1,05 oder weniger, sein Bonus kann also nur auf dem festen Tempo liegen), ein Crit Amp I, eine Repair Drone oder eine Hüllenpanzerung einen (ihre Hülle), die höheren Krit-Verstärker zwei, die Schadensverstärker und Schildzellen drei. Wenn die nächste Stufe nicht mehr Boni fasst, als der Gegenstand tragen kann, sagt das Panel es: Die Stufe macht die Boni dann nur stärker. Reichweiten-Boni gehen nie über +5 % hinaus. Ein Penetration Amp hat nur einen Wert und fasst deshalb einen Bonus.
 
 **Eine Stufe fasst höchstens so viele Boni.** Eine Aufwertung gibt einem Gegenstand immer seinen ersten Bonus; jeder andere Platz, den die neue Stufe öffnet und für den der Gegenstand einen Wert hat, wird mit einer **Chance von 50 %, jeweils mit eigenem Wurf**, gefüllt, und ein Platz, der leer bleibt, wird von der nächsten Aufwertung erneut versucht. Ein göttlicher Schild hat also zur Hälfte zwei Boni und zur anderen Hälfte einen; ein ewiger hat in etwa einem Drittel der Fälle alle vier (im Schnitt 3,1 Boni), ein Laser mit drei Werten hat alle drei in zwei von drei Fällen, und ein Triebwerk hat fast immer beide. Das Panel sagt für die nächste Stufe „bis zu“ und nennt, wie oft sich ein neuer Platz füllt. Gegenstände mit nur einem Wert und jeder Schritt zu Verdorben sind nicht betroffen, und Ausrüstung, die vor dieser Regel entstanden ist, behält ihre Boni. Ein **Zusammenführen** füllt einen Platz, den eine Aufwertung verpasst hat: Es behält den besten Bonus jedes Werts von zwei Exemplaren, bis zur Grenze der Stufe. Wegen der Chance trägt ein Stück den gleich beschriebenen Absorptionsbonus nur zum Teil (ein ewiger Schild zu 78 %, eine ewige Schildzelle zu 88 %): Die Zahlen dort gelten für Stücke, die ihn tragen.
 
@@ -47,7 +47,7 @@ Der **Absorptionsbonus eines Schilds** (und der Absorptions-Boost einer Schildze
 
 Triebwerke, Schubdüsen, adaptive Kerne und Repair Drones bewegen mit einem prozentualen Bonus sehr wenig (ein Engine II gibt 4 Tempo, also sind +12 % ein halber Punkt): Schmiede sie, wenn du die Stufe willst, nicht wegen der Werte.
 
-**Der Bonus eines Penetration Amp** multipliziert seine Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 8,7 bis 9,2 Punkten pro Slot statt 8. Im besten Laser (ein Fusion Core, ein Stiletto und drei Penetration Amp IV in jedem Laser) ergeben 10 + 16 + 24 schon die Grenze von 50 % für einen Lasertreffer, dieser Bonus ist dort also verschwendet; er lohnt sich, wo die Summe unter der Grenze liegt ([Laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Der Bonus eines Penetration Amp** multipliziert seine Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 8,7 bis 9,2 Punkten pro Slot statt 8. Nichts begrenzt die Durchdringung eines Treffers, also zählt jeder Punkt: Im besten Laser (ein Fusion Core, ein Stiletto und drei Penetration Amp IV in jedem Laser) ergeben 10 + 16 + 24 genau 50 %, und drei ewige Boni heben es auf bis zu 53,6 % ([Laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Woher die Materialien kommen {#where-the-materials-drop}
 

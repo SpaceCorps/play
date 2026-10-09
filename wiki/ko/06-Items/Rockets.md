@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abed58eb82eb0e72 -->
+<!-- wiki-i18n source: 25436195e066ff8c -->
 <!-- wiki-i18n title: 로켓 -->
 # 로켓 {#rockets}
 
@@ -140,7 +140,7 @@ Scatter I -> Scatter II -> Scatter III => N.U.K.E.
 - **재장전.** Asterism은 공용 타이머를 35% 늘리고(4.05초), Cordon은 11% 늘리고(3.33초), Redoubt는 27% 줄이지만(2.19초), 로켓의 비행 시간에 잠깐의 여유를 더한 시간보다 짧아지지는 않습니다. Redoubt를 쓰면 빠른 로켓(Lancet I, Rivet I과 II, Ember I, Scatter I과 II)은 2.19초, Rivet III는 2.3초, Lancet III는 2.9초를 기다리고, Ember III는 3초를 그대로 기다립니다. N.U.K.E.와 N.I.K.E.는 어떤 편대든 4.1초와 4.6초를 기다립니다. 대기 시간은 발사할 때 정해지므로 그 뒤에 편대를 바꿔도 짧아지지 않고, 로켓 슬롯 위의 부채꼴도 이를 따릅니다.
 - **큰 두 로켓의 한계는 그대로입니다.** 가장 좋은 편대로도 N.I.K.E.는 최대 116,250이라 멀쩡한 Paragon(128,000)이 버티고, N.U.K.E.는 최대 77,500이라 Goombah(80,000)가 버팁니다.
 - **회피.** Asterism의 회피 7%는 나에게 맞는 직격 로켓이 7%의 확률로 피해를 전혀 주지 못한다는 뜻이며, 내 함선 위에 “빗나감”이 떠오릅니다. 범위 폭발은 조준하지 않으므로 회피되는 일이 없습니다.
-- **관통.** Gemini와 Stiletto는 그 포인트를 직격 로켓의 실드 관통에 더합니다(폭발에는 관통이 없습니다). 합계는 최대 40%입니다. 레이저 공격은 최대 50%까지 올라갑니다([레이저와 탄약](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **관통.** Gemini와 Stiletto는 그 포인트를 직격 로켓의 실드 관통에 더합니다(폭발에는 관통이 없습니다). 합계에는 상한이 없습니다. Lancet III에 Stiletto를 더하면 51%입니다. 레이저 공격도 탄약과 증폭기의 관통에 같은 방식으로 더합니다([레이저와 탄약](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## 규칙 {#rules}
 

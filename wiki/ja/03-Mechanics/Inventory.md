@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd41027ba69c57cb -->
+<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
 <!-- wiki-i18n title: インベントリ -->
 # インベントリと装備 {#inventory-equipment}
 
@@ -17,6 +17,7 @@
   - **未割り当て／レガシースロット**：ここに置いたアイテムは、ステータスに寄与しません。
   - **重ねるほど効果も薄れます**：シールドとエンジンは強い順（スロットの割合を掛けたあとの値で）に順位が付けられ、帯域の割合に、その順位の割合が掛け合わされます。1～4個目はそのまま、5～7個目は85%、70%、55%、8個目以降はシールドが50%、エンジンが25%です。詳しくは[シールド](/wiki/03-Mechanics/Shields.md)と[速度](/wiki/03-Mechanics/Speed.md)をご覧ください。
 - **エクストラスロット**：Repair Drone など、特殊なユーティリティアイテム用のスロットです。Protos、Kitefin、Ostirion、Nomad には2つ、製作する Paragon、Ironclad、Wraith、Storm には3つあり、Extra Slots CPU（[エクストラ](/wiki/06-Items/Extras.md#extra-slots-cpus)）を導入すると、3、5、7つ増えます。
+- **装甲スロット**：船体を増やす[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)用のスロットです。製作する4隻の艦だけが持ち（Paragon は5つ、Storm は7つ、Ironclad は15、Wraith は9つ）、Skylab で研究するまでそれぞれロックされています。2つの構成で共通です。
 
 ## インベントリの並び順 {#inventory-order}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf2f009d73842c4b -->
+<!-- wiki-i18n source: 54910cbb508beed2 -->
 <!-- wiki-i18n title: 增益 -->
 # 增益 {#boosters}
 
@@ -60,7 +60,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 | **Loot Luck Booster** | 传说 | +5% 来自 NPC 的稀有掉落率 | 30,000 |
 
 > [!NOTE]
-> **增益还是增幅器？** 它们是不同的东西。每个增益的名字里都有 **Booster**，按计时器运行，没有东西可装：**Laser Damage Booster I** 和 **Laser Damage Booster II** 能在 10 小时内提供 +10% 的激光伤害，可从商店或装配站获得。**Damage Amp**、**Crit Amp** 和 **Penetration Amp**（I 至 IV 阶）是激光增幅器：装入激光增幅槽位的模块，没有计时器（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。在 0.4.12 之前，这些增益叫 Damage Amp 和 Damage Amp II、Shield Wall 和 Shield Wall II、Hull Plating 和 Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet 和 Loot Luck；你正在运行的增益以新名字继续生效。
+> **增益还是增幅器？** 它们是不同的东西。每个增益的名字里都有 **Booster**，按计时器运行，没有东西可装：**Laser Damage Booster I** 和 **Laser Damage Booster II** 能在 10 小时内提供 +10% 的激光伤害，可从商店或装配站获得。**Damage Amp**、**Crit Amp** 和 **Penetration Amp**（I 至 IV 阶）是激光增幅器：装入激光增幅槽位的模块，没有计时器（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。在 0.4.12 之前，这些增益叫 Damage Amp 和 Damage Amp II、Shield Wall 和 Shield Wall II、Hull Plating 和 Hull Plating II、Shield Regen、Experience Kit、Honor Beacon、Resource Magnet 和 Loot Luck；你正在运行的增益以新名字继续生效。Hull Plating **Booster** 不是装进舰船装甲槽位的装甲 **Hull Plating**（[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plating-or-booster)）。
 
 ---
 

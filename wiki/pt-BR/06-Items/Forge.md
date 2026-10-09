@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b11d0d55c7d49e79 -->
+<!-- wiki-i18n source: 37ef68d59e0029a8 -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -6,7 +6,7 @@ A **Forja** é a segunda aba da página da Montagem (e da janela da Montagem em 
 
 ## O que pode ser forjado {#what-can-be-forged}
 
-Lasers, amplificadores de laser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos e Repair Drones: qualquer peça de equipamento que possa levar [bônus de encantamento](/wiki/06-Items/Overview.md). Ela pode estar no seu inventário, em uma nave (continua lá e funciona com o novo grau na hora) ou encaixada em outro item. Drones, naves, munição, recursos e boosters não podem ser forjados, e nada no Cache de Transporte também pode: retire-o primeiro.
+Lasers, amplificadores de laser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos, Repair Drones e [blindagem de casco](/wiki/06-Items/Hull-Plating.md): qualquer peça de equipamento que possa levar [bônus de encantamento](/wiki/06-Items/Overview.md). Ela pode estar no seu inventário, em uma nave (continua lá e funciona com o novo grau na hora) ou encaixada em outro item. Drones, naves, munição, recursos e boosters não podem ser forjados, e nada no Cache de Transporte também pode: retire-o primeiro.
 
 ## Subir de grau {#tier-up}
 
@@ -39,7 +39,7 @@ As duas últimas etapas pedem **2 Dark Matter Plates** cada um, além de tudo o 
 
 O equipamento feito antes da Forja mantém os bônus com que foi sorteado, e eles costumam ser menores que os da tabela (uma peça Divina daquela época pode ter +2%). Nada os aumenta sozinho: subir de grau sorteia cada bônus de novo na faixa do novo grau e fica com o melhor valor, e uma combinação fica com o melhor valor de cada atributo.
 
-Um item não pode comportar mais bônus do que tem atributos: um núcleo de escudo tem quatro, um laser três (o Quantum Laser I e o II têm dois), um motor ou um núcleo adaptativo dois, um Momentum Thruster dois, um Impulse Thruster um (o multiplicador dele, de 1,02 a 1,035, é pequeno demais para um bônus, e a Forja não sorteia bônus para multiplicador de 1,05 ou menos, então o bônus só pode estar na velocidade fixa), um Crit Amp I ou um Repair Drone um, os amps de crítico mais altos dois, os amps de dano e as células de escudo três. Quando o grau seguinte não comporta mais bônus do que o item consegue levar, o painel avisa: o grau então só deixa os bônus mais fortes. Os bônus de alcance nunca passam de +5%. Um Penetration Amp tem um único atributo, então leva um único bônus.
+Um item não pode comportar mais bônus do que tem atributos: um núcleo de escudo tem quatro, um laser três (o Quantum Laser I e o II têm dois), um motor ou um núcleo adaptativo dois, um Momentum Thruster dois, um Impulse Thruster um (o multiplicador dele, de 1,02 a 1,035, é pequeno demais para um bônus, e a Forja não sorteia bônus para multiplicador de 1,05 ou menos, então o bônus só pode estar na velocidade fixa), um Crit Amp I, um Repair Drone ou uma blindagem de casco um (o casco dela), os amps de crítico mais altos dois, os amps de dano e as células de escudo três. Quando o grau seguinte não comporta mais bônus do que o item consegue levar, o painel avisa: o grau então só deixa os bônus mais fortes. Os bônus de alcance nunca passam de +5%. Um Penetration Amp tem um único atributo, então leva um único bônus.
 
 **Um grau comporta esse número de bônus no máximo.** Uma subida de grau dá sempre ao item o seu primeiro bônus; cada outra vaga que o novo grau abre, e para a qual o item tem um atributo, é preenchida com **50% de chance, cada uma com o seu próprio sorteio**, e uma vaga que falha é tentada de novo pela subida de grau seguinte. Assim, um núcleo de escudo Divino tem dois bônus metade das vezes e um na outra metade; um Eterno tem os quatro mais ou menos uma vez em três (3,1 em média), um laser com três atributos tem os três duas vezes em três, e um motor quase sempre tem os dois. O painel diz “até” para o grau seguinte e mostra com que frequência uma vaga nova é preenchida. Itens com um só atributo e todo passo para Maculado não são afetados, e equipamentos feitos antes desta regra mantêm os bônus que têm. Uma **combinação** preenche uma vaga que uma subida de grau perdeu: ela mantém o melhor bônus de cada atributo de duas cópias, até o limite do grau. Por causa da chance, uma peça leva o bônus de absorção descrito a seguir só parte das vezes (um núcleo de escudo Eterno 78% das vezes, uma célula de escudo Eterna 88%): os números ali valem para peças que o levam.
 
@@ -47,7 +47,7 @@ O **bônus de absorção de um escudo** (e a absorção extra de uma célula de 
 
 Motores, propulsores, núcleos adaptativos e Repair Drones mudam muito pouco com um bônus percentual (um Engine II soma 4 de velocidade, então +12% é meio ponto): forje-os se quiser o grau, não pelos atributos.
 
-**O bônus de um Penetration Amp** multiplica a penetração dele: um bônus Eterno (+9% a +15%) leva um Penetration Amp IV a 8,7 a 9,2 pontos por slot em vez de 8. No melhor laser (um Fusion Core, um Stiletto e três Penetration Amp IV em cada laser), 10 + 16 + 24 já chegam ao teto de 50% de um acerto de laser, então esse bônus é desperdiçado ali; ele compensa onde a soma fica abaixo do teto ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**O bônus de um Penetration Amp** multiplica a penetração dele: um bônus Eterno (+9% a +15%) leva um Penetration Amp IV a 8,7 a 9,2 pontos por slot em vez de 8. Nada limita a penetração de um acerto, então cada ponto conta: no melhor laser (um Fusion Core, um Stiletto e três Penetration Amp IV em cada laser), 10 + 16 + 24 dão 50%, e três bônus Eternos elevam isso a até 53,6% ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Onde os materiais caem {#where-the-materials-drop}
 

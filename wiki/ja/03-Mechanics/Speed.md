@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: 速度 -->
 # 速度の計算 {#speed-calculation}
 
@@ -9,6 +9,8 @@
 艦の最終的な速度は、サーバーで次の式を使って計算されます。
 
 \[\text{Final Speed} = (\text{Ship Base Speed} + \text{Total Engine Speed}) \times (1.0 + \text{Total Speed Bonus Percent})\]
+
+[艦のデザイン](/wiki/03-Mechanics/Ship-Designs.md)は最初の項を変えます（THUNDER は基本速度が40高く、DUMA は20低い）。さらに NOTSUM と RECON は、最終速度にもう1つ係数をかけます（+2% と +5%）。
 
 ### 1. エンジンの実効速度 {#1-effective-engine-speed}
 

@@ -138,7 +138,7 @@ A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that
 - **Reload.** Asterism makes the shared timer 35% longer (4.05 seconds), Cordon 11% longer (3.33) and Redoubt 27% shorter (2.19), but never shorter than the rocket's flight plus a moment. Under Redoubt the quick rockets (Lancet I, Rivet I and II, Ember I, Scatter I and II) wait the 2.19 seconds, a Rivet III waits 2.3, a Lancet III 2.9 and an Ember III the full 3; the N.U.K.E. and the N.I.K.E. wait 4.1 and 4.6 seconds whatever you wear. The wait is set when you fire, so changing formation afterwards does not shorten it, and the pie over the rocket slots follows it.
 - **The limits of the big two hold.** With the best formation a N.I.K.E. hits for up to 116,250, which a fresh Paragon (128,000) survives, and a N.U.K.E. for up to 77,500, which a Goombah (80,000) survives.
 - **Evasion.** Asterism's 7% evasion gives a direct rocket that hits you a 7% chance to do no damage at all, and a floating "Miss" shows over your ship; an area blast has no aim and is never dodged.
-- **Penetration.** Gemini and Stiletto add their points to the shield penetration of a direct rocket (a blast has none), up to 40% in all. A laser hit goes up to 50% ([Lasers & Ammo](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Penetration.** Gemini and Stiletto add their points to the shield penetration of a direct rocket (a blast has none), with no cap: a Lancet III with a Stiletto is 51%. A laser hit adds them to its ammo's and its amps' the same way ([Lasers & Ammo](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Rules
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15d21ac63e808c91 -->
+<!-- wiki-i18n source: 32615b5595786aef -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -166,12 +166,12 @@ A Siphon Battery pajzslopásra való lőszer, a hajótestek összetörése helye
 
 ## Egy lézertalálat pajzsáthatolása {#shield-penetration-of-a-laser-hit}
 
-Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +9%, Stiletto +16%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). Az összeg lézer esetén **50%-nál megáll**; egy egycélpontos rakétáé 40%-nál ([Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +9%, Stiletto +16%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden lézerben 24%; egy Penetration Amp IV tizenkét lézerből egyben 0,67%. Egy Wraithnek 12 lézere és 36 erősítőfoglalata van, és mind a 36-ot meg kell tölteni a 24%-hoz.
-- **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe az erősítőid értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. Mutass a csempére a határok elolvasásához: egy lézertalálat összege 50%-nál áll meg, egy rakétáé 40%-nál.
-- **A legjobb lézer pontosan eléri a határt.** Egy Experimental Fusion Core (10%), egy Stiletto (16%) és három Penetration Amp IV minden lézerben (24%) együtt 50%.
-- **Egy kovácsműhelyes buff egy Penetration Amp IV-en ebben a felállásban kárba vész.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 8-ról 8,7–9,2 pontra viszi. De a 10 + 16 + 24 már kiadja az 50%-os határt, minden további pont lemetszésre kerül (három Örök együtt 53,6% lenne, 50%-ra vágva).
+- **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe a mutatott konfiguráció lézererősítőinek értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. A repülés közbeni **Hajó** ablak alsó sorának végén van egy **Áthatolás** chip (a konfiguráció és a sebesség chipje helyet csinálva csak egy ikont és egy számot mutat): egy lézertalálat összegét mutatja, az erősítőidet, a viselt formációt és a kilőtt lőszert, összeadva, amint bármit váltasz, a súgója pedig felsorolja a három részt.
+- **A legjobb lézer 50%-ot ad.** Egy Experimental Fusion Core (10%), egy Stiletto (16%) és három Penetration Amp IV minden lézerben (24%) együtt 50%.
+- **Egy kovácsműhelyes buff egy Penetration Amp IV-en számít.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 8-ról 8,7–9,2 pontra viszi. A legjobb felállásban három Örök együtt 53,6%, és minden pontja számít.
 
 | Lézersortűz | Lőszer | Erősítők (3 foglalat) | Formáció | Összesen |
 |---|---|---|---|---|
@@ -199,7 +199,7 @@ Mit tesz ez a célpont pajzsaival: minden cella a találatnak az a része, amely
 | A legjobb pajzs, Örök kovácsolás (legjobb dobás) és a Szezonbolt a határán (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Bármelyik idegen (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-A legjobb lézer kiüríti a cella nélküli pajzsmagot (a hajótest kapja az egész találatot); a cellás mag megtartja a találat egy részét, a legjobb pajzs pedig 30%-át (45%-át a buffokkal). Egy rakéta sosem ürít ki pajzsot: a határa 40%.
+A legjobb lézer kiüríti a cella nélküli pajzsmagot (a hajótest kapja az egész találatot); a cellás mag megtartja a találat egy részét, a legjobb pajzs pedig 30%-át (45%-át a buffokkal). Egy rakéta önmagában sosem ürít ki pajzsot (legfeljebb 35%), de egy Lancet III vagy Rivet III Stiletto mellett (51%) igen.
 
 ### Mikor ér meg egy Penetration Amp egy foglalatot? {#when-is-a-penetration-amp-worth-a-slot}
 

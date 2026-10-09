@@ -163,12 +163,12 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 
 ## Shield Penetration of a Laser Hit
 
-Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +9%, Stiletto +16%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). The total **stops at 50%** for a laser; a direct rocket's total stops at 40% ([Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +9%, Stiletto +16%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 24%; one Penetration Amp IV in one laser of twelve makes 0.67%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 24%.
-- **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of your amps (0.0% without a Penetration Amp); ammo and formation are not in it. Point at the tile to read the caps: a laser hit's total stops at 50%, a rocket's at 40%.
-- **The best laser reaches the cap exactly.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (24%) make 50%.
-- **A Forge buff on a Penetration Amp IV is wasted in that build.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points instead of 8. But 10 + 16 + 24 already make the 50% cap, so every point more is cut off (three Eternal ones would add up to 53.6%, cut to 50%).
+- **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of the laser amps of the configuration it shows (0.0% without a Penetration Amp); ammo and formation are not in it. The **Ship window** in flight has a **Penetration** chip at the end of its bottom row (the Config and Speed chips show only an icon and a number to make room): it shows the total of a laser hit, your amps, the formation you wear and the ammo you fire, added up as you change them, and its tip lists the three parts.
+- **The best laser makes 50%.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (24%) make 50%.
+- **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points instead of 8. In the best build, three Eternal ones add up to 53.6%, and every point of it counts.
 
 | Laser volley | Ammo | Amps (3 slots) | Formation | Total |
 |---|---|---|---|---|
@@ -196,7 +196,7 @@ What that does to the target's shields: each cell is the share of one hit that *
 | The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
 | Any alien (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
 
-The best laser empties a shield core with no cell (the hull takes the whole hit); a core with a cell keeps a share of every hit, and the best shield keeps 30% of it (45% with the buffs). A rocket never empties a shield: its cap is 40%.
+The best laser empties a shield core with no cell (the hull takes the whole hit); a core with a cell keeps a share of every hit, and the best shield keeps 30% of it (45% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (51%) does.
 
 ### When is a Penetration Amp worth a slot? {#when-is-a-penetration-amp-worth-a-slot}
 

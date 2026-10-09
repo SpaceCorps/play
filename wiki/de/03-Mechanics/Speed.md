@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37d8ddc0e87c31d5 -->
+<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
 <!-- wiki-i18n title: Tempo -->
 # Tempoberechnung {#speed-calculation}
 
@@ -9,6 +9,8 @@ Das Tempo bestimmt, wie schnell sich dein Schiff auf der Weltraumkarte bewegt, d
 Das endgültige Tempo deines Schiffs wird auf dem Server mit der folgenden Formel berechnet:
 
 \[\text{Endgültiges Tempo} = (\text{Grundtempo des Schiffs} + \text{Gesamttempo der Triebwerke}) \times (1,0 + \text{Gesamter Tempobonus in Prozent})\]
+
+Ein [Schiffsdesign](/wiki/03-Mechanics/Ship-Designs.md) ändert den ersten Term (THUNDER hat 40 Grundtempo mehr, DUMA 20 weniger), und NOTSUM und RECON multiplizieren das Endtempo mit einem weiteren Faktor, +2 % und +5 %.
 
 ### 1. Effektives Triebwerkstempo {#1-effective-engine-speed}
 
