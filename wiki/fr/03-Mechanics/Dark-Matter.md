@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 - **À quoi elle sert.** 83 technologies du Centre de recherche en demandent, de 5 à 40 chacune et 904 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite.
 - **Dans le Centre de recherche**, vous ajoutez de la Dark Matter depuis votre soute (vaisseau posé) avant d’appuyer sur Lancer. La recherche la prend à son début.
 - **Une Dark Matter Plate est un autre objet.** Recherchez d’abord sa recette (le groupe Ressources de l’arbre : 1 jour et 10 Dark Matter), puis fabriquez-la à l’Assemblage avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium.
-- **À quoi sert une plate.** Le dernier palier de chaque chaîne d’amélioration en demande **3** : les amps, cellules de bouclier et propulseurs du palier IV, le Heavy Shield Core, l’Engine III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II (12 pièces). La Forge en demande 2 pour faire passer un objet de Divin à Fracturant, et 2 de plus de Fracturant à Éternel.
-- **Recherchez d’abord la plate.** La technologie de chacune de ces 12 pièces demande aussi celle de la plate. Une pièce recherchée plus tôt le reste, mais ses plates demandent la technologie de la plate.
+- **À quoi sert une plate.** Le dernier palier de chaque chaîne d’amélioration en demande **3** : les amps, cellules de bouclier et propulseurs du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II (13 pièces). La Forge en demande 2 pour faire passer un objet de Divin à Fracturant, et 2 de plus de Fracturant à Éternel.
+- **Recherchez d’abord la plate.** La technologie de chacune de ces 13 pièces demande aussi celle de la plate. Une pièce recherchée plus tôt le reste, mais ses plates demandent la technologie de la plate.
 - **Un premier départ.** Environ 5 roquettes N.I.K.E. (une fabrication) donnent les 10 Dark Matter que la recette de la plate demande.
 - **Une pièce entière.** Une pièce du dernier palier contient 15 Dark Matter (3 plates), soit 7,5 roquettes N.I.K.E. en moyenne.
 
@@ -26,7 +26,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 | **Ce que c’est** | Une ressource Épique | Une ressource Mythique |
 | **D’où elle vient** | Le trou noir du secteur dangereux 4, pour les roquettes N.I.K.E. tirées dedans ; un peu de l’Essaim Dormant et des Inert Masses du Dormant Swamp | L’Assemblage, pressée avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium |
 | **Ce qu’on fait d’abord** | Rechercher la N.I.K.E. (3 h, sans Dark Matter) et en fabriquer | Rechercher la recette de la plate (1 j, 10 Dark Matter) |
-| **À quoi elle sert** | Les coûts de recherche (83 technologies, 904 en tout) et la plate | Le dernier palier de chaque chaîne d’amélioration : 3 pour chacune des 12 pièces ; la Forge : 2 pour chacun de ses deux paliers les plus hauts |
+| **À quoi elle sert** | Les coûts de recherche (83 technologies, 904 en tout) et la plate | Le dernier palier de chaque chaîne d’amélioration : 3 pour chacune des 13 pièces ; la Forge : 2 pour chacun de ses deux paliers les plus hauts |
 
 ## Comment obtenir de la Dark Matter {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@ Le wipe laisse intacte la Dark Matter de votre Centre.
 
 ## Comment obtenir une Dark Matter Plate {#how-to-get-a-plate}
 
-1. **Recherchez la recette.** Dans la vue Recherche, la technologie **Dark Matter Plate** se trouve dans le groupe **Ressources** de l’arbre. Elle prend 1 jour et demande 10 Dark Matter, que vous ajoutez d’abord au Centre. Les technologies des 12 pièces du dernier palier la demandent aussi.
+1. **Recherchez la recette.** Dans la vue Recherche, la technologie **Dark Matter Plate** se trouve dans le groupe **Ressources** de l’arbre. Elle prend 1 jour et demande 10 Dark Matter, que vous ajoutez d’abord au Centre. Les technologies des 13 pièces du dernier palier la demandent aussi.
 2. **Rassemblez ce qu’il faut pour une plate :** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate et 250 Thulium. La Fonderie de votre Skylab fait les deux plaques renforcées à partir du minerai ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Fabriquez-la à l’Assemblage.** Choisissez **Ressources** dans le filtre Catégorie. Une fabrication donne une plate en 120 secondes.
 4. **Utilisez-la.** Le dernier palier de chaque chaîne d’amélioration demande **3 plates** ([ci-dessous](#what-the-last-tier-asks-for)). [La Forge](/wiki/06-Items/Forge.md) demande **2 plates** pour faire passer un objet de Divin à Fracturant (75 % de réussite, 200 000 crédits) et **2 de plus** de Fracturant à Éternel (60 % de réussite, 500 000 crédits et 2 000 Thulium). Une étape qui échoue rend la moitié de ses matériaux, arrondie à l’inférieur : une plate.
 
 ## Ce que demande le dernier palier {#what-the-last-tier-asks-for}
 
-Le dernier palier de chaque chaîne d’amélioration demande **3 Dark Matter Plates** et aucune plaque de Velkonite : ce sont les paliers d’avant qui prennent celles-ci. 12 pièces :
+Le dernier palier de chaque chaîne d’amélioration demande **3 Dark Matter Plates** et aucune plaque de Velkonite : ce sont les paliers d’avant qui prennent celles-ci. 13 pièces :
 
 - **Amplis laser :** Damage Amp IV, Crit Amp IV et Penetration Amp IV, chacun à partir de l’ampli du palier III ([Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **Le Helios Beam**, à partir d’un Starfire-III, avec ses 18 Orvium Reinforced Plates ([Lasers et munitions](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -82,6 +82,7 @@ Le dernier palier de chaque chaîne d’amélioration demande **3 Dark Matter Pl
 - **Le Heavy Shield Core**, à partir d’un Basic Shield Core ([Boucliers](/wiki/06-Items/Shields.md#shield-cores)).
 - **Propulseurs :** Impulse Thruster IV et Momentum Thruster IV, chacun à partir du propulseur du palier III ([Propulsion](/wiki/06-Items/Propulsion.md#thrusters)).
 - **L’Engine III**, à partir d’un Engine II ([Propulsion](/wiki/06-Items/Propulsion.md#engines)).
+- **L’Adaptive Core III**, à partir d’un Adaptive Core II ([Boucliers](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU :** Extra Slots CPU III, avec 6 Orvium Reinforced Plates, et Base CPU II, avec 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
 **Ceux-ci ne demandent pas de Dark Matter Plates :** le Quantum Laser III et le Starfire-III (plaques de Velkonite), les paliers II et III de chaque chaîne (1 ou 2 plaques de Velkonite pour un ampli, 2 ou 4 pour une cellule ou un propulseur), le Jump CPU, l’Auto-Repair CPU, Extra Slots CPU I et II, Base CPU I, les 16 formations de drones et les vaisseaux. [La Forge](/wiki/06-Items/Forge.md) garde ses 2 plates à chacun de ses deux paliers les plus hauts.
@@ -129,4 +130,4 @@ Une première amélioration à partir de rien, c’est la recette (10) et deux p
 - [Roquettes](/wiki/06-Items/Rockets.md#the-craft-only-rockets) : la N.I.K.E. et la N.U.K.E.
 - [Ressources](/wiki/06-Items/Resources.md#dark-matter) : la Dark Matter et la Dark Matter Plate parmi les autres ressources.
 - [La Forge](/wiki/06-Items/Forge.md) : les 2 plates de ses deux paliers les plus hauts.
-- [Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Boucliers](/wiki/06-Items/Shields.md), [Propulsion](/wiki/06-Items/Propulsion.md) et [Extras](/wiki/06-Items/Extras.md#research-cpus) : les recettes des 12 pièces du dernier palier.
+- [Lasers et munitions](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Boucliers](/wiki/06-Items/Shields.md), [Propulsion](/wiki/06-Items/Propulsion.md) et [Extras](/wiki/06-Items/Extras.md#research-cpus) : les recettes des 13 pièces du dernier palier.

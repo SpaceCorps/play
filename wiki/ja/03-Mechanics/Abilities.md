@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: アビリティ -->
 # 艦のアクティブアビリティ {#active-ship-abilities}
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、それぞれ Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そして Dark Matter Plate 3枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
+Engine II と、ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、それぞれ Engine I、Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そしてプレート（Engine II には Velkonite Reinforced Plate 2枚、そのほかには Dark Matter Plate 3枚：[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
 
 ## クールダウンと制限 {#cooldowns-and-limits}
 

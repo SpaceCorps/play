@@ -12,8 +12,8 @@
 - **What it is for.** 83 technologies of the Research Centre ask for it, 5 to 40 each and 904 in all, and Assembly presses it into the Dark Matter Plate. From season day 11 a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) burns it too, as fuel: a tank is a few Dark Matter, and it is lost if the excavator is destroyed.
 - **In the Research Centre** you add Dark Matter from your cargo (with your ship landed) before you press Start. The research takes it when it starts.
 - **A Dark Matter Plate is a different item.** Research its recipe first (the Resources group of the tree: 1 day and 10 Dark Matter), then craft it in Assembly from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium.
-- **What a plate is for.** The last tier of every upgrade chain asks for **3**: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Helios Beam, the Extra Slots CPU III and the Base CPU II (12 pieces). The Forge asks for 2 of them to raise an item from Godly to Rupturing, and 2 more from Rupturing to Eternal.
-- **Research the plate first.** The technology of each of those 12 pieces needs the plate's technology too. A piece you researched earlier stays researched, but its plates need the plate's technology.
+- **What a plate is for.** The last tier of every upgrade chain asks for **3**: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II (13 pieces). The Forge asks for 2 of them to raise an item from Godly to Rupturing, and 2 more from Rupturing to Eternal.
+- **Research the plate first.** The technology of each of those 13 pieces needs the plate's technology too. A piece you researched earlier stays researched, but its plates need the plate's technology.
 - **A first start.** About 5 N.I.K.E. rockets (one craft) give the 10 Dark Matter that the Plate's recipe asks for.
 - **A whole piece.** One last-tier piece holds 15 Dark Matter (3 plates), 7.5 N.I.K.E. rockets on average.
 
@@ -24,7 +24,7 @@
 | **What it is** | An Epic resource | A Mythical resource |
 | **Where it comes from** | The black hole in Danger Sector 4, for N.I.K.E. rockets fired into it; a little from the Dormant Swarm and from the Inert Masses of the Dormant Swamp | Assembly, pressed from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate, and 250 Thulium |
 | **What you do first** | Research the N.I.K.E. (3 h, no Dark Matter) and craft some | Research the Plate's recipe (1 d, 10 Dark Matter) |
-| **What it is for** | Research costs (83 technologies, 904 in all) and the plate | The last tier of every upgrade chain: 3 for each of 12 pieces; the Forge: 2 for each of its top two steps |
+| **What it is for** | Research costs (83 technologies, 904 in all) and the plate | The last tier of every upgrade chain: 3 for each of 13 pieces; the Forge: 2 for each of its top two steps |
 
 ## How to get Dark Matter
 
@@ -65,14 +65,14 @@ The wipe keeps the Dark Matter in your Centre.
 
 ## How to get a Dark Matter Plate {#how-to-get-a-plate}
 
-1. **Research the recipe.** In the Research view the technology **Dark Matter Plate** is in the **Resources** group of the tree. It takes 1 day and asks for 10 Dark Matter, which you add to the Centre first. The technologies of the 12 last-tier pieces ask for it too.
+1. **Research the recipe.** In the Research view the technology **Dark Matter Plate** is in the **Resources** group of the tree. It takes 1 day and asks for 10 Dark Matter, which you add to the Centre first. The technologies of the 13 last-tier pieces ask for it too.
 2. **Gather what a plate takes:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate and 250 Thulium. The Skylab's Forgery makes both reinforced plates from ore ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Craft it in Assembly.** Choose **Resources** in the Category filter. A craft makes one plate in 120 seconds.
 4. **Use it.** The last tier of every upgrade chain asks for **3 plates** ([below](#what-the-last-tier-asks-for)). [The Forge](/wiki/06-Items/Forge.md) asks for **2 plates** to raise an item from Godly to Rupturing (75 % success, 200,000 Credits) and **2 more** from Rupturing to Eternal (60 % success, 500,000 Credits and 2,000 Thulium). A step that fails gives half of its materials back, rounded down: one plate.
 
 ## What the last tier asks for
 
-The last tier of every upgrade chain asks for **3 Dark Matter Plates**, and for no Velkonite plates: the tiers before it are the ones that take those. 12 pieces:
+The last tier of every upgrade chain asks for **3 Dark Matter Plates**, and for no Velkonite plates: the tiers before it are the ones that take those. 13 pieces:
 
 - **Laser amps:** Damage Amp IV, Crit Amp IV and Penetration Amp IV, each made from the amp of tier III ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **The Helios Beam**, made from a Starfire-III, with its 18 Orvium Reinforced Plates ([Lasers & Ammo](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -80,6 +80,7 @@ The last tier of every upgrade chain asks for **3 Dark Matter Plates**, and for 
 - **The Heavy Shield Core**, made from a Basic Shield Core ([Shields](/wiki/06-Items/Shields.md#shield-cores)).
 - **Thrusters:** Impulse Thruster IV and Momentum Thruster IV, each made from the thruster of tier III ([Propulsion](/wiki/06-Items/Propulsion.md#thrusters)).
 - **The Engine III**, made from an Engine II ([Propulsion](/wiki/06-Items/Propulsion.md#engines)).
+- **The Adaptive Core III**, made from an Adaptive Core II ([Shields](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPUs:** Extra Slots CPU III, with 6 Orvium Reinforced Plates, and Base CPU II, with 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
 **These do not take Dark Matter Plates:** the Quantum Laser III and the Starfire-III (Velkonite plates), tiers II and III of every chain (1 or 2 Velkonite plates for an amp, 2 or 4 for a cell or a thruster), the Jump CPU, the Auto-Repair CPU, Extra Slots CPU I and II, Base CPU I, the 16 drone formations and the ships. [The Forge](/wiki/06-Items/Forge.md) keeps its 2 plates on each of its top two steps.
@@ -127,4 +128,4 @@ A first upgrade from nothing is the recipe (10) and two plates (10): 20 Dark Mat
 - [Rockets](/wiki/06-Items/Rockets.md#the-craft-only-rockets): the N.I.K.E. and the N.U.K.E.
 - [Resources](/wiki/06-Items/Resources.md#dark-matter): Dark Matter and the Dark Matter Plate among the other resources.
 - [The Forge](/wiki/06-Items/Forge.md): the 2 plates of its top two steps.
-- [Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Shields](/wiki/06-Items/Shields.md), [Propulsion](/wiki/06-Items/Propulsion.md) and [Extras](/wiki/06-Items/Extras.md#research-cpus): the recipes of the 12 last-tier pieces.
+- [Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Shields](/wiki/06-Items/Shields.md), [Propulsion](/wiki/06-Items/Propulsion.md) and [Extras](/wiki/06-Items/Extras.md#research-cpus): the recipes of the 13 last-tier pieces.

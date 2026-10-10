@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54910cbb508beed2 -->
+<!-- wiki-i18n source: 6227a03e20405285 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,6 +38,7 @@ Os boosters usam um sistema de escala aditiva:
 1. **Os percentuais de bônus se somam**: se você comprar dois boosters diferentes que dão +10% de dano de laser cada um, receberá um bônus total de **+20% de dano de laser**.
 2. **As durações se empilham de forma multiplicativa**: comprar o _mesmo_ booster várias vezes prolonga a duração dele. Os temporizadores de boosters _diferentes_ correm em paralelo.
 3. **Visualização dos temporizadores**: os boosters ativos aparecem no HUD, na janela Boosters, que mostra o total dos bônus ativos agrupados e o próximo evento de expiração.
+4. **Os números os contam**: o dano, os escudos, a recarga do escudo, a absorção, a velocidade e o casco do Hangar, e a sua página de piloto, incluem seus boosters ativos, os buffs da Loja de PR e os reforços do seu clã; uma pequena etiqueta *com boosters* no card de estatísticas de combate indica isso. Penetração, chance de crítico e alcance não mudam com os boosters.
 
 ---
 

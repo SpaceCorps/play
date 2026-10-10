@@ -32,19 +32,19 @@ The last three columns are what the converted ship has: its own hull and base sp
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13,500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
 
 The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCKY or LICH), and it must not be the ship you fly: make another ship active first. A wrecked ship cannot be converted.
 
@@ -77,4 +77,4 @@ Each design has a model of its own, its ship's with a few changes that show what
 
 ## Shop, Auction and points
 
-A design is never sold in the Shop and never listed on the [Auction](/wiki/03-Mechanics/Auction.md): you make it from your own ship. A kill of a design pays the same PvP points as a kill of its ship.
+A design is never sold in the Shop and never listed on the [Auction](/wiki/03-Mechanics/Auction.md): you make it from your own ship. The Shop's Ships category does show the designs of each ship under its card (a picture, what the design changes and the conversion price in Thulium), for information; the conversion itself is made in Assembly. A kill of a design pays the same PvP points as a kill of its ship.

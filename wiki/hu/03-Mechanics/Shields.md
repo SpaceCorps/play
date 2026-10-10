@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fa02f72ab515dfbf -->
+<!-- wiki-i18n source: 0f0413a5a5f080ae -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 \[\text{Pajzsarány} = \text{korlátozás}(\text{Elnyelés} - \text{Áthatolás};\ 0;\ 100\%)\]
 
 - A pajzsok legfeljebb `round(damage x share)` sebzést vesznek fel a találatból; a többit a hajótest kapja. Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át, és ha a pajzsok 0-n állnak, az egész sebzés közvetlenül az életerőt éri.
-- **Honnan jön az áthatolás**: az egycélpontos rakéták *pajzsáthatolásából* (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; a területi robbanásoknak nincs, lásd [Rakéták](/wiki/06-Items/Rockets.md)) és a lézerlőszerből (Ultra Core 5%, Experimental Fusion Core 10%; lásd [Lézerek és lőszer](/wiki/06-Items/Lasers.md)). Az idegeneknek nincs, és az x1 és x2 lőszernek sincs. Egy lézertalálat levonja a lövő lézereinek Penetration Amp-jeit is (+2% és +8% között foglalatonként, a lézerei átlaga) és egy drónformáció áthatolását (Gemini +9%, Stiletto +16%); egy közvetlen rakéta a formációét a sajátjához adja. **Semmi sem korlátozza az összeget**: a pajzsok az elnyelésből mindezt levonva veszik át a találatot, akár egészen semmiig ([hogyan adódik össze egy lézertalálat](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Példák**: 80% elnyelés egy Lancet III (35%) ellen: a pajzsok a találat 45%-át fogják fel, a hajótest az 55%-át. 100% elnyelés ellene: 65% és 35%. 112% 12% áthatolás ellen: a teljes találat. 45% (egy Light Shield Core önmagában) 35% ellen: 10% a pajzsra, a többi a hajótestre. Egy rakéta önmagában egyetlen magot sem hatol át teljesen, de egy Lancet III Stiletto-val (35% + 16% = 51%) a találatból semmit sem hagy egy Light Shield Core-nak önmagában (45%), és a legjobb lézer (50%) sem: e lézer ellen a legjobb pajzs (80%) a találat 30%-át, a hajótest 70%-át kapja.
+- **Honnan jön az áthatolás**: az egycélpontos rakéták *pajzsáthatolásából* (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; a területi robbanásoknak nincs, lásd [Rakéták](/wiki/06-Items/Rockets.md)) és a lézerlőszerből (Ultra Core 5%, Experimental Fusion Core 10%; lásd [Lézerek és lőszer](/wiki/06-Items/Lasers.md)). Az idegeneknek nincs, és az x1 és x2 lőszernek sincs. Egy lézertalálat levonja a lövő lézereinek Penetration Amp-jeit is (+3% és +12% között foglalatonként, a lézerei átlaga) és egy drónformáció áthatolását (Gemini +9%, Stiletto +16%); egy közvetlen rakéta a formációét a sajátjához adja. **Semmi sem korlátozza az összeget**: a pajzsok az elnyelésből mindezt levonva veszik át a találatot, akár egészen semmiig ([hogyan adódik össze egy lézertalálat](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Példák**: 80% elnyelés egy Lancet III (35%) ellen: a pajzsok a találat 45%-át fogják fel, a hajótest az 55%-át. 100% elnyelés ellene: 65% és 35%. 112% 12% áthatolás ellen: a teljes találat. 45% (egy Light Shield Core önmagában) 35% ellen: 10% a pajzsra, a többi a hajótestre. Egy rakéta önmagában egyetlen magot sem hatol át teljesen, de egy Lancet III Stiletto-val (35% + 16% = 51%) a találatból semmit sem hagy egy Light Shield Core-nak önmagában (45%), és a legjobb lézer (62%) sem: e lézer ellen a legjobb pajzs (80%) a találat 18%-át, a hajótest 82%-át kapja.
 - Az idegeneknek nincs elnyelés értékük: minden találatot 80% / 20% arányban osztanak meg, a találat áthatolását levonva.
 - A Siphon Battery sebzése kizárólag a pajzsból jön: az elnyelés és az áthatolás nem játszik szerepet.
 
-**Hol nem kapnak semmit a pajzsok.** Az elnyeléssel egyenlő vagy annál nagyobb áthatolás semmit sem hagy a találatból a pajzsoknak: a hajótest viseli az egészet. A táblázat azt mutatja, mennyit kapnak a pajzsok a legjobb lézer (50%) és a legjobb egycélpontos rakéta (egy Stiletto-val párosított Lancet III vagy Rivet III, 51%) egyetlen találatából:
+**Hol nem kapnak semmit a pajzsok.** Az elnyeléssel egyenlő vagy annál nagyobb áthatolás semmit sem hagy a találatból a pajzsoknak: a hajótest viseli az egészet. A táblázat azt mutatja, mennyit kapnak a pajzsok a legjobb lézer (62%) és a legjobb egycélpontos rakéta (egy Stiletto-val párosított Lancet III vagy Rivet III, 51%) egyetlen találatából:
 
-| Pajzs | Elnyelés | A pajzsok része, legjobb lézer (50%) | A pajzsok része, legjobb egycélpontos rakéta (51%) |
+| Pajzs | Elnyelés | A pajzsok része, legjobb lézer (62%) | A pajzsok része, legjobb egycélpontos rakéta (51%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 48% | 0% | 0% |
 | Heavy Shield Core | 50% | 0% | 0% |
-| A legjobb pajzs gyárilag | 80% | 30% | 29% |
-| Egy 100%-os pajzs | 100% | 50% | 49% |
-| Egy 120%-os pajzs | 120% | 70% | 69% |
+| A legjobb pajzs gyárilag | 80% | 18% | 29% |
+| Egy 100%-os pajzs | 100% | 38% | 49% |
+| Egy 120%-os pajzs | 120% | 58% | 69% |
 
 #### A 100% elérése és túllépése {#reaching-and-passing-100-}
 

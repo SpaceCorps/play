@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54910cbb508beed2 -->
+<!-- wiki-i18n source: 6227a03e20405285 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,6 +38,7 @@ Les boosters reposent sur un système de cumul additif :
 1. **Les pourcentages de bonus s’additionnent** : si vous achetez deux boosters différents qui donnent chacun +10 % de dégâts laser, vous obtenez un bonus total de **+20 % de dégâts laser**.
 2. **Les durées se cumulent de façon multiplicative** : acheter plusieurs fois le _même_ booster prolonge sa durée active. Les minuteries de boosters _différents_ tournent en parallèle.
 3. **Vue des minuteries** : les boosters actifs s’affichent dans le HUD, dans la fenêtre Boosters, avec le total des bonus actifs regroupés et la prochaine expiration.
+4. **Les chiffres les comptent** : les dégâts, les boucliers, la recharge du bouclier, l’absorption, la vitesse et la coque du Hangar, ainsi que votre page de pilote, incluent vos boosters actifs, vos bonus de la boutique de saison et les boosts de votre clan ; une petite étiquette *avec boosters* sur la carte des stats de combat l’indique. La pénétration, le taux de critique et la portée ne changent pas avec les boosters.
 
 ---
 

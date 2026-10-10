@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
+<!-- wiki-i18n source: 1591c57b813b2ba9 -->
 <!-- wiki-i18n title: Essaim Pirate -->
 # Essaim Pirate {#pirate-swarm}
 
@@ -32,12 +32,12 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 - **Tirez sur le boss, pas sur les Scouts.** Les Scouts soignent le boss, mais ce soin est faible à côté de sa coque, et un nouveau Scout arrive aussi souvent que le dit la liste *D’un coup d’œil* : un groupe qui élimine d’abord les Scouts ne prend jamais d’avance sur eux, et seul un très grand groupe peut les éliminer tous et met pourtant plus de temps à finir le boss que celui qui les a laissés tranquilles. Les Scouts vous coûtent du temps, ils ne décident pas du combat.
 - **Éloignez les Scouts.** Un Scout ne soigne que tant qu’il est à portée du boss, donc un Scout qui vous suit hors de cette portée ne soigne rien, et un Ostirion est plus rapide qu’un Scout.
 - **Restez en mouvement.** La roquette du boss est droite et non guidée : un vaisseau qui reste en mouvement l’esquive, un vaisseau immobile est touché.
-- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 peuvent l’abattre en environ cinq minutes dans Alpha, mais de justesse et seulement tant que les coups se répartissent : un trio qui laisse un pilote encaisser tout le feu perd. Cinq l’abattent en trois à quatre minutes ; un Ostirion seul n’y arrive pas, un Paragon seul si. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
+- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 le perdent sur `x-3` même tant que les coups se répartissent ; quatre l’abattent en environ quatre minutes dans Alpha, et trois peuvent encore y arriver sur `x-2`, mais de justesse. Avec des munitions x4, trois suffisent aussi sur `x-3` (environ deux minutes et demie). Cinq l’abattent en environ trois minutes quand les coups se répartissent et en un peu plus de quatre quand un pilote encaisse tout le feu, et perdent alors trois vaisseaux : un groupe qui laisse un pilote encaisser tout le feu en demande cinq. Dans Beta il faut six pilotes et dans Gamma sept, les coups étant répartis (le boss y est plus grand et ses Scouts soignent davantage). Un Ostirion seul n’y arrive pas, un Paragon seul si. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
 - **Le boss revient** après le délai de la liste *D’un coup d’œil*, dans le même secteur.
 
 ## Récompenses et butin {#rewards-and-drops}
 
-Le Pirate Boss paie à la mesure du combat qu’il est : une minute de combat contre lui paie plus qu’une minute de combat contre un Goombah. Le gain est réparti selon les dégâts entre les pilotes qui l’ont combattu ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Sa caisse est pour le pilote qui a infligé le plus de dégâts et peut contenir une **Reinforced Hull Plate**, des roquettes et des munitions. Les Scouts paient peu et ne laissent rien.
+Le Pirate Boss paie à la mesure du combat qu’il est : une minute de combat contre lui paie plus qu’une minute de combat contre un Goombah. Le gain est réparti selon les dégâts entre les pilotes qui l’ont combattu ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Sa caisse est pour le pilote qui a infligé le plus de dégâts et peut contenir une **Reinforced Hull Plate**, des roquettes et des munitions. Sa caisse vaut environ deux cinquièmes de ce que paie l’élimination elle-même. Les Scouts paient peu et ne laissent rien.
 
 ## Les valeurs {#the-numbers}
 
@@ -71,17 +71,17 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50 % | 1 |
 | L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 5–10 |
-| L’un de Advanced Plasma et Siphon Battery, tiré au hasard | 100 % | 500–1 000 |
+| L’un de Advanced Plasma et Siphon Battery, tiré au hasard | 100 % | 1 000–2 000 |
 
 ### Pirate Scout
 
-Base : Kitefin, avec 50 % de sa coque et 75 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine.
+Base : Kitefin, avec 50 % de sa coque et 113 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Coque | 12 000 | 18 000 | 24 000 |
 | Bouclier | 9 818 | 14 727 | 19 636 |
-| Dégâts des lasers (une salve par seconde) | 147 | 221 | 294 |
+| Dégâts des lasers (une salve par seconde) | 221 | 332 | 442 |
 | Vitesse | 175 | 175 | 175 |
 | Portée des lasers | 700 | 700 | 700 |
 | Rayon d’aggro | 700 | 700 | 700 |

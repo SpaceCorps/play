@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: 경매장 -->
 # 경매장 {#auction}
 
@@ -31,7 +31,7 @@
 
 격납고의 **거래 가능한 것만** 칩은 팔 수 있는 것만 보여 주고, 표시가 붙은 아이템의 휴지통 옆 **망치**는 그 아이템의 경매장 판매 창을 엽니다. 어셈블리에서는 결과물이 거래 가능한 레시피에 그렇게 표시되고, 부족한 재료에는 그 이름을 검색창에 넣어 경매장을 여는 링크가 있습니다.
 
-경매장이 생겼을 때(0.4.12), 이미 가지고 있던 상점에서 팔지 않는 장비와 자원에는 한 번 표시가 붙었습니다. 다음은 붙지 않았습니다. 상점이 한때 팔았거나, 가진 것에 산 것과 얻은 것이 섞여 있기 때문입니다. Quantum Laser III, Absorption Shield Cell II와 III, Impulse Thruster II와 III, 두 종류의 Reinforced Plate, 그리고 파일럿마다 가장 오래된 Base CPU I(스타터 키트의 것)입니다. 이것들을 새로 얻거나 제작한 것에는 표시가 붙습니다.
+경매장이 생겼을 때(0.4.12), 이미 가지고 있던 상점에서 팔지 않는 장비와 자원에는 한 번 표시가 붙었습니다. 다음은 붙지 않았습니다. 상점이 한때 팔았거나, 가진 것에 산 것과 얻은 것이 섞여 있기 때문입니다. Quantum Laser III, Absorption Shield Cell II와 III, Engine II, Adaptive Core II, Impulse Thruster II와 III, 두 종류의 Reinforced Plate, 그리고 파일럿마다 가장 오래된 Base CPU I(스타터 키트의 것)입니다. 이것들을 새로 얻거나 제작한 것에는 표시가 붙습니다.
 
 ## 팔 수 있는 것 {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 
 ## 매시간의 로트 {#the-hourly-lots}
 
-로트는 게임이 직접 내놓는 물건으로, 탄약, 로켓, EMP Charge를 매시간 입찰로 팝니다. 상점보다 싸게 탄약을 구하는 방법이자, 낙찰가가 소멸되므로 싱크이기도 합니다. 아래 하루 표에 있는 로트만 열립니다(x1이나 x4 탄약, Siphon Battery, 특수 로켓은 절대 나오지 않습니다). 통화는 상점의 것입니다. 로켓 로트는 그 로켓을 가질 수 있는 최대 수(상점의 묶음)를 넘지 않으며, 넘게 되는 입찰은 거절됩니다. 그러니 그 로켓을 적게 가지고 있을 때 로켓 로트에 입찰하세요.
+로트는 게임이 직접 내놓는 물건으로, 탄약, 로켓, EMP Charge를 매시간 입찰로 팝니다. 상점보다 싸게 탄약을 구하는 방법이자, 낙찰가가 소멸되므로 싱크이기도 합니다. 아래 하루 표에 있는 로트만 열립니다(x1이나 x4 탄약, Siphon Battery, 특수 로켓은 절대 나오지 않습니다). 통화는 상점의 것입니다. 이미 무엇을 가지고 있든 어떤 로트에나 입찰할 수 있습니다. 낙찰받은 로트는 상점에서 살 수 있는 묶음 한도를 넘더라도 전부 내 것이 됩니다.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - UTC 정시마다 새 로트가 열리고 4시간 동안 열려 있어서, 동시에 4개가 열려 있습니다.
-- 시작가는 상품의 상점 가격의 40%입니다. 이후 입찰은 최고 입찰가보다 5% 이상 높아야 하고, 100 크레딧 또는 1 Thulium 이상 더 많아야 합니다.
+- 시작가는 상품의 상점 가격의 20%입니다. 이후 입찰은 최고 입찰가보다 5% 이상 높아야 하고, 100 크레딧 또는 1 Thulium 이상 더 많아야 합니다.
 - 입찰금은 즉시 지불되고 보관됩니다. 누군가 더 높게 부르면 즉시 돌려받습니다.
 - 로트 종료 전 마지막 2분 안에 입찰하면 종료가 입찰 2분 뒤로 미뤄지며, 최대 5번까지입니다.
 - 낙찰받은 것은 비행을 위한 것이지 거래를 위한 것이 아닙니다. 절대 거래 가능이 되지 않습니다. 낙찰가는 소멸됩니다. 아무도 입찰하지 않은 로트는 팔리지 않고, 누구에게도 비용이 들지 않습니다.
@@ -165,34 +165,36 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 
 | UTC 시각 | 로트 | 전체 크기 | 지불 통화 | 전체 크기일 때 시작가 |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 2,500 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 02:00 | Lancet I | 12,500 | 크레딧 | 2,500,000 크레딧 |
-| 03:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 04:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 05:00 | Rivet II | 5,000 | 크레딧 | 1,600,000 크레딧 |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 08:00 | Ember I | 12,500 | 크레딧 | 2,500,000 크레딧 |
-| 09:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 10:00 | Scatter II | 5,000 | 크레딧 | 1,600,000 크레딧 |
-| 11:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 13:00 | Lancet III | 1,250 | Thulium | 2,500 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 4,000 Thulium |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 17:00 | Rivet I | 12,500 | 크레딧 | 2,500,000 크레딧 |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 19:00 | Ember II | 5,000 | 크레딧 | 1,600,000 크레딧 |
-| 20:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
+| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 02:00 | Lancet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 05:00 | Rivet II | 5,000 | 크레딧 | 800,000 크레딧 |
+| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 08:00 | Ember I | 12,500 | 크레딧 | 1,250,000 크레딧 |
+| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 10:00 | Scatter II | 5,000 | 크레딧 | 800,000 크레딧 |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
+| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
+| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 17:00 | Rivet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
+| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 19:00 | Ember II | 5,000 | 크레딧 | 800,000 크레딧 |
+| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 경매장을 쓰는 파일럿이 적을 때는 로트도 작아서, 소수의 파일럿에게 매시간 수천 발의 탄약이 제시되는 일은 없습니다. 보는 파일럿이 늘수록 커집니다.
+
+**최대 입찰가로 입찰하기.** 입찰 창에서 *최대 입찰가까지 자동으로 입찰*을 켜고 지불할 수 있는 최대 금액을 입력하세요. 그러면 경매가 대신 입찰합니다. 로트가 받아 주는 가장 낮은 입찰가로 입찰하고, 누군가 더 높게 부를 때마다 가장 높은 입찰가보다 최소 인상폭만큼 높게, 최대 입찰가까지만 다시 입찰합니다. 선두가 되는 입찰가는 다음으로 높은 최대 입찰가를 이기는 가장 낮은 금액이며, 내 최대 입찰가가 아닙니다. 100에서 시작한 로트에서 최대 입찰가가 500과 800 크레딧이면, 높은 쪽은 800이 아니라 600으로 선두입니다. 최대 입찰가가 같으면 먼저 설정한 쪽이 이깁니다. 최대 입찰가 전액은 설정할 때 지갑에서 묶이므로 돈이 모자라 자동 입찰이 실패하는 일은 없습니다. 로트가 끝나면 낙찰가만 내고 나머지는 돌아오며, 누군가 최대 입찰가를 넘으면 전액이 즉시 돌아오고 알림이 옵니다. 내가 선두인 로트에서는 **최대 입찰가** 버튼으로 언제든 최대 입찰가를 올리거나 현재 입찰가까지 내릴 수 있습니다. 최대 입찰가를 정하는 것은 입찰이 아니지만, 연장 규칙에는 경매가 대신 한 입찰을 포함해 모든 입찰이 셈에 들어갑니다. 최대 입찰가를 정할 때는 전용의 조용한 소리가 나며, 효과음 볼륨을 따릅니다.
 
 ## 시즌과 초기화 {#the-season-and-the-wipe}
 

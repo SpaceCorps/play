@@ -108,10 +108,10 @@ Equip these directly into a laser's slot to augment its characteristics. There a
 
 | Name | Rarity | Shield Penetration | Cost |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Shoddy | +2% | 15,000 Credits |
-| **Penetration Amp II** | Uncommon | +4% | Craftable Only |
-| **Penetration Amp III** | Rare | +6% | Craftable Only |
-| **Penetration Amp IV** | Epic | +8% | Craftable Only |
+| **Penetration Amp I** | Shoddy | +3% | 15,000 Credits |
+| **Penetration Amp II** | Uncommon | +6% | Craftable Only |
+| **Penetration Amp III** | Rare | +9% | Craftable Only |
+| **Penetration Amp IV** | Epic | +12% | Craftable Only |
 
 **Only the first tier of each family is sold**, in the Shop. The other three are made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) out of the amp one tier below, once you have researched their technology in the Skylab ([Research](/wiki/03-Mechanics/Research.md)). Each step takes Thulium, what the aliens drop and plates (Velkonite Reinforced Plates from your Skylab for tiers II and III, 3 Dark Matter Plates for tier IV), and the new amp keeps the enchant tier of the amp it uses up while its buffs are rolled again ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). The Penetration steps add a crystal lens. Every tier IV amp takes 3 [Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md), like the last tier of every upgrade chain, so the technology of a tier IV amp asks for the plate's technology first.
 
@@ -165,43 +165,43 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 
 Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +9%, Stiletto +16%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 24%; one Penetration Amp IV in one laser of twelve makes 0.67%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 24%.
+- **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 36%; one Penetration Amp IV in one laser of twelve makes 1%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 36%.
 - **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of the laser amps of the configuration it shows (0.0% without a Penetration Amp); ammo and formation are not in it. The **Ship window** in flight has a **Penetration** chip at the end of its bottom row (the Config and Speed chips show only an icon and a number to make room): it shows the total of a laser hit, your amps, the formation you wear and the ammo you fire, added up as you change them, and its tip lists the three parts.
-- **The best laser makes 50%.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (24%) make 50%.
-- **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 8.7 to 9.2 points instead of 8. In the best build, three Eternal ones add up to 53.6%, and every point of it counts.
+- **The best laser makes 62%.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (36%) make 62%.
+- **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points instead of 12. In the best build, three Eternal ones add up to 67.4%, and every point of it counts.
 
 | Laser volley | Ammo | Amps (3 slots) | Formation | Total |
 |---|---|---|---|---|
 | Experimental Fusion Core alone | 10% | – | – | **10%** |
 | Fusion Core + Gemini | 10% | – | 9% | **19%** |
 | Fusion Core + Stiletto (the best before the Penetration Amps) | 10% | – | 16% | **26%** |
-| Fusion Core + 3 Penetration Amp I | 10% | 6% | – | **16%** |
-| Fusion Core + 3 Penetration Amp II | 10% | 12% | – | **22%** |
-| Fusion Core + 3 Penetration Amp III | 10% | 18% | – | **28%** |
-| Fusion Core + 3 Penetration Amp IV | 10% | 24% | – | **34%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 24% | 9% | **43%** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (the best for every day) | 5% | 24% | 16% | **45%** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (the best laser) | 10% | 24% | 16% | **50%** |
+| Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
+| Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
+| Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
+| Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
+| Ultra Core + 3 Penetration Amp IV + Stiletto (the best for every day) | 5% | 36% | 16% | **57%** |
+| Fusion Core + 3 Penetration Amp IV + Stiletto (the best laser) | 10% | 36% | 16% | **62%** |
 
 What that does to the target's shields: each cell is the share of one hit that **the shields take / the hull takes**.
 
-| Defender (absorbance) | No amps | Fusion Core alone (10%) | Before: Fusion Core + Stiletto (26%) | Fusion Core + 3 Penetration Amp IV (34%) | The best laser (50%) |
+| Defender (absorbance) | No amps | Fusion Core alone (10%) | Before: Fusion Core + Stiletto (26%) | Fusion Core + 3 Penetration Amp IV (46%) | The best laser (62%) |
 |---|---|---|---|---|---|
-| Light Shield Core, no cell (45%) | 45 / 55 | 35 / 65 | 19 / 81 | 11 / 89 | 0 / 100 |
-| Heavy Shield Core, no cell (50%) | 50 / 50 | 40 / 60 | 24 / 76 | 16 / 84 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 29 / 71 | 21 / 79 | 5 / 95 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 39 / 61 | 31 / 69 | 15 / 85 |
-| The best shield out of the box (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
-| The best shield, Eternal Forge (top roll) and 34 Season Store levels (95.4%) | 95 / 5 | 85 / 15 | 69 / 31 | 61 / 39 | 45 / 55 |
-| The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
-| Any alien (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
+| Light Shield Core, no cell (45%) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, no cell (50%) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
+| The best shield out of the box (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| The best shield, Eternal Forge (top roll) and 34 Season Store levels (95.4%) | 95 / 5 | 85 / 15 | 69 / 31 | 49 / 51 | 33 / 67 |
+| The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
+| Any alien (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
 
-The best laser empties a shield core with no cell (the hull takes the whole hit); a core with a cell keeps a share of every hit, and the best shield keeps 30% of it (45% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (51%) does.
+The best laser empties a shield core with no cell and a Light Shield Core with its best cell (the hull takes the whole hit); a Heavy Shield Core with three Capacity cells keeps 3% of every hit, and the best shield keeps 18% of it (33% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (51%) does.
 
 ### When is a Penetration Amp worth a slot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**A Penetration Amp counters absorbance above about 95% (Season Store, Forge and Rampart builds). Against the best shield out of the box (80%) a Crit Amp of the same tier is still about 10% faster, and a Penetration Amp does not kill aliens faster than a Damage or Crit Amp of its tier.**
+**A Penetration Amp counters absorbance, and the higher it is, the more: against a small-hulled ship at about 95% (Season Store, Forge and Rampart builds) a Penetration loadout kills about 1.8 times faster than the best plain one, and against the best shield out of the box (80%) a trio of Penetration Amps takes about 11% less time than a trio of Crit Amps of the same tier. Against aliens it gains almost nothing.**
 
-- **It gives no damage.** On a Helios Beam, three Penetration Amp IV make 187 damage a volley (x1 ammo, the mean of the roll and the crits), where three Damage Amp IV make 356 and three Crit Amp IV 369: about half. What it buys back is the shield's share, so it pays only where the hull is small next to the shield and the absorbance is high; against a Wraith or an Ironclad, whose big hull holds anyway, a plain Damage or Crit set is faster.
-- **Aliens.** Their shields take 80% of a hit less your penetration, so it works on them too, but a Damage or Crit Amp of the tier still kills them faster.
+- **It gives no damage.** On a Helios Beam, three Penetration Amp IV make 187 damage a volley (x1 ammo, the mean of the roll and the crits), where three Damage Amp IV make 356 and three Crit Amp IV 369: about half. What it buys back is the shield's share, so it pays only where the hull is small next to the shield and the absorbance is high; against a Wraith or an Ironclad, whose big hull holds anyway, a plain Damage or Crit set is about as fast (one Penetration Amp in a laser gains 5% at most).
+- **Aliens.** Their shields take 80% of a hit less your penetration, so it works on them too, but a Damage or Crit Amp of the tier kills them as fast or faster, except a Phantasm or a Goombah fought with a formation, where one Penetration Amp in a laser gains up to 5%.
 - **What it costs.** Each Penetration Amp IV takes 3 Dark Matter Plates (15 Dark Matter), like every tier IV amp, so a Wraith that fills its 36 slots needs 108 plates, 540 Dark Matter.

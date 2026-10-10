@@ -108,7 +108,7 @@ Several modules of a kind in one configuration: the worst-ranked sets the streng
 
 <!-- abilities:end -->
 
-Rank III shields and engines (the Heavy Shield Core, Engine III) are not sold: you make them in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from a Basic Shield Core and an Engine II, with Thulium, drops and 3 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair has a fourth rank, the Repair Drone IV.
+The Engine II and the rank III shields and engines (the Heavy Shield Core, Engine III) are not sold: you make them in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Engine I, a Basic Shield Core and an Engine II, with Thulium, drops and plates (2 Velkonite Reinforced Plates for the Engine II, 3 Dark Matter Plates for the others: [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair has a fourth rank, the Repair Drone IV.
 
 ## Cooldowns and limits
 

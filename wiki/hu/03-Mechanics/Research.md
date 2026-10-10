@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
+<!-- wiki-i18n source: c6281bdd893893fa -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -29,7 +29,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenkét technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje három plate-et kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
+**A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje három plate-et kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
 A Skylabod **Kutatás** nézetében egy technológia többet mond el, mint az alábbi fák egy doboza. Vidd az egeret egy technológia fölé, és megnyílik egy kártya a kutatási idővel és az elégetett tudománnyal, alatta pedig azzal, hogy a tárgy **micsoda és mit tud**: a fajtája és a fokozata a családjában (például a négy Impulse Thruster harmadik), a leírása, az értékei úgy, ahogy a Hangár és a Bolt mutatja őket (egy lézer sebzése, kritikus esélye és hatótávja, egy pajzs kapacitása, töltődési sebessége és elnyelése, egy fúvóka sebességnövelése és sebességszorzója, egy rakéta sebzése, robbanási sugara és hatótávja, mit ad egy drónformáció és mibe kerül neked), a családja fokozatainak kis táblázata, és az, amit a Gyártás utána kér az elkészítéséhez: az idő, a kredit és a Thulium, valamint az anyagok. Így láthatod, mit ad egy fokozat, mielőtt kikutatnád. Kattints egy technológiára a kiválasztásához: a fa melletti kártya ugyanezt teljes egészében mutatja, a **Kutatás indítása** gomb alatt. Amíg egy kutatás fut, a **Sorba** gomb lép az indítás helyére: a sorba állított technológia a fán mutatja a sorszámát, a futó kutatás alatti sorkártya pedig mindet felsorolja, mindegyik mellett egy kereszttel a kivételhez. Ha a következő nem tud elindulni (a hozzá kellő Dark Matter nincs a Kutatóközpontban, vagy üres a tartály), a sor vár, és megmondja az okát, amíg ki nem javítod, és meg nem nyomod a **Sor indítása** gombot.
 
@@ -170,9 +170,14 @@ Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 18
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+Engine II => Engine III
+Adaptive Core II => Adaptive Core III
 ```
 
 ### Pajzsok és védelem {#tree-shields}
@@ -331,7 +336,7 @@ Az idejük, a Dark Matterük és az összegek a [Hajódizájnok](/wiki/03-Mechan
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 perc | 1 800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 óra | 10 800 | – |
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 óra | 36 000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 óra | 10 800 | – |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Engine II](/wiki/06-Items/Propulsion.md#engines) | B | 3 óra | 10 800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 perc | 1 800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 óra | 10 800 | – |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 óra | 36 000 | 10 |
@@ -387,18 +392,21 @@ Az idejük, a Dark Matterük és az összegek a [Hajódizájnok](/wiki/03-Mechan
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 óra | 36 000 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 nap | 86 400 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 nap | 172 800 | 40 |
+| [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30 perc | 1 800 | – |
+| [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30 perc | 1 800 | – |
+| [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 óra | 10 800 | – |
 
 Az osztályok kutatási idő szerint:
 
 | Osztály | Kutatási idő | Technológiák | Egymás után | Tudomány | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 perc | 8 | 4 óra | 14 400 | 0 |
-| B | 3 óra–6 óra | 17 | 2 nap 9 óra | 205 200 | 0 |
+| A | 30 perc | 10 | 5 óra | 18 000 | 0 |
+| B | 3 óra–6 óra | 18 | 2 nap 12 óra | 216 000 | 0 |
 | C | 10 óra | 15 | 6 nap 6 óra | 540 000 | 95 |
 | D | 1 nap–2 nap | 22 | 27 nap | 2 332 800 | 319 |
-| Összesen |  | 62 | 35 nap 19 óra | 3 092 400 | 414 |
+| Összesen |  | 65 | 35 nap 23 óra | 3 106 800 | 414 |
 
-Egymás után kutatva a teljes fa 35 nap 19 óra alatt készül el. Ha a boost végig be van kapcsolva, 17 nap 21 óra 30 perc alatt, ami 18 boost és 90 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 35 nap 23 óra alatt készül el. Ha a boost végig be van kapcsolva, 17 nap 23 óra 30 perc alatt, ami 18 boost és 90 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 

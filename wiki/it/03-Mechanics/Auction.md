@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Asta -->
 # Asta {#auction}
 
@@ -31,7 +31,7 @@ Il contrassegno è un numero di unità, non un interruttore: una pila di munizio
 
 Il filtro **Solo vendibile** dell’Hangar mostra solo ciò che puoi vendere, e il **martelletto** accanto al cestino di un oggetto contrassegnato apre per lui la scheda di vendita dell’Asta. Nell’Assemblaggio, una ricetta il cui risultato è vendibile lo dice, e un materiale che ti manca ha un collegamento che apre l’Asta con il suo nome nella ricerca.
 
-Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che il Negozio non vende, e le risorse, sono stati contrassegnati una volta. Questi no, perché il Negozio li ha venduti un tempo o perché ciò che hai mescola pezzi comprati e guadagnati: il Quantum Laser III, le Absorption Shield Cell II e III, gli Impulse Thruster II e III, le due Reinforced Plate e la Base CPU I più vecchia di ogni pilota (quella del kit iniziale). I nuovi di questi che guadagni o crei sono contrassegnati.
+Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che il Negozio non vende, e le risorse, sono stati contrassegnati una volta. Questi no, perché il Negozio li ha venduti un tempo o perché ciò che hai mescola pezzi comprati e guadagnati: il Quantum Laser III, le Absorption Shield Cell II e III, l’Engine II, l’Adaptive Core II, gli Impulse Thruster II e III, le due Reinforced Plate e la Base CPU I più vecchia di ogni pilota (quella del kit iniziale). I nuovi di questi che guadagni o crei sono contrassegnati.
 
 ## Che cosa si può vendere {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Vieni avvisato quando qualcosa si vende: da una notifica, dal suono dell’Asta 
 
 ## I lotti orari {#the-hourly-lots}
 
-I Lotti sono le offerte del gioco stesso: munizioni, razzi ed EMP Charge, ogni ora, per le offerte. Sono un modo per comprare munizioni a meno di quanto chiede il Negozio, e un pozzo: l’offerta vincente viene distrutta. Si aprono solo i lotti della tabella del giorno qui sotto (mai munizioni x1 o x4, mai Siphon Battery, mai un razzo speciale), nella valuta del Negozio. Un lotto di razzi non supera mai il massimo di quel razzo che puoi portare (la pila del Negozio), quindi un’offerta che ti farebbe superarlo viene rifiutata: fai un’offerta su un lotto di razzi quando ne porti pochi.
+I Lotti sono le offerte del gioco stesso: munizioni, razzi ed EMP Charge, ogni ora, per le offerte. Sono un modo per comprare munizioni a meno di quanto chiede il Negozio, e un pozzo: l’offerta vincente viene distrutta. Si aprono solo i lotti della tabella del giorno qui sotto (mai munizioni x1 o x4, mai Siphon Battery, mai un razzo speciale), nella valuta del Negozio. Puoi fare un’offerta su qualsiasi lotto, qualunque cosa porti già: un lotto vinto è tuo per intero, anche se ti porta sopra la pila che il Negozio ti lascia comprare.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - All’inizio di ogni ora UTC si apre un nuovo lotto, che resta aperto 4 ore, così ne sono aperti 4 insieme.
-- L’offerta iniziale è pari a 40% del prezzo di Negozio della merce. Ogni offerta successiva deve superare la più alta di almeno 5%, e di almeno 100 crediti o 1 Thulium.
+- L’offerta iniziale è pari a 20% del prezzo di Negozio della merce. Ogni offerta successiva deve superare la più alta di almeno 5%, e di almeno 100 crediti o 1 Thulium.
 - La tua offerta viene pagata subito e trattenuta. Se qualcuno rilancia, ti torna indietro subito.
 - Un’offerta negli ultimi 2 min di un lotto sposta la sua fine a 2 min dopo l’offerta, al massimo 5 volte.
 - Ciò che vinci serve per volare, non per commerciare: non è mai vendibile. L’offerta vincente viene distrutta. Un lotto su cui nessuno offre non viene venduto e non costa nulla a nessuno.
@@ -165,34 +165,36 @@ I Lotti sono le offerte del gioco stesso: munizioni, razzi ed EMP Charge, ogni o
 
 | Ora UTC | Lotto | Dimensione piena | Pagato in | Offerta iniziale a dimensione piena |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1.250 | Thulium | 2.500 Thulium |
-| 01:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 02:00 | Lancet I | 12.500 | Crediti | 2.500.000 crediti |
-| 03:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 04:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 05:00 | Rivet II | 5.000 | Crediti | 1.600.000 crediti |
-| 06:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 07:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 08:00 | Ember I | 12.500 | Crediti | 2.500.000 crediti |
-| 09:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 10:00 | Scatter II | 5.000 | Crediti | 1.600.000 crediti |
-| 11:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 12:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 13:00 | Lancet III | 1.250 | Thulium | 2.500 Thulium |
-| 14:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 15:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 16:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 17:00 | Rivet I | 12.500 | Crediti | 2.500.000 crediti |
-| 18:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 19:00 | Ember II | 5.000 | Crediti | 1.600.000 crediti |
-| 20:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 21:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 22:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
+| 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
+| 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 02:00 | Lancet I | 12.500 | Crediti | 1.250.000 crediti |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 05:00 | Rivet II | 5.000 | Crediti | 800.000 crediti |
+| 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 08:00 | Ember I | 12.500 | Crediti | 1.250.000 crediti |
+| 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 10:00 | Scatter II | 5.000 | Crediti | 800.000 crediti |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
+| 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
+| 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 17:00 | Rivet I | 12.500 | Crediti | 1.250.000 crediti |
+| 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 19:00 | Ember II | 5.000 | Crediti | 800.000 crediti |
+| 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Quando pochi piloti usano l’Asta, i lotti sono piccoli, così a una manciata di piloti non vengono offerte migliaia di munizioni ogni ora; crescono man mano che più piloti guardano.
+
+**Offrire con un massimo.** Nella finestra dell’offerta attiva *Offri automaticamente fino a un massimo* e scrivi il più che sei disposto a pagare. L’Asta offre allora per te: prende l’offerta più bassa che il lotto accetta e, ogni volta che qualcuno rilancia, offre di nuovo, un rilancio minimo sopra l’offerta più alta, fino al tuo massimo e non oltre. L’offerta con cui sei in testa è la più bassa che batte il miglior massimo successivo, non il tuo massimo: con massimi di 500 e 800 crediti su un lotto aperto a 100, il più alto è in testa a 600, non a 800. Se due massimi sono uguali, vince quello impostato per primo. Tutto il tuo massimo viene trattenuto dal portafoglio quando lo imposti, quindi nessuna offerta automatica può fallire per mancanza di denaro; quando il lotto finisce paghi solo l’offerta vincente e il resto ti torna, e se qualcuno supera il tuo massimo ti torna tutto subito e vieni avvisato. Su un lotto in cui sei in testa, il pulsante **Massimo** alza il tuo massimo in qualsiasi momento o lo abbassa fino alla tua offerta attuale. Impostare un massimo non è un’offerta, ma ogni offerta conta per la regola della proroga, anche quella dell’Asta. Impostare un massimo ha un suo suono discreto, sul volume degli effetti sonori.
 
 ## La stagione e il reset {#the-season-and-the-wipe}
 

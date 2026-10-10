@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 25436195e066ff8c -->
+<!-- wiki-i18n source: 366f14293d706328 -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
@@ -54,7 +54,7 @@ Cada tipo é uma **família**, com o nome do seu foguete comum, e a raridade é 
 - Os foguetes **guiados** precisam de um alvo selecionado dentro do **alcance de travamento** quando saem. Eles o perseguem com uma taxa de curva limitada, então uma nave rápida e distante pode escapar de um foguete barato. Se o alvo morre, sai ou chega a uma zona segura, o foguete continua voando reto e não escolhe outro.
 - Os foguetes **retos** não precisam de alvo e ignoram o que você selecionou: eles sempre voam em direção ao seu **cursor**, ao ponto sob ele na visão de voo. **Clique no slot de um foguete reto para armá-lo** (o slot ganha uma moldura branca e uma mira, e o cursor do mouse vira uma mira sobre o espaço), depois **clique no espaço**: o foguete voa em direção ao ponto em que você clicou e a sua nave fica onde está. Esc, um clique direito ou o mesmo slot de novo o solta. Se os foguetes ainda estão recarregando, o clique apenas avisa isso e o foguete continua armado. As teclas numéricas e **Disparar foguete** disparam na hora em direção ao último ponto que o cursor teve na visão de voo; antes de o cursor ter passado por ela, eles voam para onde a sua nave **aponta**. Eles voam reto, então uma nave que cruza em velocidade pode desviar deles.
 - Um foguete de **alvo único** atinge a primeira nave que puder atingir (um guiado, só o alvo dele). Um foguete de **explosão em área** explode ao lado da primeira nave que encontra, no ponto para onde você o apontou, ou onde o voo dele termina, e fere toda nave dentro do seu **raio da explosão**: dano total no centro, metade dele na borda. O anel que a explosão desenha no mapa é o alcance exato dela.
-- **Asteroides.** Um foguete disparado contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) atinge esse asteroide e nada mais, e um foguete que não é disparado contra um atravessa todos os asteroides. Os doze foguetes da loja e o N.U.K.E. podem quebrar um; o N.I.K.E. não. Seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave: a ferramenta para esse trabalho é o foguete.
+- **Asteroides.** Um foguete disparado contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) voa até ele, e o primeiro asteroide no caminho de qualquer foguete o detém e recebe o impacto no lugar da nave que está atrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Os doze foguetes da loja e o N.U.K.E. podem quebrar um; o N.I.K.E. não pode ser disparado contra um e voa por cima deles. Seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave: a ferramenta para esse trabalho é o foguete.
 
 ## Os doze foguetes {#the-twelve-rockets}
 

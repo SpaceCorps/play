@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aff32f1e7e47620e -->
+<!-- wiki-i18n source: 7a131032ce9f07fb -->
 <!-- wiki-i18n title: Escudos -->
 # Escudos e defesa {#shields-defense}
 
@@ -16,8 +16,8 @@ Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
 Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Absorption Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
@@ -28,7 +28,7 @@ Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | resea
 Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
-Adaptive Core I -> Adaptive Core II -> Adaptive Core III
+Adaptive Core I => Adaptive Core II => Adaptive Core III
 Absorption Shield Cell I => Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
 Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ```
@@ -56,9 +56,11 @@ Os núcleos adaptativos funcionam como geradores híbridos, combinando capacidad
 
 | Nome | Raridade | Bônus de escudo % | Bônus de velocidade % | Slots | Efeito especial | Custo |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Inferior | +5% | +3% | 1 | — | 100.000 créditos |
-| **Adaptive Core II** | Comum | +8% | +4% | 2 | — | 4.000 Thulium |
-| **Adaptive Core III** | Raro | +15% | +5% | 3 | — | Só por criação |
+| **Adaptive Core I** | Inferior | +4% | +2,4% | 1 | — | 100.000 créditos |
+| **Adaptive Core II** | Comum | +6,4% | +3,2% | 2 | — | Só por criação |
+| **Adaptive Core III** | Raro | +8% | +4% | 3 | — | Só por criação |
+
+O **Adaptive Core II** é feito na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Adaptive Core I, com 1.000 Thulium, 10 Ship Fragments, 1 Power Core e 2 Velkonite Reinforced Plates. O **Adaptive Core III** é feito lá a partir de um Adaptive Core II, com 2.000 Thulium, 60 Ship Fragments, 3 Power Cores e 3 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada um mantém o grau de encantamento do núcleo que consome, e os bônus dele são sorteados de novo ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retire primeiro da sua nave o núcleo que será consumido (e os propulsores e as células de dentro dele): um núcleo que está encaixado ou que guarda módulos não é consumido.
 
 ---
 

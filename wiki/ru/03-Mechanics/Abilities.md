@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: Способности -->
 # Активные способности корабля {#active-ship-abilities}
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-Щиты и двигатели ранга III (Heavy Shield Core, Engine III) в магазине не продаются: их создают в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Basic Shield Core и Engine II за Thulium, добычу с пришельцев и 3 Dark Matter Plate ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). У Emergency Repair есть четвёртый ранг — Repair Drone IV.
+Engine II, а также щиты и двигатели ранга III (Heavy Shield Core, Engine III) в магазине не продаются: их создают в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Engine I, Basic Shield Core и Engine II за Thulium, добычу с пришельцев и пластины (2 Velkonite Reinforced Plate для Engine II, 3 Dark Matter Plate для остальных: [Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). У Emergency Repair есть четвёртый ранг — Repair Drone IV.
 
 ## Перезарядка и ограничения {#cooldowns-and-limits}
 

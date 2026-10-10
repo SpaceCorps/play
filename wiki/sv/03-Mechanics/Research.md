@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
+<!-- wiki-i18n source: c6281bdd893893fa -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -29,7 +29,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 
 <!-- research-centre:end -->
 
-**Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tolv teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver tre plattor: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
+**Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver tre plattor: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
 I vyn **Forskning** i din Skylab säger en teknologi mer än en ruta i träden nedan. Håll pekaren över en teknologi så öppnas ett kort med forskningstiden och vetenskapen den bränner och, under dem, vad föremålet **är och gör**: dess sort och nivå i familjen (till exempel den tredje av de fyra Impulse Thruster), dess beskrivning, dess värden så som Hangaren och butiken visar dem (skadan, den kritiska chansen och räckvidden för en laser, sköldkapaciteten, laddningstakten och absorptionen för en sköld, fartökningen och multiplikatorn för en styrraket, skadan, explosionsradien och räckvidden för en raket, vad en drönarformation ger och vad den kostar dig), en liten tabell över nivåerna i dess familj och vad Monteringen sedan kräver för att tillverka det: tiden, krediterna och Thulium samt materialen. Så ser du vad en nivå ger innan du forskar fram den. Klicka på en teknologi för att välja den: kortet bredvid trädet visar samma sak i sin helhet, under knappen **Starta forskning**. Medan en forskning pågår står **Köa** där startknappen annars är: en köad teknologi visar sitt ordningsnummer i trädet, och ett kökort under forskningen som pågår listar dem alla, var och en med ett kryss för att ta bort den. Om nästa inte kan starta (den Dark Matter den behöver finns inte i Centret, eller tanken är tom) väntar kön och säger varför, tills du har rättat till det och trycker på **Starta kön**.
 
@@ -170,9 +170,14 @@ Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 18
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+Engine II => Engine III
+Adaptive Core II => Adaptive Core III
 ```
 
 ### Sköldar och försvar {#tree-shields}
@@ -331,7 +336,7 @@ Deras tider, deras Dark Matter och summorna står på sidan [Skeppsdesigner](/wi
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 min | 1 800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 h | 10 800 | – |
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 h | 36 000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 h | 10 800 | – |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Engine II](/wiki/06-Items/Propulsion.md#engines) | B | 3 h | 10 800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 min | 1 800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 h | 10 800 | – |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 h | 36 000 | 10 |
@@ -387,18 +392,21 @@ Deras tider, deras Dark Matter och summorna står på sidan [Skeppsdesigner](/wi
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36 000 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 d | 86 400 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 d | 172 800 | 40 |
+| [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30 min | 1 800 | – |
+| [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30 min | 1 800 | – |
+| [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 h | 10 800 | – |
 
 Klasserna efter forskningstid:
 
 | Klass | Forskningstid | Teknologier | En efter en | Vetenskap | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 8 | 4 h | 14 400 | 0 |
-| B | 3 h till 6 h | 17 | 2 d 9 h | 205 200 | 0 |
+| A | 30 min | 10 | 5 h | 18 000 | 0 |
+| B | 3 h till 6 h | 18 | 2 d 12 h | 216 000 | 0 |
 | C | 10 h | 15 | 6 d 6 h | 540 000 | 95 |
 | D | 1 d till 2 d | 22 | 27 d | 2 332 800 | 319 |
-| Alla |  | 62 | 35 d 19 h | 3 092 400 | 414 |
+| Alla |  | 65 | 35 d 23 h | 3 106 800 | 414 |
 
-Framforskat en efter en tar hela trädet 35 d 19 h. Med boosten på hela tiden tar det 17 d 21 h 30 min, alltså 18 boostar och 90 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 35 d 23 h. Med boosten på hela tiden tar det 17 d 23 h 30 min, alltså 18 boostar och 90 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 

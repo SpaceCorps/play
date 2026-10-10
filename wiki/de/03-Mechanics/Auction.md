@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -31,7 +31,7 @@ Das Etikett ist eine Anzahl von Einheiten, kein Schalter: Ein Munitionsstapel ka
 
 Der Chip **Nur Handelbares** im Hangar zeigt nur, was du verkaufen kannst, und der **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der Auktion dafür. In der Montage sagt ein Rezept, dessen Ergebnis handelbar ist, das dazu, und bei einem Material, das dir fehlt, öffnet ein Link die Auktion mit dem Namen im Suchfeld.
 
-Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und die der Shop nicht verkauft, sowie die Ressourcen einmalig markiert. Nicht markiert wurden diese, weil der Shop sie einmal verkauft hat oder weil das, was du besitzt, gekaufte und verdiente Stücke mischt: der Quantum Laser III, die Absorption Shield Cells II und III, die Impulse Thrusters II und III, die beiden Reinforced Plates und die älteste Base CPU I jedes Piloten (die des Starterpakets). Neue davon, die du verdienst oder herstellst, sind markiert.
+Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und die der Shop nicht verkauft, sowie die Ressourcen einmalig markiert. Nicht markiert wurden diese, weil der Shop sie einmal verkauft hat oder weil das, was du besitzt, gekaufte und verdiente Stücke mischt: der Quantum Laser III, die Absorption Shield Cells II und III, das Engine II, der Adaptive Core II, die Impulse Thrusters II und III, die beiden Reinforced Plates und die älteste Base CPU I jedes Piloten (die des Starterpakets). Neue davon, die du verdienst oder herstellst, sind markiert.
 
 ## Was verkauft werden kann {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Du erfährst, wenn etwas verkauft wird: durch einen Toast, den Ton der Auktion u
 
 ## Die stündlichen Lose {#the-hourly-lots}
 
-Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, jede Stunde, auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete), in der Währung des Shops. Ein Raketenlos ist nie größer als die größte Zahl dieser Rakete, die du tragen darfst (der Stapel des Shops); ein Gebot, das dich darüber brächte, wird abgelehnt. Biete also auf ein Raketenlos, wenn du wenig von dieser Rakete trägst.
+Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, jede Stunde, auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete), in der Währung des Shops. Du kannst auf jedes Los bieten, egal was du schon trägst: Ein gewonnenes Los gehört dir ganz, auch wenn es dich über den Stapel hebt, den dir der Shop zu kaufen erlaubt.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Zu Beginn jeder UTC-Stunde öffnet ein neues Los und bleibt 4 Stunden offen, sodass 4 gleichzeitig offen sind.
-- Das Startgebot beträgt 40 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits oder 1 Thulium mehr betragen.
+- Das Startgebot beträgt 20 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits oder 1 Thulium mehr betragen.
 - Dein Gebot wird sofort bezahlt und gehalten. Wirst du überboten, bekommst du es sofort zurück.
 - Ein Gebot in den letzten 2 min eines Loses verschiebt dessen Ende auf 2 min nach dem Gebot, höchstens 5-mal.
 - Was du gewinnst, ist zum Fliegen da, nicht zum Handeln: Es ist nie handelbar. Das Gewinngebot wird vernichtet. Auf ein Los, auf das niemand bietet, wird nichts verkauft, und es kostet niemanden etwas.
@@ -165,34 +165,36 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 
 | UTC-Stunde | Los | Volle Größe | Bezahlt in | Startgebot bei voller Größe |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1.250 | Thulium | 2.500 Thulium |
-| 01:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 02:00 | Lancet I | 12.500 | Credits | 2.500.000 Credits |
-| 03:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 04:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 05:00 | Rivet II | 5.000 | Credits | 1.600.000 Credits |
-| 06:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 07:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 08:00 | Ember I | 12.500 | Credits | 2.500.000 Credits |
-| 09:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 10:00 | Scatter II | 5.000 | Credits | 1.600.000 Credits |
-| 11:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 12:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 13:00 | Lancet III | 1.250 | Thulium | 2.500 Thulium |
-| 14:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 15:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 16:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 17:00 | Rivet I | 12.500 | Credits | 2.500.000 Credits |
-| 18:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 19:00 | Ember II | 5.000 | Credits | 1.600.000 Credits |
-| 20:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 21:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 22:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
+| 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
+| 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 02:00 | Lancet I | 12.500 | Credits | 1.250.000 Credits |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 05:00 | Rivet II | 5.000 | Credits | 800.000 Credits |
+| 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 08:00 | Ember I | 12.500 | Credits | 1.250.000 Credits |
+| 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 10:00 | Scatter II | 5.000 | Credits | 800.000 Credits |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
+| 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
+| 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 17:00 | Rivet I | 12.500 | Credits | 1.250.000 Credits |
+| 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 19:00 | Ember II | 5.000 | Credits | 800.000 Credits |
+| 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Wenn wenige Piloten die Auktion nutzen, sind die Lose klein, damit einer Handvoll Piloten nicht jede Stunde Tausende Schuss angeboten werden; sie wachsen, je mehr Piloten hinschauen.
+
+**Bieten mit einem Maximalgebot.** Schalte im Gebotsfenster *Automatisch bieten bis zu einem Maximalgebot* ein und gib ein, wie viel du höchstens zahlen willst. Die Auktion bietet dann für dich: Sie nimmt das niedrigste Gebot, das das Los annimmt, und wenn dich jemand überbietet, bietet sie erneut, jeweils um die kleinste Erhöhung über dem Höchstgebot, bis zu deinem Maximalgebot und nicht weiter. Das Gebot, mit dem du vorn liegst, ist das niedrigste, das das nächstbeste Maximalgebot schlägt, nicht dein Maximalgebot: Bei Maximalgeboten von 500 und 800 Credits auf einem Los, das bei 100 begann, liegt das höhere bei 600 vorn, nicht bei 800. Sind zwei Maximalgebote gleich, gewinnt das, das zuerst gesetzt wurde. Dein ganzes Maximalgebot wird beim Setzen von deinem Guthaben gebunden, daher kann kein automatisches Gebot an fehlendem Geld scheitern; wenn das Los endet, zahlst du nur das Gewinngebot und der Rest kommt zurück, und wenn dein Maximalgebot überboten wird, kommt alles sofort zurück und du wirst benachrichtigt. Auf einem Los, bei dem du vorn liegst, erhöht der Knopf **Maximalgebot** dein Maximalgebot jederzeit oder senkt es bis auf dein aktuelles Gebot. Ein Maximalgebot zu setzen ist kein Gebot, aber jedes Gebot zählt für die Verlängerungsregel, auch das der Auktion. Das Setzen eines Maximalgebots hat einen eigenen leisen Ton auf der Lautstärke der Soundeffekte.
 
 ## Die Saison und der Wipe {#the-season-and-the-wipe}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
+<!-- wiki-i18n source: c6281bdd893893fa -->
 <!-- wiki-i18n title: Ricerca -->
 # Ricerca {#research}
 
@@ -29,7 +29,7 @@ Questa pagina riunisce l’intero albero delle tecnologie con il tempo di ciascu
 
 <!-- research-centre:end -->
 
-**Gli amplificatori laser e l’ultimo tier.** I Damage, Crit e Penetration Amp dei tier da II a IV si ricercano come ogni altra creazione. I piloti che possedevano o avevano in coda degli amp all’arrivo delle linee di amp hanno ricevuto la tecnologia di ciascuno di essi e quella dei tier sotto. Dodici tecnologie richiedono una tecnologia di un altro albero, quella della Dark Matter Plate, dell’albero Risorse, perché l’ultimo tier di ogni catena di potenziamento richiede tre plate: i Damage, Crit e Penetration Amp del tier IV, le Absorption e Capacity Shield Cell del tier IV, gli Impulse e Momentum Thruster del tier IV, l’Heavy Shield Core, l’Engine III, l’Helios Beam, l’Extra Slots CPU III e il Base CPU II. Un pilota che ne ha ricercata una prima la conserva, ma per creare le sue plate gli serve la tecnologia della plate. L’albero qui sotto non traccia alcuna freccia per essa, ma la tabella la elenca e la scheda nel gioco la nomina ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
+**Gli amplificatori laser e l’ultimo tier.** I Damage, Crit e Penetration Amp dei tier da II a IV si ricercano come ogni altra creazione. I piloti che possedevano o avevano in coda degli amp all’arrivo delle linee di amp hanno ricevuto la tecnologia di ciascuno di essi e quella dei tier sotto. Tredici tecnologie richiedono una tecnologia di un altro albero, quella della Dark Matter Plate, dell’albero Risorse, perché l’ultimo tier di ogni catena di potenziamento richiede tre plate: i Damage, Crit e Penetration Amp del tier IV, le Absorption e Capacity Shield Cell del tier IV, gli Impulse e Momentum Thruster del tier IV, l’Heavy Shield Core, l’Engine III, l’Adaptive Core III, l’Helios Beam, l’Extra Slots CPU III e il Base CPU II. Un pilota che ne ha ricercata una prima la conserva, ma per creare le sue plate gli serve la tecnologia della plate. L’albero qui sotto non traccia alcuna freccia per essa, ma la tabella la elenca e la scheda nel gioco la nomina ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
 Nella vista **Ricerca** del tuo Skylab una tecnologia ti dice più di un riquadro degli alberi qui sotto. Passa il puntatore su una tecnologia e si apre una scheda con il tempo di ricerca e la scienza che brucia e, sotto, che cosa l’oggetto **è e fa**: il suo tipo e il suo grado nella famiglia (per esempio il terzo dei quattro Impulse Thruster), la sua descrizione, i suoi numeri come li mostrano l’Hangar e il Negozio (il danno, la probabilità di critico e la portata di un laser, la capacità, la ricarica e l’assorbimento di uno scudo, il bonus di velocità e il moltiplicatore di un propulsore, il danno, il raggio dell’esplosione e la portata di un razzo, che cosa dà una formazione di droni e che cosa ti costa), una piccola tabella dei gradi della sua famiglia e ciò che l’Assemblaggio chiede poi per crearlo: il tempo, i crediti e il Thulium e i materiali. Così vedi che cosa dà un grado prima di ricercarlo. Clicca su una tecnologia per sceglierla: la scheda accanto all’albero mostra lo stesso per intero, sotto il pulsante **Avvia ricerca**. Mentre una ricerca è in corso, **Metti in coda** prende il posto del pulsante di avvio: una tecnologia in coda mostra il suo numero d’ordine sull’albero, e una scheda della coda sotto la ricerca in corso le elenca tutte, ciascuna con una croce per toglierla. Se la prossima non può partire (la Dark Matter che le serve non è nel Centro, o il serbatoio è vuoto), la coda aspetta e dice perché, finché non risolvi e premi **Avvia coda**.
 
@@ -170,9 +170,14 @@ Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 18
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+Engine II => Engine III
+Adaptive Core II => Adaptive Core III
 ```
 
 ### Scudi e difesa {#tree-shields}
@@ -331,7 +336,7 @@ I loro tempi, il loro Dark Matter e i totali sono nella pagina [Design delle nav
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 min | 1.800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 h | 10.800 | – |
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 h | 36.000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 h | 10.800 | – |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Engine II](/wiki/06-Items/Propulsion.md#engines) | B | 3 h | 10.800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 min | 1.800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 h | 10.800 | – |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 h | 36.000 | 10 |
@@ -387,18 +392,21 @@ I loro tempi, il loro Dark Matter e i totali sono nella pagina [Design delle nav
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 h | 36.000 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 g | 86.400 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 g | 172.800 | 40 |
+| [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30 min | 1.800 | – |
+| [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30 min | 1.800 | – |
+| [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 h | 10.800 | – |
 
 Le classi, per tempo di ricerca:
 
 | Classe | Tempo di ricerca | Tecnologie | Una dopo l’altra | Scienza | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 8 | 4 h | 14.400 | 0 |
-| B | da 3 h a 6 h | 17 | 2 g 9 h | 205.200 | 0 |
+| A | 30 min | 10 | 5 h | 18.000 | 0 |
+| B | da 3 h a 6 h | 18 | 2 g 12 h | 216.000 | 0 |
 | C | 10 h | 15 | 6 g 6 h | 540.000 | 95 |
 | D | da 1 g a 2 g | 22 | 27 g | 2.332.800 | 319 |
-| Tutte |  | 62 | 35 g 19 h | 3.092.400 | 414 |
+| Tutte |  | 65 | 35 g 23 h | 3.106.800 | 414 |
 
-Ricercato una tecnologia dopo l’altra, l’intero albero richiede 35 g 19 h. Con il boost sempre attivo richiede 17 g 21 h 30 min, cioè 18 boost e 90.000 Thulium; la scienza è la stessa.
+Ricercato una tecnologia dopo l’altra, l’intero albero richiede 35 g 23 h. Con il boost sempre attivo richiede 17 g 23 h 30 min, cioè 18 boost e 90.000 Thulium; la scienza è la stessa.
 
 <!-- research-technologies:end -->
 

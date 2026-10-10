@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 37ef68d59e0029a8 -->
+<!-- wiki-i18n source: 11b76869805e27df -->
 <!-- wiki-i18n title: 鍛冶場 -->
 # 鍛冶場 {#the-forge}
 
@@ -39,7 +39,7 @@
 
 鍛冶場の登場より前に作られた装備は、抽選で付いたボーナスをそのまま持っており、その値は表より小さいことが多くあります（当時の神級の部品には +2% のものもあります）。ボーナスがひとりでに上がることはありません。段階アップでは、各ボーナスが新しい段階の範囲で引き直されて良い方の値が残り、統合では、各ステータスの良い方の値が残ります。
 
-アイテムは、自身が持つステータスの数を超えるボーナスを持てません。シールドコアは4つ、レーザーは3つ（Quantum Laser I と II は2つ）、エンジンとアダプティブコアは2つ、Momentum Thruster も2つ、Impulse Thruster は1つ（倍率の1.02～1.035はボーナスを付ける価値がなく、鍛冶場は1.05以下の倍率にボーナスを付けないので、そのボーナスは固定速度にしか付けられません）、Crit Amp I と Repair Drone と船体装甲（その船体）は1つ、それより上位のクリティカルアンプは2つ、ダメージアンプとシールドセルは3つです。次の段階でもボーナスの数が増えない場合は、パネルがそう表示します。その段階では、ボーナスが強くなるだけです。射程のボーナスは +5% を超えません。Penetration Amp のステータスは1つだけなので、ボーナスも1つしか持てません。
+アイテムは、自身が持つステータスの数を超えるボーナスを持てません。シールドコアは4つ、レーザーは3つ（Quantum Laser I と II は2つ）、エンジンとアダプティブコアは2つ、Momentum Thruster も2つ、Impulse Thruster は1つ（倍率の1.017～1.03はボーナスを付ける価値がなく、鍛冶場は1.05以下の倍率にボーナスを付けないので、そのボーナスは固定速度にしか付けられません）、Crit Amp I と Repair Drone と船体装甲（その船体）は1つ、それより上位のクリティカルアンプは2つ、ダメージアンプとシールドセルは3つです。次の段階でもボーナスの数が増えない場合は、パネルがそう表示します。その段階では、ボーナスが強くなるだけです。射程のボーナスは +5% を超えません。Penetration Amp のステータスは1つだけなので、ボーナスも1つしか持てません。
 
 **1つの段階が持てるボーナスは、その数までです。**段階アップでは、アイテムに最初のボーナスが必ず付きます。新しい段階で増える枠のうち、アイテムにそのステータスがあるものは、**50%の確率で、1枠ごとに別々の抽選で**埋まり、埋まらなかった枠は次の段階アップでもう一度抽選されます。そのため、神級のシールドコアは半分の確率でボーナス2つ、残り半分で1つです。永遠のものは約3回に1回、4つすべてが揃い（平均3.1個）、ステータスが3つのレーザーは3回に2回、3つすべてが揃い、エンジンはほとんど常に両方が揃います。パネルは次の段階について「最大」と表示し、新しい枠がどのくらいの頻度で埋まるかも示します。ステータスが1つのアイテムと、汚染への段階アップは影響を受けません。この規則より前に作られた装備は、持っているボーナスをそのまま保ちます。**統合**は、段階アップで埋まらなかった枠を埋める手段です。2つのコピーの各ステータスの良い方のボーナスを、段階の上限まで残します。確率のため、次に説明する吸収率ボーナスを持つ部品は一部だけです（永遠のシールドコアは78%、永遠のシールドセルは88%）。そこに挙げる数値は、それを持つ部品の場合のものです。
 
@@ -47,7 +47,7 @@
 
 エンジン、スラスター、アダプティブコア、Repair Drone は、割合のボーナスではほとんど変化しません（Engine II の速度加算は4なので、+12% でも0.5ほどです）。鍛造するのは、段階が欲しいときで、ステータスのためではありません。
 
-**Penetration Amp のボーナス**は、その貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は1スロットあたり8ではなく8.7～9.2ポイントになります。1回の命中の貫通には上限がないので、1ポイントごとに意味があります。最強のレーザー（Fusion Core、Stiletto、そして各レーザーに Penetration Amp IV を3つ）では 10 + 16 + 24 で50%、「永遠」のボーナス3つなら最大53.6%まで上がります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+**Penetration Amp のボーナス**は、その貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は1スロットあたり12ではなく13.1～13.8ポイントになります。1回の命中の貫通には上限がないので、1ポイントごとに意味があります。最強のレーザー（Fusion Core、Stiletto、そして各レーザーに Penetration Amp IV を3つ）では 10 + 16 + 36 で62%、「永遠」のボーナス3つなら最大67.4%まで上がります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
 ### 素材のドロップ元 {#where-the-materials-drop}
 
@@ -80,11 +80,11 @@
 
 ## アセンブリでのモジュールの強化 {#module-upgrades-in-the-assembly}
 
-上位3種のレーザー、レーザーアンプ、ティアII～IVのシールドセルとスラスター、そして Heavy Shield Core と Engine III は販売されておらず、Skylab でその技術を研究して初めてアセンブリで作れます（[研究](/wiki/03-Mechanics/Research.md)）。アセンブリの**クラフト**タブで、1つ下の部品を強化して作ります。Damage Amp III は **Damage Amp IV** に、Crit Amp III は **Crit Amp IV** に、Capacity Shield Cell I は **Capacity Shield Cell II** に（さらに III、IV へ。Absorption Shield Cell、Impulse Thruster、Momentum Thruster も同じように上がります）、Basic Shield Core は **Heavy Shield Core** に、Engine II は **Engine III** に、Quantum Laser II は **Quantum Laser III** に、Quantum Laser III は **Starfire-III** に、Starfire-III は **Helios Beam** になります。鍛冶場がこれにどう関わるかというと、段階です。各アンプ系統の最初のティア（Damage Amp I、Crit Amp I、Penetration Amp I）はショップで売られています。各系統のティアII～IVは同じやり方で作ります。
+上位3種のレーザー、レーザーアンプ、ティアII～IVのシールドセルとスラスター、ティアIIとIIIのエンジンとアダプティブコア、そして Heavy Shield Core は販売されておらず、Skylab でその技術を研究して初めてアセンブリで作れます（[研究](/wiki/03-Mechanics/Research.md)）。アセンブリの**クラフト**タブで、1つ下の部品を強化して作ります。Damage Amp III は **Damage Amp IV** に、Crit Amp III は **Crit Amp IV** に、Capacity Shield Cell I は **Capacity Shield Cell II** に（さらに III、IV へ。Absorption Shield Cell、Impulse Thruster、Momentum Thruster も同じように上がります）、Basic Shield Core は **Heavy Shield Core** に、Engine I は **Engine II** に（さらに **Engine III** へ）、Adaptive Core I は **Adaptive Core II** に（さらに **Adaptive Core III** へ）、Quantum Laser II は **Quantum Laser III** に、Quantum Laser III は **Starfire-III** に、Starfire-III は **Helios Beam** になります。鍛冶場がこれにどう関わるかというと、段階です。各アンプ系統の最初のティア（Damage Amp I、Crit Amp I、Penetration Amp I）はショップで売られています。各系統のティアII～IVは同じやり方で作ります。
 
 - **段階は残ります。**強化では部品のコピーを1個消費し、新しいアイテムは、そのコピーの段階を持ちます。神級の Damage Amp III からは神級の Damage Amp IV が、標準のものからは標準の Damage Amp IV ができます。鍛冶場に支払ったものは失われません。強化自体が段階を加えることはないので、標準の部品からは、必ず標準のものができます。
 - **ボーナスは引き直されます。**新しいアイテムには、その段階に応じた新しいボーナスが付きます。数は、使う部品が持っていた数です（ボーナスが2つの神級の Damage Amp III からは、2つの神級の Damage Amp IV ができ、1つだけの部品からは1つだけのものができます。標準より上では最低1つ）。ただし、段階が持てる数と新しいアイテムが持つステータスの数が上限で、それぞれ上の表にある段階の範囲の値で、Damage Amp IV が持つステータスに付きます。それ以外は古い部品からは何もコピーされないため、新しいボーナスは、元のものより良くも悪くもなり得ます。平均すれば同じです。数を引き継ぐのは、鍛冶場が埋めなかった枠を強化で埋められないようにするためで、ボーナスが減ることもありません。この規則より前に作られ、すべての枠が埋まっている部品は、すべてを引き継ぎます。ボーナスは、作業をキューに入れた瞬間に抽選され、受け取るのはその抽選された結果です。受け取りを待っても何も変わりません。強化は新しいアイテムを作るもので、鍛冶場のサイコロは、手元にあるアイテムに対して振られるからです。コストがかかるのは段階の部分です。永遠の部品は、鍛冶場のステップだけで100万クレジットを超えますが、ボーナスは1つのステータスの数%にすぎません。
-- **プレート。** Thulium とエイリアンのドロップ品に加えて、モジュールの強化にはどれもプレートが必要です。最終ティアは **Dark Matter Plate 3枚** を要求します。対象は、ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Helios Beam です。その手前のステップは **Velkonite Reinforced Plate** を要求します。ティアIIまたはIIIのアンプは1枚または2枚、ティアIIまたはIIIのセルとスラスターは2枚または4枚、Quantum Laser III は2枚、Starfire-III は8枚です（Helios Beam はさらに Orvium Reinforced Plate を18枚使います）。エイリアンはどれもドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、Velkonite と Orvium のプレートを鉱石から作ります（鍛造所レベル1では Velkonite プレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、ティアIIIのアンプのプレートは8時間分、ティアIIIのセルやスラスターのプレートは16時間分の採掘です（レベル5のコレクターなら4時間と9時間）。アセンブリは、プレートのレシピを研究したあとで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) を圧縮して作ります。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)のページにあります。鍛冶場自体のステップに必要なのはドロップ品とクレジットで、上位のステップでは Dark Matter Plate も必要になります（神級から破裂：Reinforced Hull Plate 20枚と Dark Matter Plate 2枚、破裂から永遠：Dark Matter Plate 2枚）。これは、モジュールの強化の最終ティアが使うプレートと同じものです。
+- **プレート。** Thulium とエイリアンのドロップ品に加えて、モジュールの強化にはどれもプレートが必要です。最終ティアは **Dark Matter Plate 3枚** を要求します。対象は、ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam です。その手前のステップは **Velkonite Reinforced Plate** を要求します。ティアIIまたはIIIのアンプは1枚または2枚、ティアIIまたはIIIのセルとスラスターは2枚または4枚、Quantum Laser III、Engine II、Adaptive Core II は2枚、Starfire-III は8枚です（Helios Beam はさらに Orvium Reinforced Plate を18枚使います）。エイリアンはどれもドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、Velkonite と Orvium のプレートを鉱石から作ります（鍛造所レベル1では Velkonite プレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、ティアIIIのアンプのプレートは8時間分、ティアIIIのセルやスラスターのプレートは16時間分の採掘です（レベル5のコレクターなら4時間と9時間）。アセンブリは、プレートのレシピを研究したあとで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) を圧縮して作ります。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)のページにあります。鍛冶場自体のステップに必要なのはドロップ品とクレジットで、上位のステップでは Dark Matter Plate も必要になります（神級から破裂：Reinforced Hull Plate 20枚と Dark Matter Plate 2枚、破裂から永遠：Dark Matter Plate 2枚）。これは、モジュールの強化の最終ティアが使うプレートと同じものです。
 - **どのコピーを使うか。**選ぶのはあなたです。段階やボーナスが異なるコピーを持っている場合、レシピカードにそれらがタイルの列で表示されます。使うものをクリックすると、タイルの下の行に、それが何になるかが表示されます（「【神級】Damage Amp III」、続いて「結果：【神級】Damage Amp IV」）。何も選ばなければ、最も段階の低いものから使われ、同じ段階のコピーの間では、ボーナスにかかわらず最も古いものから使われます。より低い段階のコピーが外れた状態である限り、神級以上のコピーが使われることはありません。標準より上のコピーを使うときは、先にアイテム名を示して確認します。
 - **使えるコピー。**外れた状態のものだけです。艦に装備されているコピー（アビリティスロットも含みます）、ほかのアイテムに装着されているコピー、自身のセルやスラスターを装着しているコピー、[トランスポートキャッシュ](/wiki/03-Mechanics/Cargo.md)内のコピーは使えず、アセンブリがそう知らせます。先に外すか、キャッシュから取り出してください。同時に開始した2つの強化が、同じコピーを使うことはできません。
 

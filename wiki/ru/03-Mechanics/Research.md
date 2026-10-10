@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
+<!-- wiki-i18n source: c6281bdd893893fa -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -29,7 +29,7 @@
 
 <!-- research-centre:end -->
 
-**Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Двенадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует три пластины: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
+**Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует три пластины: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
 На экране **Исследования** вашего Skylab технология говорит больше, чем блок в деревьях ниже. Наведите курсор на технологию, и откроется карточка с временем исследования и сжигаемой наукой, а под ними — чем предмет **является и что делает**: его вид и уровень в семействе (например, третий из четырёх Impulse Thruster), описание, его показатели в том виде, как их показывают Ангар и магазин (урон, шанс крита и дальность лазера, ёмкость, восстановление и поглощение щита, бонус к скорости и множитель ускорителя, урон, радиус взрыва и дальность ракеты, что даёт построение дронов и чего оно вам стоит), небольшая таблица уровней его семейства и то, что Сборочный цех потом потребует для создания: время, кредиты и Thulium, а также материалы. Так вы видите, что даёт уровень, ещё до его исследования. Щёлкните по технологии, чтобы выбрать её: карточка рядом с деревом показывает то же самое целиком, под кнопкой **Начать исследование**. Пока идёт исследование, вместо кнопки запуска стоит **В очередь**: поставленная в очередь технология показывает свой порядковый номер на дереве, а карточка очереди под текущим исследованием перечисляет их все, у каждой есть крестик, чтобы убрать её. Если следующая не может начаться (нужной ей Dark Matter нет в Центре или бак пуст), очередь ждёт и сообщает причину, пока вы не устраните её и не нажмёте **Запустить очередь**.
 
@@ -170,9 +170,14 @@ Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 18
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+Engine II => Engine III
+Adaptive Core II => Adaptive Core III
 ```
 
 ### Щиты и защита {#tree-shields}
@@ -331,7 +336,7 @@ Hull Plating II => Hull Plating III
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30 мин | 1 800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3 ч | 10 800 | – |
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10 ч | 36 000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 ч | 10 800 | – |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Engine II](/wiki/06-Items/Propulsion.md#engines) | B | 3 ч | 10 800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30 мин | 1 800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3 ч | 10 800 | – |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 ч | 36 000 | 10 |
@@ -387,18 +392,21 @@ Hull Plating II => Hull Plating III
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10 ч | 36 000 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1 д | 86 400 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2 д | 172 800 | 40 |
+| [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30 мин | 1 800 | – |
+| [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30 мин | 1 800 | – |
+| [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3 ч | 10 800 | – |
 
 Классы по времени исследования:
 
 | Класс | Время исследования | Технологий | Одна за другой | Наука | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 мин | 8 | 4 ч | 14 400 | 0 |
-| B | от 3 ч до 6 ч | 17 | 2 д 9 ч | 205 200 | 0 |
+| A | 30 мин | 10 | 5 ч | 18 000 | 0 |
+| B | от 3 ч до 6 ч | 18 | 2 д 12 ч | 216 000 | 0 |
 | C | 10 ч | 15 | 6 д 6 ч | 540 000 | 95 |
 | D | от 1 д до 2 д | 22 | 27 д | 2 332 800 | 319 |
-| Все |  | 62 | 35 д 19 ч | 3 092 400 | 414 |
+| Все |  | 65 | 35 д 23 ч | 3 106 800 | 414 |
 
-Если исследовать одну за другой, всё дерево займёт 35 д 19 ч. С бустом, включённым всё время, — 17 д 21 ч 30 мин; для этого нужно бустов: 18, Thulium: 90 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 35 д 23 ч. С бустом, включённым всё время, — 17 д 23 ч 30 мин; для этого нужно бустов: 18, Thulium: 90 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 

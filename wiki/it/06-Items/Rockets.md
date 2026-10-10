@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 25436195e066ff8c -->
+<!-- wiki-i18n source: 366f14293d706328 -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -54,7 +54,7 @@ Ogni tipo è una **famiglia**, che prende il nome dal suo razzo comune, e la fas
 - I razzi **guidati** richiedono un bersaglio selezionato entro la loro **portata di aggancio** quando partono. Lo inseguono con una velocità di virata limitata, quindi una nave veloce e lontana può seminare un razzo economico. Se il bersaglio muore, se ne va o raggiunge una zona sicura, il razzo continua dritto e non ne sceglie un altro.
 - I razzi **dritti** non richiedono un bersaglio e ignorano quello che hai selezionato: volano sempre verso il tuo **cursore**, nel punto sotto di esso nella vista di volo. **Clicca sullo slot di un razzo dritto per armarlo** (lo slot ottiene una cornice bianca e un mirino, e il cursore del mouse diventa un mirino sullo spazio), poi **clicca nello spazio**: il razzo vola verso il punto che hai cliccato e la tua nave resta dov’è. Esc, un clic destro o di nuovo lo stesso slot lo disarma. Se i razzi si stanno ancora ricaricando, il clic te lo segnala soltanto e il razzo resta armato. I tasti numerici e **Lancia razzo** sparano subito verso l’ultimo punto in cui si trovava il cursore nella vista di volo; se il cursore non c’è ancora stato, volano nella direzione verso cui **punta** la tua nave. Volano dritti, quindi una nave che attraversa a velocità può schivarli.
 - Un razzo a **bersaglio singolo** colpisce la prima nave che può colpire (uno guidato solo il suo bersaglio). Un’**esplosione ad area** esplode accanto alla prima nave che incontra, nel punto in cui l’hai mirata o dove finisce il suo volo, e danneggia ogni nave dentro il suo **raggio dell’esplosione**: danno pieno al centro, la metà al bordo. L’anello che l’esplosione disegna sulla mappa è la sua portata esatta.
-- **Asteroidi.** Un razzo sparato contro un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) colpisce quell’asteroide e nient’altro, e un razzo che non è sparato contro uno li attraversa tutti. I dodici razzi del Negozio e il N.U.K.E. possono spezzarne uno; il N.I.K.E. no. Anche i tuoi laser danneggiano un asteroide, ma solo al 5% di quello che fanno a una nave: lo strumento per questo lavoro è il razzo.
+- **Asteroidi.** Un razzo sparato contro un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vola verso di esso, e il primo asteroide sul cammino di qualsiasi razzo lo ferma e prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). I dodici razzi del Negozio e il N.U.K.E. possono spezzarne uno; il N.I.K.E. non può essere sparato contro uno e vola sopra di essi. Anche i tuoi laser danneggiano un asteroide, ma solo al 5% di quello che fanno a una nave: lo strumento per questo lavoro è il razzo.
 
 ## I dodici razzi {#the-twelve-rockets}
 

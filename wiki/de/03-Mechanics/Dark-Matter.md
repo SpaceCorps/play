@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@
 - **Wofür es gut ist.** 83 Technologien des Forschungszentrums verlangen es, je 5 bis 40 und insgesamt 904, und die Montage presst daraus die Dark Matter Plate. Ab Saisontag 11 verbrennt auch ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) es als Treibstoff: Ein Tank sind wenige Dark Matter, und es ist verloren, wenn der Bagger zerstört wird.
 - **Im Forschungszentrum** fügst du Dark Matter aus deinem Frachtraum hinzu (bei gelandetem Schiff), bevor du auf Start drückst. Die Forschung nimmt es beim Start.
 - **Eine Dark Matter Plate ist ein anderer Gegenstand.** Erforsche zuerst ihr Rezept (die Gruppe Ressourcen im Baum: 1 Tag und 10 Dark Matter), dann stellst du sie in der Montage her, aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium.
-- **Wofür eine Plate gut ist.** Die letzte Stufe jeder Aufwertungskette verlangt **3**: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III und Base CPU II (12 Teile). Die Schmiede verlangt 2 davon, um einen Gegenstand von Göttlich auf Berstend zu heben, und 2 weitere von Berstend auf Ewig.
-- **Erforsche zuerst die Plate.** Die Technologie jedes dieser 12 Teile braucht auch die Technologie der Plate. Ein Teil, das du früher erforscht hast, bleibt erforscht, aber seine Plates brauchen die Technologie der Plate.
+- **Wofür eine Plate gut ist.** Die letzte Stufe jeder Aufwertungskette verlangt **3**: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II (13 Teile). Die Schmiede verlangt 2 davon, um einen Gegenstand von Göttlich auf Berstend zu heben, und 2 weitere von Berstend auf Ewig.
+- **Erforsche zuerst die Plate.** Die Technologie jedes dieser 13 Teile braucht auch die Technologie der Plate. Ein Teil, das du früher erforscht hast, bleibt erforscht, aber seine Plates brauchen die Technologie der Plate.
 - **Ein erster Anfang.** Etwa 5 N.I.K.E.-Raketen (eine Herstellung) bringen die 10 Dark Matter, die das Rezept der Plate verlangt.
 - **Ein ganzes Teil.** Ein Teil der letzten Stufe enthält 15 Dark Matter (3 Plates), im Schnitt 7,5 N.I.K.E.-Raketen.
 
@@ -26,7 +26,7 @@
 | **Was es ist** | Eine epische Ressource | Eine mythische Ressource |
 | **Woher es kommt** | Das Schwarze Loch in Gefahrensektor 4, für hineingeschossene N.I.K.E.-Raketen; ein wenig vom Dormant-Schwarm und von den Inert Masses des Dormant Swamp | Die Montage, gepresst aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium |
 | **Was du zuerst tust** | Die N.I.K.E. erforschen (3 h, kein Dark Matter) und welche herstellen | Das Rezept der Plate erforschen (1 d, 10 Dark Matter) |
-| **Wofür es gut ist** | Forschungskosten (83 Technologien, insgesamt 904) und die Plate | Die letzte Stufe jeder Aufwertungskette: 3 für jedes von 12 Teilen; die Schmiede: 2 für jede ihrer beiden obersten Stufen |
+| **Wofür es gut ist** | Forschungskosten (83 Technologien, insgesamt 904) und die Plate | Die letzte Stufe jeder Aufwertungskette: 3 für jedes von 13 Teilen; die Schmiede: 2 für jede ihrer beiden obersten Stufen |
 
 ## So bekommst du Dark Matter {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@ Der Wipe lässt das Dark Matter in deinem Zentrum unangetastet.
 
 ## So bekommst du eine Dark Matter Plate {#how-to-get-a-plate}
 
-1. **Erforsche das Rezept.** In der Ansicht Forschung liegt die Technologie **Dark Matter Plate** in der Gruppe **Ressourcen** des Baums. Sie dauert 1 Tag und verlangt 10 Dark Matter, die du vorher dem Zentrum hinzufügst. Die Technologien der 12 Teile der letzten Stufe verlangen sie ebenfalls.
+1. **Erforsche das Rezept.** In der Ansicht Forschung liegt die Technologie **Dark Matter Plate** in der Gruppe **Ressourcen** des Baums. Sie dauert 1 Tag und verlangt 10 Dark Matter, die du vorher dem Zentrum hinzufügst. Die Technologien der 13 Teile der letzten Stufe verlangen sie ebenfalls.
 2. **Besorge, was eine Plate braucht:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate und 250 Thulium. Die Schmiede deines Skylab macht beide verstärkten Platten aus Erz ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Stelle sie in der Montage her.** Wähle **Ressourcen** im Filter Kategorie. Eine Herstellung macht eine Plate in 120 Sekunden.
 4. **Verwende sie.** Die letzte Stufe jeder Aufwertungskette verlangt **3 Plates** ([unten](#what-the-last-tier-asks-for)). [Die Schmiede](/wiki/06-Items/Forge.md) verlangt **2 Plates**, um einen Gegenstand von Göttlich auf Berstend zu heben (75 % Erfolg, 200.000 Credits), und **2 weitere** von Berstend auf Ewig (60 % Erfolg, 500.000 Credits und 2.000 Thulium). Ein gescheiterter Schritt gibt die Hälfte seiner Materialien zurück, abgerundet: eine Plate.
 
 ## Was die letzte Stufe verlangt {#what-the-last-tier-asks-for}
 
-Die letzte Stufe jeder Aufwertungskette verlangt **3 Dark Matter Plates** und keine Velkonite-Platten: Die Stufen davor sind es, die diese brauchen. 12 Teile:
+Die letzte Stufe jeder Aufwertungskette verlangt **3 Dark Matter Plates** und keine Velkonite-Platten: Die Stufen davor sind es, die diese brauchen. 13 Teile:
 
 - **Laser-Amps:** Damage Amp IV, Crit Amp IV und Penetration Amp IV, jeder aus dem Amp der Stufe III hergestellt ([Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **Der Helios Beam**, aus einem Starfire-III hergestellt, mit seinen 18 Orvium Reinforced Plates ([Laser & Munition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -82,6 +82,7 @@ Die letzte Stufe jeder Aufwertungskette verlangt **3 Dark Matter Plates** und ke
 - **Der Heavy Shield Core**, aus einem Basic Shield Core hergestellt ([Schilde](/wiki/06-Items/Shields.md#shield-cores)).
 - **Schubdüsen:** Impulse Thruster IV und Momentum Thruster IV, jede aus der Schubdüse der Stufe III hergestellt ([Antrieb](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Das Engine III**, aus einem Engine II hergestellt ([Antrieb](/wiki/06-Items/Propulsion.md#engines)).
+- **Der Adaptive Core III**, aus einem Adaptive Core II hergestellt ([Schilde](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPUs:** Extra Slots CPU III, mit 6 Orvium Reinforced Plates, und Base CPU II, mit 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
 **Diese verlangen keine Dark Matter Plates:** der Quantum Laser III und der Starfire-III (Velkonite-Platten), die Stufen II und III jeder Kette (1 oder 2 Velkonite-Platten für einen Amp, 2 oder 4 für eine Zelle oder eine Schubdüse), die Jump CPU, die Auto-Repair CPU, Extra Slots CPU I und II, Base CPU I, die 16 Drohnenformationen und die Schiffe. [Die Schmiede](/wiki/06-Items/Forge.md) behält ihre 2 Plates auf jeder ihrer beiden obersten Stufen.
@@ -129,4 +130,4 @@ Ein erstes Upgrade aus dem Nichts ist das Rezept (10) und zwei Plates (10): 20 D
 - [Raketen](/wiki/06-Items/Rockets.md#the-craft-only-rockets): die N.I.K.E. und die N.U.K.E.
 - [Ressourcen](/wiki/06-Items/Resources.md#dark-matter): Dark Matter und die Dark Matter Plate unter den anderen Ressourcen.
 - [Die Schmiede](/wiki/06-Items/Forge.md): die 2 Plates ihrer beiden obersten Schritte.
-- [Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Schilde](/wiki/06-Items/Shields.md), [Antrieb](/wiki/06-Items/Propulsion.md) und [Extras](/wiki/06-Items/Extras.md#research-cpus): die Rezepte der 12 Teile der letzten Stufe.
+- [Laser & Munition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Schilde](/wiki/06-Items/Shields.md), [Antrieb](/wiki/06-Items/Propulsion.md) und [Extras](/wiki/06-Items/Extras.md#research-cpus): die Rezepte der 13 Teile der letzten Stufe.

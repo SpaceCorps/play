@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@
 - **何に使うか。** 研究センターの83の技術が要求し、1つにつき5～40個、合計904個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。
 - **研究センターでは**、開始を押す前に、貨物から Dark Matter を追加します（艦を着陸させた状態で）。研究は開始時にそれを受け取ります。
 - **Dark Matter Plate は別のアイテムです。** まずそのレシピを研究し（ツリーの資源グループ：1日と Dark Matter 10個）、そのあとアセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から製作します。
-- **プレートの使い道。** 各強化系統の最終ティアは **3枚** を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III、Base CPU II です（12個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。
-- **先にプレートを研究します。** この12個の技術はどれも、プレートの技術も必要とします。以前に研究済みの部品は研究済みのままですが、そのプレートを作るにはプレートの技術が要ります。
+- **プレートの使い道。** 各強化系統の最終ティアは **3枚** を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II です（13個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。
+- **先にプレートを研究します。** この13個の技術はどれも、プレートの技術も必要とします。以前に研究済みの部品は研究済みのままですが、そのプレートを作るにはプレートの技術が要ります。
 - **最初の一歩。** N.I.K.E. ロケット約5発（1回の製作）で、プレートのレシピが要求する Dark Matter 10個が手に入ります。
 - **部品1つ分。** 最終ティアの部品1つには Dark Matter 15個（プレート3枚）が入っており、N.I.K.E. ロケット平均7.5発分です。
 
@@ -26,7 +26,7 @@
 | **何か** | エピックの資源 | ミシカルの資源 |
 | **入手元** | 危険セクター4のブラックホール（撃ち込んだ N.I.K.E. ロケットに対して）。Dormant の群れと、Dormant Swamp の Inert Mass からも少し | アセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮 |
 | **先にやること** | N.I.K.E. を研究し（3時間、Dark Matter は不要）、いくつか製作する | プレートのレシピを研究する（1日、Dark Matter 10個） |
-| **使い道** | 研究のコスト（83の技術、合計904個）とプレート | 各強化系統の最終ティア：12個の部品それぞれに3枚；鍛冶場：最上位の2段階それぞれに2枚 |
+| **使い道** | 研究のコスト（83の技術、合計904個）とプレート | 各強化系統の最終ティア：13個の部品それぞれに3枚；鍛冶場：最上位の2段階それぞれに2枚 |
 
 ## Dark Matter の入手方法 {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@
 
 ## Dark Matter Plate の入手方法 {#how-to-get-a-plate}
 
-1. **レシピを研究します。** 研究表示では、**Dark Matter Plate** の技術はツリーの**資源**グループにあります。1日かかり、Dark Matter 10個が必要で、先に研究センターに追加しておきます。最終ティアの12個の部品の技術も、これを必要とします。
+1. **レシピを研究します。** 研究表示では、**Dark Matter Plate** の技術はツリーの**資源**グループにあります。1日かかり、Dark Matter 10個が必要で、先に研究センターに追加しておきます。最終ティアの13個の部品の技術も、これを必要とします。
 2. **プレート1枚に必要なものを集めます。** Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium です。Skylab の鍛造所が、鉱石から2種類の強化プレートを作ります（[Skylab](/wiki/03-Mechanics/Skylab.md)）。
 3. **アセンブリで製作します。** カテゴリーのフィルターで**資源**を選びます。1回の製作で、120秒でプレート1枚ができます。
 4. **使います。** 各強化系統の最終ティアは **3枚** を要求します（[下記](#what-the-last-tier-asks-for)）。[鍛冶場](/wiki/06-Items/Forge.md)は、アイテムを神級から破裂に上げるのに **2枚**（成功率75%、200,000 クレジット）、破裂から永遠に上げるのに**さらに2枚**（成功率60%、500,000 クレジットと 2,000 Thulium）を要求します。失敗した段階は、素材の半分を切り捨てて返します。プレートなら1枚です。
 
 ## 最終ティアが要求するもの {#what-the-last-tier-asks-for}
 
-各強化系統の最終ティアは **Dark Matter Plate 3枚** を要求し、Velkonite プレートは要求しません。Velkonite プレートを使うのはその手前のティアです。12個の部品です。
+各強化系統の最終ティアは **Dark Matter Plate 3枚** を要求し、Velkonite プレートは要求しません。Velkonite プレートを使うのはその手前のティアです。13個の部品です。
 
 - **レーザーアンプ：** Damage Amp IV、Crit Amp IV、Penetration Amp IV。それぞれティアIIIのアンプから作ります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
 - **Helios Beam**：Starfire-III から作り、Orvium Reinforced Plate 18枚も使います（[レーザーと弾薬](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
@@ -82,6 +82,7 @@
 - **Heavy Shield Core**：Basic Shield Core から作ります（[シールド](/wiki/06-Items/Shields.md#shield-cores)）。
 - **スラスター：** Impulse Thruster IV、Momentum Thruster IV。それぞれティアIIIのスラスターから作ります（[推進装置](/wiki/06-Items/Propulsion.md#thrusters)）。
 - **Engine III**：Engine II から作ります（[推進装置](/wiki/06-Items/Propulsion.md#engines)）。
+- **Adaptive Core III**：Adaptive Core II から作ります（[シールド](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)）。
 - **CPU：** Extra Slots CPU III は Orvium Reinforced Plate 6枚、Base CPU II は2枚も使います（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
 **次のものは Dark Matter Plate を要求しません。** Quantum Laser III と Starfire-III（Velkonite プレート）、すべての系統のティアIIとIII（アンプは Velkonite プレート1枚または2枚、セルとスラスターは2枚または4枚）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I と II、Base CPU I、16種類のドローン編成、そして艦船です。[鍛冶場](/wiki/06-Items/Forge.md)は、最上位の2ステップそれぞれで従来どおり2枚を要求します。
@@ -129,4 +130,4 @@ Paragon の40個は、レーザー8基、そのアンプ24個、ジェネレー�
 - [ロケット](/wiki/06-Items/Rockets.md#the-craft-only-rockets)：N.I.K.E. と N.U.K.E.
 - [資源](/wiki/06-Items/Resources.md#dark-matter)：ほかの資源と並ぶ Dark Matter と Dark Matter Plate。
 - [鍛冶場](/wiki/06-Items/Forge.md)：最上位の2ステップが使う2枚のプレート。
-- [レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)、[シールド](/wiki/06-Items/Shields.md)、[推進装置](/wiki/06-Items/Propulsion.md)、[エクストラ](/wiki/06-Items/Extras.md#research-cpus)：最終ティアの12個の部品のレシピ。
+- [レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)、[シールド](/wiki/06-Items/Shields.md)、[推進装置](/wiki/06-Items/Propulsion.md)、[エクストラ](/wiki/06-Items/Extras.md#research-cpus)：最終ティアの13個の部品のレシピ。

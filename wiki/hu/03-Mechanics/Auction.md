@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -31,7 +31,7 @@ A címke egységek száma, nem kapcsoló: egy lőszerköteg tartalmazhat vásár
 
 A Hangár **Csak eladható** chipje csak azt mutatja, amit el tudsz adni, a címkézett tárgy szemetese melletti **kalapács** pedig megnyitja hozzá az Aukció eladólapját. A Gyártásban az a recept, amelynek eredménye eladható, ezt kiírja, és a hiányzó nyersanyagnál van egy hivatkozás, amely megnyitja az Aukciót a nevével a keresőmezőben.
 
-Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amelyet a Bolt nem árul, és az erőforrásaidat egyszer megcímkézték. Ezeket nem, mert a Bolt egykor árulta őket, vagy mert amid van, az vásárolt és megszerzett darabokat is vegyít: a Quantum Laser III, az Absorption Shield Cell II és III, az Impulse Thruster II és III, a két Reinforced Plate és minden pilóta legrégebbi Base CPU I-e (a kezdőcsomagé). Az újakat, amelyeket megszerzel vagy elkészítesz, megcímkézik.
+Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amelyet a Bolt nem árul, és az erőforrásaidat egyszer megcímkézték. Ezeket nem, mert a Bolt egykor árulta őket, vagy mert amid van, az vásárolt és megszerzett darabokat is vegyít: a Quantum Laser III, az Absorption Shield Cell II és III, az Engine II, az Adaptive Core II, az Impulse Thruster II és III, a két Reinforced Plate és minden pilóta legrégebbi Base CPU I-e (a kezdőcsomagé). Az újakat, amelyeket megszerzel vagy elkészítesz, megcímkézik.
 
 ## Mi adható el {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Arról, hogy valami elkelt, értesítést kapsz: üzenetet, az Aukció hangját 
 
 ## Az óránkénti tételek {#the-hourly-lots}
 
-A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként, licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta), a Bolt saját pénznemében. A rakétatétel sosem nagyobb annál, amennyit az adott rakétából vihetsz (a Bolt köteg), ezért az a licit, amely ezen túlvinne, el lesz utasítva: akkor licitálj rakétatételre, ha keveset viszel az adott rakétából.
+A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként, licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta), a Bolt saját pénznemében. Bármelyik tételre licitálhatsz, bármit viszel is már: a megnyert tétel egészében a tiéd, még ha a Bolt által engedett köteg fölé is visz.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Minden UTC-óra elején új tétel nyílik, és 4 órán át nyitva marad, így egyszerre 4 van nyitva.
-- A kikiáltási ár az áru bolti árának 40%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit vagy 1 Thulium többnek kell lennie.
+- A kikiáltási ár az áru bolti árának 20%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit vagy 1 Thulium többnek kell lennie.
 - Az ajánlatod azonnal kifizetődik és zárolva marad. Ha valaki túllicitál, azonnal visszakapod.
 - Ha egy tétel utolsó 2 perc idejében licitálsz, a tétel vége a licit után 2 perc múlva lesz, legfeljebb 5 alkalommal.
 - Amit nyersz, repülésre való, nem kereskedésre: sosem eladható. A nyertes licit megsemmisül. Az a tétel, amelyre senki nem licitál, nem kel el, és senkinek nem kerül semmibe.
@@ -165,34 +165,36 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 
 | UTC-óra | Tétel | Teljes méret | Fizetőeszköz | Kikiáltási ár teljes méretnél |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1 250 | Thulium | 2 500 Thulium |
-| 01:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 02:00 | Lancet I | 12 500 | Kredit | 2 500 000 kredit |
-| 03:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 04:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 05:00 | Rivet II | 5 000 | Kredit | 1 600 000 kredit |
-| 06:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 07:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 08:00 | Ember I | 12 500 | Kredit | 2 500 000 kredit |
-| 09:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 10:00 | Scatter II | 5 000 | Kredit | 1 600 000 kredit |
-| 11:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 12:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 13:00 | Lancet III | 1 250 | Thulium | 2 500 Thulium |
-| 14:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 15:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 16:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 17:00 | Rivet I | 12 500 | Kredit | 2 500 000 kredit |
-| 18:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 19:00 | Ember II | 5 000 | Kredit | 1 600 000 kredit |
-| 20:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 21:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 22:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
+| 00:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
+| 01:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 02:00 | Lancet I | 12 500 | Kredit | 1 250 000 kredit |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 05:00 | Rivet II | 5 000 | Kredit | 800 000 kredit |
+| 06:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 07:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 08:00 | Ember I | 12 500 | Kredit | 1 250 000 kredit |
+| 09:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 10:00 | Scatter II | 5 000 | Kredit | 800 000 kredit |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 13:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
+| 14:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
+| 15:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 16:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 17:00 | Rivet I | 12 500 | Kredit | 1 250 000 kredit |
+| 18:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 19:00 | Ember II | 5 000 | Kredit | 800 000 kredit |
+| 20:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 21:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 22:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Ha kevés pilóta használja az Aukciót, a tételek kicsik, hogy egy maroknyi pilótának ne kínáljanak óránként több ezer lövést; ahogy többen nézik, úgy nőnek.
+
+**Licit maximummal.** A licitablakban kapcsold be az *Automatikus licit egy maximumig* kapcsolót, és írd be, legfeljebb mennyit fizetnél. Az Aukció ekkor licitál helyetted: a tétel által elfogadott legalacsonyabb ajánlatot teszi, és valahányszor valaki túllicitál, újra licitál, mindig a legkisebb emeléssel a legmagasabb ajánlat fölé, a maximumodig és nem tovább. Az ajánlat, amellyel vezetsz, a következő legjobb maximumot éppen megverő legalacsonyabb ajánlat, nem a maximumod: 500 és 800 kredites maximumnál egy 100-ról induló tételen a magasabb 600-zal vezet, nem 800-zal. Ha két maximum egyenlő, az nyer, amelyiket előbb állították be. A teljes maximumod beállításkor lefoglalódik a pénztárcádból, ezért egy automatikus licit sem hiúsulhat meg pénz hiányában; a tétel végén csak a nyertes ajánlatot fizeted, a többi visszajön, és ha valaki túllépi a maximumodat, az egész azonnal visszajön, és értesítést kapsz. Egy tételen, amelyen vezetsz, a **Maximum** gomb bármikor emeli a maximumodat, vagy leviszi a jelenlegi ajánlatodig. A maximum beállítása nem licit, de a hosszabbítási szabály minden licitet számol, az Aukcióét is. A maximum beállításának saját halk hangja van, a hangeffektek hangerején.
 
 ## A szezon és a wipe {#the-season-and-the-wipe}
 

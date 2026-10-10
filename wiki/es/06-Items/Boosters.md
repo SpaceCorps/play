@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54910cbb508beed2 -->
+<!-- wiki-i18n source: 6227a03e20405285 -->
 <!-- wiki-i18n title: Potenciadores -->
 # Potenciadores {#boosters}
 
@@ -38,6 +38,7 @@ Los potenciadores usan un sistema de escalado aditivo:
 1. **Los porcentajes de bono se suman**: si compras dos potenciadores distintos que dan +10 % de daño láser, recibirás un bono total de **+20 % de daño láser**.
 2. **Las duraciones se acumulan de forma multiplicativa**: comprar varias veces el _mismo_ potenciador prolonga su duración activa. Los temporizadores de potenciadores _distintos_ corren en paralelo.
 3. **Vista de temporizadores**: los potenciadores activos aparecen en el HUD, en la ventana Potenciadores, con el total de los bonos activos agrupados y el próximo vencimiento.
+4. **Los números los cuentan**: el daño, los escudos, la recarga del escudo, la absorción, la velocidad y el casco del Hangar, y tu página de piloto, incluyen tus potenciadores en marcha, tus mejoras de la tienda de temporada y los refuerzos de tu clan; una pequeña etiqueta *con potenciadores* en la tarjeta de estadísticas de combate lo indica. La penetración, la probabilidad de crítico y el alcance no cambian con los potenciadores.
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -34,19 +34,19 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19.000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24.000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13.500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100.000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100.000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100.000 | 4 | 75 | 13 | 4 | 1 |
 
 Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Paragon für THUNDER, BUCKY oder LICH), und es darf nicht das Schiff sein, das du fliegst: Mache zuerst ein anderes Schiff aktiv. Ein zerstörtes Schiff lässt sich nicht umbauen.
 
@@ -79,4 +79,4 @@ Jedes Design hat ein eigenes Modell, das seines Schiffs mit ein paar Änderungen
 
 ## Shop, Auktion und Punkte {#shop-auction-and-points}
 
-Ein Design wird nie im Shop verkauft und nie auf der [Auktion](/wiki/03-Mechanics/Auction.md) angeboten: Du machst es aus deinem eigenen Schiff. Ein Abschuss eines Designs bringt dieselben PvP-Punkte wie ein Abschuss seines Schiffs.
+Ein Design wird nie im Shop verkauft und nie auf der [Auktion](/wiki/03-Mechanics/Auction.md) angeboten: Du machst es aus deinem eigenen Schiff. Im Shop zeigt die Kategorie Schiffe die Designs jedes Schiffs unter seiner Karte (ein Bild, was das Design ändert und den Umwandlungspreis in Thulium), zur Information; die Umwandlung selbst wird in der Montage vorgenommen. Ein Abschuss eines Designs bringt dieselben PvP-Punkte wie ein Abschuss seines Schiffs.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
+<!-- wiki-i18n source: 1591c57b813b2ba9 -->
 <!-- wiki-i18n title: Pirate 虫群 -->
 # Pirate 虫群 {#pirate-swarm}
 
@@ -32,12 +32,12 @@ Pirate 虫群由一个 **Pirate Boss** 和它的 **Pirate Scout** 组成：Pirat
 - **打 Boss，不要打 Scout。** Scout 会治疗 Boss，但与 Boss 的船体相比，治疗量很小，而且新的 Scout 会按*一览*列表所说的频率出现：先击杀 Scout 的小队永远赶不上它们，只有非常庞大的小队才能清掉它们，而且仍比不去管它们的小队花更长时间击败 Boss。Scout 只会耗费你的时间，不会决定战斗。
 - **把 Scout 引开。** Scout 只有在 Boss 的范围之内才会治疗，所以跟着你离开该范围的 Scout 什么也治疗不了，而 Ostirion 比 Scout 更快。
 - **保持移动。** Boss 的火箭是直线的，不带制导：保持移动的舰船可以躲开，原地不动的舰船则会被击中。
-- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，在 Alpha 中大约五分钟就能击败它，但很勉强，而且只在伤害被分摊时才行：让一名飞行员承受全部火力的三人组会输。五个人三到四分钟就能击败它；单独一艘 Ostirion 做不到，单独一艘 Paragon 可以。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
+- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，即使伤害被分摊，在 `x-3` 也会输；四个人在 Alpha 中大约四分钟就能击败它，三个人在 `x-2` 仍然可以做到，但很勉强。使用 x4 弹药时，在 `x-3` 三个人也够了（大约两分半钟）。五个人在伤害被分摊时大约三分钟就能击败它，由一名飞行员承受全部火力时要四分多钟，并且会损失三艘舰船：让一名飞行员承受全部火力的小队需要五个人。在 Beta 中需要六名飞行员，在 Gamma 中需要七名，且伤害要被分摊（那里的 Boss 更大，它的 Scout 回复更多）。单独一艘 Ostirion 做不到，单独一艘 Paragon 可以。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
 - **Boss 会回来**，在*一览*列表给出的时间之后，出现在同一个星区。
 
 ## 奖励与掉落 {#rewards-and-drops}
 
-Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高于与 Goombah 战斗一分钟。奖励按伤害在与它战斗的飞行员之间分配（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。它的货箱归造成伤害最多的飞行员，里面可能有 **Reinforced Hull Plate**、火箭和弹药。Scout 的奖励很少，也不掉落任何东西。
+Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高于与 Goombah 战斗一分钟。奖励按伤害在与它战斗的飞行员之间分配（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。它的货箱归造成伤害最多的飞行员，里面可能有 **Reinforced Hull Plate**、火箭和弹药。它的货箱价值约为击杀本身奖励的五分之二。Scout 的奖励很少，也不掉落任何东西。
 
 ## 数值 {#the-numbers}
 
@@ -71,17 +71,17 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
 | 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 5–10 |
-| Advanced Plasma 和 Siphon Battery 中随机一种 | 100% | 500–1,000 |
+| Advanced Plasma 和 Siphon Battery 中随机一种 | 100% | 1,000–2,000 |
 
 ### Pirate Scout
 
-基于 Kitefin，拥有其 50% 的船体和 75% 的激光伤害；速度和射程与原舰船相同。
+基于 Kitefin，拥有其 50% 的船体和 113% 的激光伤害；速度和射程与原舰船相同。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | 船体 | 12,000 | 18,000 | 24,000 |
 | 护盾 | 9,818 | 14,727 | 19,636 |
-| 激光伤害 （每秒一轮齐射） | 147 | 221 | 294 |
+| 激光伤害 （每秒一轮齐射） | 221 | 332 | 442 |
 | 速度 | 175 | 175 | 175 |
 | 激光射程 | 700 | 700 | 700 |
 | 仇恨范围 | 700 | 700 | 700 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -110,7 +110,7 @@ Plusieurs modules d’un même type dans une même configuration : celui de plu
 
 <!-- abilities:end -->
 
-Les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et 3 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
+L’Engine II et les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et des plaques (2 Velkonite Reinforced Plates pour l’Engine II, 3 Dark Matter Plates pour les autres : [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
 
 ## Temps de recharge et limites {#cooldowns-and-limits}
 

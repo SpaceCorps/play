@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
+<!-- wiki-i18n source: 1591c57b813b2ba9 -->
 <!-- wiki-i18n title: Sciame Pirate -->
 # Sciame Pirate {#pirate-swarm}
 
@@ -32,12 +32,12 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 - **Spara al boss, non agli Scout.** Gli Scout curano il boss, ma la cura è piccola rispetto al suo scafo, e un nuovo Scout arriva con la frequenza che dice l’elenco *In breve*: un gruppo che uccide prima gli Scout non li supera mai, e solo un gruppo molto grande può eliminarli e impiega comunque più tempo a finire il boss di uno che li ha lasciati stare. Gli Scout ti costano tempo, non decidono lo scontro.
 - **Allontana gli Scout.** Uno Scout cura solo finché è alla portata del boss, quindi uno Scout che ti segue fuori portata non cura nulla, e un’Ostirion è più veloce di uno Scout.
 - **Resta in movimento.** Il razzo del boss è dritto e non guidato: una nave che resta in movimento lo schiva, una ferma viene colpita.
-- **Porta un gruppo.** Tre piloti su Ostirion con munizioni x2 possono abbatterlo in circa cinque minuti in Alpha, ma per poco e solo finché i colpi sono distribuiti: un trio che lascia a un pilota tutto il fuoco perde. Cinque lo abbattono in tre-quattro minuti; un’Ostirion da sola no, una Paragon da sola sì. Il boss risponde al primo pilota che lo ha colpito, quindi lascia cominciare la nave più robusta, e usa le tue abilità (Emergency Repair, Shield Surge: [Abilità](/wiki/03-Mechanics/Abilities.md)) in uno scontro così lungo. I piloti ancora di livello 2 o 3 sono troppo deboli per lui, anche dove volano: stai lontano finché non sei più forte.
+- **Porta un gruppo.** Tre piloti su Ostirion con munizioni x2 lo perdono su `x-3` anche finché i colpi sono distribuiti; quattro lo abbattono in circa quattro minuti in Alpha, e tre ce la fanno ancora su `x-2`, ma per poco. Con munizioni x4 bastano tre anche su `x-3` (circa due minuti e mezzo). Cinque lo abbattono in circa tre minuti quando i colpi sono distribuiti e in poco più di quattro quando un pilota prende tutto il fuoco, e allora perdono tre navi: un gruppo che lascia a un pilota tutto il fuoco ne richiede cinque. In Beta servono sei piloti e in Gamma sette, con i colpi distribuiti (il boss lì è più grande e i suoi Scout curano di più). Un’Ostirion da sola no, una Paragon da sola sì. Il boss risponde al primo pilota che lo ha colpito, quindi lascia cominciare la nave più robusta, e usa le tue abilità (Emergency Repair, Shield Surge: [Abilità](/wiki/03-Mechanics/Abilities.md)) in uno scontro così lungo. I piloti ancora di livello 2 o 3 sono troppo deboli per lui, anche dove volano: stai lontano finché non sei più forte.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, nello stesso settore.
 
 ## Ricompense e bottino {#rewards-and-drops}
 
-Il Pirate Boss paga per lo scontro che è: un minuto di scontro con lui paga più di un minuto di scontro con un Goombah. La ricompensa si divide in base al danno tra i piloti che lo hanno combattuto ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). La sua cassa è per il pilota che ha inflitto più danno e può contenere una **Reinforced Hull Plate**, razzi e munizioni. Gli Scout pagano poco e non lasciano nulla.
+Il Pirate Boss paga per lo scontro che è: un minuto di scontro con lui paga più di un minuto di scontro con un Goombah. La ricompensa si divide in base al danno tra i piloti che lo hanno combattuto ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). La sua cassa è per il pilota che ha inflitto più danno e può contenere una **Reinforced Hull Plate**, razzi e munizioni. La sua cassa vale circa due quinti di ciò che paga l’abbattimento stesso. Gli Scout pagano poco e non lasciano nulla.
 
 ## I valori {#the-numbers}
 
@@ -71,17 +71,17 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
 | Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 5–10 |
-| Uno tra Advanced Plasma e Siphon Battery, scelto a caso | 100% | 500–1.000 |
+| Uno tra Advanced Plasma e Siphon Battery, scelto a caso | 100% | 1.000–2.000 |
 
 ### Pirate Scout
 
-Base: Kitefin; rispetto all’originale, scafo 50% e danno dei laser 75%; velocità e portata sono quelle della nave di partenza.
+Base: Kitefin; rispetto all’originale, scafo 50% e danno dei laser 113%; velocità e portata sono quelle della nave di partenza.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Scafo | 12.000 | 18.000 | 24.000 |
 | Scudo | 9.818 | 14.727 | 19.636 |
-| Danno dei laser (una raffica al secondo) | 147 | 221 | 294 |
+| Danno dei laser (una raffica al secondo) | 221 | 332 | 442 |
 | Velocità | 175 | 175 | 175 |
 | Portata dei laser | 700 | 700 | 700 |
 | Raggio di aggressione | 700 | 700 | 700 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -34,19 +34,19 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19 000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24 000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13 500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100 000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100 000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100 000 | 4 | 75 | 13 | 4 | 1 |
 
 Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BUCKY eller LICH), och det får inte vara skeppet du flyger: gör först ett annat skepp aktivt. Ett vrak kan inte byggas om.
 
@@ -79,4 +79,4 @@ Varje design har en egen modell, skeppets med några ändringar som visar vad de
 
 ## Butik, Auktion och poäng {#shop-auction-and-points}
 
-En design säljs aldrig i butiken och läggs aldrig ut på [Auktionen](/wiki/03-Mechanics/Auction.md): du gör den av ditt eget skepp. Ett dödande av en design ger samma PvP-poäng som ett dödande av dess skepp.
+En design säljs aldrig i butiken och läggs aldrig ut på [Auktionen](/wiki/03-Mechanics/Auction.md): du gör den av ditt eget skepp. Butikens kategori Skepp visar däremot designerna för varje skepp under dess kort (en bild, vad designen ändrar och omvandlingspriset i Thulium), som information; själva omvandlingen görs i Monteringen. Ett dödande av en design ger samma PvP-poäng som ett dödande av dess skepp.

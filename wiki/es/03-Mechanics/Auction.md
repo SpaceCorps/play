@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
@@ -31,7 +31,7 @@ La etiqueta es un número de unidades, no un interruptor: una pila de munición 
 
 El chip **Solo comercializable** del Hangar muestra solo lo que puedes vender, y el **martillo** junto a la papelera de un objeto con etiqueta abre la hoja de venta de la Subasta para él. En el Ensamblaje, una receta cuyo resultado es comercializable lo dice, y un material que te falta tiene un enlace que abre la Subasta con su nombre en el cuadro de búsqueda.
 
-Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no vende, y los recursos, se etiquetaron una vez. No se etiquetaron estos, porque la Tienda los vendió en su día o porque lo que tienes mezcla piezas compradas y ganadas: el Quantum Laser III, las Absorption Shield Cells II y III, los Impulse Thrusters II y III, las dos Reinforced Plates y la Base CPU I más antigua de cada piloto (la del kit inicial). Los nuevos de estos que ganes o fabriques sí llevan etiqueta.
+Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no vende, y los recursos, se etiquetaron una vez. No se etiquetaron estos, porque la Tienda los vendió en su día o porque lo que tienes mezcla piezas compradas y ganadas: el Quantum Laser III, las Absorption Shield Cells II y III, el Engine II, el Adaptive Core II, los Impulse Thrusters II y III, las dos Reinforced Plates y la Base CPU I más antigua de cada piloto (la del kit inicial). Los nuevos de estos que ganes o fabriques sí llevan etiqueta.
 
 ## Qué se puede vender {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Te enteras de que algo se vende por un aviso emergente, el sonido de la Subasta 
 
 ## Los Lotes de cada hora {#the-hourly-lots}
 
-Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, cada hora, para pujar. Son una forma de comprar munición por menos de lo que pide la Tienda, y un sumidero: la puja ganadora se quema. Solo se abren los lotes de la tabla del día de abajo (nunca munición x1 ni x4, nunca Siphon Batteries, nunca un cohete especial), en la moneda de la Tienda. Un lote de cohetes nunca supera el máximo de ese cohete que puedes llevar (la pila de la Tienda), así que se rechaza una puja que te haría pasarte de él: puja por un lote de cohetes cuando lleves pocos de ese cohete.
+Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, cada hora, para pujar. Son una forma de comprar munición por menos de lo que pide la Tienda, y un sumidero: la puja ganadora se quema. Solo se abren los lotes de la tabla del día de abajo (nunca munición x1 ni x4, nunca Siphon Batteries, nunca un cohete especial), en la moneda de la Tienda. Puedes pujar por cualquier lote, lleves lo que lleves ya: un lote que ganas es tuyo entero, aunque te lleve por encima de la pila que la Tienda te deja comprar.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Al comienzo de cada hora UTC se abre un lote nuevo, que sigue abierto 4 horas, así que hay 4 abiertos a la vez.
-- La puja inicial es el 40 % del precio de la tienda de lo que se ofrece. Cada puja posterior debe superar la puja más alta en al menos un 5 %, y en al menos 100 créditos o 1 Thulium.
+- La puja inicial es el 20 % del precio de la tienda de lo que se ofrece. Cada puja posterior debe superar la puja más alta en al menos un 5 %, y en al menos 100 créditos o 1 Thulium.
 - Tu puja se paga al instante y queda retenida. Si alguien te supera, te la devuelven al instante.
 - Una puja en los últimos 2 min de un lote mueve su final a 2 min después de la puja, como máximo 5 veces.
 - Lo que ganas es para volar, no para comerciar: nunca es comercializable. La puja ganadora se quema. Un lote en el que nadie puja no se vende y no le cuesta nada a nadie.
@@ -165,34 +165,36 @@ Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, ca
 
 | Hora UTC | Lote | Tamaño completo | Se paga en | Puja inicial con tamaño completo |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1.250 | Thulium | 2.500 Thulium |
-| 01:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 02:00 | Lancet I | 12.500 | Créditos | 2.500.000 créditos |
-| 03:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 04:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 05:00 | Rivet II | 5.000 | Créditos | 1.600.000 créditos |
-| 06:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 07:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 08:00 | Ember I | 12.500 | Créditos | 2.500.000 créditos |
-| 09:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 10:00 | Scatter II | 5.000 | Créditos | 1.600.000 créditos |
-| 11:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 12:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 13:00 | Lancet III | 1.250 | Thulium | 2.500 Thulium |
-| 14:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 15:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 16:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 17:00 | Rivet I | 12.500 | Créditos | 2.500.000 créditos |
-| 18:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 19:00 | Ember II | 5.000 | Créditos | 1.600.000 créditos |
-| 20:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 21:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 22:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
+| 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
+| 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 02:00 | Lancet I | 12.500 | Créditos | 1.250.000 créditos |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 05:00 | Rivet II | 5.000 | Créditos | 800.000 créditos |
+| 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 08:00 | Ember I | 12.500 | Créditos | 1.250.000 créditos |
+| 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 10:00 | Scatter II | 5.000 | Créditos | 800.000 créditos |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
+| 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
+| 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 17:00 | Rivet I | 12.500 | Créditos | 1.250.000 créditos |
+| 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 19:00 | Ember II | 5.000 | Créditos | 800.000 créditos |
+| 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Cuando pocos pilotos usan la Subasta, los lotes son pequeños, para que a un puñado de pilotos no se le ofrezcan miles de balas cada hora; crecen cuantos más pilotos miran.
+
+**Pujar con un máximo.** En la hoja de puja, activa *Pujar automáticamente hasta un máximo* y escribe lo máximo que estás dispuesto a pagar. La Subasta puja entonces por ti: toma la puja más baja que acepta el lote y, cada vez que alguien te supera, vuelve a pujar, una subida mínima por encima de la puja más alta, hasta tu máximo y no más. La puja con la que vas en cabeza es la más baja que supera el siguiente mejor máximo, no tu máximo: con máximos de 500 y 800 créditos en un lote que abrió en 100, el más alto va en cabeza con 600, no con 800. Si dos máximos son iguales, gana el que se fijó primero. Todo tu máximo se retiene de tu cartera al fijarlo, así que ninguna puja automática puede fallar por falta de dinero; cuando el lote termina pagas solo la puja ganadora y el resto se te devuelve, y si alguien supera tu máximo se te devuelve todo al instante y se te avisa. En un lote en el que vas en cabeza, el botón **Máximo** sube tu máximo en cualquier momento o lo baja hasta tu puja actual. Fijar un máximo no es una puja, pero toda puja cuenta para la regla de prórroga, también la de la Subasta. Fijar un máximo tiene un sonido suave propio, en el volumen de efectos de sonido.
 
 ## La temporada y el reinicio {#the-season-and-the-wipe}
 

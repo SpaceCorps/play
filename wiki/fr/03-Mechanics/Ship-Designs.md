@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -34,19 +34,19 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19 000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24 000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13 500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100 000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100 000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100 000 | 4 | 75 | 13 | 4 | 1 |
 
 Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour THUNDER, BUCKY ou LICH), et ce ne peut pas être le vaisseau que vous pilotez : rendez d’abord un autre vaisseau actif. Un vaisseau détruit ne peut pas être transformé.
 
@@ -79,4 +79,4 @@ Chaque design a son propre modèle, celui de son vaisseau avec quelques changeme
 
 ## Boutique, Enchères et points {#shop-auction-and-points}
 
-Un design n’est jamais vendu à la boutique ni proposé aux [Enchères](/wiki/03-Mechanics/Auction.md) : vous le faites à partir de votre propre vaisseau. Une élimination d’un design rapporte les mêmes points PvP qu’une élimination de son vaisseau.
+Un design n’est jamais vendu à la boutique ni proposé aux [Enchères](/wiki/03-Mechanics/Auction.md) : vous le faites à partir de votre propre vaisseau. La catégorie Vaisseaux de la boutique montre bien les designs de chaque vaisseau sous sa carte (une image, ce que le design change et le prix de conversion en Thulium), à titre d’information ; la conversion elle-même se fait dans l’Assemblage. Une élimination d’un design rapporte les mêmes points PvP qu’une élimination de son vaisseau.

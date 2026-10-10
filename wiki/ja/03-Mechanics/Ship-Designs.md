@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: 艦のデザイン -->
 # 艦のデザイン {#ship-designs}
 
@@ -34,19 +34,19 @@
 
 | デザイン | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13,500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
 
 改造する艦は、その種類で所有している艦です（THUNDER、BUCKY、LICH なら Paragon）。操縦中の艦は改造できないので、先にほかの艦をアクティブにしてください。撃破された艦も改造できません。
 
@@ -79,4 +79,4 @@
 
 ## ショップ、オークション、ポイント {#shop-auction-and-points}
 
-デザインがショップで売られることも、[オークション](/wiki/03-Mechanics/Auction.md)に出されることもありません。自分の艦から作るものです。デザインを撃破したときのPvPポイントは、その元の艦を撃破したときと同じです。
+デザインがショップで売られることも、[オークション](/wiki/03-Mechanics/Auction.md)に出されることもありません。自分の艦から作るものです。ショップの艦船カテゴリには、各艦のカードの下にその艦のデザインが表示されます（画像、デザインが変えるもの、Thulium での改造価格）。これは参考情報で、改造そのものはアセンブリで行います。デザインを撃破したときのPvPポイントは、その元の艦を撃破したときと同じです。

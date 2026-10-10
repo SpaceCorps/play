@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -31,7 +31,7 @@ Etiketten är ett antal enheter, inte en strömbrytare: en ammunitionshög kan i
 
 Knappen **Endast säljbart** i Hangaren visar bara det du kan sälja, och **klubban** bredvid papperskorgen på ett märkt föremål öppnar Auktionens säljblad för det. I Monteringen säger ett recept vars resultat är säljbart det, och ett material du saknar har en länk som öppnar Auktionen med dess namn i sökrutan.
 
-När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butiken inte säljer, och resurserna, en gång. Dessa märktes inte, eftersom Butiken en gång sålde dem eller eftersom det du har blandar köpta och förtjänade delar: Quantum Laser III, Absorption Shield Cell II och III, Impulse Thruster II och III, de två Reinforced Plates och varje pilots äldsta Base CPU I (startpaketets). Nya av dem som du förtjänar eller tillverkar märks.
+När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butiken inte säljer, och resurserna, en gång. Dessa märktes inte, eftersom Butiken en gång sålde dem eller eftersom det du har blandar köpta och förtjänade delar: Quantum Laser III, Absorption Shield Cell II och III, Engine II, Adaptive Core II, Impulse Thruster II och III, de två Reinforced Plates och varje pilots äldsta Base CPU I (startpaketets). Nya av dem som du förtjänar eller tillverkar märks.
 
 ## Vad som kan säljas {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Du får veta när något säljs: genom ett meddelande, Auktionens ljud och det n
 
 ## Lotterna varje timme {#the-hourly-lots}
 
-Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varje timme, att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket), i Butikens valuta. En raketlott är aldrig större än det största antal av den raketen du får bära (Butikens hög), så ett bud som skulle ta dig över det avvisas: bjud på en raketlott när du bär få av den raketen.
+Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varje timme, att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket), i Butikens valuta. Du kan buda på vilken lott som helst, vad du än redan bär: en lott du vinner är din hel, även om den tar dig över den hög som Butiken låter dig köpa.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - I början av varje UTC-timme öppnas en ny lott som är öppen i 4 timmar, så att 4 är öppna samtidigt.
-- Startbudet är 40 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter eller 1 Thulium mer.
+- Startbudet är 20 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter eller 1 Thulium mer.
 - Ditt bud betalas direkt och hålls kvar. Om någon överbjuder dig kommer det tillbaka direkt.
 - Ett bud under de sista 2 min av en lott flyttar dess slut till 2 min efter budet, högst 5 gånger.
 - Det du vinner är till för att flyga, inte för att handla med: det är aldrig säljbart. Det vinnande budet förbränns. En lott som ingen bjuder på säljs inte och kostar ingen något.
@@ -165,34 +165,36 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, varj
 
 | UTC-timme | Lott | Full storlek | Betalas i | Startbud vid full storlek |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1 250 | Thulium | 2 500 Thulium |
-| 01:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 02:00 | Lancet I | 12 500 | Krediter | 2 500 000 krediter |
-| 03:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 04:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 05:00 | Rivet II | 5 000 | Krediter | 1 600 000 krediter |
-| 06:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 07:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 08:00 | Ember I | 12 500 | Krediter | 2 500 000 krediter |
-| 09:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 10:00 | Scatter II | 5 000 | Krediter | 1 600 000 krediter |
-| 11:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 12:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 13:00 | Lancet III | 1 250 | Thulium | 2 500 Thulium |
-| 14:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 15:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 16:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 17:00 | Rivet I | 12 500 | Krediter | 2 500 000 krediter |
-| 18:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 19:00 | Ember II | 5 000 | Krediter | 1 600 000 krediter |
-| 20:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 21:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 22:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
+| 00:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
+| 01:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 02:00 | Lancet I | 12 500 | Krediter | 1 250 000 krediter |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 05:00 | Rivet II | 5 000 | Krediter | 800 000 krediter |
+| 06:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 07:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 08:00 | Ember I | 12 500 | Krediter | 1 250 000 krediter |
+| 09:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 10:00 | Scatter II | 5 000 | Krediter | 800 000 krediter |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 13:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
+| 14:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
+| 15:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 16:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 17:00 | Rivet I | 12 500 | Krediter | 1 250 000 krediter |
+| 18:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 19:00 | Ember II | 5 000 | Krediter | 800 000 krediter |
+| 20:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 21:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 22:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 När få piloter använder Auktionen är lotterna små, så att en handfull piloter inte erbjuds tusentals skott varje timme; de växer när fler piloter tittar.
+
+**Buda med ett maxbud.** Slå på *Buda automatiskt upp till ett maxbud* i budfönstret och skriv det mesta du är beredd att betala. Auktionen bjuder då åt dig: den tar det lägsta bud som lottet godtar, och varje gång någon överbjuder dig bjuder den igen, ett lägsta steg över det högsta budet, upp till ditt maxbud och inte längre. Budet du leder på är det lägsta som slår nästa bästa maxbud, inte ditt maxbud: med maxbud på 500 och 800 krediter på ett lott som öppnade på 100 leder det högre på 600, inte på 800. Är två maxbud lika vinner det som lades först. Hela ditt maxbud reserveras från din plånbok när du lägger det, så inget automatiskt bud kan misslyckas för att pengar saknas; när lottet slutar betalar du bara det vinnande budet och resten betalas tillbaka, och om någon går över ditt maxbud kommer allt tillbaka direkt och du får veta det. På ett lott du leder höjer knappen **Maxbud** ditt maxbud när som helst eller sänker det ner till ditt nuvarande bud. Att lägga ett maxbud är inget bud, men varje bud räknas för förlängningsregeln, också Auktionens eget. Att lägga ett maxbud har ett eget lågmält ljud, på ljudeffektsvolymen.
 
 ## Säsongen och wipen {#the-season-and-the-wipe}
 

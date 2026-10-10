@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 25436195e066ff8c -->
+<!-- wiki-i18n source: 366f14293d706328 -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
@@ -54,7 +54,7 @@ Minden fajta egy **család**, amely a közönséges rakétájáról kapja a nev�
 - Az **irányított** rakétáknak indulásukkor kell egy kijelölt célpont a **befogási távolságukon** belül. Korlátozott fordulási sebességgel követik, ezért egy távoli, gyors hajó lehagyhat egy olcsót. Ha a célpont megsemmisül, távozik vagy biztonságos zónába ér, a rakéta egyenesen repül tovább, és nem választ másikat.
 - Az **egyenes** rakétáknak nem kell célpont, és figyelmen kívül hagyják a kijelöltet: mindig a **kurzorod** felé repülnek, a repülési nézetben a kurzor alatti pont felé. **Kattints egy egyenes rakéta helyére az élesítéshez** (a hely fehér keretet és célkeresztet kap, az egérkurzorod pedig célkereszt lesz az űr fölött), majd **kattints az űrbe**: a rakéta a rákattintott pont felé repül, a hajód pedig a helyén marad. Az Esc, a jobb klikk vagy ugyanannak a helynek az újbóli megnyomása elengedi. Ha a rakéták még töltődnek, a kattintás csak ezt közli, és a rakéta élesítve marad. A számgombok és a **Rakétakilövés** azonnal a kurzor utolsó, repülési nézetben lévő pontja felé lőnek; amíg a kurzor még nem járt ott, abba az irányba repülnek, **amerre a hajód néz**. Egyenesen repülnek, így egy nagy sebességgel keresztező hajó kitérhet előlük.
 - Az **egy célpontú** rakéta az első hajót találja el, amelyet eltalálhat (az irányított csak a célpontját). A **területi robbanás** az első hajó mellett robban fel, amellyel találkozik, a megcélzott pontnál, vagy ahol a repülése véget ér, és minden hajót megsebez a **robbanási sugarán** belül: a középpontban teljes sebzéssel, a szélén annak a felével. A gyűrű, amelyet a robbanás a térképen rajzol, a pontos hatósugara.
-- **Aszteroidák.** Az [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kilőtt rakéta azt az aszteroidát találja el és semmi mást, az a rakéta pedig, amelyet nem aszteroidára lőttek ki, mindegyiken átrepül. A bolt tizenkét rakétája és a N.U.K.E. szét tud lőni egyet; a N.I.K.E. nem. A lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak: erre a munkára a rakéta való.
+- **Aszteroidák.** Az [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kilőtt rakéta felé repül, és bármelyik rakéta útjába eső első aszteroida megállítja, és a mögötte lévő hajó helyett ő kapja a találatot ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). A bolt tizenkét rakétája és a N.U.K.E. szét tud lőni egyet; a N.I.K.E.-t nem lehet aszteroidára kilőni, és átrepül felettük. A lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak: erre a munkára a rakéta való.
 
 ## A tizenkét rakéta {#the-twelve-rockets}
 

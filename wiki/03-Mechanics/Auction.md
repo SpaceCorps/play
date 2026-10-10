@@ -29,7 +29,7 @@ The tag is a number of units, not a switch: a stack of ammo can hold bought and 
 
 The Hangar's **Marketable only** chip shows only what you can sell, and the **gavel** beside the trash of a tagged item opens the Auction's sell sheet for it. In the Assembly, a recipe whose result is Marketable says so, and a material you are short of has a link that opens the Auction with its name in the search box.
 
-When the Auction came (0.4.12) the gear you already held that the Shop does not sell, and the resources, were tagged once. These were not, because the Shop once sold them or because what you hold mixes bought and earned pieces: the Quantum Laser III, the Absorption Shield Cells II and III, the Impulse Thrusters II and III, the two Reinforced Plates, and the oldest Base CPU I of each pilot (the starter kit's). New ones of them that you earn or craft are tagged.
+When the Auction came (0.4.12) the gear you already held that the Shop does not sell, and the resources, were tagged once. These were not, because the Shop once sold them or because what you hold mixes bought and earned pieces: the Quantum Laser III, the Absorption Shield Cells II and III, the Engine II, the Adaptive Core II, the Impulse Thrusters II and III, the two Reinforced Plates, and the oldest Base CPU I of each pilot (the starter kit's). New ones of them that you earn or craft are tagged.
 
 ## What can be sold
 
@@ -143,13 +143,13 @@ You are told when something sells: a toast, the Auction's sound and the new bala
 
 ## The hourly Lots
 
-The Lots are the game's own offers: ammo, rockets and EMP Charges, every hour, for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a special rocket), in the Shop's own currency. A rocket lot is never more than the most of that rocket you may carry (the Shop's stack), so a bid that would take you over it is refused: bid on a rocket lot when you carry little of that rocket.
+The Lots are the game's own offers: ammo, rockets and EMP Charges, every hour, for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a special rocket), in the Shop's own currency. You can bid on any lot whatever you already carry: a lot you win is yours whole, even when it takes you above the stack the Shop lets you buy.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - A new lot opens at the start of every UTC hour and stays open for 4 hours, so 4 are open at once.
-- The opening bid is 40% of the Shop price of the goods. A bid after that must be at least 5% over the high bid, and at least 100 Credits or 1 Thulium more.
+- The opening bid is 20% of the Shop price of the goods. A bid after that must be at least 5% over the high bid, and at least 100 Credits or 1 Thulium more.
 - Your bid is paid at once and held. If someone outbids you, it comes back to you at once.
 - A bid in the last 2 min of a lot moves its end to 2 min after the bid, at most 5 times.
 - What you win is for flying, not for trading: it is never Marketable. The winning bid is burned. A lot nobody bids on is not sold and costs nobody anything.
@@ -163,34 +163,36 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, every hour, f
 
 | UTC hour | Lot | Full size | Paid in | Opening bid at full size |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 2,500 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 02:00 | Lancet I | 12,500 | Credits | 2,500,000 Credits |
-| 03:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 04:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 05:00 | Rivet II | 5,000 | Credits | 1,600,000 Credits |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 08:00 | Ember I | 12,500 | Credits | 2,500,000 Credits |
-| 09:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 10:00 | Scatter II | 5,000 | Credits | 1,600,000 Credits |
-| 11:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 13:00 | Lancet III | 1,250 | Thulium | 2,500 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 4,000 Thulium |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 17:00 | Rivet I | 12,500 | Credits | 2,500,000 Credits |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 19:00 | Ember II | 5,000 | Credits | 1,600,000 Credits |
-| 20:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
+| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 02:00 | Lancet I | 12,500 | Credits | 1,250,000 Credits |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 05:00 | Rivet II | 5,000 | Credits | 800,000 Credits |
+| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 08:00 | Ember I | 12,500 | Credits | 1,250,000 Credits |
+| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 10:00 | Scatter II | 5,000 | Credits | 800,000 Credits |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
+| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
+| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 17:00 | Rivet I | 12,500 | Credits | 1,250,000 Credits |
+| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 19:00 | Ember II | 5,000 | Credits | 800,000 Credits |
+| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 When few pilots use the Auction the lots are small, so a handful of pilots is not offered thousands of rounds every hour; they grow as more pilots look.
+
+**Bidding with a maximum.** In the bid sheet, switch on *Bid automatically up to a maximum* and type the most you are willing to pay. The Auction then bids for you: it takes the lowest bid the lot accepts, and whenever someone outbids you it bids again, one least raise over the highest bid, up to your maximum and no further. The bid you lead at is the lowest that beats the next best maximum, not your maximum: with maximums of 500 and 800 Credits on a lot that opened at 100, the higher one leads at 600, not at 800. If two maximums are equal, the one set first wins. Your whole maximum is held from your wallet when you set it, so no automatic bid can fail for want of money; when the lot ends you pay only the winning bid and the rest comes back, and if someone passes your maximum it all comes back at once and you are told so. On a lot you lead, the **Maximum** button raises your maximum at any time or lowers it as far as your standing bid. Setting a maximum is not a bid, but every bid counts for the extension rule, the Auction's own too. Setting a maximum has a quiet sound of its own, on the Sound Effects volume.
 
 ## The season and the wipe
 

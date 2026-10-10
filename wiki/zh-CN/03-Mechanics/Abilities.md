@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: 技能 -->
 # 舰船主动技能 {#active-ship-abilities}
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中，分别用一个 Basic Shield Core 和一个 Engine II 来制造，并消耗 Thulium、掉落物和 3 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。Emergency Repair 还有第四个等级，即 Repair Drone IV。
+Engine II 以及 III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中，分别用一个 Engine I、Basic Shield Core 和 Engine II 来制造，并消耗 Thulium、掉落物和板（Engine II 用 2 块 Velkonite Reinforced Plate，其余用 3 块 Dark Matter Plate：[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。Emergency Repair 还有第四个等级，即 Repair Drone IV。
 
 ## 冷却与限制 {#cooldowns-and-limits}
 

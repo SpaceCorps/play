@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
@@ -31,7 +31,7 @@
 
 机库里的**仅可交易**按钮只显示你能卖的东西，带标记物品的垃圾桶旁的**拍卖槌**会为它打开拍卖行的出售窗口。在装配站里，结果可交易的配方会这样标明，缺少的材料旁有一个链接，会用它的名字打开拍卖行的搜索。
 
-拍卖行上线时（0.4.12），你已有的商店不卖的装备以及资源，被一次性加上了标记。下面这些没有加标记，因为商店曾经卖过它们，或者因为你持有的东西里买来的和赚来的混在一起：Quantum Laser III、Absorption Shield Cell II 和 III、Impulse Thruster II 和 III、两种 Reinforced Plate，以及每位飞行员最旧的 Base CPU I（新手套装里的那个）。你之后新赚到或制作的这些物品是带标记的。
+拍卖行上线时（0.4.12），你已有的商店不卖的装备以及资源，被一次性加上了标记。下面这些没有加标记，因为商店曾经卖过它们，或者因为你持有的东西里买来的和赚来的混在一起：Quantum Laser III、Absorption Shield Cell II 和 III、Engine II、Adaptive Core II、Impulse Thruster II 和 III、两种 Reinforced Plate，以及每位飞行员最旧的 Base CPU I（新手套装里的那个）。你之后新赚到或制作的这些物品是带标记的。
 
 ## 可以出售什么 {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 ## 每小时的拍品 {#the-hourly-lots}
 
-拍品是游戏自己的出售：弹药、火箭和 EMP Charge，每小时一次，供人出价。它们是以低于商店的价格买到弹药的办法，也是一个销毁渠道：得标出价会被销毁。只有下面一日表里的拍品才会开出（绝不会是 x1 或 x4 弹药、Siphon Battery 或特殊火箭），使用商店的货币。火箭拍品绝不会超过你最多能携带的该种火箭数量（商店堆叠上限），所以会让你超过它的出价会被拒绝：携带的该种火箭很少时，再对火箭拍品出价。
+拍品是游戏自己的出售：弹药、火箭和 EMP Charge，每小时一次，供人出价。它们是以低于商店的价格买到弹药的办法，也是一个销毁渠道：得标出价会被销毁。只有下面一日表里的拍品才会开出（绝不会是 x1 或 x4 弹药、Siphon Battery 或特殊火箭），使用商店的货币。无论你已经携带了什么，都可以对任何拍品出价：赢得的拍品完整归你，即使它会让你超过商店允许你购买的堆叠上限。
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - 每个 UTC 整点开启一个新拍品，开放 4 小时，所以同时开放 4 个。
-- 起拍价是商品商店价格的 40%。之后的每次出价必须比最高出价至少高 5%，并且至少多 100 信用点 或 1 Thulium。
+- 起拍价是商品商店价格的 20%。之后的每次出价必须比最高出价至少高 5%，并且至少多 100 信用点 或 1 Thulium。
 - 你的出价会立即支付并被冻结。如果有人出价更高，会立即退还给你。
 - 在拍品结束前最后 2 分钟 内出价，会把结束时间推迟到出价后 2 分钟，最多 5 次。
 - 赢得的东西是用来飞行的，不是用来交易的：永远不可交易。得标出价会被销毁。无人出价的拍品不会售出，也不会让任何人花钱。
@@ -165,34 +165,36 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 | UTC 整点 | 拍品 | 完整大小 | 支付货币 | 完整大小时的起拍价 |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 2,500 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 02:00 | Lancet I | 12,500 | 信用点 | 2,500,000 信用点 |
-| 03:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 04:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 05:00 | Rivet II | 5,000 | 信用点 | 1,600,000 信用点 |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 08:00 | Ember I | 12,500 | 信用点 | 2,500,000 信用点 |
-| 09:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 10:00 | Scatter II | 5,000 | 信用点 | 1,600,000 信用点 |
-| 11:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 13:00 | Lancet III | 1,250 | Thulium | 2,500 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 4,000 Thulium |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 20,000 Thulium |
-| 17:00 | Rivet I | 12,500 | 信用点 | 2,500,000 信用点 |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 10,000 Thulium |
-| 19:00 | Ember II | 5,000 | 信用点 | 1,600,000 信用点 |
-| 20:00 | Ultra Core | 25,000 | Thulium | 10,000 Thulium |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 5,000 Thulium |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 2,000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1,000 Thulium |
+| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
+| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 02:00 | Lancet I | 12,500 | 信用点 | 1,250,000 信用点 |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 05:00 | Rivet II | 5,000 | 信用点 | 800,000 信用点 |
+| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 08:00 | Ember I | 12,500 | 信用点 | 1,250,000 信用点 |
+| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 10:00 | Scatter II | 5,000 | 信用点 | 800,000 信用点 |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
+| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
+| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 17:00 | Rivet I | 12,500 | 信用点 | 1,250,000 信用点 |
+| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 19:00 | Ember II | 5,000 | 信用点 | 800,000 信用点 |
+| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 使用拍卖行的飞行员很少时，拍品也很小，这样一小撮飞行员就不会每小时都看到成千上万发弹药；随着看的人变多，拍品会变大。
+
+**用出价上限来出价。** 在出价窗口里打开“自动出价，直到出价上限”，然后输入你最多愿意付的数额。这样拍卖行就会替你出价：它先按拍品接受的最低出价出价，每当有人压过你，它就再出价，每次只比最高价高出最小加价幅度，直到你的出价上限，不会更高。你领先时的出价是刚好压过次高出价上限的最低价，而不是你的出价上限：在以 100 起拍的拍品上，上限分别为 500 和 800 信用点时，上限高的一方以 600 领先，而不是 800。两个上限相同，先设定的获胜。你的出价上限在设定时就会从钱包里全额冻结，所以自动出价不会因为钱不够而失败；拍品结束时你只付得标出价，其余退回；如果有人超过你的上限，全额会立刻退回，并且你会收到通知。在你领先的拍品上，“出价上限”按钮可以随时提高你的上限，也可以把它降到你当前的出价为止。设定出价上限不算出价，但延长规则会把每一次出价都算进去，拍卖行替你做的出价也一样。设定出价上限有自己轻柔的声音，跟随音效音量。
 
 ## 赛季与重置 {#the-season-and-the-wipe}
 

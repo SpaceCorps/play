@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@
 - **Vad den används till.** 83 teknologier i forskningscentrumet kräver den, 5 till 40 var och 904 sammanlagt, och Monteringen pressar den till Dark Matter Plate. Från säsongsdag 11 bränner även en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) den, som bränsle: en tank är några få Dark Matter, och den går förlorad om grävmaskinen förstörs.
 - **I forskningscentrumet** lägger du till Dark Matter från ditt lastrum (med landat skepp) innan du trycker på Starta. Forskningen tar den när den startar.
 - **En Dark Matter Plate är ett annat föremål.** Forska först fram receptet (gruppen Resurser i trädet: 1 dag och 10 Dark Matter), och tillverka den sedan i Monteringen av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium.
-- **Vad en platta används till.** Sista nivån i varje uppgraderingskedja kräver **3**: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Helios Beam, Extra Slots CPU III och Base CPU II (12 delar). Smedjan kräver 2 för att höja ett föremål från Gudomlig till Rämnande, och 2 till från Rämnande till Evig.
-- **Forska fram plattan först.** Teknologin för var och en av de 12 delarna kräver också plattans teknologi. En del som du har forskat fram tidigare förblir framforskad, men dess plattor kräver plattans teknologi.
+- **Vad en platta används till.** Sista nivån i varje uppgraderingskedja kräver **3**: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II (13 delar). Smedjan kräver 2 för att höja ett föremål från Gudomlig till Rämnande, och 2 till från Rämnande till Evig.
+- **Forska fram plattan först.** Teknologin för var och en av de 13 delarna kräver också plattans teknologi. En del som du har forskat fram tidigare förblir framforskad, men dess plattor kräver plattans teknologi.
 - **En första början.** Ungefär 5 N.I.K.E.-raketer (en tillverkning) ger de 10 Dark Matter som plattans recept kräver.
 - **En hel del.** En del av sista nivån rymmer 15 Dark Matter (3 plattor), i genomsnitt 7,5 N.I.K.E.-raketer.
 
@@ -26,7 +26,7 @@
 | **Vad det är** | En Episk resurs | En Mytisk resurs |
 | **Var den kommer ifrån** | Det svarta hålet i farosektor 4, för N.I.K.E.-raketer som skjuts in i det; lite från Dormant-svärmen och från Inert Masses i Dormant Swamp | Monteringen, pressad av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium |
 | **Vad du gör först** | Forska fram N.I.K.E. (3 h, ingen Dark Matter) och tillverka några | Forska fram plattans recept (1 d, 10 Dark Matter) |
-| **Vad den används till** | Forskningskostnader (83 teknologier, 904 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 3 för var och en av 12 delar; Smedjan: 2 för vart och ett av dess två översta steg |
+| **Vad den används till** | Forskningskostnader (83 teknologier, 904 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 3 för var och en av 13 delar; Smedjan: 2 för vart och ett av dess två översta steg |
 
 ## Så får du tag på Dark Matter {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@ Wipen lämnar Dark Matter i ditt centrum orörd.
 
 ## Så får du tag på en Dark Matter Plate {#how-to-get-a-plate}
 
-1. **Forska fram receptet.** I vyn Forskning ligger teknologin **Dark Matter Plate** i gruppen **Resurser** i trädet. Den tar 1 dag och kräver 10 Dark Matter, som du först lägger till i centrumet. Teknologierna för de 12 delarna av sista nivån kräver den också.
+1. **Forska fram receptet.** I vyn Forskning ligger teknologin **Dark Matter Plate** i gruppen **Resurser** i trädet. Den tar 1 dag och kräver 10 Dark Matter, som du först lägger till i centrumet. Teknologierna för de 13 delarna av sista nivån kräver den också.
 2. **Skaffa det en platta kräver:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate och 250 Thulium. Smedjan i din Skylab gör båda de förstärkta plattorna av malm ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Tillverka den i Monteringen.** Välj **Resurser** i filtret Kategori. En tillverkning ger en platta på 120 sekunder.
 4. **Använd den.** Sista nivån i varje uppgraderingskedja kräver **3 plattor** ([nedan](#what-the-last-tier-asks-for)). [Smedjan](/wiki/06-Items/Forge.md) kräver **2 plattor** för att höja ett föremål från Gudomlig till Rämnande (75 % lyckas, 200 000 krediter) och **2 till** från Rämnande till Evig (60 % lyckas, 500 000 krediter och 2 000 Thulium). Ett steg som misslyckas ger tillbaka hälften av sitt material, avrundat nedåt: en platta.
 
 ## Vad sista nivån kräver {#what-the-last-tier-asks-for}
 
-Sista nivån i varje uppgraderingskedja kräver **3 Dark Matter Plates** och inga Velkonite-plåtar: det är nivåerna före den som tar dem. 12 delar:
+Sista nivån i varje uppgraderingskedja kräver **3 Dark Matter Plates** och inga Velkonite-plåtar: det är nivåerna före den som tar dem. 13 delar:
 
 - **Laserförstärkare:** Damage Amp IV, Crit Amp IV och Penetration Amp IV, var och en av förstärkaren på nivå III ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **Helios Beam**, av en Starfire-III, med sina 18 Orvium Reinforced Plates ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -82,6 +82,7 @@ Sista nivån i varje uppgraderingskedja kräver **3 Dark Matter Plates** och ing
 - **Heavy Shield Core**, av en Basic Shield Core ([Sköldar](/wiki/06-Items/Shields.md#shield-cores)).
 - **Styrraketer:** Impulse Thruster IV och Momentum Thruster IV, var och en av styrraketen på nivå III ([Framdrivning](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Engine III**, av en Engine II ([Framdrivning](/wiki/06-Items/Propulsion.md#engines)).
+- **Adaptive Core III**, av en Adaptive Core II ([Sköldar](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU:er:** Extra Slots CPU III, med 6 Orvium Reinforced Plates, och Base CPU II, med 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
 **Dessa kräver inga Dark Matter Plates:** Quantum Laser III och Starfire-III (Velkonite-plåtar), nivå II och III i varje kedja (1 eller 2 Velkonite-plåtar för en förstärkare, 2 eller 4 för en cell eller en styrraket), Jump CPU, Auto-Repair CPU, Extra Slots CPU I och II, Base CPU I, de 16 drönarformationerna och skeppen. [Smedjan](/wiki/06-Items/Forge.md) behåller sina 2 plattor på vart och ett av sina två översta steg.
@@ -129,4 +130,4 @@ En första uppgradering från noll är receptet (10) och två plattor (10): 20 D
 - [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets): N.I.K.E. och N.U.K.E.
 - [Resurser](/wiki/06-Items/Resources.md#dark-matter): Dark Matter och Dark Matter Plate bland de andra resurserna.
 - [Smedjan](/wiki/06-Items/Forge.md): de 2 plattorna på dess två översta steg.
-- [Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Sköldar](/wiki/06-Items/Shields.md), [Framdrivning](/wiki/06-Items/Propulsion.md) och [Extrautrustning](/wiki/06-Items/Extras.md#research-cpus): recepten för de 12 delarna av sista nivån.
+- [Lasrar och ammunition](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Sköldar](/wiki/06-Items/Shields.md), [Framdrivning](/wiki/06-Items/Propulsion.md) och [Extrautrustning](/wiki/06-Items/Extras.md#research-cpus): recepten för de 13 delarna av sista nivån.

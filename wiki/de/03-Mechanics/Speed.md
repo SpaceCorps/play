@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
+<!-- wiki-i18n source: 74226336693d1ae9 -->
 <!-- wiki-i18n title: Tempo -->
 # Tempoberechnung {#speed-calculation}
 
@@ -18,10 +18,10 @@ Jedes ausgerüstete Triebwerk erzeugt Tempo, und ebenso jeder adaptive Kern, der
 
 \[\text{Triebwerkstempo} = (\text{Grundtempo des Triebwerks} + \text{Fester Schubdüsen-Bonus}) \times \text{Schubdüsen-Faktor}\]
 
-- **Fester Schubdüsen-Bonus**: Die Summe aller festen Tempozuschläge durch Schubdüsen (z. B. ist Impulse Thruster III `+15` Tempo).
-- **Schubdüsen-Faktor**: Das Produkt aller Tempo-Faktoren der Schubdüsen, die in diesem Triebwerk stecken (z. B. ist Momentum Thruster III `1.09` oder `+9%`, Impulse Thruster III `1.03` oder `+3%`). Er multipliziert alles, was das Triebwerk erzeugt: sein eigenes Grundtempo und die festen Boni der Schubdüsen. Ein adaptiver Kern hat kein eigenes Grundtempo, und die festen Boni seiner Schubdüsen werden trotzdem multipliziert.
+- **Fester Schubdüsen-Bonus**: Die Summe aller festen Tempozuschläge durch Schubdüsen (z. B. ist Impulse Thruster III `+12.75` Tempo).
+- **Schubdüsen-Faktor**: Das Produkt aller Tempo-Faktoren der Schubdüsen, die in diesem Triebwerk stecken (z. B. ist Momentum Thruster III `1.0765` oder `+7.65%`, Impulse Thruster III `1.0255` oder `+2.55%`). Er multipliziert alles, was das Triebwerk erzeugt: sein eigenes Grundtempo und die festen Boni der Schubdüsen. Ein adaptiver Kern hat kein eigenes Grundtempo, und die festen Boni seiner Schubdüsen werden trotzdem multipliziert.
 
-Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+13.1`, `1.11`) erzeugt (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0, mit drei Impulse Thruster IV (`+16.5`, `1.035`) (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.11` ergibt `1.1265`.
+Ein Engine III (Grundtempo 6) mit drei Momentum Thruster IV (`+11.135`, `1.0935`) erzeugt (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, mit drei Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. Ein Schmiede-Bonus auf den Faktor einer Schubdüse verstärkt den Teil über 1: +15 % auf `1.0935` ergibt `1.1075`.
 
 ### 2. Abnehmender Ertrag (Grenzeffizienz) {#2-diminishing-returns-marginal-efficiency-}
 

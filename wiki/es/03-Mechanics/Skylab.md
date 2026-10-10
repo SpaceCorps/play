@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d47517c2e0ba61e -->
+<!-- wiki-i18n source: f2f334d2bb9d511a -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -22,7 +22,7 @@ En el nivel 10 del Núcleo, el Skylab además crece: un **puente** une el Núcle
 
 - Construye primero **Solar**: sin su energía, nada en el Skylab funciona. La Granja de créditos no cuesta nada construirla, y la Granja de Thulium cuesta 5.000 créditos y 500 Thulium.
 - Las granjas y los colectores llenan una **tolva** (de 72 horas) mientras estás fuera. **Recoger** la pasa a tu cuenta (créditos, Thulium) o a tu Almacén de recursos (mineral).
-- La **Granja de Thulium** es tu principal fuente de Thulium: 50 por hora en el nivel 1, 1.600 en el nivel 20. La Granja de créditos produce 500 créditos por hora en el nivel 1 y 50.000 en el nivel 20.
+- La **Granja de Thulium** es tu principal fuente de Thulium: 40 por hora en el nivel 1, 1.280 en el nivel 20. La Granja de créditos produce 750 créditos por hora en el nivel 1 y 75.000 en el nivel 20.
 - El **Núcleo** marca el ritmo: ningún módulo pasa de él, y su propia subida dura unos 16 días y medio.
 - En el **nivel 10 del Núcleo**, un **puente** construye el **Núcleo 2**, con seis ranuras más para módulos, y la **Impresora de munición** y la **Fábrica de cohetes** se acoplan a él. El paso al nivel 10 cuesta 2.000 de Thulium más.
 - **Solar produce solo el 25 % de su energía mientras se mejora**, así que tus granjas y colectores se detienen hasta que termina. [Planifícalo](#timing-a-solar-upgrade).
@@ -114,8 +114,8 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 
 ### Granja de créditos y Granja de Thulium {#credit-farm-and-thulium-farm}
 
-- **Granja de créditos**: produce créditos con el tiempo: **500 por hora en el nivel 1, 50.000 en el nivel 20** (nivel 5: 2.500; nivel 10: 7.500; nivel 15: 17.000). Construirla no cuesta nada.
-- **Granja de Thulium**: produce Thulium con el tiempo: **50 por hora en el nivel 1, 1.600 en el nivel 20** (nivel 5: 180; nivel 10: 450; nivel 15: 950). Construirla cuesta 5.000 créditos y 500 Thulium.
+- **Granja de créditos**: produce créditos con el tiempo: **750 por hora en el nivel 1, 75.000 en el nivel 20** (nivel 5: 3.750; nivel 10: 11.250; nivel 15: 25.500). Construirla no cuesta nada.
+- **Granja de Thulium**: produce Thulium con el tiempo: **40 por hora en el nivel 1, 1.280 en el nivel 20** (nivel 5: 144; nivel 10: 360; nivel 15: 760). Construirla cuesta 5.000 créditos y 500 Thulium.
 - Ambas necesitan energía, y cada una almacena 72 horas de lo que produce hasta que lo recoges.
 
 ## La cadena de suministro {#the-supply-chain}
@@ -326,37 +326,37 @@ El Skylab tarda semanas en crecer, así que un poco de planificación compensa. 
 ### Qué mejorar primero {#what-to-upgrade-first}
 
 1. **Solar, y luego la Granja de créditos.** Solar cuesta 500 créditos y 50 Thulium y sin él nada funciona; la Granja de créditos no cuesta nada. Las diez [misiones de la estación](/wiki/03-Mechanics/Quests.md#station-missions) te guían en estos primeros pasos y te pagan por ellos 52.000 créditos y 610 Thulium, como base: tu mundo, tus potenciadores y las bonificaciones de tu clan la multiplican.
-2. **Después la Granja de Thulium: es tu principal fuente de Thulium.** En el nivel 10 produce 450 Thulium por hora, 10.800 al día, tanto como pagan 54 bajas de un [Crystalys](/wiki/04-Aliens/Crystalys.md) en Alpha (200 cada una). Llegar al nivel 10 cuesta 1.154.000 créditos y 4.190 Thulium, con la construcción incluida. En el nivel 15 la granja produce 22.800 al día y en el nivel 20, 38.400. Su tolva guarda 72 horas, así que vuelve al menos cada tres días. Lo que se compra con Thulium está en la página [Recursos](/wiki/06-Items/Resources.md#thulium).
-3. **La Granja de créditos es el ingreso estable de segundo plano.** En el nivel 10 produce 7.500 créditos por hora, 180.000 al día, por 840.000 créditos y 109 Thulium. Los niveles altos se amortizan despacio: el paso del nivel 9 al 10 cuesta 300.000 créditos por 1.000 más por hora, es decir, 300 horas. Mejórala cuando te sobren créditos.
+2. **Después la Granja de Thulium: es tu principal fuente de Thulium.** En el nivel 10 produce 360 Thulium por hora, 8.640 al día, aproximadamente tanto como pagan 43 bajas de un [Crystalys](/wiki/04-Aliens/Crystalys.md) en Alpha (200 cada una). Llegar al nivel 10 cuesta 1.154.000 créditos y 4.190 Thulium, con la construcción incluida. En el nivel 15 la granja produce 18.240 al día y en el nivel 20, 30.720. Su tolva guarda 72 horas, así que vuelve al menos cada tres días. Lo que se compra con Thulium está en la página [Recursos](/wiki/06-Items/Resources.md#thulium).
+3. **La Granja de créditos es el ingreso estable de segundo plano.** En el nivel 10 produce 11.250 créditos por hora, 270.000 al día, por 840.000 créditos y 109 Thulium. Los niveles altos se amortizan despacio: el paso del nivel 9 al 10 cuesta 300.000 créditos por 1.500 más por hora, es decir, 200 horas. Mejórala cuando te sobren créditos.
 4. **Mantén ocupado el Núcleo.** Nada pasa del Núcleo, y el Núcleo solo tarda unos 16 días y medio en llegar al nivel 20. No hay cola, así que empieza su siguiente paso cada vez que vuelvas.
 5. **Construye la cadena de suministro como un conjunto.** Los colectores, el Almacén de recursos y la Forja se abren en el nivel 5 del Núcleo. Un colector solo puede guardar mineral en un Almacén de recursos, y la reserva guarda un día de la producción de su colector en el nivel 1 y cuatro días en el nivel 20, así que mejora el Almacén junto con los colectores o el mineral esperará en sus tolvas.
 6. **Ten 2.000 de Thulium listos para el nivel 10 del Núcleo.** El paso del Núcleo del nivel 9 al nivel 10 los pide, y construye el puente y el Núcleo 2, donde se construyen la [Impresora de munición](#ammo-printer) y la [Fábrica de cohetes](#rocket-factory).
 
 ### Cómo planificar una mejora de Solar {#timing-a-solar-upgrade}
 
-Mientras se mejora, Solar produce una cuarta parte de su energía, y una estación casi siempre consume más. Las granjas y los colectores se detienen entonces durante toda la mejora: lo que guardan se conserva, pero lo que habrían producido se pierde. La tabla da, para cada paso de Solar, su duración, la estación más grande que sigue funcionando durante él (todos los módulos en el mismo nivel, con el Núcleo y la cadena de suministro; una estación más pequeña aguanta algo más) y lo que una Granja de créditos y una Granja de Thulium de ese nivel habrían producido en ese tiempo. Por ejemplo, Solar del nivel 10 al 11 tarda 4 horas, y unas granjas del nivel 10 habrían producido en ellas 30.000 créditos y 1.800 Thulium. La tabla cuenta además la Impresora de munición desde el nivel 7 y la Fábrica de cohetes desde el nivel 10.
+Mientras se mejora, Solar produce una cuarta parte de su energía, y una estación casi siempre consume más. Las granjas y los colectores se detienen entonces durante toda la mejora: lo que guardan se conserva, pero lo que habrían producido se pierde. La tabla da, para cada paso de Solar, su duración, la estación más grande que sigue funcionando durante él (todos los módulos en el mismo nivel, con el Núcleo y la cadena de suministro; una estación más pequeña aguanta algo más) y lo que una Granja de créditos y una Granja de Thulium de ese nivel habrían producido en ese tiempo. Por ejemplo, Solar del nivel 10 al 11 tarda 4 horas, y unas granjas del nivel 10 habrían producido en ellas 45.000 créditos y 1.440 Thulium. La tabla cuenta además la Impresora de munición desde el nivel 7 y la Fábrica de cohetes desde el nivel 10.
 
 | Mejora de Solar | Tiempo | Estación que sigue funcionando, hasta el nivel | La Granja de créditos produce entretanto | La Granja de Thulium produce entretanto |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 a 2 | 5 min | ninguna | 42 | 4 |
-| 2 a 3 | 15 min | ninguna | 250 | 20 |
-| 3 a 4 | 30 min | ninguna | 750 | 55 |
-| 4 a 5 | 45 min | ninguna | 1.500 | 105 |
-| 5 a 6 | 1 h | ninguna | 2.500 | 180 |
-| 6 a 7 | 1 h 15 min | ninguna | 4.375 | 288 |
-| 7 a 8 | 1 h 30 min | 1 | 6.750 | 420 |
-| 8 a 9 | 2 h | 2 | 11.000 | 660 |
-| 9 a 10 | 3 h | 3 | 19.500 | 1.140 |
-| 10 a 11 | 4 h | 4 | 30.000 | 1.800 |
-| 11 a 12 | 5 h | 5 | 45.000 | 2.750 |
-| 12 a 13 | 6 h | 6 | 66.000 | 3.900 |
-| 13 a 14 | 8 h | 7 | 104.000 | 6.000 |
-| 14 a 15 | 10 h | 8 | 150.000 | 8.500 |
-| 15 a 16 | 12 h | 9 | 204.000 | 11.400 |
-| 16 a 17 | 16 h | 9 | 320.000 | 17.600 |
-| 17 a 18 | 18 h | 11 | 432.000 | 22.500 |
-| 18 a 19 | 20 h | 12 | 580.000 | 28.000 |
-| 19 a 20 | 1 d | 13 | 840.000 | 36.000 |
+| 1 a 2 | 5 min | ninguna | 63 | 3 |
+| 2 a 3 | 15 min | ninguna | 375 | 16 |
+| 3 a 4 | 30 min | ninguna | 1.125 | 44 |
+| 4 a 5 | 45 min | ninguna | 2.250 | 84 |
+| 5 a 6 | 1 h | ninguna | 3.750 | 144 |
+| 6 a 7 | 1 h 15 min | ninguna | 6.563 | 230 |
+| 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
+| 8 a 9 | 2 h | 2 | 16.500 | 528 |
+| 9 a 10 | 3 h | 3 | 29.250 | 912 |
+| 10 a 11 | 4 h | 4 | 45.000 | 1.440 |
+| 11 a 12 | 5 h | 5 | 67.500 | 2.200 |
+| 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
+| 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
+| 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
+| 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
+| 16 a 17 | 16 h | 9 | 480.000 | 14.080 |
+| 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
+| 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
+| 19 a 20 | 1 d | 13 | 1.260.000 | 28.800 |
 
 - **Sube las granjas a la vez que Solar.** Un módulo en mejora no produce nada y no consume energía de todos modos, así que el tiempo que una granja pasa mejorándose durante la pausa no cuesta nada extra.
 - **Mantén bajos los demás módulos si no puedes permitirte una pausa.** Una estación solo sigue funcionando durante una mejora de Solar si todos sus demás módulos están al menos cinco niveles por debajo de Solar (seis desde el nivel 10 de Solar), y una estación completa necesita algo más, como muestra la tabla.

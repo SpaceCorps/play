@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50c5c4d29dc44a89 -->
+<!-- wiki-i18n source: 1591c57b813b2ba9 -->
 <!-- wiki-i18n title: Enjambre Pirate -->
 # Enjambre Pirate {#pirate-swarm}
 
@@ -32,12 +32,12 @@ El enjambre Pirate es un **Pirate Boss** con sus **Pirate Scouts**: una nave eno
 - **Dispara al jefe, no a los Scouts.** Los Scouts curan al jefe, pero la curación es pequeña comparada con su casco, y llega un Scout nuevo con la frecuencia que indica la lista *De un vistazo*: un grupo que mata primero a los Scouts nunca les saca ventaja, y solo un grupo muy grande puede despejarlos y aun así tarda más en acabar con el jefe que uno que los dejó en paz. Los Scouts te cuestan tiempo, no deciden el combate.
 - **Aleja a los Scouts.** Un Scout cura solo mientras está al alcance del jefe, así que un Scout que te sigue fuera de ese alcance no cura nada, y una Ostirion es más rápida que un Scout.
 - **No dejes de moverte.** El cohete del jefe es recto y no teledirigido: una nave que no deja de moverse lo esquiva, una que se queda quieta recibe el impacto.
-- **Lleva un grupo.** Tres pilotos en Ostirions con munición x2 pueden derribarlo en unos cinco minutos en Alpha, pero por poco y solo mientras los golpes se reparten: un trío que deja que un piloto reciba todo el fuego pierde. Cinco lo derriban en tres o cuatro minutos; una Ostirion sola no puede, y una Paragon sola sí. El jefe responde al primer piloto que lo impactó, así que deja que empiece la nave más resistente, y usa tus habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) en un combate tan largo. Los pilotos que aún son de nivel 2 o 3 son demasiado débiles para él, incluso donde vuelan: mantente lejos hasta que seas más fuerte.
+- **Lleva un grupo.** Tres pilotos en Ostirions con munición x2 lo pierden en `x-3` incluso mientras los golpes se reparten; cuatro lo derriban en unos cuatro minutos en Alpha, y tres aún pueden hacerlo en `x-2`, pero por poco. Con munición x4 bastan tres también en `x-3` (unos dos minutos y medio). Cinco lo derriban en unos tres minutos cuando los golpes se reparten y en algo más de cuatro cuando un piloto recibe todo el fuego, y entonces pierden tres naves: un grupo que deja que un piloto reciba todo el fuego necesita cinco. En Beta hacen falta seis pilotos y en Gamma siete, con los golpes repartidos (el jefe es más grande allí y sus Scouts curan más). Una Ostirion sola no puede, y una Paragon sola sí. El jefe responde al primer piloto que lo impactó, así que deja que empiece la nave más resistente, y usa tus habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) en un combate tan largo. Los pilotos que aún son de nivel 2 o 3 son demasiado débiles para él, incluso donde vuelan: mantente lejos hasta que seas más fuerte.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, en el mismo sector.
 
 ## Recompensas y botín {#rewards-and-drops}
 
-El Pirate Boss paga por el combate que es: un minuto de combate contra él paga más que un minuto de combate contra un Goombah. La paga se reparte según el daño entre los pilotos que lo combatieron ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Su caja es para el piloto que más daño causó y puede contener una **Reinforced Hull Plate**, cohetes y munición. Los Scouts pagan poco y no sueltan nada.
+El Pirate Boss paga por el combate que es: un minuto de combate contra él paga más que un minuto de combate contra un Goombah. La paga se reparte según el daño entre los pilotos que lo combatieron ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Su caja es para el piloto que más daño causó y puede contener una **Reinforced Hull Plate**, cohetes y munición. Su caja vale unos dos quintos de lo que paga el derribo mismo. Los Scouts pagan poco y no sueltan nada.
 
 ## Las cifras {#the-numbers}
 
@@ -71,17 +71,17 @@ Base: Ironclad, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50 % | 1 |
 | Uno de los 8 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 5–10 |
-| Uno de Advanced Plasma y Siphon Battery, elegido al azar | 100 % | 500–1.000 |
+| Uno de Advanced Plasma y Siphon Battery, elegido al azar | 100 % | 1.000–2.000 |
 
 ### Pirate Scout
 
-Base: Kitefin, con 50 % del casco y 75 % del daño de los láseres; la velocidad y el alcance son los de la nave original.
+Base: Kitefin, con 50 % del casco y 113 % del daño de los láseres; la velocidad y el alcance son los de la nave original.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Casco | 12.000 | 18.000 | 24.000 |
 | Escudo | 9.818 | 14.727 | 19.636 |
-| Daño de los láseres (una salva por segundo) | 147 | 221 | 294 |
+| Daño de los láseres (una salva por segundo) | 221 | 332 | 442 |
 | Velocidad | 175 | 175 | 175 |
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | 700 | 700 | 700 |

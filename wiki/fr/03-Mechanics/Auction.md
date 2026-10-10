@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Enchères -->
 # Enchères {#auction}
 
@@ -31,7 +31,7 @@ L’étiquette est un nombre d’unités, pas un interrupteur : une pile de mun
 
 La pastille **Vendable uniquement** du Hangar ne montre que ce que vous pouvez vendre, et le **marteau** à côté de la corbeille d’un objet étiqueté ouvre pour lui la fiche de vente des Enchères. Dans l’Assemblage, une recette dont le résultat est vendable le dit, et un matériau qui vous manque a un lien qui ouvre les Enchères avec son nom dans la zone de recherche.
 
-Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez déjà et que la Boutique ne vend pas, ainsi que les ressources, ont été étiquetés une fois. Ceux-ci ne l’ont pas été, parce que la Boutique les a vendus un temps ou parce que ce que vous détenez mêle pièces achetées et gagnées : le Quantum Laser III, les Absorption Shield Cells II et III, les Impulse Thrusters II et III, les deux Reinforced Plates et la plus ancienne Base CPU I de chaque pilote (celle du kit de départ). Les nouveaux exemplaires que vous gagnez ou fabriquez sont étiquetés.
+Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez déjà et que la Boutique ne vend pas, ainsi que les ressources, ont été étiquetés une fois. Ceux-ci ne l’ont pas été, parce que la Boutique les a vendus un temps ou parce que ce que vous détenez mêle pièces achetées et gagnées : le Quantum Laser III, les Absorption Shield Cells II et III, l’Engine II, l’Adaptive Core II, les Impulse Thrusters II et III, les deux Reinforced Plates et la plus ancienne Base CPU I de chaque pilote (celle du kit de départ). Les nouveaux exemplaires que vous gagnez ou fabriquez sont étiquetés.
 
 ## Ce qui peut être vendu {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Vous êtes prévenu quand quelque chose se vend : par une notification, le son 
 
 ## Les lots de chaque heure {#the-hourly-lots}
 
-Les Lots sont les offres du jeu lui-même : munitions, roquettes et EMP Charges, chaque heure, à enchérir. C’est un moyen d’acheter des munitions moins cher que la Boutique, et un puits : l’enchère gagnante est détruite. Seuls s’ouvrent les lots du tableau du jour ci-dessous (jamais de munitions x1 ou x4, jamais de Siphon Batteries, jamais de roquette spéciale), dans la monnaie de la Boutique. Un lot de roquettes ne dépasse jamais le maximum de cette roquette que vous pouvez emporter (la pile de la Boutique) : une enchère qui vous ferait le dépasser est refusée, alors enchérissez sur un lot de roquettes quand vous en emportez peu.
+Les Lots sont les offres du jeu lui-même : munitions, roquettes et EMP Charges, chaque heure, à enchérir. C’est un moyen d’acheter des munitions moins cher que la Boutique, et un puits : l’enchère gagnante est détruite. Seuls s’ouvrent les lots du tableau du jour ci-dessous (jamais de munitions x1 ou x4, jamais de Siphon Batteries, jamais de roquette spéciale), dans la monnaie de la Boutique. Vous pouvez enchérir sur n’importe quel lot, quoi que vous emportiez déjà : un lot gagné est à vous en entier, même s’il vous met au-dessus de la pile que la Boutique vous laisse acheter.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Un nouveau lot s’ouvre au début de chaque heure UTC et reste ouvert 4 heures, si bien que 4 sont ouverts en même temps.
-- La mise de départ est de 40 % du prix en Boutique de la marchandise. Une enchère suivante doit dépasser la meilleure d’au moins 5 %, et d’au moins 100 crédits ou 1 Thulium.
+- La mise de départ est de 20 % du prix en Boutique de la marchandise. Une enchère suivante doit dépasser la meilleure d’au moins 5 %, et d’au moins 100 crédits ou 1 Thulium.
 - Votre enchère est payée tout de suite et retenue. Si quelqu’un surenchérit, elle vous est rendue tout de suite.
 - Une enchère dans les 2 min qui précèdent la fin d’un lot repousse sa fin à 2 min après l’enchère, au plus 5 fois.
 - Ce que vous gagnez sert à voler, pas à commercer : ce n’est jamais vendable. L’enchère gagnante est détruite. Un lot sur lequel personne n’enchérit n’est pas vendu et ne coûte rien à personne.
@@ -165,34 +165,36 @@ Les Lots sont les offres du jeu lui-même : munitions, roquettes et EMP Charges
 
 | Heure UTC | Lot | Taille complète | Payé en | Mise de départ à taille complète |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1 250 | Thulium | 2 500 Thulium |
-| 01:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 02:00 | Lancet I | 12 500 | Crédits | 2 500 000 crédits |
-| 03:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 04:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 05:00 | Rivet II | 5 000 | Crédits | 1 600 000 crédits |
-| 06:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 07:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 08:00 | Ember I | 12 500 | Crédits | 2 500 000 crédits |
-| 09:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 10:00 | Scatter II | 5 000 | Crédits | 1 600 000 crédits |
-| 11:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
-| 12:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 13:00 | Lancet III | 1 250 | Thulium | 2 500 Thulium |
-| 14:00 | Ultra Core | 10 000 | Thulium | 4 000 Thulium |
-| 15:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 16:00 | Ultra Core | 50 000 | Thulium | 20 000 Thulium |
-| 17:00 | Rivet I | 12 500 | Crédits | 2 500 000 crédits |
-| 18:00 | Advanced Plasma | 50 000 | Thulium | 10 000 Thulium |
-| 19:00 | Ember II | 5 000 | Crédits | 1 600 000 crédits |
-| 20:00 | Ultra Core | 25 000 | Thulium | 10 000 Thulium |
-| 21:00 | Advanced Plasma | 25 000 | Thulium | 5 000 Thulium |
-| 22:00 | Advanced Plasma | 10 000 | Thulium | 2 000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1 000 Thulium |
+| 00:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
+| 01:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 02:00 | Lancet I | 12 500 | Crédits | 1 250 000 crédits |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 05:00 | Rivet II | 5 000 | Crédits | 800 000 crédits |
+| 06:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 07:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 08:00 | Ember I | 12 500 | Crédits | 1 250 000 crédits |
+| 09:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 10:00 | Scatter II | 5 000 | Crédits | 800 000 crédits |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 13:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
+| 14:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
+| 15:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 16:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
+| 17:00 | Rivet I | 12 500 | Crédits | 1 250 000 crédits |
+| 18:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
+| 19:00 | Ember II | 5 000 | Crédits | 800 000 crédits |
+| 20:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
+| 21:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
+| 22:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Quand peu de pilotes utilisent les Enchères, les lots sont petits, pour qu’une poignée de pilotes ne se voie pas offrir des milliers de coups chaque heure ; ils grandissent à mesure que plus de pilotes regardent.
+
+**Enchérir avec un maximum.** Dans la fenêtre d’enchère, activez *Enchérir automatiquement jusqu’à un maximum* et saisissez le plus que vous acceptez de payer. Les Enchères enchérissent alors pour vous : elles prennent l’enchère la plus basse que le lot accepte et, chaque fois que quelqu’un surenchérit, elles enchérissent de nouveau, d’une surenchère minimale au-dessus de la meilleure enchère, jusqu’à votre maximum et pas plus. L’enchère avec laquelle vous menez est la plus basse qui bat le meilleur maximum suivant, pas votre maximum : avec des maximums de 500 et 800 crédits sur un lot ouvert à 100, le plus haut mène à 600, pas à 800. Si deux maximums sont égaux, celui fixé en premier l’emporte. Tout votre maximum est bloqué dans votre portefeuille quand vous le fixez, donc aucune enchère automatique ne peut échouer faute d’argent ; à la fin du lot vous ne payez que l’enchère gagnante et le reste vous est rendu, et si quelqu’un dépasse votre maximum, tout vous est rendu aussitôt et vous en êtes averti. Sur un lot que vous menez, le bouton **Maximum** relève votre maximum à tout moment ou l’abaisse jusqu’à votre enchère actuelle. Fixer un maximum n’est pas enchérir, mais toute enchère compte pour la règle de prolongation, celle faite par les Enchères aussi. Fixer un maximum a un son discret à lui, sur le volume des effets sonores.
 
 ## La saison et la réinitialisation {#the-season-and-the-wipe}
 

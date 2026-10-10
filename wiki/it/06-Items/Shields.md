@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aff32f1e7e47620e -->
+<!-- wiki-i18n source: 7a131032ce9f07fb -->
 <!-- wiki-i18n title: Scudi -->
 # Scudi e difesa {#shields-defense}
 
@@ -16,8 +16,8 @@ Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
 Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Absorption Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
@@ -28,7 +28,7 @@ Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | resea
 Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
-Adaptive Core I -> Adaptive Core II -> Adaptive Core III
+Adaptive Core I => Adaptive Core II => Adaptive Core III
 Absorption Shield Cell I => Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
 Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ```
@@ -56,9 +56,11 @@ I Nuclei adattivi fanno da generatori ibridi, combinando capacità di scudo e di
 
 | Nome | Rarità | Bonus scudo % | Bonus velocità % | Slot | Effetto speciale | Costo |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Scadente | +5% | +3% | 1 | — | 100.000 crediti |
-| **Adaptive Core II** | Comune | +8% | +4% | 2 | — | 4.000 Thulium |
-| **Adaptive Core III** | Raro | +15% | +5% | 3 | — | Solo da creare |
+| **Adaptive Core I** | Scadente | +4% | +2,4% | 1 | — | 100.000 crediti |
+| **Adaptive Core II** | Comune | +6,4% | +3,2% | 2 | — | Solo da creare |
+| **Adaptive Core III** | Raro | +8% | +4% | 3 | — | Solo da creare |
+
+L’**Adaptive Core II** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Adaptive Core I, con 1.000 Thulium, 10 Ship Fragment, 1 Power Core e 2 Velkonite Reinforced Plate. L’**Adaptive Core III** si crea lì da un Adaptive Core II, con 2.000 Thulium, 60 Ship Fragment, 3 Power Core e 3 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Ciascuno mantiene il grado di incantamento del nucleo che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima dalla tua nave il nucleo da consumare (e togli da esso i suoi propulsori e le sue celle): un nucleo montato sulla nave o che contiene moduli non viene consumato.
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fa02f72ab515dfbf -->
+<!-- wiki-i18n source: 0f0413a5a5f080ae -->
 <!-- wiki-i18n title: Boucliers -->
 # Mécaniques des boucliers {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Certaines attaques ont une **pénétration de bouclier** : des points retranch�
 \[\text{Part du bouclier} = \text{borner}(\text{Absorption} - \text{Pénétration},\ 0,\ 100\ \%)\]
 
 - Les boucliers prennent au plus `round(damage x share)` du tir ; la coque prend le reste. Un bouclier trop faible pour sa part reporte la différence sur les PV, et si les boucliers sont à 0, tous les dégâts frappent directement les PV.
-- **D’où vient la pénétration** : la *pénétration de bouclier* d’une roquette directe (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 % ; les explosions de zone n’en ont pas, voir [Roquettes](/wiki/06-Items/Rockets.md)) et celle des munitions laser (Ultra Core 5 %, Experimental Fusion Core 10 % ; voir [Lasers et munitions](/wiki/06-Items/Lasers.md)). Les aliens n’en ont pas, et les munitions x1 et x2 non plus. Un tir laser retranche aussi les Penetration Amps des lasers du tireur (+2 % à +8 % par emplacement, la moyenne de ses lasers) et la pénétration d’une formation de drones (Gemini +9 %, Stiletto +16 %) ; une roquette directe ajoute celle de la formation à la sienne. **Rien ne plafonne le total** : les boucliers encaissent l’absorption moins tout cela, jusqu’à ne plus rien encaisser du tir ([comment un tir laser s’additionne](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Exemples** : avec 80 % d’absorption face à une Lancet III (35 %), les boucliers prennent 45 % du tir, la coque 55 %. Avec 100 % : 65 % et 35 %. Avec 112 % face à 12 % de pénétration : la totalité du tir. Avec 45 % (un Light Shield Core seul) face à 35 % : 10 % sur le bouclier, le reste sur la coque. Une roquette seule ne pénètre complètement aucun noyau, mais une Lancet III avec un Stiletto (35 % + 16 % = 51 %) ne laisse rien du tir à un Light Shield Core seul (45 %), et le meilleur laser (50 %) non plus : contre ce laser, le meilleur bouclier (80 %) encaisse 30 % du tir et la coque 70 %.
+- **D’où vient la pénétration** : la *pénétration de bouclier* d’une roquette directe (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 % ; les explosions de zone n’en ont pas, voir [Roquettes](/wiki/06-Items/Rockets.md)) et celle des munitions laser (Ultra Core 5 %, Experimental Fusion Core 10 % ; voir [Lasers et munitions](/wiki/06-Items/Lasers.md)). Les aliens n’en ont pas, et les munitions x1 et x2 non plus. Un tir laser retranche aussi les Penetration Amps des lasers du tireur (+3 % à +12 % par emplacement, la moyenne de ses lasers) et la pénétration d’une formation de drones (Gemini +9 %, Stiletto +16 %) ; une roquette directe ajoute celle de la formation à la sienne. **Rien ne plafonne le total** : les boucliers encaissent l’absorption moins tout cela, jusqu’à ne plus rien encaisser du tir ([comment un tir laser s’additionne](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Exemples** : avec 80 % d’absorption face à une Lancet III (35 %), les boucliers prennent 45 % du tir, la coque 55 %. Avec 100 % : 65 % et 35 %. Avec 112 % face à 12 % de pénétration : la totalité du tir. Avec 45 % (un Light Shield Core seul) face à 35 % : 10 % sur le bouclier, le reste sur la coque. Une roquette seule ne pénètre complètement aucun noyau, mais une Lancet III avec un Stiletto (35 % + 16 % = 51 %) ne laisse rien du tir à un Light Shield Core seul (45 %), et le meilleur laser (62 %) non plus : contre ce laser, le meilleur bouclier (80 %) encaisse 18 % du tir et la coque 82 %.
 - Les aliens n’ont pas de statistique d’absorption : ils répartissent chaque tir 80 % / 20 %, moins la pénétration du tir.
 - Les dégâts d’une Siphon Battery sont pris sur le seul bouclier : l’absorption et la pénétration n’entrent pas en jeu.
 
-**Là où les boucliers n’encaissent rien.** Une pénétration égale ou supérieure à l’absorption ne laisse rien du tir aux boucliers : la coque prend tout. Le tableau montre ce que les boucliers encaissent d’un tir du meilleur laser (50 %) et de la meilleure roquette directe (une Lancet III ou une Rivet III avec un Stiletto, 51 %) :
+**Là où les boucliers n’encaissent rien.** Une pénétration égale ou supérieure à l’absorption ne laisse rien du tir aux boucliers : la coque prend tout. Le tableau montre ce que les boucliers encaissent d’un tir du meilleur laser (62 %) et de la meilleure roquette directe (une Lancet III ou une Rivet III avec un Stiletto, 51 %) :
 
-| Bouclier | Absorption | Les boucliers encaissent, meilleur laser (50 %) | Les boucliers encaissent, meilleure roquette directe (51 %) |
+| Bouclier | Absorption | Les boucliers encaissent, meilleur laser (62 %) | Les boucliers encaissent, meilleure roquette directe (51 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 48 % | 0 % | 0 % |
 | Heavy Shield Core | 50 % | 0 % | 0 % |
-| Le meilleur bouclier d’origine | 80 % | 30 % | 29 % |
-| Un bouclier à 100 % | 100 % | 50 % | 49 % |
-| Un bouclier à 120 % | 120 % | 70 % | 69 % |
+| Le meilleur bouclier d’origine | 80 % | 18 % | 29 % |
+| Un bouclier à 100 % | 100 % | 38 % | 49 % |
+| Un bouclier à 120 % | 120 % | 58 % | 69 % |
 
 #### Atteindre et dépasser 100 % {#reaching-and-passing-100-}
 

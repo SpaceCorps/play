@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: 함선 디자인 -->
 # 함선 디자인 {#ship-designs}
 
@@ -34,19 +34,19 @@
 
 | 디자인 | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13,500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
 
 개조할 함선은 그 종류로 내가 가진 함선입니다(THUNDER, BUCKY, LICH라면 Paragon). 조종 중인 함선은 개조할 수 없으므로 먼저 다른 함선을 활성화하세요. 파괴된 함선도 개조할 수 없습니다.
 
@@ -79,4 +79,4 @@
 
 ## 상점, 경매장, 점수 {#shop-auction-and-points}
 
-디자인은 상점에서 팔지 않고 [경매장](/wiki/03-Mechanics/Auction.md)에도 올릴 수 없습니다. 내 함선으로 만드는 것입니다. 디자인을 격파하면 그 원래 함선을 격파할 때와 같은 PvP 점수를 얻습니다.
+디자인은 상점에서 팔지 않고 [경매장](/wiki/03-Mechanics/Auction.md)에도 올릴 수 없습니다. 내 함선으로 만드는 것입니다. 상점의 함선 카테고리에는 각 함선의 카드 아래에 그 디자인이 표시됩니다(그림, 디자인이 바꾸는 것, Thulium 개조 가격). 참고용이며, 개조 자체는 어셈블리에서 합니다. 디자인을 격파하면 그 원래 함선을 격파할 때와 같은 PvP 점수를 얻습니다.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fa02f72ab515dfbf -->
+<!-- wiki-i18n source: 0f0413a5a5f080ae -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 \[\text{Quota dello scudo} = \text{clamp}(\text{Assorbimento} - \text{Penetrazione},\ 0,\ 100\%)\]
 
 - Gli scudi prendono al massimo `round(damage x share)` del colpo; lo scafo prende il resto. Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo, e se gli scudi sono a 0 tutto il danno colpisce direttamente i punti scafo.
-- **Da dove viene la penetrazione**: dalla *penetrazione dello scudo* di un razzo diretto (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; le esplosioni ad area non ne hanno, vedi [Razzi](/wiki/06-Items/Rockets.md)) e da quella delle munizioni laser (Ultra Core 5%, Experimental Fusion Core 10%; vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)). Gli alieni non ne hanno, e nemmeno le munizioni x1 e x2. Un colpo laser toglie anche i Penetration Amp dei laser di chi spara (da +2% a +8% per slot, la media dei suoi laser) e la penetrazione di una formazione di droni (Gemini +9%, Stiletto +16%); un razzo diretto somma quella della formazione alla propria. **Niente limita il totale**: gli scudi prendono l’assorbimento meno tutto questo, fino a non prendere nulla del colpo ([come si somma un colpo laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Esempi**: con un assorbimento dell’80% contro un Lancet III (35%) gli scudi prendono il 45% del colpo, lo scafo il 55%. Con il 100%: 65% e 35%. Con il 112% contro una penetrazione del 12%: tutto il colpo. Con il 45% (un Light Shield Core da solo) contro il 35%: il 10% sullo scudo, il resto sullo scafo. Un razzo da solo non penetra completamente alcun nucleo, ma un Lancet III con uno Stiletto (35% + 16% = 51%) non lascia nulla del colpo a un Light Shield Core da solo (45%), e così fa il miglior laser (50%): contro quel laser il miglior scudo (80%) prende il 30% del colpo e lo scafo il 70%.
+- **Da dove viene la penetrazione**: dalla *penetrazione dello scudo* di un razzo diretto (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; le esplosioni ad area non ne hanno, vedi [Razzi](/wiki/06-Items/Rockets.md)) e da quella delle munizioni laser (Ultra Core 5%, Experimental Fusion Core 10%; vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)). Gli alieni non ne hanno, e nemmeno le munizioni x1 e x2. Un colpo laser toglie anche i Penetration Amp dei laser di chi spara (da +3% a +12% per slot, la media dei suoi laser) e la penetrazione di una formazione di droni (Gemini +9%, Stiletto +16%); un razzo diretto somma quella della formazione alla propria. **Niente limita il totale**: gli scudi prendono l’assorbimento meno tutto questo, fino a non prendere nulla del colpo ([come si somma un colpo laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Esempi**: con un assorbimento dell’80% contro un Lancet III (35%) gli scudi prendono il 45% del colpo, lo scafo il 55%. Con il 100%: 65% e 35%. Con il 112% contro una penetrazione del 12%: tutto il colpo. Con il 45% (un Light Shield Core da solo) contro il 35%: il 10% sullo scudo, il resto sullo scafo. Un razzo da solo non penetra completamente alcun nucleo, ma un Lancet III con uno Stiletto (35% + 16% = 51%) non lascia nulla del colpo a un Light Shield Core da solo (45%), e così fa il miglior laser (62%): contro quel laser il miglior scudo (80%) prende il 18% del colpo e lo scafo il 82%.
 - Gli alieni non hanno una statistica di assorbimento: ripartiscono ogni colpo 80% / 20%, meno la penetrazione del colpo.
 - Il danno di una Siphon Battery esce solo dallo scudo: assorbimento e penetrazione non c’entrano.
 
-**Dove gli scudi non prendono nulla.** Una penetrazione pari o superiore all’assorbimento non lascia agli scudi nulla del colpo: lo scafo prende tutto. La tabella mostra quanto prendono gli scudi di un colpo del miglior laser (50%) e del miglior razzo diretto (un Lancet III o un Rivet III con uno Stiletto, 51%):
+**Dove gli scudi non prendono nulla.** Una penetrazione pari o superiore all’assorbimento non lascia agli scudi nulla del colpo: lo scafo prende tutto. La tabella mostra quanto prendono gli scudi di un colpo del miglior laser (62%) e del miglior razzo diretto (un Lancet III o un Rivet III con uno Stiletto, 51%):
 
-| Scudo | Assorbimento | Gli scudi prendono, miglior laser (50%) | Gli scudi prendono, miglior razzo diretto (51%) |
+| Scudo | Assorbimento | Gli scudi prendono, miglior laser (62%) | Gli scudi prendono, miglior razzo diretto (51%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 48% | 0% | 0% |
 | Heavy Shield Core | 50% | 0% | 0% |
-| Il miglior scudo di serie | 80% | 30% | 29% |
-| Uno scudo al 100% | 100% | 50% | 49% |
-| Uno scudo al 120% | 120% | 70% | 69% |
+| Il miglior scudo di serie | 80% | 18% | 29% |
+| Uno scudo al 100% | 100% | 38% | 49% |
+| Uno scudo al 120% | 120% | 58% | 69% |
 
 #### Raggiungere e superare il 100% {#reaching-and-passing-100-}
 

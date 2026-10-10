@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@
 - **有什么用。** 研究中心的 83 项科技需要它，每项 5 到 40 个，共 904 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。
 - **在研究中心**，你在按下开始之前，从货舱里添加 Dark Matter（舰船须已降落）。研究开始时会取用它。
 - **Dark Matter Plate 是另一种物品。** 先研究它的配方（科技树的资源组：1 天和 10 个 Dark Matter），再到装配站用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 制造它。
-- **板有什么用。** 每条升级链的最后一阶需要 **3 块**：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 12 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。
-- **先研究板。** 这 12 件部件的科技也都需要这块板的科技。以前研究过的部件仍然算作已研究，但制作它所需的板需要这块板的科技。
+- **板有什么用。** 每条升级链的最后一阶需要 **3 块**：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 13 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。
+- **先研究板。** 这 13 件部件的科技也都需要这块板的科技。以前研究过的部件仍然算作已研究，但制作它所需的板需要这块板的科技。
 - **第一步。** 大约 5 枚 N.I.K.E. 火箭（一次制造）就能得到板的配方所需的 10 个 Dark Matter。
 - **一整件部件。** 一件最后一阶的部件含有 15 个 Dark Matter（3 块板），平均相当于 7.5 枚 N.I.K.E. 火箭。
 
@@ -26,7 +26,7 @@
 | **是什么** | 史诗资源 | 神话资源 |
 | **从哪里来** | 危险星区 4 的黑洞，对射入其中的 N.I.K.E. 火箭；少量来自 Dormant 虫群和 Dormant Swamp 的 Inert Mass | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
 | **先做什么** | 研究 N.I.K.E.（3 小时，不需要 Dark Matter）并制造一些 | 研究板的配方（1 天，10 个 Dark Matter） |
-| **有什么用** | 研究的花费（83 项科技，共 904 个）和板 | 每条升级链的最后一阶：12 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
+| **有什么用** | 研究的花费（83 项科技，共 904 个）和板 | 每条升级链的最后一阶：13 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
 
 ## 如何获得 Dark Matter {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@
 
 ## 如何获得 Dark Matter Plate {#how-to-get-a-plate}
 
-1. **研究配方。** 在研究视图中，**Dark Matter Plate** 科技位于科技树的**资源**组。它需要 1 天，并需要 10 个 Dark Matter，你要先把它们添加到研究中心。最后一阶的 12 件部件的科技也需要它。
+1. **研究配方。** 在研究视图中，**Dark Matter Plate** 科技位于科技树的**资源**组。它需要 1 天，并需要 10 个 Dark Matter，你要先把它们添加到研究中心。最后一阶的 13 件部件的科技也需要它。
 2. **备齐一块板所需的东西：** 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium。Skylab 的锻造厂用矿石制作这两种强化板（[Skylab](/wiki/03-Mechanics/Skylab.md)）。
 3. **在装配站制造。** 在类别筛选中选择**资源**。一次制造在 120 秒内做出一块板。
 4. **使用它。** 每条升级链的最后一阶需要 **3 块板**（见[下文](#what-the-last-tier-asks-for)）。[锻造炉](/wiki/06-Items/Forge.md)要求 **2 块板**，才能把物品从神圣提升到裂变（成功率 75%，200,000 信用点），再要 **2 块**，才能从裂变提升到永恒（成功率 60%，500,000 信用点和 2,000 Thulium）。失败的一步会退回一半材料，向下取整：一块板。
 
 ## 最后一阶的需求 {#what-the-last-tier-asks-for}
 
-每条升级链的最后一阶需要 **3 块 Dark Matter Plate**，不需要 Velkonite 板：前面的几阶才会用到它们。共 12 件：
+每条升级链的最后一阶需要 **3 块 Dark Matter Plate**，不需要 Velkonite 板：前面的几阶才会用到它们。共 13 件：
 
 - **激光增幅器：** Damage Amp IV、Crit Amp IV 和 Penetration Amp IV，各由 III 阶增幅器制成（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
 - **Helios Beam**，由 Starfire-III 制成，另需 18 块 Orvium Reinforced Plate（[激光与弹药](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
@@ -82,6 +82,7 @@
 - **Heavy Shield Core**，由 Basic Shield Core 制成（[护盾](/wiki/06-Items/Shields.md#shield-cores)）。
 - **推进器：** Impulse Thruster IV 和 Momentum Thruster IV，各由 III 阶推进器制成（[推进](/wiki/06-Items/Propulsion.md#thrusters)）。
 - **Engine III**，由 Engine II 制成（[推进](/wiki/06-Items/Propulsion.md#engines)）。
+- **Adaptive Core III**，由 Adaptive Core II 制成（[护盾](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)）。
 - **CPU：** Extra Slots CPU III 另需 6 块 Orvium Reinforced Plate，Base CPU II 另需 2 块（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
 **以下不需要 Dark Matter Plate：** Quantum Laser III 和 Starfire-III（用 Velkonite 板）、每条链的 II 阶和 III 阶（增幅器用 1 块或 2 块 Velkonite 板，电池或推进器用 2 块或 4 块）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I 和 II、Base CPU I、16 种无人机编队以及各艘舰船。[锻造炉](/wiki/06-Items/Forge.md)的最高两步仍各要求 2 块。
@@ -129,4 +130,4 @@ Paragon 的 40 件部件是它的 8 把激光、这些激光上的 24 个增幅�
 - [火箭](/wiki/06-Items/Rockets.md#the-craft-only-rockets)：N.I.K.E. 和 N.U.K.E.
 - [资源](/wiki/06-Items/Resources.md#dark-matter)：Dark Matter 和 Dark Matter Plate 与其他资源。
 - [锻造炉](/wiki/06-Items/Forge.md)：最高两步的 2 块板。
-- [激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)、[护盾](/wiki/06-Items/Shields.md)、[推进](/wiki/06-Items/Propulsion.md)和[附加装置](/wiki/06-Items/Extras.md#research-cpus)：12 件最后一阶部件的配方。
+- [激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)、[护盾](/wiki/06-Items/Shields.md)、[推进](/wiki/06-Items/Propulsion.md)和[附加装置](/wiki/06-Items/Extras.md#research-cpus)：13 件最后一阶部件的配方。

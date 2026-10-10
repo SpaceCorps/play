@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b01a24b52ccba9fa -->
+<!-- wiki-i18n source: ea6d96252a5296d9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -14,8 +14,8 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 - **Mire jó.** A Kutatóközpont 83 technológiája kéri, egyenként 5–40-et, összesen 904-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül.
 - **A Kutatóközpontban** a raktérből adsz hozzá Dark Mattert (leszállt hajóval), mielőtt az Indítás gombra nyomnál. A kutatás induláskor elveszi.
 - **A Dark Matter Plate más tárgy.** Előbb kutasd ki a receptjét (a fa Erőforrások csoportja: 1 nap és 10 Dark Matter), aztán gyárts belőle a Gyártásban 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból.
-- **Mire jó egy plate.** Minden fejlesztési lánc utolsó szintje **3-at** kér. Ezek a IV. szintű ampok, pajzscellák és fúvókák, a Heavy Shield Core, az Engine III, a Helios Beam, az Extra Slots CPU III és a Base CPU II (12 darab). A Kovácsműhely 2-t kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen, és újabb 2-t a Repesztőről az Örökre.
-- **Előbb a plate-et kutasd ki.** Ennek a 12 darabnak mindegyik technológiájához kell a plate technológiája is. Egy korábban kikutatott darab kikutatott marad, de a plate-jeihez a plate technológiája kell.
+- **Mire jó egy plate.** Minden fejlesztési lánc utolsó szintje **3-at** kér. Ezek a IV. szintű ampok, pajzscellák és fúvókák, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II (13 darab). A Kovácsműhely 2-t kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen, és újabb 2-t a Repesztőről az Örökre.
+- **Előbb a plate-et kutasd ki.** Ennek a 13 darabnak mindegyik technológiájához kell a plate technológiája is. Egy korábban kikutatott darab kikutatott marad, de a plate-jeihez a plate technológiája kell.
 - **Egy első kezdet.** Nagyjából 5 N.I.K.E. rakéta (egy gyártás) adja azt a 10 Dark Mattert, amelyet a plate receptje kér.
 - **Egy egész darab.** Egy utolsó szintű darab 15 Dark Mattert tartalmaz (3 plate), átlagosan 7,5 N.I.K.E. rakétányit.
 
@@ -26,7 +26,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 | **Mi ez** | Egy Epikus erőforrás | Egy Mitikus erőforrás |
 | **Honnan jön** | A feketelyuk a 4. veszélyes szektorban, a belelőtt N.I.K.E. rakétákért; egy kevés a Dormant-rajtól és a Dormant Swamp Inert Masseitől | A Gyártás, 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból sajtolva |
 | **Mit teszel előbb** | Kikutatod a N.I.K.E.-t (3 óra, Dark Matter nélkül), és gyártasz belőle | Kikutatod a plate receptjét (1 nap, 10 Dark Matter) |
-| **Mire jó** | A kutatások költsége (83 technológia, összesen 904) és a plate | Minden fejlesztési lánc utolsó szintje: 3 a 12 darab mindegyikéhez; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
+| **Mire jó** | A kutatások költsége (83 technológia, összesen 904) és a plate | Minden fejlesztési lánc utolsó szintje: 3 a 13 darab mindegyikéhez; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
 
 ## Hogyan szerezz Dark Mattert {#how-to-get-dark-matter}
 
@@ -67,14 +67,14 @@ A wipe érintetlenül hagyja a Központodban lévő Dark Mattert.
 
 ## Hogyan szerezz Dark Matter Plate-et {#how-to-get-a-plate}
 
-1. **Kutasd ki a receptet.** A Kutatás nézetben a **Dark Matter Plate** technológia a fa **Erőforrások** csoportjában van. 1 napig tart, és 10 Dark Mattert kér, amelyet előbb hozzáadsz a Központhoz. Az utolsó szint 12 darabjának technológiái is kérik.
+1. **Kutasd ki a receptet.** A Kutatás nézetben a **Dark Matter Plate** technológia a fa **Erőforrások** csoportjában van. 1 napig tart, és 10 Dark Mattert kér, amelyet előbb hozzáadsz a Központhoz. Az utolsó szint 13 darabjának technológiái is kérik.
 2. **Szerezd meg, amit egy plate kér:** 5 Dark Mattert, 1 Velkonite Reinforced Plate-et, 1 Orvium Reinforced Plate-et és 250 Thuliumot. A Skylabod Kovácsműhelye ércből készíti mindkét megerősített lemezt ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Gyárts belőle a Gyártásban.** Válaszd a **Nyersanyagok** elemet a Kategória szűrőben. Egy gyártás egy plate-et ad 120 másodperc alatt.
 4. **Használd.** Minden fejlesztési lánc utolsó szintje **3 plate-et** kér ([lent](#what-the-last-tier-asks-for)). [A Kovácsműhely](/wiki/06-Items/Forge.md) **2 plate-et** kér ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen (75% siker, 200 000 kredit), és **még 2-t** a Repesztőről az Örökre (60% siker, 500 000 kredit és 2 000 Thulium). A sikertelen lépés visszaadja az anyagai felét, lefelé kerekítve: egy plate-et.
 
 ## Mit kér az utolsó szint {#what-the-last-tier-asks-for}
 
-Minden fejlesztési lánc utolsó szintje **3 Dark Matter Plate**-et kér, Velkonite lemezt viszont nem: azokat az előtte lévő szintek kérik. 12 darab:
+Minden fejlesztési lánc utolsó szintje **3 Dark Matter Plate**-et kér, Velkonite lemezt viszont nem: azokat az előtte lévő szintek kérik. 13 darab:
 
 - **Lézererősítők:** Damage Amp IV, Crit Amp IV és Penetration Amp IV, mindegyik a III. szintű erősítőből ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **A Helios Beam**, egy Starfire-III-ból, a 18 Orvium Reinforced Plate-jével ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -82,6 +82,7 @@ Minden fejlesztési lánc utolsó szintje **3 Dark Matter Plate**-et kér, Velko
 - **A Heavy Shield Core**, egy Basic Shield Core-ból ([Pajzsok](/wiki/06-Items/Shields.md#shield-cores)).
 - **Fúvókák:** Impulse Thruster IV és Momentum Thruster IV, mindegyik a III. szintű fúvókából ([Hajtás](/wiki/06-Items/Propulsion.md#thrusters)).
 - **Az Engine III**, egy Engine II-ből ([Hajtás](/wiki/06-Items/Propulsion.md#engines)).
+- **Az Adaptive Core III**, egy Adaptive Core II-ből ([Pajzsok](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU-k:** Extra Slots CPU III, 6 Orvium Reinforced Plate-tel, és Base CPU II, 2-vel ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
 **Ezek nem kérnek Dark Matter Plate-et:** a Quantum Laser III és a Starfire-III (Velkonite lemezek), minden lánc II. és III. szintje (1 vagy 2 Velkonite lemez egy erősítőhöz, 2 vagy 4 egy cellához vagy fúvókához), a Jump CPU, az Auto-Repair CPU, az Extra Slots CPU I és II, a Base CPU I, a 16 drónformáció és a hajók. [A Kovácsműhely](/wiki/06-Items/Forge.md) megtartja a 2 plate-et a két legfelső lépésén egyaránt.
@@ -129,4 +130,4 @@ Egy első fejlesztés a semmiből a recept (10) és két plate (10): 20 Dark Mat
 - [Rakéták](/wiki/06-Items/Rockets.md#the-craft-only-rockets): a N.I.K.E. és a N.U.K.E.
 - [Erőforrások](/wiki/06-Items/Resources.md#dark-matter): a Dark Matter és a Dark Matter Plate a többi erőforrás között.
 - [A Kovácsműhely](/wiki/06-Items/Forge.md): a két legmagasabb lépésének 2 plate-je.
-- [Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Pajzsok](/wiki/06-Items/Shields.md), [Hajtás](/wiki/06-Items/Propulsion.md) és [Extrák](/wiki/06-Items/Extras.md#research-cpus): a 12 utolsó szintű darab receptjei.
+- [Lézerek és lőszer](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-), [Pajzsok](/wiki/06-Items/Shields.md), [Hajtás](/wiki/06-Items/Propulsion.md) és [Extrák](/wiki/06-Items/Extras.md#research-cpus): a 13 utolsó szintű darab receptjei.

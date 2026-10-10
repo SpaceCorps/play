@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d7e1133b56dbdf93 -->
+<!-- wiki-i18n source: 27056100dc9d4562 -->
 <!-- wiki-i18n title: Leilão -->
 # Leilão {#auction}
 
@@ -31,7 +31,7 @@ A etiqueta é um número de unidades, não um interruptor: uma pilha de muniçã
 
 O chip **Somente vendável** do Hangar mostra só o que você pode vender, e o **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do Leilão para ele. Na Montagem, uma receita cujo resultado é vendável diz isso, e um material que falta tem um link que abre o Leilão com o nome dele na busca.
 
-Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja não vende, e os recursos, foram marcados uma vez. Estes não foram, porque a Loja já os vendeu um dia ou porque o que você tem mistura peças compradas e ganhas: a Quantum Laser III, as Absorption Shield Cells II e III, os Impulse Thrusters II e III, as duas Reinforced Plates e a Base CPU I mais antiga de cada piloto (a do kit inicial). Os novos desses que você ganhar ou criar são marcados.
+Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja não vende, e os recursos, foram marcados uma vez. Estes não foram, porque a Loja já os vendeu um dia ou porque o que você tem mistura peças compradas e ganhas: a Quantum Laser III, as Absorption Shield Cells II e III, o Engine II, o Adaptive Core II, os Impulse Thrusters II e III, as duas Reinforced Plates e a Base CPU I mais antiga de cada piloto (a do kit inicial). Os novos desses que você ganhar ou criar são marcados.
 
 ## O que pode ser vendido {#what-can-be-sold}
 
@@ -145,13 +145,13 @@ Você é avisado quando algo é vendido: por um aviso, pelo som do Leilão e pel
 
 ## Os Lotes de cada hora {#the-hourly-lots}
 
-Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, a cada hora, para dar lances. São um jeito de comprar munição por menos do que a Loja pede, e um ralo: o lance vencedor é queimado. Só abrem os lotes da tabela do dia abaixo (nunca munição x1 ou x4, nunca Siphon Batteries, nunca um foguete especial), na moeda da Loja. Um lote de foguetes nunca passa do máximo desse foguete que você pode levar (a pilha da Loja), então um lance que faria você passar dele é recusado: dê lances num lote de foguetes quando você levar poucos desse foguete.
+Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, a cada hora, para dar lances. São um jeito de comprar munição por menos do que a Loja pede, e um ralo: o lance vencedor é queimado. Só abrem os lotes da tabela do dia abaixo (nunca munição x1 ou x4, nunca Siphon Batteries, nunca um foguete especial), na moeda da Loja. Você pode dar lances em qualquer lote, seja o que for que já leve: um lote que você ganha é seu por inteiro, mesmo que ele leve você acima da pilha que a Loja deixa você comprar.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - No início de cada hora UTC abre um novo lote, que fica aberto por 4 horas, de modo que 4 ficam abertos ao mesmo tempo.
-- O lance inicial é de 40% do preço da Loja da mercadoria. Cada lance seguinte precisa superar o mais alto em pelo menos 5%, e em pelo menos 100 créditos ou 1 Thulium.
+- O lance inicial é de 20% do preço da Loja da mercadoria. Cada lance seguinte precisa superar o mais alto em pelo menos 5%, e em pelo menos 100 créditos ou 1 Thulium.
 - O seu lance é pago na hora e fica retido. Se alguém cobrir, ele volta para você na hora.
 - Um lance nos últimos 2 min de um lote move o fim dele para 2 min depois do lance, no máximo 5 vezes.
 - O que você vence é para voar, não para negociar: nunca é vendável. O lance vencedor é queimado. Um lote em que ninguém dá lance não é vendido e não custa nada a ninguém.
@@ -165,34 +165,36 @@ Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, a 
 
 | Hora UTC | Lote | Tamanho completo | Pago em | Lance inicial no tamanho completo |
 | :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1.250 | Thulium | 2.500 Thulium |
-| 01:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 02:00 | Lancet I | 12.500 | Créditos | 2.500.000 créditos |
-| 03:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 04:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 05:00 | Rivet II | 5.000 | Créditos | 1.600.000 créditos |
-| 06:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 07:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 08:00 | Ember I | 12.500 | Créditos | 2.500.000 créditos |
-| 09:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 10:00 | Scatter II | 5.000 | Créditos | 1.600.000 créditos |
-| 11:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
-| 12:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 13:00 | Lancet III | 1.250 | Thulium | 2.500 Thulium |
-| 14:00 | Ultra Core | 10.000 | Thulium | 4.000 Thulium |
-| 15:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 16:00 | Ultra Core | 50.000 | Thulium | 20.000 Thulium |
-| 17:00 | Rivet I | 12.500 | Créditos | 2.500.000 créditos |
-| 18:00 | Advanced Plasma | 50.000 | Thulium | 10.000 Thulium |
-| 19:00 | Ember II | 5.000 | Créditos | 1.600.000 créditos |
-| 20:00 | Ultra Core | 25.000 | Thulium | 10.000 Thulium |
-| 21:00 | Advanced Plasma | 25.000 | Thulium | 5.000 Thulium |
-| 22:00 | Advanced Plasma | 10.000 | Thulium | 2.000 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 1.000 Thulium |
+| 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
+| 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 02:00 | Lancet I | 12.500 | Créditos | 1.250.000 créditos |
+| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 05:00 | Rivet II | 5.000 | Créditos | 800.000 créditos |
+| 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 08:00 | Ember I | 12.500 | Créditos | 1.250.000 créditos |
+| 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 10:00 | Scatter II | 5.000 | Créditos | 800.000 créditos |
+| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
+| 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
+| 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 17:00 | Rivet I | 12.500 | Créditos | 1.250.000 créditos |
+| 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 19:00 | Ember II | 5.000 | Créditos | 800.000 créditos |
+| 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 
 <!-- market-day:end -->
 
 Quando poucos pilotos usam o Leilão, os lotes são pequenos, para que um punhado de pilotos não receba milhares de tiros a cada hora; eles crescem conforme mais pilotos olham.
+
+**Dar lances com um máximo.** Na folha de lance, ative *Dar lances automáticos até um máximo* e digite o máximo que você aceita pagar. O Leilão passa então a dar lances por você: ele pega o menor lance que o lote aceita e, sempre que alguém cobrir, dá outro, um aumento mínimo acima do maior lance, até o seu máximo e não além. O lance com que você lidera é o menor que supera o próximo melhor máximo, não o seu máximo: com máximos de 500 e 800 créditos num lote que abriu em 100, o mais alto lidera com 600, não com 800. Se dois máximos forem iguais, vence o que foi definido primeiro. Todo o seu máximo fica retido na sua carteira quando você o define, então nenhum lance automático pode falhar por falta de dinheiro; quando o lote termina, você paga só o lance vencedor e o resto volta, e, se alguém passar o seu máximo, tudo volta na hora e você é avisado. Num lote em que você lidera, o botão **Máximo** aumenta o seu máximo a qualquer momento ou o reduz até o seu lance atual. Definir um máximo não é um lance, mas todo lance conta para a regra de prorrogação, inclusive o que o Leilão dá. Definir um máximo tem um som suave próprio, no volume dos efeitos sonoros.
 
 ## A temporada e o reset {#the-season-and-the-wipe}
 

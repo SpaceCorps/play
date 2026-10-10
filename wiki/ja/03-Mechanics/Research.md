@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6c44f12b3eb7ef7a -->
+<!-- wiki-i18n source: c6281bdd893893fa -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -29,7 +29,7 @@
 
 <!-- research-centre:end -->
 
-**レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は12あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを3枚要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
+**レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを3枚要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
 Skylab の**研究**表示では、技術が下のツリーのボックスより多くのことを教えてくれます。技術にカーソルを合わせると、研究時間と燃やす科学のカードが開き、その下に、そのアイテムが**何で、何をするか**が表示されます。種類とファミリー内の段階（たとえば4つの Impulse Thruster の3つ目）、説明、ハンガーやショップと同じ形の数値（レーザーのダメージ、クリティカル率、射程、シールドのシールド容量、リチャージ速度、吸収率、スラスターの速度ブーストと速度倍率、ロケットのダメージ、爆発半径、射程、ドローン編成が与えるものと代償）、同じファミリーの各段階の小さな表、そして研究後にアセンブリが製造に要求するもの（時間、クレジットと Thulium、素材）です。これで、研究する前に、その段階で何が得られるかが分かります。技術をクリックすると選択され、ツリーの横のカードに同じ内容がすべて、**研究を開始**ボタンの下に表示されます。 研究が進行中は、開始ボタンの代わりに**キューに追加**が表示されます。キューに入れた技術はツリー上に順番の番号が出て、実行中の研究の下のキューのカードにすべて並び、それぞれの×で外せます。次の技術が開始できないとき（必要な Dark Matter がセンターにない、またはタンクが空）は、キューは待機して理由を表示し、原因を解消して**キューを開始**を押すまで止まっています。
 
@@ -170,9 +170,14 @@ Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 18
 Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
+Engine II => Engine III
+Adaptive Core II => Adaptive Core III
 ```
 
 ### シールドと防御 {#tree-shields}
@@ -331,7 +336,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | – | A | 30分 | 1,800 | – |
 | [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | [Momentum Thruster II](/wiki/06-Items/Propulsion.md#thrusters) | B | 3時間 | 10,800 | – |
 | [Momentum Thruster IV](/wiki/06-Items/Propulsion.md#thrusters) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Momentum Thruster III](/wiki/06-Items/Propulsion.md#thrusters) | C | 10時間 | 36,000 | 10 |
-| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3時間 | 10,800 | – |
+| [Engine III](/wiki/06-Items/Propulsion.md#engines) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Engine II](/wiki/06-Items/Propulsion.md#engines) | B | 3時間 | 10,800 | – |
 | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | – | A | 30分 | 1,800 | – |
 | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell II](/wiki/06-Items/Shields.md#shield-cells) | B | 3時間 | 10,800 | – |
 | [Absorption Shield Cell IV](/wiki/06-Items/Shields.md#shield-cells) | [Absorption Shield Cell III](/wiki/06-Items/Shields.md#shield-cells), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10時間 | 36,000 | 10 |
@@ -387,18 +392,21 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Penetration Amp III](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | C | 10時間 | 36,000 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | D | 1日 | 86,400 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | D | 2日 | 172,800 | 40 |
+| [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30分 | 1,800 | – |
+| [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30分 | 1,800 | – |
+| [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3時間 | 10,800 | – |
 
 研究時間によるクラス：
 
 | クラス | 研究時間 | 技術数 | 順に研究した合計 | 科学 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30分 | 8 | 4時間 | 14,400 | 0 |
-| B | 3時間～6時間 | 17 | 2日9時間 | 205,200 | 0 |
+| A | 30分 | 10 | 5時間 | 18,000 | 0 |
+| B | 3時間～6時間 | 18 | 2日12時間 | 216,000 | 0 |
 | C | 10時間 | 15 | 6日6時間 | 540,000 | 95 |
 | D | 1日～2日 | 22 | 27日 | 2,332,800 | 319 |
-| 合計 |  | 62 | 35日19時間 | 3,092,400 | 414 |
+| 合計 |  | 65 | 35日23時間 | 3,106,800 | 414 |
 
-1つずつ順に研究すると、ツリー全体で 35日19時間 かかります。ブーストを常にかけると 17日21時間30分 で、ブースト 18 個と 90,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 35日23時間 かかります。ブーストを常にかけると 17日23時間30分 で、ブースト 18 個と 90,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 

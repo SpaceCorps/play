@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
@@ -34,19 +34,19 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 
 | Diseño | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19.000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24.000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13.500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100.000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100.000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100.000 | 4 | 75 | 13 | 4 | 1 |
 
 La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER, BUCKY o LICH), y no puede ser la nave que pilotas: activa antes otra nave. Una nave destruida no se puede convertir.
 
@@ -79,4 +79,4 @@ Cada diseño tiene un modelo propio, el de su nave con unos pocos cambios que mu
 
 ## Tienda, Subasta y puntos {#shop-auction-and-points}
 
-Un diseño nunca se vende en la tienda ni se pone a la venta en la [Subasta](/wiki/03-Mechanics/Auction.md): lo haces con tu propia nave. Una baja de un diseño da los mismos puntos PvP que una baja de su nave.
+Un diseño nunca se vende en la tienda ni se pone a la venta en la [Subasta](/wiki/03-Mechanics/Auction.md): lo haces con tu propia nave. La categoría Naves de la tienda sí muestra los diseños de cada nave bajo su tarjeta (una imagen, lo que cambia el diseño y el precio de conversión en Thulium), a modo de información; la conversión en sí se hace en Ensamblaje. Una baja de un diseño da los mismos puntos PvP que una baja de su nave.

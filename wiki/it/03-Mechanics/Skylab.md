@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d47517c2e0ba61e -->
+<!-- wiki-i18n source: f2f334d2bb9d511a -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -22,7 +22,7 @@ Al livello 10 del Nucleo lo Skylab cresce ancora: un **ponte** collega il Nucleo
 
 - Costruisci prima **Solare**: senza la sua energia nello Skylab non funziona niente. La Fattoria crediti non costa nulla da costruire, la Fattoria Thulium costa 5.000 crediti e 500 Thulium.
 - Fattorie e collettori riempiono una **tramoggia** (da 72 ore) mentre sei via. **Raccogli** la sposta sul tuo account (crediti, Thulium) o nel tuo Magazzino risorse (minerale).
-- La **Fattoria Thulium** è la tua principale fonte di Thulium: 50 all’ora al livello 1, 1.600 al livello 20. La Fattoria crediti produce 500 crediti all’ora al livello 1 e 50.000 al livello 20.
+- La **Fattoria Thulium** è la tua principale fonte di Thulium: 40 all’ora al livello 1, 1.280 al livello 20. La Fattoria crediti produce 750 crediti all’ora al livello 1 e 75.000 al livello 20.
 - Il **Nucleo** dà il ritmo: nessun modulo lo supera, e la sua salita richiede da sola circa 16 giorni e mezzo.
 - Al **livello 10 del Nucleo** un **ponte** costruisce il **Nucleo 2**, con sei slot in più per i moduli, e vi si agganciano la **Stampante di munizioni** e la **Fabbrica di razzi**. Il passo verso il livello 10 costa 2.000 Thulium in più.
 - **Solare produce solo il 25% della sua energia mentre si potenzia**, quindi le tue fattorie e i tuoi collettori si fermano finché non ha finito. [Pianificalo](#timing-a-solar-upgrade).
@@ -114,8 +114,8 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 
 ### Fattoria crediti e Fattoria Thulium {#credit-farm-and-thulium-farm}
 
-- **Fattoria crediti**: produce crediti nel tempo: **500 all’ora al livello 1, 50.000 al livello 20** (livello 5: 2.500; livello 10: 7.500; livello 15: 17.000). Costruirla non costa nulla.
-- **Fattoria Thulium**: produce Thulium nel tempo: **50 all’ora al livello 1, 1.600 al livello 20** (livello 5: 180; livello 10: 450; livello 15: 950). Costruirla costa 5.000 crediti e 500 Thulium.
+- **Fattoria crediti**: produce crediti nel tempo: **750 all’ora al livello 1, 75.000 al livello 20** (livello 5: 3.750; livello 10: 11.250; livello 15: 25.500). Costruirla non costa nulla.
+- **Fattoria Thulium**: produce Thulium nel tempo: **40 all’ora al livello 1, 1.280 al livello 20** (livello 5: 144; livello 10: 360; livello 15: 760). Costruirla costa 5.000 crediti e 500 Thulium.
 - Entrambe richiedono energia, e ciascuna conserva 72 ore della sua produzione finché non la raccogli.
 
 ## La filiera {#the-supply-chain}
@@ -326,37 +326,37 @@ Lo Skylab ci mette settimane a crescere, quindi un po’ di pianificazione ripag
 ### Cosa potenziare per primo {#what-to-upgrade-first}
 
 1. **Solare, poi la Fattoria crediti.** Solare costa 500 crediti e 50 Thulium e senza non funziona niente; la Fattoria crediti non costa nulla. Le dieci [missioni Stazione](/wiki/03-Mechanics/Quests.md#station-missions) ti guidano in questi primi passi e ti pagano 52.000 crediti e 610 Thulium, come base: il tuo mondo, i tuoi booster e i bonus del tuo clan la moltiplicano.
-2. **Poi la Fattoria Thulium: è la tua principale fonte di Thulium.** Al livello 10 produce 450 Thulium all’ora, 10.800 al giorno, quanto pagano 54 uccisioni di un [Crystalys](/wiki/04-Aliens/Crystalys.md) in Alpha (200 ciascuna). La salita fino al livello 10 costa 1.154.000 crediti e 4.190 Thulium, costruzione compresa. Al livello 15 la fattoria produce 22.800 al giorno e al livello 20 38.400. La sua tramoggia contiene 72 ore, quindi torna almeno ogni tre giorni. Cosa si compra con il Thulium è nella pagina [Risorse](/wiki/06-Items/Resources.md#thulium).
-3. **La Fattoria crediti è l’entrata costante di contorno.** Al livello 10 produce 7.500 crediti all’ora, 180.000 al giorno, per 840.000 crediti e 109 Thulium. I livelli alti si ripagano lentamente: il passo dal livello 9 al 10 costa 300.000 crediti per 1.000 in più all’ora, cioè 300 ore. Potenziala quando ti avanzano crediti.
+2. **Poi la Fattoria Thulium: è la tua principale fonte di Thulium.** Al livello 10 produce 360 Thulium all’ora, 8.640 al giorno, circa quanto pagano 43 uccisioni di un [Crystalys](/wiki/04-Aliens/Crystalys.md) in Alpha (200 ciascuna). La salita fino al livello 10 costa 1.154.000 crediti e 4.190 Thulium, costruzione compresa. Al livello 15 la fattoria produce 18.240 al giorno e al livello 20 30.720. La sua tramoggia contiene 72 ore, quindi torna almeno ogni tre giorni. Cosa si compra con il Thulium è nella pagina [Risorse](/wiki/06-Items/Resources.md#thulium).
+3. **La Fattoria crediti è l’entrata costante di contorno.** Al livello 10 produce 11.250 crediti all’ora, 270.000 al giorno, per 840.000 crediti e 109 Thulium. I livelli alti si ripagano lentamente: il passo dal livello 9 al 10 costa 300.000 crediti per 1.500 in più all’ora, cioè 200 ore. Potenziala quando ti avanzano crediti.
 4. **Tieni occupato il Nucleo.** Niente supera il Nucleo, e il Nucleo da solo richiede circa 16 giorni e mezzo per arrivare al livello 20. Non c’è una coda, quindi avvia il suo passo successivo ogni volta che torni.
 5. **Costruisci la filiera come un insieme.** I collettori, il Magazzino risorse e la Fucina si aprono al livello 5 del Nucleo. Un collettore può mettere in riserva il minerale solo in un Magazzino risorse, e la riserva contiene un giorno di produzione del suo collettore al livello 1 e quattro giorni al livello 20, quindi potenzia il Magazzino insieme ai collettori, altrimenti il minerale aspetta nelle loro tramogge.
 6. **Tieni pronti 2.000 Thulium per il livello 10 del Nucleo.** Il passo del Nucleo dal livello 9 al livello 10 li richiede, e costruisce il ponte e il Nucleo 2, dove si costruiscono la [Stampante di munizioni](#ammo-printer) e la [Fabbrica di razzi](#rocket-factory).
 
 ### Pianificare un potenziamento di Solare {#timing-a-solar-upgrade}
 
-Mentre si potenzia, Solare produce un quarto della sua energia, e una stazione quasi sempre ne usa di più. Le fattorie e i collettori si fermano allora per tutto il potenziamento: ciò che contengono resta, ma ciò che avrebbero prodotto è perso. La tabella indica, per ogni passo di Solare, il suo tempo, la stazione più grande che continua a funzionare (ogni modulo allo stesso livello, Nucleo e filiera compresi; una stazione più piccola regge un po’ di più) e ciò che una Fattoria crediti e una Fattoria Thulium di quel livello avrebbero prodotto in quel tempo. Per esempio, Solare dal livello 10 all’11 richiede 4 ore, e fattorie di livello 10 ne avrebbero prodotto 30.000 crediti e 1.800 Thulium. La tabella conta anche la Stampante di munizioni dal livello 7 e la Fabbrica di razzi dal livello 10.
+Mentre si potenzia, Solare produce un quarto della sua energia, e una stazione quasi sempre ne usa di più. Le fattorie e i collettori si fermano allora per tutto il potenziamento: ciò che contengono resta, ma ciò che avrebbero prodotto è perso. La tabella indica, per ogni passo di Solare, il suo tempo, la stazione più grande che continua a funzionare (ogni modulo allo stesso livello, Nucleo e filiera compresi; una stazione più piccola regge un po’ di più) e ciò che una Fattoria crediti e una Fattoria Thulium di quel livello avrebbero prodotto in quel tempo. Per esempio, Solare dal livello 10 all’11 richiede 4 ore, e fattorie di livello 10 ne avrebbero prodotto 45.000 crediti e 1.440 Thulium. La tabella conta anche la Stampante di munizioni dal livello 7 e la Fabbrica di razzi dal livello 10.
 
 | Potenziamento di Solare | Tempo | Stazione che continua a funzionare, fino al livello | La Fattoria crediti produce nel frattempo | La Fattoria Thulium produce nel frattempo |
 | :--- | ---: | ---: | ---: | ---: |
-| da 1 a 2 | 5 min | nessuna | 42 | 4 |
-| da 2 a 3 | 15 min | nessuna | 250 | 20 |
-| da 3 a 4 | 30 min | nessuna | 750 | 55 |
-| da 4 a 5 | 45 min | nessuna | 1.500 | 105 |
-| da 5 a 6 | 1 h | nessuna | 2.500 | 180 |
-| da 6 a 7 | 1 h 15 min | nessuna | 4.375 | 288 |
-| da 7 a 8 | 1 h 30 min | 1 | 6.750 | 420 |
-| da 8 a 9 | 2 h | 2 | 11.000 | 660 |
-| da 9 a 10 | 3 h | 3 | 19.500 | 1.140 |
-| da 10 a 11 | 4 h | 4 | 30.000 | 1.800 |
-| da 11 a 12 | 5 h | 5 | 45.000 | 2.750 |
-| da 12 a 13 | 6 h | 6 | 66.000 | 3.900 |
-| da 13 a 14 | 8 h | 7 | 104.000 | 6.000 |
-| da 14 a 15 | 10 h | 8 | 150.000 | 8.500 |
-| da 15 a 16 | 12 h | 9 | 204.000 | 11.400 |
-| da 16 a 17 | 16 h | 9 | 320.000 | 17.600 |
-| da 17 a 18 | 18 h | 11 | 432.000 | 22.500 |
-| da 18 a 19 | 20 h | 12 | 580.000 | 28.000 |
-| da 19 a 20 | 1 g | 13 | 840.000 | 36.000 |
+| da 1 a 2 | 5 min | nessuna | 63 | 3 |
+| da 2 a 3 | 15 min | nessuna | 375 | 16 |
+| da 3 a 4 | 30 min | nessuna | 1.125 | 44 |
+| da 4 a 5 | 45 min | nessuna | 2.250 | 84 |
+| da 5 a 6 | 1 h | nessuna | 3.750 | 144 |
+| da 6 a 7 | 1 h 15 min | nessuna | 6.563 | 230 |
+| da 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
+| da 8 a 9 | 2 h | 2 | 16.500 | 528 |
+| da 9 a 10 | 3 h | 3 | 29.250 | 912 |
+| da 10 a 11 | 4 h | 4 | 45.000 | 1.440 |
+| da 11 a 12 | 5 h | 5 | 67.500 | 2.200 |
+| da 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
+| da 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
+| da 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
+| da 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
+| da 16 a 17 | 16 h | 9 | 480.000 | 14.080 |
+| da 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
+| da 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
+| da 19 a 20 | 1 g | 13 | 1.260.000 | 28.800 |
 
 - **Potenzia le fattorie insieme a Solare.** Un modulo in potenziamento non produce nulla e non usa energia comunque, quindi il tempo che una fattoria passa in potenziamento durante la pausa non costa niente in più.
 - **Tieni bassi gli altri moduli se non puoi permetterti una pausa.** Una stazione resta in funzione durante un potenziamento di Solare solo se tutti i suoi altri moduli sono almeno cinque livelli sotto Solare (sei dal livello 10 di Solare), e una stazione completa richiede un po’ di più, come mostra la tabella.

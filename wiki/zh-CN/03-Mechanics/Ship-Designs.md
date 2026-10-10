@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: 舰船设计 -->
 # 舰船设计 {#ship-designs}
 
@@ -34,19 +34,19 @@
 
 | 设计 | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7,500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21,500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13,500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
 
 被改装的舰船是你拥有的该种类的那一艘（THUNDER、BUCKY 或 LICH 用 Paragon），而且不能是你正在驾驶的舰船：请先把另一艘舰船设为活动舰船。被击毁的舰船不能改装。
 
@@ -79,4 +79,4 @@
 
 ## 商店、拍卖行与积分 {#shop-auction-and-points}
 
-设计舰船从不在商店出售，也从不在[拍卖行](/wiki/03-Mechanics/Auction.md)上架：你用自己的舰船来制作它。击杀一艘设计舰船所得的 PvP 积分，与击杀它的原舰船相同。
+设计舰船从不在商店出售，也从不在[拍卖行](/wiki/03-Mechanics/Auction.md)上架：你用自己的舰船来制作它。商店的“舰船”分类会在每艘舰船的卡片下显示各个设计（一张图片、设计的改动以及以 Thulium 计的改装价格），仅供参考；改装本身要在装配站进行。击杀一艘设计舰船所得的 PvP 积分，与击杀它的原舰船相同。

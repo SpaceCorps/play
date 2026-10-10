@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fa02f72ab515dfbf -->
+<!-- wiki-i18n source: 0f0413a5a5f080ae -->
 <!-- wiki-i18n title: Escudos -->
 # Mecánicas de los escudos {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 \[\text{Parte del escudo} = \text{clamp}(\text{Absorción} - \text{Penetración},\ 0,\ 100\,\%)\]
 
 - Los escudos reciben como mucho `round(damage x share)` del impacto; el casco recibe el resto. Un escudo demasiado bajo para su parte pasa la diferencia a los HP, y si los escudos están a 0, todo el daño va directamente a los HP.
-- **De dónde viene la penetración**: la *penetración de escudo* de un cohete directo (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; las explosiones en área no tienen, consulta [Cohetes](/wiki/06-Items/Rockets.md)) y la de la munición láser (Ultra Core 5 %, Experimental Fusion Core 10 %; consulta [Láseres y munición](/wiki/06-Items/Lasers.md)). Los alienígenas no tienen, y tampoco la munición x1 y x2. Un impacto láser también incluye los Penetration Amps de los láseres del atacante (de +2 % a +8 % por ranura, la media de sus láseres) y la penetración de una formación de drones (Gemini +9 %, Stiletto +16 %); un cohete directo suma la de la formación a la suya. **Nada limita la suma**: los escudos absorben la absorción menos todo eso, hasta no absorber nada del impacto ([cómo se suma un impacto láser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Ejemplos**: 80 % de absorción contra un Lancet III (35 %): los escudos reciben el 45 % del impacto, el casco el 55 %. Con 100 % contra él: 65 % y 35 %. Con 112 % contra un 12 % de penetración: todo el impacto. Con 45 % (un Light Shield Core solo) contra 35 %: 10 % en el escudo y el resto en el casco. Un cohete por sí solo no atraviesa por completo ningún núcleo, pero un Lancet III con un Stiletto (35 % + 16 % = 51 %) no deja nada del impacto a un Light Shield Core solo (45 %), y el mejor láser (50 %) tampoco: contra ese láser, el mejor escudo (80 %) recibe el 30 % del impacto y el casco el 70 %.
+- **De dónde viene la penetración**: la *penetración de escudo* de un cohete directo (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; las explosiones en área no tienen, consulta [Cohetes](/wiki/06-Items/Rockets.md)) y la de la munición láser (Ultra Core 5 %, Experimental Fusion Core 10 %; consulta [Láseres y munición](/wiki/06-Items/Lasers.md)). Los alienígenas no tienen, y tampoco la munición x1 y x2. Un impacto láser también incluye los Penetration Amps de los láseres del atacante (de +3 % a +12 % por ranura, la media de sus láseres) y la penetración de una formación de drones (Gemini +9 %, Stiletto +16 %); un cohete directo suma la de la formación a la suya. **Nada limita la suma**: los escudos absorben la absorción menos todo eso, hasta no absorber nada del impacto ([cómo se suma un impacto láser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Ejemplos**: 80 % de absorción contra un Lancet III (35 %): los escudos reciben el 45 % del impacto, el casco el 55 %. Con 100 % contra él: 65 % y 35 %. Con 112 % contra un 12 % de penetración: todo el impacto. Con 45 % (un Light Shield Core solo) contra 35 %: 10 % en el escudo y el resto en el casco. Un cohete por sí solo no atraviesa por completo ningún núcleo, pero un Lancet III con un Stiletto (35 % + 16 % = 51 %) no deja nada del impacto a un Light Shield Core solo (45 %), y el mejor láser (62 %) tampoco: contra ese láser, el mejor escudo (80 %) recibe el 18 % del impacto y el casco el 82 %.
 - Los alienígenas no tienen estadística de absorción: reparten cada impacto 80 % / 20 %, menos la penetración del impacto.
 - El daño de una Siphon Battery sale solo del escudo: la absorción y la penetración no intervienen.
 
-**Dónde los escudos no reciben nada.** Una penetración igual o superior a la absorción no deja a los escudos nada del impacto: el casco se lo lleva todo. La tabla muestra lo que reciben los escudos de un impacto del mejor láser (50 %) y del mejor cohete directo (un Lancet III o un Rivet III con un Stiletto, 51 %):
+**Dónde los escudos no reciben nada.** Una penetración igual o superior a la absorción no deja a los escudos nada del impacto: el casco se lo lleva todo. La tabla muestra lo que reciben los escudos de un impacto del mejor láser (62 %) y del mejor cohete directo (un Lancet III o un Rivet III con un Stiletto, 51 %):
 
-| Escudo | Absorción | Los escudos reciben, mejor láser (50 %) | Los escudos reciben, mejor cohete directo (51 %) |
+| Escudo | Absorción | Los escudos reciben, mejor láser (62 %) | Los escudos reciben, mejor cohete directo (51 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 48 % | 0 % | 0 % |
 | Heavy Shield Core | 50 % | 0 % | 0 % |
-| El mejor escudo de fábrica | 80 % | 30 % | 29 % |
-| Un escudo al 100 % | 100 % | 50 % | 49 % |
-| Un escudo al 120 % | 120 % | 70 % | 69 % |
+| El mejor escudo de fábrica | 80 % | 18 % | 29 % |
+| Un escudo al 100 % | 100 % | 38 % | 49 % |
+| Un escudo al 120 % | 120 % | 58 % | 69 % |
 
 #### Alcanzar y superar el 100 % {#reaching-and-passing-100-}
 

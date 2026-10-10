@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54910cbb508beed2 -->
+<!-- wiki-i18n source: 6227a03e20405285 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,6 +38,7 @@ Boosters använder ett additivt skalningssystem:
 1. **Procentbonusar läggs ihop**: Köper du två olika boosters som båda ger +10 % laserskada får du en total bonus på **+20 % laserskada**.
 2. **Varaktigheter staplas multiplikativt**: Köper du _samma_ booster flera gånger förlängs dess aktiva tid. Tidtagarna för _olika_ boosters löper parallellt.
 3. **Tidsvy**: Aktiva boosters visas i HUD:en i fönstret Boosters, med de sammanlagda aktiva bonusarna grupperade och nästa utgångshändelse.
+4. **Siffrorna räknar med dem**: skada, sköldar, sköldåterladdning, absorption, fart och skrov i Hangaren, och din pilotsida, inkluderar dina aktiva boosters, dina säsongsbutiksbuffar och din klans boosts; en liten etikett *med boosters* på kortet med stridsvärden visar det. Genomträngning, kritchans och räckvidd ändras inte av boosters.
 
 ---
 

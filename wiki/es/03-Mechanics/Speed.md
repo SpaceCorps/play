@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
+<!-- wiki-i18n source: 74226336693d1ae9 -->
 <!-- wiki-i18n title: Velocidad -->
 # Cálculo de la velocidad {#speed-calculation}
 
@@ -18,10 +18,10 @@ Cada motor equipado genera velocidad, y también cada núcleo adaptativo que lle
 
 \[\text{Velocidad del motor} = (\text{Velocidad base del motor} + \text{Bono fijo de propulsores}) \times \text{Multiplicador de propulsores}\]
 
-- **Bono fijo de propulsores**: la suma de todos los aumentos fijos de velocidad de los propulsores (p. ej., Impulse Thruster III da `+15` de velocidad).
-- **Multiplicador de propulsores**: el producto de los multiplicadores de velocidad de todos los propulsores instalados en ese motor (p. ej., Momentum Thruster III es `1.09` o `+9%`; Impulse Thruster III, `1.03` o `+3%`). Multiplica todo lo que produce el motor: su propia velocidad base y los bonos fijos de los propulsores. Un núcleo adaptativo no tiene velocidad base propia, y los bonos fijos de sus propulsores se multiplican igualmente.
+- **Bono fijo de propulsores**: la suma de todos los aumentos fijos de velocidad de los propulsores (p. ej., Impulse Thruster III da `+12.75` de velocidad).
+- **Multiplicador de propulsores**: el producto de los multiplicadores de velocidad de todos los propulsores instalados en ese motor (p. ej., Momentum Thruster III es `1.0765` o `+7.65%`; Impulse Thruster III, `1.0255` o `+2.55%`). Multiplica todo lo que produce el motor: su propia velocidad base y los bonos fijos de los propulsores. Un núcleo adaptativo no tiene velocidad base propia, y los bonos fijos de sus propulsores se multiplican igualmente.
 
-Un Engine III (velocidad base 6) con tres Momentum Thruster IV (`+13.1`, `1.11`) produce (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0, y con tres Impulse Thruster IV (`+16.5`, `1.035`) (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5. Una bonificación de la Forja en el multiplicador de un propulsor hace crecer la parte por encima de 1: +15 % sobre `1.11` da `1.1265`.
+Un Engine III (velocidad base 6) con tres Momentum Thruster IV (`+11.135`, `1.0935`) produce (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, y con tres Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. Una bonificación de la Forja en el multiplicador de un propulsor hace crecer la parte por encima de 1: +15 % sobre `1.0935` da `1.1075`.
 
 ### 2. Rendimientos decrecientes (eficiencia marginal) {#2-diminishing-returns-marginal-efficiency-}
 

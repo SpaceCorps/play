@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: 능력 -->
 # 함선 액티브 능력 {#active-ship-abilities}
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Basic Shield Core와 Engine II를 재료로, Thulium, 드롭 아이템, 그리고 Dark Matter Plate 3개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
+Engine II와 등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I, Basic Shield Core, Engine II를 재료로, Thulium, 드롭 아이템, 그리고 플레이트(Engine II에는 Velkonite Reinforced Plate 2개, 나머지에는 Dark Matter Plate 3개: [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
 
 ## 재사용 대기시간과 제한 {#cooldowns-and-limits}
 

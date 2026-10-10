@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -34,19 +34,19 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 
 | Dizájn | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7 500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19 000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24 000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21 500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13 500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100 000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100 000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100 000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100 000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100 000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100 000 | 4 | 75 | 13 | 4 | 1 |
 
 Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a THUNDER-hez, a BUCKY-hoz és a LICH-hez), és nem lehet az a hajó, amelyet éppen repülsz: előbb tegyél aktívvá egy másikat. Egy lerombolt hajót nem lehet átalakítani.
 
@@ -79,4 +79,4 @@ Minden dizájnnak saját modellje van, a hajójáé néhány változtatással, a
 
 ## Bolt, Aukció és pontok {#shop-auction-and-points}
 
-Dizájnt soha nem árulnak a Boltban, és soha nem kerül az [Aukcióra](/wiki/03-Mechanics/Auction.md): a saját hajódból készíted. Egy dizájn leküzdése ugyanannyi PvP-pontot ad, mint a hajójáé.
+Dizájnt soha nem árulnak a Boltban, és soha nem kerül az [Aukcióra](/wiki/03-Mechanics/Auction.md): a saját hajódból készíted. A Bolt Hajók kategóriája megmutatja minden hajó dizájnjait a kártyája alatt (egy képet, hogy mit változtat a dizájn, és az átalakítás árát Thuliumban), tájékoztatásul; magát az átalakítást a Gyártásban végzed. Egy dizájn leküzdése ugyanannyi PvP-pontot ad, mint a hajójáé.

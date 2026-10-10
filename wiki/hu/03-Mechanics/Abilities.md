@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -110,7 +110,7 @@ Egy konfiguráción belül több azonos fajtájú modul esetén a legalacsonyabb
 
 <!-- abilities:end -->
 
-A III. rangú pajzsokat és hajtóműveket (a Heavy Shield Core-t és az Engine III-at) nem árulják: a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el őket egy Basic Shield Core-ból és egy Engine II-ből, Thulium, zsákmány és 3 Dark Matter Plate ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)) felhasználásával. Az Emergency Repairnek van egy negyedik rangja, a Repair Drone IV.
+Az Engine II-t, valamint a III. rangú pajzsokat és hajtóműveket (a Heavy Shield Core-t és az Engine III-at) nem árulják: a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el őket egy Engine I-ből, egy Basic Shield Core-ból és egy Engine II-ből, Thulium, zsákmány és lemezek (2 Velkonite Reinforced Plate az Engine II-höz, 3 Dark Matter Plate a többihez: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)) felhasználásával. Az Emergency Repairnek van egy negyedik rangja, a Repair Drone IV.
 
 ## Töltődés és korlátok {#cooldowns-and-limits}
 

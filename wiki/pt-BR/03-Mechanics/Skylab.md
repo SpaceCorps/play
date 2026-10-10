@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d47517c2e0ba61e -->
+<!-- wiki-i18n source: f2f334d2bb9d511a -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -22,7 +22,7 @@ No nível 10 do Núcleo, o Skylab ainda cresce: uma **ponte** liga o Núcleo a u
 
 - Construa primeiro a **Usina solar**: sem a energia dela, nada no Skylab funciona. A Mina de créditos não custa nada para construir, e a Mina de Thulium custa 5.000 créditos e 500 Thulium.
 - As minas e os coletores enchem um **armazenamento** (de 72 horas) enquanto você está fora. **Coletar** o leva para a sua conta (créditos, Thulium) ou para o seu Depósito de recursos (minério).
-- A **Mina de Thulium** é a sua principal fonte de Thulium: 50 por hora no nível 1, 1.600 no nível 20. A Mina de créditos produz 500 créditos por hora no nível 1 e 50.000 no nível 20.
+- A **Mina de Thulium** é a sua principal fonte de Thulium: 40 por hora no nível 1, 1.280 no nível 20. A Mina de créditos produz 750 créditos por hora no nível 1 e 75.000 no nível 20.
 - O **Núcleo** dita o ritmo: nenhum módulo passa dele, e a subida dele sozinha leva cerca de 16 dias e meio.
 - No **nível 10 do Núcleo**, uma **ponte** constrói o **Núcleo 2**, com seis slots a mais para módulos, e a **Impressora de munição** e a **Fábrica de foguetes** se encaixam nele. O passo para o nível 10 custa 2.000 Thulium a mais.
 - **A Usina solar produz só 25% da sua energia enquanto é melhorada**, então as suas minas e os seus coletores param até ela terminar. [Planeje isso](#timing-a-solar-upgrade).
@@ -114,8 +114,8 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 ### Mina de créditos e Mina de Thulium {#credit-farm-and-thulium-farm}
 
-- **Mina de créditos**: produz créditos ao longo do tempo: **500 por hora no nível 1, 50.000 no nível 20** (nível 5: 2.500; nível 10: 7.500; nível 15: 17.000). Construí-la não custa nada.
-- **Mina de Thulium**: produz Thulium ao longo do tempo: **50 por hora no nível 1, 1.600 no nível 20** (nível 5: 180; nível 10: 450; nível 15: 950). Construí-la custa 5.000 créditos e 500 Thulium.
+- **Mina de créditos**: produz créditos ao longo do tempo: **750 por hora no nível 1, 75.000 no nível 20** (nível 5: 3.750; nível 10: 11.250; nível 15: 25.500). Construí-la não custa nada.
+- **Mina de Thulium**: produz Thulium ao longo do tempo: **40 por hora no nível 1, 1.280 no nível 20** (nível 5: 144; nível 10: 360; nível 15: 760). Construí-la custa 5.000 créditos e 500 Thulium.
 - Ambas precisam de energia, e cada uma guarda 72 horas do que produz até você coletar.
 
 ## A cadeia de suprimentos {#the-supply-chain}
@@ -326,37 +326,37 @@ O Skylab leva semanas para crescer, então um pouco de planejamento compensa. Os
 ### O que melhorar primeiro {#what-to-upgrade-first}
 
 1. **A Usina solar, depois a Mina de créditos.** A Usina solar custa 500 créditos e 50 Thulium e sem ela nada funciona; a Mina de créditos não custa nada. As dez [missões da estação](/wiki/03-Mechanics/Quests.md#station-missions) guiam você nesses primeiros passos e pagam 52.000 créditos e 610 Thulium por eles, na base: o seu mundo, os seus boosters e os bônus do seu clã a multiplicam.
-2. **Depois a Mina de Thulium: é a sua principal fonte de Thulium.** No nível 10 ela produz 450 Thulium por hora, 10.800 por dia, tanto quanto pagam 54 abates de um [Crystalys](/wiki/04-Aliens/Crystalys.md) em Alpha (200 cada). A subida até o nível 10 custa 1.154.000 créditos e 4.190 Thulium, com a construção incluída. No nível 15 a mina produz 22.800 por dia e no nível 20, 38.400. O armazenamento dela guarda 72 horas, então volte pelo menos a cada três dias. O que o Thulium compra está na página [Recursos](/wiki/06-Items/Resources.md#thulium).
-3. **A Mina de créditos é a renda constante de apoio.** No nível 10 ela produz 7.500 créditos por hora, 180.000 por dia, por 840.000 créditos e 109 Thulium. Os níveis mais altos se pagam devagar: o passo do nível 9 ao 10 custa 300.000 créditos por 1.000 a mais por hora, ou seja, 300 horas. Melhore-a quando sobrarem créditos.
+2. **Depois a Mina de Thulium: é a sua principal fonte de Thulium.** No nível 10 ela produz 360 Thulium por hora, 8.640 por dia, aproximadamente tanto quanto pagam 43 abates de um [Crystalys](/wiki/04-Aliens/Crystalys.md) em Alpha (200 cada). A subida até o nível 10 custa 1.154.000 créditos e 4.190 Thulium, com a construção incluída. No nível 15 a mina produz 18.240 por dia e no nível 20, 30.720. O armazenamento dela guarda 72 horas, então volte pelo menos a cada três dias. O que o Thulium compra está na página [Recursos](/wiki/06-Items/Resources.md#thulium).
+3. **A Mina de créditos é a renda constante de apoio.** No nível 10 ela produz 11.250 créditos por hora, 270.000 por dia, por 840.000 créditos e 109 Thulium. Os níveis mais altos se pagam devagar: o passo do nível 9 ao 10 custa 300.000 créditos por 1.500 a mais por hora, ou seja, 200 horas. Melhore-a quando sobrarem créditos.
 4. **Mantenha o Núcleo ocupado.** Nada passa do Núcleo, e o Núcleo sozinho leva cerca de 16 dias e meio para chegar ao nível 20. Não há fila, então inicie o próximo passo dele toda vez que voltar.
 5. **Construa a cadeia de suprimentos como um conjunto.** Os coletores, o Depósito de recursos e a Forja abrem no nível 5 do Núcleo. Um coletor só pode depositar minério em um Depósito de recursos, e o depósito comporta um dia da produção do coletor dele no nível 1 e quatro dias no nível 20, então melhore o Depósito junto com os coletores, senão o minério fica esperando nos armazenamentos deles.
 6. **Deixe 2.000 Thulium prontos para o nível 10 do Núcleo.** O passo do Núcleo do nível 9 para o nível 10 pede isso, e ele constrói a ponte e o Núcleo 2, onde são construídas a [Impressora de munição](#ammo-printer) e a [Fábrica de foguetes](#rocket-factory).
 
 ### Planejando uma melhoria da Usina solar {#timing-a-solar-upgrade}
 
-Enquanto é melhorada, a Usina solar produz um quarto da sua energia, e uma estação quase sempre usa mais do que isso. As minas e os coletores então param durante toda a melhoria: o que eles guardam continua lá, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda funciona durante ele (todos os módulos no mesmo nível, com o Núcleo e a cadeia de suprimentos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 30.000 créditos e 1.800 Thulium. A tabela conta também a Impressora de munição a partir do nível 7 e a Fábrica de foguetes a partir do nível 10.
+Enquanto é melhorada, a Usina solar produz um quarto da sua energia, e uma estação quase sempre usa mais do que isso. As minas e os coletores então param durante toda a melhoria: o que eles guardam continua lá, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda funciona durante ele (todos os módulos no mesmo nível, com o Núcleo e a cadeia de suprimentos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 45.000 créditos e 1.440 Thulium. A tabela conta também a Impressora de munição a partir do nível 7 e a Fábrica de foguetes a partir do nível 10.
 
 | Melhoria da Usina solar | Tempo | Estação que continua funcionando, até o nível | A Mina de créditos produz nesse tempo | A Mina de Thulium produz nesse tempo |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 a 2 | 5 min | nenhuma | 42 | 4 |
-| 2 a 3 | 15 min | nenhuma | 250 | 20 |
-| 3 a 4 | 30 min | nenhuma | 750 | 55 |
-| 4 a 5 | 45 min | nenhuma | 1.500 | 105 |
-| 5 a 6 | 1 h | nenhuma | 2.500 | 180 |
-| 6 a 7 | 1 h 15 min | nenhuma | 4.375 | 288 |
-| 7 a 8 | 1 h 30 min | 1 | 6.750 | 420 |
-| 8 a 9 | 2 h | 2 | 11.000 | 660 |
-| 9 a 10 | 3 h | 3 | 19.500 | 1.140 |
-| 10 a 11 | 4 h | 4 | 30.000 | 1.800 |
-| 11 a 12 | 5 h | 5 | 45.000 | 2.750 |
-| 12 a 13 | 6 h | 6 | 66.000 | 3.900 |
-| 13 a 14 | 8 h | 7 | 104.000 | 6.000 |
-| 14 a 15 | 10 h | 8 | 150.000 | 8.500 |
-| 15 a 16 | 12 h | 9 | 204.000 | 11.400 |
-| 16 a 17 | 16 h | 9 | 320.000 | 17.600 |
-| 17 a 18 | 18 h | 11 | 432.000 | 22.500 |
-| 18 a 19 | 20 h | 12 | 580.000 | 28.000 |
-| 19 a 20 | 1 d | 13 | 840.000 | 36.000 |
+| 1 a 2 | 5 min | nenhuma | 63 | 3 |
+| 2 a 3 | 15 min | nenhuma | 375 | 16 |
+| 3 a 4 | 30 min | nenhuma | 1.125 | 44 |
+| 4 a 5 | 45 min | nenhuma | 2.250 | 84 |
+| 5 a 6 | 1 h | nenhuma | 3.750 | 144 |
+| 6 a 7 | 1 h 15 min | nenhuma | 6.563 | 230 |
+| 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
+| 8 a 9 | 2 h | 2 | 16.500 | 528 |
+| 9 a 10 | 3 h | 3 | 29.250 | 912 |
+| 10 a 11 | 4 h | 4 | 45.000 | 1.440 |
+| 11 a 12 | 5 h | 5 | 67.500 | 2.200 |
+| 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
+| 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
+| 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
+| 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
+| 16 a 17 | 16 h | 9 | 480.000 | 14.080 |
+| 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
+| 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
+| 19 a 20 | 1 d | 13 | 1.260.000 | 28.800 |
 
 - **Melhore as minas junto com a Usina solar.** Um módulo em melhoria não produz nada e não usa energia de qualquer jeito, então o tempo que uma mina passa em melhoria durante a pausa não custa nada a mais.
 - **Mantenha os outros módulos baixos se você não pode pagar uma pausa.** Uma estação só continua funcionando durante a melhoria da Usina solar se todos os outros módulos dela estiverem pelo menos cinco níveis abaixo da Usina solar (seis a partir do nível 10 da Usina solar), e uma estação completa precisa de um pouco mais, como a tabela mostra.

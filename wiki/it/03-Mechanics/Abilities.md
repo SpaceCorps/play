@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 72b805cb24d9b8a4 -->
+<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -110,7 +110,7 @@ Più moduli dello stesso tipo in una configurazione: quello di grado più basso 
 
 <!-- abilities:end -->
 
-Gli scudi e i motori di grado III (l’Heavy Shield Core, l’Engine III) non sono in vendita: li crei nell’[Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) a partire da un Basic Shield Core e da un Engine II, con Thulium, drop e 3 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair ha un quarto grado, il Repair Drone IV.
+L’Engine II e gli scudi e i motori di grado III (l’Heavy Shield Core, l’Engine III) non sono in vendita: li crei nell’[Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) a partire da un Engine I, da un Basic Shield Core e da un Engine II, con Thulium, drop e piastre (2 Velkonite Reinforced Plate per l’Engine II, 3 Dark Matter Plate per gli altri: [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair ha un quarto grado, il Repair Drone IV.
 
 ## Ricariche e limiti {#cooldowns-and-limits}
 

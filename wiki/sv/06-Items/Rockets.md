@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 25436195e066ff8c -->
+<!-- wiki-i18n source: 366f14293d706328 -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
@@ -54,7 +54,7 @@ Varje typ är en **familj** som har namn efter sin vanliga raket, och nivån är
 - **Målsökande** raketer kräver ett valt mål inom sin **låsräckvidd** när de avfyras. De styr efter det med begränsad svängtakt, så ett snabbt skepp långt borta kan köra ifrån en billig raket. Om målet förstörs, lämnar området eller når en säker zon fortsätter raketen rakt fram och väljer inget nytt.
 - **Raka** raketer behöver inget mål och ignorerar det du har valt: de flyger alltid mot din **markör**, mot punkten under den i flygvyn. **Klicka på platsen för en rak raket för att armera den** (platsen får en vit ram och ett hårkors, och din muspekare blir ett hårkors över rymden), sedan **klicka i rymden**: raketen flyger mot punkten du klickade på och ditt skepp stannar där det är. Esc, ett högerklick eller samma plats igen släpper den. Om raketerna fortfarande laddas om säger klicket bara det, och raketen förblir armerad. Siffertangenterna och **Avfyra raket** skjuter direkt mot den sista punkt markören hade i flygvyn; innan markören har varit där flyger de dit ditt skepp **pekar**. De flyger rakt, så ett skepp som korsar i fart kan väja undan dem.
 - En raket med **enkelmål** träffar det första skepp den får träffa (en målsökande bara sitt mål). En raket med **områdesskada** exploderar bredvid det första skepp den möter, vid den punkt du siktade på, eller där dess flykt tar slut, och skadar varje skepp inom sin **explosionsradie**: full skada i mitten, hälften av den vid kanten. Ringen som explosionen ritar på kartan är dess exakta räckvidd.
-- **Asteroider.** En raket som avfyras mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) träffar den asteroiden och inget annat, och en raket som inte avfyras mot en flyger igenom alla asteroider. De tolv raketerna i butiken och N.U.K.E. kan spränga en; N.I.K.E. kan det inte. Dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp: raketen är verktyget för det jobbet.
+- **Asteroider.** En raket som avfyras mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) flyger mot den, och den första asteroiden i vägen för vilken raket som helst stoppar den och tar träffen i stället för skeppet bakom ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). De tolv raketerna i butiken och N.U.K.E. kan spränga en; N.I.K.E. kan inte avfyras mot en och flyger över dem. Dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp: raketen är verktyget för det jobbet.
 
 ## De tolv raketerna {#the-twelve-rockets}
 

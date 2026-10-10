@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
+<!-- wiki-i18n source: 74226336693d1ae9 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -18,10 +18,10 @@ Varje utrustad motor ger hastighet, och det gör varje adaptiv kärna som har st
 
 \[\text{Motorhastighet} = (\text{Motorns grundhastighet} + \text{Fast styrraketbonus}) \times \text{Styrraketmultiplikator}\]
 
-- **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+15` hastighet).
-- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.09` eller `+9%`, Impulse Thruster III `1.03` eller `+3%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
+- **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+12.75` hastighet).
+- **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.0765` eller `+7.65%`, Impulse Thruster III `1.0255` eller `+2.55%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
 
-En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+13.1`, `1.11`) ger (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0, och med tre Impulse Thruster IV (`+16.5`, `1.035`) (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.11` ger `1.1265`.
+En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+11.135`, `1.0935`) ger (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, och med tre Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.0935` ger `1.1075`.
 
 ### 2. Avtagande avkastning (marginaleffektivitet) {#2-diminishing-returns-marginal-efficiency-}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 32615b5595786aef -->
+<!-- wiki-i18n source: ce2f2e451bffe3b4 -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -110,10 +110,10 @@ Ship Fragment、Cataclysite、Power Core、Reinforced Hull Plate はエイリア
 
 | 名前 | レアリティ | シールド貫通 | コスト |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | 粗悪 | +2% | 15,000クレジット |
-| **Penetration Amp II** | アンコモン | +4% | 製作専用 |
-| **Penetration Amp III** | レア | +6% | 製作専用 |
-| **Penetration Amp IV** | エピック | +8% | 製作専用 |
+| **Penetration Amp I** | 粗悪 | +3% | 15,000クレジット |
+| **Penetration Amp II** | アンコモン | +6% | 製作専用 |
+| **Penetration Amp III** | レア | +9% | 製作専用 |
+| **Penetration Amp IV** | エピック | +12% | 製作専用 |
 
 **売られているのは各系統の最初のティアだけ**で、ショップで買えます。残りの3つは、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で1つ下のティアのアンプから作ります。先に Skylab でその技術を研究しておく必要があります（[研究](/wiki/03-Mechanics/Research.md)）。各ステップには、Thulium、エイリアンのドロップ品、そしてプレート（ティアIIとIIIは Skylab で作る Velkonite Reinforced Plate、ティアIVは Dark Matter Plate 3枚）が必要で、新しいアンプは消費したアンプのエンチャント段階を引き継ぎ、ボーナスは引き直されます（[アセンブリでのモジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。Penetration のステップには結晶のレンズが加わります。ティアIVのアンプはどれも、各強化系統の最終ティアとして [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) を3枚要求するため、ティアIVのアンプの技術は、先にそのプレートの技術を必要とします。
 
@@ -168,43 +168,43 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 
 レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +9%、Stiletto +16%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
-- **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。各レーザーに Penetration Amp IV を3つずつ載せれば24%、12本のレーザーのうち1本に Penetration Amp IV を1つ載せても0.67%です。Wraith のレーザーは12本、アンプスロットは36個で、24%にするには36個すべてを埋める必要があります。
+- **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。各レーザーに Penetration Amp IV を3つずつ載せれば36%、12本のレーザーのうち1本に Penetration Amp IV を1つ載せても1%です。Wraith のレーザーは12本、アンプスロットは36個で、36%にするには36個すべてを埋める必要があります。
 - **ハンガーに表示されます。** ハンガーの戦闘ステータスには、どの機体でも、表示中の構成のレーザーアンプの値を示す**貫通**タイルがあります（Penetration Amp がなければ0.0%）。弾薬と編成はそこに含まれません。飛行中の**艦船**ウィンドウには、下の行の端に**貫通**チップがあります（場所を空けるため、構成と速度のチップはアイコンと数字だけを表示します）。レーザーの命中の合計、つまりアンプ、装着中の編成、撃っている弾薬を、切り替えるたびに足し合わせた値を示し、ツールチップに3つの内訳が並びます。
-- **最強のレーザーは50%になります。** Experimental Fusion Core（10%）、Stiletto（16%）、各レーザーに Penetration Amp IV を3つ（24%）で、合計は50%です。
-- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は8ではなく8.7～9.2ポイントになります。最強の構成では、「永遠」が3つなら合計は53.6%になり、そのすべてのポイントが効きます。
+- **最強のレーザーは62%になります。** Experimental Fusion Core（10%）、Stiletto（16%）、各レーザーに Penetration Amp IV を3つ（36%）で、合計は62%です。
+- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は12ではなく13.1～13.8ポイントになります。最強の構成では、「永遠」が3つなら合計は67.4%になり、そのすべてのポイントが効きます。
 
 | レーザーの斉射 | 弾薬 | アンプ（3スロット） | 編成 | 合計 |
 |---|---|---|---|---|
 | Experimental Fusion Core のみ | 10% | – | – | **10%** |
 | Fusion Core + Gemini | 10% | – | 9% | **19%** |
 | Fusion Core + Stiletto（Penetration Amp 以前の最強） | 10% | – | 16% | **26%** |
-| Fusion Core + 3 Penetration Amp I | 10% | 6% | – | **16%** |
-| Fusion Core + 3 Penetration Amp II | 10% | 12% | – | **22%** |
-| Fusion Core + 3 Penetration Amp III | 10% | 18% | – | **28%** |
-| Fusion Core + 3 Penetration Amp IV | 10% | 24% | – | **34%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 24% | 9% | **43%** |
-| Ultra Core + Penetration Amp IV 3つ + Stiletto（普段使いの最強） | 5% | 24% | 16% | **45%** |
-| Fusion Core + Penetration Amp IV 3つ + Stiletto（最強のレーザー） | 10% | 24% | 16% | **50%** |
+| Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
+| Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
+| Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
+| Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
+| Ultra Core + Penetration Amp IV 3つ + Stiletto（普段使いの最強） | 5% | 36% | 16% | **57%** |
+| Fusion Core + Penetration Amp IV 3つ + Stiletto（最強のレーザー） | 10% | 36% | 16% | **62%** |
 
 それがターゲットのシールドに何をするか。各マスは、命中のうち**シールドが受ける割合 / 船体が受ける割合**です。
 
-| 防御側（吸収率） | アンプなし | Fusion Core のみ（10%） | 以前：Fusion Core + Stiletto（26%） | Fusion Core + 3 Penetration Amp IV（34%） | 最強のレーザー（50%） |
+| 防御側（吸収率） | アンプなし | Fusion Core のみ（10%） | 以前：Fusion Core + Stiletto（26%） | Fusion Core + 3 Penetration Amp IV（46%） | 最強のレーザー（62%） |
 |---|---|---|---|---|---|
-| Light Shield Core、セルなし（45%） | 45 / 55 | 35 / 65 | 19 / 81 | 11 / 89 | 0 / 100 |
-| Heavy Shield Core、セルなし（50%） | 50 / 50 | 40 / 60 | 24 / 76 | 16 / 84 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 29 / 71 | 21 / 79 | 5 / 95 |
-| Heavy Shield Core + Capacity Shield Cell IV 3つ（65%） | 65 / 35 | 55 / 45 | 39 / 61 | 31 / 69 | 15 / 85 |
-| 標準で最高のシールド（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア34レベル（95.4%） | 95 / 5 | 85 / 15 | 69 / 31 | 61 / 39 | 45 / 55 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（102%） | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
-| どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
+| Light Shield Core、セルなし（45%） | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core、セルなし（50%） | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + Capacity Shield Cell IV 3つ（65%） | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
+| 標準で最高のシールド（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア34レベル（95.4%） | 95 / 5 | 85 / 15 | 69 / 31 | 49 / 51 | 33 / 67 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（102%） | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
+| どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
 
-最強のレーザーは、セルのないシールドコアを空にします（船体が命中を丸ごと受けます）。セルのあるコアは命中の一部を保ち、最高のシールドは30%を保ちます（バフがあれば45%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（51%）は空になります。
+最強のレーザーは、セルのないシールドコアと、最良のセルを入れた Light Shield Core を空にします（船体が命中を丸ごと受けます）。Capacity セル3つの Heavy Shield Core は命中の3%を保ち、最高のシールドは18%を保ちます（バフがあれば33%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（51%）は空になります。
 
 ### Penetration Amp は、スロットを使う価値がいつあるのか？ {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp は、約95%を超える吸収率（シーズンストア、鍛冶場、Rampart の構成）に対抗します。標準で最高のシールド（80%）に対しては、同じティアの Crit Amp のほうが、なお約10%速く、Penetration Amp はエイリアンを、同じティアの Damage Amp や Crit Amp より速く倒すことはありません。**
+**Penetration Amp は吸収率に対抗し、吸収率が高いほど効きます。船体の小さい船に対して約95%（シーズンストア、鍛冶場、Rampart の構成）では、Penetration 構成が最良の通常構成より約1.8倍速く倒し、標準で最高のシールド（80%）に対しては、Penetration Amp 3つが同じティアの Crit Amp 3つより約11%短い時間で済みます。エイリアンに対してはほとんど得られません。**
 
-- **ダメージは与えません。** Helios Beam では、Penetration Amp IV を3つ載せると1回の斉射で187ダメージ（弾薬x1、ダメージの振れ幅とクリティカルの平均）です。Damage Amp IV を3つなら356、Crit Amp IV を3つなら369で、およそ半分になります。取り戻すのはシールドの割合なので、シールドに比べて船体が小さく、吸収率が高い場合にだけ見合います。大きな船体がどのみち持ちこたえる Wraith や Ironclad に対しては、素朴な Damage か Crit の組み合わせのほうが速いです。
-- **エイリアン。** そのシールドは命中の80%からあなたの貫通を引いた分を受けるので、エイリアンにも効きますが、同じティアの Damage Amp や Crit Amp のほうが、それでも速く倒せます。
+- **ダメージは与えません。** Helios Beam では、Penetration Amp IV を3つ載せると1回の斉射で187ダメージ（弾薬x1、ダメージの振れ幅とクリティカルの平均）です。Damage Amp IV を3つなら356、Crit Amp IV を3つなら369で、およそ半分になります。取り戻すのはシールドの割合なので、シールドに比べて船体が小さく、吸収率が高い場合にだけ見合います。大きな船体がどのみち持ちこたえる Wraith や Ironclad に対しては、素朴な Damage か Crit の組み合わせもほぼ同じ速さです（レーザー1基の Penetration Amp 1つで得られるのは最大5%）。
+- **エイリアン。** そのシールドは命中の80%からあなたの貫通を引いた分を受けるので、エイリアンにも効きますが、同じティアの Damage Amp や Crit Amp も同じ速さかそれ以上に速く倒せます。例外は、編成を使って戦う Phantasm や Goombah で、レーザー1基の Penetration Amp 1つで最大5%得られます。
 - **コスト。** Penetration Amp IV 1つにつき Dark Matter Plate が3枚（Dark Matter 15個）必要です。ティアIVのアンプはどれも同じなので、36スロットすべてを埋める Wraith には、プレート108枚、Dark Matter 540個が必要です。

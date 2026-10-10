@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fa02f72ab515dfbf -->
+<!-- wiki-i18n source: 0f0413a5a5f080ae -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 \[\text{Sköldandel} = \text{clamp}(\text{Absorption} - \text{Genomträngning},\ 0,\ 100\%)\]
 
 - Sköldarna tar högst `round(damage x share)` av träffen; skrovet tar resten. En sköld som är för låg för sin andel för över skillnaden till HP, och är sköldarna på 0 går all skada direkt på HP.
-- **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen. En laserträff drar också av Penetration Amps i skyttens lasrar (+2 % till +8 % per plats, medelvärdet över dess lasrar) och en drönarformations genomträngning (Gemini +9 %, Stiletto +16 %); en direkt raket lägger formationens till sin egen. **Inget sätter tak för summan**: sköldarna tar absorptionen minus allt detta, ner till ingenting av träffen ([så läggs en laserträff ihop](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Exempel**: 80 % absorption mot en Lancet III (35 %): sköldarna tar 45 % av träffen, skrovet 55 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. En raket ensam tränger inte helt igenom någon kärna, men en Lancet III med en Stiletto (35 % + 16 % = 51 %) lämnar ingenting av träffen åt en Light Shield Core ensam (45 %), och det gör den bästa lasern (50 %) också: mot den lasern tar den bästa skölden (80 %) 30 % av träffen och skrovet 70 %.
+- **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen. En laserträff drar också av Penetration Amps i skyttens lasrar (+3 % till +12 % per plats, medelvärdet över dess lasrar) och en drönarformations genomträngning (Gemini +9 %, Stiletto +16 %); en direkt raket lägger formationens till sin egen. **Inget sätter tak för summan**: sköldarna tar absorptionen minus allt detta, ner till ingenting av träffen ([så läggs en laserträff ihop](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Exempel**: 80 % absorption mot en Lancet III (35 %): sköldarna tar 45 % av träffen, skrovet 55 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. En raket ensam tränger inte helt igenom någon kärna, men en Lancet III med en Stiletto (35 % + 16 % = 51 %) lämnar ingenting av träffen åt en Light Shield Core ensam (45 %), och det gör den bästa lasern (62 %) också: mot den lasern tar den bästa skölden (80 %) 18 % av träffen och skrovet 82 %.
 - Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning.
 - Skadan från en Siphon Battery tas enbart ur målets sköld: absorption och genomträngning spelar ingen roll.
 
-**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (50 %) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 51 %):
+**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (62 %) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 51 %):
 
-| Sköld | Absorption | Sköldarna tar, bästa laser (50 %) | Sköldarna tar, bästa enkelmålsraket (51 %) |
+| Sköld | Absorption | Sköldarna tar, bästa laser (62 %) | Sköldarna tar, bästa enkelmålsraket (51 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 48 % | 0 % | 0 % |
 | Heavy Shield Core | 50 % | 0 % | 0 % |
-| Den bästa skölden utan buffar | 80 % | 30 % | 29 % |
-| En sköld på 100 % | 100 % | 50 % | 49 % |
-| En sköld på 120 % | 120 % | 70 % | 69 % |
+| Den bästa skölden utan buffar | 80 % | 18 % | 29 % |
+| En sköld på 100 % | 100 % | 38 % | 49 % |
+| En sköld på 120 % | 120 % | 58 % | 69 % |
 
 #### Att nå och passera 100 % {#reaching-and-passing-100-}
 

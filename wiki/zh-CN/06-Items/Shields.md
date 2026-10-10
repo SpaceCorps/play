@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aff32f1e7e47620e -->
+<!-- wiki-i18n source: 7a131032ce9f07fb -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾与防御 {#shields-defense}
 
@@ -16,8 +16,8 @@ Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
 Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core II | hybrid-generator, common | buy 4000 Thulium | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core III | hybrid-generator, rare | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Absorption Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
@@ -28,7 +28,7 @@ Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | resea
 Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
-Adaptive Core I -> Adaptive Core II -> Adaptive Core III
+Adaptive Core I => Adaptive Core II => Adaptive Core III
 Absorption Shield Cell I => Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
 Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ```
@@ -56,9 +56,11 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 | 名称 | 稀有度 | 护盾加成 % | 速度加成 % | 槽位 | 特殊效果 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | 劣质 | +5% | +3% | 1 | — | 100,000 信用点 |
-| **Adaptive Core II** | 普通 | +8% | +4% | 2 | — | 4,000 Thulium |
-| **Adaptive Core III** | 稀有 | +15% | +5% | 3 | — | 仅可制造 |
+| **Adaptive Core I** | 劣质 | +4% | +2.4% | 1 | — | 100,000 信用点 |
+| **Adaptive Core II** | 普通 | +6.4% | +3.2% | 2 | — | 仅可制造 |
+| **Adaptive Core III** | 稀有 | +8% | +4% | 3 | — | 仅可制造 |
+
+**Adaptive Core II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Adaptive Core I 制成，另需 1,000 Thulium、10 个 Ship Fragment、1 个 Power Core 和 2 块 Velkonite Reinforced Plate。**Adaptive Core III** 在装配站中由一个 Adaptive Core II 制成，另需 2,000 Thulium、60 个 Ship Fragment、3 个 Power Core 和 3 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗核心的附魔等级，其加成会重新随机（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的核心从你的舰船上取下（并把其中的推进器和电池取出）：已装备或带有模块的核心不会被消耗。
 
 ---
 

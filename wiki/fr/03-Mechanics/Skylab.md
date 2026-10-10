@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d47517c2e0ba61e -->
+<!-- wiki-i18n source: f2f334d2bb9d511a -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -22,7 +22,7 @@ Au niveau 10 du Noyau, le Skylab grandit aussi : un **pont** relie le Noyau à 
 
 - Construisez **Solaire** d’abord : sans son énergie, rien ne tourne dans le Skylab. La Ferme à crédits ne coûte rien à construire, et la Ferme à Thulium coûte 5 000 crédits et 500 Thulium.
 - Les fermes et les collecteurs remplissent un **réservoir** (72 heures de production) pendant votre absence. **Récupérer** le verse sur votre compte (crédits, Thulium) ou dans votre Entrepôt de ressources (minerai).
-- La **Ferme à Thulium** est votre principale source de Thulium : 50 par heure au niveau 1, 1 600 au niveau 20. La Ferme à crédits produit 500 crédits par heure au niveau 1 et 50 000 au niveau 20.
+- La **Ferme à Thulium** est votre principale source de Thulium : 40 par heure au niveau 1, 1 280 au niveau 20. La Ferme à crédits produit 750 crédits par heure au niveau 1 et 75 000 au niveau 20.
 - Le **Noyau** donne le rythme : aucun module ne le dépasse, et sa propre montée prend environ 16 jours et demi.
 - Au **niveau 10 du Noyau**, un **pont** construit le **Noyau 2**, avec six emplacements de module de plus, et l’**Imprimante à munitions** et l’**Usine à roquettes** s’y branchent. L’étape vers le niveau 10 coûte 2 000 Thulium de plus.
 - **Solaire ne produit que 25 % de son énergie pendant son amélioration**, vos fermes et vos collecteurs s’arrêtent donc jusqu’à sa fin. [Planifiez-la](#timing-a-solar-upgrade).
@@ -114,8 +114,8 @@ L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’
 
 ### Ferme à crédits et Ferme à Thulium {#credit-farm-and-thulium-farm}
 
-- **Ferme à crédits** : produit des crédits au fil du temps : **500 par heure au niveau 1, 50 000 au niveau 20** (niveau 5 : 2 500 ; niveau 10 : 7 500 ; niveau 15 : 17 000). Elle ne coûte rien à construire.
-- **Ferme à Thulium** : produit du Thulium au fil du temps : **50 par heure au niveau 1, 1 600 au niveau 20** (niveau 5 : 180 ; niveau 10 : 450 ; niveau 15 : 950). La construire coûte 5 000 crédits et 500 Thulium.
+- **Ferme à crédits** : produit des crédits au fil du temps : **750 par heure au niveau 1, 75 000 au niveau 20** (niveau 5 : 3 750 ; niveau 10 : 11 250 ; niveau 15 : 25 500). Elle ne coûte rien à construire.
+- **Ferme à Thulium** : produit du Thulium au fil du temps : **40 par heure au niveau 1, 1 280 au niveau 20** (niveau 5 : 144 ; niveau 10 : 360 ; niveau 15 : 760). La construire coûte 5 000 crédits et 500 Thulium.
 - Les deux ont besoin d’énergie, et chacune conserve 72 heures de sa production jusqu’à ce que vous la récupériez.
 
 ## La chaîne d’approvisionnement {#the-supply-chain}
@@ -326,37 +326,37 @@ Le Skylab met des semaines à grandir : un peu de planification paie donc. Les 
 ### Que monter en premier {#what-to-upgrade-first}
 
 1. **Solaire, puis la Ferme à crédits.** Solaire coûte 500 crédits et 50 Thulium et rien ne tourne sans lui ; la Ferme à crédits ne coûte rien. Les dix [missions Station](/wiki/03-Mechanics/Quests.md#station-missions) vous guident dans ces premières étapes et vous versent 52 000 crédits et 610 Thulium pour elles, en base : votre monde, vos boosters et les bonus de votre clan la multiplient.
-2. **Ensuite la Ferme à Thulium : c’est votre principale source de Thulium.** Au niveau 10, elle produit 450 Thulium par heure, 10 800 par jour, autant que rapportent 54 victimes d’un [Crystalys](/wiki/04-Aliens/Crystalys.md) en Alpha (200 chacune). La montée jusqu’au niveau 10 coûte 1 154 000 crédits et 4 190 Thulium, construction comprise. Au niveau 15, la ferme produit 22 800 par jour, et 38 400 au niveau 20. Son réservoir contient 72 heures : revenez donc au moins tous les trois jours. Ce que le Thulium permet d’acheter est sur la page [Ressources](/wiki/06-Items/Resources.md#thulium).
-3. **La Ferme à crédits est le revenu régulier d’appoint.** Au niveau 10, elle produit 7 500 crédits par heure, 180 000 par jour, pour 840 000 crédits et 109 Thulium. Les niveaux élevés se rentabilisent lentement : l’étape du niveau 9 au niveau 10 coûte 300 000 crédits pour 1 000 de plus par heure, soit 300 heures. Montez-la quand il vous reste des crédits.
+2. **Ensuite la Ferme à Thulium : c’est votre principale source de Thulium.** Au niveau 10, elle produit 360 Thulium par heure, 8 640 par jour, environ autant que rapportent 43 victimes d’un [Crystalys](/wiki/04-Aliens/Crystalys.md) en Alpha (200 chacune). La montée jusqu’au niveau 10 coûte 1 154 000 crédits et 4 190 Thulium, construction comprise. Au niveau 15, la ferme produit 18 240 par jour, et 30 720 au niveau 20. Son réservoir contient 72 heures : revenez donc au moins tous les trois jours. Ce que le Thulium permet d’acheter est sur la page [Ressources](/wiki/06-Items/Resources.md#thulium).
+3. **La Ferme à crédits est le revenu régulier d’appoint.** Au niveau 10, elle produit 11 250 crédits par heure, 270 000 par jour, pour 840 000 crédits et 109 Thulium. Les niveaux élevés se rentabilisent lentement : l’étape du niveau 9 au niveau 10 coûte 300 000 crédits pour 1 500 de plus par heure, soit 200 heures. Montez-la quand il vous reste des crédits.
 4. **Gardez le Noyau occupé.** Rien ne dépasse le Noyau, et le Noyau seul demande environ 16 jours et demi pour atteindre le niveau 20. Il n’y a pas de file d’attente : lancez donc son étape suivante chaque fois que vous revenez.
 5. **Construisez la chaîne d’approvisionnement d’un bloc.** Les collecteurs, l’Entrepôt de ressources et la Fonderie s’ouvrent au niveau 5 du Noyau. Un collecteur ne peut mettre du minerai en banque que dans un Entrepôt de ressources, et la banque contient un jour de production de son collecteur au niveau 1 et quatre jours au niveau 20 : montez donc l’Entrepôt avec les collecteurs, sinon le minerai attend dans leurs réservoirs.
 6. **Gardez 2 000 Thulium prêts pour le niveau 10 du Noyau.** L’étape du Noyau du niveau 9 au niveau 10 les demande, et elle construit le pont et le Noyau 2, où se construisent l’[Imprimante à munitions](#ammo-printer) et l’[Usine à roquettes](#rocket-factory).
 
 ### Planifier une amélioration de Solaire {#timing-a-solar-upgrade}
 
-Pendant son amélioration, Solaire produit un quart de son énergie, et une station consomme presque toujours davantage. Les fermes et les collecteurs s’arrêtent alors pendant toute l’amélioration : ce qu’ils contiennent reste, mais ce qu’ils auraient produit est perdu. Le tableau donne, pour chaque étape de Solaire, sa durée, la plus grande station qui tourne encore pendant celle-ci (tous les modules au même niveau, Noyau et chaîne d’approvisionnement compris ; une station plus petite tient un peu plus longtemps) et ce qu’une Ferme à crédits et une Ferme à Thulium de ce niveau auraient produit pendant ce temps. Par exemple, Solaire du niveau 10 au niveau 11 prend 4 heures, et des fermes de niveau 10 auraient produit 30 000 crédits et 1 800 Thulium pendant ce temps. Le tableau compte aussi l’Imprimante à munitions à partir du niveau 7 et l’Usine à roquettes à partir du niveau 10.
+Pendant son amélioration, Solaire produit un quart de son énergie, et une station consomme presque toujours davantage. Les fermes et les collecteurs s’arrêtent alors pendant toute l’amélioration : ce qu’ils contiennent reste, mais ce qu’ils auraient produit est perdu. Le tableau donne, pour chaque étape de Solaire, sa durée, la plus grande station qui tourne encore pendant celle-ci (tous les modules au même niveau, Noyau et chaîne d’approvisionnement compris ; une station plus petite tient un peu plus longtemps) et ce qu’une Ferme à crédits et une Ferme à Thulium de ce niveau auraient produit pendant ce temps. Par exemple, Solaire du niveau 10 au niveau 11 prend 4 heures, et des fermes de niveau 10 auraient produit 45 000 crédits et 1 440 Thulium pendant ce temps. Le tableau compte aussi l’Imprimante à munitions à partir du niveau 7 et l’Usine à roquettes à partir du niveau 10.
 
 | Amélioration de Solaire | Durée | Station qui continue de tourner, jusqu’au niveau | La Ferme à crédits produit pendant ce temps | La Ferme à Thulium produit pendant ce temps |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 à 2 | 5 min | aucune | 42 | 4 |
-| 2 à 3 | 15 min | aucune | 250 | 20 |
-| 3 à 4 | 30 min | aucune | 750 | 55 |
-| 4 à 5 | 45 min | aucune | 1 500 | 105 |
-| 5 à 6 | 1 h | aucune | 2 500 | 180 |
-| 6 à 7 | 1 h 15 min | aucune | 4 375 | 288 |
-| 7 à 8 | 1 h 30 min | 1 | 6 750 | 420 |
-| 8 à 9 | 2 h | 2 | 11 000 | 660 |
-| 9 à 10 | 3 h | 3 | 19 500 | 1 140 |
-| 10 à 11 | 4 h | 4 | 30 000 | 1 800 |
-| 11 à 12 | 5 h | 5 | 45 000 | 2 750 |
-| 12 à 13 | 6 h | 6 | 66 000 | 3 900 |
-| 13 à 14 | 8 h | 7 | 104 000 | 6 000 |
-| 14 à 15 | 10 h | 8 | 150 000 | 8 500 |
-| 15 à 16 | 12 h | 9 | 204 000 | 11 400 |
-| 16 à 17 | 16 h | 9 | 320 000 | 17 600 |
-| 17 à 18 | 18 h | 11 | 432 000 | 22 500 |
-| 18 à 19 | 20 h | 12 | 580 000 | 28 000 |
-| 19 à 20 | 1 j | 13 | 840 000 | 36 000 |
+| 1 à 2 | 5 min | aucune | 63 | 3 |
+| 2 à 3 | 15 min | aucune | 375 | 16 |
+| 3 à 4 | 30 min | aucune | 1 125 | 44 |
+| 4 à 5 | 45 min | aucune | 2 250 | 84 |
+| 5 à 6 | 1 h | aucune | 3 750 | 144 |
+| 6 à 7 | 1 h 15 min | aucune | 6 563 | 230 |
+| 7 à 8 | 1 h 30 min | 1 | 10 125 | 336 |
+| 8 à 9 | 2 h | 2 | 16 500 | 528 |
+| 9 à 10 | 3 h | 3 | 29 250 | 912 |
+| 10 à 11 | 4 h | 4 | 45 000 | 1 440 |
+| 11 à 12 | 5 h | 5 | 67 500 | 2 200 |
+| 12 à 13 | 6 h | 6 | 99 000 | 3 120 |
+| 13 à 14 | 8 h | 7 | 156 000 | 4 800 |
+| 14 à 15 | 10 h | 8 | 225 000 | 6 800 |
+| 15 à 16 | 12 h | 9 | 306 000 | 9 120 |
+| 16 à 17 | 16 h | 9 | 480 000 | 14 080 |
+| 17 à 18 | 18 h | 11 | 648 000 | 18 000 |
+| 18 à 19 | 20 h | 12 | 870 000 | 22 400 |
+| 19 à 20 | 1 j | 13 | 1 260 000 | 28 800 |
 
 - **Montez les fermes en même temps que Solaire.** Un module en amélioration ne produit rien et ne consomme pas d’énergie de toute façon : le temps qu’une ferme passe en amélioration pendant la pause ne coûte donc rien de plus.
 - **Gardez les autres modules bas si vous ne pouvez pas vous offrir une pause.** Une station ne tourne pendant une amélioration de Solaire que si tous ses autres modules sont au moins cinq niveaux en dessous de Solaire (six à partir du niveau 10 de Solaire), et une station complète demande un peu plus, comme le montre le tableau.

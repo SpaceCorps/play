@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be708c0575a7913e -->
+<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
@@ -34,19 +34,19 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 1.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 7.500 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 5.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 19.000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 20.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 19.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 24.000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 21.500 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 13.500 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 100.000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm BRATAN** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Storm RECON** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad DUMA** | 100.000 | 3 | 50 | 9 | 3 | 1 |
+| **Ironclad TITANIC** | 100.000 | 8 | 50 | 9 | 3 | 1 |
+| **Wraith RAPTOR** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith BILLY** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MENATI** | 100.000 | 7 | 75 | 13 | 4 | 1 |
+| **Wraith ATARAXIS** | 100.000 | 6 | 75 | 13 | 4 | 1 |
+| **Wraith MATT** | 100.000 | 4 | 75 | 13 | 4 | 1 |
 
 A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDER, o BUCKY ou o LICH), e ela não pode ser a nave que você está pilotando: torne outra nave ativa antes. Uma nave destruída não pode ser convertida.
 
@@ -79,4 +79,4 @@ Cada design tem um modelo próprio, o da sua nave com algumas mudanças que most
 
 ## Loja, Leilão e pontos {#shop-auction-and-points}
 
-Um design nunca é vendido na Loja nem listado no [Leilão](/wiki/03-Mechanics/Auction.md): você o faz a partir da sua própria nave. Uma baixa de um design dá os mesmos pontos de PvP que uma baixa da nave dele.
+Um design nunca é vendido na Loja nem listado no [Leilão](/wiki/03-Mechanics/Auction.md): você o faz a partir da sua própria nave. A categoria Naves da Loja mostra, sim, os designs de cada nave sob o card dela (uma imagem, o que o design muda e o preço da conversão em Thulium), a título de informação; a conversão em si é feita na Montagem. Uma baixa de um design dá os mesmos pontos de PvP que uma baixa da nave dele.

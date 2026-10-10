@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 25436195e066ff8c -->
+<!-- wiki-i18n source: 366f14293d706328 -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
@@ -54,7 +54,7 @@ Cada tipo es una **familia**, con el nombre de su cohete común, y la gama es un
 - Los cohetes **guiados** necesitan un objetivo seleccionado dentro de su **alcance de fijación** cuando salen. Lo persiguen con una velocidad de giro limitada, así que una nave rápida y lejana puede dejar atrás a uno barato. Si el objetivo muere, se va o llega a una zona segura, el cohete sigue volando recto y no elige otro.
 - Los cohetes **rectos** no necesitan objetivo e ignoran el que tengas seleccionado: siempre vuelan hacia tu **cursor**, hacia el punto que hay bajo él en la vista de vuelo. **Haz clic en la ranura de un cohete recto para armarlo** (la ranura recibe un marco blanco y una mira, y el cursor del ratón se convierte en una mira sobre el espacio), y luego **haz clic en el espacio**: el cohete vuela hacia el punto en el que hiciste clic y tu nave se queda donde está. Esc, un clic derecho o volver a pulsar la misma ranura lo desarman. Si los cohetes aún se están recargando, el clic solo te lo dice y el cohete sigue armado. Las teclas numéricas y **Disparar cohete** disparan al instante hacia el último punto que tuvo el cursor en la vista de vuelo; si el cursor aún no ha estado ahí, vuelan hacia donde **apunta** tu nave. Vuelan rectos, así que una nave que cruza a toda velocidad puede esquivarlos.
 - Un cohete de **un solo objetivo** golpea la primera nave que puede golpear (uno guiado, solo a su objetivo). Una **explosión en área** estalla junto a la primera nave que encuentra, en el punto al que la apuntaste, o donde termina su vuelo, y daña a toda nave dentro de su **radio de explosión**: daño completo en el centro, la mitad en el borde. El anillo que la explosión dibuja en el mapa es su alcance exacto.
-- **Asteroides.** Un cohete disparado contra un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) golpea ese asteroide y nada más, y un cohete que no se dispara contra uno atraviesa todos los asteroides. Los doce cohetes de la tienda y el N.U.K.E. pueden romper uno; el N.I.K.E. no. Tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave: el cohete es la herramienta para ese trabajo.
+- **Asteroides.** Un cohete disparado contra un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vuela hacia él, y el primer asteroide en el camino de cualquier cohete lo detiene y recibe el impacto en lugar de la nave que hay detrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Los doce cohetes de la tienda y el N.U.K.E. pueden romper uno; el N.I.K.E. no se puede disparar contra uno y vuela por encima de ellos. Tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave: el cohete es la herramienta para ese trabajo.
 
 ## Los doce cohetes {#the-twelve-rockets}
 

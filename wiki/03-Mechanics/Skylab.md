@@ -20,7 +20,7 @@ At Core level 10 the Skylab also grows: a **bridge** joins the Core to a second 
 
 - Build **Solar** first: nothing in the Skylab runs without its power. The Credit Farm costs nothing to build, and the Thulium Farm costs 5,000 Credits and 500 Thulium.
 - Farms and collectors fill a **hopper** (72 hours' worth) while you are away. **Collect** moves it to your account (Credits, Thulium) or to your Resource Storage (ore).
-- The **Thulium Farm** is your main source of Thulium: 50 an hour at level 1, 1,600 at level 20. The Credit Farm makes 500 Credits an hour at level 1 and 50,000 at level 20.
+- The **Thulium Farm** is your main source of Thulium: 40 an hour at level 1, 1,280 at level 20. The Credit Farm makes 750 Credits an hour at level 1 and 75,000 at level 20.
 - The **Core** is the clock: no module goes above it, and its own climb takes about 16 and a half days.
 - At **Core level 10** a **bridge** builds **Core 2**, with six more module seats, and the **Ammo Printer** and the **Rocket Factory** plug into it. The step into level 10 costs 2,000 Thulium more.
 - **Solar makes only 25% of its power while it upgrades**, so your farms and collectors stop until it is done. [Plan it](#timing-a-solar-upgrade).
@@ -112,8 +112,8 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 
 ### Credit Farm and Thulium Farm
 
-- **Credit Farm**: makes Credits over time: **500 an hour at level 1, 50,000 at level 20** (level 5: 2,500; level 10: 7,500; level 15: 17,000). It costs nothing to build.
-- **Thulium Farm**: makes Thulium over time: **50 an hour at level 1, 1,600 at level 20** (level 5: 180; level 10: 450; level 15: 950). Building it costs 5,000 Credits and 500 Thulium.
+- **Credit Farm**: makes Credits over time: **750 an hour at level 1, 75,000 at level 20** (level 5: 3,750; level 10: 11,250; level 15: 25,500). It costs nothing to build.
+- **Thulium Farm**: makes Thulium over time: **40 an hour at level 1, 1,280 at level 20** (level 5: 144; level 10: 360; level 15: 760). Building it costs 5,000 Credits and 500 Thulium.
 - Both need power, and each holds 72 hours of what it makes until you collect it.
 
 ## The supply chain
@@ -324,37 +324,37 @@ The Skylab takes weeks to grow, so a little planning pays. The numbers are the t
 ### What to upgrade first
 
 1. **Solar, then the Credit Farm.** Solar costs 500 Credits and 50 Thulium and nothing runs without it; the Credit Farm costs nothing. The ten [Station missions](/wiki/03-Mechanics/Quests.md#station-missions) walk you through these first steps and pay you 52,000 Credits and 610 Thulium for them, at base: your world, boosters and clan boosts multiply it.
-2. **Then the Thulium Farm: it is your main source of Thulium.** At level 10 it makes 450 Thulium an hour, 10,800 a day, as much as 54 kills of a [Crystalys](/wiki/04-Aliens/Crystalys.md) pay in Alpha (200 each). The climb to level 10 costs 1,154,000 Credits and 4,190 Thulium, the build included. At level 15 the farm makes 22,800 a day and at level 20 38,400. Its hopper holds 72 hours, so come back at least every three days. What Thulium buys is on the [Resources](/wiki/06-Items/Resources.md#thulium) page.
-3. **The Credit Farm is the steady side income.** At level 10 it makes 7,500 Credits an hour, 180,000 a day, for 840,000 Credits and 109 Thulium. The higher levels pay back slowly: the step from level 9 to 10 costs 300,000 Credits for 1,000 more an hour, which is 300 hours. Raise it when you have Credits to spare.
+2. **Then the Thulium Farm: it is your main source of Thulium.** At level 10 it makes 360 Thulium an hour, 8,640 a day, about as much as 43 kills of a [Crystalys](/wiki/04-Aliens/Crystalys.md) pay in Alpha (200 each). The climb to level 10 costs 1,154,000 Credits and 4,190 Thulium, the build included. At level 15 the farm makes 18,240 a day and at level 20 30,720. Its hopper holds 72 hours, so come back at least every three days. What Thulium buys is on the [Resources](/wiki/06-Items/Resources.md#thulium) page.
+3. **The Credit Farm is the steady side income.** At level 10 it makes 11,250 Credits an hour, 270,000 a day, for 840,000 Credits and 109 Thulium. The higher levels pay back slowly: the step from level 9 to 10 costs 300,000 Credits for 1,500 more an hour, which is 200 hours. Raise it when you have Credits to spare.
 4. **Keep the Core busy.** Nothing goes above the Core, and the Core alone takes about 16 and a half days to reach level 20. There is no queue, so start its next step every time you come back.
 5. **Build the supply chain as a set.** The collectors, the Resource Storage and the Forgery open at Core level 5. A collector can bank ore only into a Resource Storage, and the bank holds one day of its collector's output at level 1 and four days at level 20, so raise the Storage with the collectors or the ore waits in their hoppers.
 6. **Have 2,000 Thulium ready for Core level 10.** The Core's step from level 9 to level 10 asks for it, and it builds the bridge and Core 2, where the [Ammo Printer](#ammo-printer) and the [Rocket Factory](#rocket-factory) are built.
 
 ### Timing a Solar upgrade
 
-While Solar upgrades it makes a quarter of its power, and a station almost always uses more than that. The farms and collectors then stop for the whole upgrade: what they hold stays, but what they would have made is lost. The table gives, for each Solar step, its time, the biggest station that still runs through it (every module at the same level, the Core and the supply chain included; a smaller station fits a little more) and what a Credit Farm and a Thulium Farm of that level would have made in that time. For example, Solar from level 10 to 11 takes 4 hours, and farms of level 10 would have made 30,000 Credits and 1,800 Thulium in them. The table counts the Ammo Printer from level 7 and the Rocket Factory from level 10 too.
+While Solar upgrades it makes a quarter of its power, and a station almost always uses more than that. The farms and collectors then stop for the whole upgrade: what they hold stays, but what they would have made is lost. The table gives, for each Solar step, its time, the biggest station that still runs through it (every module at the same level, the Core and the supply chain included; a smaller station fits a little more) and what a Credit Farm and a Thulium Farm of that level would have made in that time. For example, Solar from level 10 to 11 takes 4 hours, and farms of level 10 would have made 45,000 Credits and 1,440 Thulium in them. The table counts the Ammo Printer from level 7 and the Rocket Factory from level 10 too.
 
 | Solar upgrade | Time | Station that keeps running, up to level | Credit Farm makes meanwhile | Thulium Farm makes meanwhile |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 to 2 | 5 min | none | 42 | 4 |
-| 2 to 3 | 15 min | none | 250 | 20 |
-| 3 to 4 | 30 min | none | 750 | 55 |
-| 4 to 5 | 45 min | none | 1,500 | 105 |
-| 5 to 6 | 1 h | none | 2,500 | 180 |
-| 6 to 7 | 1 h 15 min | none | 4,375 | 288 |
-| 7 to 8 | 1 h 30 min | 1 | 6,750 | 420 |
-| 8 to 9 | 2 h | 2 | 11,000 | 660 |
-| 9 to 10 | 3 h | 3 | 19,500 | 1,140 |
-| 10 to 11 | 4 h | 4 | 30,000 | 1,800 |
-| 11 to 12 | 5 h | 5 | 45,000 | 2,750 |
-| 12 to 13 | 6 h | 6 | 66,000 | 3,900 |
-| 13 to 14 | 8 h | 7 | 104,000 | 6,000 |
-| 14 to 15 | 10 h | 8 | 150,000 | 8,500 |
-| 15 to 16 | 12 h | 9 | 204,000 | 11,400 |
-| 16 to 17 | 16 h | 9 | 320,000 | 17,600 |
-| 17 to 18 | 18 h | 11 | 432,000 | 22,500 |
-| 18 to 19 | 20 h | 12 | 580,000 | 28,000 |
-| 19 to 20 | 1 d | 13 | 840,000 | 36,000 |
+| 1 to 2 | 5 min | none | 63 | 3 |
+| 2 to 3 | 15 min | none | 375 | 16 |
+| 3 to 4 | 30 min | none | 1,125 | 44 |
+| 4 to 5 | 45 min | none | 2,250 | 84 |
+| 5 to 6 | 1 h | none | 3,750 | 144 |
+| 6 to 7 | 1 h 15 min | none | 6,563 | 230 |
+| 7 to 8 | 1 h 30 min | 1 | 10,125 | 336 |
+| 8 to 9 | 2 h | 2 | 16,500 | 528 |
+| 9 to 10 | 3 h | 3 | 29,250 | 912 |
+| 10 to 11 | 4 h | 4 | 45,000 | 1,440 |
+| 11 to 12 | 5 h | 5 | 67,500 | 2,200 |
+| 12 to 13 | 6 h | 6 | 99,000 | 3,120 |
+| 13 to 14 | 8 h | 7 | 156,000 | 4,800 |
+| 14 to 15 | 10 h | 8 | 225,000 | 6,800 |
+| 15 to 16 | 12 h | 9 | 306,000 | 9,120 |
+| 16 to 17 | 16 h | 9 | 480,000 | 14,080 |
+| 17 to 18 | 18 h | 11 | 648,000 | 18,000 |
+| 18 to 19 | 20 h | 12 | 870,000 | 22,400 |
+| 19 to 20 | 1 d | 13 | 1,260,000 | 28,800 |
 
 - **Lift the farms together with Solar.** A module that is upgrading makes nothing and uses no power anyway, so the time a farm spends upgrading during the pause costs nothing extra.
 - **Keep the other modules low if you cannot afford a pause.** A station runs through a Solar upgrade only if all its other modules are at least five levels below Solar (six from Solar level 10), and a full station needs a little more, as the table shows.

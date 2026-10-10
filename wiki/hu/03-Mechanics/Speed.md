@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fba648f8ffecfa2 -->
+<!-- wiki-i18n source: 74226336693d1ae9 -->
 <!-- wiki-i18n title: Sebesség -->
 # Sebességszámítás {#speed-calculation}
 
@@ -18,10 +18,10 @@ Minden felszerelt hajtómű sebességet termel, és minden olyan adaptív mag is
 
 \[\text{Hajtómű sebessége} = (\text{Hajtómű alapsebessége} + \text{Fúvókák fix bónusza}) \times \text{Fúvókaszorzó}\]
 
-- **Fúvókák fix bónusza**: a fúvókák összes fix sebességnövelésének összege (pl. az Impulse Thruster III `+15` sebességet ad).
-- **Fúvókaszorzó**: az adott hajtóműbe szerelt összes fúvóka sebességszorzójának szorzata (pl. a Momentum Thruster III értéke `1.09`, vagyis `+9%`, az Impulse Thruster III-é `1.03`, vagyis `+3%`). Mindent megszoroz, amit a hajtómű termel: a saját alapsebességét és a fúvókák fix bónuszait is. Az adaptív magnak nincs saját alapsebessége, de a fúvókái fix bónuszait a szorzó így is megszorozza.
+- **Fúvókák fix bónusza**: a fúvókák összes fix sebességnövelésének összege (pl. az Impulse Thruster III `+12.75` sebességet ad).
+- **Fúvókaszorzó**: az adott hajtóműbe szerelt összes fúvóka sebességszorzójának szorzata (pl. a Momentum Thruster III értéke `1.0765`, vagyis `+7.65%`, az Impulse Thruster III-é `1.0255`, vagyis `+2.55%`). Mindent megszoroz, amit a hajtómű termel: a saját alapsebességét és a fúvókák fix bónuszait is. Az adaptív magnak nincs saját alapsebessége, de a fúvókái fix bónuszait a szorzó így is megszorozza.
 
-Egy Engine III (alapsebesség 6) három Momentum Thruster IV-gyel (`+13.1`, `1.11`) (6 + 3 x 13,1) x 1,11 x 1,11 x 1,11 = 62,0 sebességet termel, három Impulse Thruster IV-gyel (`+16.5`, `1.035`) pedig (6 + 3 x 16,5) x 1,035 x 1,035 x 1,035 = 61,5-öt. A Kovácsműhely bónusza egy fúvóka szorzóján az 1 feletti részt növeli: +15% a `1.11` szorzón `1.1265` értéket ad.
+Egy Engine III (alapsebesség 6) három Momentum Thruster IV-gyel (`+11.135`, `1.0935`) (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5 sebességet termel, három Impulse Thruster IV-gyel (`+14.025`, `1.02975`) pedig (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5-öt. A Kovácsműhely bónusza egy fúvóka szorzóján az 1 feletti részt növeli: +15% a `1.0935` szorzón `1.1075` értéket ad.
 
 ### 2. Csökkenő hozadék (határhatékonyság) {#2-diminishing-returns-marginal-efficiency-}
 

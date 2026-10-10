@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 32615b5595786aef -->
+<!-- wiki-i18n source: ce2f2e451bffe3b4 -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -110,10 +110,10 @@ Installez-les directement dans l’emplacement d’un laser pour augmenter ses c
 
 | Nom | Rareté | Pénétration de bouclier | Coût |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Médiocre | +2 % | 15 000 crédits |
-| **Penetration Amp II** | Peu commun | +4 % | À fabriquer |
-| **Penetration Amp III** | Rare | +6 % | À fabriquer |
-| **Penetration Amp IV** | Épique | +8 % | À fabriquer |
+| **Penetration Amp I** | Médiocre | +3 % | 15 000 crédits |
+| **Penetration Amp II** | Peu commun | +6 % | À fabriquer |
+| **Penetration Amp III** | Rare | +9 % | À fabriquer |
+| **Penetration Amp IV** | Épique | +12 % | À fabriquer |
 
 **Seul le premier palier de chaque gamme est en vente**, à la boutique. Les trois autres se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir de l’ampli du palier en dessous, une fois sa technologie recherchée dans le Skylab ([Recherche](/wiki/03-Mechanics/Research.md)). Chaque étape demande du Thulium, du butin d’aliens et des plaques (des Velkonite Reinforced Plates de votre Skylab pour les paliers II et III, 3 Dark Matter Plates pour le palier IV), et le nouvel ampli garde le rang d’enchantement de celui qu’il consomme tandis que ses bonus sont tirés de nouveau ([Améliorations de modules à l’Assemblage](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les étapes Penetration ajoutent une lentille de cristal. Chaque ampli du palier IV demande 3 [Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md), comme le dernier palier de chaque chaîne d’amélioration : la technologie d’un ampli du palier IV demande donc d’abord celle de la plate.
 
@@ -168,43 +168,43 @@ La Siphon Battery est une munition qui sert à voler des boucliers plutôt qu’
 
 Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +9 %, Stiletto +16 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 24 % ; un Penetration Amp IV dans un laser sur douze fait 0,67 %. Un Wraith a 12 lasers et 36 emplacements d’ampli, et il faut remplir les 36 pour atteindre 24 %.
+- **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 36 % ; un Penetration Amp IV dans un laser sur douze fait 1 %. Un Wraith a 12 lasers et 36 emplacements d’ampli, et il faut remplir les 36 pour atteindre 36 %.
 - **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre des amplis laser de la configuration affichée (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. La fenêtre **Vaisseau** en vol a une pastille **Pénétration** au bout de sa ligne du bas (les pastilles de configuration et de vitesse n’affichent qu’une icône et un chiffre pour lui faire de la place) : elle affiche le total d’un tir laser, vos amplis, la formation portée et les munitions tirées, additionnés dès que vous changez quelque chose, et son info-bulle liste les trois parts.
-- **Le meilleur laser fait 50 %.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) et trois Penetration Amp IV dans chaque laser (24 %) font 50 %.
-- **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 8,7 à 9,2 points au lieu de 8. Dans la meilleure configuration, trois amplis Éternels font 53,6 %, et chaque point compte.
+- **Le meilleur laser fait 62 %.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) et trois Penetration Amp IV dans chaque laser (36 %) font 62 %.
+- **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points au lieu de 12. Dans la meilleure configuration, trois amplis Éternels font 67,4 %, et chaque point compte.
 
 | Salve laser | Munitions | Amplis (3 emplacements) | Formation | Total |
 |---|---|---|---|---|
 | Experimental Fusion Core seul | 10 % | – | – | **10 %** |
 | Fusion Core + Gemini | 10 % | – | 9 % | **19 %** |
 | Fusion Core + Stiletto (le meilleur avant les Penetration Amps) | 10 % | – | 16 % | **26 %** |
-| Fusion Core + 3 Penetration Amp I | 10 % | 6 % | – | **16 %** |
-| Fusion Core + 3 Penetration Amp II | 10 % | 12 % | – | **22 %** |
-| Fusion Core + 3 Penetration Amp III | 10 % | 18 % | – | **28 %** |
-| Fusion Core + 3 Penetration Amp IV | 10 % | 24 % | – | **34 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10 % | 24 % | 9 % | **43 %** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (le meilleur au quotidien) | 5 % | 24 % | 16 % | **45 %** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (le meilleur laser) | 10 % | 24 % | 16 % | **50 %** |
+| Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
+| Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
+| Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
+| Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini | 10 % | 36 % | 9 % | **55 %** |
+| Ultra Core + 3 Penetration Amp IV + Stiletto (le meilleur au quotidien) | 5 % | 36 % | 16 % | **57 %** |
+| Fusion Core + 3 Penetration Amp IV + Stiletto (le meilleur laser) | 10 % | 36 % | 16 % | **62 %** |
 
 Ce que cela fait aux boucliers de la cible : chaque case est la part d’un tir que **les boucliers encaissent / la coque encaisse**.
 
-| Défenseur (absorption) | Sans amplis | Fusion Core seul (10 %) | Avant : Fusion Core + Stiletto (26 %) | Fusion Core + 3 Penetration Amp IV (34 %) | Le meilleur laser (50 %) |
+| Défenseur (absorption) | Sans amplis | Fusion Core seul (10 %) | Avant : Fusion Core + Stiletto (26 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Le meilleur laser (62 %) |
 |---|---|---|---|---|---|
-| Light Shield Core, sans cellule (45 %) | 45 / 55 | 35 / 65 | 19 / 81 | 11 / 89 | 0 / 100 |
-| Heavy Shield Core, sans cellule (50 %) | 50 / 50 | 40 / 60 | 24 / 76 | 16 / 84 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 29 / 71 | 21 / 79 | 5 / 95 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 39 / 61 | 31 / 69 | 15 / 85 |
-| Le meilleur bouclier de série (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 34 niveaux de la Boutique de saison (95,4 %) | 95 / 5 | 85 / 15 | 69 / 31 | 61 / 39 | 45 / 55 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
-| N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
+| Light Shield Core, sans cellule (45 %) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, sans cellule (50 %) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
+| Le meilleur bouclier de série (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 34 niveaux de la Boutique de saison (95,4 %) | 95 / 5 | 85 / 15 | 69 / 31 | 49 / 51 | 33 / 67 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
+| N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
 
-Le meilleur laser vide un noyau de bouclier sans cellule (la coque encaisse tout le tir) ; un noyau avec une cellule garde une part de chaque tir, et le meilleur bouclier en garde 30 % (45 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (51 %) y arrive.
+Le meilleur laser vide un noyau de bouclier sans cellule et un Light Shield Core avec sa meilleure cellule (la coque encaisse tout le tir) ; un Heavy Shield Core avec trois cellules Capacity garde 3 % de chaque tir, et le meilleur bouclier en garde 18 % (33 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (51 %) y arrive.
 
 ### Quand un Penetration Amp vaut-il un emplacement ? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contre une absorption au-dessus d’environ 95 % (configurations Boutique de saison, Forge et Rampart). Face au meilleur bouclier de série (80 %), un Crit Amp du même palier reste environ 10 % plus rapide, et un Penetration Amp ne tue pas les aliens plus vite qu’un Damage Amp ou un Crit Amp de son palier.**
+**Un Penetration Amp contre l’absorption, et plus elle est haute, plus il compte : face à un vaisseau à petite coque vers 95 % (configurations Boutique de saison, Forge et Rampart), un jeu de Penetration tue environ 1,8 fois plus vite que le meilleur jeu simple, et face au meilleur bouclier de série (80 %), un trio de Penetration Amps met environ 11 % de temps en moins qu’un trio de Crit Amps du même palier. Face aux aliens, il ne gagne presque rien.**
 
-- **Il ne donne aucun dégât.** Sur un Helios Beam, trois Penetration Amp IV font 187 dégâts par salve (munitions x1, la moyenne du tirage et des critiques), là où trois Damage Amp IV en font 356 et trois Crit Amp IV 369 : environ la moitié. Ce qu’il rachète, c’est la part du bouclier ; il ne vaut donc que là où la coque est petite à côté du bouclier et l’absorption élevée ; face à un Wraith ou un Ironclad, dont la grande coque tient de toute façon, un jeu simple de Damage ou de Crit est plus rapide.
-- **Aliens.** Leurs boucliers encaissent 80 % d’un tir moins votre pénétration, donc il agit aussi sur eux, mais un Damage Amp ou un Crit Amp du palier les tue quand même plus vite.
+- **Il ne donne aucun dégât.** Sur un Helios Beam, trois Penetration Amp IV font 187 dégâts par salve (munitions x1, la moyenne du tirage et des critiques), là où trois Damage Amp IV en font 356 et trois Crit Amp IV 369 : environ la moitié. Ce qu’il rachète, c’est la part du bouclier ; il ne vaut donc que là où la coque est petite à côté du bouclier et l’absorption élevée ; face à un Wraith ou un Ironclad, dont la grande coque tient de toute façon, un jeu simple de Damage ou de Crit est à peu près aussi rapide (un Penetration Amp dans un laser gagne 5 % au plus).
+- **Aliens.** Leurs boucliers encaissent 80 % d’un tir moins votre pénétration, donc il agit aussi sur eux, mais un Damage Amp ou un Crit Amp du palier les tue aussi vite ou plus vite, sauf un Phantasm ou un Goombah combattu avec une formation, où un Penetration Amp dans un laser gagne jusqu’à 5 %.
 - **Ce qu’il coûte.** Chaque Penetration Amp IV prend 3 Dark Matter Plates (15 Dark Matter), comme tout ampli du palier IV ; un Wraith qui remplit ses 36 emplacements demande donc 108 plates, 540 Dark Matter.

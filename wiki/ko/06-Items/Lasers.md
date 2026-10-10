@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 32615b5595786aef -->
+<!-- wiki-i18n source: ce2f2e451bffe3b4 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -110,10 +110,10 @@ Ship Fragment, Cataclysite, Power Core, Reinforced Hull Plate는 외계인이 �
 
 | 이름 | 희귀도 | 실드 관통 | 비용 |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | 하급 | +2% | 15,000 크레딧 |
-| **Penetration Amp II** | 고급 | +4% | 제작 전용 |
-| **Penetration Amp III** | 희귀 | +6% | 제작 전용 |
-| **Penetration Amp IV** | 영웅 | +8% | 제작 전용 |
+| **Penetration Amp I** | 하급 | +3% | 15,000 크레딧 |
+| **Penetration Amp II** | 고급 | +6% | 제작 전용 |
+| **Penetration Amp III** | 희귀 | +9% | 제작 전용 |
+| **Penetration Amp IV** | 영웅 | +12% | 제작 전용 |
 
 **각 계열의 첫 티어만 팝니다**, 상점에서. 나머지 셋은 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 한 티어 아래의 증폭기로 만들며, 먼저 Skylab에서 그 기술을 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). 각 단계에는 Thulium, 외계인 드롭, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate, 티어 IV에는 Dark Matter Plate 3개)가 들고, 새 증폭기는 소모한 증폭기의 인챈트 등급을 이어받으며 보너스는 다시 굴립니다([어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration 단계에는 결정 렌즈가 더해집니다. 티어 IV 증폭기는 어느 것이나 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 3개를 요구하므로(모든 강화 계열의 마지막 티어가 그렇습니다), 티어 IV 증폭기의 기술은 먼저 그 플레이트의 기술을 요구합니다.
 
@@ -168,43 +168,43 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 
 레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +9%, Stiletto +16%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 24%, 레이저 12개 중 하나에 Penetration Amp IV 하나면 0.67%입니다. Wraith는 레이저가 12개, 증폭기 슬롯이 36개이며, 24%를 내려면 36개를 모두 채워야 합니다.
+- **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 36%, 레이저 12개 중 하나에 Penetration Amp IV 하나면 1%입니다. Wraith는 레이저가 12개, 증폭기 슬롯이 36개이며, 36%를 내려면 36개를 모두 채워야 합니다.
 - **격납고에 표시됩니다.** 격납고의 전투 능력치에는 모든 기체에 표시 중인 구성의 증폭기 수치를 보여 주는 **관통** 타일이 있습니다(Penetration Amp가 없으면 0.0%). 탄약과 편대는 그 수치에 들어 있지 않습니다. 비행 중 **함선** 창에는 아래 줄 끝에 **관통** 칩이 있습니다(자리를 만들기 위해 구성과 속도 칩은 아이콘과 숫자만 보여 줍니다). 레이저 명중의 합계, 곧 증폭기, 착용한 편대, 쏘고 있는 탄약을 바꿀 때마다 더한 값을 보여 주며, 툴팁에 세 가지 내역이 나열됩니다.
-- **최강의 레이저는 50%가 됩니다.** Experimental Fusion Core(10%), Stiletto(16%), 모든 레이저에 Penetration Amp IV 3개(24%)면 합계가 50%입니다.
-- **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 8이 아니라 8.7~9.2포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 53.6%가 되며, 그 모든 포인트가 계산에 들어갑니다.
+- **최강의 레이저는 62%가 됩니다.** Experimental Fusion Core(10%), Stiletto(16%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 62%입니다.
+- **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 12이 아니라 13.1~13.8포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 67.4%가 되며, 그 모든 포인트가 계산에 들어갑니다.
 
 | 레이저 일제 사격 | 탄약 | 증폭기(슬롯 3개) | 편대 | 합계 |
 |---|---|---|---|---|
 | Experimental Fusion Core 단독 | 10% | – | – | **10%** |
 | Fusion Core + Gemini | 10% | – | 9% | **19%** |
 | Fusion Core + Stiletto(Penetration Amp 이전의 최강) | 10% | – | 16% | **26%** |
-| Fusion Core + 3 Penetration Amp I | 10% | 6% | – | **16%** |
-| Fusion Core + 3 Penetration Amp II | 10% | 12% | – | **22%** |
-| Fusion Core + 3 Penetration Amp III | 10% | 18% | – | **28%** |
-| Fusion Core + 3 Penetration Amp IV | 10% | 24% | – | **34%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 24% | 9% | **43%** |
-| Ultra Core + Penetration Amp IV 3개 + Stiletto(평소 쓰는 최강) | 5% | 24% | 16% | **45%** |
-| Fusion Core + Penetration Amp IV 3개 + Stiletto(최강의 레이저) | 10% | 24% | 16% | **50%** |
+| Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
+| Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
+| Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
+| Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
+| Ultra Core + Penetration Amp IV 3개 + Stiletto(평소 쓰는 최강) | 5% | 36% | 16% | **57%** |
+| Fusion Core + Penetration Amp IV 3개 + Stiletto(최강의 레이저) | 10% | 36% | 16% | **62%** |
 
 그것이 대상의 실드에 하는 일입니다. 각 칸은 공격 중 **실드가 받는 몫 / 선체가 받는 몫**입니다.
 
-| 방어 측(흡수율) | 증폭기 없음 | Fusion Core 단독(10%) | 이전: Fusion Core + Stiletto(26%) | Fusion Core + 3 Penetration Amp IV(34%) | 최강의 레이저(50%) |
+| 방어 측(흡수율) | 증폭기 없음 | Fusion Core 단독(10%) | 이전: Fusion Core + Stiletto(26%) | Fusion Core + 3 Penetration Amp IV(46%) | 최강의 레이저(62%) |
 |---|---|---|---|---|---|
-| Light Shield Core, 셀 없음(45%) | 45 / 55 | 35 / 65 | 19 / 81 | 11 / 89 | 0 / 100 |
-| Heavy Shield Core, 셀 없음(50%) | 50 / 50 | 40 / 60 | 24 / 76 | 16 / 84 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 29 / 71 | 21 / 79 | 5 / 95 |
-| Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 39 / 61 | 31 / 69 | 15 / 85 |
-| 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 34레벨(95.4%) | 95 / 5 | 85 / 15 | 69 / 31 | 61 / 39 | 45 / 55 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 76 / 24 | 68 / 32 | 52 / 48 |
-| 모든 외계인(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 46 / 54 | 30 / 70 |
+| Light Shield Core, 셀 없음(45%) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, 셀 없음(50%) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
+| 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 34레벨(95.4%) | 95 / 5 | 85 / 15 | 69 / 31 | 49 / 51 | 33 / 67 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
+| 모든 외계인(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
 
-최강의 레이저는 셀이 없는 실드 코어를 비웁니다(선체가 공격 전체를 받습니다). 셀이 있는 코어는 공격의 일부를 지키고, 가장 좋은 실드는 30%를 지킵니다(버프가 있으면 45%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(51%) 비울 수 있습니다.
+최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 3%를 지키고, 가장 좋은 실드는 18%를 지킵니다(버프가 있으면 33%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(51%) 비울 수 있습니다.
 
 ### Penetration Amp는 언제 슬롯을 쓸 만한가? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp는 약 95%를 넘는 흡수율(시즌 상점, 대장간, Rampart 구성)에 맞섭니다. 기본으로 가장 좋은 실드(80%)를 상대로는 같은 티어의 Crit Amp가 여전히 약 10% 더 빠르며, Penetration Amp는 외계인을 같은 티어의 Damage Amp나 Crit Amp보다 빨리 처치하지 못합니다.**
+**Penetration Amp는 흡수율에 맞서며, 흡수율이 높을수록 더 효과적입니다. 선체가 작은 함선을 상대로 약 95%(시즌 상점, 대장간, Rampart 구성)에서는 Penetration 구성이 가장 좋은 일반 구성보다 약 1.8배 빨리 처치하고, 기본으로 가장 좋은 실드(80%)를 상대로는 Penetration Amp 3개가 같은 티어의 Crit Amp 3개보다 약 11% 적은 시간이 듭니다. 외계인을 상대로는 거의 얻는 것이 없습니다.**
 
-- **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 187(탄약 x1, 무작위와 치명타의 평균)을 내고, Damage Amp IV 3개는 356, Crit Amp IV 3개는 369로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성이 더 빠릅니다.
-- **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받으므로 외계인에게도 통하지만, 같은 티어의 Damage Amp나 Crit Amp가 여전히 더 빨리 처치합니다.
+- **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 187(탄약 x1, 무작위와 치명타의 평균)을 내고, Damage Amp IV 3개는 356, Crit Amp IV 3개는 369로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성도 거의 비슷하게 빠릅니다(레이저 하나의 Penetration Amp 1개로 얻는 것은 최대 5%).
+- **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받으므로 외계인에게도 통하지만, 같은 티어의 Damage Amp나 Crit Amp도 같거나 더 빨리 처치합니다. 편대를 쓰고 싸우는 Phantasm이나 Goombah는 예외로, 레이저 하나의 Penetration Amp 1개가 최대 5%를 얻습니다.
 - **비용.** Penetration Amp IV마다 Dark Matter Plate 3개(Dark Matter 15개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 36개 슬롯을 모두 채우는 Wraith에는 플레이트 108개, Dark Matter 540개가 필요합니다.
