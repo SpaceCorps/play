@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 아주 오래전, 은하 한가운데에 고도로 발달한 문명이 살았습니다. 빛나는 보라색 결을 가진 보랏빛 도는 검은 결정으로 건물을 지었고, 아무도 모르는 이유로 무너졌습니다. **Dormant Swamp**는 그 전초기지로, `DS-4`의 왼쪽 위 모서리에 있습니다. 시즌 11일차부터 이곳이 깨어납니다. 중앙의 포대는 보이는 모든 함선을 쏘고, **Inert Mass**가 지키며, 가장 한가운데에서 **Unwakened**가 잠들어 있습니다. 파일럿이 **아직 찾아가서는 안 되는** 곳입니다. 은폐하면 Unwakened 앞까지 날아갈 수 있지만, 지금은 그곳에서 다른 것을 할 수 없습니다. 기지와 포대는 파괴할 수도, 들어갈 수도, 올라탈 수도, 거래할 수도 없습니다.
 
 늪은 11일차부터 [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)가 나타나는 곳이기도 하며, **Slumbering Void**가 그 주변을 순찰합니다. 같은 Void가 웨이브로 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids)에도 옵니다. 섹터는 [위험 섹터](/wiki/01-General/Danger-Sectors.md)에 있습니다.
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## 한눈에 보기 {#at-a-glance}
 
@@ -56,7 +58,7 @@
 잃어버린 문명의 외계인 세 종이 이곳에 살며, 각자 고유한 수치를 가집니다. 무리의 보스처럼 **입힌 피해에 따라** 보상이 지급됩니다. [무리](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm)에 나온 비율 이상을 입힌 모든 파일럿이 받으며, 상자는 가장 많은 피해를 입힌 파일럿에게 갑니다. 처치는 무리 함선의 처치처럼, 보상에 비례해 PvE 계급 포인트에 더해집니다([계급](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). 각자의 실드는 유지되는 동안 모든 공격의 80%를 흡수합니다([실드](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** 날렵한 사냥꾼으로, 게임에서 가장 빠른 외계인입니다(Afterburner III를 쓴 Storm만큼 빠릅니다). 일부는 늘 늪 주변을 순찰하고, 나머지는 웨이브로 굴착기에 옵니다. 공격적이며 보이는 가장 가까운 파일럿을 사냥하고, 은폐 중인 함선은 결코 보지 못합니다.
-- **Inert Mass.** 보랏빛 금이 간 죽은 거체로, 작은 정거장만 합니다. 늪 중심에서 정해진 거리 안에 머물며 지금은 그곳을 떠나지 않습니다. **Dormant Lance**를 쏩니다. 사거리가 매우 긴 유도 로켓으로, 함선이 은폐하거나, EMP 효과를 열거나, 안전 링에 들어가거나, 점프하거나, 죽을 때까지 따라갑니다. 어떤 함선보다 빠르므로 이런 끊기만이 통합니다.
+- **Inert Mass.** 보랏빛 금이 간 죽은 거체로, 작은 정거장만 합니다. 늪 중심에서 정해진 거리 안에 머물며 지금은 그곳을 떠나지 않습니다. **Dormant Lance**를 쏩니다. 사거리가 매우 긴 유도 로켓으로, 함선이 은폐하거나, EMP 효과를 열거나, 안전 링에 들어가거나, 점프하거나, 죽을 때까지 따라갑니다. 어떤 함선보다 빠르므로 이런 끊기만이 통합니다. Dormant Lance의 진로에 있는 소행성은 그것을 막아 내며, Lance는 자신의 피해량으로 그 소행성을 손상시킵니다(그로 인해 보상을 받는 사람은 없습니다). 그래서 바위는 Inert Mass로부터 몇 발 동안만 몸을 지켜 줍니다.
 - **Unwakened.** 늪의 중심에서 잠든 모놀리스로, 어느 맵에서든 가장 큰 존재입니다. 너무 느려서 함선을 따라잡는 일이 없습니다. 아무것도 쏘지 않지만 오라 안의 함선은 **은폐 여부와 관계없이** 모두 탑니다. **면역**입니다. 사격과 로켓이 맞지만 아무 일도 일어나지 않으며, 대상 창에는 가득 찬 막대와 면역이라는 말이 표시됩니다. 이후의 이벤트에서 싸울 수 있게 됩니다. 아래의 보상은 기록되어 있을 뿐 아직 얻을 수 없습니다.
 
 <!-- swamp-members:begin -->

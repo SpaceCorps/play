@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 För länge sedan levde en avancerad civilisation mitt i galaxen. Den byggde i lila-svart kristall med lysande violetta ådror, och av ett skäl som ingen känner till föll den samman. **Dormant Swamp** är dess utpost, i det övre vänstra hörnet av `DS-4`. Från säsongsdag 11 rör det på sig: kanoner i mitten skjuter på varje skepp de ser, **Inert Masses** vaktar det, och allra längst in i mitten sover **Unwakened**. Det är en plats som piloter **ännu inte är avsedda att besöka**. Kamouflerad kan du flyga ända fram till Unwakened, och mer går inte att göra där just nu: basen och dess kanoner kan inte skadas, beträdas, borda eller handlas med.
 
 Träsket är också dit [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) kommer från dag 11, och **Slumbering Voids** patrullerar runt det. Samma Voids kommer i vågor till [jättegrävmaskinerna](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Sektorerna finns i [Farosektorer](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## I korthet {#at-a-glance}
 
@@ -56,7 +58,7 @@ Skada per skott, i varje värld:
 Tre utomjordingar från den försvunna civilisationen lever här, var och en med egna siffror. De betalas som en svärms boss: **efter den skada som gjorts**, till varje pilot som gjort minst den andel som anges i [Svärmar](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), och lådan går till piloten som gjorde mest skada. Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps, i proportion till betalningen ([Grader](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Var och ens sköld tar upp 80 % av varje träff så länge den håller ([Sköldar](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Den smäckra jägaren, den snabbaste utomjordingen i spelet (lika snabb som en Storm med Afterburner III). Några patrullerar alltid träskets omgivning, och andra kommer i vågor till grävmaskinerna. Den är aggressiv, jagar den närmaste pilot den kan se och ser aldrig ett kamouflerat skepp.
-- **Inert Mass.** Ett dött vrak med violetta sprickor, stort som en liten station. De håller sig inom ett fast avstånd från träskets mitt och lämnar det inte just nu. Den skjuter **Dormant Lances**: styrda raketer med mycket lång räckvidd som följer ett skepp tills det kamouflerar sig, öppnar ett EMP-fönster, går in i en säker ring, hoppar eller dör. Den är snabbare än varje skepp, så bara de avbrotten hjälper.
+- **Inert Mass.** Ett dött vrak med violetta sprickor, stort som en liten station. De håller sig inom ett fast avstånd från träskets mitt och lämnar det inte just nu. Den skjuter **Dormant Lances**: styrda raketer med mycket lång räckvidd som följer ett skepp tills det kamouflerar sig, öppnar ett EMP-fönster, går in i en säker ring, hoppar eller dör. Den är snabbare än varje skepp, så bara de avbrotten hjälper. En asteroid i vägen för en Dormant Lance stoppar den, och Lance skadar asteroiden med sin egen skada (ingen får betalt för det); en sten ger alltså bara skydd mot en Inert Mass i några träffar.
 - **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Den är **immun**: skott och raketer träffar och gör ingenting, målfönstret visar fulla staplar och ordet Immun. Ett senare event kommer att göra det möjligt att strida mot den; dess belöningar nedan är nedskrivna och går ännu inte att få.
 
 <!-- swamp-members:begin -->

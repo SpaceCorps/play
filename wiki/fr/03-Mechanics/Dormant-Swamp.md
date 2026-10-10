@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 Il y a très longtemps, une civilisation avancée a vécu au milieu de la galaxie. Elle bâtissait en cristal noir violacé, aux veines violettes qui luisent, et pour une raison que personne ne connaît, elle s’est effondrée. Le **Dormant Swamp** est son avant-poste, dans le coin supérieur gauche de `DS-4`. À partir du jour 11 de la saison, il s’agite : des canons au milieu tirent sur tout vaisseau qu’ils voient, des **Inert Masses** le gardent, et tout au milieu dort **l’Unwakened**. C’est un endroit que les pilotes **ne sont pas encore censés visiter**. Sous occultation, vous pouvez voler jusqu’à l’Unwakened, et rien d’autre ne peut y être fait pour l’instant : la base et ses canons ne peuvent être ni endommagés, ni pénétrés, ni abordés, ni utilisés pour commercer.
 
 Le marais est aussi l’endroit où l’[Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) apparaît à partir du jour 11, et des **Slumbering Voids** patrouillent autour. Les mêmes Voids viennent par vagues aux [excavatrices géantes](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Les secteurs sont dans [Secteurs dangereux](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## En un coup d’œil {#at-a-glance}
 
@@ -56,7 +58,7 @@ Dégâts d’un tir, dans chaque monde :
 Trois aliens de la civilisation perdue vivent ici, chacun avec ses propres chiffres. Ils sont payés comme le boss d’un essaim : **selon les dégâts infligés**, à chaque pilote qui en a fait au moins la part indiquée dans [Essaims](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), et la caisse va au pilote qui a infligé le plus de dégâts. Leurs éliminations s’ajoutent à vos points PvE de grade comme celles d’un vaisseau d’essaim, en proportion de leur gain ([Grades](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Le bouclier de chacun absorbe 80 % de chaque coup tant qu’il tient ([Boucliers](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Le chasseur élancé, l’alien le plus rapide du jeu (aussi rapide qu’un Storm avec Afterburner III). Certains patrouillent toujours aux abords du marais, et d’autres arrivent par vagues aux excavatrices. Il est agressif, traque le pilote le plus proche qu’il peut voir et ne voit jamais un vaisseau occulté.
-- **Inert Mass.** Une carcasse morte aux fissures violettes, de la taille d’une petite station. Elles restent à une distance fixe du milieu du marais et ne le quittent pas pour l’instant. Elle tire des **Dormant Lances** : des roquettes guidées à très longue portée qui suivent un vaisseau jusqu’à ce qu’il s’occulte, ouvre une fenêtre d’EMP, entre dans un anneau sûr, saute ou meure. Elle est plus rapide que n’importe quel vaisseau, donc seules ces ruptures aident.
+- **Inert Mass.** Une carcasse morte aux fissures violettes, de la taille d’une petite station. Elles restent à une distance fixe du milieu du marais et ne le quittent pas pour l’instant. Elle tire des **Dormant Lances** : des roquettes guidées à très longue portée qui suivent un vaisseau jusqu’à ce qu’il s’occulte, ouvre une fenêtre d’EMP, entre dans un anneau sûr, saute ou meure. Elle est plus rapide que n’importe quel vaisseau, donc seules ces ruptures aident. Un astéroïde sur la trajectoire d’une Dormant Lance l’arrête, et la Lance l’endommage de son propre dégât (personne n’est payé pour cela) ; un rocher ne protège donc d’une Inert Mass que pour quelques coups.
 - **L’Unwakened.** Un monolithe qui dort au milieu du marais, la plus grande chose de toutes les cartes, si lent qu’il n’attrape jamais un vaisseau. Il ne tire rien, mais tout vaisseau dans son aura brûle, **occulté ou non**. Il est **immunisé** : les tirs et les roquettes touchent et ne font rien, la fenêtre de cible montre des barres pleines et le mot Immunisé. Un événement ultérieur permettra de le combattre ; ses récompenses ci-dessous sont écrites et ne peuvent pas encore être gagnées.
 
 <!-- swamp-members:begin -->

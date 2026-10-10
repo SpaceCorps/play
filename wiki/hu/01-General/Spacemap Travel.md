@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Az univerzum három fő vállalati szektorból (Mars, Terra, Galactic) és egy k
 - **x-1 (Otthoni bázis)**: Minden vállalat kezdőtérképe (M-1, T-1, G-1). A legbiztonságosabb zóna.
 - **x-2 -> x-3**: Terjeszkedési zónák egyre erősebb idegenekkel.
 - **x-4 (Határ)**: A PvP-szektor kapuja, és egy másik vállalat `x-3` szektoráé is (a Gyűrű, lásd lent).
-- **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4. A szezon 11. napjától pulzárokat is tartalmaz óriás kotrógépekkel, és a Dormant Swamp-ot ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4. A szezon első napjától a DS-1-től a DS-3-ig mindegyikben van egy pulzár, a szezon 11. napjától pedig mindegyik mellett egy óriás kotrógép is áll, és ott van a Dormant Swamp ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md)).
 
 Csak az otthoni bázisokon van állomás. Itt nyílik meg a **Mission Control**, az állomás biztonságos zónája pedig 1 600 egységnyire terjed ki körülötte. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza a bázisodra.
 

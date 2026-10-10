@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -24,7 +24,7 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 - **Enquanto você está fora.** Uma pesquisa corre no relógio do servidor, então continua depois que você sai, até terminar ou o tanque esvaziar. Um déficit de energia ou uma melhoria do Centro não a interrompe.
 - **Energia.** O Centro consome 25 no nível 1 e, a cada nível, 15% a mais, e não pode ser desligado.
 - **O reset mantém tudo:** suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost.
-- **O que você tem é seu.** Quando a pesquisa chegou ao jogo, cada piloto recebeu a tecnologia de cada item que já possuía e as tecnologias de que eles precisavam. Um item que chega depois (um presente, um código, uma recompensa) não desbloqueia a tecnologia dele.
+- **O que você tem é seu.** Quando a pesquisa chegou ao jogo, cada piloto recebeu a tecnologia de cada item que já possuía e as tecnologias de que eles precisavam. Um item que chega depois (um presente, um código, uma recompensa) não desbloqueia a tecnologia dele, com uma exceção: um Engine II, um Engine III, um Adaptive Core II ou um Adaptive Core III que um código, uma missão, um convite ou um administrador lhe dá desbloqueia na hora a tecnologia dele e as que ela exige.
 - **Abaixo do nível 10 do Núcleo** você não pode pesquisar, então ainda não pode criar nada novo na Montagem. As missões da estação guiam você na subida do Núcleo.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ Na visão **Pesquisa** do seu Skylab, uma tecnologia diz mais do que uma caixa d
 
 ## Combustível {#fuel}
 
-Você alimenta o Centro com recursos, e cada unidade vira ciência na hora. Quanto mais trabalho dá obter uma unidade, mais ciência ela rende: os valores seguem a dificuldade de obtê-la, não a etiqueta de raridade. Os minérios são a exceção: uma unidade rende mais ciência do que os segundos que um coletor leva para extraí-la, então uma hora do minério de um coletor no meio dos seus níveis alimenta cerca de duas horas de pesquisa. Os minérios vêm do Depósito de recursos do seu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); qualquer outro recurso vem do seu inventário, e a sua nave precisa estar pousada. A Velkonite Reinforced Plate, a Orvium Reinforced Plate, a Dark Matter Plate, o Dark Matter, os créditos e o Thulium não podem ser queimados; a Reinforced Hull Plate pode.
+Você alimenta o Centro com recursos, e cada unidade vira ciência na hora. Quanto mais trabalho dá obter uma unidade, mais ciência ela rende: os valores seguem a dificuldade de obtê-la, não a etiqueta de raridade. Os minérios são a exceção: uma unidade rende mais ciência do que os segundos que um coletor leva para extraí-la, então uma hora do minério de um coletor no meio dos seus níveis alimenta cerca de duas horas de pesquisa. Os minérios vêm do Depósito de recursos do seu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); qualquer outro recurso vem do seu inventário, e a sua nave precisa estar pousada. A Velkonite Reinforced Plate, a Orvium Reinforced Plate, a Dark Matter Plate, o Dark Matter, os créditos e o Thulium não podem ser queimados; a Reinforced Hull Plate pode. O Velkonite e o Orvium que as caixas de uma escavadeira deixam no seu inventário chegam ao Depósito de recursos pela [Baía de minério](/wiki/03-Mechanics/Skylab.md#ore-bay).
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -16,89 +16,76 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
-## 0.4.19 · 2026-10-10
+## 0.4.20 · 2026-10-10
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.19)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.20)
 
-SpaceCorps 2027 0.4.19 is the gear and economy update: every thruster gives 15% less, the Engine II and the Adaptive Core II are made in Assembly, the Penetration Amps and the Pirate swarm get stronger, asteroids stop shots, the Auction opens at half the price and bids for you up to a maximum, the farms and the price of a design change, and every damage, shield and speed number you see counts your boosters.
+SpaceCorps 2027 0.4.20 is the Ore Bay and the longer sign-in update: ore from a giant excavator can finally be moved into your Skylab, the game renews your sign-in while you play, the Wrath Wardens chase and call bigger waves, aliens fly round asteroids instead of into them, the Auction lists for 7 to 21 days with ten free listings a day, and the giant excavators lay twice as much.
 
 ### What's new
 
 **Highlights**
-- **Every thruster gives 15% less,** the flat speed and the part of the multiplier above 1. A full Engine III with three Impulse Thruster IVs makes 52.5 (the best made 62.1). The best build of every ship loses something, up to 39.5 points: a Protos 443.4 to 403.9, a Wraith 864.2 to 850.2.
-- **The Engine II and the Adaptive Core II leave the Shop.** Make an Engine II from an Engine I and an Adaptive Core II from an Adaptive Core I in Assembly (1,000 Thulium, 10 Ship Fragments, 1 Power Core, 2 Velkonite Reinforced Plates, 60 seconds). The Adaptive Core III is made from a Core II (2,000 Thulium, 60 Ship Fragments, 3 Power Cores, 3 Dark Matter Plates, 90 seconds). Everyone who holds or has queued a piece of these lines gets their research free.
-- **The Adaptive Cores give less:** I 2.4% speed and 4% shield (was 3% and 5%), II 3.2% and 6.4% (was 4% and 8%), III 4% and 8% with its 3 slots (was 5% and 15%).
-- **The Penetration Amps are half as strong again:** +3%, +6%, +9% and +12% a slot (they were +2%, +4%, +6% and +8%). The best laser takes 62% off a shield's absorbance (it was 50%), and the best shield out of the box keeps 18% of its hit (it kept 30%).
-- **The Pirate Boss drops twice the ammo** (1,000 to 2,000 Advanced Plasma or Siphon Batteries) **and its Scouts hit 50% harder** (a volley of 221 in Alpha, was 147). Three level 4-5 pilots in Ostirions on x2 ammo lose the Boss on x-3 even with the hits shared; four win it (six in Beta, seven in Gamma).
-- **Asteroids are cover.** A laser or a rocket whose line to its target runs through an asteroid hits the asteroid instead, and a shot fired from inside one is swallowed by it.
-- **The Auction opens at 20% of the Shop price (it was 40%) and can bid for you:** switch on "Bid automatically up to a maximum" and it raises for you, one least raise at a time, up to your maximum.
-- **The Credit Farm makes 50% more at every level, the Thulium Farm 20% less,** and **a design of a crafted ship costs 100,000 Thulium** to convert (it was 1,000 to 24,000).
-- **The numbers you see are the numbers you get:** the Hangar and your Pilot page count your boosters, Season Store buffs and clan boosts, with a small "with boosters" tag.
-- **The Shop shows the designs of each ship,** Assembly lists the ship to convert last, and the Research view draws the Ships tree in rows, one for each ship. The map grid is drawn over the planets.
+- **The Ore Bay: a new Skylab module for the ore you carry.** Built on Core 2 from Core level 10 (5,000 Credits, 250 Thulium, 10 Ship Fragments): park your ship and it moves the Velkonite and the Orvium of your inventory, an excavator's boxes included, into the Resource storage, where the Forgery and the Research Centre take them. It moves 10 ore an hour at level 1 and 320 at level 20 and keeps a day of it; ore only goes in.
+- **The giant excavators lay twice as much** of every resource (a run of Thulium is 9,643 in Alpha, it was 4,821); a run of Velkonite or Orvium is capped at 8 hours of a level 20 collector (4 before). The Star System map marks every Danger Sector's excavator in its state's colour, and the pulsars shine from the first day.
+- **You are not signed out in the middle of a flight any more.** The game renews your sign-in at the start, every hour and when your computer wakes; it ends 30 days after you typed your password. **A 0.4.19 game cannot renew its sign-in until it updates.**
+- **The Wrath Wardens chase** the pilot who hit them, so shooting one from afar is not free any more. **The Wrath Warden III calls a wave every 40 seconds (60 before), up to four at once (three), of 8, 15 and 15 aliens (5, 10 and 10), and every wave holds a Crystalys while it has less than half its hull.** What a Warden brings arrives aimed at its attackers. **The Brood Warden still stands where it was called.**
+- **Aliens and company pilots fly round asteroids** and no longer shoot the rock you hide behind: they go round to see you. The Dormant Lances of the swamp's Inert Masses damage asteroids.
+- **The Auction lists for 7, 14 or 21 days, the first 10 listings of every UTC day pay no deposit,** a chart shows what the other pilots ask for the same item, and **3 lots an hour** open instead of 1.
+- **The Forge's list has an All / Equipped / In inventory switch** and shows the pieces fitted into other items. **A rewarded Engine II or III, or Adaptive Core II or III,** (a code, a quest, an invitation, an administrator) **comes with its research.**
+- **Smaller:** the pulsar is remodelled as a neutron star, the excavator's hum swells once in the 4 seconds the pulsar takes to turn, and a laser that a rock stops ends at the rock's edge.
 
 **If you already play: what changes for you**
-- **Update the game.** A 0.4.12, 0.4.13, 0.4.14, 0.4.15, 0.4.16, 0.4.17 or 0.4.18 game installs it as a patch (a Linux AppImage game from 0.4.14), and downloads the whole package if the patch cannot be used. A 0.4.11 or older game downloads the whole package.
-- **The rules change on the server at once:** the thrusters, the cores, the amps, the Boss and its Scouts, the rocks, the farms, the designs' price and the Auction's opening price. A 0.4.18 game keeps working under them; it lacks what is new on the screen: the "with boosters" tag, the maximum of a bid, the designs in the Shop and the rows of the Research tree.
-- **Nothing you own is taken, and no Credits, Thulium or items are paid, moved or removed.** A thruster you own gives 15% less. An Engine II or an Adaptive Core II you own keeps working. An Adaptive Core III you own keeps its place and takes the new 4% and 8%. A conversion you already made is neither refunded nor charged.
-- **Your research is given:** the Engine II, Engine III, Adaptive Core II and Adaptive Core III technologies go, once, to every pilot who holds, has queued or has listed one of those pieces.
-- **A farm's pile is counted at the new rate when you collect it.** A full farm holds 72 hours of its new rate: a full level 10 Credit Farm 810,000 Credits (it held 540,000), a full level 10 Thulium Farm 25,920 (it held 32,400).
-- **Lots that are open when you update keep their opening price** (40%) for up to four hours; new lots open at 20%.
+- **Update the game.** A 0.4.12, 0.4.13, 0.4.14, 0.4.15, 0.4.16, 0.4.17, 0.4.18 or 0.4.19 game installs it as a patch (a Linux AppImage game from 0.4.14), and downloads the whole package if the patch cannot be used. A 0.4.11 or older game downloads the whole package.
+- **The rules change on the server at once:** the Wardens, the aliens and the rocks, the excavators' output, the Auction's times, deposits and lots, the sign-in's renewal and the Ore Bay's route. A 0.4.19 game keeps working under them but cannot renew its sign-in, and it lacks what is new on the screen: the Ore Bay's card, the star map's marks, the chart and the free listings, the Forge's switch.
+- **Nothing you own is taken, and no Credits, Thulium or items are paid, moved or removed.** Solar makes 35 to 100 more power from Core level 10 on (17,990 at level 20, it was 17,890) for the Ore Bay's draw, so a full station is covered as before; the producers that were dark under the old table resume from the start.
+- **Your rewards from now on count:** an Engine II or Adaptive Core piece given to you after this update comes with its research. A reward of a rocket does not unlock its craft.
+- **A listing you made keeps the days you chose** (1, 3 or 7 days before), and the lots that are open keep their price; the extra lots begin at the next hour.
 
-**Thrusters and the gear lines**
+**The Ore Bay**
 
-| | Before | Now |
-|---|---|---|
-| Impulse Thruster I to IV | +5, +10, +15, +16.5 and x1.02, x1.025, x1.03, x1.035 | +4.25, +8.5, +12.75, +14.025 and x1.017, x1.02125, x1.0255, x1.02975 |
-| Momentum Thruster I to IV | +4.5, +9, +12.5, +13.1 and x1.06, x1.07, x1.09, x1.11 | +3.825, +7.65, +10.625, +11.135 and x1.051, x1.0595, x1.0765, x1.0935 |
+| Level | 1 | 5 | 10 | 15 | 20 |
+|---|---|---|---|---|---|
+| Ore it moves an hour | 10 | 30 | 80 | 174 | 320 |
+| A day of it, kept | 240 | 720 | 1,920 | 4,176 | 7,680 |
+| Power | 15 | 22 | 35 | 57 | 92 |
 
-- **Which thruster wins changes.** With the cut, three Impulse Thruster IVs make a full Engine III faster than three Momentum Thruster IVs (52.5 against 51.5), and the Impulse Thruster is ahead in every other engine and Adaptive Core at tiers III and IV. The Momentum Thruster still leads a full Engine III at tiers I and II, by 0.6 and 0.9.
-- **What the ships do.** Typical build (a Basic Shield Core and Engine IIs with a Thruster II), fastest table build (a Light Shield Core and Engine IIIs with three Thruster IIIs) and the best build a pilot can make, before and now: Protos 209.6, 333.7 and 443.4, now 205.3, 311.4 and 403.9; Kitefin 243.8, 410.4 and 507.5, now 238.1, 380.4 and 473.8; Ostirion 287.9, 501.6 and 607.5, now 280.6, 463.0 and 581.0; Nomad 293.5, 524.3 and 639.4, now 285.6, 482.5 and 619.5; Paragon 309.0, 553.9 and 684.5, now 300.6, 509.4 and 671.7; Storm 369.6, 660.2 and 861.4, now 359.7, 607.7 and 844.3; Ironclad 215.8, 567.1 and 820.7, now 203.5, 501.3 and 820.4; Wraith 340.0, 641.3 and 864.2, now 329.7, 586.4 and 850.2. The Ironclad is still slower than the Wraith in its best build (820.4 against 850.2).
-- **The Engine II and the Engine III chain.** The Engine III is made from an Engine II as before (3 Dark Matter Plates), and needs the Engine II's research first. An Engine II or an Adaptive Core II you bought in the Shop earlier works as it did; like the other pieces the Shop sold it is not Marketable, while one you craft is.
+- **What it moves.** Velkonite and Orvium, the two ores the Resource storage keeps; never what is in your Transport Cache. Cataclysite and Quorvium are fuel that the Research Centre and the Forge take from your inventory, and Thulium goes to your wallet when you pick it up.
+- **How.** Your ship must be landed. Choose the ore on the Ore Bay's sheet, type an amount or press Max, and press Move: a transfer is instant, and it is cut at the ore you carry, at the room the Resource storage has left and at the allowance, and the sheet says which. A new Ore Bay starts with a full day and an upgrade keeps what was stored. It has a quiet sound of its own.
+- **What it costs.** Its upgrades cost and take what the Resource storage's do (to level 10: 619,500 Credits and 359 Thulium with the build). It draws power and can be switched off; in a blackout it moves nothing.
 
-**Penetration and the Pirate fight**
-- Penetration Amp III and IV (+9% and +12%) now pierce more than an Absorption Shield Cell of their tier holds (+8% and +10%). The Forge's Eternal buff makes a Penetration Amp IV 13.1 to 13.8 points a slot, and three Eternal ones in the best laser add up to 67.4%.
-- **The Boss's box.** Its ammo line is 1,000 to 2,000 of one of Advanced Plasma and Siphon Batteries (500 to 1,000 before), always; the Reinforced Hull Plate (half the time) and the 5 to 10 rockets are as they were. The box is worth about two fifths of what the kill pays (it was about a fifth).
-- **The Scouts** hit 50% harder: 221 in Alpha, 332 in Beta and 442 in Gamma (147, 221 and 294). Their hull, shield, speed, range, heal and pay did not change.
-- **The groups that win the Boss on x-3 with x2 ammo, the hits shared:** four in Alpha, six in Beta, seven in Gamma (three, five and six before). When one pilot takes all the fire: five, eight and ten (five, seven and nine before), and five lose three ships doing it. With x4 ammo three are enough in Alpha. One level 8 Paragon alone still wins.
+**The giant excavators**
+- **Twice the output.** Per run in Alpha, Beta and Gamma: Thulium 9,643, 15,429 and 19,286; Cataclysite 2,314, 3,703 and 4,629; Quorvium 1,029, 1,646 and 2,057; Velkonite 640 and Orvium 320 in every world. Fuel, heat, hull, waves and Voids did not change.
+- **The ore of a box** goes into your cargo as before. The Forgery and the Research Centre take Velkonite and Orvium from the Resource storage only, so the Ore Bay is the way in.
+- **Pulsars from day 1.** A pulsar shines on DS-1, DS-2 and DS-3 from the first day of the season and nothing else of the excavator exists before season day 11: no panel, no radiation, no boxes, no Voids. Rocks keep out of the pulsar's disk from day 1.
 
-**Asteroids are cover**
-- **What stops.** Every laser volley and rocket of a pilot, of an alien (the swarms' ships, the Clan Wardens and the dormant aliens among them) and of a company's pilot, and every shot fired from inside a rock. The first rock on the straight line takes the shot, a rocket bursts on its edge, and the target takes nothing. Ammo and cooldowns are spent as for any shot. A target exactly on a rock's edge is not covered; one with its centre inside a rock is.
-- **What the rock takes.** A laser hurts it by the lasers' rule: 5% of the volley, less the rock's armour. A rocket hurts it fully, as when aimed at it. A shot of an alien or of a company's pilot takes nothing off it. A volley of yours at a ship behind a rock mines the rock, and a rock that breaks that way pays you its chunks as if you had aimed at it.
-- **What does not stop.** The N.I.K.E. flies over rocks. Venom is not stopped (it is not a shot), and neither are the Dormant Swamp's guns.
-- **What you see.** A stopped beam ends on the rock's near edge with its sparks, and no hit marker or number shows on the target. The tip "a rocket only hits the asteroid it is fired at" is gone.
+**The Wardens and the rocks**
+- **What a Warden does when it is hit.** The three Wrath Wardens fly at the first pilot who hit them and stop in their laser's range (700, 800 and 900 units); the Siege Wardens keep roaming and fire their rocket; the Brood Warden fights in place, as its drones heal it. The Wrath Wardens are harder to farm from range for that reason.
+- **What a Wrath Warden III sends.** The smallest crew of its gear that wins on x2 ammo is 31 pilots on x-2, 32 on x-3 and 38 on x-4 in the model's best case (26 before the waves); a level 3 clan holds 50. A whole wave pays 24,000, 45,000 or 75,000 Credits in Alpha to whoever kills it, and a Crystalys 75,000 Credits, 200 Thulium, 12,000 XP and 52 honor; the Wrath Warden III itself pays what it paid.
+- **Rocks.** An alien's body stays out of a rock's circle with its hull and a little more; a wave and a Warden's crew are not made inside a rock. A laser of an alien is not fired at a rock at all, and a rocket of an alien that a rock stops takes nothing off it. The Dormant Lance of an Inert Mass takes its own damage off the rock it meets, and nobody is paid for it.
+
+**Signing in**
+- **What is renewed, and when.** The game asks for a new token at the start, every hour and the moment your computer wakes; the server also renews a token an hour old on any call. A token lives 24 hours from its last renewal and 30 days from the sign-in with your password, never longer.
+- **Two games on one computer** keep their own sign-in and stop overwriting each other's remembered one; closing the second game, or docking, no longer shows you Offline to your group for a moment.
+- **Changing a password** gives that game a fresh token and ends the other sessions of the account within the hour.
 
 **The Auction**
-- **A maximum.** The bid sheet has a switch "Bid automatically up to a maximum": type the most you will pay; the Auction takes the lowest bid the lot accepts and raises one least raise over each bid that tops you, up to your maximum and no further. You lead at the lowest bid that beats the next best maximum: with maximums of 500 and 800 Credits on a lot opened at 100, the higher leads at 600. Equal maximums go to the one set first.
-- **Your whole maximum is held while you lead.** When the lot ends you pay only the winning bid and the rest comes back; if someone passes your maximum it comes back at once and you get one message. On a lot you lead, the Maximum button raises it at any time or lowers it as far as your standing bid.
-- **A bid under the leader's hidden maximum is passed at once** (nothing leaves your wallet, but it must be in it). Setting a maximum is not a bid, and every bid counts for the soft close, the Auction's raises too (five extensions at most). It has its own quiet sound.
-- **The opening bid is 20% of the Shop price** (it was 40%): a lot of 50,000 Ultra Cores opens at 10,000 Thulium, it opened at 20,000.
-
-**Farms, designs, boosters**
-
-| Level | Credit Farm an hour, before | now | Thulium Farm an hour, before | now |
-|---|---|---|---|---|
-| 1 | 500 | 750 | 50 | 40 |
-| 5 | 2,500 | 3,750 | 180 | 144 |
-| 10 | 7,500 | 11,250 | 450 | 360 |
-| 15 | 17,000 | 25,500 | 950 | 760 |
-| 20 | 50,000 | 75,000 | 1,600 | 1,280 |
-
-- **Designs.** Every one of the thirteen designs of the Paragon, the Storm, the Ironclad and the Wraith asks for 100,000 Thulium; its materials, its Dark Matter Plates and its 10 minutes are as before. The ships you buy have no design.
-- **Boosters.** Damage, shield points, shield recharge, absorbance, speed and hull (and the amounts of the abilities, which are shares of them) come from one rule for the Hangar, your Pilot page and the ship in flight. A small tag "with boosters" on the Combat stats card says so; hover it for the stats they raise. A booster that runs out changes the Hangar within a couple of seconds, and a Pilot page that lists a running booster refreshes itself every 10 seconds. Penetration, crit chance and range are not changed by boosters; item cards and rocket damage keep the item's own number.
+- **7, 14 or 21 days.** The deposit is 0.25% of the price for each 24 hours the listing runs (0.4% from level 10), a quarter of what it was in 0.4.19 (1%; 1.5% from level 10): 1.75, 3.5 and 5.25% for 7, 14 and 21 days (2.8, 5.6 and 8.4% from level 10). A listing that the season's end shortens pays for the hours it actually runs. The first 10 listings of each UTC day, counted from the day's start whether they sell, expire or are cancelled, pay no deposit; the 5% sale tax is as it was.
+- **The chart.** It shows the asking prices of the other pilots for the same item and enchant in the currency you chose, with your own price as a line and the cheapest, the median, the least price and the last sale marked; with fewer than three other listings it is a plain list. It never shows who sells.
+- **Three lots an hour** (a table of 72 for the day, each hour one lot of x2 ammo, one of x3 ammo or EMP Charges and one of rockets). Twelve are open at once and the board lists the last 36 results.
 
 **What you see and hear**
-- **The Shop's Ships category** shows each crafted ship's designs under its card: a picture, the name, what it changes and its 100,000 Thulium, with a link that opens the Assembly's Ships list for a ship you own. Assembly lists the ship to convert last among a design's ingredients.
-- **The Research view's Ships family** has a row for each ship: the ship at the left, its designs and its hull plate slots beside it, a connector from that ship alone, and a line "Designs also need Dark Matter Plate" under it.
-- One new quiet sound (setting a maximum), every new text in 12 languages.
+- One new quiet sound (the Ore Bay's transfer) and every new text in 12 languages.
+- The Forge's filter says how many pieces it hides, and choosing a merge's donor is never blocked by it.
 
 **For administrators and the server**
-- **At the first start:** two columns (`AuctionBids.Auto` and `AuctionLots.HighMax`, each made once, the old rows read 0) and one data step (`research-engines-cores-v1`, which writes technologies and its guard row only). The backup gate lists three lines. Nine data files change (`items.json`, `recipes.json`, `Research.json`, `Market.json`, `Auction.json`, `Swarms.json`, `SkylabConfig.json`, `Designs.json`, `quests.json`); the seeder appends three recipes. New counters: `rock_cover`, `lot_max_set` and `lot_auto_raises`. No new route, no new client feature string, no new environment variable.
-- **Rolling back to 0.4.18 with lots open** burns the part of a held maximum over the standing bid at settlement: set `MARKET_ENABLED=off`, let the server start once so it drains, then push the old commit (docs/DEPLOY.md).
+- **At the first start:** one data step (`skylab-solar-v5`, which brings every Skylab up to the start under the 0.4.19 power table and then applies the new one) and no schema change: the backup gate lists that one line. Six data files change (`SkylabConfig.json`, `Excavator.json`, `ClanWardens.json`, `ClanLines.json`, `Market.json` and `Auction.json`), none is new, and the seeder adds nothing. Three new routes (`POST /api/skylab/bay/transfer`, `GET /api/market/spread` and `POST /api/auth/refresh`) and one new hub message (`ExcavatorSectors`, sent to games that announce `dormant-ds`). A token now carries two more signed claims and the answer to any call may carry an `X-Refreshed-Token` header. No new environment variable, client feature string or dependency.
+- **Rolling back to 0.4.19** is the job's code-only rollback; lots that are open with a held maximum have the proxy-bid hazard of 0.4.19 (docs/DEPLOY.md).
 
 ## All releases
 
 Each line links the full notes of that release as Markdown (patchnotes/v<version>.md); its HTML page is patchnotes-v<version>.html.
 
+- [0.4.20](https://spacecorps.github.io/play/patchnotes/v0.4.20.md) · 2026-10-10 · The Ore Bay and the longer sign-in update: ore from a giant excavator can finally be moved into your Skylab…
 - [0.4.19](https://spacecorps.github.io/play/patchnotes/v0.4.19.md) · 2026-10-10 · The gear and economy update: every thruster gives 15% less, the Engine II and the Adaptive Core II are made in Assembly…
 - [0.4.18](https://spacecorps.github.io/play/patchnotes/v0.4.18.md) · 2026-10-09 · Fixes the Danger Sector update: the pulsars, the giant excavators and the Dormant Swamp now show when you fly into a Danger Sector through…
 - [0.4.17](https://spacecorps.github.io/play/patchnotes/v0.4.17.md) · 2026-10-09 · The Danger Sector update: when a season reaches day 11 (the Tech Surge), the machines of a lost civilisation wake up.

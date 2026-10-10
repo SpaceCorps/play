@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: Jättegrävmaskin -->
 # Jättegrävmaskin {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; grävmaskin; jättegrävmaskin; pulsar; bränsle; kontrollpanel; överhettning; strålning; våg -->
 
-Från säsongsdag 11 lyser en **pulsar** i var och en av farosektorerna `DS-1`, `DS-2` och `DS-3`, och bredvid den står en **jättegrävmaskin**. Grävmaskinen bryter pulsaren på **Thulium och sällsynta malmer**, och den bränner [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) för det. Vem som helst får tanka den, välja vad den bryter och starta den, och allt den lämnar ifrån sig ligger runt den i lådor som vem som helst får ta. En körning är dock högljudd: hela världen får veta när den startar, **Slumbering Voids** kommer efter den i vågor, och en grävmaskin som körs för länge överhettas och bestrålar hela området. Den här sidan berättar hur en körning går till, vad den ger och hur du överlever den. Sektorerna finns i [Farosektorer](/wiki/01-General/Danger-Sectors.md); Voids i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+Från första dagen av säsongen lyser en **pulsar** i var och en av farosektorerna `DS-1`, `DS-2` och `DS-3`, och från säsongsdag 11 står en **jättegrävmaskin** bredvid den. Grävmaskinen bryter pulsaren på **Thulium och sällsynta malmer**, och den bränner [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) för det. Vem som helst får tanka den, välja vad den bryter och starta den, och allt den lämnar ifrån sig ligger runt den i lådor som vem som helst får ta. En körning är dock högljudd: hela världen får veta när den startar, **Slumbering Voids** kommer efter den i vågor, och en grävmaskin som körs för länge överhettas och bestrålar hela området. Den här sidan berättar hur en körning går till, vad den ger och hur du överlever den. Sektorerna finns i [Farosektorer](/wiki/01-General/Danger-Sectors.md); Voids i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## I korthet {#at-a-glance}
 
@@ -12,7 +14,7 @@ Från säsongsdag 11 lyser en **pulsar** i var och en av farosektorerna `DS-1`, 
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Var**: En pulsar med en jättegrävmaskin i var och en av sektorerna `DS-1`, `DS-2` och `DS-3`, i varje värld
-- **Dyker upp**: Från säsongsdag 11 till wipen
+- **Dyker upp**: Pulsaren från säsongens första dag, grävmaskinen från säsongsdag 11 till wipen
 - **Bränsle**: Dark Matter. En brinner i 10 min; tanken rymmer 3, vilket är 30 min av brytning. Vem som helst får lägga till en i taget, ur den egna lasten
 - **Panel**: Fönstret fungerar inom 600 enheter från grävmaskinen, och skylten syns från 1 400 enheter. Vem som helst får tanka, välja och starta; valet är låst medan den går
 - **Lådor**: En låda var 20 s, 450 till 900 enheter från grävmaskinen, fri för vem som helst från det ögonblick den ligger. Den ligger kvar i 5 min, och högst 24 ligger på en karta samtidigt
@@ -26,7 +28,7 @@ Från säsongsdag 11 lyser en **pulsar** i var och en av farosektorerna `DS-1`, 
 
 ## Så går en körning till {#how-a-run-goes}
 
-1. **Hitta en.** Var och en av de tre farosektorerna som har en pulsar har en grävmaskin, i varje värld. En skylt, **Grävmaskin**, hänger över den när du är nära, och Stjärnsystemskartan visar tillståndet för grävmaskinen i den sektor du flyger i.
+1. **Hitta en.** Från säsongsdag 11 har var och en av de tre farosektorerna som har en pulsar en grävmaskin, i varje värld. En skylt, **Grävmaskin**, hänger över den när du är nära, och Stjärnsystemskartan markerar varje farosektor som har en: markeringens färg är grävmaskinens tillstånd, och dess verktygstips anger tiden till nästa ändring.
 2. **Öppna panelen.** Klicka på skylten. Fönstret **Jättegrävmaskin** fungerar så länge ditt skepp är inom kontrollpanelens räckvidd (listan *I korthet* anger den). Ett kamouflerat skepp kan använda den, och att använda den avslutar inte kamouflaget.
 3. **Tanka den.** **Lägg till Dark Matter** lägger en Dark Matter från din last i tanken. Vem som helst kan göra det. Tanken tar aldrig emot mer än grävmaskinen hinner bränna innan den överhettas, så inget bränsle går till spillo.
 4. **Välj vad som ska brytas** i listan och tryck sedan på **Starta brytning**. Det kräver minst en Dark Matter i tanken och en resurs. Vem som helst kan ändra valet fram till starten; när den går är resursen låst. Starten meddelas varje pilot i världen, med ditt namn, sektorn och resursen.
@@ -47,7 +49,7 @@ Om bränslet tar slut före gränsen går grävmaskinen tillbaka till **Redo** m
 
 ## Vad den bryter {#what-it-mines}
 
-En full tank är avvägd för att ge ungefär vad två eller tre piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer en resurs per körning. En låda är densamma för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium.
+En full tank ger ungefär vad fem piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer en resurs per körning. En låda är densamma för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@ En full tank (3 Dark Matter, 30 min av brytning) ger mängderna nedan, i 90 låd
 
 | Resurs | Alpha | Beta | Gamma | En minut, i Alfa | En låda, i Alfa |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4 821 | 7 714 | 9 643 | 160,7 | 53,6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1 157 | 1 851 | 2 314 | 38,6 | 12,9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1 029 | 17,1 | 5,7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10,7 | 3,6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5,3 | 1,8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9 643 | 15 429 | 19 286 | 321,4 | 107,1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2 314 | 3 703 | 4 629 | 77,1 | 25,7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1 029 | 1 646 | 2 057 | 34,3 | 11,4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21,3 | 7,1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10,7 | 3,6 |
 
-- En körning av Velkonite eller Orvium ger högst 4 timmar från en nivå 20-samlare i [Skylab](/wiki/03-Mechanics/Skylab.md) för den malmen (320 Velkonite, 160 Orvium), i varje värld: det är Skylabs malmer, och en körning påskyndar aldrig dess takt mer än så.
+- En körning av Velkonite eller Orvium ger högst 8 timmar från en nivå 20-samlare i [Skylab](/wiki/03-Mechanics/Skylab.md) för den malmen (640 Velkonite, 320 Orvium), i varje värld: det är Skylabs malmer, och en körning påskyndar aldrig dess takt mer än så.
 - En låda innehåller ungefär mängden i sista kolumnen, 15 % mer eller mindre. En Thulium-låda är kontanter: upplockningen betalar ut dem. En malmlåda innehåller föremålet.
 
 <!-- excavator-resources:end -->
 
 Pilotens egna boosters fungerar som för all last: Resource Magnet Boosters bonus ökar en malmlåda. Det finns ingen dagsgräns för lådorna: bränslet och klockan är det som begränsar en körning.
 
-**Vad malmen är till för.** Malmen i en låda hamnar i din last som vilket föremål som helst. Cataclysite och Quorvium används i Monteringen och i Smedjan ([Resurser](/wiki/06-Items/Resources.md)). Skylabs smedja tar sin malm bara från Resurslagret, som samlarna fyller; Velkonite och Orvium i en låda är alltså bränsle för [Forskningscentrumet](/wiki/03-Mechanics/Research.md#fuel), inte för smedjan.
+**Vad malmen är till för.** Malmen i en låda hamnar i din last som vilket föremål som helst. Cataclysite och Quorvium används i Monteringen och i Smedjan ([Resurser](/wiki/06-Items/Resources.md)). Skylabs smedja och Forskningscentrum tar Velkonite och Orvium bara från Resurslagret, som samlarna fyller; malmen i en låda är alltså till ingen nytta i din last: parkera skeppet, så flyttar [Malmviken](/wiki/03-Mechanics/Skylab.md#ore-bay) i ditt Skylab (kärnnivå 10) den till lagret, upp till sin kvot i timmen, och därifrån tar smedjan och [Forskningscentrumet](/wiki/03-Mechanics/Research.md#fuel) den.
 
 ## Slumbering Voids {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@ Brytningen lägger på värme sekund för sekund. Värmen är **kumulativ och sv
 
 <!-- excavator-radiation:end -->
 
-- **Varningen.** Två gånger före överhettningen (tiderna står i listan ovan) får kartan veta det, ett skepp inom cirklarna ser en varning, och cirklarna ritas på Stjärnsystemskartan och minikartan. När de strålar är cirklarna röda och Strålningsmätaren visar dosen.
+- **Varningen.** Två gånger före överhettningen (tiderna står i listan ovan) får kartan veta det, ett skepp inom cirklarna ser en varning, och cirklarna ritas på marken under flygning och på minikartan. När de strålar är cirklarna röda och Strålningsmätaren visar dosen.
 - **Att lämna området.** Alla standardskepp kan ta sig ut från panelens kant eller från den längst bort belägna låda som finns kvar, utom den långsamma Ironclad: den lämnar under varningen, eller så lämnar den inte. Stå inte på en låda när värmen tar slut.
 - **Byte i cirklarna.** Lådor som lagts före överhettningen ligger kvar i strålningen: en låda som ligger där när den börjar tas till priset av dosen.
 - **En omstart av servern** pausar en körning: bränslet och värmen kommer tillbaka som de var, vilan går vidare efter klockan, och första vågen efter omstarten kommer en minut senare.

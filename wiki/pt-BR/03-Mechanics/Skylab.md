@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: f2f334d2bb9d511a -->
+<!-- wiki-i18n source: 42731fd43a13e953 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
 O Skylab é a sua instalação orbital pessoal. Ele constrói e melhora módulos que produzem créditos e Thulium, extraem minério, forjam as placas que a Montagem transforma nos melhores lasers e, a partir do nível 10 do Núcleo, pesquisam as tecnologias de que a Montagem precisa. Ele trabalha para você mesmo quando você está offline.
 
-No nível 10 do Núcleo, o Skylab ainda cresce: uma **ponte** liga o Núcleo a um segundo Núcleo com seis slots a mais para módulos, e dois módulos a mais se encaixam nele, a **Impressora de munição** e a **Fábrica de foguetes**, que produzem munição e foguetes do nada (veja [A ponte e o Núcleo 2](#the-bridge-and-core-2)).
+No nível 10 do Núcleo, o Skylab ainda cresce: uma **ponte** liga o Núcleo a um segundo Núcleo com seis slots a mais para módulos, e três módulos a mais se encaixam nele: a **Impressora de munição** e a **Fábrica de foguetes**, que produzem munição e foguetes do nada, e a **Baía de minério**, que move para o Depósito de recursos o minério que você carrega (veja [A ponte e o Núcleo 2](#the-bridge-and-core-2) e [Baía de minério](#ore-bay)).
 
 > [!NOTE]
 > **O que mudou na 0.4.10.** Cada módulo do Skylab agora tem a sua própria tabela de produção, preços e tempos, nível por nível. Você manteve os seus níveis: nada foi cobrado e nada foi devolvido pela diferença. O que as suas minas e os seus coletores guardavam nos armazenamentos quando a atualização chegou foi pago **uma única vez, pela taxa antiga**: os créditos e o Thulium foram para a sua conta, o minério para o seu Depósito de recursos, e os armazenamentos recomeçaram vazios.
@@ -24,14 +24,14 @@ No nível 10 do Núcleo, o Skylab ainda cresce: uma **ponte** liga o Núcleo a u
 - As minas e os coletores enchem um **armazenamento** (de 72 horas) enquanto você está fora. **Coletar** o leva para a sua conta (créditos, Thulium) ou para o seu Depósito de recursos (minério).
 - A **Mina de Thulium** é a sua principal fonte de Thulium: 40 por hora no nível 1, 1.280 no nível 20. A Mina de créditos produz 750 créditos por hora no nível 1 e 75.000 no nível 20.
 - O **Núcleo** dita o ritmo: nenhum módulo passa dele, e a subida dele sozinha leva cerca de 16 dias e meio.
-- No **nível 10 do Núcleo**, uma **ponte** constrói o **Núcleo 2**, com seis slots a mais para módulos, e a **Impressora de munição** e a **Fábrica de foguetes** se encaixam nele. O passo para o nível 10 custa 2.000 Thulium a mais.
+- No **nível 10 do Núcleo**, uma **ponte** constrói o **Núcleo 2**, com seis slots a mais para módulos, e a **Impressora de munição**, a **Fábrica de foguetes** e a **Baía de minério** se encaixam nele. O passo para o nível 10 custa 2.000 Thulium a mais.
 - **A Usina solar produz só 25% da sua energia enquanto é melhorada**, então as suas minas e os seus coletores param até ela terminar. [Planeje isso](#timing-a-solar-upgrade).
 
 ## Visão geral {#overview}
 
 O Skylab funciona no seu próprio relógio, separado da sua nave: os módulos produzem e forjam enquanto você está fora. O que você faz é construir, melhorar, manter a energia em equilíbrio e coletar. A página tem quatro visões da mesma estação: **Estação** (a estação em 3D, com uma etiqueta sobre cada módulo; clique em uma para abrir a ficha do módulo, ou pressione **1** a **9**), **Lista** (um cartão para cada módulo), **Tabela** (os números de todos os módulos em uma só tabela) e **Pesquisa** (a tela própria do Centro de Pesquisa, veja [Pesquisa](/wiki/03-Mechanics/Research.md)). Passar o mouse sobre **Construir** ou **Melhorar** mostra o que o próximo nível muda, quanto custa e quanto tempo leva.
 
-Onze módulos formam a estação:
+Doze módulos formam a estação:
 
 | Módulo | O que produz ou faz | Construído a partir de |
 | :--- | :--- | :--- |
@@ -46,6 +46,7 @@ Onze módulos formam a estação:
 | **Centro de Pesquisa** | Transforma recursos em ciência e pesquisa [tecnologias](/wiki/03-Mechanics/Research.md) | Núcleo no nível 10 |
 | **Impressora de munição** | Imprime munição x2, x3 ou x4 do nada | Núcleo no nível 10, no Núcleo 2 |
 | **Fábrica de foguetes** | Fabrica foguetes da loja do nada | Núcleo no nível 10, no Núcleo 2 |
+| **Baía de minério** | Move para o Depósito de recursos o Velkonite e o Orvium que você carrega | Núcleo no nível 10, no Núcleo 2 |
 
 A **ponte** e o **Núcleo 2** não são módulos: eles surgem quando o Núcleo chega ao nível 10, e o Núcleo 2 não tem nível próprio (veja [A ponte e o Núcleo 2](#the-bridge-and-core-2)).
 
@@ -107,7 +108,7 @@ O coração do seu Skylab. O nível do Núcleo decide o nível mais alto de todo
 A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todos os outros módulos usam.
 
 - **Importância**: se o seu consumo de energia for maior que a energia produzida, as suas minas e os seus coletores param de produzir.
-- **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 965 no nível 7, 17.890 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
+- **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 965 no nível 7, 17.990 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
 - **Preço**: construir a Usina solar custa **500 créditos e 50 Thulium**. As melhorias dela custam o mesmo e levam o mesmo tempo que as da Forja: de 8.000 créditos e 25 Thulium para o nível 2 (5 minutos) a 9.000.000 de créditos e 10.000 Thulium para o nível 20 (24 horas).
 - **Melhoria**: enquanto é melhorada, a Usina solar produz só **25%** da energia do seu nível atual, e a do novo nível a partir do momento em que a melhoria termina. Uma estação que usa mais do que isso para: toda mina e todo coletor deixam de produzir, e a Forja não inicia nenhum lote novo até a melhoria terminar. Para quase toda estação é assim: ela só continua funcionando durante a melhoria se todos os outros módulos estiverem pelo menos cinco níveis abaixo da Usina solar (seis níveis a partir do nível 10 da Usina solar). Planeje a melhoria da Usina solar como um apagão das suas minas (veja Construção e melhoria).
 - **Lugar**: a partir do nível 10 do Núcleo, a Usina solar fica no Núcleo 2, na outra ponta da estação (veja [A ponte e o Núcleo 2](#the-bridge-and-core-2)).
@@ -120,7 +121,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 ## A cadeia de suprimentos {#the-supply-chain}
 
-Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/06-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende. (Uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) também solta um pouco de Velkonite e Orvium em caixas, mas esse minério vai para a sua carga, onde é combustível do Centro de Pesquisa, e a Forja não o pega.)
+Quatro módulos transformam o tempo longe do teclado nas placas para os seus melhores lasers. O minério vem **só** dos coletores (todos os materiais e moedas estão na página [Recursos](/wiki/06-Items/Resources.md)): os alienígenas não o soltam e a Loja não o vende. (Uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) também solta um pouco de Velkonite e Orvium em caixas, mas esse minério vai para a sua carga, e só a [Baía de minério](#ore-bay) o move para o Depósito de recursos, de onde a Forja e o Centro de Pesquisa o pegam.)
 
 1. Um **coletor** extrai minério, uma quantidade por hora, para o seu próprio armazenamento (o equivalente a 72 horas).
 2. **Coletar** move o minério do armazenamento para o **Depósito de recursos**, onde cada minério fica guardado à parte.
@@ -139,7 +140,7 @@ Quatro módulos transformam o tempo longe do teclado nas placas para os seus mel
 - **Depósito**: guarda o Velkonite e o Orvium separados, e comporta uma quantidade diferente de cada um: **240 de cada no nível 1**, até 7.680 de Velkonite e 3.840 de Orvium no nível 20 (nível 5: 720 e 560; nível 10: 1.920 e 1.440).
 - **Limite**: um dia da produção do coletor dele no nível 1, até quatro dias no nível 20. O armazenamento de um coletor guarda três dias, então, a partir do nível 13, o depósito comporta pelo menos um armazenamento cheio.
 - **Acima do limite**: se um depósito tem mais do que o seu limite (o pagamento da atualização 0.4.10 pode tê-lo deixado assim), nada é tirado, mas Coletar não acrescenta mais desse minério até você ter gastado um pouco.
-- O minério só entra coletando de um coletor e só sai para a Forja. Ele nunca chega ao seu inventário.
+- O minério entra coletando de um coletor ou, do seu inventário, pela [Baía de minério](#ore-bay), e só sai para a Forja e o Centro de Pesquisa. Ele nunca volta ao seu inventário.
 - **O minério guardado permanece** no reset da temporada.
 - **Energia**: 10 no nível 1, crescendo 10% por nível. Ele não pode ser desligado.
 
@@ -172,7 +173,7 @@ A melhoria do Núcleo para o **nível 10** constrói uma **ponte** e um segundo 
 - **O Núcleo 2 não tem nível**: não há nada para melhorar nem para pagar. Ele dá à sua estação **seis slots a mais para módulos**, e o cartão do Núcleo mostra quantos estão livres.
 - **A Usina solar se muda**: a Usina solar deixa a porta norte do Núcleo, que agora a ponte ocupa, e passa para a porta norte do Núcleo 2, na outra ponta da estação. O nível dela, a energia dela e uma melhoria em andamento ficam intactos.
 - **Uma regra, não uma obra**: onde cada módulo fica depende só do nível do Núcleo. A ponte surge no momento em que a melhoria do Núcleo para o nível 10 termina (um som discreto e uma mensagem avisam você), e um Skylab cujo Núcleo já está no nível 10 ou mais a tem na próxima vez que você olhar. Nenhum módulo se perde ou é apagado, e só a Usina solar muda de lugar.
-- **Slots**: a **Impressora de munição** ocupa o slot nordeste do Núcleo 2 e a **Fábrica de foguetes** o noroeste; os outros quatro ficam livres para módulos futuros. As duas só podem ser construídas quando o Núcleo 2 existe: antes disso, o botão de construir diz “Requer Núcleo 2”.
+- **Slots**: a **Impressora de munição** ocupa o slot nordeste do Núcleo 2, a **Fábrica de foguetes** o noroeste e a **Baía de minério** a estrutura leste; os outros três ficam livres para módulos futuros. Os três só podem ser construídos quando o Núcleo 2 existe: antes disso, o botão de construir diz “Requer Núcleo 2”.
 - **Níveis**: um módulo no Núcleo 2 segue o nível do Núcleo como qualquer outro módulo: nenhum passa do Núcleo, então o Núcleo 2 acrescenta slots, não níveis.
 
 ### Impressora de munição {#ammo-printer}
@@ -199,6 +200,18 @@ A Fábrica de foguetes fabrica foguetes da loja do nada, de um tipo por vez. Ela
 - **Construção**: 20.000 créditos, 500 Thulium e 15 Ship Fragments (do seu inventário, com a nave pousada), só no Núcleo 2. As melhorias dela custam um quarto das da impressora, de 5.300 créditos e 35 Thulium a 1.400.000 créditos e 2.800 Thulium, e levam o mesmo tempo: 5 d 13 h no total.
 - **Não vendável**: o que ela fabrica não pode ser vendido no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 
+### Baía de minério {#ore-bay}
+
+A Baía de minério move para o Depósito de recursos o minério que você carrega. Uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) solta Velkonite e Orvium em caixas que vão para a sua carga, onde nenhum módulo os usa; a Baía de minério é o caminho dali até o banco, de onde a Forja e o Centro de Pesquisa o pegam. Ela tem os níveis 1 a 20.
+
+- **O que ela move**: **Velkonite e Orvium**, os dois minérios que o Depósito de recursos guarda. Cataclysite e Quorvium são combustível que o Centro de Pesquisa e a [Forja](/wiki/06-Items/Forge.md) pegam direto do seu inventário, e o Thulium vai para a sua conta quando você o pega.
+- **Em um só sentido**: do seu inventário para o Depósito de recursos, nunca de volta. Só o minério solto no seu inventário é movido, nunca o do Cache de Transporte.
+- **Como**: a sua **nave precisa estar pousada**. A transferência é instantânea: na folha da Baía de minério escolha o minério, digite uma quantidade ou aperte Máx. e aperte **Mover**. A folha mostra o que você carrega e o que o banco guarda frente à sua capacidade.
+- **Cota**: o nível define quanto minério ela move por hora, **10 no nível 1, 320 no nível 20**, e ela guarda até um dia disso (240 no nível 1, 7.680 no nível 20). Uma Baía nova começa com um dia cheio, e uma melhoria mantém o que estava guardado. Uma transferência é cortada no minério que você carrega, no espaço que sobra no Depósito de recursos e na cota, e a folha diz qual.
+- **Energia**: 15 no nível 1, crescendo 10% por nível (92 no nível 20). Pode ser desligada. Num déficit de energia, enquanto está desligada e enquanto é melhorada, ela não move nada.
+- **Construção**: 5.000 créditos, 250 Thulium e 10 Ship Fragments (do seu inventário, com a nave pousada), só no Núcleo 2. As melhorias custam o que as do Depósito de recursos custam e levam o mesmo tempo (veja as tabelas abaixo).
+- **Não é um caminho para mais minério**: ela move minério que você já tem. Uma rodada da escavadeira é limitada na origem, e a capacidade do Depósito de recursos limita o banco.
+
 ## Mecânicas {#mechanics}
 
 ### Construção e melhoria {#building-and-upgrading}
@@ -212,7 +225,7 @@ A Fábrica de foguetes fabrica foguetes da loja do nada, de um tipo por vez. Ela
 
 ### Quanto custa {#what-it-costs}
 
-O preço da subida inteira, a construção mais cada melhoria, até o nível 10 e até o nível 20. O Núcleo está sempre lá e os passos dele custam créditos, com 2.000 Thulium a mais no passo para o nível 10; o Centro de Pesquisa tem os níveis 1 a 10 e os números dele estão na página [Pesquisa](/wiki/03-Mechanics/Research.md). A Impressora de munição e a Fábrica de foguetes são construídas no Núcleo 2, portanto só quando o Núcleo está no nível 10, e o nível 1 delas é a construção.
+O preço da subida inteira, a construção mais cada melhoria, até o nível 10 e até o nível 20. O Núcleo está sempre lá e os passos dele custam créditos, com 2.000 Thulium a mais no passo para o nível 10; o Centro de Pesquisa tem os níveis 1 a 10 e os números dele estão na página [Pesquisa](/wiki/03-Mechanics/Research.md). A Impressora de munição, a Fábrica de foguetes e a Baía de minério são construídas no Núcleo 2, portanto só quando o Núcleo está no nível 10, e o nível 1 delas é a construção.
 
 | Módulo | Créditos até o nível 10 | Thulium até o nível 10 | Créditos até o nível 20 | Thulium até o nível 20 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -226,6 +239,7 @@ O preço da subida inteira, a construção mais cada melhoria, até o nível 10 
 | Forja | 1.224.000 | 2.050 | 35.044.000 | 37.300 |
 | Impressora de munição | 1.411.000 | 5.140 | 22.031.000 | 47.940 |
 | Fábrica de foguetes | 377.300 | 1.674 | 5.547.300 | 12.494 |
+| Baía de minério | 619.500 | 359 | 18.169.500 | 2.649 |
 
 Os primeiros passos são baratos e os últimos caros: o passo da Mina de créditos do nível 1 ao 2 custa 5.000 créditos e 1 Thulium, e o do 19 ao 20 custa 7.000.000 de créditos e 550 Thulium. Os da Mina de Thulium custam 7.000 créditos e 45 Thulium, depois 8.500.000 créditos e 16.000 Thulium. As melhorias da Usina solar custam em cada nível o mesmo que as da Forja, e os dois coletores custam o mesmo entre si.
 
@@ -267,17 +281,17 @@ Uma melhoria que já está em andamento quando os tempos mudam mantém o horári
 O seu Skylab tem um orçamento de energia limitado.
 
 - **Balanço**: mantenha a produção da Usina solar acima da energia que todos os outros módulos usam. A página do Skylab mostra o balanço e avisa antes que uma construção o empurre para abaixo de zero.
-- **A Usina solar acompanha**: um módulo Usina solar no nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa da Usina solar 7 e a tem coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar ainda precisa acompanhar os demais na subida. O Núcleo consome pouco, então pode ir na frente: a Usina solar 5 e acima cobre uma estação completa no nível dela com o Núcleo em qualquer nível. A tabela mais abaixo conta também a Impressora de munição a partir do nível 7 e a Fábrica de foguetes a partir do nível 10.
-- **Estado ativo**: você pode ligar ou desligar as minas, os coletores e a Forja para administrar a energia. O Núcleo, a Usina solar, o Depósito de recursos e o Centro de Pesquisa sempre funcionam. A Impressora de munição e a Fábrica de foguetes também podem ser ligadas e desligadas.
-- **Déficit de energia**: se o consumo de energia for maior que a produção, todas as minas e todos os coletores param de produzir até o balanço voltar. O que eles já guardam continua lá, e você ainda pode coletar. A Forja não inicia nenhum lote novo, e o Centro de Pesquisa não inicia nenhuma pesquisa nova (uma pesquisa já em andamento continua). A Impressora de munição e a Fábrica de foguetes param como as minas e os coletores.
+- **A Usina solar acompanha**: um módulo Usina solar no nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa e a Baía de minério) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa da Usina solar 7 e a tem coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar ainda precisa acompanhar os demais na subida. O Núcleo consome pouco, então pode ir na frente: a Usina solar 5 e acima cobre uma estação completa no nível dela com o Núcleo em qualquer nível. A tabela mais abaixo conta também a Impressora de munição a partir do nível 7, e a Fábrica de foguetes e a Baía de minério a partir do nível 10.
+- **Estado ativo**: você pode ligar ou desligar as minas, os coletores e a Forja para administrar a energia. O Núcleo, a Usina solar, o Depósito de recursos e o Centro de Pesquisa sempre funcionam. A Impressora de munição, a Fábrica de foguetes e a Baía de minério também podem ser ligadas e desligadas.
+- **Déficit de energia**: se o consumo de energia for maior que a produção, todas as minas e todos os coletores param de produzir até o balanço voltar. O que eles já guardam continua lá, e você ainda pode coletar. A Forja não inicia nenhum lote novo, e o Centro de Pesquisa não inicia nenhuma pesquisa nova (uma pesquisa já em andamento continua). A Impressora de munição, a Fábrica de foguetes e a Baía de minério param como as minas e os coletores.
 - **Melhoria da Usina solar**: enquanto é melhorada, a Usina solar produz só um quarto da sua energia, então, se os seus outros módulos não estiverem bem abaixo, a estação entra em déficit e as minas e os coletores param até a melhoria terminar (veja [Módulo Usina solar](#solar-module)).
 
-A energia da Usina solar em cada nível, contra o que os outros módulos usam no mesmo nível (todos os módulos nesse nível, o Núcleo incluído, e o Centro de Pesquisa a partir do nível 10):
+A energia da Usina solar em cada nível, contra o que os outros módulos usam no mesmo nível (todos os módulos nesse nível, o Núcleo incluído, e o Centro de Pesquisa e a Baía de minério a partir do nível 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
 
-| Nível | A Usina solar produz | Os outros sete módulos consomem | Sobra | Com a Usina solar um nível abaixo |
+| Nível | A Usina solar produz | Os outros módulos consomem | Sobra | Com a Usina solar um nível abaixo |
 | :--- | ---: | ---: | ---: | :--- |
 | 1 | 255 | 230 | 25 | – |
 | 2 | 310 | 278 | 32 | 255: faltam 23 |
@@ -288,20 +302,20 @@ A energia da Usina solar em cada nível, contra o que os outros módulos usam no
 | 7 | 965 | 875 | 90 | 680: faltam 195 |
 | 8 | 1.185 | 1.076 | 109 | 965: faltam 111 |
 | 9 | 1.460 | 1.327 | 133 | 1.185: faltam 142 |
-| 10 | 2.000 | 1.814 | 186 | 1.460: faltam 354 |
-| 11 | 2.445 | 2.221 | 224 | 2.000: faltam 221 |
-| 12 | 3.005 | 2.731 | 274 | 2.445: faltam 286 |
-| 13 | 3.715 | 3.373 | 342 | 3.005: faltam 368 |
-| 14 | 4.605 | 4.183 | 422 | 3.715: faltam 468 |
-| 15 | 5.730 | 5.205 | 525 | 4.605: faltam 600 |
-| 16 | 7.150 | 6.499 | 651 | 5.730: faltam 769 |
-| 17 | 8.955 | 8.140 | 815 | 7.150: faltam 990 |
-| 18 | 11.250 | 10.225 | 1.025 | 8.955: faltam 1.270 |
-| 19 | 14.170 | 12.879 | 1.291 | 11.250: faltam 1.629 |
-| 20 | 17.890 | 16.261 | 1.629 | 14.170: faltam 2.091 |
+| 10 | 2.035 | 1.849 | 186 | 1.460: faltam 389 |
+| 11 | 2.490 | 2.260 | 230 | 2.035: faltam 225 |
+| 12 | 3.055 | 2.774 | 281 | 2.490: faltam 284 |
+| 13 | 3.765 | 3.421 | 344 | 3.055: faltam 366 |
+| 14 | 4.660 | 4.235 | 425 | 3.765: faltam 470 |
+| 15 | 5.790 | 5.262 | 528 | 4.660: faltam 602 |
+| 16 | 7.220 | 6.562 | 658 | 5.790: faltam 772 |
+| 17 | 9.035 | 8.209 | 826 | 7.220: faltam 989 |
+| 18 | 11.335 | 10.301 | 1.034 | 9.035: faltam 1.266 |
+| 19 | 14.260 | 12.962 | 1.298 | 11.335: faltam 1.627 |
+| 20 | 17.990 | 16.353 | 1.637 | 14.260: faltam 2.093 |
 <!-- skylab-power:end -->
 
-A tabela conta todos os módulos no mesmo nível. A Mina de Thulium consome quase três quartos desse total no topo (11.695 no nível 20, contra 16.261 para os dez juntos), então uma estação com essa mina bem à frente do resto precisa de mais Usina solar do que o seu Núcleo sugere.
+A tabela conta todos os módulos no mesmo nível. A Mina de Thulium consome quase três quartos desse total no topo (11.695 no nível 20, contra 16.353 para os onze juntos), então uma estação com essa mina bem à frente do resto precisa de mais Usina solar do que o seu Núcleo sugere.
 
 ### Coleta {#collecting}
 
@@ -312,12 +326,13 @@ Cada mina e cada coletor tem um armazenamento para cerca de 72 horas do que prod
 - **Coletores**: o minério vai para o Depósito de recursos, até onde houver espaço.
 - **Forja**: as placas vão para o seu inventário, quando a sua nave está pousada.
 - **Impressora de munição e Fábrica de foguetes**: a munição e os foguetes vão para o seu inventário, quando a sua nave está pousada. Cada uma guarda só 24 horas de produção (veja [Impressora de munição](#ammo-printer) e [Fábrica de foguetes](#rocket-factory)).
+- **Baía de minério**: nada a coletar. Ela move o minério do seu inventário para o Depósito de recursos quando você aperta **Mover**, com a nave pousada, até a sua cota (veja [Baía de minério](#ore-bay)).
 - **Coletar tudo** pega tudo de uma vez, inclusive de módulos desligados e em melhoria.
 - Um selo **(!)** aponta um armazenamento cheio que você pode esvaziar, e as placas que esperam na Forja, na página do Skylab e na linha do Skylab da barra lateral.
 
 ### O reset {#the-wipe}
 
-O Skylab nunca sofre reset: os módulos mantêm os níveis, o Depósito de recursos mantém o minério e o Centro de Pesquisa mantém as tecnologias, o tanque de ciência, a Dark Matter que ele contém e uma pesquisa em andamento. As placas no seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md). A Impressora de munição e a Fábrica de foguetes mantêm os seus níveis, o que foram ajustadas para fazer e o que guardam.
+O Skylab nunca sofre reset: os módulos mantêm os níveis, o Depósito de recursos mantém o minério e o Centro de Pesquisa mantém as tecnologias, o tanque de ciência, a Dark Matter que ele contém e uma pesquisa em andamento. As placas no seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md). A Impressora de munição e a Fábrica de foguetes mantêm os seus níveis, o que foram ajustadas para fazer e o que guardam, e a Baía de minério mantém o nível e a cota. O minério do seu inventário sofre reset como qualquer item: mova-o antes para o Depósito de recursos.
 
 ## Planejando o seu Skylab {#planning-your-skylab}
 
@@ -330,11 +345,11 @@ O Skylab leva semanas para crescer, então um pouco de planejamento compensa. Os
 3. **A Mina de créditos é a renda constante de apoio.** No nível 10 ela produz 11.250 créditos por hora, 270.000 por dia, por 840.000 créditos e 109 Thulium. Os níveis mais altos se pagam devagar: o passo do nível 9 ao 10 custa 300.000 créditos por 1.500 a mais por hora, ou seja, 200 horas. Melhore-a quando sobrarem créditos.
 4. **Mantenha o Núcleo ocupado.** Nada passa do Núcleo, e o Núcleo sozinho leva cerca de 16 dias e meio para chegar ao nível 20. Não há fila, então inicie o próximo passo dele toda vez que voltar.
 5. **Construa a cadeia de suprimentos como um conjunto.** Os coletores, o Depósito de recursos e a Forja abrem no nível 5 do Núcleo. Um coletor só pode depositar minério em um Depósito de recursos, e o depósito comporta um dia da produção do coletor dele no nível 1 e quatro dias no nível 20, então melhore o Depósito junto com os coletores, senão o minério fica esperando nos armazenamentos deles.
-6. **Deixe 2.000 Thulium prontos para o nível 10 do Núcleo.** O passo do Núcleo do nível 9 para o nível 10 pede isso, e ele constrói a ponte e o Núcleo 2, onde são construídas a [Impressora de munição](#ammo-printer) e a [Fábrica de foguetes](#rocket-factory).
+6. **Deixe 2.000 Thulium prontos para o nível 10 do Núcleo.** O passo do Núcleo do nível 9 para o nível 10 pede isso, e ele constrói a ponte e o Núcleo 2, onde são construídas a [Impressora de munição](#ammo-printer), a [Fábrica de foguetes](#rocket-factory) e a [Baía de minério](#ore-bay).
 
 ### Planejando uma melhoria da Usina solar {#timing-a-solar-upgrade}
 
-Enquanto é melhorada, a Usina solar produz um quarto da sua energia, e uma estação quase sempre usa mais do que isso. As minas e os coletores então param durante toda a melhoria: o que eles guardam continua lá, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda funciona durante ele (todos os módulos no mesmo nível, com o Núcleo e a cadeia de suprimentos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 45.000 créditos e 1.440 Thulium. A tabela conta também a Impressora de munição a partir do nível 7 e a Fábrica de foguetes a partir do nível 10.
+Enquanto é melhorada, a Usina solar produz um quarto da sua energia, e uma estação quase sempre usa mais do que isso. As minas e os coletores então param durante toda a melhoria: o que eles guardam continua lá, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda funciona durante ele (todos os módulos no mesmo nível, com o Núcleo e a cadeia de suprimentos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 45.000 créditos e 1.440 Thulium. A tabela conta também a Impressora de munição a partir do nível 7, e a Fábrica de foguetes e a Baía de minério a partir do nível 10.
 
 | Melhoria da Usina solar | Tempo | Estação que continua funcionando, até o nível | A Mina de créditos produz nesse tempo | A Mina de Thulium produz nesse tempo |
 | :--- | ---: | ---: | ---: | ---: |
@@ -347,14 +362,14 @@ Enquanto é melhorada, a Usina solar produz um quarto da sua energia, e uma esta
 | 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
 | 8 a 9 | 2 h | 2 | 16.500 | 528 |
 | 9 a 10 | 3 h | 3 | 29.250 | 912 |
-| 10 a 11 | 4 h | 4 | 45.000 | 1.440 |
-| 11 a 12 | 5 h | 5 | 67.500 | 2.200 |
+| 10 a 11 | 4 h | 5 | 45.000 | 1.440 |
+| 11 a 12 | 5 h | 6 | 67.500 | 2.200 |
 | 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
 | 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
 | 16 a 17 | 16 h | 9 | 480.000 | 14.080 |
-| 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
+| 17 a 18 | 18 h | 10 | 648.000 | 18.000 |
 | 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
 | 19 a 20 | 1 d | 13 | 1.260.000 | 28.800 |
 

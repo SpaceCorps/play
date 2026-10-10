@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -7,6 +7,8 @@ La **Forja** es la segunda pestaña de la página de Ensamblaje (y de la ventana
 ## Qué se puede forjar {#what-can-be-forged}
 
 Láseres, amplificadores láser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos, Repair Drones y [blindaje de casco](/wiki/06-Items/Hull-Plating.md): cualquier pieza de equipo que pueda llevar [bonificaciones de encantamiento](/wiki/06-Items/Overview.md). Puede estar en tu inventario, en una nave (se queda allí y funciona con su nuevo grado de inmediato) o instalada dentro de otro objeto. Los drones, las naves, la munición, los recursos y los potenciadores no se pueden forjar, ni tampoco nada que esté en el Alijo de Transporte: sácalo primero.
+
+La lista de equipo tiene un selector **Todos / Equipados / En inventario** junto a los demás filtros. **Equipados** muestra lo que está en una nave o encajado en otro objeto, **En inventario** lo que está suelto, y una línea bajo el título dice cuántas piezas oculta el selector. Mientras eliges el donante de una combinación, «Equipados» queda en pausa, porque un donante debe estar suelto.
 
 ## Subir grado {#tier-up}
 

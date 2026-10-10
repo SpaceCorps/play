@@ -106,7 +106,7 @@
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个）: **20** (另需 Cataclysite ×40, Reinforced Hull Plate ×4, 100,000 信用点, 1,500 Thulium)
 - [锻造炉](/wiki/06-Items/Forge.md), 标准 → 腐化: **5** (另需 Daraxium ×15, 10,000 信用点；成功率 100%)
 - [锻造炉](/wiki/06-Items/Forge.md), 腐化 → 神圣: **30** (另需 Nyxite ×45, 50,000 信用点；成功率 90%)
-- [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：弹药打印机, 锻造厂, Orvium 采集器, 资源仓库, Velkonite 采集器 各 **10**（取自你的物品栏，而不是运输储藏库）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：弹药打印机, 锻造厂, 矿石舱, Orvium 采集器, 资源仓库, Velkonite 采集器 各 **10**（取自你的物品栏，而不是运输储藏库）
 - [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：火箭工厂 各 **15**（取自你的物品栏，而不是运输储藏库）
 - [Skylab](/wiki/03-Mechanics/Skylab.md)，建造模块：研究中心 各 **25**（取自你的物品栏，而不是运输储藏库）
 - [研究中心](/wiki/03-Mechanics/Research.md#fuel)，燃料：每个单位 **5** 科研点
@@ -336,7 +336,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%：2 | 2 |
 
 - **小行星**：在 Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
-- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 1,157 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 2,314 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **任务**：Bulwark 风暴（挑战）245; Crystalys 肃清（挑战）292; Dormant 黎明（挑战）54; Goombah 军团（挑战）160; Goombah 天灾（挑战）281; 敌境（挑战）50; 防线守护者（挑战）298。
 - **另外**：商店不出售。
 
@@ -380,7 +380,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%：2 至 4 | 3 |
 
 - **小行星**：在 Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
-- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 514 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 1,029 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **另外**：商店不出售。
 
 **用途**
@@ -399,7 +399,7 @@
 
 **获取方式**
 
-- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 320 个（Skylab 的矿石，上限为 20 级采集器 4 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱，在那里是研究中心的燃料；锻造炉只从资源仓库取矿石。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 640 个（Skylab 的矿石，上限为 20 级采集器 8 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱；让飞船停靠后，[矿石舱](/wiki/03-Mechanics/Skylab.md#ore-bay)会把它转入资源仓库，锻造炉和研究中心从那里取用。
 - **Skylab**：只有 Velkonite 采集器 会开采它，存入可容纳 72 小时产量的料斗，然后“收取”把它转入 资源仓库。外星人不会掉落它。
 
 | 模块等级 | 1 | 5 | 10 | 15 | 20 |
@@ -425,7 +425,7 @@
 
 **获取方式**
 
-- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 160 个（Skylab 的矿石，上限为 20 级采集器 4 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱，在那里是研究中心的燃料；锻造炉只从资源仓库取矿石。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在每个世界产出 320 个（Skylab 的矿石，上限为 20 级采集器 8 小时的量），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。矿石进入你的货舱；让飞船停靠后，[矿石舱](/wiki/03-Mechanics/Skylab.md#ore-bay)会把它转入资源仓库，锻造炉和研究中心从那里取用。
 - **Skylab**：只有 Orvium 采集器 会开采它，存入可容纳 72 小时产量的料斗，然后“收取”把它转入 资源仓库。外星人不会掉落它。
 
 | 模块等级 | 1 | 5 | 10 | 15 | 20 |
@@ -651,7 +651,7 @@
 - **装配站**，每次制造：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 100,000。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：标准 → 腐化 10,000, 腐化 → 神圣 50,000, 神圣 → 裂变 200,000, 裂变 → 永恒 500,000。
 - **锻造炉合并**，按得到的等级：腐化 5,000, 神圣 25,000, 裂变 100,000, 永恒 250,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 20,000（1 级），5,600,000（20 级）, 信用点农场 0（1 级），7,000,000（20 级）, 锻造厂 5,000（1 级），9,000,000（20 级）, Orvium 采集器 20,000（1 级），5,500,000（20 级）, 研究中心 25,000（每级 x1.5）, 火箭工厂 20,000（1 级），1,400,000（20 级）, 太阳能 500（1 级），9,000,000（20 级）, 资源仓库 5,000（1 级），4,500,000（20 级）, Thulium 农场 5,000（1 级），8,500,000（20 级）, Velkonite 采集器 20,000（1 级），5,500,000（20 级）。 核心始终存在，所以你为它支付的第一个价格是 2 级的价格：1,500（此后每级 x1.5）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 20,000（1 级），5,600,000（20 级）, 信用点农场 0（1 级），7,000,000（20 级）, 锻造厂 5,000（1 级），9,000,000（20 级）, 矿石舱 5,000（1 级），4,500,000（20 级）, Orvium 采集器 20,000（1 级），5,500,000（20 级）, 研究中心 25,000（每级 x1.5）, 火箭工厂 20,000（1 级），1,400,000（20 级）, 太阳能 500（1 级），9,000,000（20 级）, 资源仓库 5,000（1 级），4,500,000（20 级）, Thulium 农场 5,000（1 级），8,500,000（20 级）, Velkonite 采集器 20,000（1 级），5,500,000（20 级）。 核心始终存在，所以你为它支付的第一个价格是 2 级的价格：1,500（此后每级 x1.5）。
 - **能量具现器**：每次扫描 5,000 信用点，用于寻找 Chrono-Gate 的零件（[详情](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
 - **[战队](/wiki/03-Mechanics/Clans.md)**：向战队银行捐款（每位飞行员在任意 24 小时内最多 1,000,000 信用点），以及战队的每日税，即其领导者设定的、你信用点的一部分。
 
@@ -666,7 +666,7 @@
 - **初始**：新飞行员的账号里有 100 Thulium。
 - **外星人**：每次击杀都会给（见上表）。
 - **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付，每 24 小时有一个上限（见那一页）。
-- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 4,821 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
+- **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 9,643 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **[任务](/wiki/03-Mechanics/Quests.md)**：Alpha 的 88 个任务共给 51,010 Thulium，从 1 级的 170 到 8 级的 21,760。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：Thulium 农场 会在你离线时生产信用点，存入可容纳 72 小时产量的料斗。
 
@@ -684,7 +684,7 @@
 - **商店**：有 25 件物品以 Thulium 标价（价格见它们的页面：[物品](/wiki/06-Items/Overview.md)和[火箭](/wiki/06-Items/Rockets.md)）。
 - **装配站**，每次制造：[Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 1,000, Adaptive Core II 1,000, Adaptive Core III 2,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 1,500。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：裂变 → 永恒 2,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 500（1 级），11,000（20 级）, 信用点农场 0（1 级），550（20 级）, 锻造厂 500（1 级），10,000（20 级）, Orvium 采集器 500（1 级），12,500（20 级）, 研究中心 500（每级 x1.5）, 火箭工厂 500（1 级），2,800（20 级）, 太阳能 50（1 级），10,000（20 级）, 资源仓库 250（1 级），550（20 级）, Thulium 农场 500（1 级），16,000（20 级）, Velkonite 采集器 500（1 级），12,500（20 级）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 500（1 级），11,000（20 级）, 信用点农场 0（1 级），550（20 级）, 锻造厂 500（1 级），10,000（20 级）, 矿石舱 250（1 级），550（20 级）, Orvium 采集器 500（1 级），12,500（20 级）, 研究中心 500（每级 x1.5）, 火箭工厂 500（1 级），2,800（20 级）, 太阳能 50（1 级），10,000（20 级）, 资源仓库 250（1 级），550（20 级）, Thulium 农场 500（1 级），16,000（20 级）, Velkonite 采集器 500（1 级），12,500（20 级）。
 - **[研究](/wiki/03-Mechanics/Research.md#the-thulium-boost)**：研究中心的一次加速需要 5,000 Thulium。
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**：每次跳跃 500 Thulium。
 - **能量具现器**：每次扫描 5 Thulium，用于寻找 Chrono-Gate 的零件（[详情](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。

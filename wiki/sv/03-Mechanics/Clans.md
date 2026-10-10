@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e67774df0345c0b5 -->
+<!-- wiki-i18n source: 9eea417792cfb043 -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -15,7 +15,7 @@ Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den 
 - Ledaren och vice ledarna lägger poängen på tre [bonusar](#clan-points-and-boosts) med tio nivåer vardera: **Skada** (upp till +5 %), **Thulium** (upp till +10 %) och **Krediter** (upp till +10 %).
 - En klan som klarar varje linje har köpt alla nivåer på **säsongsdag 12**. Poäng, nivåer och själva klanen tar slut med wipen.
 - Du behöver minst **tre medlemmar** som gjort sin del och **en stor besättning** för striden mot väktaren: sedan 0.4.13 har en väktare fem gånger så mycket skrov, sköld och laserskada som tidigare, så besättningarna som förut vann, ungefär sju piloter, förlorar nu ([hur stor besättning som behövs](#how-big-a-crew)). En för liten besättning förlorar striden: klanen behåller då de **70 poängen** från de fyra uppdragen, men linjen blir inte klar och betalar ingen [belöning till dig](#the-reward-for-you).
-- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)). Sedan 0.4.16 är betalningen tre gånger så stor, och så länge en väktare står **kommer en våg av kartans utomjordingar varje minut** ([vågor](#waves-of-aliens)).
+- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)). Sedan 0.4.16 är betalningen tre gånger så stor, och så länge en väktare står **kommer en våg av kartans utomjordingar varje minut** (var 40:e sekund för Wrath Warden III, med en Crystalys i varje våg när den har mindre än halva skrovet kvar), riktad mot de piloter som träffade väktaren ([vågor](#waves-of-aliens)).
 - Ditt skepp visar de bonusar det har i fönstret **Boosters**, på ett eget kort ([var du ser dem](#the-three-boosts)).
 - Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare, kortet i fönstret Boosters version 0.4.12 eller senare, klansidan, inläggen, onlinefönstret, dagsbonusen, fredsbegärandena, loggen och klaner per värld version 0.4.16 eller senare.
 
@@ -267,13 +267,13 @@ När linjen är klar, alltså när väktaren är förgjord, får varje medlem so
 
 ## Klanväktare {#clan-wardens}
 
-En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)). Sedan 0.4.16 har Brood Warden III **hälften** så mycket skrov och sköld, dess drönare läker hälften så mycket och kommer hälften så ofta, och varje väktare tar med sig [vågor av utomjordingar](#waves-of-aliens) så länge den står.
+En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)). Sedan 0.4.16 har Brood Warden III **hälften** så mycket skrov och sköld, dess drönare läker hälften så mycket och kommer hälften så ofta, och varje väktare tar med sig [vågor av utomjordingar](#waves-of-aliens) så länge den står. Sedan 0.4.20 **går en Wrath Warden på den pilot som träffade den** i stället för att stå där den kallades fram, Wrath Warden III tar med fler utomjordingar oftare och en Crystalys när den har mindre än halva skrovet kvar, och allt en väktare tar med sig kommer riktat mot de piloter som träffade den.
 
 | Väktare | Säsongsdagar | Roll | Hur den strider |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Kupans väktare: dela upp din eld | Fyra små **Brood Drones** läker dess skrov, och en ny kommer var 8:e sekund så länge färre än fyra lever (var 16:e sekund för Brood Warden III). Skjut drönarna först, sedan väktaren. |
 | **Siege Warden** | 2, 5, 8, 11 … | Belägringsbrytare: fortsätt röra dig | Den ströftar omkring och avfyrar en rak [Rivet-raket](/wiki/06-Items/Rockets.md#the-twelve-rockets) mot den pilot som träffade den först, och lagar sig själv. Två **Siege Escorts** lägger till laserelden. Fortsätt röra dig och turas om att vara måltavla. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Krigsherre: slå ned raseriet | Den strider på stället och lagar sig själv. Under halv skrovstyrka träffar dess lasrar **en och en halv gång så hårt**. Två **Wrath Guards** lägger till laserelden. Ta ned den snabbt och håll sköldarna uppe. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Krigsherre: slå ned raseriet | Den flyger på den första pilot som träffade den, stannar inom sina lasrars räckvidd och lagar sig själv. Under halv skrovstyrka träffar dess lasrar **en och en halv gång så hårt**. Två **Wrath Guards** stannar hos den och lägger till laserbeskjutning. Ta ned den snabbt och håll sköldarna uppe. |
 
 ### Kalla fram en väktare {#calling-a-warden}
 
@@ -291,11 +291,12 @@ En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publi
 - **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 18 till 26 piloter med x2-ammunition och 26 till 38 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen.
 - **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar, även en stor. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder (efter 16 för Brood Warden III).
 - **Siege:** dess raketer är raka och ostyrda, så ett skepp som fortsätter röra sig väjer för de flesta. Fortsätt röra dig och turas om att vara måltavla.
-- **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet.
+- **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet. Sedan 0.4.20 står den inte stilla: den flyger på den första pilot som träffade den, 90 enheter i sekunden, tills den är inom sina lasrars räckvidd (700, 800 eller 900 enheter efter styrka) och skjuter därifrån, så ett vapen med längre räckvidd skjuter inte längre på den utan svar. Brood och Siege Warden är som förut: Brood Warden står kvar där den kallades fram, Siege Warden fortsätter röra sig.
+- **Det en väktare tar med sig går på den pilot som träffade den.** Sedan 0.4.20 går varje utomjording i en våg, och varje drönare, eskort eller vakt som kommer medan väktaren bekämpas, på de piloter som träffade väktaren, den första av dem först, i samma ögonblick den kommer, utan att själv ha blivit träffad.
 
 ### Vågor av utomjordingar {#waves-of-aliens}
 
-Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväpnad** (de 90 sekundernas uppvärmning har inga vågor, så besättningen hinner samlas) kommer **var 60:e sekund** en **våg** av vanliga utomjordingar från kartan den står på, så länge väktaren står.
+Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväpnad** (de 90 sekundernas uppvärmning har inga vågor, så besättningen hinner samlas) kommer **var 60:e sekund** en **våg** av vanliga utomjordingar från kartan den står på, så länge väktaren står. Tabellen visar vågorna för åtta av de nio väktarna; [Wrath Warden III:s vågor](#wrath-iii-waves) är tyngre.
 
 | Karta | En våg | Högst levande samtidigt |
 | :--- | :--- | ---: |
@@ -308,6 +309,23 @@ Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväp
 - **De ingår inte i striden om väktaren.** De läker ingenting, och att skjuta på dem ger ingenting till din andel av skadan på väktaren. Vilken pilot på kartan som helst kan döda dem. Var och en betalar sin utomjordings vanliga betalning i din värld och ger PvE-poäng: en hel våg om 5 Phantasm betalar 15 000 krediter i Alpha, en om 10 Bulwark 50 000, under 2 % av vad den svagaste väktaren betalar.
 - **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler; utomjordingarna som redan är ute blir kvar och är kartans vanliga utomjordingar. En omstart av servern avslutar dem tillsammans med väktaren.
 - **Klanen får veta.** Varje våg annonseras på chattens flik System och i Spelloggen: »Brood Warden I kallar på förstärkning i M-3: 10 Phantasm.«
+- **De kommer riktade (0.4.20).** Utomjordingarna i en våg kommer med vetskap om vem väktaren strider mot: de går på de piloter som träffade den, den första först, från det ögonblick de dyker upp, och håller sig efter dem så länge väktaren träffas. En väktare som ingen strider mot skickar utomjordingar som ströftar omkring och drar till sig den som kommer nära, som förut.
+
+#### Wrath Warden III:s vågor {#wrath-iii-waves}
+
+Sedan 0.4.20 tar **Wrath Warden III** med mer, och oftare: en våg var **40:e sekund**, tre fjärdedelar av det antal av den utomjordingen som kartan har, och upp till **fyra vågor** levande. Under halva skrovet (gränsen där den blir rasande) **har varje våg också en Crystalys**, utöver vågens storlek.
+
+| Karta | En våg | Högst levande samtidigt |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, och upp till 4 Crystalys |
+| x-3 | 15 Phantasm | 60, och upp till 4 Crystalys |
+| x-4 | 15 Bulwark | 60, och upp till 4 Crystalys |
+
+- **Crystalys** är spelets tyngsta vanliga utomjording: 256 000 skrov, 160 000 sköld, 10 000 skada per salva från 900 enheter, hastighet 230 (i en starkare värld mer skrov, sköld och skada). Den betalar vad varje Crystalys betalar: **75 000 krediter, 200 Thulium, 12 000 XP och 52 heder i Alpha** (dubbelt i Beta, tre gånger så mycket i Gamma), och tappar sitt vanliga byte. Den hör till sin våg: en våg lever så länge dess Crystalys lever, så en Crystalys som står kvar håller en av de fyra vågorna vid liv.
+- **Högst fyra vågor är levande.** En våg som är förfallen när fyra lever hoppas över, som hos de andra väktarna. Över halva skrovet skickar väktaren vågen utan Crystalys.
+- **De annonseras på två rader**: »Wrath Warden III kallar på förstärkning i M-3: 15 Phantasm.« och »Wrath Warden III kallar på förstärkning i M-3: 1 Crystalys.«
+- **Vad de betalar.** En hel våg av 15 Bulwarks betalar 75 000 krediter i Alpha, och med sin Crystalys 150 000: ungefär 2 % av de 7 200 000 som väktaren själv betalar.
+- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **31 piloter på x-2, 32 på x-3 och 38 på x-4** med x2-ammunition (26 utan vågor), och 36, 38 och 50 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 

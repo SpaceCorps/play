@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: 巨型挖掘机 -->
 # 巨型挖掘机 {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; 挖掘机; 巨型挖掘机; 脉冲星; 燃料; 控制面板; 过热; 辐射; 波 -->
 
-从赛季第 11 天起，危险星区 `DS-1`、`DS-2`、`DS-3` 中各有一颗**脉冲星**在闪耀，旁边立着一台**巨型挖掘机**。挖掘机从脉冲星中开采 **Thulium 和稀有矿石**，为此要燃烧 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)。任何人都可以给它加燃料、选择它开采什么并启动它，它产出的东西装在货箱里落在周围，谁都可以拾取。不过一次运转动静很大：它启动时整个世界都会得到通知，**Slumbering Void** 会成波来攻击它，而被开太久的挖掘机会过热，并让整片区域受到辐射。本页说明一次运转如何进行、它能产出什么、以及如何熬过它。星区见[危险星区](/wiki/01-General/Danger-Sectors.md)；Void 见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)。
+从赛季第一天起，危险星区 `DS-1`、`DS-2`、`DS-3` 中各有一颗**脉冲星**在闪耀，从赛季第 11 天起，旁边立着一台**巨型挖掘机**。挖掘机从脉冲星中开采 **Thulium 和稀有矿石**，为此要燃烧 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)。任何人都可以给它加燃料、选择它开采什么并启动它，它产出的东西装在货箱里落在周围，谁都可以拾取。不过一次运转动静很大：它启动时整个世界都会得到通知，**Slumbering Void** 会成波来攻击它，而被开太久的挖掘机会过热，并让整片区域受到辐射。本页说明一次运转如何进行、它能产出什么、以及如何熬过它。星区见[危险星区](/wiki/01-General/Danger-Sectors.md)；Void 见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)。
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## 概览 {#at-a-glance}
 
@@ -12,7 +14,7 @@
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **位置**：每个世界里，`DS-1`, `DS-2` 和 `DS-3` 各有一颗脉冲星和一台巨型挖掘机
-- **出现**：从赛季第 11 天起，直到重置
+- **出现**：脉冲星从赛季第一天起，挖掘机从赛季第 11 天起，直到重置
 - **燃料**：Dark Matter。1 个能烧 10 分钟；燃料箱可放 3 个，即 30 分钟 的开采。任何人都可以从自己的货舱一次放入 1 个
 - **面板**：窗口在距挖掘机 600 单位内可用，标签从 1,400 单位处开始显示。任何人都可以加燃料、选择和启动；运转期间选择被锁定
 - **货箱**：每 20 秒 一个货箱，落在距挖掘机 450 到 900 单位之间，从落下的那一刻起任何人都可以拾取。它会存在 5 分钟，地图上同时最多有 24 个
@@ -26,7 +28,7 @@
 
 ## 一次运转如何进行 {#how-a-run-goes}
 
-1. **找到一台。** 三个有脉冲星的危险星区各有一台挖掘机，每个世界都有。你靠近时，上方会悬着标签**挖掘机**，星系地图会显示你所在星区挖掘机的状态。
+1. **找到一台。** 从赛季第 11 天起，三个有脉冲星的危险星区各有一台挖掘机，每个世界都有。你靠近时，上方会悬着标签**挖掘机**，星系地图会标出每个有挖掘机的危险星区：标记的颜色就是挖掘机的状态，提示框会显示距下一次变化的时间。
 2. **打开面板。** 点击标签。只要你的飞船在挖掘机控制面板的范围内，**巨型挖掘机**窗口就能使用（范围见*概览*列表）。隐形的飞船也能使用，使用不会解除隐形。
 3. **加燃料。** **添加 Dark Matter** 会把你货舱里的 1 个 Dark Matter 放进燃料箱。任何人都可以。燃料箱接收的量绝不会超过挖掘机在过热前能烧完的量，所以不会浪费燃料。
 4. **选择开采什么，**从列表中选择，然后按**开始采矿**。需要燃料箱里至少有 1 个 Dark Matter，并且选好了资源。启动之前任何人都可以更改选择；一旦运转，资源就被锁定。启动会连同你的名字、星区和资源一起通知世界上的所有飞行员。
@@ -47,7 +49,7 @@
 
 ## 它开采什么 {#what-it-mines}
 
-满箱燃料的产出经过调整，大致等于两三名飞行员以最佳方式刷半小时 Thulium 的收入。Beta 和 Gamma 产出更多，就像它们每次击杀的奖励更高一样。每次运转你选一种资源。货箱对所有人都一样，Thulium 货箱是现金，拾取时才支付，和小行星的 Thulium 一样。
+满箱燃料的产出大致等于五名飞行员以最佳方式刷半小时 Thulium 的收入。Beta 和 Gamma 产出更多，就像它们每次击杀的奖励更高一样。每次运转你选一种资源。货箱对所有人都一样，Thulium 货箱是现金，拾取时才支付，和小行星的 Thulium 一样。
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@
 
 | 资源 | Alpha | Beta | Gamma | 每分钟，Alpha | 每箱，Alpha |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4,821 | 7,714 | 9,643 | 160.7 | 53.6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1,157 | 1,851 | 2,314 | 38.6 | 12.9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1,029 | 17.1 | 5.7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10.7 | 3.6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5.3 | 1.8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9,643 | 15,429 | 19,286 | 321.4 | 107.1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2,314 | 3,703 | 4,629 | 77.1 | 25.7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1,029 | 1,646 | 2,057 | 34.3 | 11.4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21.3 | 7.1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10.7 | 3.6 |
 
-- Velkonite 或 Orvium 的一次运转，在每个世界里最多产出 20 级 [Skylab](/wiki/03-Mechanics/Skylab.md) 采集器 4 小时的该矿石（Velkonite 320、Orvium 160）：它们是 Skylab 的矿石，一次运转加快其节奏的幅度绝不会超过这个量。
+- Velkonite 或 Orvium 的一次运转，在每个世界里最多产出 20 级 [Skylab](/wiki/03-Mechanics/Skylab.md) 采集器 8 小时的该矿石（Velkonite 640、Orvium 320）：它们是 Skylab 的矿石，一次运转加快其节奏的幅度绝不会超过这个量。
 - 一个货箱大约装有最后一列的数量，上下浮动 15%。Thulium 货箱是现金：拾取时支付。矿石货箱装的是物品。
 
 <!-- excavator-resources:end -->
 
 飞行员自己的增益器和对待其他货物一样起作用：Resource Magnet Booster 的加成会增加矿石货箱。货箱没有每日上限：限制一次运转的是燃料和时间。
 
-**矿石的用途。** 货箱里的矿石像任何物品一样进入你的货舱。Cataclysite 和 Quorvium 用于装配站和锻造炉（[资源](/wiki/06-Items/Resources.md)）。Skylab 的锻造炉只从资源仓库取矿石，而资源仓库由采集器填充；所以货箱里的 Velkonite 和 Orvium 是[研究中心](/wiki/03-Mechanics/Research.md#fuel)的燃料，而不是锻造炉的。
+**矿石的用途。** 货箱里的矿石像任何物品一样进入你的货舱。Cataclysite 和 Quorvium 用于装配站和锻造炉（[资源](/wiki/06-Items/Resources.md)）。Skylab 的锻造炉和研究中心只从资源仓库取 Velkonite 和 Orvium，而资源仓库由采集器填充；所以货箱里的矿石留在货舱里没有用：让飞船停靠后，你的 Skylab 的[矿石舱](/wiki/03-Mechanics/Skylab.md#ore-bay)（核心 10 级）会在每小时额度内把它转入资源仓库，锻造炉和[研究中心](/wiki/03-Mechanics/Research.md#fuel)从那里取用。
 
 ## Slumbering Void {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@
 
 <!-- excavator-radiation:end -->
 
-- **警告。** 过热之前两次（时间见上面的列表）地图会得到通知，圆圈内的飞船会看到警告，圆圈会画在星系地图和小地图上。辐射时圆圈是红色的，辐射计显示剂量。
+- **警告。** 过热之前两次（时间见上面的列表）地图会得到通知，圆圈内的飞船会看到警告，圆圈会在飞行中画在地面上，也会画在小地图上。辐射时圆圈是红色的，辐射计显示剂量。
 - **离开。** 所有标准飞船都能从面板边缘，或从仍在的最远货箱处离开，只有缓慢的 Ironclad 例外：它要在警告期间离开，否则就离不开。热量耗尽时不要站在货箱上。
 - **圆圈中的战利品。** 过热前落下的货箱会留在辐射中：辐射开始时还在那里的货箱，要付出剂量的代价才能拾取。
 - **服务器重启**会暂停一次运转：燃料和热量按原样恢复，休息按时钟继续，重启后的第一波在一分钟后到来。

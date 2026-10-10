@@ -22,7 +22,7 @@ This page has the whole technology tree with the time each technology takes, the
 - **While you are away.** A research runs on the server's clock, so it goes on after you log out, until it is finished or the tank is empty. A blackout or an upgrade of the Centre does not stop it.
 - **Power.** The Centre draws 25 at level 1 and 15% more with every level, and it cannot be switched off.
 - **The wipe keeps all of it:** your technologies, the science in the tank, the Dark Matter plugged in, a research under way and the boost.
-- **What you own is yours.** When research came into the game, every pilot received the technology of each item they already held, and the technologies those needed. An item that reaches you later (a gift, a code, a reward) does not unlock its technology.
+- **What you own is yours.** When research came into the game, every pilot received the technology of each item they already held, and the technologies those needed. An item that reaches you later (a gift, a code, a reward) does not unlock its technology, with one exception: an Engine II, an Engine III, an Adaptive Core II or an Adaptive Core III that a code, a quest, an invitation or an administrator gives you unlocks its technology, and the ones it needs, at once.
 - **Below Core level 10** you cannot research, so you cannot make anything new in Assembly yet. The Station missions walk you up the Core.
 
 <!-- research-centre:end -->
@@ -53,7 +53,7 @@ In the **Research** view of your Skylab a technology tells you more than a box o
 
 ## Fuel
 
-You feed the Centre with resources, and each unit becomes science at once. The more work a unit takes to get, the more science it gives: the figures follow how hard a unit is to get, not its rarity label. The ores are the exception: a unit gives more science than the seconds a collector takes to mine it, so an hour of the ore of a collector in the middle of its levels feeds about two hours of research. The ores come from the Resource Storage of your [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); every other resource comes from your inventory, and your ship must be landed. The Velkonite Reinforced Plate, the Orvium Reinforced Plate, the Dark Matter Plate, Dark Matter, Credits and Thulium cannot be burnt; the Reinforced Hull Plate can.
+You feed the Centre with resources, and each unit becomes science at once. The more work a unit takes to get, the more science it gives: the figures follow how hard a unit is to get, not its rarity label. The ores are the exception: a unit gives more science than the seconds a collector takes to mine it, so an hour of the ore of a collector in the middle of its levels feeds about two hours of research. The ores come from the Resource Storage of your [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage), and the [Ore Bay](/wiki/03-Mechanics/Skylab.md#ore-bay) moves the Velkonite and the Orvium of your inventory (a giant excavator's boxes) there; every other resource comes from your inventory, and your ship must be landed. The Velkonite Reinforced Plate, the Orvium Reinforced Plate, the Dark Matter Plate, Dark Matter, Credits and Thulium cannot be burnt; the Reinforced Hull Plate can.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

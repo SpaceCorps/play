@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
@@ -30,7 +30,7 @@ El universo consta de tres grandes sectores de corporación (Mars, Terra, Galact
 - **x-1 (base de origen)**: El mapa inicial de cada corporación (M-1, T-1, G-1). La zona más segura.
 - **x-2 -> x-3**: Zonas de expansión con alienígenas cada vez más duros.
 - **x-4 (frontera)**: La puerta de entrada al sector PvP y al `x-3` de otra corporación (el Anillo, más abajo).
-- **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4. Desde el día 11 de la temporada contiene además púlsares con excavadoras gigantes y el Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4. Contiene un púlsar en cada uno de DS-1 a DS-3 desde el primer día de la temporada y, desde el día 11, una excavadora gigante junto a cada uno y el Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md)).
 
 Solo las bases de origen tienen una estación. Es donde se abre **Mission Control**, y su zona segura se extiende 1.600 unidades a su alrededor. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a tu base para tus misiones.
 

@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: Escavadeira gigante -->
 # Escavadeira gigante {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; escavadeira; escavadeira gigante; combustível; painel de controle; superaquecimento; radiação; onda -->
 
-A partir do dia 11 da temporada, um **pulsar** brilha em cada um dos setores de perigo `DS-1`, `DS-2` e `DS-3`, e uma **escavadeira gigante** fica ao lado dele. A escavadeira minera o pulsar atrás de **Thulium e minérios raros**, e para isso queima [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md). Qualquer um pode abastecê-la, escolher o que ela minera e ligá-la, e tudo o que ela produz fica em volta dela em caixas que qualquer um pode pegar. Mas uma rodada é barulhenta: o mundo inteiro é avisado quando ela começa, **Slumbering Voids** vão atrás dela em ondas, e uma escavadeira trabalhada por tempo demais superaquece e irradia toda a área. Esta página diz como uma rodada se desenrola, o que ela produz e como sobreviver a ela. Os setores estão em [Setores de perigo](/wiki/01-General/Danger-Sectors.md); os Voids, em [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+Desde o primeiro dia da temporada, um **pulsar** brilha em cada um dos setores de perigo `DS-1`, `DS-2` e `DS-3`, e a partir do dia 11 da temporada uma **escavadeira gigante** fica ao lado dele. A escavadeira minera o pulsar atrás de **Thulium e minérios raros**, e para isso queima [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md). Qualquer um pode abastecê-la, escolher o que ela minera e ligá-la, e tudo o que ela produz fica em volta dela em caixas que qualquer um pode pegar. Mas uma rodada é barulhenta: o mundo inteiro é avisado quando ela começa, **Slumbering Voids** vão atrás dela em ondas, e uma escavadeira trabalhada por tempo demais superaquece e irradia toda a área. Esta página diz como uma rodada se desenrola, o que ela produz e como sobreviver a ela. Os setores estão em [Setores de perigo](/wiki/01-General/Danger-Sectors.md); os Voids, em [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## Em resumo {#at-a-glance}
 
@@ -12,7 +14,7 @@ A partir do dia 11 da temporada, um **pulsar** brilha em cada um dos setores de 
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Onde**: Um pulsar com uma escavadeira gigante em cada um dos setores `DS-1`, `DS-2` e `DS-3`, em todos os mundos
-- **Aparece**: Do dia 11 da temporada até o reset
+- **Aparece**: O pulsar desde o primeiro dia da temporada, a escavadeira a partir do dia 11 da temporada até o reset
 - **Combustível**: Dark Matter. Um queima por 10 min; o tanque comporta 3, o que dá 30 min de mineração. Qualquer um pode adicionar um de cada vez, da própria carga
 - **Painel**: A janela funciona a até 600 unidades da escavadeira, e o rótulo aparece a partir de 1.400 unidades. Qualquer um pode abastecer, escolher e iniciar; a escolha fica travada enquanto ela funciona
 - **Caixas**: Uma caixa a cada 20 s, entre 450 e 900 unidades da escavadeira, livre para qualquer um desde o momento em que cai. Ela fica por 5 min, e no máximo 24 ficam ao mesmo tempo num mapa
@@ -26,7 +28,7 @@ A partir do dia 11 da temporada, um **pulsar** brilha em cada um dos setores de 
 
 ## Como uma rodada se desenrola {#how-a-run-goes}
 
-1. **Encontre uma.** Cada um dos três setores de perigo que têm um pulsar tem uma escavadeira, em cada mundo. Um rótulo, **Escavadeira**, paira sobre ela quando você está perto, e o mapa do Sistema estelar mostra o estado da escavadeira do setor em que você voa.
+1. **Encontre uma.** A partir do dia 11 da temporada, cada um dos três setores de perigo que têm um pulsar tem uma escavadeira, em cada mundo. Um rótulo, **Escavadeira**, paira sobre ela quando você está perto, e o mapa do Sistema estelar marca cada setor de perigo que tem uma: a cor da marca é o estado da escavadeira, e a dica dela diz o tempo até a próxima mudança.
 2. **Abra o painel.** Clique no rótulo. A janela **Escavadeira gigante** funciona enquanto sua nave estiver ao alcance do painel da escavadeira (a lista *Em resumo* informa). Uma nave camuflada pode usá-lo, e usá-lo não encerra o camuflado.
 3. **Abasteça.** **Adicionar Dark Matter** põe um Dark Matter da sua carga no tanque. Qualquer um pode fazer isso. O tanque nunca aceita mais do que a escavadeira pode queimar antes de superaquecer, então nenhum combustível é desperdiçado.
 4. **Escolha o que minerar** na lista e então aperte **Iniciar mineração**. É preciso pelo menos um Dark Matter no tanque e um recurso. Qualquer um pode mudar a escolha até o início; depois que ela está funcionando, o recurso fica travado. O início é anunciado a todos os pilotos do mundo, com o seu nome, o setor e o recurso.
@@ -47,7 +49,7 @@ Se o combustível acabar antes do limite, a escavadeira volta a **Pronta** com o
 
 ## O que ela minera {#what-it-mines}
 
-Um tanque cheio é calibrado para produzir mais ou menos o que dois ou três pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe um recurso por rodada. Uma caixa é igual para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides.
+Um tanque cheio produz mais ou menos o que cinco pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe um recurso por rodada. Uma caixa é igual para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@ Um tanque cheio (3 Dark Matter, 30 min de mineração) produz as quantidades aba
 
 | Recurso | Alpha | Beta | Gamma | Um minuto, em Alpha | Uma caixa, em Alpha |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4.821 | 7.714 | 9.643 | 160,7 | 53,6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1.157 | 1.851 | 2.314 | 38,6 | 12,9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1.029 | 17,1 | 5,7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10,7 | 3,6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5,3 | 1,8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9.643 | 15.429 | 19.286 | 321,4 | 107,1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2.314 | 3.703 | 4.629 | 77,1 | 25,7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1.029 | 1.646 | 2.057 | 34,3 | 11,4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21,3 | 7,1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10,7 | 3,6 |
 
-- Uma rodada de Velkonite ou Orvium produz no máximo 4 horas de um coletor de nível 20 do [Skylab](/wiki/03-Mechanics/Skylab.md) desse minério (320 Velkonite, 160 Orvium), em todos os mundos: são os minérios do Skylab, e uma rodada nunca acelera o ritmo dele mais do que isso.
+- Uma rodada de Velkonite ou Orvium produz no máximo 8 horas de um coletor de nível 20 do [Skylab](/wiki/03-Mechanics/Skylab.md) desse minério (640 Velkonite, 320 Orvium), em todos os mundos: são os minérios do Skylab, e uma rodada nunca acelera o ritmo dele mais do que isso.
 - Uma caixa contém cerca da quantidade da última coluna, com variação de 15%. Uma caixa de Thulium é dinheiro vivo: a coleta o paga. Uma caixa de minério contém o item.
 
 <!-- excavator-resources:end -->
 
 Os boosters do próprio piloto funcionam como em qualquer carga: o bônus do Resource Magnet Booster aumenta uma caixa de minério. Não há limite diário para as caixas: o combustível e o relógio é que limitam uma rodada.
 
-**Para que serve o minério.** O minério de uma caixa vai para a sua carga como qualquer item. Cataclysite e Quorvium são usados na Montagem e na Forja ([Recursos](/wiki/06-Items/Resources.md)). A Forja do Skylab pega seu minério só do Depósito de recursos, que os coletores enchem; então o Velkonite e o Orvium de uma caixa são combustível para o [Centro de Pesquisa](/wiki/03-Mechanics/Research.md#fuel), não para a Forja.
+**Para que serve o minério.** O minério de uma caixa vai para a sua carga como qualquer item. Cataclysite e Quorvium são usados na Montagem e na Forja ([Recursos](/wiki/06-Items/Resources.md)). A Forja e o Centro de Pesquisa do Skylab pegam Velkonite e Orvium só do Depósito de recursos, que os coletores enchem; então o minério de uma caixa não serve de nada na sua carga: pouse a nave e a [Baía de minério](/wiki/03-Mechanics/Skylab.md#ore-bay) do seu Skylab (Núcleo no nível 10) o move para o depósito, até a cota por hora, e de lá a Forja e o [Centro de Pesquisa](/wiki/03-Mechanics/Research.md#fuel) o pegam.
 
 ## Os Slumbering Voids {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@ A mineração soma calor segundo a segundo. O calor é **cumulativo e nunca esfr
 
 <!-- excavator-radiation:end -->
 
-- **O aviso.** Duas vezes antes do superaquecimento (os tempos estão na lista acima) o mapa é avisado, uma nave dentro dos círculos vê um alerta, e os círculos são desenhados no mapa do Sistema estelar e no minimapa. Quando irradiam, os círculos ficam vermelhos e o medidor de Radiação mostra a dose.
+- **O aviso.** Duas vezes antes do superaquecimento (os tempos estão na lista acima) o mapa é avisado, uma nave dentro dos círculos vê um alerta, e os círculos são desenhados no chão durante o voo e no minimapa. Quando irradiam, os círculos ficam vermelhos e o medidor de Radiação mostra a dose.
 - **Sair.** Toda nave de série consegue sair da borda do painel ou da caixa mais distante que ainda esteja lá, exceto a Ironclad, que é lenta: ela sai durante o aviso, ou não sai. Não fique em cima de uma caixa quando o calor chegar ao limite.
 - **Espólio nos círculos.** As caixas soltas antes do superaquecimento ficam, na radiação: uma caixa que está lá quando ela começa é pega ao preço da dose.
 - **A reinicialização do servidor** pausa uma rodada: o combustível e o calor voltam como estavam, o descanso segue pelo relógio, e a primeira onda depois do reinício chega um minuto depois.

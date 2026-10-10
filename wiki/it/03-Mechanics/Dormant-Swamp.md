@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 Molto tempo fa, al centro della galassia viveva una civiltà avanzata. Costruiva in cristallo nero-viola, con venature violette che brillano, e per un motivo che nessuno conosce è crollata. Il **Dormant Swamp** è il suo avamposto, nell’angolo in alto a sinistra di `DS-4`. Dal giorno 11 della stagione si agita: cannoni al centro sparano a ogni nave che vedono, le **Inert Mass** lo custodiscono, e proprio al centro dorme **l’Unwakened**. È un luogo che i piloti **non sono ancora tenuti a visitare**. Sotto occultamento puoi volare fino all’Unwakened, e per ora lì non si può fare altro: la base e i suoi cannoni non possono essere danneggiati, né si può entrarvi, abbordarli o commerciare con loro.
 
 La palude è anche il luogo in cui compare lo [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) dal giorno 11, e gli **Slumbering Void** pattugliano intorno. Gli stessi Void arrivano a ondate agli [escavatori giganti](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). I settori sono in [Settori pericolosi](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## In breve {#at-a-glance}
 
@@ -56,7 +58,7 @@ Danno di un colpo, in ogni mondo:
 Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengono pagati come il boss di uno sciame: **in base al danno inflitto**, a ogni pilota che ne ha fatto almeno la quota indicata in [Sciami](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e la cassa va al pilota che ha inflitto più danno. I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame, in proporzione alla ricompensa ([Gradi](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Lo scudo di ciascuno assorbe l’80% di ogni colpo finché regge ([Scudi](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Il cacciatore snello, l’alieno più veloce del gioco (veloce come una Storm con Afterburner III). Alcuni pattugliano sempre i dintorni della palude, e altri arrivano a ondate agli escavatori. È aggressivo, dà la caccia al pilota più vicino che riesce a vedere e non vede mai una nave occultata.
-- **Inert Mass.** Un relitto morto con crepe viola, grande come una piccola stazione. Restano entro una distanza fissa dal centro della palude e per ora non lo lasciano. Lancia **Dormant Lance**: razzi guidati con una portata lunghissima che seguono una nave finché non si occulta, non apre una finestra EMP, non entra in un anello sicuro, non salta o non muore. È più veloce di qualsiasi nave, quindi servono solo queste interruzioni.
+- **Inert Mass.** Un relitto morto con crepe viola, grande come una piccola stazione. Restano entro una distanza fissa dal centro della palude e per ora non lo lasciano. Lancia **Dormant Lance**: razzi guidati con una portata lunghissima che seguono una nave finché non si occulta, non apre una finestra EMP, non entra in un anello sicuro, non salta o non muore. È più veloce di qualsiasi nave, quindi servono solo queste interruzioni. Un asteroide sulla traiettoria di una Dormant Lance la ferma, e la Lance lo danneggia con il proprio danno (nessuno viene pagato per questo): una roccia ripara da una Inert Mass quindi solo per pochi colpi.
 - **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. È **immune**: colpi e razzi lo raggiungono e non fanno nulla, la finestra del bersaglio mostra le barre piene e la parola Immune. Un evento successivo permetterà di combatterlo; le sue ricompense qui sotto sono scritte e non si possono ancora ottenere.
 
 <!-- swamp-members:begin -->

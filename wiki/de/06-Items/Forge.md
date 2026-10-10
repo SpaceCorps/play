@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -7,6 +7,8 @@ Die **Schmiede** ist der zweite Tab der Montage-Seite (und des Montage-Fensters 
 ## Was sich schmieden lässt {#what-can-be-forged}
 
 Laser, Laserverstärker, Schilde, Schildzellen, Triebwerke, Schubdüsen, adaptive Kerne, Repair Drones und [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md): jedes einzelne Ausrüstungsstück, das [Verzauberungsboni](/wiki/06-Items/Overview.md) tragen kann. Es kann in deinem Inventar liegen, auf einem Schiff (es bleibt dort und wirkt sofort mit seiner neuen Stufe) oder in einen anderen Gegenstand eingesetzt sein. Drohnen, Schiffe, Munition, Ressourcen und Booster lassen sich nicht schmieden, ebenso wenig alles im Transport-Cache: Nimm es zuerst heraus.
+
+Die Liste der Ausrüstung hat neben den anderen Filtern einen Schalter **Alle / Ausgerüstet / Im Inventar**. **Ausgerüstet** zeigt, was auf einem Schiff liegt oder in einen anderen Gegenstand eingesetzt ist, **Im Inventar** das, was lose liegt, und eine Zeile unter dem Titel sagt, wie viele Teile der Schalter ausblendet. Während du den Spender einer Zusammenführung wählst, ist „Ausgerüstet“ pausiert, denn ein Spender muss lose sein.
 
 ## Aufwerten {#tier-up}
 

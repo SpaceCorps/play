@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e67774df0345c0b5 -->
+<!-- wiki-i18n source: 9eea417792cfb043 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -15,7 +15,7 @@ Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bünd
 - Der Anführer und die Stellvertreter geben die Punkte für drei [Boni](#clan-points-and-boosts) mit je zehn Stufen aus: **Schaden** (bis +5 %), **Thulium** (bis +10 %) und **Credits** (bis +10 %).
 - Ein Clan, der jede Linie schafft, hat am **Saisontag 12** jede Stufe gekauft. Punkte, Stufen und der Clan selbst enden mit dem Wipe.
 - Du brauchst mindestens **drei Mitglieder**, die ihren Teil geleistet haben, und **eine große Besatzung** für den Kampf gegen den Wächter: Seit 0.4.13 hat ein Wächter fünfmal so viel Hülle, Schild und Laserschaden wie vorher, deshalb verlieren die Besatzungen, die früher gewannen (etwa sieben Piloten), jetzt ([wie groß die Besatzung sein muss](#how-big-a-crew)). Eine zu kleine Besatzung verliert den Kampf: Der Clan behält dann die **70 Punkte** der vier Missionen, aber die Linie ist nicht abgeschlossen und zahlt keine [Belohnung für dich](#the-reward-for-you).
-- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)). Seit 0.4.16 ist die Bezahlung dreimal so hoch, und solange ein Wächter steht, **kommt jede Minute eine Welle der Aliens der Karte** ([Wellen](#waves-of-aliens)).
+- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)). Seit 0.4.16 ist die Bezahlung dreimal so hoch, und solange ein Wächter steht, **kommt jede Minute eine Welle der Aliens der Karte** (beim Wrath Warden III alle 40 Sekunden, und in jeder Welle ein Crystalys, sobald er unter halber Hülle ist), auf die Piloten gerichtet, die den Wächter getroffen haben ([Wellen](#waves-of-aliens)).
 - Dein Schiff zeigt die Boni, die es hat, im **Booster-Fenster** auf einer eigenen Karte ([wo du sie siehst](#the-three-boosts)).
 - Linie und Boni brauchen ein Spiel ab Version 0.4.10, die Karte im Booster-Fenster ab 0.4.12, die Clan-Seite, die Beiträge, das Online-Fenster, der Tagesbonus, die Friedensbitten, das Protokoll und die Clans pro Welt ab 0.4.16.
 
@@ -267,13 +267,13 @@ Ist die Linie abgeschlossen, das heißt der Wächter zerstört, bekommt jedes Mi
 
 ## Clan-Wächter {#clan-wardens}
 
-Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien. Ein Wächter ist sehr stark: Er hat fünfmal so viel Hülle, Schild und Laserschaden wie vor 0.4.13, also ist er ein Kampf für die größte Besatzung, die dein Clan aufbringen kann ([wie groß die Besatzung sein muss](#how-big-a-crew)). Seit 0.4.16 hat der Brood Warden III **halb** so viel Hülle und Schild, seine Drohnen heilen halb so viel und kommen halb so schnell, und jeder Wächter bringt [Wellen von Aliens](#waves-of-aliens) mit, solange er steht.
+Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öffentlichen [Schwärme](/wiki/05-Swarms/Swarms.md), die durch einen Sektor streifen: Dein Clan **ruft ihn**, und **nur dein Clan kann ihn verletzen**. Drei Wächter wechseln sich ab, einer pro Tag: Tag 1 **Brood**, Tag 2 **Siege**, Tag 3 **Wrath**, Tag 4 wieder Brood und so weiter (Tag 15 ist ein Wrath-Tag). Jeder kommt in drei Stärken, **I, II und III**, die die Stufe des Clans bestimmt. Ein Wächter ist ein Alien eigener Art, wie die Schiffe eines Schwarms: Er zählt nicht als Seeker, Phantasm oder irgendein anderes Alien. Ein Wächter ist sehr stark: Er hat fünfmal so viel Hülle, Schild und Laserschaden wie vor 0.4.13, also ist er ein Kampf für die größte Besatzung, die dein Clan aufbringen kann ([wie groß die Besatzung sein muss](#how-big-a-crew)). Seit 0.4.16 hat der Brood Warden III **halb** so viel Hülle und Schild, seine Drohnen heilen halb so viel und kommen halb so schnell, und jeder Wächter bringt [Wellen von Aliens](#waves-of-aliens) mit, solange er steht. Seit 0.4.20 **geht ein Wrath Warden auf den Piloten los, der ihn getroffen hat**, statt dort zu stehen, wo er gerufen wurde, der Wrath Warden III bringt mehr Aliens öfter und unter halber Hülle einen Crystalys mit, und alles, was ein Wächter mitbringt, kommt auf die Piloten gerichtet, die ihn getroffen haben.
 
 | Wächter | Saisontage | Rolle | Wie er kämpft |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Hüter des Stocks: teile dein Feuer auf | Vier kleine **Brood Drones** heilen seine Hülle, und alle 8 Sekunden kommt eine neue, solange weniger als vier leben (beim Brood Warden III alle 16 Sekunden). Erst die Drohnen abschießen, dann den Wächter. |
 | **Siege Warden** | 2, 5, 8, 11 … | Belagerungsbrecher: bleib in Bewegung | Er streift umher, feuert eine gerade [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) auf den Piloten, der ihn zuerst getroffen hat, und repariert sich selbst. Zwei **Siege Escorts** feuern zusätzlich Laser. Bleib in Bewegung und wechselt euch als Ziel ab. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Kriegsherr: schlage die Raserei | Er kämpft auf der Stelle und repariert sich selbst. Unter halber Hülle treffen seine Laser **anderthalbmal so hart**. Zwei **Wrath Guards** feuern zusätzlich Laser. Bring ihn schnell herunter und halte die Schilde oben. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Kriegsherr: schlage die Raserei | Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, bleibt in Reichweite seiner Laser stehen und repariert sich selbst. Unter halber Hülle treffen seine Laser **anderthalbmal so hart**. Zwei **Wrath Guards** bleiben bei ihm und verstärken das Laserfeuer. Bring ihn schnell herunter und halte die Schilde oben. |
 
 ### Einen Wächter rufen {#calling-a-warden}
 
@@ -291,11 +291,12 @@ Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öf
 - **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 18 bis 26 Piloten mit x2-Munition und 26 bis 38 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten.
 - **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, verliert, selbst eine große. Schieß sie zuerst ab und schieß weiter auf sie: Nach 8 Sekunden kommt eine neue (beim Brood Warden III nach 16).
 - **Siege:** Seine Raketen fliegen gerade und ungelenkt, ein Schiff, das in Bewegung bleibt, weicht den meisten aus. Bleib in Bewegung und wechselt euch als Ziel ab.
-- **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf.
+- **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf. Seit 0.4.20 steht er nicht mehr still: Er fliegt mit 90 Einheiten pro Sekunde auf den ersten Piloten zu, der ihn getroffen hat, bis er in Reichweite seiner Laser ist (700, 800 oder 900 Einheiten je nach Stärke), und feuert von dort, sodass eine Waffe mit größerer Reichweite ihn nicht mehr gefahrlos beschießt. Der Brood und der Siege Warden sind unverändert: Der Brood Warden bleibt dort, wo er gerufen wurde, der Siege Warden bleibt in Bewegung.
+- **Was ein Wächter mitbringt, kommt auf den Piloten, der ihn getroffen hat.** Seit 0.4.20 geht jedes Alien einer Welle und jede Drohne, jeder Begleiter und jede Wache, die ankommt, während der Wächter bekämpft wird, im Moment des Eintreffens auf die Piloten los, die den Wächter getroffen haben, den ersten zuerst, ohne selbst getroffen worden zu sein.
 
 ### Wellen von Aliens {#waves-of-aliens}
 
-Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf** ist (die 90 Sekunden Aufwärmen haben keine Wellen, damit sich die Besatzung sammeln kann), kommt **alle 60 Sekunden** eine **Welle** gewöhnlicher Aliens der Karte, auf der er steht, solange der Wächter steht.
+Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf** ist (die 90 Sekunden Aufwärmen haben keine Wellen, damit sich die Besatzung sammeln kann), kommt **alle 60 Sekunden** eine **Welle** gewöhnlicher Aliens der Karte, auf der er steht, solange der Wächter steht. Die Tabelle zeigt die Wellen von acht der neun Wächter; die [Wellen des Wrath Warden III](#wrath-iii-waves) sind schwerer.
 
 | Karte | Eine Welle | Höchstens gleichzeitig am Leben |
 | :--- | :--- | ---: |
@@ -308,6 +309,23 @@ Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf**
 - **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle aus 5 Phantasm zahlt in Alpha 15.000 Credits, eine Welle aus 10 Bulwarks 50.000, unter 2 % dessen, was der schwächste Wächter zahlt.
 - **Sie hören mit dem Wächter auf.** Wird er zerstört oder zieht er sich zurück, kommen keine mehr; die Aliens, die schon draußen sind, bleiben und sind die gewöhnlichen Aliens der Karte. Ein Neustart des Servers beendet sie mit dem Wächter.
 - **Der Clan erfährt es.** Jede Welle wird im Reiter System des Chats und im Spielprotokoll angekündigt: „Brood Warden I ruft auf M-3 Verstärkung: 10 Phantasm.“
+- **Sie kommen gezielt (0.4.20).** Die Aliens einer Welle kommen mit dem Wissen an, gegen wen der Wächter kämpft: Sie gehen vom ersten Moment an auf die Piloten los, die ihn getroffen haben, den ersten zuerst, und bleiben an ihnen, solange der Wächter getroffen wird. Ein Wächter, gegen den niemand kämpft, schickt Aliens, die umherstreifen und jeden anziehen, der in die Nähe kommt, wie zuvor.
+
+#### Die Wellen des Wrath Warden III {#wrath-iii-waves}
+
+Seit 0.4.20 bringt der **Wrath Warden III** mehr und öfter: eine Welle alle **40 Sekunden**, drei Viertel der Zahl dieses Aliens, die die Karte hält, und bis zu **vier Wellen** am Leben. Unter halber Hülle (der Linie, an der er rast) **hat jede Welle zusätzlich einen Crystalys**, zur Größe der Welle dazu.
+
+| Karte | Eine Welle | Höchstens gleichzeitig am Leben |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, und bis zu 4 Crystalys |
+| x-3 | 15 Phantasm | 60, und bis zu 4 Crystalys |
+| x-4 | 15 Bulwarks | 60, und bis zu 4 Crystalys |
+
+- **Der Crystalys** ist das schwerste gewöhnliche Alien des Spiels: 256.000 Hülle, 160.000 Schild, 10.000 Schaden pro Salve aus 900 Einheiten, Geschwindigkeit 230 (in einer stärkeren Welt mehr Hülle, Schild und Schaden). Er zahlt, was jeder Crystalys zahlt: **75.000 Credits, 200 Thulium, 12.000 XP und 52 Ehre in Alpha** (in Beta das Doppelte, in Gamma das Dreifache), und lässt seine gewöhnliche Beute fallen. Er gehört zu seiner Welle: Eine Welle lebt, solange ihr Crystalys lebt, ein stehen gebliebener Crystalys hält also eine der vier Wellen am Leben.
+- **Höchstens vier Wellen sind am Leben.** Eine Welle, die fällig ist, wenn vier leben, wird übersprungen, wie bei den anderen Wächtern. Über halber Hülle schickt der Wächter die Welle ohne den Crystalys.
+- **Sie werden in zwei Zeilen angekündigt**: „Wrath Warden III ruft auf M-3 Verstärkung: 15 Phantasm.“ und „Wrath Warden III ruft auf M-3 Verstärkung: 1 Crystalys.“
+- **Was sie zahlen.** Eine ganze Welle aus 15 Bulwarks zahlt in Alpha 75.000 Credits, mit ihrem Crystalys 150.000: etwa 2 % der 7.200.000, die der Wächter selbst zahlt.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **31 Piloten auf x-2, 32 auf x-3 und 38 auf x-4** mit x2-Munition (26 ohne Wellen) und 36, 38 und 50 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 

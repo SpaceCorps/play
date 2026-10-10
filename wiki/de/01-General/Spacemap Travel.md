@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Das Universum besteht aus den drei großen Konzernsektoren (Mars, Terra, Galacti
 - **x-1 (Heimatbasis)**: Die Startkarte jedes Konzerns (M-1, T-1, G-1). Die sicherste Zone.
 - **x-2 -> x-3**: Expansionszonen mit immer stärkeren Aliens.
 - **x-4 (Grenze)**: Das Tor zum PvP-Sektor und zu `x-3` eines anderen Konzerns (der Ring, siehe unten).
-- **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4. Ab Saisontag 11 enthält sie außerdem Pulsare mit Riesenbaggern und den Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4. Sie enthält ab dem ersten Tag der Saison je einen Pulsar in DS-1 bis DS-3 und ab Saisontag 11 daneben je einen Riesenbagger sowie den Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md)).
 
 Nur die Heimatbasen haben eine Station. Dort öffnet sich **Mission Control**, und ihre Schutzzone reicht 1.600 Einheiten weit um sie herum. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu deiner Basis.
 

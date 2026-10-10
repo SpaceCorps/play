@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e67774df0345c0b5 -->
+<!-- wiki-i18n source: 9eea417792cfb043 -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -15,7 +15,7 @@ Fondare un clan o entrare in uno ti permette di mettere in comune le risorse, po
 - Il Leader e i Co-leader spendono i punti in tre [potenziamenti](#clan-points-and-boosts) di dieci livelli ciascuno: **Danno** (fino a +5%), **Thulium** (fino a +10%) e **Crediti** (fino a +10%).
 - Un clan che completa ogni linea ha comprato ogni livello al **giorno 12 della stagione**. I punti, i livelli e il clan stesso finiscono con il reset.
 - Servono almeno **tre membri** che abbiano fatto la loro parte e **un grande equipaggio** per lo scontro con il Custode: dalla 0.4.13 un Custode ha cinque volte lo scafo, lo scudo e il danno laser che aveva, quindi gli equipaggi che prima vincevano, di circa sette piloti, ora perdono ([quale equipaggio serve](#how-big-a-crew)). Un equipaggio troppo piccolo perde lo scontro: il clan tiene allora i **70 punti** delle quattro missioni, ma la linea non è completata e non paga [la tua ricompensa](#the-reward-for-you).
-- Un Custode paga un grosso montepremi, diviso in base ai danni, e **ogni pilota che ha inflitto il 5% dei danni o più riceve una cassa privata** con la sua parte del bottino, che solo lui vede e solo lui può raccogliere ([ricompensa e bottino](#warden-pay-and-loot)). Dalla 0.4.16 la ricompensa è tripla, e finché un Custode è in piedi **ogni minuto arriva un’ondata di alieni della mappa** ([ondate](#waves-of-aliens)).
+- Un Custode paga un grosso montepremi, diviso in base ai danni, e **ogni pilota che ha inflitto il 5% dei danni o più riceve una cassa privata** con la sua parte del bottino, che solo lui vede e solo lui può raccogliere ([ricompensa e bottino](#warden-pay-and-loot)). Dalla 0.4.16 la ricompensa è tripla, e finché un Custode è in piedi **ogni minuto arriva un’ondata di alieni della mappa** (ogni 40 secondi per il Wrath Warden III, con un Crystalys in ogni ondata quando ha meno di metà scafo), diretta contro i piloti che hanno colpito il Custode ([ondate](#waves-of-aliens)).
 - La tua nave mostra i potenziamenti che ha nella finestra **Booster**, su una scheda a parte ([dove vederli](#the-three-boosts)).
 - La linea e i potenziamenti richiedono un gioco della versione 0.4.10 o successiva; la scheda nella finestra Booster, la 0.4.12 o successiva; la pagina del clan, gli avvisi, la finestra dei piloti online, il bonus giornaliero, le richieste di pace, il registro e i clan per mondo, la 0.4.16 o successiva.
 
@@ -267,13 +267,13 @@ Quando la linea è completata, cioè quando il Custode è distrutto, ogni membro
 
 ## Custodi del clan {#clan-wardens}
 
-Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno degli [sciami](/wiki/05-Swarms/Swarms.md) pubblici che si aggirano in un settore: il tuo clan **lo convoca** e **solo il tuo clan può danneggiarlo**. Tre Custodi si alternano, uno al giorno: giorno 1 **Brood**, giorno 2 **Siege**, giorno 3 **Wrath**, giorno 4 di nuovo Brood, e così via (il giorno 15 è un giorno Wrath). Ognuno esiste in tre potenze, **I, II e III**, stabilite dalla difficoltà del clan. Un Custode è un alieno di un genere a parte, come le navi di uno sciame: non conta come Seeker, Phantasm né altro alieno. Un Custode è molto forte: ha cinque volte lo scafo, lo scudo e il danno laser che aveva prima della 0.4.13, quindi è uno scontro per il più grande equipaggio che il tuo clan riesca a radunare ([quale equipaggio serve](#how-big-a-crew)). Dalla 0.4.16 il Brood Warden III ha **la metà** di scafo e scudo, i suoi droni curano la metà e arrivano la metà più lentamente, e ogni Custode porta con sé [ondate di alieni](#waves-of-aliens) finché è in piedi.
+Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno degli [sciami](/wiki/05-Swarms/Swarms.md) pubblici che si aggirano in un settore: il tuo clan **lo convoca** e **solo il tuo clan può danneggiarlo**. Tre Custodi si alternano, uno al giorno: giorno 1 **Brood**, giorno 2 **Siege**, giorno 3 **Wrath**, giorno 4 di nuovo Brood, e così via (il giorno 15 è un giorno Wrath). Ognuno esiste in tre potenze, **I, II e III**, stabilite dalla difficoltà del clan. Un Custode è un alieno di un genere a parte, come le navi di uno sciame: non conta come Seeker, Phantasm né altro alieno. Un Custode è molto forte: ha cinque volte lo scafo, lo scudo e il danno laser che aveva prima della 0.4.13, quindi è uno scontro per il più grande equipaggio che il tuo clan riesca a radunare ([quale equipaggio serve](#how-big-a-crew)). Dalla 0.4.16 il Brood Warden III ha **la metà** di scafo e scudo, i suoi droni curano la metà e arrivano la metà più lentamente, e ogni Custode porta con sé [ondate di alieni](#waves-of-aliens) finché è in piedi. Dalla 0.4.20 un Wrath Warden **va addosso al pilota che lo ha colpito** invece di restare dove è stato convocato, il Wrath Warden III porta più alieni e più spesso, e un Crystalys quando ha meno di metà scafo, e tutto ciò che un Custode porta arriva diretto contro i piloti che lo hanno colpito.
 
 | Custode | Giorni di stagione | Ruolo | Come combatte |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Custode dell’alveare: dividi il fuoco | Quattro piccoli **Brood Drone** curano il suo scafo, e ne arriva uno nuovo ogni 8 secondi finché ne sono vivi meno di quattro (ogni 16 secondi per il Brood Warden III). Abbatti prima i droni, poi il Custode. |
 | **Siege Warden** | 2, 5, 8, 11 … | Spezzaassedi: non fermarti mai | Si aggira e lancia un [razzo Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) dritto contro il primo pilota che lo ha colpito, e si ripara da solo. Due **Siege Escort** aggiungono fuoco laser. Non fermarti e fate a turno da bersaglio. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Signore della guerra: batti la furia | Combatte sul posto e si ripara da solo. Sotto metà scafo i suoi laser colpiscono **una volta e mezza più forte**. Due **Wrath Guard** aggiungono fuoco laser. Abbattilo in fretta e tieni alti gli scudi. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Signore della guerra: batti la furia | Vola contro il primo pilota che lo ha colpito, si ferma nel raggio dei suoi laser e si ripara da solo. Sotto metà scafo i suoi laser colpiscono **una volta e mezza più forte**. Due **Wrath Guards** restano con lui e aggiungono fuoco laser. Abbattilo in fretta e tieni alti gli scudi. |
 
 ### Convocare un Custode {#calling-a-warden}
 
@@ -291,11 +291,12 @@ Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno
 - **Porta il più grande equipaggio possibile, con munizioni x2** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Gli equipaggi che vincevano prima della 0.4.13, di circa sette piloti, ora perdono. La tabella qui sotto è un calcolo e il caso migliore: anche in esso dieci piloti perdono contro ogni Custode, e il più piccolo equipaggio che può vincere ha 18–26 piloti con munizioni x2 e 26–38 con munizioni x1. Le ondate qui sotto non sono in quel calcolo.
 - **Brood:** i droni curano il suo scafo, e un equipaggio che li ignora perde, anche se è grande. Abbattili per primi e continua ad abbatterli: ne arriva uno nuovo dopo 8 secondi (16 per il Brood Warden III).
 - **Siege:** i suoi razzi sono dritti e non guidati, quindi una nave che continua a muoversi ne schiva la maggior parte. Non fermarti e fate a turno da bersaglio.
-- **Wrath:** quando il suo scafo scende sotto la metà, ogni raffica colpisce una volta e mezza più forte, quindi la seconda metà dello scontro è quella pericolosa. Abbatti in fretta la prima metà, tieni alti gli scudi e conserva Emergency Repair per la furia.
+- **Wrath:** quando il suo scafo scende sotto la metà, ogni raffica colpisce una volta e mezza più forte, quindi la seconda metà dello scontro è quella pericolosa. Abbatti in fretta la prima metà, tieni alti gli scudi e conserva Emergency Repair per la furia. Dalla 0.4.20 non sta più fermo: vola contro il primo pilota che lo ha colpito, a 90 unità al secondo, finché non è nel raggio dei suoi laser (700, 800 o 900 unità a seconda della potenza) e spara da lì, così un’arma con più portata non lo colpisce più gratis. Il Brood e il Siege Warden sono come prima: il Brood Warden resta dove è stato convocato, il Siege Warden resta in movimento.
+- **Ciò che un Custode porta viene per il pilota che lo ha colpito.** Dalla 0.4.20 ogni alieno di un’ondata, e ogni drone, scorta o guardia che arriva mentre si combatte il Custode, va contro i piloti che hanno colpito il Custode, il primo di loro per primo, nel momento in cui arriva, senza essere stato colpito a sua volta.
 
 ### Ondate di alieni {#waves-of-aliens}
 
-Dalla 0.4.16 un Custode non sta da solo. Dal momento in cui è **armato** (i 90 secondi di riscaldamento non hanno ondate, così l’equipaggio può radunarsi), **ogni 60 secondi** arriva un’**ondata** di alieni normali della mappa su cui si trova, finché il Custode è in piedi.
+Dalla 0.4.16 un Custode non sta da solo. Dal momento in cui è **armato** (i 90 secondi di riscaldamento non hanno ondate, così l’equipaggio può radunarsi), **ogni 60 secondi** arriva un’**ondata** di alieni normali della mappa su cui si trova, finché il Custode è in piedi. La tabella mostra le ondate di otto dei nove Custodi; le [ondate del Wrath Warden III](#wrath-iii-waves) sono più pesanti.
 
 | Mappa | Un’ondata | Al massimo in vita insieme |
 | :--- | :--- | ---: |
@@ -308,6 +309,23 @@ Dalla 0.4.16 un Custode non sta da solo. Dal momento in cui è **armato** (i 90 
 - **Non fanno parte dello scontro per il Custode.** Non curano nulla, e sparare loro non aggiunge nulla alla tua parte dei danni al Custode. Qualsiasi pilota della mappa può ucciderli. Ognuno paga la ricompensa ordinaria del suo alieno nel tuo mondo e dà punti PvE: un’ondata intera di 5 Phantasm paga 15.000 crediti in Alpha, una di 10 Bulwark 50.000, meno del 2% di quanto paga il Custode più debole.
 - **Si fermano con il Custode.** Quando viene distrutto o si ritira, non ne arrivano più; gli alieni già usciti restano e sono gli alieni normali della mappa. Il riavvio del server li ferma insieme al Custode.
 - **Il clan viene avvisato.** Ogni ondata è annunciata nella scheda Sistema della chat e nel Registro di gioco: «Brood Warden I chiama rinforzi in M-3: 10 Phantasm.»
+- **Arrivano dirette (0.4.20).** Gli alieni di un’ondata arrivano sapendo chi combatte il Custode: vanno contro i piloti che lo hanno colpito, il primo per primo, fin dal momento in cui compaiono, e restano su di loro finché il Custode viene colpito. Un Custode che nessuno combatte manda alieni che vagano e attirano chiunque si avvicini, come prima.
+
+#### Le ondate del Wrath Warden III {#wrath-iii-waves}
+
+Dalla 0.4.20 il **Wrath Warden III** porta di più e più spesso: un’ondata ogni **40 secondi**, tre quarti del numero di quell’alieno che la mappa contiene, e fino a **quattro ondate** in vita. Sotto metà scafo (la soglia in cui va in furia) **ogni ondata ha anche un Crystalys**, oltre alla dimensione dell’ondata.
+
+| Mappa | Un’ondata | Al massimo in vita insieme |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, e fino a 4 Crystalys |
+| x-3 | 15 Phantasm | 60, e fino a 4 Crystalys |
+| x-4 | 15 Bulwark | 60, e fino a 4 Crystalys |
+
+- **Il Crystalys** è l’alieno ordinario più pesante del gioco: 256.000 di scafo, 160.000 di scudo, 10.000 di danno a salva da 900 unità, velocità 230 (in un mondo più forte più scafo, scudo e danno). Paga quanto paga ogni Crystalys: **75.000 crediti, 200 Thulium, 12.000 XP e 52 d’onore in Alpha** (il doppio in Beta, il triplo in Gamma), e lascia il suo bottino ordinario. Fa parte della sua ondata: un’ondata è in vita finché lo è il suo Crystalys, quindi un Crystalys lasciato in piedi tiene in vita una delle quattro ondate.
+- **Al massimo quattro ondate sono in vita.** Un’ondata dovuta quando ne sono in vita quattro viene saltata, come per gli altri Custodi. Sopra metà scafo il Custode manda l’ondata senza il Crystalys.
+- **Sono annunciate in due righe**: «Wrath Warden III chiama rinforzi in M-3: 15 Phantasm.» e «Wrath Warden III chiama rinforzi in M-3: 1 Crystalys.»
+- **Quanto pagano.** Un’intera ondata di 15 Bulwarks paga 75.000 crediti in Alpha, e con il suo Crystalys 150.000: circa il 2% dei 7.200.000 che paga il Custode stesso.
+- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con queste ondate e il Crystalys, dà **31 piloti su x-2, 32 su x-3 e 38 su x-4** con munizioni x2 (26 senza ondate), e 36, 38 e 50 in Gamma, dove gli alieni delle ondate sono due volte più forti. Un clan di livello 3 ha 50 membri. Come la tabella di quella sezione, è calcolato e non misurato, ed è il caso migliore.
 
 ### Quale equipaggio serve {#how-big-a-crew}
 

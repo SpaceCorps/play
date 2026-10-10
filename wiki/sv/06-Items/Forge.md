@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -7,6 +7,8 @@
 ## Vad som kan smidas {#what-can-be-forged}
 
 Lasrar, laserförstärkare, sköldkärnor, sköldceller, motorer, styrraketer, adaptiva kärnor, Repair Drones och [skrovpansar](/wiki/06-Items/Hull-Plating.md): varje enskild utrustningsdel som kan bära [förtrollningsbonusar](/wiki/06-Items/Overview.md). Den kan ligga i ditt inventarie, sitta på ett skepp (där blir den kvar och fungerar med sin nya nivå direkt) eller vara monterad i ett annat föremål. Drönare, skepp, ammunition, resurser och boosters kan inte smidas, och inte heller något i transportförrådet: ta ut det först.
+
+Listan över utrustning har en växel **Alla / Utrustade / I inventariet** bredvid de andra filtren. **Utrustade** visar det som sitter på ett skepp eller är infogat i ett annat föremål, **I inventariet** det som ligger löst, och en rad under titeln säger hur många delar växeln döljer. Medan du väljer givaren till en sammanslagning är ”Utrustade” pausat, eftersom en givare måste ligga löst.
 
 ## Nivå upp {#tier-up}
 

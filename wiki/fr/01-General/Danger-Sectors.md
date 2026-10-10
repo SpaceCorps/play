@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e2db1138ec491432 -->
+<!-- wiki-i18n source: 13c9ac551cfd01fa -->
 <!-- wiki-i18n title: Secteurs dangereux -->
 # Secteurs dangereux {#danger-sectors}
 
@@ -8,13 +8,15 @@ Les **secteurs dangereux** sont les quatre secteurs du centre de la galaxie, `DS
 
 Une civilisation de l’ancienne galaxie a vécu ici, avancée et d’un noir violacé, et pour une raison que personne ne connaît, elle s’est effondrée. Ses vestiges n’ont jamais été tout à fait morts : l’[Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) en a été le premier signe. À partir du **jour 11 de la saison**, début de l’événement 2 (**Essor technologique**, voir la [Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)), davantage s’en réveille et les secteurs dangereux changent. Chaque pilote du monde en est prévenu le jour où cela commence, et ce qui est nouveau reste jusqu’à la réinitialisation.
 
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
+
 ## Ce qui est nouveau dès le jour 11 {#what-is-new-from-day-11}
 
-- **Des pulsars et des excavatrices géantes.** `DS-1`, `DS-2` et `DS-3` reçoivent chacun un pulsar avec une **excavatrice géante** à côté. Mettez de la Dark Matter dans le réservoir de l’excavatrice, choisissez une ressource, et elle exploite le pulsar : du Thulium et des minerais rares tombent autour d’elle dans des caisses que n’importe qui peut prendre. C’est ce qu’il y a de plus riche à se disputer dans les secteurs dangereux, et de plus dangereux. Voir [Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Des excavatrices géantes.** `DS-1`, `DS-2` et `DS-3` ont chacun un pulsar dès le premier jour de la saison, une lumière dans le ciel et rien de plus ; à partir du jour 11, chacun reçoit une **excavatrice géante** à côté. Mettez de la Dark Matter dans le réservoir de l’excavatrice, choisissez une ressource, et elle exploite le pulsar : du Thulium et des minerais rares tombent autour d’elle dans des caisses que n’importe qui peut prendre. C’est ce qu’il y a de plus riche à se disputer dans les secteurs dangereux, et de plus dangereux. Voir [Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md).
 - **Des Slumbering Voids.** Pendant qu’une excavatrice travaille, des **Slumbering Voids** arrivent par vagues du bord de la carte et traquent les pilotes qui s’en approchent. D’autres patrouillent autour du marais. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **Le Dormant Swamp.** Dans un coin de `DS-4` se dresse la base de la civilisation perdue : des canons qui tirent sur tout vaisseau qu’ils voient, des Inert Masses qui la gardent et, au milieu, l’Unwakened. C’est un endroit que les pilotes ne sont pas encore censés visiter. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Essaim Dormant plus rapide et plus riche.** L’essaim apparaît désormais au marais, revient plus tôt après sa destruction et paie le double. Voir [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Avant le jour 11**, rien de tout cela n’existe : les secteurs dangereux sont tels que les décrit [Navigation spatiale](/wiki/01-General/Spacemap%20Travel.md). Un monde au jour 11 ou après a tout d’un coup.
+- **Avant le jour 11**, seuls les pulsars brillent : les secteurs dangereux sont sinon tels que les décrit [Navigation spatiale](/wiki/01-General/Spacemap%20Travel.md). Un monde au jour 11 ou après a tout d’un coup.
 
 ## Où se trouve quoi {#where-everything-is}
 
@@ -36,7 +38,7 @@ Chaque monde a sa propre copie de tout, et un pulsar et son excavatrice se tienn
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- Tout ce qui est nouveau apparaît au jour 11 de la saison et reste jusqu’à la réinitialisation.
+- Les pulsars brillent dès le premier jour de la saison ; tout le reste de ce qui est nouveau apparaît au jour 11 de la saison et reste jusqu’à la réinitialisation.
 - Chaque monde a ses propres pulsars, excavatrices et marais : ce qui arrive dans l’un n’arrive pas dans l’autre.
 - Aucun astéroïde ne se trouve à moins de 2 600 unités d’un pulsar, à moins de 2 200 unités d’une excavatrice géante ni à moins de 4 900 unités du milieu du Dormant Swamp.
 
@@ -44,7 +46,7 @@ Chaque monde a sa propre copie de tout, et un pulsar et son excavatrice se tienn
 
 ## Éviter les ennuis {#keeping-out-of-trouble}
 
-- **Radiation.** Une excavatrice qui a surchauffé ou qui a été détruite, et son pulsar, brûlent tout vaisseau qui reste dans leurs cercles ([Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Le jeu vous prévient avant, et la carte du Système stellaire et la minicarte dessinent les cercles.
+- **Radiation.** Une excavatrice qui a surchauffé ou qui a été détruite, et son pulsar, brûlent tout vaisseau qui reste dans leurs cercles ([Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Le jeu vous prévient avant, et les cercles sont dessinés au sol en vol et sur la minicarte.
 - **Les canons du marais.** Les tourelles du marais tirent sur un vaisseau qu’elles voient bien avant qu’il puisse voir quoi que ce soit qui vaille le voyage ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Un cap que vous cliquez est infléchi autour des canons et de la radiation, comme autour du trou noir, et une alerte vous prévient quand l’endroit cliqué se trouve à l’intérieur.
 - **Si vous êtes détruit là-bas,** le choix de revenir **sur place** vous met au point le plus proche hors de la radiation et hors de la zone du marais, comme pour le trou noir ([Premiers pas](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Un groupe et une issue.** Les excavatrices attirent autant les Voids que les rivaux. Venez avec un [groupe](/wiki/03-Mechanics/Groups.md), sachez quelle porte est la plus proche et rappelez-vous que, dans les secteurs dangereux, vous ne pouvez pas sauter tant qu’on vous attaque ([Sauter sous le feu](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).

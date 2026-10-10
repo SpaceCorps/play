@@ -28,7 +28,7 @@ The universe comprises three main company sectors (Mars, Terra, Galactic) and a 
 - **x-1 (Home Base)**: The starting map for each company (M-1, T-1, G-1). Safest zone.
 - **x-2 -> x-3**: Expansion zones with progressively tougher aliens.
 - **x-4 (Border)**: The gateway to the PvP sector, and to another company's `x-3` (the Ring, below).
-- **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4. From season day 11 it also holds pulsars with giant excavators and the Dormant Swamp ([Danger Sectors](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4. It holds a pulsar in each of DS-1 to DS-3 from the first day of the season and, from season day 11, a giant excavator beside each and the Dormant Swamp ([Danger Sectors](/wiki/01-General/Danger-Sectors.md)).
 
 Only the home bases have a station. It is where **Mission Control** opens, and its safe zone reaches 1,600 units around it. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to your base for your missions.
 

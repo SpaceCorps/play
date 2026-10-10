@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -24,7 +24,7 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 - **Pendant votre absence.** Une recherche suit l’horloge du serveur : elle continue donc après votre déconnexion, jusqu’à ce qu’elle soit terminée ou que le réservoir soit vide. Une panne ou une amélioration du Centre ne l’arrête pas.
 - **Énergie.** Le Centre consomme 25 au niveau 1 et 15 % de plus à chaque niveau, et il ne peut pas être éteint.
 - **La réinitialisation garde tout :** vos technologies, la science du réservoir, la Dark Matter introduite, une recherche en cours et le boost.
-- **Ce que vous possédez est à vous.** Quand la recherche est arrivée dans le jeu, chaque pilote a reçu la technologie de chaque objet qu’il détenait déjà, et les technologies que ceux-ci exigeaient. Un objet qui vous parvient plus tard (un cadeau, un code, une récompense) ne débloque pas sa technologie.
+- **Ce que vous possédez est à vous.** Quand la recherche est arrivée dans le jeu, chaque pilote a reçu la technologie de chaque objet qu’il détenait déjà, et les technologies que ceux-ci exigeaient. Un objet qui vous parvient plus tard (un cadeau, un code, une récompense) ne débloque pas sa technologie, à une exception près : un Engine II, un Engine III, un Adaptive Core II ou un Adaptive Core III que vous donne un code, une quête, une invitation ou un administrateur débloque aussitôt sa technologie et celles qu’il exige.
 - **En dessous du niveau 10 du Noyau,** vous ne pouvez pas faire de recherche, donc rien de nouveau à l’Assemblage pour l’instant. Les missions Station vous font monter le Noyau.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ Dans la vue **Recherche** de votre Skylab, une technologie en dit plus qu’une 
 
 ## Carburant {#fuel}
 
-Vous alimentez le Centre en ressources, et chaque unité devient aussitôt de la science. Plus une unité demande de travail pour être obtenue, plus elle donne de science : les chiffres suivent la difficulté de l’obtenir, pas son étiquette de rareté. Les minerais font exception : une unité donne plus de science que les secondes qu’un collecteur met à l’extraire, si bien qu’une heure du minerai d’un collecteur à mi-parcours de ses niveaux alimente environ deux heures de recherche. Les minerais viennent de l’Entrepôt de ressources de votre [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) ; toute autre ressource vient de votre inventaire, et votre vaisseau doit être amarré. La Velkonite Reinforced Plate, l’Orvium Reinforced Plate, la Dark Matter Plate, la Dark Matter, les crédits et le Thulium ne peuvent pas être brûlés ; la Reinforced Hull Plate, si.
+Vous alimentez le Centre en ressources, et chaque unité devient aussitôt de la science. Plus une unité demande de travail pour être obtenue, plus elle donne de science : les chiffres suivent la difficulté de l’obtenir, pas son étiquette de rareté. Les minerais font exception : une unité donne plus de science que les secondes qu’un collecteur met à l’extraire, si bien qu’une heure du minerai d’un collecteur à mi-parcours de ses niveaux alimente environ deux heures de recherche. Les minerais viennent de l’Entrepôt de ressources de votre [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) ; toute autre ressource vient de votre inventaire, et votre vaisseau doit être amarré. La Velkonite Reinforced Plate, l’Orvium Reinforced Plate, la Dark Matter Plate, la Dark Matter, les crédits et le Thulium ne peuvent pas être brûlés ; la Reinforced Hull Plate, si. La Velkonite et l’Orvium que les caisses d’une excavatrice mettent dans votre inventaire arrivent dans l’Entrepôt de ressources par la [Baie à minerai](/wiki/03-Mechanics/Skylab.md#ore-bay).
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

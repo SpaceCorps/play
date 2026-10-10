@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: 巨大掘削機 -->
 # 巨大掘削機 {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; 掘削機; 巨大掘削機; パルサー; 燃料; 制御パネル; 過熱; 放射線; ウェーブ -->
 
-シーズン11日目から、危険セクター `DS-1`、`DS-2`、`DS-3` のそれぞれに**パルサー**が輝き、その隣に**巨大掘削機**が立ちます。掘削機はパルサーから **Thulium と希少な鉱石**を採掘し、そのために [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) を燃やします。誰でも燃料を入れ、何を採掘するか選び、起動できます。掘削機が生み出すものは、誰でも拾えるコンテナとなって周りに落ちます。ただし1回の稼働は騒がしく、始まるとワールド全体に知らされ、**Slumbering Void** がウェーブで押し寄せ、働かせすぎた掘削機は過熱して周囲一帯を汚染します。このページでは、稼働がどう進むか、何が得られるか、どう生き延びるかを説明します。セクターは[危険セクター](/wiki/01-General/Danger-Sectors.md)、Void は [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)にあります。
+シーズン初日から、危険セクター `DS-1`、`DS-2`、`DS-3` のそれぞれに**パルサー**が輝き、シーズン11日目からはその隣に**巨大掘削機**が立ちます。掘削機はパルサーから **Thulium と希少な鉱石**を採掘し、そのために [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) を燃やします。誰でも燃料を入れ、何を採掘するか選び、起動できます。掘削機が生み出すものは、誰でも拾えるコンテナとなって周りに落ちます。ただし1回の稼働は騒がしく、始まるとワールド全体に知らされ、**Slumbering Void** がウェーブで押し寄せ、働かせすぎた掘削機は過熱して周囲一帯を汚染します。このページでは、稼働がどう進むか、何が得られるか、どう生き延びるかを説明します。セクターは[危険セクター](/wiki/01-General/Danger-Sectors.md)、Void は [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)にあります。
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## 概要 {#at-a-glance}
 
@@ -12,7 +14,7 @@
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **場所**：どのワールドでも、`DS-1`, `DS-2` と `DS-3` のそれぞれにパルサー1つと巨大掘削機1基
-- **出現**：シーズン11日目からワイプまで
+- **出現**：パルサーはシーズン初日から、掘削機はシーズン11日目からワイプまで
 - **燃料**：Dark Matter。1個で10分燃え、タンクには3個入り、30分分の採掘になります。誰でも自分の積荷から1個ずつ追加できます
 - **パネル**：画面は掘削機から600ユニット以内で使え、ラベルは1,400ユニットから表示されます。誰でも燃料を入れ、選び、開始できます。稼働中は選択が固定されます
 - **コンテナ**：20秒ごとにコンテナが1つ、掘削機から450～900ユニットの範囲に落ち、落ちた瞬間から誰でも拾えます。5分残り、マップ上には同時に最大24個まで置かれます
@@ -26,7 +28,7 @@
 
 ## 稼働の流れ {#how-a-run-goes}
 
-1. **見つける。** パルサーのある3つの危険セクターにはそれぞれ掘削機が1基あり、どのワールドにもあります。近づくと、上に**掘削機**というラベルが浮かび、スターシステムマップには自分が飛んでいるセクターの掘削機の状態が表示されます。
+1. **見つける。** シーズン11日目から、パルサーのある3つの危険セクターにはそれぞれ掘削機が1基あり、どのワールドにもあります。近づくと、上に**掘削機**というラベルが浮かび、スターシステムマップでは掘削機のある危険セクターのすべてに印が付きます。印の色は掘削機の状態で、ツールチップには次の変化までの時間が表示されます。
 2. **パネルを開く。** ラベルをクリックします。**巨大掘削機**の画面は、あなたの艦が掘削機の制御パネルの範囲内にいるあいだ使えます（範囲は*概要*の一覧にあります）。ステルス中の艦も使え、使ってもステルスは解除されません。
 3. **燃料を入れる。** **Dark Matter を追加**は、あなたの積荷から Dark Matter を1個タンクに入れます。誰でもできます。タンクは、過熱する前に掘削機が燃やしきれる量より多くは受け付けないので、燃料が無駄になりません。
 4. **採掘する資源を選び、**一覧から選んで**採掘を開始**を押します。タンクに Dark Matter が1個以上と、資源の選択が必要です。開始までは誰でも選択を変えられ、稼働が始まると資源は固定されます。開始は、あなたの名前、セクター、資源とともに、ワールドのすべてのパイロットに知らされます。
@@ -47,7 +49,7 @@
 
 ## 何を採掘するか {#what-it-mines}
 
-満タンのタンクは、2～3人のパイロットが最良の Thulium 稼ぎを30分行った分にほぼ相当する量を生み出すよう調整されています。Beta と Gamma は、撃破の報酬が多いのと同じく、より多く生み出します。1回の稼働で選べる資源は1つです。コンテナは誰にとっても同じで、Thulium のコンテナは現金であり、小惑星の Thulium と同じく、拾ったときに支払われます。
+満タンのタンクは、5人のパイロットが最良の Thulium 稼ぎを30分行った分にほぼ相当する量を生み出します。Beta と Gamma は、撃破の報酬が多いのと同じく、より多く生み出します。1回の稼働で選べる資源は1つです。コンテナは誰にとっても同じで、Thulium のコンテナは現金であり、小惑星の Thulium と同じく、拾ったときに支払われます。
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@
 
 | 資源 | Alpha | Beta | Gamma | 1分、アルファ | コンテナ1個、アルファ |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4,821 | 7,714 | 9,643 | 160.7 | 53.6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1,157 | 1,851 | 2,314 | 38.6 | 12.9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1,029 | 17.1 | 5.7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10.7 | 3.6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5.3 | 1.8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9,643 | 15,429 | 19,286 | 321.4 | 107.1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2,314 | 3,703 | 4,629 | 77.1 | 25.7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1,029 | 1,646 | 2,057 | 34.3 | 11.4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21.3 | 7.1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10.7 | 3.6 |
 
-- Velkonite または Orvium の稼働は、その鉱石のレベル20の [Skylab](/wiki/03-Mechanics/Skylab.md) コレクターの最大4時間分（Velkonite 320、Orvium 160）を、どのワールドでも生み出します。これらは Skylab の鉱石で、稼働がそのペースをそれ以上に早めることはありません。
+- Velkonite または Orvium の稼働は、その鉱石のレベル20の [Skylab](/wiki/03-Mechanics/Skylab.md) コレクターの最大8時間分（Velkonite 640、Orvium 320）を、どのワールドでも生み出します。これらは Skylab の鉱石で、稼働がそのペースをそれ以上に早めることはありません。
 - コンテナには、最後の列の量が前後15%程度入っています。Thulium のコンテナは現金で、拾うと支払われます。鉱石のコンテナにはアイテムが入っています。
 
 <!-- excavator-resources:end -->
 
 パイロット自身のブースターは、ほかの積荷と同じように効きます。Resource Magnet Booster のボーナスは鉱石のコンテナを増やします。コンテナに1日の上限はありません。稼働を制限するのは燃料と時計です。
 
-**鉱石の使い道。** コンテナの鉱石は、ほかのアイテムと同じようにあなたの積荷に入ります。Cataclysite と Quorvium はアセンブリと鍛冶場で使います（[資源](/wiki/06-Items/Resources.md)）。Skylab の鍛造所は、鉱石を、コレクターが満たす資源貯蔵庫からしか取りません。そのためコンテナの Velkonite と Orvium は、鍛造所ではなく[研究センター](/wiki/03-Mechanics/Research.md#fuel)の燃料になります。
+**鉱石の使い道。** コンテナの鉱石は、ほかのアイテムと同じようにあなたの積荷に入ります。Cataclysite と Quorvium はアセンブリと鍛冶場で使います（[資源](/wiki/06-Items/Resources.md)）。Skylab の鍛造所と研究センターは、Velkonite と Orvium を、コレクターが満たす資源貯蔵庫からしか取りません。そのためコンテナの鉱石は積荷のままでは使えません。艦を着陸させると、Skylab の[鉱石ベイ](/wiki/03-Mechanics/Skylab.md#ore-bay)（コアレベル 10）がそれを許容量の範囲で資源貯蔵庫へ移し、鍛造所と[研究センター](/wiki/03-Mechanics/Research.md#fuel)はそこから取ります。
 
 ## Slumbering Void {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@
 
 <!-- excavator-radiation:end -->
 
-- **警告。** 過熱の前に2回（時間は上の一覧にあります）マップに知らされ、円の中にいる艦には警告が出て、円はスターシステムマップとミニマップに描かれます。放射線が出ているあいだ円は赤になり、放射線ゲージが線量を示します。
+- **警告。** 過熱の前に2回（時間は上の一覧にあります）マップに知らされ、円の中にいる艦には警告が出て、円は飛行中は地面に、そしてミニマップに描かれます。放射線が出ているあいだ円は赤になり、放射線ゲージが線量を示します。
 - **離脱。** 標準の艦はすべて、パネルの縁、または残っている最も遠いコンテナから脱出できます。ただし遅い Ironclad だけは別で、警告のうちに離れるか、離れられないかのどちらかです。熱が限界に達するときにコンテナの上に居座らないでください。
 - **円の中の戦利品。** 過熱の前に落ちたコンテナは放射線の中に残ります。放射線が始まったときにそこにあるコンテナは、線量を払って拾うことになります。
 - **サーバーの再起動**は稼働を一時停止します。燃料と熱は元のとおりに戻り、休止は時計に従って進み、再起動後の最初のウェーブは1分後に来ます。

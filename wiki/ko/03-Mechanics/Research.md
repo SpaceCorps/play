@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -24,7 +24,7 @@
 - **자리를 비운 동안.** 연구는 서버의 시계로 진행되므로 로그아웃해도 계속되며, 끝나거나 탱크가 빌 때까지 이어집니다. 전력 부족이나 연구 센터 업그레이드로는 멈추지 않습니다.
 - **전력.** 연구 센터는 레벨 1에서 25를 쓰고 레벨이 오를 때마다 15%씩 더 쓰며, 끌 수 없습니다.
 - **초기화해도 모두 남습니다:** 기술, 탱크의 과학, 넣어 둔 Dark Matter, 진행 중인 연구, 부스트.
-- **가진 것은 내 것입니다.** 연구가 게임에 들어올 때, 모든 파일럿은 이미 가지고 있던 아이템 각각의 기술과 그것에 필요했던 기술을 받았습니다. 나중에 얻은 아이템(선물, 코드, 보상)은 그 기술을 열어 주지 않습니다.
+- **가진 것은 내 것입니다.** 연구가 게임에 들어올 때, 모든 파일럿은 이미 가지고 있던 아이템 각각의 기술과 그것에 필요했던 기술을 받았습니다. 나중에 얻은 아이템(선물, 코드, 보상)은 그 기술을 열어 주지 않습니다. 단 한 가지 예외가 있습니다. 코드, 퀘스트, 초대 또는 관리자가 준 Engine II, Engine III, Adaptive Core II, Adaptive Core III는 그 기술과 그것에 필요한 기술을 바로 열어 줍니다.
 - **코어 레벨 10 미만**에서는 연구할 수 없으므로 어셈블리에서 새로운 것을 아직 만들 수 없습니다. 정거장 미션이 코어를 올리도록 안내해 줍니다.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 
 ## 연료 {#fuel}
 
-연구 센터에 자원을 넣으면 한 개씩 즉시 과학으로 바뀝니다. 얻기 힘든 자원일수록 더 많은 과학을 줍니다. 수치는 희귀도 표시가 아니라 얻기 어려운 정도를 따릅니다. 광석은 예외입니다. 한 개가 주는 과학은 수집기가 그것을 캐는 데 걸리는 초 수보다 많으므로, 레벨의 중간쯤에 있는 수집기의 한 시간분 광석이 연구 약 두 시간을 감당합니다. 광석은 [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage)의 자원 창고에서, 그 밖의 자원은 인벤토리에서 가져오며, 함선이 착륙해 있어야 합니다. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, 크레딧, Thulium은 태울 수 없지만 Reinforced Hull Plate는 태울 수 있습니다.
+연구 센터에 자원을 넣으면 한 개씩 즉시 과학으로 바뀝니다. 얻기 힘든 자원일수록 더 많은 과학을 줍니다. 수치는 희귀도 표시가 아니라 얻기 어려운 정도를 따릅니다. 광석은 예외입니다. 한 개가 주는 과학은 수집기가 그것을 캐는 데 걸리는 초 수보다 많으므로, 레벨의 중간쯤에 있는 수집기의 한 시간분 광석이 연구 약 두 시간을 감당합니다. 광석은 [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage)의 자원 창고에서, 그 밖의 자원은 인벤토리에서 가져오며, 함선이 착륙해 있어야 합니다. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, 크레딧, Thulium은 태울 수 없지만 Reinforced Hull Plate는 태울 수 있습니다. 굴착기의 상자가 인벤토리에 넣어 준 Velkonite와 Orvium은 [광석 베이](/wiki/03-Mechanics/Skylab.md#ore-bay)를 거쳐 자원 창고로 들어갑니다.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

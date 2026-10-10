@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: f2f334d2bb9d511a -->
+<!-- wiki-i18n source: 42731fd43a13e953 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
 Le Skylab est votre installation orbitale personnelle. Il construit et améliore des modules qui produisent des crédits et du Thulium, extraient du minerai, forgent les plaques dont l’Assemblage fait les meilleurs lasers et, à partir du niveau 10 du Noyau, recherchent les technologies dont l’Assemblage a besoin. Il travaille pour vous même quand vous êtes hors ligne.
 
-Au niveau 10 du Noyau, le Skylab grandit aussi : un **pont** relie le Noyau à un second Noyau doté de six emplacements de module de plus, et deux modules supplémentaires s’y branchent, l’**Imprimante à munitions** et l’**Usine à roquettes**, qui fabriquent munitions et roquettes à partir de rien (voir [Le pont et le Noyau 2](#the-bridge-and-core-2)).
+Au niveau 10 du Noyau, le Skylab grandit aussi : un **pont** relie le Noyau à un second Noyau doté de six emplacements de module de plus, et trois modules supplémentaires s’y branchent : l’**Imprimante à munitions** et l’**Usine à roquettes**, qui fabriquent munitions et roquettes à partir de rien, et la **Baie à minerai**, qui verse dans l’Entrepôt de ressources le minerai que vous transportez (voir [Le pont et le Noyau 2](#the-bridge-and-core-2) et [Baie à minerai](#ore-bay)).
 
 > [!NOTE]
 > **Ce qui a changé dans la 0.4.10.** Chaque module du Skylab a désormais sa propre table de production, de prix et de durées, niveau par niveau. Vous avez gardé vos niveaux : rien n’a été facturé et rien n’a été remboursé pour la différence. Ce que vos fermes et vos collecteurs avaient dans leurs réservoirs à l’arrivée de la mise à jour a été versé **une seule fois, au taux de l’ancienne version** : les crédits et le Thulium sont allés sur votre compte, le minerai dans votre Entrepôt de ressources, et les réservoirs sont repartis de zéro.
@@ -24,14 +24,14 @@ Au niveau 10 du Noyau, le Skylab grandit aussi : un **pont** relie le Noyau à 
 - Les fermes et les collecteurs remplissent un **réservoir** (72 heures de production) pendant votre absence. **Récupérer** le verse sur votre compte (crédits, Thulium) ou dans votre Entrepôt de ressources (minerai).
 - La **Ferme à Thulium** est votre principale source de Thulium : 40 par heure au niveau 1, 1 280 au niveau 20. La Ferme à crédits produit 750 crédits par heure au niveau 1 et 75 000 au niveau 20.
 - Le **Noyau** donne le rythme : aucun module ne le dépasse, et sa propre montée prend environ 16 jours et demi.
-- Au **niveau 10 du Noyau**, un **pont** construit le **Noyau 2**, avec six emplacements de module de plus, et l’**Imprimante à munitions** et l’**Usine à roquettes** s’y branchent. L’étape vers le niveau 10 coûte 2 000 Thulium de plus.
+- Au **niveau 10 du Noyau**, un **pont** construit le **Noyau 2**, avec six emplacements de module de plus, et l’**Imprimante à munitions**, l’**Usine à roquettes** et la **Baie à minerai** s’y branchent. L’étape vers le niveau 10 coûte 2 000 Thulium de plus.
 - **Solaire ne produit que 25 % de son énergie pendant son amélioration**, vos fermes et vos collecteurs s’arrêtent donc jusqu’à sa fin. [Planifiez-la](#timing-a-solar-upgrade).
 
 ## Vue d’ensemble {#overview}
 
 Le Skylab tourne sur sa propre horloge, indépendamment de votre vaisseau : les modules produisent et forgent pendant votre absence. Votre rôle : construire, améliorer, garder l’énergie à l’équilibre et récupérer. La page offre quatre vues de la même station : **Station** (la station en 3D, avec une pastille au-dessus de chaque module ; cliquez sur l’une d’elles pour ouvrir sa fiche, ou appuyez sur **1** à **9**), **Liste** (une carte par module), **Tableau** (les chiffres de tous les modules dans un seul tableau) et **Recherche** (l’écran propre au Centre de recherche, voir [Recherche](/wiki/03-Mechanics/Research.md)). Survoler **Construire** ou **Améliorer** montre ce que change le niveau suivant, ce qu’il coûte et combien de temps il prend.
 
-Onze modules forment la station :
+Douze modules forment la station :
 
 | Module | Produit ou fait | Constructible à partir de |
 | :--- | :--- | :--- |
@@ -46,6 +46,7 @@ Onze modules forment la station :
 | **Centre de recherche** | Transforme des ressources en science et recherche des [technologies](/wiki/03-Mechanics/Research.md) | Noyau au niveau 10 |
 | **Imprimante à munitions** | Imprime des munitions x2, x3 ou x4 à partir de rien | Noyau au niveau 10, sur le Noyau 2 |
 | **Usine à roquettes** | Construit des roquettes de la boutique à partir de rien | Noyau au niveau 10, sur le Noyau 2 |
+| **Baie à minerai** | Verse dans l’Entrepôt de ressources le Velkonite et l’Orvium que vous transportez | Noyau au niveau 10, sur le Noyau 2 |
 
 Le **pont** et le **Noyau 2** ne sont pas des modules : ils apparaissent quand le Noyau atteint le niveau 10, et le Noyau 2 n’a pas de niveau propre (voir [Le pont et le Noyau 2](#the-bridge-and-core-2)).
 
@@ -107,7 +108,7 @@ Le cœur de votre Skylab. Le niveau du Noyau détermine le niveau maximal de tou
 L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’utilisent tous les autres modules.
 
 - **Importance** : si votre consommation d’énergie dépasse votre production, vos fermes et vos collecteurs s’arrêtent.
-- **Énergie produite** : un module Solaire au niveau N produit de quoi alimenter **chaque autre module au niveau N**, avec environ un dixième de plus : 255 au niveau 1, 965 au niveau 7, 17 890 au niveau 20. Solaire de niveau 7 alimente une station entière au niveau 7 (voir Gestion de l’énergie pour chaque niveau).
+- **Énergie produite** : un module Solaire au niveau N produit de quoi alimenter **chaque autre module au niveau N**, avec environ un dixième de plus : 255 au niveau 1, 965 au niveau 7, 17 990 au niveau 20. Solaire de niveau 7 alimente une station entière au niveau 7 (voir Gestion de l’énergie pour chaque niveau).
 - **Prix** : construire Solaire coûte **500 crédits et 50 Thulium**. Ses améliorations coûtent la même chose et durent aussi longtemps que celles de la Fonderie : de 8 000 crédits et 25 Thulium pour le niveau 2 (5 minutes) à 9 000 000 de crédits et 10 000 Thulium pour le niveau 20 (24 heures).
 - **Amélioration** : pendant son amélioration, Solaire ne produit que **25 %** de l’énergie de son niveau actuel, puis celle du nouveau niveau dès que l’amélioration se termine. Une station qui consomme davantage s’arrête : toutes les fermes et tous les collecteurs cessent de produire, et la Fonderie ne lance aucun nouveau lot jusqu’à la fin de l’amélioration. C’est le cas de presque toutes les stations : elle ne tourne pendant l’amélioration que si tous les autres modules sont au moins cinq niveaux en dessous de Solaire (six niveaux à partir du niveau 10 de Solaire). Planifiez une amélioration de Solaire comme une panne de vos fermes (voir Construction et amélioration).
 - **Emplacement** : à partir du niveau 10 du Noyau, Solaire se trouve sur le Noyau 2, à l’autre bout de la station (voir [Le pont et le Noyau 2](#the-bridge-and-core-2)).
@@ -120,7 +121,7 @@ L’énergie est le sang du Skylab. Le module Solaire produit l’énergie qu’
 
 ## La chaîne d’approvisionnement {#the-supply-chain}
 
-Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/06-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas. (Une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) dépose aussi un peu de Velkonite et d’Orvium dans des caisses, mais ce minerai va dans votre cargaison, où il sert de carburant au Centre de recherche, et la Fonderie ne le prend pas.)
+Quatre modules transforment le temps passé loin du clavier en plaques pour vos meilleurs lasers. Le minerai vient **uniquement** des collecteurs (tous les matériaux et toutes les monnaies sont sur la page [Ressources](/wiki/06-Items/Resources.md)) : les aliens n’en lâchent pas et la boutique n’en vend pas. (Une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) dépose aussi un peu de Velkonite et d’Orvium dans des caisses, mais ce minerai va dans votre cargaison, et seule la [Baie à minerai](#ore-bay) le verse dans l’Entrepôt de ressources, où la Fonderie et le Centre de recherche le prennent.)
 
 1. Un **collecteur** extrait du minerai, une quantité donnée par heure, dans son propre réservoir (de quoi stocker 72 heures).
 2. **Récupérer** déplace le minerai du réservoir vers l’**Entrepôt de ressources**, la banque, où chaque minerai est gardé à part.
@@ -139,7 +140,7 @@ Quatre modules transforment le temps passé loin du clavier en plaques pour vos 
 - **Banque** : garde la Velkonite et l’Orvium séparés, et en contient une quantité différente de chacun : **240 de chaque au niveau 1**, jusqu’à 7 680 de Velkonite et 3 840 d’Orvium au niveau 20 (niveau 5 : 720 et 560 ; niveau 10 : 1 920 et 1 440).
 - **Limite** : un jour de production de son collecteur au niveau 1, jusqu’à quatre jours au niveau 20. Le réservoir d’un collecteur contient trois jours : à partir du niveau 13, la banque contient donc au moins un réservoir plein.
 - **Au-dessus de la limite** : si une banque contient plus que sa limite (le versement de la mise à jour 0.4.10 a pu la laisser ainsi), rien n’est retiré, mais Récupérer n’ajoute plus de ce minerai tant que vous n’en avez pas utilisé un peu.
-- Le minerai n’y entre qu’en le récupérant d’un collecteur, et n’en sort que vers la Fonderie. Il n’entre jamais dans votre inventaire.
+- Le minerai y entre en le récupérant d’un collecteur, ou depuis votre inventaire par la [Baie à minerai](#ore-bay), et n’en sort que vers la Fonderie et le Centre de recherche. Il ne revient jamais dans votre inventaire.
 - **Le minerai en réserve est conservé** lors de la réinitialisation de saison.
 - **Énergie** : 10 au niveau 1, soit 10 % de plus par niveau. Il ne peut pas être éteint.
 
@@ -172,7 +173,7 @@ L’amélioration du Noyau au **niveau 10** construit un **pont** et un second N
 - **Le Noyau 2 n’a pas de niveau** : il n’y a rien à améliorer ni à payer. Il offre à votre station **six emplacements de module de plus**, et la carte du Noyau indique combien sont libres.
 - **Solaire déménage** : Solaire quitte le port nord du Noyau, que le pont occupe désormais, pour le port nord du Noyau 2, à l’autre bout de la station. Son niveau, son énergie et une amélioration en cours ne changent pas.
 - **Une règle, pas une construction** : la place de chaque module découle du seul niveau du Noyau. Le pont apparaît à l’instant où l’amélioration du Noyau vers le niveau 10 se termine (un son discret et un message vous le disent), et un Skylab dont le Noyau est déjà au niveau 10 ou plus l’a au prochain coup d’œil. Aucun module n’est perdu ni supprimé, et seul Solaire change de place.
-- **Emplacements** : l’**Imprimante à munitions** prend l’emplacement nord-est du Noyau 2 et l’**Usine à roquettes** l’emplacement nord-ouest ; les quatre autres restent libres pour les modules à venir. Les deux ne se construisent que lorsque le Noyau 2 existe : avant cela, le bouton de construction affiche « Nécessite Noyau 2 ».
+- **Emplacements** : l’**Imprimante à munitions** prend l’emplacement nord-est du Noyau 2, l’**Usine à roquettes** l’emplacement nord-ouest et la **Baie à minerai** sa structure est ; les trois autres restent libres pour les modules à venir. Les trois ne se construisent que lorsque le Noyau 2 existe : avant cela, le bouton de construction affiche « Nécessite Noyau 2 ».
 - **Niveaux** : un module du Noyau 2 suit le niveau du Noyau comme tout autre module : aucun ne le dépasse, donc le Noyau 2 ajoute des emplacements, pas des niveaux.
 
 ### Imprimante à munitions {#ammo-printer}
@@ -199,6 +200,18 @@ L’Usine à roquettes construit des roquettes de la boutique à partir de rien,
 - **Construction** : 20 000 crédits, 500 Thulium et 15 Ship Fragments (pris dans votre inventaire, vaisseau amarré), sur le Noyau 2 uniquement. Ses améliorations coûtent le quart de celles de l’imprimante, de 5 300 crédits et 35 Thulium à 1 400 000 crédits et 2 800 Thulium, et durent autant : 5 j 13 h en tout.
 - **Non vendable** : ce qu’elle construit ne peut pas être vendu aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
 
+### Baie à minerai {#ore-bay}
+
+La Baie à minerai verse dans l’Entrepôt de ressources le minerai que vous transportez. Une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) dépose du Velkonite et de l’Orvium dans des caisses qui vont dans votre cargaison, où aucun module ne s’en sert ; la Baie à minerai est le chemin d’ici jusqu’à la réserve, où la Fonderie et le Centre de recherche le prennent. Elle a les niveaux 1 à 20.
+
+- **Ce qu’elle transfère** : le **Velkonite et l’Orvium**, les deux minerais que garde l’Entrepôt de ressources. La Cataclysite et le Quorvium sont un carburant que le Centre de recherche et la [Forge](/wiki/06-Items/Forge.md) prennent directement dans votre inventaire, et le Thulium va sur votre compte quand vous le ramassez.
+- **Dans un seul sens** : de votre inventaire vers l’Entrepôt de ressources, jamais en sens inverse. Seul le minerai libre de votre inventaire est transféré, jamais celui du Cache de transport.
+- **Comment** : votre **vaisseau doit être amarré**. Un transfert est instantané : sur la fiche de la Baie à minerai, choisissez le minerai, saisissez une quantité ou appuyez sur Max, puis sur **Transférer**. La fiche montre ce que vous transportez et ce que la réserve contient par rapport à sa capacité.
+- **Quota** : le niveau fixe la quantité de minerai transférée par heure, **10 au niveau 1, 320 au niveau 20**, et elle en garde jusqu’à une journée (240 au niveau 1, 7 680 au niveau 20). Une Baie neuve commence avec une journée pleine, et une amélioration garde ce qui était stocké. Un transfert est coupé au minerai que vous transportez, à la place qu’il reste dans l’Entrepôt de ressources et au quota, et la fiche dit lequel.
+- **Énergie** : 15 au niveau 1, avec 10 % de plus par niveau (92 au niveau 20). Elle peut être éteinte. Lors d’une panne, tant qu’elle est éteinte et pendant son amélioration, elle ne transfère rien.
+- **Construction** : 5 000 crédits, 250 Thulium et 10 Ship Fragments (pris dans votre inventaire, vaisseau amarré), sur le Noyau 2 seulement. Ses améliorations coûtent ce que coûtent celles de l’Entrepôt de ressources et prennent autant de temps (voir les tableaux plus bas).
+- **Pas un moyen d’avoir plus de minerai** : elle transfère du minerai que vous avez déjà. Une série de l’excavatrice est plafonnée à la source, et la capacité de l’Entrepôt de ressources borne la réserve.
+
 ## Mécaniques {#mechanics}
 
 ### Construction et amélioration {#building-and-upgrading}
@@ -212,7 +225,7 @@ L’Usine à roquettes construit des roquettes de la boutique à partir de rien,
 
 ### Ce que ça coûte {#what-it-costs}
 
-Le prix de toute la montée, la construction plus chaque amélioration, jusqu’au niveau 10 et jusqu’au niveau 20. Le Noyau est toujours là et ses étapes coûtent des crédits, avec 2 000 Thulium de plus à l’étape vers le niveau 10 ; le Centre de recherche a les niveaux 1 à 10, et ses chiffres sont sur la page [Recherche](/wiki/03-Mechanics/Research.md). L’Imprimante à munitions et l’Usine à roquettes se construisent sur le Noyau 2, donc seulement quand le Noyau est au niveau 10, et leur niveau 1 est la construction.
+Le prix de toute la montée, la construction plus chaque amélioration, jusqu’au niveau 10 et jusqu’au niveau 20. Le Noyau est toujours là et ses étapes coûtent des crédits, avec 2 000 Thulium de plus à l’étape vers le niveau 10 ; le Centre de recherche a les niveaux 1 à 10, et ses chiffres sont sur la page [Recherche](/wiki/03-Mechanics/Research.md). L’Imprimante à munitions, l’Usine à roquettes et la Baie à minerai se construisent sur le Noyau 2, donc seulement quand le Noyau est au niveau 10, et leur niveau 1 est la construction.
 
 | Module | Crédits jusqu’au niveau 10 | Thulium jusqu’au niveau 10 | Crédits jusqu’au niveau 20 | Thulium jusqu’au niveau 20 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -226,6 +239,7 @@ Le prix de toute la montée, la construction plus chaque amélioration, jusqu’
 | Fonderie | 1 224 000 | 2 050 | 35 044 000 | 37 300 |
 | Imprimante à munitions | 1 411 000 | 5 140 | 22 031 000 | 47 940 |
 | Usine à roquettes | 377 300 | 1 674 | 5 547 300 | 12 494 |
+| Baie à minerai | 619 500 | 359 | 18 169 500 | 2 649 |
 
 Les premières étapes sont bon marché et les dernières chères : l’étape de la Ferme à crédits du niveau 1 au niveau 2 coûte 5 000 crédits et 1 Thulium, celle du niveau 19 au niveau 20 coûte 7 000 000 de crédits et 550 Thulium. Celles de la Ferme à Thulium coûtent 7 000 crédits et 45 Thulium, puis 8 500 000 crédits et 16 000 Thulium. Les améliorations de Solaire coûtent à chaque niveau la même chose que celles de la Fonderie, et les deux collecteurs coûtent autant l’un que l’autre.
 
@@ -267,17 +281,17 @@ Une amélioration déjà en cours quand les durées changent garde l’heure de 
 Votre Skylab dispose d’un budget d’énergie limité.
 
 - **Bilan** : gardez la production de Solaire au-dessus de l’énergie consommée par tous les autres modules. La page Skylab affiche le bilan, et vous prévient avant qu’une construction le fasse passer sous zéro.
-- **Solaire suit le rythme** : un module Solaire au niveau N produit l’énergie de **tous les autres modules au niveau N** (le Noyau, les deux fermes, l’Entrepôt de ressources, les deux collecteurs et la Fonderie, et dès le niveau 10 le Centre de recherche), avec environ un dixième de plus, si bien qu’une station dont tous les modules sont au niveau 7 a besoin de Solaire au niveau 7, qui la couvre. Solaire un niveau en dessous ne suffit pas pour une station complète (la dernière colonne) : Solaire doit donc toujours suivre les autres vers le haut. Le Noyau consomme peu, il peut donc prendre de l’avance : Solaire au niveau 5 et au-delà couvre une station complète à son niveau, quel que soit le niveau du Noyau. Le tableau plus bas compte aussi l’Imprimante à munitions à partir du niveau 7 et l’Usine à roquettes à partir du niveau 10.
-- **État actif** : vous pouvez allumer ou éteindre les fermes, les collecteurs et la Fonderie pour gérer l’énergie. Le Noyau, Solaire, l’Entrepôt de ressources et le Centre de recherche fonctionnent toujours. L’Imprimante à munitions et l’Usine à roquettes peuvent aussi être allumées et éteintes.
-- **Panne** : si la consommation d’énergie dépasse la production, toutes les fermes et tous les collecteurs cessent de produire jusqu’au retour à l’équilibre. Ce qu’ils contiennent déjà reste, et vous pouvez toujours le récupérer. La Fonderie ne lance aucun nouveau lot, et le Centre de recherche ne lance aucune nouvelle recherche (une recherche en cours continue). L’Imprimante à munitions et l’Usine à roquettes s’arrêtent comme les fermes et les collecteurs.
+- **Solaire suit le rythme** : un module Solaire au niveau N produit l’énergie de **tous les autres modules au niveau N** (le Noyau, les deux fermes, l’Entrepôt de ressources, les deux collecteurs et la Fonderie, et dès le niveau 10 le Centre de recherche et la Baie à minerai), avec environ un dixième de plus, si bien qu’une station dont tous les modules sont au niveau 7 a besoin de Solaire au niveau 7, qui la couvre. Solaire un niveau en dessous ne suffit pas pour une station complète (la dernière colonne) : Solaire doit donc toujours suivre les autres vers le haut. Le Noyau consomme peu, il peut donc prendre de l’avance : Solaire au niveau 5 et au-delà couvre une station complète à son niveau, quel que soit le niveau du Noyau. Le tableau plus bas compte aussi l’Imprimante à munitions à partir du niveau 7, et l’Usine à roquettes et la Baie à minerai à partir du niveau 10.
+- **État actif** : vous pouvez allumer ou éteindre les fermes, les collecteurs et la Fonderie pour gérer l’énergie. Le Noyau, Solaire, l’Entrepôt de ressources et le Centre de recherche fonctionnent toujours. L’Imprimante à munitions, l’Usine à roquettes et la Baie à minerai peuvent aussi être allumées et éteintes.
+- **Panne** : si la consommation d’énergie dépasse la production, toutes les fermes et tous les collecteurs cessent de produire jusqu’au retour à l’équilibre. Ce qu’ils contiennent déjà reste, et vous pouvez toujours le récupérer. La Fonderie ne lance aucun nouveau lot, et le Centre de recherche ne lance aucune nouvelle recherche (une recherche en cours continue). L’Imprimante à munitions, l’Usine à roquettes et la Baie à minerai s’arrêtent comme les fermes et les collecteurs.
 - **Amélioration de Solaire** : pendant son amélioration, Solaire ne produit qu’un quart de son énergie ; si vos autres modules ne sont pas très en dessous, la station est donc en déficit, et les fermes et les collecteurs s’arrêtent jusqu’à la fin de l’amélioration (voir [Module Solaire](#solar-module)).
 
-L’énergie de Solaire à chaque niveau, face à ce que consomment les autres modules au même niveau (chaque module à ce niveau, le Noyau compris, et le Centre de recherche dès le niveau 10) :
+L’énergie de Solaire à chaque niveau, face à ce que consomment les autres modules au même niveau (chaque module à ce niveau, le Noyau compris, et le Centre de recherche et la Baie à minerai dès le niveau 10) :
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
 
-| Niveau | Solaire produit | Les sept autres modules consomment | Excédent | Avec Solaire un niveau en dessous |
+| Niveau | Solaire produit | Les autres modules consomment | Excédent | Avec Solaire un niveau en dessous |
 | :--- | ---: | ---: | ---: | :--- |
 | 1 | 255 | 230 | 25 | – |
 | 2 | 310 | 278 | 32 | 255 : il manque 23 |
@@ -288,20 +302,20 @@ L’énergie de Solaire à chaque niveau, face à ce que consomment les autres m
 | 7 | 965 | 875 | 90 | 680 : il manque 195 |
 | 8 | 1 185 | 1 076 | 109 | 965 : il manque 111 |
 | 9 | 1 460 | 1 327 | 133 | 1 185 : il manque 142 |
-| 10 | 2 000 | 1 814 | 186 | 1 460 : il manque 354 |
-| 11 | 2 445 | 2 221 | 224 | 2 000 : il manque 221 |
-| 12 | 3 005 | 2 731 | 274 | 2 445 : il manque 286 |
-| 13 | 3 715 | 3 373 | 342 | 3 005 : il manque 368 |
-| 14 | 4 605 | 4 183 | 422 | 3 715 : il manque 468 |
-| 15 | 5 730 | 5 205 | 525 | 4 605 : il manque 600 |
-| 16 | 7 150 | 6 499 | 651 | 5 730 : il manque 769 |
-| 17 | 8 955 | 8 140 | 815 | 7 150 : il manque 990 |
-| 18 | 11 250 | 10 225 | 1 025 | 8 955 : il manque 1 270 |
-| 19 | 14 170 | 12 879 | 1 291 | 11 250 : il manque 1 629 |
-| 20 | 17 890 | 16 261 | 1 629 | 14 170 : il manque 2 091 |
+| 10 | 2 035 | 1 849 | 186 | 1 460 : il manque 389 |
+| 11 | 2 490 | 2 260 | 230 | 2 035 : il manque 225 |
+| 12 | 3 055 | 2 774 | 281 | 2 490 : il manque 284 |
+| 13 | 3 765 | 3 421 | 344 | 3 055 : il manque 366 |
+| 14 | 4 660 | 4 235 | 425 | 3 765 : il manque 470 |
+| 15 | 5 790 | 5 262 | 528 | 4 660 : il manque 602 |
+| 16 | 7 220 | 6 562 | 658 | 5 790 : il manque 772 |
+| 17 | 9 035 | 8 209 | 826 | 7 220 : il manque 989 |
+| 18 | 11 335 | 10 301 | 1 034 | 9 035 : il manque 1 266 |
+| 19 | 14 260 | 12 962 | 1 298 | 11 335 : il manque 1 627 |
+| 20 | 17 990 | 16 353 | 1 637 | 14 260 : il manque 2 093 |
 <!-- skylab-power:end -->
 
-Le tableau compte chaque module au même niveau. La Ferme à Thulium en consomme près des trois quarts au sommet (11 695 au niveau 20, contre 16 261 pour les dix), si bien qu’une station dont cette ferme est très en avance sur le reste a besoin de plus de Solaire que ne le suggère son Noyau.
+Le tableau compte chaque module au même niveau. La Ferme à Thulium en consomme près des trois quarts au sommet (11 695 au niveau 20, contre 16 353 pour les onze), si bien qu’une station dont cette ferme est très en avance sur le reste a besoin de plus de Solaire que ne le suggère son Noyau.
 
 ### Récupération {#collecting}
 
@@ -312,12 +326,13 @@ Chaque ferme et chaque collecteur a un réservoir pour environ 72 heures de sa p
 - **Collecteurs** : le minerai va dans l’Entrepôt de ressources, dans la limite de la place disponible.
 - **Fonderie** : les plaques vont dans votre inventaire, quand votre vaisseau est amarré.
 - **Imprimante à munitions et Usine à roquettes** : les munitions et les roquettes vont dans votre inventaire, quand votre vaisseau est amarré. Chacune ne garde que 24 heures de production (voir [Imprimante à munitions](#ammo-printer) et [Usine à roquettes](#rocket-factory)).
+- **Baie à minerai** : rien à récupérer. Elle verse le minerai de votre inventaire dans l’Entrepôt de ressources quand vous appuyez sur **Transférer**, vaisseau amarré, jusqu’à son quota (voir [Baie à minerai](#ore-bay)).
 - **Tout récupérer** prend tout d’un coup, modules éteints et en cours d’amélioration compris.
 - Un badge **(!)** signale un réservoir plein que vous pouvez vider, et des plaques qui attendent dans la Fonderie, sur la page Skylab et sur la ligne Skylab de la barre latérale.
 
 ### La réinitialisation {#the-wipe}
 
-Le Skylab n’est jamais réinitialisé : les modules gardent leurs niveaux, l’Entrepôt de ressources garde son minerai et le Centre de recherche garde ses technologies, son réservoir de science, la Dark Matter qu’il contient et une recherche en cours. Les plaques de votre inventaire sont des objets comme les autres : elles suivent donc les [règles de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md). L’Imprimante à munitions et l’Usine à roquettes gardent leurs niveaux, ce qu’elles doivent fabriquer et ce qu’elles contiennent.
+Le Skylab n’est jamais réinitialisé : les modules gardent leurs niveaux, l’Entrepôt de ressources garde son minerai et le Centre de recherche garde ses technologies, son réservoir de science, la Dark Matter qu’il contient et une recherche en cours. Les plaques de votre inventaire sont des objets comme les autres : elles suivent donc les [règles de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md). L’Imprimante à munitions et l’Usine à roquettes gardent leurs niveaux, ce qu’elles doivent fabriquer et ce qu’elles contiennent, et la Baie à minerai garde son niveau et son quota. Le minerai de votre inventaire est réinitialisé comme n’importe quel objet : transférez-le d’abord dans l’Entrepôt de ressources.
 
 ## Planifier votre Skylab {#planning-your-skylab}
 
@@ -330,11 +345,11 @@ Le Skylab met des semaines à grandir : un peu de planification paie donc. Les 
 3. **La Ferme à crédits est le revenu régulier d’appoint.** Au niveau 10, elle produit 11 250 crédits par heure, 270 000 par jour, pour 840 000 crédits et 109 Thulium. Les niveaux élevés se rentabilisent lentement : l’étape du niveau 9 au niveau 10 coûte 300 000 crédits pour 1 500 de plus par heure, soit 200 heures. Montez-la quand il vous reste des crédits.
 4. **Gardez le Noyau occupé.** Rien ne dépasse le Noyau, et le Noyau seul demande environ 16 jours et demi pour atteindre le niveau 20. Il n’y a pas de file d’attente : lancez donc son étape suivante chaque fois que vous revenez.
 5. **Construisez la chaîne d’approvisionnement d’un bloc.** Les collecteurs, l’Entrepôt de ressources et la Fonderie s’ouvrent au niveau 5 du Noyau. Un collecteur ne peut mettre du minerai en banque que dans un Entrepôt de ressources, et la banque contient un jour de production de son collecteur au niveau 1 et quatre jours au niveau 20 : montez donc l’Entrepôt avec les collecteurs, sinon le minerai attend dans leurs réservoirs.
-6. **Gardez 2 000 Thulium prêts pour le niveau 10 du Noyau.** L’étape du Noyau du niveau 9 au niveau 10 les demande, et elle construit le pont et le Noyau 2, où se construisent l’[Imprimante à munitions](#ammo-printer) et l’[Usine à roquettes](#rocket-factory).
+6. **Gardez 2 000 Thulium prêts pour le niveau 10 du Noyau.** L’étape du Noyau du niveau 9 au niveau 10 les demande, et elle construit le pont et le Noyau 2, où se construisent l’[Imprimante à munitions](#ammo-printer), l’[Usine à roquettes](#rocket-factory) et la [Baie à minerai](#ore-bay).
 
 ### Planifier une amélioration de Solaire {#timing-a-solar-upgrade}
 
-Pendant son amélioration, Solaire produit un quart de son énergie, et une station consomme presque toujours davantage. Les fermes et les collecteurs s’arrêtent alors pendant toute l’amélioration : ce qu’ils contiennent reste, mais ce qu’ils auraient produit est perdu. Le tableau donne, pour chaque étape de Solaire, sa durée, la plus grande station qui tourne encore pendant celle-ci (tous les modules au même niveau, Noyau et chaîne d’approvisionnement compris ; une station plus petite tient un peu plus longtemps) et ce qu’une Ferme à crédits et une Ferme à Thulium de ce niveau auraient produit pendant ce temps. Par exemple, Solaire du niveau 10 au niveau 11 prend 4 heures, et des fermes de niveau 10 auraient produit 45 000 crédits et 1 440 Thulium pendant ce temps. Le tableau compte aussi l’Imprimante à munitions à partir du niveau 7 et l’Usine à roquettes à partir du niveau 10.
+Pendant son amélioration, Solaire produit un quart de son énergie, et une station consomme presque toujours davantage. Les fermes et les collecteurs s’arrêtent alors pendant toute l’amélioration : ce qu’ils contiennent reste, mais ce qu’ils auraient produit est perdu. Le tableau donne, pour chaque étape de Solaire, sa durée, la plus grande station qui tourne encore pendant celle-ci (tous les modules au même niveau, Noyau et chaîne d’approvisionnement compris ; une station plus petite tient un peu plus longtemps) et ce qu’une Ferme à crédits et une Ferme à Thulium de ce niveau auraient produit pendant ce temps. Par exemple, Solaire du niveau 10 au niveau 11 prend 4 heures, et des fermes de niveau 10 auraient produit 45 000 crédits et 1 440 Thulium pendant ce temps. Le tableau compte aussi l’Imprimante à munitions à partir du niveau 7, et l’Usine à roquettes et la Baie à minerai à partir du niveau 10.
 
 | Amélioration de Solaire | Durée | Station qui continue de tourner, jusqu’au niveau | La Ferme à crédits produit pendant ce temps | La Ferme à Thulium produit pendant ce temps |
 | :--- | ---: | ---: | ---: | ---: |
@@ -347,14 +362,14 @@ Pendant son amélioration, Solaire produit un quart de son énergie, et une stat
 | 7 à 8 | 1 h 30 min | 1 | 10 125 | 336 |
 | 8 à 9 | 2 h | 2 | 16 500 | 528 |
 | 9 à 10 | 3 h | 3 | 29 250 | 912 |
-| 10 à 11 | 4 h | 4 | 45 000 | 1 440 |
-| 11 à 12 | 5 h | 5 | 67 500 | 2 200 |
+| 10 à 11 | 4 h | 5 | 45 000 | 1 440 |
+| 11 à 12 | 5 h | 6 | 67 500 | 2 200 |
 | 12 à 13 | 6 h | 6 | 99 000 | 3 120 |
 | 13 à 14 | 8 h | 7 | 156 000 | 4 800 |
 | 14 à 15 | 10 h | 8 | 225 000 | 6 800 |
 | 15 à 16 | 12 h | 9 | 306 000 | 9 120 |
 | 16 à 17 | 16 h | 9 | 480 000 | 14 080 |
-| 17 à 18 | 18 h | 11 | 648 000 | 18 000 |
+| 17 à 18 | 18 h | 10 | 648 000 | 18 000 |
 | 18 à 19 | 20 h | 12 | 870 000 | 22 400 |
 | 19 à 20 | 1 j | 13 | 1 260 000 | 28 800 |
 

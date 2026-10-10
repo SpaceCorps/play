@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: Óriás kotrógép -->
 # Óriás kotrógép {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; kotrógép; óriás kotrógép; pulzár; üzemanyag; vezérlőpult; túlmelegedés; sugárzás; hullám -->
 
-A szezon 11. napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3` veszélyes szektorban, és mellette egy **óriás kotrógép** áll. A kotrógép **Thuliumot és ritka érceket** bányászik ki a pulzárból, és ehhez [Dark Mattert](/wiki/03-Mechanics/Dark-Matter.md) éget el. Bárki feltöltheti, kiválaszthatja, mit bányásszon, és elindíthatja, és amit kiad, az körülötte hever ládákban, amelyeket bárki felvehet. Egy menet azonban hangos: az egész világ értesül, amikor elindul, **Slumbering Voidok** jönnek érte hullámokban, és a túl sokáig hajtott kotrógép túlmelegszik, és besugározza az egész környéket. Ez az oldal elmondja, hogyan zajlik egy menet, mit ad, és hogyan élheted túl. A szektorok itt vannak: [Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md); a Voidok itt: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+A szezon első napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3` veszélyes szektorban, a szezon 11. napjától pedig mellette egy **óriás kotrógép** áll. A kotrógép **Thuliumot és ritka érceket** bányászik ki a pulzárból, és ehhez [Dark Mattert](/wiki/03-Mechanics/Dark-Matter.md) éget el. Bárki feltöltheti, kiválaszthatja, mit bányásszon, és elindíthatja, és amit kiad, az körülötte hever ládákban, amelyeket bárki felvehet. Egy menet azonban hangos: az egész világ értesül, amikor elindul, **Slumbering Voidok** jönnek érte hullámokban, és a túl sokáig hajtott kotrógép túlmelegszik, és besugározza az egész környéket. Ez az oldal elmondja, hogyan zajlik egy menet, mit ad, és hogyan élheted túl. A szektorok itt vannak: [Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md); a Voidok itt: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## Dióhéjban {#at-a-glance}
 
@@ -12,7 +14,7 @@ A szezon 11. napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3` v
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Hol**: Egy pulzár egy óriás kotrógéppel a következő szektorok mindegyikében: `DS-1`, `DS-2` és `DS-3`, minden világban
-- **Megjelenik**: A szezon 11. napjától a wipe-ig
+- **Megjelenik**: A pulzár a szezon első napjától, a kotrógép a szezon 11. napjától a wipe-ig
 - **Üzemanyag**: Dark Matter. Egy 10 perc ideig ég; a tartály 3 egységet fogad be, ez 30 perc bányászat. Bárki hozzáadhat egyet-egyet a saját rakományából
 - **Vezérlőpult**: Az ablak a kotrógéptől 600 egységen belül működik, a felirata 1 400 egységtől látszik. Bárki tankolhat, választhat és indíthat; a választás zárolva van, amíg fut
 - **Ládák**: 20 mp időnként egy láda, a kotrógéptől 450–900 egységre, attól a pillanattól szabad mindenkinek, hogy lehullik. 5 perc ideig hever, és egy térképen egyszerre legfeljebb 24 fekszik
@@ -26,7 +28,7 @@ A szezon 11. napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3` v
 
 ## Hogyan zajlik egy menet {#how-a-run-goes}
 
-1. **Keress egyet.** A három pulzáros veszélyes szektor mindegyikében van egy kotrógép, minden világban. Egy felirat, a **Kotrógép**, lebeg fölötte, ha a közelben vagy, a Csillagrendszer-térkép pedig megmutatja annak a szektornak a kotrógépét, amelyben repülsz.
+1. **Keress egyet.** A szezon 11. napjától a három pulzáros veszélyes szektor mindegyikében van egy kotrógép, minden világban. Egy felirat, a **Kotrógép**, lebeg fölötte, ha a közelben vagy, a Csillagrendszer-térkép pedig minden olyan veszélyes szektort megjelöl, amelyben van egy: a jelölés színe a kotrógép állapota, a súgószövege pedig a következő változásig hátralévő időt mutatja.
 2. **Nyisd meg a vezérlőpultot.** Kattints a feliratra. Az **Óriás kotrógép** ablak addig működik, amíg a hajód a kotrógép vezérlőpultjának hatótávolságán belül van (a *Dióhéjban* lista megadja). Álcázott hajó is használhatja, és a használata nem szünteti meg az álcát.
 3. **Tankold fel.** A **Dark Matter hozzáadása** egy Dark Mattert tesz a rakományodból a tartályba. Ezt bárki megteheti. A tartály sosem fogad be többet, mint amennyit a kotrógép el tud égetni a túlmelegedés előtt, így nem megy kárba üzemanyag.
 4. **Válaszd ki, mit bányásszon** a listából, majd nyomd meg a **Bányászat indítása** gombot. Legalább egy Dark Matter kell hozzá a tartályban, és egy erőforrás. Az indításig bárki megváltoztathatja a választást; amint fut, az erőforrás zárolva van. Az indításról a világ minden pilótája értesül, a nevedet, a szektort és az erőforrást megnevezve.
@@ -47,7 +49,7 @@ Ha az üzemanyag a határ előtt elfogy, a kotrógép **Kész** állapotba tér 
 
 ## Mit bányászik {#what-it-mines}
 
-Egy teli tartály úgy van kiegyensúlyozva, hogy nagyjából annyit adjon, amennyit két-három pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Menetenként egy erőforrást választasz. Egy láda mindenkinek ugyanaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát.
+Egy teli tartály nagyjából annyit ad, amennyit öt pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Menetenként egy erőforrást választasz. Egy láda mindenkinek ugyanaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@ Egy teli tartály (3 Dark Matter, 30 perc bányászat) az alábbi mennyiségeket
 
 | Erőforrás | Alpha | Beta | Gamma | Egy perc, Alphában | Egy láda, Alphában |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4 821 | 7 714 | 9 643 | 160,7 | 53,6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1 157 | 1 851 | 2 314 | 38,6 | 12,9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1 029 | 17,1 | 5,7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10,7 | 3,6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5,3 | 1,8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9 643 | 15 429 | 19 286 | 321,4 | 107,1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2 314 | 3 703 | 4 629 | 77,1 | 25,7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1 029 | 1 646 | 2 057 | 34,3 | 11,4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21,3 | 7,1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10,7 | 3,6 |
 
-- A Velkonite vagy Orvium menete legfeljebb egy 20. szintű [Skylab](/wiki/03-Mechanics/Skylab.md)-gyűjtő 4 órányi ércét adja (320 Velkonite, 160 Orvium), minden világban: ezek a Skylab ércei, és egy menet sosem gyorsítja a tempóját ennél jobban.
+- A Velkonite vagy Orvium menete legfeljebb egy 20. szintű [Skylab](/wiki/03-Mechanics/Skylab.md)-gyűjtő 8 órányi ércét adja (640 Velkonite, 320 Orvium), minden világban: ezek a Skylab ércei, és egy menet sosem gyorsítja a tempóját ennél jobban.
 - Egy láda nagyjából az utolsó oszlop mennyiségét tartalmazza, 15% eltéréssel. A Thulium-láda készpénz: a felvétel fizeti ki. Az érclába a tárgyat tartalmazza.
 
 <!-- excavator-resources:end -->
 
 A pilóta saját boosterei úgy működnek, mint bármely rakománynál: a Resource Magnet Booster bónusza megnöveli az ércládát. A ládáknak nincs napi korlátja: az üzemanyag és az óra szabja meg a menetet.
 
-**Mire jó az érc.** Egy láda ércét úgy kapod a rakományodba, mint bármely tárgyat. A Cataclysite-ot és a Quorviumot a Gyártásban és a Kovácsműhelyben használják ([Erőforrások](/wiki/06-Items/Resources.md)). A Skylab kovácsműhelye az ércét csak az Erőforrás-raktárból veszi, amelyet a gyűjtők töltenek, így egy láda Velkonite-ja és Orviumja a [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel) üzemanyaga, nem a kovácsműhelyé.
+**Mire jó az érc.** Egy láda ércét úgy kapod a rakományodba, mint bármely tárgyat. A Cataclysite-ot és a Quorviumot a Gyártásban és a Kovácsműhelyben használják ([Erőforrások](/wiki/06-Items/Resources.md)). A Skylab kovácsműhelye és Kutatóközpontja a Velkonite-ot és az Orviumot csak az Erőforrás-raktárból veszi, amelyet a gyűjtők töltenek, így egy láda ércének a rakományodban semmi hasznát nem veszed: szállj le a hajóddal, és a Skylabod [Ércrakodója](/wiki/03-Mechanics/Skylab.md#ore-bay) (Mag 10. szint) átrakja a raktárba, óránként a keretéig, onnan pedig a kovácsműhely és a [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel) veszi.
 
 ## A Slumbering Voidok {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@ A bányászat másodpercről másodpercre hőt ad hozzá. A hő **halmozódik, �
 
 <!-- excavator-radiation:end -->
 
-- **A figyelmeztetés.** A túlmelegedés előtt kétszer (az idők a fenti listában vannak) értesül a térkép, a körökben lévő hajó figyelmeztetést lát, és a köröket megrajzolja a Csillagrendszer-térkép és a minitérkép. Amikor sugároznak, a körök pirosak, és a Sugárzás-mérő mutatja az adagot.
+- **A figyelmeztetés.** A túlmelegedés előtt kétszer (az idők a fenti listában vannak) értesül a térkép, a körökben lévő hajó figyelmeztetést lát, és a köröket repülés közben a talajra és a minitérképre rajzolja a játék. Amikor sugároznak, a körök pirosak, és a Sugárzás-mérő mutatja az adagot.
 - **Távozás.** Minden sorozatgyártású hajó el tud menni a vezérlőpult széléről vagy a legtávolabbi még meglévő ládától, kivéve a lassú Ironclad-et: az a figyelmeztetés alatt távozik, vagy nem távozik. Ne állj ládán, amikor a hő a határra ér.
 - **Zsákmány a körökben.** A túlmelegedés előtt lerakott ládák a sugárzásban maradnak: az ott fekvő, amikor az elkezdődik, az adag árán vehető fel.
 - **A szerver újraindulása** szünetelteti a menetet: az üzemanyag és a hő úgy tér vissza, ahogy volt, a pihenő az óra szerint telik tovább, és az újraindulás utáni első hullám egy perccel később jön.

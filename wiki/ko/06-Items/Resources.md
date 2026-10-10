@@ -106,7 +106,7 @@
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작): **20** (함께 필요: Cataclysite 40개, Reinforced Hull Plate 4개, 크레딧 100,000, Thulium 1,500)
 - [대장간](/wiki/06-Items/Forge.md), 표준 → 오염된: **5** (함께 필요: Daraxium 15개, 크레딧 10,000; 성공 확률 100%)
 - [대장간](/wiki/06-Items/Forge.md), 오염된 → 신성한: **30** (함께 필요: Nyxite 45개, 크레딧 50,000; 성공 확률 90%)
-- [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 탄약 프린터, 단조소, Orvium 수집기, 자원 창고, Velkonite 수집기 각각 **10**개(수송 보관함이 아니라 인벤토리에서 가져감)
+- [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 탄약 프린터, 단조소, 광석 베이, Orvium 수집기, 자원 창고, Velkonite 수집기 각각 **10**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 로켓 공장 각각 **15**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 연구 센터 각각 **25**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **5**
@@ -336,7 +336,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% 확률로 2개 | 2 |
 
 - **소행성**: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode의 조각에 들어 있습니다(양은 [소행성 채굴](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)에 있습니다).
-- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 1,157개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 2,314개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **미션**: Bulwark 폭풍(도전 과제) 245; Crystalys 소탕(도전 과제) 292; Dormant의 새벽(도전 과제) 54; Goombah 군단(도전 과제) 160; Goombah의 재앙(도전 과제) 281; 적지(도전 과제) 50; 전선의 수호자(도전 과제) 298.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
@@ -380,7 +380,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% 확률로 2~4개 | 3 |
 
 - **소행성**: Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode의 조각에 들어 있습니다(양은 [소행성 채굴](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)에 있습니다).
-- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 514개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 1,029개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -399,7 +399,7 @@
 
 **얻는 방법**
 
-- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 320개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 4시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어가며 거기서는 연구 센터의 연료입니다. 단조소는 광석을 자원 창고에서만 가져옵니다.
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 640개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 8시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어갑니다. 함선을 정박하면 [광석 베이](/wiki/03-Mechanics/Skylab.md#ore-bay)가 그것을 자원 창고로 옮기고, 단조소와 연구 센터는 거기서 가져갑니다.
 - **Skylab**: Velkonite 수집기만 채굴하며, 72시간분을 저장하는 저장소에 쌓입니다. 수거하면 자원 창고로 옮겨집니다. 외계인은 드롭하지 않습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -425,7 +425,7 @@
 
 **얻는 방법**
 
-- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 160개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 4시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어가며 거기서는 연구 센터의 연료입니다. 단조소는 광석을 자원 창고에서만 가져옵니다.
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 모든 월드에서 320개를 누구나 주울 수 있는 상자로 내놓습니다(Skylab의 광석으로, 레벨 20 수집기 8시간 분량이 상한). 무엇을 채굴할지는 제어 패널에서 고릅니다. 광석은 내 화물에 들어갑니다. 함선을 정박하면 [광석 베이](/wiki/03-Mechanics/Skylab.md#ore-bay)가 그것을 자원 창고로 옮기고, 단조소와 연구 센터는 거기서 가져갑니다.
 - **Skylab**: Orvium 수집기만 채굴하며, 72시간분을 저장하는 저장소에 쌓입니다. 수거하면 자원 창고로 옮겨집니다. 외계인은 드롭하지 않습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -651,7 +651,7 @@
 - **어셈블리**, 제작 1회당: [Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 100,000.
 - **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 표준 → 오염된 10,000, 오염된 → 신성한 50,000, 신성한 → 파열하는 200,000, 파열하는 → 영원한 500,000.
 - **대장간 병합**, 만들어지는 등급별: 오염된 5,000, 신성한 25,000, 파열하는 100,000, 영원한 250,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 20,000(레벨 1), 5,600,000(레벨 20), 크레딧 농장 0(레벨 1), 7,000,000(레벨 20), 단조소 5,000(레벨 1), 9,000,000(레벨 20), Orvium 수집기 20,000(레벨 1), 5,500,000(레벨 20), 연구 센터 25,000(레벨마다 x1.5), 로켓 공장 20,000(레벨 1), 1,400,000(레벨 20), 태양광 500(레벨 1), 9,000,000(레벨 20), 자원 창고 5,000(레벨 1), 4,500,000(레벨 20), Thulium 농장 5,000(레벨 1), 8,500,000(레벨 20), Velkonite 수집기 20,000(레벨 1), 5,500,000(레벨 20). 코어는 처음부터 있으므로 처음 내는 가격은 레벨 2의 가격입니다: 1,500(그 뒤로는 레벨마다 x1.5).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 20,000(레벨 1), 5,600,000(레벨 20), 크레딧 농장 0(레벨 1), 7,000,000(레벨 20), 단조소 5,000(레벨 1), 9,000,000(레벨 20), 광석 베이 5,000(레벨 1), 4,500,000(레벨 20), Orvium 수집기 20,000(레벨 1), 5,500,000(레벨 20), 연구 센터 25,000(레벨마다 x1.5), 로켓 공장 20,000(레벨 1), 1,400,000(레벨 20), 태양광 500(레벨 1), 9,000,000(레벨 20), 자원 창고 5,000(레벨 1), 4,500,000(레벨 20), Thulium 농장 5,000(레벨 1), 8,500,000(레벨 20), Velkonite 수집기 20,000(레벨 1), 5,500,000(레벨 20). 코어는 처음부터 있으므로 처음 내는 가격은 레벨 2의 가격입니다: 1,500(그 뒤로는 레벨마다 x1.5).
 - **에너지 물질화 장치**: 스캔 1회에 크레딧 5,000, Chrono-Gate 부품을 찾습니다([자세히](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[클랜](/wiki/03-Mechanics/Clans.md)**: 클랜 은행 기부(파일럿당 24시간 동안 최대 크레딧 1,000,000)와 클랜의 일일 세금(리더가 정한 내 크레딧의 일정 비율).
 
@@ -666,7 +666,7 @@
 - **시작 시**: 신규 파일럿의 계정에 들어 있는 Thulium: 100.
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
 - **[소행성](/wiki/03-Mechanics/Asteroid-Mining.md)**: 부서진 소행성의 조각이 지급합니다. 24시간마다 한도가 있습니다(그 페이지에 있습니다).
-- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 4,821개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
+- **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터, 가득 찬 한 번의 가동이 알파에서 9,643개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
 - **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 Thulium 합계: 51,010(레벨 1의 170부터 레벨 8의 21,760까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 Thulium 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 
@@ -684,7 +684,7 @@
 - **상점**: 아이템 25개의 가격이 Thulium으로 책정되어 있습니다(가격은 각 아이템 페이지에 나옵니다: [아이템 개요](/wiki/06-Items/Overview.md) 및 [로켓](/wiki/06-Items/Rockets.md)).
 - **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 1,000, Adaptive Core II 1,000, Adaptive Core III 2,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500.
 - **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 파열하는 → 영원한 2,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 500(레벨 1), 11,000(레벨 20), 크레딧 농장 0(레벨 1), 550(레벨 20), 단조소 500(레벨 1), 10,000(레벨 20), Orvium 수집기 500(레벨 1), 12,500(레벨 20), 연구 센터 500(레벨마다 x1.5), 로켓 공장 500(레벨 1), 2,800(레벨 20), 태양광 50(레벨 1), 10,000(레벨 20), 자원 창고 250(레벨 1), 550(레벨 20), Thulium 농장 500(레벨 1), 16,000(레벨 20), Velkonite 수집기 500(레벨 1), 12,500(레벨 20).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 500(레벨 1), 11,000(레벨 20), 크레딧 농장 0(레벨 1), 550(레벨 20), 단조소 500(레벨 1), 10,000(레벨 20), 광석 베이 250(레벨 1), 550(레벨 20), Orvium 수집기 500(레벨 1), 12,500(레벨 20), 연구 센터 500(레벨마다 x1.5), 로켓 공장 500(레벨 1), 2,800(레벨 20), 태양광 50(레벨 1), 10,000(레벨 20), 자원 창고 250(레벨 1), 550(레벨 20), Thulium 농장 500(레벨 1), 16,000(레벨 20), Velkonite 수집기 500(레벨 1), 12,500(레벨 20).
 - **[연구](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: 연구 센터의 부스트는 5,000 Thulium입니다.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 점프 1회당 500 Thulium.
 - **에너지 물질화 장치**: 스캔 1회에 Thulium 5, Chrono-Gate 부품을 찾습니다([자세히](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -24,7 +24,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 - **Amíg távol vagy.** A kutatás a szerver órája szerint fut, ezért kijelentkezés után is megy tovább, amíg el nem készül vagy ki nem ürül a tartály. Az energiahiány vagy a Kutatóközpont fejlesztése nem állítja meg.
 - **Energia.** A Kutatóközpont az 1. szinten 25 energiát fogyaszt, és minden szinttel 15%-kal többet, és nem kapcsolható ki.
 - **A wipe mindent megtart:** a technológiáidat, a tartály tudományát, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot.
-- **Ami a tiéd, az a tiéd marad.** Amikor a kutatás megjelent a játékban, minden pilóta megkapta minden már birtokolt tárgyának technológiáját, és azokat a technológiákat, amelyekre ezeknek szükségük volt. Az a tárgy, amely később jut hozzád (ajándék, kód, jutalom), nem nyitja meg a technológiáját.
+- **Ami a tiéd, az a tiéd marad.** Amikor a kutatás megjelent a játékban, minden pilóta megkapta minden már birtokolt tárgyának technológiáját, és azokat a technológiákat, amelyekre ezeknek szükségük volt. Az a tárgy, amely később jut hozzád (ajándék, kód, jutalom), nem nyitja meg a technológiáját, egy kivétellel: az az Engine II, Engine III, Adaptive Core II vagy Adaptive Core III, amelyet kód, küldetés, meghívó vagy adminisztrátor ad neked, azonnal megnyitja a technológiáját és azokat, amelyekre szüksége van.
 - **A Mag 10. szintje alatt** nem kutathatsz, így a Gyártásban még semmi újat nem készíthetsz el. Az állomásküldetések végigvezetnek a Mag szintjein.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ A Skylabod **Kutatás** nézetében egy technológia többet mond el, mint az al
 
 ## Üzemanyag {#fuel}
 
-A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét. Az ércek kivételek: egy egység több tudományt ad, mint ahány másodperc alatt egy gyűjtő kitermeli, így egy a szintjei közepén járó gyűjtő egy óra érce nagyjából két óra kutatást táplál. Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek, minden más nyersanyag a készletedből, és a hajódnak le kell szállnia. A Velkonite Reinforced Plate, az Orvium Reinforced Plate, a Dark Matter Plate, a Dark Matter, a kredit és a Thulium nem égethető el; a Reinforced Hull Plate igen.
+A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét. Az ércek kivételek: egy egység több tudományt ad, mint ahány másodperc alatt egy gyűjtő kitermeli, így egy a szintjei közepén járó gyűjtő egy óra érce nagyjából két óra kutatást táplál. Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek, minden más nyersanyag a készletedből, és a hajódnak le kell szállnia. A Velkonite Reinforced Plate, az Orvium Reinforced Plate, a Dark Matter Plate, a Dark Matter, a kredit és a Thulium nem égethető el; a Reinforced Hull Plate igen. A Velkonite-ot és az Orviumot, amelyet egy kotrógép ládái a készletedbe tesznek, az [Ércrakodó](/wiki/03-Mechanics/Skylab.md#ore-bay) juttatja az Erőforrás-raktárba.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

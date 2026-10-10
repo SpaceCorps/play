@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -24,7 +24,7 @@
 - **你不在线时。** 研究按服务器的时钟进行，所以你下线后它仍会继续，直到完成或储罐变空。电力不足或研究中心升级都不会让它停下。
 - **电力。** 研究中心在 1 级耗电 25，每升一级多 15%，并且无法关闭。
 - **重置后一切保留：** 你的科技、储罐里的科研点、已放入的 Dark Matter、进行中的研究和加速。
-- **你已拥有的就是你的。** 研究加入游戏时，每位飞行员都获得了自己当时已拥有的每件物品的科技，以及这些物品所需的科技。之后才到你手上的物品（礼物、兑换码、奖励）不会解锁它的科技。
+- **你已拥有的就是你的。** 研究加入游戏时，每位飞行员都获得了自己当时已拥有的每件物品的科技，以及这些物品所需的科技。之后才到你手上的物品（礼物、兑换码、奖励）不会解锁它的科技，只有一个例外：由兑换码、任务、邀请或管理员给你的 Engine II、Engine III、Adaptive Core II 或 Adaptive Core III，会立刻解锁它的科技以及它所需要的科技。
 - **核心低于 10 级时**无法研究，所以在装配站里还不能制造任何新东西。空间站任务会带你把核心升上去。
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@
 
 ## 燃料 {#fuel}
 
-你向研究中心投入资源，每个单位立刻变成科研点。获得一个单位越费功夫，它提供的科研点就越多：数值依据的是获得的难度，而不是稀有度标签。矿石是例外：一个单位提供的科研点比采集器开采它所花的秒数更多，所以处于等级中段的采集器一小时产出的矿石大约够两小时的研究。矿石来自你 [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) 的资源仓库；其他资源都来自你的物品栏，并且舰船必须已降落。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、信用点和 Thulium 不能当作燃料烧掉；Reinforced Hull Plate 可以。
+你向研究中心投入资源，每个单位立刻变成科研点。获得一个单位越费功夫，它提供的科研点就越多：数值依据的是获得的难度，而不是稀有度标签。矿石是例外：一个单位提供的科研点比采集器开采它所花的秒数更多，所以处于等级中段的采集器一小时产出的矿石大约够两小时的研究。矿石来自你 [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) 的资源仓库；其他资源都来自你的物品栏，并且舰船必须已降落。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、信用点和 Thulium 不能当作燃料烧掉；Reinforced Hull Plate 可以。 挖掘机货箱放进你物品栏的 Velkonite 和 Orvium，会通过[矿石舱](/wiki/03-Mechanics/Skylab.md#ore-bay)进入资源仓库。
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -6,6 +6,8 @@ The **Forge** is the second tab of the Assembly page (and of the Assembly window
 
 Lasers, Laser Amps, Shield Cores, Shield Cells, Engines, Thrusters, Adaptive Cores, Repair Drones and [Hull Plating](/wiki/06-Items/Hull-Plating.md): any single piece of equipment that can carry [enchant buffs](/wiki/06-Items/Overview.md). It can be in your inventory, on a ship (it stays there and works with its new tier at once) or fitted into another item. Drones, ships, ammo, resources and boosters can't be forged, and neither can anything in the Transport Cache: take it out first.
 
+The list of equipment has an **All / Equipped / In inventory** switch next to the tier and type filters. **Equipped** shows what is on a ship or fitted into another item, **In inventory** what lies loose, and a line under the title says how many pieces the switch hides. While you choose the donor of a merge, Equipped is paused, because a donor must be loose.
+
 ## Tier up
 
 Pick an item and the panel shows its tier, the tier it would reach, what that changes (how many buffs it can hold and how big they are), and the price with what you have of each part: green when you have enough, red when you don't, and how many you are short. When you have it all, **Tier up** raises the item by exactly one tier. There is no jump: to reach Eternal an item goes through Tainted, Godly and Rupturing, each with its own price.

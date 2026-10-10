@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: Excavatrice géante -->
 # Excavatrice géante {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; excavatrice; excavatrice géante; carburant; panneau de commande; surchauffe; vague -->
 
-À partir du jour 11 de la saison, un **pulsar** brille dans chacun des secteurs dangereux `DS-1`, `DS-2` et `DS-3`, et une **excavatrice géante** se dresse à côté. L’excavatrice exploite le pulsar pour du **Thulium et des minerais rares**, et elle brûle de la [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) pour cela. N’importe qui peut la ravitailler, choisir ce qu’elle extrait et la lancer, et tout ce qu’elle dépose repose autour d’elle dans des caisses que n’importe qui peut prendre. Une série est pourtant bruyante : le monde entier est prévenu quand elle commence, des **Slumbering Voids** viennent la prendre pour cible par vagues, et une excavatrice qu’on pousse trop longtemps surchauffe et irradie toute la zone. Cette page explique comment se déroule une série, ce qu’elle dépose et comment la survivre. Les secteurs sont dans [Secteurs dangereux](/wiki/01-General/Danger-Sectors.md) ; les Voids dans [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+Dès le premier jour de la saison, un **pulsar** brille dans chacun des secteurs dangereux `DS-1`, `DS-2` et `DS-3`, et à partir du jour 11 de la saison une **excavatrice géante** se dresse à côté. L’excavatrice exploite le pulsar pour du **Thulium et des minerais rares**, et elle brûle de la [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) pour cela. N’importe qui peut la ravitailler, choisir ce qu’elle extrait et la lancer, et tout ce qu’elle dépose repose autour d’elle dans des caisses que n’importe qui peut prendre. Une série est pourtant bruyante : le monde entier est prévenu quand elle commence, des **Slumbering Voids** viennent la prendre pour cible par vagues, et une excavatrice qu’on pousse trop longtemps surchauffe et irradie toute la zone. Cette page explique comment se déroule une série, ce qu’elle dépose et comment la survivre. Les secteurs sont dans [Secteurs dangereux](/wiki/01-General/Danger-Sectors.md) ; les Voids dans [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## En un coup d’œil {#at-a-glance}
 
@@ -12,7 +14,7 @@
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Où** : Un pulsar avec une excavatrice géante dans chacun des secteurs `DS-1`, `DS-2` et `DS-3`, dans tous les mondes
-- **Apparition** : Du jour 11 de la saison jusqu’à la réinitialisation
+- **Apparition** : Le pulsar dès le premier jour de la saison, l’excavatrice dès le jour 11 de la saison jusqu’à la réinitialisation
 - **Carburant** : Dark Matter. Une brûle 10 min ; le réservoir en contient 3, soit 30 min d’extraction. N’importe qui peut en ajouter une à la fois, depuis sa propre cargaison
 - **Panneau** : La fenêtre fonctionne à moins de 600 unités de l’excavatrice, et son étiquette s’affiche dès 1 400 unités. N’importe qui peut ravitailler, choisir et lancer ; le choix est verrouillé tant qu’elle tourne
 - **Caisses** : Une caisse toutes les 20 s, entre 450 et 900 unités de l’excavatrice, libre pour n’importe qui dès l’instant où elle tombe. Elle reste 5 min, et 24 au plus reposent en même temps sur une carte
@@ -26,7 +28,7 @@
 
 ## Comment se déroule une série {#how-a-run-goes}
 
-1. **En trouver une.** Chacun des trois secteurs dangereux qui ont un pulsar a une excavatrice, dans chaque monde. Une étiquette, **Excavatrice**, flotte au-dessus d’elle quand vous êtes proche, et la carte du Système stellaire montre l’état de l’excavatrice du secteur où vous volez.
+1. **En trouver une.** À partir du jour 11 de la saison, chacun des trois secteurs dangereux qui ont un pulsar a une excavatrice, dans chaque monde. Une étiquette, **Excavatrice**, flotte au-dessus d’elle quand vous êtes proche, et la carte du Système stellaire marque chaque secteur dangereux qui en a une : la couleur de la marque est l’état de son excavatrice, et son infobulle indique le temps avant son prochain changement.
 2. **Ouvrir le panneau.** Cliquez sur l’étiquette. La fenêtre **Excavatrice géante** fonctionne tant que votre vaisseau est à portée du panneau de l’excavatrice (la liste *En un coup d’œil* l’indique). Un vaisseau occulté peut l’utiliser, et l’utiliser ne met pas fin à l’occultation.
 3. **La ravitailler.** **Ajouter de la Dark Matter** met une Dark Matter de votre cargaison dans le réservoir. N’importe qui peut le faire. Le réservoir n’en prend jamais plus que l’excavatrice ne peut en brûler avant de surchauffer, si bien qu’aucun carburant n’est gaspillé.
 4. **Choisir ce qu’elle extrait** dans la liste, puis appuyer sur **Lancer l’extraction**. Il faut au moins une Dark Matter dans le réservoir et une ressource. N’importe qui peut changer le choix jusqu’au lancement ; une fois qu’elle tourne, la ressource est verrouillée. Le lancement est annoncé à tous les pilotes du monde, avec votre nom, le secteur et la ressource.
@@ -47,7 +49,7 @@ Si le carburant s’épuise avant la limite, l’excavatrice revient à **Prête
 
 ## Ce qu’elle extrait {#what-it-mines}
 
-Un réservoir plein est calibré pour déposer à peu près ce que gagneraient deux ou trois pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez une ressource par série. Une caisse est la même pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes.
+Un réservoir plein dépose à peu près ce que gagneraient cinq pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez une ressource par série. Une caisse est la même pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@ Un réservoir plein (3 Dark Matter, 30 min d’extraction) dépose les quantité
 
 | Ressource | Alpha | Beta | Gamma | Une minute, en Alpha | Une caisse, en Alpha |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4 821 | 7 714 | 9 643 | 160,7 | 53,6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1 157 | 1 851 | 2 314 | 38,6 | 12,9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1 029 | 17,1 | 5,7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10,7 | 3,6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5,3 | 1,8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9 643 | 15 429 | 19 286 | 321,4 | 107,1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2 314 | 3 703 | 4 629 | 77,1 | 25,7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1 029 | 1 646 | 2 057 | 34,3 | 11,4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21,3 | 7,1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10,7 | 3,6 |
 
-- Une série de Velkonite ou de Orvium dépose au plus 4 heures d’un collecteur de niveau 20 du [Skylab](/wiki/03-Mechanics/Skylab.md) pour ce minerai (320 Velkonite, 160 Orvium), dans tous les mondes : ce sont les minerais du Skylab, et une série n’accélère jamais son rythme de plus que cela.
+- Une série de Velkonite ou de Orvium dépose au plus 8 heures d’un collecteur de niveau 20 du [Skylab](/wiki/03-Mechanics/Skylab.md) pour ce minerai (640 Velkonite, 320 Orvium), dans tous les mondes : ce sont les minerais du Skylab, et une série n’accélère jamais son rythme de plus que cela.
 - Une caisse contient à peu près la quantité de la dernière colonne, à 15 % près. Une caisse de Thulium est de l’argent comptant : le ramassage la verse. Une caisse de minerai contient l’objet.
 
 <!-- excavator-resources:end -->
 
 Les boosters du pilote agissent comme pour toute cargaison : le bonus du Resource Magnet Booster augmente une caisse de minerai. Il n’y a pas de limite quotidienne sur les caisses : le carburant et l’horloge limitent une série.
 
-**À quoi sert le minerai.** Le minerai d’une caisse va dans votre cargaison comme n’importe quel objet. La Cataclysite et la Quorvium servent à l’Assemblage et à la Forge ([Ressources](/wiki/06-Items/Resources.md)). La Fonderie du Skylab ne prend son minerai que dans l’Entrepôt de ressources, que remplissent les collecteurs ; la Velkonite et l’Orvium d’une caisse sont donc du carburant pour le [Centre de recherche](/wiki/03-Mechanics/Research.md#fuel), pas pour la Fonderie.
+**À quoi sert le minerai.** Le minerai d’une caisse va dans votre cargaison comme n’importe quel objet. La Cataclysite et la Quorvium servent à l’Assemblage et à la Forge ([Ressources](/wiki/06-Items/Resources.md)). La Fonderie et le Centre de recherche du Skylab ne prennent la Velkonite et l’Orvium que dans l’Entrepôt de ressources, que remplissent les collecteurs ; le minerai d’une caisse ne sert donc à rien dans votre cargaison : posez votre vaisseau, et la [Baie à minerai](/wiki/03-Mechanics/Skylab.md#ore-bay) de votre Skylab (Noyau au niveau 10) le verse dans l’entrepôt, dans la limite de son quota par heure, d’où la Fonderie et le [Centre de recherche](/wiki/03-Mechanics/Research.md#fuel) le prennent.
 
 ## Les Slumbering Voids {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@ L’extraction ajoute de la chaleur seconde après seconde. La chaleur est **cum
 
 <!-- excavator-radiation:end -->
 
-- **L’avertissement.** Deux fois avant la surchauffe (les durées sont dans la liste ci-dessus), la carte est prévenue, un vaisseau dans les cercles voit un avertissement, et les cercles sont dessinés sur la carte du Système stellaire et la minicarte. Quand ils irradient, les cercles sont rouges et la jauge de Radiation montre la dose.
+- **L’avertissement.** Deux fois avant la surchauffe (les durées sont dans la liste ci-dessus), la carte est prévenue, un vaisseau dans les cercles voit un avertissement, et les cercles sont dessinés au sol en vol et sur la minicarte. Quand ils irradient, les cercles sont rouges et la jauge de Radiation montre la dose.
 - **Partir.** Tout vaisseau de série peut sortir depuis le bord du panneau ou depuis la caisse la plus éloignée encore là, sauf l’Ironclad, qui est lent : il part pendant l’avertissement, ou il ne part pas. Ne restez pas sur une caisse quand la chaleur arrive à sa limite.
 - **Le butin dans les cercles.** Les caisses déposées avant la surchauffe restent, dans la radiation : une caisse qui s’y trouve quand elle commence se prend au prix de la dose.
 - **Le redémarrage du serveur** met une série en pause : le carburant et la chaleur reviennent comme ils étaient, le repos continue selon l’horloge, et la première vague après le redémarrage arrive une minute plus tard.

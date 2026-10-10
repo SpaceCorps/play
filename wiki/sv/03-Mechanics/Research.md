@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -24,7 +24,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 - **Medan du är borta.** En forskning går på serverns klocka, så den fortsätter när du har loggat ut, tills den är klar eller tanken är tom. Ett energiunderskott eller en uppgradering av centret stoppar den inte.
 - **Energi.** Centret drar 25 på nivå 1 och 15 % mer för varje nivå, och det kan inte stängas av.
 - **Wipen behåller allt:** dina teknologier, vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten.
-- **Det du har är ditt.** När forskningen kom till spelet fick varje pilot teknologin för varje föremål de redan hade, och de teknologier som krävdes för dem. Ett föremål som når dig senare (en gåva, en kod, en belöning) låser inte upp sin teknologi.
+- **Det du har är ditt.** När forskningen kom till spelet fick varje pilot teknologin för varje föremål de redan hade, och de teknologier som krävdes för dem. Ett föremål som når dig senare (en gåva, en kod, en belöning) låser inte upp sin teknologi, med ett undantag: ett Engine II, Engine III, Adaptive Core II eller Adaptive Core III som en kod, ett uppdrag, en inbjudan eller en administratör ger dig låser genast upp sin teknologi och de som den kräver.
 - **Under kärnnivå 10** kan du inte forska, så du kan inte tillverka något nytt i Monteringen än. Station-uppdragen leder dig uppför Kärnan.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ I vyn **Forskning** i din Skylab säger en teknologi mer än en ruta i träden n
 
 ## Bränsle {#fuel}
 
-Du matar centret med resurser, och varje enhet blir vetenskap direkt. Ju mer arbete det kostar att få tag på en enhet, desto mer vetenskap ger den: värdena följer hur svår den är att få, inte dess raritetsetikett. Malmerna är undantaget: en enhet ger mer vetenskap än antalet sekunder som en samlare behöver för att bryta den, så en timmes malm från en samlare mitt i sina nivåer matar ungefär två timmars forskning. Malmerna kommer från Resurslagret i din [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); varje annan resurs kommer från ditt inventarie, och ditt skepp måste vara landat. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, krediter och Thulium kan inte brännas; Reinforced Hull Plate kan det.
+Du matar centret med resurser, och varje enhet blir vetenskap direkt. Ju mer arbete det kostar att få tag på en enhet, desto mer vetenskap ger den: värdena följer hur svår den är att få, inte dess raritetsetikett. Malmerna är undantaget: en enhet ger mer vetenskap än antalet sekunder som en samlare behöver för att bryta den, så en timmes malm från en samlare mitt i sina nivåer matar ungefär två timmars forskning. Malmerna kommer från Resurslagret i din [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); varje annan resurs kommer från ditt inventarie, och ditt skepp måste vara landat. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, krediter och Thulium kan inte brännas; Reinforced Hull Plate kan det. Velkonite och Orvium som en grävmaskins lådor lägger i ditt inventarie kommer till Resurslagret genom [Malmviken](/wiki/03-Mechanics/Skylab.md#ore-bay).
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: f2f334d2bb9d511a -->
+<!-- wiki-i18n source: 42731fd43a13e953 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
 El Skylab es tu instalación orbital personal. Construye y mejora módulos que producen créditos y Thulium, extraen mineral, forjan las placas que el Ensamblaje convierte en los mejores láseres y, desde el nivel 10 del Núcleo, investigan las tecnologías que necesita el Ensamblaje. Trabaja para ti incluso cuando no estás conectado.
 
-En el nivel 10 del Núcleo, el Skylab además crece: un **puente** une el Núcleo con un segundo Núcleo de seis ranuras más para módulos, y a él se acoplan dos módulos más, la **Impresora de munición** y la **Fábrica de cohetes**, que fabrican munición y cohetes de la nada (consulta [El puente y el Núcleo 2](#the-bridge-and-core-2)).
+En el nivel 10 del Núcleo, el Skylab además crece: un **puente** une el Núcleo con un segundo Núcleo de seis ranuras más para módulos, y a él se acoplan tres módulos más: la **Impresora de munición** y la **Fábrica de cohetes**, que fabrican munición y cohetes de la nada, y la **Bahía de mineral**, que pasa al Almacén de recursos el mineral que llevas contigo (consulta [El puente y el Núcleo 2](#the-bridge-and-core-2) y [Bahía de mineral](#ore-bay)).
 
 > [!NOTE]
 > **Qué cambió en 0.4.10.** Cada módulo del Skylab tiene ahora su propia tabla de producción, precios y tiempos, nivel por nivel. Conservaste tus niveles: no se cobró nada ni se devolvió nada por la diferencia. Lo que tus granjas y colectores tenían en sus tolvas cuando llegó la actualización se pagó **una sola vez, a la tarifa antigua**: los créditos y el Thulium fueron a tu cuenta, el mineral a tu Almacén de recursos, y las tolvas empezaron de nuevo vacías.
@@ -24,14 +24,14 @@ En el nivel 10 del Núcleo, el Skylab además crece: un **puente** une el Núcle
 - Las granjas y los colectores llenan una **tolva** (de 72 horas) mientras estás fuera. **Recoger** la pasa a tu cuenta (créditos, Thulium) o a tu Almacén de recursos (mineral).
 - La **Granja de Thulium** es tu principal fuente de Thulium: 40 por hora en el nivel 1, 1.280 en el nivel 20. La Granja de créditos produce 750 créditos por hora en el nivel 1 y 75.000 en el nivel 20.
 - El **Núcleo** marca el ritmo: ningún módulo pasa de él, y su propia subida dura unos 16 días y medio.
-- En el **nivel 10 del Núcleo**, un **puente** construye el **Núcleo 2**, con seis ranuras más para módulos, y la **Impresora de munición** y la **Fábrica de cohetes** se acoplan a él. El paso al nivel 10 cuesta 2.000 de Thulium más.
+- En el **nivel 10 del Núcleo**, un **puente** construye el **Núcleo 2**, con seis ranuras más para módulos, y la **Impresora de munición**, la **Fábrica de cohetes** y la **Bahía de mineral** se acoplan a él. El paso al nivel 10 cuesta 2.000 de Thulium más.
 - **Solar produce solo el 25 % de su energía mientras se mejora**, así que tus granjas y colectores se detienen hasta que termina. [Planifícalo](#timing-a-solar-upgrade).
 
 ## Resumen {#overview}
 
 El Skylab funciona con su propio reloj, aparte de tu nave: los módulos producen y forjan mientras estás fuera. Lo que haces tú es construir, mejorar, mantener la energía en equilibrio y recoger. La página tiene cuatro vistas de la misma estación: **Estación** (la estación en 3D, con un chip sobre cada módulo; haz clic en uno para abrir su ficha, o pulsa del **1** al **9**), **Lista** (una tarjeta por módulo), **Tabla** (las cifras de todos los módulos en una sola tabla) e **Investigación** (la pantalla propia del Centro de investigación, consulta [Investigación](/wiki/03-Mechanics/Research.md)). Al pasar el cursor por **Construir** o **Mejorar** se ve lo que cambia el siguiente nivel, lo que cuesta y cuánto tarda.
 
-Once módulos forman la estación:
+Doce módulos forman la estación:
 
 | Módulo | Qué produce o hace | Se construye desde |
 | :--- | :--- | :--- |
@@ -46,6 +46,7 @@ Once módulos forman la estación:
 | **Centro de investigación** | Convierte recursos en ciencia e investiga [tecnologías](/wiki/03-Mechanics/Research.md) | Núcleo de nivel 10 |
 | **Impresora de munición** | Imprime munición x2, x3 o x4 de la nada | Núcleo de nivel 10, en el Núcleo 2 |
 | **Fábrica de cohetes** | Fabrica cohetes de la tienda de la nada | Núcleo de nivel 10, en el Núcleo 2 |
+| **Bahía de mineral** | Pasa al Almacén de recursos el Velkonite y el Orvium que llevas contigo | Núcleo de nivel 10, en el Núcleo 2 |
 
 El **puente** y el **Núcleo 2** no son módulos: aparecen cuando el Núcleo llega al nivel 10, y el Núcleo 2 no tiene nivel propio (consulta [El puente y el Núcleo 2](#the-bridge-and-core-2)).
 
@@ -107,7 +108,7 @@ El corazón de tu Skylab. El nivel del Núcleo decide el nivel máximo de todos 
 La energía es el alma del Skylab. El módulo Solar produce la energía que usan todos los demás módulos.
 
 - **Importancia**: si tu consumo de energía es mayor que la energía que produces, tus granjas y colectores se apagan.
-- **Energía producida**: un módulo Solar de nivel N produce lo suficiente para **todos los demás módulos en el nivel N**, y alrededor de una décima parte más: 255 en el nivel 1, 965 en el nivel 7, 17.890 en el nivel 20. Solar de nivel 7 alimenta una estación entera en el nivel 7 (consulta Gestión de la energía para ver todos los niveles).
+- **Energía producida**: un módulo Solar de nivel N produce lo suficiente para **todos los demás módulos en el nivel N**, y alrededor de una décima parte más: 255 en el nivel 1, 965 en el nivel 7, 17.990 en el nivel 20. Solar de nivel 7 alimenta una estación entera en el nivel 7 (consulta Gestión de la energía para ver todos los niveles).
 - **Precio**: construir Solar cuesta **500 créditos y 50 Thulium**. Sus mejoras cuestan lo mismo y duran lo mismo que las de la Forja: desde 8.000 créditos y 25 Thulium para el nivel 2 (5 minutos) hasta 9.000.000 de créditos y 10.000 Thulium para el nivel 20 (24 horas).
 - **Mejora**: mientras se mejora, Solar produce solo el **25 %** de la energía de su nivel actual, y la del nivel nuevo desde que termina la mejora. Una estación que consume más que eso se detiene: todas las granjas y colectores dejan de producir y la Forja no empieza ningún lote nuevo hasta que termina la mejora. En casi todas las estaciones ocurre así: solo sigue funcionando durante la mejora si todos los demás módulos están al menos cinco niveles por debajo de Solar (seis niveles desde el nivel 10 de Solar). Planifica una mejora de Solar como un apagón de tus granjas (consulta Construcción y mejora).
 - **Lugar**: desde el nivel 10 del Núcleo, Solar está en el Núcleo 2, en el extremo lejano de la estación (consulta [El puente y el Núcleo 2](#the-bridge-and-core-2)).
@@ -120,7 +121,7 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 
 ## La cadena de suministro {#the-supply-chain}
 
-Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/06-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende. (Una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también suelta algo de Velkonite y Orvium en cajas, pero ese mineral va a tu carga, donde es combustible del Centro de investigación, y la Forja no lo toma.)
+Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas para tus mejores láseres. El mineral proviene **únicamente** de los colectores (todos los materiales y monedas están en la página [Recursos](/wiki/06-Items/Resources.md)): los alienígenas no lo sueltan y la tienda no lo vende. (Una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también suelta algo de Velkonite y Orvium en cajas, pero ese mineral va a tu carga, y solo la [Bahía de mineral](#ore-bay) lo pasa al Almacén de recursos, de donde lo toman la Forja y el Centro de investigación.)
 
 1. Un **colector** extrae mineral, una cantidad por hora, en su propia tolva (72 horas de producción).
 2. **Recoger** pasa el mineral de la tolva al **Almacén de recursos**, la reserva, donde cada mineral se guarda por separado.
@@ -139,7 +140,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 - **Reserva**: guarda el Velkonite y el Orvium por separado y almacena una cantidad distinta de cada uno: **240 de cada uno en el nivel 1**, hasta 7.680 de Velkonite y 3.840 de Orvium en el nivel 20 (nivel 5: 720 y 560; nivel 10: 1.920 y 1.440).
 - **Límite**: un día de la producción de su colector en el nivel 1, hasta cuatro días en el nivel 20. La tolva de un colector guarda tres días, así que desde el nivel 13 la reserva guarda al menos una tolva llena.
 - **Por encima del límite**: si una reserva guarda más que su límite (el pago de la actualización 0.4.10 pudo dejarla así), no se quita nada, pero Recoger no añade más de ese mineral hasta que hayas gastado algo.
-- El mineral entra solo al recoger de un colector y sale solo hacia la Forja. Nunca llega a tu inventario.
+- El mineral entra al recoger de un colector o, desde tu inventario, por la [Bahía de mineral](#ore-bay), y sale solo hacia la Forja y el Centro de investigación. Nunca vuelve a tu inventario.
 - **El mineral guardado se conserva** tras el reinicio de la temporada.
 - **Energía**: 10 en el nivel 1, con un aumento del 10 % por nivel. No se puede apagar.
 
@@ -172,7 +173,7 @@ La mejora del Núcleo al **nivel 10** construye un **puente** y un segundo Núcl
 - **El Núcleo 2 no tiene nivel**: no hay nada que mejorar ni que pagar. Da a tu estación **seis ranuras más para módulos**, y la ficha del Núcleo muestra cuántas están libres.
 - **Solar se traslada**: Solar deja el puerto norte del Núcleo, que ahora ocupa el puente, y pasa al puerto norte del Núcleo 2, en el extremo lejano de la estación. Su nivel, su energía y una mejora en curso quedan intactos.
 - **Una regla, no una obra**: dónde está cada módulo depende solo del nivel del Núcleo. El puente aparece en el momento en que termina la mejora del Núcleo al nivel 10 (un sonido suave y un mensaje te lo dicen), y un Skylab cuyo Núcleo ya está en el nivel 10 o más lo tiene en la siguiente visita. No se pierde ni se borra ningún módulo, y solo Solar cambia de sitio.
-- **Ranuras**: la **Impresora de munición** ocupa la ranura noreste del Núcleo 2 y la **Fábrica de cohetes** la noroeste; las otras cuatro quedan libres para módulos futuros. Ambas solo se pueden construir cuando el Núcleo 2 ya existe: antes, el botón de construir dice «Requiere Núcleo 2».
+- **Ranuras**: la **Impresora de munición** ocupa la ranura noreste del Núcleo 2, la **Fábrica de cohetes** la noroeste y la **Bahía de mineral** su estructura este; las otras tres quedan libres para módulos futuros. Las tres solo se pueden construir cuando el Núcleo 2 ya existe: antes, el botón de construir dice «Requiere Núcleo 2».
 - **Niveles**: un módulo del Núcleo 2 sigue el nivel del Núcleo como cualquier otro módulo: ninguno pasa del Núcleo, así que el Núcleo 2 añade ranuras, no niveles.
 
 ### Impresora de munición {#ammo-printer}
@@ -199,6 +200,18 @@ La Fábrica de cohetes fabrica cohetes de la tienda de la nada, de un tipo cada 
 - **Construcción**: 20.000 créditos, 500 de Thulium y 15 Ship Fragments (de tu inventario, con la nave aterrizada), solo en el Núcleo 2. Sus mejoras cuestan una cuarta parte de las de la impresora, desde 5.300 créditos y 35 de Thulium hasta 1.400.000 créditos y 2.800 de Thulium, y duran lo mismo: 5 d 13 h en total.
 - **No comercializable**: lo que fabrica no se puede vender en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
 
+### Bahía de mineral {#ore-bay}
+
+La Bahía de mineral pasa al Almacén de recursos el mineral que llevas contigo. Una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) suelta Velkonite y Orvium en cajas que van a tu carga, donde ningún módulo los usa; la Bahía de mineral es el camino desde allí hasta el banco, de donde lo toman la Forja y el Centro de investigación. Tiene los niveles 1 a 20.
+
+- **Qué mueve**: **Velkonite y Orvium**, los dos minerales que guarda el Almacén de recursos. La Cataclysite y el Quorvium son combustible que el Centro de investigación y [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) toman directamente de tu inventario, y el Thulium va a tu cuenta al recogerlo.
+- **En un solo sentido**: de tu inventario al Almacén de recursos, nunca de vuelta. Solo se mueve el mineral suelto de tu inventario, nunca el del Alijo de Transporte.
+- **Cómo**: tu **nave debe estar aterrizada**. Una transferencia es instantánea: en la hoja de la Bahía de mineral elige el mineral, escribe una cantidad o pulsa Máx. y pulsa **Mover**. La hoja muestra lo que llevas y lo que guarda el banco frente a su capacidad.
+- **Cupo**: el nivel fija cuánto mineral mueve por hora, **10 en el nivel 1, 320 en el nivel 20**, y guarda hasta un día de ello (240 en el nivel 1, 7.680 en el nivel 20). Una Bahía nueva empieza con un día entero, y una mejora conserva lo almacenado. Una transferencia se corta en el mineral que llevas, en el espacio que le queda al Almacén de recursos y en el cupo, y la hoja dice cuál.
+- **Energía**: 15 en el nivel 1, con un aumento del 10 % por nivel (92 en el nivel 20). Se puede apagar. Con un déficit de energía, mientras está apagada y mientras se mejora, no mueve nada.
+- **Construcción**: 5.000 créditos, 250 de Thulium y 10 Ship Fragments (de tu inventario, con la nave aterrizada), solo en el Núcleo 2. Sus mejoras cuestan lo que las del Almacén de recursos y tardan lo mismo (consulta las tablas de más abajo).
+- **No es un camino a más mineral**: mueve mineral que ya tienes. Una tanda de la excavadora se limita en su origen, y la capacidad del Almacén de recursos limita el banco.
+
 ## Mecánicas {#mechanics}
 
 ### Construcción y mejora {#building-and-upgrading}
@@ -212,7 +225,7 @@ La Fábrica de cohetes fabrica cohetes de la tienda de la nada, de un tipo cada 
 
 ### Cuánto cuesta {#what-it-costs}
 
-El precio de toda la subida, la construcción más cada mejora, hasta el nivel 10 y hasta el nivel 20. El Núcleo siempre está ahí y sus pasos cuestan créditos, con 2.000 de Thulium más en el paso al nivel 10; el Centro de investigación tiene los niveles 1 a 10 y sus cifras están en la página [Investigación](/wiki/03-Mechanics/Research.md). La Impresora de munición y la Fábrica de cohetes se construyen en el Núcleo 2, así que solo cuando el Núcleo está en el nivel 10, y su nivel 1 es la construcción.
+El precio de toda la subida, la construcción más cada mejora, hasta el nivel 10 y hasta el nivel 20. El Núcleo siempre está ahí y sus pasos cuestan créditos, con 2.000 de Thulium más en el paso al nivel 10; el Centro de investigación tiene los niveles 1 a 10 y sus cifras están en la página [Investigación](/wiki/03-Mechanics/Research.md). La Impresora de munición, la Fábrica de cohetes y la Bahía de mineral se construyen en el Núcleo 2, así que solo cuando el Núcleo está en el nivel 10, y su nivel 1 es la construcción.
 
 | Módulo | Créditos hasta el nivel 10 | Thulium hasta el nivel 10 | Créditos hasta el nivel 20 | Thulium hasta el nivel 20 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -226,6 +239,7 @@ El precio de toda la subida, la construcción más cada mejora, hasta el nivel 1
 | Forja | 1.224.000 | 2.050 | 35.044.000 | 37.300 |
 | Impresora de munición | 1.411.000 | 5.140 | 22.031.000 | 47.940 |
 | Fábrica de cohetes | 377.300 | 1.674 | 5.547.300 | 12.494 |
+| Bahía de mineral | 619.500 | 359 | 18.169.500 | 2.649 |
 
 Los primeros pasos son baratos y los últimos caros: el paso de la Granja de créditos del nivel 1 al 2 cuesta 5.000 créditos y 1 Thulium, y su paso del 19 al 20 cuesta 7.000.000 de créditos y 550 Thulium. Los de la Granja de Thulium cuestan 7.000 créditos y 45 Thulium, y después 8.500.000 créditos y 16.000 Thulium. Las mejoras de Solar cuestan en cada nivel lo mismo que las de la Forja, y los dos colectores cuestan lo mismo entre sí.
 
@@ -267,17 +281,17 @@ Una mejora que ya está en marcha cuando cambian los tiempos conserva la hora de
 Tu Skylab tiene un presupuesto de energía limitado.
 
 - **Balance**: mantén la producción de tu Solar por encima de la energía que usan todos los demás módulos. La página del Skylab muestra el balance y avisa antes de que una construcción lo deje por debajo de cero.
-- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **todos los demás módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja, y desde el nivel 10 el Centro de investigación) y alrededor de una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7, y lo tiene cubierto. Solar un nivel por debajo no basta para una estación completa (la última columna), así que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 y superior cubre una estación completa en su nivel con el Núcleo en cualquier nivel. La tabla de más abajo cuenta además la Impresora de munición desde el nivel 7 y la Fábrica de cohetes desde el nivel 10.
-- **Estado activo**: puedes encender o apagar las granjas, los colectores y la Forja para gestionar la energía. El Núcleo, Solar, el Almacén de recursos y el Centro de investigación siempre funcionan. La Impresora de munición y la Fábrica de cohetes también se pueden encender y apagar.
-- **Déficit de energía**: si el consumo de energía es mayor que la energía producida, todas las granjas y colectores dejan de producir hasta que se recupera el balance. Lo que ya almacenan se conserva y aún puedes recogerlo. La Forja no empieza ningún lote nuevo, y el Centro de investigación no empieza ninguna investigación nueva (una investigación en curso sigue). La Impresora de munición y la Fábrica de cohetes se detienen como las granjas y los colectores.
+- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **todos los demás módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja, y desde el nivel 10 el Centro de investigación y la Bahía de mineral) y alrededor de una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7, y lo tiene cubierto. Solar un nivel por debajo no basta para una estación completa (la última columna), así que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 y superior cubre una estación completa en su nivel con el Núcleo en cualquier nivel. La tabla de más abajo cuenta además la Impresora de munición desde el nivel 7, y la Fábrica de cohetes y la Bahía de mineral desde el nivel 10.
+- **Estado activo**: puedes encender o apagar las granjas, los colectores y la Forja para gestionar la energía. El Núcleo, Solar, el Almacén de recursos y el Centro de investigación siempre funcionan. La Impresora de munición, la Fábrica de cohetes y la Bahía de mineral también se pueden encender y apagar.
+- **Déficit de energía**: si el consumo de energía es mayor que la energía producida, todas las granjas y colectores dejan de producir hasta que se recupera el balance. Lo que ya almacenan se conserva y aún puedes recogerlo. La Forja no empieza ningún lote nuevo, y el Centro de investigación no empieza ninguna investigación nueva (una investigación en curso sigue). La Impresora de munición, la Fábrica de cohetes y la Bahía de mineral se detienen como las granjas y los colectores.
 - **Mejora de Solar**: mientras se mejora, Solar produce solo una cuarta parte de su energía, así que, si tus demás módulos no están muy por debajo, la estación entra en déficit y las granjas y los colectores se detienen hasta que termina la mejora (consulta el [módulo Solar](#solar-module)).
 
-La energía de Solar en cada nivel, frente a lo que consumen los demás módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido, y el Centro de investigación desde el nivel 10):
+La energía de Solar en cada nivel, frente a lo que consumen los demás módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido, y el Centro de investigación y la Bahía de mineral desde el nivel 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
 
-| Nivel | Solar produce | Los otros siete módulos consumen | Sobrante | Con Solar un nivel por debajo |
+| Nivel | Solar produce | Los demás módulos consumen | Sobrante | Con Solar un nivel por debajo |
 | :--- | ---: | ---: | ---: | :--- |
 | 1 | 255 | 230 | 25 | – |
 | 2 | 310 | 278 | 32 | 255: faltan 23 |
@@ -288,20 +302,20 @@ La energía de Solar en cada nivel, frente a lo que consumen los demás módulos
 | 7 | 965 | 875 | 90 | 680: faltan 195 |
 | 8 | 1.185 | 1.076 | 109 | 965: faltan 111 |
 | 9 | 1.460 | 1.327 | 133 | 1.185: faltan 142 |
-| 10 | 2.000 | 1.814 | 186 | 1.460: faltan 354 |
-| 11 | 2.445 | 2.221 | 224 | 2.000: faltan 221 |
-| 12 | 3.005 | 2.731 | 274 | 2.445: faltan 286 |
-| 13 | 3.715 | 3.373 | 342 | 3.005: faltan 368 |
-| 14 | 4.605 | 4.183 | 422 | 3.715: faltan 468 |
-| 15 | 5.730 | 5.205 | 525 | 4.605: faltan 600 |
-| 16 | 7.150 | 6.499 | 651 | 5.730: faltan 769 |
-| 17 | 8.955 | 8.140 | 815 | 7.150: faltan 990 |
-| 18 | 11.250 | 10.225 | 1.025 | 8.955: faltan 1.270 |
-| 19 | 14.170 | 12.879 | 1.291 | 11.250: faltan 1.629 |
-| 20 | 17.890 | 16.261 | 1.629 | 14.170: faltan 2.091 |
+| 10 | 2.035 | 1.849 | 186 | 1.460: faltan 389 |
+| 11 | 2.490 | 2.260 | 230 | 2.035: faltan 225 |
+| 12 | 3.055 | 2.774 | 281 | 2.490: faltan 284 |
+| 13 | 3.765 | 3.421 | 344 | 3.055: faltan 366 |
+| 14 | 4.660 | 4.235 | 425 | 3.765: faltan 470 |
+| 15 | 5.790 | 5.262 | 528 | 4.660: faltan 602 |
+| 16 | 7.220 | 6.562 | 658 | 5.790: faltan 772 |
+| 17 | 9.035 | 8.209 | 826 | 7.220: faltan 989 |
+| 18 | 11.335 | 10.301 | 1.034 | 9.035: faltan 1.266 |
+| 19 | 14.260 | 12.962 | 1.298 | 11.335: faltan 1.627 |
+| 20 | 17.990 | 16.353 | 1.637 | 14.260: faltan 2.093 |
 <!-- skylab-power:end -->
 
-La tabla cuenta todos los módulos en el mismo nivel. La Granja de Thulium consume casi tres cuartas partes de ese total en lo más alto (11.695 en el nivel 20, frente a 16.261 de los diez), así que una estación con esa granja muy por delante del resto necesita más Solar de lo que sugiere su Núcleo.
+La tabla cuenta todos los módulos en el mismo nivel. La Granja de Thulium consume casi tres cuartas partes de ese total en lo más alto (11.695 en el nivel 20, frente a 16.353 de los once), así que una estación con esa granja muy por delante del resto necesita más Solar de lo que sugiere su Núcleo.
 
 ### Recogida {#collecting}
 
@@ -312,12 +326,13 @@ Cada granja y cada colector tiene una tolva para unas 72 horas de lo que produce
 - **Colectores**: el mineral va al Almacén de recursos, hasta donde haya sitio.
 - **Forja**: las placas van a tu inventario, cuando tu nave está aterrizada.
 - **Impresora de munición y Fábrica de cohetes**: la munición y los cohetes pasan a tu inventario, cuando tu nave está aterrizada. Cada una guarda solo 24 horas de producción (consulta [Impresora de munición](#ammo-printer) y [Fábrica de cohetes](#rocket-factory)).
+- **Bahía de mineral**: nada que recoger. Pasa el mineral de tu inventario al Almacén de recursos cuando pulsas **Mover**, con tu nave aterrizada, hasta su cupo (consulta [Bahía de mineral](#ore-bay)).
 - **Recoger todo** lo toma todo de una vez, incluidos los módulos apagados y en mejora.
 - Una insignia **(!)** señala una tolva llena que puedes vaciar y las placas que esperan en la Forja, en la página del Skylab y en la fila del Skylab de la barra lateral.
 
 ### El reinicio {#the-wipe}
 
-El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter que contiene y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md). La Impresora de munición y la Fábrica de cohetes conservan sus niveles, lo que tienen que fabricar y lo que guardan.
+El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter que contiene y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md). La Impresora de munición y la Fábrica de cohetes conservan sus niveles, lo que tienen que fabricar y lo que guardan, y la Bahía de mineral conserva su nivel y su cupo. El mineral de tu inventario se reinicia como cualquier objeto: pásalo antes al Almacén de recursos.
 
 ## Planifica tu Skylab {#planning-your-skylab}
 
@@ -330,11 +345,11 @@ El Skylab tarda semanas en crecer, así que un poco de planificación compensa. 
 3. **La Granja de créditos es el ingreso estable de segundo plano.** En el nivel 10 produce 11.250 créditos por hora, 270.000 al día, por 840.000 créditos y 109 Thulium. Los niveles altos se amortizan despacio: el paso del nivel 9 al 10 cuesta 300.000 créditos por 1.500 más por hora, es decir, 200 horas. Mejórala cuando te sobren créditos.
 4. **Mantén ocupado el Núcleo.** Nada pasa del Núcleo, y el Núcleo solo tarda unos 16 días y medio en llegar al nivel 20. No hay cola, así que empieza su siguiente paso cada vez que vuelvas.
 5. **Construye la cadena de suministro como un conjunto.** Los colectores, el Almacén de recursos y la Forja se abren en el nivel 5 del Núcleo. Un colector solo puede guardar mineral en un Almacén de recursos, y la reserva guarda un día de la producción de su colector en el nivel 1 y cuatro días en el nivel 20, así que mejora el Almacén junto con los colectores o el mineral esperará en sus tolvas.
-6. **Ten 2.000 de Thulium listos para el nivel 10 del Núcleo.** El paso del Núcleo del nivel 9 al nivel 10 los pide, y construye el puente y el Núcleo 2, donde se construyen la [Impresora de munición](#ammo-printer) y la [Fábrica de cohetes](#rocket-factory).
+6. **Ten 2.000 de Thulium listos para el nivel 10 del Núcleo.** El paso del Núcleo del nivel 9 al nivel 10 los pide, y construye el puente y el Núcleo 2, donde se construyen la [Impresora de munición](#ammo-printer), la [Fábrica de cohetes](#rocket-factory) y la [Bahía de mineral](#ore-bay).
 
 ### Cómo planificar una mejora de Solar {#timing-a-solar-upgrade}
 
-Mientras se mejora, Solar produce una cuarta parte de su energía, y una estación casi siempre consume más. Las granjas y los colectores se detienen entonces durante toda la mejora: lo que guardan se conserva, pero lo que habrían producido se pierde. La tabla da, para cada paso de Solar, su duración, la estación más grande que sigue funcionando durante él (todos los módulos en el mismo nivel, con el Núcleo y la cadena de suministro; una estación más pequeña aguanta algo más) y lo que una Granja de créditos y una Granja de Thulium de ese nivel habrían producido en ese tiempo. Por ejemplo, Solar del nivel 10 al 11 tarda 4 horas, y unas granjas del nivel 10 habrían producido en ellas 45.000 créditos y 1.440 Thulium. La tabla cuenta además la Impresora de munición desde el nivel 7 y la Fábrica de cohetes desde el nivel 10.
+Mientras se mejora, Solar produce una cuarta parte de su energía, y una estación casi siempre consume más. Las granjas y los colectores se detienen entonces durante toda la mejora: lo que guardan se conserva, pero lo que habrían producido se pierde. La tabla da, para cada paso de Solar, su duración, la estación más grande que sigue funcionando durante él (todos los módulos en el mismo nivel, con el Núcleo y la cadena de suministro; una estación más pequeña aguanta algo más) y lo que una Granja de créditos y una Granja de Thulium de ese nivel habrían producido en ese tiempo. Por ejemplo, Solar del nivel 10 al 11 tarda 4 horas, y unas granjas del nivel 10 habrían producido en ellas 45.000 créditos y 1.440 Thulium. La tabla cuenta además la Impresora de munición desde el nivel 7, y la Fábrica de cohetes y la Bahía de mineral desde el nivel 10.
 
 | Mejora de Solar | Tiempo | Estación que sigue funcionando, hasta el nivel | La Granja de créditos produce entretanto | La Granja de Thulium produce entretanto |
 | :--- | ---: | ---: | ---: | ---: |
@@ -347,14 +362,14 @@ Mientras se mejora, Solar produce una cuarta parte de su energía, y una estaci�
 | 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
 | 8 a 9 | 2 h | 2 | 16.500 | 528 |
 | 9 a 10 | 3 h | 3 | 29.250 | 912 |
-| 10 a 11 | 4 h | 4 | 45.000 | 1.440 |
-| 11 a 12 | 5 h | 5 | 67.500 | 2.200 |
+| 10 a 11 | 4 h | 5 | 45.000 | 1.440 |
+| 11 a 12 | 5 h | 6 | 67.500 | 2.200 |
 | 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
 | 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
 | 16 a 17 | 16 h | 9 | 480.000 | 14.080 |
-| 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
+| 17 a 18 | 18 h | 10 | 648.000 | 18.000 |
 | 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
 | 19 a 20 | 1 d | 13 | 1.260.000 | 28.800 |
 

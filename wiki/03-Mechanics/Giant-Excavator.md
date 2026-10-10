@@ -2,7 +2,9 @@
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3 -->
 
-From season day 11 a **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3`, and a **giant excavator** stands beside it. The excavator mines the pulsar for **Thulium and rare ores**, and it burns [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) to do it. Anyone may fuel it, choose what it mines and start it, and everything it lays lies around it in boxes that anyone may take. A run is loud, though: the whole world is told when it starts, **Slumbering Voids** come for it in waves, and an excavator that is worked too long overheats and irradiates the whole area. This page says how a run goes, what it lays and how to live through it. The sectors are in [Danger Sectors](/wiki/01-General/Danger-Sectors.md); the Voids are in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from the first day of the season, and from season day 11 a **giant excavator** stands beside it. The excavator mines the pulsar for **Thulium and rare ores**, and it burns [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) to do it. Anyone may fuel it, choose what it mines and start it, and everything it lays lies around it in boxes that anyone may take. A run is loud, though: the whole world is told when it starts, **Slumbering Voids** come for it in waves, and an excavator that is worked too long overheats and irradiates the whole area. This page says how a run goes, what it lays and how to live through it. The sectors are in [Danger Sectors](/wiki/01-General/Danger-Sectors.md); the Voids are in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## At a glance
 
@@ -10,7 +12,7 @@ From season day 11 a **pulsar** shines in each of the Danger Sectors `DS-1`, `DS
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Where**: One pulsar with one giant excavator on each of `DS-1`, `DS-2` and `DS-3`, in every world
-- **Appears**: From season day 11 until the wipe
+- **Appears**: The pulsar from the first day of the season, the excavator from season day 11 until the wipe
 - **Fuel**: Dark Matter. One burns for 10 min; the tank holds 3, which is 30 min of mining. Anyone may add one at a time, from their own cargo
 - **Panel**: The sheet works within 600 units of the excavator, and its label shows from 1,400 units. Anyone may fuel, choose and start; the choice is locked while it runs
 - **Boxes**: A box every 20 s, 450 to 900 units from the excavator, free for anyone from the moment it lies. It lies for 5 min, and at most 24 lie on a map at once
@@ -24,7 +26,7 @@ From season day 11 a **pulsar** shines in each of the Danger Sectors `DS-1`, `DS
 
 ## How a run goes
 
-1. **Find one.** Each of the three Danger Sectors that has a pulsar has one excavator, in each world. A label, **Excavator**, hangs over it when you are near, and the Star System map shows the state of the excavator of the sector you fly in.
+1. **Find one.** From season day 11 each of the three Danger Sectors that has a pulsar has one excavator, in each world. A label, **Excavator**, hangs over it when you are near, and the Star System map marks every Danger Sector that has one: the mark's colour is the state of its excavator, and its tooltip tells the time to its next change.
 2. **Open the panel.** Click the label. The **Giant excavator** sheet works while your ship is within the panel's range of the excavator (the *At a glance* list gives it). A cloaked ship can use it, and using it does not end the cloak.
 3. **Fuel it.** **Add Dark Matter** puts one Dark Matter from your cargo into the tank. Anyone can. The tank never takes more than the excavator can still burn before it overheats, so no fuel is wasted.
 4. **Choose what to mine** from the list, then press **Start mining**. It needs at least one Dark Matter in the tank and a resource. Anyone can change the choice until the start; once it runs the resource is locked. The start is told to every pilot of the world, naming you, the sector and the resource.
@@ -45,7 +47,7 @@ If the fuel runs out before the limit, the excavator goes back to **Ready** with
 
 ## What it mines
 
-A full tank is balanced to lay about what two or three pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose one resource per run. A box is the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is.
+A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose one resource per run. A box is the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -54,20 +56,20 @@ A full tank (3 Dark Matter, 30 min of mining) lays the amounts below, in 90 boxe
 
 | Resource | Alpha | Beta | Gamma | A minute, in Alpha | A box, in Alpha |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4,821 | 7,714 | 9,643 | 160.7 | 53.6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1,157 | 1,851 | 2,314 | 38.6 | 12.9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1,029 | 17.1 | 5.7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10.7 | 3.6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5.3 | 1.8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9,643 | 15,429 | 19,286 | 321.4 | 107.1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2,314 | 3,703 | 4,629 | 77.1 | 25.7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1,029 | 1,646 | 2,057 | 34.3 | 11.4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21.3 | 7.1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10.7 | 3.6 |
 
-- A run of Velkonite or Orvium lays at most 4 hours of a level 20 [Skylab](/wiki/03-Mechanics/Skylab.md) collector of that ore (320 Velkonite, 160 Orvium), in every world: they are the Skylab's ores, and a run never speeds its pacing by more than that.
+- A run of Velkonite or Orvium lays at most 8 hours of a level 20 [Skylab](/wiki/03-Mechanics/Skylab.md) collector of that ore (640 Velkonite, 320 Orvium), in every world: they are the Skylab's ores, and a run never speeds its pacing by more than that.
 - A box holds about the amount of the last column, 15% more or less. A Thulium box is cash: the pickup pays it. An ore box holds the item.
 
 <!-- excavator-resources:end -->
 
 The pilot's own boosters work as for any cargo: the Resource Magnet Booster's bonus lifts a box of ore. There is no daily limit on the boxes: the fuel and the clock are what limit a run.
 
-**What the ore is for.** The ore of a box goes into your cargo like any item. Cataclysite and Quorvium are used in Assembly and the Forge ([Resources](/wiki/06-Items/Resources.md)). The Forgery of the Skylab takes its ore from the Resource Storage only, which the collectors fill, so the Velkonite and the Orvium of a box are fuel for the [Research Centre](/wiki/03-Mechanics/Research.md#fuel), not for the Forgery.
+**What the ore is for.** The ore of a box goes into your cargo like any item. Cataclysite and Quorvium are used in Assembly and the Forge ([Resources](/wiki/06-Items/Resources.md)). The Forgery and the Research Centre of the Skylab take Velkonite and Orvium from the Resource Storage only, which the collectors fill, so the ore of a box is of no use in your cargo: park your ship and the [Ore Bay](/wiki/03-Mechanics/Skylab.md#ore-bay) of your Skylab (Core level 10) moves it into the storage, up to its allowance an hour, from where the Forgery and the [Research Centre](/wiki/03-Mechanics/Research.md#fuel) take it.
 
 ## The Slumbering Voids
 
@@ -107,7 +109,7 @@ Mining adds heat second by second. The heat is **cumulative and never cools whil
 
 <!-- excavator-radiation:end -->
 
-- **The warning.** Twice before the overheat (the times are in the list above) the map is told, a ship inside the circles sees a warning, and the circles are drawn on the Star System map and the minimap. When they radiate the circles are red and the Radiation gauge shows the dose.
+- **The warning.** Twice before the overheat (the times are in the list above) the map is told, a ship inside the circles sees a warning, and the circles are drawn on the ground in flight and on the minimap. When they radiate the circles are red and the Radiation gauge shows the dose.
 - **Leaving.** Every stock ship can leave from the panel's edge or from the farthest box alive, except the Ironclad, which is slow: it leaves during the warning, or it does not leave. Do not stand on a box when the heat runs out.
 - **Loot in the circles.** Boxes laid before the overheat stay, in the radiation: a box lying there when it begins is taken at the cost of the dose.
 - **The server restarting** pauses a run: the fuel and the heat come back as they were, the rest runs on the clock, and the first wave after the restart comes a minute later.

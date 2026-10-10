@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -24,7 +24,7 @@
 - **不在の間も。** 研究はサーバーの時計で進むので、ログアウトしても続き、完了するかタンクが空になるまで進みます。電力不足や研究センターのアップグレードでは止まりません。
 - **電力。** 研究センターはレベル 1 で 25 を消費し、レベルが上がるごとに 15% ずつ増えます。オフにはできません。
 - **ワイプでもすべて残る：** 技術、タンクの科学、セットした Dark Matter、進行中の研究、ブースト。
-- **持っているものはあなたのもの。** 研究がゲームに加わったとき、すべてのパイロットは、すでに持っていた各アイテムの技術と、そのために必要だった技術を受け取りました。あとから手に入ったアイテム（ギフト、コード、報酬）は、その技術を解放しません。
+- **持っているものはあなたのもの。** 研究がゲームに加わったとき、すべてのパイロットは、すでに持っていた各アイテムの技術と、そのために必要だった技術を受け取りました。あとから手に入ったアイテム（ギフト、コード、報酬）は、その技術を解放しません。ただし例外が1つあります。コード、クエスト、招待、または管理者から Engine II、Engine III、Adaptive Core II、Adaptive Core III を受け取った場合は、その技術と、それに必要な技術がすぐに解放されます。
 - **コアレベル 10 未満**では研究できないので、アセンブリで新しいものはまだ製作できません。ステーションミッションがコアを上げる手助けをしてくれます。
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ Skylab の**研究**表示では、技術が下のツリーのボックスより
 
 ## 燃料 {#fuel}
 
-研究センターに資源を与えると、1個ずつすぐ科学に変わります。入手に手間がかかる資源ほど、多くの科学を与えます。数値は入手の難しさに従い、レアリティの表示には従いません。鉱石は例外です。1個が与える科学は、コレクターがそれを採掘するのにかかる秒数より多いので、レベルの中ほどにあるコレクターの1時間分の鉱石で、およそ2時間分の研究をまかなえます。鉱石は [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) の資源貯蔵庫から、それ以外の資源はインベントリから使われ、艦は着陸している必要があります。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、クレジット、Thulium は燃料にできません。Reinforced Hull Plate は燃料にできます。
+研究センターに資源を与えると、1個ずつすぐ科学に変わります。入手に手間がかかる資源ほど、多くの科学を与えます。数値は入手の難しさに従い、レアリティの表示には従いません。鉱石は例外です。1個が与える科学は、コレクターがそれを採掘するのにかかる秒数より多いので、レベルの中ほどにあるコレクターの1時間分の鉱石で、およそ2時間分の研究をまかなえます。鉱石は [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage) の資源貯蔵庫から、それ以外の資源はインベントリから使われ、艦は着陸している必要があります。Velkonite Reinforced Plate、Orvium Reinforced Plate、Dark Matter Plate、Dark Matter、クレジット、Thulium は燃料にできません。Reinforced Hull Plate は燃料にできます。掘削機のコンテナがインベントリに入れた Velkonite と Orvium は、[鉱石ベイ](/wiki/03-Mechanics/Skylab.md#ore-bay)を通して資源貯蔵庫に入ります。
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

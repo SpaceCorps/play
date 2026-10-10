@@ -106,7 +106,7 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5): **20** (med 40 Cataclysite, 4 Reinforced Hull Plate, 100 000 krediter, 1 500 Thulium)
 - [Smedjan](/wiki/06-Items/Forge.md), Standard till Befläckad: **5** (med 15 Daraxium, 10 000 krediter; 100 % chans)
 - [Smedjan](/wiki/06-Items/Forge.md), Befläckad till Gudomlig: **30** (med 45 Nyxite, 50 000 krediter; 90 % chans)
-- [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **10** vardera för Ammunitionsskrivare, Smedja, Orvium-samlare, Resurslager, Velkonite-samlare (från ditt inventarie, inte från transportförrådet)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **10** vardera för Ammunitionsskrivare, Smedja, Malmviken, Orvium-samlare, Resurslager, Velkonite-samlare (från ditt inventarie, inte från transportförrådet)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **15** vardera för Raketfabrik (från ditt inventarie, inte från transportförrådet)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **25** vardera för Forskningscentrum (från ditt inventarie, inte från transportförrådet)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **5** vetenskap per enhet
@@ -336,7 +336,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100 % för 2 | 2 |
 
 - **Asteroider**: finns i bitarna från Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (mängderna står på sidan [Asteroidbrytning](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
-- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 1 157 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 2 314 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **Uppdrag**: Bulwark-storm (Utmaning) 245; Crystalys-utrensning (Utmaning) 292; Dormant-gryning (Utmaning) 54; Goombah-legionen (Utmaning) 160; Goombah-gisslet (Utmaning) 281; Fiendemark (Utmaning) 50; Linjens väktare (Utmaning) 298.
 - **I övrigt**: säljs inte i butiken.
 
@@ -380,7 +380,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100 % för 2 till 4 | 3 |
 
 - **Asteroider**: finns i bitarna från Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (mängderna står på sidan [Asteroidbrytning](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
-- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 514 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 1 029 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **I övrigt**: säljs inte i butiken.
 
 **Vad det används till**
@@ -399,7 +399,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 
 **Så får du det**
 
-- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 320 av den i varje värld (Skylabs malm, begränsad till 4 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last, där den är bränsle för Forskningscentrumet; Smedjan tar bara malm från Resurslagret.
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 640 av den i varje värld (Skylabs malm, begränsad till 8 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last; parkera skeppet så flyttar [Malmviken](/wiki/03-Mechanics/Skylab.md#ore-bay) den till Resurslagret, varifrån Smedjan och Forskningscentrumet tar den.
 - **Skylab**: bara modulen Velkonite-samlare bryter den, in i ett lager för 72 timmar, sedan flyttar Hämta den till modulen Resurslager. Utomjordingar släpper den inte.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -425,7 +425,7 @@ Att bygga samlaren kräver kärnnivå 5, 10 Ship Fragments, 20 000 krediter och
 
 **Så får du det**
 
-- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 160 av den i varje värld (Skylabs malm, begränsad till 4 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last, där den är bränsle för Forskningscentrumet; Smedjan tar bara malm från Resurslagret.
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 320 av den i varje värld (Skylabs malm, begränsad till 8 timmar från en nivå 20-samlare), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter. Malmen hamnar i din last; parkera skeppet så flyttar [Malmviken](/wiki/03-Mechanics/Skylab.md#ore-bay) den till Resurslagret, varifrån Smedjan och Forskningscentrumet tar den.
 - **Skylab**: bara modulen Orvium-samlare bryter den, in i ett lager för 72 timmar, sedan flyttar Hämta den till modulen Resurslager. Utomjordingar släpper den inte.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -651,7 +651,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 - **Monteringen**, per tillverkning: [Starfire-III](/wiki/06-Items/Lasers.md) 100 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5) 100 000.
 - **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Standard till Befläckad 10 000, Befläckad till Gudomlig 50 000, Gudomlig till Rämnande 200 000, Rämnande till Evig 500 000.
 - **Sammanslagningar i Smedjan**, efter den nivå de ger: Befläckad 5 000, Gudomlig 25 000, Rämnande 100 000, Evig 250 000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 20 000 på nivå 1, 5 600 000 på nivå 20, Kreditfarm 0 på nivå 1, 7 000 000 på nivå 20, Smedja 5 000 på nivå 1, 9 000 000 på nivå 20, Orvium-samlare 20 000 på nivå 1, 5 500 000 på nivå 20, Forskningscentrum 25 000 (x1,5 per nivå), Raketfabrik 20 000 på nivå 1, 1 400 000 på nivå 20, Solkraft 500 på nivå 1, 9 000 000 på nivå 20, Resurslager 5 000 på nivå 1, 4 500 000 på nivå 20, Thuliumfarm 5 000 på nivå 1, 8 500 000 på nivå 20, Velkonite-samlare 20 000 på nivå 1, 5 500 000 på nivå 20. Kärnan finns alltid, så det första pris du betalar för den är det för nivå 2: 1 500 (därefter x1,5 per nivå).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 20 000 på nivå 1, 5 600 000 på nivå 20, Kreditfarm 0 på nivå 1, 7 000 000 på nivå 20, Smedja 5 000 på nivå 1, 9 000 000 på nivå 20, Malmviken 5 000 på nivå 1, 4 500 000 på nivå 20, Orvium-samlare 20 000 på nivå 1, 5 500 000 på nivå 20, Forskningscentrum 25 000 (x1,5 per nivå), Raketfabrik 20 000 på nivå 1, 1 400 000 på nivå 20, Solkraft 500 på nivå 1, 9 000 000 på nivå 20, Resurslager 5 000 på nivå 1, 4 500 000 på nivå 20, Thuliumfarm 5 000 på nivå 1, 8 500 000 på nivå 20, Velkonite-samlare 20 000 på nivå 1, 5 500 000 på nivå 20. Kärnan finns alltid, så det första pris du betalar för den är det för nivå 2: 1 500 (därefter x1,5 per nivå).
 - **Energimaterialiseraren**: 5 000 krediter per skanning, på jakt efter delar till Chrono-Gate ([detaljer](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[Klan](/wiki/03-Mechanics/Clans.md)**: donationer till klanbanken (högst 1 000 000 krediter per pilot under valfria 24 timmar) och klanens dagliga skatt, en andel av dina krediter som dess ledare bestämmer.
 
@@ -666,7 +666,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 - **Vid start**: en ny pilots konto har 100 Thulium.
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den, upp till en gräns för varje period på 24 timmar (på den sidan).
-- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 4 821 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
+- **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 9 643 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 51 010 Thulium över de 88 uppdragen i Alpha, från 170 på nivå 1 till 21 760 på nivå 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Thuliumfarm producerar den medan du är borta, in i ett lager för 72 timmar.
 
@@ -684,7 +684,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 - **Butiken**: 25 föremål har pris i Thulium (deras sidor anger priset: [Föremål](/wiki/06-Items/Overview.md) och [Raketer](/wiki/06-Items/Rockets.md)).
 - **Monteringen**, per tillverkning: [Master Drone](/wiki/06-Items/Drones.md) 40 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1 200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1 200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2 000, [Engine III](/wiki/06-Items/Propulsion.md) 2 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1 500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2 500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1 500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 7 500, Bodkin Formation 21 000, Asterism Formation 7 000, Gemini Formation 38 000, Adamant Formation 9 000, Ballista Formation 24 000, Stiletto Formation 46 000, Rampart Formation 38 500, Sanctum Formation 20 000, Shrike Formation 8 500, Culler Formation 20 000, Redoubt Formation 21 000, Auger Formation 20 500, Cordon Formation 21 500, Centurion Formation 8 000, Gyre Formation 20 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1 200, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 1 000, Adaptive Core II 1 000, Adaptive Core III 2 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5) 1 500.
 - **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Rämnande till Evig 2 000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 500 på nivå 1, 11 000 på nivå 20, Kreditfarm 0 på nivå 1, 550 på nivå 20, Smedja 500 på nivå 1, 10 000 på nivå 20, Orvium-samlare 500 på nivå 1, 12 500 på nivå 20, Forskningscentrum 500 (x1,5 per nivå), Raketfabrik 500 på nivå 1, 2 800 på nivå 20, Solkraft 50 på nivå 1, 10 000 på nivå 20, Resurslager 250 på nivå 1, 550 på nivå 20, Thuliumfarm 500 på nivå 1, 16 000 på nivå 20, Velkonite-samlare 500 på nivå 1, 12 500 på nivå 20.
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 500 på nivå 1, 11 000 på nivå 20, Kreditfarm 0 på nivå 1, 550 på nivå 20, Smedja 500 på nivå 1, 10 000 på nivå 20, Malmviken 250 på nivå 1, 550 på nivå 20, Orvium-samlare 500 på nivå 1, 12 500 på nivå 20, Forskningscentrum 500 (x1,5 per nivå), Raketfabrik 500 på nivå 1, 2 800 på nivå 20, Solkraft 50 på nivå 1, 10 000 på nivå 20, Resurslager 250 på nivå 1, 550 på nivå 20, Thuliumfarm 500 på nivå 1, 16 000 på nivå 20, Velkonite-samlare 500 på nivå 1, 12 500 på nivå 20.
 - **[Forskning](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: en boost för forskningscentrumet kostar 5 000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium per hopp.
 - **Energimaterialiseraren**: 5 Thulium per skanning, på jakt efter delar till Chrono-Gate ([detaljer](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3c1a5c5512f39cd -->
+<!-- wiki-i18n source: 3f940246579eb7bd -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -16,12 +16,12 @@ Varje säsong löper över dag 1 till 30 (wipen börjar med sin nedräkning på 
 | :--- | :--- | :--- | :--- |
 | **Fredsprotokoll** | Dag 1–3 | Ingen PvP aktiverad | En nystart helt inriktad på PvE-framsteg, resursfarmning och skeppsbygge utan hot om konflikter mellan spelare. |
 | **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan) och de tre [svärmarna](/wiki/05-Swarms/Swarms.md) börjar dyka upp: de finns kvar till wipen, genom faserna efter denna. Själva fasen ger inga särskilda belöningar än. |
-| **Teknikboom** | Dag 11–18 | Event 2 | [Farosektorerna](/wiki/01-General/Danger-Sectors.md) förändras: en pulsar med en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) på `DS-1` till `DS-3`, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, Slumbering Voids, och en Dormant-svärm som kommer tillbaka tidigare och betalar dubbelt. Allt finns kvar till wipen. Fasen ger inga egna belöningar. |
+| **Teknikboom** | Dag 11–18 | Event 2 | [Farosektorerna](/wiki/01-General/Danger-Sectors.md) förändras: en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) bredvid varje pulsar på `DS-1` till `DS-3`, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, Slumbering Voids, och en Dormant-svärm som kommer tillbaka tidigare och betalar dubbelt. Allt finns kvar till wipen. Fasen ger inga egna belöningar. |
 | **Krigsspel** | Dag 19–25 | Event 3 | Inga särskilda effekter än: PvP fungerar som i varje fas efter Fredsprotokollet. |
 | **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart och låsa den last de tar med sig före utbrottet. |
 | **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt, och varje [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) upplöses. Piloter flyttas till den värld de valde som destination för nästa säsong. |
 
-Bortsett från själva wipen är det bara fyra saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, från dag 11 får [farosektorerna](/wiki/01-General/Danger-Sectors.md) sina pulsarer, jättegrävmaskiner och Dormant Swamp, som finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten. Event 2 förändrar farosektorerna som ovan; inget av de andra ger särskilda belöningar, nya fiender eller bonusar av eget än.
+Bortsett från själva wipen är det bara fyra saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, från dag 11 får [farosektorerna](/wiki/01-General/Danger-Sectors.md) sina jättegrävmaskiner (bredvid pulsarerna, som lyser från dag 1) och Dormant Swamp, som finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten. Event 2 förändrar farosektorerna som ovan; inget av de andra ger särskilda belöningar, nya fiender eller bonusar av eget än.
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Spacemap-resor -->
 # Spacemap-resor {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Universum består av tre huvudsektorer för koncernerna (Mars, Terra, Galactic) 
 - **x-1 (hembas)**: Startkartan för varje koncern (M-1, T-1, G-1). Den säkraste zonen.
 - **x-2 -> x-3**: Expansionszoner med successivt tuffare utomjordingar.
 - **x-4 (gräns)**: Porten till PvP-sektorn och till en annan koncerns `x-3` (Ringen, nedan).
-- **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4. Från säsongsdag 11 rymmer den också pulsarer med jättegrävmaskiner och Dormant Swamp ([Farosektorer](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4. Den rymmer en pulsar i var och en av DS-1 till DS-3 från säsongens första dag och, från säsongsdag 11, en jättegrävmaskin bredvid varje och Dormant Swamp ([Farosektorer](/wiki/01-General/Danger-Sectors.md)).
 
 Bara hembaserna har en station. Det är där **Mission Control** öppnas, och dess säkra zon sträcker sig 1 600 enheter runt den. Farosektorerna har ingen station, `DS-1` inte heller: de enda säkra zonerna där är ringarna på 660 enheter runt hoppportalerna, och Mission Control kan inte öppnas där; flyg tillbaka till din bas för dina uppdrag.
 

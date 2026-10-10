@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -7,6 +7,8 @@ La **Forge** est le deuxième onglet de la page Assemblage (et de la fenêtre As
 ## Ce qui peut être forgé {#what-can-be-forged}
 
 Lasers, amplis laser, boucliers, cellules de bouclier, moteurs, propulseurs, cœurs adaptatifs, Repair Drones et [blindage de coque](/wiki/06-Items/Hull-Plating.md) : toute pièce d’équipement qui peut porter des [bonus d’enchantement](/wiki/06-Items/Overview.md). Elle peut se trouver dans votre inventaire, sur un vaisseau (elle y reste et fonctionne aussitôt avec son nouveau rang) ou installée dans un autre objet. Les drones, les vaisseaux, les munitions, les ressources et les boosters ne peuvent pas être forgés, pas plus que ce qui se trouve dans la cache de transport : sortez-le d’abord.
+
+La liste d’équipement a un sélecteur **Tous / Équipés / En inventaire** à côté des autres filtres. **Équipés** montre ce qui est sur un vaisseau ou emboîté dans un autre objet, **En inventaire** ce qui traîne en vrac, et une ligne sous le titre dit combien de pièces le sélecteur masque. Pendant que vous choisissez le donneur d’une fusion, « Équipés » est suspendu, parce qu’un donneur doit être libre.
 
 ## Monter de rang {#tier-up}
 

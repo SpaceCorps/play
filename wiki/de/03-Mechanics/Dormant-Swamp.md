@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 Vor langer Zeit lebte mitten in der Galaxie eine fortgeschrittene Zivilisation. Sie baute in violettschwarzem Kristall mit leuchtenden violetten Adern, und aus einem Grund, den niemand kennt, ist sie untergegangen. Der **Dormant Swamp** ist ihr Außenposten, in der oberen linken Ecke von `DS-4`. Ab Saisontag 11 regt er sich: Geschütze in der Mitte feuern auf jedes Schiff, das sie sehen, **Inert Masses** bewachen ihn, und ganz in der Mitte schläft **der Unwakened**. Es ist ein Ort, den Piloten **noch nicht besuchen sollen**. Unter Tarnung kannst du bis zum Unwakened fliegen, und mehr kann dort vorerst nicht getan werden: Die Basis und ihre Geschütze können nicht beschädigt, betreten, geentert oder mit ihnen gehandelt werden.
 
 Am Sumpf erscheint ab Tag 11 auch der [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md), und **Slumbering Voids** patrouillieren um ihn herum. Dieselben Voids kommen in Wellen zu den [Riesenbaggern](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Die Sektoren stehen in [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## Auf einen Blick {#at-a-glance}
 
@@ -56,7 +58,7 @@ Schaden eines Schusses, in jeder Welt:
 Drei Aliens der verlorenen Zivilisation leben hier, jedes mit eigenen Zahlen. Sie werden bezahlt wie der Boss eines Schwarms: **nach dem angerichteten Schaden**, an jeden Piloten, der mindestens den in [Schwärme](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm) genannten Anteil erreicht hat, und die Kiste geht an den Piloten mit dem meisten Schaden. Ihre Abschüsse zählen für deine PvE-Rangpunkte wie die eines Schwarmschiffs, im Verhältnis zu ihrer Bezahlung ([Ränge](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Der Schild jedes von ihnen nimmt 80 % jedes Treffers auf, solange er hält ([Schilde](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Der schlanke Jäger, das schnellste Alien im Spiel (so schnell wie eine Storm mit Afterburner III). Einige patrouillieren immer in der Umgebung des Sumpfs, und andere kommen in Wellen zu den Baggern. Es ist aggressiv, jagt den nächsten Piloten, den es sehen kann, und sieht nie ein getarntes Schiff.
-- **Inert Mass.** Ein toter Koloss mit violetten Rissen, so groß wie eine kleine Station. Sie bleiben in einem festen Umkreis um die Mitte des Sumpfs und verlassen ihn vorerst nicht. Sie feuert **Dormant Lances**: gelenkte Raketen mit sehr großer Reichweite, die einem Schiff folgen, bis es sich tarnt, ein EMP-Fenster öffnet, einen Schutzring betritt, springt oder stirbt. Sie ist schneller als jedes Schiff, nur diese Unterbrechungen helfen.
+- **Inert Mass.** Ein toter Koloss mit violetten Rissen, so groß wie eine kleine Station. Sie bleiben in einem festen Umkreis um die Mitte des Sumpfs und verlassen ihn vorerst nicht. Sie feuert **Dormant Lances**: gelenkte Raketen mit sehr großer Reichweite, die einem Schiff folgen, bis es sich tarnt, ein EMP-Fenster öffnet, einen Schutzring betritt, springt oder stirbt. Sie ist schneller als jedes Schiff, nur diese Unterbrechungen helfen. Ein Asteroid auf dem Weg einer Dormant Lance hält sie auf, und die Lance beschädigt ihn mit ihrem eigenen Schaden (niemand wird dafür bezahlt); ein Felsen schützt vor einer Inert Mass also nur für ein paar Treffer.
 - **Der Unwakened.** Ein Monolith, der in der Mitte des Sumpfs schläft, das größte Ding auf jeder Karte, so langsam, dass er nie ein Schiff erwischt. Er feuert nichts, aber jedes Schiff in seiner Aura verbrennt, **getarnt oder nicht**. Er ist **immun**: Schüsse und Raketen treffen und bewirken nichts, das Zielfenster zeigt volle Balken und das Wort Immun. Ein späteres Event wird es erlauben, ihn zu bekämpfen; seine Belohnungen unten sind aufgeschrieben und noch nicht zu verdienen.
 
 <!-- swamp-members:begin -->

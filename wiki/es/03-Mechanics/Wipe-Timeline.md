@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3c1a5c5512f39cd -->
+<!-- wiki-i18n source: 3f940246579eb7bd -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -16,12 +16,12 @@ Cada temporada va del día 1 al 30 (el Reinicio empieza con su cuenta regresiva 
 | :--- | :--- | :--- | :--- |
 | **Protocolo de paz** | Días 1–3 | Sin PvP | Un nuevo comienzo centrado por completo en el progreso PvE, la recolección de recursos y la construcción de naves, sin la amenaza de combates entre jugadores. |
 | **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo) y los tres [enjambres](/wiki/05-Swarms/Swarms.md) empiezan a aparecer: se quedan hasta el reinicio, a lo largo de las fases siguientes. La fase en sí aún no da recompensas especiales. |
-| **Auge Tecnológico** | Días 11–18 | Evento 2 | Los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) cambian: un púlsar con una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) en `DS-1` a `DS-3`, el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en `DS-4`, Slumbering Voids, y un Enjambre Dormant que vuelve antes y paga el doble. Todo se queda hasta el reinicio. La fase no da recompensas propias. |
+| **Auge Tecnológico** | Días 11–18 | Evento 2 | Los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) cambian: una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) junto a cada púlsar en `DS-1` a `DS-3`, el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en `DS-4`, Slumbering Voids, y un Enjambre Dormant que vuelve antes y paga el doble. Todo se queda hasta el reinicio. La fase no da recompensas propias. |
 | **Juegos de Guerra** | Días 19–25 | Evento 3 | Aún sin efectos especiales: el PvP funciona como en todas las fases posteriores al Protocolo de paz. |
 | **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar y bloquear la carga que se llevan antes de la erupción. |
 | **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace, y todos los [clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) se disuelven. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
 
-Aparte del propio reinicio, solo cuatro cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, desde el día 11 los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) reciben sus púlsares, excavadoras gigantes y el Dormant Swamp, que se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y en el Panel del juego. El evento 2 cambia los sectores de peligro como se ha dicho; ninguno de los demás da todavía recompensas, apariciones ni bonificaciones propias.
+Aparte del propio reinicio, solo cuatro cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, desde el día 11 los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) reciben sus excavadoras gigantes (junto a los púlsares, que brillan desde el día 1) y el Dormant Swamp, que se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y en el Panel del juego. El evento 2 cambia los sectores de peligro como se ha dicho; ninguno de los demás da todavía recompensas, apariciones ni bonificaciones propias.
 
 ---
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 27056100dc9d4562 -->
+<!-- wiki-i18n source: 7911c8cdb8197180 -->
 <!-- wiki-i18n title: Leilão -->
 # Leilão {#auction}
 
-O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do próprio jogo, numa página do menu da estação. Como a Loja, é uma página da estação: você a usa atracado, não em voo. Ela tem quatro seções. **Mercado** é o que outros pilotos têm à venda. **Lotes** são as ofertas do próprio jogo, uma por hora. **Meus anúncios** é o que você mesmo tem à venda. **Histórico** são as suas vendas, as suas compras e os lotes que você venceu, e como foi o seu comércio.
+O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do próprio jogo, numa página do menu da estação. Como a Loja, é uma página da estação: você a usa atracado, não em voo. Ela tem quatro seções. **Mercado** é o que outros pilotos têm à venda. **Lotes** são as ofertas do próprio jogo, três por hora. **Meus anúncios** é o que você mesmo tem à venda. **Histórico** são as suas vendas, as suas compras e os lotes que você venceu, e como foi o seu comércio.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -11,9 +11,10 @@ O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do p
 - Um anúncio tem preço por lote, em créditos inteiros ou em Thulium inteiro (não os dois), e nunca abaixo do preço mínimo do item. **Não existe preço máximo.**
 - Um preço em Thulium é, no mínimo, o preço mínimo em créditos dividido pela taxa (1.000), arredondado para cima, e só para os itens cujo preço mínimo chega a 1 Thulium ou mais. É só isso que a taxa faz: **1 Thulium = 1.000 créditos é uma regra para o preço mínimo, não uma taxa de câmbio.** Nada é trocado, nenhum valor é mostrado, e créditos e Thulium nunca são somados.
 - 82 itens podem ser anunciados, e 81 deles também podem ter preço em Thulium.
-- Um anúncio dura 24 / 72 / 168 horas, à sua escolha: as opções são as mesmas em todos os níveis.
-- O **depósito** é de 1% do preço para cada 24 horas de duração do anúncio, com mínimo de 50 créditos ou 1 Thulium. Você paga ao anunciar; ele nunca é devolvido, nem se você cancelar o anúncio.
-- A partir do nível 10, o depósito é de 1,5%.
+- Um anúncio dura 168 / 336 / 504 horas, à sua escolha: as opções são as mesmas em todos os níveis.
+- O **depósito** é de 0,25% do preço para cada 24 horas de duração do anúncio, com mínimo de 50 créditos ou 1 Thulium. Você paga ao anunciar; ele nunca é devolvido, nem se você cancelar o anúncio.
+- A partir do nível 10, o depósito é de 0,4%.
+- Seus primeiros 10 anúncios de cada dia UTC não pagam nenhum depósito, com qualquer duração e preço. Um anúncio que você cancela conta mesmo assim como publicado. O imposto de uma venda é o mesmo para todo anúncio.
 - O **imposto** é de 5% do preço. Ele é descontado do que o vendedor recebe quando o anúncio é vendido.
 - O depósito e o imposto são queimados: não vão para ninguém.
 - A partir do dia 28 da temporada até o reset, não há depósito nem imposto.
@@ -59,7 +60,7 @@ Naves, drones, formações de drones, boosters e assinaturas nunca podem ser ven
 
 ## Vender {#selling}
 
-Toque em **Vender um item** (ou no martelo do Hangar), escolha o que você ganhou (um menu de categorias reduz a lista, com as mesmas categorias do Mercado), escolha créditos ou Thulium, defina o preço de um lote e quanto tempo o anúncio dura: 1, 3 ou 7 dias. A folha mostra o preço mínimo, três chips que preenchem um preço (**Mínimo**; **Venda rápida**, um abaixo do anúncio mais barato no momento; e **Justo**, o preço da última venda) e o depósito, o imposto e o que você recebe, antes de anunciar. Abaixo do preço, **Anúncios parecidos** mostra num gráfico por quais preços o mesmo item, com o mesmo encantamento, está anunciado agora, na moeda que você escolheu: o seu preço é uma linha nele, o preço mínimo, a última venda e o preço da Loja ficam marcados, uma linha em palavras diz onde o seu preço ficaria e os três anúncios mais baratos aparecem em seguida. Uma peça é um lote de um; munição e alguns recursos são vendidos em lotes de 10 ou 100, e você vende um número inteiro de lotes. O que você anuncia sai do seu inventário e fica guardado pelo servidor até vender, você cancelar ou expirar; depois volta, com a sua etiqueta. Você pode cancelar a qualquer momento, até nos últimos dias de uma temporada. Um anúncio é uma foto do momento: para mudar um preço, cancele o anúncio e anuncie de novo (o depósito é pago outra vez).
+Toque em **Vender um item** (ou no martelo do Hangar), escolha o que você ganhou (um menu de categorias reduz a lista, com as mesmas categorias do Mercado), escolha créditos ou Thulium, defina o preço de um lote e quanto tempo o anúncio dura: 7, 14 ou 21 dias (a folha começa em 7). A folha mostra o preço mínimo, três chips que preenchem um preço (**Mínimo**; **Venda rápida**, um abaixo do anúncio mais barato no momento; e **Justo**, o preço da última venda) e o depósito, o imposto e o que você recebe, antes de anunciar. Abaixo do preço, **Anúncios parecidos** mostra num gráfico o que os outros pilotos pedem pelo mesmo item, com o mesmo encantamento, na moeda que você escolheu: o seu preço é uma linha nele, o mais barato e a mediana dos outros, o preço mínimo, a última venda e o preço da Loja ficam marcados, uma linha em palavras diz onde o seu preço ficaria e os três anúncios mais baratos aparecem em seguida (com menos de três outros anúncios, uma lista simples ocupa o lugar do gráfico). O **botão de gráfico** de um anúncio aberto em Meus anúncios abre o mesmo gráfico para esse anúncio. Uma peça é um lote de um; munição e alguns recursos são vendidos em lotes de 10 ou 100, e você vende um número inteiro de lotes. O que você anuncia sai do seu inventário e fica guardado pelo servidor até vender, você cancelar ou expirar; depois volta, com a sua etiqueta. Você pode cancelar a qualquer momento, até nos últimos dias de uma temporada. Um anúncio é uma foto do momento: para mudar um preço, cancele o anúncio e anuncie de novo (o depósito é pago outra vez).
 
 Todo item tem um **preço mínimo** e **não existe preço máximo**: peça o que quiser. A tabela mostra o preço mínimo de alguns itens.
 
@@ -92,38 +93,38 @@ Os seus **anúncios abertos** (e um anúncio que um admin deixou em espera) ocup
 
 | Nível | Anúncios abertos | Maior duração | Por dia, créditos | Por dia, Thulium | Depósito por 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 168 h | 4.500.000 | 22.500 | 1% |
-| 6 | 40 | 168 h | 6.000.000 | 30.000 | 1% |
-| 7 | 70 | 168 h | 7.500.000 | 37.500 | 1% |
-| 8 | 100 | 168 h | 8.500.000 | 42.500 | 1% |
-| 9 | 100 | 168 h | 10.000.000 | 50.000 | 1% |
-| 10 | 100 | 168 h | 15.000.000 | 75.000 | 1,5% |
-| 11 | 100 | 168 h | 15.000.000 | 75.000 | 1,5% |
-| 12 | 100 | 168 h | 15.000.000 | 75.000 | 1,5% |
-| 13 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 14 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 15 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 16 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 17 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 18 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 19 | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
-| 20 ou mais | 100 | 168 h | 20.000.000 | 100.000 | 1,5% |
+| 5 | 20 | 504 h | 4.500.000 | 22.500 | 0,25% |
+| 6 | 40 | 504 h | 6.000.000 | 30.000 | 0,25% |
+| 7 | 70 | 504 h | 7.500.000 | 37.500 | 0,25% |
+| 8 | 100 | 504 h | 8.500.000 | 42.500 | 0,25% |
+| 9 | 100 | 504 h | 10.000.000 | 50.000 | 0,25% |
+| 10 | 100 | 504 h | 15.000.000 | 75.000 | 0,4% |
+| 11 | 100 | 504 h | 15.000.000 | 75.000 | 0,4% |
+| 12 | 100 | 504 h | 15.000.000 | 75.000 | 0,4% |
+| 13 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 14 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 15 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 16 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 17 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 18 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 19 | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
+| 20 ou mais | 100 | 504 h | 20.000.000 | 100.000 | 0,4% |
 
 <!-- market-limits:end -->
 
 ## Taxas {#fees}
 
-Um anúncio custa um **depósito**, pago ao anunciar e nunca devolvido, e uma venda custa um **imposto**, descontado do que o vendedor recebe. Os dois são pagos na moeda do anúncio e **queimados**: não vão para ninguém, então ninguém lucra negociando consigo mesmo. Nos dois últimos dias de uma temporada não há depósito nem imposto.
+Um anúncio custa um **depósito**, pago ao anunciar e nunca devolvido, e uma venda custa um **imposto**, descontado do que o vendedor recebe. Os dois são pagos na moeda do anúncio e **queimados**: não vão para ninguém, então ninguém lucra negociando consigo mesmo. Os seus **dez primeiros anúncios de cada dia UTC** não pagam nenhum depósito, com qualquer duração e preço; um anúncio que você cancela conta mesmo assim como publicado, e o imposto de uma venda é o mesmo para todo anúncio. Um anúncio que o fim da temporada encurta paga o depósito dos dias que ele dura, não da duração que você escolheu. Nos dois últimos dias de uma temporada não há depósito nem imposto.
 
 <!-- market-fees:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 | Anúncio | Preço | Depósito | Imposto | O vendedor recebe |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: nível 6, 24 h | 210.000 créditos | 2.100 créditos | 10.500 créditos | 199.500 créditos |
-| Quantum Laser III: nível 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
-| Helios Beam: nível 12, 168 h | 2.500.000 créditos | 262.500 créditos | 125.000 créditos | 2.375.000 créditos |
-| Helios Beam: nível 12, 168 h, nos últimos dias de uma temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
+| Quantum Laser III: nível 6, 168 h | 210.000 créditos | 3.675 créditos | 10.500 créditos | 199.500 créditos |
+| Quantum Laser III: nível 10, 336 h | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Helios Beam: nível 12, 504 h | 2.500.000 créditos | 210.000 créditos | 125.000 créditos | 2.375.000 créditos |
+| Helios Beam: nível 12, 504 h, nos últimos dias de uma temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 
 <!-- market-fees:end -->
 
@@ -139,18 +140,18 @@ Os foguetes de um anúncio, de um lote que você lidera e do seu porão contam t
 
 ## Meus anúncios e Histórico {#my-listings-and-history}
 
-**Meus anúncios** mostra as suas vagas e cada anúncio com o seu estado (aberto, vendido, cancelado, expirado, devolvido ou em espera), um botão **Cancelar**, **Anunciar de novo** para um encerrado e um chip **Superado** quando outro anúncio do mesmo item pede menos. Um anúncio que expirou volta sozinho para o seu inventário. O **Histórico** começa com as suas negociações dos últimos 30 dias: as suas vendas e compras, o que você recebeu e gastou, as taxas e os impostos que pagou, o seu resultado líquido, a sua melhor venda, a sua venda média e o item que você mais negociou, mais dois gráficos de linha: os seus ganhos por dia e o seu resultado até agora (em créditos ou em Thulium, um de cada vez). Abaixo fica a lista do que você vendeu, comprou e venceu, com o imposto. O jogo guarda o livro-razão do Leilão por 90 dias.
+**Meus anúncios** mostra as suas vagas e cada anúncio com o seu estado (aberto, vendido, cancelado, expirado, devolvido ou em espera), um botão **Cancelar**, um **botão de gráfico** que põe o seu preço ao lado do que os outros pilotos pedem pelo item, **Anunciar de novo** para um encerrado e um chip **Superado** quando outro anúncio do mesmo item pede menos. Um anúncio que expirou volta sozinho para o seu inventário. O **Histórico** começa com as suas negociações dos últimos 30 dias: as suas vendas e compras, o que você recebeu e gastou, as taxas e os impostos que pagou, o seu resultado líquido, a sua melhor venda, a sua venda média e o item que você mais negociou, mais dois gráficos de linha: os seus ganhos por dia e o seu resultado até agora (em créditos ou em Thulium, um de cada vez). Abaixo fica a lista do que você vendeu, comprou e venceu, com o imposto. O jogo guarda o livro-razão do Leilão por 90 dias.
 
 Você é avisado quando algo é vendido: por um aviso, pelo som do Leilão e pelo novo saldo, e por um selo na entrada do Leilão enquanto a página está fechada. Uma sequência de vendas é um aviso só. O Leilão tem sons discretos só dele, um para cada coisa que você faz ou que acontece com você ali (anunciar, encerrar, uma venda, um lance, ser superado, vencer), e eles seguem o volume da interface.
 
 ## Os Lotes de cada hora {#the-hourly-lots}
 
-Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, a cada hora, para dar lances. São um jeito de comprar munição por menos do que a Loja pede, e um ralo: o lance vencedor é queimado. Só abrem os lotes da tabela do dia abaixo (nunca munição x1 ou x4, nunca Siphon Batteries, nunca um foguete especial), na moeda da Loja. Você pode dar lances em qualquer lote, seja o que for que já leve: um lote que você ganha é seu por inteiro, mesmo que ele leve você acima da pilha que a Loja deixa você comprar.
+Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, três lotes a cada hora (doze ficam abertos ao mesmo tempo), para dar lances. São um jeito de comprar munição por menos do que a Loja pede, e um ralo: o lance vencedor é queimado. Só abrem os lotes da tabela do dia abaixo (nunca munição x1 ou x4, nunca Siphon Batteries, nunca um foguete especial), na moeda da Loja. Você pode dar lances em qualquer lote, seja o que for que já leve: um lote que você ganha é seu por inteiro, mesmo que ele leve você acima da pilha que a Loja deixa você comprar.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-- No início de cada hora UTC abre um novo lote, que fica aberto por 4 horas, de modo que 4 ficam abertos ao mesmo tempo.
+- No início de cada hora UTC abrem 3 lotes novos, cada um de uma mercadoria diferente, e cada um fica aberto por 4 horas, de modo que 12 ficam abertos ao mesmo tempo.
 - O lance inicial é de 20% do preço da Loja da mercadoria. Cada lance seguinte precisa superar o mais alto em pelo menos 5%, e em pelo menos 100 créditos ou 1 Thulium.
 - O seu lance é pago na hora e fica retido. Se alguém cobrir, ele volta para você na hora.
 - Um lance nos últimos 2 min de um lote move o fim dele para 2 min depois do lance, no máximo 5 vezes.
@@ -166,29 +167,77 @@ Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, a 
 | Hora UTC | Lote | Tamanho completo | Pago em | Lance inicial no tamanho completo |
 | :--- | :--- | ---: | :--- | ---: |
 | 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
+| 00:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 00:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
 | 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 01:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 01:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
 | 02:00 | Lancet I | 12.500 | Créditos | 1.250.000 créditos |
+| 02:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 03:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 03:00 | Lancet I | 12.500 | Créditos | 1.250.000 créditos |
 | 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 04:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 04:00 | Rivet I | 12.500 | Créditos | 1.250.000 créditos |
 | 05:00 | Rivet II | 5.000 | Créditos | 800.000 créditos |
+| 05:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 06:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 06:00 | Ember II | 5.000 | Créditos | 800.000 créditos |
 | 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 07:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 07:00 | Rivet II | 5.000 | Créditos | 800.000 créditos |
 | 08:00 | Ember I | 12.500 | Créditos | 1.250.000 créditos |
+| 08:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 09:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 09:00 | Ember II | 5.000 | Créditos | 800.000 créditos |
 | 10:00 | Scatter II | 5.000 | Créditos | 800.000 créditos |
+| 10:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 11:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 11:00 | Lancet I | 12.500 | Créditos | 1.250.000 créditos |
 | 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 12:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 12:00 | Scatter II | 5.000 | Créditos | 800.000 créditos |
 | 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
+| 13:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 13:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
 | 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
+| 14:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 14:00 | Ember I | 12.500 | Créditos | 1.250.000 créditos |
 | 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 15:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 15:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
 | 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 16:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 16:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
 | 17:00 | Rivet I | 12.500 | Créditos | 1.250.000 créditos |
+| 17:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 18:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 18:00 | Scatter II | 5.000 | Créditos | 800.000 créditos |
 | 19:00 | Ember II | 5.000 | Créditos | 800.000 créditos |
+| 19:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 20:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 20:00 | Rivet I | 12.500 | Créditos | 1.250.000 créditos |
 | 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
+| 21:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
+| 21:00 | Rivet II | 5.000 | Créditos | 800.000 créditos |
 | 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
+| 22:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
+| 22:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
 | 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 23:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
+| 23:00 | Ember I | 12.500 | Créditos | 1.250.000 créditos |
 
 <!-- market-day:end -->
 

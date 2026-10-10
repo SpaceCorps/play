@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e67774df0345c0b5 -->
+<!-- wiki-i18n source: 9eea417792cfb043 -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -15,7 +15,7 @@ Klán alapítása vagy belépés egy klánba lehetővé teszi, hogy összevond a
 - A Vezér és az Alvezérek a pontokat három [bónuszra](#clan-points-and-boosts) költik, mindegyik tíz szintes: **Sebzés** (legfeljebb +5%), **Thulium** (legfeljebb +10%) és **Kredit** (legfeljebb +10%).
 - Az a klán, amely minden vonalat teljesít, a **12. szezonnapon** megvett minden szintet. A pontok, a szintek és maga a klán a wipe-pal véget érnek.
 - Legalább **három tag** kell, aki megtette a részét, és **nagy legénység** az őrző elleni harchoz: a 0.4.13 óta az őrzőnek ötször akkora a törzse, a pajzsa és a lézersebzése, mint volt, ezért azok a legénységek, amelyek korábban nyertek, nagyjából hét pilóta, most veszítenek ([mekkora legénység kell](#how-big-a-crew)). Egy túl kicsi legénység elveszíti a harcot: a klán ilyenkor megtartja a négy küldetés **70 pontját**, de a vonal nem készül el, és nem fizeti ki [a te jutalmadat](#the-reward-for-you).
-- Az őrző nagy kasszát fizet, sebzés szerint elosztva, és **minden pilóta, aki a sebzés legalább 5%-át okozta, saját privát ládát kap** a zsákmányból járó részével, amelyet csak ő lát, és csak ő vehet fel ([fizetés és zsákmány](#warden-pay-and-loot)). A 0.4.16 óta a fizetség háromszoros, és amíg egy őrző áll, **percenként érkezik egy hullám a térkép idegeneiből** ([hullámok](#waves-of-aliens)).
+- Az őrző nagy kasszát fizet, sebzés szerint elosztva, és **minden pilóta, aki a sebzés legalább 5%-át okozta, saját privát ládát kap** a zsákmányból járó részével, amelyet csak ő lát, és csak ő vehet fel ([fizetés és zsákmány](#warden-pay-and-loot)). A 0.4.16 óta a fizetség háromszoros, és amíg egy őrző áll, **percenként érkezik egy hullám a térkép idegeneiből** (a Wrath Warden III-nál 40 másodpercenként, és minden hullámban van egy Crystalys, ha a törzséből fél alatt van), azokra a pilótákra irányítva, akik eltalálták az őrzőt ([hullámok](#waves-of-aliens)).
 - A hajód a meglévő bónuszokat a **Boosterek** ablakban mutatja, egy külön kártyán ([hol látod őket](#the-three-boosts)).
 - A vonalhoz és a bónuszokhoz 0.4.10-es vagy újabb verziójú játék kell, a Boosterek ablak kártyájához 0.4.12-es vagy újabb, a klánoldalhoz, a bejegyzésekhez, az online ablakhoz, a napi bónuszhoz, a békekérésekhez, a naplóhoz és a világonkénti klánokhoz 0.4.16-os vagy újabb.
 
@@ -267,13 +267,13 @@ Ha a vonal kész, vagyis az őrző elpusztult, minden tag kap kifizetést, aki e
 
 ## Klánőrzők {#clan-wardens}
 
-A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek. Az őrző nagyon erős: ötször akkora a törzse, a pajzsa és a lézersebzése, mint a 0.4.13 előtt volt, ezért a lehető legnagyobb legénységnek való harc, amelyet a klánod össze tud hozni ([mekkora legénység kell](#how-big-a-crew)). A 0.4.16 óta a Brood Warden III-nak **fele** akkora a törzse és a pajzsa, a drónjai feleannyit gyógyítanak és feleolyan gyorsan jönnek, és minden őrző [idegenhullámokat](#waves-of-aliens) hoz magával, amíg áll.
+A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban kóborló nyilvános [rajoknak](/wiki/05-Swarms/Swarms.md): a klánod **megidézi**, és **csak a klánod sebezheti**. Három őrző váltja egymást, naponta egy: az 1. napon **Brood**, a 2. napon **Siege**, a 3. napon **Wrath**, a 4. napon újra Brood, és így tovább (a 15. nap Wrath-nap). Mindegyik három erősségben létezik, **I, II és III**, amelyet a klán fokozata szab meg. Az őrző külön fajtájú idegen, mint a rajok hajói: nem számít Seekernek, Phantasmnak vagy más idegennek. Az őrző nagyon erős: ötször akkora a törzse, a pajzsa és a lézersebzése, mint a 0.4.13 előtt volt, ezért a lehető legnagyobb legénységnek való harc, amelyet a klánod össze tud hozni ([mekkora legénység kell](#how-big-a-crew)). A 0.4.16 óta a Brood Warden III-nak **fele** akkora a törzse és a pajzsa, a drónjai feleannyit gyógyítanak és feleolyan gyorsan jönnek, és minden őrző [idegenhullámokat](#waves-of-aliens) hoz magával, amíg áll. A 0.4.20 óta a Wrath Warden **arra a pilótára megy, aki eltalálta**, ahelyett, hogy ott állna, ahová megidézték, a Wrath Warden III több idegent hoz, gyakrabban, és Crystalyst is, ha a törzse fél alá esik, és mindaz, amit egy őrző hoz, azokra a pilótákra irányítva érkezik, akik eltalálták.
 
 | Őrző | Szezonnapok | Szerep | Hogyan harcol |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | A kaptár őre: oszd meg a tüzed | Négy kis **Brood Drone** gyógyítja a törzsét, és 8 másodpercenként újabb jön, amíg négynél kevesebb él (a Brood Warden III-nál 16 másodpercenként). Előbb a drónokat lődd, aztán az őrzőt. |
 | **Siege Warden** | 2, 5, 8, 11 … | Ostromtörő: maradj mozgásban | Kóborol, és egyenes [Rivet-rakétát](/wiki/06-Items/Rockets.md#the-twelve-rockets) lő arra a pilótára, aki először eltalálta, és magát is javítja. Két **Siege Escort** lézertüzet ad hozzá. Maradj mozgásban, és felváltva legyetek a célpont. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Hadúr: győzd le a dühöt | Egy helyben harcol, és magát is javítja. Fél törzs alatt a lézerei **másfélszer erősebben** ütnek. Két **Wrath Guard** lézertüzet ad hozzá. Gyorsan döntsd le, és tartsd fenn a pajzsot. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Hadúr: győzd le a dühöt | Az első pilótára repül, aki eltalálta, a lézerei hatótávolságán belül megáll, és magát is javítja. Fél törzs alatt a lézerei **másfélszer erősebben** ütnek. Két **Wrath Guard** marad vele, és lézertüzet ad hozzá. Gyorsan döntsd le, és tartsd fenn a pajzsot. |
 
 ### Őrző megidézése {#calling-a-warden}
 
@@ -291,11 +291,12 @@ A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban k�
 - **Vigyél akkora legénységet, amekkorát csak tudsz, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Azok a legénységek, amelyek a 0.4.13 előtt nyertek, nagyjából hét pilóta, most veszítenek. Az alábbi táblázat számítás és a legjobb eset: még abban is tíz pilóta minden őrző ellen veszít, és a legkisebb nyerni képes legénység x2 lőszerrel 18–26, x1 lőszerrel 26–38 pilótából áll. Az alábbi hullámok nincsenek benne ebben a számításban.
 - **Brood:** a drónok gyógyítják a törzsét, és az a legénység, amely figyelmen kívül hagyja őket, veszít, még egy nagy is. Először őket lődd, és lődd tovább őket: 8 másodperc múlva új érkezik (a Brood Warden III-nál 16 múlva).
 - **Siege:** a rakétái egyenesek és irányítatlanok, így a mozgásban maradó hajó a legtöbbet kikerüli. Maradj mozgásban, és felváltva legyetek a célpont.
-- **Wrath:** amint a törzse a fele alá esik, minden sorozat másfélszer akkorát üt, így a harc második fele a veszélyes. Az első felét gyorsan döntsd le, tartsd fenn a pajzsot, és az Emergency Repairt tartogasd a dühre.
+- **Wrath:** amint a törzse a fele alá esik, minden sorozat másfélszer akkorát üt, így a harc második fele a veszélyes. Az első felét gyorsan döntsd le, tartsd fenn a pajzsot, és az Emergency Repairt tartogasd a dühre. A 0.4.20 óta nem áll egy helyben: másodpercenként 90 egységgel arra az első pilótára repül, aki eltalálta, amíg a lézerei hatótávolságán belülre nem kerül (erősségtől függően 700, 800 vagy 900 egység), és onnan lő, így egy nagyobb hatótávolságú fegyver már nem lövi büntetlenül. A Brood és a Siege Warden olyan, mint volt: a Brood Warden ott marad, ahová megidézték, a Siege Warden mozgásban marad.
+- **Amit egy őrző hoz, arra a pilótára megy, aki eltalálta.** A 0.4.20 óta a hullám minden idegene, és minden drón, kísérő vagy őr, amely az őrző elleni harc közben érkezik, azokra a pilótákra megy, akik eltalálták az őrzőt, az elsőjükre először, abban a pillanatban, ahogy megérkezik, anélkül, hogy őt magát eltalálták volna.
 
 ### Idegenhullámok {#waves-of-aliens}
 
-A 0.4.16 óta az őrző nem áll egyedül. Attól a pillanattól kezdve, hogy **élesedett** (a 90 másodperces bemelegítés alatt nincs hullám, hogy a legénység összegyűlhessen), **60 másodpercenként** érkezik egy **hullám** hétköznapi idegenekből azon a térképen, amelyen áll, amíg az őrző áll.
+A 0.4.16 óta az őrző nem áll egyedül. Attól a pillanattól kezdve, hogy **élesedett** (a 90 másodperces bemelegítés alatt nincs hullám, hogy a legénység összegyűlhessen), **60 másodpercenként** érkezik egy **hullám** hétköznapi idegenekből azon a térképen, amelyen áll, amíg az őrző áll. A táblázat a kilenc őrzőből nyolc hullámait mutatja; a [Wrath Warden III hullámai](#wrath-iii-waves) nehezebbek.
 
 | Térkép | Egy hullám | Egyszerre legfeljebb él |
 | :--- | :--- | ---: |
@@ -308,6 +309,23 @@ A 0.4.16 óta az őrző nem áll egyedül. Attól a pillanattól kezdve, hogy **
 - **Nem részei az őrzőért folyó harcnak.** Nem gyógyítanak semmit, és ha rájuk lősz, az nem ad hozzá semmit az őrzőnek okozott sebzésből járó részedhez. A térkép bármelyik pilótája megölheti őket. Mindegyik a saját idegenének szokásos fizetségét adja a te világodban, és PvE-pontot ad: egy egész 5 Phantasmból álló hullám 15 000 kreditet fizet az Alphában, a 10 Bulwarkból álló 50 000-et, ami kevesebb, mint 2%-a annak, amit a leggyengébb őrző fizet.
 - **Az őrzővel együtt megszűnnek.** Ha elpusztul vagy visszavonul, nem jön több; a már kint lévő idegenek maradnak, és a térkép hétköznapi idegenei. A szerver újraindítása az őrzővel együtt megszünteti őket.
 - **A klán értesül.** Minden hullámot bejelent a chat Rendszer füle és a Játéknapló: „Brood Warden I erősítést hív itt: M-3. Érkezik: 10 Phantasm.”
+- **Célzottan érkeznek (0.4.20).** A hullám idegenei úgy érkeznek, hogy tudják, kivel harcol az őrző: arra a pilótára mennek, aki eltalálta, az elsőre először, a megjelenés pillanatától, és rajtuk maradnak, amíg az őrzőt találják. Az az őrző, akivel senki sem harcol, olyan idegeneket küld, amelyek kóborolnak, és magukhoz vonzzák, aki a közelükbe ér, mint korábban.
+
+#### A Wrath Warden III hullámai {#wrath-iii-waves}
+
+A 0.4.20 óta a **Wrath Warden III** többet hoz, és gyakrabban: **40 másodpercenként** egy hullámot, abból az idegenből a térkép számának háromnegyedét, és egyszerre legfeljebb **négy hullám** él. Fél törzs alatt (ennél a vonalnál dühödik meg) **minden hullámban van még egy Crystalys is**, a hullám méretén felül.
+
+| Térkép | Egy hullám | Egyszerre legfeljebb él |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, és legfeljebb 4 Crystalys |
+| x-3 | 15 Phantasm | 60, és legfeljebb 4 Crystalys |
+| x-4 | 15 Bulwark | 60, és legfeljebb 4 Crystalys |
+
+- **A Crystalys** a játék legnehezebb közönséges idegene: 256 000 törzs, 160 000 pajzs, 10 000 sebzés lövésenként 900 egységről, sebesség 230 (erősebb világban több törzs, pajzs és sebzés). Annyit fizet, amennyit bármelyik Crystalys: **75 000 kredit, 200 Thulium, 12 000 XP és 52 becsület Alphában** (Betában a duplája, Gammában a háromszorosa), és a szokásos zsákmányát ejti. A hullámához tartozik: a hullám addig él, amíg a Crystalysa él, így egy életben maradt Crystalys életben tartja a négy hullám egyikét.
+- **Legfeljebb négy hullám él.** Az a hullám, amely akkor jár le, amikor négy él, kimarad, mint a többi őrzőnél. Fél törzs felett az őrző a hullámot Crystalys nélkül küldi.
+- **Két sorban jelentik be őket**: „Wrath Warden III erősítést hív itt: M-3. Érkezik: 15 Phantasm.” és „Wrath Warden III erősítést hív itt: M-3. Érkezik: 1 Crystalys.”
+- **Mennyit fizetnek.** Egy egész, 15 Bulwarkból álló hullám 75 000 kreditet fizet Alphában, ha pedig a Crystalys is benne van, 150 000-et: nagyjából a 7 200 000 2%-át, amit maga az őrző fizet.
+- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha ezek a hullámok és a Crystalys is benne vannak, x2 lőszerrel **31 pilótát ad az x-2 térképen, 32-t az x-3 térképen és 38-at az x-4 térképen** (hullámok nélkül 26), Gammában pedig, ahol a hullámok idegenei kétszer erősebbek, 36-ot, 38-at és 50-et. Egy 3. szintű klán 50 tagot fogad be. Mint az ottani táblázat, ez is számított és nem mért, és a legjobb eset.
 
 ### Mekkora legénység kell {#how-big-a-crew}
 

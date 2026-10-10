@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8005e2da2b482cd9 -->
+<!-- wiki-i18n source: 245cebe02509293e -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
@@ -8,7 +8,7 @@ Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger inge
 
 ## Vad en asteroid är {#what-an-asteroid-is}
 
-- **I skeppens höjd.** En asteroid ligger i flygplanet, bakom varje skepp, raket och bit som passerar över den, och den blir där den är. Skepp och utomjordingar flyger rakt igenom den, men skott gör det inte: se [Skydd](#cover). Varje asteroid ritas i sina riktiga proportioner, så Motherlode och Prism Cluster reser sig högt i stället för att ligga platta. De svaga stenarna långt bakom kartan är kulisser: du kan inte träffa dem och de innehåller ingenting.
+- **I skeppens höjd.** En asteroid ligger i flygplanet, bakom varje skepp, raket och bit som passerar över den, och den blir där den är. Ditt skepp flyger rakt igenom den, men skott och utomjordingar gör det inte: utomjordingar flyger runt den (se [Skydd](#cover)). Varje asteroid ritas i sina riktiga proportioner, så Motherlode och Prism Cluster reser sig högt i stället för att ligga platta. De svaga stenarna långt bakom kartan är kulisser: du kan inte träffa dem och de innehåller ingenting.
 - **En sort och en familj.** Varje asteroid är en av sorterna i [Sorterna](#the-kinds), och varje sort tillhör en familj som säger hur den är. En asteroids sken säger vad som finns i den. En **enkel ring** på marken markerar en vanlig asteroid, en **dubbel ring** en pansrad och en **streckad ring** en spröd.
 - **På minikartan.** Varje asteroid i sektorn är en liten sexhörning i sin sorts färg, ihålig tills den träffas och fylld efteråt; bitarna är små runda punkter.
 - **Målfönstret.** Klicka på en asteroid för att välja den. Cirkeln på en vald asteroid stannar kvar på den medan du flyger runt den: ett klick på tom rymd eller alldeles bredvid asteroiden flyger bara ditt skepp, och Esc eller korset i målfönstret släpper den. Fönstret visar dess namn, familj och storlek, dess skrov, märkena **Pansar** och **Explosioner**, ungefär hur många av raketen du håller i handen den tar och ungefär hur många salvor av dina lasrar, vad den lämnar i din värld och vem som har gjort hur mycket av skadan. Att välja en asteroid ändrar inte skeppets eller utomjordingens mål, så dina lasrar behåller sin låsning.
@@ -30,9 +30,10 @@ En asteroid är skydd. **Den första asteroiden i ett skotts väg tar emot skott
 
 - **Inifrån.** Ett skepp vars mitt ligger inuti en asteroid träffar den asteroiden med varje skott, vart det än siktar.
 - **Vad som stoppas.** Varje lasersalva och varje raket från en pilot, en utomjording (svärmskeppen, Clan Warden, Slumbering Void) och en koncernpilot, även N.U.K.E. Två saker flyger över asteroider: [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) och kanonerna i Dormant Swamp. Förmågor som Venom och det svarta hålet är inga skott.
-- **Vad asteroiden tar emot.** En raket tar det en raket tar; en lasersalva det lasrar tar av en asteroid: 5 % av vad den skulle göra mot ett skepp, minus asteroidens pansar. Det räknas som skada på asteroiden som all annan, så en pilot vars skott spränger en får betalt för dem ([Vem som får bitarna](#who-gets-the-chunks)). En utomjordings skott tar ingenting av asteroiden: det finns ingen att betala.
+- **Vad asteroiden tar emot.** En raket tar det en raket tar; en lasersalva det lasrar tar av en asteroid: 5 % av vad den skulle göra mot ett skepp, minus asteroidens pansar. Det räknas som skada på asteroiden som all annan, så en pilot vars skott spränger en får betalt för dem ([Vem som får bitarna](#who-gets-the-chunks)). En utomjording skjuter aldrig på en asteroid, och en utomjordings raket som en asteroid stoppar tar ingenting av den: det finns ingen att betala. Det enda undantaget är Inert Mass i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md): dess Dormant Lance skadar asteroiden den träffar med sin egen skada, och ingen får betalt för det.
 - **Linjen.** En asteroid är cirkeln som precis rymmer den som den är ritad, och en raket vidrör den några enheter före kanten, som den vidrör ett skepp. Ett mål bakom en asteroid, eller med mitten inuti en, är skyddat; ett precis på kanten är det inte. En asteroid vid sidan av linjen, bakom målet eller bakom skytten står inte i vägen.
 - **Förbrukat som alltid.** Ett skott som en asteroid stoppar kostar sin ammunition, sin raket och sin timer, som alla skott.
+- **Utomjordingar flyger runt.** En utomjording flyger aldrig in i en asteroid: den flyger runt den, vad den än gör, och en utomjording som en asteroid har placerats på flyger ut ur den. Om du gömmer dig bakom en asteroid står en utomjording som är efter dig inte kvar och skjuter på asteroiden: den flyger runt den till en plats där dess linje till dig är fri och skjuter därifrån. Håll asteroiden mellan dig och den, så fortsätter den att cirkla. Ett kompanis pilot gör likadant. Ditt eget skepp stoppas inte av en asteroid: du kan fortfarande flyga rakt igenom en.
 
 ## Vad en sprängning lämnar {#what-a-break-leaves}
 
@@ -82,7 +83,7 @@ Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens f
 
 ## Var de finns {#where-they-are}
 
-Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Från säsongsdag 11 ligger ingen asteroid nära en pulsar, en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta.
+Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Ingen asteroid ligger nära en pulsar, som lyser från säsongens första dag; från säsongsdag 11 ligger ingen heller nära en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->

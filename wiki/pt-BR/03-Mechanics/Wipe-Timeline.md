@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3c1a5c5512f39cd -->
+<!-- wiki-i18n source: 3f940246579eb7bd -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -16,12 +16,12 @@ Cada temporada vai do dia 1 ao dia 30 (o Reset começa com a contagem regressiva
 | :--- | :--- | :--- | :--- |
 | **Protocolo de Paz** | Dias 1–3 | PvP desativado | Um recomeço focado inteiramente na progressão PvE, na coleta de recursos e na construção de naves, sem a ameaça de conflito entre jogadores. |
 | **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo) e os três [enxames](/wiki/05-Swarms/Swarms.md) começam a aparecer: eles ficam até o reset, ao longo das fases seguintes. A fase em si ainda não dá recompensas especiais. |
-| **Onda Tecnológica** | Dias 11–18 | Evento 2 | Os [setores de perigo](/wiki/01-General/Danger-Sectors.md) mudam: um pulsar com uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) em `DS-1` a `DS-3`, o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) em `DS-4`, Slumbering Voids, e um Enxame Dormant que volta mais cedo e paga o dobro. Tudo fica até o reset. A fase não dá recompensas próprias. |
+| **Onda Tecnológica** | Dias 11–18 | Evento 2 | Os [setores de perigo](/wiki/01-General/Danger-Sectors.md) mudam: uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) ao lado de cada pulsar em `DS-1` a `DS-3`, o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) em `DS-4`, Slumbering Voids, e um Enxame Dormant que volta mais cedo e paga o dobro. Tudo fica até o reset. A fase não dá recompensas próprias. |
 | **Jogos de Guerra** | Dias 19–25 | Evento 3 | Ainda sem efeitos especiais: o PvP funciona como em todas as fases depois do Protocolo de Paz. |
 | **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar e bloquear a carga que vão levar consigo antes da erupção. |
 | **O Reset** | Dia 30 | Erupção do Buraco Negro | O universo é destruído e renasce, e todos os [clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) são dissolvidos. Os pilotos passam para o mundo que escolheram como destino para a próxima temporada. |
 
-Além do próprio reset, só quatro coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, a partir do dia 11 os [setores de perigo](/wiki/01-General/Danger-Sectors.md) ganham seus pulsares, escavadeiras gigantes e o Dormant Swamp, que ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo. O evento 2 muda os setores de perigo como descrito acima; nenhum dos outros dá ainda recompensas, aparições ou bônus especiais próprios.
+Além do próprio reset, só quatro coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, a partir do dia 11 os [setores de perigo](/wiki/01-General/Danger-Sectors.md) ganham suas escavadeiras gigantes (ao lado dos pulsares, que brilham desde o dia 1) e o Dormant Swamp, que ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo. O evento 2 muda os setores de perigo como descrito acima; nenhum dos outros dá ainda recompensas, aparições ou bônus especiais próprios.
 
 ---
 

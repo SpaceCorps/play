@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 Réges-rég egy fejlett civilizáció élt a galaxis közepén. Lilásfekete kristályból épített, világító ibolya erekkel, és ismeretlen okból összeomlott. A **Dormant Swamp** az előőrse, a `DS-4` bal felső sarkában. A szezon 11. napjától megmozdul: a középen lévő lövegek minden hajóra tüzelnek, amit látnak, az **Inert Massek** őrzik, és a legközepén alszik **az Unwakened**. Ez egy olyan hely, amelyet a pilótáknak **még nem szabad meglátogatniuk**. Álca alatt eljuthatsz az Unwakenedig, és egyelőre semmi mást nem lehet ott tenni: a bázist és a lövegeit nem lehet megrongálni, belépni, megrohamozni vagy velük kereskedni.
 
 A mocsárnál jelenik meg a 11. naptól a [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) is, és **Slumbering Voidok** járőröznek körülötte. Ugyanezek a Voidok hullámokban jönnek az [óriás kotrógépekhez](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). A szektorok itt vannak: [Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## Dióhéjban {#at-a-glance}
 
@@ -56,7 +58,7 @@ Egy lövés sebzése, minden világban:
 Az elveszett civilizáció három idegene él itt, mindegyiknek megvannak a saját számai. Úgy fizetnek, mint egy raj főellensége: **az okozott sebzés szerint**, minden pilótának, aki legalább a [Rajok](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm) oldalán megadott részt elérte, a láda pedig a legtöbb sebzést okozó pilótáé. A kilövéseik a PvE rangpontjaidat gyarapítják, mint egy rajhajóé, a fizetésükkel arányosan ([Rangok](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Mindegyikük pajzsa egy találat 80 %-át elnyeli, amíg tart ([Pajzsok](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** A karcsú vadász, a játék leggyorsabb idegene (olyan gyors, mint egy Storm Afterburner III-mal). Néhány mindig a mocsár környékét járőrözi, mások hullámokban érkeznek a kotrógépekhez. Agresszív, a legközelebbi pilótára vadászik, akit lát, és soha nem lát álcázott hajót.
-- **Inert Mass.** Egy holt roncsóriás ibolya repedésekkel, egy kis állomás méretű. Állandó távolságon belül maradnak a mocsár közepétől, és egyelőre nem hagyják el. **Dormant Lance-eket** lő: nagyon nagy hatótávú, irányított rakétákat, amelyek követik a hajót, amíg az nem álcázza magát, nem nyit EMP-ablakot, nem lép biztonsági gyűrűbe, nem ugrik, vagy meg nem hal. Minden hajónál gyorsabb, ezért csak ezek a megszakítások segítenek.
+- **Inert Mass.** Egy holt roncsóriás ibolya repedésekkel, egy kis állomás méretű. Állandó távolságon belül maradnak a mocsár közepétől, és egyelőre nem hagyják el. **Dormant Lance-eket** lő: nagyon nagy hatótávú, irányított rakétákat, amelyek követik a hajót, amíg az nem álcázza magát, nem nyit EMP-ablakot, nem lép biztonsági gyűrűbe, nem ugrik, vagy meg nem hal. Minden hajónál gyorsabb, ezért csak ezek a megszakítások segítenek. Egy aszteroida a Dormant Lance útjában megállítja azt, a Lance pedig a saját sebzésével rongálja az aszteroidát (ezért senki nem kap fizetséget), így egy szikla csak néhány találatig véd egy Inert Mass ellen.
 - **Az Unwakened.** Egy monolit, amely a mocsár közepén alszik, a legnagyobb dolog bármely térképen, olyan lassú, hogy soha nem ér utol hajót. Semmit nem lő, de minden hajó, amely az aurájában van, elég, **álcázva vagy sem**. **Immunis**: a lövések és a rakéták eltalálják, és nem csinálnak semmit, a célablak teli sávokat és az Immunis szót mutatja. Egy későbbi esemény lehetővé teszi majd a leküzdését; az alábbi jutalmai fel vannak jegyezve, és még nem szerezhetők meg.
 
 <!-- swamp-members:begin -->

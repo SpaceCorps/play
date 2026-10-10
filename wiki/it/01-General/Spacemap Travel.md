@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Viaggiare sulla mappa -->
 # Viaggiare sulla mappa spaziale {#spacemap-travel}
 
@@ -30,7 +30,7 @@ L’universo comprende tre grandi settori di corporazione (Mars, Terra, Galactic
 - **x-1 (base)**: la mappa di partenza di ogni corporazione (M-1, T-1, G-1). La zona più sicura.
 - **x-2 -> x-3**: zone di espansione con alieni via via più duri.
 - **x-4 (confine)**: il passaggio verso il settore PvP e verso l’`x-3` di un’altra corporazione (l’Anello, più sotto).
-- **DS-x (settori pericolosi)**: la zona PvP centrale che collega tutte le corporazioni: da DS-1 a DS-4. Dal giorno 11 della stagione contiene anche pulsar con escavatori giganti e il Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (settori pericolosi)**: la zona PvP centrale che collega tutte le corporazioni: da DS-1 a DS-4. Contiene un pulsar in ciascuno da DS-1 a DS-3 dal primo giorno della stagione e, dal giorno 11, un escavatore gigante accanto a ciascuno e il Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md)).
 
 Solo le basi hanno una stazione. È lì che si apre **Mission Control**, e la sua zona sicura si estende per 1.600 unità intorno a essa. I settori pericolosi non hanno stazioni, `DS-1` compreso: le uniche zone sicure lì sono gli anelli di 660 unità intorno alle porte di salto, e lì Mission Control non si può aprire; torna in volo alla tua base per le tue missioni.
 

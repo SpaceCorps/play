@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -24,7 +24,7 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 - **Mientras estás fuera.** Una investigación corre con el reloj del servidor, así que sigue después de que te desconectes, hasta que termina o se vacía el depósito. Un déficit de energía o una mejora del Centro no la detienen.
 - **Energía.** El Centro consume 25 en el nivel 1 y 15 % más con cada nivel, y no se puede apagar.
 - **El reinicio lo conserva todo:** tus tecnologías, la ciencia del depósito, el Dark Matter introducido, una investigación en curso y el impulso.
-- **Lo que tienes es tuyo.** Cuando la investigación llegó al juego, cada piloto recibió la tecnología de cada objeto que ya poseía y las tecnologías que estas requerían. Un objeto que te llega después (un regalo, un código, una recompensa) no desbloquea su tecnología.
+- **Lo que tienes es tuyo.** Cuando la investigación llegó al juego, cada piloto recibió la tecnología de cada objeto que ya poseía y las tecnologías que estas requerían. Un objeto que te llega después (un regalo, un código, una recompensa) no desbloquea su tecnología, con una excepción: un Engine II, un Engine III, un Adaptive Core II o un Adaptive Core III que te dé un código, una misión, una invitación o un administrador desbloquea de inmediato su tecnología y las que esta requiere.
 - **Por debajo del Núcleo de nivel 10** no puedes investigar, así que todavía no puedes fabricar nada nuevo en Ensamblaje. Las misiones de la estación te guían para subir el Núcleo.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ En la vista **Investigación** de tu Skylab, una tecnología te dice más que un
 
 ## Combustible {#fuel}
 
-Alimentas el Centro con recursos y cada unidad se convierte en ciencia al instante. Cuanto más trabajo cuesta conseguir una unidad, más ciencia da: las cifras siguen lo difícil que es conseguirla, no su etiqueta de rareza. Los minerales son la excepción: una unidad da más ciencia que los segundos que un colector tarda en extraerla, así que una hora del mineral de un colector a mitad de sus niveles alimenta alrededor de dos horas de investigación. Los minerales salen del Almacén de recursos de tu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); cualquier otro recurso sale de tu inventario, y tu nave debe estar aterrizada. La Velkonite Reinforced Plate, la Orvium Reinforced Plate, la Dark Matter Plate, el Dark Matter, los créditos y el Thulium no se pueden quemar; la Reinforced Hull Plate sí.
+Alimentas el Centro con recursos y cada unidad se convierte en ciencia al instante. Cuanto más trabajo cuesta conseguir una unidad, más ciencia da: las cifras siguen lo difícil que es conseguirla, no su etiqueta de rareza. Los minerales son la excepción: una unidad da más ciencia que los segundos que un colector tarda en extraerla, así que una hora del mineral de un colector a mitad de sus niveles alimenta alrededor de dos horas de investigación. Los minerales salen del Almacén de recursos de tu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); cualquier otro recurso sale de tu inventario, y tu nave debe estar aterrizada. La Velkonite Reinforced Plate, la Orvium Reinforced Plate, la Dark Matter Plate, el Dark Matter, los créditos y el Thulium no se pueden quemar; la Reinforced Hull Plate sí. El Velkonite y el Orvium que las cajas de una excavadora dejan en tu inventario llegan al Almacén de recursos por la [Bahía de mineral](/wiki/03-Mechanics/Skylab.md#ore-bay).
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

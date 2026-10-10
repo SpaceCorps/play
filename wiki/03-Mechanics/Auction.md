@@ -1,6 +1,6 @@
 # Auction
 
-The Auction is the pilots' market and the game's own hourly lots, on one page of the station menu. Like the Shop, it is a page of the station: you use it docked, not in flight. It has four sections. **Market** is what other pilots have for sale. **Lots** are the game's own offers, one every hour. **My listings** is what you have for sale yourself. **History** is your sales, your purchases and the lots you won, and how your trading did.
+The Auction is the pilots' market and the game's own hourly lots, on one page of the station menu. Like the Shop, it is a page of the station: you use it docked, not in flight. It has four sections. **Market** is what other pilots have for sale. **Lots** are the game's own offers, three every hour. **My listings** is what you have for sale yourself. **History** is your sales, your purchases and the lots you won, and how your trading did.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -9,9 +9,10 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - A listing is priced per lot, in whole Credits or whole Thulium (not both), and never under the kind's least price. There is **no highest price**.
 - A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 1 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
 - 82 kinds can be listed, and 81 of them can also be priced in Thulium.
-- A listing runs for 24 / 72 / 168 hours, as you choose: the choice is the same at every level.
-- The **deposit** is 1% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
-- From level 10 the deposit is 1.5%.
+- A listing runs for 168 / 336 / 504 hours, as you choose: the choice is the same at every level.
+- The **deposit** is 0.25% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
+- From level 10 the deposit is 0.4%.
+- Your first 10 listings of each UTC day pay no deposit at all, at any time and price. A listing you cancel still counts as made. The tax of a sale is the same for every listing.
 - The **tax** is 5% of the price. It is taken out of what the seller receives when the listing sells.
 - The deposit and the tax are burned: they go to nobody.
 - From season day 28 until the wipe there is no deposit and no tax.
@@ -57,7 +58,7 @@ Ships, drones, drone formations, boosters and subscriptions can never be sold, n
 
 ## Selling
 
-Press **Sell an item** (or the gavel in the Hangar), pick what you earned (a category drop-down narrows the list, with the same categories as the Market), choose Credits or Thulium, set the price of one lot and how long the listing runs: 1, 3 or 7 days. The sheet shows the least price, three chips that fill in a price (**Minimum**; **Quick sale**, one under the lowest listing now; and **Fair**, the price of the last sale), and the deposit, the tax and what you receive, before you list. Under the price, **Similar listings** charts the prices the same item and enchant is listed at now, in the currency you chose: your price is a line on it, the least price, the last sale and the Shop's price are marked, a line in words says where your price would stand, and the three cheapest listings are shown. A piece is a lot of one; ammo and some resources are sold in lots of 10 or 100, and you sell a whole number of lots. What you list leaves your inventory and is held by the server until it sells, you cancel it or it runs out; then it comes back, with its tag. You can cancel at any time, even in the last days of a season. A listing is a snapshot: to change a price, cancel the listing and list it again (the deposit is paid again).
+Press **Sell an item** (or the gavel in the Hangar), pick what you earned (a category drop-down narrows the list, with the same categories as the Market), choose Credits or Thulium, set the price of one lot and how long the listing runs: 7, 14 or 21 days (the sheet starts on 7). The sheet shows the least price, three chips that fill in a price (**Minimum**; **Quick sale**, one under the lowest listing now; and **Fair**, the price of the last sale), and the deposit, the tax and what you receive, before you list. Under the price, **Similar listings** charts what the other pilots ask for the same item and enchant, in the currency you chose: your price is a line on it, and the cheapest and the median of the others, the least price, the last sale and the Shop's price are marked; a line in words says where your price would stand, and the three cheapest listings are shown (with fewer than three other listings, the chart gives way to a plain list of them). The **chart button** of an open listing in My listings opens the same chart for that listing. A piece is a lot of one; ammo and some resources are sold in lots of 10 or 100, and you sell a whole number of lots. What you list leaves your inventory and is held by the server until it sells, you cancel it or it runs out; then it comes back, with its tag. You can cancel at any time, even in the last days of a season. A listing is a snapshot: to change a price, cancel the listing and list it again (the deposit is paid again).
 
 Every kind has a **least price**, and there is **no highest price**: ask what you like. The table shows the least price of a few kinds.
 
@@ -90,38 +91,38 @@ Your **open listings** (and a listing an admin has put on hold) use up slots. As
 
 | Level | Open listings | Longest listing | A day, Credits | A day, Thulium | Deposit per 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 168 h | 4,500,000 | 22,500 | 1% |
-| 6 | 40 | 168 h | 6,000,000 | 30,000 | 1% |
-| 7 | 70 | 168 h | 7,500,000 | 37,500 | 1% |
-| 8 | 100 | 168 h | 8,500,000 | 42,500 | 1% |
-| 9 | 100 | 168 h | 10,000,000 | 50,000 | 1% |
-| 10 | 100 | 168 h | 15,000,000 | 75,000 | 1.5% |
-| 11 | 100 | 168 h | 15,000,000 | 75,000 | 1.5% |
-| 12 | 100 | 168 h | 15,000,000 | 75,000 | 1.5% |
-| 13 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 14 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 15 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 16 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 17 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 18 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 19 | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
-| 20 and up | 100 | 168 h | 20,000,000 | 100,000 | 1.5% |
+| 5 | 20 | 504 h | 4,500,000 | 22,500 | 0.25% |
+| 6 | 40 | 504 h | 6,000,000 | 30,000 | 0.25% |
+| 7 | 70 | 504 h | 7,500,000 | 37,500 | 0.25% |
+| 8 | 100 | 504 h | 8,500,000 | 42,500 | 0.25% |
+| 9 | 100 | 504 h | 10,000,000 | 50,000 | 0.25% |
+| 10 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
+| 11 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
+| 12 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
+| 13 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 14 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 15 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 16 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 17 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 18 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 19 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 20 and up | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
 
 <!-- market-limits:end -->
 
 ## Fees
 
-A listing costs a **deposit**, paid when you list and never returned, and a sale costs a **tax**, taken from what the seller receives. Both are paid in the currency of the listing and **burned**: they go to nobody, so nobody gains by trading with himself. In the last two days of a season there is no deposit and no tax.
+A listing costs a **deposit**, paid when you list and never returned, and a sale costs a **tax**, taken from what the seller receives. Both are paid in the currency of the listing and **burned**: they go to nobody, so nobody gains by trading with himself. Your **first ten listings of each UTC day** pay no deposit at all, whatever their time and price; a listing you cancel still counts as made, and the tax of a sale is the same for every listing. A listing that the season's end cuts short pays the deposit of the days it runs, not of the time you picked. In the last two days of a season there is no deposit and no tax.
 
 <!-- market-fees:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 | Listing | Price | Deposit | Tax | The seller receives |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: level 6, 24 h | 210,000 Credits | 2,100 Credits | 10,500 Credits | 199,500 Credits |
-| Quantum Laser III: level 10, 72 h | 210 Thulium | 10 Thulium | 10 Thulium | 200 Thulium |
-| Helios Beam: level 12, 168 h | 2,500,000 Credits | 262,500 Credits | 125,000 Credits | 2,375,000 Credits |
-| Helios Beam: level 12, 168 h, in the last days of a season | 2,500,000 Credits | 0 Credits | 0 Credits | 2,500,000 Credits |
+| Quantum Laser III: level 6, 168 h | 210,000 Credits | 3,675 Credits | 10,500 Credits | 199,500 Credits |
+| Quantum Laser III: level 10, 336 h | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Helios Beam: level 12, 504 h | 2,500,000 Credits | 210,000 Credits | 125,000 Credits | 2,375,000 Credits |
+| Helios Beam: level 12, 504 h, in the last days of a season | 2,500,000 Credits | 0 Credits | 0 Credits | 2,500,000 Credits |
 
 <!-- market-fees:end -->
 
@@ -137,18 +138,18 @@ Rockets in a listing, in a lot you lead and in your hold all count toward the mo
 
 ## My listings and History
 
-**My listings** shows your slots, each listing with its state (open, sold, cancelled, expired, returned or on hold), a **Cancel** button, **List again** for a closed one and an **Undercut** chip when another listing of the same item asks less. A listing that ran out comes back to your inventory by itself. **History** opens with your trading of the last 30 days: your sales and purchases, what you earned and spent, the fees and taxes you paid, your net result, your best sale, your average sale and the item you traded most, and two line charts, what you earned each day and your result so far (for Credits or for Thulium, one at a time). Under them is the list of what you sold, bought and won, with the tax. The game keeps the ledger of the Auction for 90 days.
+**My listings** shows your slots, each listing with its state (open, sold, cancelled, expired, returned or on hold), a **Cancel** button, a **chart button** that sets your price against what the other pilots ask for the item, **List again** for a closed one and an **Undercut** chip when another listing of the same item asks less. A listing that ran out comes back to your inventory by itself. **History** opens with your trading of the last 30 days: your sales and purchases, what you earned and spent, the fees and taxes you paid, your net result, your best sale, your average sale and the item you traded most, and two line charts, what you earned each day and your result so far (for Credits or for Thulium, one at a time). Under them is the list of what you sold, bought and won, with the tax. The game keeps the ledger of the Auction for 90 days.
 
 You are told when something sells: a toast, the Auction's sound and the new balance, and a badge on the Auction entry while the page is closed. A burst of sales is one toast. The Auction has its own quiet sounds, one for each thing you do or that happens to you there (posting, ending, a sale, a bid, being outbid, winning), and they follow the Interface volume.
 
 ## The hourly Lots
 
-The Lots are the game's own offers: ammo, rockets and EMP Charges, every hour, for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a special rocket), in the Shop's own currency. You can bid on any lot whatever you already carry: a lot you win is yours whole, even when it takes you above the stack the Shop lets you buy.
+The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots every hour (twelve are open at once), for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a special rocket), in the Shop's own currency. You can bid on any lot whatever you already carry: a lot you win is yours whole, even when it takes you above the stack the Shop lets you buy.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-- A new lot opens at the start of every UTC hour and stays open for 4 hours, so 4 are open at once.
+- 3 new lots open at the start of every UTC hour, each of different goods, and each stays open for 4 hours, so 12 are open at once.
 - The opening bid is 20% of the Shop price of the goods. A bid after that must be at least 5% over the high bid, and at least 100 Credits or 1 Thulium more.
 - Your bid is paid at once and held. If someone outbids you, it comes back to you at once.
 - A bid in the last 2 min of a lot moves its end to 2 min after the bid, at most 5 times.
@@ -164,29 +165,77 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, every hour, f
 | UTC hour | Lot | Full size | Paid in | Opening bid at full size |
 | :--- | :--- | ---: | :--- | ---: |
 | 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
+| 00:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 00:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
 | 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 01:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 01:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
 | 02:00 | Lancet I | 12,500 | Credits | 1,250,000 Credits |
+| 02:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 03:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 03:00 | Lancet I | 12,500 | Credits | 1,250,000 Credits |
 | 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 04:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 04:00 | Rivet I | 12,500 | Credits | 1,250,000 Credits |
 | 05:00 | Rivet II | 5,000 | Credits | 800,000 Credits |
+| 05:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 06:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 06:00 | Ember II | 5,000 | Credits | 800,000 Credits |
 | 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 07:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 07:00 | Rivet II | 5,000 | Credits | 800,000 Credits |
 | 08:00 | Ember I | 12,500 | Credits | 1,250,000 Credits |
+| 08:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 09:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 09:00 | Ember II | 5,000 | Credits | 800,000 Credits |
 | 10:00 | Scatter II | 5,000 | Credits | 800,000 Credits |
+| 10:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 11:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 11:00 | Lancet I | 12,500 | Credits | 1,250,000 Credits |
 | 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 12:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 12:00 | Scatter II | 5,000 | Credits | 800,000 Credits |
 | 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
+| 13:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 13:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
 | 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
+| 14:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 14:00 | Ember I | 12,500 | Credits | 1,250,000 Credits |
 | 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 15:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 15:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
 | 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 16:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 16:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
 | 17:00 | Rivet I | 12,500 | Credits | 1,250,000 Credits |
+| 17:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 18:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 18:00 | Scatter II | 5,000 | Credits | 800,000 Credits |
 | 19:00 | Ember II | 5,000 | Credits | 800,000 Credits |
+| 19:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
 | 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 20:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 20:00 | Rivet I | 12,500 | Credits | 1,250,000 Credits |
 | 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
+| 21:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
+| 21:00 | Rivet II | 5,000 | Credits | 800,000 Credits |
 | 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
+| 22:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
+| 22:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
 | 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
+| 23:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
+| 23:00 | Ember I | 12,500 | Credits | 1,250,000 Credits |
 
 <!-- market-day:end -->
 

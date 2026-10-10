@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -7,6 +7,8 @@ La **Forgia** è la seconda scheda della pagina Assemblaggio (e della finestra A
 ## Che cosa si può forgiare {#what-can-be-forged}
 
 Laser, amp laser, Shield Core, celle scudo, motori, propulsori, Nuclei adattivi, Repair Drone e [corazza dello scafo](/wiki/06-Items/Hull-Plating.md): qualsiasi singolo pezzo di equipaggiamento che possa portare [bonus di incantamento](/wiki/06-Items/Overview.md). Può trovarsi nel tuo inventario, su una nave (ci resta e funziona subito con il nuovo grado) o essere montato in un altro oggetto. Droni, navi, munizioni, risorse e booster non si possono forgiare, e nemmeno nulla che si trovi nel Deposito di trasporto: toglilo prima.
+
+L’elenco dell’equipaggiamento ha un interruttore **Tutti / Equipaggiati / In inventario** accanto agli altri filtri. **Equipaggiati** mostra ciò che è su una nave o inserito in un altro oggetto, **In inventario** ciò che è sfuso, e una riga sotto il titolo dice quanti pezzi l’interruttore nasconde. Mentre scegli il donatore di un’unione, «Equipaggiati» è sospeso, perché un donatore deve essere sfuso.
 
 ## Sali di grado {#tier-up}
 

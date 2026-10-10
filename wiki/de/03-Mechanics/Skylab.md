@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: f2f334d2bb9d511a -->
+<!-- wiki-i18n source: 42731fd43a13e953 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
 Das Skylab ist deine persönliche Orbitalanlage. Hier baust du Module und baust sie aus: Sie erzeugen Credits und Thulium, fördern Erz, schmieden die Platten, aus denen die Montage die besten Laser herstellt, und erforschen ab Kern-Level 10 die Technologien, die die Montage braucht. Das Skylab arbeitet für dich, sogar während du offline bist.
 
-Auf Kern-Level 10 wächst das Skylab außerdem: Eine **Brücke** verbindet den Kern mit einem zweiten Kern mit sechs weiteren Modul-Slots, und zwei weitere Module docken dort an, der **Munitionsdrucker** und die **Raketenfabrik**, die Munition und Raketen aus dem Nichts herstellen (siehe [Die Brücke und Kern 2](#the-bridge-and-core-2)).
+Auf Kern-Level 10 wächst das Skylab außerdem: Eine **Brücke** verbindet den Kern mit einem zweiten Kern mit sechs weiteren Modul-Slots, und drei weitere Module docken dort an: der **Munitionsdrucker** und die **Raketenfabrik**, die Munition und Raketen aus dem Nichts herstellen, und die **Erzbucht**, die das Erz, das du bei dir trägst, ins Ressourcenlager verlädt (siehe [Die Brücke und Kern 2](#the-bridge-and-core-2) und [Erzbucht](#ore-bay)).
 
 > [!NOTE]
 > **Was sich in 0.4.10 geändert hat.** Jedes Skylab-Modul hat jetzt seine eigene Tabelle mit Produktion, Preisen und Zeiten, Level für Level. Du hast deine Level behalten: Es wurde nichts berechnet und nichts für den Unterschied erstattet. Was deine Farmen und Kollektoren beim Eintreffen des Updates in ihren Speichern hatten, wurde **einmalig zum alten Satz** ausgezahlt: Credits und Thulium gingen auf dein Konto, das Erz ins Ressourcenlager, und die Speicher fingen wieder bei null an.
@@ -24,14 +24,14 @@ Auf Kern-Level 10 wächst das Skylab außerdem: Eine **Brücke** verbindet den K
 - Farmen und Kollektoren füllen einen **Speicher** (für 72 Stunden), solange du weg bist. **Abholen** bringt ihn auf dein Konto (Credits, Thulium) oder ins Ressourcenlager (Erz).
 - Die **Thulium-Farm** ist deine wichtigste Thulium-Quelle: 40 pro Stunde auf Level 1, 1.280 auf Level 20. Die Credit-Farm macht auf Level 1 750 Credits pro Stunde und auf Level 20 75.000.
 - Der **Kern** gibt den Takt vor: Kein Modul geht über ihn hinaus, und sein eigener Ausbau dauert etwa 16,5 Tage.
-- Auf **Kern-Level 10** baut eine **Brücke** den **Kern 2** mit sechs weiteren Modul-Slots, und der **Munitionsdrucker** und die **Raketenfabrik** docken dort an. Der Schritt auf Level 10 kostet 2.000 Thulium mehr.
+- Auf **Kern-Level 10** baut eine **Brücke** den **Kern 2** mit sechs weiteren Modul-Slots, und der **Munitionsdrucker**, die **Raketenfabrik** und die **Erzbucht** docken dort an. Der Schritt auf Level 10 kostet 2.000 Thulium mehr.
 - **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**, deine Farmen und Kollektoren stehen also still, bis er fertig ist. [Plane es](#timing-a-solar-upgrade).
 
 ## Überblick {#overview}
 
 Das Skylab läuft nach seiner eigenen Uhr, unabhängig von deinem Schiff: Module produzieren und schmieden, während du weg bist. Deine Aufgabe ist es, zu bauen, auszubauen, die Energie im Gleichgewicht zu halten und abzuholen. Die Seite hat vier Ansichten derselben Station: **Station** (die 3D-Station, mit einem Chip über jedem Modul; klicke auf einen, um das Fenster des Moduls zu öffnen, oder drücke **1** bis **9**), **Liste** (eine Karte für jedes Modul), **Tabelle** (die Werte aller Module in einer Tabelle) und **Forschung** (der eigene Bildschirm des Forschungszentrums, siehe [Forschung](/wiki/03-Mechanics/Research.md)). Zeigst du auf **Bauen** oder **Ausbauen**, siehst du, was das nächste Level ändert, was es kostet und wie lange es dauert.
 
-Elf Module bilden die Station:
+Zwölf Module bilden die Station:
 
 | Modul | Erzeugt oder tut | Voraussetzung |
 | :--- | :--- | :--- |
@@ -46,6 +46,7 @@ Elf Module bilden die Station:
 | **Forschungszentrum** | Macht aus Ressourcen Wissenschaft und erforscht [Technologien](/wiki/03-Mechanics/Research.md) | Kern-Level 10 |
 | **Munitionsdrucker** | Druckt x2-, x3- oder x4-Munition aus dem Nichts | Kern-Level 10, auf Kern 2 |
 | **Raketenfabrik** | Baut Shop-Raketen aus dem Nichts | Kern-Level 10, auf Kern 2 |
+| **Erzbucht** | Verlädt das Velkonite und das Orvium, das du bei dir trägst, ins Ressourcenlager | Kern-Level 10, auf Kern 2 |
 
 Die **Brücke** und **Kern 2** sind keine Module: Sie entstehen, wenn der Kern Level 10 erreicht, und Kern 2 hat kein eigenes Level (siehe [Die Brücke und Kern 2](#the-bridge-and-core-2)).
 
@@ -107,7 +108,7 @@ Das Herz deines Skylab. Das Level des Kerns bestimmt das höchste Level jedes an
 Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, die jedes andere Modul verbraucht.
 
 - **Bedeutung**: Ist dein Energieverbrauch höher als deine Energieerzeugung, schalten deine Farmen und Kollektoren ab.
-- **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 965 auf Level 7, 17.890 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
+- **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 965 auf Level 7, 17.990 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
 - **Preis**: Der Bau von Solar kostet **500 Credits und 50 Thulium**. Sein Ausbau kostet dasselbe und dauert genauso lang wie der der Schmiede: von 8.000 Credits und 25 Thulium für Level 2 (5 Minuten) bis 9.000.000 Credits und 10.000 Thulium für Level 20 (24 Stunden).
 - **Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur **25 %** der Energie seines aktuellen Levels, und ab dem Ende des Ausbaus die des neuen Levels. Eine Station, die mehr verbraucht, schaltet ab: Jede Farm und jeder Kollektor hört auf zu produzieren, und die Schmiede startet keine neue Charge, bis der Ausbau fertig ist. Bei fast jeder Station ist das der Fall: Sie läuft nur dann durch den Ausbau, wenn alle anderen Module mindestens fünf Level unter Solar liegen (sechs Level ab Solar-Level 10). Plane einen Solar-Ausbau wie einen Blackout deiner Farmen (siehe Bauen und Ausbauen).
 - **Platz**: Ab Kern-Level 10 steht Solar auf Kern 2, am fernen Ende der Station (siehe [Die Brücke und Kern 2](#the-bridge-and-core-2)).
@@ -120,7 +121,7 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 ## Die Versorgungskette {#the-supply-chain}
 
-Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht. (Ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) legt ebenfalls etwas Velkonite und Orvium in Kisten ab, doch dieses Erz kommt in deine Fracht, wo es Treibstoff des Forschungszentrums ist, und die Schmiede nimmt es nicht.)
+Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die Platten für deine besten Laser. Erz kommt **nur** aus den Kollektoren (alle Materialien und Währungen stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md)): Aliens lassen es nicht fallen, und der Shop verkauft es nicht. (Ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) legt ebenfalls etwas Velkonite und Orvium in Kisten ab, doch dieses Erz kommt in deine Fracht, und erst die [Erzbucht](#ore-bay) verlädt es ins Ressourcenlager, aus dem die Schmiede und das Forschungszentrum es nehmen.)
 
 1. Ein **Kollektor** fördert Erz, eine bestimmte Menge pro Stunde, in seinen eigenen Speicher (für 72 Stunden).
 2. **Abholen** bringt das Erz aus dem Speicher ins **Ressourcenlager**, wo jedes Erz für sich eingelagert wird.
@@ -139,7 +140,7 @@ Vier Module verwandeln die Zeit, die du nicht an der Tastatur verbringst, in die
 - **Lager**: verwahrt Velkonite und Orvium getrennt und fasst von jedem eine andere Menge: **240 von jedem auf Level 1**, bis zu 7.680 Velkonite und 3.840 Orvium auf Level 20 (Level 5: 720 und 560; Level 10: 1.920 und 1.440).
 - **Obergrenze**: einen Tag der Förderung des zugehörigen Kollektors auf Level 1, bis zu vier Tage auf Level 20. Der Speicher eines Kollektors fasst drei Tage, daher fasst das Lager ab Level 13 mindestens einen vollen Speicher.
 - **Über der Obergrenze**: Hält ein Lager mehr als seine Obergrenze (die Auszahlung des Updates 0.4.10 konnte das bewirken), wird nichts weggenommen, aber Abholen fügt von diesem Erz nichts mehr hinzu, bis du etwas davon verbraucht hast.
-- Erz kommt nur durch Abholen aus einem Kollektor hinein und nur in die Schmiede wieder heraus. Es gelangt nie in dein Inventar.
+- Erz kommt durch Abholen aus einem Kollektor hinein oder aus deinem Inventar durch die [Erzbucht](#ore-bay) und nur in die Schmiede und das Forschungszentrum wieder heraus. Es kehrt nie in dein Inventar zurück.
 - **Das eingelagerte Erz bleibt** über den Saison-Wipe erhalten.
 - **Energie**: 10 auf Level 1, mit jedem Level 10 % mehr. Es lässt sich nicht ausschalten.
 
@@ -172,7 +173,7 @@ Der Ausbau des Kerns auf **Level 10** baut eine **Brücke** und einen zweiten Ke
 - **Kern 2 hat kein Level**: Es gibt nichts auszubauen und nichts zu bezahlen. Er gibt deiner Station **sechs weitere Modul-Slots**, und die Karte des Kerns zeigt, wie viele davon frei sind.
 - **Solar zieht um**: Solar verlässt den Nordport des Kerns, den jetzt die Brücke belegt, und wechselt auf den Nordport von Kern 2 am fernen Ende der Station. Sein Level, seine Energie und ein laufender Ausbau bleiben unberührt.
 - **Eine Regel, kein Bau**: Wo jedes Modul sitzt, ergibt sich allein aus dem Level des Kerns. Die Brücke erscheint in dem Moment, in dem der Ausbau des Kerns auf Level 10 fertig ist (ein leiser Ton und eine Meldung sagen es dir), und ein Skylab, dessen Kern schon auf Level 10 oder höher ist, hat sie beim nächsten Blick. Kein Modul geht verloren oder wird gelöscht, nur Solar wechselt seinen Platz.
-- **Slots**: Der **Munitionsdrucker** belegt den Nordost-Slot von Kern 2 und die **Raketenfabrik** den Nordwest-Slot; die anderen vier bleiben frei für künftige Module. Beide lassen sich erst bauen, wenn Kern 2 steht: Davor steht auf der Schaltfläche „Braucht Kern 2“.
+- **Slots**: Der **Munitionsdrucker** belegt den Nordost-Slot von Kern 2, die **Raketenfabrik** den Nordwest-Slot und die **Erzbucht** das Ost-Gerüst; die anderen drei bleiben frei für künftige Module. Alle drei lassen sich erst bauen, wenn Kern 2 steht: Davor steht auf der Schaltfläche „Braucht Kern 2“.
 - **Level**: Ein Modul auf Kern 2 folgt dem Level des Kerns wie jedes andere Modul: Keines geht über den Kern hinaus, Kern 2 bringt also Slots, keine Level.
 
 ### Munitionsdrucker {#ammo-printer}
@@ -199,6 +200,18 @@ Die Raketenfabrik baut Shop-Raketen aus dem Nichts, immer eine Sorte. Sie hat di
 - **Bau**: 20.000 Credits, 500 Thulium und 15 Ship Fragments (aus deinem Inventar, bei gelandetem Schiff), nur auf Kern 2. Ihre Ausbauten kosten ein Viertel von denen des Druckers, von 5.300 Credits und 35 Thulium bis 1.400.000 Credits und 2.800 Thulium, und dauern genauso lange: insgesamt 5 d 13 h.
 - **Nicht handelbar**: Was sie baut, kann nicht in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkauft werden.
 
+### Erzbucht {#ore-bay}
+
+Die Erzbucht verlädt das Erz, das du bei dir trägst, ins Ressourcenlager. Ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) legt Velkonite und Orvium in Kisten, die in deine Fracht kommen, wo kein Modul sie nutzt; die Erzbucht ist der Weg von dort in die Bank, aus der die Schmiede und das Forschungszentrum es nehmen. Sie hat die Level 1 bis 20.
+
+- **Was sie verlädt**: **Velkonite und Orvium**, die beiden Erze, die das Ressourcenlager aufbewahrt. Cataclysite und Quorvium sind Treibstoff, den das Forschungszentrum und die [Schmiede der Montage](/wiki/06-Items/Forge.md) direkt aus deinem Inventar nehmen, und Thulium geht beim Aufsammeln auf dein Konto.
+- **Nur in eine Richtung**: aus deinem Inventar ins Ressourcenlager, nie wieder hinaus. Nur das lose Erz in deinem Inventar wird verladen, nie das im Transport-Cache.
+- **Wie**: dein **Schiff muss gelandet sein**. Eine Übertragung geschieht sofort: Wähle auf dem Blatt der Erzbucht das Erz, gib eine Menge ein oder drücke Max und dann **Verladen**. Das Blatt zeigt, was du trägst und was die Bank gegen ihre Kapazität hält.
+- **Kontingent**: Das Level bestimmt, wie viel Erz sie pro Stunde verlädt, **10 auf Level 1, 320 auf Level 20**, und sie hält bis zu einen Tag davon vor (240 auf Level 1, 7.680 auf Level 20). Eine neue Erzbucht startet mit einem vollen Tag, und ein Ausbau behält, was gespeichert war. Eine Übertragung wird begrenzt durch das Erz, das du trägst, durch den Platz, den das Ressourcenlager noch hat, und durch das Kontingent, und das Blatt sagt, durch welches.
+- **Energie**: 15 auf Level 1, mit jedem Level 10 % mehr (92 auf Level 20). Sie lässt sich ausschalten. Bei einem Energiedefizit, solange sie ausgeschaltet ist und während sie ausgebaut wird, verlädt sie nichts.
+- **Bau**: 5.000 Credits, 250 Thulium und 10 Ship Fragments (aus deinem Inventar, bei gelandetem Schiff), nur auf Kern 2. Ihre Ausbauten kosten, was die des Ressourcenlagers kosten, und dauern ebenso lang (siehe die Tabellen unten).
+- **Kein Weg zu mehr Erz**: Sie verlädt Erz, das du schon hast. Ein Durchlauf des Baggers ist an der Quelle begrenzt, und die Kapazität des Ressourcenlagers begrenzt die Bank.
+
 ## Mechanik {#mechanics}
 
 ### Bauen und Ausbauen {#building-and-upgrading}
@@ -212,7 +225,7 @@ Die Raketenfabrik baut Shop-Raketen aus dem Nichts, immer eine Sorte. Sie hat di
 
 ### Was es kostet {#what-it-costs}
 
-Der Preis des ganzen Weges, der Bau plus jeder Ausbau, bis Level 10 und bis Level 20. Der Kern ist immer da, und seine Schritte kosten Credits, auf dem Schritt auf Level 10 dazu 2.000 Thulium; das Forschungszentrum hat Level 1 bis 10, und seine Zahlen stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md). Der Munitionsdrucker und die Raketenfabrik werden auf Kern 2 gebaut, also erst, wenn der Kern auf Level 10 ist, und ihr Level 1 ist der Bau.
+Der Preis des ganzen Weges, der Bau plus jeder Ausbau, bis Level 10 und bis Level 20. Der Kern ist immer da, und seine Schritte kosten Credits, auf dem Schritt auf Level 10 dazu 2.000 Thulium; das Forschungszentrum hat Level 1 bis 10, und seine Zahlen stehen auf der Seite [Forschung](/wiki/03-Mechanics/Research.md). Der Munitionsdrucker, die Raketenfabrik und die Erzbucht werden auf Kern 2 gebaut, also erst, wenn der Kern auf Level 10 ist, und ihr Level 1 ist der Bau.
 
 | Modul | Credits bis Level 10 | Thulium bis Level 10 | Credits bis Level 20 | Thulium bis Level 20 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -226,6 +239,7 @@ Der Preis des ganzen Weges, der Bau plus jeder Ausbau, bis Level 10 und bis Leve
 | Schmiede | 1.224.000 | 2.050 | 35.044.000 | 37.300 |
 | Munitionsdrucker | 1.411.000 | 5.140 | 22.031.000 | 47.940 |
 | Raketenfabrik | 377.300 | 1.674 | 5.547.300 | 12.494 |
+| Erzbucht | 619.500 | 359 | 18.169.500 | 2.649 |
 
 Die ersten Schritte sind billig und die letzten teuer: Der Schritt der Credit-Farm von Level 1 auf 2 kostet 5.000 Credits und 1 Thulium, ihr Schritt von 19 auf 20 kostet 7.000.000 Credits und 550 Thulium. Bei der Thulium-Farm sind es 7.000 Credits und 45 Thulium, dann 8.500.000 Credits und 16.000 Thulium. Der Ausbau von Solar kostet auf jedem Level dasselbe wie der der Schmiede, und die beiden Kollektoren kosten gleich viel.
 
@@ -267,17 +281,17 @@ Ein Ausbau, der schon läuft, wenn sich die Zeiten ändern, behält die Fertigst
 Dein Skylab hat ein begrenztes Energiebudget.
 
 - **Bilanz**: Halte die Leistung von Solar über dem Verbrauch aller anderen Module. Die Skylab-Seite zeigt die Bilanz und warnt, bevor ein Bau sie unter null drücken würde.
-- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level. Die Tabelle unten zählt auch den Munitionsdrucker ab Level 7 und die Raketenfabrik ab Level 10.
-- **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer. Auch der Munitionsdrucker und die Raketenfabrik lassen sich ein- und ausschalten.
-- **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter). Der Munitionsdrucker und die Raketenfabrik halten an wie die Farmen und Kollektoren.
+- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum und die Erzbucht) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level. Die Tabelle unten zählt auch den Munitionsdrucker ab Level 7 sowie die Raketenfabrik und die Erzbucht ab Level 10.
+- **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer. Auch der Munitionsdrucker, die Raketenfabrik und die Erzbucht lassen sich ein- und ausschalten.
+- **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter). Der Munitionsdrucker, die Raketenfabrik und die Erzbucht halten an wie die Farmen und Kollektoren.
 - **Solar-Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur ein Viertel seiner Energie. Liegen deine anderen Module nicht weit darunter, steht die Station also im Defizit, und die Farmen und Kollektoren stehen still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module)).
 
-Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum ab Level 10):
+Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum und die Erzbucht ab Level 10):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
 
-| Level | Solar erzeugt | Die anderen sieben Module verbrauchen | Übrig | Mit Solar ein Level niedriger |
+| Level | Solar erzeugt | Die anderen Module verbrauchen | Übrig | Mit Solar ein Level niedriger |
 | :--- | ---: | ---: | ---: | :--- |
 | 1 | 255 | 230 | 25 | – |
 | 2 | 310 | 278 | 32 | 255: 23 zu wenig |
@@ -288,20 +302,20 @@ Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module au
 | 7 | 965 | 875 | 90 | 680: 195 zu wenig |
 | 8 | 1.185 | 1.076 | 109 | 965: 111 zu wenig |
 | 9 | 1.460 | 1.327 | 133 | 1.185: 142 zu wenig |
-| 10 | 2.000 | 1.814 | 186 | 1.460: 354 zu wenig |
-| 11 | 2.445 | 2.221 | 224 | 2.000: 221 zu wenig |
-| 12 | 3.005 | 2.731 | 274 | 2.445: 286 zu wenig |
-| 13 | 3.715 | 3.373 | 342 | 3.005: 368 zu wenig |
-| 14 | 4.605 | 4.183 | 422 | 3.715: 468 zu wenig |
-| 15 | 5.730 | 5.205 | 525 | 4.605: 600 zu wenig |
-| 16 | 7.150 | 6.499 | 651 | 5.730: 769 zu wenig |
-| 17 | 8.955 | 8.140 | 815 | 7.150: 990 zu wenig |
-| 18 | 11.250 | 10.225 | 1.025 | 8.955: 1.270 zu wenig |
-| 19 | 14.170 | 12.879 | 1.291 | 11.250: 1.629 zu wenig |
-| 20 | 17.890 | 16.261 | 1.629 | 14.170: 2.091 zu wenig |
+| 10 | 2.035 | 1.849 | 186 | 1.460: 389 zu wenig |
+| 11 | 2.490 | 2.260 | 230 | 2.035: 225 zu wenig |
+| 12 | 3.055 | 2.774 | 281 | 2.490: 284 zu wenig |
+| 13 | 3.765 | 3.421 | 344 | 3.055: 366 zu wenig |
+| 14 | 4.660 | 4.235 | 425 | 3.765: 470 zu wenig |
+| 15 | 5.790 | 5.262 | 528 | 4.660: 602 zu wenig |
+| 16 | 7.220 | 6.562 | 658 | 5.790: 772 zu wenig |
+| 17 | 9.035 | 8.209 | 826 | 7.220: 989 zu wenig |
+| 18 | 11.335 | 10.301 | 1.034 | 9.035: 1.266 zu wenig |
+| 19 | 14.260 | 12.962 | 1.298 | 11.335: 1.627 zu wenig |
+| 20 | 17.990 | 16.353 | 1.637 | 14.260: 2.093 zu wenig |
 <!-- skylab-power:end -->
 
-Die Tabelle zählt jedes Modul auf demselben Level. Die Thulium-Farm verbraucht oben knapp drei Viertel davon (11.695 auf Level 20, gegenüber 16.261 für alle zehn), eine Station mit dieser Farm weit vor dem Rest braucht also mehr Solar, als ihr Kern vermuten lässt.
+Die Tabelle zählt jedes Modul auf demselben Level. Die Thulium-Farm verbraucht oben knapp drei Viertel davon (11.695 auf Level 20, gegenüber 16.353 für alle elf), eine Station mit dieser Farm weit vor dem Rest braucht also mehr Solar, als ihr Kern vermuten lässt.
 
 ### Abholen {#collecting}
 
@@ -312,12 +326,13 @@ Jede Farm und jeder Kollektor hat einen Speicher für etwa 72 Stunden der eigene
 - **Kollektoren**: Das Erz geht ins Ressourcenlager, soweit dort Platz ist.
 - **Schmiede**: Die Platten gehen in dein Inventar, wenn dein Schiff gelandet ist.
 - **Munitionsdrucker und Raketenfabrik**: Die Munition und die Raketen gehen in dein Inventar, wenn dein Schiff gelandet ist. Jeder speichert nur 24 Stunden Produktion (siehe [Munitionsdrucker](#ammo-printer) und [Raketenfabrik](#rocket-factory)).
+- **Erzbucht**: nichts abzuholen. Sie verlädt das Erz deines Inventars ins Ressourcenlager, wenn du **Verladen** drückst und dein Schiff gelandet ist, bis zu ihrem Kontingent (siehe [Erzbucht](#ore-bay)).
 - **Alles abholen** nimmt alles auf einmal, auch von ausgeschalteten Modulen und von Modulen im Ausbau.
 - Ein **(!)**-Abzeichen weist auf einen vollen Speicher hin, den du leeren kannst, und auf Platten, die in der Schmiede warten, auf der Skylab-Seite und in der Skylab-Zeile der Seitenleiste.
 
 ### Der Wipe {#the-wipe}
 
-Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das darin liegende Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md). Der Munitionsdrucker und die Raketenfabrik behalten ihre Level, das, was sie herstellen sollen, und das, was sie halten.
+Das Skylab wird beim Wipe nie zurückgesetzt: Module behalten ihre Level, das Ressourcenlager behält sein Erz, und das Forschungszentrum behält seine Technologien, seinen Tank voll Wissenschaft, das darin liegende Dark Matter und eine laufende Forschung. Die Platten in deinem Inventar sind Gegenstände wie alle anderen, sie folgen also den [Wipe-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md). Der Munitionsdrucker und die Raketenfabrik behalten ihre Level, das, was sie herstellen sollen, und das, was sie halten, und die Erzbucht behält ihr Level und ihr Kontingent. Das Erz in deinem Inventar wird wie jeder Gegenstand zurückgesetzt: Verlade es vorher ins Ressourcenlager.
 
 ## Dein Skylab planen {#planning-your-skylab}
 
@@ -330,11 +345,11 @@ Ein Skylab wächst wochenlang, ein wenig Planung zahlt sich also aus. Die Zahlen
 3. **Die Credit-Farm ist das stetige Nebeneinkommen.** Auf Level 10 erzeugt sie 11.250 Credits pro Stunde, 270.000 pro Tag, für 840.000 Credits und 109 Thulium. Die höheren Level zahlen sich langsam zurück: Der Schritt von Level 9 auf 10 kostet 300.000 Credits für 1.500 mehr pro Stunde, das sind 200 Stunden. Baue sie aus, wenn du Credits übrig hast.
 4. **Halte den Kern beschäftigt.** Nichts geht über den Kern hinaus, und der Kern allein braucht etwa 16,5 Tage bis Level 20. Es gibt keine Warteschlange, also starte seinen nächsten Schritt jedes Mal, wenn du zurückkommst.
 5. **Baue die Versorgungskette als Satz.** Die Kollektoren, das Ressourcenlager und die Schmiede öffnen sich auf Kern-Level 5. Ein Kollektor kann Erz nur in ein Ressourcenlager einlagern, und das Lager fasst auf Level 1 einen Tag der Förderung seines Kollektors und auf Level 20 vier Tage, baue das Lager also zusammen mit den Kollektoren aus, sonst wartet das Erz in deren Speichern.
-6. **Halte 2.000 Thulium für Kern-Level 10 bereit.** Der Schritt des Kerns von Level 9 auf Level 10 verlangt sie, und er baut die Brücke und Kern 2, wo der [Munitionsdrucker](#ammo-printer) und die [Raketenfabrik](#rocket-factory) gebaut werden.
+6. **Halte 2.000 Thulium für Kern-Level 10 bereit.** Der Schritt des Kerns von Level 9 auf Level 10 verlangt sie, und er baut die Brücke und Kern 2, wo der [Munitionsdrucker](#ammo-printer), die [Raketenfabrik](#rocket-factory) und die [Erzbucht](#ore-bay) gebaut werden.
 
 ### Einen Solar-Ausbau planen {#timing-a-solar-upgrade}
 
-Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie hätten erzeugen können, ist verloren. Die Tabelle nennt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durchläuft (jedes Modul auf demselben Level, Kern und Versorgungskette eingeschlossen; eine kleinere Station kommt etwas weiter), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in der Zeit erzeugt hätten. Zum Beispiel dauert Solar von Level 10 auf 11 vier Stunden, und Farmen auf Level 10 hätten darin 45.000 Credits und 1.440 Thulium erzeugt. Die Tabelle zählt auch den Munitionsdrucker ab Level 7 und die Raketenfabrik ab Level 10.
+Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie hätten erzeugen können, ist verloren. Die Tabelle nennt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durchläuft (jedes Modul auf demselben Level, Kern und Versorgungskette eingeschlossen; eine kleinere Station kommt etwas weiter), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in der Zeit erzeugt hätten. Zum Beispiel dauert Solar von Level 10 auf 11 vier Stunden, und Farmen auf Level 10 hätten darin 45.000 Credits und 1.440 Thulium erzeugt. Die Tabelle zählt auch den Munitionsdrucker ab Level 7 sowie die Raketenfabrik und die Erzbucht ab Level 10.
 
 | Solar-Ausbau | Zeit | Station, die weiterläuft, bis Level | Credit-Farm erzeugt in der Zeit | Thulium-Farm erzeugt in der Zeit |
 | :--- | ---: | ---: | ---: | ---: |
@@ -347,14 +362,14 @@ Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine St
 | 7 auf 8 | 1 h 30 min | 1 | 10.125 | 336 |
 | 8 auf 9 | 2 h | 2 | 16.500 | 528 |
 | 9 auf 10 | 3 h | 3 | 29.250 | 912 |
-| 10 auf 11 | 4 h | 4 | 45.000 | 1.440 |
-| 11 auf 12 | 5 h | 5 | 67.500 | 2.200 |
+| 10 auf 11 | 4 h | 5 | 45.000 | 1.440 |
+| 11 auf 12 | 5 h | 6 | 67.500 | 2.200 |
 | 12 auf 13 | 6 h | 6 | 99.000 | 3.120 |
 | 13 auf 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 auf 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 auf 16 | 12 h | 9 | 306.000 | 9.120 |
 | 16 auf 17 | 16 h | 9 | 480.000 | 14.080 |
-| 17 auf 18 | 18 h | 11 | 648.000 | 18.000 |
+| 17 auf 18 | 18 h | 10 | 648.000 | 18.000 |
 | 18 auf 19 | 20 h | 12 | 870.000 | 22.400 |
 | 19 auf 20 | 1 d | 13 | 1.260.000 | 28.800 |
 

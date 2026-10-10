@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: Riesenbagger -->
 # Riesenbagger {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; riesenbagger; bagger; treibstoff; strahlung; überhitzung; bedienfeld -->
 
-Ab Saisontag 11 leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und `DS-3` je ein **Pulsar**, und neben ihm steht ein **Riesenbagger**. Der Bagger baut den Pulsar nach **Thulium und seltenen Erzen** ab und verbrennt dafür [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md). Jeder darf ihn betanken, wählen, was er abbaut, und ihn starten, und alles, was er ausspuckt, liegt in Kisten um ihn herum, die jeder nehmen darf. Ein Durchlauf ist allerdings laut: Die ganze Welt erfährt, wenn er beginnt, **Slumbering Voids** kommen in Wellen auf ihn zu, und ein Bagger, der zu lange gearbeitet wird, überhitzt und verstrahlt die ganze Umgebung. Diese Seite sagt, wie ein Durchlauf abläuft, was er liefert und wie du ihn überlebst. Die Sektoren stehen in [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md); die Voids in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+Ab dem ersten Tag der Saison leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und `DS-3` je ein **Pulsar**, und ab Saisontag 11 steht ein **Riesenbagger** neben ihm. Der Bagger baut den Pulsar nach **Thulium und seltenen Erzen** ab und verbrennt dafür [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md). Jeder darf ihn betanken, wählen, was er abbaut, und ihn starten, und alles, was er ausspuckt, liegt in Kisten um ihn herum, die jeder nehmen darf. Ein Durchlauf ist allerdings laut: Die ganze Welt erfährt, wenn er beginnt, **Slumbering Voids** kommen in Wellen auf ihn zu, und ein Bagger, der zu lange gearbeitet wird, überhitzt und verstrahlt die ganze Umgebung. Diese Seite sagt, wie ein Durchlauf abläuft, was er liefert und wie du ihn überlebst. Die Sektoren stehen in [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md); die Voids in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## Auf einen Blick {#at-a-glance}
 
@@ -12,7 +14,7 @@ Ab Saisontag 11 leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und `DS-3` je ei
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Wo**: Ein Pulsar mit einem Riesenbagger in jedem der Sektoren `DS-1`, `DS-2` und `DS-3`, in jeder Welt
-- **Erscheint**: Ab Saisontag 11 bis zum Wipe
+- **Erscheint**: Der Pulsar ab dem ersten Tag der Saison, der Bagger ab Saisontag 11 bis zum Wipe
 - **Treibstoff**: Dark Matter. Eines brennt 10 min lang; der Tank fasst 3, das sind 30 min Abbau. Jeder darf eines nach dem anderen aus der eigenen Fracht hinzufügen
 - **Bedienfeld**: Das Fenster funktioniert im Umkreis von 600 Einheiten um den Bagger, sein Schriftzug erscheint ab 1.400 Einheiten. Jeder darf betanken, wählen und starten; die Wahl ist gesperrt, solange er läuft
 - **Kisten**: Alle 20 s eine Kiste, 450 bis 900 Einheiten vom Bagger entfernt, ab dem ersten Moment für jeden frei. Sie liegt 5 min, und höchstens 24 liegen gleichzeitig auf einer Karte
@@ -26,7 +28,7 @@ Ab Saisontag 11 leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und `DS-3` je ei
 
 ## So läuft ein Durchlauf {#how-a-run-goes}
 
-1. **Finde einen.** Jeder der drei Gefahrensektoren mit einem Pulsar hat einen Bagger, in jeder Welt. Ein Schriftzug, **Bagger**, schwebt über ihm, wenn du in der Nähe bist, und die Sternensystem-Karte zeigt den Zustand des Baggers in dem Sektor, in dem du fliegst.
+1. **Finde einen.** Ab Saisontag 11 hat jeder der drei Gefahrensektoren mit einem Pulsar einen Bagger, in jeder Welt. Ein Schriftzug, **Bagger**, schwebt über ihm, wenn du in der Nähe bist, und die Sternensystem-Karte markiert jeden Gefahrensektor, der einen hat: Die Farbe der Markierung ist der Zustand seines Baggers, ihr Tooltip nennt die Zeit bis zur nächsten Änderung.
 2. **Öffne das Bedienfeld.** Klicke auf den Schriftzug. Das Fenster **Riesenbagger** funktioniert, solange dein Schiff in Reichweite des Bedienfelds ist (die Liste *Auf einen Blick* nennt sie). Auch ein getarntes Schiff kann es benutzen, und das Benutzen beendet die Tarnung nicht.
 3. **Betanke ihn.** **Dark Matter hinzufügen** legt ein Dark Matter aus deiner Fracht in den Tank. Das kann jeder. Der Tank nimmt nie mehr auf, als der Bagger noch verbrennen kann, bevor er überhitzt, sodass kein Treibstoff verschwendet wird.
 4. **Wähle, was abgebaut wird,** aus der Liste und drücke dann **Abbau starten**. Dafür braucht es mindestens ein Dark Matter im Tank und eine Ressource. Bis zum Start kann jeder die Wahl ändern; sobald er läuft, ist die Ressource gesperrt. Der Start wird jedem Piloten der Welt gemeldet, mit deinem Namen, dem Sektor und der Ressource.
@@ -47,7 +49,7 @@ Geht der Treibstoff vor der Grenze aus, kehrt der Bagger mit behaltener Hitze zu
 
 ## Was er abbaut {#what-it-mines}
 
-Ein voller Tank ist so abgestimmt, dass er ungefähr so viel liefert, wie zwei oder drei Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst eine Ressource pro Durchlauf. Eine Kiste ist für alle gleich, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden.
+Ein voller Tank liefert ungefähr so viel, wie fünf Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst eine Ressource pro Durchlauf. Eine Kiste ist für alle gleich, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@ Ein voller Tank (3 Dark Matter, 30 min Abbau) liefert die Mengen unten, in 90 Ki
 
 | Ressource | Alpha | Beta | Gamma | Eine Minute, in Alpha | Eine Kiste, in Alpha |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4.821 | 7.714 | 9.643 | 160,7 | 53,6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1.157 | 1.851 | 2.314 | 38,6 | 12,9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1.029 | 17,1 | 5,7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10,7 | 3,6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5,3 | 1,8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9.643 | 15.429 | 19.286 | 321,4 | 107,1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2.314 | 3.703 | 4.629 | 77,1 | 25,7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1.029 | 1.646 | 2.057 | 34,3 | 11,4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21,3 | 7,1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10,7 | 3,6 |
 
-- Ein Durchlauf mit Velkonite oder Orvium liefert höchstens 4 Stunden eines Sammlers der Stufe 20 des [Skylab](/wiki/03-Mechanics/Skylab.md) für dieses Erz (320 Velkonite, 160 Orvium), in jeder Welt: Es sind die Erze des Skylab, und ein Durchlauf beschleunigt dessen Tempo nie um mehr als das.
+- Ein Durchlauf mit Velkonite oder Orvium liefert höchstens 8 Stunden eines Sammlers der Stufe 20 des [Skylab](/wiki/03-Mechanics/Skylab.md) für dieses Erz (640 Velkonite, 320 Orvium), in jeder Welt: Es sind die Erze des Skylab, und ein Durchlauf beschleunigt dessen Tempo nie um mehr als das.
 - Eine Kiste enthält etwa die Menge der letzten Spalte, 15 % mehr oder weniger. Eine Thulium-Kiste ist Bargeld: Das Aufnehmen zahlt es aus. Eine Erzkiste enthält den Gegenstand.
 
 <!-- excavator-resources:end -->
 
 Die eigenen Booster des Piloten wirken wie bei jeder Fracht: Der Bonus des Resource Magnet Booster erhöht eine Erzkiste. Es gibt kein Tageslimit für die Kisten: Treibstoff und Zeit begrenzen einen Durchlauf.
 
-**Wofür das Erz gut ist.** Das Erz einer Kiste kommt wie jeder Gegenstand in deine Fracht. Cataclysite und Quorvium werden in der Montage und in der Schmiede gebraucht ([Ressourcen](/wiki/06-Items/Resources.md)). Die Schmiede des Skylab nimmt ihr Erz nur aus dem Ressourcenlager, den die Sammler füllen; das Velkonite und das Orvium einer Kiste sind also Treibstoff für das [Forschungszentrum](/wiki/03-Mechanics/Research.md#fuel), nicht für die Schmiede.
+**Wofür das Erz gut ist.** Das Erz einer Kiste kommt wie jeder Gegenstand in deine Fracht. Cataclysite und Quorvium werden in der Montage und in der Schmiede gebraucht ([Ressourcen](/wiki/06-Items/Resources.md)). Die Schmiede und das Forschungszentrum des Skylab nehmen Velkonite und Orvium nur aus dem Ressourcenlager, das die Sammler füllen; das Erz einer Kiste nützt in deiner Fracht also nichts: Parke dein Schiff, dann verlädt die [Erzbucht](/wiki/03-Mechanics/Skylab.md#ore-bay) deines Skylab (Kern-Level 10) es ins Lager, bis zu ihrem Kontingent pro Stunde, und von dort nehmen es die Schmiede und das [Forschungszentrum](/wiki/03-Mechanics/Research.md#fuel).
 
 ## Die Slumbering Voids {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@ Der Abbau erzeugt Hitze, Sekunde für Sekunde. Die Hitze **summiert sich und kü
 
 <!-- excavator-radiation:end -->
 
-- **Die Warnung.** Zweimal vor der Überhitzung (die Zeiten stehen in der Liste oben) wird die Karte informiert, ein Schiff in den Kreisen sieht eine Warnung, und die Kreise werden auf der Sternensystem-Karte und der Minikarte gezeichnet. Wenn sie strahlen, sind die Kreise rot, und die Strahlungsanzeige zeigt die Dosis.
+- **Die Warnung.** Zweimal vor der Überhitzung (die Zeiten stehen in der Liste oben) wird die Karte informiert, ein Schiff in den Kreisen sieht eine Warnung, und die Kreise werden im Flug auf den Boden und auf die Minikarte gezeichnet. Wenn sie strahlen, sind die Kreise rot, und die Strahlungsanzeige zeigt die Dosis.
 - **Verlassen.** Jedes Serienschiff kann vom Rand des Bedienfelds oder von der entferntesten noch liegenden Kiste aus herausfliegen, außer der langsamen Ironclad: Sie verlässt das Gebiet während der Warnung, oder sie verlässt es nicht. Steh nicht auf einer Kiste, wenn die Hitze ausgeht.
 - **Beute in den Kreisen.** Kisten, die vor der Überhitzung gelegt wurden, bleiben in der Strahlung liegen: Eine Kiste, die dort liegt, wenn sie beginnt, kostet beim Aufnehmen die Dosis.
 - **Ein Neustart des Servers** pausiert einen Durchlauf: Treibstoff und Hitze kommen zurück, wie sie waren, die Ruhezeit läuft nach der Uhr weiter, und die erste Welle nach dem Neustart kommt eine Minute später.

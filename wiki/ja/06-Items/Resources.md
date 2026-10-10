@@ -106,7 +106,7 @@
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個）: **20** (ほかに Cataclysite ×40, Reinforced Hull Plate ×4, 100,000クレジット, 1,500 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 標準から汚染: **5** (ほかに Daraxium ×15, 10,000クレジット、成功率 100%)
 - [鍛冶場](/wiki/06-Items/Forge.md), 汚染から神級: **30** (ほかに Nyxite ×45, 50,000クレジット、成功率 90%)
-- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：弾薬プリンター, 鍛造所, Orvium コレクター, 資源貯蔵庫, Velkonite コレクターにそれぞれ**10**（インベントリから消費され、トランスポートキャッシュからは消費されません）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：弾薬プリンター, 鍛造所, 鉱石ベイ, Orvium コレクター, 資源貯蔵庫, Velkonite コレクターにそれぞれ**10**（インベントリから消費され、トランスポートキャッシュからは消費されません）
 - [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：ロケット工場にそれぞれ**15**（インベントリから消費され、トランスポートキャッシュからは消費されません）
 - [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：研究センターにそれぞれ**25**（インベントリから消費され、トランスポートキャッシュからは消費されません）
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **5**
@@ -336,7 +336,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%で2個 | 2 |
 
 - **小惑星**：Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode の破片に入っています（量は[小惑星採掘](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)にあります）。
-- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは1,157個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは2,314個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **ミッション**：Bulwark の嵐（チャレンジ）×245; Crystalys の粛清（チャレンジ）×292; Dormant の夜明け（チャレンジ）×54; Goombah 軍団（チャレンジ）×160; Goombah の天罰（チャレンジ）×281; 敵地（チャレンジ）×50; 戦線の守護者（チャレンジ）×298。
 - **それ以外**：ショップでは販売していません。
 
@@ -380,7 +380,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%で2～4個 | 3 |
 
 - **小惑星**：Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode の破片に入っています（量は[小惑星採掘](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)にあります）。
-- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは514個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは1,029個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **それ以外**：ショップでは販売していません。
 
 **用途**
@@ -399,7 +399,7 @@
 
 **入手方法**
 
-- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも320個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター4時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入り、そこでは研究センターの燃料になります。鍛造所が鉱石を取るのは資源貯蔵庫からだけです。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも640個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター8時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入ります。船を停泊させると、[鉱石ベイ](/wiki/03-Mechanics/Skylab.md#ore-bay)がそれを資源貯蔵庫へ移し、鍛造所と研究センターはそこから取ります。
 - **Skylab**：Velkonite コレクターだけが採掘し、72時間分を貯められるホッパーに入れます。**回収**すると資源貯蔵庫に移ります。エイリアンはドロップしません。
 
 | モジュールレベル | 1 | 5 | 10 | 15 | 20 |
@@ -425,7 +425,7 @@
 
 **入手方法**
 
-- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも160個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター4時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入り、そこでは研究センターの燃料になります。鍛造所が鉱石を取るのは資源貯蔵庫からだけです。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でどのワールドでも320個を、誰でも拾えるコンテナに生み出します（Skylab の鉱石で、レベル20のコレクター8時間分が上限）。何を採掘するかは制御パネルで選びます。鉱石はあなたの積荷に入ります。船を停泊させると、[鉱石ベイ](/wiki/03-Mechanics/Skylab.md#ore-bay)がそれを資源貯蔵庫へ移し、鍛造所と研究センターはそこから取ります。
 - **Skylab**：Orvium コレクターだけが採掘し、72時間分を貯められるホッパーに入れます。**回収**すると資源貯蔵庫に移ります。エイリアンはドロップしません。
 
 | モジュールレベル | 1 | 5 | 10 | 15 | 20 |
@@ -651,7 +651,7 @@
 - **アセンブリ**、製作ごと：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 100,000。
 - **[鍛冶場](/wiki/06-Items/Forge.md)**、段階ステップごと：標準から汚染 10,000, 汚染から神級 50,000, 神級から破裂 200,000, 破裂から永遠 500,000。
 - **鍛冶場の統合**、できあがる段階ごと：汚染 5,000, 神級 25,000, 破裂 100,000, 永遠 250,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 20,000（レベル 1）、5,600,000（レベル 20）, クレジットファーム 0（レベル 1）、7,000,000（レベル 20）, 鍛造所 5,000（レベル 1）、9,000,000（レベル 20）, Orvium コレクター 20,000（レベル 1）、5,500,000（レベル 20）, 研究センター 25,000（レベルごとに x1.5）, ロケット工場 20,000（レベル 1）、1,400,000（レベル 20）, ソーラー 500（レベル 1）、9,000,000（レベル 20）, 資源貯蔵庫 5,000（レベル 1）、4,500,000（レベル 20）, Thulium ファーム 5,000（レベル 1）、8,500,000（レベル 20）, Velkonite コレクター 20,000（レベル 1）、5,500,000（レベル 20）。 コアは最初からあるため、最初に支払うのはレベル 2 の価格で、1,500です（以降はレベルごとに x1.5）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 20,000（レベル 1）、5,600,000（レベル 20）, クレジットファーム 0（レベル 1）、7,000,000（レベル 20）, 鍛造所 5,000（レベル 1）、9,000,000（レベル 20）, 鉱石ベイ 5,000（レベル 1）、4,500,000（レベル 20）, Orvium コレクター 20,000（レベル 1）、5,500,000（レベル 20）, 研究センター 25,000（レベルごとに x1.5）, ロケット工場 20,000（レベル 1）、1,400,000（レベル 20）, ソーラー 500（レベル 1）、9,000,000（レベル 20）, 資源貯蔵庫 5,000（レベル 1）、4,500,000（レベル 20）, Thulium ファーム 5,000（レベル 1）、8,500,000（レベル 20）, Velkonite コレクター 20,000（レベル 1）、5,500,000（レベル 20）。 コアは最初からあるため、最初に支払うのはレベル 2 の価格で、1,500です（以降はレベルごとに x1.5）。
 - **エネルギーマテリアライザー**：Chrono-Gate のパーツを探す1回のスキャンにつき、5,000クレジット（[詳細](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
 - **[クラン](/wiki/03-Mechanics/Clans.md)**：クランバンクへの寄付（パイロット1人あたり、任意の24時間につき最大1,000,000クレジット）と、クランの毎日の税（所持クレジットの一定割合で、リーダーが設定します）。
 
@@ -666,7 +666,7 @@
 - **初期状態**：新しいパイロットのアカウントには、100 Thulium があります。
 - **エイリアン**：撃破するたびに支払われます（上の表）。
 - **[小惑星](/wiki/03-Mechanics/Asteroid-Mining.md)**：壊れた小惑星の破片が支払います。24時間ごとの上限があります（そのページにあります）。
-- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは4,821個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
+- **[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)**：シーズン11日目から、満タン1回の稼働でアルファでは9,643個（ベータとガンマではさらに多く）を、誰でも拾えるコンテナに生み出します。何を採掘するかは制御パネルで選びます。
 - **[ミッション](/wiki/03-Mechanics/Quests.md)**：Alpha の報酬で、88個のミッション全体の合計は51,010 Thulium です。レベルごとの合計は、レベル 1 の170 Thulium から、レベル 8 の21,760 Thulium までです。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：Thulium ファームが、あなたの不在の間も生産し、72時間分を貯められるホッパーに入れます。
 
@@ -684,7 +684,7 @@
 - **ショップ**：25種類のアイテムが Thulium で売られています（価格は各ページに載っています：[アイテム概要](/wiki/06-Items/Overview.md)と[ロケット](/wiki/06-Items/Rockets.md)）。
 - **アセンブリ**、製作ごと：[Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 1,000, Adaptive Core II 1,000, Adaptive Core III 2,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 1,500。
 - **[鍛冶場](/wiki/06-Items/Forge.md)**、段階ステップごと：破裂から永遠 2,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 500（レベル 1）、11,000（レベル 20）, クレジットファーム 0（レベル 1）、550（レベル 20）, 鍛造所 500（レベル 1）、10,000（レベル 20）, Orvium コレクター 500（レベル 1）、12,500（レベル 20）, 研究センター 500（レベルごとに x1.5）, ロケット工場 500（レベル 1）、2,800（レベル 20）, ソーラー 50（レベル 1）、10,000（レベル 20）, 資源貯蔵庫 250（レベル 1）、550（レベル 20）, Thulium ファーム 500（レベル 1）、16,000（レベル 20）, Velkonite コレクター 500（レベル 1）、12,500（レベル 20）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 500（レベル 1）、11,000（レベル 20）, クレジットファーム 0（レベル 1）、550（レベル 20）, 鍛造所 500（レベル 1）、10,000（レベル 20）, 鉱石ベイ 250（レベル 1）、550（レベル 20）, Orvium コレクター 500（レベル 1）、12,500（レベル 20）, 研究センター 500（レベルごとに x1.5）, ロケット工場 500（レベル 1）、2,800（レベル 20）, ソーラー 50（レベル 1）、10,000（レベル 20）, 資源貯蔵庫 250（レベル 1）、550（レベル 20）, Thulium ファーム 500（レベル 1）、16,000（レベル 20）, Velkonite コレクター 500（レベル 1）、12,500（レベル 20）。
 - **[研究](/wiki/03-Mechanics/Research.md#the-thulium-boost)**：研究センターのブーストは 5,000 Thulium です。
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**：1回のジャンプにつき 500 Thulium。
 - **エネルギーマテリアライザー**：Chrono-Gate のパーツを探す1回のスキャンにつき、5 Thulium（[詳細](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。

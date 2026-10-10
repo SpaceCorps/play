@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c6281bdd893893fa -->
+<!-- wiki-i18n source: bf987d259afc1762 -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -24,7 +24,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 - **Während du weg bist.** Eine Forschung läuft nach der Uhr des Servers, sie geht also weiter, nachdem du dich ausgeloggt hast, bis sie fertig oder der Tank leer ist. Ein Energiedefizit oder ein Ausbau des Zentrums hält sie nicht an.
 - **Energie.** Das Zentrum braucht 25 Energie auf Level 1 und mit jedem Level 15 % mehr, und es lässt sich nicht abschalten.
 - **Der Wipe lässt alles bestehen:** deine Technologien, die Wissenschaft im Tank, das eingesetzte Dark Matter, eine laufende Forschung und den Boost.
-- **Was du besitzt, gehört dir.** Als die Forschung ins Spiel kam, bekam jeder Pilot die Technologie jedes Gegenstands, den er schon besaß, und die Technologien, die dafür nötig waren. Ein Gegenstand, der später zu dir kommt (ein Geschenk, ein Code, eine Belohnung), schaltet seine Technologie nicht frei.
+- **Was du besitzt, gehört dir.** Als die Forschung ins Spiel kam, bekam jeder Pilot die Technologie jedes Gegenstands, den er schon besaß, und die Technologien, die dafür nötig waren. Ein Gegenstand, der später zu dir kommt (ein Geschenk, ein Code, eine Belohnung), schaltet seine Technologie nicht frei, mit einer Ausnahme: Ein Engine II, Engine III, Adaptive Core II oder Adaptive Core III, den dir ein Code, ein Quest, eine Einladung oder ein Administrator gibt, schaltet seine Technologie und die Technologien, die dafür nötig sind, sofort frei.
 - **Unter Kern-Level 10** kannst du nicht forschen und in der Montage noch nichts Neues herstellen. Die Station-Missionen führen dich den Kern hinauf.
 
 <!-- research-centre:end -->
@@ -55,7 +55,7 @@ In der Ansicht **Forschung** deines Skylab verrät dir eine Technologie mehr als
 
 ## Treibstoff {#fuel}
 
-Du fütterst das Zentrum mit Ressourcen, und jede Einheit wird sofort zu Wissenschaft. Je mehr Arbeit eine Einheit kostet, desto mehr Wissenschaft gibt sie: Die Werte folgen dem Aufwand, eine Einheit zu bekommen, nicht ihrer Seltenheit. Die Erze sind die Ausnahme: Eine Einheit gibt mehr Wissenschaft, als die Sekunden wert sind, die ein Kollektor braucht, um sie zu fördern; eine Stunde Erz eines Kollektors in der Mitte seiner Level füttert also etwa zwei Stunden Forschung. Die Erze kommen aus dem Ressourcenlager deines [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage), jede andere Ressource aus deinem Inventar, und dein Schiff muss gelandet sein. Die Velkonite Reinforced Plate, die Orvium Reinforced Plate, die Dark Matter Plate, Dark Matter, Credits und Thulium lassen sich nicht verbrennen; die Reinforced Hull Plate schon.
+Du fütterst das Zentrum mit Ressourcen, und jede Einheit wird sofort zu Wissenschaft. Je mehr Arbeit eine Einheit kostet, desto mehr Wissenschaft gibt sie: Die Werte folgen dem Aufwand, eine Einheit zu bekommen, nicht ihrer Seltenheit. Die Erze sind die Ausnahme: Eine Einheit gibt mehr Wissenschaft, als die Sekunden wert sind, die ein Kollektor braucht, um sie zu fördern; eine Stunde Erz eines Kollektors in der Mitte seiner Level füttert also etwa zwei Stunden Forschung. Die Erze kommen aus dem Ressourcenlager deines [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage), jede andere Ressource aus deinem Inventar, und dein Schiff muss gelandet sein. Die Velkonite Reinforced Plate, die Orvium Reinforced Plate, die Dark Matter Plate, Dark Matter, Credits und Thulium lassen sich nicht verbrennen; die Reinforced Hull Plate schon. Das Velkonite und das Orvium, das die Kisten eines Baggers in dein Inventar legen, kommt durch die [Erzbucht](/wiki/03-Mechanics/Skylab.md#ore-bay) ins Ressourcenlager.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

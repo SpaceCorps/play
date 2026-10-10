@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 5df6b18400b138dc -->
+<!-- wiki-i18n source: 6b964707b3b7ca22 -->
 <!-- wiki-i18n title: 거대 굴착기 -->
 # 거대 굴착기 {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; 굴착기; 거대 굴착기; 펄서; 연료; 제어 패널; 과열; 방사선; 웨이브 -->
 
-시즌 11일차부터 위험 섹터 `DS-1`, `DS-2`, `DS-3`마다 **펄서**가 빛나고 그 옆에 **거대 굴착기**가 섭니다. 굴착기는 펄서에서 **Thulium과 희귀 광석**을 채굴하며, 그러기 위해 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)를 태웁니다. 누구나 연료를 넣고, 무엇을 채굴할지 고르고, 가동할 수 있으며, 굴착기가 내놓는 것은 누구나 주울 수 있는 상자로 주위에 놓입니다. 다만 한 번의 가동은 시끄럽습니다. 시작되면 월드 전체가 알게 되고, **Slumbering Void**가 웨이브로 몰려오며, 너무 오래 돌린 굴착기는 과열되어 일대를 방사선으로 오염시킵니다. 이 페이지는 가동이 어떻게 진행되는지, 무엇이 나오는지, 어떻게 살아남는지 알려 줍니다. 섹터는 [위험 섹터](/wiki/01-General/Danger-Sectors.md)에, Void는 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)에 있습니다.
+시즌 첫날부터 위험 섹터 `DS-1`, `DS-2`, `DS-3`마다 **펄서**가 빛나고, 시즌 11일차부터는 그 옆에 **거대 굴착기**가 섭니다. 굴착기는 펄서에서 **Thulium과 희귀 광석**을 채굴하며, 그러기 위해 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)를 태웁니다. 누구나 연료를 넣고, 무엇을 채굴할지 고르고, 가동할 수 있으며, 굴착기가 내놓는 것은 누구나 주울 수 있는 상자로 주위에 놓입니다. 다만 한 번의 가동은 시끄럽습니다. 시작되면 월드 전체가 알게 되고, **Slumbering Void**가 웨이브로 몰려오며, 너무 오래 돌린 굴착기는 과열되어 일대를 방사선으로 오염시킵니다. 이 페이지는 가동이 어떻게 진행되는지, 무엇이 나오는지, 어떻게 살아남는지 알려 줍니다. 섹터는 [위험 섹터](/wiki/01-General/Danger-Sectors.md)에, Void는 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)에 있습니다.
+
+![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
 ## 한눈에 보기 {#at-a-glance}
 
@@ -12,7 +14,7 @@
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **위치**: 모든 월드에서 `DS-1`, `DS-2`와 `DS-3` 각각에 펄서 하나와 거대 굴착기 하나
-- **등장**: 시즌 11일차부터 초기화까지
+- **등장**: 펄서는 시즌 첫날부터, 굴착기는 시즌 11일차부터 초기화까지
 - **연료**: Dark Matter. 1개는 10분 동안 타고, 탱크에는 3개가 들어가 30분 분량의 채굴이 됩니다. 누구나 자기 화물에서 한 번에 1개씩 넣을 수 있습니다
 - **패널**: 창은 굴착기에서 600 유닛 이내에서 작동하고, 이름표는 1,400 유닛부터 보입니다. 누구나 연료를 넣고, 고르고, 시작할 수 있으며, 가동 중에는 선택이 고정됩니다
 - **상자**: 20초마다 상자 하나가 굴착기에서 450~900 유닛 사이에 떨어지며, 떨어진 순간부터 누구나 주울 수 있습니다. 5분 동안 남아 있고, 맵에는 동시에 최대 24개가 놓입니다
@@ -26,7 +28,7 @@
 
 ## 가동은 이렇게 진행됩니다 {#how-a-run-goes}
 
-1. **하나 찾습니다.** 펄서가 있는 세 위험 섹터마다 굴착기가 하나씩 있으며, 모든 월드에 있습니다. 가까이 가면 위에 **굴착기**라는 이름표가 뜨고, 항성계 지도에는 내가 날고 있는 섹터의 굴착기 상태가 표시됩니다.
+1. **하나 찾습니다.** 시즌 11일차부터 펄서가 있는 세 위험 섹터마다 굴착기가 하나씩 있으며, 모든 월드에 있습니다. 가까이 가면 위에 **굴착기**라는 이름표가 뜨고, 항성계 지도에는 굴착기가 있는 모든 위험 섹터에 표시가 붙습니다. 표시의 색이 굴착기의 상태이고, 툴팁에는 다음 변화까지의 시간이 나옵니다.
 2. **패널을 엽니다.** 이름표를 클릭합니다. **거대 굴착기** 창은 내 함선이 굴착기 제어 패널의 범위 안에 있는 동안 작동합니다(범위는 *한눈에 보기* 목록에 나옵니다). 은폐 중인 함선도 쓸 수 있으며, 써도 은폐는 풀리지 않습니다.
 3. **연료를 넣습니다.** **Dark Matter 추가**는 내 화물의 Dark Matter 1개를 탱크에 넣습니다. 누구나 할 수 있습니다. 탱크는 굴착기가 과열되기 전에 태울 수 있는 양보다 더 받지 않으므로 연료가 낭비되지 않습니다.
 4. **무엇을 채굴할지 고르고** 목록에서 선택한 뒤 **채굴 시작**을 누릅니다. 탱크에 Dark Matter가 1개 이상 있고 자원이 선택되어 있어야 합니다. 시작 전까지는 누구나 선택을 바꿀 수 있고, 가동이 시작되면 자원은 고정됩니다. 시작은 내 이름, 섹터, 자원과 함께 월드의 모든 파일럿에게 알려집니다.
@@ -47,7 +49,7 @@
 
 ## 무엇을 채굴하나 {#what-it-mines}
 
-가득 찬 탱크는 두세 명의 파일럿이 최선의 Thulium 파밍을 30분 하면 버는 양에 가깝게 내놓도록 맞춰져 있습니다. 베타와 감마는 처치당 보상이 더 큰 만큼 더 많이 내놓습니다. 한 번의 가동에는 자원을 하나 고릅니다. 상자는 누구에게나 같고, Thulium 상자는 현금이라서 주울 때 지급되며, 소행성의 Thulium과 같습니다.
+가득 찬 탱크는 파일럿 다섯 명이 최선의 Thulium 파밍을 30분 하면 버는 양에 가깝게 내놓습니다. 베타와 감마는 처치당 보상이 더 큰 만큼 더 많이 내놓습니다. 한 번의 가동에는 자원을 하나 고릅니다. 상자는 누구에게나 같고, Thulium 상자는 현금이라서 주울 때 지급되며, 소행성의 Thulium과 같습니다.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -56,20 +58,20 @@
 
 | 자원 | Alpha | Beta | Gamma | 1분, 알파 | 상자 1개, 알파 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| [Thulium](/wiki/06-Items/Resources.md#thulium) | 4,821 | 7,714 | 9,643 | 160.7 | 53.6 |
-| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 1,157 | 1,851 | 2,314 | 38.6 | 12.9 |
-| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 514 | 823 | 1,029 | 17.1 | 5.7 |
-| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 320 | 320 | 320 | 10.7 | 3.6 |
-| [Orvium](/wiki/06-Items/Resources.md#orvium) | 160 | 160 | 160 | 5.3 | 1.8 |
+| [Thulium](/wiki/06-Items/Resources.md#thulium) | 9,643 | 15,429 | 19,286 | 321.4 | 107.1 |
+| [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 2,314 | 3,703 | 4,629 | 77.1 | 25.7 |
+| [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 1,029 | 1,646 | 2,057 | 34.3 | 11.4 |
+| [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 640 | 640 | 640 | 21.3 | 7.1 |
+| [Orvium](/wiki/06-Items/Resources.md#orvium) | 320 | 320 | 320 | 10.7 | 3.6 |
 
-- Velkonite 또는 Orvium의 가동은 그 광석의 레벨 20 [Skylab](/wiki/03-Mechanics/Skylab.md) 수집기가 4시간 동안 내는 양까지만(Velkonite 320개, Orvium 160개) 모든 월드에서 내놓습니다. 이 광석은 Skylab의 광석이며, 가동이 그 속도를 이보다 더 앞당기지는 않습니다.
+- Velkonite 또는 Orvium의 가동은 그 광석의 레벨 20 [Skylab](/wiki/03-Mechanics/Skylab.md) 수집기가 8시간 동안 내는 양까지만(Velkonite 640개, Orvium 320개) 모든 월드에서 내놓습니다. 이 광석은 Skylab의 광석이며, 가동이 그 속도를 이보다 더 앞당기지는 않습니다.
 - 상자에는 마지막 열의 양이 앞뒤 15% 정도로 들어 있습니다. Thulium 상자는 현금이며, 주울 때 지급됩니다. 광석 상자에는 아이템이 들어 있습니다.
 
 <!-- excavator-resources:end -->
 
 파일럿 자신의 부스터는 다른 화물과 똑같이 적용됩니다. Resource Magnet Booster의 보너스는 광석 상자를 늘려 줍니다. 상자에는 일일 한도가 없습니다. 가동을 제한하는 것은 연료와 시계입니다.
 
-**광석의 쓰임.** 상자의 광석은 다른 아이템처럼 내 화물에 들어옵니다. Cataclysite와 Quorvium은 어셈블리와 대장간에서 쓰입니다([자원](/wiki/06-Items/Resources.md)). Skylab의 단조소는 광석을 수집기가 채우는 자원 창고에서만 가져오므로, 상자의 Velkonite와 Orvium은 단조소가 아니라 [연구 센터](/wiki/03-Mechanics/Research.md#fuel)의 연료입니다.
+**광석의 쓰임.** 상자의 광석은 다른 아이템처럼 내 화물에 들어옵니다. Cataclysite와 Quorvium은 어셈블리와 대장간에서 쓰입니다([자원](/wiki/06-Items/Resources.md)). Skylab의 단조소와 연구 센터는 Velkonite와 Orvium을 수집기가 채우는 자원 창고에서만 가져오므로, 상자의 광석은 화물에 있는 채로는 쓸모가 없습니다. 함선을 착륙시키면 Skylab의 [광석 베이](/wiki/03-Mechanics/Skylab.md#ore-bay)(코어 레벨 10)가 시간당 허용량 안에서 그것을 자원 창고로 옮기고, 단조소와 [연구 센터](/wiki/03-Mechanics/Research.md#fuel)는 거기서 가져갑니다.
 
 ## Slumbering Void {#the-slumbering-voids}
 
@@ -109,7 +111,7 @@
 
 <!-- excavator-radiation:end -->
 
-- **경고.** 과열 전에 두 번(시간은 위 목록에 있습니다) 맵에 알려지고, 원 안의 함선에는 경고가 뜨며, 원이 항성계 지도와 미니맵에 그려집니다. 방사선이 나오는 동안 원은 빨갛게 되고 방사선 게이지가 선량을 보여 줍니다.
+- **경고.** 과열 전에 두 번(시간은 위 목록에 있습니다) 맵에 알려지고, 원 안의 함선에는 경고가 뜨며, 원이 비행 중에는 바닥에, 그리고 미니맵에 그려집니다. 방사선이 나오는 동안 원은 빨갛게 되고 방사선 게이지가 선량을 보여 줍니다.
 - **빠져나가기.** 모든 기본 함선은 패널 가장자리나 남아 있는 가장 먼 상자에서 빠져나갈 수 있습니다. 느린 Ironclad만은 예외로, 경고 중에 떠나거나 아예 떠나지 못합니다. 열이 한계에 이를 때 상자 위에 서 있지 마세요.
 - **원 안의 전리품.** 과열 전에 놓인 상자는 방사선 속에 남습니다. 방사선이 시작될 때 거기 있는 상자는 선량을 감수하고 주워야 합니다.
 - **서버 재시작**은 가동을 일시 정지시킵니다. 연료와 열은 있던 그대로 돌아오고, 휴식은 시계에 따라 계속되며, 재시작 뒤 첫 웨이브는 1분 뒤에 옵니다.

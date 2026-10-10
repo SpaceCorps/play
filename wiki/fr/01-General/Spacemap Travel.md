@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1b81da9c3cf72282 -->
+<!-- wiki-i18n source: 129abc8d9ddf80be -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -30,7 +30,7 @@ L’univers comprend trois grands secteurs de corporation (Mars, Terra, Galactic
 - **x-1 (base d’origine)** : la carte de départ de chaque corporation (M-1, T-1, G-1). La zone la plus sûre.
 - **x-2 -> x-3** : des zones d’expansion aux aliens de plus en plus coriaces.
 - **x-4 (frontière)** : la porte d’entrée du secteur PvP et du `x-3` d’une autre corporation (l’Anneau, plus bas).
-- **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4. Dès le jour 11 de la saison, il contient aussi des pulsars avec des excavatrices géantes et le Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4. Il contient un pulsar dans chacun de DS-1 à DS-3 dès le premier jour de la saison et, dès le jour 11, une excavatrice géante à côté de chacun et le Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md)).
 
 Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
 

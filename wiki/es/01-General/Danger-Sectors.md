@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e2db1138ec491432 -->
+<!-- wiki-i18n source: 13c9ac551cfd01fa -->
 <!-- wiki-i18n title: Sectores de peligro -->
 # Sectores de peligro {#danger-sectors}
 
@@ -8,13 +8,15 @@ Los **sectores de peligro** son los cuatro sectores del centro de la galaxia, `D
 
 Aquí vivió una civilización de la vieja galaxia, avanzada y de color negro violáceo, y por una razón que nadie conoce se derrumbó. Sus restos nunca estuvieron del todo muertos: el [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) fue la primera señal. Desde el **día 11 de la temporada**, el comienzo del evento 2 (**Auge Tecnológico**, consulta la [Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)), despierta más de ella y los sectores de peligro cambian. Todos los pilotos del mundo se enteran el día en que empieza, y lo nuevo se queda hasta el reinicio.
 
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
+
 ## Qué hay de nuevo desde el día 11 {#what-is-new-from-day-11}
 
-- **Púlsares y excavadoras gigantes.** `DS-1`, `DS-2` y `DS-3` reciben cada uno un púlsar con una **excavadora gigante** a su lado. Pon Dark Matter en el depósito de la excavadora, elige un recurso, y ella mina el púlsar: Thulium y minerales raros caen a su alrededor en cajas que puede recoger cualquiera. Es lo más rico por lo que pelear en los sectores de peligro, y lo más peligroso. Consulta [Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Excavadoras gigantes.** `DS-1`, `DS-2` y `DS-3` tienen cada uno un púlsar desde el primer día de la temporada, una luz en el cielo y nada más; desde el día 11 cada uno recibe una **excavadora gigante** a su lado. Pon Dark Matter en el depósito de la excavadora, elige un recurso, y ella mina el púlsar: Thulium y minerales raros caen a su alrededor en cajas que puede recoger cualquiera. Es lo más rico por lo que pelear en los sectores de peligro, y lo más peligroso. Consulta [Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md).
 - **Slumbering Voids.** Mientras una excavadora mina, los **Slumbering Voids** llegan en oleadas desde el borde del mapa y cazan a los pilotos que están cerca. Otros patrullan el pantano. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **El Dormant Swamp.** En una esquina de `DS-4` está la base de la civilización perdida: cañones que disparan a toda nave que ven, Inert Masses que la guardan y, en el centro, el Unwakened. Es un lugar que los pilotos todavía no deben visitar. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Enjambre Dormant más rápido y más rico.** El enjambre aparece ahora en el pantano, vuelve antes después de ser destruido y paga el doble. Consulta [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Antes del día 11** nada de esto existe: los sectores de peligro son como los describe [Viajes por el mapa espacial](/wiki/01-General/Spacemap%20Travel.md). Un mundo que está en el día 11 o después lo tiene todo de golpe.
+- **Antes del día 11** solo brillan los púlsares: por lo demás, los sectores de peligro son como los describe [Viajes por el mapa espacial](/wiki/01-General/Spacemap%20Travel.md). Un mundo que está en el día 11 o después lo tiene todo de golpe.
 
 ## Dónde está cada cosa {#where-everything-is}
 
@@ -36,7 +38,7 @@ Cada mundo tiene su propia copia de todo, y un púlsar y su excavadora están en
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- Todo lo nuevo aparece el día 11 de la temporada y se queda hasta el reinicio.
+- Los púlsares brillan desde el primer día de la temporada; todo lo demás que es nuevo aparece el día 11 de la temporada y se queda hasta el reinicio.
 - Cada mundo tiene sus propios púlsares, excavadoras y pantano: lo que ocurre en uno no ocurre en otro.
 - Ningún asteroide queda a menos de 2.600 unidades de un púlsar, a menos de 2.200 unidades de una excavadora gigante ni a menos de 4.900 unidades del centro del Dormant Swamp.
 
@@ -44,7 +46,7 @@ Cada mundo tiene su propia copia de todo, y un púlsar y su excavadora están en
 
 ## Cómo evitar problemas {#keeping-out-of-trouble}
 
-- **Radiación.** Una excavadora que se ha sobrecalentado o ha sido destruida, y su púlsar, queman toda nave que se quede dentro de sus círculos ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). El juego te avisa antes, y el mapa del Sistema estelar y el minimapa dibujan los círculos.
+- **Radiación.** Una excavadora que se ha sobrecalentado o ha sido destruida, y su púlsar, queman toda nave que se quede dentro de sus círculos ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). El juego te avisa antes, y los círculos se dibujan en el suelo durante el vuelo y en el minimapa.
 - **Los cañones del pantano.** Las torretas del pantano disparan a una nave que puedan ver mucho antes de que ella vea nada que valga el viaje ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Un rumbo que marcas con un clic se desvía alrededor de los cañones y de la radiación, como alrededor del agujero negro, y un aviso te advierte si el lugar donde haces clic queda dentro.
 - **Si te destruyen allí,** la opción de volver **en el sitio** te coloca en el punto más cercano fuera de la radiación y fuera de la zona del pantano, como con el agujero negro ([Primeros pasos](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Un grupo y una salida.** Las excavadoras atraen a los Voids y a los rivales por igual. Ve con un [grupo](/wiki/03-Mechanics/Groups.md), sabe cuál es la puerta más cercana y recuerda que en los sectores de peligro no puedes saltar mientras te atacan ([Saltar bajo fuego](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).

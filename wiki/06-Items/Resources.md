@@ -104,7 +104,7 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (makes 5): **20** (with 40 Cataclysite, 4 Reinforced Hull Plate, 100,000 credits, 1,500 Thulium)
 - [Forge](/wiki/06-Items/Forge.md), Standard to Tainted: **5** (with 15 Daraxium, 10,000 credits; 100% success)
 - [Forge](/wiki/06-Items/Forge.md), Tainted to Godly: **30** (with 45 Nyxite, 50,000 credits; 90% success)
-- [Skylab](/wiki/03-Mechanics/Skylab.md), building a module: **10** each for the Ammo Printer, Forgery, Orvium Collector, Resource Storage, Velkonite Collector (from your inventory, not the Transport Cache)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), building a module: **10** each for the Ammo Printer, Forgery, Ore Bay, Orvium Collector, Resource Storage, Velkonite Collector (from your inventory, not the Transport Cache)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), building a module: **15** each for the Rocket Factory (from your inventory, not the Transport Cache)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), building a module: **25** each for the Research Centre (from your inventory, not the Transport Cache)
 - [Research Centre](/wiki/03-Mechanics/Research.md#fuel), fuel: **5** science for each unit
@@ -334,7 +334,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100% for 2 | 2 |
 
 - **Asteroids**: left in the chunks of Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (see [Asteroid Mining](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) for the amounts).
-- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 1,157 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 2,314 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **Missions**: Bulwark Storm (Challenge) 245; Crystalys Purge (Challenge) 292; Dormant Dawn (Challenge) 54; Goombah Legion (Challenge) 160; Goombah Scourge (Challenge) 281; Rival Ground (Challenge) 50; Warden of the Line (Challenge) 298.
 - **Otherwise**: not sold in the Shop.
 
@@ -378,7 +378,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100% for 2 to 4 | 3 |
 
 - **Asteroids**: left in the chunks of Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (see [Asteroid Mining](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds) for the amounts).
-- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 514 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 1,029 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
@@ -397,7 +397,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 
 **How to get it**
 
-- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 320 of it in every world (the Skylab's ore, capped at 4 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo, where it is Research Centre fuel; the Forgery takes ore from the Resource Storage only.
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 640 of it in every world (the Skylab's ore, capped at 8 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo; park your ship and the [Ore Bay](/wiki/03-Mechanics/Skylab.md#ore-bay) moves it into the Resource Storage, from where the Forgery and the Research Centre take it.
 - **Skylab**: only the Velkonite Collector mines it, into a hopper of 72 hours, then Collect moves it to the Resource Storage. Aliens do not drop it.
 
 | Module level | 1 | 5 | 10 | 15 | 20 |
@@ -423,7 +423,7 @@ Building the collector takes Core level 5, 10 Ship Fragments, 20,000 credits and
 
 **How to get it**
 
-- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 160 of it in every world (the Skylab's ore, capped at 4 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo, where it is Research Centre fuel; the Forgery takes ore from the Resource Storage only.
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 320 of it in every world (the Skylab's ore, capped at 8 hours of a level 20 collector), in boxes anyone may take; the control panel chooses what it mines. The ore goes into your cargo; park your ship and the [Ore Bay](/wiki/03-Mechanics/Skylab.md#ore-bay) moves it into the Resource Storage, from where the Forgery and the Research Centre take it.
 - **Skylab**: only the Orvium Collector mines it, into a hopper of 72 hours, then Collect moves it to the Resource Storage. Aliens do not drop it.
 
 | Module level | 1 | 5 | 10 | 15 | 20 |
@@ -649,7 +649,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 - **Assembly**, per craft: [Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (makes 5) 100,000.
 - **[Forge](/wiki/06-Items/Forge.md)**, per tier step: Standard to Tainted 10,000, Tainted to Godly 50,000, Godly to Rupturing 200,000, Rupturing to Eternal 500,000.
 - **Forge merges**, by the tier made: Tainted 5,000, Godly 25,000, Rupturing 100,000, Eternal 250,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** builds and upgrades, the price of each module (level 1 is the build, every level above has its own price): Ammo Printer 20,000 at level 1, 5,600,000 at level 20, Credit Farm 0 at level 1, 7,000,000 at level 20, Forgery 5,000 at level 1, 9,000,000 at level 20, Orvium Collector 20,000 at level 1, 5,500,000 at level 20, Research Centre 25,000 (x1.5 a level), Rocket Factory 20,000 at level 1, 1,400,000 at level 20, Solar 500 at level 1, 9,000,000 at level 20, Resource Storage 5,000 at level 1, 4,500,000 at level 20, Thulium Farm 5,000 at level 1, 8,500,000 at level 20, Velkonite Collector 20,000 at level 1, 5,500,000 at level 20. The Core is always there, so the first price you pay for it is that of level 2: 1,500 (x1.5 a level after that).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** builds and upgrades, the price of each module (level 1 is the build, every level above has its own price): Ammo Printer 20,000 at level 1, 5,600,000 at level 20, Credit Farm 0 at level 1, 7,000,000 at level 20, Forgery 5,000 at level 1, 9,000,000 at level 20, Ore Bay 5,000 at level 1, 4,500,000 at level 20, Orvium Collector 20,000 at level 1, 5,500,000 at level 20, Research Centre 25,000 (x1.5 a level), Rocket Factory 20,000 at level 1, 1,400,000 at level 20, Solar 500 at level 1, 9,000,000 at level 20, Resource Storage 5,000 at level 1, 4,500,000 at level 20, Thulium Farm 5,000 at level 1, 8,500,000 at level 20, Velkonite Collector 20,000 at level 1, 5,500,000 at level 20. The Core is always there, so the first price you pay for it is that of level 2: 1,500 (x1.5 a level after that).
 - **Energy Materializer**: 5,000 Credits a scan, looking for parts of the Chrono-Gate ([details](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[Clan](/wiki/03-Mechanics/Clans.md)**: donations to the clan bank (at most 1,000,000 Credits per pilot in any 24 hours), and the clan's daily tax, a share of your Credits its leaders set.
 
@@ -664,7 +664,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 - **At the start**: a new pilot's account holds 100 Thulium.
 - **Aliens**: every kill pays it (the table above).
 - **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it, up to a limit for every 24 hours (on that page).
-- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 4,821 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
+- **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 9,643 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **[Missions](/wiki/03-Mechanics/Quests.md)**: 51,010 Thulium over the 88 missions at Alpha pay, from 170 at level 1 to 21,760 at level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: the Thulium Farm makes it while you are away, into a hopper of 72 hours.
 
@@ -682,7 +682,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 - **The Shop**: 25 items are priced in Thulium (their pages give the price: [Items](/wiki/06-Items/Overview.md) and [Rockets](/wiki/06-Items/Rockets.md)).
 - **Assembly**, per craft: [Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 1,000, Adaptive Core II 1,000, Adaptive Core III 2,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (makes 5) 1,500.
 - **[Forge](/wiki/06-Items/Forge.md)**, per tier step: Rupturing to Eternal 2,000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** builds and upgrades, the price of each module (level 1 is the build, every level above has its own price): Ammo Printer 500 at level 1, 11,000 at level 20, Credit Farm 0 at level 1, 550 at level 20, Forgery 500 at level 1, 10,000 at level 20, Orvium Collector 500 at level 1, 12,500 at level 20, Research Centre 500 (x1.5 a level), Rocket Factory 500 at level 1, 2,800 at level 20, Solar 50 at level 1, 10,000 at level 20, Resource Storage 250 at level 1, 550 at level 20, Thulium Farm 500 at level 1, 16,000 at level 20, Velkonite Collector 500 at level 1, 12,500 at level 20.
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** builds and upgrades, the price of each module (level 1 is the build, every level above has its own price): Ammo Printer 500 at level 1, 11,000 at level 20, Credit Farm 0 at level 1, 550 at level 20, Forgery 500 at level 1, 10,000 at level 20, Ore Bay 250 at level 1, 550 at level 20, Orvium Collector 500 at level 1, 12,500 at level 20, Research Centre 500 (x1.5 a level), Rocket Factory 500 at level 1, 2,800 at level 20, Solar 50 at level 1, 10,000 at level 20, Resource Storage 250 at level 1, 550 at level 20, Thulium Farm 500 at level 1, 16,000 at level 20, Velkonite Collector 500 at level 1, 12,500 at level 20.
 - **[Research](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: a boost of the Research Centre costs 5,000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium a jump.
 - **Energy Materializer**: 5 Thulium a scan, looking for parts of the Chrono-Gate ([details](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).

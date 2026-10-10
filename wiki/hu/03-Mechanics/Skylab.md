@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: f2f334d2bb9d511a -->
+<!-- wiki-i18n source: 42731fd43a13e953 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
 A Skylab a te személyes orbitális létesítményed. Modulokat épít és fejleszt, amelyek kreditet és Thuliumot termelnek, ércet bányásznak, olyan lemezeket kovácsolnak, amelyekből a Gyártás a legjobb lézereket készíti, és a Mag 10. szintjétől kikutatják azokat a technológiákat, amelyekre a Gyártásnak szüksége van. Akkor is dolgozik neked, amikor offline vagy.
 
-A Mag 10. szintjén a Skylab tovább is nő: egy **híd** összeköti a Magot egy második Maggal, amelyen hat további modulfoglalat van, és két újabb modul csatlakozik hozzá, a **Lőszernyomtató** és a **Rakétagyár**, amelyek a semmiből állítanak elő lőszert és rakétát (lásd: [A híd és a 2. Mag](#the-bridge-and-core-2)).
+A Mag 10. szintjén a Skylab tovább is nő: egy **híd** összeköti a Magot egy második Maggal, amelyen hat további modulfoglalat van, és három újabb modul csatlakozik hozzá: a **Lőszernyomtató** és a **Rakétagyár**, amelyek a semmiből állítanak elő lőszert és rakétát, valamint az **Ércrakodó**, amely a nálad lévő ércet az Erőforrás-raktárba rakja át (lásd: [A híd és a 2. Mag](#the-bridge-and-core-2) és [Ércrakodó](#ore-bay)).
 
 > [!NOTE]
 > **Mi változott a 0.4.10-ben.** A Skylab minden moduljának most saját táblázata van a termelésről, az árakról és az időkről, szintről szintre. A szintjeidet megtartottad: semmit nem vontunk le, és a különbözetet sem térítettük vissza. Amit a farmjaid és a gyűjtőid a frissítés érkezésekor a tárolóikban tartottak, azt **egyszer, a régi áron** fizettük ki: a kredit és a Thulium a számládra, az érc az Erőforrás-raktáradba került, a tárolók pedig üresen indultak újra.
@@ -24,14 +24,14 @@ A Mag 10. szintjén a Skylab tovább is nő: egy **híd** összeköti a Magot eg
 - A farmok és a gyűjtők egy **tárolót** töltenek (72 órányit), amíg távol vagy. A **Begyűjtés** a számládra viszi (kredit, Thulium) vagy az Erőforrás-raktáradba (érc).
 - A **Thuliumfarm** a fő Thulium-forrásod: az 1. szinten óránként 40-et, a 20. szinten 1 280-at termel. A Kreditfarm az 1. szinten óránként 750 kreditet, a 20. szinten 75 000-et termel.
 - A **Mag** adja az ütemet: egyetlen modul sem léphet fölé, és a saját fejlesztése nagyjából 16 és fél napig tart.
-- A **Mag 10. szintjén** egy **híd** felépíti a **2. Magot** hat további modulfoglalattal, és a **Lőszernyomtató** meg a **Rakétagyár** csatlakozik hozzá. A 10. szintre lépés 2 000 Thuliummal többe kerül.
+- A **Mag 10. szintjén** egy **híd** felépíti a **2. Magot** hat további modulfoglalattal, és a **Lőszernyomtató**, a **Rakétagyár** meg az **Ércrakodó** csatlakozik hozzá. A 10. szintre lépés 2 000 Thuliummal többe kerül.
 - **A Napelem fejlesztés közben csak az energiája 25%-át termeli**, ezért a farmjaid és a gyűjtőid leállnak, amíg el nem készül. [Tervezd meg](#timing-a-solar-upgrade).
 
 ## Áttekintés {#overview}
 
 A Skylab a saját órája szerint jár, a hajódtól függetlenül: a modulok termelnek és kovácsolnak, amíg távol vagy. Neked építened, fejlesztened, az energiát egyensúlyban tartanod és begyűjtened kell. Az oldal ugyanannak az állomásnak négy nézetét mutatja: **Állomás** (a 3D-s állomás, minden modul fölött egy címkével; kattints az egyikre az adatlapjának megnyitásához, vagy nyomd meg az **1**–**9** billentyűt), **Lista** (egy kártya minden modulhoz), **Táblázat** (minden modul értékei egy táblázatban) és **Kutatás** (a Kutatóközpont saját képernyője, lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ha az egeret az **Építés** vagy a **Fejlesztés** gomb fölé viszed, megmutatja, mit változtat a következő szint, mennyibe kerül, és mennyi ideig tart.
 
-Tizenegy modul alkotja az állomást:
+Tizenkét modul alkotja az állomást:
 
 | Modul | Mit termel vagy mit tesz | Építhető |
 | :--- | :--- | :--- |
@@ -46,6 +46,7 @@ Tizenegy modul alkotja az állomást:
 | **Kutatóközpont** | A nyersanyagokat tudománnyá alakítja, és [technológiákat](/wiki/03-Mechanics/Research.md) kutat | A Mag 10. szintjétől |
 | **Lőszernyomtató** | A semmiből nyomtat x2, x3 vagy x4 lőszert | A Mag 10. szintjétől, a 2. Magon |
 | **Rakétagyár** | A semmiből gyártja a Bolt rakétáit | A Mag 10. szintjétől, a 2. Magon |
+| **Ércrakodó** | A nálad lévő Velkonite-ot és Orviumot az Erőforrás-raktárba rakja át | A Mag 10. szintjétől, a 2. Magon |
 
 A **híd** és a **2. Mag** nem modulok: akkor jelennek meg, amikor a Mag eléri a 10. szintet, és a 2. Magnak nincs saját szintje (lásd: [A híd és a 2. Mag](#the-bridge-and-core-2)).
 
@@ -107,7 +108,7 @@ A Skylabod szíve. A Mag szintje dönti el az összes többi modul legmagasabb s
 Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, amelyet az összes többi modul használ.
 
 - **Fontosság**: ha az energiafogyasztásod nagyobb a termelt energiánál, a farmjaid és a gyűjtőid leállnak.
-- **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 965-öt a 7. szinten, 17 890-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
+- **Termelt energia**: egy N. szintű Napelem elég energiát termel **minden más modulnak az N. szinten**, és még nagyjából egy tizedet: 255-öt az 1. szinten, 965-öt a 7. szinten, 17 990-et a 20. szinten. A 7. szintű Napelem egy egész, 7. szintű állomást ellát (az összes szinthez lásd: Energiagazdálkodás).
 - **Ár**: a Napelem megépítése **500 kreditbe és 50 Thuliumba** kerül. A fejlesztései ugyanannyiba kerülnek és ugyanannyi ideig tartanak, mint a Kovácsműhelyé: a 2. szintért 8 000 kredit és 25 Thulium (5 perc), a 20. szintért 9 000 000 kredit és 10 000 Thulium (24 óra).
 - **Fejlesztés**: amíg a Napelemet fejlesztik, csak a jelenlegi szintje energiájának **25%-át** termeli, a fejlesztés végétől pedig az új szintét. Az az állomás, amely ennél többet használ, leáll: minden farm és gyűjtő abbahagyja a termelést, és a Kovácsműhely nem indít új adagot, amíg a fejlesztés el nem készül. Szinte minden állomás ilyen: csak akkor megy tovább a fejlesztés alatt, ha az összes többi modul legalább öt szinttel a Napelem alatt van (a Napelem 10. szintjétől hat szinttel). A Napelem fejlesztését úgy tervezd, mint a farmjaid áramkimaradását (lásd: Építés és fejlesztés).
 - **Hely**: a Mag 10. szintjétől a Napelem a 2. Magon áll, az állomás túlsó végén (lásd: [A híd és a 2. Mag](#the-bridge-and-core-2)).
@@ -120,7 +121,7 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 
 ## Az ellátási lánc {#the-supply-chain}
 
-Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja. (Az [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is hagy némi Velkonite-ot és Orviumot ládákban, de ez az érc a rakományodba kerül, ahol a Kutatóközpont üzemanyaga, és a kovácsműhely nem veszi fel.)
+Négy modul alakítja a billentyűzettől távol töltött időt a legjobb lézereid lemezeivé. Az érc **kizárólag** a gyűjtőktől származik (az összes anyag és pénznem a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon található): az idegenek nem dobják el, és a Bolt sem árulja. (Az [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is hagy némi Velkonite-ot és Orviumot ládákban, de ez az érc a rakományodba kerül, és csak az [Ércrakodó](#ore-bay) rakja át az Erőforrás-raktárba, ahonnan a kovácsműhely és a Kutatóközpont veszi.)
 
 1. Egy **gyűjtő** ércet bányászik, óránként egy meghatározott mennyiséget, a saját tárolójába (72 órányi termelés fér bele).
 2. A **begyűjtés** áthelyezi az ércet a tárolóból az **Erőforrás-raktárba**, a bankba, ahol minden érc külön van tárolva.
@@ -139,7 +140,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 - **Raktár**: külön tartja a Velkonite- és az Orvium-ércet, és mindkettőből más mennyiséget tárol: **ércenként 240-et** az 1. szinten, a 20. szinten legfeljebb 7 680 Velkonite-ot és 3 840 Orviumot (5. szint: 720 és 560; 10. szint: 1 920 és 1 440).
 - **Korlát**: az 1. szinten a gyűjtőjének egynapi termelése, a 20. szinten legfeljebb négynapi. Egy gyűjtő tárolója három napot bír, ezért a 13. szinttől a raktár legalább egy teli tárolót elbír.
 - **A korlát fölött**: ha egy raktárban több van, mint a korlátja (a 0.4.10-es frissítés kifizetése ilyen helyzetet hagyhatott), semmit nem vesznek el, de a Begyűjtés nem tesz hozzá több ilyen ércet, amíg el nem használtál belőle valamennyit.
-- Érc csak a gyűjtőből való begyűjtéssel kerül be, és csak a Kovácsműhelybe kerülhet ki. Sosem kerül a készletedbe.
+- Érc a gyűjtőből való begyűjtéssel vagy a készletedből az [Ércrakodón](#ore-bay) át kerül be, és csak a Kovácsműhelybe és a Kutatóközpontba kerülhet ki. Sosem kerül vissza a készletedbe.
 - **A raktárban lévő érc megmarad** a szezon wipe-ja után is.
 - **Energia**: 10 az 1. szinten, szintenként 10%-kal növekedve. Nem kapcsolható ki.
 
@@ -172,7 +173,7 @@ A Mag **10. szintre** fejlesztése felépít egy **hidat** és egy második Mago
 - **A 2. Magnak nincs szintje**: nincs mit fejleszteni vagy fizetni. **Hat további modulfoglalatot** ad az állomásodnak, és a Mag kártyája megmutatja, hány szabad közülük.
 - **A Napelem átköltözik**: a Napelem elhagyja a Mag északi csatlakozóját, amelyet most a híd foglal el, és a 2. Mag északi csatlakozójára kerül, az állomás túlsó végére. A szintje, az energiája és a folyamatban lévő fejlesztés érintetlen marad.
 - **Szabály, nem építkezés**: hogy melyik modul hol áll, kizárólag a Mag szintjétől függ. A híd abban a pillanatban megjelenik, amikor a Mag 10. szintre fejlesztése elkészül (egy halk hang és egy üzenet szól róla), a Skylab pedig, amelynek Magja már a 10. szinten vagy afölött van, a következő megnézéskor megkapja. Egyetlen modul sem vész el vagy törlődik, csak a Napelem helye változik.
-- **Foglalatok**: a **Lőszernyomtató** a 2. Mag északkeleti foglalatát foglalja el, a **Rakétagyár** az északnyugatit; a másik négy szabad marad a későbbi moduloknak. Mindkettő csak akkor építhető, ha a 2. Mag már áll: addig az Építés gomb azt írja: „2. Mag kell”.
+- **Foglalatok**: a **Lőszernyomtató** a 2. Mag északkeleti foglalatát foglalja el, a **Rakétagyár** az északnyugatit, az **Ércrakodó** pedig a keleti tartószerkezetet; a másik három szabad marad a későbbi moduloknak. Mindhárom csak akkor építhető, ha a 2. Mag már áll: addig az Építés gomb azt írja: „2. Mag kell”.
 - **Szintek**: a 2. Magon álló modul ugyanúgy követi a Mag szintjét, mint bármelyik másik modul: egyik sem léphet a Mag fölé, így a 2. Mag foglalatokat ad, nem szinteket.
 
 ### Lőszernyomtató {#ammo-printer}
@@ -199,6 +200,18 @@ A Rakétagyár a semmiből gyártja a Bolt rakétáit, egyszerre egy fajtát. Az
 - **Építés**: 20 000 kredit, 500 Thulium és 15 Ship Fragments (a készletedből, leszállt hajóval), csak a 2. Magon. A fejlesztései a nyomtatóénak negyedébe kerülnek, 5 300 kredittől és 35 Thuliumtól 1 400 000 kreditig és 2 800 Thuliumig, és ugyanannyi ideig tartanak: összesen 5 d 13 h.
 - **Nem eladható**: amit gyárt, azt nem lehet eladni az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
 
+### Ércrakodó {#ore-bay}
+
+Az Ércrakodó a nálad lévő ércet az Erőforrás-raktárba rakja át. Az [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) Velkonite-ot és Orviumot hagy ládákban, amelyek a rakományodba kerülnek, ahol egyetlen modul sem használja őket; az Ércrakodó az út onnan a raktárba, ahonnan a Kovácsműhely és a Kutatóközpont veszi. Az 1–20. szintje van.
+
+- **Mit rak át**: a **Velkonite-ot és az Orviumot**, a két ércet, amelyet az Erőforrás-raktár tárol. A Cataclysite és a Quorvium üzemanyag, amelyet a Kutatóközpont és a Gyártás [Kovácsműhelye](/wiki/06-Items/Forge.md) közvetlenül a készletedből vesz, a Thulium pedig felvételkor a számládra kerül.
+- **Egy irányba**: a készletedből az Erőforrás-raktárba, soha vissza. Csak a készletedben lévő laza érc kerül át, soha nem az, ami a Tranzittárolóban van.
+- **Hogyan**: a **hajódnak le kell szállnia**. Az átrakás azonnali: az Ércrakodó lapján válaszd ki az ércet, írj be egy mennyiséget vagy nyomd meg a Max gombot, majd az **Átrakás** gombot. A lap mutatja, mennyit hordasz, és mennyi van a raktárban a kapacitásához képest.
+- **Keret**: a szint határozza meg, óránként mennyi ércet rak át, **1. szinten 10-et, a 20. szinten 320-at**, és ebből legfeljebb egy napnyit tart készenlétben (1. szinten 240-et, a 20. szinten 7 680-at). Az új Ércrakodó teli nappal indul, a fejlesztés megtartja, ami el volt tárolva. Az átrakást korlátozza a nálad lévő érc, a hely, amely az Erőforrás-raktárban még maradt, és a keret, és a lap megmondja, melyik.
+- **Energia**: 15 az 1. szinten, szintenként 10%-kal növekedve (a 20. szinten 92). Kikapcsolható. Energiahiányban, amíg ki van kapcsolva, és amíg fejlesztik, nem rak át semmit.
+- **Építés**: 5 000 kredit, 250 Thulium és 10 Ship Fragments (a készletedből, leszállt hajóval), csak a 2. Magon. A fejlesztései annyiba kerülnek, mint az Erőforrás-raktáréi, és ugyanannyi ideig tartanak (lásd az alábbi táblázatokat).
+- **Nem út több ércért**: olyan ércet rak át, amid már van. Az óriás kotrógép egy menete a forrásnál korlátozott, a bankot pedig az Erőforrás-raktár kapacitása korlátozza.
+
 ## Mechanika {#mechanics}
 
 ### Építés és fejlesztés {#building-and-upgrading}
@@ -212,7 +225,7 @@ A Rakétagyár a semmiből gyártja a Bolt rakétáit, egyszerre egy fajtát. Az
 
 ### Mibe kerül {#what-it-costs}
 
-Az egész út ára, az építés plusz minden fejlesztés, a 10. szintig és a 20. szintig. A Mag mindig ott van, és a lépései kreditbe kerülnek, a 10. szintre vezető lépés még 2 000 Thuliumba; a Kutatóközpontnak 1–10. szintje van, és a számai a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon vannak. A Lőszernyomtató és a Rakétagyár a 2. Magon épül, tehát csak akkor, ha a Mag a 10. szinten van, és az 1. szintjük maga az építés.
+Az egész út ára, az építés plusz minden fejlesztés, a 10. szintig és a 20. szintig. A Mag mindig ott van, és a lépései kreditbe kerülnek, a 10. szintre vezető lépés még 2 000 Thuliumba; a Kutatóközpontnak 1–10. szintje van, és a számai a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon vannak. A Lőszernyomtató, a Rakétagyár és az Ércrakodó a 2. Magon épül, tehát csak akkor, ha a Mag a 10. szinten van, és az 1. szintjük maga az építés.
 
 | Modul | Kredit a 10. szintig | Thulium a 10. szintig | Kredit a 20. szintig | Thulium a 20. szintig |
 | :--- | ---: | ---: | ---: | ---: |
@@ -226,6 +239,7 @@ Az egész út ára, az építés plusz minden fejlesztés, a 10. szintig és a 2
 | Kovácsműhely | 1 224 000 | 2 050 | 35 044 000 | 37 300 |
 | Lőszernyomtató | 1 411 000 | 5 140 | 22 031 000 | 47 940 |
 | Rakétagyár | 377 300 | 1 674 | 5 547 300 | 12 494 |
+| Ércrakodó | 619 500 | 359 | 18 169 500 | 2 649 |
 
 Az első lépések olcsók, az utolsók drágák: a Kreditfarm lépése az 1. szintről a 2.-ra 5 000 kreditbe és 1 Thuliumba kerül, a 19.-ről a 20.-ra 7 000 000 kreditbe és 550 Thuliumba. A Thuliumfarmé 7 000 kredit és 45 Thulium, majd 8 500 000 kredit és 16 000 Thulium. A Napelem fejlesztései minden szinten ugyanannyiba kerülnek, mint a Kovácsműheléi, és a két gyűjtő ugyanannyiba kerül.
 
@@ -267,17 +281,17 @@ Egy fejlesztés, amely már fut, amikor az idők megváltoznak, megtartja a neki
 A Skylabodnak korlátozott az energiakerete.
 
 - **Egyenleg**: tartsd a Napelem termelését az összes többi modul által használt energia fölött. A Skylab oldal mutatja az egyenleget, és figyelmeztet, mielőtt egy építés nulla alá nyomná.
-- **A Napelem lépést tart**: egy N. szintű Napelem **az összes többi modul energiáját fedezi az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont), és még nagyjából egy tizedet, így az az állomás, amelynek minden modulja a 7. szinten van, 7. szintű Napelemet igényel, és az fedezi is. Egy szinttel alacsonyabb Napelem nem elég egy teljes állomásnak (az utolsó oszlop), ezért a Napelemnek továbbra is követnie kell a többit felfelé. A Mag keveset fogyaszt, ezért előrefuthat: az 5. vagy magasabb szintű Napelem egy teljes, a saját szintjén álló állomást fedez, a Mag bármelyik szintjével. Az alábbi táblázat a Lőszernyomtatót is a 7. szinttől, a Rakétagyárat pedig a 10. szinttől számolja.
-- **Aktív állapot**: a farmokat, a gyűjtőket és a Kovácsműhelyt be- vagy kikapcsolhatod az energia kezeléséhez. A Mag, a Napelem, az Erőforrás-raktár és a Kutatóközpont mindig működik. A Lőszernyomtató és a Rakétagyár is be- és kikapcsolható.
-- **Energiahiány**: ha az energiafogyasztás nagyobb a termelt energiánál, minden farm és gyűjtő leáll a termeléssel, amíg az egyenleg helyre nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem indít új adagot, a Kutatóközpont pedig új kutatást (a már futó kutatás tovább megy). A Lőszernyomtató és a Rakétagyár ugyanúgy leáll, mint a farmok és a gyűjtők.
+- **A Napelem lépést tart**: egy N. szintű Napelem **az összes többi modul energiáját fedezi az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont és az Ércrakodó), és még nagyjából egy tizedet, így az az állomás, amelynek minden modulja a 7. szinten van, 7. szintű Napelemet igényel, és az fedezi is. Egy szinttel alacsonyabb Napelem nem elég egy teljes állomásnak (az utolsó oszlop), ezért a Napelemnek továbbra is követnie kell a többit felfelé. A Mag keveset fogyaszt, ezért előrefuthat: az 5. vagy magasabb szintű Napelem egy teljes, a saját szintjén álló állomást fedez, a Mag bármelyik szintjével. Az alábbi táblázat a Lőszernyomtatót is a 7. szinttől, a Rakétagyárat és az Ércrakodót pedig a 10. szinttől számolja.
+- **Aktív állapot**: a farmokat, a gyűjtőket és a Kovácsműhelyt be- vagy kikapcsolhatod az energia kezeléséhez. A Mag, a Napelem, az Erőforrás-raktár és a Kutatóközpont mindig működik. A Lőszernyomtató, a Rakétagyár és az Ércrakodó is be- és kikapcsolható.
+- **Energiahiány**: ha az energiafogyasztás nagyobb a termelt energiánál, minden farm és gyűjtő leáll a termeléssel, amíg az egyenleg helyre nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem indít új adagot, a Kutatóközpont pedig új kutatást (a már futó kutatás tovább megy). A Lőszernyomtató, a Rakétagyár és az Ércrakodó ugyanúgy leáll, mint a farmok és a gyűjtők.
 - **A Napelem fejlesztése**: amíg a Napelemet fejlesztik, az energiájának csak a negyedét termeli, ezért ha a többi modulod nincs jóval alatta, az állomás hiányba kerül, és a farmok meg a gyűjtők leállnak, amíg a fejlesztés el nem készül (lásd: [Napelem modul](#solar-module)).
 
-A Napelem energiája minden szinten, szemben azzal, amit a többi modul használ ugyanazon a szinten (minden modul azon a szinten, a Magot is beleértve, a Kutatóközpontot pedig a 10. szinttől):
+A Napelem energiája minden szinten, szemben azzal, amit a többi modul használ ugyanazon a szinten (minden modul azon a szinten, a Magot is beleértve, a Kutatóközpontot és az Ércrakodót pedig a 10. szinttől):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
 
-| Szint | A Napelem termel | A másik hét modul használ | Marad | Egy szinttel alacsonyabb Napelemmel |
+| Szint | A Napelem termel | A többi modul használ | Marad | Egy szinttel alacsonyabb Napelemmel |
 | :--- | ---: | ---: | ---: | :--- |
 | 1 | 255 | 230 | 25 | – |
 | 2 | 310 | 278 | 32 | 255: 23 hiányzik |
@@ -288,20 +302,20 @@ A Napelem energiája minden szinten, szemben azzal, amit a többi modul használ
 | 7 | 965 | 875 | 90 | 680: 195 hiányzik |
 | 8 | 1 185 | 1 076 | 109 | 965: 111 hiányzik |
 | 9 | 1 460 | 1 327 | 133 | 1 185: 142 hiányzik |
-| 10 | 2 000 | 1 814 | 186 | 1 460: 354 hiányzik |
-| 11 | 2 445 | 2 221 | 224 | 2 000: 221 hiányzik |
-| 12 | 3 005 | 2 731 | 274 | 2 445: 286 hiányzik |
-| 13 | 3 715 | 3 373 | 342 | 3 005: 368 hiányzik |
-| 14 | 4 605 | 4 183 | 422 | 3 715: 468 hiányzik |
-| 15 | 5 730 | 5 205 | 525 | 4 605: 600 hiányzik |
-| 16 | 7 150 | 6 499 | 651 | 5 730: 769 hiányzik |
-| 17 | 8 955 | 8 140 | 815 | 7 150: 990 hiányzik |
-| 18 | 11 250 | 10 225 | 1 025 | 8 955: 1 270 hiányzik |
-| 19 | 14 170 | 12 879 | 1 291 | 11 250: 1 629 hiányzik |
-| 20 | 17 890 | 16 261 | 1 629 | 14 170: 2 091 hiányzik |
+| 10 | 2 035 | 1 849 | 186 | 1 460: 389 hiányzik |
+| 11 | 2 490 | 2 260 | 230 | 2 035: 225 hiányzik |
+| 12 | 3 055 | 2 774 | 281 | 2 490: 284 hiányzik |
+| 13 | 3 765 | 3 421 | 344 | 3 055: 366 hiányzik |
+| 14 | 4 660 | 4 235 | 425 | 3 765: 470 hiányzik |
+| 15 | 5 790 | 5 262 | 528 | 4 660: 602 hiányzik |
+| 16 | 7 220 | 6 562 | 658 | 5 790: 772 hiányzik |
+| 17 | 9 035 | 8 209 | 826 | 7 220: 989 hiányzik |
+| 18 | 11 335 | 10 301 | 1 034 | 9 035: 1 266 hiányzik |
+| 19 | 14 260 | 12 962 | 1 298 | 11 335: 1 627 hiányzik |
+| 20 | 17 990 | 16 353 | 1 637 | 14 260: 2 093 hiányzik |
 <!-- skylab-power:end -->
 
-A táblázat minden modult ugyanazon a szinten számol. A Thuliumfarm a csúcson ennek közel a háromnegyedét használja (11 695-öt a 20. szinten, szemben a mind a tíz modul 16 261-ével), ezért az az állomás, amelyen ez a farm messze a többi előtt jár, több Napelemet igényel, mint amennyit a Magja sugall.
+A táblázat minden modult ugyanazon a szinten számol. A Thuliumfarm a csúcson ennek közel a háromnegyedét használja (11 695-öt a 20. szinten, szemben a mind a tizenegy modul 16 353-ével), ezért az az állomás, amelyen ez a farm messze a többi előtt jár, több Napelemet igényel, mint amennyit a Magja sugall.
 
 ### Begyűjtés {#collecting}
 
@@ -312,12 +326,13 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 - **Gyűjtők**: az érc az Erőforrás-raktárba kerül, amennyi belefér.
 - **Kovácsműhely**: a lemezek a készletedbe kerülnek, ha a hajód leszállt.
 - **Lőszernyomtató és Rakétagyár**: a lőszer és a rakéták a készletedbe kerülnek, ha a hajód leszállt. Mindegyik csak 24 órányi termést tárol (lásd: [Lőszernyomtató](#ammo-printer) és [Rakétagyár](#rocket-factory)).
+- **Ércrakodó**: nincs mit begyűjteni. A készleted ércét az Erőforrás-raktárba rakja át, amikor megnyomod az **Átrakás** gombot, leszállt hajóval, a keretéig (lásd: [Ércrakodó](#ore-bay)).
 - Az **Összes begyűjtése** mindent egyszerre elvisz, a kikapcsolt és a fejlesztés alatt álló modulokat is.
 - Egy **(!)** jelvény mutatja a kiüríthető, tele tárolót és a Kovácsműhelyben várakozó lemezeket a Skylab oldalon és az oldalsáv Skylab feliratú sorában.
 
 ### A wipe {#the-wipe}
 
-A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a benne lévő Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik. A Lőszernyomtató és a Rakétagyár megtartja a szintjét, azt, hogy mit kell gyártania, és azt, amit tárol.
+A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a benne lévő Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik. A Lőszernyomtató és a Rakétagyár megtartja a szintjét, azt, hogy mit kell gyártania, és azt, amit tárol, az Ércrakodó pedig a szintjét és a keretét. A készletedben lévő érc a többi tárgyhoz hasonlóan elvész: előtte rakd át az Erőforrás-raktárba.
 
 ## A Skylabod megtervezése {#planning-your-skylab}
 
@@ -330,11 +345,11 @@ A Skylab hetekig nő, ezért egy kis tervezés megtérül. A számok a fenti tá
 3. **A Kreditfarm az egyenletes mellékjövedelem.** A 10. szinten óránként 11 250 kreditet, naponta 270 000-et termel, 840 000 kreditért és 109 Thuliumért. A magasabb szintek lassan térülnek meg: a 9.-ről a 10. szintre vezető lépés 300 000 kreditbe kerül óránként 1 500 többletért, vagyis 200 óra alatt térül meg. Akkor fejleszd, ha marad felesleges kredited.
 4. **Tartsd foglalkoztatva a Magot.** Semmi sem megy a Mag fölé, és a Mag egyedül nagyjából 16 és fél nap alatt ér el a 20. szintre. Nincs sor, ezért minden visszatéréskor indítsd el a következő lépését.
 5. **Az ellátási láncot egy csomagban építsd.** A gyűjtők, az Erőforrás-raktár és a Kovácsműhely a Mag 5. szintjén nyílnak meg. Egy gyűjtő csak Erőforrás-raktárba tud ércet betenni, és a raktár az 1. szinten a gyűjtője egynapi termelését, a 20. szinten négynapit bír el, ezért az Erőforrás-raktárt a gyűjtőkkel együtt fejleszd, különben az érc a tárolójukban vár.
-6. **Tarts készenlétben 2 000 Thuliumot a Mag 10. szintjéhez.** A Mag 9-ről 10-re lépése kéri, és felépíti a hidat és a 2. Magot, ahol a [Lőszernyomtató](#ammo-printer) és a [Rakétagyár](#rocket-factory) épül.
+6. **Tarts készenlétben 2 000 Thuliumot a Mag 10. szintjéhez.** A Mag 9-ről 10-re lépése kéri, és felépíti a hidat és a 2. Magot, ahol a [Lőszernyomtató](#ammo-printer), a [Rakétagyár](#rocket-factory) és az [Ércrakodó](#ore-bay) épül.
 
 ### A Napelem fejlesztésének időzítése {#timing-a-solar-upgrade}
 
-Amíg a Napelemet fejlesztik, az energiája negyedét termeli, és egy állomás szinte mindig többet használ ennél. A farmok és a gyűjtők ilyenkor leállnak a teljes fejlesztés idejére: amit tárolnak, megmarad, de amit termelhettek volna, elvész. A táblázat minden Napelem-lépésnél megadja az idejét, a legnagyobb állomást, amely még átmegy rajta (minden modul ugyanazon a szinten, a Maggal és az ellátási lánccal együtt; egy kisebb állomás kicsit tovább bírja), és azt, hogy egy ilyen szintű Kreditfarm és Thuliumfarm mennyit termelt volna közben. Például a Napelem 10-ről 11-re négy óra, és a 10. szintű farmok ennyi idő alatt 45 000 kreditet és 1 440 Thuliumot termeltek volna. A táblázat a Lőszernyomtatót is a 7. szinttől, a Rakétagyárat pedig a 10. szinttől számolja.
+Amíg a Napelemet fejlesztik, az energiája negyedét termeli, és egy állomás szinte mindig többet használ ennél. A farmok és a gyűjtők ilyenkor leállnak a teljes fejlesztés idejére: amit tárolnak, megmarad, de amit termelhettek volna, elvész. A táblázat minden Napelem-lépésnél megadja az idejét, a legnagyobb állomást, amely még átmegy rajta (minden modul ugyanazon a szinten, a Maggal és az ellátási lánccal együtt; egy kisebb állomás kicsit tovább bírja), és azt, hogy egy ilyen szintű Kreditfarm és Thuliumfarm mennyit termelt volna közben. Például a Napelem 10-ről 11-re négy óra, és a 10. szintű farmok ennyi idő alatt 45 000 kreditet és 1 440 Thuliumot termeltek volna. A táblázat a Lőszernyomtatót is a 7. szinttől, a Rakétagyárat és az Ércrakodót pedig a 10. szinttől számolja.
 
 | Napelem-fejlesztés | Idő | Állomás, amely tovább működik, a szintig | A Kreditfarm közben ennyit termel | A Thuliumfarm közben ennyit termel |
 | :--- | ---: | ---: | ---: | ---: |
@@ -347,14 +362,14 @@ Amíg a Napelemet fejlesztik, az energiája negyedét termeli, és egy állomás
 | 7 → 8 | 1 óra 30 perc | 1 | 10 125 | 336 |
 | 8 → 9 | 2 óra | 2 | 16 500 | 528 |
 | 9 → 10 | 3 óra | 3 | 29 250 | 912 |
-| 10 → 11 | 4 óra | 4 | 45 000 | 1 440 |
-| 11 → 12 | 5 óra | 5 | 67 500 | 2 200 |
+| 10 → 11 | 4 óra | 5 | 45 000 | 1 440 |
+| 11 → 12 | 5 óra | 6 | 67 500 | 2 200 |
 | 12 → 13 | 6 óra | 6 | 99 000 | 3 120 |
 | 13 → 14 | 8 óra | 7 | 156 000 | 4 800 |
 | 14 → 15 | 10 óra | 8 | 225 000 | 6 800 |
 | 15 → 16 | 12 óra | 9 | 306 000 | 9 120 |
 | 16 → 17 | 16 óra | 9 | 480 000 | 14 080 |
-| 17 → 18 | 18 óra | 11 | 648 000 | 18 000 |
+| 17 → 18 | 18 óra | 10 | 648 000 | 18 000 |
 | 18 → 19 | 20 óra | 12 | 870 000 | 22 400 |
 | 19 → 20 | 1 nap | 13 | 1 260 000 | 28 800 |
 

@@ -6,6 +6,8 @@ Long ago an advanced civilisation lived in the middle of the galaxy. It built in
 
 The swamp is also where the [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md) appears from day 11, and **Slumbering Voids** patrol around it. The same Voids come in waves to the [giant excavators](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). The sectors are in [Danger Sectors](/wiki/01-General/Danger-Sectors.md).
 
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../img/wiki-img/shots/swamp-rings.jpg)
+
 ## At a glance
 
 <!-- swamp-glance:begin -->
@@ -54,7 +56,7 @@ Damage of a shot, in each world:
 Three aliens of the lost civilisation live here, each with its own numbers. They are paid like a swarm's boss: **by the damage dealt**, to every pilot who did at least the share given in [Swarms](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), and the box goes to the pilot who dealt the most. Their kills add to your PvE ranking points like a swarm ship's, in proportion to their pay ([Ranks](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). The shield of each takes 80% of every hit while it lasts ([Shields](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** The sleek hunter, the fastest alien in the game (as fast as a Storm on Afterburner III). Some patrol the swamp's surroundings, always, and others come in waves to the excavators. It is aggressive, hunts the nearest pilot it can see and never sees a cloaked ship.
-- **Inert Mass.** A dead hulk with violet cracks, the size of a small station. They stay within a set distance of the swamp's middle and do not leave it for now. It fires **Dormant Lances**: guided rockets with a very long reach that follow a ship until it cloaks, opens an EMP window, enters a safe ring, jumps or dies. It outruns every ship, so only those breaks help.
+- **Inert Mass.** A dead hulk with violet cracks, the size of a small station. They stay within a set distance of the swamp's middle and do not leave it for now. It fires **Dormant Lances**: guided rockets with a very long reach that follow a ship until it cloaks, opens an EMP window, enters a safe ring, jumps or dies. It outruns every ship, so only those breaks help. An asteroid in a Lance's way stops it, and the Lance damages that asteroid by its own damage (nobody is paid for it), so a rock is shelter from a Mass for a few hits only.
 - **The Unwakened.** A monolith that sleeps in the swamp's middle, the biggest thing on any map, so slow that it never catches a ship. It fires nothing, but every ship within its aura burns, **cloaked or not**. It is **immune**: shots and rockets hit and do nothing, the target window shows full bars and the word Immune. A later event will let it be fought; its rewards below are written down and cannot be earned yet.
 
 <!-- swamp-members:begin -->

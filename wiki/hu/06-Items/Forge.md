@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 11b76869805e27df -->
+<!-- wiki-i18n source: 363d72823d01bd7e -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -7,6 +7,8 @@ A **Kovácsműhely** a Gyártás oldal második lapja (és a repülés közbeni 
 ## Mi kovácsolható {#what-can-be-forged}
 
 Lézerek, lézererősítők, pajzsmagok, pajzscellák, hajtóművek, fúvókák, adaptív magok, Repair Drone-ok és [hajótest-páncélzat](/wiki/06-Items/Hull-Plating.md): bármelyik egyedi felszerelés, amely [bűvölési bónuszokat](/wiki/06-Items/Overview.md) hordozhat. Lehet a leltáradban, egy hajón (ott marad, és azonnal az új fokozatával működik) vagy egy másik tárgyba építve. Drónokat, hajókat, lőszert, nyersanyagokat és boostereket nem lehet kovácsolni, és a tranzittárolóban lévő semmit sem: előbb vedd ki.
+
+A felszerelések listáján a többi szűrő mellett van egy **Mind / Felszerelt / Leltárban** kapcsoló. A **Felszerelt** azt mutatja, ami hajón van vagy másik tárgyba van illesztve, a **Leltárban** azt, ami szabadon van, és a cím alatti sor megmondja, hány darabot rejt el a kapcsoló. Amíg egy összevonás donorát választod, a „Felszerelt” szünetel, mert a donornak szabadnak kell lennie.
 
 ## Fokozatemelés {#tier-up}
 

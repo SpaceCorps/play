@@ -13,7 +13,7 @@ Forming or joining a Clan allows you to pool resources, level up shared banking,
 - The Leader and the Co-Leaders spend the points on three [boosts](#clan-points-and-boosts) of ten levels each: **Damage** (up to +5%), **Thulium** (up to +10%) and **Credits** (up to +10%).
 - A clan that finishes every line has bought every level on **season day 12**. Points, levels and the clan itself end at the wipe.
 - You need at least **three members** who did their part, and **a big crew** for the Warden's fight: since 0.4.13 a Warden has five times the hull, shield and laser damage it had, so the crews that won before, about seven pilots, lose now ([how big a crew](#how-big-a-crew)). A crew that is too small loses the fight: the clan then keeps the **70 points** of the four missions, but the line is not finished and pays no [reward for you](#the-reward-for-you).
-- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of the map's aliens arrives every minute** ([waves](#waves-of-aliens)).
+- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of the map's aliens arrives every minute** (every 40 seconds for the Wrath Warden III, with a Crystalys in each wave once it is under half its hull), aimed at the pilots who hit the Warden ([waves](#waves-of-aliens)).
 - Your ship shows the boosts it has in the **Boosters window**, on a card of its own ([where you see them](#the-three-boosts)).
 - The line and the boosts need a game of version 0.4.10 or later; the card in the Boosters window, 0.4.12 or later; the Clan Page, posts, the Online window, the daily bonus, peace requests, the log and clans per world, 0.4.16 or later.
 
@@ -265,13 +265,13 @@ When the line is finished, which means the Warden is destroyed, every member who
 
 ## Clan Wardens
 
-A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands.
+A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands. Since 0.4.20 a Wrath Warden **goes after the pilot who hit it** instead of standing where it was called, the Wrath Warden III brings more aliens more often and a Crystalys under half its hull, and everything a Warden brings comes aimed at the pilots who hit it.
 
 | Warden | Season days | Role | How it fights |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Hive keeper: split your fire | Four small **Brood Drones** heal its hull, and a new one comes every 8 seconds while fewer than four are alive (every 16 seconds for the Brood Warden III). Shoot the drones first, then the Warden. |
 | **Siege Warden** | 2, 5, 8, 11 … | Siegebreaker: keep moving | It roams and fires a straight [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) at the first pilot who hit it, and it mends itself. Two **Siege Escorts** add laser fire. Keep moving and take turns being the target. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Warlord: beat the rage | It fights in place and mends itself. Below half its hull its lasers hit **half again as hard**. Two **Wrath Guards** add laser fire. Bring it down fast and keep your shields up. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Warlord: beat the rage | It flies at the first pilot who hit it, stops in its laser range and mends itself. Below half its hull its lasers hit **half again as hard**. Two **Wrath Guards** stay with it and add laser fire. Bring it down fast and keep your shields up. |
 
 ### Calling a Warden
 
@@ -289,11 +289,12 @@ A **Clan Warden** is the boss at the end of the daily line. It is not one of the
 - **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 18 to 26 pilots with x2 ammo and 26 to 38 with x1 ammo. The waves below are not in that calculation.
 - **Brood:** the drones heal its hull, and a crew that ignores them loses, even a big one. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III).
 - **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target.
-- **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage.
+- **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free. The Brood and Siege Wardens are as they were: the Brood Warden stays where it was called, the Siege Warden keeps moving.
+- **What a Warden brings comes for the pilot who hit it.** Since 0.4.20 every alien of a wave, and every drone, escort or guard that arrives while the Warden is fought, goes for the pilots who hit the Warden, the first of them first, in the moment it arrives, without being hit itself.
 
 ### Waves of aliens
 
-Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens of the map it stands on arrives **every 60 seconds**, for as long as the Warden stands.
+Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens of the map it stands on arrives **every 60 seconds**, for as long as the Warden stands. The table is the waves of eight of the nine Wardens; the [Wrath Warden III's waves](#wrath-iii-waves) are heavier.
 
 | Map | A wave | Most alive at once |
 | :--- | :--- | ---: |
@@ -306,6 +307,23 @@ Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the
 - **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave of 5 Phantasm pays 15,000 Credits in Alpha, a wave of 10 Bulwarks 50,000, under 2% of what the weakest Warden pays.
 - **They stop with the Warden.** When it is destroyed or withdraws, no more come; the aliens already out stay and are the map's ordinary aliens. A server restart ends them with the Warden.
 - **The clan is told.** Each wave is announced in the chat's System tab and the Game Log: "Brood Warden I calls reinforcements on M-3: 10 Phantasm."
+- **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam and draw whoever comes near, as before.
+
+#### The Wrath Warden III's waves {#wrath-iii-waves}
+
+Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every **40 seconds**, three quarters of the number of that alien the map holds, and up to **four waves** alive. Under half its hull (the line where it enrages) **every wave also holds one Crystalys**, on top of the wave's size.
+
+| Map | A wave | Most alive at once |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, and up to 4 Crystalys |
+| x-3 | 15 Phantasm | 60, and up to 4 Crystalys |
+| x-4 | 15 Bulwarks | 60, and up to 4 Crystalys |
+
+- **The Crystalys** is the heaviest ordinary alien of the game: 256,000 hull, 160,000 shield, 10,000 damage a volley from 900 units, speed 230 (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **75,000 Credits, 200 Thulium, 12,000 XP and 52 honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the four waves alive.
+- **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens. Above half its hull the Warden sends the wave without the Crystalys.
+- **They are told as two lines**: "Wrath Warden III calls reinforcements on M-3: 15 Phantasm." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
+- **What they pay.** A whole wave of 15 Bulwarks pays 75,000 Credits in Alpha, and with its Crystalys 150,000: about 2% of the 7,200,000 the Warden itself pays.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **31 pilots on x-2, 32 on x-3 and 38 on x-4** with x2 ammo (26 without waves), and 36, 38 and 50 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members. Like the table there, it is calculated and not measured, and the best case.
 
 ### How big a crew
 

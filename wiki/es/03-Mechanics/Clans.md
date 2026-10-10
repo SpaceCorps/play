@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e67774df0345c0b5 -->
+<!-- wiki-i18n source: 9eea417792cfb043 -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -15,7 +15,7 @@ Fundar un clan o unirte a uno te permite reunir recursos, mejorar el banco compa
 - El líder y los colíderes gastan los puntos en tres [mejoras](#clan-points-and-boosts) de diez niveles cada una: **Daño** (hasta +5 %), **Thulium** (hasta +10 %) y **Créditos** (hasta +10 %).
 - Un clan que termina todas las líneas ha comprado todos los niveles el **día 12 de la temporada**. Los puntos, los niveles y el propio clan terminan con el reinicio.
 - Necesitas al menos **tres miembros** que hayan hecho su parte y **una tripulación grande** para el combate contra el guardián: desde la 0.4.13 un guardián tiene cinco veces el casco, el escudo y el daño láser que tenía, así que las tripulaciones que antes ganaban, de unos siete pilotos, ahora pierden ([qué tripulación hace falta](#how-big-a-crew)). Una tripulación demasiado pequeña pierde el combate: el clan conserva entonces los **70 puntos** de las cuatro misiones, pero la línea no se termina y no paga [tu recompensa](#the-reward-for-you).
-- Un guardián paga un bote grande, repartido según el daño, y **cada piloto que causó el 5 % del daño o más recibe un cofre privado** con su parte del botín, que solo él ve y solo él puede recoger ([paga y botín](#warden-pay-and-loot)). Desde la 0.4.16 la paga es el triple, y mientras un guardián está en pie **llega cada minuto una oleada de alienígenas del mapa** ([oleadas](#waves-of-aliens)).
+- Un guardián paga un bote grande, repartido según el daño, y **cada piloto que causó el 5 % del daño o más recibe un cofre privado** con su parte del botín, que solo él ve y solo él puede recoger ([paga y botín](#warden-pay-and-loot)). Desde la 0.4.16 la paga es el triple, y mientras un guardián está en pie **llega cada minuto una oleada de alienígenas del mapa** (cada 40 segundos con el Wrath Warden III, y con un Crystalys en cada oleada cuando le queda menos de la mitad del casco), dirigida contra los pilotos que golpearon al guardián ([oleadas](#waves-of-aliens)).
 - Tu nave muestra las mejoras que tiene en la ventana **Potenciadores**, en una tarjeta propia ([dónde verlas](#the-three-boosts)).
 - La línea y las mejoras requieren un juego de la versión 0.4.10 o posterior; la tarjeta de la ventana Potenciadores, la 0.4.12 o posterior; la página del clan, los avisos, la ventana de conectados, la bonificación diaria, las peticiones de paz, el registro y los clanes por mundo, la 0.4.16 o posterior.
 
@@ -267,13 +267,13 @@ Cuando la línea está terminada, es decir, cuando el guardián está destruido,
 
 ## Guardianes del clan {#clan-wardens}
 
-Un **guardián del clan** es el jefe del final de la línea diaria. No es uno de los [enjambres](/wiki/05-Swarms/Swarms.md) públicos que vagan por un sector: tu clan **lo invoca** y **solo tu clan puede dañarlo**. Tres guardianes se turnan, uno por día: el día 1 **Brood**, el día 2 **Siege**, el día 3 **Wrath**, el día 4 otra vez Brood, y así sucesivamente (el día 15 toca Wrath). Cada uno viene en tres fuerzas, **I, II y III**, que fija la categoría del clan. Un guardián es un alienígena de un tipo propio, como las naves de un enjambre: no cuenta como Seeker, Phantasm ni ningún otro alienígena. Un guardián es muy fuerte: tiene cinco veces el casco, el escudo y el daño láser que tenía antes de la 0.4.13, así que es un combate para la tripulación más grande que tu clan pueda reunir ([qué tripulación hace falta](#how-big-a-crew)). Desde la 0.4.16 el Brood Warden III tiene **la mitad** de casco y de escudo, sus drones curan la mitad y llegan la mitad de rápido, y todos los guardianes traen [oleadas de alienígenas](#waves-of-aliens) mientras están en pie.
+Un **guardián del clan** es el jefe del final de la línea diaria. No es uno de los [enjambres](/wiki/05-Swarms/Swarms.md) públicos que vagan por un sector: tu clan **lo invoca** y **solo tu clan puede dañarlo**. Tres guardianes se turnan, uno por día: el día 1 **Brood**, el día 2 **Siege**, el día 3 **Wrath**, el día 4 otra vez Brood, y así sucesivamente (el día 15 toca Wrath). Cada uno viene en tres fuerzas, **I, II y III**, que fija la categoría del clan. Un guardián es un alienígena de un tipo propio, como las naves de un enjambre: no cuenta como Seeker, Phantasm ni ningún otro alienígena. Un guardián es muy fuerte: tiene cinco veces el casco, el escudo y el daño láser que tenía antes de la 0.4.13, así que es un combate para la tripulación más grande que tu clan pueda reunir ([qué tripulación hace falta](#how-big-a-crew)). Desde la 0.4.16 el Brood Warden III tiene **la mitad** de casco y de escudo, sus drones curan la mitad y llegan la mitad de rápido, y todos los guardianes traen [oleadas de alienígenas](#waves-of-aliens) mientras están en pie. Desde la 0.4.20 un Wrath Warden **va a por el piloto que lo golpeó** en vez de quedarse donde lo invocaron, el Wrath Warden III trae más alienígenas y más a menudo, y un Crystalys cuando le queda menos de la mitad del casco, y todo lo que trae un guardián llega dirigido contra los pilotos que lo golpearon.
 
 | Guardián | Días de temporada | Papel | Cómo lucha |
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Guardián de la colmena: reparte tu fuego | Cuatro pequeños **Brood Drones** curan su casco y llega uno nuevo cada 8 segundos mientras haya menos de cuatro vivos (cada 16 segundos con el Brood Warden III). Destruye primero los drones y luego al guardián. |
 | **Siege Warden** | 2, 5, 8, 11 … | Rompesitios: no dejes de moverte | Se desplaza y dispara un [cohete Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) recto al primer piloto que lo golpeó, y se repara solo. Dos **Siege Escorts** añaden fuego láser. No dejes de moverte y túrnense como objetivo. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Señor de la guerra: vence a la furia | Lucha sin moverse y se repara solo. Por debajo de la mitad del casco, sus láseres golpean **una vez y media más fuerte**. Dos **Wrath Guards** añaden fuego láser. Derríbalo rápido y mantén los escudos arriba. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Señor de la guerra: vence a la furia | Va hacia el primer piloto que lo golpeó, se detiene dentro del alcance de sus láseres y se repara solo. Por debajo de la mitad del casco, sus láseres golpean **una vez y media más fuerte**. Dos **Wrath Guards** se quedan con él y añaden fuego láser. Derríbalo rápido y mantén los escudos arriba. |
 
 ### Invocar a un guardián {#calling-a-warden}
 
@@ -291,11 +291,12 @@ Un **guardián del clan** es el jefe del final de la línea diaria. No es uno de
 - **Lleva la tripulación más grande que puedas, con munición x2** ([Láseres](/wiki/06-Items/Lasers.md#laser-ammunition)). Las tripulaciones que ganaban antes de la 0.4.13, de unos siete pilotos, ahora pierden. La tabla de abajo es un cálculo y el mejor caso: incluso en él diez pilotos pierden contra cualquier guardián, y la tripulación más pequeña que puede ganar tiene de 18 a 26 pilotos con munición x2 y de 26 a 38 con munición x1. Las oleadas de abajo no entran en ese cálculo.
 - **Brood:** los drones curan su casco, y una tripulación que los ignora pierde, aunque sea grande. Destrúyelos primero y sigue destruyéndolos: llega uno nuevo a los 8 segundos (a los 16 con el Brood Warden III).
 - **Siege:** sus cohetes son rectos y sin guía, así que una nave que no deja de moverse esquiva la mayoría. No dejes de moverte y túrnense como objetivo.
-- **Wrath:** cuando su casco baja de la mitad, cada salva golpea una vez y media más fuerte, así que la segunda mitad del combate es la peligrosa. Derriba la primera mitad rápido, mantén los escudos arriba y guarda Emergency Repair para la furia.
+- **Wrath:** cuando su casco baja de la mitad, cada salva golpea una vez y media más fuerte, así que la segunda mitad del combate es la peligrosa. Derriba la primera mitad rápido, mantén los escudos arriba y guarda Emergency Repair para la furia. Desde la 0.4.20 ya no se queda quieto: vuela hacia el primer piloto que lo golpeó, a 90 unidades por segundo, hasta estar dentro del alcance de sus láseres (700, 800 o 900 unidades según la fuerza) y dispara desde ahí, así que un arma de más alcance ya no le dispara gratis. El Brood Warden y el Siege Warden siguen como eran: el Brood Warden se queda donde lo invocaron, el Siege Warden no deja de moverse.
+- **Lo que trae un guardián va a por el piloto que lo golpeó.** Desde la 0.4.20 cada alienígena de una oleada, y cada drone, escolta o guardia que llega mientras se combate al guardián, va a por los pilotos que golpearon al guardián, el primero de ellos antes, en el momento en que llega, sin que nadie lo haya golpeado a él.
 
 ### Oleadas de alienígenas {#waves-of-aliens}
 
-Desde la 0.4.16 un guardián no está solo. Desde el momento en que está **armado** (los 90 segundos de calentamiento no tienen oleadas, para que la tripulación pueda reunirse), llega **cada 60 segundos** una **oleada** de alienígenas normales del mapa en el que está, mientras el guardián siga en pie.
+Desde la 0.4.16 un guardián no está solo. Desde el momento en que está **armado** (los 90 segundos de calentamiento no tienen oleadas, para que la tripulación pueda reunirse), llega **cada 60 segundos** una **oleada** de alienígenas normales del mapa en el que está, mientras el guardián siga en pie. La tabla son las oleadas de ocho de los nueve guardianes; las [oleadas del Wrath Warden III](#wrath-iii-waves) son más pesadas.
 
 | Mapa | Una oleada | Máximo vivo a la vez |
 | :--- | :--- | ---: |
@@ -308,6 +309,23 @@ Desde la 0.4.16 un guardián no está solo. Desde el momento en que está **arma
 - **No forman parte de la lucha por el guardián.** No curan nada, y dispararles no suma nada a tu parte del daño al guardián. Cualquier piloto del mapa puede abatirlos. Cada uno paga la paga normal de su alienígena en tu mundo y suma puntos PvE: una oleada entera de 5 Phantasm paga 15.000 créditos en Alpha, una de 10 Bulwark 50.000, menos del 2 % de lo que paga el guardián más débil.
 - **Se acaban con el guardián.** Cuando es destruido o se retira, no llegan más; los alienígenas que ya están fuera se quedan y son los alienígenas normales del mapa. Un reinicio del servidor los acaba junto con el guardián.
 - **Se avisa al clan.** Cada oleada se anuncia en la pestaña Sistema del chat y en el Registro del juego: «Brood Warden I pide refuerzos en M-3: 10 Phantasm.»
+- **Llegan dirigidas (0.4.20).** Los alienígenas de una oleada llegan sabiendo a quién combate el guardián: van a por los pilotos que lo golpearon, el primero de ellos antes, desde el momento en que aparecen, y siguen tras ellos mientras se golpea al guardián. Un guardián al que nadie combate envía alienígenas que vagan y atraen a quien se acerque, como antes.
+
+#### Las oleadas del Wrath Warden III {#wrath-iii-waves}
+
+Desde la 0.4.20 el **Wrath Warden III** trae más y más a menudo: una oleada cada **40 segundos**, tres cuartos del número que el mapa tiene de ese alienígena, y hasta **cuatro oleadas** vivas. Con menos de la mitad del casco (la línea en la que se enfurece) **cada oleada trae además un Crystalys**, aparte del tamaño de la oleada.
+
+| Mapa | Una oleada | Máximo vivo a la vez |
+| :--- | :--- | ---: |
+| x-2 | 8 Phantasm | 32, y hasta 4 Crystalys |
+| x-3 | 15 Phantasm | 60, y hasta 4 Crystalys |
+| x-4 | 15 Bulwark | 60, y hasta 4 Crystalys |
+
+- **El Crystalys** es el alienígena normal más pesado del juego: 256.000 de casco, 160.000 de escudo, 10.000 de daño por salva desde 900 unidades, velocidad 230 (en un mundo más fuerte, más casco, escudo y daño). Paga lo que paga cualquier Crystalys: **75.000 créditos, 200 Thulium, 12.000 XP y 52 de honor en Alpha** (el doble en Beta, el triple en Gamma), y suelta su botín normal. Forma parte de su oleada: una oleada está viva mientras lo esté su Crystalys, así que un Crystalys que sigue en pie mantiene viva una de las cuatro oleadas.
+- **Como mucho hay cuatro oleadas vivas.** Una oleada que toca cuando hay cuatro vivas se salta, como con los demás guardianes. Con más de la mitad del casco el guardián envía la oleada sin el Crystalys.
+- **Se anuncian en dos líneas**: «Wrath Warden III pide refuerzos en M-3: 15 Phantasm.» y «Wrath Warden III pide refuerzos en M-3: 1 Crystalys.»
+- **Lo que pagan.** Una oleada entera de 15 Bulwark paga 75.000 créditos en Alpha, y con su Crystalys 150.000: alrededor del 2 % de los 7.200.000 que paga el propio guardián.
+- **Lo que piden a la tripulación.** El cálculo de [qué tripulación hace falta](#how-big-a-crew), con estas oleadas y el Crystalys, da **31 pilotos en x-2, 32 en x-3 y 38 en x-4** con munición x2 (26 sin oleadas), y 36, 38 y 50 en Gamma, donde los alienígenas de las oleadas son el doble de fuertes. Un clan de nivel 3 tiene 50 miembros. Como la tabla de allí, está calculado y no medido, y es el mejor caso.
 
 ### Qué tripulación hace falta {#how-big-a-crew}
 

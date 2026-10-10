@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a8a96edb9a5070f1 -->
+<!-- wiki-i18n source: ee049111031a8060 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -7,6 +7,8 @@
 Há muito tempo, uma civilização avançada viveu no meio da galáxia. Ela construía em cristal preto arroxeado, com veios violeta que brilham, e por um motivo que ninguém conhece ruiu. O **Dormant Swamp** é o seu posto avançado, no canto superior esquerdo de `DS-4`. A partir do dia 11 da temporada ele se agita: canhões no centro atiram em toda nave que veem, as **Inert Masses** o guardam, e bem no meio dorme **o Unwakened**. É um lugar que os pilotos **ainda não devem visitar**. Sob camuflagem você pode voar até o Unwakened, e por enquanto nada mais pode ser feito lá: a base e seus canhões não podem ser danificados, nem entrados, nem abordados, nem usados para comerciar.
 
 O pântano é também onde o [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) aparece a partir do dia 11, e **Slumbering Voids** patrulham em volta dele. Os mesmos Voids vêm em ondas às [escavadeiras gigantes](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Os setores estão em [Setores de perigo](/wiki/01-General/Danger-Sectors.md).
+
+![Flying in towards the Dormant Swamp: the amber notice ring and, inside it, the red ring of the zone the guns reach](../../img/wiki-img/shots/swamp-rings.jpg)
 
 ## Em resumo {#at-a-glance}
 
@@ -56,7 +58,7 @@ Dano de um tiro, em cada mundo:
 Três alienígenas da civilização perdida vivem aqui, cada um com seus próprios números. Eles pagam como o chefe de um enxame: **pelo dano causado**, a todo piloto que fez pelo menos a parcela indicada em [Enxames](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e a caixa vai para o piloto que causou mais dano. Os abates deles somam aos seus pontos PvE de patente como os de uma nave de enxame, em proporção ao pagamento ([Patentes](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). O escudo de cada um absorve 80% de cada acerto enquanto durar ([Escudos](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** O caçador esguio, o alienígena mais rápido do jogo (tão rápido quanto uma Storm com Afterburner III). Alguns patrulham sempre os arredores do pântano, e outros vêm em ondas às escavadeiras. É agressivo, caça o piloto mais próximo que consegue ver e nunca vê uma nave camuflada.
-- **Inert Mass.** Um casco morto com rachaduras violeta, do tamanho de uma pequena estação. Elas ficam a uma distância fixa do meio do pântano e por enquanto não o deixam. Dispara **Dormant Lances**: foguetes guiados de alcance enorme que seguem uma nave até ela se camuflar, abrir uma janela de EMP, entrar num anel seguro, saltar ou morrer. É mais rápida que qualquer nave, então só essas interrupções ajudam.
+- **Inert Mass.** Um casco morto com rachaduras violeta, do tamanho de uma pequena estação. Elas ficam a uma distância fixa do meio do pântano e por enquanto não o deixam. Dispara **Dormant Lances**: foguetes guiados de alcance enorme que seguem uma nave até ela se camuflar, abrir uma janela de EMP, entrar num anel seguro, saltar ou morrer. É mais rápida que qualquer nave, então só essas interrupções ajudam. Um asteroide no caminho de uma Dormant Lance a detém, e a Lance danifica esse asteroide com o próprio dano (ninguém é pago por isso); uma rocha protege de uma Inert Mass, portanto, só por alguns acertos.
 - **O Unwakened.** Um monólito que dorme no meio do pântano, a maior coisa de qualquer mapa, tão lento que nunca alcança uma nave. Não dispara nada, mas toda nave dentro da sua aura queima, **camuflada ou não**. Ele é **imune**: tiros e foguetes acertam e não fazem nada, a janela de alvo mostra as barras cheias e a palavra Imune. Um evento futuro permitirá combatê-lo; as recompensas dele abaixo estão escritas e ainda não podem ser ganhas.
 
 <!-- swamp-members:begin -->
