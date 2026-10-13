@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Veszélyes szektorok -->
 # Veszélyes szektorok {#danger-sectors}
 
@@ -17,6 +17,10 @@ Itt élt egykor a régi galaxis egy fejlett, lilásfekete civilizációja, amely
 - **A Dormant Swamp.** A `DS-4` egyik sarkában áll az elveszett civilizáció bázisa: lövegek, amelyek minden hajóra tüzelnek, amit látnak, őrzőik, az Inert Massek, és középen az Unwakened. Ez egy olyan hely, amelyet a pilótáknak még nem szabad meglátogatniuk. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Gyorsabb, gazdagabb Dormant-raj.** A raj mostantól a mocsárnál jelenik meg, megsemmisítése után hamarabb tér vissza, és kétszer annyit fizet. Lásd: [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md).
 - **A 11. nap előtt** csak a pulzárok ragyognak: a veszélyes szektorok egyébként olyanok, amilyennek az [Utazás az űrtérképen](/wiki/01-General/Spacemap%20Travel.md) leírja őket. A 11. napon vagy később járó világban minden egyszerre megvan.
+
+## Davidski
+
+A szezon első napjától kezdve a `DS-1`, `DS-2` és `DS-3` egyikén mindig van egy látogató: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, egy kereskedő egy arany Ironcladdel, aki sorban járja őket, naponta eggyel, és naponta egyszer jön ki, olyan időpontban, amit senki sem jelent be. Sosem lő először, és visszalő, ha eltalálják, és főnökként fizet, ha elpusztítják. Egyetlen vállalathoz sem tartozik, és az [Aukció](/wiki/03-Mechanics/Auction.md) minden fajtáját a Bolt árának sokszorosáért adja.
 
 ## Mi hol van {#where-everything-is}
 
@@ -59,3 +63,4 @@ A `DS-4`-nek nincs pulzárja: ott van a feketelyuk. A sarkában helyette a Dorma
 - [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) és [Rajok](/wiki/05-Swarms/Swarms.md).
 - [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md) és a [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): honnan jön az üzemanyag.
 - [Aszteroidabányászat](/wiki/03-Mechanics/Asteroid-Mining.md): a veszélyes szektorok sziklái.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): a kereskedő, aki naponta egyszer, bejelentés nélkül jön ki egy veszélyes szektorban.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf147fcd54ecb68 -->
+<!-- wiki-i18n source: 3b9d23ee237cda65 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -116,3 +116,4 @@ När något är dåligt säger en rad under siffrorna vems fel det är: *Långsa
 5. **Kopiera från wikin**: dra musen över valfri text i en artikel för att markera den och tryck på `Ctrl+C` (`Cmd+C` på Mac) för att kopiera; ett klick på en länk öppnar fortfarande sidan. **Kopiera sidan** högst upp i varje artikel kopierar hela sidan som Markdown, att klistra in i en chatt eller en anteckning.
 6. **Forska före tillverkning**: Monteringen tillverkar bara det som Forskningscentrumet i din [Skylab](/wiki/03-Mechanics/Skylab.md) har forskat fram. Det öppnas på kärnnivå 10, och sidan [Forskning](/wiki/03-Mechanics/Research.md) har teknologierna, deras tider och bränslet.
 7. **Drönarformationer**: när du äger en drönare och har forskat fram och tillverkat en formation, dra den till ditt snabbfält från Formationslistan och bär den med tangenten för dess plats: en större sköld mot svagare vapen, hårdare raketer mot ett tunnare skrov. Var och en ger också dina drönare en form att flyga i. Se [Drönarformationer](/wiki/03-Mechanics/Formations.md).
+8. **Planera med Biblioteket**: **Bibliotek › Receptbok** visar för vilket föremål som helst ett diagram över vad det behöver, stegen i ordning och hela kostnaden med det du äger avdraget, och **Bibliotek › Builds** gör detsamma för ett helt skepp, med 15 förinställningar att börja med. Se [Receptbok och builds](/wiki/01-General/Recipe-Book.md).

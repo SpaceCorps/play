@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: Fähigkeiten -->
 # Aktive Schiffsfähigkeiten {#active-ship-abilities}
 
@@ -43,7 +43,7 @@ Du kannst **mehrere Schilde, Triebwerke oder Repair Drones** in die Fähigkeits-
 
 ### Shield Surge (Schilde), Taste `Q` {#shield-surge-shields-key-q}
 
-Zehn Sekunden lang wird der Schild deines Schiffs **repariert**: Der Surge stellt einen Anteil deines maximalen Schilds gleichmäßig wieder her, bis zum Maximum und nie darüber. Er ist keine Barriere und ändert nicht, wie Treffer aufgeteilt werden; er bringt Schild zurück, und was er zurückgebracht hat, bleibt. Er endet nicht, wenn du getroffen wirst (die normale Aufladung wartet nach einem Treffer 15 Sekunden; der Surge nicht). Ein Schiff mit vollem Schild hat wenig davon: Drücke ihn also, wenn der Schild schwindet. Der Gesamtwert ist nie kleiner als die eigene Kapazität des Shield Core, daher bekommt auch ein Schiff mit wenig Schild eine echte Reparatur (bis zu seinem Maximum).
+Zehn Sekunden lang wird der Schild deines Schiffs **repariert**: Der Surge stellt einen Anteil deines maximalen Schilds gleichmäßig wieder her, bis zum Maximum und nie darüber. Er ist keine Barriere und ändert nicht, wie Treffer aufgeteilt werden; er bringt Schild zurück, und was er zurückgebracht hat, bleibt. Er endet nicht, wenn du getroffen wirst (die normale Aufladung wartet nach einem Treffer 15 Sekunden; der Surge nicht). Ein Schiff mit vollem Schild hat wenig davon: Drücke ihn also, wenn der Schild schwindet. Der Gesamtwert ist nie kleiner als 60 % der eigenen Kapazität des Shield Core, daher bekommt auch ein Schiff mit wenig Schild eine echte Reparatur (bis zu seinem Maximum).
 
 - Wird innerhalb des Schutzes einer Schutzzone und auf einem Schiff ganz ohne Schild abgelehnt, damit ein Fehlklick den Surge nicht vergeudet.
 - Raketen mit Schilddurchdringung umgehen die Schilde weiterhin teilweise, wie sie es schon immer taten.
@@ -89,16 +89,16 @@ Die Stärke einer Fähigkeit ist ein **Anteil an einem Wert deines eigenen Schif
 
 | Fähigkeit | Rang | Gegenstand | Stärke (ein Modul) | Dauer | Abklingzeit | Aktiv |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | stellt 30 % deines maximalen Schilds wieder her | 10 s | 120 s | 8,3 % |
-| **Shield Surge** | II | Basic Shield Core | stellt 60 % deines maximalen Schilds wieder her | 10 s | 105 s | 9,5 % |
-| **Shield Surge** | III | Heavy Shield Core | stellt 100 % deines maximalen Schilds wieder her | 10 s | 90 s | 11,1 % |
+| **Shield Surge** | I | Light Shield Core | stellt 18 % deines maximalen Schilds wieder her | 10 s | 120 s | 8,3 % |
+| **Shield Surge** | II | Basic Shield Core | stellt 36 % deines maximalen Schilds wieder her | 10 s | 105 s | 9,5 % |
+| **Shield Surge** | III | Heavy Shield Core | stellt 60 % deines maximalen Schilds wieder her | 10 s | 90 s | 11,1 % |
 | **Afterburner** | I | Engine I | +30 % Tempo | 10 s | 120 s | 8,3 % |
 | **Afterburner** | II | Engine II | +45 % Tempo | 10 s | 105 s | 9,5 % |
 | **Afterburner** | III | Engine III | +60 % Tempo | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | I | Repair Drone I | heilt 20 % deiner maximalen Hülle | 10 s | 120 s | 8,3 % |
-| **Emergency Repair** | II | Repair Drone II | heilt 25 % deiner maximalen Hülle | 10 s | 105 s | 9,5 % |
-| **Emergency Repair** | III | Repair Drone III | heilt 32 % deiner maximalen Hülle | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | IV | Repair Drone IV | heilt 40 % deiner maximalen Hülle | 10 s | 75 s | 13,3 % |
+| **Emergency Repair** | I | Repair Drone I | heilt 12 % deiner maximalen Hülle | 10 s | 120 s | 8,3 % |
+| **Emergency Repair** | II | Repair Drone II | heilt 15 % deiner maximalen Hülle | 10 s | 105 s | 9,5 % |
+| **Emergency Repair** | III | Repair Drone III | heilt 19,2 % deiner maximalen Hülle | 10 s | 90 s | 11,1 % |
+| **Emergency Repair** | IV | Repair Drone IV | heilt 24 % deiner maximalen Hülle | 10 s | 75 s | 13,3 % |
 
 Mehrere Module einer Art in einer Konfiguration: Das mit dem niedrigsten Rang bestimmt Stärke und Abklingzeit wie oben, jedes weitere fügt 50 % davon hinzu.
 
@@ -110,7 +110,7 @@ Mehrere Module einer Art in einer Konfiguration: Das mit dem niedrigsten Rang be
 
 <!-- abilities:end -->
 
-Das Engine II und die Schilde und Triebwerke von Rang III (der Heavy Shield Core, Engine III) werden nicht verkauft: Du stellst sie in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Engine I, einem Basic Shield Core und einem Engine II her, mit Thulium, Beute und Platten (2 Velkonite Reinforced Plates für das Engine II, 3 Dark Matter Plates für die anderen: [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair hat einen vierten Rang, die Repair Drone IV.
+Das Engine II und die Schilde und Triebwerke von Rang III (der Heavy Shield Core, Engine III) werden nicht verkauft: Du stellst sie in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Engine I, einem Basic Shield Core und einem Engine II her, mit Thulium, Beute und Platten (4 Velkonite Reinforced Plates für das Engine II, 4 Dark Matter Plates und eine Ancient Control Unit für die anderen: [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair hat einen vierten Rang, die Repair Drone IV.
 
 ## Abklingzeiten und Grenzen {#cooldowns-and-limits}
 

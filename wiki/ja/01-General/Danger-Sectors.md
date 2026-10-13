@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: 危険セクター -->
 # 危険セクター {#danger-sectors}
 
@@ -17,6 +17,10 @@
 - **Dormant Swamp。** `DS-4` の隅に、失われた文明の基地が立っています。見えた艦船をすべて撃つ砲台、それを守る Inert Mass、そして中心にいる Unwakened です。パイロットがまだ訪れることを想定されていない場所です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)を参照してください。
 - **速く、豊かになった Dormant の群れ。** 群れは沼に現れるようになり、撃破後に早く戻り、報酬は2倍になります。[Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)を参照してください。
 - **11日目より前**は、パルサーだけが輝きます。それ以外の危険セクターは[スペースマップ移動](/wiki/01-General/Spacemap%20Travel.md)が説明するとおりです。11日目以降のワールドには、すべてが一度に揃います。
+
+## Davidski
+
+シーズンの初日から、`DS-1`、`DS-2`、`DS-3` のどれか1つに訪問者がいます。金色の Ironclad に乗る商人 **[Davidski](/wiki/03-Mechanics/Davidski.md)** で、この3つを1日ずつ順に飛び、1日に1回、誰にも知らされない時刻に現れます。彼は先に撃たず、撃たれたら撃ち返し、破壊されるとボスとして報酬を払います。どの企業にも属さず、[オークション](/wiki/03-Mechanics/Auction.md)に並ぶあらゆる種類を、ショップの価格の何倍もの値段で売っています。
 
 ## 何がどこにあるか {#where-everything-is}
 
@@ -59,3 +63,4 @@
 - [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)と[群れ](/wiki/05-Swarms/Swarms.md)。
 - [ブラックホール](/wiki/03-Mechanics/Black-Hole.md)と [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)：燃料の入手先。
 - [小惑星採掘](/wiki/03-Mechanics/Asteroid-Mining.md)：危険セクターの岩。
+- [Davidski](/wiki/03-Mechanics/Davidski.md)：1日に1回、予告なしに危険セクターへ現れる商人。

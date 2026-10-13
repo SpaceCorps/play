@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2bd1925e336e25b6 -->
+<!-- wiki-i18n source: a7f59fe15502fedf -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -30,7 +30,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 | **Hull Plating II** | 10,000 | 装配站，由 Hull Plating I 升级 |
 | **Hull Plating III** | 15,000 | 装配站，由 Hull Plating II 升级 |
 
-Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一块低一阶的装甲（要放在物品栏里，不能装在舰船上），并需要 Thulium、材料和 **Dark Matter Plate**，II 需要 5 块，III 需要 8 块，而任何其他装备的最后一阶只需要 3 块。每一块都要先有对应的科技，位于[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)页的 Hull Plating 科技树中：II 需要 1 天和 25 个 Dark Matter，III 需要 2 天和 40 个，另外还要有 Dark Matter Plate 本身的科技。上面的科技树列出了价格、材料和时间。
+Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一块低一阶的装甲（要放在物品栏里，不能装在舰船上），并需要 Thulium、材料和 **Dark Matter Plate**，II 需要 5 块，III 需要 8 块，而任何其他装备的最后一阶只需要 4 块和 1 个 Ancient Control Unit。每一块都要先有对应的科技，位于[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)页的 Hull Plating 科技树中：II 需要 1 天和 25 个 Dark Matter，III 需要 2 天和 40 个，另外还要有 Dark Matter Plate 本身的科技。上面的科技树列出了价格、材料和时间。
 
 [锻造炉](/wiki/06-Items/Forge.md)可以处理每一种装甲，升级会保留被消耗装甲的锻造等级，并重新掷出它的加成。装甲只有一项属性，也就是船体，所以只带一条加成，按等级从 +2% 到 +15%：一块永恒等级的 Hull Plating III 最多可增加 17,250。[拍卖行](/wiki/03-Mechanics/Auction.md)可以上架 Hull Plating II 和 III，但不能上架商店出售的 Hull Plating I。
 

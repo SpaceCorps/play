@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -43,7 +43,7 @@ Du kan montera **flera sköldar, motorer eller Repair Drones** i förmågeplatse
 
 ### Shield Surge (sköldar), tangent `Q` {#shield-surge-shields-key-q}
 
-Under tio sekunder **repareras** ditt skepps sköld: Surge återställer en andel av din max. sköld jämnt fördelat, upp till max och aldrig över. Det är ingen barriär och ändrar inte hur träffar fördelas; den lägger tillbaka sköld, och det den lade tillbaka stannar kvar. Den avbryts inte när du träffas (den vanliga laddningen väntar 15 sekunder efter en träff; Surge gör det inte). Ett skepp med full sköld har inte mycket nytta av den, så tryck på den när skölden är på väg att ta slut. Totalen är aldrig mindre än sköldkärnans egen kapacitet, så ett skepp med lite sköld får ändå en riktig reparation (upp till sitt max).
+Under tio sekunder **repareras** ditt skepps sköld: Surge återställer en andel av din max. sköld jämnt fördelat, upp till max och aldrig över. Det är ingen barriär och ändrar inte hur träffar fördelas; den lägger tillbaka sköld, och det den lade tillbaka stannar kvar. Den avbryts inte när du träffas (den vanliga laddningen väntar 15 sekunder efter en träff; Surge gör det inte). Ett skepp med full sköld har inte mycket nytta av den, så tryck på den när skölden är på väg att ta slut. Totalen är aldrig mindre än 60 % av sköldkärnans egen kapacitet, så ett skepp med lite sköld får ändå en riktig reparation (upp till sitt max).
 
 - Går inte att använda inom en säker zons skydd, och inte på ett skepp utan någon sköld alls, så att ett felklick inte förbrukar den.
 - Genomträngande raketer går fortfarande delvis förbi sköldarna, som de alltid gjort.
@@ -89,16 +89,16 @@ En förmågas styrka är en **andel av ditt eget skepps värde** (max. sköld, f
 
 | Förmåga | Rang | Föremål | Styrka (en modul) | Varar | Återhämtning | Uppe |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | återställer 30 % av din max. sköld | 10 s | 120 s | 8,3 % |
-| **Shield Surge** | II | Basic Shield Core | återställer 60 % av din max. sköld | 10 s | 105 s | 9,5 % |
-| **Shield Surge** | III | Heavy Shield Core | återställer 100 % av din max. sköld | 10 s | 90 s | 11,1 % |
+| **Shield Surge** | I | Light Shield Core | återställer 18 % av din max. sköld | 10 s | 120 s | 8,3 % |
+| **Shield Surge** | II | Basic Shield Core | återställer 36 % av din max. sköld | 10 s | 105 s | 9,5 % |
+| **Shield Surge** | III | Heavy Shield Core | återställer 60 % av din max. sköld | 10 s | 90 s | 11,1 % |
 | **Afterburner** | I | Engine I | +30 % fart | 10 s | 120 s | 8,3 % |
 | **Afterburner** | II | Engine II | +45 % fart | 10 s | 105 s | 9,5 % |
 | **Afterburner** | III | Engine III | +60 % fart | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | I | Repair Drone I | läker 20 % av ditt max. skrov | 10 s | 120 s | 8,3 % |
-| **Emergency Repair** | II | Repair Drone II | läker 25 % av ditt max. skrov | 10 s | 105 s | 9,5 % |
-| **Emergency Repair** | III | Repair Drone III | läker 32 % av ditt max. skrov | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | IV | Repair Drone IV | läker 40 % av ditt max. skrov | 10 s | 75 s | 13,3 % |
+| **Emergency Repair** | I | Repair Drone I | läker 12 % av ditt max. skrov | 10 s | 120 s | 8,3 % |
+| **Emergency Repair** | II | Repair Drone II | läker 15 % av ditt max. skrov | 10 s | 105 s | 9,5 % |
+| **Emergency Repair** | III | Repair Drone III | läker 19,2 % av ditt max. skrov | 10 s | 90 s | 11,1 % |
+| **Emergency Repair** | IV | Repair Drone IV | läker 24 % av ditt max. skrov | 10 s | 75 s | 13,3 % |
 
 Flera moduler av ett slag i en konfiguration: den lägst rankade sätter styrkan och återhämtningen ovan, och varje övrig lägger till 50 % av den.
 
@@ -110,7 +110,7 @@ Flera moduler av ett slag i en konfiguration: den lägst rankade sätter styrkan
 
 <!-- abilities:end -->
 
-Engine II och sköldar och motorer av rang III (Heavy Shield Core, Engine III) säljs inte: du tillverkar dem i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Engine I, en Basic Shield Core och en Engine II, med Thulium, det utomjordingarna släpper och plåtar (2 Velkonite Reinforced Plates för Engine II, 3 Dark Matter Plates för de andra: [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair har en fjärde rang, Repair Drone IV.
+Engine II och sköldar och motorer av rang III (Heavy Shield Core, Engine III) säljs inte: du tillverkar dem i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Engine I, en Basic Shield Core och en Engine II, med Thulium, det utomjordingarna släpper och plåtar (4 Velkonite Reinforced Plates för Engine II, 4 Dark Matter Plates och en Ancient Control Unit för de andra: [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair har en fjärde rang, Repair Drone IV.
 
 ## Återhämtning och gränser {#cooldowns-and-limits}
 

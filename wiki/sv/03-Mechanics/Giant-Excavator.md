@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6b964707b3b7ca22 -->
+<!-- wiki-i18n source: 8cf3540685bf9b05 -->
 <!-- wiki-i18n title: Jättegrävmaskin -->
 # Jättegrävmaskin {#giant-excavator}
 
@@ -16,12 +16,12 @@ Från första dagen av säsongen lyser en **pulsar** i var och en av farosektore
 - **Var**: En pulsar med en jättegrävmaskin i var och en av sektorerna `DS-1`, `DS-2` och `DS-3`, i varje värld
 - **Dyker upp**: Pulsaren från säsongens första dag, grävmaskinen från säsongsdag 11 till wipen
 - **Bränsle**: Dark Matter. En brinner i 10 min; tanken rymmer 3, vilket är 30 min av brytning. Vem som helst får lägga till en i taget, ur den egna lasten
-- **Panel**: Fönstret fungerar inom 600 enheter från grävmaskinen, och skylten syns från 1 400 enheter. Vem som helst får tanka, välja och starta; valet är låst medan den går
+- **Panel**: Fönstret fungerar inom 600 enheter från grävmaskinen, och skylten syns från 1 400 enheter. Vem som helst får tanka, välja och starta, och byta resurs medan den går, en gång per 10 s
 - **Lådor**: En låda var 20 s, 450 till 900 enheter från grävmaskinen, fri för vem som helst från det ögonblick den ligger. Den ligger kvar i 5 min, och högst 24 ligger på en karta samtidigt
 - **Värme**: 30 min av brytning, i så många körningar som det behövs, och grävmaskinen överhettas i 1 h. Värmen finns kvar mellan körningarna och försvinner efter vilan
 - **Strålning**: Medan den är överhettad eller förstörd bränner grävmaskinen (inom 1 100 enheter) och dess pulsar (inom 1 300 enheter) varje skepp inuti: 10 % av dess totala HP varje sekund
 - **Skrov**: 200 000 HP i Alfa, 300 000 i Beta och 400 000 i Gamma. Bara Slumbering Voids kan skada den, och bara när ingen pilot är kvar för att försvara den
-- **Voids**: 2 Slumbering Voids var 2 min medan den bryter, den första 1 min efter starten; högst 8 levande på en karta
+- **Voids**: 3 Slumbering Voids var 2 min medan den bryter, den första 1 min efter starten; högst 12 levande på en karta
 - **Meddelanden**: Piloterna i hela världen får veta när en körning startar, när grävmaskinen överhettas och när den förstörs; resten går till piloterna i dess sektor. Det är systemrader: de syns på chattens flik **System** och i Spelloggen, och inte i **Global** eller **Lokal**.
 
 <!-- excavator-glance:end -->
@@ -31,17 +31,26 @@ Från första dagen av säsongen lyser en **pulsar** i var och en av farosektore
 1. **Hitta en.** Från säsongsdag 11 har var och en av de tre farosektorerna som har en pulsar en grävmaskin, i varje värld. En skylt, **Grävmaskin**, hänger över den när du är nära, och Stjärnsystemskartan markerar varje farosektor som har en: markeringens färg är grävmaskinens tillstånd, och dess verktygstips anger tiden till nästa ändring.
 2. **Öppna panelen.** Klicka på skylten. Fönstret **Jättegrävmaskin** fungerar så länge ditt skepp är inom kontrollpanelens räckvidd (listan *I korthet* anger den). Ett kamouflerat skepp kan använda den, och att använda den avslutar inte kamouflaget.
 3. **Tanka den.** **Lägg till Dark Matter** lägger en Dark Matter från din last i tanken. Vem som helst kan göra det. Tanken tar aldrig emot mer än grävmaskinen hinner bränna innan den överhettas, så inget bränsle går till spillo.
-4. **Välj vad som ska brytas** i listan och tryck sedan på **Starta brytning**. Det kräver minst en Dark Matter i tanken och en resurs. Vem som helst kan ändra valet fram till starten; när den går är resursen låst. Starten meddelas varje pilot i världen, med ditt namn, sektorn och resursen.
-5. **Håll den.** Medan den bryter faller en låda runt grävmaskinen med några sekunders mellanrum, och strax efter starten anländer de första Slumbering Voids. Försvara grävmaskinen och ta lådorna.
+4. **Välj vad som ska brytas** i listan och tryck sedan på **Starta brytning**. Det kräver minst en Dark Matter i tanken och en resurs. Vem som helst kan ändra valet fram till starten och även medan den går (se *Byta resurs* nedan). Starten meddelas varje pilot i världen, med ditt namn, sektorn och resursen.
+5. **Håll den.** Medan den bryter faller en låda runt grävmaskinen med några sekunders mellanrum, och strax efter starten anländer de första Slumbering Voids. Försvara grävmaskinen och ta lådorna. En ström av ljus rinner från pulsaren in i grävmaskinens borr och blir starkare varje gång en av stjärnans strålar sveper förbi; under sista minuten före överhettningen flimrar och bryts den, och när maskinen vilar upphör den.
 6. **Håll koll på värmen.** Värmefältet fylls medan grävmaskinen bryter och töms aldrig medan den väntar. Vid gränsen överhettas grävmaskinen. Gå innan dess: spelet varnar kartan två gånger.
 7. **Den vilar.** Överhettad eller förstörd är grävmaskinen och dess pulsar bestrålade tills vilan är över; sedan är den redo igen, med värmen nollställd och skrovet fullt.
 
-Fönstret visar dessutom sektorn, tanken (en cell för varje Dark Matter, den som brinner ritad till en del), hur mycket Dark Matter du bär, grävmaskinens skrov, vad varje resurs ger per minut i din värld och, medan den bryter, tiden till nästa våg och de Voids som lever. När något nekas läser du skälet i rött: du är för långt från panelen, du har ingen Dark Matter, tanken är full, det finns inget bränsle eller ingen vald resurs än, resursen är låst medan den går, eller grävmaskinen är het.
+Fönstret visar dessutom sektorn, tanken (en cell för varje Dark Matter, den som brinner ritad till en del), hur mycket Dark Matter du bär, grävmaskinens skrov, vad varje resurs ger per minut i din värld och, medan den bryter, resursen som bryts nu, vad varje resurs har lagt sedan grävmaskinen senast svalnade, tiden till nästa våg och de Voids som lever. När något nekas läser du skälet i rött: du är för långt från panelen, du har ingen Dark Matter, tanken är full, det finns inget bränsle eller ingen vald resurs än, grävmaskinen går redan, ett byte kom för tätt efter det förra, eller grävmaskinen är het.
+
+### Byta resurs {#switching-the-resource}
+
+Vem som helst inom panelens räckvidd kan välja en annan rad i listan medan grävmaskinen bryter. Det går inget förlorat och inget skapas av det:
+
+- **Lådorna behåller sin takt, och tiden räknas.** En låda läggs fortfarande i samma takt. Den delas efter de sekunder varje resurs bröts, i den resursens takt: en stund som var till hälften Thulium och till hälften Velkonite läggs som en halv låda av vardera. Lådorna som redan ligger på marken förblir som de var. Bränslet, värmen och körningens klocka rörs inte, och Voids märker ingenting.
+- **Varje resurs räknas för sig.** Det en resurs har lagt sedan grävmaskinen senast svalnade sparas åt den, och dess tak (åtta timmar för Skylabs malmer, en full körning för de andra) räknar bara det. Femton minuter Thulium och femton Velkonite lägger hälften av varje körning, och en blandning är aldrig värd mer än den bästa resursen ensam.
+- **Ett byte med några sekunders mellanrum,** som anges i listan *I korthet*. Samma resurs igen är ingenting; valet före starten har ingen väntan. Piloterna i sektorn får veta det på fliken System.
+- **Ditt eget byte** har ett eget, tyst klick, i den nya resursens tonhöjd, när spelet säger ja.
 
 | Tillstånd | Vad det är | Vad du kan göra |
 | :--- | :--- | :--- |
 | **Redo** | Inget bränsle, eller bränsle och inte startad. Värmen hittills finns kvar. | Lägga till Dark Matter, välja, starta. |
-| **Bryter** | Den bränner Dark Matter och samlar värme; resursen är låst. | Lägga till mer Dark Matter upp till det utrymme som finns kvar, slåss mot Voids, ta lådorna. |
+| **Bryter** | Den bränner Dark Matter och samlar värme; resursen kan bytas. | Lägga till mer Dark Matter upp till det utrymme som finns kvar, byta resurs, slåss mot Voids, ta lådorna. |
 | **Överhettad** | Värmen nådde sin gräns. Tanken töms; lådorna som redan lagts ligger kvar. | Ingenting. Området är bestrålat: håll dig borta. |
 | **Förstörd** | Voids tog skrovet till noll. Bränslet är förlorat, skrovet är fullt igen på en gång. | Ingenting. Området är bestrålat: håll dig borta. |
 
@@ -49,7 +58,7 @@ Om bränslet tar slut före gränsen går grävmaskinen tillbaka till **Redo** m
 
 ## Vad den bryter {#what-it-mines}
 
-En full tank ger ungefär vad fem piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer en resurs per körning. En låda är densamma för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium.
+En full tank ger ungefär vad fem piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer resursen före starten och kan byta den medan grävmaskinen går. En låda är densamma för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -80,7 +89,7 @@ En körning lockar **Slumbering Voids**, jägare från den försvunna civilisati
 <!-- excavator-voids:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- **Vågor.** 2 Slumbering Voids var 2 min; den första 1 min efter starten, och ingen under körningens sista 1 min. Högst 8 lever på en karta samtidigt: en våg som finner kartan full hoppas över.
+- **Vågor.** 3 Slumbering Voids var 2 min; den första 1 min efter starten, och ingen under körningens sista 1 min. Högst 12 lever på en karta samtidigt: en våg som finner kartan full hoppas över.
 - **Ankomst.** En våg dyker upp vid kartans kant, 900 enheter innanför den och minst 2 500 enheter från varje portring, och flyger till grävmaskinen på ungefär 20 s. Meddelandet nämner den sida av kartan den kommer från.
 - **Jakt.** En Void jagar den närmaste pilot den kan se inom 2 500 enheter, och håller sig inom 7 000 enheter från grävmaskinen.
 - **Belägring.** När ingen pilot de kan se är inom 7 000 enheter från grävmaskinen på 15 s, anfaller Voids grävmaskinen, och varje laser gör 25 % av sin vanliga skada. Vid noll förstörs grävmaskinen: dess bränsle är förlorat, dess skrov är fullt igen på en gång, och den vilar i 1 h.
@@ -88,7 +97,7 @@ En körning lockar **Slumbering Voids**, jägare från den försvunna civilisati
 
 <!-- excavator-voids:end -->
 
-- **En Void är en glaskanon.** Dess sköld är stor men tar upp 80 % av en träff, så skrovet bakom är borta efter några gånger sin storlek i skada, och mycket tidigare med sköldpenetration. Två eller tre välutrustade piloter klarar en körning i Alfa; Beta och Gamma kräver större grupper, som för varje utomjording.
+- **En Void är en glaskanon.** Dess sköld är stor men tar upp 80 % av en träff, så skrovet bakom är borta efter några gånger sin storlek i skada, och mycket tidigare med sköldpenetration. Fyra piloter utan sköldpenetration, eller två med en bra utrustning, klarar en körning i Alfa; Beta och Gamma kräver större grupper, som för varje utomjording.
 - **Kamouflage försvarar inte platsen.** Voids ser inte kamouflerade skepp, så en pilot som gömmer sig håller dem inte borta från grävmaskinen; och en pilot som tar skydd i en portring kan inte nås och räknas inte heller.
 - **Varje Void betalar** efter skadan du gjorde på den och tappar en låda ([så betalar en bossnedskjutning](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps.
 
@@ -120,7 +129,7 @@ Brytningen lägger på värme sekund för sekund. Värmen är **kumulativ och sv
 
 Grävmaskinen har **ingen särskild ring**: din världs vanliga regler gäller, så rivaler kan komma, skjuta på dig och ta lådorna (en låda är fri för vem som helst från det ögonblick den ligger). Att stjäla och lägga bakhåll hör till eventet. Några saker att räkna med:
 
-- **Den som tankar är inte den som vinner.** Vem som helst får tanka, välja och starta; en rival kan ändra resursen innan du trycker på Starta. Kontrollera valet innan du trycker.
+- **Den som tankar är inte den som vinner.** Vem som helst får tanka, välja och starta; en rival kan ändra resursen innan du trycker på Starta, och medan den går. Kontrollera valet innan du trycker och håll ett öga på raden ovanför listan.
 - **Bränslet är i fara.** Om grävmaskinen förstörs är Dark Matter i dess tank förlorad, och ingen får tillbaka den. Det mesta som kan gå förlorat är den fulla tanken.
 - **Ta med en grupp** och bestäm vem som stannar vid grävmaskinen och vem som tar lådorna, och håll ett öga på värmen: piloterna som tar de sista lådorna är de som strålningen fångar.
 - **Voids kommer till grävmaskinen, inte till lådorna.** En grupp som håller grävmaskinen sysselsätter Voids; en som drar iväg lämnar den åt belägringen.
@@ -138,7 +147,7 @@ Varje handling på panelen och varje varning har ett eget lågmält ljud, på ef
 
 ## Läs mer {#where-to-read-more}
 
-- [Farosektorer](/wiki/01-General/Danger-Sectors.md): var pulsarerna står och vad mer som är nytt.
+- En pilot **byter** resurs på en grävmaskin som bryter, med den nya resursen. [Farosektorer](/wiki/01-General/Danger-Sectors.md): var pulsarerna står och vad mer som är nytt.
 - [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md): Slumbering Void, Inert Mass och Unwakened.
 - [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) och [Svart hål](/wiki/03-Mechanics/Black-Hole.md): var bränslet kommer ifrån.
 - [Resurser](/wiki/06-Items/Resources.md): malmerna grävmaskinen ger.

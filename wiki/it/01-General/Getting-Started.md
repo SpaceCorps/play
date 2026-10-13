@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf147fcd54ecb68 -->
+<!-- wiki-i18n source: 3b9d23ee237cda65 -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -116,3 +116,4 @@ Quando qualcosa va male, una riga sotto i numeri dice di chi è la colpa: *Rete 
 5. **Copiare dalla wiki**: trascina il mouse su un testo qualsiasi di un articolo per selezionarlo e premi `Ctrl+C` (`Cmd+C` su Mac) per copiarlo; un clic su un link apre comunque la pagina. **Copia pagina**, in cima a ogni articolo, copia l’intera pagina come Markdown, da incollare in una chat o in una nota.
 6. **Ricerca prima di costruire**: l’Assemblaggio crea solo ciò che il Centro ricerche del tuo [Skylab](/wiki/03-Mechanics/Skylab.md) ha ricercato. Si apre al livello 10 del Nucleo, e la pagina [Ricerca](/wiki/03-Mechanics/Research.md) elenca le tecnologie, i loro tempi e il carburante.
 7. **Formazioni di droni**: quando possiedi un drone e hai ricercato e costruito una formazione, trascinala sulla tua barra rapida dall’elenco Formazioni e indossala con il tasto del suo slot: uno scudo più grande in cambio di armi più deboli, razzi più duri in cambio di uno scafo più sottile. Ognuna dà anche ai tuoi droni una forma in cui volare. Vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md).
+8. **Pianifica con la Biblioteca**: **Biblioteca › Ricettario** mostra, per qualsiasi oggetto, un diagramma di ciò che serve, i passaggi in ordine e i costi completi senza ciò che possiedi già, e **Biblioteca › Build** fa lo stesso per un’intera nave, con 15 preset da cui partire. Vedi [Ricettario e build](/wiki/01-General/Recipe-Book.md).

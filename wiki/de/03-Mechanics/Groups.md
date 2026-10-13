@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -60,6 +60,14 @@ Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der
 ### Tippen {#typing}
 
 **Enter** öffnet den Chat und gibt ihm die Tastatur. Schickst du eine Zeile mit **Enter** ab, behält das Feld die Tastatur, sodass die nächste Zeile gleich folgen kann; solange das so ist, bleiben die Aktionsleiste und die Fähigkeitstasten aus. Das Tippen endet, wenn du **Escape** drückst, **Enter** drückst, ohne etwas getippt zu haben, mit der linken Maustaste auf die Karte klickst (derselbe Klick steuert weiterhin dein Schiff), bei leerem Feld 15 Sekunden lang keine Taste drückst oder dein Schiff zerstört wird. Auf dem Tab System, in den du nicht schreiben kannst, bringt dich **Enter** zurück in den Kanal, in den du zuletzt geschrieben hast.
+
+### Der Chat an der Station {#chat-at-the-station}
+
+An der Station ist der Chat eine **Leiste am Fuß jeder Seite**, damit dir nichts entgeht, während du die Forschung prüfst oder Munition kaufst. Eingeklappt, so beginnt sie, ist sie eine Zeile hoch: der Name des Chats, die Zahl der Zeilen, die du noch nicht gelesen hast (alle Tabs zusammen), und die neueste Zeile. **Klicke** darauf, um den Chat zu öffnen. Geöffnet hat sie die Tabs, den Verlauf und das Eingabefeld des Chatfensters, mit demselben Zeichenzähler, derselben Pause und denselben Ablehnungen unter dem Feld; ihren oberen Rand kannst du ziehen, um sie höher oder niedriger zu machen. Klicke auf ihre Titelleiste oder drücke **Escape**, um sie wieder einzuklappen. **Enter** gibt dem Feld die Tastatur, solange die Leiste offen ist und kein anderes Textfeld sie hat. Ein Tab, den du ansiehst, gilt als gelesen.
+
+Es ist derselbe Chat wie der des Fensters. Was gesagt wird, während du angedockt bist, steht nach dem Start im Fenster, und was im Flug gesagt wurde, steht beim Andocken in der Leiste; **Global-Chat ausblenden**, ignorierte Piloten und Meldungen funktionieren genauso (Rechtsklick auf einen Namen). An der Station kannst du in **Global** und **Gruppe** schreiben. **Lokal** ist der Kanal einer Karte: Sein Tab zeigt, was im Flug gesagt wurde, und eine mit `/l` getippte Zeile wird nicht gesendet. Ein Spielserver von vor 0.4.21 kann keine Zeile von der Station annehmen: Die Leiste zeigt den Chat dann nur an.
+
+Ob die Leiste offen ist und wie hoch sie ist, wird für das nächste Mal gemerkt. Schalte sie mit **Chat-Leiste auf Stationsseiten** unter **Einstellungen › Oberfläche › Chat** aus; das Chatfenster im Flug bleibt unberührt.
 
 ### Die Chat-Regeln {#the-chat-rules}
 

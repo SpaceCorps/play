@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Gefahrensektoren -->
 # Gefahrensektoren {#danger-sectors}
 
@@ -17,6 +17,10 @@ Hier lebte einst eine Zivilisation der alten Galaxie, fortgeschritten und violet
 - **Der Dormant Swamp.** In einer Ecke von `DS-4` steht die Basis der verlorenen Zivilisation: Geschütze, die auf jedes Schiff feuern, das sie sehen, Inert Masses, die sie bewachen, und in der Mitte der Unwakened. Es ist ein Ort, den Piloten noch nicht besuchen sollen. Siehe [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Ein schnellerer, reicherer Dormant-Schwarm.** Der Schwarm erscheint jetzt am Sumpf, kommt nach seiner Zerstörung früher zurück und zahlt doppelt so viel. Siehe [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Vor Tag 11** leuchten nur die Pulsare: Die Gefahrensektoren sind sonst so, wie [Reisen im All](/wiki/01-General/Spacemap%20Travel.md) sie beschreibt. Eine Welt ab Tag 11 hat alles auf einmal.
+
+## Davidski
+
+Vom ersten Tag der Saison an hat eines von `DS-1`, `DS-2` und `DS-3` einen Besucher: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, ein Händler in einer goldenen Ironclad, der sie der Reihe nach abfliegt, eines pro Tag, und der einmal am Tag zu einer Zeit ausfliegt, die niemand ankündigt. Er schießt nie zuerst und schießt zurück, wenn er getroffen wird, und er zahlt wie ein Boss, wenn er zerstört wird. Er gehört keinem Konzern an und verkauft jede Sorte, die die [Auktion](/wiki/03-Mechanics/Auction.md) führt, zu einem Vielfachen des Shop-Preises.
 
 ## Wo alles liegt {#where-everything-is}
 
@@ -59,3 +63,4 @@ Jede Welt hat von allem ihre eigene Kopie, und ein Pulsar und sein Bagger stehen
 - [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md) und [Schwärme](/wiki/05-Swarms/Swarms.md).
 - [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md) und [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): woher der Treibstoff kommt.
 - [Asteroidenabbau](/wiki/03-Mechanics/Asteroid-Mining.md): die Felsen der Gefahrensektoren.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): der Händler, der einmal am Tag unangekündigt auf einem Gefahrensektor ausfliegt.

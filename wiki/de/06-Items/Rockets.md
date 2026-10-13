@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
@@ -11,6 +11,7 @@ Raketen sind eine zweite Waffe neben deinen Lasern: ein Schuss alle paar Sekunde
 - **Explosionen sind in der Mitte am stärksten.** Ember- und Scatter-Raketen explodieren und treffen jedes Schiff im Ring: die volle Zahl im Zentrum, die Hälfte davon am Rand.
 - **Ein Timer für alle.** Nach jedem Abschuss wartest du 3 Sekunden bis zum nächsten, egal welche Rakete es ist. Nur die N.U.K.E. und die N.I.K.E. lassen dich länger warten (4,1 und 4,6 Sekunden), weil sie so lange in der Luft bleiben.
 - **Gelenkt oder geradeaus.** Eine gelenkte Rakete (Lancet, Ember) braucht ein Ziel, das du ausgewählt hast. Eine geradeaus fliegende (Rivet, Scatter) fliegt zu deinem Cursor.
+- **Eines trägst du noch wie eine Rakete.** Die **EMP Charge** ist ein Verbrauchsgut: ein Stapel in deinem Inventar, der über die Aktionsleiste eingesetzt wird, ohne Slot ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Jede Art ist eine **Familie**, benannt nach ihrer gewöhnlichen Rakete, und die 
 - **Gelenkte** Raketen brauchen beim Start ein gewähltes Ziel innerhalb ihrer **Aufschaltreichweite**. Sie steuern ihm mit begrenzter Wendigkeit nach, ein schnelles Schiff weit weg kann einer billigen also davonfliegen. Stirbt das Ziel, verlässt es die Karte oder erreicht es eine Schutzzone, fliegt die Rakete geradeaus weiter und sucht sich kein anderes.
 - **Geradeaus** fliegende Raketen brauchen kein Ziel und ignorieren das gewählte: Sie fliegen immer zu deinem **Cursor**, zu dem Punkt darunter in der Flugansicht. **Klicke auf den Slot einer Geradeaus-Rakete, um sie scharf zu machen** (der Slot bekommt einen weißen Rahmen und ein Fadenkreuz, und dein Mauszeiger wird über dem Weltraum zum Fadenkreuz), dann **klicke in den Weltraum**: Die Rakete fliegt zu dem Punkt, den du angeklickt hast, und dein Schiff bleibt, wo es ist. Esc, ein Rechtsklick oder derselbe Slot noch einmal macht sie wieder unscharf. Laden die Raketen noch nach, sagt dir der Klick nur das, und die Rakete bleibt scharf. Die Zahlentasten und **Rakete feuern** feuern sofort zu dem letzten Punkt, den der Cursor in der Flugansicht hatte; war der Cursor noch nicht dort, fliegen sie in die Richtung, in die dein Schiff **zeigt**. Sie fliegen geradeaus, ein Schiff, das mit hoher Geschwindigkeit kreuzt, kann ihnen also ausweichen.
 - Eine **Einzelziel**-Rakete trifft das erste Schiff, das sie treffen darf (eine gelenkte nur ihr Ziel). Eine **Flächenschaden**-Rakete explodiert neben dem ersten Schiff, auf das sie trifft, an dem Punkt, auf den du sie gerichtet hast, oder wo ihr Flug endet, und trifft jedes Schiff innerhalb ihres **Explosionsradius**: vollen Schaden im Zentrum, die Hälfte davon am Rand. Der Ring, den die Explosion auf der Karte zeichnet, ist ihre genaue Reichweite.
-- **Asteroiden.** Eine Rakete, die auf einen [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md) abgefeuert wird, fliegt auf ihn zu, und der erste Asteroid im Weg einer beliebigen Rakete hält sie auf und nimmt den Treffer anstelle des Schiffs dahinter ([Deckung](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Die zwölf Raketen des Shops und die N.U.K.E. können einen zerbrechen; die N.I.K.E. kann nicht auf einen abgefeuert werden und fliegt über sie hinweg. Auch deine Laser beschädigen einen Asteroiden, aber nur mit 5 % dessen, was sie einem Schiff antun: Die Rakete ist das richtige Werkzeug dafür.
+- **Asteroiden.** Eine Rakete, die auf einen [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md) abgefeuert wird, fliegt auf ihn zu, und der erste Asteroid im Weg einer beliebigen Rakete hält sie auf und nimmt den Treffer anstelle des Schiffs dahinter ([Deckung](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Eine [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) hält eine Rakete genauso auf; die N.I.K.E. fliegt darüber hinweg. Die zwölf Raketen des Shops und die N.U.K.E. können einen zerbrechen; die N.I.K.E. kann nicht auf einen abgefeuert werden und fliegt über sie hinweg. Auch deine Laser beschädigen einen Asteroiden, aber nur mit 5 % dessen, was sie einem Schiff antun: Die Rakete ist das richtige Werkzeug dafür.
 
 ## Die zwölf Raketen {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einz
 Die zwölf Raketen der ersten Tabelle werden gekauft (Credits für die gewöhnlichen und seltenen, Thulium für die epischen); die N.U.K.E. und die N.I.K.E. werden hergestellt.
 
 Siehe auch: [Laser & Munition](/wiki/06-Items/Lasers.md), [Kampf](/wiki/03-Mechanics/Combat.md), [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+Die **EMP Charge** trägst du wie eine Rakete, und doch ist sie keine: Sie ist ein **Verbrauchsgut**. Du kaufst sie im Shop für **500 Thulium** je Ladung und trägst bis zu **20** davon in einem Stapel (was du in der [Auktion](/wiki/03-Mechanics/Auction.md) eingestellt hast, zählt mit); die Verbrauchsgüter-Auswahl der Aktionsleiste zeigt sie mit der Zahl, die du trägst. Sie belegt **keinen Slot** auf irgendeinem Schiff; bis 0.4.21 war sie ein [Extra](/wiki/06-Items/Extras.md), und jede Ladung füllte einen Extra-Slot. Eine Ladung wiegt im Transport-Cache 250.
+
+Drücke den EMP-Slot im Kampf. **3 Sekunden** lang kann dich niemand anvisieren, und **jeder, der dich anvisiert hatte, verliert die Zielerfassung** sofort, wo auch immer er ist: Piloten, Aliens und Konzernpiloten. Einem Piloten, dessen Zielerfassung abbricht, wird „Zielerfassung verloren: Das Ziel hat einen EMP eingesetzt“ gemeldet. Wer in diesen 3 Sekunden versucht, dich anzuvisieren, wird abgewiesen.
+
+- **Er macht dich nicht unverwundbar.** Er stoppt, was eine Zielerfassung braucht: Laser, gelenkte Raketen und die Berührung einer geradeaus fliegenden Einzelziel-Rakete, die durch dich hindurchfliegt. Ein **Flächenschaden** braucht keine Zielerfassung, er trifft dich also weiterhin, wenn du darin stehst, und das Schwarze Loch ist überhaupt kein Schuss.
+- **Du kannst weiter handeln.** Feuern beendet ihn nicht. Du kannst dich tarnen (wenn die eigenen Regeln der Tarnung es zulassen) und andere Extras benutzen.
+- **Er beendet Tarnungen in deiner Nähe.** Jedes Schiff, das im Moment des Impulses im Umkreis von **1.500 Einheiten** um dich getarnt ist, wird sofort sichtbar, und seine CPU beginnt ihre 60 Sekunden Aufladung, egal zu welchem Konzern es gehört, deinem eigenen eingeschlossen; die Schiffe deiner eigenen [Gruppe](/wiki/03-Mechanics/Groups.md) sind die Ausnahme: Sie behalten ihre Tarnung. Dem Piloten wird „Tarnung unterbrochen: In der Nähe wurde ein EMP ausgelöst.“ gemeldet, er sieht sein Schiff mit derselben Welle wieder auftauchen wie bei jeder Enttarnung, und der Slot beginnt seine Aufladung. Du kannst keinen EMP einsetzen, während du selbst getarnt bist.
+- **Er verbirgt nichts.** Alle sehen dich weiterhin, 3 Sekunden lang mit einem knisternden elektrischen Mantel.
+- **Einsetzen kannst du ihn nicht**, solange dich eine Schutzzone schützt, solange du getarnt bist oder innerhalb von **30 Sekunden** nach dem letzten. Überall sonst funktioniert er, auch in den ersten Tagen einer Saison (dem Friedensprotokoll): Aliens jagen dann weiterhin.
+- Ein Alien, das du in diesen 3 Sekunden triffst, wendet sich erst nach deren Ablauf gegen dich. Deine Abschussansprüche und die Regeln des Ersttreffers ändern sich nicht.
+- **Was du siehst.** Ein Impuls gekrümmten Raums rast vom Piloten nach außen, so weit, wie der Impuls Tarnungen beendet (1.500 Einheiten), alle in Reichweite sehen ihn, und ein knisternder elektrischer Mantel umgibt das Schiff 3 Sekunden lang, mit einem Ring um dein eigenes Schiff und einem Chip oben auf dem Bildschirm, die die Zeit mitzählen. Der Zielring von allen, die dich ausgewählt hatten, bricht mit einem kurzen Knacken auseinander. Der EMP-Slot zeigt die Ladungen, die du besitzt, leuchtet blau, solange der Mantel steht, und dunkelt ab, während er sich auflädt.
+- **Ein Druck, eine Ladung.** Ein Druck verbraucht eine Ladung deines Stapels; ist keine mehr da, wird er abgewiesen („Keine EMP Charge mehr.“). Ladungen im Transport-Cache gehören der nächsten Saison und lassen sich nicht einsetzen. Wie Raketen gehen die Ladungen, die du trägst, mit der Saison verloren, wenn du sie nicht in den Transport-Cache legst. Die **30 Sekunden** Aufladung werden nicht gespeichert: Ausloggen oder ein Sprung durch ein Portal löscht sie, und der nächste Impuls kostet eine Ladung.

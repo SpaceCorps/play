@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ A Paragon nehéz harci cirkáló, amelyet kiegyensúlyozott védelemre és táma
 
 ## Háttértörténet {#lore}
 
-A Paragon harci cirkáló a szektorjárőr-flották igáslova. Kitartásra tervezték: nehéz, titánpajzsos hajótestet és fejlett fegyverrögzítő rendszereket kapott. A többfúvókás hajtóműkialakítás kivételes stabilitást ad neki tűz alatt, így megbízható védőbástya az idegen betörésekkel szemben. Sima szürkén kerül ki a Gyártásból, és a dizájnjai is.
+A Paragon harci cirkáló a szektorjárőr-flották igáslova. Kitartásra tervezték: nehéz, titánpajzsos hajótestet és fejlett fegyverrögzítő rendszereket kapott. A többfúvókás hajtóműkialakítás kivételes stabilitást ad neki tűz alatt, így megbízható védőbástya az idegen betörésekkel szemben. Sima szürkén kerül ki a Gyártásból, és a dizájnjai is, amíg egy skin be nem festi őket.

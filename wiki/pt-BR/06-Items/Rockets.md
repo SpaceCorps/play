@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
@@ -11,6 +11,7 @@ Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada pou
 - **As explosões são mais fortes no meio.** Os foguetes Ember e Scatter explodem e ferem toda nave dentro do anel: o número inteiro no centro, metade dele na borda.
 - **Um temporizador para todos.** Depois de qualquer disparo você espera 3 segundos até o próximo, seja qual for o foguete. Só o N.U.K.E. e o N.I.K.E. fazem você esperar mais (4,1 e 4,6 segundos), porque ficam tanto tempo no ar.
 - **Guiado ou reto.** Um foguete guiado (Lancet, Ember) precisa de um alvo que você selecionou. Um reto (Rivet, Scatter) voa em direção ao seu cursor.
+- **Mais uma coisa é levada como um foguete.** A **EMP Charge** é um consumível: uma pilha no seu inventário, usada pela barra de atalhos, sem slot ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Cada tipo é uma **família**, com o nome do seu foguete comum, e a raridade é 
 - Os foguetes **guiados** precisam de um alvo selecionado dentro do **alcance de travamento** quando saem. Eles o perseguem com uma taxa de curva limitada, então uma nave rápida e distante pode escapar de um foguete barato. Se o alvo morre, sai ou chega a uma zona segura, o foguete continua voando reto e não escolhe outro.
 - Os foguetes **retos** não precisam de alvo e ignoram o que você selecionou: eles sempre voam em direção ao seu **cursor**, ao ponto sob ele na visão de voo. **Clique no slot de um foguete reto para armá-lo** (o slot ganha uma moldura branca e uma mira, e o cursor do mouse vira uma mira sobre o espaço), depois **clique no espaço**: o foguete voa em direção ao ponto em que você clicou e a sua nave fica onde está. Esc, um clique direito ou o mesmo slot de novo o solta. Se os foguetes ainda estão recarregando, o clique apenas avisa isso e o foguete continua armado. As teclas numéricas e **Disparar foguete** disparam na hora em direção ao último ponto que o cursor teve na visão de voo; antes de o cursor ter passado por ela, eles voam para onde a sua nave **aponta**. Eles voam reto, então uma nave que cruza em velocidade pode desviar deles.
 - Um foguete de **alvo único** atinge a primeira nave que puder atingir (um guiado, só o alvo dele). Um foguete de **explosão em área** explode ao lado da primeira nave que encontra, no ponto para onde você o apontou, ou onde o voo dele termina, e fere toda nave dentro do seu **raio da explosão**: dano total no centro, metade dele na borda. O anel que a explosão desenha no mapa é o alcance exato dela.
-- **Asteroides.** Um foguete disparado contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) voa até ele, e o primeiro asteroide no caminho de qualquer foguete o detém e recebe o impacto no lugar da nave que está atrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Os doze foguetes da loja e o N.U.K.E. podem quebrar um; o N.I.K.E. não pode ser disparado contra um e voa por cima deles. Seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave: a ferramenta para esse trabalho é o foguete.
+- **Asteroides.** Um foguete disparado contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) voa até ele, e o primeiro asteroide no caminho de qualquer foguete o detém e recebe o impacto no lugar da nave que está atrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Uma [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) detém um foguete do mesmo modo; o N.I.K.E. voa por cima. Os doze foguetes da loja e o N.U.K.E. podem quebrar um; o N.I.K.E. não pode ser disparado contra um e voa por cima deles. Seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave: a ferramenta para esse trabalho é o foguete.
 
 ## Os doze foguetes {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única 
 Os doze foguetes da primeira tabela são comprados (créditos para os Comuns e Raros, Thulium para os Épicos); a N.U.K.E. e a N.I.K.E. são criadas.
 
 Veja também: [Lasers e munição](/wiki/06-Items/Lasers.md), [Combate](/wiki/03-Mechanics/Combat.md), [O buraco negro](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+A **EMP Charge** é levada como um foguete e não é um foguete: é um **consumível**. Você a compra na Loja por **500 Thulium** a carga e leva até **20** em uma pilha (o que você colocou no [Leilão](/wiki/03-Mechanics/Auction.md) conta), e o seletor de **Consumíveis** da barra de atalhos a mostra com o número que você leva. Ela não ocupa **nenhum slot** de nenhuma nave; até a 0.4.21 era um [extra](/wiki/06-Items/Extras.md) e cada carga ocupava um slot de extra. Uma carga pesa 250 no Cache de Transporte.
+
+Pressione o slot EMP em uma luta. Por **3 segundos** ninguém pode travar você, e **todos que estavam com você travado perdem a trava** na hora, onde quer que estejam: pilotos, alienígenas e pilotos de corporação. Um piloto cuja trava se desfaz recebe o aviso “Trava perdida: o alvo usou um EMP”. Quem tentar travar você nesses 3 segundos é recusado.
+
+- **Não é invulnerabilidade.** Ele impede o que precisa de trava: lasers, foguetes guiados e o toque de um foguete reto de alvo único, que atravessa você. Uma **explosão em área** não precisa de trava, então ainda fere você se você estiver dentro dela, e o buraco negro não é um tiro de forma alguma.
+- **Você ainda pode agir.** Atirar não o encerra. Você pode se camuflar (se as regras da própria camuflagem permitirem) e usar outros extras.
+- **Ele encerra as camuflagens por perto.** Toda nave camuflada a até **1.500 unidades** de você quando o pulso dispara é revelada na hora e a CPU dela começa os 60 segundos de recarga, seja qual for a corporação dela, inclusive a sua; as naves do seu próprio [grupo](/wiki/03-Mechanics/Groups.md) são a exceção: elas mantêm as camuflagens. O piloto recebe o aviso “Camuflagem desfeita: um EMP foi disparado por perto.”, vê a nave reaparecer com a mesma ondulação de qualquer fim de camuflagem, e o slot começa a recarregar. Você não pode usar um EMP enquanto você mesmo estiver camuflado.
+- **Ele não esconde nada.** Todo mundo ainda vê você, com uma casca elétrica crepitante durante os 3 segundos.
+- **Você não pode usá-lo** enquanto uma zona segura protege você, enquanto estiver camuflado, nem nos **30 segundos** seguintes ao último. Ele funciona em qualquer outro lugar, inclusive nos primeiros dias de uma temporada (o Protocolo de Paz): os alienígenas continuam caçando nesse período.
+- Um alienígena que você acerta durante os 3 segundos só se volta contra você quando eles terminam. Suas reivindicações de abate e as regras do primeiro acerto não mudam.
+- **O que você vê.** Um pulso de espaço distorcido se propaga a partir do piloto até onde o pulso encerra camuflagens (1.500 unidades), todos no alcance o veem, e uma casca elétrica crepitante envolve a nave durante os 3 segundos, com um anel em volta da sua própria nave e uma etiqueta no topo da tela que contam o tempo. O anel de alvo de todos que tinham você selecionado se desfaz, com um curto estalo. O slot EMP mostra as cargas que você tem, acende em azul enquanto a casca está ativa e escurece enquanto recarrega.
+- **Um toque, uma carga.** Um toque gasta uma carga da sua pilha; sem nenhuma, ele é recusado (“Não resta nenhuma EMP Charge.”). As cargas do Cache de Transporte são da próxima temporada e não podem ser usadas. Como os foguetes, as cargas que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte. Os **30 segundos** de recarga não são salvos: sair do jogo ou saltar por um portal os zera, e o pulso seguinte custa uma carga.

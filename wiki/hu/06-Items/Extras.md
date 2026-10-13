@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93029f432757eb93 -->
+<!-- wiki-i18n source: be4819075016f18a -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -10,15 +10,16 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 | **Cloaking CPU S** | Elrejti a hajódat | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Elrejti a hajódat | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Elrejti a hajódat | 50 | 20 000 Thulium |
-| **EMP Charge** | 3 másodpercig senki sem vehet célba, minden rád irányuló célzás megszakad, és a közeledben minden álcázás véget ér | 1 | 500 Thulium |
+| **Energetic Wall I** | Plazmafalat állít a kurzorodhoz, a hajód közelében: minden lövés, amely átszeli, a falat találja el, és minden benne lévő hajó ég | korlátlan | 250 Thulium |
+| **Energetic Wall II** | Ugyanaz a fal háromszoros életerővel (30 000 és 90 000) | korlátlan | Gyártás: egy Energetic Wall I és 600 Thulium, a kutatása után |
 
-A Cloaking CPU-kat és az EMP Charge-ot csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen.
+A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)).
 
 Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafoglalatába: egy **Base CPU I**-et (10 használat, teleport a vállalatod bázisára) és egy **Repair Drone I**-et. Húzd őket a gyorssáv Extrák menüjéből egy helyre, hogy használhasd őket. A kezdőcsomagot csak az új pilóták kapják meg: aki a 0.4.10 előtt csatlakozott, annak nincs.
 
 Hét további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, valamint az Auto-Repair CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **EMP** az EMP Charge-hoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. Az Extra Slots CPU-knak nincs helyük: a Skylabodba települnek. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
+Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **WAL** az Energetic Wallhoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. Az Extra Slots CPU-knak nincs helyük: a Skylabodba települnek. A három **P.E.T. Station** tárgynak sincs helye: a Gyártásban átvéve maguktól települnek, és helyet adnak 2, 3 és 5 [P.E.T.-nek](/wiki/03-Mechanics/Pets.md). Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
 
 ![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
@@ -31,26 +32,32 @@ Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Dron
 Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
 
 ```tree
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
+P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -77,22 +84,23 @@ Az álcázáshoz nyomd meg a CLK foglalatot. **Egy megnyomás egy használat**, 
 
 Az S, M és L ugyanúgy viselkedik: a nagyobb csomagok csak használatonként olcsóbbak (500, 450, illetve 400 Thulium).
 
-## EMP Charge
+## Energetic Wall
 
-Harc közben nyomd meg az EMP foglalatot. **3 másodpercig** senki sem vehet célba, és **mindenki, aki célba vett, azonnal elveszti a célzást**, bárhol legyen is: pilóták, idegenek és vállalati pilóták. Az a pilóta, akinek megszakad a célzása, ezt az üzenetet kapja: „Célzás elveszett: a célpont EMP-t használt”. Aki a 3 másodperc alatt próbál célba venni, azt elutasítja a játék.
+Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merőlegesen a hajódtól odavezető vonalra: egy 360 egység hosszú (nagyjából három és fél hajómodell) és 10 egység széles sáv. A közepe legfeljebb **450 egységre** van a hajó közepétől: a távolabbi kurzor 450 egységre teszi a vonal mentén, a 120 egységnél közelebbi 120 egységre tolja ki. Amíg a hely kész, egy halvány pontvonal és egy szellemkontúr mutatja, hol fog állni. Ha a játék nem tudja, hol a kurzorod, a hajó közepétől 220 egységre áll előtte, az irányára merőlegesen. A falat a gyorssáv Extrák menüjéből húzd egy helyre a használatához, mint a REP-et. Mögé bújni és egy sávot lezárni való, nem arra, hogy benne állj.
 
-- **Nem sebezhetetlenség.** Azt állítja meg, amihez célzás kell: a lézereket, az irányított rakétákat és az egyenes, egy célpontú rakéta érintését, amely átrepül rajtad. A **területi robbanáshoz** nem kell célzás, ezért ha a hatókörében vagy, így is megsebez, a feketelyuk pedig egyáltalán nem lövés.
-- **Cselekedhetsz.** A tüzelés nem szünteti meg. Álcázhatsz (ha az álcázás saját szabályai megengedik), és használhatsz más extrákat.
-- **Megszünteti a közeledben lévő álcázásokat.** Minden hajó, amely az impulzus elsülésekor **1 500 egységen** belül álcázva van, azonnal láthatóvá válik, és a CPU-ja elkezdi a 60 másodperces töltődést, bármelyik vállalathoz tartozik is, a tiédhez is; kivétel a saját [csoportod](/wiki/03-Mechanics/Groups.md) hajói: azok megtartják az álcázásukat. A pilóta ezt az üzenetet kapja: „Álcázás megszakadt: a közelben EMP sült el.”, a hajó ugyanazzal a hullámzással jelenik meg újra, mint bármelyik leleplezésnél, és a foglalat elkezdi a töltődést. Magad nem használhatsz EMP-t, amíg álcázva vagy.
-- **Nem rejt el semmit.** Mindenki továbbra is lát téged, a 3 másodpercig egy sercegő elektromos burokkal.
-- **Nem használhatod**, amíg biztonságos zóna véd, amíg álcázva vagy, és az előző használat után **30 másodpercen** belül. Máshol mindenhol működik, a szezon első napjaiban is (Békeprotokoll): az idegenek ilyenkor is vadásznak.
-- Az az idegen, amelyet a 3 másodperc alatt eltalálsz, csak a vége után fordul ellened. A kilövési foglalásaid és az első találat szabályai nem változnak.
-- **Mit látsz.** A meghajlított tér hulláma száguld ki a pilótából addig, ameddig az impulzus az álcázásokat megszünteti (1 500 egység), mindenki látja, aki hatótávon belül van, és a 3 másodpercig egy sercegő elektromos burok veszi körül, a saját hajód körül egy gyűrűvel és a képernyő tetején egy címkével, amelyek számolják az időt. Mindenkinek, aki téged jelölt ki, szétesik a célzógyűrűje, egy rövid sercenéssel. Az EMP foglalat a birtokolt töltetek számát mutatja, kéken világít, amíg a burok él, és elsötétül, amíg tölt.
-- **Egy töltet, egy használat.** A foglalatot a leltáradból töltik újra, ha több is van nálad. A **30 másodperces** töltődés nem mentődik: a kijelentkezés vagy a portálon át ugrás törli, a következő impulzus pedig egy töltetbe kerül.
+- **Mit állít meg.** Minden lövés, amely átszeli, a falat találja el, bárki adta le és bármelyik oldalról: lézersorozat, rakéta, egy idegen sorozata. Ami mögötte áll, semmit sem kap, a sebzést a fal életereje viseli. Egy rakéta robbanása, amely a falnál megy el, a közeli oldalán lévő hajókat éri, a mögötte lévőket nem. A saját lövéseidet is: a saját falaidon át nem tudsz kifelé lőni. A N.I.K.E. és a Dormant Swamp lövegtornyai átrepülnek rajta, ahogy az aszteroidák felett is.
+- **Mit éget.** Minden hajó, amelynek a törzse hozzáér a sávhoz, **másodpercenként 2 500 sebzést** kap, előbb a pajzsa, a tiéd is, az idegenek és a vállalati pilóták is. A biztonságos zónában vagy újraéledés védelme alatt álló hajó nem ég, és két sáv egy hajón nem adódik össze.
+- **Meddig tart.** Az 1. szintű fal **30 000 életerőpontos**, a 2. szintű **90 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenkét Helios Beammel és x4 lőszerrel nagyjából 3,5 másodperc alatt lebont egy 1. szintű falat.
+- **Egyszerre egy.** Az új fal a régi helyére kerül. Egy megnyomás után a tárgy **90 másodpercig** tölt; a várakozás a tiéd, nem a hajóé: a halál vagy a kijelentkezés nem rövidíti. Ha kettőt hordasz, a jobb fal számít.
+- **Hol nem.** Nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a sáv biztonságos zónához vagy kapuhoz érne, nem álcázva, és nem ott, ahol a sáv közepe a térképen kívülre esne. A játék megmondja, melyik eset.
+- **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
+- **Az idegenek nem kerülik meg.** Átrepülnek rajta és égnek, vagy a saját oldalukon állva lőnek a falra.
+- **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul.
+- **Hogyan szerezhető.** Az Energetic Wall I a Boltban kapható 250 Thuliumért. Az Energetic Wall II-t a Gyártás készíti egy Energetic Wall I-ből, 10 Ship Fragmentből és 2 Power Core-ból 600 Thuliumért, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)).
 
 ## A Kutatóközpont CPU-i {#research-cpus}
 
-A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc utolsó szintje: az **Extra Slots CPU III** 3-at (és 6 Orvium Reinforced Plate-et), a **Base CPU II** 3-at (és 2 Orvium Reinforced Plate-et), ezért előbb a Dark Matter Plate-et kutasd ki ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
+A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc utolsó szintje: az **Extra Slots CPU III** 4-et (és mellé 2 Ancient Control Unitot és 6 Orvium Reinforced Plate-et), a **Base CPU II** 4-et (és mellé egy Ancient Control Unitot és 2 Orvium Reinforced Plate-et), ezért előbb a Dark Matter Plate-et kutasd ki ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
 <!-- research-cpus:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -106,6 +114,7 @@ A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 óra | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20 000 | 10 perc |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 nap | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 perc |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 óra | – | 15 000 | 10 perc |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 óra | – | 600 | 2 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 

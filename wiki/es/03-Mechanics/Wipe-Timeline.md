@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3f940246579eb7bd -->
+<!-- wiki-i18n source: 825f9cfa421f4871 -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -64,7 +64,7 @@ Para los demás objetos de tu inventario que quieras conservar (p. ej., armament
   * *Recursos / minerales*: pesos variables según la rareza (una placa reforzada de la Forja del Skylab pesa 5 kg)
   * *Cohetes*: no pesan nada: no ocupan sitio en el alijo, así que entran pilas enteras (consulta [Cohetes](/wiki/06-Items/Rockets.md))
 
-Tu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. El Centro de investigación conserva también todo lo que contiene [Investigación](/wiki/03-Mechanics/Research.md): tus tecnologías, la ciencia de su depósito, el Dark Matter introducido, una investigación en curso y el impulso. Igual que las Extra Slots CPU que instalaste, que no son objetos. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte.
+Tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. El Centro de investigación conserva también todo lo que contiene [Investigación](/wiki/03-Mechanics/Research.md): tus tecnologías, la ciencia de su depósito, el Dark Matter introducido, una investigación en curso y el impulso. Igual que las Extra Slots CPU que instalaste, que no son objetos. Igual que tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) (acoplados o guardados), los trabajos en marcha de la Cuna, el Códice, la P.E.T. Station que instalaste y tu [aspecto](/wiki/06-Items/Cosmetics.md): tampoco son objetos. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte. Los Cluster Chunks también son objetos, y lo mismo vale para un motor o un láser montado en el Módulo de motores o el Módulo de defensa del Skylab: sácalo del módulo y ponlo en el alijo para conservarlo. Una expedición del Skylab en curso se liquida hasta el reinicio, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto), y el Skylab empieza la nueva temporada en casa con un mapa del universo nuevo.
 
 ### Confirmar y bloquear {#confirm-lock}
 Antes de que termine la temporada, debes hacer clic en **Confirmar y bloquear** en la interfaz del Materializador.
@@ -115,7 +115,7 @@ Puedes gastar los PR acumulados en mejoras permanentes que se conservan en todas
 * **Hitpoints Boost**: +0,1 % de HP máximos por nivel (máx. 50 % / 500 niveles) - *Costo: 15 PR*
 * **Shield Capacity Boost**: +0,1 % de escudo máximo (**capacidad** de escudo) por nivel (máx. 50 % / 500 niveles) - *Costo: 10 PR*
 * **Shield Absorbance Boost**: +0,1 puntos de la **absorción** de tu escudo por nivel (máx. +10 puntos / 100 niveles) - *Costo: 25 PR*. La absorción es la parte de cada impacto que se llevan tus escudos (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); la mejora le suma puntos fijos: 100 puntos de reinicio compran 4 niveles (+0,4 puntos), 300 compran 12 (+1,2), 500 compran 20 (+2,0) y los 855 puntos de reinicio que pagan en total las fuentes actuales (en sus límites, acumulados de un reinicio a otro) compran 34 (+3,4 puntos). En el máximo (100 niveles, 2.500 PR: una meta para varios reinicios, y hay previstas más fuentes de puntos de reinicio), un 80 % (lo mejor de serie) pasaría a ser un 90 % y el 45 % de un Light Shield Core, un 55 %. La estadística no tiene tope en el 100 %: se le resta la *penetración de escudo* del atacante, así que lo que pasa del 100 % es un margen. Con todos los puntos de reinicio actuales en esta mejora y un juego completo de escudos y células forjado hasta Eterno, una nave llega a entre el 93 % y el 95 %, aproximadamente. (Hasta la versión 0.4.5, esta mejora sumaba una parte de la propia absorción, un 0,1 % de ella por nivel, al mismo precio; los puntos valen lo mismo o más con cualquier absorción, así que los niveles ya comprados no perdieron nada; hasta la 0.4.2 aumentaba en cambio la *velocidad de recarga* del escudo; ahora ninguna mejora permanente aumenta la recarga.)
-* **Luck Boost**: +0,1 % de suerte de crítico y de botín por nivel (máx. 10 % / 100 niveles) - *Costo: 15 PR*
+* **Luck Boost**: +0,1 % de probabilidad de botín de los alienígenas por nivel (máx. 10 % / 100 niveles) - *Costo: 15 PR*
 
 ### Cómo ganar puntos de reinicio {#earning-wipe-points}
 

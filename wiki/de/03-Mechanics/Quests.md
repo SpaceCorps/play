@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -224,6 +224,7 @@ Die Missionen steigen mit deinem Level durch die Sektoren auf:
 - **Ein Abschuss zählt für eine Level-Mission**: für die, die du verfolgst, wenn sie ihn gebrauchen kann, sonst für die erste deiner aktiven Missionen, die das kann. Darüber hinaus zählt er für jede Herausforderung, die ihn verlangt, und jeder Missionsgegenstand-Schritt von dir, der auf dieses Alien wartet, würfelt seinen Drop.
 - Ein Alien, das ein [Konzernpilot](/wiki/03-Mechanics/Company-Pilots.md) deines Konzerns erledigt, während du es bekämpfst, zählt als dein Abschuss, auch für deine Missionen.
 - Ein Abschuss durch jemanden aus deiner [Gruppe](/wiki/03-Mechanics/Groups.md) zählt auch für deine Level-Missionen, wenn du auf derselben Karte bist und in den letzten 15 Sekunden mit einem Laser oder einer Rakete auf irgendetwas gefeuert hast. Für die Linie der Herausforderungen muss das Gruppenmitglied außerdem im Umkreis von 4.000 Einheiten um den Abschuss sein.
+- **Skylab-Expeditionen zählen für manche Schritte.** Die Abschüsse, die dein [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) auf einer Expedition macht, bringen einen Abschuss-Schritt nur dann voran, wenn der Schritt **keinen Sektor nennt**, bis zu **250 Abschüsse am Tag** (UTC) und nur die Abschüsse des Aliens, das der Schritt nennt. Eine Zelle ist kein Sektor, daher zählt ein Schritt, der einen Sektor nennt (`x-1` bis `x-4`, `DS-x` oder `rival x-4`), sie nie, auch nicht in einer Zelle derselben Schwierigkeit. In der Praxis sind das die großen Jagden der Linie der Herausforderungen, deren Aliens in einer Zelle leben (Seeker-Plage, Phantasm-Flut, Bulwark-Mauer und die anderen gegen Seeker, Phantasm, Bulwarks, Goombahs, Crystalys oder die Dormant Force), und keine der Missionen für die Level 1 bis 8. Auch eine Mission mit Zeit- oder Hüllenlimit zählt sie nicht. Sie bringen keine Wipe-Punkte, keine Clan-Linie und keine Ranglistenpunkte.
 
 ## Zeitlimits {#time-limits}
 

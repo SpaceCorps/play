@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3f940246579eb7bd -->
+<!-- wiki-i18n source: 825f9cfa421f4871 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -64,7 +64,7 @@ A leltáradban lévő további tárgyakhoz, amelyeket meg szeretnél menteni (pl
   * *Nyersanyagok / ásványok*: ritkaságtól függően változó súly (a Skylab Kovácsműhelyében készült Reinforced Plate 5 kg-ot nyom)
   * *Rakéták*: egyáltalán nincs súlyuk: nem foglalnak helyet a tárolóban, így egész készletek is beférnek (lásd: [Rakéták](/wiki/06-Items/Rockets.md))
 
-A [Skylabod](/wiki/03-Mechanics/Skylab.md) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. A Kutatóközpont mindent megtart, amit a [Kutatás](/wiki/03-Mechanics/Research.md) tartalmaz: a technológiáidat, a tartályában lévő tudományt, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot. Ugyanígy az általad telepített Extra Slots CPU-k is megmaradnak, mert nem tárgyak. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie.
+A [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. A Kutatóközpont mindent megtart, amit a [Kutatás](/wiki/03-Mechanics/Research.md) tartalmaz: a technológiáidat, a tartályában lévő tudományt, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot. Ugyanígy az általad telepített Extra Slots CPU-k is megmaradnak, mert nem tárgyak. Ugyanígy megmaradnak a [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) (dokkolva vagy tárolva), a Bölcső futó munkái, a Kódex, az általad telepített P.E.T. Station és a [kinézeted](/wiki/06-Items/Cosmetics.md): ezek sem tárgyak. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie. A Cluster Chunkok is tárgyak, és az is, ha egy hajtóművet vagy lézert a Skylab Hajtóműmoduljába vagy Védelmi moduljába építettél: vedd ki a modulból, és tedd a tárolóba, ha meg akarod tartani. Egy folyamatban lévő Skylab-expedíció a wipe-ig elszámolódik, a Trófeaterem kifizeti a kreditjeit, a Thuliumát, a tapasztalatát és a becsületét, és kiürül (a zsákmánya úgy törlődik, mint bármelyik szabad tárgy), a Skylab pedig otthon kezdi az új szezont, új univerzumtérképpel.
 
 ### Megerősítés és zárolás {#confirm-lock}
 A szezon vége előtt rá kell kattintanod a **Zárolás** gombra a Materializáló felületén.
@@ -115,7 +115,7 @@ Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átí
 * **Hitpoints Boost**: +0,1% maximális életerő (HP) szintenként (max. 50% / 500 szint) - *Ár: 15 WP*
 * **Shield Capacity Boost**: +0,1% maximális pajzs (a pajzs **kapacitása**) szintenként (max. 50% / 500 szint) - *Ár: 10 WP*
 * **Shield Absorbance Boost**: szintenként +0,1 pont a pajzsod **elnyeléséhez** (max. +10 pont / 100 szint) - *Ár: 25 WP*. Az elnyelés az a rész, amelyet a pajzsaid minden találatból felfognak (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); a buff fix pontokat ad hozzá: 100 wipe-pont 4 szintet vesz (+0,4 pont), 300 12-t (+1,2), 500 20-at (+2,0), a mai források által fizetett mind a 855 wipe-pont (a felső határukat elérve, a wipe-okon át megőrizve) pedig 34-et (+3,4 pont). A maximumon (100 szint, 2 500 WP: több wipe-ra szóló cél, és további wipe-pont-források vannak tervben) a 80% (az alapból elérhető legjobb) 90%-ra, egy Light Shield Core 45%-a pedig 55%-ra nőne. Az érték nincs 100%-ra korlátozva: abból levonják a támadó *pajzsáthatolását*, így ami 100% fölé jut, az tartalék. Ha a mai wipe-pontok mindegyikét ebbe a buffba teszed, és egy teljesen kovácsolt, Örök ritkaságú pajzs- és cellaszettel játszol, egy hajó nagyjából 93–95%-ot ér el. (A 0.4.5-ös verzióig ez a buff magának az elnyelésnek egy hányadát adta hozzá, szintenként 0,1%-át, ugyanazon az áron; a pontok minden elnyelésnél ugyanannyit vagy többet érnek, így a már megvásárolt szintek nem veszítettek semmit; a 0.4.2-es verzióig ez a buff a pajzs *töltődési* sebességét növelte; ma már egyetlen állandó buff sem növeli a töltődést.)
-* **Luck Boost**: +0,1% kritikus és zsákmányszerencse szintenként (max. 10% / 100 szint) - *Ár: 15 WP*
+* **Luck Boost**: +0,1% zsákmányesély az idegenektől szintenként (max. 10% / 100 szint) - *Ár: 15 WP*
 
 ### Wipe-pontok szerzése {#earning-wipe-points}
 

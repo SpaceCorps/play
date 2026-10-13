@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Quêtes -->
 # Quêtes {#quests}
 
@@ -224,6 +224,7 @@ Les missions montent de secteur en secteur avec votre niveau :
 - **Une élimination compte pour une mission de niveau** : celle que vous suivez, si elle peut s’en servir, sinon la première de vos missions actives qui le peut. En plus, elle compte pour chaque Défi qui la demande, et chacune de vos étapes d’objet de mission qui attend cet alien tire son drop.
 - Un alien qu’un de vos [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) achève pendant que vous le combattez compte comme votre élimination, pour vos missions aussi.
 - Une élimination par quelqu’un de votre [groupe](/wiki/03-Mechanics/Groups.md) compte aussi pour vos missions de niveau quand vous êtes sur la même carte et que vous avez tiré au laser ou à la roquette sur quoi que ce soit dans les 15 dernières secondes. Pour la ligne des Défis, le coéquipier doit en plus se trouver à moins de 4 000 unités de l’élimination.
+- **Les expéditions du Skylab comptent pour certaines étapes.** Les éliminations que votre [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) fait en expédition ne font avancer une étape d’élimination que si l’étape **ne nomme aucun secteur**, jusqu’à **250 éliminations par jour** (UTC) et seulement celles de l’alien que l’étape nomme. Une cellule n’est pas un secteur : une étape qui en nomme un (`x-1` à `x-4`, `DS-x` ou `rival x-4`) ne les compte donc jamais, pas même dans une cellule de même difficulté. En pratique, ce sont les grandes chasses de la ligne des Défis dont les aliens vivent dans une cellule (Fléau de Seekers, Marée de Phantasm, Mur de Bulwarks et les autres contre des Seekers, des Phantasm, des Bulwarks, des Goombahs, des Crystalys ou la Dormant Force), et aucune des missions des niveaux 1 à 8. Une mission avec limite de temps ou de coque ne les compte pas non plus. Elles ne rapportent ni points de réinitialisation, ni ligne de clan, ni points de classement.
 
 ## Limites de temps {#time-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1433a0058afe39fa -->
+<!-- wiki-i18n source: 526e241c3b279356 -->
 <!-- wiki-i18n title: Propulsión -->
 # Propulsión y velocidad {#propulsion-speed}
 
@@ -20,16 +20,16 @@ Lo que fabrica Ensamblaje necesita antes su tecnología; pasa el cursor por un o
 
 ```tree
 Engine I | engine, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#engines
-Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
-Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Engine III | engine, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
 Impulse Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 
 Engine I => Engine II => Engine III
 Impulse Thruster I => Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
@@ -47,7 +47,7 @@ Los motores son la fuente principal de empuje de tu nave. Un motor en una **ranu
 | **Engine II** | Común | +4 | +4 % | -8 % | 2 | Afterburner II | Solo fabricable |
 | **Engine III** | Raro | +6 | +5 % | -15 % | 3 | Afterburner III | Solo fabricable |
 
-El **Engine II** se fabrica en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) a partir de un Engine I, con 1.000 Thulium, 10 Ship Fragments, 1 Power Core y 2 Velkonite Reinforced Plates. El **Engine III** se fabrica allí a partir de un Engine II, con 2.000 Thulium, 60 Ship Fragments, 3 Power Cores y 3 Dark Matter Plates ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada uno conserva el grado de encantamiento del motor que consume, y sus bonificaciones se sortean de nuevo ([Mejoras de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Quita primero de tu nave el motor que vas a consumir (y saca de él sus propulsores): un motor que está instalado o que lleva propulsores no se consume.
+El **Engine II** se fabrica en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) a partir de un Engine I, con 2.000 Thulium, 60 Ship Fragments, 1 Power Core y 4 Velkonite Reinforced Plates. El **Engine III** se fabrica allí a partir de un Engine II, con 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit y 4 Dark Matter Plates ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada uno conserva el grado de encantamiento del motor que consume, y sus bonificaciones se sortean de nuevo ([Mejoras de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Quita primero de tu nave el motor que vas a consumir (y saca de él sus propulsores): un motor que está instalado o que lleva propulsores no se consume.
 
 El bono de escudo de los motores figura en los datos del objeto, pero el juego nunca lo ha aplicado: los motores no debilitan tus escudos, y las tarjetas de los objetos lo omiten.
 
@@ -86,7 +86,7 @@ El Impulse aporta más velocidad fija y el Momentum multiplica más, así que cu
 
 La bonificación de multiplicador de velocidad de un propulsor, de la [Forja](/wiki/06-Items/Forge.md), hace crecer la parte por encima de 1 (una bonificación de +15 % sobre x1,0935 da x1,1075), y la Forja no sortea ninguna bonificación sobre un multiplicador de x1,05 o menos: en el x1,017 a x1,02975 de un Impulse Thruster añadiría menos de 0,005 (+15 % sobre x1,02975 da x1,034). Un Impulse Thruster lleva una bonificación (su velocidad fija), un Momentum Thruster dos.
 
-El nivel I de cada familia se vende por 20.000 créditos. Los niveles II a IV se fabrican en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules), cada uno a partir del propulsor de la misma familia un nivel por debajo (un Impulse Thruster II a partir de un Impulse Thruster I, uno III a partir de uno II, uno IV a partir de uno III), con Thulium, botín y placas: 2 o 4 Velkonite Reinforced Plates de tu Skylab para el nivel II o III, y 3 Dark Matter Plates para el nivel IV. Un propulsor nunca cambia de familia: eliges Impulse o Momentum al comprar el nivel I. Cada uno conserva el grado de encantamiento del propulsor que consume, y sus bonificaciones se sortean de nuevo ([Mejoras de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Los propulsores no caben en una [ranura de habilidad](/wiki/03-Mechanics/Abilities.md); van dentro de motores y núcleos adaptativos.
+El nivel I de cada familia se vende por 20.000 créditos. Los niveles II a IV se fabrican en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules), cada uno a partir del propulsor de la misma familia un nivel por debajo (un Impulse Thruster II a partir de un Impulse Thruster I, uno III a partir de uno II, uno IV a partir de uno III), con Thulium, botín y placas: 4 Velkonite Reinforced Plates de tu Skylab para el nivel II o III, y 4 Dark Matter Plates y una Ancient Control Unit para el nivel IV. Un propulsor nunca cambia de familia: eliges Impulse o Momentum al comprar el nivel I. Cada uno conserva el grado de encantamiento del propulsor que consume, y sus bonificaciones se sortean de nuevo ([Mejoras de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Los propulsores no caben en una [ranura de habilidad](/wiki/03-Mechanics/Abilities.md); van dentro de motores y núcleos adaptativos.
 
 ### Cómo dejar atrás a los alienígenas {#outrunning-aliens}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
@@ -11,6 +11,7 @@ A rakéták a lézereid mellett egy második fegyver: néhány másodpercenként
 - **A robbanások a közepén a legerősebbek.** Az Ember és a Scatter rakéták felrobbannak, és minden hajót megsebeznek a gyűrűn belül: a középpontban a teljes számot, a szélén annak a felét.
 - **Egy időzítő mindegyiknek.** Minden kilövés után 3 másodpercet kell várnod a következőig, bármelyik rakétáról van szó. Csak a N.U.K.E. és a N.I.K.E. után kell tovább várni (4,1, illetve 4,6 másodpercet), mert ennyi ideig vannak a levegőben.
 - **Irányított vagy egyenes.** Az irányított rakétának (Lancet, Ember) kiválasztott célpont kell. Az egyenes (Rivet, Scatter) a kurzorod felé repül.
+- **Egy dolgot még úgy viszel, mint a rakétákat.** Az **EMP Charge** fogyóeszköz: köteg a leltáradban, a gyorssávról használod, és nem foglal foglalatot ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Minden fajta egy **család**, amely a közönséges rakétájáról kapja a nev�
 - Az **irányított** rakétáknak indulásukkor kell egy kijelölt célpont a **befogási távolságukon** belül. Korlátozott fordulási sebességgel követik, ezért egy távoli, gyors hajó lehagyhat egy olcsót. Ha a célpont megsemmisül, távozik vagy biztonságos zónába ér, a rakéta egyenesen repül tovább, és nem választ másikat.
 - Az **egyenes** rakétáknak nem kell célpont, és figyelmen kívül hagyják a kijelöltet: mindig a **kurzorod** felé repülnek, a repülési nézetben a kurzor alatti pont felé. **Kattints egy egyenes rakéta helyére az élesítéshez** (a hely fehér keretet és célkeresztet kap, az egérkurzorod pedig célkereszt lesz az űr fölött), majd **kattints az űrbe**: a rakéta a rákattintott pont felé repül, a hajód pedig a helyén marad. Az Esc, a jobb klikk vagy ugyanannak a helynek az újbóli megnyomása elengedi. Ha a rakéták még töltődnek, a kattintás csak ezt közli, és a rakéta élesítve marad. A számgombok és a **Rakétakilövés** azonnal a kurzor utolsó, repülési nézetben lévő pontja felé lőnek; amíg a kurzor még nem járt ott, abba az irányba repülnek, **amerre a hajód néz**. Egyenesen repülnek, így egy nagy sebességgel keresztező hajó kitérhet előlük.
 - Az **egy célpontú** rakéta az első hajót találja el, amelyet eltalálhat (az irányított csak a célpontját). A **területi robbanás** az első hajó mellett robban fel, amellyel találkozik, a megcélzott pontnál, vagy ahol a repülése véget ér, és minden hajót megsebez a **robbanási sugarán** belül: a középpontban teljes sebzéssel, a szélén annak a felével. A gyűrű, amelyet a robbanás a térképen rajzol, a pontos hatósugara.
-- **Aszteroidák.** Az [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kilőtt rakéta felé repül, és bármelyik rakéta útjába eső első aszteroida megállítja, és a mögötte lévő hajó helyett ő kapja a találatot ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). A bolt tizenkét rakétája és a N.U.K.E. szét tud lőni egyet; a N.I.K.E.-t nem lehet aszteroidára kilőni, és átrepül felettük. A lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak: erre a munkára a rakéta való.
+- **Aszteroidák.** Az [aszteroidára](/wiki/03-Mechanics/Asteroid-Mining.md) kilőtt rakéta felé repül, és bármelyik rakéta útjába eső első aszteroida megállítja, és a mögötte lévő hajó helyett ő kapja a találatot ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Az [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) ugyanígy megállít egy rakétát; a N.I.K.E. átrepül felette. A bolt tizenkét rakétája és a N.U.K.E. szét tud lőni egyet; a N.I.K.E.-t nem lehet aszteroidára kilőni, és átrepül felettük. A lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak: erre a munkára a rakéta való.
 
 ## A tizenkét rakéta {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen dolog, 
 Az első táblázat tizenkét rakétája megvásárolható (kreditért a Gyakori és a Ritka, Thuliumért az Epikus); a N.U.K.E. és a N.I.K.E. gyártható.
 
 Lásd még: [Lézerek és lőszer](/wiki/06-Items/Lasers.md), [Harc](/wiki/03-Mechanics/Combat.md), [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+Az **EMP Charge**-ot a rakétákhoz hasonlóan viszed magaddal, de nem rakéta: **fogyóeszköz**. A Boltban töltetenként **500 Thulium**-ért veheted meg, és legfeljebb **20**-at hordhatsz egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít); a gyorssáv **Fogyóeszközök** választója mutatja a nálad lévő mennyiséggel. **Egyetlen hajón sem foglal foglalatot**; a 0.4.21-ig [extra](/wiki/06-Items/Extras.md) volt, és minden töltet egy extrafoglalatot töltött ki. Egy töltet 250-et nyom a tranzittárolóban.
+
+Harc közben nyomd meg az EMP foglalatot. **3 másodpercig** senki sem vehet célba, és **mindenki, aki célba vett, azonnal elveszti a célzást**, bárhol legyen is: pilóták, idegenek és vállalati pilóták. Az a pilóta, akinek megszakad a célzása, ezt az üzenetet kapja: „Célzás elveszett: a célpont EMP-t használt”. Aki a 3 másodperc alatt próbál célba venni, azt elutasítja a játék.
+
+- **Nem sebezhetetlenség.** Azt állítja meg, amihez célzás kell: a lézereket, az irányított rakétákat és az egyenes, egy célpontú rakéta érintését, amely átrepül rajtad. A **területi robbanáshoz** nem kell célzás, ezért ha a hatókörében vagy, így is megsebez, a feketelyuk pedig egyáltalán nem lövés.
+- **Cselekedhetsz.** A tüzelés nem szünteti meg. Álcázhatsz (ha az álcázás saját szabályai megengedik), és használhatsz más extrákat.
+- **Megszünteti a közeledben lévő álcázásokat.** Minden hajó, amely az impulzus elsülésekor **1 500 egységen** belül álcázva van, azonnal láthatóvá válik, és a CPU-ja elkezdi a 60 másodperces töltődést, bármelyik vállalathoz tartozik is, a tiédhez is; kivétel a saját [csoportod](/wiki/03-Mechanics/Groups.md) hajói: azok megtartják az álcázásukat. A pilóta ezt az üzenetet kapja: „Álcázás megszakadt: a közelben EMP sült el.”, a hajó ugyanazzal a hullámzással jelenik meg újra, mint bármelyik leleplezésnél, és a foglalat elkezdi a töltődést. Magad nem használhatsz EMP-t, amíg álcázva vagy.
+- **Nem rejt el semmit.** Mindenki továbbra is lát téged, a 3 másodpercig egy sercegő elektromos burokkal.
+- **Nem használhatod**, amíg biztonságos zóna véd, amíg álcázva vagy, és az előző használat után **30 másodpercen** belül. Máshol mindenhol működik, a szezon első napjaiban is (Békeprotokoll): az idegenek ilyenkor is vadásznak.
+- Az az idegen, amelyet a 3 másodperc alatt eltalálsz, csak a vége után fordul ellened. A kilövési foglalásaid és az első találat szabályai nem változnak.
+- **Mit látsz.** A meghajlított tér hulláma száguld ki a pilótából addig, ameddig az impulzus az álcázásokat megszünteti (1 500 egység), mindenki látja, aki hatótávon belül van, és a 3 másodpercig egy sercegő elektromos burok veszi körül, a saját hajód körül egy gyűrűvel és a képernyő tetején egy címkével, amelyek számolják az időt. Mindenkinek, aki téged jelölt ki, szétesik a célzógyűrűje, egy rövid sercenéssel. Az EMP foglalat a birtokolt töltetek számát mutatja, kéken világít, amíg a burok él, és elsötétül, amíg tölt.
+- **Egy nyomás, egy töltet.** Egy nyomás egy töltetet használ el a kötegedből; ha egy sem maradt, elutasítják („Nincs több EMP Charge.”). A tranzittárolóban lévő töltetek a következő szezonéi, és nem használhatók. A rakétákhoz hasonlóan a nálad lévő töltetek elvesznek a szezonnal, hacsak nem teszed őket a tranzittárolóba. A **30 másodperces** töltődés nem mentődik: a kijelentkezés vagy a portálon át ugrás törli, a következő impulzus pedig egy töltetbe kerül.

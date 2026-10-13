@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
+<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
 <!-- wiki-i18n title: Design delle navi -->
 # Design delle navi {#ship-designs}
 
@@ -30,23 +30,23 @@ Le ultime tre colonne sono ciò che ha la nave convertita: il suo scafo e la sua
 
 1. **Ricercalo.** Ogni design è una tecnologia nell’albero delle Navi della vista Ricerca del tuo Skylab ([Ricerca](/wiki/03-Mechanics/Research.md#ship-technologies)). Richiede 10 ore e 10 Dark Matter, e chiede la tecnologia della sua nave e quella della Dark Matter Plate. Ricercarlo non crea ancora nulla.
 2. **Converti la nave.** La sezione Design dell’Assemblaggio elenca le tredici conversioni. Scegline una e conferma: il lavoro entra nella coda di produzione e dura 10 minuti. Termina da solo, e non devi ritirarlo.
-3. **Paga.** Una conversione costa Thulium, circa un quarto dei materiali della ricetta della nave stessa e Dark Matter Plate, come dice la tabella.
+3. **Paga.** Una conversione costa Thulium, materiali e Dark Matter Plate, come dice la tabella.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100.000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100.000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100.000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100.000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100.000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100.000 | 20 | 375 | 65 | 20 | 3 |
 
 La nave da convertire è quella che possiedi di quel tipo (una Paragon per THUNDER, BUCKY o LICH), e non può essere la nave che pilotti: rendi prima attiva un’altra nave. Una nave distrutta non si può convertire.
 
@@ -63,7 +63,7 @@ La nave da convertire è quella che possiedi di quel tipo (una Paragon per THUND
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Tutte e quattro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Insieme chiedono 490 Dark Matter, oltre ai 414 che chiedono tutte le altre tecnologie: 904 per tutte le tecnologie del gioco.
+Insieme chiedono 490 Dark Matter, oltre ai 414 che chiedono tutte le altre tecnologie, e i livelli dei moduli dello Skylab ne chiedono 115 in più: 1.019 per tutte le tecnologie del gioco.
 
 ## Cosa succede alla tua nave {#what-happens-to-your-ship}
 
@@ -75,7 +75,7 @@ Insieme chiedono 490 Dark Matter, oltre ai 414 che chiedono tutte le altre tecno
 
 ## Aspetto e dimensioni {#looks-and-size}
 
-Ogni design ha un modello proprio, quello della sua nave con qualche modifica che mostra cosa fa. Sono di un semplice grigio come le navi, perché il colore possa arrivare più avanti come skin. Il BUCKY e il TITANIC sono più grandi del 20%, e una nave più grande è più facile da colpire con un razzo. L’Hangar segna un design con un distintivo DESIGN, e gli altri piloti ne vedono il nome nella finestra bersaglio e nel kill feed.
+Ogni design ha un modello proprio, quello della sua nave con qualche modifica che mostra cosa fa. Sono di un semplice grigio come le navi finché non indossano una [skin](/wiki/06-Items/Cosmetics.md): un design indossa le skin della nave da cui è stato ricavato, e una conversione mantiene il look. Il BUCKY e il TITANIC sono più grandi del 20%, e una nave più grande è più facile da colpire con un razzo. L’Hangar segna un design con un distintivo DESIGN, e gli altri piloti ne vedono il nome nella finestra bersaglio e nel kill feed.
 
 ## Negozio, Asta e punti {#shop-auction-and-points}
 

@@ -1,6 +1,6 @@
 # Asteroid Mining
 
-**Asteroids** are big rocks that lie in the flight plane of the company sectors and the Danger Sectors. They never move and they never shoot. Break one with **rockets** or **lasers** and it bursts into small **chunks** of Credits, Thulium and ore, which you pick up like [cargo](/wiki/03-Mechanics/Cargo.md). Rockets are the tool for the job: your lasers hurt an asteroid too, but only at 5% of what they do to a ship, and drones do nothing to it.
+**Asteroids** are big rocks that lie in the flight plane of the company sectors and the Danger Sectors. They never move and they never shoot. Break one with **rockets** or **lasers** and it bursts into small **chunks** of Credits, Thulium and ore, which you pick up like [cargo](/wiki/03-Mechanics/Cargo.md). Rockets are the tool for the job: your lasers hurt an asteroid too, but only at 5% of what they do to a ship, and drones do nothing to it. One thing more breaks asteroids for you: a docked **Mole** P.E.T. ([below](#the-mole-pet)).
 
 Mining is a different job from hunting, not a replacement for it: it earns no XP, honor or ranking points, and the rockets you fire cost Credits or Thulium. What it gives you is Credits and Thulium, ore for the [Forge](/wiki/06-Items/Forge.md) and for crafting without a fight, and a job that a [group](/wiki/03-Mechanics/Groups.md) can share. It pays well: by the game's own model an hour at the right asteroids with the right rocket earns about 2.6 to 6.8 times the best hunting hour of your level, once the rockets are paid for. The daily limits of [The worlds](#the-worlds) cap it, and you reach them soon: in Alpha, a steady miner on a good sector reaches the Thulium limit in under 2 hours and the Credits limit in about 2.7 hours.
 
@@ -24,7 +24,7 @@ Mining is a different job from hunting, not a replacement for it: it earns no XP
 
 ## Cover
 
-An asteroid is cover. **The first asteroid on a shot's way takes the shot.** A laser volley, a rocket or the blast of an area rocket, fired at a pilot, an alien or another asteroid, is stopped by the first asteroid on the straight line from the shooter to its target: the target takes nothing, and the asteroid takes the hit. So you can hide behind an asteroid, from pilots and from aliens. Locking on is not a shot and is not stopped: you can lock on a pilot behind an asteroid, but your lasers will hit the asteroid.
+An asteroid is cover. **The first asteroid on a shot's way takes the shot.** A laser volley, a rocket or the blast of an area rocket, fired at a pilot, an alien or another asteroid, is stopped by the first asteroid on the straight line from the shooter to its target: the target takes nothing, and the asteroid takes the hit. So you can hide behind an asteroid, from pilots and from aliens. Locking on is not a shot and is not stopped: you can lock on a pilot behind an asteroid, but your lasers will hit the asteroid. An [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) stops shots the same way, from either side.
 
 - **From inside.** A ship whose middle is inside an asteroid hits that asteroid with every shot, wherever it aims.
 - **What is stopped.** Every laser volley and every rocket of a pilot, an alien (the swarm ships, the Clan Wardens, the Slumbering Voids) and a company's pilot, the N.U.K.E. included. Two things fly over asteroids: the [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) and the guns of the Dormant Swamp. Abilities such as Venom, and the black hole, are not shots.
@@ -39,9 +39,20 @@ Nothing is paid when an asteroid breaks. It bursts into rubble and throws a few 
 
 A bigger asteroid leaves more pieces (the Cash chunks column of The kinds: the Credits and the Thulium come in that many pieces, and the ore in one more). After a pickup your ship goes on by itself to the next chunk of an asteroid that is close by and yours to take; any move order of yours stops it.
 
+From tier 2 of the rocks up, a break can also leave a **Cluster Chunk** whole, in the ore chunk of the party that dealt the most damage: a **Regular Cluster Chunk** from tier 2, a **Mythical Cluster Chunk** from tier 3 and a **Legendary Cluster Chunk** from tier 4, and the Motherlode gives them most often. The chances are in [Resources](/wiki/06-Items/Resources.md#regular-cluster-chunk). Luck does not change them, a P.E.T.'s included. With an Orvium Reinforced Plate a chunk becomes a [P.E.T.](/wiki/03-Mechanics/Pets.md) in the Hangar's Cradle.
+
 ## Who gets the chunks
 
-An asteroid is shared work: any number of pilots can hit one, with rockets or lasers, and the chunks go by the damage each dealt, not by who fires first or last. The Target window's damage line shows who has dealt how much, and what was dealt before you came. The Credits and Thulium of a break are rolled once and split by damage; the ore is shared out between the pilots who dealt the most; the rare finds go to the one who dealt the most. A pilot who dealt less than the share in The rules gets nothing, and the Game Log says so. The chunks are laid for each pilot paid, and they are kept for that pilot and its clan for a while, then free for everyone.
+An asteroid is shared work: any number of pilots can hit one, with rockets, lasers or a Mole's pulses, and the chunks go by the damage each dealt, not by who fires first or last. The Target window's damage line shows who has dealt how much, and what was dealt before you came. The Credits and Thulium of a break are rolled once and split by damage; the ore is shared out between the pilots who dealt the most; the rare finds go to the one who dealt the most. A pilot who dealt less than the share in The rules gets nothing, and the Game Log says so. The chunks are laid for each pilot paid, and they are kept for that pilot and its clan for a while, then free for everyone.
+
+## The Mole P.E.T. {#the-mole-pet}
+
+A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works for you while you fly: every 3 seconds it gives the nearest asteroid within about five and a half ship lengths of your ship a pulse, until it breaks, then takes the next. Its pulses go into the asteroid's damage under your name, so a break pays you as if you had broken it with a rocket: the chunks, the finds, the chance of a Cluster Chunk and your Asteroids mission.
+
+- **How much it breaks.** A Mole at the top (a Legendary of level 20) breaks at least as many asteroids an hour as a pilot who fires the best rocket, Rivet III, at them, and the lower grades and levels fewer ([the table](/wiki/03-Mechanics/Pets.md#how-strong)). It uses no ammo and no rockets. Your lasers, rockets, amps, boosters, formation and P.E.T. Damage do not change a pulse, and armour slows a pulse as it slows a rocket.
+- **Which asteroids.** The nearest one in reach that nobody but you and your group has hurt and that no other asteroid or Energetic Wall covers. It never works the Motherlode, and it does not work in a safe zone, in a cloak, while you jump or while your ship is destroyed.
+- **No limit of its own.** A Mole works every hour you fly, whether you touch the keys or not (an idle ship is a target), and no daily limit stops it. What stays is what stops everybody: the Thulium and Credits limits of [The worlds](#the-worlds), which a top Mole that never stops reaches within about 2 to 6 hours of work. After that its chunks pay only what is left under the limits.
+- **Only one works.** Of the Moles in your Station only the strongest works; the others only boost.
 
 ## The rules
 

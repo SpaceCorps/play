@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6b964707b3b7ca22 -->
+<!-- wiki-i18n source: 8cf3540685bf9b05 -->
 <!-- wiki-i18n title: Escavatore gigante -->
 # Escavatore gigante {#giant-excavator}
 
@@ -16,12 +16,12 @@ Dal primo giorno della stagione un **pulsar** brilla in ciascuno dei settori per
 - **Dove**: Un pulsar con un escavatore gigante in ciascuno dei settori `DS-1`, `DS-2` e `DS-3`, in ogni mondo
 - **Compare**: Il pulsar dal primo giorno della stagione, l’escavatore dal giorno 11 della stagione fino al reset
 - **Carburante**: Dark Matter. Una brucia per 10 min; il serbatoio ne contiene 3, cioè 30 min di estrazione. Chiunque può aggiungerne una alla volta, dal proprio carico
-- **Pannello**: La finestra funziona entro 600 unità dall’escavatore, e la sua etichetta si vede da 1.400 unità. Chiunque può rifornire, scegliere e avviare; la scelta è bloccata finché è in funzione
+- **Pannello**: La finestra funziona entro 600 unità dall’escavatore, e la sua etichetta si vede da 1.400 unità. Chiunque può rifornire, scegliere e avviare, e cambiare la risorsa mentre è in funzione, una volta ogni 10 s
 - **Casse**: Una cassa ogni 20 s, tra 450 e 900 unità dall’escavatore, libera per chiunque dal momento in cui cade. Resta per 5 min, e su una mappa ce ne sono al massimo 24 insieme
 - **Calore**: 30 min di estrazione, in quanti cicli servono, e l’escavatore si surriscalda per 1 h. Il calore resta tra un ciclo e l’altro e sparisce dopo il riposo
 - **Radiazioni**: Finché è surriscaldato o distrutto, l’escavatore (entro 1.100 unità) e il suo pulsar (entro 1.300 unità) bruciano ogni nave all’interno: 10% dei suoi HP totali ogni secondo
 - **Scafo**: 200.000 HP in Alpha, 300.000 in Beta e 400.000 in Gamma. Solo gli Slumbering Void possono danneggiarlo, e solo quando non resta nessun pilota a difenderlo
-- **Void**: 2 Slumbering Void ogni 2 min mentre estrae, i primi 1 min dopo l’avvio; al massimo 8 vivi su una mappa
+- **Void**: 3 Slumbering Void ogni 2 min mentre estrae, i primi 1 min dopo l’avvio; al massimo 12 vivi su una mappa
 - **Avvisi**: I piloti del mondo intero vengono avvisati quando un ciclo parte, quando l’escavatore si surriscalda e quando viene distrutto; il resto va ai piloti del suo settore. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat e nel Registro di gioco, e non in **Globale** né in **Locale**.
 
 <!-- excavator-glance:end -->
@@ -31,17 +31,26 @@ Dal primo giorno della stagione un **pulsar** brilla in ciascuno dei settori per
 1. **Trovane uno.** Dal giorno 11 della stagione ciascuno dei tre settori pericolosi con un pulsar ha un escavatore, in ogni mondo. Un’etichetta, **Escavatore**, gli sta sopra quando sei vicino, e la mappa del Sistema stellare segna ogni settore pericoloso che ne ha uno: il colore del segno è lo stato del suo escavatore, e il suo suggerimento indica il tempo al prossimo cambio.
 2. **Apri il pannello.** Clicca l’etichetta. La finestra **Escavatore gigante** funziona finché la tua nave è nel raggio del pannello dell’escavatore (l’elenco *In breve* lo indica). Una nave occultata può usarlo, e usarlo non pone fine all’occultamento.
 3. **Rifornisci.** **Aggiungi Dark Matter** mette una Dark Matter dal tuo carico nel serbatoio. Può farlo chiunque. Il serbatoio non ne accetta mai più di quante l’escavatore possa bruciarne prima di surriscaldarsi, così non si spreca carburante.
-4. **Scegli cosa estrarre** dall’elenco, poi premi **Avvia l’estrazione**. Serve almeno una Dark Matter nel serbatoio e una risorsa. Chiunque può cambiare la scelta fino all’avvio; una volta in funzione, la risorsa è bloccata. L’avvio viene annunciato a ogni pilota del mondo, con il tuo nome, il settore e la risorsa.
-5. **Difendilo.** Mentre estrae, ogni pochi secondi cade una cassa intorno all’escavatore, e poco dopo l’avvio arrivano i primi Slumbering Void. Difendi l’escavatore e prendi le casse.
+4. **Scegli cosa estrarre** dall’elenco, poi premi **Avvia l’estrazione**. Serve almeno una Dark Matter nel serbatoio e una risorsa. Chiunque può cambiare la scelta fino all’avvio e anche mentre è in funzione (vedi *Cambiare la risorsa* più sotto). L’avvio viene annunciato a ogni pilota del mondo, con il tuo nome, il settore e la risorsa.
+5. **Difendilo.** Mentre estrae, ogni pochi secondi cade una cassa intorno all’escavatore, e poco dopo l’avvio arrivano i primi Slumbering Void. Difendi l’escavatore e prendi le casse. Un flusso di luce scorre dal pulsar alla trivella dell’escavatore e si intensifica ogni volta che uno dei getti della stella lo spazza; nell’ultimo minuto prima del surriscaldamento sfarfalla e si spezza, e quando la macchina riposa si ferma.
 6. **Controlla il calore.** La barra del Calore si riempie mentre l’escavatore estrae e non si svuota mai mentre aspetta. Al limite l’escavatore si surriscalda. Vai via prima: il gioco avvisa la mappa due volte.
 7. **Riposa.** Surriscaldato o distrutto, l’escavatore e il suo pulsar sono irradiati finché il riposo non finisce; poi è di nuovo pronto, con il calore azzerato e lo scafo pieno.
 
-La finestra mostra anche il settore, il serbatoio (una cella per ogni Dark Matter, quella che brucia disegnata a metà), quanta Dark Matter trasporti, lo scafo dell’escavatore, quanto deposita ogni risorsa al minuto nel tuo mondo e, mentre estrae, il tempo alla prossima ondata e i Void vivi. Quando qualcosa viene rifiutato, leggi il motivo in rosso: sei troppo lontano dal pannello, non hai Dark Matter, il serbatoio è pieno, non c’è ancora carburante o una risorsa scelta, la risorsa è bloccata mentre è in funzione, oppure l’escavatore è caldo.
+La finestra mostra anche il settore, il serbatoio (una cella per ogni Dark Matter, quella che brucia disegnata a metà), quanta Dark Matter trasporti, lo scafo dell’escavatore, quanto deposita ogni risorsa al minuto nel tuo mondo e, mentre estrae, la risorsa che si estrae adesso, quanto ha deposto ogni risorsa dall’ultimo raffreddamento dell’escavatore, il tempo alla prossima ondata e i Void vivi. Quando qualcosa viene rifiutato, leggi il motivo in rosso: sei troppo lontano dal pannello, non hai Dark Matter, il serbatoio è pieno, non c’è ancora carburante o una risorsa scelta, l’escavatore è già in funzione, un cambio è arrivato troppo presto dopo l’ultimo, oppure l’escavatore è caldo.
+
+### Cambiare la risorsa {#switching-the-resource}
+
+Chiunque sia nel raggio del pannello può scegliere un’altra riga dell’elenco mentre l’escavatore estrae. Così non si perde nulla e non si crea nulla:
+
+- **Le casse mantengono il loro ritmo, e il tempo conta.** Una cassa viene posata sempre allo stesso intervallo. Viene divisa secondo i secondi in cui ogni risorsa è stata estratta, al ritmo di quella risorsa: un tratto fatto per metà di Thulium e per metà di Velkonite viene posato come mezza cassa di ciascuno. Le casse già a terra restano com’erano. Il carburante, il calore e l’orologio del ciclo non vengono toccati, e i Void non se ne accorgono.
+- **Ogni risorsa si conta a parte.** Ciò che una risorsa ha posato dall’ultimo raffreddamento dell’escavatore viene tenuto per lei, e il suo limite (otto ore per i minerali dello Skylab, un ciclo intero per le altre) conta solo quello. Quindici minuti di Thulium e quindici di Velkonite posano metà di ciascun ciclo, e un miscuglio non vale mai più della migliore risorsa da sola.
+- **Un cambio ogni pochi secondi,** indicato nell’elenco *In breve*. La stessa risorsa di nuovo non è nulla; la scelta prima dell’avvio non ha attesa. I piloti del settore lo vedono nella scheda Sistema.
+- **Il tuo cambio** ha un clic discreto tutto suo, all’altezza della nuova risorsa, quando il gioco dice di sì.
 
 | Stato | Che cos’è | Cosa puoi fare |
 | :--- | :--- | :--- |
 | **Pronto** | Senza carburante, oppure con carburante e non avviato. Il calore accumulato resta. | Aggiungere Dark Matter, scegliere, avviare. |
-| **In estrazione** | Brucia Dark Matter e accumula calore; la risorsa è bloccata. | Aggiungere altra Dark Matter fino al posto rimasto, combattere i Void, prendere le casse. |
+| **In estrazione** | Brucia Dark Matter e accumula calore; la risorsa si può cambiare. | Aggiungere altra Dark Matter fino al posto rimasto, cambiare la risorsa, combattere i Void, prendere le casse. |
 | **Surriscaldato** | Il calore ha raggiunto il limite. Il serbatoio è svuotato; le casse già deposte restano. | Niente. La zona è irradiata: stai fuori. |
 | **Distrutto** | I Void hanno portato lo scafo a zero. Il carburante è perso, lo scafo torna subito pieno. | Niente. La zona è irradiata: stai fuori. |
 
@@ -49,7 +58,7 @@ Se il carburante finisce prima del limite, l’escavatore torna **Pronto** con i
 
 ## Cosa estrae {#what-it-mines}
 
-Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli una risorsa per ciclo. Una cassa è uguale per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi.
+Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli la risorsa prima dell’avvio e puoi cambiarla mentre l’escavatore è in funzione. Una cassa è uguale per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -80,7 +89,7 @@ Un ciclo attira gli **Slumbering Void**, cacciatori della civiltà perduta che a
 <!-- excavator-voids:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- **Ondate.** 2 Slumbering Void ogni 2 min; i primi 1 min dopo l’avvio, e nessuno negli ultimi 1 min di un ciclo. Su una mappa ce ne sono vivi al massimo 8 insieme: un’ondata che trova la mappa piena viene saltata.
+- **Ondate.** 3 Slumbering Void ogni 2 min; i primi 1 min dopo l’avvio, e nessuno negli ultimi 1 min di un ciclo. Su una mappa ce ne sono vivi al massimo 12 insieme: un’ondata che trova la mappa piena viene saltata.
 - **Arrivo.** Un’ondata compare al bordo della mappa, 900 unità verso l’interno e ad almeno 2.500 unità da ogni anello di portale, e vola all’escavatore in circa 20 s. Il messaggio indica il lato della mappa da cui arriva.
 - **Caccia.** Un Void dà la caccia al pilota più vicino che vede entro 2.500 unità, e resta entro 7.000 unità dall’escavatore.
 - **Assedio.** Quando per 15 s nessun pilota visibile si trova entro 7.000 unità dall’escavatore, i Void attaccano l’escavatore, e ogni laser fa 25% del suo danno abituale. A zero l’escavatore viene distrutto: il suo carburante è perso, il suo scafo torna subito pieno, e riposa per 1 h.
@@ -88,7 +97,7 @@ Un ciclo attira gli **Slumbering Void**, cacciatori della civiltà perduta che a
 
 <!-- excavator-voids:end -->
 
-- **Un Void è un cannone di vetro.** Il suo scudo è grande ma assorbe l’80% di un colpo, quindi lo scafo dietro è finito dopo poche volte la sua dimensione in danni, e molto prima con la penetrazione dello scudo. Due o tre piloti ben equipaggiati reggono un ciclo in Alpha; Beta e Gamma richiedono gruppi più grandi, come per ogni alieno.
+- **Un Void è un cannone di vetro.** Il suo scudo è grande ma assorbe l’80% di un colpo, quindi lo scafo dietro è finito dopo poche volte la sua dimensione in danni, e molto prima con la penetrazione dello scudo. Quattro piloti senza penetrazione dello scudo, o due con un buon equipaggiamento, reggono un ciclo in Alpha; Beta e Gamma richiedono gruppi più grandi, come per ogni alieno.
 - **Un occultamento non difende il sito.** I Void non vedono le navi occultate, quindi un pilota che si nasconde non li tiene lontani dall’escavatore; e un pilota che si ripara in un anello di portale non può essere raggiunto e non conta nemmeno.
 - **Ogni Void paga,** in base al danno che gli hai inflitto, e lascia una cassa ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame.
 
@@ -120,7 +129,7 @@ L’estrazione aggiunge calore secondo dopo secondo. Il calore è **cumulativo e
 
 L’escavatore non ha **nessun anello speciale**: valgono le regole normali del tuo mondo, quindi possono arrivare rivali, spararti e prendere le casse (una cassa è libera per chiunque dal momento in cui cade). Rubare e tendere imboscate fa parte dell’evento. Alcune cose da prevedere:
 
-- **Chi rifornisce non è chi vince.** Chiunque può rifornire, scegliere e avviare; un rivale può cambiare la risorsa prima che premi Avvia. Controlla la scelta prima di premere.
+- **Chi rifornisce non è chi vince.** Chiunque può rifornire, scegliere e avviare; un rivale può cambiare la risorsa prima che premi Avvia, e anche mentre è in funzione. Controlla la scelta prima di premere e tieni d’occhio la riga sopra l’elenco.
 - **Il carburante è a rischio.** Se l’escavatore viene distrutto, la Dark Matter nel suo serbatoio è persa e nessuno la riavrà. Il massimo che si può perdere è il serbatoio pieno.
 - **Porta un gruppo** e decidete chi resta vicino all’escavatore e chi prende le casse, e tieni d’occhio il calore: i piloti che prendono le ultime casse sono quelli che le radiazioni colgono.
 - **I Void vengono all’escavatore, non alle casse.** Un gruppo che tiene l’escavatore tiene occupati i Void; chi si allontana lo lascia all’assedio.
@@ -138,7 +147,7 @@ Ogni azione del pannello e ogni avviso ha un suono discreto tutto suo, al volume
 
 ## Dove leggere ancora {#where-to-read-more}
 
-- [Settori pericolosi](/wiki/01-General/Danger-Sectors.md): dove stanno i pulsar e cos’altro c’è di nuovo.
+- Un pilota **cambia** la risorsa di un escavatore che estrae, con la nuova risorsa. [Settori pericolosi](/wiki/01-General/Danger-Sectors.md): dove stanno i pulsar e cos’altro c’è di nuovo.
 - [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md): lo Slumbering Void, l’Inert Mass e l’Unwakened.
 - [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) e [Il buco nero](/wiki/03-Mechanics/Black-Hole.md): da dove viene il carburante.
 - [Risorse](/wiki/06-Items/Resources.md): i minerali che deposita l’escavatore.

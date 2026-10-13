@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ A Paragon é um cruzador de combate pesado, projetado com defesa e ataque equili
 
 ## História {#lore}
 
-O cruzador de combate Paragon é o burro de carga das frotas de patrulha dos setores. Projetado para a resistência, tem um casco pesado revestido de titânio e conjuntos avançados de fixação de armas. Sua configuração de motor de vários bocais lhe permite manter uma estabilidade excepcional sob fogo, o que faz dele um baluarte confiável contra as incursões alienígenas. Ela sai da Montagem em um cinza liso, e os designs dela também.
+O cruzador de combate Paragon é o burro de carga das frotas de patrulha dos setores. Projetado para a resistência, tem um casco pesado revestido de titânio e conjuntos avançados de fixação de armas. Sua configuração de motor de vários bocais lhe permite manter uma estabilidade excepcional sob fogo, o que faz dele um baluarte confiável contra as incursões alienígenas. Ela sai da Montagem em um cinza liso, e os designs dela também, até que uma skin os pinte.

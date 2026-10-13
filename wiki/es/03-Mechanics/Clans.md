@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -9,6 +9,7 @@ Fundar un clan o unirte a uno te permite reunir recursos, mejorar el banco compa
 - Cada clan tiene una **página del clan** que puede abrir cualquier piloto de su mundo: nivel, pilotos, líder, descripción, enlace de Discord, requisitos, puntos combinados y mejoras ([La página del clan](#the-clan-page)). El líder y los colíderes la preparan en **Gestión** ([Gestión](#management)).
 - Un clan tiene un **mundo** (el de su fundador), solo admite pilotos de ese mundo, y **el reinicio lo disuelve junto con su tesoro**: paga el Tesoro de la flota antes de que termine la cuenta atrás ([el reinicio](#the-wipe-disbands-every-clan)).
 - El líder y los colíderes escriben [avisos](#clan-posts) para todo el clan, cada miembro ve [en qué mapa](#where-your-clan-mates-are) vuelan los demás, la ventana [Quién está conectado](#who-is-online) (tecla **H**) invita a tu grupo a cualquier piloto de tu mundo, el líder puede pagar una [bonificación diaria](#4-daily-bonus) del Tesoro de la flota, y la pestaña [Registro](#fleet-log) cuenta al clan lo que ha pasado en él.
+- En vuelo, el botón **Clan** (un banderín) de la barra de herramientas de arriba a la izquierda abre la **ventana del clan**: la página del clan de la estación en una ventana sobre el juego, con las mismas pestañas, respuestas y botones; se recuerdan la posición y el tamaño de la ventana (versión 0.4.21 del juego o posterior; [Invocar a un guardián](#calling-a-warden) cuenta qué cambia en vuelo).
 - Una guerra solo termina cuando el otro clan está de acuerdo, y una alianza o un pacto termina al instante cuando uno de los dos clanes lo cancela ([Diplomacia](#diplomacy)).
 - Cada día de temporada tu clan recibe una [línea diaria](#daily-line): cuatro misiones hechas en orden (derribar alienígenas, volar una distancia y, algunos días, abatir jefes de enjambre) y después un [guardián del clan](#clan-wardens), un jefe que invocas tú y que solo tu clan puede dañar.
 - Cada paso terminado paga puntos de clan al instante: 15, 15, 20, 20 y 30, o sea **100 puntos** por una línea completa.
@@ -180,6 +181,8 @@ Un **aviso** es una nota corta para todo el clan, un tablón de anuncios para la
 
 La columna **Mapa** de la lista de miembros muestra el sector en el que vuela cada piloto de tu clan («T-2»), con el mundo delante cuando no es el tuyo («Beta · T-2»). Se vuelve a leer cada 10 segundos mientras la lista está abierta. Solo se muestra el **mapa**, nunca coordenadas, y no se guarda nada. Un piloto que está **atracado o desconectado** aparece como **Desconectado**, y también uno cuya nave camuflada no podrías ver en un mapa ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): un clan no anula un camuflaje.
 
+La columna **Skylab** que la acompaña muestra dónde está el [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) de cada piloto en el mapa del universo, con el código de la celda: «Atracado en H3» en el puerto de una corporación, «H3, rumbo a K7 en 3 h 12 min» en un viaje (la última celda que pasó, adónde va y el tiempo que falta), «Estacionado en K7» mientras caza y «Destruido en H3» cuando se agotó su casco. Se lee junto con la columna Mapa, y un piloto que aún no tiene mapa del universo (un Núcleo por debajo del nivel 15) muestra un guion. La columna aparece cuando algún piloto de tu clan tiene uno. Solo la ve tu propio clan y un camuflaje no oculta un Skylab. Una destrucción solo se muestra cuando su piloto ha vuelto a mirar el Skylab o le ha dado una orden.
+
 ## Quién está conectado {#who-is-online}
 
 El botón **Quién está conectado** de la barra de herramientas del sistema (arriba a la derecha) o la tecla **H** (reasígnala en Configuración › Controles) abre la ventana **Pilotos conectados**.
@@ -279,7 +282,7 @@ Un **guardián del clan** es el jefe del final de la línea diaria. No es uno de
 
 - **Cuándo.** Después de terminar el paso 4. Un clan tiene **dos invocaciones al día**, un solo guardián fuera a la vez, y al día le deben quedar **al menos 30 minutos**.
 - **Quién.** El líder o un colíder.
-- **Cómo.** En vuelo: el botón **Invocar aquí** aparece en la pantalla de vuelo en cuanto el paso 4 está terminado y te pide confirmar. Colócate fuera de las zonas seguras, en un sector de corporación **x-2, x-3 o x-4** (de cualquier corporación) de tu mundo. La pestaña Operaciones muestra el guardián del día, las invocaciones que quedan y por qué el botón está atenuado, pero un guardián se invoca desde la nave.
+- **Cómo.** En vuelo: el botón **Invocar aquí** aparece en la pantalla de vuelo en cuanto el paso 4 está terminado y te pide confirmar. Colócate fuera de las zonas seguras, en un sector de corporación **x-2, x-3 o x-4** (de cualquier corporación) de tu mundo. La pestaña Operaciones (en la página del clan de la estación o en la ventana del clan en vuelo) muestra el guardián del día, las invocaciones que quedan y por qué el botón está atenuado. En la estación siempre está atenuado, porque un guardián se invoca desde la nave; en la ventana del clan es el botón en sí, atenuado dentro de una zona segura y fuera de los sectores x-2 a x-4 de una corporación, con el motivo del servidor.
 - **Dónde aparece.** A entre 3.000 y 4.500 unidades de tu nave, en tu mundo: solo los pilotos de ese mundo pueden llegar a él. La pestaña recomienda **x-2 para un clan Recluta, x-3 para Veterano y x-4 para Élite**. Siguen valiendo las [reglas de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) habituales del sector que elijas.
 - **Calentamiento.** Permanece **90 segundos** con escudo y pasivo («cargando») y cada piloto del clan que esté conectado sabe dónde. Vuela hacia él mientras se carga: pasados los 90 segundos está activo. Una cápsula bajo la insignia de zona segura de la pantalla de vuelo lo sigue: su nombre, «cargando» con el tiempo que falta, luego «activo» con su sector y el tiempo que falta para que se retire, y «furioso» cuando un Wrath Warden baja de la mitad del casco.
 - **Solo tu clan.** Los disparos de pilotos de cualquier otro clan se ignoran y no hacen que responda.

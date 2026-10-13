@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
+<!-- wiki-i18n source: 73cc670b98038c5d -->
 <!-- wiki-i18n title: Gradi -->
 # Gradi {#ranks}
 
@@ -128,6 +128,7 @@ Un alieno più duro vale di più: un abbattimento dà punti in base a quanti dan
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -139,7 +140,7 @@ Le prime cinque righe sono gli alieni normali, le sei successive le navi dei tre
 
 Per esempio, un pilota di livello 4 con 12.500 di esperienza che ha distrutto 300 Seeker, 80 Phantasm e 10 Bulwark ha 400 + 12 + 300 + 160 + 40 = **912** punti. Questo lo rende Sergente: il minimo è 800, e il grado successivo, Sergente senior, ne chiede 1.000. Fino a Colonnello senior contano solo i punti.
 
-La pagina **Classifiche** (Comunità › Classifiche) mostra come si compongono i tuoi punti, e l’**Albo d’oro** al suo interno elenca i migliori piloti. La **(i)** accanto ai punti PvE lì elenca i cinque alieni, quanto vale un abbattimento in ciascuno degli [sciami](/wiki/05-Swarms/Swarms.md), dalla nave più piccola al boss, lo stesso per gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e i [Custodi del clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
+La pagina **Classifiche** (Comunità › Classifiche) mostra come si compongono i tuoi punti, e l’**Albo d’oro** al suo interno elenca i migliori piloti. La **(i)** accanto ai punti PvE lì elenca i cinque alieni, quanto vale un abbattimento in ciascuno degli [sciami](/wiki/05-Swarms/Swarms.md), dalla nave più piccola al boss, lo stesso per gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e i [Custodi del clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) compare nell’Albo d’oro con una riga tutta sua in ogni mondo, con i punti di un pilota di livello 20; non appartiene a nessuna corporazione, quindi non è su nessuna delle scale.
 
 ## I simboli {#the-symbols}
 

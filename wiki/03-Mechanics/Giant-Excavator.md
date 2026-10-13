@@ -14,12 +14,12 @@ A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from
 - **Where**: One pulsar with one giant excavator on each of `DS-1`, `DS-2` and `DS-3`, in every world
 - **Appears**: The pulsar from the first day of the season, the excavator from season day 11 until the wipe
 - **Fuel**: Dark Matter. One burns for 10 min; the tank holds 3, which is 30 min of mining. Anyone may add one at a time, from their own cargo
-- **Panel**: The sheet works within 600 units of the excavator, and its label shows from 1,400 units. Anyone may fuel, choose and start; the choice is locked while it runs
+- **Panel**: The sheet works within 600 units of the excavator, and its label shows from 1,400 units. Anyone may fuel, choose and start, and switch the resource while it runs, once in 10 s
 - **Boxes**: A box every 20 s, 450 to 900 units from the excavator, free for anyone from the moment it lies. It lies for 5 min, and at most 24 lie on a map at once
 - **Heat**: 30 min of mining, in as many runs as it takes, and the excavator overheats for 1 h. The heat is kept between runs and is gone after the rest
 - **Radiation**: While it is overheated or destroyed, the excavator (within 1,100 units) and its pulsar (within 1,300 units) burn every ship inside: 10% of its total HP every second
 - **Hull**: 200,000 HP in Alpha, 300,000 in Beta and 400,000 in Gamma. Only Slumbering Voids can hurt it, and only when no pilot is left to defend it
-- **Voids**: 2 Slumbering Voids every 2 min while it mines, the first 1 min after the start; at most 8 alive on a map
+- **Voids**: 3 Slumbering Voids every 2 min while it mines, the first 1 min after the start; at most 12 alive on a map
 - **Announced**: The pilots of the whole world are told when a run starts, when the excavator overheats and when it is destroyed; the rest goes to the pilots of its sector. These are System lines: they show in the chat's **System** tab and in the Game Log, and not in **Global** or **Local**.
 
 <!-- excavator-glance:end -->
@@ -29,17 +29,26 @@ A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from
 1. **Find one.** From season day 11 each of the three Danger Sectors that has a pulsar has one excavator, in each world. A label, **Excavator**, hangs over it when you are near, and the Star System map marks every Danger Sector that has one: the mark's colour is the state of its excavator, and its tooltip tells the time to its next change.
 2. **Open the panel.** Click the label. The **Giant excavator** sheet works while your ship is within the panel's range of the excavator (the *At a glance* list gives it). A cloaked ship can use it, and using it does not end the cloak.
 3. **Fuel it.** **Add Dark Matter** puts one Dark Matter from your cargo into the tank. Anyone can. The tank never takes more than the excavator can still burn before it overheats, so no fuel is wasted.
-4. **Choose what to mine** from the list, then press **Start mining**. It needs at least one Dark Matter in the tank and a resource. Anyone can change the choice until the start; once it runs the resource is locked. The start is told to every pilot of the world, naming you, the sector and the resource.
-5. **Hold it.** While it mines a box lies down around the excavator every few seconds, and the first Slumbering Voids arrive soon after the start. Defend the excavator, and take the boxes.
+4. **Choose what to mine** from the list, then press **Start mining**. It needs at least one Dark Matter in the tank and a resource. Anyone can change the choice until the start, and also while it runs (see *Switching the resource* below). The start is told to every pilot of the world, naming you, the sector and the resource.
+5. **Hold it.** While it mines a box lies down around the excavator every few seconds, and the first Slumbering Voids arrive soon after the start. A stream of light flows from the pulsar into the excavator's drill, surging each time one of the star's jets sweeps past; in the last minute before the overheat it flickers and breaks up, and when the machine rests it stops. Defend the excavator, and take the boxes.
 6. **Watch the heat.** The Heat bar fills while the excavator mines and never empties while it waits. At its limit the excavator overheats. Leave before: the game warns the map twice.
 7. **It rests.** Overheated or destroyed, the excavator and its pulsar are irradiated until the rest is over; then it is ready again, with its heat back to nothing and its hull full.
 
-The sheet also shows the sector, the tank (one cell for each Dark Matter, the one that burns drawn partly), how much Dark Matter you carry, the excavator's hull, what each resource lays a minute in your world, and, while it mines, the time to the next wave and the Voids alive. When something is refused you read the reason in red: you are too far from the panel, you have no Dark Matter, the tank is full, there is no fuel yet or no resource chosen, the resource is locked while it runs, or the excavator is hot.
+The sheet also shows the sector, the tank (one cell for each Dark Matter, the one that burns drawn partly), how much Dark Matter you carry, the excavator's hull, what each resource lays a minute in your world, and, while it mines, the resource that mines now, what each resource has laid since the excavator last cooled down, the time to the next wave and the Voids alive. When something is refused you read the reason in red: you are too far from the panel, you have no Dark Matter, the tank is full, there is no fuel yet or no resource chosen, the excavator is already running, a switch came too soon after the last, or the excavator is hot.
+
+### Switching the resource
+
+Anyone within the panel's range can pick another line of the list while the excavator mines. Nothing is lost and nothing is made by it:
+
+- **The boxes keep their clock, and the time counts.** A box is still laid on the same beat. It is cut by the seconds of it that each resource was mined, at that resource's rate: a stretch that was half Thulium and half Velkonite is laid as half a box of each. The boxes already on the ground stay what they were. The fuel, the heat and the clock of the run are not touched, and the Voids do not notice.
+- **Each resource is counted on its own.** What a resource laid since the excavator last cooled down is kept for it, and its cap (the Skylab ores' eight hours, a full run for the others) counts only that. Fifteen minutes of Thulium and fifteen of Velkonite lay half of each run, and a mix is never worth more than the best single resource.
+- **One switch in a short while,** given in the *At a glance* list. The same resource again is nothing; the choice before the start has no wait. The pilots of the sector are told in the System tab.
+- **Your own switch** has a quiet click of its own, at the pitch of the new resource, when the game says yes.
 
 | State | What it is | What you can do |
 | :--- | :--- | :--- |
 | **Ready** | No fuel, or fuel and not started. The heat so far is kept. | Add Dark Matter, choose, start. |
-| **Mining** | It burns Dark Matter and gathers heat; the resource is locked. | Add more Dark Matter up to the room left, fight the Voids, take the boxes. |
+| **Mining** | It burns Dark Matter and gathers heat; the resource can be switched. | Add more Dark Matter up to the room left, switch the resource, fight the Voids, take the boxes. |
 | **Overheated** | The heat reached its limit. The tank is emptied; the boxes already laid stay. | Nothing. The area is irradiated: stay out. |
 | **Destroyed** | Voids brought the hull to zero. The fuel is lost, the hull is full again at once. | Nothing. The area is irradiated: stay out. |
 
@@ -47,7 +56,7 @@ If the fuel runs out before the limit, the excavator goes back to **Ready** with
 
 ## What it mines
 
-A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose one resource per run. A box is the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is.
+A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box is the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -78,7 +87,7 @@ A run draws **Slumbering Voids**, hunters of the lost civilisation that fly in f
 <!-- excavator-voids:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- **Waves.** 2 Slumbering Voids every 2 min; the first 1 min after the start, and none in the last 1 min of a run. At most 8 are alive on a map at once: a wave that finds the map full is skipped.
+- **Waves.** 3 Slumbering Voids every 2 min; the first 1 min after the start, and none in the last 1 min of a run. At most 12 are alive on a map at once: a wave that finds the map full is skipped.
 - **Coming in.** A wave appears at the edge of the map, 900 units inside it and at least 2,500 units from every gate ring, and flies to the excavator in about 20 s. The message names the side of the map it comes from.
 - **Hunting.** A Void hunts the nearest pilot it can see within 2,500 units, and stays within 7,000 units of the excavator.
 - **Siege.** When no pilot it can see is within 7,000 units of the excavator for 15 s, the Voids attack the excavator, and each laser does 25% of its usual damage. At zero the excavator is destroyed: its fuel is lost, its hull is full again at once, and it rests for 1 h.
@@ -86,7 +95,7 @@ A run draws **Slumbering Voids**, hunters of the lost civilisation that fly in f
 
 <!-- excavator-voids:end -->
 
-- **A Void is a glass cannon.** Its shield is large but takes 80% of a hit, so the hull behind it is gone after a few times its size in damage, and much sooner with shield penetration. Two or three well-equipped pilots hold a run in Alpha; Beta and Gamma need larger groups, as for every alien.
+- **A Void is a glass cannon.** Its shield is large but takes 80% of a hit, so the hull behind it is gone after a few times its size in damage, and much sooner with shield penetration. Four pilots with no shield penetration, or two with a good build, hold a run in Alpha; Beta and Gamma need larger groups, as for every alien.
 - **A cloak is no defence of the site.** The Voids do not see cloaked ships, so a pilot who hides does not keep them from the excavator; and a pilot who shelters in a gate ring cannot be reached and does not count either.
 - **Every Void pays,** by the damage you did to it, and drops a box ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Their kills add to your PvE ranking points like a swarm ship's.
 
@@ -118,7 +127,7 @@ Mining adds heat second by second. The heat is **cumulative and never cools whil
 
 The excavator has **no special ring**: the normal rules of your world apply, so rivals may come, shoot you and take the boxes (a box is free for anyone from the moment it lies). Stealing and ambushing are part of the event. A few things to plan for:
 
-- **Who fuels is not who wins.** Anyone may fuel, choose and start; a rival can change the resource before you press Start. Check the choice before you press it.
+- **Who fuels is not who wins.** Anyone may fuel, choose and start; a rival can change the resource before you press Start, and while it runs. Check the choice before you press it, and watch the line above the list.
 - **The fuel is at risk.** If the excavator is destroyed the Dark Matter in its tank is lost, and nobody gets it back. The most that can be lost is the full tank.
 - **Bring a group** and agree who stays near the excavator and who takes the boxes, and keep an eye on the heat: the pilots who take the last boxes are the ones the radiation catches.
 - **The Voids come to the excavator, not to the boxes.** A group that holds the excavator keeps the Voids busy; one that wanders off leaves it to the siege.
@@ -130,7 +139,7 @@ These are System lines (they show in the chat's **System** tab and in the Game L
 - The day event 2 begins: the Danger Sectors have changed.
 - A pilot **starts** an excavator, naming the sector, the resource and the minutes of fuel.
 - The excavator **overheats**, or is **destroyed**.
-- The fuel runs out; the excavator is about to overheat (twice); a **wave** of Voids is coming, with its number and the side of the map it comes from; no pilot is left, so the Voids attack the excavator.
+- A pilot **switches** the resource of a run that mines, naming the new one. The fuel runs out; the excavator is about to overheat (twice); a **wave** of Voids is coming, with its number and the side of the map it comes from; no pilot is left, so the Voids attack the excavator.
 
 Each action of the panel and each warning has a quiet sound of its own, on the effects volume.
 

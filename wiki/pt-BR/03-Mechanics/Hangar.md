@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
+<!-- wiki-i18n source: 3449d9b082e18d30 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -26,8 +26,12 @@ Reparos em andamento não impedem a mudança. Em qualquer outro lugar a janela H
 - **Formações de drones.** A tela Drones lista sob os seus drones as formações que você tem. Elas não são equipadas: em voo você arrasta uma da lista de Formações da barra de atalhos para um slot, e o clique ou a tecla desse slot a usa, com a mesma espera de 2 segundos de qualquer lugar, inclusive dentro de uma zona segura ([Formações de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** As quatro naves comuns, Protos, Kitefin, Ostirion e Nomad (as com que você começa ou que compra), têm 2 slots extras por configuração; as quatro naves que você fabrica na Montagem, Paragon, Ironclad, Wraith e Storm, têm 3. As Extra Slots CPUs do seu Skylab dão 3, 5 ou 7 a mais: 5, 7 ou 9 nas comuns e 6, 8 ou 10 nas fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Com a 0.4.10, um terceiro extra em uma nave comum foi desequipado e foi para o seu inventário: nada foi apagado, e você recebeu uma mensagem no chat.
 - **Blindagem de casco.** As quatro naves que você fabrica têm [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para a blindagem de casco, cada um bloqueado até você pesquisá-lo no Skylab. Uma blindagem que você encaixa ou tira mantém a sua proporção de casco, e continua encaixada quando você troca de configuração.
+- **Visual.** A seção **Visual** da visão Nave, depois da blindagem de casco, e a caixa **Pintura dos drones** da visão Drones abrem o **Guarda-roupa**, onde você experimenta skins, auras e rastros na sua nave girando antes de vesti-los. Onde o equipamento pode mudar, o visual também pode ([Cosméticos](/wiki/06-Items/Cosmetics.md)).
+- **P.E.T.s.** A visão **P.E.T.** contém o Berço, onde um Cluster Chunk e uma Orvium Reinforced Plate viram um P.E.T., as vagas da P.E.T. Station e o cruzamento. Em voo ela só mostra o que você tem: montar, acoplar, desacoplar e cruzar só dá com a nave pousada em uma estação ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Vender não faz parte da janela: o martelo que abre o [Leilão](/wiki/03-Mechanics/Auction.md) pertence ao Hangar da estação, e o próprio Leilão é uma página da estação.
+
+A página **Builds** da Biblioteca pode importar o que está equipado em uma das suas naves, em qualquer uma das duas configurações, como um build que você pode editar, orçar, salvar na sua conta e compartilhar ([Builds](/wiki/01-General/Recipe-Book.md#import)).
 
 ## Trocar de nave {#changing-ship}
 

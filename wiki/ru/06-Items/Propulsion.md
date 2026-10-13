@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1433a0058afe39fa -->
+<!-- wiki-i18n source: 526e241c3b279356 -->
 <!-- wiki-i18n title: Двигательные системы -->
 # Двигательные системы и скорость {#propulsion-speed}
 
@@ -20,16 +20,16 @@
 
 ```tree
 Engine I | engine, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#engines
-Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
-Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Engine III | engine, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
 Impulse Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 
 Engine I => Engine II => Engine III
 Impulse Thruster I => Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
@@ -47,7 +47,7 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 | **Engine II** | Обычный | +4 | +4% | -8% | 2 | Afterburner II | Только крафт |
 | **Engine III** | Редкий | +6 | +5% | -15% | 3 | Afterburner III | Только крафт |
 
-**Engine II** создаётся в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Engine I за 1 000 Thulium, 10 Ship Fragment, 1 Power Core и 2 Velkonite Reinforced Plate. **Engine III** создаётся там же из Engine II за 2 000 Thulium, 60 Ship Fragment, 3 Power Core и 3 Dark Matter Plate ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Каждый сохраняет уровень зачарования израсходованного двигателя, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Сначала снимите с корабля двигатель, который пойдёт в расход (и извлеките из него ускорители): двигатель, который установлен или в который вложены ускорители, не расходуется.
+**Engine II** создаётся в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Engine I за 2 000 Thulium, 60 Ship Fragment, 1 Power Core и 4 Velkonite Reinforced Plate. **Engine III** создаётся там же из Engine II за 4 000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit и 4 Dark Matter Plate ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Каждый сохраняет уровень зачарования израсходованного двигателя, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Сначала снимите с корабля двигатель, который пойдёт в расход (и извлеките из него ускорители): двигатель, который установлен или в который вложены ускорители, не расходуется.
 
 Бонус щита у двигателей записан в данных предметов, но игра его никогда не применяла: двигатели не ослабляют ваши щиты, а в карточках предметов его нет.
 
@@ -86,7 +86,7 @@ Impulse даёт больше фиксированной скорости, Momen
 
 Бонус к множителю скорости ускорителя из [Кузницы](/wiki/06-Items/Forge.md) увеличивает часть выше 1 (бонус +15% к 1,0935x даёт 1,1075x), а на множитель 1,05x и ниже Кузница бонус не выдаёт: на 1,017x–1,02975x у Impulse Thruster он добавил бы меньше 0,005 (+15% к 1,02975x даёт 1,034x). Impulse Thruster несёт один бонус (фиксированную скорость), Momentum Thruster — два.
 
-Ступень I каждого семейства продаётся за 20 000 кредитов. Ступени II–IV создаются в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules), каждая из ускорителя того же семейства ступенью ниже (Impulse Thruster II из Impulse Thruster I, III из II, IV из III) за Thulium, добычу с пришельцев и пластины: 2 или 4 Velkonite Reinforced Plate из вашего Skylab для ступени II или III и 3 Dark Matter Plate для ступени IV. Ускоритель никогда не меняет семейство: Impulse или Momentum вы выбираете, когда покупаете ступень I. Каждый из них сохраняет уровень зачарования израсходованного ускорителя, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ускорители не подходят для [слота способности](/wiki/03-Mechanics/Abilities.md): их место — внутри двигателей и адаптивных ядер.
+Ступень I каждого семейства продаётся за 20 000 кредитов. Ступени II–IV создаются в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules), каждая из ускорителя того же семейства ступенью ниже (Impulse Thruster II из Impulse Thruster I, III из II, IV из III) за Thulium, добычу с пришельцев и пластины: 4 Velkonite Reinforced Plate из вашего Skylab для ступени II или III и 4 Dark Matter Plate и Ancient Control Unit для ступени IV. Ускоритель никогда не меняет семейство: Impulse или Momentum вы выбираете, когда покупаете ступень I. Каждый из них сохраняет уровень зачарования израсходованного ускорителя, а его бонусы выпадают заново ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ускорители не подходят для [слота способности](/wiki/03-Mechanics/Abilities.md): их место — внутри двигателей и адаптивных ядер.
 
 ### Как оторваться от пришельцев {#outrunning-aliens}
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
-Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. A Bolthoz hasonlóan ez is az állomás egyik oldala: dokkolva használod, nem repülés közben. Négy része van. A **Piac** azt mutatja, amit más pilóták árulnak. A **Tételek** a játék saját ajánlatai, óránként három. A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja, és azt, hogyan alakult a kereskedésed.
+Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. Repülés közben ablakban nyílik meg: a bal felső eszköztár **Aukció** gombja (egy kalapács) ugyanazt az oldalt mutatja a játék fölött, az ablak helyét és méretét pedig megjegyzi a játék. Úgy működik, mint az állomáson, azzal a különbséggel, hogy a lőszert, a rakétákat és az EMP Charge-ot repülés közben a hajó számolja, ezért ezeket az állomásról teszed fel (az eladólap zárolva mutatja őket, az okkal együtt); vásárolni és licitálni bárhonnan lehet. Öt része van. A **Piac** azt mutatja, amit más pilóták árulnak. A **Tételek** a játék saját ajánlatai, óránként három. A **Davidski** a repülő kereskedő raktára: minden fajta, amit az aukció listáz, a Bolt árának sokszorosáért; amit a Bolt nem árul, az annyiba kerül, hogy nála venni végső megoldás, a gyártásban használt ritka nyersanyagokat pedig még ezerszer annyiért ([Davidski](/wiki/03-Mechanics/Davidski.md)). A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja, és azt, hogyan alakult a kereskedésed.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - Az aukció használatához **5. szint** kell: hirdetéshez, vásárláshoz és licitáláshoz.
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
 - A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 1 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
-- 82 tárgy hirdethető meg, és 81 közülük Thuliumban is árazható.
+- 83 tárgy hirdethető meg, és 82 közülük Thuliumban is árazható.
 - Egy hirdetés 168 / 336 / 504 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 0,25%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 0,4%.
@@ -26,7 +26,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 
 ## Eladható tárgyak {#marketable-items}
 
-Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen. A Skylab Lőszernyomtatójának és Rakétagyárának lőszerei és rakétái sem eladhatók.
+Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, [Davidskitől](/wiki/03-Mechanics/Davidski.md) megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen. A Skylab Lőszernyomtatójának és Rakétagyárának lőszerei és rakétái sem eladhatók.
 
 A címke egységek száma, nem kapcsoló: egy lőszerköteg tartalmazhat vásároltat és megszerzettet, a kártya pedig azt írja: „Eladható (3 / 5)”. Ha a köteg egy részét felhasználod (lövés, gyártás), először a közönséges egységek fogynak, így az eladhatók tartanak a legtovább. Két darab összevonásakor a [Kovácsműhelyben](/wiki/06-Items/Forge.md#merge) a címke csak akkor marad meg, ha mindkét darabnak megvolt, és az előnézet ezt jelzi; egy meghiúsult kovácsműhelyi lépés a nyersanyagait közönséges egységként adja vissza.
 
@@ -50,13 +50,14 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 | **Fúvókák** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Experimental Fusion Core | 5 |
 | **Rakéták** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Fogyóeszközök** | EMP Charge | 1 |
+| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **Hajótest-páncélzat** | Hull Plating II, Hull Plating III | 2 |
 | **Erőforrások** | Cataclysite (100 darabos csomagokban), Ship Fragment (100 darabos csomagokban), Daraxium (100 darabos csomagokban), Nyxite (100 darabos csomagokban), Quorvium (10 darabos csomagokban), Reinforced Hull Plate (10 darabos csomagokban), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-Hajók, drónok, drónformációk, boosterek és előfizetések soha nem adhatók el, és az Ancient Control Unit, a Velkonite és Orvium érc, a Dark Matter Plate, a Jump CPU, az Extra Slots CPU-k, a N.U.K.E. és a N.I.K.E. sem. A Dark Matter Plate-ek egyáltalán nincsenek az Aukción, sem áruként, sem árként. Nem hirdethető meg az a tárgy, amely fel van szerelve, be van építve egy másik tárgyba, modulokat tartalmaz, vagy a [Tranzittárolóban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) van, és a használt Cloaking CPU, EMP Charge vagy Base CPU sem. A lőszert és a rakétákat az állomásról adják el: előbb szállj le a hajóddal.
+Hajók, drónok, drónformációk, boosterek, előfizetések és [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) soha nem adhatók el, és az Ancient Control Unit, a Velkonite és Orvium érc, a Dark Matter Plate, a Jump CPU, az Extra Slots CPU-k, a P.E.T. Station I–III, a három Cluster Chunk, az Energetic Wall I, a N.U.K.E. és a N.I.K.E. sem. A Dark Matter Plate-ek egyáltalán nincsenek az Aukción, sem áruként, sem árként. Nem hirdethető meg az a tárgy, amely fel van szerelve, be van építve egy másik tárgyba, a Skylabed Hajtóműmodulában vagy Védelmi moduljában van, modulokat tartalmaz, vagy a [Tranzittárolóban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) van, és a használt Cloaking CPU, EMP Charge vagy Base CPU sem. A lőszert és a rakétákat az állomásról adják el: előbb szállj le a hajóddal.
 
 ## Eladás {#selling}
 
@@ -70,11 +71,11 @@ Minden tárgynak van **legkisebb ára**, és **legmagasabb ár nincs**: kérj an
 | Tárgy | Csomagméret | Legkisebb ár, kredit | Legkisebb ár, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32 000 | 32 |
-| Quantum Laser III | 1 | 210 000 | 210 |
-| Helios Beam | 1 | 1 600 000 | 1 600 |
-| Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
-| Heavy Shield Core | 1 | 870 000 | 870 |
-| Impulse Thruster IV | 1 | 980 000 | 980 |
+| Quantum Laser III | 1 | 220 000 | 220 |
+| Helios Beam | 1 | 1 800 000 | 1 800 |
+| Absorption Shield Cell IV | 1 | 1 700 000 | 1 700 |
+| Heavy Shield Core | 1 | 1 300 000 | 1 300 |
+| Impulse Thruster IV | 1 | 1 600 000 | 1 600 |
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 
 | Hirdetés | Ár | Letét | Adó | Az eladó kapja |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: 6. szint, 168 óra | 210 000 kredit | 3 675 kredit | 10 500 kredit | 199 500 kredit |
-| Quantum Laser III: 10. szint, 336 óra | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III: 6. szint, 168 óra | 220 000 kredit | 3 850 kredit | 11 000 kredit | 209 000 kredit |
+| Quantum Laser III: 10. szint, 336 óra | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam: 12. szint, 504 óra | 2 500 000 kredit | 210 000 kredit | 125 000 kredit | 2 375 000 kredit |
 | Helios Beam: 12. szint, 504 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
 
@@ -146,13 +147,13 @@ Arról, hogy valami elkelt, értesítést kapsz: üzenetet, az Aukció hangját 
 
 ## Az óránkénti tételek {#the-hourly-lots}
 
-A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként három tétel (egyszerre tizenkettő nyitott), licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta), a Bolt saját pénznemében. Bármelyik tételre licitálhatsz, bármit viszel is már: a megnyert tétel egészében a tiéd, még ha a Bolt által engedett köteg fölé is visz.
+A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként három tétel (egyszerre tizenkettő nyitott), licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta). **Minden tételre kreditben licitálsz**, bármit kér is a Bolt az áruiért: az a tétel, amelynek áruját a Bolt Thuliumért árulja (például az x2 és x3 lőszer és az EMP Charge), ennek a Thulium-árnak az értékén nyílik meg kreditben, 200 kredit/Thulium árfolyamon, így bármelyik tételre licitálhatsz egyetlen Thulium nélkül is. Bármelyik tételre licitálhatsz, bármit viszel is már: a megnyert tétel egészében a tiéd, még ha a Bolt által engedett köteg fölé is visz.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Minden UTC-óra elején 3 új tétel nyílik, mindegyik más árucikk, és mindegyik 4 órán át nyitva marad, így egyszerre 12 van nyitva.
-- A kikiáltási ár az áru bolti árának 20%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit vagy 1 Thulium többnek kell lennie.
+- A kikiáltási ár az áru bolti árának 20%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit többnek kell lennie.
 - Az ajánlatod azonnal kifizetődik és zárolva marad. Ha valaki túllicitál, azonnal visszakapod.
 - Ha egy tétel utolsó 2 perc idejében licitálsz, a tétel vége a licit után 2 perc múlva lesz, legfeljebb 5 alkalommal.
 - Amit nyersz, repülésre való, nem kereskedésre: sosem eladható. A nyertes licit megsemmisül. Az a tétel, amelyre senki nem licitál, nem kel el, és senkinek nem kerül semmibe.
@@ -164,80 +165,80 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC-óra | Tétel | Teljes méret | Fizetőeszköz | Kikiáltási ár teljes méretnél |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 00:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 00:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 01:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 01:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 01:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 02:00 | Lancet I | 12 500 | Kredit | 1 250 000 kredit |
-| 02:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 03:00 | Lancet I | 12 500 | Kredit | 1 250 000 kredit |
-| 04:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 04:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 04:00 | Rivet I | 12 500 | Kredit | 1 250 000 kredit |
-| 05:00 | Rivet II | 5 000 | Kredit | 800 000 kredit |
-| 05:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 06:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 06:00 | Ember II | 5 000 | Kredit | 800 000 kredit |
-| 07:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 07:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 07:00 | Rivet II | 5 000 | Kredit | 800 000 kredit |
-| 08:00 | Ember I | 12 500 | Kredit | 1 250 000 kredit |
-| 08:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 09:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 09:00 | Ember II | 5 000 | Kredit | 800 000 kredit |
-| 10:00 | Scatter II | 5 000 | Kredit | 800 000 kredit |
-| 10:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 11:00 | Lancet I | 12 500 | Kredit | 1 250 000 kredit |
-| 12:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 12:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 12:00 | Scatter II | 5 000 | Kredit | 800 000 kredit |
-| 13:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 13:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 13:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 14:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 14:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 14:00 | Ember I | 12 500 | Kredit | 1 250 000 kredit |
-| 15:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 15:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 15:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 16:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 16:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 16:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 17:00 | Rivet I | 12 500 | Kredit | 1 250 000 kredit |
-| 17:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 18:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 18:00 | Scatter II | 5 000 | Kredit | 800 000 kredit |
-| 19:00 | Ember II | 5 000 | Kredit | 800 000 kredit |
-| 19:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 20:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 20:00 | Rivet I | 12 500 | Kredit | 1 250 000 kredit |
-| 21:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 21:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 21:00 | Rivet II | 5 000 | Kredit | 800 000 kredit |
-| 22:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 22:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 22:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 23:00 | Ember I | 12 500 | Kredit | 1 250 000 kredit |
+| UTC-óra | Tétel | Teljes méret | Kikiáltási ár teljes méretnél |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1 250 | 250 000 kredit |
+| 00:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 00:00 | Ultra Core | 10 000 | 400 000 kredit |
+| 01:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 01:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 01:00 | Lancet III | 1 250 | 250 000 kredit |
+| 02:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 02:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 02:00 | EMP Charge | 5 | 100 000 kredit |
+| 03:00 | EMP Charge | 5 | 100 000 kredit |
+| 03:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 03:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 04:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 04:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 04:00 | Rivet I | 12 500 | 1 250 000 kredit |
+| 05:00 | Rivet II | 5 000 | 800 000 kredit |
+| 05:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 05:00 | EMP Charge | 5 | 100 000 kredit |
+| 06:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 06:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 06:00 | Ember II | 5 000 | 800 000 kredit |
+| 07:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 07:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 07:00 | Rivet II | 5 000 | 800 000 kredit |
+| 08:00 | Ember I | 12 500 | 1 250 000 kredit |
+| 08:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 08:00 | EMP Charge | 5 | 100 000 kredit |
+| 09:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 09:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 09:00 | Ember II | 5 000 | 800 000 kredit |
+| 10:00 | Scatter II | 5 000 | 800 000 kredit |
+| 10:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 10:00 | EMP Charge | 5 | 100 000 kredit |
+| 11:00 | EMP Charge | 5 | 100 000 kredit |
+| 11:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 11:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 12:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 12:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 12:00 | Scatter II | 5 000 | 800 000 kredit |
+| 13:00 | Lancet III | 1 250 | 250 000 kredit |
+| 13:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 13:00 | Ultra Core | 10 000 | 400 000 kredit |
+| 14:00 | Ultra Core | 10 000 | 400 000 kredit |
+| 14:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 14:00 | Ember I | 12 500 | 1 250 000 kredit |
+| 15:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 15:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 15:00 | Lancet III | 1 250 | 250 000 kredit |
+| 16:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 16:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 16:00 | Scatter III | 1 250 | 250 000 kredit |
+| 17:00 | Rivet I | 12 500 | 1 250 000 kredit |
+| 17:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 17:00 | EMP Charge | 5 | 100 000 kredit |
+| 18:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 18:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 18:00 | Scatter II | 5 000 | 800 000 kredit |
+| 19:00 | Ember II | 5 000 | 800 000 kredit |
+| 19:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 19:00 | EMP Charge | 5 | 100 000 kredit |
+| 20:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 20:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 20:00 | Rivet I | 12 500 | 1 250 000 kredit |
+| 21:00 | Advanced Plasma | 25 000 | 500 000 kredit |
+| 21:00 | Ultra Core | 25 000 | 1 000 000 kredit |
+| 21:00 | Rivet II | 5 000 | 800 000 kredit |
+| 22:00 | Advanced Plasma | 10 000 | 200 000 kredit |
+| 22:00 | Ultra Core | 50 000 | 2 000 000 kredit |
+| 22:00 | Scatter III | 1 250 | 250 000 kredit |
+| 23:00 | EMP Charge | 5 | 100 000 kredit |
+| 23:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
+| 23:00 | Ember I | 12 500 | 1 250 000 kredit |
 
 <!-- market-day:end -->
 

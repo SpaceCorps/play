@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ La Paragon è un pesante incrociatore da combattimento progettato con un equilib
 
 ## Storia {#lore}
 
-L’incrociatore da combattimento Paragon è il cavallo di battaglia delle flotte di pattuglia dei settori. Progettato per la resistenza, ha uno scafo pesante protetto da titanio e sistemi avanzati di montaggio delle armi. La configurazione dei motori a più ugelli gli permette di mantenere una stabilità eccezionale sotto il fuoco nemico, rendendolo un baluardo affidabile contro le incursioni aliene. Esce dall’Assemblaggio in un semplice grigio, e così i suoi design.
+L’incrociatore da combattimento Paragon è il cavallo di battaglia delle flotte di pattuglia dei settori. Progettato per la resistenza, ha uno scafo pesante protetto da titanio e sistemi avanzati di montaggio delle armi. La configurazione dei motori a più ugelli gli permette di mantenere una stabilità eccezionale sotto il fuoco nemico, rendendolo un baluardo affidabile contro le incursioni aliene. Esce dall’Assemblaggio in un semplice grigio, e così i suoi design, finché una skin non li dipinge.

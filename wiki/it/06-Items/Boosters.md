@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Booster -->
 # Booster {#boosters}
 
@@ -38,7 +38,7 @@ I booster usano un sistema di scala additivo:
 1. **Le percentuali di bonus si sommano**: se compri due booster diversi che danno entrambi +10% di danno laser, ottieni un bonus totale di **+20% di danno laser**.
 2. **Le durate si cumulano in modo moltiplicativo**: comprare più volte lo _stesso_ booster ne prolunga la durata attiva. I timer di booster _diversi_ corrono in parallelo.
 3. **Visualizzazione dei timer**: i booster attivi compaiono nell’HUD, nella finestra Booster, con il totale dei bonus attivi raggruppati e la prossima scadenza.
-4. **I numeri li contano**: il danno, gli scudi, la ricarica dello scudo, l’assorbimento, la velocità e lo scafo dell’Hangar, e la tua pagina del pilota, includono i tuoi booster attivi, i potenziamenti dell’Emporio e i bonus del tuo clan; una piccola etichetta *con booster* sulla scheda delle statistiche di combattimento lo indica. Penetrazione, probabilità di critico e portata non cambiano con i booster.
+4. **I numeri li contano**: il danno, gli scudi, la ricarica dello scudo, l’assorbimento, la velocità e lo scafo dell’Hangar, e la tua pagina del pilota, includono i tuoi booster attivi, i potenziamenti dell’Emporio, i bonus del tuo clan e i tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciati; una piccola etichetta *con booster* sulla scheda delle statistiche di combattimento lo indica. Penetrazione, probabilità di critico e portata non cambiano con i booster.
 
 ---
 
@@ -71,7 +71,7 @@ Gli scudi hanno tre statistiche distinte e ogni bonus agli scudi ne aumenta esat
 
 | Tipo | Che cos’è | Bonus che lo aumentano |
 | :--- | :--- | :--- |
-| **Capacità dello scudo** | I tuoi punti scudo massimi | Shield Wall Booster I, Shield Wall Booster II, lo **Shield Capacity Boost** permanente (Emporio) |
+| **Capacità dello scudo** | I tuoi punti scudo massimi | Shield Wall Booster I, Shield Wall Booster II, lo **Shield Capacity Boost** permanente (Emporio), il potenziamento scudo di un [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciato |
 | **Assorbimento dello scudo** | La quota di ogni colpo che i tuoi scudi prendono (il resto colpisce lo scafo); può superare il 100% | Lo **Shield Absorbance Boost** permanente (Emporio): +0,1 punti a livello per 25 PR, al massimo +10 punti. Nessun booster lo aumenta |
 | **Ricarica dello scudo** | Punti scudo ripristinati al secondo | Shield Regen Booster. Nessun potenziamento permanente lo aumenta |
 

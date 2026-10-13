@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf147fcd54ecb68 -->
+<!-- wiki-i18n source: 3b9d23ee237cda65 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -116,3 +116,4 @@ Ha valami rossz, a számok alatt egy sor megmondja, kinek a hibája: a *Lassú h
 5. **Másolás a wikiből**: Húzd végig az egérrel egy cikk bármelyik szövegét a kijelöléshez, majd a másoláshoz nyomd meg a `Ctrl+C` (Macen `Cmd+C`) billentyűt; a hivatkozásra kattintva az oldal továbbra is megnyílik. Az **Oldal másolása** gomb a cikkek tetején az egész oldalt Markdown formátumban másolja, chatbe vagy jegyzetbe illesztéshez.
 6. **Előbb kutass, aztán gyárts**: A Gyártás csak azt készíti el, amit a [Skylabod](/wiki/03-Mechanics/Skylab.md) Kutatóközpontja már kikutatott. A Mag 10. szintjén nyílik meg, a [Kutatás](/wiki/03-Mechanics/Research.md) oldalon pedig ott vannak a technológiák, az idejük és az üzemanyag.
 7. **Drónformációk**: ha van drónod, és kikutattál és elkészítettél egy formációt, húzd a gyorssávodra a Formációk listából, és viseld a helye billentyűjével: nagyobb pajzs gyengébb fegyverekért, keményebb rakéták vékonyabb törzsért. Mindegyik alakzatot is ad a drónjaidnak, amelyben repülnek. Lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md).
+8. **Tervezz a Könyvtárral**: a **Könyvtár › Receptkönyv** bármelyik tárgyról megmutatja, mi kell hozzá egy ábrán, a lépéseket sorrendben és a teljes költséget úgy, hogy amid már megvan, azt levonja, a **Könyvtár › Buildek** pedig ugyanezt teszi egy egész hajóra, 15 előbeállítással az induláshoz. Lásd: [Receptkönyv és buildek](/wiki/01-General/Recipe-Book.md).

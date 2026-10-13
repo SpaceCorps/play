@@ -16,6 +16,10 @@ A civilisation of the old galaxy lived here, advanced and purple-black, and for 
 - **A faster, richer Dormant Swarm.** The swarm now appears at the swamp, comes back sooner after it is destroyed and pays twice as much. See [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Before day 11** only the pulsars shine: the Danger Sectors are otherwise as [Spacemap Travel](/wiki/01-General/Spacemap%20Travel.md) describes them. A world on day 11 or later has it all at once.
 
+## Davidski
+
+From the first day of the season one of `DS-1`, `DS-2` and `DS-3` has a visitor: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, a trader in a gold Ironclad who flies them in turn, one a day, and comes out once a day at a time nobody announces. He shoots nobody first and shoots back when he is hit, and he pays like a boss when he is destroyed. He belongs to no company and sells every kind the [Auction](/wiki/03-Mechanics/Auction.md) lists at many times the Shop's price.
+
 ## Where everything is
 
 Every world has its own copy of all of it, and a pulsar and its excavator stand in the open third of their sector, far from every gate ring, on the side that faces the middle of the map. Distances are in map units; the sectors are 32,000 by 18,000 units.
@@ -57,3 +61,4 @@ Every world has its own copy of all of it, and a pulsar and its excavator stand 
 - [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md) and [Swarms](/wiki/05-Swarms/Swarms.md).
 - [The Black Hole](/wiki/03-Mechanics/Black-Hole.md) and [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): where the fuel comes from.
 - [Asteroid Mining](/wiki/03-Mechanics/Asteroid-Mining.md): the rocks of the Danger Sectors.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): the trader who comes out once a day, unannounced, on one Danger Sector.

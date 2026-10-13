@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: 危险星区 -->
 # 危险星区 {#danger-sectors}
 
@@ -17,6 +17,10 @@
 - **Dormant Swamp。** `DS-4` 的一个角落立着失落文明的基地：向看到的每艘飞船开火的炮台、守卫它的 Inert Mass，以及中央的 Unwakened。这是飞行员暂时还不该去的地方。见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)。
 - **更快、更富的 Dormant 虫群。** 虫群现在出现在沼泽，被击毁后回归得更早，并且奖励翻倍。见 [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)。
 - **第 11 天之前**只有脉冲星在闪耀：危险星区其余的样子就是[太空地图航行](/wiki/01-General/Spacemap%20Travel.md)所描述的样子。处于第 11 天或之后的世界会一次拥有全部内容。
+
+## Davidski
+
+从赛季第一天起，`DS-1`、`DS-2` 和 `DS-3` 中总有一个星区有一位访客：**[Davidski](/wiki/03-Mechanics/Davidski.md)**，驾驶一艘金色 Ironclad 的商人，每天轮流飞其中一个，并且每天出现一次，时间无人通知。他从不先开火，被击中才还击，被摧毁时像首领一样支付奖励。他不属于任何企业，把[拍卖行](/wiki/03-Mechanics/Auction.md)列出的每一种东西都以商店许多倍的价格出售。
 
 ## 一切在哪里 {#where-everything-is}
 
@@ -59,3 +63,4 @@
 - [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)和[虫群](/wiki/05-Swarms/Swarms.md)。
 - [黑洞](/wiki/03-Mechanics/Black-Hole.md)和 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)：燃料从哪里来。
 - [小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md)：危险星区的岩石。
+- [Davidski](/wiki/03-Mechanics/Davidski.md)：每天不作通知地出现一次、飞一个危险星区的商人。

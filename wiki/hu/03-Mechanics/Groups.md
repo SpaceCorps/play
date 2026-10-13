@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -60,6 +60,14 @@ A **Rendszer** lap arany színű és csak olvasható, saját listával: ide ker�
 ### Gépelés {#typing}
 
 Az **Enter** billentyű megnyitja a chatet, és átadja neki a billentyűzetet. Küldj el egy sort az **Enter** billentyűvel, és a mező megtartja a billentyűzetet, így a következő sor rögtön jöhet; amíg így van, a gyorssáv és a képességbillentyűk ki vannak kapcsolva. A gépelés véget ér, ha megnyomod az **Escape** billentyűt, ha üresen nyomod meg az **Enter** billentyűt, ha bal gombbal a térképre kattintasz (ugyanez a kattintás tovább irányítja a hajódat), ha a mezőt üresen hagyva 15 másodpercig nem nyomsz meg egyetlen billentyűt sem, vagy ha a hajód megsemmisül. A Rendszer lapon, ahová nem írhatsz, az **Enter** billentyű visszavisz abba a csatornába, amelybe utoljára írtál.
+
+### A chat az állomáson {#chat-at-the-station}
+
+Az állomáson a chat egy **sáv minden oldal alján**, hogy semmi ne kerülje el a figyelmedet, amíg a kutatást nézed vagy lőszert veszel. Összecsukva, így indul, egy sor magas: a chat neve, a még el nem olvasott sorok száma (az összes lap együtt) és a legfrissebb sor. **Kattints** rá a chat megnyitásához. Megnyitva megvannak benne a chatablak lapjai, előzményei és beviteli mezője, ugyanazzal a karakterszámlálóval, szünettel és elutasításokkal a mező alatt; a felső szélét megfoghatod és húzhatod, hogy magasabb vagy alacsonyabb legyen. Kattints a címsorára, vagy nyomd meg az **Escape** billentyűt az újbóli összecsukáshoz. Az **Enter** a mezőnek adja a billentyűzetet, amíg a sáv nyitva van, és más szövegmező nem birtokolja. Egy lap, amelyet nézel, olvasottnak számít.
+
+Ugyanaz a chat, mint az ablaké. Ami dokkolt állapotban elhangzik, az indulás után ott van az ablakban, ami pedig repülés közben, az dokkoláskor a sávban; a **Globális chat elrejtése**, a mellőzött pilóták és a jelentések ugyanígy működnek (jobb kattintás egy néven). Az állomáson a **Globális** és a **Csoport** csatornába írhatsz. A **Helyi** egy térkép csatornája: a lapja azt mutatja, ami repülés közben elhangzott, a `/l` paranccsal beírt sort pedig nem küldi el. A 0.4.21 előtti játékszerver nem tud sort fogadni az állomásról: a sáv ilyenkor csak megmutatja a chatet.
+
+Azt, hogy a sáv nyitva van-e, és milyen magas, megjegyzi a következő alkalomra. A **Chatsáv az állomás oldalain** kapcsolóval kapcsolhatod ki a **Beállítások › Felület › Chat** alatt; a repülés közbeni chatablakot ez nem érinti.
 
 ### A chat szabályai {#the-chat-rules}
 

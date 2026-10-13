@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
@@ -30,6 +30,7 @@ Die Lichter der Kiste nehmen die Farbe des seltensten Gegenstands darin an: Tür
 - Was du einsammelst, geht direkt in dein Hangar-Inventar, auf deinen losen Stapel dieses Gegenstands (nie auf Ausrüstung oder etwas im Transport-Cache). Eine Toast-Meldung zeigt dir, was du bekommen hast; Kisten, die du nacheinander einsammelst, addieren sich in derselben Meldung.
 - Was du einsammelst, ist **handelbar**: Du kannst es in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkaufen.
 - Gehört dir ein Brocken eines [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md), fliegt dein Schiff von selbst zum nächsten Brocken in Reichweite, den du nehmen darfst; jeder Bewegungsbefehl von dir stoppt das.
+- **Ein Retriever sammelt für dich ein.** Ein angedocktes [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever)-P.E.T. nimmt Kisten ohne Klick auf, in einer eigenen Reichweite (von 255 Einheiten beim schwächsten bis 880 bei einem Legendary auf Level 20, gegenüber den 200 deines eigenen Einsammelns), die nächste zuerst und **eine nach der anderen, jede eine halbe Sekunde**: nie schneller als eine Hand. Er nimmt nur, was du selbst nehmen darfst: Eine für einen anderen Piloten reservierte Kiste wartet, bis die Zeit um ist, und die [private Kiste](#private-boxes) eines anderen Piloten rührt er nie an. Er arbeitet, solange du außerhalb einer Schutzzone fliegst, untätig oder nicht, aber nicht, solange du getarnt bist oder springst, also beendet er nie eine Tarnung. Er ist kein Kanal: Kein Balken füllt sich, und er blockiert nie dein eigenes Einsammeln oder deine Sprünge, und eine Kiste, die du gerade von Hand einsammelst, überlässt er dir. Erreichen deine Hand und dein Retriever eine Kiste zugleich, bekommt sie genau einer. Ein Einsammeln durch einen Retriever spielt statt des Aufnahmetons einen eigenen kleinen Piepton.
 
 ## Wer sie bekommt {#who-gets-it}
 
@@ -46,9 +47,9 @@ Die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) i
 - **Nur du siehst sie, und nur du kannst sie einsammeln.** Dein Clan und deine Gruppe sehen sie nicht und können sie nicht nehmen; für alle anderen ist sie schlicht nicht da. Auf deinem Bildschirm hat sie einen dünnen Ring unter sich.
 - **Sie liegt 10 Minuten** ab dem Abschuss, und die ganze Zeit gehört sie dir: Es gibt keine Wartezeit von 30 Sekunden. Danach treibt sie davon wie jede Kiste. Das Spielprotokoll nennt dir deinen Anteil an der Beute, wenn der Wächter fällt.
 - **Sie verdrängt keine anderen Kisten.** Private Kisten haben einen eigenen Pool neben den 64 einer Karte (höchstens 32), sodass der Abschuss eines Wächters nie den Platz einer anderen Kiste einnimmt und eine volle Karte dich nie deine Kiste kostet.
-- Das Einsammeln ist wie bei jeder Kiste ([oben](#collecting)): Dein Schiff fliegt hin, und das Einsammeln dauert eine halbe Sekunde.
+- Das Einsammeln ist wie bei jeder Kiste ([oben](#collecting)): Dein Schiff fliegt hin, und das Einsammeln dauert eine halbe Sekunde. Dein Retriever nimmt auch deine privaten Kisten auf, und niemandes sonst.
 
 ## Booster {#boosters}
 
-- **Loot Luck Booster** (und der dauerhafte Buff Glücks-Boost) erhöhen die Chance jedes Beute-Eintrags, wenn der Schütze den Abschuss macht.
-- **Resource Magnet Booster** fügt den Ressourcen in jeder Kiste, die du einsammelst, **25 %** hinzu, egal wer den Abschuss gemacht hat. Dark Matter ist die Ausnahme: Der Magnet fügt ihm nichts hinzu, daher sind fünf N.I.K.E.s für alle zehn Dark Matter.
+- **Loot Luck Booster** (und der dauerhafte Buff Glücks-Boost sowie das Glück deiner angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md)) erhöhen die Chance jedes Beute-Eintrags, wenn der Schütze den Abschuss macht.
+- **Resource Magnet Booster** fügt den Ressourcen in jeder Kiste, die du einsammelst, **25 %** hinzu, von Hand oder mit einem Retriever, egal wer den Abschuss gemacht hat. Dark Matter ist die Ausnahme: Der Magnet fügt ihm nichts hinzu, daher sind fünf N.I.K.E.s für alle zehn Dark Matter.

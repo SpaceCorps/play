@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f9ae19e1c5f8f9d -->
+<!-- wiki-i18n source: 46b7d7139e8ed531 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Infine si applicano i moltiplicatori globali (come i booster attivi, per esempio
 
 ### 3b. Razzi {#3b-rockets}
 
-Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.700 a 2.100, un Lancet III da 5.200 a 6.200, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **3 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, il numero intero al centro e la metà al bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer. Gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md) subiscono danni dai razzi e dai laser al 5% di quello che una raffica fa a una nave (contano i tuoi amp, booster, munizioni e colpi critici, poi si toglie la corazza dell’asteroide); i droni non fanno nulla, e un asteroide sulla traiettoria di un colpo prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)).
+Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.700 a 2.100, un Lancet III da 5.200 a 6.200, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **3 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, il numero intero al centro e la metà al bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer. Gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md) subiscono danni dai razzi e dai laser al 5% di quello che una raffica fa a una nave (contano i tuoi amp, booster, munizioni e colpi critici, poi si toglie la corazza dell’asteroide); i droni non fanno nulla, e un asteroide sulla traiettoria di un colpo prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), e così fa una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall).
 
 ### 4. Voltarsi verso il bersaglio {#4-facing-the-target}
 
@@ -164,7 +164,7 @@ Le munizioni [Siphon Battery](/wiki/06-Items/Lasers.md) aggiungono subito al tuo
 
 ## Occultamento ed EMP {#cloaking-and-the-emp}
 
-Un colpo ha bisogno di un aggancio. Due [extra](/wiki/06-Items/Extras.md) eliminano quello su di te:
+Un colpo ha bisogno di un aggancio. Un Cloaking CPU (un [extra](/wiki/06-Items/Extras.md)) e l’EMP Charge (un [consumabile](/wiki/06-Items/Rockets.md#emp-charge) che si porta come un razzo) eliminano quello su di te:
 
 - **Cloaking CPU**: finché sei occultato (non c’è limite di tempo) i piloti delle altre corporazioni, gli alieni e i piloti di corporazione non vedono la tua nave e non possono agganciarla; vedono un semplice punto rosso sulla minimappa dove ti trovi. La tua prima raffica pone fine all’occultamento, e non puoi occultarti di nuovo per un minuto, né entro 10 secondi da un colpo subito o sparato.
 - **EMP Charge**: per 3 secondi nessuno può agganciarti, e ogni aggancio già su di te si spezza subito. Pone fine a ogni occultamento entro 1.500 unità dal pilota che lo lancia, tranne quelli dei membri del suo stesso gruppo. Non ti nasconde, e non è invulnerabilità: ferma ciò che ha bisogno di un aggancio.

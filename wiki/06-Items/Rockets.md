@@ -9,6 +9,7 @@ Rockets are a second weapon beside your lasers: one shot every few seconds that 
 - **Blasts are strongest in the middle.** Ember and Scatter rockets burst and hurt every ship inside the ring: the full number at the centre, half of it at the edge.
 - **One timer for all of them.** After any launch you wait 3 seconds before the next one, whichever rocket it is. Only the N.U.K.E. and the N.I.K.E. make you wait longer (4.1 and 4.6 seconds), because they stay in the air that long.
 - **Guided or straight.** A guided rocket (Lancet, Ember) needs a target you have selected. A straight one (Rivet, Scatter) flies to your cursor.
+- **One more thing is carried like a rocket.** The **EMP Charge** is a consumable: a stack in your inventory, used from the hotbar, in no slot ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -32,6 +33,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -52,7 +54,7 @@ Each kind is a **family**, named after its Common rocket, and the tier is a Roma
 - **Guided** rockets need a selected target inside their **lock range** when they leave. They steer after it at a limited turn rate, so a fast ship far away can outrun a cheap one. If the target dies, leaves or reaches a safe zone, the rocket keeps flying straight and does not pick another.
 - **Straight** rockets need no target, and ignore the one you have selected: they always fly toward your **cursor**, at the point under it in the flight view. **Click a straight rocket's slot to arm it** (the slot gets a white frame and a crosshair, and your mouse cursor turns into a crosshair over space), then **click in space**: the rocket flies toward the point you clicked and your ship stays where it is. Esc, a right click or the same slot again lets go. If the rockets are still recharging, the click only tells you so and the rocket stays armed. The number keys and **Fire Rocket** fire at once toward the last point the cursor had in the flight view; before the cursor has been there, they fly the way your ship **points**. They fly straight, so a ship crossing at speed can sidestep them.
 - A **single target** rocket hits the first ship it may hit (a guided one only its target). An **area blast** bursts beside the first ship it meets, at the point you aimed it, or where its flight ends, and hurts every ship inside its **blast radius**: full damage at the centre, half of it at the edge. The ring the blast draws on the map is its exact reach.
-- **Asteroids.** A rocket fired at an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) flies to it, and the first asteroid in the way of any rocket stops it and takes the hit instead of the ship behind it ([Cover](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). The twelve rockets of the Shop and the N.U.K.E. can break one; the N.I.K.E. cannot be fired at one and flies over them. Your lasers hurt an asteroid too, but only at 5% of what they do to a ship: the rocket is the tool for the job.
+- **Asteroids.** A rocket fired at an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) flies to it, and the first asteroid in the way of any rocket stops it and takes the hit instead of the ship behind it ([Cover](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). An [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) stops a rocket the same way; the N.I.K.E. flies over it. The twelve rockets of the Shop and the N.U.K.E. can break one; the N.I.K.E. cannot be fired at one and flies over them. Your lasers hurt an asteroid too, but only at 5% of what they do to a ship: the rocket is the tool for the job.
 
 ## The twelve rockets
 
@@ -154,3 +156,18 @@ A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that
 The twelve rockets of the first table are bought (Credits for the Common and Rare ones, Thulium for the Epic ones); the N.U.K.E. and the N.I.K.E. are crafted.
 
 See also: [Lasers & Ammo](/wiki/06-Items/Lasers.md), [Combat](/wiki/03-Mechanics/Combat.md), [The Black Hole](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+The **EMP Charge** is carried like a rocket and is not one: it is a **consumable**. You buy it in the Shop for **500 Thulium** a charge and carry up to **20** of it in one stack (what you have listed on the [Auction](/wiki/03-Mechanics/Auction.md) counts), and the hotbar's **Consumables** picker shows it with the number you carry. It takes **no slot** on any ship; until 0.4.21 it was an [extra](/wiki/06-Items/Extras.md) and every charge filled an extra slot. A charge weighs 250 in the Transport Cache.
+
+Press the EMP slot in a fight. For **3 seconds** nobody can lock on to you, and **everyone who was locked on to you loses the lock** at once, wherever they are: pilots, aliens and company pilots. A pilot whose lock breaks is told "Lock lost: target used an EMP". Someone who tries to lock on in those 3 seconds is refused.
+
+- **It is not invulnerability.** It stops what needs a lock: lasers, guided rockets, and the touch of a straight single-target rocket, which flies through you. An **area blast** needs no lock, so it still hurts you if you are inside it, and the black hole is not a shot at all.
+- **You can still act.** Firing does not end it. You can cloak (if the cloak's own rules allow it), fire rockets and use extras.
+- **It ends cloaks near you.** Every ship cloaked within **1,500 units** of you when the pulse goes off is shown at once and its CPU starts its 60 seconds of recharge, whichever company it belongs to, yours included; the ships of your own [group](/wiki/03-Mechanics/Groups.md) are the exception: they keep their cloaks. The pilot is told "Cloak broken: an EMP went off nearby.", sees the ship reappear with the same ripple as any decloak, and the slot starts its recharge. You cannot use an EMP while cloaked yourself.
+- **It hides nothing.** Everybody still sees you, with a crackling electric shell for the 3 seconds.
+- **You cannot use it** while a safe zone protects you, while cloaked, or within **30 seconds** of the last one. It works everywhere else, including the first days of a season (the Peace Protocol): aliens still hunt then.
+- An alien you hit during the 3 seconds does not turn on you until they are over. Your kill claims and the first-hit rules do not change.
+- **What you see.** A pulse of bent space races out from the pilot as far as the pulse ends cloaks (1,500 units), everybody in range sees it, and a crackling electric shell surrounds it for the 3 seconds, with a ring round your own ship and a chip at the top of the screen that count the time. The target ring of everybody who had you selected breaks apart, with a short zap. The EMP slot shows the charges you carry, lights blue while the shell is up, and shades over while it recharges.
+- **One press, one charge.** A press uses one charge of your stack; with none left it is refused ("No EMP Charge left."). Charges in the Transport Cache are the next season's and cannot be used. Like rockets, the charges you carry are lost with the season unless you put them in the Transport Cache. The **30 seconds** of recharge are not saved: logging out or jumping through a portal clears them, and the next pulse costs a charge.

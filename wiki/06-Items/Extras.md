@@ -8,15 +8,16 @@ Extras are the gadgets in a ship's **extra slots** (two on the Protos, Kitefin, 
 | **Cloaking CPU S** | Hides your ship | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | Hides your ship | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | Hides your ship | 50 | 20,000 Thulium |
-| **EMP Charge** | For 3 seconds nobody can target you, every lock on you breaks, and every cloak near you ends | 1 | 500 Thulium |
+| **Energetic Wall I** | Puts a wall of plasma at your cursor, near your ship: every shot that crosses it hits the wall instead, and any ship inside it burns | endless | 250 Thulium |
+| **Energetic Wall II** | The same wall with three times the hit points (30,000 and 90,000) | endless | Assembly: an Energetic Wall I and 600 Thulium, after its research |
 
-The Cloaking CPUs and the EMP Charge are sold in the Shop only. They cannot be fused, and nothing gives them away.
+The Cloaking CPUs are sold in the Shop only. They cannot be fused, and nothing gives them away. The **EMP Charge** is not an extra any more: since 0.4.21 it is a consumable, carried as a stack like a rocket and fitted in no slot, so it takes none of your extra slots (see [Rockets](/wiki/06-Items/Rockets.md#emp-charge)).
 
 A new pilot's **starter kit** already fits two extras in the Protos' two extra slots: a **Base CPU I** (10 uses, a teleport to your company's base) and a **Repair Drone I**. Drag them from the Extras picker of the hotbar onto a slot to use them. Only new pilots get the kit: a pilot who enlisted before 0.4.10 has not got it.
 
 Seven more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, and the Auto-Repair CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take. The two warp CPUs, the Jump CPU and the Base CPUs, are also refused while you carry a quest item ("You can't use a warp CPU while carrying a mission item."): see [Quest items](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU, **EMP** for the EMP Charge and **ARP**, **BSE** and **JMP** for the Auto-Repair, Base and Jump CPUs. The Extra Slots CPUs have no slot: they install in your Skylab. Point at a slot to read what a press does now, or why it cannot.
+Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU, **WAL** for an Energetic Wall and **ARP**, **BSE** and **JMP** for the Auto-Repair, Base and Jump CPUs. The Extra Slots CPUs have no slot: they install in your Skylab. The three **P.E.T. Station** items have no slot either: collected in Assembly, they install themselves and make room for 2, 3 and 5 [P.E.T.s](/wiki/03-Mechanics/Pets.md). Point at a slot to read what a press does now, or why it cannot.
 
 ![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../img/wiki-img/shots/repair-drones-extra.jpg)
@@ -29,26 +30,32 @@ Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **C
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 
 ```tree
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
+P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -75,22 +82,23 @@ Press the CLK slot to cloak. **One press is one use**, whatever the pack, and yo
 
 The S, M and L behave the same: the bigger packs are only cheaper per use (500, 450 and 400 Thulium).
 
-## EMP Charge
+## Energetic Wall
 
-Press the EMP slot in a fight. For **3 seconds** nobody can lock on to you, and **everyone who was locked on to you loses the lock** at once, wherever they are: pilots, aliens and company pilots. A pilot whose lock breaks is told "Lock lost: target used an EMP". Someone who tries to lock on in those 3 seconds is refused.
+Press the WAL slot and a **wall of plasma** stands **at your cursor**, across the line from your ship to it: a strip 360 units long (about three and a half ship models) and 10 units wide. Its middle is at most **450 units** from the ship's middle: a cursor farther away puts it 450 units out along the line, and a cursor closer than 120 units pushes it out to 120. While the slot is ready, a faint dotted line and a ghost outline show where it will stand. If the game does not know where your cursor is, it stands 220 units ahead of the ship's middle, across its heading. Drag the wall from the hotbar's Extras onto a slot to use it, like REP. It is for hiding behind and for cutting a lane, not for standing in.
 
-- **It is not invulnerability.** It stops what needs a lock: lasers, guided rockets, and the touch of a straight single-target rocket, which flies through you. An **area blast** needs no lock, so it still hurts you if you are inside it, and the black hole is not a shot at all.
-- **You can still act.** Firing does not end it. You can cloak (if the cloak's own rules allow it) and use other extras.
-- **It ends cloaks near you.** Every ship cloaked within **1,500 units** of you when the pulse goes off is shown at once and its CPU starts its 60 seconds of recharge, whichever company it belongs to, yours included; the ships of your own [group](/wiki/03-Mechanics/Groups.md) are the exception: they keep their cloaks. The pilot is told "Cloak broken: an EMP went off nearby.", sees the ship reappear with the same ripple as any decloak, and the slot starts its recharge. You cannot use an EMP while cloaked yourself.
-- **It hides nothing.** Everybody still sees you, with a crackling electric shell for the 3 seconds.
-- **You cannot use it** while a safe zone protects you, while cloaked, or within **30 seconds** of the last one. It works everywhere else, including the first days of a season (the Peace Protocol): aliens still hunt then.
-- An alien you hit during the 3 seconds does not turn on you until they are over. Your kill claims and the first-hit rules do not change.
-- **What you see.** A pulse of bent space races out from the pilot as far as the pulse ends cloaks (1,500 units), everybody in range sees it, and a crackling electric shell surrounds it for the 3 seconds, with a ring round your own ship and a chip at the top of the screen that count the time. The target ring of everybody who had you selected breaks apart, with a short zap. The EMP slot shows the charges you own, lights blue while the shell is up, and shades over while it recharges.
-- **One charge, one use.** The slot is refilled from your inventory when you own more. The **30 seconds** of recharge are not saved: logging out or jumping through a portal clears them, and the next pulse costs a charge.
+- **What it stops.** Every shot that crosses it hits the wall instead, whoever fired it and from whichever side: a laser volley, a rocket, an alien's volley. What stands behind it takes nothing and the wall's hit points take the damage. A rocket's blast that goes off at the wall hurts the ships on its near side and not the ones behind it. Your own shots too: you cannot shoot out through your own wall. The N.I.K.E. and the turrets of the Dormant Swamp fly over it, as they fly over asteroids.
+- **What it burns.** Any ship whose hull touches the strip takes **2,500 damage a second**, shield first, your own included, aliens and company pilots too. A ship in a safe zone or under the protection of a respawn is not burnt, and two strips on one ship do not add up.
+- **How long it lasts.** A level 1 wall has **30,000 hit points**, a level 2 wall **90,000**. A wall loses a sixtieth of them every second by itself, so one nobody shoots is gone after **60 seconds**. Shots shorten that: a Wraith with twelve Helios Beams on x4 ammo brings a level 1 wall down in about 3.5 seconds.
+- **One at a time.** A new wall takes the place of your old one. After a press the item recharges for **90 seconds**; the wait is yours, not the ship's, so dying or logging out does not shorten it. An item that you carry two of gives the better wall.
+- **Where not.** Not while a safe zone or a respawn protects you, not where the strip would touch a safe zone or a gate, not while cloaked, and not where the middle of the strip would fall off the map. The game says which.
+- **Kills.** A ship the wall destroys dies of radiation, and the kill goes to the last enemy pilot who hit it within 15 seconds, if there was one. Whoever put the wall down is credited with nothing it did not shoot itself. An alien the wall destroys pays nothing: no reward, no loot.
+- **Aliens do not go round it.** They fly through it and burn, or stand on their side and shoot the wall.
+- **What you see.** A strip of blue-white light with bright dashes running along it and a post of light at each end, flaring where a shot lands and flickering when it is nearly spent. A level 2 wall glows yellow instead, with a thicker, brighter core and a stronger glow, but its strip is the same 10 units wide as a level 1 wall's. A thin life bar beside it shortens and turns amber and then red; your slot shows the wall's remaining life as its arc and the wait as its shade. A wall put down flares in, a wall shot down collapses in sparks, and one whose time ran out fades.
+- **Getting it.** The Energetic Wall I is sold in the Shop for 250 Thulium. The Energetic Wall II is made in Assembly from an Energetic Wall I, 10 Ship Fragments and 2 Power Cores for 600 Thulium, once the Research Centre has researched it (6 hours at the normal rate: [Research](/wiki/03-Mechanics/Research.md)).
 
 ## CPUs of the Research Centre {#research-cpus}
 
-Two of the CPUs take Dark Matter Plates, like the last tier of every upgrade chain: **Extra Slots CPU III** asks for 3 (and 6 Orvium Reinforced Plates) and **Base CPU II** for 3 (and 2 Orvium Reinforced Plates), so research the Dark Matter Plate first ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
+Two of the CPUs take Dark Matter Plates, like the last tier of every upgrade chain: **Extra Slots CPU III** asks for 4 (plus 2 Ancient Control Units and 6 Orvium Reinforced Plates) and **Base CPU II** for 4 (plus an Ancient Control Unit and 2 Orvium Reinforced Plates), so research the Dark Matter Plate first ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
 <!-- research-cpus:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -104,6 +112,7 @@ Two of the CPUs take Dark Matter Plates, like the last tier of every upgrade cha
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20,000 | 10 min |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15,000 | 10 min |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 
 None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
 

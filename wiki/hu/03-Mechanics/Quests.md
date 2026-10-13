@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -224,6 +224,7 @@ A küldetések a szinteddel együtt emelkednek a szektorokban:
 - **Egy kilövés egy szintküldetésnek számít**: annak, amelyiket követed, ha használni tudja, különben az első aktív küldetésednek, amelyik tudja. Ezen felül minden olyan Kihívásnak számít, amely kéri, és minden küldetéstárgy-lépésed, amely arra az idegenre vár, dob a dropjára.
 - Az az idegen, amelyet a vállalatod egy [vállalati pilótája](/wiki/03-Mechanics/Company-Pilots.md) lő ki, miközben te harcolsz vele, a te kilövésednek számít, a küldetéseid szempontjából is.
 - A [csoportod](/wiki/03-Mechanics/Groups.md) egy tagjának kilövése neked is számít a szintküldetéseidnél, ha ugyanazon a térképen vagy, és az elmúlt 15 másodpercben lézerrel vagy rakétával lőttél bármire. A Kihívások soránál a csoporttársnak ráadásul a kilövéstől 4 000 egységen belül kell lennie.
+- **A Skylab-expedíciók egyes lépésekbe beleszámítanak.** A kilövések, amelyeket a [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) egy expedíción végez, csak akkor viszik előre a kilövéses lépést, ha a lépés **nem nevez meg szektort**, napi legfeljebb **250 kilövésig** (UTC), és csak annak az idegennek a kilövéseit, amelyet a lépés megnevez. Egy cella nem szektor, ezért az a lépés, amely megnevez egyet (`x-1`–`x-4`, `DS-x` vagy `rival x-4`), soha nem számolja őket, az azonos nehézségű cellában sem. A gyakorlatban ezek a Kihívások sorának nagy vadászatai, amelyek idegenei egy cellában élnek (Seeker-pestis, Phantasm-ár, Bulwark-fal és a többi Seeker, Phantasm, Bulwark, Goombah, Crystalys vagy Dormant Force ellen), az 1–8. szintek küldetései közül pedig egyik sem. Az időkorlátos vagy hajótestkorlátos küldetés sem számolja őket. Nem adnak wipe-pontot, klánvonalat vagy ranglistapontot.
 
 ## Időkorlátok {#time-limits}
 

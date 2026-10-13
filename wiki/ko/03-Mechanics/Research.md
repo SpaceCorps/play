@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: bf987d259afc1762 -->
+<!-- wiki-i18n source: aa5d52746bb0d940 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
 **연구 센터**는 [Skylab](/wiki/03-Mechanics/Skylab.md)의 실험실입니다. 자원을 넣으면 **과학**으로 바뀌고, 그 과학이 **기술**을 연구합니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 하는 제작은 모두 먼저 해당 기술이 필요합니다. 함선, 레이저, 추진기, CPU는 연구가 끝나기 전에는 만들 수 없습니다.
 
-이 페이지에는 기술 트리 전체와 각 기술의 소요 시간, 자원별 과학량, Thulium 부스트, Dark Matter 규칙, 새로운 CPU가 모여 있습니다. 수치는 게임 자체 데이터에서 읽어 오므로 언제나 게임 속 수치와 같습니다.
+이 페이지에는 기술 트리 전체와 각 기술의 소요 시간, 자원별 과학량, Thulium 부스트, Dark Matter 규칙, 새로운 CPU가 모여 있습니다. 수치는 게임 자체 데이터에서 읽어 오므로 언제나 게임 속 수치와 같습니다. 아이템 하나에 모두 합쳐 무엇이 필요한지 보려면(먼저 연구할 기술과 그 시간, 필요한 기술, 그다음 재료와 제작) 아이템을 [레시피북](/wiki/01-General/Recipe-Book.md)에서 여세요.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
@@ -29,7 +29,7 @@
 
 <!-- research-centre:end -->
 
-**레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 3개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
+**레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
 Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더 많은 것을 알려 줍니다. 기술에 마우스를 올리면 연구 시간과 소모되는 과학이 적힌 카드가 열리고, 그 아래에 그 아이템이 **무엇이며 무엇을 하는지**가 표시됩니다. 종류와 계열 안에서의 등급(예: Impulse Thruster 네 개 중 세 번째), 설명, 격납고와 상점이 보여 주는 것과 같은 수치(레이저의 피해, 치명타 확률, 사거리, 실드의 실드 용량, 재충전 속도, 흡수율, 추진기의 속도 증가와 속도 배율, 로켓의 피해, 폭발 반경, 사거리, 드론 편대가 주는 것과 치르는 대가), 같은 계열의 등급별 작은 표, 그리고 연구 후 어셈블리가 제작에 요구하는 것(시간, 크레딧과 Thulium, 재료)이 나옵니다. 그래서 연구하기 전에 그 등급이 무엇을 주는지 볼 수 있습니다. 기술을 클릭하면 선택되고, 트리 옆의 카드가 같은 내용을 전부 **연구 시작** 버튼 아래에 보여 줍니다. 연구가 진행되는 동안에는 시작 버튼 자리에 **대기열에 추가**가 나옵니다. 대기열에 있는 기술은 트리에 순서 번호가 표시되고, 진행 중인 연구 아래의 대기열 카드에 모두 나열되며 각각 X 표시로 뺄 수 있습니다. 다음 기술이 시작되지 못하면(필요한 Dark Matter가 센터에 없거나 탱크가 비었을 때) 대기열은 기다리며 이유를 알려 주고, 그 문제를 해결한 뒤 **대기열 시작**을 누를 때까지 멈춰 있습니다.
 
@@ -163,16 +163,16 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 ### 추진 장치와 속도 {#tree-propulsion}
 
 ```tree research
-Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
-Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
-Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
-Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Impulse Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Engine III | engine, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Adaptive Core II | hybrid-generator, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 
 Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
 Momentum Thruster II => Momentum Thruster III => Momentum Thruster IV
@@ -183,13 +183,13 @@ Adaptive Core II => Adaptive Core III
 ### 실드와 방어 {#tree-shields}
 
 ```tree research
-Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
+Absorption Shield Cell II | shield-cell, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 50 Ship Fragment, 8 Reinforced Hull Plate, 20 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell III | shield-cell, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 50 Ship Fragment, 10 Reinforced Hull Plate, 2 Power Core, 25 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 5000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell II | shield-cell, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 50 Ship Fragment, 8 Reinforced Hull Plate, 20 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell III | shield-cell, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 50 Ship Fragment, 10 Reinforced Hull Plate, 2 Power Core, 25 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 5000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Heavy Shield Core | shield, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 
 Absorption Shield Cell II => Absorption Shield Cell III => Absorption Shield Cell IV
 Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
@@ -198,18 +198,18 @@ Capacity Shield Cell II => Capacity Shield Cell III => Capacity Shield Cell IV
 ### 레이저와 탄약 {#tree-lasers}
 
 ```tree research
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
-Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Damage Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Damage Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Damage Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Crit Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Crit Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 20 Daraxium, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 1 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 50 Cataclysite, 18 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 50 Ship Fragment, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Damage Amp II, 50 Ship Fragment, 2 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Crit Amp I, 50 Ship Fragment, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Crit Amp II, 50 Ship Fragment, 2 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
@@ -228,16 +228,16 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### 드론 {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 40000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 100 Ship Fragment | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### 함선 {#tree-ships}
 
 ```tree research
 Paragon | ship, rare | craft 1500 Thulium, 900 s | research 21600 s, 21600 science | 120 Ship Fragment, 20 Reinforced Hull Plate, 5 Power Core | /wiki/02-Ships/Paragon.md
-Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
-Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Storm.md
-Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 300 Ship Fragment, 50 Reinforced Hull Plate, 15 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
+Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
+Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Storm.md
+Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
 ```
 
 ### 자원 {#tree-resources}
@@ -258,11 +258,12 @@ N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | resea
 ```tree research
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -271,12 +272,12 @@ Base CPU I => Base CPU II => Jump CPU
 ### 방어 {#tree-defence}
 
 ```tree research
-Testudo Formation | formation, epic | craft 7500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Adamant Formation | formation, epic | craft 9000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Rampart Formation | formation, mythical | craft 38500 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Sanctum Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Redoubt Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Cordon Formation | formation, epic | craft 21500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Adamant Formation | formation, epic | craft 18000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Rampart Formation | formation, mythical | craft 77000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 30 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Sanctum Formation | formation, epic | craft 40000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Redoubt Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Cordon Formation | formation, epic | craft 43000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 
 Testudo Formation => Sanctum Formation => Rampart Formation
 Adamant Formation => Redoubt Formation => Cordon Formation
@@ -285,16 +286,16 @@ Adamant Formation => Redoubt Formation => Cordon Formation
 ### 공격·기동 {#tree-strike-mobility}
 
 ```tree research
-Bodkin Formation | formation, epic | craft 21000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Asterism Formation | formation, epic | craft 7000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Gemini Formation | formation, mythical | craft 38000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Ballista Formation | formation, epic | craft 24000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Stiletto Formation | formation, mythical | craft 46000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Shrike Formation | formation, epic | craft 8500 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Culler Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Auger Formation | formation, epic | craft 20500 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Centurion Formation | formation, epic | craft 8000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
-Gyre Formation | formation, epic | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 3 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gemini Formation | formation, mythical | craft 76000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 30 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Ballista Formation | formation, epic | craft 48000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Stiletto Formation | formation, mythical | craft 92000 Thulium, 900 s | research 172800 s, 172800 science, 20 Dark Matter | 260 Ship Fragment, 26 Reinforced Hull Plate, 13 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 30 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Shrike Formation | formation, epic | craft 17000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Culler Formation | formation, epic | craft 40000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Auger Formation | formation, epic | craft 41000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Centurion Formation | formation, epic | craft 16000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
+Gyre Formation | formation, epic | craft 40000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 
 Asterism Formation => Bodkin Formation => Ballista Formation
 Gemini Formation => Stiletto Formation
@@ -311,6 +312,16 @@ Hull Plating III | hull-plating, epic | craft 4000 Thulium, 600 s | research 172
 Hull Plating II => Hull Plating III
 ```
 
+### P.E.T. {#tree-p-e-t}
+
+```tree research
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
+```
+
 
 <!-- research-tree:end -->
 
@@ -322,6 +333,10 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 - **함선 디자인.** [디자인](/wiki/03-Mechanics/Ship-Designs.md) 하나마다 기술이 하나씩 있습니다. 모두 그 함선의 기술과 Dark Matter Plate의 기술이 필요합니다.
 
 각 기술의 시간, Dark Matter, 합계는 [함선 디자인](/wiki/03-Mechanics/Ship-Designs.md#the-technologies) 페이지에 있습니다.
+
+## Skylab 모듈 {#module-technologies}
+
+연구 화면의 Skylab 계열에는 제작이 아닌 기술이 하나 더 있습니다. 코어 레벨 15가 해금하는 **엔진 모듈**, **방어 모듈**, **레이더 모듈**의 각 레벨입니다. 레벨마다 전용 기술이 있고, 그 기술을 연구한 뒤에야 해당 레벨을 지을 수 있습니다. 각 모듈의 첫 레벨은 Dark Matter가 필요 없고, 이후에는 레벨이 오를수록 더 많이 필요합니다. 위의 트리에는 이들이 빠져 있습니다. 이들이 여는 것은 아이템이 아니라 모듈의 레벨이기 때문입니다. 이들의 Dark Matter는 위의 합계에 더해지며, [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) 문서가 합산합니다. 소요 시간과 각 모듈이 하는 일은 [Skylab](/wiki/03-Mechanics/Skylab.md) 문서에 있습니다.
 
 ## 모든 기술 {#all-the-technologies}
 
@@ -352,7 +367,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Laser Damage Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3시간 | 10,800 | – |
 | [Shield Wall Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3시간 | 10,800 | – |
 | [Hull Plating Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3시간 | 10,800 | – |
-| [Master Drone](/wiki/06-Items/Drones.md#available-drones) | – | C | 10시간 | 36,000 | – |
+| [Master Drone](/wiki/06-Items/Drones.md#available-drones) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10시간 | 36,000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6시간 | 21,600 | – |
 | [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1일 | 86,400 | 10 |
 | [Storm](/wiki/02-Ships/Storm.md) | – | D | 1일 | 86,400 | 10 |
@@ -395,18 +410,22 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Engine II](/wiki/06-Items/Propulsion.md#engines) | – | A | 30분 | 1,800 | – |
 | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | – | A | 30분 | 1,800 | – |
 | [Adaptive Core III](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-) | [Adaptive Core II](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | B | 3시간 | 10,800 | – |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | – | B | 6시간 | 21,600 | – |
+| [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3시간 | 10,800 | – |
+| [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10시간 | 36,000 | – |
+| [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1일 | 86,400 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30분 | 10 | 5시간 | 18,000 | 0 |
-| B | 3시간~6시간 | 18 | 2일 12시간 | 216,000 | 0 |
-| C | 10시간 | 15 | 6일 6시간 | 540,000 | 95 |
-| D | 1일~2일 | 22 | 27일 | 2,332,800 | 319 |
-| 전체 |  | 65 | 35일 23시간 | 3,106,800 | 414 |
+| B | 3시간~6시간 | 20 | 2일 21시간 | 248,400 | 0 |
+| C | 10시간 | 16 | 6일 16시간 | 576,000 | 95 |
+| D | 1일~2일 | 23 | 28일 | 2,419,200 | 319 |
+| 전체 |  | 69 | 37일 18시간 | 3,261,600 | 414 |
 
-하나씩 차례로 연구하면 트리 전체에 35일 23시간이 걸립니다. 부스트를 계속 켜 두면 17일 23시간 30분이 걸리며, 부스트 18개와 Thulium 90,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 37일 18시간이 걸립니다. 부스트를 계속 켜 두면 18일 21시간이 걸리며, 부스트 19개와 Thulium 95,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 
@@ -426,6 +445,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10시간 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20,000 | 10분 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1일 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15분 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6시간 | – | 15,000 | 10분 |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6시간 | – | 600 | 2분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 

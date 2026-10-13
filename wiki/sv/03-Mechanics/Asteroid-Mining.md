@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 245cebe02509293e -->
+<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
-**Asteroider** är stora stenar som ligger i flygplanet i koncernernas sektorer och i farosektorerna. De rör sig aldrig och skjuter aldrig. Spräng en med **raketer** eller **lasrar** så brister den i små **bitar** av krediter, Thulium och malm, som du plockar upp som [last](/wiki/03-Mechanics/Cargo.md). Raketer är rätt verktyg för jobbet: dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp, och drönare gör ingenting med den.
+**Asteroider** är stora stenar som ligger i flygplanet i koncernernas sektorer och i farosektorerna. De rör sig aldrig och skjuter aldrig. Spräng en med **raketer** eller **lasrar** så brister den i små **bitar** av krediter, Thulium och malm, som du plockar upp som [last](/wiki/03-Mechanics/Cargo.md). Raketer är rätt verktyg för jobbet: dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp, och drönare gör ingenting med den. En sak till spränger asteroider åt dig: en dockad **Mole**-P.E.T. ([nedan](#the-mole-pet)).
 
 Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,6 till 6,8 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Dagsgränserna i [Världarna](#the-worlds) sätter ett tak, och du når dem snart: i Alpha når en jämn brytare i en bra sektor Thulium-gränsen på under 2 timmar och kreditgränsen på ungefär 2,7 timmar.
 
@@ -26,7 +26,7 @@ Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger inge
 
 ## Skydd {#cover}
 
-En asteroid är skydd. **Den första asteroiden i ett skotts väg tar emot skottet.** En lasersalva, en raket eller explosionen från en områdesraket, avfyrade mot en pilot, en utomjording eller en annan asteroid, stoppas av den första asteroiden på den raka linjen från skytten till dess mål: målet tar ingenting, och asteroiden tar träffen. Du kan alltså gömma dig bakom en asteroid, från piloter och från utomjordingar. Målfixering är inget skott och stoppas inte: du kan låsa fast en pilot bakom en asteroid, men dina lasrar träffar asteroiden.
+En asteroid är skydd. **Den första asteroiden i ett skotts väg tar emot skottet.** En lasersalva, en raket eller explosionen från en områdesraket, avfyrade mot en pilot, en utomjording eller en annan asteroid, stoppas av den första asteroiden på den raka linjen från skytten till dess mål: målet tar ingenting, och asteroiden tar träffen. Du kan alltså gömma dig bakom en asteroid, från piloter och från utomjordingar. Målfixering är inget skott och stoppas inte: du kan låsa fast en pilot bakom en asteroid, men dina lasrar träffar asteroiden. En [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) stoppar skott på samma sätt, från båda sidor.
 
 - **Inifrån.** Ett skepp vars mitt ligger inuti en asteroid träffar den asteroiden med varje skott, vart det än siktar.
 - **Vad som stoppas.** Varje lasersalva och varje raket från en pilot, en utomjording (svärmskeppen, Clan Warden, Slumbering Void) och en koncernpilot, även N.U.K.E. Två saker flyger över asteroider: [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) och kanonerna i Dormant Swamp. Förmågor som Venom och det svarta hålet är inga skott.
@@ -41,9 +41,20 @@ Ingenting betalas ut när en asteroid spricker. Den brister i spillror och kasta
 
 En större asteroid lämnar fler delar (kolumnen Kreditbitar i Sorterna: krediterna och Thulium kommer i så många delar, och malmen i en till). Efter en upplockning går ditt skepp på egen hand vidare till nästa bit av en närliggande asteroid som du får ta; varje flyttkommando från dig stoppar det.
 
+Från nivå 2 av klipporna kan ett sönderfall också lämna en **Cluster Chunk** hel, i malmbiten åt den grupp som gjorde mest skada: en **Regular Cluster Chunk** från nivå 2, en **Mythical Cluster Chunk** från nivå 3 och en **Legendary Cluster Chunk** från nivå 4; Motherlode ger dem oftast. Chanserna står i [Resurser](/wiki/06-Items/Resources.md#regular-cluster-chunk). Tur ändrar dem inte, inte heller en P.E.T.s tur. Med en Orvium Reinforced Plate blir en chunk en [P.E.T.](/wiki/03-Mechanics/Pets.md) i hangarens Vagga.
+
 ## Vem som får bitarna {#who-gets-the-chunks}
 
-En asteroid är gemensamt arbete: hur många piloter som helst kan träffa den, med raketer eller lasrar, och bitarna går efter skadan var och en gjorde, inte efter vem som skjuter först eller sist. Skaderaden i målfönstret visar vem som gjort hur mycket och vad som gjordes innan du kom. Krediterna och Thulium från en sprängning slumpas en gång och delas efter skada; malmen delas mellan piloterna som gjorde mest skada; de sällsynta fynden går till den som gjorde mest. En pilot som gjorde mindre än andelen under Reglerna får ingenting, och Spellogg säger det. Bitarna läggs ut för varje betald pilot och är en tid reserverade för den och dess klan, sedan fria för alla.
+En asteroid är gemensamt arbete: hur många piloter som helst kan träffa den, med raketer, lasrar eller en Moles pulser, och bitarna går efter skadan var och en gjorde, inte efter vem som skjuter först eller sist. Skaderaden i målfönstret visar vem som gjort hur mycket och vad som gjordes innan du kom. Krediterna och Thulium från en sprängning slumpas en gång och delas efter skada; malmen delas mellan piloterna som gjorde mest skada; de sällsynta fynden går till den som gjorde mest. En pilot som gjorde mindre än andelen under Reglerna får ingenting, och Spellogg säger det. Bitarna läggs ut för varje betald pilot och är en tid reserverade för den och dess klan, sedan fria för alla.
+
+## Mole-P.E.T.n {#the-mole-pet}
+
+En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbetar åt dig medan du flyger: var tredje sekund ger den närmaste asteroid inom ungefär fem och en halv skeppslängd från ditt skepp en puls, tills den brister, och tar sedan nästa. Dess pulser går in i asteroidens skada i ditt namn, så ett sönderfall betalar dig som om du hade brutit den med en raket: bitarna, fynden, chansen till en Cluster Chunk och ditt asteroiduppdrag.
+
+- **Hur mycket den spränger.** En Mole på toppen (en Legendary på nivå 20) spränger minst lika många asteroider i timmen som en pilot som skjuter den bästa raketen, Rivet III, på dem, och lägre grader och nivåer färre ([tabellen](/wiki/03-Mechanics/Pets.md#how-strong)). Den använder varken ammunition eller raketer. Dina lasrar, raketer, förstärkare, boosters, formation och dina P.E.T.s Skada ändrar inte en puls, och pansar bromsar en puls som det bromsar en raket.
+- **Vilka asteroider.** Den närmaste inom räckhåll som ingen annan än du och din grupp har träffat och som ingen annan asteroid eller Energetic Wall skyddar. Den arbetar aldrig med Motherlode, och den arbetar inte i en säker zon, kamouflerad, medan du hoppar eller medan ditt skepp är förstört.
+- **Ingen egen gräns.** En Mole arbetar varje timme du flyger, oavsett om du rör tangenterna eller inte (ett overksamt skepp är ett mål), och ingen daglig gräns stoppar den. Det som finns kvar är det som stoppar alla: gränserna för Thulium och krediter i [Världarna](#the-worlds), som en Mole på toppen som aldrig stannar når efter ungefär 2 till 6 timmars arbete. Därefter betalar dess bitar bara det som finns kvar under gränserna.
+- **Bara en arbetar.** Av Moles i din Station arbetar bara den starkaste; de andra ger bara boosts.
 
 ## Reglerna {#the-rules}
 

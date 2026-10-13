@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Storm は、全艦中最高の基本速度と最多のレーザー数（13門）
 
 <!-- research-ship:end -->
 
-技術を研究したあと、アセンブリで Storm を製作するには、[Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) 1個、[Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 200個、[Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 35個、[Power Core](/wiki/06-Items/Resources.md#power-core) 10個、15,000 Thulium が必要で、製作時間は 900秒（15分）です。
+技術を研究したあと、アセンブリで Storm を製作するには、[Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) 3個、[Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 200個、[Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 35個、[Power Core](/wiki/06-Items/Resources.md#power-core) 20個、15,000 Thulium が必要で、製作時間は 900秒（15分）です。
 
 ## 伝承 {#lore}
 

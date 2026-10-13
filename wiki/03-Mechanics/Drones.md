@@ -22,7 +22,7 @@ Drones are small, and they stay close: a level-8 drone is about 19.5 units acros
 
 Wear a [drone formation](/wiki/03-Mechanics/Formations.md) and the drones leave this layout: **each of the 16 formations has its own shape**, a roof over the wings, a diamond, a heart, wings, a sword, a drill and more, and the drones glide to it in under a second. The shape is made for the drones you have, up to 8, and it turns with your ship. Other pilots see it too. [How they fly](/wiki/03-Mechanics/Formations.md#how-they-fly) shows all sixteen. Wear **Standard**, the entry of the hotbar's Formations list that is no formation, and the drones fly the Wingman layout again.
 
-You can switch the drones off in Settings › Interface: **Show My Drones** for yours and **Show Enemy Drones** for those of other pilots.
+You can switch the drones off in Settings › Interface: **Show My Drones** for yours and **Show Enemy Drones** for those of other pilots. Drones wear a **livery** too: you choose it in the Hangar's Drones view, and **Show other pilots' looks** decides whether you see the liveries of other pilots' drones ([Cosmetics](/wiki/06-Items/Cosmetics.md#drone-liveries)).
 
 ## Equipment & Stats
 
@@ -90,7 +90,7 @@ The curve is set so that a new drone reaches level 2 in about an hour of normal 
 
 ### Master Drone
 
-A Slave Drone becomes a **Master Drone** when you upgrade it in the Assembly, once the Master Drone's technology is researched ([Research](/wiki/03-Mechanics/Research.md)). The recipe costs 40,000 Thulium and 100 Ship Fragments and takes 60 seconds, and it does not use up a drone: **you pick which Slave Drone it is** (the picker shows the level and XP of each), and that same drone, with its number, its drone slot and everything fitted in it, turns into a Master Drone when the job finishes, with a second slot that is empty. Nothing goes into your inventory and there is nothing to collect: the Game Log tells you when it is done, also for an upgrade that finished while you were away.
+A Slave Drone becomes a **Master Drone** when you upgrade it in the Assembly, once the Master Drone's technology is researched ([Research](/wiki/03-Mechanics/Research.md)). The recipe costs 50,000 Thulium, 250 Ship Fragments and 20 Dark Matter Plates and takes 60 seconds, and it does not use up a drone: **you pick which Slave Drone it is** (the picker shows the level and XP of each), and that same drone, with its number, its drone slot and everything fitted in it, turns into a Master Drone when the job finishes, with a second slot that is empty. Nothing goes into your inventory and there is nothing to collect: the Game Log tells you when it is done, also for an upgrade that finished while you were away.
 
 **Its level and XP are reset to 0 when the upgrade finishes.** A Master Drone starts again at level 1, with no XP, and levels the way a Slave Drone does (the table above); the laser bonus of the level it had goes with it. The Assembly says so before you start, and asks you to confirm, naming the drone, when it has any XP. The default choice is the drone with the least XP.
 

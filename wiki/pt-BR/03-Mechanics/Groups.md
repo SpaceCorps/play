@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -60,6 +60,14 @@ A aba **Sistema** é dourada e somente de leitura, com uma lista própria: nela 
 ### Digitar {#typing}
 
 **Enter** abre o chat e dá a ele o teclado. Envie uma linha com **Enter** e o campo mantém o teclado, então a próxima linha pode vir logo em seguida; enquanto for assim, a barra de atalhos e as teclas de habilidade ficam desligadas. A digitação termina quando você pressiona **Escape**, pressiona **Enter** sem ter digitado nada, clica no mapa com o botão esquerdo (o mesmo clique continua guiando a sua nave), deixa o campo vazio e não pressiona nenhuma tecla por 15 segundos ou a sua nave é destruída. Na aba Sistema, onde não dá para escrever, **Enter** leva você de volta ao canal em que escreveu por último.
+
+### O chat na estação {#chat-at-the-station}
+
+Na estação, o chat é uma **barra no pé de cada página**, para que nada do que se diz passe despercebido enquanto você confere a pesquisa ou compra munição. Recolhida, que é como começa, ela tem uma linha de altura: o nome do chat, o número de linhas que você não leu (todas as abas juntas) e a linha mais recente. **Clique** nela para abrir o chat. Aberta, ela tem as abas, o histórico e o campo de entrada da janela de chat, com o mesmo contador de caracteres, a mesma pausa e as mesmas recusas sob o campo; você pode arrastar a borda superior para deixá-la mais alta ou mais baixa. Clique na barra de título ou pressione **Escape** para recolhê-la de novo. **Enter** dá o teclado ao campo enquanto a barra está aberta e nenhum outro campo de texto o tem. Uma aba que você está olhando conta como lida.
+
+É o mesmo chat da janela. O que se diz enquanto você está acoplado está na janela depois que você lança a nave, e o que se disse em voo está na barra quando você acopla; **Ocultar o chat Global**, os pilotos ignorados e as denúncias funcionam do mesmo jeito (clique com o botão direito em um nome). Na estação você pode escrever em **Global** e em **Grupo**. **Local** é o canal de um mapa: a aba dele mostra o que se disse em voo, e uma linha digitada com `/l` não é enviada. Um servidor de jogo anterior à 0.4.21 não consegue receber uma linha da estação: a barra então só mostra o chat.
+
+Se a barra está aberta e qual é a altura dela ficam guardados para a próxima vez. Desligue-a com **Barra de chat nas páginas da estação** em **Configurações › Interface › Chat**; a janela de chat em voo não muda.
 
 ### As regras do chat {#the-chat-rules}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
+<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -30,23 +30,23 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 
 1. **Erforsche es.** Jedes Design ist eine Technologie im Schiffsbaum der Forschungsansicht deines Skylabs ([Forschung](/wiki/03-Mechanics/Research.md#ship-technologies)). Sie dauert 10 Stunden und kostet 10 Dark Matter und verlangt die Technologie ihres Schiffs und die der Dark Matter Plate. Mit der Forschung entsteht noch nichts.
 2. **Baue das Schiff um.** Der Abschnitt Designs der Montage listet die dreizehn Umbauten auf. Wähle einen und bestätige: Der Auftrag kommt in die Produktionswarteschlange und dauert 10 Minuten. Er endet von selbst, du musst ihn nicht abholen.
-3. **Bezahle ihn.** Ein Umbau kostet Thulium, etwa ein Viertel der Materialien des eigenen Rezepts des Schiffs und Dark Matter Plates, wie die Tabelle sagt.
+3. **Bezahle ihn.** Ein Umbau kostet Thulium, Materialien und Dark Matter Plates, wie die Tabelle sagt.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100.000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100.000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100.000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100.000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100.000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100.000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100.000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100.000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100.000 | 20 | 375 | 65 | 20 | 3 |
 
 Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Paragon für THUNDER, BUCKY oder LICH), und es darf nicht das Schiff sein, das du fliegst: Mache zuerst ein anderes Schiff aktiv. Ein zerstörtes Schiff lässt sich nicht umbauen.
 
@@ -63,7 +63,7 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Alle vier** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 414, die alle anderen Technologien verlangen: 904 für jede Technologie des Spiels.
+Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 414, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.019 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 
@@ -75,7 +75,7 @@ Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 414, die alle anderen 
 
 ## Aussehen und Größe {#looks-and-size}
 
-Jedes Design hat ein eigenes Modell, das seines Schiffs mit ein paar Änderungen, die zeigen, was es kann. Sie sind wie die Schiffe schlicht grau, damit Farbe später als Skins kommen kann. BUCKY und TITANIC sind 20 % größer, und ein größeres Schiff wird von einer Rakete leichter getroffen. Der Hangar kennzeichnet ein Design mit einem DESIGN-Abzeichen, und andere Piloten sehen seinen Namen im Zielfenster und im Kill-Feed.
+Jedes Design hat ein eigenes Modell, das seines Schiffs mit ein paar Änderungen, die zeigen, was es kann. Sie sind wie die Schiffe schlicht grau, bis sie einen [Skin](/wiki/06-Items/Cosmetics.md) tragen: Ein Design trägt die Skins des Schiffs, aus dem es gemacht wurde, und ein Umbau behält den Look. BUCKY und TITANIC sind 20 % größer, und ein größeres Schiff wird von einer Rakete leichter getroffen. Der Hangar kennzeichnet ein Design mit einem DESIGN-Abzeichen, und andere Piloten sehen seinen Namen im Zielfenster und im Kill-Feed.
 
 ## Shop, Auktion und Punkte {#shop-auction-and-points}
 

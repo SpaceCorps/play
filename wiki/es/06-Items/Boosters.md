@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Potenciadores -->
 # Potenciadores {#boosters}
 
@@ -38,7 +38,7 @@ Los potenciadores usan un sistema de escalado aditivo:
 1. **Los porcentajes de bono se suman**: si compras dos potenciadores distintos que dan +10 % de daño láser, recibirás un bono total de **+20 % de daño láser**.
 2. **Las duraciones se acumulan de forma multiplicativa**: comprar varias veces el _mismo_ potenciador prolonga su duración activa. Los temporizadores de potenciadores _distintos_ corren en paralelo.
 3. **Vista de temporizadores**: los potenciadores activos aparecen en el HUD, en la ventana Potenciadores, con el total de los bonos activos agrupados y el próximo vencimiento.
-4. **Los números los cuentan**: el daño, los escudos, la recarga del escudo, la absorción, la velocidad y el casco del Hangar, y tu página de piloto, incluyen tus potenciadores en marcha, tus mejoras de la tienda de temporada y los refuerzos de tu clan; una pequeña etiqueta *con potenciadores* en la tarjeta de estadísticas de combate lo indica. La penetración, la probabilidad de crítico y el alcance no cambian con los potenciadores.
+4. **Los números los cuentan**: el daño, los escudos, la recarga del escudo, la absorción, la velocidad y el casco del Hangar, y tu página de piloto, incluyen tus potenciadores en marcha, tus mejoras de la tienda de temporada, los refuerzos de tu clan y tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados; una pequeña etiqueta *con potenciadores* en la tarjeta de estadísticas de combate lo indica. La penetración, la probabilidad de crítico y el alcance no cambian con los potenciadores.
 
 ---
 
@@ -71,7 +71,7 @@ Los escudos tienen tres estadísticas independientes, y cada aumento de escudo s
 
 | Tipo | Qué es | Aumentos que la suben |
 | :--- | :--- | :--- |
-| **Capacidad de escudo** | Tus puntos de escudo máximos | Shield Wall Booster I, Shield Wall Booster II, la **mejora permanente Shield Capacity Boost** (Tienda de temporada) |
+| **Capacidad de escudo** | Tus puntos de escudo máximos | Shield Wall Booster I, Shield Wall Booster II, la **mejora permanente Shield Capacity Boost** (Tienda de temporada), la mejora de escudo de un [P.E.T.](/wiki/03-Mechanics/Pets.md) acoplado |
 | **Absorción de escudo** | La parte de cada impacto que se llevan tus escudos (el resto va al casco); puede superar el 100 % | La **mejora permanente Shield Absorbance Boost** (Tienda de temporada): +0,1 puntos por nivel por 25 PR, +10 puntos como máximo. Ningún potenciador la sube |
 | **Recarga de escudo** | Puntos de escudo restaurados por segundo | Shield Regen Booster. Ninguna mejora permanente la sube |
 

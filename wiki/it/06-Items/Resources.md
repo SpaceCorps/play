@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7781b4c9e05c5455 -->
+<!-- wiki-i18n source: 91ad34564d700684 -->
 <!-- wiki-i18n title: Risorse -->
 # Risorse {#resources}
 
@@ -7,7 +7,7 @@ Una **risorsa**, qui, è tutto ciò che il gioco ti dà, raccoglie per te e ti r
 - I **materiali** sono oggetti nell’inventario del tuo Hangar: cadono dagli alieni sotto forma di [casse di carico](/wiki/03-Mechanics/Cargo.md), arrivano come ricompense delle missioni o vengono prodotti nello [Skylab](/wiki/03-Mechanics/Skylab.md). Si spendono nelle ricette dell’Assemblaggio, nella [Forgia](/wiki/06-Items/Forge.md) e nelle costruzioni dello Skylab.
 - Le **valute** stanno nel tuo account. Ogni alieno le paga, e lo stesso fanno le missioni e le fattorie dello Skylab.
 - **Non in questa pagina**: le munizioni ([Laser](/wiki/06-Items/Lasers.md), [Razzi](/wiki/06-Items/Rockets.md)), l’equipaggiamento e i booster hanno le loro pagine. Esperienza e onore sono punteggi, non denaro: li trovi nella tabella degli alieni qui sotto.
-- **Vendita**: ciò che hai guadagnato di queste si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items), tranne l’Ancient Control Unit, i minerali (Velkonite e Orvium) e la Dark Matter Plate. Una Reinforced Plate si può vendere se l’ha pagata una missione, non se l’ha prodotta la Fucina.
+- **Vendita**: ciò che hai guadagnato di queste si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items), tranne l’Ancient Control Unit, i minerali (Velkonite e Orvium), la Dark Matter Plate e i tre Cluster Chunk. Una Reinforced Plate si può vendere se l’ha pagata una missione, non se l’ha prodotta la Fucina.
 
 Dove un numero dice “settore”, si tratta del settore della mappa della tua corporazione (1 è accanto alla tua base, 4 è il confine). Le cifre sono i dati del gioco stessi, presi direttamente da esso, quindi si aggiornano quando cambia un drop, una ricetta o un tasso.
 
@@ -20,20 +20,23 @@ Ogni resa in questa pagina è **per abbattimento, in media**: la probabilità di
 
 | Materiale | Rarità | Proviene da | Serve per |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Comune | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroidi, missioni Speciali | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, N.U.K.E., N.I.K.E., Forgia, Costruzioni dello Skylab, Centro ricerche |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Comune | Goombah, Bulwark, asteroidi, missioni | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, N.U.K.E., N.I.K.E., Forgia, Centro ricerche |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Non comune | Crystalys, Goombah, asteroidi, missioni | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, N.U.K.E., Forgia, Centro ricerche |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Crystalys, missioni | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, Centro ricerche |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Comune | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroidi, missioni Speciali | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., Forgia, Costruzioni dello Skylab, Centro ricerche |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Comune | Goombah, Bulwark, asteroidi, missioni | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., Forgia, Centro ricerche |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Non comune | Crystalys, Goombah, asteroidi, missioni | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., Forgia, Centro ricerche |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Crystalys, missioni | Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Centro ricerche |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Comune | Phantasm, Seeker, asteroidi | Penetration Amp II, Forgia, Centro ricerche |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Comune | Phantasm, Bulwark, asteroidi | Penetration Amp III, Forgia, Centro ricerche |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Comune | Crystalys, Goombah, Bulwark, asteroidi, escavatore gigante, missioni | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., Forgia, Centro ricerche |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | Comune | Crystalys, Goombah, asteroidi, escavatore gigante | Penetration Amp IV, Forgia, Centro ricerche |
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Non comune | escavatore gigante, Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | Raro | escavatore gigante, Collettore dello Skylab | Fucina dello Skylab, Centro ricerche |
-| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Raro | missioni, Fucina dello Skylab | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epico | missioni, Fucina dello Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
+| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Raro | missioni, Fucina dello Skylab | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epico | missioni, Fucina dello Skylab | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Culla dei P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epico | il buco nero (un N.I.K.E. inghiottito) | Dark Matter Plate, Centro ricerche |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitico | Assemblaggio | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forgia |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitico | Assemblaggio | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forgia |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epico | asteroidi | Culla dei P.E.T. |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitico | asteroidi | Culla dei P.E.T. |
+| [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Leggendario | asteroidi | Culla dei P.E.T. |
 
 ## Materiali {#materials}
 
@@ -57,58 +60,73 @@ Ogni resa in questa pagina è **per abbattimento, in media**: la probabilità di
 
 **A cosa serve**
 
-- [Master Drone](/wiki/06-Items/Drones.md): **100** (con 1 Slave Drone, 40.000 Thulium)
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (con 1 Quantum Laser II, 2 Velkonite Reinforced Plate, 1.500 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **250** (con 20 Dark Matter Plate, 1 Slave Drone, 50.000 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (con 1 Quantum Laser II, 3 Velkonite Reinforced Plate, 1.500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **15** (con 1 Quantum Laser III, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 100.000 crediti, 1.500 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **120** (con 5 Power Core, 20 Reinforced Hull Plate, 1.500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **300** (con 3 Ancient Control Unit, 15 Power Core, 50 Reinforced Hull Plate, 20.000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **500** (con 3 Ancient Control Unit, 20 Power Core, 200 Reinforced Hull Plate, 20.000 Thulium)
 - [Laser Damage Booster II](/wiki/06-Items/Boosters.md): **5** (con 20.000 Thulium)
 - [Shield Wall Booster II](/wiki/06-Items/Boosters.md): **5** (con 15.000 Thulium)
 - [Hull Plating Booster II](/wiki/06-Items/Boosters.md): **5** (con 15.000 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **60** (con 3 Dark Matter Plate, 1 Impulse Thruster III, 3 Power Core, 2.000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **200** (con 1 Ancient Control Unit, 10 Power Core, 35 Reinforced Hull Plate, 10.500 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **60** (con 3 Dark Matter Plate, 1 Engine II, 3 Power Core, 2.000 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **30** (con 1 Impulse Thruster II, 2 Power Core, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **10** (con 1 Impulse Thruster I, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **10** (con 1 Momentum Thruster I, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **30** (con 1 Momentum Thruster II, 2 Power Core, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **60** (con 3 Dark Matter Plate, 1 Momentum Thruster III, 3 Power Core, 2.000 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **200** (con 1 Ancient Control Unit, 10 Power Core, 35 Reinforced Hull Plate, 15.000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **110** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Impulse Thruster III, 5 Power Core, 4.000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **500** (con 3 Ancient Control Unit, 10 Power Core, 200 Reinforced Hull Plate, 10.500 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **110** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Engine II, 5 Power Core, 4.000 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **80** (con 1 Impulse Thruster II, 4 Power Core, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **50** (con 1 Absorption Shield Cell I, 20 Cataclysite, 8 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **50** (con 1 Absorption Shield Cell II, 25 Cataclysite, 2 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **50** (con 1 Capacity Shield Cell I, 20 Cataclysite, 8 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **50** (con 1 Capacity Shield Cell II, 25 Cataclysite, 2 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **60** (con 1 Impulse Thruster I, 1 Power Core, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **60** (con 1 Momentum Thruster I, 1 Power Core, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **80** (con 1 Momentum Thruster II, 4 Power Core, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **110** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Momentum Thruster III, 5 Power Core, 4.000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **200** (con 3 Ancient Control Unit, 20 Power Core, 35 Reinforced Hull Plate, 15.000 Thulium)
 - Extra Slots CPU I: **60** (con 3 Power Core, 6 Velkonite Reinforced Plate, 12.000 Thulium)
 - Extra Slots CPU II: **120** (con 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30.000 Thulium)
-- Extra Slots CPU III: **240** (con 2 Ancient Control Unit, 3 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 75.000 Thulium)
+- Extra Slots CPU III: **240** (con 2 Ancient Control Unit, 4 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 75.000 Thulium)
 - Jump CPU: **200** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 10 Power Core, 20 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 40.000 Thulium)
 - Base CPU I: **40** (con 2 Power Core, 4 Velkonite Reinforced Plate, 8.000 Thulium)
-- Base CPU II: **100** (con 3 Dark Matter Plate, 2 Orvium Reinforced Plate, 5 Power Core, 20.000 Thulium)
+- Base CPU II: **100** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 2 Orvium Reinforced Plate, 5 Power Core, 20.000 Thulium)
 - Auto-Repair CPU: **80** (con 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15.000 Thulium)
-- Testudo Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 7.500 Thulium)
-- Bodkin Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Asterism Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 7.000 Thulium)
-- Gemini Formation: **260** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 38.000 Thulium)
-- Adamant Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 9.000 Thulium)
-- Ballista Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 24.000 Thulium)
-- Stiletto Formation: **260** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 46.000 Thulium)
-- Rampart Formation: **260** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 38.500 Thulium)
-- Sanctum Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Shrike Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 8.500 Thulium)
-- Culler Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Redoubt Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Auger Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.500 Thulium)
-- Cordon Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 21.500 Thulium)
-- Centurion Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 8.000 Thulium)
-- Gyre Formation: **180** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.000 Thulium)
+- Testudo Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 15.000 Thulium)
+- Bodkin Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Asterism Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 14.000 Thulium)
+- Gemini Formation: **260** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 76.000 Thulium)
+- Adamant Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 18.000 Thulium)
+- Ballista Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 48.000 Thulium)
+- Stiletto Formation: **260** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 92.000 Thulium)
+- Rampart Formation: **260** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 77.000 Thulium)
+- Sanctum Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Shrike Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 17.000 Thulium)
+- Culler Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Redoubt Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Auger Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 41.000 Thulium)
+- Cordon Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 43.000 Thulium)
+- Centurion Formation: **100** (con 5 Power Core, 10 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 16.000 Thulium)
+- Gyre Formation: **180** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 1 Damage Amp I, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 1 Damage Amp II, 2 Power Core, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 1 Crit Amp I, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 1 Crit Amp II, 2 Power Core, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 20 Daraxium, 1 Penetration Amp I, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **50** (con 20 Cataclysite, 30 Nyxite, 1 Penetration Amp II, 2 Power Core, 2 Velkonite Reinforced Plate, 2.000 Thulium)
 - Hull Plating II: **150** (con 5 Dark Matter Plate, 1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 2.500 Thulium)
 - Hull Plating III: **300** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 4.000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **10** (con 1 Engine I, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- Adaptive Core II: **10** (con 1 Adaptive Core I, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- Adaptive Core III: **60** (con 1 Adaptive Core II, 3 Dark Matter Plate, 3 Power Core, 2.000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **60** (con 1 Engine I, 1 Power Core, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- Adaptive Core II: **60** (con 1 Adaptive Core I, 1 Power Core, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- Adaptive Core III: **110** (con 1 Adaptive Core II, 1 Ancient Control Unit, 4 Dark Matter Plate, 5 Power Core, 4.000 Thulium)
+- Energetic Wall II: **10** (con 1 Energetic Wall I, 2 Power Core, 600 Thulium)
+- P.E.T. Station I: **25** (con 2 Power Core, 4 Velkonite Reinforced Plate, 100.000 crediti, 2.000 Thulium)
+- P.E.T. Station II: **60** (con 2 Orvium Reinforced Plate, 4 Power Core, 6 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 400.000 crediti, 6.000 Thulium)
+- P.E.T. Station III: **120** (con 2 Ancient Control Unit, 4 Orvium Reinforced Plate, 8 Power Core, 12 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 1.500.000 crediti, 18.000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (con 80 Cataclysite, 4 Power Core, 10 Reinforced Hull Plate, 6 Scatter III, 150.000 crediti, 3.000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5): **20** (con 40 Cataclysite, 4 Reinforced Hull Plate, 100.000 crediti, 1.500 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Standard a Corrotto: **5** (con 15 Daraxium, 10.000 crediti; 100% di successo)
 - [Forgia](/wiki/06-Items/Forge.md), da Corrotto a Divino: **30** (con 45 Nyxite, 50.000 crediti; 90% di successo)
-- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **10** ciascuno per Stampante di munizioni, Fucina, Baia del minerale, Collettore Orvium, Magazzino risorse, Collettore Velkonite (dal tuo inventario, non dal Deposito di trasporto)
-- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **15** ciascuno per Fabbrica di razzi (dal tuo inventario, non dal Deposito di trasporto)
-- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **25** ciascuno per Centro ricerche (dal tuo inventario, non dal Deposito di trasporto)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **10** ciascuno per Stampante di munizioni, Fucina, Baia del minerale, Collettore Orvium, Magazzino risorse, Baia dei trofei, Collettore Velkonite (dal tuo inventario, non dal Deposito di trasporto)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **15** ciascuno per Modulo Radar, Fabbrica di razzi (dal tuo inventario, non dal Deposito di trasporto)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **20** ciascuno per Modulo Motori (dal tuo inventario, non dal Deposito di trasporto)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), costruzione di un modulo: **25** ciascuno per Modulo Difesa, Centro ricerche (dal tuo inventario, non dal Deposito di trasporto)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **5** di scienza per unità
 
 Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotondato per difetto.
@@ -133,40 +151,42 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 **A cosa serve**
 
 - [Starfire-III](/wiki/06-Items/Lasers.md): **1** (con 1 Quantum Laser III, 15 Ship Fragment, 8 Velkonite Reinforced Plate, 100.000 crediti, 1.500 Thulium)
-- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (con 50 Cataclysite, 3 Dark Matter Plate, 18 Orvium Reinforced Plate, 2 Power Core, 1 Starfire-III, 2.000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (con 1 Ancient Control Unit, 50 Cataclysite, 4 Dark Matter Plate, 18 Orvium Reinforced Plate, 2 Power Core, 1 Starfire-III, 2.000 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **20** (con 5 Power Core, 120 Ship Fragment, 1.500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **50** (con 3 Ancient Control Unit, 15 Power Core, 300 Ship Fragment, 20.000 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **8** (con 1 Absorption Shield Cell III, 20 Cataclysite, 3 Dark Matter Plate, 2.500 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **35** (con 1 Ancient Control Unit, 10 Power Core, 200 Ship Fragment, 10.500 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **8** (con 1 Basic Shield Core, 20 Cataclysite, 3 Dark Matter Plate, 2.000 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **4** (con 1 Absorption Shield Cell I, 10 Cataclysite, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **6** (con 1 Absorption Shield Cell II, 15 Cataclysite, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **4** (con 1 Capacity Shield Cell I, 10 Cataclysite, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **6** (con 1 Capacity Shield Cell II, 15 Cataclysite, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **8** (con 1 Capacity Shield Cell III, 20 Cataclysite, 3 Dark Matter Plate, 2.500 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **35** (con 1 Ancient Control Unit, 10 Power Core, 200 Ship Fragment, 15.000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **200** (con 3 Ancient Control Unit, 20 Power Core, 500 Ship Fragment, 20.000 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **12** (con 1 Absorption Shield Cell III, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 5.000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **200** (con 3 Ancient Control Unit, 10 Power Core, 500 Ship Fragment, 10.500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **12** (con 1 Ancient Control Unit, 1 Basic Shield Core, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 4.000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **8** (con 1 Absorption Shield Cell I, 20 Cataclysite, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **10** (con 1 Absorption Shield Cell II, 25 Cataclysite, 2 Power Core, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **8** (con 1 Capacity Shield Cell I, 20 Cataclysite, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **10** (con 1 Capacity Shield Cell II, 25 Cataclysite, 2 Power Core, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **12** (con 1 Ancient Control Unit, 1 Capacity Shield Cell III, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 5.000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **35** (con 3 Ancient Control Unit, 20 Power Core, 200 Ship Fragment, 15.000 Thulium)
 - Extra Slots CPU II: **10** (con 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium)
-- Extra Slots CPU III: **25** (con 2 Ancient Control Unit, 3 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 75.000 Thulium)
+- Extra Slots CPU III: **25** (con 2 Ancient Control Unit, 4 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 75.000 Thulium)
 - Jump CPU: **20** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 10 Power Core, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40.000 Thulium)
 - Auto-Repair CPU: **8** (con 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium)
-- Testudo Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7.500 Thulium)
-- Bodkin Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Asterism Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7.000 Thulium)
-- Gemini Formation: **26** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.000 Thulium)
-- Adamant Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 9.000 Thulium)
-- Ballista Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24.000 Thulium)
-- Stiletto Formation: **26** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46.000 Thulium)
-- Rampart Formation: **26** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.500 Thulium)
-- Sanctum Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Shrike Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8.500 Thulium)
-- Culler Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Redoubt Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Auger Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.500 Thulium)
-- Cordon Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.500 Thulium)
-- Centurion Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8.000 Thulium)
-- Gyre Formation: **18** (con 3 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
+- Testudo Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 15.000 Thulium)
+- Bodkin Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Asterism Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 14.000 Thulium)
+- Gemini Formation: **26** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 76.000 Thulium)
+- Adamant Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 18.000 Thulium)
+- Ballista Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 48.000 Thulium)
+- Stiletto Formation: **26** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 92.000 Thulium)
+- Rampart Formation: **26** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 77.000 Thulium)
+- Sanctum Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Shrike Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 17.000 Thulium)
+- Culler Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Redoubt Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Auger Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 41.000 Thulium)
+- Cordon Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 43.000 Thulium)
+- Centurion Formation: **10** (con 5 Power Core, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 16.000 Thulium)
+- Gyre Formation: **18** (con 15 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
 - Hull Plating II: **20** (con 5 Dark Matter Plate, 1 Hull Plating I, 6 Power Core, 150 Ship Fragment, 2.500 Thulium)
 - Hull Plating III: **40** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Hull Plating II, 12 Power Core, 300 Ship Fragment, 4.000 Thulium)
+- P.E.T. Station II: **6** (con 2 Orvium Reinforced Plate, 4 Power Core, 60 Ship Fragment, 8 Velkonite Reinforced Plate, 400.000 crediti, 6.000 Thulium)
+- P.E.T. Station III: **12** (con 2 Ancient Control Unit, 4 Orvium Reinforced Plate, 8 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 1.500.000 crediti, 18.000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (con 80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150.000 crediti, 3.000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5): **4** (con 40 Cataclysite, 20 Ship Fragment, 100.000 crediti, 1.500 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Divino a Lacerante: **20** (con 120 Cataclysite, 2 Dark Matter Plate, 200.000 crediti; 75% di successo)
@@ -193,52 +213,61 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **2** (con 50 Cataclysite, 3 Dark Matter Plate, 18 Orvium Reinforced Plate, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **2** (con 1 Ancient Control Unit, 50 Cataclysite, 4 Dark Matter Plate, 18 Orvium Reinforced Plate, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **5** (con 20 Reinforced Hull Plate, 120 Ship Fragment, 1.500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **15** (con 3 Ancient Control Unit, 50 Reinforced Hull Plate, 300 Ship Fragment, 20.000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 1 Damage Amp III, 3 Dark Matter Plate, 1.200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 1 Crit Amp III, 3 Dark Matter Plate, 1.200 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **3** (con 3 Dark Matter Plate, 1 Impulse Thruster III, 60 Ship Fragment, 2.000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **10** (con 1 Ancient Control Unit, 35 Reinforced Hull Plate, 200 Ship Fragment, 10.500 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **3** (con 3 Dark Matter Plate, 1 Engine II, 60 Ship Fragment, 2.000 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **2** (con 1 Impulse Thruster II, 30 Ship Fragment, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **1** (con 1 Impulse Thruster I, 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **1** (con 1 Momentum Thruster I, 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **2** (con 1 Momentum Thruster II, 30 Ship Fragment, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **3** (con 3 Dark Matter Plate, 1 Momentum Thruster III, 60 Ship Fragment, 2.000 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **10** (con 1 Ancient Control Unit, 35 Reinforced Hull Plate, 200 Ship Fragment, 15.000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **20** (con 3 Ancient Control Unit, 200 Reinforced Hull Plate, 500 Ship Fragment, 20.000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (con 1 Ancient Control Unit, 30 Cataclysite, 1 Damage Amp III, 4 Dark Matter Plate, 2.400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (con 1 Ancient Control Unit, 30 Cataclysite, 1 Crit Amp III, 4 Dark Matter Plate, 2.400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **2** (con 1 Absorption Shield Cell III, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **5** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Impulse Thruster III, 110 Ship Fragment, 4.000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **10** (con 3 Ancient Control Unit, 200 Reinforced Hull Plate, 500 Ship Fragment, 10.500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **2** (con 1 Ancient Control Unit, 1 Basic Shield Core, 30 Cataclysite, 4 Dark Matter Plate, 12 Reinforced Hull Plate, 4.000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **5** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Engine II, 110 Ship Fragment, 4.000 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Impulse Thruster II, 80 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **2** (con 1 Absorption Shield Cell II, 25 Cataclysite, 10 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **2** (con 1 Capacity Shield Cell II, 25 Cataclysite, 10 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **2** (con 1 Ancient Control Unit, 1 Capacity Shield Cell III, 30 Cataclysite, 4 Dark Matter Plate, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **1** (con 1 Impulse Thruster I, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **1** (con 1 Momentum Thruster I, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Momentum Thruster II, 80 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **5** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Momentum Thruster III, 110 Ship Fragment, 4.000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **20** (con 3 Ancient Control Unit, 35 Reinforced Hull Plate, 200 Ship Fragment, 15.000 Thulium)
 - Extra Slots CPU I: **3** (con 60 Ship Fragment, 6 Velkonite Reinforced Plate, 12.000 Thulium)
 - Extra Slots CPU II: **6** (con 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium)
-- Extra Slots CPU III: **12** (con 2 Ancient Control Unit, 3 Dark Matter Plate, 6 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
+- Extra Slots CPU III: **12** (con 2 Ancient Control Unit, 4 Dark Matter Plate, 6 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
 - Jump CPU: **10** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 20 Reinforced Hull Plate, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40.000 Thulium)
 - Base CPU I: **2** (con 40 Ship Fragment, 4 Velkonite Reinforced Plate, 8.000 Thulium)
-- Base CPU II: **5** (con 3 Dark Matter Plate, 2 Orvium Reinforced Plate, 100 Ship Fragment, 20.000 Thulium)
+- Base CPU II: **5** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 2 Orvium Reinforced Plate, 100 Ship Fragment, 20.000 Thulium)
 - Auto-Repair CPU: **4** (con 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium)
-- Testudo Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7.500 Thulium)
-- Bodkin Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Asterism Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 7.000 Thulium)
-- Gemini Formation: **13** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.000 Thulium)
-- Adamant Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 9.000 Thulium)
-- Ballista Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24.000 Thulium)
-- Stiletto Formation: **13** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46.000 Thulium)
-- Rampart Formation: **13** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.500 Thulium)
-- Sanctum Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Shrike Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8.500 Thulium)
-- Culler Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Redoubt Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Auger Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.500 Thulium)
-- Cordon Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.500 Thulium)
-- Centurion Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 8.000 Thulium)
-- Gyre Formation: **9** (con 3 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **1** (con 20 Cataclysite, 1 Damage Amp II, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **1** (con 20 Cataclysite, 1 Crit Amp II, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **1** (con 20 Cataclysite, 30 Nyxite, 1 Penetration Amp II, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 3 Dark Matter Plate, 1 Penetration Amp III, 40 Quorvium, 1.200 Thulium)
+- Testudo Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 15.000 Thulium)
+- Bodkin Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Asterism Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 14.000 Thulium)
+- Gemini Formation: **13** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 76.000 Thulium)
+- Adamant Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 18.000 Thulium)
+- Ballista Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 48.000 Thulium)
+- Stiletto Formation: **13** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 92.000 Thulium)
+- Rampart Formation: **13** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 77.000 Thulium)
+- Sanctum Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Shrike Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 17.000 Thulium)
+- Culler Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Redoubt Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Auger Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 41.000 Thulium)
+- Cordon Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 43.000 Thulium)
+- Centurion Formation: **5** (con 10 Reinforced Hull Plate, 100 Ship Fragment, 4 Velkonite Reinforced Plate, 16.000 Thulium)
+- Gyre Formation: **9** (con 15 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Damage Amp II, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Crit Amp II, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 30 Nyxite, 1 Penetration Amp II, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (con 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate, 1 Penetration Amp III, 40 Quorvium, 2.400 Thulium)
 - Hull Plating II: **6** (con 5 Dark Matter Plate, 1 Hull Plating I, 20 Reinforced Hull Plate, 150 Ship Fragment, 2.500 Thulium)
 - Hull Plating III: **12** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Hull Plating II, 40 Reinforced Hull Plate, 300 Ship Fragment, 4.000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **1** (con 1 Engine I, 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- Adaptive Core II: **1** (con 1 Adaptive Core I, 10 Ship Fragment, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- Adaptive Core III: **3** (con 1 Adaptive Core II, 3 Dark Matter Plate, 60 Ship Fragment, 2.000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **1** (con 1 Engine I, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- Adaptive Core II: **1** (con 1 Adaptive Core I, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- Adaptive Core III: **5** (con 1 Adaptive Core II, 1 Ancient Control Unit, 4 Dark Matter Plate, 110 Ship Fragment, 4.000 Thulium)
+- Energetic Wall II: **2** (con 1 Energetic Wall I, 10 Ship Fragment, 600 Thulium)
+- P.E.T. Station I: **2** (con 25 Ship Fragment, 4 Velkonite Reinforced Plate, 100.000 crediti, 2.000 Thulium)
+- P.E.T. Station II: **4** (con 2 Orvium Reinforced Plate, 6 Reinforced Hull Plate, 60 Ship Fragment, 8 Velkonite Reinforced Plate, 400.000 crediti, 6.000 Thulium)
+- P.E.T. Station III: **8** (con 2 Ancient Control Unit, 4 Orvium Reinforced Plate, 12 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 1.500.000 crediti, 18.000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (con 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150.000 crediti, 3.000 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Lacerante a Eterno: **8** (con 240 Quorvium, 2 Dark Matter Plate, 500.000 crediti, 2.000 Thulium; 60% di successo)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **100** di scienza per unità
@@ -262,15 +291,28 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Wraith](/wiki/02-Ships/Wraith.md): **3** (con 15 Power Core, 50 Reinforced Hull Plate, 300 Ship Fragment, 20.000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **1** (con 10 Power Core, 35 Reinforced Hull Plate, 200 Ship Fragment, 10.500 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **1** (con 10 Power Core, 35 Reinforced Hull Plate, 200 Ship Fragment, 15.000 Thulium)
-- Extra Slots CPU III: **2** (con 3 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **1** (con 50 Cataclysite, 4 Dark Matter Plate, 18 Orvium Reinforced Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **3** (con 20 Power Core, 200 Reinforced Hull Plate, 500 Ship Fragment, 20.000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 1 Damage Amp III, 4 Dark Matter Plate, 1 Power Core, 2.400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 1 Crit Amp III, 4 Dark Matter Plate, 1 Power Core, 2.400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **1** (con 1 Absorption Shield Cell III, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **1** (con 4 Dark Matter Plate, 1 Impulse Thruster III, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **3** (con 10 Power Core, 200 Reinforced Hull Plate, 500 Ship Fragment, 10.500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **1** (con 1 Basic Shield Core, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 4.000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **1** (con 4 Dark Matter Plate, 1 Engine II, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **1** (con 1 Capacity Shield Cell III, 30 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **1** (con 4 Dark Matter Plate, 1 Momentum Thruster III, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **3** (con 20 Power Core, 35 Reinforced Hull Plate, 200 Ship Fragment, 15.000 Thulium)
+- Extra Slots CPU III: **2** (con 4 Dark Matter Plate, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
 - Jump CPU: **3** (con 10 Orvium Reinforced Plate, 10 Power Core, 20 Reinforced Hull Plate, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40.000 Thulium)
-- Gemini Formation: **2** (con 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.000 Thulium)
-- Stiletto Formation: **2** (con 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46.000 Thulium)
-- Rampart Formation: **2** (con 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.500 Thulium)
+- Base CPU II: **1** (con 4 Dark Matter Plate, 2 Orvium Reinforced Plate, 5 Power Core, 100 Ship Fragment, 20.000 Thulium)
+- Gemini Formation: **2** (con 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 76.000 Thulium)
+- Stiletto Formation: **2** (con 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 92.000 Thulium)
+- Rampart Formation: **2** (con 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 77.000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (con 30 Cataclysite, 4 Dark Matter Plate, 1 Penetration Amp III, 1 Power Core, 40 Quorvium, 2.400 Thulium)
 - Hull Plating III: **1** (con 8 Dark Matter Plate, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4.000 Thulium)
+- Adaptive Core III: **1** (con 1 Adaptive Core II, 4 Dark Matter Plate, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- P.E.T. Station III: **2** (con 4 Orvium Reinforced Plate, 8 Power Core, 12 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 1.500.000 crediti, 18.000 Thulium)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **650** di scienza per unità
 
 **Come farmare**: abbatti [Crystalys](/wiki/04-Aliens/Crystalys.md) (settore 4): in media 0,2 per abbattimento.
@@ -291,7 +333,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (con 10 Cataclysite, 1 Penetration Amp I, 1 Velkonite Reinforced Plate, 250 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (con 20 Cataclysite, 1 Penetration Amp I, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 500 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Standard a Corrotto: **15** (con 5 Ship Fragment, 10.000 crediti; 100% di successo)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **7** di scienza per unità
 
@@ -315,7 +357,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **30** (con 20 Cataclysite, 1 Penetration Amp II, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **30** (con 20 Cataclysite, 1 Penetration Amp II, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Corrotto a Divino: **45** (con 30 Ship Fragment, 50.000 crediti; 90% di successo)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **7** di scienza per unità
 
@@ -342,23 +384,23 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **50** (con 3 Dark Matter Plate, 18 Orvium Reinforced Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **30** (con 1 Damage Amp III, 3 Dark Matter Plate, 1 Power Core, 1.200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **30** (con 1 Crit Amp III, 3 Dark Matter Plate, 1 Power Core, 1.200 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **20** (con 1 Absorption Shield Cell III, 3 Dark Matter Plate, 8 Reinforced Hull Plate, 2.500 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **20** (con 1 Basic Shield Core, 3 Dark Matter Plate, 8 Reinforced Hull Plate, 2.000 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **10** (con 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **15** (con 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **10** (con 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **15** (con 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1.500 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **20** (con 1 Capacity Shield Cell III, 3 Dark Matter Plate, 8 Reinforced Hull Plate, 2.500 Thulium)
-- [Damage Amp II](/wiki/06-Items/Lasers.md): **10** (con 1 Damage Amp I, 1 Velkonite Reinforced Plate, 250 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **20** (con 1 Damage Amp II, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Crit Amp II](/wiki/06-Items/Lasers.md): **10** (con 1 Crit Amp I, 1 Velkonite Reinforced Plate, 250 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **20** (con 1 Crit Amp II, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **10** (con 20 Daraxium, 1 Penetration Amp I, 1 Velkonite Reinforced Plate, 250 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **20** (con 30 Nyxite, 1 Penetration Amp II, 1 Power Core, 2 Velkonite Reinforced Plate, 1.000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **30** (con 3 Dark Matter Plate, 1 Penetration Amp III, 1 Power Core, 40 Quorvium, 1.200 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **50** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 18 Orvium Reinforced Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **30** (con 1 Ancient Control Unit, 1 Damage Amp III, 4 Dark Matter Plate, 1 Power Core, 2.400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **30** (con 1 Ancient Control Unit, 1 Crit Amp III, 4 Dark Matter Plate, 1 Power Core, 2.400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **30** (con 1 Absorption Shield Cell III, 1 Ancient Control Unit, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **30** (con 1 Ancient Control Unit, 1 Basic Shield Core, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 4.000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **20** (con 1 Absorption Shield Cell I, 8 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **25** (con 1 Absorption Shield Cell II, 2 Power Core, 10 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **20** (con 1 Capacity Shield Cell I, 8 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **25** (con 1 Capacity Shield Cell II, 2 Power Core, 10 Reinforced Hull Plate, 50 Ship Fragment, 4 Velkonite Reinforced Plate, 3.000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **30** (con 1 Ancient Control Unit, 1 Capacity Shield Cell III, 4 Dark Matter Plate, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **20** (con 1 Damage Amp I, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **20** (con 1 Damage Amp II, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **20** (con 1 Crit Amp I, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **20** (con 1 Crit Amp II, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (con 20 Daraxium, 1 Penetration Amp I, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **20** (con 30 Nyxite, 1 Penetration Amp II, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate, 2.000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **30** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 1 Penetration Amp III, 1 Power Core, 40 Quorvium, 2.400 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **80** (con 4 Power Core, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150.000 crediti, 3.000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5): **40** (con 4 Reinforced Hull Plate, 20 Ship Fragment, 100.000 crediti, 1.500 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Divino a Lacerante: **120** (con 20 Reinforced Hull Plate, 2 Dark Matter Plate, 200.000 crediti; 75% di successo)
@@ -385,7 +427,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 
 **A cosa serve**
 
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **40** (con 30 Cataclysite, 3 Dark Matter Plate, 1 Penetration Amp III, 1 Power Core, 1.200 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **40** (con 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate, 1 Penetration Amp III, 1 Power Core, 2.400 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Lacerante a Eterno: **240** (con 8 Power Core, 2 Dark Matter Plate, 500.000 crediti, 2.000 Thulium; 60% di successo)
 - [Centro ricerche](/wiki/03-Mechanics/Research.md#fuel), carburante: **8** di scienza per unità
 
@@ -466,46 +508,49 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 **A cosa serve**
 
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **2** (con 1 Quantum Laser II, 10 Ship Fragment, 1.500 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **3** (con 1 Quantum Laser II, 10 Ship Fragment, 1.500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **8** (con 1 Quantum Laser III, 1 Reinforced Hull Plate, 15 Ship Fragment, 100.000 crediti, 1.500 Thulium)
 - Dark Matter Plate: **1** (con 5 Dark Matter, 1 Orvium Reinforced Plate, 250 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Impulse Thruster II, 2 Power Core, 30 Ship Fragment, 1.500 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **2** (con 1 Absorption Shield Cell I, 10 Cataclysite, 4 Reinforced Hull Plate, 1.000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **4** (con 1 Absorption Shield Cell II, 15 Cataclysite, 6 Reinforced Hull Plate, 1.500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **2** (con 1 Capacity Shield Cell I, 10 Cataclysite, 4 Reinforced Hull Plate, 1.000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **4** (con 1 Capacity Shield Cell II, 15 Cataclysite, 6 Reinforced Hull Plate, 1.500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **2** (con 1 Impulse Thruster I, 1 Power Core, 10 Ship Fragment, 1.000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **2** (con 1 Momentum Thruster I, 1 Power Core, 10 Ship Fragment, 1.000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Momentum Thruster II, 2 Power Core, 30 Ship Fragment, 1.500 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Impulse Thruster II, 4 Power Core, 80 Ship Fragment, 3.000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **4** (con 1 Absorption Shield Cell I, 20 Cataclysite, 8 Reinforced Hull Plate, 50 Ship Fragment, 2.000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **4** (con 1 Absorption Shield Cell II, 25 Cataclysite, 2 Power Core, 10 Reinforced Hull Plate, 50 Ship Fragment, 3.000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **4** (con 1 Capacity Shield Cell I, 20 Cataclysite, 8 Reinforced Hull Plate, 50 Ship Fragment, 2.000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **4** (con 1 Capacity Shield Cell II, 25 Cataclysite, 2 Power Core, 10 Reinforced Hull Plate, 50 Ship Fragment, 3.000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **4** (con 1 Impulse Thruster I, 1 Power Core, 60 Ship Fragment, 2.000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **4** (con 1 Momentum Thruster I, 1 Power Core, 60 Ship Fragment, 2.000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (con 1 Momentum Thruster II, 4 Power Core, 80 Ship Fragment, 3.000 Thulium)
 - Extra Slots CPU I: **6** (con 3 Power Core, 60 Ship Fragment, 12.000 Thulium)
 - Extra Slots CPU II: **12** (con 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30.000 Thulium)
 - Jump CPU: **15** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 10 Power Core, 20 Reinforced Hull Plate, 200 Ship Fragment, 40.000 Thulium)
 - Base CPU I: **4** (con 2 Power Core, 40 Ship Fragment, 8.000 Thulium)
 - Auto-Repair CPU: **6** (con 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15.000 Thulium)
-- Testudo Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 7.500 Thulium)
-- Bodkin Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21.000 Thulium)
-- Asterism Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 7.000 Thulium)
-- Gemini Formation: **14** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 38.000 Thulium)
-- Adamant Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 9.000 Thulium)
-- Ballista Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 24.000 Thulium)
-- Stiletto Formation: **14** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 46.000 Thulium)
-- Rampart Formation: **14** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 38.500 Thulium)
-- Sanctum Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20.000 Thulium)
-- Shrike Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8.500 Thulium)
-- Culler Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20.000 Thulium)
-- Redoubt Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21.000 Thulium)
-- Auger Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20.500 Thulium)
-- Cordon Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 21.500 Thulium)
-- Centurion Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8.000 Thulium)
-- Gyre Formation: **8** (con 3 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 20.000 Thulium)
-- [Damage Amp II](/wiki/06-Items/Lasers.md): **1** (con 10 Cataclysite, 1 Damage Amp I, 250 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Damage Amp II, 1 Power Core, 1.000 Thulium)
-- [Crit Amp II](/wiki/06-Items/Lasers.md): **1** (con 10 Cataclysite, 1 Crit Amp I, 250 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Crit Amp II, 1 Power Core, 1.000 Thulium)
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **1** (con 10 Cataclysite, 20 Daraxium, 1 Penetration Amp I, 250 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 30 Nyxite, 1 Penetration Amp II, 1 Power Core, 1.000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **2** (con 1 Engine I, 1 Power Core, 10 Ship Fragment, 1.000 Thulium)
-- Adaptive Core II: **2** (con 1 Adaptive Core I, 1 Power Core, 10 Ship Fragment, 1.000 Thulium)
+- Testudo Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 15.000 Thulium)
+- Bodkin Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 42.000 Thulium)
+- Asterism Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 14.000 Thulium)
+- Gemini Formation: **14** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 76.000 Thulium)
+- Adamant Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 18.000 Thulium)
+- Ballista Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 48.000 Thulium)
+- Stiletto Formation: **14** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 92.000 Thulium)
+- Rampart Formation: **14** (con 2 Ancient Control Unit, 30 Orvium Reinforced Plate, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 77.000 Thulium)
+- Sanctum Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 40.000 Thulium)
+- Shrike Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 17.000 Thulium)
+- Culler Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 40.000 Thulium)
+- Redoubt Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 42.000 Thulium)
+- Auger Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 41.000 Thulium)
+- Cordon Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 43.000 Thulium)
+- Centurion Formation: **4** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 16.000 Thulium)
+- Gyre Formation: **8** (con 15 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 40.000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Damage Amp I, 50 Ship Fragment, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Damage Amp II, 2 Power Core, 50 Ship Fragment, 2.000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Crit Amp I, 50 Ship Fragment, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 1 Crit Amp II, 2 Power Core, 50 Ship Fragment, 2.000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 20 Daraxium, 1 Penetration Amp I, 50 Ship Fragment, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (con 20 Cataclysite, 30 Nyxite, 1 Penetration Amp II, 2 Power Core, 50 Ship Fragment, 2.000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **4** (con 1 Engine I, 1 Power Core, 60 Ship Fragment, 2.000 Thulium)
+- Adaptive Core II: **4** (con 1 Adaptive Core I, 1 Power Core, 60 Ship Fragment, 2.000 Thulium)
+- P.E.T. Station I: **4** (con 2 Power Core, 25 Ship Fragment, 100.000 crediti, 2.000 Thulium)
+- P.E.T. Station II: **8** (con 2 Orvium Reinforced Plate, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 400.000 crediti, 6.000 Thulium)
+- P.E.T. Station III: **12** (con 2 Ancient Control Unit, 4 Orvium Reinforced Plate, 8 Power Core, 12 Reinforced Hull Plate, 120 Ship Fragment, 1.500.000 crediti, 18.000 Thulium)
 
 **Potenziamenti dei moduli**: l’Assemblaggio potenzia Quantum Laser II in Quantum Laser III, Quantum Laser III in Starfire-III, Impulse Thruster II in Impulse Thruster III, Absorption Shield Cell I in Absorption Shield Cell II, Absorption Shield Cell II in Absorption Shield Cell III, Capacity Shield Cell I in Capacity Shield Cell II, Capacity Shield Cell II in Capacity Shield Cell III, Impulse Thruster I in Impulse Thruster II, Momentum Thruster I in Momentum Thruster II, Momentum Thruster II in Momentum Thruster III, Damage Amp I in Damage Amp II, Damage Amp II in Damage Amp III, Crit Amp I in Crit Amp II, Crit Amp II in Crit Amp III, Penetration Amp I in Penetration Amp II, Penetration Amp II in Penetration Amp III, Engine I in Engine II e Adaptive Core I in Adaptive Core II. Ogni potenziamento consuma il pezzo da cui parte e richiede queste piastre oltre agli altri materiali. Il nuovo pezzo mantiene il grado di incantamento del pezzo che inserisci e i suoi bonus vengono generati di nuovo, quindi possono risultare migliori o peggiori di quelli vecchi. Vedi [Potenziamenti dei moduli nell’Assemblaggio](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -532,23 +577,26 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 **A cosa serve**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **18** (con 50 Cataclysite, 3 Dark Matter Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **18** (con 1 Ancient Control Unit, 50 Cataclysite, 4 Dark Matter Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
 - Dark Matter Plate: **1** (con 5 Dark Matter, 1 Velkonite Reinforced Plate, 250 Thulium)
 - Extra Slots CPU II: **2** (con 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium)
-- Extra Slots CPU III: **6** (con 2 Ancient Control Unit, 3 Dark Matter Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
+- Extra Slots CPU III: **6** (con 2 Ancient Control Unit, 4 Dark Matter Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
 - Jump CPU: **10** (con 3 Ancient Control Unit, 10 Power Core, 20 Reinforced Hull Plate, 200 Ship Fragment, 15 Velkonite Reinforced Plate, 40.000 Thulium)
-- Base CPU II: **2** (con 3 Dark Matter Plate, 5 Power Core, 100 Ship Fragment, 20.000 Thulium)
-- Bodkin Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Gemini Formation: **6** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.000 Thulium)
-- Ballista Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 24.000 Thulium)
-- Stiletto Formation: **6** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 46.000 Thulium)
-- Rampart Formation: **6** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 38.500 Thulium)
-- Sanctum Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Culler Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
-- Redoubt Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.000 Thulium)
-- Auger Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.500 Thulium)
-- Cordon Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 21.500 Thulium)
-- Gyre Formation: **3** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium)
+- Base CPU II: **2** (con 1 Ancient Control Unit, 4 Dark Matter Plate, 5 Power Core, 100 Ship Fragment, 20.000 Thulium)
+- Bodkin Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Gemini Formation: **30** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 76.000 Thulium)
+- Ballista Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 48.000 Thulium)
+- Stiletto Formation: **30** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 92.000 Thulium)
+- Rampart Formation: **30** (con 2 Ancient Control Unit, 13 Power Core, 26 Reinforced Hull Plate, 260 Ship Fragment, 14 Velkonite Reinforced Plate, 77.000 Thulium)
+- Sanctum Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Culler Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- Redoubt Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 42.000 Thulium)
+- Auger Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 41.000 Thulium)
+- Cordon Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 43.000 Thulium)
+- Gyre Formation: **15** (con 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 8 Velkonite Reinforced Plate, 40.000 Thulium)
+- P.E.T. Station II: **2** (con 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 8 Velkonite Reinforced Plate, 400.000 crediti, 6.000 Thulium)
+- P.E.T. Station III: **4** (con 2 Ancient Control Unit, 8 Power Core, 12 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 1.500.000 crediti, 18.000 Thulium)
+- **Culla dei P.E.T.** (Hangar): 1 per ogni P.E.T. assemblato, con 1 Cluster Chunk del grado del P.E.T.
 
 **Potenziamenti dei moduli**: l’Assemblaggio potenzia Starfire-III in Helios Beam. Ogni potenziamento consuma il pezzo da cui parte e richiede queste piastre oltre agli altri materiali. Il nuovo pezzo mantiene il grado di incantamento del pezzo che inserisci e i suoi bonus vengono generati di nuovo, quindi possono risultare migliori o peggiori di quelli vecchi. Vedi [Potenziamenti dei moduli nell’Assemblaggio](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -574,7 +622,7 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 ### Dark Matter Plate
 
-*Risorsa, rarità Mitico.* Pressata nell’Assemblaggio da Dark Matter e due piastre rinforzate. La Forgia ne chiede due per ciascuno dei suoi due gradi più alti, e l’ultimo tier di ogni catena di potenziamento ne chiede tre.
+*Risorsa, rarità Mitico.* Pressata nell’Assemblaggio da Dark Matter e due piastre rinforzate. La Forgia ne chiede due per ciascuno dei suoi due gradi più alti, e anche l’ultimo tier di ogni catena di potenziamento ne chiede.
 
 **Dove si ottiene**
 
@@ -583,27 +631,76 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 **A cosa serve**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **3** (con 50 Cataclysite, 18 Orvium Reinforced Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **3** (con 30 Cataclysite, 1 Damage Amp III, 1 Power Core, 1.200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **3** (con 30 Cataclysite, 1 Crit Amp III, 1 Power Core, 1.200 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **3** (con 1 Absorption Shield Cell III, 20 Cataclysite, 8 Reinforced Hull Plate, 2.500 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **3** (con 1 Impulse Thruster III, 3 Power Core, 60 Ship Fragment, 2.000 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **3** (con 1 Basic Shield Core, 20 Cataclysite, 8 Reinforced Hull Plate, 2.000 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **3** (con 1 Engine II, 3 Power Core, 60 Ship Fragment, 2.000 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **3** (con 1 Capacity Shield Cell III, 20 Cataclysite, 8 Reinforced Hull Plate, 2.500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **3** (con 1 Momentum Thruster III, 3 Power Core, 60 Ship Fragment, 2.000 Thulium)
-- Extra Slots CPU III: **3** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
-- Base CPU II: **3** (con 2 Orvium Reinforced Plate, 5 Power Core, 100 Ship Fragment, 20.000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **3** (con 30 Cataclysite, 1 Penetration Amp III, 1 Power Core, 40 Quorvium, 1.200 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **20** (con 250 Ship Fragment, 1 Slave Drone, 50.000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (con 1 Ancient Control Unit, 50 Cataclysite, 18 Orvium Reinforced Plate, 2 Power Core, 4 Reinforced Hull Plate, 1 Starfire-III, 2.000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **4** (con 1 Ancient Control Unit, 30 Cataclysite, 1 Damage Amp III, 1 Power Core, 2.400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **4** (con 1 Ancient Control Unit, 30 Cataclysite, 1 Crit Amp III, 1 Power Core, 2.400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **4** (con 1 Absorption Shield Cell III, 1 Ancient Control Unit, 30 Cataclysite, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **4** (con 1 Ancient Control Unit, 1 Impulse Thruster III, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **4** (con 1 Ancient Control Unit, 1 Basic Shield Core, 30 Cataclysite, 2 Power Core, 12 Reinforced Hull Plate, 4.000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **4** (con 1 Ancient Control Unit, 1 Engine II, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **4** (con 1 Ancient Control Unit, 1 Capacity Shield Cell III, 30 Cataclysite, 2 Power Core, 12 Reinforced Hull Plate, 5.000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **4** (con 1 Ancient Control Unit, 1 Momentum Thruster III, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
+- Extra Slots CPU III: **4** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium)
+- Base CPU II: **4** (con 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 5 Power Core, 100 Ship Fragment, 20.000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **4** (con 1 Ancient Control Unit, 30 Cataclysite, 1 Penetration Amp III, 1 Power Core, 40 Quorvium, 2.400 Thulium)
 - Hull Plating II: **5** (con 1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 150 Ship Fragment, 2.500 Thulium)
 - Hull Plating III: **8** (con 1 Ancient Control Unit, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4.000 Thulium)
-- Adaptive Core III: **3** (con 1 Adaptive Core II, 3 Power Core, 60 Ship Fragment, 2.000 Thulium)
+- Adaptive Core III: **4** (con 1 Adaptive Core II, 1 Ancient Control Unit, 5 Power Core, 110 Ship Fragment, 4.000 Thulium)
 - [Forgia](/wiki/06-Items/Forge.md), da Divino a Lacerante: **2** (con 20 Reinforced Hull Plate, 120 Cataclysite, 200.000 crediti; 75% di successo)
 - [Forgia](/wiki/06-Items/Forge.md), da Lacerante a Eterno: **2** (con 8 Power Core, 240 Quorvium, 500.000 crediti, 2.000 Thulium; 60% di successo)
+- [Skylab](/wiki/03-Mechanics/Skylab.md), Modulo Motori: **1** per costruirlo, poi 2, 3, 5 e 8 per i livelli da 2 a 5
+- [Skylab](/wiki/03-Mechanics/Skylab.md), Modulo Difesa: **1** per costruirlo, poi 2, 4, 7 e 12 per i livelli da 2 a 5
+- [Skylab](/wiki/03-Mechanics/Skylab.md), Modulo Radar: nessuna per costruirlo, poi 1 e 3 per i livelli da 2 a 3
 
 Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotondato per difetto.
 
 **Come farmare**: si pressa, non si trova: raccogli la Dark Matter (qui sopra) e le due piastre prodotte dalla Fucina dello Skylab, poi avvia la creazione nell’Assemblaggio. Ricerca prima la ricetta: [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) ha il percorso completo.
+
+### Regular Cluster Chunk
+
+*Risorsa, rarità Epico.* Un grappolo di cristallo di un asteroide. Mettilo con una Orvium Reinforced Plate nella Culla dell’hangar dei P.E.T. per ottenere un P.E.T. con 1 boost: uno tra 4 tipi.
+
+**Dove si ottiene**
+
+- **Asteroidi**: una rottura può lasciarne uno intero nel blocco di minerale del gruppo che ha inflitto più danni. La probabilità di una rottura, per livello della roccia, è livello 2: 0,4%, livello 3: 0,8%, livello 4: 1%, livello 5: 1,2%, e 25% per la Motherlode. La fortuna non la cambia.
+- **Altrimenti**: non si vende nel Negozio.
+
+**A cosa serve**
+
+- **Culla dei P.E.T.** (Hangar): 1 di esso e 1 Orvium Reinforced Plate assemblano un P.E.T. (Regular).
+
+**Come farmare**: rompi asteroidi, più sono grandi meglio è: il gruppo che ha inflitto più danni prende il chunk, e la Motherlode lo dà più spesso.
+
+### Mythical Cluster Chunk
+
+*Risorsa, rarità Mitico.* Un grappolo di cristallo di un asteroide. Mettilo con una Orvium Reinforced Plate nella Culla dell’hangar dei P.E.T. per ottenere un P.E.T. con 2 boost: uno tra 7 tipi.
+
+**Dove si ottiene**
+
+- **Asteroidi**: una rottura può lasciarne uno intero nel blocco di minerale del gruppo che ha inflitto più danni. La probabilità di una rottura, per livello della roccia, è livello 3: 0,15%, livello 4: 0,25%, livello 5: 0,3%, e 8% per la Motherlode. La fortuna non la cambia.
+- **Altrimenti**: non si vende nel Negozio.
+
+**A cosa serve**
+
+- **Culla dei P.E.T.** (Hangar): 1 di esso e 1 Orvium Reinforced Plate assemblano un P.E.T. (Mythical).
+
+**Come farmare**: rompi asteroidi, più sono grandi meglio è: il gruppo che ha inflitto più danni prende il chunk, e la Motherlode lo dà più spesso.
+
+### Legendary Cluster Chunk
+
+*Risorsa, rarità Leggendario.* Un grappolo di cristallo di un asteroide. Mettilo con una Orvium Reinforced Plate nella Culla dell’hangar dei P.E.T. per ottenere un P.E.T. con 3 boost: uno tra 10 tipi.
+
+**Dove si ottiene**
+
+- **Asteroidi**: una rottura può lasciarne uno intero nel blocco di minerale del gruppo che ha inflitto più danni. La probabilità di una rottura, per livello della roccia, è livello 4: 0,03%, livello 5: 0,1%, e 3% per la Motherlode. La fortuna non la cambia.
+- **Altrimenti**: non si vende nel Negozio.
+
+**A cosa serve**
+
+- **Culla dei P.E.T.** (Hangar): 1 di esso e 1 Orvium Reinforced Plate assemblano un P.E.T. (Legendary).
+
+**Come farmare**: rompi asteroidi, più sono grandi meglio è: il gruppo che ha inflitto più danni prende il chunk, e la Motherlode lo dà più spesso.
 
 ## Valute {#currencies}
 
@@ -648,10 +745,10 @@ Sono i valori di una stazione alimentata: un deficit di energia ferma ogni fatto
 **A cosa serve**
 
 - **Il Negozio**: oggetti con un prezzo in crediti: 27 (le loro pagine indicano il prezzo: [Panoramica degli oggetti](/wiki/06-Items/Overview.md) e [Razzi](/wiki/06-Items/Rockets.md)).
-- **Assemblaggio**, per creazione: [Starfire-III](/wiki/06-Items/Lasers.md) 100.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5) 100.000.
+- **Assemblaggio**, per creazione: [Starfire-III](/wiki/06-Items/Lasers.md) 100.000, P.E.T. Station I 100.000, P.E.T. Station II 400.000, P.E.T. Station III 1.500.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5) 100.000.
 - **[Forgia](/wiki/06-Items/Forge.md)**, per passo di grado: da Standard a Corrotto 10.000, da Corrotto a Divino 50.000, da Divino a Lacerante 200.000, da Lacerante a Eterno 500.000.
 - **Unioni della Forgia**, per grado prodotto: Corrotto 5.000, Divino 25.000, Lacerante 100.000, Eterno 250.000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, costruzioni e potenziamenti, prezzo di ogni modulo (il livello 1 è la costruzione, ogni livello oltre ha un prezzo suo): Stampante di munizioni 20.000 al livello 1, 5.600.000 al livello 20, Fattoria crediti 0 al livello 1, 7.000.000 al livello 20, Fucina 5.000 al livello 1, 9.000.000 al livello 20, Baia del minerale 5.000 al livello 1, 4.500.000 al livello 20, Collettore Orvium 20.000 al livello 1, 5.500.000 al livello 20, Centro ricerche 25.000 (x1,5 per livello), Fabbrica di razzi 20.000 al livello 1, 1.400.000 al livello 20, Solare 500 al livello 1, 9.000.000 al livello 20, Magazzino risorse 5.000 al livello 1, 4.500.000 al livello 20, Fattoria Thulium 5.000 al livello 1, 8.500.000 al livello 20, Collettore Velkonite 20.000 al livello 1, 5.500.000 al livello 20. Il Nucleo c’è sempre, quindi il primo prezzo che paghi per esso è quello del livello 2: 1.500 (x1,5 per livello da lì in poi).
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, costruzioni e potenziamenti, prezzo di ogni modulo (il livello 1 è la costruzione, ogni livello oltre ha un prezzo suo): Stampante di munizioni 20.000 al livello 1, 5.600.000 al livello 20, Fattoria crediti 0 al livello 1, 7.000.000 al livello 20, Modulo Difesa 500.000 al livello 1, 14.000.000 al livello 5, Modulo Motori 375.000 al livello 1, 8.750.000 al livello 5, Fucina 5.000 al livello 1, 9.000.000 al livello 20, Baia del minerale 5.000 al livello 1, 4.500.000 al livello 20, Collettore Orvium 20.000 al livello 1, 5.500.000 al livello 20, Modulo Radar 250.000 al livello 1, 2.250.000 al livello 3, Centro ricerche 25.000 (x1,5 per livello), Fabbrica di razzi 20.000 al livello 1, 1.400.000 al livello 20, Solare 500 al livello 1, 9.000.000 al livello 20, Magazzino risorse 5.000 al livello 1, 4.500.000 al livello 20, Fattoria Thulium 5.000 al livello 1, 8.500.000 al livello 20, Baia dei trofei 100.000 al livello 1, 2.325.000 al livello 20, Collettore Velkonite 20.000 al livello 1, 5.500.000 al livello 20. Il Nucleo c’è sempre, quindi il primo prezzo che paghi per esso è quello del livello 2: 1.500 (x1,5 per livello da lì in poi).
 - **Materializzatore di energia**: 5.000 crediti a scansione, per cercare pezzi del Chrono-Gate ([dettagli](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **[Clan](/wiki/03-Mechanics/Clans.md)**: donazioni alla banca del clan (al massimo 1.000.000 crediti per pilota in qualsiasi periodo di 24 ore) e la tassa giornaliera del clan, una quota dei tuoi crediti fissata dai suoi leader.
 
@@ -681,10 +778,10 @@ Sono i valori di una stazione alimentata: un deficit di energia ferma ogni fatto
 
 **A cosa serve**
 
-- **Il Negozio**: oggetti con un prezzo in Thulium: 25 (le loro pagine indicano il prezzo: [Panoramica degli oggetti](/wiki/06-Items/Overview.md) e [Razzi](/wiki/06-Items/Rockets.md)).
-- **Assemblaggio**, per creazione: [Master Drone](/wiki/06-Items/Drones.md) 40.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1.200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1.200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2.500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2.000, [Engine III](/wiki/06-Items/Propulsion.md) 2.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1.500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1.500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1.500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2.500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1.500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 7.500, Bodkin Formation 21.000, Asterism Formation 7.000, Gemini Formation 38.000, Adamant Formation 9.000, Ballista Formation 24.000, Stiletto Formation 46.000, Rampart Formation 38.500, Sanctum Formation 20.000, Shrike Formation 8.500, Culler Formation 20.000, Redoubt Formation 21.000, Auger Formation 20.500, Cordon Formation 21.500, Centurion Formation 8.000, Gyre Formation 20.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1.200, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 1.000, Adaptive Core II 1.000, Adaptive Core III 2.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5) 1.500.
+- **Il Negozio**: oggetti con un prezzo in Thulium: 26 (le loro pagine indicano il prezzo: [Panoramica degli oggetti](/wiki/06-Items/Overview.md) e [Razzi](/wiki/06-Items/Rockets.md)).
+- **Assemblaggio**, per creazione: [Master Drone](/wiki/06-Items/Drones.md) 50.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4.000, [Engine III](/wiki/06-Items/Propulsion.md) 4.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 15.000, Bodkin Formation 42.000, Asterism Formation 14.000, Gemini Formation 76.000, Adamant Formation 18.000, Ballista Formation 48.000, Stiletto Formation 92.000, Rampart Formation 77.000, Sanctum Formation 40.000, Shrike Formation 17.000, Culler Formation 40.000, Redoubt Formation 42.000, Auger Formation 41.000, Cordon Formation 43.000, Centurion Formation 16.000, Gyre Formation 40.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2.400, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 2.000, Adaptive Core II 2.000, Adaptive Core III 4.000, Energetic Wall II 600, P.E.T. Station I 2.000, P.E.T. Station II 6.000, P.E.T. Station III 18.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ne produce 5) 1.500.
 - **[Forgia](/wiki/06-Items/Forge.md)**, per passo di grado: da Lacerante a Eterno 2.000.
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, costruzioni e potenziamenti, prezzo di ogni modulo (il livello 1 è la costruzione, ogni livello oltre ha un prezzo suo): Stampante di munizioni 500 al livello 1, 11.000 al livello 20, Fattoria crediti 0 al livello 1, 550 al livello 20, Fucina 500 al livello 1, 10.000 al livello 20, Baia del minerale 250 al livello 1, 550 al livello 20, Collettore Orvium 500 al livello 1, 12.500 al livello 20, Centro ricerche 500 (x1,5 per livello), Fabbrica di razzi 500 al livello 1, 2.800 al livello 20, Solare 50 al livello 1, 10.000 al livello 20, Magazzino risorse 250 al livello 1, 550 al livello 20, Fattoria Thulium 500 al livello 1, 16.000 al livello 20, Collettore Velkonite 500 al livello 1, 12.500 al livello 20.
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)**, costruzioni e potenziamenti, prezzo di ogni modulo (il livello 1 è la costruzione, ogni livello oltre ha un prezzo suo): Stampante di munizioni 500 al livello 1, 11.000 al livello 20, Fattoria crediti 0 al livello 1, 550 al livello 20, Modulo Difesa 2.000 al livello 1, 56.000 al livello 5, Modulo Motori 1.500 al livello 1, 35.000 al livello 5, Fucina 500 al livello 1, 10.000 al livello 20, Baia del minerale 250 al livello 1, 550 al livello 20, Collettore Orvium 500 al livello 1, 12.500 al livello 20, Modulo Radar 1.000 al livello 1, 9.000 al livello 3, Centro ricerche 500 (x1,5 per livello), Fabbrica di razzi 500 al livello 1, 2.800 al livello 20, Solare 50 al livello 1, 10.000 al livello 20, Magazzino risorse 250 al livello 1, 550 al livello 20, Fattoria Thulium 500 al livello 1, 16.000 al livello 20, Baia dei trofei 400 al livello 1, 9.300 al livello 20, Collettore Velkonite 500 al livello 1, 12.500 al livello 20.
 - **[Ricerca](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: un boost del Centro ricerche costa 5.000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium a salto.
 - **Materializzatore di energia**: 5 Thulium a scansione, per cercare pezzi del Chrono-Gate ([dettagli](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
@@ -696,7 +793,7 @@ Sono i valori di una stazione alimentata: un deficit di energia ferma ogni fatto
 
 - **Casse**: i drop di un alieno cadono in un’unica cassa nel punto in cui esplode, riservata al pilota che l’ha abbattuto e al suo clan per 30 secondi. Il [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aggiunge 25% a ciò che contiene una cassa. Vedi [Carico](/wiki/03-Mechanics/Cargo.md).
 - **Relitti**: un [pilota di corporazione](/wiki/03-Mechanics/Company-Pilots.md) distrutto non lascia né cassa né pezzi, chiunque o qualunque cosa lo distrugga, quindi le navi dei piloti non sono una fonte di materiali. Puoi abbattere i piloti di un’altra corporazione una volta finito il Protocollo di pace, dove il tuo [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) consente il PvP; distruggerne uno della tua stessa corporazione costa 100 onore.
-- **Potenziamenti dei moduli**: l’Assemblaggio crea Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II e Adaptive Core III potenziando il pezzo del gradino inferiore, che viene consumato. Un potenziamento richiede Velkonite Reinforced Plate, Dark Matter Plate e Orvium Reinforced Plate, come richiedono anche Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation e Gyre Formation. Il nuovo pezzo mantiene il grado di incantamento del pezzo che inserisci e i suoi bonus vengono generati di nuovo, quindi possono risultare migliori o peggiori di quelli vecchi. Vedi [Potenziamenti dei moduli nell’Assemblaggio](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Potenziamenti dei moduli**: l’Assemblaggio crea Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III e Energetic Wall II potenziando il pezzo del gradino inferiore, che viene consumato. Un potenziamento richiede Velkonite Reinforced Plate, Dark Matter Plate e Orvium Reinforced Plate, come richiedono anche Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II e P.E.T. Station III. Il nuovo pezzo mantiene il grado di incantamento del pezzo che inserisci e i suoi bonus vengono generati di nuovo, quindi possono risultare migliori o peggiori di quelli vecchi. Vedi [Potenziamenti dei moduli nell’Assemblaggio](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Dove si trovano**: le scorte libere nell’inventario sono quelle che usano l’Assemblaggio, la Forgia e le costruzioni dello Skylab. Le scorte su una nave o nel Deposito di trasporto no.
 - **Il reset**: i materiali nel tuo inventario seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md); il minerale immagazzinato nel Magazzino risorse dello Skylab resta.
 

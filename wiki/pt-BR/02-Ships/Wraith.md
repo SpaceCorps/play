@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 ## História {#lore}
 
-Fruto de uma pesquisa sigilosa de operações secretas, o encouraçado Wraith representa o auge da engenharia de encouraçados. Sua propulsão de matéria escura e suas densas redes de energia permitem operar vários bancos de laser de alta potência ao mesmo tempo. Extremamente rara e cara, uma Wraith nos sensores basta para fazer até os capitães piratas mais experientes darem meia-volta. Ela sai da Montagem em um cinza liso, e os designs dela também.
+Fruto de uma pesquisa sigilosa de operações secretas, o encouraçado Wraith representa o auge da engenharia de encouraçados. Sua propulsão de matéria escura e suas densas redes de energia permitem operar vários bancos de laser de alta potência ao mesmo tempo. Extremamente rara e cara, uma Wraith nos sensores basta para fazer até os capitães piratas mais experientes darem meia-volta. Ela sai da Montagem em um cinza liso, e os designs dela também, até que uma skin os pinte.

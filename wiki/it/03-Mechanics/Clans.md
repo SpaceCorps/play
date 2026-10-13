@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -9,6 +9,7 @@ Fondare un clan o entrare in uno ti permette di mettere in comune le risorse, po
 - Ogni clan ha una **pagina del clan** che può aprire qualsiasi pilota del suo mondo: livello, piloti, Leader, descrizione, link Discord, requisiti, punti complessivi e potenziamenti ([La pagina del clan](#the-clan-page)). Il Leader e i Co-leader la impostano in **Gestione** ([Gestione](#management)).
 - Un clan ha un **mondo** (quello del fondatore), accoglie solo piloti di quel mondo e **il reset lo scioglie insieme al suo tesoro**: paga il Tesoro della flotta prima che finisca il conto alla rovescia ([il reset](#the-wipe-disbands-every-clan)).
 - Il Leader e i Co-leader scrivono [avvisi](#clan-posts) per tutto il clan, ogni membro vede [su quale mappa](#where-your-clan-mates-are) volano gli altri, la finestra [Chi è online](#who-is-online) (tasto **H**) invita nel tuo gruppo qualsiasi pilota del tuo mondo, il Leader può pagare un [bonus giornaliero](#4-daily-bonus) dal Tesoro della flotta, e la scheda [Registro](#fleet-log) racconta al clan che cosa vi è successo.
+- In volo, il pulsante **Clan** (un gagliardetto) nella barra degli strumenti in alto a sinistra apre la **finestra del clan**: la pagina del clan della stazione in una finestra sopra il gioco, con le stesse schede, le stesse risposte e gli stessi pulsanti; la posizione e la dimensione della finestra vengono ricordate (gioco dalla versione 0.4.21; [Convocare un Custode](#calling-a-warden) dice cosa cambia in volo).
 - Una guerra finisce solo se l’altro clan è d’accordo, e un’alleanza o un patto finisce subito quando uno dei due clan lo annulla ([Diplomazia](#diplomacy)).
 - Ogni giorno di stagione il tuo clan riceve una [linea giornaliera](#daily-line): quattro missioni da fare in ordine (abbattere alieni, percorrere una distanza, in alcuni giorni sconfiggere boss degli sciami), poi un [Custode del clan](#clan-wardens), un boss che convochi tu e che solo il tuo clan può danneggiare.
 - Ogni fase completata paga subito punti clan: 15, 15, 20, 20 e 30, cioè **100 punti** per una linea intera.
@@ -180,6 +181,8 @@ Un **avviso** è una breve nota per tutto il clan, una bacheca per le notizie de
 
 La colonna **Mappa** dell’elenco dei membri mostra il settore in cui vola ogni pilota del tuo clan («T-2»), con il mondo davanti quando non è il tuo («Beta · T-2»). Viene riletta ogni 10 secondi finché l’elenco è aperto. Si mostra solo la **mappa**, mai le coordinate, e non viene conservato nulla. Un pilota **attraccato o disconnesso** risulta **Offline**, e così anche un pilota la cui nave occultata non potresti vedere su una mappa ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): un clan non toglie l’occultamento.
 
+La colonna **Skylab** accanto mostra dove si trova lo [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) di ogni pilota sulla mappa dell’universo, con il codice della cella: «Attraccato in H3» nel porto di una corporazione, «H3, verso K7 tra 3 h 12 min» in viaggio (l’ultima cella attraversata, la destinazione e il tempo che resta), «Di stanza in K7» mentre caccia e «Distrutto in H3» quando il suo scafo si è esaurito. Viene letta insieme alla colonna Mappa, e un pilota che non ha ancora una mappa dell’universo (un Nucleo sotto il livello 15) mostra un trattino. La colonna compare quando un pilota del tuo clan ne ha uno. La vede solo il tuo clan, e un occultamento non nasconde uno Skylab. Una distruzione si mostra solo quando il suo pilota ha guardato di nuovo lo Skylab o gli ha dato un ordine.
+
 ## Chi è online {#who-is-online}
 
 Il pulsante **Chi è online** nella barra degli strumenti di sistema (in alto a destra) o il tasto **H** (riassegnabile in Impostazioni › Comandi) apre la finestra **Piloti online**.
@@ -279,7 +282,7 @@ Un **Custode del clan** è il boss alla fine della linea giornaliera. Non è uno
 
 - **Quando.** Dopo che la fase 4 è completata. Un clan ha **due convocazioni al giorno**, un solo Custode fuori alla volta, e al giorno devono restare **almeno 30 minuti**.
 - **Chi.** Il Leader o un Co-leader.
-- **Come.** In volo: il pulsante **Convoca qui** compare sulla schermata di volo appena la fase 4 è completata, e ti chiede di confermare. Stai fuori dalle zone sicure, in un settore di corporazione **x-2, x-3 o x-4** (di qualsiasi corporazione) del tuo mondo. La scheda Operazioni mostra il Custode del giorno, le convocazioni rimaste e perché il pulsante è attenuato, ma un Custode si convoca dalla nave.
+- **Come.** In volo: il pulsante **Convoca qui** compare sulla schermata di volo appena la fase 4 è completata, e ti chiede di confermare. Stai fuori dalle zone sicure, in un settore di corporazione **x-2, x-3 o x-4** (di qualsiasi corporazione) del tuo mondo. La scheda Operazioni (nella pagina del clan alla stazione, o nella finestra del clan in volo) mostra il Custode del giorno, le convocazioni rimaste e perché il pulsante è attenuato. Alla stazione è sempre attenuato, perché un Custode si convoca dalla nave; nella finestra del clan è il pulsante stesso, attenuato dentro una zona sicura e fuori dai settori x-2 – x-4 di una corporazione, con il motivo indicato dal server.
 - **Dove compare.** A 3.000–4.500 unità dalla tua nave, nel tuo mondo: solo i piloti di quel mondo possono raggiungerlo. La scheda consiglia **x-2 per un clan Recluta, x-3 per Veterano e x-4 per Élite**. Valgono ancora le consuete [regole PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) del settore che scegli.
 - **Riscaldamento.** Resta per **90 secondi** schermato e passivo («in carica») e ogni pilota del clan online viene informato di dove. Vola verso di lui mentre si carica: passati i 90 secondi è attivo. Una capsula sotto il distintivo della zona sicura sulla schermata di volo lo segue: il suo nome, «in carica» con il tempo che manca, poi «attivo» con il suo settore e il tempo che manca al ritiro, e «furioso» quando un Wrath Warden scende sotto metà scafo.
 - **Solo il tuo clan.** I colpi dei piloti di qualsiasi altro clan vengono ignorati e non lo fanno reagire.

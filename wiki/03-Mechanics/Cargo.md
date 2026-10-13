@@ -28,6 +28,7 @@ The crate's lights take the colour of the rarest item inside: teal for common lo
 - What you collect goes straight to your Hangar inventory, onto your loose stack of that item (never onto equipment or anything in the Transport Cache). A toast tells you what you got; crates collected one after another add up in the same toast.
 - What you collect is **Marketable**: you can sell it on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 - After a chunk of an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) is yours, your ship goes on by itself to the next chunk within reach that you may take; any move order of yours stops it.
+- **A Retriever collects for you.** A docked [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) P.E.T. takes crates without a click, within a reach of its own (from 255 units for the weakest to 880 for a Legendary of level 20, against the 200 of your own pickup), the nearest first and **one at a time, half a second each**: never faster than a hand. It takes only what you may take yourself: a crate reserved for another pilot waits for its time to end, and another pilot's [private box](#private-boxes) it never touches. It works while you fly outside a safe zone, idle or not, but not while you are cloaked or jumping, so it never ends a cloak. It is not a channel: no bar fills and it never blocks your own pickups or your jumps, and a crate you are collecting by hand is left to you. Of your hand and your Retriever reaching one crate together, exactly one gets it. A pickup by a Retriever plays a small blip of its own instead of the pickup sound.
 
 ## Who Gets It
 
@@ -44,9 +45,9 @@ A [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)'s loot is not o
 - **Only you see it, and only you can take it.** Your clan and your group do not see it and cannot take it; to everyone else it is simply not there. It shows on your screen with a thin ring under it.
 - **It lies for 10 minutes** from the kill, and the whole time it is yours: there is no 30-second wait. Then it drifts away like any crate. The Game Log tells you your share of the loot when the Warden falls.
 - **It does not push other crates out.** Private boxes have a pool of their own beside the 64 of a map (at most 32), so a Warden's kill never takes the place of another crate, and a full map never costs you your box.
-- Collecting is the same as for any crate ([above](#collecting)): your ship flies to it and the pickup takes half a second.
+- Collecting is the same as for any crate ([above](#collecting)): your ship flies to it and the pickup takes half a second. Your Retriever takes your private boxes too, and nobody else's.
 
 ## Boosters
 
-- **Loot Luck Booster** (and the Luck Boost permanent buff) raise the chance of each loot entry when the killer makes the kill.
-- **Resource Magnet Booster** adds **25%** to the resources in every crate you collect, whoever made the kill. Dark Matter is the exception: the Magnet adds nothing to it, so five N.I.K.E.s are ten Dark Matter for everyone.
+- **Loot Luck Booster** (and the Luck Boost permanent buff, and the Luck of your docked [P.E.T.s](/wiki/03-Mechanics/Pets.md)) raise the chance of each loot entry when the killer makes the kill.
+- **Resource Magnet Booster** adds **25%** to the resources in every crate you collect, by hand or with a Retriever, whoever made the kill. Dark Matter is the exception: the Magnet adds nothing to it, so five N.I.K.E.s are ten Dark Matter for everyone.

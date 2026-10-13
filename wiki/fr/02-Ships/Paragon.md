@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, a
 
 ## Histoire {#lore}
 
-Le croiseur de combat Paragon est la bête de somme des flottes de patrouille des secteurs. Conçu pour l’endurance, il possède une coque lourde blindée de titane et des affûts d’armes de pointe. Ses moteurs à tuyères multiples lui assurent une stabilité exceptionnelle sous le feu, ce qui en fait un rempart fiable contre les incursions des aliens. Il sort de l’Assemblage d’un gris uni, et ses designs aussi.
+Le croiseur de combat Paragon est la bête de somme des flottes de patrouille des secteurs. Conçu pour l’endurance, il possède une coque lourde blindée de titane et des affûts d’armes de pointe. Ses moteurs à tuyères multiples lui assurent une stabilité exceptionnelle sous le feu, ce qui en fait un rempart fiable contre les incursions des aliens. Il sort de l’Assemblage d’un gris uni, et ses designs aussi, jusqu’à ce qu’un skin les peigne.

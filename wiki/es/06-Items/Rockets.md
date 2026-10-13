@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
@@ -11,6 +11,7 @@ Los cohetes son una segunda arma junto a tus láseres: un disparo cada pocos seg
 - **Las explosiones son más fuertes en el medio.** Los cohetes Ember y Scatter estallan y dañan a toda nave dentro del anillo: la cifra completa en el centro, la mitad en el borde.
 - **Un solo temporizador para todos.** Tras cualquier lanzamiento esperas 3 segundos antes del siguiente, sea cual sea el cohete. Solo el N.U.K.E. y el N.I.K.E. te hacen esperar más (4,1 y 4,6 segundos), porque se quedan tanto tiempo en el aire.
 - **Guiado o recto.** Un cohete guiado (Lancet, Ember) necesita un objetivo que hayas seleccionado. Uno recto (Rivet, Scatter) vuela hacia tu cursor.
+- **Algo más se lleva como un cohete.** La **EMP Charge** es un consumible: una pila en tu inventario que se usa desde la barra rápida, sin ranura ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Cada tipo es una **familia**, con el nombre de su cohete común, y la gama es un
 - Los cohetes **guiados** necesitan un objetivo seleccionado dentro de su **alcance de fijación** cuando salen. Lo persiguen con una velocidad de giro limitada, así que una nave rápida y lejana puede dejar atrás a uno barato. Si el objetivo muere, se va o llega a una zona segura, el cohete sigue volando recto y no elige otro.
 - Los cohetes **rectos** no necesitan objetivo e ignoran el que tengas seleccionado: siempre vuelan hacia tu **cursor**, hacia el punto que hay bajo él en la vista de vuelo. **Haz clic en la ranura de un cohete recto para armarlo** (la ranura recibe un marco blanco y una mira, y el cursor del ratón se convierte en una mira sobre el espacio), y luego **haz clic en el espacio**: el cohete vuela hacia el punto en el que hiciste clic y tu nave se queda donde está. Esc, un clic derecho o volver a pulsar la misma ranura lo desarman. Si los cohetes aún se están recargando, el clic solo te lo dice y el cohete sigue armado. Las teclas numéricas y **Disparar cohete** disparan al instante hacia el último punto que tuvo el cursor en la vista de vuelo; si el cursor aún no ha estado ahí, vuelan hacia donde **apunta** tu nave. Vuelan rectos, así que una nave que cruza a toda velocidad puede esquivarlos.
 - Un cohete de **un solo objetivo** golpea la primera nave que puede golpear (uno guiado, solo a su objetivo). Una **explosión en área** estalla junto a la primera nave que encuentra, en el punto al que la apuntaste, o donde termina su vuelo, y daña a toda nave dentro de su **radio de explosión**: daño completo en el centro, la mitad en el borde. El anillo que la explosión dibuja en el mapa es su alcance exacto.
-- **Asteroides.** Un cohete disparado contra un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vuela hacia él, y el primer asteroide en el camino de cualquier cohete lo detiene y recibe el impacto en lugar de la nave que hay detrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Los doce cohetes de la tienda y el N.U.K.E. pueden romper uno; el N.I.K.E. no se puede disparar contra uno y vuela por encima de ellos. Tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave: el cohete es la herramienta para ese trabajo.
+- **Asteroides.** Un cohete disparado contra un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vuela hacia él, y el primer asteroide en el camino de cualquier cohete lo detiene y recibe el impacto en lugar de la nave que hay detrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) detiene un cohete igual; el N.I.K.E. vuela por encima. Los doce cohetes de la tienda y el N.U.K.E. pueden romper uno; el N.I.K.E. no se puede disparar contra uno y vuela por encima de ellos. Tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave: el cohete es la herramienta para ese trabajo.
 
 ## Los doce cohetes {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único
 Los doce cohetes de la primera tabla se compran (créditos los comunes y raros, Thulium los épicos); la N.U.K.E. y la N.I.K.E. se fabrican.
 
 Consulta también: [Láseres y munición](/wiki/06-Items/Lasers.md), [Combate](/wiki/03-Mechanics/Combat.md), [El agujero negro](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+La **EMP Charge** se lleva como un cohete y no es un cohete: es un **consumible**. La compras en la tienda por **500 Thulium** la carga y llevas hasta **20** en una pila (lo que tienes puesto en la [Subasta](/wiki/03-Mechanics/Auction.md) cuenta), y el selector de **Consumibles** de la barra rápida la muestra con el número que llevas. No ocupa **ninguna ranura** de ninguna nave; hasta la 0.4.21 era un [extra](/wiki/06-Items/Extras.md) y cada carga llenaba una ranura de extra. Una carga pesa 250 en el Alijo de Transporte.
+
+Pulsa la ranura EMP en combate. Durante **3 segundos** nadie puede fijarte, y **todos los que te tenían fijado pierden la fijación** al instante, estén donde estén: pilotos, alienígenas y pilotos de corporación. A un piloto al que se le rompe la fijación se le avisa con «Fijación perdida: el objetivo usó un EMP». Quien intente fijarte en esos 3 segundos es rechazado.
+
+- **No es invulnerabilidad.** Detiene lo que necesita fijación: los láseres, los cohetes guiados y el contacto de un cohete recto de un objetivo, que te atraviesa. Una **explosión en área** no necesita fijación, así que sigue dañándote si estás dentro, y el agujero negro no es un disparo en absoluto.
+- **Sigues pudiendo actuar.** Disparar no lo termina. Puedes camuflarte (si las reglas propias del camuflaje lo permiten) y usar otros extras.
+- **Termina los camuflajes cercanos.** Toda nave camuflada a menos de **1500 unidades** de ti cuando se activa el pulso se muestra al instante y su CPU empieza sus 60 segundos de recarga, sea de la corporación que sea, también la tuya; las naves de tu propio [grupo](/wiki/03-Mechanics/Groups.md) son la excepción: conservan su camuflaje. Al piloto se le avisa con «Camuflaje roto: se ha lanzado un EMP cerca.», ve reaparecer la nave con la misma onda que en cualquier descamuflaje, y la ranura empieza su recarga. No puedes usar un EMP estando tú mismo camuflado.
+- **No oculta nada.** Todos te siguen viendo, con una envoltura eléctrica crepitante durante los 3 segundos.
+- **No puedes usarlo** mientras te protege una zona segura, estando camuflado, ni en los **30 segundos** posteriores al último. Funciona en todos los demás sitios, incluidos los primeros días de una temporada (el Protocolo de paz): entonces los alienígenas siguen cazando.
+- Un alienígena al que alcances durante los 3 segundos no se vuelve contra ti hasta que terminen. Tus reclamaciones de derribo y las reglas del primer impacto no cambian.
+- **Lo que ves.** Un pulso de espacio deformado sale disparado desde el piloto hasta donde el pulso termina camuflajes (1500 unidades), todos los que están al alcance lo ven, y una envoltura eléctrica crepitante lo rodea durante los 3 segundos, con un anillo alrededor de tu propia nave y un indicador en la parte superior de la pantalla que cuentan el tiempo. El anillo de objetivo de todos los que te tenían seleccionado se rompe en pedazos, con un chispazo corto. La ranura EMP muestra las cargas que tienes, se ilumina en azul mientras la envoltura está activa y se oscurece mientras se recarga.
+- **Una pulsación, una carga.** Una pulsación gasta una carga de tu pila; sin ninguna se rechaza («Ya no te quedan EMP Charge.»). Las cargas del Alijo de Transporte son de la próxima temporada y no se pueden usar. Como los cohetes, las cargas que llevas se pierden con la temporada si no las pones en el Alijo de Transporte. Los **30 segundos** de recarga no se guardan: cerrar sesión o saltar por un portal los borra, y el siguiente pulso cuesta una carga.

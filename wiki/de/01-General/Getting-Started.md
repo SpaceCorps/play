@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf147fcd54ecb68 -->
+<!-- wiki-i18n source: 3b9d23ee237cda65 -->
 <!-- wiki-i18n title: Erste Schritte -->
 # Erste Schritte in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -116,3 +116,4 @@ Ist etwas schlecht, sagt dir eine Zeile unter den Zahlen, wer schuld ist: *Netzw
 5. **Aus dem Wiki kopieren**: Ziehe mit der Maus über einen beliebigen Text eines Artikels, um ihn auszuwählen, und drücke `Ctrl+C` (auf dem Mac `Cmd+C`), um ihn zu kopieren; ein Klick auf einen Link öffnet die Seite weiterhin. **Seite kopieren** oben in einem Artikel kopiert die ganze Seite als Markdown, zum Einfügen in einen Chat oder eine Notiz.
 6. **Erst forschen, dann herstellen**: Die Montage stellt nur her, was das Forschungszentrum deines [Skylab](/wiki/03-Mechanics/Skylab.md) erforscht hat. Es öffnet sich ab Kern-Level 10, und auf der Seite [Forschung](/wiki/03-Mechanics/Research.md) stehen die Technologien, ihre Dauer und der Treibstoff.
 7. **Drohnenformationen**: Sobald du eine Drohne besitzt und eine Formation erforscht und gebaut hast, ziehe sie aus der Formationenliste auf deine Aktionsleiste und trage sie mit der Taste ihres Slots: ein größerer Schild für schwächere Waffen, härtere Raketen für eine dünnere Hülle. Jede gibt deinen Drohnen auch eine Form zum Fliegen. Siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md).
+8. **Mit der Bibliothek planen**: **Bibliothek › Rezeptbuch** zeigt für jeden Gegenstand ein Diagramm, was er braucht, die Schritte der Reihe nach und die vollständigen Kosten, abzüglich dessen, was du besitzt, und **Bibliothek › Builds** tut dasselbe für ein ganzes Schiff, mit 15 Presets zum Starten. Siehe [Rezeptbuch und Builds](/wiki/01-General/Recipe-Book.md).

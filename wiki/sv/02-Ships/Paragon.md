@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ Paragon är en tung stridskryssare med balanserat försvar och balanserad eldkra
 
 ## Bakgrund {#lore}
 
-Stridskryssaren Paragon är arbetshästen i sektorernas patrullflottor. Den är konstruerad för uthållighet och har ett tungt titanskyddat skrov och avancerade fästen för vapen. Dess motorkonfiguration med flera dysor ger den exceptionell stabilitet under eld, vilket gör den till ett pålitligt bålverk mot utomjordiska intrång. Det lämnar Monteringen i slätt grått, och dess designer likaså.
+Stridskryssaren Paragon är arbetshästen i sektorernas patrullflottor. Den är konstruerad för uthållighet och har ett tungt titanskyddat skrov och avancerade fästen för vapen. Dess motorkonfiguration med flera dysor ger den exceptionell stabilitet under eld, vilket gör den till ett pålitligt bålverk mot utomjordiska intrång. Det lämnar Monteringen i slätt grått, och dess designer likaså, tills en skin målar dem.

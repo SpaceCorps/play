@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf147fcd54ecb68 -->
+<!-- wiki-i18n source: 3b9d23ee237cda65 -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -116,3 +116,4 @@ Quando algo está ruim, uma linha sob os números diz de quem é a culpa: *Rede 
 5. **Copiar da wiki**: arraste o mouse sobre qualquer texto de um artigo para selecioná-lo e pressione `Ctrl+C` (`Cmd+C` no Mac) para copiá-lo; um clique em um link continua abrindo a página. **Copiar página**, no alto de cada artigo, copia a página inteira como Markdown, para colar em um chat ou em uma nota.
 6. **Pesquise antes de criar**: a Montagem só faz o que o Centro de Pesquisa do seu [Skylab](/wiki/03-Mechanics/Skylab.md) já pesquisou. Ele abre no nível 10 do Núcleo, e a página [Pesquisa](/wiki/03-Mechanics/Research.md) traz as tecnologias, os tempos delas e o combustível.
 7. **Formações de drones**: quando você tiver um drone e tiver pesquisado e fabricado uma formação, arraste-a da lista de Formações para a sua barra de atalhos e use-a com a tecla do slot: um escudo maior por armas mais fracas, foguetes mais duros por um casco mais fino. Cada uma também dá aos seus drones uma forma para voar. Veja [Formações de drones](/wiki/03-Mechanics/Formations.md).
+8. **Planeje com a Biblioteca**: **Biblioteca › Livro de receitas** mostra, para qualquer item, um diagrama do que ele precisa, as etapas em ordem e o custo completo sem o que você já tem, e **Biblioteca › Builds** faz o mesmo para uma nave inteira, com 15 predefinições para começar. Veja [Livro de receitas e builds](/wiki/01-General/Recipe-Book.md).

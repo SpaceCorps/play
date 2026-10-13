@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -30,6 +30,7 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 - Ce que vous récupérez va directement dans l’inventaire de votre hangar, sur votre stock non équipé de cet objet (jamais sur un équipement ni sur ce qui se trouve dans la cache de transport). Une notification vous indique ce que vous avez obtenu ; les caisses récupérées l’une après l’autre s’additionnent dans la même notification.
 - Ce que vous ramassez est **vendable** : vous pouvez le vendre aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
 - Quand un fragment d’un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md) est à vous, votre vaisseau passe tout seul au fragment suivant à portée que vous pouvez prendre ; tout ordre de déplacement de votre part l’arrête.
+- **Un Retriever récupère pour vous.** Un P.E.T. [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) arrimé prend des caisses sans clic, avec une portée à lui (de 255 unités pour le plus faible à 880 pour un Legendary de niveau 20, contre les 200 de votre propre récupération), la plus proche d’abord et **une à la fois, une demi-seconde chacune** : jamais plus vite qu’une main. Il ne prend que ce que vous pouvez prendre vous-même : une caisse réservée à un autre pilote attend la fin de son délai, et la [caisse privée](#private-boxes) d’un autre pilote, il n’y touche jamais. Il travaille pendant que vous volez hors d’une zone sûre, inactif ou non, mais pas pendant que vous êtes occulté ou en saut, donc il ne met jamais fin à une occultation. Ce n’est pas un canal : aucune barre ne se remplit et il ne bloque jamais vos propres récupérations ni vos sauts, et une caisse que vous récupérez à la main vous est laissée. Si votre main et votre Retriever atteignent une caisse en même temps, un seul l’obtient. La récupération par un Retriever joue son propre petit bip au lieu du son de récupération.
 
 ## Qui l’obtient {#who-gets-it}
 
@@ -46,9 +47,9 @@ Le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n
 - **Vous seul la voyez et vous seul pouvez la ramasser.** Votre clan et votre groupe ne la voient pas et ne peuvent pas la prendre ; pour tous les autres, elle n’existe simplement pas. Sur votre écran, elle a un anneau fin dessous.
 - **Elle reste 10 minutes** à partir de l’élimination, et pendant tout ce temps elle est à vous : il n’y a pas d’attente de 30 secondes. Ensuite elle dérive et disparaît comme n’importe quelle caisse. Le Journal de jeu vous donne votre part du butin quand le Gardien tombe.
 - **Elle ne chasse aucune autre caisse.** Les caisses privées ont une réserve à elles à côté des 64 d’une carte (32 au plus) : l’élimination d’un Gardien ne prend jamais la place d’une autre caisse, et une carte pleine ne vous coûte jamais votre caisse.
-- La récupération est la même que pour toute caisse ([plus haut](#collecting)) : votre vaisseau vole jusqu’à elle et la récupération prend une demi-seconde.
+- La récupération est la même que pour toute caisse ([plus haut](#collecting)) : votre vaisseau vole jusqu’à elle et la récupération prend une demi-seconde. Votre Retriever prend aussi vos caisses privées, et celles de personne d’autre.
 
 ## Boosters
 
-- **Loot Luck Booster** (et le bonus permanent de chance) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise.
-- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien, donc cinq N.I.K.E. valent dix Dark Matter pour tout le monde.
+- **Loot Luck Booster** (et le bonus permanent de chance, ainsi que la chance de vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise.
+- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, à la main ou avec un Retriever, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien, donc cinq N.I.K.E. valent dix Dark Matter pour tout le monde.

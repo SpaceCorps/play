@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formações -->
 # Formações de drones {#drone-formations}
 
@@ -16,7 +16,7 @@ Uma **formação de drones** é um padrão que seus drones assumem em volta da n
 
 ## Em um minuto {#in-one-minute}
 
-- **Consiga uma.** Pesquise a tecnologia dela no Centro de Pesquisa (duas árvores, *Defesa* e *Ataque e mobilidade*) e depois fabrique na Montagem com Thulium. A mais barata custa 7.000 Thulium e 5 Dark Matter, a mais cara 46.000 Thulium e 20 Dark Matter. A loja não vende nenhuma.
+- **Consiga uma.** Pesquise a tecnologia dela no Centro de Pesquisa (duas árvores, *Defesa* e *Ataque e mobilidade*) e depois fabrique na Montagem com Thulium. A mais barata custa 14.000 Thulium e 5 Dark Matter, a mais cara 92.000 Thulium e 20 Dark Matter. A loja não vende nenhuma.
 - **Tenha-a.** Uma formação não é equipada em lugar nenhum: uma cópia no seu inventário basta. Você precisa de pelo menos um drone, um Slave Drone ou um Master Drone, ou nenhuma formação funciona.
 - **Use.** Arraste-a da lista de Formações da barra de atalhos para qualquer slot. Clique no slot ou pressione a tecla dele para usar a formação. A lista também tem **Padrão**, que é nenhuma formação: arraste-o para um slot e pressione-o para voltar a não usar nenhuma. Você pode trocar uma vez a cada 2 segundos, também numa zona segura, e não há trava de combate.
 - **Veja.** Cada formação tem uma forma própria, e seus drones a voam ao redor da sua nave: um telhado, um coração, asas, uma espada, uma broca. Outros pilotos também a veem. Veja [Como voam](#how-they-fly).
@@ -50,7 +50,7 @@ Toda formação dá aos seus drones **uma forma própria**. Use uma e os drones 
 - **Feita para os drones que você tem.** Uma forma é montada para exatamente os drones que você possui, de 1 a 8: com um ou dois você vê só o começo dela, com todos os **8** a forma inteira, como nas imagens. Os níveis deles e o que carregam não mudam nada.
 - **Ajustada à sua nave.** Uma nave longa voa uma forma mais longa que uma pequena, e os drones mantêm distância do casco.
 - **Vista por todos.** Outros pilotos veem a sua forma e você vê a deles. Uma nave a mais de **3.500 unidades** da sua câmera não mostra drones, e numa multidão só as **64** naves mais próximas mostram.
-- **Desligar.** Configurações › Interface tem **Mostrar meus drones** e **Mostrar drones inimigos** (os drones de outros pilotos). Eles só mudam o que você vê: os bônus da sua formação funcionam como antes. **Reduzir movimento** (Configurações › Gráficos) deixa paradas as formas que se movem, Cordon, Asterism, Culler, Gyre e Auger, e reduz o deslize para **0,2 segundo**.
+- **Desligar.** Configurações › Interface tem **Mostrar meus drones** e **Mostrar drones inimigos** (os drones de outros pilotos). Eles só mudam o que você vê: os bônus da sua formação funcionam como antes. A pintura dos drones segue **Mostrar o aspecto de outros pilotos** ([Cosméticos](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Reduzir movimento** (Configurações › Gráficos) deixa paradas as formas que se movem, Cordon, Asterism, Culler, Gyre e Auger, e reduz o deslize para **0,2 segundo**.
 - **Ver a altura.** O telhado, a tigela e a broca têm altura, que uma vista diretamente de cima mostra pouco. Gire a câmera arrastando com o botão direito ([Primeiros passos](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) para vê-los de lado.
 
 | Formação | A forma | O que se move |
@@ -104,26 +104,26 @@ As tabelas listam o que cada uma dá e o que custa a você, como a ficha do item
 
 ## Quanto custam {#what-they-cost}
 
-Thulium, nunca créditos. As dezesseis juntas custam 330.500 Thulium e 189 Dark Matter.
+Thulium, nunca créditos. As dezesseis juntas custam 661.000 Thulium e 189 Dark Matter.
 
 | Formação | Exige antes | Tempo de pesquisa | Dark Matter | Thulium para criar | Tempo de criação |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7.500 | 5 min |
-| **Sanctum** | Testudo | 1 d | 13 | 20.000 | 10 min |
-| **Rampart** | Sanctum | 2 d | 20 | 38.500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9.000 | 5 min |
-| **Redoubt** | Adamant | 1 d | 13 | 21.000 | 10 min |
-| **Cordon** | Redoubt | 1 d | 13 | 21.500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7.000 | 5 min |
-| **Bodkin** | Asterism | 1 d | 13 | 21.000 | 10 min |
-| **Ballista** | Bodkin | 1 d | 13 | 24.000 | 10 min |
-| **Gemini** | – | 2 d | 20 | 38.000 | 15 min |
-| **Stiletto** | Gemini | 2 d | 20 | 46.000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8.000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8.500 | 5 min |
-| **Culler** | Shrike | 1 d | 13 | 20.000 | 10 min |
-| **Gyre** | – | 1 d | 13 | 20.000 | 10 min |
-| **Auger** | Gyre | 1 d | 13 | 20.500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15.000 | 5 min |
+| **Sanctum** | Testudo | 1 d | 13 | 40.000 | 10 min |
+| **Rampart** | Sanctum | 2 d | 20 | 77.000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18.000 | 5 min |
+| **Redoubt** | Adamant | 1 d | 13 | 42.000 | 10 min |
+| **Cordon** | Redoubt | 1 d | 13 | 43.000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14.000 | 5 min |
+| **Bodkin** | Asterism | 1 d | 13 | 42.000 | 10 min |
+| **Ballista** | Bodkin | 1 d | 13 | 48.000 | 10 min |
+| **Gemini** | – | 2 d | 20 | 76.000 | 15 min |
+| **Stiletto** | Gemini | 2 d | 20 | 92.000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16.000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17.000 | 5 min |
+| **Culler** | Shrike | 1 d | 13 | 40.000 | 10 min |
+| **Gyre** | – | 1 d | 13 | 40.000 | 10 min |
+| **Auger** | Gyre | 1 d | 13 | 41.000 | 10 min |
 
 ### Materiais {#materials}
 
@@ -132,8 +132,8 @@ Além do Thulium, a Montagem retira estes materiais do seu inventário. Eles dep
 | Tempo de pesquisa | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 d | 180 | 18 | 9 | 8 | 3 | – |
-| 2 d | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 d | 180 | 18 | 9 | 8 | 15 | – |
+| 2 d | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## As regras em detalhe {#the-rules-in-detail}
 

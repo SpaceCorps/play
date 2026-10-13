@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 245cebe02509293e -->
+<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
-Az **aszteroidák** nagy sziklák, amelyek a vállalatok szektoraiban és a veszélyes szektorokban a repülési síkban fekszenek. Soha nem mozdulnak, és soha nem lőnek. Törj szét egyet **rakétákkal** vagy **lézerekkel**, és apró **darabokra** robban, amelyekben kredit, Thulium és érc van; ezeket úgy veszed fel, mint a [rakományt](/wiki/03-Mechanics/Cargo.md). Erre a munkára a rakéta való: a lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak, a drónok pedig nem ártanak neki.
+Az **aszteroidák** nagy sziklák, amelyek a vállalatok szektoraiban és a veszélyes szektorokban a repülési síkban fekszenek. Soha nem mozdulnak, és soha nem lőnek. Törj szét egyet **rakétákkal** vagy **lézerekkel**, és apró **darabokra** robban, amelyekben kredit, Thulium és érc van; ezeket úgy veszed fel, mint a [rakományt](/wiki/03-Mechanics/Cargo.md). Erre a munkára a rakéta való: a lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak, a drónok pedig nem ártanak neki. Egy dolog még széttöri helyetted az aszteroidákat: egy dokkolt **Mole** P.E.T. ([lent](#the-mole-pet)).
 
 A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, becsületet vagy rangsorpontot, és a kilőtt rakéták kreditbe vagy Thuliumba kerülnek. Amit ad: kredit és Thulium, érc a [Kovácsműhelyhez](/wiki/06-Items/Forge.md) és a gyártáshoz harc nélkül, és olyan munka, amelyen egy [csoport](/wiki/03-Mechanics/Groups.md) osztozhat. Jól fizet: a játék saját modellje szerint egy óra a megfelelő aszteroidákon a megfelelő rakétával nagyjából 2,6–6,8-szorosát hozza a szinted legjobb vadászórája hozamának, a rakéták árának levonása után. A napi korlátok ([A világok](#the-worlds)) megszabják a határát, és hamar eléred őket: Alphában egy kitartó bányász egy jó szektorban kevesebb mint 2 óra alatt eléri a Thulium-korlátot, és nagyjából 2,7 óra alatt a kreditkorlátot.
 
@@ -26,7 +26,7 @@ A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, 
 
 ## Fedezék {#cover}
 
-Az aszteroida fedezék. **A lövés útjába eső első aszteroida fogadja be a lövést.** A lézersortüzet, a rakétát vagy a területi rakéta robbanását – akár pilótára, idegenre vagy másik aszteroidára lőtték – a lövő és a célpont közötti egyenes vonalon az első aszteroida megállítja: a célpont semmit sem kap, a találatot az aszteroida kapja. Így elbújhatsz egy aszteroida mögé, pilóták és idegenek elől is. A célzás nem lövés, és az aszteroida nem állítja meg: célba vehetsz egy aszteroida mögött álló pilótát, de a lézereid az aszteroidát találják el.
+Az aszteroida fedezék. **A lövés útjába eső első aszteroida fogadja be a lövést.** A lézersortüzet, a rakétát vagy a területi rakéta robbanását – akár pilótára, idegenre vagy másik aszteroidára lőtték – a lövő és a célpont közötti egyenes vonalon az első aszteroida megállítja: a célpont semmit sem kap, a találatot az aszteroida kapja. Így elbújhatsz egy aszteroida mögé, pilóták és idegenek elől is. A célzás nem lövés, és az aszteroida nem állítja meg: célba vehetsz egy aszteroida mögött álló pilótát, de a lézereid az aszteroidát találják el. Az [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) ugyanígy megállítja a lövéseket, bármelyik oldalról jönnek.
 
 - **Belülről.** Az a hajó, amelynek a közepe egy aszteroidán belül van, minden lövésével azt az aszteroidát találja el, bárhová céloz.
 - **Mi állítódik meg.** Minden pilóta, idegen (a rajhajók, a Clan Warden és a Slumbering Voidok) és vállalati pilóta minden lézersortüze és rakétája, a N.U.K.E.-ot is beleértve. Két dolog átrepül az aszteroidák felett: a [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) és a Dormant Swamp ágyúi. Az olyan képességek, mint a Venom, és a feketelyuk nem lövések.
@@ -41,9 +41,20 @@ Semmit sem fizetnek ki, amikor egy aszteroida szétesik. Törmelékre robban, é
 
 A nagyobb aszteroida több darabot hagy hátra (A fajták táblájának Pénzdarabok oszlopa: a kredit és a Thulium ennyi darabban jön, az érc eggyel többben). Egy felvétel után a hajód magától átmegy a közeli aszteroida következő darabjára, amelyet felvehetsz; bármelyik mozgásparancsod megállítja.
 
+A sziklák 2. szintjétől felfelé egy széttörés egy **Cluster Chunkot** is hagyhat egészben, a legtöbb sebzést okozó csoport ércdarabjában: **Regular Cluster Chunkot** a 2. szinttől, **Mythical Cluster Chunkot** a 3. szinttől és **Legendary Cluster Chunkot** a 4. szinttől; a Motherlode adja őket a leggyakrabban. Az esélyek a [Erőforrások](/wiki/06-Items/Resources.md#regular-cluster-chunk) cikkben vannak. A szerencse nem változtat rajtuk, a P.E.T.-é sem. Egy Orvium Reinforced Plate-tel a chunkból a hangár Bölcsőjében [P.E.T.](/wiki/03-Mechanics/Pets.md) lesz.
+
 ## Kié a darab {#who-gets-the-chunks}
 
-Az aszteroida közös munka: bármennyi pilóta eltalálhatja rakétákkal vagy lézerekkel, és a darabok aszerint járnak, ki mennyi sebzést okozott, nem aszerint, ki lő először vagy utoljára. A célpontablak sebzés-sora megmutatja, ki mennyit okozott, és mennyit okoztak, mielőtt megérkeztél. A szétlövés kreditjét és Thuliumát egyszer sorsolják ki, és a sebzés arányában osztják szét; az ércen azok a pilóták osztoznak, akik a legtöbb sebzést okozták; a ritka leletek ahhoz járnak, aki a legtöbbet okozta. Az a pilóta, aki kevesebbet okozott, mint A szabályok részben szereplő arány, nem kap semmit, és a Játéknapló ezt megmondja. A darabokat minden kifizetett pilótának külön rakják le, és egy ideig neki és a klánjának vannak fenntartva, azután mindenkié.
+Az aszteroida közös munka: bármennyi pilóta eltalálhatja rakétákkal, lézerekkel vagy egy Mole impulzusaival, és a darabok aszerint járnak, ki mennyi sebzést okozott, nem aszerint, ki lő először vagy utoljára. A célpontablak sebzés-sora megmutatja, ki mennyit okozott, és mennyit okoztak, mielőtt megérkeztél. A szétlövés kreditjét és Thuliumát egyszer sorsolják ki, és a sebzés arányában osztják szét; az ércen azok a pilóták osztoznak, akik a legtöbb sebzést okozták; a ritka leletek ahhoz járnak, aki a legtöbbet okozta. Az a pilóta, aki kevesebbet okozott, mint A szabályok részben szereplő arány, nem kap semmit, és a Játéknapló ezt megmondja. A darabokat minden kifizetett pilótának külön rakják le, és egy ideig neki és a klánjának vannak fenntartva, azután mindenkié.
+
+## A Mole P.E.T. {#the-mole-pet}
+
+Egy dokkolt **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-ek egyik típusa) dolgozik érted, amíg repülsz: 3 másodpercenként ad egy impulzust a hajódtól nagyjából öt és fél hajóhosszon belüli legközelebbi aszteroidának, amíg szét nem törik, aztán a következőt veszi. Az impulzusai a te neveden kerülnek az aszteroida sebzései közé, így egy széttörés úgy fizet neked, mintha rakétával törted volna szét: a darabok, a leletek, egy Cluster Chunk esélye és az aszteroidás küldetésed.
+
+- **Mennyit tör szét.** Egy csúcs Mole (egy 20. szintű Legendary) legalább annyi aszteroidát tör szét óránként, mint az a pilóta, aki a legjobb rakétával, a Rivet III-mal lő rájuk, az alacsonyabb fokozatok és szintek kevesebbet ([a táblázat](/wiki/03-Mechanics/Pets.md#how-strong)). Nem használ lőszert és rakétát. A lézereid, rakétáid, erősítőid, boostereid, formációd és a P.E.T.-eid Sebzése nem változtat egy impulzuson, a páncél pedig úgy lassít egy impulzust, ahogy egy rakétát.
+- **Mely aszteroidák.** A legközelebbi a hatótávon belül, amelyet rajtad és a csoportodon kívül senki nem sebzett meg, és amelyet nem takar másik aszteroida vagy Energetic Wall. A Motherlode-on soha nem dolgozik, és nem dolgozik biztonságos zónában, álcázva, amíg ugrasz, és amíg a hajód megsemmisült.
+- **Nincs saját határa.** A Mole minden órában dolgozik, amíg repülsz, akár érintesz billentyűt, akár nem (egy tétlen hajó célpont), és semmilyen napi határ nem állítja meg. Ami megmarad, az, ami mindenkit megállít: a Thulium- és kreditkorlátok [A világok](#the-worlds) alatt, amelyeket egy csúcs Mole, amely soha nem áll meg, nagyjából 2–6 óra munka után ér el. Ezután a darabjai csak azt fizetik, ami a korlátok alatt megmaradt.
+- **Csak egy dolgozik.** A Stationödben lévő Mole-ok közül csak a legerősebb dolgozik; a többi csak bónuszt ad.
 
 ## A szabályok {#the-rules}
 

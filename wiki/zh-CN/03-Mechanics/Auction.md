@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
-拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。和商店一样，它是空间站的页面：你在停靠时使用，飞行中不能用。它分为四个部分。**市场**是其他飞行员在卖的东西。**拍品**是游戏自己的出售，每小时三个。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
+拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。飞行中它以窗口的形式打开：左上角工具栏中的**拍卖行**按钮（拍卖槌）会把同一个页面显示在游戏之上，窗口的位置和大小会被记住。它的用法和在空间站里一样，只是弹药、火箭和 EMP Charge 在飞行中由飞船计数，所以要从空间站挂出（出售窗口会把它们显示为锁定，并写明原因）；购买和竞价在哪里都可以。它分为五个部分。**市场**是其他飞行员在卖的东西。**拍品**是游戏自己的出售，每小时三个。**Davidski** 是会飞的商人的存货：拍卖行列出的每一种东西，价格都是商店的许多倍；商店不出售的东西贵到向他购买只是最后手段，制造所用的稀有资源还要再贵一千倍（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@
 - 要使用拍卖行（挂单、购买和出价），需要 **5 级**。
 - 挂单按每组定价，用整数信用点或整数 Thulium（二选一），且不能低于该物品的最低价。**没有最高价。**
 - Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 1 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
-- 共有 82 种物品可以挂单，其中 81 种还可以用 Thulium 定价。
+- 共有 83 种物品可以挂单，其中 82 种还可以用 Thulium 定价。
 - 挂单时长可在 168 / 336 / 504 小时中选择，每个等级的可选时长都一样。
 - **押金**是价格的 0.25%，按挂单每 24 小时计，最低 50 信用点 或 1 Thulium。挂单时支付，永远不退还，取消挂单也不退。
 - 从 10 级起，押金为 0.4%。
@@ -26,7 +26,7 @@
 
 ## 可交易的物品 {#marketable-items}
 
-只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。
+只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、从 [Davidski](/wiki/03-Mechanics/Davidski.md) 买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。
 
 标记是单位数量，不是开关：一叠弹药里可以既有买来的也有赚来的，卡片上会写“可交易（3/5）”。当你用掉一叠中的一部分（射击、制作）时，普通单位先用掉，所以可交易的单位留得最久。在[锻造炉](/wiki/06-Items/Forge.md#merge)里合并两件物品时，只有两件都带标记，标记才会保留，预览会显示这一点；失败的锻造炉步骤会把材料以普通单位退还。
 
@@ -50,13 +50,14 @@
 | **推进器** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Ultra Core（每组 10 个）, Experimental Fusion Core | 5 |
 | **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **消耗品** | EMP Charge | 1 |
+| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **资源** | Cataclysite（每组 100 个）, Ship Fragment（每组 100 个）, Daraxium（每组 100 个）, Nyxite（每组 100 个）, Quorvium（每组 10 个）, Reinforced Hull Plate（每组 10 个）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-飞船、无人机、无人机阵型、增益道具和订阅永远不能出售，Ancient Control Unit、矿石 Velkonite 和 Orvium、Dark Matter Plate、Jump CPU、Extra Slots CPU、N.U.K.E. 和 N.I.K.E. 也不能。Dark Matter Plate 根本不在拍卖行里，既不作为商品，也不作为价格。已装备的、嵌入另一件物品的、里面有模块的，或放在[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)里的物品不能挂单，用过的 Cloaking CPU、EMP Charge 或 Base CPU 也不能。弹药和火箭从空间站出售：请先让你的飞船降落。
+飞船、无人机、无人机阵型、增益道具、订阅和 [P.E.T.](/wiki/03-Mechanics/Pets.md) 永远不能出售，Ancient Control Unit、矿石 Velkonite 和 Orvium、Dark Matter Plate、Jump CPU、Extra Slots CPU、P.E.T. Station I 至 III、三种 Cluster Chunk、Energetic Wall I、N.U.K.E. 和 N.I.K.E. 也不能。Dark Matter Plate 根本不在拍卖行里，既不作为商品，也不作为价格。已装备的、嵌入另一件物品的、装在你的 Skylab 引擎模块或防御模块里的、里面有模块的，或放在[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)里的物品不能挂单，用过的 Cloaking CPU、EMP Charge 或 Base CPU 也不能。弹药和火箭从空间站出售：请先让你的飞船降落。
 
 ## 出售 {#selling}
 
@@ -70,11 +71,11 @@
 | 物品 | 每组数量 | 最低价，信用点 | 最低价，Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32,000 | 32 |
-| Quantum Laser III | 1 | 210,000 | 210 |
-| Helios Beam | 1 | 1,600,000 | 1,600 |
-| Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
-| Heavy Shield Core | 1 | 870,000 | 870 |
-| Impulse Thruster IV | 1 | 980,000 | 980 |
+| Quantum Laser III | 1 | 220,000 | 220 |
+| Helios Beam | 1 | 1,800,000 | 1,800 |
+| Absorption Shield Cell IV | 1 | 1,700,000 | 1,700 |
+| Heavy Shield Core | 1 | 1,300,000 | 1,300 |
+| Impulse Thruster IV | 1 | 1,600,000 | 1,600 |
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 | 挂单 | 价格 | 押金 | 税 | 卖家所得 |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III：6 级，168 小时 | 210,000 信用点 | 3,675 信用点 | 10,500 信用点 | 199,500 信用点 |
-| Quantum Laser III：10 级，336 小时 | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III：6 级，168 小时 | 220,000 信用点 | 3,850 信用点 | 11,000 信用点 | 209,000 信用点 |
+| Quantum Laser III：10 级，336 小时 | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam：12 级，504 小时 | 2,500,000 信用点 | 210,000 信用点 | 125,000 信用点 | 2,375,000 信用点 |
 | Helios Beam：12 级，504 小时，赛季最后几天 | 2,500,000 信用点 | 0 信用点 | 0 信用点 | 2,500,000 信用点 |
 
@@ -146,13 +147,13 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 ## 每小时的拍品 {#the-hourly-lots}
 
-拍品是游戏自己的出售：弹药、火箭和 EMP Charge，每小时三个拍品（同时开放十二个），供人出价。它们是以低于商店的价格买到弹药的办法，也是一个销毁渠道：得标出价会被销毁。只有下面一日表里的拍品才会开出（绝不会是 x1 或 x4 弹药、Siphon Battery 或特殊火箭），使用商店的货币。无论你已经携带了什么，都可以对任何拍品出价：赢得的拍品完整归你，即使它会让你超过商店允许你购买的堆叠上限。
+拍品是游戏自己的出售：弹药、火箭和 EMP Charge，每小时三个拍品（同时开放十二个），供人出价。它们是以低于商店的价格买到弹药的办法，也是一个销毁渠道：得标出价会被销毁。只有下面一日表里的拍品才会开出（绝不会是 x1 或 x4 弹药、Siphon Battery 或特殊火箭）。**每个拍品都用信用点出价**，无论商店对这些商品要什么货币：商店以 Thulium 出售的商品的拍品（例如 x2 和 x3 弹药以及 EMP Charge）以该 Thulium 价格折合的信用点价值开出，按每 Thulium 200 信用点折算，所以你一点 Thulium 都没有也可以对任何拍品出价。无论你已经携带了什么，都可以对任何拍品出价：赢得的拍品完整归你，即使它会让你超过商店允许你购买的堆叠上限。
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - 每个 UTC 整点开启 3 个新拍品，每个都是不同的物品，每个开放 4 小时，所以同时开放 12 个。
-- 起拍价是商品商店价格的 20%。之后的每次出价必须比最高出价至少高 5%，并且至少多 100 信用点 或 1 Thulium。
+- 起拍价是商品商店价格的 20%。之后的每次出价必须比最高出价至少高 5%，并且至少多 100 信用点。
 - 你的出价会立即支付并被冻结。如果有人出价更高，会立即退还给你。
 - 在拍品结束前最后 2 分钟 内出价，会把结束时间推迟到出价后 2 分钟，最多 5 次。
 - 赢得的东西是用来飞行的，不是用来交易的：永远不可交易。得标出价会被销毁。无人出价的拍品不会售出，也不会让任何人花钱。
@@ -164,80 +165,80 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC 整点 | 拍品 | 完整大小 | 支付货币 | 完整大小时的起拍价 |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 00:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 00:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 01:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 01:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 02:00 | Lancet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 02:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 03:00 | Lancet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 04:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 04:00 | Rivet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 05:00 | Rivet II | 5,000 | 信用点 | 800,000 信用点 |
-| 05:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 06:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 06:00 | Ember II | 5,000 | 信用点 | 800,000 信用点 |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 07:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 07:00 | Rivet II | 5,000 | 信用点 | 800,000 信用点 |
-| 08:00 | Ember I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 08:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 09:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 09:00 | Ember II | 5,000 | 信用点 | 800,000 信用点 |
-| 10:00 | Scatter II | 5,000 | 信用点 | 800,000 信用点 |
-| 10:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 11:00 | Lancet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 12:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 12:00 | Scatter II | 5,000 | 信用点 | 800,000 信用点 |
-| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 13:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 13:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 14:00 | Ember I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 15:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 15:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 16:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 16:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 17:00 | Rivet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 17:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 18:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 18:00 | Scatter II | 5,000 | 信用点 | 800,000 信用点 |
-| 19:00 | Ember II | 5,000 | 信用点 | 800,000 信用点 |
-| 19:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 20:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 20:00 | Rivet I | 12,500 | 信用点 | 1,250,000 信用点 |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 21:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 21:00 | Rivet II | 5,000 | 信用点 | 800,000 信用点 |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 22:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 22:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 23:00 | Ember I | 12,500 | 信用点 | 1,250,000 信用点 |
+| UTC 整点 | 拍品 | 完整大小 | 完整大小时的起拍价 |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1,250 | 250,000 信用点 |
+| 00:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 00:00 | Ultra Core | 10,000 | 400,000 信用点 |
+| 01:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 01:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 01:00 | Lancet III | 1,250 | 250,000 信用点 |
+| 02:00 | Lancet I | 12,500 | 1,250,000 信用点 |
+| 02:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 02:00 | EMP Charge | 5 | 100,000 信用点 |
+| 03:00 | EMP Charge | 5 | 100,000 信用点 |
+| 03:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 03:00 | Lancet I | 12,500 | 1,250,000 信用点 |
+| 04:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 04:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 04:00 | Rivet I | 12,500 | 1,250,000 信用点 |
+| 05:00 | Rivet II | 5,000 | 800,000 信用点 |
+| 05:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 05:00 | EMP Charge | 5 | 100,000 信用点 |
+| 06:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 06:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 06:00 | Ember II | 5,000 | 800,000 信用点 |
+| 07:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 07:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 07:00 | Rivet II | 5,000 | 800,000 信用点 |
+| 08:00 | Ember I | 12,500 | 1,250,000 信用点 |
+| 08:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 08:00 | EMP Charge | 5 | 100,000 信用点 |
+| 09:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 09:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 09:00 | Ember II | 5,000 | 800,000 信用点 |
+| 10:00 | Scatter II | 5,000 | 800,000 信用点 |
+| 10:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 10:00 | EMP Charge | 5 | 100,000 信用点 |
+| 11:00 | EMP Charge | 5 | 100,000 信用点 |
+| 11:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 11:00 | Lancet I | 12,500 | 1,250,000 信用点 |
+| 12:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 12:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 12:00 | Scatter II | 5,000 | 800,000 信用点 |
+| 13:00 | Lancet III | 1,250 | 250,000 信用点 |
+| 13:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 13:00 | Ultra Core | 10,000 | 400,000 信用点 |
+| 14:00 | Ultra Core | 10,000 | 400,000 信用点 |
+| 14:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 14:00 | Ember I | 12,500 | 1,250,000 信用点 |
+| 15:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 15:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 15:00 | Lancet III | 1,250 | 250,000 信用点 |
+| 16:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 16:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 16:00 | Scatter III | 1,250 | 250,000 信用点 |
+| 17:00 | Rivet I | 12,500 | 1,250,000 信用点 |
+| 17:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 17:00 | EMP Charge | 5 | 100,000 信用点 |
+| 18:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 18:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 18:00 | Scatter II | 5,000 | 800,000 信用点 |
+| 19:00 | Ember II | 5,000 | 800,000 信用点 |
+| 19:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 19:00 | EMP Charge | 5 | 100,000 信用点 |
+| 20:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 20:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 20:00 | Rivet I | 12,500 | 1,250,000 信用点 |
+| 21:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 21:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
+| 21:00 | Rivet II | 5,000 | 800,000 信用点 |
+| 22:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
+| 22:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
+| 22:00 | Scatter III | 1,250 | 250,000 信用点 |
+| 23:00 | EMP Charge | 5 | 100,000 信用点 |
+| 23:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
+| 23:00 | Ember I | 12,500 | 1,250,000 信用点 |
 
 <!-- market-day:end -->
 

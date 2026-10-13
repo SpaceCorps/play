@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,7 +38,7 @@ Les boosters reposent sur un système de cumul additif :
 1. **Les pourcentages de bonus s’additionnent** : si vous achetez deux boosters différents qui donnent chacun +10 % de dégâts laser, vous obtenez un bonus total de **+20 % de dégâts laser**.
 2. **Les durées se cumulent de façon multiplicative** : acheter plusieurs fois le _même_ booster prolonge sa durée active. Les minuteries de boosters _différents_ tournent en parallèle.
 3. **Vue des minuteries** : les boosters actifs s’affichent dans le HUD, dans la fenêtre Boosters, avec le total des bonus actifs regroupés et la prochaine expiration.
-4. **Les chiffres les comptent** : les dégâts, les boucliers, la recharge du bouclier, l’absorption, la vitesse et la coque du Hangar, ainsi que votre page de pilote, incluent vos boosters actifs, vos bonus de la boutique de saison et les boosts de votre clan ; une petite étiquette *avec boosters* sur la carte des stats de combat l’indique. La pénétration, le taux de critique et la portée ne changent pas avec les boosters.
+4. **Les chiffres les comptent** : les dégâts, les boucliers, la recharge du bouclier, l’absorption, la vitesse et la coque du Hangar, ainsi que votre page de pilote, incluent vos boosters actifs, vos bonus de la boutique de saison, les boosts de votre clan et vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés ; une petite étiquette *avec boosters* sur la carte des stats de combat l’indique. La pénétration, le taux de critique et la portée ne changent pas avec les boosters.
 
 ---
 
@@ -71,7 +71,7 @@ Les boucliers ont trois stats distinctes, et chaque bonus de bouclier en augment
 
 | Type | Définition | Bonus qui l’augmentent |
 | :--- | :--- | :--- |
-| **Capacité bouclier** | Vos points de bouclier maximum | Shield Wall Booster I, Shield Wall Booster II, le bonus permanent **Shield Capacity Boost** (Boutique de saison) |
+| **Capacité bouclier** | Vos points de bouclier maximum | Shield Wall Booster I, Shield Wall Booster II, le bonus permanent **Shield Capacity Boost** (Boutique de saison), le boost de bouclier d’un [P.E.T.](/wiki/03-Mechanics/Pets.md) arrimé |
 | **Absorption bouclier** | La part de chaque tir que prennent vos boucliers (la coque encaisse le reste) ; elle peut dépasser 100 % | Le bonus permanent **Shield Absorbance Boost** (Boutique de saison) : +0,1 point par niveau pour 25 PR, +10 points au maximum. Aucun booster ne l’augmente |
 | **Recharge bouclier** | Les points de bouclier rendus par seconde | Shield Regen Booster. Aucun bonus permanent ne l’augmente |
 

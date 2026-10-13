@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -43,7 +43,7 @@ Puoi montare **più scudi, motori o Repair Drone** negli slot abilità di una co
 
 ### Shield Surge (scudi), tasto `Q` {#shield-surge-shields-key-q}
 
-Per dieci secondi lo scudo della tua nave viene **riparato**: il Surge ripristina in modo uniforme una quota del tuo scudo massimo, fino al massimo e mai oltre. Non è una barriera e non cambia come si ripartiscono i colpi; rimette scudo, e ciò che ha rimesso resta. Non si interrompe quando subisci un colpo (la ricarica normale attende 15 secondi dopo un colpo; il Surge no). Una nave con lo scudo pieno ne ricava poco, quindi premilo quando lo scudo sta cedendo. Il totale non è mai inferiore alla capacità del nucleo stesso, quindi anche una nave con poco scudo ottiene una vera riparazione (fino al suo massimo).
+Per dieci secondi lo scudo della tua nave viene **riparato**: il Surge ripristina in modo uniforme una quota del tuo scudo massimo, fino al massimo e mai oltre. Non è una barriera e non cambia come si ripartiscono i colpi; rimette scudo, e ciò che ha rimesso resta. Non si interrompe quando subisci un colpo (la ricarica normale attende 15 secondi dopo un colpo; il Surge no). Una nave con lo scudo pieno ne ricava poco, quindi premilo quando lo scudo sta cedendo. Il totale non è mai inferiore al 60% della capacità del nucleo stesso, quindi anche una nave con poco scudo ottiene una vera riparazione (fino al suo massimo).
 
 - Viene rifiutato quando sei sotto la protezione di una zona sicura e su una nave del tutto priva di scudo, così un clic sbagliato non lo spreca.
 - I razzi perforanti continuano ad aggirare in parte gli scudi, come hanno sempre fatto.
@@ -89,16 +89,16 @@ La forza di un’abilità è una **quota di un valore della tua nave** (scudo ma
 
 | Abilità | Grado | Oggetto | Forza (un modulo) | Durata | Ricarica | Attiva |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | ripristina 30% del tuo scudo massimo | 10 s | 120 s | 8,3% |
-| **Shield Surge** | II | Basic Shield Core | ripristina 60% del tuo scudo massimo | 10 s | 105 s | 9,5% |
-| **Shield Surge** | III | Heavy Shield Core | ripristina 100% del tuo scudo massimo | 10 s | 90 s | 11,1% |
+| **Shield Surge** | I | Light Shield Core | ripristina 18% del tuo scudo massimo | 10 s | 120 s | 8,3% |
+| **Shield Surge** | II | Basic Shield Core | ripristina 36% del tuo scudo massimo | 10 s | 105 s | 9,5% |
+| **Shield Surge** | III | Heavy Shield Core | ripristina 60% del tuo scudo massimo | 10 s | 90 s | 11,1% |
 | **Afterburner** | I | Engine I | +30% di velocità | 10 s | 120 s | 8,3% |
 | **Afterburner** | II | Engine II | +45% di velocità | 10 s | 105 s | 9,5% |
 | **Afterburner** | III | Engine III | +60% di velocità | 10 s | 90 s | 11,1% |
-| **Emergency Repair** | I | Repair Drone I | cura 20% del tuo scafo massimo | 10 s | 120 s | 8,3% |
-| **Emergency Repair** | II | Repair Drone II | cura 25% del tuo scafo massimo | 10 s | 105 s | 9,5% |
-| **Emergency Repair** | III | Repair Drone III | cura 32% del tuo scafo massimo | 10 s | 90 s | 11,1% |
-| **Emergency Repair** | IV | Repair Drone IV | cura 40% del tuo scafo massimo | 10 s | 75 s | 13,3% |
+| **Emergency Repair** | I | Repair Drone I | cura 12% del tuo scafo massimo | 10 s | 120 s | 8,3% |
+| **Emergency Repair** | II | Repair Drone II | cura 15% del tuo scafo massimo | 10 s | 105 s | 9,5% |
+| **Emergency Repair** | III | Repair Drone III | cura 19,2% del tuo scafo massimo | 10 s | 90 s | 11,1% |
+| **Emergency Repair** | IV | Repair Drone IV | cura 24% del tuo scafo massimo | 10 s | 75 s | 13,3% |
 
 Più moduli dello stesso tipo in una configurazione: quello di grado più basso stabilisce la forza e la ricarica indicate sopra, e ogni altro ne aggiunge 50%.
 
@@ -110,7 +110,7 @@ Più moduli dello stesso tipo in una configurazione: quello di grado più basso 
 
 <!-- abilities:end -->
 
-L’Engine II e gli scudi e i motori di grado III (l’Heavy Shield Core, l’Engine III) non sono in vendita: li crei nell’[Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) a partire da un Engine I, da un Basic Shield Core e da un Engine II, con Thulium, drop e piastre (2 Velkonite Reinforced Plate per l’Engine II, 3 Dark Matter Plate per gli altri: [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair ha un quarto grado, il Repair Drone IV.
+L’Engine II e gli scudi e i motori di grado III (l’Heavy Shield Core, l’Engine III) non sono in vendita: li crei nell’[Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) a partire da un Engine I, da un Basic Shield Core e da un Engine II, con Thulium, drop e piastre (4 Velkonite Reinforced Plate per l’Engine II, 4 Dark Matter Plate e una Ancient Control Unit per gli altri: [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair ha un quarto grado, il Repair Drone IV.
 
 ## Ricariche e limiti {#cooldowns-and-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93029f432757eb93 -->
+<!-- wiki-i18n source: be4819075016f18a -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -10,15 +10,16 @@ Os extras são os equipamentos utilitários dos **slots extras** de uma nave (do
 | **Cloaking CPU S** | Esconde sua nave | 10 | 5.000 Thulium |
 | **Cloaking CPU M** | Esconde sua nave | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Esconde sua nave | 50 | 20.000 Thulium |
-| **EMP Charge** | Por 3 segundos ninguém pode mirar em você, toda trava sobre você se desfaz e toda camuflagem perto de você termina | 1 | 500 Thulium |
+| **Energetic Wall I** | Ergue uma parede de plasma no seu cursor, perto da sua nave: todo tiro que a atravessa acerta a parede no lugar, e toda nave dentro dela queima | ilimitados | 250 Thulium |
+| **Energetic Wall II** | A mesma parede com o triplo de pontos de vida (30.000 e 90.000) | ilimitados | Montagem: uma Energetic Wall I e 600 Thulium, depois da pesquisa |
 
-As Cloaking CPUs e a EMP Charge são vendidas só na Loja. Elas não podem ser fundidas, e nada as dá de graça.
+As Cloaking CPUs são vendidas só na Loja. Elas não podem ser fundidas, e nada as dá de graça. A **EMP Charge** não é mais um extra: desde a 0.4.21 é um consumível, levado em uma pilha como um foguete e sem equipar em slot nenhum, então não ocupa nenhum dos seus slots de extra (veja [Foguetes](/wiki/06-Items/Rockets.md#emp-charge)).
 
 O **kit inicial** de um piloto novo já equipa dois extras nos dois slots extras da Protos: uma **Base CPU I** (10 usos, um teletransporte até a base da sua corporação) e um **Repair Drone I**. Arraste-os do seletor de Extras da barra de atalhos para um slot para usá-los. Só os pilotos novos recebem o kit: quem se alistou antes da 0.4.10 não o tem.
 
 Mais sete CPUs não são vendidas: a Montagem as cria depois que o Centro de Pesquisa do Skylab as pesquisou (veja [Pesquisa](/wiki/03-Mechanics/Research.md)). São a Extra Slots CPU I, II e III, a Jump CPU, a Base CPU I e II e a Auto-Repair CPU, e [a última seção](#research-cpus) diz o que cada uma faz. Como a Cloaking CPU, a Jump CPU e as Base CPUs são para um momento tranquilo: nenhuma das três inicia em até 10 segundos depois de um tiro seu ou de um acerto que você sofra. As duas CPUs de warp, a Jump CPU e as Base CPUs, também são recusadas enquanto você carrega um item de missão (“Você não pode usar um CPU de warp enquanto carrega um item de missão.”): veja [Itens de missão](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Cada extra tem uma etiqueta curta no seu slot da barra de atalhos: **REP** para um Repair Drone, **CLK** para uma Cloaking CPU, **EMP** para a EMP Charge e **ARP**, **BSE** e **JMP** para a Auto-Repair CPU, as Base CPUs e a Jump CPU. As Extra Slots CPUs não têm slot: elas se instalam no seu Skylab. Aponte para um slot para ler o que um clique faz agora, ou por que não pode fazer nada.
+Cada extra tem uma etiqueta curta no seu slot da barra de atalhos: **REP** para um Repair Drone, **CLK** para uma Cloaking CPU, **WAL** para uma Energetic Wall e **ARP**, **BSE** e **JMP** para a Auto-Repair CPU, as Base CPUs e a Jump CPU. As Extra Slots CPUs não têm slot: elas se instalam no seu Skylab. Os três itens **P.E.T. Station** também não têm slot: coletados na Montagem, eles se instalam sozinhos e abrem espaço para 2, 3 e 5 [P.E.T.s](/wiki/03-Mechanics/Pets.md). Aponte para um slot para ler o que um clique faz agora, ou por que não pode fazer nada.
 
 ![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
@@ -31,26 +32,32 @@ Cada extra tem uma etiqueta curta no seu slot da barra de atalhos: **REP** para 
 O que a Montagem faz exige antes a sua tecnologia; passe o mouse sobre um item para ver quanto tempo leva para pesquisá-la. A árvore de tecnologias, o combustível e o boost: [Pesquisa](/wiki/03-Mechanics/Research.md).
 
 ```tree
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
+P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -77,22 +84,23 @@ Pressione o slot CLK para se camuflar. **Um acionamento é um uso**, seja qual f
 
 As versões S, M e L se comportam igual: os pacotes maiores só saem mais baratos por uso (500, 450 e 400 Thulium).
 
-## EMP Charge
+## Energetic Wall
 
-Pressione o slot EMP em uma luta. Por **3 segundos** ninguém pode travar você, e **todos que estavam com você travado perdem a trava** na hora, onde quer que estejam: pilotos, alienígenas e pilotos de corporação. Um piloto cuja trava se desfaz recebe o aviso “Trava perdida: o alvo usou um EMP”. Quem tentar travar você nesses 3 segundos é recusado.
+Pressione o slot WAL e uma **parede de plasma** se ergue **no seu cursor**, atravessada à linha que vai da sua nave até ele: uma faixa de 360 unidades de comprimento (cerca de três modelos de nave e meio) e 10 unidades de largura. O centro dela fica a no máximo **450 unidades** do centro da nave: um cursor mais distante a coloca a 450 unidades ao longo da linha e um a menos de 120 unidades a empurra para 120. Enquanto o slot está pronto, uma linha pontilhada discreta e um contorno fantasma mostram onde ela vai ficar. Se o jogo não sabe onde está o seu cursor, ela se ergue a 220 unidades à frente do centro da nave, atravessada ao rumo dela. Arraste a parede dos Extras da barra de atalhos para um slot para usá-la, como a REP. Ela serve para se esconder atrás e para fechar um corredor, não para ficar dentro.
 
-- **Não é invulnerabilidade.** Ele impede o que precisa de trava: lasers, foguetes guiados e o toque de um foguete reto de alvo único, que atravessa você. Uma **explosão em área** não precisa de trava, então ainda fere você se você estiver dentro dela, e o buraco negro não é um tiro de forma alguma.
-- **Você ainda pode agir.** Atirar não o encerra. Você pode se camuflar (se as regras da própria camuflagem permitirem) e usar outros extras.
-- **Ele encerra as camuflagens por perto.** Toda nave camuflada a até **1.500 unidades** de você quando o pulso dispara é revelada na hora e a CPU dela começa os 60 segundos de recarga, seja qual for a corporação dela, inclusive a sua; as naves do seu próprio [grupo](/wiki/03-Mechanics/Groups.md) são a exceção: elas mantêm as camuflagens. O piloto recebe o aviso “Camuflagem desfeita: um EMP foi disparado por perto.”, vê a nave reaparecer com a mesma ondulação de qualquer fim de camuflagem, e o slot começa a recarregar. Você não pode usar um EMP enquanto você mesmo estiver camuflado.
-- **Ele não esconde nada.** Todo mundo ainda vê você, com uma casca elétrica crepitante durante os 3 segundos.
-- **Você não pode usá-lo** enquanto uma zona segura protege você, enquanto estiver camuflado, nem nos **30 segundos** seguintes ao último. Ele funciona em qualquer outro lugar, inclusive nos primeiros dias de uma temporada (o Protocolo de Paz): os alienígenas continuam caçando nesse período.
-- Um alienígena que você acerta durante os 3 segundos só se volta contra você quando eles terminam. Suas reivindicações de abate e as regras do primeiro acerto não mudam.
-- **O que você vê.** Um pulso de espaço distorcido se propaga a partir do piloto até onde o pulso encerra camuflagens (1.500 unidades), todos no alcance o veem, e uma casca elétrica crepitante envolve a nave durante os 3 segundos, com um anel em volta da sua própria nave e uma etiqueta no topo da tela que contam o tempo. O anel de alvo de todos que tinham você selecionado se desfaz, com um curto estalo. O slot EMP mostra as cargas que você tem, acende em azul enquanto a casca está ativa e escurece enquanto recarrega.
-- **Uma carga, um uso.** O slot é reabastecido a partir do seu inventário quando você tem mais. Os **30 segundos** de recarga não são salvos: sair do jogo ou saltar por um portal os zera, e o pulso seguinte custa uma carga.
+- **O que ela detém.** Todo tiro que a atravessa acerta a parede no lugar, não importa quem atirou nem de que lado: uma salva de laser, um foguete, a salva de um alienígena. O que está atrás não sofre nada e os pontos de vida da parede levam o dano. A explosão de um foguete que detona na parede atinge as naves do lado de cá e não as que estão atrás. Seus próprios tiros também: você não pode atirar para fora através da sua própria parede. A N.I.K.E. e as torres do Dormant Swamp passam por cima dela, como passam por cima dos asteroides.
+- **O que ela queima.** Toda nave cujo casco encosta na faixa sofre **2.500 de dano por segundo**, primeiro no escudo, inclusive a sua, e também alienígenas e pilotos de corporação. Uma nave em zona segura ou sob a proteção de um reaparecimento não queima, e duas faixas sobre uma nave não se somam.
+- **Quanto dura.** Uma parede de nível 1 tem **30.000 pontos de vida** e uma de nível 2, **90.000**. Uma parede perde sozinha um sessenta avos por segundo, então uma em que ninguém atira some em **60 segundos**. Os tiros encurtam isso: uma Wraith com doze Helios Beams e munição x4 derruba uma parede de nível 1 em cerca de 3,5 segundos.
+- **Uma de cada vez.** Uma parede nova toma o lugar da antiga. Depois de pressionar, o item recarrega por **90 segundos**; a espera é sua, não da nave: morrer ou sair do jogo não a encurta. Se você levar duas, vale a melhor parede.
+- **Onde não.** Não enquanto uma zona segura ou um reaparecimento protege você, não onde a faixa tocaria uma zona segura ou um portão, não camuflado e não onde o meio da faixa cairia fora do mapa. O jogo diz qual é o caso.
+- **Abates.** Uma nave que a parede destrói morre de radiação, e o abate vai para o último piloto inimigo que a acertou nos 15 segundos anteriores, se houve algum. Quem ergueu a parede não recebe crédito por nada que não tenha atirado ele mesmo. Um alienígena que a parede destrói não paga nada: nem recompensa nem espólio.
+- **Os alienígenas não a contornam.** Eles passam por ela e queimam, ou ficam do lado deles e atiram na parede.
+- **O que você vê.** Uma faixa de luz azul-esbranquiçada com traços brilhantes correndo por ela e um poste de luz em cada ponta, que lampeja onde um tiro acerta e treme quando está quase no fim. Uma parede de nível 2 brilha em amarelo, com um núcleo mais grosso e brilhante e um halo mais forte, mas a faixa dela tem as mesmas 10 unidades de largura que a de nível 1. Uma barra de vida fina ao lado encurta e passa para âmbar e depois para vermelho; o seu slot mostra a vida restante da sua parede como arco e a espera como sombra. Uma parede recém-erguida lampeja ao acender, uma derrubada desaba em faíscas e uma cujo tempo acabou se apaga.
+- **Como conseguir.** A Energetic Wall I é vendida na loja por 250 Thulium. A Energetic Wall II é feita na Montagem a partir de uma Energetic Wall I, 10 Ship Fragments e 2 Power Cores por 600 Thulium, depois que o Centro de Pesquisa a pesquisa (6 horas na velocidade normal: [Pesquisa](/wiki/03-Mechanics/Research.md)).
 
 ## CPUs do Centro de Pesquisa {#research-cpus}
 
-Duas das CPUs pedem Dark Matter Plates, como o último nível de cada cadeia de melhoria: o **Extra Slots CPU III** pede 3 (e 6 Orvium Reinforced Plates) e o **Base CPU II** pede 3 (e 2 Orvium Reinforced Plates), então pesquise antes a Dark Matter Plate ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
+Duas das CPUs pedem Dark Matter Plates, como o último nível de cada cadeia de melhoria: o **Extra Slots CPU III** pede 4 (mais 2 Ancient Control Units e 6 Orvium Reinforced Plates) e o **Base CPU II** pede 4 (mais uma Ancient Control Unit e 2 Orvium Reinforced Plates), então pesquise antes a Dark Matter Plate ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
 <!-- research-cpus:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -106,6 +114,7 @@ Duas das CPUs pedem Dark Matter Plates, como o último nível de cada cadeia de 
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20.000 | 10 min |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 
 Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montagem. Passe o mouse sobre uma CPU na árvore dela para ver o que a Montagem pede para criá-la.
 

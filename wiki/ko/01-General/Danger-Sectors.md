@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: 위험 섹터 -->
 # 위험 섹터 {#danger-sectors}
 
@@ -17,6 +17,10 @@
 - **Dormant Swamp.** `DS-4`의 한쪽 모서리에 잃어버린 문명의 기지가 서 있습니다. 보이는 모든 함선을 쏘는 포대, 그것을 지키는 Inert Mass, 그리고 한가운데의 Unwakened입니다. 파일럿이 아직 찾아가서는 안 되는 곳입니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)를 보세요.
 - **더 빠르고 더 풍성해진 Dormant 무리.** 이제 무리는 늪에 나타나고, 격파된 뒤 더 일찍 돌아오며, 보상은 두 배입니다. [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)를 보세요.
 - **11일차 이전**에는 펄서만 빛납니다. 그 밖의 위험 섹터는 [스페이스맵 이동](/wiki/01-General/Spacemap%20Travel.md)이 설명하는 그대로입니다. 11일차 이후인 월드에는 모두 한꺼번에 있습니다.
+
+## Davidski
+
+시즌 첫날부터 `DS-1`, `DS-2`, `DS-3` 중 한 곳에는 방문자가 있습니다. 황금색 Ironclad를 탄 상인 **[Davidski](/wiki/03-Mechanics/Davidski.md)**가 하루에 한 곳씩 차례로 날아다니며, 하루에 한 번 아무도 알려주지 않는 시각에 나옵니다. 그는 먼저 쏘지 않고 맞으면 반격하며, 파괴되면 보스처럼 보상을 줍니다. 어느 기업에도 속하지 않으며, [경매장](/wiki/03-Mechanics/Auction.md)에 올라오는 모든 종류를 상점 가격의 몇 배나 되는 값에 팝니다.
 
 ## 무엇이 어디에 있나 {#where-everything-is}
 
@@ -59,3 +63,4 @@
 - [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)와 [무리](/wiki/05-Swarms/Swarms.md).
 - [블랙홀](/wiki/03-Mechanics/Black-Hole.md)과 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): 연료는 어디서 오는가.
 - [소행성 채굴](/wiki/03-Mechanics/Asteroid-Mining.md): 위험 섹터의 바위.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): 하루에 한 번 예고 없이 위험 섹터에 나오는 상인.

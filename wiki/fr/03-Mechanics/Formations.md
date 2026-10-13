@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formations -->
 # Formations de drones {#drone-formations}
 
@@ -16,7 +16,7 @@ Une **formation de drones** est une disposition que prennent vos drones autour d
 
 ## En une minute {#in-one-minute}
 
-- **L’obtenir.** Recherchez sa technologie au Centre de recherche (deux arbres, *Défense* et *Frappe et mobilité*), puis fabriquez-la à l’Assemblage contre du Thulium. La moins chère coûte 7 000 Thulium et 5 Dark Matter, la plus chère 46 000 Thulium et 20 Dark Matter. La boutique n’en vend aucune.
+- **L’obtenir.** Recherchez sa technologie au Centre de recherche (deux arbres, *Défense* et *Frappe et mobilité*), puis fabriquez-la à l’Assemblage contre du Thulium. La moins chère coûte 14 000 Thulium et 5 Dark Matter, la plus chère 92 000 Thulium et 20 Dark Matter. La boutique n’en vend aucune.
 - **La posséder.** Une formation ne se monte nulle part : un exemplaire dans votre inventaire suffit. Il vous faut au moins un drone, un Slave Drone ou un Master Drone, sinon aucune formation ne fonctionne.
 - **La porter.** Faites-la glisser depuis la liste Formations de la barre rapide sur n’importe quel emplacement. Cliquez sur l’emplacement ou appuyez sur sa touche pour porter la formation. La liste contient aussi **Standard**, qui n’est aucune formation : faites-le glisser sur un emplacement et appuyez dessus pour n’en porter plus aucune. Vous pouvez changer une fois toutes les 2 secondes, dans une zone sûre aussi, et il n’y a pas de verrou de combat.
 - **La voir.** Chaque formation a sa propre forme, et vos drones la volent autour de votre vaisseau : un toit, un cœur, des ailes, une épée, une foreuse. Les autres pilotes la voient aussi. Voir [Comment ils volent](#how-they-fly).
@@ -50,7 +50,7 @@ Chaque formation donne à vos drones **une forme à elle**. Portez-en une et les
 - **Faite pour les drones que vous avez.** Une forme est construite pour exactement les drones que vous possédez, de 1 à 8 : avec un ou deux, vous n’en voyez que le début, avec les **8** la forme entière, comme sur les images. Leur niveau et ce qu’ils portent n’y changent rien.
 - **Ajustée à votre vaisseau.** Un long vaisseau vole une forme plus longue qu’un petit, et les drones restent à distance de la coque.
 - **Vue de tous.** Les autres pilotes voient votre forme et vous voyez la leur. Un vaisseau à plus de **3 500 unités** de votre caméra n’affiche pas de drones, et dans une foule seuls les **64** vaisseaux les plus proches le font.
-- **L’éteindre.** Paramètres › Interface a **Afficher mes drones** et **Afficher les drones ennemis** (les drones des autres pilotes). Ils ne changent que ce que vous voyez : les bonus de votre formation fonctionnent comme avant. **Réduire les animations** (Paramètres › Graphismes) fige les formes qui bougent, Cordon, Asterism, Culler, Gyre et Auger, et ramène le glissement à **0,2 seconde**.
+- **L’éteindre.** Paramètres › Interface a **Afficher mes drones** et **Afficher les drones ennemis** (les drones des autres pilotes). Ils ne changent que ce que vous voyez : les bonus de votre formation fonctionnent comme avant. La livrée des drones suit **Afficher l’apparence des autres pilotes** ([Cosmétiques](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Réduire les animations** (Paramètres › Graphismes) fige les formes qui bougent, Cordon, Asterism, Culler, Gyre et Auger, et ramène le glissement à **0,2 seconde**.
 - **Voir la hauteur.** Le toit, la coupe et la foreuse ont de la hauteur, que montre peu une vue de tout en haut. Faites tourner la caméra par un glisser du clic droit ([Premiers pas](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) pour les voir de côté.
 
 | Formation | La forme | Ce qui bouge |
@@ -104,26 +104,26 @@ Les tableaux indiquent ce que chacune donne et ce qu’elle vous coûte, comme l
 
 ## Ce qu’elles coûtent {#what-they-cost}
 
-Du Thulium, jamais de crédits. Les seize ensemble coûtent 330 500 Thulium et 189 Dark Matter.
+Du Thulium, jamais de crédits. Les seize ensemble coûtent 661 000 Thulium et 189 Dark Matter.
 
 | Formation | Exige d’abord | Durée de recherche | Dark Matter | Thulium pour fabriquer | Durée de fabrication |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7 500 | 5 min |
-| **Sanctum** | Testudo | 1 j | 13 | 20 000 | 10 min |
-| **Rampart** | Sanctum | 2 j | 20 | 38 500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9 000 | 5 min |
-| **Redoubt** | Adamant | 1 j | 13 | 21 000 | 10 min |
-| **Cordon** | Redoubt | 1 j | 13 | 21 500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7 000 | 5 min |
-| **Bodkin** | Asterism | 1 j | 13 | 21 000 | 10 min |
-| **Ballista** | Bodkin | 1 j | 13 | 24 000 | 10 min |
-| **Gemini** | – | 2 j | 20 | 38 000 | 15 min |
-| **Stiletto** | Gemini | 2 j | 20 | 46 000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8 000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8 500 | 5 min |
-| **Culler** | Shrike | 1 j | 13 | 20 000 | 10 min |
-| **Gyre** | – | 1 j | 13 | 20 000 | 10 min |
-| **Auger** | Gyre | 1 j | 13 | 20 500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15 000 | 5 min |
+| **Sanctum** | Testudo | 1 j | 13 | 40 000 | 10 min |
+| **Rampart** | Sanctum | 2 j | 20 | 77 000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18 000 | 5 min |
+| **Redoubt** | Adamant | 1 j | 13 | 42 000 | 10 min |
+| **Cordon** | Redoubt | 1 j | 13 | 43 000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14 000 | 5 min |
+| **Bodkin** | Asterism | 1 j | 13 | 42 000 | 10 min |
+| **Ballista** | Bodkin | 1 j | 13 | 48 000 | 10 min |
+| **Gemini** | – | 2 j | 20 | 76 000 | 15 min |
+| **Stiletto** | Gemini | 2 j | 20 | 92 000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16 000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17 000 | 5 min |
+| **Culler** | Shrike | 1 j | 13 | 40 000 | 10 min |
+| **Gyre** | – | 1 j | 13 | 40 000 | 10 min |
+| **Auger** | Gyre | 1 j | 13 | 41 000 | 10 min |
 
 ### Matériaux {#materials}
 
@@ -132,8 +132,8 @@ En plus du Thulium, l’Assemblage prélève ces matériaux dans votre inventair
 | Durée de recherche | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 j | 180 | 18 | 9 | 8 | 3 | – |
-| 2 j | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 j | 180 | 18 | 9 | 8 | 15 | – |
+| 2 j | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## Les règles en détail {#the-rules-in-detail}
 

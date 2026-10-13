@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: アビリティ -->
 # 艦のアクティブアビリティ {#active-ship-abilities}
 
@@ -43,7 +43,7 @@
 
 ### Shield Surge（シールド）、キー `Q` {#shield-surge-shields-key-q}
 
-10秒間、艦のシールドが**修復**されます。Surge は最大シールドの一定の割合を均等に回復し、最大値を超えることはありません。バリアではなく、ダメージがシールドと船体に振り分けられる仕組みも変わりません。シールドを取り戻すだけで、回復した分はそのまま残ります。被弾しても止まりません（通常のリチャージは被弾後15秒待ちますが、Surge は待ちません）。シールドが満タンの艦では、ほとんど効果がないため、シールドが削られているときに押してください。合計は、コア自身の容量を下回ることはないので、シールドの少ない艦でも、しっかりとした回復が得られます（最大値まで）。
+10秒間、艦のシールドが**修復**されます。Surge は最大シールドの一定の割合を均等に回復し、最大値を超えることはありません。バリアではなく、ダメージがシールドと船体に振り分けられる仕組みも変わりません。シールドを取り戻すだけで、回復した分はそのまま残ります。被弾しても止まりません（通常のリチャージは被弾後15秒待ちますが、Surge は待ちません）。シールドが満タンの艦では、ほとんど効果がないため、シールドが削られているときに押してください。合計は、コア自身の容量の60%を下回ることはないので、シールドの少ない艦でも、しっかりとした回復が得られます（最大値まで）。
 
 - セーフゾーンの保護の中と、シールドがまったくない艦では使用できません。誤クリックで無駄にしないためです。
 - 貫通ロケットは、これまでどおり、シールドを一部すり抜けます。
@@ -89,16 +89,16 @@
 
 | アビリティ | ランク | アイテム | 効果（モジュール1つ） | 持続時間 | クールダウン | 作動率 |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | 最大シールドの30%を回復 | 10秒 | 120秒 | 8.3% |
-| **Shield Surge** | II | Basic Shield Core | 最大シールドの60%を回復 | 10秒 | 105秒 | 9.5% |
-| **Shield Surge** | III | Heavy Shield Core | 最大シールドの100%を回復 | 10秒 | 90秒 | 11.1% |
+| **Shield Surge** | I | Light Shield Core | 最大シールドの18%を回復 | 10秒 | 120秒 | 8.3% |
+| **Shield Surge** | II | Basic Shield Core | 最大シールドの36%を回復 | 10秒 | 105秒 | 9.5% |
+| **Shield Surge** | III | Heavy Shield Core | 最大シールドの60%を回復 | 10秒 | 90秒 | 11.1% |
 | **Afterburner** | I | Engine I | 速度 +30% | 10秒 | 120秒 | 8.3% |
 | **Afterburner** | II | Engine II | 速度 +45% | 10秒 | 105秒 | 9.5% |
 | **Afterburner** | III | Engine III | 速度 +60% | 10秒 | 90秒 | 11.1% |
-| **Emergency Repair** | I | Repair Drone I | 最大船体の20%を回復 | 10秒 | 120秒 | 8.3% |
-| **Emergency Repair** | II | Repair Drone II | 最大船体の25%を回復 | 10秒 | 105秒 | 9.5% |
-| **Emergency Repair** | III | Repair Drone III | 最大船体の32%を回復 | 10秒 | 90秒 | 11.1% |
-| **Emergency Repair** | IV | Repair Drone IV | 最大船体の40%を回復 | 10秒 | 75秒 | 13.3% |
+| **Emergency Repair** | I | Repair Drone I | 最大船体の12%を回復 | 10秒 | 120秒 | 8.3% |
+| **Emergency Repair** | II | Repair Drone II | 最大船体の15%を回復 | 10秒 | 105秒 | 9.5% |
+| **Emergency Repair** | III | Repair Drone III | 最大船体の19.2%を回復 | 10秒 | 90秒 | 11.1% |
+| **Emergency Repair** | IV | Repair Drone IV | 最大船体の24%を回復 | 10秒 | 75秒 | 13.3% |
 
 1つの構成に同じ種類のモジュールを複数装備した場合：最も低いランクのモジュールが上の効果とクールダウンを決め、ほかのモジュールは1つにつき、その50%を加算します。
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-Engine II と、ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、それぞれ Engine I、Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そしてプレート（Engine II には Velkonite Reinforced Plate 2枚、そのほかには Dark Matter Plate 3枚：[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
+Engine II と、ランク III のシールドとエンジン（Heavy Shield Core、Engine III）は販売されていません。[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、それぞれ Engine I、Basic Shield Core、Engine II から作ります。必要なのは Thulium、ドロップ品、そしてプレート（Engine II には Velkonite Reinforced Plate 4枚、そのほかには Dark Matter Plate 4枚と Ancient Control Unit 1個：[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）です。Emergency Repair には、4番目のランクとして Repair Drone IV があります。
 
 ## クールダウンと制限 {#cooldowns-and-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formazioni -->
 # Formazioni di droni {#drone-formations}
 
@@ -16,7 +16,7 @@ Una **formazione di droni** è uno schema che i tuoi droni prendono attorno alla
 
 ## In un minuto {#in-one-minute}
 
-- **Procurala.** Ricerca la sua tecnologia nel Centro ricerche (due alberi, *Difesa* e *Attacco e mobilità*), poi costruiscila all’Assemblaggio in cambio di Thulium. La più economica costa 7.000 Thulium e 5 Dark Matter, la più cara 46.000 Thulium e 20 Dark Matter. Il Negozio non ne vende nessuna.
+- **Procurala.** Ricerca la sua tecnologia nel Centro ricerche (due alberi, *Difesa* e *Attacco e mobilità*), poi costruiscila all’Assemblaggio in cambio di Thulium. La più economica costa 14.000 Thulium e 5 Dark Matter, la più cara 92.000 Thulium e 20 Dark Matter. Il Negozio non ne vende nessuna.
 - **Possiedila.** Una formazione non si monta da nessuna parte: basta un esemplare nel tuo inventario. Ti serve almeno un drone, uno Slave Drone o un Master Drone, altrimenti nessuna formazione funziona.
 - **Indossala.** Trascinala dall’elenco Formazioni della barra rapida su uno slot qualsiasi. Clicca lo slot o premi il suo tasto per indossare la formazione. L’elenco ha anche **Standard**, che è nessuna formazione: trascinalo su uno slot e premilo per non indossarne più nessuna. Puoi cambiare una volta ogni 2 secondi, anche in una zona sicura, e non c’è blocco di combattimento.
 - **Guardala.** Ogni formazione ha la sua forma, e i tuoi droni la volano intorno alla tua nave: un tetto, un cuore, ali, una spada, una trivella. Anche gli altri piloti la vedono. Vedi [Come volano](#how-they-fly).
@@ -50,7 +50,7 @@ Ogni formazione dà ai tuoi droni **una forma tutta sua**. Indossane una e i dro
 - **Fatta per i droni che hai.** Una forma è costruita per esattamente i droni che possiedi, da 1 a 8: con uno o due ne vedi solo l’inizio, con tutti e **8** la forma intera, come nelle immagini. I loro livelli e ciò che portano non cambiano nulla.
 - **Adatta alla tua nave.** Una nave lunga vola in una forma più lunga di una piccola, e i droni restano a distanza dallo scafo.
 - **Vista da tutti.** Gli altri piloti vedono la tua forma e tu vedi la loro. Una nave a più di **3.500 unità** dalla tua telecamera non mostra droni, e in una folla lo fanno solo le **64** navi più vicine.
-- **Spegnila.** Impostazioni › Interfaccia ha **Mostra i miei droni** e **Mostra droni nemici** (i droni degli altri piloti). Cambiano solo ciò che vedi: i bonus della tua formazione funzionano come prima. **Riduci movimento** (Impostazioni › Grafica) tiene ferme le forme che si muovono, Cordon, Asterism, Culler, Gyre e Auger, e accorcia lo scivolamento a **0,2 secondi**.
+- **Spegnila.** Impostazioni › Interfaccia ha **Mostra i miei droni** e **Mostra droni nemici** (i droni degli altri piloti). Cambiano solo ciò che vedi: i bonus della tua formazione funzionano come prima. La livrea dei droni segue **Mostra l’aspetto degli altri piloti** ([Cosmetici](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Riduci movimento** (Impostazioni › Grafica) tiene ferme le forme che si muovono, Cordon, Asterism, Culler, Gyre e Auger, e accorcia lo scivolamento a **0,2 secondi**.
 - **Vedi l’altezza.** Il tetto, la coppa e la trivella hanno altezza, che una vista da direttamente sopra mostra poco. Ruota la telecamera trascinando con il tasto destro ([Per iniziare](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) per vederli di lato.
 
 | Formazione | La forma | Cosa si muove |
@@ -104,26 +104,26 @@ Le tabelle elencano che cosa dà ciascuna e che cosa ti costa, come la scheda de
 
 ## Quanto costano {#what-they-cost}
 
-Thulium, mai crediti. Tutte e sedici insieme costano 330.500 Thulium e 189 Dark Matter.
+Thulium, mai crediti. Tutte e sedici insieme costano 661.000 Thulium e 189 Dark Matter.
 
 | Formazione | Richiede prima | Tempo di ricerca | Dark Matter | Thulium per la creazione | Tempo di creazione |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7.500 | 5 min |
-| **Sanctum** | Testudo | 1 g | 13 | 20.000 | 10 min |
-| **Rampart** | Sanctum | 2 g | 20 | 38.500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9.000 | 5 min |
-| **Redoubt** | Adamant | 1 g | 13 | 21.000 | 10 min |
-| **Cordon** | Redoubt | 1 g | 13 | 21.500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7.000 | 5 min |
-| **Bodkin** | Asterism | 1 g | 13 | 21.000 | 10 min |
-| **Ballista** | Bodkin | 1 g | 13 | 24.000 | 10 min |
-| **Gemini** | – | 2 g | 20 | 38.000 | 15 min |
-| **Stiletto** | Gemini | 2 g | 20 | 46.000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8.000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8.500 | 5 min |
-| **Culler** | Shrike | 1 g | 13 | 20.000 | 10 min |
-| **Gyre** | – | 1 g | 13 | 20.000 | 10 min |
-| **Auger** | Gyre | 1 g | 13 | 20.500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15.000 | 5 min |
+| **Sanctum** | Testudo | 1 g | 13 | 40.000 | 10 min |
+| **Rampart** | Sanctum | 2 g | 20 | 77.000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18.000 | 5 min |
+| **Redoubt** | Adamant | 1 g | 13 | 42.000 | 10 min |
+| **Cordon** | Redoubt | 1 g | 13 | 43.000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14.000 | 5 min |
+| **Bodkin** | Asterism | 1 g | 13 | 42.000 | 10 min |
+| **Ballista** | Bodkin | 1 g | 13 | 48.000 | 10 min |
+| **Gemini** | – | 2 g | 20 | 76.000 | 15 min |
+| **Stiletto** | Gemini | 2 g | 20 | 92.000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16.000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17.000 | 5 min |
+| **Culler** | Shrike | 1 g | 13 | 40.000 | 10 min |
+| **Gyre** | – | 1 g | 13 | 40.000 | 10 min |
+| **Auger** | Gyre | 1 g | 13 | 41.000 | 10 min |
 
 ### Materiali {#materials}
 
@@ -132,8 +132,8 @@ Oltre al Thulium, l’Assemblaggio prende questi materiali dal tuo inventario. D
 | Tempo di ricerca | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 g | 180 | 18 | 9 | 8 | 3 | – |
-| 2 g | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 g | 180 | 18 | 9 | 8 | 15 | – |
+| 2 g | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## Le regole nel dettaglio {#the-rules-in-detail}
 

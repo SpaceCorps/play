@@ -41,7 +41,7 @@ You may fit **several shields, engines or Repair Drones** into the ability slots
 
 ### Shield Surge (shields), key `Q`
 
-For ten seconds your ship's shield is **repaired**: the Surge restores a share of your max shield evenly, up to the max and never over it. It is not a barrier and does not change how hits are split; it puts shield back, and what it put back stays. It does not stop when you are hit (the ordinary recharge waits 15 seconds after a hit; the Surge does not). A ship with a full shield gets little from it, so press it when the shield is going. The total is never less than the core's own capacity, so a ship with little shield still gets a real repair (up to its max).
+For ten seconds your ship's shield is **repaired**: the Surge restores a share of your max shield evenly, up to the max and never over it. It is not a barrier and does not change how hits are split; it puts shield back, and what it put back stays. It does not stop when you are hit (the ordinary recharge waits 15 seconds after a hit; the Surge does not). A ship with a full shield gets little from it, so press it when the shield is going. The total is never less than 60% of the core's own capacity, so a ship with little shield still gets a real repair (up to its max).
 
 - Refused inside a safe zone's protection, and on a ship with no shield at all, so a misclick doesn't burn it.
 - Piercing rockets still partly bypass the shields, as they always did.
@@ -87,16 +87,16 @@ The strength of an ability is a **share of your own ship's number** (max shield,
 
 | Ability | Rank | Item | Strength (one module) | Lasts | Cooldown | Up |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | restores 30% of your max shield | 10 s | 120 s | 8.3% |
-| **Shield Surge** | II | Basic Shield Core | restores 60% of your max shield | 10 s | 105 s | 9.5% |
-| **Shield Surge** | III | Heavy Shield Core | restores 100% of your max shield | 10 s | 90 s | 11.1% |
+| **Shield Surge** | I | Light Shield Core | restores 18% of your max shield | 10 s | 120 s | 8.3% |
+| **Shield Surge** | II | Basic Shield Core | restores 36% of your max shield | 10 s | 105 s | 9.5% |
+| **Shield Surge** | III | Heavy Shield Core | restores 60% of your max shield | 10 s | 90 s | 11.1% |
 | **Afterburner** | I | Engine I | +30% speed | 10 s | 120 s | 8.3% |
 | **Afterburner** | II | Engine II | +45% speed | 10 s | 105 s | 9.5% |
 | **Afterburner** | III | Engine III | +60% speed | 10 s | 90 s | 11.1% |
-| **Emergency Repair** | I | Repair Drone I | heals 20% of your max hull | 10 s | 120 s | 8.3% |
-| **Emergency Repair** | II | Repair Drone II | heals 25% of your max hull | 10 s | 105 s | 9.5% |
-| **Emergency Repair** | III | Repair Drone III | heals 32% of your max hull | 10 s | 90 s | 11.1% |
-| **Emergency Repair** | IV | Repair Drone IV | heals 40% of your max hull | 10 s | 75 s | 13.3% |
+| **Emergency Repair** | I | Repair Drone I | heals 12% of your max hull | 10 s | 120 s | 8.3% |
+| **Emergency Repair** | II | Repair Drone II | heals 15% of your max hull | 10 s | 105 s | 9.5% |
+| **Emergency Repair** | III | Repair Drone III | heals 19.2% of your max hull | 10 s | 90 s | 11.1% |
+| **Emergency Repair** | IV | Repair Drone IV | heals 24% of your max hull | 10 s | 75 s | 13.3% |
 
 Several modules of a kind in one configuration: the worst-ranked sets the strength and the cooldown above, and every other one adds 50% of it.
 
@@ -108,7 +108,7 @@ Several modules of a kind in one configuration: the worst-ranked sets the streng
 
 <!-- abilities:end -->
 
-The Engine II and the rank III shields and engines (the Heavy Shield Core, Engine III) are not sold: you make them in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Engine I, a Basic Shield Core and an Engine II, with Thulium, drops and plates (2 Velkonite Reinforced Plates for the Engine II, 3 Dark Matter Plates for the others: [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair has a fourth rank, the Repair Drone IV.
+The Engine II and the rank III shields and engines (the Heavy Shield Core, Engine III) are not sold: you make them in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Engine I, a Basic Shield Core and an Engine II, with Thulium, drops and plates (4 Velkonite Reinforced Plates for the Engine II, 4 Dark Matter Plates and an Ancient Control Unit for the others: [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Emergency Repair has a fourth rank, the Repair Drone IV.
 
 ## Cooldowns and limits
 

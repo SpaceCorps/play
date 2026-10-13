@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formationer -->
 # Drönarformationer {#drone-formations}
 
@@ -16,7 +16,7 @@ En **drönarformation** är ett mönster som dina drönare tar runt skeppet, och
 
 ## På en minut {#in-one-minute}
 
-- **Skaffa en.** Forska fram dess teknik i Forskningscentrum (två träd, *Försvar* och *Anfall och rörlighet*) och tillverka den sedan i Monteringen för Thulium. Den billigaste kostar 7 000 Thulium och 5 Dark Matter, den dyraste 46 000 Thulium och 20 Dark Matter. Butiken säljer ingen.
+- **Skaffa en.** Forska fram dess teknik i Forskningscentrum (två träd, *Försvar* och *Anfall och rörlighet*) och tillverka den sedan i Monteringen för Thulium. Den billigaste kostar 14 000 Thulium och 5 Dark Matter, den dyraste 92 000 Thulium och 20 Dark Matter. Butiken säljer ingen.
 - **Äg den.** En formation sätts inte på någonstans: en kopia i ditt förråd räcker. Du behöver minst en drönare, en Slave Drone eller en Master Drone, annars fungerar ingen formation.
 - **Bär den.** Dra den från Formationslistan i snabbfältet till valfri plats. Klicka på platsen eller tryck på dess tangent för att bära formationen. Listan har också **Standard**, som är ingen formation: dra den till en plats och tryck på den för att åter bära ingen. Du får byta en gång var 2:a sekund, också i en säker zon, och det finns ingen stridsspärr.
 - **Se den.** Varje formation har en egen form, och dina drönare flyger den runt ditt skepp: ett tak, ett hjärta, vingar, ett svärd, en borr. Andra piloter ser den också. Se [Så flyger de](#how-they-fly).
@@ -50,7 +50,7 @@ Varje formation ger dina drönare **en egen form**. Bär du en lämnar drönarna
 - **Byggd för de drönare du har.** En form byggs för exakt de drönare du äger, 1 till 8: med en eller två ser du bara början av den, med alla **8** hela formen, som på bilderna. Deras nivåer och vad de bär ändrar ingenting.
 - **Anpassad efter ditt skepp.** Ett långt skepp flyger en längre form än ett litet, och drönarna håller avstånd till skrovet.
 - **Syns för alla.** Andra piloter ser din form och du ser deras. Ett skepp som är mer än **3 500 enheter** från din kamera visar inga drönare, och i en folksamling gör bara de närmaste **64** skeppen det.
-- **Stäng av den.** Inställningar › Gränssnitt har **Visa mina drönare** och **Visa fientliga drönare** (andra pilotars drönare). De ändrar bara vad du ser: din formations bonusar fungerar som förut. **Minska rörelser** (Inställningar › Grafik) håller de former som rör sig, Cordon, Asterism, Culler, Gyre och Auger, stilla och kortar glidningen till **0,2 sekunder**.
+- **Stäng av den.** Inställningar › Gränssnitt har **Visa mina drönare** och **Visa fientliga drönare** (andra pilotars drönare). De ändrar bara vad du ser: din formations bonusar fungerar som förut. Drönarnas lackering följer **Visa andra piloters utseende** ([Kosmetik](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Minska rörelser** (Inställningar › Grafik) håller de former som rör sig, Cordon, Asterism, Culler, Gyre och Auger, stilla och kortar glidningen till **0,2 sekunder**.
 - **Se höjden.** Taket, skålen och borren har höjd, som en vy rakt uppifrån visar föga. Vrid kameran med högerdrag ([Kom igång](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) för att se dem från sidan.
 
 | Formation | Formen | Vad som rör sig |
@@ -104,26 +104,26 @@ Tabellerna visar vad var och en ger och vad den kostar dig, som föremålskortet
 
 ## Vad de kostar {#what-they-cost}
 
-Thulium, aldrig krediter. Alla sexton tillsammans kostar 330 500 Thulium och 189 Dark Matter.
+Thulium, aldrig krediter. Alla sexton tillsammans kostar 661 000 Thulium och 189 Dark Matter.
 
 | Formation | Kräver först | Forskningstid | Dark Matter | Thulium för tillverkning | Tillverkningstid |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7 500 | 5 min |
-| **Sanctum** | Testudo | 1 d | 13 | 20 000 | 10 min |
-| **Rampart** | Sanctum | 2 d | 20 | 38 500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9 000 | 5 min |
-| **Redoubt** | Adamant | 1 d | 13 | 21 000 | 10 min |
-| **Cordon** | Redoubt | 1 d | 13 | 21 500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7 000 | 5 min |
-| **Bodkin** | Asterism | 1 d | 13 | 21 000 | 10 min |
-| **Ballista** | Bodkin | 1 d | 13 | 24 000 | 10 min |
-| **Gemini** | – | 2 d | 20 | 38 000 | 15 min |
-| **Stiletto** | Gemini | 2 d | 20 | 46 000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8 000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8 500 | 5 min |
-| **Culler** | Shrike | 1 d | 13 | 20 000 | 10 min |
-| **Gyre** | – | 1 d | 13 | 20 000 | 10 min |
-| **Auger** | Gyre | 1 d | 13 | 20 500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15 000 | 5 min |
+| **Sanctum** | Testudo | 1 d | 13 | 40 000 | 10 min |
+| **Rampart** | Sanctum | 2 d | 20 | 77 000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18 000 | 5 min |
+| **Redoubt** | Adamant | 1 d | 13 | 42 000 | 10 min |
+| **Cordon** | Redoubt | 1 d | 13 | 43 000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14 000 | 5 min |
+| **Bodkin** | Asterism | 1 d | 13 | 42 000 | 10 min |
+| **Ballista** | Bodkin | 1 d | 13 | 48 000 | 10 min |
+| **Gemini** | – | 2 d | 20 | 76 000 | 15 min |
+| **Stiletto** | Gemini | 2 d | 20 | 92 000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16 000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17 000 | 5 min |
+| **Culler** | Shrike | 1 d | 13 | 40 000 | 10 min |
+| **Gyre** | – | 1 d | 13 | 40 000 | 10 min |
+| **Auger** | Gyre | 1 d | 13 | 41 000 | 10 min |
 
 ### Material {#materials}
 
@@ -132,8 +132,8 @@ Förutom Thulium tar Monteringen det här materialet ur ditt förråd. Det beror
 | Forskningstid | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 d | 180 | 18 | 9 | 8 | 3 | – |
-| 2 d | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 d | 180 | 18 | 9 | 8 | 15 | – |
+| 2 d | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## Reglerna i detalj {#the-rules-in-detail}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -43,7 +43,7 @@ Egy konfiguráció képességfoglalataiba **több pajzsot, hajtóművet vagy Rep
 
 ### Shield Surge (pajzsok), `Q` billentyű {#shield-surge-shields-key-q}
 
-Tíz másodpercig a hajód pajzsa **javul**: a Surge a maximális pajzsod egy részét állítja vissza egyenletesen, a maximumig, soha azon túl. Nem gát, és nem változtatja meg, hogyan oszlanak meg a találatok; pajzsot ad vissza, és ami visszakerült, az marad. Nem áll le, ha eltalálnak (a szokásos újratöltés találat után 15 másodpercet vár; a Surge nem). Egy teli pajzsú hajónak keveset ér, ezért akkor nyomd meg, amikor a pajzs fogy. Az összeg sosem kevesebb a pajzsmag saját kapacitásánál, így egy kevés pajzzsal bíró hajó is valódi javítást kap (a maximumáig).
+Tíz másodpercig a hajód pajzsa **javul**: a Surge a maximális pajzsod egy részét állítja vissza egyenletesen, a maximumig, soha azon túl. Nem gát, és nem változtatja meg, hogyan oszlanak meg a találatok; pajzsot ad vissza, és ami visszakerült, az marad. Nem áll le, ha eltalálnak (a szokásos újratöltés találat után 15 másodpercet vár; a Surge nem). Egy teli pajzsú hajónak keveset ér, ezért akkor nyomd meg, amikor a pajzs fogy. Az összeg sosem kevesebb a pajzsmag saját kapacitásának 60%-ánál, így egy kevés pajzzsal bíró hajó is valódi javítást kap (a maximumáig).
 
 - Biztonságos zóna védelme alatt és pajzs nélküli hajón nem indítható, hogy egy félrekattintás ne égesse el.
 - Az áthatoló rakéták továbbra is részben megkerülik a pajzsokat, mint mindig.
@@ -89,16 +89,16 @@ Egy képesség ereje a **saját hajód számának egy része** (maximális pajzs
 
 | Képesség | Rang | Tárgy | Erő (egy modul) | Tartam | Töltődés | Aktív |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | a maximális pajzsod 30%-át állítja vissza | 10 mp | 120 mp | 8,3% |
-| **Shield Surge** | II | Basic Shield Core | a maximális pajzsod 60%-át állítja vissza | 10 mp | 105 mp | 9,5% |
-| **Shield Surge** | III | Heavy Shield Core | a maximális pajzsod 100%-át állítja vissza | 10 mp | 90 mp | 11,1% |
+| **Shield Surge** | I | Light Shield Core | a maximális pajzsod 18%-át állítja vissza | 10 mp | 120 mp | 8,3% |
+| **Shield Surge** | II | Basic Shield Core | a maximális pajzsod 36%-át állítja vissza | 10 mp | 105 mp | 9,5% |
+| **Shield Surge** | III | Heavy Shield Core | a maximális pajzsod 60%-át állítja vissza | 10 mp | 90 mp | 11,1% |
 | **Afterburner** | I | Engine I | +30% sebesség | 10 mp | 120 mp | 8,3% |
 | **Afterburner** | II | Engine II | +45% sebesség | 10 mp | 105 mp | 9,5% |
 | **Afterburner** | III | Engine III | +60% sebesség | 10 mp | 90 mp | 11,1% |
-| **Emergency Repair** | I | Repair Drone I | a maximális hajótested 20%-át gyógyítja | 10 mp | 120 mp | 8,3% |
-| **Emergency Repair** | II | Repair Drone II | a maximális hajótested 25%-át gyógyítja | 10 mp | 105 mp | 9,5% |
-| **Emergency Repair** | III | Repair Drone III | a maximális hajótested 32%-át gyógyítja | 10 mp | 90 mp | 11,1% |
-| **Emergency Repair** | IV | Repair Drone IV | a maximális hajótested 40%-át gyógyítja | 10 mp | 75 mp | 13,3% |
+| **Emergency Repair** | I | Repair Drone I | a maximális hajótested 12%-át gyógyítja | 10 mp | 120 mp | 8,3% |
+| **Emergency Repair** | II | Repair Drone II | a maximális hajótested 15%-át gyógyítja | 10 mp | 105 mp | 9,5% |
+| **Emergency Repair** | III | Repair Drone III | a maximális hajótested 19,2%-át gyógyítja | 10 mp | 90 mp | 11,1% |
+| **Emergency Repair** | IV | Repair Drone IV | a maximális hajótested 24%-át gyógyítja | 10 mp | 75 mp | 13,3% |
 
 Egy konfiguráción belül több azonos fajtájú modul esetén a legalacsonyabb rangú szabja meg a fenti erőt és töltődést, minden további pedig ennek 50%-át adja hozzá.
 
@@ -110,7 +110,7 @@ Egy konfiguráción belül több azonos fajtájú modul esetén a legalacsonyabb
 
 <!-- abilities:end -->
 
-Az Engine II-t, valamint a III. rangú pajzsokat és hajtóműveket (a Heavy Shield Core-t és az Engine III-at) nem árulják: a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el őket egy Engine I-ből, egy Basic Shield Core-ból és egy Engine II-ből, Thulium, zsákmány és lemezek (2 Velkonite Reinforced Plate az Engine II-höz, 3 Dark Matter Plate a többihez: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)) felhasználásával. Az Emergency Repairnek van egy negyedik rangja, a Repair Drone IV.
+Az Engine II-t, valamint a III. rangú pajzsokat és hajtóműveket (a Heavy Shield Core-t és az Engine III-at) nem árulják: a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el őket egy Engine I-ből, egy Basic Shield Core-ból és egy Engine II-ből, Thulium, zsákmány és lemezek (4 Velkonite Reinforced Plate az Engine II-höz, 4 Dark Matter Plate és egy Ancient Control Unit a többihez: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)) felhasználásával. Az Emergency Repairnek van egy negyedik rangja, a Repair Drone IV.
 
 ## Töltődés és korlátok {#cooldowns-and-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Farosektorer -->
 # Farosektorer {#danger-sectors}
 
@@ -17,6 +17,10 @@ Här levde en gång en civilisation från den gamla galaxen, avancerad och lila-
 - **Dormant Swamp.** I ett hörn av `DS-4` står den försvunna civilisationens bas: kanoner som skjuter på varje skepp de ser, Inert Masses som vaktar den och, i mitten, Unwakened. Det är en plats som piloter ännu inte är avsedda att besöka. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **En snabbare, rikare Dormant-svärm.** Svärmen dyker nu upp vid träsket, kommer tillbaka tidigare efter att ha förstörts och betalar dubbelt. Se [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Före dag 11** lyser bara pulsarerna: i övrigt är farosektorerna som [Spacemap-resor](/wiki/01-General/Spacemap%20Travel.md) beskriver dem. En värld som är på dag 11 eller senare har allt på en gång.
+
+## Davidski
+
+Från säsongens första dag har en av `DS-1`, `DS-2` och `DS-3` en besökare: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, en handlare i en guldfärgad Ironclad som flyger dem i tur och ordning, en per dag, och kommer ut en gång om dagen vid en tidpunkt som ingen tillkännager. Han skjuter aldrig först och skjuter tillbaka när han träffas, och han betalar som en boss när han förstörs. Han hör till ingen koncern och säljer varje sort som [Auktionen](/wiki/03-Mechanics/Auction.md) listar till många gånger Butikens pris.
 
 ## Var allt finns {#where-everything-is}
 
@@ -59,3 +63,4 @@ Varje värld har sin egen kopia av allt, och en pulsar och dess grävmaskin stå
 - [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md) och [Svärmar](/wiki/05-Swarms/Swarms.md).
 - [Svart hål](/wiki/03-Mechanics/Black-Hole.md) och [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): var bränslet kommer ifrån.
 - [Asteroidbrytning](/wiki/03-Mechanics/Asteroid-Mining.md): farosektorernas stenar.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): handlaren som kommer ut en gång om dagen, utan förvarning, på en farosektor.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea6d96252a5296d9 -->
+<!-- wiki-i18n source: bd7db9b63b944c54 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter와 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -11,13 +11,13 @@
 ## 1분 요약 {#in-one-minute}
 
 - **Dark Matter는 자원이며, 어디서나 그냥 Dark Matter라고 부릅니다.** 위험 섹터 4(`DS-4`) 중앙의 블랙홀이 만듭니다. 블랙홀에 닿은 N.I.K.E. 로켓 한 발마다 Dark Matter 1~3개(평균 2개)가 그 영역 가장자리의 작은 상자에 담겨 돌아옵니다.
-- **용도.** 연구 센터의 기술 83개가 요구하며, 하나당 5~40개, 모두 904개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다. 시즌 11일차부터는 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)도 연료로 태웁니다. 탱크 하나는 Dark Matter 몇 개이며, 굴착기가 파괴되면 사라집니다.
+- **용도.** 연구 센터의 기술 93개가 요구하며, 하나당 5~40개, 모두 1,019개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다. 시즌 11일차부터는 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)도 연료로 태웁니다. 탱크 하나는 Dark Matter 몇 개이며, 굴착기가 파괴되면 사라집니다.
 - **연구 센터에서는** 시작을 누르기 전에 화물칸의 Dark Matter를 추가합니다(함선이 착륙한 상태에서). 연구는 시작할 때 그것을 가져갑니다.
 - **Dark Matter Plate는 다른 아이템입니다.** 먼저 제작법을 연구하고(트리의 자원 그룹: 1일과 Dark Matter 10개), 그다음 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 제작합니다.
-- **플레이트의 용도.** 모든 강화 계열의 마지막 티어는 **3개**를 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II입니다(13개). 대장간은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 2개, 파열하는 등급에서 영원한 등급으로 올릴 때 2개를 더 요구합니다.
+- **플레이트의 용도.** 모든 강화 계열의 마지막 티어는 **4개**와 Ancient Control Unit 1개 이상을 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II입니다(13개). 대장간은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 2개, 파열하는 등급에서 영원한 등급으로 올릴 때 2개를 더 요구합니다. Skylab의 엔진 모듈, 방어 모듈, 레이더 모듈도 건설과 업그레이드에 플레이트를 요구합니다([자원](/wiki/06-Items/Resources.md#dark-matter-plate)).
 - **먼저 플레이트를 연구합니다.** 이 13개 부품의 기술은 모두 플레이트의 기술도 필요로 합니다. 이전에 연구한 부품은 연구된 채로 남지만, 그 플레이트를 만들려면 플레이트의 기술이 필요합니다.
 - **첫 출발.** N.I.K.E. 로켓 약 5발(1회 제작)이면 플레이트 제작법이 요구하는 Dark Matter 10개가 나옵니다.
-- **부품 하나.** 마지막 티어 부품 하나에는 Dark Matter 15개(플레이트 3개), 곧 N.I.K.E. 로켓 평균 7.5발 분량이 들어갑니다.
+- **부품 하나.** 마지막 티어 부품 하나에는 Dark Matter 20개(플레이트 4개), 곧 N.I.K.E. 로켓 평균 10발 분량이 들어갑니다.
 
 ## 두 가지를 나란히 {#side-by-side}
 
@@ -26,7 +26,7 @@
 | **무엇인가** | 영웅 등급 자원 | 신화 등급 자원 |
 | **어디서 나오나** | 위험 섹터 4의 블랙홀(쏘아 넣은 N.I.K.E. 로켓에 대해). Dormant 무리와 Dormant Swamp의 Inert Mass에서도 조금 | 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 눌러 만듦 |
 | **먼저 할 일** | N.I.K.E.를 연구하고(3시간, Dark Matter 불필요) 몇 개 제작 | 플레이트 제작법을 연구(1일, Dark Matter 10개) |
-| **용도** | 연구 비용(기술 83개, 모두 904개)과 플레이트 | 모든 강화 계열의 마지막 티어: 13개 부품마다 3개; 대장간: 가장 높은 두 단계에 각각 2개 |
+| **용도** | 연구 비용(기술 93개, 모두 1,019개)과 플레이트 | 모든 강화 계열의 마지막 티어: 13개 부품마다 4개; Master Drone 업그레이드: 20개; 대장간: 가장 높은 두 단계에 각각 2개 |
 
 ## Dark Matter를 얻는 방법 {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@
 
 ## 연구 센터의 Dark Matter {#in-the-research-centre}
 
-트리 위쪽의 기술은 과학 포인트에 더해 Dark Matter를 요구합니다. 최상위 기술 16개는 각각 **10개**, 드론 편대 16개는 각각 **5, 13, 20개**입니다(편대가 강할수록 많습니다). Hull Plating의 연구 두 개는 **25개와 40개**를, 함선 기술(디자인 13개와 장갑 슬롯 36개)은 각각 **10개**를 요구합니다. [연구](/wiki/03-Mechanics/Research.md#dark-matter)의 표에 모두 나와 있습니다.
+트리 위쪽의 기술은 과학 포인트에 더해 Dark Matter를 요구합니다. 최상위 기술 16개는 각각 **10개**, 드론 편대 16개는 각각 **5, 13, 20개**입니다(편대가 강할수록 많습니다). Hull Plating의 연구 두 개는 **25개와 40개**를, 함선 기술(디자인 13개와 장갑 슬롯 36개)은 각각 **10개**를 요구합니다. Skylab의 엔진 모듈, 방어 모듈, 레이더 모듈은 두 번째 레벨부터 레벨마다 **5, 10, 15 또는 20**을 요구하며, 합계는 115입니다([연구](/wiki/03-Mechanics/Research.md#module-technologies)). 나머지는 모두 [연구](/wiki/03-Mechanics/Research.md#dark-matter)의 표에 나와 있습니다.
 
 1. **정거장에서 Skylab의 연구 보기를 열고** 기술을 고릅니다. 그 카드에는 **Dark Matter** 줄이 있어 연구 센터에 있는 양과 필요한 양이 표시됩니다(예를 들어 3 / 10).
 2. **추가를 누릅니다.** 화물칸에서 연구 센터로 부족한 만큼, 가진 범위 안에서 옮깁니다. 함선이 착륙해 있어야 합니다. **회수**를 누르면 화물칸으로 돌아옵니다.
@@ -70,11 +70,11 @@
 1. **제작법을 연구합니다.** 연구 보기에서 **Dark Matter Plate** 기술은 트리의 **자원** 그룹에 있습니다. 1일이 걸리고 Dark Matter 10개가 필요하며, 먼저 연구 센터에 추가해 둡니다. 마지막 티어 부품 13개의 기술도 이것을 요구합니다.
 2. **플레이트 하나에 필요한 것을 모읍니다.** Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250입니다. Skylab의 단조소가 광석으로 두 강화 플레이트를 만듭니다([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **어셈블리에서 제작합니다.** 분류 필터에서 **자원**을 고릅니다. 1회 제작으로 120초 만에 플레이트 하나가 나옵니다.
-4. **사용합니다.** 모든 강화 계열의 마지막 티어는 **플레이트 3개**를 요구합니다([아래](#what-the-last-tier-asks-for) 참고). [대장간](/wiki/06-Items/Forge.md)은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 **플레이트 2개**(성공률 75%, 크레딧 200,000), 파열하는 등급에서 영원한 등급으로 올릴 때 **2개 더**(성공률 60%, 크레딧 500,000과 Thulium 2,000)를 요구합니다. 실패한 단계는 재료의 절반을 내림하여 돌려줍니다. 플레이트로는 1개입니다.
+4. **사용합니다.** 모든 강화 계열의 마지막 티어는 **플레이트 4개**를 요구합니다([아래](#what-the-last-tier-asks-for) 참고). [대장간](/wiki/06-Items/Forge.md)은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 **플레이트 2개**(성공률 75%, 크레딧 200,000), 파열하는 등급에서 영원한 등급으로 올릴 때 **2개 더**(성공률 60%, 크레딧 500,000과 Thulium 2,000)를 요구합니다. 실패한 단계는 재료의 절반을 내림하여 돌려줍니다. 플레이트로는 1개입니다. Master Drone 업그레이드는 **플레이트 20개**를 요구합니다.
 
 ## 마지막 티어가 요구하는 것 {#what-the-last-tier-asks-for}
 
-모든 강화 계열의 마지막 티어는 **Dark Matter Plate 3개**를 요구하며 Velkonite 플레이트는 요구하지 않습니다. Velkonite 플레이트를 쓰는 것은 그 앞의 티어입니다. 13개 부품은 다음과 같습니다.
+모든 강화 계열의 마지막 티어는 **Dark Matter Plate 4개**와 Ancient Control Unit 1개 이상을 요구하며 Velkonite 플레이트는 요구하지 않습니다. Velkonite 플레이트를 쓰는 것은 그 앞의 티어입니다. 13개 부품은 다음과 같습니다.
 
 - **레이저 증폭기:** Damage Amp IV, Crit Amp IV, Penetration Amp IV. 각각 티어 III 증폭기로 만듭니다([레이저와 탄약](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)).
 - **Helios Beam**: Starfire-III로 만들며 Orvium Reinforced Plate 18개도 듭니다([레이저와 탄약](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)).
@@ -85,16 +85,16 @@
 - **Adaptive Core III**: Adaptive Core II로 만듭니다([실드](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU:** Extra Slots CPU III는 Orvium Reinforced Plate 6개, Base CPU II는 2개도 듭니다([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**다음은 Dark Matter Plate를 요구하지 않습니다.** Quantum Laser III와 Starfire-III(Velkonite 플레이트), 모든 계열의 티어 II와 III(증폭기는 Velkonite 플레이트 1개 또는 2개, 셀과 추진기는 2개 또는 4개), Jump CPU, Auto-Repair CPU, Extra Slots CPU I과 II, Base CPU I, 드론 편대 16종, 그리고 함선입니다. [대장간](/wiki/06-Items/Forge.md)은 가장 높은 두 단계에서 각각 2개를 그대로 요구합니다.
+**다음은 Dark Matter Plate를 요구하지 않습니다.** Quantum Laser III와 Starfire-III(Velkonite 플레이트), 모든 계열의 티어 II와 III(증폭기는 Velkonite 플레이트 2개, 셀과 추진기는 4개), Jump CPU, Auto-Repair CPU, Extra Slots CPU I과 II, Base CPU I, 드론 편대 16종, 그리고 함선입니다. [대장간](/wiki/06-Items/Forge.md)은 가장 높은 두 단계에서 각각 2개를 그대로 요구합니다.
 
-플레이트 1개는 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 압착하므로, 부품 하나의 플레이트 3개에는 Velkonite 플레이트 3개, Orvium 플레이트 3개, 750 Thulium도 듭니다. 모든 곳에 마지막 티어를 썼을 때 전체가 담는 양은 다음과 같습니다.
+플레이트 1개는 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 압착하므로, 부품 하나의 플레이트 4개에는 Velkonite 플레이트 4개, Orvium 플레이트 4개, 1,000 Thulium도 듭니다. 모든 곳에 마지막 티어를 썼을 때 전체가 담는 양은 다음과 같습니다.
 
 | 만드는 것 | 마지막 티어 부품 | 플레이트 | Dark Matter | N.I.K.E. 로켓(평균) |
 | :--- | ---: | ---: | ---: | ---: |
-| 마지막 티어 부품 1개 | 1 | 3 | 15 | 7.5 |
-| Helios Beam과 티어 IV 증폭기 3개 | 4 | 12 | 60 | 30 |
-| Paragon 1척 | 40 | 120 | 600 | 300 |
-| Wraith 1척 | 60 | 180 | 900 | 450 |
+| 마지막 티어 부품 1개 | 1 | 4 | 20 | 10 |
+| Helios Beam과 티어 IV 증폭기 3개 | 4 | 16 | 80 | 40 |
+| Paragon 1척 | 40 | 160 | 800 | 400 |
+| Wraith 1척 | 60 | 240 | 1,200 | 600 |
 
 Paragon의 40개는 레이저 8개, 그 증폭기 24개, 발전기 및 지원 슬롯 8개(3 + 3 + 2)입니다. Wraith의 60개는 레이저 12개, 그 증폭기 36개, 발전기 및 지원 슬롯 12개(4 + 4 + 4)입니다.
 
@@ -105,10 +105,10 @@ Paragon의 40개는 레이저 8개, 그 증폭기 24개, 발전기 및 지원 �
 | 플레이트 제작법 연구 | 10 | 5 |
 | Dark Matter Plate 1개 | 5 | 2.5 |
 | 대장간 한 단계의 플레이트 2개 | 10 | 5 |
-| 마지막 티어 부품 하나의 플레이트 3개 | 15 | 7.5 |
-| Dark Matter를 요구하는 모든 기술 | 904 | 452 |
+| 마지막 티어 부품 하나의 플레이트 4개 | 20 | 10 |
+| Dark Matter를 요구하는 모든 기술 | 1,019 | 510 |
 
-아무것도 없는 상태에서의 첫 강화는 제작법(10개)과 플레이트 2개(10개)로, Dark Matter 20개, N.I.K.E. 로켓 약 10발, 곧 2회 제작입니다. 아무것도 없는 상태에서의 첫 티어 IV 증폭기는 플레이트의 제작법(10개), 증폭기 자체의 기술(10개), 플레이트 3개(15개)로, Dark Matter 35개, N.I.K.E. 로켓 약 18발입니다.
+아무것도 없는 상태에서의 첫 강화는 제작법(10개)과 플레이트 2개(10개)로, Dark Matter 20개, N.I.K.E. 로켓 약 10발, 곧 2회 제작입니다. 아무것도 없는 상태에서의 첫 티어 IV 증폭기는 플레이트의 제작법(10개), 증폭기 자체의 기술(10개), 플레이트 4개(20개)로, Dark Matter 40개, N.I.K.E. 로켓 약 20발입니다.
 
 ## 흔한 실수 {#common-mistakes}
 

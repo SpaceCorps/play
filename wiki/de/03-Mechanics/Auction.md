@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
-Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Wie der Shop ist sie eine Seite der Station: Du nutzt sie angedockt, nicht im Flug. Sie hat vier Bereiche. **Markt** zeigt, was andere Piloten verkaufen. **Lose** sind die eigenen Angebote des Spiels, drei pro Stunde. **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast, und wie dein Handel gelaufen ist.
+Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Im Flug öffnet sie sich als Fenster: Die Schaltfläche **Auktion** (ein Auktionshammer) in der Symbolleiste oben links zeigt dieselbe Seite über dem Spiel, und Position und Größe des Fensters werden gemerkt. Sie funktioniert wie an der Station, nur dass Munition, Raketen und EMP Charges im Flug gezählt werden, du sie also von der Station aus einstellst (das Verkaufsblatt zeigt sie gesperrt, mit dem Grund); kaufen und bieten kannst du von überall. Sie hat fünf Bereiche. **Markt** zeigt, was andere Piloten verkaufen. **Lose** sind die eigenen Angebote des Spiels, drei pro Stunde. **Davidski** ist das Lager des fliegenden Händlers: jede Sorte, die die Auktion führt, zu einem Vielfachen des Shop-Preises; was der Shop nicht verkauft, kostet so viel, dass der Kauf bei ihm der letzte Ausweg ist, und die seltenen Herstellungsressourcen noch einmal das Tausendfache ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast, und wie dein Handel gelaufen ist.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Du brauchst **Level 5**, um die Auktion zu nutzen: zum Einstellen, Kaufen und Bieten.
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
 - Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 1 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
-- 82 Sorten lassen sich einstellen, und 81 davon können auch in Thulium bepreist werden.
+- 83 Sorten lassen sich einstellen, und 82 davon können auch in Thulium bepreist werden.
 - Ein Angebot läuft 168 / 336 / 504 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 0,25 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 0,4 %.
@@ -26,7 +26,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 
 ## Handelbare Gegenstände {#marketable-items}
 
-Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es. Auch die Munition und die Raketen, die der Munitionsdrucker und die Raketenfabrik des Skylab herstellen, sind nicht handelbar.
+Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, bei [Davidski](/wiki/03-Mechanics/Davidski.md) gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es. Auch die Munition und die Raketen, die der Munitionsdrucker und die Raketenfabrik des Skylab herstellen, sind nicht handelbar.
 
 Das Etikett ist eine Anzahl von Einheiten, kein Schalter: Ein Munitionsstapel kann gekaufte und verdiente Schuss enthalten, und die Karte zeigt „Handelbar (3 von 5)“. Wenn du einen Teil eines Stapels verbrauchst (Schießen, Herstellen), gehen zuerst die einfachen Einheiten weg, sodass die handelbaren am längsten halten. Beim Zusammenführen zweier Stücke in der [Schmiede](/wiki/06-Items/Forge.md#merge) bleibt das Etikett nur, wenn beide Stücke es hatten, und die Vorschau sagt das; ein fehlgeschlagener Schritt der Schmiede gibt seine Materialien als einfache Einheiten zurück.
 
@@ -50,13 +50,14 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 | **Schubdüsen** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Ultra Core (in Posten zu 10), Experimental Fusion Core | 5 |
 | **Raketen** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Verbrauchsgüter** | EMP Charge | 1 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **Hüllenpanzerung** | Hull Plating II, Hull Plating III | 2 |
 | **Ressourcen** | Cataclysite (in Posten zu 100), Ship Fragment (in Posten zu 100), Daraxium (in Posten zu 100), Nyxite (in Posten zu 100), Quorvium (in Posten zu 10), Reinforced Hull Plate (in Posten zu 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-Schiffe, Drohnen, Drohnenformationen, Booster und Abos können nie verkauft werden, ebenso wenig die Ancient Control Unit, die Erze Velkonite und Orvium, die Dark Matter Plate, die Jump CPU, die Extra Slots CPUs, die N.U.K.E. und die N.I.K.E. Dark Matter Plates gibt es in der Auktion gar nicht, weder als Ware noch als Preis. Ein Gegenstand, der ausgerüstet, in einen anderen Gegenstand eingesetzt ist, Module enthält oder im [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) liegt, kann nicht eingestellt werden, ebenso wenig eine benutzte Cloaking CPU, EMP Charge oder Base CPU. Munition und Raketen werden von der Station aus verkauft: Lande zuerst dein Schiff.
+Schiffe, Drohnen, Drohnenformationen, Booster, Abos und [P.E.T.s](/wiki/03-Mechanics/Pets.md) können nie verkauft werden, ebenso wenig die Ancient Control Unit, die Erze Velkonite und Orvium, die Dark Matter Plate, die Jump CPU, die Extra Slots CPUs, die P.E.T. Station I bis III, die drei Cluster Chunks, die Energetic Wall I, die N.U.K.E. und die N.I.K.E. Dark Matter Plates gibt es in der Auktion gar nicht, weder als Ware noch als Preis. Ein Gegenstand, der ausgerüstet, in einen anderen Gegenstand eingesetzt, im Triebwerks- oder Verteidigungsmodul deines Skylab eingebaut ist, Module enthält oder im [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) liegt, kann nicht eingestellt werden, ebenso wenig eine benutzte Cloaking CPU, EMP Charge oder Base CPU. Munition und Raketen werden von der Station aus verkauft: Lande zuerst dein Schiff.
 
 ## Verkaufen {#selling}
 
@@ -70,11 +71,11 @@ Jede Sorte hat einen **Mindestpreis**, und es gibt **keinen Höchstpreis**: Verl
 | Sorte | Verkauft in Posten zu | Mindestpreis, Credits | Mindestpreis, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32.000 | 32 |
-| Quantum Laser III | 1 | 210.000 | 210 |
-| Helios Beam | 1 | 1.600.000 | 1.600 |
-| Absorption Shield Cell IV | 1 | 1.100.000 | 1.100 |
-| Heavy Shield Core | 1 | 870.000 | 870 |
-| Impulse Thruster IV | 1 | 980.000 | 980 |
+| Quantum Laser III | 1 | 220.000 | 220 |
+| Helios Beam | 1 | 1.800.000 | 1.800 |
+| Absorption Shield Cell IV | 1 | 1.700.000 | 1.700 |
+| Heavy Shield Core | 1 | 1.300.000 | 1.300 |
+| Impulse Thruster IV | 1 | 1.600.000 | 1.600 |
 | EMP Charge | 1 | 40.000 | 40 |
 | Cloaking CPU S | 1 | 400.000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 
 | Angebot | Preis | Einstellgebühr | Steuer | Der Verkäufer erhält |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: Level 6, 168 h | 210.000 Credits | 3.675 Credits | 10.500 Credits | 199.500 Credits |
-| Quantum Laser III: Level 10, 336 h | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III: Level 6, 168 h | 220.000 Credits | 3.850 Credits | 11.000 Credits | 209.000 Credits |
+| Quantum Laser III: Level 10, 336 h | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam: Level 12, 504 h | 2.500.000 Credits | 210.000 Credits | 125.000 Credits | 2.375.000 Credits |
 | Helios Beam: Level 12, 504 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
 
@@ -146,13 +147,13 @@ Du erfährst, wenn etwas verkauft wird: durch einen Toast, den Ton der Auktion u
 
 ## Die stündlichen Lose {#the-hourly-lots}
 
-Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, drei Lose jede Stunde (zwölf sind gleichzeitig offen), auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete), in der Währung des Shops. Du kannst auf jedes Los bieten, egal was du schon trägst: Ein gewonnenes Los gehört dir ganz, auch wenn es dich über den Stapel hebt, den dir der Shop zu kaufen erlaubt.
+Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, drei Lose jede Stunde (zwölf sind gleichzeitig offen), auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete). **Auf jedes Los wird in Credits geboten**, was auch immer der Shop für die Ware verlangt: Ein Los mit Waren, die der Shop für Thulium verkauft (zum Beispiel die x2- und x3-Munition und die EMP Charge), öffnet mit dem Wert dieses Thulium-Preises in Credits, zu 200 Credits pro Thulium, sodass du auf jedes Los ganz ohne Thulium bieten kannst. Du kannst auf jedes Los bieten, egal was du schon trägst: Ein gewonnenes Los gehört dir ganz, auch wenn es dich über den Stapel hebt, den dir der Shop zu kaufen erlaubt.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Zu Beginn jeder UTC-Stunde öffnen 3 neue Lose, jedes mit anderer Ware, und jedes bleibt 4 Stunden offen, sodass 12 gleichzeitig offen sind.
-- Das Startgebot beträgt 20 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits oder 1 Thulium mehr betragen.
+- Das Startgebot beträgt 20 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits mehr betragen.
 - Dein Gebot wird sofort bezahlt und gehalten. Wirst du überboten, bekommst du es sofort zurück.
 - Ein Gebot in den letzten 2 min eines Loses verschiebt dessen Ende auf 2 min nach dem Gebot, höchstens 5-mal.
 - Was du gewinnst, ist zum Fliegen da, nicht zum Handeln: Es ist nie handelbar. Das Gewinngebot wird vernichtet. Auf ein Los, auf das niemand bietet, wird nichts verkauft, und es kostet niemanden etwas.
@@ -164,80 +165,80 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC-Stunde | Los | Volle Größe | Bezahlt in | Startgebot bei voller Größe |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
-| 00:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 00:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
-| 01:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 01:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 01:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
-| 02:00 | Lancet I | 12.500 | Credits | 1.250.000 Credits |
-| 02:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 03:00 | Lancet I | 12.500 | Credits | 1.250.000 Credits |
-| 04:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 04:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 04:00 | Rivet I | 12.500 | Credits | 1.250.000 Credits |
-| 05:00 | Rivet II | 5.000 | Credits | 800.000 Credits |
-| 05:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 06:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 06:00 | Ember II | 5.000 | Credits | 800.000 Credits |
-| 07:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 07:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 07:00 | Rivet II | 5.000 | Credits | 800.000 Credits |
-| 08:00 | Ember I | 12.500 | Credits | 1.250.000 Credits |
-| 08:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 09:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 09:00 | Ember II | 5.000 | Credits | 800.000 Credits |
-| 10:00 | Scatter II | 5.000 | Credits | 800.000 Credits |
-| 10:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 11:00 | Lancet I | 12.500 | Credits | 1.250.000 Credits |
-| 12:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 12:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 12:00 | Scatter II | 5.000 | Credits | 800.000 Credits |
-| 13:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
-| 13:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 13:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
-| 14:00 | Ultra Core | 10.000 | Thulium | 2.000 Thulium |
-| 14:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 14:00 | Ember I | 12.500 | Credits | 1.250.000 Credits |
-| 15:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 15:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 15:00 | Lancet III | 1.250 | Thulium | 1.250 Thulium |
-| 16:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 16:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 16:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
-| 17:00 | Rivet I | 12.500 | Credits | 1.250.000 Credits |
-| 17:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 18:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 18:00 | Scatter II | 5.000 | Credits | 800.000 Credits |
-| 19:00 | Ember II | 5.000 | Credits | 800.000 Credits |
-| 19:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 20:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 20:00 | Rivet I | 12.500 | Credits | 1.250.000 Credits |
-| 21:00 | Advanced Plasma | 25.000 | Thulium | 2.500 Thulium |
-| 21:00 | Ultra Core | 25.000 | Thulium | 5.000 Thulium |
-| 21:00 | Rivet II | 5.000 | Credits | 800.000 Credits |
-| 22:00 | Advanced Plasma | 10.000 | Thulium | 1.000 Thulium |
-| 22:00 | Ultra Core | 50.000 | Thulium | 10.000 Thulium |
-| 22:00 | Scatter III | 1.250 | Thulium | 1.250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50.000 | Thulium | 5.000 Thulium |
-| 23:00 | Ember I | 12.500 | Credits | 1.250.000 Credits |
+| UTC-Stunde | Los | Volle Größe | Startgebot bei voller Größe |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1.250 | 250.000 Credits |
+| 00:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 00:00 | Ultra Core | 10.000 | 400.000 Credits |
+| 01:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 01:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 01:00 | Lancet III | 1.250 | 250.000 Credits |
+| 02:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 02:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 02:00 | EMP Charge | 5 | 100.000 Credits |
+| 03:00 | EMP Charge | 5 | 100.000 Credits |
+| 03:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 03:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 04:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 04:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 04:00 | Rivet I | 12.500 | 1.250.000 Credits |
+| 05:00 | Rivet II | 5.000 | 800.000 Credits |
+| 05:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 05:00 | EMP Charge | 5 | 100.000 Credits |
+| 06:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 06:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 06:00 | Ember II | 5.000 | 800.000 Credits |
+| 07:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 07:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 07:00 | Rivet II | 5.000 | 800.000 Credits |
+| 08:00 | Ember I | 12.500 | 1.250.000 Credits |
+| 08:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 08:00 | EMP Charge | 5 | 100.000 Credits |
+| 09:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 09:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 09:00 | Ember II | 5.000 | 800.000 Credits |
+| 10:00 | Scatter II | 5.000 | 800.000 Credits |
+| 10:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 10:00 | EMP Charge | 5 | 100.000 Credits |
+| 11:00 | EMP Charge | 5 | 100.000 Credits |
+| 11:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 11:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 12:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 12:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 12:00 | Scatter II | 5.000 | 800.000 Credits |
+| 13:00 | Lancet III | 1.250 | 250.000 Credits |
+| 13:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 13:00 | Ultra Core | 10.000 | 400.000 Credits |
+| 14:00 | Ultra Core | 10.000 | 400.000 Credits |
+| 14:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 14:00 | Ember I | 12.500 | 1.250.000 Credits |
+| 15:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 15:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 15:00 | Lancet III | 1.250 | 250.000 Credits |
+| 16:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 16:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 16:00 | Scatter III | 1.250 | 250.000 Credits |
+| 17:00 | Rivet I | 12.500 | 1.250.000 Credits |
+| 17:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 17:00 | EMP Charge | 5 | 100.000 Credits |
+| 18:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 18:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 18:00 | Scatter II | 5.000 | 800.000 Credits |
+| 19:00 | Ember II | 5.000 | 800.000 Credits |
+| 19:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 19:00 | EMP Charge | 5 | 100.000 Credits |
+| 20:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 20:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 20:00 | Rivet I | 12.500 | 1.250.000 Credits |
+| 21:00 | Advanced Plasma | 25.000 | 500.000 Credits |
+| 21:00 | Ultra Core | 25.000 | 1.000.000 Credits |
+| 21:00 | Rivet II | 5.000 | 800.000 Credits |
+| 22:00 | Advanced Plasma | 10.000 | 200.000 Credits |
+| 22:00 | Ultra Core | 50.000 | 2.000.000 Credits |
+| 22:00 | Scatter III | 1.250 | 250.000 Credits |
+| 23:00 | EMP Charge | 5 | 100.000 Credits |
+| 23:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
+| 23:00 | Ember I | 12.500 | 1.250.000 Credits |
 
 <!-- market-day:end -->
 

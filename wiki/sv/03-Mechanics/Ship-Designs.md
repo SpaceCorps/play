@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
+<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -30,23 +30,23 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 
 1. **Forska fram den.** Varje design är en teknologi i skeppsträdet i forskningsvyn i din Skylab ([Forskning](/wiki/03-Mechanics/Research.md#ship-technologies)). Den tar 10 timmar och kräver 10 Dark Matter, och den kräver teknologin för sitt skepp och den för Dark Matter Plate. Forskningen tillverkar ännu ingenting.
 2. **Bygg om skeppet.** Avsnittet Designer i Monteringen listar de tretton ombyggnaderna. Välj en och bekräfta: jobbet hamnar i produktionskön och tar 10 minuter. Det blir klart av sig självt, och du behöver inte hämta det.
-3. **Betala.** En ombyggnad kostar Thulium, ungefär en fjärdedel av materialen i skeppets eget recept och Dark Matter Plates, som tabellen säger.
+3. **Betala.** En ombyggnad kostar Thulium, material och Dark Matter Plates, som tabellen säger.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100 000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100 000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100 000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100 000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100 000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100 000 | 20 | 375 | 65 | 20 | 3 |
 
 Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BUCKY eller LICH), och det får inte vara skeppet du flyger: gör först ett annat skepp aktivt. Ett vrak kan inte byggas om.
 
@@ -63,7 +63,7 @@ Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BU
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Alla fyra** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Tillsammans kräver de 490 Dark Matter, utöver de 414 som alla andra teknologier kräver: 904 för alla teknologier i spelet.
+Tillsammans kräver de 490 Dark Matter, utöver de 414 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 019 för alla teknologier i spelet.
 
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 
@@ -75,7 +75,7 @@ Tillsammans kräver de 490 Dark Matter, utöver de 414 som alla andra teknologie
 
 ## Utseende och storlek {#looks-and-size}
 
-Varje design har en egen modell, skeppets med några ändringar som visar vad den kan. De är slätt grå som skeppen, så att färg kan komma senare som skins. BUCKY och TITANIC är 20 % större, och ett större skepp är lättare att träffa med en raket. Hangaren märker en design med ett DESIGN-märke, och andra piloter ser dess namn i målfönstret och i dödsloggen.
+Varje design har en egen modell, skeppets med några ändringar som visar vad den kan. De är slätt grå som skeppen tills de bär en [skin](/wiki/06-Items/Cosmetics.md): en design bär skinsen för skeppet den är gjord av, och en ombyggnad behåller utseendet. BUCKY och TITANIC är 20 % större, och ett större skepp är lättare att träffa med en raket. Hangaren märker en design med ett DESIGN-märke, och andra piloter ser dess namn i målfönstret och i dödsloggen.
 
 ## Butik, Auktion och poäng {#shop-auction-and-points}
 

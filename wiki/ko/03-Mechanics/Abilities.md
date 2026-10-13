@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: 능력 -->
 # 함선 액티브 능력 {#active-ship-abilities}
 
@@ -43,7 +43,7 @@
 
 ### Shield Surge(실드), `Q` 키 {#shield-surge-shields-key-q}
 
-10초 동안 함선의 실드가 **수리**됩니다. Surge는 최대 실드의 일정 비율을 고르게 회복시키며, 최대치까지만 채우고 그 위로는 올리지 않습니다. 방벽이 아니므로 공격이 나뉘는 방식을 바꾸지 않습니다. 실드를 되돌려 놓을 뿐이고, 되돌려 놓은 실드는 그대로 남습니다. 피격당해도 멈추지 않습니다(일반 재충전은 피격 후 15초를 기다리지만 Surge는 기다리지 않습니다). 실드가 가득 찬 함선은 얻는 것이 거의 없으므로, 실드가 줄어들 때 누르세요. 총량은 실드 코어 자체의 용량보다 적어지지 않으므로, 실드가 적은 함선도(최대치까지) 제대로 된 수리를 받습니다.
+10초 동안 함선의 실드가 **수리**됩니다. Surge는 최대 실드의 일정 비율을 고르게 회복시키며, 최대치까지만 채우고 그 위로는 올리지 않습니다. 방벽이 아니므로 공격이 나뉘는 방식을 바꾸지 않습니다. 실드를 되돌려 놓을 뿐이고, 되돌려 놓은 실드는 그대로 남습니다. 피격당해도 멈추지 않습니다(일반 재충전은 피격 후 15초를 기다리지만 Surge는 기다리지 않습니다). 실드가 가득 찬 함선은 얻는 것이 거의 없으므로, 실드가 줄어들 때 누르세요. 총량은 실드 코어 자체 용량의 60%보다 적어지지 않으므로, 실드가 적은 함선도(최대치까지) 제대로 된 수리를 받습니다.
 
 - 안전 지대의 보호 안에서와 실드가 전혀 없는 함선에서는 거부되므로, 잘못 눌러서 능력을 허비하는 일이 없습니다.
 - 관통 로켓은 예전처럼 여전히 실드를 일부 우회합니다.
@@ -89,16 +89,16 @@
 
 | 능력 | 등급 | 아이템 | 효과(모듈 1개) | 지속 시간 | 재사용 대기 | 가동률 |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | 최대 실드의 30% 회복 | 10초 | 120초 | 8.3% |
-| **Shield Surge** | II | Basic Shield Core | 최대 실드의 60% 회복 | 10초 | 105초 | 9.5% |
-| **Shield Surge** | III | Heavy Shield Core | 최대 실드의 100% 회복 | 10초 | 90초 | 11.1% |
+| **Shield Surge** | I | Light Shield Core | 최대 실드의 18% 회복 | 10초 | 120초 | 8.3% |
+| **Shield Surge** | II | Basic Shield Core | 최대 실드의 36% 회복 | 10초 | 105초 | 9.5% |
+| **Shield Surge** | III | Heavy Shield Core | 최대 실드의 60% 회복 | 10초 | 90초 | 11.1% |
 | **Afterburner** | I | Engine I | 속도 +30% | 10초 | 120초 | 8.3% |
 | **Afterburner** | II | Engine II | 속도 +45% | 10초 | 105초 | 9.5% |
 | **Afterburner** | III | Engine III | 속도 +60% | 10초 | 90초 | 11.1% |
-| **Emergency Repair** | I | Repair Drone I | 최대 선체의 20% 회복 | 10초 | 120초 | 8.3% |
-| **Emergency Repair** | II | Repair Drone II | 최대 선체의 25% 회복 | 10초 | 105초 | 9.5% |
-| **Emergency Repair** | III | Repair Drone III | 최대 선체의 32% 회복 | 10초 | 90초 | 11.1% |
-| **Emergency Repair** | IV | Repair Drone IV | 최대 선체의 40% 회복 | 10초 | 75초 | 13.3% |
+| **Emergency Repair** | I | Repair Drone I | 최대 선체의 12% 회복 | 10초 | 120초 | 8.3% |
+| **Emergency Repair** | II | Repair Drone II | 최대 선체의 15% 회복 | 10초 | 105초 | 9.5% |
+| **Emergency Repair** | III | Repair Drone III | 최대 선체의 19.2% 회복 | 10초 | 90초 | 11.1% |
+| **Emergency Repair** | IV | Repair Drone IV | 최대 선체의 24% 회복 | 10초 | 75초 | 13.3% |
 
 한 구성에 같은 종류의 모듈이 여러 개이면, 가장 낮은 등급이 위의 효과와 재사용 대기시간을 정하고 나머지는 하나마다 그 50%를 더합니다.
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-Engine II와 등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I, Basic Shield Core, Engine II를 재료로, Thulium, 드롭 아이템, 그리고 플레이트(Engine II에는 Velkonite Reinforced Plate 2개, 나머지에는 Dark Matter Plate 3개: [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
+Engine II와 등급 III의 실드와 엔진(Heavy Shield Core, Engine III)은 판매하지 않습니다. [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I, Basic Shield Core, Engine II를 재료로, Thulium, 드롭 아이템, 그리고 플레이트(Engine II에는 Velkonite Reinforced Plate 4개, 나머지에는 Dark Matter Plate 4개와 Ancient Control Unit 1개: [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 직접 만듭니다. Emergency Repair에는 네 번째 등급인 Repair Drone IV가 있습니다.
 
 ## 재사용 대기시간과 제한 {#cooldowns-and-limits}
 

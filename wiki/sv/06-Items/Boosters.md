@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,7 +38,7 @@ Boosters använder ett additivt skalningssystem:
 1. **Procentbonusar läggs ihop**: Köper du två olika boosters som båda ger +10 % laserskada får du en total bonus på **+20 % laserskada**.
 2. **Varaktigheter staplas multiplikativt**: Köper du _samma_ booster flera gånger förlängs dess aktiva tid. Tidtagarna för _olika_ boosters löper parallellt.
 3. **Tidsvy**: Aktiva boosters visas i HUD:en i fönstret Boosters, med de sammanlagda aktiva bonusarna grupperade och nästa utgångshändelse.
-4. **Siffrorna räknar med dem**: skada, sköldar, sköldåterladdning, absorption, fart och skrov i Hangaren, och din pilotsida, inkluderar dina aktiva boosters, dina säsongsbutiksbuffar och din klans boosts; en liten etikett *med boosters* på kortet med stridsvärden visar det. Genomträngning, kritchans och räckvidd ändras inte av boosters.
+4. **Siffrorna räknar med dem**: skada, sköldar, sköldåterladdning, absorption, fart och skrov i Hangaren, och din pilotsida, inkluderar dina aktiva boosters, dina säsongsbutiksbuffar, din klans boosts och dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md); en liten etikett *med boosters* på kortet med stridsvärden visar det. Genomträngning, kritchans och räckvidd ändras inte av boosters.
 
 ---
 
@@ -71,7 +71,7 @@ Sköldar har tre separata värden, och varje sköldförstärkning höjer exakt e
 
 | Slag | Vad det är | Förstärkningar som höjer det |
 | :--- | :--- | :--- |
-| **Sköldkapacitet** | Dina maximala sköldpoäng | Shield Wall Booster I, Shield Wall Booster II, den permanenta buffen **Shield Capacity Boost** (säsongsbutiken) |
+| **Sköldkapacitet** | Dina maximala sköldpoäng | Shield Wall Booster I, Shield Wall Booster II, den permanenta buffen **Shield Capacity Boost** (säsongsbutiken), sköldboosten hos en dockad [P.E.T.](/wiki/03-Mechanics/Pets.md) |
 | **Sköldabsorption** | Den andel av varje träff som dina sköldar tar (resten träffar skrovet); den kan passera 100 % | Den permanenta buffen **Shield Absorbance Boost** (säsongsbutiken): +0,1 punkter per nivå för 25 WP, högst +10 punkter. Ingen booster höjer den |
 | **Sköldladdning** | Sköldpoäng som återställs per sekund | Shield Regen Booster. Ingen permanent buff höjer den |
 

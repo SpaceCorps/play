@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ La Wraith è la suprema nave di classe corazzata, con una potenza di fuoco senza
 
 ## Storia {#lore}
 
-Frutto di una ricerca segreta di operazioni black ops, la corazzata Wraith rappresenta l’apice dell’ingegneria dei dreadnought. La sua propulsione a materia oscura e le fitte reti energetiche le permettono di schierare contemporaneamente più batterie laser ad alta potenza. Estremamente rara e costosa, la vista di una Wraith sui sensori basta a far tornare indietro anche i capitani pirata più esperti. Esce dall’Assemblaggio in un semplice grigio, e così i suoi design.
+Frutto di una ricerca segreta di operazioni black ops, la corazzata Wraith rappresenta l’apice dell’ingegneria dei dreadnought. La sua propulsione a materia oscura e le fitte reti energetiche le permettono di schierare contemporaneamente più batterie laser ad alta potenza. Estremamente rara e costosa, la vista di una Wraith sui sensori basta a far tornare indietro anche i capitani pirata più esperti. Esce dall’Assemblaggio in un semplice grigio, e così i suoi design, finché una skin non li dipinge.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -9,6 +9,7 @@ Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bünd
 - Jeder Clan hat eine **Clan-Seite**, die jeder Pilot seiner Welt öffnen kann: Level, Piloten, Anführer, Beschreibung, Discord-Link, Voraussetzungen, gemeinsame Punkte und Boni ([Die Clan-Seite](#the-clan-page)). Der Anführer und die Stellvertreter richten sie im **Management** ein ([Management](#management)).
 - Ein Clan hat eine **Welt** (die seines Gründers), nimmt nur Piloten dieser Welt auf, und **der Wipe löst ihn samt Kasse auf**: Zahle die Flottenkasse aus, bevor der Countdown abläuft ([der Wipe](#the-wipe-disbands-every-clan)).
 - Der Anführer und die Stellvertreter schreiben [Beiträge](#clan-posts) für den ganzen Clan, jedes Mitglied sieht, [auf welcher Karte](#where-your-clan-mates-are) die anderen fliegen, das Fenster [Wer ist online](#who-is-online) (Taste **H**) lädt jeden Piloten deiner Welt in deine Gruppe ein, der Anführer kann einen [Tagesbonus](#4-daily-bonus) aus der Flottenkasse zahlen, und der Reiter [Protokoll](#fleet-log) erzählt dem Clan, was in ihm geschehen ist.
+- Im Flug öffnet die Schaltfläche **Clan** (ein Wimpel) in der Symbolleiste oben links das **Clan-Fenster**: die Clan-Seite der Station in einem Fenster über dem Spiel, mit denselben Reitern, Antworten und Schaltflächen; Position und Größe des Fensters werden gemerkt (ab Spielversion 0.4.21; [Einen Wächter rufen](#calling-a-warden) sagt, was im Flug anders ist).
 - Ein Krieg endet nur, wenn der andere Clan zustimmt, und eine Allianz oder ein Pakt endet sofort, wenn einer der beiden Clans sie kündigt ([Diplomatie](#diplomacy)).
 - Jeden Saisontag bekommt dein Clan eine [Tageslinie](#daily-line): vier Missionen der Reihe nach (Aliens abschießen, eine Strecke fliegen, an manchen Tagen Schwarm-Bosse erledigen), danach einen [Clan-Wächter](#clan-wardens), einen Boss, den du rufst und den nur dein Clan verletzen kann.
 - Jeder abgeschlossene Schritt zahlt sofort Clanpunkte: 15, 15, 20, 20 und 30, also **100 Punkte** für eine ganze Linie.
@@ -180,6 +181,8 @@ Ein **Beitrag** ist eine kurze Notiz für den ganzen Clan, ein schwarzes Brett f
 
 Die Spalte **Karte** in der Mitgliederliste zeigt den Sektor, in dem jeder Pilot deines Clans fliegt („T-2“), mit der Welt davor, wenn es nicht deine eigene ist („Beta · T-2“). Sie wird alle 10 Sekunden neu gelesen, solange die Liste offen ist. Gezeigt wird nur die **Karte**, nie Koordinaten, und nichts wird gespeichert. Ein Pilot, der **angedockt oder abgemeldet** ist, steht auf **Offline**, ebenso ein Pilot, dessen getarntes Schiff du auf einer Karte nicht sehen könntest ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): Ein Clan hebt keine Tarnung auf.
 
+Die Spalte **Skylab** daneben zeigt, wo das [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) jedes Piloten auf der Universumkarte ist, mit dem Code der Zelle: „Angedockt in H3“ im Hafen eines Konzerns, „H3, nach K7 in 3 h 12 min“ auf einer Reise (die Zelle, die es zuletzt passiert hat, das Ziel und die verbleibende Zeit), „Stationiert in K7“, solange es jagt, und „Zerstört in H3“, wenn seine Hülle aufgebraucht ist. Sie wird zusammen mit der Spalte Karte gelesen, und ein Pilot, der noch keine Universumkarte hat (ein Kern unter Level 15), zeigt einen Strich. Die Spalte erscheint, sobald ein Pilot deines Clans eine hat. Nur dein eigener Clan sieht sie, und eine Tarnung verbirgt ein Skylab nicht. Eine Zerstörung zeigt sich erst, wenn ihr Pilot das Skylab wieder angesehen oder ihm einen Befehl gegeben hat.
+
 ## Wer ist online {#who-is-online}
 
 Die Schaltfläche **Wer ist online** in der System-Symbolleiste (oben rechts) oder die Taste **H** (in Einstellungen › Steuerung belegbar) öffnet das Fenster **Piloten online**.
@@ -279,7 +282,7 @@ Ein **Clan-Wächter** ist der Boss am Ende der Tageslinie. Er ist keiner der öf
 
 - **Wann.** Nachdem Schritt 4 erledigt ist. Ein Clan hat **zwei Rufe pro Tag**, es ist immer nur ein Wächter gleichzeitig draußen, und vom Tag müssen noch **mindestens 30 Minuten** übrig sein.
 - **Wer.** Der Anführer oder ein Stellvertreter.
-- **Wie.** Im Flug: Der Knopf **Hier rufen** erscheint auf dem Flugbildschirm, sobald Schritt 4 erledigt ist, und lässt dich bestätigen. Sei außerhalb der Schutzzonen, in einem Konzernsektor **x-2, x-3 oder x-4** (eines beliebigen Konzerns) deiner Welt. Der Reiter Einsätze zeigt den Wächter des Tages, die übrigen Rufe und warum der Knopf ausgegraut ist, aber ein Wächter wird vom Schiff aus gerufen.
+- **Wie.** Im Flug: Der Knopf **Hier rufen** erscheint auf dem Flugbildschirm, sobald Schritt 4 erledigt ist, und lässt dich bestätigen. Sei außerhalb der Schutzzonen, in einem Konzernsektor **x-2, x-3 oder x-4** (eines beliebigen Konzerns) deiner Welt. Der Reiter Einsätze (auf der Clan-Seite der Station oder im Clan-Fenster im Flug) zeigt den Wächter des Tages, die übrigen Rufe und warum der Knopf ausgegraut ist. An der Station ist er immer ausgegraut, denn ein Wächter wird vom Schiff aus gerufen; im Clan-Fenster ist er der Knopf selbst, ausgegraut innerhalb einer Schutzzone und außerhalb der Konzernsektoren x-2 bis x-4, mit dem Grund des Servers.
 - **Wo er erscheint.** 3.000 bis 4.500 Einheiten von deinem Schiff entfernt, in deiner Welt: Nur Piloten dieser Welt erreichen ihn. Der Reiter empfiehlt **x-2 für einen Rekruten-Clan, x-3 für Veteranen und x-4 für Elite**. Die üblichen [PvP-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) des gewählten Sektors gelten weiter.
 - **Aufwärmen.** Er steht **90 Sekunden** lang abgeschirmt und passiv da („fährt hoch“), und jeder Clanpilot, der online ist, erfährt, wo. Flieg hin, während er hochfährt: Nach den 90 Sekunden ist er kampfbereit. Eine Kapsel unter der Schutzzonen-Anzeige auf dem Flugbildschirm begleitet ihn: sein Name, „fährt hoch“ mit der Restzeit, dann „kampfbereit“ mit seinem Sektor und der Zeit bis zum Rückzug, und „rasend“, sobald ein Wrath Warden unter der halben Hülle ist.
 - **Nur dein Clan.** Die Schüsse von Piloten anderer Clans werden ignoriert und bringen ihn nicht dazu, zurückzuschießen.

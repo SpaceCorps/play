@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7ed6ed3056da695a -->
+<!-- wiki-i18n source: 4f66b153ada889fa -->
 <!-- wiki-i18n title: Drónok -->
 # Drónmechanika {#drone-mechanics}
 
@@ -24,7 +24,7 @@ A drónok kicsik, és közel maradnak: egy 8. szintű drón körülbelül 19,5 e
 
 Viselj egy [drónformációt](/wiki/03-Mechanics/Formations.md), és a drónok elhagyják ezt az elrendezést: **a 16 formáció mindegyikének saját alakzata van**, egy tető a szárnyak fölött, egy rombusz, egy szív, szárnyak, egy kard, egy fúró és más, és a drónok egy másodpercnél rövidebb idő alatt átsiklanak oda. Az alakzat a meglévő drónjaidra épül, legfeljebb 8-ra, és együtt fordul a hajóddal. A többi pilóta is látja. A [Hogyan repülnek](/wiki/03-Mechanics/Formations.md#how-they-fly) mind a tizenhatot megmutatja. Viseld az **Alap**-ot, a gyorssáv Formációk listájának azt a tételét, amely nem formáció, és a drónok újra a „Wingman” elrendezésben repülnek.
 
-A drónokat kikapcsolhatod a Beállítások › Felület alatt: a **Saját drónok mutatása** a tieidre, az **Ellenséges drónok mutatása** a többi pilóta drónjaira vonatkozik.
+A drónokat kikapcsolhatod a Beállítások › Felület alatt: a **Saját drónok mutatása** a tieidre, az **Ellenséges drónok mutatása** a többi pilóta drónjaira vonatkozik. A drónok **festést** is viselnek: a hangár Drónok nézetében választod ki, és a **Más pilóták megjelenésének mutatása** dönti el, látod-e más pilóták drónjainak festését ([Kozmetika](/wiki/06-Items/Cosmetics.md#drone-liveries)).
 
 ## Felszerelés és értékek {#equipment-stats}
 
@@ -92,7 +92,7 @@ A görbe úgy van beállítva, hogy egy új drón nagyjából egy óra normál j
 
 ### Master Drone
 
-Egy Slave Drone **Master Drone**-ná válik, ha a Gyártásban továbbfejleszted, miután a Master Drone technológiáját kikutattad ([Kutatás](/wiki/03-Mechanics/Research.md)). A recept ára 40 000 Thulium és 100 Ship Fragment, 60 másodpercig tart, és nem használ el drónt: **te választod ki, melyik Slave Drone legyen** (a választó mutatja mindegyik szintjét és XP-jét), és ugyanaz a drón a sorszámával, a drónfoglalatával és mindennel, ami beleszerelve van, Master Drone-ná alakul, amikor a munka véget ér, egy második, üres foglalattal. A leltáradba nem kerül semmi, és nincs mit átvenni: a Játéknapló jelzi, ha elkészült, akkor is, ha a fejlesztés olyankor fejeződött be, amikor nem voltál ott.
+Egy Slave Drone **Master Drone**-ná válik, ha a Gyártásban továbbfejleszted, miután a Master Drone technológiáját kikutattad ([Kutatás](/wiki/03-Mechanics/Research.md)). A recept ára 50 000 Thulium, 250 Ship Fragment és 20 Dark Matter Plate, 60 másodpercig tart, és nem használ el drónt: **te választod ki, melyik Slave Drone legyen** (a választó mutatja mindegyik szintjét és XP-jét), és ugyanaz a drón a sorszámával, a drónfoglalatával és mindennel, ami beleszerelve van, Master Drone-ná alakul, amikor a munka véget ér, egy második, üres foglalattal. A leltáradba nem kerül semmi, és nincs mit átvenni: a Játéknapló jelzi, ha elkészült, akkor is, ha a fejlesztés olyankor fejeződött be, amikor nem voltál ott.
 
 **A szintje és az XP-je 0-ra áll vissza, amikor a fejlesztés véget ér.** A Master Drone újra az 1. szinten indul, XP nélkül, és úgy lép szintet, ahogy a Slave Drone (lásd a fenti táblázatot); az addigi szintjével járó lézerbónusz is elvész. A Gyártás indítás előtt szól erről, és megerősítést kér, megnevezve a drónt, ha van XP-je. Az alapértelmezett választás a legkevesebb XP-vel rendelkező drón.
 

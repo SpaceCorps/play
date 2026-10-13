@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
@@ -11,6 +11,7 @@ Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekun
 - **Explosioner är starkast i mitten.** Ember- och Scatter-raketer briserar och skadar varje skepp inom ringen: hela talet i mitten, hälften av det vid kanten.
 - **En timer för alla.** Efter varje avfyrning väntar du 3 sekunder till nästa, vilken raket det än är. Bara N.U.K.E. och N.I.K.E. får dig att vänta längre (4,1 och 4,6 sekunder), eftersom de är så länge i luften.
 - **Målsökande eller rak.** En målsökande raket (Lancet, Ember) behöver ett mål du har valt. En rak (Rivet, Scatter) flyger mot din muspekare.
+- **En sak till bärs som en raket.** **EMP Charge** är en förbrukningsvara: en hög i ditt inventarie, som används från snabbfältet och inte tar någon plats ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Varje typ är en **familj** som har namn efter sin vanliga raket, och nivån är
 - **Målsökande** raketer kräver ett valt mål inom sin **låsräckvidd** när de avfyras. De styr efter det med begränsad svängtakt, så ett snabbt skepp långt borta kan köra ifrån en billig raket. Om målet förstörs, lämnar området eller når en säker zon fortsätter raketen rakt fram och väljer inget nytt.
 - **Raka** raketer behöver inget mål och ignorerar det du har valt: de flyger alltid mot din **markör**, mot punkten under den i flygvyn. **Klicka på platsen för en rak raket för att armera den** (platsen får en vit ram och ett hårkors, och din muspekare blir ett hårkors över rymden), sedan **klicka i rymden**: raketen flyger mot punkten du klickade på och ditt skepp stannar där det är. Esc, ett högerklick eller samma plats igen släpper den. Om raketerna fortfarande laddas om säger klicket bara det, och raketen förblir armerad. Siffertangenterna och **Avfyra raket** skjuter direkt mot den sista punkt markören hade i flygvyn; innan markören har varit där flyger de dit ditt skepp **pekar**. De flyger rakt, så ett skepp som korsar i fart kan väja undan dem.
 - En raket med **enkelmål** träffar det första skepp den får träffa (en målsökande bara sitt mål). En raket med **områdesskada** exploderar bredvid det första skepp den möter, vid den punkt du siktade på, eller där dess flykt tar slut, och skadar varje skepp inom sin **explosionsradie**: full skada i mitten, hälften av den vid kanten. Ringen som explosionen ritar på kartan är dess exakta räckvidd.
-- **Asteroider.** En raket som avfyras mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) flyger mot den, och den första asteroiden i vägen för vilken raket som helst stoppar den och tar träffen i stället för skeppet bakom ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). De tolv raketerna i butiken och N.U.K.E. kan spränga en; N.I.K.E. kan inte avfyras mot en och flyger över dem. Dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp: raketen är verktyget för det jobbet.
+- **Asteroider.** En raket som avfyras mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) flyger mot den, och den första asteroiden i vägen för vilken raket som helst stoppar den och tar träffen i stället för skeppet bakom ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). En [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) stoppar en raket på samma sätt; N.I.K.E. flyger över den. De tolv raketerna i butiken och N.U.K.E. kan spränga en; N.I.K.E. kan inte avfyras mot en och flyger över dem. Dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp: raketen är verktyget för det jobbet.
 
 ## De tolv raketerna {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som �
 De tolv raketerna i den första tabellen köps (krediter för de vanliga och sällsynta, Thulium för de episka); N.U.K.E. och N.I.K.E. tillverkas.
 
 Se även: [Lasrar och ammunition](/wiki/06-Items/Lasers.md), [Strid](/wiki/03-Mechanics/Combat.md), [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+**EMP Charge** bär du som en raket, men den är ingen raket: den är en **förbrukningsvara**. Du köper den i butiken för **500 Thulium** per laddning och bär upp till **20** i en hög (det du har lagt ut på [Auktionen](/wiki/03-Mechanics/Auction.md) räknas med), och snabbfältets val **Förbrukningsvaror** visar den med antalet du bär. Den tar **ingen plats** på något skepp; fram till 0.4.21 var den [extrautrustning](/wiki/06-Items/Extras.md) och varje laddning fyllde en extraplats. En laddning väger 250 i transportförrådet.
+
+Tryck på platsen EMP under en strid. I **3 sekunder** kan ingen låsa på dig, och **alla som var låsta på dig förlorar låsningen** direkt, var de än är: piloter, utomjordingar och koncernpiloter. En pilot vars målfixering bryts får veta ”Målfixering förlorad: målet använde en EMP”. Den som försöker låsa på under de 3 sekunderna nekas.
+
+- **Det är inte osårbarhet.** Den stoppar det som kräver en målfixering: lasrar, målsökande raketer och beröringen från en rak raket med enkelmål, som flyger rakt igenom dig. En raket med **områdesskada** kräver ingen målfixering, så den skadar dig ändå om du är inom den, och det svarta hålet är inte ett skott alls.
+- **Du kan fortfarande agera.** Att skjuta avslutar den inte. Du kan kamouflera dig (om kamouflagets egna regler tillåter det) och använda annan extrautrustning.
+- **Den avslutar kamouflage i närheten.** Varje skepp som är kamouflerat inom **1 500 enheter** från dig när pulsen går av syns direkt och dess CPU börjar sina 60 sekunders omladdning, oavsett vilken koncern det tillhör, din egen inräknad; skeppen i din egen [grupp](/wiki/03-Mechanics/Groups.md) är undantaget: de behåller sitt kamouflage. Piloten får veta ”Kamouflage bruten: en EMP utlöstes i närheten.”, ser skeppet dyka upp igen med samma krusning som vid varje annat avslöjande, och platsen börjar sin omladdning. Du kan inte använda en EMP medan du själv är kamouflerad.
+- **Den döljer ingenting.** Alla ser dig fortfarande, med ett knitrande elektriskt skal under de 3 sekunderna.
+- **Du kan inte använda den** medan en säker zon skyddar dig, medan du är kamouflerad eller inom **30 sekunder** efter den förra. Den fungerar överallt annars, även de första dagarna av en säsong (Fredsprotokollet): utomjordingar jagar fortfarande då.
+- En utomjording du träffar under de 3 sekunderna vänder sig inte mot dig förrän de är över. Dina pax och reglerna om första träffen ändras inte.
+- **Vad du ser.** En puls av böjt rum rusar ut från piloten så långt som pulsen avslutar kamouflage (1 500 enheter), alla inom räckhåll ser den, och ett knitrande elektriskt skal omger skeppet under de 3 sekunderna, med en ring runt ditt eget skepp och en bricka högst upp på skärmen som räknar tiden. Målringen hos alla som hade valt dig bryts sönder, med ett kort knäpp. Platsen EMP visar de laddningar du äger, lyser blått medan skalet är uppe och mörknar medan den laddas om.
+- **Ett tryck, en laddning.** Ett tryck förbrukar en laddning ur din hög; finns ingen kvar nekas det (”Inga EMP Charge kvar.”). Laddningar i transportförrådet hör till nästa säsong och kan inte användas. Liksom raketer går laddningarna du bär förlorade med säsongen om du inte lägger dem i transportförrådet. De **30 sekunderna** av omladdning sparas inte: att logga ut eller hoppa genom en portal nollställer dem, och nästa puls kostar en laddning.

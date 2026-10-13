@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Boosterek -->
 # Boosterek {#boosters}
 
@@ -38,7 +38,7 @@ A boosterek additív skálázási rendszert használnak:
 1. **A bónuszszázalékok összeadódnak**: ha két különböző boostert veszel, amelyek mindegyike +10% lézersebzést ad, összesen **+20% lézersebzést** kapsz.
 2. **Az időtartamok szorzódva halmozódnak**: ha _ugyanazt_ a boostert többször megveszed, meghosszabbodik az aktív ideje. A _különböző_ boosterek időzítői párhuzamosan futnak.
 3. **Időzítőnézet**: az aktív boosterek a HUD Boosterek ablakában jelennek meg, az összesített, csoportosított aktív bónuszokkal és a következő lejárattal.
-4. **A számok beleszámítják őket**: a Hangár sebzése, pajzsa, pajzs-újratöltődése, elnyelése, sebessége és hajótestje, valamint a pilótaoldalad tartalmazza a futó boostereidet, a szezonbolti buffjaidat és a klánod boostjait; egy kis *boosterekkel* címke a harci statisztikák kártyáján jelzi ezt. Az áthatolást, a kritikus esélyt és a hatótávot a boosterek nem változtatják.
+4. **A számok beleszámítják őket**: a Hangár sebzése, pajzsa, pajzs-újratöltődése, elnyelése, sebessége és hajótestje, valamint a pilótaoldalad tartalmazza a futó boostereidet, a szezonbolti buffjaidat, a klánod boostjait és a dokkolt [P.E.T.-eidet](/wiki/03-Mechanics/Pets.md); egy kis *boosterekkel* címke a harci statisztikák kártyáján jelzi ezt. Az áthatolást, a kritikus esélyt és a hatótávot a boosterek nem változtatják.
 
 ---
 
@@ -71,7 +71,7 @@ A pajzsnak három külön értéke van, és minden pajzsboost pontosan egyet nö
 
 | Fajta | Mi ez | Mi növeli |
 | :--- | :--- | :--- |
-| **Pajzskapacitás** | A pajzspontjaid maximuma | Shield Wall Booster I, Shield Wall Booster II, az állandó **Shield Capacity Boost** (Szezonbolt) |
+| **Pajzskapacitás** | A pajzspontjaid maximuma | Shield Wall Booster I, Shield Wall Booster II, az állandó **Shield Capacity Boost** (Szezonbolt), egy dokkolt [P.E.T.](/wiki/03-Mechanics/Pets.md) pajzs-boostja |
 | **Pajzselnyelés** | A találatok azon része, amelyet a pajzsaid felfognak (a többit a hajótest kapja); meghaladhatja a 100%-ot | Az állandó **Shield Absorbance Boost** (Szezonbolt): szintenként +0,1 pont 25 WP-ért, legfeljebb +10 pont. Booster nem növeli |
 | **Pajzstöltődés** | Másodpercenként visszatöltődő pajzspontok | Shield Regen Booster. Állandó buff nem növeli |
 

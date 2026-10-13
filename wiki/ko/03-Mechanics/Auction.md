@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: 경매장 -->
 # 경매장 {#auction}
 
-경매장은 파일럿들의 시장이자 게임이 직접 여는 매시간의 로트를 정거장 메뉴의 한 페이지에 모은 곳입니다. 상점처럼 정거장의 페이지이므로 도킹한 상태에서 사용하며, 비행 중에는 쓸 수 없습니다. 네 부분이 있습니다. **시장**은 다른 파일럿들이 팔고 있는 것입니다. **로트**는 게임이 직접 내놓는 물건으로, 매시간 세 개씩입니다. **내 등록**은 내가 직접 팔고 있는 것입니다. **내역**은 나의 판매, 구매, 낙찰받은 로트, 그리고 거래 성과입니다.
+경매장은 파일럿들의 시장이자 게임이 직접 여는 매시간의 로트를 정거장 메뉴의 한 페이지에 모은 곳입니다. 비행 중에는 창으로 열립니다. 왼쪽 위 툴바의 **경매장** 버튼(망치)이 같은 페이지를 게임 위에 보여 주고, 창의 위치와 크기는 기억됩니다. 정거장에서와 똑같이 동작하지만, 탄약, 로켓, EMP Charge는 비행 중에 함선이 수를 세므로 정거장에서 등록해야 합니다(판매 창에는 잠긴 채 이유와 함께 표시됩니다). 구매와 입찰은 어디서든 할 수 있습니다. 다섯 부분이 있습니다. **시장**은 다른 파일럿들이 팔고 있는 것입니다. **로트**는 게임이 직접 내놓는 물건으로, 매시간 세 개씩입니다. **Davidski**는 날아다니는 상인의 재고로, 경매장이 다루는 모든 종류를 상점 가격의 몇 배나 되는 값에 팔며, 상점이 팔지 않는 것은 그에게서 사는 것이 최후의 수단일 만큼 비싸고, 제작에 쓰이는 희귀 자원은 거기에 다시 천 배를 받습니다([Davidski](/wiki/03-Mechanics/Davidski.md)). **내 등록**은 내가 직접 팔고 있는 것입니다. **내역**은 나의 판매, 구매, 낙찰받은 로트, 그리고 거래 성과입니다.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@
 - 경매장에서 등록, 구매, 입찰을 하려면 **레벨 5** 이상이어야 합니다.
 - 등록 가격은 묶음 하나당, 정수 크레딧이나 정수 Thulium 중 하나로 정하며(둘 다는 안 됩니다), 그 아이템의 최저 가격 아래로는 내려갈 수 없습니다. **최고 가격은 없습니다.**
 - Thulium 가격은 크레딧 최저 가격을 환율(1,000 크레딧당 1 Thulium)로 나누어 올림한 값 이상이어야 하며, 최저 가격이 1 Thulium 이상이 되는 아이템에만 적용됩니다. 환율이 하는 일은 그것뿐입니다. **1 Thulium = 1,000 크레딧은 최저 가격을 정하는 규칙일 뿐 환율이 아닙니다.** 아무것도 교환되지 않고, 가치도 표시되지 않으며, 크레딧과 Thulium은 절대 합산되지 않습니다.
-- 82종류를 등록할 수 있고, 그중 81종류는 Thulium으로도 가격을 정할 수 있습니다.
+- 83종류를 등록할 수 있고, 그중 82종류는 Thulium으로도 가격을 정할 수 있습니다.
 - 등록 기간은 168 / 336 / 504시간 중에서 고를 수 있으며, 선택지는 모든 레벨에서 같습니다.
 - **보증금**은 등록이 진행되는 24시간마다 가격의 0.25%이며, 최소 50 크레딧 또는 1 Thulium입니다. 등록할 때 내며, 등록을 취소해도 돌려받지 못합니다.
 - 레벨 10부터는 보증금이 0.4%입니다.
@@ -26,7 +26,7 @@
 
 ## 거래 가능한 아이템 {#marketable-items}
 
-팔 수 있는 것은 **직접 얻은** 아이템뿐입니다. 얻은 것에는 모두 [격납고](/wiki/03-Mechanics/Inventory.md#marketable-items)에서 작은 **거래 가능** 표시가 붙습니다. 우주에서 주운 것(에일리언, 무리, Warden, 블랙홀의 드롭: [화물](/wiki/03-Mechanics/Cargo.md)), 미션이 지급하는 것([퀘스트](/wiki/03-Mechanics/Quests.md#rewards)), 그리고 어셈블리와 대장간이 만든 모든 것이 그렇습니다. 상점에서 **구매한** 것, 로트에서 낙찰받은 것, 시장에서 산 것, 보너스 코드·초대 패키지·스타터 키트로 받은 것, 환불로 돌려받은 것은 거래 가능이 아니며 다시는 팔 수 없습니다. 그래서 되팔려고만 사는 일이 없습니다. Skylab의 단조소가 만드는 플레이트도 거래 가능이 아니지만, 미션이 지급하는 Reinforced Plate는 거래 가능합니다. Skylab의 탄약 프린터와 로켓 공장이 만드는 탄약과 로켓도 거래 가능이 아닙니다.
+팔 수 있는 것은 **직접 얻은** 아이템뿐입니다. 얻은 것에는 모두 [격납고](/wiki/03-Mechanics/Inventory.md#marketable-items)에서 작은 **거래 가능** 표시가 붙습니다. 우주에서 주운 것(에일리언, 무리, Warden, 블랙홀의 드롭: [화물](/wiki/03-Mechanics/Cargo.md)), 미션이 지급하는 것([퀘스트](/wiki/03-Mechanics/Quests.md#rewards)), 그리고 어셈블리와 대장간이 만든 모든 것이 그렇습니다. 상점에서 **구매한** 것, 로트에서 낙찰받은 것, 시장에서 산 것, [Davidski](/wiki/03-Mechanics/Davidski.md)에게서 산 것, 보너스 코드·초대 패키지·스타터 키트로 받은 것, 환불로 돌려받은 것은 거래 가능이 아니며 다시는 팔 수 없습니다. 그래서 되팔려고만 사는 일이 없습니다. Skylab의 단조소가 만드는 플레이트도 거래 가능이 아니지만, 미션이 지급하는 Reinforced Plate는 거래 가능합니다. Skylab의 탄약 프린터와 로켓 공장이 만드는 탄약과 로켓도 거래 가능이 아닙니다.
 
 표시는 스위치가 아니라 유닛 수입니다. 탄약 묶음에는 산 것과 얻은 것이 섞여 있을 수 있고, 카드에는 “거래 가능 (3/5)”라고 나옵니다. 묶음의 일부를 쓸 때(발사, 제작)는 일반 유닛이 먼저 줄어들어 거래 가능한 것이 가장 오래 남습니다. [대장간](/wiki/06-Items/Forge.md#merge)에서 두 품목을 병합하면 두 품목 모두 표시가 있었을 때만 표시가 남고, 미리 보기가 그렇게 알려 줍니다. 실패한 대장간 단계는 재료를 일반 유닛으로 돌려줍니다.
 
@@ -50,13 +50,14 @@
 | **추진기** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **레이저 탄약** | Standard Battery (100개 묶음), Siphon Battery (10개 묶음), Advanced Plasma (10개 묶음), Ultra Core (10개 묶음), Experimental Fusion Core | 5 |
 | **로켓** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **소모품** | EMP Charge | 1 |
+| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **선체 장갑** | Hull Plating II, Hull Plating III | 2 |
 | **자원** | Cataclysite (100개 묶음), Ship Fragment (100개 묶음), Daraxium (100개 묶음), Nyxite (100개 묶음), Quorvium (10개 묶음), Reinforced Hull Plate (10개 묶음), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-함선, 드론, 드론 포메이션, 부스터, 구독은 팔 수 없고, Ancient Control Unit, 광석인 Velkonite와 Orvium, Dark Matter Plate, Jump CPU, Extra Slots CPU, N.U.K.E., N.I.K.E.도 팔 수 없습니다. Dark Matter Plate는 상품으로도 가격으로도 경매장에 전혀 나오지 않습니다. 장착 중인 아이템, 다른 아이템에 끼워진 아이템, 모듈이 들어 있는 아이템, [수송 보관함](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)에 있는 아이템은 등록할 수 없고, 사용한 Cloaking CPU, EMP Charge, Base CPU도 등록할 수 없습니다. 탄약과 로켓은 정거장에서 팝니다. 먼저 기체를 착륙시키세요.
+함선, 드론, 드론 포메이션, 부스터, 구독, [P.E.T.](/wiki/03-Mechanics/Pets.md)는 팔 수 없고, Ancient Control Unit, 광석인 Velkonite와 Orvium, Dark Matter Plate, Jump CPU, Extra Slots CPU, P.E.T. Station I~III, 세 가지 Cluster Chunk, Energetic Wall I, N.U.K.E., N.I.K.E.도 팔 수 없습니다. Dark Matter Plate는 상품으로도 가격으로도 경매장에 전혀 나오지 않습니다. 장착 중인 아이템, 다른 아이템에 끼워진 아이템, Skylab의 엔진 모듈이나 방어 모듈에 장착된 아이템, 모듈이 들어 있는 아이템, [수송 보관함](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)에 있는 아이템은 등록할 수 없고, 사용한 Cloaking CPU, EMP Charge, Base CPU도 등록할 수 없습니다. 탄약과 로켓은 정거장에서 팝니다. 먼저 기체를 착륙시키세요.
 
 ## 판매 {#selling}
 
@@ -70,11 +71,11 @@
 | 아이템 | 묶음 크기 | 최저 가격, 크레딧 | 최저 가격, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32,000 | 32 |
-| Quantum Laser III | 1 | 210,000 | 210 |
-| Helios Beam | 1 | 1,600,000 | 1,600 |
-| Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
-| Heavy Shield Core | 1 | 870,000 | 870 |
-| Impulse Thruster IV | 1 | 980,000 | 980 |
+| Quantum Laser III | 1 | 220,000 | 220 |
+| Helios Beam | 1 | 1,800,000 | 1,800 |
+| Absorption Shield Cell IV | 1 | 1,700,000 | 1,700 |
+| Heavy Shield Core | 1 | 1,300,000 | 1,300 |
+| Impulse Thruster IV | 1 | 1,600,000 | 1,600 |
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 
 | 등록 | 가격 | 보증금 | 세금 | 판매자가 받는 금액 |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: 레벨 6, 168시간 | 210,000 크레딧 | 3,675 크레딧 | 10,500 크레딧 | 199,500 크레딧 |
-| Quantum Laser III: 레벨 10, 336시간 | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III: 레벨 6, 168시간 | 220,000 크레딧 | 3,850 크레딧 | 11,000 크레딧 | 209,000 크레딧 |
+| Quantum Laser III: 레벨 10, 336시간 | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam: 레벨 12, 504시간 | 2,500,000 크레딧 | 210,000 크레딧 | 125,000 크레딧 | 2,375,000 크레딧 |
 | Helios Beam: 레벨 12, 504시간, 시즌 마지막 며칠 | 2,500,000 크레딧 | 0 크레딧 | 0 크레딧 | 2,500,000 크레딧 |
 
@@ -146,13 +147,13 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 
 ## 매시간의 로트 {#the-hourly-lots}
 
-로트는 게임이 직접 내놓는 물건으로, 탄약, 로켓, EMP Charge를 매시간 세 로트씩(동시에 열두 개가 열려 있습니다) 입찰로 팝니다. 상점보다 싸게 탄약을 구하는 방법이자, 낙찰가가 소멸되므로 싱크이기도 합니다. 아래 하루 표에 있는 로트만 열립니다(x1이나 x4 탄약, Siphon Battery, 특수 로켓은 절대 나오지 않습니다). 통화는 상점의 것입니다. 이미 무엇을 가지고 있든 어떤 로트에나 입찰할 수 있습니다. 낙찰받은 로트는 상점에서 살 수 있는 묶음 한도를 넘더라도 전부 내 것이 됩니다.
+로트는 게임이 직접 내놓는 물건으로, 탄약, 로켓, EMP Charge를 매시간 세 로트씩(동시에 열두 개가 열려 있습니다) 입찰로 팝니다. 상점보다 싸게 탄약을 구하는 방법이자, 낙찰가가 소멸되므로 싱크이기도 합니다. 아래 하루 표에 있는 로트만 열립니다(x1이나 x4 탄약, Siphon Battery, 특수 로켓은 절대 나오지 않습니다). **모든 로트는 크레딧으로 입찰합니다.** 상점이 그 상품에 어떤 통화를 요구하든 마찬가지입니다. 상점이 Thulium으로 파는 상품의 로트(예: x2·x3 탄약과 EMP Charge)는 그 Thulium 가격과 같은 가치의 크레딧(Thulium당 200 크레딧)으로 시작하므로, Thulium이 전혀 없어도 어떤 로트에나 입찰할 수 있습니다. 이미 무엇을 가지고 있든 어떤 로트에나 입찰할 수 있습니다. 낙찰받은 로트는 상점에서 살 수 있는 묶음 한도를 넘더라도 전부 내 것이 됩니다.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - UTC 정시마다 서로 다른 물품의 새 로트 3개가 열리고 각각 4시간 동안 열려 있어서, 동시에 12개가 열려 있습니다.
-- 시작가는 상품의 상점 가격의 20%입니다. 이후 입찰은 최고 입찰가보다 5% 이상 높아야 하고, 100 크레딧 또는 1 Thulium 이상 더 많아야 합니다.
+- 시작가는 상품의 상점 가격의 20%입니다. 이후 입찰은 최고 입찰가보다 5% 이상 높아야 하고, 100 크레딧 이상 더 많아야 합니다.
 - 입찰금은 즉시 지불되고 보관됩니다. 누군가 더 높게 부르면 즉시 돌려받습니다.
 - 로트 종료 전 마지막 2분 안에 입찰하면 종료가 입찰 2분 뒤로 미뤄지며, 최대 5번까지입니다.
 - 낙찰받은 것은 비행을 위한 것이지 거래를 위한 것이 아닙니다. 절대 거래 가능이 되지 않습니다. 낙찰가는 소멸됩니다. 아무도 입찰하지 않은 로트는 팔리지 않고, 누구에게도 비용이 들지 않습니다.
@@ -164,80 +165,80 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC 시각 | 로트 | 전체 크기 | 지불 통화 | 전체 크기일 때 시작가 |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 00:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 00:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 01:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 01:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 02:00 | Lancet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 02:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 03:00 | Lancet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 04:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 04:00 | Rivet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 05:00 | Rivet II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 05:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 06:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 06:00 | Ember II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 07:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 07:00 | Rivet II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 08:00 | Ember I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 08:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 09:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 09:00 | Ember II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 10:00 | Scatter II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 10:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 11:00 | Lancet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 12:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 12:00 | Scatter II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 13:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 13:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 14:00 | Ember I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 15:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 15:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 16:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 16:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 17:00 | Rivet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 17:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 18:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 18:00 | Scatter II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 19:00 | Ember II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 19:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 20:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 20:00 | Rivet I | 12,500 | 크레딧 | 1,250,000 크레딧 |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 21:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 21:00 | Rivet II | 5,000 | 크레딧 | 800,000 크레딧 |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 22:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 22:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 23:00 | Ember I | 12,500 | 크레딧 | 1,250,000 크레딧 |
+| UTC 시각 | 로트 | 전체 크기 | 전체 크기일 때 시작가 |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1,250 | 250,000 크레딧 |
+| 00:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 00:00 | Ultra Core | 10,000 | 400,000 크레딧 |
+| 01:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 01:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 01:00 | Lancet III | 1,250 | 250,000 크레딧 |
+| 02:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
+| 02:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 02:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 03:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 03:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 03:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
+| 04:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 04:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 04:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
+| 05:00 | Rivet II | 5,000 | 800,000 크레딧 |
+| 05:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 05:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 06:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 06:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 06:00 | Ember II | 5,000 | 800,000 크레딧 |
+| 07:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 07:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 07:00 | Rivet II | 5,000 | 800,000 크레딧 |
+| 08:00 | Ember I | 12,500 | 1,250,000 크레딧 |
+| 08:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 08:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 09:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 09:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 09:00 | Ember II | 5,000 | 800,000 크레딧 |
+| 10:00 | Scatter II | 5,000 | 800,000 크레딧 |
+| 10:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 10:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 11:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 11:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 11:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
+| 12:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 12:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 12:00 | Scatter II | 5,000 | 800,000 크레딧 |
+| 13:00 | Lancet III | 1,250 | 250,000 크레딧 |
+| 13:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 13:00 | Ultra Core | 10,000 | 400,000 크레딧 |
+| 14:00 | Ultra Core | 10,000 | 400,000 크레딧 |
+| 14:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 14:00 | Ember I | 12,500 | 1,250,000 크레딧 |
+| 15:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 15:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 15:00 | Lancet III | 1,250 | 250,000 크레딧 |
+| 16:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 16:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 16:00 | Scatter III | 1,250 | 250,000 크레딧 |
+| 17:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
+| 17:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 17:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 18:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 18:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 18:00 | Scatter II | 5,000 | 800,000 크레딧 |
+| 19:00 | Ember II | 5,000 | 800,000 크레딧 |
+| 19:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 19:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 20:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 20:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 20:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
+| 21:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 21:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
+| 21:00 | Rivet II | 5,000 | 800,000 크레딧 |
+| 22:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
+| 22:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
+| 22:00 | Scatter III | 1,250 | 250,000 크레딧 |
+| 23:00 | EMP Charge | 5 | 100,000 크레딧 |
+| 23:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
+| 23:00 | Ember I | 12,500 | 1,250,000 크레딧 |
 
 <!-- market-day:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
@@ -224,6 +224,7 @@ Le missioni risalgono i settori insieme al tuo livello:
 - **Un abbattimento conta per una missione di livello**: quella che stai seguendo, se può usarlo, altrimenti la prima delle tue missioni attive che può. In più conta per ogni Sfida che lo chiede, e ogni tuo passaggio con un oggetto della missione che aspetta quell’alieno tira il suo drop.
 - Un alieno che finisce un [pilota di corporazione](/wiki/03-Mechanics/Company-Pilots.md) della tua corporazione mentre lo stai combattendo conta come un tuo abbattimento, anche per le tue missioni.
 - Un abbattimento di qualcuno del tuo [gruppo](/wiki/03-Mechanics/Groups.md) conta anche per le tue missioni di livello quando sei sulla stessa mappa e hai sparato con un laser o un razzo a qualsiasi cosa negli ultimi 15 secondi. Per la linea delle Sfide il compagno deve anche trovarsi entro 4.000 unità dall’abbattimento.
+- **Le spedizioni dello Skylab contano per alcuni passaggi.** Le uccisioni che il tuo [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) fa in una spedizione fanno avanzare un passaggio di uccisione solo quando il passaggio **non indica alcun settore**, fino a **250 uccisioni al giorno** (UTC) e solo quelle dell’alieno che il passaggio indica. Una cella non è un settore, quindi un passaggio che ne indica uno (da `x-1` a `x-4`, `DS-x` o `rival x-4`) non le conta mai, nemmeno in una cella della stessa difficoltà. In pratica sono le grandi cacce della linea delle Sfide i cui alieni vivono in una cella (Piaga di Seeker, Marea di Phantasm, Muro di Bulwark e le altre contro Seeker, Phantasm, Bulwark, Goombah, Crystalys o la Dormant Force), e nessuna delle missioni per i livelli da 1 a 8. Nemmeno una missione con limite di tempo o di scafo le conta. Non danno punti reset, né linea di clan, né punti di classifica.
 
 ## Limiti di tempo {#time-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Settori pericolosi -->
 # Settori pericolosi {#danger-sectors}
 
@@ -17,6 +17,10 @@ Qui visse una civiltà dell’antica galassia, avanzata e nera-viola, e per un m
 - **Il Dormant Swamp.** In un angolo di `DS-4` sorge la base della civiltà perduta: cannoni che sparano a ogni nave che vedono, Inert Mass che la custodiscono e, al centro, l’Unwakened. È un luogo che i piloti non sono ancora tenuti a visitare. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Uno Sciame Dormant più veloce e più ricco.** Lo sciame compare ora nella palude, ritorna prima dopo la distruzione e paga il doppio. Vedi [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Prima del giorno 11** brillano solo i pulsar: per il resto i settori pericolosi sono come li descrive [Viaggiare sulla mappa](/wiki/01-General/Spacemap%20Travel.md). Un mondo al giorno 11 o dopo ha tutto in un colpo.
+
+## Davidski
+
+Dal primo giorno della stagione uno tra `DS-1`, `DS-2` e `DS-3` ha un visitatore: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, un mercante su un Ironclad dorato che li percorre a turno, uno al giorno, ed esce una volta al giorno a un’ora che nessuno annuncia. Non spara mai per primo e risponde al fuoco quando viene colpito, e paga come un boss quando viene distrutto. Non appartiene a nessuna corporazione e vende ogni tipo che l’[Asta](/wiki/03-Mechanics/Auction.md) elenca a molte volte il prezzo del Negozio.
 
 ## Dove si trova ogni cosa {#where-everything-is}
 
@@ -59,3 +63,4 @@ Ogni mondo ha una copia tutta sua di ogni cosa, e un pulsar e il suo escavatore 
 - [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) e [Sciami](/wiki/05-Swarms/Swarms.md).
 - [Il buco nero](/wiki/03-Mechanics/Black-Hole.md) e [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): da dove viene il carburante.
 - [Estrazione di asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md): le rocce dei settori pericolosi.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): il mercante che esce una volta al giorno, senza annuncio, su un settore pericoloso.

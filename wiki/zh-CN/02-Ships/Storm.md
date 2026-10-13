@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Storm 是一艘玻璃大炮型战斗舰：基础速度和激光数量（13 个�
 
 <!-- research-ship:end -->
 
-研究完其科技后，在装配站制造一艘 Storm 需要 1 个 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit)、200 个 [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment)、35 个 [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate)、10 个 [Power Core](/wiki/06-Items/Resources.md#power-core) 和 15,000 Thulium，耗时 900 秒（15 分钟）。
+研究完其科技后，在装配站制造一艘 Storm 需要 3 个 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit)、200 个 [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment)、35 个 [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate)、20 个 [Power Core](/wiki/06-Items/Resources.md#power-core) 和 15,000 Thulium，耗时 900 秒（15 分钟）。
 
 ## 背景故事 {#lore}
 

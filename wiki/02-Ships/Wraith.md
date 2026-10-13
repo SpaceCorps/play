@@ -46,5 +46,5 @@ The Wraith is the ultimate battleship-class vessel, boasting unmatched firepower
 
 ## Lore
 
-A product of classified black-ops research, the Wraith battleship represents the pinnacle of dreadnought engineering. Its dark-matter drive and dense energy grids allow it to field multiple high-power laser banks simultaneously. Extremely rare and expensive, the sight of a Wraith on the sensors is enough to make even the most seasoned pirate captains turn back. It leaves Assembly in plain grey, and so do its designs.
+A product of classified black-ops research, the Wraith battleship represents the pinnacle of dreadnought engineering. Its dark-matter drive and dense energy grids allow it to field multiple high-power laser banks simultaneously. Extremely rare and expensive, the sight of a Wraith on the sensors is enough to make even the most seasoned pirate captains turn back. It leaves Assembly in plain grey, and so do its designs, until a skin paints them.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2bd1925e336e25b6 -->
+<!-- wiki-i18n source: a7f59fe15502fedf -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
@@ -30,7 +30,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 | **Hull Plating II** | 10.000 | Ensamblaje, a partir de un Hull Plating I |
 | **Hull Plating III** | 15.000 | Ensamblaje, a partir de un Hull Plating II |
 
-El Hull Plating I se compra. **El II y el III son mejoras**: Ensamblaje consume un blindaje del nivel inferior (suelto en tu inventario) y pide Thulium, materiales y **Dark Matter Plates**, 5 para el II y 8 para el III, cuando el último nivel de cualquier otra pieza de equipo pide 3. Cada uno necesita antes su tecnología, en el árbol del Hull Plating de la página [Investigación](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 día y 25 Dark Matter para el II, 2 días y 40 para el III, además de la tecnología de la propia Dark Matter Plate. El árbol de arriba tiene los precios, los materiales y los tiempos.
+El Hull Plating I se compra. **El II y el III son mejoras**: Ensamblaje consume un blindaje del nivel inferior (suelto en tu inventario) y pide Thulium, materiales y **Dark Matter Plates**, 5 para el II y 8 para el III, cuando el último nivel de cualquier otra pieza de equipo pide 4 y una Ancient Control Unit. Cada uno necesita antes su tecnología, en el árbol del Hull Plating de la página [Investigación](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 día y 25 Dark Matter para el II, 2 días y 40 para el III, además de la tecnología de la propia Dark Matter Plate. El árbol de arriba tiene los precios, los materiales y los tiempos.
 
 La [Forja](/wiki/06-Items/Forge.md) acepta todos los blindajes, y una mejora conserva el grado de forja del blindaje que consumió y vuelve a sortear su bonificación. Un blindaje tiene una sola estadística, su casco, así que lleva una sola bonificación, de +2 % a +15 % según el grado: un Hull Plating III en Eterno suma hasta 17.250. La [Subasta](/wiki/03-Mechanics/Auction.md) lista el Hull Plating II y el III, nunca el Hull Plating I, que vende la tienda.
 

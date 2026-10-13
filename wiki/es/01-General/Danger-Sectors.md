@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Sectores de peligro -->
 # Sectores de peligro {#danger-sectors}
 
@@ -17,6 +17,10 @@ Aquí vivió una civilización de la vieja galaxia, avanzada y de color negro vi
 - **El Dormant Swamp.** En una esquina de `DS-4` está la base de la civilización perdida: cañones que disparan a toda nave que ven, Inert Masses que la guardan y, en el centro, el Unwakened. Es un lugar que los pilotos todavía no deben visitar. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Enjambre Dormant más rápido y más rico.** El enjambre aparece ahora en el pantano, vuelve antes después de ser destruido y paga el doble. Consulta [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Antes del día 11** solo brillan los púlsares: por lo demás, los sectores de peligro son como los describe [Viajes por el mapa espacial](/wiki/01-General/Spacemap%20Travel.md). Un mundo que está en el día 11 o después lo tiene todo de golpe.
+
+## Davidski
+
+Desde el primer día de la temporada, uno de `DS-1`, `DS-2` y `DS-3` tiene un visitante: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, un comerciante en un Ironclad dorado que los recorre por turnos, uno al día, y sale una vez al día a una hora que nadie anuncia. Nunca dispara primero y devuelve el fuego si le atacan, y paga como un jefe cuando lo destruyen. No pertenece a ninguna corporación y vende todos los tipos que lista la [Subasta](/wiki/03-Mechanics/Auction.md) a muchas veces el precio de la Tienda.
 
 ## Dónde está cada cosa {#where-everything-is}
 
@@ -59,3 +63,4 @@ Cada mundo tiene su propia copia de todo, y un púlsar y su excavadora están en
 - [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) y [Enjambres](/wiki/05-Swarms/Swarms.md).
 - [El agujero negro](/wiki/03-Mechanics/Black-Hole.md) y [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): de dónde viene el combustible.
 - [Minería de asteroides](/wiki/03-Mechanics/Asteroid-Mining.md): las rocas de los sectores de peligro.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): el comerciante que sale una vez al día, sin avisar, en un sector de peligro.

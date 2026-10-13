@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -9,6 +9,7 @@ Fonder un clan ou en rejoindre un vous permet de mettre vos ressources en commun
 - Chaque clan a une **page du clan** que tout pilote de son monde peut ouvrir : niveau, pilotes, chef, description, lien Discord, conditions, points cumulés et bonus ([La page du clan](#the-clan-page)). Le chef et les chefs adjoints la règlent dans **Gestion** ([Gestion](#management)).
 - Un clan a un **monde** (celui de son fondateur), n’accepte que des pilotes de ce monde, et **la réinitialisation le dissout avec son trésor** : versez le Trésor de la flotte avant la fin du compte à rebours ([la réinitialisation](#the-wipe-disbands-every-clan)).
 - Le chef et les chefs adjoints écrivent des [annonces](#clan-posts) pour tout le clan, chaque membre voit [sur quelle carte](#where-your-clan-mates-are) volent les autres, la fenêtre [Qui est en ligne](#who-is-online) (touche **H**) invite dans votre groupe n’importe quel pilote de votre monde, le chef peut verser une [prime quotidienne](#4-daily-bonus) depuis le Trésor de la flotte, et l’onglet [Journal](#fleet-log) raconte au clan ce qui s’y est passé.
+- En vol, le bouton **Clan** (un fanion) de la barre d’outils en haut à gauche ouvre la **fenêtre du clan** : la page du clan de la station dans une fenêtre par-dessus le jeu, avec les mêmes onglets, les mêmes réponses et les mêmes boutons ; la position et la taille de la fenêtre sont mémorisées (jeu en version 0.4.21 ou plus récente ; [Invoquer un Gardien](#calling-a-warden) dit ce qui change en vol).
 - Une guerre ne prend fin que si l’autre clan est d’accord, et une alliance ou un pacte prend fin aussitôt quand l’un des deux clans le rompt ([Diplomatie](#diplomacy)).
 - Chaque jour de saison, votre clan reçoit une [ligne du jour](#daily-line) : quatre missions à faire dans l’ordre (détruire des aliens, parcourir une distance, parfois abattre des boss d’essaim), puis un [Gardien de clan](#clan-wardens), un boss que vous invoquez et que seul votre clan peut blesser.
 - Chaque étape terminée rapporte aussitôt des points de clan : 15, 15, 20, 20 et 30, soit **100 points** pour une ligne complète.
@@ -180,6 +181,8 @@ Une **annonce** est une courte note pour tout le clan, un tableau d’affichage 
 
 La colonne **Carte** de la liste des membres montre le secteur dans lequel vole chaque pilote de votre clan (« T-2 »), avec le monde devant quand ce n’est pas le vôtre (« Beta · T-2 »). Elle est relue toutes les 10 secondes tant que la liste est ouverte. Seule la **carte** est montrée, jamais de coordonnées, et rien n’est conservé. Un pilote **amarré ou déconnecté** apparaît **Hors ligne**, tout comme un pilote dont le vaisseau occulté ne serait pas visible pour vous sur une carte ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)) : un clan ne lève pas une occultation.
 
+La colonne **Skylab** à côté montre où se trouve le [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) de chaque pilote sur la carte de l’univers, avec le code de la cellule : « Amarré à H3 » dans le port d’une corporation, « H3, vers K7 dans 3 h 12 min » en voyage (la dernière cellule traversée, la destination et le temps restant), « Stationné à K7 » pendant qu’il chasse et « Détruit à H3 » quand sa coque est épuisée. Elle est lue en même temps que la colonne Carte, et un pilote qui n’a pas encore de carte de l’univers (un Noyau en dessous du niveau 15) affiche un tiret. La colonne apparaît dès qu’un pilote de votre clan en a un. Seul votre propre clan la voit, et une occultation ne cache pas un Skylab. Une destruction ne se montre que lorsque son pilote a de nouveau regardé le Skylab ou lui a donné un ordre.
+
 ## Qui est en ligne {#who-is-online}
 
 Le bouton **Qui est en ligne** de la barre d’outils système (en haut à droite) ou la touche **H** (réassignable dans Paramètres › Commandes) ouvre la fenêtre **Pilotes en ligne**.
@@ -279,7 +282,7 @@ Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas
 
 - **Quand.** Une fois l’étape 4 terminée. Un clan a **deux invocations par jour**, un seul Gardien dehors à la fois, et il doit rester **au moins 30 minutes** de jour.
 - **Qui.** Le chef ou un chef adjoint.
-- **Comment.** En vol : le bouton **Invoquer ici** apparaît sur l’écran de vol dès que l’étape 4 est terminée, et vous demande de confirmer. Soyez hors des zones sûres, dans un secteur de corporation **x-2, x-3 ou x-4** (de n’importe quelle corporation) de votre monde. L’onglet Opérations montre le Gardien du jour, les invocations restantes et pourquoi le bouton est grisé, mais un Gardien s’invoque depuis le vaisseau.
+- **Comment.** En vol : le bouton **Invoquer ici** apparaît sur l’écran de vol dès que l’étape 4 est terminée, et vous demande de confirmer. Soyez hors des zones sûres, dans un secteur de corporation **x-2, x-3 ou x-4** (de n’importe quelle corporation) de votre monde. L’onglet Opérations (sur la page du clan à la station, ou dans la fenêtre du clan en vol) montre le Gardien du jour, les invocations restantes et pourquoi le bouton est grisé. À la station, il est toujours grisé, car un Gardien s’invoque depuis le vaisseau ; dans la fenêtre du clan, c’est le bouton lui-même, grisé dans une zone sûre et hors des secteurs x-2 à x-4 d’une corporation, avec la raison donnée par le serveur.
 - **Où il apparaît.** À 3 000 à 4 500 unités de votre vaisseau, dans votre monde : seuls les pilotes de ce monde peuvent l’atteindre. L’onglet recommande **x-2 pour un clan Recrue, x-3 pour Vétéran et x-4 pour Élite**. Les [règles de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) habituelles du secteur choisi s’appliquent toujours.
 - **Montée en charge.** Il reste **90 secondes** protégé et passif (« montée en charge »), et chaque pilote du clan en ligne est informé de l’endroit. Volez vers lui pendant qu’il se charge : passé les 90 secondes, il est actif. Une capsule sous le badge de zone sûre de l’écran de vol le suit : son nom, « montée en charge » avec le temps restant, puis « actif » avec son secteur et le temps avant son retrait, et « enragé » quand un Wrath Warden passe sous la moitié de sa coque.
 - **Seulement votre clan.** Les tirs des pilotes de tout autre clan sont ignorés et ne le font pas riposter.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formációk -->
 # Drónformációk {#drone-formations}
 
@@ -16,7 +16,7 @@ A **drónformáció** egy minta, amelyet a drónjaid a hajó körül felvesznek,
 
 ## Egy percben {#in-one-minute}
 
-- **Szerezd meg.** Kutasd ki a technológiáját a Kutatóközpontban (két fa, *Védelem* és *Támadás és mozgékonyság*), aztán készítsd el a Gyártásban Thuliumból. A legolcsóbb 7 000 Thuliumba és 5 Dark Matterbe kerül, a legdrágább 46 000 Thuliumba és 20 Dark Matterbe. A bolt egyet sem árul.
+- **Szerezd meg.** Kutasd ki a technológiáját a Kutatóközpontban (két fa, *Védelem* és *Támadás és mozgékonyság*), aztán készítsd el a Gyártásban Thuliumból. A legolcsóbb 14 000 Thuliumba és 5 Dark Matterbe kerül, a legdrágább 92 000 Thuliumba és 20 Dark Matterbe. A bolt egyet sem árul.
 - **Szerezd meg.** A formációt nem kell sehova felszerelni: elég egy példány a készletedben. Legalább egy drón kell hozzá, egy Slave Drone vagy egy Master Drone, különben egyik formáció sem működik.
 - **Viseld.** Húzd a gyorssáv Formációk listájából bármelyik helyre. Kattints a helyre, vagy nyomd meg a billentyűjét, hogy viseld a formációt. A listán ott van az **Alap** is, vagyis a formáció nélküli állapot: húzd egy helyre, és nyomd meg, hogy újra egyiket se viseld. 2 másodpercenként egyszer válthatsz, biztonságos zónában is, és nincs harci zár.
 - **Nézd meg.** Minden formációnak saját alakzata van, és a drónjaid azt repülik a hajód körül: egy tetőt, egy szívet, szárnyakat, egy kardot, egy fúrót. A többi pilóta is látja. Lásd a [Hogyan repülnek](#how-they-fly) részt.
@@ -50,7 +50,7 @@ Minden formáció **saját alakzatot** ad a drónjaidnak. Viselj egyet, és a dr
 - **A meglévő drónjaidra szabva.** Egy alakzat pontosan annyi drónra épül, amennyi a tiéd, 1-től 8-ig: eggyel vagy kettővel csak az elejét látod, mind a **8**-cal az egész alakzatot, mint a képeken. A szintjük és az, hogy mit hordoznak, nem változtat semmin.
 - **A hajódhoz igazítva.** A hosszú hajó hosszabb alakzatban repül, mint egy kicsi, és a drónok távol maradnak a hajótesttől.
 - **Mindenki látja.** A többi pilóta látja a te alakzatodat, te pedig az övékét. Az a hajó, amely több mint **3 500 egységre** van a kamerádtól, nem mutat drónokat, és tömegben csak a legközelebbi **64** hajó.
-- **Kikapcsolás.** A Beállítások › Felület alatt van **Saját drónok mutatása** és **Ellenséges drónok mutatása** (a többi pilóta drónjai). Ezek csak azt változtatják, amit látsz: a formációd bónuszai ugyanúgy működnek. A **Kevesebb mozgás** (Beállítások › Grafika) mozdulatlanul tartja a mozgó alakzatokat, a Cordont, az Asterismet, a Cullert, a Gyre-t és az Augert, és **0,2 másodpercre** rövidíti az átsiklást.
+- **Kikapcsolás.** A Beállítások › Felület alatt van **Saját drónok mutatása** és **Ellenséges drónok mutatása** (a többi pilóta drónjai). Ezek csak azt változtatják, amit látsz: a formációd bónuszai ugyanúgy működnek. A drónok festését a **Más pilóták megjelenésének mutatása** szabályozza ([Kozmetika](/wiki/06-Items/Cosmetics.md#drone-liveries)). A **Kevesebb mozgás** (Beállítások › Grafika) mozdulatlanul tartja a mozgó alakzatokat, a Cordont, az Asterismet, a Cullert, a Gyre-t és az Augert, és **0,2 másodpercre** rövidíti az átsiklást.
 - **A magasság megtekintése.** A tetőnek, a tálnak és a fúrónak magassága van, amit a pontosan felülről nézet alig mutat. Forgasd a kamerát jobb gombos húzással ([Első lépések](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)), hogy oldalról lásd őket.
 
 | Formáció | Az alakzat | Mi mozog |
@@ -104,26 +104,26 @@ A táblázatok megmutatják, mit ad az egyes formáció, és mibe kerül neked, 
 
 ## Mibe kerülnek {#what-they-cost}
 
-Thulium, soha nem kredit. Mind a tizenhat együtt 330 500 Thuliumba és 189 Dark Matterbe kerül.
+Thulium, soha nem kredit. Mind a tizenhat együtt 661 000 Thuliumba és 189 Dark Matterbe kerül.
 
 | Formáció | Előbb kell hozzá | Kutatási idő | Dark Matter | Thulium a gyártáshoz | Gyártási idő |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 óra | 5 | 7 500 | 5 perc |
-| **Sanctum** | Testudo | 1 nap | 13 | 20 000 | 10 perc |
-| **Rampart** | Sanctum | 2 nap | 20 | 38 500 | 15 perc |
-| **Adamant** | – | 10 óra | 5 | 9 000 | 5 perc |
-| **Redoubt** | Adamant | 1 nap | 13 | 21 000 | 10 perc |
-| **Cordon** | Redoubt | 1 nap | 13 | 21 500 | 10 perc |
-| **Asterism** | – | 10 óra | 5 | 7 000 | 5 perc |
-| **Bodkin** | Asterism | 1 nap | 13 | 21 000 | 10 perc |
-| **Ballista** | Bodkin | 1 nap | 13 | 24 000 | 10 perc |
-| **Gemini** | – | 2 nap | 20 | 38 000 | 15 perc |
-| **Stiletto** | Gemini | 2 nap | 20 | 46 000 | 15 perc |
-| **Centurion** | – | 10 óra | 5 | 8 000 | 5 perc |
-| **Shrike** | Centurion | 10 óra | 5 | 8 500 | 5 perc |
-| **Culler** | Shrike | 1 nap | 13 | 20 000 | 10 perc |
-| **Gyre** | – | 1 nap | 13 | 20 000 | 10 perc |
-| **Auger** | Gyre | 1 nap | 13 | 20 500 | 10 perc |
+| **Testudo** | – | 10 óra | 5 | 15 000 | 5 perc |
+| **Sanctum** | Testudo | 1 nap | 13 | 40 000 | 10 perc |
+| **Rampart** | Sanctum | 2 nap | 20 | 77 000 | 15 perc |
+| **Adamant** | – | 10 óra | 5 | 18 000 | 5 perc |
+| **Redoubt** | Adamant | 1 nap | 13 | 42 000 | 10 perc |
+| **Cordon** | Redoubt | 1 nap | 13 | 43 000 | 10 perc |
+| **Asterism** | – | 10 óra | 5 | 14 000 | 5 perc |
+| **Bodkin** | Asterism | 1 nap | 13 | 42 000 | 10 perc |
+| **Ballista** | Bodkin | 1 nap | 13 | 48 000 | 10 perc |
+| **Gemini** | – | 2 nap | 20 | 76 000 | 15 perc |
+| **Stiletto** | Gemini | 2 nap | 20 | 92 000 | 15 perc |
+| **Centurion** | – | 10 óra | 5 | 16 000 | 5 perc |
+| **Shrike** | Centurion | 10 óra | 5 | 17 000 | 5 perc |
+| **Culler** | Shrike | 1 nap | 13 | 40 000 | 10 perc |
+| **Gyre** | – | 1 nap | 13 | 40 000 | 10 perc |
+| **Auger** | Gyre | 1 nap | 13 | 41 000 | 10 perc |
 
 ### Anyagok {#materials}
 
@@ -132,8 +132,8 @@ A Thuliumon kívül a Gyártás ezeket veszi el a készletedből. A formáció k
 | Kutatási idő | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 óra | 100 | 10 | 5 | 4 | – | – |
-| 1 nap | 180 | 18 | 9 | 8 | 3 | – |
-| 2 nap | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 nap | 180 | 18 | 9 | 8 | 15 | – |
+| 2 nap | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## A szabályok részletesen {#the-rules-in-detail}
 

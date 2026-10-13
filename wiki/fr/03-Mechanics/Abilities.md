@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -43,7 +43,7 @@ Vous pouvez installer **plusieurs boucliers, moteurs ou Repair Drones** dans les
 
 ### Shield Surge (boucliers), touche `Q` {#shield-surge-shields-key-q}
 
-Pendant dix secondes, le bouclier de votre vaisseau est **réparé** : le Surge restaure une part de votre bouclier max de façon régulière, jusqu’au maximum et jamais au-delà. Ce n’est pas une barrière et il ne change pas la répartition des coups ; il remet du bouclier, et ce qu’il a remis reste. Il ne s’arrête pas quand vous êtes touché (la recharge ordinaire attend 15 secondes après un coup ; le Surge, non). Un vaisseau au bouclier plein en tire peu : déclenchez-le quand le bouclier faiblit. Le total n’est jamais inférieur à la capacité propre du Shield Core : un vaisseau avec peu de bouclier reçoit quand même une vraie réparation (jusqu’à son maximum).
+Pendant dix secondes, le bouclier de votre vaisseau est **réparé** : le Surge restaure une part de votre bouclier max de façon régulière, jusqu’au maximum et jamais au-delà. Ce n’est pas une barrière et il ne change pas la répartition des coups ; il remet du bouclier, et ce qu’il a remis reste. Il ne s’arrête pas quand vous êtes touché (la recharge ordinaire attend 15 secondes après un coup ; le Surge, non). Un vaisseau au bouclier plein en tire peu : déclenchez-le quand le bouclier faiblit. Le total n’est jamais inférieur à 60 % de la capacité propre du Shield Core : un vaisseau avec peu de bouclier reçoit quand même une vraie réparation (jusqu’à son maximum).
 
 - Refusé sous la protection d’une zone sûre, et sur un vaisseau sans aucun bouclier, pour qu’un clic malheureux ne le gaspille pas.
 - Les roquettes perforantes contournent toujours en partie les boucliers, comme elles l’ont toujours fait.
@@ -89,16 +89,16 @@ La puissance d’une compétence est une **part d’une valeur de votre propre v
 
 | Compétence | Rang | Objet | Puissance (un module) | Durée | Temps de recharge | Actif |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | restaure 30 % de votre bouclier max | 10 s | 120 s | 8,3 % |
-| **Shield Surge** | II | Basic Shield Core | restaure 60 % de votre bouclier max | 10 s | 105 s | 9,5 % |
-| **Shield Surge** | III | Heavy Shield Core | restaure 100 % de votre bouclier max | 10 s | 90 s | 11,1 % |
+| **Shield Surge** | I | Light Shield Core | restaure 18 % de votre bouclier max | 10 s | 120 s | 8,3 % |
+| **Shield Surge** | II | Basic Shield Core | restaure 36 % de votre bouclier max | 10 s | 105 s | 9,5 % |
+| **Shield Surge** | III | Heavy Shield Core | restaure 60 % de votre bouclier max | 10 s | 90 s | 11,1 % |
 | **Afterburner** | I | Engine I | +30 % de vitesse | 10 s | 120 s | 8,3 % |
 | **Afterburner** | II | Engine II | +45 % de vitesse | 10 s | 105 s | 9,5 % |
 | **Afterburner** | III | Engine III | +60 % de vitesse | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | I | Repair Drone I | répare 20 % de votre coque max | 10 s | 120 s | 8,3 % |
-| **Emergency Repair** | II | Repair Drone II | répare 25 % de votre coque max | 10 s | 105 s | 9,5 % |
-| **Emergency Repair** | III | Repair Drone III | répare 32 % de votre coque max | 10 s | 90 s | 11,1 % |
-| **Emergency Repair** | IV | Repair Drone IV | répare 40 % de votre coque max | 10 s | 75 s | 13,3 % |
+| **Emergency Repair** | I | Repair Drone I | répare 12 % de votre coque max | 10 s | 120 s | 8,3 % |
+| **Emergency Repair** | II | Repair Drone II | répare 15 % de votre coque max | 10 s | 105 s | 9,5 % |
+| **Emergency Repair** | III | Repair Drone III | répare 19,2 % de votre coque max | 10 s | 90 s | 11,1 % |
+| **Emergency Repair** | IV | Repair Drone IV | répare 24 % de votre coque max | 10 s | 75 s | 13,3 % |
 
 Plusieurs modules d’un même type dans une même configuration : celui de plus bas rang fixe la puissance et le temps de recharge ci-dessus, et chacun des autres en ajoute 50 %.
 
@@ -110,7 +110,7 @@ Plusieurs modules d’un même type dans une même configuration : celui de plu
 
 <!-- abilities:end -->
 
-L’Engine II et les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et des plaques (2 Velkonite Reinforced Plates pour l’Engine II, 3 Dark Matter Plates pour les autres : [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
+L’Engine II et les boucliers et moteurs de rang III (le Heavy Shield Core, l’Engine III) ne sont pas en vente : on les fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, d’un Basic Shield Core et d’un Engine II, avec du Thulium, le butin des aliens et des plaques (4 Velkonite Reinforced Plates pour l’Engine II, 4 Dark Matter Plates et une Ancient Control Unit pour les autres : [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). L’Emergency Repair a un quatrième rang, le Repair Drone IV.
 
 ## Temps de recharge et limites {#cooldowns-and-limits}
 

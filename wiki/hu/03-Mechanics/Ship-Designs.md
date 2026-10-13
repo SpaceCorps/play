@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
+<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -30,23 +30,23 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 
 1. **Kutasd ki.** Minden dizájn technológia a Skylab kutatási nézetének Hajók fájában ([Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies)). 10 órát vesz igénybe és 10 Dark Mattert kér, és megkívánja a hajója technológiáját meg a Dark Matter Plate-ét. A kutatástól még nem készül semmi.
 2. **Alakítsd át a hajót.** A Gyártás Dizájnok szakasza felsorolja a tizenhárom átalakítást. Válassz egyet, és erősítsd meg: a munka bekerül a gyártási sorba, és 10 percig tart. Magától befejeződik, nem kell átvenned.
-3. **Fizesd ki.** Egy átalakítás Thuliumba, a hajó saját receptje anyagainak nagyjából negyedébe és Dark Matter Plate-ekbe kerül, ahogy a táblázat mondja.
+3. **Fizesd ki.** Egy átalakítás Thuliumba, anyagokba és Dark Matter Plate-ekbe kerül, ahogy a táblázat mondja.
 
 | Dizájn | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100 000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100 000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100 000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100 000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100 000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100 000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100 000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100 000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100 000 | 20 | 375 | 65 | 20 | 3 |
 
 Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a THUNDER-hez, a BUCKY-hoz és a LICH-hez), és nem lehet az a hajó, amelyet éppen repülsz: előbb tegyél aktívvá egy másikat. Egy lerombolt hajót nem lehet átalakítani.
 
@@ -63,7 +63,7 @@ Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a T
 | **Wraith** | 9 | 9 óra | 90 | 5 | 50 óra | 50 |
 | **Mind a négy** | 36 | 36 óra | 360 | 13 | 130 óra | 130 |
 
-Együtt 490 Dark Mattert kérnek, az összes többi technológia 414-én felül: 904 a játék összes technológiájára.
+Együtt 490 Dark Mattert kérnek, az összes többi technológia 414-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 019 a játék összes technológiájára.
 
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 
@@ -75,7 +75,7 @@ Együtt 490 Dark Mattert kérnek, az összes többi technológia 414-én felül:
 
 ## Kinézet és méret {#looks-and-size}
 
-Minden dizájnnak saját modellje van, a hajójáé néhány változtatással, amelyek megmutatják, mit tud. Sima szürkék, mint a hajók, hogy a szín később skinekként érkezhessen. A BUCKY és a TITANIC 20%-kal nagyobb, és egy nagyobb hajót könnyebb eltalálni egy rakétával. A hangár DIZÁJN jelvénnyel jelöli a dizájnt, a többi pilóta pedig a célpontablakban és a kill feedben látja a nevét.
+Minden dizájnnak saját modellje van, a hajójáé néhány változtatással, amelyek megmutatják, mit tud. Sima szürkék, mint a hajók, amíg [skint](/wiki/06-Items/Cosmetics.md) nem viselnek: a dizájn annak a hajónak a skinjeit viseli, amelyből készült, az átalakítás pedig megtartja a kinézetet. A BUCKY és a TITANIC 20%-kal nagyobb, és egy nagyobb hajót könnyebb eltalálni egy rakétával. A hangár DIZÁJN jelvénnyel jelöli a dizájnt, a többi pilóta pedig a célpontablakban és a kill feedben látja a nevét.
 
 ## Bolt, Aukció és pontok {#shop-auction-and-points}
 

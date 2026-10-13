@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 <!-- research-ship:end -->
 
-När du har forskat fram dess teknologi kostar det 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) och 15 000 Thulium att tillverka en Storm i Monteringen, och det tar 900 sekunder (15 minuter).
+När du har forskat fram dess teknologi kostar det 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) och 15 000 Thulium att tillverka en Storm i Monteringen, och det tar 900 sekunder (15 minuter).
 
 ## Bakgrund {#lore}
 

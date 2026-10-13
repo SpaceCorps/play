@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -30,6 +30,7 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 - O que você coleta vai direto para o inventário do seu hangar, na sua pilha avulsa daquele item (nunca sobre equipamentos nem sobre nada que esteja no Cache de Transporte). Um aviso diz o que você recebeu; caixas coletadas em sequência se somam no mesmo aviso.
 - O que você coleta é **vendável**: você pode vendê-lo no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 - Quando um fragmento de um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) é seu, sua nave segue sozinha para o próximo fragmento ao alcance que você pode pegar; qualquer ordem de movimento sua a interrompe.
+- **Um Retriever coleta para você.** Um P.E.T. [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) acoplado pega caixas sem clique, com um alcance próprio (de 255 unidades o mais fraco a 880 um Legendary de nível 20, contra as 200 da sua própria coleta), a mais próxima primeiro e **uma de cada vez, meio segundo cada**: nunca mais rápido que uma mão. Ele só pega o que você mesmo pode pegar: uma caixa reservada para outro piloto espera o tempo dela acabar, e a [caixa privada](#private-boxes) de outro piloto ele nunca toca. Ele trabalha enquanto você voa fora de uma zona segura, esteja ativo ou não, mas não enquanto você está camuflado ou saltando, então nunca encerra uma camuflagem. Não é um canal: nenhuma barra enche e ele nunca bloqueia as suas próprias coletas nem os seus saltos, e uma caixa que você está coletando à mão fica para você. Se a sua mão e o seu Retriever chegam juntos a uma caixa, só um fica com ela. A coleta de um Retriever toca um pequeno bipe próprio no lugar do som de coleta.
 
 ## Quem fica com a caixa {#who-gets-it}
 
@@ -46,9 +47,9 @@ O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) nã
 - **Só você a vê e só você pode pegá-la.** O seu clã e o seu grupo não a veem e não podem pegá-la; para todos os outros ela simplesmente não existe. Na sua tela, ela tem um anel fino embaixo.
 - **Ela fica 10 minutos** a partir do abate, e durante todo esse tempo é sua: não há espera de 30 segundos. Depois ela vai à deriva como qualquer caixa. O Registro do jogo mostra a sua parte do saque quando o Guardião cai.
 - **Ela não empurra outras caixas para fora.** As caixas privadas têm uma reserva própria ao lado das 64 de um mapa (no máximo 32), então o abate de um Guardião nunca toma o lugar de outra caixa, e um mapa cheio nunca faz você perder a sua.
-- Pegar é como com qualquer caixa ([acima](#collecting)): a sua nave voa até ela e a coleta leva meio segundo.
+- Pegar é como com qualquer caixa ([acima](#collecting)): a sua nave voa até ela e a coleta leva meio segundo. O seu Retriever também pega as suas caixas privadas, e as de mais ninguém.
 
 ## Boosters
 
-- **Loot Luck Booster** (e o bônus permanente Luck Boost) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate.
-- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela, então cinco N.I.K.E. dão dez Dark Matter para todos.
+- **Loot Luck Booster** (e o bônus permanente Luck Boost, e a sorte dos seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate.
+- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, à mão ou com um Retriever, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela, então cinco N.I.K.E. dão dez Dark Matter para todos.

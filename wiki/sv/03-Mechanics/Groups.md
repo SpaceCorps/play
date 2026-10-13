@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -60,6 +60,14 @@ Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamn
 ### Skriva {#typing}
 
 **Enter** öppnar chatten och ger den tangentbordet. Skicka en rad med **Enter** så behåller fältet tangentbordet, och nästa rad kan följa direkt; så länge det gör det är snabbfältet och förmågetangenterna avstängda. Skrivandet tar slut när du trycker **Escape**, trycker **Enter** utan att ha skrivit något, klickar på kartan med vänster musknapp (samma klick styr fortfarande ditt skepp), låter fältet vara tomt och inte trycker på någon tangent i 15 sekunder eller ditt skepp förstörs. På fliken System, där du inte kan skriva, tar **Enter** dig tillbaka till den kanal du skrev i senast.
+
+### Chatten på stationen {#chat-at-the-station}
+
+På stationen är chatten ett **fält längst ned på varje sida**, så att inget som sägs går förbi medan du kontrollerar forskningen eller köper ammunition. Ihopfällt, vilket är hur det börjar, är det en rad högt: chattens namn, antalet rader du inte har läst (alla flikar tillsammans) och den senaste raden. **Klicka** på det för att öppna chatten. Öppet har det flikarna, historiken och inmatningsfältet från chattfönstret, med samma teckenräknare, paus och avvisningar under fältet, och du kan dra i dess övre kant för att göra det högre eller lägre. Klicka på dess titelrad eller tryck **Escape** för att fälla ihop det igen. **Enter** ger tangentbordet till fältet så länge fältet är öppet och inget annat textfält har det. En flik du tittar på räknas som läst.
+
+Det är samma chatt som fönstrets. Det som sägs medan du är dockad finns i fönstret efter att du startat, och det som sades i flykten finns i fältet när du dockar; **Dölj Global-chatten**, ignorerade piloter och rapporter fungerar likadant (högerklicka på ett namn). På stationen kan du skriva i **Global** och **Grupp**. **Lokal** är en kartas kanal: dess flik visar vad som sades i flykten, och en rad som skrivs med `/l` skickas inte. En spelserver från före 0.4.21 kan inte ta emot en rad från stationen: fältet visar då bara chatten.
+
+Om fältet är öppet och hur högt det är sparas till nästa gång. Stäng av det med **Chattfält på stationens sidor** under **Inställningar › Gränssnitt › Chatt**; chattfönstret i flykten påverkas inte.
 
 ### Chattreglerna {#the-chat-rules}
 

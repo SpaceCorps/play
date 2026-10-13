@@ -59,6 +59,14 @@ A command switches the tab too, and typed alone (`/g`) it only switches. Group c
 
 **Enter** opens the chat and gives it the keyboard. Send a line with **Enter** and the box keeps the keyboard, so the next line can follow at once; while it does, the hotbar and the ability keys stay off. Typing ends when you press **Escape**, press **Enter** with nothing typed, click the map with the left button (the same click still steers your ship), leave the box empty and press no key for 15 seconds, or your ship is destroyed. On the System tab, where you cannot write, **Enter** takes you back to the channel you wrote in last.
 
+### The Chat at the Station {#chat-at-the-station}
+
+At the station the chat is a **bar along the foot of every page**, so nothing said goes unseen while you check research or buy ammo. Folded, which is how it starts, it is one line high: the chat's name, the number of lines you have not read (all the tabs together) and the newest line. **Click** it to open the chat. Opened, it has the tabs, the history and the input of the chat window, with the same character counter, pause and refusals under the input, and its top edge can be dragged to make it taller or shorter. Click its title bar or press **Escape** to fold it again. **Enter** puts the keyboard in the input while the bar is open and no other text field has it. A tab you look at counts as read.
+
+It is the same chat as the window's. What is said while you are docked is in the window after you launch, and what was said in flight is in the bar when you dock; **Hide Global chat**, ignored pilots and reports work the same way (right-click a name). At the station you can write in **Global** and **Group**. **Local** is the channel of a map: its tab shows what was said in flight, and a line typed with `/l` is not sent. A game server from before 0.4.21 cannot take a line from the station: the bar then only shows the chat.
+
+Whether the bar is open and how tall it is are kept for next time. Turn it off with **Chat dock on station pages** in **Settings › Interface › Chat**; the chat window in flight is not affected.
+
 ### The Chat Rules
 
 The server holds every line to a few rules, the same in Local, Global and Group. A line it refuses is not sent, and the reason shows under the input for a few seconds, with your text put back in the box.

@@ -28,23 +28,23 @@ The last three columns are what the converted ship has: its own hull and base sp
 
 1. **Research it.** Each design is a technology in the Ships tree of the Research view of your Skylab ([Research](/wiki/03-Mechanics/Research.md#ship-technologies)). It takes 10 hours and 10 Dark Matter, and asks for the technology of its ship and the one of the Dark Matter Plate. Researching it makes nothing yet.
 2. **Convert the ship.** The Designs section of the Assembly lists the thirteen conversions. Pick one and confirm: the job joins the Production Queue and takes 10 minutes. It finishes by itself, and you do not need to collect it.
-3. **Pay for it.** A conversion costs Thulium, about a quarter of the materials of the ship's own recipe and Dark Matter Plates, as the table says.
+3. **Pay for it.** A conversion costs Thulium, materials and Dark Matter Plates, as the table says.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100,000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100,000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100,000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100,000 | 20 | 375 | 65 | 20 | 3 |
 
 The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCKY or LICH), and it must not be the ship you fly: make another ship active first. A wrecked ship cannot be converted.
 
@@ -61,7 +61,7 @@ The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCK
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **All four** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Together they ask 490 Dark Matter on top of the 414 that every other technology asks: 904 for every technology of the game.
+Together they ask 490 Dark Matter on top of the 414 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,019 for every technology of the game.
 
 ## What happens to your ship
 
@@ -73,7 +73,7 @@ Together they ask 490 Dark Matter on top of the 414 that every other technology 
 
 ## Looks and size
 
-Each design has a model of its own, its ship's with a few changes that show what it does. They are plain grey like the ships, so that colour can come later as skins. BUCKY and TITANIC are 20% larger, and a larger ship is easier to hit with a rocket. The Hangar marks a design with a DESIGN badge, and other pilots see its name in the Target window and the kill feed.
+Each design has a model of its own, its ship's with a few changes that show what it does. They are plain grey like the ships until they wear a [skin](/wiki/06-Items/Cosmetics.md): a design wears the skins of the ship it was made from, and a conversion keeps the look. BUCKY and TITANIC are 20% larger, and a larger ship is easier to hit with a rocket. The Hangar marks a design with a DESIGN badge, and other pilots see its name in the Target window and the kill feed.
 
 ## Shop, Auction and points
 

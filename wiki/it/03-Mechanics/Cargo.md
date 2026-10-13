@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -30,6 +30,7 @@ Le luci della cassa prendono il colore dell’oggetto più raro al suo interno: 
 - Ciò che raccogli va direttamente nell’inventario dell’Hangar, sulla tua pila libera di quell’oggetto (mai su un equipaggiamento né su qualcosa nel Deposito di trasporto). Una notifica ti dice cosa hai ottenuto; le casse raccolte una dopo l’altra si sommano nella stessa notifica.
 - Ciò che raccogli è **vendibile**: puoi venderlo all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
 - Quando un frammento di un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) è tuo, la tua nave passa da sola al frammento successivo a portata che puoi prendere; qualsiasi tuo ordine di movimento la ferma.
+- **Un Retriever raccoglie per te.** Un P.E.T. [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) agganciato prende le casse senza un clic, con una portata sua (da 255 unità per il più debole a 880 per un Legendary di livello 20, contro le 200 della tua raccolta), la più vicina per prima e **una alla volta, mezzo secondo ciascuna**: mai più veloce di una mano. Prende solo ciò che puoi prendere tu: una cassa riservata a un altro pilota aspetta che finisca il suo tempo, e la [cassa privata](#private-boxes) di un altro pilota non la tocca mai. Lavora mentre voli fuori da una zona sicura, tu sia attivo o no, ma non mentre sei occultato o in salto, quindi non pone mai fine a un occultamento. Non è un canale: nessuna barra si riempie e non blocca mai le tue raccolte né i tuoi salti, e una cassa che stai raccogliendo a mano resta a te. Se la tua mano e il tuo Retriever raggiungono una cassa insieme, solo uno la ottiene. La raccolta di un Retriever suona un piccolo bip suo al posto del suono di raccolta.
 
 ## A chi spetta {#who-gets-it}
 
@@ -46,9 +47,9 @@ Il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 
 - **Solo tu la vedi e solo tu puoi raccoglierla.** Il tuo clan e il tuo gruppo non la vedono e non possono prenderla; per tutti gli altri semplicemente non c’è. Sul tuo schermo ha un anello sottile sotto.
 - **Resta lì 10 minuti** dall’abbattimento, e per tutto il tempo è tua: non c’è l’attesa di 30 secondi. Poi se ne va alla deriva come ogni cassa. Il Registro di gioco ti dice la tua parte del bottino quando il Custode cade.
 - **Non scaccia altre casse.** Le casse private hanno una riserva a sé accanto alle 64 di una mappa (al massimo 32), così l’abbattimento di un Custode non prende mai il posto di un’altra cassa e una mappa piena non ti fa mai perdere la tua.
-- La raccolta è la stessa di ogni cassa ([sopra](#collecting)): la tua nave vola fino a lei e la raccolta dura mezzo secondo.
+- La raccolta è la stessa di ogni cassa ([sopra](#collecting)): la tua nave vola fino a lei e la raccolta dura mezzo secondo. Il tuo Retriever prende anche le tue casse private, e quelle di nessun altro.
 
 ## Booster {#boosters}
 
-- **Loot Luck Booster** (e il potenziamento permanente Fortuna) aumentano la probabilità di ogni voce del bottino quando chi abbatte l’alieno mette a segno l’abbattimento.
-- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla, quindi cinque N.I.K.E. sono dieci Dark Matter per tutti.
+- **Loot Luck Booster** (e il potenziamento permanente Fortuna, e la fortuna dei tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciati) aumentano la probabilità di ogni voce del bottino quando chi abbatte l’alieno mette a segno l’abbattimento.
+- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, a mano o con un Retriever, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla, quindi cinque N.I.K.E. sono dieci Dark Matter per tutti.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ La Storm è un caccia a cannone di vetro: la velocità di base più alta e il ma
 
 <!-- research-ship:end -->
 
-Una volta ricercata la sua tecnologia, creare una Storm nell’Assemblaggio richiede 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) e 15.000 Thulium, e dura 900 secondi (15 minuti).
+Una volta ricercata la sua tecnologia, creare una Storm nell’Assemblaggio richiede 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) e 15.000 Thulium, e dura 900 secondi (15 minuti).
 
 ## Storia {#lore}
 

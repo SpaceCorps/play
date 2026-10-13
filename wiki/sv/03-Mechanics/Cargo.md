@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -30,6 +30,7 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 - Det du plockar upp går direkt till ditt inventarie i hangaren, till din lösa hög av det föremålet (aldrig till utrustning eller något i transportförrådet). Ett litet meddelande berättar vad du fick; lådor som plockas upp efter varandra summeras i samma meddelande.
 - Det du plockar upp är **säljbart**: du kan sälja det i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 - När en bit av en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md) är din går ditt skepp på egen hand vidare till nästa bit inom räckhåll som du får ta; varje flyttkommando från dig stoppar det.
+- **En Retriever plockar upp åt dig.** En dockad P.E.T. av typen [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) tar lådor utan klick, inom en egen räckvidd (från 255 enheter för den svagaste till 880 för en Legendary på nivå 20, mot de 200 för din egen upplockning), den närmaste först och **en i taget, en halv sekund var**: aldrig snabbare än en hand. Den tar bara det du själv får ta: en låda som är reserverad åt en annan pilot väntar tills tiden är slut, och en annan pilots [privata låda](#private-boxes) rör den aldrig. Den arbetar medan du flyger utanför en säker zon, aktiv eller inte, men inte medan du är kamouflerad eller hoppar, så den avslutar aldrig ett kamouflage. Den är ingen kanal: ingen stapel fylls, den blockerar aldrig dina egna upplockningar eller hopp, och en låda som du plockar upp för hand lämnar den åt dig. Når din hand och din Retriever samma låda samtidigt får bara en den. En Retrievers upplockning spelar ett eget litet pip i stället för upplockningsljudet.
 
 ## Vem som får den {#who-gets-it}
 
@@ -46,9 +47,9 @@ Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ä
 - **Bara du ser den och bara du kan ta den.** Din klan och din grupp ser den inte och kan inte ta den; för alla andra finns den helt enkelt inte. På din skärm har den en tunn ring under sig.
 - **Den ligger kvar i 10 minuter** från nedskjutningen, och hela tiden är den din: det finns ingen väntan på 30 sekunder. Sedan driver den iväg som vilken låda som helst. Spelloggen berättar din del av bytet när väktaren faller.
 - **Den knuffar inte ut andra lådor.** Privata lådor har en egen pool vid sidan av kartans 64 (högst 32), så en väktares nedskjutning tar aldrig platsen från en annan låda, och en full karta kostar dig aldrig din låda.
-- Att plocka upp den fungerar som med vilken låda som helst ([ovan](#collecting)): ditt skepp flyger till den, och upplockningen tar en halv sekund.
+- Att plocka upp den fungerar som med vilken låda som helst ([ovan](#collecting)): ditt skepp flyger till den, och upplockningen tar en halv sekund. Din Retriever tar också dina privata lådor, och ingen annans.
 
 ## Boosters
 
-- **Loot Luck Booster** (och den permanenta buffen Luck Boost) höjer chansen för varje bytespost när piloten gör nedskjutningen.
-- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den, så fem N.I.K.E.-raketer blir tio Dark Matter för alla.
+- **Loot Luck Booster** (och den permanenta buffen Luck Boost, och turen hos dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md)) höjer chansen för varje bytespost när piloten gör nedskjutningen.
+- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, för hand eller med en Retriever, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den, så fem N.I.K.E.-raketer blir tio Dark Matter för alla.

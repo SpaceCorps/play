@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2bd1925e336e25b6 -->
+<!-- wiki-i18n source: a7f59fe15502fedf -->
 <!-- wiki-i18n title: Blindagem de casco -->
 # Blindagem de casco {#hull-plating}
 
@@ -30,7 +30,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 | **Hull Plating II** | 10.000 | Montagem, a partir de uma Hull Plating I |
 | **Hull Plating III** | 15.000 | Montagem, a partir de uma Hull Plating II |
 
-A Hull Plating I é comprada. **A II e a III são melhorias**: a Montagem consome uma blindagem do nível abaixo (solta no seu inventário) e pede Thulium, materiais e **Dark Matter Plates**, 5 para a II e 8 para a III, enquanto o último nível de qualquer outra peça de equipamento pede 3. Cada uma precisa antes da sua tecnologia, na árvore da Hull Plating da página [Pesquisa](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 dia e 25 Dark Matter para a II, 2 dias e 40 para a III, além da tecnologia da própria Dark Matter Plate. A árvore acima traz os preços, os materiais e os tempos.
+A Hull Plating I é comprada. **A II e a III são melhorias**: a Montagem consome uma blindagem do nível abaixo (solta no seu inventário) e pede Thulium, materiais e **Dark Matter Plates**, 5 para a II e 8 para a III, enquanto o último nível de qualquer outra peça de equipamento pede 4 e uma Ancient Control Unit. Cada uma precisa antes da sua tecnologia, na árvore da Hull Plating da página [Pesquisa](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 dia e 25 Dark Matter para a II, 2 dias e 40 para a III, além da tecnologia da própria Dark Matter Plate. A árvore acima traz os preços, os materiais e os tempos.
 
 A [Forja](/wiki/06-Items/Forge.md) aceita todas as blindagens, e uma melhoria mantém o grau de forja da blindagem que consumiu e sorteia o bônus de novo. Uma blindagem tem um único atributo, o casco, então leva um único bônus, de +2% a +15% conforme o grau: uma Hull Plating III Eterna soma até 17.250. O [Leilão](/wiki/03-Mechanics/Auction.md) lista a Hull Plating II e a III, nunca a Hull Plating I, que a Loja vende.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7781b4c9e05c5455 -->
+<!-- wiki-i18n source: 91ad34564d700684 -->
 <!-- wiki-i18n title: 資源 -->
 # 資源 {#resources}
 
@@ -7,7 +7,7 @@
 - **素材**は、ハンガーのインベントリにあるアイテムです。エイリアンから[積荷コンテナ](/wiki/03-Mechanics/Cargo.md)としてドロップするか、ミッションの報酬として手に入るか、[Skylab](/wiki/03-Mechanics/Skylab.md) で作られます。アセンブリのレシピ、[鍛冶場](/wiki/06-Items/Forge.md)、Skylab の建設で消費されます。
 - **通貨**はアカウントに保管されます。どのエイリアンも通貨を落とし、ミッションや Skylab のファームでも得られます。
 - **このページにないもの**：弾薬（[レーザー](/wiki/06-Items/Lasers.md)、[ロケット](/wiki/06-Items/Rockets.md)）、装備、ブースターは、それぞれ専用のページがあります。経験値と名誉は、お金ではなくスコアです。下のエイリアンの表に載っています。
-- **売却**：獲得した分は[オークション](/wiki/03-Mechanics/Auction.md#marketable-items)で売れます。ただしAncient Control Unit、鉱石（VelkoniteとOrvium）、Dark Matter Plateは除きます。Reinforced Plateは、ミッションが渡したものなら売れますが、鍛造所が作ったものは売れません。
+- **売却**：獲得した分は[オークション](/wiki/03-Mechanics/Auction.md#marketable-items)で売れます。ただしAncient Control Unit、鉱石（VelkoniteとOrvium）、Dark Matter Plate、3種のCluster Chunkは除きます。Reinforced Plateは、ミッションが渡したものなら売れますが、鍛造所が作ったものは売れません。
 
 「セクター」と書かれている箇所は、自分の企業のマップのセクターを指します（1は基地の隣、4は境界セクターです）。数値はゲーム自体のデータをそのまま取り込んでいるため、ドロップ、レシピ、レートが変わると、それに合わせて変わります。
 
@@ -20,20 +20,23 @@
 
 | 素材 | レアリティ | 入手元 | 使い道 |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | コモン | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 小惑星, スペシャルミッション | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, N.U.K.E., N.I.K.E., 鍛冶場, Skylab の建設, 研究センター |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | コモン | Goombah, Bulwark, 小惑星, ミッション | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, N.U.K.E., N.I.K.E., 鍛冶場, 研究センター |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | アンコモン | Crystalys, Goombah, 小惑星, ミッション | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, N.U.K.E., 鍛冶場, 研究センター |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | レア | Crystalys, ミッション | Wraith, Ironclad, Storm, Extra Slots CPU III, Jump CPU, Gemini Formation, Stiletto Formation, Rampart Formation, Hull Plating III, 研究センター |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | コモン | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 小惑星, スペシャルミッション | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., 鍛冶場, Skylab の建設, 研究センター |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | コモン | Goombah, Bulwark, 小惑星, ミッション | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., 鍛冶場, 研究センター |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | アンコモン | Crystalys, Goombah, 小惑星, ミッション | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., 鍛冶場, 研究センター |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | レア | Crystalys, ミッション | Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, 研究センター |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | コモン | Phantasm, Seeker, 小惑星 | Penetration Amp II, 鍛冶場, 研究センター |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | コモン | Phantasm, Bulwark, 小惑星 | Penetration Amp III, 鍛冶場, 研究センター |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | コモン | Crystalys, Goombah, Bulwark, 小惑星, 巨大掘削機, ミッション | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 鍛冶場, 研究センター |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | コモン | Crystalys, Goombah, 小惑星, 巨大掘削機 | Penetration Amp IV, 鍛冶場, 研究センター |
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | アンコモン | 巨大掘削機, Skylab コレクター | Skylab の鍛造所, 研究センター |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | レア | 巨大掘削機, Skylab コレクター | Skylab の鍛造所, 研究センター |
-| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | レア | ミッション, Skylab の鍛造所 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | エピック | ミッション, Skylab の鍛造所 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation |
+| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | レア | ミッション, Skylab の鍛造所 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | エピック | ミッション, Skylab の鍛造所 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. ゆりかご |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | エピック | ブラックホール（飲み込まれた N.I.K.E.） | Dark Matter Plate, 研究センター |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | ミシカル | アセンブリ | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 鍛冶場 |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | ミシカル | アセンブリ | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 鍛冶場 |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | エピック | 小惑星 | P.E.T. ゆりかご |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | ミシカル | 小惑星 | P.E.T. ゆりかご |
+| [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | レジェンダリー | 小惑星 | P.E.T. ゆりかご |
 
 ## 素材 {#materials}
 
@@ -57,58 +60,73 @@
 
 **用途**
 
-- [Master Drone](/wiki/06-Items/Drones.md): **100** (ほかに Slave Drone ×1, 40,000 Thulium)
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (ほかに Quantum Laser II ×1, Velkonite Reinforced Plate ×2, 1,500 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **250** (ほかに Dark Matter Plate ×20, Slave Drone ×1, 50,000 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (ほかに Quantum Laser II ×1, Velkonite Reinforced Plate ×3, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **15** (ほかに Quantum Laser III ×1, Reinforced Hull Plate ×1, Velkonite Reinforced Plate ×8, 100,000クレジット, 1,500 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **120** (ほかに Power Core ×5, Reinforced Hull Plate ×20, 1,500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **300** (ほかに Ancient Control Unit ×3, Power Core ×15, Reinforced Hull Plate ×50, 20,000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **500** (ほかに Ancient Control Unit ×3, Power Core ×20, Reinforced Hull Plate ×200, 20,000 Thulium)
 - [Laser Damage Booster II](/wiki/06-Items/Boosters.md): **5** (ほかに 20,000 Thulium)
 - [Shield Wall Booster II](/wiki/06-Items/Boosters.md): **5** (ほかに 15,000 Thulium)
 - [Hull Plating Booster II](/wiki/06-Items/Boosters.md): **5** (ほかに 15,000 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **60** (ほかに Dark Matter Plate ×3, Impulse Thruster III ×1, Power Core ×3, 2,000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **200** (ほかに Ancient Control Unit ×1, Power Core ×10, Reinforced Hull Plate ×35, 10,500 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **60** (ほかに Dark Matter Plate ×3, Engine II ×1, Power Core ×3, 2,000 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **30** (ほかに Impulse Thruster II ×1, Power Core ×2, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **10** (ほかに Impulse Thruster I ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **10** (ほかに Momentum Thruster I ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **30** (ほかに Momentum Thruster II ×1, Power Core ×2, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **60** (ほかに Dark Matter Plate ×3, Momentum Thruster III ×1, Power Core ×3, 2,000 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **200** (ほかに Ancient Control Unit ×1, Power Core ×10, Reinforced Hull Plate ×35, 15,000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **110** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Impulse Thruster III ×1, Power Core ×5, 4,000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **500** (ほかに Ancient Control Unit ×3, Power Core ×10, Reinforced Hull Plate ×200, 10,500 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **110** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Engine II ×1, Power Core ×5, 4,000 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **80** (ほかに Impulse Thruster II ×1, Power Core ×4, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **50** (ほかに Absorption Shield Cell I ×1, Cataclysite ×20, Reinforced Hull Plate ×8, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **50** (ほかに Absorption Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **50** (ほかに Capacity Shield Cell I ×1, Cataclysite ×20, Reinforced Hull Plate ×8, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **50** (ほかに Capacity Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **60** (ほかに Impulse Thruster I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **60** (ほかに Momentum Thruster I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **80** (ほかに Momentum Thruster II ×1, Power Core ×4, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **110** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Momentum Thruster III ×1, Power Core ×5, 4,000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **200** (ほかに Ancient Control Unit ×3, Power Core ×20, Reinforced Hull Plate ×35, 15,000 Thulium)
 - Extra Slots CPU I: **60** (ほかに Power Core ×3, Velkonite Reinforced Plate ×6, 12,000 Thulium)
 - Extra Slots CPU II: **120** (ほかに Orvium Reinforced Plate ×2, Power Core ×6, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×12, 30,000 Thulium)
-- Extra Slots CPU III: **240** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×3, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, 75,000 Thulium)
+- Extra Slots CPU III: **240** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×4, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, 75,000 Thulium)
 - Jump CPU: **200** (ほかに Ancient Control Unit ×3, Orvium Reinforced Plate ×10, Power Core ×10, Reinforced Hull Plate ×20, Velkonite Reinforced Plate ×15, 40,000 Thulium)
 - Base CPU I: **40** (ほかに Power Core ×2, Velkonite Reinforced Plate ×4, 8,000 Thulium)
-- Base CPU II: **100** (ほかに Dark Matter Plate ×3, Orvium Reinforced Plate ×2, Power Core ×5, 20,000 Thulium)
+- Base CPU II: **100** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Orvium Reinforced Plate ×2, Power Core ×5, 20,000 Thulium)
 - Auto-Repair CPU: **80** (ほかに Power Core ×4, Reinforced Hull Plate ×8, Velkonite Reinforced Plate ×6, 15,000 Thulium)
-- Testudo Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 7,500 Thulium)
-- Bodkin Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Asterism Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 7,000 Thulium)
-- Gemini Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 38,000 Thulium)
-- Adamant Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 9,000 Thulium)
-- Ballista Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 24,000 Thulium)
-- Stiletto Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 46,000 Thulium)
-- Rampart Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 38,500 Thulium)
-- Sanctum Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Shrike Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 8,500 Thulium)
-- Culler Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Redoubt Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Auger Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 20,500 Thulium)
-- Cordon Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 21,500 Thulium)
-- Centurion Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 8,000 Thulium)
-- Gyre Formation: **180** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 20,000 Thulium)
+- Testudo Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 15,000 Thulium)
+- Bodkin Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Asterism Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 14,000 Thulium)
+- Gemini Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 76,000 Thulium)
+- Adamant Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 18,000 Thulium)
+- Ballista Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 48,000 Thulium)
+- Stiletto Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 92,000 Thulium)
+- Rampart Formation: **260** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Velkonite Reinforced Plate ×14, 77,000 Thulium)
+- Sanctum Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Shrike Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 17,000 Thulium)
+- Culler Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Redoubt Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Auger Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 41,000 Thulium)
+- Cordon Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 43,000 Thulium)
+- Centurion Formation: **100** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×4, 16,000 Thulium)
+- Gyre Formation: **180** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Damage Amp I ×1, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Damage Amp II ×1, Power Core ×2, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Crit Amp I ×1, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Crit Amp II ×1, Power Core ×2, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Daraxium ×20, Penetration Amp I ×1, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **50** (ほかに Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Power Core ×2, Velkonite Reinforced Plate ×2, 2,000 Thulium)
 - Hull Plating II: **150** (ほかに Dark Matter Plate ×5, Hull Plating I ×1, Power Core ×6, Reinforced Hull Plate ×20, 2,500 Thulium)
 - Hull Plating III: **300** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×8, Hull Plating II ×1, Power Core ×12, Reinforced Hull Plate ×40, 4,000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **10** (ほかに Engine I ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- Adaptive Core II: **10** (ほかに Adaptive Core I ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- Adaptive Core III: **60** (ほかに Adaptive Core II ×1, Dark Matter Plate ×3, Power Core ×3, 2,000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **60** (ほかに Engine I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- Adaptive Core II: **60** (ほかに Adaptive Core I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- Adaptive Core III: **110** (ほかに Adaptive Core II ×1, Ancient Control Unit ×1, Dark Matter Plate ×4, Power Core ×5, 4,000 Thulium)
+- Energetic Wall II: **10** (ほかに Energetic Wall I ×1, Power Core ×2, 600 Thulium)
+- P.E.T. Station I: **25** (ほかに Power Core ×2, Velkonite Reinforced Plate ×4, 100,000クレジット, 2,000 Thulium)
+- P.E.T. Station II: **60** (ほかに Orvium Reinforced Plate ×2, Power Core ×4, Reinforced Hull Plate ×6, Velkonite Reinforced Plate ×8, 400,000クレジット, 6,000 Thulium)
+- P.E.T. Station III: **120** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Velkonite Reinforced Plate ×12, 1,500,000クレジット, 18,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (ほかに Cataclysite ×80, Power Core ×4, Reinforced Hull Plate ×10, Scatter III ×6, 150,000クレジット, 3,000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個）: **20** (ほかに Cataclysite ×40, Reinforced Hull Plate ×4, 100,000クレジット, 1,500 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 標準から汚染: **5** (ほかに Daraxium ×15, 10,000クレジット、成功率 100%)
 - [鍛冶場](/wiki/06-Items/Forge.md), 汚染から神級: **30** (ほかに Nyxite ×45, 50,000クレジット、成功率 90%)
-- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：弾薬プリンター, 鍛造所, 鉱石ベイ, Orvium コレクター, 資源貯蔵庫, Velkonite コレクターにそれぞれ**10**（インベントリから消費され、トランスポートキャッシュからは消費されません）
-- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：ロケット工場にそれぞれ**15**（インベントリから消費され、トランスポートキャッシュからは消費されません）
-- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：研究センターにそれぞれ**25**（インベントリから消費され、トランスポートキャッシュからは消費されません）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：弾薬プリンター, 鍛造所, 鉱石ベイ, Orvium コレクター, 資源貯蔵庫, トロフィーベイ, Velkonite コレクターにそれぞれ**10**（インベントリから消費され、トランスポートキャッシュからは消費されません）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：レーダーモジュール, ロケット工場にそれぞれ**15**（インベントリから消費され、トランスポートキャッシュからは消費されません）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：エンジンモジュールにそれぞれ**20**（インベントリから消費され、トランスポートキャッシュからは消費されません）
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、モジュールの建設：防衛モジュール, 研究センターにそれぞれ**25**（インベントリから消費され、トランスポートキャッシュからは消費されません）
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **5**
 
 失敗した鍛冶場のステップでは、素材の50%が戻ります（端数は切り捨て）。
@@ -133,40 +151,42 @@
 **用途**
 
 - [Starfire-III](/wiki/06-Items/Lasers.md): **1** (ほかに Quantum Laser III ×1, Ship Fragment ×15, Velkonite Reinforced Plate ×8, 100,000クレジット, 1,500 Thulium)
-- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (ほかに Cataclysite ×50, Dark Matter Plate ×3, Orvium Reinforced Plate ×18, Power Core ×2, Starfire-III ×1, 2,000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (ほかに Ancient Control Unit ×1, Cataclysite ×50, Dark Matter Plate ×4, Orvium Reinforced Plate ×18, Power Core ×2, Starfire-III ×1, 2,000 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **20** (ほかに Power Core ×5, Ship Fragment ×120, 1,500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **50** (ほかに Ancient Control Unit ×3, Power Core ×15, Ship Fragment ×300, 20,000 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **8** (ほかに Absorption Shield Cell III ×1, Cataclysite ×20, Dark Matter Plate ×3, 2,500 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **35** (ほかに Ancient Control Unit ×1, Power Core ×10, Ship Fragment ×200, 10,500 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **8** (ほかに Basic Shield Core ×1, Cataclysite ×20, Dark Matter Plate ×3, 2,000 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **4** (ほかに Absorption Shield Cell I ×1, Cataclysite ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **6** (ほかに Absorption Shield Cell II ×1, Cataclysite ×15, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **4** (ほかに Capacity Shield Cell I ×1, Cataclysite ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **6** (ほかに Capacity Shield Cell II ×1, Cataclysite ×15, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **8** (ほかに Capacity Shield Cell III ×1, Cataclysite ×20, Dark Matter Plate ×3, 2,500 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **35** (ほかに Ancient Control Unit ×1, Power Core ×10, Ship Fragment ×200, 15,000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **200** (ほかに Ancient Control Unit ×3, Power Core ×20, Ship Fragment ×500, 20,000 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **12** (ほかに Absorption Shield Cell III ×1, Ancient Control Unit ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, 5,000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **200** (ほかに Ancient Control Unit ×3, Power Core ×10, Ship Fragment ×500, 10,500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **12** (ほかに Ancient Control Unit ×1, Basic Shield Core ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, 4,000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **8** (ほかに Absorption Shield Cell I ×1, Cataclysite ×20, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **10** (ほかに Absorption Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **8** (ほかに Capacity Shield Cell I ×1, Cataclysite ×20, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **10** (ほかに Capacity Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **12** (ほかに Ancient Control Unit ×1, Capacity Shield Cell III ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, 5,000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **35** (ほかに Ancient Control Unit ×3, Power Core ×20, Ship Fragment ×200, 15,000 Thulium)
 - Extra Slots CPU II: **10** (ほかに Orvium Reinforced Plate ×2, Power Core ×6, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 30,000 Thulium)
-- Extra Slots CPU III: **25** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×3, Orvium Reinforced Plate ×6, Power Core ×12, Ship Fragment ×240, 75,000 Thulium)
+- Extra Slots CPU III: **25** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×4, Orvium Reinforced Plate ×6, Power Core ×12, Ship Fragment ×240, 75,000 Thulium)
 - Jump CPU: **20** (ほかに Ancient Control Unit ×3, Orvium Reinforced Plate ×10, Power Core ×10, Ship Fragment ×200, Velkonite Reinforced Plate ×15, 40,000 Thulium)
 - Auto-Repair CPU: **8** (ほかに Power Core ×4, Ship Fragment ×80, Velkonite Reinforced Plate ×6, 15,000 Thulium)
-- Testudo Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 7,500 Thulium)
-- Bodkin Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Asterism Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 7,000 Thulium)
-- Gemini Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,000 Thulium)
-- Adamant Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 9,000 Thulium)
-- Ballista Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 24,000 Thulium)
-- Stiletto Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 46,000 Thulium)
-- Rampart Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,500 Thulium)
-- Sanctum Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Shrike Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 8,500 Thulium)
-- Culler Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Redoubt Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Auger Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,500 Thulium)
-- Cordon Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,500 Thulium)
-- Centurion Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 8,000 Thulium)
-- Gyre Formation: **18** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
+- Testudo Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 15,000 Thulium)
+- Bodkin Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Asterism Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 14,000 Thulium)
+- Gemini Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 76,000 Thulium)
+- Adamant Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 18,000 Thulium)
+- Ballista Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 48,000 Thulium)
+- Stiletto Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 92,000 Thulium)
+- Rampart Formation: **26** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 77,000 Thulium)
+- Sanctum Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Shrike Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 17,000 Thulium)
+- Culler Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Redoubt Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Auger Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 41,000 Thulium)
+- Cordon Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 43,000 Thulium)
+- Centurion Formation: **10** (ほかに Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 16,000 Thulium)
+- Gyre Formation: **18** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
 - Hull Plating II: **20** (ほかに Dark Matter Plate ×5, Hull Plating I ×1, Power Core ×6, Ship Fragment ×150, 2,500 Thulium)
 - Hull Plating III: **40** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×8, Hull Plating II ×1, Power Core ×12, Ship Fragment ×300, 4,000 Thulium)
+- P.E.T. Station II: **6** (ほかに Orvium Reinforced Plate ×2, Power Core ×4, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000クレジット, 6,000 Thulium)
+- P.E.T. Station III: **12** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000クレジット, 18,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (ほかに Cataclysite ×80, Power Core ×4, Scatter III ×6, Ship Fragment ×40, 150,000クレジット, 3,000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個）: **4** (ほかに Cataclysite ×40, Ship Fragment ×20, 100,000クレジット, 1,500 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 神級から破裂: **20** (ほかに Cataclysite ×120, Dark Matter Plate ×2, 200,000クレジット、成功率 75%)
@@ -193,52 +213,61 @@
 
 **用途**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×50, Dark Matter Plate ×3, Orvium Reinforced Plate ×18, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **2** (ほかに Ancient Control Unit ×1, Cataclysite ×50, Dark Matter Plate ×4, Orvium Reinforced Plate ×18, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **5** (ほかに Reinforced Hull Plate ×20, Ship Fragment ×120, 1,500 Thulium)
-- [Wraith](/wiki/02-Ships/Wraith.md): **15** (ほかに Ancient Control Unit ×3, Reinforced Hull Plate ×50, Ship Fragment ×300, 20,000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Damage Amp III ×1, Dark Matter Plate ×3, 1,200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Crit Amp III ×1, Dark Matter Plate ×3, 1,200 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **3** (ほかに Dark Matter Plate ×3, Impulse Thruster III ×1, Ship Fragment ×60, 2,000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **10** (ほかに Ancient Control Unit ×1, Reinforced Hull Plate ×35, Ship Fragment ×200, 10,500 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **3** (ほかに Dark Matter Plate ×3, Engine II ×1, Ship Fragment ×60, 2,000 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **2** (ほかに Impulse Thruster II ×1, Ship Fragment ×30, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **1** (ほかに Impulse Thruster I ×1, Ship Fragment ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **1** (ほかに Momentum Thruster I ×1, Ship Fragment ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **2** (ほかに Momentum Thruster II ×1, Ship Fragment ×30, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **3** (ほかに Dark Matter Plate ×3, Momentum Thruster III ×1, Ship Fragment ×60, 2,000 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **10** (ほかに Ancient Control Unit ×1, Reinforced Hull Plate ×35, Ship Fragment ×200, 15,000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **20** (ほかに Ancient Control Unit ×3, Reinforced Hull Plate ×200, Ship Fragment ×500, 20,000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Damage Amp III ×1, Dark Matter Plate ×4, 2,400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Crit Amp III ×1, Dark Matter Plate ×4, 2,400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **2** (ほかに Absorption Shield Cell III ×1, Ancient Control Unit ×1, Cataclysite ×30, Dark Matter Plate ×4, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **5** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Impulse Thruster III ×1, Ship Fragment ×110, 4,000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **10** (ほかに Ancient Control Unit ×3, Reinforced Hull Plate ×200, Ship Fragment ×500, 10,500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **2** (ほかに Ancient Control Unit ×1, Basic Shield Core ×1, Cataclysite ×30, Dark Matter Plate ×4, Reinforced Hull Plate ×12, 4,000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **5** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Engine II ×1, Ship Fragment ×110, 4,000 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Impulse Thruster II ×1, Ship Fragment ×80, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **2** (ほかに Absorption Shield Cell II ×1, Cataclysite ×25, Reinforced Hull Plate ×10, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **2** (ほかに Capacity Shield Cell II ×1, Cataclysite ×25, Reinforced Hull Plate ×10, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **2** (ほかに Ancient Control Unit ×1, Capacity Shield Cell III ×1, Cataclysite ×30, Dark Matter Plate ×4, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **1** (ほかに Impulse Thruster I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **1** (ほかに Momentum Thruster I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Momentum Thruster II ×1, Ship Fragment ×80, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **5** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Momentum Thruster III ×1, Ship Fragment ×110, 4,000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **20** (ほかに Ancient Control Unit ×3, Reinforced Hull Plate ×35, Ship Fragment ×200, 15,000 Thulium)
 - Extra Slots CPU I: **3** (ほかに Ship Fragment ×60, Velkonite Reinforced Plate ×6, 12,000 Thulium)
 - Extra Slots CPU II: **6** (ほかに Orvium Reinforced Plate ×2, Reinforced Hull Plate ×10, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 30,000 Thulium)
-- Extra Slots CPU III: **12** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×3, Orvium Reinforced Plate ×6, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
+- Extra Slots CPU III: **12** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×4, Orvium Reinforced Plate ×6, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
 - Jump CPU: **10** (ほかに Ancient Control Unit ×3, Orvium Reinforced Plate ×10, Reinforced Hull Plate ×20, Ship Fragment ×200, Velkonite Reinforced Plate ×15, 40,000 Thulium)
 - Base CPU I: **2** (ほかに Ship Fragment ×40, Velkonite Reinforced Plate ×4, 8,000 Thulium)
-- Base CPU II: **5** (ほかに Dark Matter Plate ×3, Orvium Reinforced Plate ×2, Ship Fragment ×100, 20,000 Thulium)
+- Base CPU II: **5** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Orvium Reinforced Plate ×2, Ship Fragment ×100, 20,000 Thulium)
 - Auto-Repair CPU: **4** (ほかに Reinforced Hull Plate ×8, Ship Fragment ×80, Velkonite Reinforced Plate ×6, 15,000 Thulium)
-- Testudo Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 7,500 Thulium)
-- Bodkin Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Asterism Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 7,000 Thulium)
-- Gemini Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,000 Thulium)
-- Adamant Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 9,000 Thulium)
-- Ballista Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 24,000 Thulium)
-- Stiletto Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 46,000 Thulium)
-- Rampart Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,500 Thulium)
-- Sanctum Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Shrike Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 8,500 Thulium)
-- Culler Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Redoubt Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Auger Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,500 Thulium)
-- Cordon Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,500 Thulium)
-- Centurion Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 8,000 Thulium)
-- Gyre Formation: **9** (ほかに Orvium Reinforced Plate ×3, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×20, Damage Amp II ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×20, Crit Amp II ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Dark Matter Plate ×3, Penetration Amp III ×1, Quorvium ×40, 1,200 Thulium)
+- Testudo Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 15,000 Thulium)
+- Bodkin Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Asterism Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 14,000 Thulium)
+- Gemini Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 76,000 Thulium)
+- Adamant Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 18,000 Thulium)
+- Ballista Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 48,000 Thulium)
+- Stiletto Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 92,000 Thulium)
+- Rampart Formation: **13** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 77,000 Thulium)
+- Sanctum Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Shrike Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 17,000 Thulium)
+- Culler Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Redoubt Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Auger Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 41,000 Thulium)
+- Cordon Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 43,000 Thulium)
+- Centurion Formation: **5** (ほかに Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×4, 16,000 Thulium)
+- Gyre Formation: **9** (ほかに Orvium Reinforced Plate ×15, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Damage Amp II ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Crit Amp II ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Dark Matter Plate ×4, Penetration Amp III ×1, Quorvium ×40, 2,400 Thulium)
 - Hull Plating II: **6** (ほかに Dark Matter Plate ×5, Hull Plating I ×1, Reinforced Hull Plate ×20, Ship Fragment ×150, 2,500 Thulium)
 - Hull Plating III: **12** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×8, Hull Plating II ×1, Reinforced Hull Plate ×40, Ship Fragment ×300, 4,000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **1** (ほかに Engine I ×1, Ship Fragment ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- Adaptive Core II: **1** (ほかに Adaptive Core I ×1, Ship Fragment ×10, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- Adaptive Core III: **3** (ほかに Adaptive Core II ×1, Dark Matter Plate ×3, Ship Fragment ×60, 2,000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **1** (ほかに Engine I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- Adaptive Core II: **1** (ほかに Adaptive Core I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- Adaptive Core III: **5** (ほかに Adaptive Core II ×1, Ancient Control Unit ×1, Dark Matter Plate ×4, Ship Fragment ×110, 4,000 Thulium)
+- Energetic Wall II: **2** (ほかに Energetic Wall I ×1, Ship Fragment ×10, 600 Thulium)
+- P.E.T. Station I: **2** (ほかに Ship Fragment ×25, Velkonite Reinforced Plate ×4, 100,000クレジット, 2,000 Thulium)
+- P.E.T. Station II: **4** (ほかに Orvium Reinforced Plate ×2, Reinforced Hull Plate ×6, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000クレジット, 6,000 Thulium)
+- P.E.T. Station III: **8** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000クレジット, 18,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (ほかに Cataclysite ×80, Reinforced Hull Plate ×10, Scatter III ×6, Ship Fragment ×40, 150,000クレジット, 3,000 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 破裂から永遠: **8** (ほかに Quorvium ×240, Dark Matter Plate ×2, 500,000クレジット, 2,000 Thulium、成功率 60%)
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **100**
@@ -262,15 +291,28 @@
 
 **用途**
 
-- [Wraith](/wiki/02-Ships/Wraith.md): **3** (ほかに Power Core ×15, Reinforced Hull Plate ×50, Ship Fragment ×300, 20,000 Thulium)
-- [Ironclad](/wiki/02-Ships/Ironclad.md): **1** (ほかに Power Core ×10, Reinforced Hull Plate ×35, Ship Fragment ×200, 10,500 Thulium)
-- [Storm](/wiki/02-Ships/Storm.md): **1** (ほかに Power Core ×10, Reinforced Hull Plate ×35, Ship Fragment ×200, 15,000 Thulium)
-- Extra Slots CPU III: **2** (ほかに Dark Matter Plate ×3, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×50, Dark Matter Plate ×4, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
+- [Wraith](/wiki/02-Ships/Wraith.md): **3** (ほかに Power Core ×20, Reinforced Hull Plate ×200, Ship Fragment ×500, 20,000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Damage Amp III ×1, Dark Matter Plate ×4, Power Core ×1, 2,400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Crit Amp III ×1, Dark Matter Plate ×4, Power Core ×1, 2,400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **1** (ほかに Absorption Shield Cell III ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **1** (ほかに Dark Matter Plate ×4, Impulse Thruster III ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- [Ironclad](/wiki/02-Ships/Ironclad.md): **3** (ほかに Power Core ×10, Reinforced Hull Plate ×200, Ship Fragment ×500, 10,500 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **1** (ほかに Basic Shield Core ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 4,000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **1** (ほかに Dark Matter Plate ×4, Engine II ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **1** (ほかに Capacity Shield Cell III ×1, Cataclysite ×30, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **1** (ほかに Dark Matter Plate ×4, Momentum Thruster III ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- [Storm](/wiki/02-Ships/Storm.md): **3** (ほかに Power Core ×20, Reinforced Hull Plate ×35, Ship Fragment ×200, 15,000 Thulium)
+- Extra Slots CPU III: **2** (ほかに Dark Matter Plate ×4, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
 - Jump CPU: **3** (ほかに Orvium Reinforced Plate ×10, Power Core ×10, Reinforced Hull Plate ×20, Ship Fragment ×200, Velkonite Reinforced Plate ×15, 40,000 Thulium)
-- Gemini Formation: **2** (ほかに Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,000 Thulium)
-- Stiletto Formation: **2** (ほかに Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 46,000 Thulium)
-- Rampart Formation: **2** (ほかに Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,500 Thulium)
+- Base CPU II: **1** (ほかに Dark Matter Plate ×4, Orvium Reinforced Plate ×2, Power Core ×5, Ship Fragment ×100, 20,000 Thulium)
+- Gemini Formation: **2** (ほかに Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 76,000 Thulium)
+- Stiletto Formation: **2** (ほかに Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 92,000 Thulium)
+- Rampart Formation: **2** (ほかに Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 77,000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×30, Dark Matter Plate ×4, Penetration Amp III ×1, Power Core ×1, Quorvium ×40, 2,400 Thulium)
 - Hull Plating III: **1** (ほかに Dark Matter Plate ×8, Hull Plating II ×1, Power Core ×12, Reinforced Hull Plate ×40, Ship Fragment ×300, 4,000 Thulium)
+- Adaptive Core III: **1** (ほかに Adaptive Core II ×1, Dark Matter Plate ×4, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- P.E.T. Station III: **2** (ほかに Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000クレジット, 18,000 Thulium)
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **650**
 
 **集め方**：[Crystalys](/wiki/04-Aliens/Crystalys.md) を倒します（セクター 4）。1体あたり平均0.2個です。
@@ -291,7 +333,7 @@
 
 **用途**
 
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (ほかに Cataclysite ×10, Penetration Amp I ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (ほかに Cataclysite ×20, Penetration Amp I ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 500 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 標準から汚染: **15** (ほかに Ship Fragment ×5, 10,000クレジット、成功率 100%)
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **7**
 
@@ -315,7 +357,7 @@
 
 **用途**
 
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **30** (ほかに Cataclysite ×20, Penetration Amp II ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **30** (ほかに Cataclysite ×20, Penetration Amp II ×1, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 汚染から神級: **45** (ほかに Ship Fragment ×30, 50,000クレジット、成功率 90%)
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **7**
 
@@ -342,23 +384,23 @@
 
 **用途**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **50** (ほかに Dark Matter Plate ×3, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Damage Amp III ×1, Dark Matter Plate ×3, Power Core ×1, 1,200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Crit Amp III ×1, Dark Matter Plate ×3, Power Core ×1, 1,200 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **20** (ほかに Absorption Shield Cell III ×1, Dark Matter Plate ×3, Reinforced Hull Plate ×8, 2,500 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **20** (ほかに Basic Shield Core ×1, Dark Matter Plate ×3, Reinforced Hull Plate ×8, 2,000 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **10** (ほかに Absorption Shield Cell I ×1, Reinforced Hull Plate ×4, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **15** (ほかに Absorption Shield Cell II ×1, Reinforced Hull Plate ×6, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **10** (ほかに Capacity Shield Cell I ×1, Reinforced Hull Plate ×4, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **15** (ほかに Capacity Shield Cell II ×1, Reinforced Hull Plate ×6, Velkonite Reinforced Plate ×4, 1,500 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **20** (ほかに Capacity Shield Cell III ×1, Dark Matter Plate ×3, Reinforced Hull Plate ×8, 2,500 Thulium)
-- [Damage Amp II](/wiki/06-Items/Lasers.md): **10** (ほかに Damage Amp I ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Damage Amp II ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Crit Amp II](/wiki/06-Items/Lasers.md): **10** (ほかに Crit Amp I ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Crit Amp II ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **10** (ほかに Daraxium ×20, Penetration Amp I ×1, Velkonite Reinforced Plate ×1, 250 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Nyxite ×30, Penetration Amp II ×1, Power Core ×1, Velkonite Reinforced Plate ×2, 1,000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Dark Matter Plate ×3, Penetration Amp III ×1, Power Core ×1, Quorvium ×40, 1,200 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **50** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Ancient Control Unit ×1, Damage Amp III ×1, Dark Matter Plate ×4, Power Core ×1, 2,400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Ancient Control Unit ×1, Crit Amp III ×1, Dark Matter Plate ×4, Power Core ×1, 2,400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **30** (ほかに Absorption Shield Cell III ×1, Ancient Control Unit ×1, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **30** (ほかに Ancient Control Unit ×1, Basic Shield Core ×1, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 4,000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **20** (ほかに Absorption Shield Cell I ×1, Reinforced Hull Plate ×8, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **25** (ほかに Absorption Shield Cell II ×1, Power Core ×2, Reinforced Hull Plate ×10, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **20** (ほかに Capacity Shield Cell I ×1, Reinforced Hull Plate ×8, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 2,000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **25** (ほかに Capacity Shield Cell II ×1, Power Core ×2, Reinforced Hull Plate ×10, Ship Fragment ×50, Velkonite Reinforced Plate ×4, 3,000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **30** (ほかに Ancient Control Unit ×1, Capacity Shield Cell III ×1, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **20** (ほかに Damage Amp I ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Damage Amp II ×1, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **20** (ほかに Crit Amp I ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Crit Amp II ×1, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **20** (ほかに Daraxium ×20, Penetration Amp I ×1, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **20** (ほかに Nyxite ×30, Penetration Amp II ×1, Power Core ×2, Ship Fragment ×50, Velkonite Reinforced Plate ×2, 2,000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **30** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Penetration Amp III ×1, Power Core ×1, Quorvium ×40, 2,400 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **80** (ほかに Power Core ×4, Reinforced Hull Plate ×10, Scatter III ×6, Ship Fragment ×40, 150,000クレジット, 3,000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個）: **40** (ほかに Reinforced Hull Plate ×4, Ship Fragment ×20, 100,000クレジット, 1,500 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 神級から破裂: **120** (ほかに Reinforced Hull Plate ×20, Dark Matter Plate ×2, 200,000クレジット、成功率 75%)
@@ -385,7 +427,7 @@
 
 **用途**
 
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **40** (ほかに Cataclysite ×30, Dark Matter Plate ×3, Penetration Amp III ×1, Power Core ×1, 1,200 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **40** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Dark Matter Plate ×4, Penetration Amp III ×1, Power Core ×1, 2,400 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 破裂から永遠: **240** (ほかに Power Core ×8, Dark Matter Plate ×2, 500,000クレジット, 2,000 Thulium、成功率 60%)
 - [研究センター](/wiki/03-Mechanics/Research.md#fuel)、燃料：1個につき科学 **8**
 
@@ -466,46 +508,49 @@
 
 **用途**
 
-- [Quantum Laser III](/wiki/06-Items/Lasers.md): **2** (ほかに Quantum Laser II ×1, Ship Fragment ×10, 1,500 Thulium)
+- [Quantum Laser III](/wiki/06-Items/Lasers.md): **3** (ほかに Quantum Laser II ×1, Ship Fragment ×10, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **8** (ほかに Quantum Laser III ×1, Reinforced Hull Plate ×1, Ship Fragment ×15, 100,000クレジット, 1,500 Thulium)
 - Dark Matter Plate: **1** (ほかに Dark Matter ×5, Orvium Reinforced Plate ×1, 250 Thulium)
-- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Impulse Thruster II ×1, Power Core ×2, Ship Fragment ×30, 1,500 Thulium)
-- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **2** (ほかに Absorption Shield Cell I ×1, Cataclysite ×10, Reinforced Hull Plate ×4, 1,000 Thulium)
-- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **4** (ほかに Absorption Shield Cell II ×1, Cataclysite ×15, Reinforced Hull Plate ×6, 1,500 Thulium)
-- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **2** (ほかに Capacity Shield Cell I ×1, Cataclysite ×10, Reinforced Hull Plate ×4, 1,000 Thulium)
-- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **4** (ほかに Capacity Shield Cell II ×1, Cataclysite ×15, Reinforced Hull Plate ×6, 1,500 Thulium)
-- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **2** (ほかに Impulse Thruster I ×1, Power Core ×1, Ship Fragment ×10, 1,000 Thulium)
-- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **2** (ほかに Momentum Thruster I ×1, Power Core ×1, Ship Fragment ×10, 1,000 Thulium)
-- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Momentum Thruster II ×1, Power Core ×2, Ship Fragment ×30, 1,500 Thulium)
+- [Impulse Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Impulse Thruster II ×1, Power Core ×4, Ship Fragment ×80, 3,000 Thulium)
+- [Absorption Shield Cell II](/wiki/06-Items/Shields.md): **4** (ほかに Absorption Shield Cell I ×1, Cataclysite ×20, Reinforced Hull Plate ×8, Ship Fragment ×50, 2,000 Thulium)
+- [Absorption Shield Cell III](/wiki/06-Items/Shields.md): **4** (ほかに Absorption Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Reinforced Hull Plate ×10, Ship Fragment ×50, 3,000 Thulium)
+- [Capacity Shield Cell II](/wiki/06-Items/Shields.md): **4** (ほかに Capacity Shield Cell I ×1, Cataclysite ×20, Reinforced Hull Plate ×8, Ship Fragment ×50, 2,000 Thulium)
+- [Capacity Shield Cell III](/wiki/06-Items/Shields.md): **4** (ほかに Capacity Shield Cell II ×1, Cataclysite ×25, Power Core ×2, Reinforced Hull Plate ×10, Ship Fragment ×50, 3,000 Thulium)
+- [Impulse Thruster II](/wiki/06-Items/Propulsion.md): **4** (ほかに Impulse Thruster I ×1, Power Core ×1, Ship Fragment ×60, 2,000 Thulium)
+- [Momentum Thruster II](/wiki/06-Items/Propulsion.md): **4** (ほかに Momentum Thruster I ×1, Power Core ×1, Ship Fragment ×60, 2,000 Thulium)
+- [Momentum Thruster III](/wiki/06-Items/Propulsion.md): **4** (ほかに Momentum Thruster II ×1, Power Core ×4, Ship Fragment ×80, 3,000 Thulium)
 - Extra Slots CPU I: **6** (ほかに Power Core ×3, Ship Fragment ×60, 12,000 Thulium)
 - Extra Slots CPU II: **12** (ほかに Orvium Reinforced Plate ×2, Power Core ×6, Reinforced Hull Plate ×10, Ship Fragment ×120, 30,000 Thulium)
 - Jump CPU: **15** (ほかに Ancient Control Unit ×3, Orvium Reinforced Plate ×10, Power Core ×10, Reinforced Hull Plate ×20, Ship Fragment ×200, 40,000 Thulium)
 - Base CPU I: **4** (ほかに Power Core ×2, Ship Fragment ×40, 8,000 Thulium)
 - Auto-Repair CPU: **6** (ほかに Power Core ×4, Reinforced Hull Plate ×8, Ship Fragment ×80, 15,000 Thulium)
-- Testudo Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 7,500 Thulium)
-- Bodkin Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 21,000 Thulium)
-- Asterism Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 7,000 Thulium)
-- Gemini Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 38,000 Thulium)
-- Adamant Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 9,000 Thulium)
-- Ballista Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 24,000 Thulium)
-- Stiletto Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 46,000 Thulium)
-- Rampart Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 38,500 Thulium)
-- Sanctum Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 20,000 Thulium)
-- Shrike Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 8,500 Thulium)
-- Culler Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 20,000 Thulium)
-- Redoubt Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 21,000 Thulium)
-- Auger Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 20,500 Thulium)
-- Cordon Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 21,500 Thulium)
-- Centurion Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 8,000 Thulium)
-- Gyre Formation: **8** (ほかに Orvium Reinforced Plate ×3, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 20,000 Thulium)
-- [Damage Amp II](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×10, Damage Amp I ×1, 250 Thulium)
-- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Damage Amp II ×1, Power Core ×1, 1,000 Thulium)
-- [Crit Amp II](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×10, Crit Amp I ×1, 250 Thulium)
-- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Crit Amp II ×1, Power Core ×1, 1,000 Thulium)
-- [Penetration Amp II](/wiki/06-Items/Lasers.md): **1** (ほかに Cataclysite ×10, Daraxium ×20, Penetration Amp I ×1, 250 Thulium)
-- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Power Core ×1, 1,000 Thulium)
-- [Engine II](/wiki/06-Items/Propulsion.md): **2** (ほかに Engine I ×1, Power Core ×1, Ship Fragment ×10, 1,000 Thulium)
-- Adaptive Core II: **2** (ほかに Adaptive Core I ×1, Power Core ×1, Ship Fragment ×10, 1,000 Thulium)
+- Testudo Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 15,000 Thulium)
+- Bodkin Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 42,000 Thulium)
+- Asterism Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 14,000 Thulium)
+- Gemini Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 76,000 Thulium)
+- Adamant Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 18,000 Thulium)
+- Ballista Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 48,000 Thulium)
+- Stiletto Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 92,000 Thulium)
+- Rampart Formation: **14** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×30, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, 77,000 Thulium)
+- Sanctum Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 40,000 Thulium)
+- Shrike Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 17,000 Thulium)
+- Culler Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 40,000 Thulium)
+- Redoubt Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 42,000 Thulium)
+- Auger Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 41,000 Thulium)
+- Cordon Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 43,000 Thulium)
+- Centurion Formation: **4** (ほかに Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 16,000 Thulium)
+- Gyre Formation: **8** (ほかに Orvium Reinforced Plate ×15, Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, 40,000 Thulium)
+- [Damage Amp II](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Damage Amp I ×1, Ship Fragment ×50, 500 Thulium)
+- [Damage Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Damage Amp II ×1, Power Core ×2, Ship Fragment ×50, 2,000 Thulium)
+- [Crit Amp II](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Crit Amp I ×1, Ship Fragment ×50, 500 Thulium)
+- [Crit Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Crit Amp II ×1, Power Core ×2, Ship Fragment ×50, 2,000 Thulium)
+- [Penetration Amp II](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Daraxium ×20, Penetration Amp I ×1, Ship Fragment ×50, 500 Thulium)
+- [Penetration Amp III](/wiki/06-Items/Lasers.md): **2** (ほかに Cataclysite ×20, Nyxite ×30, Penetration Amp II ×1, Power Core ×2, Ship Fragment ×50, 2,000 Thulium)
+- [Engine II](/wiki/06-Items/Propulsion.md): **4** (ほかに Engine I ×1, Power Core ×1, Ship Fragment ×60, 2,000 Thulium)
+- Adaptive Core II: **4** (ほかに Adaptive Core I ×1, Power Core ×1, Ship Fragment ×60, 2,000 Thulium)
+- P.E.T. Station I: **4** (ほかに Power Core ×2, Ship Fragment ×25, 100,000クレジット, 2,000 Thulium)
+- P.E.T. Station II: **8** (ほかに Orvium Reinforced Plate ×2, Power Core ×4, Reinforced Hull Plate ×6, Ship Fragment ×60, 400,000クレジット, 6,000 Thulium)
+- P.E.T. Station III: **12** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, 1,500,000クレジット, 18,000 Thulium)
 
 **モジュールの強化**：アセンブリでは、Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II と Adaptive Core I → Adaptive Core II の強化ができます。強化では元の部品が消費され、ほかの素材に加えて、これらのプレートが必要です。新しい部品は、元の部品の鍛冶場の段階を引き継ぎ、ボーナスは引き直されるため、元のものより良くも悪くもなり得ます。[アセンブリでのモジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)を参照してください。
 
@@ -532,23 +577,26 @@
 
 **用途**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **18** (ほかに Cataclysite ×50, Dark Matter Plate ×3, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **18** (ほかに Ancient Control Unit ×1, Cataclysite ×50, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
 - Dark Matter Plate: **1** (ほかに Dark Matter ×5, Velkonite Reinforced Plate ×1, 250 Thulium)
 - Extra Slots CPU II: **2** (ほかに Power Core ×6, Reinforced Hull Plate ×10, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 30,000 Thulium)
-- Extra Slots CPU III: **6** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×3, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
+- Extra Slots CPU III: **6** (ほかに Ancient Control Unit ×2, Dark Matter Plate ×4, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
 - Jump CPU: **10** (ほかに Ancient Control Unit ×3, Power Core ×10, Reinforced Hull Plate ×20, Ship Fragment ×200, Velkonite Reinforced Plate ×15, 40,000 Thulium)
-- Base CPU II: **2** (ほかに Dark Matter Plate ×3, Power Core ×5, Ship Fragment ×100, 20,000 Thulium)
-- Bodkin Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Gemini Formation: **6** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,000 Thulium)
-- Ballista Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 24,000 Thulium)
-- Stiletto Formation: **6** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 46,000 Thulium)
-- Rampart Formation: **6** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 38,500 Thulium)
-- Sanctum Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Culler Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
-- Redoubt Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,000 Thulium)
-- Auger Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,500 Thulium)
-- Cordon Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 21,500 Thulium)
-- Gyre Formation: **3** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 20,000 Thulium)
+- Base CPU II: **2** (ほかに Ancient Control Unit ×1, Dark Matter Plate ×4, Power Core ×5, Ship Fragment ×100, 20,000 Thulium)
+- Bodkin Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Gemini Formation: **30** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 76,000 Thulium)
+- Ballista Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 48,000 Thulium)
+- Stiletto Formation: **30** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 92,000 Thulium)
+- Rampart Formation: **30** (ほかに Ancient Control Unit ×2, Power Core ×13, Reinforced Hull Plate ×26, Ship Fragment ×260, Velkonite Reinforced Plate ×14, 77,000 Thulium)
+- Sanctum Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Culler Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- Redoubt Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 42,000 Thulium)
+- Auger Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 41,000 Thulium)
+- Cordon Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 43,000 Thulium)
+- Gyre Formation: **15** (ほかに Power Core ×9, Reinforced Hull Plate ×18, Ship Fragment ×180, Velkonite Reinforced Plate ×8, 40,000 Thulium)
+- P.E.T. Station II: **2** (ほかに Power Core ×4, Reinforced Hull Plate ×6, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000クレジット, 6,000 Thulium)
+- P.E.T. Station III: **4** (ほかに Ancient Control Unit ×2, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000クレジット, 18,000 Thulium)
+- **P.E.T. ゆりかご**（ハンガー）：P.E.T. を1体組み立てるごとに1個、その P.E.T. のグレードの Cluster Chunk を1個使います。
 
 **モジュールの強化**：アセンブリでは、Starfire-III → Helios Beam の強化ができます。強化では元の部品が消費され、ほかの素材に加えて、これらのプレートが必要です。新しい部品は、元の部品の鍛冶場の段階を引き継ぎ、ボーナスは引き直されるため、元のものより良くも悪くもなり得ます。[アセンブリでのモジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)を参照してください。
 
@@ -574,7 +622,7 @@
 
 ### Dark Matter Plate
 
-*ミシカルの資源。* アセンブリで、Dark Matter と2種類の Reinforced Plate から圧縮して作ります。鍛冶場は、最上位の2つの段階のそれぞれで、これを2枚要求し、各強化系統の最終ティアは3枚要求します。
+*ミシカルの資源。* アセンブリで、Dark Matter と2種類の Reinforced Plate から圧縮して作ります。鍛冶場は、最上位の2つの段階のそれぞれで、これを2枚要求し、各強化系統の最終ティアも要求します。
 
 **入手方法**
 
@@ -583,27 +631,76 @@
 
 **用途**
 
-- [Helios Beam](/wiki/06-Items/Lasers.md): **3** (ほかに Cataclysite ×50, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
-- [Damage Amp IV](/wiki/06-Items/Lasers.md): **3** (ほかに Cataclysite ×30, Damage Amp III ×1, Power Core ×1, 1,200 Thulium)
-- [Crit Amp IV](/wiki/06-Items/Lasers.md): **3** (ほかに Cataclysite ×30, Crit Amp III ×1, Power Core ×1, 1,200 Thulium)
-- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **3** (ほかに Absorption Shield Cell III ×1, Cataclysite ×20, Reinforced Hull Plate ×8, 2,500 Thulium)
-- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **3** (ほかに Impulse Thruster III ×1, Power Core ×3, Ship Fragment ×60, 2,000 Thulium)
-- [Heavy Shield Core](/wiki/06-Items/Shields.md): **3** (ほかに Basic Shield Core ×1, Cataclysite ×20, Reinforced Hull Plate ×8, 2,000 Thulium)
-- [Engine III](/wiki/06-Items/Propulsion.md): **3** (ほかに Engine II ×1, Power Core ×3, Ship Fragment ×60, 2,000 Thulium)
-- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **3** (ほかに Capacity Shield Cell III ×1, Cataclysite ×20, Reinforced Hull Plate ×8, 2,500 Thulium)
-- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **3** (ほかに Momentum Thruster III ×1, Power Core ×3, Ship Fragment ×60, 2,000 Thulium)
-- Extra Slots CPU III: **3** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
-- Base CPU II: **3** (ほかに Orvium Reinforced Plate ×2, Power Core ×5, Ship Fragment ×100, 20,000 Thulium)
-- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **3** (ほかに Cataclysite ×30, Penetration Amp III ×1, Power Core ×1, Quorvium ×40, 1,200 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **20** (ほかに Ship Fragment ×250, Slave Drone ×1, 50,000 Thulium)
+- [Helios Beam](/wiki/06-Items/Lasers.md): **4** (ほかに Ancient Control Unit ×1, Cataclysite ×50, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
+- [Damage Amp IV](/wiki/06-Items/Lasers.md): **4** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Damage Amp III ×1, Power Core ×1, 2,400 Thulium)
+- [Crit Amp IV](/wiki/06-Items/Lasers.md): **4** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Crit Amp III ×1, Power Core ×1, 2,400 Thulium)
+- [Absorption Shield Cell IV](/wiki/06-Items/Shields.md): **4** (ほかに Absorption Shield Cell III ×1, Ancient Control Unit ×1, Cataclysite ×30, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Impulse Thruster IV](/wiki/06-Items/Propulsion.md): **4** (ほかに Ancient Control Unit ×1, Impulse Thruster III ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- [Heavy Shield Core](/wiki/06-Items/Shields.md): **4** (ほかに Ancient Control Unit ×1, Basic Shield Core ×1, Cataclysite ×30, Power Core ×2, Reinforced Hull Plate ×12, 4,000 Thulium)
+- [Engine III](/wiki/06-Items/Propulsion.md): **4** (ほかに Ancient Control Unit ×1, Engine II ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- [Capacity Shield Cell IV](/wiki/06-Items/Shields.md): **4** (ほかに Ancient Control Unit ×1, Capacity Shield Cell III ×1, Cataclysite ×30, Power Core ×2, Reinforced Hull Plate ×12, 5,000 Thulium)
+- [Momentum Thruster IV](/wiki/06-Items/Propulsion.md): **4** (ほかに Ancient Control Unit ×1, Momentum Thruster III ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
+- Extra Slots CPU III: **4** (ほかに Ancient Control Unit ×2, Orvium Reinforced Plate ×6, Power Core ×12, Reinforced Hull Plate ×25, Ship Fragment ×240, 75,000 Thulium)
+- Base CPU II: **4** (ほかに Ancient Control Unit ×1, Orvium Reinforced Plate ×2, Power Core ×5, Ship Fragment ×100, 20,000 Thulium)
+- [Penetration Amp IV](/wiki/06-Items/Lasers.md): **4** (ほかに Ancient Control Unit ×1, Cataclysite ×30, Penetration Amp III ×1, Power Core ×1, Quorvium ×40, 2,400 Thulium)
 - Hull Plating II: **5** (ほかに Hull Plating I ×1, Power Core ×6, Reinforced Hull Plate ×20, Ship Fragment ×150, 2,500 Thulium)
 - Hull Plating III: **8** (ほかに Ancient Control Unit ×1, Hull Plating II ×1, Power Core ×12, Reinforced Hull Plate ×40, Ship Fragment ×300, 4,000 Thulium)
-- Adaptive Core III: **3** (ほかに Adaptive Core II ×1, Power Core ×3, Ship Fragment ×60, 2,000 Thulium)
+- Adaptive Core III: **4** (ほかに Adaptive Core II ×1, Ancient Control Unit ×1, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
 - [鍛冶場](/wiki/06-Items/Forge.md), 神級から破裂: **2** (ほかに Reinforced Hull Plate ×20, Cataclysite ×120, 200,000クレジット、成功率 75%)
 - [鍛冶場](/wiki/06-Items/Forge.md), 破裂から永遠: **2** (ほかに Power Core ×8, Quorvium ×240, 500,000クレジット, 2,000 Thulium、成功率 60%)
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、エンジンモジュール：建設に **1** 枚、その後レベル 2 から 5 まで 2, 3, 5 と 8
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、防衛モジュール：建設に **1** 枚、その後レベル 2 から 5 まで 2, 4, 7 と 12
+- [Skylab](/wiki/03-Mechanics/Skylab.md)、レーダーモジュール：建設には不要、その後レベル 2 から 3 まで 1 と 3
 
 失敗した鍛冶場のステップでは、素材の50%が戻ります（端数は切り捨て）。
 
 **集め方**：見つけるものではなく、圧縮して作るものです。Dark Matter（上を参照）と、Skylab の鍛造所で作る2種類のプレートを集め、アセンブリで製作を開始します。先にレシピを研究してください。全体の流れは [Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) にあります。
+
+### Regular Cluster Chunk
+
+*エピックの資源。* 小惑星から採れる結晶の塊です。Orvium Reinforced Plate と一緒にハンガーの P.E.T. ゆりかごに入れると、ブースト1つの P.E.T. が作れます：4種類のうち1つ。
+
+**入手方法**
+
+- **小惑星**：破壊すると、最もダメージを与えたパーティの鉱石チャンクの中に1つ丸ごと残ることがあります。破壊時の確率は、岩のティアごとに ティア2：0.4%, ティア3：0.8%, ティア4：1%, ティア5：1.2%、Motherlode は 25% です。運では変わりません。
+- **それ以外**：ショップでは販売していません。
+
+**用途**
+
+- **P.E.T. ゆりかご**（ハンガー）：これ1個と Orvium Reinforced Plate 1個で、P.E.T. を1体（Regular）組み立てます。
+
+**集め方**：小惑星を壊します。大きいほど良く、最もダメージを与えたパーティがチャンクを受け取り、Motherlode が最もよく落とします。
+
+### Mythical Cluster Chunk
+
+*ミシカルの資源。* 小惑星から採れる結晶の塊です。Orvium Reinforced Plate と一緒にハンガーの P.E.T. ゆりかごに入れると、ブースト2つの P.E.T. が作れます：7種類のうち1つ。
+
+**入手方法**
+
+- **小惑星**：破壊すると、最もダメージを与えたパーティの鉱石チャンクの中に1つ丸ごと残ることがあります。破壊時の確率は、岩のティアごとに ティア3：0.15%, ティア4：0.25%, ティア5：0.3%、Motherlode は 8% です。運では変わりません。
+- **それ以外**：ショップでは販売していません。
+
+**用途**
+
+- **P.E.T. ゆりかご**（ハンガー）：これ1個と Orvium Reinforced Plate 1個で、P.E.T. を1体（Mythical）組み立てます。
+
+**集め方**：小惑星を壊します。大きいほど良く、最もダメージを与えたパーティがチャンクを受け取り、Motherlode が最もよく落とします。
+
+### Legendary Cluster Chunk
+
+*レジェンダリーの資源。* 小惑星から採れる結晶の塊です。Orvium Reinforced Plate と一緒にハンガーの P.E.T. ゆりかごに入れると、ブースト3つの P.E.T. が作れます：10種類のうち1つ。
+
+**入手方法**
+
+- **小惑星**：破壊すると、最もダメージを与えたパーティの鉱石チャンクの中に1つ丸ごと残ることがあります。破壊時の確率は、岩のティアごとに ティア4：0.03%, ティア5：0.1%、Motherlode は 3% です。運では変わりません。
+- **それ以外**：ショップでは販売していません。
+
+**用途**
+
+- **P.E.T. ゆりかご**（ハンガー）：これ1個と Orvium Reinforced Plate 1個で、P.E.T. を1体（Legendary）組み立てます。
+
+**集め方**：小惑星を壊します。大きいほど良く、最もダメージを与えたパーティがチャンクを受け取り、Motherlode が最もよく落とします。
 
 ## 通貨 {#currencies}
 
@@ -648,10 +745,10 @@
 **用途**
 
 - **ショップ**：27種類のアイテムがクレジットで売られています（価格は各ページに載っています：[アイテム概要](/wiki/06-Items/Overview.md)と[ロケット](/wiki/06-Items/Rockets.md)）。
-- **アセンブリ**、製作ごと：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 100,000。
+- **アセンブリ**、製作ごと：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, P.E.T. Station I 100,000, P.E.T. Station II 400,000, P.E.T. Station III 1,500,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 100,000。
 - **[鍛冶場](/wiki/06-Items/Forge.md)**、段階ステップごと：標準から汚染 10,000, 汚染から神級 50,000, 神級から破裂 200,000, 破裂から永遠 500,000。
 - **鍛冶場の統合**、できあがる段階ごと：汚染 5,000, 神級 25,000, 破裂 100,000, 永遠 250,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 20,000（レベル 1）、5,600,000（レベル 20）, クレジットファーム 0（レベル 1）、7,000,000（レベル 20）, 鍛造所 5,000（レベル 1）、9,000,000（レベル 20）, 鉱石ベイ 5,000（レベル 1）、4,500,000（レベル 20）, Orvium コレクター 20,000（レベル 1）、5,500,000（レベル 20）, 研究センター 25,000（レベルごとに x1.5）, ロケット工場 20,000（レベル 1）、1,400,000（レベル 20）, ソーラー 500（レベル 1）、9,000,000（レベル 20）, 資源貯蔵庫 5,000（レベル 1）、4,500,000（レベル 20）, Thulium ファーム 5,000（レベル 1）、8,500,000（レベル 20）, Velkonite コレクター 20,000（レベル 1）、5,500,000（レベル 20）。 コアは最初からあるため、最初に支払うのはレベル 2 の価格で、1,500です（以降はレベルごとに x1.5）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 20,000（レベル 1）、5,600,000（レベル 20）, クレジットファーム 0（レベル 1）、7,000,000（レベル 20）, 防衛モジュール 500,000（レベル 1）、14,000,000（レベル 5）, エンジンモジュール 375,000（レベル 1）、8,750,000（レベル 5）, 鍛造所 5,000（レベル 1）、9,000,000（レベル 20）, 鉱石ベイ 5,000（レベル 1）、4,500,000（レベル 20）, Orvium コレクター 20,000（レベル 1）、5,500,000（レベル 20）, レーダーモジュール 250,000（レベル 1）、2,250,000（レベル 3）, 研究センター 25,000（レベルごとに x1.5）, ロケット工場 20,000（レベル 1）、1,400,000（レベル 20）, ソーラー 500（レベル 1）、9,000,000（レベル 20）, 資源貯蔵庫 5,000（レベル 1）、4,500,000（レベル 20）, Thulium ファーム 5,000（レベル 1）、8,500,000（レベル 20）, トロフィーベイ 100,000（レベル 1）、2,325,000（レベル 20）, Velkonite コレクター 20,000（レベル 1）、5,500,000（レベル 20）。 コアは最初からあるため、最初に支払うのはレベル 2 の価格で、1,500です（以降はレベルごとに x1.5）。
 - **エネルギーマテリアライザー**：Chrono-Gate のパーツを探す1回のスキャンにつき、5,000クレジット（[詳細](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
 - **[クラン](/wiki/03-Mechanics/Clans.md)**：クランバンクへの寄付（パイロット1人あたり、任意の24時間につき最大1,000,000クレジット）と、クランの毎日の税（所持クレジットの一定割合で、リーダーが設定します）。
 
@@ -681,10 +778,10 @@
 
 **用途**
 
-- **ショップ**：25種類のアイテムが Thulium で売られています（価格は各ページに載っています：[アイテム概要](/wiki/06-Items/Overview.md)と[ロケット](/wiki/06-Items/Rockets.md)）。
-- **アセンブリ**、製作ごと：[Master Drone](/wiki/06-Items/Drones.md) 40,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Crit Amp IV](/wiki/06-Items/Lasers.md) 1,200, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 2,000, [Engine III](/wiki/06-Items/Propulsion.md) 2,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 1,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 1,500, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 2,500, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 1,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 1,500, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 2,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 7,500, Bodkin Formation 21,000, Asterism Formation 7,000, Gemini Formation 38,000, Adamant Formation 9,000, Ballista Formation 24,000, Stiletto Formation 46,000, Rampart Formation 38,500, Sanctum Formation 20,000, Shrike Formation 8,500, Culler Formation 20,000, Redoubt Formation 21,000, Auger Formation 20,500, Cordon Formation 21,500, Centurion Formation 8,000, Gyre Formation 20,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 250, [Damage Amp III](/wiki/06-Items/Lasers.md) 1,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 250, [Crit Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 250, [Penetration Amp III](/wiki/06-Items/Lasers.md) 1,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 1,200, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 1,000, Adaptive Core II 1,000, Adaptive Core III 2,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 1,500。
+- **ショップ**：26種類のアイテムが Thulium で売られています（価格は各ページに載っています：[アイテム概要](/wiki/06-Items/Overview.md)と[ロケット](/wiki/06-Items/Rockets.md)）。
+- **アセンブリ**、製作ごと：[Master Drone](/wiki/06-Items/Drones.md) 50,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4,000, [Engine III](/wiki/06-Items/Propulsion.md) 4,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 15,000, Bodkin Formation 42,000, Asterism Formation 14,000, Gemini Formation 76,000, Adamant Formation 18,000, Ballista Formation 48,000, Stiletto Formation 92,000, Rampart Formation 77,000, Sanctum Formation 40,000, Shrike Formation 17,000, Culler Formation 40,000, Redoubt Formation 42,000, Auger Formation 41,000, Cordon Formation 43,000, Centurion Formation 16,000, Gyre Formation 40,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2,400, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 2,000, Adaptive Core II 2,000, Adaptive Core III 4,000, Energetic Wall II 600, P.E.T. Station I 2,000, P.E.T. Station II 6,000, P.E.T. Station III 18,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （1回の製作で5個） 1,500。
 - **[鍛冶場](/wiki/06-Items/Forge.md)**、段階ステップごと：破裂から永遠 2,000。
-- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 500（レベル 1）、11,000（レベル 20）, クレジットファーム 0（レベル 1）、550（レベル 20）, 鍛造所 500（レベル 1）、10,000（レベル 20）, 鉱石ベイ 250（レベル 1）、550（レベル 20）, Orvium コレクター 500（レベル 1）、12,500（レベル 20）, 研究センター 500（レベルごとに x1.5）, ロケット工場 500（レベル 1）、2,800（レベル 20）, ソーラー 50（レベル 1）、10,000（レベル 20）, 資源貯蔵庫 250（レベル 1）、550（レベル 20）, Thulium ファーム 500（レベル 1）、16,000（レベル 20）, Velkonite コレクター 500（レベル 1）、12,500（レベル 20）。
+- **[Skylab](/wiki/03-Mechanics/Skylab.md)** の建設とアップグレード、各モジュールの価格（レベル 1 は建設、それより上のレベルにはそれぞれ専用の価格があります）：弾薬プリンター 500（レベル 1）、11,000（レベル 20）, クレジットファーム 0（レベル 1）、550（レベル 20）, 防衛モジュール 2,000（レベル 1）、56,000（レベル 5）, エンジンモジュール 1,500（レベル 1）、35,000（レベル 5）, 鍛造所 500（レベル 1）、10,000（レベル 20）, 鉱石ベイ 250（レベル 1）、550（レベル 20）, Orvium コレクター 500（レベル 1）、12,500（レベル 20）, レーダーモジュール 1,000（レベル 1）、9,000（レベル 3）, 研究センター 500（レベルごとに x1.5）, ロケット工場 500（レベル 1）、2,800（レベル 20）, ソーラー 50（レベル 1）、10,000（レベル 20）, 資源貯蔵庫 250（レベル 1）、550（レベル 20）, Thulium ファーム 500（レベル 1）、16,000（レベル 20）, トロフィーベイ 400（レベル 1）、9,300（レベル 20）, Velkonite コレクター 500（レベル 1）、12,500（レベル 20）。
 - **[研究](/wiki/03-Mechanics/Research.md#the-thulium-boost)**：研究センターのブーストは 5,000 Thulium です。
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**：1回のジャンプにつき 500 Thulium。
 - **エネルギーマテリアライザー**：Chrono-Gate のパーツを探す1回のスキャンにつき、5 Thulium（[詳細](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
@@ -696,7 +793,7 @@
 
 - **コンテナ**：エイリアンのドロップ品は、爆発した場所に1つのコンテナとして落ち、30秒間は、撃破したパイロットとそのクランのために確保されます。[Resource Magnet Booster](/wiki/06-Items/Boosters.md) は、コンテナの中身を25%増やします。詳しくは[積荷コンテナ](/wiki/03-Mechanics/Cargo.md)を参照してください。
 - **残骸**：撃破された[企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)は、誰が（何が）撃破しても、コンテナもパーツも残さないため、パイロットの艦は素材の入手源にはなりません。平和プロトコルが終わったあと、[ワールド](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)が PvP を許可している場所では、他企業のパイロットを撃破できます。自企業のパイロットを撃破すると、名誉を100失います。
-- **モジュールの強化**：アセンブリでは、1つ下の部品を強化して Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II と Adaptive Core III を作ります。部品は消費されます。強化には Velkonite Reinforced Plate, Dark Matter Plate と Orvium Reinforced Plate が必要で、これは Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation と Gyre Formation と同じです。新しい部品は、元の部品の鍛冶場の段階を引き継ぎ、ボーナスは引き直されるため、元のものより良くも悪くもなり得ます。[アセンブリでのモジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)を参照してください。
+- **モジュールの強化**：アセンブリでは、1つ下の部品を強化して Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III と Energetic Wall II を作ります。部品は消費されます。強化には Velkonite Reinforced Plate, Dark Matter Plate と Orvium Reinforced Plate が必要で、これは Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II と P.E.T. Station III と同じです。新しい部品は、元の部品の鍛冶場の段階を引き継ぎ、ボーナスは引き直されるため、元のものより良くも悪くもなり得ます。[アセンブリでのモジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)を参照してください。
 - **保管場所**：アセンブリ、鍛冶場、Skylab の建設で使われるのは、インベントリにある通常のスタックです。艦に装備されているスタックや、トランスポートキャッシュ内のスタックは使われません。
 - **ワイプ**：インベントリにある素材は[ワイプのルール](/wiki/03-Mechanics/Wipe-Timeline.md)に従います。Skylab の資源貯蔵庫に保管した鉱石は残ります。
 

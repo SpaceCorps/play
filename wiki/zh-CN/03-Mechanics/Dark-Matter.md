@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea6d96252a5296d9 -->
+<!-- wiki-i18n source: bd7db9b63b944c54 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -11,13 +11,13 @@
 ## 一分钟了解 {#in-one-minute}
 
 - **Dark Matter 是一种资源，在任何地方都只叫 Dark Matter。** 危险星区 4（`DS-4`）中央的黑洞会产出它：每枚抵达黑洞的 N.I.K.E. 火箭会返还 1 到 3 个 Dark Matter（平均 2 个），装在黑洞区域边缘的小货箱里。
-- **有什么用。** 研究中心的 83 项科技需要它，每项 5 到 40 个，共 904 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。
+- **有什么用。** 研究中心的 93 项科技需要它，每项 5 到 40 个，共 1,019 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。
 - **在研究中心**，你在按下开始之前，从货舱里添加 Dark Matter（舰船须已降落）。研究开始时会取用它。
 - **Dark Matter Plate 是另一种物品。** 先研究它的配方（科技树的资源组：1 天和 10 个 Dark Matter），再到装配站用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 制造它。
-- **板有什么用。** 每条升级链的最后一阶需要 **3 块**：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 13 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。
+- **板有什么用。** 每条升级链的最后一阶需要 **4 块** 和至少 1 个 Ancient Control Unit：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 13 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。Skylab 的引擎模块、防御模块和雷达模块建造和升级时也需要 Dark Matter Plate（[资源](/wiki/06-Items/Resources.md#dark-matter-plate)）。
 - **先研究板。** 这 13 件部件的科技也都需要这块板的科技。以前研究过的部件仍然算作已研究，但制作它所需的板需要这块板的科技。
 - **第一步。** 大约 5 枚 N.I.K.E. 火箭（一次制造）就能得到板的配方所需的 10 个 Dark Matter。
-- **一整件部件。** 一件最后一阶的部件含有 15 个 Dark Matter（3 块板），平均相当于 7.5 枚 N.I.K.E. 火箭。
+- **一整件部件。** 一件最后一阶的部件含有 20 个 Dark Matter（4 块板），平均相当于 10 枚 N.I.K.E. 火箭。
 
 ## 两者对照 {#side-by-side}
 
@@ -26,7 +26,7 @@
 | **是什么** | 史诗资源 | 神话资源 |
 | **从哪里来** | 危险星区 4 的黑洞，对射入其中的 N.I.K.E. 火箭；少量来自 Dormant 虫群和 Dormant Swamp 的 Inert Mass | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
 | **先做什么** | 研究 N.I.K.E.（3 小时，不需要 Dark Matter）并制造一些 | 研究板的配方（1 天，10 个 Dark Matter） |
-| **有什么用** | 研究的花费（83 项科技，共 904 个）和板 | 每条升级链的最后一阶：13 件部件各需 3 块；锻造炉：最高两级各需 2 块 |
+| **有什么用** | 研究的花费（93 项科技，共 1,019 个）和板 | 每条升级链的最后一阶：13 件部件各需 4 块；Master Drone 的升级：20 块；锻造炉：最高两级各需 2 块 |
 
 ## 如何获得 Dark Matter {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@
 
 ## 研究中心里的 Dark Matter {#in-the-research-centre}
 
-科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 16 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。Hull Plating 的两项研究需要 **25 个和 40 个**，舰船科技（13 种设计和 36 个装甲槽位）每项 **10 个**。[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格列出了全部。
+科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 16 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。Hull Plating 的两项研究需要 **25 个和 40 个**，舰船科技（13 种设计和 36 个装甲槽位）每项 **10 个**。Skylab 的引擎模块、防御模块和雷达模块从第二级起每级需要 **5、10、15 或 20**，合计 115（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。其余的都列在[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格里。
 
 1. **在空间站打开 Skylab 的研究视图**，选择科技。它的卡片上有一行 **Dark Matter**：研究中心里有多少，它需要多少（例如 3 / 10）。
 2. **按下添加。** 它把 Dark Matter 从你的货舱移到研究中心，补上缺的部分，以你携带的数量为限。你的舰船必须已降落。**取回**会把它退回货舱。
@@ -70,11 +70,11 @@
 1. **研究配方。** 在研究视图中，**Dark Matter Plate** 科技位于科技树的**资源**组。它需要 1 天，并需要 10 个 Dark Matter，你要先把它们添加到研究中心。最后一阶的 13 件部件的科技也需要它。
 2. **备齐一块板所需的东西：** 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium。Skylab 的锻造厂用矿石制作这两种强化板（[Skylab](/wiki/03-Mechanics/Skylab.md)）。
 3. **在装配站制造。** 在类别筛选中选择**资源**。一次制造在 120 秒内做出一块板。
-4. **使用它。** 每条升级链的最后一阶需要 **3 块板**（见[下文](#what-the-last-tier-asks-for)）。[锻造炉](/wiki/06-Items/Forge.md)要求 **2 块板**，才能把物品从神圣提升到裂变（成功率 75%，200,000 信用点），再要 **2 块**，才能从裂变提升到永恒（成功率 60%，500,000 信用点和 2,000 Thulium）。失败的一步会退回一半材料，向下取整：一块板。
+4. **使用它。** 每条升级链的最后一阶需要 **4 块板**（见[下文](#what-the-last-tier-asks-for)）。[锻造炉](/wiki/06-Items/Forge.md)要求 **2 块板**，才能把物品从神圣提升到裂变（成功率 75%，200,000 信用点），再要 **2 块**，才能从裂变提升到永恒（成功率 60%，500,000 信用点和 2,000 Thulium）。失败的一步会退回一半材料，向下取整：一块板。Master Drone 的升级需要 **20 块**板。
 
 ## 最后一阶的需求 {#what-the-last-tier-asks-for}
 
-每条升级链的最后一阶需要 **3 块 Dark Matter Plate**，不需要 Velkonite 板：前面的几阶才会用到它们。共 13 件：
+每条升级链的最后一阶需要 **4 块 Dark Matter Plate** 和至少 1 个 Ancient Control Unit，不需要 Velkonite 板：前面的几阶才会用到它们。共 13 件：
 
 - **激光增幅器：** Damage Amp IV、Crit Amp IV 和 Penetration Amp IV，各由 III 阶增幅器制成（[激光与弹药](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
 - **Helios Beam**，由 Starfire-III 制成，另需 18 块 Orvium Reinforced Plate（[激光与弹药](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
@@ -85,16 +85,16 @@
 - **Adaptive Core III**，由 Adaptive Core II 制成（[护盾](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)）。
 - **CPU：** Extra Slots CPU III 另需 6 块 Orvium Reinforced Plate，Base CPU II 另需 2 块（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
-**以下不需要 Dark Matter Plate：** Quantum Laser III 和 Starfire-III（用 Velkonite 板）、每条链的 II 阶和 III 阶（增幅器用 1 块或 2 块 Velkonite 板，电池或推进器用 2 块或 4 块）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I 和 II、Base CPU I、16 种无人机编队以及各艘舰船。[锻造炉](/wiki/06-Items/Forge.md)的最高两步仍各要求 2 块。
+**以下不需要 Dark Matter Plate：** Quantum Laser III 和 Starfire-III（用 Velkonite 板）、每条链的 II 阶和 III 阶（增幅器用 2 块 Velkonite 板，电池或推进器用 4 块）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I 和 II、Base CPU I、16 种无人机编队以及各艘舰船。[锻造炉](/wiki/06-Items/Forge.md)的最高两步仍各要求 2 块。
 
-一块板由 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制而成，所以一件部件的 3 块板还需要 3 块 Velkonite 板、3 块 Orvium 板和 750 Thulium。处处都用最后一阶时，整套配置共含：
+一块板由 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制而成，所以一件部件的 4 块板还需要 4 块 Velkonite 板、4 块 Orvium 板和 1,000 Thulium。处处都用最后一阶时，整套配置共含：
 
 | 你要建造的 | 最后一阶的部件 | 板 | Dark Matter | N.I.K.E. 火箭（平均） |
 | :--- | ---: | ---: | ---: | ---: |
-| 一件最后一阶的部件 | 1 | 3 | 15 | 7.5 |
-| 一把带有 3 个 IV 阶增幅器的 Helios Beam | 4 | 12 | 60 | 30 |
-| 一艘 Paragon | 40 | 120 | 600 | 300 |
-| 一艘 Wraith | 60 | 180 | 900 | 450 |
+| 一件最后一阶的部件 | 1 | 4 | 20 | 10 |
+| 一把带有 3 个 IV 阶增幅器的 Helios Beam | 4 | 16 | 80 | 40 |
+| 一艘 Paragon | 40 | 160 | 800 | 400 |
+| 一艘 Wraith | 60 | 240 | 1,200 | 600 |
 
 Paragon 的 40 件部件是它的 8 把激光、这些激光上的 24 个增幅器和 8 个发生器与支援槽位（3 + 3 + 2）；Wraith 的 60 件是它的 12 把激光、这些激光上的 36 个增幅器和 12 个发生器与支援槽位（4 + 4 + 4）。
 
@@ -105,10 +105,10 @@ Paragon 的 40 件部件是它的 8 把激光、这些激光上的 24 个增幅�
 | 研究板的配方 | 10 | 5 |
 | 一块 Dark Matter Plate | 5 | 2.5 |
 | 锻造炉一步所需的两块板 | 10 | 5 |
-| 一件最后一阶部件的三块板 | 15 | 7.5 |
-| 所有需要 Dark Matter 的科技 | 904 | 452 |
+| 一件最后一阶部件的四块板 | 20 | 10 |
+| 所有需要 Dark Matter 的科技 | 1,019 | 510 |
 
-从零开始的第一次升级是配方（10 个）加两块板（10 个）：20 个 Dark Matter，约 10 枚 N.I.K.E. 火箭，也就是两次制造。从零开始的第一个 IV 阶增幅器是这块板的配方（10 个）、增幅器自己的科技（10 个）加 3 块板（15 个）：35 个 Dark Matter，约 18 枚 N.I.K.E. 火箭。
+从零开始的第一次升级是配方（10 个）加两块板（10 个）：20 个 Dark Matter，约 10 枚 N.I.K.E. 火箭，也就是两次制造。从零开始的第一个 IV 阶增幅器是这块板的配方（10 个）、增幅器自己的科技（10 个）加 4 块板（20 个）：40 个 Dark Matter，约 20 枚 N.I.K.E. 火箭。
 
 ## 常见误区 {#common-mistakes}
 

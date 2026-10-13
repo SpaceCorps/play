@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 71dc635a8b350561 -->
+<!-- wiki-i18n source: e03b770363c92f01 -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
@@ -10,6 +10,7 @@
 
 - **粗悪**：基本的な初期装備。
 - **コモン**：標準的な軍用グレード。
+- **アンコモン**：標準より一段上の装備。
 - **レア**：高性能な装備。
 - **エピック**：先進技術の装備。
 - **ミシカル**：伝説的な実験用プロトタイプ。
@@ -22,50 +23,54 @@
 
 ロックされたカードには**研究を開く**ボタンがあり、その技術を選んだ状態で Skylab の研究ビューが開きます。カードには素材と価格が引き続き表示されるので計画を立てられ、ロックされたレシピは各カテゴリーの最後に並びます。Extra Slots CPU は、ひとつ下の段階も待ちます。Extra Slots CPU II のカードでは先に Extra Slots CPU I を取り付けるよう表示され、III のカードでは II が求められます。
 
-最上位のレーザーアンプ、ティアII～IVのシールドセルとスラスター、ティアIIとIIIのエンジンとアダプティブコア、そして Heavy Shield Core は販売されていません。これらはアセンブリで、1つ下の段階にある部品（Heavy Shield Core は Basic Shield Core から、Engine III は Engine II から、Adaptive Core II は Adaptive Core I から、Impulse Thruster III は Impulse Thruster II から）に、少量の Thulium、エイリアンのドロップ品、プレート（Skylab の鍛造所で作る Velkonite プレートと、最終ティアでは Dark Matter Plate 3枚）を加えて作ります。部品はインベントリにある外れた状態でなければなりません。先に艦から外し、レーザー、シールド、エンジン、アダプティブコアからも取り出し（シールド、エンジン、アダプティブコアは、自身のセルやスラスターを何も装着していない状態にしてください）、トランスポートキャッシュからも出してください。**新しいアイテムは、消費した部品の[エンチャント](/wiki/06-Items/Overview.md#item-enchants)段階を引き継ぎ、ボーナスは引き直されます**（神級の Damage Amp III からは、元と同じ数の新しいボーナスが付いた神級の Damage Amp IV ができます）。どのコピーを使うかは選べます。コピーの内容が異なる場合、アセンブリのレシピカードに一覧が表示され、標準より上の段階のものを使うときは、先に確認が入ります。何も選ばない場合は、エンチャント段階が最も低いものから使われるため、段階の高いコピーは残ります（同じ段階のコピーの間では、ボーナスにかかわらず、最も古いものから使われます）。ルールの全体は、[鍛冶場](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)のページにあります。
+最上位のレーザーアンプ、ティアII～IVのシールドセルとスラスター、ティアIIとIIIのエンジンとアダプティブコア、そして Heavy Shield Core は販売されていません。これらはアセンブリで、1つ下の段階にある部品（Heavy Shield Core は Basic Shield Core から、Engine III は Engine II から、Adaptive Core II は Adaptive Core I から、Impulse Thruster III は Impulse Thruster II から）に、少量の Thulium、エイリアンのドロップ品、プレート（Skylab の鍛造所で作る Velkonite プレートと、最終ティアでは Dark Matter Plate 4枚）を加えて作ります。部品はインベントリにある外れた状態でなければなりません。先に艦から外し、レーザー、シールド、エンジン、アダプティブコアからも取り出し（シールド、エンジン、アダプティブコアは、自身のセルやスラスターを何も装着していない状態にしてください）、トランスポートキャッシュからも出してください。**新しいアイテムは、消費した部品の[エンチャント](/wiki/06-Items/Overview.md#item-enchants)段階を引き継ぎ、ボーナスは引き直されます**（神級の Damage Amp III からは、元と同じ数の新しいボーナスが付いた神級の Damage Amp IV ができます）。どのコピーを使うかは選べます。コピーの内容が異なる場合、アセンブリのレシピカードに一覧が表示され、標準より上の段階のものを使うときは、先に確認が入ります。何も選ばない場合は、エンチャント段階が最も低いものから使われるため、段階の高いコピーは残ります（同じ段階のコピーの間では、ボーナスにかかわらず、最も古いものから使われます）。ルールの全体は、[鍛冶場](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)のページにあります。
 
 | 強化 | 消費する部品 | Thulium | 素材 | 所要時間 |
 | :--- | :--- | :---: | :--- | :---: |
-| **Damage Amp II** | Damage Amp I 1個 | 250 | Cataclysite 10個、Velkonite Reinforced Plate 1枚 | 60秒 |
-| **Damage Amp III** | Damage Amp II 1個 | 1,000 | Cataclysite 20個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Damage Amp IV** | Damage Amp III 1個 | 1,200 | Cataclysite 30個、Power Core 1個、Dark Matter Plate 3枚 | 60秒 |
-| **Crit Amp II** | Crit Amp I 1個 | 250 | Cataclysite 10個、Velkonite Reinforced Plate 1枚 | 60秒 |
-| **Crit Amp III** | Crit Amp II 1個 | 1,000 | Cataclysite 20個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Crit Amp IV** | Crit Amp III 1個 | 1,200 | Cataclysite 30個、Power Core 1個、Dark Matter Plate 3枚 | 60秒 |
-| **Penetration Amp II** | Penetration Amp I 1個 | 250 | Daraxium 20個、Cataclysite 10個、Velkonite Reinforced Plate 1枚 | 60秒 |
-| **Penetration Amp III** | Penetration Amp II 1個 | 1,000 | Nyxite 30個、Cataclysite 20個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Penetration Amp IV** | Penetration Amp III 1個 | 1,200 | Quorvium 40個、Cataclysite 30個、Power Core 1個、Dark Matter Plate 3枚 | 90秒 |
-| **Capacity Shield Cell II** | Capacity Shield Cell I 1個 | 1,000 | Cataclysite 10個、Reinforced Hull Plate 4枚、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Capacity Shield Cell III** | Capacity Shield Cell II 1個 | 1,500 | Cataclysite 15個、Reinforced Hull Plate 6枚、Velkonite Reinforced Plate 4枚 | 60秒 |
-| **Capacity Shield Cell IV** | Capacity Shield Cell III 1個 | 2,500 | Cataclysite 20個、Reinforced Hull Plate 8枚、Dark Matter Plate 3枚 | 90秒 |
-| **Absorption Shield Cell II** | Absorption Shield Cell I 1個 | 1,000 | Cataclysite 10個、Reinforced Hull Plate 4枚、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Absorption Shield Cell III** | Absorption Shield Cell II 1個 | 1,500 | Cataclysite 15個、Reinforced Hull Plate 6枚、Velkonite Reinforced Plate 4枚 | 60秒 |
-| **Absorption Shield Cell IV** | Absorption Shield Cell III 1個 | 2,500 | Cataclysite 20個、Reinforced Hull Plate 8枚、Dark Matter Plate 3枚 | 90秒 |
-| **Impulse Thruster II** | Impulse Thruster I 1個 | 1,000 | Ship Fragment 10個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Impulse Thruster III** | Impulse Thruster II 1個 | 1,500 | Ship Fragment 30個、Power Core 2個、Velkonite Reinforced Plate 4枚 | 60秒 |
-| **Impulse Thruster IV** | Impulse Thruster III 1個 | 2,000 | Ship Fragment 60個、Power Core 3個、Dark Matter Plate 3枚 | 90秒 |
-| **Momentum Thruster II** | Momentum Thruster I 1個 | 1,000 | Ship Fragment 10個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Momentum Thruster III** | Momentum Thruster II 1個 | 1,500 | Ship Fragment 30個、Power Core 2個、Velkonite Reinforced Plate 4枚 | 60秒 |
-| **Momentum Thruster IV** | Momentum Thruster III 1個 | 2,000 | Ship Fragment 60個、Power Core 3個、Dark Matter Plate 3枚 | 90秒 |
-| **Heavy Shield Core** | Basic Shield Core 1個 | 2,000 | Cataclysite 20個、Reinforced Hull Plate 8枚、Dark Matter Plate 3枚 | 90秒 |
-| **Engine II** | Engine I 1個 | 1,000 | Ship Fragment 10個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Engine III** | Engine II 1個 | 2,000 | Ship Fragment 60個、Power Core 3個、Dark Matter Plate 3枚 | 90秒 |
-| **Adaptive Core II** | Adaptive Core I 1個 | 1,000 | Ship Fragment 10個、Power Core 1個、Velkonite Reinforced Plate 2枚 | 60秒 |
-| **Adaptive Core III** | Adaptive Core II 1個 | 2,000 | Ship Fragment 60個、Power Core 3個、Dark Matter Plate 3枚 | 90秒 |
+| **Damage Amp II** | Damage Amp I 1個 | 500 | Cataclysite 20個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Damage Amp III** | Damage Amp II 1個 | 2,000 | Cataclysite 20個、Power Core 2個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Damage Amp IV** | Damage Amp III 1個 | 2,400 | Cataclysite 30個、Power Core 1個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 60秒 |
+| **Crit Amp II** | Crit Amp I 1個 | 500 | Cataclysite 20個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Crit Amp III** | Crit Amp II 1個 | 2,000 | Cataclysite 20個、Power Core 2個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Crit Amp IV** | Crit Amp III 1個 | 2,400 | Cataclysite 30個、Power Core 1個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 60秒 |
+| **Penetration Amp II** | Penetration Amp I 1個 | 500 | Daraxium 20個、Cataclysite 20個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Penetration Amp III** | Penetration Amp II 1個 | 2,000 | Nyxite 30個、Cataclysite 20個、Power Core 2個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 | 60秒 |
+| **Penetration Amp IV** | Penetration Amp III 1個 | 2,400 | Quorvium 40個、Cataclysite 30個、Power Core 1個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Capacity Shield Cell II** | Capacity Shield Cell I 1個 | 2,000 | Cataclysite 20個、Reinforced Hull Plate 8枚、Ship Fragment 50個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Capacity Shield Cell III** | Capacity Shield Cell II 1個 | 3,000 | Cataclysite 25個、Reinforced Hull Plate 10枚、Ship Fragment 50個、Power Core 2個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Capacity Shield Cell IV** | Capacity Shield Cell III 1個 | 5,000 | Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Absorption Shield Cell II** | Absorption Shield Cell I 1個 | 2,000 | Cataclysite 20個、Reinforced Hull Plate 8枚、Ship Fragment 50個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Absorption Shield Cell III** | Absorption Shield Cell II 1個 | 3,000 | Cataclysite 25個、Reinforced Hull Plate 10枚、Ship Fragment 50個、Power Core 2個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Absorption Shield Cell IV** | Absorption Shield Cell III 1個 | 5,000 | Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Impulse Thruster II** | Impulse Thruster I 1個 | 2,000 | Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Impulse Thruster III** | Impulse Thruster II 1個 | 3,000 | Ship Fragment 80個、Power Core 4個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Impulse Thruster IV** | Impulse Thruster III 1個 | 4,000 | Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Momentum Thruster II** | Momentum Thruster I 1個 | 2,000 | Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Momentum Thruster III** | Momentum Thruster II 1個 | 3,000 | Ship Fragment 80個、Power Core 4個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Momentum Thruster IV** | Momentum Thruster III 1個 | 4,000 | Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Heavy Shield Core** | Basic Shield Core 1個 | 4,000 | Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Engine II** | Engine I 1個 | 2,000 | Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Engine III** | Engine II 1個 | 4,000 | Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
+| **Adaptive Core II** | Adaptive Core I 1個 | 2,000 | Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚 | 60秒 |
+| **Adaptive Core III** | Adaptive Core II 1個 | 4,000 | Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、Dark Matter Plate 4枚 | 90秒 |
 | **Hull Plating II** | Hull Plating I 1個 | 2,500 | Ship Fragment 150個、Reinforced Hull Plate 20個、Power Core 6個、Dark Matter Plate 5枚 | 300秒 |
 | **Hull Plating III** | Hull Plating II 1個 | 4,000 | Ship Fragment 300個、Reinforced Hull Plate 40個、Power Core 12個、Ancient Control Unit 1個、Dark Matter Plate 8枚 | 600秒 |
 
-Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.25個、Reinforced Hull Plate 0.6枚、Power Core 0.25個です。そのため、ドロップ品を集めるには、Damage Amp IV か Crit Amp IV で約8体、セルはティアIIで約7体・IIIで約10体・IVで約14体、Heavy Shield Core で約14体、スラスターはティアIIで約4体・IIIで約10体・IVで約19体、Engine II か Adaptive Core II で約4体、Engine III か Adaptive Core III で約19体の Goombah が必要です。Bulwark が落とすのは、Cataclysite 2個、Ship Fragment 2個、Reinforced Hull Plate 0.3枚で、Power Core は落としません。ティアIIまたはIIIの Damage Amp や Crit Amp は約3体、約5体の Goombah 分で、Penetration Amp も同じですが、Quorvium 40個だけは約14体分です（Daraxium と Nyxite は Seeker、Phantasm、Bulwark が落とします）。
+Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.25個、Reinforced Hull Plate 0.6枚、Power Core 0.25個です。そのため、ドロップ品を集めるには、Damage Amp IV か Crit Amp IV で約8体、セルはティアIIで約16体・IIIで約17体・IVで約20体、Heavy Shield Core で約20体、スラスターはティアIIで約19体・IIIで約25体・IVで約34体、Engine II か Adaptive Core II で約19体、Engine III か Adaptive Core III で約34体の Goombah が必要です。Bulwark が落とすのは、Cataclysite 2個、Ship Fragment 2個、Reinforced Hull Plate 0.3枚で、Power Core は落としません。ティアIIまたはIIIの Damage Amp や Crit Amp は約16体の Goombah 分で、Penetration Amp も同じですが、Quorvium 40個だけは約14体分です（Daraxium と Nyxite は Seeker、Phantasm、Bulwark が落とします）。
 
-プレートはドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、ティアIIとIIIの Velkonite Reinforced Plate を Velkonite 鉱石から作ります（鍛造所レベル1ではプレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、ティアIIIのセルやスラスターのプレート4枚は16時間分、ティアIIのプレート2枚は8時間分の採掘になります。ティアIIIのアンプはプレート2枚（8時間分）、ティアIIのアンプはプレート1枚（4時間分）です。最終ティアは、代わりに **Dark Matter Plate 3枚** を要求します。対象は、ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam です。アセンブリは、プレートのレシピを研究したあとで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium からプレート1枚を圧縮します。Dark Matter はブラックホールから来るので、最終ティアの部品1つに Dark Matter 15個、N.I.K.E. ロケット平均7.5発分が入っています（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)を参照してください。
+プレートはドロップしません。[Skylab](/wiki/03-Mechanics/Skylab.md) の鍛造所が、ティアIIとIIIの Velkonite Reinforced Plate を Velkonite 鉱石から作ります（鍛造所レベル1ではプレート1枚につき鉱石40個）。レベル1の Velkonite コレクターは1時間に鉱石10個を採掘するため、ティアIIまたはIIIのセルやスラスターのプレート4枚は16時間分の採掘になります。ティアIIまたはIIIのアンプはプレート2枚（8時間分）です。最終ティアは、代わりに **Dark Matter Plate 4枚** と Ancient Control Unit 1個以上を要求します。対象は、ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam です。アセンブリは、プレートのレシピを研究したあとで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium からプレート1枚を圧縮します。Dark Matter はブラックホールから来るので、最終ティアの部品1つに Dark Matter 20個、N.I.K.E. ロケット平均10発分が入っています（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。各素材の入手元は、[資源](/wiki/06-Items/Resources.md)を参照してください。
 
-**Helios Beam** も同じ種類の強化で、レーザーからレーザーを作ります。Starfire-III を1基消費し、2,000 Thulium、Cataclysite 50個、Power Core 2個、Reinforced Hull Plate 4枚、Orvium Reinforced Plate 18枚、Dark Matter Plate 3枚が必要で、同じように Starfire-III のエンチャント段階を引き継ぎます。**Starfire-III** も同様です。Quantum Laser III を1基消費し、1,500 Thulium、100,000クレジット、Ship Fragment 15個、Reinforced Hull Plate 1枚、Velkonite Reinforced Plate 8枚が必要で、Quantum Laser III のエンチャント段階を引き継ぎます。**Quantum Laser III** も同様です。Quantum Laser II（ショップのレーザー）を1基消費し、1,500 Thulium、Ship Fragment 10個、Velkonite Reinforced Plate 2枚が必要で、Quantum Laser II のエンチャント段階を引き継ぎます。3つとも[レーザー](/wiki/06-Items/Lasers.md)のページに載っています。上の表に載っているのは、アンプ、ティアII～IVのセルとスラスター、Heavy Shield Core、Engine III です。
+**Helios Beam** も同じ種類の強化で、レーザーからレーザーを作ります。Starfire-III を1基消費し、2,000 Thulium、Cataclysite 50個、Power Core 2個、Reinforced Hull Plate 4枚、Orvium Reinforced Plate 18枚、Dark Matter Plate 4枚、Ancient Control Unit 1個が必要で、同じように Starfire-III のエンチャント段階を引き継ぎます。**Starfire-III** も同様です。Quantum Laser III を1基消費し、1,500 Thulium、100,000クレジット、Ship Fragment 15個、Reinforced Hull Plate 1枚、Velkonite Reinforced Plate 8枚が必要で、Quantum Laser III のエンチャント段階を引き継ぎます。**Quantum Laser III** も同様です。Quantum Laser II（ショップのレーザー）を1基消費し、1,500 Thulium、Ship Fragment 10個、Velkonite Reinforced Plate 3枚が必要で、Quantum Laser II のエンチャント段階を引き継ぎます。3つとも[レーザー](/wiki/06-Items/Lasers.md)のページに載っています。上の表に載っているのは、アンプ、ティアII～IVのセルとスラスター、Heavy Shield Core、Engine III です。
 
 ## 生産キュー {#the-production-queue}
 
 アセンブリが作るものはすべて、**1本の生産キュー**を通ります。クラフトタブの上にあるカードです。ジョブは**1つずつ**進みます。新しいジョブは、前のジョブが終わると始まり、不在のあいだも進み、支払いはキューに入れるときに行います。完了したジョブは受け取りを待ちます。**受け取る**でそのジョブを受け取り、**すべて受け取る**（完了したジョブが2つ以上あると表示されます）で完了したジョブをまとめて受け取ります。キューに入るのは**最大100ジョブ**で、実行中のもの、待っているもの、完了して受け取っていないものを合わせた数です。
 
-**複数個をまとめて。**対応するレシピのカードには、製作ボタンの上に **×1**、**×5**、**×10**、**最大** のチップがあります。バッチは複数ではなく**1つのジョブ**です。レシピの時間に個数を掛けた時間で進み、タイマーもキュー上の行も1つ（たとえば ×5 と表示）で、**1回の受け取りで全部の個数が出てきます**。**すべて**の個数の費用、つまりクレジット、Thulium、素材は、**先払いで、全部か、まったくなしか**のどちらかです。全個数ぶんを払えなければ、何も引かれず、何もキューに入りません。払えないチップはグレーになり、**最大**は今払える個数で、最大25です。複数個のときは、カードに合計の費用、合計の素材、合計の時間が出ます。持てるロケットの上限を超えてしまうロケットのバッチは、丸ごと断られます。
+**横にスクロールするタイムライン。** カードは時間軸に沿ったブロックの帯です。左に完了したジョブ、その隣に進行バーとオレンジの**現在**線つきの実行中のジョブ、そのあとに待機中のジョブが並びます。帯の高さはいつも同じなので、ジョブが増えたり終わったりしても、下のレシピは動きません。ブロックの幅はその時間に応じて決まり（最小と最大の幅の間）、カーソルを重ねるとアイテム、個数、終了時刻、残り時間が見られます。帯は **Shiftキー＋マウスホイール**、ドラッグ、両端の矢印、矢印キーでスクロールできます。スクロールで外すまで、帯は実行中のジョブが見える位置を保ち、**現在**ボタンで戻せます。タイトルの下には、ジョブ数、できたブロック数、完了数、残り時間が出ます。
+
+**隣り合うものはまとまります。** 同じレシピのジョブが隣り合っていて、すべて待機中またはすべて完了済みなら、個数を合計した**1つのブロック**として描かれます（レーザー ×8）。これはキューの描き方だけの話で、ジョブは1つずつ別のままで、それぞれ今までどおりに作られ、受け取られます。まとまったブロックをクリックすると中のジョブに展開され、もう一度クリックすると閉じます。完了したグループで**受け取る**を押すと、その中のジョブを1つずつ順に受け取ります。
+
+**複数個をまとめて。** 対応するレシピのカードには、製作ボタンの上に **−** と **+** のついた**数値欄**と、**×1**、**×5**、**×10**、**最大** のチップがあります。好きな数を入力して **Enter** で製作するか、ボタンや上下キーで増減します。カードはレシピごとに入力した数を覚えています。バッチは複数ではなく**1つのジョブ**です。レシピの時間に個数を掛けた時間で進み、タイマーもキュー上のブロックも1つ（たとえば ×5 と表示）で、**1回の受け取りで全部の個数が出てきます**。**すべて**の個数の費用、つまりクレジット、Thulium、素材は、**先払いで、全部か、まったくなしか**のどちらかです。全個数ぶんを払えなければ、何も引かれず、何もキューに入りません。作れない数は作られません。カードに**最大12（Power Core）**のように、上限と何がそれを抑えているか（バッチの上限25、クレジット、Thulium、素材）が表示され、Enter はその数に下げるだけで製作はしません。払えないチップはグレーになり、**最大**は今払える個数で、最大25です。複数個のときは、カードに合計の費用、合計の素材、合計の時間が出ます。持てるロケットの上限を超えてしまうロケットのバッチは、丸ごと断られます。
 
 **1つずつだけ。**艦、Extra Slots CPU、装備品の強化（Damage Amp III から Damage Amp IV、Basic Shield Core から Heavy Shield Core）、Master Drone の強化にはチップがありません。どれも、あなたが選んだ1つを使い切るか取り付けるからです。それでも、何件かを続けてキューに入れることはできます。艦を[デザイン](/wiki/03-Mechanics/Ship-Designs.md)に改造する作業もこの種の作業の1つで、自動で完了します。受け取るものはなく、**すべて受け取る**の対象にもなりません。
 
@@ -104,14 +109,15 @@ Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.
 
 ## カテゴリー {#categories}
 
-ショップ、ハンガーのインベントリ、その他のアイテム一覧は、すべて同じ順番で並びます。艦、その船体装甲、続いてレーザー（アンプと弾薬つき）、シールド（セルつき）、エンジン（スラスターつき）、アダプティブコア、エクストラ、ドローン、ドローン編成、ブースター、資源の順です。同じ種類の中では、最も安いものが先に来ます。
+ショップ、ハンガーのインベントリ、その他のアイテム一覧は、すべて同じ順番で並びます。艦、その船体装甲、続いてレーザー（アンプと弾薬つき）、シールド（セルつき）、エンジン（スラスターつき）、アダプティブコア、エクストラ、消耗品、ドローン、ドローン編成、ブースター、資源の順です。同じ種類の中では、最も安いものが先に来ます。
 
 - **船体装甲**：製作する4隻の艦の装甲スロットに入る装甲で、Hull Plating I から III まで、上がるほど多くの船体を加えます。[船体装甲](/wiki/06-Items/Hull-Plating.md)を参照してください。
 - **レーザー**：主力の武器システムと、そこに装着する[アンプ](/wiki/06-Items/Lasers.md)です。
 - **シールド**：防御用のジェネレーターと[セル](/wiki/06-Items/Shields.md)です。
 - **推進装置**：速度のためのエンジンと[スラスター](/wiki/06-Items/Propulsion.md)です。
 - **Repair Drone**：船体を修理するエクストラで、後のものほど速く修理します。Repair Drone I、II、III は5,000、15,000、35,000クレジット、Repair Drone IV は2,000 Thulium です。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
-- **Cloaking CPU と EMP Charge**：戦闘や逃走のためのエクストラです。Cloaking CPU は、自分で解除するまで艦を隠します（S、M、L は使用回数が10、25、50回で、価格は5,000、11,250、20,000 Thulium）。EMP Charge は、3秒間ロックオンされなくなり、あなたへのロックオンをすべて解除し、近くのステルスもすべて解除します（500 Thulium）。[エクストラ](/wiki/06-Items/Extras.md)を参照してください。
+- **Cloaking CPU**：戦闘や逃走のためのエクストラです。Cloaking CPU は、自分で解除するまで艦を隠します（S、M、L は使用回数が10、25、50回で、価格は5,000、11,250、20,000 Thulium）。[エクストラ](/wiki/06-Items/Extras.md)を参照してください。
+- **EMP Charge**：ロケットと同じようにスタックで持ち運ぶ消耗品で、スロットは使いません（1チャージ500 Thulium、最大20）。3秒間ロックオンされなくなり、あなたへのロックオンをすべて解除し、近くのステルスもすべて解除します。[ロケット](/wiki/06-Items/Rockets.md#emp-charge)を参照してください。
 - **研究 CPU**：Extra Slots CPU はすべての艦のエクストラスロットを増やし、Jump CPU は Thulium と引き換えに企業のセクターへ運び、Base CPU は基地へ連れ戻し、Auto-Repair CPU は Repair Drone を自動で出します。販売はされません。研究してから、アセンブリで製作します。[エクストラ](/wiki/06-Items/Extras.md#research-cpus)を参照してください。
 - **ドローン編成**：ドローンのための16種類のアイテムで、ボーナスを与える代わりに代償を求めます（例：シールドが大きくなる代わりに武器が弱くなる）。販売はされていません。研究したうえで、アセンブリでThuliumを使って作成します。[ドローン編成](/wiki/03-Mechanics/Formations.md)を参照してください。
 - **資源**：製作のために、エイリアンがドロップし、Skylab が作るものです。Ship Fragment、4種類のクリスタル、Power Core、Velkonite と Orvium のプレートに加え、ほかから手に入る2つがあります。N.I.K.E. ロケットと引き換えに[ブラックホール](/wiki/03-Mechanics/Black-Hole.md)が返す **Dark Matter** と、それをアセンブリが圧縮して作る **Dark Matter Plate** です。後者は、各強化系統の最終ティアと、[鍛冶場](/wiki/06-Items/Forge.md)の最上位の2ステップに使います。

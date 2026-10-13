@@ -44,5 +44,5 @@ The Paragon is a heavy combat cruiser designed with balanced defense and offense
 
 ## Lore
 
-The Paragon combat cruiser is the workhorse of the sector patrol fleets. Engineered for endurance, it features a heavy titanium-shielded hull and advanced weapon mounting arrays. Its multi-nozzle engine configuration allows it to maintain exceptional stability under fire, making it a reliable bulwark against alien incursions. It leaves Assembly in plain grey, and so do its designs.
+The Paragon combat cruiser is the workhorse of the sector patrol fleets. Engineered for endurance, it features a heavy titanium-shielded hull and advanced weapon mounting arrays. Its multi-nozzle engine configuration allows it to maintain exceptional stability under fire, making it a reliable bulwark against alien incursions. It leaves Assembly in plain grey, and so do its designs, until a skin paints them.
 

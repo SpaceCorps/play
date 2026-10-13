@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38c5207b9cbc0d89 -->
+<!-- wiki-i18n source: c3dd26d1b3524b81 -->
 <!-- wiki-i18n title: 技能 -->
 # 舰船主动技能 {#active-ship-abilities}
 
@@ -43,7 +43,7 @@
 
 ### Shield Surge（护盾），按键 `Q` {#shield-surge-shields-key-q}
 
-在十秒内，你舰船的护盾会得到**恢复**：Surge 会均匀地恢复最大护盾的一部分，最多恢复到上限，绝不会超过。它不是屏障，也不会改变攻击伤害在护盾与船体之间的分摊方式；它只是把护盾补回来，而补回来的部分会保留。受到攻击时它不会中断（普通充能在受击后要等 15 秒；Surge 不用）。护盾已满的舰船从中获益很少，所以请在护盾告急时再按。总量不会低于核心自身的容量，因此护盾很少的舰船也能得到一次实实在在的修复（最高恢复到上限）。
+在十秒内，你舰船的护盾会得到**恢复**：Surge 会均匀地恢复最大护盾的一部分，最多恢复到上限，绝不会超过。它不是屏障，也不会改变攻击伤害在护盾与船体之间的分摊方式；它只是把护盾补回来，而补回来的部分会保留。受到攻击时它不会中断（普通充能在受击后要等 15 秒；Surge 不用）。护盾已满的舰船从中获益很少，所以请在护盾告急时再按。总量不会低于核心自身容量的 60%，因此护盾很少的舰船也能得到一次实实在在的修复（最高恢复到上限）。
 
 - 在安全区保护期间，以及在完全没有护盾的舰船上，会被拒绝使用，以免误点白白消耗掉它。
 - 穿透型火箭仍会部分绕过护盾，这一点和以前一样。
@@ -89,16 +89,16 @@
 
 | 技能 | 等级 | 物品 | 强度（单个模块） | 持续时间 | 冷却 | 生效占比 |
 | :--- | :---: | :--- | :--- | --: | --: | --: |
-| **Shield Surge** | I | Light Shield Core | 恢复你最大护盾的 30% | 10 秒 | 120 秒 | 8.3% |
-| **Shield Surge** | II | Basic Shield Core | 恢复你最大护盾的 60% | 10 秒 | 105 秒 | 9.5% |
-| **Shield Surge** | III | Heavy Shield Core | 恢复你最大护盾的 100% | 10 秒 | 90 秒 | 11.1% |
+| **Shield Surge** | I | Light Shield Core | 恢复你最大护盾的 18% | 10 秒 | 120 秒 | 8.3% |
+| **Shield Surge** | II | Basic Shield Core | 恢复你最大护盾的 36% | 10 秒 | 105 秒 | 9.5% |
+| **Shield Surge** | III | Heavy Shield Core | 恢复你最大护盾的 60% | 10 秒 | 90 秒 | 11.1% |
 | **Afterburner** | I | Engine I | 速度 +30% | 10 秒 | 120 秒 | 8.3% |
 | **Afterburner** | II | Engine II | 速度 +45% | 10 秒 | 105 秒 | 9.5% |
 | **Afterburner** | III | Engine III | 速度 +60% | 10 秒 | 90 秒 | 11.1% |
-| **Emergency Repair** | I | Repair Drone I | 修复你最大船体的 20% | 10 秒 | 120 秒 | 8.3% |
-| **Emergency Repair** | II | Repair Drone II | 修复你最大船体的 25% | 10 秒 | 105 秒 | 9.5% |
-| **Emergency Repair** | III | Repair Drone III | 修复你最大船体的 32% | 10 秒 | 90 秒 | 11.1% |
-| **Emergency Repair** | IV | Repair Drone IV | 修复你最大船体的 40% | 10 秒 | 75 秒 | 13.3% |
+| **Emergency Repair** | I | Repair Drone I | 修复你最大船体的 12% | 10 秒 | 120 秒 | 8.3% |
+| **Emergency Repair** | II | Repair Drone II | 修复你最大船体的 15% | 10 秒 | 105 秒 | 9.5% |
+| **Emergency Repair** | III | Repair Drone III | 修复你最大船体的 19.2% | 10 秒 | 90 秒 | 11.1% |
+| **Emergency Repair** | IV | Repair Drone IV | 修复你最大船体的 24% | 10 秒 | 75 秒 | 13.3% |
 
 同一套配置中的多个同类模块：等级最低的模块决定上面的强度和冷却，其余每个模块再增加其 50%。
 
@@ -110,7 +110,7 @@
 
 <!-- abilities:end -->
 
-Engine II 以及 III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中，分别用一个 Engine I、Basic Shield Core 和 Engine II 来制造，并消耗 Thulium、掉落物和板（Engine II 用 2 块 Velkonite Reinforced Plate，其余用 3 块 Dark Matter Plate：[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。Emergency Repair 还有第四个等级，即 Repair Drone IV。
+Engine II 以及 III 级的护盾和引擎（Heavy Shield Core、Engine III）不出售：你要在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中，分别用一个 Engine I、Basic Shield Core 和 Engine II 来制造，并消耗 Thulium、掉落物和板（Engine II 用 4 块 Velkonite Reinforced Plate，其余用 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit：[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。Emergency Repair 还有第四个等级，即 Repair Drone IV。
 
 ## 冷却与限制 {#cooldowns-and-limits}
 

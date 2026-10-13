@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93029f432757eb93 -->
+<!-- wiki-i18n source: be4819075016f18a -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -10,15 +10,16 @@
 | **Cloaking CPU S** | 함선을 숨깁니다 | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | 함선을 숨깁니다 | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 함선을 숨깁니다 | 50 | 20,000 Thulium |
-| **EMP Charge** | 3초 동안 아무도 당신을 대상으로 지정할 수 없고, 당신에 대한 모든 락온이 해제되며, 주변의 모든 은폐가 해제됩니다 | 1 | 500 Thulium |
+| **Energetic Wall I** | 커서 위치, 함선 가까이에 플라즈마 벽을 세웁니다: 벽을 가로지르는 사격은 대신 벽에 맞고, 벽 안의 함선은 불탑니다 | 무제한 | 250 Thulium |
+| **Energetic Wall II** | 체력이 3배인 같은 벽 (30,000과 90,000) | 무제한 | 어셈블리: 연구 후 Energetic Wall I과 600 Thulium |
 
-Cloaking CPU와 EMP Charge는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다.
+Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고).
 
 새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. 사용하려면 퀵슬롯의 부가 장비 선택창에서 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없습니다.
 
 CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
-부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**, EMP Charge는 **EMP**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
+부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**, Energetic Wall은 **WAL**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템도 슬롯이 없으며, 어셈블리에서 수령하면 스스로 설치되어 [P.E.T.](/wiki/03-Mechanics/Pets.md) 2마리, 3마리, 5마리의 자리를 만듭니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
 
 ![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
@@ -31,26 +32,32 @@ CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연�
 어셈블리에서 만드는 것은 먼저 해당 기술이 필요합니다. 아이템에 마우스를 올리면 연구에 걸리는 시간을 볼 수 있습니다. 기술 트리, 연료, 부스트는 [연구](/wiki/03-Mechanics/Research.md)에 있습니다.
 
 ```tree
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
+P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -77,22 +84,23 @@ CLK 슬롯을 누르면 은폐합니다. **한 번 누를 때마다 1회 사용�
 
 S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저렴합니다(500, 450, 400 Thulium).
 
-## EMP Charge
+## Energetic Wall
 
-전투 중에 EMP 슬롯을 누르세요. **3초** 동안 아무도 당신을 락온할 수 없으며, 당신을 락온하고 있던 **모든 대상은 즉시 락온을 잃습니다**. 어디에 있든 마찬가지이며, 파일럿, 외계인, 기업 파일럿 모두 해당합니다. 락온이 풀린 파일럿에게는 “락온 해제: 대상이 EMP를 사용했습니다”라고 알려 줍니다. 그 3초 동안 락온을 시도하는 대상은 거부됩니다.
+WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선과 직각으로 **플라즈마 벽**이 섭니다. 길이 360 유닛(함선 모델 약 3개 반), 너비 10 유닛의 띠입니다. 중심은 함선 중심에서 최대 **450 유닛**이며, 커서가 더 멀면 선을 따라 450 유닛 지점에, 120 유닛보다 가까우면 120 유닛 지점에 세워집니다. 슬롯이 준비된 동안에는 옅은 점선과 유령 윤곽선이 설 자리를 보여 줍니다. 게임이 커서 위치를 알지 못하면 함선 중심에서 220 유닛 앞에 진행 방향을 가로질러 섭니다. 사용하려면 REP처럼 퀵슬롯의 부가 장비에서 벽을 슬롯에 끌어다 놓으세요. 뒤에 숨거나 통로를 막는 용도이며, 그 안에 서 있는 용도가 아닙니다.
 
-- **무적이 아닙니다.** 락온이 필요한 공격, 즉 레이저, 유도 로켓, 그리고 당신을 통과해 날아가는 직선 단일 대상 로켓의 타격을 막아 줍니다. **범위 폭발**은 락온이 필요 없으므로 범위 안에 있으면 여전히 피해를 입으며, 블랙홀은 애초에 사격이 아닙니다.
-- **행동은 계속할 수 있습니다.** 사격해도 해제되지 않습니다. 은폐(은폐 자체의 규칙이 허용할 때)와 다른 부가 장비도 사용할 수 있습니다.
-- **주변의 은폐를 해제합니다.** 펄스가 터질 때 당신으로부터 **1,500유닛** 이내에서 은폐 중인 모든 함선은 즉시 모습이 드러나고, 해당 함선의 CPU는 60초 동안의 재충전에 들어갑니다. 소속 기업은 상관없으며 당신의 기업도 포함됩니다. 다만 당신의 [그룹](/wiki/03-Mechanics/Groups.md) 함선은 예외로, 은폐가 유지됩니다. 해당 파일럿에게는 “은폐 해제: 근처에서 EMP가 발동했습니다.”라고 알려지고, 함선은 다른 은폐 해제 때와 같은 물결 효과와 함께 다시 나타나며, 슬롯은 재충전을 시작합니다. 자신이 은폐 중일 때는 EMP를 사용할 수 없습니다.
-- **아무것도 숨기지 않습니다.** 모두가 여전히 당신을 볼 수 있으며, 3초 동안은 지직거리는 전기 막이 함선을 감쌉니다.
-- 안전 지대의 보호를 받는 동안, 은폐 중일 때, 또는 마지막 EMP 사용 후 **30초** 이내에는 **사용할 수 없습니다**. 그 밖의 모든 곳에서 작동하며, 시즌 초반(평화 프로토콜)에도 사용할 수 있습니다. 그때도 외계인은 계속 사냥에 나섭니다.
-- 3초 동안 당신이 공격한 외계인은 그 3초가 끝날 때까지 당신에게 반격하지 않습니다. 처치 선점과 첫 타격 규칙은 달라지지 않습니다.
-- **화면 표시.** 휘어진 공간의 펄스가 파일럿에게서 은폐를 해제하는 거리(1,500유닛)까지 퍼져 나가며, 범위 안의 모두가 이를 봅니다. 3초 동안은 지직거리는 전기 막이 함선을 감싸고, 자신의 함선 둘레의 고리와 화면 상단의 칩이 남은 시간을 셉니다. 당신을 선택해 둔 모든 대상의 대상 링은 짧은 전기 충격음과 함께 깨집니다. EMP 슬롯에는 보유한 충전량이 표시되고, 막이 유지되는 동안 파란색으로 빛나며, 재충전 중에는 어두워집니다.
-- **충전 1개에 1회 사용.** 더 보유하고 있으면 슬롯은 인벤토리에서 다시 채워집니다. **30초**의 재충전 시간은 저장되지 않습니다. 로그아웃하거나 포털로 점프하면 사라지며, 다음 펄스에는 충전 1개가 소모됩니다.
+- **무엇을 막는가.** 벽을 가로지르는 사격은 누가, 어느 쪽에서 쏘았든 대신 벽에 맞습니다. 레이저 일제 사격, 로켓, 외계인의 일제 사격 모두 해당합니다. 벽 뒤에 있는 것은 아무 피해도 입지 않고, 벽의 체력이 피해를 받습니다. 벽에서 터진 로켓의 폭발은 가까운 쪽의 함선에는 닿지만 벽 뒤의 함선에는 닿지 않습니다. 내 사격도 마찬가지여서, 내 벽을 통해 바깥으로 쏠 수 없습니다. N.I.K.E.와 Dormant Swamp의 포탑은 소행성 위를 지나듯 벽 위를 넘어갑니다.
+- **무엇을 태우는가.** 선체가 띠에 닿은 함선은 모두 먼저 실드에 **초당 2,500의 피해**를 입습니다. 내 함선도, 외계인과 기업 파일럿도 마찬가지입니다. 안전 지대에 있거나 리스폰 보호를 받는 함선은 타지 않으며, 한 함선 위에 띠가 둘 겹쳐도 피해는 합쳐지지 않습니다.
+- **얼마나 오래 가는가.** 레벨 1 벽은 **체력 30,000**, 레벨 2 벽은 **90,000**입니다. 벽은 아무 일이 없어도 매초 그 60분의 1을 잃으므로, 아무도 쏘지 않은 벽은 **60초** 뒤에 사라집니다. 사격은 이 시간을 줄입니다. Helios Beam 12정과 x4 탄약을 쓰는 Wraith는 레벨 1 벽을 약 3.5초에 무너뜨립니다.
+- **한 번에 하나.** 새 벽은 이전 벽을 대신합니다. 누른 뒤 아이템은 **90초** 동안 재충전됩니다. 대기 시간은 함선이 아니라 파일럿의 것이므로 사망이나 로그아웃으로 줄어들지 않습니다. 두 개를 장착했다면 더 좋은 벽이 나옵니다.
+- **쓸 수 없는 곳.** 안전 지대나 리스폰 보호를 받는 동안, 띠가 안전 지대나 게이트에 닿는 곳, 은폐 중, 띠의 중심이 지도 밖에 놓이는 곳에서는 쓸 수 없습니다. 어느 경우인지는 게임이 알려 줍니다.
+- **격파.** 벽이 파괴한 함선은 방사선으로 죽으며, 격파는 15초 안에 그 함선을 마지막으로 맞힌 적 파일럿에게 돌아갑니다(있다면). 벽을 세운 사람은 자기가 쏘지 않은 것에 대해서는 아무것도 얻지 못합니다. 벽이 파괴한 외계인은 아무것도 주지 않습니다. 보상도 전리품도 없습니다.
+- **외계인은 벽을 돌아가지 않습니다.** 벽을 뚫고 지나가며 타거나, 자기 쪽에 서서 벽을 쏩니다.
+- **보이는 모습.** 청백색 빛의 띠에 밝은 줄이 따라 흐르고 양쪽 끝에 빛의 기둥이 섭니다. 사격이 맞은 곳에서 번쩍이고 거의 다 닳으면 깜박입니다. 레벨 2 벽은 대신 노랗게 빛나며 중심이 더 굵고 밝고 광채도 더 강하지만, 띠의 너비는 레벨 1 벽과 같은 10 유닛입니다. 옆의 가는 체력 막대는 짧아지며 호박색, 이어서 빨간색으로 바뀝니다. 슬롯은 벽의 남은 수명을 호로, 대기 시간을 그림자로 보여 줍니다. 세운 벽은 번쩍이며 켜지고, 격파된 벽은 불꽃이 되어 무너지며, 시간이 다 된 벽은 서서히 사라집니다.
+- **얻는 방법.** Energetic Wall I은 상점에서 250 Thulium에 팝니다. Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 Energetic Wall I, Ship Fragment 10개, Power Core 2개와 600 Thulium으로 제작합니다 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)).
 
 ## 연구 센터의 CPU {#research-cpus}
 
-CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark Matter Plate를 요구합니다. **Extra Slots CPU III**는 3개(와 Orvium Reinforced Plate 6개), **Base CPU II**는 3개(와 Orvium Reinforced Plate 2개)입니다. 먼저 Dark Matter Plate를 연구하세요([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
+CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark Matter Plate를 요구합니다. **Extra Slots CPU III**는 4개(와 Ancient Control Unit 2개, Orvium Reinforced Plate 6개), **Base CPU II**는 4개(와 Ancient Control Unit 1개, Orvium Reinforced Plate 2개)입니다. 먼저 Dark Matter Plate를 연구하세요([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
 <!-- research-cpus:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -106,6 +114,7 @@ CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark 
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10시간 | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20,000 | 10분 |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1일 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15분 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6시간 | – | 15,000 | 10분 |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6시간 | – | 600 | 2분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2bd1925e336e25b6 -->
+<!-- wiki-i18n source: a7f59fe15502fedf -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -30,7 +30,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 | **Hull Plating II** | 10,000 | アセンブリ、Hull Plating I から |
 | **Hull Plating III** | 15,000 | アセンブリ、Hull Plating II から |
 
-Hull Plating I は購入します。**II と III は強化品です**。アセンブリは1つ下のティアの装甲（インベントリにそのままある1個）を消費し、Thulium、素材、そして **Dark Matter Plate** を要求します。II は5枚、III は8枚で、ほかの装備の最終ティアが要求する3枚より多くなっています。どちらもまず技術が必要で、[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)ページの Hull Plating ツリーにあります。II は1日と Dark Matter 25個、III は2日と Dark Matter 40個で、Dark Matter Plate 自体の技術に加えて必要です。上のツリーに価格、素材、時間が載っています。
+Hull Plating I は購入します。**II と III は強化品です**。アセンブリは1つ下のティアの装甲（インベントリにそのままある1個）を消費し、Thulium、素材、そして **Dark Matter Plate** を要求します。II は5枚、III は8枚で、ほかの装備の最終ティアが要求する4枚（と Ancient Control Unit 1個）より多くなっています。どちらもまず技術が必要で、[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)ページの Hull Plating ツリーにあります。II は1日と Dark Matter 25個、III は2日と Dark Matter 40個で、Dark Matter Plate 自体の技術に加えて必要です。上のツリーに価格、素材、時間が載っています。
 
 [鍛冶場](/wiki/06-Items/Forge.md)はどの装甲も扱えます。強化すると、消費した装甲の鍛造の段階が引き継がれ、ボーナスは振り直されます。装甲のステータスは船体の1つだけなので、ボーナスも1つで、段階に応じて +2% から +15% です。「永遠」の Hull Plating III は最大で 17,250 を加えます。[オークション](/wiki/03-Mechanics/Auction.md)に出せるのは Hull Plating II と III で、ショップで売られている Hull Plating I は出品できません。
 

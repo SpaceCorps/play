@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -30,6 +30,7 @@ Las luces de la caja toman el color del objeto más raro que contiene: turquesa 
 - Lo que recoges va directo al inventario de tu hangar, a tu pila suelta de ese objeto (nunca a un equipo ni a nada del Alijo de Transporte). Un aviso te dice lo que has obtenido; las cajas recogidas una tras otra se suman en el mismo aviso.
 - Lo que recoges es **comercializable**: puedes venderlo en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
 - Cuando un fragmento de un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) es tuyo, tu nave pasa sola al siguiente fragmento a su alcance que puedas tomar; cualquier orden de movimiento tuya lo detiene.
+- **Un Retriever recoge por ti.** Un P.E.T. [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) acoplado toma cajas sin que hagas clic, con un alcance propio (de 255 unidades el más débil a 880 un Legendary de nivel 20, frente a las 200 de tu propia recogida), la más cercana primero y **una a la vez, medio segundo cada una**: nunca más rápido que una mano. Solo toma lo que tú puedes tomar: una caja reservada para otro piloto espera a que acabe su tiempo, y la [caja privada](#private-boxes) de otro piloto no la toca nunca. Trabaja mientras vuelas fuera de una zona segura, estés activo o no, pero no mientras estás camuflado o saltando, así que nunca termina un camuflaje. No es un canal: no se llena ninguna barra y nunca bloquea tus propias recogidas ni tus saltos, y una caja que estás recogiendo a mano se te deja a ti. Si tu mano y tu Retriever llegan a la vez a una caja, solo uno se la queda. La recogida de un Retriever suena con un pequeño pitido propio en lugar del sonido de recogida.
 
 ## Quién se la queda {#who-gets-it}
 
@@ -46,9 +47,9 @@ El botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n
 - **Solo tú la ves y solo tú puedes recogerla.** Tu clan y tu grupo no la ven ni pueden cogerla; para todos los demás, simplemente no está. En tu pantalla tiene un anillo fino debajo.
 - **Dura 10 minutos** desde el derribo, y todo ese tiempo es tuya: no hay espera de 30 segundos. Después se aleja a la deriva como cualquier caja. El Registro de juego te dice tu parte del botín cuando cae el guardián.
 - **No expulsa otras cajas.** Las cajas privadas tienen un grupo propio junto a las 64 de un mapa (32 como máximo), así que la muerte de un guardián nunca ocupa el sitio de otra caja y un mapa lleno nunca te cuesta tu caja.
-- Recogerla es igual que con cualquier caja ([arriba](#collecting)): tu nave vuela hasta ella y la recogida dura medio segundo.
+- Recogerla es igual que con cualquier caja ([arriba](#collecting)): tu nave vuela hasta ella y la recogida dura medio segundo. Tu Retriever también toma tus cajas privadas, y las de nadie más.
 
 ## Potenciadores {#boosters}
 
-- **Loot Luck Booster** (y la mejora permanente Luck Boost) aumentan la probabilidad de cada entrada del botín en el momento en que el piloto logra el derribo.
-- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada, así que cinco N.I.K.E. son diez Dark Matter para todos.
+- **Loot Luck Booster** (y la mejora permanente Luck Boost, y la suerte de tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentan la probabilidad de cada entrada del botín en el momento en que el piloto logra el derribo.
+- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, a mano o con un Retriever, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada, así que cinco N.I.K.E. son diez Dark Matter para todos.

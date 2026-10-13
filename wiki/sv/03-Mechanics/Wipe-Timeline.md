@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3f940246579eb7bd -->
+<!-- wiki-i18n source: 825f9cfa421f4871 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -64,7 +64,7 @@ För ytterligare föremål i ditt inventarie som du vill spara (t.ex. reservvape
   * *Resurser / mineraler*: Varierande vikter beroende på sällsynthet (en Reinforced Plate från Skylabs Smedja väger 5 kg)
   * *Raketer*: ingen vikt alls: de tar inget utrymme i förrådet, så hela staplar får plats (se [Raketer](/wiki/06-Items/Rockets.md))
 
-Din [Skylab](/wiki/03-Mechanics/Skylab.md) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Forskningscentrumet behåller också allt som [Forskning](/wiki/03-Mechanics/Research.md) rymmer: dina teknologier, vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten. Det gör även de Extra Slots CPU som du har installerat, eftersom de inte är föremål. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet.
+Din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Forskningscentrumet behåller också allt som [Forskning](/wiki/03-Mechanics/Research.md) rymmer: dina teknologier, vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten. Det gör även de Extra Slots CPU som du har installerat, eftersom de inte är föremål. Det gör även dina [P.E.T.s](/wiki/03-Mechanics/Pets.md) (dockade eller förvarade), jobben som pågår i Vaggan, Kodexen, den P.E.T. Station du har installerat och ditt [utseende](/wiki/06-Items/Cosmetics.md): inte heller de är föremål. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet. Cluster Chunks är också föremål, och det är motorer och lasrar som sitter i Skylabs Motormodul eller Försvarsmodul också: ta ut dem ur modulen och lägg dem i förrådet för att behålla dem. En pågående expedition med Skylab räknas av fram till wipen, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål), och Skylab börjar den nya säsongen hemma med en ny universumkarta.
 
 ### Bekräfta och lås {#confirm-lock}
 Innan säsongen tar slut måste du klicka på **Bekräfta och lås** i gränssnittet Materialiserare.
@@ -115,7 +115,7 @@ Du kan spendera dina intjänade WP på permanenta buffar som följer med över a
 * **Hitpoints Boost**: +0,1 % maximala HP per nivå (max 50 % / 500 nivåer) - *Kostnad: 15 WP*
 * **Shield Capacity Boost**: +0,1 % maximala sköldar (sköldens **kapacitet**) per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
 * **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 855 wipepoäng som dagens källor betalar (vid sina tak, överförda över wipes) köper 34 (+3,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, och fler källor till wipepoäng är planerade) skulle 80 % (det bästa rakt ur lådan) bli 90 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med alla dagens wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 93 % till 95 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
-* **Luck Boost**: +0,1 % kritisk chans och bytestur per nivå (max 10 % / 100 nivåer) - *Kostnad: 15 WP*
+* **Luck Boost**: +0,1 % chans till byte från utomjordingar per nivå (max 10 % / 100 nivåer) - *Kostnad: 15 WP*
 
 ### Tjäna wipepoäng {#earning-wipe-points}
 

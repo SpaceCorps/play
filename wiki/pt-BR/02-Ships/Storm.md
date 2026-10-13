@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 
 <!-- research-ship:end -->
 
-Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem custa 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) e 15.000 Thulium, e leva 900 segundos (15 minutos).
+Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem custa 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) e 15.000 Thulium, e leva 900 segundos (15 minutos).
 
 ## História {#lore}
 

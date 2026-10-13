@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f9ae19e1c5f8f9d -->
+<!-- wiki-i18n source: 46b7d7139e8ed531 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Por último, se aplican los multiplicadores globales (como los potenciadores act
 
 ### 3b. Cohetes {#3b-rockets}
 
-Un [cohete](/wiki/06-Items/Rockets.md) tiene su propio daño (un Lancet I hace de 1.700 a 2.100, un Lancet III de 5.200 a 6.200, una N.U.K.E. de 45.000 a 50.000), que se sortea una vez al dispararlo y es el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene golpe crítico. Todos los cohetes comparten una misma recarga de **3 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, el número completo en el centro y la mitad en el borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único que cambia ambas cosas: una formación de cohetes aumenta el daño de cada cohete (hasta +55 %), y algunas alargan o acortan el temporizador. Los [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md) reciben daño de los cohetes y, de los láseres, el 5 % de lo que una andanada hace a una nave (cuentan tus amplificadores, potenciadores, munición y golpes críticos, y después se resta el blindaje del asteroide); los drones no les hacen nada, y un asteroide en el camino de un disparo recibe el impacto en lugar de la nave que hay detrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)).
+Un [cohete](/wiki/06-Items/Rockets.md) tiene su propio daño (un Lancet I hace de 1.700 a 2.100, un Lancet III de 5.200 a 6.200, una N.U.K.E. de 45.000 a 50.000), que se sortea una vez al dispararlo y es el mismo para cualquier nave: tus láseres, amplificadores, potenciadores y munición no lo cambian, y no tiene golpe crítico. Todos los cohetes comparten una misma recarga de **3 segundos**. Un cohete de un solo objetivo tiene **penetración de escudo**: se resta de la absorción de tu objetivo (consulta Recibir daño, más abajo); una explosión daña a todas las naves dentro de su radio, el número completo en el centro y la mitad en el borde. Nada limita lo que un cohete le quita a la nave de un piloto: primero el escudo, luego el casco. Los cohetes nunca dañan a tu propia corporación ni a tu propio [grupo](/wiki/03-Mechanics/Groups.md), sean cuales sean las corporaciones que lo formen. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único que cambia ambas cosas: una formación de cohetes aumenta el daño de cada cohete (hasta +55 %), y algunas alargan o acortan el temporizador. Los [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md) reciben daño de los cohetes y, de los láseres, el 5 % de lo que una andanada hace a una nave (cuentan tus amplificadores, potenciadores, munición y golpes críticos, y después se resta el blindaje del asteroide); los drones no les hacen nada, y un asteroide en el camino de un disparo recibe el impacto en lugar de la nave que hay detrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), y una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) también.
 
 ### 4. Encarar al objetivo {#4-facing-the-target}
 
@@ -164,7 +164,7 @@ La munición [Siphon Battery](/wiki/06-Items/Lasers.md) suma al instante a tu es
 
 ## Camuflaje y EMP {#cloaking-and-the-emp}
 
-Un disparo necesita una fijación. Dos [extras](/wiki/06-Items/Extras.md) te quitan la tuya:
+Un disparo necesita una fijación. Una Cloaking CPU (un [extra](/wiki/06-Items/Extras.md)) y la EMP Charge (un [consumible](/wiki/06-Items/Rockets.md#emp-charge) que se lleva como un cohete) te quitan la tuya:
 
 - **Cloaking CPU**: mientras estás camuflado (no hay límite de tiempo), los pilotos de otras corporaciones, los alienígenas y los pilotos de corporación no ven tu nave y no pueden fijarla; ven un simple punto rojo en el minimapa donde estás. Tu primera andanada termina el camuflaje, y no puedes volver a camuflarte durante un minuto, ni en los 10 segundos siguientes a un impacto o a un disparo.
 - **EMP Charge**: durante 3 segundos nadie puede fijarte, y todas las fijaciones que ya había sobre ti se rompen al instante. Termina todos los camuflajes a menos de 1.500 unidades del piloto que la dispara, salvo los del propio grupo de ese piloto. No te oculta y no es invulnerabilidad: detiene lo que necesita una fijación.

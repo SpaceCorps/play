@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Missões -->
 # Missões {#quests}
 
@@ -224,6 +224,7 @@ As missões sobem pelos setores conforme o seu nível:
 - **Um abate conta para uma missão de nível**: a que você acompanha, se ela puder usá-lo, senão a primeira das suas missões ativas que puder. Além disso, ele conta para cada Desafio que o pede, e cada etapa de item de missão sua que espera aquele alienígena rola o seu drop.
 - Um alienígena que um [piloto de corporação](/wiki/03-Mechanics/Company-Pilots.md) da sua corporação termina enquanto você o está combatendo conta como abate seu, também para as suas missões.
 - Um abate de alguém do seu [grupo](/wiki/03-Mechanics/Groups.md) conta também para as suas missões de nível quando você está no mesmo mapa e disparou um laser ou um foguete em qualquer coisa nos últimos 15 segundos. Para a linha de Desafios, o colega também precisa estar a menos de 4.000 unidades do abate.
+- **As expedições do Skylab contam para algumas etapas.** Os abates que o seu [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) faz em uma expedição só fazem avançar uma etapa de abate quando a etapa **não indica nenhum setor**, até **250 abates por dia** (UTC) e apenas os abates do alienígena que a etapa indica. Uma célula não é um setor, então uma etapa que indica um (`x-1` a `x-4`, `DS-x` ou `rival x-4`) nunca os conta, nem mesmo em uma célula da mesma dificuldade. Na prática, são as grandes caçadas da linha de Desafios cujos alienígenas vivem em uma célula (Praga de Seekers, Maré de Phantasm, Muralha de Bulwarks e as outras contra Seekers, Phantasm, Bulwarks, Goombahs, Crystalys ou a Dormant Force), e nenhuma das missões dos níveis 1 a 8. Uma missão com limite de tempo ou de casco também não os conta. Eles não dão pontos de reset, nem linha de clã, nem pontos de ranking.
 
 ## Limites de tempo {#time-limits}
 

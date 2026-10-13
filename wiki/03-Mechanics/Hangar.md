@@ -24,8 +24,12 @@ Repairs going on don't stop you. Anywhere else the Hangar window still opens, bu
 - **Drone formations.** The Drones view lists the formations you own under your drones. They are not fitted: in flight you drag one from the hotbar's Formations list onto a slot, and that slot's click or key wears it, with the same 2-second wait as anywhere, a safe zone included ([Drone Formations](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** The four regular ships, the Protos, Kitefin, Ostirion and Nomad (the ones you start with or buy), have 2 extra slots in each configuration; the four ships you craft in Assembly, the Paragon, Ironclad, Wraith and Storm, have 3. The Extra Slots CPUs of your Skylab add 3, 5 or 7 on top: 5, 7 or 9 on the regular ships and 6, 8 or 10 on the crafted ones ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). When 0.4.10 came, a third extra on a regular ship was unequipped into your inventory: nothing was deleted, and you got one chat message.
 - **Hull plates.** The four ships you craft have hull plate slots for [Hull Plating](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), each locked until you research it in the Skylab. A plate you fit or take off keeps your share of hull, and it stays on when you swap configuration.
+- **Looks.** The **Look** section of the Spaceship view, after the hull plates, and the **Drone livery** box of the Drones view open the **Wardrobe**, where skins, auras and exhausts are tried on your turning ship before you wear them. Where gear can change, a look can too ([Cosmetics](/wiki/06-Items/Cosmetics.md)).
+- **P.E.T.s.** The **P.E.T.** view holds the Cradle, where a Cluster Chunk and an Orvium Reinforced Plate become a P.E.T., the places of the P.E.T. Station and the crossbreeding. In flight it only shows what you have: assemble, dock, undock and crossbreed with your ship landed at a station ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Selling is not part of the window: the gavel that opens the [Auction](/wiki/03-Mechanics/Auction.md) belongs to the Hangar of the station, and the Auction itself is a page of the station.
+
+The Library's **Builds** page can import what is fitted on one of your ships, in either configuration, as a build you can edit, price, save on your account and share ([Builds](/wiki/01-General/Recipe-Book.md#import)).
 
 ## Changing Ship
 

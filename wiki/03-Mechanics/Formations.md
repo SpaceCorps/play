@@ -14,7 +14,7 @@ A **drone formation** is a pattern your drones take around the ship, and it chan
 
 ## In one minute
 
-- **Get one.** Research its technology in the Research Centre (two trees, *Defence* and *Strike & Mobility*), then craft it in Assembly for Thulium. The cheapest costs 7,000 Thulium and 5 Dark Matter, the dearest 46,000 Thulium and 20 Dark Matter. The Shop sells none.
+- **Get one.** Research its technology in the Research Centre (two trees, *Defence* and *Strike & Mobility*), then craft it in Assembly for Thulium. The cheapest costs 14,000 Thulium and 5 Dark Matter, the dearest 92,000 Thulium and 20 Dark Matter. The Shop sells none.
 - **Own it.** A formation is not fitted anywhere: a copy in your inventory is enough. You need at least one drone, a Slave Drone or a Master Drone, or no formation works.
 - **Wear it.** Drag it from the hotbar's Formations list onto any slot. Click the slot or press its key to wear the formation. The list also has **Standard**, which is no formation: drag it onto a slot and press that to wear none again. You may change once every 2 seconds, in a safe zone as well, and there is no combat lock.
 - **See it.** Each formation has its own shape, and your drones fly it round your ship: a roof, a heart, wings, a sword, a drill. Other pilots see it too. See [How they fly](#how-they-fly).
@@ -48,7 +48,7 @@ Every formation gives your drones **a shape of its own**. Wear one and the drone
 - **Made for the drones you have.** A shape is built for exactly the drones you own, 1 to 8: with one or two you see only the start of it, with all **8** the whole shape, as in the pictures. Their levels and what they carry change nothing.
 - **Fitted to your ship.** A long ship flies a longer shape than a small one, and the drones keep clear of the hull.
 - **Seen by everyone.** Other pilots see your shape and you see theirs. A ship more than **3,500 units** from your camera shows no drones, and in a crowd only the nearest **64** ships do.
-- **Switch it off.** Settings › Interface has **Show My Drones** and **Show Enemy Drones** (the drones of other pilots). They only change what you see: your formation's bonuses work as before. **Reduce Motion** (Settings › Graphics) holds the shapes that move, Cordon, Asterism, Culler, Gyre and Auger, still and cuts the glide to **0.2 seconds**.
+- **Switch it off.** Settings › Interface has **Show My Drones** and **Show Enemy Drones** (the drones of other pilots). They only change what you see: your formation's bonuses work as before. A drone's livery follows **Show other pilots' looks** ([Cosmetics](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Reduce Motion** (Settings › Graphics) holds the shapes that move, Cordon, Asterism, Culler, Gyre and Auger, still and cuts the glide to **0.2 seconds**.
 - **See the height.** The roof, the bowl and the drill have height, which a view from straight above shows little of. Turn the camera with a right drag ([Getting Started](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)) to see them from the side.
 
 | Formation | The shape | What moves |
@@ -102,26 +102,26 @@ The tables list what each one gives and what it costs you, as the item card in t
 
 ## What they cost
 
-Thulium, never Credits. The sixteen together cost 330,500 Thulium and 189 Dark Matter.
+Thulium, never Credits. The sixteen together cost 661,000 Thulium and 189 Dark Matter.
 
 | Formation | Needs first | Research time | Dark Matter | Thulium to craft | Crafting time |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7,500 | 5 min |
-| **Sanctum** | Testudo | 1 d | 13 | 20,000 | 10 min |
-| **Rampart** | Sanctum | 2 d | 20 | 38,500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9,000 | 5 min |
-| **Redoubt** | Adamant | 1 d | 13 | 21,000 | 10 min |
-| **Cordon** | Redoubt | 1 d | 13 | 21,500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7,000 | 5 min |
-| **Bodkin** | Asterism | 1 d | 13 | 21,000 | 10 min |
-| **Ballista** | Bodkin | 1 d | 13 | 24,000 | 10 min |
-| **Gemini** | – | 2 d | 20 | 38,000 | 15 min |
-| **Stiletto** | Gemini | 2 d | 20 | 46,000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8,000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8,500 | 5 min |
-| **Culler** | Shrike | 1 d | 13 | 20,000 | 10 min |
-| **Gyre** | – | 1 d | 13 | 20,000 | 10 min |
-| **Auger** | Gyre | 1 d | 13 | 20,500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15,000 | 5 min |
+| **Sanctum** | Testudo | 1 d | 13 | 40,000 | 10 min |
+| **Rampart** | Sanctum | 2 d | 20 | 77,000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18,000 | 5 min |
+| **Redoubt** | Adamant | 1 d | 13 | 42,000 | 10 min |
+| **Cordon** | Redoubt | 1 d | 13 | 43,000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14,000 | 5 min |
+| **Bodkin** | Asterism | 1 d | 13 | 42,000 | 10 min |
+| **Ballista** | Bodkin | 1 d | 13 | 48,000 | 10 min |
+| **Gemini** | – | 2 d | 20 | 76,000 | 15 min |
+| **Stiletto** | Gemini | 2 d | 20 | 92,000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16,000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17,000 | 5 min |
+| **Culler** | Shrike | 1 d | 13 | 40,000 | 10 min |
+| **Gyre** | – | 1 d | 13 | 40,000 | 10 min |
+| **Auger** | Gyre | 1 d | 13 | 41,000 | 10 min |
 
 ### Materials
 
@@ -130,8 +130,8 @@ Besides the Thulium, Assembly takes these from your inventory. They depend on th
 | Research time | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 d | 180 | 18 | 9 | 8 | 3 | – |
-| 2 d | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 d | 180 | 18 | 9 | 8 | 15 | – |
+| 2 d | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## The rules in detail
 

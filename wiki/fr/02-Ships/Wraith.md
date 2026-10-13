@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ Le Wraith est le vaisseau ultime de classe cuirassé : une puissance de feu in�
 
 ## Histoire {#lore}
 
-Fruit de recherches secrètes menées dans le cadre d’opérations clandestines, le cuirassé Wraith représente le summum de l’ingénierie des dreadnoughts. Sa propulsion à matière noire et ses réseaux énergétiques denses lui permettent d’aligner simultanément plusieurs batteries de lasers de haute puissance. Extrêmement rare et coûteux, un Wraith n’a qu’à apparaître sur les capteurs pour faire rebrousser chemin aux capitaines pirates les plus aguerris. Il sort de l’Assemblage d’un gris uni, et ses designs aussi.
+Fruit de recherches secrètes menées dans le cadre d’opérations clandestines, le cuirassé Wraith représente le summum de l’ingénierie des dreadnoughts. Sa propulsion à matière noire et ses réseaux énergétiques denses lui permettent d’aligner simultanément plusieurs batteries de lasers de haute puissance. Extrêmement rare et coûteux, un Wraith n’a qu’à apparaître sur les capteurs pour faire rebrousser chemin aux capitaines pirates les plus aguerris. Il sort de l’Assemblage d’un gris uni, et ses designs aussi, jusqu’à ce qu’un skin les peigne.

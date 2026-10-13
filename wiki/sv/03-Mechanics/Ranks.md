@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
+<!-- wiki-i18n source: 73cc670b98038c5d -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
@@ -128,6 +128,7 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -139,7 +140,7 @@ De fem första raderna är de vanliga utomjordingarna, de sex nästa de tre svä
 
 Till exempel har en pilot på nivå 4 med 12 500 erfarenhet som har förstört 300 Seeker, 80 Phantasm och 10 Bulwark 400 + 12 + 300 + 160 + 40 = **912** poäng. Det gör honom eller henne till Sergeant: minimum är 800, och nästa grad, Senior sergeant, kräver 1 000. Upp till Senior överste räknas bara poängen.
 
-Sidan **Ranking** (Gemenskap › Ranking) visar hur dina egna poäng är sammansatta, och **Hedersgalleriet** där listar de bästa piloterna. **(i)** vid PvE-poängen där nämner de fem utomjordingarna, vad en nedskjutning i var och en av [svärmarna](/wiki/05-Swarms/Swarms.md) är värd, från det minsta skeppet till bossen, detsamma för utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och [klanväktarna](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Sidan **Ranking** (Gemenskap › Ranking) visar hur dina egna poäng är sammansatta, och **Hedersgalleriet** där listar de bästa piloterna. **(i)** vid PvE-poängen där nämner de fem utomjordingarna, vad en nedskjutning i var och en av [svärmarna](/wiki/05-Swarms/Swarms.md) är värd, från det minsta skeppet till bossen, detsamma för utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och [klanväktarna](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) står i Hedersgalleriet med en egen rad i varje värld, med poängen för en pilot på nivå 20; han tillhör ingen koncern och finns därför på ingen av stegarna.
 
 ## Symbolerna {#the-symbols}
 

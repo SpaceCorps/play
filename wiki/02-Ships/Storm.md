@@ -42,7 +42,7 @@ The Storm is a glass-cannon fighter: the highest base speed and the most lasers 
 
 <!-- research-ship:end -->
 
-Once it is researched, crafting a Storm in Assembly takes 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) and 15,000 Thulium, and 900 seconds (15 minutes).
+Once it is researched, crafting a Storm in Assembly takes 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) and 15,000 Thulium, and 900 seconds (15 minutes).
 
 ## Lore
 

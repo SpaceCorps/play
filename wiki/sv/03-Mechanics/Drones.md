@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7ed6ed3056da695a -->
+<!-- wiki-i18n source: 4f66b153ada889fa -->
 <!-- wiki-i18n title: Drönare -->
 # Drönarmekanik {#drone-mechanics}
 
@@ -24,7 +24,7 @@ Drönare är små och håller sig nära: en drönare på nivå 8 är omkring 19,
 
 Bär du en [drönarformation](/wiki/03-Mechanics/Formations.md) lämnar drönarna den här uppställningen: **var och en av de 16 formationerna har en egen form**, ett tak över vingarna, en romb, ett hjärta, vingar, ett svärd, en borr och fler, och drönarna glider dit på mindre än en sekund. Formen byggs för de drönare du har, upp till 8, och vrider sig med ditt skepp. Andra piloter ser den också. [Så flyger de](/wiki/03-Mechanics/Formations.md#how-they-fly) visar alla sexton. Bär **Standard**, posten i Formationslistan som inte är någon formation, så flyger drönarna ”Wingman”-uppställningen igen.
 
-Du kan stänga av drönarna under Inställningar › Gränssnitt: **Visa mina drönare** för dina egna och **Visa fientliga drönare** för andra pilotars.
+Du kan stänga av drönarna under Inställningar › Gränssnitt: **Visa mina drönare** för dina egna och **Visa fientliga drönare** för andra pilotars. Drönarna bär också en **lackering**: du väljer den i hangarens vy Drönare, och **Visa andra piloters utseende** avgör om du ser lackeringen på andra piloters drönare ([Kosmetik](/wiki/06-Items/Cosmetics.md#drone-liveries)).
 
 ## Utrustning och värden {#equipment-stats}
 
@@ -92,7 +92,7 @@ Kurvan är ställd så att en ny drönare når nivå 2 på ungefär en timmes no
 
 ### Master Drone
 
-En Slave Drone blir en **Master Drone** när du uppgraderar den i Monteringen, sedan Master Drones teknologi är framforskad ([Forskning](/wiki/03-Mechanics/Research.md)). Receptet kostar 40 000 Thulium och 100 Ship Fragment och tar 60 sekunder, och det förbrukar ingen drönare: **du väljer vilken Slave Drone det gäller** (väljaren visar nivå och XP för var och en), och just den drönaren, med sitt nummer, sin drönarplats och allt som sitter i den, förvandlas till en Master Drone när jobbet är klart, med en andra plats som är tom. Ingenting hamnar i ditt inventarie och det finns inget att hämta: Spelloggen talar om när det är klart, även för en uppgradering som blev klar medan du var borta.
+En Slave Drone blir en **Master Drone** när du uppgraderar den i Monteringen, sedan Master Drones teknologi är framforskad ([Forskning](/wiki/03-Mechanics/Research.md)). Receptet kostar 50 000 Thulium, 250 Ship Fragment och 20 Dark Matter Plate och tar 60 sekunder, och det förbrukar ingen drönare: **du väljer vilken Slave Drone det gäller** (väljaren visar nivå och XP för var och en), och just den drönaren, med sitt nummer, sin drönarplats och allt som sitter i den, förvandlas till en Master Drone när jobbet är klart, med en andra plats som är tom. Ingenting hamnar i ditt inventarie och det finns inget att hämta: Spelloggen talar om när det är klart, även för en uppgradering som blev klar medan du var borta.
 
 **Dess nivå och XP nollställs till 0 när uppgraderingen är klar.** En Master Drone börjar om på nivå 1, utan XP, och stiger på samma sätt som en Slave Drone (tabellen ovan); laserbonusen för den nivå den hade försvinner också. Monteringen säger det innan du startar, och ber dig bekräfta, där drönaren nämns vid namn, när den har någon XP. Standardvalet är drönaren med minst XP.
 

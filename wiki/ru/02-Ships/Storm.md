@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Storm — истребитель-«стеклянная пушка»: самая
 
 <!-- research-ship:end -->
 
-Когда технология исследована, постройка Storm в Сборочном цехе требует 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Core](/wiki/06-Items/Resources.md#power-core) и 15 000 Thulium и занимает 900 секунд (15 минут).
+Когда технология исследована, постройка Storm в Сборочном цехе требует 3 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Core](/wiki/06-Items/Resources.md#power-core) и 15 000 Thulium и занимает 900 секунд (15 минут).
 
 ## История {#lore}
 

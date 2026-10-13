@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
+<!-- wiki-i18n source: 3449d9b082e18d30 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -26,8 +26,12 @@ A folyamatban lévő javítások nem akadályoznak. Bárhol máshol a hangár ab
 - **Drónformációk.** A Drónok nézet a drónjaid alatt felsorolja a formációkat, amelyek a tieid. Nem kell őket felszerelni: repülés közben húzol egyet a gyorssáv Formációk listájából egy helyre, és a hely kattintása vagy billentyűje viseli, ugyanazzal a 2 másodperces várakozással, mint bárhol, biztonságos zónában is ([Drónformációk](/wiki/03-Mechanics/Formations.md)).
 - **Extrák.** A négy átlagos hajónak, a Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak (azoknak, amelyekkel kezdesz vagy amelyeket megveszel) konfigurációnként 2 extrafoglalata van; a négy hajónak, amelyet a Gyártásban készítesz, a Paragonnak, az Ironcladnek, a Wraithnek és a Stormnak, 3. A Skylabod Extra Slots CPU-i 3, 5 vagy 7 foglalatot adnak még hozzá: 5, 7 vagy 9 az átlagos hajóknál és 6, 8 vagy 10 a gyártottaknál ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)). A 0.4.10-zel egy átlagos hajó harmadik extráját leszerelték, és a leltáradba került: semmi sem törlődött, és egy csevegőüzenetet kaptál.
 - **Hajótest-páncélzat.** A négy hajónak, amelyet készítesz, [páncélzatfoglalatai](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vannak a hajótest-páncélzatnak, mindegyik zárolva, amíg a Skylabben ki nem kutatod. A páncélzat, amelyet felszerelsz vagy leszerelsz, megtartja a hajótested arányát, és rajta marad, ha konfigurációt váltasz.
+- **Kinézet.** Az Űrhajó nézet **Kinézet** szakasza a hajótest-páncélzat után, és a Drónok nézet **Drónok festése** mezője megnyitja a **Ruhatárat**, ahol skineket, aurákat és kipufogókat próbálhatsz fel a forgó hajódra, mielőtt viselnéd őket. Ahol a felszerelés cserélhető, a kinézet is ([Kozmetika](/wiki/06-Items/Cosmetics.md)).
+- **P.E.T.-ek.** A **P.E.T.** nézet tartalmazza a Bölcsőt, ahol egy Cluster Chunkból és egy Orvium Reinforced Plate-ből P.E.T. lesz, a P.E.T. Station helyeit és a keresztezést. Repülés közben csak azt mutatja, mid van: összeszerelni, dokkolni, leválasztani és keresztezni csak egy állomáson leszállt hajóval lehet ([P.E.T.-ek](/wiki/03-Mechanics/Pets.md)).
 
 Az eladás nem tartozik az ablakhoz: az [Aukciót](/wiki/03-Mechanics/Auction.md) megnyitó kalapács az állomás Hangárjához tartozik, maga az Aukció pedig az állomás egyik oldala.
+
+A Könyvtár **Buildek** oldala be tudja importálni, ami az egyik hajódon fel van szerelve, a két konfiguráció bármelyikében, olyan buildként, amelyet szerkeszthetsz, kiszámolhatsz, elmenthetsz a fiókodban és megoszthatsz ([Buildek](/wiki/01-General/Recipe-Book.md#import)).
 
 ## Hajócsere {#changing-ship}
 

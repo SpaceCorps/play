@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7a131032ce9f07fb -->
+<!-- wiki-i18n source: 39eb60672313a89b -->
 <!-- wiki-i18n title: シールド -->
 # シールドと防御 {#shields-defense}
 
@@ -14,18 +14,18 @@
 ```tree
 Light Shield Core | shield, shoddy | buy 20000 Credits | /wiki/06-Items/Shields.md#shield-cores
 Basic Shield Core | shield, common | buy 2000 Thulium | /wiki/06-Items/Shields.md#shield-cores
-Heavy Shield Core | shield, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
+Heavy Shield Core | shield, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Basic Shield Core, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cores
 Adaptive Core I | hybrid-generator, shoddy | buy 100000 Credits | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core II | hybrid-generator, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
-Adaptive Core III | hybrid-generator, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core II | hybrid-generator, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Adaptive Core I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
+Adaptive Core III | hybrid-generator, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Adaptive Core II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-
 Absorption Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
 Capacity Shield Cell I | shield-cell, shoddy | buy 30000 Credits | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell II | shield-cell, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 4 Reinforced Hull Plate, 10 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell III | shield-cell, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 6 Reinforced Hull Plate, 15 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
-Absorption Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
-Capacity Shield Cell IV | shield-cell, epic | craft 2500 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 8 Reinforced Hull Plate, 20 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell II | shield-cell, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Absorption Shield Cell I, 50 Ship Fragment, 8 Reinforced Hull Plate, 20 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell II | shield-cell, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Capacity Shield Cell I, 50 Ship Fragment, 8 Reinforced Hull Plate, 20 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell III | shield-cell, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Absorption Shield Cell II, 50 Ship Fragment, 10 Reinforced Hull Plate, 2 Power Core, 25 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell III | shield-cell, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Capacity Shield Cell II, 50 Ship Fragment, 10 Reinforced Hull Plate, 2 Power Core, 25 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Shields.md#shield-cells
+Absorption Shield Cell IV | shield-cell, epic | craft 5000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Absorption Shield Cell III, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
+Capacity Shield Cell IV | shield-cell, epic | craft 5000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Capacity Shield Cell III, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Shields.md#shield-cells
 
 Light Shield Core -> Basic Shield Core => Heavy Shield Core
 Adaptive Core I => Adaptive Core II => Adaptive Core III
@@ -44,7 +44,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Basic Shield Core** | コモン | 15,000 | 500/秒 | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
 | **Heavy Shield Core** | レア | 25,000 | 833/秒 | 50% | +20% | -5% | 3 | Shield Surge III | 製作専用 |
 
-**Heavy Shield Core** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Basic Shield Core から作ります。2,000 Thulium、Cataclysite 20個、Reinforced Hull Plate 8枚、そして Dark Matter Plate 3枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。消費したコアのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に Basic Shield Core を艦から外してください（中のセルも取り出します）。装備されたままのコアや、セルが入ったままのコアは消費されません。
+**Heavy Shield Core** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Basic Shield Core から作ります。4,000 Thulium、Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。消費したコアのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に Basic Shield Core を艦から外してください（中のセルも取り出します）。装備されたままのコアや、セルが入ったままのコアは消費されません。
 
 **吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～50%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**80%**で、これが艦が初期状態で持てる最大値です。さらに2つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）と、鍛冶場の吸収率ボーナスです。現時点のワイプポイントの入手元は、上限まで集めて合計855ポイント（ワイプをまたいで持ち越されます。入手元は今後増える予定です）で、100レベルのうち34レベル（+3.4ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**95%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
 
@@ -60,7 +60,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Adaptive Core II** | コモン | +6.4% | +3.2% | 2 | — | 製作専用 |
 | **Adaptive Core III** | レア | +8% | +4% | 3 | — | 製作専用 |
 
-**Adaptive Core II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Adaptive Core I から作ります。1,000 Thulium、Ship Fragment 10個、Power Core 1個、Velkonite Reinforced Plate 2枚が必要です。**Adaptive Core III** は、同じくアセンブリで Adaptive Core II から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 3個、そして Dark Matter Plate 3枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したコアのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するコアを艦から外してください（中のスラスターとセルも取り出します）。装備されたままのコアや、モジュールが入ったままのコアは消費されません。
+**Adaptive Core II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Adaptive Core I から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚が必要です。**Adaptive Core III** は、同じくアセンブリで Adaptive Core II から作ります。4,000 Thulium、Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したコアのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するコアを艦から外してください（中のスラスターとセルも取り出します）。装備されたままのコアや、モジュールが入ったままのコアは消費されません。
 
 ---
 
@@ -79,4 +79,4 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Absorption Shield Cell III** | レア | +4,500 | +375/秒 | +8% | 製作専用 |
 | **Absorption Shield Cell IV** | エピック | +6,000 | +500/秒 | +10% | 製作専用 |
 
-各系統のティアIは30,000クレジットで販売されています。ティアII～IVは[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、同じ系統の1つ下のティアのセルから作ります（Capacity Shield Cell I から Capacity Shield Cell II、II から III、III から IV）。Thulium、ドロップ品、そしてプレートが必要です。ティアIIとIIIには Skylab で作る Velkonite Reinforced Plate（それぞれ2枚、4枚）、ティアIVには Dark Matter Plate 3枚です。セルが系統を変えることはありません。Capacity にするか Absorption にするかは、ティアIを買うときに選びます。消費したセルのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。セルは[アビリティスロット](/wiki/03-Mechanics/Abilities.md)には装着できません。シールドとアダプティブコアの中に装着するものです。
+各系統のティアIは30,000クレジットで販売されています。ティアII～IVは[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、同じ系統の1つ下のティアのセルから作ります（Capacity Shield Cell I から Capacity Shield Cell II、II から III、III から IV）。Thulium、ドロップ品、そしてプレートが必要です。ティアIIとIIIには Skylab で作る Velkonite Reinforced Plate（どちらも4枚）、ティアIVには Dark Matter Plate 4枚と Ancient Control Unit 1個です。セルが系統を変えることはありません。Capacity にするか Absorption にするかは、ティアIを買うときに選びます。消費したセルのエンチャント段階は引き継がれ、ボーナスは引き直されます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。セルは[アビリティスロット](/wiki/03-Mechanics/Abilities.md)には装着できません。シールドとアダプティブコアの中に装着するものです。

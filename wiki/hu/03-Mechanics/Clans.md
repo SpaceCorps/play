@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -9,6 +9,7 @@ Klán alapítása vagy belépés egy klánba lehetővé teszi, hogy összevond a
 - Minden klánnak van **klánoldala**, amelyet a világának bármelyik pilótája megnyithat: szint, pilóták, Vezér, leírás, Discord-link, követelmények, összesített pontok és bónuszok ([A klánoldal](#the-clan-page)). A Vezér és az Alvezérek a **Kezelés** fülön állítják be ([Kezelés](#management)).
 - A klánnak van egy **világa** (az alapítójáé), csak annak a világnak a pilótáit veszi fel, és **a wipe a kincstárával együtt feloszlatja**: a visszaszámlálás vége előtt fizesd ki a Flottakincstárat ([a wipe](#the-wipe-disbands-every-clan)).
 - A Vezér és az Alvezérek [bejegyzéseket](#clan-posts) írnak az egész klánnak, minden tag látja, [melyik térképen](#where-your-clan-mates-are) repülnek a többiek, a [Ki van online](#who-is-online) ablak (**H** billentyű) a világod bármelyik pilótáját meghívja a csoportodba, a Vezér [napi bónuszt](#4-daily-bonus) fizethet a Flottakincstárból, a [Napló](#fleet-log) fül pedig elmondja a klánnak, mi történt benne.
+- Repülés közben a bal felső eszköztár **Klán** gombja (egy zászlócska) megnyitja a **klánablakot**: az állomás klánoldalát a játék fölötti ablakban, ugyanazokkal a fülekkel, válaszokkal és gombokkal; az ablak helyét és méretét megjegyzi a játék (0.4.21-es vagy újabb játékverzió; azt, hogy mi más repülés közben, az [Őrző megidézése](#calling-a-warden) mondja el).
 - A háború csak akkor ér véget, ha a másik klán beleegyezik, a szövetség vagy az egyezmény pedig azonnal véget ér, ha bármelyik klán felmondja ([Diplomácia](#diplomacy)).
 - Minden szezonnapon a klánod kap egy [napi vonalat](#daily-line): négy küldetést sorrendben (idegenek lelövése, egy távolság megtétele, néhány napon rajvezérek legyőzése), majd egy [klánőrzőt](#clan-wardens), egy bosszt, akit te idézel meg, és akit csak a klánod sebezhet.
 - Minden befejezett lépés azonnal klánpontot ad: 15, 15, 20, 20 és 30, vagyis egy egész vonal **100 pontot**.
@@ -180,6 +181,8 @@ A **bejegyzés** egy rövid üzenet az egész klánnak, egy hirdetőtábla a tis
 
 A tagok listájának **Térkép** oszlopa megmutatja, melyik szektorban repül a klánod minden pilótája („T-2”), előtte a világgal, ha az nem a tiéd („Beta · T-2”). A lista nyitva tartása alatt 10 másodpercenként újraolvassa. Csak a **térkép** látszik, soha nem koordináták, és semmit sem tárol. Az a pilóta, aki **dokkolt vagy kijelentkezett**, **Offline**-nak látszik, és az is, akinek az álcázott hajóját nem láthatnád térképen ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): a klán nem oldja fel az álcát.
 
+Mellette a **Skylab** oszlop megmutatja, hol van az egyes pilóták [Skylabja](/wiki/03-Mechanics/Skylab.md#clan-skylabs) az univerzumtérképen, a cella kódjával: „Dokkolva: H3” egy vállalat kikötőjében, „H3, cél: K7, 3 h 12 min múlva” úton (az utolsó cella, amelyen áthaladt, a célja és a hátralévő idő), „Állomásozik: K7”, amíg vadászik, és „Megsemmisült: H3”, ha elfogyott a hajótestje. A Térkép oszloppal együtt olvassa be, és az a pilóta, akinek még nincs univerzumtérképe (a Mag 15. szint alatt van), gondolatjelet mutat. Az oszlop akkor jelenik meg, ha a klánod valamelyik pilótájának van ilyen. Csak a saját klánod látja, és az álca nem rejti el a Skylabot. A megsemmisülés csak akkor látszik, ha a pilótája újra ránézett a Skylabra, vagy parancsot adott neki.
+
 ## Ki van online {#who-is-online}
 
 A rendszereszköztár **Ki van online** gombja (jobb felül) vagy a **H** billentyű (a Beállítások › Vezérlés alatt átállítható) megnyitja az **Online pilóták** ablakot.
@@ -279,7 +282,7 @@ A **klánőrző** a napi vonal végén álló boss. Nem egyike a szektorokban k�
 
 - **Mikor.** A 4. lépés elkészülte után. Egy klánnak **napi két megidézése** van, egyszerre egy őrző lehet kint, és a napból **legalább 30 percnek** hátra kell lennie.
 - **Ki.** A Vezér vagy egy Alvezér.
-- **Hogyan.** Repülés közben: a **Megidézés itt** gomb a repülőképernyőn jelenik meg, amint a 4. lépés kész, és megerősítést kér. Légy a védett zónákon kívül, egy vállalat **x-2, x-3 vagy x-4** szektorában (bármelyik vállalatén) a világodban. A Műveletek fül mutatja a nap őrzőjét, a megmaradt megidézéseket és azt, miért szürke a gomb, de az őrzőt a hajóról idézik meg.
+- **Hogyan.** Repülés közben: a **Megidézés itt** gomb a repülőképernyőn jelenik meg, amint a 4. lépés kész, és megerősítést kér. Légy a védett zónákon kívül, egy vállalat **x-2, x-3 vagy x-4** szektorában (bármelyik vállalatén) a világodban. A Műveletek fül (az állomáson a klánoldalon, repülés közben a klánablakban) mutatja a nap őrzőjét, a megmaradt megidézéseket és azt, miért szürke a gomb. Az állomáson mindig szürke, mert az őrzőt a hajóról idézik meg; a klánablakban ez maga a gomb, amely biztonságos zónán belül és egy vállalat x-2 – x-4 szektorain kívül szürke, a szerver indokával.
 - **Hol jelenik meg.** A hajódtól 3 000–4 500 egységre, a világodban: csak az adott világ pilótái érhetik el. A fül **x-2-t ajánl Újonc klánnak, x-3-at Veteránnak és x-4-et Elitnek**. A kiválasztott szektor szokásos [PvP-szabályai](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) továbbra is érvényesek.
 - **Bemelegítés.** **90 másodpercig** pajzsos és passzív („töltődik”), és minden online klánpilótát értesítenek, hol. Repülj oda, amíg töltődik: a 90 másodperc után élesítve van. Egy kapszula a repülési képernyőn a biztonságos zóna jelvénye alatt követi: a nevét, a „töltődik” állapotot a hátralévő idővel, majd az „élesítve” állapotot a szektorával és a visszavonulásig hátralévő idővel, a „dühöng” állapotot pedig akkor, amikor egy Wrath Warden a törzse felénél kevesebbel rendelkezik.
 - **Csak a klánod.** Más klánok pilótáinak lövéseit figyelmen kívül hagyja, és nem váltanak ki viszontlövést.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
+<!-- wiki-i18n source: 3449d9b082e18d30 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -26,8 +26,12 @@ Laufende Reparaturen halten dich nicht auf. Überall sonst öffnet sich das Hang
 - **Drohnenformationen.** Die Drohnen-Ansicht listet unter deinen Drohnen die Formationen auf, die du besitzt. Sie werden nicht angelegt: Im Flug ziehst du eine aus der Formationenliste der Aktionsleiste auf einen Slot, und Klick oder Taste dieses Slots trägt sie, mit denselben 2 Sekunden Wartezeit wie überall, auch in einer Schutzzone ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** Die vier regulären Schiffe, Protos, Kitefin, Ostirion und Nomad (die, mit denen du startest oder die du kaufst), haben in jeder Konfiguration 2 Extra-Slots; die vier Schiffe, die du in der Montage baust, Paragon, Ironclad, Wraith und Storm, haben 3. Die Extra Slots CPUs deines Skylabs geben 3, 5 oder 7 obendrauf: 5, 7 oder 9 bei den regulären Schiffen und 6, 8 oder 10 bei den gebauten ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Mit 0.4.10 wurde ein dritter Extra auf einem regulären Schiff ins Inventar abgelegt: Nichts wurde gelöscht, und du hast eine Chatmeldung bekommen.
 - **Hüllenpanzerung.** Die vier Schiffe, die du baust, haben [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für Hüllenpanzerung, jeder gesperrt, bis du ihn im Skylab erforschst. Eine Panzerung, die du einbaust oder ablegst, lässt deinen Hüllenanteil unverändert, und sie bleibt dran, wenn du die Konfiguration wechselst.
+- **Look.** Der Abschnitt **Look** der Ansicht Raumschiff, hinter der Hüllenpanzerung, und das Feld **Drohnenlackierung** der Ansicht Drohnen öffnen die **Garderobe**, in der du Skins, Auren und Triebwerksspuren an deinem sich drehenden Schiff anprobierst, bevor du sie trägst. Wo sich Ausrüstung ändern lässt, lässt sich auch ein Look ändern ([Kosmetik](/wiki/06-Items/Cosmetics.md)).
+- **P.E.T.s.** Die Ansicht **P.E.T.** enthält die Wiege, in der aus einem Cluster Chunk und einer Orvium Reinforced Plate ein P.E.T. wird, die Plätze der P.E.T. Station und das Kreuzen. Im Flug zeigt sie nur, was du hast: Fertigen, Andocken, Abdocken und Kreuzen geht nur mit einem an einer Station gelandeten Schiff ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Verkaufen gehört nicht zum Fenster: Der Hammer, der die [Auktion](/wiki/03-Mechanics/Auction.md) öffnet, gehört zum Hangar der Station, und die Auktion selbst ist eine Seite der Station.
+
+Die Seite **Builds** der Bibliothek kann importieren, was auf einem deiner Schiffe verbaut ist, in jeder der beiden Konfigurationen, als Build, den du bearbeiten, durchrechnen, auf deinem Konto speichern und teilen kannst ([Builds](/wiki/01-General/Recipe-Book.md#import)).
 
 ## Das Schiff wechseln {#changing-ship}
 

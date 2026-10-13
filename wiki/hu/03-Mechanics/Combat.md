@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f9ae19e1c5f8f9d -->
+<!-- wiki-i18n source: 46b7d7139e8ed531 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Végül a globális szorzók (például az aktív boosterek, mint a Laser Damage
 
 ### 3b. Rakéták {#3b-rockets}
 
-Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 700–2 100, egy Lancet III 5 200–6 200, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **3 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a középpontban a teljes számmal, a szélén annak a felével. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók. A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen, ami mindkettőt megváltoztatja: egy rakétaformáció növeli minden rakéta sebzését (legfeljebb +55%), néhány pedig hosszabbá vagy rövidebbé teszi az időzítőt. Az [aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md) a rakétáktól sérülnek, a lézerektől pedig annak az 5%-ától, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja); a drónok nem ártanak nekik, és a lövés útjába eső aszteroida kapja el a találatot a mögötte lévő hajó helyett ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)).
+Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 700–2 100, egy Lancet III 5 200–6 200, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **3 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a középpontban a teljes számmal, a szélén annak a felével. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók. A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen, ami mindkettőt megváltoztatja: egy rakétaformáció növeli minden rakéta sebzését (legfeljebb +55%), néhány pedig hosszabbá vagy rövidebbé teszi az időzítőt. Az [aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md) a rakétáktól sérülnek, a lézerektől pedig annak az 5%-ától, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja); a drónok nem ártanak nekik, és a lövés útjába eső aszteroida kapja el a találatot a mögötte lévő hajó helyett ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), és egy [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) is.
 
 ### 4. Szembefordulás a célponttal {#4-facing-the-target}
 
@@ -164,7 +164,7 @@ A [Siphon Battery](/wiki/06-Items/Lasers.md) lőszer a célpontból elszívott p
 
 ## Álcázás és az EMP {#cloaking-and-the-emp}
 
-A lövéshez célzás kell. Két [extra](/wiki/06-Items/Extras.md) elveszi a tiédet:
+A lövéshez célzás kell. A Cloaking CPU (egy [extra](/wiki/06-Items/Extras.md)) és az EMP Charge (a rakétákhoz hasonlóan hordott [fogyóeszköz](/wiki/06-Items/Rockets.md#emp-charge)) elveszi a tiédet:
 
 - **Cloaking CPU**: amíg álcázva vagy (nincs időkorlát), más vállalatok pilótái, az idegenek és a vállalati pilóták nem látják a hajódat, és nem vehetnek célba; a minitérképen egy egyszerű piros pontot látnak ott, ahol vagy. Az első sortűzöd megszünteti az álcázást, és egy percig nem álcázhatsz újra, sem találat vagy lövés után 10 másodpercig.
 - **EMP Charge**: 3 másodpercig senki sem vehet célba, és minden rád irányuló célzás azonnal megszakad. Megszüntet minden álcázást a használó pilótától 1 500 egységen belül, kivéve a pilóta saját csoportjáét. Nem rejt el, és nem sebezhetetlenség: azt állítja meg, ami célzást igényel.

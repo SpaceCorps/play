@@ -36,7 +36,7 @@ Boosters use an additive scaling system:
 1. **Bonus Percentages Stack Additively**: If you buy two different boosters that both grant +10% Laser Damage, you will receive a total bonus of **+20% Laser Damage**.
 2. **Durations Stack Multiplicatively**: Purchasing the _same_ booster multiple times extends its active duration. Timers for _different_ boosters run in parallel.
 3. **Timer View**: Active boosters are displayed on the HUD under the Booster window, showing total grouped active bonuses and the next expiration event.
-4. **The numbers count them**: the Hangar's damage, shields, shield recharge, absorbance, speed and hull, and your Pilot page, include your running boosters, your Season Store buffs and your clan's boosts, and a small *with boosters* tag on the Combat stats card says so. Penetration, critical chance and range are not changed by boosters.
+4. **The numbers count them**: the Hangar's damage, shields, shield recharge, absorbance, speed and hull, and your Pilot page, include your running boosters, your Season Store buffs, your clan's boosts and your docked [P.E.T.s](/wiki/03-Mechanics/Pets.md), and a small *with boosters* tag on the Combat stats card says so. Penetration, critical chance and range are not changed by boosters.
 
 ---
 
@@ -69,7 +69,7 @@ Shields have three separate stats, and every shield boost raises exactly one of 
 
 | Kind | What it is | Boosts that raise it |
 | :--- | :--- | :--- |
-| **Shield Capacity** | Your maximum shield points | Shield Wall Booster I, Shield Wall Booster II, the permanent **Shield Capacity Boost** (Season Store) |
+| **Shield Capacity** | Your maximum shield points | Shield Wall Booster I, Shield Wall Booster II, the permanent **Shield Capacity Boost** (Season Store), the Shield boost of a docked [P.E.T.](/wiki/03-Mechanics/Pets.md) |
 | **Shield Absorbance** | The share of every hit your shields take (the rest hits the hull); it may pass 100% | The permanent **Shield Absorbance Boost** (Season Store): +0.1 points a level for 25 WP, +10 points at most. No booster raises it |
 | **Shield Recharge** | Shield points restored per second | Shield Regen Booster. No permanent buff raises it |
 

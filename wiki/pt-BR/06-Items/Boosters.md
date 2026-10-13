@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6227a03e20405285 -->
+<!-- wiki-i18n source: 35213e745899897b -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -38,7 +38,7 @@ Os boosters usam um sistema de escala aditiva:
 1. **Os percentuais de bônus se somam**: se você comprar dois boosters diferentes que dão +10% de dano de laser cada um, receberá um bônus total de **+20% de dano de laser**.
 2. **As durações se empilham de forma multiplicativa**: comprar o _mesmo_ booster várias vezes prolonga a duração dele. Os temporizadores de boosters _diferentes_ correm em paralelo.
 3. **Visualização dos temporizadores**: os boosters ativos aparecem no HUD, na janela Boosters, que mostra o total dos bônus ativos agrupados e o próximo evento de expiração.
-4. **Os números os contam**: o dano, os escudos, a recarga do escudo, a absorção, a velocidade e o casco do Hangar, e a sua página de piloto, incluem seus boosters ativos, os buffs da Loja de PR e os reforços do seu clã; uma pequena etiqueta *com boosters* no card de estatísticas de combate indica isso. Penetração, chance de crítico e alcance não mudam com os boosters.
+4. **Os números os contam**: o dano, os escudos, a recarga do escudo, a absorção, a velocidade e o casco do Hangar, e a sua página de piloto, incluem seus boosters ativos, os buffs da Loja de PR, os reforços do seu clã e os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados; uma pequena etiqueta *com boosters* no card de estatísticas de combate indica isso. Penetração, chance de crítico e alcance não mudam com os boosters.
 
 ---
 
@@ -71,7 +71,7 @@ Os escudos têm três atributos separados, e cada bônus de escudo aumenta exata
 
 | Tipo | O que é | Bônus que o aumentam |
 | :--- | :--- | :--- |
-| **Capacidade do escudo** | Seus pontos de escudo máximos | Shield Wall Booster I, Shield Wall Booster II, o **Shield Capacity Boost** permanente (Loja de PR) |
+| **Capacidade do escudo** | Seus pontos de escudo máximos | Shield Wall Booster I, Shield Wall Booster II, o **Shield Capacity Boost** permanente (Loja de PR), o boost de escudo de um [P.E.T.](/wiki/03-Mechanics/Pets.md) acoplado |
 | **Absorção do escudo** | A parte de cada impacto que seus escudos recebem (o resto atinge o casco); pode passar de 100% | O **Shield Absorbance Boost** permanente (Loja de PR): +0,1 ponto por nível, a 25 PR cada, no máximo +10 pontos. Nenhum booster a aumenta |
 | **Recarga do escudo** | Pontos de escudo restaurados por segundo | Shield Regen Booster. Nenhum bônus permanente a aumenta |
 

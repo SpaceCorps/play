@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ Die Paragon ist ein schwerer Kampfkreuzer mit ausgewogener Verteidigung und Offe
 
 ## Hintergrund {#lore}
 
-Der Kampfkreuzer Paragon ist das Arbeitspferd der Patrouillenflotten in den Sektoren. Auf Ausdauer ausgelegt, besitzt die Paragon eine schwere, titangeschirmte Hülle und moderne Waffenhalterungen. Dank ihrer Triebwerksanordnung mit mehreren Düsen bleibt sie auch unter Beschuss außergewöhnlich stabil und ist damit ein verlässliches Bollwerk gegen Vorstöße der Aliens. Sie verlässt die Montage in schlichtem Grau, und ihre Designs ebenso.
+Der Kampfkreuzer Paragon ist das Arbeitspferd der Patrouillenflotten in den Sektoren. Auf Ausdauer ausgelegt, besitzt die Paragon eine schwere, titangeschirmte Hülle und moderne Waffenhalterungen. Dank ihrer Triebwerksanordnung mit mehreren Düsen bleibt sie auch unter Beschuss außergewöhnlich stabil und ist damit ein verlässliches Bollwerk gegen Vorstöße der Aliens. Sie verlässt die Montage in schlichtem Grau, und ihre Designs ebenso, bis ein Skin sie lackiert.

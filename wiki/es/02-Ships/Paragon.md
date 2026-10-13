@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6d01f79682907c1e -->
+<!-- wiki-i18n source: 056d221c8d10db60 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -46,4 +46,4 @@ La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre de
 
 ## Historia {#lore}
 
-El crucero de combate Paragon es el caballo de batalla de las flotas de patrulla de sector. Concebido para resistir, cuenta con un casco pesado blindado con titanio y avanzados soportes de armamento. Su configuración de motores de múltiples toberas le permite mantener una estabilidad excepcional bajo el fuego enemigo, lo que lo convierte en un baluarte fiable contra las incursiones alienígenas. Sale de Ensamblaje en un gris liso, y sus diseños también.
+El crucero de combate Paragon es el caballo de batalla de las flotas de patrulla de sector. Concebido para resistir, cuenta con un casco pesado blindado con titanio y avanzados soportes de armamento. Su configuración de motores de múltiples toberas le permite mantener una estabilidad excepcional bajo el fuego enemigo, lo que lo convierte en un baluarte fiable contra las incursiones alienígenas. Sale de Ensamblaje en un gris liso, y sus diseños también, hasta que una skin los pinta.

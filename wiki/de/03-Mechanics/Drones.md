@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7ed6ed3056da695a -->
+<!-- wiki-i18n source: 4f66b153ada889fa -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
@@ -24,7 +24,7 @@ Drohnen sind klein und bleiben nah: Eine Drohne auf Level 8 ist etwa 19,5 Einhei
 
 Trägst du eine [Drohnenformation](/wiki/03-Mechanics/Formations.md), verlassen die Drohnen diese Anordnung: **Jede der 16 Formationen hat eine eigene Form**, ein Dach über den Flügeln, eine Raute, ein Herz, Flügel, ein Schwert, einen Bohrer und mehr, und die Drohnen gleiten in unter einer Sekunde dorthin. Die Form wird für die Drohnen gebaut, die du hast, bis zu 8, und sie dreht sich mit deinem Schiff. Andere Piloten sehen sie auch. [So fliegen sie](/wiki/03-Mechanics/Formations.md#how-they-fly) zeigt alle sechzehn. Trage **Standard**, den Eintrag der Formationenliste, der keine Formation ist, und die Drohnen fliegen wieder die Wingman-Anordnung.
 
-Du kannst die Drohnen in Einstellungen › Oberfläche ausschalten: **Eigene Drohnen anzeigen** für deine und **Gegnerische Drohnen anzeigen** für die anderer Piloten.
+Du kannst die Drohnen in Einstellungen › Oberfläche ausschalten: **Eigene Drohnen anzeigen** für deine und **Gegnerische Drohnen anzeigen** für die anderer Piloten. Auch Drohnen tragen eine **Lackierung**: Du wählst sie in der Ansicht Drohnen des Hangars, und **Aussehen anderer Piloten anzeigen** bestimmt, ob du die Lackierung der Drohnen anderer Piloten siehst ([Kosmetik](/wiki/06-Items/Cosmetics.md#drone-liveries)).
 
 ## Ausrüstung & Werte {#equipment-stats}
 
@@ -92,7 +92,7 @@ Die Kurve ist so gesetzt, dass eine neue Drohne in etwa einer Stunde normalen Sp
 
 ### Master Drone
 
-Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 40.000 Thulium und 100 Ship Fragments und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
+Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 50.000 Thulium, 250 Ship Fragments und 20 Dark Matter Plates und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
 
 **Level und EP werden auf 0 zurückgesetzt, wenn die Aufrüstung fertig ist.** Eine Master Drone beginnt wieder auf Level 1, ohne EP, und steigt so auf wie eine Slave Drone (siehe Tabelle oben); der Laserbonus des Levels, das sie hatte, geht damit verloren. Die Montage sagt dir das, bevor du anfängst, und lässt dich bestätigen, unter Nennung der Drohne, wenn sie EP hat. Vorgewählt ist die Drohne mit den wenigsten EP.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Storm은 모든 함선 중 가장 높은 기본 속도와 가장 많은 레이�
 
 <!-- research-ship:end -->
 
-기술을 연구한 뒤 어셈블리에서 Storm을 제작하려면 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) 1개, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 200개, [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 35개, [Power Core](/wiki/06-Items/Resources.md#power-core) 10개, Thulium 15,000이 필요하며, 제작 시간은 900초(15분)입니다.
+기술을 연구한 뒤 어셈블리에서 Storm을 제작하려면 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) 3개, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 200개, [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 35개, [Power Core](/wiki/06-Items/Resources.md#power-core) 20개, Thulium 15,000이 필요하며, 제작 시간은 900초(15분)입니다.
 
 ## 배경 설정 {#lore}
 

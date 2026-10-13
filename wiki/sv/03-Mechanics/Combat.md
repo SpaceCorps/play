@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f9ae19e1c5f8f9d -->
+<!-- wiki-i18n source: 46b7d7139e8ed531 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Till sist tillämpas globala multiplikatorer (som aktiva boosters, till exempel 
 
 ### 3b. Raketer {#3b-rockets}
 
-En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **3 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och hälften av det vid kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar skada av raketer och av lasrar med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av); drönare gör ingenting med dem, och en asteroid i vägen för ett skott tar träffen i stället för skeppet bakom den ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)).
+En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **3 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och hälften av det vid kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar skada av raketer och av lasrar med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av); drönare gör ingenting med dem, och en asteroid i vägen för ett skott tar träffen i stället för skeppet bakom den ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), och det gör en [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) också.
 
 ### 4. Att vända sig mot målet {#4-facing-the-target}
 
@@ -164,7 +164,7 @@ Ammunitionen [Siphon Battery](/wiki/06-Items/Lasers.md) lägger den sköld den d
 
 ## Kamouflage och EMP {#cloaking-and-the-emp}
 
-Ett skott kräver målfixering. Två [extrautrustningar](/wiki/06-Items/Extras.md) tar din ifrån dig:
+Ett skott kräver målfixering. En Cloaking CPU (en [extrautrustning](/wiki/06-Items/Extras.md)) och EMP Charge (en [förbrukningsvara](/wiki/06-Items/Rockets.md#emp-charge) som bärs som en raket) tar din ifrån dig:
 
 - **Cloaking CPU**: medan du är kamouflerad (det finns ingen tidsgräns) ser andra koncerners piloter, utomjordingar och koncernpiloter inte ditt skepp och kan inte låsa på det; de ser en vanlig röd prick på minikartan där du är. Din första salva avslutar kamouflaget, och du kan inte kamouflera dig igen på en minut, inte heller inom 10 sekunder efter en träff eller ett skott.
 - **EMP Charge**: i 3 sekunder kan ingen låsa på dig, och varje målfixering som redan ligger på dig bryts direkt. Den avslutar varje kamouflage inom 1 500 enheter från piloten som avfyrar den, utom de som tillhör pilotens egen grupp. Den döljer dig inte, och det är ingen osårbarhet: den stoppar det som kräver målfixering.

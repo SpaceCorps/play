@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9aea6ae5901fd4d6 -->
+<!-- wiki-i18n source: 3449d9b082e18d30 -->
 <!-- wiki-i18n title: Hangar -->
 # El hangar en vuelo {#the-hangar-in-flight}
 
@@ -26,8 +26,12 @@ Las reparaciones en curso no te lo impiden. En cualquier otro lugar la ventana H
 - **Formaciones de drones.** La vista Drones lista bajo tus drones las formaciones que tienes. No se equipan: en vuelo arrastras una desde la lista de Formaciones de la barra rápida a una ranura, y el clic o la tecla de esa ranura la lleva, con la misma espera de 2 segundos que en cualquier sitio, también dentro de una zona segura ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)).
 - **Extras.** Las cuatro naves normales, la Protos, la Kitefin, la Ostirion y la Nomad (con las que empiezas o que compras), tienen 2 ranuras de extra en cada configuración; las cuatro naves que fabricas en Ensamblaje, la Paragon, la Ironclad, la Wraith y la Storm, tienen 3. Las Extra Slots CPU de tu Skylab suman 3, 5 o 7 más: 5, 7 o 9 en las normales y 6, 8 o 10 en las fabricadas ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Con la 0.4.10, un tercer extra en una nave normal se desequipó y pasó a tu inventario: no se borró nada y recibiste un mensaje en el chat.
 - **Blindaje de casco.** Las cuatro naves que fabricas tienen [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para el blindaje de casco, cada una bloqueada hasta que la investigas en el Skylab. Un blindaje que pones o quitas conserva tu proporción de casco, y sigue puesto cuando cambias de configuración.
+- **Aspecto.** La sección **Aspecto** de la vista Nave, después del blindaje de casco, y el cuadro **Pintura de los drones** de la vista Drones abren el **Guardarropa**, donde pruebas skins, auras y estelas en tu nave mientras gira antes de ponértelos. Donde se puede cambiar el equipo, también se puede cambiar el aspecto ([Cosméticos](/wiki/06-Items/Cosmetics.md)).
+- **P.E.T.s.** La vista **P.E.T.** contiene la Cuna, donde un Cluster Chunk y una Orvium Reinforced Plate se convierten en un P.E.T., las plazas de la P.E.T. Station y el cruce. En vuelo solo muestra lo que tienes: ensamblar, acoplar, desacoplar y cruzar solo se puede con la nave posada en una estación ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Vender no forma parte de la ventana: el martillo que abre la [Subasta](/wiki/03-Mechanics/Auction.md) pertenece al Hangar de la estación, y la propia Subasta es una página de la estación.
+
+La página **Builds** de la Biblioteca puede importar lo que está equipado en una de tus naves, en cualquiera de las dos configuraciones, como un build que puedes editar, calcular, guardar en tu cuenta y compartir ([Builds](/wiki/01-General/Recipe-Book.md#import)).
 
 ## Cambiar de nave {#changing-ship}
 

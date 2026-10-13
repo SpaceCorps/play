@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ce2f2e451bffe3b4 -->
+<!-- wiki-i18n source: 23cc4f287c986228 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -16,21 +16,21 @@ SpaceCorps에서 무기는 피해를 입히는 주된 수단입니다.
 ```tree
 Quantum Laser I | laser, shoddy | buy 8000 Credits | /wiki/06-Items/Lasers.md#lasers
 Quantum Laser II | laser, common | buy 80000 Credits | /wiki/06-Items/Lasers.md#lasers
-Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
+Quantum Laser III | laser, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Quantum Laser II, 10 Ship Fragment, 3 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
 Starfire-III | laser, mythical | craft 100000 Credits, 1500 Thulium, 60 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Quantum Laser III, 15 Ship Fragment, 1 Reinforced Hull Plate, 8 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#lasers
-Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 50 Cataclysite, 18 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
+Helios Beam | laser, mythical | craft 2000 Thulium, 180 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Starfire-III, 4 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit, 50 Cataclysite, 18 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#lasers
 Damage Amp I | laser-amp, shoddy | buy 10000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Crit Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp I | laser-amp, shoddy | buy 15000 Credits | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Damage Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Crit Amp I, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp II | laser-amp, uncommon | craft 250 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 20 Daraxium, 10 Cataclysite, 1 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Damage Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Damage Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Crit Amp II, 1 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp III | laser-amp, rare | craft 1000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 1 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Damage Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Crit Amp IV | laser-amp, epic | craft 1200 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 30 Cataclysite, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
-Penetration Amp IV | laser-amp, epic | craft 1200 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 30 Cataclysite, 40 Quorvium, 3 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Damage Amp I, 50 Ship Fragment, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Crit Amp I, 50 Ship Fragment, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Damage Amp II, 50 Ship Fragment, 2 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Crit Amp II, 50 Ship Fragment, 2 Power Core, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Damage Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
@@ -65,27 +65,27 @@ Quantum Laser I, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯
 
 ### 상위 레이저 3종 제작 {#making-the-top-three-lasers}
 
-**Quantum Laser III**, **Starfire-III**, **Helios Beam**은 **어셈블리**에서만 만들 수 있으며, 각각 한 단계 아래 레이저로 만듭니다. 상점의 Quantum Laser II가 Quantum Laser III가 되고, 그것이 Starfire-III가 되며, 다시 Helios Beam이 됩니다. Quantum Laser III는 더 이상 상점에서 판매하지 않으며, 이미 보유한 파일럿은 계속 가지고 있습니다. 각 제작법에는 [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소에서 만든 플레이트가 필요하며, Helios Beam에는 Dark Matter Plate 3개도 필요합니다.
+**Quantum Laser III**, **Starfire-III**, **Helios Beam**은 **어셈블리**에서만 만들 수 있으며, 각각 한 단계 아래 레이저로 만듭니다. 상점의 Quantum Laser II가 Quantum Laser III가 되고, 그것이 Starfire-III가 되며, 다시 Helios Beam이 됩니다. Quantum Laser III는 더 이상 상점에서 판매하지 않으며, 이미 보유한 파일럿은 계속 가지고 있습니다. 각 제작법에는 [Skylab](/wiki/03-Mechanics/Skylab.md)의 단조소에서 만든 플레이트가 필요하며, Helios Beam에는 Dark Matter Plate 4개와 Ancient Control Unit 1개도 필요합니다.
 
 | 레이저 | 제작 시간 | 필요 재료 |
 | :--- | :---: | :--- |
-| Quantum Laser III | 1분 | Quantum Laser II 1개, Ship Fragment 10개, Velkonite Reinforced Plate 2개, 1,500 Thulium |
+| Quantum Laser III | 1분 | Quantum Laser II 1개, Ship Fragment 10개, Velkonite Reinforced Plate 3개, 1,500 Thulium |
 | Starfire-III | 1분 | Quantum Laser III 1개, Ship Fragment 15개, Velkonite Reinforced Plate 8개, Reinforced Hull Plate 1개, 1,500 Thulium, 100,000 크레딧 |
-| Helios Beam | 3분 | Starfire-III 1개, Cataclysite 50개, Power Core 2개, Orvium Reinforced Plate 18개, Dark Matter Plate 3개, Reinforced Hull Plate 4개, 2,000 Thulium |
+| Helios Beam | 3분 | Starfire-III 1개, Cataclysite 50개, Power Core 2개, Orvium Reinforced Plate 18개, Dark Matter Plate 4개, Ancient Control Unit 1개, Reinforced Hull Plate 4개, 2,000 Thulium |
 
 어셈블리 페이지에는 제작법에 필요한 양과 보유량이 나란히 표시되며, 조립 버튼에는 부족한 것이 표시됩니다. 레시피의 이미지나 이름, 또는 재료에 마우스를 올리면 아이템의 전체 설명과 능력치가 표시됩니다.
 
-**Quantum Laser III는 Quantum Laser II를 재료로 만듭니다.** Quantum Laser II는 상점에서 파는 레이저(80,000 크레딧)입니다. Quantum Laser III는 그것을 소모하므로, 제작법의 Ship Fragment 10개, Velkonite Reinforced Plate 2개, 1,500 Thulium은 상점에서 치른 Quantum Laser II에 더해집니다. 규칙은 아래에 나오는 Starfire-III의 규칙과 같습니다. Quantum Laser III는 소모한 Quantum Laser II의 인챈트 등급을 이어받고(신성한 Quantum Laser II로는 신성한 Quantum Laser III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser II를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser II는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser II 해제”라고 표시됩니다.
+**Quantum Laser III는 Quantum Laser II를 재료로 만듭니다.** Quantum Laser II는 상점에서 파는 레이저(80,000 크레딧)입니다. Quantum Laser III는 그것을 소모하므로, 제작법의 Ship Fragment 10개, Velkonite Reinforced Plate 3개, 1,500 Thulium은 상점에서 치른 Quantum Laser II에 더해집니다. 규칙은 아래에 나오는 Starfire-III의 규칙과 같습니다. Quantum Laser III는 소모한 Quantum Laser II의 인챈트 등급을 이어받고(신성한 Quantum Laser II로는 신성한 Quantum Laser III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser II를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser II는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser II 해제”라고 표시됩니다.
 
-**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 예전에 Starfire-III 하나가 단독으로 요구하던 것(3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 10개, Reinforced Hull Plate 1개, 그리고 2분)에, Quantum Laser III가 소모하는 Quantum Laser II를 더한 것입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급을 이어받고(신성한 Quantum Laser III로는 신성한 Starfire-III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
+**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 11개, Reinforced Hull Plate 1개, 그리고 2분에, Quantum Laser III가 소모하는 Quantum Laser II를 더한 것입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급을 이어받고(신성한 Quantum Laser III로는 신성한 Starfire-III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
 
-**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧. Quantum Laser III는 Quantum Laser II를 소모합니다), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 10장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 3개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개, 그리고 계열 맨 앞의 Quantum Laser II 1개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급을 이어받고(신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다) 보너스는 다시 굴리며, 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
+**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧. Quantum Laser III는 Quantum Laser II를 소모합니다), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 11장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 4개와 Ancient Control Unit 1개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개, 그리고 계열 맨 앞의 Quantum Laser II 1개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급을 이어받고(신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다) 보너스는 다시 굴리며, 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
 
 플레이트의 출처는 다음과 같습니다.
 
 - **Velkonite Reinforced Plate**(Quantum Laser III, Starfire-III)는 Velkonite로 단조하며, 단조소 레벨 1에서는 플레이트 1장에 광석 40개가 듭니다. **Orvium Reinforced Plate**(Helios Beam)는 Orvium으로 단조하며, 플레이트 1장에 광석 80개가 듭니다.
-- **Dark Matter Plate**(Helios Beam에 3개)는 그 제작법을 연구한 뒤 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 압착해 만듭니다. 3개에는 Dark Matter 15개가 들며, [블랙홀](/wiki/03-Mechanics/Black-Hole.md)에서 N.I.K.E. 로켓 평균 7.5발 분량입니다. 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
-- 광석은 Skylab의 수집기에서만 나옵니다. 레벨 5 Velkonite 수집기는 시간당 Velkonite를 18개 채굴하므로, Quantum Laser III의 플레이트는 채굴에 약 4시간, Starfire-III의 플레이트 10장(Quantum Laser III 단계에 2장, 자체 단계에 8장)은 약 22시간이 걸립니다. 가장 오래 걸리는 것은 Helios Beam입니다. 플레이트 18장에 Orvium 1,440개가 필요하며, 레벨 5 Orvium 수집기로 약 4일이 걸립니다. 여기에 Dark Matter Plate 3개에 들어가는 Orvium 플레이트 3장이 Orvium 240개, 약 17시간을 더합니다.
+- **Dark Matter Plate**(Helios Beam에 4개)는 그 제작법을 연구한 뒤 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, 250 Thulium으로 압착해 만듭니다. 4개에는 Dark Matter 20개가 들며, [블랙홀](/wiki/03-Mechanics/Black-Hole.md)에서 N.I.K.E. 로켓 평균 10발 분량입니다. 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
+- 광석은 Skylab의 수집기에서만 나옵니다. 레벨 5 Velkonite 수집기는 시간당 Velkonite를 18개 채굴하므로, Quantum Laser III의 플레이트는 채굴에 약 7시간, Starfire-III의 플레이트 11장(Quantum Laser III 단계에 3장, 자체 단계에 8장)은 약 24시간이 걸립니다. 가장 오래 걸리는 것은 Helios Beam입니다. 플레이트 18장에 Orvium 1,440개가 필요하며, 레벨 5 Orvium 수집기로 약 4일이 걸립니다. 여기에 Dark Matter Plate 4개에 들어가는 Orvium 플레이트 4장이 Orvium 320개, 약 23시간을 더합니다.
 - 자원 창고는 레벨 1에서 광석을 종류별로 240개까지 보관합니다. 단조소 레벨 1에서 Velkonite 플레이트 6장이나 Orvium 플레이트 3장 분량입니다. 그러므로 그때그때 단조하거나(레벨 1에서 단조소의 배치는 플레이트 최대 10장) 창고를 업그레이드하세요.
 - 단조한 플레이트는 함선이 착륙해 있는 동안 수거할 때까지 단조소에서 기다리며, 수거하면 일반 아이템으로 인벤토리에 들어옵니다.
 
@@ -115,18 +115,18 @@ Ship Fragment, Cataclysite, Power Core, Reinforced Hull Plate는 외계인이 �
 | **Penetration Amp III** | 희귀 | +9% | 제작 전용 |
 | **Penetration Amp IV** | 영웅 | +12% | 제작 전용 |
 
-**각 계열의 첫 티어만 팝니다**, 상점에서. 나머지 셋은 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 한 티어 아래의 증폭기로 만들며, 먼저 Skylab에서 그 기술을 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). 각 단계에는 Thulium, 외계인 드롭, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate, 티어 IV에는 Dark Matter Plate 3개)가 들고, 새 증폭기는 소모한 증폭기의 인챈트 등급을 이어받으며 보너스는 다시 굴립니다([어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration 단계에는 결정 렌즈가 더해집니다. 티어 IV 증폭기는 어느 것이나 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 3개를 요구하므로(모든 강화 계열의 마지막 티어가 그렇습니다), 티어 IV 증폭기의 기술은 먼저 그 플레이트의 기술을 요구합니다.
+**각 계열의 첫 티어만 팝니다**, 상점에서. 나머지 셋은 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 한 티어 아래의 증폭기로 만들며, 먼저 Skylab에서 그 기술을 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). 각 단계에는 Thulium, 외계인 드롭, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate, 티어 IV에는 Dark Matter Plate 4개와 Ancient Control Unit 1개)가 들고, 새 증폭기는 소모한 증폭기의 인챈트 등급을 이어받으며 보너스는 다시 굴립니다([어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration 단계에는 결정 렌즈가 더해집니다. 티어 IV 증폭기는 어느 것이나 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 4개를 요구하므로(다른 강화 계열의 마지막 티어도 마찬가지입니다), 티어 IV 증폭기의 기술은 먼저 그 플레이트의 기술을 요구합니다.
 
 | 단계 | Thulium | 시간 | 한 티어 아래 증폭기에 더해 |
 | :--- | ---: | ---: | :--- |
-| Damage Amp II / Crit Amp II | 250 | 60초 | Cataclysite 10개, Velkonite Reinforced Plate 1개 |
-| Damage Amp III / Crit Amp III | 1,000 | 60초 | Cataclysite 20개, Power Core 1개, Velkonite Reinforced Plate 2개 |
-| Damage Amp IV / Crit Amp IV | 1,200 | 60초 | Cataclysite 30개, Power Core 1개, Dark Matter Plate 3개 |
-| Penetration Amp II | 250 | 60초 | Daraxium 20개, Cataclysite 10개, Velkonite Reinforced Plate 1개 |
-| Penetration Amp III | 1,000 | 60초 | Nyxite 30개, Cataclysite 20개, Power Core 1개, Velkonite Reinforced Plate 2개 |
-| Penetration Amp IV | 1,200 | 90초 | Quorvium 40개, Cataclysite 30개, Power Core 1개, Dark Matter Plate 3개 |
+| Damage Amp II / Crit Amp II | 500 | 60초 | Cataclysite 20개, Ship Fragment 50개, Velkonite Reinforced Plate 2개 |
+| Damage Amp III / Crit Amp III | 2,000 | 60초 | Cataclysite 20개, Power Core 2개, Ship Fragment 50개, Velkonite Reinforced Plate 2개 |
+| Damage Amp IV / Crit Amp IV | 2,400 | 60초 | Cataclysite 30개, Power Core 1개, Ancient Control Unit 1개, Dark Matter Plate 4개 |
+| Penetration Amp II | 500 | 60초 | Daraxium 20개, Cataclysite 20개, Ship Fragment 50개, Velkonite Reinforced Plate 2개 |
+| Penetration Amp III | 2,000 | 60초 | Nyxite 30개, Cataclysite 20개, Power Core 2개, Ship Fragment 50개, Velkonite Reinforced Plate 2개 |
+| Penetration Amp IV | 2,400 | 90초 | Quorvium 40개, Cataclysite 30개, Power Core 1개, Ancient Control Unit 1개, Dark Matter Plate 4개 |
 
-Helios Beam과 티어 IV 증폭기 3개는 마지막 티어 부품 4개로, Dark Matter Plate 12개, Dark Matter 60개, N.I.K.E. 로켓 평균 30발 분량입니다. 모든 슬롯을 마지막 티어로 채운 Wraith에는 Dark Matter 900개가 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Helios Beam과 티어 IV 증폭기 3개는 마지막 티어 부품 4개로, Dark Matter Plate 16개, Dark Matter 80개, N.I.K.E. 로켓 평균 40발 분량입니다. 모든 슬롯을 마지막 티어로 채운 Wraith에는 Dark Matter 1,200개가 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### 어느 증폭기를 어디에 쓸까 {#which-amp-goes-where}
 
@@ -207,4 +207,4 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 
 - **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 187(탄약 x1, 무작위와 치명타의 평균)을 내고, Damage Amp IV 3개는 356, Crit Amp IV 3개는 369로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성도 거의 비슷하게 빠릅니다(레이저 하나의 Penetration Amp 1개로 얻는 것은 최대 5%).
 - **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받으므로 외계인에게도 통하지만, 같은 티어의 Damage Amp나 Crit Amp도 같거나 더 빨리 처치합니다. 편대를 쓰고 싸우는 Phantasm이나 Goombah는 예외로, 레이저 하나의 Penetration Amp 1개가 최대 5%를 얻습니다.
-- **비용.** Penetration Amp IV마다 Dark Matter Plate 3개(Dark Matter 15개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 36개 슬롯을 모두 채우는 Wraith에는 플레이트 108개, Dark Matter 540개가 필요합니다.
+- **비용.** Penetration Amp IV마다 Dark Matter Plate 4개(Dark Matter 20개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 36개 슬롯을 모두 채우는 Wraith에는 플레이트 144개, Dark Matter 720개가 필요합니다.

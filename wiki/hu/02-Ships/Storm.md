@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 <!-- research-ship:end -->
 
-Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártásban 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) és 15 000 Thulium kell, a munka pedig 900 másodpercig (15 percig) tart.
+Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártásban 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) és 15 000 Thulium kell, a munka pedig 900 másodpercig (15 percig) tart.
 
 ## Háttértörténet {#lore}
 

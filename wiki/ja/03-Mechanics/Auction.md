@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: オークション -->
 # オークション {#auction}
 
-オークションは、パイロット同士のマーケットと、ゲーム自身による毎時のロットを、ステーションメニューの1ページにまとめたものです。ショップと同じくステーションのページで、ドッキング中に使い、飛行中は使えません。4つのセクションがあります。**マーケット**は、ほかのパイロットが売っているものです。**ロット**はゲーム自身の出品で、毎時3つ出ます。**自分の出品**は、あなた自身が売りに出しているものです。**履歴**は、あなたの売却、購入、落札したロットと、取引の成績です。
+オークションは、パイロット同士のマーケットと、ゲーム自身による毎時のロットを、ステーションメニューの1ページにまとめたものです。飛行中はウィンドウとして開きます。左上のツールバーの**オークション**ボタン（木槌）が、同じページをゲームの上に表示し、ウィンドウの位置とサイズは記憶されます。ステーションと同じように使えますが、弾薬、ロケット、EMP Charge は飛行中は船が数えているため、出品はステーションから行います（出品シートにはロックされた状態で理由とともに表示されます）。購入と入札はどこからでもできます。5つのセクションがあります。**マーケット**は、ほかのパイロットが売っているものです。**ロット**はゲーム自身の出品で、毎時3つ出ます。**Davidski**は飛び回る商人の在庫で、オークションが扱うすべての種類を、ショップの価格の何倍もの値段で売っています。ショップが販売しないものは、彼から買うのが最後の手段になるほど高く、クラフトに使うレア資源はさらにその千倍です（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**自分の出品**は、あなた自身が売りに出しているものです。**履歴**は、あなたの売却、購入、落札したロットと、取引の成績です。
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@
 - オークションを使う（出品、購入、入札する）には**レベル5**が必要です。
 - 出品の価格は1ロットあたり、整数のクレジットか整数のThuliumで付けます（両方は不可）。そのアイテムの最低価格を下回ることはできません。**上限価格はありません。**
 - Thuliumでの価格は、クレジットでの最低価格を1,000で割って切り上げた額以上で、最低価格が1Thulium以上になるアイテムに限られます。レートの役割はそれだけです。**1 Thulium = 1,000クレジットは最低価格のための決まりで、為替レートではありません。**何も交換されず、価値も表示されず、クレジットとThuliumが合算されることもありません。
-- 出品できるのは82種類で、そのうち81種類はThuliumでも価格を付けられます。
+- 出品できるのは83種類で、そのうち82種類はThuliumでも価格を付けられます。
 - 出品期間は168 / 336 / 504時間から選べます。選択肢はどのレベルでも同じです。
 - **出品料**は、出品が続く24時間ごとに価格の0.25%で、最低でも50クレジットまたは1 Thuliumです。出品時に支払い、取り消しても返金されません。
 - レベル10からは、出品料は0.4%になります。
@@ -26,7 +26,7 @@
 
 ## 出品可能なアイテム {#marketable-items}
 
-売れるのは、**獲得した**アイテムだけです。獲得したものはすべて、[ハンガー](/wiki/03-Mechanics/Inventory.md#marketable-items)で小さな**出品可能**のタグが付きます。宇宙で拾ったもの（エイリアン、群れ、Warden、ブラックホールのドロップ：[積荷](/wiki/03-Mechanics/Cargo.md)）、ミッションが支払うもの（[クエスト](/wiki/03-Mechanics/Quests.md#rewards)）、そしてアセンブリと鍛冶場が作るものすべてです。ショップで**購入した**もの、ロットで落札したもの、マーケットで買ったもの、ボーナスコード、招待パック、スターターキットで受け取ったもの、返金として戻ってきたものは出品可能ではなく、二度と売ることはできません。転売のためだけに買われるものがない、ということです。スカイラボの鍛造所が作るプレートも出品可能ではありませんが、ミッションが支払うReinforced Plateは出品可能です。スカイラボの弾薬プリンターとロケット工場が作る弾薬とロケットも出品可能ではありません。
+売れるのは、**獲得した**アイテムだけです。獲得したものはすべて、[ハンガー](/wiki/03-Mechanics/Inventory.md#marketable-items)で小さな**出品可能**のタグが付きます。宇宙で拾ったもの（エイリアン、群れ、Warden、ブラックホールのドロップ：[積荷](/wiki/03-Mechanics/Cargo.md)）、ミッションが支払うもの（[クエスト](/wiki/03-Mechanics/Quests.md#rewards)）、そしてアセンブリと鍛冶場が作るものすべてです。ショップで**購入した**もの、ロットで落札したもの、マーケットで買ったもの、[Davidski](/wiki/03-Mechanics/Davidski.md)から買ったもの、ボーナスコード、招待パック、スターターキットで受け取ったもの、返金として戻ってきたものは出品可能ではなく、二度と売ることはできません。転売のためだけに買われるものがない、ということです。スカイラボの鍛造所が作るプレートも出品可能ではありませんが、ミッションが支払うReinforced Plateは出品可能です。スカイラボの弾薬プリンターとロケット工場が作る弾薬とロケットも出品可能ではありません。
 
 タグはスイッチではなくユニットの数です。弾薬のスタックには購入分と獲得分が混ざることがあり、カードには「出品可能（3 / 5）」と表示されます。スタックの一部を使うとき（発射、クラフト）は、普通のユニットが先になくなるので、出品可能なものが最も長く残ります。[鍛冶場](/wiki/06-Items/Forge.md#merge)で2つの品を統合すると、両方にタグがあった場合だけタグが残り、プレビューにそう表示されます。失敗した鍛冶場のステップは、素材を普通のユニットとして返します。
 
@@ -50,13 +50,14 @@
 | **スラスター** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Ultra Core（10個単位）, Experimental Fusion Core | 5 |
 | **ロケット** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **消耗品** | EMP Charge | 1 |
+| **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **資源** | Cataclysite（100個単位）, Ship Fragment（100個単位）, Daraxium（100個単位）, Nyxite（100個単位）, Quorvium（10個単位）, Reinforced Hull Plate（10個単位）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-艦船、ドローン、ドローンフォーメーション、ブースター、サブスクリプションは売れません。Ancient Control Unit、鉱石のVelkoniteとOrvium、Dark Matter Plate、Jump CPU、Extra Slots CPU、N.U.K.E.、N.I.K.E.も売れません。Dark Matter Plateは、商品としても価格としても、オークションにはまったく登場しません。装備中のアイテム、ほかのアイテムに組み込まれたアイテム、モジュールを持つアイテム、[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)にあるアイテムは出品できず、使用済みのCloaking CPU、EMP Charge、Base CPUも出品できません。弾薬とロケットはステーションから売ります。先に機体を着陸させてください。
+艦船、ドローン、ドローンフォーメーション、ブースター、サブスクリプション、[P.E.T.](/wiki/03-Mechanics/Pets.md)は売れません。Ancient Control Unit、鉱石のVelkoniteとOrvium、Dark Matter Plate、Jump CPU、Extra Slots CPU、P.E.T. Station I〜III、3種のCluster Chunk、Energetic Wall I、N.U.K.E.、N.I.K.E.も売れません。Dark Matter Plateは、商品としても価格としても、オークションにはまったく登場しません。装備中のアイテム、ほかのアイテムに組み込まれたアイテム、Skylab のエンジンモジュールまたは防衛モジュールに取り付けたアイテム、モジュールを持つアイテム、[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)にあるアイテムは出品できず、使用済みのCloaking CPU、EMP Charge、Base CPUも出品できません。弾薬とロケットはステーションから売ります。先に機体を着陸させてください。
 
 ## 売る {#selling}
 
@@ -70,11 +71,11 @@
 | アイテム | 1ロットの個数 | 最低価格、クレジット | 最低価格、Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32,000 | 32 |
-| Quantum Laser III | 1 | 210,000 | 210 |
-| Helios Beam | 1 | 1,600,000 | 1,600 |
-| Absorption Shield Cell IV | 1 | 1,100,000 | 1,100 |
-| Heavy Shield Core | 1 | 870,000 | 870 |
-| Impulse Thruster IV | 1 | 980,000 | 980 |
+| Quantum Laser III | 1 | 220,000 | 220 |
+| Helios Beam | 1 | 1,800,000 | 1,800 |
+| Absorption Shield Cell IV | 1 | 1,700,000 | 1,700 |
+| Heavy Shield Core | 1 | 1,300,000 | 1,300 |
+| Impulse Thruster IV | 1 | 1,600,000 | 1,600 |
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ Thuliumでの価格には、ルールが1つだけあります。クレジット
 
 | 出品 | 価格 | 出品料 | 税 | 販売者の受取額 |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III：レベル6、168時間 | 210,000クレジット | 3,675クレジット | 10,500クレジット | 199,500クレジット |
-| Quantum Laser III：レベル10、336時間 | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III：レベル6、168時間 | 220,000クレジット | 3,850クレジット | 11,000クレジット | 209,000クレジット |
+| Quantum Laser III：レベル10、336時間 | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam：レベル12、504時間 | 2,500,000クレジット | 210,000クレジット | 125,000クレジット | 2,375,000クレジット |
 | Helios Beam：レベル12、504時間、シーズン終盤 | 2,500,000クレジット | 0クレジット | 0クレジット | 2,500,000クレジット |
 
@@ -146,13 +147,13 @@ Thuliumでの価格には、ルールが1つだけあります。クレジット
 
 ## 毎時のロット {#the-hourly-lots}
 
-ロットはゲーム自身の出品で、弾薬、ロケット、EMP Chargeを、毎時3つずつ（同時に12個が開いています）、入札で売ります。ショップより安く弾薬を手に入れる方法であり、落札額が破棄されるのでシンクでもあります。開くのは下の1日の表にあるロットだけです（x1やx4の弾薬、Siphon Battery、特殊なロケットは出ません）。通貨はショップのものです。すでに何を持っていても、どのロットにも入札できます。落札したロットは、ショップで買える上限（スタック）を超える場合でも、そのまま全部あなたのものになります。
+ロットはゲーム自身の出品で、弾薬、ロケット、EMP Chargeを、毎時3つずつ（同時に12個が開いています）、入札で売ります。ショップより安く弾薬を手に入れる方法であり、落札額が破棄されるのでシンクでもあります。開くのは下の1日の表にあるロットだけです（x1やx4の弾薬、Siphon Battery、特殊なロケットは出ません）。**すべてのロットはクレジットで入札します**。ショップがその商品にどの通貨を求めていても同じです。ショップがThuliumで販売している商品のロット（たとえば x2・x3 弾薬や EMP Charge）は、そのThulium価格と同じ価値のクレジット（1 Thulium = 200クレジット）で開始されるので、Thuliumがまったくなくても、どのロットにも入札できます。すでに何を持っていても、どのロットにも入札できます。落札したロットは、ショップで買える上限（スタック）を超える場合でも、そのまま全部あなたのものになります。
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - 毎UTC時の始まりに、それぞれ別の品物の新しいロットが3件開き、各ロットは4時間開いたままなので、同時に12件が開いています。
-- 開始価格は、商品のショップ価格の20%です。以降の入札は、最高入札額より5%以上高く、かつ100クレジットまたは1 Thulium以上多くなければなりません。
+- 開始価格は、商品のショップ価格の20%です。以降の入札は、最高入札額より5%以上高く、かつ100クレジット以上多くなければなりません。
 - 入札額はすぐに支払われ、保留されます。誰かに上回られると、すぐに戻ってきます。
 - ロットの終了前2分以内に入札すると、終了が入札の2分後に延びます。最大5回までです。
 - 落札したものは飛ぶためのもので、取引のためのものではありません。出品可能にはなりません。落札額は破棄されます。誰も入札しなかったロットは売れず、誰にも費用はかかりません。
@@ -164,80 +165,80 @@ Thuliumでの価格には、ルールが1つだけあります。クレジット
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC時 | ロット | 全量 | 支払い通貨 | 全量での開始価格 |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 00:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 00:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 01:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 01:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 01:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 02:00 | Lancet I | 12,500 | クレジット | 1,250,000クレジット |
-| 02:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 03:00 | Lancet I | 12,500 | クレジット | 1,250,000クレジット |
-| 04:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 04:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 04:00 | Rivet I | 12,500 | クレジット | 1,250,000クレジット |
-| 05:00 | Rivet II | 5,000 | クレジット | 800,000クレジット |
-| 05:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 06:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 06:00 | Ember II | 5,000 | クレジット | 800,000クレジット |
-| 07:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 07:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 07:00 | Rivet II | 5,000 | クレジット | 800,000クレジット |
-| 08:00 | Ember I | 12,500 | クレジット | 1,250,000クレジット |
-| 08:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 09:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 09:00 | Ember II | 5,000 | クレジット | 800,000クレジット |
-| 10:00 | Scatter II | 5,000 | クレジット | 800,000クレジット |
-| 10:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 11:00 | Lancet I | 12,500 | クレジット | 1,250,000クレジット |
-| 12:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 12:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 12:00 | Scatter II | 5,000 | クレジット | 800,000クレジット |
-| 13:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 13:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 13:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Ultra Core | 10,000 | Thulium | 2,000 Thulium |
-| 14:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 14:00 | Ember I | 12,500 | クレジット | 1,250,000クレジット |
-| 15:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 15:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 15:00 | Lancet III | 1,250 | Thulium | 1,250 Thulium |
-| 16:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 16:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 16:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 17:00 | Rivet I | 12,500 | クレジット | 1,250,000クレジット |
-| 17:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 18:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 18:00 | Scatter II | 5,000 | クレジット | 800,000クレジット |
-| 19:00 | Ember II | 5,000 | クレジット | 800,000クレジット |
-| 19:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 20:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 20:00 | Rivet I | 12,500 | クレジット | 1,250,000クレジット |
-| 21:00 | Advanced Plasma | 25,000 | Thulium | 2,500 Thulium |
-| 21:00 | Ultra Core | 25,000 | Thulium | 5,000 Thulium |
-| 21:00 | Rivet II | 5,000 | クレジット | 800,000クレジット |
-| 22:00 | Advanced Plasma | 10,000 | Thulium | 1,000 Thulium |
-| 22:00 | Ultra Core | 50,000 | Thulium | 10,000 Thulium |
-| 22:00 | Scatter III | 1,250 | Thulium | 1,250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50,000 | Thulium | 5,000 Thulium |
-| 23:00 | Ember I | 12,500 | クレジット | 1,250,000クレジット |
+| UTC時 | ロット | 全量 | 全量での開始価格 |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1,250 | 250,000クレジット |
+| 00:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 00:00 | Ultra Core | 10,000 | 400,000クレジット |
+| 01:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 01:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 01:00 | Lancet III | 1,250 | 250,000クレジット |
+| 02:00 | Lancet I | 12,500 | 1,250,000クレジット |
+| 02:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 02:00 | EMP Charge | 5 | 100,000クレジット |
+| 03:00 | EMP Charge | 5 | 100,000クレジット |
+| 03:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 03:00 | Lancet I | 12,500 | 1,250,000クレジット |
+| 04:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 04:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 04:00 | Rivet I | 12,500 | 1,250,000クレジット |
+| 05:00 | Rivet II | 5,000 | 800,000クレジット |
+| 05:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 05:00 | EMP Charge | 5 | 100,000クレジット |
+| 06:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 06:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 06:00 | Ember II | 5,000 | 800,000クレジット |
+| 07:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 07:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 07:00 | Rivet II | 5,000 | 800,000クレジット |
+| 08:00 | Ember I | 12,500 | 1,250,000クレジット |
+| 08:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 08:00 | EMP Charge | 5 | 100,000クレジット |
+| 09:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 09:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 09:00 | Ember II | 5,000 | 800,000クレジット |
+| 10:00 | Scatter II | 5,000 | 800,000クレジット |
+| 10:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 10:00 | EMP Charge | 5 | 100,000クレジット |
+| 11:00 | EMP Charge | 5 | 100,000クレジット |
+| 11:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 11:00 | Lancet I | 12,500 | 1,250,000クレジット |
+| 12:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 12:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 12:00 | Scatter II | 5,000 | 800,000クレジット |
+| 13:00 | Lancet III | 1,250 | 250,000クレジット |
+| 13:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 13:00 | Ultra Core | 10,000 | 400,000クレジット |
+| 14:00 | Ultra Core | 10,000 | 400,000クレジット |
+| 14:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 14:00 | Ember I | 12,500 | 1,250,000クレジット |
+| 15:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 15:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 15:00 | Lancet III | 1,250 | 250,000クレジット |
+| 16:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 16:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 16:00 | Scatter III | 1,250 | 250,000クレジット |
+| 17:00 | Rivet I | 12,500 | 1,250,000クレジット |
+| 17:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 17:00 | EMP Charge | 5 | 100,000クレジット |
+| 18:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 18:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 18:00 | Scatter II | 5,000 | 800,000クレジット |
+| 19:00 | Ember II | 5,000 | 800,000クレジット |
+| 19:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 19:00 | EMP Charge | 5 | 100,000クレジット |
+| 20:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 20:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 20:00 | Rivet I | 12,500 | 1,250,000クレジット |
+| 21:00 | Advanced Plasma | 25,000 | 500,000クレジット |
+| 21:00 | Ultra Core | 25,000 | 1,000,000クレジット |
+| 21:00 | Rivet II | 5,000 | 800,000クレジット |
+| 22:00 | Advanced Plasma | 10,000 | 200,000クレジット |
+| 22:00 | Ultra Core | 50,000 | 2,000,000クレジット |
+| 22:00 | Scatter III | 1,250 | 250,000クレジット |
+| 23:00 | EMP Charge | 5 | 100,000クレジット |
+| 23:00 | Advanced Plasma | 50,000 | 1,000,000クレジット |
+| 23:00 | Ember I | 12,500 | 1,250,000クレジット |
 
 <!-- market-day:end -->
 

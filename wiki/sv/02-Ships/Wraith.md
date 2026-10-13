@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Bakgrund {#lore}
 
-Slagskeppet Wraith är en produkt av hemlig black ops-forskning och höjdpunkten i slagskeppskonstruktion. Dess drivsystem av mörk materia och täta energinät gör att det kan föra flera kraftfulla laserbatterier samtidigt. Extremt sällsynt och dyrt: synen av en Wraith på sensorerna räcker för att få även de mest luttrade piratkaptenerna att vända om. Det lämnar Monteringen i slätt grått, och dess designer likaså.
+Slagskeppet Wraith är en produkt av hemlig black ops-forskning och höjdpunkten i slagskeppskonstruktion. Dess drivsystem av mörk materia och täta energinät gör att det kan föra flera kraftfulla laserbatterier samtidigt. Extremt sällsynt och dyrt: synen av en Wraith på sensorerna räcker för att få även de mest luttrade piratkaptenerna att vända om. Det lämnar Monteringen i slätt grått, och dess designer likaså, tills en skin målar dem.

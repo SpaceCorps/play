@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea6d96252a5296d9 -->
+<!-- wiki-i18n source: bd7db9b63b944c54 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -11,13 +11,13 @@
 ## 1分でわかる要点 {#in-one-minute}
 
 - **Dark Matter は資源で、どこでも単に Dark Matter と呼ばれます。** 危険セクター 4（`DS-4`）の中心にあるブラックホールが作ります。ブラックホールに届いた N.I.K.E. ロケット1発につき Dark Matter が1～3個（平均2個）、その領域の縁にある小さなコンテナに入って返ってきます。
-- **何に使うか。** 研究センターの83の技術が要求し、1つにつき5～40個、合計904個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。
+- **何に使うか。** 研究センターの93の技術が要求し、1つにつき5～40個、合計1,019個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。
 - **研究センターでは**、開始を押す前に、貨物から Dark Matter を追加します（艦を着陸させた状態で）。研究は開始時にそれを受け取ります。
 - **Dark Matter Plate は別のアイテムです。** まずそのレシピを研究し（ツリーの資源グループ：1日と Dark Matter 10個）、そのあとアセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から製作します。
-- **プレートの使い道。** 各強化系統の最終ティアは **3枚** を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II です（13個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。
+- **プレートの使い道。** 各強化系統の最終ティアは **4枚** と Ancient Control Unit 1個以上を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II です（13個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールも、建設とアップグレードにプレートを必要とします（[資源](/wiki/06-Items/Resources.md#dark-matter-plate)）。
 - **先にプレートを研究します。** この13個の技術はどれも、プレートの技術も必要とします。以前に研究済みの部品は研究済みのままですが、そのプレートを作るにはプレートの技術が要ります。
 - **最初の一歩。** N.I.K.E. ロケット約5発（1回の製作）で、プレートのレシピが要求する Dark Matter 10個が手に入ります。
-- **部品1つ分。** 最終ティアの部品1つには Dark Matter 15個（プレート3枚）が入っており、N.I.K.E. ロケット平均7.5発分です。
+- **部品1つ分。** 最終ティアの部品1つには Dark Matter 20個（プレート4枚）が入っており、N.I.K.E. ロケット平均10発分です。
 
 ## 2つを並べて比べる {#side-by-side}
 
@@ -26,7 +26,7 @@
 | **何か** | エピックの資源 | ミシカルの資源 |
 | **入手元** | 危険セクター4のブラックホール（撃ち込んだ N.I.K.E. ロケットに対して）。Dormant の群れと、Dormant Swamp の Inert Mass からも少し | アセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮 |
 | **先にやること** | N.I.K.E. を研究し（3時間、Dark Matter は不要）、いくつか製作する | プレートのレシピを研究する（1日、Dark Matter 10個） |
-| **使い道** | 研究のコスト（83の技術、合計904個）とプレート | 各強化系統の最終ティア：13個の部品それぞれに3枚；鍛冶場：最上位の2段階それぞれに2枚 |
+| **使い道** | 研究のコスト（93の技術、合計1,019個）とプレート | 各強化系統の最終ティア：13個の部品それぞれに4枚；Master Drone の強化：20枚；鍛冶場：最上位の2段階それぞれに2枚 |
 
 ## Dark Matter の入手方法 {#how-to-get-dark-matter}
 
@@ -48,7 +48,7 @@
 
 ## 研究センターでの Dark Matter {#in-the-research-centre}
 
-ツリーの上位にある技術は、科学ポイントに加えて Dark Matter を要求します。最上位の16の技術はそれぞれ **10個**、16のドローン編成はそれぞれ **5、13、20個** です（編成が強いほど多くなります）。Hull Plating の2つの研究は **25個と40個**、艦の技術（13のデザインと36の装甲スロット）はそれぞれ **10個** です。[研究](/wiki/03-Mechanics/Research.md#dark-matter)の表にすべて載っています。
+ツリーの上位にある技術は、科学ポイントに加えて Dark Matter を要求します。最上位の16の技術はそれぞれ **10個**、16のドローン編成はそれぞれ **5、13、20個** です（編成が強いほど多くなります）。Hull Plating の2つの研究は **25個と40個**、艦の技術（13のデザインと36の装甲スロット）はそれぞれ **10個** です。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールは、二段階目から1段階ごとに **5、10、15、20** のいずれかを求め、合計は115です（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。それ以外はすべて[研究](/wiki/03-Mechanics/Research.md#dark-matter)の表に載っています。
 
 1. **ステーションで Skylab の研究表示を開き**、技術を選びます。そのカードには **Dark Matter** の行があり、研究センターにある数と、必要な数が表示されます（たとえば 3 / 10）。
 2. **追加を押します。** 貨物から研究センターに、足りない分を、持っている範囲で移します。艦は着陸している必要があります。**戻す**を押すと貨物に戻ります。
@@ -70,11 +70,11 @@
 1. **レシピを研究します。** 研究表示では、**Dark Matter Plate** の技術はツリーの**資源**グループにあります。1日かかり、Dark Matter 10個が必要で、先に研究センターに追加しておきます。最終ティアの13個の部品の技術も、これを必要とします。
 2. **プレート1枚に必要なものを集めます。** Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium です。Skylab の鍛造所が、鉱石から2種類の強化プレートを作ります（[Skylab](/wiki/03-Mechanics/Skylab.md)）。
 3. **アセンブリで製作します。** カテゴリーのフィルターで**資源**を選びます。1回の製作で、120秒でプレート1枚ができます。
-4. **使います。** 各強化系統の最終ティアは **3枚** を要求します（[下記](#what-the-last-tier-asks-for)）。[鍛冶場](/wiki/06-Items/Forge.md)は、アイテムを神級から破裂に上げるのに **2枚**（成功率75%、200,000 クレジット）、破裂から永遠に上げるのに**さらに2枚**（成功率60%、500,000 クレジットと 2,000 Thulium）を要求します。失敗した段階は、素材の半分を切り捨てて返します。プレートなら1枚です。
+4. **使います。** 各強化系統の最終ティアは **4枚** を要求します（[下記](#what-the-last-tier-asks-for)）。[鍛冶場](/wiki/06-Items/Forge.md)は、アイテムを神級から破裂に上げるのに **2枚**（成功率75%、200,000 クレジット）、破裂から永遠に上げるのに**さらに2枚**（成功率60%、500,000 クレジットと 2,000 Thulium）を要求します。失敗した段階は、素材の半分を切り捨てて返します。プレートなら1枚です。Master Drone の強化は **20枚** を要求します。
 
 ## 最終ティアが要求するもの {#what-the-last-tier-asks-for}
 
-各強化系統の最終ティアは **Dark Matter Plate 3枚** を要求し、Velkonite プレートは要求しません。Velkonite プレートを使うのはその手前のティアです。13個の部品です。
+各強化系統の最終ティアは **Dark Matter Plate 4枚** と Ancient Control Unit 1個以上を要求し、Velkonite プレートは要求しません。Velkonite プレートを使うのはその手前のティアです。13個の部品です。
 
 - **レーザーアンプ：** Damage Amp IV、Crit Amp IV、Penetration Amp IV。それぞれティアIIIのアンプから作ります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-)）。
 - **Helios Beam**：Starfire-III から作り、Orvium Reinforced Plate 18枚も使います（[レーザーと弾薬](/wiki/06-Items/Lasers.md#making-the-top-three-lasers)）。
@@ -85,16 +85,16 @@
 - **Adaptive Core III**：Adaptive Core II から作ります（[シールド](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)）。
 - **CPU：** Extra Slots CPU III は Orvium Reinforced Plate 6枚、Base CPU II は2枚も使います（[Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus)、[Base CPUs](/wiki/06-Items/Extras.md#base-cpus)）。
 
-**次のものは Dark Matter Plate を要求しません。** Quantum Laser III と Starfire-III（Velkonite プレート）、すべての系統のティアIIとIII（アンプは Velkonite プレート1枚または2枚、セルとスラスターは2枚または4枚）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I と II、Base CPU I、16種類のドローン編成、そして艦船です。[鍛冶場](/wiki/06-Items/Forge.md)は、最上位の2ステップそれぞれで従来どおり2枚を要求します。
+**次のものは Dark Matter Plate を要求しません。** Quantum Laser III と Starfire-III（Velkonite プレート）、すべての系統のティアIIとIII（アンプは Velkonite プレート2枚、セルとスラスターは4枚）、Jump CPU、Auto-Repair CPU、Extra Slots CPU I と II、Base CPU I、16種類のドローン編成、そして艦船です。[鍛冶場](/wiki/06-Items/Forge.md)は、最上位の2ステップそれぞれで従来どおり2枚を要求します。
 
-プレート1枚は、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮して作るので、部品1つの3枚には、Velkonite プレート3枚、Orvium プレート3枚、750 Thulium も要ります。すべてに最終ティアを使ったときの合計は次のとおりです。
+プレート1枚は、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮して作るので、部品1つの4枚には、Velkonite プレート4枚、Orvium プレート4枚、1,000 Thulium も要ります。すべてに最終ティアを使ったときの合計は次のとおりです。
 
 | 作るもの | 最終ティアの部品 | プレート | Dark Matter | N.I.K.E. ロケット（平均） |
 | :--- | ---: | ---: | ---: | ---: |
-| 最終ティアの部品1つ | 1 | 3 | 15 | 7.5 |
-| Helios Beam とティアIVのアンプ3つ | 4 | 12 | 60 | 30 |
-| Paragon 1隻 | 40 | 120 | 600 | 300 |
-| Wraith 1隻 | 60 | 180 | 900 | 450 |
+| 最終ティアの部品1つ | 1 | 4 | 20 | 10 |
+| Helios Beam とティアIVのアンプ3つ | 4 | 16 | 80 | 40 |
+| Paragon 1隻 | 40 | 160 | 800 | 400 |
+| Wraith 1隻 | 60 | 240 | 1,200 | 600 |
 
 Paragon の40個は、レーザー8基、そのアンプ24個、ジェネレーターとサポートのスロット8つ（3 + 3 + 2）です。Wraith の60個は、レーザー12基、そのアンプ36個、ジェネレーターとサポートのスロット12個（4 + 4 + 4）です。
 
@@ -105,10 +105,10 @@ Paragon の40個は、レーザー8基、そのアンプ24個、ジェネレー�
 | プレートのレシピを研究する | 10 | 5 |
 | Dark Matter Plate 1枚 | 5 | 2.5 |
 | 鍛冶場の1段階ぶんの2枚 | 10 | 5 |
-| 最終ティアの部品1つの3枚のプレート | 15 | 7.5 |
-| Dark Matter を要求するすべての技術 | 904 | 452 |
+| 最終ティアの部品1つの4枚のプレート | 20 | 10 |
+| Dark Matter を要求するすべての技術 | 1,019 | 510 |
 
-何もない状態からの最初の強化は、レシピ（10個）とプレート2枚（10個）で、Dark Matter 20個、N.I.K.E. ロケット約10発、つまり2回の製作です。何もない状態からの最初のティアIVのアンプは、プレートのレシピ（10個）、アンプ自身の技術（10個）、プレート3枚（15個）で、Dark Matter 35個、N.I.K.E. ロケット約18発です。
+何もない状態からの最初の強化は、レシピ（10個）とプレート2枚（10個）で、Dark Matter 20個、N.I.K.E. ロケット約10発、つまり2回の製作です。何もない状態からの最初のティアIVのアンプは、プレートのレシピ（10個）、アンプ自身の技術（10個）、プレート4枚（20個）で、Dark Matter 40個、N.I.K.E. ロケット約20発です。
 
 ## よくある間違い {#common-mistakes}
 

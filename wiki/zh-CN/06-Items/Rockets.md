@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: 火箭 -->
 # 火箭 {#rockets}
 
@@ -11,6 +11,7 @@
 - **爆炸中心最强。** Ember 和 Scatter 火箭会爆裂，伤害圆环内的每一艘舰船：中心处是完整数值，边缘处是一半。
 - **所有火箭共用一个计时器。** 无论发射哪种火箭，发射之后都要等 3 秒才能发射下一枚。只有 N.U.K.E. 和 N.I.K.E. 要等得更久（4.1 秒和 4.6 秒），因为它们在空中飞得那么久。
 - **制导或直射。** 制导火箭（Lancet、Ember）需要你选中的目标。直射火箭（Rivet、Scatter）飞向你的光标。
+- **还有一样东西像火箭一样携带。** **EMP Charge** 是消耗品：物品栏里的一个堆叠，从快捷栏使用，不占槽位（[EMP Charge](#emp-charge)）。
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Scatter I -> Scatter II -> Scatter III => N.U.K.E.
 - **制导**火箭在离开时，需要有一个位于其**锁定范围**内的已选中目标。它们以有限的转向速率追踪目标，所以远处的快速舰船可以甩开一枚廉价火箭。如果目标死亡、离开或进入安全区，火箭会继续直线飞行，不会另选目标。
 - **直射**火箭不需要目标，并且会忽略你已选中的目标：它们总是飞向你的**光标**，即飞行视图中光标下方的那个点。**点击直射火箭的槽位使其待发**（槽位会出现白色边框和准星，你的鼠标光标在太空中会变成准星），然后**在太空中点击**：火箭飞向你点击的那个点，而你的舰船留在原地。按 Esc、点击右键或再次点击同一个槽位可以放弃。如果火箭还在装填，点击只会提示你这一点，火箭仍保持待发状态。数字键和**发射火箭**会立即朝光标在飞行视图中最后停留过的那个点发射；如果光标还没有到过飞行视图，火箭就朝你舰船的**朝向**飞行。它们笔直飞行，所以高速横穿的舰船可以侧身躲开。
 - **单体**火箭会命中它所能命中的第一艘舰船（制导火箭只命中它的目标）。**范围爆炸**火箭会在遇到的第一艘舰船旁、你瞄准的点上，或飞行结束的位置爆裂，并伤害其**爆炸半径**内的每一艘舰船：中心处是全额伤害，边缘处是一半。爆炸在地图上画出的圆环就是它的精确作用范围。
-- **小行星。** 朝[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)发射的火箭会飞向那颗小行星，任何火箭路上的第一颗小行星都会拦住它，代替后面的飞船承受命中（见[掩体](/wiki/03-Mechanics/Asteroid-Mining.md#cover)）。商店的十二种火箭和 N.U.K.E. 都能击碎小行星；N.I.K.E. 不能朝小行星发射，而是从它们上方飞过。激光同样能伤害小行星，但只有对飞船伤害的 5%：击碎小行星要靠火箭。
+- **小行星。** 朝[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)发射的火箭会飞向那颗小行星，任何火箭路上的第一颗小行星都会拦住它，代替后面的飞船承受命中（见[掩体](/wiki/03-Mechanics/Asteroid-Mining.md#cover)）。[Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) 也会同样拦住火箭；N.I.K.E. 会从它上方飞过。商店的十二种火箭和 N.U.K.E. 都能击碎小行星；N.I.K.E. 不能朝小行星发射，而是从它们上方飞过。激光同样能伤害小行星，但只有对飞船伤害的 5%：击碎小行星要靠火箭。
 
 ## 十二种火箭 {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Scatter I -> Scatter II -> Scatter III => N.U.K.E.
 第一张表中的十二种火箭是购买的（普通和稀有火箭用信用点，史诗火箭用 Thulium）；N.U.K.E. 和 N.I.K.E. 则是制造的。
 
 另见：[激光与弹药](/wiki/06-Items/Lasers.md)、[战斗](/wiki/03-Mechanics/Combat.md)、[黑洞](/wiki/03-Mechanics/Black-Hole.md)。
+
+## EMP Charge
+
+**EMP Charge** 像火箭一样携带，但它不是火箭，而是**消耗品**。你在商店以每次充能 **500 Thulium** 购买，一个堆叠最多携带 **20** 个（你在[拍卖行](/wiki/03-Mechanics/Auction.md)挂出的也算在内），快捷栏的“消耗品”选择器会显示你携带的数量。它**不占用任何舰船的槽位**；0.4.21 之前它是[附加装置](/wiki/06-Items/Extras.md)，每个 EMP Charge 都占一个附加槽位。一个 EMP Charge 在运输储藏库中的重量是 250。
+
+在战斗中按下 EMP 槽位。**3 秒**内无人能锁定你，而且**所有已锁定你的人都会立刻失去锁定**，无论他们身在何处：飞行员、外星人和企业飞行员皆然。锁定被打断的飞行员会收到提示“锁定丢失：目标使用了 EMP”。在这 3 秒内试图锁定你的人会被拒绝。
+
+- **它不是无敌。** 它能阻止需要锁定的东西：激光、制导火箭，以及直射单体火箭的碰撞（它会从你身上穿过）。**范围爆炸**不需要锁定，所以只要你在爆炸范围内，它仍会伤到你；而黑洞根本不是射击。
+- **你仍然可以行动。** 开火不会结束它。你可以隐形（只要隐形自身的规则允许），也可以使用其他附加装置。
+- **它会结束你附近的隐形。** 脉冲触发时，你周围 **1,500 单位**内每一艘处于隐形的舰船都会立刻现形，其 CPU 开始 60 秒的充能，无论它属于哪个企业，包括你自己的企业；你自己[小队](/wiki/03-Mechanics/Groups.md)的舰船是例外：它们会保持隐形。该飞行员会收到提示“隐形中断：附近有 EMP 被发射。”，看到舰船和任何解除隐形时一样伴着涟漪重新出现，槽位开始充能。你自己处于隐形时无法使用 EMP。
+- **它不会隐藏任何东西。** 所有人仍然能看到你，这 3 秒内你周围还会有一层噼啪作响的电弧外壳。
+- 在安全区保护你期间、隐形期间，或距上一次使用不足 **30 秒**时，**无法使用**。其他任何地方都能使用，包括赛季最初几天（和平协议）：那时外星人仍会追猎你。
+- 你在这 3 秒内击中的外星人，要等这 3 秒结束后才会转而攻击你。你的击杀归属和首击规则不变。
+- **你会看到什么。** 一道扭曲空间的脉冲从飞行员身上向外扩散，范围与脉冲结束隐形的距离相同（1,500 单位），范围内的所有人都能看到；在这 3 秒内，一层噼啪作响的电弧外壳包裹着舰船，你自己的舰船周围有一个圆环，屏幕顶部也有一个标签，两者都在计时。所有选中你的人，其目标圈会伴着一声短促的电击声碎裂。EMP 槽位显示你拥有的 EMP Charge 数量，外壳存在期间亮起蓝色，充能期间变暗。
+- **按一次，用一个 EMP Charge。** 按一次会从你的堆叠中消耗一个 EMP Charge；一个也没有时会被拒绝（“没有剩余的 EMP Charge。”）。运输储藏库中的 EMP Charge 属于下一个赛季，无法使用。和火箭一样，你携带的 EMP Charge 会随赛季一起丢失，除非你把它们放进运输储藏库。**30 秒**的充能时间不会保存：退出登录或通过传送门跃迁会将其清零，下一次脉冲会消耗一个 EMP Charge。

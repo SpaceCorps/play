@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 363d72823d01bd7e -->
+<!-- wiki-i18n source: 7b87da2eb9f4da12 -->
 <!-- wiki-i18n title: 锻造炉 -->
 # 锻造炉 {#the-forge}
 
@@ -6,7 +6,7 @@
 
 ## 可锻造的物品 {#what-can-be-forged}
 
-激光、激光增幅器、护盾核心、护盾电池、引擎、推进器、自适应核心、Repair Drone 和[船体装甲](/wiki/06-Items/Hull-Plating.md)：任何能够承载[附魔加成](/wiki/06-Items/Overview.md)的单件装备。它可以在你的物品栏中、在舰船上（它会留在原处，并立即以新的等级生效），或者嵌入在另一件物品中。无人机、舰船、弹药、资源和增益不能锻造，运输储藏库中的任何东西也不能：请先把它取出来。
+激光、激光增幅器、护盾核心、护盾电池、引擎、推进器、自适应核心、Repair Drone 和[船体装甲](/wiki/06-Items/Hull-Plating.md)：任何能够承载[附魔加成](/wiki/06-Items/Overview.md)的单件装备。它可以在你的物品栏中、在舰船上（它会留在原处，并立即以新的等级生效），或者嵌入在另一件物品中。无人机、舰船、弹药、资源和增益不能锻造，运输储藏库中的、或装在你的 Skylab 引擎模块或防御模块里的任何东西也不能：请先把它取出来。
 
 装备列表在其他筛选旁有一个**全部 / 已装备 / 物品栏**开关。**已装备**显示在飞船上或嵌在别的物品里的物品，**物品栏**显示散放的物品，标题下的一行会告诉你开关隐藏了多少件。在为合并选择素材时，“已装备”会暂停，因为素材必须是散放的。
 
@@ -86,15 +86,15 @@
 
 - **等级保留。** 升级会消耗该部件的一件副本，新物品沿用这件副本的等级：神圣·Damage Amp III 制成神圣·Damage Amp IV，标准等级的则制成标准·Damage Amp IV。你在锻造炉上花的钱不会白费。升级本身不会增加任何等级，所以标准等级的部件制成的永远是标准等级的成品。
 - **加成会重新随机。** 新物品会获得适合其等级的全新加成：数量与你消耗的部件原有的相同（有两项加成的神圣·Damage Amp III 制成有两项的神圣·Damage Amp IV，只有一项的则制成只有一项的；高于标准等级时至少一项），但以该等级能承载的数量和新物品拥有的属性数为上限，每一项都落在上表中该等级的范围内，且位于 Damage Amp IV 拥有的属性上。除此之外，旧部件上的任何东西都不会被复制，所以新加成可能比原来的更好，也可能更差；平均而言是一样的。保留数量是为了不让升级填上锻造炉没填上的槽位，而且它从不拿走加成：在这条规则之前制造、槽位全满的部件会保留全部。加成在你把任务加入队列的那一刻就已随机确定，你领取到的就是当时随机出的结果：等待领取不会改变任何东西。原因在于升级是制造一件新物品，而锻造炉的骰子是掷在你手中那件物品上的。真正花钱的是等级：一件永恒部件相当于超过一百万信用点的锻造步骤，而一项加成只是某一项属性的几个百分点。
-- **强化板。** 除了 Thulium 和外星人的掉落物之外，每次模块升级都需要板。最后一阶需要 **3 块 Dark Matter Plate**：IV 阶的增幅器、护盾电池或推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III 和 Helios Beam。更前面的几步需要 **Velkonite Reinforced Plate**：II 或 III 阶的增幅器需要 1 块或 2 块，II 或 III 阶的护盾电池或推进器需要 2 块或 4 块，Quantum Laser III、Engine II 或 Adaptive Core II 需要 2 块，Starfire-III 需要 8 块（Helios Beam 还需要 18 块 Orvium Reinforced Plate）。外星人不会掉落其中任何一种。你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用矿石制造 Velkonite 和 Orvium 强化板，锻造厂 1 级时每块 Velkonite 板需要 40 个矿石。1 级的 Velkonite 采集器每小时开采 10 个矿石，所以一个 III 阶增幅器的强化板需要 8 小时的开采，一个 III 阶护盾电池或推进器的则需要 16 小时（5 级采集器分别是 4 小时和 9 小时）。装配站在你研究了这块板的配方之后，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制一块 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)。各种材料的来源见[资源](/wiki/06-Items/Resources.md)页面。锻造炉自己的步骤需要掉落物和信用点，其最高几步还需要 Dark Matter Plate（神圣升至裂变：20 块 Reinforced Hull Plate 和 2 块 Dark Matter Plate；裂变升至永恒：2 块 Dark Matter Plate），与模块升级最后一阶所用的是同一种板。
+- **强化板。** 除了 Thulium 和外星人的掉落物之外，每次模块升级都需要板。最后一阶需要 **4 块 Dark Matter Plate** 和至少 1 个 Ancient Control Unit：IV 阶的增幅器、护盾电池或推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III 和 Helios Beam。更前面的几步需要 **Velkonite Reinforced Plate**：II 或 III 阶的增幅器需要 2 块，II 或 III 阶的护盾电池或推进器需要 4 块，Quantum Laser III 需要 3 块，Engine II 或 Adaptive Core II 需要 4 块，Starfire-III 需要 8 块（Helios Beam 还需要 18 块 Orvium Reinforced Plate）。外星人不会掉落其中任何一种。你的 [Skylab](/wiki/03-Mechanics/Skylab.md) 锻造厂会用矿石制造 Velkonite 和 Orvium 强化板，锻造厂 1 级时每块 Velkonite 板需要 40 个矿石。1 级的 Velkonite 采集器每小时开采 10 个矿石，所以一个 III 阶增幅器的强化板需要 8 小时的开采，一个 III 阶护盾电池或推进器的则需要 16 小时（5 级采集器分别是 4 小时和 9 小时）。装配站在你研究了这块板的配方之后，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制一块 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)。各种材料的来源见[资源](/wiki/06-Items/Resources.md)页面。锻造炉自己的步骤需要掉落物和信用点，其最高几步还需要 Dark Matter Plate（神圣升至裂变：20 块 Reinforced Hull Plate 和 2 块 Dark Matter Plate；裂变升至永恒：2 块 Dark Matter Plate），与模块升级最后一阶所用的是同一种板。
 - **使用哪一件副本。** 由你选择。当你持有的副本各不相同（等级或加成不同）时，配方卡片会把它们显示成一排图块：点击要使用的那一件，图块下方的一行会显示它将变成什么（“神圣·Damage Amp III”，接着是“成品：神圣·Damage Amp IV”）。如果你没有选择，最普通的那件会被使用：先用等级最低的，同一等级的副本中先用最旧的，无论它们的加成如何。只要还有更普通的未使用副本，神圣或更高等级的副本就绝不会被使用。使用高于标准等级的副本时会先询问，并写明该物品的名称。
-- **哪些副本可以使用。** 未使用的：舰船上的（技能槽位中的也算）、嵌入在另一件物品中的、自身带有电池或推进器的，或在[运输储藏库](/wiki/03-Mechanics/Cargo.md)中的副本都不能使用，装配站会告诉你这一点。请先把它取下或从储藏库中取出。同时开始的两次升级不能使用同一件副本。
+- **哪些副本可以使用。** 未使用的：舰船上的（技能槽位中的也算）、嵌入在另一件物品中的、装在你的 Skylab 引擎模块或防御模块里的、自身带有电池或推进器的，或在[运输储藏库](/wiki/03-Mechanics/Cargo.md)中的副本都不能使用，装配站会告诉你这一点。请先把它取下或从储藏库中取出。同时开始的两次升级不能使用同一件副本。
 
-- **Quantum Laser III 同样是一次升级。** 它由一把 **Quantum Laser II**（商店里的激光）制成（另需 1,500 Thulium、10 个 Ship Fragment 和 2 块 Velkonite Reinforced Plate：见[激光与弹药](/wiki/06-Items/Lasers.md)），以上所有规则都适用：神圣·Quantum Laser II 制成神圣·Quantum Laser III，带有新加成，由你选择副本，使用高于标准等级的副本前配方卡片会先询问，Quantum Laser II 必须是未使用状态：请先在机库中把它取下，在你取下之前，“组装”按钮会显示“请先取下 Quantum Laser II”。等级随后继续向上传递：神圣·Quantum Laser III 制成神圣·Starfire-III。
+- **Quantum Laser III 同样是一次升级。** 它由一把 **Quantum Laser II**（商店里的激光）制成（另需 1,500 Thulium、10 个 Ship Fragment 和 3 块 Velkonite Reinforced Plate：见[激光与弹药](/wiki/06-Items/Lasers.md)），以上所有规则都适用：神圣·Quantum Laser II 制成神圣·Quantum Laser III，带有新加成，由你选择副本，使用高于标准等级的副本前配方卡片会先询问，Quantum Laser II 必须是未使用状态：请先在机库中把它取下，在你取下之前，“组装”按钮会显示“请先取下 Quantum Laser II”。等级随后继续向上传递：神圣·Quantum Laser III 制成神圣·Starfire-III。
 
 - **Starfire-III 同样是一次升级。** 它由一把 **Quantum Laser III** 制成（另需 1,500 Thulium、100,000 信用点、掉落物和 8 块 Velkonite Reinforced Plate：见[激光与弹药](/wiki/06-Items/Lasers.md)），以上所有规则都适用：神圣·Quantum Laser III 制成神圣·Starfire-III，带有新加成，由你选择副本，使用高于标准等级的副本前配方卡片会先询问，Quantum Laser III 必须是未使用状态：请先在机库中把它取下，在你取下之前，“组装”按钮会显示“请先取下 Quantum Laser III”。等级随后继续向上传递：神圣·Starfire-III 制成神圣·Helios Beam。
 
-- **Helios Beam 同样是一次升级。** 它由一把 **Starfire-III** 制成（另需 2,000 Thulium、掉落物、18 块 Orvium Reinforced Plate 和 3 块 Dark Matter Plate：见[激光与弹药](/wiki/06-Items/Lasers.md)），以上所有规则都适用：神圣·Starfire-III 制成神圣·Helios Beam，带有新加成（数量与 Starfire-III 原有的相同，三项属性中最多两项），由你选择副本，使用高于标准等级的副本前配方卡片会先询问，Starfire-III 必须是未使用状态。激光通常装在舰船上并带着增幅器，所以往往不是未使用状态：请先在机库中把它取下（其中的增幅器会回到你的物品栏），在你取下之前，“组装”按钮会显示“请先取下 Starfire-III”。
+- **Helios Beam 同样是一次升级。** 它由一把 **Starfire-III** 制成（另需 2,000 Thulium、掉落物、18 块 Orvium Reinforced Plate、4 块 Dark Matter Plate 和 1 个 Ancient Control Unit：见[激光与弹药](/wiki/06-Items/Lasers.md)），以上所有规则都适用：神圣·Starfire-III 制成神圣·Helios Beam，带有新加成（数量与 Starfire-III 原有的相同，三项属性中最多两项），由你选择副本，使用高于标准等级的副本前配方卡片会先询问，Starfire-III 必须是未使用状态。激光通常装在舰船上并带着增幅器，所以往往不是未使用状态：请先在机库中把它取下（其中的增幅器会回到你的物品栏），在你取下之前，“组装”按钮会显示“请先取下 Starfire-III”。
 
 配方、费用以及这条规则背后的数字，见[物品总览](/wiki/06-Items/Overview.md#upgrading-modules)；Quantum Laser III、Starfire-III 和 Helios Beam 的部分见[激光与弹药](/wiki/06-Items/Lasers.md)页面。
 

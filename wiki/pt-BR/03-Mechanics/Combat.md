@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f9ae19e1c5f8f9d -->
+<!-- wiki-i18n source: 46b7d7139e8ed531 -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -36,7 +36,7 @@ Por fim, os multiplicadores globais (como boosters ativos, por exemplo os +10% d
 
 ### 3b. Foguetes {#3b-rockets}
 
-Um [foguete](/wiki/06-Items/Rockets.md) tem o seu próprio dano (um Lancet I causa de 1.700 a 2.100, um Lancet III de 5.200 a 6.200, uma N.U.K.E. de 45.000 a 50.000), sorteado uma vez ao ser disparado e igual para todas as naves: os seus lasers, amplificadores, boosters e munição não o alteram, e ele não causa acerto crítico. Todos os foguetes compartilham um único temporizador de **3 segundos**. Um foguete de alvo único tem uma **penetração de escudo**: ela é descontada da absorção do seu alvo (veja Sofrer dano, abaixo); uma explosão atinge todas as naves dentro do seu raio, o número inteiro no centro e metade dele na borda. Nada limita o que um foguete tira da nave de um piloto: primeiro o escudo, depois o casco. Os foguetes nunca machucam a sua própria corporação nem o seu próprio [grupo](/wiki/03-Mechanics/Groups.md), sejam quais forem as corporações dos membros. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única coisa que muda as duas: uma formação de foguetes aumenta o dano de cada foguete (até +55%), e algumas alongam ou encurtam o temporizador. Os [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md) sofrem dano de foguetes e, dos lasers, 5% do que uma rajada faz a uma nave (contam os seus amplificadores, boosters, munição e acertos críticos, e depois a blindagem do asteroide é descontada); drones não fazem nada com eles, e um asteroide no caminho de um disparo recebe o acerto no lugar da nave que está atrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)).
+Um [foguete](/wiki/06-Items/Rockets.md) tem o seu próprio dano (um Lancet I causa de 1.700 a 2.100, um Lancet III de 5.200 a 6.200, uma N.U.K.E. de 45.000 a 50.000), sorteado uma vez ao ser disparado e igual para todas as naves: os seus lasers, amplificadores, boosters e munição não o alteram, e ele não causa acerto crítico. Todos os foguetes compartilham um único temporizador de **3 segundos**. Um foguete de alvo único tem uma **penetração de escudo**: ela é descontada da absorção do seu alvo (veja Sofrer dano, abaixo); uma explosão atinge todas as naves dentro do seu raio, o número inteiro no centro e metade dele na borda. Nada limita o que um foguete tira da nave de um piloto: primeiro o escudo, depois o casco. Os foguetes nunca machucam a sua própria corporação nem o seu próprio [grupo](/wiki/03-Mechanics/Groups.md), sejam quais forem as corporações dos membros. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única coisa que muda as duas: uma formação de foguetes aumenta o dano de cada foguete (até +55%), e algumas alongam ou encurtam o temporizador. Os [asteroides](/wiki/03-Mechanics/Asteroid-Mining.md) sofrem dano de foguetes e, dos lasers, 5% do que uma rajada faz a uma nave (contam os seus amplificadores, boosters, munição e acertos críticos, e depois a blindagem do asteroide é descontada); drones não fazem nada com eles, e um asteroide no caminho de um disparo recebe o acerto no lugar da nave que está atrás ([Cobertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), e uma [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) também.
 
 ### 4. Ficar de frente para o alvo {#4-facing-the-target}
 
@@ -164,7 +164,7 @@ A munição [Siphon Battery](/wiki/06-Items/Lasers.md) soma na hora ao seu escud
 
 ## Camuflagem e o EMP {#cloaking-and-the-emp}
 
-Um tiro precisa de uma trava. Dois [extras](/wiki/06-Items/Extras.md) tiram a sua:
+Um tiro precisa de uma trava. Uma Cloaking CPU (um [extra](/wiki/06-Items/Extras.md)) e a EMP Charge (um [consumível](/wiki/06-Items/Rockets.md#emp-charge) levado como um foguete) tiram a sua:
 
 - **Cloaking CPU**: enquanto você está camuflado (não há limite de tempo), os pilotos de outras corporações, os alienígenas e os pilotos de corporação não veem a sua nave e não conseguem travar nela; eles veem um simples ponto vermelho no minimapa onde você está. A sua primeira rajada encerra a camuflagem, e você não pode se camuflar de novo por um minuto, nem dentro de 10 segundos depois de um acerto ou de um tiro.
 - **EMP Charge**: por 3 segundos ninguém pode travar em você, e toda trava que já está em você se rompe na hora. Ele encerra toda camuflagem a até 1.500 unidades do piloto que o dispara, exceto as do próprio grupo do piloto. Ele não esconde você, e não é invulnerabilidade: ele impede o que precisa de trava.

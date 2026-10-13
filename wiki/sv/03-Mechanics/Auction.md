@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 7911c8cdb8197180 -->
+<!-- wiki-i18n source: 09dffefbb5a83523 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
-Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Liksom Butiken är den en sida på stationen: du använder den dockad, inte i flykt. Den har fyra delar. **Marknad** är det andra piloter säljer. **Lotter** är spelets egna erbjudanden, tre varje timme. **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit, och hur din handel har gått.
+Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Under flygning öppnas den i ett fönster: knappen **Auktion** (en klubba) i verktygsfältet uppe till vänster visar samma sida över spelet, och fönstrets plats och storlek kommer ihåg. Den fungerar som på stationen, förutom att ammunition, raketer och EMP Charge räknas i flykt, så du lägger ut dem från stationen (säljbladet visar dem låsta, med orsaken); köpa och buda kan du göra var som helst. Den har fem delar. **Marknad** är det andra piloter säljer. **Lotter** är spelets egna erbjudanden, tre varje timme. **Davidski** är den flygande handlarens lager: alla sorter som Auktionen listar, till många gånger Butikens pris; det Butiken inte säljer kostar så mycket att det är sista utvägen att köpa det av honom, och de sällsynta resurserna i tillverkning tusen gånger så mycket till ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit, och hur din handel har gått.
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -10,7 +10,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 82 föremål kan läggas ut, och 81 av dem kan även prissättas i Thulium.
+- 83 föremål kan läggas ut, och 82 av dem kan även prissättas i Thulium.
 - En annons löper 168 / 336 / 504 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 0,25 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 0,4 %.
@@ -26,7 +26,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 
 ## Säljbara föremål {#marketable-items}
 
-Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det. Ammunitionen och raketerna som Ammunitionsskrivaren och Raketfabriken i Skylab tillverkar är inte heller säljbara.
+Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, köpt av [Davidski](/wiki/03-Mechanics/Davidski.md), fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det. Ammunitionen och raketerna som Ammunitionsskrivaren och Raketfabriken i Skylab tillverkar är inte heller säljbara.
 
 Etiketten är ett antal enheter, inte en strömbrytare: en ammunitionshög kan innehålla både köpta och förtjänade skott, och kortet säger ”Säljbart (3 av 5)”. När du använder en del av en hög (skjuter, tillverkar) går de vanliga enheterna först, så att de säljbara räcker längst. När du slår ihop två delar i [Smedjan](/wiki/06-Items/Forge.md#merge) finns etiketten kvar bara om båda delarna hade den, och förhandsvisningen säger det; ett steg i Smedjan som misslyckas ger tillbaka sitt material som vanliga enheter.
 
@@ -50,13 +50,14 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Styrraketer** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Ultra Core (i partier om 10), Experimental Fusion Core | 5 |
 | **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, EMP Charge, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Förbrukningsvaror** | EMP Charge | 1 |
+| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
 | **Skrovpansar** | Hull Plating II, Hull Plating III | 2 |
 | **Resurser** | Cataclysite (i partier om 100), Ship Fragment (i partier om 100), Daraxium (i partier om 100), Nyxite (i partier om 100), Quorvium (i partier om 10), Reinforced Hull Plate (i partier om 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
 <!-- market-kinds:end -->
 
-Skepp, drönare, drönarformationer, boosters och prenumerationer kan aldrig säljas, inte heller Ancient Control Unit, malmerna Velkonite och Orvium, Dark Matter Plate, Jump CPU, Extra Slots CPU, N.U.K.E. och N.I.K.E. Dark Matter Plates finns inte alls i Auktionen, varken som vara eller som pris. Ett föremål som är utrustat, infogat i ett annat föremål, innehåller moduler eller ligger i [Transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) kan inte läggas ut, och inte heller en använd Cloaking CPU, EMP Charge eller Base CPU. Ammunition och raketer säljs från stationen: landa skeppet först.
+Skepp, drönare, drönarformationer, boosters, prenumerationer och [P.E.T.s](/wiki/03-Mechanics/Pets.md) kan aldrig säljas, inte heller Ancient Control Unit, malmerna Velkonite och Orvium, Dark Matter Plate, Jump CPU, Extra Slots CPU, P.E.T. Station I till III, de tre Cluster Chunk, Energetic Wall I, N.U.K.E. och N.I.K.E. Dark Matter Plates finns inte alls i Auktionen, varken som vara eller som pris. Ett föremål som är utrustat, infogat i ett annat föremål, monterat i Motormodulen eller Försvarsmodulen i ditt Skylab, innehåller moduler eller ligger i [Transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) kan inte läggas ut, och inte heller en använd Cloaking CPU, EMP Charge eller Base CPU. Ammunition och raketer säljs från stationen: landa skeppet först.
 
 ## Sälja {#selling}
 
@@ -70,11 +71,11 @@ Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: 
 | Föremål | Säljs i partier om | Lägsta pris, krediter | Lägsta pris, Thulium |
 | :--- | ---: | ---: | ---: |
 | Quantum Laser II | 1 | 32 000 | 32 |
-| Quantum Laser III | 1 | 210 000 | 210 |
-| Helios Beam | 1 | 1 600 000 | 1 600 |
-| Absorption Shield Cell IV | 1 | 1 100 000 | 1 100 |
-| Heavy Shield Core | 1 | 870 000 | 870 |
-| Impulse Thruster IV | 1 | 980 000 | 980 |
+| Quantum Laser III | 1 | 220 000 | 220 |
+| Helios Beam | 1 | 1 800 000 | 1 800 |
+| Absorption Shield Cell IV | 1 | 1 700 000 | 1 700 |
+| Heavy Shield Core | 1 | 1 300 000 | 1 300 |
+| Impulse Thruster IV | 1 | 1 600 000 | 1 600 |
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
@@ -121,8 +122,8 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 
 | Annons | Pris | Deposition | Skatt | Säljaren får |
 | :--- | ---: | ---: | ---: | ---: |
-| Quantum Laser III: nivå 6, 168 h | 210 000 krediter | 3 675 krediter | 10 500 krediter | 199 500 krediter |
-| Quantum Laser III: nivå 10, 336 h | 210 Thulium | 12 Thulium | 10 Thulium | 200 Thulium |
+| Quantum Laser III: nivå 6, 168 h | 220 000 krediter | 3 850 krediter | 11 000 krediter | 209 000 krediter |
+| Quantum Laser III: nivå 10, 336 h | 220 Thulium | 13 Thulium | 11 Thulium | 209 Thulium |
 | Helios Beam: nivå 12, 504 h | 2 500 000 krediter | 210 000 krediter | 125 000 krediter | 2 375 000 krediter |
 | Helios Beam: nivå 12, 504 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
 
@@ -146,13 +147,13 @@ Du får veta när något säljs: genom ett meddelande, Auktionens ljud och det n
 
 ## Lotterna varje timme {#the-hourly-lots}
 
-Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre lotter varje timme (tolv är öppna samtidigt), att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket), i Butikens valuta. Du kan buda på vilken lott som helst, vad du än redan bär: en lott du vinner är din hel, även om den tar dig över den hög som Butiken låter dig köpa.
+Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre lotter varje timme (tolv är öppna samtidigt), att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket). **Varje lott bjuds på i krediter**, vad Butiken än begär för varorna: en lott med varor som Butiken säljer för Thulium (till exempel x2- och x3-ammunitionen och EMP Charge) öppnar till värdet av det Thulium-priset i krediter, med 200 krediter per Thulium, så du kan buda på vilken lott som helst utan en enda Thulium. Du kan buda på vilken lott som helst, vad du än redan bär: en lott du vinner är din hel, även om den tar dig över den hög som Butiken låter dig köpa.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - I början av varje UTC-timme öppnas 3 nya lotter, var och en med olika varor, och var och en är öppen i 4 timmar, så att 12 är öppna samtidigt.
-- Startbudet är 20 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter eller 1 Thulium mer.
+- Startbudet är 20 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter mer.
 - Ditt bud betalas direkt och hålls kvar. Om någon överbjuder dig kommer det tillbaka direkt.
 - Ett bud under de sista 2 min av en lott flyttar dess slut till 2 min efter budet, högst 5 gånger.
 - Det du vinner är till för att flyga, inte för att handla med: det är aldrig säljbart. Det vinnande budet förbränns. En lott som ingen bjuder på säljs inte och kostar ingen något.
@@ -164,80 +165,80 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre 
 <!-- market-day:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
-| UTC-timme | Lott | Full storlek | Betalas i | Startbud vid full storlek |
-| :--- | :--- | ---: | :--- | ---: |
-| 00:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 00:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 00:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 01:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 01:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 01:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 02:00 | Lancet I | 12 500 | Krediter | 1 250 000 krediter |
-| 02:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 02:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 03:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 03:00 | Lancet I | 12 500 | Krediter | 1 250 000 krediter |
-| 04:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 04:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 04:00 | Rivet I | 12 500 | Krediter | 1 250 000 krediter |
-| 05:00 | Rivet II | 5 000 | Krediter | 800 000 krediter |
-| 05:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 05:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 06:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 06:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 06:00 | Ember II | 5 000 | Krediter | 800 000 krediter |
-| 07:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 07:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 07:00 | Rivet II | 5 000 | Krediter | 800 000 krediter |
-| 08:00 | Ember I | 12 500 | Krediter | 1 250 000 krediter |
-| 08:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 08:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 09:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 09:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 09:00 | Ember II | 5 000 | Krediter | 800 000 krediter |
-| 10:00 | Scatter II | 5 000 | Krediter | 800 000 krediter |
-| 10:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 10:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 11:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 11:00 | Lancet I | 12 500 | Krediter | 1 250 000 krediter |
-| 12:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 12:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 12:00 | Scatter II | 5 000 | Krediter | 800 000 krediter |
-| 13:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 13:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 13:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 14:00 | Ultra Core | 10 000 | Thulium | 2 000 Thulium |
-| 14:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 14:00 | Ember I | 12 500 | Krediter | 1 250 000 krediter |
-| 15:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 15:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 15:00 | Lancet III | 1 250 | Thulium | 1 250 Thulium |
-| 16:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 16:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 16:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 17:00 | Rivet I | 12 500 | Krediter | 1 250 000 krediter |
-| 17:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 17:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 18:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 18:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 18:00 | Scatter II | 5 000 | Krediter | 800 000 krediter |
-| 19:00 | Ember II | 5 000 | Krediter | 800 000 krediter |
-| 19:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 19:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 20:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 20:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 20:00 | Rivet I | 12 500 | Krediter | 1 250 000 krediter |
-| 21:00 | Advanced Plasma | 25 000 | Thulium | 2 500 Thulium |
-| 21:00 | Ultra Core | 25 000 | Thulium | 5 000 Thulium |
-| 21:00 | Rivet II | 5 000 | Krediter | 800 000 krediter |
-| 22:00 | Advanced Plasma | 10 000 | Thulium | 1 000 Thulium |
-| 22:00 | Ultra Core | 50 000 | Thulium | 10 000 Thulium |
-| 22:00 | Scatter III | 1 250 | Thulium | 1 250 Thulium |
-| 23:00 | EMP Charge | 5 | Thulium | 500 Thulium |
-| 23:00 | Advanced Plasma | 50 000 | Thulium | 5 000 Thulium |
-| 23:00 | Ember I | 12 500 | Krediter | 1 250 000 krediter |
+| UTC-timme | Lott | Full storlek | Startbud vid full storlek |
+| :--- | :--- | ---: | ---: |
+| 00:00 | Scatter III | 1 250 | 250 000 krediter |
+| 00:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 00:00 | Ultra Core | 10 000 | 400 000 krediter |
+| 01:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 01:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 01:00 | Lancet III | 1 250 | 250 000 krediter |
+| 02:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 02:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 02:00 | EMP Charge | 5 | 100 000 krediter |
+| 03:00 | EMP Charge | 5 | 100 000 krediter |
+| 03:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 03:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 04:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 04:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 04:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 05:00 | Rivet II | 5 000 | 800 000 krediter |
+| 05:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 05:00 | EMP Charge | 5 | 100 000 krediter |
+| 06:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 06:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 06:00 | Ember II | 5 000 | 800 000 krediter |
+| 07:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 07:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 07:00 | Rivet II | 5 000 | 800 000 krediter |
+| 08:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 08:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 08:00 | EMP Charge | 5 | 100 000 krediter |
+| 09:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 09:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 09:00 | Ember II | 5 000 | 800 000 krediter |
+| 10:00 | Scatter II | 5 000 | 800 000 krediter |
+| 10:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 10:00 | EMP Charge | 5 | 100 000 krediter |
+| 11:00 | EMP Charge | 5 | 100 000 krediter |
+| 11:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 11:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 12:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 12:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 12:00 | Scatter II | 5 000 | 800 000 krediter |
+| 13:00 | Lancet III | 1 250 | 250 000 krediter |
+| 13:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 13:00 | Ultra Core | 10 000 | 400 000 krediter |
+| 14:00 | Ultra Core | 10 000 | 400 000 krediter |
+| 14:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 14:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 15:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 15:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 15:00 | Lancet III | 1 250 | 250 000 krediter |
+| 16:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 16:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 16:00 | Scatter III | 1 250 | 250 000 krediter |
+| 17:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 17:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 17:00 | EMP Charge | 5 | 100 000 krediter |
+| 18:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 18:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 18:00 | Scatter II | 5 000 | 800 000 krediter |
+| 19:00 | Ember II | 5 000 | 800 000 krediter |
+| 19:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 19:00 | EMP Charge | 5 | 100 000 krediter |
+| 20:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 20:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 20:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 21:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 21:00 | Ultra Core | 25 000 | 1 000 000 krediter |
+| 21:00 | Rivet II | 5 000 | 800 000 krediter |
+| 22:00 | Advanced Plasma | 10 000 | 200 000 krediter |
+| 22:00 | Ultra Core | 50 000 | 2 000 000 krediter |
+| 22:00 | Scatter III | 1 250 | 250 000 krediter |
+| 23:00 | EMP Charge | 5 | 100 000 krediter |
+| 23:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
+| 23:00 | Ember I | 12 500 | 1 250 000 krediter |
 
 <!-- market-day:end -->
 

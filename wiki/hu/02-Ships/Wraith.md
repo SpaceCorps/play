@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 
 ## Háttértörténet {#lore}
 
-A Wraith csatahajó titkosított, rejtett katonai kutatás terméke, a csatahajó-építés csúcsa. Sötétanyag-hajtóműve és sűrű energiahálói lehetővé teszik, hogy egyszerre több nagy teljesítményű lézersort vessen be. Rendkívül ritka és drága: ha egy Wraith feltűnik az érzékelőkön, még a legedzettebb kalózkapitányok is megfordulnak. Sima szürkén kerül ki a Gyártásból, és a dizájnjai is.
+A Wraith csatahajó titkosított, rejtett katonai kutatás terméke, a csatahajó-építés csúcsa. Sötétanyag-hajtóműve és sűrű energiahálói lehetővé teszik, hogy egyszerre több nagy teljesítményű lézersort vessen be. Rendkívül ritka és drága: ha egy Wraith feltűnik az érzékelőkön, még a legedzettebb kalózkapitányok is megfordulnak. Sima szürkén kerül ki a Gyártásból, és a dizájnjai is, amíg egy skin be nem festi őket.

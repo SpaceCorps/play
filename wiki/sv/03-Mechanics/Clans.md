@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -9,6 +9,7 @@ Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den 
 - Varje klan har en **klansida** som varje pilot i dess värld kan öppna: nivå, piloter, ledare, beskrivning, Discord-länk, krav, sammanlagda poäng och bonusar ([Klansidan](#the-clan-page)). Ledaren och vice ledarna ställer in den under **Hantering** ([Hantering](#management)).
 - En klan har en **värld** (grundarens), tar bara emot piloter från den världen, och **wipen upplöser den tillsammans med dess kassa**: betala ut Flottans kassa innan nedräkningen tar slut ([wipen](#the-wipe-disbands-every-clan)).
 - Ledaren och vice ledarna skriver [inlägg](#clan-posts) till hela klanen, varje medlem ser [på vilken karta](#where-your-clan-mates-are) de andra flyger, fönstret [Vem är online](#who-is-online) (tangent **H**) bjuder in vilken pilot som helst i din värld till din grupp, ledaren kan betala en [dagsbonus](#4-daily-bonus) ur Flottans kassa, och fliken [Logg](#fleet-log) berättar för klanen vad som hänt i den.
+- Under flygning öppnar knappen **Klan** (en vimpel) i verktygsfältet uppe till vänster **klanfönstret**: stationens klansida i ett fönster över spelet, med samma flikar, svar och knappar; fönstrets plats och storlek kommer ihåg (spelversion 0.4.21 eller senare; [Kalla fram en väktare](#calling-a-warden) säger vad som är annorlunda under flygning).
 - Ett krig tar bara slut om den andra klanen går med på det, och en allians eller en pakt tar slut direkt när någon av de två klanerna säger upp den ([Diplomati](#diplomacy)).
 - Varje säsongsdag får din klan en [dagslinje](#daily-line): fyra uppdrag som görs i ordning (skjuta ned utomjordingar, flyga en sträcka, vissa dagar fälla svärmbossar), sedan en [klanväktare](#clan-wardens), en boss som du kallar fram och som bara din klan kan skada.
 - Varje klart steg betalar klanpoäng direkt: 15, 15, 20, 20 och 30, alltså **100 poäng** för en hel linje.
@@ -180,6 +181,8 @@ Ett **inlägg** är en kort lapp till hela klanen, en anslagstavla för officera
 
 Kolumnen **Karta** i medlemslistan visar sektorn där varje pilot i din klan flyger (»T-2«), med världen framför när det inte är din egen (»Beta · T-2«). Den läses om var 10:e sekund medan listan är öppen. Bara **kartan** visas, aldrig koordinater, och ingenting sparas. En pilot som är **dockad eller utloggad** står som **Offline**, och det gör också en pilot vars kamouflerade skepp du inte skulle kunna se på en karta ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): en klan häver inte ett kamouflage.
 
+Kolumnen **Skylab** bredvid visar var varje pilots [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) är på universumkartan, med cellens kod: ”Dockat vid H3” i en koncerns hamn, ”H3, till K7 om 3 h 12 min” på en resa (den cell det senast passerade, dit det är på väg och tiden som är kvar), ”Stationerat vid K7” medan det jagar och ”Förstört vid H3” när skrovet tog slut. Den läses tillsammans med kolumnen Karta, och en pilot som ännu inte har någon universumkarta (en kärna under nivå 15) visar ett streck. Kolumnen dyker upp så snart någon pilot i din klan har en. Bara din egen klan ser den, och en kamouflage döljer inte ett Skylab. En förstörelse visas först när dess pilot har tittat på Skylab igen eller gett det en order.
+
 ## Vem är online {#who-is-online}
 
 Knappen **Vem är online** i systemverktygsfältet (uppe till höger) eller tangenten **H** (kan bindas om under Inställningar › Kontroller) öppnar fönstret **Piloter online**.
@@ -279,7 +282,7 @@ En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publi
 
 - **När.** Efter att steg 4 är klart. En klan har **två frammaningar per dag**, bara en väktare ute åt gången, och dagen måste ha **minst 30 minuter** kvar.
 - **Vem.** Ledaren eller en vice ledare.
-- **Hur.** Under flygning: knappen **Kalla fram här** dyker upp på flygskärmen så fort steg 4 är klart och ber dig bekräfta. Var utanför skyddszonerna, i en koncerns sektor **x-2, x-3 eller x-4** (vilken koncern som helst) i din värld. Fliken Operationer visar dagens väktare, frammaningarna som är kvar och varför knappen är nedtonad, men en väktare kallas fram från skeppet.
+- **Hur.** Under flygning: knappen **Kalla fram här** dyker upp på flygskärmen så fort steg 4 är klart och ber dig bekräfta. Var utanför skyddszonerna, i en koncerns sektor **x-2, x-3 eller x-4** (vilken koncern som helst) i din värld. Fliken Operationer (på klansidan på stationen eller i klanfönstret under flygning) visar dagens väktare, frammaningarna som är kvar och varför knappen är nedtonad. På stationen är den alltid nedtonad, eftersom en väktare kallas fram från skeppet; i klanfönstret är den själva knappen, nedtonad inne i en säker zon och utanför en koncerns sektorer x-2 till x-4, med serverns orsak.
 - **Var den dyker upp.** 3 000 till 4 500 enheter från ditt skepp, i din värld: bara piloter i den världen kan nå den. Fliken rekommenderar **x-2 för en Rekryt-klan, x-3 för Veteran och x-4 för Elit**. De vanliga [PvP-reglerna](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) för sektorn du väljer gäller fortfarande.
 - **Uppvärmning.** Den står **90 sekunder** skärmad och passiv (»startar upp«), och varje klanpilot som är online får veta var. Flyg dit medan den startar upp: när de 90 sekunderna är över är den aktiv. En kapsel under skyddszonsmärket på flygskärmen följer den: dess namn, ”startar upp” med tiden som är kvar, sedan ”aktiv” med dess sektor och tiden tills den drar sig tillbaka, och ”rasande” när en Wrath Warden har under halva skrovet.
 - **Bara din klan.** Skott från andra klaners piloter ignoreras och får den inte att slå tillbaka.

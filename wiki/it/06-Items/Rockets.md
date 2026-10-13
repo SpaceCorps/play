@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -11,6 +11,7 @@ I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che 
 - **Le esplosioni sono più forti al centro.** I razzi Ember e Scatter esplodono e danneggiano ogni nave dentro l’anello: il numero intero al centro, la metà al bordo.
 - **Un solo timer per tutti.** Dopo ogni lancio aspetti 3 secondi prima del successivo, qualunque sia il razzo. Solo il N.U.K.E. e il N.I.K.E. ti fanno aspettare di più (4,1 e 4,6 secondi), perché restano in aria così a lungo.
 - **Guidato o dritto.** Un razzo guidato (Lancet, Ember) ha bisogno di un bersaglio che hai selezionato. Uno dritto (Rivet, Scatter) vola verso il tuo cursore.
+- **Un’altra cosa si porta come un razzo.** L’**EMP Charge** è un consumabile: una pila nel tuo inventario, che si usa dalla barra rapida, senza slot ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Ogni tipo è una **famiglia**, che prende il nome dal suo razzo comune, e la fas
 - I razzi **guidati** richiedono un bersaglio selezionato entro la loro **portata di aggancio** quando partono. Lo inseguono con una velocità di virata limitata, quindi una nave veloce e lontana può seminare un razzo economico. Se il bersaglio muore, se ne va o raggiunge una zona sicura, il razzo continua dritto e non ne sceglie un altro.
 - I razzi **dritti** non richiedono un bersaglio e ignorano quello che hai selezionato: volano sempre verso il tuo **cursore**, nel punto sotto di esso nella vista di volo. **Clicca sullo slot di un razzo dritto per armarlo** (lo slot ottiene una cornice bianca e un mirino, e il cursore del mouse diventa un mirino sullo spazio), poi **clicca nello spazio**: il razzo vola verso il punto che hai cliccato e la tua nave resta dov’è. Esc, un clic destro o di nuovo lo stesso slot lo disarma. Se i razzi si stanno ancora ricaricando, il clic te lo segnala soltanto e il razzo resta armato. I tasti numerici e **Lancia razzo** sparano subito verso l’ultimo punto in cui si trovava il cursore nella vista di volo; se il cursore non c’è ancora stato, volano nella direzione verso cui **punta** la tua nave. Volano dritti, quindi una nave che attraversa a velocità può schivarli.
 - Un razzo a **bersaglio singolo** colpisce la prima nave che può colpire (uno guidato solo il suo bersaglio). Un’**esplosione ad area** esplode accanto alla prima nave che incontra, nel punto in cui l’hai mirata o dove finisce il suo volo, e danneggia ogni nave dentro il suo **raggio dell’esplosione**: danno pieno al centro, la metà al bordo. L’anello che l’esplosione disegna sulla mappa è la sua portata esatta.
-- **Asteroidi.** Un razzo sparato contro un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vola verso di esso, e il primo asteroide sul cammino di qualsiasi razzo lo ferma e prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). I dodici razzi del Negozio e il N.U.K.E. possono spezzarne uno; il N.I.K.E. non può essere sparato contro uno e vola sopra di essi. Anche i tuoi laser danneggiano un asteroide, ma solo al 5% di quello che fanno a una nave: lo strumento per questo lavoro è il razzo.
+- **Asteroidi.** Un razzo sparato contro un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md) vola verso di esso, e il primo asteroide sul cammino di qualsiasi razzo lo ferma e prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) ferma un razzo allo stesso modo; il N.I.K.E. vola sopra. I dodici razzi del Negozio e il N.U.K.E. possono spezzarne uno; il N.I.K.E. non può essere sparato contro uno e vola sopra di essi. Anche i tuoi laser danneggiano un asteroide, ma solo al 5% di quello che fanno a una nave: lo strumento per questo lavoro è il razzo.
 
 ## I dodici razzi {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’uni
 I dodici razzi della prima tabella si comprano (crediti per i Comuni e i Rari, Thulium per gli Epici); il N.U.K.E. e il N.I.K.E. si creano.
 
 Vedi anche: [Laser e munizioni](/wiki/06-Items/Lasers.md), [Combattimento](/wiki/03-Mechanics/Combat.md), [Il buco nero](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+L’**EMP Charge** si porta come un razzo e non è un razzo: è un **consumabile**. La compri nel Negozio a **500 Thulium** a carica e ne porti fino a **20** in una pila (conta anche ciò che hai messo in vendita all’[Asta](/wiki/03-Mechanics/Auction.md)), e il selettore **Consumabili** della barra rapida la mostra con il numero che porti. Non occupa **nessuno slot** di nessuna nave; fino alla 0.4.21 era un [extra](/wiki/06-Items/Extras.md) e ogni carica riempiva uno slot extra. Una carica pesa 250 nel Deposito di trasporto.
+
+Premi lo slot EMP durante uno scontro. Per **3 secondi** nessuno può agganciarti e **tutti quelli che ti avevano agganciato perdono l’aggancio** all’istante, ovunque si trovino: piloti, alieni e piloti di corporazione. A un pilota il cui aggancio si spezza compare il messaggio “Aggancio perso: il bersaglio ha usato un EMP”. Chi prova ad agganciarti in quei 3 secondi viene rifiutato.
+
+- **Non è invulnerabilità.** Ferma ciò che richiede un aggancio: i laser, i razzi guidati e il tocco di un razzo dritto a bersaglio singolo, che ti attraversa. Un’**esplosione ad area** non richiede aggancio, quindi ti colpisce comunque se sei al suo interno, e il buco nero non è affatto uno sparo.
+- **Puoi comunque agire.** Sparare non lo interrompe. Puoi occultarti (se lo permettono le regole dell’occultamento) e usare altri extra.
+- **Interrompe gli occultamenti vicini.** Ogni nave occultata entro **1500 unità** da te quando l’impulso esplode viene mostrata subito e la sua CPU inizia i suoi 60 secondi di ricarica, a qualunque corporazione appartenga, compresa la tua; le navi del tuo [gruppo](/wiki/03-Mechanics/Groups.md) sono l’eccezione: mantengono l’occultamento. Al pilota compare “Occultamento interrotto: un EMP è esploso nelle vicinanze.”, vede la nave riapparire con la stessa increspatura di qualsiasi fine di un occultamento, e lo slot inizia la sua ricarica. Non puoi usare un EMP mentre sei occultato.
+- **Non nasconde nulla.** Tutti ti vedono ancora, con un guscio elettrico crepitante attorno alla nave per i 3 secondi.
+- **Non puoi usarlo** mentre una zona sicura ti protegge, mentre sei occultato o entro **30 secondi** dall’ultimo. Funziona ovunque altrove, compresi i primi giorni di una stagione (il Protocollo di pace): in quel periodo gli alieni danno comunque la caccia.
+- Un alieno che colpisci durante i 3 secondi non si rivolta contro di te finché non sono finiti. Le tue rivendicazioni di abbattimento e le regole del primo colpo non cambiano.
+- **Che cosa vedi.** Un impulso di spazio deformato parte dal pilota e si allarga fino a dove l’impulso interrompe gli occultamenti (1500 unità), lo vedono tutti quelli nel raggio, e un guscio elettrico crepitante circonda la nave per i 3 secondi, con un anello attorno alla tua nave e un indicatore in alto sullo schermo che contano il tempo. L’anello del bersaglio di chiunque ti avesse selezionato si spezza, con una breve scarica. Lo slot EMP mostra le cariche che possiedi, si illumina di blu finché il guscio è attivo e si oscura mentre si ricarica.
+- **Una pressione, una carica.** Una pressione consuma una carica della tua pila; se non ne restano, viene rifiutata (“Non hai più EMP Charge.”). Le cariche nel Deposito di trasporto sono della stagione successiva e non si possono usare. Come i razzi, le cariche che porti si perdono con la stagione, a meno che tu non le metta nel Deposito di trasporto. I **30 secondi** di ricarica non vengono salvati: disconnetterti o saltare attraverso un portale li azzera, e l’impulso successivo costa una carica.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -60,6 +60,14 @@ La scheda **Sistema** è dorata e di sola lettura, con un elenco tutto suo: cont
 ### Scrivere {#typing}
 
 **Enter** apre la chat e le dà la tastiera. Invia una riga con **Enter** e il campo mantiene la tastiera, così la riga successiva può seguire subito; finché è così, la barra rapida e i tasti delle abilità restano spenti. Smetti di scrivere quando premi **Escape**, premi **Enter** senza aver scritto nulla, fai clic sulla mappa con il tasto sinistro (lo stesso clic continua a guidare la tua nave), lasci il campo vuoto e non premi alcun tasto per 15 secondi oppure la tua nave viene distrutta. Nella scheda Sistema, dove non si può scrivere, **Enter** ti riporta al canale in cui hai scritto per ultimo.
+
+### La chat alla stazione {#chat-at-the-station}
+
+Alla stazione la chat è una **barra in fondo a ogni pagina**, così nulla di ciò che si dice ti sfugge mentre controlli la ricerca o compri munizioni. Chiusa, ed è così che parte, è alta una riga: il nome della chat, il numero di righe che non hai letto (tutte le schede insieme) e la riga più recente. **Fai clic** su di essa per aprire la chat. Aperta, ha le schede, lo storico e il campo di scrittura della finestra della chat, con lo stesso contatore di caratteri, la stessa pausa e gli stessi rifiuti sotto il campo; puoi trascinarne il bordo superiore per renderla più alta o più bassa. Fai clic sulla sua barra del titolo o premi **Escape** per chiuderla di nuovo. **Enter** dà la tastiera al campo finché la barra è aperta e nessun altro campo di testo ce l’ha. Una scheda che guardi conta come letta.
+
+È la stessa chat della finestra. Ciò che si dice mentre sei agganciato è nella finestra dopo il lancio, e ciò che si è detto in volo è nella barra quando ti agganci; **Nascondi la chat Globale**, i piloti ignorati e le segnalazioni funzionano allo stesso modo (clic destro su un nome). Alla stazione puoi scrivere in **Globale** e in **Gruppo**. **Locale** è il canale di una mappa: la sua scheda mostra ciò che si è detto in volo, e una riga scritta con `/l` non viene inviata. Un server di gioco precedente alla 0.4.21 non può ricevere una riga dalla stazione: la barra allora mostra soltanto la chat.
+
+Se la barra è aperta e quanto è alta viene ricordato per la volta successiva. Disattivala con **Barra chat nelle pagine della stazione** in **Impostazioni › Interfaccia › Chat**; la finestra della chat in volo non cambia.
 
 ### Le regole della chat {#the-chat-rules}
 

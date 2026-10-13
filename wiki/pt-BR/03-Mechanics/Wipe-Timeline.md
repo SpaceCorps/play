@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3f940246579eb7bd -->
+<!-- wiki-i18n source: 825f9cfa421f4871 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -64,7 +64,7 @@ Para itens adicionais do seu inventário que você quer salvar (por exemplo, arm
   * *Recursos / minerais*: pesos variados conforme a raridade (uma Reinforced Plate da Forja do Skylab pesa 5 kg)
   * *Foguetes*: não pesam nada: não ocupam espaço no cache, então pilhas inteiras entram (veja [Foguetes](/wiki/06-Items/Rockets.md))
 
-O seu [Skylab](/wiki/03-Mechanics/Skylab.md) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O Centro de Pesquisa também mantém tudo o que [Pesquisa](/wiki/03-Mechanics/Research.md) guarda: suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost. O mesmo vale para as Extra Slots CPUs que você instalou, que não são itens. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte.
+O seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O Centro de Pesquisa também mantém tudo o que [Pesquisa](/wiki/03-Mechanics/Research.md) guarda: suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost. O mesmo vale para as Extra Slots CPUs que você instalou, que não são itens. O mesmo vale para os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) (acoplados ou guardados), para os trabalhos em andamento no Berço, para o Códice, para a P.E.T. Station que você instalou e para o seu [visual](/wiki/06-Items/Cosmetics.md): também não são itens. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte. Os Cluster Chunks também são itens, e o mesmo vale para um motor ou um laser montado no Módulo de motores ou no Módulo de defesa do Skylab: retire-o do módulo e ponha-o no cache para guardá-lo. Uma expedição do Skylab em andamento é acertada até o reset, a Baía de troféus paga seus créditos, seu Thulium, sua experiência e sua honra e é esvaziada (o espólio é apagado como qualquer item solto), e o Skylab começa a nova temporada em casa, com um novo mapa do universo.
 
 ### Confirmar e bloquear {#confirm-lock}
 Antes de a temporada acabar, você precisa clicar em **Confirmar e bloquear** na interface do Materializador.
@@ -115,7 +115,7 @@ Você pode gastar os seus PR acumulados em bônus permanentes que passam por tod
 * **Hitpoints Boost**: +0,1% de HP máximos por nível (máx. 50% / 500 níveis) - *Custo: 15 PR*
 * **Shield Capacity Boost**: +0,1% de escudos máximos (a **capacidade** de escudo) por nível (máx. 50% / 500 níveis) - *Custo: 10 PR*
 * **Shield Absorbance Boost**: +0,1 ponto da **absorção** do seu escudo por nível (máx. +10 pontos / 100 níveis) - *Custo: 25 PR*. A absorção é a parte de cada impacto que os seus escudos recebem (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); o bônus soma pontos fixos a ela: 100 pontos de reset compram 4 níveis (+0,4 ponto), 300 compram 12 (+1,2 ponto), 500 compram 20 (+2,0 pontos) e todos os 855 pontos de reset que as fontes de hoje pagam (nos seus limites, acumulados entre os resets) compram 34 (+3,4 pontos). No máximo (100 níveis, 2.500 PR: uma meta para vários resets, e mais fontes de pontos de reset estão planejadas), 80% (o melhor de fábrica) viraria 90%, e os 45% de um Light Shield Core, 55%. O atributo não tem teto de 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que passa de 100% é uma margem. Com todos os pontos de reset de hoje neste bônus e um conjunto Eterno de escudos e células totalmente forjado, uma nave chega a cerca de 93% a 95%. (Até a versão 0.4.5, este bônus somava uma parte da própria absorção, 0,1% dela por nível, pelo mesmo preço; os pontos valem o mesmo ou mais em qualquer absorção, então os níveis já comprados não perderam nada; até a versão 0.4.2, ele aumentava a taxa de *recarga* do escudo; nenhum bônus permanente aumenta a recarga agora.)
-* **Luck Boost**: +0,1% de chance de crítico e de sorte no saque por nível (máx. 10% / 100 níveis) - *Custo: 15 PR*
+* **Luck Boost**: +0,1% de chance de saque dos alienígenas por nível (máx. 10% / 100 níveis) - *Custo: 15 PR*
 
 ### Como ganhar pontos de reset {#earning-wipe-points}
 

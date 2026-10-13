@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809d4bcacb9de9c5 -->
+<!-- wiki-i18n source: 73cc670b98038c5d -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
@@ -128,6 +128,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -139,7 +140,7 @@ Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten sechs die S
 
 Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 300 + 160 + 40 = **912** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
 
-Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, dasselbe für die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens).
+Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, dasselbe für die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) steht in jeder Welt mit einer eigenen Zeile in der Ruhmeshalle, mit den Punkten eines Piloten der Stufe 20; er gehört keinem Konzern an und steht deshalb auf keiner der Leitern.
 
 ## Die Symbole {#the-symbols}
 

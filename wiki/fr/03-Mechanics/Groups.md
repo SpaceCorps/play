@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 33d052918a27bd36 -->
+<!-- wiki-i18n source: ac71b7b10acb6fd8 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -60,6 +60,14 @@ L’onglet **Système** est doré et en lecture seule, avec sa propre liste : i
 ### Saisie {#typing}
 
 **Enter** ouvre le chat et lui donne le clavier. Envoyez une ligne avec **Enter** et le champ garde le clavier : la ligne suivante peut donc suivre aussitôt ; tant qu’il le garde, la barre rapide et les touches de compétence restent coupées. La saisie s’arrête quand vous appuyez sur **Escape**, appuyez sur **Enter** sans rien avoir saisi, cliquez sur la carte avec le bouton gauche (le même clic continue de diriger votre vaisseau), laissez le champ vide et n’appuyez sur aucune touche pendant 15 secondes, ou quand votre vaisseau est détruit. Sur l’onglet Système, où l’on ne peut pas écrire, **Enter** vous ramène au canal dans lequel vous avez écrit en dernier.
+
+### Le chat à la station {#chat-at-the-station}
+
+À la station, le chat est une **barre au bas de chaque page**, pour que rien de ce qui se dit ne vous échappe pendant que vous consultez la recherche ou achetez des munitions. Repliée, ce qui est son état de départ, elle fait une ligne de haut : le nom du chat, le nombre de lignes que vous n’avez pas lues (tous les onglets ensemble) et la ligne la plus récente. **Cliquez** dessus pour ouvrir le chat. Ouverte, elle a les onglets, l’historique et le champ de saisie de la fenêtre de chat, avec le même compteur de caractères, la même pause et les mêmes refus sous le champ ; vous pouvez faire glisser son bord supérieur pour la rendre plus haute ou plus basse. Cliquez sur sa barre de titre ou appuyez sur **Escape** pour la replier. **Enter** donne le clavier au champ tant que la barre est ouverte et qu’aucun autre champ de texte ne l’a. Un onglet que vous regardez compte comme lu.
+
+C’est le même chat que celui de la fenêtre. Ce qui se dit pendant que vous êtes arrimé se trouve dans la fenêtre après le lancement, et ce qui s’est dit en vol se trouve dans la barre quand vous vous arrimez ; **Masquer le chat Global**, les pilotes ignorés et les signalements fonctionnent de la même façon (clic droit sur un nom). À la station, vous pouvez écrire dans **Global** et dans **Groupe**. **Local** est le canal d’une carte : son onglet montre ce qui s’est dit en vol, et une ligne saisie avec `/l` n’est pas envoyée. Un serveur de jeu antérieur à la 0.4.21 ne peut pas recevoir de ligne depuis la station : la barre ne fait alors qu’afficher le chat.
+
+L’état de la barre (ouverte ou non) et sa hauteur sont conservés pour la prochaine fois. Désactivez-la avec **Barre de chat dans les pages de la station** dans **Paramètres › Interface › Chat** ; la fenêtre de chat en vol n’est pas touchée.
 
 ### Les règles du chat {#the-chat-rules}
 

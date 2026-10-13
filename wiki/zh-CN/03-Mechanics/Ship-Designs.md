@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39e9ce7d2fb63944 -->
+<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
 <!-- wiki-i18n title: 舰船设计 -->
 # 舰船设计 {#ship-designs}
 
@@ -30,23 +30,23 @@
 
 1. **研究它。** 每种设计都是 Skylab 研究视图的舰船科技树中的一项科技（[研究](/wiki/03-Mechanics/Research.md#ship-technologies)）。它需要 10 小时和 10 个 Dark Matter，还需要它那艘舰船的科技和 Dark Matter Plate 的科技。研究本身还不会制造任何东西。
 2. **改装舰船。** 装配站的“设计”部分列出十三种改装。选一种并确认：任务会加入生产队列，耗时 10 分钟。它会自行完成，你不需要去领取。
-3. **支付。** 一次改装需要 Thulium、该舰船自身配方材料的大约四分之一，以及 Dark Matter Plate，数量见表。
+3. **支付。** 一次改装需要 Thulium、材料，以及 Dark Matter Plate，数量见表。
 
 | 设计 | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon LICH** | 100,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm BRATAN** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Storm RECON** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad DUMA** | 100,000 | 3 | 50 | 9 | 3 | 1 |
-| **Ironclad TITANIC** | 100,000 | 8 | 50 | 9 | 3 | 1 |
-| **Wraith RAPTOR** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith BILLY** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MENATI** | 100,000 | 7 | 75 | 13 | 4 | 1 |
-| **Wraith ATARAXIS** | 100,000 | 6 | 75 | 13 | 4 | 1 |
-| **Wraith MATT** | 100,000 | 4 | 75 | 13 | 4 | 1 |
+| **Paragon THUNDER** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Paragon LICH** | 50,000 | 4 | 30 | 5 | 2 | – |
+| **Storm NOTSUM** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm RECON** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Ironclad DUMA** | 100,000 | 9 | 50 | 450 | 15 | 5 |
+| **Ironclad TITANIC** | 100,000 | 24 | 50 | 450 | 15 | 5 |
+| **Wraith RAPTOR** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith BILLY** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MENATI** | 100,000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100,000 | 30 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100,000 | 20 | 375 | 65 | 20 | 3 |
 
 被改装的舰船是你拥有的该种类的那一艘（THUNDER、BUCKY 或 LICH 用 Paragon），而且不能是你正在驾驶的舰船：请先把另一艘舰船设为活动舰船。被击毁的舰船不能改装。
 
@@ -63,7 +63,7 @@
 | **Wraith** | 9 | 9 小时 | 90 | 5 | 50 小时 | 50 |
 | **四艘合计** | 36 | 36 小时 | 360 | 13 | 130 小时 | 130 |
 
-它们加起来需要 490 个 Dark Matter，另外所有其他科技共需要 414 个：游戏里所有科技共 904 个。
+它们加起来需要 490 个 Dark Matter，另外所有其他科技共需要 414 个，Skylab 模块的各级另外需要 115 个：游戏里所有科技共 1,019 个。
 
 ## 你的舰船会怎样 {#what-happens-to-your-ship}
 
@@ -75,7 +75,7 @@
 
 ## 外观与大小 {#looks-and-size}
 
-每种设计都有自己的模型，是其舰船的模型加上几处能表现它功能的改动。它们和舰船一样是朴素的灰色，这样颜色以后可以作为涂装加上去。BUCKY 和 TITANIC 大 20%，更大的舰船更容易被火箭击中。机库用“设计”徽章标出设计舰船，其他飞行员能在目标窗口和击杀播报里看到它的名字。
+每种设计都有自己的模型，是其舰船的模型加上几处能表现它功能的改动。它们和舰船一样是朴素的灰色，穿上[皮肤](/wiki/06-Items/Cosmetics.md)后颜色才会改变：设计会穿上它所源自舰船的皮肤，改装后外观保持不变。BUCKY 和 TITANIC 大 20%，更大的舰船更容易被火箭击中。机库用“设计”徽章标出设计舰船，其他飞行员能在目标窗口和击杀播报里看到它的名字。
 
 ## 商店、拍卖行与积分 {#shop-auction-and-points}
 

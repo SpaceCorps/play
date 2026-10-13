@@ -126,6 +126,7 @@ A tougher alien is worth more: a kill adds points by how much damage it takes to
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -137,7 +138,7 @@ The first five rows are the regular aliens, the next six the ships of the three 
 
 For example, a pilot at level 4 with 12,500 experience who has destroyed 300 Seekers, 80 Phantasms and 10 Bulwarks has 400 + 12 + 300 + 160 + 40 = **912** points. That makes him a Sergeant: the minimum is 800, and the next rank, Senior Sergeant, asks 1,000. Up to Senior Colonel nothing but the points count.
 
-The **Rankings** page (Community › Rankings) shows how your own points are made up, and the **Hall of Fame** on it lists the best pilots. The **(i)** next to the PvE points there lists the five aliens, what a kill in each of the swarms ([Swarms](/wiki/05-Swarms/Swarms.md)) is worth, from its smallest ship to its boss, the same for the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#clan-wardens).
+The **Rankings** page (Community › Rankings) shows how your own points are made up, and the **Hall of Fame** on it lists the best pilots. The **(i)** next to the PvE points there lists the five aliens, what a kill in each of the swarms ([Swarms](/wiki/05-Swarms/Swarms.md)) is worth, from its smallest ship to its boss, the same for the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) stands in the Hall of Fame as a row of his own in each world, with the points of a level 20 pilot; he is in no company, so he is on none of the ladders.
 
 ## The symbols
 

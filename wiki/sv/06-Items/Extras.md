@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93029f432757eb93 -->
+<!-- wiki-i18n source: be4819075016f18a -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -10,15 +10,16 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på
 | **Cloaking CPU S** | Döljer ditt skepp | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Döljer ditt skepp | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Döljer ditt skepp | 50 | 20 000 Thulium |
-| **EMP Charge** | I 3 sekunder kan ingen välja dig som mål, varje målfixering på dig bryts och allt kamouflage i närheten tar slut | 1 | 500 Thulium |
+| **Energetic Wall I** | Sätter upp en plasmavägg vid din markör, nära ditt skepp: varje skott som korsar den träffar väggen i stället, och varje skepp i den brinner | obegränsat | 250 Thulium |
+| **Energetic Wall II** | Samma vägg med tre gånger så många livspoäng (30 000 och 90 000) | obegränsat | Monteringen: en Energetic Wall I och 600 Thulium, efter sin forskning |
 
-Cloaking CPU och EMP Charge säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis.
+Cloaking CPU säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis. **EMP Charge** är inte längre extrautrustning: sedan 0.4.21 är den en förbrukningsvara som bärs i en hög, som en raket, och inte sätts i någon plats, så den tar ingen av dina extraplatser (se [Raketer](/wiki/06-Items/Rockets.md#emp-charge)).
 
 En ny pilots **startpaket** monterar redan två extrautrustningar på Protos två extraplatser: en **Base CPU I** (10 användningar, en teleport till din koncerns bas) och en **Repair Drone I**. Dra dem från väljaren Extra i snabbfältet till en plats för att använda dem. Bara nya piloter får paketet: den som tog värvning före 0.4.10 har det inte.
 
 Sju CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II samt Auto-Repair CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får. De två warp-CPU:erna, Jump CPU och Base CPU, nekas också medan du bär på ett uppdragsföremål (”Du kan inte använda en warp-CPU medan du bär på ett uppdragsföremål.”): se [Uppdragsföremål](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Repair Drone, **CLK** för en Cloaking CPU, **EMP** för EMP Charge och **ARP**, **BSE** och **JMP** för Auto-Repair CPU, Base CPU och Jump CPU. Extra Slots CPU har ingen plats: de installeras i din Skylab. Peka på en plats för att läsa vad ett tryck gör just nu, eller varför det inte kan.
+Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Repair Drone, **CLK** för en Cloaking CPU, **WAL** för en Energetic Wall och **ARP**, **BSE** och **JMP** för Auto-Repair CPU, Base CPU och Jump CPU. Extra Slots CPU har ingen plats: de installeras i din Skylab. De tre **P.E.T. Station**-föremålen har ingen plats heller: hämtade i Monteringen installerar de sig själva och ger plats för 2, 3 och 5 [P.E.T.s](/wiki/03-Mechanics/Pets.md). Peka på en plats för att läsa vad ett tryck gör just nu, eller varför det inte kan.
 
 ![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
@@ -31,26 +32,32 @@ Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Re
 Det som Monteringen tillverkar kräver först sin teknologi; håll pekaren över ett föremål för att se hur lång tid forskningen tar. Teknologiträdet, bränslet och boosten: [Forskning](/wiki/03-Mechanics/Research.md).
 
 ```tree
+P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU S | extra, common | buy 5000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Repair Drone I | extra, common | buy 5000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-EMP Charge | extra, uncommon | buy 500 Thulium | /wiki/06-Items/Extras.md#emp-charge
+P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
-Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 2 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
+Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
+Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
-Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 3 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
+Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
+P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -77,22 +84,23 @@ Tryck på platsen CLK för att kamouflera dig. **Ett tryck är en användning**,
 
 S, M och L fungerar likadant: de större paketen är bara billigare per användning (500, 450 och 400 Thulium).
 
-## EMP Charge
+## Energetic Wall
 
-Tryck på platsen EMP under en strid. I **3 sekunder** kan ingen låsa på dig, och **alla som var låsta på dig förlorar låsningen** direkt, var de än är: piloter, utomjordingar och koncernpiloter. En pilot vars målfixering bryts får veta ”Målfixering förlorad: målet använde en EMP”. Den som försöker låsa på under de 3 sekunderna nekas.
+Tryck på platsen WAL, så står en **plasmavägg** **vid din markör**, tvärs över linjen från ditt skepp dit: ett band som är 360 enheter långt (ungefär tre och en halv skeppsmodeller) och 10 enheter brett. Dess mitt ligger högst **450 enheter** från skeppets mitt: en markör längre bort sätter den 450 enheter ut längs linjen, en markör närmare än 120 enheter flyttar ut den till 120. Medan platsen är redo visar en svag prickad linje och en spökkontur var den kommer att stå. Vet spelet inte var din markör är, står den 220 enheter framför skeppets mitt, tvärs över dess kurs. Dra väggen från snabbfältets Extra till en plats för att använda den, som REP. Den är till för att gömma sig bakom och för att spärra en fil, inte för att stå i.
 
-- **Det är inte osårbarhet.** Den stoppar det som kräver en målfixering: lasrar, målsökande raketer och beröringen från en rak raket med enkelmål, som flyger rakt igenom dig. En raket med **områdesskada** kräver ingen målfixering, så den skadar dig ändå om du är inom den, och det svarta hålet är inte ett skott alls.
-- **Du kan fortfarande agera.** Att skjuta avslutar den inte. Du kan kamouflera dig (om kamouflagets egna regler tillåter det) och använda annan extrautrustning.
-- **Den avslutar kamouflage i närheten.** Varje skepp som är kamouflerat inom **1 500 enheter** från dig när pulsen går av syns direkt och dess CPU börjar sina 60 sekunders omladdning, oavsett vilken koncern det tillhör, din egen inräknad; skeppen i din egen [grupp](/wiki/03-Mechanics/Groups.md) är undantaget: de behåller sitt kamouflage. Piloten får veta ”Kamouflage bruten: en EMP utlöstes i närheten.”, ser skeppet dyka upp igen med samma krusning som vid varje annat avslöjande, och platsen börjar sin omladdning. Du kan inte använda en EMP medan du själv är kamouflerad.
-- **Den döljer ingenting.** Alla ser dig fortfarande, med ett knitrande elektriskt skal under de 3 sekunderna.
-- **Du kan inte använda den** medan en säker zon skyddar dig, medan du är kamouflerad eller inom **30 sekunder** efter den förra. Den fungerar överallt annars, även de första dagarna av en säsong (Fredsprotokollet): utomjordingar jagar fortfarande då.
-- En utomjording du träffar under de 3 sekunderna vänder sig inte mot dig förrän de är över. Dina pax och reglerna om första träffen ändras inte.
-- **Vad du ser.** En puls av böjt rum rusar ut från piloten så långt som pulsen avslutar kamouflage (1 500 enheter), alla inom räckhåll ser den, och ett knitrande elektriskt skal omger skeppet under de 3 sekunderna, med en ring runt ditt eget skepp och en bricka högst upp på skärmen som räknar tiden. Målringen hos alla som hade valt dig bryts sönder, med ett kort knäpp. Platsen EMP visar de laddningar du äger, lyser blått medan skalet är uppe och mörknar medan den laddas om.
-- **En laddning, en användning.** Platsen fylls på från ditt inventarie när du äger fler. De **30 sekunderna** av omladdning sparas inte: att logga ut eller hoppa genom en portal nollställer dem, och nästa puls kostar en laddning.
+- **Vad den stoppar.** Varje skott som korsar den träffar väggen i stället, vem som än sköt det och från vilken sida: en lasersalva, en raket, en utomjordings salva. Det som står bakom tar ingenting och väggens livspoäng tar skadan. Explosionen från en raket som går av vid väggen träffar skeppen på dess nära sida och inte de bakom den. Dina egna skott också: du kan inte skjuta ut genom din egen vägg. N.I.K.E. och Dormant Swamps kanontorn flyger över den, som de flyger över asteroider.
+- **Vad den bränner.** Varje skepp vars skrov rör vid bandet tar **2 500 i skada per sekund**, först på skölden, ditt eget också, och utomjordingar och koncernpiloter. Ett skepp i en säker zon eller under skydd av en återkomst brinner inte, och två band på ett skepp läggs inte ihop.
+- **Hur länge den håller.** En vägg på nivå 1 har **30 000 livspoäng**, en på nivå 2 **90 000**. En vägg förlorar en sextiondel av dem varje sekund av sig själv, så en som ingen skjuter på är borta efter **60 sekunder**. Skott förkortar det: en Wraith med tolv Helios Beam på x4-ammunition fäller en nivå 1-vägg på ungefär 3,5 sekunder.
+- **En i taget.** En ny vägg tar den gamlas plats. Efter ett tryck laddas föremålet i **90 sekunder**; väntan är din, inte skeppets: att dö eller logga ut förkortar den inte. Bär du två gäller den bättre väggen.
+- **Var inte.** Inte medan en säker zon eller en återkomst skyddar dig, inte där bandet skulle röra en säker zon eller en port, inte kamouflerad och inte där bandets mitt skulle hamna utanför kartan. Spelet säger vilket fall det är.
+- **Nedskjutningar.** Ett skepp som väggen förstör dör av strålning, och nedskjutningen går till den sista fientliga piloten som träffade det inom 15 sekunder, om det fanns någon. Den som satte upp väggen får inget tillgodo för det den inte sköt själv. En utomjording som väggen förstör betalar ingenting: ingen belöning, inget byte.
+- **Utomjordingar går inte runt den.** De flyger igenom och brinner, eller blir stående på sin sida och skjuter på väggen.
+- **Vad du ser.** Ett band av blåvitt ljus med ljusa streck som löper längs det och en ljuspelare i varje ände; det blixtrar där ett skott slår in och flimrar när det nästan är slut. En vägg på nivå 2 lyser i stället gult, med en tjockare, ljusare kärna och ett starkare sken, men dess band är lika brett som på nivå 1: 10 enheter. En tunn livsmätare bredvid blir kortare och går över i bärnsten och sedan rött; din plats visar väggens återstående liv som en båge och väntan som en skugga. En uppsatt vägg blixtrar till, en nedskjuten rasar i gnistor och en vars tid gått ut bleknar bort.
+- **Hur du får den.** Energetic Wall I säljs i butiken för 250 Thulium. Energetic Wall II tillverkas i Monteringen av en Energetic Wall I, 10 Ship Fragments och 2 Power Cores för 600 Thulium, när Forskningscentrumet har forskat fram den (6 timmar i normal takt: [Forskning](/wiki/03-Mechanics/Research.md)).
 
 ## Forskningscentrumets CPU:er {#research-cpus}
 
-Två av CPU:erna kräver Dark Matter Plates, liksom sista nivån i varje uppgraderingskedja: **Extra Slots CPU III** kräver 3 (och 6 Orvium Reinforced Plates) och **Base CPU II** 3 (och 2 Orvium Reinforced Plates), så forska först fram Dark Matter Plate ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
+Två av CPU:erna kräver Dark Matter Plates, liksom sista nivån i varje uppgraderingskedja: **Extra Slots CPU III** kräver 4 (plus 2 Ancient Control Units och 6 Orvium Reinforced Plates) och **Base CPU II** 4 (plus en Ancient Control Unit och 2 Orvium Reinforced Plates), så forska först fram Dark Matter Plate ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
 <!-- research-cpus:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -106,6 +114,7 @@ Två av CPU:erna kräver Dark Matter Plates, liksom sista nivån i varje uppgrad
 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 10 h | [Base CPU I](/wiki/06-Items/Extras.md#base-cpus), [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 20 000 | 10 min |
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
+| [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 366f14293d706328 -->
+<!-- wiki-i18n source: 18eaf9711b582e62 -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
@@ -11,6 +11,7 @@ Les roquettes sont une seconde arme à côté de vos lasers : un tir toutes les
 - **Les explosions sont plus fortes au milieu.** Les roquettes Ember et Scatter éclatent et blessent tous les vaisseaux dans l’anneau : le nombre entier au centre, la moitié au bord.
 - **Un seul minuteur pour toutes.** Après un tir, vous attendez 3 secondes avant le suivant, quelle que soit la roquette. Seules la N.U.K.E. et la N.I.K.E. vous font attendre plus longtemps (4,1 et 4,6 secondes), parce qu’elles restent aussi longtemps en l’air.
 - **Guidée ou droite.** Une roquette guidée (Lancet, Ember) a besoin d’une cible que vous avez sélectionnée. Une droite (Rivet, Scatter) vole vers votre curseur.
+- **Un objet de plus se porte comme une roquette.** L’**EMP Charge** est un consommable : une pile dans votre inventaire, utilisée depuis la barre rapide, sans emplacement ([EMP Charge](#emp-charge)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -34,6 +35,7 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
@@ -54,7 +56,7 @@ Chaque type est une **famille**, qui porte le nom de sa roquette commune, et la 
 - Les roquettes **guidées** ont besoin d’une cible sélectionnée dans leur **portée de verrouillage** au départ. Elles la poursuivent avec une vitesse de virage limitée, si bien qu’un vaisseau rapide et éloigné peut distancer une roquette bon marché. Si la cible meurt, quitte la carte ou atteint une zone sûre, la roquette continue tout droit et n’en choisit pas une autre.
 - Les roquettes **droites** n’ont besoin d’aucune cible et ignorent celle que vous avez sélectionnée : elles volent toujours vers votre **curseur**, au point situé dessous dans la vue de vol. **Cliquez sur l’emplacement d’une roquette droite pour l’armer** (l’emplacement reçoit un cadre blanc et un réticule, et votre curseur de souris devient un réticule au-dessus de l’espace), puis **cliquez dans l’espace** : la roquette vole vers le point sur lequel vous avez cliqué et votre vaisseau reste où il est. Esc, un clic droit ou un nouveau clic sur le même emplacement la relâche. Si les roquettes sont encore en rechargement, le clic ne fait que vous le dire et la roquette reste armée. Les touches numériques et **Tirer roquette** tirent aussitôt vers le dernier point où se trouvait le curseur dans la vue de vol ; tant que le curseur n’y est pas passé, elles volent dans la direction où votre vaisseau **pointe**. Elles volent droit, donc un vaisseau qui traverse à vitesse élevée peut les esquiver.
 - Une roquette à **cible unique** touche le premier vaisseau qu’elle peut toucher (une guidée, seulement sa cible). Une **explosion de zone** éclate à côté du premier vaisseau qu’elle rencontre, au point où vous l’avez visée, ou là où son vol s’achève, et blesse tous les vaisseaux situés dans son **rayon d’explosion** : pleins dégâts au centre, la moitié au bord. L’anneau que l’explosion dessine sur la carte est sa portée exacte.
-- **Astéroïdes.** Une roquette tirée sur un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md) vole vers lui, et le premier astéroïde sur le chemin de n’importe quelle roquette l’arrête et prend le coup à la place du vaisseau qui se trouve derrière ([Abri](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Les douze roquettes de la boutique et la N.U.K.E. peuvent en briser un ; la N.I.K.E. ne peut pas être tirée sur un astéroïde et vole au-dessus d’eux. Vos lasers endommagent aussi un astéroïde, mais à 5 % seulement de ce qu’ils infligent à un vaisseau : la roquette est l’outil qu’il faut.
+- **Astéroïdes.** Une roquette tirée sur un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md) vole vers lui, et le premier astéroïde sur le chemin de n’importe quelle roquette l’arrête et prend le coup à la place du vaisseau qui se trouve derrière ([Abri](/wiki/03-Mechanics/Asteroid-Mining.md#cover)). Une [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) arrête une roquette de la même façon ; la N.I.K.E. passe au-dessus. Les douze roquettes de la boutique et la N.U.K.E. peuvent en briser un ; la N.I.K.E. ne peut pas être tirée sur un astéroïde et vole au-dessus d’eux. Vos lasers endommagent aussi un astéroïde, mais à 5 % seulement de ce qu’ils infligent à un vaisseau : la roquette est l’outil qu’il faut.
 
 ## Les douze roquettes {#the-twelve-rockets}
 
@@ -156,3 +158,18 @@ Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule
 Les douze roquettes du premier tableau s’achètent (des crédits pour les communes et les rares, du Thulium pour les épiques) ; la N.U.K.E. et la N.I.K.E. se fabriquent.
 
 Voir aussi : [Lasers et munitions](/wiki/06-Items/Lasers.md), [Combat](/wiki/03-Mechanics/Combat.md), [Le trou noir](/wiki/03-Mechanics/Black-Hole.md).
+
+## EMP Charge
+
+L’**EMP Charge** se porte comme une roquette sans en être une : c’est un **consommable**. Vous l’achetez à la boutique pour **500 Thulium** la charge et en portez jusqu’à **20** dans une même pile (ce que vous avez mis en vente aux [Enchères](/wiki/03-Mechanics/Auction.md) compte), et le sélecteur **Consommables** de la barre rapide l’affiche avec le nombre que vous portez. Elle n’occupe **aucun emplacement** d’aucun vaisseau ; jusqu’à la 0.4.21, c’était un [extra](/wiki/06-Items/Extras.md) et chaque charge remplissait un emplacement extra. Une charge pèse 250 dans la cache de transport.
+
+Appuyez sur l’emplacement EMP en plein combat. Pendant **3 secondes**, personne ne peut vous verrouiller, et **tous ceux qui vous avaient verrouillé perdent leur verrouillage** aussitôt, où qu’ils soient : pilotes, aliens et pilotes de corporation. Un pilote dont le verrouillage se rompt reçoit le message « Verrouillage perdu : la cible a utilisé une EMP ». Quiconque tente de verrouiller pendant ces 3 secondes est refusé.
+
+- **Ce n’est pas de l’invulnérabilité.** Elle arrête ce qui demande un verrouillage : les lasers, les roquettes guidées et le contact d’une roquette droite à cible unique, qui vous traverse. Une **explosion de zone** n’a besoin d’aucun verrouillage, elle vous blesse donc toujours si vous êtes dedans, et le trou noir n’est pas un tir du tout.
+- **Vous pouvez toujours agir.** Tirer ne l’interrompt pas. Vous pouvez vous occulter (si les règles propres à l’occultation le permettent) et utiliser d’autres extras.
+- **Elle rompt les occultations proches.** Tout vaisseau occulté à moins de **1 500 unités** de vous quand l’impulsion se déclenche est révélé aussitôt et son CPU commence ses 60 secondes de recharge, quelle que soit sa corporation, la vôtre comprise ; les vaisseaux de votre propre [groupe](/wiki/03-Mechanics/Groups.md) font exception : ils gardent leur occultation. Le pilote reçoit le message « Occultation rompue : une EMP a été déclenchée à proximité. », voit le vaisseau réapparaître avec la même ondulation que pour toute fin d’occultation, et l’emplacement commence sa recharge. Vous ne pouvez pas utiliser d’EMP tant que vous êtes vous-même occulté.
+- **Elle ne cache rien.** Tout le monde vous voit toujours, entouré pendant les 3 secondes d’une coque électrique crépitante.
+- **Vous ne pouvez pas l’utiliser** tant qu’une zone sûre vous protège, en étant occulté, ni dans les **30 secondes** qui suivent la dernière. Elle fonctionne partout ailleurs, y compris pendant les premiers jours d’une saison (le Protocole de paix) : les aliens chassent encore à ce moment-là.
+- Un alien que vous touchez pendant les 3 secondes ne se retourne contre vous qu’une fois celles-ci écoulées. Vos revendications d’éliminations et les règles du premier tir ne changent pas.
+- **Ce que vous voyez.** Une impulsion d’espace déformé jaillit du pilote jusqu’à la distance où elle rompt les occultations (1 500 unités), tous ceux à portée la voient, et une coque électrique crépitante entoure le vaisseau pendant les 3 secondes, avec un anneau autour de votre propre vaisseau et une pastille en haut de l’écran qui comptent le temps. L’anneau de cible de tous ceux qui vous avaient sélectionné se brise, avec une brève décharge. L’emplacement EMP indique les charges que vous possédez, s’illumine en bleu tant que la coque est active et s’assombrit pendant la recharge.
+- **Un appui, une charge.** Un appui consomme une charge de votre pile ; s’il n’en reste aucune, il est refusé (« Il ne vous reste aucune EMP Charge. »). Les charges de la cache de transport sont celles de la saison suivante et ne peuvent pas servir. Comme les roquettes, les charges que vous portez sont perdues avec la saison, sauf si vous les mettez dans la cache de transport. Les **30 secondes** de recharge ne sont pas conservées : se déconnecter ou sauter par un portail les efface, et l’impulsion suivante coûte une charge.

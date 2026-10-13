@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Setores de perigo -->
 # Setores de perigo {#danger-sectors}
 
@@ -17,6 +17,10 @@ Uma civilização da velha galáxia viveu aqui, avançada e de um preto arroxead
 - **O Dormant Swamp.** Num canto de `DS-4` fica a base da civilização perdida: canhões que atiram em toda nave que veem, Inert Masses que a guardam e, no meio, o Unwakened. É um lugar que os pilotos ainda não devem visitar. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Um Enxame Dormant mais rápido e mais rico.** O enxame agora aparece no pântano, volta mais cedo depois de destruído e paga o dobro. Veja [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Antes do dia 11** só os pulsares brilham: de resto, os setores de perigo são como a [Viagem pelo mapa espacial](/wiki/01-General/Spacemap%20Travel.md) os descreve. Um mundo no dia 11 ou depois tem tudo de uma vez.
+
+## Davidski
+
+Desde o primeiro dia da temporada, um entre `DS-1`, `DS-2` e `DS-3` tem um visitante: **[Davidski](/wiki/03-Mechanics/Davidski.md)**, um comerciante em um Ironclad dourado que os percorre em revezamento, um por dia, e sai uma vez por dia em um horário que ninguém anuncia. Ele nunca atira primeiro e revida quando é atingido, e paga como um chefe quando é destruído. Não pertence a nenhuma corporação e vende todo tipo que o [Leilão](/wiki/03-Mechanics/Auction.md) lista por muitas vezes o preço da Loja.
 
 ## Onde fica cada coisa {#where-everything-is}
 
@@ -59,3 +63,4 @@ Cada mundo tem a sua própria cópia de tudo, e um pulsar e sua escavadeira fica
 - [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) e [Enxames](/wiki/05-Swarms/Swarms.md).
 - [O buraco negro](/wiki/03-Mechanics/Black-Hole.md) e [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md): de onde vem o combustível.
 - [Mineração de asteroides](/wiki/03-Mechanics/Asteroid-Mining.md): as rochas dos setores de perigo.
+- [Davidski](/wiki/03-Mechanics/Davidski.md): o comerciante que sai uma vez por dia, sem aviso, em um setor de perigo.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9eea417792cfb043 -->
+<!-- wiki-i18n source: f9c25f72f77fa5cf -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -9,6 +9,7 @@ Fundar um clã ou entrar em um permite reunir recursos, melhorar o banco compart
 - Todo clã tem uma **página do clã** que qualquer piloto do mundo dele pode abrir: nível, pilotos, Líder, descrição, link do Discord, requisitos, pontos somados e bônus ([A página do clã](#the-clan-page)). O Líder e os Vice-líderes a configuram em **Gestão** ([Gestão](#management)).
 - Um clã tem um **mundo** (o do fundador), só aceita pilotos desse mundo, e **o reset o dissolve junto com o tesouro**: pague o Tesouro da frota antes de a contagem regressiva acabar ([o reset](#the-wipe-disbands-every-clan)).
 - O Líder e os Vice-líderes escrevem [avisos](#clan-posts) para o clã inteiro, cada membro vê [em que mapa](#where-your-clan-mates-are) os outros voam, a janela [Quem está online](#who-is-online) (tecla **H**) convida para o seu grupo qualquer piloto do seu mundo, o Líder pode pagar um [bônus diário](#4-daily-bonus) do Tesouro da frota, e a aba [Registro](#fleet-log) conta ao clã o que aconteceu nele.
+- Em voo, o botão **Clã** (uma flâmula) da barra de ferramentas, no canto superior esquerdo, abre a **janela do clã**: a página do clã da estação numa janela sobre o jogo, com as mesmas abas, respostas e botões; a posição e o tamanho da janela são lembrados (jogo na versão 0.4.21 ou mais nova; [Invocar um Guardião](#calling-a-warden) diz o que muda em voo).
 - Uma guerra só termina se o outro clã concordar, e uma aliança ou um pacto termina na hora quando um dos dois clãs o cancela ([Diplomacia](#diplomacy)).
 - A cada dia de temporada, seu clã recebe uma [linha diária](#daily-line): quatro missões feitas em ordem (abater alienígenas, voar uma distância, em alguns dias derrubar chefes de enxame) e depois um [Guardião do clã](#clan-wardens), um chefe que você invoca e que só o seu clã pode ferir.
 - Cada etapa concluída paga pontos do clã na hora: 15, 15, 20, 20 e 30, ou seja, **100 pontos** por uma linha inteira.
@@ -180,6 +181,8 @@ Um **aviso** é uma nota curta para o clã inteiro, um mural para as novidades d
 
 A coluna **Mapa** da lista de membros mostra o setor em que cada piloto do seu clã voa («T-2»), com o mundo na frente quando não é o seu («Beta · T-2»). Ela é lida de novo a cada 10 segundos enquanto a lista está aberta. Só o **mapa** é mostrado, nunca coordenadas, e nada é guardado. Um piloto **atracado ou desconectado** aparece como **Offline**, e também um piloto cuja nave camuflada você não veria em um mapa ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): um clã não desfaz uma camuflagem.
 
+A coluna **Skylab** ao lado mostra onde está o [Skylab](/wiki/03-Mechanics/Skylab.md#clan-skylabs) de cada piloto no mapa do universo, pelo código da célula: “Atracado em H3” no porto de uma corporação, “H3, rumo a K7 em 3 h 12 min” em viagem (a última célula por onde passou, para onde vai e o tempo que falta), “Estacionado em K7” enquanto caça e “Destruído em H3” quando o casco acabou. Ela é lida junto com a coluna Mapa, e um piloto que ainda não tem mapa do universo (um Núcleo abaixo do nível 15) mostra um traço. A coluna aparece quando algum piloto do seu clã tem um. Só o seu próprio clã vê, e uma camuflagem não esconde um Skylab. Uma destruição só aparece quando o piloto olhou o Skylab de novo ou deu uma ordem a ele.
+
 ## Quem está online {#who-is-online}
 
 O botão **Quem está online** na barra de ferramentas do sistema (no alto, à direita) ou a tecla **H** (reatribuível em Configurações › Controles) abre a janela **Pilotos online**.
@@ -279,7 +282,7 @@ Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos 
 
 - **Quando.** Depois que a etapa 4 termina. Um clã tem **duas invocações por dia**, só um Guardião fora por vez, e o dia precisa ter **pelo menos 30 minutos** restantes.
 - **Quem.** O Líder ou um Vice-líder.
-- **Como.** Em voo: o botão **Invocar aqui** aparece na tela de voo assim que a etapa 4 termina e pede a sua confirmação. Fique fora das zonas seguras, em um setor de corporação **x-2, x-3 ou x-4** (de qualquer corporação) do seu mundo. A aba Operações mostra o Guardião do dia, as invocações restantes e por que o botão está esmaecido, mas um Guardião é invocado a partir da nave.
+- **Como.** Em voo: o botão **Invocar aqui** aparece na tela de voo assim que a etapa 4 termina e pede a sua confirmação. Fique fora das zonas seguras, em um setor de corporação **x-2, x-3 ou x-4** (de qualquer corporação) do seu mundo. A aba Operações (na página do clã da estação ou na janela do clã em voo) mostra o Guardião do dia, as invocações restantes e por que o botão está esmaecido. Na estação ele está sempre esmaecido, porque um Guardião é invocado a partir da nave; na janela do clã ele é o próprio botão, esmaecido dentro de uma zona segura e fora dos setores x-2 a x-4 de uma corporação, com o motivo dado pelo servidor.
 - **Onde ele aparece.** De 3.000 a 4.500 unidades da sua nave, no seu mundo: só os pilotos desse mundo conseguem chegar até ele. A aba recomenda **x-2 para um clã Recruta, x-3 para Veterano e x-4 para Elite**. As [regras de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) de sempre do setor escolhido continuam valendo.
 - **Aquecimento.** Ele fica **90 segundos** blindado e passivo («carregando») e todo piloto do clã que está online é avisado de onde. Voe até lá enquanto ele carrega: passados os 90 segundos, ele está ativo. Uma cápsula sob o selo de zona segura na tela de voo o acompanha: o nome dele, «carregando» com o tempo que falta, depois «ativo» com o setor e o tempo até ele se retirar, e «furioso» quando um Wrath Warden fica abaixo da metade do casco.
 - **Só o seu clã.** Os tiros de pilotos de qualquer outro clã são ignorados e não o fazem reagir.

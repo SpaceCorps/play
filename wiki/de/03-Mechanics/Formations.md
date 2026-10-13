@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0fe07c3a0a70ac78 -->
+<!-- wiki-i18n source: 2774e74ca4dec786 -->
 <!-- wiki-i18n title: Formationen -->
 # Drohnenformationen {#drone-formations}
 
@@ -16,7 +16,7 @@ Eine **Drohnenformation** ist ein Muster, in dem deine Drohnen dein Schiff umgeb
 
 ## In einer Minute {#in-one-minute}
 
-- **Beschaffen.** Erforsche ihre Technologie im Forschungszentrum (zwei Bäume, *Verteidigung* und *Angriff & Mobilität*) und baue sie dann in der Montage für Thulium. Die günstigste kostet 7.000 Thulium und 5 Dark Matter, die teuerste 46.000 Thulium und 20 Dark Matter. Der Shop verkauft keine.
+- **Beschaffen.** Erforsche ihre Technologie im Forschungszentrum (zwei Bäume, *Verteidigung* und *Angriff & Mobilität*) und baue sie dann in der Montage für Thulium. Die günstigste kostet 14.000 Thulium und 5 Dark Matter, die teuerste 92.000 Thulium und 20 Dark Matter. Der Shop verkauft keine.
 - **Besitzen.** Eine Formation wird nirgends angelegt: Ein Exemplar in deinem Inventar genügt. Du brauchst mindestens eine Drohne, eine Slave Drone oder eine Master Drone, sonst wirkt keine Formation.
 - **Tragen.** Ziehe sie aus der Formationenliste der Aktionsleiste auf einen beliebigen Slot. Klicke den Slot an oder drücke seine Taste, um die Formation zu tragen. In der Liste steht auch **Standard**, also keine Formation: Ziehe es auf einen Slot und drücke ihn, um wieder keine zu tragen. Du darfst einmal alle 2 Sekunden wechseln, auch in einer Schutzzone, und es gibt keine Kampfsperre.
 - **Ansehen.** Jede Formation hat eine eigene Form, und deine Drohnen fliegen sie rund um dein Schiff: ein Dach, ein Herz, Flügel, ein Schwert, einen Bohrer. Andere Piloten sehen sie auch. Siehe [So fliegen sie](#how-they-fly).
@@ -50,7 +50,7 @@ Jede Formation gibt deinen Drohnen **eine eigene Form**. Trägst du eine, verlas
 - **Gebaut für die Drohnen, die du hast.** Eine Form wird für genau die Drohnen gebaut, die du besitzt, 1 bis 8: Mit einer oder zwei siehst du nur ihren Anfang, mit allen **8** die ganze Form, wie auf den Bildern. Ihre Level und was sie tragen, ändern nichts.
 - **Dem Schiff angepasst.** Ein langes Schiff fliegt eine längere Form als ein kleines, und die Drohnen halten Abstand zur Hülle.
 - **Für alle sichtbar.** Andere Piloten sehen deine Form, und du siehst ihre. Ein Schiff, das mehr als **3.500 Einheiten** von deiner Kamera entfernt ist, zeigt keine Drohnen, und in einer Menge tun es nur die nächsten **64** Schiffe.
-- **Ausschalten.** Einstellungen › Oberfläche hat **Eigene Drohnen anzeigen** und **Gegnerische Drohnen anzeigen** (die Drohnen anderer Piloten). Sie ändern nur, was du siehst: Die Boni deiner Formation wirken wie zuvor. **Bewegung reduzieren** (Einstellungen › Grafik) hält die Formen still, die sich bewegen, Cordon, Asterism, Culler, Gyre und Auger, und kürzt das Gleiten auf **0,2 Sekunden**.
+- **Ausschalten.** Einstellungen › Oberfläche hat **Eigene Drohnen anzeigen** und **Gegnerische Drohnen anzeigen** (die Drohnen anderer Piloten). Sie ändern nur, was du siehst: Die Boni deiner Formation wirken wie zuvor. Die Lackierung der Drohnen folgt **Aussehen anderer Piloten anzeigen** ([Kosmetik](/wiki/06-Items/Cosmetics.md#drone-liveries)). **Bewegung reduzieren** (Einstellungen › Grafik) hält die Formen still, die sich bewegen, Cordon, Asterism, Culler, Gyre und Auger, und kürzt das Gleiten auf **0,2 Sekunden**.
 - **Die Höhe sehen.** Das Dach, die Schale und der Bohrer haben Höhe, von der eine Ansicht von direkt oben wenig zeigt. Drehe die Kamera mit Rechtsziehen ([Erste Schritte](/wiki/01-General/Getting-Started.md#keyboard-controls-keybindings)), um sie von der Seite zu sehen.
 
 | Formation | Die Form | Was sich bewegt |
@@ -104,26 +104,26 @@ Die Tabellen zeigen, was jede gibt und was sie dich kostet, wie die Gegenstandsk
 
 ## Was sie kosten {#what-they-cost}
 
-Thulium, nie Credits. Alle sechzehn zusammen kosten 330.500 Thulium und 189 Dark Matter.
+Thulium, nie Credits. Alle sechzehn zusammen kosten 661.000 Thulium und 189 Dark Matter.
 
 | Formation | Braucht zuerst | Forschungsdauer | Dark Matter | Thulium zum Herstellen | Herstellungsdauer |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| **Testudo** | – | 10 h | 5 | 7.500 | 5 min |
-| **Sanctum** | Testudo | 1 d | 13 | 20.000 | 10 min |
-| **Rampart** | Sanctum | 2 d | 20 | 38.500 | 15 min |
-| **Adamant** | – | 10 h | 5 | 9.000 | 5 min |
-| **Redoubt** | Adamant | 1 d | 13 | 21.000 | 10 min |
-| **Cordon** | Redoubt | 1 d | 13 | 21.500 | 10 min |
-| **Asterism** | – | 10 h | 5 | 7.000 | 5 min |
-| **Bodkin** | Asterism | 1 d | 13 | 21.000 | 10 min |
-| **Ballista** | Bodkin | 1 d | 13 | 24.000 | 10 min |
-| **Gemini** | – | 2 d | 20 | 38.000 | 15 min |
-| **Stiletto** | Gemini | 2 d | 20 | 46.000 | 15 min |
-| **Centurion** | – | 10 h | 5 | 8.000 | 5 min |
-| **Shrike** | Centurion | 10 h | 5 | 8.500 | 5 min |
-| **Culler** | Shrike | 1 d | 13 | 20.000 | 10 min |
-| **Gyre** | – | 1 d | 13 | 20.000 | 10 min |
-| **Auger** | Gyre | 1 d | 13 | 20.500 | 10 min |
+| **Testudo** | – | 10 h | 5 | 15.000 | 5 min |
+| **Sanctum** | Testudo | 1 d | 13 | 40.000 | 10 min |
+| **Rampart** | Sanctum | 2 d | 20 | 77.000 | 15 min |
+| **Adamant** | – | 10 h | 5 | 18.000 | 5 min |
+| **Redoubt** | Adamant | 1 d | 13 | 42.000 | 10 min |
+| **Cordon** | Redoubt | 1 d | 13 | 43.000 | 10 min |
+| **Asterism** | – | 10 h | 5 | 14.000 | 5 min |
+| **Bodkin** | Asterism | 1 d | 13 | 42.000 | 10 min |
+| **Ballista** | Bodkin | 1 d | 13 | 48.000 | 10 min |
+| **Gemini** | – | 2 d | 20 | 76.000 | 15 min |
+| **Stiletto** | Gemini | 2 d | 20 | 92.000 | 15 min |
+| **Centurion** | – | 10 h | 5 | 16.000 | 5 min |
+| **Shrike** | Centurion | 10 h | 5 | 17.000 | 5 min |
+| **Culler** | Shrike | 1 d | 13 | 40.000 | 10 min |
+| **Gyre** | – | 1 d | 13 | 40.000 | 10 min |
+| **Auger** | Gyre | 1 d | 13 | 41.000 | 10 min |
 
 ### Material {#materials}
 
@@ -132,8 +132,8 @@ Neben dem Thulium nimmt die Montage dieses Material aus deinem Inventar. Es hän
 | Forschungsdauer | Ship Fragment | Reinforced Hull Plate | Power Core | Velkonite Reinforced Plate | Orvium Reinforced Plate | Ancient Control Unit |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 10 h | 100 | 10 | 5 | 4 | – | – |
-| 1 d | 180 | 18 | 9 | 8 | 3 | – |
-| 2 d | 260 | 26 | 13 | 14 | 6 | 2 |
+| 1 d | 180 | 18 | 9 | 8 | 15 | – |
+| 2 d | 260 | 26 | 13 | 14 | 30 | 2 |
 
 ## Die Regeln im Einzelnen {#the-rules-in-detail}
 

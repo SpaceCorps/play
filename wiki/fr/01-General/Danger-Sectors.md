@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13c9ac551cfd01fa -->
+<!-- wiki-i18n source: 14ba20f129d9805d -->
 <!-- wiki-i18n title: Secteurs dangereux -->
 # Secteurs dangereux {#danger-sectors}
 
@@ -17,6 +17,10 @@ Une civilisation de l’ancienne galaxie a vécu ici, avancée et d’un noir vi
 - **Le Dormant Swamp.** Dans un coin de `DS-4` se dresse la base de la civilisation perdue : des canons qui tirent sur tout vaisseau qu’ils voient, des Inert Masses qui la gardent et, au milieu, l’Unwakened. C’est un endroit que les pilotes ne sont pas encore censés visiter. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Essaim Dormant plus rapide et plus riche.** L’essaim apparaît désormais au marais, revient plus tôt après sa destruction et paie le double. Voir [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Avant le jour 11**, seuls les pulsars brillent : les secteurs dangereux sont sinon tels que les décrit [Navigation spatiale](/wiki/01-General/Spacemap%20Travel.md). Un monde au jour 11 ou après a tout d’un coup.
+
+## Davidski
+
+Dès le premier jour de la saison, l’un des secteurs `DS-1`, `DS-2` et `DS-3` a un visiteur : **[Davidski](/wiki/03-Mechanics/Davidski.md)**, un marchand dans un Ironclad doré, qui les parcourt à tour de rôle, un par jour, et sort une fois par jour à une heure que personne n’annonce. Il ne tire jamais le premier et riposte quand on le touche, et il paie comme un boss quand il est détruit. Il n’appartient à aucune corporation et vend chaque sorte que listent les [Enchères](/wiki/03-Mechanics/Auction.md) à un multiple du prix de la Boutique.
 
 ## Où se trouve quoi {#where-everything-is}
 
@@ -59,3 +63,4 @@ Chaque monde a sa propre copie de tout, et un pulsar et son excavatrice se tienn
 - [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) et [Essaims](/wiki/05-Swarms/Swarms.md).
 - [Le trou noir](/wiki/03-Mechanics/Black-Hole.md) et [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) : d’où vient le carburant.
 - [Extraction d’astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md) : les roches des secteurs dangereux.
+- [Davidski](/wiki/03-Mechanics/Davidski.md) : le marchand qui sort une fois par jour, sans annonce, sur un secteur dangereux.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ La Wraith es la nave definitiva de clase acorazado: una potencia de fuego sin ig
 
 ## Historia {#lore}
 
-Fruto de una investigación secreta de operaciones encubiertas, el acorazado Wraith representa la cumbre de la ingeniería de acorazados. Su propulsión de materia oscura y sus densas redes de energía le permiten desplegar a la vez varias baterías láser de alta potencia. Es extremadamente raro y caro, y ver una Wraith en los sensores basta para que hasta los capitanes piratas más curtidos den media vuelta. Sale de Ensamblaje en un gris liso, y sus diseños también.
+Fruto de una investigación secreta de operaciones encubiertas, el acorazado Wraith representa la cumbre de la ingeniería de acorazados. Su propulsión de materia oscura y sus densas redes de energía le permiten desplegar a la vez varias baterías láser de alta potencia. Es extremadamente raro y caro, y ver una Wraith en los sensores basta para que hasta los capitanes piratas más curtidos den media vuelta. Sale de Ensamblaje en un gris liso, y sus diseños también, hasta que una skin los pinta.

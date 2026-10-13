@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7cabaebd0154e4a1 -->
+<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -44,7 +44,7 @@ Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevé
 
 <!-- research-ship:end -->
 
-Une fois sa technologie recherchée, fabriquer un Storm à l’Assemblage coûte 1 [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 10 [Power Cores](/wiki/06-Items/Resources.md#power-core) et 15 000 Thulium, et prend 900 secondes (15 minutes).
+Une fois sa technologie recherchée, fabriquer un Storm à l’Assemblage coûte 3 [Ancient Control Units](/wiki/06-Items/Resources.md#ancient-control-unit), 200 [Ship Fragments](/wiki/06-Items/Resources.md#ship-fragment), 35 [Reinforced Hull Plates](/wiki/06-Items/Resources.md#reinforced-hull-plate), 20 [Power Cores](/wiki/06-Items/Resources.md#power-core) et 15 000 Thulium, et prend 900 secondes (15 minutes).
 
 ## Histoire {#lore}
 

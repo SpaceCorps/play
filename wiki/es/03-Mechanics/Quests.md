@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -224,6 +224,7 @@ Las misiones van subiendo de sector con tu nivel:
 - **Un derribo cuenta para una misión de nivel**: la que sigues, si puede usarlo, y si no la primera de tus misiones activas que pueda. Además cuenta para cada Desafío que lo pida, y cada paso de objeto de misión tuyo que espere a ese alienígena tira su drop.
 - Un alienígena que remata uno de tus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) mientras tú luchas contra él cuenta como derribo tuyo, también para tus misiones.
 - Un derribo de alguien de tu [grupo](/wiki/03-Mechanics/Groups.md) cuenta también para tus misiones de nivel cuando estás en el mismo mapa y has disparado un láser o un cohete a cualquier cosa en los últimos 15 segundos. Para la línea de Desafíos, el compañero debe además estar a menos de 4.000 unidades del derribo.
+- **Las expediciones del Skylab cuentan para algunos pasos.** Las bajas que tu [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) logra en una expedición hacen avanzar un paso de bajas solo cuando el paso **no nombra ningún sector**, hasta **250 bajas al día** (UTC) y solo las bajas del alienígena que nombra el paso. Una celda no es un sector, así que un paso que nombra uno (`x-1` a `x-4`, `DS-x` o `rival x-4`) nunca las cuenta, ni siquiera en una celda de la misma dificultad. En la práctica son las grandes cacerías de la línea de Desafíos cuyos alienígenas viven en una celda (Plaga de Seekers, Marea de Phantasm, Muro de Bulwarks y las demás contra Seekers, Phantasm, Bulwarks, Goombahs, Crystalys o la Dormant Force), y ninguna de las misiones de los niveles 1 a 8. Una misión con límite de tiempo o de casco tampoco las cuenta. No dan puntos de reinicio, ni línea de clan, ni puntos de ranking.
 
 ## Límites de tiempo {#time-limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7beeabf451d2e9a -->
+<!-- wiki-i18n source: 7141a7ef23591b4d -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -224,6 +224,7 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 - **En nedskjutning räknas för ett nivåuppdrag**: det du följer, om det kan använda den, annars det första av dina aktiva uppdrag som kan. Utöver det räknas den för varje Utmaning som kräver den, och varje uppdragsföremålssteg du har som väntar på den utomjordingen slår för sin tappning.
 - En utomjording som en [koncernpilot](/wiki/03-Mechanics/Company-Pilots.md) i din koncern gör slut på medan du strider mot den räknas som din nedskjutning, även för dina uppdrag.
 - En nedskjutning av någon i din [grupp](/wiki/03-Mechanics/Groups.md) räknas också för dina nivåuppdrag när du är på samma karta och har avfyrat en laser eller raket mot vad som helst de senaste 15 sekunderna. För Utmaningslinjen måste gruppmedlemmen dessutom vara inom 4 000 enheter från nedskjutningen.
+- **Skylabs expeditioner räknas för vissa steg.** De nedskjutningar som ditt [Skylab](/wiki/03-Mechanics/Skylab.md#expedition-kills) gör på en expedition för ett nedskjutningssteg framåt bara när steget **inte anger någon sektor**, upp till **250 nedskjutningar om dagen** (UTC) och bara nedskjutningar av den utomjording som steget anger. En cell är ingen sektor, så ett steg som anger en (`x-1` till `x-4`, `DS-x` eller `rival x-4`) räknar dem aldrig, inte heller i en cell med samma svårighet. I praktiken är det de stora jakterna i Utmaningslinjen vars utomjordingar finns i en cell (Seeker-pest, Phantasm-flod, Bulwark-muren och de andra mot Seeker, Phantasm, Bulwarks, Goombahs, Crystalys eller Dormant Force), och inget av uppdragen för nivå 1 till 8. Ett uppdrag med tidsgräns eller skrovgräns räknar dem inte heller. De ger inga wipe-poäng, ingen klanlinje och inga rankingpoäng.
 
 ## Tidsgränser {#time-limits}
 

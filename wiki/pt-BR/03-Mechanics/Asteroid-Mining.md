@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 245cebe02509293e -->
+<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
 <!-- wiki-i18n title: Mineração de asteroides -->
 # Mineração de asteroides {#asteroid-mining}
 
-**Asteroides** são grandes rochas que ficam no plano de voo dos setores das corporações e dos setores de perigo. Eles nunca se movem e nunca atiram. Quebre um com **foguetes** ou **lasers** e ele se despedaça em pequenos **fragmentos** de créditos, Thulium e minério, que você pega como [carga](/wiki/03-Mechanics/Cargo.md). Os foguetes são a ferramenta para o trabalho: seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave, e os drones não fazem nada com ele.
+**Asteroides** são grandes rochas que ficam no plano de voo dos setores das corporações e dos setores de perigo. Eles nunca se movem e nunca atiram. Quebre um com **foguetes** ou **lasers** e ele se despedaça em pequenos **fragmentos** de créditos, Thulium e minério, que você pega como [carga](/wiki/03-Mechanics/Cargo.md). Os foguetes são a ferramenta para o trabalho: seus lasers também danificam um asteroide, mas só com 5% do que fazem a uma nave, e os drones não fazem nada com ele. Mais uma coisa quebra asteroides por você: um P.E.T. **Mole** acoplado ([abaixo](#the-mole-pet)).
 
 A mineração é um trabalho diferente da caça, não um substituto dela: não dá XP, honra nem pontos de ranking, e os foguetes que você dispara custam créditos ou Thulium. O que ela dá são créditos e Thulium, minério para a [Forja](/wiki/06-Items/Forge.md) e para fabricar sem lutar, e um trabalho que um [grupo](/wiki/03-Mechanics/Groups.md) pode dividir. Ela paga bem: pelo modelo do próprio jogo, uma hora nos asteroides certos com o foguete certo rende de 2,6 a 6,8 vezes a melhor hora de caça do seu nível, depois de pagos os foguetes. Os limites diários de [Os mundos](#the-worlds) a seguram, e você os alcança logo: em Alpha, um minerador constante em um bom setor chega ao limite de Thulium em menos de 2 horas e ao de créditos em cerca de 2,7 horas.
 
@@ -26,7 +26,7 @@ A mineração é um trabalho diferente da caça, não um substituto dela: não d
 
 ## Cobertura {#cover}
 
-Um asteroide é cobertura. **O primeiro asteroide no caminho de um tiro recebe o tiro.** Uma rajada de laser, um foguete ou a explosão de um foguete de área, disparados contra um piloto, um alienígena ou outro asteroide, são detidos pelo primeiro asteroide na linha reta do atirador até o alvo: o alvo não sofre nada e o asteroide recebe o impacto. Assim você pode se esconder atrás de um asteroide, de pilotos e de alienígenas. Uma trava não é um tiro e não é detida: você pode travar um piloto atrás de um asteroide, mas seus lasers vão atingir o asteroide.
+Um asteroide é cobertura. **O primeiro asteroide no caminho de um tiro recebe o tiro.** Uma rajada de laser, um foguete ou a explosão de um foguete de área, disparados contra um piloto, um alienígena ou outro asteroide, são detidos pelo primeiro asteroide na linha reta do atirador até o alvo: o alvo não sofre nada e o asteroide recebe o impacto. Assim você pode se esconder atrás de um asteroide, de pilotos e de alienígenas. Uma trava não é um tiro e não é detida: você pode travar um piloto atrás de um asteroide, mas seus lasers vão atingir o asteroide. Uma [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) detém os disparos do mesmo modo, de qualquer um dos lados.
 
 - **De dentro.** Uma nave cujo meio está dentro de um asteroide atinge esse asteroide com todo tiro, aonde quer que mire.
 - **O que é detido.** Toda rajada de laser e todo foguete de um piloto, de um alienígena (as naves de enxame, os Clan Warden, os Slumbering Void) e de um piloto de corporação, o N.U.K.E. incluído. Duas coisas passam por cima dos asteroides: o [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) e os canhões do Dormant Swamp. Habilidades como Venom e o buraco negro não são tiros.
@@ -41,9 +41,20 @@ Nada é pago quando um asteroide quebra. Ele se desfaz em destroços e lança al
 
 Um asteroide maior deixa mais peças (a coluna Fragmentos de dinheiro de Os tipos: os créditos e o Thulium vêm em tantas peças, e o minério em mais uma). Depois de uma coleta, sua nave segue sozinha para o próximo fragmento de um asteroide próximo que você pode pegar; qualquer ordem de movimento sua a interrompe.
 
+A partir do nível 2 das rochas, uma quebra também pode deixar um **Cluster Chunk** inteiro, no bloco de minério do grupo que causou mais dano: um **Regular Cluster Chunk** a partir do nível 2, um **Mythical Cluster Chunk** a partir do nível 3 e um **Legendary Cluster Chunk** a partir do nível 4; a Motherlode os dá com mais frequência. As chances estão em [Recursos](/wiki/06-Items/Resources.md#regular-cluster-chunk). A sorte não as muda, nem a de um P.E.T. Com uma Orvium Reinforced Plate, um chunk vira um [P.E.T.](/wiki/03-Mechanics/Pets.md) no Berço do hangar.
+
 ## Quem fica com os fragmentos {#who-gets-the-chunks}
 
-Um asteroide é trabalho compartilhado: qualquer número de pilotos pode atingi-lo, com foguetes ou lasers, e os fragmentos vão pelo dano que cada um causou, não por quem atira primeiro ou por último. A linha de dano da janela do alvo mostra quem causou quanto e o que já tinha sido causado antes de você chegar. Os créditos e o Thulium de uma quebra são sorteados uma vez e divididos pelo dano; o minério é dividido entre os pilotos que mais causaram dano; os achados raros vão para quem mais causou. Um piloto que causou menos que a parte indicada em As regras não recebe nada, e o Registro do jogo diz isso. Os fragmentos são colocados para cada piloto pago e ficam reservados por um tempo para ele e seu clã, depois livres para todos.
+Um asteroide é trabalho compartilhado: qualquer número de pilotos pode atingi-lo, com foguetes, lasers ou os pulsos de um Mole, e os fragmentos vão pelo dano que cada um causou, não por quem atira primeiro ou por último. A linha de dano da janela do alvo mostra quem causou quanto e o que já tinha sido causado antes de você chegar. Os créditos e o Thulium de uma quebra são sorteados uma vez e divididos pelo dano; o minério é dividido entre os pilotos que mais causaram dano; os achados raros vão para quem mais causou. Um piloto que causou menos que a parte indicada em As regras não recebe nada, e o Registro do jogo diz isso. Os fragmentos são colocados para cada piloto pago e ficam reservados por um tempo para ele e seu clã, depois livres para todos.
+
+## O P.E.T. Mole {#the-mole-pet}
+
+Um **Mole** acoplado (um tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) trabalha para você enquanto você voa: a cada 3 segundos ele dá um pulso no asteroide mais próximo dentro de cerca de cinco comprimentos de nave e meio da sua nave, até quebrar, e então pega o próximo. Os pulsos entram no dano do asteroide em seu nome, então uma quebra paga você como se a tivesse feito com um foguete: os fragmentos, os achados, a chance de um Cluster Chunk e a sua missão de asteroides.
+
+- **Quanto ele quebra.** Um Mole no topo (um Legendary de nível 20) quebra pelo menos tantos asteroides por hora quanto um piloto que atira neles o melhor foguete, Rivet III, e os graus e níveis mais baixos, menos ([a tabela](/wiki/03-Mechanics/Pets.md#how-strong)). Não usa munição nem foguetes. Seus lasers, foguetes, amplificadores, boosters, formação e o Dano dos seus P.E.T.s não mudam um pulso, e a armadura atrasa um pulso como atrasa um foguete.
+- **Quais asteroides.** O mais próximo ao alcance que ninguém além de você e do seu grupo tenha atingido e que nenhum outro asteroide nem Energetic Wall cubra. Nunca trabalha a Motherlode, e não trabalha numa zona segura, camuflado, enquanto você salta nem enquanto a sua nave está destruída.
+- **Sem limite próprio.** Um Mole trabalha todas as horas em que você voa, você mexa nas teclas ou não (uma nave parada é um alvo), e nenhum limite diário o para. Fica o que para todo mundo: os limites de Thulium e de créditos de [Os mundos](#the-worlds), que um Mole no topo que nunca para alcança depois de cerca de 2 a 6 horas de trabalho. Depois disso, os fragmentos dele pagam só o que sobra sob os limites.
+- **Só um trabalha.** Dos Moles da sua Station só o mais forte trabalha; os outros só dão bônus.
 
 ## As regras {#the-rules}
 

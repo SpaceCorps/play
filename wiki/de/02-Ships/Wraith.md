@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d13345263aa1a6a -->
+<!-- wiki-i18n source: 9c75311ce44403c5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -48,4 +48,4 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 
 ## Hintergrund {#lore}
 
-Die Wraith, ein Schlachtschiff aus geheimer Black-Ops-Forschung, ist der Gipfel des Großkampfschiffbaus. Ihr Antrieb aus Dunkler Materie und ihre dichten Energienetze erlauben es ihr, mehrere Hochleistungs-Laserbänke gleichzeitig zu betreiben. Sie ist extrem selten und teuer, und schon der Anblick einer Wraith auf den Sensoren genügt, damit selbst die erfahrensten Piratenkapitäne umkehren. Sie verlässt die Montage in schlichtem Grau, und ihre Designs ebenso.
+Die Wraith, ein Schlachtschiff aus geheimer Black-Ops-Forschung, ist der Gipfel des Großkampfschiffbaus. Ihr Antrieb aus Dunkler Materie und ihre dichten Energienetze erlauben es ihr, mehrere Hochleistungs-Laserbänke gleichzeitig zu betreiben. Sie ist extrem selten und teuer, und schon der Anblick einer Wraith auf den Sensoren genügt, damit selbst die erfahrensten Piratenkapitäne umkehren. Sie verlässt die Montage in schlichtem Grau, und ihre Designs ebenso, bis ein Skin sie lackiert.

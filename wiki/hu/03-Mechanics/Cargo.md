@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b6f8831b3da223b2 -->
+<!-- wiki-i18n source: 6be933cc7ba8434b -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -30,6 +30,7 @@ A láda fényei a benne lévő legritkább tárgy színét öltik: kékeszöld a
 - Amit felveszel, egyenesen a hangár leltárába kerül, az adott tárgy szabad kötegére (sosem felszerelésre, sem a tranzittárolóban lévő tárgyra). Egy felugró értesítés megmondja, mit kaptál; az egymás után felvett ládák ugyanabban az értesítésben összeadódnak.
 - Amit felveszel, az **eladható**: eladhatod az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
 - Ha egy [aszteroida](/wiki/03-Mechanics/Asteroid-Mining.md) egy darabja a tiéd, a hajód magától átmegy a következő elérhető darabra, amelyet felvehetsz; bármelyik mozgásparancsod megállítja.
+- **A Retriever felvesz helyetted.** Egy dokkolt [Retriever](/wiki/03-Mechanics/Pets.md#the-retriever) P.E.T. kattintás nélkül veszi fel a ládákat, saját hatótávon belül (a leggyengébbnél 255 egység, egy 20. szintű Legendarynél 880, a te saját felvételed 200), a legközelebbit először, és **egyszerre egyet, fél másodperc alatt egyet**: soha nem gyorsabb egy kéznél. Csak azt veszi fel, amit te magad is felvehetsz: egy másik pilótának lefoglalt láda megvárja, míg lejár az ideje, más pilóta [privát ládájához](#private-boxes) pedig soha nem nyúl. Addig dolgozik, amíg biztonságos zónán kívül repülsz, akár ott vagy a gépnél, akár nem, de nem akkor, amikor álcázva vagy vagy ugrasz, így soha nem szakít meg álcázást. Nem folyamatos művelet: semmilyen sáv nem telik meg, és soha nem akadályozza a saját felvételeidet és az ugrásaidat, az a láda pedig, amelyet kézzel veszel fel, rád marad. Ha a kezed és a Retrievered egyszerre éri el ugyanazt a ládát, pontosan az egyik kapja meg. A Retriever felvétele a felvétel hangja helyett egy saját kis csippanást játszik le.
 
 ## Kié {#who-gets-it}
 
@@ -46,9 +47,9 @@ Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmánya n
 - **Csak te látod, és csak te veheted fel.** A klánod és a csoportod nem látja, és nem veheti fel; mindenki más számára egyszerűen nincs ott. A képernyődön egy vékony gyűrű van alatta.
 - **10 percig áll** a kilövéstől számítva, és végig a tiéd: nincs 30 másodperces várakozás. Utána elsodródik, mint bármelyik láda. A Játéknapló megmondja a zsákmányból járó részedet, amikor az őrző elesik.
 - **Nem szorít ki más ládákat.** A privát ládáknak saját készletük van a térkép 64 ládája mellett (legfeljebb 32), így egy őrző kilövése soha nem veszi el egy másik láda helyét, és egy tele térkép miatt soha nem veszíted el a ládádat.
-- A felvétel ugyanaz, mint bármelyik ládánál ([fent](#collecting)): a hajód odarepül, a felvétel fél másodpercig tart.
+- A felvétel ugyanaz, mint bármelyik ládánál ([fent](#collecting)): a hajód odarepül, a felvétel fél másodpercig tart. A Retrievered a te privát ládáidat is felveszi, és senki másét nem.
 
 ## Boosterek {#boosters}
 
-- A **Loot Luck Booster** (és az állandó Luck Boost buff) növeli minden zsákmánybejegyzés esélyét, amikor a kilövő a kilövést végrehajtja.
-- A **Resource Magnet Booster** **25%**-kal növeli az általad felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit, így öt N.I.K.E. mindenkinek tíz Dark Matter.
+- A **Loot Luck Booster** (és az állandó Luck Boost buff, valamint a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) szerencséje) növeli minden zsákmánybejegyzés esélyét, amikor a kilövő a kilövést végrehajtja.
+- A **Resource Magnet Booster** **25%**-kal növeli az általad kézzel vagy Retrieverrel felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit, így öt N.I.K.E. mindenkinek tíz Dark Matter.

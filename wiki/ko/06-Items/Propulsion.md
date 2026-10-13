@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1433a0058afe39fa -->
+<!-- wiki-i18n source: 526e241c3b279356 -->
 <!-- wiki-i18n title: 추진 장치 -->
 # 추진 장치와 속도 {#propulsion-speed}
 
@@ -20,16 +20,16 @@
 
 ```tree
 Engine I | engine, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#engines
-Engine II | engine, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
-Engine III | engine, rare | craft 2000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
+Engine II | engine, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Engine I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#engines
+Engine III | engine, rare | craft 4000 Thulium, 90 s | research 10800 s, 10800 science | 1 Engine II, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#engines
 Impulse Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
 Momentum Thruster I | thruster, shoddy | buy 20000 Credits | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster II | thruster, common | craft 1000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 10 Ship Fragment, 1 Power Core, 2 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster III | thruster, rare | craft 1500 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 30 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
-Impulse Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
-Momentum Thruster IV | thruster, epic | craft 2000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 60 Ship Fragment, 3 Power Core, 3 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Impulse Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster II | thruster, common | craft 2000 Thulium, 60 s | research 1800 s, 1800 science | 1 Momentum Thruster I, 60 Ship Fragment, 1 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Impulse Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster III | thruster, rare | craft 3000 Thulium, 60 s | research 10800 s, 10800 science | 1 Momentum Thruster II, 80 Ship Fragment, 4 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Propulsion.md#thrusters
+Impulse Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Impulse Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
+Momentum Thruster IV | thruster, epic | craft 4000 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Momentum Thruster III, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate | /wiki/06-Items/Propulsion.md#thrusters
 
 Engine I => Engine II => Engine III
 Impulse Thruster I => Impulse Thruster II => Impulse Thruster III => Impulse Thruster IV
@@ -47,7 +47,7 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 | **Engine II** | 일반 | +4 | +4% | -8% | 2 | Afterburner II | 제작 전용 |
 | **Engine III** | 희귀 | +6 | +5% | -15% | 3 | Afterburner III | 제작 전용 |
 
-**Engine II**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I을 재료로, 1,000 Thulium, Ship Fragment 10개, Power Core 1개, Velkonite Reinforced Plate 2개를 들여 만듭니다. **Engine III**는 같은 곳에서 Engine II를 재료로, 2,000 Thulium, Ship Fragment 60개, Power Core 3개, 그리고 Dark Matter Plate 3개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 둘 다 소모한 엔진의 인챈트 등급을 그대로 이어받으며, 보너스는 다시 굴립니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 소모할 엔진을 떼어 내세요(그 안의 추진기도 꺼내야 합니다). 장착되어 있거나 추진기가 들어 있는 엔진은 소모되지 않습니다.
+**Engine II**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I을 재료로, 2,000 Thulium, Ship Fragment 60개, Power Core 1개, Velkonite Reinforced Plate 4개를 들여 만듭니다. **Engine III**는 같은 곳에서 Engine II를 재료로, 4,000 Thulium, Ship Fragment 110개, Power Core 5개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 둘 다 소모한 엔진의 인챈트 등급을 그대로 이어받으며, 보너스는 다시 굴립니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 소모할 엔진을 떼어 내세요(그 안의 추진기도 꺼내야 합니다). 장착되어 있거나 추진기가 들어 있는 엔진은 소모되지 않습니다.
 
 엔진의 실드 보너스는 아이템 데이터에 들어 있지만 게임에서는 한 번도 적용된 적이 없습니다. 엔진은 실드를 약하게 만들지 않으며, 아이템 카드에도 표시되지 않습니다.
 
@@ -86,7 +86,7 @@ Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하�
 
 추진기의 속도 배율에 붙는 [대장간](/wiki/06-Items/Forge.md) 보너스는 1을 넘는 부분을 키웁니다(1.0935x에 +15% 보너스가 붙으면 1.1075x). 대장간은 배율이 1.05x 이하인 곳에는 보너스를 붙이지 않습니다. Impulse Thruster의 1.017x~1.02975x에 붙여도 늘어나는 것은 0.005 미만입니다(1.02975x에 +15%면 1.034x). Impulse Thruster는 보너스를 1개(고정 속도) 가지며, Momentum Thruster는 2개를 가집니다.
 
-각 계열의 티어 I은 20,000 크레딧에 판매합니다. 티어 II~IV는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 같은 계열의 한 티어 아래 추진기를 재료로, Thulium, 드롭 아이템, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate 2개와 4개, 티어 IV에는 Dark Matter Plate 3개)를 들여 만듭니다(Impulse Thruster I로 Impulse Thruster II, II로 III, III으로 IV). 추진기는 계열을 바꾸지 않으므로, Impulse와 Momentum 중 어느 쪽인지는 티어 I을 살 때 고릅니다. 모두 소모한 추진기의 인챈트 등급을 그대로 이어받으며, 보너스는 다시 굴립니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 추진기는 [능력 슬롯](/wiki/03-Mechanics/Abilities.md)에 들어가지 않으며, 엔진과 적응형 코어 안에 장착합니다.
+각 계열의 티어 I은 20,000 크레딧에 판매합니다. 티어 II~IV는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 같은 계열의 한 티어 아래 추진기를 재료로, Thulium, 드롭 아이템, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate 각각 4개, 티어 IV에는 Dark Matter Plate 4개와 Ancient Control Unit 1개)를 들여 만듭니다(Impulse Thruster I로 Impulse Thruster II, II로 III, III으로 IV). 추진기는 계열을 바꾸지 않으므로, Impulse와 Momentum 중 어느 쪽인지는 티어 I을 살 때 고릅니다. 모두 소모한 추진기의 인챈트 등급을 그대로 이어받으며, 보너스는 다시 굴립니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 추진기는 [능력 슬롯](/wiki/03-Mechanics/Abilities.md)에 들어가지 않으며, 엔진과 적응형 코어 안에 장착합니다.
 
 ### 외계인 따돌리기 {#outrunning-aliens}
 
