@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
+<!-- wiki-i18n source: c84ea450afa0dee6 -->
 <!-- wiki-i18n title: 소행성 채굴 -->
 # 소행성 채굴 {#asteroid-mining}
 
 **소행성**은 기업 섹터와 위험 섹터의 비행 평면에 놓여 있는 커다란 바위입니다. 움직이지도, 공격하지도 않습니다. **로켓**이나 **레이저**로 부수면 크레딧, Thulium, 광석이 든 작은 **조각**으로 터지며, [화물](/wiki/03-Mechanics/Cargo.md)처럼 주울 수 있습니다. 이 일에 맞는 도구는 로켓입니다. 레이저도 소행성에 피해를 주지만 함선에 주는 피해의 5%뿐이고, 드론은 아무 영향도 주지 못합니다. 하나 더, 나 대신 소행성을 부수는 것이 있습니다. 도킹 중인 **Mole** P.E.T.입니다([아래](#the-mole-pet)).
 
 채굴은 사냥과는 다른 일이지, 사냥을 대신하는 일이 아닙니다. 경험치와 명예와 랭킹 포인트를 주지 않으며, 쏘는 로켓에는 크레딧이나 Thulium가 듭니다. 대신 크레딧과 Thulium, 싸우지 않고 [대장간](/wiki/06-Items/Forge.md)과 제작에 쓰는 광석, 그리고 [그룹](/wiki/03-Mechanics/Groups.md)이 나눌 수 있는 일을 얻습니다. 벌이는 좋습니다. 게임 자체의 모델로는, 알맞은 소행성을 알맞은 로켓으로 캐는 1시간이 로켓값을 뺀 뒤에도 자신의 레벨에서 가장 좋은 사냥 1시간의 약 2.6~6.8배입니다. [월드](#the-worlds)의 하루 한도가 상한이 되고, 한도에는 금세 닿습니다. Alpha에서 좋은 섹터를 꾸준히 캐면 Thulium 한도에는 2시간이 채 안 걸리고 크레딧 한도에는 약 2.7시간이 걸립니다.
+
+![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
 ## 소행성이란 {#what-an-asteroid-is}
 
@@ -59,7 +61,7 @@
 ## 규칙 {#the-rules}
 
 <!-- asteroids-rules:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 - 소행성에 가한 피해의 5% 이상을 입힌 파일럿은 입힌 피해에 비례해 그 조각의 몫을 받습니다. 아무도 5%에 이르지 못하면 가장 많이 입힌 파일럿이 전부 받습니다.
 - [그룹](/wiki/03-Mechanics/Groups.md#sharing-kills)은 파일럿 한 명으로 계산되며, 그 몫은 가까이에서 쏘는 그룹원끼리 레벨에 따라 나뉩니다.
@@ -80,7 +82,7 @@
 Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 있습니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 그래서 내 월드에서 부순 소행성은 다른 월드에서는 부서지지 않은 채입니다. 더 큰 월드일수록 선체와 보상이 더 큽니다.
 
 <!-- asteroids-worlds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | 월드 | 선체 | 보상 배율 | Thulium 한도 | 크레딧 한도 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -97,7 +99,7 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 세 기업의 본거지 섹터와 위험 섹터에는 모두 소행성이 있으며, 섹터마다 구성이 다릅니다. 대개 그 링의 종류이고, 한 단계 위나 아래 링에서 온 손님이 한두 종류 섞입니다. 어떤 게이트도 이어지지 않는 중립 섹터에는 없습니다. 위험 섹터의 소행성은 표에 적힌 시즌 일차부터 나타나는데, PvP가 열리는 날입니다([첫 접촉](/wiki/03-Mechanics/Wipe-Timeline.md)). 나머지는 첫날부터 있습니다. 부서진 뒤에는 그 섹터 줄에 적힌 시간이 지나면 같은 종류의 새 소행성이 자랍니다. 시즌 첫날부터 빛나는 펄서 가까이에는 소행성이 없고, 시즌 11일차부터는 거대 굴착기와 Dormant Swamp 중심 가까이에도 없으며([위험 섹터](/wiki/01-General/Danger-Sectors.md#where-everything-is)), 이벤트 2가 시작될 때 그곳에 있던 바위는 사라집니다.
 
 <!-- asteroids-maps:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | 섹터 | 소행성 | 시작 일차 | 복귀 | 종류 |
 | :--- | ---: | ---: | ---: | :--- |
@@ -123,7 +125,22 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 ## 종류 {#the-kinds}
 
 <!-- asteroids-kinds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+
+### 티어와 P.E.T. 부품 {#tiers-and-pet-parts}
+
+소행성의 **티어**는 그 종류가 속한 섹터 링을 뜻합니다. 티어 1~4는 세 기업의 섹터 x-1~x-4이고, 티어 5는 위험 섹터입니다. 티어는 크기에 따라 올라갑니다. 소행성이 클수록 티어가 높습니다. 하지만 둘이 같지는 않아서, 대부분의 티어에는 두 가지 크기가 있으며 표에 나와 있습니다. 대상 창과 마우스를 올렸을 때 나오는 카드에는 소행성의 계열, 크기, 티어가 표시됩니다.
+
+티어는 별도의 전리품도 결정합니다. **P.E.T. 부품**은 [P.E.T.](/wiki/03-Mechanics/Pets.md) 요람이 받는 Cluster Chunk입니다. 표에는 부서진 소행성이 각 등급을 남길 확률이 나와 있습니다(대시: 절대 없음). 티어 1의 소행성은 아무것도 남기지 않습니다. 등급마다 소행성 하나가 부서질 때 한 번씩 굴리며, 피해를 가장 많이 입힌 파일럿이 청크를 통째로 받고, 행운은 확률을 바꾸지 않습니다. Motherlode는 확률이 따로 있습니다. 소행성을 선택하면 대상 창에 그 종류의 P.E.T. 부품이 나열됩니다.
+
+| 티어 | 섹터 | 크기 | 종류 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| 1 | `x-1` | 극소, 소형 | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
+| 2 | `x-2` | 소형, 중형 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
+| 3 | `x-3` | 중형 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
+| 4 | `x-4` | 중형, 대형 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
+| 5 | 위험 섹터 | 대형 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
+| 5 | 위험 섹터 | 초대형 | Motherlode | 25% | 8% | 3% |
 
 소행성은 8개 계열에 27가지 종류가 있습니다. **대응 로켓**은 그 종류에 맞춰 균형이 잡힌 로켓과, Alpha에서 부수는 데 대략 몇 발이 드는지입니다. **획득물**은 부서질 때 추첨되어 그 조각들이 나누어 갖는 광석과 희귀한 획득물입니다. 퍼센트는 그 줄의 확률이고, 다른 줄은 항상 나옵니다. 크레딧과 Thulium는 부서질 때의 Alpha 기준 양입니다.
 
@@ -131,84 +148,84 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 
 평범한 바위: 장갑도 약점도 없습니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Pebble** | 8,500 | 극소 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 6,600–11,100 | 22% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Cobble** | 10,000 | 소형 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 6,300–10,500 | 25% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Dark Chondrite** | 12,000 | 소형 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 3발 | 7,050–11,850 | 65% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
-| **Vein Rock** | 18,000 | 소형 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 13,350–22,200 | 50% 확률로 3–9개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
-| **Slag Block** | 24,000 | 중형 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 18,600–31,050 | 50% 확률로 3–9개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
-| **Cataclast** | 36,000 | 중형 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 8발 | 22,350–37,200 | 50% 확률로 6–15개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
-| **Lode Rock** | 52,000 | 중형 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 34,950–58,200 | 50% 확률로 18–39개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3`, `G-4` |
-| **Cataclysite Mass** | 72,000 | 대형 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 10발 | 44,700–74,550 | 50% 확률로 21–45개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
-| **Rich Lode** | 80,000 | 대형 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 61,800–103,050 | 50% 확률로 39–90개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Pebble** | 8,500 | 극소 | 1 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 6,600–11,100 | 22% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Cobble** | 10,000 | 소형 | 1 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 6,300–10,500 | 25% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Dark Chondrite** | 12,000 | 소형 | 2 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 3발 | 7,050–11,850 | 65% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
+| **Vein Rock** | 18,000 | 소형 | 2 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 13,350–22,200 | 50% 확률로 3–9개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
+| **Slag Block** | 24,000 | 중형 | 3 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 18,600–31,050 | 50% 확률로 3–9개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
+| **Cataclast** | 36,000 | 중형 | 3 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 8발 | 22,350–37,200 | 50% 확률로 6–15개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
+| **Lode Rock** | 52,000 | 중형 | 3 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 34,950–58,200 | 50% 확률로 18–39개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3`, `G-4` |
+| **Cataclysite Mass** | 72,000 | 대형 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 10발 | 44,700–74,550 | 50% 확률로 21–45개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
+| **Rich Lode** | 80,000 | 대형 | 5 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 61,800–103,050 | 50% 확률로 39–90개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 ### 얼음 {#ice}
 
 얼어붙은 바위: 장갑도 약점도 없습니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Rime** | 12,000 | 소형 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 8,250–13,800 | 55% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Rime** | 12,000 | 소형 | 1 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 8,250–13,800 | 55% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
 
 ### 수정 {#crystal}
 
 부서지기 쉬움: 범위 폭발이 수정 소행성에는 직격보다 더 큰 피해를 줍니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Glimmer** | 9,000 | 극소 | 폭발 ×1.6 | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 6,150–10,350 | 41% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
-| **Nyx Geode** | 26,000 | 중형 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 6발 | 16,650–27,750 | 50% 확률로 9–21개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
-| **Quorvium Boulder** | 48,000 | 중형 | 폭발 ×1.6 | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 7발 | 29,850–49,650 | 50% 확률로 12–30개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
-| **Prism Cluster** | 100,000 | 대형 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 71,700–119,550 | 50% 확률로 27–60개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Glimmer** | 9,000 | 극소 | 1 | 폭발 ×1.6 | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 6,150–10,350 | 41% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
+| **Nyx Geode** | 26,000 | 중형 | 2 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 6발 | 16,650–27,750 | 50% 확률로 9–21개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
+| **Quorvium Boulder** | 48,000 | 중형 | 4 | 폭발 ×1.6 | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 7발 | 29,850–49,650 | 50% 확률로 12–30개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
+| **Prism Cluster** | 100,000 | 대형 | 5 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 71,700–119,550 | 50% 확률로 27–60개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
 
 ### 잔해 {#salvage}
 
 잔해와 포드: Ship Fragment가 들어 있습니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Cache Pod** | 14,000 | 극소 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 6발 | 9,000–15,000 | 29% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
-| **Scrap Hulk** | 20,000 | 소형 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 12,150–20,250 | 92% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
-| **Derelict Hulk** | 52,000 | 중형 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 33,150–55,200 | 50% 확률로 9–18개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3` |
-| **Derelict Cruiser** | 72,000 | 대형 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 10발 | 46,200–76,950 | 50% 확률로 18–39개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Cache Pod** | 14,000 | 극소 | 1 | – | 1 | [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 6발 | 9,000–15,000 | 29% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
+| **Scrap Hulk** | 20,000 | 소형 | 2 | – | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 5발 | 12,150–20,250 | 92% 확률로 3개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
+| **Derelict Hulk** | 52,000 | 중형 | 3 | – | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 33,150–55,200 | 50% 확률로 9–18개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3` |
+| **Derelict Cruiser** | 72,000 | 대형 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 10발 | 46,200–76,950 | 50% 확률로 18–39개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
 
 ### 철 {#iron}
 
 장갑이 있음: 명중할 때마다 장갑 때문에 피해가 줄어, 선체에서 짐작하는 것보다 더 강한 로켓이 필요합니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ironhide** | 14,000 | 소형 | 장갑 500 | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 13,650–22,650 | 50% 확률로 3–9개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
-| **Plateback** | 36,000 | 중형 | 장갑 1,500 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 31,650–52,800 | 50% 확률로 9–18개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `G-3`, `M-4` |
-| **Anvil** | 80,000 | 대형 | 장갑 3,000 | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 84,900–141,450 | 50% 확률로 30–72개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ironhide** | 14,000 | 소형 | 2 | 장갑 500 | 1 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 4발 | 13,650–22,650 | 50% 확률로 3–9개 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
+| **Plateback** | 36,000 | 중형 | 3 | 장갑 1,500 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 11발 | 31,650–52,800 | 50% 확률로 9–18개 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `G-3`, `M-4` |
+| **Anvil** | 80,000 | 대형 | 4 | 장갑 3,000 | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 84,900–141,450 | 50% 확률로 30–72개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
 
 ### 보물 {#treasure}
 
 최고의 지급자: 모두 자기 링의 평균적인 소행성보다 더 많은 크레딧과 Thulium를 지급합니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 중형 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
-| **Thulium Cluster** | 100,000 | 대형 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
-| **Vault Rock** | 130,000 | 대형 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 101,400–169,050 | 50% 확률로 36–87개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
-| **Star Crystal** | 150,000 | 대형 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 21발 | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Thulium Geode** | 66,000 | 중형 | 3 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Cluster** | 100,000 | 대형 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
+| **Vault Rock** | 130,000 | 대형 | 4 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 101,400–169,050 | 50% 확률로 36–87개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
+| **Star Crystal** | 150,000 | 대형 | 5 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 21발 | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
 
 ### 유물 {#relic}
 
 죽은 무리 함선의 껍데기: 장갑이 있고 희귀한 획득물이 풍부합니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ancient Husk** | 120,000 | 대형 | 장갑 2,000 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 22발 | 114,300–190,350 | 50% 확률로 57–129개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ancient Husk** | 120,000 | 대형 | 5 | 장갑 2,000 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 22발 | 114,300–190,350 | 50% 확률로 57–129개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
 
 ### 타이탄 {#titan}
 
 가장 큰 소행성으로, 그룹을 위한 바위입니다.
 
-| 종류 | 선체 | 크기 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Motherlode** | 450,000 | 초대형 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 61발 | 348,900–581,400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Motherlode** | 450,000 | 초대형 | 5 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 61발 | 348,900–581,400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 <!-- asteroids-kinds:end -->
 

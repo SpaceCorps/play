@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Blindage de coque -->
 # Blindage de coque {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; blindage; emplacement de blindage; plaque de coque -->
 
 L’étude de l’essaim Dormant a montré des progrès dans la technologie du blindage. Grâce à elle, les vaisseaux peuvent améliorer leur coque : le **blindage de coque** est un blindage qui se monte dans un emplacement de plaque de coque d’un vaisseau fabriqué et lui ajoute des points de coque. Ce n’est pas le Hull Plating **Booster** de la page [Boosters](/wiki/06-Items/Boosters.md), un bonus temporaire.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

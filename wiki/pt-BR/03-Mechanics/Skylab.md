@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ No nível 15 do Núcleo, o Skylab cresce mais uma vez e aprende a voar: uma **se
 > [!NOTE]
 > **O que mudou na 0.4.21.** O passo do Núcleo do nível 14 para o nível 15 agora custa **4.000 Thulium** a mais, e quando termina aparecem uma segunda **ponte** e o **Núcleo 3** com quatro slots novos. A Usina solar se muda para o Núcleo 3 e produz mais energia a partir do nível 15, de modo que uma estação completa continua coberta. Quatro módulos novos ocupam os slots: o **Módulo de motores**, o **Módulo de defesa**, o **Módulo de radar** e a **Baía de troféus**, e com eles o seu Skylab voa pelo **mapa do universo**, caça por conta própria e traz o espólio para casa (veja [Expedições](#expeditions)). Cada módulo agora tem um **peso**, e o peso da estação e dos seus motores decide a velocidade com que ela voa (veja [Peso e velocidade](#weight-and-speed)). A **Baía de minério** move três vezes mais minério por hora e guarda três vezes mais cota. Nada do que você construiu se perde: um Núcleo que já está no nível 15 ou mais tem o Núcleo 3 na hora e não paga nada.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## Em um minuto {#in-one-minute}
 
@@ -624,12 +632,12 @@ Uma melhoria que já está em andamento quando os tempos mudam mantém o horári
 O seu Skylab tem um orçamento de energia limitado.
 
 - **Balanço**: mantenha a produção da Usina solar acima da energia que todos os outros módulos usam. A página do Skylab mostra o balanço e avisa antes que uma construção o empurre para abaixo de zero.
-- **A Usina solar acompanha**: uma Usina solar de nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa e a Baía de minério) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa de Usina solar 7 e está coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar precisa continuar subindo com o resto. O Núcleo consome pouco, então pode ir na frente: Usina solar 5 ou mais cobre uma estação completa no nível dela com o Núcleo em qualquer nível. A tabela abaixo também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10, e os módulos de motores, de defesa e de radar e a Baía de troféus a partir do nível 15, cada um no máximo no seu próprio nível máximo.
+- **A Usina solar acompanha**: uma Usina solar de nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa e a Baía de minério) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa de Usina solar 7 e está coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar precisa continuar subindo com o resto. O Núcleo consome pouco, então pode ir na frente: Usina solar 5 ou mais cobre uma estação completa no nível dela com o Núcleo em qualquer nível. A tabela abaixo também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10, e os módulos de motores, de defesa e de radar e a Baía de troféus a partir do nível 11 (são construídos a partir do nível 15 do Núcleo e contam quatro níveis antes, porque o Núcleo pode estar à frente da Usina solar), cada um no máximo no seu próprio nível máximo.
 - **Estado ativo**: você pode ligar e desligar as minas, os coletores e a Forja para gerenciar a energia. O Núcleo, a Usina solar, o Depósito de recursos e o Centro de Pesquisa sempre funcionam. A Impressora de munição, a Fábrica de foguetes e a Baía de minério também podem ser ligadas e desligadas, e os quatro módulos da Expedição também (não enquanto uma viagem está em andamento).
 - **Déficit de energia**: se o consumo de energia superar a produção, todas as minas e coletores param de produzir até o equilíbrio voltar. O que já guardam fica, e você ainda pode coletar. A Forja não começa nenhum lote novo e o Centro de Pesquisa nenhuma pesquisa nova (uma pesquisa já em andamento continua). A Impressora de munição, a Fábrica de foguetes e a Baía de minério param como as minas e os coletores. O Módulo de defesa não combate nada, os escaneamentos do radar ficam parados e nenhuma viagem pode começar (uma viagem em andamento continua).
 - **Melhoria da Usina solar**: enquanto é melhorada, a Usina solar produz só um quarto da sua energia, então, se os seus outros módulos não estiverem bem abaixo, a estação entra em déficit e as minas e os coletores param até a melhoria terminar (veja [Módulo Usina solar](#solar-module)).
 
-A energia da Usina solar em cada nível, em relação ao que os outros módulos consomem no mesmo nível (todos os módulos naquele nível, o Núcleo incluído, e o Centro de Pesquisa e a Baía de minério a partir do nível 10, e os quatro módulos da Expedição a partir do nível 15):
+A energia da Usina solar em cada nível, em relação ao que os outros módulos consomem no mesmo nível (todos os módulos naquele nível, o Núcleo incluído, e o Centro de Pesquisa e a Baía de minério a partir do nível 10, e os quatro módulos da Expedição a partir do nível 11):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ A energia da Usina solar em cada nível, em relação ao que os outros módulos 
 | 8 | 1.185 | 1.076 | 109 | 965: faltam 111 |
 | 9 | 1.460 | 1.327 | 133 | 1.185: faltam 142 |
 | 10 | 2.035 | 1.849 | 186 | 1.460: faltam 389 |
-| 11 | 2.490 | 2.260 | 230 | 2.035: faltam 225 |
-| 12 | 3.055 | 2.774 | 281 | 2.490: faltam 284 |
-| 13 | 3.765 | 3.421 | 344 | 3.055: faltam 366 |
-| 14 | 4.660 | 4.235 | 425 | 3.765: faltam 470 |
-| 15 | 6.325 | 5.748 | 577 | 4.660: faltam 1.088 |
+| 11 | 2.995 | 2.721 | 274 | 2.035: faltam 686 |
+| 12 | 3.565 | 3.241 | 324 | 2.995: faltam 246 |
+| 13 | 4.285 | 3.893 | 392 | 3.565: faltam 328 |
+| 14 | 5.185 | 4.713 | 472 | 4.285: faltam 428 |
+| 15 | 6.325 | 5.748 | 577 | 5.185: faltam 563 |
 | 16 | 7.765 | 7.055 | 710 | 6.325: faltam 730 |
 | 17 | 9.585 | 8.711 | 874 | 7.765: faltam 946 |
 | 18 | 11.895 | 10.812 | 1.083 | 9.585: faltam 1.227 |
@@ -712,7 +720,7 @@ Enquanto a Usina solar é melhorada, ela produz um quarto da própria energia, e
 | 9 a 10 | 3 h | 3 | 29.250 | 912 |
 | 10 a 11 | 4 h | 5 | 45.000 | 1.440 |
 | 11 a 12 | 5 h | 6 | 67.500 | 2.200 |
-| 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
+| 12 a 13 | 6 h | 7 | 99.000 | 3.120 |
 | 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 a 16 | 12 h | 9 | 306.000 | 9.120 |

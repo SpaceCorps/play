@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.22 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.22: Adds Turkish as the 13th language, makes the P.E.T.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.22.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.22.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.22 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.22: Adds Turkish as the 13th language, makes the P.E.T.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.22.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.22 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.22",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.22.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.22.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.22.html",
+      "name": "SpaceCorps 2027 0.4.22 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.22: Adds Turkish as the 13th language, makes the P.E.T.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-15"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.22.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.22" aria-labelledby="v0.4.22-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.22-title">0.4.22 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-10-15" data-date>15 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.22">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.22 adds Turkish as the 13th language, makes the P.E.T. Station an Extra with an ON and OFF switch (your P.E.T.s are silent until one is fitted and ON) and the Energetic Wall a consumable like the EMP Charge, lets a group hold ten pilots, sends a Crystalys with every Clan Warden's waves and puts every Warden after the pilot who hit it, fixes the Group window, the research queue and the Skylab's camera, and should fix the Windows 11 icon and alt-tab.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>Turkish (Türkçe) is the 13th language:</strong> the whole interface and all 61 wiki articles. It was written by AI and <strong>no native speaker has read it yet</strong>: tell us what reads wrong.</li><li><strong>The P.E.T. Station is an Extra.</strong> Fit it in an Extras slot and switch it ON or OFF with its PET slot on the hotbar. <strong>Your P.E.T.s are silent until a Station is fitted and ON:</strong> fit one after the update (if you had a Station, each ship you own got one). It is a docking ring on your hull; the ten P.E.T.s are small animated drones.</li><li><strong>The Energetic Wall is a consumable</strong> like the EMP Charge: a stack of up to 20 Wall I and 10 Wall II, one spent for each wall that stands. Your fitted and loose walls became one stack per level.</li><li><strong>A group holds ten pilots,</strong> up from five.</li><li><strong>All nine Clan Wardens</strong> send a Crystalys with each wave once under half their hull and fly at the pilot who hit them. <strong>They are harder:</strong> a Recruit Warden's best-case crew on x-2 grows from 28, 21 and 27 pilots to 43, 39 and 44.</li><li><strong>The Daily Clan Quest resets at 00:00 UTC</strong> for every clan, and so do the daily bonus and the Warden of the day.</li><li><strong>Private messages:</strong> <code>/m name text</code> (also <code>/msg</code> and <code>/w</code>), <code>/r text</code> answers.</li><li><strong>Inventory:</strong> drag a rectangle over empty space to select several items; a trash button deletes the selection after one question.</li><li><strong>Skylab:</strong> a better station view with a Labels switch; the Research tree scrolls to your pick and takes the arrow keys; the queue takes the Dark Matter of the whole queue; Solar makes 505 to 525 more power at levels 11 to 14.</li><li><strong>The Ammo Printer and the Rocket Factory</strong> stand on their pads. <strong>The pulsar</strong> is seen from anywhere on its map. <strong>The Swamp's turret rockets</strong> are 25 % faster and fly twice as far.</li><li><strong>The Target window</strong> shows an asteroid's tier and the chances of P.E.T. parts. <strong>Davidski's stock</strong> stands among the Auction's listings.</li><li><strong>Smaller:</strong> icon-only hotbar and Auction chips, the Shop's "Are you sure?" above ten, the clan on a Warden's kill feed line, a backup route to the server, fixes that should repair the Windows 11 icon and alt-tab, steadier Group window rows and six quiet sounds.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Update the game.</strong> A 0.4.14 to 0.4.21 game installs it as a patch when the job made one for it (a Linux AppImage game from 0.4.19), and downloads the whole package if not. A 0.4.13 or older game downloads the whole package.</li><li><strong>A 0.4.21 game keeps working but misses the new screens:</strong> its wall slot shows an infinity mark for your count, it has no PET slot (it can fit a Station but not switch it OFF), and a private message is an English line in its System tab. <strong>The rules change on the server at once.</strong></li><li><strong>Your P.E.T.s are silent until a Station is fitted and ON.</strong> If you had a Station you got an item of its level for each ship you own, loose in the inventory; with every Extras slot full, unfit something.</li><li><strong>Nothing you own is taken.</strong> Your Energetic Walls became one stack of each level. <strong>A wall stack is lost at the wipe unless it is in the Transport Cache</strong> (a wall fitted on your active ship survived it in 0.4.21).</li><li><strong>The Wardens are harder,</strong> and the clan day is shorter or longer once, at the update (below). New texts in other languages have had no native review.</li></ul>
+        <h3>Turkish</h3>
+        <ul><li><strong><code>tr</code>, Türkçe,</strong> is a language of its own in the language menu of the sign-in screens and in Settings &gt; General &gt; Interface Language; a computer set to Turkish starts the game in it.</li><li><strong>All of it:</strong> 8,288 messages (the same as English and every other language), the Help cards, the server's texts and the 61 wiki articles with their generated tables. The game's word list is written down in <code>docs/design/turkish-terms.md</code>; item, ship, alien and company names stay English, as in every language.</li><li><strong>The register is informal (sen)</strong> and the percent sign comes before the number (<code>%50</code>, <code>-%25 temel gövde</code>).</li><li><strong>How it was made:</strong> written by AI from the English, checked by tests (every message has its placeholders, no English is left, the Turkish letters and the dotted and dotless I are held) and by looking at screenshots. <strong>A native speaker has not read it.</strong> The places the writers were unsure of are listed for a proofreader in <code>docs/design/turkish-doubts.md</code>.</li></ul>
+        <h3>The P.E.T. Station</h3>
+        <ul><li><strong>An Extra, fitted on one ship's configuration:</strong> Station I, II and III hold 2, 3 and 5 docked pets. The three Station items are in the Extras picker, in the Hangar and in the Assembly like any Extra; research, recipes and prices are those of 0.4.21 (3 hours, 10 hours and a day of research; 100,000 Credits and 2,000 Thulium, 400,000 and 6,000, 1,500,000 and 18,000 to make). A Station II needs a Station I that you own, a III a II or better (carried, fitted or in the Transport Cache).</li><li><strong>ON and OFF:</strong> the <strong>PET</strong> slot of the hotbar switches the Station in flight and at once, one press a second, with a quiet sound of its own each way. ON is lit, OFF dim. <strong>The switch is yours and is kept</strong> when you land, die or sign in again. ON is where a Station starts.</li><li><strong>What you were given:</strong> each pilot who had a Station got <strong>one Station item of his level for each ship he owns</strong> (at least one), loose in the inventory; nothing is fitted for you, nothing is taken and your old install is left as it was.</li><li><strong>What counts:</strong> the boosts, the pets' EXP and the Mole's and the Retriever's work count only on a ship flying with a Station fitted and ON, and only for the first 2, 3 or 5 docked pets (the ones in the first places). <strong>A docked pet that does not count earns no EXP</strong>, as a stored pet earns none.</li><li><strong>The Hangar</strong> (landed) docks into the best Station you own (carried or fitted; not one in the Transport Cache), so you can arrange your pets before you fit one; the Hangar's P.E.T. page says "Not fitted" and "Not counted" where that is so.</li><li><strong>The Station is yours to keep:</strong> the wipe keeps the three Station items wherever they are, like drones and formations. They are not on the Auction.</li><li><strong>What you see:</strong> the Station is a <strong>docking ring</strong> over your hull with a berth for each place, and a berth lights in the colour of the pet docked in it. <strong>The ten P.E.T.s are ten small animated models</strong> (wings beat, legs walk, a hoop turns, claws dig); they fly out of their berths one after another when you switch ON and fly back and dock when you switch OFF, and the ring folds up dark on your own ship. Other pilots see your Station and your pets while it is ON (nobody sees an OFF Station but its owner). Reduce Motion takes the final state at once. At the default camera a pet is 4 to 6 pixels: zoom in. Low graphics draw a ring of light instead of the model.</li></ul>
+        <h3>The Energetic Wall</h3>
+        <ul><li><strong>A consumable, carried like a rocket:</strong> Wall I and Wall II are item type 23 like the EMP Charge, one stack for each level, on no ship and in no slot. <strong>Wall I:</strong> the Shop sells it for 250 Thulium a charge and stops at 20 carried (the card says "You carry N of 20"). <strong>Wall II:</strong> made in Assembly, <strong>600 Thulium, 5 Ship Fragments and 1 Power Core for each charge</strong>, after the same research (6 hours), up to 10 carried. It used to be a Wall I, 10 Ship Fragments, 2 Power Cores and 600 Thulium.</li><li><strong>A press spends one charge</strong> of the level the slot holds, and only when the wall actually stands: every refusal (a safe zone, a gate, a cloak, the 90 second wait) spends nothing and starts no wait. A slot holds a level and never falls back to the other one. At zero you are told "No Energetic Wall left." Pick them from the <strong>Consumables</strong> picker, which now lists the EMP Charge and both walls. The wall itself (360 units long, 10 wide, 30,000 and 90,000 hit points, 2,500 a second, gone in 60 seconds, at your cursor 120 to 450 units out) did not change.</li><li><strong>When the server starts,</strong> every wall you had (fitted, loose or in the Transport Cache) became one stack of its level, <strong>none lost</strong> (the step is refused if the count would change). A wall stack is lost at the wipe unless it is in the Transport Cache.</li><li><strong>The Auction:</strong> the Wall II is a kind (a lot of one, reference value 120,250, floor 61,000; it was 170,500 and 86,000) and the Wall I is never listed; Davidski's last-resort price of a Wall II falls with it, from 34,100,000 to 24,050,000 Credits. Five preset builds that fitted a wall (Iron Wall, Aegis, Bastion, Citadel, Leviathan) carry three with their rockets.</li></ul>
+        <h3>Groups of ten</h3>
+        <ul><li><strong>A group holds up to ten pilots</strong> (it held five): the Group window and the minimap show every member. Nothing changed on the wire except more rows.</li><li><strong>A kill's pay is shared by level</strong> among the members who fought it, as before. The pot is fixed, so ten members share what five did; <strong>the killer keeps the rounding remainder</strong> (a small Thulium or honor pot rounds to nothing for the mates).</li><li><strong>The Group window</strong> keeps its rows; with more than about seven members the list scrolls (or fold it to the strip, or drag any edge). On a 1024 by 640 screen its default height is shorter so that it never covers the hotbar's tabs. <strong>Its rows no longer jump.</strong> In a window narrower than about 239 points a mate's target stood beneath the bars and every row below moved 21 points whenever a mate selected a target or lost it: the room is always there now, so every mate's row is 21 points taller whether or not he shoots. At the default width the target stands beside the bars and the rows never moved; there the mates' bars are about 55 % of the column, with the room beside them.</li></ul>
+        <h3>The Clan Wardens</h3>
+        <ul><li><strong>Every Warden sends a Crystalys:</strong> all nine rows (Brood, Siege and Wrath, Recruit, Veteran and Elite) add one Crystalys to each wave once the Warden is under half its hull, as the Wrath Warden III did since 0.4.20. Waves keep their size and timing (3 alive, 60 seconds apart; the Wrath Warden III's 4 and 40 seconds); no hull, shield, damage or pay number moved.</li><li><strong>Every Warden flies at the pilot who hit it,</strong> each at its own speed (Brood 90, Siege 110, Wrath 90): the Brood Warden no longer stands still (its four drones go with it and keep healing it) and the Siege Warden, which roamed, now fires its Rivet at the pilot it chases. It lets go 10 seconds after the last hit and stands where it ended.</li><li><strong>They are harder.</strong> The model's best case (Alpha, the tier's own gear, x2 ammo) says the Crystalys takes the smallest crew on x-2 from 28, 21 and 27 pilots to 43, 39 and 44 for the Recruit Brood, Siege and Wrath Wardens, from 26, 19 and 25 to 39, 27 and 33 for the Veteran ones and from 18 and 22 to 21 and 26 for the Brood and Siege Wardens III (the Wrath Warden III had it already, at 32). The Recruit Wardens on x-4 need 69, 56 and 62, more than a level 3 clan's 50 (57, 52 and 56 before the Crystalys). <strong>No row needs more than a level 5 clan's 100.</strong> In Gamma, where the aliens of the waves are twice as strong, seven rows ask more than a level 3 clan's 50: the Brood Warden I on x-3 and x-4 (63 and 79), the Siege Warden I on x-4 (66), the Wrath Warden I on x-4 (73), the Brood Warden II on x-4 (58), the Wrath Warden II on x-4 (52) and the Wrath Warden III on x-4 (51). Nobody has played these fights.</li><li><strong>The kill feed names the clan:</strong> when a clan destroys its Warden the Global feed reads "Clan [TAG] Clan Name destroyed Brood Warden II" instead of one pilot. Pay and the clan line are unchanged.</li></ul>
+        <h3>The clan day</h3>
+        <ul><li><strong>The daily line rolls at 00:00:00 UTC</strong> for every clan at the same moment (it rolled at the time of day the season started). The countdown on the Operations tab, "Day n of 29", the daily bonus and the day's Warden follow it. A Warden of the day leaves at midnight and none is called in the last 30 minutes of the UTC day.</li><li><strong>At the update the running day keeps its number and its progress</strong> and ends at the next 00:00 UTC: it is shorter than 24 hours if the update lands after the season's old time of turn and longer if it lands before it. Every later day is exactly 24 hours. <strong>The last line (29) runs until the wipe's countdown begins.</strong> The season day (PvP, swarms, the wipe) is unchanged, so "Day 5" of a clan can read one ahead of the season's for some hours of a day.</li></ul>
+        <h3>Private messages</h3>
+        <ul><li><strong><code>/m name text</code></strong> (also <code>/msg</code> and <code>/w</code>) writes to one pilot who is online; <strong><code>/r text</code></strong> answers the last pilot who wrote to you (else the last you wrote to). It works in flight and at the station's chat dock.</li><li><strong>You see "To nova:" and "From nova:" in violet</strong> among the lines of the tab in view; an unread count lights the toolbar's Chat button, the dock and the sidebar's Messages row, and two quiet sounds tell sent from received. Right-click a name for Reply, Invite, Ignore and Report; <strong>Ignore hides a pilot's private messages</strong> and Report names the channel <code>private</code>.</li><li><strong>The chat's rules apply:</strong> 200 characters counting the command and the name, no links, the alphabet and spam rules and the send limit. The name must match exactly (never its beginning). An offline pilot is refused ("nova is offline."): nothing is stored. The server's log says who wrote to whom and how long it was, never the words.</li><li><strong>A 0.4.21 game</strong> is told the same line as "Private message from nova: text", in English, in its System tab; its own <code>/m</code> works.</li></ul>
+        <h3>The inventory</h3>
+        <ul><li><strong>Drag over empty space</strong> (the margin beside the tiles, a gap, the strip under the last row) to draw a rectangle: every tile it touches is selected as you drag. Shift, Ctrl or Cmd adds and toggles, Esc or a click on empty space clears, the list scrolls itself near its edge. The title row counts the selection ("9 selected") and has a clear button.</li><li><strong>The one action is a bulk delete:</strong> the trash button asks once, lists the items (six names, then "and 3 more"), and deletes them. <strong>It is the same delete as the per-tile trash</strong>; a stack of identical Extras goes whole. Items fitted in the Skylab cannot be selected. The tiles are about 6 pixels smaller to leave room at the sides. A very quiet tick sounds as the rectangle takes a tile (it follows Button Sounds).</li></ul>
+        <h3>The Skylab</h3>
+        <ul><li><strong>The station view.</strong> From the second Core on the camera opens at the angle that shows the whole station biggest (from the side of the chain), not end on; one Core keeps the classic angle. Picking a module frames it up close from its outer side; the idle turn is a sway of at most 32 degrees either way (about 20 on a Core 15) instead of a full turn; <strong>Reset View</strong> goes home.</li><li><strong>A Labels switch</strong> beside Reset View hides the module chips, the Core tags and the leader lines for a clean view. The "!" alerts (a full hopper, plates, ore for the Bay) and the dock row of modules not built yet stay. It is remembered on your computer.</li><li><strong>The Research tree.</strong> Clicking a technology brings its card into view (the card's top and buttons, so the queue stays in sight); picking from the queue, the running research's name or Open Research scrolls the tree to the node, and a filter that would hide your pick is let go. <strong>The tree is one Tab stop and takes the arrow keys</strong> (the nearest node; along a ship's ladder, the slots); Escape lets go of the keyboard and keeps the pick. A whole queue row picks, and a resize keeps the pick in view.</li><li><strong>The research queue and Dark Matter.</strong> The plug used to stop at the picked technology's own need, so five researches that need Dark Matter could never be covered. <strong>Add</strong> now fills the Research Centre up to the need of the whole queue plus the picked technology's, the queue card has an Add of its own, and each queued technology shows green with a check when its Dark Matter is covered or "Needs N more Dark Matter". <strong>A queue that stopped for Dark Matter starts by itself the moment you add what was missing.</strong> Take back works as before.</li><li><strong>Solar's table:</strong> entries 11 to 14 rise from 2,490, 3,055, 3,765 and 4,660 to 2,995, 3,565, 4,285 and 5,185 (<strong>+505, +510, +520, +525</strong>), so a Core 15 Skylab with the four expedition modules built no longer runs dark while Solar and the rest are still at 11 to 14. Nobody loses power; a producer that was dark resumes at the update.</li><li><strong>The Ammo Printer and the Rocket Factory</strong> stand on their pads at every level: the racks, halls, towers, cranes, fuel spheres, the great rocket and the Printer's drum no longer hang over the edge, and where a stage grows past its pad it has a foundation slab. Same footprint, same places for ports and chips.</li></ul>
+        <h3>Danger Sectors and asteroids</h3>
+        <ul><li><strong>The pulsar is seen from anywhere on its map.</strong> The picture of 0.4.21 stays whole to 5,100 units and fades by 6,500; beyond it a far star (a white-hot core, its two jets and a haze in the state's colour, a lighthouse swell twice a turn) shows when it is in the view, and a soft glow bleeds in from the screen's edge on its side when it is not. It is light only: nothing to click. Reduce Motion stops the breath and the swell.</li><li><strong>The Dormant Swamp's rocket turrets:</strong> the N.I.K.E. and the N.U.K.E. they fire are <strong>25 % faster</strong> (900 to 1,125 and 300 to 375 units a second) and <strong>their flight is twice as long</strong> (4,050 to 8,100 and 1,200 to 2,400 units; 7.2 and 6.4 seconds in the air). They start to fire at the same distance (3,640 and 1,080 units, inside the 4,300-unit zone); the rockets are still straight. A N.I.K.E. fired at a ship inside the zone now flies on to about 8,700 units from the swamp's middle, past the notice ring.</li><li><strong>Asteroids say their tier and their P.E.T. parts.</strong> The Target window and the hover card read "Iron · Medium · Tier 3" and a "P.E.T. parts" row ("Regular 0.8%, Mythical 0.15%", or "none" for tier 1). A tier is the ring of sectors a kind belongs to: tiers 1 to 4 are x-1 to x-4 and tier 5 the Danger Sectors. A Regular Cluster Chunk is 0.4 %, 0.8 %, 1 % and 1.2 % from tier 2 to 5, a Mythical one 0.15 %, 0.25 % and 0.3 % from tier 3, a Legendary one 0.03 % and 0.1 % from tier 4; the Motherlode 25 %, 8 % and 3 %. The Asteroid Mining page and its Help card say it.</li></ul>
+        <h3>The Auction, the Shop and the lists</h3>
+        <ul><li><strong>Davidski among the listings.</strong> His stock stands as rows in the Market, one for each item and currency (83 kinds make 166 rows), with a gold name and an NPC badge, sorted by price among the pilots', searchable and filterable like any listing; the separate Davidski tab is gone. Click a row for the details and Buy: prices, "last resort" badges and "can never be listed again" are as in 0.4.21, and a row looks the same whether he flies today or not.</li><li><strong>Icons only.</strong> The five picker buttons above the hotbar (Ammo, Rockets, Extras, Consumables, Formations) show an icon and a caret; hover for the name. The Auction's category chips are an icon and a number, on one row at 1280 by 720. <strong>Every kind of item has the same icon</strong> in the Hangar, the Auction, the Shop and the hotbar; the Hybrid Generators have a plug with a bolt (they looked like drones). The Hangar's chips were icons already; All and None stay words.</li><li><strong>The Shop asks "Are you sure?"</strong> before more than 10 of an item that is not a consumable is bought (laser amps, shield cells, lasers, drones, hull plating and so on): the sheet shows the item, how many and the total price; Cancel is the default, Escape cancels, and nothing answers it for 0.4 seconds. Ammo, rockets, the EMP Charge, boosters and resources never ask.</li></ul>
+        <h3>In flight and at the station</h3>
+        <ul><li><strong>The backup route.</strong> If the usual address does not answer within 6 seconds the game asks the backup address <code>https://play.spacecorps.xyz</code> as well and goes to the first that answers ("Trying another route…", then "Connected via backup route", also in Settings &gt; Account). <strong>The usual address is asked first at every start;</strong> an address you typed yourself is never replaced.</li><li><strong>The Windows 11 taskbar icon and alt-tab: two fixes that should work.</strong> The game now gives Windows its icon in the sizes the taskbar asks for, with its own taskbar identity and an application manifest; <strong>if you pinned the game to the taskbar, unpin it and pin the running game again once.</strong> When the window is minimised or alt-tabbed (a screen under 200 by 120 points) the HUD keeps its layout instead of squeezing every window into the corner and saving that. <strong>Neither has been tried on Windows 11 or on a real alt-tab:</strong> if it is still wrong, send <code>spacecorps2027.log</code> (the lines "taskbar identity:", "window icon:" and "window:").</li><li><strong>Spacing.</strong> The Recipe Book and Builds use the margins of the rest of the game: the list and the detail no longer touch the dividing line, cards stand 12 points apart like the Hangar's, and Builds' cost column ends at the window's edge.</li></ul>
+        <h3>What you see and hear</h3>
+        <ul><li><strong>Six new quiet sounds,</strong> each with its own cue and on the Sound Effects volume: the Shop's question, the inventory's tick, a private message sent and received, and the Station ON and OFF.</li><li><strong>One new Help card</strong> (the P.E.T. Station), and the cards of the P.E.T.s, the Asteroids, the Power, the Chat and the clan line updated. <strong>The wiki has pictures on all 61 pages</strong> (163 pictures: the Skylab's new sheets, P.E.T.s, Davidski, the Recipe Book, the Auction), and every new text is in 13 languages.</li></ul>
+        <h3>For administrators and the server</h3>
+        <ul><li><strong>At the first start:</strong> three data steps (<code>skylab-solar-v7</code>, <code>wall-stack-v1</code> and <code>pet-station-extra-v1</code>, each with its <code>DataMigrations</code> row), one new table (<code>ClanDayClock</code>) and one guarded <code>ALTER TABLE</code> (<code>PetState.StationOff</code>), all idempotent; the backup gate lists 5 lines. No data file is new and seven changed (<code>Builds.json</code>, <code>ClanLines.json</code>, <code>ClanWardens.json</code>, <code>DormantSwamp.json</code>, <code>Groups.json</code>, <code>Market.json</code>, <code>SkylabConfig.json</code>), with the item and recipe seeds. One new route, <code>POST /api/admin/players/:id/forge/max</code>; one new client feature string, <code>private-chat</code>; three optional environment variables of the front door (<code>TRUSTED_PROXIES</code>, <code>TRUSTED_PROXY_HEADER</code>, <code>TRUSTED_PROXY_SECRET</code>, off unless <code>TRUSTED_PROXIES</code> is set) and two dry-run switches (<code>WALL_STACK_V1_DRY_RUN</code>, <code>PET_STATION_V1_DRY_RUN</code>).</li><li><strong>Admin tools:</strong> <strong>Max Forge</strong> (Admin &gt; Players &gt; Inventory) sets chosen pieces of a pilot's equipment to the top of the Forge at no cost (Eternal, every buff at the top of its range); pieces in the Transport Cache, fitted in the Skylab or listed on the Auction are left alone and reported; <strong>a piece keeps its Marketable label</strong>, so a maxed piece that was Marketable can still be sold on the Auction (an admin power the owner may want to limit); 1 to 200 pieces a request, 20 requests an admin per 10 minutes, every use in Recent admin actions.</li><li><strong>The release job:</strong> the patch notes go in a <code>patchnotes/</code> folder of the download site (the one-time move is a script that is not part of the deploy), <code>scripts/clips/*</code> is a docs path, and the Windows build checks the exe's icon, manifest and version resources.</li><li><strong>There is no safe rollback to 0.4.21 after the first start,</strong> and no volume backup is taken (the owner does not want one): a 0.4.21 server reads the wall stacks as Extras again, lets a pilot fit a stack in a slot and the walls come out wrong. The way is forward, a fix release (docs/DEPLOY.md).</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.21.html" rel="prev">← 0.4.21</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

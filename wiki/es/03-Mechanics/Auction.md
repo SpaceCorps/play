@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
-La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del propio juego, en una página del menú de la estación. En vuelo se abre en una ventana: el botón **Subasta** (un martillo) de la barra de herramientas de arriba a la izquierda muestra la misma página sobre el juego, y se recuerdan la posición y el tamaño de la ventana. Funciona como en la estación, salvo que la munición, los cohetes y los EMP Charge se cuentan en vuelo, así que los pones a la venta desde la estación (la hoja de venta los muestra bloqueados, con el motivo); comprar y pujar puedes hacerlo desde cualquier sitio. Tiene cinco secciones. **Mercado** es lo que otros pilotos tienen a la venta. **Lotes** son las ofertas del propio juego, tres cada hora. **Davidski** es el almacén del comerciante volador: todos los tipos que lista la Subasta, a muchas veces el precio de la Tienda; lo que la Tienda no vende cuesta tanto que comprárselo a él es el último recurso, y los recursos raros de fabricación mil veces más todavía ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Mis anuncios** es lo que tú tienes a la venta. **Historial** son tus ventas, tus compras y los lotes que has ganado, y cómo te ha ido comerciando.
+La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del propio juego, en una página del menú de la estación. En vuelo se abre en una ventana: el botón **Subasta** (un martillo) de la barra de herramientas de arriba a la izquierda muestra la misma página sobre el juego, y se recuerdan la posición y el tamaño de la ventana. Funciona como en la estación, salvo que la munición, los cohetes y los EMP Charge se cuentan en vuelo, así que los pones a la venta desde la estación (la hoja de venta los muestra bloqueados, con el motivo); comprar y pujar puedes hacerlo desde cualquier sitio. Tiene cuatro secciones. **Mercado** es lo que otros pilotos tienen a la venta y, entre sus anuncios, el almacén del comerciante volador: todos los tipos que lista la Subasta, a muchas veces el precio de la Tienda, como filas marcadas con su nombre en dorado, una insignia **NPC** y un signo de infinito; lo que la Tienda no vende cuesta tanto que comprárselo a él es el último recurso, y los recursos raros de fabricación mil veces más todavía ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Lotes** son las ofertas del propio juego, tres cada hora. **Mis anuncios** es lo que tú tienes a la venta. **Historial** son tus ventas, tus compras y los lotes que has ganado, y cómo te ha ido comerciando.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@ Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no v
 | **Propulsores** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Munición láser** | Standard Battery (en lotes de 100), Siphon Battery (en lotes de 10), Advanced Plasma (en lotes de 10), Ultra Core (en lotes de 10), Experimental Fusion Core | 5 |
 | **Cohetes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Consumibles** | EMP Charge | 1 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Consumibles** | EMP Charge, Energetic Wall II | 2 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **Blindaje de casco** | Hull Plating II, Hull Plating III | 2 |
 | **Recursos** | Cataclysite (en lotes de 100), Ship Fragment (en lotes de 100), Daraxium (en lotes de 100), Nyxite (en lotes de 100), Quorvium (en lotes de 10), Reinforced Hull Plate (en lotes de 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Un anuncio cuesta un **depósito**, que se paga al publicar y nunca se devuelve,
 ## Comprar {#buying}
 
 El **Mercado** muestra lo que venden otros pilotos. Acota la lista con los **chips de categoría** (uno por cada tipo de objeto, con el número de anuncios que tiene), busca por nombre, filtra por encantamiento y moneda, y ordena por precio, por lo que termina antes o por lo más nuevo. Elige un anuncio para ver qué es, quién lo vende, cuánto dura y cómo está su precio frente a la última venta, el precio más bajo ahora y el precio de la Tienda. Una pila se compra en lotes enteros. Una compra grande te pide confirmar una vez más. El vendedor cobra al instante, menos el impuesto; tú no pagas depósito ni impuesto. Lo que compras **no es comercializable**: la página dice «Recibes: no comerciable» junto a **Comprar por …**, porque solo se puede vender lo que ganas. No puedes comprar tu propio anuncio. Un anuncio que se vende mientras lo miras dice «Ese anuncio ya no está.»
+
+**Las filas de Davidski** están entre los anuncios de los pilotos. Cada tipo que vende tiene una fila en créditos y otra en Thulium, con su nombre en dorado, una insignia **NPC** y un signo de infinito en la cantidad y el tiempo restante: su existencia nunca se acaba y nunca cierra. La búsqueda, los chips de categoría y los filtros de encantamiento y de moneda acotan sus filas como cualquier anuncio (sus objetos son Estándar, así que ningún otro encantamiento las muestra); por precio se colocan donde dice su número, junto a los precios de los pilotos, y con **Termina pronto** y **Más recientes** van después de los anuncios de los pilotos. Elige una y **Comprar por …** va a él, no a un piloto ([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)): sus precios son muchas veces los de la Tienda, el límite diario de compra no lo cuenta, no hay vendedor al que pagar y lo que recibes no es comercializable. No aparece en ninguna pista de precio, en el historial ni en las estadísticas, que son solo de los pilotos.
 
 ## Límites {#limits}
 

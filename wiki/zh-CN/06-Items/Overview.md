@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -118,6 +118,7 @@
 - **Repair Drone**：修复船体的附加装置，每一档都比上一档更快：Repair Drone I、II 和 III 分别花费 5,000、15,000 和 35,000 信用点，Repair Drone IV 花费 2,000 Thulium。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。
 - **Cloaking CPU**：用于战斗或逃跑的附加装置：Cloaking CPU 会让你的舰船保持隐形，直到你自己结束（S、M、L 分别为 10、25 和 50 次使用，价格 5,000、11,250 和 20,000 Thulium）。见[附加装置](/wiki/06-Items/Extras.md)。
 - **EMP Charge**：像火箭一样以堆叠方式携带的消耗品，不占用槽位（每次充能 500 Thulium，最多 20 个）：它会让你在 3 秒内无法被选为目标，打断所有对你的锁定并结束附近的所有隐形。见[火箭](/wiki/06-Items/Rockets.md#emp-charge)。
+- **Energetic Wall I 和 II**：同样是消耗品，以堆叠方式携带，不占用槽位：按下后会在光标处立起一道等离子墙，让射击打在墙上而不是你身上。I 在商店每道 250 Thulium（最多 20 道），II 在装配站制造，每次制造一道（最多 10 道）。见[附加装置](/wiki/06-Items/Extras.md#energetic-wall)。
 - **研究 CPU**：Extra Slots CPU 为每艘舰船增加附加槽位，Jump CPU 花费 Thulium 把你送到某个企业星区，Base CPU 把你送回基地，Auto-Repair CPU 自动放出你的 Repair Drone。它们不出售：先研究，再在装配站制造。见[附加装置](/wiki/06-Items/Extras.md#research-cpus)。
 - **无人机编队**：十六种供你的无人机使用的物品，有加成也有代价，例如护盾更大但武器更弱。它们不出售：先研究，再到装配站用 Thulium 制作。参见[无人机编队](/wiki/03-Mechanics/Formations.md)。
 - **资源**：外星人掉落、Skylab 为制造而产出的东西：Ship Fragment、四种晶体、Power Core、Velkonite 和 Orvium 强化板，以及来自别处的两种：**Dark Matter**（[黑洞](/wiki/03-Mechanics/Black-Hole.md)会为一枚 N.I.K.E. 火箭回馈它）和装配站用它压制成的 **Dark Matter Plate**，用于每条升级链的最后一阶和[锻造炉](/wiki/06-Items/Forge.md)的最高两步。

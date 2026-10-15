@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be4819075016f18a -->
+<!-- wiki-i18n source: d73343b5c426be4e -->
 <!-- wiki-i18n title: エクストラ -->
 # エクストラ {#extras}
 
@@ -10,19 +10,21 @@
 | **Cloaking CPU S** | 艦を隠します | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | 艦を隠します | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 艦を隠します | 50 | 20,000 Thulium |
-| **Energetic Wall I** | カーソルの位置、艦の近くにプラズマの壁を立てます。壁を横切る弾は代わりに壁に当たり、壁の中の艦は燃えます | 無制限 | 250 Thulium |
-| **Energetic Wall II** | 耐久値が3倍（30,000 と 90,000）の同じ壁 | 無制限 | アセンブリ：研究後、Energetic Wall I と 600 Thulium |
+| **P.E.T. Station I～III** | ON の間、ドッキング中の2体、3体、5体の[P.E.T.](/wiki/03-Mechanics/Pets.md#the-station)が艦にブーストを与え、経験値を得て、働きます。OFF の間は、そのどれもしません | ON / OFF | アセンブリ：研究後（下のアイテムツリー） |
 
-Cloaking CPU は、ショップでのみ販売されています。統合はできず、ドロップや報酬で入手することもできません。**EMP Charge** はもうエクストラではありません。0.4.21 からは消耗品で、ロケットと同じようにスタックで持ち運び、どのスロットにも装着しないため、エクストラスロットを使いません（[ロケット](/wiki/06-Items/Rockets.md#emp-charge)を参照）。
+Cloaking CPU は、ショップでのみ販売されています。統合はできず、ドロップや報酬で入手することもできません。**EMP Charge** はもうエクストラではありません。0.4.21 からは消耗品で、ロケットと同じようにスタックで持ち運び、どのスロットにも装着しないため、エクストラスロットを使いません（[ロケット](/wiki/06-Items/Rockets.md#emp-charge)を参照）。2つの **Energetic Wall** もエクストラではなくなりました。0.4.22 からは同じく消耗品で、スタックで持ち運び、どのスロットにも装着しません（[Energetic Wall](#energetic-wall)を参照）。
 
 新しいパイロットの**スターターキット**では、Protos の2つのエクストラスロットに、すでに2つのエクストラが装着されています。**Base CPU I**（10回使用でき、自分の企業の基地へテレポートします）と **Repair Drone I** です。使うには、ホットバーの「エクストラ」の選択画面からスロットにドラッグしてください。キットがもらえるのは新しいパイロットだけです。0.4.10より前に登録したパイロットには、ありません。
 
 さらに7つの CPU は販売されていません。Skylab の研究センターが研究を終えると、アセンブリで製作できます（[研究](/wiki/03-Mechanics/Research.md)を参照）。Extra Slots CPU I・II・III、Jump CPU、Base CPU I・II、Auto-Repair CPU で、それぞれの働きは[最後のセクション](#research-cpus)にあります。Cloaking CPU と同じく、Jump CPU と Base CPU は落ち着いたときのためのものです。自分が撃ったり攻撃を受けたりしてから10秒以内は、この3つのどれも始動しません。2つのワープ CPU、つまり Jump CPU と Base CPU も、ミッションアイテムを運搬中は使えません（「ミッションアイテムを運搬中はワープ CPU を使えません。」）。[ミッションアイテム](/wiki/03-Mechanics/Quests.md#quest-items)を参照してください。
 
-エクストラは、ホットバーのスロットに短い略称が付きます。Repair Drone は **REP**、Cloaking CPU は **CLK**、Energetic Wall は **WAL**、Auto-Repair CPU・Base CPU・Jump CPU は順に **ARP**、**BSE**、**JMP** です。Extra Slots CPU にはスロットがなく、Skylab に取り付けられます。3つの **P.E.T. Station** もスロットを使わず、アセンブリで受け取ると自動で導入され、2体、3体、5体の[P.E.T.](/wiki/03-Mechanics/Pets.md)の枠になります。スロットにポインターを合わせると、今押すと何が起こるか、または押しても起こらない理由が読めます。
+エクストラは、ホットバーのスロットに短い略称が付きます。Repair Drone は **REP**、Cloaking CPU は **CLK**、Auto-Repair CPU・Base CPU・Jump CPU は順に **ARP**、**BSE**、**JMP** です。消耗品にもそれぞれ略称があります。**EMP** と、Energetic Wall の **WAL** です。Extra Slots CPU にはスロットがなく、Skylab に取り付けられます。3つの **P.E.T. Station** のアイテムはほかのエクストラと同じで、略称は **PET** です。装備すると、そのスロットで Station を **ON** と **OFF** に切り替えられ（2回の押下の間は1秒）、どちらかが表示されます。ON の間はドッキング中の[P.E.T.](/wiki/03-Mechanics/Pets.md)が数えられ、OFF の間は数えられません。スロットにポインターを合わせると、今押すと何が起こるか、または押しても起こらない理由が読めます。
 
-![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
+![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -40,12 +42,10 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
@@ -57,7 +57,6 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
-Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -86,17 +85,17 @@ S、M、L の挙動はすべて同じです。大きいパックは、1回あた
 
 ## Energetic Wall
 
-WAL スロットを押すと、**カーソルの位置**に、艦からカーソルへの線に直角に**プラズマの壁**が立ちます。長さ360ユニット（艦のモデルおよそ3つ半）、幅10ユニットの帯です。中心は艦の中心から**450ユニット**以内で、カーソルがそれより遠ければ線上450ユニットの位置に、120ユニットより近ければ120ユニットの位置に出ます。スロットが使える間は、薄い点線とゴーストの輪郭で立つ場所が分かります。カーソルの位置がゲームに分からないときは、艦の中心から220ユニット前方に、進行方向に対して横向きに立ちます。使うには REP と同じく、ホットバーのエクストラから壁をスロットにドラッグします。壁は、後ろに隠れたり通路をふさいだりするためのもので、中に立つものではありません。
+WAL スロットを押すと、**カーソルの位置**に、艦からカーソルへの線に直角に**プラズマの壁**が立ちます。長さ360ユニット（艦のモデルおよそ3つ半）、幅10ユニットの帯です。中心は艦の中心から**450ユニット**以内で、カーソルがそれより遠ければ線上450ユニットの位置に、120ユニットより近ければ120ユニットの位置に出ます。スロットが使える間は、薄い点線とゴーストの輪郭で立つ場所が分かります。カーソルの位置がゲームに分からないときは、艦の中心から220ユニット前方に、進行方向に対して横向きに立ちます。Energetic Wall は、[EMP Charge](/wiki/06-Items/Rockets.md#emp-charge) と同じ**消耗品**です。インベントリのスタックで持ち、どの艦のスロットも使いません（0.4.22 まではエクストラでした）。使うには、ホットバーの消耗品からスロットにドラッグします。2つのレベルは別々の項目なので、1つのスロットには1つのレベルが入ります。壁は、後ろに隠れたり通路をふさいだりするためのもので、中に立つものではありません。
 
 - **何を止めるか。** 壁を横切る弾は、誰が撃ったものでも、どちら側からでも、代わりに壁に当たります。レーザーの斉射、ロケット、エイリアンの斉射のすべてです。壁の後ろにいるものは何も受けず、壁の耐久値がダメージを負います。壁で炸裂したロケットの爆風は、手前側の艦には届きますが、後ろの艦には届きません。自分の弾も同じで、自分の壁越しに外へ撃つことはできません。N.I.K.E.とDormant Swampの砲台の弾は、小惑星と同じように壁の上を越えていきます。
 - **何を燃やすか。** 船体が帯に触れた艦はすべて、まずシールドに**毎秒2,500のダメージ**を受けます。自分の艦も、エイリアンも企業パイロットも同じです。セーフゾーンにいる艦やリスポーン直後の保護中の艦は燃えず、1隻に帯が2本重なっても加算されません。
 - **どれだけ持つか。** レベル1の壁は**耐久値30,000**、レベル2は**90,000**です。壁は何もしなくても毎秒その60分の1を失うので、誰にも撃たれない壁は**60秒**で消えます。射撃は寿命を縮めます。Helios Beam 12門に x4 弾の Wraith なら、レベル1の壁を約3.5秒で破壊します。
-- **同時に1枚。** 新しい壁は古い壁の代わりになります。押したあと、アイテムは**90秒**再充填されます。待ち時間は艦ではなくパイロットのもので、死亡やログアウトでは短くなりません。2つ装備している場合は、良いほうの壁が出ます。
+- **同時に1枚、1回につき1枚。** 新しい壁は古い壁の代わりになります。押したあと、アイテムは**90秒**再充填されます。待ち時間は艦ではなくパイロットのもので、死亡やログアウトでは短くなりません。押すと、**スロットに入っているレベルの壁を1つ**消費します。消費するのは壁が立ったときだけで、ゲームが拒否した操作（下記）は何も消費せず、待ち時間も始まりません。そのレベルが残っていないときは「Energetic Wall が残っていません。」と表示され、もう一方のレベルが代わりに使われることはありません。
 - **使えない場所。** セーフゾーンやリスポーンの保護中、帯がセーフゾーンやゲートに触れる場所、ステルス中、帯の中心がマップの外に出る場所では使えません。どの場合かはゲームが教えてくれます。
 - **撃破。** 壁に破壊された艦は放射線で死亡し、撃破は15秒以内に最後に命中させた敵パイロットのものになります（いれば）。壁を立てた本人は、自分で撃っていないものについては何も得られません。壁に破壊されたエイリアンは何も払い出しません。報酬も戦利品もありません。
 - **エイリアンは迂回しない。** 壁を通り抜けて燃えるか、自分の側に立ったまま壁を撃ちます。
-- **見た目。** 青白い光の帯に、明るい筋が走り、両端に光の柱が立ちます。弾が当たると光り、ほぼ尽きるとちらつきます。レベル2の壁は代わりに黄色く光り、芯が太く明るくなり、輝きも強くなりますが、帯の幅はレベル1の壁と同じ10ユニットです。そばの細い体力バーは短くなり、琥珀色、次に赤に変わります。スロットでは壁の残り寿命が弧、待ち時間が影で表示されます。立てた壁は光ってせり上がり、撃破された壁は火花になって崩れ、時間切れの壁は薄れて消えます。
-- **入手方法。** Energetic Wall I はショップで 250 Thulium です。Energetic Wall II は、研究センターで研究したあと、アセンブリで Energetic Wall I、Ship Fragment 10個、Power Core 2個と 600 Thulium から作ります（通常速度で6時間：[研究](/wiki/03-Mechanics/Research.md)）。
+- **見た目。** 青白い光の帯に、明るい筋が走り、両端に光の柱が立ちます。弾が当たると光り、ほぼ尽きるとちらつきます。レベル2の壁は代わりに黄色く光り、芯が太く明るくなり、輝きも強くなりますが、帯の幅はレベル1の壁と同じ10ユニットです。そばの細い体力バーは短くなり、琥珀色、次に赤に変わります。スロットでは壁の残り寿命が弧、待ち時間が影で表示されます。立てた壁は光ってせり上がり、撃破された壁は火花になって崩れ、時間切れの壁は薄れて消えます。スロットの数字は、そのレベルの残りの壁の数も表します。
+- **入手と持ち運び。** Energetic Wall I はショップで1枚 **250 Thulium** で、1つのスタックに最大 **20** まで持てます（[オークション](/wiki/03-Mechanics/Auction.md)に出品中の分も数えます）。Energetic Wall II は、研究センターで研究したあと、アセンブリで**1回の製作につき1枚**、**600 Thulium**、Ship Fragment 5個、Power Core 1個から作ります（通常速度で6時間：[研究](/wiki/03-Mechanics/Research.md)）。最大 **10** まで持てます。ロケットと同じく、持っている壁はシーズン終了で失われますが、トランスポートキャッシュに入れておけば残ります。キャッシュの中の壁は使えません。自分で作った Energetic Wall II はオークションで売れますが、ショップで売っている Energetic Wall I は売れません。
 
 ## 研究センターの CPU {#research-cpus}
 

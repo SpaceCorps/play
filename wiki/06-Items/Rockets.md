@@ -9,7 +9,7 @@ Rockets are a second weapon beside your lasers: one shot every few seconds that 
 - **Blasts are strongest in the middle.** Ember and Scatter rockets burst and hurt every ship inside the ring: the full number at the centre, half of it at the edge.
 - **One timer for all of them.** After any launch you wait 3 seconds before the next one, whichever rocket it is. Only the N.U.K.E. and the N.I.K.E. make you wait longer (4.1 and 4.6 seconds), because they stay in the air that long.
 - **Guided or straight.** A guided rocket (Lancet, Ember) needs a target you have selected. A straight one (Rivet, Scatter) flies to your cursor.
-- **One more thing is carried like a rocket.** The **EMP Charge** is a consumable: a stack in your inventory, used from the hotbar, in no slot ([EMP Charge](#emp-charge)).
+- **More is carried like a rocket.** The **EMP Charge** is a consumable: a stack in your inventory, used from the hotbar, in no slot ([EMP Charge](#emp-charge)). So are the two **Energetic Walls** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -33,12 +33,15 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
 Ember I -> Ember II -> Ember III
 Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
 

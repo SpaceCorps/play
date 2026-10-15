@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Danno di un colpo, in ogni mondo:
 | Torretta [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torretta laser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Un razzo viene lanciato a 90% della sua portata, perché arrivi; una torretta laser spara una volta al secondo, e il suo danno viene tirato nell’intervallo indicato.
+- Un razzo viene lanciato a 90% della portata che lo stesso razzo ha in mano a un pilota, perché arrivi; una torretta laser spara una volta al secondo, e il suo danno viene tirato nell’intervallo indicato.
 - Un N.I.K.E. ha una penetrazione dello scudo pari a 35%, che viene tolta dall’assorbimento di uno scudo.
+- Il razzo della torretta, N.I.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 1.125 unità al secondo, 8.100 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
 - Un N.U.K.E. esplode su un raggio di 900 unità, con più forza al centro.
+- Il razzo della torretta, N.U.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 375 unità al secondo, 2.400 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
 
 <!-- swamp-guns:end -->
 
-- **Niente arriva fuori dalla zona,** e dentro una nave viene distrutta in pochi secondi: più si avvicina al centro, più cannoni si aggiungono, e nemmeno la Wraith meglio protetta regge.
+- **Da fuori della zona non spara niente,** e dentro una nave viene distrutta in pochi secondi: più si avvicina al centro, più cannoni si aggiungono, e nemmeno la Wraith meglio protetta regge. Un razzo già in aria, però, prosegue il suo volo, e i razzi della torretta volano più veloci e più lontano dei tuoi: fuggire in linea retta non basta per scrollarteli di dosso.
 - **L’occultamento ti fa entrare.** Nessuna torretta vede mai una nave occultata, né una dentro la finestra di un EMP, a nessuna distanza. Un’esplosione diretta a una nave visibile che scoppia vicino a una occultata la danneggia comunque e ne pone fine all’occultamento.
 - **Sparano solo ai piloti,** mai agli alieni, ai piloti di corporazione o allo sciame, e la protezione di una nave appena tornata da una distruzione vale anche contro di loro.
 - **L’anello di avviso.** Una nave che attraversa l’anello fuori dalla zona riceve una riga di Sistema: le torrette sparano a ogni nave che vedono, e qualcosa dorme al centro. Viene avvisata di nuovo solo dopo aver lasciato l’anello ed esserci tornata.

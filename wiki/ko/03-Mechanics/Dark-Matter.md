@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter와 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter**는 기술 트리의 꼭대기, 대장간의 가장 높은 두 단계, 그리고 모든 강화 계열의 마지막 티어 뒤에 있는 자원입니다. 살 수도 캘 수도 없고, 일반 외계인도 떨어뜨리지 않습니다. **블랙홀(black hole)**에 **N.I.K.E.** 로켓을 쏘아 넣어 **직접 만들고**, 블랙홀이 되돌려 주는 상자를 줍습니다. **Dark Matter Plate**는 그 제작법을 연구한 뒤 어셈블리에서 Dark Matter를 눌러 만듭니다. 이 페이지는 각각이 어디서 나오는지, 어디에 쓰이는지, 어떤 순서로 하면 되는지 알려 줍니다. 시즌 11일차부터 Dark Matter는 **거대 굴착기의 연료**이기도 하며([거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)), [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)의 일부 외계인도 조금 떨어뜨립니다.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## 1분 요약 {#in-one-minute}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: 레시피북 -->
 # 레시피북과 빌드 {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 **레시피북**은 게임의 모든 아이템에 대해 “이걸 만들려면 무엇이 필요할까?”에 답합니다. 무엇으로 만들어지는지 보여 주는 도표, 순서대로 나열한 단계, 전체 비용, 그리고 모든 원자재를 어디서 얻는지를 알려 줍니다. **빌드**는 같은 일을 함선 한 척 전체에 대해 해 줍니다. 격납고의 장비나 친구의 빌드를 가져오고, 15개의 프리셋 중 하나로 시작하거나 직접 만든 다음, 능력치와 전체 비용을 단계별로 확인할 수 있습니다. 둘 다 정거장의 **자료실**에 있으며, 위키 아래에 이어서 놓여 있습니다.
 
 레시피북은 자체 가격표를 가지고 있지 않습니다. 상점, [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules), [연구](/wiki/03-Mechanics/Research.md)가 쓰는 레시피, 가격, 기술, 드롭 표로부터 여러분이 보는 순간에 숫자를 계산하므로, 가격이나 레시피가 바뀌면 게임을 그대로 따라갑니다. 이 페이지에 가격이나 능력치가 하나도 적혀 있지 않은 이유입니다. 아이템이나 빌드를 열어서 확인하세요.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## 열기 {#open-it}
 

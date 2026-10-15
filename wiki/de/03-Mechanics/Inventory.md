@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
 Im Hangar verwaltest du deine Schiffe und deine Ausrüstung. Gegenstände wirksam auszurüsten ist der Schlüssel zum Überleben und zur Vorherrschaft. Du kannst das an der Station tun und im Flug aus einer Schutzzone heraus: siehe [Der Hangar im Flug](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Ausrüstungs-Slots & Wirkungsgrade der Werte {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ Das Inventar listet deine Gegenstände in derselben Reihenfolge wie der Shop auf
 ## Handelbare Gegenstände {#marketable-items}
 
 Gegenstände, die du verdient hast (Beute, Missionsbelohnungen und alles, was die Montage und die Schmiede herstellen), tragen auf ihrer Kachel ein kleines Etikett **Handelbar**, und die Gegenstandskarte zeigt „Handelbar“ oder, bei einem Stapel, von dem nur ein Teil verkauft werden kann, „Handelbar (3 von 5)“. Der Chip **Nur Handelbares** neben den Kategorie-Chips zeigt nur diese Gegenstände. Ein **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der [Auktion](/wiki/03-Mechanics/Auction.md) (im Flug wird er nicht angezeigt: Verkaufen ist eine Seite der Station). Was du gekauft, gewonnen oder geschenkt bekommen hast, trägt kein Etikett und kann nicht wieder verkauft werden.
+
+## Mehrere Gegenstände auswählen {#select-several-items}
+
+Drücke auf eine leere Stelle im Inventar (den Rand neben den Kacheln, die Lücke zwischen zwei Kacheln oder den Platz unter der letzten Reihe) und ziehe: Ein durchscheinendes Rechteck folgt dem Zeiger, und jede Kachel, die es berührt, ist ausgewählt, solange du ziehst. Lässt du los, bleibt die Auswahl bestehen; die Titelzeile zählt sie („3 ausgewählt“). Halte beim Ziehen **Umschalt**, **Strg** oder **Cmd** gedrückt, um zur Auswahl hinzuzufügen: Kacheln, die schon ausgewählt sind und die das Rechteck berührt, werden dabei abgewählt. Ein einfaches Ziehen beginnt eine neue Auswahl. **Esc**, ein Klick auf leeren Platz oder die Schaltfläche neben dem Mülleimer in der Titelzeile hebt die Auswahl auf; **Esc** mitten im Ziehen bricht das Ziehen ab. Am oberen oder unteren Rand eines langen Inventars scrollt die Liste von selbst. Ein Druck auf eine Kachel gehört weiterhin der Kachel: anklicken zum Ausrüsten, auf einen Slot ziehen. Der Mülleimer in der Titelzeile löscht die ausgewählten Gegenstände nach einer Rückfrage, die sie auflistet (ein Stapel gleicher Extras geht als Ganzes); bei gesperrtem Hangar im Flug wird er nicht angeboten. Ein im Skylab eingebauter Gegenstand lässt sich nicht auswählen, und nur was Suche und Kategorie-Chips im Raster lassen, ist auswählbar. Ein leiser Tick ertönt, wenn das Rechteck eine weitere Kachel dazunimmt (er folgt dem Schalter „Schaltflächenklänge“ in den Einstellungen).
 
 ## Gegenstand in Gegenstand ausrüsten (Sub-Sockets) {#item-to-item-equipping-sub-sockets-}
 

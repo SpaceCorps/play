@@ -39,13 +39,15 @@ Damage of a shot, in each world:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) turret | 5,000 / 4,400 | 5 s | 1,080 | 50,000 | 75,000 | 100,000 |
 | Laser turret × 2 | 3,600 / 5,200; 6,400 / 5,200 | 1 s | 2,500 | 45,000–55,000 | 67,500–82,500 | 90,000–110,000 |
 
-- A rocket is fired from 90% of its reach, so that it arrives; a laser turret fires once a second, and its damage is rolled in the range shown.
+- A rocket is fired from 90% of the reach the same rocket has in a pilot's hands, so that it arrives; a laser turret fires once a second, and its damage is rolled in the range shown.
 - A N.I.K.E. has 35% shield penetration, taken off a shield's absorbance.
+- The turret's N.I.K.E. flies 25% faster and 2× as far as yours: 1,125 units a second, 8,100 units in all, so a ship that runs from it is followed a long way.
 - A N.U.K.E. bursts over a radius of 900 units, hardest in the middle.
+- The turret's N.U.K.E. flies 25% faster and 2× as far as yours: 375 units a second, 2,400 units in all, so a ship that runs from it is followed a long way.
 
 <!-- swamp-guns:end -->
 
-- **Nothing reaches outside the zone,** and inside it a ship is destroyed in seconds: more guns join the closer a ship comes to the middle, and even the best-shielded Wraith does not last.
+- **Nothing fires from outside the zone,** and inside it a ship is destroyed in seconds: more guns join the closer a ship comes to the middle, and even the best-shielded Wraith does not last. A rocket that is already in the air flies on, though, and the turret's rockets fly faster and farther than yours: running straight away from one does not shake it off.
 - **A cloak gets you in.** No turret ever sees a cloaked ship, nor one inside the window of an EMP, at any distance. A blast aimed at a visible ship that bursts next to a cloaked one still hurts it and ends its cloak.
 - **They shoot at pilots only,** never at aliens, company pilots or the swarm, and the protection of a ship that has just come back from a destruction holds against them.
 - **The notice ring.** A ship that crosses the ring outside the zone is told by a System line: the turrets fire on every ship they see, and something sleeps in the middle. It is told again only when it has left the ring and come back.

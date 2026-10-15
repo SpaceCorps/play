@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@ Du väljer din koncern första gången du spelar, och det är gratis. Senare kan
 
 ## Spela med vänner {#playing-with-friends}
 
-Gå med i en [klan](/wiki/03-Mechanics/Clans.md) eller flyg i en [grupp](/wiki/03-Mechanics/Groups.md) med upp till fem piloter, och ta med nya vänner med din personliga kod: under **Gemenskap › Bjud in vänner** får de ett startpaket och du en belöning i Thulium när de når nivå 5. Se [Bjud in vänner](/wiki/03-Mechanics/Invite-Friends.md).
+Gå med i en [klan](/wiki/03-Mechanics/Clans.md) eller flyg i en [grupp](/wiki/03-Mechanics/Groups.md) med upp till tio piloter, och ta med nya vänner med din personliga kod: under **Gemenskap › Bjud in vänner** får de ett startpaket och du en belöning i Thulium när de når nivå 5. Se [Bjud in vänner](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Uppdrag {#missions}
 

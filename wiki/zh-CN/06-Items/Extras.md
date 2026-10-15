@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be4819075016f18a -->
+<!-- wiki-i18n source: d73343b5c426be4e -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
@@ -10,19 +10,21 @@
 | **Cloaking CPU S** | 隐藏你的舰船 | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | 隐藏你的舰船 | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 隐藏你的舰船 | 50 | 20,000 Thulium |
-| **Energetic Wall I** | 在光标处、靠近你的舰船立起一道等离子墙：穿过它的每一发射击都会改为击中墙体，墙内的任何舰船都会被灼烧 | 不限 | 250 Thulium |
-| **Energetic Wall II** | 同一道墙，耐久为三倍（30,000 和 90,000） | 不限 | 装配站：研究后用一个 Energetic Wall I 和 600 Thulium 制造 |
+| **P.E.T. Station I 至 III** | 开启时，2、3 或 5 只已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 为你的飞船提供加成、获得经验并工作；关闭时，它们什么都不做 | 开 / 关 | 装配站，研究后（见下面的物品树） |
 
-Cloaking CPU 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。**EMP Charge** 不再是附加装置：从 0.4.21 起它是消耗品，像火箭一样以堆叠方式携带，不装在任何槽位里，所以不占用你的附加槽位（见[火箭](/wiki/06-Items/Rockets.md#emp-charge)）。
+Cloaking CPU 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。**EMP Charge** 不再是附加装置：从 0.4.21 起它是消耗品，像火箭一样以堆叠方式携带，不装在任何槽位里，所以不占用你的附加槽位（见[火箭](/wiki/06-Items/Rockets.md#emp-charge)）。两道 **Energetic Wall** 也不再是附加装置：从 0.4.22 起它们同样是消耗品，以堆叠方式携带，不装在任何槽位里（见 [Energetic Wall](#energetic-wall)）。
 
 新飞行员的**新手套装**已经在 Protos 的两个附加槽位里装好了两件附加装置：一个 **Base CPU I**（可用 10 次，传送到你所属企业的基地）和一个 **Repair Drone I**。想使用它们，请从快捷栏的“附加装置”选择器把它们拖到一个槽位上。只有新飞行员才会拿到这套装备：在 0.4.10 之前开始游戏的飞行员没有它。
 
 另有七种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II，以及 Auto-Repair CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。两种传送 CPU，也就是 Jump CPU 和 Base CPU，在你携带任务物品时同样无法使用（“携带任务物品时无法使用传送 CPU。”）：见[任务物品](/wiki/03-Mechanics/Quests.md#quest-items)。
 
-每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，Energetic Wall 是 **WAL**，Auto-Repair CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**BSE** 和 **JMP**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。三个 **P.E.T. Station** 物品同样没有槽位：在装配站领取后会自动安装，为 2、3 和 5 只 [P.E.T.](/wiki/03-Mechanics/Pets.md) 提供位置。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
+每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，Auto-Repair CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**BSE** 和 **JMP**。消耗品有各自的标签：**EMP**，以及 Energetic Wall 的 **WAL**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。三个 **P.E.T. Station** 物品和其他附加装置一样，标签是 **PET**：装备一个，它的槽位就会把 Station 在**开启**和**关闭**之间切换（两次按下之间相隔一秒），并显示当前是哪一个。开启时，已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md) 计入，关闭时不计入。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
 
-![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
+![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -40,12 +42,10 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
@@ -57,7 +57,6 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
-Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -86,17 +85,17 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 
 ## Energetic Wall
 
-按下 WAL 槽位，一道**等离子墙**就会立在**你的光标处**，与飞船到光标的连线垂直：一条长 360 单位（约三个半舰船模型）、宽 10 单位的带状区域。它的中心距舰船中心最远 **450 单位**：光标更远时，它立在连线上 450 单位处；光标近于 120 单位时，它被推到 120 单位处。槽位就绪时，一条淡淡的点线和一个幽灵轮廓会显示它将立在哪里。如果游戏不知道光标在哪里，它会立在舰船中心前方 220 单位处，横在航向上。要使用它，像 REP 一样把墙从快捷栏的“附加装置”拖到槽位上。它是用来躲在后面、封住一条通路的，不是用来站在里面的。
+按下 WAL 槽位，一道**等离子墙**就会立在**你的光标处**，与飞船到光标的连线垂直：一条长 360 单位（约三个半舰船模型）、宽 10 单位的带状区域。它的中心距舰船中心最远 **450 单位**：光标更远时，它立在连线上 450 单位处；光标近于 120 单位时，它被推到 120 单位处。槽位就绪时，一条淡淡的点线和一个幽灵轮廓会显示它将立在哪里。如果游戏不知道光标在哪里，它会立在舰船中心前方 220 单位处，横在航向上。Energetic Wall 是**消耗品**，与 [EMP Charge](/wiki/06-Items/Rockets.md#emp-charge) 一样：物品栏里的一个堆叠，**不占用任何舰船的槽位**（0.4.22 之前它是附加装置）。要使用它，把它从快捷栏的“消耗品”拖到槽位上；两个等级是两个条目，所以一个槽位放一个等级。它是用来躲在后面、封住一条通路的，不是用来站在里面的。
 
 - **它挡住什么。** 穿过它的每一发射击都会改为击中墙体，不论是谁打的、从哪一侧打来：激光齐射、火箭、外星人的齐射。墙后的东西毫发无损，伤害由墙的耐久承担。在墙上爆炸的火箭，爆炸波只会波及近侧的舰船，不会波及墙后的舰船。你自己的射击也一样：你不能隔着自己的墙向外射击。 N.I.K.E. 和 Dormant Swamp 的炮塔会从墙上方飞越，就像飞越小行星一样。
 - **它灼烧什么。** 船体碰到墙带的任何舰船每秒受到 **2,500 点伤害**，先扣护盾，你自己的舰船也一样，外星人和企业飞行员同样如此。在安全区内或处于重生保护中的舰船不会被灼烧，同一艘舰船上的两条墙带也不会叠加。
 - **它能维持多久。** 1 级墙有 **30,000 点耐久**，2 级墙有 **90,000**。墙自己每秒会损失六十分之一，所以没人攻击的墙会在 **60 秒**后消失。射击会缩短这个时间：一艘装有十二把 Helios Beam、使用 x4 弹药的 Wraith 大约 3.5 秒就能击毁一道 1 级墙。
-- **一次一道。** 新墙会取代你的旧墙。按下之后，该物品需要 **90 秒**充能；等待时间属于你本人而不是舰船，死亡或下线都不会缩短它。如果你带了两个，使用更好的那道墙。
+- **一次一道，每次按下一道。** 新墙会取代你的旧墙。按下之后，该物品需要 **90 秒**充能；等待时间属于你本人而不是舰船，死亡或下线都不会缩短它。每次按下消耗**槽位所放等级的一道墙**，而且只在墙立起来时才消耗：游戏拒绝的按下（见下）什么也不消耗，也不开始等待。该等级一道也不剩时，会提示“没有剩余的 Energetic Wall。”，也绝不会用另一个等级代替。
 - **哪里不行。** 安全区或重生保护期间不行；墙带会碰到安全区或星系之门的地方不行；隐形时不行；墙带的中心会落在地图之外的地方也不行。游戏会告诉你是哪种情况。
 - **击杀。** 被墙摧毁的舰船死于辐射，击杀记在 15 秒内最后击中它的敌方飞行员头上（如果有的话）。立墙的人不会因为并非自己射出的伤害而得到击杀记录。被墙摧毁的外星人不产出任何东西：没有奖励，也没有战利品。
 - **外星人不会绕开它。** 它们要么穿过去被灼烧，要么待在自己一侧朝墙射击。
-- **你看到的样子。** 一条蓝白色的光带，上面有明亮的线条沿着它跑动，两端各有一根光柱；射击命中的地方会闪光，快耗尽时会闪烁。2 级墙则发出黄色的光，核心更粗更亮，光晕也更强，但它的光带和 1 级墙一样宽，都是 10 单位。旁边一条细细的生命条会变短，并变成琥珀色，再变成红色；你的槽位用弧线显示墙的剩余寿命，用阴影显示等待时间。刚立起的墙会闪光亮起，被击毁的墙会化作火花崩塌，时间耗尽的墙会逐渐消散。
-- **怎么得到。** Energetic Wall I 在商店里售价 250 Thulium。Energetic Wall II 在研究中心研究完成后，在装配站用一个 Energetic Wall I、10 个 Ship Fragment 和 2 个 Power Core 加 600 Thulium 制造（正常速度下 6 小时：[研究](/wiki/03-Mechanics/Research.md)）。
+- **你看到的样子。** 一条蓝白色的光带，上面有明亮的线条沿着它跑动，两端各有一根光柱；射击命中的地方会闪光，快耗尽时会闪烁。2 级墙则发出黄色的光，核心更粗更亮，光晕也更强，但它的光带和 1 级墙一样宽，都是 10 单位。旁边一条细细的生命条会变短，并变成琥珀色，再变成红色；你的槽位用弧线显示墙的剩余寿命，用阴影显示等待时间。刚立起的墙会闪光亮起，被击毁的墙会化作火花崩塌，时间耗尽的墙会逐渐消散。槽位上的数字也是该等级剩余的墙数。
+- **怎么得到和携带。** Energetic Wall I 在商店里每道售价 **250 Thulium**，一个堆叠最多携带 **20** 道（你在[拍卖行](/wiki/03-Mechanics/Auction.md)挂出的也算在内）。Energetic Wall II 在研究中心研究完成后，在装配站制造，**每次制造一道**，需要 **600 Thulium**、5 个 Ship Fragment 和 1 个 Power Core（正常速度下 6 小时：[研究](/wiki/03-Mechanics/Research.md)），最多携带 **10** 道。与火箭一样，携带的墙会随赛季丢失，除非放进运输储藏库；储藏库里的墙无法使用。你自己制造的 Energetic Wall II 可以在拍卖行出售；商店出售的 Energetic Wall I 则永远不能。
 
 ## 研究中心的 CPU {#research-cpus}
 

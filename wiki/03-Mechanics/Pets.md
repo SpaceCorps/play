@@ -1,23 +1,37 @@
 # P.E.T.s {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine -->
 
-A **P.E.T.** (Personal Escort Technology) is a small companion that flies beside your ship and adds boosts to it: more Credits, more Thulium, more hull or shield, more damage or more luck. Two of the ten types also work for you while you fly: the **Retriever** takes the cargo boxes around your ship and the **Mole** breaks asteroids. You find **Cluster Chunks** in broken asteroids, put one with an Orvium Reinforced Plate in the **Cradle** of your Hangar, and some time later a P.E.T. hatches. You **dock** it in your **P.E.T. Station**; from your next launch it adds its boosts, earns experience and flies beside your ship as a tiny drone.
+A **P.E.T.** (Personal Escort Technology) is a small companion that flies beside your ship and adds boosts to it: more Credits, more Thulium, more hull or shield, more damage or more luck. Two of the ten types also work for you while you fly: the **Retriever** takes the cargo boxes around your ship and the **Mole** breaks asteroids. You find **Cluster Chunks** in broken asteroids, put one with an Orvium Reinforced Plate in the **Cradle** of your Hangar, and some time later a P.E.T. hatches. You **dock** it in your **P.E.T. Station**, an [Extra](/wiki/06-Items/Extras.md) you fit in an Extras slot of your ship; while the Station is **ON** the docked P.E.T. adds its boosts, earns experience and flies beside your ship as a small drone, and while it is **OFF** it does none of it.
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../img/wiki-img/shots/pets-view.jpg)
 
 ## In one minute
 
-- **Get the Station.** Research a **P.E.T. Station** in the Research Centre and make it in Assembly. It has three levels, with room for **2, 3 and 5** P.E.T.s. The Cradle works without it: you can hatch P.E.T.s before you own a Station.
+- **Get the Station.** Research a **P.E.T. Station** in the Research Centre and make it in Assembly. It has three levels, with room for **2, 3 and 5** P.E.T.s. Fit it in an Extras slot of the ship you fly. The Cradle works without it: you can hatch P.E.T.s before you own a Station.
 - **Find chunks.** Break asteroids from the second tier up: a **Regular**, a **Mythical** or a **Legendary Cluster Chunk** can be left whole in the ore chunk of the party that dealt the most damage.
 - **Hatch.** In the Hangar's **P.E.T.** view the Cradle takes one chunk and one Orvium Reinforced Plate for each P.E.T. and has four places in its queue. The chunk's grade decides how many boosts the P.E.T. has: **1, 2 or 3**.
-- **Dock and fly.** Dock the P.E.T.s you want while your ship is landed. They add their boosts from your next launch and gain experience as you hunt, mine and fly, up to level 20.
+- **Dock and fly.** Dock the P.E.T.s you want while your ship is landed. With a Station fitted and ON they add their boosts and gain experience as you hunt, mine and fly, up to level 20.
+- **ON and OFF.** The **PET** slot of the hotbar switches the Station, in flight, and the change counts at once: OFF, your P.E.T.s give no boosts, earn no experience and do not work; ON, they are back. A Station you have not switched is ON.
 - **Put two to work.** A docked **Retriever** takes the boxes lying around your ship and a docked **Mole** breaks the nearest asteroid for you, whenever you fly outside a safe zone, idle or not, with no limit for a day of it: [the working types](#the-working-types). An idle ship is a target.
 - **They are yours.** P.E.T.s are bound to you: no trade, no Auction. They stay through the wipe.
 
 ## The P.E.T. Station {#the-station}
 
-The Station is not a Skylab module and not a slot: it is an **install**, as the [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus) are. Three items, **P.E.T. Station I, II and III**, are researched in the [Research Centre](/wiki/03-Mechanics/Research.md) (3 hours, 10 hours and 1 day, no Dark Matter) and made in Assembly one after the other. When you collect one it installs itself, for every ship you have, and it gives room for **2, 3 and 5** docked P.E.T.s. What each one costs is in the [item tree](/wiki/06-Items/Extras.md#item-tree) of the Extras. The Station stays through the wipe and so does its research.
+The Station is an **Extra**. Three items, **P.E.T. Station I, II and III**, are researched in the [Research Centre](/wiki/03-Mechanics/Research.md) (3 hours, 10 hours and 1 day, no Dark Matter) and made in Assembly one after the other. You **fit** one in an Extras slot, as you fit a [Cloaking CPU](/wiki/06-Items/Extras.md), and it gives room for **2, 3 and 5** docked P.E.T.s. What each one costs is in the [item tree](/wiki/06-Items/Extras.md#item-tree) of the Extras. The Station and its research stay through the wipe.
 
-The Hangar's P.E.T. view says which level you have, how many places are taken, and which technology and which item come next, with a button to the Research view and to Assembly.
+- **Only the ship that flies with it.** Your P.E.T.s count on the ship you fly with a Station fitted in the configuration you fly. A Station in your inventory, in the other configuration or on another ship does nothing; swap configurations or ships and the P.E.T.s follow at once.
+- **ON and OFF.** Switch the Station with the **PET** slot of the hotbar (drag it there from the Extras picker). **ON**: the first 2, 3 or 5 of your docked P.E.T.s add their boosts, earn experience and work. **OFF**: none of it, and no drone is drawn. The slot says **ON** or **OFF**. The switch is yours and stays through launches and logins; a Station you have never switched is ON. There is a second between two presses.
+- **What you see.** A Station that is ON is drawn on your ship: a docking ring floating over the hull with a berth for each place, 2, 3 or 5, each lit in the colour of the P.E.T. docked in it. Switch it ON and the P.E.T.s fly out one after the other to hover beside the ship; switch it OFF and they fly back in and the ring folds small and dark on the hull, where only you see it.
+- **More docked than room.** If you dock five P.E.T.s and fit a Station II, the first three (by their places) count and the Hangar marks the others "Not counted". The Hangar docks into the best Station you own, fitted or not, so you can arrange your P.E.T.s before you fit it.
+
+The Hangar's P.E.T. view says which Station you own, where it is fitted and whether it is ON, how many places are taken and which technology and which item come next, with a button to the Research view and to Assembly. When your P.E.T.s give nothing, it and the **Boosters** window say why.
 
 ## Cluster Chunks
 
@@ -69,11 +83,11 @@ A P.E.T. has up to level **20**. Every level adds **0.2 points** to each of its 
 - **Damage, HP and Shield** add to your boosters and your clan's boosts, they do not multiply them: the numbers in the Hangar, the Ship window and your pilot page count them, and the **Boosters** window has a **P.E.T.** card. Shield is shield capacity (the maximum shield points).
 - **Credits and Thulium** add to what a kill pays you, your share of a boss and of a group's kill, and what a mission pays when you claim it, as your [clan's boosts](/wiki/03-Mechanics/Clans.md) do. They never add to a rock's cash, the Skylab's farms, a bonus code or the Auction.
 - **Luck** raises the chance of every loot line of an alien or a swarm ship, and of a Warden's private boxes, as the [Loot Luck Booster](/wiki/06-Items/Boosters.md) does. Nothing else.
-- **No Station place, no boost.** Only the docked P.E.T.s count, up to the Station's room. A P.E.T. you took off or never docked adds nothing and earns nothing.
+- **No Station ON, no boost.** Only the docked P.E.T.s that count give a boost: those within the room of the Station fitted on your ship, and only while it is ON. A P.E.T. you took off or never docked adds nothing and earns nothing, and neither does any with the Station OFF or not fitted.
 
 ## Experience
 
-Every docked P.E.T. earns the same experience, in full: it is not split between them. A stored P.E.T. earns nothing.
+Every docked P.E.T. that counts earns the same experience, in full: it is not split between them. A stored P.E.T. earns nothing, and neither does a docked one while the Station is OFF or not fitted.
 
 - **A kill.** What a [drone](/wiki/03-Mechanics/Drones.md#levels) earns for the same kill, times the world's pay (1, 2 or 3).
 - **A rock you broke.** 1, 2, 4, 8 or 16 for a rock of tier 1 to 5 and 64 for the Motherlode, times the world's pay, to every pilot the break pays; a rock your Mole broke counts.
@@ -87,7 +101,7 @@ Eight of the ten types only boost. The **Retriever** and the **Mole** boost too,
 
 ### When they work
 
-- **Docked, from your launch.** Only a docked P.E.T. works, and its strength is read when you launch, like its boosts: a level gained in flight counts from your next launch.
+- **Docked, with the Station ON.** Only a docked P.E.T. that counts works: switch the Station OFF and the Mole's beam and the Retriever's pickup stop at once, ON and they go on. Its strength is read when you launch: a level gained in flight counts from your next launch.
 - **Only the best of each.** One Mole works, the strongest (on a tie the one in the lower place), and one Retriever, the one with the longest reach. Your other Moles and Retrievers only boost, so a Station full of Moles breaks no more than one.
 - **Flying, outside a safe zone.** They stop while a [safe zone](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protects your ship, and while it is destroyed, under [spawn protection](/wiki/01-General/Getting-Started.md#dying-and-coming-back), cloaked or jumping, and go on when none of these holds. A pilot who is logged off has no ship in space, so nothing works for him.
 - **Idle or not.** There is no rule about being at the keys: a Mole works the same while you hunt, while you look at a window and while you are away from the screen.
@@ -147,15 +161,15 @@ Two P.E.T.s of yours, neither docked and none in a job, can be **crossbred** int
 
 ## Docking and flying
 
-- **Dock and undock only while your ship is landed.** In flight the P.E.T. view shows what you have and nothing can be changed ("Park your ship to change your P.E.T.s"). A change counts from your next launch, so nothing swaps in the middle of a fight.
-- **They fly beside you.** Every docked P.E.T. is drawn as a **tiny drone** near its ship, which everybody sees, up to five a ship. They cannot be targeted, clicked or hit, and they are a fifth of a Slave Drone's size, so they are not taken for a formation's drones. **Show P.E.T.s** in Settings › Interface (**All**, **Mine only** or **Off**) hides them without touching your drones, and your **Detail** setting (Settings › Graphics) decides how many ships' P.E.T.s are drawn at once, the nearest 4, 8, 12 or 16.
-- **They go to work.** While a Mole works, its drone leaves its place for the asteroid and a thin beam joins them; a Retriever's drone flies to its box and back. One drone of a ship is away at a time, and with **Reduce Motion** on they stay at their places. Hiding the P.E.T.s hides the drones, not the work.
+- **Dock and undock only while your ship is landed.** In flight the P.E.T. view shows what you have and nothing can be changed ("Park your ship to change your P.E.T.s"). A change of docking counts from your next launch, so nothing swaps in the middle of a fight. The Station is the exception: its PET slot works in flight.
+- **They fly beside you.** Every docked P.E.T. that counts is drawn as a **small armoured drone with moving parts** (wings that beat, legs that walk, a hoop that turns, claws that dig) beside its ship while the Station is ON, up to five a ship, and everybody sees them and the ring. They cannot be targeted, clicked or hit. Each has a light in its type's colour and a crystal over it in its grade's colour, so they are not taken for a formation's drones. **Show P.E.T.s** in Settings › Interface (**All**, **Mine only** or **Off**) hides them and the Station without touching your drones, and your **Detail** setting (Settings › Graphics) decides how many ships' P.E.T.s are drawn at once, the nearest 4, 8, 12 or 16.
+- **They go to work.** While a Mole works, its drone leaves its place for the asteroid and a thin beam joins them; a Retriever's drone flies to its box and back. One drone of a ship is away at a time, and with **Reduce Motion** on they stay at their places. Hiding the P.E.T.s hides the drones, not the work. **Reduce Motion** also makes the Station and the P.E.T.s appear and go at once instead of flying.
 - **Bound to you.** A P.E.T. cannot be sold, given or traded, and it is not an item, so there is nothing to put on the [Auction](/wiki/03-Mechanics/Auction.md).
 
 ## The wipe
 
-The [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) keeps your P.E.T.s, docked and stored, their levels, the jobs running in the Cradle, the Codex and the P.E.T. Station you installed with its research. What it deletes is what is loose in your inventory: Cluster Chunks and Orvium Reinforced Plates you did not put in the Transport Cache.
+The [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) keeps your P.E.T.s, docked and stored, their levels, the jobs running in the Cradle, the Codex and your P.E.T. Stations with their research. What it deletes is what is loose in your inventory: Cluster Chunks and Orvium Reinforced Plates you did not put in the Transport Cache.
 
 ## Sounds
 
-Starting an assembly, collecting a P.E.T., collecting one of a type you did not have yet, docking, undocking, crossbreeding, letting one go and a level gained each have a quiet sound of their own, on the Sound Effects volume. So does the work: a Mole's beam hums softly where it works and a Retriever's pickup ends with a small blip where the box lay (in place of the cargo pickup sound). You hear other pilots' pets nearby too, more quietly.
+Starting an assembly, collecting a P.E.T., collecting one of a type you did not have yet, docking, undocking, crossbreeding, letting one go, a level gained and the Station going ON or OFF each have a quiet sound of their own, on the Sound Effects volume. So does the work: a Mole's beam hums softly where it works and a Retriever's pickup ends with a small blip where the box lay (in place of the cargo pickup sound). You hear other pilots' pets nearby too, more quietly.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d605c9f1ab4311f8 -->
+<!-- wiki-i18n source: 65309b17cbdf0785 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -8,6 +8,10 @@ Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrov
 
 > [!NOTE]
 > **Ingenting kan köpas eller förtjänas ännu.** Tills vidare delar en admin ut varje utseende. Hangaren markerar dem du inte har med ”Går inte att få ännu”, och när du får ett säger ett meddelande det och en mjuk klang ljuder.
+
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
 ## På en minut {#in-one-minute}
 

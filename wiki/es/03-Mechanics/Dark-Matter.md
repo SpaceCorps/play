@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** es el recurso que hay detrás de lo más alto del árbol de tecnologías, de los dos pasos más altos de la Forja y del último nivel de cada cadena de mejora. No se puede comprar ni extraer, y los alienígenas corrientes no la sueltan: la **fabricas en el agujero negro (black hole)** disparándole cohetes **N.I.K.E.** y recoges las cajas que devuelve. Una **Dark Matter Plate** se prensa en el Ensamblaje a partir de Dark Matter, una vez que has investigado su receta. Esta página dice de dónde viene cada una, para qué sirve y en qué orden conviene hacer las cosas. Desde el día 11 de la temporada, Dark Matter es además el **combustible de las excavadoras gigantes** ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md)), y unos pocos alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) sueltan un poco.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## En un minuto {#in-one-minute}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Rezeptbuch -->
 # Rezeptbuch und Builds {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 Das **Rezeptbuch** beantwortet für jeden Gegenstand des Spiels die Frage „Was braucht man dafür?“: ein Diagramm, woraus er besteht, die Schritte der Reihe nach, die vollständigen Kosten und woher jeder Rohstoff kommt. **Builds** tut dasselbe für ein ganzes Schiff: Importiere die Ausrüstung aus deinem Hangar oder den Build eines Freundes, starte mit einem der 15 Presets oder stelle dir selbst einen zusammen, und sieh dir seine Werte und seine vollständigen Kosten Schritt für Schritt an. Beides findest du in der **Bibliothek** der Station, unter dem Wiki.
 
 Das Rezeptbuch führt keine eigene Preisliste: Es rechnet seine Zahlen erst aus, während du hinsiehst, aus den Rezepten, Preisen, Technologien und Beutetabellen, die auch der Shop, die [Montage](/wiki/06-Items/Overview.md#upgrading-modules) und die [Forschung](/wiki/03-Mechanics/Research.md) benutzen, und folgt dem Spiel daher, wenn sich ein Preis oder ein Rezept ändert. Darum nennt diese Seite keinen Preis und keinen Wert: Öffne den Gegenstand oder den Build.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Öffnen {#open-it}
 

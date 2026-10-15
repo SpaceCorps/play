@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; 船体装甲; 装甲スロット; 装甲板 -->
 
 Dormant の群れの研究で、装甲技術の進歩が明らかになりました。この技術を使って、艦は船体を強化できます。**船体装甲**は、製造した艦の船体プレートスロットに装着し、船体ポイントを加える装甲です。[ブースター](/wiki/06-Items/Boosters.md)のページにある Hull Plating **Booster** とは別物で、そちらは時間制のボーナスです。
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

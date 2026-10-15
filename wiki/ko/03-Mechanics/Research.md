@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa5d52746bb0d940 -->
+<!-- wiki-i18n source: 353e2a14b241cf5d -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -9,6 +9,7 @@
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 ![The Research view of the Skylab with the pointer on Impulse Thruster III: its kind and tier, what it does, its numbers, the four tiers of its family and what Assembly asks to craft it](../../img/wiki-img/shots/research-hover.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## 연구 센터 {#the-research-centre}
 
@@ -112,6 +113,7 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 - **드론 편대**는 이 규칙에서 제외됩니다. 모든 편대 연구는 강도에 따라 Dark Matter 5, 13 또는 20개를 요구합니다(표 참고).
 - **선체 장갑**도 이 규칙에서 제외됩니다. 두 연구는 더 많이 요구하여, 하루짜리 연구는 Dark Matter 25개, 이틀짜리 연구는 40개입니다(표 참고).
 - **연구를 취소하면** 그 연구를 위해 넣어 둔 Dark Matter는 센터로 돌아옵니다. 진행도와 이미 태운 과학은 돌아오지 않습니다.
+- **대기열 전체.** 대기열에 추가해도 아무것도 지불하지 않고, 대기열의 각 기술은 시작할 때 자기 몫의 Dark Matter를 가져가므로, 대기열 전체에 필요한 Dark Matter를 한꺼번에 넣어 두세요. 추가 버튼은 첫 번째 기술이 얼마를 필요로 하든, 대기열의 기술이 모두 합쳐 쓰는 양(선택한 기술이 아직 대기열에 없다면 그 몫도)까지 연구 센터를 채우고, 대기열의 각 기술은 센터의 Dark Matter로 충당되는지 보여 줍니다. Dark Matter가 부족해 멈춘 대기열은 모자란 만큼을 추가하는 순간 저절로 시작됩니다.
 - 전부 합치면 Dark Matter 414개가 필요합니다.
 
 | 기술 | 희귀도 | 연구 시간 | Dark Matter |
@@ -263,7 +265,7 @@ Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 108
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU

@@ -2,6 +2,7 @@
 
 Drones are purchasable or craftable support units. You can have up to **8 Drones** active at once, Slave Drones and Master Drones together. The sixteen **drone formations** in the tree below are not drones: you research and craft them, wear one at a time from the hotbar, and they work only while you own at least one drone (see [Drone Formations](/wiki/03-Mechanics/Formations.md)).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

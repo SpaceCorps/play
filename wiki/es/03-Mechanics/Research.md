@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa5d52746bb0d940 -->
+<!-- wiki-i18n source: 353e2a14b241cf5d -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -9,6 +9,7 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 ![The Research view of the Skylab with the pointer on Impulse Thruster III: its kind and tier, what it does, its numbers, the four tiers of its family and what Assembly asks to craft it](../../img/wiki-img/shots/research-hover.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## El Centro de investigación {#the-research-centre}
 
@@ -112,6 +113,7 @@ Las tecnologías de lo más alto del árbol necesitan además Dark Matter. Sale 
 - **Las formaciones de drones** quedan fuera de la regla: cada investigación de formación pide Dark Matter, 5, 13 o 20 según su fuerza, como muestra la tabla.
 - **El blindaje de casco** también queda fuera de la regla: sus dos investigaciones piden más, 25 de Dark Matter por un día de investigación y 40 por dos días, como muestra la tabla.
 - **Si cancelas una investigación,** el Dark Matter que introdujiste para ella vuelve al Centro. El progreso y la ciencia ya quemada, no.
+- **Una cola entera.** Ponerla en cola no cuesta nada, y cada tecnología en cola toma su Dark Matter cuando empieza; por eso conviene meter de una vez el Dark Matter de toda la cola. El botón Añadir llena el Centro hasta lo que las tecnologías en cola toman en total (y la tecnología elegida, si aún no está en cola), por mucho que necesite la primera, y cada tecnología en cola muestra si el Dark Matter del Centro la cubre. Una cola que se detuvo por falta de Dark Matter empieza sola en cuanto añades lo que faltaba.
 - Todas juntas piden 414 Dark Matter.
 
 | Tecnología | Rareza | Tiempo de investigación | Dark Matter |
@@ -263,7 +265,7 @@ Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 108
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU

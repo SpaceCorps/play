@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ Skylab은 나만의 궤도 시설입니다. 크레딧과 Thulium을 만드는 �
 > [!NOTE]
 > **0.4.21에서 바뀐 점.** 코어의 레벨 14에서 레벨 15로 가는 단계는 이제 **Thulium 4,000**이 더 들며, 끝나면 두 번째 **브리지**와 **코어 3**가 새 슬롯 네 개와 함께 나타납니다. 태양광은 코어 3으로 옮겨 가고 레벨 15부터 전력을 더 많이 생산하므로, 가득 찬 정거장도 계속 감당할 수 있습니다. 새 모듈 네 개가 그 슬롯을 차지합니다. **엔진 모듈**, **방어 모듈**, **레이더 모듈**, **트로피 격납고**이며, 이제 내 Skylab은 **우주 지도**를 날고 스스로 사냥하며 전리품을 가지고 돌아옵니다([원정](#expeditions) 참고). 모든 모듈에 **무게**가 생겼고, 정거장과 엔진의 무게가 얼마나 빨리 나는지를 정합니다([무게와 속도](#weight-and-speed) 참고). **광석 베이**는 시간당 세 배의 광석을 옮기고 허용량도 세 배로 보관합니다. 지어 둔 것은 아무것도 사라지지 않습니다. 이미 레벨 15 이상인 코어는 바로 코어 3를 갖고 있으며 아무것도 내지 않습니다.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## 1분 요약 {#in-one-minute}
 
@@ -624,12 +632,12 @@ Skylab에는 **선체**, 곧 내구도 풀이 있으며, 공격받는 중에도 
 Skylab의 전력 예산은 한정되어 있습니다.
 
 - **수지**: 태양광의 생산량을 다른 모든 모듈의 전력 사용량보다 높게 유지하세요. Skylab 페이지에 수지가 표시되며, 건설로 수지가 0 아래로 내려가기 전에 경고합니다.
-- **태양광이 보조를 맞춥니다**: 레벨 N의 태양광 모듈은 **레벨 N에 있는 다른 모든 모듈**(코어, 농장 둘, 자원 창고, 수집기 둘, 단조소, 그리고 레벨 10부터는 연구 센터와 광석 베이)의 전력을 만들고 약 10분의 1이 더 남으므로, 모든 모듈이 레벨 7인 정거장에는 태양광 7이 필요하며 그것으로 감당됩니다. 태양광이 한 레벨 낮으면 가득 찬 정거장에는 모자라므로(마지막 열), 태양광은 나머지를 계속 따라 올라가야 합니다. 코어는 전력을 적게 쓰므로 앞서 가도 됩니다. 태양광 5 이상은 코어가 어떤 레벨이든 그 레벨의 가득 찬 정거장을 감당합니다. 아래 표는 탄약 프린터를 레벨 7부터, 로켓 공장과 광석 베이를 레벨 10부터, 엔진 모듈, 방어 모듈, 레이더 모듈, 트로피 격납고를 레벨 15부터 각자의 최고 레벨까지 셉니다.
+- **태양광이 보조를 맞춥니다**: 레벨 N의 태양광 모듈은 **레벨 N에 있는 다른 모든 모듈**(코어, 농장 둘, 자원 창고, 수집기 둘, 단조소, 그리고 레벨 10부터는 연구 센터와 광석 베이)의 전력을 만들고 약 10분의 1이 더 남으므로, 모든 모듈이 레벨 7인 정거장에는 태양광 7이 필요하며 그것으로 감당됩니다. 태양광이 한 레벨 낮으면 가득 찬 정거장에는 모자라므로(마지막 열), 태양광은 나머지를 계속 따라 올라가야 합니다. 코어는 전력을 적게 쓰므로 앞서 가도 됩니다. 태양광 5 이상은 코어가 어떤 레벨이든 그 레벨의 가득 찬 정거장을 감당합니다. 아래 표는 탄약 프린터를 레벨 7부터, 로켓 공장과 광석 베이를 레벨 10부터, 엔진 모듈, 방어 모듈, 레이더 모듈, 트로피 격납고를 레벨 11부터(코어 레벨 15부터 지을 수 있지만, 코어가 태양광보다 앞서 갈 수 있어서 네 레벨 일찍 셉니다) 각자의 최고 레벨까지 셉니다.
 - **활성 상태**: 전력을 관리하려고 농장, 수집기, 단조소를 켜고 끌 수 있습니다. 코어, 태양광, 자원 창고, 연구 센터는 항상 작동합니다. 탄약 프린터, 로켓 공장, 광석 베이도 켜고 끌 수 있고, 원정의 모듈 네 개도 그렇습니다(이동 중에는 안 됩니다).
 - **전력 부족**: 전력 사용량이 생산량을 넘으면 균형이 돌아올 때까지 모든 농장과 수집기가 생산을 멈춥니다. 이미 가진 것은 남고 계속 수거할 수 있습니다. 단조소는 새 배치를 시작하지 않고, 연구 센터는 새 연구를 시작하지 않습니다(진행 중인 연구는 계속됩니다). 탄약 프린터, 로켓 공장, 광석 베이는 농장과 수집기처럼 멈춥니다. 방어 모듈은 아무와도 싸우지 않고, 레이더의 스캔은 멈추며, 이동은 시작할 수 없습니다(진행 중인 이동은 계속됩니다).
 - **태양광 업그레이드**: 태양광은 업그레이드하는 동안 전력의 4분의 1만 만들기 때문에, 다른 모듈이 한참 낮은 레벨이 아니라면 정거장은 전력 부족이 되어 업그레이드가 끝날 때까지 농장과 수집기가 멈춥니다([태양광 모듈](#solar-module) 참고).
 
-각 레벨에서 태양광이 만드는 전력과, 같은 레벨에서 다른 모듈이 쓰는 전력의 비교입니다(그 레벨의 모든 모듈로, 코어를 포함하고, 레벨 10부터는 연구 센터와 광석 베이, 레벨 15부터는 원정의 모듈 네 개).
+각 레벨에서 태양광이 만드는 전력과, 같은 레벨에서 다른 모듈이 쓰는 전력의 비교입니다(그 레벨의 모든 모듈로, 코어를 포함하고, 레벨 10부터는 연구 센터와 광석 베이, 레벨 11부터는 원정의 모듈 네 개).
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ Skylab의 전력 예산은 한정되어 있습니다.
 | 8 | 1,185 | 1,076 | 109 | 965: 111 부족 |
 | 9 | 1,460 | 1,327 | 133 | 1,185: 142 부족 |
 | 10 | 2,035 | 1,849 | 186 | 1,460: 389 부족 |
-| 11 | 2,490 | 2,260 | 230 | 2,035: 225 부족 |
-| 12 | 3,055 | 2,774 | 281 | 2,490: 284 부족 |
-| 13 | 3,765 | 3,421 | 344 | 3,055: 366 부족 |
-| 14 | 4,660 | 4,235 | 425 | 3,765: 470 부족 |
-| 15 | 6,325 | 5,748 | 577 | 4,660: 1,088 부족 |
+| 11 | 2,995 | 2,721 | 274 | 2,035: 686 부족 |
+| 12 | 3,565 | 3,241 | 324 | 2,995: 246 부족 |
+| 13 | 4,285 | 3,893 | 392 | 3,565: 328 부족 |
+| 14 | 5,185 | 4,713 | 472 | 4,285: 428 부족 |
+| 15 | 6,325 | 5,748 | 577 | 5,185: 563 부족 |
 | 16 | 7,765 | 7,055 | 710 | 6,325: 730 부족 |
 | 17 | 9,585 | 8,711 | 874 | 7,765: 946 부족 |
 | 18 | 11,895 | 10,812 | 1,083 | 9,585: 1,227 부족 |
@@ -712,7 +720,7 @@ Skylab이 자라려면 몇 주가 걸리므로 약간의 계획이 도움이 됩
 | 9 → 10 | 3시간 | 3 | 29,250 | 912 |
 | 10 → 11 | 4시간 | 5 | 45,000 | 1,440 |
 | 11 → 12 | 5시간 | 6 | 67,500 | 2,200 |
-| 12 → 13 | 6시간 | 6 | 99,000 | 3,120 |
+| 12 → 13 | 6시간 | 7 | 99,000 | 3,120 |
 | 13 → 14 | 8시간 | 7 | 156,000 | 4,800 |
 | 14 → 15 | 10시간 | 8 | 225,000 | 6,800 |
 | 15 → 16 | 12시간 | 9 | 306,000 | 9,120 |

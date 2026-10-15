@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Hüllenpanzerung -->
 # Hüllenpanzerung {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; panzerung; panzerungs-slot; panzerungsplatte -->
 
 Die Erforschung des Dormant-Schwarms zeigte Fortschritte in der Panzerungstechnik. Mit dieser Technik können Schiffe ihre Hülle verbessern: **Hüllenpanzerung** ist eine Panzerung, die in einen Hüllenplatten-Slot eines hergestellten Schiffs passt und ihm Hüllenpunkte hinzufügt. Sie ist nicht der Hull Plating **Booster** der Seite [Booster](/wiki/06-Items/Boosters.md), ein Bonus auf Zeit.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

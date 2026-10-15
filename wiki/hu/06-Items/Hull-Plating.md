@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Hajótest-páncélzat -->
 # Hajótest-páncélzat {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; páncélzat; páncélzatfoglalat; páncélozás -->
 
 A Dormant raj tanulmányozása előrelépést mutatott a páncélzat technológiájában. Ezzel a technológiával a hajók javíthatják a hajótestüket: a **hajótest-páncélzat** olyan páncélzat, amely egy legyártott hajó hajótestlemez-foglalatába illeszkedik, és hajótestpontokat ad hozzá. Ez nem a Hull Plating **Booster**, amelyről a [Boosterek](/wiki/06-Items/Boosters.md) oldal szól: az egy időleges bónusz.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

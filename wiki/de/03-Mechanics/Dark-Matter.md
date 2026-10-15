@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** ist die Ressource hinter der Spitze des Technologiebaums, den beiden höchsten Stufen der Schmiede und der letzten Stufe jeder Aufwertungskette. Du kannst sie weder kaufen noch abbauen, und gewöhnliche Aliens lassen sie nicht fallen: Du **stellst sie am Schwarzen Loch (black hole) her**, indem du **N.I.K.E.**-Raketen hineinschießt, und sammelst die Kisten ein, die es zurückwirft. Eine **Dark Matter Plate** wird in der Montage aus Dark Matter gepresst, sobald du ihr Rezept erforscht hast. Diese Seite sagt, woher beides kommt, wofür es gut ist und in welcher Reihenfolge du vorgehst. Ab Saisontag 11 ist Dark Matter außerdem der **Treibstoff der Riesenbagger** ([Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)), und einige Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) lassen ein wenig fallen.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## In einer Minute {#in-one-minute}
 

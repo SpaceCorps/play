@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: Drones -->
 # Drones
 
 Drones são unidades de apoio que podem ser compradas ou criadas. Você pode ter até **8 drones** ativos ao mesmo tempo, Slave Drones e Master Drones juntos. As dezesseis **formações de drones** da árvore abaixo não são drones: você as pesquisa e fabrica, usa uma por vez pela barra de atalhos, e elas só funcionam enquanto você tiver pelo menos um drone (veja [Formações de drones](/wiki/03-Mechanics/Formations.md)).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

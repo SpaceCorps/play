@@ -17,9 +17,17 @@ At Core level 15 it grows once more and learns to fly: a **second bridge** joins
 > [!NOTE]
 > **What changed in 0.4.21.** The Core's step from level 14 to level 15 now costs **4,000 Thulium** more, and when it is done a second **bridge** and **Core 3** appear with four new seats. Solar moves to Core 3 and makes more power from level 15, so a full station is still covered. Four new modules take the seats: the **Engine Module**, the **Defense Module**, the **Radar Module** and the **Trophies Bay**, and with them your Skylab flies across the **universe map**, hunts on its own and brings its loot home (see [Expeditions](#expeditions)). Every module now has a **weight**, and the weight of the station and its engines decide how fast it flies (see [Weight and speed](#weight-and-speed)). The **Ore Bay** moves three times as much ore an hour and keeps three times as much allowance. Nothing you built is lost: a Core that is already at level 15 or higher has Core 3 at once and pays nothing.
 
-![The Skylab station fully grown](../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../img/wiki-img/shots/skylab-universe.jpg)
 
 ## In one minute
 
@@ -622,12 +630,12 @@ An upgrade that is already running when the times change keeps the finish time i
 Your Skylab has a limited power budget.
 
 - **Balance**: keep your Solar output above the power all the other modules use. The Skylab page shows the balance, and warns before a build would push it below zero.
-- **Solar keeps pace**: a Solar module at level N makes the power of **all the other modules at level N** (the Core, both farms, the Resource Storage, both collectors and the Forgery, and from level 10 the Research Centre and the Ore Bay) and about a tenth more, so a station whose modules are all at level 7 needs Solar 7, and has it covered. Solar one level lower is not enough for a full station (the last column), so Solar still has to follow the rest up. The Core draws little, so it may run ahead: Solar 5 and up covers a full station at its level with the Core at any level. The table below also counts the Ammo Printer from level 7, the Rocket Factory and the Ore Bay from level 10, and the Engine, Defense and Radar Modules and the Trophies Bay from level 15, each at its own highest level at most.
+- **Solar keeps pace**: a Solar module at level N makes the power of **all the other modules at level N** (the Core, both farms, the Resource Storage, both collectors and the Forgery, and from level 10 the Research Centre and the Ore Bay) and about a tenth more, so a station whose modules are all at level 7 needs Solar 7, and has it covered. Solar one level lower is not enough for a full station (the last column), so Solar still has to follow the rest up. The Core draws little, so it may run ahead: Solar 5 and up covers a full station at its level with the Core at any level. The table below also counts the Ammo Printer from level 7, the Rocket Factory and the Ore Bay from level 10, and the Engine, Defense and Radar Modules and the Trophies Bay from level 11 (they are built from Core level 15, and count four levels earlier because the Core can run ahead of Solar), each at its own highest level at most.
 - **Active state**: you can switch the farms, the collectors and the Forgery on or off to manage power. The Core, Solar, the Resource Storage and the Research Centre always run. The Ammo Printer, the Rocket Factory and the Ore Bay can be switched on and off too, and so can the four modules of the Expedition (not while a trip is under way).
 - **Blackout**: if power use is higher than power made, all the farms and collectors stop producing until the balance is back. What they already hold stays, and you can still collect it. The Forgery starts no new batch, and the Research Centre starts no new research (a research already running goes on). The Ammo Printer, the Rocket Factory and the Ore Bay stop like the farms and collectors. The Defense Module fights nothing, the Radar's scans stand still and no trip can start (a trip that is under way goes on).
 - **Solar upgrades**: while Solar upgrades it makes only a quarter of its power, so unless your other modules are far below it the station is in deficit and the farms and collectors stop until the upgrade is done (see [Solar Module](#solar-module)).
 
-Solar's power at each level, against what the other modules use at the same level (every module at that level, the Core included, and the Research Centre and the Ore Bay from level 10, and the four modules of the Expedition from level 15):
+Solar's power at each level, against what the other modules use at the same level (every module at that level, the Core included, and the Research Centre and the Ore Bay from level 10, and the four modules of the Expedition from level 11):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -644,11 +652,11 @@ Solar's power at each level, against what the other modules use at the same leve
 | 8 | 1,185 | 1,076 | 109 | 965: 111 short |
 | 9 | 1,460 | 1,327 | 133 | 1,185: 142 short |
 | 10 | 2,035 | 1,849 | 186 | 1,460: 389 short |
-| 11 | 2,490 | 2,260 | 230 | 2,035: 225 short |
-| 12 | 3,055 | 2,774 | 281 | 2,490: 284 short |
-| 13 | 3,765 | 3,421 | 344 | 3,055: 366 short |
-| 14 | 4,660 | 4,235 | 425 | 3,765: 470 short |
-| 15 | 6,325 | 5,748 | 577 | 4,660: 1,088 short |
+| 11 | 2,995 | 2,721 | 274 | 2,035: 686 short |
+| 12 | 3,565 | 3,241 | 324 | 2,995: 246 short |
+| 13 | 4,285 | 3,893 | 392 | 3,565: 328 short |
+| 14 | 5,185 | 4,713 | 472 | 4,285: 428 short |
+| 15 | 6,325 | 5,748 | 577 | 5,185: 563 short |
 | 16 | 7,765 | 7,055 | 710 | 6,325: 730 short |
 | 17 | 9,585 | 8,711 | 874 | 7,765: 946 short |
 | 18 | 11,895 | 10,812 | 1,083 | 9,585: 1,227 short |
@@ -710,7 +718,7 @@ While Solar upgrades it makes a quarter of its power, and a station almost alway
 | 9 to 10 | 3 h | 3 | 29,250 | 912 |
 | 10 to 11 | 4 h | 5 | 45,000 | 1,440 |
 | 11 to 12 | 5 h | 6 | 67,500 | 2,200 |
-| 12 to 13 | 6 h | 6 | 99,000 | 3,120 |
+| 12 to 13 | 6 h | 7 | 99,000 | 3,120 |
 | 13 to 14 | 8 h | 7 | 156,000 | 4,800 |
 | 14 to 15 | 10 h | 8 | 225,000 | 6,800 |
 | 15 to 16 | 12 h | 9 | 306,000 | 9,120 |

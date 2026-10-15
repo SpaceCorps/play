@@ -4,6 +4,8 @@
 
 The study of the Dormant swarm showed advancements in armour technology. Using this technology, ships are able to improve their hull: **Hull Plating** is armour that fits a hull plate slot of a crafted ship and adds hull points to it. It is not the Hull Plating **Booster** of the [Boosters](/wiki/06-Items/Boosters.md) page, which is a timed bonus.
 
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../img/wiki-img/shots/hull-plates.jpg)
+
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
 

@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: 인벤토리 -->
 # 인벤토리와 장비 {#inventory-equipment}
 
 격납고에서는 함선과 장비를 관리할 수 있습니다. 아이템을 효율적으로 장착하는 것이 생존과 지배의 핵심입니다. 기지에서도 할 수 있고, 비행 중에는 안전 지대 안에서 할 수 있습니다. [비행 중 격납고](/wiki/03-Mechanics/Hangar.md)를 참고하세요.
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## 장비 슬롯과 능력치 효율 {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@
 ## 거래 가능한 아이템 {#marketable-items}
 
 직접 얻은 아이템(드롭, 미션 보상, 어셈블리와 대장간이 만든 것)은 타일에 작은 **거래 가능** 표시가 붙고, 아이템 카드에는 “거래 가능”, 일부 수량만 팔 수 있는 묶음에는 “거래 가능 (3/5)”라고 나옵니다. 카테고리 칩 옆의 **거래 가능한 것만** 칩은 그런 아이템만 보여 줍니다. 표시가 붙은 아이템의 휴지통 옆 **망치** 버튼은 [경매장](/wiki/03-Mechanics/Auction.md)의 판매 창을 엽니다(비행 중에는 보이지 않습니다. 판매는 정거장의 페이지에서 합니다). 구매했거나 낙찰받았거나 선물로 받은 것은 표시가 없고 다시 팔 수 없습니다.
+
+## 여러 아이템 선택 {#select-several-items}
+
+인벤토리의 빈 곳(타일 옆 여백, 타일 사이의 틈, 마지막 줄 아래 공간)을 누른 채 드래그하면 반투명한 사각형이 포인터를 따라오고, 드래그하는 동안 사각형이 닿는 타일이 모두 선택됩니다. 놓아도 선택은 그대로 남고, 제목 줄에 선택한 개수가 표시됩니다(“3개 선택됨”). 드래그하는 동안 **Shift**, **Ctrl**, **Cmd** 중 하나를 누르고 있으면 선택에 추가됩니다. 이미 선택된 타일에 사각형이 닿으면 대신 선택이 해제됩니다. 키 없이 드래그하면 새 선택이 시작됩니다. **Esc**, 빈 곳 클릭, 또는 제목 줄의 휴지통 옆 버튼으로 선택을 해제하고, 드래그 도중 **Esc**를 누르면 드래그가 취소됩니다. 긴 인벤토리의 위쪽이나 아래쪽 가장자리에서는 목록이 저절로 스크롤됩니다. 타일을 누르는 것은 이전처럼 그 타일의 동작입니다(클릭하면 장착, 슬롯으로 드래그). 제목 줄의 휴지통은 선택한 아이템을 나열한 확인 창을 거쳐 삭제합니다(같은 엑스트라 묶음은 통째로 사라집니다). 비행 중 격납고가 잠겨 있는 동안에는 나타나지 않습니다. Skylab에 장착된 아이템은 선택할 수 없고, 검색과 카테고리 칩이 목록에 남겨 둔 것만 선택할 수 있습니다. 사각형이 타일을 하나 더 잡으면 작은 소리가 납니다(설정의 “버튼 소리”를 따릅니다).
 
 ## 아이템 간 장착 (서브 소켓) {#item-to-item-equipping-sub-sockets-}
 

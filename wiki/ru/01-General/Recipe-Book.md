@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Книга рецептов -->
 # Книга рецептов и билды {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 **Книга рецептов** отвечает на вопрос «что для этого нужно?» про любой предмет игры: схема того, из чего он сделан, шаги по порядку, полный счёт и то, откуда берётся каждое сырьё. **Билды** делают то же самое для целого корабля: импортируйте снаряжение из своего ангара или билд друга, начните с одного из 15 пресетов или соберите свой и посмотрите его характеристики и полную стоимость, шаг за шагом. Оба раздела находятся в **Библиотеке** станции, под вики.
 
 У Книги рецептов нет собственного прейскуранта: она считает свои числа в тот момент, когда вы смотрите, по рецептам, ценам, технологиям и таблицам добычи, которыми пользуются магазин, [сборочный цех](/wiki/06-Items/Overview.md#upgrading-modules) и [исследования](/wiki/03-Mechanics/Research.md), поэтому следует за игрой, когда меняется цена или рецепт. Вот почему на этой странице нет ни цен, ни характеристик: откройте предмет или билд.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Как открыть {#open-it}
 

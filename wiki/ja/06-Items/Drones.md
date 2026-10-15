@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: ドローン -->
 # ドローン {#drones}
 
 ドローンは、購入または製作できる支援ユニットです。Slave Drone と Master Drone を合わせて、最大**8機**のドローンを同時に有効にできます。下のツリーにある16種類の**ドローン編成**はドローンではありません。研究して作成し、ホットバーから1つずつ使うもので、ドローンを1機以上持っている間だけ働きます（[ドローン編成](/wiki/03-Mechanics/Formations.md)を参照）。
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

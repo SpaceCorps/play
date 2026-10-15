@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Überblick -->
 # Gegenstände im Überblick {#items-overview}
 
@@ -118,6 +118,7 @@ Der Shop, das Inventar des Hangars und die anderen Gegenstandslisten folgen eine
 - **Repair Drones**: Extras, die deine Hülle reparieren, jede schneller als die vorige: Repair Drone I, II und III kosten 5.000, 15.000 und 35.000 Credits, Repair Drone IV 2.000 Thulium. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPUs**: Extras für einen Kampf oder eine Flucht: Eine Cloaking CPU verbirgt dein Schiff, bis du sie beendest (S, M und L: 10, 25 und 50 Nutzungen, 5.000, 11.250 und 20.000 Thulium). Siehe [Extras](/wiki/06-Items/Extras.md).
 - **EMP Charge**: ein Verbrauchsgut, das du wie Raketen als Stapel trägst und in keinen Slot einsetzt (500 Thulium je Ladung, höchstens 20): Es macht dich 3 Sekunden lang unanvisierbar, bricht jede Zielerfassung auf dich ab und beendet jede Tarnung in der Nähe. Siehe [Raketen](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I und II**: ebenfalls Verbrauchsgüter, als Stapel getragen und in keinen Slot eingesetzt: Ein Druck stellt eine Plasmawand an deinen Mauszeiger, in die jeder Schuss statt in dich schlägt. Die I kostet im Shop 250 Thulium je Wand (höchstens 20), die II stellt die Montage her, eine je Herstellung (höchstens 10). Siehe [Extras](/wiki/06-Items/Extras.md#energetic-wall).
 - **Forschungs-CPUs**: die Extra Slots CPUs geben jedem Schiff Extra-Slots, die Jump CPU bringt dich gegen Thulium in einen Konzernsektor, die Base CPUs bringen dich nach Hause und die Auto-Repair CPU schickt deine Repair Drone von selbst los. Sie werden nicht verkauft: Erforsche sie und stelle sie dann in der Montage her. Siehe [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Drohnenformationen**: sechzehn Gegenstände für deine Drohnen, die Boni geben und Preise verlangen, etwa einen größeren Schild für schwächere Waffen. Sie werden nicht verkauft: Erforsche sie und baue sie dann in der Montage für Thulium. Siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md).
 - **Ressourcen**: was Aliens fallen lassen und das Skylab für die Herstellung produziert: Ship Fragments, die vier Kristalle, Power Cores, die Velkonite- und Orvium-Platten und zwei, die von anderswo kommen: **Dark Matter**, das das [Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md) für eine N.I.K.E.-Rakete zurückgibt, und die **Dark Matter Plate**, die die Montage daraus für die letzte Stufe jeder Aufwertungskette und die obersten beiden Schritte der [Schmiede](/wiki/06-Items/Forge.md) presst.

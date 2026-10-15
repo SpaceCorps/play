@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: 경매장 -->
 # 경매장 {#auction}
 
-경매장은 파일럿들의 시장이자 게임이 직접 여는 매시간의 로트를 정거장 메뉴의 한 페이지에 모은 곳입니다. 비행 중에는 창으로 열립니다. 왼쪽 위 툴바의 **경매장** 버튼(망치)이 같은 페이지를 게임 위에 보여 주고, 창의 위치와 크기는 기억됩니다. 정거장에서와 똑같이 동작하지만, 탄약, 로켓, EMP Charge는 비행 중에 함선이 수를 세므로 정거장에서 등록해야 합니다(판매 창에는 잠긴 채 이유와 함께 표시됩니다). 구매와 입찰은 어디서든 할 수 있습니다. 다섯 부분이 있습니다. **시장**은 다른 파일럿들이 팔고 있는 것입니다. **로트**는 게임이 직접 내놓는 물건으로, 매시간 세 개씩입니다. **Davidski**는 날아다니는 상인의 재고로, 경매장이 다루는 모든 종류를 상점 가격의 몇 배나 되는 값에 팔며, 상점이 팔지 않는 것은 그에게서 사는 것이 최후의 수단일 만큼 비싸고, 제작에 쓰이는 희귀 자원은 거기에 다시 천 배를 받습니다([Davidski](/wiki/03-Mechanics/Davidski.md)). **내 등록**은 내가 직접 팔고 있는 것입니다. **내역**은 나의 판매, 구매, 낙찰받은 로트, 그리고 거래 성과입니다.
+경매장은 파일럿들의 시장이자 게임이 직접 여는 매시간의 로트를 정거장 메뉴의 한 페이지에 모은 곳입니다. 비행 중에는 창으로 열립니다. 왼쪽 위 툴바의 **경매장** 버튼(망치)이 같은 페이지를 게임 위에 보여 주고, 창의 위치와 크기는 기억됩니다. 정거장에서와 똑같이 동작하지만, 탄약, 로켓, EMP Charge는 비행 중에 함선이 수를 세므로 정거장에서 등록해야 합니다(판매 창에는 잠긴 채 이유와 함께 표시됩니다). 구매와 입찰은 어디서든 할 수 있습니다. 네 부분이 있습니다. **시장**은 다른 파일럿들이 팔고 있는 것이며, 그 등록들 사이에 날아다니는 상인의 재고도 있습니다. 경매장이 다루는 모든 종류를 상점 가격의 몇 배나 되는 값에 파는 행으로, 금색 이름, **NPC** 표시, 무한대 기호가 붙습니다. 상점이 팔지 않는 것은 그에게서 사는 것이 최후의 수단일 만큼 비싸고, 제작에 쓰이는 희귀 자원은 거기에 다시 천 배를 받습니다([Davidski](/wiki/03-Mechanics/Davidski.md)). **로트**는 게임이 직접 내놓는 물건으로, 매시간 세 개씩입니다. **내 등록**은 내가 직접 팔고 있는 것입니다. **내역**은 나의 판매, 구매, 낙찰받은 로트, 그리고 거래 성과입니다.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@
 | **추진기** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **레이저 탄약** | Standard Battery (100개 묶음), Siphon Battery (10개 묶음), Advanced Plasma (10개 묶음), Ultra Core (10개 묶음), Experimental Fusion Core | 5 |
 | **로켓** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **소모품** | EMP Charge | 1 |
-| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **소모품** | EMP Charge, Energetic Wall II | 2 |
+| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **선체 장갑** | Hull Plating II, Hull Plating III | 2 |
 | **자원** | Cataclysite (100개 묶음), Ship Fragment (100개 묶음), Daraxium (100개 묶음), Nyxite (100개 묶음), Quorvium (10개 묶음), Reinforced Hull Plate (10개 묶음), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 ## 구매 {#buying}
 
 **시장**에는 다른 파일럿들이 파는 것이 보입니다. **카테고리 칩**(아이템 종류마다 하나씩이며, 들어 있는 등록 수가 붙습니다)으로 목록을 좁히고, 이름으로 검색하고, 인챈트와 통화로 거르고, 가격순, 곧 끝나는 순, 최신순으로 정렬합니다. 등록을 고르면 그것이 무엇인지, 누가 파는지, 언제까지인지, 그리고 가격이 마지막 판매, 지금의 최저가, 상점 가격과 비교해 어떤지 볼 수 있습니다. 묶음은 정수 개의 묶음 단위로 삽니다. 큰 구매는 한 번 더 확인을 묻습니다. 판매자는 세금을 뺀 금액을 즉시 받습니다. 구매자는 보증금도 세금도 내지 않습니다. 산 것은 **거래 가능이 아닙니다**. 팔 수 있는 것은 직접 얻은 것뿐이라서, 페이지는 **구매** 버튼 옆에 “받는 것: 거래 불가”라고 표시합니다. 자신의 등록은 살 수 없습니다. 보고 있는 동안 팔린 등록은 “그 등록은 더 이상 없습니다.”라고 알려 줍니다.
+
+**Davidski의 행**은 파일럿들의 등록 사이에 놓입니다. 그가 파는 모든 종류에는 크레딧 행과 Thulium 행이 하나씩 있으며, 금색 이름, **NPC** 표시, 수량과 남은 시간 자리의 무한대 기호가 붙습니다. 그의 재고는 바닥나지 않고 그는 문을 닫지 않습니다. 검색, 카테고리 칩, 인챈트와 통화 필터는 다른 등록과 똑같이 그의 행을 좁힙니다(그의 아이템은 표준이므로 다른 인챈트에서는 보이지 않습니다). 가격순에서는 숫자가 가리키는 자리에, 파일럿들의 가격 옆에 놓이고, **마감 임박순**과 **최신순**에서는 파일럿들의 등록 뒤에 옵니다. 하나를 골라 **구매**하면 파일럿이 아니라 그에게 갑니다([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)). 그의 가격은 상점 가격의 몇 배이고, 일일 구매 한도에는 셈하지 않으며, 돈을 받을 판매자는 없고, 받는 것은 거래 가능하지 않습니다. 그는 가격 힌트, 내역, 통계 어디에도 들어가지 않으며, 그것들은 파일럿의 것입니다.
 
 ## 한도 {#limits}
 

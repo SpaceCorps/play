@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ På kärnnivå 15 växer Skylab en gång till och lär sig flyga: en **andra bro
 > [!NOTE]
 > **Vad som ändrades i 0.4.21.** Kärnans steg från nivå 14 till nivå 15 kostar nu **4 000 Thulium** extra, och när det är klart dyker en andra **bro** och **Kärna 3** upp med fyra nya modulplatser. Solkraft flyttar till Kärna 3 och ger mer energi från nivå 15, så att en full station fortfarande täcks. Fyra nya moduler tar platserna: **Motormodulen**, **Försvarsmodulen**, **Radarmodulen** och **Trofélagret**, och med dem flyger ditt Skylab över **universumkartan**, jagar på egen hand och tar hem sitt byte (se [Expeditioner](#expeditions)). Varje modul har nu en **vikt**, och stationens och motorernas vikt avgör hur fort den flyger (se [Vikt och fart](#weight-and-speed)). **Malmviken** flyttar tre gånger så mycket malm i timmen och håller tre gånger så stor kvot. Inget du har byggt går förlorat: en kärna som redan är på nivå 15 eller högre har Kärna 3 direkt och betalar ingenting.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## På en minut {#in-one-minute}
 
@@ -624,12 +632,12 @@ En uppgradering som redan pågår när tiderna ändras behåller den sluttid den
 Din Skylab har en begränsad energibudget.
 
 - **Balans**: håll din Solkraftsproduktion över den energi som alla andra moduler använder. Skylab-sidan visar balansen och varnar innan ett bygge skulle trycka den under noll.
-- **Solkraft hänger med**: en Solkraft-modul på nivå N ger energi åt **alla andra moduler på nivå N** (kärnan, båda farmerna, Resurslagret, båda samlarna och Smedjan, och från nivå 10 Forskningscentrumet och Malmviken) och ungefär en tiondel till, så en station vars moduler alla står på nivå 7 behöver Solkraft 7 och har den täckt. Solkraft en nivå lägre räcker inte för en full station (sista kolumnen), så Solkraft måste fortsätta följa med de andra uppåt. Kärnan drar lite, så den får gå före: Solkraft 5 och uppåt täcker en full station på sin nivå med kärnan på vilken nivå som helst. Tabellen nedan räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10, och Motor-, Försvars- och Radarmodulen och Trofélagret från nivå 15, var och en högst på sin egen högsta nivå.
+- **Solkraft hänger med**: en Solkraft-modul på nivå N ger energi åt **alla andra moduler på nivå N** (kärnan, båda farmerna, Resurslagret, båda samlarna och Smedjan, och från nivå 10 Forskningscentrumet och Malmviken) och ungefär en tiondel till, så en station vars moduler alla står på nivå 7 behöver Solkraft 7 och har den täckt. Solkraft en nivå lägre räcker inte för en full station (sista kolumnen), så Solkraft måste fortsätta följa med de andra uppåt. Kärnan drar lite, så den får gå före: Solkraft 5 och uppåt täcker en full station på sin nivå med kärnan på vilken nivå som helst. Tabellen nedan räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10, och Motor-, Försvars- och Radarmodulen och Trofélagret från nivå 11 (de byggs från kärnnivå 15 och räknas fyra nivåer tidigare, eftersom kärnan kan ligga före Solkraft), var och en högst på sin egen högsta nivå.
 - **Aktivt läge**: du kan slå på och av farmerna, samlarna och Smedjan för att hantera energin. Kärnan, Solkraft, Resurslagret och Forskningscentrumet går alltid. Ammunitionsskrivaren, Raketfabriken och Malmviken går också att slå på och av, och det gör expeditionens fyra moduler också (inte medan en resa pågår).
 - **Energiunderskott**: om energiförbrukningen är högre än produktionen slutar alla farmer och samlare att producera tills balansen är tillbaka. Det de redan håller finns kvar, och du kan fortfarande hämta det. Smedjan startar ingen ny sats och Forskningscentrumet ingen ny forskning (en forskning som redan pågår fortsätter). Ammunitionsskrivaren, Raketfabriken och Malmviken stannar som farmerna och samlarna. Försvarsmodulen bekämpar ingenting, radarns skanningar står stilla och ingen resa kan starta (en resa som pågår fortsätter).
 - **Solkraft-uppgradering**: medan Solkraft uppgraderas producerar den bara en fjärdedel av sin energi, så om dina andra moduler inte ligger långt under hamnar stationen i underskott och farmerna och samlarna stannar tills uppgraderingen är klar (se [Solkraftsmodulen](#solar-module)).
 
-Solkrafts energi på varje nivå, mot vad de andra modulerna drar på samma nivå (varje modul på den nivån, kärnan inräknad, och Forskningscentrumet och Malmviken från nivå 10, och expeditionens fyra moduler från nivå 15):
+Solkrafts energi på varje nivå, mot vad de andra modulerna drar på samma nivå (varje modul på den nivån, kärnan inräknad, och Forskningscentrumet och Malmviken från nivå 10, och expeditionens fyra moduler från nivå 11):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ Solkrafts energi på varje nivå, mot vad de andra modulerna drar på samma niv�
 | 8 | 1 185 | 1 076 | 109 | 965: 111 för lite |
 | 9 | 1 460 | 1 327 | 133 | 1 185: 142 för lite |
 | 10 | 2 035 | 1 849 | 186 | 1 460: 389 för lite |
-| 11 | 2 490 | 2 260 | 230 | 2 035: 225 för lite |
-| 12 | 3 055 | 2 774 | 281 | 2 490: 284 för lite |
-| 13 | 3 765 | 3 421 | 344 | 3 055: 366 för lite |
-| 14 | 4 660 | 4 235 | 425 | 3 765: 470 för lite |
-| 15 | 6 325 | 5 748 | 577 | 4 660: 1 088 för lite |
+| 11 | 2 995 | 2 721 | 274 | 2 035: 686 för lite |
+| 12 | 3 565 | 3 241 | 324 | 2 995: 246 för lite |
+| 13 | 4 285 | 3 893 | 392 | 3 565: 328 för lite |
+| 14 | 5 185 | 4 713 | 472 | 4 285: 428 för lite |
+| 15 | 6 325 | 5 748 | 577 | 5 185: 563 för lite |
 | 16 | 7 765 | 7 055 | 710 | 6 325: 730 för lite |
 | 17 | 9 585 | 8 711 | 874 | 7 765: 946 för lite |
 | 18 | 11 895 | 10 812 | 1 083 | 9 585: 1 227 för lite |
@@ -712,7 +720,7 @@ Medan Solkraft uppgraderas ger den en fjärdedel av sin energi, och en station d
 | 9 till 10 | 3 h | 3 | 29 250 | 912 |
 | 10 till 11 | 4 h | 5 | 45 000 | 1 440 |
 | 11 till 12 | 5 h | 6 | 67 500 | 2 200 |
-| 12 till 13 | 6 h | 6 | 99 000 | 3 120 |
+| 12 till 13 | 6 h | 7 | 99 000 | 3 120 |
 | 13 till 14 | 8 h | 7 | 156 000 | 4 800 |
 | 14 till 15 | 10 h | 8 | 225 000 | 6 800 |
 | 15 till 16 | 12 h | 9 | 306 000 | 9 120 |

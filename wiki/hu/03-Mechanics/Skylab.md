@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ A Mag 15. szintjén a Skylab még egyszer nő, és megtanul repülni: egy **más
 > [!NOTE]
 > **Mi változott a 0.4.21-ben.** A Mag 14. szintről a 15.-re lépése most **4 000 Thuliummal** kerül többe, és amikor kész, megjelenik egy második **híd** és a **3. Mag** négy új foglalattal. A Napelem a 3. Magra költözik, és a 15. szinttől több energiát termel, hogy a teljes állomás továbbra is fedezve legyen. Négy új modul foglalja el a foglalatokat: a **Hajtóműmodul**, a **Védelmi modul**, a **Radarmodul** és a **Trófeaterem**, és velük a Skylabod az **univerzumtérképen** repül, magától vadászik, és hazahozza a zsákmányát (lásd: [Expedíciók](#expeditions)). Minden modulnak van most **tömege**, és az állomás és hajtóműveinek tömege dönti el, milyen gyorsan repül (lásd: [Tömeg és sebesség](#weight-and-speed)). Az **Ércrakodó** háromszor annyi ércet rak át óránként, és háromszor akkora keretet tart meg. Semmi nem vész el abból, amit építettél: a Mag, amely már a 15. szinten vagy afölött van, azonnal megkapja a 3. Magot, és nem fizet semmit.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## Egy percben {#in-one-minute}
 
@@ -624,12 +632,12 @@ A fejlesztés, amely már fut, amikor az idők változnak, megtartja a neki adot
 A Skylabodnak korlátozott az energiakerete.
 
 - **Egyenleg**: tartsd a Napelem termelését az összes többi modul által használt energia fölött. A Skylab oldal mutatja az egyenleget, és figyelmeztet, mielőtt egy építés nulla alá nyomná.
-- **A Napelem tartja a lépést**: az N. szintű Napelem modul **az összes többi modul** energiáját termeli **az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont és az Ércrakodó), és nagyjából egytizeddel többet, így az az állomás, amelynek minden modulja a 7. szinten van, 7-es Napelemet igényel, és fedezve van. Egy szinttel alacsonyabb Napelem nem elég a teljes állomáshoz (az utolsó oszlop), tehát a Napelemnek tovább kell követnie a többit. A Mag keveset fogyaszt, ezért előre mehet: az 5-ös és afölötti Napelem a teljes állomást fedezi a saját szintjén, a Mag bármely szintjével. Az alábbi táblázat a Lőszernyomtatót is számolja a 7. szinttől, a Rakétagyárat és az Ércrakodót a 10. szinttől, a Hajtóműmodult, a Védelmi modult, a Radarmodult és a Trófeatermet pedig a 15. szinttől, mindegyiket legfeljebb a saját legmagasabb szintjén.
+- **A Napelem tartja a lépést**: az N. szintű Napelem modul **az összes többi modul** energiáját termeli **az N. szinten** (a Mag, mindkét farm, az Erőforrás-raktár, mindkét gyűjtő és a Kovácsműhely, a 10. szinttől pedig a Kutatóközpont és az Ércrakodó), és nagyjából egytizeddel többet, így az az állomás, amelynek minden modulja a 7. szinten van, 7-es Napelemet igényel, és fedezve van. Egy szinttel alacsonyabb Napelem nem elég a teljes állomáshoz (az utolsó oszlop), tehát a Napelemnek tovább kell követnie a többit. A Mag keveset fogyaszt, ezért előre mehet: az 5-ös és afölötti Napelem a teljes állomást fedezi a saját szintjén, a Mag bármely szintjével. Az alábbi táblázat a Lőszernyomtatót is számolja a 7. szinttől, a Rakétagyárat és az Ércrakodót a 10. szinttől, a Hajtóműmodult, a Védelmi modult, a Radarmodult és a Trófeatermet pedig a 11. szinttől (ezek a Mag 15. szintjétől építhetők, és négy szinttel korábban számítanak, mert a Mag megelőzheti a Napelemet), mindegyiket legfeljebb a saját legmagasabb szintjén.
 - **Aktív állapot**: bekapcsolhatod és kikapcsolhatod a farmokat, a gyűjtőket és a Kovácsműhelyt az energia kezeléséhez. A Mag, a Napelem, az Erőforrás-raktár és a Kutatóközpont mindig működik. A Lőszernyomtató, a Rakétagyár és az Ércrakodó is ki- és bekapcsolható, és az Expedíció négy modulja is (nem, amíg út van folyamatban).
 - **Áramszünet**: ha az energiafogyasztás meghaladja a termelést, az összes farm és gyűjtő abbahagyja a termelést, amíg az egyensúly vissza nem áll. Amit már tárolnak, megmarad, és továbbra is begyűjtheted. A Kovácsműhely nem kezd új tételt, a Kutatóközpont pedig új kutatást (a már futó kutatás megy tovább). A Lőszernyomtató, a Rakétagyár és az Ércrakodó úgy áll le, mint a farmok és a gyűjtők. A Védelmi modul semmivel sem harcol, a radar szkennelései állnak, és nem indulhat út (az úton lévő út megy tovább).
 - **A Napelem fejlesztése**: amíg a Napelemet fejlesztik, az energiájának csak a negyedét termeli, ezért ha a többi modulod nincs jóval alatta, az állomás hiányba kerül, és a farmok meg a gyűjtők leállnak, amíg a fejlesztés el nem készül (lásd: [Napelem modul](#solar-module)).
 
-A Napelem energiája minden szinten, szemben azzal, amit a többi modul ugyanazon a szinten fogyaszt (minden modul azon a szinten, a Mag is, a Kutatóközpont és az Ércrakodó a 10. szinttől, az Expedíció négy modulja pedig a 15. szinttől):
+A Napelem energiája minden szinten, szemben azzal, amit a többi modul ugyanazon a szinten fogyaszt (minden modul azon a szinten, a Mag is, a Kutatóközpont és az Ércrakodó a 10. szinttől, az Expedíció négy modulja pedig a 11. szinttől):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ A Napelem energiája minden szinten, szemben azzal, amit a többi modul ugyanazo
 | 8 | 1 185 | 1 076 | 109 | 965: 111 hiányzik |
 | 9 | 1 460 | 1 327 | 133 | 1 185: 142 hiányzik |
 | 10 | 2 035 | 1 849 | 186 | 1 460: 389 hiányzik |
-| 11 | 2 490 | 2 260 | 230 | 2 035: 225 hiányzik |
-| 12 | 3 055 | 2 774 | 281 | 2 490: 284 hiányzik |
-| 13 | 3 765 | 3 421 | 344 | 3 055: 366 hiányzik |
-| 14 | 4 660 | 4 235 | 425 | 3 765: 470 hiányzik |
-| 15 | 6 325 | 5 748 | 577 | 4 660: 1 088 hiányzik |
+| 11 | 2 995 | 2 721 | 274 | 2 035: 686 hiányzik |
+| 12 | 3 565 | 3 241 | 324 | 2 995: 246 hiányzik |
+| 13 | 4 285 | 3 893 | 392 | 3 565: 328 hiányzik |
+| 14 | 5 185 | 4 713 | 472 | 4 285: 428 hiányzik |
+| 15 | 6 325 | 5 748 | 577 | 5 185: 563 hiányzik |
 | 16 | 7 765 | 7 055 | 710 | 6 325: 730 hiányzik |
 | 17 | 9 585 | 8 711 | 874 | 7 765: 946 hiányzik |
 | 18 | 11 895 | 10 812 | 1 083 | 9 585: 1 227 hiányzik |
@@ -712,7 +720,7 @@ Amíg a Napelem fejlesztés alatt áll, az energiájának negyedét termeli, és
 | 9 → 10 | 3 óra | 3 | 29 250 | 912 |
 | 10 → 11 | 4 óra | 5 | 45 000 | 1 440 |
 | 11 → 12 | 5 óra | 6 | 67 500 | 2 200 |
-| 12 → 13 | 6 óra | 6 | 99 000 | 3 120 |
+| 12 → 13 | 6 óra | 7 | 99 000 | 3 120 |
 | 13 → 14 | 8 óra | 7 | 156 000 | 4 800 |
 | 14 → 15 | 10 óra | 8 | 225 000 | 6 800 |
 | 15 → 16 | 12 óra | 9 | 306 000 | 9 120 |

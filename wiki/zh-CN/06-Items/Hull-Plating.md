@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; 船体装甲; 装甲槽位; 装甲板 -->
 
 对 Dormant 虫群的研究显示出装甲技术的进步。借助这项技术，飞船可以强化自己的船体：**船体装甲**是装入已制造飞船船体装甲槽位、为其增加船体值的装甲。它不是[增益](/wiki/06-Items/Boosters.md)页面里的 Hull Plating **Booster**，后者是限时加成。
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

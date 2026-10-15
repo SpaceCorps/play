@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
+<!-- wiki-i18n source: c84ea450afa0dee6 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
 **Asteroider** är stora stenar som ligger i flygplanet i koncernernas sektorer och i farosektorerna. De rör sig aldrig och skjuter aldrig. Spräng en med **raketer** eller **lasrar** så brister den i små **bitar** av krediter, Thulium och malm, som du plockar upp som [last](/wiki/03-Mechanics/Cargo.md). Raketer är rätt verktyg för jobbet: dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp, och drönare gör ingenting med den. En sak till spränger asteroider åt dig: en dockad **Mole**-P.E.T. ([nedan](#the-mole-pet)).
 
 Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,6 till 6,8 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Dagsgränserna i [Världarna](#the-worlds) sätter ett tak, och du når dem snart: i Alpha når en jämn brytare i en bra sektor Thulium-gränsen på under 2 timmar och kreditgränsen på ungefär 2,7 timmar.
+
+![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
 ## Vad en asteroid är {#what-an-asteroid-is}
 
@@ -59,7 +61,7 @@ En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbeta
 ## Reglerna {#the-rules}
 
 <!-- asteroids-rules:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 - En pilot som gjorde minst 5 % av skadan på en asteroid får en del av dess bitar, i proportion till skadan. När ingen når 5 % får piloten som gjorde mest skada alla.
 - En [grupp](/wiki/03-Mechanics/Groups.md#sharing-kills) räknas som en pilot, och dess del delas efter nivå mellan gruppmedlemmarna som är nära och skjuter.
@@ -80,7 +82,7 @@ En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbeta
 Varje värld, Alpha, Beta och Gamma, har egna asteroider på samma platser ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), så asteroiden du spränger i din värld är inte sprängd i en annan. En större värld ger ett större skrov och en större betalning.
 
 <!-- asteroids-worlds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Värld | Skrov | Betalning | Thulium-gräns | Kreditgräns |
 | :--- | ---: | ---: | ---: | ---: |
@@ -97,7 +99,7 @@ Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens f
 Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Ingen asteroid ligger nära en pulsar, som lyser från säsongens första dag; från säsongsdag 11 ligger ingen heller nära en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta.
 
 <!-- asteroids-maps:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Sektor | Asteroider | Från dag | Kommer tillbaka | Sorter |
 | :--- | ---: | ---: | ---: | :--- |
@@ -123,7 +125,22 @@ Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en 
 ## Sorterna {#the-kinds}
 
 <!-- asteroids-kinds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+
+### Nivåer och P.E.T.-delar {#tiers-and-pet-parts}
+
+En asteroids **nivå** är den ring av sektorer som dess sort tillhör: nivå 1 till 4 är sektorerna x-1 till x-4 hos de tre koncernerna och nivå 5 farosektorerna. Nivån stiger med storleken: ju större asteroid, desto högre nivå. De två är dock inte samma sak: de flesta nivåer rymmer två storlekar, som tabellen anger. Målfönstret och kortet som visas när du pekar på en asteroid visar dess familj, storlek och nivå.
+
+Nivån avgör också ett eget fynd: en **P.E.T.-del**, en Cluster Chunk som [P.E.T.](/wiki/03-Mechanics/Pets.md)-vaggan tar emot. Tabellen anger chansen att en sönderslagen asteroid lämnar varje grad (ett streck: aldrig). Asteroider på nivå 1 lämnar inga. Varje grad slumpas en gång per sönderslagen asteroid, piloten som gjorde mest skada får chunken hel, och tur ändrar inte chanserna. Motherlode har egna chanser. Markera en asteroid, så listar målfönstret P.E.T.-delarna för dess sort.
+
+| Nivå | Sektorer | Storlek | Sorter | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| 1 | `x-1` | Pytteliten, Liten | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
+| 2 | `x-2` | Liten, Medelstor | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4 % | – | – |
+| 3 | `x-3` | Medelstor | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8 % | 0,15 % | – |
+| 4 | `x-4` | Medelstor, Stor | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1 % | 0,25 % | 0,03 % |
+| 5 | Farosektorer | Stor | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2 % | 0,3 % | 0,1 % |
+| 5 | Farosektorer | Enorm | Motherlode | 25 % | 8 % | 3 % |
 
 Det finns 27 sorters asteroider, i 8 familjer. **Gjord för** namnger raketen en sort är balanserad för och ungefär hur många av den en sprängning tar i Alpha. **Fynd** är malmen och de sällsynta fynden som en sprängning slumpar fram och som dess bitar delar på: en procentsats är chansen för den raden, de andra raderna hittas alltid. Krediterna och Thulium är Alpha-beloppen för en sprängning.
 
@@ -131,84 +148,84 @@ Det finns 27 sorters asteroider, i 8 familjer. **Gjord för** namnger raketen en
 
 Vanlig sten: inget pansar och ingen svag punkt.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Pebble** | 8 500 | Pytteliten | – | 1 | Ungefär 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 600–11 100 | 22 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49 %) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Cobble** | 10 000 | Liten | – | 1 | Ungefär 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 300–10 500 | 25 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89 %) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Dark Chondrite** | 12 000 | Liten | – | 1 | Ungefär 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7 050–11 850 | 65 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `T-1`, `M-2`, `T-2`, `G-2` |
-| **Vein Rock** | 18 000 | Liten | – | 1 | Ungefär 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 350–22 200 | 50 % för 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2`, `G-2` |
-| **Slag Block** | 24 000 | Medelstor | – | 2 | Ungefär 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18 600–31 050 | 50 % för 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95 %), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
-| **Cataclast** | 36 000 | Medelstor | – | 2 | Ungefär 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22 350–37 200 | 50 % för 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
-| **Lode Rock** | 52 000 | Medelstor | – | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34 950–58 200 | 50 % för 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3`, `G-4` |
-| **Cataclysite Mass** | 72 000 | Stor | – | 2 | Ungefär 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44 700–74 550 | 50 % för 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
-| **Rich Lode** | 80 000 | Stor | – | 3 | Ungefär 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61 800–103 050 | 50 % för 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Pebble** | 8 500 | Pytteliten | 1 | – | 1 | Ungefär 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 600–11 100 | 22 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49 %) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Cobble** | 10 000 | Liten | 1 | – | 1 | Ungefär 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 300–10 500 | 25 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89 %) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Dark Chondrite** | 12 000 | Liten | 2 | – | 1 | Ungefär 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7 050–11 850 | 65 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `T-1`, `M-2`, `T-2`, `G-2` |
+| **Vein Rock** | 18 000 | Liten | 2 | – | 1 | Ungefär 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 350–22 200 | 50 % för 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2`, `G-2` |
+| **Slag Block** | 24 000 | Medelstor | 3 | – | 2 | Ungefär 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18 600–31 050 | 50 % för 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95 %), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
+| **Cataclast** | 36 000 | Medelstor | 3 | – | 2 | Ungefär 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22 350–37 200 | 50 % för 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
+| **Lode Rock** | 52 000 | Medelstor | 3 | – | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34 950–58 200 | 50 % för 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3`, `G-4` |
+| **Cataclysite Mass** | 72 000 | Stor | 4 | – | 2 | Ungefär 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44 700–74 550 | 50 % för 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
+| **Rich Lode** | 80 000 | Stor | 5 | – | 3 | Ungefär 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61 800–103 050 | 50 % för 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 ### Is {#ice}
 
 Frusen sten: inget pansar och ingen svag punkt.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Rime** | 12 000 | Liten | – | 1 | Ungefär 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8 250–13 800 | 55 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77 %) | `T-1`, `G-1`, `T-2` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Rime** | 12 000 | Liten | 1 | – | 1 | Ungefär 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8 250–13 800 | 55 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77 %) | `T-1`, `G-1`, `T-2` |
 
 ### Kristall {#crystal}
 
 Spröd: en områdesexplosion gör mer mot en kristallasteroid än en direktträff.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Glimmer** | 9 000 | Pytteliten | Explosioner ×1,6 | 1 | Ungefär 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 150–10 350 | 41 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77 %) | `M-1`, `G-1`, `G-2` |
-| **Nyx Geode** | 26 000 | Medelstor | Explosioner ×1,6 | 2 | Ungefär 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16 650–27 750 | 50 % för 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `G-1`, `T-2`, `G-2` |
-| **Quorvium Boulder** | 48 000 | Medelstor | Explosioner ×1,6 | 2 | Ungefär 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29 850–49 650 | 50 % för 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
-| **Prism Cluster** | 100 000 | Stor | Explosioner ×1,6 | 3 | Ungefär 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71 700–119 550 | 50 % för 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-3`, `DS-4` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Glimmer** | 9 000 | Pytteliten | 1 | Explosioner ×1,6 | 1 | Ungefär 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 150–10 350 | 41 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77 %) | `M-1`, `G-1`, `G-2` |
+| **Nyx Geode** | 26 000 | Medelstor | 2 | Explosioner ×1,6 | 2 | Ungefär 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16 650–27 750 | 50 % för 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `G-1`, `T-2`, `G-2` |
+| **Quorvium Boulder** | 48 000 | Medelstor | 4 | Explosioner ×1,6 | 2 | Ungefär 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29 850–49 650 | 50 % för 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
+| **Prism Cluster** | 100 000 | Stor | 5 | Explosioner ×1,6 | 3 | Ungefär 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71 700–119 550 | 50 % för 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-3`, `DS-4` |
 
 ### Skrot {#salvage}
 
 Vrak och kapslar: de innehåller Ship Fragments.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Cache Pod** | 14 000 | Pytteliten | – | 1 | Ungefär 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9 000–15 000 | 29 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78 %) | `M-1`, `T-1` |
-| **Scrap Hulk** | 20 000 | Liten | – | 1 | Ungefär 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12 150–20 250 | 92 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2` |
-| **Derelict Hulk** | 52 000 | Medelstor | – | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33 150–55 200 | 50 % för 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3` |
-| **Derelict Cruiser** | 72 000 | Stor | – | 2 | Ungefär 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46 200–76 950 | 50 % för 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Cache Pod** | 14 000 | Pytteliten | 1 | – | 1 | Ungefär 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9 000–15 000 | 29 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78 %) | `M-1`, `T-1` |
+| **Scrap Hulk** | 20 000 | Liten | 2 | – | 1 | Ungefär 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12 150–20 250 | 92 % för 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2` |
+| **Derelict Hulk** | 52 000 | Medelstor | 3 | – | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33 150–55 200 | 50 % för 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3` |
+| **Derelict Cruiser** | 72 000 | Stor | 4 | – | 2 | Ungefär 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46 200–76 950 | 50 % för 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
 
 ### Järn {#iron}
 
 Pansrad: varje träff förlorar poäng till pansaret, så de kräver starkare raketer än skrovet antyder.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ironhide** | 14 000 | Liten | Pansar 500 | 1 | Ungefär 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 650–22 650 | 50 % för 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-1`, `M-2`, `G-2` |
-| **Plateback** | 36 000 | Medelstor | Pansar 1 500 | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31 650–52 800 | 50 % för 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `G-3`, `M-4` |
-| **Anvil** | 80 000 | Stor | Pansar 3 000 | 2 | Ungefär 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84 900–141 450 | 50 % för 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `G-4`, `DS-2` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ironhide** | 14 000 | Liten | 2 | Pansar 500 | 1 | Ungefär 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 650–22 650 | 50 % för 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-1`, `M-2`, `G-2` |
+| **Plateback** | 36 000 | Medelstor | 3 | Pansar 1 500 | 2 | Ungefär 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31 650–52 800 | 50 % för 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `G-3`, `M-4` |
+| **Anvil** | 80 000 | Stor | 4 | Pansar 3 000 | 2 | Ungefär 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84 900–141 450 | 50 % för 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `G-4`, `DS-2` |
 
 ### Skatt {#treasure}
 
 De bästa betalarna: var och en betalar mer krediter och Thulium än den genomsnittliga asteroiden i sin ring.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Medelstor | Explosioner ×1,6 | 2 | Ungefär 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
-| **Thulium Cluster** | 100 000 | Stor | – | 2 | Ungefär 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
-| **Vault Rock** | 130 000 | Stor | – | 3 | Ungefär 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50 % för 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
-| **Star Crystal** | 150 000 | Stor | Explosioner ×1,6 | 3 | Ungefär 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Thulium Geode** | 66 000 | Medelstor | 3 | Explosioner ×1,6 | 2 | Ungefär 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Cluster** | 100 000 | Stor | 4 | – | 2 | Ungefär 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
+| **Vault Rock** | 130 000 | Stor | 4 | – | 3 | Ungefär 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50 % för 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
+| **Star Crystal** | 150 000 | Stor | 5 | Explosioner ×1,6 | 3 | Ungefär 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
 
 ### Relik {#relic}
 
 Skalet av ett dött svärmskepp: pansrat och rikt på sällsynta fynd.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ancient Husk** | 120 000 | Stor | Pansar 2 000 | 3 | Ungefär 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114 300–190 350 | 50 % för 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10 %) | `DS-1`, `DS-2`, `DS-4` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ancient Husk** | 120 000 | Stor | 5 | Pansar 2 000 | 3 | Ungefär 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114 300–190 350 | 50 % för 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10 %) | `DS-1`, `DS-2`, `DS-4` |
 
 ### Titan
 
 Den största av alla, en sten för en grupp.
 
-| Sort | Skrov | Storlek | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Motherlode** | 450 000 | Enorm | – | 3 | Ungefär 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348 900–581 400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Motherlode** | 450 000 | Enorm | 5 | – | 3 | Ungefär 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348 900–581 400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 <!-- asteroids-kinds:end -->
 

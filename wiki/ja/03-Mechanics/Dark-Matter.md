@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** は、技術ツリーの最上位、鍛冶場の最も高い2段階、そして各強化系統の最終ティアの背後にある資源です。買うことも掘ることもできず、通常のエイリアンも落としません。**ブラックホール（black hole）**に **N.I.K.E.** ロケットを撃ち込んで**作り出し**、ブラックホールが投げ返すコンテナを拾います。**Dark Matter Plate** は、その製作レシピを研究したあと、アセンブリで Dark Matter から圧縮して作ります。このページでは、それぞれがどこから来るのか、何に使うのか、どの順で進めるのかを説明します。シーズン11日目からは、Dark Matter は**巨大掘削機の燃料**でもあり（[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)）、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) の一部のエイリアンも少し落とします。
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## 1分でわかる要点 {#in-one-minute}
 

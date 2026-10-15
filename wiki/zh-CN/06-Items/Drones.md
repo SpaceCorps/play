@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: 无人机 -->
 # 无人机 {#drones}
 
 无人机是可购买或可制造的支援单位。你最多可同时启用 **8 台无人机**，Slave Drone 和 Master Drone 合计。下面科技树里的十六种**无人机编队**不是无人机：你研究并制作它们，从快捷栏一次启用一个，只有在你拥有至少一架无人机时它们才会生效（见[无人机编队](/wiki/03-Mechanics/Formations.md)）。
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

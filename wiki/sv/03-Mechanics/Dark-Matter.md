@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** är resursen bakom toppen av teknologiträdet, Smedjans två högsta steg och sista nivån i varje uppgraderingskedja. Du kan varken köpa eller bryta den, och vanliga utomjordingar tappar den inte: du **tillverkar den vid det svarta hålet (black hole)** genom att skjuta **N.I.K.E.**-raketer in i det, och plockar upp lådorna som det kastar tillbaka. En **Dark Matter Plate** pressas i Monteringen av Dark Matter, när du har forskat fram receptet. Den här sidan säger var var och en kommer ifrån, vad den används till och i vilken ordning du gör saker. Från säsongsdag 11 är Dark Matter också **jättegrävmaskinernas bränsle** ([Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)), och några utomjordingar i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) tappar lite.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## På en minut {#in-one-minute}
 

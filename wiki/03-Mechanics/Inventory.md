@@ -2,6 +2,9 @@
 
 The Hangar allows you to manage your ships and equipment. Equipping items effectively is key to survival and dominance. You can do it at the station, and in flight from inside a safe zone: see [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md).
 
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../img/wiki-img/shots/inventory-marquee.jpg)
+
 ## Equipment Slots & Stat Efficiencies
 
 Unlike traditional space games, SpaceCorps features dynamically tiered equipment slots that scale the effectiveness of fitted modules.
@@ -24,6 +27,10 @@ The inventory lists your items in the same order as the Shop, whatever order you
 ## Marketable items
 
 Items you earned (drops, mission rewards, and what the Assembly and the Forge make) carry a small **Marketable** tag on their tile, and the item card reads "Marketable", or "Marketable (3 of 5)" for a stack of which only some units can be sold. The **Marketable only** chip beside the category chips shows only those items. A **gavel** beside the trash of a tagged item opens the sell sheet of the [Auction](/wiki/03-Mechanics/Auction.md) (it is not shown in flight: selling is a page of the station). What you bought, won or were given has no tag and can't be sold again.
+
+## Select several items
+
+Press on an empty part of the inventory (the margin beside the tiles, the gap between two tiles or the space under the last row) and drag: a translucent rectangle follows the pointer, and every tile it touches is selected while you drag. Let go and the selection stays; the title row counts it ("3 selected"). Hold **Shift**, **Ctrl** or **Cmd** while you drag to add to the selection: tiles it already holds that the rectangle touches are let go instead. A plain drag starts a new selection. **Esc**, a click on empty space or the button beside the trash in the title row clears it; **Esc** in the middle of a drag cancels the drag. At the top or bottom edge of a long inventory the list scrolls by itself. A press on a tile is still the tile's own: click to equip, drag to a slot. The trash button in the title row deletes the selected items after a question that lists them (a stack of identical Extras goes as a whole); it is not offered while the Hangar in flight is locked. An item fitted in the Skylab cannot be selected, and only what the search and the category chips leave on the grid can be. A soft tick sounds when the rectangle takes one more tile (it follows the Button Sounds switch in the settings).
 
 ## Item-to-Item Equipping (Sub-Sockets)
 

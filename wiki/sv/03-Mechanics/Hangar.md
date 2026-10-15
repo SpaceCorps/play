@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3449d9b082e18d30 -->
+<!-- wiki-i18n source: 7162db398da356a1 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -27,7 +27,7 @@ Pågående reparationer hindrar dig inte. Överallt annars öppnas Hangarfönstr
 - **Extrautrustning.** De fyra vanliga skeppen, Protos, Kitefin, Ostirion och Nomad (de du börjar med eller köper), har 2 extraplatser per konfiguration; de fyra skepp du tillverkar i Monteringen, Paragon, Ironclad, Wraith och Storm, har 3. Extra Slots CPU i din Skylab lägger till 3, 5 eller 7: 5, 7 eller 9 på de vanliga och 6, 8 eller 10 på de tillverkade ([Extrautrustning](/wiki/06-Items/Extras.md#extra-slots-cpus)). När 0.4.10 kom togs en tredje extrautrustning på ett vanligt skepp av och hamnade i ditt inventarie: inget raderades, och du fick ett chattmeddelande.
 - **Skrovpansar.** De fyra skeppen du tillverkar har [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för skrovpansar, var och en låst tills du forskar fram den i Skylab. Ett pansar du monterar eller tar av behåller din andel skrov, och det sitter kvar när du byter konfiguration.
 - **Utseende.** Avsnittet **Utseende** i vyn Rymdskepp, efter skrovpansaret, och rutan **Drönarnas lackering** i vyn Drönare öppnar **Garderoben**, där du provar skins, auror och avgasspår på ditt roterande skepp innan du bär dem. Där utrustning går att byta går utseendet också att byta ([Kosmetik](/wiki/06-Items/Cosmetics.md)).
-- **P.E.T.s.** Vyn **P.E.T.** innehåller Vaggan, där en Cluster Chunk och en Orvium Reinforced Plate blir en P.E.T., platserna i P.E.T. Station och korsningen. Under flygning visar den bara vad du har: montera, docka, docka av och korsa går bara med skeppet landat vid en station ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
+- **P.E.T.s.** Vyn **P.E.T.** innehåller Vaggan, där en Cluster Chunk och en Orvium Reinforced Plate blir en P.E.T., P.E.T. Station (dess platser, var den är monterad och om den är PÅ) och korsningen. Under flygning visar den bara vad du har: montera, docka, docka av och korsa går bara med skeppet landat vid en station ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Att sälja ingår inte i fönstret: klubban som öppnar [Auktionen](/wiki/03-Mechanics/Auction.md) hör till stationens Hangar, och Auktionen är själv en sida på stationen.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Visão geral -->
 # Visão geral dos itens {#items-overview}
 
@@ -118,6 +118,7 @@ A Loja, o inventário do hangar e as outras listas de itens seguem uma só ordem
 - **Repair Drones**: extras que reparam seu casco, cada um mais rápido que o anterior: o Repair Drone I, o II e o III custam 5.000, 15.000 e 35.000 créditos, o Repair Drone IV custa 2.000 Thulium. As taxas estão em [Combate](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPUs**: extras para uma luta ou uma fuga: uma Cloaking CPU esconde sua nave até você encerrar a camuflagem (S, M e L: 10, 25 e 50 usos, 5.000, 11.250 e 20.000 Thulium). Veja [Extras](/wiki/06-Items/Extras.md).
 - **EMP Charge**: um consumível que você leva em uma pilha, como os foguetes, e que não ocupa slot (500 Thulium por carga, no máximo 20): deixa você impossível de travar por 3 segundos, desfaz todas as travas sobre você e encerra todas as camuflagens por perto. Veja [Foguetes](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I e II**: também consumíveis, levadas em uma pilha e sem ocupar slot: uma pressão ergue no seu cursor uma parede de plasma que recebe os tiros no seu lugar. A I custa 250 Thulium a parede na loja (20 no máximo), a II é feita na Montagem, uma por produção (10 no máximo). Veja [Extras](/wiki/06-Items/Extras.md#energetic-wall).
 - **CPUs de pesquisa**: as Extra Slots CPUs dão slots extras a toda nave, a Jump CPU leva você a um setor de corporação por Thulium, as Base CPUs levam você para casa e a Auto-Repair CPU lança o seu Repair Drone sozinha. Não são vendidas: você as pesquisa e depois as cria na Montagem. Veja [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Formações de drones**: dezesseis itens para os seus drones que dão bônus e cobram custos, como um escudo maior por armas mais fracas. Não são vendidas: pesquise-as e depois fabrique na Montagem com Thulium. Veja [Formações de drones](/wiki/03-Mechanics/Formations.md).
 - **Recursos**: o que os alienígenas deixam cair e o Skylab produz para a criação: Ship Fragments, os quatro cristais, Power Cores, as placas de Velkonite e de Orvium, e dois que vêm de outros lugares: a **Dark Matter**, que o [buraco negro](/wiki/03-Mechanics/Black-Hole.md) devolve em troca de um foguete N.I.K.E., e a **Dark Matter Plate**, que a Montagem prensa a partir dela para o último nível de cada cadeia de melhoria e as duas últimas etapas da [Forja](/wiki/06-Items/Forge.md).

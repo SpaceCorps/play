@@ -9,18 +9,19 @@ Forming or joining a Clan allows you to pool resources, level up shared banking,
 - The Leader and the Co-Leaders write [posts](#clan-posts) for the whole clan, every member sees [on which map](#where-your-clan-mates-are) the others fly, the [Who is online](#who-is-online) window (key **H**) invites any pilot of your world to your group, the Leader can pay a [daily bonus](#4-daily-bonus) from the Fleet Treasury, and the [Log](#fleet-log) tab tells the clan what happened in it.
 - In flight, the **Clan** button (a pennant) in the toolbar at the top left opens the **Clan window**: the station's Clan page in a window over the game, with the same tabs, answers and buttons, and its place and size remembered (game version 0.4.21 or later; [calling a Warden](#calling-a-warden) tells what is different in flight).
 - A war ends only when the other clan agrees, and an alliance or a pact ends at once when either clan cancels it ([Diplomacy](#diplomacy)).
-- Each season day your clan gets a [daily line](#daily-line): four missions done in order (kill aliens, fly a distance, sometimes bring down swarm bosses), then a [Clan Warden](#clan-wardens), a boss that you call and only your clan can hurt.
+- Each day your clan gets a [daily line](#daily-line): four missions done in order (kill aliens, fly a distance, sometimes bring down swarm bosses), then a [Clan Warden](#clan-wardens), a boss that you call and only your clan can hurt.
 - Every finished step pays clan points at once: 15, 15, 20, 20 and 30, so **100 points** for a whole line.
 - The Leader and the Co-Leaders spend the points on three [boosts](#clan-points-and-boosts) of ten levels each: **Damage** (up to +5%), **Thulium** (up to +10%) and **Credits** (up to +10%).
-- A clan that finishes every line has bought every level on **season day 12**. Points, levels and the clan itself end at the wipe.
+- A clan that finishes every line has bought every level on **day 12**. Points, levels and the clan itself end at the wipe.
 - You need at least **three members** who did their part, and **a big crew** for the Warden's fight: since 0.4.13 a Warden has five times the hull, shield and laser damage it had, so the crews that won before, about seven pilots, lose now ([how big a crew](#how-big-a-crew)). A crew that is too small loses the fight: the clan then keeps the **70 points** of the four missions, but the line is not finished and pays no [reward for you](#the-reward-for-you).
-- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of the map's aliens arrives every minute** (every 40 seconds for the Wrath Warden III, with a Crystalys in each wave once it is under half its hull), aimed at the pilots who hit the Warden ([waves](#waves-of-aliens)).
+- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of the map's aliens arrives every minute** (every 40 seconds for the Wrath Warden III), with a **Crystalys** in each wave once the Warden is under half its hull, aimed at the pilots who hit the Warden ([waves](#waves-of-aliens)).
 - Your ship shows the boosts it has in the **Boosters window**, on a card of its own ([where you see them](#the-three-boosts)).
 - The line and the boosts need a game of version 0.4.10 or later; the card in the Boosters window, 0.4.12 or later; the Clan Page, posts, the Online window, the daily bonus, peace requests, the log and clans per world, 0.4.16 or later.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../img/wiki-img/shots/clan-warden.jpg)
+![The Clan window in flight: the clan page over the game, with the clan's Operations](../img/wiki-img/shots/clan-window.jpg)
 
 ## Clans and Worlds
 
@@ -124,8 +125,8 @@ Clans operate on a tax-based financial system:
 The Leader can pay every member a fixed bonus out of the Fleet Treasury, once a day.
 
 - **Setting it.** In Management's **Daily bonus** card the Leader enters one amount for each rank: Pilot, Elder, Co-Leader and Leader. **0 turns a rank off**; any other amount is **1,000 to 1,000,000 Credits**. The Co-Leaders see the card and cannot change it. Saving takes nothing from the treasury. The card shows what a full day would cost if every pilot played and for how many days the treasury would last.
-- **Paying.** A member is paid **once per season day**, at his first check that day: when he connects, when the day rolls over while he is online, and when the Leader saves new amounts. A season day is the clan line's 24 hours, not midnight UTC ([The day](#the-day)). The pilot gets a System line and a Game Log line, and the Overview shows "Daily bonus: X credits" and whether it was paid today.
-- **Who.** A pilot who has been in the clan for **at least 24 hours**, and **one bonus per pilot per season day across all clans**: joining and leaving clans to collect more pays once.
+- **Paying.** A member is paid **once per day**, at his first check that day: when he connects, when the day rolls over while he is online, and when the Leader saves new amounts. The day is the clan line's day, which turns over at **00:00:00 UTC** ([The day](#the-day)). The pilot gets a System line and a Game Log line, and the Overview shows "Daily bonus: X credits" and whether it was paid today.
+- **Who.** A pilot who has been in the clan for **at least 24 hours**, and **one bonus per pilot per day across all clans**: joining and leaving clans to collect more pays once.
 - **A short treasury.** The treasury pays only what it holds and never goes below zero. When it cannot pay a member's amount, he is skipped for that day, even if the treasury is filled later in the day, and the [Fleet Log](#fleet-log) notes it once. Pilots are paid in the order they connect until the treasury runs dry.
 - **Not a payout.** The bonus does not use a member's daily payout limit.
 
@@ -214,8 +215,8 @@ Every clan gets one **daily line** a day: five steps, done **in order**, by the 
 
 ### The day
 
-- A clan's day is a **season day**: 24 hours counted from the start of the season ([Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). A new line starts at the same time every day, which is not midnight UTC (the clan's daily tax still runs at midnight UTC). The Operations tab counts down to the reset.
-- A line that is not finished **expires** when the day ends. The steps already done keep their points, the open step's progress is dropped, and there is no catching up. Lines run on season days 1 to 29.
+- A clan's day is a **UTC day**: it turns over at **00:00:00 UTC**, for every clan at the same moment, like the clan's daily tax. The Operations tab counts down to it. "Day *n* of 29" counts the UTC days of the season, the first being what is left of the day the season began on. A clan founded at 15:00 gets the line of that day for the rest of it, with the same counts, minimums and rewards. (The season's own day, which PvP, the swarms and the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule) count, still turns over at the time of day the season began.)
+- A line that is not finished **expires** when the day ends. The steps already done keep their points, the open step's progress is dropped, and there is no catching up. Lines run on days 1 to 29 of the season; the 29th line lasts until the wipe countdown begins.
 - The clan's pilots who are online get a System line when the new line starts, when a step is done and **one hour before the reset** if the line is not finished.
 
 ### Difficulty tiers
@@ -242,9 +243,9 @@ The tier decides how many aliens the missions ask for, which alien the "heavy" s
 
 ### The seven lines
 
-The lines come in a cycle of seven: the line of season day *d* is number 1 + ((*d* − 1) mod 7), so each one returns every seventh day. The counts are for a **Recruit / Veteran / Elite** clan. The two **Swarm Break** lines ask for swarm bosses and come only from day 4, when the [swarms](/wiki/05-Swarms/Swarms.md) appear. All counts are made for about **2.6 hours of play in all**, half an hour each for five pilots (an estimate, not a measurement).
+The lines come in a cycle of seven: the line of day *d* is number 1 + ((*d* − 1) mod 7), so each one returns every seventh day. The counts are for a **Recruit / Veteran / Elite** clan. The two **Swarm Break** lines ask for swarm bosses and come only from day 4, when the [swarms](/wiki/05-Swarms/Swarms.md) appear. All counts are made for about **2.6 hours of play in all**, half an hour each for five pilots (an estimate, not a measurement).
 
-| Line | Season days | Step 1 | Step 2 | Step 3 | Step 4 |
+| Line | Days | Step 1 | Step 2 | Step 3 | Step 4 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Seeker Sweep | 1, 8, 15, 22, 29 | 150 / 300 / 425 Seeker | 115,000 / 155,000 / 185,000 units | 21 / 70 / 130 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah |
 | Phantasm Purge | 2, 9, 16, 23 | 40 / 140 / 270 Phantasm | 60 / 120 / 170 Seeker | 175,000 / 230,000 / 275,000 units | 26 Phantasm / 15 Bulwark / 17 Goombah |
@@ -268,12 +269,15 @@ When the line is finished, which means the Warden is destroyed, every member who
 
 ## Clan Wardens
 
-A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands. Since 0.4.20 a Wrath Warden **goes after the pilot who hit it** instead of standing where it was called, the Wrath Warden III brings more aliens more often and a Crystalys under half its hull, and everything a Warden brings comes aimed at the pilots who hit it.
+A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands.
+Under half its hull a Warden's waves also hold [a Crystalys](#crystalys-waves).
+Since 0.4.20 a Wrath Warden **goes after the pilot who hit it** instead of standing where it was called, the Wrath Warden III brings more aliens more often and a Crystalys under half its hull, and everything a Warden brings comes aimed at the pilots who hit it.
+Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Warden has since 0.4.20, instead of standing where it was called or roaming.
 
-| Warden | Season days | Role | How it fights |
+| Warden | Days | Role | How it fights |
 | :--- | :--- | :--- | :--- |
-| **Brood Warden** | 1, 4, 7, 10 … | Hive keeper: split your fire | Four small **Brood Drones** heal its hull, and a new one comes every 8 seconds while fewer than four are alive (every 16 seconds for the Brood Warden III). Shoot the drones first, then the Warden. |
-| **Siege Warden** | 2, 5, 8, 11 … | Siegebreaker: keep moving | It roams and fires a straight [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) at the first pilot who hit it, and it mends itself. Two **Siege Escorts** add laser fire. Keep moving and take turns being the target. |
+| **Brood Warden** | 1, 4, 7, 10 … | Hive keeper: split your fire | It flies at the first pilot who hit it. Four small **Brood Drones** heal its hull, and a new one comes every 8 seconds while fewer than four are alive (every 16 seconds for the Brood Warden III). Shoot the drones first, then the Warden. |
+| **Siege Warden** | 2, 5, 8, 11 … | Siegebreaker: keep moving | It flies at the first pilot who hit it and fires a straight [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) at him, and it mends itself. Two **Siege Escorts** add laser fire. Keep moving and take turns being the target. |
 | **Wrath Warden** | 3, 6, 9, 12 … | Warlord: beat the rage | It flies at the first pilot who hit it, stops in its laser range and mends itself. Below half its hull its lasers hit **half again as hard**. Two **Wrath Guards** stay with it and add laser fire. Bring it down fast and keep your shields up. |
 
 ### Calling a Warden
@@ -289,21 +293,22 @@ A **Clan Warden** is the boss at the end of the daily line. It is not one of the
 ### Fighting a Warden
 
 - **A Warden fights the first pilot who hit it**, like any boss: let the sturdiest ship of the crew start, and use [Shield Surge and Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 18 to 26 pilots with x2 ammo and 26 to 38 with x1 ammo. The waves below are not in that calculation.
-- **Brood:** the drones heal its hull, and a crew that ignores them loses, even a big one. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III).
-- **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target.
-- **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free. The Brood and Siege Wardens are as they were: the Brood Warden stays where it was called, the Siege Warden keeps moving.
+- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 17 to 26 pilots with x2 ammo and 27 to 39 with x1 ammo. The waves below are not in that calculation.
+- **Brood:** the drones heal its hull, and a crew that ignores them loses, even a big one. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III). Since 0.4.22 the Brood Warden flies at the pilot who hit it, and its drones go with it and keep healing it.
+- **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target. Since 0.4.22 it no longer roams: it flies at the first pilot who hit it and fires its Rivet at him from up to 1,000 units.
+- **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free.
+- **All nine fly at the pilot who hit them (0.4.22).** The Brood and Siege Wardens do what the Wrath Warden has done since 0.4.20, each at its own speed (90 units a second for the Brood and Wrath Wardens, 110 for the Siege Warden), until they are inside their laser range (600, 700 or 800 units for the Brood and Siege Wardens by strength, 700, 800 or 900 for the Wrath Warden), so a weapon that reaches farther no longer shoots them for free. When nobody has hit one for 10 seconds it lets go and stands where it is: it does not fly back to where it was called. A pilot who is protected, in a safe zone or by the protection of a respawn, is let go at once.
 - **What a Warden brings comes for the pilot who hit it.** Since 0.4.20 every alien of a wave, and every drone, escort or guard that arrives while the Warden is fought, goes for the pilots who hit the Warden, the first of them first, in the moment it arrives, without being hit itself.
 
 ### Waves of aliens
 
-Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens of the map it stands on arrives **every 60 seconds**, for as long as the Warden stands. The table is the waves of eight of the nine Wardens; the [Wrath Warden III's waves](#wrath-iii-waves) are heavier.
+Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens of the map it stands on arrives **every 60 seconds**, for as long as the Warden stands. The table is the waves of eight of the nine Wardens; the [Wrath Warden III's waves](#wrath-iii-waves) are heavier. Under half its hull a Warden's waves also hold [a Crystalys](#crystalys-waves).
 
 | Map | A wave | Most alive at once |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15 |
-| x-3 | 10 Phantasm | 30 |
-| x-4 | 10 Bulwarks | 30 |
+| x-2 | 5 Phantasm | 15, and up to 3 Crystalys |
+| x-3 | 10 Phantasm | 30, and up to 3 Crystalys |
+| x-4 | 10 Bulwarks | 30, and up to 3 Crystalys |
 
 - **At most three waves are alive.** A wave is alive while one of its aliens is. A wave that is due when three are alive is skipped, not saved for later; the next one is due a minute after.
 - **They are the map's own aliens**, the kind that attack pilots, made as the map makes them: a stronger world gives them more hull, shield and damage ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). They arrive 500 to 1,200 units from the Warden, spread around it.
@@ -312,9 +317,30 @@ Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the
 - **The clan is told.** Each wave is announced in the chat's System tab and the Game Log: "Brood Warden I calls reinforcements on M-3: 10 Phantasm."
 - **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam and draw whoever comes near, as before.
 
+#### The Crystalys of every Warden {#crystalys-waves}
+
+Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: under half its hull (the line where a Wrath Warden enrages) **every wave it sends also holds one Crystalys**, on top of the wave's size. It is the same for the Brood, Siege and Wrath Wardens, in all three strengths. Above half its hull the wave comes without it, and a Warden that is mended above half sends the next wave without it again.
+
+- **The Crystalys** is the heaviest ordinary alien of the game: 256,000 hull, 160,000 shield, 10,000 damage a volley from 900 units, speed 230 (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **75,000 Credits, 200 Thulium, 12,000 XP and 52 honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the waves alive (three at most, four for the Wrath Warden III), and a wave that is due while the most are alive is skipped.
+- **They are told as two lines**: "Wrath Warden III calls reinforcements on M-3: 15 Phantasm." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
+- **What they pay.** A whole wave of 10 Bulwarks pays 50,000 Credits in Alpha, and with its Crystalys 125,000: under 5% of the 2,700,000 the weakest Warden pays.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with the waves and their Crystalys in it, gives these smallest crews with x2 ammo, in the gear of the Warden's own tier, in Alpha. A level 3 clan holds 50 members and a level 5 clan 100. Like the table there, they are calculated and not measured, and the best case; in Gamma, where the aliens of the waves are twice as strong, they are bigger still.
+
+| Warden | x-2 | x-3 | x-4 |
+| :--- | ---: | ---: | ---: |
+| Brood Warden I | 43 | 45 | 69 |
+| Siege Warden I | 39 | 40 | 56 |
+| Wrath Warden I | 44 | 46 | 62 |
+| Brood Warden II | 39 | 40 | 48 |
+| Siege Warden II | 27 | 33 | 39 |
+| Wrath Warden II | 33 | 39 | 44 |
+| Brood Warden III | 21 | 21 | 23 |
+| Siege Warden III | 26 | 25 | 28 |
+| Wrath Warden III | 32 | 32 | 39 |
+
 #### The Wrath Warden III's waves {#wrath-iii-waves}
 
-Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every **40 seconds**, three quarters of the number of that alien the map holds, and up to **four waves** alive. Under half its hull (the line where it enrages) **every wave also holds one Crystalys**, on top of the wave's size.
+Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every **40 seconds**, three quarters of the number of that alien the map holds, and up to **four waves** alive. Like every Warden it adds [a Crystalys](#crystalys-waves) to a wave under half its hull.
 
 | Map | A wave | Most alive at once |
 | :--- | :--- | ---: |
@@ -322,11 +348,9 @@ Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every 
 | x-3 | 15 Phantasm | 60, and up to 4 Crystalys |
 | x-4 | 15 Bulwarks | 60, and up to 4 Crystalys |
 
-- **The Crystalys** is the heaviest ordinary alien of the game: 256,000 hull, 160,000 shield, 10,000 damage a volley from 900 units, speed 230 (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **75,000 Credits, 200 Thulium, 12,000 XP and 52 honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the four waves alive.
-- **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens. Above half its hull the Warden sends the wave without the Crystalys.
-- **They are told as two lines**: "Wrath Warden III calls reinforcements on M-3: 15 Phantasm." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
+- **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens.
 - **What they pay.** A whole wave of 15 Bulwarks pays 75,000 Credits in Alpha, and with its Crystalys 150,000: about 2% of the 7,200,000 the Warden itself pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **31 pilots on x-2, 32 on x-3 and 38 on x-4** with x2 ammo (26 without waves), and 36, 38 and 50 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members. Like the table there, it is calculated and not measured, and the best case.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **32 pilots on x-2, 32 on x-3 and 39 on x-4** with x2 ammo (26 without waves), and 39, 41 and 51 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so 51 on x-4 in Gamma is one more than it can send. Like the table there, it is calculated and not measured, and the best case.
 
 ### How big a crew
 
@@ -338,15 +362,15 @@ The table is the best case; in play, bring everyone you can.
 | Crew | With x2 ammo | With x1 ammo |
 | :--- | :--- | :--- |
 | 5 pilots | lose to every Warden; the Warden keeps 88 to 96% of its hull and shield | lose |
-| 10 pilots | lose to every Warden; the Warden keeps 55 to 85% of its hull and shield | lose |
-| 20 pilots | win only against the Siege Warden I and II, in 8.5 to 8.6 minutes, losing 7 ships, and against the Brood Warden III, in 3.7 minutes, losing 8 ships | lose |
-| 30 pilots | win against every Warden in 2.0 to 5.1 minutes, losing 3 to 10 ships | win only against the Siege Warden I and II, in 12.6 to 12.8 minutes, losing 10 ships, and against the Brood Warden III, in 5.0 minutes, losing 11 ships |
+| 10 pilots | lose to every Warden; the Warden keeps 55 to 86% of its hull and shield | lose |
+| 20 pilots | win only against the Siege Warden I and II, in 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.9 minutes, losing 9 ships | lose |
+| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.5 to 10.6 minutes, losing 9 ships, and against the Brood Warden III, in 5.3 minutes, losing 13 ships |
 
-In the calculation the smallest crew that wins with x2 ammo has **18 to 26 pilots** (the fewest against the Siege Warden I and II and the Brood Warden III) and loses **9 to 17** ships doing it; with x1 ammo it has **26 to 38** pilots and loses 13 to 27. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 19 to 59 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
+In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 19** ships doing it; with x1 ammo it has **27 to 39** pilots and loses 13 to 27. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
 
 The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
 
-**A clan too small for its Warden** is not shut out. The four missions pay their **70 points** whatever happens to the Warden, the points buy boosts, and the clan can call the Warden again if it has a summon left (there are two a day): if the crew falls and stays away, the Warden withdraws, which costs one summon, and the next call brings it back at full strength. But the line is not finished, so nobody gets the [reward for you](#the-reward-for-you), and a clan that never kills its Warden has all 30 boost levels on season day 18 at the soonest, not on day 12 ([how long it takes](#how-long-it-takes)).
+**A clan too small for its Warden** is not shut out. The four missions pay their **70 points** whatever happens to the Warden, the points buy boosts, and the clan can call the Warden again if it has a summon left (there are two a day): if the crew falls and stays away, the Warden withdraws, which costs one summon, and the next call brings it back at full strength. But the line is not finished, so nobody gets the [reward for you](#the-reward-for-you), and a clan that never kills its Warden has all 30 boost levels on day 18 at the soonest, not on day 12 ([how long it takes](#how-long-it-takes)).
 
 ### Warden numbers
 
@@ -455,7 +479,7 @@ The price of a level is **22 clan points plus 4 for every level before it**, and
 
 ### How long it takes
 
-A clan that finishes every line earns 100 points a day. If the officers buy evenly across the three boosts, it has **4 levels after the first line, 10 after the third, 16 after the fifth and all 30 on season day 12**. Fourteen lines are over when day 15 begins, so such a clan has two lines to spare. A day that is not finished still pays for the steps done: a clan that gets through the four missions but never kills its Warden earns 70 points a day and has all 30 levels on season day 18 at the soonest. After the last level the line keeps running and keeps paying the reward for you; the points go on adding to what the clan earned this season, which the hover tip of the clan points on the Clan boosts card shows.
+A clan that finishes every line earns 100 points a day. If the officers buy evenly across the three boosts, it has **4 levels after the first line, 10 after the third, 16 after the fifth and all 30 on day 12**. Fourteen lines are over when day 15 begins, so such a clan has two lines to spare. A day that is not finished still pays for the steps done: a clan that gets through the four missions but never kills its Warden earns 70 points a day and has all 30 levels on day 18 at the soonest. After the last level the line keeps running and keeps paying the reward for you; the points go on adding to what the clan earned this season, which the hover tip of the clan points on the Clan boosts card shows.
 
 ### Points and the wipe {#clan-points-and-the-wipe}
 

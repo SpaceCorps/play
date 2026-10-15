@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: レシピブック -->
 # レシピブックとビルド {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 **レシピブック**は、ゲーム内のあらゆるアイテムについて「これには何が必要？」に答えます。何からできているかを示す図、順番どおりの手順、費用の全体、そしてすべての素材の入手元です。**ビルド**は、同じことを船まるごとについて行います。ハンガーの装備や友達のビルドをインポートし、15種類のプリセットから始めるか自分で作って、ステータスと費用の全体を手順ごとに確認できます。どちらもステーションの**ライブラリ**にあり、Wiki の下に並んでいます。
 
 レシピブックは独自の価格表を持ちません。ショップ、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)、[研究](/wiki/03-Mechanics/Research.md)が使うレシピ、価格、技術、ドロップ表から、見たその場で数字を計算します。そのため、価格やレシピが変わればゲームに合わせて変わります。このページに価格もステータスも書いていないのはそのためです。アイテムやビルドを開いて確認してください。
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## 開く {#open-it}
 

@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario y equipamiento {#inventory-equipment}
 
 El hangar te permite gestionar tus naves y tu equipo. Equipar bien los objetos es clave para sobrevivir y dominar. Puedes hacerlo en la estación y en vuelo desde dentro de una zona segura: consulta [El hangar en vuelo](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Ranuras de equipo y eficiencia de estadísticas {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ El inventario enumera tus objetos en el mismo orden que la tienda, sea cual sea 
 ## Objetos comercializables {#marketable-items}
 
 Los objetos que has ganado (botín, recompensas de misiones y lo que fabrican el Ensamblaje y la Forja) llevan una pequeña etiqueta **Comercializable** en su casilla, y la tarjeta del objeto dice «Comercializable» o, en una pila de la que solo se pueden vender algunas unidades, «Comercializable (3 de 5)». El chip **Solo comercializable**, junto a los chips de categoría, muestra solo esos objetos. Un **martillo** junto a la papelera de un objeto con etiqueta abre la hoja de venta de la [Subasta](/wiki/03-Mechanics/Auction.md) (en vuelo no se muestra: vender es una página de la estación). Lo que has comprado, ganado o te han regalado no lleva etiqueta y no se puede volver a vender.
+
+## Seleccionar varios objetos {#select-several-items}
+
+Pulsa en una parte vacía del inventario (el margen junto a las casillas, el hueco entre dos casillas o el espacio bajo la última fila) y arrastra: un rectángulo translúcido sigue al puntero, y cada casilla que toca queda seleccionada mientras arrastras. Si sueltas, la selección se queda; la fila del título la cuenta («3 seleccionados»). Mantén **Mayús**, **Ctrl** o **Cmd** mientras arrastras para añadir a la selección: las casillas que ya estaban seleccionadas y que toca el rectángulo se sueltan. Un arrastre normal empieza una selección nueva. **Esc**, un clic en un espacio vacío o el botón junto a la papelera en la fila del título la quita; **Esc** en mitad de un arrastre cancela el arrastre. En el borde superior o inferior de un inventario largo la lista se desplaza sola. Pulsar una casilla sigue siendo cosa de la casilla: clic para equipar, arrastrar a una ranura. La papelera de la fila del título elimina los objetos seleccionados tras una pregunta que los enumera (una pila de Extras idénticos se va entera); no se ofrece mientras el Hangar en vuelo está bloqueado. Un objeto montado en el Skylab no se puede seleccionar, y solo se puede lo que la búsqueda y los chips de categoría dejan en la cuadrícula. Suena un tic suave cuando el rectángulo toma una casilla más (sigue el interruptor «Sonidos de botones» de los ajustes).
 
 ## Instalar objetos en objetos (subranuras) {#item-to-item-equipping-sub-sockets-}
 

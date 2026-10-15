@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Receptbok -->
 # Receptbok och builds {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 **Receptboken** svarar på ”vad krävs för det här?” för vilket föremål som helst i spelet: ett diagram över vad det är gjort av, stegen i ordning, hela kostnaden och var varje råvara kommer ifrån. **Builds** gör detsamma för ett helt skepp: importera utrustningen från ditt hangar eller en väns build, börja med en av de 15 förinställningarna eller gör en egen, och se dess värden och hela kostnaden, steg för steg. Båda finns i stationens **Bibliotek**, under Wikin.
 
 Receptboken har ingen egen prislista: den räknar ut sina siffror medan du tittar, av de recept, priser, teknologier och droptabeller som Butiken, [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) och [Forskningen](/wiki/03-Mechanics/Research.md) använder, och följer därför spelet när ett pris eller ett recept ändras. Det är därför den här sidan inte anger något pris eller några värden: öppna föremålet eller builden.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Öppna den {#open-it}
 

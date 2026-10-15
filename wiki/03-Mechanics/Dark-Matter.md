@@ -5,6 +5,7 @@
 **Dark Matter** is the resource behind the top of the technology tree, the two highest steps of the Forge and the last tier of every upgrade chain. You cannot buy it, mine it or take it from ordinary aliens: you **make it at the black hole** by firing **N.I.K.E.** rockets into it, and you pick up the crates it throws back. A **Dark Matter Plate** is pressed from Dark Matter in Assembly, once you have researched its recipe. This page says where each one comes from, what it is for and the order to do things in. From season day 11 Dark Matter is also the **fuel of the giant excavators** ([Giant Excavator](/wiki/03-Mechanics/Giant-Excavator.md)), and a few aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) drop a little.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../img/wiki-img/shots/research-queue.jpg)
 
 ## In one minute
 

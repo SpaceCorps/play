@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; mascote; companheiro; berço; códice; cruzar; acoplar; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; mascote que trabalha; mineração; coletar; alcance; parado; pulso -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; interruptor; barra de atalhos; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; mascote; companheiro; berço; códice; cruzar; acoplar; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; mascote que trabalha; mineração; coletar; alcance; parado; pulso -->
 
-Um **P.E.T.** (Personal Escort Technology) é um pequeno companheiro que voa ao lado da sua nave e lhe dá bônus: mais créditos, mais Thulium, mais casco ou escudo, mais dano ou mais sorte. Dois dos dez tipos também trabalham para você enquanto você voa: o **Retriever** pega as caixas de carga ao redor da sua nave e o **Mole** quebra asteroides. Você encontra **Cluster Chunks** em asteroides quebrados, põe um com uma Orvium Reinforced Plate no **Berço** do seu hangar e, algum tempo depois, um P.E.T. nasce. Você o **acopla** na sua **P.E.T. Station**; a partir da sua próxima decolagem ele dá os bônus, ganha experiência e voa ao lado da nave como um drone minúsculo.
+Um **P.E.T.** (Personal Escort Technology) é um pequeno companheiro que voa ao lado da sua nave e lhe dá bônus: mais créditos, mais Thulium, mais casco ou escudo, mais dano ou mais sorte. Dois dos dez tipos também trabalham para você enquanto você voa: o **Retriever** pega as caixas de carga ao redor da sua nave e o **Mole** quebra asteroides. Você encontra **Cluster Chunks** em asteroides quebrados, põe um com uma Orvium Reinforced Plate no **Berço** do seu hangar e, algum tempo depois, um P.E.T. nasce. Você o **acopla** na sua **P.E.T. Station**, um [Extra](/wiki/06-Items/Extras.md) que você equipa em um slot de extras da sua nave; enquanto a Station está em **ON**, o P.E.T. acoplado dá os bônus, ganha experiência e voa ao lado da nave como um drone pequeno, e enquanto está em **OFF** ele não faz nada disso.
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## Em um minuto {#in-one-minute}
 
-- **Consiga a Station.** Pesquise uma **P.E.T. Station** no centro de pesquisa e fabrique-a na Montagem. Ela tem três níveis, com lugar para **2, 3 e 5** P.E.T.s. O Berço funciona sem ela: você pode chocar P.E.T.s antes de ter uma Station.
+- **Consiga a Station.** Pesquise uma **P.E.T. Station** no centro de pesquisa e fabrique-a na Montagem. Ela tem três níveis, com lugar para **2, 3 e 5** P.E.T.s. Equipe-a em um slot de extras da nave que você pilota. O Berço funciona sem ela: você pode chocar P.E.T.s antes de ter uma Station.
 - **Ache chunks.** Quebre asteroides a partir do segundo nível: um **Regular**, um **Mythical** ou um **Legendary Cluster Chunk** pode ficar inteiro no bloco de minério do grupo que causou mais dano.
 - **Choque.** Na visão **P.E.T.** do hangar, o Berço leva um chunk e uma Orvium Reinforced Plate para cada P.E.T. e tem quatro lugares na fila. O grau do chunk decide quantos bônus o P.E.T. tem: **1, 2 ou 3**.
-- **Acople e voe.** Acople os P.E.T.s que quiser enquanto a sua nave está pousada. Eles dão os bônus a partir da sua próxima decolagem e ganham experiência enquanto você caça, minera e voa, até o nível 20.
+- **Acople e voe.** Acople os P.E.T.s que quiser enquanto a sua nave está pousada. Com uma Station equipada e em ON, eles dão os bônus e ganham experiência enquanto você caça, minera e voa, até o nível 20.
+- **ON e OFF.** O slot **PET** da barra de atalhos alterna a Station, também em voo, e a mudança vale na hora: em OFF, seus P.E.T.s não dão bônus, não ganham experiência e não trabalham; em ON, eles voltam. Uma Station que você nunca alternou está em ON.
 - **Ponha dois para trabalhar.** Um **Retriever** acoplado pega as caixas que estão ao redor da sua nave e um **Mole** acoplado quebra por você o asteroide mais próximo, sempre que você voa fora de uma zona segura, esteja ativo ou não, sem limite para um dia disso: [os tipos que trabalham](#the-working-types). Uma nave parada é um alvo.
 - **São seus.** Os P.E.T.s são ligados a você: sem troca, sem Leilão. Ficam através do reset.
 
 ## A P.E.T. Station {#the-station}
 
-A Station não é um módulo do Skylab nem um slot: é uma **instalação**, como as [Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus). Três itens, **P.E.T. Station I, II e III**, são pesquisados no [centro de pesquisa](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas e 1 dia, sem Dark Matter) e fabricados na Montagem um depois do outro. Quando você coleta um, ele se instala sozinho, para todas as suas naves, e dá lugar a **2, 3 e 5** P.E.T.s acoplados. Quanto custa cada um está na [árvore de itens](/wiki/06-Items/Extras.md#item-tree) dos Extras. A Station fica através do reset, e a pesquisa dela também.
+A Station é um **Extra**. Três itens, **P.E.T. Station I, II e III**, são pesquisados no [centro de pesquisa](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas e 1 dia, sem Dark Matter) e fabricados na Montagem um depois do outro. Você **equipa** uma em um slot de extras, como uma [Cloaking CPU](/wiki/06-Items/Extras.md), e ela dá lugar a **2, 3 e 5** P.E.T.s acoplados. Quanto custa cada uma está na [árvore de itens](/wiki/06-Items/Extras.md#item-tree) dos Extras. A Station fica através do reset, e a pesquisa dela também.
 
-A visão P.E.T. do hangar diz que nível você tem, quantos lugares estão ocupados e qual tecnologia e qual item vêm a seguir, com um botão para a visão de Pesquisa e para a Montagem.
+- **Só a nave que voa com ela.** Seus P.E.T.s contam na nave que você pilota, se houver uma Station equipada na configuração que você pilota. Uma Station no seu inventário, na outra configuração ou em outra nave não faz nada; se você trocar de configuração ou de nave, os P.E.T.s acompanham na hora.
+- **ON e OFF.** Alterne a Station com o slot **PET** da barra de atalhos (arraste-a até lá a partir do seletor de extras). **ON**: os primeiros 2, 3 ou 5 dos seus P.E.T.s acoplados dão os bônus, ganham experiência e trabalham. **OFF**: nada disso, e nenhum drone é desenhado. O slot mostra **ON** ou **OFF**. O interruptor é seu e se mantém entre decolagens e logins; uma Station que você nunca alternou está em ON. Entre dois cliques passa um segundo.
+- **O que você vê.** Uma Station em ON é desenhada na sua nave: um anel de acoplamento que flutua sobre o casco com um ponto de atracação para cada lugar, 2, 3 ou 5, cada um iluminado na cor do P.E.T. acoplado nele. Coloque-a em ON e os P.E.T.s saem voando um depois do outro para pairar ao lado da nave; coloque-a em OFF e eles voltam, e o anel se dobra pequeno e escuro sobre o casco, onde só você o vê.
+- **Mais acoplados do que lugares.** Se você acopla cinco P.E.T.s e equipa uma Station II, os três primeiros (pelos lugares deles) contam e o hangar marca os outros com “Não conta”. O hangar acopla na melhor Station que você possui, equipada ou não, então você pode arrumar seus P.E.T.s antes de equipá-la.
+
+A visão P.E.T. do hangar diz qual Station você tem, onde ela está equipada e se está em ON, quantos lugares estão ocupados e qual tecnologia e qual item vêm a seguir, com um botão para a visão de Pesquisa e para a Montagem. Quando seus P.E.T.s não dão nada, ela e a janela **Boosters** dizem por quê.
 
 ## Cluster Chunks
 
@@ -71,11 +85,11 @@ Um P.E.T. vai até o nível **20**. Cada nível soma **0,2 ponto** a cada um dos
 - **Dano, pontos de vida e escudo** se somam aos seus boosters e aos reforços do seu clã, não os multiplicam: os números do Hangar, da janela da nave e da sua página de piloto os contam, e a janela **Boosters** tem um card **P.E.T.** O escudo é a capacidade do escudo (os pontos de escudo máximos).
 - **Créditos e Thulium** aumentam o que um abate paga a você, a sua parte de um chefe e do abate de um grupo e o que uma missão paga quando você a resgata, como os [reforços do seu clã](/wiki/03-Mechanics/Clans.md). Nunca aumentam o dinheiro de uma rocha, as fazendas do Skylab, um código de bônus nem o Leilão.
 - **A Sorte** aumenta a chance de cada linha de saque de um alienígena ou de uma nave de enxame, e das caixas privadas de um Guardião, como o [Loot Luck Booster](/wiki/06-Items/Boosters.md). Nada além disso.
-- **Sem lugar na Station, sem bônus.** Só contam os P.E.T.s acoplados, até o lugar da Station. Um P.E.T. que você tirou ou nunca acoplou não dá nada e não ganha nada.
+- **Sem Station em ON, sem bônus.** Só dão bônus os P.E.T.s acoplados que contam: os que cabem no lugar da Station equipada na sua nave, e só enquanto ela está em ON. Um P.E.T. que você tirou ou nunca acoplou não dá nada e não ganha nada, e o mesmo vale para todos com a Station em OFF ou sem Station equipada.
 
 ## Experiência {#experience}
 
-Todo P.E.T. acoplado ganha a mesma experiência, inteira: ela não é dividida entre eles. Um P.E.T. guardado não ganha nada.
+Todo P.E.T. acoplado que conta ganha a mesma experiência, inteira: ela não é dividida entre eles. Um P.E.T. guardado não ganha nada, nem um acoplado enquanto a Station está em OFF ou não equipada.
 
 - **Um abate.** O que um [drone](/wiki/03-Mechanics/Drones.md#levels) ganha pelo mesmo abate, vezes o pagamento do mundo (1, 2 ou 3).
 - **Uma rocha que você quebra.** 1, 2, 4, 8 ou 16 para uma rocha de nível 1 a 5 e 64 para a Motherlode, vezes o pagamento do mundo, para cada piloto que a quebra paga; uma rocha que o seu Mole quebrou também conta.
@@ -89,7 +103,7 @@ Oito dos dez tipos só dão bônus. O **Retriever** e o **Mole** também dão, e
 
 ### Quando eles trabalham {#when-they-work}
 
-- **Acoplado, a partir da sua decolagem.** Só trabalha um P.E.T. acoplado, e a força dele é lida na decolagem, como os bônus: um nível ganho em voo conta a partir da sua próxima decolagem.
+- **Acoplado, com a Station em ON.** Só trabalha um P.E.T. acoplado que conta: ponha a Station em OFF e o feixe do Mole e a coleta do Retriever param na hora; em ON, continuam. A força dele é lida na decolagem: um nível ganho em voo conta a partir da sua próxima decolagem.
 - **Só o melhor de cada um.** Trabalha um Mole, o mais forte (em caso de empate, o do lugar mais baixo), e um Retriever, o de maior alcance. Seus outros Moles e Retrievers só dão bônus, então uma Station cheia de Moles não quebra mais que um.
 - **Em voo, fora de uma zona segura.** Eles param enquanto uma [zona segura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protege a sua nave, e enquanto ela está destruída, sob a [proteção de reaparecimento](/wiki/01-General/Getting-Started.md#dying-and-coming-back), camuflada ou saltando, e continuam quando nada disso vale. Um piloto desconectado não tem nave no espaço, então nada trabalha para ele.
 - **Ativo ou não.** Não há regra sobre estar nas teclas: um Mole trabalha igual enquanto você caça, enquanto você olha uma janela e enquanto você está longe da tela.
@@ -149,15 +163,15 @@ Dois P.E.T.s seus, nenhum acoplado e nenhum em um trabalho, podem ser **cruzados
 
 ## Acoplar e voar {#docking-and-flying}
 
-- **Acople e desacople só com a nave pousada.** Em voo a visão P.E.T. mostra o que você tem e nada pode ser mudado (“Estacione sua nave para mudar seus P.E.T.s”). Uma mudança conta a partir da sua próxima decolagem, então nada troca no meio de uma luta.
-- **Eles voam ao seu lado.** Cada P.E.T. acoplado é desenhado como um **drone minúsculo** perto da sua nave, que todos veem, até cinco por nave. Não podem ser mirados, clicados nem atingidos, e têm um quinto do tamanho de um Slave Drone, então não são confundidos com os drones de uma formação. **Mostrar P.E.T.s** em Configurações › Interface (**Todos**, **Só o meu** ou **Desativado**) os esconde sem mexer nos seus drones, e a sua configuração **Detalhes** (Configurações › Gráficos) decide de quantas naves os P.E.T.s são desenhados de uma vez, as 4, 8, 12 ou 16 mais próximas.
-- **Eles vão trabalhar.** Enquanto um Mole trabalha, o drone dele sai do lugar e vai até o asteroide, e um feixe fino liga os dois; o drone de um Retriever voa até a sua caixa e volta. Só um drone de uma nave fica fora do lugar de cada vez, e com **Reduzir movimento** eles ficam nos seus lugares. Esconder os P.E.T.s esconde os drones, não o trabalho.
+- **Acople e desacople só com a nave pousada.** Em voo a visão P.E.T. mostra o que você tem e nada pode ser mudado (“Estacione sua nave para mudar seus P.E.T.s”). Uma mudança de acoplamento conta a partir da sua próxima decolagem, então nada troca no meio de uma luta. A Station é a exceção: o slot PET dela funciona em voo.
+- **Eles voam ao seu lado.** Cada P.E.T. acoplado que conta é desenhado como um **pequeno drone blindado com peças móveis** (asas que batem, patas que andam, um aro que gira, garras que cavam) ao lado da sua nave enquanto a Station está em ON, até cinco por nave, e todos veem eles e o anel. Não podem ser mirados, clicados nem atingidos. Cada um tem uma luz da cor do seu tipo e, por cima, um cristal da cor do seu grau, então não são confundidos com os drones de uma formação. **Mostrar P.E.T.s** em Configurações › Interface (**Todos**, **Só o meu** ou **Desativado**) os esconde, junto com a Station, sem mexer nos seus drones, e a sua configuração **Detalhes** (Configurações › Gráficos) decide de quantas naves os P.E.T.s são desenhados de uma vez, as 4, 8, 12 ou 16 mais próximas.
+- **Eles vão trabalhar.** Enquanto um Mole trabalha, o drone dele sai do lugar e vai até o asteroide, e um feixe fino liga os dois; o drone de um Retriever voa até a sua caixa e volta. Só um drone de uma nave fica fora do lugar de cada vez, e com **Reduzir movimento** eles ficam nos seus lugares. Esconder os P.E.T.s esconde os drones, não o trabalho. **Reduzir movimento** também faz a Station e os P.E.T.s aparecerem e sumirem de uma vez em vez de voar.
 - **Ligados a você.** Um P.E.T. não pode ser vendido, dado nem trocado, e não é um item, então não há nada para pôr no [Leilão](/wiki/03-Mechanics/Auction.md).
 
 ## O reset {#the-wipe}
 
-O [reset](/wiki/03-Mechanics/Wipe-Timeline.md) mantém os seus P.E.T.s, acoplados e guardados, os níveis deles, os trabalhos em andamento no Berço, o Códice e a P.E.T. Station que você instalou com a pesquisa dela. O que ele apaga é o que está solto no seu inventário: Cluster Chunks e Orvium Reinforced Plates que você não pôs no Cache de Transporte.
+O [reset](/wiki/03-Mechanics/Wipe-Timeline.md) mantém os seus P.E.T.s, acoplados e guardados, os níveis deles, os trabalhos em andamento no Berço, o Códice e as suas P.E.T. Station com a pesquisa delas. O que ele apaga é o que está solto no seu inventário: Cluster Chunks e Orvium Reinforced Plates que você não pôs no Cache de Transporte.
 
 ## Sons {#sounds}
 
-Começar uma montagem, coletar um P.E.T., coletar um de um tipo que você não tinha, acoplar, desacoplar, cruzar, soltar um e ganhar um nível têm, cada um, um som baixo próprio, no volume dos efeitos sonoros. O trabalho também: o feixe de um Mole zumbe baixinho onde ele trabalha e a coleta de um Retriever termina com um pequeno bipe onde estava a caixa (no lugar do som de coleta). Você também ouve, mais baixo, os P.E.T.s de outros pilotos por perto.
+Começar uma montagem, coletar um P.E.T., coletar um de um tipo que você não tinha, acoplar, desacoplar, cruzar, soltar um, ganhar um nível e pôr a Station em ON ou OFF têm, cada um, um som baixo próprio, no volume dos efeitos sonoros. O trabalho também: o feixe de um Mole zumbe baixinho onde ele trabalha e a coleta de um Retriever termina com um pequeno bipe onde estava a caixa (no lugar do som de coleta). Você também ouve, mais baixo, os P.E.T.s de outros pilotos por perto.

@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; compagno; culla; incrocio; agganciare; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; p.e.t. al lavoro; estrazione; raccolta; portata; inattivo; impulso -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; interruttore; barra rapida; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; compagno; culla; incrocio; agganciare; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; p.e.t. al lavoro; estrazione; raccolta; portata; inattivo; impulso -->
 
-Un **P.E.T.** (Personal Escort Technology) è un piccolo compagno che vola accanto alla tua nave e le dà dei boost: più crediti, più Thulium, più scafo o scudo, più danno o più fortuna. Due dei dieci tipi lavorano anche per te mentre voli: il **Retriever** raccoglie le casse di carico intorno alla tua nave e il **Mole** spezza asteroidi. Trovi dei **Cluster Chunk** negli asteroidi spezzati, ne metti uno con una Orvium Reinforced Plate nella **Culla** del tuo hangar e, dopo un po’, nasce un P.E.T. Lo **agganci** nella tua **P.E.T. Station**; dal tuo prossimo decollo dà i suoi boost, guadagna esperienza e vola accanto alla nave come un minuscolo drone.
+Un **P.E.T.** (Personal Escort Technology) è un piccolo compagno che vola accanto alla tua nave e le dà dei boost: più crediti, più Thulium, più scafo o scudo, più danno o più fortuna. Due dei dieci tipi lavorano anche per te mentre voli: il **Retriever** raccoglie le casse di carico intorno alla tua nave e il **Mole** spezza asteroidi. Trovi dei **Cluster Chunk** negli asteroidi spezzati, ne metti uno con una Orvium Reinforced Plate nella **Culla** del tuo hangar e, dopo un po’, nasce un P.E.T. Lo **agganci** nella tua **P.E.T. Station**, un [Extra](/wiki/06-Items/Extras.md) che monti in uno slot Extra della tua nave; finché la Station è su **ON**, il P.E.T. agganciato dà i suoi boost, guadagna esperienza e vola accanto alla nave come un piccolo drone, e finché è su **OFF** non fa nulla di tutto questo.
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## In un minuto {#in-one-minute}
 
-- **Procurati la Station.** Fai ricercare una **P.E.T. Station** nel Centro ricerche e producila nell’Assemblaggio. Ha tre livelli, con posto per **2, 3 e 5** P.E.T. La Culla funziona anche senza: puoi far nascere dei P.E.T. prima di avere una Station.
+- **Procurati la Station.** Fai ricercare una **P.E.T. Station** nel Centro ricerche e producila nell’Assemblaggio. Ha tre livelli, con posto per **2, 3 e 5** P.E.T. Montala in uno slot Extra della nave che piloti. La Culla funziona anche senza: puoi far nascere dei P.E.T. prima di avere una Station.
 - **Trova i chunk.** Rompi asteroidi dal secondo livello in su: un **Regular**, un **Mythical** o un **Legendary Cluster Chunk** può restare intero nel blocco di minerale del gruppo che ha inflitto più danni.
 - **Falli nascere.** Nella vista **P.E.T.** dell’Hangar la Culla prende un chunk e una Orvium Reinforced Plate per ogni P.E.T. e ha quattro posti nella coda. Il grado del chunk decide quanti boost ha il P.E.T.: **1, 2 o 3**.
-- **Aggancia e vola.** Aggancia i P.E.T. che vuoi mentre la nave è atterrata. Danno i loro boost dal tuo prossimo decollo e guadagnano esperienza mentre cacci, estrai e voli, fino al livello 20.
+- **Aggancia e vola.** Aggancia i P.E.T. che vuoi mentre la nave è atterrata. Con una Station montata e su ON danno i loro boost e guadagnano esperienza mentre cacci, estrai e voli, fino al livello 20.
+- **ON e OFF.** Lo slot **PET** della barra rapida commuta la Station, anche in volo, e il cambiamento conta subito: su OFF i tuoi P.E.T. non danno boost, non guadagnano esperienza e non lavorano; su ON tornano. Una Station che non hai commutato è su ON.
 - **Metti al lavoro due tipi.** Un **Retriever** agganciato raccoglie le casse che giacciono intorno alla tua nave e un **Mole** agganciato spezza per te l’asteroide più vicino, ogni volta che voli fuori da una zona sicura, tu sia attivo o no, senza limite per una giornata di lavoro: [i tipi che lavorano](#the-working-types). Una nave inattiva è un bersaglio.
 - **Sono tuoi.** I P.E.T. sono legati a te: niente scambi, niente Asta. Restano attraverso il reset.
 
 ## La P.E.T. Station {#the-station}
 
-La Station non è un modulo dello Skylab né uno slot: è un’**installazione**, come le [Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus). Tre oggetti, **P.E.T. Station I, II e III**, si ricercano nel [Centro ricerche](/wiki/03-Mechanics/Research.md) (3 ore, 10 ore e 1 giorno, senza Dark Matter) e si producono nell’Assemblaggio uno dopo l’altro. Quando ne ritiri uno, si installa da solo, per tutte le tue navi, e dà posto a **2, 3 e 5** P.E.T. agganciati. Quanto costa ciascuno è nell’[albero degli oggetti](/wiki/06-Items/Extras.md#item-tree) degli Extra. La Station resta attraverso il reset, e anche la sua ricerca.
+La Station è un **Extra**. Tre oggetti, **P.E.T. Station I, II e III**, si ricercano nel [Centro ricerche](/wiki/03-Mechanics/Research.md) (3 ore, 10 ore e 1 giorno, senza Dark Matter) e si producono nell’Assemblaggio uno dopo l’altro. Ne **monti** una in uno slot Extra, come una [Cloaking CPU](/wiki/06-Items/Extras.md), e dà posto a **2, 3 e 5** P.E.T. agganciati. Quanto costa ciascuno è nell’[albero degli oggetti](/wiki/06-Items/Extras.md#item-tree) degli Extra. La Station resta attraverso il reset, e anche la sua ricerca.
 
-La vista P.E.T. dell’Hangar dice che livello hai, quanti posti sono occupati e quale tecnologia e quale oggetto vengono dopo, con un pulsante verso la vista Ricerca e verso l’Assemblaggio.
+- **Solo la nave che vola con essa.** I tuoi P.E.T. contano sulla nave che piloti se nella configurazione che piloti è montata una Station. Una Station nel tuo inventario, nell’altra configurazione o su un’altra nave non fa nulla; se cambi configurazione o nave, i P.E.T. ti seguono subito.
+- **ON e OFF.** Commuta la Station con lo slot **PET** della barra rapida (trascinalo lì dal selettore degli Extra). **ON**: i primi 2, 3 o 5 dei tuoi P.E.T. agganciati danno i loro boost, guadagnano esperienza e lavorano. **OFF**: niente di tutto questo, e nessun drone viene disegnato. Lo slot dice **ON** o **OFF**. L’interruttore è tuo e resta fra un decollo e l’altro e fra un accesso e l’altro; una Station che non hai mai commutato è su ON. Fra due pressioni passa un secondo.
+- **Cosa vedi.** Una Station su ON viene disegnata sulla tua nave: un anello di aggancio che fluttua sopra lo scafo con un ormeggio per ogni posto, 2, 3 o 5, ciascuno illuminato del colore del P.E.T. che vi è agganciato. Portala su ON e i P.E.T. escono in volo uno dopo l’altro per librarsi accanto alla nave; portala su OFF e rientrano, e l’anello si richiude piccolo e scuro sullo scafo, dove solo tu lo vedi.
+- **Più agganciati che posti.** Se agganci cinque P.E.T. e monti una Station II, contano i primi tre (secondo i loro posti) e l’Hangar segna gli altri con «Non conta». L’Hangar aggancia nella migliore Station che possiedi, montata o no, così puoi sistemare i tuoi P.E.T. prima di montarla.
+
+La vista P.E.T. dell’Hangar dice quale Station possiedi, dove è montata e se è su ON, quanti posti sono occupati e quale tecnologia e quale oggetto vengono dopo, con un pulsante verso la vista Ricerca e verso l’Assemblaggio. Quando i tuoi P.E.T. non danno nulla, lo dicono la vista e la finestra **Boosters**.
 
 ## Cluster Chunk {#cluster-chunks}
 
@@ -71,11 +85,11 @@ Un P.E.T. arriva fino al livello **20**. Ogni livello aggiunge **0,2 punti** a c
 - **Danno, punti scafo e scudo** si sommano ai tuoi booster e ai boost del tuo clan, non li moltiplicano: i numeri dell’Hangar, della finestra della nave e della tua pagina del pilota li contano, e la finestra **Booster** ha una scheda **P.E.T.** Lo scudo è la capacità dello scudo (i punti scudo massimi).
 - **Crediti e Thulium** aumentano ciò che ti paga un abbattimento, la tua parte di un boss e dell’abbattimento di un gruppo e ciò che paga una missione quando la riscuoti, come i [boost del tuo clan](/wiki/03-Mechanics/Clans.md). Non aumentano mai i contanti di una roccia, le fattorie dello Skylab, un codice bonus o l’Asta.
 - **La Fortuna** aumenta la probabilità di ogni riga di bottino di un alieno o di una nave di sciame, e delle casse private di un Custode, come il [Loot Luck Booster](/wiki/06-Items/Boosters.md). Nient’altro.
-- **Nessun posto nella Station, nessun boost.** Contano solo i P.E.T. agganciati, fino al posto della Station. Un P.E.T. che hai tolto o non hai mai agganciato non dà nulla e non guadagna nulla.
+- **Nessuna Station su ON, nessun boost.** Danno boost solo i P.E.T. agganciati che contano: quelli che stanno nel posto della Station montata sulla tua nave, e solo finché è su ON. Un P.E.T. che hai tolto o non hai mai agganciato non dà nulla e non guadagna nulla, e lo stesso vale per tutti con la Station su OFF o non montata.
 
 ## Esperienza {#experience}
 
-Ogni P.E.T. agganciato guadagna la stessa esperienza, per intero: non viene divisa fra loro. Un P.E.T. in magazzino non guadagna nulla.
+Ogni P.E.T. agganciato che conta guadagna la stessa esperienza, per intero: non viene divisa fra loro. Un P.E.T. in magazzino non guadagna nulla, e nemmeno uno agganciato finché la Station è su OFF o non montata.
 
 - **Un abbattimento.** Quanto guadagna un [drone](/wiki/03-Mechanics/Drones.md#levels) per lo stesso abbattimento, per la paga del mondo (1, 2 o 3).
 - **Una roccia che rompi.** 1, 2, 4, 8 o 16 per una roccia di livello da 1 a 5 e 64 per la Motherlode, per la paga del mondo, a ogni pilota che la rottura paga; conta anche una roccia che ha rotto il tuo Mole.
@@ -89,7 +103,7 @@ Otto dei dieci tipi danno solo boost. Il **Retriever** e il **Mole** li danno an
 
 ### Quando lavorano {#when-they-work}
 
-- **Agganciato, dal tuo decollo.** Lavora solo un P.E.T. agganciato, e la sua forza viene letta al decollo, come i suoi boost: un livello ottenuto in volo conta dal tuo prossimo decollo.
+- **Agganciato, con la Station su ON.** Lavora solo un P.E.T. agganciato che conta: porta la Station su OFF e il fascio del Mole e la raccolta del Retriever si fermano subito, su ON riprendono. La sua forza viene letta al decollo: un livello ottenuto in volo conta dal tuo prossimo decollo.
 - **Solo il migliore di ciascuno.** Lavora un Mole, il più forte (a parità, quello nel posto più basso), e un Retriever, quello con la portata maggiore. I tuoi altri Mole e Retriever danno solo boost, quindi una Station piena di Mole non spezza più di uno.
 - **In volo, fuori da una zona sicura.** Si fermano finché una [zona sicura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protegge la tua nave, e finché è distrutta, sotto la [protezione dopo il respawn](/wiki/01-General/Getting-Started.md#dying-and-coming-back), occultata o in salto, e riprendono quando nulla di questo vale. Un pilota scollegato non ha una nave nello spazio, quindi nulla lavora per lui.
 - **Inattivo o no.** Nessuna regola chiede che tu sia ai comandi: un Mole lavora allo stesso modo mentre cacci, mentre guardi una finestra e mentre sei lontano dallo schermo.
@@ -149,15 +163,15 @@ Due tuoi P.E.T., nessuno agganciato e nessuno in un lavoro, si possono **incroci
 
 ## Agganciare e volare {#docking-and-flying}
 
-- **Aggancia e sgancia solo a nave atterrata.** In volo la vista P.E.T. mostra ciò che hai e nulla può essere cambiato («Parcheggia la nave per cambiare i tuoi P.E.T.»). Un cambiamento conta dal tuo prossimo decollo, quindi nulla cambia nel mezzo di uno scontro.
-- **Volano accanto a te.** Ogni P.E.T. agganciato viene disegnato come un **minuscolo drone** vicino alla sua nave, che tutti vedono, fino a cinque per nave. Non si possono puntare, cliccare o colpire, e sono un quinto di uno Slave Drone, quindi non si scambiano per i droni di una formazione. **Mostra i P.E.T.** in Impostazioni › Interfaccia (**Tutti**, **Solo il mio** o **Disattivato**) li nasconde senza toccare i tuoi droni, e la tua impostazione **Dettaglio** (Impostazioni › Grafica) decide di quante navi vengono disegnati i P.E.T. alla volta, le 4, 8, 12 o 16 più vicine.
-- **Vanno al lavoro.** Mentre un Mole lavora, il suo drone lascia il suo posto e va verso l’asteroide, e un sottile fascio li collega; il drone di un Retriever vola verso la sua cassa e torna. Di una nave c’è un solo drone alla volta lontano dal suo posto, e con **Riduci movimento** restano ai loro posti. Nascondere i P.E.T. nasconde i droni, non il lavoro.
+- **Aggancia e sgancia solo a nave atterrata.** In volo la vista P.E.T. mostra ciò che hai e nulla può essere cambiato («Parcheggia la nave per cambiare i tuoi P.E.T.»). Un cambiamento di aggancio conta dal tuo prossimo decollo, quindi nulla cambia nel mezzo di uno scontro. La Station fa eccezione: il suo slot PET funziona in volo.
+- **Volano accanto a te.** Ogni P.E.T. agganciato che conta viene disegnato come un **piccolo drone corazzato con parti mobili** (ali che battono, zampe che camminano, un cerchio che gira, artigli che scavano) accanto alla sua nave finché la Station è su ON, fino a cinque per nave, e tutti vedono loro e l’anello. Non si possono puntare, cliccare o colpire. Ognuno ha una luce del colore del suo tipo e sopra un cristallo del colore del suo grado, quindi non si scambiano per i droni di una formazione. **Mostra i P.E.T.** in Impostazioni › Interfaccia (**Tutti**, **Solo il mio** o **Disattivato**) li nasconde, con la Station, senza toccare i tuoi droni, e la tua impostazione **Dettaglio** (Impostazioni › Grafica) decide di quante navi vengono disegnati i P.E.T. alla volta, le 4, 8, 12 o 16 più vicine.
+- **Vanno al lavoro.** Mentre un Mole lavora, il suo drone lascia il suo posto e va verso l’asteroide, e un sottile fascio li collega; il drone di un Retriever vola verso la sua cassa e torna. Di una nave c’è un solo drone alla volta lontano dal suo posto, e con **Riduci movimento** restano ai loro posti. Nascondere i P.E.T. nasconde i droni, non il lavoro. **Riduci movimento** fa inoltre comparire e sparire di colpo la Station e i P.E.T. invece di farli volare.
 - **Legati a te.** Un P.E.T. non si può vendere, regalare o scambiare, e non è un oggetto, quindi non c’è nulla da mettere all’[Asta](/wiki/03-Mechanics/Auction.md).
 
 ## Il reset {#the-wipe}
 
-Il [reset](/wiki/03-Mechanics/Wipe-Timeline.md) conserva i tuoi P.E.T., agganciati e in magazzino, i loro livelli, i lavori in corso nella Culla, il Codex e la P.E.T. Station che hai installato con la sua ricerca. Cancella ciò che è sciolto nel tuo inventario: i Cluster Chunk e le Orvium Reinforced Plate che non hai messo nel Deposito di trasporto.
+Il [reset](/wiki/03-Mechanics/Wipe-Timeline.md) conserva i tuoi P.E.T., agganciati e in magazzino, i loro livelli, i lavori in corso nella Culla, il Codex e le tue P.E.T. Station con la loro ricerca. Cancella ciò che è sciolto nel tuo inventario: i Cluster Chunk e le Orvium Reinforced Plate che non hai messo nel Deposito di trasporto.
 
 ## Suoni {#sounds}
 
-Avviare un assemblaggio, ritirare un P.E.T., ritirarne uno di un tipo che non avevi, agganciare, sganciare, incrociare, lasciarne andare uno e guadagnare un livello hanno ciascuno un suono discreto suo, sul volume degli effetti sonori. Anche il lavoro: il fascio di un Mole ronza piano dove lavora e la raccolta di un Retriever finisce con un piccolo bip dove giaceva la cassa (al posto del suono di raccolta). Senti, più piano, anche i P.E.T. di altri piloti vicini.
+Avviare un assemblaggio, ritirare un P.E.T., ritirarne uno di un tipo che non avevi, agganciare, sganciare, incrociare, lasciarne andare uno, guadagnare un livello e portare la Station su ON o OFF hanno ciascuno un suono discreto suo, sul volume degli effetti sonori. Anche il lavoro: il fascio di un Mole ronza piano dove lavora e la raccolta di un Retriever finisce con un piccolo bip dove giaceva la cassa (al posto del suono di raccolta). Senti, più piano, anche i P.E.T. di altri piloti vicini.

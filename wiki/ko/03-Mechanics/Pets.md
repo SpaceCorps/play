@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; 펫; 요람; 도감; 교배; 도킹; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 일하는 펫; 채굴; 회수; 닿는 거리; 방치; 펄스 -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; 스위치; 퀵슬롯; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; 펫; 요람; 도감; 교배; 도킹; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 일하는 펫; 채굴; 회수; 닿는 거리; 방치; 펄스 -->
 
-**P.E.T.**(Personal Escort Technology)는 함선 곁을 날며 부스트를 주는 작은 동반자입니다. 크레딧과 Thulium 증가, 선체나 실드 강화, 피해량이나 행운 상승 같은 것들입니다. 열 가지 타입 중 둘은 비행하는 동안 당신을 위해 일하기도 합니다. **Retriever**는 함선 주변의 화물 상자를 줍고, **Mole**은 소행성을 부숩니다. 부서진 소행성에서 **Cluster Chunk**를 찾아 Orvium Reinforced Plate와 함께 격납고의 **요람**에 넣으면, 얼마 뒤 P.E.T.가 부화합니다. 이를 **P.E.T. Station**에 **도킹**하면 다음 출격부터 부스트를 주고, 경험치를 얻으며, 작은 드론이 되어 함선 곁을 납니다.
+**P.E.T.**(Personal Escort Technology)는 함선 곁을 날며 부스트를 주는 작은 동반자입니다. 크레딧과 Thulium 증가, 선체나 실드 강화, 피해량이나 행운 상승 같은 것들입니다. 열 가지 타입 중 둘은 비행하는 동안 당신을 위해 일하기도 합니다. **Retriever**는 함선 주변의 화물 상자를 줍고, **Mole**은 소행성을 부숩니다. 부서진 소행성에서 **Cluster Chunk**를 찾아 Orvium Reinforced Plate와 함께 격납고의 **요람**에 넣으면, 얼마 뒤 P.E.T.가 부화합니다. 이를 **P.E.T. Station**에 **도킹**합니다. Station은 함선의 부가 장비 슬롯에 장착하는 [부가 장비](/wiki/06-Items/Extras.md)이며, Station이 **ON**인 동안 도킹한 P.E.T.는 부스트를 주고, 경험치를 얻으며, 작은 드론이 되어 함선 곁을 납니다. **OFF**인 동안에는 아무것도 하지 않습니다.
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## 1분 요약 {#in-one-minute}
 
-- **Station 얻기.** 연구 센터에서 **P.E.T. Station**을 연구하고 어셈블리에서 제작합니다. 3단계가 있고 각각 **2, 3, 5**마리 자리를 줍니다. 요람은 Station 없이도 작동하므로, Station이 생기기 전에도 P.E.T.를 부화시킬 수 있습니다.
+- **Station 얻기.** 연구 센터에서 **P.E.T. Station**을 연구하고 어셈블리에서 제작합니다. 3단계가 있고 각각 **2, 3, 5**마리 자리를 줍니다. 조종하는 함선의 부가 장비 슬롯에 장착합니다. 요람은 Station 없이도 작동하므로, Station이 생기기 전에도 P.E.T.를 부화시킬 수 있습니다.
 - **청크 찾기.** 티어 2 이상의 소행성을 부수면, 가장 많은 피해를 준 파티의 광석 덩어리에 **Regular**, **Mythical**, **Legendary Cluster Chunk**가 통째로 남을 수 있습니다.
 - **부화시키기.** 격납고의 **P.E.T.** 보기에서 요람은 P.E.T. 하나당 청크 하나와 Orvium Reinforced Plate 하나를 쓰며 대기열은 네 자리입니다. 청크의 등급이 P.E.T.의 부스트 수를 정합니다: **1, 2, 3**.
-- **도킹하고 날기.** 함선이 착륙해 있는 동안 원하는 P.E.T.를 도킹합니다. 다음 출격부터 부스트를 주고, 사냥하고 채굴하고 비행하는 동안 경험치를 얻어 레벨 20까지 자랍니다.
+- **도킹하고 날기.** 함선이 착륙해 있는 동안 원하는 P.E.T.를 도킹합니다. Station을 장착하고 ON으로 둔 동안은 부스트를 주고, 사냥하고 채굴하고 비행하는 동안 경험치를 얻어 레벨 20까지 자랍니다.
+- **ON과 OFF.** 퀵슬롯의 **PET** 슬롯이 Station을 전환하며, 비행 중에도 되고 바로 적용됩니다. OFF에서는 P.E.T.가 부스트를 주지 않고, 경험치를 얻지 않고, 일하지 않습니다. ON으로 돌리면 다시 돌아옵니다. 전환한 적 없는 Station은 ON입니다.
 - **둘을 일하게 하기.** 도킹 중인 **Retriever**는 함선 주변에 놓인 상자를 줍고, 도킹 중인 **Mole**은 가장 가까운 소행성을 대신 부숩니다. 안전 지대 밖을 나는 동안에는 조작하지 않아도 언제든 일하며, 하루 동안 일하는 시간에 한도는 없습니다: [일하는 타입](#the-working-types). 가만히 있는 함선은 표적입니다.
 - **당신의 것.** P.E.T.는 나에게 묶여 있습니다. 거래도 경매장도 없습니다. 초기화 후에도 남습니다.
 
 ## P.E.T. Station {#the-station}
 
-Station은 Skylab 모듈도 슬롯도 아니고, [Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus)처럼 **설치형**입니다. **P.E.T. Station I, II, III** 세 아이템을 [연구 센터](/wiki/03-Mechanics/Research.md)에서 연구하고(3시간, 10시간, 1일, Dark Matter 불필요) 어셈블리에서 차례로 제작합니다. 수령하면 저절로 설치되어 모든 함선에 적용되고, 도킹할 수 있는 P.E.T.는 **2, 3, 5**마리가 됩니다. 각각의 비용은 Extras의 [아이템 트리](/wiki/06-Items/Extras.md#item-tree)에 있습니다. Station은 초기화를 넘어 남으며 그 연구도 남습니다.
+Station은 **부가 장비**입니다. **P.E.T. Station I, II, III** 세 아이템을 [연구 센터](/wiki/03-Mechanics/Research.md)에서 연구하고(3시간, 10시간, 1일, Dark Matter 불필요) 어셈블리에서 차례로 제작합니다. [Cloaking CPU](/wiki/06-Items/Extras.md)처럼 부가 장비 슬롯에 **장착**하면, 도킹할 수 있는 P.E.T.는 **2, 3, 5**마리가 됩니다. 각각의 비용은 Extras의 [아이템 트리](/wiki/06-Items/Extras.md#item-tree)에 있습니다. Station은 초기화를 넘어 남으며 그 연구도 남습니다.
 
-격납고의 P.E.T. 보기는 지금 어느 레벨인지, 몇 자리가 찼는지, 다음 기술과 다음 아이템이 무엇인지 보여 주고, 연구 화면과 어셈블리로 가는 버튼이 있습니다.
+- **그것과 함께 나는 함선만.** P.E.T.는 지금 조종하는 구성에 Station이 장착된 함선에서 셉니다. 인벤토리에 있는 Station, 다른 구성이나 다른 함선에 있는 Station은 아무것도 하지 않습니다. 구성이나 함선을 바꾸면 P.E.T.가 곧바로 따라옵니다.
+- **ON과 OFF.** Station은 퀵슬롯의 **PET** 슬롯으로 전환합니다(부가 장비 선택창에서 끌어다 놓습니다). **ON**: 도킹한 P.E.T. 중 처음 2, 3, 5마리가 부스트를 주고, 경험치를 얻고, 일합니다. **OFF**: 그중 아무것도 없고 드론도 그려지지 않습니다. 슬롯에는 **ON** 또는 **OFF**가 표시됩니다. 전환은 당신의 것이며 출격과 로그인을 넘어 유지되고, 한 번도 전환하지 않은 Station은 ON입니다. 두 번 누르는 사이에는 1초가 있습니다.
+- **보이는 것.** ON인 Station은 함선 위에 그려집니다. 선체 위에 떠 있는 도킹 링으로, 자리마다(2, 3 또는 5개) 계류대가 있고 각각 그곳에 도킹한 P.E.T.의 색으로 빛납니다. ON으로 하면 P.E.T.가 차례로 날아올라 함선 곁에 떠 있고, OFF로 하면 돌아와 링이 작고 어둡게 접혀 선체 위에 놓이며, 이는 나에게만 보입니다.
+- **자리보다 많이 도킹했을 때.** P.E.T. 다섯 마리를 도킹하고 Station II를 장착하면 처음 세 마리(자리 순서)가 적용되고, 격납고는 나머지를 “적용 안 됨”으로 표시합니다. 격납고는 장착 여부와 관계없이 가진 가장 좋은 Station에 도킹하므로, 장착하기 전에 P.E.T.를 정리할 수 있습니다.
+
+격납고의 P.E.T. 보기는 어떤 Station을 가졌는지, 어디에 장착됐는지, ON인지, 몇 자리가 찼는지, 다음 기술과 다음 아이템이 무엇인지 보여 주고, 연구 화면과 어셈블리로 가는 버튼이 있습니다. P.E.T.가 아무것도 주지 않을 때는 이 보기와 **Boosters** 창이 이유를 알려 줍니다.
 
 ## Cluster Chunk {#cluster-chunks}
 
@@ -71,11 +85,11 @@ P.E.T.는 레벨 **20**까지 오릅니다. 레벨마다 각 부스트에 **0.2�
 - **피해량, 내구도, 실드**는 부스터와 클랜 부스트에 더해지며 곱해지지 않습니다. 격납고, 함선 창, 파일럿 페이지의 수치가 이를 포함하고, **부스터** 창에는 **P.E.T.** 카드가 있습니다. 실드는 실드 용량(최대 실드 포인트)입니다.
 - **크레딧과 Thulium**은 처치 보상, 보스와 그룹 처치에서의 내 몫, 미션을 수령할 때의 보상에 더해집니다. [클랜 부스트](/wiki/03-Mechanics/Clans.md)와 같습니다. 바위의 현금, Skylab의 농장, 보너스 코드, 경매장에는 더해지지 않습니다.
 - **행운**은 외계인이나 무리 함선의 모든 전리품 항목의 확률과 워든의 전용 상자의 확률을 높입니다. [Loot Luck Booster](/wiki/06-Items/Boosters.md)와 같고, 그 밖에는 아무것도 하지 않습니다.
-- **Station 자리가 없으면 부스트도 없습니다.** 도킹 중인 P.E.T.만 Station의 자리 수까지 셉니다. 뺀 P.E.T.나 한 번도 도킹하지 않은 P.E.T.는 아무것도 주지 않고 아무것도 얻지 못합니다.
+- **Station이 ON이 아니면 부스트도 없습니다.** 부스트를 주는 것은 적용되는 도킹 중인 P.E.T.뿐입니다. 즉 함선에 장착된 Station의 자리 수까지이며, Station이 ON인 동안만입니다. 뺀 P.E.T.나 한 번도 도킹하지 않은 P.E.T.는 아무것도 주지 않고 아무것도 얻지 못하며, Station이 OFF이거나 장착되지 않았을 때는 모두 마찬가지입니다.
 
 ## 경험치 {#experience}
 
-도킹 중인 P.E.T.는 모두 같은 경험치를 온전히 얻습니다. 나누지 않습니다. 보관 중인 P.E.T.는 아무것도 얻지 못합니다.
+적용되는 도킹 중인 P.E.T.는 모두 같은 경험치를 온전히 얻습니다. 나누지 않습니다. 보관 중인 P.E.T.는 아무것도 얻지 못하며, Station이 OFF이거나 장착되지 않은 동안에는 도킹 중인 P.E.T.도 얻지 못합니다.
 
 - **처치.** 같은 처치로 [드론](/wiki/03-Mechanics/Drones.md#levels)이 얻는 양에 월드의 보상 배율(1, 2, 3)을 곱한 값입니다.
 - **내가 부순 바위.** 티어 1~5의 바위는 1, 2, 4, 8, 16, Motherlode는 64에 월드의 보상 배율을 곱한 값을, 그 파괴로 보상을 받는 모든 파일럿이 얻습니다. 내 Mole이 부순 바위도 셉니다.
@@ -89,7 +103,7 @@ P.E.T.는 레벨 **20**까지 오릅니다. 레벨마다 각 부스트에 **0.2�
 
 ### 일하는 때 {#when-they-work}
 
-- **도킹 중, 출격부터.** 일하는 것은 도킹 중인 P.E.T.뿐이며, 그 강함은 부스트처럼 출격할 때 읽힙니다. 비행 중에 오른 레벨은 다음 출격부터 적용됩니다.
+- **도킹 중, Station이 ON일 때.** 일하는 것은 적용되는 도킹 중인 P.E.T.뿐입니다. Station을 OFF로 하면 Mole의 빔과 Retriever의 회수가 곧바로 멈추고, ON으로 하면 이어집니다. 그 강함은 출격할 때 읽힙니다. 비행 중에 오른 레벨은 다음 출격부터 적용됩니다.
 - **종류마다 가장 좋은 하나만.** 일하는 Mole은 가장 강한 하나(같으면 자리 번호가 낮은 쪽), 일하는 Retriever는 닿는 거리가 가장 긴 하나입니다. 나머지 Mole과 Retriever는 부스트만 주므로, Mole로 가득 찬 Station도 하나보다 더 많이 부수지 않습니다.
 - **비행 중, 안전 지대 밖.** [안전 지대](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity)가 함선을 보호하는 동안, 함선이 파괴된 동안, [리스폰 보호](/wiki/01-General/Getting-Started.md#dying-and-coming-back) 중, 은폐 중, 점프 중에는 멈추고, 이 중 어느 것도 아니게 되면 다시 합니다. 로그아웃한 파일럿에게는 우주에 함선이 없으므로 아무것도 일하지 않습니다.
 - **조작하든 안 하든.** 키 앞에 있는지에 대한 규칙은 없습니다. Mole은 사냥을 하든, 창을 보고 있든, 화면에서 떠나 있든 똑같이 일합니다.
@@ -149,15 +163,15 @@ Mole은 로켓을 쓰지 않으므로, 부순 것은 손으로 채굴하는 파�
 
 ## 도킹과 비행 {#docking-and-flying}
 
-- **도킹과 도킹 해제는 함선이 착륙해 있을 때만 됩니다.** 비행 중에는 P.E.T. 보기가 가진 것만 보여 주고 아무것도 바꿀 수 없습니다(“P.E.T.를 바꾸려면 함선을 주기하세요”). 변경은 다음 출격부터 적용되므로, 전투 중에 바뀌는 일은 없습니다.
-- **곁을 납니다.** 도킹 중인 P.E.T.는 모두 함선 가까이에 **작은 드론**으로 그려지며 모두에게 보입니다. 함선당 최대 다섯 마리입니다. 지정할 수도, 클릭할 수도, 맞힐 수도 없고, Slave Drone의 5분의 1 크기라서 편대의 드론으로 착각하지 않습니다. 설정 › 인터페이스의 **P.E.T. 표시**(**모두**, **내 것만**, **꺼짐**)는 드론을 건드리지 않고 이들을 숨깁니다. **디테일** 설정(설정 › 그래픽)은 한 번에 P.E.T.를 그리는 함선의 수, 즉 가까운 순서로 4, 8, 12, 16척을 정합니다.
-- **일하러 나갑니다.** Mole이 일하는 동안 그 드론은 제자리를 떠나 소행성으로 날아가고, 가는 빔이 둘을 잇습니다. Retriever의 드론은 상자로 날아갔다가 돌아옵니다. 함선 하나당 제자리를 떠난 드론은 한 번에 하나뿐이며, **움직임 줄이기**를 켜면 제자리에 머뭅니다. P.E.T.를 숨기면 드론이 숨겨질 뿐, 일은 계속됩니다.
+- **도킹과 도킹 해제는 함선이 착륙해 있을 때만 됩니다.** 비행 중에는 P.E.T. 보기가 가진 것만 보여 주고 아무것도 바꿀 수 없습니다(“P.E.T.를 바꾸려면 함선을 주기하세요”). 도킹의 변경은 다음 출격부터 적용되므로, 전투 중에 바뀌는 일은 없습니다. Station은 예외로, 그 PET 슬롯은 비행 중에 작동합니다.
+- **곁을 납니다.** 적용되는 도킹 중인 P.E.T.는 모두 Station이 ON인 동안 함선 곁에 **움직이는 부품이 달린 작은 장갑 드론**(퍼덕이는 날개, 걷는 다리, 도는 고리, 파는 발톱)으로 그려지며, 함선당 최대 다섯 마리이고 모두에게 이들과 링이 보입니다. 지정할 수도, 클릭할 수도, 맞힐 수도 없습니다. 저마다 종류의 색 빛과 그 위에 등급의 색 크리스탈을 달고 있어서 편대의 드론으로 착각하지 않습니다. 설정 › 인터페이스의 **P.E.T. 표시**(**모두**, **내 것만**, **꺼짐**)는 드론을 건드리지 않고 이들과 Station을 숨깁니다. **디테일** 설정(설정 › 그래픽)은 한 번에 P.E.T.를 그리는 함선의 수, 즉 가까운 순서로 4, 8, 12, 16척을 정합니다.
+- **일하러 나갑니다.** Mole이 일하는 동안 그 드론은 제자리를 떠나 소행성으로 날아가고, 가는 빔이 둘을 잇습니다. Retriever의 드론은 상자로 날아갔다가 돌아옵니다. 함선 하나당 제자리를 떠난 드론은 한 번에 하나뿐이며, **움직임 줄이기**를 켜면 제자리에 머뭅니다. P.E.T.를 숨기면 드론이 숨겨질 뿐, 일은 계속됩니다. **움직임 줄이기**를 켜면 Station과 P.E.T.는 날아가는 대신 한순간에 나타나고 사라집니다.
 - **나에게 묶임.** P.E.T.는 팔거나, 주거나, 거래할 수 없고 아이템도 아니므로 [경매장](/wiki/03-Mechanics/Auction.md)에 올릴 것이 없습니다.
 
 ## 초기화 {#the-wipe}
 
-[초기화](/wiki/03-Mechanics/Wipe-Timeline.md)는 P.E.T.(도킹 중이든 보관 중이든)와 그 레벨, 요람에서 진행 중인 작업, 도감, 그리고 설치한 P.E.T. Station과 그 연구를 남깁니다. 삭제되는 것은 인벤토리에 흩어져 있는 것, 즉 수송 보관함에 넣지 않은 Cluster Chunk와 Orvium Reinforced Plate입니다.
+[초기화](/wiki/03-Mechanics/Wipe-Timeline.md)는 P.E.T.(도킹 중이든 보관 중이든)와 그 레벨, 요람에서 진행 중인 작업, 도감, 그리고 P.E.T. Station과 그 연구를 남깁니다. 삭제되는 것은 인벤토리에 흩어져 있는 것, 즉 수송 보관함에 넣지 않은 Cluster Chunk와 Orvium Reinforced Plate입니다.
 
 ## 소리 {#sounds}
 
-조립 시작, P.E.T. 수령, 가지고 있지 않던 타입의 수령, 도킹, 도킹 해제, 교배, 놓아주기, 레벨 상승에는 각각 조용한 고유의 소리가 있으며, 효과음 음량에 따릅니다. 일에도 소리가 있습니다. Mole의 빔은 일하는 곳에서 낮게 웅웅거리고, Retriever의 회수는 상자가 있던 자리에서 작은 삑 소리로 끝납니다(회수음 대신입니다). 근처 다른 파일럿의 P.E.T. 소리도 더 작게 들립니다.
+조립 시작, P.E.T. 수령, 가지고 있지 않던 타입의 수령, 도킹, 도킹 해제, 교배, 놓아주기, 레벨 상승, Station의 ON과 OFF에는 각각 조용한 고유의 소리가 있으며, 효과음 음량에 따릅니다. 일에도 소리가 있습니다. Mole의 빔은 일하는 곳에서 낮게 웅웅거리고, Retriever의 회수는 상자가 있던 자리에서 작은 삑 소리로 끝납니다(회수음 대신입니다). 근처 다른 파일럿의 P.E.T. 소리도 더 작게 들립니다.

@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
-Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Im Flug öffnet sie sich als Fenster: Die Schaltfläche **Auktion** (ein Auktionshammer) in der Symbolleiste oben links zeigt dieselbe Seite über dem Spiel, und Position und Größe des Fensters werden gemerkt. Sie funktioniert wie an der Station, nur dass Munition, Raketen und EMP Charges im Flug gezählt werden, du sie also von der Station aus einstellst (das Verkaufsblatt zeigt sie gesperrt, mit dem Grund); kaufen und bieten kannst du von überall. Sie hat fünf Bereiche. **Markt** zeigt, was andere Piloten verkaufen. **Lose** sind die eigenen Angebote des Spiels, drei pro Stunde. **Davidski** ist das Lager des fliegenden Händlers: jede Sorte, die die Auktion führt, zu einem Vielfachen des Shop-Preises; was der Shop nicht verkauft, kostet so viel, dass der Kauf bei ihm der letzte Ausweg ist, und die seltenen Herstellungsressourcen noch einmal das Tausendfache ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast, und wie dein Handel gelaufen ist.
+Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spiels, auf einer Seite des Stationsmenüs. Im Flug öffnet sie sich als Fenster: Die Schaltfläche **Auktion** (ein Auktionshammer) in der Symbolleiste oben links zeigt dieselbe Seite über dem Spiel, und Position und Größe des Fensters werden gemerkt. Sie funktioniert wie an der Station, nur dass Munition, Raketen und EMP Charges im Flug gezählt werden, du sie also von der Station aus einstellst (das Verkaufsblatt zeigt sie gesperrt, mit dem Grund); kaufen und bieten kannst du von überall. Sie hat vier Bereiche. **Markt** zeigt, was andere Piloten verkaufen, und zwischen ihren Angeboten den Vorrat des fliegenden Händlers: jede Sorte, die die Auktion führt, zu einem Vielfachen des Shop-Preises, als Zeilen mit seinem Namen in Gold, einem **NPC**-Abzeichen und einem Unendlichkeitszeichen; was der Shop nicht verkauft, kostet so viel, dass der Kauf bei ihm der letzte Ausweg ist, und die seltenen Herstellungsressourcen noch einmal das Tausendfache ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Lose** sind die eigenen Angebote des Spiels, drei pro Stunde. **Meine Angebote** zeigt, was du selbst verkaufst. **Verlauf** zeigt deine Verkäufe, deine Käufe und die Lose, die du gewonnen hast, und wie dein Handel gelaufen ist.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 | **Schubdüsen** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Ultra Core (in Posten zu 10), Experimental Fusion Core | 5 |
 | **Raketen** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Verbrauchsgüter** | EMP Charge | 1 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Verbrauchsgüter** | EMP Charge, Energetic Wall II | 2 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **Hüllenpanzerung** | Hull Plating II, Hull Plating III | 2 |
 | **Ressourcen** | Cataclysite (in Posten zu 100), Ship Fragment (in Posten zu 100), Daraxium (in Posten zu 100), Nyxite (in Posten zu 100), Quorvium (in Posten zu 10), Reinforced Hull Plate (in Posten zu 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 ## Kaufen {#buying}
 
 Der **Markt** zeigt, was andere Piloten verkaufen. Grenze die Liste mit den **Kategorie-Chips** ein (einer für jede Art von Gegenstand, mit der Zahl der Angebote darin), suche nach Namen, filtere nach Verzauberung und Währung und sortiere nach Preis, danach, was zuerst endet, oder danach, was am neuesten ist. Wähle ein Angebot, um zu sehen, was es ist, wer es verkauft, wie lange es läuft und wie sein Preis zum letzten Verkauf, zum niedrigsten Preis im Moment und zum Preis im Shop steht. Ein Stapel wird in ganzen Posten gekauft. Ein großer Kauf fragt noch einmal nach. Der Verkäufer wird sofort bezahlt, abzüglich der Steuer; du zahlst weder Einstellgebühr noch Steuer. Was du kaufst, ist **nicht handelbar**: Die Seite sagt neben **Kaufen für …** „Du erhältst: nicht handelbar“, weil nur verkauft werden kann, was du verdienst. Dein eigenes Angebot kannst du nicht kaufen. Ein Angebot, das sich verkauft, während du es ansiehst, meldet „Dieses Angebot ist nicht mehr da.“
+
+**Davidskis Zeilen** stehen zwischen den Angeboten der Piloten. Jede Sorte, die er verkauft, hat eine Zeile in Credits und eine in Thulium, mit seinem Namen in Gold, einem **NPC**-Abzeichen und einem Unendlichkeitszeichen für die Menge und die Restzeit: Sein Vorrat geht nie zur Neige, und er schließt nie. Die Suche, die Kategorie-Chips und die Filter nach Verzauberung und Währung grenzen seine Zeilen ein wie jedes Angebot (seine Gegenstände sind Standard, daher zeigt keine andere Verzauberung sie); nach Preis stehen sie dort, wo ihre Zahl sie hinstellt, neben den Preisen der Piloten, und unter **Endet bald** und **Neueste** kommen sie nach den Angeboten der Piloten. Wähle eine, und **Kaufen für …** geht an ihn, nicht an einen Piloten ([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)): Seine Preise sind ein Vielfaches des Shop-Preises, das tägliche Kauflimit zählt ihn nicht mit, es gibt keinen Verkäufer, der bezahlt wird, und was du bekommst, ist nicht handelbar. Er steckt in keinem Preishinweis, im Verlauf und in keiner Statistik; die gehören den Piloten.
 
 ## Limits
 

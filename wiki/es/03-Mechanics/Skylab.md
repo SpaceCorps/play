@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ En el nivel 15 del Núcleo, el Skylab vuelve a crecer y aprende a volar: un **se
 > [!NOTE]
 > **Qué cambió en 0.4.21.** El paso del Núcleo del nivel 14 al nivel 15 cuesta ahora **4.000 de Thulium** más, y cuando termina aparecen un segundo **puente** y el **Núcleo 3** con cuatro ranuras nuevas. Solar se traslada al Núcleo 3 y produce más energía desde el nivel 15, de modo que una estación completa sigue cubierta. Cuatro módulos nuevos ocupan las ranuras: el **Módulo de motores**, el **Módulo de defensa**, el **Módulo de radar** y la **Bahía de trofeos**, y con ellos tu Skylab vuela por el **mapa del universo**, caza por su cuenta y trae su botín a casa (consulta [Expediciones](#expeditions)). Cada módulo tiene ahora un **peso**, y el peso de la estación y de sus motores decide a qué velocidad vuela (consulta [Peso y velocidad](#weight-and-speed)). La **Bahía de mineral** pasa tres veces más mineral por hora y guarda tres veces más cupo. No se pierde nada de lo que construiste: un Núcleo que ya está en el nivel 15 o más tiene el Núcleo 3 de inmediato y no paga nada.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## En un minuto {#in-one-minute}
 
@@ -624,12 +632,12 @@ Una mejora que ya está en marcha cuando cambian los tiempos conserva la hora de
 Tu Skylab tiene un presupuesto de energía limitado.
 
 - **Balance**: mantén la producción de tu Solar por encima de la energía que usan todos los demás módulos. La página del Skylab muestra el balance y avisa antes de que una construcción lo deje por debajo de cero.
-- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **todos los demás módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja, y desde el nivel 10 el Centro de investigación y la Bahía de mineral) y aproximadamente una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7 y la tiene cubierta. Solar un nivel por debajo no basta para una estación completa (la última columna), de modo que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 o más cubre una estación completa a su nivel con el Núcleo en cualquier nivel. La tabla de más abajo cuenta también la Impresora de munición desde el nivel 7, la Fábrica de cohetes y la Bahía de mineral desde el nivel 10, y los módulos de motores, de defensa y de radar y la Bahía de trofeos desde el nivel 15, cada uno como mucho en su propio nivel máximo.
+- **Solar sigue el ritmo**: un módulo Solar de nivel N produce la energía de **todos los demás módulos en el nivel N** (el Núcleo, las dos granjas, el Almacén de recursos, los dos colectores y la Forja, y desde el nivel 10 el Centro de investigación y la Bahía de mineral) y aproximadamente una décima parte más, así que una estación cuyos módulos están todos en el nivel 7 necesita Solar 7 y la tiene cubierta. Solar un nivel por debajo no basta para una estación completa (la última columna), de modo que Solar tiene que seguir subiendo con el resto. El Núcleo consume poco, así que puede ir por delante: Solar 5 o más cubre una estación completa a su nivel con el Núcleo en cualquier nivel. La tabla de más abajo cuenta también la Impresora de munición desde el nivel 7, la Fábrica de cohetes y la Bahía de mineral desde el nivel 10, y los módulos de motores, de defensa y de radar y la Bahía de trofeos desde el nivel 11 (se construyen desde el nivel 15 del Núcleo y cuentan cuatro niveles antes porque el Núcleo puede ir por delante de Solar), cada uno como mucho en su propio nivel máximo.
 - **Estado activo**: puedes encender y apagar las granjas, los colectores y la Forja para gestionar la energía. El Núcleo, Solar, el Almacén de recursos y el Centro de investigación siempre funcionan. La Impresora de munición, la Fábrica de cohetes y la Bahía de mineral también se pueden encender y apagar, y los cuatro módulos de la Expedición también (no mientras hay un viaje en curso).
 - **Apagón**: si el consumo de energía supera la producción, todas las granjas y colectores dejan de producir hasta que el balance vuelve. Lo que ya guardan se queda y todavía puedes recogerlo. La Forja no empieza ningún lote nuevo y el Centro de investigación no empieza ninguna investigación nueva (una investigación ya en marcha continúa). La Impresora de munición, la Fábrica de cohetes y la Bahía de mineral se detienen como las granjas y los colectores. El Módulo de defensa no combate nada, los escaneos del radar se detienen y no puede empezar ningún viaje (un viaje que ya está en marcha continúa).
 - **Mejora de Solar**: mientras se mejora, Solar produce solo una cuarta parte de su energía, así que, si tus demás módulos no están muy por debajo, la estación entra en déficit y las granjas y los colectores se detienen hasta que termina la mejora (consulta el [módulo Solar](#solar-module)).
 
-La energía de Solar en cada nivel, frente a lo que consumen los demás módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido, y el Centro de investigación y la Bahía de mineral desde el nivel 10, y los cuatro módulos de la Expedición desde el nivel 15):
+La energía de Solar en cada nivel, frente a lo que consumen los demás módulos en el mismo nivel (todos los módulos en ese nivel, el Núcleo incluido, y el Centro de investigación y la Bahía de mineral desde el nivel 10, y los cuatro módulos de la Expedición desde el nivel 11):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ La energía de Solar en cada nivel, frente a lo que consumen los demás módulos
 | 8 | 1.185 | 1.076 | 109 | 965: faltan 111 |
 | 9 | 1.460 | 1.327 | 133 | 1.185: faltan 142 |
 | 10 | 2.035 | 1.849 | 186 | 1.460: faltan 389 |
-| 11 | 2.490 | 2.260 | 230 | 2.035: faltan 225 |
-| 12 | 3.055 | 2.774 | 281 | 2.490: faltan 284 |
-| 13 | 3.765 | 3.421 | 344 | 3.055: faltan 366 |
-| 14 | 4.660 | 4.235 | 425 | 3.765: faltan 470 |
-| 15 | 6.325 | 5.748 | 577 | 4.660: faltan 1.088 |
+| 11 | 2.995 | 2.721 | 274 | 2.035: faltan 686 |
+| 12 | 3.565 | 3.241 | 324 | 2.995: faltan 246 |
+| 13 | 4.285 | 3.893 | 392 | 3.565: faltan 328 |
+| 14 | 5.185 | 4.713 | 472 | 4.285: faltan 428 |
+| 15 | 6.325 | 5.748 | 577 | 5.185: faltan 563 |
 | 16 | 7.765 | 7.055 | 710 | 6.325: faltan 730 |
 | 17 | 9.585 | 8.711 | 874 | 7.765: faltan 946 |
 | 18 | 11.895 | 10.812 | 1.083 | 9.585: faltan 1.227 |
@@ -712,7 +720,7 @@ Mientras Solar se mejora produce una cuarta parte de su energía, y una estació
 | 9 a 10 | 3 h | 3 | 29.250 | 912 |
 | 10 a 11 | 4 h | 5 | 45.000 | 1.440 |
 | 11 a 12 | 5 h | 6 | 67.500 | 2.200 |
-| 12 a 13 | 6 h | 6 | 99.000 | 3.120 |
+| 12 a 13 | 6 h | 7 | 99.000 | 3.120 |
 | 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 a 16 | 12 h | 9 | 306.000 | 9.120 |

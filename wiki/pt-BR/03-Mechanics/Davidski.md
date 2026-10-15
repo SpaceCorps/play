@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski é um comerciante que voa. É uma nave NPC pacífica que sai uma vez por dia, em um horário que ninguém anuncia, e patrulha um [setor de perigo](/wiki/01-General/Danger-Sectors.md) por vez, tem o melhor equipamento do jogo e vende todo item que o [leilão](/wiki/03-Mechanics/Auction.md) lista, com estoque sem fim, por muitas vezes o preço da loja. Não pertence a nenhuma corporação, aparece no Hall da Fama como um piloto e nunca atira primeiro. Você compra dele no leilão e pode enfrentá-lo no espaço.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Onde ele está {#where-he-is}
 
 - **Uma vez por dia, sem aviso**: em cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) ele sai uma vez por dia UTC, em um momento entre 00:00 e 20:00 UTC que é diferente em cada mundo e em cada dia. Ninguém é avisado: nem no chat, nem no registro do jogo, nem por uma notificação. Ele voa até ser destruído ou o dia acabar.
 - **Um setor de perigo por dia**: ele voa por `DS-1`, `DS-2` e `DS-3` em rodízio, um por dia, e em cada mundo a nave dele fica no mesmo setor.
-- **Como encontrá-lo**: olhando. Só os pilotos no setor em que ele voa o veem: o nome dele é dourado, com uma loja na frente, e o minimapa o desenha como um ponto dourado dentro de um anel. O mapa galáctico não o mostra. A seção **Davidski** do leilão diz apenas se ele está fora hoje: **Voando hoje**, **Não saiu hoje** ou **Destruído hoje**. Nunca diz onde nem quando.
+- **Como encontrá-lo**: olhando. Só os pilotos no setor em que ele voa o veem: o nome dele é dourado, com uma loja na frente, e o minimapa o desenha como um ponto dourado dentro de um anel. O mapa galáctico não o mostra. Os detalhes de uma das linhas dele no leilão dizem apenas se ele está fora hoje: **Voando hoje**, **Não saiu hoje** ou **Destruído hoje**. Nunca dizem onde nem quando.
 - **No fim do dia** ele sai quando ninguém o atinge há um minuto. Uma luta nunca é cortada pela meia-noite: depois de 15 minutos ele vai embora, aconteça o que acontecer. O Davidski do dia seguinte sai no momento do dia seguinte, no próximo setor.
 - **Depois de um reset** a nave dele é refeita, mas o dia dele é lembrado: se estava fora e não tinha sido destruído, ele volta na hora; se tinha sido destruído, continua fora até o dia seguinte.
 
@@ -50,7 +52,7 @@ A caixa tem de 40 a 60 Ship Fragments, de 10 a 20 Power Cores e de 3.000 a 6.000
 
 ## Comprar dele {#buying-from-him}
 
-A seção **Davidski** do leilão lista todo tipo de item que o leilão lista, 83 no total, com o preço de um lote:
+O estoque dele está na lista do **Mercado** do leilão, entre os anúncios dos pilotos: uma linha para cada um dos 83 tipos que o leilão lista, em créditos e em Thulium (166 linhas), com o preço de um lote, com o nome dele em dourado, um selo **NPC** e um sinal de infinito na quantidade e no tempo restante. A busca, as categorias e os filtros de encantamento e de moeda do Mercado reduzem as linhas dele como qualquer anúncio (os itens dele são Padrão), e as ordenações as colocam onde o número delas manda: por preço ao lado dos preços dos pilotos, depois dos anúncios dos pilotos em **Termina logo** e **Mais recentes**. Escolha uma para ver os detalhes e **Comprar por …**; a compra vai para ele, não para um piloto. Os preços:
 
 - **100 vezes o preço da loja em créditos e 40 vezes em Thulium** para os itens que a loja vende; um preço da loja em uma moeda conta na outra a 200 créditos por Thulium. Um Repair Drone I (5.000 créditos na loja) custa 500.000 créditos ou 1.000 Thulium, um Quantum Laser I 800.000 créditos ou 1.600 Thulium, os foguetes de 50.000 a 100.000 créditos cada. Os dois preços não valem o mesmo: a 200 créditos por Thulium, 1.000 Thulium seriam só 200.000 créditos.
 - **O equipamento que a loja não vende é o último recurso dele: 200 vezes o valor de referência em créditos e 80 vezes em Thulium**, pelo menos 50 vezes o que custa o caminho mais barato para obtê-lo (fazer você mesmo ou o preço de outro piloto). Um Quantum Laser III custa 84.966.000 créditos ou 169.932 Thulium, um Helios Beam 682.192.400 créditos ou 1.364.388 Thulium e um Hull Plating III 1.271.074.400 créditos ou 2.542.152 Thulium. Essas linhas levam um pequeno selo **Último recurso**, como os recursos raros abaixo.
@@ -58,7 +60,7 @@ A seção **Davidski** do leilão lista todo tipo de item que o leilão lista, 8
 - **O estoque dele não acaba.** Uma compra leva até 1.000 lotes (25 peças de um item que não é pilha), e um foguete é carregado até o limite da sua pilha, como em qualquer lugar.
 - **Sem limite diário.** O limite diário de compra do leilão e o limite entre dois pilotos valem para pilotos que compram de pilotos; ele não é ninguém e nada passa para ninguém. Não há imposto nem depósito: o que você paga some do jogo.
 - **O que você recebe é um item comum**: não [vendável](/wiki/03-Mechanics/Auction.md#marketable-items), então não pode ser anunciado para outro piloto.
-- **As regras do leilão valem**: nível 5, a pausa, um banimento e os dias de fechamento do leilão. A seção dele funciona esteja ele voando ou não.
+- **As regras do leilão valem**: nível 5, a pausa, um banimento e os dias de fechamento do leilão. As linhas dele são as mesmas esteja ele voando ou não, e não há nada a cancelar nem a dar lance.
 
 ## Rankings
 

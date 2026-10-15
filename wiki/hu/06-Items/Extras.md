@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be4819075016f18a -->
+<!-- wiki-i18n source: d73343b5c426be4e -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -10,19 +10,21 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 | **Cloaking CPU S** | Elrejti a hajódat | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Elrejti a hajódat | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Elrejti a hajódat | 50 | 20 000 Thulium |
-| **Energetic Wall I** | Plazmafalat állít a kurzorodhoz, a hajód közelében: minden lövés, amely átszeli, a falat találja el, és minden benne lévő hajó ég | korlátlan | 250 Thulium |
-| **Energetic Wall II** | Ugyanaz a fal háromszoros életerővel (30 000 és 90 000) | korlátlan | Gyártás: egy Energetic Wall I és 600 Thulium, a kutatása után |
+| **P.E.T. Station I–III** | BE kapcsolva 2, 3 vagy 5 dokkolt [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) ad bónuszt a hajódnak, szerez tapasztalatot és dolgozik; KI kapcsolva ezek közül egyiket sem teszik | BE / KI | Gyártás, a kutatása után (az alábbi tárgyfa) |
 
-A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)).
+A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)). A két **Energetic Wall** sem extra már: a 0.4.22 óta ők is fogyóeszközök, kötegben viszed őket, és egyetlen foglalatba sem kerülnek (lásd [Energetic Wall](#energetic-wall)).
 
 Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafoglalatába: egy **Base CPU I**-et (10 használat, teleport a vállalatod bázisára) és egy **Repair Drone I**-et. Húzd őket a gyorssáv Extrák menüjéből egy helyre, hogy használhasd őket. A kezdőcsomagot csak az új pilóták kapják meg: aki a 0.4.10 előtt csatlakozott, annak nincs.
 
 Hét további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, valamint az Auto-Repair CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **WAL** az Energetic Wallhoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. Az Extra Slots CPU-knak nincs helyük: a Skylabodba települnek. A három **P.E.T. Station** tárgynak sincs helye: a Gyártásban átvéve maguktól települnek, és helyet adnak 2, 3 és 5 [P.E.T.-nek](/wiki/03-Mechanics/Pets.md). Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
+Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. A fogyóeszközöknek megvan a sajátjuk: **EMP**, és **WAL** az Energetic Wallhoz. A három **P.E.T. Station** tárgy extra, mint a többi, **PET** címkével: szerelj fel egyet, és a foglalata BE vagy KI kapcsolja a Stationt (két lenyomás között egy másodperc), és mutatja, melyik állásban van. Amíg BE van kapcsolva, a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) számítanak, amíg KI, nem. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
 
-![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
+![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -40,12 +42,10 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
@@ -57,7 +57,6 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
-Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -86,17 +85,17 @@ Az S, M és L ugyanúgy viselkedik: a nagyobb csomagok csak használatonként ol
 
 ## Energetic Wall
 
-Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merőlegesen a hajódtól odavezető vonalra: egy 360 egység hosszú (nagyjából három és fél hajómodell) és 10 egység széles sáv. A közepe legfeljebb **450 egységre** van a hajó közepétől: a távolabbi kurzor 450 egységre teszi a vonal mentén, a 120 egységnél közelebbi 120 egységre tolja ki. Amíg a hely kész, egy halvány pontvonal és egy szellemkontúr mutatja, hol fog állni. Ha a játék nem tudja, hol a kurzorod, a hajó közepétől 220 egységre áll előtte, az irányára merőlegesen. A falat a gyorssáv Extrák menüjéből húzd egy helyre a használatához, mint a REP-et. Mögé bújni és egy sávot lezárni való, nem arra, hogy benne állj.
+Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merőlegesen a hajódtól odavezető vonalra: egy 360 egység hosszú (nagyjából három és fél hajómodell) és 10 egység széles sáv. A közepe legfeljebb **450 egységre** van a hajó közepétől: a távolabbi kurzor 450 egységre teszi a vonal mentén, a 120 egységnél közelebbi 120 egységre tolja ki. Amíg a hely kész, egy halvány pontvonal és egy szellemkontúr mutatja, hol fog állni. Ha a játék nem tudja, hol a kurzorod, a hajó közepétől 220 egységre áll előtte, az irányára merőlegesen. Az Energetic Wall **fogyóeszköz**, mint az [EMP Charge](/wiki/06-Items/Rockets.md#emp-charge): köteg a leltáradban, amely **egyetlen hajón sem foglal foglalatot** (a 0.4.22-ig extra volt). A használatához húzd a gyorssáv Fogyóeszközök menüjéből egy helyre; a két szint két bejegyzés, így egy hely egy szintet tart. Mögé bújni és egy sávot lezárni való, nem arra, hogy benne állj.
 
 - **Mit állít meg.** Minden lövés, amely átszeli, a falat találja el, bárki adta le és bármelyik oldalról: lézersorozat, rakéta, egy idegen sorozata. Ami mögötte áll, semmit sem kap, a sebzést a fal életereje viseli. Egy rakéta robbanása, amely a falnál megy el, a közeli oldalán lévő hajókat éri, a mögötte lévőket nem. A saját lövéseidet is: a saját falaidon át nem tudsz kifelé lőni. A N.I.K.E. és a Dormant Swamp lövegtornyai átrepülnek rajta, ahogy az aszteroidák felett is.
 - **Mit éget.** Minden hajó, amelynek a törzse hozzáér a sávhoz, **másodpercenként 2 500 sebzést** kap, előbb a pajzsa, a tiéd is, az idegenek és a vállalati pilóták is. A biztonságos zónában vagy újraéledés védelme alatt álló hajó nem ég, és két sáv egy hajón nem adódik össze.
 - **Meddig tart.** Az 1. szintű fal **30 000 életerőpontos**, a 2. szintű **90 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenkét Helios Beammel és x4 lőszerrel nagyjából 3,5 másodperc alatt lebont egy 1. szintű falat.
-- **Egyszerre egy.** Az új fal a régi helyére kerül. Egy megnyomás után a tárgy **90 másodpercig** tölt; a várakozás a tiéd, nem a hajóé: a halál vagy a kijelentkezés nem rövidíti. Ha kettőt hordasz, a jobb fal számít.
+- **Egyszerre egy, megnyomásonként egy fal.** Az új fal a régi helyére kerül. Egy megnyomás után a tárgy **90 másodpercig** tölt; a várakozás a tiéd, nem a hajóé: a halál vagy a kijelentkezés nem rövidíti. Egy megnyomás **egy, a hely szintjének megfelelő falat** használ el, és csak akkor, ha a fal áll: az a megnyomás, amelyet a játék elutasít (lásd lent), nem használ el semmit, és nem indít várakozást. Ha ebből a szintből nincs több, azt mondja: „Nincs több Energetic Wall.”, és a másik szintet soha nem használja el helyette.
 - **Hol nem.** Nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a sáv biztonságos zónához vagy kapuhoz érne, nem álcázva, és nem ott, ahol a sáv közepe a térképen kívülre esne. A játék megmondja, melyik eset.
 - **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
 - **Az idegenek nem kerülik meg.** Átrepülnek rajta és égnek, vagy a saját oldalukon állva lőnek a falra.
-- **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul.
-- **Hogyan szerezhető.** Az Energetic Wall I a Boltban kapható 250 Thuliumért. Az Energetic Wall II-t a Gyártás készíti egy Energetic Wall I-ből, 10 Ship Fragmentből és 2 Power Core-ból 600 Thuliumért, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)).
+- **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul. A helyeden egy szám a szintjének megmaradt falait is számolja.
+- **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **250 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A rakétákhoz hasonlóan a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
 
 ## A Kutatóközpont CPU-i {#research-cpus}
 

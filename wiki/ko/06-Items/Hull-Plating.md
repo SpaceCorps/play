@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: 선체 장갑 -->
 # 선체 장갑 {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; 선체 장갑; 장갑 슬롯; 장갑판 -->
 
 Dormant 무리를 연구한 결과 장갑 기술의 진전이 확인되었습니다. 이 기술로 함선은 선체를 강화할 수 있습니다. **선체 장갑**은 제작한 함선의 선체 플레이트 슬롯에 장착해 선체 포인트를 더해 주는 장갑입니다. [부스터](/wiki/06-Items/Boosters.md) 페이지의 Hull Plating **Booster**와는 다르며, 그쪽은 시간제 보너스입니다.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

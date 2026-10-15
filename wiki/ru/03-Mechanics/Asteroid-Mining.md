@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
+<!-- wiki-i18n source: c84ea450afa0dee6 -->
 <!-- wiki-i18n title: Добыча на астероидах -->
 # Добыча на астероидах {#asteroid-mining}
 
 **Астероиды** — это огромные камни, которые лежат в плоскости полёта корпоративных секторов и Опасных секторов. Они никогда не двигаются и никогда не стреляют. Разбейте астероид **ракетами** или **лазерами**, и он рассыплется на мелкие **обломки** с кредитами, Thulium и рудой; их подбирают так же, как [груз](/wiki/03-Mechanics/Cargo.md). Для этой работы нужны ракеты: лазеры тоже повреждают астероид, но лишь на 5% от того, что они наносят кораблю, а дроны ему ничего не делают. Ещё одна вещь разбивает астероиды за вас: пристыкованный P.E.T. **Mole** ([ниже](#the-mole-pet)).
 
 Добыча — не то же самое, что охота, и не замена ей: она не даёт ни опыта, ни чести, ни очков рейтинга, а выпущенные ракеты стоят кредитов или Thulium. Взамен вы получаете кредиты и Thulium, руду для [Кузницы](/wiki/06-Items/Forge.md) и для крафта без боя и работу, которую может разделить [группа](/wiki/03-Mechanics/Groups.md). Платит она хорошо: по собственной модели игры час добычи на подходящих астероидах подходящей ракетой приносит примерно в 2,6–6,8 раза больше, чем лучший охотничий час вашего уровня, когда ракеты уже оплачены. Дневные пределы ([Миры](#the-worlds)) ограничивают её, и достигаются они быстро: в Alpha пилот, который добывает без перерывов на хорошем секторе, достигает предела по Thulium менее чем за 2 часа, а предела по кредитам — примерно за 2,7 часа.
+
+![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
 ## Что такое астероид {#what-an-asteroid-is}
 
@@ -59,7 +61,7 @@
 ## Правила {#the-rules}
 
 <!-- asteroids-rules:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 - Пилот, нанёсший астероиду не меньше 5% урона, получает долю его обломков пропорционально нанесённому урону. Если никто не набрал 5%, всё получает пилот, нанёсший больше всех.
 - [Группа](/wiki/03-Mechanics/Groups.md#sharing-kills) считается одним пилотом, а её доля делится по уровню между товарищами по группе, которые рядом и стреляют.
@@ -80,7 +82,7 @@
 В каждом мире, Alpha, Beta и Gamma, свои астероиды на тех же местах ([Миры](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), так что астероид, который вы разбили в своём мире, в другом не разбит. Больший мир — это больший корпус и большая награда.
 
 <!-- asteroids-worlds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Мир | Корпус | Награда | Предел Thulium | Предел кредитов |
 | :--- | ---: | ---: | ---: | ---: |
@@ -97,7 +99,7 @@
 Во всех домашних секторах трёх корпораций и во всех Опасных секторах есть астероиды, и набор у каждого сектора свой: в основном виды его кольца, с одним-двумя гостями из соседнего кольца сверху или снизу. В нейтральных секторах, куда не ведёт ни один портал, их нет. Астероиды Опасных секторов появляются с дня сезона из таблицы — дня, когда открывается PvP ([Первый контакт](/wiki/03-Mechanics/Wipe-Timeline.md)), остальные — с первого дня. После разрушения новый астероид того же вида вырастает снова через время из строки сектора. Рядом с пульсаром, который сияет с первого дня сезона, астероидов нет; с 11-го дня их нет и рядом с гигантским экскаватором и серединой Dormant Swamp ([Опасные секторы](/wiki/01-General/Danger-Sectors.md#where-everything-is)), а скала, стоявшая там к началу события 2, исчезает.
 
 <!-- asteroids-maps:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Сектор | Астероиды | С дня | Возвращается | Виды |
 | :--- | ---: | ---: | ---: | :--- |
@@ -123,7 +125,22 @@
 ## Виды {#the-kinds}
 
 <!-- asteroids-kinds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+
+### Ступени и части P.E.T. {#tiers-and-pet-parts}
+
+**Ступень** астероида — это кольцо секторов, к которому относится его вид: ступени от 1 до 4 — это секторы от x-1 до x-4 трёх корпораций, ступень 5 — Опасные секторы. Ступень растёт с размером: чем крупнее астероид, тем выше его ступень. Но это не одно и то же: в большинстве ступеней есть два размера, их показывает таблица. Окно цели и карточка при наведении показывают семейство, размер и ступень астероида.
+
+Ступень решает и ещё одну находку: **часть P.E.T.** — Cluster Chunk, который принимает Колыбель [P.E.T.](/wiki/03-Mechanics/Pets.md). Таблица показывает шанс того, что разбитый астероид оставит каждый ранг (прочерк — никогда). Астероиды ступени 1 не оставляют ничего. Каждый ранг разыгрывается один раз за каждый разбитый астероид, пилот, нанёсший больше всего урона, получает чанк целиком, а Удача шансы не меняет. У Motherlode шансы свои. Выберите астероид, и окно цели перечислит части P.E.T. его вида.
+
+| Ступень | Секторы | Размер | Виды | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| 1 | `x-1` | Крошечный, Малый | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
+| 2 | `x-2` | Малый, Средний | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4% | – | – |
+| 3 | `x-3` | Средний | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8% | 0,15% | – |
+| 4 | `x-4` | Средний, Большой | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0,25% | 0,03% |
+| 5 | Опасные секторы | Большой | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2% | 0,3% | 0,1% |
+| 5 | Опасные секторы | Огромный | Motherlode | 25% | 8% | 3% |
 
 Всего 27 видов астероидов в 8 семействах. **Рассчитан на** называет ракету, под которую сбалансирован вид, и примерно сколько таких ракет нужно, чтобы разбить его в Alpha. **Находки** — руда и редкие находки, которые разыгрываются при разрушении и которые делят между собой его обломки: процент — шанс этой строки, остальные строки находят всегда. Кредиты и Thulium — суммы Alpha за разрушение.
 
@@ -131,84 +148,84 @@
 
 Обычный камень: ни брони, ни слабого места.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Pebble** | 8 500 | Крошечный | – | 1 | Примерно 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 600–11 100 | 22%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Cobble** | 10 000 | Малый | – | 1 | Примерно 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 300–10 500 | 25%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Dark Chondrite** | 12 000 | Малый | – | 1 | Примерно 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7 050–11 850 | 65%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
-| **Vein Rock** | 18 000 | Малый | – | 1 | Примерно 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 350–22 200 | 50%: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
-| **Slag Block** | 24 000 | Средний | – | 2 | Примерно 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18 600–31 050 | 50%: 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3` |
-| **Cataclast** | 36 000 | Средний | – | 2 | Примерно 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22 350–37 200 | 50%: 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3` |
-| **Lode Rock** | 52 000 | Средний | – | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34 950–58 200 | 50%: 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3`, `G-4` |
-| **Cataclysite Mass** | 72 000 | Большой | – | 2 | Примерно 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44 700–74 550 | 50%: 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
-| **Rich Lode** | 80 000 | Большой | – | 3 | Примерно 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61 800–103 050 | 50%: 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Pebble** | 8 500 | Крошечный | 1 | – | 1 | Примерно 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 600–11 100 | 22%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Cobble** | 10 000 | Малый | 1 | – | 1 | Примерно 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 300–10 500 | 25%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Dark Chondrite** | 12 000 | Малый | 2 | – | 1 | Примерно 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7 050–11 850 | 65%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
+| **Vein Rock** | 18 000 | Малый | 2 | – | 1 | Примерно 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 350–22 200 | 50%: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
+| **Slag Block** | 24 000 | Средний | 3 | – | 2 | Примерно 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18 600–31 050 | 50%: 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3` |
+| **Cataclast** | 36 000 | Средний | 3 | – | 2 | Примерно 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22 350–37 200 | 50%: 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3` |
+| **Lode Rock** | 52 000 | Средний | 3 | – | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34 950–58 200 | 50%: 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3`, `G-3`, `G-4` |
+| **Cataclysite Mass** | 72 000 | Большой | 4 | – | 2 | Примерно 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44 700–74 550 | 50%: 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
+| **Rich Lode** | 80 000 | Большой | 5 | – | 3 | Примерно 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61 800–103 050 | 50%: 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 ### Лёд {#ice}
 
 Замёрзший камень: ни брони, ни слабого места.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Rime** | 12 000 | Малый | – | 1 | Примерно 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8 250–13 800 | 55%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Rime** | 12 000 | Малый | 1 | – | 1 | Примерно 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8 250–13 800 | 55%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
 
 ### Кристалл {#crystal}
 
 Хрупкий: взрыв по площади наносит кристаллическому астероиду больше урона, чем прямое попадание.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Glimmer** | 9 000 | Крошечный | Взрывы ×1,6 | 1 | Примерно 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 150–10 350 | 41%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
-| **Nyx Geode** | 26 000 | Средний | Взрывы ×1,6 | 2 | Примерно 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16 650–27 750 | 50%: 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
-| **Quorvium Boulder** | 48 000 | Средний | Взрывы ×1,6 | 2 | Примерно 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29 850–49 650 | 50%: 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
-| **Prism Cluster** | 100 000 | Большой | Взрывы ×1,6 | 3 | Примерно 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71 700–119 550 | 50%: 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Glimmer** | 9 000 | Крошечный | 1 | Взрывы ×1,6 | 1 | Примерно 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6 150–10 350 | 41%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
+| **Nyx Geode** | 26 000 | Средний | 2 | Взрывы ×1,6 | 2 | Примерно 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16 650–27 750 | 50%: 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
+| **Quorvium Boulder** | 48 000 | Средний | 4 | Взрывы ×1,6 | 2 | Примерно 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29 850–49 650 | 50%: 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
+| **Prism Cluster** | 100 000 | Большой | 5 | Взрывы ×1,6 | 3 | Примерно 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71 700–119 550 | 50%: 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
 
 ### Обломки {#salvage}
 
 Обломки кораблей и капсулы: в них есть Ship Fragment.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Cache Pod** | 14 000 | Крошечный | – | 1 | Примерно 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9 000–15 000 | 29%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
-| **Scrap Hulk** | 20 000 | Малый | – | 1 | Примерно 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12 150–20 250 | 92%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
-| **Derelict Hulk** | 52 000 | Средний | – | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33 150–55 200 | 50%: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3` |
-| **Derelict Cruiser** | 72 000 | Большой | – | 2 | Примерно 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46 200–76 950 | 50%: 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Cache Pod** | 14 000 | Крошечный | 1 | – | 1 | Примерно 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9 000–15 000 | 29%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
+| **Scrap Hulk** | 20 000 | Малый | 2 | – | 1 | Примерно 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12 150–20 250 | 92%: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
+| **Derelict Hulk** | 52 000 | Средний | 3 | – | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33 150–55 200 | 50%: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `T-3` |
+| **Derelict Cruiser** | 72 000 | Большой | 4 | – | 2 | Примерно 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46 200–76 950 | 50%: 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
 
 ### Железо {#iron}
 
 Бронированный: каждое попадание теряет очки на броню, поэтому нужны ракеты сильнее, чем подсказывает корпус.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ironhide** | 14 000 | Малый | Броня 500 | 1 | Примерно 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 650–22 650 | 50%: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
-| **Plateback** | 36 000 | Средний | Броня 1 500 | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31 650–52 800 | 50%: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `G-3`, `M-4` |
-| **Anvil** | 80 000 | Большой | Броня 3 000 | 2 | Примерно 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84 900–141 450 | 50%: 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ironhide** | 14 000 | Малый | 2 | Броня 500 | 1 | Примерно 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13 650–22 650 | 50%: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
+| **Plateback** | 36 000 | Средний | 3 | Броня 1 500 | 2 | Примерно 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31 650–52 800 | 50%: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `M-3`, `G-3`, `M-4` |
+| **Anvil** | 80 000 | Большой | 4 | Броня 3 000 | 2 | Примерно 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84 900–141 450 | 50%: 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
 
 ### Сокровище {#treasure}
 
 Лучшие плательщики: каждый платит больше кредитов и Thulium, чем средний астероид его кольца.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Средний | Взрывы ×1,6 | 2 | Примерно 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
-| **Thulium Cluster** | 100 000 | Большой | – | 2 | Примерно 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
-| **Vault Rock** | 130 000 | Большой | – | 3 | Примерно 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50%: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
-| **Star Crystal** | 150 000 | Большой | Взрывы ×1,6 | 3 | Примерно 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Thulium Geode** | 66 000 | Средний | 3 | Взрывы ×1,6 | 2 | Примерно 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Cluster** | 100 000 | Большой | 4 | – | 2 | Примерно 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
+| **Vault Rock** | 130 000 | Большой | 4 | – | 3 | Примерно 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50%: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
+| **Star Crystal** | 150 000 | Большой | 5 | Взрывы ×1,6 | 3 | Примерно 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
 
 ### Реликвия {#relic}
 
 Оболочка погибшего корабля роя: бронированная и богатая редкими находками.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ancient Husk** | 120 000 | Большой | Броня 2 000 | 3 | Примерно 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114 300–190 350 | 50%: 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ancient Husk** | 120 000 | Большой | 5 | Броня 2 000 | 3 | Примерно 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114 300–190 350 | 50%: 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
 
 ### Титан {#titan}
 
 Самый большой из всех, камень для группы.
 
-| Вид | Корпус | Размер | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Motherlode** | 450 000 | Огромный | – | 3 | Примерно 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348 900–581 400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Motherlode** | 450 000 | Огромный | 5 | – | 3 | Примерно 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348 900–581 400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 <!-- asteroids-kinds:end -->
 

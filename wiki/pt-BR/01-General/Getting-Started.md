@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@ Você escolhe a sua corporação na primeira vez que joga, e isso é grátis. De
 
 ## Jogando com amigos {#playing-with-friends}
 
-Entre em um [clã](/wiki/03-Mechanics/Clans.md) ou voe em um [grupo](/wiki/03-Mechanics/Groups.md) de até cinco pilotos e traga novos amigos com o seu código pessoal: **Comunidade › Convidar amigos** dá a eles um pacote inicial e a você uma recompensa em Thulium quando eles chegam ao nível 5. Veja [Convidar amigos](/wiki/03-Mechanics/Invite-Friends.md).
+Entre em um [clã](/wiki/03-Mechanics/Clans.md) ou voe em um [grupo](/wiki/03-Mechanics/Groups.md) de até dez pilotos e traga novos amigos com o seu código pessoal: **Comunidade › Convidar amigos** dá a eles um pacote inicial e a você uma recompensa em Thulium quando eles chegam ao nível 5. Veja [Convidar amigos](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Missões {#missions}
 

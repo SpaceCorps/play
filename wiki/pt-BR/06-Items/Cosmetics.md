@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d605c9f1ab4311f8 -->
+<!-- wiki-i18n source: 65309b17cbdf0785 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -8,6 +8,10 @@ Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a 
 
 > [!NOTE]
 > **Ainda não dá para comprar nem ganhar nada.** Por enquanto um administrador emite cada visual. O hangar marca os que você não tem como “Ainda não pode ser obtido”, e quando você ganha um, um aviso conta e toca um sino suave.
+
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
 ## Em um minuto {#in-one-minute}
 

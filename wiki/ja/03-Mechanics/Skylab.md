@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ Skylab は、あなた専用の軌道施設です。クレジットや Thulium �
 > [!NOTE]
 > **0.4.21 での変更点。** コアのレベル 14 からレベル 15 へのステップに、**Thulium 4,000** が追加でかかるようになり、完了すると 2 つ目の**ブリッジ**と**コア 3** が現れ、新しいスロットが 4 つ増えます。ソーラーはコア 3 に移動し、レベル 15 から発電量が増えるので、フル構成のステーションも引き続き賄えます。4 つの新しいモジュールがスロットに入ります。**エンジンモジュール**、**防衛モジュール**、**レーダーモジュール**、**トロフィーベイ**です。これで Skylab は**宇宙マップ**を飛び、自力で狩りをして、戦利品を持ち帰ります（[遠征](#expeditions)を参照）。すべてのモジュールに**重量**が付き、ステーションとそのエンジンの重量が飛行の速さを決めます（[重量と速度](#weight-and-speed)を参照）。**鉱石ベイ**は 1 時間に 3 倍の鉱石を移し、許容量も 3 倍まで保持します。建設したものは何も失われません。すでにレベル 15 以上のコアには、すぐにコア 3 があり、何も払いません。
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## 1分でわかる要点 {#in-one-minute}
 
@@ -624,12 +632,12 @@ Skylab には**船体**、つまりヒットポイントのプールがあり、
 Skylab の電力予算には限りがあります。
 
 - **収支**：ソーラーの発電量を、ほかのすべてのモジュールが使う電力より高く保ってください。Skylab ページには収支が表示され、建設によってゼロを下回る場合は事前に警告します。
-- **ソーラーが追いつく**：レベル N のソーラーモジュールは、**レベル N にあるほかのすべてのモジュール**（コア、2 つのファーム、資源貯蔵庫、2 つのコレクター、鍛造所、レベル 10 からは研究センターと鉱石ベイ）の電力を賄い、さらに約 10 分の 1 の余裕があります。そのため、すべてのモジュールがレベル 7 のステーションにはソーラー 7 が必要で、それで賄えます。ソーラーが 1 レベル低いとフル構成のステーションには足りない（最後の列）ので、ソーラーは残りに合わせて上げ続ける必要があります。コアは消費が少ないので先に進めます。ソーラー 5 以上は、コアがどのレベルでも、そのレベルのフル構成のステーションを賄えます。下の表は、弾薬プリンターをレベル 7 から、ロケット工場と鉱石ベイをレベル 10 から、エンジンモジュール、防衛モジュール、レーダーモジュール、トロフィーベイをレベル 15 から、それぞれ自分の最高レベルまでで数えています。
+- **ソーラーが追いつく**：レベル N のソーラーモジュールは、**レベル N にあるほかのすべてのモジュール**（コア、2 つのファーム、資源貯蔵庫、2 つのコレクター、鍛造所、レベル 10 からは研究センターと鉱石ベイ）の電力を賄い、さらに約 10 分の 1 の余裕があります。そのため、すべてのモジュールがレベル 7 のステーションにはソーラー 7 が必要で、それで賄えます。ソーラーが 1 レベル低いとフル構成のステーションには足りない（最後の列）ので、ソーラーは残りに合わせて上げ続ける必要があります。コアは消費が少ないので先に進めます。ソーラー 5 以上は、コアがどのレベルでも、そのレベルのフル構成のステーションを賄えます。下の表は、弾薬プリンターをレベル 7 から、ロケット工場と鉱石ベイをレベル 10 から、エンジンモジュール、防衛モジュール、レーダーモジュール、トロフィーベイをレベル 11 から（建てられるのはコアレベル 15 からですが、コアはソーラーより先に進めるので、4 レベル早く数えます）、それぞれ自分の最高レベルまでで数えています。
 - **稼働状態**：電力を管理するために、ファーム、コレクター、鍛造所はオン・オフできます。コア、ソーラー、資源貯蔵庫、研究センターは常に動いています。弾薬プリンター、ロケット工場、鉱石ベイもオン・オフでき、遠征の 4 つのモジュールもオン・オフできます（航行中は不可）。
 - **電力不足**：電力の消費が発電を上回ると、収支が戻るまで、すべてのファームとコレクターが生産を止めます。すでに貯まっているものは残り、回収もできます。鍛造所は新しいバッチを始めず、研究センターは新しい研究を始めません（進行中の研究は続きます）。弾薬プリンター、ロケット工場、鉱石ベイは、ファームやコレクターと同じように止まります。防衛モジュールは何とも戦わず、レーダーのスキャンは止まり、航行は始められません（航行中のものは続きます）。
 - **ソーラーのアップグレード**：ソーラーはアップグレード中、電力の4分の1しか作らないため、ほかのモジュールがずっと低いレベルでない限り、ステーションは電力不足になり、アップグレードが終わるまでファームとコレクターが止まります（[ソーラーモジュール](#solar-module)を参照）。
 
-各レベルでのソーラーの電力と、同じレベルでほかのモジュールが使う電力の比較です（そのレベルのすべてのモジュール、コアを含み、レベル 10 から研究センターと鉱石ベイ、レベル 15 から遠征の 4 つのモジュール）：
+各レベルでのソーラーの電力と、同じレベルでほかのモジュールが使う電力の比較です（そのレベルのすべてのモジュール、コアを含み、レベル 10 から研究センターと鉱石ベイ、レベル 11 から遠征の 4 つのモジュール）：
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ Skylab の電力予算には限りがあります。
 | 8 | 1,185 | 1,076 | 109 | 965：111不足 |
 | 9 | 1,460 | 1,327 | 133 | 1,185：142不足 |
 | 10 | 2,035 | 1,849 | 186 | 1,460：389不足 |
-| 11 | 2,490 | 2,260 | 230 | 2,035：225不足 |
-| 12 | 3,055 | 2,774 | 281 | 2,490：284不足 |
-| 13 | 3,765 | 3,421 | 344 | 3,055：366不足 |
-| 14 | 4,660 | 4,235 | 425 | 3,765：470不足 |
-| 15 | 6,325 | 5,748 | 577 | 4,660：1,088不足 |
+| 11 | 2,995 | 2,721 | 274 | 2,035：686不足 |
+| 12 | 3,565 | 3,241 | 324 | 2,995：246不足 |
+| 13 | 4,285 | 3,893 | 392 | 3,565：328不足 |
+| 14 | 5,185 | 4,713 | 472 | 4,285：428不足 |
+| 15 | 6,325 | 5,748 | 577 | 5,185：563不足 |
 | 16 | 7,765 | 7,055 | 710 | 6,325：730不足 |
 | 17 | 9,585 | 8,711 | 874 | 7,765：946不足 |
 | 18 | 11,895 | 10,812 | 1,083 | 9,585：1,227不足 |
@@ -712,7 +720,7 @@ Skylab が育つには何週間もかかるので、少しの計画が役に立�
 | 9から10 | 3時間 | 3 | 29,250 | 912 |
 | 10から11 | 4時間 | 5 | 45,000 | 1,440 |
 | 11から12 | 5時間 | 6 | 67,500 | 2,200 |
-| 12から13 | 6時間 | 6 | 99,000 | 3,120 |
+| 12から13 | 6時間 | 7 | 99,000 | 3,120 |
 | 13から14 | 8時間 | 7 | 156,000 | 4,800 |
 | 14から15 | 10時間 | 8 | 225,000 | 6,800 |
 | 15から16 | 12時間 | 9 | 306,000 | 9,120 |

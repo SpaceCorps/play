@@ -7,6 +7,10 @@ A **look** is what your ship wears. It has four parts: a **skin** (the paint of 
 > [!NOTE]
 > **Nothing can be bought or earned yet.** For now an admin issues every look. The Hangar marks the ones you do not have as "Can't be obtained yet", and when you are given one a toast tells you and a soft chime plays.
 
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../img/wiki-img/shots/looks-wardrobe.jpg)
+
 ## In one minute
 
 - **Where.** The **Look** section of the Hangar's Spaceship view has three boxes, **Skin**, **Aura** and **Exhaust**, and the Drones view has one for the **Drone livery**. A click on a box opens the **Wardrobe**.

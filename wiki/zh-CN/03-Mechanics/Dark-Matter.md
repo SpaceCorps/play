@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** 是科技树顶端、锻造炉最高两级以及每条升级链最后一阶背后的资源。它不能购买，不能开采，普通外星人也不会掉落：你要向**黑洞（black hole）**发射 **N.I.K.E.** 火箭来**制造**它，再拾取黑洞抛回的货箱。**Dark Matter Plate** 在装配站由 Dark Matter 压制而成，前提是你已研究了它的配方。本页说明两者各自从哪里来、有什么用，以及该按什么顺序去做。从赛季第 11 天起，Dark Matter 也是**巨型挖掘机的燃料**（[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)），[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的少数外星人也会掉落一点。
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## 一分钟了解 {#in-one-minute}
 

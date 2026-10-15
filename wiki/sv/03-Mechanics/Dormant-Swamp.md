@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Skada per skott, i varje värld:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-torn | 5 000 / 4 400 | 5 s | 1 080 | 50 000 | 75 000 | 100 000 |
 | Laserkanon × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 s | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- En raket avfyras från 90 % av sin räckvidd, så att den når fram; ett lasertorn skjuter en gång i sekunden, och dess skada slumpas inom det visade intervallet.
+- En raket avfyras från 90 % av den räckvidd som samma raket har i en pilots händer, så att den når fram; ett lasertorn skjuter en gång i sekunden, och dess skada slumpas inom det visade intervallet.
 - En N.I.K.E. har 35 % sköldgenomträngning, som dras av från en sköldabsorption.
+- Tornets N.I.K.E. flyger 25 % snabbare och 2× så långt som din: 1 125 enheter i sekunden, 8 100 enheter totalt, så ett skepp som flyr från den förföljs långt.
 - En N.U.K.E. exploderar över en radie på 900 enheter, hårdast i mitten.
+- Tornets N.U.K.E. flyger 25 % snabbare och 2× så långt som din: 375 enheter i sekunden, 2 400 enheter totalt, så ett skepp som flyr från den förföljs långt.
 
 <!-- swamp-guns:end -->
 
-- **Ingenting når utanför zonen,** och inne i den förstörs ett skepp på sekunder: ju närmare mitten det kommer, desto fler kanoner tillkommer, och inte ens den bäst skyddade Wraith håller.
+- **Utanför zonen skjuter ingenting,** och inne i den förstörs ett skepp på sekunder: ju närmare mitten det kommer, desto fler kanoner tillkommer, och inte ens den bäst skyddade Wraith håller. En raket som redan är i luften flyger däremot vidare, och tornets raketer flyger snabbare och längre än dina: att fly rakt ifrån en skakar inte av den.
 - **Kamouflage tar dig in.** Inget torn ser någonsin ett kamouflerat skepp, eller ett inne i en EMP:s fönster, på något avstånd. En explosion riktad mot ett synligt skepp som brister bredvid ett kamouflerat skadar det ändå och avslutar dess kamouflage.
 - **De skjuter bara på piloter,** aldrig på utomjordingar, koncernpiloter eller svärmen, och skyddet hos ett skepp som nyss kommit tillbaka efter en förstörelse gäller också mot dem.
 - **Varningsringen.** Ett skepp som korsar ringen utanför zonen får en systemrad: tornen skjuter på varje skepp de ser, och något sover i mitten. Det varnas igen först när det har lämnat ringen och kommit tillbaka.

@@ -255,9 +255,11 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
    patchnotes:script markers by scripts/release/patchnotes.py from
    scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
    Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
-   first time it opens, its fragment (patchnotes/v0.4.8.part.html) is fetched and put in. The page
-   opened at #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails)
-   the link inside the entry opens the release's own page, patchnotes-v0.4.8.html. */
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
 (function () {
   'use strict';
   var list = document.querySelector('.note-index-list');
@@ -269,7 +271,9 @@ if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
     if (!body || state === 'loading' || state === 'done') return Promise.resolve();
     d.setAttribute('data-state', 'loading');
     d.setAttribute('aria-busy', 'true');
-    return fetch('patchnotes/' + d.id + '.part.html')
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
       .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
       .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
       .catch(function () { d.setAttribute('data-state', 'failed'); })

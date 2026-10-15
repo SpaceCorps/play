@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; blindaje; ranura de blindaje; placa de casco -->
 
 El estudio del enjambre Dormant mostró avances en la tecnología de blindaje. Con ella, las naves pueden mejorar su casco: el **blindaje de casco** es un blindaje que encaja en una ranura de placa de casco de una nave fabricada y le añade puntos de casco. No es el Hull Plating **Booster** de la página [Potenciadores](/wiki/06-Items/Boosters.md), que es una bonificación temporal.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

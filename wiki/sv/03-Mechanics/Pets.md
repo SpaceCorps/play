@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; följeslagare; vagga; kodex; korsa; docka; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; arbetande p.e.t.; brytning; plocka upp; räckvidd; overksam; puls -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; på; av; strömbrytare; snabbfält; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; följeslagare; vagga; kodex; korsa; docka; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; arbetande p.e.t.; brytning; plocka upp; räckvidd; overksam; puls -->
 
-En **P.E.T.** (Personal Escort Technology) är en liten följeslagare som flyger bredvid ditt skepp och ger det boosts: mer krediter, mer Thulium, mer skrov eller sköld, mer skada eller mer tur. Två av de tio typerna arbetar också åt dig medan du flyger: **Retriever** plockar upp lastlådorna runt ditt skepp och **Mole** spränger asteroider. Du hittar **Cluster Chunks** i sönderbrutna asteroider, lägger en tillsammans med en Orvium Reinforced Plate i **Vaggan** i din hangar, och en stund senare kläcks en P.E.T. Du **dockar** den i din **P.E.T. Station**; från din nästa start ger den sina boosts, samlar erfarenhet och flyger bredvid skeppet som en liten drönare.
+En **P.E.T.** (Personal Escort Technology) är en liten följeslagare som flyger bredvid ditt skepp och ger det boosts: mer krediter, mer Thulium, mer skrov eller sköld, mer skada eller mer tur. Två av de tio typerna arbetar också åt dig medan du flyger: **Retriever** plockar upp lastlådorna runt ditt skepp och **Mole** spränger asteroider. Du hittar **Cluster Chunks** i sönderbrutna asteroider, lägger en tillsammans med en Orvium Reinforced Plate i **Vaggan** i din hangar, och en stund senare kläcks en P.E.T. Du **dockar** den i din **P.E.T. Station**, en [extra](/wiki/06-Items/Extras.md) som du monterar i en extraplats på ditt skepp; så länge Stationen är **PÅ** ger en dockad P.E.T. sina boosts, samlar erfarenhet och flyger bredvid skeppet som en liten drönare, och så länge den är **AV** gör den inget av det.
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## På en minut {#in-one-minute}
 
-- **Skaffa Stationen.** Forska fram en **P.E.T. Station** i forskningscentret och tillverka den i Monteringen. Den har tre nivåer, med plats för **2, 3 och 5** P.E.T.s. Vaggan fungerar utan den: du kan kläcka P.E.T.s innan du har en Station.
+- **Skaffa Stationen.** Forska fram en **P.E.T. Station** i forskningscentret och tillverka den i Monteringen. Den har tre nivåer, med plats för **2, 3 och 5** P.E.T.s. Montera den i en extraplats på skeppet du flyger. Vaggan fungerar utan den: du kan kläcka P.E.T.s innan du har en Station.
 - **Hitta chunks.** Bryt asteroider från andra nivån och uppåt: en **Regular**, en **Mythical** eller en **Legendary Cluster Chunk** kan bli kvar hel i malmbiten åt den grupp som gjorde mest skada.
 - **Kläck.** I hangarens vy **P.E.T.** tar Vaggan en chunk och en Orvium Reinforced Plate för varje P.E.T. och har fyra platser i kön. Chunkens grad avgör hur många boosts P.E.T.n har: **1, 2 eller 3**.
-- **Docka och flyg.** Docka de P.E.T.s du vill ha medan ditt skepp är landat. De ger sina boosts från din nästa start och samlar erfarenhet medan du jagar, bryter och flyger, upp till nivå 20.
+- **Docka och flyg.** Docka de P.E.T.s du vill ha medan ditt skepp är landat. Med en monterad Station som är PÅ ger de sina boosts och samlar erfarenhet medan du jagar, bryter och flyger, upp till nivå 20.
+- **PÅ och AV.** Platsen **PET** i snabbfältet slår om Stationen, även under flygning, och ändringen gäller direkt: AV, och dina P.E.T.s ger inga boosts, samlar ingen erfarenhet och arbetar inte; PÅ, och de är tillbaka. En Station du aldrig har slagit om är PÅ.
 - **Sätt två i arbete.** En dockad **Retriever** plockar upp lådorna som ligger runt ditt skepp och en dockad **Mole** spränger närmaste asteroid åt dig, så länge du flyger utanför en säker zon, aktiv eller inte, utan gräns för en dags arbete: [de arbetande typerna](#the-working-types). Ett overksamt skepp är ett mål.
 - **De är dina.** P.E.T.s är bundna till dig: ingen handel, ingen Auktion. De finns kvar över wipen.
 
 ## P.E.T. Station {#the-station}
 
-Stationen är ingen Skylab-modul och ingen plats: den är en **installation**, som [Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus). Tre föremål, **P.E.T. Station I, II och III**, forskas fram i [forskningscentret](/wiki/03-Mechanics/Research.md) (3 timmar, 10 timmar och 1 dag, ingen Dark Matter) och tillverkas i Monteringen efter varandra. När du hämtar ett installerar det sig självt, för alla dina skepp, och ger plats för **2, 3 och 5** dockade P.E.T.s. Vad var och en kostar finns i [föremålsträdet](/wiki/06-Items/Extras.md#item-tree) hos Extrautrustning. Stationen finns kvar över wipen, och dess forskning också.
+Stationen är en **extra**. Tre föremål, **P.E.T. Station I, II och III**, forskas fram i [forskningscentret](/wiki/03-Mechanics/Research.md) (3 timmar, 10 timmar och 1 dag, ingen Dark Matter) och tillverkas i Monteringen efter varandra. Du **monterar** en i en extraplats, som en [Cloaking CPU](/wiki/06-Items/Extras.md), och den ger plats för **2, 3 och 5** dockade P.E.T.s. Vad var och en kostar finns i [föremålsträdet](/wiki/06-Items/Extras.md#item-tree) hos Extrautrustning. Stationen finns kvar över wipen, och dess forskning också.
 
-Hangarens vy P.E.T. säger vilken nivå du har, hur många platser som är upptagna och vilken teknologi och vilket föremål som kommer härnäst, med en knapp till forskningsvyn och till Monteringen.
+- **Bara skeppet som flyger med den.** Dina P.E.T.s räknas på skeppet du flyger om en Station är monterad i konfigurationen du flyger. En Station i ditt inventarie, i den andra konfigurationen eller på ett annat skepp gör ingenting; byter du konfiguration eller skepp följer P.E.T.s med direkt.
+- **PÅ och AV.** Slå om Stationen med platsen **PET** i snabbfältet (dra den dit från extraväljaren). **PÅ**: de första 2, 3 eller 5 av dina dockade P.E.T.s ger sina boosts, samlar erfarenhet och arbetar. **AV**: inget av det, och ingen drönare ritas. Platsen visar **PÅ** eller **AV**. Strömbrytaren är din och finns kvar över starter och inloggningar; en Station du aldrig har slagit om är PÅ. Det går en sekund mellan två tryck.
+- **Vad du ser.** En Station som är PÅ ritas på ditt skepp: en dockningsring som svävar över skrovet med en hållare för varje plats, 2, 3 eller 5, var och en upplyst i färgen på den P.E.T. som är dockad där. Slå på den och P.E.T.s flyger ut en efter en och svävar bredvid skeppet; slå av den och de flyger tillbaka, och ringen viks ihop liten och mörk på skrovet, där bara du ser den.
+- **Fler dockade än platser.** Dockar du fem P.E.T.s och monterar en Station II räknas de tre första (efter deras platser), och hangaren märker de andra med ”Räknas inte”. Hangaren dockar i den bästa Station du äger, monterad eller inte, så du kan ordna dina P.E.T.s innan du monterar den.
+
+Hangarens vy P.E.T. säger vilken Station du äger, var den är monterad och om den är PÅ, hur många platser som är upptagna och vilken teknologi och vilket föremål som kommer härnäst, med en knapp till forskningsvyn och till Monteringen. När dina P.E.T.s inte ger något säger vyn och fönstret **Boosters** varför.
 
 ## Cluster Chunks
 
@@ -71,11 +85,11 @@ En P.E.T. går upp till nivå **20**. Varje nivå lägger till **0,2 punkter** t
 - **Skada, träffpoäng och sköld** läggs till dina boosters och din klans boosts, de multiplicerar dem inte: siffrorna i Hangaren, i skeppsfönstret och på din pilotsida räknar med dem, och fönstret **Boosters** har ett **P.E.T.**-kort. Sköld är sköldkapaciteten (de maximala sköldpoängen).
 - **Krediter och Thulium** höjer vad en nedskjutning betalar dig, din del av en boss och av en grupps nedskjutning och vad ett uppdrag betalar när du hämtar ut det, som din [klans boosts](/wiki/03-Mechanics/Clans.md). De höjer aldrig en klippas kontanter, Skylabs gårdar, en bonuskod eller Auktionen.
 - **Tur** höjer chansen för varje bytesrad hos en utomjording eller ett svärmskepp och för en Wardens privata lådor, som [Loot Luck Booster](/wiki/06-Items/Boosters.md). Inget annat.
-- **Ingen plats i Stationen, ingen boost.** Bara dockade P.E.T.s räknas, upp till Stationens plats. En P.E.T. du tagit av eller aldrig dockat ger ingenting och samlar ingenting.
+- **Ingen Station PÅ, ingen boost.** Bara de dockade P.E.T.s som räknas ger en boost: de som ryms på platserna i Stationen som är monterad på ditt skepp, och bara så länge den är PÅ. En P.E.T. du tagit av eller aldrig dockat ger ingenting och samlar ingenting, och inte heller någon när Stationen är AV eller inte monterad.
 
 ## Erfarenhet {#experience}
 
-Varje dockad P.E.T. samlar lika mycket erfarenhet, hel: den delas inte mellan dem. En förvarad P.E.T. samlar ingenting.
+Varje dockad P.E.T. som räknas samlar lika mycket erfarenhet, hel: den delas inte mellan dem. En förvarad P.E.T. samlar ingenting, och inte heller en dockad så länge Stationen är AV eller inte monterad.
 
 - **En nedskjutning.** Vad en [drönare](/wiki/03-Mechanics/Drones.md#levels) får för samma nedskjutning, gånger världens utbetalning (1, 2 eller 3).
 - **En klippa du bröt.** 1, 2, 4, 8 eller 16 för en klippa av nivå 1 till 5 och 64 för Motherlode, gånger världens utbetalning, till varje pilot som sönderfallet betalar; en klippa som din Mole bröt räknas också.
@@ -89,7 +103,7 @@ Nivå 1 kräver 810 erfarenhet, nivå 20 kräver 40 000 totalt. Med en och en h
 
 ### När de arbetar {#when-they-work}
 
-- **Dockad, från din start.** Bara en dockad P.E.T. arbetar, och dess styrka läses vid starten, liksom dess boosts: en nivå som uppnås under flygning räknas från din nästa start.
+- **Dockad, med Stationen PÅ.** Bara en dockad P.E.T. som räknas arbetar: slå Stationen AV och Moles stråle och Retrievers upplockning slutar direkt, PÅ och de fortsätter. Dess styrka läses vid starten: en nivå som uppnås under flygning räknas från din nästa start.
 - **Bara den bästa av varje.** En Mole arbetar, den starkaste (vid lika den på lägre plats), och en Retriever, den med längst räckvidd. Dina övriga Moles och Retrievers ger bara boosts, så en Station full av Moles spränger inte mer än en.
 - **I flygning, utanför en säker zon.** De stannar så länge en [säker zon](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) skyddar ditt skepp, och medan det är förstört, under [skydd efter återkomst](/wiki/01-General/Getting-Started.md#dying-and-coming-back), kamouflerat eller hoppande, och fortsätter när inget av detta gäller. En pilot som är utloggad har inget skepp i rymden, så ingenting arbetar åt honom.
 - **Overksam eller inte.** Det finns ingen regel om att sitta vid tangenterna: en Mole arbetar likadant medan du jagar, medan du tittar på ett fönster och medan du är borta från skärmen.
@@ -149,15 +163,15 @@ Två av dina P.E.T.s, ingen dockad och ingen i ett jobb, kan **korsas** till en.
 
 ## Docka och flyga {#docking-and-flying}
 
-- **Docka och docka av bara med skeppet landat.** Under flygning visar vyn P.E.T. vad du har och ingenting kan ändras (”Parkera ditt skepp för att ändra dina P.E.T.s”). En ändring räknas från din nästa start, så ingenting byts mitt i en strid.
-- **De flyger bredvid dig.** Varje dockad P.E.T. ritas som en **liten drönare** nära sitt skepp, som alla ser, upp till fem per skepp. De går inte att sikta på, klicka på eller träffa, och de är en femtedel så stora som en Slave Drone, så de förväxlas inte med en formations drönare. **Visa P.E.T.s** i Inställningar › Gränssnitt (**Alla**, **Bara mitt** eller **Av**) döljer dem utan att röra dina drönare, och din inställning **Detaljer** (Inställningar › Grafik) avgör för hur många skepp P.E.T.s ritas samtidigt, de närmaste 4, 8, 12 eller 16.
-- **De går till arbetet.** Medan en Mole arbetar lämnar dess drönare sin plats för asteroiden och en tunn stråle binder samman dem; en Retrievers drönare flyger till sin låda och tillbaka. Bara en drönare från ett skepp är borta från sin plats åt gången, och med **Minska rörelser** stannar de på sina platser. Att dölja P.E.T.s döljer drönarna, inte arbetet.
+- **Docka och docka av bara med skeppet landat.** Under flygning visar vyn P.E.T. vad du har och ingenting kan ändras (”Parkera ditt skepp för att ändra dina P.E.T.s”). En ändring av dockningen räknas från din nästa start, så ingenting byts mitt i en strid. Stationen är undantaget: dess plats PET fungerar under flygning.
+- **De flyger bredvid dig.** Varje dockad P.E.T. som räknas ritas som en **liten bepansrad drönare med rörliga delar** (vingar som slår, ben som går, en ring som snurrar, klor som gräver) bredvid sitt skepp så länge Stationen är PÅ, upp till fem per skepp, och alla ser dem och ringen. De går inte att sikta på, klicka på eller träffa. Var och en har ett ljus i sin typs färg och en kristall ovanför i sin grads färg, så de förväxlas inte med en formations drönare. **Visa P.E.T.s** i Inställningar › Gränssnitt (**Alla**, **Bara mitt** eller **Av**) döljer dem och Stationen utan att röra dina drönare, och din inställning **Detaljer** (Inställningar › Grafik) avgör för hur många skepp P.E.T.s ritas samtidigt, de närmaste 4, 8, 12 eller 16.
+- **De går till arbetet.** Medan en Mole arbetar lämnar dess drönare sin plats för asteroiden och en tunn stråle binder samman dem; en Retrievers drönare flyger till sin låda och tillbaka. Bara en drönare från ett skepp är borta från sin plats åt gången, och med **Minska rörelser** stannar de på sina platser. Att dölja P.E.T.s döljer drönarna, inte arbetet. **Minska rörelser** gör också att Stationen och P.E.T.s dyker upp och försvinner direkt i stället för att flyga.
 - **Bundna till dig.** En P.E.T. kan inte säljas, ges bort eller bytas, och den är inget föremål, så det finns inget att lägga i [Auktionen](/wiki/03-Mechanics/Auction.md).
 
 ## Wipen {#the-wipe}
 
-[Wipen](/wiki/03-Mechanics/Wipe-Timeline.md) behåller dina P.E.T.s, dockade och förvarade, deras nivåer, jobben som pågår i Vaggan, Kodexen och den P.E.T. Station du installerade med dess forskning. Den raderar det som ligger löst i ditt inventarie: Cluster Chunks och Orvium Reinforced Plates som du inte lade i Transportförrådet.
+[Wipen](/wiki/03-Mechanics/Wipe-Timeline.md) behåller dina P.E.T.s, dockade och förvarade, deras nivåer, jobben som pågår i Vaggan, Kodexen och dina P.E.T. Station med deras forskning. Den raderar det som ligger löst i ditt inventarie: Cluster Chunks och Orvium Reinforced Plates som du inte lade i Transportförrådet.
 
 ## Ljud {#sounds}
 
-Att starta en montering, hämta en P.E.T., hämta en av en typ du inte hade, docka, docka av, korsa, släppa en och få en nivå har var sitt tyst eget ljud, på volymen för ljudeffekter. Det gäller även arbetet: en Moles stråle surrar svagt där den arbetar och en Retrievers upplockning slutar med ett litet pip där lådan låg (i stället för upplockningsljudet). Andra piloters P.E.T.s i närheten hör du också, svagare.
+Att starta en montering, hämta en P.E.T., hämta en av en typ du inte hade, docka, docka av, korsa, släppa en, få en nivå och slå Stationen PÅ eller AV har var sitt tyst eget ljud, på volymen för ljudeffekter. Det gäller även arbetet: en Moles stråle surrar svagt där den arbetar och en Retrievers upplockning slutar med ett litet pip där lådan låg (i stället för upplockningsljudet). Andra piloters P.E.T.s i närheten hör du också, svagare.

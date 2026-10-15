@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@ Scegli la tua corporazione la prima volta che giochi, e non costa nulla. In segu
 
 ## Giocare con gli amici {#playing-with-friends}
 
-Entra in un [clan](/wiki/03-Mechanics/Clans.md) o vola in un [gruppo](/wiki/03-Mechanics/Groups.md) di massimo cinque piloti, e porta con te nuovi amici con il tuo codice personale: **Comunità › Invita amici** dà loro un pacchetto iniziale e a te una ricompensa in Thulium quando raggiungono il livello 5. Vedi [Invita amici](/wiki/03-Mechanics/Invite-Friends.md).
+Entra in un [clan](/wiki/03-Mechanics/Clans.md) o vola in un [gruppo](/wiki/03-Mechanics/Groups.md) di massimo dieci piloti, e porta con te nuovi amici con il tuo codice personale: **Comunità › Invita amici** dà loro un pacchetto iniziale e a te una ricompensa in Thulium quando raggiungono il livello 5. Vedi [Invita amici](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Missioni {#missions}
 

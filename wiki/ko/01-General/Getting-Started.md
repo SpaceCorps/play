@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: 시작하기 -->
 # SpaceCorps 시작하기 {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@
 
 ## 친구와 함께 플레이 {#playing-with-friends}
 
-[클랜](/wiki/03-Mechanics/Clans.md)에 가입하거나 파일럿 최대 5명의 [그룹](/wiki/03-Mechanics/Groups.md)으로 함께 비행하세요. 내 초대 코드로 새 친구도 데려올 수 있습니다. **커뮤니티 › 친구 초대**에서 확인할 수 있는 내 코드를 쓰면 친구는 스타터 팩을 받고, 친구가 레벨 5에 도달하면 나는 Thulium 보상을 받습니다. [친구 초대](/wiki/03-Mechanics/Invite-Friends.md)를 참고하세요.
+[클랜](/wiki/03-Mechanics/Clans.md)에 가입하거나 파일럿 최대 10명의 [그룹](/wiki/03-Mechanics/Groups.md)으로 함께 비행하세요. 내 초대 코드로 새 친구도 데려올 수 있습니다. **커뮤니티 › 친구 초대**에서 확인할 수 있는 내 코드를 쓰면 친구는 스타터 팩을 받고, 친구가 레벨 5에 도달하면 나는 Thulium 보상을 받습니다. [친구 초대](/wiki/03-Mechanics/Invite-Friends.md)를 참고하세요.
 
 ## 미션 {#missions}
 

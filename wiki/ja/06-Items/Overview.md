@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
@@ -118,6 +118,7 @@ Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.
 - **Repair Drone**：船体を修理するエクストラで、後のものほど速く修理します。Repair Drone I、II、III は5,000、15,000、35,000クレジット、Repair Drone IV は2,000 Thulium です。修理速度は[戦闘](/wiki/03-Mechanics/Combat.md)に載っています。
 - **Cloaking CPU**：戦闘や逃走のためのエクストラです。Cloaking CPU は、自分で解除するまで艦を隠します（S、M、L は使用回数が10、25、50回で、価格は5,000、11,250、20,000 Thulium）。[エクストラ](/wiki/06-Items/Extras.md)を参照してください。
 - **EMP Charge**：ロケットと同じようにスタックで持ち運ぶ消耗品で、スロットは使いません（1チャージ500 Thulium、最大20）。3秒間ロックオンされなくなり、あなたへのロックオンをすべて解除し、近くのステルスもすべて解除します。[ロケット](/wiki/06-Items/Rockets.md#emp-charge)を参照してください。
+- **Energetic Wall I と II**：こちらも消耗品で、スタックで持ち運び、スロットは使いません。押すとカーソルの位置にプラズマの壁を出し、弾は代わりにその壁に当たります。I はショップで1枚 250 Thulium（最大20）、II はアセンブリで1回の製作につき1枚（最大10）。[エクストラ](/wiki/06-Items/Extras.md#energetic-wall)を参照してください。
 - **研究 CPU**：Extra Slots CPU はすべての艦のエクストラスロットを増やし、Jump CPU は Thulium と引き換えに企業のセクターへ運び、Base CPU は基地へ連れ戻し、Auto-Repair CPU は Repair Drone を自動で出します。販売はされません。研究してから、アセンブリで製作します。[エクストラ](/wiki/06-Items/Extras.md#research-cpus)を参照してください。
 - **ドローン編成**：ドローンのための16種類のアイテムで、ボーナスを与える代わりに代償を求めます（例：シールドが大きくなる代わりに武器が弱くなる）。販売はされていません。研究したうえで、アセンブリでThuliumを使って作成します。[ドローン編成](/wiki/03-Mechanics/Formations.md)を参照してください。
 - **資源**：製作のために、エイリアンがドロップし、Skylab が作るものです。Ship Fragment、4種類のクリスタル、Power Core、Velkonite と Orvium のプレートに加え、ほかから手に入る2つがあります。N.I.K.E. ロケットと引き換えに[ブラックホール](/wiki/03-Mechanics/Black-Hole.md)が返す **Dark Matter** と、それをアセンブリが圧縮して作る **Dark Matter Plate** です。後者は、各強化系統の最終ティアと、[鍛冶場](/wiki/06-Items/Forge.md)の最上位の2ステップに使います。

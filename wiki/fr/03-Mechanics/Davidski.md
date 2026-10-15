@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski est un marchand qui vole. C’est un vaisseau PNJ pacifique qui sort une fois par jour, à une heure que personne n’annonce, et patrouille un [secteur dangereux](/wiki/01-General/Danger-Sectors.md) à la fois, il a le meilleur équipement du jeu, et il vend tous les objets que listent les [enchères](/wiki/03-Mechanics/Auction.md), sans fin à son stock, à un multiple du prix de la boutique. Il n’appartient à aucune corporation, figure au Panthéon comme un pilote et ne tire jamais le premier. On lui achète dans les enchères, et on peut le combattre dans l’espace.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Où il se trouve {#where-he-is}
 
 - **Une fois par jour, sans annonce** : dans chaque [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma), il sort une fois par jour UTC, à un moment situé entre 00:00 et 20:00 UTC, différent dans chaque monde et chaque jour. Personne n’est prévenu : ni dans le chat, ni dans le journal de jeu, ni par un avis. Il vole jusqu’à sa destruction ou la fin du jour.
 - **Un secteur dangereux par jour** : il vole sur `DS-1`, `DS-2` et `DS-3` à tour de rôle, un par jour, et dans chaque monde son propre vaisseau est sur le même secteur.
-- **Comment le trouver** : en regardant. Seuls les pilotes présents sur le secteur où il vole le voient : son nom est doré, précédé d’une boutique ; la mini-carte le dessine comme un point doré dans un anneau. La carte galactique ne le montre pas. La section **Davidski** des enchères dit seulement s’il est sorti aujourd’hui : **Vole aujourd’hui**, **Pas sorti aujourd’hui** ou **Détruit aujourd’hui**. Elle ne dit jamais où ni quand.
+- **Comment le trouver** : en regardant. Seuls les pilotes présents sur le secteur où il vole le voient : son nom est doré, précédé d’une boutique ; la mini-carte le dessine comme un point doré dans un anneau. La carte galactique ne le montre pas. Les détails d’une de ses lignes aux enchères disent seulement s’il est sorti aujourd’hui : **Vole aujourd’hui**, **Pas sorti aujourd’hui** ou **Détruit aujourd’hui**. Ils ne disent jamais où ni quand.
 - **À la fin du jour**, il part quand personne ne l’a touché depuis une minute. Un combat n’est jamais coupé par minuit : au bout de 15 minutes, il s’en va quoi qu’il arrive. Le Davidski du lendemain sort au moment du lendemain, sur le secteur suivant.
 - **Après une réinitialisation**, son vaisseau est refait, mais son jour est retenu : s’il était sorti et n’avait pas été détruit, il est de retour aussitôt ; s’il avait été détruit, il reste absent jusqu’au lendemain.
 
@@ -50,7 +52,7 @@ La caisse contient 40 à 60 Ship Fragments, 10 à 20 Power Cores et 3 000 à 6�
 
 ## Lui acheter {#buying-from-him}
 
-La section **Davidski** des enchères liste chaque sorte d’objet que listent les enchères, 83 en tout, au prix d’un lot :
+Son stock est dans la liste du **Marché** des enchères, parmi les annonces des pilotes : une ligne pour chacune des 83 sortes que listent les enchères, en crédits et en Thulium (166 lignes), au prix d’un lot, avec son nom en doré, un badge **PNJ** et un signe infini pour la quantité et le temps restant. La recherche, les catégories et les filtres d’enchantement et de monnaie du Marché réduisent ses lignes comme n’importe quelle annonce (ses objets sont Standard), et ses tris les placent là où leur nombre le dit : par prix à côté des prix des pilotes, après les annonces des pilotes sous **Fin proche** et **Plus récentes**. Choisissez-en une pour voir les détails et **Acheter pour …** ; l’achat va chez lui, pas chez un pilote. Les prix :
 
 - **100 fois le prix de la boutique en crédits et 40 fois en Thulium** pour les objets que la boutique vend ; un prix de la boutique dans une monnaie compte dans l’autre à 200 crédits le Thulium. Un Repair Drone I (5 000 crédits en boutique) coûte 500 000 crédits ou 1 000 Thulium, un Quantum Laser I 800 000 crédits ou 1 600 Thulium, les roquettes de 50 000 à 100 000 crédits pièce. Les deux prix ne valent pas la même chose : à 200 crédits le Thulium, 1 000 Thulium ne feraient que 200 000 crédits.
 - **L’équipement que la boutique ne vend pas est son dernier recours : 200 fois la valeur de référence en crédits et 80 fois en Thulium**, au moins 50 fois ce que coûte la voie la moins chère pour l’obtenir (le fabriquer soi-même, ou le prix d’un autre pilote). Un Quantum Laser III coûte 84 966 000 crédits ou 169 932 Thulium, un Helios Beam 682 192 400 crédits ou 1 364 388 Thulium et un Hull Plating III 1 271 074 400 crédits ou 2 542 152 Thulium. Ces lignes portent un petit badge **Dernier recours**, tout comme les ressources rares ci-dessous.
@@ -58,7 +60,7 @@ La section **Davidski** des enchères liste chaque sorte d’objet que listent l
 - **Son stock ne s’épuise jamais.** Un achat prend jusqu’à 1 000 lots (25 pièces pour un objet qui n’est pas un empilement), et une roquette est portée jusqu’à son empilement comme partout.
 - **Pas de limite quotidienne.** La limite d’achat quotidienne des enchères et celle entre deux pilotes concernent les pilotes qui achètent à des pilotes ; il n’est personne et rien ne passe à personne. Il n’y a ni taxe ni dépôt : ce qu’on paie disparaît du jeu.
 - **Ce qu’on reçoit est un objet ordinaire** : non [vendable](/wiki/03-Mechanics/Auction.md#marketable-items), il ne peut donc pas être mis en vente pour un autre pilote.
-- **Les règles des enchères s’appliquent** : niveau 5, la pause, une interdiction et les jours de fermeture des enchères. Sa section fonctionne qu’il vole ou non.
+- **Les règles des enchères s’appliquent** : niveau 5, la pause, une interdiction et les jours de fermeture des enchères. Ses lignes sont les mêmes, qu’il vole ou non, et il n’y a rien à annuler ni à enchérir.
 
 ## Classements {#rankings}
 

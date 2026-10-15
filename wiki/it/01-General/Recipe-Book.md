@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Ricettario -->
 # Ricettario e build {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 Il **Ricettario** risponde a “che cosa serve per questo?” per qualsiasi oggetto del gioco: un diagramma di ciò di cui è fatto, i passaggi in ordine, i costi completi e da dove viene ogni materia prima. **Build** fa lo stesso per un’intera nave: importa l’equipaggiamento del tuo Hangar o il build di un amico, parti da uno dei 15 preset o creane uno tuo, e guarda le sue statistiche e i suoi costi completi, passo dopo passo. Entrambi sono nella **Biblioteca** della stazione, sotto la Wiki.
 
 Il Ricettario non tiene un listino prezzi suo: calcola i numeri nel momento in cui guardi, a partire dalle ricette, dai prezzi, dalle tecnologie e dalle tabelle di bottino che usano il Negozio, l’[Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) e la [Ricerca](/wiki/03-Mechanics/Research.md), e quindi segue il gioco quando cambia un prezzo o una ricetta. Per questo questa pagina non cita nessun prezzo e nessuna statistica: apri l’oggetto o il build.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Aprirlo {#open-it}
 

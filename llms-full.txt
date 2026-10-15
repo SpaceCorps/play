@@ -47,7 +47,7 @@ AI agents, automated test suites, and scripting environments should invoke this 
 ---
 
 <!-- release:packages -->
-## 3. Package Inventory & Release Artifacts (v0.4.21)
+## 3. Package Inventory & Release Artifacts (v0.4.22)
 
 Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
 
@@ -56,29 +56,29 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 1. **macOS Universal:**
    - Filename: `SpaceCorps2027-macos-universal.dmg`
    - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
-   - Size: 156,850,458 bytes (156.9 MB)
-   - SHA-256: `8d3406cb32772eb661679e55fa2385fa113112db407fa98e4e9f5ad17c3c499b`
+   - Size: 159,848,417 bytes (159.8 MB)
+   - SHA-256: `46f1ee1d292a7bd266c5d4cd6d9cb1633b04de2ed1f54f62a9c0423cbc435e16`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
 
 2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
-   - Size: 151,570,108 bytes (151.6 MB)
-   - SHA-256: `9de05f66d7a08d0a7af679216c45ca8d9e7f01128c4d3f66ad61d1595e076540`
+   - Size: 154,507,599 bytes (154.5 MB)
+   - SHA-256: `d08705e83d33740ad1666982e66b2cd6a68800a8d1798481ace3e91c6b736f71`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
 3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
-   - Size: 146,315,768 bytes (146.3 MB)
-   - SHA-256: `7a98c629a1b3d0a847b06632ed1ed1747500894d498027802b4e53f3dc0cda35`
+   - Size: 149,109,240 bytes (149.1 MB)
+   - SHA-256: `a86e3cca84483f951d90d88a8c335b66817cc42e26ba5890f1bcd40b50ee9d77`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
 4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
-   - Size: 152,450,581 bytes (152.5 MB)
-   - SHA-256: `fb750c3a69b3eddaf8599273aa20c0af24e556c4271677b421be4dffbc6518dd`
+   - Size: 155,314,030 bytes (155.3 MB)
+   - SHA-256: `f72b2f592a0d3e09530a42d16743fc54217dfb300f7feb17df679a3d791c7f28`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
 
 Signed checksums: each release also carries `SHA256SUMS` (the SHA-256 of every package above,
@@ -154,7 +154,7 @@ cd SpaceCorps2027
 <!-- release:languages -->
 ## 6. Internationalization Matrix
 
-SpaceCorps 2027 ships with comprehensive translations across 12 languages:
+SpaceCorps 2027 ships with comprehensive translations across 13 languages:
 
 | Code | Language Name | Native Name | Web Address Parameter |
 | :--- | :--- | :--- | :--- |
@@ -166,12 +166,13 @@ SpaceCorps 2027 ships with comprehensive translations across 12 languages:
 | `hu` | Hungarian | Magyar | not on the download page yet (it shows English) |
 | `pt-BR` | Portuguese (Brazil) | Português (Brasil) | `https://spacecorps.github.io/play/?lang=pt-BR` |
 | `sv` | Swedish | Svenska | `https://spacecorps.github.io/play/?lang=sv` |
+| `tr` | Turkish | Türkçe | not on the download page yet (it shows English) |
 | `ru` | Russian | Русский | `https://spacecorps.github.io/play/?lang=ru` |
 | `ja` | Japanese | 日本語 | `https://spacecorps.github.io/play/?lang=ja` |
 | `ko` | Korean | 한국어 | `https://spacecorps.github.io/play/?lang=ko` |
 | `zh-CN` | Chinese (Simplified) | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |
 
-`?lang=<code>` picks the language of the download page (10 of the 12). In the game: Settings › General ›
+`?lang=<code>` picks the language of the download page (10 of the 13). In the game: Settings › General ›
 Interface Language, or `SPACECORPS_LANG=<code>` for one run.
 <!-- /release:languages -->
 

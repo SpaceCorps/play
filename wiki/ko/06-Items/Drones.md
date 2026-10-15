@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: 드론 -->
 # 드론 {#drones}
 
 드론은 구매하거나 제작할 수 있는 지원 유닛입니다. Slave Drone과 Master Drone을 합쳐 최대 **드론 8기**를 동시에 활성화할 수 있습니다. 아래 트리에 있는 16종의 **드론 편대**는 드론이 아닙니다. 연구하고 제작해서 퀵슬롯에서 하나씩 쓰는 것이며, 드론을 최소 한 기 가지고 있는 동안만 작동합니다([드론 편대](/wiki/03-Mechanics/Formations.md) 참고).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

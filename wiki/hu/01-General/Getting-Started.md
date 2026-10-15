@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@ A vállalatodat az első játékkor választod, és ez ingyenes. Később az ál
 
 ## Játék barátokkal {#playing-with-friends}
 
-Csatlakozz egy [klánhoz](/wiki/03-Mechanics/Clans.md), vagy repülj egy legfeljebb öt pilótából álló [csoportban](/wiki/03-Mechanics/Groups.md), és hozz új barátokat a személyes kódoddal: a **Közösség › Barátok meghívása** kezdőcsomagot ad nekik, neked pedig Thuliumjutalmat, amikor elérik az 5. szintet. Lásd: [Barátok meghívása](/wiki/03-Mechanics/Invite-Friends.md).
+Csatlakozz egy [klánhoz](/wiki/03-Mechanics/Clans.md), vagy repülj egy legfeljebb tíz pilótából álló [csoportban](/wiki/03-Mechanics/Groups.md), és hozz új barátokat a személyes kódoddal: a **Közösség › Barátok meghívása** kezdőcsomagot ad nekik, neked pedig Thuliumjutalmat, amikor elérik az 5. szintet. Lásd: [Barátok meghívása](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Küldetések {#missions}
 

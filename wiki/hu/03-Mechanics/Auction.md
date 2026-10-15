@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
-Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. Repülés közben ablakban nyílik meg: a bal felső eszköztár **Aukció** gombja (egy kalapács) ugyanazt az oldalt mutatja a játék fölött, az ablak helyét és méretét pedig megjegyzi a játék. Úgy működik, mint az állomáson, azzal a különbséggel, hogy a lőszert, a rakétákat és az EMP Charge-ot repülés közben a hajó számolja, ezért ezeket az állomásról teszed fel (az eladólap zárolva mutatja őket, az okkal együtt); vásárolni és licitálni bárhonnan lehet. Öt része van. A **Piac** azt mutatja, amit más pilóták árulnak. A **Tételek** a játék saját ajánlatai, óránként három. A **Davidski** a repülő kereskedő raktára: minden fajta, amit az aukció listáz, a Bolt árának sokszorosáért; amit a Bolt nem árul, az annyiba kerül, hogy nála venni végső megoldás, a gyártásban használt ritka nyersanyagokat pedig még ezerszer annyiért ([Davidski](/wiki/03-Mechanics/Davidski.md)). A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja, és azt, hogyan alakult a kereskedésed.
+Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, az állomás menüjének egyetlen oldalán. Repülés közben ablakban nyílik meg: a bal felső eszköztár **Aukció** gombja (egy kalapács) ugyanazt az oldalt mutatja a játék fölött, az ablak helyét és méretét pedig megjegyzi a játék. Úgy működik, mint az állomáson, azzal a különbséggel, hogy a lőszert, a rakétákat és az EMP Charge-ot repülés közben a hajó számolja, ezért ezeket az állomásról teszed fel (az eladólap zárolva mutatja őket, az okkal együtt); vásárolni és licitálni bárhonnan lehet. Négy része van. A **Piac** azt mutatja, amit más pilóták árulnak, és a hirdetéseik között a repülő kereskedő készletét: minden fajta, amit az aukció listáz, a Bolt árának sokszorosáért, a nevével aranyban, egy **NPC**-jelvénnyel és egy végtelenjellel megjelölt sorokként; amit a Bolt nem árul, az annyiba kerül, hogy nála venni végső megoldás, a gyártásban használt ritka nyersanyagokat pedig még ezerszer annyiért ([Davidski](/wiki/03-Mechanics/Davidski.md)). A **Tételek** a játék saját ajánlatai, óránként három. A **Hirdetéseim** azt mutatja, amit te magad árulsz. Az **Előzmények** az eladásaidat, a vásárlásaidat és a megnyert tételeidet mutatja, és azt, hogyan alakult a kereskedésed.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 | **Fúvókák** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Experimental Fusion Core | 5 |
 | **Rakéták** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Fogyóeszközök** | EMP Charge | 1 |
-| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Fogyóeszközök** | EMP Charge, Energetic Wall II | 2 |
+| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **Hajótest-páncélzat** | Hull Plating II, Hull Plating III | 2 |
 | **Erőforrások** | Cataclysite (100 darabos csomagokban), Ship Fragment (100 darabos csomagokban), Daraxium (100 darabos csomagokban), Nyxite (100 darabos csomagokban), Quorvium (10 darabos csomagokban), Reinforced Hull Plate (10 darabos csomagokban), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 ## Vásárlás {#buying}
 
 A **Piac** azt mutatja, amit más pilóták árulnak. Szűkítsd a listát a **kategória-chipekkel** (minden tárgytípushoz egy, a bennük lévő hirdetések számával), keress név szerint, szűrj varázslat és pénznem szerint, és rendezz ár szerint, aszerint, mi ér véget leghamarabb, vagy aszerint, mi a legújabb. Válassz egy hirdetést, hogy lásd, mi az, ki árulja, meddig fut, és hogyan viszonyul az ára az utolsó eladáshoz, a jelenlegi legalacsonyabb árhoz és a Bolt árához. A köteget egész csomagokban veszed meg. Egy nagy vásárlás még egyszer megerősítést kér. Az eladó azonnal megkapja a pénzét, az adó levonásával; te nem fizetsz sem letétet, sem adót. Amit megveszel, az **nem eladható**: az oldal a **Vásárlás** gomb mellett azt írja: „Amit kapsz: nem eladható”, mert csak az adható el, amit megszerzel. A saját hirdetésedet nem veheted meg. Az a hirdetés, amely elkel, miközben nézed, azt írja: „Ez a hirdetés már nincs meg.”
+
+**Davidski sorai** a pilóták hirdetései között állnak. Minden fajtához, amit árul, tartozik egy sor kreditben és egy Thuliumban, az arany nevével, egy **NPC**-jelvénnyel és egy végtelenjellel a mennyiségnél és a hátralévő időnél: a készlete soha nem fogy el, és ő soha nem zár be. A keresés, a kategória-chipek, valamint a varázslat és a pénznem szerinti szűrők úgy szűkítik a sorait, mint bármelyik hirdetést (a tárgyai Normál fokozatúak, ezért más varázslat mellett nem látszanak); ár szerint ott állnak, ahová a számuk teszi őket, a pilóták árai mellett, a **Hamarosan lejár** és a **Legújabb** rendezésnél pedig a pilóták hirdetései után jönnek. Válassz egyet, és a **Vásárlás: …** gomb őhozzá megy, nem egy pilótához ([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)): az árai a bolti ár sokszorosai, a napi vásárlási korlát nem számítja bele, nincs eladó, akinek fizetni kellene, és amit kapsz, az nem eladható. Egyik ártippben, az előzményekben és a statisztikákban sem szerepel, ezek a pilótáké.
 
 ## Korlátok {#limits}
 

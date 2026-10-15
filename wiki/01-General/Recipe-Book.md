@@ -6,6 +6,10 @@ The **Recipe Book** answers "what does this take?" for any item in the game: a c
 
 The Recipe Book keeps no list of prices of its own: it works its numbers out as you look, from the recipes, prices, technologies and drop tables that the Shop, [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) and [Research](/wiki/03-Mechanics/Research.md) use, so it follows the game when a price or a recipe changes. That is why this page quotes no price and no stat: open the item or the build.
 
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../img/wiki-img/shots/recipe-book-chart.jpg)
+
 ## Open it
 
 Open the station menu and choose **Library › Recipe Book** or **Library › Builds**. The Recipe Book remembers the last item you looked at, its filters and its zoom, on this computer only; your builds are not part of that ([Saved on your account](#saved-on-your-account)). When the game is newer than the server it talks to, the pages say so and show less: the Recipe Book still works out everything that is bought, crafted or upgraded, but cannot say where the world gives an item (it just says "Get"), and Builds names the parts that need the newer server: the presets, My builds and the stats.

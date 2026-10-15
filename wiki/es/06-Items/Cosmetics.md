@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d605c9f1ab4311f8 -->
+<!-- wiki-i18n source: 65309b17cbdf0785 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -8,6 +8,10 @@ Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin**
 
 > [!NOTE]
 > **Todavía no se puede comprar ni ganar nada.** Por ahora un administrador concede cada aspecto. El hangar marca los que no tienes como «Aún no se puede conseguir», y cuando te dan uno te lo dice un aviso y suena un tintineo suave.
+
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
 ## En un minuto {#in-one-minute}
 

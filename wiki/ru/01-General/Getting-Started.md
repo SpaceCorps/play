@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: Начало игры -->
 # Начало игры в SpaceCorps {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@
 
 ## Игра с друзьями {#playing-with-friends}
 
-Вступите в [клан](/wiki/03-Mechanics/Clans.md) или летайте в [группе](/wiki/03-Mechanics/Groups.md) до пяти пилотов, а новых друзей приводите по своему личному коду: **Сообщество › Пригласить друзей** даёт им стартовый набор, а вам — награду в Thulium, когда они достигнут 5 уровня. См. [Пригласить друзей](/wiki/03-Mechanics/Invite-Friends.md).
+Вступите в [клан](/wiki/03-Mechanics/Clans.md) или летайте в [группе](/wiki/03-Mechanics/Groups.md) до десяти пилотов, а новых друзей приводите по своему личному коду: **Сообщество › Пригласить друзей** даёт им стартовый набор, а вам — награду в Thulium, когда они достигнут 5 уровня. См. [Пригласить друзей](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Миссии {#missions}
 

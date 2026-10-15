@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; ペット; ゆりかご; 図鑑; 交配; ドッキング; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 働くペット; 採掘; 回収; 射程; 放置; パルス -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; スイッチ; ホットバー; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; ペット; ゆりかご; 図鑑; 交配; ドッキング; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 働くペット; 採掘; 回収; 射程; 放置; パルス -->
 
-**P.E.T.**（Personal Escort Technology）は、艦の隣を飛んでブーストを与える小さな相棒です。クレジットやThuliumの増加、船体やシールドの強化、ダメージや幸運の上昇などがあります。 10のタイプのうち2つは、飛んでいる間あなたのために働きます。**Retriever** は艦の周りの積荷コンテナを拾い、**Mole** は小惑星を壊します。壊した小惑星から**Cluster Chunk**を見つけ、Orvium Reinforced Plate と一緒にハンガーの**ゆりかご**に入れると、しばらくして P.E.T. が孵ります。それを **P.E.T. Station** に**ドッキング**すると、次の出撃からブーストを与え、経験値を得て、小さなドローンとして艦の隣を飛びます。
+**P.E.T.**（Personal Escort Technology）は、艦の隣を飛んでブーストを与える小さな相棒です。クレジットやThuliumの増加、船体やシールドの強化、ダメージや幸運の上昇などがあります。 10のタイプのうち2つは、飛んでいる間あなたのために働きます。**Retriever** は艦の周りの積荷コンテナを拾い、**Mole** は小惑星を壊します。壊した小惑星から**Cluster Chunk**を見つけ、Orvium Reinforced Plate と一緒にハンガーの**ゆりかご**に入れると、しばらくして P.E.T. が孵ります。それを **P.E.T. Station** に**ドッキング**します。Station は[エクストラ](/wiki/06-Items/Extras.md)で、艦のエクストラ枠に装備します。Station が **ON** の間、ドッキング中の P.E.T. はブーストを与え、経験値を得て、小さなドローンとして艦の隣を飛びます。**OFF** の間は、そのどれもしません。
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## 1分でわかる {#in-one-minute}
 
-- **Station を手に入れる。** 研究センターで **P.E.T. Station** を研究し、アセンブリで製作します。3段階あり、**2体、3体、5体**分の枠があります。ゆりかごは Station がなくても使えるので、Station を持つ前に P.E.T. を孵せます。
+- **Station を手に入れる。** 研究センターで **P.E.T. Station** を研究し、アセンブリで製作します。3段階あり、**2体、3体、5体**分の枠があります。操縦する艦のエクストラ枠に装備します。ゆりかごは Station がなくても使えるので、Station を持つ前に P.E.T. を孵せます。
 - **チャンクを見つける。** ティア2以上の小惑星を壊すと、最もダメージを与えたパーティの鉱石チャンクの中に、**Regular**、**Mythical**、**Legendary** の **Cluster Chunk** がそのまま残ることがあります。
 - **孵す。** ハンガーの **P.E.T.** ビューでは、ゆりかごが P.E.T. 1体につきチャンク1つと Orvium Reinforced Plate 1枚を使い、キューは4枠です。チャンクのグレードが、P.E.T. のブースト数を決めます：**1、2、3**。
-- **ドッキングして飛ぶ。** 艦が着陸している間に、使いたい P.E.T. をドッキングします。次の出撃からブーストを与え、狩り、採掘、飛行で経験値を得て、レベル20まで育ちます。
+- **ドッキングして飛ぶ。** 艦が着陸している間に、使いたい P.E.T. をドッキングします。Station を装備して ON にしている間は、ブーストを与え、狩り、採掘、飛行で経験値を得て、レベル20まで育ちます。
+- **ON と OFF。** ホットバーの **PET** スロットが Station を切り替えます。飛行中でも切り替えられ、すぐに有効です。OFF では P.E.T. はブーストを与えず、経験値を得ず、働きません。ON に戻せば元どおりです。切り替えたことのない Station は ON です。
 - **2体を働かせる。** ドッキング中の **Retriever** は艦の周りに落ちているコンテナを拾い、ドッキング中の **Mole** は最も近い小惑星を代わりに壊します。セーフゾーンの外を飛んでいる間はいつでも、操作していなくても働き、1日の稼働に上限はありません：[働くタイプ](#the-working-types)。操作のない艦は標的です。
 - **あなたのもの。** P.E.T. はあなたに紐づいています。取引もオークションもありません。ワイプを越えて残ります。
 
 ## P.E.T. Station {#the-station}
 
-Station は Skylab のモジュールでもスロットでもなく、[Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus) と同じ**導入型**です。**P.E.T. Station I、II、III** の3つのアイテムを[研究センター](/wiki/03-Mechanics/Research.md)で研究し（3時間、10時間、1日、Dark Matter は不要）、アセンブリで順に製作します。受け取ると自動で導入され、すべての艦に効き、ドッキングできる P.E.T. の枠は**2体、3体、5体**になります。それぞれの費用は Extras の[アイテムツリー](/wiki/06-Items/Extras.md#item-tree)にあります。Station はワイプを越えて残り、研究も残ります。
+Station は**エクストラ**です。**P.E.T. Station I、II、III** の3つのアイテムを[研究センター](/wiki/03-Mechanics/Research.md)で研究し（3時間、10時間、1日、Dark Matter は不要）、アセンブリで順に製作します。[Cloaking CPU](/wiki/06-Items/Extras.md) と同じようにエクストラ枠に**装備**すると、ドッキングできる P.E.T. の枠は**2体、3体、5体**になります。それぞれの費用は Extras の[アイテムツリー](/wiki/06-Items/Extras.md#item-tree)にあります。Station はワイプを越えて残り、研究も残ります。
 
-ハンガーの P.E.T. ビューには、今のレベル、埋まっている枠の数、次の技術と次のアイテムが表示され、研究画面とアセンブリへのボタンがあります。
+- **それと一緒に飛ぶ艦だけ。** P.E.T. が数えられるのは、あなたが操縦している構成に Station が装備されている艦です。インベントリにある Station、もう一方の構成や別の艦にある Station は何もしません。構成や艦を切り替えると、P.E.T. はすぐについてきます。
+- **ON と OFF。** Station はホットバーの **PET** スロットで切り替えます（Extras のピッカーからドラッグして置きます）。**ON**：ドッキング中の P.E.T. のうち最初の2体、3体、5体がブーストを与え、経験値を得て、働きます。**OFF**：そのどれもなく、ドローンも描かれません。スロットには **ON** か **OFF** が表示されます。切り替えはあなたのもので、出撃やログインをまたいで残り、一度も切り替えていない Station は ON です。2回の押下の間には1秒あります。
+- **見えるもの。** ON の Station は艦の上に描かれます。船体の上に浮かぶドッキングリングで、枠ごと（2、3、5）にバースがあり、それぞれ、そこにドッキングしている P.E.T. の色で光ります。ON にすると P.E.T. が順番に飛び出して艦の横に浮かび、OFF にすると戻ってきて、リングは小さく暗く畳まれて船体に載ります。それが見えるのはあなただけです。
+- **枠より多くドッキングしたとき。** P.E.T. を5体ドッキングして Station II を装備すると、最初の3体（枠の順）が数えられ、ハンガーはほかを「対象外」と表示します。ハンガーは、装備しているかどうかにかかわらず、持っている最良の Station にドッキングするので、装備する前に P.E.T. を整えられます。
+
+ハンガーの P.E.T. ビューには、どの Station を持っているか、どこに装備されているか、ON かどうか、埋まっている枠の数、次の技術と次のアイテムが表示され、研究画面とアセンブリへのボタンがあります。P.E.T. が何も与えないときは、このビューと **Boosters** ウィンドウが理由を表示します。
 
 ## Cluster Chunk {#cluster-chunks}
 
@@ -71,11 +85,11 @@ P.E.T. はレベル**20**まで上がります。レベルが1つ上がるごと
 - **ダメージ、HP、シールド**は、ブースターやクランのブーストに加算され、掛け算にはなりません。ハンガー、艦のウィンドウ、パイロットのページの数値に含まれ、**ブースター**ウィンドウには **P.E.T.** カードがあります。シールドはシールド容量（最大シールドポイント）です。
 - **クレジットと Thulium** は、撃破の報酬、ボス戦とグループ撃破でのあなたの取り分、ミッションを受け取るときの報酬に加わります。[クランのブースト](/wiki/03-Mechanics/Clans.md)と同じです。岩の現金、Skylab のファーム、ボーナスコード、オークションには加わりません。
 - **幸運**は、エイリアンや群れの船のすべてのドロップ項目の確率と、ウォーデンの専用ボックスの確率を上げます。[Loot Luck Booster](/wiki/06-Items/Boosters.md)と同じで、それ以外には効きません。
-- **Station の枠がなければブーストもありません。** 数えられるのはドッキング中の P.E.T. だけで、Station の枠の数までです。外した P.E.T. や一度もドッキングしていない P.E.T. は何も与えず、何も得ません。
+- **Station が ON でなければブーストもありません。** ブーストを与えるのは、数えられるドッキング中の P.E.T. だけです。つまり、艦に装備された Station の枠の数までで、Station が ON の間だけです。外した P.E.T. や一度もドッキングしていない P.E.T. は何も与えず、何も得ません。Station が OFF か未装備のときも、すべて同じです。
 
 ## 経験値 {#experience}
 
-ドッキング中の P.E.T. はどれも同じ経験値を、全量得ます。分け合うことはありません。保管中の P.E.T. は何も得ません。
+数えられるドッキング中の P.E.T. はどれも同じ経験値を、全量得ます。分け合うことはありません。保管中の P.E.T. は何も得ず、Station が OFF か未装備の間はドッキング中の P.E.T. も何も得ません。
 
 - **撃破。** 同じ撃破で[ドローン](/wiki/03-Mechanics/Drones.md#levels)が得る量に、ワールドの報酬倍率（1、2、3）を掛けたものです。
 - **自分が壊した岩。** ティア1から5の岩で 1、2、4、8、16、Motherlode は 64 に、ワールドの報酬倍率を掛けた量を、その破壊で報酬を受けるすべてのパイロットが得ます。あなたの Mole が壊した岩も数えます。
@@ -89,7 +103,7 @@ P.E.T. はレベル**20**まで上がります。レベルが1つ上がるごと
 
 ### 働く条件 {#when-they-work}
 
-- **ドッキング中で、出撃から。** 働くのはドッキング中の P.E.T. だけで、強さはブーストと同じく出撃時に読み込まれます。飛行中に上がったレベルは次の出撃から有効です。
+- **ドッキング中で、Station が ON のとき。** 働くのは、数えられるドッキング中の P.E.T. だけです。Station を OFF にすると Mole のビームと Retriever の回収はすぐに止まり、ON にすると続きます。強さは出撃時に読み込まれます。飛行中に上がったレベルは次の出撃から有効です。
 - **各タイプで最も良い1体だけ。** 働く Mole は最も強い1体（同じなら枠の若いほう）、働く Retriever は射程の最も長い1体です。ほかの Mole や Retriever はブーストを与えるだけなので、Mole だらけの Station でも壊す量は1体分です。
 - **飛行中で、セーフゾーンの外。** [セーフゾーン](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity)が艦を守っている間、艦が破壊されている間、[復帰直後の保護](/wiki/01-General/Getting-Started.md#dying-and-coming-back)中、ステルス中、ジャンプ中は止まり、どれにも当てはまらなくなれば再開します。ログアウトしたパイロットは宇宙に艦がないので、何も働きません。
 - **操作していてもいなくても。** キーの前にいるかどうかのルールはありません。Mole は、あなたが狩りをしていても、ウィンドウを眺めていても、画面から離れていても同じように働きます。
@@ -149,15 +163,15 @@ Mole はロケットを使わないので、壊した分は、手で採掘する
 
 ## ドッキングと飛行 {#docking-and-flying}
 
-- **ドッキングとドッキング解除は、艦が着陸しているときだけです。** 飛行中の P.E.T. ビューは持っているものを表示するだけで、何も変更できません（「P.E.T. を変更するには艦を駐機してください」）。変更は次の出撃から有効なので、戦闘中に入れ替わることはありません。
-- **隣を飛びます。** ドッキング中の P.E.T. はどれも**小さなドローン**として艦の近くに描かれ、全員に見えます。1隻につき最大5体です。ターゲットにも、クリックにも、被弾にもならず、Slave Drone の5分の1の大きさなので、編成のドローンと間違えることはありません。設定 › インターフェース の **P.E.T. を表示**（**すべて**、**自分のみ**、**オフ**）でドローンに触れずに隠せます。**詳細**の設定（設定 › グラフィック）は、P.E.T. を同時に描く艦の数、つまり近いほうから4、8、12、16隻を決めます。
-- **働きに出ます。** Mole が働いている間、そのドローンは持ち場を離れて小惑星へ飛び、細いビームが2つをつなぎます。Retriever のドローンはコンテナへ飛んで戻ります。1隻につき持ち場を離れるドローンは同時に1体だけで、**動きを減らす**がオンなら持ち場にとどまります。P.E.T. を隠すとドローンは隠れますが、働きは続きます。
+- **ドッキングとドッキング解除は、艦が着陸しているときだけです。** 飛行中の P.E.T. ビューは持っているものを表示するだけで、何も変更できません（「P.E.T. を変更するには艦を駐機してください」）。ドッキングの変更は次の出撃から有効なので、戦闘中に入れ替わることはありません。Station は例外で、その PET スロットは飛行中に使えます。
+- **隣を飛びます。** 数えられるドッキング中の P.E.T. はどれも、Station が ON の間、**可動部のある小さな装甲ドローン**（羽ばたく翼、歩く脚、回る輪、掘る爪）として艦の横に描かれます。1隻につき最大5体で、全員にそれとリングが見えます。ターゲットにも、クリックにも、被弾にもなりません。どれも種類の色の光と、その上にグレードの色のクリスタルを持つので、編成のドローンと間違えることはありません。設定 › インターフェース の **P.E.T. を表示**（**すべて**、**自分のみ**、**オフ**）で、ドローンに触れずにこれらと Station を隠せます。**詳細**の設定（設定 › グラフィック）は、P.E.T. を同時に描く艦の数、つまり近いほうから4、8、12、16隻を決めます。
+- **働きに出ます。** Mole が働いている間、そのドローンは持ち場を離れて小惑星へ飛び、細いビームが2つをつなぎます。Retriever のドローンはコンテナへ飛んで戻ります。1隻につき持ち場を離れるドローンは同時に1体だけで、**動きを減らす**がオンなら持ち場にとどまります。P.E.T. を隠すとドローンは隠れますが、働きは続きます。 **動きを減らす**をオンにすると、Station と P.E.T. は飛ばずに一瞬で現れ、一瞬で消えます。
 - **あなたに紐づく。** P.E.T. は売ることも、贈ることも、取引することもできず、アイテムでもないので、[オークション](/wiki/03-Mechanics/Auction.md)に出すものがありません。
 
 ## ワイプ {#the-wipe}
 
-[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md)は、P.E.T.（ドッキング中も保管中も）とそのレベル、ゆりかごで進行中のジョブ、図鑑、導入した P.E.T. Station とその研究を残します。削除されるのは、インベントリにあるばらのもの、つまりトランスポートキャッシュに入れなかった Cluster Chunk と Orvium Reinforced Plate です。
+[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md)は、P.E.T.（ドッキング中も保管中も）とそのレベル、ゆりかごで進行中のジョブ、図鑑、P.E.T. Station とその研究を残します。削除されるのは、インベントリにあるばらのもの、つまりトランスポートキャッシュに入れなかった Cluster Chunk と Orvium Reinforced Plate です。
 
 ## サウンド {#sounds}
 
-組み立ての開始、P.E.T. の受け取り、持っていなかったタイプの受け取り、ドッキング、ドッキング解除、交配、手放し、レベルアップには、それぞれ控えめな専用の音があり、サウンドエフェクトの音量で鳴ります。 働きにも音があります。Mole のビームは働いている場所で静かにうなり、Retriever の回収はコンテナがあった場所で小さなピッという音で終わります（回収音の代わりです）。近くにいるほかのパイロットの P.E.T. の音も、小さく聞こえます。
+組み立ての開始、P.E.T. の受け取り、持っていなかったタイプの受け取り、ドッキング、ドッキング解除、交配、手放し、レベルアップ、Station の ON と OFF には、それぞれ控えめな専用の音があり、サウンドエフェクトの音量で鳴ります。 働きにも音があります。Mole のビームは働いている場所で静かにうなり、Retriever の回収はコンテナがあった場所で小さなピッという音で終わります（回収音の代わりです）。近くにいるほかのパイロットの P.E.T. の音も、小さく聞こえます。

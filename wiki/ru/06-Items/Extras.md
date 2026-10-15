@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be4819075016f18a -->
+<!-- wiki-i18n source: d73343b5c426be4e -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
@@ -10,19 +10,21 @@
 | **Cloaking CPU S** | Скрывает ваш корабль | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Скрывает ваш корабль | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Скрывает ваш корабль | 50 | 20 000 Thulium |
-| **Energetic Wall I** | Ставит стену из плазмы у курсора, рядом с кораблём: любой выстрел, пересекающий её, попадает в стену, а любой корабль внутри неё горит | неограниченно | 250 Thulium |
-| **Energetic Wall II** | Та же стена с втрое большим запасом прочности (30 000 и 90 000) | неограниченно | Сборочный цех: Energetic Wall I и 600 Thulium после её исследования |
+| **P.E.T. Station I–III** | Включённая, она позволяет 2, 3 или 5 пристыкованным [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) давать бонусы кораблю, получать опыт и работать; выключенная — они ничего этого не делают | ВКЛ / ВЫКЛ | Сборочный цех после исследования (дерево предметов ниже) |
 
-Cloaking CPU продаются только в магазине. Их нельзя объединять, и бесплатно их нигде не выдают. **EMP Charge** больше не устройство: с 0.4.21 это расходник, который носят стопкой, как ракеты, и не устанавливают ни в какой слот, поэтому он не занимает ваши слоты устройств (см. [Ракеты](/wiki/06-Items/Rockets.md#emp-charge)).
+Cloaking CPU продаются только в магазине. Их нельзя объединять, и бесплатно их нигде не выдают. **EMP Charge** больше не устройство: с 0.4.21 это расходник, который носят стопкой, как ракеты, и не устанавливают ни в какой слот, поэтому он не занимает ваши слоты устройств (см. [Ракеты](/wiki/06-Items/Rockets.md#emp-charge)). Две **Energetic Wall** тоже больше не устройства: с 0.4.22 это тоже расходники, их носят стопкой, и в слот они не устанавливаются (см. [Energetic Wall](#energetic-wall)).
 
 **Стартовый набор** нового пилота уже ставит два устройства в два слота устройств корабля Protos: **Base CPU I** (10 использований, телепорт на базу вашей корпорации) и **Repair Drone I**. Чтобы ими пользоваться, перетащите их из списка «Устройства» на панели в слот. Набор получают только новые пилоты: у тех, кто начал играть до 0.4.10, его нет.
 
 Ещё семь CPU не продаются: Сборочный цех создаёт их, когда Исследовательский центр Skylab их исследует (см. [Исследования](/wiki/03-Mechanics/Research.md)). Это Extra Slots CPU I, II и III, Jump CPU, Base CPU I и II и Auto-Repair CPU; что делает каждый, сказано в [последнем разделе](#research-cpus). Как и Cloaking CPU, Jump CPU и Base CPU рассчитаны на спокойный момент: ни один из трёх не запускается в течение 10 секунд после вашего выстрела или полученного попадания. Два варп-CPU, Jump CPU и Base CPU, тоже нельзя использовать, пока вы везёте предмет миссии («Нельзя использовать варп-CPU, пока на борту предмет миссии.»): см. [Предметы миссий](/wiki/03-Mechanics/Quests.md#quest-items).
 
-У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, **WAL** — Energetic Wall, а **ARP**, **BSE** и **JMP** — Auto-Repair CPU, Base CPU и Jump CPU. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. У трёх предметов **P.E.T. Station** слота тоже нет: забранные в Сборочном цехе, они устанавливаются сами и дают места для 2, 3 и 5 [P.E.T.](/wiki/03-Mechanics/Pets.md). Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
+У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, а **ARP**, **BSE** и **JMP** — Auto-Repair CPU, Base CPU и Jump CPU. У расходников свои метки: **EMP** и **WAL** — Energetic Wall. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Три предмета **P.E.T. Station** — такие же устройства, как остальные, с меткой **PET**: установите один, и его слот включает или выключает Station (между двумя нажатиями секунда) и показывает, что именно. Пока она включена, пристыкованные [P.E.T.](/wiki/03-Mechanics/Pets.md) считаются, пока выключена — нет. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
 
-![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
+![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -40,12 +42,10 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
@@ -57,7 +57,6 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
-Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -86,17 +85,17 @@ S, M и L работают одинаково: большие наборы ли�
 
 ## Energetic Wall
 
-Нажмите слот WAL, и **стена из плазмы** встанет **у вашего курсора**, поперёк линии от корабля к нему: полоса длиной 360 единиц (около трёх с половиной моделей корабля) и шириной 10 единиц. Её середина находится не дальше **450 единиц** от середины корабля: более далёкий курсор ставит её в 450 единицах по линии, курсор ближе 120 единиц отодвигает её до 120. Пока слот готов, бледная пунктирная линия и контур-призрак показывают, где она встанет. Если игра не знает, где ваш курсор, она встаёт в 220 единицах перед серединой корабля, поперёк его курса. Перетащите стену из списка «Устройства» панели в слот, чтобы пользоваться ею, как REP. Она нужна, чтобы прятаться за ней и перекрывать проход, а не чтобы в ней стоять.
+Нажмите слот WAL, и **стена из плазмы** встанет **у вашего курсора**, поперёк линии от корабля к нему: полоса длиной 360 единиц (около трёх с половиной моделей корабля) и шириной 10 единиц. Её середина находится не дальше **450 единиц** от середины корабля: более далёкий курсор ставит её в 450 единицах по линии, курсор ближе 120 единиц отодвигает её до 120. Пока слот готов, бледная пунктирная линия и контур-призрак показывают, где она встанет. Если игра не знает, где ваш курсор, она встаёт в 220 единицах перед серединой корабля, поперёк его курса. Energetic Wall — **расходник**, как [EMP Charge](/wiki/06-Items/Rockets.md#emp-charge): стопка в вашем инвентаре, которая **не занимает слот** ни на одном корабле (до 0.4.22 это было устройство). Чтобы пользоваться ею, перетащите её из списка «Расходники» панели в слот; два уровня — это две записи, так что в слоте лежит один уровень. Она нужна, чтобы прятаться за ней и перекрывать проход, а не чтобы в ней стоять.
 
 - **Что она останавливает.** Любой выстрел, пересекающий её, попадает в стену, кто бы ни стрелял и с какой бы стороны: залп лазеров, ракета, залп пришельца. То, что стоит за ней, ничего не получает, а урон принимают очки прочности стены. Взрыв ракеты, сработавшей у стены, задевает корабли на её ближней стороне, но не те, что за ней. Ваши собственные выстрелы тоже: стрелять наружу через свою стену нельзя. N.I.K.E. и турели Dormant Swamp пролетают над стеной, как и над астероидами.
 - **Что она жжёт.** Любой корабль, чей корпус касается полосы, получает **2 500 урона в секунду**, сначала по щиту, ваш в том числе, а также пришельцы и корпоративные пилоты. Корабль в безопасной зоне или под защитой возрождения не горит, а две полосы на одном корабле не складываются.
 - **Сколько она держится.** У стены 1-го уровня **30 000 очков прочности**, у 2-го **90 000**. Стена теряет сама по одной шестидесятой в секунду, так что та, по которой никто не стреляет, исчезает через **60 секунд**. Выстрелы сокращают этот срок: Wraith с двенадцатью Helios Beam и боеприпасами x4 сносит стену 1-го уровня примерно за 3,5 секунды.
-- **По одной.** Новая стена занимает место старой. После нажатия предмет перезаряжается **90 секунд**; ожидание принадлежит вам, а не кораблю: смерть или выход из игры его не сокращает. Если у вас две, работает лучшая стена.
+- **По одной, одна стена за нажатие.** Новая стена занимает место старой. После нажатия предмет перезаряжается **90 секунд**; ожидание принадлежит вам, а не кораблю: смерть или выход из игры его не сокращает. Нажатие тратит **одну стену того уровня, что лежит в слоте**, и только когда стена встала: нажатие, которое игра отклоняет (ниже), ничего не тратит и не запускает ожидание. Если этого уровня не осталось, игра пишет «Energetic Wall больше нет.», а другой уровень никогда не тратится вместо него.
 - **Где нельзя.** Нельзя, пока вас защищает безопасная зона или возрождение, там, где полоса коснулась бы безопасной зоны или врат, в маскировке и там, где середина полосы оказалась бы за краем карты. Игра говорит, какой это случай.
 - **Убийства.** Корабль, уничтоженный стеной, погибает от излучения, и убийство засчитывается последнему вражескому пилоту, который попал по нему за 15 секунд, если такой был. Тот, кто поставил стену, не получает ничего за то, что не отстрелял сам. Пришелец, уничтоженный стеной, ничего не приносит: ни награды, ни добычи.
 - **Пришельцы её не обходят.** Они пролетают сквозь неё и горят либо стоят со своей стороны и стреляют по стене.
-- **Что вы видите.** Полоса бело-голубого света с яркими штрихами, бегущими вдоль неё, и столбом света на каждом конце; она вспыхивает там, где попал выстрел, и мерцает, когда почти исчерпана. Стена 2-го уровня светится жёлтым, с более толстой и яркой сердцевиной и более сильным свечением, но её полоса шириной те же 10 единиц, что и у стены 1-го уровня. Рядом тонкая полоска жизни укорачивается и становится янтарной, а затем красной; ваш слот показывает оставшуюся жизнь стены дугой, а ожидание тенью. Поставленная стена вспыхивает, сбитая рассыпается искрами, а та, у которой вышло время, угасает.
-- **Как получить.** Energetic Wall I продаётся в магазине за 250 Thulium. Energetic Wall II делают в Сборочном цехе из Energetic Wall I, 10 Ship Fragment и 2 Power Core за 600 Thulium, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)).
+- **Что вы видите.** Полоса бело-голубого света с яркими штрихами, бегущими вдоль неё, и столбом света на каждом конце; она вспыхивает там, где попал выстрел, и мерцает, когда почти исчерпана. Стена 2-го уровня светится жёлтым, с более толстой и яркой сердцевиной и более сильным свечением, но её полоса шириной те же 10 единиц, что и у стены 1-го уровня. Рядом тонкая полоска жизни укорачивается и становится янтарной, а затем красной; ваш слот показывает оставшуюся жизнь стены дугой, а ожидание тенью. Поставленная стена вспыхивает, сбитая рассыпается искрами, а та, у которой вышло время, угасает. Число на слоте показывает и сколько стен его уровня у вас осталось.
+- **Как получить и носить.** Energetic Wall I продаётся в магазине по **250 Thulium** за стену, и вы носите до **20** в одной стопке (то, что вы выставили на [Аукционе](/wiki/03-Mechanics/Auction.md), тоже считается). Energetic Wall II делают в Сборочном цехе, **по одной стене за изготовление**, за **600 Thulium**, 5 Ship Fragment и 1 Power Core, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)); её вы носите до **10**. Как и ракеты, стены, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а стены в тайнике использовать нельзя. Energetic Wall II, сделанную вами, можно продать на Аукционе; Energetic Wall I, которую продаёт магазин, — никогда.
 
 ## CPU Исследовательского центра {#research-cpus}
 

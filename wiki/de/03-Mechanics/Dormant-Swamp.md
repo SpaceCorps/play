@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Schaden eines Schusses, in jeder Welt:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-Turm | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Laserturm × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Eine Rakete wird ab 90 % ihrer Reichweite abgefeuert, damit sie ankommt; ein Laserturm feuert einmal pro Sekunde, und sein Schaden wird im gezeigten Bereich ausgewürfelt.
+- Eine Rakete wird ab 90 % der Reichweite abgefeuert, die dieselbe Rakete in der Hand eines Piloten hat, damit sie ankommt; ein Laserturm feuert einmal pro Sekunde, und sein Schaden wird im gezeigten Bereich ausgewürfelt.
 - Eine N.I.K.E. hat 35 % Schilddurchdringung, die von der Absorption eines Schilds abgezogen wird.
+- Die N.I.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 1.125 Einheiten pro Sekunde, 8.100 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
 - Eine N.U.K.E. detoniert in einem Radius von 900 Einheiten, in der Mitte am härtesten.
+- Die N.U.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 375 Einheiten pro Sekunde, 2.400 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
 
 <!-- swamp-guns:end -->
 
-- **Nichts reicht über die Zone hinaus,** und in ihr wird ein Schiff in Sekunden zerstört: Je näher es der Mitte kommt, desto mehr Geschütze schalten sich zu, und selbst die bestgeschützte Wraith hält nicht durch.
+- **Von außerhalb der Zone schießt nichts,** und in ihr wird ein Schiff in Sekunden zerstört: Je näher es der Mitte kommt, desto mehr Geschütze schalten sich zu, und selbst die bestgeschützte Wraith hält nicht durch. Eine Rakete, die schon in der Luft ist, fliegt allerdings weiter, und die Raketen des Turms fliegen schneller und weiter als deine: Wer geradewegs vor einer davonfliegt, schüttelt sie nicht ab.
 - **Eine Tarnung bringt dich hinein.** Kein Turm sieht je ein getarntes Schiff, noch eines im Fenster eines EMP, in keiner Entfernung. Eine Explosion, die auf ein sichtbares Schiff gezielt war und neben einem getarnten detoniert, verletzt dieses trotzdem und beendet seine Tarnung.
 - **Sie schießen nur auf Piloten,** nie auf Aliens, Konzernpiloten oder den Schwarm, und der Schutz eines Schiffs, das gerade von einer Zerstörung zurückgekehrt ist, gilt auch gegen sie.
 - **Der Hinweisring.** Ein Schiff, das den Ring außerhalb der Zone überquert, erhält eine Systemzeile: Die Türme feuern auf jedes Schiff, das sie sehen, und in der Mitte schläft etwas. Es wird erst wieder informiert, wenn es den Ring verlassen hat und zurückgekommen ist.

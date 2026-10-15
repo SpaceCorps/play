@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
 O hangar permite que você gerencie suas naves e seu equipamento. Equipar bem os itens é a chave para sobreviver e dominar. Você pode fazer isso na estação e, em voo, de dentro de uma zona segura: veja [O hangar em voo](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Slots de equipamento e eficiência dos atributos {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ O inventário lista seus itens na mesma ordem da Loja, seja qual for a ordem em 
 ## Itens vendáveis {#marketable-items}
 
 Os itens que você ganhou (drops, recompensas de missões e o que a Montagem e a Forja fazem) levam uma pequena etiqueta **Vendável** no bloco, e o cartão do item diz “Vendável” ou, numa pilha da qual só parte pode ser vendida, “Vendável (3 de 5)”. O chip **Somente vendável**, ao lado dos chips de categoria, mostra só esses itens. Um **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do [Leilão](/wiki/03-Mechanics/Auction.md) (ele não aparece em voo: vender é uma página da estação). O que você comprou, ganhou em lote ou recebeu de presente não tem etiqueta e não pode ser vendido de novo.
+
+## Selecionar vários itens {#select-several-items}
+
+Pressione uma parte vazia do inventário (a margem ao lado dos blocos, o espaço entre dois blocos ou o espaço sob a última fileira) e arraste: um retângulo translúcido acompanha o ponteiro, e cada bloco que ele toca fica selecionado enquanto você arrasta. Ao soltar, a seleção permanece; a linha do título a conta (“3 selecionados”). Segure **Shift**, **Ctrl** ou **Cmd** enquanto arrasta para acrescentar à seleção: os blocos que já estavam selecionados e que o retângulo toca são soltos. Um arrasto simples começa uma seleção nova. **Esc**, um clique em um espaço vazio ou o botão ao lado da lixeira na linha do título a limpa; **Esc** no meio de um arrasto cancela o arrasto. Na borda de cima ou de baixo de um inventário longo, a lista rola sozinha. Pressionar um bloco continua sendo coisa do bloco: clique para equipar, arraste para um slot. A lixeira da linha do título exclui os itens selecionados depois de uma pergunta que os lista (uma pilha de Extras idênticos vai inteira); ela não é oferecida enquanto o Hangar em voo está bloqueado. Um item instalado no Skylab não pode ser selecionado, e só pode ser o que a busca e os chips de categoria deixam na grade. Um tique suave toca quando o retângulo pega mais um bloco (ele segue a opção “Sons dos botões” das configurações).
 
 ## Equipar item em item (subslots) {#item-to-item-equipping-sub-sockets-}
 

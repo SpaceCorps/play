@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: be4819075016f18a -->
+<!-- wiki-i18n source: d73343b5c426be4e -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -10,19 +10,21 @@
 | **Cloaking CPU S** | 함선을 숨깁니다 | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | 함선을 숨깁니다 | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 함선을 숨깁니다 | 50 | 20,000 Thulium |
-| **Energetic Wall I** | 커서 위치, 함선 가까이에 플라즈마 벽을 세웁니다: 벽을 가로지르는 사격은 대신 벽에 맞고, 벽 안의 함선은 불탑니다 | 무제한 | 250 Thulium |
-| **Energetic Wall II** | 체력이 3배인 같은 벽 (30,000과 90,000) | 무제한 | 어셈블리: 연구 후 Energetic Wall I과 600 Thulium |
+| **P.E.T. Station I~III** | ON이면 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 2, 3, 5마리가 함선에 부스트를 주고, 경험치를 얻고, 일합니다. OFF이면 그중 아무것도 하지 않습니다 | ON / OFF | 어셈블리: 연구 후 (아래 아이템 트리) |
 
-Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고).
+Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고). 두 **Energetic Wall**도 더 이상 부가 장비가 아닙니다. 0.4.22부터 소모품이라 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않습니다([Energetic Wall](#energetic-wall) 참고).
 
 새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. 사용하려면 퀵슬롯의 부가 장비 선택창에서 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없습니다.
 
 CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
-부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**, Energetic Wall은 **WAL**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템도 슬롯이 없으며, 어셈블리에서 수령하면 스스로 설치되어 [P.E.T.](/wiki/03-Mechanics/Pets.md) 2마리, 3마리, 5마리의 자리를 만듭니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
+부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
 
-![The Extras picker of the hotbar: Cloaking, Base and Jump CPUs to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
+![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -40,12 +42,10 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-Energetic Wall I | extra, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
@@ -57,7 +57,6 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
-Energetic Wall I => Energetic Wall II
 ```
 <!-- item-tree:end -->
 
@@ -86,17 +85,17 @@ S, M, L은 동작이 같습니다. 큰 팩일수록 사용 1회당 가격만 저
 
 ## Energetic Wall
 
-WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선과 직각으로 **플라즈마 벽**이 섭니다. 길이 360 유닛(함선 모델 약 3개 반), 너비 10 유닛의 띠입니다. 중심은 함선 중심에서 최대 **450 유닛**이며, 커서가 더 멀면 선을 따라 450 유닛 지점에, 120 유닛보다 가까우면 120 유닛 지점에 세워집니다. 슬롯이 준비된 동안에는 옅은 점선과 유령 윤곽선이 설 자리를 보여 줍니다. 게임이 커서 위치를 알지 못하면 함선 중심에서 220 유닛 앞에 진행 방향을 가로질러 섭니다. 사용하려면 REP처럼 퀵슬롯의 부가 장비에서 벽을 슬롯에 끌어다 놓으세요. 뒤에 숨거나 통로를 막는 용도이며, 그 안에 서 있는 용도가 아닙니다.
+WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선과 직각으로 **플라즈마 벽**이 섭니다. 길이 360 유닛(함선 모델 약 3개 반), 너비 10 유닛의 띠입니다. 중심은 함선 중심에서 최대 **450 유닛**이며, 커서가 더 멀면 선을 따라 450 유닛 지점에, 120 유닛보다 가까우면 120 유닛 지점에 세워집니다. 슬롯이 준비된 동안에는 옅은 점선과 유령 윤곽선이 설 자리를 보여 줍니다. 게임이 커서 위치를 알지 못하면 함선 중심에서 220 유닛 앞에 진행 방향을 가로질러 섭니다. Energetic Wall은 [EMP Charge](/wiki/06-Items/Rockets.md#emp-charge)처럼 **소모품**입니다. 인벤토리의 묶음이며 어떤 함선에서도 **슬롯을 차지하지 않습니다**(0.4.22까지는 부가 장비였습니다). 사용하려면 퀵슬롯의 소모품에서 슬롯에 끌어다 놓으세요. 두 등급은 별개의 항목이라 슬롯 하나에는 한 등급이 들어갑니다. 뒤에 숨거나 통로를 막는 용도이며, 그 안에 서 있는 용도가 아닙니다.
 
 - **무엇을 막는가.** 벽을 가로지르는 사격은 누가, 어느 쪽에서 쏘았든 대신 벽에 맞습니다. 레이저 일제 사격, 로켓, 외계인의 일제 사격 모두 해당합니다. 벽 뒤에 있는 것은 아무 피해도 입지 않고, 벽의 체력이 피해를 받습니다. 벽에서 터진 로켓의 폭발은 가까운 쪽의 함선에는 닿지만 벽 뒤의 함선에는 닿지 않습니다. 내 사격도 마찬가지여서, 내 벽을 통해 바깥으로 쏠 수 없습니다. N.I.K.E.와 Dormant Swamp의 포탑은 소행성 위를 지나듯 벽 위를 넘어갑니다.
 - **무엇을 태우는가.** 선체가 띠에 닿은 함선은 모두 먼저 실드에 **초당 2,500의 피해**를 입습니다. 내 함선도, 외계인과 기업 파일럿도 마찬가지입니다. 안전 지대에 있거나 리스폰 보호를 받는 함선은 타지 않으며, 한 함선 위에 띠가 둘 겹쳐도 피해는 합쳐지지 않습니다.
 - **얼마나 오래 가는가.** 레벨 1 벽은 **체력 30,000**, 레벨 2 벽은 **90,000**입니다. 벽은 아무 일이 없어도 매초 그 60분의 1을 잃으므로, 아무도 쏘지 않은 벽은 **60초** 뒤에 사라집니다. 사격은 이 시간을 줄입니다. Helios Beam 12정과 x4 탄약을 쓰는 Wraith는 레벨 1 벽을 약 3.5초에 무너뜨립니다.
-- **한 번에 하나.** 새 벽은 이전 벽을 대신합니다. 누른 뒤 아이템은 **90초** 동안 재충전됩니다. 대기 시간은 함선이 아니라 파일럿의 것이므로 사망이나 로그아웃으로 줄어들지 않습니다. 두 개를 장착했다면 더 좋은 벽이 나옵니다.
+- **한 번에 하나, 누를 때마다 벽 하나.** 새 벽은 이전 벽을 대신합니다. 누른 뒤 아이템은 **90초** 동안 재충전됩니다. 대기 시간은 함선이 아니라 파일럿의 것이므로 사망이나 로그아웃으로 줄어들지 않습니다. 누르면 **슬롯에 담긴 등급의 벽 하나**가 소모되며, 벽이 실제로 섰을 때만 소모됩니다. 게임이 거부한 입력(아래)은 아무것도 소모하지 않고 대기 시간도 시작하지 않습니다. 그 등급이 남아 있지 않으면 “남은 Energetic Wall이 없습니다.”라고 알려 주며, 다른 등급이 대신 쓰이는 일은 없습니다.
 - **쓸 수 없는 곳.** 안전 지대나 리스폰 보호를 받는 동안, 띠가 안전 지대나 게이트에 닿는 곳, 은폐 중, 띠의 중심이 지도 밖에 놓이는 곳에서는 쓸 수 없습니다. 어느 경우인지는 게임이 알려 줍니다.
 - **격파.** 벽이 파괴한 함선은 방사선으로 죽으며, 격파는 15초 안에 그 함선을 마지막으로 맞힌 적 파일럿에게 돌아갑니다(있다면). 벽을 세운 사람은 자기가 쏘지 않은 것에 대해서는 아무것도 얻지 못합니다. 벽이 파괴한 외계인은 아무것도 주지 않습니다. 보상도 전리품도 없습니다.
 - **외계인은 벽을 돌아가지 않습니다.** 벽을 뚫고 지나가며 타거나, 자기 쪽에 서서 벽을 쏩니다.
-- **보이는 모습.** 청백색 빛의 띠에 밝은 줄이 따라 흐르고 양쪽 끝에 빛의 기둥이 섭니다. 사격이 맞은 곳에서 번쩍이고 거의 다 닳으면 깜박입니다. 레벨 2 벽은 대신 노랗게 빛나며 중심이 더 굵고 밝고 광채도 더 강하지만, 띠의 너비는 레벨 1 벽과 같은 10 유닛입니다. 옆의 가는 체력 막대는 짧아지며 호박색, 이어서 빨간색으로 바뀝니다. 슬롯은 벽의 남은 수명을 호로, 대기 시간을 그림자로 보여 줍니다. 세운 벽은 번쩍이며 켜지고, 격파된 벽은 불꽃이 되어 무너지며, 시간이 다 된 벽은 서서히 사라집니다.
-- **얻는 방법.** Energetic Wall I은 상점에서 250 Thulium에 팝니다. Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 Energetic Wall I, Ship Fragment 10개, Power Core 2개와 600 Thulium으로 제작합니다 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)).
+- **보이는 모습.** 청백색 빛의 띠에 밝은 줄이 따라 흐르고 양쪽 끝에 빛의 기둥이 섭니다. 사격이 맞은 곳에서 번쩍이고 거의 다 닳으면 깜박입니다. 레벨 2 벽은 대신 노랗게 빛나며 중심이 더 굵고 밝고 광채도 더 강하지만, 띠의 너비는 레벨 1 벽과 같은 10 유닛입니다. 옆의 가는 체력 막대는 짧아지며 호박색, 이어서 빨간색으로 바뀝니다. 슬롯은 벽의 남은 수명을 호로, 대기 시간을 그림자로 보여 줍니다. 세운 벽은 번쩍이며 켜지고, 격파된 벽은 불꽃이 되어 무너지며, 시간이 다 된 벽은 서서히 사라집니다. 슬롯의 숫자는 해당 등급의 남은 벽 수이기도 합니다.
+- **얻는 방법과 가지고 다니는 방법.** Energetic Wall I은 상점에서 벽 하나에 **250 Thulium**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다([경매장](/wiki/03-Mechanics/Auction.md)에 올려 둔 것도 셉니다). Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 **제작 한 번에 벽 하나**를 **600 Thulium**, Ship Fragment 5개, Power Core 1개로 만들며 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)), 최대 **10**개까지 가질 수 있습니다. 로켓처럼 가지고 있는 벽은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 벽은 쓸 수 없습니다. 직접 만든 Energetic Wall II는 경매장에서 팔 수 있지만, 상점에서 파는 Energetic Wall I은 팔 수 없습니다.
 
 ## 연구 센터의 CPU {#research-cpus}
 

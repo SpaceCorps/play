@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ Au niveau 15 du Noyau, le Skylab grandit encore et apprend à voler : un **seco
 > [!NOTE]
 > **Ce qui a changé dans la 0.4.21.** L’étape du Noyau du niveau 14 au niveau 15 coûte désormais **4 000 Thulium** de plus, et quand elle est terminée, un second **pont** et le **Noyau 3** apparaissent avec quatre nouveaux emplacements. Solaire déménage sur le Noyau 3 et produit plus d’énergie à partir du niveau 15, de sorte qu’une station complète reste couverte. Quatre nouveaux modules prennent les emplacements : le **Module Moteurs**, le **Module Défense**, le **Module Radar** et la **Baie des trophées**, et avec eux votre Skylab vole sur la **carte de l’univers**, chasse tout seul et ramène son butin à la maison (voir [Expéditions](#expeditions)). Chaque module a désormais un **poids**, et le poids de la station et de ses moteurs décide de la vitesse à laquelle elle vole (voir [Poids et vitesse](#weight-and-speed)). La **Baie à minerai** verse trois fois plus de minerai par heure et garde trois fois plus de quota. Rien de ce que vous avez construit n’est perdu : un Noyau déjà au niveau 15 ou plus a le Noyau 3 tout de suite et ne paie rien.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## En une minute {#in-one-minute}
 
@@ -624,12 +632,12 @@ Une amélioration déjà en cours quand les durées changent garde l’heure de 
 Votre Skylab dispose d’un budget d’énergie limité.
 
 - **Bilan** : gardez la production de Solaire au-dessus de l’énergie consommée par tous les autres modules. La page Skylab affiche le bilan, et vous prévient avant qu’une construction le fasse passer sous zéro.
-- **Solaire suit le rythme** : un module Solaire de niveau N produit l’énergie de **tous les autres modules au niveau N** (le Noyau, les deux fermes, l’Entrepôt de ressources, les deux collecteurs et la Fonderie, et à partir du niveau 10 le Centre de recherche et la Baie à minerai) et environ un dixième de plus, donc une station dont tous les modules sont au niveau 7 a besoin de Solaire 7 et l’a couverte. Solaire un niveau plus bas ne suffit pas pour une station complète (la dernière colonne), donc Solaire doit continuer à suivre le reste. Le Noyau consomme peu, il peut donc avoir de l’avance : Solaire 5 et plus couvre une station complète à son niveau avec le Noyau à n’importe quel niveau. Le tableau ci-dessous compte aussi l’Imprimante à munitions à partir du niveau 7, l’Usine à roquettes et la Baie à minerai à partir du niveau 10, et les modules Moteurs, Défense et Radar et la Baie des trophées à partir du niveau 15, chacun au plus à son propre niveau maximal.
+- **Solaire suit le rythme** : un module Solaire de niveau N produit l’énergie de **tous les autres modules au niveau N** (le Noyau, les deux fermes, l’Entrepôt de ressources, les deux collecteurs et la Fonderie, et à partir du niveau 10 le Centre de recherche et la Baie à minerai) et environ un dixième de plus, donc une station dont tous les modules sont au niveau 7 a besoin de Solaire 7 et l’a couverte. Solaire un niveau plus bas ne suffit pas pour une station complète (la dernière colonne), donc Solaire doit continuer à suivre le reste. Le Noyau consomme peu, il peut donc avoir de l’avance : Solaire 5 et plus couvre une station complète à son niveau avec le Noyau à n’importe quel niveau. Le tableau ci-dessous compte aussi l’Imprimante à munitions à partir du niveau 7, l’Usine à roquettes et la Baie à minerai à partir du niveau 10, et les modules Moteurs, Défense et Radar et la Baie des trophées à partir du niveau 11 (ils se construisent à partir du niveau 15 du Noyau et comptent quatre niveaux plus tôt, parce que le Noyau peut devancer Solaire), chacun au plus à son propre niveau maximal.
 - **État actif** : vous pouvez allumer et éteindre les fermes, les collecteurs et la Fonderie pour gérer l’énergie. Le Noyau, Solaire, l’Entrepôt de ressources et le Centre de recherche fonctionnent toujours. L’Imprimante à munitions, l’Usine à roquettes et la Baie à minerai peuvent aussi être allumées et éteintes, tout comme les quatre modules de l’Expédition (pas pendant qu’un voyage est en cours).
 - **Panne** : si la consommation d’énergie dépasse la production, toutes les fermes et tous les collecteurs cessent de produire jusqu’au retour de l’équilibre. Ce qu’ils contiennent déjà reste, et vous pouvez toujours le récupérer. La Fonderie ne lance aucun nouveau lot et le Centre de recherche aucune nouvelle recherche (une recherche déjà en cours continue). L’Imprimante à munitions, l’Usine à roquettes et la Baie à minerai s’arrêtent comme les fermes et les collecteurs. Le Module Défense ne combat rien, les scans du radar sont à l’arrêt et aucun voyage ne peut partir (un voyage en cours continue).
 - **Amélioration de Solaire** : pendant son amélioration, Solaire ne produit qu’un quart de son énergie ; si vos autres modules ne sont pas très en dessous, la station est donc en déficit, et les fermes et les collecteurs s’arrêtent jusqu’à la fin de l’amélioration (voir [Module Solaire](#solar-module)).
 
-L’énergie de Solaire à chaque niveau, face à ce que les autres modules consomment au même niveau (chaque module à ce niveau, le Noyau compris, et le Centre de recherche et la Baie à minerai à partir du niveau 10, et les quatre modules de l’Expédition à partir du niveau 15) :
+L’énergie de Solaire à chaque niveau, face à ce que les autres modules consomment au même niveau (chaque module à ce niveau, le Noyau compris, et le Centre de recherche et la Baie à minerai à partir du niveau 10, et les quatre modules de l’Expédition à partir du niveau 11) :
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ L’énergie de Solaire à chaque niveau, face à ce que les autres modules cons
 | 8 | 1 185 | 1 076 | 109 | 965 : il manque 111 |
 | 9 | 1 460 | 1 327 | 133 | 1 185 : il manque 142 |
 | 10 | 2 035 | 1 849 | 186 | 1 460 : il manque 389 |
-| 11 | 2 490 | 2 260 | 230 | 2 035 : il manque 225 |
-| 12 | 3 055 | 2 774 | 281 | 2 490 : il manque 284 |
-| 13 | 3 765 | 3 421 | 344 | 3 055 : il manque 366 |
-| 14 | 4 660 | 4 235 | 425 | 3 765 : il manque 470 |
-| 15 | 6 325 | 5 748 | 577 | 4 660 : il manque 1 088 |
+| 11 | 2 995 | 2 721 | 274 | 2 035 : il manque 686 |
+| 12 | 3 565 | 3 241 | 324 | 2 995 : il manque 246 |
+| 13 | 4 285 | 3 893 | 392 | 3 565 : il manque 328 |
+| 14 | 5 185 | 4 713 | 472 | 4 285 : il manque 428 |
+| 15 | 6 325 | 5 748 | 577 | 5 185 : il manque 563 |
 | 16 | 7 765 | 7 055 | 710 | 6 325 : il manque 730 |
 | 17 | 9 585 | 8 711 | 874 | 7 765 : il manque 946 |
 | 18 | 11 895 | 10 812 | 1 083 | 9 585 : il manque 1 227 |
@@ -712,7 +720,7 @@ Pendant qu’une amélioration de Solaire est en cours, il produit un quart de s
 | 9 à 10 | 3 h | 3 | 29 250 | 912 |
 | 10 à 11 | 4 h | 5 | 45 000 | 1 440 |
 | 11 à 12 | 5 h | 6 | 67 500 | 2 200 |
-| 12 à 13 | 6 h | 6 | 99 000 | 3 120 |
+| 12 à 13 | 6 h | 7 | 99 000 | 3 120 |
 | 13 à 14 | 8 h | 7 | 156 000 | 4 800 |
 | 14 à 15 | 10 h | 8 | 225 000 | 6 800 |
 | 15 à 16 | 12 h | 9 | 306 000 | 9 120 |

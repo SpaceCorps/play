@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Libro de recetas -->
 # Libro de recetas y builds {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 El **Libro de recetas** responde a «¿qué hace falta para esto?» con cualquier objeto del juego: un diagrama de lo que lo compone, los pasos en orden, el coste completo y de dónde sale cada materia prima. **Builds** hace lo mismo con una nave entera: importa el equipo de tu hangar o el build de un amigo, empieza con uno de los 15 presets o crea el tuyo, y mira sus estadísticas y su coste completo, paso a paso. Los dos están en la **Biblioteca** de la estación, debajo de la Wiki.
 
 El Libro de recetas no guarda una lista de precios propia: calcula sus números en el momento en que miras, a partir de las recetas, los precios, las tecnologías y las tablas de botín que usan la Tienda, el [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) y la [Investigación](/wiki/03-Mechanics/Research.md), así que sigue al juego cuando cambia un precio o una receta. Por eso esta página no cita ningún precio ni ninguna estadística: abre el objeto o el build.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Abrirlo {#open-it}
 

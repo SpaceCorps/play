@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Daño de un disparo, en cada mundo:
 | Torreta de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torreta láser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Un cohete se dispara desde el 90 % de su alcance, para que llegue; una torreta láser dispara una vez por segundo, y su daño se sortea dentro del rango indicado.
+- Un cohete se dispara desde el 90 % del alcance que tiene el mismo cohete en manos de un piloto, para que llegue; una torreta láser dispara una vez por segundo, y su daño se sortea dentro del rango indicado.
 - Un N.I.K.E. tiene 35 % de penetración de escudo, que se resta de la absorción de un escudo.
+- El N.I.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 1.125 unidades por segundo, 8.100 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
 - Un N.U.K.E. estalla en un radio de 900 unidades, con más fuerza en el centro.
+- El N.U.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 375 unidades por segundo, 2.400 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
 
 <!-- swamp-guns:end -->
 
-- **Nada llega fuera de la zona,** y dentro de ella una nave es destruida en segundos: cuanto más se acerca al centro, más cañones se suman, y ni siquiera la Wraith mejor protegida aguanta.
+- **Nada dispara desde fuera de la zona,** y dentro de ella una nave es destruida en segundos: cuanto más se acerca al centro, más cañones se suman, y ni siquiera la Wraith mejor protegida aguanta. Un cohete que ya está en el aire sigue su camino, eso sí, y los cohetes de la torreta vuelan más rápido y más lejos que los tuyos: huir en línea recta de uno no te lo quita de encima.
 - **Un camuflaje te mete dentro.** Ninguna torreta ve jamás una nave camuflada, ni una dentro de la ventana de un EMP, a ninguna distancia. Una explosión dirigida a una nave visible que estalla junto a una camuflada la daña igualmente y acaba con su camuflaje.
 - **Disparan solo a pilotos,** nunca a alienígenas, pilotos de la corporación ni al enjambre, y la protección de una nave que acaba de volver tras una destrucción vale también contra ellas.
 - **El anillo de aviso.** Una nave que cruza el anillo fuera de la zona recibe una línea del Sistema: las torretas disparan a toda nave que ven, y algo duerme en el centro. Se le vuelve a avisar solo cuando ha salido del anillo y ha regresado.

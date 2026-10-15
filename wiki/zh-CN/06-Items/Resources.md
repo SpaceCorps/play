@@ -115,7 +115,7 @@
 - [Engine II](/wiki/06-Items/Propulsion.md): **60** (另需 Engine I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
 - Adaptive Core II: **60** (另需 Adaptive Core I ×1, Power Core ×1, Velkonite Reinforced Plate ×4, 2,000 Thulium)
 - Adaptive Core III: **110** (另需 Adaptive Core II ×1, Ancient Control Unit ×1, Dark Matter Plate ×4, Power Core ×5, 4,000 Thulium)
-- Energetic Wall II: **10** (另需 Energetic Wall I ×1, Power Core ×2, 600 Thulium)
+- Energetic Wall II: **5** (另需 Power Core ×1, 600 Thulium)
 - P.E.T. Station I: **25** (另需 Power Core ×2, Velkonite Reinforced Plate ×4, 100,000 信用点, 2,000 Thulium)
 - P.E.T. Station II: **60** (另需 Orvium Reinforced Plate ×2, Power Core ×4, Reinforced Hull Plate ×6, Velkonite Reinforced Plate ×8, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **120** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
@@ -264,7 +264,7 @@
 - [Engine II](/wiki/06-Items/Propulsion.md): **1** (另需 Engine I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
 - Adaptive Core II: **1** (另需 Adaptive Core I ×1, Ship Fragment ×60, Velkonite Reinforced Plate ×4, 2,000 Thulium)
 - Adaptive Core III: **5** (另需 Adaptive Core II ×1, Ancient Control Unit ×1, Dark Matter Plate ×4, Ship Fragment ×110, 4,000 Thulium)
-- Energetic Wall II: **2** (另需 Energetic Wall I ×1, Ship Fragment ×10, 600 Thulium)
+- Energetic Wall II: **1** (另需 Ship Fragment ×5, 600 Thulium)
 - P.E.T. Station I: **2** (另需 Ship Fragment ×25, Velkonite Reinforced Plate ×4, 100,000 信用点, 2,000 Thulium)
 - P.E.T. Station II: **4** (另需 Orvium Reinforced Plate ×2, Reinforced Hull Plate ×6, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **8** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
@@ -793,7 +793,7 @@
 
 - **货箱**：外星人的掉落物会落在它爆炸处的一个货箱里，在 30 秒内专属于击杀它的飞行员和其战队。[Resource Magnet Booster](/wiki/06-Items/Boosters.md) 会让货箱的内容增加 25%。参见[货箱](/wiki/03-Mechanics/Cargo.md)。
 - **残骸**：被摧毁的[企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)不会留下货箱和零件，无论是谁或什么摧毁了它，所以飞行员的舰船不是材料来源。和平协议结束后，在你的[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)允许 PvP 的地方，你可以击落另一家企业的飞行员；摧毁你自己企业的飞行员会扣 100 荣誉。
-- **模块升级**：装配站通过升级低一级的部件来制造 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III 和 Energetic Wall II，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II 和 P.E.T. Station III 相同。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+- **模块升级**：装配站通过升级低一级的部件来制造 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II 和 Adaptive Core III，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II 和 P.E.T. Station III 相同。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 - **存放位置**：装配站、锻造炉和 Skylab 建造使用的是物品栏里零散的物品堆。舰船上或运输储藏库中的物品堆不算。
 - **重置**：你物品栏中的材料遵循[重置规则](/wiki/03-Mechanics/Wipe-Timeline.md)；存放在 Skylab 资源仓库里的矿石会保留。
 

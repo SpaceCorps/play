@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d605c9f1ab4311f8 -->
+<!-- wiki-i18n source: 65309b17cbdf0785 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -8,6 +8,10 @@ Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** 
 
 > [!NOTE]
 > **Noch kann nichts gekauft oder verdient werden.** Vorerst vergibt ein Admin jeden Look. Der Hangar markiert die Looks, die du nicht hast, mit „Noch nicht erhältlich“, und wenn du einen bekommst, sagt es dir ein Hinweis und ein sanfter Gong ertönt.
+
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
 ## In einer Minute {#in-one-minute}
 

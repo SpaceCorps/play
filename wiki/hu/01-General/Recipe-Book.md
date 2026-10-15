@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: Receptkönyv -->
 # Receptkönyv és buildek {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 A **Receptkönyv** a játék bármelyik tárgyánál megválaszolja a „Mi kell ehhez?” kérdést: ábrán mutatja, miből készül, sorrendben a lépéseket, a teljes költséget, és azt, honnan származik minden nyersanyag. A **Buildek** ugyanezt egy egész hajóra teszik meg: importáld a hangárod felszerelését vagy egy barátod buildjét, indulj ki a 15 előbeállítás egyikéből vagy készíts sajátot, és nézd meg az értékeit és a teljes költségét lépésről lépésre. Mindkettő az állomás **Könyvtárában** van, a Wiki alatt.
 
 A Receptkönyv nem vezet saját árlistát: a számait akkor számolja ki, amikor ránézel, azokból a receptekből, árakból, technológiákból és zsákmánytáblákból, amelyeket a Bolt, a [Gyártás](/wiki/06-Items/Overview.md#upgrading-modules) és a [Kutatás](/wiki/03-Mechanics/Research.md) is használ, így követi a játékot, ha egy ár vagy egy recept megváltozik. Ezért ez az oldal nem közöl sem árat, sem értéket: nyisd meg a tárgyat vagy a buildet.
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## Megnyitás {#open-it}
 

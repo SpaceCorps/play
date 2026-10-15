@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
+<!-- wiki-i18n source: c84ea450afa0dee6 -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 
 Los **asteroides** son grandes rocas que están en el plano de vuelo de los sectores de las corporaciones y de los sectores de peligro. Nunca se mueven y nunca disparan. Rompe uno con **cohetes** o con **láseres** y estalla en pequeños **fragmentos** de créditos, Thulium y mineral, que recoges como [carga](/wiki/03-Mechanics/Cargo.md). Los cohetes son la herramienta para el trabajo: tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave, y los drones no le hacen nada. Una cosa más rompe asteroides por ti: un P.E.T. **Mole** acoplado ([abajo](#the-mole-pet)).
 
 La minería es un trabajo distinto de la caza, no un sustituto: no da XP, honor ni puntos de clasificación, y los cohetes que disparas cuestan créditos o Thulium. Lo que te da son créditos y Thulium, mineral para la [Forja](/wiki/06-Items/Forge.md) y para fabricar sin combatir, y un trabajo que un [grupo](/wiki/03-Mechanics/Groups.md) puede compartir. Paga bien: según el propio modelo del juego, una hora en los asteroides adecuados con el cohete adecuado rinde entre 2,6 y 6,8 veces la mejor hora de caza de tu nivel, una vez pagados los cohetes. Los límites diarios de [Los mundos](#the-worlds) la frenan, y los alcanzas pronto: en Alpha, un minero constante en un buen sector llega al límite de Thulium en menos de 2 horas y al de créditos en unas 2,7 horas.
+
+![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
 ## Qué es un asteroide {#what-an-asteroid-is}
 
@@ -59,7 +61,7 @@ Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 ## Las reglas {#the-rules}
 
 <!-- asteroids-rules:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 - Un piloto que hizo al menos el 5 % del daño a un asteroide recibe una parte de sus fragmentos, en proporción al daño hecho. Si nadie llega al 5 %, el piloto que más daño hizo se lleva todos.
 - Un [grupo](/wiki/03-Mechanics/Groups.md#sharing-kills) cuenta como un solo piloto, y su parte se reparte por nivel entre los compañeros del grupo que están cerca y disparan.
@@ -80,7 +82,7 @@ Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 Cada mundo, Alpha, Beta y Gamma, tiene asteroides propios en los mismos sitios ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), así que el asteroide que rompes en tu mundo no está roto en otro. Un mundo mayor significa un casco mayor y una paga mayor.
 
 <!-- asteroids-worlds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Mundo | Casco | Paga | Límite de Thulium | Límite de créditos |
 | :--- | ---: | ---: | ---: | ---: |
@@ -97,7 +99,7 @@ Las tablas de abajo dan los números de un asteroide de Alpha. **Casco** es el f
 Todos los sectores de origen de las tres corporaciones y de los sectores de peligro tienen asteroides, con una mezcla propia: sobre todo los tipos de su anillo, con uno o dos invitados del anillo siguiente o del anterior. Los sectores neutrales, a los que no lleva ningún portal, no tienen ninguno. Los asteroides de los sectores de peligro aparecen desde el día de temporada de la tabla, el día en que se abre el PvP ([Primer Contacto](/wiki/03-Mechanics/Wipe-Timeline.md)), y los demás desde el primer día. Tras una rotura, un asteroide nuevo del mismo tipo vuelve a crecer pasado el tiempo de la fila del sector. Ningún asteroide queda cerca de un púlsar, que brilla desde el primer día de la temporada; desde el día 11 ninguno queda tampoco cerca de una excavadora gigante ni del centro del Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md#where-everything-is)), y una roca que estaba allí cuando empezó el evento 2 desaparece.
 
 <!-- asteroids-maps:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | Sector | Asteroides | Desde el día | Vuelve | Tipos |
 | :--- | ---: | ---: | ---: | :--- |
@@ -123,7 +125,22 @@ Todos los sectores de origen de las tres corporaciones y de los sectores de peli
 ## Los tipos {#the-kinds}
 
 <!-- asteroids-kinds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+
+### Niveles y piezas de P.E.T. {#tiers-and-pet-parts}
+
+El **nivel** de un asteroide es el anillo de sectores al que pertenece su tipo: los niveles 1 a 4 son los sectores x-1 a x-4 de las tres corporaciones y el nivel 5 los sectores de peligro. El nivel sube con el tamaño: cuanto más grande es el asteroide, más alto es su nivel. Aun así, no son lo mismo: la mayoría de los niveles abarcan dos tamaños, que da la tabla. La ventana objetivo y la tarjeta que aparece al señalarlo muestran la familia, el tamaño y el nivel de un asteroide.
+
+El nivel también decide un hallazgo propio: una **pieza de P.E.T.**, un Cluster Chunk que toma la Cuna de [P.E.T.](/wiki/03-Mechanics/Pets.md). La tabla da la probabilidad de que un asteroide roto deje cada calidad (un guion: nunca). Los asteroides del nivel 1 no dejan ninguna. Cada calidad se sortea una vez por asteroide roto, el piloto que más daño causó se lleva el chunk entero y la suerte no cambia las probabilidades. La Motherlode tiene probabilidades propias. Selecciona un asteroide y la ventana objetivo enumera las piezas de P.E.T. de su tipo.
+
+| Nivel | Sectores | Tamaño | Tipos | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| 1 | `x-1` | Diminuto, Pequeño | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
+| 2 | `x-2` | Pequeño, Mediano | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4 % | – | – |
+| 3 | `x-3` | Mediano | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8 % | 0,15 % | – |
+| 4 | `x-4` | Mediano, Grande | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1 % | 0,25 % | 0,03 % |
+| 5 | Sectores de peligro | Grande | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2 % | 0,3 % | 0,1 % |
+| 5 | Sectores de peligro | Enorme | Motherlode | 25 % | 8 % | 3 % |
 
 Hay 27 tipos de asteroide en 8 familias. **Hecho para** indica el cohete para el que está equilibrado un tipo y más o menos cuántos de él necesita una rotura en Alpha. **Hallazgos** son el mineral y los hallazgos raros que sortea una rotura y que sus fragmentos se reparten: un porcentaje es la probabilidad de esa línea, las demás líneas se encuentran siempre. Los créditos y el Thulium son las cantidades de Alpha de una rotura.
 
@@ -131,84 +148,84 @@ Hay 27 tipos de asteroide en 8 familias. **Hecho para** indica el cohete para el
 
 Roca normal: sin blindaje y sin punto débil.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Pebble** | 8.500 | Diminuto | – | 1 | Unos 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.600–11.100 | 22 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49 %) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Cobble** | 10.000 | Pequeño | – | 1 | Unos 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.300–10.500 | 25 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89 %) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Dark Chondrite** | 12.000 | Pequeño | – | 1 | Unos 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7.050–11.850 | 65 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `T-1`, `M-2`, `T-2`, `G-2` |
-| **Vein Rock** | 18.000 | Pequeño | – | 1 | Unos 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13.350–22.200 | 50 %: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2`, `G-2` |
-| **Slag Block** | 24.000 | Mediano | – | 2 | Unos 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18.600–31.050 | 50 %: 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95 %), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
-| **Cataclast** | 36.000 | Mediano | – | 2 | Unos 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22.350–37.200 | 50 %: 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
-| **Lode Rock** | 52.000 | Mediano | – | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34.950–58.200 | 50 %: 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3`, `G-4` |
-| **Cataclysite Mass** | 72.000 | Grande | – | 2 | Unos 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44.700–74.550 | 50 %: 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
-| **Rich Lode** | 80.000 | Grande | – | 3 | Unos 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61.800–103.050 | 50 %: 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Pebble** | 8.500 | Diminuto | 1 | – | 1 | Unos 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.600–11.100 | 22 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49 %) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Cobble** | 10.000 | Pequeño | 1 | – | 1 | Unos 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.300–10.500 | 25 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89 %) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Dark Chondrite** | 12.000 | Pequeño | 2 | – | 1 | Unos 3× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7.050–11.850 | 65 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `T-1`, `M-2`, `T-2`, `G-2` |
+| **Vein Rock** | 18.000 | Pequeño | 2 | – | 1 | Unos 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13.350–22.200 | 50 %: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2`, `G-2` |
+| **Slag Block** | 24.000 | Mediano | 3 | – | 2 | Unos 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18.600–31.050 | 50 %: 3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95 %), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
+| **Cataclast** | 36.000 | Mediano | 3 | – | 2 | Unos 8× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22.350–37.200 | 50 %: 6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3` |
+| **Lode Rock** | 52.000 | Mediano | 3 | – | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34.950–58.200 | 50 %: 18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3`, `G-3`, `G-4` |
+| **Cataclysite Mass** | 72.000 | Grande | 4 | – | 2 | Unos 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44.700–74.550 | 50 %: 21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
+| **Rich Lode** | 80.000 | Grande | 5 | – | 3 | Unos 11× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61.800–103.050 | 50 %: 39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 ### Hielo {#ice}
 
 Roca helada: sin blindaje y sin punto débil.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Rime** | 12.000 | Pequeño | – | 1 | Unos 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8.250–13.800 | 55 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77 %) | `T-1`, `G-1`, `T-2` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Rime** | 12.000 | Pequeño | 1 | – | 1 | Unos 5× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8.250–13.800 | 55 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77 %) | `T-1`, `G-1`, `T-2` |
 
 ### Cristal {#crystal}
 
 Frágil: una explosión de área hace más daño a un asteroide de cristal que un impacto directo.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Glimmer** | 9.000 | Diminuto | Explosiones ×1,6 | 1 | Unos 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.150–10.350 | 41 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77 %) | `M-1`, `G-1`, `G-2` |
-| **Nyx Geode** | 26.000 | Mediano | Explosiones ×1,6 | 2 | Unos 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16.650–27.750 | 50 %: 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `G-1`, `T-2`, `G-2` |
-| **Quorvium Boulder** | 48.000 | Mediano | Explosiones ×1,6 | 2 | Unos 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29.850–49.650 | 50 %: 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
-| **Prism Cluster** | 100.000 | Grande | Explosiones ×1,6 | 3 | Unos 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71.700–119.550 | 50 %: 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-3`, `DS-4` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Glimmer** | 9.000 | Diminuto | 1 | Explosiones ×1,6 | 1 | Unos 4× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6.150–10.350 | 41 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77 %) | `M-1`, `G-1`, `G-2` |
+| **Nyx Geode** | 26.000 | Mediano | 2 | Explosiones ×1,6 | 2 | Unos 6× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16.650–27.750 | 50 %: 9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `G-1`, `T-2`, `G-2` |
+| **Quorvium Boulder** | 48.000 | Mediano | 4 | Explosiones ×1,6 | 2 | Unos 7× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29.850–49.650 | 50 %: 12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
+| **Prism Cluster** | 100.000 | Grande | 5 | Explosiones ×1,6 | 3 | Unos 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71.700–119.550 | 50 %: 27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-3`, `DS-4` |
 
 ### Chatarra {#salvage}
 
 Restos y cápsulas: contienen Ship Fragments.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Cache Pod** | 14.000 | Diminuto | – | 1 | Unos 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9.000–15.000 | 29 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78 %) | `M-1`, `T-1` |
-| **Scrap Hulk** | 20.000 | Pequeño | – | 1 | Unos 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12.150–20.250 | 92 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2` |
-| **Derelict Hulk** | 52.000 | Mediano | – | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33.150–55.200 | 50 %: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3` |
-| **Derelict Cruiser** | 72.000 | Grande | – | 2 | Unos 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46.200–76.950 | 50 %: 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Cache Pod** | 14.000 | Diminuto | 1 | – | 1 | Unos 6× [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9.000–15.000 | 29 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78 %) | `M-1`, `T-1` |
+| **Scrap Hulk** | 20.000 | Pequeño | 2 | – | 1 | Unos 5× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12.150–20.250 | 92 %: 3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-2`, `T-2` |
+| **Derelict Hulk** | 52.000 | Mediano | 3 | – | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33.150–55.200 | 50 %: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `T-3` |
+| **Derelict Cruiser** | 72.000 | Grande | 4 | – | 2 | Unos 10× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46.200–76.950 | 50 %: 18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97 %), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
 
 ### Hierro {#iron}
 
 Blindado: cada impacto pierde puntos por el blindaje, así que piden cohetes más fuertes de lo que sugiere su casco.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ironhide** | 14.000 | Pequeño | Blindaje 500 | 1 | Unos 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13.650–22.650 | 50 %: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-1`, `M-2`, `G-2` |
-| **Plateback** | 36.000 | Mediano | Blindaje 1.500 | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31.650–52.800 | 50 %: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `G-3`, `M-4` |
-| **Anvil** | 80.000 | Grande | Blindaje 3.000 | 2 | Unos 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84.900–141.450 | 50 %: 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `G-4`, `DS-2` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ironhide** | 14.000 | Pequeño | 2 | Blindaje 500 | 1 | Unos 4× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13.650–22.650 | 50 %: 3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74 %), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2 %) | `M-1`, `M-2`, `G-2` |
+| **Plateback** | 36.000 | Mediano | 3 | Blindaje 1.500 | 2 | Unos 11× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31.650–52.800 | 50 %: 9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `M-3`, `G-3`, `M-4` |
+| **Anvil** | 80.000 | Grande | 4 | Blindaje 3.000 | 2 | Unos 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84.900–141.450 | 50 %: 30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `G-4`, `DS-2` |
 
 ### Tesoro {#treasure}
 
 Los que mejor pagan: cada uno paga más créditos y Thulium que el asteroide medio de su anillo.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66.000 | Mediano | Explosiones ×1,6 | 2 | Unos 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
-| **Thulium Cluster** | 100.000 | Grande | – | 2 | Unos 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62.100–103.500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
-| **Vault Rock** | 130.000 | Grande | – | 3 | Unos 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101.400–169.050 | 50 %: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
-| **Star Crystal** | 150.000 | Grande | Explosiones ×1,6 | 3 | Unos 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109.650–182.700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Thulium Geode** | 66.000 | Mediano | 3 | Explosiones ×1,6 | 2 | Unos 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Cluster** | 100.000 | Grande | 4 | – | 2 | Unos 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62.100–103.500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
+| **Vault Rock** | 130.000 | Grande | 4 | – | 3 | Unos 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101.400–169.050 | 50 %: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
+| **Star Crystal** | 150.000 | Grande | 5 | Explosiones ×1,6 | 3 | Unos 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109.650–182.700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
 
 ### Reliquia {#relic}
 
 El caparazón de una nave de enjambre muerta: blindado y rico en hallazgos raros.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ancient Husk** | 120.000 | Grande | Blindaje 2.000 | 3 | Unos 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114.300–190.350 | 50 %: 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10 %) | `DS-1`, `DS-2`, `DS-4` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ancient Husk** | 120.000 | Grande | 5 | Blindaje 2.000 | 3 | Unos 22× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114.300–190.350 | 50 %: 57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10 %) | `DS-1`, `DS-2`, `DS-4` |
 
 ### Titán {#titan}
 
 El más grande de todos, una roca para un grupo.
 
-| Tipo | Casco | Tamaño | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Motherlode** | 450.000 | Enorme | – | 3 | Unos 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348.900–581.400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Motherlode** | 450.000 | Enorme | 5 | – | 3 | Unos 61× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348.900–581.400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 <!-- asteroids-kinds:end -->
 

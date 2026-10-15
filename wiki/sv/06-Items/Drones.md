@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: Drönare -->
 # Drönare {#drones}
 
 Drönare är stödenheter som du kan köpa eller tillverka. Du kan ha upp till **8 drönare** aktiva samtidigt, Slave Drone och Master Drone tillsammans. De sexton **drönarformationerna** i trädet nedan är inga drönare: du forskar fram och tillverkar dem, bär en i taget från snabbfältet, och de fungerar bara så länge du äger minst en drönare (se [Drönarformationer](/wiki/03-Mechanics/Formations.md)).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Egy lövés sebzése, minden világban:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-lövegtorony | 5 000 / 4 400 | 5 mp | 1 080 | 50 000 | 75 000 | 100 000 |
 | Lézertorony × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 mp | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- A rakétát a hatótávja 90% részénél lövik ki, hogy odaérjen; a lézertorony másodpercenként egyszer tüzel, a sebzése a megadott tartományban dobódik.
+- A rakétát annak a hatótávnak a 90% részénél lövik ki, amellyel ugyanez a rakéta a pilóták kezében rendelkezik, hogy odaérjen; a lézertorony másodpercenként egyszer tüzel, a sebzése a megadott tartományban dobódik.
 - Egy N.I.K.E. pajzsáthatolása 35%, amelyet levonnak a pajzs elnyeléséből.
+- A lövegtorony N.I.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 1 125 egységet, összesen 8 100 egységet tesz meg, így a menekülő hajót hosszan üldözi.
 - Egy N.U.K.E. 900 egység sugarú körben robban, középen a legerősebben.
+- A lövegtorony N.U.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 375 egységet, összesen 2 400 egységet tesz meg, így a menekülő hajót hosszan üldözi.
 
 <!-- swamp-guns:end -->
 
-- **Semmi sem ér túl a zónán,** és benne egy hajó másodpercek alatt megsemmisül: minél közelebb ér a középhez, annál több löveg kapcsolódik be, és még a legjobban védett Wraith sem bírja.
+- **A zónán kívülről semmi sem lő,** és benne egy hajó másodpercek alatt megsemmisül: minél közelebb ér a középhez, annál több löveg kapcsolódik be, és még a legjobban védett Wraith sem bírja. A már a levegőben lévő rakéta viszont tovább repül, és a lövegtorony rakétái gyorsabbak és messzebbre jutnak, mint a tieid: ha egyenesen elmenekülsz előlük, nem rázod le őket.
 - **Az álca bejuttat.** Egyetlen lövegtorony sem lát soha álcázott hajót, sem EMP-ablakban lévőt, semmilyen távolságból. Egy látható hajóra célzott robbanás, amely egy álcázott hajó mellett robban, azt mégis megsebzi, és megszünteti az álcáját.
 - **Csak pilótákra lőnek,** soha idegenekre, vállalati pilótákra vagy a rajra, és az éppen megsemmisülésből visszatért hajó védelme velük szemben is érvényes.
 - **A figyelmeztető gyűrű.** A zónán kívüli gyűrűt átlépő hajó rendszersort kap: a lövegtornyok minden hajóra tüzelnek, amit látnak, és a közepén valami alszik. Újra csak akkor értesül, ha elhagyta a gyűrűt, és visszatért.

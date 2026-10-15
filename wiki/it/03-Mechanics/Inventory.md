@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario ed equipaggiamento {#inventory-equipment}
 
 L’Hangar ti permette di gestire le tue navi e il tuo equipaggiamento. Equipaggiare bene gli oggetti è la chiave per sopravvivere e dominare. Puoi farlo alla stazione, e in volo da dentro una zona sicura: vedi [L’Hangar in volo](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Slot dell’equipaggiamento ed efficienza delle statistiche {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ L’inventario elenca i tuoi oggetti nello stesso ordine del Negozio, qualunque 
 ## Oggetti vendibili {#marketable-items}
 
 Gli oggetti che hai guadagnato (bottino, ricompense delle missioni e ciò che fanno l’Assemblaggio e la Forgia) portano un piccolo contrassegno **Vendibile** sulla casella, e la scheda dell’oggetto dice «Vendibile» oppure, per una pila di cui si può vendere solo una parte, «Vendibile (3 / 5)». Il filtro **Solo vendibile** accanto ai filtri di categoria mostra solo questi oggetti. Un **martelletto** accanto al cestino di un oggetto contrassegnato apre la scheda di vendita dell’[Asta](/wiki/03-Mechanics/Auction.md) (in volo non compare: vendere è una pagina della stazione). Ciò che hai comprato, vinto o ricevuto in regalo non ha contrassegno e non si può rivendere.
+
+## Selezionare più oggetti {#select-several-items}
+
+Premi su una parte vuota dell’inventario (il margine accanto alle caselle, lo spazio tra due caselle o quello sotto l’ultima riga) e trascina: un rettangolo traslucido segue il puntatore, e ogni casella che tocca è selezionata finché trascini. Rilascia e la selezione resta; la riga del titolo la conta («3 selezionati»). Tieni premuto **Maiusc**, **Ctrl** o **Cmd** mentre trascini per aggiungere alla selezione: le caselle già selezionate che il rettangolo tocca vengono invece rilasciate. Un trascinamento normale inizia una nuova selezione. **Esc**, un clic su uno spazio vuoto o il pulsante accanto al cestino nella riga del titolo la annulla; **Esc** a metà trascinamento annulla il trascinamento. Al bordo alto o basso di un inventario lungo l’elenco scorre da solo. Una pressione su una casella resta della casella: clic per equipaggiare, trascinamento su uno slot. Il cestino nella riga del titolo elimina gli oggetti selezionati dopo una domanda che li elenca (una pila di Extra identici se ne va intera); non è offerto finché l’Hangar in volo è bloccato. Un oggetto montato nello Skylab non si può selezionare, e si può selezionare solo ciò che la ricerca e i filtri di categoria lasciano nella griglia. Si sente un lieve tic quando il rettangolo prende una casella in più (segue l’interruttore «Suoni dei pulsanti» delle impostazioni).
 
 ## Equipaggiare un oggetto in un altro (sotto-slot) {#item-to-item-equipping-sub-sockets-}
 

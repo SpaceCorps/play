@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: Drónok -->
 # Drónok {#drones}
 
 A drónok megvásárolható vagy legyártható támogató egységek. Egyszerre legfeljebb **8 drón** lehet aktív nálad, a Slave Drone-okat és a Master Drone-okat együtt számítva. Az alábbi fában látható tizenhat **drónformáció** nem drón: kikutatod és elkészíted őket, a gyorssávról egyszerre egyet viselsz, és csak addig működnek, amíg van legalább egy drónod (lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md)).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

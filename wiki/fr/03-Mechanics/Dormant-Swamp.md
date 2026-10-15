@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Dégâts d’un tir, dans chaque monde :
 | Tourelle de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5 000 / 4 400 | 5 s | 1 080 | 50 000 | 75 000 | 100 000 |
 | Tourelle laser × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 s | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- Une roquette est tirée à 90 % de sa portée, pour qu’elle arrive ; une tourelle laser tire une fois par seconde, et ses dégâts sont tirés au sort dans la plage indiquée.
+- Une roquette est tirée à 90 % de la portée que la même roquette a entre les mains d’un pilote, pour qu’elle arrive ; une tourelle laser tire une fois par seconde, et ses dégâts sont tirés au sort dans la plage indiquée.
 - Un N.I.K.E. a 35 % de pénétration de bouclier, retranchée de l’absorption d’un bouclier.
+- Le N.I.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 1 125 unités par seconde, 8 100 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
 - Un N.U.K.E. éclate sur un rayon de 900 unités, avec le plus de force au centre.
+- Le N.U.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 375 unités par seconde, 2 400 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
 
 <!-- swamp-guns:end -->
 
-- **Rien n’atteint l’extérieur de la zone,** et à l’intérieur un vaisseau est détruit en quelques secondes : plus il s’approche du milieu, plus de canons s’ajoutent, et même le Wraith le mieux protégé ne tient pas.
+- **Rien ne tire depuis l’extérieur de la zone,** et à l’intérieur un vaisseau est détruit en quelques secondes : plus il s’approche du milieu, plus de canons s’ajoutent, et même le Wraith le mieux protégé ne tient pas. Une roquette déjà en l’air continue sa route, cependant, et celles de la tourelle volent plus vite et plus loin que les vôtres : fuir droit devant l’une d’elles ne vous en débarrasse pas.
 - **Une occultation vous fait entrer.** Aucune tourelle ne voit jamais un vaisseau occulté, ni un vaisseau dans la fenêtre d’un EMP, à aucune distance. Une explosion visant un vaisseau visible qui éclate près d’un vaisseau occulté le blesse quand même et met fin à son occultation.
 - **Elles ne tirent que sur les pilotes,** jamais sur les aliens, les pilotes de corporation ni l’essaim, et la protection d’un vaisseau qui vient de revenir d’une destruction tient aussi contre elles.
 - **L’anneau d’avertissement.** Un vaisseau qui franchit l’anneau en dehors de la zone reçoit une ligne Système : les tourelles tirent sur tout vaisseau qu’elles voient, et quelque chose dort au milieu. Il n’est prévenu de nouveau que lorsqu’il a quitté l’anneau et y est revenu.

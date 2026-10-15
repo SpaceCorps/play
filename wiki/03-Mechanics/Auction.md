@@ -1,6 +1,12 @@
 # Auction
 
-The Auction is the pilots' market and the game's own hourly lots, on one page of the station menu. In flight it opens in a window: the **Auction** button (a gavel) in the toolbar at the top left shows the same page over the game, and the window's place and size are remembered. It works as it does at the station, except that ammo, rockets and EMP Charges are counted in flight, so you list them from the station (the sell sheet shows them locked, with the reason); you can buy and bid from anywhere. It has five sections. **Market** is what other pilots have for sale. **Lots** are the game's own offers, three every hour. **Davidski** is the flying trader's stock: every kind the Auction lists, at many times the Shop's price; the items the Shop does not sell cost so much that buying them from him is a last resort, and the rare resources that crafts use a thousand times more again ([Davidski](/wiki/03-Mechanics/Davidski.md)). **My listings** is what you have for sale yourself. **History** is your sales, your purchases and the lots you won, and how your trading did.
+The Auction is the pilots' market and the game's own hourly lots, on one page of the station menu. In flight it opens in a window: the **Auction** button (a gavel) in the toolbar at the top left shows the same page over the game, and the window's place and size are remembered. It works as it does at the station, except that ammo, rockets and EMP Charges are counted in flight, so you list them from the station (the sell sheet shows them locked, with the reason); you can buy and bid from anywhere. It has four sections. **Market** is what other pilots have for sale and, among their listings, the flying trader's stock: every kind the Auction lists, at many times the Shop's price, as rows marked with his name in gold, an **NPC** badge and an infinity sign; the items the Shop does not sell cost so much that buying them from him is a last resort, and the rare resources that crafts use a thousand times more again ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Lots** are the game's own offers, three every hour. **My listings** is what you have for sale yourself. **History** is your sales, your purchases and the lots you won, and how your trading did.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -48,8 +54,8 @@ When the Auction came (0.4.12) the gear you already held that the Shop does not 
 | **Thrusters** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Laser ammo** | Standard Battery (in lots of 100), Siphon Battery (in lots of 10), Advanced Plasma (in lots of 10), Ultra Core (in lots of 10), Experimental Fusion Core | 5 |
 | **Rockets** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Consumables** | EMP Charge | 1 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Consumables** | EMP Charge, Energetic Wall II | 2 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **Hull plating** | Hull Plating II, Hull Plating III | 2 |
 | **Resources** | Cataclysite (in lots of 100), Ship Fragment (in lots of 100), Daraxium (in lots of 100), Nyxite (in lots of 100), Quorvium (in lots of 10), Reinforced Hull Plate (in lots of 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -130,6 +136,8 @@ A listing costs a **deposit**, paid when you list and never returned, and a sale
 ## Buying
 
 The **Market** lists what other pilots sell. Narrow the list with the **category chips** (one for each type of item, with the number of listings in it), search by name, filter by enchant and currency, and sort by price, by what ends soonest or by what is newest. Pick a listing to see what it is, who sells it, how long it runs, and how its price compares with the last sale, the lowest price now and the Shop's price. A stack is bought in whole lots. A big purchase asks you to confirm once more. The seller is paid at once, less the tax; you pay no deposit and no tax. What you buy is **not Marketable**: the page says "You get: not marketable" beside **Buy**, because only what you earn can be sold. You cannot buy your own listing. A listing that sells while you look at it says "That listing is gone."
+
+**Davidski's rows** stand among the pilots' listings. Every kind he sells has a row in Credits and a row in Thulium, with his name in gold, an **NPC** badge, and an infinity sign for the quantity and the time left: his stock never runs out and he never closes. The search, the category chips and the enchant and currency filters narrow his rows like any listing (his items are Standard, so no other enchant shows them); by price they stand where their number says, beside the pilots' prices, and under **Ending soon** and **Newest** they come after the pilots' listings. Pick one and **Buy** goes to him, not to a pilot ([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)): his prices are many times the Shop's, the daily buying limit does not count him, there is no seller to pay, and what you get is not Marketable. He is in none of the price hints, the history or the statistics, which are the pilots' own.
 
 ## Limits
 

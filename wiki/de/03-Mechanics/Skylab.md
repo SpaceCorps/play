@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ Auf Kern-Level 15 wächst es noch einmal und lernt zu fliegen: Eine **zweite Br�
 > [!NOTE]
 > **Was sich in 0.4.21 geändert hat.** Der Schritt des Kerns von Level 14 auf Level 15 kostet jetzt **4.000 Thulium** mehr, und wenn er fertig ist, entstehen eine zweite **Brücke** und **Kern 3** mit vier neuen Slots. Solar zieht auf Kern 3 um und erzeugt ab Level 15 mehr Energie, damit eine volle Station weiterhin gedeckt ist. Vier neue Module nehmen die Slots ein: das **Triebwerksmodul**, das **Verteidigungsmodul**, das **Radarmodul** und die **Trophäenhalle**, und mit ihnen fliegt dein Skylab über die **Universumkarte**, jagt von selbst und bringt seine Beute heim (siehe [Expeditionen](#expeditions)). Jedes Modul hat jetzt ein **Gewicht**, und das Gewicht der Station und ihrer Triebwerke bestimmt, wie schnell sie fliegt (siehe [Gewicht und Geschwindigkeit](#weight-and-speed)). Die **Erzbucht** verlädt dreimal so viel Erz pro Stunde und hält dreimal so viel Kontingent vor. Nichts, was du gebaut hast, geht verloren: Ein Kern, der schon auf Level 15 oder höher ist, hat Kern 3 sofort und zahlt nichts.
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## In einer Minute {#in-one-minute}
 
@@ -624,12 +632,12 @@ Ein Ausbau, der schon läuft, wenn sich die Zeiten ändern, behält die Fertigst
 Dein Skylab hat ein begrenztes Energiebudget.
 
 - **Bilanz**: Halte die Leistung von Solar über dem Verbrauch aller anderen Module. Die Skylab-Seite zeigt die Bilanz und warnt, bevor ein Bau sie unter null drücken würde.
-- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum und die Erzbucht) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level. Die Tabelle unten zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 sowie das Triebwerks-, das Verteidigungs- und das Radarmodul und die Trophäenhalle ab Level 15, jedes höchstens auf seinem eigenen höchsten Level.
+- **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum und die Erzbucht) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level. Die Tabelle unten zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 sowie das Triebwerks-, das Verteidigungs- und das Radarmodul und die Trophäenhalle ab Level 11 (sie werden ab Kernlevel 15 gebaut und zählen vier Level früher, weil der Kern Solar vorauslaufen kann), jedes höchstens auf seinem eigenen höchsten Level.
 - **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer. Auch der Munitionsdrucker, die Raketenfabrik und die Erzbucht lassen sich ein- und ausschalten, ebenso die vier Module der Expedition (nicht, solange eine Reise läuft).
 - **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter). Der Munitionsdrucker, die Raketenfabrik und die Erzbucht halten an wie die Farmen und Kollektoren. Das Verteidigungsmodul bekämpft nichts, die Scans des Radars stehen still, und keine Reise kann starten (eine Reise, die unterwegs ist, geht weiter).
 - **Solar-Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur ein Viertel seiner Energie. Liegen deine anderen Module nicht weit darunter, steht die Station also im Defizit, und die Farmen und Kollektoren stehen still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module)).
 
-Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum und die Erzbucht ab Level 10 sowie die vier Module der Expedition ab Level 15):
+Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum und die Erzbucht ab Level 10 sowie die vier Module der Expedition ab Level 11):
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module au
 | 8 | 1.185 | 1.076 | 109 | 965: 111 zu wenig |
 | 9 | 1.460 | 1.327 | 133 | 1.185: 142 zu wenig |
 | 10 | 2.035 | 1.849 | 186 | 1.460: 389 zu wenig |
-| 11 | 2.490 | 2.260 | 230 | 2.035: 225 zu wenig |
-| 12 | 3.055 | 2.774 | 281 | 2.490: 284 zu wenig |
-| 13 | 3.765 | 3.421 | 344 | 3.055: 366 zu wenig |
-| 14 | 4.660 | 4.235 | 425 | 3.765: 470 zu wenig |
-| 15 | 6.325 | 5.748 | 577 | 4.660: 1.088 zu wenig |
+| 11 | 2.995 | 2.721 | 274 | 2.035: 686 zu wenig |
+| 12 | 3.565 | 3.241 | 324 | 2.995: 246 zu wenig |
+| 13 | 4.285 | 3.893 | 392 | 3.565: 328 zu wenig |
+| 14 | 5.185 | 4.713 | 472 | 4.285: 428 zu wenig |
+| 15 | 6.325 | 5.748 | 577 | 5.185: 563 zu wenig |
 | 16 | 7.765 | 7.055 | 710 | 6.325: 730 zu wenig |
 | 17 | 9.585 | 8.711 | 874 | 7.765: 946 zu wenig |
 | 18 | 11.895 | 10.812 | 1.083 | 9.585: 1.227 zu wenig |
@@ -712,7 +720,7 @@ Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine St
 | 9 auf 10 | 3 h | 3 | 29.250 | 912 |
 | 10 auf 11 | 4 h | 5 | 45.000 | 1.440 |
 | 11 auf 12 | 5 h | 6 | 67.500 | 2.200 |
-| 12 auf 13 | 6 h | 6 | 99.000 | 3.120 |
+| 12 auf 13 | 6 h | 7 | 99.000 | 3.120 |
 | 13 auf 14 | 8 h | 7 | 156.000 | 4.800 |
 | 14 auf 15 | 10 h | 8 | 225.000 | 6.800 |
 | 15 auf 16 | 12 h | 9 | 306.000 | 9.120 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa5d52746bb0d940 -->
+<!-- wiki-i18n source: 353e2a14b241cf5d -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -9,6 +9,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view filtered to the Defence tree: the shield and hull formations, each a technology with its Dark Matter](../../img/wiki-img/shots/research-formations.jpg)
 ![The Research view of the Skylab with the pointer on Impulse Thruster III: its kind and tier, what it does, its numbers, the four tiers of its family and what Assembly asks to craft it](../../img/wiki-img/shots/research-hover.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## Das Forschungszentrum {#the-research-centre}
 
@@ -112,6 +113,7 @@ Die Technologien an der Spitze des Baums brauchen zusätzlich Dark Matter. Es ko
 - **Drohnenformationen** stehen außerhalb der Regel: Jede Formationsforschung verlangt Dark Matter, je nach Stärke 5, 13 oder 20, wie die Tabelle zeigt.
 - **Hüllenpanzerung** steht ebenfalls außerhalb der Regel: Ihre beiden Forschungen verlangen mehr, 25 Dark Matter für einen Tag Forschung und 40 für zwei Tage, wie die Tabelle zeigt.
 - **Brichst du eine Forschung ab,** kehrt das dafür eingesetzte Dark Matter ins Zentrum zurück. Der Fortschritt und die schon verbrauchte Wissenschaft nicht.
+- **Eine ganze Warteschlange.** Beim Einreihen wird nichts bezahlt, und jede eingereihte Technologie nimmt ihr Dark Matter erst beim Start; setze das Dark Matter für die ganze Warteschlange also auf einmal ein. Die Schaltfläche Hinzufügen füllt das Forschungszentrum bis zu dem auf, was die eingereihten Technologien zusammen brauchen (und die gewählte Technologie, falls sie noch nicht eingereiht ist), egal wie viel die erste braucht, und jede eingereihte Technologie zeigt, ob das Dark Matter im Zentrum sie deckt. Eine Warteschlange, die wegen fehlendem Dark Matter stehen geblieben ist, startet von selbst, sobald du das Fehlende hinzufügst.
 - Alle zusammen verlangen 414 Dark Matter.
 
 | Technologie | Seltenheit | Forschungsdauer | Dark Matter |
@@ -263,7 +265,7 @@ Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 108
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-Energetic Wall II | extra, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 1 Energetic Wall I, 10 Ship Fragment, 2 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU

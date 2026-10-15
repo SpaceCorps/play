@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski es un comerciante que vuela. Es una nave NPC pacífica que sale una vez al día, a una hora que nadie anuncia, y patrulla un [sector de peligro](/wiki/01-General/Danger-Sectors.md) a la vez, tiene el mejor equipo del juego y vende todos los objetos que lista la [subasta](/wiki/03-Mechanics/Auction.md), con existencias sin fin, a muchas veces el precio de la tienda. No pertenece a ninguna corporación, figura en el Salón de la Fama como un piloto y no dispara primero. Le compras en la subasta, y puedes combatirlo en el espacio.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Dónde está {#where-he-is}
 
 - **Una vez al día, sin avisar**: en cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) sale una vez por día UTC, en un momento entre las 00:00 y las 20:00 UTC que es distinto en cada mundo y cada día. Nadie es avisado: ni en el chat, ni en el registro de juego, ni con una notificación. Vuela hasta que lo destruyen o termina el día.
 - **Un sector de peligro al día**: vuela por `DS-1`, `DS-2` y `DS-3` por turnos, uno al día, y en cada mundo su propia nave está en el mismo sector.
-- **Cómo encontrarlo**: mirando. Solo lo ven los pilotos que están en el sector por el que vuela: su nombre es dorado, con una tienda delante, y el minimapa lo dibuja como un punto dorado dentro de un anillo. El mapa galáctico no lo muestra. La sección **Davidski** de la subasta solo dice si hoy está fuera: **Vuela hoy**, **Hoy no ha salido** o **Destruido hoy**. Nunca dice dónde ni cuándo.
+- **Cómo encontrarlo**: mirando. Solo lo ven los pilotos que están en el sector por el que vuela: su nombre es dorado, con una tienda delante, y el minimapa lo dibuja como un punto dorado dentro de un anillo. El mapa galáctico no lo muestra. Los detalles de una de sus filas en la subasta solo dicen si hoy está fuera: **Vuela hoy**, **Hoy no ha salido** o **Destruido hoy**. Nunca dicen dónde ni cuándo.
 - **Al terminar el día** se va cuando nadie le ha golpeado durante un minuto. Un combate nunca se corta a medianoche: tras 15 minutos se marcha pase lo que pase. El Davidski del día siguiente sale en el momento del día siguiente, en el sector siguiente.
 - **Tras un reinicio** se rehace su nave, pero se recuerda su día: si estaba fuera y no lo habían destruido, vuelve de inmediato; si lo habían destruido, sigue sin aparecer hasta el día siguiente.
 
@@ -50,7 +52,7 @@ La caja contiene de 40 a 60 Ship Fragments, de 10 a 20 Power Cores y de 3.000 a 
 
 ## Comprarle {#buying-from-him}
 
-La sección **Davidski** de la subasta lista todos los tipos de objeto que lista la subasta, 83 en total, con el precio de un lote:
+Su almacén está en la lista del **Mercado** de la subasta, entre los anuncios de los pilotos: una fila por cada uno de los 83 tipos que lista la subasta, en créditos y en Thulium (166 filas), con el precio de un lote, con su nombre en dorado, una insignia **NPC** y un signo de infinito en la cantidad y el tiempo restante. La búsqueda, las categorías y los filtros de encantamiento y de moneda del Mercado acotan sus filas como cualquier anuncio (sus objetos son Estándar), y sus órdenes las colocan donde dice su número: por precio junto a los precios de los pilotos, después de los anuncios de los pilotos con **Termina pronto** y **Más recientes**. Elige una para ver los detalles y **Comprar por …**; la compra va a él, no a un piloto. Los precios:
 
 - **100 veces el precio de la tienda en créditos y 40 veces en Thulium** para los objetos que la tienda vende; un precio de la tienda en una moneda cuenta en la otra a 200 créditos por Thulium. Un Repair Drone I (5.000 créditos en la tienda) cuesta 500.000 créditos o 1.000 Thulium, un Quantum Laser I 800.000 créditos o 1.600 Thulium, los cohetes de 50.000 a 100.000 créditos cada uno. Los dos precios no valen lo mismo: a 200 créditos por Thulium, 1.000 Thulium serían solo 200.000 créditos.
 - **El equipo que la tienda no vende es su último recurso: 200 veces el valor de referencia en créditos y 80 veces en Thulium**, al menos 50 veces lo que cuesta la vía más barata para conseguirlo (fabricarlo tú mismo o el precio de otro piloto). Un Quantum Laser III cuesta 84.966.000 créditos o 169.932 Thulium, un Helios Beam 682.192.400 créditos o 1.364.388 Thulium y un Hull Plating III 1.271.074.400 créditos o 2.542.152 Thulium. Estas filas llevan una pequeña insignia **Último recurso**, igual que los recursos raros de abajo.
@@ -58,7 +60,7 @@ La sección **Davidski** de la subasta lista todos los tipos de objeto que lista
 - **Sus existencias no se acaban.** Una compra admite hasta 1.000 lotes (25 piezas de un objeto que no es una pila), y un cohete se lleva hasta su pila como en todas partes.
 - **Sin límite diario.** El límite diario de compra de la subasta y el límite entre dos pilotos son para pilotos que compran a pilotos; él no es nadie y nada pasa a nadie. No hay impuesto ni depósito: lo que pagas desaparece del juego.
 - **Lo que recibes es un objeto normal**: no [comercializable](/wiki/03-Mechanics/Auction.md#marketable-items), así que no se puede poner a la venta para otro piloto.
-- **Rigen las reglas de la subasta**: nivel 5, la pausa, un veto y los días de cierre de la subasta. Su sección funciona tanto si vuela como si no.
+- **Rigen las reglas de la subasta**: nivel 5, la pausa, un veto y los días de cierre de la subasta. Sus filas son las mismas vuele o no, y no hay nada que cancelar ni que pujar.
 
 ## Clasificaciones {#rankings}
 

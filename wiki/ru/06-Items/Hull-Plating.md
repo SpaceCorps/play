@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Броня корпуса -->
 # Броня корпуса {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; броня; слот брони; пластина корпуса -->
 
 Изучение роя Dormant показало прогресс в технологии брони. С этой технологией корабли могут улучшать свой корпус: **броня корпуса** — это броня, которая устанавливается в слот пластины корпуса созданного корабля и добавляет очки корпуса. Это не Hull Plating **Booster** со страницы [Бустеры](/wiki/06-Items/Boosters.md): тот — временный бонус.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

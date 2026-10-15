@@ -1,9 +1,10 @@
-<!-- wiki-i18n source: 9057b3cb7e9436bc -->
+<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
 <!-- wiki-i18n title: Дроны -->
 # Дроны {#drones}
 
 Дроны — вспомогательные боевые единицы, которые можно купить или создать. Одновременно активными могут быть до **8 дронов**, считая вместе Slave Drone и Master Drone. Шестнадцать **построений дронов** в дереве ниже — не дроны: их изучают и создают, надевают по одному с нижней панели, и они работают, только пока у вас есть хотя бы один дрон (см. [Построения дронов](/wiki/03-Mechanics/Formations.md)).
 
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->

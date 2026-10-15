@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: はじめに -->
 # SpaceCorps をはじめよう {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@
 
 ## 友達と一緒に遊ぶ {#playing-with-friends}
 
-[クラン](/wiki/03-Mechanics/Clans.md)に加入するか、最大5人までの[グループ](/wiki/03-Mechanics/Groups.md)で飛びましょう。あなた専用のコードで、新しい友達を誘うこともできます。**コミュニティ › 友達招待**では、友達にスターターパックが贈られ、友達がレベル5に達すると、あなたに Thulium の報酬が入ります。詳しくは[友達招待](/wiki/03-Mechanics/Invite-Friends.md)を参照してください。
+[クラン](/wiki/03-Mechanics/Clans.md)に加入するか、最大10人までの[グループ](/wiki/03-Mechanics/Groups.md)で飛びましょう。あなた専用のコードで、新しい友達を誘うこともできます。**コミュニティ › 友達招待**では、友達にスターターパックが贈られ、友達がレベル5に達すると、あなたに Thulium の報酬が入ります。詳しくは[友達招待](/wiki/03-Mechanics/Invite-Friends.md)を参照してください。
 
 ## ミッション {#missions}
 

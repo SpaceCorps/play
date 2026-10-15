@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
@@ -118,6 +118,7 @@ Butiken, hangarens inventarie och de andra föremålslistorna följer en och sam
 - **Repair Drones**: Extrautrustning som reparerar ditt skrov, var och en snabbare än den förra: Repair Drone I, II och III kostar 5 000, 15 000 och 35 000 krediter, Repair Drone IV 2 000 Thulium. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU**: Extrautrustning för strid eller flykt: en Cloaking CPU döljer ditt skepp tills du avslutar det (S, M och L: 10, 25 och 50 användningar, 5 000, 11 250 och 20 000 Thulium). Se [Extrautrustning](/wiki/06-Items/Extras.md).
 - **EMP Charge**: en förbrukningsvara som du bär i en hög, som raketer, och som inte tar någon plats (500 Thulium per laddning, högst 20): den gör dig omöjlig att låsa på i 3 sekunder, bryter varje målfixering på dig och avslutar allt kamouflage i närheten. Se [Raketer](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I och II**: också förbrukningsvaror, som bärs i en hög och inte tar någon plats: ett tryck sätter upp en plasmavägg vid markören som tar skotten i stället för dig. I kostar 250 Thulium per vägg i butiken (högst 20), II tillverkas i Monteringen, en per tillverkning (högst 10). Se [Extrautrustning](/wiki/06-Items/Extras.md#energetic-wall).
 - **Forsknings-CPU:er**: Extra Slots CPU ger varje skepp fler extraplatser, Jump CPU tar dig till en koncernsektor mot Thulium, Base CPU tar dig hem och Auto-Repair CPU skickar ut din Repair Drone av sig själv. De säljs inte: du forskar fram dem och tillverkar dem sedan i Monteringen. Se [Extrautrustning](/wiki/06-Items/Extras.md#research-cpus).
 - **Drönarformationer**: sexton föremål för dina drönare som ger bonusar och tar ut priser, till exempel en större sköld mot svagare vapen. De säljs inte: forska fram dem och tillverka dem sedan i Monteringen för Thulium. Se [Drönarformationer](/wiki/03-Mechanics/Formations.md).
 - **Resurser**: det utomjordingar släpper och Skylab producerar som underlag för tillverkning: Ship Fragments, de fyra kristallerna, Power Cores, Velkonite- och Orvium-plåtarna, och två som kommer från annat håll: **Dark Matter**, som [det svarta hålet](/wiki/03-Mechanics/Black-Hole.md) ger tillbaka för en N.I.K.E.-raket, och **Dark Matter Plate** som Monteringen pressar av den för sista nivån i varje uppgraderingskedja och de två översta stegen i [Smedjan](/wiki/06-Items/Forge.md).

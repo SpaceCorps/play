@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: 70f5ffd2b7a3c1d0 -->
+<!-- wiki-i18n source: c84ea450afa0dee6 -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
 **小行星**是躺在企业星区和危险星区飞行平面上的大块岩石。它们从不移动，也从不开火。用**火箭**或**激光**击碎一颗，它就会炸成含有信用点、Thulium 和矿石的小**碎块**，你可以像拾取[货物](/wiki/03-Mechanics/Cargo.md)一样捡起它们。火箭才是干这件事的工具：激光也能伤害小行星，但只有对飞船伤害的 5%，无人机则对它毫无作用。还有一样东西能替你击碎小行星：已对接的 **Mole** P.E.T.（见[下文](#the-mole-pet)）。
 
 采矿和狩猎是两种不同的工作，前者替代不了后者：它不给经验值、荣誉或排名点数，而且你发射的火箭要花费信用点或 Thulium。它给你的是信用点和 Thulium、不用战斗就能得到的[锻造炉](/wiki/06-Items/Forge.md)和制造所需的矿石，以及一份[小队](/wiki/03-Mechanics/Groups.md)可以分着做的工作。它报酬丰厚：按游戏自己的模型，在合适的小行星上用合适的火箭采一小时，扣除火箭成本后，大约相当于你等级上最佳狩猎一小时的 2.6 到 6.8 倍。每日上限（见[世界](#the-worlds)）给它封了顶，而且你很快就会碰到：在 Alpha，稳定采矿的飞行员在好星区不到 2 小时就能达到 Thulium 上限，大约 2.7 小时就能达到信用点上限。
+
+![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
 ## 什么是小行星 {#what-an-asteroid-is}
 
@@ -59,7 +61,7 @@
 ## 规则 {#the-rules}
 
 <!-- asteroids-rules:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 - 对一颗小行星造成了至少 5% 伤害的飞行员，按造成的伤害比例分得它的碎块。若无人达到 5%，造成伤害最多的飞行员拿走全部。
 - [小队](/wiki/03-Mechanics/Groups.md#sharing-kills)算作一名飞行员，它的份额按等级分给附近正在开火的队友。
@@ -80,7 +82,7 @@
 每个世界，Alpha、Beta 和 Gamma，在相同的位置都有各自的小行星（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)），所以你在自己世界里击碎的小行星，在别的世界里并没有被击碎。更大的世界意味着更大的船体和更高的报酬。
 
 <!-- asteroids-worlds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | 世界 | 船体 | 奖励倍率 | Thulium 上限 | 信用点上限 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -97,7 +99,7 @@
 三个企业的所有母星区和危险星区都有小行星，各有自己的组合：主要是它所在环的种类，再加上一两种来自上一环或下一环的“客人”。没有传送门通往的中立星区没有小行星。危险星区的小行星从表中的赛季日开始出现，也就是 PvP 开启的那一天（[初次接触](/wiki/03-Mechanics/Wipe-Timeline.md)），其余的从第一天起就有。击碎之后，同种类的新小行星会在该星区那一行所写的时间后重新长出来。从赛季第一天起闪耀的脉冲星附近没有小行星；从赛季第 11 天起，巨型挖掘机和 Dormant Swamp 中心附近也没有小行星（[危险星区](/wiki/01-General/Danger-Sectors.md#where-everything-is)），活动 2 开始时在那里的岩石会消失。
 
 <!-- asteroids-maps:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
 | 星区 | 小行星 | 起始日 | 回归 | 种类 |
 | :--- | ---: | ---: | ---: | :--- |
@@ -123,7 +125,22 @@
 ## 种类 {#the-kinds}
 
 <!-- asteroids-kinds:begin -->
-<!-- Generated from server/Resources/Asteroids.json (and Rockets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+<!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
+
+### 等级与 P.E.T. 部件 {#tiers-and-pet-parts}
+
+小行星的**等级**是它所属种类所在的星区环：等级 1 到 4 是三个企业的 x-1 到 x-4 星区，等级 5 是危险星区。等级随大小升高：小行星越大，等级越高。但两者并不相同：大多数等级包含两种大小，表中已列出。目标窗口和悬停卡片会显示小行星的系列、大小和等级。
+
+等级还决定另一种收获：**P.E.T. 部件**，即由 [P.E.T.](/wiki/03-Mechanics/Pets.md) 摇篮接收的 Cluster Chunk。表中给出被击碎的小行星留下每一种（普通、神话、传说）的概率（破折号：永远不会）。等级 1 的小行星不会留下任何部件。每一种在每颗被击碎的小行星上各掷一次，造成伤害最多的飞行员整块获得，幸运不会改变概率。Motherlode 有自己的概率。选中一颗小行星，目标窗口就会列出它所属种类的 P.E.T. 部件。
+
+| 等级 | 星区 | 大小 | 种类 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| 1 | `x-1` | 极小, 小型 | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
+| 2 | `x-2` | 小型, 中型 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
+| 3 | `x-3` | 中型 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
+| 4 | `x-4` | 中型, 大型 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
+| 5 | 危险星区 | 大型 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
+| 5 | 危险星区 | 巨型 | Motherlode | 25% | 8% | 3% |
 
 小行星共有 27 种，分属 8 个系列。**针对火箭**写出该种类是按哪种火箭平衡的，以及在 Alpha 里大约需要多少枚才能击碎。**产出**是一次击碎抽取出的矿石和稀有产出，由它的碎块分着拿：百分比是那一行的几率，其他行一定会出。信用点和 Thulium 是一次击碎的 Alpha 数额。
 
@@ -131,84 +148,84 @@
 
 普通岩石：没有装甲，也没有弱点。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Pebble** | 8,500 | 极小 | – | 1 | 约 4 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,600–11,100 | 22%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Cobble** | 10,000 | 小型 | – | 1 | 约 5 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,300–10,500 | 25%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
-| **Dark Chondrite** | 12,000 | 小型 | – | 1 | 约 3 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7,050–11,850 | 65%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
-| **Vein Rock** | 18,000 | 小型 | – | 1 | 约 4 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13,350–22,200 | 50%：3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
-| **Slag Block** | 24,000 | 中型 | – | 2 | 约 5 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18,600–31,050 | 50%：3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
-| **Cataclast** | 36,000 | 中型 | – | 2 | 约 8 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22,350–37,200 | 50%：6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
-| **Lode Rock** | 52,000 | 中型 | – | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34,950–58,200 | 50%：18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3`, `G-4` |
-| **Cataclysite Mass** | 72,000 | 大型 | – | 2 | 约 10 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44,700–74,550 | 50%：21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
-| **Rich Lode** | 80,000 | 大型 | – | 3 | 约 11 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61,800–103,050 | 50%：39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Pebble** | 8,500 | 极小 | 1 | – | 1 | 约 4 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,600–11,100 | 22%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3 (49%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Cobble** | 10,000 | 小型 | 1 | – | 1 | 约 5 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,300–10,500 | 25%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (89%) | `M-1`, `T-1`, `G-1`, `M-2` |
+| **Dark Chondrite** | 12,000 | 小型 | 2 | – | 1 | 约 3 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 7,050–11,850 | 65%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–12 (91%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (93%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `T-1`, `M-2`, `T-2`, `G-2` |
+| **Vein Rock** | 18,000 | 小型 | 2 | – | 1 | 约 4 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13,350–22,200 | 50%：3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (73%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (45%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2`, `G-2` |
+| **Slag Block** | 24,000 | 中型 | 3 | – | 2 | 约 5 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 18,600–31,050 | 50%：3–9 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (95%), [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 3–6 (84%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
+| **Cataclast** | 36,000 | 中型 | 3 | – | 2 | 约 8 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 22,350–37,200 | 50%：6–15 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3` |
+| **Lode Rock** | 52,000 | 中型 | 3 | – | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 34,950–58,200 | 50%：18–39 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–18, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3`, `G-3`, `G-4` |
+| **Cataclysite Mass** | 72,000 | 大型 | 4 | – | 2 | 约 10 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 44,700–74,550 | 50%：21–45 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–30, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-3`, `M-4`, `T-4`, `G-4`, `DS-3`, `DS-4` |
+| **Rich Lode** | 80,000 | 大型 | 5 | – | 3 | 约 11 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 61,800–103,050 | 50%：39–90 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–24, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 ### 冰 {#ice}
 
 冻结的岩石：没有装甲，也没有弱点。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Rime** | 12,000 | 小型 | – | 1 | 约 5 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8,250–13,800 | 55%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Rime** | 12,000 | 小型 | 1 | – | 1 | 约 5 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 8,250–13,800 | 55%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (77%) | `T-1`, `G-1`, `T-2` |
 
 ### 水晶 {#crystal}
 
 易碎：范围爆炸对水晶小行星造成的伤害比直接命中更大。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Glimmer** | 9,000 | 极小 | 爆炸 ×1.6 | 1 | 约 4 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,150–10,350 | 41%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
-| **Nyx Geode** | 26,000 | 中型 | 爆炸 ×1.6 | 2 | 约 6 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16,650–27,750 | 50%：9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
-| **Quorvium Boulder** | 48,000 | 中型 | 爆炸 ×1.6 | 2 | 约 7 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29,850–49,650 | 50%：12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
-| **Prism Cluster** | 100,000 | 大型 | 爆炸 ×1.6 | 3 | 约 14 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71,700–119,550 | 50%：27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Glimmer** | 9,000 | 极小 | 1 | 爆炸 ×1.6 | 1 | 约 4 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 6,150–10,350 | 41%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (77%) | `M-1`, `G-1`, `G-2` |
+| **Nyx Geode** | 26,000 | 中型 | 2 | 爆炸 ×1.6 | 2 | 约 6 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 16,650–27,750 | 50%：9–21 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 6–15, [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3–6 (96%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `G-1`, `T-2`, `G-2` |
+| **Quorvium Boulder** | 48,000 | 中型 | 4 | 爆炸 ×1.6 | 2 | 约 7 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 29,850–49,650 | 50%：12–30 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (86%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `G-3`, `M-4`, `T-4`, `G-4`, `DS-3` |
+| **Prism Cluster** | 100,000 | 大型 | 5 | 爆炸 ×1.6 | 3 | 约 14 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 71,700–119,550 | 50%：27–60 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–42, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-3`, `DS-4` |
 
 ### 残骸 {#salvage}
 
 残骸和吊舱：里面有 Ship Fragment。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Cache Pod** | 14,000 | 极小 | – | 1 | 约 6 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9,000–15,000 | 29%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
-| **Scrap Hulk** | 20,000 | 小型 | – | 1 | 约 5 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12,150–20,250 | 92%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
-| **Derelict Hulk** | 52,000 | 中型 | – | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33,150–55,200 | 50%：9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3` |
-| **Derelict Cruiser** | 72,000 | 大型 | – | 2 | 约 10 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46,200–76,950 | 50%：18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Cache Pod** | 14,000 | 极小 | 1 | – | 1 | 约 6 ⁠枚 [Rivet I](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 9,000–15,000 | 29%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (83%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 3–9 (78%) | `M-1`, `T-1` |
+| **Scrap Hulk** | 20,000 | 小型 | 2 | – | 1 | 约 5 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 12,150–20,250 | 92%：3 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–9 (95%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (77%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 6–12; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-2`, `T-2` |
+| **Derelict Hulk** | 52,000 | 中型 | 3 | – | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 33,150–55,200 | 50%：9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 30–54; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `T-3` |
+| **Derelict Cruiser** | 72,000 | 大型 | 4 | – | 2 | 约 10 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 46,200–76,950 | 50%：18–39 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–9 (97%), [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 21–36; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-3`, `M-4`, `T-4`, `DS-2`, `DS-4` |
 
 ### 铁 {#iron}
 
 有装甲：每次命中都会因装甲损失点数，所以它们需要比船体所暗示的更强的火箭。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ironhide** | 14,000 | 小型 | 装甲 500 | 1 | 约 4 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13,650–22,650 | 50%：3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
-| **Plateback** | 36,000 | 中型 | 装甲 1,500 | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31,650–52,800 | 50%：9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `G-3`, `M-4` |
-| **Anvil** | 80,000 | 大型 | 装甲 3,000 | 2 | 约 18 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84,900–141,450 | 50%：30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ironhide** | 14,000 | 小型 | 2 | 装甲 500 | 1 | 约 4 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 13,650–22,650 | 50%：3–9 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) 3–6 (74%), [Nyxite](/wiki/06-Items/Resources.md#nyxite) 3 (46%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (2%) | `M-1`, `M-2`, `G-2` |
+| **Plateback** | 36,000 | 中型 | 3 | 装甲 1,500 | 2 | 约 11 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 31,650–52,800 | 50%：9–18 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 6–12, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 27–51; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `M-3`, `G-3`, `M-4` |
+| **Anvil** | 80,000 | 大型 | 4 | 装甲 3,000 | 2 | 约 18 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 84,900–141,450 | 50%：30–72 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 15–27, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 6–15, [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) 36–69; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `G-4`, `DS-2` |
 
 ### 宝藏 {#treasure}
 
 出手最大方的：每一种支付的信用点和 Thulium 都比它所在环的平均小行星更多。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 中型 | 爆炸 ×1.6 | 2 | 约 14 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
-| **Thulium Cluster** | 100,000 | 大型 | – | 2 | 约 14 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
-| **Vault Rock** | 130,000 | 大型 | – | 3 | 约 18 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101,400–169,050 | 50%：36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
-| **Star Crystal** | 150,000 | 大型 | 爆炸 ×1.6 | 3 | 约 21 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Thulium Geode** | 66,000 | 中型 | 3 | 爆炸 ×1.6 | 2 | 约 14 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Cluster** | 100,000 | 大型 | 4 | – | 2 | 约 14 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
+| **Vault Rock** | 130,000 | 大型 | 4 | – | 3 | 约 18 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101,400–169,050 | 50%：36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
+| **Star Crystal** | 150,000 | 大型 | 5 | 爆炸 ×1.6 | 3 | 约 21 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
 
 ### 遗物 {#relic}
 
 一艘死去的虫群舰船的外壳：有装甲，稀有产出丰富。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Ancient Husk** | 120,000 | 大型 | 装甲 2,000 | 3 | 约 22 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114,300–190,350 | 50%：57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Ancient Husk** | 120,000 | 大型 | 5 | 装甲 2,000 | 3 | 约 22 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 114,300–190,350 | 50%：57–129 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 24–45, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 12–24; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (16%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (10%) | `DS-1`, `DS-2`, `DS-4` |
 
 ### 泰坦 {#titan}
 
 最大的一种，给小队打的岩石。
 
-| 种类 | 船体 | 大小 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
-| :--- | ---: | :--- | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Motherlode** | 450,000 | 巨型 | – | 3 | 约 61 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348,900–581,400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
+| 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
+| :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
+| **Motherlode** | 450,000 | 巨型 | 5 | – | 3 | 约 61 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 348,900–581,400 | 165–381 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 69–126, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 36–66; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3`, `DS-4` |
 
 <!-- asteroids-kinds:end -->
 

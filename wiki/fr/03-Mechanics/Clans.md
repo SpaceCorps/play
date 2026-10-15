@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9c25f72f77fa5cf -->
+<!-- wiki-i18n source: 024a0cd8847450c1 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -11,18 +11,19 @@ Fonder un clan ou en rejoindre un vous permet de mettre vos ressources en commun
 - Le chef et les chefs adjoints écrivent des [annonces](#clan-posts) pour tout le clan, chaque membre voit [sur quelle carte](#where-your-clan-mates-are) volent les autres, la fenêtre [Qui est en ligne](#who-is-online) (touche **H**) invite dans votre groupe n’importe quel pilote de votre monde, le chef peut verser une [prime quotidienne](#4-daily-bonus) depuis le Trésor de la flotte, et l’onglet [Journal](#fleet-log) raconte au clan ce qui s’y est passé.
 - En vol, le bouton **Clan** (un fanion) de la barre d’outils en haut à gauche ouvre la **fenêtre du clan** : la page du clan de la station dans une fenêtre par-dessus le jeu, avec les mêmes onglets, les mêmes réponses et les mêmes boutons ; la position et la taille de la fenêtre sont mémorisées (jeu en version 0.4.21 ou plus récente ; [Invoquer un Gardien](#calling-a-warden) dit ce qui change en vol).
 - Une guerre ne prend fin que si l’autre clan est d’accord, et une alliance ou un pacte prend fin aussitôt quand l’un des deux clans le rompt ([Diplomatie](#diplomacy)).
-- Chaque jour de saison, votre clan reçoit une [ligne du jour](#daily-line) : quatre missions à faire dans l’ordre (détruire des aliens, parcourir une distance, parfois abattre des boss d’essaim), puis un [Gardien de clan](#clan-wardens), un boss que vous invoquez et que seul votre clan peut blesser.
+- Chaque jour, votre clan reçoit une [ligne du jour](#daily-line) : quatre missions à faire dans l’ordre (détruire des aliens, parcourir une distance, parfois abattre des boss d’essaim), puis un [Gardien de clan](#clan-wardens), un boss que vous invoquez et que seul votre clan peut blesser.
 - Chaque étape terminée rapporte aussitôt des points de clan : 15, 15, 20, 20 et 30, soit **100 points** pour une ligne complète.
 - Le chef et les chefs adjoints dépensent les points dans trois [bonus](#clan-points-and-boosts) de dix niveaux chacun : **Dégâts** (jusqu’à +5 %), **Thulium** (jusqu’à +10 %) et **Crédits** (jusqu’à +10 %).
-- Un clan qui termine chaque ligne a acheté tous les niveaux au **jour 12 de la saison**. Les points, les niveaux et le clan lui-même prennent fin avec la réinitialisation.
+- Un clan qui termine chaque ligne a acheté tous les niveaux au **jour 12**. Les points, les niveaux et le clan lui-même prennent fin avec la réinitialisation.
 - Il faut au moins **trois membres** qui ont fait leur part, et **un grand équipage** pour le combat contre le Gardien : depuis la 0.4.13, un Gardien a cinq fois la coque, le bouclier et les dégâts laser qu’il avait, si bien que les équipages qui gagnaient avant, d’environ sept pilotes, perdent maintenant ([quel équipage il faut](#how-big-a-crew)). Un équipage trop petit perd le combat : le clan garde alors les **70 points** des quatre missions, mais la ligne n’est pas terminée et ne paie pas [votre récompense](#the-reward-for-you).
-- Un Gardien paie une grosse cagnotte, partagée selon les dégâts, et **chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une caisse privée** avec sa part du butin, que lui seul voit et que lui seul peut ramasser ([gain et butin](#warden-pay-and-loot)). Depuis la 0.4.16, le gain est triplé, et tant qu’un Gardien tient debout, **une vague d’aliens de la carte arrive chaque minute** (toutes les 40 secondes pour le Wrath Warden III, avec un Crystalys dans chaque vague dès qu’il passe sous la moitié de sa coque), dirigée contre les pilotes qui ont touché le Gardien ([vagues](#waves-of-aliens)).
+- Un Gardien paie une grosse cagnotte, partagée selon les dégâts, et **chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une caisse privée** avec sa part du butin, que lui seul voit et que lui seul peut ramasser ([gain et butin](#warden-pay-and-loot)). Depuis la 0.4.16, le gain est triplé, et tant qu’un Gardien tient debout, **une vague d’aliens de la carte arrive chaque minute** (toutes les 40 secondes pour le Wrath Warden III), avec un **Crystalys** dans chaque vague dès que le Gardien passe sous la moitié de sa coque, dirigée contre les pilotes qui ont touché le Gardien ([vagues](#waves-of-aliens)).
 - Votre vaisseau affiche les bonus qu’il a dans la fenêtre **Boosters**, sur une carte à part ([où les voir](#the-three-boosts)).
 - La ligne et les bonus demandent un jeu en version 0.4.10 ou plus récente ; la carte de la fenêtre Boosters, la 0.4.12 ou plus récente ; la page du clan, les annonces, la fenêtre des pilotes en ligne, la prime quotidienne, les demandes de paix, le journal et les clans par monde, la 0.4.16 ou plus récente.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../../img/wiki-img/shots/clan-warden.jpg)
+![The Clan window in flight: the clan page over the game, with the clan's Operations](../../img/wiki-img/shots/clan-window.jpg)
 
 ## Clans et mondes {#clans-and-worlds}
 
@@ -126,8 +127,8 @@ Les clans fonctionnent selon un système financier fondé sur la taxe :
 Le chef peut verser à chaque membre une prime fixe depuis le Trésor de la flotte, une fois par jour.
 
 - **La fixer.** Dans la carte **Prime quotidienne** de Gestion, le chef saisit un montant pour chaque rang : Pilote, Aîné, Chef adjoint et Chef. **0 désactive un rang** ; tout autre montant va de **1 000 à 1 000 000 de crédits**. Les chefs adjoints voient la carte et ne peuvent pas la changer. Enregistrer ne prend rien au trésor. La carte montre ce que coûterait une journée complète si tous les pilotes jouaient, et pour combien de jours le trésor suffirait.
-- **Le versement.** Un membre est payé **une fois par jour de saison**, à sa première vérification du jour : quand il se connecte, quand le jour change pendant qu’il est en ligne, et quand le chef enregistre de nouveaux montants. Un jour de saison, ce sont les 24 heures de la ligne du clan, pas minuit UTC ([Le jour](#the-day)). Le pilote reçoit une ligne Système et une ligne dans le Journal de jeu, et l’Aperçu affiche « Prime quotidienne : X crédits » et si elle a été versée aujourd’hui.
-- **Qui.** Un pilote qui est dans le clan depuis **au moins 24 heures**, et **une prime par pilote et par jour de saison, tous clans confondus** : qui change de clan pour en toucher davantage est payé une fois.
+- **Le versement.** Un membre est payé **une fois par jour**, à sa première vérification du jour : quand il se connecte, quand le jour change pendant qu’il est en ligne, et quand le chef enregistre de nouveaux montants. Le jour est celui de la ligne du clan, qui change à **00:00:00 UTC** ([Le jour](#the-day)). Le pilote reçoit une ligne Système et une ligne dans le Journal de jeu, et l’Aperçu affiche « Prime quotidienne : X crédits » et si elle a été versée aujourd’hui.
+- **Qui.** Un pilote qui est dans le clan depuis **au moins 24 heures**, et **une prime par pilote et par jour, tous clans confondus** : qui change de clan pour en toucher davantage est payé une fois.
 - **Un trésor trop court.** Le trésor ne paie que ce qu’il a et ne descend jamais sous zéro. Quand il ne peut pas payer le montant d’un membre, celui-ci est sauté pour la journée, même si le trésor est rempli plus tard dans le jour, et le [Journal de la flotte](#fleet-log) le note une fois. Les pilotes sont payés dans l’ordre de leur connexion jusqu’à ce que le trésor soit vide.
 - **Pas un versement.** La prime n’utilise pas le plafond de versement quotidien d’un membre.
 
@@ -216,8 +217,8 @@ Chaque clan reçoit une **ligne du jour** par jour : cinq étapes, à faire **d
 
 ### Le jour {#the-day}
 
-- Le jour d’un clan est un **jour de saison** : 24 heures comptées depuis le début de la saison ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule)). Une nouvelle ligne commence à la même heure chaque jour, qui n’est pas minuit UTC (la taxe quotidienne du clan reste prélevée à minuit UTC). L’onglet Opérations décompte jusqu’au changement.
-- Une ligne non terminée **expire** à la fin du jour. Les étapes déjà faites gardent leurs points, la progression de l’étape ouverte est perdue, et il n’y a pas de rattrapage. Les lignes courent les jours de saison 1 à 29.
+- Le jour d’un clan est un **jour UTC** : il change à **00:00:00 UTC**, pour tous les clans au même instant, comme la taxe quotidienne du clan. L’onglet Opérations décompte jusque-là. « Jour *n* sur 29 » compte les jours UTC de la saison, le premier étant ce qui reste du jour où la saison a commencé. Un clan fondé à 15:00 reçoit la ligne de ce jour pour le reste de celui-ci, avec les mêmes comptes, minimums et récompenses. (Le jour propre de la saison, que comptent le PvP, les essaims et la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#30-day-season-schedule), change toujours à l’heure à laquelle la saison a commencé.)
+- Une ligne non terminée **expire** à la fin du jour. Les étapes déjà faites gardent leurs points, la progression de l’étape ouverte est perdue, et il n’y a pas de rattrapage. Les lignes courent du jour 1 au jour 29 de la saison ; la 29e ligne dure jusqu’au début du compte à rebours de la réinitialisation.
 - Les pilotes du clan qui sont en ligne reçoivent un message Système quand la nouvelle ligne commence, quand une étape est terminée et **une heure avant le changement** si la ligne n’est pas terminée.
 
 ### Niveaux de difficulté {#difficulty-tiers}
@@ -244,9 +245,9 @@ Le palier décide combien d’aliens les missions demandent, quel alien demande 
 
 ### Les sept lignes {#the-seven-lines}
 
-Les lignes tournent sur un cycle de sept : la ligne du jour de saison *d* porte le numéro 1 + ((*d* − 1) mod 7), chacune revient donc tous les sept jours. Les chiffres sont ceux d’un clan **Recrue / Vétéran / Élite**. Les deux lignes **Swarm Break** demandent des boss d’essaim et n’arrivent qu’à partir du jour 4, quand les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent. Tous les chiffres sont faits pour environ **2,6 heures de jeu au total**, une demi-heure chacun pour cinq pilotes (une estimation, pas une mesure).
+Les lignes tournent sur un cycle de sept : la ligne du jour *d* porte le numéro 1 + ((*d* − 1) mod 7), chacune revient donc tous les sept jours. Les chiffres sont ceux d’un clan **Recrue / Vétéran / Élite**. Les deux lignes **Swarm Break** demandent des boss d’essaim et n’arrivent qu’à partir du jour 4, quand les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent. Tous les chiffres sont faits pour environ **2,6 heures de jeu au total**, une demi-heure chacun pour cinq pilotes (une estimation, pas une mesure).
 
-| Ligne | Jours de saison | Étape 1 | Étape 2 | Étape 3 | Étape 4 |
+| Ligne | Jours | Étape 1 | Étape 2 | Étape 3 | Étape 4 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Seeker Sweep | 1, 8, 15, 22, 29 | 150 / 300 / 425 Seeker | 115 000 / 155 000 / 185 000 unités | 21 / 70 / 130 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah |
 | Phantasm Purge | 2, 9, 16, 23 | 40 / 140 / 270 Phantasm | 60 / 120 / 170 Seeker | 175 000 / 230 000 / 275 000 unités | 26 Phantasm / 15 Bulwark / 17 Goombah |
@@ -270,12 +271,15 @@ Quand la ligne est terminée, c’est-à-dire quand le Gardien est détruit, cha
 
 ## Gardiens de clan {#clan-wardens}
 
-Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas l’un des [essaims](/wiki/05-Swarms/Swarms.md) publics qui rôdent dans un secteur : votre clan **l’invoque** et **seul votre clan peut le blesser**. Trois Gardiens se relaient, un par jour : jour 1 **Brood**, jour 2 **Siege**, jour 3 **Wrath**, jour 4 de nouveau Brood, et ainsi de suite (le jour 15 est un jour Wrath). Chacun existe en trois forces, **I, II et III**, fixées par le palier du clan. Un Gardien est un alien d’un genre à part, comme les vaisseaux d’un essaim : il ne compte pas comme un Seeker, un Phantasm ni aucun autre alien. Un Gardien est très fort : il a cinq fois la coque, le bouclier et les dégâts laser qu’il avait avant la 0.4.13, c’est donc un combat pour le plus grand équipage que votre clan puisse réunir ([quel équipage il faut](#how-big-a-crew)). Depuis la 0.4.16, le Brood Warden III a **moitié moins** de coque et de bouclier, ses drones soignent moitié moins et arrivent moitié moins vite, et chaque Gardien amène des [vagues d’aliens](#waves-of-aliens) tant qu’il tient debout. Depuis la 0.4.20, un Wrath Warden **fonce sur le pilote qui l’a touché** au lieu de rester là où il a été appelé, le Wrath Warden III amène plus d’aliens, plus souvent, et un Crystalys sous la moitié de sa coque, et tout ce qu’un Gardien amène arrive dirigé contre les pilotes qui l’ont touché.
+Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas l’un des [essaims](/wiki/05-Swarms/Swarms.md) publics qui rôdent dans un secteur : votre clan **l’invoque** et **seul votre clan peut le blesser**. Trois Gardiens se relaient, un par jour : jour 1 **Brood**, jour 2 **Siege**, jour 3 **Wrath**, jour 4 de nouveau Brood, et ainsi de suite (le jour 15 est un jour Wrath). Chacun existe en trois forces, **I, II et III**, fixées par le palier du clan. Un Gardien est un alien d’un genre à part, comme les vaisseaux d’un essaim : il ne compte pas comme un Seeker, un Phantasm ni aucun autre alien. Un Gardien est très fort : il a cinq fois la coque, le bouclier et les dégâts laser qu’il avait avant la 0.4.13, c’est donc un combat pour le plus grand équipage que votre clan puisse réunir ([quel équipage il faut](#how-big-a-crew)). Depuis la 0.4.16, le Brood Warden III a **moitié moins** de coque et de bouclier, ses drones soignent moitié moins et arrivent moitié moins vite, et chaque Gardien amène des [vagues d’aliens](#waves-of-aliens) tant qu’il tient debout.
+Sous la moitié de sa coque, les vagues d’un Gardien comptent aussi [un Crystalys](#crystalys-waves).
+Depuis la 0.4.20, un Wrath Warden **fonce sur le pilote qui l’a touché** au lieu de rester là où il a été appelé, le Wrath Warden III amène plus d’aliens, plus souvent, et un Crystalys sous la moitié de sa coque, et tout ce qu’un Gardien amène arrive dirigé contre les pilotes qui l’ont touché.
+Depuis la 0.4.22, **chaque Gardien fonce sur le pilote qui l’a touché**, comme le Wrath Warden depuis la 0.4.20, au lieu de rester là où il a été appelé ou de rôder.
 
-| Gardien | Jours de saison | Rôle | Comment il combat |
+| Gardien | Jours | Rôle | Comment il combat |
 | :--- | :--- | :--- | :--- |
-| **Brood Warden** | 1, 4, 7, 10 … | Gardien de la ruche : répartissez votre tir | Quatre petits **Brood Drones** soignent sa coque, et un nouveau arrive toutes les 8 secondes tant que moins de quatre sont en vie (toutes les 16 secondes pour le Brood Warden III). Tirez d’abord sur les drones, puis sur le Gardien. |
-| **Siege Warden** | 2, 5, 8, 11 … | Briseur de siège : restez en mouvement | Il rôde et tire une [roquette Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) droite sur le premier pilote qui l’a touché, et il se répare tout seul. Deux **Siege Escorts** ajoutent un tir laser. Restez en mouvement et servez de cible à tour de rôle. |
+| **Brood Warden** | 1, 4, 7, 10 … | Gardien de la ruche : répartissez votre tir | Il fonce sur le premier pilote qui l’a touché. Quatre petits **Brood Drones** soignent sa coque, et un nouveau arrive toutes les 8 secondes tant que moins de quatre sont en vie (toutes les 16 secondes pour le Brood Warden III). Tirez d’abord sur les drones, puis sur le Gardien. |
+| **Siege Warden** | 2, 5, 8, 11 … | Briseur de siège : restez en mouvement | Il fonce sur le premier pilote qui l’a touché, tire sur lui une [roquette Rivet](/wiki/06-Items/Rockets.md#the-twelve-rockets) droite et se répare tout seul. Deux **Siege Escorts** ajoutent un tir laser. Restez en mouvement et servez de cible à tour de rôle. |
 | **Wrath Warden** | 3, 6, 9, 12 … | Seigneur de guerre : battez la rage | Il fonce sur le premier pilote qui l’a touché, s’arrête à portée de ses lasers et se répare tout seul. Sous la moitié de sa coque, ses lasers frappent **une fois et demie plus fort**. Deux **Wrath Guards** restent avec lui et ajoutent du tir laser. Abattez-le vite et gardez vos boucliers levés. |
 
 ### Invoquer un Gardien {#calling-a-warden}
@@ -291,21 +295,22 @@ Un **Gardien de clan** est le boss de la fin de la ligne du jour. Ce n’est pas
 ### Combattre un Gardien {#fighting-a-warden}
 
 - **Un Gardien combat le premier pilote qui l’a touché**, comme tout boss : laissez le vaisseau le plus robuste de l’équipage commencer, et utilisez [Shield Surge et Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Venez avec le plus grand équipage possible et des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Les équipages qui gagnaient avant la 0.4.13, d’environ sept pilotes, perdent maintenant. Le tableau ci-dessous est un calcul et le meilleur cas : même là, dix pilotes perdent contre tous les Gardiens, et le plus petit équipage qui peut gagner compte 18 à 26 pilotes avec des munitions x2 et 26 à 38 avec des munitions x1. Les vagues ci-dessous ne sont pas dans ce calcul.
-- **Brood :** les drones soignent sa coque, et un équipage qui les ignore perd, même un grand. Tuez-les d’abord et continuez à les tuer : un nouveau arrive au bout de 8 secondes (16 pour le Brood Warden III).
-- **Siege :** ses roquettes sont droites et non guidées, un vaisseau qui reste en mouvement en esquive donc la plupart. Restez en mouvement et servez de cible à tour de rôle.
-- **Wrath :** dès que sa coque passe sous la moitié, chaque salve frappe une fois et demie plus fort, la seconde moitié du combat est donc la dangereuse. Abattez la première moitié vite, gardez les boucliers levés et gardez Emergency Repair pour la rage. Depuis la 0.4.20, il ne reste plus immobile : il fonce sur le premier pilote qui l’a touché, à 90 unités par seconde, jusqu’à être à portée de ses lasers (700, 800 ou 900 unités selon la force) et tire de là, si bien qu’une arme à plus longue portée ne peut plus le tirer sans qu’il riposte. Les Brood et Siege Wardens n’ont pas changé : le Brood Warden reste là où il a été appelé, le Siege Warden reste en mouvement.
+- **Venez avec le plus grand équipage possible et des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Les équipages qui gagnaient avant la 0.4.13, d’environ sept pilotes, perdent maintenant. Le tableau ci-dessous est un calcul et le meilleur cas : même là, dix pilotes perdent contre tous les Gardiens, et le plus petit équipage qui peut gagner compte 17 à 26 pilotes avec des munitions x2 et 27 à 39 avec des munitions x1. Les vagues ci-dessous ne sont pas dans ce calcul.
+- **Brood :** les drones soignent sa coque, et un équipage qui les ignore perd, même un grand. Tuez-les d’abord et continuez à les tuer : un nouveau arrive au bout de 8 secondes (16 pour le Brood Warden III). Depuis la 0.4.22, le Brood Warden fonce sur le pilote qui l’a touché, et ses drones l’accompagnent et continuent à le soigner.
+- **Siege :** ses roquettes sont droites et non guidées, un vaisseau qui reste en mouvement en esquive donc la plupart. Restez en mouvement et servez de cible à tour de rôle. Depuis la 0.4.22, il ne rôde plus : il fonce sur le premier pilote qui l’a touché et tire son Rivet sur lui depuis 1 000 unités au plus.
+- **Wrath :** dès que sa coque passe sous la moitié, chaque salve frappe une fois et demie plus fort, la seconde moitié du combat est donc la dangereuse. Abattez la première moitié vite, gardez les boucliers levés et gardez Emergency Repair pour la rage. Depuis la 0.4.20, il ne reste plus immobile : il fonce sur le premier pilote qui l’a touché, à 90 unités par seconde, jusqu’à être à portée de ses lasers (700, 800 ou 900 unités selon la force) et tire de là, si bien qu’une arme à plus longue portée ne peut plus le tirer sans qu’il riposte.
+- **Les neuf foncent sur le pilote qui les a touchés (0.4.22).** Les Brood et Siege Wardens font ce que le Wrath Warden fait depuis la 0.4.20, chacun à sa propre vitesse (90 unités par seconde pour les Brood et Wrath Wardens, 110 pour le Siege Warden), jusqu’à être à portée de leurs lasers (600, 700 ou 800 unités pour les Brood et Siege Wardens selon la force, 700, 800 ou 900 pour le Wrath Warden), si bien qu’une arme à plus longue portée ne peut plus les tirer sans qu’ils ripostent. Quand personne ne l’a touché depuis 10 secondes, il lâche le pilote et reste là où il est : il ne retourne pas là où il a été appelé. Un pilote protégé, dans une zone sûre ou par la protection d’une réapparition, est lâché aussitôt.
 - **Ce qu’un Gardien amène vient pour le pilote qui l’a touché.** Depuis la 0.4.20, chaque alien d’une vague, et chaque drone, escorte ou garde qui arrive pendant qu’on combat le Gardien, va sur les pilotes qui ont touché le Gardien, le premier d’abord, à l’instant où il arrive, sans avoir été touché lui-même.
 
 ### Vagues d’aliens {#waves-of-aliens}
 
-Depuis la 0.4.16, un Gardien ne se tient pas seul. À partir du moment où il est **armé** (les 90 secondes de chauffe n’ont pas de vagues, pour que l’équipage puisse se rassembler), une **vague** d’aliens ordinaires de la carte où il se trouve arrive **toutes les 60 secondes**, tant que le Gardien tient debout. Le tableau donne les vagues de huit des neuf Gardiens ; les [vagues du Wrath Warden III](#wrath-iii-waves) sont plus lourdes.
+Depuis la 0.4.16, un Gardien ne se tient pas seul. À partir du moment où il est **armé** (les 90 secondes de chauffe n’ont pas de vagues, pour que l’équipage puisse se rassembler), une **vague** d’aliens ordinaires de la carte où il se trouve arrive **toutes les 60 secondes**, tant que le Gardien tient debout. Le tableau donne les vagues de huit des neuf Gardiens ; les [vagues du Wrath Warden III](#wrath-iii-waves) sont plus lourdes. Sous la moitié de sa coque, les vagues d’un Gardien comptent aussi [un Crystalys](#crystalys-waves).
 
 | Carte | Une vague | Au plus en vie à la fois |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15 |
-| x-3 | 10 Phantasm | 30 |
-| x-4 | 10 Bulwarks | 30 |
+| x-2 | 5 Phantasm | 15, et jusqu’à 3 Crystalys |
+| x-3 | 10 Phantasm | 30, et jusqu’à 3 Crystalys |
+| x-4 | 10 Bulwarks | 30, et jusqu’à 3 Crystalys |
 
 - **Trois vagues au plus sont en vie.** Une vague est en vie tant que l’un de ses aliens l’est. Une vague due quand trois sont en vie est sautée, pas gardée pour plus tard ; la suivante est due une minute après.
 - **Ce sont les propres aliens de la carte**, du genre qui attaque les pilotes, faits comme la carte les fait : un monde plus fort leur donne plus de coque, de bouclier et de dégâts ([Mondes](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ils arrivent à 500 à 1 200 unités du Gardien, répartis autour de lui.
@@ -314,9 +319,30 @@ Depuis la 0.4.16, un Gardien ne se tient pas seul. À partir du moment où il es
 - **Le clan est prévenu.** Chaque vague est annoncée dans l’onglet Système du chat et dans le Journal de jeu : « Brood Warden I appelle des renforts dans M-3 : 10 Phantasm. »
 - **Elles arrivent dirigées (0.4.20).** Les aliens d’une vague arrivent en sachant qui le Gardien combat : ils vont sur les pilotes qui l’ont touché, le premier d’abord, dès qu’ils apparaissent, et restent après eux tant que le Gardien est touché. Un Gardien que personne ne combat envoie des aliens qui rôdent et attirent quiconque s’approche, comme avant.
 
+#### Le Crystalys de chaque Gardien {#crystalys-waves}
+
+Depuis la 0.4.22, **chaque Gardien** fait ce que le Wrath Warden III fait depuis la 0.4.20 : sous la moitié de sa coque (la ligne où un Wrath Warden entre en rage), **chaque vague qu’il envoie compte aussi un Crystalys**, en plus de la taille de la vague. C’est la même chose pour les Brood, Siege et Wrath Wardens, dans les trois forces. Au-dessus de la moitié de sa coque, la vague arrive sans lui, et un Gardien réparé au-dessus de la moitié envoie de nouveau la vague suivante sans lui.
+
+- **Le Crystalys** est l’alien ordinaire le plus lourd du jeu : 256 000 de coque, 160 000 de bouclier, 10 000 de dégâts par salve à 900 unités, vitesse 230 (dans un monde plus fort, plus de coque, de bouclier et de dégâts). Il paie ce que paie tout Crystalys : **75 000 crédits, 200 Thulium, 12 000 XP et 52 d’honneur en Alpha** (le double en Beta, le triple en Gamma), et lâche son butin ordinaire. Il fait partie de sa vague : une vague est en vie tant que son Crystalys l’est, donc un Crystalys laissé debout garde en vie l’une des vagues (trois au plus, quatre pour le Wrath Warden III), et une vague due quand le maximum sont en vie est sautée.
+- **Elles sont annoncées en deux lignes** : « Wrath Warden III appelle des renforts dans M-3 : 15 Phantasm. » et « Wrath Warden III appelle des renforts dans M-3 : 1 Crystalys. »
+- **Ce qu’elles paient.** Une vague entière de 10 Bulwarks paie 50 000 crédits en Alpha, et avec son Crystalys 125 000 : moins de 5 % des 2 700 000 que paie le Gardien le plus faible.
+- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec les vagues et leur Crystalys, donne ces plus petits équipages avec des munitions x2, dans l’équipement du niveau propre du Gardien, en Alpha. Un clan de niveau 3 compte 50 membres, un clan de niveau 5 en compte 100. Comme le tableau de cette section, ils sont calculés et non mesurés, et c’est le meilleur cas ; en Gamma, où les aliens des vagues sont deux fois plus forts, ils sont plus grands encore.
+
+| Gardien | x-2 | x-3 | x-4 |
+| :--- | ---: | ---: | ---: |
+| Brood Warden I | 43 | 45 | 69 |
+| Siege Warden I | 39 | 40 | 56 |
+| Wrath Warden I | 44 | 46 | 62 |
+| Brood Warden II | 39 | 40 | 48 |
+| Siege Warden II | 27 | 33 | 39 |
+| Wrath Warden II | 33 | 39 | 44 |
+| Brood Warden III | 21 | 21 | 23 |
+| Siege Warden III | 26 | 25 | 28 |
+| Wrath Warden III | 32 | 32 | 39 |
+
 #### Les vagues du Wrath Warden III {#wrath-iii-waves}
 
-Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une vague toutes les **40 secondes**, les trois quarts du nombre de cet alien que la carte contient, et jusqu’à **quatre vagues** en vie. Sous la moitié de sa coque (la ligne où il entre en rage), **chaque vague compte aussi un Crystalys**, en plus de la taille de la vague.
+Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une vague toutes les **40 secondes**, les trois quarts du nombre de cet alien que la carte contient, et jusqu’à **quatre vagues** en vie. Comme chaque Gardien, il ajoute [un Crystalys](#crystalys-waves) à une vague sous la moitié de sa coque.
 
 | Carte | Une vague | Au plus en vie à la fois |
 | :--- | :--- | ---: |
@@ -324,11 +350,9 @@ Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une va
 | x-3 | 15 Phantasm | 60, et jusqu’à 4 Crystalys |
 | x-4 | 15 Bulwarks | 60, et jusqu’à 4 Crystalys |
 
-- **Le Crystalys** est l’alien ordinaire le plus lourd du jeu : 256 000 de coque, 160 000 de bouclier, 10 000 de dégâts par salve à 900 unités, vitesse 230 (dans un monde plus fort, plus de coque, de bouclier et de dégâts). Il paie ce que paie tout Crystalys : **75 000 crédits, 200 Thulium, 12 000 XP et 52 d’honneur en Alpha** (le double en Beta, le triple en Gamma), et lâche son butin ordinaire. Il fait partie de sa vague : une vague est en vie tant que son Crystalys l’est, donc un Crystalys laissé debout garde en vie l’une des quatre vagues.
-- **Quatre vagues au plus sont en vie.** Une vague due quand quatre sont en vie est sautée, comme pour les autres Gardiens. Au-dessus de la moitié de sa coque, le Gardien envoie la vague sans le Crystalys.
-- **Elles sont annoncées en deux lignes** : « Wrath Warden III appelle des renforts dans M-3 : 15 Phantasm. » et « Wrath Warden III appelle des renforts dans M-3 : 1 Crystalys. »
+- **Quatre vagues au plus sont en vie.** Une vague due quand quatre sont en vie est sautée, comme pour les autres Gardiens.
 - **Ce qu’elles paient.** Une vague entière de 15 Bulwarks paie 75 000 crédits en Alpha, et avec son Crystalys 150 000 : environ 2 % des 7 200 000 que paie le Gardien lui-même.
-- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **31 pilotes en x-2, 32 en x-3 et 38 en x-4** avec des munitions x2 (26 sans vagues), et 36, 38 et 50 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
+- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **32 pilotes en x-2, 32 en x-3 et 39 en x-4** avec des munitions x2 (26 sans vagues), et 39, 41 et 51 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres, donc 51 en x-4 en Gamma, c’est un de plus qu’il ne peut envoyer. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
 
 ### Quel équipage il faut {#how-big-a-crew}
 
@@ -340,15 +364,15 @@ Le tableau montre le meilleur cas ; en jeu, amenez autant de monde que possible
 | Équipage | Avec munitions x2 | Avec munitions x1 |
 | :--- | :--- | :--- |
 | 5 pilotes | perdent contre tous les Gardiens ; le Gardien garde 88 à 96 % de sa coque et de son bouclier | perdent |
-| 10 pilotes | perdent contre tous les Gardiens ; le Gardien garde 55 à 85 % de sa coque et de son bouclier | perdent |
-| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 8,5 à 8,6 minutes, en perdant 7 vaisseaux, et contre le Brood Warden III, en 3,7 minutes, en perdant 8 vaisseaux | perdent |
-| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,1 minutes, en perdant de 3 à 10 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 12,6 à 12,8 minutes, en perdant 10 vaisseaux, et contre le Brood Warden III, en 5,0 minutes, en perdant 11 vaisseaux |
+| 10 pilotes | perdent contre tous les Gardiens ; le Gardien garde 55 à 86 % de sa coque et de son bouclier | perdent |
+| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 7,3 minutes, en perdant 6 vaisseaux, et contre le Brood Warden III, en 3,9 minutes, en perdant 9 vaisseaux | perdent |
+| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,2 minutes, en perdant de 3 à 11 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 10,5 à 10,6 minutes, en perdant 9 vaisseaux, et contre le Brood Warden III, en 5,3 minutes, en perdant 13 vaisseaux |
 
-Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **18 à 26 pilotes** (le moins contre les Siege Warden I et II et le Brood Warden III) et perd **9 à 17** vaisseaux en le faisant ; avec des munitions x1, il compte **26 à 38** pilotes et perd 13 à 27. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 19 à 59 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
+Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **17 à 26 pilotes** (le moins contre les Siege Warden I et II) et perd **10 à 19** vaisseaux en le faisant ; avec des munitions x1, il compte **27 à 39** pilotes et perd 13 à 27. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 18 à 55 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
 
 Le tableau vaut pour un équipage dans l’équipement du palier propre au Gardien. Des vaisseaux plus faibles font moins bien. Le Gardien de **votre** clan correspond toujours à **votre** palier, que fixent les cinq meilleurs pilotes du clan : amenez-les.
 
-**Un clan trop petit pour son Gardien** n’est pas exclu. Les quatre missions paient leurs **70 points** quoi qu’il arrive au Gardien, les points achètent des bonus, et le clan peut rappeler le Gardien s’il lui reste une invocation (il y en a deux par jour) : si l’équipage tombe et reste à l’écart, le Gardien se retire, ce qui coûte une invocation, et l’appel suivant le ramène à pleine force. Mais la ligne n’est pas terminée, donc personne ne reçoit [votre récompense](#the-reward-for-you), et un clan qui ne tue jamais son Gardien a les 30 niveaux de bonus au plus tôt au jour de saison 18, et non au jour 12 ([combien de temps cela prend](#how-long-it-takes)).
+**Un clan trop petit pour son Gardien** n’est pas exclu. Les quatre missions paient leurs **70 points** quoi qu’il arrive au Gardien, les points achètent des bonus, et le clan peut rappeler le Gardien s’il lui reste une invocation (il y en a deux par jour) : si l’équipage tombe et reste à l’écart, le Gardien se retire, ce qui coûte une invocation, et l’appel suivant le ramène à pleine force. Mais la ligne n’est pas terminée, donc personne ne reçoit [votre récompense](#the-reward-for-you), et un clan qui ne tue jamais son Gardien a les 30 niveaux de bonus au plus tôt au jour 18, et non au jour 12 ([combien de temps cela prend](#how-long-it-takes)).
 
 ### Les chiffres des Gardiens {#warden-numbers}
 
@@ -457,7 +481,7 @@ Le prix d’un niveau est de **22 points de clan plus 4 par niveau précédent**
 
 ### Combien de temps cela prend {#how-long-it-takes}
 
-Un clan qui termine chaque ligne gagne 100 points par jour. Si les officiers achètent à parts égales dans les trois bonus, il a **4 niveaux après la première ligne, 10 après la troisième, 16 après la cinquième et les 30 au jour de saison 12**. Quatorze lignes sont passées quand le jour 15 commence, un tel clan a donc deux lignes d’avance. Un jour non terminé paie tout de même les étapes faites : un clan qui vient à bout des quatre missions mais ne tue jamais son Gardien gagne 70 points par jour et a les 30 niveaux au plus tôt au jour de saison 18. Après le dernier niveau, la ligne continue et continue de payer votre récompense ; les points continuent de s’ajouter à ce que le clan a gagné cette saison, ce que l’info-bulle des points de clan sur la carte Bonus de flotte indique.
+Un clan qui termine chaque ligne gagne 100 points par jour. Si les officiers achètent à parts égales dans les trois bonus, il a **4 niveaux après la première ligne, 10 après la troisième, 16 après la cinquième et les 30 au jour 12**. Quatorze lignes sont passées quand le jour 15 commence, un tel clan a donc deux lignes d’avance. Un jour non terminé paie tout de même les étapes faites : un clan qui vient à bout des quatre missions mais ne tue jamais son Gardien gagne 70 points par jour et a les 30 niveaux au plus tôt au jour 18. Après le dernier niveau, la ligne continue et continue de payer votre récompense ; les points continuent de s’ajouter à ce que le clan a gagné cette saison, ce que l’info-bulle des points de clan sur la carte Bonus de flotte indique.
 
 ### Points et réinitialisation {#clan-points-and-the-wipe}
 

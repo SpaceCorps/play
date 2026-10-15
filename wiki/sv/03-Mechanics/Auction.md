@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
-Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Under flygning öppnas den i ett fönster: knappen **Auktion** (en klubba) i verktygsfältet uppe till vänster visar samma sida över spelet, och fönstrets plats och storlek kommer ihåg. Den fungerar som på stationen, förutom att ammunition, raketer och EMP Charge räknas i flykt, så du lägger ut dem från stationen (säljbladet visar dem låsta, med orsaken); köpa och buda kan du göra var som helst. Den har fem delar. **Marknad** är det andra piloter säljer. **Lotter** är spelets egna erbjudanden, tre varje timme. **Davidski** är den flygande handlarens lager: alla sorter som Auktionen listar, till många gånger Butikens pris; det Butiken inte säljer kostar så mycket att det är sista utvägen att köpa det av honom, och de sällsynta resurserna i tillverkning tusen gånger så mycket till ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit, och hur din handel har gått.
+Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, på en sida i stationsmenyn. Under flygning öppnas den i ett fönster: knappen **Auktion** (en klubba) i verktygsfältet uppe till vänster visar samma sida över spelet, och fönstrets plats och storlek kommer ihåg. Den fungerar som på stationen, förutom att ammunition, raketer och EMP Charge räknas i flykt, så du lägger ut dem från stationen (säljbladet visar dem låsta, med orsaken); köpa och buda kan du göra var som helst. Den har fyra delar. **Marknad** är det andra piloter säljer och, bland deras annonser, den flygande handlarens lager: alla sorter som Auktionen listar, till många gånger Butikens pris, som rader märkta med hans namn i guld, ett **NPC**-märke och ett oändlighetstecken; det Butiken inte säljer kostar så mycket att det är sista utvägen att köpa det av honom, och de sällsynta resurserna i tillverkning tusen gånger så mycket till ([Davidski](/wiki/03-Mechanics/Davidski.md)). **Lotter** är spelets egna erbjudanden, tre varje timme. **Mina annonser** är det du själv säljer. **Historik** är dina försäljningar, dina köp och de lotter du har vunnit, och hur din handel har gått.
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Styrraketer** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Ultra Core (i partier om 10), Experimental Fusion Core | 5 |
 | **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **Förbrukningsvaror** | EMP Charge | 1 |
-| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **Förbrukningsvaror** | EMP Charge, Energetic Wall II | 2 |
+| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **Skrovpansar** | Hull Plating II, Hull Plating III | 2 |
 | **Resurser** | Cataclysite (i partier om 100), Ship Fragment (i partier om 100), Daraxium (i partier om 100), Nyxite (i partier om 100), Quorvium (i partier om 10), Reinforced Hull Plate (i partier om 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 ## Köpa {#buying}
 
 **Marknaden** visar det andra piloter säljer. Avgränsa listan med **kategoriknapparna** (en för varje sorts föremål, med antalet annonser i den), sök på namn, filtrera på förtrollning och valuta, och sortera efter pris, efter det som slutar först eller efter det som är nyast. Välj en annons för att se vad det är, vem som säljer, hur länge den löper och hur priset står sig mot den senaste försäljningen, det lägsta priset just nu och Butikens pris. En hög köps i hela partier. Ett stort köp ber dig bekräfta en gång till. Säljaren får betalt direkt, minus skatten; du betalar varken deposition eller skatt. Det du köper är **inte säljbart**: sidan säger ”Du får: inte säljbart” bredvid **Köp för …**, eftersom bara det du förtjänar kan säljas. Du kan inte köpa din egen annons. En annons som säljs medan du tittar på den säger ”Den annonsen finns inte längre.”
+
+**Davidskis rader** står bland piloternas annonser. Varje sort han säljer har en rad i krediter och en i Thulium, med hans namn i guld, ett **NPC**-märke och ett oändlighetstecken för mängden och tiden som är kvar: hans lager tar aldrig slut, och han stänger aldrig. Sökningen, kategoriknapparna och filtren för förtrollning och valuta avgränsar hans rader som vilken annons som helst (hans föremål är Standard, så ingen annan förtrollning visar dem); efter pris står de där deras tal säger, bredvid piloternas priser, och under **Slutar snart** och **Nyast** kommer de efter piloternas annonser. Välj en, så går **Köp för …** till honom, inte till en pilot ([Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)): hans priser är många gånger butikens, den dagliga köpgränsen räknar inte honom, det finns ingen säljare att betala och det du får är inte säljbart. Han finns inte i någon prisledtråd, i historiken eller i statistiken, som bara är piloternas egna.
 
 ## Gränser {#limits}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 18eaf9711b582e62 -->
+<!-- wiki-i18n source: de5aa8c3ecef25b4 -->
 <!-- wiki-i18n title: 로켓 -->
 # 로켓 {#rockets}
 
@@ -11,7 +11,7 @@
 - **폭발은 중심이 가장 강합니다.** Ember와 Scatter 로켓은 터지면서 고리 안의 모든 함선에 피해를 줍니다. 중심에서는 수치 전체, 가장자리에서는 그 절반입니다.
 - **모든 로켓이 타이머 하나를 씁니다.** 어떤 로켓이든 발사한 뒤 다음 발사까지 3초를 기다립니다. N.U.K.E.와 N.I.K.E.만 공중에 오래 떠 있어서 더 오래 기다립니다(4.1초와 4.6초).
 - **유도 또는 직선.** 유도 로켓(Lancet, Ember)은 선택해 둔 대상이 필요합니다. 직선 로켓(Rivet, Scatter)은 커서 쪽으로 날아갑니다.
-- **로켓처럼 가지고 다니는 것이 하나 더 있습니다.** **EMP Charge**는 소모품입니다. 인벤토리의 묶음이며 퀵슬롯에서 쓰고 슬롯은 차지하지 않습니다([EMP Charge](#emp-charge)).
+- **로켓처럼 가지고 다니는 것이 더 있습니다.** **EMP Charge**는 소모품입니다. 인벤토리의 묶음이며 퀵슬롯에서 쓰고 슬롯은 차지하지 않습니다([EMP Charge](#emp-charge)). 두 **Energetic Wall**도 마찬가지입니다([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -35,12 +35,15 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
 Ember I -> Ember II -> Ember III
 Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
 

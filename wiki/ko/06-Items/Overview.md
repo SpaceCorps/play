@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -118,6 +118,7 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 - **Repair Drone**: 선체를 수리하는 부가 장비이며, 뒤로 갈수록 더 빠릅니다. Repair Drone I~III의 가격은 각각 5,000, 15,000, 35,000 크레딧이고, Repair Drone IV는 2,000 Thulium입니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다.
 - **Cloaking CPU**: 전투나 도주를 위한 부가 장비입니다. Cloaking CPU는 직접 끌 때까지 함선을 숨깁니다(S, M, L은 사용 횟수 10, 25, 50회이며 가격은 5,000, 11,250, 20,000 Thulium). [부가 장비](/wiki/06-Items/Extras.md)를 참고하세요.
 - **EMP Charge**: 로켓처럼 묶음으로 가지고 다니는 소모품으로 슬롯을 차지하지 않습니다(충전 1개에 500 Thulium, 최대 20개). 3초 동안 당신을 대상으로 지정할 수 없게 만들고 당신에 대한 모든 락온을 끊으며 주변의 모든 은폐를 해제합니다. [로켓](/wiki/06-Items/Rockets.md#emp-charge)을 참고하세요.
+- **Energetic Wall I과 II**: 이쪽도 소모품으로, 묶음으로 가지고 다니며 슬롯을 차지하지 않습니다. 누르면 커서 위치에 플라즈마 벽이 서서 사격이 대신 벽에 맞습니다. I은 상점에서 벽 하나에 250 Thulium(최대 20개), II는 어셈블리에서 제작 한 번에 하나(최대 10개)입니다. [부가 장비](/wiki/06-Items/Extras.md#energetic-wall)를 참고하세요.
 - **연구 CPU**: Extra Slots CPU는 모든 함선의 부가 슬롯을 늘려 주고, Jump CPU는 Thulium을 내고 기업 섹터로 데려다주며, Base CPU는 기지로 돌려보내 주고, Auto-Repair CPU는 Repair Drone을 알아서 내보냅니다. 판매하지 않습니다. 연구한 뒤 어셈블리에서 제작합니다. [부가 장비](/wiki/06-Items/Extras.md#research-cpus)를 참고하세요.
 - **드론 편대**: 드론을 위한 16종의 아이템으로, 보너스를 주는 대신 대가를 요구합니다(예: 실드가 커지는 대신 무기가 약해짐). 판매하지 않습니다. 연구한 뒤 어셈블리에서 Thulium으로 제작하세요. [드론 편대](/wiki/03-Mechanics/Formations.md)를 참고하세요.
 - **자원**: 제작을 위해 외계인이 드롭하거나 Skylab이 만드는 것들입니다. Ship Fragment, 크리스탈 4종, Power Core, Velkonite와 Orvium 플레이트, 그리고 다른 곳에서 나오는 두 가지가 있습니다. N.I.K.E. 로켓을 쏘면 [블랙홀](/wiki/03-Mechanics/Black-Hole.md)이 돌려주는 **Dark Matter**와, 어셈블리가 이를 압착해 만드는 **Dark Matter Plate**입니다. 후자는 모든 강화 계열의 마지막 티어와 [대장간](/wiki/06-Items/Forge.md)의 최상위 두 단계에 쓰입니다.

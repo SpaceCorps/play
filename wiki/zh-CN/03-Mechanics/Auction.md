@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
-拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。飞行中它以窗口的形式打开：左上角工具栏中的**拍卖行**按钮（拍卖槌）会把同一个页面显示在游戏之上，窗口的位置和大小会被记住。它的用法和在空间站里一样，只是弹药、火箭和 EMP Charge 在飞行中由飞船计数，所以要从空间站挂出（出售窗口会把它们显示为锁定，并写明原因）；购买和竞价在哪里都可以。它分为五个部分。**市场**是其他飞行员在卖的东西。**拍品**是游戏自己的出售，每小时三个。**Davidski** 是会飞的商人的存货：拍卖行列出的每一种东西，价格都是商店的许多倍；商店不出售的东西贵到向他购买只是最后手段，制造所用的稀有资源还要再贵一千倍（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
+拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。飞行中它以窗口的形式打开：左上角工具栏中的**拍卖行**按钮（拍卖槌）会把同一个页面显示在游戏之上，窗口的位置和大小会被记住。它的用法和在空间站里一样，只是弹药、火箭和 EMP Charge 在飞行中由飞船计数，所以要从空间站挂出（出售窗口会把它们显示为锁定，并写明原因）；购买和竞价在哪里都可以。它分为四个部分。**市场**是其他飞行员在卖的东西，在他们的挂单之间还有会飞的商人的存货：拍卖行列出的每一种东西，价格都是商店的许多倍，显示为带有他金色名字、**NPC** 徽章和无穷符号的行；商店不出售的东西贵到向他购买只是最后手段，制造所用的稀有资源还要再贵一千倍（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**拍品**是游戏自己的出售，每小时三个。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@
 | **推进器** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Ultra Core（每组 10 个）, Experimental Fusion Core | 5 |
 | **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **消耗品** | EMP Charge | 1 |
-| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **消耗品** | EMP Charge, Energetic Wall II | 2 |
+| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **资源** | Cataclysite（每组 100 个）, Ship Fragment（每组 100 个）, Daraxium（每组 100 个）, Nyxite（每组 100 个）, Quorvium（每组 10 个）, Reinforced Hull Plate（每组 10 个）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 ## 购买 {#buying}
 
 **市场**显示其他飞行员在卖的东西。可以用**分类标签**缩小列表（每种物品类型一个，标出其中的挂单数量），再按名称搜索，按附魔和货币筛选，按价格、最先结束或最新排序。选一个挂单，可以看到它是什么、谁在卖、还剩多久，以及它的价格与上一次成交价、当前最低价和商店价格相比如何。一叠按整数组购买。大额购买会再让你确认一次。卖家立刻收到款项（扣除税）；你不用付押金，也不用付税。你买到的东西**不可交易**：页面会在**购买**按钮旁写上“你得到的：不可交易”，因为只有你赚来的东西才能出售。你不能买自己的挂单。你正在看的挂单如果被别人买走，会提示“该上架物品已不存在。”
+
+**Davidski 的行**排在飞行员的挂单之间。他出售的每一种东西都有一行信用点和一行 Thulium，带有他金色的名字、**NPC** 徽章，数量和剩余时间处是无穷符号：他的存货永不枯竭，他也从不关门。搜索、分类标签以及附魔和货币筛选会像对待任何挂单一样缩小他的行（他的物品是标准品质，所以选其他附魔时不会显示）；按价格时，它们排在数字所在的位置，紧挨着飞行员的价格，在**即将结束**和**最新**下则排在飞行员的挂单之后。选一行，**购买**就会交给他，而不是飞行员（[Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)）：他的价格是商店的许多倍，每日购买限额不计入他，没有卖家可付款，得到的东西不可交易。价格提示、记录和统计里都没有他，这些只属于飞行员。
 
 ## 上限 {#limits}
 

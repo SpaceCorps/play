@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventarie -->
 # Inventarie och utrustning {#inventory-equipment}
 
 Hangaren låter dig hantera dina skepp och din utrustning. Att utrusta föremål effektivt är nyckeln till överlevnad och dominans. Du kan göra det på stationen, och under flygning inifrån en säker zon: se [Hangaren under flygning](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Utrustningsplatser och värdens effektivitet {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ Inventariet listar dina föremål i samma ordning som butiken, oavsett i vilken 
 ## Säljbara föremål {#marketable-items}
 
 Föremål du har förtjänat (byte, uppdragsbelöningar och det som Monteringen och Smedjan tillverkar) har en liten **Säljbart**-etikett på rutan, och föremålskortet säger ”Säljbart” eller, för en hög där bara en del kan säljas, ”Säljbart (3 av 5)”. Knappen **Endast säljbart** vid kategoriknapparna visar bara de föremålen. En **klubba** bredvid papperskorgen på ett märkt föremål öppnar säljbladet i [Auktionen](/wiki/03-Mechanics/Auction.md) (den visas inte i flykt: att sälja är en sida på stationen). Det du har köpt, vunnit eller fått i present har ingen etikett och kan inte säljas igen.
+
+## Markera flera föremål {#select-several-items}
+
+Tryck på en tom del av inventariet (marginalen vid rutorna, glappet mellan två rutor eller utrymmet under sista raden) och dra: en genomskinlig rektangel följer pekaren, och varje ruta den rör vid markeras medan du drar. Släpp, så ligger markeringen kvar; titelraden räknar den (”3 markerade”). Håll **Skift**, **Ctrl** eller **Cmd** nedtryckt medan du drar för att lägga till i markeringen: rutor som redan är markerade och som rektangeln rör vid släpps i stället. Ett vanligt drag börjar en ny markering. **Esc**, ett klick på tomt utrymme eller knappen bredvid papperskorgen på titelraden tar bort den; **Esc** mitt i ett drag avbryter draget. Vid övre eller nedre kanten av ett långt inventarie rullar listan av sig själv. Ett tryck på en ruta är fortfarande rutans eget: klicka för att utrusta, dra till en plats. Papperskorgen på titelraden tar bort de markerade föremålen efter en fråga som listar dem (en hög med likadana Extras försvinner hel); den erbjuds inte medan hangaren i flykt är låst. Ett föremål som sitter i Skylab går inte att markera, och bara det som sökningen och kategoriknapparna lämnar kvar i rutnätet går att markera. Ett mjukt tick hörs när rektangeln tar en ruta till (det följer inställningen ”Knappljud”).
 
 ## Föremål i föremål (undersockel) {#item-to-item-equipping-sub-sockets-}
 

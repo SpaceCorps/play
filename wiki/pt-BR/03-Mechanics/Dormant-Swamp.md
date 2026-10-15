@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ee049111031a8060 -->
+<!-- wiki-i18n source: b60c2a588a3c3f1b -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -41,13 +41,15 @@ Dano de um tiro, em cada mundo:
 | Torre de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torre laser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Um foguete é disparado a 90% do seu alcance, para que chegue; uma torre laser atira uma vez por segundo, e o dano dela é sorteado na faixa mostrada.
+- Um foguete é disparado a 90% do alcance que o mesmo foguete tem nas mãos de um piloto, para que chegue; uma torre laser atira uma vez por segundo, e o dano dela é sorteado na faixa mostrada.
 - Um N.I.K.E. tem 35% de penetração de escudo, descontada da absorção de um escudo.
+- O N.I.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 1.125 unidades por segundo, 8.100 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
 - Um N.U.K.E. explode num raio de 900 unidades, mais forte no centro.
+- O N.U.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 375 unidades por segundo, 2.400 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
 
 <!-- swamp-guns:end -->
 
-- **Nada alcança fora da zona,** e dentro dela uma nave é destruída em segundos: quanto mais perto do meio, mais canhões se juntam, e nem a Wraith com os melhores escudos aguenta.
+- **Nada dispara de fora da zona,** e dentro dela uma nave é destruída em segundos: quanto mais perto do meio, mais canhões se juntam, e nem a Wraith com os melhores escudos aguenta. Um foguete que já está no ar segue em frente, porém, e os foguetes da torre voam mais rápido e mais longe que os seus: fugir em linha reta de um deles não resolve.
 - **Camuflagem deixa você entrar.** Nenhuma torre vê jamais uma nave camuflada, nem uma dentro da janela de um EMP, a nenhuma distância. Uma explosão mirada numa nave visível que estoura perto de uma camuflada ainda a fere e encerra a camuflagem dela.
 - **Elas atiram só em pilotos,** nunca em alienígenas, pilotos de corporação ou no enxame, e a proteção de uma nave que acabou de voltar de uma destruição vale também contra elas.
 - **O anel de aviso.** Uma nave que cruza o anel fora da zona recebe uma linha do Sistema: as torres atiram em toda nave que veem, e algo dorme no meio. Ela só é avisada de novo depois de sair do anel e voltar.

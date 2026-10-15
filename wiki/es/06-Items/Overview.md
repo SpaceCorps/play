@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Resumen -->
 # Resumen de objetos {#items-overview}
 
@@ -118,6 +118,7 @@ La tienda, el inventario del hangar y las demás listas de objetos siguen un mis
 - **Repair Drones**: extras que reparan tu casco, cada uno más rápido que el anterior: el Repair Drone I, II y III cuestan 5.000, 15.000 y 35.000 créditos, el Repair Drone IV 2.000 Thulium. Las velocidades de reparación están en [Combate](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU**: extras para una pelea o una huida: una Cloaking CPU oculta tu nave hasta que la terminas (S, M y L: 10, 25 y 50 usos, 5.000, 11.250 y 20.000 Thulium). Consulta [Extras](/wiki/06-Items/Extras.md).
 - **EMP Charge**: un consumible que llevas en una pila, como los cohetes, y que no ocupa ranura (500 Thulium por carga, 20 como máximo): te hace imposible de fijar durante 3 segundos, rompe todas las fijaciones sobre ti y termina todos los camuflajes cercanos. Consulta [Cohetes](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I y II**: también consumibles, que llevas en una pila y no ocupan ranura: una pulsación pone en tu cursor una pared de plasma que recibe los disparos en lugar de ti. La I cuesta 250 Thulium la pared en la tienda (20 como máximo), la II se hace en el Ensamblaje, una por fabricación (10 como máximo). Consulta [Extras](/wiki/06-Items/Extras.md#energetic-wall).
 - **CPU de investigación**: las Extra Slots CPU añaden ranuras de extra a cada nave, la Jump CPU te lleva a un sector de corporación por Thulium, las Base CPU te llevan a casa y la Auto-Repair CPU lanza tu Repair Drone por sí sola. No se venden: se investigan y luego se fabrican en Ensamblaje. Consulta [Extras](/wiki/06-Items/Extras.md#research-cpus).
 - **Formaciones de drones**: dieciséis objetos para tus drones que dan bonificaciones y cobran costes, como un escudo mayor a cambio de armas más débiles. No se venden: investígalas y después fabrícalas en Ensamblaje con Thulium. Consulta [Formaciones de drones](/wiki/03-Mechanics/Formations.md).
 - **Recursos**: lo que sueltan los alienígenas y lo que fabrica el Skylab para la fabricación: Ship Fragments, los cuatro cristales, Power Cores, las placas de Velkonite y de Orvium, y dos que vienen de otro lado: el **Dark Matter**, que el [agujero negro](/wiki/03-Mechanics/Black-Hole.md) devuelve a cambio de un cohete N.I.K.E., y la **Dark Matter Plate** que Ensamblaje prensa a partir de ella para el último nivel de cada cadena de mejora y los dos últimos pasos de [La Forja](/wiki/06-Items/Forge.md).

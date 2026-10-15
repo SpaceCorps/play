@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 825f9cfa421f4871 -->
+<!-- wiki-i18n source: 102e917eb50bc835 -->
 <!-- wiki-i18n title: 重置时间线 -->
 # 重置时间线与赛季 {#wipe-timeline-seasons}
 
@@ -64,7 +64,7 @@ SpaceCorps 的宇宙遵循循环往复的赛季周期。每隔 30 天，星系�
   * *资源 / 矿物*：重量因稀有度而异（Skylab 锻造厂制造的强化板重 5 kg）
   * *火箭*：完全没有重量：它们不占用储藏库的任何空间，所以整叠都可以放入（见[火箭](/wiki/06-Items/Rockets.md)）
 
-你的 [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) 永远不会被重置：它的模块保留各自的等级，资源仓库保留已入库的矿石。研究中心里的[研究](/wiki/03-Mechanics/Research.md)内容也全部保留：你的科技、储罐中的科研点、已放入的 Dark Matter、进行中的研究和加速。你安装的 Extra Slots CPU 也会保留，因为它们不是物品。你的 [P.E.T.](/wiki/03-Mechanics/Pets.md)（无论已对接还是存放）、摇篮里进行中的任务、图鉴、你安装的 P.E.T. Station，以及你的[外观](/wiki/06-Items/Cosmetics.md)也会保留，它们同样不是物品。但你已经收取的东西不会保留：物品栏中的强化板和其他物品一样，所以想保留的强化板必须放进运输储藏库。Cluster Chunk 也是物品，装在 Skylab 引擎模块或防御模块里的引擎和激光器同样如此：想保留就把它们从模块里取出并放进储藏库。进行中的 Skylab 远征会结算到重置的那一刻，战利品舱会支付它的信用点、Thulium、经验和荣誉并被清空（其中的战利品和其他散放物品一样被删除），Skylab 则带着新的宇宙地图在家园开始新赛季。
+你的 [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) 永远不会被重置：它的模块保留各自的等级，资源仓库保留已入库的矿石。研究中心里的[研究](/wiki/03-Mechanics/Research.md)内容也全部保留：你的科技、储罐中的科研点、已放入的 Dark Matter、进行中的研究和加速。你安装的 Extra Slots CPU 也会保留，因为它们不是物品。你的 [P.E.T.](/wiki/03-Mechanics/Pets.md)（无论已对接还是存放）、摇篮里进行中的任务、图鉴、你的 P.E.T. Station，以及你的[外观](/wiki/06-Items/Cosmetics.md)也会保留，它们同样不是物品。但你已经收取的东西不会保留：物品栏中的强化板和其他物品一样，所以想保留的强化板必须放进运输储藏库。Cluster Chunk 也是物品，装在 Skylab 引擎模块或防御模块里的引擎和激光器同样如此：想保留就把它们从模块里取出并放进储藏库。进行中的 Skylab 远征会结算到重置的那一刻，战利品舱会支付它的信用点、Thulium、经验和荣誉并被清空（其中的战利品和其他散放物品一样被删除），Skylab 则带着新的宇宙地图在家园开始新赛季。
 
 ### 确认并锁定 {#confirm-lock}
 赛季结束之前，你必须在具现器界面中点击**确认并锁定**。

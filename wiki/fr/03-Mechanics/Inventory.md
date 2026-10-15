@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Inventaire -->
 # Inventaire et équipement {#inventory-equipment}
 
 Le hangar vous permet de gérer vos vaisseaux et votre équipement. Bien équiper vos objets est la clé de la survie et de la domination. Vous pouvez le faire à la station, et en vol depuis l’intérieur d’une zone sûre : voir [Le hangar en vol](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Emplacements d’équipement et efficacité des stats {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ L’inventaire liste vos objets dans le même ordre que la boutique, quel que so
 ## Objets vendables {#marketable-items}
 
 Les objets que vous avez gagnés (butin, récompenses de missions et ce que fabriquent l’Assemblage et la Forge) portent une petite étiquette **Vendable** sur leur case, et la fiche de l’objet indique « Vendable » ou, pour une pile dont seule une partie peut être vendue, « Vendable (3 sur 5) ». La pastille **Vendable uniquement**, à côté des pastilles de catégorie, ne montre que ces objets. Un **marteau** à côté de la corbeille d’un objet étiqueté ouvre la fiche de vente des [Enchères](/wiki/03-Mechanics/Auction.md) (il n’est pas affiché en vol : vendre se fait sur une page de la station). Ce que vous avez acheté, gagné ou reçu en cadeau n’a pas d’étiquette et ne peut pas être revendu.
+
+## Sélectionner plusieurs objets {#select-several-items}
+
+Appuyez sur une partie vide de l’inventaire (la marge à côté des cases, l’espace entre deux cases ou la place sous la dernière rangée) et faites glisser : un rectangle translucide suit le pointeur, et chaque case qu’il touche est sélectionnée pendant que vous glissez. Relâchez : la sélection reste, et la ligne du titre la compte (« 3 sélectionnés »). Maintenez **Maj**, **Ctrl** ou **Cmd** en glissant pour ajouter à la sélection : les cases déjà sélectionnées que le rectangle touche sont alors relâchées. Un glissement simple commence une nouvelle sélection. **Échap**, un clic sur un espace vide ou le bouton à côté de la corbeille dans la ligne du titre l’efface ; **Échap** en plein glissement annule le glissement. Au bord haut ou bas d’un long inventaire, la liste défile toute seule. Un appui sur une case reste celui de la case : clic pour équiper, glisser vers un emplacement. La corbeille de la ligne du titre supprime les objets sélectionnés après une question qui les énumère (une pile d’Extras identiques part en entier) ; elle n’est pas proposée tant que le Hangar en vol est verrouillé. Un objet monté dans le Skylab ne peut pas être sélectionné, et seul ce que la recherche et les pastilles de catégorie laissent dans la grille le peut. Un léger tic retentit quand le rectangle prend une case de plus (il suit l’interrupteur « Sons des boutons » des réglages).
 
 ## Équiper un objet dans un autre (sous-emplacements) {#item-to-item-equipping-sub-sockets-}
 

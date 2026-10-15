@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
 A hangár a hajóid és a felszerelésed kezelésére szolgál. A tárgyak hatékony felszerelése kulcs a túléléshez és az uralomhoz. Megteheted az állomáson, repülés közben pedig biztonságos zónán belülről: lásd: [A hangár repülés közben](/wiki/03-Mechanics/Hangar.md).
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## Felszerelési foglalatok és értékhatékonyság {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@ A leltár a tárgyaidat ugyanabban a sorrendben listázza, mint a Bolt, függetl
 ## Eladható tárgyak {#marketable-items}
 
 A megszerzett tárgyak (zsákmány, küldetésjutalmak, és amit a Gyártás és a Kovácsműhely előállít) csempéjén kis **Eladható** címke látszik, a tárgykártya pedig azt írja: „Eladható”, vagy egy olyan köteg esetén, amelynek csak egy része adható el, „Eladható (3 / 5)”. A kategóriachipek melletti **Csak eladható** chip csak ezeket a tárgyakat mutatja. A címkézett tárgy szemetese mellett megjelenő **kalapács** megnyitja az [Aukció](/wiki/03-Mechanics/Auction.md) eladólapját (repülés közben nem látszik: az eladás az állomás egyik oldala). Amit vásároltál, nyertél vagy ajándékba kaptál, nem kap címkét, és nem adható el újra.
+
+## Több tárgy kijelölése {#select-several-items}
+
+Nyomj az eltárolt tárgyak egy üres részére (a csempék melletti szélre, két csempe közti résre vagy az utolsó sor alatti helyre), és húzd: egy áttetsző téglalap követi a mutatót, és minden csempe, amelyet érint, kijelölődik, amíg húzod. Ha elengeded, a kijelölés megmarad; a címsor megszámolja („3 kijelölve”). Húzás közben tartsd lenyomva a **Shift**, a **Ctrl** vagy a **Cmd** billentyűt, hogy hozzáadj a kijelöléshez: a már kijelölt csempék, amelyeket a téglalap érint, ilyenkor kikerülnek belőle. A sima húzás új kijelölést kezd. Az **Esc**, egy kattintás az üres helyen vagy a címsorban a szemetes melletti gomb megszünteti a kijelölést; az **Esc** húzás közben megszakítja a húzást. Egy hosszú leltár felső vagy alsó szélénél a lista magától görget. A csempére nyomás továbbra is a csempéé: kattintás a felszereléshez, húzás egy foglalatra. A címsor szemetese kérdés után törli a kijelölt tárgyakat, amely fel is sorolja őket (az azonos Extrák kötege egészben megy); amíg a repülés közbeni Hangár zárolva van, nem érhető el. A Skylabba szerelt tárgy nem jelölhető ki, és csak az jelölhető ki, amit a keresés és a kategóriachipek a rácson hagynak. Halk kattanás hallatszik, amikor a téglalap egy újabb csempét vesz fel (a beállításokban a „Gombhangok” kapcsolót követi).
 
 ## Tárgy a tárgyba szerelés (alfoglalatok) {#item-to-item-equipping-sub-sockets-}
 

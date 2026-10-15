@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3b9d23ee237cda65 -->
+<!-- wiki-i18n source: e4b98fe2831813c3 -->
 <!-- wiki-i18n title: 新手入门 -->
 # SpaceCorps 新手入门 {#getting-started-in-spacecorps}
 
@@ -37,7 +37,7 @@
 
 ## 与好友一起游玩 {#playing-with-friends}
 
-加入[战队](/wiki/03-Mechanics/Clans.md)，或组成最多五名飞行员的[小队](/wiki/03-Mechanics/Groups.md)一起飞行，还可以用你的专属邀请码带新朋友入伙：**社区 › 邀请好友**会在他们达到 5 级时给他们一份新手礼包，并给你 Thulium 奖励。参见[邀请好友](/wiki/03-Mechanics/Invite-Friends.md)。
+加入[战队](/wiki/03-Mechanics/Clans.md)，或组成最多十名飞行员的[小队](/wiki/03-Mechanics/Groups.md)一起飞行，还可以用你的专属邀请码带新朋友入伙：**社区 › 邀请好友**会在他们达到 5 级时给他们一份新手礼包，并给你 Thulium 奖励。参见[邀请好友](/wiki/03-Mechanics/Invite-Friends.md)。
 
 ## 任务 {#missions}
 

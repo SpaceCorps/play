@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Áttekintés -->
 # Tárgyak áttekintése {#items-overview}
 
@@ -118,6 +118,7 @@ A Bolt, a hangár leltára és a többi tárgylista egyetlen sorrendben mutatja 
 - **Repair Drone-ok**: a hajótestedet javító extrák, mindegyik gyorsabb az előzőnél: a Repair Drone I, II és III 5 000, 15 000, illetve 35 000 kreditbe kerül, a Repair Drone IV 2 000 Thuliumba. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak.
 - **Cloaking CPU-k**: extrák harchoz vagy meneküléshez: a Cloaking CPU elrejti a hajódat, amíg te nem fejezed be (S, M és L: 10, 25 és 50 használat, 5 000, 11 250, illetve 20 000 Thulium). Lásd: [Extrák](/wiki/06-Items/Extras.md).
 - **EMP Charge**: fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és nem foglal helyet (töltetenként 500 Thulium, legfeljebb 20): 3 másodpercre célba vehetetlenné tesz, megszakít minden rád irányuló célzást, és megszünteti a közeli álcázásokat. Lásd: [Rakéták](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I és II**: szintén fogyóeszközök, kötegben viszed őket, és nem foglalnak helyet: egy megnyomás plazmafalat állít a kurzorodhoz, amely helyetted kapja a lövéseket. Az I falanként 250 Thulium a Boltban (legfeljebb 20), a II-t a Gyártás készíti, gyártásonként egyet (legfeljebb 10). Lásd: [Extrák](/wiki/06-Items/Extras.md#energetic-wall).
 - **Kutatási CPU-k**: az Extra Slots CPU-k minden hajóhoz extrafoglalatokat adnak, a Jump CPU Thuliumért elvisz egy vállalati szektorba, a Base CPU-k hazavisznek, az Auto-Repair CPU pedig magától kiküldi a Repair Drone-odat. Nem kaphatók: kikutatod őket, majd a Gyártásban elkészíted. Lásd: [Extrák](/wiki/06-Items/Extras.md#research-cpus).
 - **Drónformációk**: tizenhat tárgy a drónjaidhoz, amelyek bónuszokat adnak és árat kérnek, például nagyobb pajzsot gyengébb fegyverekért. Nem kaphatók: kutasd ki őket, aztán készítsd el a Gyártásban Thuliumból. Lásd: [Drónformációk](/wiki/03-Mechanics/Formations.md).
 - **Nyersanyagok**: amit az idegenek dobnak és a Skylab előállít a gyártáshoz: Ship Fragmentek, a négy kristály, Power Core-ok, a Velkonite és az Orvium lemezek, valamint kettő, amely máshonnan jön: a **Dark Matter**, amelyet a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md) ad vissza egy N.I.K.E. rakétáért, és a **Dark Matter Plate**, amelyet a Gyártás ebből présel minden fejlesztési lánc utolsó szintjéhez és a [Kovácsműhely](/wiki/06-Items/Forge.md) két legmagasabb lépéséhez.

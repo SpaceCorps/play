@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 18eaf9711b582e62 -->
+<!-- wiki-i18n source: de5aa8c3ecef25b4 -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -11,7 +11,7 @@ I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che 
 - **Le esplosioni sono più forti al centro.** I razzi Ember e Scatter esplodono e danneggiano ogni nave dentro l’anello: il numero intero al centro, la metà al bordo.
 - **Un solo timer per tutti.** Dopo ogni lancio aspetti 3 secondi prima del successivo, qualunque sia il razzo. Solo il N.U.K.E. e il N.I.K.E. ti fanno aspettare di più (4,1 e 4,6 secondi), perché restano in aria così a lungo.
 - **Guidato o dritto.** Un razzo guidato (Lancet, Ember) ha bisogno di un bersaglio che hai selezionato. Uno dritto (Rivet, Scatter) vola verso il tuo cursore.
-- **Un’altra cosa si porta come un razzo.** L’**EMP Charge** è un consumabile: una pila nel tuo inventario, che si usa dalla barra rapida, senza slot ([EMP Charge](#emp-charge)).
+- **Qualcos’altro si porta come un razzo.** L’**EMP Charge** è un consumabile: una pila nel tuo inventario, che si usa dalla barra rapida, senza slot ([EMP Charge](#emp-charge)). Così anche le due **Energetic Wall** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->
@@ -35,12 +35,15 @@ Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-
 Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
+Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
 Lancet I -> Lancet II -> Lancet III
 Rivet I -> Rivet II -> Rivet III
 Ember I -> Ember II -> Ember III
 Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
 

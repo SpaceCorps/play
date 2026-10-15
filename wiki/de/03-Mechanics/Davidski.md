@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski ist ein Händler, der fliegt. Er ist ein friedliches NPC-Schiff, das einmal am Tag zu einer Zeit ausfliegt, die niemand ankündigt, und einen [Gefahrensektor](/wiki/01-General/Danger-Sectors.md) abpatrouilliert, er hat die beste Ausrüstung des Spiels, und er verkauft jeden Gegenstand, den die [Auktion](/wiki/03-Mechanics/Auction.md) führt, mit unerschöpflichem Vorrat zu einem Vielfachen des Shop-Preises. Er gehört keinem Konzern an, steht wie ein Pilot in der Ruhmeshalle und schießt nie zuerst. Du kaufst bei ihm in der Auktion, und im Weltraum kannst du gegen ihn kämpfen.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Wo er ist {#where-he-is}
 
 - **Einmal am Tag, unangekündigt**: In jeder [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) fliegt er einmal pro UTC-Tag aus, zu einem Zeitpunkt irgendwo zwischen 00:00 und 20:00 UTC, der in jeder Welt und an jedem Tag anders ist. Niemand wird informiert: weder im Chat noch im Spielprotokoll noch durch eine Meldung. Er fliegt, bis er zerstört wird oder der Tag endet.
 - **Ein Gefahrensektor pro Tag**: Er fliegt abwechselnd auf `DS-1`, `DS-2` und `DS-3`, einen pro Tag, und in jeder Welt ist sein eigenes Schiff im selben Sektor.
-- **Wie du ihn findest**: durch Hinsehen. Nur Piloten in dem Sektor, in dem er fliegt, sehen ihn: Sein Name ist golden mit einem Ladensymbol davor, und die Minikarte zeigt ihn als goldenen Punkt in einem Ring. Die Galaxiekarte zeigt ihn nicht. Der Bereich **Davidski** der Auktion sagt nur, ob er heute draußen ist: **Heute unterwegs**, **Heute nicht unterwegs** oder **Heute zerstört**. Wo und wann, sagt er nie.
+- **Wie du ihn findest**: durch Hinsehen. Nur Piloten in dem Sektor, in dem er fliegt, sehen ihn: Sein Name ist golden mit einem Ladensymbol davor, und die Minikarte zeigt ihn als goldenen Punkt in einem Ring. Die Galaxiekarte zeigt ihn nicht. Die Details einer seiner Zeilen in der Auktion sagen nur, ob er heute draußen ist: **Heute unterwegs**, **Heute nicht unterwegs** oder **Heute zerstört**. Wo und wann, sagen sie nie.
 - **Am Ende des Tages** verlässt er seinen Sektor, wenn ihn eine Minute lang niemand getroffen hat. Ein Kampf wird nie von Mitternacht unterbrochen: Nach 15 Minuten fliegt er weg, egal was gerade los ist. Der Davidski des nächsten Tages kommt zum Zeitpunkt des nächsten Tages, im nächsten Sektor.
 - **Nach einem Wipe** wird sein Schiff neu gebaut, aber sein Tag bleibt in Erinnerung: War er draußen und nicht zerstört, ist er sofort wieder da; wurde er zerstört, bleibt er bis zum nächsten Tag weg.
 
@@ -50,7 +52,7 @@ Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis
 
 ## Bei ihm kaufen {#buying-from-him}
 
-Der Bereich **Davidski** der Auktion führt jede Art von Gegenstand, die die Auktion führt, insgesamt 83, mit dem Preis für ein Los:
+Sein Vorrat steht in der **Markt**-Liste der Auktion, zwischen den Angeboten der Piloten: eine Zeile für jede der 83 Sorten, die die Auktion führt, in Credits und in Thulium (166 Zeilen), mit dem Preis für ein Los, mit seinem Namen in Gold, einem **NPC**-Abzeichen und einem Unendlichkeitszeichen für die Menge und die Restzeit. Suche, Kategorien und die Filter nach Verzauberung und Währung des Marktes grenzen seine Zeilen ein wie jedes Angebot (seine Gegenstände sind Standard), und seine Sortierungen stellen sie dorthin, wo ihre Zahl sie hinstellt: nach Preis neben die Preise der Piloten, unter **Endet bald** und **Neueste** hinter die Angebote der Piloten. Wähle eine für die Details und **Kaufen für …**; der Kauf geht an ihn, nicht an einen Piloten. Die Preise:
 
 - **Das 100-Fache des Shop-Preises in Credits und das 40-Fache in Thulium** bei den Gegenständen, die der Shop verkauft; ein Shop-Preis in der einen Währung zählt in der anderen zu 200 Credits pro Thulium. Ein Repair Drone I (5.000 Credits im Shop) kostet 500.000 Credits oder 1.000 Thulium, ein Quantum Laser I 800.000 Credits oder 1.600 Thulium, die Raketen 50.000 bis 100.000 Credits pro Stück. Die beiden Preise sind nicht gleich viel wert: Bei 200 Credits pro Thulium wären 1.000 Thulium nur 200.000 Credits.
 - **Ausrüstung, die der Shop nicht verkauft, ist sein letzter Ausweg: das 200-Fache des Referenzwerts in Credits und das 80-Fache in Thulium**, mindestens das 50-Fache dessen, was der günstigste andere Weg kostet, sie zu bekommen (selbst herstellen oder der Preis eines anderen Piloten). Ein Quantum Laser III kostet 84.966.000 Credits oder 169.932 Thulium, ein Helios Beam 682.192.400 Credits oder 1.364.388 Thulium und ein Hull Plating III 1.271.074.400 Credits oder 2.542.152 Thulium. Diese Zeilen tragen ein kleines Abzeichen **Letzter Ausweg**, ebenso die seltenen Ressourcen unten.
@@ -58,7 +60,7 @@ Der Bereich **Davidski** der Auktion führt jede Art von Gegenstand, die die Auk
 - **Sein Vorrat geht nie zur Neige.** Ein Kauf nimmt bis zu 1.000 Lose (25 Stück bei einem Gegenstand, der kein Stapel ist), und eine Rakete wird wie überall bis zu ihrem Stapel getragen.
 - **Kein Tageslimit.** Das tägliche Kauflimit der Auktion und das Limit zwischen zwei Piloten gelten für Piloten, die von Piloten kaufen; er ist niemand, und nichts wandert zu irgendwem. Es gibt weder Steuer noch Einstellgebühr: Was du zahlst, ist aus dem Spiel verschwunden.
 - **Du bekommst einen einfachen Gegenstand**: nicht [handelbar](/wiki/03-Mechanics/Auction.md#marketable-items), er kann also nicht für einen anderen Piloten angeboten werden.
-- **Die Regeln der Auktion gelten**: Level 5, die Pause, eine Sperre und die Schließtage der Auktion. Sein Bereich funktioniert, egal ob er gerade fliegt.
+- **Die Regeln der Auktion gelten**: Level 5, die Pause, eine Sperre und die Schließtage der Auktion. Seine Zeilen sind dieselben, egal ob er gerade fliegt, und es gibt nichts zu stornieren oder zu überbieten.
 
 ## Ranglisten {#rankings}
 

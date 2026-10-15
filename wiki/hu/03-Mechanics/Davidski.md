@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski egy repülő kereskedő. Békés NPC-hajó, amely naponta egyszer jön ki, olyan időpontban, amit senki sem jelent be, és egy [veszélyes szektort](/wiki/01-General/Danger-Sectors.md) őriz, övé a játék legjobb felszerelése, és az [aukció](/wiki/03-Mechanics/Auction.md) minden tárgyát árulja, kifogyhatatlan készlettel, a bolti ár sokszorosáért. Nem tartozik vállalathoz, pilótaként szerepel a Dicsőségcsarnokban, és sosem lő először. Az aukción vásárolhatsz tőle, az űrben pedig harcolhatsz ellene.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Hol van {#where-he-is}
 
 - **Naponta egyszer, bejelentés nélkül**: minden [világban](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) naponta egyszer jön ki, 00:00 és 20:00 UTC között valamikor, minden világban és minden napon máskor. Senkit sem értesítenek: sem a csevegőben, sem a játéknaplóban, sem értesítéssel. Addig repül, amíg el nem pusztítják, vagy véget nem ér a nap.
 - **Naponta egy veszélyes szektor**: sorban a `DS-1`, `DS-2` és `DS-3` szektoron repül, naponta eggyel, és minden világban saját hajója van ugyanabban a szektorban.
-- **Hogyan találod meg**: nézelődéssel. Csak azok a pilóták látják, akik abban a szektorban vannak, ahol repül: a neve arany, előtte egy bolt jelzésével, a minitérkép pedig arany pontként rajzolja egy gyűrűben. A galaxistérkép nem mutatja. Az aukció **Davidski** szekciója csak annyit mond, hogy ma kint van-e: **Ma repül**, **Ma nem repül** vagy **Ma megsemmisült**. Azt, hogy hol és mikor, soha nem mondja meg.
+- **Hogyan találod meg**: nézelődéssel. Csak azok a pilóták látják, akik abban a szektorban vannak, ahol repül: a neve arany, előtte egy bolt jelzésével, a minitérkép pedig arany pontként rajzolja egy gyűrűben. A galaxistérkép nem mutatja. Az aukcióban az egyik soráról megjelenő részletek csak annyit mondanak, hogy ma kint van-e: **Ma repül**, **Ma nem repül** vagy **Ma megsemmisült**. Azt, hogy hol és mikor, soha nem mondják meg.
 - **A nap végén** továbbáll, ha egy perce senki sem találta el. Az éjfél sosem szakít meg harcot: 15 perc után mindenképp elmegy. A következő nap Davidskije a következő nap időpontjában jön ki, a következő szektorban.
 - **Wipe után** a hajója újra létrejön, de a napja megmarad: ha kint volt és nem pusztították el, azonnal visszatér; ha elpusztították, a következő napig távol marad.
 
@@ -50,7 +52,7 @@ A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanc
 
 ## Vásárlás tőle {#buying-from-him}
 
-Az aukció **Davidski** szekciója az aukció minden tárgyfajtáját felsorolja, összesen 83-t, egy csomag árával:
+A készlete az aukció **Piac** listájában van, a pilóták hirdetései között: az aukció mind a 83 fajtájához egy sor kreditben és egy Thuliumban (összesen 166 sor), egy csomag árával, az arany nevével, egy **NPC**-jelvénnyel és egy végtelenjellel a mennyiségnél és a hátralévő időnél. A Piac keresése, kategóriái, valamint a varázslat és a pénznem szerinti szűrői úgy szűkítik a sorait, mint bármelyik hirdetést (a tárgyai Normál fokozatúak), a rendezései pedig oda teszik őket, ahová a számuk mutat: ár szerint a pilóták árai mellé, a **Hamarosan lejár** és a **Legújabb** rendezésnél a pilóták hirdetései után. Válassz egyet a részletekhez és a **Vásárlás: …** gombhoz; a vásárlás hozzá megy, nem egy pilótához. Az árak:
 
 - **A bolti ár 100-szorosa kreditben és 40-szerese Thuliumban** azoknál a tárgyaknál, amelyeket a bolt árul; az egyik pénznemben megadott bolti ár a másikban 200 kredit/Thulium árfolyamon számít. Egy Repair Drone I (5 000 kredit a boltban) 500 000 kredit vagy 1 000 Thulium, egy Quantum Laser I 800 000 kredit vagy 1 600 Thulium, a rakéták darabonként 50 000–100 000 kredit. A két ár nem ér ugyanannyit: 200 kredit/Thulium árfolyamon 1 000 Thulium csak 200 000 kredit lenne.
 - **A boltban nem kapható felszerelés nála a végső megoldás: a referenciaérték 200-szorosa kreditben és 80-szorosa Thuliumban**, legalább 50-szerese annak, amibe a megszerzésének legolcsóbb másik útja kerül (magad elkészíted, vagy egy másik pilóta ára). Egy Quantum Laser III 84 966 000 kredit vagy 169 932 Thulium, egy Helios Beam 682 192 400 kredit vagy 1 364 388 Thulium, egy Hull Plating III 1 271 074 400 kredit vagy 2 542 152 Thulium. Ezek a sorok egy kis **Végső megoldás** jelvényt viselnek, ahogy lent a ritka nyersanyagok is.
@@ -58,7 +60,7 @@ Az aukció **Davidski** szekciója az aukció minden tárgyfajtáját felsorolja
 - **A készlete sosem fogy el.** Egy vásárlás legfeljebb 1 000 csomagot visz (25 darabot az olyan tárgyból, ami nem halmozható), a rakétát pedig a halmának méretéig lehet vinni, mint mindenhol.
 - **Nincs napi korlát.** Az aukció napi vásárlási korlátja és a két pilóta közti korlát pilóták egymástól vásárlására vonatkozik; ő senki, és semmi sem megy senkihez. Nincs adó és letét: amit fizetsz, az eltűnik a játékból.
 - **Amit kapsz, az egyszerű tárgy**: nem [eladható](/wiki/03-Mechanics/Auction.md#marketable-items), ezért nem hirdethető meg másik pilótának.
-- **Az aukció szabályai érvényesek**: 5. szint, a szünet, a tiltás és az aukció zárónapjai. A szekciója attól függetlenül működik, hogy repül-e éppen.
+- **Az aukció szabályai érvényesek**: 5. szint, a szünet, a tiltás és az aukció zárónapjai. A sorai attól függetlenül ugyanazok, hogy repül-e éppen, és nincs mit visszavonni vagy licitálni rajtuk.
 
 ## Rangsor {#rankings}
 

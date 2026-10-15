@@ -1,8 +1,11 @@
-<!-- wiki-i18n source: 5e11f7d9fa6eb28d -->
+<!-- wiki-i18n source: a5842e3fb46a29a0 -->
 <!-- wiki-i18n title: 物品栏 -->
 # 物品栏与装备 {#inventory-equipment}
 
 机库让你管理自己的舰船和装备。高效地装备物品，是生存和称霸的关键。你可以在空间站里完成这些操作，也可以在飞行中、身处安全区内时进行：参见[飞行中的机库](/wiki/03-Mechanics/Hangar.md)。
+
+![The Hangar's inventory: the category chips are one glyph each (the name is the tooltip) with the count of what you hold](../../img/wiki-img/shots/inventory-chips.jpg)
+![Dragging a rectangle over the empty space of the inventory: every tile it touches is selected and the title row counts them](../../img/wiki-img/shots/inventory-marquee.jpg)
 
 ## 装备槽位与属性效率 {#equipment-slots-stat-efficiencies}
 
@@ -26,6 +29,10 @@
 ## 可交易的物品 {#marketable-items}
 
 你赚来的物品（掉落、任务奖励，以及装配站和锻造炉制作的东西）在格子上带有一个小小的**可交易**标记，物品卡片上写着“可交易”，如果一叠中只有一部分能卖，则写“可交易（3/5）”。分类按钮旁的**仅可交易**按钮只显示这些物品。带标记物品的垃圾桶旁的**拍卖槌**按钮会打开[拍卖行](/wiki/03-Mechanics/Auction.md)的出售窗口（飞行中不显示：出售是空间站的页面）。你买来的、赢来的或别人送的东西没有标记，也不能再次出售。
+
+## 选择多件物品 {#select-several-items}
+
+在物品栏的空白处（格子旁的边距、两个格子之间的缝隙，或最后一行下面的空地）按下并拖动：一个半透明的矩形会跟着指针，拖动时它碰到的每个格子都会被选中。松开后选择会保留，标题行会显示数量（“已选 3 件”）。拖动时按住 **Shift**、**Ctrl** 或 **Cmd**，就是在原有选择上追加：矩形碰到的、本来已选中的格子则会被取消选中。不按键的拖动会开始新的选择。**Esc**、点击空白处，或标题行里垃圾桶旁边的按钮，都能取消选择；拖动途中按 **Esc** 会取消这次拖动。在较长的物品栏顶部或底部边缘，列表会自动滚动。按在格子上仍然是格子自己的操作：点击装备，拖到槽位上。标题行的垃圾桶会在一个列出这些物品的确认之后删除所选物品（同样的一叠额外物品会整叠删除）；飞行中机库被锁定时不提供。装在 Skylab 里的物品不能选择，只有搜索和分类按钮留在格子里的才能选。矩形每多取一个格子，就会响一声轻轻的提示音（受设置里的“按钮音效”开关控制）。
 
 ## 物品间装配（子插槽） {#item-to-item-equipping-sub-sockets-}
 

@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski är en handlare som flyger. Han är ett fredligt NPC-skepp som flyger ut en gång om dagen, vid en tidpunkt som ingen tillkännager, och patrullerar en [farosektor](/wiki/01-General/Danger-Sectors.md) i taget, har den bästa utrustningen i spelet och säljer varje föremål som [auktionen](/wiki/03-Mechanics/Auction.md) listar, med ett lager som aldrig tar slut, till många gånger butikspriset. Han tillhör ingen koncern, står i Hedersgalleriet som en pilot och skjuter aldrig först. Du köper av honom på auktionen, och i rymden kan du bekämpa honom.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Var han finns {#where-he-is}
 
 - **En gång om dagen, utan förvarning**: i varje [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) flyger han ut en gång per UTC-dygn, vid en tidpunkt någonstans mellan 00:00 och 20:00 UTC som är olika i varje värld och varje dag. Ingen får veta det: inte i chatten, inte i spelloggen, inte genom ett meddelande. Han flyger tills han förstörs eller dygnet tar slut.
 - **En farosektor om dagen**: han flyger på `DS-1`, `DS-2` och `DS-3` i tur och ordning, en om dagen, och i varje värld har han ett eget skepp i samma sektor.
-- **Så hittar du honom**: genom att titta. Bara piloter i sektorn där han flyger ser honom: hans namn är guldfärgat med en butik framför, och minikartan ritar honom som en guldprick i en ring. Galaxkartan visar honom inte. Auktionens avsnitt **Davidski** säger bara om han är ute i dag: **Flyger i dag**, **Inte ute i dag** eller **Förstörd i dag**. Var och när säger det aldrig.
+- **Så hittar du honom**: genom att titta. Bara piloter i sektorn där han flyger ser honom: hans namn är guldfärgat med en butik framför, och minikartan ritar honom som en guldprick i en ring. Galaxkartan visar honom inte. Detaljerna för en av hans rader på auktionen säger bara om han är ute i dag: **Flyger i dag**, **Inte ute i dag** eller **Förstörd i dag**. Var och när säger de aldrig.
 - **Vid dygnets slut** lämnar han sektorn om ingen har träffat honom på en minut. En strid avbryts aldrig av midnatt: efter 15 minuter flyger han vidare vad som än pågår. Nästa dygns Davidski kommer ut vid nästa dygns tidpunkt, i nästa sektor.
 - **Efter en wipe** byggs hans skepp om, men hans dygn kommer ihåg: var han ute och inte förstörd är han tillbaka på en gång, och var han förstörd är han borta till nästa dygn.
 
@@ -50,7 +52,7 @@ Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 
 
 ## Att köpa av honom {#buying-from-him}
 
-Auktionens avsnitt **Davidski** listar varje sorts föremål som auktionen listar, 83 stycken, med priset för ett parti:
+Hans lager finns i auktionens **Marknad**-lista, bland piloternas annonser: en rad för var och en av de 83 sorter som auktionen listar, i krediter och i Thulium (166 rader), med priset för ett parti, med hans namn i guld, ett **NPC**-märke och ett oändlighetstecken för mängden och tiden som är kvar. Marknadens sökning, kategorier och filter för förtrollning och valuta avgränsar hans rader som vilken annons som helst (hans föremål är Standard), och dess sorteringar ställer dem där deras tal säger: efter pris bredvid piloternas priser, efter piloternas annonser under **Slutar snart** och **Nyast**. Välj en för att se detaljerna och **Köp för …**; köpet går till honom, inte till en pilot. Priserna:
 
 - **100 gånger butikspriset i krediter och 40 gånger i Thulium** för föremål som butiken säljer; ett butikspris i den ena valutan räknas i den andra med 200 krediter per Thulium. En Repair Drone I (5 000 krediter i butiken) kostar 500 000 krediter eller 1 000 Thulium, en Quantum Laser I 800 000 krediter eller 1 600 Thulium, raketerna 50 000 till 100 000 krediter styck. De två priserna är inte värda lika mycket: med 200 krediter per Thulium vore 1 000 Thulium bara 200 000 krediter.
 - **Utrustning som butiken inte säljer är hans sista utväg: 200 gånger föremålets referensvärde i krediter och 80 gånger i Thulium**, minst 50 gånger vad det billigaste andra sättet att få tag på den kostar (tillverka den själv eller en annan pilots pris). En Quantum Laser III kostar 84 966 000 krediter eller 169 932 Thulium, en Helios Beam 682 192 400 krediter eller 1 364 388 Thulium och en Hull Plating III 1 271 074 400 krediter eller 2 542 152 Thulium. De raderna har ett litet märke **Sista utvägen**, liksom de sällsynta resurserna nedan.
@@ -58,7 +60,7 @@ Auktionens avsnitt **Davidski** listar varje sorts föremål som auktionen lista
 - **Hans lager tar aldrig slut.** Ett köp tar upp till 1 000 partier (25 st av ett föremål som inte staplas), och en raket bärs upp till sin stapel som överallt.
 - **Ingen daglig gräns.** Auktionens dagliga köpgräns och gränsen mellan två piloter gäller piloter som köper av piloter; han är ingen, och inget flyttas till någon. Det finns varken skatt eller deposition: det du betalar försvinner ur spelet.
 - **Du får ett vanligt föremål**: inte [säljbart](/wiki/03-Mechanics/Auction.md#marketable-items), så det kan inte läggas ut för en annan pilot.
-- **Auktionens regler gäller**: nivå 5, pausen, en avstängning och auktionens stängningsdagar. Hans avsnitt fungerar oavsett om han flyger eller inte.
+- **Auktionens regler gäller**: nivå 5, pausen, en avstängning och auktionens stängningsdagar. Hans rader är desamma, oavsett om han flyger eller inte, och det finns inget att avbryta eller buda på.
 
 ## Ranking {#rankings}
 

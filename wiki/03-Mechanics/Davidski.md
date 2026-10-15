@@ -2,11 +2,13 @@
 
 Davidski is a trader who flies. He is a peaceful NPC ship that comes out once a day, at a time nobody announces, and patrols one [Danger Sector](/wiki/01-General/Danger-Sectors.md), he has the best gear the game has, and he sells every item the [Auction](/wiki/03-Mechanics/Auction.md) lists, with no end to his stock, at many times the Shop's price. He belongs to no company, stands in the Hall of Fame like a pilot and does not shoot first. You buy from him in the Auction, and you can fight him in space.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Where He Is
 
 - **Once a day, unannounced**: in every [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) he comes out once a UTC day, at a moment somewhere between 00:00 and 20:00 UTC that is different in every world and every day. Nobody is told: not in the chat, not in the Game Log, not by a notice. He flies until he is destroyed or the day ends.
 - **One Danger Sector a day**: he flies on `DS-1`, `DS-2` and `DS-3` in turn, one a day, and in every world his own ship is on the same sector.
-- **How you find him**: by looking. Only the pilots on the sector he flies can see him: his name is gold with a storefront in front of it, and the minimap draws him as a gold dot in a ring. The galaxy map does not show him. The Auction's **Davidski** section says only whether he is out today: **Flying today**, **Not out today** or **Killed today**. It never says where or when.
+- **How you find him**: by looking. Only the pilots on the sector he flies can see him: his name is gold with a storefront in front of it, and the minimap draws him as a gold dot in a ring. The galaxy map does not show him. The details of one of his rows in the Auction say only whether he is out today: **Flying today**, **Not out today** or **Killed today**. They never say where or when.
 - **At the day's end** he leaves when nobody has hit him for a minute. A fight is never cut by midnight: after 15 minutes he goes whatever is going on. The next day's Davidski comes out at the next day's moment, on the next sector.
 - **After a wipe** his ship is made anew, but his day is remembered: if he was out and not destroyed he is back at once, and if he was destroyed he stays gone until the next day.
 
@@ -48,7 +50,7 @@ The box holds 40 to 60 Ship Fragments, 10 to 20 Power Cores and 3,000 to 6,000 A
 
 ## Buying From Him
 
-The Auction's **Davidski** section lists every kind of item the Auction lists, 83 in all, priced for one lot:
+His stock is in the Auction's **Market** list, among the pilots' listings: a row for each of the 83 kinds the Auction lists, in Credits and in Thulium (166 rows), priced for one lot, with his name in gold, an **NPC** badge and an infinity sign for the quantity and the time left. The Market's search, categories and enchant and currency filters narrow his rows like any listing (his items are Standard), and its orders put them where their number says: by price beside the pilots' prices, after the pilots' listings under **Ending soon** and **Newest**. Pick one to see the details and **Buy**; the purchase goes to him, not to a pilot. The prices:
 
 - **100 times the Shop's price in Credits and 40 times in Thulium**, for the items the Shop sells; a Shop price in one currency counts in the other at 200 Credits to a Thulium. A Repair Drone I (5,000 Credits in the Shop) is 500,000 Credits or 1,000 Thulium, a Quantum Laser I 800,000 Credits or 1,600 Thulium, the rockets 50,000 to 100,000 Credits each. The two prices are not the same worth: at 200 Credits to a Thulium, 1,000 Thulium would be only 200,000 Credits.
 - **The gear the Shop does not sell is his last resort: 200 times the item's reference value in Credits and 80 times in Thulium**, and at least 50 times what the cheapest other way to get it costs (making it yourself, or another pilot's price). A Quantum Laser III is 84,966,000 Credits or 169,932 Thulium, a Helios Beam 682,192,400 Credits or 1,364,388 Thulium and a Hull Plating III 1,271,074,400 Credits or 2,542,152 Thulium. These rows wear a small **Last resort** badge, and so do the rare resources below.
@@ -56,7 +58,7 @@ The Auction's **Davidski** section lists every kind of item the Auction lists, 8
 - **No end to his stock.** A purchase takes up to 1,000 lots (25 pieces of an item that is no stack), and a rocket is carried up to its stack as everywhere.
 - **No daily limit.** The Auction's daily buying cap and the cap between two pilots are for pilots buying from pilots; he is nobody and nothing moves to anybody. There is no tax or deposit: what you pay is gone from the game.
 - **What you get is a plain item**: not [Marketable](/wiki/03-Mechanics/Auction.md#marketable-items), so it cannot be listed for another pilot.
-- **The Auction's rules hold**: level 5, the pause, a ban and the Auction's closing days. His section works whether or not he is flying.
+- **The Auction's rules hold**: level 5, the pause, a ban and the Auction's closing days. His rows are the same whether or not he is flying, and there is nothing to cancel or bid on.
 
 ## Rankings
 

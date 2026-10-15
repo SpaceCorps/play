@@ -35,7 +35,7 @@ You choose your company the first time you play, and that is free. Later you can
 
 ## Playing With Friends
 
-Join a [Clan](/wiki/03-Mechanics/Clans.md) or fly in a [Group](/wiki/03-Mechanics/Groups.md) of up to five pilots, and bring new friends along with your personal code: **Community › Invite Friends** gives them a starter pack and you a Thulium reward when they reach level 5. See [Invite Friends](/wiki/03-Mechanics/Invite-Friends.md).
+Join a [Clan](/wiki/03-Mechanics/Clans.md) or fly in a [Group](/wiki/03-Mechanics/Groups.md) of up to ten pilots, and bring new friends along with your personal code: **Community › Invite Friends** gives them a starter pack and you a Thulium reward when they reach level 5. See [Invite Friends](/wiki/03-Mechanics/Invite-Friends.md).
 
 ## Missions
 

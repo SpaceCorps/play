@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b15e3e40418c232b -->
+<!-- wiki-i18n source: 6ff3251582e96a39 -->
 <!-- wiki-i18n title: 配方书 -->
 # 配方书与配装 {#recipe-book-and-builds}
 
@@ -7,6 +7,10 @@
 **配方书**能回答游戏中任何物品的“这需要什么？”：一张图表告诉你它由什么制成，按顺序列出的步骤，完整的费用，以及每种原材料从哪里来。**配装**对整艘飞船做同样的事：导入你机库里的装备或朋友的配装，从 15 套预设中选一套开始，或者自己做一套，然后一步一步查看它的属性和完整费用。两者都在空间站的**资料库**里，排在百科的下面。
 
 配方书没有自己的价目表：它在你查看的那一刻，根据商店、[装配站](/wiki/06-Items/Overview.md#upgrading-modules)和[研究](/wiki/03-Mechanics/Research.md)所用的配方、价格、科技和掉落表算出数字，所以价格或配方改变时它会跟着游戏变。因此本页不写任何价格和属性：请打开物品或配装来看。
+
+![The Builds page: the presets from early to late, and a build with its lasers, generators, extras and drones laid out in slots](../../img/wiki-img/shots/builds.jpg)
+![The Bill tab: what the item takes in Credits, Thulium and raw items, with what you have and what is missing](../../img/wiki-img/shots/recipe-book-bill.jpg)
+![An item in the Recipe Book: its ways to get it, the switches for the bill and the chart of what it takes down to the raw items](../../img/wiki-img/shots/recipe-book-chart.jpg)
 
 ## 打开它 {#open-it}
 

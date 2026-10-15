@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsműhely két legmagasabb lépcsője és minden fejlesztési lánc utolsó szintje mögött áll. Nem veheted meg, nem bányászhatod, és a közönséges idegenek sem ejtik el: te **magad állítod elő a feketelyuknál (black hole)**, úgy, hogy **N.I.K.E.** rakétákat lősz bele, majd felszeded a ládákat, amelyeket visszadob. A **Dark Matter Plate**-et a Gyártásban sajtolják Dark Matterből, miután kikutattad a receptjét. Ez az oldal elmondja, honnan jön mindkettő, mire jó, és milyen sorrendben érdemes haladni. A szezon 11. napjától a Dark Matter az **óriás kotrógépek üzemanyaga** is ([Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)), és a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) néhány idegene ejt belőle egy keveset.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## Egy percben {#in-one-minute}
 

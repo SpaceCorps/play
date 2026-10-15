@@ -1,25 +1,39 @@
-<!-- wiki-i18n source: 44ecd929aae22552 -->
+<!-- wiki-i18n source: 0d6852ae6d01eafd -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
-<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; 宠物; 摇篮; 图鉴; 杂交; 对接; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 会工作的宠物; 采矿; 拾取; 范围; 闲置; 脉冲 -->
+<!-- wiki-search: pet; pets; p.e.t; p.e.t.; companion; cradle; codex; cluster chunk; crossbreed; crossbreeding; station; extra; on; off; switch; hotbar; pet slot; 开; 关; 开关; 快捷栏; docking; personal escort technology; magpie; tardigrade; hornet; pangolin; packrat; fox; owl; drake; 宠物; 摇篮; 图鉴; 杂交; 对接; retriever; mole; working pet; mining pet; collecting pet; idle; afk; reach; pulse; auto loot; auto mine; 会工作的宠物; 采矿; 拾取; 范围; 闲置; 脉冲 -->
 
-**P.E.T.**（Personal Escort Technology）是飞在你飞船旁边、给它加成的小型伙伴：更多信用点、更多 Thulium、更多船体或护盾、更高伤害或更多幸运。十种类型中有两种还会在你飞行时为你工作：**Retriever** 拾取飞船周围的货箱，**Mole** 击碎小行星。你在被击碎的小行星里找到 **Cluster Chunk**，把一块和一块 Orvium Reinforced Plate 一起放进机库的**摇篮**，过一段时间就会孵出一只 P.E.T.。你把它**对接**到自己的 **P.E.T. Station** 上；从下一次出击起，它就会提供加成、获得经验，并作为一架小小的无人机飞在飞船旁边。
+**P.E.T.**（Personal Escort Technology）是飞在你飞船旁边、给它加成的小型伙伴：更多信用点、更多 Thulium、更多船体或护盾、更高伤害或更多幸运。十种类型中有两种还会在你飞行时为你工作：**Retriever** 拾取飞船周围的货箱，**Mole** 击碎小行星。你在被击碎的小行星里找到 **Cluster Chunk**，把一块和一块 Orvium Reinforced Plate 一起放进机库的**摇篮**，过一段时间就会孵出一只 P.E.T.。你把它**对接**到自己的 **P.E.T. Station** 上。Station 是一种[附加装置](/wiki/06-Items/Extras.md)，装备在飞船的附加槽位里；Station **开启**期间，已对接的 P.E.T. 会提供加成、获得经验，并作为一架小小的无人机飞在飞船旁边，**关闭**期间则什么都不做。
+
+![A P.E.T. Station I on a ship: a docking ring with two berths over the hull, a P.E.T. out of each](../../img/wiki-img/shots/pet-station-i.jpg)
+![A P.E.T. Station II: three berths and a vane over the hub](../../img/wiki-img/shots/pet-station-ii.jpg)
+![A P.E.T. Station III with five berths and five of the ten types in flight: Magpie, Tardigrade, Hornet, Pangolin and Packrat](../../img/wiki-img/shots/pet-types-a.jpg)
+![The other five: Fox, Owl, Drake, Retriever and Mole](../../img/wiki-img/shots/pet-types-b.jpg)
+![The New assembly sheet of the Cradle: the grade of chunk, the type to hatch or Discover, what it takes and how long](../../img/wiki-img/shots/pets-assemble.jpg)
+![The Mole at work: its drone has flown out to a rock and holds a thin beam on it, while the other docked P.E.T.s fly beside the ship round the ring of its Station](../../img/wiki-img/shots/pets-mole.jpg)
+![The P.E.T. Station III, ON and fitted on the Wraith, with five docked P.E.T.s (the Mole and the Retriever say what they do) and the Cradle with two finished jobs and two queued](../../img/wiki-img/shots/pets-view.jpg)
 
 ## 一分钟了解 {#in-one-minute}
 
-- **拿到 Station。** 在研究中心研究一座 **P.E.T. Station**，并在装配站制造。它有三级，分别能容纳 **2、3 和 5** 只 P.E.T.。摇篮没有它也能用：在你拥有 Station 之前就可以孵 P.E.T.。
+- **拿到 Station。** 在研究中心研究一座 **P.E.T. Station**，并在装配站制造。它有三级，分别能容纳 **2、3 和 5** 只 P.E.T.。把它装备到你所驾驶飞船的附加槽位中。摇篮没有它也能用：在你拥有 Station 之前就可以孵 P.E.T.。
 - **找到晶簇块。** 从第二等级起击碎小行星：**Regular**、**Mythical** 或 **Legendary Cluster Chunk** 可能整块留在造成最多伤害的队伍的矿石块里。
 - **孵化。** 在机库的 **P.E.T.** 视图里，摇篮为每只 P.E.T. 取用一块晶簇块和一块 Orvium Reinforced Plate，队列有四个位置。晶簇块的品级决定 P.E.T. 有几个加成：**1、2 或 3 个**。
-- **对接与飞行。** 飞船降落时，对接你想要的 P.E.T.。它们从你的下一次出击起提供加成，并在你狩猎、采矿和飞行时获得经验，最高到 20 级。
+- **对接与飞行。** 飞船降落时，对接你想要的 P.E.T.。Station 装备并开启时，它们提供加成，并在你狩猎、采矿和飞行时获得经验，最高到 20 级。
+- **开启与关闭。** 快捷栏的 **PET** 槽位切换 Station，飞行中也可以，更改立即生效：关闭时，你的 P.E.T. 不提供加成、不获得经验，也不工作；开启后它们就回来了。你从未切换过的 Station 是开启的。
 - **让两只去干活。** 已对接的 **Retriever** 会拾取你飞船周围的货箱，已对接的 **Mole** 会替你击碎最近的小行星，只要你在安全区之外飞行，无论你是否在操作，一天的工作也没有上限：[会工作的类型](#the-working-types)。闲置的飞船是靶子。
 - **它们属于你。** P.E.T. 与你绑定：不能交易，也不能上拍卖行。它们会留过重置。
 
 ## P.E.T. Station {#the-station}
 
-Station 不是 Skylab 的模块，也不是槽位：它是一种**安装**，和 [Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus) 一样。**P.E.T. Station I、II 和 III** 三件物品在[研究中心](/wiki/03-Mechanics/Research.md)研究（3 小时、10 小时和 1 天，不需要 Dark Matter），并在装配站依次制造。你领取其中一件时，它会自己安装，对你所有的舰船生效，并为 **2、3 和 5** 只已对接的 P.E.T. 提供位置。每一件的花费见 Extras 的[物品树](/wiki/06-Items/Extras.md#item-tree)。Station 会留过重置，它的研究也一样。
+Station 是一种**附加装置**。**P.E.T. Station I、II 和 III** 三件物品在[研究中心](/wiki/03-Mechanics/Research.md)研究（3 小时、10 小时和 1 天，不需要 Dark Matter），并在装配站依次制造。你像装备 [Cloaking CPU](/wiki/06-Items/Extras.md) 一样把其中一件**装备**到附加槽位中，它就为 **2、3 和 5** 只已对接的 P.E.T. 提供位置。每一件的花费见 Extras 的[物品树](/wiki/06-Items/Extras.md#item-tree)。Station 会留过重置，它的研究也一样。
 
-机库的 P.E.T. 视图会告诉你当前的等级、已占用的位置数，以及下一项技术和下一件物品，并带有通往研究视图和装配站的按钮。
+- **只有与它一同飞行的飞船。** 你的 P.E.T. 只在你驾驶的飞船上计入，前提是你正在使用的配置里装备了 Station。物品栏里的、另一套配置里的或另一艘飞船上的 Station 什么也不做；换配置或换飞船，P.E.T. 立刻跟上。
+- **开启与关闭。** 用快捷栏的 **PET** 槽位切换 Station（从“附加装置”选择器把它拖到那里）。**开启**：你已对接的 P.E.T. 中的前 2、3 或 5 只提供加成、获得经验并工作。**关闭**：这些都没有，也不会画出无人机。槽位显示**开**或**关**。这个开关归你所有，会保留在多次出击和登录之间；你从未切换过的 Station 是开启的。两次按下之间相隔一秒。
+- **你看到的。** 开启的 Station 会画在你的飞船上：一个悬浮在船体上方的对接环，每个位置（2、3 或 5 个）有一个泊位，各自亮着停靠其中的 P.E.T. 的颜色。开启它，P.E.T. 会依次飞出，悬停在飞船旁；关闭它，它们飞回，对接环缩成小小的暗色一圈折在船体上，只有你自己看得到。
+- **对接的比位置多。** 如果你对接了五只 P.E.T.，却只装备了一座 Station II，前三只（按它们的位置）计入，机库会把其余的标为“不计入”。机库会对接到你拥有的最好的 Station 上，不论是否已装备，所以你可以在装备之前先排好你的 P.E.T.。
+
+机库的 P.E.T. 视图会告诉你拥有哪一座 Station、它装备在哪里、是否开启、已占用的位置数，以及下一项技术和下一件物品，并带有通往研究视图和装配站的按钮。当你的 P.E.T. 什么也不提供时，这个视图和 **Boosters** 窗口会告诉你原因。
 
 ## Cluster Chunk {#cluster-chunks}
 
@@ -71,11 +85,11 @@ P.E.T. 最高到 **20** 级。每升一级，它的每个加成增加 **0.2 个�
 - **伤害、生命值和护盾**与你的增益和战队加成相加，而不是相乘：机库、飞船窗口和你的飞行员页面的数值都计入了它们，**增益**窗口里有一张 **P.E.T.** 卡片。护盾指护盾容量（最大护盾点数）。
 - **信用点和 Thulium** 会提高一次击杀付给你的数额、你在首领和小队击杀中的份额，以及任务在你领取时付的数额，和你的[战队加成](/wiki/03-Mechanics/Clans.md)一样。它们从不提高岩石的现金、Skylab 的农场、奖励码或拍卖行。
 - **幸运**会提高外星人或虫群飞船每一行战利品的概率，以及守卫的专属箱子的概率，和 [Loot Luck Booster](/wiki/06-Items/Boosters.md) 一样。别的什么都不影响。
-- **没有 Station 的位置就没有加成。** 只有已对接的 P.E.T. 才算，数量不超过 Station 的位置数。你取下的或从未对接的 P.E.T. 不提供任何东西，也不获得任何东西。
+- **Station 没开启就没有加成。** 只有计入的已对接 P.E.T. 才提供加成：即装备在你飞船上的 Station 的位置数以内的那些，而且只在它开启期间。你取下的或从未对接的 P.E.T. 不提供任何东西，也不获得任何东西，Station 关闭或未装备时，所有 P.E.T. 同样如此。
 
 ## 经验 {#experience}
 
-每只已对接的 P.E.T. 获得相同的经验，且是全额：不会在它们之间分摊。存放中的 P.E.T. 什么也得不到。
+每只计入的已对接 P.E.T. 获得相同的经验，且是全额：不会在它们之间分摊。存放中的 P.E.T. 什么也得不到，Station 关闭或未装备期间，已对接的 P.E.T. 也一样。
 
 - **一次击杀。** 一架[无人机](/wiki/03-Mechanics/Drones.md#levels)为同一次击杀得到的数额，乘以世界的奖励倍率（1、2 或 3）。
 - **你击碎的一块岩石。** 等级 1 到 5 的岩石分别为 1、2、4、8 或 16，Motherlode 为 64，乘以世界的奖励倍率，发给击碎所付的每一位飞行员；你的 Mole 击碎的岩石也算。
@@ -89,7 +103,7 @@ P.E.T. 最高到 **20** 级。每升一级，它的每个加成增加 **0.2 个�
 
 ### 何时工作 {#when-they-work}
 
-- **已对接，从你的出击起。** 只有已对接的 P.E.T. 会工作，它的强度和加成一样在出击时读取：飞行中获得的等级从你的下一次出击起生效。
+- **已对接，且 Station 开启。** 只有计入的已对接 P.E.T. 会工作：把 Station 关闭，Mole 的光束和 Retriever 的拾取立刻停止，开启后继续。它的强度在出击时读取：飞行中获得的等级从你的下一次出击起生效。
 - **每种只有最好的那一只。** 工作的 Mole 是最强的一只（并列时取位置靠前的），工作的 Retriever 是够得最远的一只。你其他的 Mole 和 Retriever 只提供加成，所以装满 Mole 的 Station 击碎的也不会比一只多。
 - **在飞行中，在安全区之外。** [安全区](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity)正保护你的飞船时、飞船被摧毁时、处于[重生保护](/wiki/01-General/Getting-Started.md#dying-and-coming-back)中时、隐形时或正在跳跃时，它们会停下，这些情况都不成立时再继续。已下线的飞行员在太空中没有飞船，所以没有任何东西为他工作。
 - **有没有操作都一样。** 没有关于你是否在键盘前的规则：无论你在狩猎、在看某个窗口，还是离开了屏幕，Mole 的工作都一样。
@@ -149,15 +163,15 @@ Mole 不花火箭：它击碎的东西归你，省下了亲手采矿时要付的
 
 ## 对接与飞行 {#docking-and-flying}
 
-- **只有飞船降落时才能对接和解除对接。** 飞行中，P.E.T. 视图只显示你拥有的东西，不能更改任何内容（“请先停靠飞船再更换 P.E.T.”）。更改从你的下一次出击起生效，所以战斗中不会换来换去。
-- **它们飞在你旁边。** 每只已对接的 P.E.T. 都画成一架**小小的无人机**，靠近它的飞船，所有人都能看到，每艘飞船最多五只。它们不能被锁定、点击或击中，大小是 Slave Drone 的五分之一，所以不会被当成编队的无人机。设置 › 界面 里的**显示 P.E.T.**（**全部**、**仅自己**或**关**）可以在不影响你的无人机的前提下隐藏它们，而你的**细节**设置（设置 › 图形）决定同时为多少艘飞船绘制 P.E.T.，即最近的 4、8、12 或 16 艘。
-- **它们去干活。** Mole 工作时，它的无人机会离开原位飞向小行星，一道细光束把两者连起来；Retriever 的无人机飞向它的货箱再回来。每艘飞船同一时间只有一架无人机离开原位，开启**减弱动态效果**时它们都留在原位。隐藏 P.E.T. 只会隐藏无人机，不会隐藏工作。
+- **只有飞船降落时才能对接和解除对接。** 飞行中，P.E.T. 视图只显示你拥有的东西，不能更改任何内容（“请先停靠飞船再更换 P.E.T.”）。对接的更改从你的下一次出击起生效，所以战斗中不会换来换去。Station 是例外：它的 PET 槽位在飞行中可用。
+- **它们飞在你旁边。** 每只计入的已对接 P.E.T. 在 Station 开启期间都画成一架**带活动部件的小型装甲无人机**（拍动的翅膀、行走的腿、转动的圆环、挖掘的爪子），位于它的飞船旁，每艘飞船最多五只，所有人都能看到它们和对接环。它们不能被锁定、点击或击中。每只都带着类型颜色的灯光，头顶有品级颜色的水晶，所以不会被当成编队的无人机。设置 › 界面 里的**显示 P.E.T.**（**全部**、**仅自己**或**关**）可以在不影响你的无人机的前提下隐藏它们和 Station，而你的**细节**设置（设置 › 图形）决定同时为多少艘飞船绘制 P.E.T.，即最近的 4、8、12 或 16 艘。
+- **它们去干活。** Mole 工作时，它的无人机会离开原位飞向小行星，一道细光束把两者连起来；Retriever 的无人机飞向它的货箱再回来。每艘飞船同一时间只有一架无人机离开原位，开启**减弱动态效果**时它们都留在原位。隐藏 P.E.T. 只会隐藏无人机，不会隐藏工作。 开启**减弱动态效果**后，Station 和 P.E.T. 也会立刻出现和消失，而不是飞行。
 - **与你绑定。** P.E.T. 不能出售、赠送或交易，也不是物品，所以没有什么可以放上[拍卖行](/wiki/03-Mechanics/Auction.md)。
 
 ## 重置 {#the-wipe}
 
-[重置](/wiki/03-Mechanics/Wipe-Timeline.md)会保留你的 P.E.T.（已对接的和存放的）、它们的等级、摇篮里进行中的任务、图鉴，以及你安装的 P.E.T. Station 和它的研究。它删除的是散放在你物品栏里的东西：没有放进运输储藏库的 Cluster Chunk 和 Orvium Reinforced Plate。
+[重置](/wiki/03-Mechanics/Wipe-Timeline.md)会保留你的 P.E.T.（已对接的和存放的）、它们的等级、摇篮里进行中的任务、图鉴，以及你的 P.E.T. Station 和它们的研究。它删除的是散放在你物品栏里的东西：没有放进运输储藏库的 Cluster Chunk 和 Orvium Reinforced Plate。
 
 ## 声音 {#sounds}
 
-开始组装、领取 P.E.T.、领取一只你还没有的类型、对接、解除对接、杂交、放生和升级，都各有一个安静的专属声音，音量跟随音效音量。工作也有声音：Mole 的光束在工作处轻轻嗡鸣，Retriever 拾取结束时，在货箱原来的位置发出一声轻轻的“嘀”（代替拾取音）。附近其他飞行员的 P.E.T. 你也能听到，音量更小。
+开始组装、领取 P.E.T.、领取一只你还没有的类型、对接、解除对接、杂交、放生、升级和 Station 的开启与关闭，都各有一个安静的专属声音，音量跟随音效音量。工作也有声音：Mole 的光束在工作处轻轻嗡鸣，Retriever 拾取结束时，在货箱原来的位置发出一声轻轻的“嘀”（代替拾取音）。附近其他飞行员的 P.E.T. 你也能听到，音量更小。

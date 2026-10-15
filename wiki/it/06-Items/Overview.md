@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e03b770363c92f01 -->
+<!-- wiki-i18n source: 6f10cf5f564ec840 -->
 <!-- wiki-i18n title: Panoramica -->
 # Panoramica degli oggetti {#items-overview}
 
@@ -118,6 +118,7 @@ Il Negozio, l’inventario dell’Hangar e le altre liste di oggetti seguono un 
 - **Repair Drone**: extra che riparano il tuo scafo, ciascuno più veloce del precedente: Repair Drone I, II e III costano 5.000, 15.000 e 35.000 crediti, il Repair Drone IV 2.000 Thulium. I valori sono in [Combattimento](/wiki/03-Mechanics/Combat.md).
 - **Cloaking CPU**: extra per combattere o per fuggire: un Cloaking CPU nasconde la tua nave finché non lo interrompi (S, M e L: 10, 25 e 50 usi, 5.000, 11.250 e 20.000 Thulium). Vedi [Extra](/wiki/06-Items/Extras.md).
 - **EMP Charge**: un consumabile che porti in una pila, come i razzi, e che non occupa nessuno slot (500 Thulium a carica, al massimo 20): ti rende non bersagliabile per 3 secondi, spezza ogni aggancio su di te e termina ogni occultamento vicino. Vedi [Razzi](/wiki/06-Items/Rockets.md#emp-charge).
+- **Energetic Wall I e II**: anch’esse consumabili, che porti in una pila e che non occupano nessuno slot: una pressione alza sul tuo cursore una parete di plasma che incassa i colpi al posto tuo. La I costa 250 Thulium la parete nel Negozio (al massimo 20), la II si crea in Assemblaggio, una per lavorazione (al massimo 10). Vedi [Extra](/wiki/06-Items/Extras.md#energetic-wall).
 - **CPU di ricerca**: le Extra Slots CPU aggiungono slot extra a ogni nave, la Jump CPU ti porta in un settore di corporazione in cambio di Thulium, le Base CPU ti riportano a casa e l’Auto-Repair CPU lancia da sola il tuo Repair Drone. Non si vendono: si ricercano e poi si creano nell’Assemblaggio. Vedi [Extra](/wiki/06-Items/Extras.md#research-cpus).
 - **Formazioni di droni**: sedici oggetti per i tuoi droni che danno bonus e fanno pagare costi, come uno scudo più grande in cambio di armi più deboli. Non si vendono: ricercale, poi costruiscile all’Assemblaggio in cambio di Thulium. Vedi [Formazioni di droni](/wiki/03-Mechanics/Formations.md).
 - **Risorse**: ciò che lasciano gli alieni e che lo Skylab produce per la creazione: Ship Fragment, i quattro cristalli, i Power Core, le piastre di Velkonite e Orvium, e due che arrivano da altrove: la **Dark Matter**, che il [buco nero](/wiki/03-Mechanics/Black-Hole.md) restituisce in cambio di un razzo N.I.K.E., e la **Dark Matter Plate** che l’Assemblaggio pressa da essa per l’ultimo tier di ogni catena di potenziamento e per i due passi più alti della [Forgia](/wiki/06-Items/Forge.md).

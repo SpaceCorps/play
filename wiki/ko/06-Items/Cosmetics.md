@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d605c9f1ab4311f8 -->
+<!-- wiki-i18n source: 65309b17cbdf0785 -->
 <!-- wiki-i18n title: 코스메틱 -->
 # 코스메틱 {#cosmetics}
 
@@ -8,6 +8,10 @@
 
 > [!NOTE]
 > **아직은 아무것도 구매하거나 얻을 수 없습니다.** 지금은 관리자가 모든 외형을 발급합니다. 격납고는 갖고 있지 않은 외형을 “아직 얻을 수 없습니다”라고 표시하며, 외형을 받으면 알림이 뜨고 부드러운 차임이 울립니다.
+
+![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
+![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
 ## 1분 요약 {#in-one-minute}
 

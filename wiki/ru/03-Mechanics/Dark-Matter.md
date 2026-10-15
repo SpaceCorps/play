@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd7db9b63b944c54 -->
+<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter и Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -7,6 +7,7 @@
 **Dark Matter** — ресурс, на котором держатся вершина дерева технологий, две высшие ступени Кузницы и последняя ступень каждой цепочки улучшений. Её нельзя ни купить, ни добыть, и обычные пришельцы её не роняют: вы **делаете её у чёрной дыры (black hole)**, стреляя в неё ракетами **N.I.K.E.**, и подбираете контейнеры, которые дыра выбрасывает обратно. **Dark Matter Plate** прессуется в Сборочном цехе из Dark Matter, когда вы изучили её рецепт. Эта страница рассказывает, откуда берётся каждая из них, для чего нужна и в каком порядке всё делать. С 11-го дня сезона Dark Matter — ещё и **топливо гигантских экскаваторов** ([Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)), а несколько пришельцев [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) понемногу роняют её.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
+![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
 
 ## За одну минуту {#in-one-minute}
 

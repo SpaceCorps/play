@@ -1,8 +1,14 @@
-<!-- wiki-i18n source: 09dffefbb5a83523 -->
+<!-- wiki-i18n source: a0d1cdf6c80cfe4b -->
 <!-- wiki-i18n title: オークション -->
 # オークション {#auction}
 
-オークションは、パイロット同士のマーケットと、ゲーム自身による毎時のロットを、ステーションメニューの1ページにまとめたものです。飛行中はウィンドウとして開きます。左上のツールバーの**オークション**ボタン（木槌）が、同じページをゲームの上に表示し、ウィンドウの位置とサイズは記憶されます。ステーションと同じように使えますが、弾薬、ロケット、EMP Charge は飛行中は船が数えているため、出品はステーションから行います（出品シートにはロックされた状態で理由とともに表示されます）。購入と入札はどこからでもできます。5つのセクションがあります。**マーケット**は、ほかのパイロットが売っているものです。**ロット**はゲーム自身の出品で、毎時3つ出ます。**Davidski**は飛び回る商人の在庫で、オークションが扱うすべての種類を、ショップの価格の何倍もの値段で売っています。ショップが販売しないものは、彼から買うのが最後の手段になるほど高く、クラフトに使うレア資源はさらにその千倍です（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**自分の出品**は、あなた自身が売りに出しているものです。**履歴**は、あなたの売却、購入、落札したロットと、取引の成績です。
+オークションは、パイロット同士のマーケットと、ゲーム自身による毎時のロットを、ステーションメニューの1ページにまとめたものです。飛行中はウィンドウとして開きます。左上のツールバーの**オークション**ボタン（木槌）が、同じページをゲームの上に表示し、ウィンドウの位置とサイズは記憶されます。ステーションと同じように使えますが、弾薬、ロケット、EMP Charge は飛行中は船が数えているため、出品はステーションから行います（出品シートにはロックされた状態で理由とともに表示されます）。購入と入札はどこからでもできます。4つのセクションがあります。**マーケット**は、ほかのパイロットが売っているもので、その出品の中に、飛び回る商人の在庫も並びます。オークションが扱うすべての種類を、ショップの価格の何倍もの値段で売る行で、金色の彼の名前、**NPC**のバッジ、無限大の記号が付いています。ショップが販売しないものは、彼から買うのが最後の手段になるほど高く、クラフトに使うレア資源はさらにその千倍です（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**ロット**はゲーム自身の出品で、毎時3つ出ます。**自分の出品**は、あなた自身が売りに出しているものです。**履歴**は、あなたの売却、購入、落札したロットと、取引の成績です。
+
+![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
+![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
+![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
 
 <!-- market-glance:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -50,8 +56,8 @@
 | **スラスター** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Ultra Core（10個単位）, Experimental Fusion Core | 5 |
 | **ロケット** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
-| **消耗品** | EMP Charge | 1 |
-| **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, Energetic Wall II, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 11 |
+| **消耗品** | EMP Charge, Energetic Wall II | 2 |
+| **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **資源** | Cataclysite（100個単位）, Ship Fragment（100個単位）, Daraxium（100個単位）, Nyxite（100個単位）, Quorvium（10個単位）, Reinforced Hull Plate（10個単位）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -132,6 +138,8 @@ Thuliumでの価格には、ルールが1つだけあります。クレジット
 ## 買う {#buying}
 
 **マーケット**には、ほかのパイロットが売っているものが並びます。**カテゴリのチップ**（アイテムの種類ごとに1つで、含まれる出品数が付きます）で一覧を絞り込み、名前で検索し、エンチャントと通貨で絞り込み、価格順、終了が近い順、新しい順で並べ替えられます。出品を選ぶと、それが何か、誰が売っているか、いつまで続くか、そして価格が直近の売却価格、今の最安値、ショップの価格と比べてどうかが分かります。スタックは整数のロット単位で買います。大きな購入では、もう一度確認が出ます。販売者には税を引いた額がすぐに支払われます。あなたは出品料も税も払いません。買ったものは**出品可能ではありません**。**購入**ボタンの隣にページが「入手するもの：取引不可」と表示するのは、売れるのは自分で獲得したものだけだからです。自分の出品は買えません。見ている間に売れた出品には、「その出品はもうありません。」と表示されます。
+
+**Davidskiの行**は、パイロットの出品の中に並びます。彼が売るすべての種類に、クレジットの行とThuliumの行が1つずつあり、金色の彼の名前、**NPC**のバッジ、数量と残り時間の位置に無限大の記号が付きます。彼の在庫は尽きることがなく、彼は閉まることもありません。検索、カテゴリのチップ、エンチャントと通貨の絞り込みは、ほかの出品と同じように彼の行を絞り込みます（彼のアイテムは標準なので、ほかのエンチャントでは表示されません）。価格順では数字の示す位置に、パイロットの価格と並んで置かれ、**終了が近い順**と**新着順**ではパイロットの出品のあとに来ます。1つを選んで**購入**すると、パイロットではなく彼のところへ行きます（[Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)）。彼の価格はショップの何倍もで、1日の購入上限には数えられず、支払う相手の販売者はおらず、手に入るものは出品可能ではありません。彼は、価格の目安にも、履歴にも、統計にも含まれません。これらはパイロットだけのものです。
 
 ## 上限 {#limits}
 

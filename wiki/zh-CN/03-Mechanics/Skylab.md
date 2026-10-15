@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 16e2e757d007eead -->
+<!-- wiki-i18n source: 0a5a114c67d5c795 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -19,9 +19,17 @@ Skylab 是你的私人轨道设施。它建造并升级各种模块：这些模�
 > [!NOTE]
 > **0.4.21 的变化。** 核心从 14 级到 15 级的那一步现在要多花 **4,000 Thulium**，完成后会出现第二座**桥梁**和**核心 3**，带有四个新槽位。太阳能搬到核心 3，并从 15 级起产出更多电力，所以满配的空间站仍然供得上电。四个新模块占用这些槽位：**引擎模块**、**防御模块**、**雷达模块**和**战利品舱**，有了它们，你的 Skylab 会在**宇宙地图**上飞行，自己狩猎，并把战利品带回家（见[远征](#expeditions)）。每个模块现在都有**重量**，空间站及其引擎的重量决定它飞得多快（见[重量与速度](#weight-and-speed)）。**矿石舱**每小时转移的矿石是原来的三倍，保留的额度也是原来的三倍。你已经建好的东西不会丢失：核心已在 15 级或更高的话，会立刻拥有核心 3，且不用付任何费用。
 
-![The Skylab station fully grown](../../img/wiki-img/shots/skylab-station.jpg)
+![The Skylab of a Core 20 with the second bridge: Core 3 carries the Engine, Defense and Radar Modules and the Trophies Bay](../../img/wiki-img/shots/skylab-core3.jpg)
+![The Rocket Factory's sheet: the rocket it makes, the room to carry and its storage](../../img/wiki-img/shots/skylab-factory.jpg)
+![The Ore Bay's sheet: the ores it moves and banks for you and how much it holds](../../img/wiki-img/shots/skylab-orebay.jpg)
+![The Ammo Printer's Build sheet: its price in Credits, Thulium and Ship Fragments](../../img/wiki-img/shots/skylab-printer-build.jpg)
+![The Ammo Printer's sheet: its mode, rate, storage and what the next level gives](../../img/wiki-img/shots/skylab-printer.jpg)
+![The Skylab station fully grown, seen from the side as the page opens: three Cores in a row with their bridges, every module with its name tag, the Labels switch at the bottom left](../../img/wiki-img/shots/skylab-station.jpg)
 ![The Resource Storage card of the Skylab](../../img/wiki-img/shots/skylab-storage.jpg)
-![The Skylab table of modules: level, production, storage and power of every module, with the 0.4.10 numbers](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab table of modules: level, production, storage, power and status of every module, from the Core to the Trophies Bay](../../img/wiki-img/shots/skylab-table.jpg)
+![The Skylab hunting in a cell of the Universe map: its hull and kills, the cell, the Defense and Engine Modules and the Trophies Bay filling, and Recall](../../img/wiki-img/shots/skylab-trip.jpg)
+![The Trophies Bay's sheet: its level and the capacity the trophies of a trip are kept in](../../img/wiki-img/shots/skylab-trophies.jpg)
+![The Universe map: 150 hexagonal cells, the ports, the cells you know and the cells the Radar can still scan, marked with a question mark](../../img/wiki-img/shots/skylab-universe.jpg)
 
 ## 一分钟了解 {#in-one-minute}
 
@@ -624,12 +632,12 @@ Skylab 有一个**船体**，一个生命值池，**每小时恢复自身的 5%*
 你的 Skylab 电力预算有限。
 
 - **收支**：让你的太阳能发电量高于其他所有模块的用电量。Skylab 页面会显示收支，并在某次建造会使其低于零之前发出警告。
-- **太阳能跟得上**：N 级太阳能模块产出**所有其他模块在 N 级时**的电力（核心、两个农场、资源仓库、两个采集器和锻造厂，10 级起还有研究中心和矿石舱），再多出大约十分之一，所以模块都在 7 级的空间站需要 7 级太阳能，并能供得上。低一级的太阳能不够满配的空间站（最后一列），所以太阳能仍要跟着其余模块一起升。核心耗电少，所以可以走在前面：5 级及以上的太阳能，无论核心在哪一级，都能供满配空间站在它那一级的用电。下面的表格还计入了从 7 级起的弹药打印机、从 10 级起的火箭工厂和矿石舱，以及从 15 级起的引擎模块、防御模块、雷达模块和战利品舱，每个最多算到它自己的最高等级。
+- **太阳能跟得上**：N 级太阳能模块产出**所有其他模块在 N 级时**的电力（核心、两个农场、资源仓库、两个采集器和锻造厂，10 级起还有研究中心和矿石舱），再多出大约十分之一，所以模块都在 7 级的空间站需要 7 级太阳能，并能供得上。低一级的太阳能不够满配的空间站（最后一列），所以太阳能仍要跟着其余模块一起升。核心耗电少，所以可以走在前面：5 级及以上的太阳能，无论核心在哪一级，都能供满配空间站在它那一级的用电。下面的表格还计入了从 7 级起的弹药打印机、从 10 级起的火箭工厂和矿石舱，以及从 11 级起的引擎模块、防御模块、雷达模块和战利品舱（它们从核心 15 级起才能建造，但核心可能领先于太阳能，所以提前 4 级计入），每个最多算到它自己的最高等级。
 - **启用状态**：你可以开关农场、采集器和锻造厂来管理电力。核心、太阳能、资源仓库和研究中心始终运行。弹药打印机、火箭工厂和矿石舱也可以开关，远征的四个模块也一样（航行进行时不行）。
 - **电力不足**：如果用电量高于发电量，所有农场和采集器都会停止生产，直到平衡恢复。它们已存的东西仍在，你依然可以收取。锻造厂不开始新的批次，研究中心不开始新的研究（已在进行的研究会继续）。弹药打印机、火箭工厂和矿石舱会像农场和采集器一样停工。防御模块不与任何东西交战，雷达的扫描停下，也不能开始任何航行（已在进行的航行会继续）。
 - **太阳能升级**：太阳能升级期间只产生四分之一的电力，所以除非你的其他模块比它低得多，空间站就会出现电力不足，农场和采集器会停工，直到升级完成（见[太阳能模块](#solar-module)）。
 
-太阳能在每一级的电力，与其他模块在同一级的用电对照（该级的每个模块，含核心，10 级起含研究中心和矿石舱，15 级起含远征的四个模块）：
+太阳能在每一级的电力，与其他模块在同一级的用电对照（该级的每个模块，含核心，10 级起含研究中心和矿石舱，11 级起含远征的四个模块）：
 
 <!-- skylab-power:start -->
 <!-- Generated from server/Resources/SkylabConfig.json by docs/design/skylab-power-model.py --doc (--check fails while this part is behind). -->
@@ -646,11 +654,11 @@ Skylab 有一个**船体**，一个生命值池，**每小时恢复自身的 5%*
 | 8 | 1,185 | 1,076 | 109 | 965：不足 111 |
 | 9 | 1,460 | 1,327 | 133 | 1,185：不足 142 |
 | 10 | 2,035 | 1,849 | 186 | 1,460：不足 389 |
-| 11 | 2,490 | 2,260 | 230 | 2,035：不足 225 |
-| 12 | 3,055 | 2,774 | 281 | 2,490：不足 284 |
-| 13 | 3,765 | 3,421 | 344 | 3,055：不足 366 |
-| 14 | 4,660 | 4,235 | 425 | 3,765：不足 470 |
-| 15 | 6,325 | 5,748 | 577 | 4,660：不足 1,088 |
+| 11 | 2,995 | 2,721 | 274 | 2,035：不足 686 |
+| 12 | 3,565 | 3,241 | 324 | 2,995：不足 246 |
+| 13 | 4,285 | 3,893 | 392 | 3,565：不足 328 |
+| 14 | 5,185 | 4,713 | 472 | 4,285：不足 428 |
+| 15 | 6,325 | 5,748 | 577 | 5,185：不足 563 |
 | 16 | 7,765 | 7,055 | 710 | 6,325：不足 730 |
 | 17 | 9,585 | 8,711 | 874 | 7,765：不足 946 |
 | 18 | 11,895 | 10,812 | 1,083 | 9,585：不足 1,227 |
@@ -712,7 +720,7 @@ Skylab 要花几周才能长大，所以稍加规划是值得的。数值就是�
 | 9 至 10 | 3 小时 | 3 | 29,250 | 912 |
 | 10 至 11 | 4 小时 | 5 | 45,000 | 1,440 |
 | 11 至 12 | 5 小时 | 6 | 67,500 | 2,200 |
-| 12 至 13 | 6 小时 | 6 | 99,000 | 3,120 |
+| 12 至 13 | 6 小时 | 7 | 99,000 | 3,120 |
 | 13 至 14 | 8 小时 | 7 | 156,000 | 4,800 |
 | 14 至 15 | 10 小时 | 8 | 225,000 | 6,800 |
 | 15 至 16 | 12 小时 | 9 | 306,000 | 9,120 |

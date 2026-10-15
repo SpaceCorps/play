@@ -1,10 +1,12 @@
-<!-- wiki-i18n source: a7f59fe15502fedf -->
+<!-- wiki-i18n source: df5b37694d9bfff2 -->
 <!-- wiki-i18n title: Corazza dello scafo -->
 # Corazza dello scafo {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; corazza; slot corazza; piastra dello scafo -->
 
 Lo studio dello sciame Dormant ha mostrato progressi nella tecnologia delle corazze. Con questa tecnologia le navi possono migliorare il proprio scafo: la **corazza dello scafo** è una corazza che si monta in uno slot per piastre dello scafo di una nave costruita e le aggiunge punti scafo. Non è l’Hull Plating **Booster** della pagina [Booster](/wiki/06-Items/Boosters.md), che è un bonus a tempo.
+
+![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
 <!-- item-tree:begin -->
 <!-- Generated from server/Data/Seeds/{items,recipes}.json and Resources/Rockets.json by scripts/trees-wiki.sh: don't edit by hand. -->

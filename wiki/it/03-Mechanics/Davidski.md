@@ -1,14 +1,16 @@
-<!-- wiki-i18n source: 95c387e11c2a68c1 -->
+<!-- wiki-i18n source: a4d9008fb9fa56fb -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
 Davidski è un mercante che vola. È una nave NPC pacifica che esce una volta al giorno, a un’ora che nessuno annuncia, e pattuglia un [settore pericoloso](/wiki/01-General/Danger-Sectors.md) alla volta, ha il miglior equipaggiamento del gioco e vende ogni oggetto che l’[asta](/wiki/03-Mechanics/Auction.md) elenca, con scorte infinite, a molte volte il prezzo del Negozio. Non appartiene a nessuna corporazione, compare nell’Albo d’oro come un pilota e non spara mai per primo. Compri da lui all’asta, e puoi combatterlo nello spazio.
 
+![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+
 ## Dove si trova {#where-he-is}
 
 - **Una volta al giorno, senza annuncio**: in ogni [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) esce una volta per giorno UTC, in un momento tra le 00:00 e le 20:00 UTC che è diverso in ogni mondo e ogni giorno. Nessuno viene avvisato: né in chat, né nel registro di gioco, né con un avviso. Vola finché non viene distrutto o il giorno finisce.
 - **Un settore pericoloso al giorno**: vola su `DS-1`, `DS-2` e `DS-3` a turno, uno al giorno, e in ogni mondo la sua nave è sullo stesso settore.
-- **Come trovarlo**: guardando. Lo vedono solo i piloti nel settore in cui vola: il suo nome è dorato, con un negozio davanti, e la minimappa lo disegna come un punto dorato dentro un anello. La mappa galattica non lo mostra. La sezione **Davidski** dell’asta dice solo se oggi è fuori: **Vola oggi**, **Oggi non è uscito** o **Distrutto oggi**. Non dice mai dove né quando.
+- **Come trovarlo**: guardando. Lo vedono solo i piloti nel settore in cui vola: il suo nome è dorato, con un negozio davanti, e la minimappa lo disegna come un punto dorato dentro un anello. La mappa galattica non lo mostra. I dettagli di una sua riga nell’asta dicono solo se oggi è fuori: **Vola oggi**, **Oggi non è uscito** o **Distrutto oggi**. Non dicono mai dove né quando.
 - **A fine giornata** se ne va quando nessuno lo colpisce da un minuto. Uno scontro non viene mai interrotto dalla mezzanotte: dopo 15 minuti se ne va, qualunque cosa succeda. Il Davidski del giorno dopo esce nel momento del giorno dopo, sul settore successivo.
 - **Dopo un reset** la sua nave viene rifatta, ma il suo giorno viene ricordato: se era fuori e non era stato distrutto, è di nuovo lì subito; se era stato distrutto, resta via fino al giorno dopo.
 
@@ -50,7 +52,7 @@ La cassa contiene da 40 a 60 Ship Fragment, da 10 a 20 Power Core e da 3.000 a 6
 
 ## Comprare da lui {#buying-from-him}
 
-La sezione **Davidski** dell’asta elenca ogni tipo di oggetto che l’asta elenca, 83 in tutto, con il prezzo di un lotto:
+Le sue scorte sono nell’elenco del **Mercato** dell’asta, tra le inserzioni dei piloti: una riga per ciascuno degli 83 tipi che l’asta elenca, in crediti e in Thulium (166 righe), con il prezzo di un lotto, con il suo nome in oro, un distintivo **NPC** e un segno di infinito per la quantità e il tempo rimasto. La ricerca, le categorie e i filtri di incantamento e di valuta del Mercato restringono le sue righe come qualsiasi inserzione (i suoi oggetti sono Standard), e i suoi ordinamenti le mettono dove dice il loro numero: per prezzo accanto ai prezzi dei piloti, dopo le inserzioni dei piloti sotto **In scadenza** e **Più recenti**. Scegline una per vedere i dettagli e **Compra: …**; l’acquisto va a lui, non a un pilota. I prezzi:
 
 - **100 volte il prezzo del Negozio in crediti e 40 volte in Thulium** per gli oggetti che il Negozio vende; un prezzo del Negozio in una valuta vale nell’altra a 200 crediti per Thulium. Un Repair Drone I (5.000 crediti al Negozio) costa 500.000 crediti o 1.000 Thulium, un Quantum Laser I 800.000 crediti o 1.600 Thulium, i razzi da 50.000 a 100.000 crediti l’uno. I due prezzi non valgono uguale: a 200 crediti per Thulium, 1.000 Thulium sarebbero solo 200.000 crediti.
 - **L’equipaggiamento che il Negozio non vende è la sua ultima spiaggia: 200 volte il valore di riferimento in crediti e 80 volte in Thulium**, almeno 50 volte quanto costa la via più economica per ottenerlo (crearlo da te, o il prezzo di un altro pilota). Un Quantum Laser III costa 84.966.000 crediti o 169.932 Thulium, un Helios Beam 682.192.400 crediti o 1.364.388 Thulium e un Hull Plating III 1.271.074.400 crediti o 2.542.152 Thulium. Queste righe portano un piccolo distintivo **Ultima spiaggia**, come le risorse rare qui sotto.
@@ -58,7 +60,7 @@ La sezione **Davidski** dell’asta elenca ogni tipo di oggetto che l’asta ele
 - **Le sue scorte non finiscono mai.** Un acquisto prende fino a 1.000 lotti (25 pezzi di un oggetto che non è una pila), e un razzo si porta fino alla sua pila come ovunque.
 - **Nessun limite giornaliero.** Il limite giornaliero d’acquisto dell’asta e il limite tra due piloti valgono per piloti che comprano da piloti; lui non è nessuno e nulla passa a nessuno. Non ci sono né imposta né deposito: ciò che paghi sparisce dal gioco.
 - **Ciò che ottieni è un oggetto semplice**: non [vendibile](/wiki/03-Mechanics/Auction.md#marketable-items), quindi non può essere messo in vendita per un altro pilota.
-- **Valgono le regole dell’asta**: livello 5, la pausa, un divieto e i giorni di chiusura dell’asta. La sua sezione funziona che stia volando o no.
+- **Valgono le regole dell’asta**: livello 5, la pausa, un divieto e i giorni di chiusura dell’asta. Le sue righe sono le stesse, che stia volando o no, e non c’è nulla da annullare o su cui fare offerte.
 
 ## Classifiche {#rankings}
 
