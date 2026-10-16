@@ -66,9 +66,9 @@
 
   "shots.title": "In the game",
   "shots.lede": "Real frames from the client, rendered by its own engine.",
-  "shots.combat.alt": "Flight: the pilot's ship trades laser fire with a shielded Seeker alien over a red nebula, a ringed planet behind them and the HUD around the edges.",
+  "shots.combat.alt": "Flight: the pilot's Wraith trades laser fire with a Bulwark alien over a blue nebula, a shield bubble around the ship and the HUD around the edges.",
   "@shots.combat.alt": "Image descriptions (alt) are read aloud by screen readers. Seeker, Wraith, Protos: names from the game, keep them.",
-  "shots.combat.caption": "Combat in sector M-1: lasers, return fire and shields against a Seeker.",
+  "shots.combat.caption": "Combat in sector T-3: lasers, return fire and shields against a Bulwark.",
   "shots.station.alt": "The pilot's ship flying over the giant ring of the Mission Control station, an explosion flaring on its hull.",
   "shots.station.caption": "Mission Control, the company's station",
   "@shots.station.caption": "Mission Control is the station's name in the game: keep it.",

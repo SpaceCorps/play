@@ -45,8 +45,8 @@
 
   "shots.title": "游戏画面",
   "shots.lede": "来自客户端的真实画面，由其自研引擎渲染。",
-  "shots.combat.alt": "飞行中：在红色星云上空，飞行员的战舰与开着护盾的外星人 Seeker 激光对射，背后是一颗带环的行星，画面四周是 HUD。",
-  "shots.combat.caption": "M-1 星区的战斗：激光、还击与护盾，对抗 Seeker。",
+  "shots.combat.alt": "飞行中：在蓝色星云上空，飞行员的 Wraith 与外星人 Bulwark 激光对射，战舰周围有护盾球，画面四周是 HUD。",
+  "shots.combat.caption": "T-3 星区的战斗：激光、还击与护盾，对抗 Bulwark。",
   "shots.station.alt": "飞行员的战舰飞越 Mission Control 空间站的巨大圆环，船体上爆炸闪耀。",
   "shots.station.caption": "企业的空间站：Mission Control",
   "shots.wraith.alt": "游戏内百科的 Wraith 页面：涂装战列舰在全息台上旋转，旁边是它的性能参数。",

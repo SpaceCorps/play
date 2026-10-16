@@ -45,8 +45,8 @@
 
   "shots.title": "ゲーム画面",
   "shots.lede": "クライアント独自のエンジンで描画した、実際のゲーム画面です。",
-  "shots.combat.alt": "飛行中：赤い星雲の上で、パイロットの艦がシールドを張ったエイリアン Seeker とレーザーを撃ち合っている。背景には環のある惑星、画面の周囲には HUD。",
-  "shots.combat.caption": "セクター M-1 での戦闘：レーザーと反撃、シールドで Seeker に挑む。",
+  "shots.combat.alt": "飛行中：青い星雲の上で、パイロットの Wraith がエイリアン Bulwark とレーザーを撃ち合っている。艦の周囲にはシールドの球、画面の周囲には HUD。",
+  "shots.combat.caption": "セクター T-3 での戦闘：レーザーと反撃、シールドで Bulwark に挑む。",
   "shots.station.alt": "パイロットの艦が Mission Control ステーションの巨大なリングの上を飛び、その船体で爆発が起きている。",
   "shots.station.caption": "企業のステーション、Mission Control",
   "shots.wraith.alt": "ゲーム内 Wiki の Wraith のページ：塗装された戦艦がホログラムの台座の上で回転し、横に性能が表示されている。",
