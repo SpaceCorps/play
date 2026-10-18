@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### 드론 {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### 함선 {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 ## Skylab 모듈 {#module-technologies}
 
 연구 화면의 Skylab 계열에는 제작이 아닌 기술이 하나 더 있습니다. 코어 레벨 15가 해금하는 **엔진 모듈**, **방어 모듈**, **레이더 모듈**의 각 레벨입니다. 레벨마다 전용 기술이 있고, 그 기술을 연구한 뒤에야 해당 레벨을 지을 수 있습니다. 각 모듈의 첫 레벨은 Dark Matter가 필요 없고, 이후에는 레벨이 오를수록 더 많이 필요합니다. 위의 트리에는 이들이 빠져 있습니다. 이들이 여는 것은 아이템이 아니라 모듈의 레벨이기 때문입니다. 이들의 Dark Matter는 위의 합계에 더해지며, [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) 문서가 합산합니다. 소요 시간과 각 모듈이 하는 일은 [Skylab](/wiki/03-Mechanics/Skylab.md) 문서에 있습니다.
+
+## 파일럿 {#pilot-technologies}
+
+연구 화면의 파일럿 계열에는 제작이 아닌 기술이 있습니다. 어셈블리에서 아무것도 만들지 않습니다. 대부분은 당신을 위한 **영구 강화**입니다. 위의 트리에는 이들이 빠져 있습니다. 이들이 여는 것은 아이템이 아니라 강화이기 때문입니다.
+
+- **비용.** 강화는 과학과 Dark Matter 외에 **크레딧과 Thulium**도 요구합니다. 연구 센터는 연구를 시작할 때 모두 가져가고, 끝나기 전에 취소하면 모두 돌려줍니다.
+- **유지됩니다.** 다른 연구와 마찬가지로 이 기술들은 초기화 후에도 유지되며, 강화도 함께 유지됩니다.
+- **순서대로.** 각 레벨은 이전 레벨이 필요하고, 높은 레벨이 낮은 레벨을 대체합니다. 표에는 각 레벨이 주는 합계가 나오며, 더해지는 양이 아닙니다.
+- **Efficient Snacks**(Kabob, Pelmeni, Burger)는 보유한 모든 함선에 두 구성 모두 선체를 더해 줍니다.
+- **Sealed Backdoor**는 어디서 사고, 만들고, 거래하든 모든 로켓의 소지 한도를 늘려 줍니다.
+- **Excavator Mining**은 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)의 상자마다 얻는 양을 늘려 줍니다. Thulium도 광석도 마찬가지입니다.
+- **Field Theory**는 피격 시 실드가 흡수하는 비율을 늘려 줍니다. 실드가 없는 함선은 효과가 없습니다.
+- **Dormant Knowledge**는 연구가 센터에서 끝날 때 레벨마다 한 번씩 초기화 포인트를 지급합니다. 이전 레벨 외에, 다른 기술을 일정 비율 연구해 두어야 합니다(파일럿 계열의 기술은 포함되고 다섯 개의 Dormant Knowledge는 포함되지 않으며, 얻은 방법은 상관없습니다). 표에는 각 비율과 그것이 몇 개의 기술인지가 나옵니다.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| 기술 | 효과 | 먼저 필요한 기술 | 연구 시간 | Dark Matter | 크레딧 | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| 효율적인 간식: 케밥 | 모든 함선의 선체 +5,000 | – | 10시간 | 10 | 250,000 | 2,500 |
+| 효율적인 간식: 펠메니 | 모든 함선의 선체 +10,000 | 효율적인 간식: 케밥 | 1일 | 20 | 1,000,000 | 10,000 |
+| 효율적인 간식: 버거 | 모든 함선의 선체 +15,000 | 효율적인 간식: 펠메니 | 2일 | 30 | 3,500,000 | 35,000 |
+| 봉인된 뒷문 I | 로켓 소지 한도 +25% | – | 6시간 | 5 | 100,000 | 1,000 |
+| 봉인된 뒷문 II | 로켓 소지 한도 +50% | 봉인된 뒷문 I | 10시간 | 10 | 300,000 | 3,000 |
+| 봉인된 뒷문 III | 로켓 소지 한도 +100% | 봉인된 뒷문 II | 1일 | 15 | 750,000 | 7,500 |
+| 봉인된 뒷문 IV | 로켓 소지 한도 +150% | 봉인된 뒷문 III | 2일 | 25 | 1,750,000 | 17,500 |
+| 봉인된 뒷문 V | 로켓 소지 한도 +200% | 봉인된 뒷문 IV | 3일 | 40 | 3,500,000 | 35,000 |
+| 굴착기 채굴 I | 굴착기 산출 +20% | – | 1일 | 10 | 500,000 | 5,000 |
+| 굴착기 채굴 II | 굴착기 산출 +30% | 굴착기 채굴 I | 2일 | 20 | 1,500,000 | 15,000 |
+| 굴착기 채굴 III | 굴착기 산출 +40% | 굴착기 채굴 II | 3일 | 30 | 4,000,000 | 40,000 |
+| 장 이론 I | 실드 흡수 +2% | – | 1일 | 20 | 500,000 | 5,000 |
+| 장 이론 II | 실드 흡수 +3% | 장 이론 I | 2일 | 40 | 1,500,000 | 15,000 |
+| 장 이론 III | 실드 흡수 +5% | 장 이론 II | 3일 | 60 | 5,000,000 | 50,000 |
+| 잠든 지식 I | 초기화 포인트 +50 | 다른 기술의 20%(30/146개) | 1시간 | – | – | – |
+| 잠든 지식 II | 초기화 포인트 +50 | 잠든 지식 I; 다른 기술의 40%(59/146개) | 1시간 | – | – | – |
+| 잠든 지식 III | 초기화 포인트 +50 | 잠든 지식 II; 다른 기술의 60%(88/146개) | 1시간 | – | – | – |
+| 잠든 지식 IV | 초기화 포인트 +50 | 잠든 지식 III; 다른 기술의 80%(117/146개) | 1시간 | – | – | – |
+| 잠든 지식 V | 초기화 포인트 +50 | 잠든 지식 IV; 다른 기술의 100%(146/146개) | 1시간 | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## 모든 기술 {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3시간 | 10,800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10시간 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1일 | 86,400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10시간 | 36,000 | – |
 
 연구 시간별 등급:
 
@@ -423,11 +465,11 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30분 | 10 | 5시간 | 18,000 | 0 |
 | B | 3시간~6시간 | 20 | 2일 21시간 | 248,400 | 0 |
-| C | 10시간 | 16 | 6일 16시간 | 576,000 | 95 |
+| C | 10시간 | 17 | 7일 2시간 | 612,000 | 95 |
 | D | 1일~2일 | 23 | 28일 | 2,419,200 | 319 |
-| 전체 |  | 69 | 37일 18시간 | 3,261,600 | 414 |
+| 전체 |  | 70 | 38일 4시간 | 3,297,600 | 414 |
 
-하나씩 차례로 연구하면 트리 전체에 37일 18시간이 걸립니다. 부스트를 계속 켜 두면 18일 21시간이 걸리며, 부스트 19개와 Thulium 95,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 38일 4시간이 걸립니다. 부스트를 계속 켜 두면 19일 2시간이 걸리며, 부스트 20개와 Thulium 100,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1일 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15분 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6시간 | – | 15,000 | 10분 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6시간 | – | 600 | 2분 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10시간 | – | 20,000 | 15분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 
@@ -482,6 +525,13 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 - **기능.** 직접 출격시킬 수 있는 상황이 될 때마다, 부가 슬롯에 장착한 Repair Drone을 자동으로 출격시킵니다. 선체가 가득 차지 않았고, 드론이 이미 나와 있지 않으며, 마지막 피격 후 10초가 지났을 때입니다. 선체 기준치를 설정할 필요는 없습니다.
 - 전용 부가 슬롯을 하나 차지하며, 같은 구성의 부가 슬롯에 Repair Drone이 없으면 아무것도 하지 않습니다. 능력 슬롯에 있는 Repair Drone은 내보내지 않습니다(그것은 Emergency Repair 버튼입니다).
 - **드론을 직접 멈추면** 선체가 다시 가득 차거나 직접 드론을 출격시킬 때까지 CPU는 건드리지 않습니다.
+
+### Auto-Rocket CPU
+
+- **기능.** ON인 동안 전투 중(레이저가 외계인이나 적 파일럿을 겨누고 있을 때)에는, 로켓 발사 키를 눌러 쓸 수 있는 상황이 될 때마다 마지막에 쏜 로켓을 그 대상에게 자동으로 발사합니다. 조건은 로켓 타이머가 끝났고 그 로켓이 하나 이상 남아 있는 것입니다. 서버는 내가 쏠 때와 똑같이 발사마다 확인합니다.
+- **스위치.** 부가 장비 슬롯에 장착하고 ARL 슬롯을 눌러 ON과 OFF를 전환하세요. 처음엔 OFF이며, 다시 로그인해도 마지막으로 둔 상태 그대로입니다. 슬롯에 ON 또는 OFF가 표시되고 CPU가 발사할 때 빛납니다.
+- **절대 하지 않는 것.** 대상을 스스로 고르지 않고, 소행성에는 쏘지 않으며, 안전 지대 안이나 은폐 중에는 쏘지 않고, N.U.K.E.와 N.I.K.E.도 쏘지 않습니다. 내가 직접 쏜 로켓은 언제나 작동합니다. 3분 동안 키 입력, 클릭, 마우스 이동이 없으면 내가 무언가 할 때까지 대기합니다.
+- **로켓이 없을 때.** 한 번만 알려 주고, 로켓이 생기면 곧바로 다시 발사합니다.
 
 
 <!-- research-cpus:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Chaque vaisseau a un nombre fixe d’emplacements de compétence dans le hangar�
 - **Ironclad** : 3 emplacements
 - **Wraith** : 3 emplacements
 
-Un emplacement de compétence accepte un **bouclier**, un **moteur** ou un **Repair Drone**, et chacun donne sa propre compétence. Faites glisser l’objet sur l’emplacement. La configuration 1 et la configuration 2 ont chacune leurs propres emplacements.
+Un emplacement de compétence accepte un **bouclier**, un **moteur** ou un **Repair Drone**, et chacun donne sa propre compétence. Faites glisser l’objet sur l’emplacement. La configuration 1 et la configuration 2 ont chacune leurs propres emplacements. Dans le Hangar, un clic sur un bouclier, un moteur ou un Repair Drone le place dans son emplacement habituel, et dans le premier emplacement de compétence libre quand tous ses emplacements habituels (ceux des générateurs, ou ceux des extras pour un Repair Drone) sont pris.
 
 - **Les cellules de bouclier et les propulseurs ne vont pas dans un emplacement de compétence.** Ce sont des modules des boucliers, des moteurs et des cœurs adaptatifs.
 - **Un objet dans un emplacement de compétence n’apporte rien d’autre.** Il ne donne ni capacité de bouclier, ni recharge, ni absorption, ni vitesse, et aucun des ralentissements d’un bouclier. Un même Heavy Shield Core est soit dans un emplacement de générateur pour son bouclier à chaque instant, soit dans un emplacement de compétence pour son Surge. À vous de choisir.

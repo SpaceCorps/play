@@ -30,7 +30,7 @@ A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from
 2. **Open the panel.** Click the label. The **Giant excavator** sheet works while your ship is within the panel's range of the excavator (the *At a glance* list gives it). A cloaked ship can use it, and using it does not end the cloak.
 3. **Fuel it.** **Add Dark Matter** puts one Dark Matter from your cargo into the tank. Anyone can. The tank never takes more than the excavator can still burn before it overheats, so no fuel is wasted.
 4. **Choose what to mine** from the list, then press **Start mining**. It needs at least one Dark Matter in the tank and a resource. Anyone can change the choice until the start, and also while it runs (see *Switching the resource* below). The start is told to every pilot of the world, naming you, the sector and the resource.
-5. **Hold it.** While it mines a box lies down around the excavator every few seconds, and the first Slumbering Voids arrive soon after the start. A stream of light flows from the pulsar into the excavator's drill, surging each time one of the star's jets sweeps past; in the last minute before the overheat it flickers and breaks up, and when the machine rests it stops. Defend the excavator, and take the boxes.
+5. **Hold it.** While it mines a box lies down around the excavator every few seconds, and the first Slumbering Voids arrive soon after the start. A stream of light flows from the pulsar into the excavator's drill, surging with the star's beat, once every 4 seconds; in the last minute before the overheat it flickers and breaks up, and when the machine rests it stops. Defend the excavator, and take the boxes.
 6. **Watch the heat.** The Heat bar fills while the excavator mines and never empties while it waits. At its limit the excavator overheats. Leave before: the game warns the map twice.
 7. **It rests.** Overheated or destroyed, the excavator and its pulsar are irradiated until the rest is over; then it is ready again, with its heat back to nothing and its hull full.
 
@@ -56,7 +56,7 @@ If the fuel runs out before the limit, the excavator goes back to **Ready** with
 
 ## What it mines
 
-A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box is the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is.
+A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box holds the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is. What you take out of a box can differ, though: each level of the Pilot research Excavator Mining ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) raises the Thulium and the ore you pick up by 20%, 30% or 40% in all, rounded down.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

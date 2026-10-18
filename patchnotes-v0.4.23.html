@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.23 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.23: Redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU, lets you cancel a queued craft for a full refund…">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.23.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.23.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.23 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.23: Redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU, lets you cancel a queued craft for a full refund…">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.23.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.23 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.23",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.23.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.23.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.23.html",
+      "name": "SpaceCorps 2027 0.4.23 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.23: Redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU, lets you cancel a queued craft for a full refund…",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-18"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.23.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.23" aria-labelledby="v0.4.23-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.23-title">0.4.23 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-10-18" data-date>18 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.23">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.23 redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU, lets you cancel a queued craft for a full refund, use items by clicking the hotbar's pop-ups and equip a whole selection at once, stops pilots at asteroids, keeps an upgrade's buffs, gives the Quantum Laser I and II a 1 % critical chance, and changes three prices: the Master Drone costs more, the Credit Farm makes three times as much and the Challenge line pays more.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>A new look: islands.</strong> A sidebar that folds to an icon rail, the page's own tabs in a second header row, each page on a floating island, the chat and the flight windows too. It is new and large: <strong>18 pages</strong> are redrawn. The pages, tabs and buttons are the same ones.</li><li><strong>Pilot research: 19 technologies</strong> that make <em>you</em> stronger for good: +5,000 to +15,000 hull on every ship, +25 % to +200 % on the rockets you may carry, +20 % to +40 % from a giant excavator's boxes, +2 to +5 points of shield absorption, and Dormant Knowledge (50 Wipe Points each). <strong>24,150,000 Credits, 241,500 Thulium and 335 Dark Matter</strong> for the lot.</li><li><strong>Asteroids are solid.</strong> Ships go round them or stop at the edge, turn to the rock they fire at, and a straight rocket flies to your cursor.</li><li><strong>Cancel a queued craft</strong> (Production Queue, P.E.T. Cradle): <strong>everything comes back, no fee,</strong> the piece as it was.</li><li><strong>An upgrade keeps its buffs:</strong> a Godly Damage Amp III makes a Godly IV with the same buffs.</li><li><strong>Click an item in a hotbar pop-up to use it.</strong> <strong>Equip a whole selection</strong> in the Hangar, by drag or with one button.</li><li><strong>The Auto-Rocket CPU</strong> fires your armed rocket in a fight while it is ON. <strong>It starts OFF.</strong></li><li><strong>Three prices moved:</strong> the <strong>Master Drone</strong> takes 1,000,000 Credits, 5 Orvium and 5 Velkonite Reinforced Plates, 2 Ancient Control Units and 10 Dark Matter Plates (it was 20); the <strong>Credit Farm makes three times as much</strong> (225,000 an hour at level 20); <strong>Challenge tier IV pays double</strong> (tier V follows) and a claim may pay 200,000 Thulium.</li><li><strong>The Quantum Laser I and II have a 1 % critical chance,</strong> so the Forge can roll a crit buff on them.</li><li><strong>A much smaller stream, no cut-off on a slow line:</strong> <strong>98 % less data</strong> for a 0.4.23 game (<strong>35 to 53 %</strong> for a 0.4.22 one), and a slow connection gets <strong>fewer updates, not a disconnect</strong> (a 0.4.22 game's world can still lag).</li><li><strong>Smaller:</strong> guns that fire in series, a steadier pulsar, rock under the Excavator and the turrets, six quiet sounds, named credit sinks in Admin, and two games on one account that stop taking each other's messages.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Update the game.</strong> A 0.4.15 to 0.4.22 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.20), else the whole package; a 0.4.14 or older game downloads the whole package.</li><li><strong>There is nothing you have to do,</strong> except one thing: <strong>the Auto-Rocket CPU is OFF</strong> until you fit it and press its ARL slot.</li><li><strong>A 0.4.22 game keeps working but misses the new screens:</strong> no Pilot technologies listed (the server counts them), no cancel cross, no Auto-Rocket switch ("Update the game to use the Auto-Rocket CPU."), the old rocket limits printed. <strong>The rules change on the server at once,</strong> and so do the smaller stream and the slow-line rule.</li><li><strong>Your things change in six places:</strong> a Master Drone queued before the update cannot be cancelled; your first Credit Farm collection pays up to 72 hours at the new rate; upgrades keep buffs; Quantum Laser I and II have 1 % crit; pilots stop at rocks; a Challenge claim pays the new numbers.</li><li><strong>The Wardens: almost no change.</strong> 1 % crit makes Quantum Laser pilots do about 0.5 % more damage. With x2 ammo each Warden fight is 0.4 to 2.9 % shorter in the clans model (2 to 20 seconds) and <strong>no Warden's smallest crew changes</strong> (17 to 26 pilots; the Siege Warden III stays at 22). The owner decided to ship it, watch and tune later.</li><li><strong>New texts in other languages have had no native review.</strong></li></ul>
+        <h3>The island look</h3>
+        <ul><li><strong>A sidebar, a header, an island.</strong> The sidebar is <strong>212 points wide</strong> by default: drag its edge between 168 and 320, or fold it to a <strong>56-point icon rail</strong> (a click on the edge or the fold button; each way has a quiet sound of its own). A window narrower than 1,100 points starts with the rail, one narrower than 720 always has it. What you choose is kept in your account's settings, so it follows you to another computer.</li><li><strong>The header</strong> has the page's name and subtitle, your Premium state, Credits, Thulium, honor, sector and Launch; a <strong>second row</strong> holds the page's own tabs and actions (the Hangar's views and configurations, the Assembly's Crafting and Forge, the Season page's sections, the Clan's tabs). The pills shorten before the title is cut, and nothing was clipped at the sizes we looked at (1024x640, 1280x720 and 1920x1080).</li><li><strong>The chat</strong> is an island of its own along the island's foot: one line when folded, it grows upward when opened. <strong>The flight windows,</strong> their toolbars and the hotbar's dock are small islands with the same frame; nothing in them behaves differently.</li><li><strong>Pages converted:</strong> Dashboard, Hangar, Shop, Assembly, Season, Company, Galaxy Gates, Thulium, Auction, Clan, Rankings, Stats, Invite Friends, Wiki, Recipe Book, Builds, Settings and Admin. <strong>Not converted:</strong> the Skylab's own cards, view switch and Power plate (the station view fills the island), the Pilot window of the flight, the Builds import sheet and the sign-in, update and cursor cards.</li></ul>
+        <h3>Pilot research</h3>
+        <ul><li><strong>Where:</strong> the Research Centre's tree has a <strong>Pilot</strong> family. <strong>In series:</strong> each level needs the one before it, and a higher level <em>replaces</em> the lower: a level gives the total, not an addition. They stay through the wipe, like all research.</li><li><strong>Efficient Snacks</strong> (Kabob, Pelmeni, Burger): +5,000, +10,000 and +15,000 hull on every ship you own, in both configurations. 10, 20 and 30 Dark Matter; 250,000, 1,000,000 and 3,500,000 Credits; 2,500, 10,000 and 35,000 Thulium; 10 hours, 1 day and 2 days.</li><li><strong>Sealed Backdoor I to V:</strong> the most of a rocket you may carry, +25 %, +50 %, +100 %, +150 % and +200 % in all, rounded down: a stack of 5,000 becomes 6,250 and then 15,000. <strong>The N.U.K.E. and the N.I.K.E. follow it too</strong> (the N.U.K.E.'s 10 becomes 12 and then 30, the N.I.K.E.'s 20 becomes 25 and then 60). 5 to 40 Dark Matter, 100,000 to 3,500,000 Credits, 1,000 to 35,000 Thulium, 6 hours to 3 days.</li><li><strong>Excavator Mining I to III:</strong> +20 %, +30 % and +40 % of the Thulium and the ore you pick up from a giant excavator's box, rounded down (a box of three ores gains nothing at +20 %). 10, 20 and 30 Dark Matter; 500,000, 1,500,000 and 4,000,000 Credits; 5,000, 15,000 and 40,000 Thulium; 1 to 3 days.</li><li><strong>Field Theory I to III:</strong> +2, +3 and +5 points of shield absorption, flat, on any ship that has a shield. 20, 40 and 60 Dark Matter; 500,000, 1,500,000 and 5,000,000 Credits; 5,000, 15,000 and 50,000 Thulium; 1 to 3 days.</li><li><strong>Dormant Knowledge I to V:</strong> free, 1 hour each, <strong>50 Wipe Points once</strong> each (250 in all; an administrator's grant pays none). Each needs the level before and a share of the <em>other</em> technologies researched: 20 %, 40 %, 60 %, 80 % and 100 % of 146, which is <strong>30, 59, 88, 117 and 146</strong> technologies.</li><li><strong>You pay at the start:</strong> Dark Matter, Credits and Thulium are taken when the research starts (a queued one is paid when its turn comes) and <strong>a cancel gives back what the file lists at that moment.</strong> The Research Centre now has <strong>151 technologies</strong> (131 before: these 19 and the Auto-Rocket CPU).</li></ul>
+        <h3>Cancel in the Production Queue and the P.E.T. Cradle</h3>
+        <ul><li><strong>A cross on a running or waiting job,</strong> and a question on the same button: press it again within three seconds. On a block that stacks several jobs it cancels all of them. A job whose time is up is collected, not cancelled.</li><li><strong>Everything comes back, no fee:</strong> the Credits and the Thulium, every unit of every material (as plain units, never Marketable) and, for an upgrade, <strong>the very same piece</strong> with its tier, its buffs and its Marketable label. The jobs behind it move up. Only the time the job had run is lost. A Cradle job gives back its Cluster Chunk and its Orvium Reinforced Plate, and a cancelled discovery frees its type to be drawn again.</li><li><strong>A job queued before the update has no receipt:</strong> a cancel gives back what its recipe costs now (equipment: the piece at the tier and with the buffs its result holds). <strong>A Master Drone job or a ship's conversion into a design queued before the update cannot be cancelled</strong> ("This job can't be cancelled."): it finishes by itself, within a minute or the time of the jobs ahead of it.</li><li>A new quiet sound answers a cancel. A Skylab module's upgrade and a Forgery batch have no cancel.</li></ul>
+        <h3>Upgrades keep their buffs</h3>
+        <ul><li><strong>The rule:</strong> a piece used up in an upgrade (a Damage Amp III into a IV, a shield cell, a thruster, an Engine, an Adaptive Core, a Heavy Shield Core, a Quantum Laser II into a III, a Starfire-III into a Helios Beam, a Hull Plating) gives its <strong>tier and its buffs</strong>: the same stats, the same values, nothing rolled again. This reverses the rule of 2026-09-30 (the tier was kept, the buffs rolled again). It holds for all <strong>31 upgrade recipes</strong>.</li><li><strong>If the new item lacks a stat</strong> the piece had a buff on, that slot gets one fresh roll, so the number of buffs never falls. Cancelling the craft gives back the identical piece.</li><li><strong>A job queued before the update keeps the buffs it already rolled</strong> and is collected as stored.</li></ul>
+        <h3>The Master Drone</h3>
+        <ul><li><strong>New recipe (the owner's list of 2026-10-17):</strong> a Slave Drone of yours (turned in place, as before), 250 Ship Fragments, <strong>10 Dark Matter Plates (was 20), 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates, 2 Ancient Control Units, 1,000,000 Credits</strong> and 50,000 Thulium, 60 seconds. Its level and XP still start again at 0. A job queued before the update is not re-priced and finishes normally.</li></ul>
+        <h3>The Credit Farm</h3>
+        <ul><li><strong>Three times the output at every level:</strong> 2,250 Credits an hour at level 1, 33,750 at level 10 and 225,000 at level 20 (it was 750, 11,250 and 75,000). The hopper still holds 72 hours, the build and upgrade prices, times and power use are as they were, and the Thulium Farm is unchanged.</li><li><strong>Your first collection after the update pays the hours you have not collected at the new rate:</strong> up to <strong>72 hours</strong>, so a level 20 farm with a full hopper pays 16,200,000 Credits once where 5,400,000 would have been paid before. The farm is now 4.5 times the owner's table of 0.4.10 that the economy models are written against; the owner will watch the economy dashboard.</li><li>The Payday mission's brief and the Skylab and Quests articles say the new numbers (Payday: 1,000 Credits take about 27 minutes of a level 1 farm); the Skylab page and the Help card read the rate from the module's file.</li></ul>
+        <h3>Quantum Laser I and II: a 1 % critical chance</h3>
+        <ul><li><strong>The change:</strong> <code>criticalChance</code> 0 to 0.01 on both lasers (the Quantum Laser III has 10 %, the Starfire-III 15 %). Every pilot's average volley with them is about 0.5 % higher (1 % of volleys at x1.5), and the Company pilots' Quantum Laser II shoot with it too.</li><li><strong>The Forge</strong> now rolls three stats on them (damage, crit chance, range): the buffs a tier holds are <strong>0, 1, 2, 3 and 3</strong> at Standard, Tainted, Godly, Rupturing and Eternal (they were 0, 1, 2, 2, 2). A crit buff is a hundredth of a point and the card still reads 1 %.</li><li><strong>The Hangar's "highest volley"</strong> for a fit of Quantum Lasers I and II with no crit amp is <strong>1.5 times</strong> what it was (it counts a crit whenever the chance is above zero): three Quantum Laser II read 292.5 where they read 195. The Hangar's crit tile reads 1.0 % where it read 0.0 %. The average volley is the number to compare.</li><li><strong>The side effect, said plainly:</strong> it is small. In the clans model (the shipped Wardens, the tier's own gear, x2 ammo, none of the waves) the 1 % crit makes each Warden fight <strong>0.4 to 2.9 % shorter</strong> (2 to 20 seconds; the Siege Warden III's 22 pilots win in 8.0 minutes with it and without it), and the Brood Warden II and the Wrath Warden III lose one ship less. <strong>No Warden's smallest crew with x2 ammo changes</strong> (25, 17 and 24 pilots for the Brood, Siege and Wrath Wardens I and II, 18, 22 and 26 for the three Wardens III). With cheap x1 ammo one does: the Siege Warden I needs 26 pilots where it needed 27 (26 lose 16 ships in 18.4 minutes, where 27 lost 13 in 14.3 minutes). The Clans article's crew table counts each map's waves and the Crystalys, and two of its cells move (the Wrath Warden II on x-2 asks 36 pilots where 33 stood, on x-3 38 where 39 stood) and the Gamma figures move by one pilot in seven rows. <strong>The owner decided to ship it and watch;</strong> no Warden hull, shield, damage, wave or pay number moved. The work units of the clan line follow the pilots' damage, so 92 values in <code>ClanLines.json</code> move by 0.1 to 0.5 %.</li></ul>
+        <h3>Asteroids and pilots</h3>
+        <ul><li><strong>Solid rocks:</strong> a ship never ends a tick inside an asteroid. Told to fly to a place beyond one, it <strong>goes round</strong> on the side your order lies on; told to fly to a place inside one, it <strong>flies there and stops at the edge</strong>. A jump, a respawn and a launch land on the edge if the place is under a rock. A ship an asteroid was put on flies out and takes no damage for it. The aliens already went round rocks (0.4.20).</li><li><strong>Danger Sector 4's black hole:</strong> rocks now keep <strong>5,000 units</strong> from its centre (it was 4,200), so that going round a rock can never push a ship into the hole. Rocks also keep off every box and every mission item.</li><li><strong>Facing and aim:</strong> a ship firing its lasers at an asteroid turns to it, as it does to an alien. <strong>A straight rocket flies to your cursor</strong> (with the cursor on the asteroid it aims at the centre) instead of into the rock you only selected; a guided rocket still names the rock.</li><li><strong>A switch exists:</strong> <code>rules.pilotsCollide</code> in <code>Asteroids.json</code>, or <code>ASTEROIDS_PILOTS_COLLIDE</code>. Off, ships fly through rocks as in 0.4.22.</li></ul>
+        <h3>The hotbar, the Hangar and the Auto-Rocket CPU</h3>
+        <ul><li><strong>The five pop-ups above the hotbar (Ammo, Rockets, Extras, Consumables, Formations) can be clicked.</strong> A click does what a click on a slot holding that item does, with no slot and no key; a drag still puts it on a slot. The pop-up stays open after an ammo, formation, extra or consumable click and after a refusal, and closes after a rocket is armed or launched or the Jump CPU opens the map. The Energetic Wall does not arm: it deploys. The title says "Click to use, drag to a slot".</li><li><strong>The Hangar:</strong> a click on a Repair Drone (or a shield, or an engine) with its slots full goes to the first free <strong>ability slot</strong>. The same refusal five times is one toast, not five. <strong>Select several items</strong> (the rectangle of 0.4.22) and <strong>drag them all</strong> onto a slot or onto the ship, or press the arrow button in the title row: each goes to its best slot, lasers first, then shields, engines and cores, extras, Repair Drones, hull plates and last amps, cells and thrusters. One message says how many went; one quiet sound plays for the drop.</li><li><strong>The Auto-Rocket CPU</strong> (ARL, an Extra): research 10 hours; Assembly 15 minutes, 20,000 Thulium, 100 Ship Fragments, 10 Reinforced Hull Plates, 5 Power Cores, 8 Velkonite Reinforced Plates and 1 Ancient Control Unit. <strong>ON, in a fight</strong> (your lasers on an alien or an enemy pilot), it fires your armed rocket at that target whenever a press of the Fire Rocket key would work. It never picks a target, never fires at asteroids, from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E.; with no key, click or mouse move for 3 minutes it waits. It starts OFF and keeps your choice. Two quiet sounds, ON and OFF.</li></ul>
+        <h3>The Challenge line</h3>
+        <ul><li><strong>Tier IV (ids 129 to 138, ten missions) pays twice:</strong> Credits, Thulium, XP, items and booster hours. <strong>A claim may pay 200,000 Thulium</strong> (100,000 before), so some of the missions the old ceiling cut now pay in full.</li><li><strong>Tier V is lifted over its tier IV peers</strong> (the owner, 2026-10-17: "yes lift tier 5 too"). The eight missions of tier V that have a peer in tier IV (Goombah Legion, Crystalys Reign, Dormant Dominion, Pirate Throne, Last Watch, Convoy Zero, Untouched Zero and Warden of the Line) pay at least 10 % more than it in XP, in every kind of item it pays (the Ancient Control Units, Orvium and Velkonite Reinforced Plates too) and in booster hours; a stay pays 10 % more a minute (Last Watch: 11,340,000 Credits and 85,010 Thulium where 3,560,000 and 26,735 stood). <strong>22 of the 50 missions pay differently</strong> (2 of tier III, the 10 of tier IV and the 10 of tier V), and the whole line pays <strong>428,325,000 Credits, 2,847,085 Thulium and 47,380,000 XP</strong> at base (257,860,000, 1,745,885 and 33,920,000 before), with 122 Orvium and 81 Velkonite Reinforced Plates and 18 Ancient Control Units over the line (80, 57 and 12 before).</li><li><strong>A mission in progress, or done and waiting for its claim, pays the new numbers at the claim;</strong> a claimed one is not paid again.</li></ul>
+        <h3>The connection</h3>
+        <ul><li><strong>The JSON stream is smaller.</strong> The server no longer sends the <strong>sixteen</strong> optional fields of an entity as <code>null</code> twenty times a second, rounds places to a hundredth of a unit (a tenth moved the game's clock, so it was not used) and writes the map update straight from the entities. The messages, the fields that have a value and the rate are the same, and every game since 0.2.0 reads it, 0.4.22 included. <strong>35 to 53 % fewer bytes</strong> on the ordinary maps (M-1: 235 to 110 KB/s, 0.85 to 0.40 GB per flying hour; a company map with swarms 351 to 196 KB/s; 28 pilots on one map 516 to 331 KB/s; Danger Sector 1, 41 %). <strong>A 0.4.22 game is sent this stream;</strong> a 0.4.23 game is sent the next one.</li><li><strong>A compact stream for the 0.4.23 game.</strong> The map goes to the game as a binary stream: a keyframe once a second and a small delta of it every tick. <strong>98 % less data than 0.4.22 sent:</strong> on the six recordings of our traffic census it is 1.5 to 2.2 % of the bytes (M-1 237 to 4.3 KB/s, 0.85 to 0.015 GB per flying hour; 28 pilots on one map 512 to 11 KB/s). Everything the game draws from is in it, and read back each place is within about a sixteenth of a unit of the server's. <strong>A window you have left for 10 seconds is sent one update a second, a minimised one one every 5 seconds</strong> (the Network card does not call that a stall). A 0.4.22 game, or a game on a server that does not offer it, is sent the JSON stream above.</li><li><strong>The Hangar's list is not downloaded every 2 seconds in flight.</strong> The game asks when something changed (a rocket you launched, an extra or a CPU used, a ship switch or a fitting, a sale, a pet's pickup, a mission, a new map), once a second at most, and every 30 seconds for what no message tells. An answer that has not changed is a <code>304</code> of a few hundred bytes, a changed one is compressed, and one over 10 KB is not asked for again before the time it takes at 10 KB/s (172 KB: 17 seconds). A pilot with 152 kinds of item: 4.2 MB a minute to 57 KB (a 0.4.22 game keeps asking every 2 seconds).</li><li><strong>A slow connection is not cut off.</strong> The server keeps one map update for a socket that is busy and replaces it with a newer one (a keyframe of the compact stream is never dropped for a delta), writes the answer to your ping first, and <strong>never drops chat, kills, loot or quests</strong>. It gives a connection up only when its socket takes nothing for 20 seconds or the messages it never drops pile up past 600. In our test one pilot sat behind a relay that let only a share of the 0.4.22 stream through for 120 seconds: <strong>a 0.4.23 game was not cut at 5 %, 20 % or 65 % of it, its ping stayed at 7 to 8 ms (16 ms at the worst), it got 20 updates a second and every chat line.</strong> A 0.4.22 game on the same server was kept (the 0.4.22 server cut it after 47 seconds at 20 % and after 93 seconds at 65 %) and lagged nowhere at 65 %, where the smaller JSON fits, but <strong>at 20 % its world was about 26 seconds old:</strong> the bytes already on the way cannot be taken back. The compact stream is what makes a slow line carry the game; the rule only stops the disconnect.</li><li><strong>Two games on one account no longer take each other's messages.</strong> A second game signed in as your pilot, or a menu connection that reconnects beside a game that flies, used to be sent what the flying game should have heard (the Game Log's kills, the quest news, the ship switch): in our two-minute test, with a second game reconnecting every 5 seconds, the flying game missed <strong>624 of 1,200</strong> of each of four messages (52 %); now it misses none and none comes twice. Each message goes to the game that shows it. <strong>When another game takes your pilot's ship, the older game says so</strong> ("Your pilot took off in another game: this one is back at the station.") and goes to the station, instead of a red "taken over" toast two seconds late; a 0.4.22 game ignores the new message and shows its old toast.</li><li><strong>A game update waits for the dock.</strong> The game does not start downloading an update while you fly, and one a flight interrupts is paced to 24 KB/s until you dock (the 0.4.22 game moved 51.6 MB in the same flight).</li><li><strong>The log says what the connection did.</strong> The game's log file lists each connection to the server (the address and family used, how long it lived and what closed it), the sockets the game holds, the minute's REST traffic by path, the data received (<code>rx_kbps</code>) and the updates the server skipped (<code>dropped=</code>), says on the memory line which stream the game is on (<code>wire=bin keyframes=… deltas=… requests=…</code>), and warns when another copy of the game may be running.</li></ul>
+        <h3>What you see and hear</h3>
+        <ul><li><strong>The guns fire in series.</strong> The guns of a ship leave one after another over its second, left, right, left, right (your own ship with more lasers: through all of them, up to four); each gun's hit lands on its own. The damage, the rate of fire and the server are unchanged. Another pilot's ship draws two guns.</li><li><strong>The pulsar</strong> holds its axis still and its field lines turn about it once in 18 seconds, with a comet of light along each loop on a 4-second beat. <strong>The Giant Excavator and each Swamp turret stand on a mass of asteroids</strong> instead of hanging over nothing.</li><li><strong>Six new quiet sounds,</strong> each on the Sound Effects volume: a cancelled job, a drop of several items, the Auto-Rocket CPU ON and OFF, the sidebar folding and unfolding.</li><li><strong>Every new text is in 13 languages</strong> (8,371 messages, the same as English), and the wiki's articles that changed are in 13 languages too.</li></ul>
+        <h3>For administrators and the server</h3>
+        <ul><li><strong>At the first start:</strong> one additive nullable column, <code>CraftingJobs.PaidJson</code> (the receipt of a job), no data step and no new table; the backup gate lists <strong>1 line</strong>. No data file is new and eight changed (<code>Asteroids.json</code>, <code>Builds.json</code>, <code>ClanLines.json</code>, <code>Davidski.json</code>, <code>Market.json</code>, <code>Research.json</code>, <code>SkylabConfig.json</code>, <code>quests.json</code>), with the item and recipe seeds. <strong>Two new routes for pilots,</strong> <code>POST /api/assembly/cancel/:jobId</code> and <code>POST /api/pets/cancel</code>, and one for administrators, <code>GET</code> and <code>POST /api/admin/console/snapshot-wire</code>; <strong>two new client feature strings,</strong> <code>pilot-research</code> and <code>snap2</code>; <strong>five new optional environment variables,</strong> <code>ASTEROIDS_PILOTS_COLLIDE</code>, <code>WS_LATEST_WINS</code>, <code>SPACECORPS_TCP_SNDBUF_KB</code>, <code>WS_SNAPSHOT_WIRE</code> and <code>WS_AWAY</code>.</li><li><strong>The connection, on the server:</strong> <code>WS_LATEST_WINS</code> is the slow-line rule and is on unless it is set to <code>0</code>, <code>false</code>, <code>off</code> or <code>no</code>, which brings the writer of 0.4.22 back <strong>without a release</strong>; <code>WS_SNAPSHOT_WIRE</code> is the compact stream and is on (<code>bin</code>) unless it is <code>json</code>: <code>scripts/server-console.sh wire json</code> (or <code>wire bin</code>) or the console's route flips it <strong>without a release and without a restart,</strong> a game that cannot read three frames in ten seconds goes back to JSON by itself, and <code>WS_AWAY=0</code> (or <code>wire away off</code>) sends every window the whole stream; the two switches do not depend on each other; <code>SPACECORPS_TCP_SNDBUF_KB</code> is off (it would shrink the kernel's send buffer of every connection and is untested on the Linux host). Every <code>GET /api</code> JSON answer gets an <code>ETag</code>, a <code>304</code> for <code>If-None-Match</code> and gzip for a request that takes it (one new dependency, <code>flate2</code>, already in the game). <code>/health</code> has a <code>net</code> object (bytes a second sent, the size of a JSON map update by map) and a <code>snapshotWire</code> object (the mode, the tables, the frames and bytes of each wire), and the counters have <code>ws_bytes_out</code>, <code>ws_frames_out</code>, <code>snapshots_dropped</code>, <code>slow_reader_episodes</code> and <code>http_not_modified</code>; the log lines to search for after the deploy are in docs/DEPLOY.md.</li><li><strong>Admin &gt; Economy:</strong> the grey "Other" that held 30 to 50 % of the credits removed is split into names: trade, auction bid, market fee, pet crossbreed and account deleted are sinks of their own (16 sinks are named, "Other" among them), and the asteroid and the excavator are named sources; no amount, price or fee changed.</li><li><strong>There is no safe rollback to 0.4.22 after the first start:</strong> a 0.4.22 server refuses to start on the new <code>Asteroids.json</code> key, so the file and the server go back together (the image carries both); the receipts column is harmless to it. No volume backup is taken (the owner does not want one). The way is forward, a fix release (docs/DEPLOY.md).</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.22.html" rel="prev">← 0.4.22</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

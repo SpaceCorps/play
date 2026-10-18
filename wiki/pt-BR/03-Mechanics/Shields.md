@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f0413a5a5f080ae -->
+<!-- wiki-i18n source: aa02d302a23ff21a -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -60,9 +60,10 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 #### Chegar a 100% e passar dele {#reaching-and-passing-100-}
 
 - **De fábrica**: no máximo 80% (acima).
-- **Shield Absorbance Boost**: um bônus permanente da Loja de PR, comprado com pontos de reset, de **+0,1 ponto por nível, no máximo +10 pontos** (100 níveis, 25 PR cada). Ele soma pontos fixos à absorção da sua nave, igual em qualquer nave com escudo: 80% viram 80,4% com 4 níveis (100 PR), e os 45% de um Light Shield Core viram 46,2% com 12 níveis (300 PR). Uma nave sem escudo equipado continua em 0%. Os 100 níveis custam 2.500 PR, uma meta para vários resets: as fontes atuais de pontos de reset (os marcos de abates e as missões) pagam 855 PR no total, no limite, acumulados entre os resets, e isso compra 34 níveis, +3,4 pontos. Mais fontes de pontos de reset estão planejadas. Veja [Temporada e pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Shield Absorbance Boost**: um bônus permanente da Loja de PR, comprado com pontos de reset, de **+0,1 ponto por nível, no máximo +10 pontos** (100 níveis, 25 PR cada). Ele soma pontos fixos à absorção da sua nave, igual em qualquer nave com escudo: 80% viram 80,4% com 4 níveis (100 PR), e os 45% de um Light Shield Core viram 46,2% com 12 níveis (300 PR). Uma nave sem escudo equipado continua em 0%. Os 100 níveis custam 2.500 PR, uma meta para vários resets: as fontes atuais de pontos de reset (os marcos de abates, as missões e as cinco pesquisas Dormant Knowledge) pagam 1.105 PR no total, no limite, acumulados entre os resets, e isso compra 44 níveis, +4,4 pontos. Mais fontes de pontos de reset estão planejadas. Veja [Temporada e pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Forja**: escudos e células de escudo podem sortear um bônus de **Absorção**, que multiplica o atributo: +5% em um escudo de 50% são +2,5 pontos. Um conjunto Eterno do melhor tipo, totalmente forjado (núcleo e três células, todos os bônus sorteados no máximo, +15%), soma até 12 pontos, cerca de 10 em média (veja [A Forja](/wiki/06-Items/Forge.md)).
-- **Juntos**: 80% de fábrica, +3,4 pontos de bônus (todos os 855 pontos de reset de hoje) e até +12 pontos de bônus da Forja chegam a **95,4%** no máximo hoje; com todos os 100 níveis do bônus (+10 pontos, 2.500 PR) seriam 102%. Nem o bônus nem a Forja sozinhos chegam a 100%; chegar lá é uma meta para vários resets, e mais fontes de pontos de reset estão planejadas.
+- **Field Theory**: a pesquisa de Piloto Field Theory I, II e III ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) soma **+2, +3 e +5 pontos** à absorção de todas as suas naves, no total e não cada nível por cima do anterior, em troca de créditos, Thulium e Dark Matter. Como o bônus da Loja de PR, são pontos fixos em qualquer nave com escudo, e permanecem depois do reset.
+- **Juntos**: 80% de fábrica, +4,4 pontos de bônus (todos os 1.105 pontos de reset de hoje), até +12 pontos de bônus da Forja e +5 pontos do Field Theory III chegam a **101,4%** no máximo hoje; com todos os 100 níveis do bônus (+10 pontos, 2.500 PR) seriam 107%. Nem o bônus, nem a Forja, nem o Field Theory sozinhos chegam a 100%; chegar lá exige os três e é uma meta para vários resets, e mais fontes de pontos de reset estão planejadas.
 
 ### Bônus de escudo: capacidade, absorção, recarga {#shield-boosts-capacity-absorbance-recharge}
 

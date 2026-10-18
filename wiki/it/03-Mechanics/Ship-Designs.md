@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Design delle navi -->
 # Design delle navi {#ship-designs}
 
@@ -63,7 +63,7 @@ La nave da convertire è quella che possiedi di quel tipo (una Paragon per THUND
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Tutte e quattro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Insieme chiedono 490 Dark Matter, oltre ai 414 che chiedono tutte le altre tecnologie, e i livelli dei moduli dello Skylab ne chiedono 115 in più: 1.019 per tutte le tecnologie del gioco.
+Insieme chiedono 490 Dark Matter, oltre ai 749 che chiedono tutte le altre tecnologie, e i livelli dei moduli dello Skylab ne chiedono 115 in più: 1.354 per tutte le tecnologie del gioco.
 
 ## Cosa succede alla tua nave {#what-happens-to-your-ship}
 

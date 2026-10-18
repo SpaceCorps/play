@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -47,6 +47,7 @@ La Cuna es la máquina de la vista P.E.T. del hangar. Un **trabajo** toma un Clu
 
 - **La calidad del chunk decide la calidad del P.E.T.**, y con ella cuántas bonificaciones tiene (1, 2 o 3) y qué tipos puede ser: 4 de los 10 tipos con un chunk Regular, 7 con uno Mythical y los 10 con uno Legendary. El Retriever puede salir de cualquier chunk; el Mole necesita uno Mythical o Legendary.
 - **Tú eliges el tipo** entre los que has descubierto, o pulsas **Descubrir**: entonces la Cuna hace nacer un tipo de esa calidad que aún no has descubierto, sorteado al empezar el trabajo y mostrado solo cuando recoges el P.E.T. Un tipo que otro trabajo en marcha ya ha sorteado queda fuera, así que dos descubrimientos en cola nunca hacen nacer el mismo tipo.
+- **Puedes cancelar un trabajo** que se hace o que espera: pulsa la pequeña cruz de su casilla y vuelve a pulsar en 3 segundos cuando pregunte **¿Cancelar?**. El Cluster Chunk y la Orvium Reinforced Plate vuelven a ti, los trabajos de detrás se acercan, y solo se pierde el tiempo que había corrido. Un trabajo terminado se recoge, no se cancela. Un descubrimiento que cancelas deja su tipo libre para volver a sortearse.
 - **El Códice** al pie de la página muestra los diez tipos como siluetas hasta que los has hecho nacer. Pertenece a tu cuenta y por llenarlo no se paga nada.
 - **El Hangar de P.E.T.** guarda como mucho **24** P.E.T.s, acoplados o guardados, y un trabajo en marcha cuenta como uno. Puedes **liberar** uno: no vuelve nada.
 

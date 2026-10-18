@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Ogni nave ha un numero fisso di Slot abilità nell’Hangar:
 - **Ironclad**: 3 slot
 - **Wraith**: 3 slot
 
-Uno slot abilità accetta uno **Shield Core**, un **motore** o un **Repair Drone**, e ognuno genera la propria abilità. Trascina l’oggetto sullo slot. La configurazione 1 e la configurazione 2 hanno ciascuna i propri slot.
+Uno slot abilità accetta uno **Shield Core**, un **motore** o un **Repair Drone**, e ognuno genera la propria abilità. Trascina l’oggetto sullo slot. La configurazione 1 e la configurazione 2 hanno ciascuna i propri slot. Nell’Hangar, un clic su uno Shield Core, un motore o un Repair Drone lo mette nel suo slot abituale, e nel primo slot abilità libero quando tutti i suoi slot abituali (gli slot dei generatori, o gli extra per un Repair Drone) sono occupati.
 
 - **Celle scudo e propulsori non entrano in uno slot abilità.** Sono moduli di scudi, motori e Nuclei adattivi.
 - **Un oggetto in uno slot abilità non aggiunge nient’altro.** Non dà capacità scudo, ricarica, assorbimento o velocità, né il rallentamento di uno scudo. Lo stesso Heavy Shield Core sta o in uno slot generatore, per avere il suo scudo in ogni momento, o in uno slot abilità, per il suo Surge. Scegli tu.

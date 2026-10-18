@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
@@ -11,14 +11,15 @@
 | **Cloaking CPU M** | 隐藏你的舰船 | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 隐藏你的舰船 | 50 | 20,000 Thulium |
 | **P.E.T. Station I 至 III** | 开启时，2、3 或 5 只已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 为你的飞船提供加成、获得经验并工作；关闭时，它们什么都不做 | 开 / 关 | 装配站，研究后（见下面的物品树） |
+| **Auto-Rocket CPU** | 开启时，自动向战斗目标发射你的当前火箭 | 开 / 关 | 装配站，研究后（见下面的物品树） |
 
 Cloaking CPU 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。**EMP Charge** 不再是附加装置：从 0.4.21 起它是消耗品，像火箭一样以堆叠方式携带，不装在任何槽位里，所以不占用你的附加槽位（见[火箭](/wiki/06-Items/Rockets.md#emp-charge)）。两道 **Energetic Wall** 也不再是附加装置：从 0.4.22 起它们同样是消耗品，以堆叠方式携带，不装在任何槽位里（见 [Energetic Wall](#energetic-wall)）。
 
 新飞行员的**新手套装**已经在 Protos 的两个附加槽位里装好了两件附加装置：一个 **Base CPU I**（可用 10 次，传送到你所属企业的基地）和一个 **Repair Drone I**。想使用它们，请从快捷栏的“附加装置”选择器把它们拖到一个槽位上。只有新飞行员才会拿到这套装备：在 0.4.10 之前开始游戏的飞行员没有它。
 
-另有七种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II，以及 Auto-Repair CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。两种传送 CPU，也就是 Jump CPU 和 Base CPU，在你携带任务物品时同样无法使用（“携带任务物品时无法使用传送 CPU。”）：见[任务物品](/wiki/03-Mechanics/Quests.md#quest-items)。
+另有八种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II、Auto-Repair CPU，以及 Auto-Rocket CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。两种传送 CPU，也就是 Jump CPU 和 Base CPU，在你携带任务物品时同样无法使用（“携带任务物品时无法使用传送 CPU。”）：见[任务物品](/wiki/03-Mechanics/Quests.md#quest-items)。
 
-每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，Auto-Repair CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**BSE** 和 **JMP**。消耗品有各自的标签：**EMP**，以及 Energetic Wall 的 **WAL**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。三个 **P.E.T. Station** 物品和其他附加装置一样，标签是 **PET**：装备一个，它的槽位就会把 Station 在**开启**和**关闭**之间切换（两次按下之间相隔一秒），并显示当前是哪一个。开启时，已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md) 计入，关闭时不计入。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
+每个附加装置在快捷栏的槽位上都有一个简短标签：Repair Drone 是 **REP**，Cloaking CPU 是 **CLK**，Auto-Repair CPU、Auto-Rocket CPU、Base CPU 和 Jump CPU 依次是 **ARP**、**ARL**、**BSE** 和 **JMP**。消耗品有各自的标签：**EMP**，以及 Energetic Wall 的 **WAL**。Extra Slots CPU 没有槽位：它们安装在你的 Skylab 里。三个 **P.E.T. Station** 物品和其他附加装置一样，标签是 **PET**：装备一个，它的槽位就会把 Station 在**开启**和**关闭**之间切换（两次按下之间相隔一秒），并显示当前是哪一个。开启时，已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md) 计入，关闭时不计入。**Auto-Rocket CPU** 的切换方式相同：开启或关闭。把鼠标指向槽位，可以看到现在按下它会发生什么，或者为什么按了也没用。
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 天 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 分钟 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 小时 | – | 15,000 | 10 分钟 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 小时 | – | 600 | 2 分钟 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 小时 | – | 20,000 | 15 分钟 |
 
 它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
 
@@ -148,6 +151,13 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 - **作用。** 只要你本可以手动放出附加槽位里装备的 Repair Drone，它就会自动放出：船体没有满、无人机还没放出，并且距上次被击中已过 10 秒。无需设置任何船体比例。
 - 它占用一个自己的附加槽位，如果同一配置的附加槽位里没有 Repair Drone，它什么也不做。它从不放出技能槽位里的 Repair Drone（那是 Emergency Repair 按钮）。
 - **如果你手动停下无人机，**CPU 就不再理会它，直到你的船体重新满血，或你自己再次放出无人机。
+
+### Auto-Rocket CPU
+
+- **作用。** 开启期间，当你处于战斗中（你的激光瞄准外星人或敌方飞行员）时，只要按下“发射火箭”键本可以发射，它就会自动向该目标发射你上一次发射的当前火箭：火箭的计时已就绪，且你还剩一枚。服务器会像检查你的发射一样检查每一次发射。
+- **开关。** 装备在附加装置槽位中，按下它的 ARL 槽位即可开启或关闭。默认关闭，并保持你上次的设置，重新登录后也一样。槽位会显示开启或关闭，CPU 发射时会亮起。
+- **它从不做的事。** 它从不自己选目标，不攻击小行星，不在安全区内或隐形时发射，也从不发射 N.U.K.E. 或 N.I.K.E.。你自己发射的火箭总是有效。如果 3 分钟内没有按键、点击或移动鼠标，它会等你有所操作。
+- **火箭用完。** 它只会提醒你一次，等你有了更多火箭就会重新发射。
 
 
 <!-- research-cpus:end -->

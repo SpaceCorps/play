@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnenmechanik {#drone-mechanics}
 
@@ -92,7 +92,7 @@ Die Kurve ist so gesetzt, dass eine neue Drohne in etwa einer Stunde normalen Sp
 
 ### Master Drone
 
-Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 50.000 Thulium, 250 Ship Fragments und 20 Dark Matter Plates und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
+Eine Slave Drone wird zur **Master Drone**, wenn du sie in der Montage aufrüstest, sobald die Technologie der Master Drone erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)). Das Rezept kostet 1.000.000 Credits, 50.000 Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates und 2 Ancient Control Units und dauert 60 Sekunden, und es verbraucht keine Drohne: **Du wählst, welche Slave Drone es ist** (die Auswahl zeigt Level und EP jeder einzelnen), und genau diese Drohne, mit ihrer Nummer, ihrem Drohnen-Slot und allem, was darin eingesetzt ist, wird zur Master Drone, sobald der Auftrag fertig ist, mit einem zweiten Slot, der leer ist. Nichts landet in deinem Inventar, und es gibt nichts abzuholen: Das Spielprotokoll sagt dir, wann es fertig ist, auch bei einer Aufrüstung, die fertig wurde, während du weg warst.
 
 **Level und EP werden auf 0 zurückgesetzt, wenn die Aufrüstung fertig ist.** Eine Master Drone beginnt wieder auf Level 1, ohne EP, und steigt so auf wie eine Slave Drone (siehe Tabelle oben); der Laserbonus des Levels, das sie hatte, geht damit verloren. Die Montage sagt dir das, bevor du anfängst, und lässt dich bestätigen, unter Nennung der Drohne, wenn sie EP hat. Vorgewählt ist die Drohne mit den wenigsten EP.
 

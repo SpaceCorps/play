@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drones {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Naves {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Sus tiempos, su Dark Matter y los totales están en la página [Diseños de nave
 ## Módulos del Skylab {#module-technologies}
 
 La familia Skylab de la vista de investigación tiene otra clase de tecnología que no es una fabricación: los niveles del **Módulo de motores**, del **Módulo de defensa** y del **Módulo de radar**, que desbloquea el nivel quince del Core. Cada nivel tiene su propia tecnología y solo se construye después de ella; el primer nivel de cada módulo no pide Dark Matter y los siguientes piden más con cada nivel. El árbol de arriba los deja fuera, porque lo que abren es un nivel de módulo y no un objeto. Su Dark Matter se suma a los totales de arriba, y [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) lo cuenta. Sus tiempos y lo que hace cada módulo están en el artículo [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Piloto {#pilot-technologies}
+
+La familia Piloto de la vista de investigación tiene tecnologías que no son una fabricación: no hacen nada en el Ensamblaje. La mayoría son **mejoras permanentes** para ti. El árbol de arriba las deja fuera, porque lo que abren es una mejora y no un objeto.
+
+- **Lo que cuestan.** Además de la ciencia y el Dark Matter, una mejora pide **créditos y Thulium**. El Centro lo toma todo cuando empieza la investigación y lo devuelve todo si la cancelas antes de que termine.
+- **Se quedan.** Como el resto de tu investigación, estas tecnologías se conservan tras el reinicio, y sus mejoras con ellas.
+- **En serie.** Cada nivel necesita el anterior, y un nivel superior sustituye al inferior: la tabla muestra el total que da cada nivel, no lo que añade.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) añaden casco a todas las naves que tienes, en las dos configuraciones.
+- **Sealed Backdoor** sube el límite de carga de todos los cohetes, los compres, los fabriques o los intercambies donde sea.
+- **Excavator Mining** sube lo que sacas de cada caja de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium como de mineral.
+- **Field Theory** sube la parte de cada impacto que absorben tus escudos. Una nave sin escudo no recibe nada.
+- **Dormant Knowledge** paga puntos de reinicio, una vez por nivel, cuando su investigación termina en el Centro. Además del nivel anterior, pide una parte de las demás tecnologías investigadas (cuentan las del Piloto, no las cinco Dormant Knowledge), las hayas conseguido como las hayas conseguido; la tabla muestra cada parte y cuántas tecnologías son.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Tecnología | Qué da | Necesita antes | Tiempo de investigación | Dark Matter | Créditos | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Tentempiés eficientes: Kebab | +5.000 de casco en todas tus naves | – | 10 h | 10 | 250.000 | 2.500 |
+| Tentempiés eficientes: Pelmeni | +10.000 de casco en todas tus naves | Tentempiés eficientes: Kebab | 1 d | 20 | 1.000.000 | 10.000 |
+| Tentempiés eficientes: Hamburguesa | +15.000 de casco en todas tus naves | Tentempiés eficientes: Pelmeni | 2 d | 30 | 3.500.000 | 35.000 |
+| Puerta trasera sellada I | +25% de límite de carga de cohetes | – | 6 h | 5 | 100.000 | 1.000 |
+| Puerta trasera sellada II | +50% de límite de carga de cohetes | Puerta trasera sellada I | 10 h | 10 | 300.000 | 3.000 |
+| Puerta trasera sellada III | +100% de límite de carga de cohetes | Puerta trasera sellada II | 1 d | 15 | 750.000 | 7.500 |
+| Puerta trasera sellada IV | +150% de límite de carga de cohetes | Puerta trasera sellada III | 2 d | 25 | 1.750.000 | 17.500 |
+| Puerta trasera sellada V | +200% de límite de carga de cohetes | Puerta trasera sellada IV | 3 d | 40 | 3.500.000 | 35.000 |
+| Minería con excavadora I | +20% de producción de excavadora | – | 1 d | 10 | 500.000 | 5.000 |
+| Minería con excavadora II | +30% de producción de excavadora | Minería con excavadora I | 2 d | 20 | 1.500.000 | 15.000 |
+| Minería con excavadora III | +40% de producción de excavadora | Minería con excavadora II | 3 d | 30 | 4.000.000 | 40.000 |
+| Teoría de campos I | +2% de absorción de escudo | – | 1 d | 20 | 500.000 | 5.000 |
+| Teoría de campos II | +3% de absorción de escudo | Teoría de campos I | 2 d | 40 | 1.500.000 | 15.000 |
+| Teoría de campos III | +5% de absorción de escudo | Teoría de campos II | 3 d | 60 | 5.000.000 | 50.000 |
+| Conocimiento latente I | +50 puntos de reinicio | 20 % de las demás tecnologías (30 de 146) | 1 h | – | – | – |
+| Conocimiento latente II | +50 puntos de reinicio | Conocimiento latente I; 40 % de las demás tecnologías (59 de 146) | 1 h | – | – | – |
+| Conocimiento latente III | +50 puntos de reinicio | Conocimiento latente II; 60 % de las demás tecnologías (88 de 146) | 1 h | – | – | – |
+| Conocimiento latente IV | +50 puntos de reinicio | Conocimiento latente III; 80 % de las demás tecnologías (117 de 146) | 1 h | – | – | – |
+| Conocimiento latente V | +50 puntos de reinicio | Conocimiento latente IV; 100 % de las demás tecnologías (146 de 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Todas las tecnologías {#all-the-technologies}
 
@@ -416,6 +457,7 @@ La familia Skylab de la vista de investigación tiene otra clase de tecnología 
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10.800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86.400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
 
 Las clases, por tiempo de investigación:
 
@@ -423,11 +465,11 @@ Las clases, por tiempo de investigación:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18.000 | 0 |
 | B | 3 h a 6 h | 20 | 2 d 21 h | 248.400 | 0 |
-| C | 10 h | 16 | 6 d 16 h | 576.000 | 95 |
+| C | 10 h | 17 | 7 d 2 h | 612.000 | 95 |
 | D | 1 d a 2 d | 23 | 28 d | 2.419.200 | 319 |
-| Todas |  | 69 | 37 d 18 h | 3.261.600 | 414 |
+| Todas |  | 70 | 38 d 4 h | 3.297.600 | 414 |
 
-Investigado una tecnología tras otra, el árbol entero tarda 37 d 18 h. Con el impulso activo todo el tiempo tarda 18 d 21 h, que son 19 impulsos y 95.000 Thulium; la ciencia es la misma.
+Investigado una tecnología tras otra, el árbol entero tarda 38 d 4 h. Con el impulso activo todo el tiempo tarda 19 d 2 h, que son 20 impulsos y 100.000 Thulium; la ciencia es la misma.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Las CPU nuevas también se investigan aquí y luego se fabrican en Ensamblaje. L
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 
 Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU en Ensamblaje. Pasa el cursor por una CPU en su árbol para ver qué pide Ensamblaje para fabricarla.
 
@@ -482,6 +525,13 @@ Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU e
 - **Qué hace.** Lanza por sí sola el Repair Drone que llevas en las ranuras de extra, siempre que pudieras haberlo lanzado a mano: tu casco no está lleno, el dron no está ya fuera y han pasado 10 segundos desde el último golpe. No hay ningún nivel de casco que configurar.
 - Ocupa una ranura de extra propia y no hace nada sin un Repair Drone en una ranura de extra de la misma configuración. Nunca lanza un Repair Drone de una ranura de habilidad (ese es el botón Emergency Repair).
 - **Si detienes el dron a mano,** la CPU lo deja en paz hasta que tu casco vuelva a estar lleno o hasta que lo lances tú.
+
+### Auto-Rocket CPU
+
+- **Qué hace.** Mientras esté en ON y estés en un combate (tus láseres apuntan a un alienígena o a un piloto enemigo), lanza por sí sola tu cohete activo, el último que lanzaste, contra ese objetivo, siempre que una pulsación de la tecla Disparar cohete funcionaría: el temporizador de los cohetes está listo y te queda uno. El servidor comprueba cada lanzamiento como comprueba los tuyos.
+- **El interruptor.** Equípala en una ranura de Extras y pulsa su ranura ARL para ponerla en ON u OFF. Empieza en OFF y se queda como la dejaste, también cuando vuelves a iniciar sesión. La ranura dice ON u OFF y brilla cuando la CPU lanza.
+- **Lo que nunca hace.** Nunca elige un objetivo, nunca lanza contra asteroides, ni desde una zona segura, ni mientras estás camuflado, y nunca lanza una N.U.K.E. ni una N.I.K.E. Un cohete que lances tú siempre funciona. Si pasan 3 minutos sin pulsar una tecla, hacer clic ni mover el ratón, espera a que hagas algo.
+- **Sin cohetes.** Te avisa una vez y vuelve a lanzar en cuanto tengas más.
 
 
 <!-- research-cpus:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4d9008fb9fa56fb -->
+<!-- wiki-i18n source: 94b65a41bd556504 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -52,7 +52,7 @@ Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 
 
 ## Att köpa av honom {#buying-from-him}
 
-Hans lager finns i auktionens **Marknad**-lista, bland piloternas annonser: en rad för var och en av de 83 sorter som auktionen listar, i krediter och i Thulium (166 rader), med priset för ett parti, med hans namn i guld, ett **NPC**-märke och ett oändlighetstecken för mängden och tiden som är kvar. Marknadens sökning, kategorier och filter för förtrollning och valuta avgränsar hans rader som vilken annons som helst (hans föremål är Standard), och dess sorteringar ställer dem där deras tal säger: efter pris bredvid piloternas priser, efter piloternas annonser under **Slutar snart** och **Nyast**. Välj en för att se detaljerna och **Köp för …**; köpet går till honom, inte till en pilot. Priserna:
+Hans lager finns i auktionens **Marknad**-lista, bland piloternas annonser: en rad för var och en av de 84 sorter som auktionen listar, i krediter och i Thulium (168 rader), med priset för ett parti, med hans namn i guld, ett **NPC**-märke och ett oändlighetstecken för mängden och tiden som är kvar. Marknadens sökning, kategorier och filter för förtrollning och valuta avgränsar hans rader som vilken annons som helst (hans föremål är Standard), och dess sorteringar ställer dem där deras tal säger: efter pris bredvid piloternas priser, efter piloternas annonser under **Slutar snart** och **Nyast**. Välj en för att se detaljerna och **Köp för …**; köpet går till honom, inte till en pilot. Priserna:
 
 - **100 gånger butikspriset i krediter och 40 gånger i Thulium** för föremål som butiken säljer; ett butikspris i den ena valutan räknas i den andra med 200 krediter per Thulium. En Repair Drone I (5 000 krediter i butiken) kostar 500 000 krediter eller 1 000 Thulium, en Quantum Laser I 800 000 krediter eller 1 600 Thulium, raketerna 50 000 till 100 000 krediter styck. De två priserna är inte värda lika mycket: med 200 krediter per Thulium vore 1 000 Thulium bara 200 000 krediter.
 - **Utrustning som butiken inte säljer är hans sista utväg: 200 gånger föremålets referensvärde i krediter och 80 gånger i Thulium**, minst 50 gånger vad det billigaste andra sättet att få tag på den kostar (tillverka den själv eller en annan pilots pris). En Quantum Laser III kostar 84 966 000 krediter eller 169 932 Thulium, en Helios Beam 682 192 400 krediter eller 1 364 388 Thulium och en Hull Plating III 1 271 074 400 krediter eller 2 542 152 Thulium. De raderna har ett litet märke **Sista utvägen**, liksom de sällsynta resurserna nedan.

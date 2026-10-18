@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
@@ -11,14 +11,15 @@
 | **Cloaking CPU M** | Скрывает ваш корабль | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Скрывает ваш корабль | 50 | 20 000 Thulium |
 | **P.E.T. Station I–III** | Включённая, она позволяет 2, 3 или 5 пристыкованным [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) давать бонусы кораблю, получать опыт и работать; выключенная — они ничего этого не делают | ВКЛ / ВЫКЛ | Сборочный цех после исследования (дерево предметов ниже) |
+| **Auto-Rocket CPU** | Когда включена, сама выпускает вашу активную ракету по цели боя | ВКЛ / ВЫКЛ | Сборочный цех после исследования (дерево предметов ниже) |
 
 Cloaking CPU продаются только в магазине. Их нельзя объединять, и бесплатно их нигде не выдают. **EMP Charge** больше не устройство: с 0.4.21 это расходник, который носят стопкой, как ракеты, и не устанавливают ни в какой слот, поэтому он не занимает ваши слоты устройств (см. [Ракеты](/wiki/06-Items/Rockets.md#emp-charge)). Две **Energetic Wall** тоже больше не устройства: с 0.4.22 это тоже расходники, их носят стопкой, и в слот они не устанавливаются (см. [Energetic Wall](#energetic-wall)).
 
 **Стартовый набор** нового пилота уже ставит два устройства в два слота устройств корабля Protos: **Base CPU I** (10 использований, телепорт на базу вашей корпорации) и **Repair Drone I**. Чтобы ими пользоваться, перетащите их из списка «Устройства» на панели в слот. Набор получают только новые пилоты: у тех, кто начал играть до 0.4.10, его нет.
 
-Ещё семь CPU не продаются: Сборочный цех создаёт их, когда Исследовательский центр Skylab их исследует (см. [Исследования](/wiki/03-Mechanics/Research.md)). Это Extra Slots CPU I, II и III, Jump CPU, Base CPU I и II и Auto-Repair CPU; что делает каждый, сказано в [последнем разделе](#research-cpus). Как и Cloaking CPU, Jump CPU и Base CPU рассчитаны на спокойный момент: ни один из трёх не запускается в течение 10 секунд после вашего выстрела или полученного попадания. Два варп-CPU, Jump CPU и Base CPU, тоже нельзя использовать, пока вы везёте предмет миссии («Нельзя использовать варп-CPU, пока на борту предмет миссии.»): см. [Предметы миссий](/wiki/03-Mechanics/Quests.md#quest-items).
+Ещё восемь CPU не продаются: Сборочный цех создаёт их, когда Исследовательский центр Skylab их исследует (см. [Исследования](/wiki/03-Mechanics/Research.md)). Это Extra Slots CPU I, II и III, Jump CPU, Base CPU I и II, Auto-Repair CPU и Auto-Rocket CPU; что делает каждый, сказано в [последнем разделе](#research-cpus). Как и Cloaking CPU, Jump CPU и Base CPU рассчитаны на спокойный момент: ни один из трёх не запускается в течение 10 секунд после вашего выстрела или полученного попадания. Два варп-CPU, Jump CPU и Base CPU, тоже нельзя использовать, пока вы везёте предмет миссии («Нельзя использовать варп-CPU, пока на борту предмет миссии.»): см. [Предметы миссий](/wiki/03-Mechanics/Quests.md#quest-items).
 
-У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, а **ARP**, **BSE** и **JMP** — Auto-Repair CPU, Base CPU и Jump CPU. У расходников свои метки: **EMP** и **WAL** — Energetic Wall. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Три предмета **P.E.T. Station** — такие же устройства, как остальные, с меткой **PET**: установите один, и его слот включает или выключает Station (между двумя нажатиями секунда) и показывает, что именно. Пока она включена, пристыкованные [P.E.T.](/wiki/03-Mechanics/Pets.md) считаются, пока выключена — нет. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
+У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, а **ARP**, **ARL**, **BSE** и **JMP** — Auto-Repair CPU, Auto-Rocket CPU, Base CPU и Jump CPU. У расходников свои метки: **EMP** и **WAL** — Energetic Wall. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Три предмета **P.E.T. Station** — такие же устройства, как остальные, с меткой **PET**: установите один, и его слот включает или выключает Station (между двумя нажатиями секунда) и показывает, что именно. Пока она включена, пристыкованные [P.E.T.](/wiki/03-Mechanics/Pets.md) считаются, пока выключена — нет. **Auto-Rocket CPU** переключается так же: включена или выключена. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ S, M и L работают одинаково: большие наборы ли�
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 д | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 мин |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 ч | – | 15 000 | 10 мин |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 ч | – | 600 | 2 мин |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 ч | – | 20 000 | 15 мин |
 
 Ни один не продаётся в магазине: исследуйте технологию, затем создайте CPU в Сборочном цехе. Наведите курсор на CPU в его дереве, чтобы увидеть, что для него требует Сборочный цех.
 
@@ -148,6 +151,13 @@ S, M и L работают одинаково: большие наборы ли�
 - **Что делает.** Сам выпускает Repair Drone, установленный в ваших слотах устройств, всякий раз, когда вы могли бы выпустить его вручную: корпус не полон, дрон ещё не выпущен и с последнего попадания прошло 10 с. Порог корпуса настраивать не нужно.
 - Занимает собственный слот устройств и ничего не делает без Repair Drone в слоте устройств той же конфигурации. Repair Drone из слота способностей он никогда не выпускает (это кнопка Emergency Repair).
 - **Если вы остановите дрон вручную,** CPU не трогает его, пока корпус снова не станет полным или пока вы сами не выпустите дрон.
+
+### Auto-Rocket CPU
+
+- **Что делает.** Пока она включена и вы в бою (ваши лазеры нацелены на пришельца или вражеского пилота), она сама выпускает вашу активную ракету, последнюю из выпущенных, по этой цели всякий раз, когда нажатие клавиши «Пуск ракеты» сработало бы: таймер ракет готов и у вас осталась хотя бы одна. Сервер проверяет каждый пуск так же, как ваши.
+- **Переключатель.** Установите её в слот «Устройства» и нажмите её слот ARL, чтобы включить или выключить (сначала она выключена). Состояние сохраняется, в том числе при новом входе в игру. Слот показывает «ВКЛ» или «ВЫКЛ» и вспыхивает, когда CPU стреляет.
+- **Чего она не делает никогда.** Она никогда не выбирает цель, не стреляет по астероидам, из безопасной зоны и в маскировке, и не выпускает N.U.K.E. и N.I.K.E. Ракета, которую вы выпустили сами, всегда срабатывает. Если 3 мин. нет ни нажатий клавиш, ни щелчков, ни движения мыши, она ждёт, пока вы что-нибудь сделаете.
+- **Ракеты кончились.** Она скажет об этом один раз и снова начнёт стрелять, как только они появятся.
 
 
 <!-- research-cpus:end -->

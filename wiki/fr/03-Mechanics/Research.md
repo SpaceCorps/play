@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drones {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Vaisseaux {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Leurs durées, leur Dark Matter et les totaux sont sur la page [Designs de vaiss
 ## Modules du Skylab {#module-technologies}
 
 La famille Skylab de la vue Recherche contient encore une sorte de technologie qui n’est pas une fabrication : les niveaux du **Module Moteurs**, du **Module Défense** et du **Module Radar**, que débloque le niveau quinze du Core. Chaque niveau a sa propre technologie et ne se construit qu’après elle ; le premier niveau de chaque module ne demande pas de Dark Matter, les suivants en demandent davantage à chaque niveau. L’arbre ci-dessus les laisse de côté, car ce qu’ils ouvrent est un niveau de module et non un objet. Leur Dark Matter s’ajoute aux totaux ci-dessus, et [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) en fait la somme. Leurs durées et ce que fait chaque module se trouvent dans l’article [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Pilote {#pilot-technologies}
+
+La famille Pilote de la vue Recherche contient des technologies qui ne sont pas des fabrications : elles ne produisent rien dans l’Assemblage. La plupart sont des **bonus permanents** pour vous. L’arbre ci-dessus les laisse de côté, car ce qu’elles ouvrent est un bonus et non un objet.
+
+- **Ce qu’elles coûtent.** En plus de la science et de la Dark Matter, un bonus demande des **crédits et du Thulium**. Le Centre prend tout au début de la recherche et rend tout si vous l’annulez avant la fin.
+- **Elles restent.** Comme le reste de vos recherches, ces technologies sont conservées après la réinitialisation, et leurs bonus avec elles.
+- **En série.** Chaque niveau demande le précédent, et un niveau supérieur remplace l’inférieur : le tableau montre le total que donne chaque niveau, pas ce qu’il ajoute.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) ajoutent des points de coque à chacun de vos vaisseaux, dans les deux configurations.
+- **Sealed Backdoor** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
+- **Excavator Mining** augmente ce que vous prenez dans chaque caisse d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium comme minerai.
+- **Field Theory** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
+- **Dormant Knowledge** verse des points de réinitialisation, une fois par niveau, quand sa recherche se termine dans le Centre. En plus du niveau précédent, elle demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq Dormant Knowledge non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Technologie | Ce qu’il donne | Exige d’abord | Durée de recherche | Dark Matter | Crédits | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Collations efficaces : Kebab | +5 000 de coque sur tous vos vaisseaux | – | 10 h | 10 | 250 000 | 2 500 |
+| Collations efficaces : Pelmeni | +10 000 de coque sur tous vos vaisseaux | Collations efficaces : Kebab | 1 j | 20 | 1 000 000 | 10 000 |
+| Collations efficaces : Burger | +15 000 de coque sur tous vos vaisseaux | Collations efficaces : Pelmeni | 2 j | 30 | 3 500 000 | 35 000 |
+| Porte dérobée scellée I | +25 % de limite de transport des roquettes | – | 6 h | 5 | 100 000 | 1 000 |
+| Porte dérobée scellée II | +50 % de limite de transport des roquettes | Porte dérobée scellée I | 10 h | 10 | 300 000 | 3 000 |
+| Porte dérobée scellée III | +100 % de limite de transport des roquettes | Porte dérobée scellée II | 1 j | 15 | 750 000 | 7 500 |
+| Porte dérobée scellée IV | +150 % de limite de transport des roquettes | Porte dérobée scellée III | 2 j | 25 | 1 750 000 | 17 500 |
+| Porte dérobée scellée V | +200 % de limite de transport des roquettes | Porte dérobée scellée IV | 3 j | 40 | 3 500 000 | 35 000 |
+| Extraction par excavatrice I | +20 % de rendement des excavatrices | – | 1 j | 10 | 500 000 | 5 000 |
+| Extraction par excavatrice II | +30 % de rendement des excavatrices | Extraction par excavatrice I | 2 j | 20 | 1 500 000 | 15 000 |
+| Extraction par excavatrice III | +40 % de rendement des excavatrices | Extraction par excavatrice II | 3 j | 30 | 4 000 000 | 40 000 |
+| Théorie des champs I | +2 % d’absorption des boucliers | – | 1 j | 20 | 500 000 | 5 000 |
+| Théorie des champs II | +3 % d’absorption des boucliers | Théorie des champs I | 2 j | 40 | 1 500 000 | 15 000 |
+| Théorie des champs III | +5 % d’absorption des boucliers | Théorie des champs II | 3 j | 60 | 5 000 000 | 50 000 |
+| Savoir dormant I | +50 points de réinitialisation | 20 % des autres technologies (30 sur 146) | 1 h | – | – | – |
+| Savoir dormant II | +50 points de réinitialisation | Savoir dormant I; 40 % des autres technologies (59 sur 146) | 1 h | – | – | – |
+| Savoir dormant III | +50 points de réinitialisation | Savoir dormant II; 60 % des autres technologies (88 sur 146) | 1 h | – | – | – |
+| Savoir dormant IV | +50 points de réinitialisation | Savoir dormant III; 80 % des autres technologies (117 sur 146) | 1 h | – | – | – |
+| Savoir dormant V | +50 points de réinitialisation | Savoir dormant IV; 100 % des autres technologies (146 sur 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Toutes les technologies {#all-the-technologies}
 
@@ -416,6 +457,7 @@ La famille Skylab de la vue Recherche contient encore une sorte de technologie q
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10 800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 j | 86 400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36 000 | – |
 
 Les classes, par durée de recherche :
 
@@ -423,11 +465,11 @@ Les classes, par durée de recherche :
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18 000 | 0 |
 | B | 3 h à 6 h | 20 | 2 j 21 h | 248 400 | 0 |
-| C | 10 h | 16 | 6 j 16 h | 576 000 | 95 |
+| C | 10 h | 17 | 7 j 2 h | 612 000 | 95 |
 | D | 1 j à 2 j | 23 | 28 j | 2 419 200 | 319 |
-| Toutes |  | 69 | 37 j 18 h | 3 261 600 | 414 |
+| Toutes |  | 70 | 38 j 4 h | 3 297 600 | 414 |
 
-Recherché une technologie après l’autre, l’arbre entier prend 37 j 18 h. Avec le boost actif en permanence, il prend 18 j 21 h, soit 19 boosts et 95 000 Thulium ; la science est la même.
+Recherché une technologie après l’autre, l’arbre entier prend 38 j 4 h. Avec le boost actif en permanence, il prend 19 j 2 h, soit 20 boosts et 100 000 Thulium ; la science est la même.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Les nouveaux CPU se recherchent aussi ici, puis se fabriquent à l’Assemblage.
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 j | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
 
 Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez le CPU à l’Assemblage. Pointez un CPU dans son arbre pour voir ce que l’Assemblage demande pour le fabriquer.
 
@@ -482,6 +525,13 @@ Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez 
 - **Ce qu’il fait.** Il envoie tout seul le Repair Drone installé dans vos emplacements extras, chaque fois que vous auriez pu l’envoyer à la main : votre coque n’est pas pleine, le drone n’est pas déjà sorti et 10 secondes se sont écoulées depuis le dernier coup reçu. Il n’y a aucun seuil de coque à régler.
 - Il occupe un emplacement extra à lui et ne fait rien sans un Repair Drone dans un emplacement extra de la même configuration. Il n’envoie jamais un Repair Drone placé dans un emplacement de compétence (c’est le bouton Emergency Repair).
 - **Si vous arrêtez le drone à la main,** le CPU le laisse tranquille jusqu’à ce que votre coque soit de nouveau pleine, ou jusqu’à ce que vous l’envoyiez vous-même.
+
+### Auto-Rocket CPU
+
+- **Ce qu’il fait.** Tant qu’il est sur ON et que vous êtes au combat (vos lasers visent un alien ou un pilote ennemi), il tire tout seul votre roquette active, la dernière que vous avez tirée, sur cette cible, chaque fois qu’un appui sur la touche Tirer roquette fonctionnerait : le minuteur des roquettes est prêt et il vous en reste une. Le serveur vérifie chaque tir comme il vérifie les vôtres.
+- **L’interrupteur.** Équipez-le dans un emplacement Extras et appuyez sur son emplacement ARL pour le passer sur ON ou OFF. Il démarre sur OFF et reste comme vous l’avez laissé, y compris quand vous vous reconnectez. L’emplacement indique ON ou OFF et brille quand le CPU tire.
+- **Ce qu’il ne fait jamais.** Il ne choisit jamais de cible, ne tire jamais sur des astéroïdes, ni depuis une zone sûre, ni sous occultation, et ne tire jamais une N.U.K.E. ni une N.I.K.E. Une roquette que vous tirez vous-même fonctionne toujours. Sans touche, clic ni mouvement de souris pendant 3 minutes, il attend que vous fassiez quelque chose.
+- **Plus de roquettes.** Il vous le dit une fois et tire de nouveau dès que vous en avez.
 
 
 <!-- research-cpus:end -->

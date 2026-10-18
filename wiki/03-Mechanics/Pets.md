@@ -45,6 +45,7 @@ The Cradle is the machine of the Hangar's P.E.T. view. A **job** takes one Clust
 
 - **The chunk's grade decides the P.E.T.'s grade**, and with it how many boosts it holds (1, 2 or 3) and which types it can be: 4 of the 10 types for a Regular chunk, 7 for a Mythical one and all 10 for a Legendary one. The Retriever can come from any chunk; the Mole needs a Mythical or a Legendary one.
 - **You choose the type** among the ones you have discovered, or press **Discover**: the Cradle then hatches a type of that grade you have not discovered yet, drawn when the job starts and shown only when you collect the P.E.T. A type another running job has already drawn is left out, so two queued discoveries never hatch the same type.
+- **You can cancel a job** that runs or waits: press the small cross on its slot, and press again within 3 seconds when it asks **Cancel?**. The Cluster Chunk and the Orvium Reinforced Plate come back, the jobs behind it move up, and only the time it had run is lost. A finished job is collected, not cancelled. A discovery you cancel frees its type to be drawn again.
 - **The Codex** at the foot of the page shows the ten types as silhouettes until you have hatched them. It belongs to your account and nothing is paid for filling it.
 - **The P.E.T. Hangar** holds at most **24** P.E.T.s, docked or stored, and a running job counts as one. You can **let one go**: nothing comes back.
 

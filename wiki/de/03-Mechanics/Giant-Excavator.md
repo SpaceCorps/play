@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Riesenbagger -->
 # Riesenbagger {#giant-excavator}
 
@@ -32,7 +32,7 @@ Ab dem ersten Tag der Saison leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und
 2. **Öffne das Bedienfeld.** Klicke auf den Schriftzug. Das Fenster **Riesenbagger** funktioniert, solange dein Schiff in Reichweite des Bedienfelds ist (die Liste *Auf einen Blick* nennt sie). Auch ein getarntes Schiff kann es benutzen, und das Benutzen beendet die Tarnung nicht.
 3. **Betanke ihn.** **Dark Matter hinzufügen** legt ein Dark Matter aus deiner Fracht in den Tank. Das kann jeder. Der Tank nimmt nie mehr auf, als der Bagger noch verbrennen kann, bevor er überhitzt, sodass kein Treibstoff verschwendet wird.
 4. **Wähle, was abgebaut wird,** aus der Liste und drücke dann **Abbau starten**. Dafür braucht es mindestens ein Dark Matter im Tank und eine Ressource. Jeder kann die Wahl bis zum Start ändern und auch, während er läuft (siehe *Die Ressource wechseln* unten). Der Start wird jedem Piloten der Welt gemeldet, mit deinem Namen, dem Sektor und der Ressource.
-5. **Halte ihn.** Solange er abbaut, fällt alle paar Sekunden eine Kiste rund um den Bagger, und kurz nach dem Start treffen die ersten Slumbering Voids ein. Verteidige den Bagger und nimm die Kisten. Ein Lichtstrom fließt vom Pulsar in den Bohrer des Baggers und schwillt an, sooft einer der Jets des Sterns vorbeistreicht; in der letzten Minute vor der Überhitzung flackert er und reißt ab, und wenn die Maschine ruht, hört er auf.
+5. **Halte ihn.** Solange er abbaut, fällt alle paar Sekunden eine Kiste rund um den Bagger, und kurz nach dem Start treffen die ersten Slumbering Voids ein. Verteidige den Bagger und nimm die Kisten. Ein Lichtstrom fließt vom Pulsar in den Bohrer des Baggers und schwillt im Takt des Sterns an, alle 4 Sekunden einmal; in der letzten Minute vor der Überhitzung flackert er und reißt ab, und wenn die Maschine ruht, hört er auf.
 6. **Behalte die Hitze im Blick.** Die Hitzeleiste füllt sich, solange der Bagger abbaut, und leert sich nie, solange er wartet. An ihrer Grenze überhitzt der Bagger. Geh vorher: Das Spiel warnt die Karte zweimal.
 7. **Er ruht.** Überhitzt oder zerstört, sind der Bagger und sein Pulsar verstrahlt, bis die Ruhezeit vorbei ist; dann ist er wieder bereit, mit leerer Hitze und voller Hülle.
 
@@ -58,7 +58,7 @@ Geht der Treibstoff vor der Grenze aus, kehrt der Bagger mit behaltener Hitze zu
 
 ## Was er abbaut {#what-it-mines}
 
-Ein voller Tank liefert ungefähr so viel, wie fünf Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst die Ressource vor dem Start und kannst sie wechseln, während der Bagger läuft. Eine Kiste ist für alle gleich, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden.
+Ein voller Tank liefert ungefähr so viel, wie fünf Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst die Ressource vor dem Start und kannst sie wechseln, während der Bagger läuft. Eine Kiste enthält für alle gleich viel, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden. Was du aus einer Kiste nimmst, kann dagegen abweichen: Jede Stufe der Pilot-Forschung Excavator Mining ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) erhöht das Thulium und das Erz, das du aufnimmst, insgesamt um 20 %, 30 % oder 40 %, abgerundet.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

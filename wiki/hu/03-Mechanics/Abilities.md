@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Minden hajónak rögzített számú képességfoglalata van a hangárban:
 - **Ironclad**: 3 foglalat
 - **Wraith**: 3 foglalat
 
-Egy képességfoglalatba **pajzs**, **hajtómű** vagy **Repair Drone** kerül, és mindegyik a saját képességét adja. Húzd a tárgyat a foglalatra. A Konfig 1-nek és a Konfig 2-nek saját foglalatai vannak.
+Egy képességfoglalatba **pajzs**, **hajtómű** vagy **Repair Drone** kerül, és mindegyik a saját képességét adja. Húzd a tárgyat a foglalatra. A Konfig 1-nek és a Konfig 2-nek saját foglalatai vannak. A hangárban a pajzsra, hajtóműre vagy Repair Drone-ra kattintva az a szokásos foglalatába kerül, és az első szabad képességfoglalatba, ha a szokásos foglalatai (a generátorfoglalatok, a Repair Drone esetében az extrák) mind foglaltak.
 
 - **A pajzscellák és a fúvókák nem férnek a képességfoglalatba.** Ezek a pajzsok, a hajtóművek és az adaptív magok moduljai.
 - **A képességfoglalatban lévő tárgy semmi mást nem ad.** Nem ad pajzskapacitást, töltődést, elnyelést vagy sebességet, és a pajzs okozta lassulás sem terheli a hajót. Ugyanaz a Heavy Shield Core vagy egy generátorfoglalatban ül, hogy minden pillanatban a pajzsát adja, vagy egy képességfoglalatban a Shield Surge-ért. Te döntesz.

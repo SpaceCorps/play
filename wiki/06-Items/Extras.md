@@ -9,14 +9,15 @@ Extras are the gadgets in a ship's **extra slots** (two on the Protos, Kitefin, 
 | **Cloaking CPU M** | Hides your ship | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | Hides your ship | 50 | 20,000 Thulium |
 | **P.E.T. Station I to III** | Switched ON, it lets 2, 3 or 5 docked [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) boost your ship, earn experience and work; OFF, they do none of it | ON / OFF | Assembly, after its research (the item tree below) |
+| **Auto-Rocket CPU** | Switched ON, it fires your armed rocket by itself at the target of a fight | ON / OFF | Assembly, after its research (the item tree below) |
 
 The Cloaking CPUs are sold in the Shop only. They cannot be fused, and nothing gives them away. The **EMP Charge** is not an extra any more: since 0.4.21 it is a consumable, carried as a stack like a rocket and fitted in no slot, so it takes none of your extra slots (see [Rockets](/wiki/06-Items/Rockets.md#emp-charge)). The two **Energetic Walls** are not extras any more either: since 0.4.22 they are consumables too, carried as a stack and fitted in no slot (see [Energetic Wall](#energetic-wall)).
 
 A new pilot's **starter kit** already fits two extras in the Protos' two extra slots: a **Base CPU I** (10 uses, a teleport to your company's base) and a **Repair Drone I**. Drag them from the Extras picker of the hotbar onto a slot to use them. Only new pilots get the kit: a pilot who enlisted before 0.4.10 has not got it.
 
-Seven more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, and the Auto-Repair CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take. The two warp CPUs, the Jump CPU and the Base CPUs, are also refused while you carry a quest item ("You can't use a warp CPU while carrying a mission item."): see [Quest items](/wiki/03-Mechanics/Quests.md#quest-items).
+Eight more CPUs are not sold: Assembly makes them once the Skylab's Research Centre has researched them (see [Research](/wiki/03-Mechanics/Research.md)). They are Extra Slots CPU I, II and III, the Jump CPU, Base CPU I and II, the Auto-Repair CPU and the Auto-Rocket CPU, and [the last section](#research-cpus) tells what each does. Like the Cloaking CPU, the Jump CPU and the Base CPUs are for a quiet moment: none of the three starts within 10 seconds of a shot you fire or a hit you take. The two warp CPUs, the Jump CPU and the Base CPUs, are also refused while you carry a quest item ("You can't use a warp CPU while carrying a mission item."): see [Quest items](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU and **ARP**, **BSE** and **JMP** for the Auto-Repair, Base and Jump CPUs (the consumables have theirs: **EMP**, and **WAL** for an Energetic Wall). The Extra Slots CPUs have no slot: they install in your Skylab. The three **P.E.T. Station** items are extras like the others, with the label **PET**: fit one, and its slot switches the Station **ON** or **OFF** (a second between two presses) and shows which. While it is ON the docked [P.E.T.s](/wiki/03-Mechanics/Pets.md) count, while it is OFF they do not. Point at a slot to read what a press does now, or why it cannot.
+Each extra has a short label on its hotbar slot: **REP** for a Repair Drone, **CLK** for a Cloaking CPU and **ARP**, **ARL**, **BSE** and **JMP** for the Auto-Repair, Auto-Rocket, Base and Jump CPUs (the consumables have theirs: **EMP**, and **WAL** for an Energetic Wall). The Extra Slots CPUs have no slot: they install in your Skylab. The three **P.E.T. Station** items are extras like the others, with the label **PET**: fit one, and its slot switches the Station **ON** or **OFF** (a second between two presses) and shows which. While it is ON the docked [P.E.T.s](/wiki/03-Mechanics/Pets.md) count, while it is OFF they do not. The **Auto-Rocket CPU** is switched the same way, ON or OFF. Point at a slot to read what a press does now, or why it cannot.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../img/wiki-img/shots/emp-hotbar.jpg)
@@ -45,6 +46,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -112,6 +114,7 @@ Two of the CPUs take Dark Matter Plates, like the last tier of every upgrade cha
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15,000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20,000 | 15 min |
 
 None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
 
@@ -146,6 +149,13 @@ None of them is sold in the Shop: research the technology, then make the CPU in 
 - **What it does.** It sends out the Repair Drone fitted in your extra slots by itself, whenever you could have sent it out by hand: your hull is not full, the drone is not already out and 10 seconds have passed since the last hit. There is no hull level to set.
 - It takes an extra slot of its own and does nothing without a Repair Drone in an extra slot of the same configuration. It never sends out a Repair Drone in an ability slot (that one is the Emergency Repair button).
 - **If you stop the drone by hand,** the CPU leaves it alone until your hull is full again, or until you send the drone out yourself.
+
+### Auto-Rocket CPU
+
+- **What it does.** While it is switched ON and you are in a fight (your lasers are on an alien or an enemy pilot), it fires your armed rocket, the one you fired last, at that target by itself, whenever a press of the Fire Rocket key would work: the rockets' timer is ready and you have one left. The server checks each launch as it checks yours.
+- **The switch.** Fit it in an Extras slot and press its ARL slot to switch it ON or OFF. It starts OFF and stays as you left it, also when you sign in again. The slot says ON or OFF and glows when the CPU fires.
+- **What it never does.** It never picks a target, never fires at asteroids, never fires from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E. A rocket you fire yourself always works. With no key, click or mouse move for 3 minutes it waits until you do something.
+- **No rockets left.** It tells you once and fires again as soon as you have more.
 
 
 <!-- research-cpus:end -->

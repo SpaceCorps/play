@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: df5b37694d9bfff2 -->
+<!-- wiki-i18n source: b031b05274071083 -->
 <!-- wiki-i18n title: Skrovpansar -->
 # Skrovpansar {#hull-plating}
 
@@ -34,7 +34,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 Hull Plating I köps. **II och III är uppgraderingar**: Monteringen förbrukar ett pansar från nivån under (löst i ditt inventarie) och kräver Thulium, material och **Dark Matter Plates**, 5 för II och 8 för III, medan sista nivån på varje annan utrustningsdel kräver 4 och en Ancient Control Unit. Var och en behöver först sin teknologi, i Hull Plating-trädet på sidan [Forskning](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 dag och 25 Dark Matter för II, 2 dagar och 40 för III, utöver teknologin för själva Dark Matter Plate. Trädet ovan visar priserna, materialen och tiderna.
 
-[Smedjan](/wiki/06-Items/Forge.md) tar emot alla pansar, och en uppgradering behåller smidesnivån på pansaret den förbrukade och slumpar bonusen på nytt. Ett pansar har bara ett värde, skrovet, och rymmer därför en bonus, +2 % till +15 % efter nivå: en Hull Plating III på Evig nivå ger upp till 17 250. På [Auktionen](/wiki/03-Mechanics/Auction.md) kan Hull Plating II och III läggas ut, aldrig Hull Plating I, som butiken säljer.
+[Smedjan](/wiki/06-Items/Forge.md) tar emot alla pansar, och en uppgradering behåller smidesnivån och bonusen hos pansaret den förbrukade. Ett pansar har bara ett värde, skrovet, och rymmer därför en bonus, +2 % till +15 % efter nivå: en Hull Plating III på Evig nivå ger upp till 17 250. På [Auktionen](/wiki/03-Mechanics/Auction.md) kan Hull Plating II och III läggas ut, aldrig Hull Plating I, som butiken säljer.
 
 ## Pansarplatser {#hull-plate-slots}
 

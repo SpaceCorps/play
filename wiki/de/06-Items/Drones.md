@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
+<!-- wiki-i18n source: d531966f18e08dc2 -->
 <!-- wiki-i18n title: Drohnen -->
 # Drohnen {#drones}
 
 Drohnen sind kaufbare oder herstellbare Unterstützungseinheiten. Du kannst bis zu **8 Drohnen** gleichzeitig aktiv haben, Slave Drones und Master Drones zusammen. Die sechzehn **Drohnenformationen** im Baum unten sind keine Drohnen: Du erforschst und baust sie, trägst jeweils eine über die Aktionsleiste, und sie wirken nur, solange du mindestens eine Drohne besitzt (siehe [Drohnenformationen](/wiki/03-Mechanics/Formations.md)).
 
-![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Credits, Thulium, Ship Fragments, plates and Ancient Control Units](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
@@ -16,7 +16,7 @@ Was die Montage herstellt, braucht zuerst seine Technologie; zeige auf einen Geg
 
 ```tree
 Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
@@ -43,7 +43,7 @@ Slave Drone => Master Drone
 | Name             | Seltenheit | Slots | Beschreibung                                                                                  | Kosten                             |
 | :--------------- | :--------- | :---- | :-------------------------------------------------------------------------------------------- | :--------------------------------- |
 | **Slave Drone**  | Gewöhnlich | 1     | Eine einfache Drohne mit einem einzigen Ausrüstungs-Slot. Sie wächst durch 8 Level, während du Aliens zerstörst. | Ab 100.000 Credits (siehe unten) |
-| **Master Drone** | Selten     | 2     | Eine in der Montage aufgerüstete Slave Drone. Sie fliegt in Gold, behält ihre Nummer und das, was sie trägt, bekommt einen zweiten Ausrüstungs-Slot und fängt wieder bei Level 1 an. | Eine Slave Drone aufrüsten: 50.000 Thulium, 250 Ship Fragments und 20 Dark Matter Plates |
+| **Master Drone** | Selten     | 2     | Eine in der Montage aufgerüstete Slave Drone. Sie fliegt in Gold, behält ihre Nummer und das, was sie trägt, bekommt einen zweiten Ausrüstungs-Slot und fängt wieder bei Level 1 an. | Eine Slave Drone aufrüsten: 1.000.000 Credits, 50.000 Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates und 2 Ancient Control Units |
 
 Eine Slave Drone beginnt als kleine Kugel und wächst auf Level 8 zu einem gepanzerten Kanonenboot heran. Jede Drohne, die du besitzt, bekommt dieselbe Erfahrung, sobald du ein Alien zerstörst, und ein höheres Level gibt dem Laser in ihrem Slot etwas mehr Schaden (bis zu +7 % auf Level 8). Die Seite zur Drohnenmechanik (unter Spielmechanik) nennt die Level und was jedes verlangt. Das Herstellen einer Master Drone verbraucht keine Drohne: Es rüstet die von dir gewählte Slave Drone an Ort und Stelle auf, und **ihr Level und ihre Erfahrung werden auf 0 zurückgesetzt**, wenn das Upgrade fertig ist (die Montage weist darauf hin und bittet dich um Bestätigung). Dafür hat die Drohne **zwei Ausrüstungs-Slots** statt einem: Was sie trug, bleibt in ihrem ersten Slot, der zweite ist leer. Deine Drohnen bleiben mit ihren Leveln und ihrer Erfahrung über den Saison-Wipe erhalten.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
+<!-- wiki-i18n source: cb94c2a238471e59 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter e Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ La **Dark Matter** è la risorsa che sta dietro la cima dell’albero delle tecn
 ## In un minuto {#in-one-minute}
 
 - **La Dark Matter è una risorsa e si chiama semplicemente Dark Matter ovunque.** Il buco nero al centro del Settore pericoloso 4 (`DS-4`) la produce: ogni razzo N.I.K.E. che raggiunge il buco restituisce da 1 a 3 Dark Matter (2 in media), in piccole casse sul bordo della sua zona.
-- **A cosa serve.** 93 tecnologie del Centro ricerche la richiedono, da 5 a 40 ciascuna e 1.019 in tutto, e l’Assemblaggio la pressa nella Dark Matter Plate. Dal giorno 11 della stagione la brucia anche un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), come carburante: un serbatoio sono poche Dark Matter, e va perso se l’escavatore viene distrutto.
+- **A cosa serve.** 107 tecnologie del Centro ricerche la richiedono, da 5 a 60 ciascuna e 1.354 in tutto, e l’Assemblaggio la pressa nella Dark Matter Plate. Dal giorno 11 della stagione la brucia anche un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), come carburante: un serbatoio sono poche Dark Matter, e va perso se l’escavatore viene distrutto.
 - **Nel Centro ricerche** aggiungi Dark Matter dalla tua stiva (con la nave atterrata) prima di premere Avvia. La ricerca la preleva all’inizio.
 - **Una Dark Matter Plate è un oggetto diverso.** Ricerca prima la sua ricetta (il gruppo Risorse dell’albero: 1 giorno e 10 Dark Matter), poi creala all’Assemblaggio con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate e 250 Thulium.
 - **A cosa serve una plate.** L’ultimo tier di ogni catena di potenziamento ne chiede **4** e almeno una Ancient Control Unit: gli amp, le celle di scudo e i propulsori del tier IV, l’Heavy Shield Core, l’Engine III, l’Adaptive Core III, l’Helios Beam, l’Extra Slots CPU III e il Base CPU II (13 pezzi). La Forgia ne chiede 2 per portare un oggetto da Divino a Lacerante, e altre 2 da Lacerante a Eterno. Anche i moduli Motori, Difesa e Radar dello Skylab chiedono piastre, per essere costruiti e migliorati ([Risorse](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@ La **Dark Matter** è la risorsa che sta dietro la cima dell’albero delle tecn
 | **Cos’è** | Una risorsa Epica | Una risorsa Mitica |
 | **Da dove viene** | Il buco nero nel settore pericoloso 4, per i razzi N.I.K.E. sparati dentro; un poco dallo Sciame Dormant e dalle Inert Mass del Dormant Swamp | L’Assemblaggio, pressata con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate e 250 Thulium |
 | **Cosa fai prima** | Ricercare il N.I.K.E. (3 h, senza Dark Matter) e crearne qualcuno | Ricercare la ricetta della plate (1 g, 10 Dark Matter) |
-| **A cosa serve** | I costi di ricerca (93 tecnologie, 1.019 in tutto) e la plate | L’ultimo tier di ogni catena di potenziamento: 4 per ciascuno dei 13 pezzi; il potenziamento del Master Drone: 20; la Forgia: 2 per ciascuno dei suoi due gradini più alti |
+| **A cosa serve** | I costi di ricerca (107 tecnologie, 1.354 in tutto) e la plate | L’ultimo tier di ogni catena di potenziamento: 4 per ciascuno dei 13 pezzi; il potenziamento del Master Drone: 10; la Forgia: 2 per ciascuno dei suoi due gradini più alti |
 
 ## Come ottenere la Dark Matter {#how-to-get-dark-matter}
 
@@ -71,7 +71,7 @@ Il wipe lascia intatta la Dark Matter del tuo Centro.
 1. **Ricerca la ricetta.** Nella vista Ricerca la tecnologia **Dark Matter Plate** si trova nel gruppo **Risorse** dell’albero. Richiede 1 giorno e chiede 10 Dark Matter, che aggiungi prima al Centro. Anche le tecnologie dei 13 pezzi dell’ultimo tier la richiedono.
 2. **Procurati ciò che serve a una plate:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate e 250 Thulium. La Fucina del tuo Skylab ricava le due piastre rinforzate dal minerale ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Creala all’Assemblaggio.** Scegli **Risorse** nel filtro Categoria. Una creazione fa una plate in 120 secondi.
-4. **Usala.** L’ultimo tier di ogni catena di potenziamento richiede **4 plate** ([sotto](#what-the-last-tier-asks-for)). [La Forgia](/wiki/06-Items/Forge.md) chiede **2 plate** per portare un oggetto da Divino a Lacerante (75% di successo, 200.000 crediti) e **altre 2** da Lacerante a Eterno (60% di successo, 500.000 crediti e 2.000 Thulium). Un passaggio fallito restituisce metà dei suoi materiali, arrotondata per difetto: una plate. Il potenziamento del Master Drone richiede **20** plate.
+4. **Usala.** L’ultimo tier di ogni catena di potenziamento richiede **4 plate** ([sotto](#what-the-last-tier-asks-for)). [La Forgia](/wiki/06-Items/Forge.md) chiede **2 plate** per portare un oggetto da Divino a Lacerante (75% di successo, 200.000 crediti) e **altre 2** da Lacerante a Eterno (60% di successo, 500.000 crediti e 2.000 Thulium). Un passaggio fallito restituisce metà dei suoi materiali, arrotondata per difetto: una plate. Il potenziamento del Master Drone richiede **10** plate.
 
 ## Cosa richiede l’ultimo tier {#what-the-last-tier-asks-for}
 
@@ -86,7 +86,7 @@ L’ultimo tier di ogni catena di potenziamento richiede **4 Dark Matter Plate**
 - **L’Adaptive Core III**, da un Adaptive Core II ([Scudi](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU:** Extra Slots CPU III, con 6 Orvium Reinforced Plate, e Base CPU II, con 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Questi non richiedono Dark Matter Plate:** il Quantum Laser III e la Starfire-III (piastre di Velkonite), i tier II e III di ogni catena (2 piastre di Velkonite per un amp, 4 per una cella o un propulsore), il Jump CPU, l’Auto-Repair CPU, Extra Slots CPU I e II, Base CPU I, le 16 formazioni di droni e le navi. [La Forgia](/wiki/06-Items/Forge.md) mantiene le sue 2 plate su ciascuno dei suoi due passi più alti.
+**Questi non richiedono Dark Matter Plate:** il Quantum Laser III e la Starfire-III (piastre di Velkonite), i tier II e III di ogni catena (2 piastre di Velkonite per un amp, 4 per una cella o un propulsore), il Jump CPU, l’Auto-Repair CPU, l’Auto-Rocket CPU, Extra Slots CPU I e II, Base CPU I, le 16 formazioni di droni e le navi. [La Forgia](/wiki/06-Items/Forge.md) mantiene le sue 2 plate su ciascuno dei suoi due passi più alti.
 
 Una plate si pressa da 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate e 250 Thulium, quindi le 4 plate di un pezzo richiedono anche 4 piastre di Velkonite, 4 di Orvium e 1.000 Thulium. Cosa contiene una nave completa, con l’ultimo tier ovunque:
 
@@ -107,7 +107,7 @@ I 40 pezzi di un Paragon sono i suoi 8 laser, i loro 24 amp e i suoi 8 slot dei 
 | Una Dark Matter Plate | 5 | 2,5 |
 | Le due plate di un passaggio della Forgia | 10 | 5 |
 | Le quattro plate di un pezzo dell’ultimo tier | 20 | 10 |
-| Ogni tecnologia che richiede Dark Matter | 1.019 | 510 |
+| Ogni tecnologia che richiede Dark Matter | 1.354 | 677 |
 
 Un primo potenziamento da zero è la ricetta (10) e due plate (10): 20 Dark Matter, circa 10 razzi N.I.K.E., cioè due creazioni. Un primo amp di tier IV da zero è la ricetta della plate (10), la tecnologia dell’amp stesso (10) e 4 plate (20): 40 Dark Matter, circa 20 razzi N.I.K.E.
 

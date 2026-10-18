@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: df5b37694d9bfff2 -->
+<!-- wiki-i18n source: b031b05274071083 -->
 <!-- wiki-i18n title: Hüllenpanzerung -->
 # Hüllenpanzerung {#hull-plating}
 
@@ -34,7 +34,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 Hull Plating I wird gekauft. **II und III sind Aufwertungen**: Die Montage verbraucht eine Panzerung der Stufe darunter (lose in deinem Inventar) und verlangt Thulium, Materialien und **Dark Matter Plates**, 5 für die II und 8 für die III, wo die letzte Stufe jedes anderen Ausrüstungsstücks 4 und eine Ancient Control Unit verlangt. Jede braucht zuerst ihre Technologie, im Hull-Plating-Baum der Seite [Forschung](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 Tag und 25 Dark Matter für die II, 2 Tage und 40 für die III, zusätzlich zur Technologie der Dark Matter Plate selbst. Der Baum oben zeigt die Preise, die Materialien und die Zeiten.
 
-Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe der verbrauchten Panzerung und würfelt ihren Bonus neu. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Ewig fügt bis zu 17.250 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
+Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe und den Bonus der verbrauchten Panzerung. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Ewig fügt bis zu 17.250 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
 
 ## Panzerungs-Slots {#hull-plate-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a5a114c67d5c795 -->
+<!-- wiki-i18n source: 2cd682ac21559e5f -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -35,7 +35,7 @@ No nível 15 do Núcleo, o Skylab cresce mais uma vez e aprende a voar: uma **se
 
 - Construa primeiro a **Usina solar**: sem a energia dela, nada no Skylab funciona. A Mina de créditos não custa nada para construir, e a Mina de Thulium custa 5.000 créditos e 500 Thulium.
 - As minas e os coletores enchem um **armazenamento** (de 72 horas) enquanto você está fora. **Coletar** o leva para a sua conta (créditos, Thulium) ou para o seu Depósito de recursos (minério).
-- A **Mina de Thulium** é a sua principal fonte de Thulium: 40 por hora no nível 1, 1.280 no nível 20. A Mina de créditos produz 750 créditos por hora no nível 1 e 75.000 no nível 20.
+- A **Mina de Thulium** é a sua principal fonte de Thulium: 40 por hora no nível 1, 1.280 no nível 20. A Mina de créditos produz 2.250 créditos por hora no nível 1 e 225.000 no nível 20.
 - O **Núcleo** dita o ritmo: nenhum módulo passa dele, e a subida dele sozinha leva cerca de 16 dias e meio.
 - No **nível 10 do Núcleo**, uma **ponte** constrói o **Núcleo 2**, com seis slots a mais para módulos, e a **Impressora de munição**, a **Fábrica de foguetes** e a **Baía de minério** se encaixam nele. O passo para o nível 10 custa 2.000 Thulium a mais.
 - No **nível 15 do Núcleo**, uma segunda ponte constrói o **Núcleo 3**, e o **Módulo de motores**, o **Módulo de defesa**, o **Módulo de radar** e a **Baía de troféus** ocupam os slots dele: com eles o Skylab voa pelo mapa do universo e caça por conta própria. O passo para o nível 15 custa 4.000 Thulium a mais. [Veja Expedições](#expeditions).
@@ -133,7 +133,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 
 ### Mina de créditos e Mina de Thulium {#credit-farm-and-thulium-farm}
 
-- **Mina de créditos**: produz créditos ao longo do tempo: **750 por hora no nível 1, 75.000 no nível 20** (nível 5: 3.750; nível 10: 11.250; nível 15: 25.500). Construí-la não custa nada.
+- **Mina de créditos**: produz créditos ao longo do tempo: **2.250 por hora no nível 1, 225.000 no nível 20** (nível 5: 11.250; nível 10: 33.750; nível 15: 76.500). Construí-la não custa nada.
 - **Mina de Thulium**: produz Thulium ao longo do tempo: **40 por hora no nível 1, 1.280 no nível 20** (nível 5: 144; nível 10: 360; nível 15: 760). Construí-la custa 5.000 créditos e 500 Thulium.
 - Ambas precisam de energia, e cada uma guarda 72 horas do que produz até você coletar.
 
@@ -477,7 +477,7 @@ O que um dia em uma célula paga no máximo (Alpha; Beta e Gamma pagam 1,6 e 2 v
 | 4 | 548 | 86 | 5.503 | 1.528.510 |
 | 5 | 630 | 32 | 5.255 | 1.972.329 |
 
-Um dia em uma célula vale cerca de duas horas de caça manual nessa célula (3,4 horas na dificuldade 4). A partir da dificuldade 3, é cerca de 30% do que uma Mina de Thulium no nível 15 do Núcleo faz em Thulium (18.240 por dia) e de 1,9 a 3,2 vezes o que uma Mina de créditos desse nível faz em créditos (612.000 por dia). Uma deriva de dificuldade 2 guarda menos alienígenas do que o orçamento paga e rende um pouco menos.
+Um dia em uma célula vale cerca de duas horas de caça manual nessa célula (3,4 horas na dificuldade 4). A partir da dificuldade 3, é cerca de 30% do que uma Mina de Thulium no nível 15 do Núcleo faz em Thulium (18.240 por dia) e de 0,6 a 1,1 vezes o que uma Mina de créditos desse nível faz em créditos (1.836.000 por dia). Uma deriva de dificuldade 2 guarda menos alienígenas do que o orçamento paga e rende um pouco menos.
 
 O **espólio** de um abate é sorteado a partir do que o alienígena solta: Ship Fragments, minérios, Reinforced Hull Plates e Power Cores, e, a partir da dificuldade 5, munição Ultra Core e Experimental Fusion Core.
 
@@ -696,7 +696,7 @@ O Skylab leva semanas para crescer, então um pouco de planejamento compensa. Os
 
 1. **A Usina solar, depois a Mina de créditos.** A Usina solar custa 500 créditos e 50 Thulium e sem ela nada funciona; a Mina de créditos não custa nada. As dez [missões da estação](/wiki/03-Mechanics/Quests.md#station-missions) guiam você nesses primeiros passos e pagam 52.000 créditos e 610 Thulium por eles, na base: o seu mundo, os seus boosters e os bônus do seu clã a multiplicam.
 2. **Depois a Mina de Thulium: é a sua principal fonte de Thulium.** No nível 10 ela produz 360 Thulium por hora, 8.640 por dia, aproximadamente tanto quanto pagam 43 abates de um [Crystalys](/wiki/04-Aliens/Crystalys.md) em Alpha (200 cada). A subida até o nível 10 custa 1.154.000 créditos e 4.190 Thulium, com a construção incluída. No nível 15 a mina produz 18.240 por dia e no nível 20, 30.720. O armazenamento dela guarda 72 horas, então volte pelo menos a cada três dias. O que o Thulium compra está na página [Recursos](/wiki/06-Items/Resources.md#thulium).
-3. **A Mina de créditos é a renda constante de apoio.** No nível 10 ela produz 11.250 créditos por hora, 270.000 por dia, por 840.000 créditos e 109 Thulium. Os níveis mais altos se pagam devagar: o passo do nível 9 ao 10 custa 300.000 créditos por 1.500 a mais por hora, ou seja, 200 horas. Melhore-a quando sobrarem créditos.
+3. **A Mina de créditos é a renda constante de apoio.** No nível 10 ela produz 33.750 créditos por hora, 810.000 por dia, por 840.000 créditos e 109 Thulium. Os níveis mais altos se pagam em dias: o passo do nível 9 ao 10 custa 300.000 créditos por 4.500 a mais por hora, ou seja, 67 horas. Melhore-a quando sobrarem créditos.
 4. **Mantenha o Núcleo ocupado.** Nada passa do Núcleo, e o Núcleo sozinho leva cerca de 16 dias e meio para chegar ao nível 20. Não há fila, então inicie o próximo passo dele toda vez que voltar.
 5. **Construa a cadeia de suprimentos como um conjunto.** Os coletores, o Depósito de recursos e a Forja abrem no nível 5 do Núcleo. Um coletor só pode depositar minério em um Depósito de recursos, e o depósito comporta um dia da produção do coletor dele no nível 1 e quatro dias no nível 20, então melhore o Depósito junto com os coletores, senão o minério fica esperando nos armazenamentos deles.
 6. **Deixe 2.000 Thulium prontos para o nível 10 do Núcleo.** O passo do Núcleo do nível 9 para o nível 10 pede isso, e ele constrói a ponte e o Núcleo 2, onde são construídas a [Impressora de munição](#ammo-printer), a [Fábrica de foguetes](#rocket-factory) e a [Baía de minério](#ore-bay).
@@ -705,29 +705,29 @@ O Skylab leva semanas para crescer, então um pouco de planejamento compensa. Os
 
 ### Planejando uma melhoria da Usina solar {#timing-a-solar-upgrade}
 
-Enquanto a Usina solar é melhorada, ela produz um quarto da própria energia, e uma estação quase sempre consome mais que isso. As minas e os coletores então param durante toda a melhoria: o que guardam fica, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda passa por ele (todos os módulos no mesmo nível, o Núcleo e a cadeia de suprimentos incluídos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 45.000 créditos e 1.440 Thulium. A tabela também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10 e os quatro módulos da Expedição a partir do nível 15.
+Enquanto a Usina solar é melhorada, ela produz um quarto da própria energia, e uma estação quase sempre consome mais que isso. As minas e os coletores então param durante toda a melhoria: o que guardam fica, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda passa por ele (todos os módulos no mesmo nível, o Núcleo e a cadeia de suprimentos incluídos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 135.000 créditos e 1.440 Thulium. A tabela também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10 e os quatro módulos da Expedição a partir do nível 15.
 
 | Melhoria da Usina solar | Tempo | Estação que continua funcionando, até o nível | A Mina de créditos produz nesse tempo | A Mina de Thulium produz nesse tempo |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 a 2 | 5 min | nenhuma | 63 | 3 |
-| 2 a 3 | 15 min | nenhuma | 375 | 16 |
-| 3 a 4 | 30 min | nenhuma | 1.125 | 44 |
-| 4 a 5 | 45 min | nenhuma | 2.250 | 84 |
-| 5 a 6 | 1 h | nenhuma | 3.750 | 144 |
-| 6 a 7 | 1 h 15 min | nenhuma | 6.563 | 230 |
-| 7 a 8 | 1 h 30 min | 1 | 10.125 | 336 |
-| 8 a 9 | 2 h | 2 | 16.500 | 528 |
-| 9 a 10 | 3 h | 3 | 29.250 | 912 |
-| 10 a 11 | 4 h | 5 | 45.000 | 1.440 |
-| 11 a 12 | 5 h | 6 | 67.500 | 2.200 |
-| 12 a 13 | 6 h | 7 | 99.000 | 3.120 |
-| 13 a 14 | 8 h | 7 | 156.000 | 4.800 |
-| 14 a 15 | 10 h | 8 | 225.000 | 6.800 |
-| 15 a 16 | 12 h | 9 | 306.000 | 9.120 |
-| 16 a 17 | 16 h | 10 | 480.000 | 14.080 |
-| 17 a 18 | 18 h | 11 | 648.000 | 18.000 |
-| 18 a 19 | 20 h | 12 | 870.000 | 22.400 |
-| 19 a 20 | 1 d | 13 | 1.260.000 | 28.800 |
+| 1 a 2 | 5 min | nenhuma | 188 | 3 |
+| 2 a 3 | 15 min | nenhuma | 1.125 | 16 |
+| 3 a 4 | 30 min | nenhuma | 3.375 | 44 |
+| 4 a 5 | 45 min | nenhuma | 6.750 | 84 |
+| 5 a 6 | 1 h | nenhuma | 11.250 | 144 |
+| 6 a 7 | 1 h 15 min | nenhuma | 19.688 | 230 |
+| 7 a 8 | 1 h 30 min | 1 | 30.375 | 336 |
+| 8 a 9 | 2 h | 2 | 49.500 | 528 |
+| 9 a 10 | 3 h | 3 | 87.750 | 912 |
+| 10 a 11 | 4 h | 5 | 135.000 | 1.440 |
+| 11 a 12 | 5 h | 6 | 202.500 | 2.200 |
+| 12 a 13 | 6 h | 7 | 297.000 | 3.120 |
+| 13 a 14 | 8 h | 7 | 468.000 | 4.800 |
+| 14 a 15 | 10 h | 8 | 675.000 | 6.800 |
+| 15 a 16 | 12 h | 9 | 918.000 | 9.120 |
+| 16 a 17 | 16 h | 10 | 1.440.000 | 14.080 |
+| 17 a 18 | 18 h | 11 | 1.944.000 | 18.000 |
+| 18 a 19 | 20 h | 12 | 2.610.000 | 22.400 |
+| 19 a 20 | 1 d | 13 | 3.780.000 | 28.800 |
 
 - **Melhore as minas junto com a Usina solar.** Um módulo em melhoria não produz nada e não usa energia de qualquer jeito, então o tempo que uma mina passa em melhoria durante a pausa não custa nada a mais.
 - **Mantenha os outros módulos baixos se você não pode pagar uma pausa.** Uma estação só continua funcionando durante a melhoria da Usina solar se todos os outros módulos dela estiverem pelo menos cinco níveis abaixo da Usina solar (seis a partir do nível 10 da Usina solar), e uma estação completa precisa de um pouco mais, como a tabela mostra.

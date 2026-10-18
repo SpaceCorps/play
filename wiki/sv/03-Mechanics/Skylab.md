@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a5a114c67d5c795 -->
+<!-- wiki-i18n source: 2cd682ac21559e5f -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -35,7 +35,7 @@ På kärnnivå 15 växer Skylab en gång till och lär sig flyga: en **andra bro
 
 - Bygg **Solkraft** först: utan dess energi går ingenting i Skylab. Kreditfarmen kostar ingenting att bygga, och Thuliumfarmen kostar 5 000 krediter och 500 Thulium.
 - Farmer och samlare fyller ett **lager** (för 72 timmar) medan du är borta. **Hämta** flyttar det till ditt konto (krediter, Thulium) eller till ditt Resurslager (malm).
-- **Thuliumfarmen** är din viktigaste källa till Thulium: 40 i timmen på nivå 1, 1 280 på nivå 20. Kreditfarmen ger 750 krediter i timmen på nivå 1 och 75 000 på nivå 20.
+- **Thuliumfarmen** är din viktigaste källa till Thulium: 40 i timmen på nivå 1, 1 280 på nivå 20. Kreditfarmen ger 2 250 krediter i timmen på nivå 1 och 225 000 på nivå 20.
 - **Kärnan** ger takten: ingen modul går över den, och dess egen uppgradering tar ungefär 16 och en halv dag.
 - På **kärnnivå 10** bygger en **bro** **Kärna 2** med sex fler modulplatser, och **Ammunitionsskrivaren**, **Raketfabriken** och **Malmviken** kopplas in där. Steget till nivå 10 kostar 2 000 Thulium mer.
 - På **kärnnivå 15** bygger en andra bro **Kärna 3**, och **Motormodulen**, **Försvarsmodulen**, **Radarmodulen** och **Trofélagret** tar dess platser: med dem flyger Skylab över universumkartan och jagar på egen hand. Steget till nivå 15 kostar 4 000 Thulium extra. [Se Expeditioner](#expeditions).
@@ -133,7 +133,7 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 
 ### Kreditfarm och Thuliumfarm {#credit-farm-and-thulium-farm}
 
-- **Kreditfarm**: producerar krediter över tid: **750 i timmen på nivå 1, 75 000 på nivå 20** (nivå 5: 3 750; nivå 10: 11 250; nivå 15: 25 500). Den kostar ingenting att bygga.
+- **Kreditfarm**: producerar krediter över tid: **2 250 i timmen på nivå 1, 225 000 på nivå 20** (nivå 5: 11 250; nivå 10: 33 750; nivå 15: 76 500). Den kostar ingenting att bygga.
 - **Thuliumfarm**: producerar Thulium över tid: **40 i timmen på nivå 1, 1 280 på nivå 20** (nivå 5: 144; nivå 10: 360; nivå 15: 760). Att bygga den kostar 5 000 krediter och 500 Thulium.
 - Båda kräver energi, och var och en lagrar 72 timmars produktion tills du hämtar den.
 
@@ -477,7 +477,7 @@ Vad en dag i en cell betalar som mest (Alpha; Beta och Gamma betalar 1,6 och 2 g
 | 4 | 548 | 86 | 5 503 | 1 528 510 |
 | 5 | 630 | 32 | 5 255 | 1 972 329 |
 
-En dag i en cell är värd ungefär två timmars handjakt på den cellen (3,4 timmar på svårighet 4). Från svårighet 3 är det ungefär 30 % av vad en Thuliumfarm på kärnnivå 15 ger i Thulium (18 240 per dag) och 1,9 till 3,2 gånger vad en Kreditfarm på den nivån ger i krediter (612 000 per dag). En drift med svårighet 2 rymmer färre utomjordingar än budgeten betalar för och ger lite mindre.
+En dag i en cell är värd ungefär två timmars handjakt på den cellen (3,4 timmar på svårighet 4). Från svårighet 3 är det ungefär 30 % av vad en Thuliumfarm på kärnnivå 15 ger i Thulium (18 240 per dag) och 0,6 till 1,1 gånger vad en Kreditfarm på den nivån ger i krediter (1 836 000 per dag). En drift med svårighet 2 rymmer färre utomjordingar än budgeten betalar för och ger lite mindre.
 
 **Bytet** från en nedgörning lottas ur det utomjordingen tappar: Ship Fragments, malmer, Reinforced Hull Plates och Power Cores, och från svårighet 5 Ultra Core- och Experimental Fusion Core-ammunition.
 
@@ -696,7 +696,7 @@ En Skylab tar veckor att växa, så lite planering lönar sig. Siffrorna är tab
 
 1. **Solkraft, sedan Kreditfarmen.** Solkraft kostar 500 krediter och 50 Thulium och utan den går ingenting; Kreditfarmen kostar ingenting. De tio [Station-uppdragen](/wiki/03-Mechanics/Quests.md#station-missions) leder dig genom de här första stegen och betalar dig 52 000 krediter och 610 Thulium för dem, som grundvärde: din värld, dina boosters och din klans bonusar multiplicerar det.
 2. **Sedan Thuliumfarmen: den är din viktigaste källa till Thulium.** På nivå 10 producerar den 360 Thulium i timmen, 8 640 om dagen, ungefär lika mycket som 43 nedskjutna [Crystalys](/wiki/04-Aliens/Crystalys.md) betalar i Alpha (200 vardera). Vägen upp till nivå 10 kostar 1 154 000 krediter och 4 190 Thulium, bygget inräknat. På nivå 15 producerar farmen 18 240 om dagen och på nivå 20 30 720. Dess lager rymmer 72 timmar, så kom tillbaka minst var tredje dag. Vad Thulium köper står på sidan [Resurser](/wiki/06-Items/Resources.md#thulium).
-3. **Kreditfarmen är den jämna extrainkomsten.** På nivå 10 producerar den 11 250 krediter i timmen, 270 000 om dagen, för 840 000 krediter och 109 Thulium. De högre nivåerna betalar sig långsamt: steget från nivå 9 till 10 kostar 300 000 krediter för 1 500 mer i timmen, alltså 200 timmar. Uppgradera den när du har krediter över.
+3. **Kreditfarmen är den jämna extrainkomsten.** På nivå 10 producerar den 33 750 krediter i timmen, 810 000 om dagen, för 840 000 krediter och 109 Thulium. De högre nivåerna betalar sig på några dagar: steget från nivå 9 till 10 kostar 300 000 krediter för 4 500 mer i timmen, alltså 67 timmar. Uppgradera den när du har krediter över.
 4. **Håll kärnan sysselsatt.** Ingenting går över kärnan, och kärnan ensam tar ungefär 16 och en halv dag till nivå 20. Det finns ingen kö, så starta dess nästa steg varje gång du kommer tillbaka.
 5. **Bygg försörjningskedjan som en uppsättning.** Samlarna, Resurslagret och Smedjan öppnas på kärnnivå 5. En samlare kan lägga malm i lager bara i ett Resurslager, och Resurslagret rymmer en dags produktion från sin samlare på nivå 1 och fyra dagar på nivå 20, så uppgradera Resurslagret tillsammans med samlarna, annars väntar malmen i deras lager.
 6. **Ha 2 000 Thulium redo för kärnnivå 10.** Kärnans steg från nivå 9 till nivå 10 kräver dem, och det bygger bron och Kärna 2, där [Ammunitionsskrivaren](#ammo-printer), [Raketfabriken](#rocket-factory) och [Malmviken](#ore-bay) byggs.
@@ -705,29 +705,29 @@ En Skylab tar veckor att växa, så lite planering lönar sig. Siffrorna är tab
 
 ### Planera en Solkraft-uppgradering {#timing-a-solar-upgrade}
 
-Medan Solkraft uppgraderas ger den en fjärdedel av sin energi, och en station drar nästan alltid mer än så. Farmerna och samlarna står då stilla under hela uppgraderingen: det de håller finns kvar, men det de skulle ha gjort går förlorat. Tabellen ger för varje Solkraft-steg dess tid, den största station som ännu klarar det (varje modul på samma nivå, kärnan och försörjningskedjan inräknade; en mindre station klarar lite mer) och vad en Kreditfarm och en Thuliumfarm på den nivån skulle ha gjort under den tiden. Till exempel tar Solkraft från nivå 10 till 11 4 timmar, och farmer på nivå 10 skulle ha gjort 45 000 krediter och 1 440 Thulium under den. Tabellen räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10 och expeditionens fyra moduler från nivå 15.
+Medan Solkraft uppgraderas ger den en fjärdedel av sin energi, och en station drar nästan alltid mer än så. Farmerna och samlarna står då stilla under hela uppgraderingen: det de håller finns kvar, men det de skulle ha gjort går förlorat. Tabellen ger för varje Solkraft-steg dess tid, den största station som ännu klarar det (varje modul på samma nivå, kärnan och försörjningskedjan inräknade; en mindre station klarar lite mer) och vad en Kreditfarm och en Thuliumfarm på den nivån skulle ha gjort under den tiden. Till exempel tar Solkraft från nivå 10 till 11 4 timmar, och farmer på nivå 10 skulle ha gjort 135 000 krediter och 1 440 Thulium under den. Tabellen räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10 och expeditionens fyra moduler från nivå 15.
 
 | Solkraft-uppgradering | Tid | Station som fortsätter gå, upp till nivå | Kreditfarmen producerar under tiden | Thuliumfarmen producerar under tiden |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 till 2 | 5 min | ingen | 63 | 3 |
-| 2 till 3 | 15 min | ingen | 375 | 16 |
-| 3 till 4 | 30 min | ingen | 1 125 | 44 |
-| 4 till 5 | 45 min | ingen | 2 250 | 84 |
-| 5 till 6 | 1 h | ingen | 3 750 | 144 |
-| 6 till 7 | 1 h 15 min | ingen | 6 563 | 230 |
-| 7 till 8 | 1 h 30 min | 1 | 10 125 | 336 |
-| 8 till 9 | 2 h | 2 | 16 500 | 528 |
-| 9 till 10 | 3 h | 3 | 29 250 | 912 |
-| 10 till 11 | 4 h | 5 | 45 000 | 1 440 |
-| 11 till 12 | 5 h | 6 | 67 500 | 2 200 |
-| 12 till 13 | 6 h | 7 | 99 000 | 3 120 |
-| 13 till 14 | 8 h | 7 | 156 000 | 4 800 |
-| 14 till 15 | 10 h | 8 | 225 000 | 6 800 |
-| 15 till 16 | 12 h | 9 | 306 000 | 9 120 |
-| 16 till 17 | 16 h | 10 | 480 000 | 14 080 |
-| 17 till 18 | 18 h | 11 | 648 000 | 18 000 |
-| 18 till 19 | 20 h | 12 | 870 000 | 22 400 |
-| 19 till 20 | 1 d | 13 | 1 260 000 | 28 800 |
+| 1 till 2 | 5 min | ingen | 188 | 3 |
+| 2 till 3 | 15 min | ingen | 1 125 | 16 |
+| 3 till 4 | 30 min | ingen | 3 375 | 44 |
+| 4 till 5 | 45 min | ingen | 6 750 | 84 |
+| 5 till 6 | 1 h | ingen | 11 250 | 144 |
+| 6 till 7 | 1 h 15 min | ingen | 19 688 | 230 |
+| 7 till 8 | 1 h 30 min | 1 | 30 375 | 336 |
+| 8 till 9 | 2 h | 2 | 49 500 | 528 |
+| 9 till 10 | 3 h | 3 | 87 750 | 912 |
+| 10 till 11 | 4 h | 5 | 135 000 | 1 440 |
+| 11 till 12 | 5 h | 6 | 202 500 | 2 200 |
+| 12 till 13 | 6 h | 7 | 297 000 | 3 120 |
+| 13 till 14 | 8 h | 7 | 468 000 | 4 800 |
+| 14 till 15 | 10 h | 8 | 675 000 | 6 800 |
+| 15 till 16 | 12 h | 9 | 918 000 | 9 120 |
+| 16 till 17 | 16 h | 10 | 1 440 000 | 14 080 |
+| 17 till 18 | 18 h | 11 | 1 944 000 | 18 000 |
+| 18 till 19 | 20 h | 12 | 2 610 000 | 22 400 |
+| 19 till 20 | 1 d | 13 | 3 780 000 | 28 800 |
 
 - **Uppgradera farmerna tillsammans med Solkraft.** En modul som uppgraderas producerar ingenting och använder ingen energi ändå, så den tid en farm tillbringar i uppgradering under pausen kostar inget extra.
 - **Håll de andra modulerna låga om du inte har råd med en paus.** En station går bara igenom en Solkraft-uppgradering om alla dess andra moduler ligger minst fem nivåer under Solkraft (sex från Solkraft nivå 10), och en full station behöver lite mer, som tabellen visar.

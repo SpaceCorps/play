@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a5a114c67d5c795 -->
+<!-- wiki-i18n source: 2cd682ac21559e5f -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -35,7 +35,7 @@ Auf Kern-Level 15 wächst es noch einmal und lernt zu fliegen: Eine **zweite Br�
 
 - Baue zuerst **Solar**: Ohne dessen Energie läuft im Skylab nichts. Die Credit-Farm kostet beim Bauen nichts, die Thulium-Farm 5.000 Credits und 500 Thulium.
 - Farmen und Kollektoren füllen einen **Speicher** (für 72 Stunden), solange du weg bist. **Abholen** bringt ihn auf dein Konto (Credits, Thulium) oder ins Ressourcenlager (Erz).
-- Die **Thulium-Farm** ist deine wichtigste Thulium-Quelle: 40 pro Stunde auf Level 1, 1.280 auf Level 20. Die Credit-Farm macht auf Level 1 750 Credits pro Stunde und auf Level 20 75.000.
+- Die **Thulium-Farm** ist deine wichtigste Thulium-Quelle: 40 pro Stunde auf Level 1, 1.280 auf Level 20. Die Credit-Farm macht auf Level 1 2.250 Credits pro Stunde und auf Level 20 225.000.
 - Der **Kern** gibt den Takt vor: Kein Modul geht über ihn hinaus, und sein eigener Ausbau dauert etwa 16,5 Tage.
 - Auf **Kern-Level 10** baut eine **Brücke** den **Kern 2** mit sechs weiteren Modul-Slots, und der **Munitionsdrucker**, die **Raketenfabrik** und die **Erzbucht** docken dort an. Der Schritt auf Level 10 kostet 2.000 Thulium mehr.
 - Auf **Kern-Level 15** baut eine zweite Brücke den **Kern 3**, und das **Triebwerksmodul**, das **Verteidigungsmodul**, das **Radarmodul** und die **Trophäenhalle** nehmen seine Slots ein: Damit fliegt das Skylab über die Universumkarte und jagt von selbst. Der Schritt auf Level 15 kostet 4.000 Thulium mehr. [Siehe Expeditionen](#expeditions).
@@ -133,7 +133,7 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 
 ### Credit-Farm und Thulium-Farm {#credit-farm-and-thulium-farm}
 
-- **Credit-Farm**: erzeugt mit der Zeit Credits: **750 pro Stunde auf Level 1, 75.000 auf Level 20** (Level 5: 3.750; Level 10: 11.250; Level 15: 25.500). Der Bau kostet nichts.
+- **Credit-Farm**: erzeugt mit der Zeit Credits: **2.250 pro Stunde auf Level 1, 225.000 auf Level 20** (Level 5: 11.250; Level 10: 33.750; Level 15: 76.500). Der Bau kostet nichts.
 - **Thulium-Farm**: erzeugt mit der Zeit Thulium: **40 pro Stunde auf Level 1, 1.280 auf Level 20** (Level 5: 144; Level 10: 360; Level 15: 760). Der Bau kostet 5.000 Credits und 500 Thulium.
 - Beide brauchen Energie, und jede speichert 72 Stunden ihrer Produktion, bis du sie abholst.
 
@@ -477,7 +477,7 @@ Was ein Tag in einer Zelle höchstens zahlt (Alpha; Beta und Gamma zahlen das 1,
 | 4 | 548 | 86 | 5.503 | 1.528.510 |
 | 5 | 630 | 32 | 5.255 | 1.972.329 |
 
-Ein Tag in einer Zelle ist etwa zwei Stunden Jagd auf diese Zelle von Hand wert (3,4 Stunden bei Schwierigkeit 4). Ab Schwierigkeit 3 sind das etwa 30 % dessen, was eine Thulium-Farm auf Kern-Level 15 an Thulium macht (18.240 pro Tag), und das 1,9- bis 3,2-Fache dessen, was eine Credit-Farm dieses Levels an Credits macht (612.000 pro Tag). Eine Drift der Schwierigkeit 2 hält weniger Aliens, als ihr Budget bezahlt, und macht ein wenig weniger.
+Ein Tag in einer Zelle ist etwa zwei Stunden Jagd auf diese Zelle von Hand wert (3,4 Stunden bei Schwierigkeit 4). Ab Schwierigkeit 3 sind das etwa 30 % dessen, was eine Thulium-Farm auf Kern-Level 15 an Thulium macht (18.240 pro Tag), und das 0,6- bis 1,1-Fache dessen, was eine Credit-Farm dieses Levels an Credits macht (1.836.000 pro Tag). Eine Drift der Schwierigkeit 2 hält weniger Aliens, als ihr Budget bezahlt, und macht ein wenig weniger.
 
 Die **Beute** eines Abschusses wird aus den Drops seines Aliens ausgewürfelt: Ship Fragments, Erze, Reinforced Hull Plates und Power Cores und ab Schwierigkeit 5 Ultra Core- und Experimental Fusion Core-Munition.
 
@@ -696,7 +696,7 @@ Ein Skylab wächst wochenlang, ein wenig Planung zahlt sich also aus. Die Zahlen
 
 1. **Solar, dann die Credit-Farm.** Solar kostet 500 Credits und 50 Thulium, und ohne es läuft nichts; die Credit-Farm kostet nichts. Die zehn [Station-Missionen](/wiki/03-Mechanics/Quests.md#station-missions) führen dich durch diese ersten Schritte und zahlen dir dafür 52.000 Credits und 610 Thulium, als Basis: Deine Welt, Booster und Clan-Boosts multiplizieren sie.
 2. **Dann die Thulium-Farm: Sie ist deine wichtigste Thulium-Quelle.** Auf Level 10 erzeugt sie 360 Thulium pro Stunde, 8.640 pro Tag, etwa so viel wie 43 Abschüsse eines [Crystalys](/wiki/04-Aliens/Crystalys.md) in Alpha zahlen (je 200). Der Weg bis Level 10 kostet 1.154.000 Credits und 4.190 Thulium, den Bau eingerechnet. Auf Level 15 erzeugt die Farm 18.240 pro Tag und auf Level 20 30.720. Ihr Speicher fasst 72 Stunden, komm also mindestens alle drei Tage vorbei. Was Thulium kauft, steht auf der Seite [Ressourcen](/wiki/06-Items/Resources.md#thulium).
-3. **Die Credit-Farm ist das stetige Nebeneinkommen.** Auf Level 10 erzeugt sie 11.250 Credits pro Stunde, 270.000 pro Tag, für 840.000 Credits und 109 Thulium. Die höheren Level zahlen sich langsam zurück: Der Schritt von Level 9 auf 10 kostet 300.000 Credits für 1.500 mehr pro Stunde, das sind 200 Stunden. Baue sie aus, wenn du Credits übrig hast.
+3. **Die Credit-Farm ist das stetige Nebeneinkommen.** Auf Level 10 erzeugt sie 33.750 Credits pro Stunde, 810.000 pro Tag, für 840.000 Credits und 109 Thulium. Die höheren Level zahlen sich in Tagen zurück: Der Schritt von Level 9 auf 10 kostet 300.000 Credits für 4.500 mehr pro Stunde, das sind 67 Stunden. Baue sie aus, wenn du Credits übrig hast.
 4. **Halte den Kern beschäftigt.** Nichts geht über den Kern hinaus, und der Kern allein braucht etwa 16,5 Tage bis Level 20. Es gibt keine Warteschlange, also starte seinen nächsten Schritt jedes Mal, wenn du zurückkommst.
 5. **Baue die Versorgungskette als Satz.** Die Kollektoren, das Ressourcenlager und die Schmiede öffnen sich auf Kern-Level 5. Ein Kollektor kann Erz nur in ein Ressourcenlager einlagern, und das Lager fasst auf Level 1 einen Tag der Förderung seines Kollektors und auf Level 20 vier Tage, baue das Lager also zusammen mit den Kollektoren aus, sonst wartet das Erz in deren Speichern.
 6. **Halte 2.000 Thulium für Kern-Level 10 bereit.** Der Schritt des Kerns von Level 9 auf Level 10 verlangt sie, und er baut die Brücke und Kern 2, wo der [Munitionsdrucker](#ammo-printer), die [Raketenfabrik](#rocket-factory) und die [Erzbucht](#ore-bay) gebaut werden.
@@ -705,29 +705,29 @@ Ein Skylab wächst wochenlang, ein wenig Planung zahlt sich also aus. Die Zahlen
 
 ### Einen Solar-Ausbau planen {#timing-a-solar-upgrade}
 
-Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr als das. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie gemacht hätten, ist verloren. Die Tabelle gibt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durch ihn hindurch läuft (jedes Modul auf demselben Level, der Kern und die Versorgungskette eingeschlossen; eine kleinere Station verträgt etwas mehr), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in dieser Zeit gemacht hätten. Zum Beispiel dauert Solar von Level 10 auf 11 4 Stunden, und Farmen auf Level 10 hätten darin 45.000 Credits und 1.440 Thulium gemacht. Die Tabelle zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 und die vier Module der Expedition ab Level 15.
+Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr als das. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie gemacht hätten, ist verloren. Die Tabelle gibt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durch ihn hindurch läuft (jedes Modul auf demselben Level, der Kern und die Versorgungskette eingeschlossen; eine kleinere Station verträgt etwas mehr), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in dieser Zeit gemacht hätten. Zum Beispiel dauert Solar von Level 10 auf 11 4 Stunden, und Farmen auf Level 10 hätten darin 135.000 Credits und 1.440 Thulium gemacht. Die Tabelle zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 und die vier Module der Expedition ab Level 15.
 
 | Solar-Ausbau | Zeit | Station, die weiterläuft, bis Level | Credit-Farm erzeugt in der Zeit | Thulium-Farm erzeugt in der Zeit |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 auf 2 | 5 min | keine | 63 | 3 |
-| 2 auf 3 | 15 min | keine | 375 | 16 |
-| 3 auf 4 | 30 min | keine | 1.125 | 44 |
-| 4 auf 5 | 45 min | keine | 2.250 | 84 |
-| 5 auf 6 | 1 h | keine | 3.750 | 144 |
-| 6 auf 7 | 1 h 15 min | keine | 6.563 | 230 |
-| 7 auf 8 | 1 h 30 min | 1 | 10.125 | 336 |
-| 8 auf 9 | 2 h | 2 | 16.500 | 528 |
-| 9 auf 10 | 3 h | 3 | 29.250 | 912 |
-| 10 auf 11 | 4 h | 5 | 45.000 | 1.440 |
-| 11 auf 12 | 5 h | 6 | 67.500 | 2.200 |
-| 12 auf 13 | 6 h | 7 | 99.000 | 3.120 |
-| 13 auf 14 | 8 h | 7 | 156.000 | 4.800 |
-| 14 auf 15 | 10 h | 8 | 225.000 | 6.800 |
-| 15 auf 16 | 12 h | 9 | 306.000 | 9.120 |
-| 16 auf 17 | 16 h | 10 | 480.000 | 14.080 |
-| 17 auf 18 | 18 h | 11 | 648.000 | 18.000 |
-| 18 auf 19 | 20 h | 12 | 870.000 | 22.400 |
-| 19 auf 20 | 1 d | 13 | 1.260.000 | 28.800 |
+| 1 auf 2 | 5 min | keine | 188 | 3 |
+| 2 auf 3 | 15 min | keine | 1.125 | 16 |
+| 3 auf 4 | 30 min | keine | 3.375 | 44 |
+| 4 auf 5 | 45 min | keine | 6.750 | 84 |
+| 5 auf 6 | 1 h | keine | 11.250 | 144 |
+| 6 auf 7 | 1 h 15 min | keine | 19.688 | 230 |
+| 7 auf 8 | 1 h 30 min | 1 | 30.375 | 336 |
+| 8 auf 9 | 2 h | 2 | 49.500 | 528 |
+| 9 auf 10 | 3 h | 3 | 87.750 | 912 |
+| 10 auf 11 | 4 h | 5 | 135.000 | 1.440 |
+| 11 auf 12 | 5 h | 6 | 202.500 | 2.200 |
+| 12 auf 13 | 6 h | 7 | 297.000 | 3.120 |
+| 13 auf 14 | 8 h | 7 | 468.000 | 4.800 |
+| 14 auf 15 | 10 h | 8 | 675.000 | 6.800 |
+| 15 auf 16 | 12 h | 9 | 918.000 | 9.120 |
+| 16 auf 17 | 16 h | 10 | 1.440.000 | 14.080 |
+| 17 auf 18 | 18 h | 11 | 1.944.000 | 18.000 |
+| 18 auf 19 | 20 h | 12 | 2.610.000 | 22.400 |
+| 19 auf 20 | 1 d | 13 | 3.780.000 | 28.800 |
 
 - **Baue die Farmen zusammen mit Solar aus.** Ein Modul im Ausbau erzeugt ohnehin nichts und verbraucht keine Energie, daher kostet die Zeit, die eine Farm während der Pause mit ihrem Ausbau verbringt, nichts extra.
 - **Halte die anderen Module niedrig, wenn du dir keine Pause leisten kannst.** Eine Station läuft nur dann durch einen Solar-Ausbau, wenn alle ihre anderen Module mindestens fünf Level unter Solar liegen (sechs ab Solar-Level 10), und eine volle Station braucht etwas mehr, wie die Tabelle zeigt.

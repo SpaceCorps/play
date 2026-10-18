@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Hajtás -->
 # Hajtás és sebesség {#propulsion-speed}
 
@@ -47,7 +47,7 @@ A hajtóművek a hajód fő tolóerő-forrásai. A **képességfoglalatba** tett
 | **Engine II** | Gyakori | +4 | +4% | -8% | 2 | Afterburner II | Csak gyártható |
 | **Engine III** | Ritka | +6 | +5% | -15% | 3 | Afterburner III | Csak gyártható |
 
-Az **Engine II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Engine I-ből, 2 000 Thuliummal, 60 Ship Fragmenttel, 1 Power Core-ral és 4 Velkonite Reinforced Plate-tel. Az **Engine III** ott készül egy Engine II-ből, 4 000 Thuliummal, 110 Ship Fragmenttel, 5 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Mindkettő megtartja az elhasznált hajtómű bűvölési fokozatát, a bónuszai pedig újra kisorsolódnak ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a hajóról az elhasználandó hajtóművet (és a fúvókáit is vedd ki belőle): az a hajtómű, amely fel van szerelve, vagy fúvókákat hordoz, nem használódik el.
+Az **Engine II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Engine I-ből, 2 000 Thuliummal, 60 Ship Fragmenttel, 1 Power Core-ral és 4 Velkonite Reinforced Plate-tel. Az **Engine III** ott készül egy Engine II-ből, 4 000 Thuliummal, 110 Ship Fragmenttel, 5 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Mindkettő megtartja az elhasznált hajtómű bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a hajóról az elhasználandó hajtóművet (és a fúvókáit is vedd ki belőle): az a hajtómű, amely fel van szerelve, vagy fúvókákat hordoz, nem használódik el.
 
 A hajtóművek Pajzsbónusza benne van a tárgyadatokban, de a játék sosem alkalmazta: a hajtóművek nem gyengítik a pajzsaidat, és a tárgykártyák kihagyják.
 
@@ -86,7 +86,7 @@ Az Impulse több fix sebességet ad, a Momentum jobban szoroz, ezért az dönt, 
 
 A [Kovácsműhely](/wiki/06-Items/Forge.md) bónusza egy fúvóka sebességszorzóján az 1 feletti részt növeli (a +15% bónusz az x1,0935 szorzón x1,1075 értéket ad), az x1,05 vagy annál kisebb szorzóra pedig a Kovácsműhely nem sorsol bónuszt: egy Impulse Thruster x1,017–x1,02975 szorzóján 0,005-nál kevesebbet érne (a +15% az x1,02975 szorzón x1,034 értéket ad). Egy Impulse Thruster egy bónuszt bír (a fix sebességét), egy Momentum Thruster kettőt.
 
-Az egyes családok I. szintjét 20 000 kreditért árulják. A II–IV. szintet a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el, mindegyiket az azonos család eggyel alacsonyabb szintű fúvókájából (egy Impulse Thruster II-t egy Impulse Thruster I-ből, a III-at a II-ből, a IV-et a III-ból), Thuliumból, zsákmányból és lemezekből: a II. vagy a III. szinthez 4 Velkonite Reinforced Plate a Skylabodból, a IV. szinthez 4 Dark Matter Plate és egy Ancient Control Unit. Egy fúvóka soha nem vált családot: az Impulse és a Momentum között az I. szint megvásárlásakor döntesz. Mindegyik megtartja az elhasznált fúvóka bűvölési fokozatát, a bónuszaik pedig újra kisorsolódnak ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). A fúvókák nem illenek [képességfoglalatba](/wiki/03-Mechanics/Abilities.md); hajtóművekbe és adaptív magokba valók.
+Az egyes családok I. szintjét 20 000 kreditért árulják. A II–IV. szintet a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el, mindegyiket az azonos család eggyel alacsonyabb szintű fúvókájából (egy Impulse Thruster II-t egy Impulse Thruster I-ből, a III-at a II-ből, a IV-et a III-ból), Thuliumból, zsákmányból és lemezekből: a II. vagy a III. szinthez 4 Velkonite Reinforced Plate a Skylabodból, a IV. szinthez 4 Dark Matter Plate és egy Ancient Control Unit. Egy fúvóka soha nem vált családot: az Impulse és a Momentum között az I. szint megvásárlásakor döntesz. Mindegyik megtartja az elhasznált fúvóka bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). A fúvókák nem illenek [képességfoglalatba](/wiki/03-Mechanics/Abilities.md); hajtóművekbe és adaptív magokba valók.
 
 ### Az idegenek lehagyása {#outrunning-aliens}
 

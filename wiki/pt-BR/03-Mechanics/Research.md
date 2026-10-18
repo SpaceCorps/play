@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drones {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Naves {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Os tempos, o Dark Matter e os totais estão na página [Designs de naves](/wiki/
 ## Módulos do Skylab {#module-technologies}
 
 A família Skylab da visão de Pesquisa tem mais um tipo de tecnologia que não é uma fabricação: os níveis do **Módulo de motores**, do **Módulo de defesa** e do **Módulo de radar**, que o nível quinze do Core desbloqueia. Cada nível tem a sua própria tecnologia e só é construído depois dela; o primeiro nível de cada módulo não pede Dark Matter e os seguintes pedem mais a cada nível. A árvore acima os deixa de fora, porque o que eles abrem é um nível de módulo, não um item. O Dark Matter deles se soma aos totais acima, e [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) faz a conta. Os tempos deles e o que cada módulo faz estão no artigo [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Piloto {#pilot-technologies}
+
+A família Piloto da visão de Pesquisa tem tecnologias que não são fabricações: elas não criam nada na Montagem. A maioria é de **melhorias permanentes** para você. A árvore acima as deixa de fora, porque o que elas abrem é uma melhoria, não um item.
+
+- **O que custam.** Além da ciência e da Dark Matter, uma melhoria pede **créditos e Thulium**. O Centro leva tudo quando a pesquisa começa e devolve tudo se você a cancelar antes de ela terminar.
+- **Elas ficam.** Como o resto da sua pesquisa, essas tecnologias permanecem após o reset, e as melhorias com elas.
+- **Em série.** Cada nível exige o anterior, e um nível maior substitui o menor: a tabela mostra o total que cada nível dá, não o que ele acrescenta.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) acrescentam casco a todas as naves que você tem, nas duas configurações.
+- **Sealed Backdoor** aumenta o limite de carga de todos os foguetes, onde quer que você os compre, fabrique ou troque.
+- **Excavator Mining** aumenta o que você leva de cada caixa de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium quanto de minério.
+- **Field Theory** aumenta a parte de cada tiro que seus escudos absorvem. Uma nave sem escudo não ganha nada.
+- **Dormant Knowledge** paga pontos de reset, uma vez por nível, quando a pesquisa termina no Centro. Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco Dormant Knowledge não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Tecnologia | O que dá | Exige antes | Tempo de pesquisa | Dark Matter | Créditos | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Lanches eficientes: Kebab | +5.000 de casco em todas as suas naves | – | 10 h | 10 | 250.000 | 2.500 |
+| Lanches eficientes: Pelmeni | +10.000 de casco em todas as suas naves | Lanches eficientes: Kebab | 1 d | 20 | 1.000.000 | 10.000 |
+| Lanches eficientes: Hambúrguer | +15.000 de casco em todas as suas naves | Lanches eficientes: Pelmeni | 2 d | 30 | 3.500.000 | 35.000 |
+| Porta dos fundos selada I | +25% no limite de carga de foguetes | – | 6 h | 5 | 100.000 | 1.000 |
+| Porta dos fundos selada II | +50% no limite de carga de foguetes | Porta dos fundos selada I | 10 h | 10 | 300.000 | 3.000 |
+| Porta dos fundos selada III | +100% no limite de carga de foguetes | Porta dos fundos selada II | 1 d | 15 | 750.000 | 7.500 |
+| Porta dos fundos selada IV | +150% no limite de carga de foguetes | Porta dos fundos selada III | 2 d | 25 | 1.750.000 | 17.500 |
+| Porta dos fundos selada V | +200% no limite de carga de foguetes | Porta dos fundos selada IV | 3 d | 40 | 3.500.000 | 35.000 |
+| Mineração com escavadeira I | +20% na produção da escavadeira | – | 1 d | 10 | 500.000 | 5.000 |
+| Mineração com escavadeira II | +30% na produção da escavadeira | Mineração com escavadeira I | 2 d | 20 | 1.500.000 | 15.000 |
+| Mineração com escavadeira III | +40% na produção da escavadeira | Mineração com escavadeira II | 3 d | 30 | 4.000.000 | 40.000 |
+| Teoria de campos I | +2% de absorção do escudo | – | 1 d | 20 | 500.000 | 5.000 |
+| Teoria de campos II | +3% de absorção do escudo | Teoria de campos I | 2 d | 40 | 1.500.000 | 15.000 |
+| Teoria de campos III | +5% de absorção do escudo | Teoria de campos II | 3 d | 60 | 5.000.000 | 50.000 |
+| Conhecimento adormecido I | +50 pontos de reset | 20% das outras tecnologias (30 de 146) | 1 h | – | – | – |
+| Conhecimento adormecido II | +50 pontos de reset | Conhecimento adormecido I; 40% das outras tecnologias (59 de 146) | 1 h | – | – | – |
+| Conhecimento adormecido III | +50 pontos de reset | Conhecimento adormecido II; 60% das outras tecnologias (88 de 146) | 1 h | – | – | – |
+| Conhecimento adormecido IV | +50 pontos de reset | Conhecimento adormecido III; 80% das outras tecnologias (117 de 146) | 1 h | – | – | – |
+| Conhecimento adormecido V | +50 pontos de reset | Conhecimento adormecido IV; 100% das outras tecnologias (146 de 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Todas as tecnologias {#all-the-technologies}
 
@@ -416,6 +457,7 @@ A família Skylab da visão de Pesquisa tem mais um tipo de tecnologia que não 
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10.800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86.400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
 
 As classes, por tempo de pesquisa:
 
@@ -423,11 +465,11 @@ As classes, por tempo de pesquisa:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18.000 | 0 |
 | B | 3 h a 6 h | 20 | 2 d 21 h | 248.400 | 0 |
-| C | 10 h | 16 | 6 d 16 h | 576.000 | 95 |
+| C | 10 h | 17 | 7 d 2 h | 612.000 | 95 |
 | D | 1 d a 2 d | 23 | 28 d | 2.419.200 | 319 |
-| Todas |  | 69 | 37 d 18 h | 3.261.600 | 414 |
+| Todas |  | 70 | 38 d 4 h | 3.297.600 | 414 |
 
-Pesquisada uma após a outra, a árvore inteira leva 37 d 18 h. Com o boost ligado o tempo todo, leva 18 d 21 h, o que dá 19 boosts e 95.000 Thulium; a ciência é a mesma.
+Pesquisada uma após a outra, a árvore inteira leva 38 d 4 h. Com o boost ligado o tempo todo, leva 19 d 2 h, o que dá 20 boosts e 100.000 Thulium; a ciência é a mesma.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ As novas CPUs também são pesquisadas aqui e depois criadas na Montagem. A mesm
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 
 Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montagem. Passe o mouse sobre uma CPU na árvore dela para ver o que a Montagem pede para criá-la.
 
@@ -482,6 +525,13 @@ Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montage
 - **O que faz.** Envia por conta própria o Repair Drone equipado nos seus slots extras, sempre que você poderia tê-lo enviado manualmente: seu casco não está cheio, o drone não está fora e já se passaram 10 segundos desde o último acerto. Não há nenhum nível de casco para configurar.
 - Ocupa um slot extra só dela e não faz nada sem um Repair Drone em um slot extra da mesma configuração. Nunca envia um Repair Drone de um slot de habilidade (esse é o botão Emergency Repair).
 - **Se você parar o drone manualmente,** a CPU o deixa em paz até o seu casco estar cheio de novo, ou até você enviar o drone por conta própria.
+
+### Auto-Rocket CPU
+
+- **O que faz.** Enquanto estiver em ON e você estiver em combate (seus lasers estão em um alienígena ou em um piloto inimigo), ela dispara sozinha o seu foguete ativo, o último que você disparou, nesse alvo, sempre que um clique na tecla Disparar foguete funcionaria: o temporizador dos foguetes está pronto e resta um. O servidor confere cada disparo como confere os seus.
+- **O interruptor.** Equipe-a em um slot de Extras e clique no slot ARL dela para colocá-la em ON ou OFF. Ela começa em OFF e fica como você a deixou, mesmo quando você entra de novo. O slot mostra ON ou OFF e brilha quando a CPU dispara.
+- **O que nunca faz.** Nunca escolhe um alvo, nunca dispara em asteroides, de uma zona segura ou camuflado, e nunca dispara uma N.U.K.E. ou uma N.I.K.E. Um foguete que você mesmo dispara sempre funciona. Sem tecla, clique ou movimento do mouse por 3 minutos, ela espera você fazer algo.
+- **Sem foguetes.** Ela avisa uma vez e volta a disparar assim que você tiver mais.
 
 
 <!-- research-cpus:end -->

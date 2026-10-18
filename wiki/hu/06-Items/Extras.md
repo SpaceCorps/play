@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -11,14 +11,15 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 | **Cloaking CPU M** | Elrejti a hajódat | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Elrejti a hajódat | 50 | 20 000 Thulium |
 | **P.E.T. Station I–III** | BE kapcsolva 2, 3 vagy 5 dokkolt [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) ad bónuszt a hajódnak, szerez tapasztalatot és dolgozik; KI kapcsolva ezek közül egyiket sem teszik | BE / KI | Gyártás, a kutatása után (az alábbi tárgyfa) |
+| **Auto-Rocket CPU** | BE kapcsolva magától kilövi az aktív rakétádat a harc célpontjára | BE / KI | Gyártás, a kutatása után (az alábbi tárgyfa) |
 
 A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)). A két **Energetic Wall** sem extra már: a 0.4.22 óta ők is fogyóeszközök, kötegben viszed őket, és egyetlen foglalatba sem kerülnek (lásd [Energetic Wall](#energetic-wall)).
 
 Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafoglalatába: egy **Base CPU I**-et (10 használat, teleport a vállalatod bázisára) és egy **Repair Drone I**-et. Húzd őket a gyorssáv Extrák menüjéből egy helyre, hogy használhasd őket. A kezdőcsomagot csak az új pilóták kapják meg: aki a 0.4.10 előtt csatlakozott, annak nincs.
 
-Hét további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, valamint az Auto-Repair CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
+Nyolc további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, az Auto-Repair CPU, valamint az Auto-Rocket CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **ARP**, **BSE** és **JMP** pedig az Auto-Repair, a Base és a Jump CPU-hoz. A fogyóeszközöknek megvan a sajátjuk: **EMP**, és **WAL** az Energetic Wallhoz. A három **P.E.T. Station** tárgy extra, mint a többi, **PET** címkével: szerelj fel egyet, és a foglalata BE vagy KI kapcsolja a Stationt (két lenyomás között egy másodperc), és mutatja, melyik állásban van. Amíg BE van kapcsolva, a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) számítanak, amíg KI, nem. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
+Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **ARP**, **ARL**, **BSE** és **JMP** pedig az Auto-Repair, az Auto-Rocket, a Base és a Jump CPU-hoz. A fogyóeszközöknek megvan a sajátjuk: **EMP**, és **WAL** az Energetic Wallhoz. A három **P.E.T. Station** tárgy extra, mint a többi, **PET** címkével: szerelj fel egyet, és a foglalata BE vagy KI kapcsolja a Stationt (két lenyomás között egy másodperc), és mutatja, melyik állásban van. Amíg BE van kapcsolva, a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) számítanak, amíg KI, nem. Az **Auto-Rocket CPU**-t ugyanígy kapcsolod BE vagy KI. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 nap | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 perc |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 óra | – | 15 000 | 10 perc |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 óra | – | 600 | 2 perc |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 óra | – | 20 000 | 15 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 
@@ -148,6 +151,13 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 - **Mit tud.** Magától kiküldi az extrafoglalataidban lévő Repair Dronet, valahányszor kézzel is kiküldhetted volna: a hajótested nincs tele, a drón nincs kint, és az utolsó találat óta eltelt 10 másodperc. Nincs beállítandó hajótest-szint.
 - Saját extrafoglalatot foglal el, és nem csinál semmit Repair Drone nélkül ugyanannak a konfigurációnak egy extrafoglalatában. Képességfoglalatban lévő Repair Dronet sosem küld ki (az az Emergency Repair gomb).
 - **Ha kézzel megállítod a drónt,** a CPU nem nyúl hozzá, amíg a hajótested újra tele nem lesz, vagy amíg te magad ki nem küldöd a drónt.
+
+### Auto-Rocket CPU
+
+- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre vagy ellenséges pilótára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet.
+- **A kapcsoló.** Szereld fel egy Extrák helyre, és nyomd meg az ARL helyét a be- vagy kikapcsoláshoz. KI állapotban indul, és úgy marad, ahogy hagytad, akkor is, ha újra bejelentkezel. A hely BE vagy KI feliratot mutat, és felvillan, amikor a CPU lő.
+- **Mit nem tesz soha.** Soha nem választ célpontot, soha nem lő aszteroidákra, biztonságos zónából vagy álcázva, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
+- **Elfogyott a rakéta.** Egyszer szól, és újra lő, amint lesz több.
 
 
 <!-- research-cpus:end -->

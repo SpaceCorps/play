@@ -293,7 +293,7 @@ Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Ward
 ### Fighting a Warden
 
 - **A Warden fights the first pilot who hit it**, like any boss: let the sturdiest ship of the crew start, and use [Shield Surge and Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 17 to 26 pilots with x2 ammo and 27 to 39 with x1 ammo. The waves below are not in that calculation.
+- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 17 to 26 pilots with x2 ammo and 26 to 39 with x1 ammo. The waves below are not in that calculation.
 - **Brood:** the drones heal its hull, and a crew that ignores them loses, even a big one. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III). Since 0.4.22 the Brood Warden flies at the pilot who hit it, and its drones go with it and keep healing it.
 - **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target. Since 0.4.22 it no longer roams: it flies at the first pilot who hit it and fires its Rivet at him from up to 1,000 units.
 - **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free.
@@ -333,7 +333,7 @@ Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: un
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -350,7 +350,7 @@ Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every 
 
 - **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens.
 - **What they pay.** A whole wave of 15 Bulwarks pays 75,000 Credits in Alpha, and with its Crystalys 150,000: about 2% of the 7,200,000 the Warden itself pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **32 pilots on x-2, 32 on x-3 and 39 on x-4** with x2 ammo (26 without waves), and 39, 41 and 51 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so 51 on x-4 in Gamma is one more than it can send. Like the table there, it is calculated and not measured, and the best case.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **32 pilots on x-2, 32 on x-3 and 39 on x-4** with x2 ammo (26 without waves), and 39, 41 and 50 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so 50 on x-4 in Gamma is all it can send. Like the table there, it is calculated and not measured, and the best case.
 
 ### How big a crew
 
@@ -363,10 +363,10 @@ The table is the best case; in play, bring everyone you can.
 | :--- | :--- | :--- |
 | 5 pilots | lose to every Warden; the Warden keeps 88 to 96% of its hull and shield | lose |
 | 10 pilots | lose to every Warden; the Warden keeps 55 to 86% of its hull and shield | lose |
-| 20 pilots | win only against the Siege Warden I and II, in 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.9 minutes, losing 9 ships | lose |
-| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.5 to 10.6 minutes, losing 9 ships, and against the Brood Warden III, in 5.3 minutes, losing 13 ships |
+| 20 pilots | win only against the Siege Warden I and II, in 7.2 to 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.9 minutes, losing 9 ships | lose |
+| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.4 to 10.5 minutes, losing 9 ships, and against the Brood Warden III, in 5.2 minutes, losing 13 ships |
 
-In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 19** ships doing it; with x1 ammo it has **27 to 39** pilots and loses 13 to 27. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
+In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 18** ships doing it; with x1 ammo it has **26 to 39** pilots and loses 12 to 27. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
 
 The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
 

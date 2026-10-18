@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Propulsione -->
 # Propulsione e velocità {#propulsion-speed}
 
@@ -47,7 +47,7 @@ I motori sono la fonte principale di spinta della tua nave. Un motore in uno **s
 | **Engine II** | Comune | +4 | +4% | -8% | 2 | Afterburner II | Solo da creare |
 | **Engine III** | Raro | +6 | +5% | -15% | 3 | Afterburner III | Solo da creare |
 
-L’**Engine II** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Engine I, con 2.000 Thulium, 60 Ship Fragment, 1 Power Core e 4 Velkonite Reinforced Plate. L’**Engine III** si crea lì da un Engine II, con 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit e 4 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Ciascuno mantiene il grado di incantamento del motore che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima dalla tua nave il motore da consumare (e togli da esso i suoi propulsori): un motore montato sulla nave o che contiene propulsori non viene consumato.
+L’**Engine II** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Engine I, con 2.000 Thulium, 60 Ship Fragment, 1 Power Core e 4 Velkonite Reinforced Plate. L’**Engine III** si crea lì da un Engine II, con 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit e 4 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Ciascuno mantiene il grado di incantamento e i bonus del motore che consuma ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima dalla tua nave il motore da consumare (e togli da esso i suoi propulsori): un motore montato sulla nave o che contiene propulsori non viene consumato.
 
 Il Bonus scudo dei motori è nei dati dell’oggetto, ma il gioco non lo ha mai applicato: i motori non indeboliscono i tuoi scudi, e le schede degli oggetti lo omettono.
 
@@ -86,7 +86,7 @@ L’Impulse dà più velocità fissa, il Momentum moltiplica di più, quindi qua
 
 Il bonus al moltiplicatore di velocità di un propulsore, della [Forgia](/wiki/06-Items/Forge.md), fa crescere la parte sopra 1 (un bonus di +15% su 1,0935x dà 1,1075x), e la Forgia non genera alcun bonus su un moltiplicatore di 1,05x o inferiore: sull’1,017x–1,02975x di un Impulse Thruster aggiungerebbe meno di 0,005 (+15% su 1,02975x dà 1,034x). Un Impulse Thruster contiene un bonus (la sua velocità fissa), un Momentum Thruster due.
 
-Il tier I di ogni famiglia si compra a 20.000 crediti. I tier da II a IV si creano in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules), ciascuno dal propulsore della stessa famiglia un tier più in basso (un Impulse Thruster II da un Impulse Thruster I, un III da un II, un IV da un III), con Thulium, drop e piastre: 4 Velkonite Reinforced Plate dal tuo Skylab per il tier II o III, e 4 Dark Matter Plate e una Ancient Control Unit per il tier IV. Un propulsore non cambia mai famiglia: scegli Impulse o Momentum quando compri il tier I. Ognuno mantiene il grado di incantamento del propulsore che consuma, e i suoi bonus vengono generati di nuovo ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). I propulsori non entrano in uno [slot abilità](/wiki/03-Mechanics/Abilities.md): vanno dentro i motori e i Nuclei adattivi.
+Il tier I di ogni famiglia si compra a 20.000 crediti. I tier da II a IV si creano in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules), ciascuno dal propulsore della stessa famiglia un tier più in basso (un Impulse Thruster II da un Impulse Thruster I, un III da un II, un IV da un III), con Thulium, drop e piastre: 4 Velkonite Reinforced Plate dal tuo Skylab per il tier II o III, e 4 Dark Matter Plate e una Ancient Control Unit per il tier IV. Un propulsore non cambia mai famiglia: scegli Impulse o Momentum quando compri il tier I. Ognuno mantiene il grado di incantamento e i bonus del propulsore che consuma ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). I propulsori non entrano in uno [slot abilità](/wiki/03-Mechanics/Abilities.md): vanno dentro i motori e i Nuclei adattivi.
 
 ### Seminare gli alieni {#outrunning-aliens}
 

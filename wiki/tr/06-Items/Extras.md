@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -11,14 +11,15 @@ Ekstralar, geminin **ekstra yuvalarındaki** aletlerdir (başladığın ya da sa
 | **Cloaking CPU M** | Gemini gizler | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Gemini gizler | 50 | 20.000 Thulium |
 | **P.E.T. Station I–III** | **AÇIK** iken yanaştırılmış 2, 3 ya da 5 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) gemiye bonus verir, deneyim kazanır ve çalışır; **KAPALI** iken hiçbiri yapmaz | AÇIK / KAPALI | Montaj, araştırmasından sonra (aşağıdaki eşya ağacı) |
+| **Auto-Rocket CPU** | AÇIK iken aktif roketini bir çatışmanın hedefine kendisi fırlatır | AÇIK / KAPALI | Montaj, araştırmasından sonra (aşağıdaki eşya ağacı) |
 
 Cloaking CPU paketleri yalnızca Mağaza’da satılır. Birleştirilemezler ve hiçbir şey onları ödül olarak vermez. **EMP Charge** artık bir ekstra değildir: 0.4.21 sürümünden beri bir sarf malzemesidir; roket gibi bir yığın olarak taşınır ve hiçbir yuvaya takılmaz, bu yüzden ekstra yuvalarından hiçbirini kaplamaz (bkz. [Roketler](/wiki/06-Items/Rockets.md#emp-charge)). İki **Energetic Wall** da artık ekstra değildir: 0.4.22 sürümünden beri onlar da sarf malzemesidir; bir yığın olarak taşınır ve hiçbir yuvaya takılmaz (bkz. [Energetic Wall](#energetic-wall)).
 
 Yeni bir pilotun **başlangıç paketi**, Protos gemisinin iki ekstra yuvasına iki ekstrayı hazır takılı getirir: bir **Base CPU I** (10 kullanım, şirketinin üssüne ışınlanma) ve bir **Repair Drone I**. Onları kullanmak için kısayol çubuğunun Ekstralar bölümünden bir yuvaya sürükle. Paketi yalnızca yeni pilotlar alır: 0.4.10 öncesinde katılmış bir pilotta yoktur.
 
-Yedi CPU daha satılmaz: Skylab’ın Araştırma Merkezi bunları araştırdıktan sonra Montaj üretir (bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). Bunlar: Extra Slots CPU I, II ve III, Jump CPU, Base CPU I ve II ile Auto-Repair CPU; [son bölüm](#research-cpus) her birinin ne yaptığını anlatır. Cloaking CPU gibi, Jump CPU ve Base CPU da sakin bir an içindir: üçü de attığın bir atıştan ya da aldığın bir vuruştan sonraki 10 saniye içinde başlamaz. İki warp CPU, yani Jump CPU ve Base CPU, bir görev eşyası taşırken de reddedilir (“Görev eşyası taşırken warp CPU kullanamazsın.”): bkz. [Görev eşyaları](/wiki/03-Mechanics/Quests.md#quest-items).
+Sekiz CPU daha satılmaz: Skylab’ın Araştırma Merkezi bunları araştırdıktan sonra Montaj üretir (bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). Bunlar: Extra Slots CPU I, II ve III, Jump CPU, Base CPU I ve II, Auto-Repair CPU ile Auto-Rocket CPU; [son bölüm](#research-cpus) her birinin ne yaptığını anlatır. Cloaking CPU gibi, Jump CPU ve Base CPU da sakin bir an içindir: üçü de attığın bir atıştan ya da aldığın bir vuruştan sonraki 10 saniye içinde başlamaz. İki warp CPU, yani Jump CPU ve Base CPU, bir görev eşyası taşırken de reddedilir (“Görev eşyası taşırken warp CPU kullanamazsın.”): bkz. [Görev eşyaları](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Her ekstranın kısayol yuvasında kısa bir etiket vardır: Repair Drone için **REP**, Cloaking CPU için **CLK**, Auto-Repair, Base ve Jump CPU için de sırasıyla **ARP**, **BSE** ve **JMP** (sarf malzemelerinin kendi etiketleri vardır: **EMP** ve Energetic Wall için **WAL**). Extra Slots CPU için yuva yoktur: Skylab’ına kurulur. Üç **P.E.T. Station** eşyası diğerleri gibi birer ekstradır ve etiketi **PET**’tir: birini tak, yuvası Station’ı **AÇIK** ya da **KAPALI** konuma getirir (iki basış arasında bir saniye) ve hangisi olduğunu gösterir. **AÇIK** iken yanaştırılmış [P.E.T. birimleri](/wiki/03-Mechanics/Pets.md) sayılır, **KAPALI** iken sayılmaz. Bir yuvanın üstüne gelirsen, basmanın şu an ne yapacağını ya da neden yapamayacağını okursun.
+Her ekstranın kısayol yuvasında kısa bir etiket vardır: Repair Drone için **REP**, Cloaking CPU için **CLK**, Auto-Repair, Auto-Rocket, Base ve Jump CPU için de sırasıyla **ARP**, **ARL**, **BSE** ve **JMP** (sarf malzemelerinin kendi etiketleri vardır: **EMP** ve Energetic Wall için **WAL**). Extra Slots CPU için yuva yoktur: Skylab’ına kurulur. Üç **P.E.T. Station** eşyası diğerleri gibi birer ekstradır ve etiketi **PET**’tir: birini tak, yuvası Station’ı **AÇIK** ya da **KAPALI** konuma getirir (iki basış arasında bir saniye) ve hangisi olduğunu gösterir. **AÇIK** iken yanaştırılmış [P.E.T. birimleri](/wiki/03-Mechanics/Pets.md) sayılır, **KAPALI** iken sayılmaz. **Auto-Rocket CPU** da aynı şekilde **AÇIK** ya da **KAPALI** konuma getirilir. Bir yuvanın üstüne gelirsen, basmanın şu an ne yapacağını ya da neden yapamayacağını okursun.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ CPU’lardan ikisi, her yükseltme zincirinin son kademesi gibi, Dark Matter Pla
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 g | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 dk |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 sa | – | 15.000 | 10 dk |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 sa | – | 600 | 2 dk |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 sa | – | 20.000 | 15 dk |
 
 Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da CPU üret. Montaj’ın istediği malzemeleri görmek üzere ağaçtaki CPU simgesinin üzerine gel.
 
@@ -148,6 +151,13 @@ Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da 
 - **Ne yapar.** Ekstra yuvalarındaki Repair Drone, elle gönderebileceğin her an kendiliğinden dışarı gönderilir: gövden dolu değildir, dron zaten dışarıda değildir ve son vuruştan beri 10 saniye geçmiştir. Ayarlanacak bir gövde seviyesi yoktur.
 - Kendine ait bir ekstra yuva kaplar ve aynı konfigürasyondaki bir ekstra yuvada Repair Drone yoksa hiçbir şey yapmaz. Yetenek yuvasındaki Repair Drone hiçbir zaman gönderilmez (o, Emergency Repair düğmesidir).
 - **Dronu elle durdurursan,** CPU, gövden yeniden dolana ya da dronu kendin gönderene kadar ona dokunmaz.
+
+### Auto-Rocket CPU
+
+- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya ya da düşman pilota ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler.
+- **Anahtar.** Bir Ekstra yuvasına tak ve ARL yuvasına basarak AÇIK ya da KAPALI yap. KAPALI başlar ve bıraktığın gibi kalır, yeniden giriş yaptığında da. Yuva AÇIK ya da KAPALI yazar ve CPU ateş ettiğinde parlar.
+- **Asla yapmadığı şeyler.** Asla hedef seçmez, asteroitlere, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
+- **Roket kalmadı.** Bir kez söyler ve elinde yenisi olunca yeniden fırlatır.
 
 
 <!-- research-cpus:end -->

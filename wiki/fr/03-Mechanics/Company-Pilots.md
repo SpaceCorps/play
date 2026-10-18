@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50138d1e4d4865f8 -->
+<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
@@ -13,7 +13,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 - **Vaisseau** : un [Ostirion](/wiki/02-Ships/Ostirion.md) équipé de trois **Quantum Laser II**, de deux **Light Shield Cores**, d’un **Engine I** et d’un **Repair Drone I** :
   - 48 000 points de vie, 22 000 points de bouclier, vitesse 202
   - absorption de 45 % : leurs boucliers prennent 45 % de chaque tir, la coque 55 %
-  - 195 de dégâts de base par salve (munitions x1), aucun taux critique, portée de 700
+  - 195 de dégâts de base par salve (munitions x1), 1 % de taux critique, portée de 700
 - **Sur la mini-carte** : un losange vert pour les pilotes de votre corporation, un losange ambre pour ceux d’une autre corporation.
 - **Pas de grade** : le petit symbole devant le nom d’un pilote en vol est son [grade](/wiki/03-Mechanics/Ranks.md) et appartient aux vrais pilotes. Les pilotes de corporation n’en ont pas et ne figurent pas dans le classement de votre corporation. La page Corporation liste les vrais pilotes de votre corporation, ceux qui ont le plus de points PvE en premier, et le grade d’un pilote découle de ses points PvE dans cette liste et, pour les six meilleurs grades, des places de la corporation.
 

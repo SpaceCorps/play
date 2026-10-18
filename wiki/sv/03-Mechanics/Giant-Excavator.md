@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Jättegrävmaskin -->
 # Jättegrävmaskin {#giant-excavator}
 
@@ -32,7 +32,7 @@ Från första dagen av säsongen lyser en **pulsar** i var och en av farosektore
 2. **Öppna panelen.** Klicka på skylten. Fönstret **Jättegrävmaskin** fungerar så länge ditt skepp är inom kontrollpanelens räckvidd (listan *I korthet* anger den). Ett kamouflerat skepp kan använda den, och att använda den avslutar inte kamouflaget.
 3. **Tanka den.** **Lägg till Dark Matter** lägger en Dark Matter från din last i tanken. Vem som helst kan göra det. Tanken tar aldrig emot mer än grävmaskinen hinner bränna innan den överhettas, så inget bränsle går till spillo.
 4. **Välj vad som ska brytas** i listan och tryck sedan på **Starta brytning**. Det kräver minst en Dark Matter i tanken och en resurs. Vem som helst kan ändra valet fram till starten och även medan den går (se *Byta resurs* nedan). Starten meddelas varje pilot i världen, med ditt namn, sektorn och resursen.
-5. **Håll den.** Medan den bryter faller en låda runt grävmaskinen med några sekunders mellanrum, och strax efter starten anländer de första Slumbering Voids. Försvara grävmaskinen och ta lådorna. En ström av ljus rinner från pulsaren in i grävmaskinens borr och blir starkare varje gång en av stjärnans strålar sveper förbi; under sista minuten före överhettningen flimrar och bryts den, och när maskinen vilar upphör den.
+5. **Håll den.** Medan den bryter faller en låda runt grävmaskinen med några sekunders mellanrum, och strax efter starten anländer de första Slumbering Voids. Försvara grävmaskinen och ta lådorna. En ström av ljus rinner från pulsaren in i grävmaskinens borr och blir starkare i stjärnans takt, en gång var fjärde sekund; under sista minuten före överhettningen flimrar och bryts den, och när maskinen vilar upphör den.
 6. **Håll koll på värmen.** Värmefältet fylls medan grävmaskinen bryter och töms aldrig medan den väntar. Vid gränsen överhettas grävmaskinen. Gå innan dess: spelet varnar kartan två gånger.
 7. **Den vilar.** Överhettad eller förstörd är grävmaskinen och dess pulsar bestrålade tills vilan är över; sedan är den redo igen, med värmen nollställd och skrovet fullt.
 
@@ -58,7 +58,7 @@ Om bränslet tar slut före gränsen går grävmaskinen tillbaka till **Redo** m
 
 ## Vad den bryter {#what-it-mines}
 
-En full tank ger ungefär vad fem piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer resursen före starten och kan byta den medan grävmaskinen går. En låda är densamma för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium.
+En full tank ger ungefär vad fem piloter skulle tjäna på en halvtimme av det bästa Thulium-farmandet. Beta och Gamma ger mer, eftersom de betalar mer för varje nedskjutning. Du väljer resursen före starten och kan byta den medan grävmaskinen går. En låda innehåller lika mycket för alla, och en Thulium-låda är kontanter som betalas när den plockas upp, som asteroidernas Thulium. Vad du tar ur en låda kan däremot skilja sig: varje nivå av Pilot-forskningen Excavator Mining ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) höjer det Thulium och den malm du plockar upp med 20 %, 30 % eller 40 % sammanlagt, avrundat nedåt.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

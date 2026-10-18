@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Takılı tüm lazerlerin (dronlardaki lazerler dahil) ve onlara takılı lazer a
 Her salvonun kritik vuruş olma şansı vardır.
 - **Kritik şans**: Takılı lazerlerin ortalama kritik şansı artı takılı tüm lazer amfilerinin kritik şanslarının toplamı.
 - **Kritik çarpan**: Bir atış kritikse hasar zarı **x1,5** ile çarpılır. Kritik bir salvonun hasar sayısı buz mavisi, daha büyük ve “!” ile gösterilir (bkz. [Hasar ve iyileştirme sayıları](#damage-and-heal-numbers)).
-- Quantum Laser I ve II eşyalarının kendi kritik şansı yoktur: onu amfileri verir.
+- Quantum Laser I ve II eşyalarının kendi kritik şansı %1’dir: amfileri onu artırır.
 - **Sabit kritik hasar**: Lazer amfilerinden gelen düz kritik hasar, çarpandan sonra eklenir.
   - Formül: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

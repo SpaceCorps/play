@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Antrieb -->
 # Antrieb & Tempo {#propulsion-speed}
 
@@ -47,7 +47,7 @@ Triebwerke sind die wichtigste Schubquelle deines Schiffs. Ein Triebwerk in eine
 | **Engine II** | Gewöhnlich | +4 | +4 % | -8 % | 2 | Afterburner II | Nur herstellbar |
 | **Engine III** | Selten | +6 | +5 % | -15 % | 3 | Afterburner III | Nur herstellbar |
 
-Das **Engine II** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Engine I hergestellt, mit 2.000 Thulium, 60 Ship Fragments, 1 Power Core und 4 Velkonite Reinforced Plates. Das **Engine III** wird dort aus einem Engine II hergestellt, mit 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit und 4 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Jedes behält die Verzauberungsstufe des Triebwerks, das es verbraucht, und seine Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm das Triebwerk, das verbraucht wird, zuerst von deinem Schiff (und seine Schubdüsen aus ihm): Ein Triebwerk, das ausgerüstet ist oder Schubdüsen enthält, wird nicht verbraucht.
+Das **Engine II** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Engine I hergestellt, mit 2.000 Thulium, 60 Ship Fragments, 1 Power Core und 4 Velkonite Reinforced Plates. Das **Engine III** wird dort aus einem Engine II hergestellt, mit 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit und 4 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Jedes behält die Verzauberungsstufe und die Boni des Triebwerks, das es verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm das Triebwerk, das verbraucht wird, zuerst von deinem Schiff (und seine Schubdüsen aus ihm): Ein Triebwerk, das ausgerüstet ist oder Schubdüsen enthält, wird nicht verbraucht.
 
 Der Schildbonus der Triebwerke steht in den Gegenstandsdaten, doch das Spiel hat ihn nie angewendet: Triebwerke schwächen deine Schilde nicht, und die Gegenstandskarten lassen ihn weg.
 
@@ -86,7 +86,7 @@ Impulse bringt mehr festes Tempo, Momentum multipliziert stärker; welche Famili
 
 Ein Bonus auf den Tempofaktor einer Schubdüse aus der [Schmiede](/wiki/06-Items/Forge.md) verstärkt den Teil über 1 (ein Bonus von +15 % auf 1,0935x ergibt 1,1075x), und auf einen Faktor von 1,05x oder weniger würfelt die Schmiede keinen Bonus: Auf dem 1,017x bis 1,02975x eines Impulse Thruster brächte er weniger als 0,005 (+15 % auf 1,02975x ergibt 1,034x). Ein Impulse Thruster fasst einen Bonus (sein festes Tempo), ein Momentum Thruster zwei.
 
-Stufe I jeder Familie wird für 20.000 Credits verkauft. Die Stufen II bis IV werden in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) hergestellt, jede aus der Schubdüse derselben Familie eine Stufe darunter (ein Impulse Thruster II aus einem Impulse Thruster I, ein III aus einem II, ein IV aus einem III), mit Thulium, Beute und Platten: 4 Velkonite Reinforced Plates aus deinem Skylab für Stufe II oder III und 4 Dark Matter Plates und eine Ancient Control Unit für Stufe IV. Eine Schubdüse wechselt nie die Familie: Impulse oder Momentum wählst du beim Kauf der Stufe I. Jede behält die Verzauberungsstufe der Schubdüse, die er verbraucht, und seine Boni werden neu ausgewürfelt ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Schubdüsen passen nicht in einen [Fähigkeits-Slot](/wiki/03-Mechanics/Abilities.md); sie gehören in Triebwerke und adaptive Kerne.
+Stufe I jeder Familie wird für 20.000 Credits verkauft. Die Stufen II bis IV werden in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) hergestellt, jede aus der Schubdüse derselben Familie eine Stufe darunter (ein Impulse Thruster II aus einem Impulse Thruster I, ein III aus einem II, ein IV aus einem III), mit Thulium, Beute und Platten: 4 Velkonite Reinforced Plates aus deinem Skylab für Stufe II oder III und 4 Dark Matter Plates und eine Ancient Control Unit für Stufe IV. Eine Schubdüse wechselt nie die Familie: Impulse oder Momentum wählst du beim Kauf der Stufe I. Jede behält die Verzauberungsstufe und die Boni der Schubdüse, die sie verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Schubdüsen passen nicht in einen [Fähigkeits-Slot](/wiki/03-Mechanics/Abilities.md); sie gehören in Triebwerke und adaptive Kerne.
 
 ### Aliens abhängen {#outrunning-aliens}
 

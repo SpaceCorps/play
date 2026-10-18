@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### ドローン {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### 艦船 {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 ## Skylab のモジュール {#module-technologies}
 
 リサーチ画面の Skylab ファミリーには、クラフトではないもう1種類の技術があります。コアレベル15で解放される**エンジンモジュール**、**防衛モジュール**、**レーダーモジュール**の各レベルです。レベルごとに専用の技術があり、その技術を研究してからでないとそのレベルは建設できません。各モジュールの最初のレベルは Dark Matter を必要とせず、その後はレベルが上がるほど多く必要とします。上のツリーはこれらを含みません。開くのはアイテムではなくモジュールのレベルだからです。その Dark Matter は上の合計に加わり、[Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)が合算しています。所要時間と各モジュールの働きは[Skylab](/wiki/03-Mechanics/Skylab.md)の記事にあります。
+
+## パイロット {#pilot-technologies}
+
+リサーチ画面のパイロットファミリーには、クラフトではない技術があります。アセンブリで何かを作るものではありません。大半はあなたへの**恒久的な強化**です。上のツリーはこれらを含みません。開くのはアイテムではなく強化だからです。
+
+- **コスト。** 強化は、科学と Dark Matter のほかに**クレジットと Thulium** を必要とします。研究センターは研究の開始時にすべてを受け取り、終了前にキャンセルするとすべて返します。
+- **残ります。** ほかの研究と同じく、これらの技術はワイプ後も残り、強化も残ります。
+- **順番に。** 各レベルは前のレベルが必要で、上のレベルは下のレベルを置き換えます。表には各レベルが与える合計が載っており、加算分ではありません。
+- **Efficient Snacks**（Kabob、Pelmeni、Burger）は、所持するすべての艦船に、両方の構成で船体を加えます。
+- **Sealed Backdoor** は、購入・製造・取引のどこでも、すべてのロケットの所持上限を引き上げます。
+- **Excavator Mining** は、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)の箱から受け取る量を、Thulium も鉱石も増やします。
+- **Field Theory** は、被弾のうちシールドが受け止める割合を引き上げます。シールドのない艦船には効果がありません。
+- **Dormant Knowledge** は、研究がセンターで完了するたびに、レベルごとに一度ワイプポイントを支払います。前のレベルに加えて、ほかの技術を一定の割合で研究済みであることが必要です（パイロットファミリーの技術は数に入り、五つの Dormant Knowledge は入りません）。入手方法は問いません。表には各割合と、それが何件にあたるかが載っています。
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| 技術 | 効果 | 先に必要 | 研究時間 | Dark Matter | クレジット | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| 効率的なスナック：ケバブ | 全艦船の船体 +5,000 | – | 10時間 | 10 | 250,000 | 2,500 |
+| 効率的なスナック：ペリメニ | 全艦船の船体 +10,000 | 効率的なスナック：ケバブ | 1日 | 20 | 1,000,000 | 10,000 |
+| 効率的なスナック：バーガー | 全艦船の船体 +15,000 | 効率的なスナック：ペリメニ | 2日 | 30 | 3,500,000 | 35,000 |
+| 封印された裏口 I | ロケット所持上限 +25% | – | 6時間 | 5 | 100,000 | 1,000 |
+| 封印された裏口 II | ロケット所持上限 +50% | 封印された裏口 I | 10時間 | 10 | 300,000 | 3,000 |
+| 封印された裏口 III | ロケット所持上限 +100% | 封印された裏口 II | 1日 | 15 | 750,000 | 7,500 |
+| 封印された裏口 IV | ロケット所持上限 +150% | 封印された裏口 III | 2日 | 25 | 1,750,000 | 17,500 |
+| 封印された裏口 V | ロケット所持上限 +200% | 封印された裏口 IV | 3日 | 40 | 3,500,000 | 35,000 |
+| 掘削機採掘 I | 掘削機の産出 +20% | – | 1日 | 10 | 500,000 | 5,000 |
+| 掘削機採掘 II | 掘削機の産出 +30% | 掘削機採掘 I | 2日 | 20 | 1,500,000 | 15,000 |
+| 掘削機採掘 III | 掘削機の産出 +40% | 掘削機採掘 II | 3日 | 30 | 4,000,000 | 40,000 |
+| 場の理論 I | シールド吸収 +2% | – | 1日 | 20 | 500,000 | 5,000 |
+| 場の理論 II | シールド吸収 +3% | 場の理論 I | 2日 | 40 | 1,500,000 | 15,000 |
+| 場の理論 III | シールド吸収 +5% | 場の理論 II | 3日 | 60 | 5,000,000 | 50,000 |
+| 眠れる知識 I | ワイプポイント +50 | ほかの技術の 20%（30 / 146 件） | 1時間 | – | – | – |
+| 眠れる知識 II | ワイプポイント +50 | 眠れる知識 I; ほかの技術の 40%（59 / 146 件） | 1時間 | – | – | – |
+| 眠れる知識 III | ワイプポイント +50 | 眠れる知識 II; ほかの技術の 60%（88 / 146 件） | 1時間 | – | – | – |
+| 眠れる知識 IV | ワイプポイント +50 | 眠れる知識 III; ほかの技術の 80%（117 / 146 件） | 1時間 | – | – | – |
+| 眠れる知識 V | ワイプポイント +50 | 眠れる知識 IV; ほかの技術の 100%（146 / 146 件） | 1時間 | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## すべての技術 {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3時間 | 10,800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10時間 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1日 | 86,400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10時間 | 36,000 | – |
 
 研究時間によるクラス：
 
@@ -423,11 +465,11 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30分 | 10 | 5時間 | 18,000 | 0 |
 | B | 3時間～6時間 | 20 | 2日21時間 | 248,400 | 0 |
-| C | 10時間 | 16 | 6日16時間 | 576,000 | 95 |
+| C | 10時間 | 17 | 7日2時間 | 612,000 | 95 |
 | D | 1日～2日 | 23 | 28日 | 2,419,200 | 319 |
-| 合計 |  | 69 | 37日18時間 | 3,261,600 | 414 |
+| 合計 |  | 70 | 38日4時間 | 3,297,600 | 414 |
 
-1つずつ順に研究すると、ツリー全体で 37日18時間 かかります。ブーストを常にかけると 18日21時間 で、ブースト 19 個と 95,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 38日4時間 かかります。ブーストを常にかけると 19日2時間 で、ブースト 20 個と 100,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1日 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15分 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6時間 | – | 15,000 | 10分 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6時間 | – | 600 | 2分 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10時間 | – | 20,000 | 15分 |
 
 どれもショップでは売っていません。技術を研究し、アセンブリで CPU を製作します。ツリーの CPU にカーソルを合わせると、アセンブリが何を必要とするか分かります。
 
@@ -482,6 +525,13 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 - **働き。** 手動で出撃させられる状況になるたびに、エクストラスロットに装備した Repair Drone を自動で出撃させます。船体が満タンでなく、ドローンがまだ出ておらず、最後の被弾から 10 秒が過ぎていることが条件です。船体の割合を設定する必要はありません。
 - 専用のエクストラスロットを1つ使い、同じ構成のエクストラスロットに Repair Drone がなければ何もしません。アビリティスロットにある Repair Drone は出撃させません（それは Emergency Repair ボタンです）。
 - **ドローンを手動で止めた場合、**船体が再び満タンになるか、自分でドローンを出撃させるまで、CPU は手を出しません。
+
+### Auto-Rocket CPU
+
+- **働き。** ON の間、戦闘中（レーザーがエイリアンか敵パイロットを狙っているとき）、ロケット発射キーを押せる状況になるたびに、最後に撃ったロケットを自動でそのターゲットへ発射します。条件は、ロケットのタイマーが済んでいて、そのロケットが1発以上残っていることです。サーバーは、あなたの発射と同じように、1発ごとに確認します。
+- **スイッチ。** エクストラのスロットに装備し、その ARL スロットを押して ON と OFF を切り替えます。最初は OFF で、設定は次にサインインしても残ります。スロットは ON か OFF を表示し、CPU が発射するたびに光ります。
+- **しないこと。** ターゲットは選びません。小惑星には撃たず、セーフゾーンの中やステルス中も撃たず、N.U.K.E. と N.I.K.E. も撃ちません。自分で撃ったロケットは常に有効です。3分間、キー操作・クリック・マウスの移動がないと、何か操作するまで待機します。
+- **ロケット切れ。** 一度だけ知らせ、補充されるとすぐにまた発射します。
 
 
 <!-- research-cpus:end -->

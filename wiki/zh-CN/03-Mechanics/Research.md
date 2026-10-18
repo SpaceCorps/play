@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### 无人机 {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### 舰船 {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 ## Skylab 模块 {#module-technologies}
 
 研究视图的 Skylab 分类里还有一种不属于制造的科技：核心十五级解锁的**引擎模块**、**防御模块**和**雷达模块**的各个等级。每一级都有自己的科技，研究之后才能建造该级；每个模块的第一级不需要 Dark Matter，之后每升一级需要的更多。上面的科技树没有列出它们，因为它们开启的是模块的等级，而不是物品。它们的 Dark Matter 要加在上面的合计之上，由[Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)一文汇总。它们的时间和每个模块的作用见[Skylab](/wiki/03-Mechanics/Skylab.md)一文。
+
+## 飞行员 {#pilot-technologies}
+
+研究视图的飞行员分类里有一些不属于制造的科技：它们在装配站里不制造任何东西。大多数是给你的**永久加成**。上面的科技树没有列出它们，因为它们开启的是加成，而不是物品。
+
+- **花费。** 除了科研点和 Dark Matter，加成还需要**信用点和 Thulium**。研究开始时研究中心会全部扣除，如果你在完成前取消，则会全部退还。
+- **会保留。** 和你的其他研究一样，这些科技在重置后依然保留，它们的加成也一样。
+- **按顺序。** 每一级都需要上一级，高等级会取代低等级：表中列出的是每一级给出的总数，而不是它增加的部分。
+- **Efficient Snacks**（Kabob、Pelmeni、Burger）为你拥有的每艘船增加船体，两套配置都有效。
+- **Sealed Backdoor** 提高每种火箭的携带上限，无论你在哪里购买、制造或交易。
+- **Excavator Mining** 提高你从[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)每个箱子里拿到的数量，Thulium 和矿石都一样。
+- **Field Theory** 提高你的护盾对每次命中所吸收的比例。没有护盾的船得不到任何加成。
+- **Dormant Knowledge** 在研究于研究中心完成时，每一级支付一次重置点数。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，五项 Dormant Knowledge 不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| 科技 | 效果 | 需先研究 | 研究时间 | Dark Matter | 信用点 | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| 高效零食：烤肉串 | 你所有船的船体 +5,000 | – | 10 小时 | 10 | 250,000 | 2,500 |
+| 高效零食：俄式饺子 | 你所有船的船体 +10,000 | 高效零食：烤肉串 | 1 天 | 20 | 1,000,000 | 10,000 |
+| 高效零食：汉堡 | 你所有船的船体 +15,000 | 高效零食：俄式饺子 | 2 天 | 30 | 3,500,000 | 35,000 |
+| 密封后门 I | 火箭携带上限 +25% | – | 6 小时 | 5 | 100,000 | 1,000 |
+| 密封后门 II | 火箭携带上限 +50% | 密封后门 I | 10 小时 | 10 | 300,000 | 3,000 |
+| 密封后门 III | 火箭携带上限 +100% | 密封后门 II | 1 天 | 15 | 750,000 | 7,500 |
+| 密封后门 IV | 火箭携带上限 +150% | 密封后门 III | 2 天 | 25 | 1,750,000 | 17,500 |
+| 密封后门 V | 火箭携带上限 +200% | 密封后门 IV | 3 天 | 40 | 3,500,000 | 35,000 |
+| 挖掘机采矿 I | 挖掘机产出 +20% | – | 1 天 | 10 | 500,000 | 5,000 |
+| 挖掘机采矿 II | 挖掘机产出 +30% | 挖掘机采矿 I | 2 天 | 20 | 1,500,000 | 15,000 |
+| 挖掘机采矿 III | 挖掘机产出 +40% | 挖掘机采矿 II | 3 天 | 30 | 4,000,000 | 40,000 |
+| 场论 I | 护盾吸收 +2% | – | 1 天 | 20 | 500,000 | 5,000 |
+| 场论 II | 护盾吸收 +3% | 场论 I | 2 天 | 40 | 1,500,000 | 15,000 |
+| 场论 III | 护盾吸收 +5% | 场论 II | 3 天 | 60 | 5,000,000 | 50,000 |
+| 沉睡的知识 I | +50 重置点数 | 其他科技的 20%（30 / 146 项） | 1 小时 | – | – | – |
+| 沉睡的知识 II | +50 重置点数 | 沉睡的知识 I; 其他科技的 40%（59 / 146 项） | 1 小时 | – | – | – |
+| 沉睡的知识 III | +50 重置点数 | 沉睡的知识 II; 其他科技的 60%（88 / 146 项） | 1 小时 | – | – | – |
+| 沉睡的知识 IV | +50 重置点数 | 沉睡的知识 III; 其他科技的 80%（117 / 146 项） | 1 小时 | – | – | – |
+| 沉睡的知识 V | +50 重置点数 | 沉睡的知识 IV; 其他科技的 100%（146 / 146 项） | 1 小时 | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## 全部科技 {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 小时 | 10,800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 小时 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 天 | 86,400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 小时 | 36,000 | – |
 
 按研究时间划分的类别：
 
@@ -423,11 +465,11 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 分钟 | 10 | 5 小时 | 18,000 | 0 |
 | B | 3 小时 至 6 小时 | 20 | 2 天 21 小时 | 248,400 | 0 |
-| C | 10 小时 | 16 | 6 天 16 小时 | 576,000 | 95 |
+| C | 10 小时 | 17 | 7 天 2 小时 | 612,000 | 95 |
 | D | 1 天 至 2 天 | 23 | 28 天 | 2,419,200 | 319 |
-| 全部 |  | 69 | 37 天 18 小时 | 3,261,600 | 414 |
+| 全部 |  | 70 | 38 天 4 小时 | 3,297,600 | 414 |
 
-逐项依次研究，整棵科技树共需 37 天 18 小时。若全程开着加速，需要 18 天 21 小时，即 19 次加速和 95,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 38 天 4 小时。若全程开着加速，需要 19 天 2 小时，即 20 次加速和 100,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 天 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 分钟 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 小时 | – | 15,000 | 10 分钟 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 小时 | – | 600 | 2 分钟 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 小时 | – | 20,000 | 15 分钟 |
 
 它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
 
@@ -482,6 +525,13 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 - **作用。** 只要你本可以手动放出附加槽位里装备的 Repair Drone，它就会自动放出：船体没有满、无人机还没放出，并且距上次被击中已过 10 秒。无需设置任何船体比例。
 - 它占用一个自己的附加槽位，如果同一配置的附加槽位里没有 Repair Drone，它什么也不做。它从不放出技能槽位里的 Repair Drone（那是 Emergency Repair 按钮）。
 - **如果你手动停下无人机，**CPU 就不再理会它，直到你的船体重新满血，或你自己再次放出无人机。
+
+### Auto-Rocket CPU
+
+- **作用。** 开启期间，当你处于战斗中（你的激光瞄准外星人或敌方飞行员）时，只要按下“发射火箭”键本可以发射，它就会自动向该目标发射你上一次发射的当前火箭：火箭的计时已就绪，且你还剩一枚。服务器会像检查你的发射一样检查每一次发射。
+- **开关。** 装备在附加装置槽位中，按下它的 ARL 槽位即可开启或关闭。默认关闭，并保持你上次的设置，重新登录后也一样。槽位会显示开启或关闭，CPU 发射时会亮起。
+- **它从不做的事。** 它从不自己选目标，不攻击小行星，不在安全区内或隐形时发射，也从不发射 N.U.K.E. 或 N.I.K.E.。你自己发射的火箭总是有效。如果 3 分钟内没有按键、点击或移动鼠标，它会等你有所操作。
+- **火箭用完。** 它只会提醒你一次，等你有了更多火箭就会重新发射。
 
 
 <!-- research-cpus:end -->

@@ -21,7 +21,7 @@ The base damage of all equipped lasers (including lasers on drones) and their sl
 Every volley has a chance to be a Critical Hit.
 - **Critical Chance**: The average critical chance of equipped lasers plus the sum of all equipped laser amplifier critical chances.
 - **Critical Multiplier**: If a shot is critical, the damage roll is multiplied by **1.5x**. The damage number of a critical volley is shown in ice cyan, larger, with a "!" (see [Damage and Heal Numbers](#damage-and-heal-numbers)).
-- Quantum Laser I and II have no critical chance of their own: their amplifiers give it.
+- Quantum Laser I and II have a critical chance of 1% of their own: their amplifiers add to it.
 - **Fixed Critical Damage**: Any flat critical damage from laser amplifiers is added after the multiplier.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

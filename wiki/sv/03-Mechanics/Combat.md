@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Grundskadan hos alla utrustade lasrar (även lasrar på drönare) och deras lase
 Varje salva har en chans att bli en kritisk träff.
 - **Kritisk chans**: Den genomsnittliga kritiska chansen hos utrustade lasrar plus summan av alla utrustade laserförstärkares kritiska chanser.
 - **Kritisk multiplikator**: Om ett skott är kritiskt multipliceras skadeutfallet med **1,5×**. Skadetalet för en kritisk salva visas i isblått, större, med ett ”!” (se [Skade- och läkningssiffror](#damage-and-heal-numbers)).
-- Quantum Laser I och II har ingen egen kritisk chans: deras förstärkare ger den.
+- Quantum Laser I och II har en egen kritisk chans på 1 %: deras förstärkare höjer den.
 - **Fast kritisk skada**: All fast kritisk skada från laserförstärkare läggs till efter multiplikatorn.
   - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

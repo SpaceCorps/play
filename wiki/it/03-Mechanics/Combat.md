@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Si somma il danno base di tutti i laser equipaggiati (compresi i laser sui droni
 Ogni raffica ha una probabilità di essere un colpo critico.
 - **Probabilità critica**: la probabilità critica media dei laser equipaggiati più la somma delle probabilità critiche di tutti gli amp laser equipaggiati.
 - **Moltiplicatore critico**: se un colpo è critico, il tiro del danno viene moltiplicato per **1,5x**. Il numero del danno di una raffica critica è mostrato in azzurro ghiaccio, più grande, con un “!” (vedi [Numeri di danno e di cura](#damage-and-heal-numbers)).
-- Quantum Laser I e II non hanno una probabilità critica propria: la danno i loro amp.
+- Quantum Laser I e II hanno una probabilità critica propria dell’1%: i loro amp la aumentano.
 - **Danno critico fisso**: l’eventuale danno critico fisso degli amp laser viene aggiunto dopo il moltiplicatore.
   - Formula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

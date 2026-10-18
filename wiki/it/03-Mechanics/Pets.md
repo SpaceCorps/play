@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -47,6 +47,7 @@ La Culla è la macchina della vista P.E.T. dell’Hangar. Un **lavoro** prende u
 
 - **Il grado del chunk decide il grado del P.E.T.**, e con esso quanti boost ha (1, 2 o 3) e quali tipi può essere: 4 dei 10 tipi con un chunk Regular, 7 con uno Mythical e tutti e 10 con uno Legendary. Il Retriever può venire da qualsiasi chunk; il Mole richiede uno Mythical o uno Legendary.
 - **Scegli il tipo** tra quelli che hai scoperto, oppure premi **Scopri**: allora la Culla fa nascere un tipo di quel grado che non hai ancora scoperto, estratto all’avvio del lavoro e mostrato solo quando ritiri il P.E.T. Un tipo che un altro lavoro in corso ha già estratto resta escluso, quindi due scoperte in coda non fanno mai nascere lo stesso tipo.
+- **Puoi annullare un lavoro** in corso o in attesa: premi la piccola croce sul suo posto e premi di nuovo entro 3 secondi quando chiede **Annullare?**. Il Cluster Chunk e la Orvium Reinforced Plate ti tornano, i lavori dietro avanzano e si perde solo il tempo che aveva già fatto. Un lavoro finito si ritira, non si annulla. Una scoperta che annulli libera il suo tipo, che può essere estratto di nuovo.
 - **Il Codex** in fondo alla pagina mostra i dieci tipi come sagome finché non li hai fatti nascere. Appartiene al tuo account e riempirlo non paga nulla.
 - **L’hangar dei P.E.T.** contiene al massimo **24** P.E.T., agganciati o in magazzino, e un lavoro in corso conta come uno. Puoi **lasciarne andare** uno: non torna nulla.
 

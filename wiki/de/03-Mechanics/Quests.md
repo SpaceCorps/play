@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7141a7ef23591b4d -->
+<!-- wiki-i18n source: 2ec356f14ef5095c -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -17,7 +17,7 @@ Die meisten Missionen heißen nicht mehr „zerstöre so viele davon“: Es sind
 - **Ketten.** Die Schritte einer Mission mit der Markierung **Der Reihe nach** öffnen sich nacheinander, und nur der offene Schritt zählt.
 - **Vier Arten von Schritten neben Abschüssen.** Ein **Missionsgegenstand**, der nur für dich fällt und den du zu Mission Control fährst, ein **Punkt zum Anfliegen**, ein **Aufenthalt** von ein paar Minuten in einem Sektor und, ab Saisontag 4, ein **Schwarm** zum Jagen.
 - **Bedingungen.** Ein Schritt oder eine ganze Mission kann „höchstens N Hüllenpunkte Verlust“ oder „ohne Schiffsverlust“ verlangen. Brichst du sie, beginnt dieser Schritt oder die Mission von vorn. Nichts geht für immer verloren.
-- **Die Linie der Herausforderungen.** Fünfzig sehr schwere Missionen in fünf Stufen zu je zehn, ab Pilotenlevel 3. Sie zahlen nach Arbeit: Ein Abschuss ist das wert, was Stufe I dafür zahlt, und für jede Stufe höher 10 % mehr, und eine Mission zahlt höchstens 100.000 Thulium. Stufe I zahlt zusammen 9.355.000 Credits, 70.125 Thulium und 2.177.500 EP, als Basiswerte ([Die Linie der Herausforderungen](#challenge-line)).
+- **Die Linie der Herausforderungen.** Fünfzig sehr schwere Missionen in fünf Stufen zu je zehn, ab Pilotenlevel 3. Sie zahlen nach Arbeit: Ein Abschuss ist das wert, was Stufe I dafür zahlt, und für jede Stufe höher 10 % mehr, und eine Mission zahlt höchstens 200.000 Thulium. Stufe I zahlt zusammen 9.355.000 Credits, 70.125 Thulium und 2.177.500 EP, als Basiswerte ([Die Linie der Herausforderungen](#challenge-line)).
 - **Überarbeitet in 0.4.10.** 64 der Level-Missionen sind neue Fassungen. Hast du eine davon erledigt, wird sie erneut angeboten, mit ihrer vollen Belohnung ([Einzelheiten](#reworked-missions)).
 
 ## Mission Control
@@ -152,7 +152,7 @@ Acht Missionen aus der echten Liste, von der ersten Stunde bis zur Linie der Her
 - Eine Station-Mission anzunehmen ändert nichts an der Mission, die du verfolgst, wenn du eine hast, die sich durch Fliegen voranbringen lässt: Das Fenster Aktive Quests zeigt weiter deine Kampfmission, und die Station-Mission ist ein Punkt in seiner Titelleiste (bewege den Mauszeiger darüber für ihren Fortschritt, klicke darauf, um sie anzuzeigen).
 - Jede öffnet sich bei ihrem eigenen **Pilotenlevel** und nach den Station-Missionen, auf die sie folgt (zuerst abgeholt): Eine gesperrte Karte sagt, welche. Die ersten drei öffnen sich auf Level 1. Die letzte, **Core Ten**, bringt den Kern auf Level 10, das Level, das das [Forschungszentrum](/wiki/03-Mechanics/Research.md) des Skylab öffnet.
 - Ihre Aufgaben lesen dein Skylab: ein Modul **bauen** oder **auf ein Level bringen** (erledigt, solange das Modul auf diesem Level oder höher steht; kein Modul geht über deinen Kern hinaus, ein Ziel für Solar kann also verlangen, zuerst den Kern anzuheben) und Credits der Credit-Farm **abholen** (gezählt ab dem Moment, in dem du die Mission annimmst, mit der Schaltfläche Ressourcen abholen). Eine Mission, deren Aufgaben alle zugleich zutreffen, ist erledigt: Eine, die du beim Annehmen schon erfüllst, ist sofort erledigt.
-- Die Credit-Farm kostet beim Bauen nichts, daher zahlt dir **Die erste Farm** 3.000 Credits und 100 Thulium dafür, sie zu bauen. Das Abholen braucht Zeit: **Zahltag** verlangt 1.000 Credits, etwa anderthalb Stunden einer Farm auf Level 1 (750 pro Stunde), und **Fünfzigtausend** verlangt 50.000, etwa 22 Stunden der Farm auf Level 3, die dir **Wachstumszeit** hinterlässt (2.250 pro Stunde).
+- Die Credit-Farm kostet beim Bauen nichts, daher zahlt dir **Die erste Farm** 3.000 Credits und 100 Thulium dafür, sie zu bauen. Das Abholen braucht Zeit: **Zahltag** verlangt 1.000 Credits, etwa eine halbe Stunde einer Farm auf Level 1 (2.250 pro Stunde), und **Fünfzigtausend** verlangt 50.000, etwa siebeneinhalb Stunden der Farm auf Level 3, die dir **Wachstumszeit** hinterlässt (6.750 pro Stunde).
 - Solar erzeugt während des Ausbaus nur 25 % seiner Energie, daher stehen bei einer Station mit Thulium-Farm die Farmen still, bis der Ausbau fertig ist (siehe [Solarmodul](/wiki/03-Mechanics/Skylab.md#solar-module)). **Hellere Paneele** (Solar auf Level 3: 5 und 15 Minuten; die kleine Station dieser Mission läuft noch durch), **Wachstumszeit** (der Schritt auf Level 5 dauert 45 Minuten) und **Die Versorgungslinie öffnen** (Solar auf Level 6: 60 Minuten) sagen dir, wie lange es dauert.
 - **Sie zahlen wie eine Level-Mission.** Die Zahlen in der Tabelle sind die **Basis**: Der Bonus deiner Welt, Booster, Premium-EP und die Credits- und Thulium-Boosts deines Clans multiplizieren sie ([Belohnungen](#rewards)). Eine Station-Mission hat keine eigene Welt und zahlt deshalb nach der Welt, in der du fliegst, wenn du sie abholst. Sie gibt keine Gegenstände. Ihre Basis-Erfahrung kommt zu den 85 % hinzu, die die Missionen der Level zahlen (höchstens 5 % des Erfahrungsabstands eines Levels).
 - Station-Missionen zählen nicht für die [Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md) für erledigte Missionen. Sie überstehen den Wipe wie jede Mission, und das, was du gebaut hast, ebenso.
@@ -165,9 +165,11 @@ Ab **Pilotenlevel 3** öffnet der Tab **Herausforderungen** von Mission Control 
 - **Drei gleichzeitig**, neben deinen 5 Level-Missionen und 3 Station-Missionen.
 - **Sie zahlen wie eine Level-Mission.** Die Belohnung in den Tabellen ist die **Basis**, einmal gezahlt: Der Bonus deiner Welt, Booster, Premium-EP und die Credits- und Thulium-Boosts deines Clans multiplizieren sie, wie [Belohnungen](#rewards) mit einem Beispiel erklärt. **Ehre zahlt nur Stufe I.** Sie überstehen den Wipe, und sie zählen nicht für die Wipe-Punkte für Missionen.
 - **Die Bezahlung folgt der Arbeit.** In einer Herausforderung ist ein Abschuss einer Alienart das wert, was Stufe I dafür zahlt, und **in jeder Stufe darüber 10 % mehr** (Stufe II ×1,10, Stufe III ×1,21, Stufe IV ×1,331, Stufe V ×1,4641). So zahlen die 150 Bulwarks der Mission **Bulwark-Mauer** in Stufe I 19.585 Thulium, und die 400 der Mission **Bulwark-Sturm** in Stufe II zahlen 57.450: Ein Bulwark ist dort 10 % mehr wert. Aufenthalte, Touren und saubere Läufe folgen derselben Regel, gemessen an der Mission ihrer Art eine Stufe darunter.
-- **Eine Obergrenze von 100.000 Thulium pro Mission.** Die größten Jagden würden mehr zahlen. Kommt eine Belohnung auf mehr als 100.000 Thulium, wird die ganze Belohnung gemeinsam gekürzt, bis ihr Thulium genau 100.000 beträgt: Credits, Ehre und Gegenstände schrumpfen im gleichen Verhältnis. Zehn Missionen werden gekürzt: **Goombah-Geißel**, **Bulwark-Seuche**, **Goombah-Debakel**, **Bulwark-Meer**, **Zehntausend Seeker**, **Zehntausend Phantasm**, **Goombah-Legion**, **Crystalys-Herrschaft**, **Piratenthron** und **Wächter der Linie**. Die übrigen vierzig zahlen voll.
-- **Erfahrung: das Fünffache.** Die Erfahrung aller fünfzig Missionen ist genau 5-mal so hoch wie das, was sie vor 0.4.16 zahlten, was auch immer die Obergrenze kürzt.
-- **Die Gegenstände wachsen mit dem Geld.** Power Cores, Reinforced Hull Plates und Cataclysite wachsen mit den Credits und dem Thulium der Belohnung. Die Orvium und Velkonite Reinforced Plates und die Ancient Control Units bleiben bei ihren alten Mengen, und die Booster-Stunden sind gleich.
+- **Stufe IV zahlt das Doppelte.** Jede Mission von Stufe IV, dem Abgrund, zahlt das Doppelte dessen, was die Regel darüber ergibt: Credits, Thulium, Erfahrung, Gegenstände und Booster-Stunden, auch die Orvium und Velkonite Reinforced Plates und die Ancient Control Units. Die Verdopplung kommt vor der Obergrenze weiter unten.
+- **Stufe V liegt über Stufe IV.** Eine Mission der Stufe V zahlt nie weniger als ihr Gegenstück in Stufe IV, sondern 10 % mehr: Erfahrung, jede Art von Gegenstand, die das Gegenstück zahlt (auch die Ancient Control Units und die Plates: 3, wo Stufe IV 2 zahlt; eine Art wird hinzugefügt, wenn die Stufe-V-Mission sie nicht zahlte), Booster-Stunden und, bei einem Aufenthalt, Credits und Thulium pro Minute. **Letzte Wache**, ein Aufenthalt, zahlt 11.340.000 Credits und 85.010 Thulium. Die beiden Missionen mit zehntausend Abschüssen haben kein Gegenstück und zahlen wie zuvor.
+- **Eine Obergrenze von 200.000 Thulium pro Mission.** Die größten Jagden würden mehr zahlen. Kommt eine Belohnung auf mehr als 200.000 Thulium, wird die ganze Belohnung gemeinsam gekürzt, bis ihr Thulium genau 200.000 beträgt: Credits, Ehre und Gegenstände schrumpfen im gleichen Verhältnis. Sechs Missionen werden gekürzt: **Goombah-Debakel**, **Bulwark-Meer**, **Goombah-Legion**, **Crystalys-Herrschaft**, **Piratenthron** und **Wächter der Linie**. Die übrigen vierundvierzig zahlen voll.
+- **Erfahrung: das Fünffache.** Die Erfahrung einer Mission ist genau 5-mal so hoch wie das, was sie vor 0.4.16 zahlte, was auch immer die Obergrenze kürzt. Zwei Fälle zahlen mehr: In Stufe IV ist es mit der doppelten Bezahlung das 10-Fache, und in Stufe V zahlen die sieben Missionen, die über Stufe IV angehoben wurden (siehe oben), mehr als 5-mal so viel.
+- **Die Gegenstände wachsen mit dem Geld.** Power Cores, Reinforced Hull Plates und Cataclysite wachsen mit den Credits und dem Thulium der Belohnung. Die Orvium und Velkonite Reinforced Plates und die Ancient Control Units bleiben bei ihren alten Mengen, und die Booster-Stunden sind gleich. Stufe IV ist die Ausnahme: Sie zahlt das alles doppelt, auch die Plates, die Ancient Control Units und die Booster-Stunden. Stufe V liegt darüber (siehe oben).
 - **Deine Abschüsse zahlen obendrauf.** Die Aliens, die du zerstörst, zahlen weiter ihre eigenen Credits, ihr Thulium und ihre Ehre wie immer; die Belohnung kommt zusätzlich dazu.
 - **Abschüsse zählen doppelt.** Ein Abschuss zählt für jede Herausforderung, die ihn verlangt, **und** für die eine Level-Mission, für die er zählt, sodass eine Mission mit tausend Abschüssen deine Level-Missionen nie aushungert.
 - **Gruppen.** Ein Abschuss zählt für den Piloten, der dafür bezahlt wird, und für jedes Gruppenmitglied im Umkreis von **4.000 Einheiten** um das Wrack, das in den letzten 15 Sekunden einen Laser oder eine Rakete abgefeuert hat. Jeder Pilot führt seinen eigenen Zähler.
@@ -187,11 +189,11 @@ Die zehn Missionen einer Stufe zahlen zusammen **als Basis** (deine Welt, deine 
 | :--- | --: | --: | --: | --: |
 | Stufe 1 · Prüfstand | 9.355.000 | 70.125 | 2.177.500 | 26.140 |
 | Stufe 2 · Eisengrenze | 26.975.000 | 202.910 | 2.355.000 | 0 |
-| Stufe 3 · Das Zentrum | 46.665.000 | 338.600 | 4.435.000 | 0 |
-| Stufe 4 · Der Abgrund | 63.270.000 | 410.335 | 9.402.500 | 0 |
-| Stufe 5 · Legenden | 111.595.000 | 723.915 | 15.550.000 | 0 |
+| Stufe 3 · Das Zentrum | 52.640.000 | 383.480 | 4.435.000 | 0 |
+| Stufe 4 · Der Abgrund | 126.530.000 | 820.670 | 18.805.000 | 0 |
+| Stufe 5 · Legenden | 212.825.000 | 1.369.900 | 19.607.500 | 0 |
 
-Alle fünfzig zusammen zahlen als Basis 257.860.000 Credits, 1.745.885 Thulium und 33.920.000 EP. [Die Tabellen](#challenge-missions-table) nennen jede Zahl jeder Mission.
+Alle fünfzig zusammen zahlen als Basis 428.325.000 Credits, 2.847.085 Thulium und 47.380.000 EP. [Die Tabellen](#challenge-missions-table) nennen jede Zahl jeder Mission.
 
 > [!TIP]
 > Nimm die großen Jagden an, sobald du Level 3 erreichst: Seeker-Plage und Phantasm-Flut zählen jeden Abschuss in jedem Sektor ab dem Moment, in dem du sie annimmst, neben deinen Level-Missionen.
@@ -437,7 +439,7 @@ Ein Missionsgegenstand steht als „kann es fallen lassen: 15 % pro Abschuss, s
 
 ### Herausforderungen {#challenge-missions-table}
 
-50 Missionen für Piloten ab Level 3, zusammen 33.920.000 EP. Jede zahlt einmal. Die Zahlen sind die Basis: Welt-Bonus, Booster, Premium-EP und Flottenboni kommen wie bei einer Level-Mission dazu.
+50 Missionen für Piloten ab Level 3, zusammen 47.380.000 EP. Jede zahlt einmal. Die Zahlen sind die Basis: Welt-Bonus, Booster, Premium-EP und Flottenboni kommen wie bei einer Level-Mission dazu.
 
 #### Stufe 1 · Prüfstand {#challenge-tier-1}
 
@@ -479,8 +481,8 @@ Zehn Missionen in beliebiger Reihenfolge. Die nächste Stufe öffnet sich, wenn 
 
 | Mission | Auftraggeber | Aufgaben | Zeitlimit | EP | Credits | Thulium | Ehre | Gegenstände |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah-Geißel | Kampf | Goombah ×250 zerstören | – | 672.500 | 13.335.000 | 100.000 | 0 | Cataclysite ×281, Experience Booster, 8 h |
-| Bulwark-Seuche | Kampf | Bulwark ×800 zerstören | – | 660.000 | 13.330.000 | 100.000 | 0 | Power Core ×65, Laser Damage Booster I, 8 h |
+| Goombah-Geißel | Kampf | Goombah ×250 zerstören | – | 672.500 | 15.795.000 | 118.490 | 0 | Cataclysite ×332, Experience Booster, 8 h |
+| Bulwark-Seuche | Kampf | Bulwark ×800 zerstören | – | 660.000 | 16.845.000 | 126.390 | 0 | Power Core ×81, Laser Damage Booster I, 8 h |
 | Phantasm-Ozean | Kampf | Phantasm ×5.000 zerstören | – | 900.000 | 9.715.000 | 72.815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8 h |
 | Crystalys-Prüfung | Kampf | Crystalys ×10 zerstören | – | 90.000 | 3.160.000 | 12.640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 h |
 | Piraten-Verderben | Kampf | Pirate Boss ×10 zerstören (ab Saisontag 4) | – | 145.000 | 1.560.000 | 14.585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 h |
@@ -496,16 +498,16 @@ Zehn Missionen in beliebiger Reihenfolge. Die nächste Stufe öffnet sich, wenn 
 
 | Mission | Auftraggeber | Aufgaben | Zeitlimit | EP | Credits | Thulium | Ehre | Gegenstände |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys-Säuberung | Kampf | Crystalys ×50 zerstören | – | 610.000 | 17.370.000 | 69.515 | 0 | Cataclysite ×292, Experience Booster, 10 h |
-| Goombah-Debakel | Kampf | Goombah ×500 zerstören | – | 1.167.500 | 13.330.000 | 100.000 | 0 | Power Core ×48, Laser Damage Booster I, 10 h |
-| Piraten-Untergang | Kampf | Pirate Boss ×25 zerstören (ab Saisontag 4) | – | 497.500 | 4.285.000 | 40.110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 h |
-| Dormant-Abendrot | Kampf | Dormant Force ×10 zerstören (ab Saisontag 4) | – | 902.500 | 4.610.000 | 23.125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Randgang | Aufklärung | In DS-4: Fliege zum Punkt 16.000 / 5.300 → In DS-4: Fliege zum Punkt 19.700 / 9.000 → In DS-4: Fliege zum Punkt 16.000 / 12.700 → In DS-4: Fliege zum Punkt 12.300 / 9.000 (ganze Mission: höchstens 76.000 Hüllenpunkte Verlust) (ganze Mission: ohne Schiffsverlust) | – | 810.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 h |
-| Randwache | Aufklärung | In DS-4: Bleibe 90 min am Stück | – | 810.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 h |
-| Feindesland | Aufklärung | In rival x-4: Bleibe 120 min am Stück | – | 1.717.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 h |
-| Abgrund-Konvoi | Operationen | In x-4: Goombah ×6 zerstören → Bringe Abyss Core vom Punkt 12.800 / 6.800 in x-4 zu Mission Control (höchstens 46.000 Hüllenpunkte Verlust) (ohne Schiffsverlust) | – | 990.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Unberührt IV | Operationen | In x-4: Crystalys ×3 zerstören (höchstens 480.000 Hüllenpunkte Verlust) | – | 305.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 h |
-| Bulwark-Meer | Kampf | Bulwark ×2.000 zerstören | – | 1.592.500 | 13.330.000 | 100.000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10 h |
+| Crystalys-Säuberung | Kampf | Crystalys ×50 zerstören | – | 1.220.000 | 34.740.000 | 139.030 | 0 | Cataclysite ×584, Experience Booster, 20 h |
+| Goombah-Debakel | Kampf | Goombah ×500 zerstören | – | 2.335.000 | 26.655.000 | 200.000 | 0 | Power Core ×96, Laser Damage Booster I, 20 h |
+| Piraten-Untergang | Kampf | Pirate Boss ×25 zerstören (ab Saisontag 4) | – | 995.000 | 8.570.000 | 80.220 | 0 | Orvium Reinforced Plate ×16, Loot Luck Booster, 12 h |
+| Dormant-Abendrot | Kampf | Dormant Force ×10 zerstören (ab Saisontag 4) | – | 1.805.000 | 9.220.000 | 46.250 | 0 | Ancient Control Unit ×2, Shield Wall Booster I, 20 h |
+| Randgang | Aufklärung | In DS-4: Fliege zum Punkt 16.000 / 5.300 → In DS-4: Fliege zum Punkt 19.700 / 9.000 → In DS-4: Fliege zum Punkt 16.000 / 12.700 → In DS-4: Fliege zum Punkt 12.300 / 9.000 (ganze Mission: höchstens 76.000 Hüllenpunkte Verlust) (ganze Mission: ohne Schiffsverlust) | – | 1.620.000 | 3.240.000 | 24.300 | 0 | Orvium Reinforced Plate ×12, Hull Plating Booster II, 20 h |
+| Randwache | Aufklärung | In DS-4: Bleibe 90 min am Stück | – | 1.620.000 | 3.240.000 | 24.300 | 0 | Velkonite Reinforced Plate ×24, Shield Regen Booster, 20 h |
+| Feindesland | Aufklärung | In rival x-4: Bleibe 120 min am Stück | – | 3.435.000 | 6.870.000 | 51.520 | 0 | Cataclysite ×100, Hull Plating Booster I, 20 h |
+| Abgrund-Konvoi | Operationen | In x-4: Goombah ×6 zerstören → Bringe Abyss Core vom Punkt 12.800 / 6.800 in x-4 zu Mission Control (höchstens 46.000 Hüllenpunkte Verlust) (ohne Schiffsverlust) | – | 1.980.000 | 4.180.000 | 31.320 | 0 | Ancient Control Unit ×2, Shield Wall Booster II, 20 h |
+| Unberührt IV | Operationen | In x-4: Crystalys ×3 zerstören (höchstens 480.000 Hüllenpunkte Verlust) | – | 610.000 | 3.160.000 | 23.730 | 0 | Orvium Reinforced Plate ×12, Laser Damage Booster II, 20 h |
+| Bulwark-Meer | Kampf | Bulwark ×2.000 zerstören | – | 3.185.000 | 26.655.000 | 200.000 | 0 | Reinforced Hull Plate ×226, Resource Magnet Booster, 20 h |
 
 #### Stufe 5 · Legenden {#challenge-tier-5}
 
@@ -513,16 +515,16 @@ Zehn Missionen in beliebiger Reihenfolge. Das ist die letzte Stufe.
 
 | Mission | Auftraggeber | Aufgaben | Zeitlimit | EP | Credits | Thulium | Ehre | Gegenstände |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Zehntausend Seeker | Kampf | Seeker ×10.000 zerstören | – | 1.612.500 | 13.325.000 | 100.000 | 0 | Power Core ×36, Experience Booster, 10 h |
-| Zehntausend Phantasm | Kampf | Phantasm ×10.000 zerstören | – | 2.100.000 | 13.340.000 | 100.000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10 h |
-| Goombah-Legion | Kampf | Goombah ×1.000 zerstören | – | 2.337.500 | 13.330.000 | 100.000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10 h |
-| Crystalys-Herrschaft | Kampf | Crystalys ×150 zerstören | – | 1.827.500 | 24.990.000 | 100.000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 h |
-| Dormant-Dominanz | Kampf | Dormant Force ×25 zerstören (ab Saisontag 4) | – | 1.970.000 | 12.670.000 | 63.590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 h |
-| Piratenthron | Kampf | Pirate Boss ×60 zerstören (ab Saisontag 4) | – | 955.000 | 10.680.000 | 100.000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 h |
-| Letzte Wache | Aufklärung | In DS-x: Bleibe 180 min am Stück | – | 1.690.000 | 3.560.000 | 26.735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 h |
-| Konvoi Null | Operationen | In x-4: Goombah ×8 zerstören → In x-4: Crystalys ×1 zerstören → Bringe Zero Core vom Punkt 13.600 / 4.400 in x-4 zu Mission Control (höchstens 46.000 Hüllenpunkte Verlust) (ohne Schiffsverlust) | – | 1.260.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 h |
-| Unberührt Null | Operationen | In x-4: Goombah ×20 zerstören (höchstens 556.000 Hüllenpunkte Verlust) | – | 435.000 | 1.740.000 | 13.055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 h |
-| Wächter der Linie | Operationen | In x-4: Goombah ×400 zerstören → In x-4: Crystalys ×30 zerstören → In x-4: Bleibe 60 min am Stück → In rival x-4: Fliege zum Punkt 8.000 / 4.500 → In DS-x: Fliege zum Punkt 26.000 / 4.500 → In x-1: Fliege zum Punkt 1.500 / 1.500 | – | 1.362.500 | 15.220.000 | 100.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10 h |
+| Zehntausend Seeker | Kampf | Seeker ×10.000 zerstören | – | 1.612.500 | 16.110.000 | 120.935 | 0 | Power Core ×43, Experience Booster, 10 h |
+| Zehntausend Phantasm | Kampf | Phantasm ×10.000 zerstören | – | 2.100.000 | 23.500.000 | 176.205 | 0 | Reinforced Hull Plate ×280, Laser Damage Booster I, 10 h |
+| Goombah-Legion | Kampf | Goombah ×1.000 zerstören | – | 2.570.000 | 26.655.000 | 200.000 | 0 | Cataclysite ×319, Power Core ×106, Resource Magnet Booster, 22 h |
+| Crystalys-Herrschaft | Kampf | Crystalys ×150 zerstören | – | 1.827.500 | 49.975.000 | 200.000 | 0 | Orvium Reinforced Plate ×12, Cataclysite ×643, Loot Luck Booster, 22 h |
+| Dormant-Dominanz | Kampf | Dormant Force ×25 zerstören (ab Saisontag 4) | – | 1.987.500 | 25.355.000 | 127.190 | 0 | Ancient Control Unit ×3, Shield Wall Booster I, 22 h |
+| Piratenthron | Kampf | Pirate Boss ×60 zerstören (ab Saisontag 4) | – | 1.095.000 | 21.370.000 | 200.000 | 0 | Ancient Control Unit ×1, Orvium Reinforced Plate ×18, Hull Plating Booster I, 14 h |
+| Letzte Wache | Aufklärung | In DS-x: Bleibe 180 min am Stück | – | 3.780.000 | 11.340.000 | 85.010 | 0 | Velkonite Reinforced Plate ×27, Cataclysite ×110, Shield Regen Booster, 22 h |
+| Konvoi Null | Operationen | In x-4: Goombah ×8 zerstören → In x-4: Crystalys ×1 zerstören → Bringe Zero Core vom Punkt 13.600 / 4.400 in x-4 zu Mission Control (höchstens 46.000 Hüllenpunkte Verlust) (ohne Schiffsverlust) | – | 2.180.000 | 4.600.000 | 34.455 | 0 | Ancient Control Unit ×3, Shield Wall Booster II, 22 h |
+| Unberührt Null | Operationen | In x-4: Goombah ×20 zerstören (höchstens 556.000 Hüllenpunkte Verlust) | – | 672.500 | 3.480.000 | 26.105 | 0 | Orvium Reinforced Plate ×14, Laser Damage Booster II, 22 h |
+| Wächter der Linie | Operationen | In x-4: Goombah ×400 zerstören → In x-4: Crystalys ×30 zerstören → In x-4: Bleibe 60 min am Stück → In rival x-4: Fliege zum Punkt 8.000 / 4.500 → In DS-x: Fliege zum Punkt 26.000 / 4.500 → In x-1: Fliege zum Punkt 1.500 / 1.500 | – | 1.782.500 | 30.440.000 | 200.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×596, Hull Plating Booster II, 22 h |
 
 
 <!-- quests:end -->

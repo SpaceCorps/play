@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50138d1e4d4865f8 -->
+<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
 <!-- wiki-i18n title: Pilotos de corporación -->
 # Pilotos de corporación {#company-pilots}
 
@@ -13,7 +13,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
 - **Nave**: una [Ostirion](/wiki/02-Ships/Ostirion.md) con tres **Quantum Laser II**, dos **Light Shield Cores**, un **Engine I** y un **Repair Drone I**:
   - 48.000 puntos de vida, 22.000 puntos de escudo, velocidad 202
   - absorción del 45 %: sus escudos reciben el 45 % de cada impacto y el casco, el 55 %
-  - 195 de daño base por andanada (munición x1), sin probabilidad de crítico, alcance 700
+  - 195 de daño base por andanada (munición x1), 1 % de probabilidad de crítico, alcance 700
 - **En el minimapa**: un rombo verde para los pilotos de tu corporación y uno ámbar para los de otra corporación.
 - **Sin rango**: el pequeño símbolo delante del nombre de un piloto en vuelo es su [rango](/wiki/03-Mechanics/Ranks.md) y pertenece a los pilotos reales. Los pilotos de corporación no tienen ninguno y no están en la clasificación de tu corporación. La página Corporación lista a los pilotos reales de tu corporación con más puntos PvE primero, y el rango de un piloto sale de sus puntos PvE en esa lista y, en los seis mejores rangos, de las plazas que tiene la corporación.
 

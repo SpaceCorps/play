@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4d9008fb9fa56fb -->
+<!-- wiki-i18n source: 94b65a41bd556504 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -52,7 +52,7 @@ A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanc
 
 ## Vásárlás tőle {#buying-from-him}
 
-A készlete az aukció **Piac** listájában van, a pilóták hirdetései között: az aukció mind a 83 fajtájához egy sor kreditben és egy Thuliumban (összesen 166 sor), egy csomag árával, az arany nevével, egy **NPC**-jelvénnyel és egy végtelenjellel a mennyiségnél és a hátralévő időnél. A Piac keresése, kategóriái, valamint a varázslat és a pénznem szerinti szűrői úgy szűkítik a sorait, mint bármelyik hirdetést (a tárgyai Normál fokozatúak), a rendezései pedig oda teszik őket, ahová a számuk mutat: ár szerint a pilóták árai mellé, a **Hamarosan lejár** és a **Legújabb** rendezésnél a pilóták hirdetései után. Válassz egyet a részletekhez és a **Vásárlás: …** gombhoz; a vásárlás hozzá megy, nem egy pilótához. Az árak:
+A készlete az aukció **Piac** listájában van, a pilóták hirdetései között: az aukció mind a 84 fajtájához egy sor kreditben és egy Thuliumban (összesen 168 sor), egy csomag árával, az arany nevével, egy **NPC**-jelvénnyel és egy végtelenjellel a mennyiségnél és a hátralévő időnél. A Piac keresése, kategóriái, valamint a varázslat és a pénznem szerinti szűrői úgy szűkítik a sorait, mint bármelyik hirdetést (a tárgyai Normál fokozatúak), a rendezései pedig oda teszik őket, ahová a számuk mutat: ár szerint a pilóták árai mellé, a **Hamarosan lejár** és a **Legújabb** rendezésnél a pilóták hirdetései után. Válassz egyet a részletekhez és a **Vásárlás: …** gombhoz; a vásárlás hozzá megy, nem egy pilótához. Az árak:
 
 - **A bolti ár 100-szorosa kreditben és 40-szerese Thuliumban** azoknál a tárgyaknál, amelyeket a bolt árul; az egyik pénznemben megadott bolti ár a másikban 200 kredit/Thulium árfolyamon számít. Egy Repair Drone I (5 000 kredit a boltban) 500 000 kredit vagy 1 000 Thulium, egy Quantum Laser I 800 000 kredit vagy 1 600 Thulium, a rakéták darabonként 50 000–100 000 kredit. A két ár nem ér ugyanannyit: 200 kredit/Thulium árfolyamon 1 000 Thulium csak 200 000 kredit lenne.
 - **A boltban nem kapható felszerelés nála a végső megoldás: a referenciaérték 200-szorosa kreditben és 80-szorosa Thuliumban**, legalább 50-szerese annak, amibe a megszerzésének legolcsóbb másik útja kerül (magad elkészíted, vagy egy másik pilóta ára). Egy Quantum Laser III 84 966 000 kredit vagy 169 932 Thulium, egy Helios Beam 682 192 400 kredit vagy 1 364 388 Thulium, egy Hull Plating III 1 271 074 400 kredit vagy 2 542 152 Thulium. Ezek a sorok egy kis **Végső megoldás** jelvényt viselnek, ahogy lent a ritka nyersanyagok is.

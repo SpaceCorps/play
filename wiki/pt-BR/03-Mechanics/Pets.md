@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -47,6 +47,7 @@ O Berço é a máquina da visão P.E.T. do hangar. Um **trabalho** leva um Clust
 
 - **O grau do chunk decide o grau do P.E.T.**, e com ele quantos bônus tem (1, 2 ou 3) e que tipos pode ser: 4 dos 10 tipos com um chunk Regular, 7 com um Mythical e os 10 com um Legendary. O Retriever pode vir de qualquer chunk; o Mole exige um Mythical ou um Legendary.
 - **Você escolhe o tipo** entre os que já descobriu, ou aperta **Descobrir**: então o Berço choca um tipo desse grau que você ainda não descobriu, sorteado ao começar o trabalho e mostrado só quando você coleta o P.E.T. Um tipo que outro trabalho em andamento já sorteou fica de fora, então duas descobertas na fila nunca chocam o mesmo tipo.
+- **Você pode cancelar um trabalho** que está andando ou esperando: clique na pequena cruz do espaço dele e clique de novo em até 3 segundos quando ele perguntar **Cancelar?**. O Cluster Chunk e a Orvium Reinforced Plate voltam para você, os trabalhos de trás se aproximam, e só se perde o tempo que ele já tinha andado. Um trabalho terminado é coletado, não cancelado. Uma descoberta que você cancela libera o seu tipo para ser sorteado de novo.
 - **O Códice** no pé da página mostra os dez tipos como silhuetas até você os chocar. Ele pertence à sua conta e preenchê-lo não paga nada.
 - **O hangar de P.E.T.s** guarda no máximo **24** P.E.T.s, acoplados ou guardados, e um trabalho em andamento conta como um. Você pode **soltar** um: nada volta.
 

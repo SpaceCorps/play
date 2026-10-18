@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -47,6 +47,7 @@ Beşik, hangarın P.E.T. görünümündeki makinedir. Bir **iş**, başlatıldı
 
 - **Parçanın derecesi P.E.T.’in derecesini belirler** ve onunla birlikte kaç bonus taşıyacağını (1, 2 veya 3) ve hangi türler olabileceğini: Normal bir parça için 10 türden 4’ü, Mitik için 7’si, Efsanevi için 10’unun hepsi. Retriever herhangi bir parçadan çıkabilir; Mole Mitik ya da Efsanevi bir parça ister.
 - **Türü keşfettiklerin arasından sen seçersin** ya da **Keşfet** düğmesine bas: Beşik o zaman, o derecede henüz keşfetmediğin bir türü üretir; tür iş başladığında çekilir ve yalnızca P.E.T.’i topladığında gösterilir. Çalışan başka bir işin çektiği bir tür dışarıda bırakılır, bu yüzden sıraya alınmış iki keşif asla aynı türü üretmez.
+- **Çalışan ya da bekleyen bir işi iptal edebilirsin**: yuvasındaki küçük çarpıya bas, **İptal edilsin mi?** diye sorunca 3 saniye içinde yeniden bas. Cluster Chunk ve Orvium Reinforced Plate geri gelir, arkasındaki işler öne kayar ve yalnızca işin o ana kadar çalıştığı süre kaybolur. Biten iş toplanır, iptal edilmez. İptal ettiğin bir keşif, türünü yeniden çekilebilir hâle getirir.
 - **Kodeks**, sayfanın altında, on türü onları üretene kadar siluet olarak gösterir. Hesabına aittir ve onu doldurmanın bir ödülü yoktur.
 - **P.E.T. Hangar** en çok **24** P.E.T. tutar, yanaştırılmış ya da depodaki, ve çalışan bir iş de birinin yerine sayılır. Birini **serbest bırakabilirsin**: geri bir şey gelmez.
 

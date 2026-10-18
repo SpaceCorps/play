@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Fähigkeiten -->
 # Aktive Schiffsfähigkeiten {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Jedes Schiff hat im Hangar eine feste Anzahl an Fähigkeits-Slots:
 - **Ironclad**: 3 Slots
 - **Wraith**: 3 Slots
 
-Ein Fähigkeits-Slot nimmt einen **Schild**, ein **Triebwerk** oder eine **Repair Drone** auf, und jedes davon erzeugt seine eigene Fähigkeit. Ziehe den Gegenstand auf den Slot. Konfiguration 1 und Konfiguration 2 haben jeweils eigene Slots.
+Ein Fähigkeits-Slot nimmt einen **Schild**, ein **Triebwerk** oder eine **Repair Drone** auf, und jedes davon erzeugt seine eigene Fähigkeit. Ziehe den Gegenstand auf den Slot. Konfiguration 1 und Konfiguration 2 haben jeweils eigene Slots. Im Hangar legt ein Klick auf einen Schild, ein Triebwerk oder eine Repair Drone sie in ihren gewohnten Slot, und in den ersten freien Fähigkeits-Slot, wenn ihre gewohnten Slots (die Generator-Slots, bei einer Repair Drone die Extras) alle belegt sind.
 
 - **Schildzellen und Schubdüsen passen nicht in einen Fähigkeits-Slot.** Sie sind Module für Schilde, Triebwerke und adaptive Kerne.
 - **Ein Gegenstand in einem Fähigkeits-Slot bringt sonst nichts.** Er gibt weder Schildkapazität, Aufladung, Absorption noch Tempo, und auch die Verlangsamung, die ein Schild sonst mit sich bringt, entfällt. Derselbe Heavy Shield Core sitzt entweder in einem Generator-Slot und liefert in jedem Moment seinen Schild, oder in einem Fähigkeits-Slot für seinen Surge. Du entscheidest.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
+<!-- wiki-i18n source: cb94c2a238471e59 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## En un minuto {#in-one-minute}
 
 - **Dark Matter es un recurso y se llama simplemente Dark Matter en todas partes.** El agujero negro del centro del Sector de peligro 4 (`DS-4`) la produce: cada cohete N.I.K.E. que llega al agujero devuelve de 1 a 3 Dark Matter (2 de media), en cajas pequeñas en el borde de su zona.
-- **Para qué sirve.** 93 tecnologías del Centro de investigación la piden, de 5 a 40 cada una y 1.019 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida.
+- **Para qué sirve.** 107 tecnologías del Centro de investigación la piden, de 5 a 60 cada una y 1.354 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida.
 - **En el Centro de investigación** añades Dark Matter desde tu bodega (con la nave aterrizada) antes de pulsar Iniciar. La investigación la toma al empezar.
 - **Una Dark Matter Plate es otro objeto.** Investiga primero su receta (el grupo Recursos del árbol: 1 día y 10 Dark Matter) y luego fabrícala en el Ensamblaje con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium.
 - **Para qué sirve una plate.** El último nivel de cada cadena de mejora pide **4** y al menos una Ancient Control Unit: los amps, las células de escudo y los propulsores del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II (13 piezas). La Forja pide 2 para subir un objeto de Divino a Rompedor, y otras 2 de Rompedor a Eterno. Los módulos de motores, de defensa y de radar del Skylab también piden placas, para construirse y para mejorarse ([Recursos](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@
 | **Qué es** | Un recurso Épico | Un recurso Mítico |
 | **De dónde viene** | El agujero negro del sector de peligro 4, por los cohetes N.I.K.E. disparados contra él; un poco del Enjambre Dormant y de las Inert Masses del Dormant Swamp | El Ensamblaje, prensada con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium |
 | **Qué haces antes** | Investigar la N.I.K.E. (3 h, sin Dark Matter) y fabricar algunos | Investigar la receta de la plate (1 d, 10 Dark Matter) |
-| **Para qué sirve** | Los costes de investigación (93 tecnologías, 1.019 en total) y la plate | El último nivel de cada cadena de mejora: 4 para cada una de 13 piezas; la mejora del Master Drone: 20; la Forja: 2 para cada uno de sus dos pasos más altos |
+| **Para qué sirve** | Los costes de investigación (107 tecnologías, 1.354 en total) y la plate | El último nivel de cada cadena de mejora: 4 para cada una de 13 piezas; la mejora del Master Drone: 10; la Forja: 2 para cada uno de sus dos pasos más altos |
 
 ## Cómo conseguir Dark Matter {#how-to-get-dark-matter}
 
@@ -71,7 +71,7 @@ El reinicio de temporada deja intacta la Dark Matter de tu Centro.
 1. **Investiga la receta.** En la vista Investigación, la tecnología **Dark Matter Plate** está en el grupo **Recursos** del árbol. Tarda 1 día y pide 10 Dark Matter, que antes añades al Centro. Las tecnologías de las 13 piezas del último nivel también la piden.
 2. **Reúne lo que pide una plate:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate y 250 Thulium. La Forja de tu Skylab hace las dos placas reforzadas a partir de mineral ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Fabrícala en el Ensamblaje.** Elige **Recursos** en el filtro Categoría. Una fabricación hace una plate en 120 segundos.
-4. **Úsala.** El último nivel de cada cadena de mejora pide **4 plates** ([más abajo](#what-the-last-tier-asks-for)). [La Forja](/wiki/06-Items/Forge.md) pide **2 plates** para subir un objeto de Divino a Rompedor (75 % de éxito, 200.000 créditos) y **2 más** de Rompedor a Eterno (60 % de éxito, 500.000 créditos y 2.000 de Thulium). Un paso que falla devuelve la mitad de sus materiales, redondeada hacia abajo: una plate. La mejora del Master Drone pide **20** plates.
+4. **Úsala.** El último nivel de cada cadena de mejora pide **4 plates** ([más abajo](#what-the-last-tier-asks-for)). [La Forja](/wiki/06-Items/Forge.md) pide **2 plates** para subir un objeto de Divino a Rompedor (75 % de éxito, 200.000 créditos) y **2 más** de Rompedor a Eterno (60 % de éxito, 500.000 créditos y 2.000 de Thulium). Un paso que falla devuelve la mitad de sus materiales, redondeada hacia abajo: una plate. La mejora del Master Drone pide **10** plates.
 
 ## Lo que pide el último nivel {#what-the-last-tier-asks-for}
 
@@ -86,7 +86,7 @@ El último nivel de cada cadena de mejora pide **4 Dark Matter Plates** y al men
 - **El Adaptive Core III**, a partir de un Adaptive Core II ([Escudos](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU:** Extra Slots CPU III, con 6 Orvium Reinforced Plates, y Base CPU II, con 2 ([Extra Slots CPUs](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPUs](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Estos no piden Dark Matter Plates:** el Quantum Laser III y el Starfire-III (placas de Velkonite), los niveles II y III de cada cadena (2 placas de Velkonite para un amp, 4 para una célula o un propulsor), la Jump CPU, la Auto-Repair CPU, Extra Slots CPU I y II, Base CPU I, las 16 formaciones de drones y las naves. [La Forja](/wiki/06-Items/Forge.md) mantiene sus 2 plates en cada uno de sus dos pasos más altos.
+**Estos no piden Dark Matter Plates:** el Quantum Laser III y el Starfire-III (placas de Velkonite), los niveles II y III de cada cadena (2 placas de Velkonite para un amp, 4 para una célula o un propulsor), la Jump CPU, la Auto-Repair CPU, la Auto-Rocket CPU, Extra Slots CPU I y II, Base CPU I, las 16 formaciones de drones y las naves. [La Forja](/wiki/06-Items/Forge.md) mantiene sus 2 plates en cada uno de sus dos pasos más altos.
 
 Una plate se prensa a partir de 5 Dark Matter, una Velkonite y una Orvium Reinforced Plate y 250 Thulium, así que las 4 plates de una pieza también llevan 4 placas de Velkonite, 4 de Orvium y 1.000 Thulium. Lo que contiene una nave completa, con el último nivel en todas partes:
 
@@ -107,7 +107,7 @@ Las 40 piezas de un Paragon son sus 8 láseres, sus 24 amps y sus 8 ranuras de g
 | Una Dark Matter Plate | 5 | 2,5 |
 | Las dos plates de un paso de la Forja | 10 | 5 |
 | Las cuatro plates de una pieza del último nivel | 20 | 10 |
-| Toda tecnología que pide Dark Matter | 1.019 | 510 |
+| Toda tecnología que pide Dark Matter | 1.354 | 677 |
 
 Una primera mejora desde cero es la receta (10) y dos plates (10): 20 Dark Matter, unos 10 cohetes N.I.K.E., es decir, dos fabricaciones. Un primer amp de nivel IV desde cero es la receta de la plate (10), la tecnología propia del amp (10) y 4 plates (20): 40 Dark Matter, unos 20 cohetes N.I.K.E.
 

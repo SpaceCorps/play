@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Der Grundschaden aller ausgerüsteten Laser (einschließlich der Laser auf Drohn
 Jede Salve hat eine Chance, ein kritischer Treffer zu sein.
 - **Krit-Chance**: Die durchschnittliche Krit-Chance der ausgerüsteten Laser plus die Summe der Krit-Chancen aller ausgerüsteten Laserverstärker.
 - **Krit-Multiplikator**: Ist ein Schuss kritisch, wird der Schadenswurf mit **1,5x** multipliziert. Die Schadenszahl einer kritischen Salve wird in Eisblau angezeigt, größer und mit einem „!“ (siehe [Schadens- und Heilungszahlen](#damage-and-heal-numbers)).
-- Quantum Laser I und II haben keine eigene Krit-Chance: Ihre Verstärker geben sie ihnen.
+- Quantum Laser I und II haben eine eigene Krit-Chance von 1 %: Ihre Verstärker erhöhen sie.
 - **Fester Krit-Schaden**: Fester kritischer Schaden von Laserverstärkern wird nach dem Multiplikator addiert.
   - Formel: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

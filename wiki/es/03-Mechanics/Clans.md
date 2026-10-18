@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -295,7 +295,7 @@ Desde la 0.4.22 **todos los guardianes van a por el piloto que los golpeó**, co
 ### Combatir a un guardián {#fighting-a-warden}
 
 - **Un guardián lucha contra el primer piloto que lo golpeó**, como cualquier jefe: deja que empiece la nave más resistente de la tripulación y usa [Shield Surge y Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Lleva la tripulación más grande que puedas, con munición x2** ([Láseres](/wiki/06-Items/Lasers.md#laser-ammunition)). Las tripulaciones que ganaban antes de la 0.4.13, de unos siete pilotos, ahora pierden. La tabla de abajo es un cálculo y el mejor caso: incluso en él diez pilotos pierden contra cualquier guardián, y la tripulación más pequeña que puede ganar tiene de 17 a 26 pilotos con munición x2 y de 27 a 39 con munición x1. Las oleadas de abajo no entran en ese cálculo.
+- **Lleva la tripulación más grande que puedas, con munición x2** ([Láseres](/wiki/06-Items/Lasers.md#laser-ammunition)). Las tripulaciones que ganaban antes de la 0.4.13, de unos siete pilotos, ahora pierden. La tabla de abajo es un cálculo y el mejor caso: incluso en él diez pilotos pierden contra cualquier guardián, y la tripulación más pequeña que puede ganar tiene de 17 a 26 pilotos con munición x2 y de 26 a 39 con munición x1. Las oleadas de abajo no entran en ese cálculo.
 - **Brood:** los drones curan su casco, y una tripulación que los ignora pierde, aunque sea grande. Destrúyelos primero y sigue destruyéndolos: llega uno nuevo a los 8 segundos (a los 16 con el Brood Warden III). Desde la 0.4.22 el Brood Warden vuela hacia el piloto que lo golpeó, y sus drones van con él y siguen curándolo.
 - **Siege:** sus cohetes son rectos y sin guía, así que una nave que no deja de moverse esquiva la mayoría. No dejes de moverte y túrnense como objetivo. Desde la 0.4.22 ya no se desplaza por el mapa: vuela hacia el primer piloto que lo golpeó y le dispara su Rivet desde hasta 1.000 unidades.
 - **Wrath:** cuando su casco baja de la mitad, cada salva golpea una vez y media más fuerte, así que la segunda mitad del combate es la peligrosa. Derriba la primera mitad rápido, mantén los escudos arriba y guarda Emergency Repair para la furia. Desde la 0.4.20 ya no se queda quieto: vuela hacia el primer piloto que lo golpeó, a 90 unidades por segundo, hasta estar dentro del alcance de sus láseres (700, 800 o 900 unidades según la fuerza) y dispara desde ahí, así que un arma de más alcance ya no le dispara gratis.
@@ -335,7 +335,7 @@ Desde la 0.4.22 **cada guardián** hace lo que hacía el Wrath Warden III desde 
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Desde la 0.4.20 el **Wrath Warden III** trae más y más a menudo: una oleada ca
 
 - **Como mucho hay cuatro oleadas vivas.** Una oleada que toca cuando hay cuatro vivas se salta, como con los demás guardianes.
 - **Lo que pagan.** Una oleada entera de 15 Bulwark paga 75.000 créditos en Alpha, y con su Crystalys 150.000: alrededor del 2 % de los 7.200.000 que paga el propio guardián.
-- **Lo que piden a la tripulación.** El cálculo de [qué tripulación hace falta](#how-big-a-crew), con estas oleadas y el Crystalys, da **32 pilotos en x-2, 32 en x-3 y 39 en x-4** con munición x2 (26 sin oleadas), y 39, 41 y 51 en Gamma, donde los alienígenas de las oleadas son el doble de fuertes. Un clan de nivel 3 tiene 50 miembros, así que 51 en x-4 en Gamma es uno más de los que puede enviar. Como la tabla de allí, está calculado y no medido, y es el mejor caso.
+- **Lo que piden a la tripulación.** El cálculo de [qué tripulación hace falta](#how-big-a-crew), con estas oleadas y el Crystalys, da **32 pilotos en x-2, 32 en x-3 y 39 en x-4** con munición x2 (26 sin oleadas), y 39, 41 y 50 en Gamma, donde los alienígenas de las oleadas son el doble de fuertes. Un clan de nivel 3 tiene 50 miembros, así que 50 en x-4 en Gamma es todo lo que puede enviar. Como la tabla de allí, está calculado y no medido, y es el mejor caso.
 
 ### Qué tripulación hace falta {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ La tabla es el mejor caso; en la práctica, lleva a todos los que puedas.
 | :--- | :--- | :--- |
 | 5 pilotos | pierden contra todos los guardianes; el guardián conserva de 88 a 96 % de su casco y su escudo | pierden |
 | 10 pilotos | pierden contra todos los guardianes; el guardián conserva de 55 a 86 % de su casco y su escudo | pierden |
-| 20 pilotos | solo ganan a los Siege Warden I y II, en 7,3 minutos y perdiendo 6 naves, y al Brood Warden III, en 3,9 minutos y perdiendo 9 naves | pierden |
-| 30 pilotos | ganan a todos los guardianes en 2,0 a 5,2 minutos y pierden de 3 a 11 naves | solo ganan a los Siege Warden I y II, en 10,5 a 10,6 minutos y perdiendo 9 naves, y al Brood Warden III, en 5,3 minutos y perdiendo 13 naves |
+| 20 pilotos | solo ganan a los Siege Warden I y II, en 7,2 a 7,3 minutos y perdiendo 6 naves, y al Brood Warden III, en 3,9 minutos y perdiendo 9 naves | pierden |
+| 30 pilotos | ganan a todos los guardianes en 2,0 a 5,2 minutos y pierden de 3 a 11 naves | solo ganan a los Siege Warden I y II, en 10,4 a 10,5 minutos y perdiendo 9 naves, y al Brood Warden III, en 5,2 minutos y perdiendo 13 naves |
 
-En el cálculo, la tripulación más pequeña que gana con munición x2 tiene **de 17 a 26 pilotos** (los menos, contra los Siege Warden I y II) y pierde **de 10 a 19** naves al hacerlo; con munición x1 tiene **de 27 a 39** pilotos y pierde de 13 a 27. Los láseres de un guardián pegan con cientos por descarga en la fuerza I (240 a 645) y con miles en la fuerza III (9.225 a 15.450), y sus ayudantes se suman: la nave contra la que combate cae en 18 a 55 segundos, y entonces se vuelve contra la siguiente, así que incluso una tripulación que gana pierde muchas naves.
+En el cálculo, la tripulación más pequeña que gana con munición x2 tiene **de 17 a 26 pilotos** (los menos, contra los Siege Warden I y II) y pierde **de 10 a 18** naves al hacerlo; con munición x1 tiene **de 26 a 39** pilotos y pierde de 12 a 27. Los láseres de un guardián pegan con cientos por descarga en la fuerza I (240 a 645) y con miles en la fuerza III (9.225 a 15.450), y sus ayudantes se suman: la nave contra la que combate cae en 18 a 55 segundos, y entonces se vuelve contra la siguiente, así que incluso una tripulación que gana pierde muchas naves.
 
 La tabla es para una tripulación con el equipo de la categoría propia del guardián. Las naves más débiles lo hacen peor. El guardián de **tu** clan siempre corresponde a **tu** categoría, que fijan los cinco mejores pilotos del clan, así que llévalos.
 

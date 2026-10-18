@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6f10cf5f564ec840 -->
+<!-- wiki-i18n source: 0073c56137e4c706 -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -23,7 +23,7 @@
 
 锁定的卡片上有一个**打开研究**按钮，点击后会打开你 Skylab 的研究视图，并选中那项科技。卡片仍会显示材料和价格，所以你可以提前规划，锁定的配方在各自分类里排在最后。Extra Slots CPU 还要等它的前一级：Extra Slots CPU II 的卡片会让你先安装 Extra Slots CPU I，III 的卡片则要求 II。
 
-顶级的激光增幅器、II 至 IV 阶的护盾电池和推进器、II 至 III 阶的引擎和自适应核心，以及 Heavy Shield Core，都不在商店出售。你要在装配站中，用低一级的部件（Heavy Shield Core 用 Basic Shield Core，Engine III 用 Engine II，Adaptive Core II 用 Adaptive Core I，Impulse Thruster III 用 Impulse Thruster II）、一些 Thulium、外星人的掉落物和板（来自你 Skylab 锻造厂的 Velkonite 强化板，最后一阶还要 4 块 Dark Matter Plate）来制作每一件。该部件必须是物品栏中未使用的：请先把它从你的舰船上取下，并从所在的激光、护盾、引擎或自适应核心中取出（护盾、引擎或自适应核心自身不能带有电池或推进器），再从运输储藏库中取出。**新物品沿用被消耗部件的[附魔](/wiki/06-Items/Overview.md#item-enchants)等级，其加成会重新随机**（神圣·Damage Amp III 制成神圣·Damage Amp IV，带有新加成，数量与原来相同）。使用哪一件副本由你决定：当你的副本各不相同时，装配站的配方卡片会把它们列出来，使用高于标准等级的副本前会先询问。如果你没有选择，附魔等级最低的会先被使用，所以你等级最高的副本会留下（同一等级的副本中最旧的先用，无论它们的加成如何）。完整规则见[锻造炉](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)页面。
+顶级的激光增幅器、II 至 IV 阶的护盾电池和推进器、II 至 III 阶的引擎和自适应核心，以及 Heavy Shield Core，都不在商店出售。你要在装配站中，用低一级的部件（Heavy Shield Core 用 Basic Shield Core，Engine III 用 Engine II，Adaptive Core II 用 Adaptive Core I，Impulse Thruster III 用 Impulse Thruster II）、一些 Thulium、外星人的掉落物和板（来自你 Skylab 锻造厂的 Velkonite 强化板，最后一阶还要 4 块 Dark Matter Plate）来制作每一件。该部件必须是物品栏中未使用的：请先把它从你的舰船上取下，并从所在的激光、护盾、引擎或自适应核心中取出（护盾、引擎或自适应核心自身不能带有电池或推进器），再从运输储藏库中取出。**新物品沿用被消耗部件的[附魔](/wiki/06-Items/Overview.md#item-enchants)等级和加成**（有两项加成的神圣·Damage Amp III 制成带有相同两项加成的神圣·Damage Amp IV）。使用哪一件副本由你决定：当你的副本各不相同时，装配站的配方卡片会把它们列出来，使用高于标准等级的副本前会先询问。如果你没有选择，附魔等级最低的会先被使用，所以你等级最高的副本会留下（同一等级的副本中最旧的先用，无论它们的加成如何）。完整规则见[锻造炉](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)页面。
 
 | 升级 | 消耗 | Thulium | 材料 | 用时 |
 | :--- | :--- | :---: | :--- | :---: |
@@ -70,6 +70,8 @@
 
 **相邻的会合并。** 同一配方相邻的任务，如果都在排队或都已完成，会画成**一个区块**，份数相加（激光 ×8）。这只是队列的显示方式：任务仍然各自独立，每一个都和以前一样制造和领取。点击合并的区块可以展开成各个任务，再点一次收起。在已完成的一组上点**领取**，会依次交付其中的每个任务。
 
+**取消任务。** 正在进行或排队的任务，区块右侧有一个小小的**叉号**。按一下，按钮会问**确定取消？**；3 秒内再按一次，任务就被取消。**任务耗费的一切都会原样返还**：信用点和 Thulium，每种材料的每一个单位（按普通单位返还，和任何退款一样，所以不可交易），以及升级任务消耗掉的那件装备——作为**同一件装备**回来，强化等级、词条和可交易标记都和原来一样。没有手续费；只损失任务已经运行的时间。后面的任务会向前补位：取消正在进行的，下一个立刻开始；取消中间的，后面每个任务都提前它那么长的时间开始。时间已到的任务不能取消：请领取。在合并了多个任务的区块上，叉号会取消它们全部，并用一条提示说明一共返还了什么。队列里的飞船只是不会被制造，而 Master Drone 的升级或改装成设计，会放开无人机或飞船：两者都没被动过。取消会立刻腾出队列里的位置。
+
 **一次做多份。** 允许批量的配方卡片，在“组装”按钮上方有一个带 **−** 和 **+** 的**数量框**，以及 **×1**、**×5**、**×10** 和 **最大** 几个选项。输入任意数字后按**回车**即可组装，也可以用按钮或上下方向键调整；卡片会为每个配方记住你的数字。一批是**一个任务**，而不是好几个：它的耗时是配方时间乘以份数，只有一个计时器、队列里只占一个区块（比如标着 ×5），**一次领取就交付全部份数**。**所有**份数的费用，即信用点、Thulium 和材料，会**预先扣除，要么全部，要么一点也不扣**：如果你付不起每一份，就什么都不会扣，也不会排入队列。做不出来的数字不会被做：卡片会写出**最多 12（Power Core）**，并说明是什么限制了它（批量上限 25、你的信用点、你的 Thulium 或某种材料），回车只会把数字降到这个值，不会组装。付不起的选项会变灰，**最大**就是你现在付得起的份数，最多 25 份。多份时，卡片会显示总费用、总材料和总时间。一批会让你超过火箭携带上限的火箭，会被整批拒绝。
 
 **一次只做一个。** 舰船、Extra Slots CPU、装备的升级（用 Damage Amp III 升成 Damage Amp IV，用 Basic Shield Core 升成 Heavy Shield Core）和 Master Drone 的升级都没有批量选项：每一个都会消耗或安装你选定的那一件。你仍然可以把好几个排进队列，一个接一个。把舰船改装成[设计](/wiki/03-Mechanics/Ship-Designs.md)也是这样一个任务，它会自行完成：没有东西需要领取，**全部领取**也不会包含它。
@@ -89,7 +91,7 @@
 | 5. **永恒** | 4 | +9% 至 +15% | 0.01% |
 
 - 商店物品始终是标准等级。你在装配站制造的装备会在你领取时随机得到一个等级（见几率一列）。在此之上，等级可以在[锻造炉](/wiki/06-Items/Forge.md)中逐级提升；另一种途径是装配站的模块升级（Damage Amp IV、Crit Amp IV、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core、Engine II 和 III、Adaptive Core II 和 III、Quantum Laser III、Starfire-III、Helios Beam），它们沿用制作它们所用部件的等级。
-- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项（Quantum Laser I 和 II 为两项，因为它们自身没有暴击率），引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I、Repair Drone 或船体装甲有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.017 到 x1.03 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
+- 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项，引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I、Repair Drone 或船体装甲有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.017 到 x1.03 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
 - [锻造炉](/wiki/06-Items/Forge.md#buffs-by-tier)只按概率填上物品第一项加成之后的槽位：升级一定会给第一项加成，新等级开出的其他槽位各以 50% 的概率填上。所以一个等级最多能承载这么多项加成（神圣物品有一半的概率有两项）。
 - **射程**加成在任何等级都不会超过 +5%。
 - 与更高一级的物品相比，加成始终很小：加满的 Quantum Laser I 造成的伤害，仍然低于一把普通的 Quantum Laser II。
@@ -119,6 +121,6 @@
 - **Cloaking CPU**：用于战斗或逃跑的附加装置：Cloaking CPU 会让你的舰船保持隐形，直到你自己结束（S、M、L 分别为 10、25 和 50 次使用，价格 5,000、11,250 和 20,000 Thulium）。见[附加装置](/wiki/06-Items/Extras.md)。
 - **EMP Charge**：像火箭一样以堆叠方式携带的消耗品，不占用槽位（每次充能 500 Thulium，最多 20 个）：它会让你在 3 秒内无法被选为目标，打断所有对你的锁定并结束附近的所有隐形。见[火箭](/wiki/06-Items/Rockets.md#emp-charge)。
 - **Energetic Wall I 和 II**：同样是消耗品，以堆叠方式携带，不占用槽位：按下后会在光标处立起一道等离子墙，让射击打在墙上而不是你身上。I 在商店每道 250 Thulium（最多 20 道），II 在装配站制造，每次制造一道（最多 10 道）。见[附加装置](/wiki/06-Items/Extras.md#energetic-wall)。
-- **研究 CPU**：Extra Slots CPU 为每艘舰船增加附加槽位，Jump CPU 花费 Thulium 把你送到某个企业星区，Base CPU 把你送回基地，Auto-Repair CPU 自动放出你的 Repair Drone。它们不出售：先研究，再在装配站制造。见[附加装置](/wiki/06-Items/Extras.md#research-cpus)。
+- **研究 CPU**：Extra Slots CPU 为每艘舰船增加附加槽位，Jump CPU 花费 Thulium 把你送到某个企业星区，Base CPU 把你送回基地，Auto-Repair CPU 自动放出你的 Repair Drone，Auto-Rocket CPU 自动发射你的当前火箭。它们不出售：先研究，再在装配站制造。见[附加装置](/wiki/06-Items/Extras.md#research-cpus)。
 - **无人机编队**：十六种供你的无人机使用的物品，有加成也有代价，例如护盾更大但武器更弱。它们不出售：先研究，再到装配站用 Thulium 制作。参见[无人机编队](/wiki/03-Mechanics/Formations.md)。
 - **资源**：外星人掉落、Skylab 为制造而产出的东西：Ship Fragment、四种晶体、Power Core、Velkonite 和 Orvium 强化板，以及来自别处的两种：**Dark Matter**（[黑洞](/wiki/03-Mechanics/Black-Hole.md)会为一枚 N.I.K.E. 火箭回馈它）和装配站用它压制成的 **Dark Matter Plate**，用于每条升级链的最后一阶和[锻造炉](/wiki/06-Items/Forge.md)的最高两步。

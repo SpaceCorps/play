@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -11,14 +11,15 @@ Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (zwei auf Protos, K
 | **Cloaking CPU M** | Verbirgt dein Schiff | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Verbirgt dein Schiff | 50 | 20.000 Thulium |
 | **P.E.T. Station I bis III** | Ist sie AN, geben 2, 3 oder 5 angedockte [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) deinem Schiff Boosts, sammeln Erfahrung und arbeiten; ist sie AUS, tun sie nichts davon | AN / AUS | Montage, nach ihrer Erforschung (der Gegenstandsbaum unten) |
+| **Auto-Rocket CPU** | Ist sie AN, feuert sie deine aktive Rakete selbst auf das Ziel eines Kampfes | AN / AUS | Montage, nach ihrer Erforschung (der Gegenstandsbaum unten) |
 
 Die Cloaking CPUs gibt es nur im Shop. Sie lassen sich nicht zusammenführen, und nichts verschenkt sie. Die **EMP Charge** ist kein Extra mehr: Seit 0.4.21 ist sie ein Verbrauchsgut, das wie eine Rakete als Stapel getragen wird und in keinem Slot sitzt, sie belegt also keinen deiner Extra-Slots (siehe [Raketen](/wiki/06-Items/Rockets.md#emp-charge)). Die beiden **Energetic Walls** sind ebenfalls keine Extras mehr: Seit 0.4.22 sind auch sie Verbrauchsgüter, werden als Stapel getragen und sitzen in keinem Slot (siehe [Energetic Wall](#energetic-wall)).
 
 Das **Startpaket** eines neuen Piloten legt schon zwei Extras in die beiden Extra-Slots der Protos: eine **Base CPU I** (10 Nutzungen, ein Teleport zur Basis deines Konzerns) und eine **Repair Drone I**. Ziehe sie aus der Extras-Auswahl der Aktionsleiste auf einen Slot, um sie zu benutzen. Nur neue Piloten bekommen das Paket: Wer sich vor 0.4.10 angemeldet hat, hat es nicht.
 
-Sieben weitere CPUs werden nicht verkauft: Die Montage stellt sie her, sobald das Forschungszentrum des Skylab sie erforscht hat (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Es sind die Extra Slots CPU I, II und III, die Jump CPU, die Base CPU I und II und die Auto-Repair CPU, und [der letzte Abschnitt](#research-cpus) sagt, was jede tut. Wie die Cloaking CPU sind die Jump CPU und die Base CPUs etwas für einen ruhigen Moment: Keine der drei startet innerhalb von 10 Sekunden nach einem Schuss, den du abgibst, oder einem Treffer, den du einsteckst. Die beiden Warp-CPUs, die Jump CPU und die Base CPUs, werden außerdem verweigert, solange du einen Missionsgegenstand trägst („Mit einem Missionsgegenstand an Bord kannst du keine Warp-CPU benutzen.“): siehe [Missionsgegenstände](/wiki/03-Mechanics/Quests.md#quest-items).
+Acht weitere CPUs werden nicht verkauft: Die Montage stellt sie her, sobald das Forschungszentrum des Skylab sie erforscht hat (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Es sind die Extra Slots CPU I, II und III, die Jump CPU, die Base CPU I und II, die Auto-Repair CPU und die Auto-Rocket CPU, und [der letzte Abschnitt](#research-cpus) sagt, was jede tut. Wie die Cloaking CPU sind die Jump CPU und die Base CPUs etwas für einen ruhigen Moment: Keine der drei startet innerhalb von 10 Sekunden nach einem Schuss, den du abgibst, oder einem Treffer, den du einsteckst. Die beiden Warp-CPUs, die Jump CPU und die Base CPUs, werden außerdem verweigert, solange du einen Missionsgegenstand trägst („Mit einem Missionsgegenstand an Bord kannst du keine Warp-CPU benutzen.“): siehe [Missionsgegenstände](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Auf jedem Extra steht ein kurzes Kürzel auf seinem Slot der Aktionsleiste: **REP** für eine Repair Drone, **CLK** für eine Cloaking CPU und **ARP**, **BSE** und **JMP** für die Auto-Repair, die Base und die Jump CPU. Die Verbrauchsgüter haben ihre eigenen Kürzel: **EMP** und **WAL** (für eine Energetic Wall). Die drei **P.E.T. Station**-Gegenstände sind Extras wie die anderen, mit dem Kürzel **PET**: Rüste eine aus, und ihr Slot schaltet die Station **AN** oder **AUS** (eine Sekunde zwischen zwei Drücken) und zeigt, welches von beiden. Ist sie AN, zählen die angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md), ist sie AUS, zählen sie nicht. Zeige auf einen Slot, um zu lesen, was ein Druck gerade bewirkt oder warum er nichts bewirkt.
+Auf jedem Extra steht ein kurzes Kürzel auf seinem Slot der Aktionsleiste: **REP** für eine Repair Drone, **CLK** für eine Cloaking CPU und **ARP**, **ARL**, **BSE** und **JMP** für die Auto-Repair, die Auto-Rocket, die Base und die Jump CPU. Die Verbrauchsgüter haben ihre eigenen Kürzel: **EMP** und **WAL** (für eine Energetic Wall). Die drei **P.E.T. Station**-Gegenstände sind Extras wie die anderen, mit dem Kürzel **PET**: Rüste eine aus, und ihr Slot schaltet die Station **AN** oder **AUS** (eine Sekunde zwischen zwei Drücken) und zeigt, welches von beiden. Ist sie AN, zählen die angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md), ist sie AUS, zählen sie nicht. Die **Auto-Rocket CPU** wird genauso geschaltet, AN oder AUS. Zeige auf einen Slot, um zu lesen, was ein Druck gerade bewirkt oder warum er nichts bewirkt.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ Zwei der CPUs verlangen Dark Matter Plates, wie die letzte Stufe jeder Aufwertun
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 
 Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU dann in der Montage her. Zeige im Baum auf eine CPU, um zu sehen, was die Montage dafür verlangt.
 
@@ -148,6 +151,13 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 - **Was sie tut.** Sie schickt die Repair Drone aus deinen Extra-Slots von allein los, sobald du sie auch von Hand hättest losschicken können: Deine Hülle ist nicht voll, die Drohne ist nicht schon draußen und seit dem letzten Treffer sind 10 Sekunden vergangen. Eine Hüllengrenze musst du nicht einstellen.
 - Sie belegt einen eigenen Extra-Slot und tut nichts ohne eine Repair Drone in einem Extra-Slot derselben Konfiguration. Eine Repair Drone in einem Fähigkeits-Slot schickt sie nie los (das ist die Schaltfläche Emergency Repair).
 - **Stoppst du die Drohne von Hand,** lässt die CPU sie in Ruhe, bis deine Hülle wieder voll ist oder du die Drohne selbst losschickst.
+
+### Auto-Rocket CPU
+
+- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien oder einen feindlichen Piloten gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen.
+- **Der Schalter.** Rüste sie in einem Extra-Slot aus und drücke ihren ARL-Slot, um sie AN oder AUS zu schalten. Sie startet AUS und bleibt, wie du sie gelassen hast, auch wenn du dich neu anmeldest. Der Slot zeigt AN oder AUS und leuchtet auf, wenn die CPU feuert.
+- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie auf Asteroiden, nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
+- **Keine Raketen mehr.** Sie sagt es dir einmal und feuert wieder, sobald du mehr hast.
 
 
 <!-- research-cpus:end -->

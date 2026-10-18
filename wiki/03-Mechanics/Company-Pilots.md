@@ -11,7 +11,7 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
 - **Ship**: an [Ostirion](/wiki/02-Ships/Ostirion.md) with three **Quantum Laser II**, two **Light Shield Cores**, an **Engine I** and a **Repair Drone I**:
   - 48,000 hitpoints, 22,000 shield points, speed 202
   - absorbance 45%: their shields take 45% of each hit, the hull 55%
-  - 195 base damage per volley (x1 ammo), no critical chance, 700 range
+  - 195 base damage per volley (x1 ammo), 1% critical chance, 700 range
 - **On the minimap**: a green diamond for your company's pilots, an amber one for another company's.
 - **No rank**: the small symbol before a pilot's name in flight is the pilot's [rank](/wiki/03-Mechanics/Ranks.md) and belongs to real pilots. Company pilots have none, and they are not on your company's ladder. The Company page lists the real pilots of your company, best PvE points first, and a pilot's rank comes from his PvE points in that list and, for the six best ranks, from the places the company has.
 

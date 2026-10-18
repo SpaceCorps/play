@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50138d1e4d4865f8 -->
+<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
@@ -13,7 +13,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 - **Hajó**: egy [Ostirion](/wiki/02-Ships/Ostirion.md) három **Quantum Laser II** lézerrel, két **Light Shield Core** pajzzsal, egy **Engine I** hajtóművel és egy **Repair Drone I**-gyel:
   - 48 000 életerő, 22 000 pajzspont, sebesség: 202
   - elnyelés 45%: a pajzsaik minden találat 45%-át fogják fel, a hajótest pedig az 55%-át
-  - sortűzenként 195 alapsebzés (x1 lőszer), nincs kritikus esély, hatótáv: 700
+  - sortűzenként 195 alapsebzés (x1 lőszer), 1% kritikus esély, hatótáv: 700
 - **A minitérképen**: zöld rombusz a saját vállalatod pilótáinak, borostyánsárga egy másik vállalatéinak.
 - **Nincs rang**: a pilóta neve előtti kis jel repülés közben a pilóta [rangja](/wiki/03-Mechanics/Ranks.md), és valódi pilótáké. A vállalati pilótáknak nincs, és nincsenek rajta a vállalatod ranglistáján. A Vállalat oldal a vállalatod valódi pilótáit sorolja fel, elöl a legtöbb PvE-ponttal rendelkezőkkel, és a pilóta rangja a listán szereplő PvE-pontjaiból, a hat legjobb rangnál pedig a vállalat helyeiből adódik.
 

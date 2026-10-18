@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 23cc4f287c986228 -->
+<!-- wiki-i18n source: b0565aa73db7dfa1 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -51,15 +51,15 @@ Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
 
 | 이름 | 희귀도 | 기본 피해량 | 치명타 확률 | 사거리 | 증폭기 슬롯 | 비용 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser I** | 하급 | 55 | – | 600 | 1 | 8,000 크레딧 |
-| **Quantum Laser II** | 일반 | 65 | – | 700 | 2 | 80,000 크레딧 |
+| **Quantum Laser I** | 하급 | 55 | 1% | 600 | 1 | 8,000 크레딧 |
+| **Quantum Laser II** | 일반 | 65 | 1% | 700 | 2 | 80,000 크레딧 |
 | **Quantum Laser III** | 희귀 | 80 | 10% | 800 | 3 | 제작 전용 |
 | **Starfire-III** | 신화 | 135 | 15% | 850 | 3 | 제작 전용 |
 | **Helios Beam** | 신화 | 185 | 25% | 900 | 3 | 제작 전용 |
 
 사거리 열은 각 레이저의 고유 사거리입니다. **함선은 장착한 레이저 사거리의 평균**(드론에 장착한 레이저도 포함)을 가장 가까운 정수로 반올림한 거리에서 사격하며, 대상이 그 거리 안에 들어오면 모든 레이저가 사격합니다. Starfire-III 한 개와 Quantum Laser II 두 개를 함께 쓰면 함선의 사거리는 850이 아니라 750이고, Starfire-III 세 개면 850이 유지되며, 레이저가 모두 같으면 달라지는 것이 없습니다. 대장간의 사거리 보너스는 평균을 내기 전에 해당 레이저에 먼저 적용됩니다. 레이저가 없으면 격납고에는 사거리가 표시되지 않고(줄표로 나옵니다) 레이저는 사격할 수 없지만, 로켓은 여전히 각자의 사거리로 발사할 수 있습니다([로켓](/wiki/06-Items/Rockets.md) 참고). 격납고에서는 레이저들의 사거리가 서로 다르면 타일에 “평균 사거리”라고 표시되며, 마우스를 올리면 각 레이저의 사거리가 나열됩니다.
 
-Quantum Laser I, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯에 Damage Amp나 Crit Amp를 넣어야 치명타 확률이 생깁니다(Penetration Amp는 아닙니다). 치명타는 떠오르는 피해 숫자에서 다른 색으로 표시됩니다(얼음빛 하늘색에 더 크게, “!”가 붙습니다. [피해와 회복 숫자](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers) 참고).
+Quantum Laser I, 2에는 고유 치명타 확률이 1% 있으며, 슬롯에 Damage Amp나 Crit Amp를 넣으면 치명타 확률이 더해집니다(Penetration Amp는 아닙니다). 치명타는 떠오르는 피해 숫자에서 다른 색으로 표시됩니다(얼음빛 하늘색에 더 크게, “!”가 붙습니다. [피해와 회복 숫자](/wiki/03-Mechanics/Combat.md#damage-and-heal-numbers) 참고).
 
 레이저도 [소행성](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)에 피해를 주지만, 일제 사격이 함선에 주는 피해의 5%뿐입니다(증폭기, 부스터, 탄약, 치명타가 반영되고 그다음 소행성의 장갑이 차감되며, Siphon Battery는 소행성에 피해를 줄 수 없습니다). 소행성을 부수는 데 맞는 도구는 로켓입니다.
 
@@ -75,11 +75,11 @@ Quantum Laser I, 2에는 고유 치명타 확률이 없으며(“–”), 슬롯
 
 어셈블리 페이지에는 제작법에 필요한 양과 보유량이 나란히 표시되며, 조립 버튼에는 부족한 것이 표시됩니다. 레시피의 이미지나 이름, 또는 재료에 마우스를 올리면 아이템의 전체 설명과 능력치가 표시됩니다.
 
-**Quantum Laser III는 Quantum Laser II를 재료로 만듭니다.** Quantum Laser II는 상점에서 파는 레이저(80,000 크레딧)입니다. Quantum Laser III는 그것을 소모하므로, 제작법의 Ship Fragment 10개, Velkonite Reinforced Plate 3개, 1,500 Thulium은 상점에서 치른 Quantum Laser II에 더해집니다. 규칙은 아래에 나오는 Starfire-III의 규칙과 같습니다. Quantum Laser III는 소모한 Quantum Laser II의 인챈트 등급을 이어받고(신성한 Quantum Laser II로는 신성한 Quantum Laser III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser II를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser II는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser II 해제”라고 표시됩니다.
+**Quantum Laser III는 Quantum Laser II를 재료로 만듭니다.** Quantum Laser II는 상점에서 파는 레이저(80,000 크레딧)입니다. Quantum Laser III는 그것을 소모하므로, 제작법의 Ship Fragment 10개, Velkonite Reinforced Plate 3개, 1,500 Thulium은 상점에서 치른 Quantum Laser II에 더해집니다. 규칙은 아래에 나오는 Starfire-III의 규칙과 같습니다. Quantum Laser III는 소모한 Quantum Laser II의 인챈트 등급과 보너스를 이어받고(신성한 Quantum Laser II로는 같은 보너스를 가진 신성한 Quantum Laser III가 만들어집니다), 어느 Quantum Laser II를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser II는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser II 해제”라고 표시됩니다.
 
-**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 11개, Reinforced Hull Plate 1개, 그리고 2분에, Quantum Laser III가 소모하는 Quantum Laser II를 더한 것입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급을 이어받고(신성한 Quantum Laser III로는 신성한 Starfire-III가 만들어집니다) 보너스는 다시 굴리며, 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
+**Starfire-III는 Quantum Laser III를 재료로 만듭니다.** 먼저 Quantum Laser III를 만들고, Starfire-III가 그것을 소모합니다. Quantum Laser III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 3,000 Thulium, 100,000 크레딧, Ship Fragment 25개, Velkonite Reinforced Plate 11개, Reinforced Hull Plate 1개, 그리고 2분에, Quantum Laser III가 소모하는 Quantum Laser II를 더한 것입니다. 이미 Quantum Laser III가 있다면 Starfire-III 자체의 몫만 치르면 됩니다. 규칙은 아래에 나오는 Helios Beam의 규칙과 같습니다. Starfire-III는 소모한 Quantum Laser III의 인챈트 등급과 보너스를 이어받고(신성한 Quantum Laser III로는 같은 보너스를 가진 신성한 Starfire-III가 만들어집니다), 어느 Quantum Laser III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻고, Quantum Laser III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Quantum Laser III 해제”라고 표시됩니다.
 
-**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧. Quantum Laser III는 Quantum Laser II를 소모합니다), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 11장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 4개와 Ancient Control Unit 1개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개, 그리고 계열 맨 앞의 Quantum Laser II 1개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급을 이어받고(신성한 Starfire-III로는 신성한 Helios Beam이 만들어집니다) 보너스는 다시 굴리며, 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
+**Helios Beam은 Starfire-III를 재료로 만듭니다.** 먼저 Starfire-III를 만들고(재료인 Quantum Laser III까지 합쳐 3,000 Thulium, 100,000 크레딧. Quantum Laser III는 Quantum Laser II를 소모합니다), Helios Beam이 그것을 소모합니다. [Master Drone](/wiki/06-Items/Drones.md)이 Slave Drone을 소모하는 것과 같습니다. Starfire-III에 이미 들어간 것은 다시 요구되지 않으므로, 둘을 합친 비용은 Helios Beam이 단독으로 요구하던 5,000 Thulium, Cataclysite, Power Core, Reinforced Hull Plate에, Orvium 플레이트 20장 대신 18장(Starfire-III의 Velkonite 플레이트 11장이 부족한 2장을 대신합니다)을 더하고, Helios Beam은 계열의 마지막 티어이므로 Dark Matter Plate 4개와 Ancient Control Unit 1개도 더한 것입니다. 이 밖에 치르는 것은 Starfire-III의 100,000 크레딧과 Ship Fragment 25개, 그리고 계열 맨 앞의 Quantum Laser II 1개입니다. 규칙은 [모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)와 같습니다. Helios Beam은 소모한 Starfire-III의 인챈트 등급과 보너스를 이어받고(신성한 Starfire-III로는 같은 보너스를 가진 신성한 Helios Beam이 만들어집니다), 여러 개를 보유하면 어느 Starfire-III를 쓸지 직접 고르고, 표준보다 높은 등급을 쓰기 전에는 카드가 먼저 묻습니다. Starfire-III는 장착되지 않은 상태여야 합니다. **먼저 함선에서 떼어 내세요**(장착한 증폭기는 인벤토리로 돌아갑니다). 수송 보관함에서도 꺼내야 합니다. 함선에 장착되어 있으면 조립 버튼에 “먼저 Starfire-III 해제”라고 표시됩니다.
 
 플레이트의 출처는 다음과 같습니다.
 
@@ -115,7 +115,7 @@ Ship Fragment, Cataclysite, Power Core, Reinforced Hull Plate는 외계인이 �
 | **Penetration Amp III** | 희귀 | +9% | 제작 전용 |
 | **Penetration Amp IV** | 영웅 | +12% | 제작 전용 |
 
-**각 계열의 첫 티어만 팝니다**, 상점에서. 나머지 셋은 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 한 티어 아래의 증폭기로 만들며, 먼저 Skylab에서 그 기술을 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). 각 단계에는 Thulium, 외계인 드롭, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate, 티어 IV에는 Dark Matter Plate 4개와 Ancient Control Unit 1개)가 들고, 새 증폭기는 소모한 증폭기의 인챈트 등급을 이어받으며 보너스는 다시 굴립니다([어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration 단계에는 결정 렌즈가 더해집니다. 티어 IV 증폭기는 어느 것이나 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 4개를 요구하므로(다른 강화 계열의 마지막 티어도 마찬가지입니다), 티어 IV 증폭기의 기술은 먼저 그 플레이트의 기술을 요구합니다.
+**각 계열의 첫 티어만 팝니다**, 상점에서. 나머지 셋은 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 한 티어 아래의 증폭기로 만들며, 먼저 Skylab에서 그 기술을 연구해야 합니다([연구](/wiki/03-Mechanics/Research.md)). 각 단계에는 Thulium, 외계인 드롭, 플레이트(티어 II와 III에는 Skylab에서 만든 Velkonite Reinforced Plate, 티어 IV에는 Dark Matter Plate 4개와 Ancient Control Unit 1개)가 들고, 새 증폭기는 소모한 증폭기의 인챈트 등급과 보너스를 이어받습니다([어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration 단계에는 결정 렌즈가 더해집니다. 티어 IV 증폭기는 어느 것이나 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 4개를 요구하므로(다른 강화 계열의 마지막 티어도 마찬가지입니다), 티어 IV 증폭기의 기술은 먼저 그 플레이트의 기술을 요구합니다.
 
 | 단계 | Thulium | 시간 | 한 티어 아래 증폭기에 더해 |
 | :--- | ---: | ---: | :--- |
@@ -195,11 +195,11 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 | Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
 | Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
 | 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 34레벨(95.4%) | 95 / 5 | 85 / 15 | 69 / 31 | 49 / 51 | 33 / 67 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 44레벨(96.4%) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
 | 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
 | 모든 외계인(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
 
-최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 3%를 지키고, 가장 좋은 실드는 18%를 지킵니다(버프가 있으면 33%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(51%) 비울 수 있습니다.
+최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 3%를 지키고, 가장 좋은 실드는 18%를 지킵니다(버프가 있으면 34%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(51%) 비울 수 있습니다.
 
 ### Penetration Amp는 언제 슬롯을 쓸 만한가? {#when-is-a-penetration-amp-worth-a-slot}
 

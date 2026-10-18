@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Dev ekskavatör -->
 # Dev ekskavatör {#giant-excavator}
 
@@ -32,7 +32,7 @@
 2. **Paneli aç.** Etikete tıkla. **Dev ekskavatör** paneli, gemin ekskavatöre panelin menzili içinde olduğu sürece çalışır (menzil *Bir bakışta* listesinde yazar). Gizlenmiş bir gemi kullanabilir ve kullanmak gizlenmeyi bitirmez.
 3. **Yakıt koy.** **Dark Matter ekle** kargondan depoya bir Dark Matter koyar. Herkes yapabilir. Depo, ekskavatörün aşırı ısınmadan önce yakabileceğinden fazlasını almaz; bu yüzden hiç yakıt boşa gitmez.
 4. **Neyin kazılacağını** listeden seç, sonra **Kazıyı başlat** düğmesine bas. Depoda en az bir Dark Matter ve bir kaynak gerekir. Herkes seçimi başlangıca kadar ve çalışırken de değiştirebilir (aşağıdaki *Kaynağı değiştirmek* bölümüne bak). Başlangıç dünyadaki her pilota duyurulur; seni, sektörü ve kaynağı adıyla söyler.
-5. **Ekskavatörü tut.** Kazarken ekskavatörün çevresine birkaç saniyede bir kutu bırakılır ve ilk Slumbering Void uzaylıları başlangıçtan kısa süre sonra gelir. Pulsardan ekskavatörün matkabına bir ışık akışı akar; yıldızın jetlerinden biri geçtiğinde yükselir, aşırı ısınmadan önceki son dakikada titreyip dağılır ve makine dinlendiğinde durur. Ekskavatörü savun ve kutuları topla.
+5. **Ekskavatörü tut.** Kazarken ekskavatörün çevresine birkaç saniyede bir kutu bırakılır ve ilk Slumbering Void uzaylıları başlangıçtan kısa süre sonra gelir. Pulsardan ekskavatörün matkabına bir ışık akışı akar; yıldızın atışıyla, 4 saniyede bir yükselir, aşırı ısınmadan önceki son dakikada titreyip dağılır ve makine dinlendiğinde durur. Ekskavatörü savun ve kutuları topla.
 6. **Isıyı izle.** Isı çubuğu ekskavatör kazarken dolar ve beklerken asla boşalmaz. Sınırında ekskavatör aşırı ısınır. Öncesinde ayrıl: oyun haritayı iki kez uyarır.
 7. **Dinlenir.** Aşırı ısınmış ya da yok edilmiş ekskavatör ile pulsarı, dinlenme bitene kadar radyasyonla kaplanır; sonra ısısı sıfırlanmış ve gövdesi dolu olarak yeniden hazırdır.
 
@@ -58,7 +58,7 @@ Yakıt sınıra ulaşılmadan biterse ekskavatör ısısı korunarak **Hazır** 
 
 ## Ne kazar {#what-it-mines}
 
-Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutu herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir.
+Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutunun içindekiler herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir. Ama bir kutudan aldığın değişebilir: Pilot araştırması Excavator Mining’in ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her seviyesi, topladığın Thulium’u ve cevheri toplamda %20, %30 ya da %40 artırır, aşağı yuvarlanarak.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

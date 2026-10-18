@@ -16,7 +16,7 @@ O leilão é o mercado dos pilotos e, ao mesmo tempo, os lotes de cada hora do p
 - Você precisa do **nível 5** para usar o leilão: para anunciar, comprar e dar lances.
 - Um anúncio tem preço por lote, em créditos inteiros ou em Thulium inteiro (não os dois), e nunca abaixo do preço mínimo do item. **Não existe preço máximo.**
 - Um preço em Thulium é, no mínimo, o preço mínimo em créditos dividido pela taxa (1.000), arredondado para cima, e só para os itens cujo preço mínimo chega a 1 Thulium ou mais. É só isso que a taxa faz: **1 Thulium = 1.000 créditos é uma regra para o preço mínimo, não uma taxa de câmbio.** Nada é trocado, nenhum valor é mostrado, e créditos e Thulium nunca são somados.
-- 83 itens podem ser anunciados, e 82 deles também podem ter preço em Thulium.
+- 84 itens podem ser anunciados, e 83 deles também podem ter preço em Thulium.
 - Um anúncio dura 168 / 336 / 504 horas, à sua escolha: as opções são as mesmas em todos os níveis.
 - O **depósito** é de 0,25% do preço para cada 24 horas de duração do anúncio, com mínimo de 50 créditos ou 1 Thulium. Você paga ao anunciar; ele nunca é devolvido, nem se você cancelar o anúncio.
 - A partir do nível 10, o depósito é de 0,4%.
@@ -57,7 +57,7 @@ Quando o Leilão chegou (0.4.12), o equipamento que você já tinha e que a Loja
 | **Munição de laser** | Standard Battery (em lotes de 100), Siphon Battery (em lotes de 10), Advanced Plasma (em lotes de 10), Ultra Core (em lotes de 10), Experimental Fusion Core | 5 |
 | **Foguetes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consumíveis** | EMP Charge, Energetic Wall II | 2 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
 | **Blindagem de casco** | Hull Plating II, Hull Plating III | 2 |
 | **Recursos** | Cataclysite (em lotes de 100), Ship Fragment (em lotes de 100), Daraxium (em lotes de 100), Nyxite (em lotes de 100), Quorvium (em lotes de 10), Reinforced Hull Plate (em lotes de 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 

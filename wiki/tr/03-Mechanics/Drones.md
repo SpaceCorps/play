@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Dronlar -->
 # Dron mekaniği {#drone-mechanics}
 
@@ -92,7 +92,7 @@ Eğri öyle ayarlanmıştır ki yeni bir dron normal oyunda (Bulwark ve Goombah 
 
 ### Master Drone
 
-Master Drone teknolojisi araştırıldıktan sonra ([Araştırma](/wiki/03-Mechanics/Research.md)), Montaj’da yükselttiğin bir Slave Drone **Master Drone** hâline gelir. Tarif 50.000 Thulium, 250 Ship Fragment ve 20 Dark Matter plakası tutar, 60 saniye sürer ve bir dronu tüketmez: **hangi Slave Drone olacağını sen seçersin** (seçici her birinin seviyesini ve XP’sini gösterir) ve aynı dron, numarası, dron yuvası ve içine takılı her şeyle, iş bittiğinde boş bir ikinci yuvayla birlikte Master Drone hâline gelir. Envanterine hiçbir şey girmez ve toplanacak bir şey yoktur: bittiğinde Oyun Günlüğü bunu söyler; sen yokken biten bir yükseltme için de.
+Master Drone teknolojisi araştırıldıktan sonra ([Araştırma](/wiki/03-Mechanics/Research.md)), Montaj’da yükselttiğin bir Slave Drone **Master Drone** hâline gelir. Tarif 1.000.000 kredi, 50.000 Thulium, 250 Ship Fragment, 10 Dark Matter plakası, 5 Orvium Reinforced Plate, 5 Velkonite Reinforced Plate ve 2 Ancient Control Unit tutar, 60 saniye sürer ve bir dronu tüketmez: **hangi Slave Drone olacağını sen seçersin** (seçici her birinin seviyesini ve XP’sini gösterir) ve aynı dron, numarası, dron yuvası ve içine takılı her şeyle, iş bittiğinde boş bir ikinci yuvayla birlikte Master Drone hâline gelir. Envanterine hiçbir şey girmez ve toplanacak bir şey yoktur: bittiğinde Oyun Günlüğü bunu söyler; sen yokken biten bir yükseltme için de.
 
 **Seviyesi ve XP’si, yükseltme bittiğinde 0’a sıfırlanır.** Bir Master Drone yeniden 1. seviyeden, hiç XP’si olmadan başlar ve bir Slave Drone gibi seviye atlar (yukarıdaki tablo); sahip olduğu seviyenin lazer bonusu da onunla gider. Montaj bunu sen başlamadan önce söyler ve dronun XP’si varsa, dronun adını vererek onay ister. Varsayılan seçim en az XP’si olan drondur.
 

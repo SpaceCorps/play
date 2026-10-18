@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Framdrivning -->
 # Framdrivning och fart {#propulsion-speed}
 
@@ -47,7 +47,7 @@ Motorer är skeppets främsta källa till framdrivning. En motor i en **förmåg
 | **Engine II** | Vanlig | +4 | +4 % | −8 % | 2 | Afterburner II | Kan bara tillverkas |
 | **Engine III** | Sällsynt | +6 | +5 % | −15 % | 3 | Afterburner III | Kan bara tillverkas |
 
-**Engine II** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Engine I, med 2 000 Thulium, 60 Ship Fragments, 1 Power Core och 4 Velkonite Reinforced Plates. **Engine III** tillverkas där av en Engine II, med 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Var och en behåller förtrollningsnivån hos den motor den förbrukar, och dess bonusar slumpas på nytt ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av motorn som ska förbrukas från ditt skepp (och ta ut dess styrraketer ur den): en motor som sitter på ett skepp eller bär styrraketer förbrukas inte.
+**Engine II** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Engine I, med 2 000 Thulium, 60 Ship Fragments, 1 Power Core och 4 Velkonite Reinforced Plates. **Engine III** tillverkas där av en Engine II, med 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Var och en behåller förtrollningsnivån och bonusarna hos den motor den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av motorn som ska förbrukas från ditt skepp (och ta ut dess styrraketer ur den): en motor som sitter på ett skepp eller bär styrraketer förbrukas inte.
 
 Motorernas sköldbonus finns i föremålsdatan, men spelet har aldrig tillämpat den: motorer försvagar inte dina sköldar, och föremålskorten utelämnar den.
 
@@ -86,7 +86,7 @@ Impulse ger mer fast fart, Momentum multiplicerar mer, så vilken familj som är
 
 En bonus på en styrrakets fartmultiplikator från [Smedjan](/wiki/06-Items/Forge.md) ökar delen över 1 (en bonus på +15 % på ×1,0935 ger ×1,1075), och Smedjan slumpar ingen bonus på en multiplikator på ×1,05 eller lägre: på en Impulse Thrusters ×1,017 till ×1,02975 skulle den ge under 0,005 (+15 % på ×1,02975 ger ×1,034). En Impulse Thruster rymmer en bonus (sin fasta fart), en Momentum Thruster två.
 
-Nivå I i varje familj säljs för 20 000 krediter. Nivå II till IV tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules), var och en av styrraketen i samma familj en nivå under (en Impulse Thruster II av en Impulse Thruster I, en III av en II, en IV av en III), med Thulium, byte och plåtar: 4 Velkonite Reinforced Plates från din Skylab för nivå II eller III, och 4 Dark Matter Plates och en Ancient Control Unit för nivå IV. En styrraket byter aldrig familj: du väljer Impulse eller Momentum när du köper nivå I. Var och en behåller förtrollningsnivån hos den styrraket den förbrukar, och dess bonusar slumpas på nytt ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Styrraketer passar inte i en [förmågeplats](/wiki/03-Mechanics/Abilities.md); de hör hemma inuti motorer och adaptiva kärnor.
+Nivå I i varje familj säljs för 20 000 krediter. Nivå II till IV tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules), var och en av styrraketen i samma familj en nivå under (en Impulse Thruster II av en Impulse Thruster I, en III av en II, en IV av en III), med Thulium, byte och plåtar: 4 Velkonite Reinforced Plates från din Skylab för nivå II eller III, och 4 Dark Matter Plates och en Ancient Control Unit för nivå IV. En styrraket byter aldrig familj: du väljer Impulse eller Momentum när du köper nivå I. Var och en behåller förtrollningsnivån och bonusarna hos den styrraket den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Styrraketer passar inte i en [förmågeplats](/wiki/03-Mechanics/Abilities.md); de hör hemma inuti motorer och adaptiva kärnor.
 
 ### Köra ifrån utomjordingar {#outrunning-aliens}
 

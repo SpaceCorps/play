@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.22"
-date: "2026-10-15"
+version: "0.4.23"
+date: "2026-10-18"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 159848417
-    sha256: "46f1ee1d292a7bd266c5d4cd6d9cb1633b04de2ed1f54f62a9c0423cbc435e16"
+    size: 160400193
+    sha256: "34b8a4955943d5b9c08056c9d24988af2cfbcec7e2baf21f1e037b1fd087a88c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 154507599
-    sha256: "d08705e83d33740ad1666982e66b2cd6a68800a8d1798481ace3e91c6b736f71"
+    size: 154984423
+    sha256: "60b13e513222be1198bfdb13072200e35a7594e1a8f78bfa1da1e1469a23e63c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 149109240
-    sha256: "a86e3cca84483f951d90d88a8c335b66817cc42e26ba5890f1bcd40b50ee9d77"
+    size: 149596664
+    sha256: "b16c912f80e1fd76773d463b55b9bab5e350a74705748e9fffbb08e32daa412d"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 155314030
-    sha256: "f72b2f592a0d3e09530a42d16743fc54217dfb300f7feb17df679a3d791c7f28"
+    size: 155792261
+    sha256: "4ec9b2e53b8d4799c02ab08baa92f26adcbea22f75dc5fd0cc2795757ed6d1cb"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.22)
+## Downloads (Version 0.4.23)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (159.8 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `46f1ee1d292a7bd266c5d4cd6d9cb1633b04de2ed1f54f62a9c0423cbc435e16` |
-| **Windows** | x86_64 | `.zip` (154.5 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `d08705e83d33740ad1666982e66b2cd6a68800a8d1798481ace3e91c6b736f71` |
-| **Linux** | x86_64 | `.AppImage` (149.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `a86e3cca84483f951d90d88a8c335b66817cc42e26ba5890f1bcd40b50ee9d77` |
-| **Linux** | x86_64 | `.tar.gz` (155.3 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `f72b2f592a0d3e09530a42d16743fc54217dfb300f7feb17df679a3d791c7f28` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (160.4 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `34b8a4955943d5b9c08056c9d24988af2cfbcec7e2baf21f1e037b1fd087a88c` |
+| **Windows** | x86_64 | `.zip` (155.0 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `60b13e513222be1198bfdb13072200e35a7594e1a8f78bfa1da1e1469a23e63c` |
+| **Linux** | x86_64 | `.AppImage` (149.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `b16c912f80e1fd76773d463b55b9bab5e350a74705748e9fffbb08e32daa412d` |
+| **Linux** | x86_64 | `.tar.gz` (155.8 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `4ec9b2e53b8d4799c02ab08baa92f26adcbea22f75dc5fd0cc2795757ed6d1cb` |
 <!-- /release:downloads -->
 
 ---
@@ -72,113 +72,111 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.22 · 2026-10-15
+### 0.4.23 · 2026-10-18
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.22)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.23)
 
-SpaceCorps 2027 0.4.22 adds Turkish as the 13th language, makes the P.E.T. Station an Extra with an ON and OFF switch (your P.E.T.s are silent until one is fitted and ON) and the Energetic Wall a consumable like the EMP Charge, lets a group hold ten pilots, sends a Crystalys with every Clan Warden's waves and puts every Warden after the pilot who hit it, fixes the Group window, the research queue and the Skylab's camera, and should fix the Windows 11 icon and alt-tab.
+SpaceCorps 2027 0.4.23 redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU, lets you cancel a queued craft for a full refund, use items by clicking the hotbar's pop-ups and equip a whole selection at once, stops pilots at asteroids, keeps an upgrade's buffs, gives the Quantum Laser I and II a 1 % critical chance, and changes three prices: the Master Drone costs more, the Credit Farm makes three times as much and the Challenge line pays more.
 
 #### What's new
 
 **Highlights**
-- **Turkish (Türkçe) is the 13th language:** the whole interface and all 61 wiki articles. It was written by AI and **no native speaker has read it yet**: tell us what reads wrong.
-- **The P.E.T. Station is an Extra.** Fit it in an Extras slot and switch it ON or OFF with its PET slot on the hotbar. **Your P.E.T.s are silent until a Station is fitted and ON:** fit one after the update (if you had a Station, each ship you own got one). It is a docking ring on your hull; the ten P.E.T.s are small animated drones.
-- **The Energetic Wall is a consumable** like the EMP Charge: a stack of up to 20 Wall I and 10 Wall II, one spent for each wall that stands. Your fitted and loose walls became one stack per level.
-- **A group holds ten pilots,** up from five.
-- **All nine Clan Wardens** send a Crystalys with each wave once under half their hull and fly at the pilot who hit them. **They are harder:** a Recruit Warden's best-case crew on x-2 grows from 28, 21 and 27 pilots to 43, 39 and 44.
-- **The Daily Clan Quest resets at 00:00 UTC** for every clan, and so do the daily bonus and the Warden of the day.
-- **Private messages:** `/m name text` (also `/msg` and `/w`), `/r text` answers.
-- **Inventory:** drag a rectangle over empty space to select several items; a trash button deletes the selection after one question.
-- **Skylab:** a better station view with a Labels switch; the Research tree scrolls to your pick and takes the arrow keys; the queue takes the Dark Matter of the whole queue; Solar makes 505 to 525 more power at levels 11 to 14.
-- **The Ammo Printer and the Rocket Factory** stand on their pads. **The pulsar** is seen from anywhere on its map. **The Swamp's turret rockets** are 25 % faster and fly twice as far.
-- **The Target window** shows an asteroid's tier and the chances of P.E.T. parts. **Davidski's stock** stands among the Auction's listings.
-- **Smaller:** icon-only hotbar and Auction chips, the Shop's "Are you sure?" above ten, the clan on a Warden's kill feed line, a backup route to the server, fixes that should repair the Windows 11 icon and alt-tab, steadier Group window rows and six quiet sounds.
+- **A new look: islands.** A sidebar that folds to an icon rail, the page's own tabs in a second header row, each page on a floating island, the chat and the flight windows too. It is new and large: **18 pages** are redrawn. The pages, tabs and buttons are the same ones.
+- **Pilot research: 19 technologies** that make *you* stronger for good: +5,000 to +15,000 hull on every ship, +25 % to +200 % on the rockets you may carry, +20 % to +40 % from a giant excavator's boxes, +2 to +5 points of shield absorption, and Dormant Knowledge (50 Wipe Points each). **24,150,000 Credits, 241,500 Thulium and 335 Dark Matter** for the lot.
+- **Asteroids are solid.** Ships go round them or stop at the edge, turn to the rock they fire at, and a straight rocket flies to your cursor.
+- **Cancel a queued craft** (Production Queue, P.E.T. Cradle): **everything comes back, no fee,** the piece as it was.
+- **An upgrade keeps its buffs:** a Godly Damage Amp III makes a Godly IV with the same buffs.
+- **Click an item in a hotbar pop-up to use it.** **Equip a whole selection** in the Hangar, by drag or with one button.
+- **The Auto-Rocket CPU** fires your armed rocket in a fight while it is ON. **It starts OFF.**
+- **Three prices moved:** the **Master Drone** takes 1,000,000 Credits, 5 Orvium and 5 Velkonite Reinforced Plates, 2 Ancient Control Units and 10 Dark Matter Plates (it was 20); the **Credit Farm makes three times as much** (225,000 an hour at level 20); **Challenge tier IV pays double** (tier V follows) and a claim may pay 200,000 Thulium.
+- **The Quantum Laser I and II have a 1 % critical chance,** so the Forge can roll a crit buff on them.
+- **A much smaller stream, no cut-off on a slow line:** **98 % less data** for a 0.4.23 game (**35 to 53 %** for a 0.4.22 one), and a slow connection gets **fewer updates, not a disconnect** (a 0.4.22 game's world can still lag).
+- **Smaller:** guns that fire in series, a steadier pulsar, rock under the Excavator and the turrets, six quiet sounds, named credit sinks in Admin, and two games on one account that stop taking each other's messages.
 
 **If you already play: what changes for you**
-- **Update the game.** A 0.4.14 to 0.4.21 game installs it as a patch when the job made one for it (a Linux AppImage game from 0.4.19), and downloads the whole package if not. A 0.4.13 or older game downloads the whole package.
-- **A 0.4.21 game keeps working but misses the new screens:** its wall slot shows an infinity mark for your count, it has no PET slot (it can fit a Station but not switch it OFF), and a private message is an English line in its System tab. **The rules change on the server at once.**
-- **Your P.E.T.s are silent until a Station is fitted and ON.** If you had a Station you got an item of its level for each ship you own, loose in the inventory; with every Extras slot full, unfit something.
-- **Nothing you own is taken.** Your Energetic Walls became one stack of each level. **A wall stack is lost at the wipe unless it is in the Transport Cache** (a wall fitted on your active ship survived it in 0.4.21).
-- **The Wardens are harder,** and the clan day is shorter or longer once, at the update (below). New texts in other languages have had no native review.
+- **Update the game.** A 0.4.15 to 0.4.22 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.20), else the whole package; a 0.4.14 or older game downloads the whole package.
+- **There is nothing you have to do,** except one thing: **the Auto-Rocket CPU is OFF** until you fit it and press its ARL slot.
+- **A 0.4.22 game keeps working but misses the new screens:** no Pilot technologies listed (the server counts them), no cancel cross, no Auto-Rocket switch ("Update the game to use the Auto-Rocket CPU."), the old rocket limits printed. **The rules change on the server at once,** and so do the smaller stream and the slow-line rule.
+- **Your things change in six places:** a Master Drone queued before the update cannot be cancelled; your first Credit Farm collection pays up to 72 hours at the new rate; upgrades keep buffs; Quantum Laser I and II have 1 % crit; pilots stop at rocks; a Challenge claim pays the new numbers.
+- **The Wardens: almost no change.** 1 % crit makes Quantum Laser pilots do about 0.5 % more damage. With x2 ammo each Warden fight is 0.4 to 2.9 % shorter in the clans model (2 to 20 seconds) and **no Warden's smallest crew changes** (17 to 26 pilots; the Siege Warden III stays at 22). The owner decided to ship it, watch and tune later.
+- **New texts in other languages have had no native review.**
 
-**Turkish**
-- **`tr`, Türkçe,** is a language of its own in the language menu of the sign-in screens and in Settings > General > Interface Language; a computer set to Turkish starts the game in it.
-- **All of it:** 8,288 messages (the same as English and every other language), the Help cards, the server's texts and the 61 wiki articles with their generated tables. The game's word list is written down in `docs/design/turkish-terms.md`; item, ship, alien and company names stay English, as in every language.
-- **The register is informal (sen)** and the percent sign comes before the number (`%50`, `-%25 temel gövde`).
-- **How it was made:** written by AI from the English, checked by tests (every message has its placeholders, no English is left, the Turkish letters and the dotted and dotless I are held) and by looking at screenshots. **A native speaker has not read it.** The places the writers were unsure of are listed for a proofreader in `docs/design/turkish-doubts.md`.
+**The island look**
+- **A sidebar, a header, an island.** The sidebar is **212 points wide** by default: drag its edge between 168 and 320, or fold it to a **56-point icon rail** (a click on the edge or the fold button; each way has a quiet sound of its own). A window narrower than 1,100 points starts with the rail, one narrower than 720 always has it. What you choose is kept in your account's settings, so it follows you to another computer.
+- **The header** has the page's name and subtitle, your Premium state, Credits, Thulium, honor, sector and Launch; a **second row** holds the page's own tabs and actions (the Hangar's views and configurations, the Assembly's Crafting and Forge, the Season page's sections, the Clan's tabs). The pills shorten before the title is cut, and nothing was clipped at the sizes we looked at (1024x640, 1280x720 and 1920x1080).
+- **The chat** is an island of its own along the island's foot: one line when folded, it grows upward when opened. **The flight windows,** their toolbars and the hotbar's dock are small islands with the same frame; nothing in them behaves differently.
+- **Pages converted:** Dashboard, Hangar, Shop, Assembly, Season, Company, Galaxy Gates, Thulium, Auction, Clan, Rankings, Stats, Invite Friends, Wiki, Recipe Book, Builds, Settings and Admin. **Not converted:** the Skylab's own cards, view switch and Power plate (the station view fills the island), the Pilot window of the flight, the Builds import sheet and the sign-in, update and cursor cards.
 
-**The P.E.T. Station**
-- **An Extra, fitted on one ship's configuration:** Station I, II and III hold 2, 3 and 5 docked pets. The three Station items are in the Extras picker, in the Hangar and in the Assembly like any Extra; research, recipes and prices are those of 0.4.21 (3 hours, 10 hours and a day of research; 100,000 Credits and 2,000 Thulium, 400,000 and 6,000, 1,500,000 and 18,000 to make). A Station II needs a Station I that you own, a III a II or better (carried, fitted or in the Transport Cache).
-- **ON and OFF:** the **PET** slot of the hotbar switches the Station in flight and at once, one press a second, with a quiet sound of its own each way. ON is lit, OFF dim. **The switch is yours and is kept** when you land, die or sign in again. ON is where a Station starts.
-- **What you were given:** each pilot who had a Station got **one Station item of his level for each ship he owns** (at least one), loose in the inventory; nothing is fitted for you, nothing is taken and your old install is left as it was.
-- **What counts:** the boosts, the pets' EXP and the Mole's and the Retriever's work count only on a ship flying with a Station fitted and ON, and only for the first 2, 3 or 5 docked pets (the ones in the first places). **A docked pet that does not count earns no EXP**, as a stored pet earns none.
-- **The Hangar** (landed) docks into the best Station you own (carried or fitted; not one in the Transport Cache), so you can arrange your pets before you fit one; the Hangar's P.E.T. page says "Not fitted" and "Not counted" where that is so.
-- **The Station is yours to keep:** the wipe keeps the three Station items wherever they are, like drones and formations. They are not on the Auction.
-- **What you see:** the Station is a **docking ring** over your hull with a berth for each place, and a berth lights in the colour of the pet docked in it. **The ten P.E.T.s are ten small animated models** (wings beat, legs walk, a hoop turns, claws dig); they fly out of their berths one after another when you switch ON and fly back and dock when you switch OFF, and the ring folds up dark on your own ship. Other pilots see your Station and your pets while it is ON (nobody sees an OFF Station but its owner). Reduce Motion takes the final state at once. At the default camera a pet is 4 to 6 pixels: zoom in. Low graphics draw a ring of light instead of the model.
+**Pilot research**
+- **Where:** the Research Centre's tree has a **Pilot** family. **In series:** each level needs the one before it, and a higher level *replaces* the lower: a level gives the total, not an addition. They stay through the wipe, like all research.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger): +5,000, +10,000 and +15,000 hull on every ship you own, in both configurations. 10, 20 and 30 Dark Matter; 250,000, 1,000,000 and 3,500,000 Credits; 2,500, 10,000 and 35,000 Thulium; 10 hours, 1 day and 2 days.
+- **Sealed Backdoor I to V:** the most of a rocket you may carry, +25 %, +50 %, +100 %, +150 % and +200 % in all, rounded down: a stack of 5,000 becomes 6,250 and then 15,000. **The N.U.K.E. and the N.I.K.E. follow it too** (the N.U.K.E.'s 10 becomes 12 and then 30, the N.I.K.E.'s 20 becomes 25 and then 60). 5 to 40 Dark Matter, 100,000 to 3,500,000 Credits, 1,000 to 35,000 Thulium, 6 hours to 3 days.
+- **Excavator Mining I to III:** +20 %, +30 % and +40 % of the Thulium and the ore you pick up from a giant excavator's box, rounded down (a box of three ores gains nothing at +20 %). 10, 20 and 30 Dark Matter; 500,000, 1,500,000 and 4,000,000 Credits; 5,000, 15,000 and 40,000 Thulium; 1 to 3 days.
+- **Field Theory I to III:** +2, +3 and +5 points of shield absorption, flat, on any ship that has a shield. 20, 40 and 60 Dark Matter; 500,000, 1,500,000 and 5,000,000 Credits; 5,000, 15,000 and 50,000 Thulium; 1 to 3 days.
+- **Dormant Knowledge I to V:** free, 1 hour each, **50 Wipe Points once** each (250 in all; an administrator's grant pays none). Each needs the level before and a share of the *other* technologies researched: 20 %, 40 %, 60 %, 80 % and 100 % of 146, which is **30, 59, 88, 117 and 146** technologies.
+- **You pay at the start:** Dark Matter, Credits and Thulium are taken when the research starts (a queued one is paid when its turn comes) and **a cancel gives back what the file lists at that moment.** The Research Centre now has **151 technologies** (131 before: these 19 and the Auto-Rocket CPU).
 
-**The Energetic Wall**
-- **A consumable, carried like a rocket:** Wall I and Wall II are item type 23 like the EMP Charge, one stack for each level, on no ship and in no slot. **Wall I:** the Shop sells it for 250 Thulium a charge and stops at 20 carried (the card says "You carry N of 20"). **Wall II:** made in Assembly, **600 Thulium, 5 Ship Fragments and 1 Power Core for each charge**, after the same research (6 hours), up to 10 carried. It used to be a Wall I, 10 Ship Fragments, 2 Power Cores and 600 Thulium.
-- **A press spends one charge** of the level the slot holds, and only when the wall actually stands: every refusal (a safe zone, a gate, a cloak, the 90 second wait) spends nothing and starts no wait. A slot holds a level and never falls back to the other one. At zero you are told "No Energetic Wall left." Pick them from the **Consumables** picker, which now lists the EMP Charge and both walls. The wall itself (360 units long, 10 wide, 30,000 and 90,000 hit points, 2,500 a second, gone in 60 seconds, at your cursor 120 to 450 units out) did not change.
-- **When the server starts,** every wall you had (fitted, loose or in the Transport Cache) became one stack of its level, **none lost** (the step is refused if the count would change). A wall stack is lost at the wipe unless it is in the Transport Cache.
-- **The Auction:** the Wall II is a kind (a lot of one, reference value 120,250, floor 61,000; it was 170,500 and 86,000) and the Wall I is never listed; Davidski's last-resort price of a Wall II falls with it, from 34,100,000 to 24,050,000 Credits. Five preset builds that fitted a wall (Iron Wall, Aegis, Bastion, Citadel, Leviathan) carry three with their rockets.
+**Cancel in the Production Queue and the P.E.T. Cradle**
+- **A cross on a running or waiting job,** and a question on the same button: press it again within three seconds. On a block that stacks several jobs it cancels all of them. A job whose time is up is collected, not cancelled.
+- **Everything comes back, no fee:** the Credits and the Thulium, every unit of every material (as plain units, never Marketable) and, for an upgrade, **the very same piece** with its tier, its buffs and its Marketable label. The jobs behind it move up. Only the time the job had run is lost. A Cradle job gives back its Cluster Chunk and its Orvium Reinforced Plate, and a cancelled discovery frees its type to be drawn again.
+- **A job queued before the update has no receipt:** a cancel gives back what its recipe costs now (equipment: the piece at the tier and with the buffs its result holds). **A Master Drone job or a ship's conversion into a design queued before the update cannot be cancelled** ("This job can't be cancelled."): it finishes by itself, within a minute or the time of the jobs ahead of it.
+- A new quiet sound answers a cancel. A Skylab module's upgrade and a Forgery batch have no cancel.
 
-**Groups of ten**
-- **A group holds up to ten pilots** (it held five): the Group window and the minimap show every member. Nothing changed on the wire except more rows.
-- **A kill's pay is shared by level** among the members who fought it, as before. The pot is fixed, so ten members share what five did; **the killer keeps the rounding remainder** (a small Thulium or honor pot rounds to nothing for the mates).
-- **The Group window** keeps its rows; with more than about seven members the list scrolls (or fold it to the strip, or drag any edge). On a 1024 by 640 screen its default height is shorter so that it never covers the hotbar's tabs. **Its rows no longer jump.** In a window narrower than about 239 points a mate's target stood beneath the bars and every row below moved 21 points whenever a mate selected a target or lost it: the room is always there now, so every mate's row is 21 points taller whether or not he shoots. At the default width the target stands beside the bars and the rows never moved; there the mates' bars are about 55 % of the column, with the room beside them.
+**Upgrades keep their buffs**
+- **The rule:** a piece used up in an upgrade (a Damage Amp III into a IV, a shield cell, a thruster, an Engine, an Adaptive Core, a Heavy Shield Core, a Quantum Laser II into a III, a Starfire-III into a Helios Beam, a Hull Plating) gives its **tier and its buffs**: the same stats, the same values, nothing rolled again. This reverses the rule of 2026-09-30 (the tier was kept, the buffs rolled again). It holds for all **31 upgrade recipes**.
+- **If the new item lacks a stat** the piece had a buff on, that slot gets one fresh roll, so the number of buffs never falls. Cancelling the craft gives back the identical piece.
+- **A job queued before the update keeps the buffs it already rolled** and is collected as stored.
 
-**The Clan Wardens**
-- **Every Warden sends a Crystalys:** all nine rows (Brood, Siege and Wrath, Recruit, Veteran and Elite) add one Crystalys to each wave once the Warden is under half its hull, as the Wrath Warden III did since 0.4.20. Waves keep their size and timing (3 alive, 60 seconds apart; the Wrath Warden III's 4 and 40 seconds); no hull, shield, damage or pay number moved.
-- **Every Warden flies at the pilot who hit it,** each at its own speed (Brood 90, Siege 110, Wrath 90): the Brood Warden no longer stands still (its four drones go with it and keep healing it) and the Siege Warden, which roamed, now fires its Rivet at the pilot it chases. It lets go 10 seconds after the last hit and stands where it ended.
-- **They are harder.** The model's best case (Alpha, the tier's own gear, x2 ammo) says the Crystalys takes the smallest crew on x-2 from 28, 21 and 27 pilots to 43, 39 and 44 for the Recruit Brood, Siege and Wrath Wardens, from 26, 19 and 25 to 39, 27 and 33 for the Veteran ones and from 18 and 22 to 21 and 26 for the Brood and Siege Wardens III (the Wrath Warden III had it already, at 32). The Recruit Wardens on x-4 need 69, 56 and 62, more than a level 3 clan's 50 (57, 52 and 56 before the Crystalys). **No row needs more than a level 5 clan's 100.** In Gamma, where the aliens of the waves are twice as strong, seven rows ask more than a level 3 clan's 50: the Brood Warden I on x-3 and x-4 (63 and 79), the Siege Warden I on x-4 (66), the Wrath Warden I on x-4 (73), the Brood Warden II on x-4 (58), the Wrath Warden II on x-4 (52) and the Wrath Warden III on x-4 (51). Nobody has played these fights.
-- **The kill feed names the clan:** when a clan destroys its Warden the Global feed reads "Clan [TAG] Clan Name destroyed Brood Warden II" instead of one pilot. Pay and the clan line are unchanged.
+**The Master Drone**
+- **New recipe (the owner's list of 2026-10-17):** a Slave Drone of yours (turned in place, as before), 250 Ship Fragments, **10 Dark Matter Plates (was 20), 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates, 2 Ancient Control Units, 1,000,000 Credits** and 50,000 Thulium, 60 seconds. Its level and XP still start again at 0. A job queued before the update is not re-priced and finishes normally.
 
-**The clan day**
-- **The daily line rolls at 00:00:00 UTC** for every clan at the same moment (it rolled at the time of day the season started). The countdown on the Operations tab, "Day n of 29", the daily bonus and the day's Warden follow it. A Warden of the day leaves at midnight and none is called in the last 30 minutes of the UTC day.
-- **At the update the running day keeps its number and its progress** and ends at the next 00:00 UTC: it is shorter than 24 hours if the update lands after the season's old time of turn and longer if it lands before it. Every later day is exactly 24 hours. **The last line (29) runs until the wipe's countdown begins.** The season day (PvP, swarms, the wipe) is unchanged, so "Day 5" of a clan can read one ahead of the season's for some hours of a day.
+**The Credit Farm**
+- **Three times the output at every level:** 2,250 Credits an hour at level 1, 33,750 at level 10 and 225,000 at level 20 (it was 750, 11,250 and 75,000). The hopper still holds 72 hours, the build and upgrade prices, times and power use are as they were, and the Thulium Farm is unchanged.
+- **Your first collection after the update pays the hours you have not collected at the new rate:** up to **72 hours**, so a level 20 farm with a full hopper pays 16,200,000 Credits once where 5,400,000 would have been paid before. The farm is now 4.5 times the owner's table of 0.4.10 that the economy models are written against; the owner will watch the economy dashboard.
+- The Payday mission's brief and the Skylab and Quests articles say the new numbers (Payday: 1,000 Credits take about 27 minutes of a level 1 farm); the Skylab page and the Help card read the rate from the module's file.
 
-**Private messages**
-- **`/m name text`** (also `/msg` and `/w`) writes to one pilot who is online; **`/r text`** answers the last pilot who wrote to you (else the last you wrote to). It works in flight and at the station's chat dock.
-- **You see "To nova:" and "From nova:" in violet** among the lines of the tab in view; an unread count lights the toolbar's Chat button, the dock and the sidebar's Messages row, and two quiet sounds tell sent from received. Right-click a name for Reply, Invite, Ignore and Report; **Ignore hides a pilot's private messages** and Report names the channel `private`.
-- **The chat's rules apply:** 200 characters counting the command and the name, no links, the alphabet and spam rules and the send limit. The name must match exactly (never its beginning). An offline pilot is refused ("nova is offline."): nothing is stored. The server's log says who wrote to whom and how long it was, never the words.
-- **A 0.4.21 game** is told the same line as "Private message from nova: text", in English, in its System tab; its own `/m` works.
+**Quantum Laser I and II: a 1 % critical chance**
+- **The change:** `criticalChance` 0 to 0.01 on both lasers (the Quantum Laser III has 10 %, the Starfire-III 15 %). Every pilot's average volley with them is about 0.5 % higher (1 % of volleys at x1.5), and the Company pilots' Quantum Laser II shoot with it too.
+- **The Forge** now rolls three stats on them (damage, crit chance, range): the buffs a tier holds are **0, 1, 2, 3 and 3** at Standard, Tainted, Godly, Rupturing and Eternal (they were 0, 1, 2, 2, 2). A crit buff is a hundredth of a point and the card still reads 1 %.
+- **The Hangar's "highest volley"** for a fit of Quantum Lasers I and II with no crit amp is **1.5 times** what it was (it counts a crit whenever the chance is above zero): three Quantum Laser II read 292.5 where they read 195. The Hangar's crit tile reads 1.0 % where it read 0.0 %. The average volley is the number to compare.
+- **The side effect, said plainly:** it is small. In the clans model (the shipped Wardens, the tier's own gear, x2 ammo, none of the waves) the 1 % crit makes each Warden fight **0.4 to 2.9 % shorter** (2 to 20 seconds; the Siege Warden III's 22 pilots win in 8.0 minutes with it and without it), and the Brood Warden II and the Wrath Warden III lose one ship less. **No Warden's smallest crew with x2 ammo changes** (25, 17 and 24 pilots for the Brood, Siege and Wrath Wardens I and II, 18, 22 and 26 for the three Wardens III). With cheap x1 ammo one does: the Siege Warden I needs 26 pilots where it needed 27 (26 lose 16 ships in 18.4 minutes, where 27 lost 13 in 14.3 minutes). The Clans article's crew table counts each map's waves and the Crystalys, and two of its cells move (the Wrath Warden II on x-2 asks 36 pilots where 33 stood, on x-3 38 where 39 stood) and the Gamma figures move by one pilot in seven rows. **The owner decided to ship it and watch;** no Warden hull, shield, damage, wave or pay number moved. The work units of the clan line follow the pilots' damage, so 92 values in `ClanLines.json` move by 0.1 to 0.5 %.
 
-**The inventory**
-- **Drag over empty space** (the margin beside the tiles, a gap, the strip under the last row) to draw a rectangle: every tile it touches is selected as you drag. Shift, Ctrl or Cmd adds and toggles, Esc or a click on empty space clears, the list scrolls itself near its edge. The title row counts the selection ("9 selected") and has a clear button.
-- **The one action is a bulk delete:** the trash button asks once, lists the items (six names, then "and 3 more"), and deletes them. **It is the same delete as the per-tile trash**; a stack of identical Extras goes whole. Items fitted in the Skylab cannot be selected. The tiles are about 6 pixels smaller to leave room at the sides. A very quiet tick sounds as the rectangle takes a tile (it follows Button Sounds).
+**Asteroids and pilots**
+- **Solid rocks:** a ship never ends a tick inside an asteroid. Told to fly to a place beyond one, it **goes round** on the side your order lies on; told to fly to a place inside one, it **flies there and stops at the edge**. A jump, a respawn and a launch land on the edge if the place is under a rock. A ship an asteroid was put on flies out and takes no damage for it. The aliens already went round rocks (0.4.20).
+- **Danger Sector 4's black hole:** rocks now keep **5,000 units** from its centre (it was 4,200), so that going round a rock can never push a ship into the hole. Rocks also keep off every box and every mission item.
+- **Facing and aim:** a ship firing its lasers at an asteroid turns to it, as it does to an alien. **A straight rocket flies to your cursor** (with the cursor on the asteroid it aims at the centre) instead of into the rock you only selected; a guided rocket still names the rock.
+- **A switch exists:** `rules.pilotsCollide` in `Asteroids.json`, or `ASTEROIDS_PILOTS_COLLIDE`. Off, ships fly through rocks as in 0.4.22.
 
-**The Skylab**
-- **The station view.** From the second Core on the camera opens at the angle that shows the whole station biggest (from the side of the chain), not end on; one Core keeps the classic angle. Picking a module frames it up close from its outer side; the idle turn is a sway of at most 32 degrees either way (about 20 on a Core 15) instead of a full turn; **Reset View** goes home.
-- **A Labels switch** beside Reset View hides the module chips, the Core tags and the leader lines for a clean view. The "!" alerts (a full hopper, plates, ore for the Bay) and the dock row of modules not built yet stay. It is remembered on your computer.
-- **The Research tree.** Clicking a technology brings its card into view (the card's top and buttons, so the queue stays in sight); picking from the queue, the running research's name or Open Research scrolls the tree to the node, and a filter that would hide your pick is let go. **The tree is one Tab stop and takes the arrow keys** (the nearest node; along a ship's ladder, the slots); Escape lets go of the keyboard and keeps the pick. A whole queue row picks, and a resize keeps the pick in view.
-- **The research queue and Dark Matter.** The plug used to stop at the picked technology's own need, so five researches that need Dark Matter could never be covered. **Add** now fills the Research Centre up to the need of the whole queue plus the picked technology's, the queue card has an Add of its own, and each queued technology shows green with a check when its Dark Matter is covered or "Needs N more Dark Matter". **A queue that stopped for Dark Matter starts by itself the moment you add what was missing.** Take back works as before.
-- **Solar's table:** entries 11 to 14 rise from 2,490, 3,055, 3,765 and 4,660 to 2,995, 3,565, 4,285 and 5,185 (**+505, +510, +520, +525**), so a Core 15 Skylab with the four expedition modules built no longer runs dark while Solar and the rest are still at 11 to 14. Nobody loses power; a producer that was dark resumes at the update.
-- **The Ammo Printer and the Rocket Factory** stand on their pads at every level: the racks, halls, towers, cranes, fuel spheres, the great rocket and the Printer's drum no longer hang over the edge, and where a stage grows past its pad it has a foundation slab. Same footprint, same places for ports and chips.
+**The hotbar, the Hangar and the Auto-Rocket CPU**
+- **The five pop-ups above the hotbar (Ammo, Rockets, Extras, Consumables, Formations) can be clicked.** A click does what a click on a slot holding that item does, with no slot and no key; a drag still puts it on a slot. The pop-up stays open after an ammo, formation, extra or consumable click and after a refusal, and closes after a rocket is armed or launched or the Jump CPU opens the map. The Energetic Wall does not arm: it deploys. The title says "Click to use, drag to a slot".
+- **The Hangar:** a click on a Repair Drone (or a shield, or an engine) with its slots full goes to the first free **ability slot**. The same refusal five times is one toast, not five. **Select several items** (the rectangle of 0.4.22) and **drag them all** onto a slot or onto the ship, or press the arrow button in the title row: each goes to its best slot, lasers first, then shields, engines and cores, extras, Repair Drones, hull plates and last amps, cells and thrusters. One message says how many went; one quiet sound plays for the drop.
+- **The Auto-Rocket CPU** (ARL, an Extra): research 10 hours; Assembly 15 minutes, 20,000 Thulium, 100 Ship Fragments, 10 Reinforced Hull Plates, 5 Power Cores, 8 Velkonite Reinforced Plates and 1 Ancient Control Unit. **ON, in a fight** (your lasers on an alien or an enemy pilot), it fires your armed rocket at that target whenever a press of the Fire Rocket key would work. It never picks a target, never fires at asteroids, from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E.; with no key, click or mouse move for 3 minutes it waits. It starts OFF and keeps your choice. Two quiet sounds, ON and OFF.
 
-**Danger Sectors and asteroids**
-- **The pulsar is seen from anywhere on its map.** The picture of 0.4.21 stays whole to 5,100 units and fades by 6,500; beyond it a far star (a white-hot core, its two jets and a haze in the state's colour, a lighthouse swell twice a turn) shows when it is in the view, and a soft glow bleeds in from the screen's edge on its side when it is not. It is light only: nothing to click. Reduce Motion stops the breath and the swell.
-- **The Dormant Swamp's rocket turrets:** the N.I.K.E. and the N.U.K.E. they fire are **25 % faster** (900 to 1,125 and 300 to 375 units a second) and **their flight is twice as long** (4,050 to 8,100 and 1,200 to 2,400 units; 7.2 and 6.4 seconds in the air). They start to fire at the same distance (3,640 and 1,080 units, inside the 4,300-unit zone); the rockets are still straight. A N.I.K.E. fired at a ship inside the zone now flies on to about 8,700 units from the swamp's middle, past the notice ring.
-- **Asteroids say their tier and their P.E.T. parts.** The Target window and the hover card read "Iron · Medium · Tier 3" and a "P.E.T. parts" row ("Regular 0.8%, Mythical 0.15%", or "none" for tier 1). A tier is the ring of sectors a kind belongs to: tiers 1 to 4 are x-1 to x-4 and tier 5 the Danger Sectors. A Regular Cluster Chunk is 0.4 %, 0.8 %, 1 % and 1.2 % from tier 2 to 5, a Mythical one 0.15 %, 0.25 % and 0.3 % from tier 3, a Legendary one 0.03 % and 0.1 % from tier 4; the Motherlode 25 %, 8 % and 3 %. The Asteroid Mining page and its Help card say it.
+**The Challenge line**
+- **Tier IV (ids 129 to 138, ten missions) pays twice:** Credits, Thulium, XP, items and booster hours. **A claim may pay 200,000 Thulium** (100,000 before), so some of the missions the old ceiling cut now pay in full.
+- **Tier V is lifted over its tier IV peers** (the owner, 2026-10-17: "yes lift tier 5 too"). The eight missions of tier V that have a peer in tier IV (Goombah Legion, Crystalys Reign, Dormant Dominion, Pirate Throne, Last Watch, Convoy Zero, Untouched Zero and Warden of the Line) pay at least 10 % more than it in XP, in every kind of item it pays (the Ancient Control Units, Orvium and Velkonite Reinforced Plates too) and in booster hours; a stay pays 10 % more a minute (Last Watch: 11,340,000 Credits and 85,010 Thulium where 3,560,000 and 26,735 stood). **22 of the 50 missions pay differently** (2 of tier III, the 10 of tier IV and the 10 of tier V), and the whole line pays **428,325,000 Credits, 2,847,085 Thulium and 47,380,000 XP** at base (257,860,000, 1,745,885 and 33,920,000 before), with 122 Orvium and 81 Velkonite Reinforced Plates and 18 Ancient Control Units over the line (80, 57 and 12 before).
+- **A mission in progress, or done and waiting for its claim, pays the new numbers at the claim;** a claimed one is not paid again.
 
-**The Auction, the Shop and the lists**
-- **Davidski among the listings.** His stock stands as rows in the Market, one for each item and currency (83 kinds make 166 rows), with a gold name and an NPC badge, sorted by price among the pilots', searchable and filterable like any listing; the separate Davidski tab is gone. Click a row for the details and Buy: prices, "last resort" badges and "can never be listed again" are as in 0.4.21, and a row looks the same whether he flies today or not.
-- **Icons only.** The five picker buttons above the hotbar (Ammo, Rockets, Extras, Consumables, Formations) show an icon and a caret; hover for the name. The Auction's category chips are an icon and a number, on one row at 1280 by 720. **Every kind of item has the same icon** in the Hangar, the Auction, the Shop and the hotbar; the Hybrid Generators have a plug with a bolt (they looked like drones). The Hangar's chips were icons already; All and None stay words.
-- **The Shop asks "Are you sure?"** before more than 10 of an item that is not a consumable is bought (laser amps, shield cells, lasers, drones, hull plating and so on): the sheet shows the item, how many and the total price; Cancel is the default, Escape cancels, and nothing answers it for 0.4 seconds. Ammo, rockets, the EMP Charge, boosters and resources never ask.
-
-**In flight and at the station**
-- **The backup route.** If the usual address does not answer within 6 seconds the game asks the backup address `https://play.spacecorps.xyz` as well and goes to the first that answers ("Trying another route…", then "Connected via backup route", also in Settings > Account). **The usual address is asked first at every start;** an address you typed yourself is never replaced.
-- **The Windows 11 taskbar icon and alt-tab: two fixes that should work.** The game now gives Windows its icon in the sizes the taskbar asks for, with its own taskbar identity and an application manifest; **if you pinned the game to the taskbar, unpin it and pin the running game again once.** When the window is minimised or alt-tabbed (a screen under 200 by 120 points) the HUD keeps its layout instead of squeezing every window into the corner and saving that. **Neither has been tried on Windows 11 or on a real alt-tab:** if it is still wrong, send `spacecorps2027.log` (the lines "taskbar identity:", "window icon:" and "window:").
-- **Spacing.** The Recipe Book and Builds use the margins of the rest of the game: the list and the detail no longer touch the dividing line, cards stand 12 points apart like the Hangar's, and Builds' cost column ends at the window's edge.
+**The connection**
+- **The JSON stream is smaller.** The server no longer sends the **sixteen** optional fields of an entity as `null` twenty times a second, rounds places to a hundredth of a unit (a tenth moved the game's clock, so it was not used) and writes the map update straight from the entities. The messages, the fields that have a value and the rate are the same, and every game since 0.2.0 reads it, 0.4.22 included. **35 to 53 % fewer bytes** on the ordinary maps (M-1: 235 to 110 KB/s, 0.85 to 0.40 GB per flying hour; a company map with swarms 351 to 196 KB/s; 28 pilots on one map 516 to 331 KB/s; Danger Sector 1, 41 %). **A 0.4.22 game is sent this stream;** a 0.4.23 game is sent the next one.
+- **A compact stream for the 0.4.23 game.** The map goes to the game as a binary stream: a keyframe once a second and a small delta of it every tick. **98 % less data than 0.4.22 sent:** on the six recordings of our traffic census it is 1.5 to 2.2 % of the bytes (M-1 237 to 4.3 KB/s, 0.85 to 0.015 GB per flying hour; 28 pilots on one map 512 to 11 KB/s). Everything the game draws from is in it, and read back each place is within about a sixteenth of a unit of the server's. **A window you have left for 10 seconds is sent one update a second, a minimised one one every 5 seconds** (the Network card does not call that a stall). A 0.4.22 game, or a game on a server that does not offer it, is sent the JSON stream above.
+- **The Hangar's list is not downloaded every 2 seconds in flight.** The game asks when something changed (a rocket you launched, an extra or a CPU used, a ship switch or a fitting, a sale, a pet's pickup, a mission, a new map), once a second at most, and every 30 seconds for what no message tells. An answer that has not changed is a `304` of a few hundred bytes, a changed one is compressed, and one over 10 KB is not asked for again before the time it takes at 10 KB/s (172 KB: 17 seconds). A pilot with 152 kinds of item: 4.2 MB a minute to 57 KB (a 0.4.22 game keeps asking every 2 seconds).
+- **A slow connection is not cut off.** The server keeps one map update for a socket that is busy and replaces it with a newer one (a keyframe of the compact stream is never dropped for a delta), writes the answer to your ping first, and **never drops chat, kills, loot or quests**. It gives a connection up only when its socket takes nothing for 20 seconds or the messages it never drops pile up past 600. In our test one pilot sat behind a relay that let only a share of the 0.4.22 stream through for 120 seconds: **a 0.4.23 game was not cut at 5 %, 20 % or 65 % of it, its ping stayed at 7 to 8 ms (16 ms at the worst), it got 20 updates a second and every chat line.** A 0.4.22 game on the same server was kept (the 0.4.22 server cut it after 47 seconds at 20 % and after 93 seconds at 65 %) and lagged nowhere at 65 %, where the smaller JSON fits, but **at 20 % its world was about 26 seconds old:** the bytes already on the way cannot be taken back. The compact stream is what makes a slow line carry the game; the rule only stops the disconnect.
+- **Two games on one account no longer take each other's messages.** A second game signed in as your pilot, or a menu connection that reconnects beside a game that flies, used to be sent what the flying game should have heard (the Game Log's kills, the quest news, the ship switch): in our two-minute test, with a second game reconnecting every 5 seconds, the flying game missed **624 of 1,200** of each of four messages (52 %); now it misses none and none comes twice. Each message goes to the game that shows it. **When another game takes your pilot's ship, the older game says so** ("Your pilot took off in another game: this one is back at the station.") and goes to the station, instead of a red "taken over" toast two seconds late; a 0.4.22 game ignores the new message and shows its old toast.
+- **A game update waits for the dock.** The game does not start downloading an update while you fly, and one a flight interrupts is paced to 24 KB/s until you dock (the 0.4.22 game moved 51.6 MB in the same flight).
+- **The log says what the connection did.** The game's log file lists each connection to the server (the address and family used, how long it lived and what closed it), the sockets the game holds, the minute's REST traffic by path, the data received (`rx_kbps`) and the updates the server skipped (`dropped=`), says on the memory line which stream the game is on (`wire=bin keyframes=… deltas=… requests=…`), and warns when another copy of the game may be running.
 
 **What you see and hear**
-- **Six new quiet sounds,** each with its own cue and on the Sound Effects volume: the Shop's question, the inventory's tick, a private message sent and received, and the Station ON and OFF.
-- **One new Help card** (the P.E.T. Station), and the cards of the P.E.T.s, the Asteroids, the Power, the Chat and the clan line updated. **The wiki has pictures on all 61 pages** (163 pictures: the Skylab's new sheets, P.E.T.s, Davidski, the Recipe Book, the Auction), and every new text is in 13 languages.
+- **The guns fire in series.** The guns of a ship leave one after another over its second, left, right, left, right (your own ship with more lasers: through all of them, up to four); each gun's hit lands on its own. The damage, the rate of fire and the server are unchanged. Another pilot's ship draws two guns.
+- **The pulsar** holds its axis still and its field lines turn about it once in 18 seconds, with a comet of light along each loop on a 4-second beat. **The Giant Excavator and each Swamp turret stand on a mass of asteroids** instead of hanging over nothing.
+- **Six new quiet sounds,** each on the Sound Effects volume: a cancelled job, a drop of several items, the Auto-Rocket CPU ON and OFF, the sidebar folding and unfolding.
+- **Every new text is in 13 languages** (8,371 messages, the same as English), and the wiki's articles that changed are in 13 languages too.
 
 **For administrators and the server**
-- **At the first start:** three data steps (`skylab-solar-v7`, `wall-stack-v1` and `pet-station-extra-v1`, each with its `DataMigrations` row), one new table (`ClanDayClock`) and one guarded `ALTER TABLE` (`PetState.StationOff`), all idempotent; the backup gate lists 5 lines. No data file is new and seven changed (`Builds.json`, `ClanLines.json`, `ClanWardens.json`, `DormantSwamp.json`, `Groups.json`, `Market.json`, `SkylabConfig.json`), with the item and recipe seeds. One new route, `POST /api/admin/players/:id/forge/max`; one new client feature string, `private-chat`; three optional environment variables of the front door (`TRUSTED_PROXIES`, `TRUSTED_PROXY_HEADER`, `TRUSTED_PROXY_SECRET`, off unless `TRUSTED_PROXIES` is set) and two dry-run switches (`WALL_STACK_V1_DRY_RUN`, `PET_STATION_V1_DRY_RUN`).
-- **Admin tools:** **Max Forge** (Admin > Players > Inventory) sets chosen pieces of a pilot's equipment to the top of the Forge at no cost (Eternal, every buff at the top of its range); pieces in the Transport Cache, fitted in the Skylab or listed on the Auction are left alone and reported; **a piece keeps its Marketable label**, so a maxed piece that was Marketable can still be sold on the Auction (an admin power the owner may want to limit); 1 to 200 pieces a request, 20 requests an admin per 10 minutes, every use in Recent admin actions.
-- **The release job:** the patch notes go in a `patchnotes/` folder of the download site (the one-time move is a script that is not part of the deploy), `scripts/clips/*` is a docs path, and the Windows build checks the exe's icon, manifest and version resources.
-- **There is no safe rollback to 0.4.21 after the first start,** and no volume backup is taken (the owner does not want one): a 0.4.21 server reads the wall stacks as Extras again, lets a pilot fit a stack in a slot and the walls come out wrong. The way is forward, a fix release (docs/DEPLOY.md).
+- **At the first start:** one additive nullable column, `CraftingJobs.PaidJson` (the receipt of a job), no data step and no new table; the backup gate lists **1 line**. No data file is new and eight changed (`Asteroids.json`, `Builds.json`, `ClanLines.json`, `Davidski.json`, `Market.json`, `Research.json`, `SkylabConfig.json`, `quests.json`), with the item and recipe seeds. **Two new routes for pilots,** `POST /api/assembly/cancel/:jobId` and `POST /api/pets/cancel`, and one for administrators, `GET` and `POST /api/admin/console/snapshot-wire`; **two new client feature strings,** `pilot-research` and `snap2`; **five new optional environment variables,** `ASTEROIDS_PILOTS_COLLIDE`, `WS_LATEST_WINS`, `SPACECORPS_TCP_SNDBUF_KB`, `WS_SNAPSHOT_WIRE` and `WS_AWAY`.
+- **The connection, on the server:** `WS_LATEST_WINS` is the slow-line rule and is on unless it is set to `0`, `false`, `off` or `no`, which brings the writer of 0.4.22 back **without a release**; `WS_SNAPSHOT_WIRE` is the compact stream and is on (`bin`) unless it is `json`: `scripts/server-console.sh wire json` (or `wire bin`) or the console's route flips it **without a release and without a restart,** a game that cannot read three frames in ten seconds goes back to JSON by itself, and `WS_AWAY=0` (or `wire away off`) sends every window the whole stream; the two switches do not depend on each other; `SPACECORPS_TCP_SNDBUF_KB` is off (it would shrink the kernel's send buffer of every connection and is untested on the Linux host). Every `GET /api` JSON answer gets an `ETag`, a `304` for `If-None-Match` and gzip for a request that takes it (one new dependency, `flate2`, already in the game). `/health` has a `net` object (bytes a second sent, the size of a JSON map update by map) and a `snapshotWire` object (the mode, the tables, the frames and bytes of each wire), and the counters have `ws_bytes_out`, `ws_frames_out`, `snapshots_dropped`, `slow_reader_episodes` and `http_not_modified`; the log lines to search for after the deploy are in docs/DEPLOY.md.
+- **Admin > Economy:** the grey "Other" that held 30 to 50 % of the credits removed is split into names: trade, auction bid, market fee, pet crossbreed and account deleted are sinks of their own (16 sinks are named, "Other" among them), and the asteroid and the excavator are named sources; no amount, price or fee changed.
+- **There is no safe rollback to 0.4.22 after the first start:** a 0.4.22 server refuses to start on the new `Asteroids.json` key, so the file and the server go back together (the image carries both); the receipts column is harmless to it. No volume backup is taken (the owner does not want one). The way is forward, a fix release (docs/DEPLOY.md).
 <!-- /patchnotes:latest -->
 
 ---
@@ -191,18 +189,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 46f1ee1d292a7bd266c5d4cd6d9cb1633b04de2ed1f54f62a9c0423cbc435e16
+# Expected: 34b8a4955943d5b9c08056c9d24988af2cfbcec7e2baf21f1e037b1fd087a88c
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: d08705e83d33740ad1666982e66b2cd6a68800a8d1798481ace3e91c6b736f71
+# Expected: 60b13e513222be1198bfdb13072200e35a7594e1a8f78bfa1da1e1469a23e63c
 ```
 
 ### Linux
 ```bash
-echo "a86e3cca84483f951d90d88a8c335b66817cc42e26ba5890f1bcd40b50ee9d77  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "b16c912f80e1fd76773d463b55b9bab5e350a74705748e9fffbb08e32daa412d  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

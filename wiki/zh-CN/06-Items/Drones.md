@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
+<!-- wiki-i18n source: d531966f18e08dc2 -->
 <!-- wiki-i18n title: 无人机 -->
 # 无人机 {#drones}
 
 无人机是可购买或可制造的支援单位。你最多可同时启用 **8 台无人机**，Slave Drone 和 Master Drone 合计。下面科技树里的十六种**无人机编队**不是无人机：你研究并制作它们，从快捷栏一次启用一个，只有在你拥有至少一架无人机时它们才会生效（见[无人机编队](/wiki/03-Mechanics/Formations.md)）。
 
-![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Credits, Thulium, Ship Fragments, plates and Ancient Control Units](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
@@ -16,7 +16,7 @@
 
 ```tree
 Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
@@ -43,7 +43,7 @@ Slave Drone => Master Drone
 | 名称 | 稀有度 | 槽位 | 说明 | 费用 |
 | :--- | :--- | :--- | :--- | :--- |
 | **Slave Drone** | 普通 | 1 | 只有一个装备槽位的基础无人机。它会随着你消灭外星人而成长，共 8 个等级。 | 100,000 信用点起（见下文） |
-| **Master Drone** | 稀有 | 2 | 在装配站由 Slave Drone 升级而来。它以金色飞行，保留自己的编号和所携带的装备，获得第二个装备槽位，并从 1 级重新开始。 | 升级一台 Slave Drone：50,000 Thulium、250 个 Ship Fragment 和 20 个 Dark Matter Plate |
+| **Master Drone** | 稀有 | 2 | 在装配站由 Slave Drone 升级而来。它以金色飞行，保留自己的编号和所携带的装备，获得第二个装备槽位，并从 1 级重新开始。 | 升级一台 Slave Drone：1,000,000 信用点、50,000 Thulium、250 个 Ship Fragment、10 个 Dark Matter Plate、5 个 Orvium Reinforced Plate、5 个 Velkonite Reinforced Plate 和 2 个 Ancient Control Unit |
 
 Slave Drone 一开始是一颗小球体，到 8 级时会成长为一艘装甲炮艇。每当你消灭一个外星人，你拥有的每台无人机都会获得同样的经验值，而更高的等级会为其槽位中的激光增加少量伤害（8 级时最高 +7%）。各个等级以及每一级所需的经验值，见“游戏机制”分类下的无人机机制页面。制造 Master Drone 不会消耗一台无人机：它会就地升级你所选的那台 Slave Drone，升级完成时**它的等级和经验值会重置为 0**（装配站会提示这一点，并要求你确认）。作为补偿，这台无人机会拥有**两个装备槽位**，而不是一个：它原来携带的装备留在第一个槽位，第二个槽位为空。你的无人机连同等级和经验值，会在赛季重置后保留。
 

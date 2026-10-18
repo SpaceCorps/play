@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05bb6ec4d73f7179 -->
+<!-- wiki-i18n source: cb94c2a238471e59 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter ve Dark Matter plakaları {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## Bir dakikada {#in-one-minute}
 
 - **Dark Matter bir kaynaktır ve her yerde yalnızca Dark Matter diye geçer.** Tehlike Sektörü 4’ün (`DS-4`) ortasındaki kara delik onu üretir: deliğe ulaşan her N.I.K.E. roketi, bölgesinin kenarındaki küçük kutular içinde 1 ile 3 Dark Matter (ortalama 2) geri verir.
-- **Ne işe yarar.** Araştırma Merkezi’nin 93 teknolojisi onu ister, her biri 5 ile 40 arası, toplamda 1.019; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur.
+- **Ne işe yarar.** Araştırma Merkezi’nin 107 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.354; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur.
 - **Araştırma Merkezi’nde**, **Araştırmayı başlat** düğmesine basmadan önce kargondan (gemin park halindeyken) Dark Matter eklersin. Araştırma onu başladığında alır.
 - **Dark Matter plakası ayrı bir eşyadır.** Önce tarifini araştır (ağacın Kaynaklar grubu: 1 gün ve 10 Dark Matter), sonra Montaj’da 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium ile üret.
 - **Plaka ne işe yarar.** Her yükseltme zincirinin son kademesi **4** plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II (13 parça). Demirhane bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için bunlardan 2, Patlayan kademeden Ebedi kademeye çıkarmak için 2 tane daha ister. Skylab’ın Motor, Savunma ve Radar modülleri de inşa etmek ve yükseltmek için plaka ister ([Kaynaklar](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@
 | **Nedir** | Destansı bir kaynak | Mitik bir kaynak |
 | **Nereden gelir** | Tehlike Sektörü 4’teki kara delik, içine ateşlenen N.I.K.E. roketleri karşılığında; ayrıca Dormant sürüsünden ve Dormant Swamp bölgesindeki Inert Mass uzaylılarından biraz | Montaj: 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium’dan preslenir |
 | **Önce ne yaparsın** | N.I.K.E. roketini araştır (3 sa, Dark Matter istemez) ve biraz üret | Plakanın tarifini araştır (1 g, 10 Dark Matter) |
-| **Ne işe yarar** | Araştırma maliyetleri (93 teknoloji, toplam 1.019) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 20; Demirhane: en üst iki basamağının her biri için 2 |
+| **Ne işe yarar** | Araştırma maliyetleri (107 teknoloji, toplam 1.354) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 10; Demirhane: en üst iki basamağının her biri için 2 |
 
 ## Dark Matter nasıl edinilir {#how-to-get-dark-matter}
 
@@ -71,7 +71,7 @@ Sıfırlama, Merkez’indeki Dark Matter’ı korur.
 1. **Tarifi araştır.** Araştırma görünümünde **Dark Matter Plate** teknolojisi ağacın **Kaynaklar** grubundadır. 1 gün sürer ve önce Merkez’e eklediğin 10 Dark Matter ister. Son kademedeki 13 parçanın teknolojileri de onu şart koşar.
 2. **Bir plakanın istediklerini topla:** 5 Dark Matter, 1 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate ve 250 Thulium. Skylab’ın Dökümhane’si iki takviyeli plakayı da cevherden döker ([Skylab](/wiki/03-Mechanics/Skylab.md)).
 3. **Montaj’da üret.** Kategori filtresinde **Kaynaklar** seçeneğini seç. Bir üretim 120 saniyede bir plaka yapar.
-4. **Kullan.** Her yükseltme zincirinin son kademesi **4 plaka** ister ([aşağıda](#what-the-last-tier-asks-for)). [Demirhane](/wiki/06-Items/Forge.md), bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için **2 plaka** (%75 başarı, 200.000 kredi) ve Patlayan kademeden Ebedi kademeye çıkarmak için **2 plaka daha** (%60 başarı, 500.000 kredi ve 2.000 Thulium) ister. Başarısız olan bir adım malzemelerinin yarısını geri verir, küsurat atılarak: bir plaka. Master Drone yükseltmesi **20** plaka alır.
+4. **Kullan.** Her yükseltme zincirinin son kademesi **4 plaka** ister ([aşağıda](#what-the-last-tier-asks-for)). [Demirhane](/wiki/06-Items/Forge.md), bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için **2 plaka** (%75 başarı, 200.000 kredi) ve Patlayan kademeden Ebedi kademeye çıkarmak için **2 plaka daha** (%60 başarı, 500.000 kredi ve 2.000 Thulium) ister. Başarısız olan bir adım malzemelerinin yarısını geri verir, küsurat atılarak: bir plaka. Master Drone yükseltmesi **10** plaka alır.
 
 ## Son kademe ne ister {#what-the-last-tier-asks-for}
 
@@ -86,7 +86,7 @@ Her yükseltme zincirinin son kademesi **4 Dark Matter Plate** ve en az bir Anci
 - **Adaptive Core III**, bir Adaptive Core II kullanılarak yapılır ([Kalkanlar](/wiki/06-Items/Shields.md#hybrid-generators-adaptive-cores-)).
 - **CPU’lar:** 6 Orvium Reinforced Plate ile Extra Slots CPU III ve 2 ile Base CPU II ([Extra Slots CPU](/wiki/06-Items/Extras.md#extra-slots-cpus), [Base CPU](/wiki/06-Items/Extras.md#base-cpus)).
 
-**Bunlar Dark Matter plakası almaz:** Quantum Laser III ve Starfire-III (Velkonite plakaları), her zincirin II. ve III. kademeleri (amfi için 2, hücre ya da itici için 4 Velkonite plakası), Jump CPU, Auto-Repair CPU, Extra Slots CPU I ve II, Base CPU I, 16 dron formasyonu ve gemiler. [Demirhane](/wiki/06-Items/Forge.md) en üst iki basamağının her birinde 2 plakasını korur.
+**Bunlar Dark Matter plakası almaz:** Quantum Laser III ve Starfire-III (Velkonite plakaları), her zincirin II. ve III. kademeleri (amfi için 2, hücre ya da itici için 4 Velkonite plakası), Jump CPU, Auto-Repair CPU, Auto-Rocket CPU, Extra Slots CPU I ve II, Base CPU I, 16 dron formasyonu ve gemiler. [Demirhane](/wiki/06-Items/Forge.md) en üst iki basamağının her birinde 2 plakasını korur.
 
 Bir plaka 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium’dan preslenir; bu yüzden bir parçanın 4 plakası ayrıca 4 Velkonite plakası, 4 Orvium plakası ve 1.000 Thulium da alır. Her yerde son kademe olduğunda eksiksiz bir donanımın toplamı:
 
@@ -107,7 +107,7 @@ Paragon için 40 parça 8 lazer, onların 24 amfisi ve 8 jeneratör ve destek yu
 | Bir Dark Matter plakası | 5 | 2,5 |
 | Bir Demirhane adımının iki plakası | 10 | 5 |
 | Bir son kademe parçanın dört plakası | 20 | 10 |
-| Dark Matter isteyen her teknoloji | 1.019 | 510 |
+| Dark Matter isteyen her teknoloji | 1.354 | 677 |
 
 Sıfırdan ilk yükseltme, tarif (10) ve iki plakadır (10): 20 Dark Matter, yaklaşık 10 N.I.K.E. roketi, yani iki üretim. Sıfırdan ilk IV. kademe amfi, plakanın tarifi (10), amfinin kendi teknolojisi (10) ve 4 plakadır (20): 40 Dark Matter, yaklaşık 20 N.I.K.E. roketi.
 

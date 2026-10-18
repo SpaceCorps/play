@@ -61,7 +61,7 @@ The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCK
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **All four** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Together they ask 490 Dark Matter on top of the 414 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,019 for every technology of the game.
+Together they ask 490 Dark Matter on top of the 749 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,354 for every technology of the game.
 
 ## What happens to your ship
 

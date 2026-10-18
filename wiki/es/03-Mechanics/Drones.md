@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Drones -->
 # Mecánicas de los drones {#drone-mechanics}
 
@@ -92,7 +92,7 @@ La curva está pensada para que un dron nuevo llegue al nivel 2 en más o menos 
 
 ### Master Drone
 
-Un Slave Drone se convierte en **Master Drone** cuando lo mejoras en Ensamblaje, una vez investigada la tecnología del Master Drone ([Investigación](/wiki/03-Mechanics/Research.md)). La receta cuesta 50.000 de Thulium, 250 Ship Fragments y 20 Dark Matter Plates, tarda 60 segundos y no gasta ningún dron: **eliges qué Slave Drone es** (el selector muestra el nivel y la XP de cada uno), y ese mismo dron, con su número, su ranura de dron y todo lo que lleva instalado, se convierte en Master Drone cuando termina el trabajo, con una segunda ranura vacía. Nada va a tu inventario y no hay nada que recoger: el Registro de juego te avisa cuando termina, también si la mejora terminó mientras estabas fuera.
+Un Slave Drone se convierte en **Master Drone** cuando lo mejoras en Ensamblaje, una vez investigada la tecnología del Master Drone ([Investigación](/wiki/03-Mechanics/Research.md)). La receta cuesta 1.000.000 de créditos, 50.000 de Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates y 2 Ancient Control Units, tarda 60 segundos y no gasta ningún dron: **eliges qué Slave Drone es** (el selector muestra el nivel y la XP de cada uno), y ese mismo dron, con su número, su ranura de dron y todo lo que lleva instalado, se convierte en Master Drone cuando termina el trabajo, con una segunda ranura vacía. Nada va a tu inventario y no hay nada que recoger: el Registro de juego te avisa cuando termina, también si la mejora terminó mientras estabas fuera.
 
 **Su nivel y su XP se restablecen a 0 cuando termina la mejora.** Un Master Drone vuelve a empezar en el nivel 1, sin XP, y sube de nivel igual que un Slave Drone (la tabla de arriba); la bonificación láser del nivel que tenía desaparece con él. El Ensamblaje lo avisa antes de empezar y, si el dron tiene algo de XP, te pide confirmación nombrándolo. La opción por defecto es el dron con menos XP.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f0413a5a5f080ae -->
+<!-- wiki-i18n source: aa02d302a23ff21a -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -60,9 +60,10 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 #### A 100% elérése és túllépése {#reaching-and-passing-100-}
 
 - **Alapból**: legfeljebb 80% (fent).
-- **Shield Absorbance Boost**: egy állandó Szezonbolt-buff, amelyet wipe-pontokkal vásárolsz, **szintenként +0,1 pont, legfeljebb +10 pont** (100 szint, egyenként 25 WP). Fix pontokat ad a hajód elnyeléséhez, bármely pajzzsal rendelkező hajón ugyanannyit: a 80% 4 szinttel (100 WP) 80,4%-ra nő, egy Light Shield Core 45%-a pedig 12 szinttel (300 WP) 46,2%-ra. A pajzs nélküli hajó 0%-on marad. A 100 szint 2 500 WP-ba kerül, ami több wipe-ra szóló cél: a wipe-pontok mai forrásai (a kilövési mérföldkövek és a küldetések) a felső határukat elérve összesen 855 WP-t fizetnek, a wipe-okon át megőrizve, és ez 34 szintet ér, vagyis +3,4 pontot. További wipe-pont-források vannak tervben. Lásd: [Szezon és wipe-pontok](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Shield Absorbance Boost**: egy állandó Szezonbolt-buff, amelyet wipe-pontokkal vásárolsz, **szintenként +0,1 pont, legfeljebb +10 pont** (100 szint, egyenként 25 WP). Fix pontokat ad a hajód elnyeléséhez, bármely pajzzsal rendelkező hajón ugyanannyit: a 80% 4 szinttel (100 WP) 80,4%-ra nő, egy Light Shield Core 45%-a pedig 12 szinttel (300 WP) 46,2%-ra. A pajzs nélküli hajó 0%-on marad. A 100 szint 2 500 WP-ba kerül, ami több wipe-ra szóló cél: a wipe-pontok mai forrásai (a kilövési mérföldkövek, a küldetések és az öt Dormant Knowledge kutatás) a felső határukat elérve összesen 1 105 WP-t fizetnek, a wipe-okon át megőrizve, és ez 44 szintet ér, vagyis +4,4 pontot. További wipe-pont-források vannak tervben. Lásd: [Szezon és wipe-pontok](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Kovácsműhely**: a pajzsok és a pajzscellák kaphatnak **Elnyelésnövelés** buffot, amely megszorozza az értéket: egy 50%-os pajzson a +5% +2,5 pont. Egy teljesen kovácsolt, Örök ritkaságú legjobb szett (mag és három cella, minden buff a maximumon, +15%) legfeljebb 12 pontot ad, átlagosan körülbelül 10-et (lásd [A Kovácsműhely](/wiki/06-Items/Forge.md)).
-- **Együtt**: alapból 80%, +3,4 pont buff (a mai 855 wipe-pont mind) és legfeljebb +12 pont Kovácsműhely-buff együtt ma legfeljebb **95,4%**-ot tesz ki; a buff mind a 100 szintjével (+10 pont, 2 500 WP) ez 102% lenne. Sem a buff, sem a Kovácsműhely önmagában nem éri el a 100%-ot; eljutni odáig több wipe-ra szóló cél, és további wipe-pont-források vannak tervben.
+- **Field Theory**: a Pilóta-kutatás Field Theory I, II és III ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) **+2, +3 és +5 pontot** ad az összes hajód elnyeléséhez, összesen, és nem minden szint az előző tetejére, kreditért, Thuliumért és Dark Matterért. Mint a Szezonbolt buffja, ez is fix pont bármely pajzzsal rendelkező hajón, és a wipe-on át megmarad.
+- **Együtt**: alapból 80%, +4,4 pont buff (a mai 1 105 wipe-pont mind), legfeljebb +12 pont Kovácsműhely-buff és +5 pont Field Theory III együtt ma legfeljebb **101,4%**-ot tesz ki; a buff mind a 100 szintjével (+10 pont, 2 500 WP) ez 107% lenne. Sem a buff, sem a Kovácsműhely, sem a Field Theory önmagában nem éri el a 100%-ot; eljutni odáig mind a hármat igényli, és több wipe-ra szóló cél, és további wipe-pont-források vannak tervben.
 
 ### Pajzsboostok: kapacitás, elnyelés, töltődés {#shield-boosts-capacity-absorbance-recharge}
 

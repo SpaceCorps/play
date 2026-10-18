@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7141a7ef23591b4d -->
+<!-- wiki-i18n source: 2ec356f14ef5095c -->
 <!-- wiki-i18n title: Görevler -->
 # Görevler {#quests}
 
@@ -17,7 +17,7 @@ Görevlerin çoğu artık “şundan şu kadar yok et” değildir: kısa **zinc
 - **Zincirler.** **Sırayla** etiketli bir görevin adımları birbiri ardına açılır ve yalnızca açık olan adım sayılır.
 - **Öldürmeler dışında dört tür adım.** Yalnızca senin için düşen ve Mission Control penceresine götürdüğün bir **görev eşyası**, ziyaret edilecek bir **nokta**, bir sektörde birkaç dakikalık bir **kalış** ve sezonun 4. gününden itibaren avlanacak bir **sürü**.
 - **Koşullar.** Bir adım ya da bütün bir görev “gövde kaybı en fazla N puan” veya “ölmeden” diyebilir. Bozarsan o adım ya da görev baştan başlar. Kalıcı olarak hiçbir şey kaybolmaz.
-- **Meydan okuma hattı.** 3. pilot seviyesinden itibaren, her biri on görevlik beş kademede elli çok zor görev. Emeğe göre öderler: bir öldürme, I. kademenin ona ödediği kadar değerlidir, her üst kademede %10 daha fazla; ve tek bir ödül en fazla 100.000 Thulium öder. I. kademe toplamda, temel değerler olarak, 9.355.000 kredi, 70.125 Thulium ve 2.177.500 XP öder ([meydan okuma hattı](#challenge-line)).
+- **Meydan okuma hattı.** 3. pilot seviyesinden itibaren, her biri on görevlik beş kademede elli çok zor görev. Emeğe göre öderler: bir öldürme, I. kademenin ona ödediği kadar değerlidir, her üst kademede %10 daha fazla; ve tek bir ödül en fazla 200.000 Thulium öder. I. kademe toplamda, temel değerler olarak, 9.355.000 kredi, 70.125 Thulium ve 2.177.500 XP öder ([meydan okuma hattı](#challenge-line)).
 - **0.4.10 güncellemesinde yeniden düzenlendi.** Seviye görevlerinin 64 tanesi yeni sürümlerdir. Birini yaptıysan yeniden sunulur, tam ödülüyle ([ayrıntılar](#reworked-missions)).
 
 ## Mission Control
@@ -152,7 +152,7 @@ Gerçek listeden sekiz görev, ilk saatten meydan okuma hattına kadar. Sayılar
 - Uçarak ilerletilebilen bir görevin varken bir istasyon görevi almak, takip ettiğin görevi değiştirmez: Aktif Görevler penceresi savaş görevini göstermeye devam eder ve istasyon görevi başlık çubuğunda bir noktadır (ilerlemesi için üzerine gel, göstermek için tıkla).
 - Her biri kendi **pilot seviyesinde** ve izlediği istasyon görevlerinden sonra açılır (önce ödülü alınır): kilitli bir kart hangisi olduğunu söyler. İlk üçü 1. seviyede açılır. Sonuncusu, **Çekirdek On**, Çekirdek’i 10. seviyeye çıkarır; bu seviye Skylab’ın [Araştırma Merkezi](/wiki/03-Mechanics/Research.md) modülünü açar.
 - Adımları Skylab üssünün durumuna bakar: bir modül **inşa et** ya da **onu bir seviyeye çıkar** (modül o seviyede ya da daha yüksekteyken tamamlanır; hiçbir modül Çekirdek’in üstüne çıkmaz, bu yüzden bir Güneş Paneli hedefi önce Çekirdek’in yükseltilmesini gerektirebilir) ve Kredi Çiftliği’nden kredi **topla** (görevi kabul ettiğin andan itibaren sayılır, Kaynakları topla düğmesiyle). Adımlarının hepsi aynı anda doğru olan bir görev tamamlanır: kabul ettiğinde zaten karşıladığın bir görev hemen tamamlanır.
-- Kredi Çiftliği’ni inşa etmek hiçbir şeye mal olmaz, bu yüzden **İlk Çiftlik** görevi onu inşa ettiğin için sana 3.000 kredi ve 100 Thulium öder. Toplamak zaman alır: **Maaş Günü** 1.000 kredi ister, 1. seviye bir çiftliğin yaklaşık bir buçuk saati (saatte 750), **Elli Bin** ise 50.000 ister, **Büyüme Mevsimi** görevinin sana bıraktığı 3. seviye çiftliğin yaklaşık 22 saati (saatte 2.250).
+- Kredi Çiftliği’ni inşa etmek hiçbir şeye mal olmaz, bu yüzden **İlk Çiftlik** görevi onu inşa ettiğin için sana 3.000 kredi ve 100 Thulium öder. Toplamak zaman alır: **Maaş Günü** 1.000 kredi ister, 1. seviye bir çiftliğin yaklaşık yarım saati (saatte 2.250), **Elli Bin** ise 50.000 ister, **Büyüme Mevsimi** görevinin sana bıraktığı 3. seviye çiftliğin yaklaşık 7,5 saati (saatte 6.750).
 - Güneş Paneli, yükselirken gücünün yalnızca %25 kadarını üretir, bu yüzden Thulium Çiftliği olan bir istasyon yükseltme bitene kadar çiftliklerini durdurur (bkz. [Güneş Paneli modülü](/wiki/03-Mechanics/Skylab.md#solar-module)). **Daha Parlak Paneller** (Güneş Paneli 3. seviyeye: 5 ve 15 dakika; o görevin küçük istasyonu yine de yeter), **Büyüme Mevsimi** (5. seviyeye adım 45 dakika sürer) ve **İkmal Hattını Aç** (Güneş Paneli 6. seviyeye: 60 dakika) bunun ne kadar sürdüğünü söyler.
 - **Seviye görevi gibi öderler.** Tablodaki sayılar **temeldir**: dünyanın bonusu, boosterlar, Premium XP ve klanının kredi ile Thulium güçlendirmeleri onları çarpar ([Ödüller](#rewards)). Bir İstasyon görevinin kendi dünyası yoktur, bu yüzden ödülünü aldığında uçtuğun dünyaya göre öder. Eşya vermez. Temel deneyimleri, seviye görevlerinin ödediği deneyimin %85 payına ek olarak gelir (bir seviyenin farkının en çok %5 kadarı).
 - İstasyon görevleri, tamamlanan görevler için verilen [sıfırlama puanlarına](/wiki/03-Mechanics/Wipe-Timeline.md) sayılmaz. Her görev gibi sıfırlamadan sağ çıkarlar, inşa ettiğin şey de öyle.
@@ -165,9 +165,11 @@ Gerçek listeden sekiz görev, ilk saatten meydan okuma hattına kadar. Sayılar
 - **Aynı anda üç**, 5 seviye görevinin ve 3 istasyon görevinin yanında.
 - **Seviye görevi gibi öderler.** Tablolardaki ödül **temeldir** ve bir kez ödenir: dünyanın bonusu, boosterlar, Premium XP ve klanının kredi ile Thulium güçlendirmeleri onu çarpar; [Ödüller](#rewards) bunu bir örnekle açıklar. **Onur yalnızca I. kademede ödenir.** Sıfırlamadan sağ çıkarlar ve görevlerin sıfırlama puanlarına sayılmazlar.
 - **Ödül, yapılan işe göre artar.** Bir meydan okumada bir uzaylı türünün bir öldürmesi, I. kademenin ona ödediği kadar değerlidir ve **her üst kademede %10 daha fazla** (II. kademe ×1,10, III. kademe ×1,21, IV. kademe ×1,331, V. kademe ×1,4641). Yani **Bulwark Duvarı** görevindeki 150 Bulwark I. kademede 19.585 Thulium öder, II. kademedeki **Bulwark Fırtınası** görevindeki 400 Bulwark 57.450 öder: orada bir Bulwark %10 daha değerlidir. Kalışlar, turlar ve temiz koşular aynı kurala, bir kademe aşağıdaki kendi türünden göreve göre uyar.
-- **Ödül başına 100.000 Thulium tavanı.** En büyük avlar daha fazlasını öderdi. Bir ödülün Thulium miktarı 100.000’i aştığında, tüm ödül, Thulium miktarı tam 100.000 olana kadar birlikte kısılır: kredi, onur ve eşyalar aynı oranda küçülür. On görev kısılır: **Goombah Belası**, **Bulwark Salgını**, **Goombah Bozgunu**, **Bulwark Denizi**, **On Bin Seeker**, **On Bin Phantasm**, **Goombah Lejyonu**, **Crystalys Saltanatı**, **Korsan Tahtı** ve **Hattın Muhafızı**. Diğer kırkı tam öder.
-- **Deneyim: beş kat.** Elli görevin hepsinin deneyimi, tavan neyi keserse kessin, 0.4.16 öncesinde ödediklerinin tam 5 katıdır.
-- **Eşyalar parayla birlikte büyür.** Power Core, Reinforced Hull Plate ve Cataclysite, ödülün kredi ve Thulium miktarıyla birlikte artar. Orvium ve Velkonite Reinforced Plate ile Ancient Control Unit eski miktarlarında kalır ve booster saatleri aynıdır.
+- **IV. kademe iki katını öder.** IV. kademenin, Uçurum’un her görevi, yukarıdaki kuralın verdiğinin iki katını öder: kredi, Thulium, deneyim, eşyalar ve booster saatleri; Orvium ve Velkonite Reinforced Plate ile Ancient Control Unit da dahil. İkiye katlama, aşağıdaki tavandan önce yapılır.
+- **V. kademe, IV. kademenin üstüne çıkar.** V. kademenin bir görevi, IV. kademedeki karşılığından asla az ödemez, %10 fazla öder: deneyim, karşılığının ödediği her eşya türü (Ancient Control Unit ve Plate da dahil: IV. kademe 2 öderken 3; V. kademe görevi o türü ödemiyorsa eklenir), booster saatleri ve bir kalışta dakika başına kredi ve Thulium. Bir kalış olan **Son Nöbet** 11.340.000 kredi ve 85.010 Thulium öder. On bin öldürmelik iki görevin karşılığı yoktur ve eskisi gibi öder.
+- **Ödül başına 200.000 Thulium tavanı.** En büyük avlar daha fazlasını öderdi. Bir ödülün Thulium miktarı 200.000’i aştığında, tüm ödül, Thulium miktarı tam 200.000 olana kadar birlikte kısılır: kredi, onur ve eşyalar aynı oranda küçülür. Altı görev kısılır: **Goombah Bozgunu**, **Bulwark Denizi**, **Goombah Lejyonu**, **Crystalys Saltanatı**, **Korsan Tahtı** ve **Hattın Muhafızı**. Diğer kırk dördü tam öder.
+- **Deneyim: beş kat.** Bir görevin deneyimi, tavan neyi keserse kessin, 0.4.16 öncesinde ödediğinin tam 5 katıdır. İki durumda daha fazla öder: IV. kademede, iki kat ödemesiyle, bu 10 kattır; V. kademede ise IV. kademenin üstüne çıkarılan yedi görev (yukarıya bakın) 5 kattan fazla öder.
+- **Eşyalar parayla birlikte büyür.** Power Core, Reinforced Hull Plate ve Cataclysite, ödülün kredi ve Thulium miktarıyla birlikte artar. Orvium ve Velkonite Reinforced Plate ile Ancient Control Unit eski miktarlarında kalır ve booster saatleri aynıdır. IV. kademe bunun dışındadır: bunların hepsini, Plate, Ancient Control Unit ve booster saatleri dahil, iki kat öder. V. kademe, IV. kademenin üstüne çıkar (yukarıda).
 - **Öldürmelerin üstüne öder.** Yok ettiğin uzaylılar her zamanki gibi kendi kredi, Thulium ve onurunu öder; ödül buna ek olarak gelir.
 - **Öldürmeler iki kez sayılır.** Bir öldürme, onu isteyen her meydan okuma görevi için **ve** sayıldığı tek seviye görevi için sayılır; bu yüzden bin öldürmelik bir görev seviye görevlerini asla aç bırakmaz.
 - **Gruplar.** Bir öldürme, ödemeyi alan pilot için ve enkazın **4.000 birim** yakınında son 15 saniyede lazer ya da roket ateşlemiş her grup arkadaşı için sayılır. Her pilot kendi sayacını tutar.
@@ -187,11 +189,11 @@ Bir kademenin on görevi **toplamda, temelde** şunu öder (ödülünü aldığ�
 | :--- | --: | --: | --: | --: |
 | 1. kademe · Sınav Meydanı | 9.355.000 | 70.125 | 2.177.500 | 26.140 |
 | 2. kademe · Demir Sınır | 26.975.000 | 202.910 | 2.355.000 | 0 |
-| 3. kademe · Merkez | 46.665.000 | 338.600 | 4.435.000 | 0 |
-| 4. kademe · Uçurum | 63.270.000 | 410.335 | 9.402.500 | 0 |
-| 5. kademe · Efsaneler | 111.595.000 | 723.915 | 15.550.000 | 0 |
+| 3. kademe · Merkez | 52.640.000 | 383.480 | 4.435.000 | 0 |
+| 4. kademe · Uçurum | 126.530.000 | 820.670 | 18.805.000 | 0 |
+| 5. kademe · Efsaneler | 212.825.000 | 1.369.900 | 19.607.500 | 0 |
 
-Elli görevin tamamı birlikte temelde 257.860.000 kredi, 1.745.885 Thulium ve 33.920.000 XP öder. [Tablolar](#challenge-missions-table) her görevin her sayısını içerir.
+Elli görevin tamamı birlikte temelde 428.325.000 kredi, 2.847.085 Thulium ve 47.380.000 XP öder. [Tablolar](#challenge-missions-table) her görevin her sayısını içerir.
 
 > [!TIP]
 > Büyük avları 3. seviyeye ulaşır ulaşmaz kabul et: Seeker Vebası ve Phantasm Seli, kabul ettiğin andan itibaren her öldürmeyi, herhangi bir sektörde, seviye görevlerinin yanında sayar.
@@ -437,7 +439,7 @@ Skylab üssünle ilgili 10 görev, toplam 8.300 XP. Sayılar temeldir: bulunduğ
 
 ### Meydan okuma görevleri {#challenge-missions-table}
 
-Seviye 3 ve üzerindeki pilotlar için 50 görev, toplam 33.920.000 XP. Her biri yalnızca bir kez ödenir. Sayılar temeldir: bulunduğun dünyanın bonusu, boosterlar, Premium XP ve klan güçlendirmeleri, seviye görevlerinde olduğu gibi bunlara eklenir.
+Seviye 3 ve üzerindeki pilotlar için 50 görev, toplam 47.380.000 XP. Her biri yalnızca bir kez ödenir. Sayılar temeldir: bulunduğun dünyanın bonusu, boosterlar, Premium XP ve klan güçlendirmeleri, seviye görevlerinde olduğu gibi bunlara eklenir.
 
 #### 1. kademe · Sınav Meydanı {#challenge-tier-1}
 
@@ -479,8 +481,8 @@ On görev, istediğin sırayla. Sonraki kademe dokuzunun ödülü alınınca aç
 
 | Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Goombah Belası | Savaş | Goombah yok et ×250 | – | 672.500 | 13.335.000 | 100.000 | 0 | Cataclysite ×281, Experience Booster, 8 sa |
-| Bulwark Salgını | Savaş | Bulwark yok et ×800 | – | 660.000 | 13.330.000 | 100.000 | 0 | Power Core ×65, Laser Damage Booster I, 8 sa |
+| Goombah Belası | Savaş | Goombah yok et ×250 | – | 672.500 | 15.795.000 | 118.490 | 0 | Cataclysite ×332, Experience Booster, 8 sa |
+| Bulwark Salgını | Savaş | Bulwark yok et ×800 | – | 660.000 | 16.845.000 | 126.390 | 0 | Power Core ×81, Laser Damage Booster I, 8 sa |
 | Phantasm Okyanusu | Savaş | Phantasm yok et ×5.000 | – | 900.000 | 9.715.000 | 72.815 | 0 | Reinforced Hull Plate ×162, Resource Magnet Booster, 8 sa |
 | Crystalys Sınavı | Savaş | Crystalys yok et ×10 | – | 90.000 | 3.160.000 | 12.640 | 0 | Orvium Reinforced Plate ×6, Loot Luck Booster, 5 sa |
 | Korsan Kâbusu | Savaş | Pirate Boss yok et ×10 (sezonun 4. gününden itibaren) | – | 145.000 | 1.560.000 | 14.585 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 8 sa |
@@ -496,16 +498,16 @@ On görev, istediğin sırayla. Sonraki kademe dokuzunun ödülü alınınca aç
 
 | Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| Crystalys Temizliği | Savaş | Crystalys yok et ×50 | – | 610.000 | 17.370.000 | 69.515 | 0 | Cataclysite ×292, Experience Booster, 10 sa |
-| Goombah Bozgunu | Savaş | Goombah yok et ×500 | – | 1.167.500 | 13.330.000 | 100.000 | 0 | Power Core ×48, Laser Damage Booster I, 10 sa |
-| Korsan Kıyameti | Savaş | Pirate Boss yok et ×25 (sezonun 4. gününden itibaren) | – | 497.500 | 4.285.000 | 40.110 | 0 | Orvium Reinforced Plate ×8, Loot Luck Booster, 6 sa |
-| Dormant Alacakaranlığı | Savaş | Dormant Force yok et ×10 (sezonun 4. gününden itibaren) | – | 902.500 | 4.610.000 | 23.125 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 sa |
-| Kenar Yürüyüşü | Keşif | 16.000 / 5.300 noktasına uç (DS-4) → 19.700 / 9.000 noktasına uç (DS-4) → 16.000 / 12.700 noktasına uç (DS-4) → 12.300 / 9.000 noktasına uç (DS-4) (tüm görev boyunca gövde kaybı en fazla 76.000 puan) (tüm görev boyunca ölmeden) | – | 810.000 | 1.620.000 | 12.150 | 0 | Orvium Reinforced Plate ×6, Hull Plating Booster II, 10 sa |
-| Kenar Nöbeti | Keşif | 90 dk kesintisiz kal (DS-4) | – | 810.000 | 1.620.000 | 12.150 | 0 | Velkonite Reinforced Plate ×12, Shield Regen Booster, 10 sa |
-| Rakip Toprak | Keşif | 120 dk kesintisiz kal (rival x-4) | – | 1.717.500 | 3.435.000 | 25.760 | 0 | Cataclysite ×50, Hull Plating Booster I, 10 sa |
-| Uçurum Konvoyu | Operasyon | Goombah yok et ×6 (x-4) → Abyss Core eşyasını x-4 sektöründeki 12.800 / 6.800 noktasından Mission Control penceresine getir (gövde kaybı en fazla 46.000 puan) (ölmeden) | – | 990.000 | 2.090.000 | 15.660 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 sa |
-| Çiziksiz IV | Operasyon | Crystalys yok et ×3 (x-4) (gövde kaybı en fazla 480.000 puan) | – | 305.000 | 1.580.000 | 11.865 | 0 | Orvium Reinforced Plate ×6, Laser Damage Booster II, 10 sa |
-| Bulwark Denizi | Savaş | Bulwark yok et ×2.000 | – | 1.592.500 | 13.330.000 | 100.000 | 0 | Reinforced Hull Plate ×113, Resource Magnet Booster, 10 sa |
+| Crystalys Temizliği | Savaş | Crystalys yok et ×50 | – | 1.220.000 | 34.740.000 | 139.030 | 0 | Cataclysite ×584, Experience Booster, 20 sa |
+| Goombah Bozgunu | Savaş | Goombah yok et ×500 | – | 2.335.000 | 26.655.000 | 200.000 | 0 | Power Core ×96, Laser Damage Booster I, 20 sa |
+| Korsan Kıyameti | Savaş | Pirate Boss yok et ×25 (sezonun 4. gününden itibaren) | – | 995.000 | 8.570.000 | 80.220 | 0 | Orvium Reinforced Plate ×16, Loot Luck Booster, 12 sa |
+| Dormant Alacakaranlığı | Savaş | Dormant Force yok et ×10 (sezonun 4. gününden itibaren) | – | 1.805.000 | 9.220.000 | 46.250 | 0 | Ancient Control Unit ×2, Shield Wall Booster I, 20 sa |
+| Kenar Yürüyüşü | Keşif | 16.000 / 5.300 noktasına uç (DS-4) → 19.700 / 9.000 noktasına uç (DS-4) → 16.000 / 12.700 noktasına uç (DS-4) → 12.300 / 9.000 noktasına uç (DS-4) (tüm görev boyunca gövde kaybı en fazla 76.000 puan) (tüm görev boyunca ölmeden) | – | 1.620.000 | 3.240.000 | 24.300 | 0 | Orvium Reinforced Plate ×12, Hull Plating Booster II, 20 sa |
+| Kenar Nöbeti | Keşif | 90 dk kesintisiz kal (DS-4) | – | 1.620.000 | 3.240.000 | 24.300 | 0 | Velkonite Reinforced Plate ×24, Shield Regen Booster, 20 sa |
+| Rakip Toprak | Keşif | 120 dk kesintisiz kal (rival x-4) | – | 3.435.000 | 6.870.000 | 51.520 | 0 | Cataclysite ×100, Hull Plating Booster I, 20 sa |
+| Uçurum Konvoyu | Operasyon | Goombah yok et ×6 (x-4) → Abyss Core eşyasını x-4 sektöründeki 12.800 / 6.800 noktasından Mission Control penceresine getir (gövde kaybı en fazla 46.000 puan) (ölmeden) | – | 1.980.000 | 4.180.000 | 31.320 | 0 | Ancient Control Unit ×2, Shield Wall Booster II, 20 sa |
+| Çiziksiz IV | Operasyon | Crystalys yok et ×3 (x-4) (gövde kaybı en fazla 480.000 puan) | – | 610.000 | 3.160.000 | 23.730 | 0 | Orvium Reinforced Plate ×12, Laser Damage Booster II, 20 sa |
+| Bulwark Denizi | Savaş | Bulwark yok et ×2.000 | – | 3.185.000 | 26.655.000 | 200.000 | 0 | Reinforced Hull Plate ×226, Resource Magnet Booster, 20 sa |
 
 #### 5. kademe · Efsaneler {#challenge-tier-5}
 
@@ -513,16 +515,16 @@ On görev, istediğin sırayla. Bu son kademe.
 
 | Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
 | :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
-| On Bin Seeker | Savaş | Seeker yok et ×10.000 | – | 1.612.500 | 13.325.000 | 100.000 | 0 | Power Core ×36, Experience Booster, 10 sa |
-| On Bin Phantasm | Savaş | Phantasm yok et ×10.000 | – | 2.100.000 | 13.340.000 | 100.000 | 0 | Reinforced Hull Plate ×159, Laser Damage Booster I, 10 sa |
-| Goombah Lejyonu | Savaş | Goombah yok et ×1.000 | – | 2.337.500 | 13.330.000 | 100.000 | 0 | Cataclysite ×160, Resource Magnet Booster, 10 sa |
-| Crystalys Saltanatı | Savaş | Crystalys yok et ×150 | – | 1.827.500 | 24.990.000 | 100.000 | 0 | Orvium Reinforced Plate ×12, Loot Luck Booster, 10 sa |
-| Dormant Hâkimiyeti | Savaş | Dormant Force yok et ×25 (sezonun 4. gününden itibaren) | – | 1.970.000 | 12.670.000 | 63.590 | 0 | Ancient Control Unit ×1, Shield Wall Booster I, 10 sa |
-| Korsan Tahtı | Savaş | Pirate Boss yok et ×60 (sezonun 4. gününden itibaren) | – | 955.000 | 10.680.000 | 100.000 | 0 | Ancient Control Unit ×1, Hull Plating Booster I, 10 sa |
-| Son Nöbet | Keşif | 180 dk kesintisiz kal (DS-x) | – | 1.690.000 | 3.560.000 | 26.735 | 0 | Velkonite Reinforced Plate ×15, Shield Regen Booster, 10 sa |
-| Konvoy Sıfır | Operasyon | Goombah yok et ×8 (x-4) → Crystalys yok et ×1 (x-4) → Zero Core eşyasını x-4 sektöründeki 13.600 / 4.400 noktasından Mission Control penceresine getir (gövde kaybı en fazla 46.000 puan) (ölmeden) | – | 1.260.000 | 2.740.000 | 20.535 | 0 | Ancient Control Unit ×1, Shield Wall Booster II, 10 sa |
-| Çiziksiz Sıfır | Operasyon | Goombah yok et ×20 (x-4) (gövde kaybı en fazla 556.000 puan) | – | 435.000 | 1.740.000 | 13.055 | 0 | Orvium Reinforced Plate ×10, Laser Damage Booster II, 10 sa |
-| Hattın Muhafızı | Operasyon | Goombah yok et ×400 (x-4) → Crystalys yok et ×30 (x-4) → 60 dk kesintisiz kal (x-4) → 8.000 / 4.500 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 1.500 / 1.500 noktasına uç (x-1) | – | 1.362.500 | 15.220.000 | 100.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×298, Hull Plating Booster II, 10 sa |
+| On Bin Seeker | Savaş | Seeker yok et ×10.000 | – | 1.612.500 | 16.110.000 | 120.935 | 0 | Power Core ×43, Experience Booster, 10 sa |
+| On Bin Phantasm | Savaş | Phantasm yok et ×10.000 | – | 2.100.000 | 23.500.000 | 176.205 | 0 | Reinforced Hull Plate ×280, Laser Damage Booster I, 10 sa |
+| Goombah Lejyonu | Savaş | Goombah yok et ×1.000 | – | 2.570.000 | 26.655.000 | 200.000 | 0 | Cataclysite ×319, Power Core ×106, Resource Magnet Booster, 22 sa |
+| Crystalys Saltanatı | Savaş | Crystalys yok et ×150 | – | 1.827.500 | 49.975.000 | 200.000 | 0 | Orvium Reinforced Plate ×12, Cataclysite ×643, Loot Luck Booster, 22 sa |
+| Dormant Hâkimiyeti | Savaş | Dormant Force yok et ×25 (sezonun 4. gününden itibaren) | – | 1.987.500 | 25.355.000 | 127.190 | 0 | Ancient Control Unit ×3, Shield Wall Booster I, 22 sa |
+| Korsan Tahtı | Savaş | Pirate Boss yok et ×60 (sezonun 4. gününden itibaren) | – | 1.095.000 | 21.370.000 | 200.000 | 0 | Ancient Control Unit ×1, Orvium Reinforced Plate ×18, Hull Plating Booster I, 14 sa |
+| Son Nöbet | Keşif | 180 dk kesintisiz kal (DS-x) | – | 3.780.000 | 11.340.000 | 85.010 | 0 | Velkonite Reinforced Plate ×27, Cataclysite ×110, Shield Regen Booster, 22 sa |
+| Konvoy Sıfır | Operasyon | Goombah yok et ×8 (x-4) → Crystalys yok et ×1 (x-4) → Zero Core eşyasını x-4 sektöründeki 13.600 / 4.400 noktasından Mission Control penceresine getir (gövde kaybı en fazla 46.000 puan) (ölmeden) | – | 2.180.000 | 4.600.000 | 34.455 | 0 | Ancient Control Unit ×3, Shield Wall Booster II, 22 sa |
+| Çiziksiz Sıfır | Operasyon | Goombah yok et ×20 (x-4) (gövde kaybı en fazla 556.000 puan) | – | 672.500 | 3.480.000 | 26.105 | 0 | Orvium Reinforced Plate ×14, Laser Damage Booster II, 22 sa |
+| Hattın Muhafızı | Operasyon | Goombah yok et ×400 (x-4) → Crystalys yok et ×30 (x-4) → 60 dk kesintisiz kal (x-4) → 8.000 / 4.500 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 1.500 / 1.500 noktasına uç (x-1) | – | 1.782.500 | 30.440.000 | 200.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×596, Hull Plating Booster II, 22 sa |
 
 
 <!-- quests:end -->

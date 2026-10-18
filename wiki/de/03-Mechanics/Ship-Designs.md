@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -63,7 +63,7 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Alle vier** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 414, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.019 für jede Technologie des Spiels.
+Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 749, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.354 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 

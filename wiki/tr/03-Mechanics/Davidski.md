@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4d9008fb9fa56fb -->
+<!-- wiki-i18n source: 94b65a41bd556504 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -52,7 +52,7 @@ Kutuda 40 ile 60 Ship Fragment, 10 ile 20 Power Core ve 3.000 ile 6.000 Advanced
 
 ## Ondan satın almak {#buying-from-him}
 
-Stoğu, pazarın **Pilot pazarı** listesinde, pilotların ilanlarının arasındadır: pazarın listelediği 83 türün her biri için bir satır, kredi ve Thulium olarak (166 satır), bir lot için fiyatlandırılmış, adı altın renkte, bir **NPC** rozeti ile adet ve kalan süre yerine bir sonsuzluk işaretiyle. Pilot pazarının arama kutusu, kategorileri ve büyüleme ile para birimi filtreleri onun satırlarını her ilan gibi daraltır (eşyaları Standart’tır) ve sıralamaları onları sayısının söylediği yere koyar: fiyata göre pilotların fiyatlarının yanına, **Yakında bitenler** ve **En yeniler** altında ise pilotların ilanlarından sonraya. Ayrıntıları görmek için birini seç ve **Satın al**; satın alma ona gider, bir pilota değil. Fiyatlar:
+Stoğu, pazarın **Pilot pazarı** listesinde, pilotların ilanlarının arasındadır: pazarın listelediği 84 türün her biri için bir satır, kredi ve Thulium olarak (168 satır), bir lot için fiyatlandırılmış, adı altın renkte, bir **NPC** rozeti ile adet ve kalan süre yerine bir sonsuzluk işaretiyle. Pilot pazarının arama kutusu, kategorileri ve büyüleme ile para birimi filtreleri onun satırlarını her ilan gibi daraltır (eşyaları Standart’tır) ve sıralamaları onları sayısının söylediği yere koyar: fiyata göre pilotların fiyatlarının yanına, **Yakında bitenler** ve **En yeniler** altında ise pilotların ilanlarından sonraya. Ayrıntıları görmek için birini seç ve **Satın al**; satın alma ona gider, bir pilota değil. Fiyatlar:
 
 - **Mağaza fiyatının kredi cinsinden 100 katı ve Thulium cinsinden 40 katı**, Mağaza’nın sattığı eşyalar için; bir para birimindeki Mağaza fiyatı, diğerinde 200 kredi bir Thulium sayılarak hesaplanır. Bir Repair Drone I (Mağaza’da 5.000 kredi) 500.000 kredi ya da 1.000 Thulium, bir Quantum Laser I 800.000 kredi ya da 1.600 Thulium, roketler tanesi 50.000 ile 100.000 kredidir. İki fiyatın değeri aynı değildir: 200 kredi bir Thulium hesabıyla 1.000 Thulium yalnızca 200.000 kredi eder.
 - **Mağaza’nın satmadığı ekipman onun son çaresidir: eşyanın referans değerinin kredi cinsinden 200 katı ve Thulium cinsinden 80 katı**, ayrıca onu edinmenin en ucuz diğer yolunun (kendin üretmek ya da başka bir pilotun fiyatı) maliyetinin en az 50 katı. Bir Quantum Laser III 84.966.000 kredi ya da 169.932 Thulium, bir Helios Beam 682.192.400 kredi ya da 1.364.388 Thulium ve bir Hull Plating III 1.271.074.400 kredi ya da 2.542.152 Thulium eder. Bu satırlar küçük bir **Son çare** rozeti taşır; aşağıdaki nadir kaynaklar da öyle.

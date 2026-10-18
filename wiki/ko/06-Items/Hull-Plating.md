@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: df5b37694d9bfff2 -->
+<!-- wiki-i18n source: b031b05274071083 -->
 <!-- wiki-i18n title: 선체 장갑 -->
 # 선체 장갑 {#hull-plating}
 
@@ -34,7 +34,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 Hull Plating I은 구매합니다. **II와 III는 업그레이드입니다.** 어셈블리는 한 단계 아래 장갑 하나(인벤토리에 그냥 있는 것)를 소모하고, Thulium, 재료, **Dark Matter Plate**를 요구합니다. II는 5개, III는 8개로, 다른 장비의 마지막 티어가 요구하는 4개(와 Ancient Control Unit 1개)보다 많습니다. 둘 다 먼저 기술이 필요하며, [연구](/wiki/03-Mechanics/Research.md#tree-hull-plating) 페이지의 Hull Plating 트리에 있습니다. II는 1일과 Dark Matter 25개, III는 2일과 Dark Matter 40개가 들며, Dark Matter Plate 자체의 기술에 더해 필요합니다. 위의 트리에 가격, 재료, 시간이 나와 있습니다.
 
-[대장간](/wiki/06-Items/Forge.md)은 모든 장갑을 다룹니다. 업그레이드하면 소모한 장갑의 단련 등급이 이어지고 보너스는 다시 굴려집니다. 장갑의 능력치는 선체 하나뿐이므로 보너스도 하나만 가지며, 등급에 따라 +2%에서 +15%입니다. 영원한 등급의 Hull Plating III는 최대 17,250을 더합니다. [경매장](/wiki/03-Mechanics/Auction.md)에는 Hull Plating II와 III를 올릴 수 있고, 상점에서 파는 Hull Plating I은 올릴 수 없습니다.
+[대장간](/wiki/06-Items/Forge.md)은 모든 장갑을 다룹니다. 업그레이드하면 소모한 장갑의 단련 등급과 보너스가 이어집니다. 장갑의 능력치는 선체 하나뿐이므로 보너스도 하나만 가지며, 등급에 따라 +2%에서 +15%입니다. 영원한 등급의 Hull Plating III는 최대 17,250을 더합니다. [경매장](/wiki/03-Mechanics/Auction.md)에는 Hull Plating II와 III를 올릴 수 있고, 상점에서 파는 Hull Plating I은 올릴 수 없습니다.
 
 ## 장갑 슬롯 {#hull-plate-slots}
 

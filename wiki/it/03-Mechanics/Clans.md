@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -295,7 +295,7 @@ Dalla 0.4.22 **ogni Custode va addosso al pilota che lo ha colpito**, come il Wr
 ### Combattere un Custode {#fighting-a-warden}
 
 - **Un Custode combatte il primo pilota che lo ha colpito**, come ogni boss: lascia cominciare la nave più robusta dell’equipaggio e usa [Shield Surge ed Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Porta il più grande equipaggio possibile, con munizioni x2** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Gli equipaggi che vincevano prima della 0.4.13, di circa sette piloti, ora perdono. La tabella qui sotto è un calcolo e il caso migliore: anche in esso dieci piloti perdono contro ogni Custode, e il più piccolo equipaggio che può vincere ha 17–26 piloti con munizioni x2 e 27–39 con munizioni x1. Le ondate qui sotto non sono in quel calcolo.
+- **Porta il più grande equipaggio possibile, con munizioni x2** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Gli equipaggi che vincevano prima della 0.4.13, di circa sette piloti, ora perdono. La tabella qui sotto è un calcolo e il caso migliore: anche in esso dieci piloti perdono contro ogni Custode, e il più piccolo equipaggio che può vincere ha 17–26 piloti con munizioni x2 e 26–39 con munizioni x1. Le ondate qui sotto non sono in quel calcolo.
 - **Brood:** i droni curano il suo scafo, e un equipaggio che li ignora perde, anche se è grande. Abbattili per primi e continua ad abbatterli: ne arriva uno nuovo dopo 8 secondi (16 per il Brood Warden III). Dalla 0.4.22 il Brood Warden vola contro il pilota che lo ha colpito, e i suoi droni vanno con lui e continuano a curarlo.
 - **Siege:** i suoi razzi sono dritti e non guidati, quindi una nave che continua a muoversi ne schiva la maggior parte. Non fermarti e fate a turno da bersaglio. Dalla 0.4.22 non si aggira più: vola contro il primo pilota che lo ha colpito e gli lancia il suo Rivet da un massimo di 1.000 unità.
 - **Wrath:** quando il suo scafo scende sotto la metà, ogni raffica colpisce una volta e mezza più forte, quindi la seconda metà dello scontro è quella pericolosa. Abbatti in fretta la prima metà, tieni alti gli scudi e conserva Emergency Repair per la furia. Dalla 0.4.20 non sta più fermo: vola contro il primo pilota che lo ha colpito, a 90 unità al secondo, finché non è nel raggio dei suoi laser (700, 800 o 900 unità a seconda della potenza) e spara da lì, così un’arma con più portata non lo colpisce più gratis.
@@ -335,7 +335,7 @@ Dalla 0.4.22 **ogni Custode** fa ciò che il Wrath Warden III faceva dalla 0.4.2
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Dalla 0.4.20 il **Wrath Warden III** porta di più e più spesso: un’ondata og
 
 - **Al massimo quattro ondate sono in vita.** Un’ondata dovuta quando ne sono in vita quattro viene saltata, come per gli altri Custodi.
 - **Quanto pagano.** Un’intera ondata di 15 Bulwarks paga 75.000 crediti in Alpha, e con il suo Crystalys 150.000: circa il 2% dei 7.200.000 che paga il Custode stesso.
-- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con queste ondate e il Crystalys, dà **32 piloti su x-2, 32 su x-3 e 39 su x-4** con munizioni x2 (26 senza ondate), e 39, 41 e 51 in Gamma, dove gli alieni delle ondate sono due volte più forti. Un clan di livello 3 ha 50 membri, quindi 51 su x-4 in Gamma è uno in più di quanti può mandarne. Come la tabella di quella sezione, è calcolato e non misurato, ed è il caso migliore.
+- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con queste ondate e il Crystalys, dà **32 piloti su x-2, 32 su x-3 e 39 su x-4** con munizioni x2 (26 senza ondate), e 39, 41 e 50 in Gamma, dove gli alieni delle ondate sono due volte più forti. Un clan di livello 3 ha 50 membri, quindi 50 su x-4 in Gamma è tutto ciò che può mandare. Come la tabella di quella sezione, è calcolato e non misurato, ed è il caso migliore.
 
 ### Quale equipaggio serve {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ La tabella è il caso migliore; in gioco, porta più gente che puoi.
 | :--- | :--- | :--- |
 | 5 piloti | perdono contro ogni Custode; il Custode conserva l’88–96% di scafo e scudo | perdono |
 | 10 piloti | perdono contro ogni Custode; il Custode conserva il 55–86% di scafo e scudo | perdono |
-| 20 piloti | vincono solo contro i Siege Warden I e II, in 7,3 minuti, perdendo 6 navi, e contro il Brood Warden III, in 3,9 minuti, perdendo 9 navi | perdono |
-| 30 piloti | vincono contro ogni Custode in 2,0–5,2 minuti, perdendo da 3 a 11 navi | vincono solo contro i Siege Warden I e II, in 10,5–10,6 minuti, perdendo 9 navi, e contro il Brood Warden III, in 5,3 minuti, perdendo 13 navi |
+| 20 piloti | vincono solo contro i Siege Warden I e II, in 7,2–7,3 minuti, perdendo 6 navi, e contro il Brood Warden III, in 3,9 minuti, perdendo 9 navi | perdono |
+| 30 piloti | vincono contro ogni Custode in 2,0–5,2 minuti, perdendo da 3 a 11 navi | vincono solo contro i Siege Warden I e II, in 10,4–10,5 minuti, perdendo 9 navi, e contro il Brood Warden III, in 5,2 minuti, perdendo 13 navi |
 
-Nel calcolo il più piccolo equipaggio che vince con munizioni x2 ha **17–26 piloti** (il minimo contro i Siege Warden I e II) e perde **10–19** navi nel farlo; con munizioni x1 ha **27–39** piloti e ne perde 13–27. I laser di un Custode colpiscono con centinaia a raffica alla potenza I (240–645) e con migliaia alla potenza III (9.225–15.450), e i suoi aiutanti si sommano: la nave contro cui combatte cade in 18–55 secondi, poi si volta contro la successiva, quindi anche un equipaggio che vince perde molte navi.
+Nel calcolo il più piccolo equipaggio che vince con munizioni x2 ha **17–26 piloti** (il minimo contro i Siege Warden I e II) e perde **10–18** navi nel farlo; con munizioni x1 ha **26–39** piloti e ne perde 12–27. I laser di un Custode colpiscono con centinaia a raffica alla potenza I (240–645) e con migliaia alla potenza III (9.225–15.450), e i suoi aiutanti si sommano: la nave contro cui combatte cade in 18–55 secondi, poi si volta contro la successiva, quindi anche un equipaggio che vince perde molte navi.
 
 La tabella vale per un equipaggio con l’equipaggiamento della difficoltà propria del Custode. Navi più deboli fanno peggio. Il Custode del **tuo** clan corrisponde sempre alla **tua** difficoltà, che fissano i cinque migliori piloti del clan, quindi portali.
 

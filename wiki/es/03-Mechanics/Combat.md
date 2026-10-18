@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Se suma el daño base de todos los láseres equipados (incluidos los láseres de
 Cada andanada tiene una probabilidad de ser un golpe crítico.
 - **Probabilidad de crítico**: la probabilidad de crítico media de los láseres equipados más la suma de las probabilidades de crítico de todos los amplificadores láser equipados.
 - **Multiplicador crítico**: si un disparo es crítico, la tirada de daño se multiplica por **1,5x**. El número de daño de una andanada crítica se muestra en azul hielo, más grande y con un «!» (consulta [Números de daño y de curación](#damage-and-heal-numbers)).
-- Los Quantum Laser I y II no tienen probabilidad de crítico propia: se la dan sus amplificadores.
+- Los Quantum Laser I y II tienen una probabilidad de crítico propia del 1 %: sus amplificadores la aumentan.
 - **Daño crítico fijo**: el daño crítico plano de los amplificadores láser se suma después del multiplicador.
   - Fórmula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

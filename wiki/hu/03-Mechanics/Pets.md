@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 
@@ -47,6 +47,7 @@ A Bölcső a hangár P.E.T. nézetének gépe. Egy **munka** egy Cluster Chunkot
 
 - **A chunk fokozata dönti el a P.E.T. fokozatát**, és vele azt, hány bónusza van (1, 2 vagy 3), és milyen típus lehet: a 10 típusból 4 egy Regular chunkkal, 7 egy Mythicallal és mind a 10 egy Legendaryval. A Retriever bármelyik chunkból jöhet; a Mole-hoz Mythical vagy Legendary kell.
 - **A típust te választod** a már felfedezettek közül, vagy a **Felfedezés** gombot nyomod: ekkor a Bölcső egy olyan típust keltet ki ebből a fokozatból, amelyet még nem fedeztél fel, a munka indításakor kisorsolva, és csak akkor mutatva, amikor átveszed a P.E.T.-et. Egy típus, amelyet egy másik futó munka már kisorsolt, kimarad, így két sorban álló felfedezés sosem keltet ki ugyanazt a típust.
+- **Megszakíthatsz egy munkát**, amely fut vagy vár: nyomd meg a helyén lévő kis keresztet, és nyomd meg újra 3 másodpercen belül, amikor megkérdezi: **Megszakítod?**. A Cluster Chunk és az Orvium Reinforced Plate visszakerül hozzád, a mögötte lévő munkák felzárkóznak, és csak az az idő vész el, amennyit addig futott. A kész munkát átveszed, nem megszakítod. A felfedezés, amelyet megszakítasz, szabadon engedi a típusát, hogy újra kisorsolható legyen.
 - **A Kódex** az oldal alján a tíz típust sziluettként mutatja, amíg ki nem keltetted őket. A fiókodhoz tartozik, és a kitöltéséért nem fizetnek semmit.
 - **A P.E.T.-hangár** legfeljebb **24** P.E.T.-et fog, dokkolva vagy tárolva, és egy futó munka egynek számít. **Elengedhetsz** egyet: semmi nem tér vissza.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: エクストラ -->
 # エクストラ {#extras}
 
@@ -11,14 +11,15 @@
 | **Cloaking CPU M** | 艦を隠します | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 艦を隠します | 50 | 20,000 Thulium |
 | **P.E.T. Station I～III** | ON の間、ドッキング中の2体、3体、5体の[P.E.T.](/wiki/03-Mechanics/Pets.md#the-station)が艦にブーストを与え、経験値を得て、働きます。OFF の間は、そのどれもしません | ON / OFF | アセンブリ：研究後（下のアイテムツリー） |
+| **Auto-Rocket CPU** | ON の間、戦闘中のターゲットにアクティブなロケットを自動で発射する | ON / OFF | アセンブリ：研究後（下のアイテムツリー） |
 
 Cloaking CPU は、ショップでのみ販売されています。統合はできず、ドロップや報酬で入手することもできません。**EMP Charge** はもうエクストラではありません。0.4.21 からは消耗品で、ロケットと同じようにスタックで持ち運び、どのスロットにも装着しないため、エクストラスロットを使いません（[ロケット](/wiki/06-Items/Rockets.md#emp-charge)を参照）。2つの **Energetic Wall** もエクストラではなくなりました。0.4.22 からは同じく消耗品で、スタックで持ち運び、どのスロットにも装着しません（[Energetic Wall](#energetic-wall)を参照）。
 
 新しいパイロットの**スターターキット**では、Protos の2つのエクストラスロットに、すでに2つのエクストラが装着されています。**Base CPU I**（10回使用でき、自分の企業の基地へテレポートします）と **Repair Drone I** です。使うには、ホットバーの「エクストラ」の選択画面からスロットにドラッグしてください。キットがもらえるのは新しいパイロットだけです。0.4.10より前に登録したパイロットには、ありません。
 
-さらに7つの CPU は販売されていません。Skylab の研究センターが研究を終えると、アセンブリで製作できます（[研究](/wiki/03-Mechanics/Research.md)を参照）。Extra Slots CPU I・II・III、Jump CPU、Base CPU I・II、Auto-Repair CPU で、それぞれの働きは[最後のセクション](#research-cpus)にあります。Cloaking CPU と同じく、Jump CPU と Base CPU は落ち着いたときのためのものです。自分が撃ったり攻撃を受けたりしてから10秒以内は、この3つのどれも始動しません。2つのワープ CPU、つまり Jump CPU と Base CPU も、ミッションアイテムを運搬中は使えません（「ミッションアイテムを運搬中はワープ CPU を使えません。」）。[ミッションアイテム](/wiki/03-Mechanics/Quests.md#quest-items)を参照してください。
+さらに8つの CPU は販売されていません。Skylab の研究センターが研究を終えると、アセンブリで製作できます（[研究](/wiki/03-Mechanics/Research.md)を参照）。Extra Slots CPU I・II・III、Jump CPU、Base CPU I・II、Auto-Repair CPU、Auto-Rocket CPU で、それぞれの働きは[最後のセクション](#research-cpus)にあります。Cloaking CPU と同じく、Jump CPU と Base CPU は落ち着いたときのためのものです。自分が撃ったり攻撃を受けたりしてから10秒以内は、この3つのどれも始動しません。2つのワープ CPU、つまり Jump CPU と Base CPU も、ミッションアイテムを運搬中は使えません（「ミッションアイテムを運搬中はワープ CPU を使えません。」）。[ミッションアイテム](/wiki/03-Mechanics/Quests.md#quest-items)を参照してください。
 
-エクストラは、ホットバーのスロットに短い略称が付きます。Repair Drone は **REP**、Cloaking CPU は **CLK**、Auto-Repair CPU・Base CPU・Jump CPU は順に **ARP**、**BSE**、**JMP** です。消耗品にもそれぞれ略称があります。**EMP** と、Energetic Wall の **WAL** です。Extra Slots CPU にはスロットがなく、Skylab に取り付けられます。3つの **P.E.T. Station** のアイテムはほかのエクストラと同じで、略称は **PET** です。装備すると、そのスロットで Station を **ON** と **OFF** に切り替えられ（2回の押下の間は1秒）、どちらかが表示されます。ON の間はドッキング中の[P.E.T.](/wiki/03-Mechanics/Pets.md)が数えられ、OFF の間は数えられません。スロットにポインターを合わせると、今押すと何が起こるか、または押しても起こらない理由が読めます。
+エクストラは、ホットバーのスロットに短い略称が付きます。Repair Drone は **REP**、Cloaking CPU は **CLK**、Auto-Repair CPU・Auto-Rocket CPU・Base CPU・Jump CPU は順に **ARP**、**ARL**、**BSE**、**JMP** です。消耗品にもそれぞれ略称があります。**EMP** と、Energetic Wall の **WAL** です。Extra Slots CPU にはスロットがなく、Skylab に取り付けられます。3つの **P.E.T. Station** のアイテムはほかのエクストラと同じで、略称は **PET** です。装備すると、そのスロットで Station を **ON** と **OFF** に切り替えられ（2回の押下の間は1秒）、どちらかが表示されます。ON の間はドッキング中の[P.E.T.](/wiki/03-Mechanics/Pets.md)が数えられ、OFF の間は数えられません。**Auto-Rocket CPU** も同じように ON と OFF を切り替えます。スロットにポインターを合わせると、今押すと何が起こるか、または押しても起こらない理由が読めます。
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ CPU のうち2つは、各強化系統の最終ティアと同じく Dark Matter
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1日 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15分 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6時間 | – | 15,000 | 10分 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6時間 | – | 600 | 2分 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10時間 | – | 20,000 | 15分 |
 
 どれもショップでは売っていません。技術を研究し、アセンブリで CPU を製作します。ツリーの CPU にカーソルを合わせると、アセンブリが何を必要とするか分かります。
 
@@ -148,6 +151,13 @@ CPU のうち2つは、各強化系統の最終ティアと同じく Dark Matter
 - **働き。** 手動で出撃させられる状況になるたびに、エクストラスロットに装備した Repair Drone を自動で出撃させます。船体が満タンでなく、ドローンがまだ出ておらず、最後の被弾から 10 秒が過ぎていることが条件です。船体の割合を設定する必要はありません。
 - 専用のエクストラスロットを1つ使い、同じ構成のエクストラスロットに Repair Drone がなければ何もしません。アビリティスロットにある Repair Drone は出撃させません（それは Emergency Repair ボタンです）。
 - **ドローンを手動で止めた場合、**船体が再び満タンになるか、自分でドローンを出撃させるまで、CPU は手を出しません。
+
+### Auto-Rocket CPU
+
+- **働き。** ON の間、戦闘中（レーザーがエイリアンか敵パイロットを狙っているとき）、ロケット発射キーを押せる状況になるたびに、最後に撃ったロケットを自動でそのターゲットへ発射します。条件は、ロケットのタイマーが済んでいて、そのロケットが1発以上残っていることです。サーバーは、あなたの発射と同じように、1発ごとに確認します。
+- **スイッチ。** エクストラのスロットに装備し、その ARL スロットを押して ON と OFF を切り替えます。最初は OFF で、設定は次にサインインしても残ります。スロットは ON か OFF を表示し、CPU が発射するたびに光ります。
+- **しないこと。** ターゲットは選びません。小惑星には撃たず、セーフゾーンの中やステルス中も撃たず、N.U.K.E. と N.I.K.E. も撃ちません。自分で撃ったロケットは常に有効です。3分間、キー操作・クリック・マウスの移動がないと、何か操作するまで待機します。
+- **ロケット切れ。** 一度だけ知らせ、補充されるとすぐにまた発射します。
 
 
 <!-- research-cpus:end -->

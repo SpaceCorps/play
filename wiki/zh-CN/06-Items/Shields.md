@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39eb60672313a89b -->
+<!-- wiki-i18n source: 574007c029169684 -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾与防御 {#shields-defense}
 
@@ -44,9 +44,9 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Basic Shield Core** | 普通 | 15,000 | 500/秒 | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
 | **Heavy Shield Core** | 稀有 | 25,000 | 833/秒 | 50% | +20% | -5% | 3 | Shield Surge III | 仅可制造 |
 
-**Heavy Shield Core** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Basic Shield Core 制成，另需 4,000 Thulium、30 个 Cataclysite、12 块 Reinforced Hull Plate、2 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。它沿用被消耗核心的附魔等级，其加成会重新随机（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把 Basic Shield Core 从你的舰船上取下（并把其中的电池取出）：已装备或装有电池的核心不会被消耗。
+**Heavy Shield Core** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Basic Shield Core 制成，另需 4,000 Thulium、30 个 Cataclysite、12 块 Reinforced Hull Plate、2 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。它沿用被消耗核心的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把 Basic Shield Core 从你的舰船上取下（并把其中的电池取出）：已装备或装有电池的核心不会被消耗。
 
-**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 50%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **80%**，这是一艘舰船开箱即有的最高值。有两项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）和锻造炉的吸收率加成。目前的重置点数来源（达到各自上限时共 855 点，重置后保留；还计划增加更多来源）可以买下这 100 级中的 34 级（+3.4 点），配上完全锻造的永恒套装，约为 **95%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
+**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 50%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **80%**，这是一艘舰船开箱即有的最高值。有三项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）、锻造炉的吸收率加成，以及飞行员研究 Field Theory（+2、+3 或 +5 点）。目前的重置点数来源（达到各自上限时共 1,105 点，重置后保留；还计划增加更多来源）可以买下这 100 级中的 44 级（+4.4 点），配上完全锻造的永恒套装，约为 **95%**，加上 Field Theory III 约为 **99%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
 
 ---
 
@@ -60,7 +60,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Adaptive Core II** | 普通 | +6.4% | +3.2% | 2 | — | 仅可制造 |
 | **Adaptive Core III** | 稀有 | +8% | +4% | 3 | — | 仅可制造 |
 
-**Adaptive Core II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Adaptive Core I 制成，另需 2,000 Thulium、60 个 Ship Fragment、1 个 Power Core 和 4 块 Velkonite Reinforced Plate。**Adaptive Core III** 在装配站中由一个 Adaptive Core II 制成，另需 4,000 Thulium、110 个 Ship Fragment、5 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗核心的附魔等级，其加成会重新随机（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的核心从你的舰船上取下（并把其中的推进器和电池取出）：已装备或带有模块的核心不会被消耗。
+**Adaptive Core II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Adaptive Core I 制成，另需 2,000 Thulium、60 个 Ship Fragment、1 个 Power Core 和 4 块 Velkonite Reinforced Plate。**Adaptive Core III** 在装配站中由一个 Adaptive Core II 制成，另需 4,000 Thulium、110 个 Ship Fragment、5 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗核心的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的核心从你的舰船上取下（并把其中的推进器和电池取出）：已装备或带有模块的核心不会被消耗。
 
 ---
 
@@ -79,4 +79,4 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | **Absorption Shield Cell III** | 稀有 | +4,500 | +375/秒 | +8% | 仅可制造 |
 | **Absorption Shield Cell IV** | 史诗 | +6,000 | +500/秒 | +10% | 仅可制造 |
 
-每个系列的 I 阶以 30,000 信用点出售。II 至 IV 阶在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中制成，每一阶都由同系列低一阶的电池升级而来（Capacity Shield Cell II 由一个 Capacity Shield Cell I 制成，III 由 II，IV 由 III），另需 Thulium、掉落物和板：II 阶或 III 阶需要来自你 Skylab 的 4 块 Velkonite Reinforced Plate，IV 阶需要 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit。电池不会更换系列：Capacity 还是 Absorption，在购买 I 阶时选择。新电池沿用被消耗电池的附魔等级，其加成会重新随机（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。电池不能装进[技能槽位](/wiki/03-Mechanics/Abilities.md)；它们属于护盾和自适应核心的内部。
+每个系列的 I 阶以 30,000 信用点出售。II 至 IV 阶在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中制成，每一阶都由同系列低一阶的电池升级而来（Capacity Shield Cell II 由一个 Capacity Shield Cell I 制成，III 由 II，IV 由 III），另需 Thulium、掉落物和板：II 阶或 III 阶需要来自你 Skylab 的 4 块 Velkonite Reinforced Plate，IV 阶需要 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit。电池不会更换系列：Capacity 还是 Absorption，在购买 I 阶时选择。新电池沿用被消耗电池的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。电池不能装进[技能槽位](/wiki/03-Mechanics/Abilities.md)；它们属于护盾和自适应核心的内部。

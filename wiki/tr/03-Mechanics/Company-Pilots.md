@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50138d1e4d4865f8 -->
+<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
 <!-- wiki-i18n title: Şirket pilotları -->
 # Şirket pilotları {#company-pilots}
 
@@ -13,7 +13,7 @@ Her şirket, ana sektörlerinde (`M-1` ile `M-4`, `T-1` ile `T-4`, `G-1` ile `G-
 - **Gemi**: üç **Quantum Laser II**, iki **Light Shield Core**, bir **Engine I** ve bir **Repair Drone I** taşıyan bir [Ostirion](/wiki/02-Ships/Ostirion.md):
   - 48.000 gövde puanı, 22.000 kalkan puanı, hız 202
   - soğurma %45: kalkanları her vuruşun %45’ini, gövdeleri %55’ini alır
-  - salvo başına 195 temel hasar (x1 cephane), kritik şans yok, 700 menzil
+  - salvo başına 195 temel hasar (x1 cephane), %1 kritik şans, 700 menzil
 - **Mini haritada**: kendi şirketinin pilotları için yeşil bir elmas, başka bir şirketinkiler için kehribar rengi bir elmas.
 - **Rütbe yok**: uçuşta bir pilotun adından önceki küçük simge, pilotun [rütbesi](/wiki/03-Mechanics/Ranks.md) olup gerçek pilotlara aittir. Şirket pilotlarının rütbesi yoktur ve şirketinin rütbe sıralamasında yer almazlar. Şirket sayfası şirketinin gerçek pilotlarını en çok PvE puanı olandan başlayarak listeler; bir pilotun rütbesi, o listedeki PvE puanından ve en iyi altı rütbe için şirketin kontenjanlarından gelir.
 

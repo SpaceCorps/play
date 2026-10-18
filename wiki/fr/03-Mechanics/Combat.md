@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Les dégâts de base de tous les lasers équipés (y compris les lasers des dron
 Chaque salve a une chance d’être un coup critique.
 - **Taux critique** : le taux critique moyen des lasers équipés, plus la somme des taux critiques de tous les amplis laser équipés.
 - **Multiplicateur critique** : si un tir est critique, le tirage de dégâts est multiplié par **1,5**. Le nombre de dégâts d’une salve critique s’affiche en cyan glacé, plus grand, avec un « ! » (voir [Nombres de dégâts et de soins](#damage-and-heal-numbers)).
-- Les Quantum Laser I et II n’ont pas de taux critique propre : ce sont leurs amplis qui le leur donnent.
+- Les Quantum Laser I et II ont un taux critique propre de 1 % : leurs amplis l’augmentent.
 - **Dégâts critiques fixes** : les dégâts critiques fixes des amplis laser s’ajoutent après le multiplicateur.
   - Formule : `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

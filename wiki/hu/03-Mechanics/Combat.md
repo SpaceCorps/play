@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -23,7 +23,7 @@ Az összes felszerelt lézer (a drónokon lévőket is beleértve) és a belesze
 Minden sortűz kritikus találat is lehet.
 - **Kritikus esély**: a felszerelt lézerek kritikus esélyének átlaga, plusz az összes felszerelt lézererősítő kritikus esélyének összege.
 - **Kritikus szorzó**: ha egy lövés kritikus, a sebzésdobás **1,5-szeresére** nő. A kritikus sortűz sebzésszáma jégkékben, nagyobb méretben, „!” jellel jelenik meg (lásd: [Sebzés- és gyógyulásszámok](#damage-and-heal-numbers)).
-- A Quantum Laser I és II lézernek nincs saját kritikus esélye: azt az erősítőik adják.
+- A Quantum Laser I és II lézernek 1% saját kritikus esélye van: az erősítőik ezt növelik.
 - **Fix kritikus sebzés**: a lézererősítők bármilyen fix kritikus sebzése a szorzó után adódik hozzá.
   - Képlet: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

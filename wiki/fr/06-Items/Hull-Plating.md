@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: df5b37694d9bfff2 -->
+<!-- wiki-i18n source: b031b05274071083 -->
 <!-- wiki-i18n title: Blindage de coque -->
 # Blindage de coque {#hull-plating}
 
@@ -34,7 +34,7 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 Le Hull Plating I s’achète. **Le II et le III sont des améliorations** : l’Assemblage consomme un blindage du palier en dessous (libre dans votre inventaire) et demande du Thulium, des matériaux et des **Dark Matter Plates**, 5 pour le II et 8 pour le III, là où le dernier palier de toute autre pièce d’équipement en demande 4 et une Ancient Control Unit. Chacun a d’abord besoin de sa technologie, dans l’arbre Hull Plating de la page [Recherche](/wiki/03-Mechanics/Research.md#tree-hull-plating) : 1 jour et 25 Dark Matter pour le II, 2 jours et 40 pour le III, en plus de la technologie de la Dark Matter Plate elle-même. L’arbre ci-dessus donne les prix, les matériaux et les durées.
 
-La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge du blindage consommé et retire son bonus au sort. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Éternel ajoute jusqu’à 17 250. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
+La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge et le bonus du blindage consommé. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Éternel ajoute jusqu’à 17 250. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
 
 ## Emplacements de blindage {#hull-plate-slots}
 

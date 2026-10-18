@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Yetenekler -->
 # Aktif gemi yetenekleri {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Her geminin hangarda sabit sayıda yetenek yuvası vardır:
 - **Ironclad**: 3 yuva
 - **Wraith**: 3 yuva
 
-Bir yetenek yuvası bir **kalkan çekirdeği**, bir **motor** veya bir **Repair Drone** alır ve her biri kendi yeteneğini verir. Eşyayı yuvanın üzerine sürükle. 1. konfigürasyonun ve 2. konfigürasyonun kendi yuvaları vardır.
+Bir yetenek yuvası bir **kalkan çekirdeği**, bir **motor** veya bir **Repair Drone** alır ve her biri kendi yeteneğini verir. Eşyayı yuvanın üzerine sürükle. 1. konfigürasyonun ve 2. konfigürasyonun kendi yuvaları vardır. Hangar’da bir kalkana, motora ya da Repair Drone’a tıklamak onu her zamanki yuvasına koyar; her zamanki yuvaları (jeneratör yuvaları, Repair Drone için ekstralar) doluysa ilk boş yetenek yuvasına koyar.
 
 - **Kalkan hücreleri ve iticiler yetenek yuvasına takılmaz.** Onlar kalkanların, motorların ve Uyarlanabilir Çekirdeklerin modülleridir.
 - **Yetenek yuvasındaki bir eşya başka hiçbir şey eklemez.** Kalkan kapasitesi, dolum, soğurma veya hız vermez; bir kalkanın yavaşlatma etkisi de olmaz. Aynı Heavy Shield Core eşyası ya bir jeneratör yuvasında her an kalkanını verir ya da bir yetenek yuvasında Shield Surge yeteneğini verir. Seçim senin.

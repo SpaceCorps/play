@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a5a114c67d5c795 -->
+<!-- wiki-i18n source: 2cd682ac21559e5f -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -35,7 +35,7 @@ Skylab, sana ait yörünge tesisidir. Kredi ve Thulium üreten, cevher çıkaran
 
 - Önce **Güneş Paneli** modülünü inşa et: Skylab’da onun gücü olmadan hiçbir şey çalışmaz. Kredi Çiftliği’ni inşa etmek bedavadır; Thulium Çiftliği 5.000 kredi ve 500 Thulium tutar.
 - Çiftlikler ve toplayıcılar sen yokken bir **hazne** doldurur (72 saatlik üretim). **Topla**, haznedekini hesabına (kredi, Thulium) veya Kaynak Deposu’na (cevher) aktarır.
-- **Thulium Çiftliği** ana Thulium kaynağındır: 1. seviyede saatte 40, 20. seviyede 1.280. Kredi Çiftliği 1. seviyede saatte 750, 20. seviyede 75.000 kredi üretir.
+- **Thulium Çiftliği** ana Thulium kaynağındır: 1. seviyede saatte 40, 20. seviyede 1.280. Kredi Çiftliği 1. seviyede saatte 2.250, 20. seviyede 225.000 kredi üretir.
 - **Çekirdek** tempoyu belirler: hiçbir modül onun seviyesini aşamaz ve kendi yükselişi yaklaşık 16 buçuk gün sürer.
 - **Çekirdek 10. seviyede** bir **köprü**, altı modül yuvası daha olan **Çekirdek 2**’yi kurar; **Cephane Yazıcısı**, **Roket Fabrikası** ve **Cevher Bölmesi** ona bağlanır. 10. seviyeye geçiş 2.000 Thulium daha pahalıdır.
 - **Çekirdek 15. seviyede** ikinci bir köprü **Çekirdek 3**’ü kurar; **Motor Modülü**, **Savunma Modülü**, **Radar Modülü** ve **Trofe Bölmesi** onun yuvalarını alır: bunlarla Skylab evren haritasında uçar ve kendi başına avlanır. 15. seviyeye geçiş 4.000 Thulium daha pahalıdır. [Seferlere bak](#expeditions).
@@ -133,7 +133,7 @@ Güç, Skylab’ın can damarıdır. Güneş Paneli modülü, diğer her modül�
 
 ### Kredi Çiftliği ve Thulium Çiftliği {#credit-farm-and-thulium-farm}
 
-- **Kredi Çiftliği**: zamanla kredi üretir: **1. seviyede saatte 750, 20. seviyede 75.000** (5. seviye: 3.750; 10. seviye: 11.250; 15. seviye: 25.500). İnşa etmek bedavadır.
+- **Kredi Çiftliği**: zamanla kredi üretir: **1. seviyede saatte 2.250, 20. seviyede 225.000** (5. seviye: 11.250; 10. seviye: 33.750; 15. seviye: 76.500). İnşa etmek bedavadır.
 - **Thulium Çiftliği**: zamanla Thulium üretir: **1. seviyede saatte 40, 20. seviyede 1.280** (5. seviye: 144; 10. seviye: 360; 15. seviye: 760). İnşa etmek 5.000 kredi ve 500 Thulium tutar.
 - İkisi de güç ister ve her biri, sen toplayana kadar ürettiğinin 72 saatlik kısmını tutar.
 
@@ -477,7 +477,7 @@ Bir hücrede bir günün en fazla ne ödediği (Alpha Dünyası; Beta ve Gamma d
 | 4 | 548 | 86 | 5.503 | 1.528.510 |
 | 5 | 630 | 32 | 5.255 | 1.972.329 |
 
-Bir hücrede bir gün, o hücreyi elle avlamanın yaklaşık iki saatine değer (zorluk 4’te 3,4 saat). Zorluk 3’ten itibaren bu, Çekirdek 15. seviyedeki bir Thulium Çiftliği’nin ürettiği Thulium miktarının (günde 18.240) yaklaşık %30’udur ve o seviyedeki bir Kredi Çiftliği’nin ürettiği kredinin (günde 612.000) 1,9 ila 3,2 katıdır. Zorluk 2 olan bir sürüklenme, bütçesinin ödeyeceğinden az uzaylı barındırır ve biraz daha az kazandırır.
+Bir hücrede bir gün, o hücreyi elle avlamanın yaklaşık iki saatine değer (zorluk 4’te 3,4 saat). Zorluk 3’ten itibaren bu, Çekirdek 15. seviyedeki bir Thulium Çiftliği’nin ürettiği Thulium miktarının (günde 18.240) yaklaşık %30’udur ve o seviyedeki bir Kredi Çiftliği’nin ürettiği kredinin (günde 1.836.000) 0,6 ila 1,1 katıdır. Zorluk 2 olan bir sürüklenme, bütçesinin ödeyeceğinden az uzaylı barındırır ve biraz daha az kazandırır.
 
 Bir öldürmenin **ganimeti**, uzaylısının düşürdüklerinden çekilir: Ship Fragment, cevherler, Reinforced Hull Plate ve Power Core; zorluk 5’ten itibaren de Ultra Core ve Experimental Fusion Core cephanesi.
 
@@ -696,7 +696,7 @@ Skylab’ın büyümesi haftalar alır, bu yüzden biraz planlama karşılığı
 
 1. **Güneş Paneli, sonra Kredi Çiftliği.** Güneş Paneli 500 kredi ve 50 Thulium tutar ve onsuz hiçbir şey çalışmaz; Kredi Çiftliği bedavadır. On [istasyon görevi](/wiki/03-Mechanics/Quests.md#station-missions) seni bu ilk adımlardan geçirir ve bunun için sana temel değer olarak 52.000 kredi ve 610 Thulium öder: dünyan, boosterlar ve klan güçlendirmeleri bunu çarpar.
 2. **Sonra Thulium Çiftliği: ana Thulium kaynağındır.** 10. seviyede saatte 360 Thulium, günde 8.640 üretir; bu, Alpha Dünyası’nda 43 [Crystalys](/wiki/04-Aliens/Crystalys.md) öldürmenin ödediği kadardır (her biri 200). 10. seviyeye tırmanış, inşa dahil 1.154.000 kredi ve 4.190 Thulium tutar. 15. seviyede çiftlik günde 18.240, 20. seviyede 30.720 üretir. Haznesi 72 saat tutar, bu yüzden en geç üç günde bir uğra. Thulium ile neler alınabileceği [Kaynaklar](/wiki/06-Items/Resources.md#thulium) sayfasındadır.
-3. **Kredi Çiftliği düzenli yan gelirdir.** 10. seviyede saatte 11.250, günde 270.000 kredi üretir; maliyeti 840.000 kredi ve 109 Thulium tutar. Yüksek seviyeler yavaş amorti olur: 9. seviyeden 10. seviyeye adım, saatte 1.500 fazlası için 300.000 kredi tutar; bu 200 saattir. Elinde artan kredi olduğunda yükselt.
+3. **Kredi Çiftliği düzenli yan gelirdir.** 10. seviyede saatte 33.750, günde 810.000 kredi üretir; maliyeti 840.000 kredi ve 109 Thulium tutar. Yüksek seviyeler günler içinde amorti olur: 9. seviyeden 10. seviyeye adım, saatte 4.500 fazlası için 300.000 kredi tutar; bu 67 saattir. Elinde artan kredi olduğunda yükselt.
 4. **Çekirdeği meşgul tut.** Hiçbir şey Çekirdeğin üstüne çıkamaz ve Çekirdek tek başına 20. seviyeye ulaşmak için yaklaşık 16 buçuk gün alır. Kuyruk yoktur, bu yüzden her dönüşünde bir sonraki adımını başlat.
 5. **Tedarik zincirini bir set olarak kur.** Toplayıcılar, Kaynak Deposu ve Dökümhane Çekirdek 5. seviyede açılır. Bir toplayıcı cevheri yalnızca bir Kaynak Deposu’na aktarabilir ve depo 1. seviyede toplayıcısının bir günlük, 20. seviyede dört günlük üretimini tutar; bu yüzden Depoyu toplayıcılarla birlikte yükselt, yoksa cevher haznelerinde bekler.
 6. **Çekirdek 10. seviye için 2.000 Thulium hazır tut.** Çekirdeğin 9. seviyeden 10. seviyeye adımı bunu ister ve köprü ile Çekirdek 2’yi kurar; [Cephane Yazıcısı](#ammo-printer), [Roket Fabrikası](#rocket-factory) ve [Cevher Bölmesi](#ore-bay) orada inşa edilir.
@@ -705,29 +705,29 @@ Skylab’ın büyümesi haftalar alır, bu yüzden biraz planlama karşılığı
 
 ### Güneş Paneli yükseltmesini zamanlama {#timing-a-solar-upgrade}
 
-Güneş Paneli yükseltilirken gücünün dörtte birini üretir ve bir istasyon hemen her zaman bundan fazlasını kullanır. Çiftlikler ve toplayıcılar o zaman tüm yükseltme boyunca durur: tuttukları kalır ama üretecekleri kaybolur. Tablo, her Güneş Paneli adımı için süresini, onun içinden çalışmaya devam eden en büyük istasyonu (her modül aynı seviyede, Çekirdek ve tedarik zinciri dahil; daha küçük bir istasyon biraz daha fazlasına sığar) ve o seviyedeki bir Kredi Çiftliği ile bir Thulium Çiftliği’nin o sürede üreteceğini verir. Örneğin Güneş Paneli 10. seviyeden 11. seviyeye 4 saat sürer ve 10. seviyedeki çiftlikler bu sürede 45.000 kredi ve 1.440 Thulium üretirdi. Tablo ayrıca Cephane Yazıcısı’nı 7. seviyeden, Roket Fabrikası ve Cevher Bölmesi’ni 10. seviyeden, Sefer’in dört modülünü de 15. seviyeden itibaren sayar.
+Güneş Paneli yükseltilirken gücünün dörtte birini üretir ve bir istasyon hemen her zaman bundan fazlasını kullanır. Çiftlikler ve toplayıcılar o zaman tüm yükseltme boyunca durur: tuttukları kalır ama üretecekleri kaybolur. Tablo, her Güneş Paneli adımı için süresini, onun içinden çalışmaya devam eden en büyük istasyonu (her modül aynı seviyede, Çekirdek ve tedarik zinciri dahil; daha küçük bir istasyon biraz daha fazlasına sığar) ve o seviyedeki bir Kredi Çiftliği ile bir Thulium Çiftliği’nin o sürede üreteceğini verir. Örneğin Güneş Paneli 10. seviyeden 11. seviyeye 4 saat sürer ve 10. seviyedeki çiftlikler bu sürede 135.000 kredi ve 1.440 Thulium üretirdi. Tablo ayrıca Cephane Yazıcısı’nı 7. seviyeden, Roket Fabrikası ve Cevher Bölmesi’ni 10. seviyeden, Sefer’in dört modülünü de 15. seviyeden itibaren sayar.
 
 | Güneş Paneli yükseltmesi | Süre | Çalışmaya devam eden istasyon, en çok seviye | Bu sürede Kredi Çiftliği üretir | Bu sürede Thulium Çiftliği üretir |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 → 2 | 5 dk | yok | 63 | 3 |
-| 2 → 3 | 15 dk | yok | 375 | 16 |
-| 3 → 4 | 30 dk | yok | 1.125 | 44 |
-| 4 → 5 | 45 dk | yok | 2.250 | 84 |
-| 5 → 6 | 1 sa | yok | 3.750 | 144 |
-| 6 → 7 | 1 sa 15 dk | yok | 6.563 | 230 |
-| 7 → 8 | 1 sa 30 dk | 1 | 10.125 | 336 |
-| 8 → 9 | 2 sa | 2 | 16.500 | 528 |
-| 9 → 10 | 3 sa | 3 | 29.250 | 912 |
-| 10 → 11 | 4 sa | 5 | 45.000 | 1.440 |
-| 11 → 12 | 5 sa | 6 | 67.500 | 2.200 |
-| 12 → 13 | 6 sa | 7 | 99.000 | 3.120 |
-| 13 → 14 | 8 sa | 7 | 156.000 | 4.800 |
-| 14 → 15 | 10 sa | 8 | 225.000 | 6.800 |
-| 15 → 16 | 12 sa | 9 | 306.000 | 9.120 |
-| 16 → 17 | 16 sa | 10 | 480.000 | 14.080 |
-| 17 → 18 | 18 sa | 11 | 648.000 | 18.000 |
-| 18 → 19 | 20 sa | 12 | 870.000 | 22.400 |
-| 19 → 20 | 1 g | 13 | 1.260.000 | 28.800 |
+| 1 → 2 | 5 dk | yok | 188 | 3 |
+| 2 → 3 | 15 dk | yok | 1.125 | 16 |
+| 3 → 4 | 30 dk | yok | 3.375 | 44 |
+| 4 → 5 | 45 dk | yok | 6.750 | 84 |
+| 5 → 6 | 1 sa | yok | 11.250 | 144 |
+| 6 → 7 | 1 sa 15 dk | yok | 19.688 | 230 |
+| 7 → 8 | 1 sa 30 dk | 1 | 30.375 | 336 |
+| 8 → 9 | 2 sa | 2 | 49.500 | 528 |
+| 9 → 10 | 3 sa | 3 | 87.750 | 912 |
+| 10 → 11 | 4 sa | 5 | 135.000 | 1.440 |
+| 11 → 12 | 5 sa | 6 | 202.500 | 2.200 |
+| 12 → 13 | 6 sa | 7 | 297.000 | 3.120 |
+| 13 → 14 | 8 sa | 7 | 468.000 | 4.800 |
+| 14 → 15 | 10 sa | 8 | 675.000 | 6.800 |
+| 15 → 16 | 12 sa | 9 | 918.000 | 9.120 |
+| 16 → 17 | 16 sa | 10 | 1.440.000 | 14.080 |
+| 17 → 18 | 18 sa | 11 | 1.944.000 | 18.000 |
+| 18 → 19 | 20 sa | 12 | 2.610.000 | 22.400 |
+| 19 → 20 | 1 g | 13 | 3.780.000 | 28.800 |
 
 - **Çiftlikleri Güneş Paneli ile birlikte yükselt.** Yükseltilen bir modül zaten hiçbir şey üretmez ve güç kullanmaz; bu yüzden bir çiftliğin duraklama sırasında yükseltmede geçirdiği süre fazladan bir şeye mal olmaz.
 - **Duraklamayı göze alamıyorsan diğer modülleri düşük tut.** Bir istasyon, Güneş Paneli yükseltmesi boyunca ancak diğer tüm modülleri Güneş Paneli’nden en az beş seviye düşükse çalışmaya devam eder (Güneş Paneli 10. seviyeden itibaren altı) ve dolu bir istasyon tablonun gösterdiği gibi biraz daha fazlasını ister.

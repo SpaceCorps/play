@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Propulsion -->
 # Propulsion et vitesse {#propulsion-speed}
 
@@ -47,7 +47,7 @@ Les moteurs sont la principale source de poussée de votre vaisseau. Un moteur p
 | **Engine II** | Commun | +4 | +4 % | -8 % | 2 | Afterburner II | À fabriquer |
 | **Engine III** | Rare | +6 | +5 % | -15 % | 3 | Afterburner III | À fabriquer |
 
-L’**Engine II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Engine III** s’y fabrique à partir d’un Engine II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement du moteur qu’il consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le moteur à consommer (et sortez-en les propulseurs) : un moteur installé ou qui contient des propulseurs n’est pas consommé.
+L’**Engine II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Engine III** s’y fabrique à partir d’un Engine II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement et les bonus du moteur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le moteur à consommer (et sortez-en les propulseurs) : un moteur installé ou qui contient des propulseurs n’est pas consommé.
 
 Le bonus de bouclier des moteurs figure dans les données de l’objet, mais le jeu ne l’a jamais appliqué : les moteurs n’affaiblissent pas vos boucliers, et les cartes d’objet l’omettent.
 
@@ -86,7 +86,7 @@ L’Impulse apporte plus de vitesse fixe, le Momentum multiplie davantage ; sav
 
 Le bonus de multiplicateur de vitesse d’un propulseur, issu de la [Forge](/wiki/06-Items/Forge.md), fait croître la part au-dessus de 1 (un bonus de +15 % sur 1,0935x donne 1,1075x), et la Forge ne tire aucun bonus sur un multiplicateur de 1,05x ou moins : sur le 1,017x à 1,02975x d’un Impulse Thruster, il ajouterait moins de 0,005 (+15 % sur 1,02975x donne 1,034x). Un Impulse Thruster porte un bonus (sa vitesse fixe), un Momentum Thruster deux.
 
-Le palier I de chaque famille se vend 20 000 crédits. Les paliers II à IV se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules), chacun à partir du propulseur de la même famille un palier en dessous (un Impulse Thruster II à partir d’un Impulse Thruster I, un III à partir d’un II, un IV à partir d’un III), avec du Thulium, du butin et des plaques : 4 Velkonite Reinforced Plates de votre Skylab pour le palier II ou III, et 4 Dark Matter Plates et une Ancient Control Unit pour le palier IV. Un propulseur ne change jamais de famille : vous choisissez Impulse ou Momentum en achetant le palier I. Chacun garde le rang d’enchantement du propulseur qu’il consomme, et ses bonus sont tirés de nouveau ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les propulseurs ne vont pas dans un [emplacement de compétence](/wiki/03-Mechanics/Abilities.md) ; ils se placent dans des moteurs et des cœurs adaptatifs.
+Le palier I de chaque famille se vend 20 000 crédits. Les paliers II à IV se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules), chacun à partir du propulseur de la même famille un palier en dessous (un Impulse Thruster II à partir d’un Impulse Thruster I, un III à partir d’un II, un IV à partir d’un III), avec du Thulium, du butin et des plaques : 4 Velkonite Reinforced Plates de votre Skylab pour le palier II ou III, et 4 Dark Matter Plates et une Ancient Control Unit pour le palier IV. Un propulseur ne change jamais de famille : vous choisissez Impulse ou Momentum en achetant le palier I. Chacun garde le rang d’enchantement et les bonus du propulseur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les propulseurs ne vont pas dans un [emplacement de compétence](/wiki/03-Mechanics/Abilities.md) ; ils se placent dans des moteurs et des cœurs adaptatifs.
 
 ### Distancer les aliens {#outrunning-aliens}
 

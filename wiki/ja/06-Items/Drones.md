@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
+<!-- wiki-i18n source: d531966f18e08dc2 -->
 <!-- wiki-i18n title: ドローン -->
 # ドローン {#drones}
 
 ドローンは、購入または製作できる支援ユニットです。Slave Drone と Master Drone を合わせて、最大**8機**のドローンを同時に有効にできます。下のツリーにある16種類の**ドローン編成**はドローンではありません。研究して作成し、ホットバーから1つずつ使うもので、ドローンを1機以上持っている間だけ働きます（[ドローン編成](/wiki/03-Mechanics/Formations.md)を参照）。
 
-![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Credits, Thulium, Ship Fragments, plates and Ancient Control Units](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
@@ -16,7 +16,7 @@
 
 ```tree
 Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
@@ -43,7 +43,7 @@ Slave Drone => Master Drone
 | 名前 | レアリティ | スロット | 説明 | コスト |
 | :--------------- | :----- | :---- | :------------------------------------------------------------------------------------------- | :------------------------------- |
 | **Slave Drone** | コモン | 1 | 装備スロットを1つ持つ基本ドローン。エイリアンを撃破すると、レベル8まで成長します。 | 100,000クレジットから（下記参照） |
-| **Master Drone** | レア | 2 | アセンブリで強化した Slave Drone。金色で飛び、番号と装備品はそのままで、2つ目の装備スロットが加わり、レベル1からやり直しになります。 | Slave Drone を強化：50,000 Thulium、Ship Fragment 250個、Dark Matter Plate 20個 |
+| **Master Drone** | レア | 2 | アセンブリで強化した Slave Drone。金色で飛び、番号と装備品はそのままで、2つ目の装備スロットが加わり、レベル1からやり直しになります。 | Slave Drone を強化：1,000,000クレジット、50,000 Thulium、Ship Fragment 250個、Dark Matter Plate 10個、Orvium Reinforced Plate 5個、Velkonite Reinforced Plate 5個、Ancient Control Unit 2個 |
 
 Slave Drone は小さな球体として始まり、レベル8で装甲を備えたガンシップへと成長します。所有しているドローンはすべて、エイリアンを撃破するたびに同じ経験値を獲得し、レベルが上がると、スロットにあるレーザーのダメージがわずかに増えます（レベル8で最大 +7%）。各レベルと、それぞれに必要な経験値は、「ゲームシステム」にある「ドローンの仕組み」のページに載っています。Master Drone の製作では、ドローンは消費されません。選んだ Slave Drone をその場で強化し、強化が完了すると**レベルと経験値が0にリセットされます**（アセンブリが表示で知らせ、確認を求めます）。その代わり、ドローンの装備スロットは1つから**2つ**になります。それまで装備していたものは1つ目のスロットに残り、2つ目は空です。ドローンは、レベルと経験値も含めて、シーズンのワイプ後も残ります。
 

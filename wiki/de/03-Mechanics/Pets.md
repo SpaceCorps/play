@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -47,6 +47,7 @@ Die Wiege ist die Maschine der Ansicht P.E.T. des Hangars. Ein **Auftrag** nimmt
 
 - **Die Stufe des Chunks bestimmt die Stufe des P.E.T.**, und damit, wie viele Boosts es hat (1, 2 oder 3) und welche Typen es sein kann: 4 der 10 Typen bei einem Regular Chunk, 7 bei einem Mythical und alle 10 bei einem Legendary. Der Retriever kann aus jedem Chunk kommen; der Mole braucht einen Mythical oder einen Legendary.
 - **Du wählst den Typ** unter denen, die du entdeckt hast, oder drückst **Entdecken**: Dann lässt die Wiege einen Typ dieser Stufe schlüpfen, den du noch nicht entdeckt hast, beim Start des Auftrags ausgelost und erst gezeigt, wenn du das P.E.T. abholst. Ein Typ, den ein anderer laufender Auftrag schon gezogen hat, bleibt draußen, also lassen zwei eingereihte Entdeckungen nie denselben Typ schlüpfen.
+- **Du kannst einen Auftrag abbrechen**, der läuft oder wartet: Drücke das kleine Kreuz auf seinem Platz und drücke noch einmal innerhalb von 3 Sekunden, wenn es **Abbrechen?** fragt. Der Cluster Chunk und die Orvium Reinforced Plate kommen zurück, die Aufträge dahinter rücken nach, und verloren ist nur die Zeit, die er schon gelaufen ist. Ein fertiger Auftrag wird abgeholt, nicht abgebrochen. Eine Entdeckung, die du abbrichst, gibt ihren Typ zum erneuten Ziehen frei.
 - **Der Kodex** am Fuß der Seite zeigt die zehn Typen als Silhouetten, bis du sie geschlüpft hast. Er gehört zu deinem Konto, und fürs Füllen wird nichts ausgezahlt.
 - **Der P.E.T.-Hangar** fasst höchstens **24** P.E.T.s, angedockt oder gelagert, und ein laufender Auftrag zählt als eines. Du kannst eines **gehen lassen**: Es kommt nichts zurück.
 

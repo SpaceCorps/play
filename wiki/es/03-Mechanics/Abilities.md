@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades activas de la nave {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Cada nave tiene un número fijo de ranuras de habilidad en el hangar:
 - **Ironclad**: 3 ranuras
 - **Wraith**: 3 ranuras
 
-Una ranura de habilidad admite un **escudo**, un **motor** o un **Repair Drone**, y cada uno da su propia habilidad. Arrastra el objeto a la ranura. La configuración 1 y la configuración 2 tienen sus propias ranuras.
+Una ranura de habilidad admite un **escudo**, un **motor** o un **Repair Drone**, y cada uno da su propia habilidad. Arrastra el objeto a la ranura. La configuración 1 y la configuración 2 tienen sus propias ranuras. En el Hangar, un clic en un escudo, un motor o un Repair Drone lo coloca en su ranura habitual, y en la primera ranura de habilidad libre cuando todas sus ranuras habituales (las de generador o, en el caso de un Repair Drone, las de extras) están ocupadas.
 
 - **Las células de escudo y los propulsores no caben en una ranura de habilidad.** Son módulos de escudos, motores y núcleos adaptativos.
 - **Un objeto en una ranura de habilidad no aporta nada más.** No da capacidad de escudo, recarga, absorción ni velocidad, ni tampoco la ralentización que provoca un escudo. El mismo Heavy Shield Core o bien está en una ranura de generador, para dar su escudo en todo momento, o bien en una ranura de habilidad, para su Surge. Tú eliges.

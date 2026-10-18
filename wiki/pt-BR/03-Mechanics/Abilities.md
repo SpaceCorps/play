@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades ativas da nave {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Toda nave tem um número fixo de slots de habilidade no hangar:
 - **Ironclad**: 3 slots
 - **Wraith**: 3 slots
 
-Um slot de habilidade aceita um **escudo**, um **motor** ou um **drone de reparo**, e cada um cria a sua própria habilidade. Arraste o item para o slot. A configuração 1 e a configuração 2 têm os seus próprios slots.
+Um slot de habilidade aceita um **escudo**, um **motor** ou um **drone de reparo**, e cada um cria a sua própria habilidade. Arraste o item para o slot. A configuração 1 e a configuração 2 têm os seus próprios slots. No hangar, um clique em um escudo, um motor ou um drone de reparo o coloca no slot de costume, e no primeiro slot de habilidade livre quando todos os slots de costume dele (os de gerador ou, no drone de reparo, os de extras) estão ocupados.
 
 - **Células de escudo e propulsores não cabem em um slot de habilidade.** Eles são módulos de escudos, motores e núcleos adaptativos.
 - **Um item em um slot de habilidade não dá mais nada.** Ele não dá capacidade de escudo, recarga, absorção nem velocidade, e também não traz a lentidão que um escudo causa. O mesmo Heavy Shield Core ou fica em um slot de gerador, pelo escudo dele a todo momento, ou em um slot de habilidade, pelo Surge dele. A escolha é sua.

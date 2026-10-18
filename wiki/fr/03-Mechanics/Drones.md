@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Drones -->
 # Mécaniques des drones {#drone-mechanics}
 
@@ -92,7 +92,7 @@ La courbe est réglée pour qu’un nouveau drone atteigne le niveau 2 en enviro
 
 ### Master Drone
 
-Un Slave Drone devient un **Master Drone** quand vous l’améliorez à l’Assemblage, une fois la technologie du Master Drone recherchée ([Recherche](/wiki/03-Mechanics/Research.md)). La recette coûte 50 000 Thulium, 250 Ship Fragments et 20 Dark Matter Plates et prend 60 secondes, et elle ne consomme aucun drone : **vous choisissez quel Slave Drone** (le sélecteur affiche le niveau et l’XP de chacun), et ce même drone, avec son numéro, son emplacement de drone et tout ce qui y est installé, se transforme en Master Drone à la fin de la production, avec un second emplacement vide. Rien n’arrive dans votre inventaire et il n’y a rien à récupérer : le Journal de jeu vous prévient quand c’est terminé, y compris pour une amélioration achevée pendant votre absence.
+Un Slave Drone devient un **Master Drone** quand vous l’améliorez à l’Assemblage, une fois la technologie du Master Drone recherchée ([Recherche](/wiki/03-Mechanics/Research.md)). La recette coûte 1 000 000 crédits, 50 000 Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates et 2 Ancient Control Units et prend 60 secondes, et elle ne consomme aucun drone : **vous choisissez quel Slave Drone** (le sélecteur affiche le niveau et l’XP de chacun), et ce même drone, avec son numéro, son emplacement de drone et tout ce qui y est installé, se transforme en Master Drone à la fin de la production, avec un second emplacement vide. Rien n’arrive dans votre inventaire et il n’y a rien à récupérer : le Journal de jeu vous prévient quand c’est terminé, y compris pour une amélioration achevée pendant votre absence.
 
 **Son niveau et son XP sont remis à 0 à la fin de l’amélioration.** Un Master Drone repart du niveau 1, sans XP, et progresse comme un Slave Drone (voir le tableau ci-dessus) ; le bonus de laser du niveau qu’il avait disparaît avec lui. L’Assemblage vous le dit avant que vous commenciez et vous demande de confirmer, en nommant le drone, quand il a de l’XP. Le choix par défaut est le drone qui a le moins d’XP.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -63,7 +63,7 @@ Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a T
 | **Wraith** | 9 | 9 óra | 90 | 5 | 50 óra | 50 |
 | **Mind a négy** | 36 | 36 óra | 360 | 13 | 130 óra | 130 |
 
-Együtt 490 Dark Mattert kérnek, az összes többi technológia 414-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 019 a játék összes technológiájára.
+Együtt 490 Dark Mattert kérnek, az összes többi technológia 749-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 354 a játék összes technológiájára.
 
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 

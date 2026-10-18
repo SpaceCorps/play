@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50138d1e4d4865f8 -->
+<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
 <!-- wiki-i18n title: Piloti di corporazione -->
 # Piloti di corporazione {#company-pilots}
 
@@ -13,7 +13,7 @@ Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base 
 - **Nave**: un’[Ostirion](/wiki/02-Ships/Ostirion.md) con tre **Quantum Laser II**, due **Light Shield Core**, un **Engine I** e un **Repair Drone I**:
   - 48.000 punti scafo, 22.000 punti scudo, velocità 202
   - assorbimento 45%: i loro scudi prendono il 45% di ogni colpo, lo scafo il 55%
-  - 195 di danno base per raffica (munizioni x1), nessuna probabilità critica, portata 700
+  - 195 di danno base per raffica (munizioni x1), probabilità critica dell’1%, portata 700
 - **Sulla minimappa**: un rombo verde per i piloti della tua corporazione, uno ambra per quelli di un’altra.
 - **Nessun grado**: il piccolo simbolo davanti al nome di un pilota in volo è il suo [grado](/wiki/03-Mechanics/Ranks.md) e appartiene ai piloti veri. I piloti di corporazione non ne hanno e non sono nella classifica della tua corporazione. La pagina Corporazione elenca i piloti veri della tua corporazione, con più punti PvE per primi, e il grado di un pilota deriva dai suoi punti PvE in quell’elenco e, per i sei gradi migliori, dai posti della corporazione.
 

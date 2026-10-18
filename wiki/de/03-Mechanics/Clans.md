@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -295,7 +295,7 @@ Seit 0.4.22 **geht jeder Wächter auf den Piloten los, der ihn getroffen hat**, 
 ### Einen Wächter bekämpfen {#fighting-a-warden}
 
 - **Ein Wächter kämpft gegen den Piloten, der ihn zuerst getroffen hat**, wie jeder Boss: Lass das robusteste Schiff der Besatzung beginnen und nutze [Shield Surge und Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 17 bis 26 Piloten mit x2-Munition und 27 bis 39 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten.
+- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 17 bis 26 Piloten mit x2-Munition und 26 bis 39 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten.
 - **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, verliert, selbst eine große. Schieß sie zuerst ab und schieß weiter auf sie: Nach 8 Sekunden kommt eine neue (beim Brood Warden III nach 16). Seit 0.4.22 fliegt der Brood Warden auf den Piloten zu, der ihn getroffen hat, und seine Drohnen fliegen mit ihm und heilen ihn weiter.
 - **Siege:** Seine Raketen fliegen gerade und ungelenkt, ein Schiff, das in Bewegung bleibt, weicht den meisten aus. Bleib in Bewegung und wechselt euch als Ziel ab. Seit 0.4.22 streift er nicht mehr umher: Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, und feuert seine Rivet aus bis zu 1.000 Einheiten auf ihn ab.
 - **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf. Seit 0.4.20 steht er nicht mehr still: Er fliegt mit 90 Einheiten pro Sekunde auf den ersten Piloten zu, der ihn getroffen hat, bis er in Reichweite seiner Laser ist (700, 800 oder 900 Einheiten je nach Stärke), und feuert von dort, sodass eine Waffe mit größerer Reichweite ihn nicht mehr gefahrlos beschießt.
@@ -335,7 +335,7 @@ Seit 0.4.22 tut **jeder Wächter**, was der Wrath Warden III seit 0.4.20 tut: Un
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Seit 0.4.20 bringt der **Wrath Warden III** mehr und öfter: eine Welle alle **4
 
 - **Höchstens vier Wellen sind am Leben.** Eine Welle, die fällig ist, wenn vier leben, wird übersprungen, wie bei den anderen Wächtern.
 - **Was sie zahlen.** Eine ganze Welle aus 15 Bulwarks zahlt in Alpha 75.000 Credits, mit ihrem Crystalys 150.000: etwa 2 % der 7.200.000, die der Wächter selbst zahlt.
-- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **32 Piloten auf x-2, 32 auf x-3 und 39 auf x-4** mit x2-Munition (26 ohne Wellen) und 39, 41 und 51 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, 51 auf x-4 in Gamma sind also einer mehr, als er schicken kann. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **32 Piloten auf x-2, 32 auf x-3 und 39 auf x-4** mit x2-Munition (26 ohne Wellen) und 39, 41 und 50 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, 50 auf x-4 in Gamma sind also alles, was er schicken kann. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ Die Tabelle zeigt den besten Fall; im Spiel bring so viele mit, wie du kannst.
 | :--- | :--- | :--- |
 | 5 Piloten | verlieren gegen jeden Wächter; der Wächter behält 88 bis 96 % seiner Hülle und seines Schilds | verlieren |
 | 10 Piloten | verlieren gegen jeden Wächter; der Wächter behält 55 bis 86 % seiner Hülle und seines Schilds | verlieren |
-| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 7,3 Minuten, und verlieren 6 Schiffe, und gegen den Brood Warden III, in 3,9 Minuten, und verlieren 9 Schiffe | verlieren |
-| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 5,2 Minuten und verlieren 3 bis 11 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 10,5 bis 10,6 Minuten, und verlieren 9 Schiffe, und gegen den Brood Warden III, in 5,3 Minuten, und verlieren 13 Schiffe |
+| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 7,2 bis 7,3 Minuten, und verlieren 6 Schiffe, und gegen den Brood Warden III, in 3,9 Minuten, und verlieren 9 Schiffe | verlieren |
+| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 5,2 Minuten und verlieren 3 bis 11 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 10,4 bis 10,5 Minuten, und verlieren 9 Schiffe, und gegen den Brood Warden III, in 5,2 Minuten, und verlieren 13 Schiffe |
 
-In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **17 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **10 bis 19** Schiffe; mit x1-Munition hat sie **27 bis 39** Piloten und verliert 13 bis 27. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 55 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
+In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **17 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **10 bis 18** Schiffe; mit x1-Munition hat sie **26 bis 39** Piloten und verliert 12 bis 27. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 55 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
 
 Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des Wächters. Schwächere Schiffe schneiden schlechter ab. Der Wächter **deines** Clans passt immer zu **deiner** Stufe, die die fünf besten Piloten des Clans bestimmen, bring sie also mit.
 

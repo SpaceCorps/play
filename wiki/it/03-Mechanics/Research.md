@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Ricerca -->
 # Ricerca {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Droni {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Navi {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ I loro tempi, il loro Dark Matter e i totali sono nella pagina [Design delle nav
 ## Moduli dello Skylab {#module-technologies}
 
 La famiglia Skylab della vista Ricerca contiene ancora un tipo di tecnologia che non è una fabbricazione: i livelli del **Modulo Motori**, del **Modulo Difesa** e del **Modulo Radar**, che il livello quindici del Core sblocca. Ogni livello ha una tecnologia sua e si costruisce solo dopo di essa; il primo livello di ogni modulo non chiede Dark Matter, i successivi ne chiedono di più a ogni livello. L’albero qui sopra li lascia fuori, perché ciò che aprono è un livello di modulo e non un oggetto. Il loro Dark Matter si aggiunge ai totali qui sopra, e [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) lo somma. I loro tempi e ciò che fa ogni modulo sono nell’articolo [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Pilota {#pilot-technologies}
+
+La famiglia Pilota della vista Ricerca contiene tecnologie che non sono fabbricazioni: non producono nulla nell’Assemblaggio. La maggior parte sono **potenziamenti permanenti** per te. L’albero qui sopra le lascia fuori, perché ciò che aprono è un potenziamento e non un oggetto.
+
+- **Quanto costano.** Oltre alla scienza e al Dark Matter, un potenziamento chiede **crediti e Thulium**. Il Centro prende tutto all’inizio della ricerca e restituisce tutto se la annulli prima che finisca.
+- **Restano.** Come il resto delle tue ricerche, queste tecnologie restano dopo il reset, e con esse i loro potenziamenti.
+- **In serie.** Ogni livello richiede il precedente, e un livello più alto sostituisce quello più basso: la tabella mostra il totale che dà ogni livello, non quanto aggiunge.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) aggiungono scafo a ogni tua nave, in entrambe le configurazioni.
+- **Sealed Backdoor** alza il limite di trasporto di ogni razzo, ovunque tu lo compri, lo crei o lo scambi.
+- **Excavator Mining** alza ciò che prendi da ogni cassa di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium e minerale insieme.
+- **Field Theory** alza la parte di ogni colpo che i tuoi scudi assorbono. Una nave senza scudo non riceve nulla.
+- **Dormant Knowledge** paga punti reset, una volta per livello, quando la sua ricerca finisce nel Centro. Oltre al livello precedente, richiede una parte delle altre tecnologie ricercate (contano quelle della famiglia Pilota, non le cinque Dormant Knowledge), in qualunque modo tu le abbia ottenute; la tabella mostra ogni parte e quante tecnologie sono.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Tecnologia | Cosa dà | Richiede prima | Tempo di ricerca | Dark Matter | Crediti | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Spuntini efficienti: Kebab | +5.000 scafo su tutte le tue navi | – | 10 h | 10 | 250.000 | 2.500 |
+| Spuntini efficienti: Pelmeni | +10.000 scafo su tutte le tue navi | Spuntini efficienti: Kebab | 1 g | 20 | 1.000.000 | 10.000 |
+| Spuntini efficienti: Burger | +15.000 scafo su tutte le tue navi | Spuntini efficienti: Pelmeni | 2 g | 30 | 3.500.000 | 35.000 |
+| Retroporta sigillata I | +25% limite di trasporto dei razzi | – | 6 h | 5 | 100.000 | 1.000 |
+| Retroporta sigillata II | +50% limite di trasporto dei razzi | Retroporta sigillata I | 10 h | 10 | 300.000 | 3.000 |
+| Retroporta sigillata III | +100% limite di trasporto dei razzi | Retroporta sigillata II | 1 g | 15 | 750.000 | 7.500 |
+| Retroporta sigillata IV | +150% limite di trasporto dei razzi | Retroporta sigillata III | 2 g | 25 | 1.750.000 | 17.500 |
+| Retroporta sigillata V | +200% limite di trasporto dei razzi | Retroporta sigillata IV | 3 g | 40 | 3.500.000 | 35.000 |
+| Estrazione con escavatore I | +20% resa dell’escavatore | – | 1 g | 10 | 500.000 | 5.000 |
+| Estrazione con escavatore II | +30% resa dell’escavatore | Estrazione con escavatore I | 2 g | 20 | 1.500.000 | 15.000 |
+| Estrazione con escavatore III | +40% resa dell’escavatore | Estrazione con escavatore II | 3 g | 30 | 4.000.000 | 40.000 |
+| Teoria dei campi I | +2% assorbimento dello scudo | – | 1 g | 20 | 500.000 | 5.000 |
+| Teoria dei campi II | +3% assorbimento dello scudo | Teoria dei campi I | 2 g | 40 | 1.500.000 | 15.000 |
+| Teoria dei campi III | +5% assorbimento dello scudo | Teoria dei campi II | 3 g | 60 | 5.000.000 | 50.000 |
+| Conoscenza dormiente I | +50 punti reset | 20% delle altre tecnologie (30 su 146) | 1 h | – | – | – |
+| Conoscenza dormiente II | +50 punti reset | Conoscenza dormiente I; 40% delle altre tecnologie (59 su 146) | 1 h | – | – | – |
+| Conoscenza dormiente III | +50 punti reset | Conoscenza dormiente II; 60% delle altre tecnologie (88 su 146) | 1 h | – | – | – |
+| Conoscenza dormiente IV | +50 punti reset | Conoscenza dormiente III; 80% delle altre tecnologie (117 su 146) | 1 h | – | – | – |
+| Conoscenza dormiente V | +50 punti reset | Conoscenza dormiente IV; 100% delle altre tecnologie (146 su 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Tutte le tecnologie {#all-the-technologies}
 
@@ -416,6 +457,7 @@ La famiglia Skylab della vista Ricerca contiene ancora un tipo di tecnologia che
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10.800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 g | 86.400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
 
 Le classi, per tempo di ricerca:
 
@@ -423,11 +465,11 @@ Le classi, per tempo di ricerca:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18.000 | 0 |
 | B | da 3 h a 6 h | 20 | 2 g 21 h | 248.400 | 0 |
-| C | 10 h | 16 | 6 g 16 h | 576.000 | 95 |
+| C | 10 h | 17 | 7 g 2 h | 612.000 | 95 |
 | D | da 1 g a 2 g | 23 | 28 g | 2.419.200 | 319 |
-| Tutte |  | 69 | 37 g 18 h | 3.261.600 | 414 |
+| Tutte |  | 70 | 38 g 4 h | 3.297.600 | 414 |
 
-Ricercato una tecnologia dopo l’altra, l’intero albero richiede 37 g 18 h. Con il boost sempre attivo richiede 18 g 21 h, cioè 19 boost e 95.000 Thulium; la scienza è la stessa.
+Ricercato una tecnologia dopo l’altra, l’intero albero richiede 38 g 4 h. Con il boost sempre attivo richiede 19 g 2 h, cioè 20 boost e 100.000 Thulium; la scienza è la stessa.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Anche le nuove CPU si ricercano qui, poi si creano nell’Assemblaggio. La stess
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 g | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 
 Nessuna si vende nel Negozio: ricerca la tecnologia, poi crea la CPU nell’Assemblaggio. Passa il puntatore su una CPU nel suo albero per vedere che cosa chiede l’Assemblaggio per crearla.
 
@@ -482,6 +525,13 @@ Nessuna si vende nel Negozio: ricerca la tecnologia, poi crea la CPU nell’Asse
 - **Che cosa fa.** Lancia da solo il Repair Drone montato nei tuoi slot extra, ogni volta che avresti potuto lanciarlo a mano: il tuo scafo non è pieno, il drone non è già fuori e sono passati 10 secondi dall’ultimo colpo. Non c’è nessuna soglia di scafo da impostare.
 - Occupa uno slot extra tutto suo e non fa nulla senza un Repair Drone in uno slot extra della stessa configurazione. Non lancia mai un Repair Drone in uno slot abilità (quello è il pulsante Emergency Repair).
 - **Se fermi il drone a mano,** la CPU lo lascia stare finché il tuo scafo non è di nuovo pieno, o finché non lanci tu il drone.
+
+### Auto-Rocket CPU
+
+- **Che cosa fa.** Finché è su ON e sei in combattimento (i tuoi laser sono su un alieno o su un pilota nemico), spara da sola il tuo razzo attivo, l’ultimo che hai lanciato, su quel bersaglio, ogni volta che la pressione del tasto Lancia razzo funzionerebbe: il timer dei razzi è pronto e te ne resta uno. Il server controlla ogni lancio come controlla i tuoi.
+- **L’interruttore.** Montala in uno slot Extra e premi il suo slot ARL per portarla su ON o OFF. Parte su OFF e resta come l’hai lasciata, anche quando accedi di nuovo. Lo slot dice ON o OFF e si illumina quando la CPU spara.
+- **Che cosa non fa mai.** Non sceglie mai un bersaglio, non spara mai agli asteroidi, né da una zona sicura, né con l’occultamento attivo, e non spara mai un razzo N.U.K.E. o N.I.K.E. Un razzo che lanci tu funziona sempre. Se per 3 minuti non premi un tasto, non fai clic né muovi il mouse, aspetta che tu faccia qualcosa.
+- **Razzi finiti.** Te lo dice una volta e torna a sparare appena ne hai altri.
 
 
 <!-- research-cpus:end -->

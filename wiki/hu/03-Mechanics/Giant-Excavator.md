@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Óriás kotrógép -->
 # Óriás kotrógép {#giant-excavator}
 
@@ -32,7 +32,7 @@ A szezon első napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3`
 2. **Nyisd meg a vezérlőpultot.** Kattints a feliratra. Az **Óriás kotrógép** ablak addig működik, amíg a hajód a kotrógép vezérlőpultjának hatótávolságán belül van (a *Dióhéjban* lista megadja). Álcázott hajó is használhatja, és a használata nem szünteti meg az álcát.
 3. **Tankold fel.** A **Dark Matter hozzáadása** egy Dark Mattert tesz a rakományodból a tartályba. Ezt bárki megteheti. A tartály sosem fogad be többet, mint amennyit a kotrógép el tud égetni a túlmelegedés előtt, így nem megy kárba üzemanyag.
 4. **Válaszd ki, mit bányásszon** a listából, majd nyomd meg a **Bányászat indítása** gombot. Legalább egy Dark Matter kell hozzá a tartályban, és egy erőforrás. Az indításig és futás közben is bárki megváltoztathatja a választást (lásd lent: *Az erőforrás váltása*). Az indításról a világ minden pilótája értesül, a nevedet, a szektort és az erőforrást megnevezve.
-5. **Tartsd meg.** Amíg bányászik, néhány másodpercenként egy láda hullik a kotrógép körül, az indítás után nem sokkal pedig megérkeznek az első Slumbering Voidok. Védd a kotrógépet, és szedd fel a ládákat. Fényáram folyik a pulzártól a kotrógép fúrójáig, és megerősödik, valahányszor a csillag egyik sugara végigsöpör rajta; a túlmelegedés előtti utolsó percben vibrál és szaggatottá válik, a gép pihenésekor pedig megszűnik.
+5. **Tartsd meg.** Amíg bányászik, néhány másodpercenként egy láda hullik a kotrógép körül, az indítás után nem sokkal pedig megérkeznek az első Slumbering Voidok. Védd a kotrógépet, és szedd fel a ládákat. Fényáram folyik a pulzártól a kotrógép fúrójáig, és megerősödik a csillag ütemére, 4 másodpercenként egyszer; a túlmelegedés előtti utolsó percben vibrál és szaggatottá válik, a gép pihenésekor pedig megszűnik.
 6. **Figyeld a hőt.** A Hő sáv telik, amíg a kotrógép bányászik, és sosem ürül, amíg vár. A határán a kotrógép túlmelegszik. Menj el előtte: a játék kétszer figyelmezteti a térképet.
 7. **Pihen.** Túlmelegedve vagy megsemmisülve a kotrógép és a pulzárja sugároz, amíg a pihenő le nem telik; utána újra kész, nullára állt hővel és teli hajótesttel.
 
@@ -58,7 +58,7 @@ Ha az üzemanyag a határ előtt elfogy, a kotrógép **Kész** állapotba tér 
 
 ## Mit bányászik {#what-it-mines}
 
-Egy teli tartály nagyjából annyit ad, amennyit öt pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Az erőforrást az indítás előtt választod, és válthatsz, amíg a kotrógép fut. Egy láda mindenkinek ugyanaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát.
+Egy teli tartály nagyjából annyit ad, amennyit öt pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Az erőforrást az indítás előtt választod, és válthatsz, amíg a kotrógép fut. Egy láda mindenkinek ugyanannyit tartalmaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát. Az viszont eltérhet, mennyit veszel ki egy ládából: a Pilóta-kutatás Excavator Mining ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) minden szintje összesen 20%-kal, 30%-kal vagy 40%-kal növeli a felvett Thuliumot és ércet, lefelé kerekítve.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

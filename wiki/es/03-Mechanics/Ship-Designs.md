@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
@@ -63,7 +63,7 @@ La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Las cuatro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Juntas piden 490 Dark Matter, además de los 414 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.019 por todas las tecnologías del juego.
+Juntas piden 490 Dark Matter, además de los 749 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.354 por todas las tecnologías del juego.
 
 ## Qué le pasa a tu nave {#what-happens-to-your-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3dd26d1b3524b81 -->
+<!-- wiki-i18n source: f21bfb2143728bef -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -23,7 +23,7 @@ Varje skepp har ett fast antal förmågeplatser i hangaren:
 - **Ironclad**: 3 platser
 - **Wraith**: 3 platser
 
-En förmågeplats tar en **sköld**, en **motor** eller en **Repair Drone**, och var och en ger sin egen förmåga. Dra föremålet till platsen. Konfiguration 1 och konfiguration 2 har sina egna platser.
+En förmågeplats tar en **sköld**, en **motor** eller en **Repair Drone**, och var och en ger sin egen förmåga. Dra föremålet till platsen. Konfiguration 1 och konfiguration 2 har sina egna platser. I hangaren sätter ett klick på en sköld, en motor eller en Repair Drone den på sin vanliga plats, och på den första lediga förmågeplatsen när alla dess vanliga platser (generatorplatserna, eller extrautrustningen för en Repair Drone) är upptagna.
 
 - **Sköldceller och styrraketer passar inte i en förmågeplats.** De är moduler för sköldar, motorer och adaptiva kärnor.
 - **Ett föremål i en förmågeplats tillför inget annat.** Det ger ingen sköldkapacitet, laddning, absorption eller fart, och inte heller den fartminskning en sköld ger. Samma Heavy Shield Core sitter antingen i en generatorplats för sin sköld hela tiden, eller i en förmågeplats för sin Surge. Du väljer.

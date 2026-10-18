@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Drones -->
 # Mecânica dos drones {#drone-mechanics}
 
@@ -92,7 +92,7 @@ A curva foi ajustada para que um drone novo chegue ao nível 2 em cerca de uma h
 
 ### Master Drone
 
-Um Slave Drone vira um **Master Drone** quando você o melhora na Montagem, depois de pesquisada a tecnologia do Master Drone ([Pesquisa](/wiki/03-Mechanics/Research.md)). A receita custa 50.000 Thulium, 250 Ship Fragments e 20 Dark Matter Plates, leva 60 segundos e não consome um drone: **você escolhe qual Slave Drone** será melhorado (o seletor mostra o nível e o XP de cada um), e esse mesmo drone, com o seu número, o seu slot de drone e tudo o que está encaixado nele, vira um Master Drone quando a tarefa termina, com um segundo slot vazio. Nada vai para o seu inventário e não há nada para coletar: o Registro do jogo avisa quando termina, inclusive no caso de uma melhoria que terminou enquanto você estava fora.
+Um Slave Drone vira um **Master Drone** quando você o melhora na Montagem, depois de pesquisada a tecnologia do Master Drone ([Pesquisa](/wiki/03-Mechanics/Research.md)). A receita custa 1.000.000 de créditos, 50.000 Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium Reinforced Plates, 5 Velkonite Reinforced Plates e 2 Ancient Control Units, leva 60 segundos e não consome um drone: **você escolhe qual Slave Drone** será melhorado (o seletor mostra o nível e o XP de cada um), e esse mesmo drone, com o seu número, o seu slot de drone e tudo o que está encaixado nele, vira um Master Drone quando a tarefa termina, com um segundo slot vazio. Nada vai para o seu inventário e não há nada para coletar: o Registro do jogo avisa quando termina, inclusive no caso de uma melhoria que terminou enquanto você estava fora.
 
 **O nível e o XP dele voltam a 0 quando a melhoria termina.** Um Master Drone recomeça no nível 1, sem XP, e sobe de nível como um Slave Drone (a tabela acima); o bônus de laser do nível que ele tinha vai embora junto. A Montagem avisa isso antes de você começar e pede que você confirme, citando o drone, quando ele tem algum XP. A escolha padrão é o drone com menos XP.
 

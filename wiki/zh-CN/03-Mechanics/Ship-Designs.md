@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: 舰船设计 -->
 # 舰船设计 {#ship-designs}
 
@@ -63,7 +63,7 @@
 | **Wraith** | 9 | 9 小时 | 90 | 5 | 50 小时 | 50 |
 | **四艘合计** | 36 | 36 小时 | 360 | 13 | 130 小时 | 130 |
 
-它们加起来需要 490 个 Dark Matter，另外所有其他科技共需要 414 个，Skylab 模块的各级另外需要 115 个：游戏里所有科技共 1,019 个。
+它们加起来需要 490 个 Dark Matter，另外所有其他科技共需要 749 个，Skylab 模块的各级另外需要 115 个：游戏里所有科技共 1,354 个。
 
 ## 你的舰船会怎样 {#what-happens-to-your-ship}
 

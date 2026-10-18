@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -295,7 +295,7 @@ A 0.4.22 óta **minden őrző arra a pilótára megy, aki eltalálta**, ahogy a 
 ### Őrző elleni harc {#fighting-a-warden}
 
 - **Az őrző azzal a pilótával harcol, aki először eltalálta**, mint minden boss: hagyd, hogy a legszívósabb hajó kezdje, és használd a [Shield Surge-öt és az Emergency Repairt](/wiki/03-Mechanics/Abilities.md).
-- **Vigyél akkora legénységet, amekkorát csak tudsz, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Azok a legénységek, amelyek a 0.4.13 előtt nyertek, nagyjából hét pilóta, most veszítenek. Az alábbi táblázat számítás és a legjobb eset: még abban is tíz pilóta minden őrző ellen veszít, és a legkisebb nyerni képes legénység x2 lőszerrel 17–26, x1 lőszerrel 27–39 pilótából áll. Az alábbi hullámok nincsenek benne ebben a számításban.
+- **Vigyél akkora legénységet, amekkorát csak tudsz, x2 lőszerrel** ([Lézerek](/wiki/06-Items/Lasers.md#laser-ammunition)). Azok a legénységek, amelyek a 0.4.13 előtt nyertek, nagyjából hét pilóta, most veszítenek. Az alábbi táblázat számítás és a legjobb eset: még abban is tíz pilóta minden őrző ellen veszít, és a legkisebb nyerni képes legénység x2 lőszerrel 17–26, x1 lőszerrel 26–39 pilótából áll. Az alábbi hullámok nincsenek benne ebben a számításban.
 - **Brood:** a drónok gyógyítják a törzsét, és az a legénység, amely figyelmen kívül hagyja őket, veszít, még egy nagy is. Először őket lődd, és lődd tovább őket: 8 másodperc múlva új érkezik (a Brood Warden III-nál 16 múlva). A 0.4.22 óta a Brood Warden arra a pilótára repül, aki eltalálta, a drónjai pedig vele mennek, és tovább gyógyítják.
 - **Siege:** a rakétái egyenesek és irányítatlanok, így a mozgásban maradó hajó a legtöbbet kikerüli. Maradj mozgásban, és felváltva legyetek a célpont. A 0.4.22 óta nem kóborol többé: arra az első pilótára repül, aki eltalálta, és legfeljebb 1 000 egység távolságból lövi rá a Rivetjét.
 - **Wrath:** amint a törzse a fele alá esik, minden sorozat másfélszer akkorát üt, így a harc második fele a veszélyes. Az első felét gyorsan döntsd le, tartsd fenn a pajzsot, és az Emergency Repairt tartogasd a dühre. A 0.4.20 óta nem áll egy helyben: másodpercenként 90 egységgel arra az első pilótára repül, aki eltalálta, amíg a lézerei hatótávolságán belülre nem kerül (erősségtől függően 700, 800 vagy 900 egység), és onnan lő, így egy nagyobb hatótávolságú fegyver már nem lövi büntetlenül.
@@ -335,7 +335,7 @@ A 0.4.22 óta **minden őrző** azt teszi, amit a Wrath Warden III a 0.4.20 óta
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ A 0.4.20 óta a **Wrath Warden III** többet hoz, és gyakrabban: **40 másodper
 
 - **Legfeljebb négy hullám él.** Az a hullám, amely akkor jár le, amikor négy él, kimarad, mint a többi őrzőnél.
 - **Mennyit fizetnek.** Egy egész, 15 Bulwarkból álló hullám 75 000 kreditet fizet Alphában, ha pedig a Crystalys is benne van, 150 000-et: nagyjából a 7 200 000 2%-át, amit maga az őrző fizet.
-- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha ezek a hullámok és a Crystalys is benne vannak, x2 lőszerrel **32 pilótát ad az x-2 térképen, 32-t az x-3 térképen és 39-et az x-4 térképen** (hullámok nélkül 26), Gammában pedig, ahol a hullámok idegenei kétszer erősebbek, 39-et, 41-et és 51-et. Egy 3. szintű klán 50 tagot fogad be, így az x-4 térképen Gammában az 51 eggyel több, mint amennyit küldhet. Mint az ottani táblázat, ez is számított és nem mért, és a legjobb eset.
+- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha ezek a hullámok és a Crystalys is benne vannak, x2 lőszerrel **32 pilótát ad az x-2 térképen, 32-t az x-3 térképen és 39-et az x-4 térképen** (hullámok nélkül 26), Gammában pedig, ahol a hullámok idegenei kétszer erősebbek, 39-et, 41-et és 50-et. Egy 3. szintű klán 50 tagot fogad be, így az x-4 térképen Gammában az 50 mindaz, amit küldhet. Mint az ottani táblázat, ez is számított és nem mért, és a legjobb eset.
 
 ### Mekkora legénység kell {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ A táblázat a legjobb eset; játék közben vidd, akit csak tudsz.
 | :--- | :--- | :--- |
 | 5 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 88–96% megmarad | veszítenek |
 | 10 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 55–86% megmarad | veszítenek |
-| 20 pilóta | csak a Siege Warden I és II ellen nyernek, 7,3 perc alatt, 6 hajót elvesztve, és a Brood Warden III ellen, 3,9 perc alatt, 9 hajót elvesztve | veszítenek |
-| 30 pilóta | minden őrző ellen nyernek 2,0–5,2 perc alatt, 3–11 hajót elvesztve | csak a Siege Warden I és II ellen nyernek, 10,5–10,6 perc alatt, 9 hajót elvesztve, és a Brood Warden III ellen, 5,3 perc alatt, 13 hajót elvesztve |
+| 20 pilóta | csak a Siege Warden I és II ellen nyernek, 7,2–7,3 perc alatt, 6 hajót elvesztve, és a Brood Warden III ellen, 3,9 perc alatt, 9 hajót elvesztve | veszítenek |
+| 30 pilóta | minden őrző ellen nyernek 2,0–5,2 perc alatt, 3–11 hajót elvesztve | csak a Siege Warden I és II ellen nyernek, 10,4–10,5 perc alatt, 9 hajót elvesztve, és a Brood Warden III ellen, 5,2 perc alatt, 13 hajót elvesztve |
 
-A számításban a legkisebb legénység, amely x2 lőszerrel nyer, **17–26 pilótából** áll (a legkevesebből a Siege Warden I és II ellen), és közben **10–19** hajót veszít; x1 lőszerrel **27–39** pilótából áll, és 13–27 hajót veszít. Az őrző lézerei az I erősségnél százas nagyságrendet ütnek sorozatonként (240–645), a III erősségnél ezreset (9 225–15 450), és a segítői ehhez hozzáadódnak: a hajó, amellyel harcol, 18–55 másodperc alatt elesik, aztán a következőre fordul, így még egy nyerő legénység is sok hajót veszít.
+A számításban a legkisebb legénység, amely x2 lőszerrel nyer, **17–26 pilótából** áll (a legkevesebből a Siege Warden I és II ellen), és közben **10–18** hajót veszít; x1 lőszerrel **26–39** pilótából áll, és 12–27 hajót veszít. Az őrző lézerei az I erősségnél százas nagyságrendet ütnek sorozatonként (240–645), a III erősségnél ezreset (9 225–15 450), és a segítői ehhez hozzáadódnak: a hajó, amellyel harcol, 18–55 másodperc alatt elesik, aztán a következőre fordul, így még egy nyerő legénység is sok hajót veszít.
 
 A táblázat egy olyan legénységre vonatkozik, amely az őrző saját fokozatának felszerelésében van. A gyengébb hajók rosszabbul szerepelnek. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik, amelyet a klán öt legjobb pilótája határoz meg, ezért vidd őket.
 

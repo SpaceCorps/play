@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: Drónok -->
 # Drónmechanika {#drone-mechanics}
 
@@ -92,7 +92,7 @@ A görbe úgy van beállítva, hogy egy új drón nagyjából egy óra normál j
 
 ### Master Drone
 
-Egy Slave Drone **Master Drone**-ná válik, ha a Gyártásban továbbfejleszted, miután a Master Drone technológiáját kikutattad ([Kutatás](/wiki/03-Mechanics/Research.md)). A recept ára 50 000 Thulium, 250 Ship Fragment és 20 Dark Matter Plate, 60 másodpercig tart, és nem használ el drónt: **te választod ki, melyik Slave Drone legyen** (a választó mutatja mindegyik szintjét és XP-jét), és ugyanaz a drón a sorszámával, a drónfoglalatával és mindennel, ami beleszerelve van, Master Drone-ná alakul, amikor a munka véget ér, egy második, üres foglalattal. A leltáradba nem kerül semmi, és nincs mit átvenni: a Játéknapló jelzi, ha elkészült, akkor is, ha a fejlesztés olyankor fejeződött be, amikor nem voltál ott.
+Egy Slave Drone **Master Drone**-ná válik, ha a Gyártásban továbbfejleszted, miután a Master Drone technológiáját kikutattad ([Kutatás](/wiki/03-Mechanics/Research.md)). A recept ára 1 000 000 kredit, 50 000 Thulium, 250 Ship Fragment, 10 Dark Matter Plate, 5 Orvium Reinforced Plate, 5 Velkonite Reinforced Plate és 2 Ancient Control Unit, 60 másodpercig tart, és nem használ el drónt: **te választod ki, melyik Slave Drone legyen** (a választó mutatja mindegyik szintjét és XP-jét), és ugyanaz a drón a sorszámával, a drónfoglalatával és mindennel, ami beleszerelve van, Master Drone-ná alakul, amikor a munka véget ér, egy második, üres foglalattal. A leltáradba nem kerül semmi, és nincs mit átvenni: a Játéknapló jelzi, ha elkészült, akkor is, ha a fejlesztés olyankor fejeződött be, amikor nem voltál ott.
 
 **A szintje és az XP-je 0-ra áll vissza, amikor a fejlesztés véget ér.** A Master Drone újra az 1. szinten indul, XP nélkül, és úgy lép szintet, ahogy a Slave Drone (lásd a fenti táblázatot); az addigi szintjével járó lézerbónusz is elvész. A Gyártás indítás előtt szól erről, és megerősítést kér, megnevezve a drónt, ha van XP-je. Az alapértelmezett választás a legkevesebb XP-vel rendelkező drón.
 

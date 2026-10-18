@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 7c6fecaba019f9b7 -->
+<!-- wiki-i18n source: d531966f18e08dc2 -->
 <!-- wiki-i18n title: Dronlar -->
 # Dronlar {#drones}
 
 Dronlar satın alınabilen ya da üretilebilen destek birimleridir. Aynı anda en fazla **8 dron** aktif olabilir; Slave Drone ve Master Drone birlikte sayılır. Aşağıdaki ağaçta yer alan on altı **dron formasyonu** dron değildir: onları araştırır ve üretirsin, kısayol çubuğundan her seferinde birini kuşanırsın ve yalnızca en az bir dronun olduğu sürece çalışırlar (bkz. [Dron formasyonları](/wiki/03-Mechanics/Formations.md)).
 
-![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../../img/wiki-img/shots/master-drone-recipe.jpg)
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Credits, Thulium, Ship Fragments, plates and Ancient Control Units](../../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
@@ -16,7 +16,7 @@ Her Montaj ürünü önce kendi teknolojisini ister; araştırmanın ne kadar s�
 
 ```tree
 Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
@@ -43,7 +43,7 @@ Slave Drone => Master Drone
 | Ad | Nadirlik | Yuvalar | Açıklama | Maliyet |
 | :--------------- | :----- | :---- | :------------------------------------------------------------------------------------------- | :------------------------------- |
 | **Slave Drone**  | Sıradan | 1     | Tek bir ekipman yuvası olan temel bir dron. Uzaylıları yok ettikçe 8 seviye boyunca gelişir. | 100.000 krediden başlar (aşağıya bak) |
-| **Master Drone** | Nadir   | 2     | Montaj’da yükseltilmiş bir Slave Drone. Altın renkte uçar, numarasını ve taşıdıklarını korur, ikinci bir ekipman yuvası kazanır ve yeniden 1. seviyeden başlar. | Slave Drone yükseltmesi: 50.000 Thulium, 250 Ship Fragment ve 20 Dark Matter Plate |
+| **Master Drone** | Nadir   | 2     | Montaj’da yükseltilmiş bir Slave Drone. Altın renkte uçar, numarasını ve taşıdıklarını korur, ikinci bir ekipman yuvası kazanır ve yeniden 1. seviyeden başlar. | Slave Drone yükseltmesi: 1.000.000 kredi, 50.000 Thulium, 250 Ship Fragment, 10 Dark Matter Plate, 5 Orvium Reinforced Plate, 5 Velkonite Reinforced Plate ve 2 Ancient Control Unit |
 
 Slave Drone küçük bir küre olarak başlar ve 8. seviyede zırhlı bir savaş gemisine dönüşür. Bir uzaylıyı her yok edişinde sahip olduğun her dron aynı deneyimi kazanır; daha yüksek bir seviye, yuvasındaki lazere biraz hasar ekler (8. seviyede en fazla +%7). Seviyeler ve her birinin ne istediği Dron mekaniği sayfasında (Mekanikler altında) yer alır. Master Drone üretmek bir dronu harcamaz: seçtiğin dronu yerinde yükseltir ve yükseltme bittiğinde **seviyesi ve deneyimi 0’a sıfırlanır** (Montaj bunu söyler ve onay ister). Karşılığında dronun, bir yerine **iki ekipman yuvası** olur: taşıdığı birinci yuvada kalır, ikincisi boştur. Dronların, seviyeleri ve deneyimleriyle birlikte sezon sıfırlamasında korunur.
 

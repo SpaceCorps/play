@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5842e3fb46a29a0 -->
+<!-- wiki-i18n source: da8af0d25d34a2c4 -->
 <!-- wiki-i18n title: Envanter -->
 # Envanter ve ekipman {#inventory-equipment}
 
@@ -33,6 +33,8 @@ Kazandığın eşyalar (düşenler, görev ödülleri ve Montaj ile Demirhane’
 ## Birden çok eşya seçme {#select-several-items}
 
 Envanterin boş bir yerine bas (kutucukların yanındaki boşluk, iki kutucuk arasındaki aralık ya da son satırın altındaki alan) ve sürükle: yarı saydam bir dikdörtgen işaretçiyi izler ve dokunduğu her kutucuk sen sürüklerken seçilir. Bırak, seçim kalır; başlık satırı onu sayar (“3 seçili”). Seçime eklemek için sürüklerken **Shift**, **Ctrl** veya **Cmd** tuşunu basılı tut: seçimde zaten olup dikdörtgenin dokunduğu kutucuklar bunun yerine seçimden çıkar. Düz bir sürükleme yeni bir seçim başlatır. **Esc**, boş bir yere tıklamak ya da başlık satırında çöp kutusunun yanındaki düğme seçimi temizler; sürüklemenin ortasında **Esc** sürüklemeyi iptal eder. Uzun bir envanterin üst veya alt kenarında liste kendiliğinden kayar. Bir kutucuğa basmak yine kutucuğun kendi işidir: takmak için tıkla, yuvaya sürükle. Başlık satırındaki çöp kutusu düğmesi, seçili eşyaları onları listeleyen bir onay sorusundan sonra siler (aynı ekstralardan oluşan bir yığın bütün olarak gider); uçuştaki hangar kilitliyken sunulmaz. Skylab’da takılı bir eşya seçilemez; yalnızca arama ve kategori düğmelerinin ızgarada bıraktıkları seçilebilir. Seçim dikdörtgeni seçime bir kutucuk daha kattığında hafif bir tık sesi gelir (Ayarlar’daki Düğme sesleri anahtarını izler).
+
+**Seçimin tamamını tak.** Seçili kutucuklardan birini sürükle, seçimin tamamı onunla gelir; işaretçinin önünde sayısı olan bir kutucuk yığını olarak (seçili olmayan kutucuk tek başına sürüklenir, seçili bir kutucuğa tıklamak da yine yalnızca o eşyayı takar). Bir yuvanın ya da kartın üzerinde bırakırsan işaretçinin altındaki eşya sığıyorsa oraya gider, diğer her eşya en iyi yuvasına; geminin boş kısımlarında bırakırsan her eşya en iyi yuvasına gider; başka yerde bırakırsan hiçbir şey olmaz ve **Esc** sürüklemeyi bırakır. Başlık satırında çöp kutusunun yanındaki ok düğmesi (ipucu, seçili eşyaları en iyi yuvalarına taktığını söyler) sürüklemeden aynı işi yapar; P.E.T. görünümünde ve uçuştaki hangar kilitliyken sunulmaz. En iyi yuva, bir tıklamanın eşyayı koyacağı yuvadır ve her eşya için sırayla hesaplanır: önce lazerler, en güçlüsü önce; sonra kalkanlar, motorlar ve Uyarlanabilir Çekirdekler, ekstralar, Repair Drone’lar (ekstralar doluysa boş bir yetenek yuvasına), gövde kaplamaları ve en son amfiler, hücreler ve iticiler; bunların lazerlerinin, kalkanlarının ve motorlarının o ana kadar takılmış olması gerekir. Yerleştirilemeyenler seçili kalır ve tek bir mesaj kaç tanesinin girdiğini (“Takılan: 7 / 9.”) ve diğerlerinin neden girmediğini söyler. Bırakmanın tamamı için tek bir hafif ses çalar.
 
 ## Eşyadan eşyaya takma (alt yuvalar) {#item-to-item-equipping-sub-sockets-}
 

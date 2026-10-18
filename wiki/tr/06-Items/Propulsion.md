@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 526e241c3b279356 -->
+<!-- wiki-i18n source: 1e45a320f392e480 -->
 <!-- wiki-i18n title: Tahrik -->
 # Tahrik ve hız {#propulsion-speed}
 
@@ -47,7 +47,7 @@ Motorlar geminin ana itki kaynağıdır. Bir **yetenek yuvasındaki** motor ise 
 | **Engine II** | Sıradan | +4 | +%4 | -%8 | 2 | Afterburner II | Yalnızca üretilebilir |
 | **Engine III** | Nadir | +6 | +%5 | -%15 | 3 | Afterburner III | Yalnızca üretilebilir |
 
-**Engine II**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Engine I eşyasından üretilir: 2.000 Thulium, 60 Ship Fragment, 1 Power Core ve 4 Velkonite Reinforced Plate gerekir. **Engine III** orada bir Engine II eşyasından üretilir: 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Her biri harcadığı motorun büyüleme kademesini korur ve bonusları yeniden belirlenir ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce harcayacağın motoru gemiden çıkar (iticilerini de içinden al): takılı olan ya da itici barındıran bir motor harcanmaz.
+**Engine II**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Engine I eşyasından üretilir: 2.000 Thulium, 60 Ship Fragment, 1 Power Core ve 4 Velkonite Reinforced Plate gerekir. **Engine III** orada bir Engine II eşyasından üretilir: 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Her biri harcadığı motorun büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce harcayacağın motoru gemiden çıkar (iticilerini de içinden al): takılı olan ya da itici barındıran bir motor harcanmaz.
 
 Motorların kalkan bonusu eşya verisinde yer alır, ama oyun onu hiç uygulamadı: motorlar kalkanlarını zayıflatmaz ve eşya kartları onu göstermez.
 
@@ -86,7 +86,7 @@ Impulse daha çok sabit hız ekler, Momentum daha çok çarpar; bu yüzden hangi
 
 Bir iticinin [Demirhane’den](/wiki/06-Items/Forge.md) gelen hız çarpanı bonusu 1’in üstündeki kısmı büyütür (x1,0935 üzerindeki +%15 bonus x1,1075 yapar) ve Demirhane, x1,05 ya da daha düşük bir çarpana bonus vermez: Impulse ailesinin x1,017 ila x1,02975 değerinde 0,005’ten azını ekler (x1,02975 üzerindeki +%15, x1,034 yapar). Bir Impulse Thruster bir bonus taşır (sabit hızı), bir Momentum Thruster iki.
 
-Her ailenin I. kademesi 20.000 krediye satılır. II. ila IV. kademeler [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules), her biri aynı ailenin bir alt kademedeki iticisinden üretilir (her kademe bir öncekinden: I’den II, II’den III, III’ten IV), Thulium, ganimet ve plakalarla: II. ya da III. kademe için Skylab’ından 4 Velkonite Reinforced Plate, IV. kademe için 4 Dark Matter Plate ve bir Ancient Control Unit. Bir itici asla aile değiştirmez: I. kademeyi satın alırken Impulse ya da Momentum ailesini seçersin. Her biri harcadığı iticinin büyüleme kademesini korur ve bonusları yeniden belirlenir ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). İticiler bir [yetenek yuvasına](/wiki/03-Mechanics/Abilities.md) takılmaz; motorların ve Uyarlanabilir Çekirdeklerin içine aittirler.
+Her ailenin I. kademesi 20.000 krediye satılır. II. ila IV. kademeler [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules), her biri aynı ailenin bir alt kademedeki iticisinden üretilir (her kademe bir öncekinden: I’den II, II’den III, III’ten IV), Thulium, ganimet ve plakalarla: II. ya da III. kademe için Skylab’ından 4 Velkonite Reinforced Plate, IV. kademe için 4 Dark Matter Plate ve bir Ancient Control Unit. Bir itici asla aile değiştirmez: I. kademeyi satın alırken Impulse ya da Momentum ailesini seçersin. Her biri harcadığı iticinin büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). İticiler bir [yetenek yuvasına](/wiki/03-Mechanics/Abilities.md) takılmaz; motorların ve Uyarlanabilir Çekirdeklerin içine aittirler.
 
 ### Uzaylıları geride bırakmak {#outrunning-aliens}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Excavatrice géante -->
 # Excavatrice géante {#giant-excavator}
 
@@ -32,7 +32,7 @@ Dès le premier jour de la saison, un **pulsar** brille dans chacun des secteurs
 2. **Ouvrir le panneau.** Cliquez sur l’étiquette. La fenêtre **Excavatrice géante** fonctionne tant que votre vaisseau est à portée du panneau de l’excavatrice (la liste *En un coup d’œil* l’indique). Un vaisseau occulté peut l’utiliser, et l’utiliser ne met pas fin à l’occultation.
 3. **La ravitailler.** **Ajouter de la Dark Matter** met une Dark Matter de votre cargaison dans le réservoir. N’importe qui peut le faire. Le réservoir n’en prend jamais plus que l’excavatrice ne peut en brûler avant de surchauffer, si bien qu’aucun carburant n’est gaspillé.
 4. **Choisir ce qu’elle extrait** dans la liste, puis appuyer sur **Lancer l’extraction**. Il faut au moins une Dark Matter dans le réservoir et une ressource. N’importe qui peut changer le choix jusqu’au lancement et aussi pendant qu’elle tourne (voir *Changer de ressource* plus bas). Le lancement est annoncé à tous les pilotes du monde, avec votre nom, le secteur et la ressource.
-5. **La tenir.** Pendant qu’elle extrait, une caisse tombe autour de l’excavatrice toutes les quelques secondes, et les premiers Slumbering Voids arrivent peu après le lancement. Défendez l’excavatrice et prenez les caisses. Un flux de lumière va du pulsar au foret de l’excavatrice et s’intensifie chaque fois qu’un des jets de l’étoile le balaie ; dans la dernière minute avant la surchauffe, il vacille et se déchire, et quand la machine se repose, il s’arrête.
+5. **La tenir.** Pendant qu’elle extrait, une caisse tombe autour de l’excavatrice toutes les quelques secondes, et les premiers Slumbering Voids arrivent peu après le lancement. Défendez l’excavatrice et prenez les caisses. Un flux de lumière va du pulsar au foret de l’excavatrice et s’intensifie au rythme de l’étoile, une fois toutes les 4 secondes ; dans la dernière minute avant la surchauffe, il vacille et se déchire, et quand la machine se repose, il s’arrête.
 6. **Surveiller la chaleur.** La barre de Chaleur se remplit pendant que l’excavatrice extrait et ne se vide jamais pendant qu’elle attend. À sa limite, l’excavatrice surchauffe. Partez avant : le jeu avertit la carte deux fois.
 7. **Elle se repose.** Surchauffée ou détruite, l’excavatrice et son pulsar sont irradiés jusqu’à la fin du repos ; puis elle est de nouveau prête, avec sa chaleur remise à zéro et sa coque pleine.
 
@@ -58,7 +58,7 @@ Si le carburant s’épuise avant la limite, l’excavatrice revient à **Prête
 
 ## Ce qu’elle extrait {#what-it-mines}
 
-Un réservoir plein dépose à peu près ce que gagneraient cinq pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez la ressource avant le lancement et pouvez en changer pendant que l’excavatrice tourne. Une caisse est la même pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes.
+Un réservoir plein dépose à peu près ce que gagneraient cinq pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez la ressource avant le lancement et pouvez en changer pendant que l’excavatrice tourne. Une caisse contient la même chose pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes. Ce que vous en retirez peut en revanche différer : chaque niveau de la recherche Pilote Excavator Mining ([Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies)) augmente le Thulium et le minerai que vous ramassez de 20 %, 30 % ou 40 % au total, arrondi à l’inférieur.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -295,7 +295,7 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 ### Warden ile savaşma {#fighting-a-warden}
 
 - **Bir Warden, kendisine ilk vuran pilotla savaşır**, her patron gibi: ekibin en sağlam gemisi başlasın ve [Shield Surge ile Emergency Repair](/wiki/03-Mechanics/Abilities.md) yeteneklerini kullan.
-- **Getirebildiğin en büyük ekibi, x2 cephaneyle getir** ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13’ten önce kazanan ekipler, yaklaşık yedi pilot, artık kaybediyor. Aşağıdaki tablo bir hesaptır ve en iyi durumdur: onda bile on pilot her Warden karşısında kaybeder ve kazanabilecek en küçük ekip x2 cephaneyle 17 ile 26, x1 cephaneyle 27 ile 39 pilottur. Aşağıdaki dalgalar bu hesapta yoktur.
+- **Getirebildiğin en büyük ekibi, x2 cephaneyle getir** ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13’ten önce kazanan ekipler, yaklaşık yedi pilot, artık kaybediyor. Aşağıdaki tablo bir hesaptır ve en iyi durumdur: onda bile on pilot her Warden karşısında kaybeder ve kazanabilecek en küçük ekip x2 cephaneyle 17 ile 26, x1 cephaneyle 26 ile 39 pilottur. Aşağıdaki dalgalar bu hesapta yoktur.
 - **Brood:** dronlar gövdesini iyileştirir ve onları görmezden gelen bir ekip, büyük olsa bile, kaybeder. Önce onları vur ve vurmaya devam et: 8 saniye sonra yenisi gelir (Brood Warden III için 16). 0.4.22’den beri Brood Warden kendisine vuran pilota doğru uçar; dronları onunla gider ve onu iyileştirmeye devam eder.
 - **Siege:** roketleri güdümsüzdür ve düz gider; bu yüzden hareket etmeye devam eden bir gemi çoğundan sıyrılır. Hareket etmeye devam et ve hedef olma sırasını arkadaşlarınla paylaş. 0.4.22’den beri artık dolaşmaz: kendisine ilk vuran pilota doğru uçar ve Rivet roketini ona en çok 1.000 birim uzaklıktan fırlatır.
 - **Wrath:** gövdesi yarının altına düştüğünde her salvo bir buçuk kat daha çok acıtır, bu yüzden savaşın ikinci yarısı tehlikeli olandır. İlk yarıyı çabuk indir, kalkanları dolu tut ve Emergency Repair yeteneğini öfke için sakla. 0.4.20’den beri olduğu yerde durmaz: kendisine ilk vuran pilota doğru saniyede 90 birim hızla, lazer menziline (güce göre 700, 800 veya 900 birim) girene kadar uçar ve oradan ateş eder; bu yüzden daha uzağa erişen bir silah artık ona bedavaya ateş edemez.
@@ -335,7 +335,7 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 
 - **En çok dört dalga etkindir.** Dört dalga etkinken sırası gelen bir dalga, öteki sekiz Warden için olduğu gibi atlanır.
 - **Ne öderler.** 15 Bulwark içeren bir dalganın tamamı Alpha’da 75.000 kredi öder, Crystalys ile birlikte 150.000: Warden ödemesi olan 7.200.000’in yaklaşık %2’si.
-- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **32, x-3’te 32 ve x-4’te 39 pilot** verir (dalgasız 26); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 39, 41 ve 51. 3. seviye bir klan 50 üye alır, yani Gamma’da x-4 için 51, gönderebileceğinden bir fazladır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
+- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **32, x-3’te 32 ve x-4’te 39 pilot** verir (dalgasız 26); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 39, 41 ve 50. 3. seviye bir klan 50 üye alır, yani Gamma’da x-4 için 50, gönderebileceğinin tamamıdır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
 
 ### Ekip ne kadar büyük olmalı {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ Tablo en iyi durumdur; oyunda getirebildiğin herkesi getir.
 | :--- | :--- | :--- |
 | 5 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %88 ile %96’sı kalır | kaybeder |
 | 10 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %55 ile %86’sı kalır | kaybeder |
-| 20 pilot | yalnızca Siege Warden I ve II karşısında 7,3 dakikada 6 gemi kaybederek, Brood Warden III karşısında ise 3,9 dakikada 9 gemi kaybederek kazanır | kaybeder |
-| 30 pilot | her Warden karşısında 2,0 ile 5,2 dakikada, 3 ile 11 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 10,5 ile 10,6 dakikada 9 gemi kaybederek, Brood Warden III karşısında ise 5,3 dakikada 13 gemi kaybederek kazanır |
+| 20 pilot | yalnızca Siege Warden I ve II karşısında 7,2 ile 7,3 dakikada 6 gemi kaybederek, Brood Warden III karşısında ise 3,9 dakikada 9 gemi kaybederek kazanır | kaybeder |
+| 30 pilot | her Warden karşısında 2,0 ile 5,2 dakikada, 3 ile 11 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 10,4 ile 10,5 dakikada 9 gemi kaybederek, Brood Warden III karşısında ise 5,2 dakikada 13 gemi kaybederek kazanır |
 
-Hesapta x2 cephaneyle kazanan en küçük ekip **17 ile 26 pilottur** (en azı Siege Warden I ve II karşısında) ve bunu yaparken **10 ile 19** gemi kaybeder; x1 cephaneyle **27 ile 39** pilottur ve 13 ile 27 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce (240 ile 645), III. güçte binlerce (9.225 ile 15.450) vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 55 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
+Hesapta x2 cephaneyle kazanan en küçük ekip **17 ile 26 pilottur** (en azı Siege Warden I ve II karşısında) ve bunu yaparken **10 ile 18** gemi kaybeder; x1 cephaneyle **26 ile 39** pilottur ve 12 ile 27 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce (240 ile 645), III. güçte binlerce (9.225 ile 15.450) vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 55 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
 
 Tablo, Warden kademesinin kendi donanımındaki bir ekip içindir. Daha zayıf gemiler daha kötü sonuç verir. **Senin** klanının çağırdığı Warden her zaman **senin** kademene uyar; kademeyi klanın en iyi beş pilotu belirler, o yüzden onları getir.
 

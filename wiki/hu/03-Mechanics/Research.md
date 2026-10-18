@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drónok {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Hajók {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Az idejük, a Dark Matterük és az összegek a [Hajódizájnok](/wiki/03-Mechan
 ## Skylab-modulok {#module-technologies}
 
 A Kutatás nézet Skylab családja még egy fajta technológiát tartalmaz, amely nem gyártás: a **Hajtóműmodul**, a **Védelmi modul** és a **Radarmodul** szintjeit, amelyeket a Core tizenötös szintje nyit meg. Minden szintnek saját technológiája van, és csak utána építhető meg; minden modul első szintje nem kér Dark Mattert, a későbbiek szintenként többet. A fenti fa kihagyja őket, mert egy modul szintjét nyitják meg, nem egy tárgyat. A Dark Matterük a fenti összegekre rakódik, és a [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) cikk összeadja. Az idejük és az, hogy mit csinál az egyes modul, a [Skylab](/wiki/03-Mechanics/Skylab.md) cikkben van.
+
+## Pilóta {#pilot-technologies}
+
+A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek nem gyártások: a Gyártásban nem csinálnak semmit. A legtöbbjük **tartós bónusz** neked. A fenti fa kihagyja őket, mert egy bónuszt nyitnak meg, nem egy tárgyat.
+
+- **Mibe kerülnek.** A tudomány és a Dark Matter mellett egy bónusz **kreditet és Thuliumot** kér. A Központ mindent elvesz a kutatás indulásakor, és mindent visszaad, ha a vége előtt megszakítod.
+- **Megmaradnak.** A többi kutatásodhoz hasonlóan ezek a technológiák átvészelik a wipe-ot, és velük a bónuszaik is.
+- **Sorban.** Minden szint az előzőt igényli, és a magasabb szint felváltja az alacsonyabbat: a táblázat azt az összeget mutatja, amit az adott szint ad, nem azt, amit hozzátesz.
+- Az **Efficient Snacks** (Kabob, Pelmeni, Burger) hajótestet ad minden hajódnak, mindkét konfigurációban.
+- A **Sealed Backdoor** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
+- Az **Excavator Mining** megnöveli, amit egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden ládájából kapsz, Thuliumból és ércből egyaránt.
+- A **Field Theory** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
+- A **Dormant Knowledge** szintenként egyszer wipe-pontot fizet, amikor a kutatása befejeződik a Központban. Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, az öt Dormant Knowledge nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Technológia | Mit ad | Előbb kell hozzá | Kutatási idő | Dark Matter | Kredit | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Hatékony nassolnivalók: Kebab | +5 000 hajótest minden hajódon | – | 10 óra | 10 | 250 000 | 2 500 |
+| Hatékony nassolnivalók: Pelmeni | +10 000 hajótest minden hajódon | Hatékony nassolnivalók: Kebab | 1 nap | 20 | 1 000 000 | 10 000 |
+| Hatékony nassolnivalók: Burger | +15 000 hajótest minden hajódon | Hatékony nassolnivalók: Pelmeni | 2 nap | 30 | 3 500 000 | 35 000 |
+| Lezárt hátsó ajtó I | +25% rakétaszállítási korlát | – | 6 óra | 5 | 100 000 | 1 000 |
+| Lezárt hátsó ajtó II | +50% rakétaszállítási korlát | Lezárt hátsó ajtó I | 10 óra | 10 | 300 000 | 3 000 |
+| Lezárt hátsó ajtó III | +100% rakétaszállítási korlát | Lezárt hátsó ajtó II | 1 nap | 15 | 750 000 | 7 500 |
+| Lezárt hátsó ajtó IV | +150% rakétaszállítási korlát | Lezárt hátsó ajtó III | 2 nap | 25 | 1 750 000 | 17 500 |
+| Lezárt hátsó ajtó V | +200% rakétaszállítási korlát | Lezárt hátsó ajtó IV | 3 nap | 40 | 3 500 000 | 35 000 |
+| Kotrógépes bányászat I | +20% kotrógép-hozam | – | 1 nap | 10 | 500 000 | 5 000 |
+| Kotrógépes bányászat II | +30% kotrógép-hozam | Kotrógépes bányászat I | 2 nap | 20 | 1 500 000 | 15 000 |
+| Kotrógépes bányászat III | +40% kotrógép-hozam | Kotrógépes bányászat II | 3 nap | 30 | 4 000 000 | 40 000 |
+| Térelmélet I | +2% pajzselnyelés | – | 1 nap | 20 | 500 000 | 5 000 |
+| Térelmélet II | +3% pajzselnyelés | Térelmélet I | 2 nap | 40 | 1 500 000 | 15 000 |
+| Térelmélet III | +5% pajzselnyelés | Térelmélet II | 3 nap | 60 | 5 000 000 | 50 000 |
+| Szunnyadó tudás I | +50 wipe-pont | A többi technológiából 20% (30 / 146) | 1 óra | – | – | – |
+| Szunnyadó tudás II | +50 wipe-pont | Szunnyadó tudás I; A többi technológiából 40% (59 / 146) | 1 óra | – | – | – |
+| Szunnyadó tudás III | +50 wipe-pont | Szunnyadó tudás II; A többi technológiából 60% (88 / 146) | 1 óra | – | – | – |
+| Szunnyadó tudás IV | +50 wipe-pont | Szunnyadó tudás III; A többi technológiából 80% (117 / 146) | 1 óra | – | – | – |
+| Szunnyadó tudás V | +50 wipe-pont | Szunnyadó tudás IV; A többi technológiából 100% (146 / 146) | 1 óra | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Az összes technológia {#all-the-technologies}
 
@@ -416,6 +457,7 @@ A Kutatás nézet Skylab családja még egy fajta technológiát tartalmaz, amel
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 óra | 10 800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 óra | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 nap | 86 400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 óra | 36 000 | – |
 
 Az osztályok kutatási idő szerint:
 
@@ -423,11 +465,11 @@ Az osztályok kutatási idő szerint:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 perc | 10 | 5 óra | 18 000 | 0 |
 | B | 3 óra–6 óra | 20 | 2 nap 21 óra | 248 400 | 0 |
-| C | 10 óra | 16 | 6 nap 16 óra | 576 000 | 95 |
+| C | 10 óra | 17 | 7 nap 2 óra | 612 000 | 95 |
 | D | 1 nap–2 nap | 23 | 28 nap | 2 419 200 | 319 |
-| Összesen |  | 69 | 37 nap 18 óra | 3 261 600 | 414 |
+| Összesen |  | 70 | 38 nap 4 óra | 3 297 600 | 414 |
 
-Egymás után kutatva a teljes fa 37 nap 18 óra alatt készül el. Ha a boost végig be van kapcsolva, 18 nap 21 óra alatt, ami 19 boost és 95 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 38 nap 4 óra alatt készül el. Ha a boost végig be van kapcsolva, 19 nap 2 óra alatt, ami 20 boost és 100 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Az új CPU-kat is itt kutatod ki, majd a Gyártásban készíted el. Ugyanez a t
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 nap | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 perc |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 óra | – | 15 000 | 10 perc |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 óra | – | 600 | 2 perc |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 óra | – | 20 000 | 15 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 
@@ -482,6 +525,13 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 - **Mit tud.** Magától kiküldi az extrafoglalataidban lévő Repair Dronet, valahányszor kézzel is kiküldhetted volna: a hajótested nincs tele, a drón nincs kint, és az utolsó találat óta eltelt 10 másodperc. Nincs beállítandó hajótest-szint.
 - Saját extrafoglalatot foglal el, és nem csinál semmit Repair Drone nélkül ugyanannak a konfigurációnak egy extrafoglalatában. Képességfoglalatban lévő Repair Dronet sosem küld ki (az az Emergency Repair gomb).
 - **Ha kézzel megállítod a drónt,** a CPU nem nyúl hozzá, amíg a hajótested újra tele nem lesz, vagy amíg te magad ki nem küldöd a drónt.
+
+### Auto-Rocket CPU
+
+- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre vagy ellenséges pilótára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet.
+- **A kapcsoló.** Szereld fel egy Extrák helyre, és nyomd meg az ARL helyét a be- vagy kikapcsoláshoz. KI állapotban indul, és úgy marad, ahogy hagytad, akkor is, ha újra bejelentkezel. A hely BE vagy KI feliratot mutat, és felvillan, amikor a CPU lő.
+- **Mit nem tesz soha.** Soha nem választ célpontot, soha nem lő aszteroidákra, biztonságos zónából vagy álcázva, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
+- **Elfogyott a rakéta.** Egyszer szól, és újra lő, amint lesz több.
 
 
 <!-- research-cpus:end -->

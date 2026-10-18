@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -11,14 +11,15 @@
 | **Cloaking CPU M** | 함선을 숨깁니다 | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | 함선을 숨깁니다 | 50 | 20,000 Thulium |
 | **P.E.T. Station I~III** | ON이면 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 2, 3, 5마리가 함선에 부스트를 주고, 경험치를 얻고, 일합니다. OFF이면 그중 아무것도 하지 않습니다 | ON / OFF | 어셈블리: 연구 후 (아래 아이템 트리) |
+| **Auto-Rocket CPU** | ON이면 전투 대상에게 활성 로켓을 자동으로 발사 | ON / OFF | 어셈블리: 연구 후 (아래 아이템 트리) |
 
 Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고). 두 **Energetic Wall**도 더 이상 부가 장비가 아닙니다. 0.4.22부터 소모품이라 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않습니다([Energetic Wall](#energetic-wall) 참고).
 
 새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. 사용하려면 퀵슬롯의 부가 장비 선택창에서 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없습니다.
 
-CPU 일곱 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
+CPU 여덟 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU, Auto-Rocket CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
-부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**이고, Auto-Repair CPU, Base CPU, Jump CPU는 각각 **ARP**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
+부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**이고, Auto-Repair CPU, Auto-Rocket CPU, Base CPU, Jump CPU는 각각 **ARP**, **ARL**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. **Auto-Rocket CPU**도 같은 방식으로 ON과 OFF를 전환합니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark 
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1일 | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15분 |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6시간 | – | 15,000 | 10분 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6시간 | – | 600 | 2분 |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10시간 | – | 20,000 | 15분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 
@@ -148,6 +151,13 @@ CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark 
 - **기능.** 직접 출격시킬 수 있는 상황이 될 때마다, 부가 슬롯에 장착한 Repair Drone을 자동으로 출격시킵니다. 선체가 가득 차지 않았고, 드론이 이미 나와 있지 않으며, 마지막 피격 후 10초가 지났을 때입니다. 선체 기준치를 설정할 필요는 없습니다.
 - 전용 부가 슬롯을 하나 차지하며, 같은 구성의 부가 슬롯에 Repair Drone이 없으면 아무것도 하지 않습니다. 능력 슬롯에 있는 Repair Drone은 내보내지 않습니다(그것은 Emergency Repair 버튼입니다).
 - **드론을 직접 멈추면** 선체가 다시 가득 차거나 직접 드론을 출격시킬 때까지 CPU는 건드리지 않습니다.
+
+### Auto-Rocket CPU
+
+- **기능.** ON인 동안 전투 중(레이저가 외계인이나 적 파일럿을 겨누고 있을 때)에는, 로켓 발사 키를 눌러 쓸 수 있는 상황이 될 때마다 마지막에 쏜 로켓을 그 대상에게 자동으로 발사합니다. 조건은 로켓 타이머가 끝났고 그 로켓이 하나 이상 남아 있는 것입니다. 서버는 내가 쏠 때와 똑같이 발사마다 확인합니다.
+- **스위치.** 부가 장비 슬롯에 장착하고 ARL 슬롯을 눌러 ON과 OFF를 전환하세요. 처음엔 OFF이며, 다시 로그인해도 마지막으로 둔 상태 그대로입니다. 슬롯에 ON 또는 OFF가 표시되고 CPU가 발사할 때 빛납니다.
+- **절대 하지 않는 것.** 대상을 스스로 고르지 않고, 소행성에는 쏘지 않으며, 안전 지대 안이나 은폐 중에는 쏘지 않고, N.U.K.E.와 N.I.K.E.도 쏘지 않습니다. 내가 직접 쏜 로켓은 언제나 작동합니다. 3분 동안 키 입력, 클릭, 마우스 이동이 없으면 내가 무언가 할 때까지 대기합니다.
+- **로켓이 없을 때.** 한 번만 알려 주고, 로켓이 생기면 곧바로 다시 발사합니다.
 
 
 <!-- research-cpus:end -->

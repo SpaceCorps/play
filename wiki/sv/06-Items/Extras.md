@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d73343b5c426be4e -->
+<!-- wiki-i18n source: b961ad7c5408494d -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -11,14 +11,15 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på
 | **Cloaking CPU M** | Döljer ditt skepp | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Döljer ditt skepp | 50 | 20 000 Thulium |
 | **P.E.T. Station I till III** | När den är PÅ ger 2, 3 eller 5 dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) boosts åt ditt skepp, samlar erfarenhet och arbetar; när den är AV gör de inget av det | PÅ / AV | Monteringen, efter sin forskning (föremålsträdet nedan) |
+| **Auto-Rocket CPU** | När den är PÅ avfyrar den din aktiva raket av sig själv mot målet i en strid | PÅ / AV | Monteringen, efter sin forskning (föremålsträdet nedan) |
 
 Cloaking CPU säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis. **EMP Charge** är inte längre extrautrustning: sedan 0.4.21 är den en förbrukningsvara som bärs i en hög, som en raket, och inte sätts i någon plats, så den tar ingen av dina extraplatser (se [Raketer](/wiki/06-Items/Rockets.md#emp-charge)). De två **Energetic Wall** är inte heller extrautrustning längre: sedan 0.4.22 är de förbrukningsvaror också, bärs i en hög och sätts inte i någon plats (se [Energetic Wall](#energetic-wall)).
 
 En ny pilots **startpaket** monterar redan två extrautrustningar på Protos två extraplatser: en **Base CPU I** (10 användningar, en teleport till din koncerns bas) och en **Repair Drone I**. Dra dem från väljaren Extra i snabbfältet till en plats för att använda dem. Bara nya piloter får paketet: den som tog värvning före 0.4.10 har det inte.
 
-Sju CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II samt Auto-Repair CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får. De två warp-CPU:erna, Jump CPU och Base CPU, nekas också medan du bär på ett uppdragsföremål (”Du kan inte använda en warp-CPU medan du bär på ett uppdragsföremål.”): se [Uppdragsföremål](/wiki/03-Mechanics/Quests.md#quest-items).
+Åtta CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II, Auto-Repair CPU samt Auto-Rocket CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får. De två warp-CPU:erna, Jump CPU och Base CPU, nekas också medan du bär på ett uppdragsföremål (”Du kan inte använda en warp-CPU medan du bär på ett uppdragsföremål.”): se [Uppdragsföremål](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Repair Drone, **CLK** för en Cloaking CPU och **ARP**, **BSE** och **JMP** för Auto-Repair CPU, Base CPU och Jump CPU. Förbrukningsvaror har egna: **EMP** och **WAL** (för en Energetic Wall). Extra Slots CPU har ingen plats: de installeras i din Skylab. De tre **P.E.T. Station**-föremålen är extrautrustning som den andra, med etiketten **PET**: montera ett, så slår dess plats om Stationen **PÅ** eller **AV** (en sekund mellan två tryck) och visar vilket. När den är PÅ räknas de dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md), när den är AV räknas de inte. Peka på en plats för att läsa vad ett tryck gör just nu, eller varför det inte kan.
+Varje extra har en kort etikett på sin plats i snabbfältet: **REP** för en Repair Drone, **CLK** för en Cloaking CPU och **ARP**, **ARL**, **BSE** och **JMP** för Auto-Repair CPU, Auto-Rocket CPU, Base CPU och Jump CPU. Förbrukningsvaror har egna: **EMP** och **WAL** (för en Energetic Wall). Extra Slots CPU har ingen plats: de installeras i din Skylab. De tre **P.E.T. Station**-föremålen är extrautrustning som den andra, med etiketten **PET**: montera ett, så slår dess plats om Stationen **PÅ** eller **AV** (en sekund mellan två tryck) och visar vilket. När den är PÅ räknas de dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md), när den är AV räknas de inte. **Auto-Rocket CPU** slås om på samma sätt, PÅ eller AV. Peka på en plats för att läsa vad ett tryck gör just nu, eller varför det inte kan.
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -47,6 +48,7 @@ Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -114,6 +116,7 @@ Två av CPU:erna kräver Dark Matter Plates, liksom sista nivån i varje uppgrad
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 
@@ -148,6 +151,13 @@ Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n 
 - **Vad den gör.** Den skickar ut den Repair Drone som sitter i dina extraplatser av sig själv, så fort du hade kunnat skicka ut den för hand: ditt skrov är inte fullt, drönaren är inte redan ute och det har gått 10 sekunder sedan den senaste träffen. Det finns ingen skrovnivå att ställa in.
 - Den tar en egen extraplats och gör ingenting utan en Repair Drone i en extraplats i samma konfiguration. Den skickar aldrig ut en Repair Drone i en förmågeplats (den är knappen Emergency Repair).
 - **Stoppar du drönaren för hand** låter CPU:n den vara tills ditt skrov är fullt igen, eller tills du själv skickar ut drönaren.
+
+### Auto-Rocket CPU
+
+- **Vad den gör.** Medan den är PÅ och du är i strid (dina lasrar är på en utomjording eller en fientlig pilot) avfyrar den din aktiva raket, den du avfyrade senast, mot det målet av sig själv, så fort ett tryck på tangenten Avfyra raket skulle fungera: raketernas timer är klar och du har en kvar. Servern kontrollerar varje avfyrning som den kontrollerar dina.
+- **Strömbrytaren.** Montera den i en extraplats och tryck på dess ARL-plats för att slå den PÅ eller AV. Den startar AV och förblir som du lämnade den, också när du loggar in igen. Platsen visar PÅ eller AV och lyser upp när CPU:n avfyrar.
+- **Vad den aldrig gör.** Den väljer aldrig ett mål, skjuter aldrig mot asteroider, från en säker zon eller när du är kamouflerad, och avfyrar aldrig en N.U.K.E. eller en N.I.K.E. En raket som du själv avfyrar fungerar alltid. Utan tangenttryck, klick eller musrörelse i 3 minuter väntar den på att du gör något.
+- **Slut på raketer.** Den säger det en gång och avfyrar igen så fort du har fler.
 
 
 <!-- research-cpus:end -->

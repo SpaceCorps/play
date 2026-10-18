@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -63,7 +63,7 @@ Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Les quatre** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Ensemble, elles demandent 490 Dark Matter, en plus des 414 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 019 pour toutes les technologies du jeu.
+Ensemble, elles demandent 490 Dark Matter, en plus des 749 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 354 pour toutes les technologies du jeu.
 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 

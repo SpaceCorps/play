@@ -2,7 +2,7 @@
 
 Drones are purchasable or craftable support units. You can have up to **8 Drones** active at once, Slave Drones and Master Drones together. The sixteen **drone formations** in the tree below are not drones: you research and craft them, wear one at a time from the hotbar, and they work only while you own at least one drone (see [Drone Formations](/wiki/03-Mechanics/Formations.md)).
 
-![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Thulium, Ship Fragments and Dark Matter Plates](../img/wiki-img/shots/master-drone-recipe.jpg)
+![The Master Drone's recipe in Assembly: a Slave Drone of your Hangar picked to be upgraded, for Credits, Thulium, Ship Fragments, plates and Ancient Control Units](../img/wiki-img/shots/master-drone-recipe.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../img/wiki-img/shots/repair-drones-extra.jpg)
 
 <!-- item-tree:begin -->
@@ -14,7 +14,7 @@ What Assembly makes needs its technology first; point at an item to see how long
 
 ```tree
 Slave Drone | drone, common | buy 100000 Credits | /wiki/06-Items/Drones.md#available-drones
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 Testudo Formation | formation, epic | craft 15000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Bodkin Formation | formation, epic | craft 42000 Thulium, 600 s | research 86400 s, 86400 science, 13 Dark Matter | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 8 Velkonite Reinforced Plate, 15 Orvium Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
 Asterism Formation | formation, epic | craft 14000 Thulium, 300 s | research 36000 s, 36000 science, 5 Dark Matter | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 4 Velkonite Reinforced Plate | /wiki/03-Mechanics/Formations.md#the-sixteen-formations
@@ -41,7 +41,7 @@ Slave Drone => Master Drone
 | Name             | Rarity | Slots | Description                                                                                  | Cost                             |
 | :--------------- | :----- | :---- | :------------------------------------------------------------------------------------------- | :------------------------------- |
 | **Slave Drone**  | Common | 1     | A basic drone with a single equipment slot. It grows through 8 levels as you destroy aliens. | From 100,000 Credits (see below) |
-| **Master Drone** | Rare   | 2     | A Slave Drone upgraded in the Assembly. It flies in gold, keeps its number and what it carries, gets a second equipment slot, and starts again at level 1. | Upgrade a Slave Drone: 50,000 Thulium, 250 Ship Fragments and 20 Dark Matter Plates |
+| **Master Drone** | Rare   | 2     | A Slave Drone upgraded in the Assembly. It flies in gold, keeps its number and what it carries, gets a second equipment slot, and starts again at level 1. | Upgrade a Slave Drone: 1,000,000 Credits, 50,000 Thulium, 250 Ship Fragments, 10 Dark Matter Plates, 5 Orvium and 5 Velkonite Reinforced Plates and 2 Ancient Control Units |
 
 A Slave Drone starts as a small sphere and grows into an armoured gunship at level 8. Every drone you own earns the same experience whenever you destroy an alien, and a higher level adds a little damage to the laser in its slot (up to +7% at level 8). The Drone Mechanics page (under Mechanics) has the levels and what each asks for. Crafting a Master Drone does not use up a drone: it upgrades the Slave Drone you pick, in place, and **its level and experience are reset to 0** when the upgrade finishes (the Assembly says so and asks you to confirm). In return the drone has **two equipment slots** instead of one: what it carried stays in its first slot and the second is empty. Your drones, with their levels and experience, are kept through the season wipe.
 

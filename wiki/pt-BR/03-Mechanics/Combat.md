@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46b7d7139e8ed531 -->
+<!-- wiki-i18n source: 9add83a262e64533 -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -23,7 +23,7 @@ O dano base de todos os lasers equipados (incluindo os lasers dos drones) e dos 
 Toda rajada tem uma chance de ser um acerto crítico.
 - **Chance de crítico**: a chance de crítico média dos lasers equipados mais a soma das chances de crítico de todos os amplificadores de laser equipados.
 - **Multiplicador de crítico**: se um disparo é crítico, o sorteio de dano é multiplicado por **1,5x**. O número de dano de uma rajada crítica aparece em ciano gelo, maior, com um “!” (veja [Números de dano e de cura](#damage-and-heal-numbers)).
-- Os Quantum Laser I e II não têm chance de crítico própria: quem a dá são os amplificadores deles.
+- Os Quantum Laser I e II têm 1% de chance de crítico própria: os amplificadores deles a aumentam.
 - **Dano crítico fixo**: qualquer dano crítico fixo dos amplificadores de laser é somado depois do multiplicador.
   - Fórmula: `CritDamage = (Roll * 1.5) + FixedCritDamage`
 

@@ -16,7 +16,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Pazarı kullanmak (ilan vermek, satın almak ve teklif vermek) için **5. seviye** gerekir.
 - Bir ilan lot başına fiyatlanır, tam sayı kredi ya da tam sayı Thulium cinsinden (ikisi birden değil) ve asla türün en düşük fiyatının altında olamaz. **En yüksek fiyat yoktur**.
 - Thulium cinsinden bir fiyat, kredi cinsinden en düşük fiyatın 1.000 değerine bölünüp yukarı yuvarlanmış hâlinden az olamaz; bu yalnızca en düşük fiyatı 1 Thulium ya da daha fazla eden türler için geçerlidir. Oranın yaptığı tek şey budur: **1 Thulium = 1.000 kredi, en düşük fiyat için bir kuraldır, döviz kuru değildir.** Hiçbir şey takas edilmez, hiçbir değer gösterilmez ve kredi ile Thulium asla toplanmaz.
-- 83 tür ilana konabilir ve bunlardan 82 tanesi Thulium cinsinden de fiyatlanabilir.
+- 84 tür ilana konabilir ve bunlardan 83 tanesi Thulium cinsinden de fiyatlanabilir.
 - Bir ilan, seçtiğin gibi 168 / 336 / 504 saat sürer: seçenekler her seviyede aynıdır.
 - **İlan ücreti**, ilanın sürdüğü her 24 saat için fiyatın %0,25 kadarıdır, en az 50 kredi ya da 1 Thulium. Bunu ilan verirken ödersin; asla iade edilmez, iptal etsen bile.
 - Seviye 10 ve üzerinde ilan ücreti %0,4 olur.
@@ -57,7 +57,7 @@ Açık Artırma geldiğinde (0.4.12), Mağaza’nın satmadığı ve elinde zate
 | **Lazer Cephanesi** | Standard Battery (lot başına 100 adet), Siphon Battery (lot başına 10 adet), Advanced Plasma (lot başına 10 adet), Ultra Core (lot başına 10 adet), Experimental Fusion Core | 5 |
 | **Roketler** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Sarf Malzemeleri** | EMP Charge, Energetic Wall II | 2 |
-| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
+| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
 | **Gövde Kaplaması** | Hull Plating II, Hull Plating III | 2 |
 | **Kaynaklar** | Cataclysite (lot başına 100 adet), Ship Fragment (lot başına 100 adet), Daraxium (lot başına 100 adet), Nyxite (lot başına 100 adet), Quorvium (lot başına 10 adet), Reinforced Hull Plate (lot başına 10 adet), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 

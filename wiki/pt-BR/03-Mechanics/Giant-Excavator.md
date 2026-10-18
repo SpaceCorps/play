@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Escavadeira gigante -->
 # Escavadeira gigante {#giant-excavator}
 
@@ -32,7 +32,7 @@ Desde o primeiro dia da temporada, um **pulsar** brilha em cada um dos setores d
 2. **Abra o painel.** Clique no rótulo. A janela **Escavadeira gigante** funciona enquanto sua nave estiver ao alcance do painel da escavadeira (a lista *Em resumo* informa). Uma nave camuflada pode usá-lo, e usá-lo não encerra o camuflado.
 3. **Abasteça.** **Adicionar Dark Matter** põe um Dark Matter da sua carga no tanque. Qualquer um pode fazer isso. O tanque nunca aceita mais do que a escavadeira pode queimar antes de superaquecer, então nenhum combustível é desperdiçado.
 4. **Escolha o que minerar** na lista e então aperte **Iniciar mineração**. É preciso pelo menos um Dark Matter no tanque e um recurso. Qualquer um pode mudar a escolha até o início e também enquanto ela funciona (veja *Trocar o recurso* mais abaixo). O início é anunciado a todos os pilotos do mundo, com o seu nome, o setor e o recurso.
-5. **Segure-a.** Enquanto minera, uma caixa cai em volta da escavadeira a cada poucos segundos, e logo depois do início chegam os primeiros Slumbering Voids. Defenda a escavadeira e pegue as caixas. Um fluxo de luz corre do pulsar até a broca da escavadeira e se intensifica a cada vez que um dos jatos da estrela passa por ele; no último minuto antes do superaquecimento ele pisca e falha, e quando a máquina descansa ele para.
+5. **Segure-a.** Enquanto minera, uma caixa cai em volta da escavadeira a cada poucos segundos, e logo depois do início chegam os primeiros Slumbering Voids. Defenda a escavadeira e pegue as caixas. Um fluxo de luz corre do pulsar até a broca da escavadeira e se intensifica no ritmo da estrela, uma vez a cada 4 segundos; no último minuto antes do superaquecimento ele pisca e falha, e quando a máquina descansa ele para.
 6. **Vigie o calor.** A barra de Calor enche enquanto a escavadeira minera e nunca esvazia enquanto ela espera. No limite, a escavadeira superaquece. Vá embora antes: o jogo avisa o mapa duas vezes.
 7. **Ela descansa.** Superaquecida ou destruída, a escavadeira e seu pulsar ficam irradiados até o descanso acabar; então ela fica pronta de novo, com o calor zerado e o casco cheio.
 
@@ -58,7 +58,7 @@ Se o combustível acabar antes do limite, a escavadeira volta a **Pronta** com o
 
 ## O que ela minera {#what-it-mines}
 
-Um tanque cheio produz mais ou menos o que cinco pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe o recurso antes do início e pode trocá-lo enquanto a escavadeira funciona. Uma caixa é igual para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides.
+Um tanque cheio produz mais ou menos o que cinco pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe o recurso antes do início e pode trocá-lo enquanto a escavadeira funciona. Uma caixa contém o mesmo para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides. O que você tira de uma caixa, porém, pode variar: cada nível da pesquisa de Piloto Excavator Mining ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta o Thulium e o minério que você pega em 20%, 30% ou 40% no total, arredondado para baixo.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

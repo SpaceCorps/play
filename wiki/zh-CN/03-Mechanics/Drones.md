@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f66b153ada889fa -->
+<!-- wiki-i18n source: ecb97ce5ddf9142a -->
 <!-- wiki-i18n title: 无人机 -->
 # 无人机机制 {#drone-mechanics}
 
@@ -92,7 +92,7 @@
 
 ### Master Drone
 
-在装配站升级 Slave Drone（须先研究出 Master Drone 的科技，见[研究](/wiki/03-Mechanics/Research.md)），它就会变成 **Master Drone**。配方需要 50,000 Thulium、250 个 Ship Fragment 和 20 个 Dark Matter Plate，耗时 60 秒，而且不会消耗掉一台无人机：**由你选择是哪一台 Slave Drone**（选择器会显示每台的等级和经验值），任务完成时，这同一台无人机连同它的编号、它的无人机槽位和装在里面的一切，就会变成 Master Drone，并多出一个空的第二槽位。不会有任何东西进入你的物品栏，也没有什么需要领取：任务完成时游戏日志会告诉你，即使是你离线期间完成的升级也一样。
+在装配站升级 Slave Drone（须先研究出 Master Drone 的科技，见[研究](/wiki/03-Mechanics/Research.md)），它就会变成 **Master Drone**。配方需要 1,000,000 信用点、50,000 Thulium、250 个 Ship Fragment、10 个 Dark Matter Plate、5 个 Orvium Reinforced Plate、5 个 Velkonite Reinforced Plate 和 2 个 Ancient Control Unit，耗时 60 秒，而且不会消耗掉一台无人机：**由你选择是哪一台 Slave Drone**（选择器会显示每台的等级和经验值），任务完成时，这同一台无人机连同它的编号、它的无人机槽位和装在里面的一切，就会变成 Master Drone，并多出一个空的第二槽位。不会有任何东西进入你的物品栏，也没有什么需要领取：任务完成时游戏日志会告诉你，即使是你离线期间完成的升级也一样。
 
 **升级完成时，它的等级和经验值会重置为 0**。Master Drone 从 1 级、0 经验值重新开始，升级方式与 Slave Drone 相同（见上表）；它原来等级所带来的激光加成也随之消失。装配站会在你开始之前说明这一点，并且在这台无人机有任何经验值时，会点名这台无人机并要求你确认。默认选中的是经验值最少的无人机。
 

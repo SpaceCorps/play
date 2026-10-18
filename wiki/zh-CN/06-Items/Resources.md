@@ -20,18 +20,18 @@
 
 | 材料 | 稀有度 | 来源 | 用于 |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 普通 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 小行星, 特别任务 | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., 锻造炉, Skylab 建造, 研究中心 |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 普通 | Goombah, Bulwark, 小行星, 任务 | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, N.U.K.E., N.I.K.E., 锻造炉, 研究中心 |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | 优秀 | Crystalys, Goombah, 小行星, 任务 | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, N.U.K.E., 锻造炉, 研究中心 |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 稀有 | Crystalys, 任务 | Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, 研究中心 |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 普通 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 小行星, 特别任务 | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, N.U.K.E., N.I.K.E., 锻造炉, Skylab 建造, 研究中心 |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 普通 | Goombah, Bulwark, 小行星, 任务 | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, N.U.K.E., N.I.K.E., 锻造炉, 研究中心 |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | 优秀 | Crystalys, Goombah, 小行星, 任务 | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, N.U.K.E., 锻造炉, 研究中心 |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 稀有 | Crystalys, 任务 | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, 研究中心 |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | 普通 | Phantasm, Seeker, 小行星 | Penetration Amp II, 锻造炉, 研究中心 |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | 普通 | Phantasm, Bulwark, 小行星 | Penetration Amp III, 锻造炉, 研究中心 |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 普通 | Crystalys, Goombah, Bulwark, 小行星, 巨型挖掘机, 任务 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, N.U.K.E., N.I.K.E., 锻造炉, 研究中心 |
 | [Quorvium](/wiki/06-Items/Resources.md#quorvium) | 普通 | Crystalys, Goombah, 小行星, 巨型挖掘机 | Penetration Amp IV, 锻造炉, 研究中心 |
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | 优秀 | 巨型挖掘机, Skylab 采集器 | Skylab 锻造厂, 研究中心 |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | 稀有 | 巨型挖掘机, Skylab 采集器 | Skylab 锻造厂, 研究中心 |
-| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 稀有 | 任务, Skylab 锻造厂 | Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 史诗 | 任务, Skylab 锻造厂 | Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. 摇篮 |
+| [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 稀有 | 任务, Skylab 锻造厂 | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 史诗 | 任务, Skylab 锻造厂 | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. 摇篮 |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 史诗 | 黑洞（被吞噬的 N.I.K.E.） | Dark Matter Plate, 研究中心 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 神话 | 装配站 | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 锻造炉 |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 史诗 | 小行星 | P.E.T. 摇篮 |
@@ -60,7 +60,7 @@
 
 **用途**
 
-- [Master Drone](/wiki/06-Items/Drones.md): **250** (另需 Dark Matter Plate ×20, Slave Drone ×1, 50,000 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **250** (另需 Ancient Control Unit ×2, Dark Matter Plate ×10, Orvium Reinforced Plate ×5, Slave Drone ×1, Velkonite Reinforced Plate ×5, 1,000,000 信用点, 50,000 Thulium)
 - [Quantum Laser III](/wiki/06-Items/Lasers.md): **10** (另需 Quantum Laser II ×1, Velkonite Reinforced Plate ×3, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **15** (另需 Quantum Laser III ×1, Reinforced Hull Plate ×1, Velkonite Reinforced Plate ×8, 100,000 信用点, 1,500 Thulium)
 - [Paragon](/wiki/02-Ships/Paragon.md): **120** (另需 Power Core ×5, Reinforced Hull Plate ×20, 1,500 Thulium)
@@ -119,6 +119,7 @@
 - P.E.T. Station I: **25** (另需 Power Core ×2, Velkonite Reinforced Plate ×4, 100,000 信用点, 2,000 Thulium)
 - P.E.T. Station II: **60** (另需 Orvium Reinforced Plate ×2, Power Core ×4, Reinforced Hull Plate ×6, Velkonite Reinforced Plate ×8, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **120** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
+- Auto-Rocket CPU: **100** (另需 Ancient Control Unit ×1, Power Core ×5, Reinforced Hull Plate ×10, Velkonite Reinforced Plate ×8, 20,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (另需 Cataclysite ×80, Power Core ×4, Reinforced Hull Plate ×10, Scatter III ×6, 150,000 信用点, 3,000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个）: **20** (另需 Cataclysite ×40, Reinforced Hull Plate ×4, 100,000 信用点, 1,500 Thulium)
 - [锻造炉](/wiki/06-Items/Forge.md), 标准 → 腐化: **5** (另需 Daraxium ×15, 10,000 信用点；成功率 100%)
@@ -145,7 +146,7 @@
 | [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 30%：1 | 0.3 |
 
 - **小行星**：在 Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk, Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
-- **任务**：清剿虫巢（4 级特别任务）2; 钢铁狂潮（5 级特别任务）3; 巨像（6 级特别任务）3; Goombah 围攻战（7 级特别任务）5; Bulwark 之海（挑战）113; Phantasm 洪流（挑战）129; Phantasm 汪洋（挑战）162; Phantasm 浪潮（挑战）20; 一万架 Phantasm（挑战）159。
+- **任务**：清剿虫巢（4 级特别任务）2; 钢铁狂潮（5 级特别任务）3; 巨像（6 级特别任务）3; Goombah 围攻战（7 级特别任务）5; Bulwark 之海（挑战）226; Phantasm 洪流（挑战）129; Phantasm 汪洋（挑战）162; Phantasm 浪潮（挑战）20; 一万架 Phantasm（挑战）280。
 - **另外**：商店不出售。
 
 **用途**
@@ -187,6 +188,7 @@
 - Hull Plating III: **40** (另需 Ancient Control Unit ×1, Dark Matter Plate ×8, Hull Plating II ×1, Power Core ×12, Ship Fragment ×300, 4,000 Thulium)
 - P.E.T. Station II: **6** (另需 Orvium Reinforced Plate ×2, Power Core ×4, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **12** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
+- Auto-Rocket CPU: **10** (另需 Ancient Control Unit ×1, Power Core ×5, Ship Fragment ×100, Velkonite Reinforced Plate ×8, 20,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (另需 Cataclysite ×80, Power Core ×4, Scatter III ×6, Ship Fragment ×40, 150,000 信用点, 3,000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个）: **4** (另需 Cataclysite ×40, Ship Fragment ×20, 100,000 信用点, 1,500 Thulium)
 - [锻造炉](/wiki/06-Items/Forge.md), 神圣 → 裂变: **20** (另需 Cataclysite ×120, Dark Matter Plate ×2, 200,000 信用点；成功率 75%)
@@ -208,7 +210,7 @@
 | [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 25%：1 | 0.25 |
 
 - **小行星**：在 Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
-- **任务**：钢铁狂潮（5 级特别任务）1; 巨像（6 级特别任务）1; Goombah 围攻战（7 级特别任务）2; 前线指挥（8 级特别任务）1; Bulwark 疫祸（挑战）65; Goombah 溃败（挑战）48; 清巢行动（挑战）4; 清巢行动 II（挑战）30; 斥候清剿（挑战）4; Seeker 疫病（挑战）47; Seeker 瘟疫（挑战）6; 一万只 Seeker（挑战）36; 毫发无伤 III（挑战）12。
+- **任务**：钢铁狂潮（5 级特别任务）1; 巨像（6 级特别任务）1; Goombah 围攻战（7 级特别任务）2; 前线指挥（8 级特别任务）1; Bulwark 疫祸（挑战）81; Goombah 军团（挑战）106; Goombah 溃败（挑战）96; 清巢行动（挑战）4; 清巢行动 II（挑战）30; 斥候清剿（挑战）4; Seeker 疫病（挑战）47; Seeker 瘟疫（挑战）6; 一万只 Seeker（挑战）43; 毫发无伤 III（挑战）12。
 - **另外**：商店不出售。
 
 **用途**
@@ -268,6 +270,7 @@
 - P.E.T. Station I: **2** (另需 Ship Fragment ×25, Velkonite Reinforced Plate ×4, 100,000 信用点, 2,000 Thulium)
 - P.E.T. Station II: **4** (另需 Orvium Reinforced Plate ×2, Reinforced Hull Plate ×6, Ship Fragment ×60, Velkonite Reinforced Plate ×8, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **8** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
+- Auto-Rocket CPU: **5** (另需 Ancient Control Unit ×1, Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×8, 20,000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (另需 Cataclysite ×80, Reinforced Hull Plate ×10, Scatter III ×6, Ship Fragment ×40, 150,000 信用点, 3,000 Thulium)
 - [锻造炉](/wiki/06-Items/Forge.md), 裂变 → 永恒: **8** (另需 Quorvium ×240, Dark Matter Plate ×2, 500,000 信用点, 2,000 Thulium；成功率 60%)
 - [研究中心](/wiki/03-Mechanics/Research.md#fuel)，燃料：每个单位 **100** 科研点
@@ -286,11 +289,12 @@
 | :--- | :---: | :--- | --: |
 | [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%：1 | 0.2 |
 
-- **任务**：前线指挥（8 级特别任务）1; 深渊护送（挑战）1; Bulwark 之墙（挑战）2; 护送 III（挑战）1; 护送零号（挑战）1; Dormant 统治（挑战）1; Dormant 黄昏（挑战）1; 海盗克星（挑战）1; 海盗清算（挑战）1; 海盗王座（挑战）1; 毫发无伤（挑战）1; 毫发无伤 II（挑战）1。
+- **任务**：前线指挥（8 级特别任务）1; 深渊护送（挑战）2; Bulwark 之墙（挑战）2; 护送 III（挑战）1; 护送零号（挑战）3; Dormant 统治（挑战）3; Dormant 黄昏（挑战）2; 海盗克星（挑战）1; 海盗清算（挑战）1; 海盗王座（挑战）1; 毫发无伤（挑战）1; 毫发无伤 II（挑战）1。
 - **另外**：商店不出售。
 
 **用途**
 
+- [Master Drone](/wiki/06-Items/Drones.md): **2** (另需 Dark Matter Plate ×10, Orvium Reinforced Plate ×5, Ship Fragment ×250, Slave Drone ×1, Velkonite Reinforced Plate ×5, 1,000,000 信用点, 50,000 Thulium)
 - [Helios Beam](/wiki/06-Items/Lasers.md): **1** (另需 Cataclysite ×50, Dark Matter Plate ×4, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
 - [Wraith](/wiki/02-Ships/Wraith.md): **3** (另需 Power Core ×20, Reinforced Hull Plate ×200, Ship Fragment ×500, 20,000 Thulium)
 - [Damage Amp IV](/wiki/06-Items/Lasers.md): **1** (另需 Cataclysite ×30, Damage Amp III ×1, Dark Matter Plate ×4, Power Core ×1, 2,400 Thulium)
@@ -313,6 +317,7 @@
 - Hull Plating III: **1** (另需 Dark Matter Plate ×8, Hull Plating II ×1, Power Core ×12, Reinforced Hull Plate ×40, Ship Fragment ×300, 4,000 Thulium)
 - Adaptive Core III: **1** (另需 Adaptive Core II ×1, Dark Matter Plate ×4, Power Core ×5, Ship Fragment ×110, 4,000 Thulium)
 - P.E.T. Station III: **2** (另需 Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
+- Auto-Rocket CPU: **1** (另需 Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, Velkonite Reinforced Plate ×8, 20,000 Thulium)
 - [研究中心](/wiki/03-Mechanics/Research.md#fuel)，燃料：每个单位 **650** 科研点
 
 **刷取方法**：击杀 [Crystalys](/wiki/04-Aliens/Crystalys.md)（星区 4）：平均每次击杀 0.2。
@@ -379,7 +384,7 @@
 
 - **小行星**：在 Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode 的碎块里（数量见[小行星采矿](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)）。
 - **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 2,314 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
-- **任务**：Bulwark 风暴（挑战）245; Crystalys 肃清（挑战）292; Dormant 黎明（挑战）54; Goombah 军团（挑战）160; Goombah 天灾（挑战）281; 敌境（挑战）50; 防线守护者（挑战）298。
+- **任务**：Bulwark 风暴（挑战）245; Crystalys 肃清（挑战）584; Crystalys 王朝（挑战）643; Dormant 黎明（挑战）54; Goombah 军团（挑战）319; Goombah 天灾（挑战）332; 最后的守夜（挑战）110; 敌境（挑战）100; 防线守护者（挑战）596。
 - **另外**：商店不出售。
 
 **用途**
@@ -493,7 +498,7 @@
 
 **获取方式**
 
-- **任务**：中央值守（挑战）10; 中央闯关（挑战）3; 钢铁守夜（挑战）3; 钢铁守夜 II（挑战）6; 最后的守夜（挑战）15; 边缘守夜（挑战）12; 斥候清剿 II（挑战）8。
+- **任务**：中央值守（挑战）10; 中央闯关（挑战）3; 钢铁守夜（挑战）3; 钢铁守夜 II（挑战）6; 最后的守夜（挑战）27; 边缘守夜（挑战）24; 斥候清剿 II（挑战）8。
 - **Skylab**：只有锻造厂能用 Velkonite 制造它，每块 10 秒。外星人不会掉落它。
 
 | 锻造厂等级 | 1 | 5 | 10 | 15 | 20 |
@@ -508,6 +513,7 @@
 
 **用途**
 
+- [Master Drone](/wiki/06-Items/Drones.md): **5** (另需 Ancient Control Unit ×2, Dark Matter Plate ×10, Orvium Reinforced Plate ×5, Ship Fragment ×250, Slave Drone ×1, 1,000,000 信用点, 50,000 Thulium)
 - [Quantum Laser III](/wiki/06-Items/Lasers.md): **3** (另需 Quantum Laser II ×1, Ship Fragment ×10, 1,500 Thulium)
 - [Starfire-III](/wiki/06-Items/Lasers.md): **8** (另需 Quantum Laser III ×1, Reinforced Hull Plate ×1, Ship Fragment ×15, 100,000 信用点, 1,500 Thulium)
 - Dark Matter Plate: **1** (另需 Dark Matter ×5, Orvium Reinforced Plate ×1, 250 Thulium)
@@ -551,8 +557,9 @@
 - P.E.T. Station I: **4** (另需 Power Core ×2, Ship Fragment ×25, 100,000 信用点, 2,000 Thulium)
 - P.E.T. Station II: **8** (另需 Orvium Reinforced Plate ×2, Power Core ×4, Reinforced Hull Plate ×6, Ship Fragment ×60, 400,000 信用点, 6,000 Thulium)
 - P.E.T. Station III: **12** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×4, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, 1,500,000 信用点, 18,000 Thulium)
+- Auto-Rocket CPU: **8** (另需 Ancient Control Unit ×1, Power Core ×5, Reinforced Hull Plate ×10, Ship Fragment ×100, 20,000 Thulium)
 
-**模块升级**：装配站可升级 Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II 和 Adaptive Core I → Adaptive Core II。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+**模块升级**：装配站可升级 Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II 和 Adaptive Core I → Adaptive Core II。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级和加成。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 
 **刷取方法**：给锻造厂供应矿石，开始一整批，并在你的舰船停靠时收取强化板。
 
@@ -562,7 +569,7 @@
 
 **获取方式**
 
-- **任务**：护送（挑战）1; 护送 II（挑战）3; Crystalys 王朝（挑战）12; Crystalys 试炼（挑战）6; 四角巡行（挑战）4; Goombah 猎杀（挑战）4; 海盗末日（挑战）8; 边缘环行（挑战）6; 毫发无伤 IV（挑战）6; 毫发无伤零（挑战）10; 防线守护者（挑战）20。
+- **任务**：护送（挑战）1; 护送 II（挑战）3; Crystalys 王朝（挑战）12; Crystalys 试炼（挑战）6; 四角巡行（挑战）4; Goombah 猎杀（挑战）4; 海盗末日（挑战）16; 海盗王座（挑战）18; 边缘环行（挑战）12; 毫发无伤 IV（挑战）12; 毫发无伤零（挑战）14; 防线守护者（挑战）20。
 - **Skylab**：只有锻造厂能用 Orvium 制造它，每块 10 秒。外星人不会掉落它。
 
 | 锻造厂等级 | 1 | 5 | 10 | 15 | 20 |
@@ -577,6 +584,7 @@
 
 **用途**
 
+- [Master Drone](/wiki/06-Items/Drones.md): **5** (另需 Ancient Control Unit ×2, Dark Matter Plate ×10, Ship Fragment ×250, Slave Drone ×1, Velkonite Reinforced Plate ×5, 1,000,000 信用点, 50,000 Thulium)
 - [Helios Beam](/wiki/06-Items/Lasers.md): **18** (另需 Ancient Control Unit ×1, Cataclysite ×50, Dark Matter Plate ×4, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
 - Dark Matter Plate: **1** (另需 Dark Matter ×5, Velkonite Reinforced Plate ×1, 250 Thulium)
 - Extra Slots CPU II: **2** (另需 Power Core ×6, Reinforced Hull Plate ×10, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 30,000 Thulium)
@@ -598,7 +606,7 @@
 - P.E.T. Station III: **4** (另需 Ancient Control Unit ×2, Power Core ×8, Reinforced Hull Plate ×12, Ship Fragment ×120, Velkonite Reinforced Plate ×12, 1,500,000 信用点, 18,000 Thulium)
 - **P.E.T. 摇篮**（机库）：每组装一只 P.E.T. 需要 1，外加 1 个与该 P.E.T. 等级相同的 Cluster Chunk。
 
-**模块升级**：装配站可升级 Starfire-III → Helios Beam。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+**模块升级**：装配站可升级 Starfire-III → Helios Beam。每次升级都会消耗起点部件，并在其他材料之外再要求这些强化板。新部件会保留你放入的部件的锻造等级和加成。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 
 **刷取方法**：给锻造厂供应矿石，开始一整批，并在你的舰船停靠时收取强化板。
 
@@ -631,7 +639,7 @@
 
 **用途**
 
-- [Master Drone](/wiki/06-Items/Drones.md): **20** (另需 Ship Fragment ×250, Slave Drone ×1, 50,000 Thulium)
+- [Master Drone](/wiki/06-Items/Drones.md): **10** (另需 Ancient Control Unit ×2, Orvium Reinforced Plate ×5, Ship Fragment ×250, Slave Drone ×1, Velkonite Reinforced Plate ×5, 1,000,000 信用点, 50,000 Thulium)
 - [Helios Beam](/wiki/06-Items/Lasers.md): **4** (另需 Ancient Control Unit ×1, Cataclysite ×50, Orvium Reinforced Plate ×18, Power Core ×2, Reinforced Hull Plate ×4, Starfire-III ×1, 2,000 Thulium)
 - [Damage Amp IV](/wiki/06-Items/Lasers.md): **4** (另需 Ancient Control Unit ×1, Cataclysite ×30, Damage Amp III ×1, Power Core ×1, 2,400 Thulium)
 - [Crit Amp IV](/wiki/06-Items/Lasers.md): **4** (另需 Ancient Control Unit ×1, Cataclysite ×30, Crit Amp III ×1, Power Core ×1, 2,400 Thulium)
@@ -734,7 +742,7 @@
 
 | 模块等级 | 1 | 5 | 10 | 15 | 20 |
 | :--- | --: | --: | --: | --: | --: |
-| 每小时信用点 | 750 | 3,750 | 11,250 | 25,500 | 75,000 |
+| 每小时信用点 | 2,250 | 11,250 | 33,750 | 76,500 | 225,000 |
 
 这是有供电的空间站的速率：电力不足会让所有农场和采集器停工，而且模块不能升到高于核心的等级，核心最高只到 20 级（参见 [Skylab](/wiki/03-Mechanics/Skylab.md)）。
 
@@ -745,14 +753,14 @@
 **用途**
 
 - **商店**：有 27 件物品以信用点标价（价格见它们的页面：[物品](/wiki/06-Items/Overview.md)和[火箭](/wiki/06-Items/Rockets.md)）。
-- **装配站**，每次制造：[Starfire-III](/wiki/06-Items/Lasers.md) 100,000, P.E.T. Station I 100,000, P.E.T. Station II 400,000, P.E.T. Station III 1,500,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 100,000。
+- **装配站**，每次制造：[Master Drone](/wiki/06-Items/Drones.md) 1,000,000, [Starfire-III](/wiki/06-Items/Lasers.md) 100,000, P.E.T. Station I 100,000, P.E.T. Station II 400,000, P.E.T. Station III 1,500,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 100,000。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：标准 → 腐化 10,000, 腐化 → 神圣 50,000, 神圣 → 裂变 200,000, 裂变 → 永恒 500,000。
 - **锻造炉合并**，按得到的等级：腐化 5,000, 神圣 25,000, 裂变 100,000, 永恒 250,000。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 20,000（1 级），5,600,000（20 级）, 信用点农场 0（1 级），7,000,000（20 级）, 防御模块 500,000（1 级），14,000,000（5 级）, 引擎模块 375,000（1 级），8,750,000（5 级）, 锻造厂 5,000（1 级），9,000,000（20 级）, 矿石舱 5,000（1 级），4,500,000（20 级）, Orvium 采集器 20,000（1 级），5,500,000（20 级）, 雷达模块 250,000（1 级），2,250,000（3 级）, 研究中心 25,000（每级 x1.5）, 火箭工厂 20,000（1 级），1,400,000（20 级）, 太阳能 500（1 级），9,000,000（20 级）, 资源仓库 5,000（1 级），4,500,000（20 级）, Thulium 农场 5,000（1 级），8,500,000（20 级）, 战利品舱 100,000（1 级），2,325,000（20 级）, Velkonite 采集器 20,000（1 级），5,500,000（20 级）。 核心始终存在，所以你为它支付的第一个价格是 2 级的价格：1,500（此后每级 x1.5）。
 - **能量具现器**：每次扫描 5,000 信用点，用于寻找 Chrono-Gate 的零件（[详情](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)）。
 - **[战队](/wiki/03-Mechanics/Clans.md)**：向战队银行捐款（每位飞行员在任意 24 小时内最多 1,000,000 信用点），以及战队的每日税，即其领导者设定的、你信用点的一部分。
 
-**刷取方法**：每次击杀报酬最高的是 [Crystalys](/wiki/04-Aliens/Crystalys.md)（Alpha 75,000，Gamma 225,000；星区 4）；最近的来源是 [Seeker](/wiki/04-Aliens/Seeker.md)（Alpha 1,000；星区 1）。有供电的 信用点农场 在 1 级时每小时生产 750，在 20 级时（核心也是 20 级）每小时生产 75,000，存入装满就会停止的料斗：记得及时收取。
+**刷取方法**：每次击杀报酬最高的是 [Crystalys](/wiki/04-Aliens/Crystalys.md)（Alpha 75,000，Gamma 225,000；星区 4）；最近的来源是 [Seeker](/wiki/04-Aliens/Seeker.md)（Alpha 1,000；星区 1）。有供电的 信用点农场 在 1 级时每小时生产 2,250，在 20 级时（核心也是 20 级）每小时生产 225,000，存入装满就会停止的料斗：记得及时收取。
 
 ### Thulium
 
@@ -779,7 +787,7 @@
 **用途**
 
 - **商店**：有 26 件物品以 Thulium 标价（价格见它们的页面：[物品](/wiki/06-Items/Overview.md)和[火箭](/wiki/06-Items/Rockets.md)）。
-- **装配站**，每次制造：[Master Drone](/wiki/06-Items/Drones.md) 50,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4,000, [Engine III](/wiki/06-Items/Propulsion.md) 4,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 15,000, Bodkin Formation 42,000, Asterism Formation 14,000, Gemini Formation 76,000, Adamant Formation 18,000, Ballista Formation 48,000, Stiletto Formation 92,000, Rampart Formation 77,000, Sanctum Formation 40,000, Shrike Formation 17,000, Culler Formation 40,000, Redoubt Formation 42,000, Auger Formation 41,000, Cordon Formation 43,000, Centurion Formation 16,000, Gyre Formation 40,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2,400, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 2,000, Adaptive Core II 2,000, Adaptive Core III 4,000, Energetic Wall II 600, P.E.T. Station I 2,000, P.E.T. Station II 6,000, P.E.T. Station III 18,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 1,500。
+- **装配站**，每次制造：[Master Drone](/wiki/06-Items/Drones.md) 50,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4,000, [Engine III](/wiki/06-Items/Propulsion.md) 4,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 15,000, Bodkin Formation 42,000, Asterism Formation 14,000, Gemini Formation 76,000, Adamant Formation 18,000, Ballista Formation 48,000, Stiletto Formation 92,000, Rampart Formation 77,000, Sanctum Formation 40,000, Shrike Formation 17,000, Culler Formation 40,000, Redoubt Formation 42,000, Auger Formation 41,000, Cordon Formation 43,000, Centurion Formation 16,000, Gyre Formation 40,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2,400, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 2,000, Adaptive Core II 2,000, Adaptive Core III 4,000, Energetic Wall II 600, P.E.T. Station I 2,000, P.E.T. Station II 6,000, P.E.T. Station III 18,000, Auto-Rocket CPU 20,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) （产出 5 个） 1,500。
 - **[锻造炉](/wiki/06-Items/Forge.md)**，每个等级步骤：裂变 → 永恒 2,000。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** 建造与升级，每个模块的价格（1 级是建造，更高的每一级都有各自的价格）：弹药打印机 500（1 级），11,000（20 级）, 信用点农场 0（1 级），550（20 级）, 防御模块 2,000（1 级），56,000（5 级）, 引擎模块 1,500（1 级），35,000（5 级）, 锻造厂 500（1 级），10,000（20 级）, 矿石舱 250（1 级），550（20 级）, Orvium 采集器 500（1 级），12,500（20 级）, 雷达模块 1,000（1 级），9,000（3 级）, 研究中心 500（每级 x1.5）, 火箭工厂 500（1 级），2,800（20 级）, 太阳能 50（1 级），10,000（20 级）, 资源仓库 250（1 级），550（20 级）, Thulium 农场 500（1 级），16,000（20 级）, 战利品舱 400（1 级），9,300（20 级）, Velkonite 采集器 500（1 级），12,500（20 级）。
 - **[研究](/wiki/03-Mechanics/Research.md#the-thulium-boost)**：研究中心的一次加速需要 5,000 Thulium。
@@ -793,7 +801,7 @@
 
 - **货箱**：外星人的掉落物会落在它爆炸处的一个货箱里，在 30 秒内专属于击杀它的飞行员和其战队。[Resource Magnet Booster](/wiki/06-Items/Boosters.md) 会让货箱的内容增加 25%。参见[货箱](/wiki/03-Mechanics/Cargo.md)。
 - **残骸**：被摧毁的[企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)不会留下货箱和零件，无论是谁或什么摧毁了它，所以飞行员的舰船不是材料来源。和平协议结束后，在你的[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)允许 PvP 的地方，你可以击落另一家企业的飞行员；摧毁你自己企业的飞行员会扣 100 荣誉。
-- **模块升级**：装配站通过升级低一级的部件来制造 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II 和 Adaptive Core III，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II 和 P.E.T. Station III 相同。新部件会保留你放入的部件的锻造等级，它的加成会重新随机，所以可能比旧的更好，也可能更差。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
+- **模块升级**：装配站通过升级低一级的部件来制造 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II 和 Adaptive Core III，并消耗该部件。升级需要 Velkonite Reinforced Plate, Dark Matter Plate 和 Orvium Reinforced Plate，与 Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III 和 Auto-Rocket CPU 相同。新部件会保留你放入的部件的锻造等级和加成。参见 [装配站中的模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)。
 - **存放位置**：装配站、锻造炉和 Skylab 建造使用的是物品栏里零散的物品堆。舰船上或运输储藏库中的物品堆不算。
 - **重置**：你物品栏中的材料遵循[重置规则](/wiki/03-Mechanics/Wipe-Timeline.md)；存放在 Skylab 资源仓库里的矿石会保留。
 

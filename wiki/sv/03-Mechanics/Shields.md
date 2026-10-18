@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0f0413a5a5f080ae -->
+<!-- wiki-i18n source: aa02d302a23ff21a -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -60,9 +60,10 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 #### Att nå och passera 100 % {#reaching-and-passing-100-}
 
 - **Rakt ur lådan**: högst 80 % (se ovan).
-- **Shield Absorbance Boost**: en permanent buff i säsongsbutiken som köps med wipepoäng, **+0,1 punkter per nivå, högst +10 punkter** (100 nivåer, 25 WP var). Den lägger fasta punkter på ditt skepps absorption, lika på alla skepp med sköld: 80 % blir 80,4 % med 4 nivåer (100 WP), och de 45 % som en Light Shield Core har blir 46,2 % med 12 nivåer (300 WP). Ett skepp utan sköld utrustad stannar på 0 %. De 100 nivåerna kostar 2 500 WP, ett mål för flera wipes: dagens källor till wipepoäng (milstolparna för nedskjutningar och uppdragen) betalar sammanlagt 855 WP vid sina tak, överförda över wipes, och det köper 34 nivåer, +3,4 punkter. Fler källor till wipepoäng är planerade. Se [Säsong och wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Shield Absorbance Boost**: en permanent buff i säsongsbutiken som köps med wipepoäng, **+0,1 punkter per nivå, högst +10 punkter** (100 nivåer, 25 WP var). Den lägger fasta punkter på ditt skepps absorption, lika på alla skepp med sköld: 80 % blir 80,4 % med 4 nivåer (100 WP), och de 45 % som en Light Shield Core har blir 46,2 % med 12 nivåer (300 WP). Ett skepp utan sköld utrustad stannar på 0 %. De 100 nivåerna kostar 2 500 WP, ett mål för flera wipes: dagens källor till wipepoäng (milstolparna för nedskjutningar, uppdragen och de fem Dormant Knowledge-forskningarna) betalar sammanlagt 1 105 WP vid sina tak, överförda över wipes, och det köper 44 nivåer, +4,4 punkter. Fler källor till wipepoäng är planerade. Se [Säsong och wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Smedjan**: sköldar och sköldceller kan få en bonus på **absorption**, som multiplicerar värdet: +5 % på en sköld med 50 % är +2,5 punkter. En fullt smidd bästa uppsättning på nivån Evig (kärna och tre celler, varje bonus slumpad till högsta nivå, +15 %) ger upp till 12 punkter, i snitt omkring 10 (se [Smedjan](/wiki/06-Items/Forge.md)).
-- **Tillsammans**: 80 % rakt ur lådan, +3,4 punkters buff (alla dagens 855 wipepoäng) och upp till +12 punkter i bonusar från Smedjan blir som mest **95,4 %** i dag; med alla buffens 100 nivåer (+10 punkter, 2 500 WP) skulle det bli 102 %. Varken buffen eller Smedjan ensam når 100 %; att komma dit är ett mål för flera wipes, och fler källor till wipepoäng är planerade.
+- **Field Theory**: Pilot-forskningen Field Theory I, II och III ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) lägger **+2, +3 och +5 punkter** på absorptionen hos alla dina skepp, sammanlagt och inte varje nivå ovanpå den förra, mot krediter, Thulium och Dark Matter. Liksom säsongsbutikens buff är det fasta punkter på alla skepp med sköld, och de finns kvar efter wipen.
+- **Tillsammans**: 80 % rakt ur lådan, +4,4 punkters buff (alla dagens 1 105 wipepoäng), upp till +12 punkter i bonusar från Smedjan och +5 punkter från Field Theory III blir som mest **101,4 %** i dag; med alla buffens 100 nivåer (+10 punkter, 2 500 WP) skulle det bli 107 %. Varken buffen, Smedjan eller Field Theory ensam når 100 %; att komma dit kräver alla tre och är ett mål för flera wipes, och fler källor till wipepoäng är planerade.
 
 ### Sköldförstärkningar: kapacitet, absorption, laddning {#shield-boosts-capacity-absorbance-recharge}
 

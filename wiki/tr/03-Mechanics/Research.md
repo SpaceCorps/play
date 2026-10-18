@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Dronlar {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Gemiler {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Süreleri, Dark Matter miktarları ve toplamlar [Gemi tasarımları](/wiki/03-Me
 ## Skylab modülleri {#module-technologies}
 
 Araştırma görünümünün Skylab grubunda, üretim olmayan bir tür teknoloji daha vardır: 15. seviye Çekirdek’in açtığı **Motor Modülü**, **Savunma Modülü** ve **Radar Modülü** seviyeleri. Her seviyenin kendi teknolojisi vardır ve ancak ondan sonra inşa edilir; her modülün ilk seviyesi Dark Matter istemez, sonrakiler her seviyede daha fazlasını ister. Yukarıdaki ağaç bunları dışarıda bırakır, çünkü açtıkları şey bir eşya değil, bir modülün bir seviyesidir. Bunların Dark Matter miktarı yukarıdaki toplamların üstüne eklenir ve [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) sayfası onu toplar. Süreleri ve her modülün ne yaptığı [Skylab](/wiki/03-Mechanics/Skylab.md) makalesindedir.
+
+## Pilot {#pilot-technologies}
+
+Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardır: Montaj’da hiçbir şey üretmezler. Çoğu senin için **kalıcı bonuslardır**. Yukarıdaki ağaç bunları dışarıda bırakır, çünkü açtıkları şey bir eşya değil, bir bonustur.
+
+- **Maliyetleri.** Bilim puanı ve Dark Matter’ın yanında bir bonus **kredi ve Thulium** da ister. Merkez hepsini araştırma başlarken alır; bitmeden iptal edersen hepsini geri verir.
+- **Kalırlar.** Diğer araştırmaların gibi bu teknolojiler de sıfırlamadan sonra kalır, bonusları da onlarla birlikte.
+- **Sırayla.** Her seviye bir öncekini ister ve yüksek seviye düşük seviyenin yerini alır: tablo, her seviyenin verdiği toplamı gösterir, eklediğini değil.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) sahip olduğun her gemiye, iki konfigürasyonda da gövde ekler.
+- **Sealed Backdoor** her roketin taşıma sınırını yükseltir; nerede alırsan, üretirsen ya da takas edersen et.
+- **Excavator Mining**, bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığından aldığını artırır, Thulium’u da cevheri de.
+- **Field Theory**, her isabetin kalkanlarının emdiği payını artırır. Kalkanı olmayan gemi hiçbir şey kazanmaz.
+- **Dormant Knowledge**, araştırması Merkez’de bittiğinde, her seviye için bir kez sıfırlama puanı öder. Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, beş Dormant Knowledge sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Teknoloji | Ne verir | Önce gerekir | Araştırma süresi | Dark Matter | Kredi | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Verimli Atıştırmalıklar: Kebap | Tüm gemilerinin gövdesine +5.000 | – | 10 sa | 10 | 250.000 | 2.500 |
+| Verimli Atıştırmalıklar: Pelmeni | Tüm gemilerinin gövdesine +10.000 | Verimli Atıştırmalıklar: Kebap | 1 g | 20 | 1.000.000 | 10.000 |
+| Verimli Atıştırmalıklar: Burger | Tüm gemilerinin gövdesine +15.000 | Verimli Atıştırmalıklar: Pelmeni | 2 g | 30 | 3.500.000 | 35.000 |
+| Mühürlü Arka Kapı I | Roket taşıma sınırı +%25 | – | 6 sa | 5 | 100.000 | 1.000 |
+| Mühürlü Arka Kapı II | Roket taşıma sınırı +%50 | Mühürlü Arka Kapı I | 10 sa | 10 | 300.000 | 3.000 |
+| Mühürlü Arka Kapı III | Roket taşıma sınırı +%100 | Mühürlü Arka Kapı II | 1 g | 15 | 750.000 | 7.500 |
+| Mühürlü Arka Kapı IV | Roket taşıma sınırı +%150 | Mühürlü Arka Kapı III | 2 g | 25 | 1.750.000 | 17.500 |
+| Mühürlü Arka Kapı V | Roket taşıma sınırı +%200 | Mühürlü Arka Kapı IV | 3 g | 40 | 3.500.000 | 35.000 |
+| Ekskavatör Madenciliği I | Ekskavatör verimi +%20 | – | 1 g | 10 | 500.000 | 5.000 |
+| Ekskavatör Madenciliği II | Ekskavatör verimi +%30 | Ekskavatör Madenciliği I | 2 g | 20 | 1.500.000 | 15.000 |
+| Ekskavatör Madenciliği III | Ekskavatör verimi +%40 | Ekskavatör Madenciliği II | 3 g | 30 | 4.000.000 | 40.000 |
+| Alan Teorisi I | Kalkan emilimi +%2 | – | 1 g | 20 | 500.000 | 5.000 |
+| Alan Teorisi II | Kalkan emilimi +%3 | Alan Teorisi I | 2 g | 40 | 1.500.000 | 15.000 |
+| Alan Teorisi III | Kalkan emilimi +%5 | Alan Teorisi II | 3 g | 60 | 5.000.000 | 50.000 |
+| Uyuyan Bilgi I | +50 sıfırlama puanı | Diğer teknolojilerin %20 kadarı (30 / 146) | 1 sa | – | – | – |
+| Uyuyan Bilgi II | +50 sıfırlama puanı | Uyuyan Bilgi I; Diğer teknolojilerin %40 kadarı (59 / 146) | 1 sa | – | – | – |
+| Uyuyan Bilgi III | +50 sıfırlama puanı | Uyuyan Bilgi II; Diğer teknolojilerin %60 kadarı (88 / 146) | 1 sa | – | – | – |
+| Uyuyan Bilgi IV | +50 sıfırlama puanı | Uyuyan Bilgi III; Diğer teknolojilerin %80 kadarı (117 / 146) | 1 sa | – | – | – |
+| Uyuyan Bilgi V | +50 sıfırlama puanı | Uyuyan Bilgi IV; Diğer teknolojilerin %100 kadarı (146 / 146) | 1 sa | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Tüm teknolojiler {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Araştırma görünümünün Skylab grubunda, üretim olmayan bir tür teknoloji
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 sa | 10.800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 sa | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 g | 86.400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 sa | 36.000 | – |
 
 Sınıflar, araştırma süresine göre:
 
@@ -423,11 +465,11 @@ Sınıflar, araştırma süresine göre:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 dk | 10 | 5 sa | 18.000 | 0 |
 | B | 3 sa – 6 sa | 20 | 2 g 21 sa | 248.400 | 0 |
-| C | 10 sa | 16 | 6 g 16 sa | 576.000 | 95 |
+| C | 10 sa | 17 | 7 g 2 sa | 612.000 | 95 |
 | D | 1 g – 2 g | 23 | 28 g | 2.419.200 | 319 |
-| Tümü |  | 69 | 37 g 18 sa | 3.261.600 | 414 |
+| Tümü |  | 70 | 38 g 4 sa | 3.297.600 | 414 |
 
-Art arda araştırılırsa tüm ağaç 37 g 18 sa sürer. Hızlandırma her zaman açıkken 18 g 21 sa sürer, bu da 19 hızlandırma ve 95.000 Thulium eder; bilim puanı aynıdır.
+Art arda araştırılırsa tüm ağaç 38 g 4 sa sürer. Hızlandırma her zaman açıkken 19 g 2 sa sürer, bu da 20 hızlandırma ve 100.000 Thulium eder; bilim puanı aynıdır.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Yeni CPU’lar da burada araştırılır, sonra Montaj’da üretilir. Aynı tab
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 g | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 dk |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 sa | – | 15.000 | 10 dk |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 sa | – | 600 | 2 dk |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 sa | – | 20.000 | 15 dk |
 
 Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da CPU üret. Montaj’ın istediği malzemeleri görmek üzere ağaçtaki CPU simgesinin üzerine gel.
 
@@ -482,6 +525,13 @@ Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da 
 - **Ne yapar.** Ekstra yuvalarındaki Repair Drone, elle gönderebileceğin her an kendiliğinden dışarı gönderilir: gövden dolu değildir, dron zaten dışarıda değildir ve son vuruştan beri 10 saniye geçmiştir. Ayarlanacak bir gövde seviyesi yoktur.
 - Kendine ait bir ekstra yuva kaplar ve aynı konfigürasyondaki bir ekstra yuvada Repair Drone yoksa hiçbir şey yapmaz. Yetenek yuvasındaki Repair Drone hiçbir zaman gönderilmez (o, Emergency Repair düğmesidir).
 - **Dronu elle durdurursan,** CPU, gövden yeniden dolana ya da dronu kendin gönderene kadar ona dokunmaz.
+
+### Auto-Rocket CPU
+
+- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya ya da düşman pilota ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler.
+- **Anahtar.** Bir Ekstra yuvasına tak ve ARL yuvasına basarak AÇIK ya da KAPALI yap. KAPALI başlar ve bıraktığın gibi kalır, yeniden giriş yaptığında da. Yuva AÇIK ya da KAPALI yazar ve CPU ateş ettiğinde parlar.
+- **Asla yapmadığı şeyler.** Asla hedef seçmez, asteroitlere, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
+- **Roket kalmadı.** Bir kez söyler ve elinde yenisi olunca yeniden fırlatır.
 
 
 <!-- research-cpus:end -->

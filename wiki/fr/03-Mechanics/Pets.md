@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -47,6 +47,7 @@ Le Berceau est la machine de la vue P.E.T. du hangar. Une **tâche** prend un Cl
 
 - **Le grade du chunk décide du grade du P.E.T.**, donc du nombre de boosts qu’il a (1, 2 ou 3) et des types qu’il peut être : 4 des 10 types pour un chunk Regular, 7 pour un Mythical et les 10 pour un Legendary. Le Retriever peut venir de n’importe quel chunk ; le Mole demande un Mythical ou un Legendary.
 - **Vous choisissez le type** parmi ceux que vous avez découverts, ou vous appuyez sur **Découvrir** : le Berceau fait alors éclore un type de ce grade que vous n’avez pas encore découvert, tiré au départ de la tâche et montré seulement quand vous récupérez le P.E.T. Un type qu’une autre tâche en cours a déjà tiré est écarté, de sorte que deux découvertes en file ne font jamais éclore le même type.
+- **Vous pouvez annuler une tâche** qui tourne ou qui attend : appuyez sur la petite croix de son emplacement et appuyez de nouveau dans les 3 secondes quand elle demande **Annuler ?**. Le Cluster Chunk et la Orvium Reinforced Plate vous sont rendus, les tâches derrière se resserrent, et seul le temps déjà écoulé est perdu. Une tâche terminée se récupère, elle ne s’annule pas. Une découverte que vous annulez libère son type, qui peut être tiré de nouveau.
 - **Le Codex** au bas de la page montre les dix types en silhouettes tant que vous ne les avez pas fait éclore. Il appartient à votre compte et le remplir ne rapporte rien.
 - **Le hangar des P.E.T.** contient au plus **24** P.E.T.s, arrimés ou en réserve, et une tâche en cours compte pour un. Vous pouvez en **relâcher** un : rien ne revient.
 

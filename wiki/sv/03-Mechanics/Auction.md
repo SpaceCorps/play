@@ -16,7 +16,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 83 föremål kan läggas ut, och 82 av dem kan även prissättas i Thulium.
+- 84 föremål kan läggas ut, och 83 av dem kan även prissättas i Thulium.
 - En annons löper 168 / 336 / 504 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 0,25 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 0,4 %.
@@ -57,7 +57,7 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Ultra Core (i partier om 10), Experimental Fusion Core | 5 |
 | **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Förbrukningsvaror** | EMP Charge, Energetic Wall II | 2 |
-| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
+| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
 | **Skrovpansar** | Hull Plating II, Hull Plating III | 2 |
 | **Resurser** | Cataclysite (i partier om 100), Ship Fragment (i partier om 100), Daraxium (i partier om 100), Nyxite (i partier om 100), Quorvium (i partier om 10), Reinforced Hull Plate (i partier om 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 

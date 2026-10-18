@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Escavatore gigante -->
 # Escavatore gigante {#giant-excavator}
 
@@ -32,7 +32,7 @@ Dal primo giorno della stagione un **pulsar** brilla in ciascuno dei settori per
 2. **Apri il pannello.** Clicca l’etichetta. La finestra **Escavatore gigante** funziona finché la tua nave è nel raggio del pannello dell’escavatore (l’elenco *In breve* lo indica). Una nave occultata può usarlo, e usarlo non pone fine all’occultamento.
 3. **Rifornisci.** **Aggiungi Dark Matter** mette una Dark Matter dal tuo carico nel serbatoio. Può farlo chiunque. Il serbatoio non ne accetta mai più di quante l’escavatore possa bruciarne prima di surriscaldarsi, così non si spreca carburante.
 4. **Scegli cosa estrarre** dall’elenco, poi premi **Avvia l’estrazione**. Serve almeno una Dark Matter nel serbatoio e una risorsa. Chiunque può cambiare la scelta fino all’avvio e anche mentre è in funzione (vedi *Cambiare la risorsa* più sotto). L’avvio viene annunciato a ogni pilota del mondo, con il tuo nome, il settore e la risorsa.
-5. **Difendilo.** Mentre estrae, ogni pochi secondi cade una cassa intorno all’escavatore, e poco dopo l’avvio arrivano i primi Slumbering Void. Difendi l’escavatore e prendi le casse. Un flusso di luce scorre dal pulsar alla trivella dell’escavatore e si intensifica ogni volta che uno dei getti della stella lo spazza; nell’ultimo minuto prima del surriscaldamento sfarfalla e si spezza, e quando la macchina riposa si ferma.
+5. **Difendilo.** Mentre estrae, ogni pochi secondi cade una cassa intorno all’escavatore, e poco dopo l’avvio arrivano i primi Slumbering Void. Difendi l’escavatore e prendi le casse. Un flusso di luce scorre dal pulsar alla trivella dell’escavatore e si intensifica al ritmo della stella, una volta ogni 4 secondi; nell’ultimo minuto prima del surriscaldamento sfarfalla e si spezza, e quando la macchina riposa si ferma.
 6. **Controlla il calore.** La barra del Calore si riempie mentre l’escavatore estrae e non si svuota mai mentre aspetta. Al limite l’escavatore si surriscalda. Vai via prima: il gioco avvisa la mappa due volte.
 7. **Riposa.** Surriscaldato o distrutto, l’escavatore e il suo pulsar sono irradiati finché il riposo non finisce; poi è di nuovo pronto, con il calore azzerato e lo scafo pieno.
 
@@ -58,7 +58,7 @@ Se il carburante finisce prima del limite, l’escavatore torna **Pronto** con i
 
 ## Cosa estrae {#what-it-mines}
 
-Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli la risorsa prima dell’avvio e puoi cambiarla mentre l’escavatore è in funzione. Una cassa è uguale per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi.
+Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli la risorsa prima dell’avvio e puoi cambiarla mentre l’escavatore è in funzione. Una cassa contiene lo stesso per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi. Ciò che prendi da una cassa, invece, può cambiare: ogni livello della ricerca Pilota Excavator Mining ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta il Thulium e il minerale che raccogli del 20%, 30% o 40% in tutto, arrotondato per difetto.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

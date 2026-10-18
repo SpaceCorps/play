@@ -21,7 +21,7 @@ Every ship has a fixed number of Ability Slots in the Hangar:
 - **Ironclad**: 3 slots
 - **Wraith**: 3 slots
 
-An ability slot takes a **Shield Core**, an **Engine** or a **Repair Drone**, and each makes its own ability. Drag the item onto the slot. Configuration 1 and configuration 2 have their own slots.
+An ability slot takes a **Shield Core**, an **Engine** or a **Repair Drone**, and each makes its own ability. Drag the item onto the slot. Configuration 1 and configuration 2 have their own slots. In the Hangar a click on a shield, an engine or a Repair Drone puts it in its usual slot, and in the first free ability slot when its usual slots (the generator slots, or the extras for a Repair Drone) are all taken.
 
 - **Shield Cells and Thrusters do not fit an ability slot.** They are modules of shields, engines and Adaptive Cores.
 - **An item in an ability slot adds nothing else.** It gives no shield capacity, recharge, absorbance or speed, and none of a shield's slowdown. The same Heavy Shield Core either sits in a generator slot for its shield at every moment, or in an ability slot for its Surge. You choose.

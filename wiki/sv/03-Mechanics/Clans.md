@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -295,7 +295,7 @@ Sedan 0.4.22 **går varje väktare på den pilot som träffade den**, som Wrath 
 ### Strida mot en väktare {#fighting-a-warden}
 
 - **En väktare strider mot den pilot som träffade den först**, som varje boss: låt besättningens kraftigaste skepp börja och använd [Shield Surge och Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 17 till 26 piloter med x2-ammunition och 27 till 39 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen.
+- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 17 till 26 piloter med x2-ammunition och 26 till 39 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen.
 - **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar, även en stor. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder (efter 16 för Brood Warden III). Sedan 0.4.22 flyger Brood Warden på den pilot som träffade den, och dess drönare följer med och fortsätter läka den.
 - **Siege:** dess raketer är raka och ostyrda, så ett skepp som fortsätter röra sig väjer för de flesta. Fortsätt röra dig och turas om att vara måltavla. Sedan 0.4.22 ströftar den inte längre omkring: den flyger på den första pilot som träffade den och avfyrar sin Rivet mot honom från upp till 1 000 enheter.
 - **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet. Sedan 0.4.20 står den inte stilla: den flyger på den första pilot som träffade den, 90 enheter i sekunden, tills den är inom sina lasrars räckvidd (700, 800 eller 900 enheter efter styrka) och skjuter därifrån, så ett vapen med längre räckvidd skjuter inte längre på den utan svar.
@@ -335,7 +335,7 @@ Sedan 0.4.22 gör **varje väktare** det Wrath Warden III gjorde från 0.4.20: u
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Sedan 0.4.20 tar **Wrath Warden III** med mer, och oftare: en våg var **40:e se
 
 - **Högst fyra vågor är levande.** En våg som är förfallen när fyra lever hoppas över, som hos de andra väktarna.
 - **Vad de betalar.** En hel våg av 15 Bulwarks betalar 75 000 krediter i Alpha, och med sin Crystalys 150 000: ungefär 2 % av de 7 200 000 som väktaren själv betalar.
-- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **32 piloter på x-2, 32 på x-3 och 39 på x-4** med x2-ammunition (26 utan vågor), och 39, 41 och 51 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så 51 på x-4 i Gamma är en mer än den kan skicka. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
+- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **32 piloter på x-2, 32 på x-3 och 39 på x-4** med x2-ammunition (26 utan vågor), och 39, 41 och 50 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så 50 på x-4 i Gamma är allt den kan skicka. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ Tabellen visar bästa fallet; i spelet, ta med så många du kan.
 | :--- | :--- | :--- |
 | 5 piloter | förlorar mot varje väktare; väktaren behåller 88 till 96 % av sitt skrov och sin sköld | förlorar |
 | 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 86 % av sitt skrov och sin sköld | förlorar |
-| 20 piloter | vinner bara mot Siege Warden I och II, på 7,3 minuter, och förlorar 6 skepp, samt mot Brood Warden III, på 3,9 minuter, och förlorar 9 skepp | förlorar |
-| 30 piloter | vinner mot alla väktare på 2,0 till 5,2 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 10,5 till 10,6 minuter, och förlorar 9 skepp, samt mot Brood Warden III, på 5,3 minuter, och förlorar 13 skepp |
+| 20 piloter | vinner bara mot Siege Warden I och II, på 7,2 till 7,3 minuter, och förlorar 6 skepp, samt mot Brood Warden III, på 3,9 minuter, och förlorar 9 skepp | förlorar |
+| 30 piloter | vinner mot alla väktare på 2,0 till 5,2 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 10,4 till 10,5 minuter, och förlorar 9 skepp, samt mot Brood Warden III, på 5,2 minuter, och förlorar 13 skepp |
 
-I beräkningen har den minsta besättning som vinner med x2-ammunition **17 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **10 till 19** skepp på köpet; med x1-ammunition har den **27 till 39** piloter och förlorar 13 till 27. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 55 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
+I beräkningen har den minsta besättning som vinner med x2-ammunition **17 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **10 till 18** skepp på köpet; med x1-ammunition har den **26 till 39** piloter och förlorar 12 till 27. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 55 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
 
 Tabellen gäller en besättning med utrustning för väktarens egen nivå. Svagare skepp klarar sig sämre. **Din** klans väktare matchar alltid **din** nivå, som klanens fem bästa piloter bestämmer, så ta med dem.
 

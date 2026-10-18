@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8cf3540685bf9b05 -->
+<!-- wiki-i18n source: 3381797752395f5b -->
 <!-- wiki-i18n title: Excavadora gigante -->
 # Excavadora gigante {#giant-excavator}
 
@@ -32,7 +32,7 @@ Desde el primer día de la temporada brilla un **púlsar** en cada uno de los se
 2. **Abre el panel.** Haz clic en la etiqueta. La ventana **Excavadora gigante** funciona mientras tu nave esté dentro del alcance del panel de la excavadora (la lista *De un vistazo* lo indica). Una nave camuflada puede usarlo, y usarlo no termina el camuflaje.
 3. **Reposta.** **Añadir Dark Matter** pone un Dark Matter de tu carga en el depósito. Puede hacerlo cualquiera. El depósito nunca admite más de lo que la excavadora puede quemar antes de sobrecalentarse, así que no se desperdicia combustible.
 4. **Elige qué minar** en la lista y pulsa **Iniciar minería**. Hace falta al menos un Dark Matter en el depósito y un recurso. Cualquiera puede cambiar la elección hasta el inicio y también mientras funciona (véase *Cambiar el recurso* más abajo). El inicio se avisa a todos los pilotos del mundo, con tu nombre, el sector y el recurso.
-5. **Defiéndela.** Mientras mina, cada pocos segundos cae una caja alrededor de la excavadora, y poco después del inicio llegan los primeros Slumbering Voids. Defiende la excavadora y recoge las cajas. Un chorro de luz fluye del púlsar al taladro de la excavadora y se intensifica cada vez que uno de los chorros de la estrella barre su dirección; en el último minuto antes del sobrecalentamiento parpadea y se entrecorta, y cuando la máquina descansa se apaga.
+5. **Defiéndela.** Mientras mina, cada pocos segundos cae una caja alrededor de la excavadora, y poco después del inicio llegan los primeros Slumbering Voids. Defiende la excavadora y recoge las cajas. Un chorro de luz fluye del púlsar al taladro de la excavadora y se intensifica al ritmo de la estrella, una vez cada 4 segundos; en el último minuto antes del sobrecalentamiento parpadea y se entrecorta, y cuando la máquina descansa se apaga.
 6. **Vigila el calor.** La barra de Calor se llena mientras la excavadora mina y nunca se vacía mientras espera. En su límite la excavadora se sobrecalienta. Vete antes: el juego avisa al mapa dos veces.
 7. **Descansa.** Sobrecalentada o destruida, la excavadora y su púlsar quedan irradiados hasta que termina el descanso; entonces vuelve a estar lista, con el calor a cero y el casco lleno.
 
@@ -58,7 +58,7 @@ Si el combustible se agota antes del límite, la excavadora vuelve a **Lista** c
 
 ## Qué mina {#what-it-mines}
 
-Un depósito lleno suelta aproximadamente lo que ganarían cinco pilotos en media hora del mejor cultivo de Thulium. Beta y Gamma sueltan más, igual que pagan más por cada derribo. Eliges el recurso antes del inicio y puedes cambiarlo mientras la excavadora funciona. Una caja es igual para todos, y una caja de Thulium es dinero en efectivo que se paga al recogerla, como el Thulium de los asteroides.
+Un depósito lleno suelta aproximadamente lo que ganarían cinco pilotos en media hora del mejor cultivo de Thulium. Beta y Gamma sueltan más, igual que pagan más por cada derribo. Eliges el recurso antes del inicio y puedes cambiarlo mientras la excavadora funciona. Una caja contiene lo mismo para todos, y una caja de Thulium es dinero en efectivo que se paga al recogerla, como el Thulium de los asteroides. Lo que sacas de una caja, en cambio, puede variar: cada nivel de la investigación de Piloto Excavator Mining ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta el Thulium y el mineral que recoges en un 20 %, 30 % o 40 % en total, redondeado hacia abajo.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

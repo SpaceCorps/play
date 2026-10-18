@@ -228,7 +228,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drones {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Ships {#tree-ships}
@@ -264,6 +264,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -337,6 +338,46 @@ Their times, their Dark Matter and the totals are on the [Ship Designs](/wiki/03
 ## Skylab modules {#module-technologies}
 
 The Skylab family of the Research view holds one more kind of technology that is not a craft: the levels of the **Engine Module**, the **Defense Module** and the **Radar Module**, which Core level fifteen unlocks. Each level has a technology of its own and is built only after it; the first level of each module asks no Dark Matter and the later ones ask more with every level. The tree above leaves them out, because what they open is a level of a module, not an item. Their Dark Matter is on top of the totals above, and [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) adds it up. Their times and what each module does are in the [Skylab](/wiki/03-Mechanics/Skylab.md) article.
+
+## Pilot {#pilot-technologies}
+
+The Pilot family of the Research view holds technologies that are not crafts: they make nothing in Assembly. Most of them are **permanent buffs** for you. The tree above leaves them out, because what they open is a buff, not an item.
+
+- **What they cost.** Besides the science and the Dark Matter, a buff asks **credits and Thulium**. The Centre takes all of it when the research starts, and gives all of it back if you cancel before it finishes.
+- **They stay.** Like the rest of your research, these technologies stay through the wipe, and so do their buffs.
+- **In series.** Every level needs the level before it, and a higher level replaces the lower one: the table shows the total each level gives, not what it adds.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) add hull to every ship you own, in both configurations.
+- **Sealed Backdoor** raises the carry limit of every rocket, wherever you buy, make or trade it.
+- **Excavator Mining** raises what you take from every box of a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md), Thulium and ore alike.
+- **Field Theory** raises the share of every hit that your shields take. A ship with no shield gets nothing.
+- **Dormant Knowledge** pays Wipe Points, once for each level, when its research finishes in the Centre. Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Technology | What it gives | Needs first | Research time | Dark Matter | Credits | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Efficient Snacks: Kabob | +5,000 hull to all your ships | – | 10 h | 10 | 250,000 | 2,500 |
+| Efficient Snacks: Pelmeni | +10,000 hull to all your ships | Efficient Snacks: Kabob | 1 d | 20 | 1,000,000 | 10,000 |
+| Efficient Snacks: Burger | +15,000 hull to all your ships | Efficient Snacks: Pelmeni | 2 d | 30 | 3,500,000 | 35,000 |
+| Sealed Backdoor I | +25% rocket carry limit | – | 6 h | 5 | 100,000 | 1,000 |
+| Sealed Backdoor II | +50% rocket carry limit | Sealed Backdoor I | 10 h | 10 | 300,000 | 3,000 |
+| Sealed Backdoor III | +100% rocket carry limit | Sealed Backdoor II | 1 d | 15 | 750,000 | 7,500 |
+| Sealed Backdoor IV | +150% rocket carry limit | Sealed Backdoor III | 2 d | 25 | 1,750,000 | 17,500 |
+| Sealed Backdoor V | +200% rocket carry limit | Sealed Backdoor IV | 3 d | 40 | 3,500,000 | 35,000 |
+| Excavator Mining I | +20% excavator output | – | 1 d | 10 | 500,000 | 5,000 |
+| Excavator Mining II | +30% excavator output | Excavator Mining I | 2 d | 20 | 1,500,000 | 15,000 |
+| Excavator Mining III | +40% excavator output | Excavator Mining II | 3 d | 30 | 4,000,000 | 40,000 |
+| Field Theory I | +2% shield absorption | – | 1 d | 20 | 500,000 | 5,000 |
+| Field Theory II | +3% shield absorption | Field Theory I | 2 d | 40 | 1,500,000 | 15,000 |
+| Field Theory III | +5% shield absorption | Field Theory II | 3 d | 60 | 5,000,000 | 50,000 |
+| Dormant Knowledge I | +50 Wipe Points | 20% of the other technologies (30 of 146) | 1 h | – | – | – |
+| Dormant Knowledge II | +50 Wipe Points | Dormant Knowledge I; 40% of the other technologies (59 of 146) | 1 h | – | – | – |
+| Dormant Knowledge III | +50 Wipe Points | Dormant Knowledge II; 60% of the other technologies (88 of 146) | 1 h | – | – | – |
+| Dormant Knowledge IV | +50 Wipe Points | Dormant Knowledge III; 80% of the other technologies (117 of 146) | 1 h | – | – | – |
+| Dormant Knowledge V | +50 Wipe Points | Dormant Knowledge IV; 100% of the other technologies (146 of 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## All the technologies
 
@@ -414,6 +455,7 @@ The Skylab family of the Research view holds one more kind of technology that is
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10,800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86,400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36,000 | – |
 
 The classes, by research time:
 
@@ -421,11 +463,11 @@ The classes, by research time:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18,000 | 0 |
 | B | 3 h to 6 h | 20 | 2 d 21 h | 248,400 | 0 |
-| C | 10 h | 16 | 6 d 16 h | 576,000 | 95 |
+| C | 10 h | 17 | 7 d 2 h | 612,000 | 95 |
 | D | 1 d to 2 d | 23 | 28 d | 2,419,200 | 319 |
-| All |  | 69 | 37 d 18 h | 3,261,600 | 414 |
+| All |  | 70 | 38 d 4 h | 3,297,600 | 414 |
 
-Researched one after another, the whole tree takes 37 d 18 h. With the boost on all the time it takes 18 d 21 h, which is 19 boosts and 95,000 Thulium; the science is the same.
+Researched one after another, the whole tree takes 38 d 4 h. With the boost on all the time it takes 19 d 2 h, which is 20 boosts and 100,000 Thulium; the science is the same.
 
 <!-- research-technologies:end -->
 
@@ -446,6 +488,7 @@ The new CPUs are researched here too, then made in Assembly. The same table and 
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40,000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15,000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20,000 | 15 min |
 
 None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
 
@@ -480,6 +523,13 @@ None of them is sold in the Shop: research the technology, then make the CPU in 
 - **What it does.** It sends out the Repair Drone fitted in your extra slots by itself, whenever you could have sent it out by hand: your hull is not full, the drone is not already out and 10 seconds have passed since the last hit. There is no hull level to set.
 - It takes an extra slot of its own and does nothing without a Repair Drone in an extra slot of the same configuration. It never sends out a Repair Drone in an ability slot (that one is the Emergency Repair button).
 - **If you stop the drone by hand,** the CPU leaves it alone until your hull is full again, or until you send the drone out yourself.
+
+### Auto-Rocket CPU
+
+- **What it does.** While it is switched ON and you are in a fight (your lasers are on an alien or an enemy pilot), it fires your armed rocket, the one you fired last, at that target by itself, whenever a press of the Fire Rocket key would work: the rockets' timer is ready and you have one left. The server checks each launch as it checks yours.
+- **The switch.** Fit it in an Extras slot and press its ARL slot to switch it ON or OFF. It starts OFF and stays as you left it, also when you sign in again. The slot says ON or OFF and glows when the CPU fires.
+- **What it never does.** It never picks a target, never fires at asteroids, never fires from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E. A rocket you fire yourself always works. With no key, click or mouse move for 3 minutes it waits until you do something.
+- **No rockets left.** It tells you once and fires again as soon as you have more.
 
 
 <!-- research-cpus:end -->

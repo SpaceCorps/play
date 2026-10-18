@@ -16,7 +16,7 @@ L’asta è il mercato dei piloti e, insieme, i lotti orari del gioco stesso, in
 - Ti serve il **livello 5** per usare l’asta: per mettere in vendita, comprare e fare offerte.
 - Un’inserzione ha un prezzo per lotto, in crediti interi o in Thulium interi (non entrambi), e mai sotto il prezzo minimo dell’oggetto. **Non esiste un prezzo massimo.**
 - Un prezzo in Thulium è almeno il prezzo minimo in crediti diviso per il tasso (1.000), arrotondato per eccesso, e solo per gli oggetti il cui prezzo minimo arriva a 1 Thulium o più. È tutto ciò che fa il tasso: **1 Thulium = 1.000 crediti è una regola per il prezzo minimo, non un tasso di cambio.** Nulla viene scambiato, nessun valore viene mostrato, e crediti e Thulium non si sommano mai.
-- 83 oggetti si possono mettere in vendita, e 82 di essi si possono anche prezzare in Thulium.
+- 84 oggetti si possono mettere in vendita, e 83 di essi si possono anche prezzare in Thulium.
 - Un’inserzione dura 168 / 336 / 504 ore, a tua scelta: le opzioni sono le stesse a ogni livello.
 - Il **deposito** è pari a 0,25% del prezzo per ogni 24 ore di durata dell’inserzione, con un minimo di 50 crediti o 1 Thulium. Lo paghi quando metti in vendita; non viene mai restituito, nemmeno se annulli l’inserzione.
 - Dal livello 10 il deposito è pari a 0,4%.
@@ -57,7 +57,7 @@ Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che i
 | **Munizioni laser** | Standard Battery (in lotti da 100), Siphon Battery (in lotti da 10), Advanced Plasma (in lotti da 10), Ultra Core (in lotti da 10), Experimental Fusion Core | 5 |
 | **Razzi** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consumabili** | EMP Charge, Energetic Wall II | 2 |
-| **Extra** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Base CPU II | 10 |
+| **Extra** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
 | **Corazza dello scafo** | Hull Plating II, Hull Plating III | 2 |
 | **Risorse** | Cataclysite (in lotti da 100), Ship Fragment (in lotti da 100), Daraxium (in lotti da 100), Nyxite (in lotti da 100), Quorvium (in lotti da 10), Reinforced Hull Plate (in lotti da 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 

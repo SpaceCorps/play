@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4d9008fb9fa56fb -->
+<!-- wiki-i18n source: 94b65a41bd556504 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -52,7 +52,7 @@ La caja contiene de 40 a 60 Ship Fragments, de 10 a 20 Power Cores y de 3.000 a 
 
 ## Comprarle {#buying-from-him}
 
-Su almacén está en la lista del **Mercado** de la subasta, entre los anuncios de los pilotos: una fila por cada uno de los 83 tipos que lista la subasta, en créditos y en Thulium (166 filas), con el precio de un lote, con su nombre en dorado, una insignia **NPC** y un signo de infinito en la cantidad y el tiempo restante. La búsqueda, las categorías y los filtros de encantamiento y de moneda del Mercado acotan sus filas como cualquier anuncio (sus objetos son Estándar), y sus órdenes las colocan donde dice su número: por precio junto a los precios de los pilotos, después de los anuncios de los pilotos con **Termina pronto** y **Más recientes**. Elige una para ver los detalles y **Comprar por …**; la compra va a él, no a un piloto. Los precios:
+Su almacén está en la lista del **Mercado** de la subasta, entre los anuncios de los pilotos: una fila por cada uno de los 84 tipos que lista la subasta, en créditos y en Thulium (168 filas), con el precio de un lote, con su nombre en dorado, una insignia **NPC** y un signo de infinito en la cantidad y el tiempo restante. La búsqueda, las categorías y los filtros de encantamiento y de moneda del Mercado acotan sus filas como cualquier anuncio (sus objetos son Estándar), y sus órdenes las colocan donde dice su número: por precio junto a los precios de los pilotos, después de los anuncios de los pilotos con **Termina pronto** y **Más recientes**. Elige una para ver los detalles y **Comprar por …**; la compra va a él, no a un piloto. Los precios:
 
 - **100 veces el precio de la tienda en créditos y 40 veces en Thulium** para los objetos que la tienda vende; un precio de la tienda en una moneda cuenta en la otra a 200 créditos por Thulium. Un Repair Drone I (5.000 créditos en la tienda) cuesta 500.000 créditos o 1.000 Thulium, un Quantum Laser I 800.000 créditos o 1.600 Thulium, los cohetes de 50.000 a 100.000 créditos cada uno. Los dos precios no valen lo mismo: a 200 créditos por Thulium, 1.000 Thulium serían solo 200.000 créditos.
 - **El equipo que la tienda no vende es su último recurso: 200 veces el valor de referencia en créditos y 80 veces en Thulium**, al menos 50 veces lo que cuesta la vía más barata para conseguirlo (fabricarlo tú mismo o el precio de otro piloto). Un Quantum Laser III cuesta 84.966.000 créditos o 169.932 Thulium, un Helios Beam 682.192.400 créditos o 1.364.388 Thulium y un Hull Plating III 1.271.074.400 créditos o 2.542.152 Thulium. Estas filas llevan una pequeña insignia **Último recurso**, igual que los recursos raros de abajo.

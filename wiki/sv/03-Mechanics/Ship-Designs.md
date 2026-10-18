@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -63,7 +63,7 @@ Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BU
 | **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
 | **Alla fyra** | 36 | 36 h | 360 | 13 | 130 h | 130 |
 
-Tillsammans kräver de 490 Dark Matter, utöver de 414 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 019 för alla teknologier i spelet.
+Tillsammans kräver de 490 Dark Matter, utöver de 749 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 354 för alla teknologier i spelet.
 
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 

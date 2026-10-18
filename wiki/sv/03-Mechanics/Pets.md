@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d6852ae6d01eafd -->
+<!-- wiki-i18n source: 569e02af22e911bf -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -47,6 +47,7 @@ Vaggan är maskinen i hangarens vy P.E.T. Ett **jobb** tar en Cluster Chunk och 
 
 - **Chunkens grad avgör P.E.T.n:s grad**, och med den hur många boosts den har (1, 2 eller 3) och vilka typer den kan vara: 4 av de 10 typerna med en Regular chunk, 7 med en Mythical och alla 10 med en Legendary. Retriever kan komma ur vilken chunk som helst; Mole kräver en Mythical eller en Legendary.
 - **Du väljer typ** bland dem du har upptäckt, eller trycker på **Upptäck**: då kläcker Vaggan en typ av den graden som du inte har upptäckt än, dragen när jobbet startar och visad först när du hämtar P.E.T.n. En typ som ett annat pågående jobb redan har dragit lämnas utanför, så två köade upptäckter kläcker aldrig samma typ.
+- **Du kan avbryta ett jobb** som körs eller väntar: tryck på det lilla krysset på dess plats och tryck igen inom 3 sekunder när det frågar **Avbryta?**. Cluster Chunk och Orvium Reinforced Plate kommer tillbaka, jobben bakom rycker upp, och bara den tid det redan hade gått förloras. Ett färdigt jobb hämtas, det avbryts inte. En upptäckt som du avbryter frigör sin typ så att den kan dras igen.
 - **Kodexen** längst ned på sidan visar de tio typerna som silhuetter tills du har kläckt dem. Den tillhör ditt konto, och ingenting betalas för att fylla den.
 - **P.E.T.-hangaren** rymmer högst **24** P.E.T.s, dockade eller förvarade, och ett pågående jobb räknas som en. Du kan **släppa** en: ingenting kommer tillbaka.
 

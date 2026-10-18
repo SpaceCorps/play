@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drohnen {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Schiffe {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Ihre Zeiten, ihr Dark Matter und die Summen stehen auf der Seite [Schiffsdesigns
 ## Skylab-Module {#module-technologies}
 
 Die Familie Skylab der Forschungsansicht enthält noch eine Art Technologie, die kein Rezept ist: die Level des **Triebwerksmoduls**, des **Verteidigungsmoduls** und des **Radarmoduls**, die der Core-Level fünfzehn freischaltet. Jedes Level hat eine eigene Technologie und wird erst nach ihr gebaut; das erste Level jedes Moduls braucht kein Dark Matter, die späteren brauchen mit jedem Level mehr. Der Baum oben lässt sie weg, weil sie keinen Gegenstand freischalten, sondern ein Level eines Moduls. Ihr Dark Matter kommt zu den Summen oben hinzu, und [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) rechnet es zusammen. Ihre Zeiten und was jedes Modul tut, stehen im Artikel [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Pilot {#pilot-technologies}
+
+Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept sind: Sie stellen in der Montage nichts her. Die meisten sind **dauerhafte Boni** für dich. Der Baum oben lässt sie weg, weil sie keinen Gegenstand freischalten, sondern einen Bonus.
+
+- **Was sie kosten.** Außer Wissenschaft und Dark Matter verlangt ein Bonus **Credits und Thulium**. Das Zentrum nimmt alles beim Start der Forschung und gibt alles zurück, wenn du sie vor dem Ende abbrichst.
+- **Sie bleiben.** Wie deine übrige Forschung bleiben diese Technologien über den Wipe hinweg erhalten, und mit ihnen ihre Boni.
+- **Der Reihe nach.** Jede Stufe braucht die vorherige, und eine höhere Stufe ersetzt die niedrigere: Die Tabelle zeigt die Summe, die jede Stufe gibt, nicht was sie dazulegt.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) geben jedem deiner Schiffe mehr Hülle, in beiden Konfigurationen.
+- **Sealed Backdoor** erhöht das Tragelimit jeder Rakete, wo auch immer du sie kaufst, baust oder tauschst.
+- **Excavator Mining** erhöht, was du aus jeder Kiste eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) nimmst, Thulium wie Erz.
+- **Field Theory** erhöht den Anteil jedes Treffers, den deine Schilde aufnehmen. Ein Schiff ohne Schild bekommt nichts.
+- **Dormant Knowledge** zahlt Wipe-Punkte, einmal pro Stufe, wenn ihre Forschung im Zentrum fertig wird. Außer der vorherigen Stufe braucht sie einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Dormant Knowledge nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Technologie | Was es gibt | Braucht zuerst | Forschungsdauer | Dark Matter | Credits | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Effiziente Snacks: Kabob | +5.000 Hülle für alle deine Schiffe | – | 10 h | 10 | 250.000 | 2.500 |
+| Effiziente Snacks: Pelmeni | +10.000 Hülle für alle deine Schiffe | Effiziente Snacks: Kabob | 1 d | 20 | 1.000.000 | 10.000 |
+| Effiziente Snacks: Burger | +15.000 Hülle für alle deine Schiffe | Effiziente Snacks: Pelmeni | 2 d | 30 | 3.500.000 | 35.000 |
+| Versiegelte Hintertür I | +25% Raketen-Tragelimit | – | 6 h | 5 | 100.000 | 1.000 |
+| Versiegelte Hintertür II | +50% Raketen-Tragelimit | Versiegelte Hintertür I | 10 h | 10 | 300.000 | 3.000 |
+| Versiegelte Hintertür III | +100% Raketen-Tragelimit | Versiegelte Hintertür II | 1 d | 15 | 750.000 | 7.500 |
+| Versiegelte Hintertür IV | +150% Raketen-Tragelimit | Versiegelte Hintertür III | 2 d | 25 | 1.750.000 | 17.500 |
+| Versiegelte Hintertür V | +200% Raketen-Tragelimit | Versiegelte Hintertür IV | 3 d | 40 | 3.500.000 | 35.000 |
+| Baggerabbau I | +20% Baggerertrag | – | 1 d | 10 | 500.000 | 5.000 |
+| Baggerabbau II | +30% Baggerertrag | Baggerabbau I | 2 d | 20 | 1.500.000 | 15.000 |
+| Baggerabbau III | +40% Baggerertrag | Baggerabbau II | 3 d | 30 | 4.000.000 | 40.000 |
+| Feldtheorie I | +2% Schildabsorption | – | 1 d | 20 | 500.000 | 5.000 |
+| Feldtheorie II | +3% Schildabsorption | Feldtheorie I | 2 d | 40 | 1.500.000 | 15.000 |
+| Feldtheorie III | +5% Schildabsorption | Feldtheorie II | 3 d | 60 | 5.000.000 | 50.000 |
+| Schlummerndes Wissen I | +50 Wipe-Punkte | 20 % der übrigen Technologien (30 von 146) | 1 h | – | – | – |
+| Schlummerndes Wissen II | +50 Wipe-Punkte | Schlummerndes Wissen I; 40 % der übrigen Technologien (59 von 146) | 1 h | – | – | – |
+| Schlummerndes Wissen III | +50 Wipe-Punkte | Schlummerndes Wissen II; 60 % der übrigen Technologien (88 von 146) | 1 h | – | – | – |
+| Schlummerndes Wissen IV | +50 Wipe-Punkte | Schlummerndes Wissen III; 80 % der übrigen Technologien (117 von 146) | 1 h | – | – | – |
+| Schlummerndes Wissen V | +50 Wipe-Punkte | Schlummerndes Wissen IV; 100 % der übrigen Technologien (146 von 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Alle Technologien {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Die Familie Skylab der Forschungsansicht enthält noch eine Art Technologie, die
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10.800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86.400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
 
 Die Klassen nach Forschungsdauer:
 
@@ -423,11 +465,11 @@ Die Klassen nach Forschungsdauer:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18.000 | 0 |
 | B | 3 h bis 6 h | 20 | 2 d 21 h | 248.400 | 0 |
-| C | 10 h | 16 | 6 d 16 h | 576.000 | 95 |
+| C | 10 h | 17 | 7 d 2 h | 612.000 | 95 |
 | D | 1 d bis 2 d | 23 | 28 d | 2.419.200 | 319 |
-| Alle |  | 69 | 37 d 18 h | 3.261.600 | 414 |
+| Alle |  | 70 | 38 d 4 h | 3.297.600 | 414 |
 
-Nacheinander erforscht, dauert der ganze Baum 37 d 18 h. Mit ständig laufendem Boost sind es 18 d 21 h, das sind 19 Boosts und 95.000 Thulium; die Wissenschaft bleibt dieselbe.
+Nacheinander erforscht, dauert der ganze Baum 38 d 4 h. Mit ständig laufendem Boost sind es 19 d 2 h, das sind 20 Boosts und 100.000 Thulium; die Wissenschaft bleibt dieselbe.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ Auch die neuen CPUs werden hier erforscht und dann in der Montage hergestellt. D
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40.000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 
 Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU dann in der Montage her. Zeige im Baum auf eine CPU, um zu sehen, was die Montage dafür verlangt.
 
@@ -482,6 +525,13 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 - **Was sie tut.** Sie schickt die Repair Drone aus deinen Extra-Slots von allein los, sobald du sie auch von Hand hättest losschicken können: Deine Hülle ist nicht voll, die Drohne ist nicht schon draußen und seit dem letzten Treffer sind 10 Sekunden vergangen. Eine Hüllengrenze musst du nicht einstellen.
 - Sie belegt einen eigenen Extra-Slot und tut nichts ohne eine Repair Drone in einem Extra-Slot derselben Konfiguration. Eine Repair Drone in einem Fähigkeits-Slot schickt sie nie los (das ist die Schaltfläche Emergency Repair).
 - **Stoppst du die Drohne von Hand,** lässt die CPU sie in Ruhe, bis deine Hülle wieder voll ist oder du die Drohne selbst losschickst.
+
+### Auto-Rocket CPU
+
+- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien oder einen feindlichen Piloten gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen.
+- **Der Schalter.** Rüste sie in einem Extra-Slot aus und drücke ihren ARL-Slot, um sie AN oder AUS zu schalten. Sie startet AUS und bleibt, wie du sie gelassen hast, auch wenn du dich neu anmeldest. Der Slot zeigt AN oder AUS und leuchtet auf, wenn die CPU feuert.
+- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie auf Asteroiden, nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
+- **Keine Raketen mehr.** Sie sagt es dir einmal und feuert wieder, sobald du mehr hast.
 
 
 <!-- research-cpus:end -->

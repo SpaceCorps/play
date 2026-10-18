@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 024a0cd8847450c1 -->
+<!-- wiki-i18n source: 260a3cdddaba608b -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -295,7 +295,7 @@ Depuis la 0.4.22, **chaque Gardien fonce sur le pilote qui l’a touché**, comm
 ### Combattre un Gardien {#fighting-a-warden}
 
 - **Un Gardien combat le premier pilote qui l’a touché**, comme tout boss : laissez le vaisseau le plus robuste de l’équipage commencer, et utilisez [Shield Surge et Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Venez avec le plus grand équipage possible et des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Les équipages qui gagnaient avant la 0.4.13, d’environ sept pilotes, perdent maintenant. Le tableau ci-dessous est un calcul et le meilleur cas : même là, dix pilotes perdent contre tous les Gardiens, et le plus petit équipage qui peut gagner compte 17 à 26 pilotes avec des munitions x2 et 27 à 39 avec des munitions x1. Les vagues ci-dessous ne sont pas dans ce calcul.
+- **Venez avec le plus grand équipage possible et des munitions x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). Les équipages qui gagnaient avant la 0.4.13, d’environ sept pilotes, perdent maintenant. Le tableau ci-dessous est un calcul et le meilleur cas : même là, dix pilotes perdent contre tous les Gardiens, et le plus petit équipage qui peut gagner compte 17 à 26 pilotes avec des munitions x2 et 26 à 39 avec des munitions x1. Les vagues ci-dessous ne sont pas dans ce calcul.
 - **Brood :** les drones soignent sa coque, et un équipage qui les ignore perd, même un grand. Tuez-les d’abord et continuez à les tuer : un nouveau arrive au bout de 8 secondes (16 pour le Brood Warden III). Depuis la 0.4.22, le Brood Warden fonce sur le pilote qui l’a touché, et ses drones l’accompagnent et continuent à le soigner.
 - **Siege :** ses roquettes sont droites et non guidées, un vaisseau qui reste en mouvement en esquive donc la plupart. Restez en mouvement et servez de cible à tour de rôle. Depuis la 0.4.22, il ne rôde plus : il fonce sur le premier pilote qui l’a touché et tire son Rivet sur lui depuis 1 000 unités au plus.
 - **Wrath :** dès que sa coque passe sous la moitié, chaque salve frappe une fois et demie plus fort, la seconde moitié du combat est donc la dangereuse. Abattez la première moitié vite, gardez les boucliers levés et gardez Emergency Repair pour la rage. Depuis la 0.4.20, il ne reste plus immobile : il fonce sur le premier pilote qui l’a touché, à 90 unités par seconde, jusqu’à être à portée de ses lasers (700, 800 ou 900 unités selon la force) et tire de là, si bien qu’une arme à plus longue portée ne peut plus le tirer sans qu’il riposte.
@@ -335,7 +335,7 @@ Depuis la 0.4.22, **chaque Gardien** fait ce que le Wrath Warden III fait depuis
 | Wrath Warden I | 44 | 46 | 62 |
 | Brood Warden II | 39 | 40 | 48 |
 | Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 33 | 39 | 44 |
+| Wrath Warden II | 36 | 38 | 44 |
 | Brood Warden III | 21 | 21 | 23 |
 | Siege Warden III | 26 | 25 | 28 |
 | Wrath Warden III | 32 | 32 | 39 |
@@ -352,7 +352,7 @@ Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une va
 
 - **Quatre vagues au plus sont en vie.** Une vague due quand quatre sont en vie est sautée, comme pour les autres Gardiens.
 - **Ce qu’elles paient.** Une vague entière de 15 Bulwarks paie 75 000 crédits en Alpha, et avec son Crystalys 150 000 : environ 2 % des 7 200 000 que paie le Gardien lui-même.
-- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **32 pilotes en x-2, 32 en x-3 et 39 en x-4** avec des munitions x2 (26 sans vagues), et 39, 41 et 51 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres, donc 51 en x-4 en Gamma, c’est un de plus qu’il ne peut envoyer. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
+- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **32 pilotes en x-2, 32 en x-3 et 39 en x-4** avec des munitions x2 (26 sans vagues), et 39, 41 et 50 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres, donc 50 en x-4 en Gamma, c’est tout ce qu’il peut envoyer. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
 
 ### Quel équipage il faut {#how-big-a-crew}
 
@@ -365,10 +365,10 @@ Le tableau montre le meilleur cas ; en jeu, amenez autant de monde que possible
 | :--- | :--- | :--- |
 | 5 pilotes | perdent contre tous les Gardiens ; le Gardien garde 88 à 96 % de sa coque et de son bouclier | perdent |
 | 10 pilotes | perdent contre tous les Gardiens ; le Gardien garde 55 à 86 % de sa coque et de son bouclier | perdent |
-| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 7,3 minutes, en perdant 6 vaisseaux, et contre le Brood Warden III, en 3,9 minutes, en perdant 9 vaisseaux | perdent |
-| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,2 minutes, en perdant de 3 à 11 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 10,5 à 10,6 minutes, en perdant 9 vaisseaux, et contre le Brood Warden III, en 5,3 minutes, en perdant 13 vaisseaux |
+| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 7,2 à 7,3 minutes, en perdant 6 vaisseaux, et contre le Brood Warden III, en 3,9 minutes, en perdant 9 vaisseaux | perdent |
+| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,2 minutes, en perdant de 3 à 11 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 10,4 à 10,5 minutes, en perdant 9 vaisseaux, et contre le Brood Warden III, en 5,2 minutes, en perdant 13 vaisseaux |
 
-Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **17 à 26 pilotes** (le moins contre les Siege Warden I et II) et perd **10 à 19** vaisseaux en le faisant ; avec des munitions x1, il compte **27 à 39** pilotes et perd 13 à 27. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 18 à 55 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
+Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **17 à 26 pilotes** (le moins contre les Siege Warden I et II) et perd **10 à 18** vaisseaux en le faisant ; avec des munitions x1, il compte **26 à 39** pilotes et perd 12 à 27. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 18 à 55 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
 
 Le tableau vaut pour un équipage dans l’équipement du palier propre au Gardien. Des vaisseaux plus faibles font moins bien. Le Gardien de **votre** clan correspond toujours à **votre** palier, que fixent les cinq meilleurs pilotes du clan : amenez-les.
 

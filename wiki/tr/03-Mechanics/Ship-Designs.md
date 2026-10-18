@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a7fc3c88c0d1d98b -->
+<!-- wiki-i18n source: aabf0deeb55ba4ed -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
@@ -63,7 +63,7 @@ Dönüştürülecek gemi, o türden sahip olduğun gemidir (THUNDER, BUCKY veya 
 | **Wraith** | 9 | 9 sa | 90 | 5 | 50 sa | 50 |
 | **Dördü birden** | 36 | 36 sa | 360 | 13 | 130 sa | 130 |
 
-Birlikte, diğer tüm teknolojilerin istediği 414’e ek olarak 490 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.019.
+Birlikte, diğer tüm teknolojilerin istediği 749’e ek olarak 490 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.354.
 
 ## Geminin başına ne gelir {#what-happens-to-your-ship}
 

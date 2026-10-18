@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 353e2a14b241cf5d -->
+<!-- wiki-i18n source: 06a677028504364c -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -230,7 +230,7 @@ Hull Plating Booster II | booster, rare | craft 15000 Thulium, 60 s | research 1
 ### Drönare {#tree-drones}
 
 ```tree research
-Master Drone | drone, rare | craft 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 20 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
+Master Drone | drone, rare | craft 1000000 Credits, 50000 Thulium, 60 s | research 36000 s, 36000 science | 1 Slave Drone, 250 Ship Fragment, 2 Ancient Control Unit, 5 Velkonite Reinforced Plate, 5 Orvium Reinforced Plate, 10 Dark Matter Plate | /wiki/06-Items/Drones.md#available-drones
 ```
 
 ### Skepp {#tree-ships}
@@ -266,6 +266,7 @@ Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
@@ -339,6 +340,46 @@ Deras tider, deras Dark Matter och summorna står på sidan [Skeppsdesigner](/wi
 ## Skylabs moduler {#module-technologies}
 
 Familjen Skylab i forskningsvyn innehåller ännu en sorts teknologi som inte är en tillverkning: nivåerna i **Motormodulen**, **Försvarsmodulen** och **Radarmodulen**, som Core-nivå femton låser upp. Varje nivå har en egen teknologi och byggs först efter den; den första nivån i varje modul kräver ingen Dark Matter, de senare kräver mer för varje nivå. Trädet ovan utelämnar dem, eftersom det de öppnar är en modulnivå och inte ett föremål. Deras Dark Matter kommer ovanpå summorna ovan, och [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) räknar ihop den. Deras tider och vad varje modul gör står i artikeln [Skylab](/wiki/03-Mechanics/Skylab.md).
+
+## Pilot {#pilot-technologies}
+
+Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkningar: de gör ingenting i Monteringen. De flesta är **permanenta bonusar** åt dig. Trädet ovan utelämnar dem, eftersom det de öppnar är en bonus och inte ett föremål.
+
+- **Vad de kostar.** Förutom vetenskap och Dark Matter kräver en bonus **krediter och Thulium**. Centrumet tar allt när forskningen startar och ger tillbaka allt om du avbryter innan den är klar.
+- **De finns kvar.** Liksom resten av din forskning finns de här teknologierna kvar efter wipen, och bonusarna med dem.
+- **I serie.** Varje nivå kräver nivån före, och en högre nivå ersätter den lägre: tabellen visar totalen som varje nivå ger, inte vad den lägger till.
+- **Efficient Snacks** (Kabob, Pelmeni, Burger) ger mer skrov åt varje skepp du äger, i båda konfigurationerna.
+- **Sealed Backdoor** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
+- **Excavator Mining** höjer vad du tar ur varje låda från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), både Thulium och malm.
+- **Field Theory** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
+- **Dormant Knowledge** ger wipepoäng, en gång per nivå, när forskningen blir klar i centrumet. Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem Dormant Knowledge gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
+
+<!-- research-pilot:begin -->
+<!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
+
+| Teknologi | Vad den ger | Kräver först | Forskningstid | Dark Matter | Krediter | Thulium |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: |
+| Effektiva mellanmål: Kebab | +5 000 skrov på alla dina skepp | – | 10 h | 10 | 250 000 | 2 500 |
+| Effektiva mellanmål: Pelmeni | +10 000 skrov på alla dina skepp | Effektiva mellanmål: Kebab | 1 d | 20 | 1 000 000 | 10 000 |
+| Effektiva mellanmål: Burgare | +15 000 skrov på alla dina skepp | Effektiva mellanmål: Pelmeni | 2 d | 30 | 3 500 000 | 35 000 |
+| Förseglad bakdörr I | +25% bärgräns för raketer | – | 6 h | 5 | 100 000 | 1 000 |
+| Förseglad bakdörr II | +50% bärgräns för raketer | Förseglad bakdörr I | 10 h | 10 | 300 000 | 3 000 |
+| Förseglad bakdörr III | +100% bärgräns för raketer | Förseglad bakdörr II | 1 d | 15 | 750 000 | 7 500 |
+| Förseglad bakdörr IV | +150% bärgräns för raketer | Förseglad bakdörr III | 2 d | 25 | 1 750 000 | 17 500 |
+| Förseglad bakdörr V | +200% bärgräns för raketer | Förseglad bakdörr IV | 3 d | 40 | 3 500 000 | 35 000 |
+| Grävmaskinsbrytning I | +20% utbyte från grävmaskinen | – | 1 d | 10 | 500 000 | 5 000 |
+| Grävmaskinsbrytning II | +30% utbyte från grävmaskinen | Grävmaskinsbrytning I | 2 d | 20 | 1 500 000 | 15 000 |
+| Grävmaskinsbrytning III | +40% utbyte från grävmaskinen | Grävmaskinsbrytning II | 3 d | 30 | 4 000 000 | 40 000 |
+| Fältteori I | +2% sköldabsorption | – | 1 d | 20 | 500 000 | 5 000 |
+| Fältteori II | +3% sköldabsorption | Fältteori I | 2 d | 40 | 1 500 000 | 15 000 |
+| Fältteori III | +5% sköldabsorption | Fältteori II | 3 d | 60 | 5 000 000 | 50 000 |
+| Slumrande kunskap I | +50 wipepoäng | 20 % av de andra teknologierna (30 av 146) | 1 h | – | – | – |
+| Slumrande kunskap II | +50 wipepoäng | Slumrande kunskap I; 40 % av de andra teknologierna (59 av 146) | 1 h | – | – | – |
+| Slumrande kunskap III | +50 wipepoäng | Slumrande kunskap II; 60 % av de andra teknologierna (88 av 146) | 1 h | – | – | – |
+| Slumrande kunskap IV | +50 wipepoäng | Slumrande kunskap III; 80 % av de andra teknologierna (117 av 146) | 1 h | – | – | – |
+| Slumrande kunskap V | +50 wipepoäng | Slumrande kunskap IV; 100 % av de andra teknologierna (146 av 146) | 1 h | – | – | – |
+
+<!-- research-pilot:end -->
 
 ## Alla teknologier {#all-the-technologies}
 
@@ -416,6 +457,7 @@ Familjen Skylab i forskningsvyn innehåller ännu en sorts teknologi som inte ä
 | [P.E.T. Station I](/wiki/06-Items/Extras.md) | – | B | 3 h | 10 800 | – |
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86 400 | – |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36 000 | – |
 
 Klasserna efter forskningstid:
 
@@ -423,11 +465,11 @@ Klasserna efter forskningstid:
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min | 10 | 5 h | 18 000 | 0 |
 | B | 3 h till 6 h | 20 | 2 d 21 h | 248 400 | 0 |
-| C | 10 h | 16 | 6 d 16 h | 576 000 | 95 |
+| C | 10 h | 17 | 7 d 2 h | 612 000 | 95 |
 | D | 1 d till 2 d | 23 | 28 d | 2 419 200 | 319 |
-| Alla |  | 69 | 37 d 18 h | 3 261 600 | 414 |
+| Alla |  | 70 | 38 d 4 h | 3 297 600 | 414 |
 
-Framforskat en efter en tar hela trädet 37 d 18 h. Med boosten på hela tiden tar det 18 d 21 h, alltså 19 boostar och 95 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 38 d 4 h. Med boosten på hela tiden tar det 19 d 2 h, alltså 20 boostar och 100 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 
@@ -448,6 +490,7 @@ De nya CPU:erna forskas också fram här och tillverkas sedan i Monteringen. Sam
 | [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) | 1 d | [Base CPU II](/wiki/06-Items/Extras.md#base-cpus) | 40 000 | 15 min |
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
+| [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 
@@ -482,6 +525,13 @@ Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n 
 - **Vad den gör.** Den skickar ut den Repair Drone som sitter i dina extraplatser av sig själv, så fort du hade kunnat skicka ut den för hand: ditt skrov är inte fullt, drönaren är inte redan ute och det har gått 10 sekunder sedan den senaste träffen. Det finns ingen skrovnivå att ställa in.
 - Den tar en egen extraplats och gör ingenting utan en Repair Drone i en extraplats i samma konfiguration. Den skickar aldrig ut en Repair Drone i en förmågeplats (den är knappen Emergency Repair).
 - **Stoppar du drönaren för hand** låter CPU:n den vara tills ditt skrov är fullt igen, eller tills du själv skickar ut drönaren.
+
+### Auto-Rocket CPU
+
+- **Vad den gör.** Medan den är PÅ och du är i strid (dina lasrar är på en utomjording eller en fientlig pilot) avfyrar den din aktiva raket, den du avfyrade senast, mot det målet av sig själv, så fort ett tryck på tangenten Avfyra raket skulle fungera: raketernas timer är klar och du har en kvar. Servern kontrollerar varje avfyrning som den kontrollerar dina.
+- **Strömbrytaren.** Montera den i en extraplats och tryck på dess ARL-plats för att slå den PÅ eller AV. Den startar AV och förblir som du lämnade den, också när du loggar in igen. Platsen visar PÅ eller AV och lyser upp när CPU:n avfyrar.
+- **Vad den aldrig gör.** Den väljer aldrig ett mål, skjuter aldrig mot asteroider, från en säker zon eller när du är kamouflerad, och avfyrar aldrig en N.U.K.E. eller en N.I.K.E. En raket som du själv avfyrar fungerar alltid. Utan tangenttryck, klick eller musrörelse i 3 minuter väntar den på att du gör något.
+- **Slut på raketer.** Den säger det en gång och avfyrar igen så fort du har fler.
 
 
 <!-- research-cpus:end -->
