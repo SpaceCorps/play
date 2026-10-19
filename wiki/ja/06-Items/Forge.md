@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: 鍛冶場 -->
 # 鍛冶場 {#the-forge}
 
@@ -49,7 +49,7 @@
 
 エンジン、スラスター、アダプティブコア、Repair Drone は、割合のボーナスではほとんど変化しません（Engine II の速度加算は4なので、+12% でも0.5ほどです）。鍛造するのは、段階が欲しいときで、ステータスのためではありません。
 
-**Penetration Amp のボーナス**は、その貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は1スロットあたり12ではなく13.1～13.8ポイントになります。1回の命中の貫通には上限がないので、1ポイントごとに意味があります。最強のレーザー（Fusion Core、Stiletto、そして各レーザーに Penetration Amp IV を3つ）では 10 + 16 + 36 で62%、「永遠」のボーナス3つなら最大67.4%まで上がります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+**Penetration Amp のボーナス**は、その貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は1スロットあたり12ではなく13.1～13.8ポイントになります。1回の命中の貫通には上限がないので、1ポイントごとに意味があります。最強のレーザー（Fusion Core、Gemini、そして各レーザーに Penetration Amp IV を3つ）では 10 + 15 + 36 で61%、「永遠」のボーナス3つなら最大66.4%まで上がります（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
 ### 素材のドロップ元 {#where-the-materials-drop}
 

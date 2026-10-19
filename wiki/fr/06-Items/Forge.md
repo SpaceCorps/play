@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -49,7 +49,7 @@ Le **bonus d’absorption d’un bouclier** (et le Boost d’absorption d’une 
 
 Les moteurs, propulseurs, cœurs adaptatifs et Repair Drones bougent très peu avec un bonus en pourcentage (un Engine II ajoute 4 de vitesse, donc +12 % font un demi-point) : forgez-les si vous voulez le rang, pas pour les stats.
 
-**Le bonus d’un Penetration Amp** multiplie sa pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points par emplacement au lieu de 12. Rien ne plafonne la pénétration d’un tir, donc chaque point compte : dans le meilleur laser (un Fusion Core, un Stiletto et trois Penetration Amp IV dans chaque laser), 10 + 16 + 36 font 62 %, et trois bonus Éternels le portent jusqu’à 67,4 % ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Le bonus d’un Penetration Amp** multiplie sa pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points par emplacement au lieu de 12. Rien ne plafonne la pénétration d’un tir, donc chaque point compte : dans le meilleur laser (un Fusion Core, un Gemini et trois Penetration Amp IV dans chaque laser), 10 + 15 + 36 font 61 %, et trois bonus Éternels le portent jusqu’à 66,4 % ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Où tombent les matériaux {#where-the-materials-drop}
 

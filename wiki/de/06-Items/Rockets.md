@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2857dfc2bfbf8055 -->
+<!-- wiki-i18n source: a2623c1674b9ca26 -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
@@ -145,7 +145,7 @@ Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einz
 - **Nachladen.** Asterism macht den gemeinsamen Timer um 35 % länger (4,05 Sekunden), Cordon um 11 % länger (3,33) und Redoubt um 27 % kürzer (2,19), aber nie kürzer als der Flug der Rakete plus ein Moment. Unter Redoubt warten die schnellen Raketen (Lancet I, Rivet I und II, Ember I, Scatter I und II) die 2,19 Sekunden, eine Rivet III 2,3, eine Lancet III 2,9 und eine Ember III die vollen 3; die N.U.K.E. und die N.I.K.E. warten 4,1 und 4,6 Sekunden, was du auch trägst. Die Wartezeit steht beim Abfeuern fest, ein späterer Formationswechsel verkürzt sie also nicht, und der Ladekreis über den Raketen-Slots folgt ihr.
 - **Die Grenzen der beiden Großen halten.** Mit der besten Formation trifft eine N.I.K.E. mit bis zu 116.250, was ein frischer Paragon (128.000) überlebt, und eine N.U.K.E. mit bis zu 77.500, was ein Goombah (80.000) überlebt.
 - **Ausweichen.** Asterisms 7 % Ausweichen geben einer direkten Rakete, die dich trifft, eine Chance von 7 %, gar keinen Schaden anzurichten, und über deinem Schiff erscheint ein schwebendes „Verfehlt“; eine Flächenexplosion zielt nicht und wird nie abgewehrt.
-- **Durchdringung.** Gemini und Stiletto addieren ihre Punkte zur Schilddurchdringung einer direkten Rakete (eine Explosion hat keine), ohne Obergrenze: Eine Lancet III mit einer Stiletto kommt auf 51 %. Ein Lasertreffer addiert sie ebenso zu der Durchdringung seiner Munition und seiner Amps ([Laser & Munition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Durchdringung.** Gemini addiert seine 15 Punkte und Stiletto seine 35 Punkte Raketendurchdringung zur Schilddurchdringung einer direkten Rakete (eine Explosion hat keine), ohne Obergrenze: Eine Lancet III mit einer Stiletto kommt auf 70 %, mit Gemini auf 50 %. Ein Lasertreffer addiert die von Gemini ebenso zu der Durchdringung seiner Munition und seiner Amps und bekommt nichts von der der Stiletto ([Laser & Munition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Regeln {#rules}
 

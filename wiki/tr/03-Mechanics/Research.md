@@ -348,11 +348,11 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 - **Maliyetleri.** Bilim puanı ve Dark Matter’ın yanında bir bonus **kredi ve Thulium** da ister. Merkez hepsini araştırma başlarken alır; bitmeden iptal edersen hepsini geri verir.
 - **Kalırlar.** Diğer araştırmaların gibi bu teknolojiler de sıfırlamadan sonra kalır, bonusları da onlarla birlikte.
 - **Sırayla.** Her seviye bir öncekini ister ve yüksek seviye düşük seviyenin yerini alır: tablo, her seviyenin verdiği toplamı gösterir, eklediğini değil.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) sahip olduğun her gemiye, iki konfigürasyonda da gövde ekler.
-- **Sealed Backdoor** her roketin taşıma sınırını yükseltir; nerede alırsan, üretirsen ya da takas edersen et.
-- **Excavator Mining**, bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığından aldığını artırır, Thulium’u da cevheri de.
-- **Field Theory**, her isabetin kalkanlarının emdiği payını artırır. Kalkanı olmayan gemi hiçbir şey kazanmaz.
-- **Dormant Knowledge**, araştırması Merkez’de bittiğinde, her seviye için bir kez sıfırlama puanı öder. Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, beş Dormant Knowledge sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
+- **Verimli Atıştırmalıklar** (Kebap, Pelmeni, Burger) sahip olduğun her gemiye, iki konfigürasyonda da gövde ekler.
+- **Mühürlü Arka Kapı** her roketin taşıma sınırını yükseltir; nerede alırsan, üretirsen ya da takas edersen et.
+- **Ekskavatör Madenciliği**, bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığından aldığını artırır, Thulium’u da cevheri de.
+- **Alan Teorisi**, her isabetin kalkanlarının emdiği payını artırır. Kalkanı olmayan gemi hiçbir şey kazanmaz.
+- **Uyuyan Bilgi**, araştırması Merkez’de bittiğinde, her seviye için bir kez sıfırlama puanı öder. Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, Uyuyan Bilgi’nin beş seviyesi sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

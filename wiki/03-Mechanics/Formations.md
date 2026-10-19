@@ -63,9 +63,9 @@ Every formation gives your drones **a shape of its own**. Wear one and the drone
 | **Bodkin** | An arrow with your ship as its head: a tip ahead of the nose, barbs along the flanks and a shaft trailing behind | Nothing |
 | **Ballista** | A V ahead of the ship, its arms sweeping back along the sides | Nothing |
 | **Centurion** | A block: guards in a rectangle round the ship | Nothing |
-| **Shrike** | A trident ahead of the nose, the ship its handle: a row of three and three prongs, the middle one the longest | Nothing |
+| **Shrike** | A crab's claws: an arm of three drones on each side reaching forward round the nose, one drone between the claws ahead of the nose and one behind the ship | Nothing |
 | **Culler** | Wings: a fan of drones on each side, long and short, and a head ahead of the nose when the number of drones is odd | The wing tips rise and fall once every 2.4 seconds |
-| **Gemini** | Twin spears: a column of drones along each flank, the tips ahead of the nose | Nothing |
+| **Gemini** | A moth's wings: three drones a side, ahead of and beside the ship in two rows, and a pair behind the ship for the tail | Nothing |
 | **Stiletto** | A sword with the ship for its hilt: a blade of up to six drones ahead of the nose and a pair at the nose for the crossguard | Nothing |
 | **Gyre** | A wheel: a rim and a hub joined by spokes | It spins once in 6 seconds |
 | **Auger** | A drill: a cone round the ship, its tip ahead of the nose and its wide end behind you, the drones pointing the way you look | The drones spiral round the ship's line of flight once in 3 seconds |
@@ -92,10 +92,10 @@ The tables list what each one gives and what it costs you, as the item card in t
 | **Asterism** | Evasion +7%, Rocket damage +24% | Rocket reload time +35% |
 | **Bodkin** | Rocket damage +29% | Laser damage −6% |
 | **Ballista** | Rocket damage +55% | Hull points −13% |
-| **Gemini** | Shield penetration +9% | Shield points −22% |
-| **Stiletto** | Hull points +13%, Shield penetration +16% | Shield drain a second in a fight −3.5% |
-| **Centurion** | Honor from kills +32% | Shield points −7%, Hull points −5%, Laser damage −5% |
-| **Shrike** | Laser damage to aliens +7.5%, XP from alien kills +6% | Shield absorption −6% |
+| **Gemini** | Shield penetration +15% | Shield points −22% |
+| **Stiletto** | Hull points +13%, Rocket penetration +35% | Shield drain a second in a fight −3.5% |
+| **Centurion** | Honor +25% | Shield points −7%, Hull points −5%, Laser damage −5% |
+| **Shrike** | Laser damage to aliens +10%, XP from alien kills +8% | Shield absorption −10% |
 | **Culler** | Damage to aliens +12%, XP from alien kills +12% | Speed −10% |
 | **Gyre** | Speed +10% | Laser damage −11%, Shield drain a second in a fight −0.5% |
 | **Auger** | Laser damage +21% | Speed −9% |
@@ -136,11 +136,11 @@ Besides the Thulium, Assembly takes these from your inventory. They depend on th
 ## The rules in detail
 
 - **Your hull keeps its share.** A formation that changes your maximum hull changes your hull by the same share: at full hull you are full of the new maximum, at 80% you are at 80%, in both directions, and changing back returns the same number. A change never heals you and never hurts you, and it is not damage. Your shield is different: a formation that lowers your maximum shield cuts the current value down to it, and one that raises it adds nothing, so a shield you charged under Cordon is cut when you leave it.
-- **Kill bonuses wait 10 seconds.** The XP and Honor that Shrike, Culler and Centurion add to a kill count only once the formation has been worn for 10 seconds. They count the kills of aliens (swarm ships too) and not quests or pilots. Everything else in a formation works at once.
+- **Bonuses on kills and quests wait 10 seconds.** The XP that Shrike and Culler add to a kill, and the Honor that Centurion adds to a kill or to a quest you claim in flight, count only once the formation has been worn for 10 seconds. XP counts the kills of aliens (swarm ships too) and not quests or pilots. Honor counts every honor you earn in flight, from aliens (your share of a group mate's kill too) and from quests you claim in flight, and never a loss or anything you collect at the station. Everything else in a formation works at once.
 - **A drain runs only while the formation is worn.** Stiletto and Gyre burn a share of your *current* shield every second, but only in a fight (a hit taken, a laser shot or a rocket fired in the last 10 seconds) and never inside a safe zone. Change the formation and the drain stops that second. It is not damage, so it does not restart the 15 seconds before your shield recharges.
 - **Regeneration works in a fight.** Adamant and Redoubt give a share of your maximum shield back every second, on top of the ship's own recharge, up to the cap in the table. It stops when the shield is full and does not count as damage taken.
 - **Evasion is a chance to dodge a direct hit.** Asterism's 7% means that each direct hit on you (a laser volley, a direct rocket, an alien's shot) has a 7% chance to do no damage at all, and a floating "Miss" shows over your ship. The other hits land whole, so over many hits you take about 7% less, but a single rocket is all or nothing. An area blast has no aim and is never dodged.
-- **Penetration adds to the ammo's.** Gemini and Stiletto add their points to the penetration of your ammo and of a direct rocket. Nothing caps the sum (the laser amps add to it too), and a blast has none.
+- **Penetration adds to the ammo's.** Gemini adds its points to the penetration of your ammo and of a direct rocket. Nothing caps the sum (the laser amps add to it too), and a blast has none. The Stiletto has **rocket penetration** instead: its points are added to a direct rocket's own penetration and to nothing else, so a laser gets none of them and a blast has none.
 - **Rockets, all 14.** A formation's rocket bonus multiplies the damage of every rocket, the N.U.K.E. and the N.I.K.E. included, whether it hits a ship or an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one): an asteroid's armour comes off after the bonus. Testudo's all-damage price counts on rockets too, and Culler's damage to aliens counts on rockets that hit an alien. All the factors on one rocket together stop at ×1.59. The best rocket formation, Ballista (+55%), makes a N.I.K.E. hit for up to 116,250 and a N.U.K.E. for up to 77,500: a fresh Paragon (128,000) still survives the one, and a Goombah (80,000) the other.
 - **A rocket's reload is set when you fire it.** The 3 seconds become 4.05 under Asterism, 3.33 under Cordon and 2.19 under Redoubt, but never less than the rocket's flight plus a moment (a rocket with a long flight, a Lancet III for one, waits for it even under Redoubt): 4.1 seconds after a N.U.K.E. and 4.6 after a N.I.K.E. Changing formation afterwards does not shorten the wait you already have.
 - **Abilities do not follow the formation.** Shield Surge and Emergency Repair work out their total from your maximum without the formation, so a swap cannot make them stronger. The Afterburner multiplies your speed as it is now, and a Repair Drone mends a share of your maximum hull as it is now.
@@ -148,9 +148,10 @@ Besides the Thulium, Assembly takes these from your inventory. They depend on th
 
 ## Which one when
 
-- **Hunting aliens:** Auger (+21% laser) for the hard ones, Culler (+12% damage to aliens and +12% XP) and Shrike (+7.5% laser damage to aliens, +6% XP) for the XP. Put on a kill-bonus formation *before* the pull: its bonus counts only after 10 seconds.
-- **Duels:** Gemini (+9 points of penetration) cuts through a shield, Rampart (+17% absorption) makes yours hold, Stiletto (+16 points of penetration and +13% hull) bites hardest but burns your shield (3.5% a second) in a fight, and Sanctum (+15% hull and +10% shield) takes the hits.
-- **Rockets:** Ballista (+55%) is the heavy hitter, Bodkin (+29%) the mild one with a smaller price, and Asterism (+24%, with 7% evasion) pays for it with a slower reload.
+- **Hunting aliens:** Auger (+21% laser) for the hard ones, Culler (+12% damage to aliens and +12% XP) and Shrike (+10% laser damage to aliens, +8% XP) for the XP. Put on a kill-bonus formation *before* the pull: its bonus counts only after 10 seconds.
+- **Duels:** Gemini (+15 points of penetration) cuts through a shield, Rampart (+17% absorption) makes yours hold, and Sanctum (+15% hull and +10% shield) takes the hits.
+- **Rockets:** Ballista (+55%) is the heavy hitter, Bodkin (+29%) the mild one with a smaller price, and Asterism (+24%, with 7% evasion) pays for it with a slower reload. Stiletto (+35 points of rocket penetration and +13% hull) sends a direct rocket through a shield, a N.I.K.E. above all, but burns your shield (3.5% a second) in a fight.
+- **Honor:** Centurion (+25% honor on every kill and every quest you claim in flight) pays for it with a little laser, hull and shield.
 - **Taking hits from a boss or a swarm:** Cordon (+95% shield), Redoubt (+38% shield that mends) and Sanctum.
 - **Running away:** Gyre (+10% speed).
 - **Changing in the fight is the point.** Open with Gemini to strip the other shield, switch to Rampart or Sanctum when you are the one being hit (a change keeps your hull's share, so it never heals you), and take Gyre when you want out. Three or four on your hotbar are enough for all of that.

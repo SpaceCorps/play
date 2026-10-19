@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: 锻造炉 -->
 # 锻造炉 {#the-forge}
 
@@ -49,7 +49,7 @@
 
 引擎、推进器、自适应核心和 Repair Drone 靠百分比加成几乎提升不了多少（Engine II 提供 4 点速度，所以 +12% 只有半点）：想要等级时再锻造它们，不要为了属性。
 
-**Penetration Amp 的加成**会成倍提高它的穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 每个槽位达到 13.1 至 13.8 点，而不是 12 点。穿透没有上限，所以每一点都有用：在最强的激光里（Fusion Core、Stiletto，以及每把激光上三个 Penetration Amp IV），10 + 16 + 36 合计 62%，三条永恒级加成最多可以把它提高到 67.4%（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
+**Penetration Amp 的加成**会成倍提高它的穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 每个槽位达到 13.1 至 13.8 点，而不是 12 点。穿透没有上限，所以每一点都有用：在最强的激光里（Fusion Core、Gemini，以及每把激光上三个 Penetration Amp IV），10 + 15 + 36 合计 61%，三条永恒级加成最多可以把它提高到 66.4%（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
 ### 材料从哪里掉落 {#where-the-materials-drop}
 

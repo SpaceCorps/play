@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Dron formasyonları -->
 # Dron formasyonları {#drone-formations}
 
@@ -65,9 +65,9 @@ Her formasyon dronlarına **kendine ait bir şekil** verir. Birini kuşan, dronl
 | **Bodkin** | Başı geminin kendisi olan bir ok: burnun önünde bir uç, yanlar boyunca çengeller ve arkada iz süren bir gövde | Hiçbir şey |
 | **Ballista** | Geminin önünde bir V, kolları yanlar boyunca geriye süpürülen | Hiçbir şey |
 | **Centurion** | Bir blok: geminin çevresinde dikdörtgen biçiminde nöbetçiler | Hiçbir şey |
-| **Shrike** | Burnun önünde bir üç dişli mızrak, sapı geminin kendisi: üçlü bir sıra ve üç diş, ortadaki en uzunu | Hiçbir şey |
+| **Shrike** | Bir yengecin kıskaçları: her yanda burnun çevresinden öne uzanan üç dronluk bir kol, kıskaçların arasında burnun önünde bir dron ve geminin arkasında bir dron | Hiçbir şey |
 | **Culler** | Kanatlar: her yanda uzun ve kısa dronlardan bir yelpaze ve dron sayısı tek olduğunda burnun önünde bir baş | Kanat uçları 2,4 saniyede bir yükselip alçalır |
-| **Gemini** | İkiz mızraklar: her yan boyunca bir dron sütunu, uçları burnun önünde | Hiçbir şey |
+| **Gemini** | Bir güvenin kanatları: her yanda üç dron, geminin önünde ve yanında iki sıra halinde, ve geminin arkasında kuyruk olarak bir çift | Hiçbir şey |
 | **Stiletto** | Kabzası geminin kendisi olan bir kılıç: burnun önünde en çok altı dronluk bir bıçak ve burunda siperlik olarak bir çift | Hiçbir şey |
 | **Gyre** | Bir tekerlek: bir jant ve bir göbek, ikisini teller birleştirir | 6 saniyede bir tur döner |
 | **Auger** | Bir matkap: geminin çevresinde bir koni, ucu burnun önünde, geniş ucu arkanda; dronlar baktığın yönü gösterir | Dronlar geminin uçuş çizgisi etrafında 3 saniyede bir spiral çizer |
@@ -94,10 +94,10 @@ Tablolar, oyundaki eşya kartının yaptığı gibi, her birinin ne verdiğini v
 | **Asterism** | Kaçınma +%7, Roket hasarı +%24 | Roket yeniden doldurma süresi +%35 |
 | **Bodkin** | Roket hasarı +%29 | Lazer hasarı −%6 |
 | **Ballista** | Roket hasarı +%55 | Gövde puanı −%13 |
-| **Gemini** | Kalkan delme +%9 | Kalkan puanı −%22 |
-| **Stiletto** | Gövde puanı +%13, Kalkan delme +%16 | Savaşta saniyede kalkan kaybı −%3,5 |
-| **Centurion** | Öldürmelerden onur +%32 | Kalkan puanı −%7, Gövde puanı −%5, Lazer hasarı −%5 |
-| **Shrike** | Uzaylılara lazer hasarı +%7,5, Uzaylı öldürmelerinden XP +%6 | Kalkan soğurması −%6 |
+| **Gemini** | Kalkan delme +%15 | Kalkan puanı −%22 |
+| **Stiletto** | Gövde puanı +%13, Roket delme +%35 | Savaşta saniyede kalkan kaybı −%3,5 |
+| **Centurion** | Onur +%25 | Kalkan puanı −%7, Gövde puanı −%5, Lazer hasarı −%5 |
+| **Shrike** | Uzaylılara lazer hasarı +%10, Uzaylı öldürmelerinden XP +%8 | Kalkan soğurması −%10 |
 | **Culler** | Uzaylılara hasar +%12, Uzaylı öldürmelerinden XP +%12 | Hız −%10 |
 | **Gyre** | Hız +%10 | Lazer hasarı −%11, Savaşta saniyede kalkan kaybı −%0,5 |
 | **Auger** | Lazer hasarı +%21 | Hız −%9 |
@@ -138,11 +138,11 @@ Thulium’un yanı sıra Montaj bunları envanterinden alır. Formasyonun araşt
 ## Kuralların ayrıntısı {#the-rules-in-detail}
 
 - **Gövden payını korur.** Azami gövdeni değiştiren bir formasyon, gövdeni aynı payla değiştirir: tam gövdede yeni azami değerin tamamındasın, %80’de %80’desin, her iki yönde de ve geri değiştirmek aynı sayıyı geri verir. Bir değişiklik seni asla iyileştirmez ve asla zarar vermez, hasar da sayılmaz. Kalkanın farklıdır: azami kalkanını düşüren bir formasyon mevcut değeri ona kadar keser, yükselten ise hiçbir şey eklemez; bu yüzden Cordon kuşanıkken doldurduğun bir kalkan ondan çıkarken kesilir.
-- **Öldürme bonusları 10 saniye bekler.** Shrike, Culler ve Centurion formasyonlarının bir öldürmeye eklediği XP ve onur, yalnızca formasyon 10 saniye kuşanıldıktan sonra sayılır. Uzaylı öldürmelerini sayarlar (sürü gemileri de), görevleri ya da pilotları değil. Bir formasyondaki diğer her şey hemen çalışır.
+- **Öldürme ve görev bonusları 10 saniye bekler.** Shrike ve Culler formasyonlarının bir öldürmeye eklediği XP ile Centurion formasyonunun bir öldürmeye ya da uçarken ödülünü aldığın bir göreve eklediği onur, yalnızca formasyon 10 saniye kuşanıldıktan sonra sayılır. XP, uzaylı öldürmelerini sayar (sürü gemileri de), görevleri ya da pilotları değil. Onur, uçuşta kazandığın her onuru sayar: uzaylılardan (bir grup arkadaşının öldürmesinden payına düşen de dahil) ve uçarken ödülünü aldığın görevlerden; bir kaybı ya da istasyonda aldığın bir şeyi asla. Bir formasyondaki diğer her şey hemen çalışır.
 - **Kalkan kaybı yalnızca formasyon kuşanıldığı sürece işler.** Stiletto ve Gyre her saniye *mevcut* kalkanının bir payını yakar, ama yalnızca savaşta (son 10 saniyede alınan bir vuruş, atılan bir lazer ya da fırlatılan bir roket) ve güvenli bölgede asla. Formasyonu değiştirirsen kayıp o saniye durur. Hasar değildir, bu yüzden kalkanının dolmaya başlamadan önceki 15 saniyelik beklemesini yeniden başlatmaz.
 - **Yenilenme savaşta çalışır.** Adamant ve Redoubt her saniye azami kalkanının bir payını, geminin kendi dolumunun üstüne, tablodaki sınıra kadar geri verir. Kalkan dolunca durur ve alınan hasar sayılmaz.
 - **Kaçınma, doğrudan bir vuruştan kaçma şansıdır.** Asterism formasyonunun %7’si, sana yapılan her doğrudan vuruşun (bir lazer salvosu, doğrudan bir roket, bir uzaylının atışı) hiç hasar vermeme şansının %7 olduğu demektir ve geminin üstünde yüzen bir “Iska” görünür. Diğer vuruşlar tam isabet eder; bu yüzden çok sayıda vuruşta yaklaşık %7 daha az hasar alırsın, ama tek bir roket ya hep ya hiçtir. Alan patlamasının nişanı yoktur ve asla savuşturulmaz.
-- **Delme, cephanenin delmesine eklenir.** Gemini ve Stiletto puanlarını cephanenin ve doğrudan bir roketin delmesine ekler. Toplamı hiçbir şey sınırlamaz (lazer amfileri de ona ekler) ve bir patlamanın delmesi yoktur.
+- **Delme, cephanenin delmesine eklenir.** Gemini puanlarını cephanenin ve doğrudan bir roketin delmesine ekler. Toplamı hiçbir şey sınırlamaz (lazer amfileri de ona ekler) ve bir patlamanın delmesi yoktur. Stiletto’da bunun yerine **roket delmesi** vardır: puanları yalnızca doğrudan bir roketin kendi delmesine eklenir, bu yüzden bir lazer bunlardan hiçbirini almaz ve bir patlamanın delmesi yoktur.
 - **Roketler, hepsi 14.** Bir formasyonun roket bonusu, N.U.K.E. ve N.I.K.E. dahil her roketin hasarını çarpar; ister bir gemiye ister bir [asteroite](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) çarpsın: bir asteroitin zırhı bonustan sonra düşülür. Testudo formasyonunun tüm hasar bedeli roketler için de geçerlidir ve Culler formasyonunun uzaylılara hasarı bir uzaylıya çarpan roketler için geçerlidir. Bir roketin üstündeki tüm çarpanlar birlikte ×1,59’da durur. En iyi roket formasyonu Ballista (+%55), bir N.I.K.E. roketini en çok 116.250, bir N.U.K.E. roketini en çok 77.500 hasara çıkarır: yeni bir Paragon (128.000) birine hâlâ dayanır, bir Goombah (80.000) ise ötekine.
 - **Bir roketin yeniden dolumu, onu fırlattığında belirlenir.** 3 saniye, Asterism kuşanıkken 4,05, Cordon kuşanıkken 3,33 ve Redoubt kuşanıkken 2,19 olur; ama asla roketin uçuşu artı bir andan az olmaz (uçuşu uzun bir roket, örneğin bir Lancet III, Redoubt kuşanıkken bile onu bekler): bir N.U.K.E. roketinden sonra 4,1 saniye, bir N.I.K.E. roketinden sonra 4,6. Sonradan formasyon değiştirmek, zaten sahip olduğun beklemeyi kısaltmaz.
 - **Yetenekler formasyonu izlemez.** Shield Surge ve Emergency Repair toplamlarını formasyon olmadan azami değerinden hesaplar; bu yüzden bir değişiklik onları güçlendiremez. Afterburner hızını şu anki hâliyle çarpar ve bir Repair Drone azami gövdenin bir payını şu anki hâliyle onarır.
@@ -150,9 +150,10 @@ Thulium’un yanı sıra Montaj bunları envanterinden alır. Formasyonun araşt
 
 ## Hangisi ne zaman {#which-one-when}
 
-- **Uzaylı avı:** zorlular için Auger (+%21 lazer), XP için Culler (uzaylılara +%12 hasar ve +%12 XP) ile Shrike (uzaylılara +%7,5 lazer hasarı, +%6 XP). Öldürme bonuslu bir formasyonu işe başlamadan *önce* kuşan: bonusu yalnızca 10 saniye sonra sayılır.
-- **Düellolar:** Gemini (+9 puan delme) bir kalkanı keser, Rampart (+%17 soğurma) seninkinin dayanmasını sağlar, Stiletto (+16 puan delme ve +%13 gövde) en sert ısırır ama savaşta kalkanını yakar (saniyede %3,5), Sanctum (+%15 gövde ve +%10 kalkan) vuruşları karşılar.
-- **Roketler:** Ballista (+%55) ağır vurandır, Bodkin (+%29) daha küçük bedelli ılımlı olandır, Asterism (+%24, %7 kaçınmayla) bunun bedelini daha yavaş bir yeniden dolumla öder.
+- **Uzaylı avı:** zorlular için Auger (+%21 lazer), XP için Culler (uzaylılara +%12 hasar ve +%12 XP) ile Shrike (uzaylılara +%10 lazer hasarı, +%8 XP). Öldürme bonuslu bir formasyonu işe başlamadan *önce* kuşan: bonusu yalnızca 10 saniye sonra sayılır.
+- **Düellolar:** Gemini (+15 puan delme) bir kalkanı keser, Rampart (+%17 soğurma) seninkinin dayanmasını sağlar, Sanctum (+%15 gövde ve +%10 kalkan) vuruşları karşılar.
+- **Roketler:** Ballista (+%55) ağır vurandır, Bodkin (+%29) daha küçük bedelli ılımlı olandır, Asterism (+%24, %7 kaçınmayla) bunun bedelini daha yavaş bir yeniden dolumla öder. Stiletto (+35 puan roket delmesi ve +%13 gövde) doğrudan bir roketi, en çok da bir N.I.K.E. roketini, kalkandan geçirir ama savaşta kalkanını yakar (saniyede %3,5).
+- **Onur:** Centurion (her öldürmede ve uçarken ödülünü aldığın her görevde +%25 onur) bunun bedelini biraz lazer, gövde ve kalkanla öder.
 - **Bir patrondan ya da sürüden vuruş yemek:** Cordon (+%95 kalkan), Redoubt (+%38 yenilenen kalkan) ve Sanctum.
 - **Kaçmak:** Gyre (+%10 hız).
 - **Asıl mesele savaşın ortasında değiştirmek.** Diğerinin kalkanını sıyırmak için Gemini ile aç, vurulan sen olunca Rampart ya da Sanctum formasyonuna geç (bir değişiklik gövdenin payını korur, bu yüzden seni asla iyileştirmez) ve çıkmak istediğinde Gyre formasyonunu kuşan. Kısayol çubuğunda üç ya da dört tane bunların hepsine yeter.

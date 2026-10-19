@@ -348,11 +348,11 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 - **O que custam.** Além da ciência e da Dark Matter, uma melhoria pede **créditos e Thulium**. O Centro leva tudo quando a pesquisa começa e devolve tudo se você a cancelar antes de ela terminar.
 - **Elas ficam.** Como o resto da sua pesquisa, essas tecnologias permanecem após o reset, e as melhorias com elas.
 - **Em série.** Cada nível exige o anterior, e um nível maior substitui o menor: a tabela mostra o total que cada nível dá, não o que ele acrescenta.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) acrescentam casco a todas as naves que você tem, nas duas configurações.
-- **Sealed Backdoor** aumenta o limite de carga de todos os foguetes, onde quer que você os compre, fabrique ou troque.
-- **Excavator Mining** aumenta o que você leva de cada caixa de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium quanto de minério.
-- **Field Theory** aumenta a parte de cada tiro que seus escudos absorvem. Uma nave sem escudo não ganha nada.
-- **Dormant Knowledge** paga pontos de reset, uma vez por nível, quando a pesquisa termina no Centro. Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco Dormant Knowledge não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
+- **Lanches eficientes** (Kebab, Pelmeni, Hambúrguer) acrescentam casco a todas as naves que você tem, nas duas configurações.
+- **Porta dos fundos selada** aumenta o limite de carga de todos os foguetes, onde quer que você os compre, fabrique ou troque.
+- **Mineração com escavadeira** aumenta o que você leva de cada caixa de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium quanto de minério.
+- **Teoria de campos** aumenta a parte de cada tiro que seus escudos absorvem. Uma nave sem escudo não ganha nada.
+- **Conhecimento adormecido** paga pontos de reset, uma vez por nível, quando a pesquisa termina no Centro. Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco de Conhecimento adormecido não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

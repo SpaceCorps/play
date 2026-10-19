@@ -348,11 +348,11 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 - **Vad de kostar.** Förutom vetenskap och Dark Matter kräver en bonus **krediter och Thulium**. Centrumet tar allt när forskningen startar och ger tillbaka allt om du avbryter innan den är klar.
 - **De finns kvar.** Liksom resten av din forskning finns de här teknologierna kvar efter wipen, och bonusarna med dem.
 - **I serie.** Varje nivå kräver nivån före, och en högre nivå ersätter den lägre: tabellen visar totalen som varje nivå ger, inte vad den lägger till.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) ger mer skrov åt varje skepp du äger, i båda konfigurationerna.
-- **Sealed Backdoor** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
-- **Excavator Mining** höjer vad du tar ur varje låda från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), både Thulium och malm.
-- **Field Theory** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
-- **Dormant Knowledge** ger wipepoäng, en gång per nivå, när forskningen blir klar i centrumet. Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem Dormant Knowledge gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
+- **Effektiva mellanmål** (Kebab, Pelmeni, Burgare) ger mer skrov åt varje skepp du äger, i båda konfigurationerna.
+- **Förseglad bakdörr** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
+- **Grävmaskinsbrytning** höjer vad du tar ur varje låda från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), både Thulium och malm.
+- **Fältteori** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
+- **Slumrande kunskap** ger wipepoäng, en gång per nivå, när forskningen blir klar i centrumet. Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem nivåerna av Slumrande kunskap gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

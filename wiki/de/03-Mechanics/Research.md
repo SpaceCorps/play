@@ -348,11 +348,11 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 - **Was sie kosten.** Außer Wissenschaft und Dark Matter verlangt ein Bonus **Credits und Thulium**. Das Zentrum nimmt alles beim Start der Forschung und gibt alles zurück, wenn du sie vor dem Ende abbrichst.
 - **Sie bleiben.** Wie deine übrige Forschung bleiben diese Technologien über den Wipe hinweg erhalten, und mit ihnen ihre Boni.
 - **Der Reihe nach.** Jede Stufe braucht die vorherige, und eine höhere Stufe ersetzt die niedrigere: Die Tabelle zeigt die Summe, die jede Stufe gibt, nicht was sie dazulegt.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) geben jedem deiner Schiffe mehr Hülle, in beiden Konfigurationen.
-- **Sealed Backdoor** erhöht das Tragelimit jeder Rakete, wo auch immer du sie kaufst, baust oder tauschst.
-- **Excavator Mining** erhöht, was du aus jeder Kiste eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) nimmst, Thulium wie Erz.
-- **Field Theory** erhöht den Anteil jedes Treffers, den deine Schilde aufnehmen. Ein Schiff ohne Schild bekommt nichts.
-- **Dormant Knowledge** zahlt Wipe-Punkte, einmal pro Stufe, wenn ihre Forschung im Zentrum fertig wird. Außer der vorherigen Stufe braucht sie einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Dormant Knowledge nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
+- **Effiziente Snacks** (Kabob, Pelmeni, Burger) geben jedem deiner Schiffe mehr Hülle, in beiden Konfigurationen.
+- **Versiegelte Hintertür** erhöht das Tragelimit jeder Rakete, wo auch immer du sie kaufst, baust oder tauschst.
+- **Baggerabbau** erhöht, was du aus jeder Kiste eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) nimmst, Thulium wie Erz.
+- **Feldtheorie** erhöht den Anteil jedes Treffers, den deine Schilde aufnehmen. Ein Schiff ohne Schild bekommt nichts.
+- **Schlummerndes Wissen** zahlt Wipe-Punkte, einmal pro Stufe, wenn seine Forschung im Zentrum fertig wird. Außer der vorherigen Stufe braucht es einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Stufen von „Schlummerndes Wissen“ nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

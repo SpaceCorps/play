@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -166,40 +166,38 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 
 ## レーザーの命中のシールド貫通 {#shield-penetration-of-a-laser-hit}
 
-レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +9%、Stiletto +16%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
+レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +15%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
 - **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。各レーザーに Penetration Amp IV を3つずつ載せれば36%、12本のレーザーのうち1本に Penetration Amp IV を1つ載せても1%です。Wraith のレーザーは12本、アンプスロットは36個で、36%にするには36個すべてを埋める必要があります。
 - **ハンガーに表示されます。** ハンガーの戦闘ステータスには、どの機体でも、表示中の構成のレーザーアンプの値を示す**貫通**タイルがあります（Penetration Amp がなければ0.0%）。弾薬と編成はそこに含まれません。飛行中の**艦船**ウィンドウには、下の行の端に**貫通**チップがあります（場所を空けるため、構成と速度のチップはアイコンと数字だけを表示します）。レーザーの命中の合計、つまりアンプ、装着中の編成、撃っている弾薬を、切り替えるたびに足し合わせた値を示し、ツールチップに3つの内訳が並びます。
-- **最強のレーザーは62%になります。** Experimental Fusion Core（10%）、Stiletto（16%）、各レーザーに Penetration Amp IV を3つ（36%）で、合計は62%です。
-- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は12ではなく13.1～13.8ポイントになります。最強の構成では、「永遠」が3つなら合計は67.4%になり、そのすべてのポイントが効きます。
+- **最強のレーザーは61%になります。** Experimental Fusion Core（10%）、Gemini（15%）、各レーザーに Penetration Amp IV を3つ（36%）で、合計は61%です。
+- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は12ではなく13.1～13.8ポイントになります。最強の構成では、「永遠」が3つなら合計は66.4%になり、そのすべてのポイントが効きます。
 
 | レーザーの斉射 | 弾薬 | アンプ（3スロット） | 編成 | 合計 |
 |---|---|---|---|---|
 | Experimental Fusion Core のみ | 10% | – | – | **10%** |
-| Fusion Core + Gemini | 10% | – | 9% | **19%** |
-| Fusion Core + Stiletto（Penetration Amp 以前の最強） | 10% | – | 16% | **26%** |
+| Fusion Core + Gemini（Penetration Amp 以前の最強） | 10% | – | 15% | **25%** |
 | Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
 | Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
 | Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
 | Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
-| Ultra Core + Penetration Amp IV 3つ + Stiletto（普段使いの最強） | 5% | 36% | 16% | **57%** |
-| Fusion Core + Penetration Amp IV 3つ + Stiletto（最強のレーザー） | 10% | 36% | 16% | **62%** |
+| Ultra Core + Penetration Amp IV 3つ + Gemini（普段使いの最強） | 5% | 36% | 15% | **56%** |
+| Fusion Core + Penetration Amp IV 3つ + Gemini（最強のレーザー） | 10% | 36% | 15% | **61%** |
 
 それがターゲットのシールドに何をするか。各マスは、命中のうち**シールドが受ける割合 / 船体が受ける割合**です。
 
-| 防御側（吸収率） | アンプなし | Fusion Core のみ（10%） | 以前：Fusion Core + Stiletto（26%） | Fusion Core + 3 Penetration Amp IV（46%） | 最強のレーザー（62%） |
+| 防御側（吸収率） | アンプなし | Fusion Core のみ（10%） | Fusion Core + Gemini（25%） | Fusion Core + 3 Penetration Amp IV（46%） | 最強のレーザー（61%） |
 |---|---|---|---|---|---|
-| Light Shield Core、セルなし（45%） | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core、セルなし（50%） | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + Capacity Shield Cell IV 3つ（65%） | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| 標準で最高のシールド（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア44レベル（96.4%） | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（102%） | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core、セルなし（45%） | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core、セルなし（50%） | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + Capacity Shield Cell IV 3つ（65%） | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| 標準で最高のシールド（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア44レベル（96.4%） | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（102%） | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-最強のレーザーは、セルのないシールドコアと、最良のセルを入れた Light Shield Core を空にします（船体が命中を丸ごと受けます）。Capacity セル3つの Heavy Shield Core は命中の3%を保ち、最高のシールドは18%を保ちます（バフがあれば34%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（51%）は空になります。
+最強のレーザーは、セルのないシールドコアと、最良のセルを入れた Light Shield Core を空にします（船体が命中を丸ごと受けます）。Capacity セル3つの Heavy Shield Core は命中の4%を保ち、最高のシールドは19%を保ちます（バフがあれば35%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（70%）は空になります。
 
 ### Penetration Amp は、スロットを使う価値がいつあるのか？ {#when-is-a-penetration-amp-worth-a-slot}
 

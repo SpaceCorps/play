@@ -163,40 +163,38 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 
 ## Shield Penetration of a Laser Hit
 
-Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +9%, Stiletto +16%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +15%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 36%; one Penetration Amp IV in one laser of twelve makes 1%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 36%.
 - **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of the laser amps of the configuration it shows (0.0% without a Penetration Amp); ammo and formation are not in it. The **Ship window** in flight has a **Penetration** chip at the end of its bottom row (the Config and Speed chips show only an icon and a number to make room): it shows the total of a laser hit, your amps, the formation you wear and the ammo you fire, added up as you change them, and its tip lists the three parts.
-- **The best laser makes 62%.** An Experimental Fusion Core (10%), a Stiletto (16%) and three Penetration Amp IV in every laser (36%) make 62%.
-- **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points instead of 12. In the best build, three Eternal ones add up to 67.4%, and every point of it counts.
+- **The best laser makes 61%.** An Experimental Fusion Core (10%), a Gemini (15%) and three Penetration Amp IV in every laser (36%) make 61%.
+- **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points instead of 12. In the best build, three Eternal ones add up to 66.4%, and every point of it counts.
 
 | Laser volley | Ammo | Amps (3 slots) | Formation | Total |
 |---|---|---|---|---|
 | Experimental Fusion Core alone | 10% | – | – | **10%** |
-| Fusion Core + Gemini | 10% | – | 9% | **19%** |
-| Fusion Core + Stiletto (the best before the Penetration Amps) | 10% | – | 16% | **26%** |
+| Fusion Core + Gemini (the best before the Penetration Amps) | 10% | – | 15% | **25%** |
 | Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
 | Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
 | Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
 | Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (the best for every day) | 5% | 36% | 16% | **57%** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (the best laser) | 10% | 36% | 16% | **62%** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (the best for every day) | 5% | 36% | 15% | **56%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (the best laser) | 10% | 36% | 15% | **61%** |
 
 What that does to the target's shields: each cell is the share of one hit that **the shields take / the hull takes**.
 
-| Defender (absorbance) | No amps | Fusion Core alone (10%) | Before: Fusion Core + Stiletto (26%) | Fusion Core + 3 Penetration Amp IV (46%) | The best laser (62%) |
+| Defender (absorbance) | No amps | Fusion Core alone (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | The best laser (61%) |
 |---|---|---|---|---|---|
-| Light Shield Core, no cell (45%) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, no cell (50%) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| The best shield out of the box (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| The best shield, Eternal Forge (top roll) and 44 Season Store levels (96.4%) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| Any alien (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, no cell (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, no cell (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| The best shield out of the box (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| The best shield, Eternal Forge (top roll) and 44 Season Store levels (96.4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Any alien (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-The best laser empties a shield core with no cell and a Light Shield Core with its best cell (the hull takes the whole hit); a Heavy Shield Core with three Capacity cells keeps 3% of every hit, and the best shield keeps 18% of it (34% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (51%) does.
+The best laser empties a shield core with no cell and a Light Shield Core with its best cell (the hull takes the whole hit); a Heavy Shield Core with three Capacity cells keeps 4% of every hit, and the best shield keeps 19% of it (35% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (70%) does.
 
 ### When is a Penetration Amp worth a slot? {#when-is-a-penetration-amp-worth-a-slot}
 

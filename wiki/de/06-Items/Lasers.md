@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -166,40 +166,38 @@ Die Siphon Battery ist Munition, um Schilde zu rauben, statt Hüllen zu brechen.
 
 ## Schilddurchdringung eines Lasertreffers {#shield-penetration-of-a-laser-hit}
 
-Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +9 %, Stiletto +16 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +15 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Deine Amps zählen als Mittelwert deiner Laser.** Eine Salve ist ein Treffer, also addiert das Spiel die Durchdringung der Amps jedes Lasers (die Laser in deinen Drohnen zählen mit) und nimmt den Mittelwert über deine Laser, jeden nach seinem Schaden gewichtet, wie bei der Krit-Chance. Drei Penetration Amp IV in jedem Laser ergeben 36 %; ein Penetration Amp IV in einem von zwölf Lasern ergibt 1 %. Eine Wraith hat 12 Laser und 36 Amp-Slots, und alle 36 müssen gefüllt sein, um 36 % zu erreichen.
 - **Der Hangar zeigt es.** Die Kampfwerte des Hangars haben auf jedem Schiff eine Kachel **Durchdringung** mit dem Wert der Laserverstärker der gezeigten Konfiguration (0,0 % ohne Penetration Amp); Munition und Formation sind nicht darin. Das Fenster **Schiff** im Flug hat am Ende seiner unteren Zeile einen Chip **Durchdringung** (die Chips für Konfiguration und Geschwindigkeit zeigen dafür nur ein Symbol und eine Zahl): Er zeigt die Summe eines Lasertreffers, deine Amps, die getragene Formation und die abgefeuerte Munition, zusammengezählt, sobald du etwas wechselst, und sein Tooltip nennt die drei Teile.
-- **Der beste Laser ergibt 62 %.** Ein Experimental Fusion Core (10 %), ein Stiletto (16 %) und drei Penetration Amp IV in jedem Laser (36 %) ergeben 62 %.
-- **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten statt 12. Im besten Aufbau kommen drei ewige zusammen auf 67,4 %, und jeder Punkt davon zählt.
+- **Der beste Laser ergibt 61 %.** Ein Experimental Fusion Core (10 %), ein Gemini (15 %) und drei Penetration Amp IV in jedem Laser (36 %) ergeben 61 %.
+- **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten statt 12. Im besten Aufbau kommen drei ewige zusammen auf 66,4 %, und jeder Punkt davon zählt.
 
 | Lasersalve | Munition | Amps (3 Slots) | Formation | Summe |
 |---|---|---|---|---|
 | Experimental Fusion Core allein | 10 % | – | – | **10 %** |
-| Fusion Core + Gemini | 10 % | – | 9 % | **19 %** |
-| Fusion Core + Stiletto (das Beste vor den Penetration Amps) | 10 % | – | 16 % | **26 %** |
+| Fusion Core + Gemini (das Beste vor den Penetration Amps) | 10 % | – | 15 % | **25 %** |
 | Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
 | Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
 | Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
 | Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10 % | 36 % | 9 % | **55 %** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (das Beste für jeden Tag) | 5 % | 36 % | 16 % | **57 %** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (der beste Laser) | 10 % | 36 % | 16 % | **62 %** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (das Beste für jeden Tag) | 5 % | 36 % | 15 % | **56 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (der beste Laser) | 10 % | 36 % | 15 % | **61 %** |
 
 Was das mit den Schilden des Ziels macht: Jede Zelle ist der Anteil eines Treffers, den **die Schilde nehmen / die Hülle nimmt**.
 
-| Verteidiger (Absorption) | Ohne Amps | Fusion Core allein (10 %) | Vorher: Fusion Core + Stiletto (26 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Der beste Laser (62 %) |
+| Verteidiger (Absorption) | Ohne Amps | Fusion Core allein (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Der beste Laser (61 %) |
 |---|---|---|---|---|---|
-| Light Shield Core, keine Zelle (45 %) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, keine Zelle (50 %) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| Der beste Schild ab Werk (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (96,4 %) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, keine Zelle (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, keine Zelle (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| Der beste Schild ab Werk (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Der beste Laser leert einen Schildkern ohne Zelle und einen Light Shield Core mit seiner besten Zelle (die Hülle nimmt den ganzen Treffer); ein Heavy Shield Core mit drei Capacity-Zellen behält 3 % jedes Treffers, und der beste Schild behält 18 % davon (34 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (51 %) schon.
+Der beste Laser leert einen Schildkern ohne Zelle und einen Light Shield Core mit seiner besten Zelle (die Hülle nimmt den ganzen Treffer); ein Heavy Shield Core mit drei Capacity-Zellen behält 4 % jedes Treffers, und der beste Schild behält 19 % davon (35 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (70 %) schon.
 
 ### Wann lohnt sich ein Penetration Amp für einen Slot? {#when-is-a-penetration-amp-worth-a-slot}
 

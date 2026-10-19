@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -119,7 +119,7 @@ Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**
 - La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %). Les Penetration Amps des lasers du tireur (+3 % à +12 % par emplacement) et une formation de drones s’y ajoutent, et rien ne plafonne le total.
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.
-- **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 6 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+9 points) et Stiletto (+16) ajoutent de la pénétration à vos propres munitions et aux roquettes directes, sans plafond ([Formations de drones](/wiki/03-Mechanics/Formations.md)). Pour un laser, ses amplis comptent aussi.
+- **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 10 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+15 points) ajoute de la pénétration à vos propres munitions et aux roquettes directes, et Stiletto (+35 points de pénétration de roquettes) aux roquettes directes seulement, sans plafond ([Formations de drones](/wiki/03-Mechanics/Formations.md)). Pour un laser, ses amplis comptent aussi.
 
 ### 2. Immunité en zone sûre {#2-safe-zone-immunity}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -49,7 +49,7 @@ Der **Absorptionsbonus eines Schilds** (und der Absorptions-Boost einer Schildze
 
 Triebwerke, Schubdüsen, adaptive Kerne und Repair Drones bewegen mit einem prozentualen Bonus sehr wenig (ein Engine II gibt 4 Tempo, also sind +12 % ein halber Punkt): Schmiede sie, wenn du die Stufe willst, nicht wegen der Werte.
 
-**Der Bonus eines Penetration Amp** multipliziert seine Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten pro Slot statt 12. Nichts begrenzt die Durchdringung eines Treffers, also zählt jeder Punkt: Im besten Laser (ein Fusion Core, ein Stiletto und drei Penetration Amp IV in jedem Laser) ergeben 10 + 16 + 36 genau 62 %, und drei ewige Boni heben es auf bis zu 67,4 % ([Laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Der Bonus eines Penetration Amp** multipliziert seine Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten pro Slot statt 12. Nichts begrenzt die Durchdringung eines Treffers, also zählt jeder Punkt: Im besten Laser (ein Fusion Core, ein Gemini und drei Penetration Amp IV in jedem Laser) ergeben 10 + 15 + 36 genau 61 %, und drei ewige Boni heben es auf bis zu 66,4 % ([Laser](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Woher die Materialien kommen {#where-the-materials-drop}
 

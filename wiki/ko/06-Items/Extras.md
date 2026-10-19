@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b961ad7c5408494d -->
+<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -21,8 +21,8 @@ CPU 여덟 가지는 판매하지 않습니다. Skylab의 연구 센터가 연�
 
 부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**이고, Auto-Repair CPU, Auto-Rocket CPU, Base CPU, Jump CPU는 각각 **ARP**, **ARL**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. **Auto-Rocket CPU**도 같은 방식으로 ON과 OFF를 전환합니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
 
-![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET), to drag onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
-![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL) to drag onto a slot, with how many of each you hold](../../img/wiki-img/shots/emp-hotbar.jpg)
+![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET): click one to use it, or drag it onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
+![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL), with how many of each you hold: click one to use it, or drag it onto a slot](../../img/wiki-img/shots/emp-hotbar.jpg)
 ![The hotbar with extras on its slots: a Repair Drone, a Cloaking CPU with its uses left, the P.E.T. Station that says ON, the EMP Charge and the Energetic Wall I and II with the number of each you carry](../../img/wiki-img/shots/hotbar-slots.jpg)
 ![The Repair Drone of an extra slot docked to its ship and its wingmen](../../img/wiki-img/shots/repair-drones-extra.jpg)
 ![The Shop's Consumables category: the EMP Charge and the Energetic Wall I with their prices in Thulium, and the Energetic Wall II, which only Assembly makes](../../img/wiki-img/shots/shop-consumables.jpg)

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -166,40 +166,38 @@ La Siphon Battery est une munition qui sert à voler des boucliers plutôt qu’
 
 ## Pénétration de bouclier d’un tir laser {#shield-penetration-of-a-laser-hit}
 
-Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +9 %, Stiletto +16 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +15 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 36 % ; un Penetration Amp IV dans un laser sur douze fait 1 %. Un Wraith a 12 lasers et 36 emplacements d’ampli, et il faut remplir les 36 pour atteindre 36 %.
 - **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre des amplis laser de la configuration affichée (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. La fenêtre **Vaisseau** en vol a une pastille **Pénétration** au bout de sa ligne du bas (les pastilles de configuration et de vitesse n’affichent qu’une icône et un chiffre pour lui faire de la place) : elle affiche le total d’un tir laser, vos amplis, la formation portée et les munitions tirées, additionnés dès que vous changez quelque chose, et son info-bulle liste les trois parts.
-- **Le meilleur laser fait 62 %.** Un Experimental Fusion Core (10 %), un Stiletto (16 %) et trois Penetration Amp IV dans chaque laser (36 %) font 62 %.
-- **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points au lieu de 12. Dans la meilleure configuration, trois amplis Éternels font 67,4 %, et chaque point compte.
+- **Le meilleur laser fait 61 %.** Un Experimental Fusion Core (10 %), un Gemini (15 %) et trois Penetration Amp IV dans chaque laser (36 %) font 61 %.
+- **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points au lieu de 12. Dans la meilleure configuration, trois amplis Éternels font 66,4 %, et chaque point compte.
 
 | Salve laser | Munitions | Amplis (3 emplacements) | Formation | Total |
 |---|---|---|---|---|
 | Experimental Fusion Core seul | 10 % | – | – | **10 %** |
-| Fusion Core + Gemini | 10 % | – | 9 % | **19 %** |
-| Fusion Core + Stiletto (le meilleur avant les Penetration Amps) | 10 % | – | 16 % | **26 %** |
+| Fusion Core + Gemini (le meilleur avant les Penetration Amps) | 10 % | – | 15 % | **25 %** |
 | Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
 | Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
 | Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
 | Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10 % | 36 % | 9 % | **55 %** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (le meilleur au quotidien) | 5 % | 36 % | 16 % | **57 %** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (le meilleur laser) | 10 % | 36 % | 16 % | **62 %** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (le meilleur au quotidien) | 5 % | 36 % | 15 % | **56 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (le meilleur laser) | 10 % | 36 % | 15 % | **61 %** |
 
 Ce que cela fait aux boucliers de la cible : chaque case est la part d’un tir que **les boucliers encaissent / la coque encaisse**.
 
-| Défenseur (absorption) | Sans amplis | Fusion Core seul (10 %) | Avant : Fusion Core + Stiletto (26 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Le meilleur laser (62 %) |
+| Défenseur (absorption) | Sans amplis | Fusion Core seul (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Le meilleur laser (61 %) |
 |---|---|---|---|---|---|
-| Light Shield Core, sans cellule (45 %) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, sans cellule (50 %) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| Le meilleur bouclier de série (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 44 niveaux de la Boutique de saison (96,4 %) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, sans cellule (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, sans cellule (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| Le meilleur bouclier de série (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 44 niveaux de la Boutique de saison (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Le meilleur laser vide un noyau de bouclier sans cellule et un Light Shield Core avec sa meilleure cellule (la coque encaisse tout le tir) ; un Heavy Shield Core avec trois cellules Capacity garde 3 % de chaque tir, et le meilleur bouclier en garde 18 % (34 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (51 %) y arrive.
+Le meilleur laser vide un noyau de bouclier sans cellule et un Light Shield Core avec sa meilleure cellule (la coque encaisse tout le tir) ; un Heavy Shield Core avec trois cellules Capacity garde 4 % de chaque tir, et le meilleur bouclier en garde 19 % (35 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (70 %) y arrive.
 
 ### Quand un Penetration Amp vaut-il un emplacement ? {#when-is-a-penetration-amp-worth-a-slot}
 

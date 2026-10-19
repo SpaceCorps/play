@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formationen -->
 # Drohnenformationen {#drone-formations}
 
@@ -65,9 +65,9 @@ Jede Formation gibt deinen Drohnen **eine eigene Form**. Trägst du eine, verlas
 | **Bodkin** | Ein Pfeil mit deinem Schiff als Spitze: eine Spitze vor der Nase, Widerhaken an den Flanken und ein Schaft dahinter | Nichts |
 | **Ballista** | Ein V vor dem Schiff, seine Arme zurück an den Seiten entlang | Nichts |
 | **Centurion** | Ein Block: Wachen in einem Rechteck um das Schiff | Nichts |
-| **Shrike** | Ein Dreizack vor der Nase, das Schiff sein Schaft: eine Reihe aus drei und drei Zinken, die mittlere die längste | Nichts |
+| **Shrike** | Krabbenscheren: auf jeder Seite ein Arm aus drei Drohnen, der sich um die Nase nach vorn streckt, eine Drohne zwischen den Scheren vor der Nase und eine hinter dem Schiff | Nichts |
 | **Culler** | Flügel: ein Fächer aus Drohnen auf jeder Seite, lang und kurz, und ein Kopf vor der Nase, wenn die Zahl der Drohnen ungerade ist | Die Flügelspitzen heben und senken sich einmal alle 2,4 Sekunden |
-| **Gemini** | Zwillingsspeere: eine Reihe Drohnen an jeder Flanke, die Spitzen vor der Nase | Nichts |
+| **Gemini** | Die Flügel eines Nachtfalters: drei Drohnen pro Seite, vor und neben dem Schiff in zwei Reihen, und ein Paar hinter dem Schiff als Schwanz | Nichts |
 | **Stiletto** | Ein Schwert mit dem Schiff als Heft: eine Klinge aus bis zu sechs Drohnen vor der Nase und ein Paar an der Nase als Parierstange | Nichts |
 | **Gyre** | Ein Rad: ein Kranz und eine Nabe, durch Speichen verbunden | Es dreht sich einmal in 6 Sekunden |
 | **Auger** | Ein Bohrer: ein Kegel um das Schiff, seine Spitze vor der Nase und sein breites Ende hinter dir, die Drohnen zeigen in deine Blickrichtung | Die Drohnen spiralen einmal in 3 Sekunden um die Flugachse des Schiffs |
@@ -94,10 +94,10 @@ Die Tabellen zeigen, was jede gibt und was sie dich kostet, wie die Gegenstandsk
 | **Asterism** | Ausweichen +7 %, Raketenschaden +24 % | Raketen-Nachladezeit +35 % |
 | **Bodkin** | Raketenschaden +29 % | Laserschaden −6 % |
 | **Ballista** | Raketenschaden +55 % | Hüllenpunkte −13 % |
-| **Gemini** | Schilddurchdringung +9 % | Schildpunkte −22 % |
-| **Stiletto** | Hüllenpunkte +13 %, Schilddurchdringung +16 % | Schildverlust pro Sekunde im Kampf −3,5 % |
-| **Centurion** | Ehre aus Abschüssen +32 % | Schildpunkte −7 %, Hüllenpunkte −5 %, Laserschaden −5 % |
-| **Shrike** | Laserschaden gegen Aliens +7,5 %, EP aus Alien-Abschüssen +6 % | Schildabsorption −6 % |
+| **Gemini** | Schilddurchdringung +15 % | Schildpunkte −22 % |
+| **Stiletto** | Hüllenpunkte +13 %, Raketen-Schilddurchdringung +35 % | Schildverlust pro Sekunde im Kampf −3,5 % |
+| **Centurion** | Ehre +25 % | Schildpunkte −7 %, Hüllenpunkte −5 %, Laserschaden −5 % |
+| **Shrike** | Laserschaden gegen Aliens +10 %, EP aus Alien-Abschüssen +8 % | Schildabsorption −10 % |
 | **Culler** | Schaden gegen Aliens +12 %, EP aus Alien-Abschüssen +12 % | Geschwindigkeit −10 % |
 | **Gyre** | Geschwindigkeit +10 % | Laserschaden −11 %, Schildverlust pro Sekunde im Kampf −0,5 % |
 | **Auger** | Laserschaden +21 % | Geschwindigkeit −9 % |
@@ -138,11 +138,11 @@ Neben dem Thulium nimmt die Montage dieses Material aus deinem Inventar. Es hän
 ## Die Regeln im Einzelnen {#the-rules-in-detail}
 
 - **Deine Hülle behält ihren Anteil.** Eine Formation, die deine maximale Hülle ändert, ändert deine Hülle um denselben Anteil: Bei voller Hülle bist du voll im neuen Maximum, bei 80 % bei 80 %, in beide Richtungen, und der Wechsel zurück bringt dieselbe Zahl. Ein Wechsel heilt dich nie und schadet dir nie, und er ist kein Schaden. Dein Schild ist anders: Eine Formation, die deinen maximalen Schild senkt, kappt den aktuellen Wert darauf, und eine, die ihn anhebt, fügt nichts hinzu; ein Schild, den du unter Cordon geladen hast, wird also gekappt, wenn du sie verlässt.
-- **Abschussboni warten 10 Sekunden.** Die EP und die Ehre, die Shrike, Culler und Centurion zu einem Abschuss addieren, zählen erst, wenn die Formation 10 Sekunden lang getragen wurde. Gezählt werden Abschüsse von Aliens (auch Schwarmschiffe), nicht Missionen oder Piloten. Alles andere an einer Formation wirkt sofort.
+- **Boni auf Abschüsse und Missionen warten 10 Sekunden.** Die EP, die Shrike und Culler zu einem Abschuss addieren, und die Ehre, die Centurion zu einem Abschuss oder zu einer Mission addiert, deren Belohnung du im Flug abholst, zählen erst, wenn die Formation 10 Sekunden lang getragen wurde. EP zählen bei Abschüssen von Aliens (auch Schwarmschiffen), nicht bei Missionen oder Piloten. Die Ehre zählt jede Ehre, die du im Flug verdienst, von Aliens (auch dein Anteil am Abschuss eines Gruppenmitglieds) und aus Missionen, deren Belohnung du im Flug abholst, aber nie einen Verlust und nichts, was du an der Station abholst. Alles andere an einer Formation wirkt sofort.
 - **Ein Verlust läuft nur, solange die Formation getragen wird.** Stiletto und Gyre verbrennen jede Sekunde einen Anteil deines *aktuellen* Schilds, aber nur im Kampf (ein Treffer, ein Laserschuss oder eine Rakete in den letzten 10 Sekunden) und nie in einer Schutzzone. Wechselst du die Formation, hört er sofort auf. Er ist kein Schaden und startet deshalb die 15 Sekunden vor dem Aufladen deines Schilds nicht neu.
 - **Regeneration wirkt im Kampf.** Adamant und Redoubt geben jede Sekunde einen Anteil deines maximalen Schilds zurück, zusätzlich zur eigenen Aufladung des Schiffs und bis zur Grenze in der Tabelle. Sie endet bei vollem Schild und zählt nicht als erlittener Schaden.
 - **Ausweichen ist eine Chance, einen direkten Treffer abzuwehren.** Asterisms 7 % bedeuten: Jeder direkte Treffer auf dich (eine Laser-Salve, eine direkte Rakete, ein Schuss eines Aliens) hat eine Chance von 7 %, gar keinen Schaden anzurichten, und über deinem Schiff erscheint ein schwebendes „Verfehlt“. Alle anderen Treffer kommen ganz an, über viele Treffer nimmst du also etwa 7 % weniger Schaden, eine einzelne Rakete aber entweder ganz oder gar nicht. Eine Flächenexplosion zielt nicht und wird nie abgewehrt.
-- **Durchdringung kommt zu der der Munition.** Gemini und Stiletto addieren ihre Punkte zur Durchdringung deiner Munition und einer direkten Rakete. Nichts begrenzt die Summe (die Laserverstärker addieren sich ebenfalls dazu), und eine Explosion hat keine.
+- **Durchdringung kommt zu der der Munition.** Gemini addiert seine Punkte zur Durchdringung deiner Munition und einer direkten Rakete. Nichts begrenzt die Summe (die Laserverstärker addieren sich ebenfalls dazu), und eine Explosion hat keine. Die Stiletto hat stattdessen **Raketendurchdringung**: Ihre Punkte kommen zur eigenen Durchdringung einer direkten Rakete und zu nichts sonst, ein Laser bekommt also nichts davon, und eine Explosion hat keine.
 - **Raketen, alle 14.** Der Raketenbonus einer Formation multipliziert den Schaden jeder Rakete, auch von N.U.K.E. und N.I.K.E., ob sie ein Schiff oder einen [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) trifft: Die Panzerung eines Asteroiden wird nach dem Bonus abgezogen. Auch Testudos Preis auf allen Schaden zählt bei Raketen, und Cullers Schaden gegen Aliens zählt bei Raketen, die ein Alien treffen. Alle Faktoren einer Rakete zusammen enden bei ×1,59. Die beste Raketenformation, Ballista (+55 %), lässt eine N.I.K.E. mit bis zu 116.250 treffen und eine N.U.K.E. mit bis zu 77.500: Ein frischer Paragon (128.000) überlebt die eine noch, ein Goombah (80.000) die andere.
 - **Die Nachladezeit einer Rakete steht beim Abfeuern fest.** Aus den 3 Sekunden werden 4,05 unter Asterism, 3,33 unter Cordon und 2,19 unter Redoubt, aber nie weniger als der Flug der Rakete plus ein Moment (eine Rakete mit langem Flug, etwa eine Lancet III, wartet auch unter Redoubt auf ihn): 4,1 Sekunden nach einer N.U.K.E. und 4,6 nach einer N.I.K.E. Wechselst du danach die Formation, verkürzt das die Wartezeit nicht, die du schon hast.
 - **Fähigkeiten folgen der Formation nicht.** Shield Surge und Emergency Repair rechnen ihre Summe aus deinem Maximum ohne die Formation, also kann ein Wechsel sie nicht stärker machen. Der Afterburner multipliziert dein Tempo, wie es gerade ist, und eine Repair Drone heilt einen Anteil deiner maximalen Hülle, wie sie gerade ist.
@@ -150,9 +150,10 @@ Neben dem Thulium nimmt die Montage dieses Material aus deinem Inventar. Es hän
 
 ## Welche wann {#which-one-when}
 
-- **Aliens jagen:** Auger (+21 % Laser) für die harten, Culler (+12 % Schaden gegen Aliens und +12 % EP) und Shrike (+7,5 % Laserschaden gegen Aliens, +6 % EP) für die EP. Lege eine Abschussbonus-Formation *vor* dem Angriff an: Ihr Bonus zählt erst nach 10 Sekunden.
-- **Duelle:** Gemini (+9 Punkte Durchdringung) schneidet durch einen Schild, Rampart (+17 % Absorption) lässt deinen halten, Stiletto (+16 Punkte Durchdringung und +13 % Hülle) beißt am härtesten, verbrennt im Kampf aber deinen Schild (3,5 % pro Sekunde), und Sanctum (+15 % Hülle und +10 % Schild) steckt die Treffer weg.
-- **Raketen:** Ballista (+55 %) ist der Schwerhitter, Bodkin (+29 %) die milde mit dem kleineren Preis, und Asterism (+24 %, mit 7 % Ausweichen) bezahlt dafür mit einer langsameren Nachladezeit.
+- **Aliens jagen:** Auger (+21 % Laser) für die harten, Culler (+12 % Schaden gegen Aliens und +12 % EP) und Shrike (+10 % Laserschaden gegen Aliens, +8 % EP) für die EP. Lege eine Abschussbonus-Formation *vor* dem Angriff an: Ihr Bonus zählt erst nach 10 Sekunden.
+- **Duelle:** Gemini (+15 Punkte Durchdringung) schneidet durch einen Schild, Rampart (+17 % Absorption) lässt deinen halten, und Sanctum (+15 % Hülle und +10 % Schild) steckt die Treffer weg.
+- **Raketen:** Ballista (+55 %) ist der Schwerhitter, Bodkin (+29 %) die milde mit dem kleineren Preis, und Asterism (+24 %, mit 7 % Ausweichen) bezahlt dafür mit einer langsameren Nachladezeit. Stiletto (+35 Punkte Raketendurchdringung und +13 % Hülle) schickt eine direkte Rakete durch einen Schild, vor allem eine N.I.K.E., verbrennt im Kampf aber deinen Schild (3,5 % pro Sekunde).
+- **Ehre:** Centurion (+25 % Ehre bei jedem Abschuss und jeder Mission, deren Belohnung du im Flug abholst) bezahlt dafür mit etwas Laser, Hülle und Schild.
 - **Treffer von einem Boss oder einem Schwarm einstecken:** Cordon (+95 % Schild), Redoubt (+38 % Schild, der sich selbst heilt) und Sanctum.
 - **Fliehen:** Gyre (+10 % Tempo).
 - **Der Wechsel im Kampf ist der Punkt.** Eröffne mit Gemini, um den anderen Schild zu durchdringen, wechsle zu Rampart oder Sanctum, wenn du getroffen wirst (ein Wechsel behält den Anteil deiner Hülle, heilt dich also nie), und nimm Gyre, wenn du raus willst. Drei oder vier in der Aktionsleiste reichen für all das.

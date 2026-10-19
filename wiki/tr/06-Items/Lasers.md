@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: Lazerler -->
 # Lazerler ve cephane {#lasers-ammo}
 
@@ -165,40 +165,38 @@ Siphon Battery, gövde kırmak yerine kalkan çalmak için bir cephanedir. **Hed
 
 ## Bir lazer vuruşunun kalkan delmesi {#shield-penetration-of-a-laser-hit}
 
-Her lazer vuruşu, hedefinin soğurmasından puan düşürür; toplanan en fazla üç kaynak vardır: **cephanen** (Ultra Core %5, Experimental Fusion Core %10), **Penetration Amp** eşyaların ve bir **dron formasyonu** (Gemini +%9, Stiletto +%16; [Dron formasyonları](/wiki/03-Mechanics/Formations.md)). **Toplamı hiçbir şey sınırlamaz** (doğrudan bir roket kendi delmesini ve formasyonunkini aynı şekilde ekler: [Roketler](/wiki/06-Items/Rockets.md)). Kalkanlar, hedefin soğurmasından vuruşun delmesi düşüldükten sonra kalanı alır, gerisini gövde alır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Her lazer vuruşu, hedefinin soğurmasından puan düşürür; toplanan en fazla üç kaynak vardır: **cephanen** (Ultra Core %5, Experimental Fusion Core %10), **Penetration Amp** eşyaların ve bir **dron formasyonu** (Gemini +%15; [Dron formasyonları](/wiki/03-Mechanics/Formations.md)). **Toplamı hiçbir şey sınırlamaz** (doğrudan bir roket kendi delmesini ve formasyonunkini aynı şekilde ekler: [Roketler](/wiki/06-Items/Rockets.md)). Kalkanlar, hedefin soğurmasından vuruşun delmesi düşüldükten sonra kalanı alır, gerisini gövde alır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Amfilerin, lazerlerinin ortalaması olarak sayılır.** Bir salvo tek bir vuruştur; bu yüzden oyun her lazerin amfilerinin delmesini toplar (dronlarındaki lazerler de sayılır) ve lazerlerin üzerinden, her biri hasarıyla ağırlıklandırılarak ortalamasını alır, kritik şansta olduğu gibi. Her lazerde üç Penetration Amp IV %36 eder; on iki lazerden birindeki bir Penetration Amp IV %1 eder. Bir Wraith gemisinin 12 lazeri ve 36 amfi yuvası vardır ve %36’ya ulaşmak için 36’sının da dolu olması gerekir.
 - **Hangar bunu gösterir.** Hangardaki savaş özelliklerinde her gemide bir **Kalkan delme** kutucuğu vardır; kutucuk, açık olan konfigürasyonun lazer amfilerinin değerini taşır (Penetration Amp yoksa %0,0); cephane ve formasyon buna dahil değildir. Uçuştaki **Gemi penceresinde** alt satırın sonunda bir **Kalkan delme** göstergesi vardır (yer açmak için Konfig. ve Hız göstergeleri yalnızca bir simge ve bir sayı gösterir): bir lazer vuruşunun toplamını gösterir: amfilerin, kuşandığın formasyon ve ateşlediğin cephane, sen değiştirdikçe toplanır; ipucu üç parçayı listeler.
-- **En iyi lazer %62 eder.** Bir Experimental Fusion Core (%10), bir Stiletto (%16) ve her lazerde üç Penetration Amp IV (%36) %62 eder.
-- **Bir Penetration Amp IV üzerindeki Demirhane bonusu sayılır.** Bir Penetration Amp, diğer amfiler gibi dövülebilir ve tek bonusu delmeyi çarpar: Ebedi bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 12 yerine 13,1 ile 13,8 puan yapar. En iyi donanım düzeninde üç Ebedi bonus toplamda %67,4 eder ve her puanı sayılır.
+- **En iyi lazer %61 eder.** Bir Experimental Fusion Core (%10), bir Gemini (%15) ve her lazerde üç Penetration Amp IV (%36) %61 eder.
+- **Bir Penetration Amp IV üzerindeki Demirhane bonusu sayılır.** Bir Penetration Amp, diğer amfiler gibi dövülebilir ve tek bonusu delmeyi çarpar: Ebedi bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 12 yerine 13,1 ile 13,8 puan yapar. En iyi donanım düzeninde üç Ebedi bonus toplamda %66,4 eder ve her puanı sayılır.
 
 | Lazer salvosu | Cephane | Amfiler (3 yuva) | Formasyon | Toplam |
 |---|---|---|---|---|
 | Yalnızca Experimental Fusion Core | %10 | – | – | **%10** |
-| Fusion Core + Gemini | %10 | – | %9 | **%19** |
-| Fusion Core + Stiletto (Penetration Amp öncesinin en iyisi) | %10 | – | %16 | **%26** |
+| Fusion Core + Gemini (Penetration Amp öncesinin en iyisi) | %10 | – | %15 | **%25** |
 | Fusion Core + 3 Penetration Amp I | %10 | %9 | – | **%19** |
 | Fusion Core + 3 Penetration Amp II | %10 | %18 | – | **%28** |
 | Fusion Core + 3 Penetration Amp III | %10 | %27 | – | **%37** |
 | Fusion Core + 3 Penetration Amp IV | %10 | %36 | – | **%46** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | %10 | %36 | %9 | **%55** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (her gün için en iyisi) | %5 | %36 | %16 | **%57** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (en iyi lazer) | %10 | %36 | %16 | **%62** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (her gün için en iyisi) | %5 | %36 | %15 | **%56** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (en iyi lazer) | %10 | %36 | %15 | **%61** |
 
 Bunun hedefin kalkanlarına etkisi: her hücre, bir vuruşun **kalkanların aldığı / gövdenin aldığı** payıdır.
 
-| Savunan (soğurma) | Amfi yok | Yalnızca Fusion Core (%10) | Öncesi: Fusion Core + Stiletto (%26) | Fusion Core + 3 Penetration Amp IV (%46) | En iyi lazer (%62) |
+| Savunan (soğurma) | Amfi yok | Yalnızca Fusion Core (%10) | Fusion Core + Gemini (%25) | Fusion Core + 3 Penetration Amp IV (%46) | En iyi lazer (%61) |
 |---|---|---|---|---|---|
-| Light Shield Core, hücresiz (%45) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, hücresiz (%50) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (%55) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (%65) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| Hiçbir bonus olmadan en iyi kalkan (%80) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%96,4) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%102) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| Herhangi bir uzaylı (%80) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, hücresiz (%45) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, hücresiz (%50) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (%55) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (%65) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| Hiçbir bonus olmadan en iyi kalkan (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%96,4) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%102) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Herhangi bir uzaylı (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-En iyi lazer, hücresiz bir kalkan çekirdeğini ve en iyi hücresiyle takılı bir Light Shield Core kalkanını boşaltır (vuruşun tamamını gövde alır); üç Capacity hücreli bir Heavy Shield Core her vuruşun %3’ünü tutar, en iyi kalkan %18’ini (bonuslarla %34). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%51) bir Lancet III ya da Rivet III boşaltır.
+En iyi lazer, hücresiz bir kalkan çekirdeğini ve en iyi hücresiyle takılı bir Light Shield Core kalkanını boşaltır (vuruşun tamamını gövde alır); üç Capacity hücreli bir Heavy Shield Core her vuruşun %4’ünü tutar, en iyi kalkan %19’unu (bonuslarla %35). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%70) bir Lancet III ya da Rivet III boşaltır.
 
 ### Bir Penetration Amp bir yuvaya değer mi? {#when-is-a-penetration-amp-worth-a-slot}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -49,7 +49,7 @@ Il **bonus di assorbimento di uno scudo** (e il Bonus assorbimento di una cella 
 
 Motori, propulsori, Nuclei adattivi e Repair Drone cambiano pochissimo con un bonus percentuale (un Engine II aggiunge 4 di velocità, quindi +12% è mezzo punto): forgiali se vuoi il grado, non per le statistiche.
 
-**Il bonus di un Penetration Amp** moltiplica la sua penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 13,1–13,8 punti per slot invece di 12. Nulla limita la penetrazione di un colpo, quindi ogni punto conta: nel miglior laser (un Fusion Core, uno Stiletto e tre Penetration Amp IV in ogni laser) 10 + 16 + 36 fanno 62%, e tre bonus Eterni la portano fino al 67,4% ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Il bonus di un Penetration Amp** moltiplica la sua penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 13,1–13,8 punti per slot invece di 12. Nulla limita la penetrazione di un colpo, quindi ogni punto conta: nel miglior laser (un Fusion Core, un Gemini e tre Penetration Amp IV in ogni laser) 10 + 15 + 36 fanno 61%, e tre bonus Eterni la portano fino al 66,4% ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Da dove arrivano i materiali {#where-the-materials-drop}
 

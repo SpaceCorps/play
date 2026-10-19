@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -119,7 +119,7 @@ Gelen hasar, kalkanlar ile gövde puanları arasında geminin **ortalama soğurm
 - **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%3 ile +%12) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
 - Payı için fazla düşük kalan bir kalkan farkı gövde puanına aktarır; kalkanlar tamamen bittiyse kalan tüm hasar (**%100**) gövde puanına vurur.
 - Uzaylıların soğurma özelliği yoktur: kalkanları her vuruşun %80 kadarını alır (vuruşun delmesi düşülür), gövdeleri geri kalanını.
-- **Dron formasyonları.** Rampart soğurmanı %17 artırır (Shrike %6 azaltır), Asterism, sana gelen her doğrudan vuruşun %7 şansla hiç hasar vermemesini sağlar (süzülen bir “Iska” görünür) ve isabet eden vuruşlar her zamanki gibi kalkan ile gövde arasında bölüşülür. Gemini ve Stiletto formasyonları (+9 ve +16 puan) kendi cephanene ve doğrudan roketlerine kalkan delme ekler, sınır yoktur ([Dron formasyonları](/wiki/03-Mechanics/Formations.md)). Bir lazer için amfileri de sayılır.
+- **Dron formasyonları.** Rampart soğurmanı %17 artırır (Shrike %10 azaltır), Asterism, sana gelen her doğrudan vuruşun %7 şansla hiç hasar vermemesini sağlar (süzülen bir “Iska” görünür) ve isabet eden vuruşlar her zamanki gibi kalkan ile gövde arasında bölüşülür. Gemini (+15 puan) kendi cephanene ve doğrudan roketlerine kalkan delme ekler, Stiletto (+35 puan roket delmesi) yalnızca doğrudan roketlere ekler, sınır yoktur ([Dron formasyonları](/wiki/03-Mechanics/Formations.md)). Bir lazer için amfileri de sayılır.
 
 ### 2. Güvenli bölge bağışıklığı {#2-safe-zone-immunity}
 

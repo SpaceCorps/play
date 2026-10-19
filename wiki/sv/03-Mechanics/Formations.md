@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formationer -->
 # Drönarformationer {#drone-formations}
 
@@ -65,9 +65,9 @@ Varje formation ger dina drönare **en egen form**. Bär du en lämnar drönarna
 | **Bodkin** | En pil med ditt skepp som spets: en udd framför nosen, hullingar längs flankerna och ett skaft bakom | Ingenting |
 | **Ballista** | Ett V framför skeppet, med armarna svepta bakåt längs sidorna | Ingenting |
 | **Centurion** | Ett block: vakter i en rektangel runt skeppet | Ingenting |
-| **Shrike** | En treudd framför nosen, med skeppet som skaft: en rad om tre och tre uddar, den mittersta längst | Ingenting |
+| **Shrike** | En krabbas klor: på varje sida en arm av tre drönare som sträcker sig framåt runt nosen, en drönare mellan klorna framför nosen och en bakom skeppet | Ingenting |
 | **Culler** | Vingar: en solfjäder av drönare på varje sida, långa och korta, och ett huvud framför nosen när antalet drönare är udda | Vingspetsarna stiger och sjunker en gång var 2,4 sekund |
-| **Gemini** | Tvillingspjut: en kolonn drönare längs varje flank, med spetsarna framför nosen | Ingenting |
+| **Gemini** | En nattfjärils vingar: tre drönare på varje sida, framför och vid sidan av skeppet i två rader, och ett par bakom skeppet som svans | Ingenting |
 | **Stiletto** | Ett svärd med skeppet som fäste: ett blad av upp till sex drönare framför nosen och ett par vid nosen som parerstång | Ingenting |
 | **Gyre** | Ett hjul: en fälg och ett nav förbundna med ekrar | Det snurrar ett varv på 6 sekunder |
 | **Auger** | En borr: en kon runt skeppet, med spetsen framför nosen och den breda änden bakom dig, drönarna pekar dit du tittar | Drönarna skruvar sig runt skeppets flygaxel, ett varv på 3 sekunder |
@@ -94,10 +94,10 @@ Tabellerna visar vad var och en ger och vad den kostar dig, som föremålskortet
 | **Asterism** | Undanmanöver +7 %, Raketskada +24 % | Raketernas laddtid +35 % |
 | **Bodkin** | Raketskada +29 % | Laserskada −6 % |
 | **Ballista** | Raketskada +55 % | Skrovpoäng −13 % |
-| **Gemini** | Sköldgenomträngning +9 % | Sköldpoäng −22 % |
-| **Stiletto** | Skrovpoäng +13 %, Sköldgenomträngning +16 % | Sköldförlust per sekund i strid −3,5 % |
-| **Centurion** | Heder för förstörelser +32 % | Sköldpoäng −7 %, Skrovpoäng −5 %, Laserskada −5 % |
-| **Shrike** | Laserskada mot utomjordingar +7,5 %, XP för förstörda utomjordingar +6 % | Sköldabsorption −6 % |
+| **Gemini** | Sköldgenomträngning +15 % | Sköldpoäng −22 % |
+| **Stiletto** | Skrovpoäng +13 %, Raketgenomträngning +35 % | Sköldförlust per sekund i strid −3,5 % |
+| **Centurion** | Heder +25 % | Sköldpoäng −7 %, Skrovpoäng −5 %, Laserskada −5 % |
+| **Shrike** | Laserskada mot utomjordingar +10 %, XP för förstörda utomjordingar +8 % | Sköldabsorption −10 % |
 | **Culler** | Skada mot utomjordingar +12 %, XP för förstörda utomjordingar +12 % | Fart −10 % |
 | **Gyre** | Fart +10 % | Laserskada −11 %, Sköldförlust per sekund i strid −0,5 % |
 | **Auger** | Laserskada +21 % | Fart −9 % |
@@ -138,11 +138,11 @@ Förutom Thulium tar Monteringen det här materialet ur ditt förråd. Det beror
 ## Reglerna i detalj {#the-rules-in-detail}
 
 - **Ditt skrov behåller sin andel.** En formation som ändrar ditt maximala skrov ändrar ditt skrov med samma andel: vid fullt skrov är du full av det nya maxvärdet, vid 80 % är du på 80 %, åt båda hållen, och byter du tillbaka får du samma tal. Ett byte läker dig aldrig och skadar dig aldrig, och det är inte skada. Din sköld är annorlunda: en formation som sänker din maximala sköld kapar det nuvarande värdet till den, och en som höjer den tillför ingenting, så en sköld du laddat under Cordon kapas när du lämnar den.
-- **Förstörelsebonusar väntar 10 sekunder.** Den XP och heder som Shrike, Culler och Centurion lägger till en förstörelse räknas först när formationen har burits i 10 sekunder. Det är förstörda utomjordingar (även svärmskepp) som räknas, inte uppdrag eller piloter. Allt annat i en formation verkar direkt.
+- **Bonusar på förstörelser och uppdrag väntar 10 sekunder.** Den XP som Shrike och Culler lägger till en förstörelse, och den heder som Centurion lägger till en förstörelse eller ett uppdrag du hämtar belöningen för under flygning, räknas först när formationen har burits i 10 sekunder. XP räknas för förstörda utomjordingar (även svärmskepp), inte för uppdrag eller piloter. Heder räknas för all heder du tjänar under flygning, från utomjordingar (även din del av en gruppkamrats förstörelse) och från uppdrag du hämtar belöningen för under flygning, men aldrig för en förlust eller något du hämtar vid stationen. Allt annat i en formation verkar direkt.
 - **En förlust löper bara medan formationen bärs.** Stiletto och Gyre bränner varje sekund en andel av din *aktuella* sköld, men bara i strid (en träff du tagit, ett laserskott eller en raket de senaste 10 sekunderna) och aldrig inne i en säker zon. Byt formation så upphör förlusten direkt. Den är ingen skada, så den startar inte om de 15 sekunderna innan din sköld laddas.
 - **Regenereringen verkar i strid.** Adamant och Redoubt ger varje sekund tillbaka en andel av din maximala sköld, utöver skeppets egen laddning och upp till gränsen i tabellen. Den slutar när skölden är full och räknas inte som tagen skada.
 - **Undanmanöver är en chans att undvika en direkt träff.** Asterisms 7 % betyder att varje direkt träff på dig (en lasersalva, en direkt raket, ett skott från en utomjording) har 7 % chans att inte göra någon skada alls, och ett flytande ”Miss” visas över ditt skepp. De andra träffarna landar hela, så över många träffar tar du ungefär 7 % mindre skada, men en enskild raket är allt eller inget. En områdesexplosion har inget sikte och undviks aldrig.
-- **Genomträngning läggs till ammunitionens.** Gemini och Stiletto lägger sina poäng till genomträngningen hos din ammunition och en direkt raket. Inget sätter tak för summan (laserförstärkarna lägger också till), och en explosion har ingen.
+- **Genomträngning läggs till ammunitionens.** Gemini lägger sina poäng till genomträngningen hos din ammunition och en direkt raket. Inget sätter tak för summan (laserförstärkarna lägger också till), och en explosion har ingen. Stiletto har i stället **raketgenomträngning**: dess poäng läggs bara till en direkt rakets egen genomträngning, så en laser får ingen av dem och en explosion har ingen.
 - **Raketer, alla 14.** En formations raketbonus multiplicerar skadan hos varje raket, även N.U.K.E. och N.I.K.E., vare sig den träffar ett skepp eller en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one): en asteroids pansar dras av efter bonusen. Testudos pris på all skada räknas också på raketer, och Cullers skada mot utomjordingar räknas på raketer som träffar en utomjording. Alla faktorer på en raket tillsammans stannar vid ×1,59. Den bästa raketformationen, Ballista (+55 %), får en N.I.K.E. att träffa med upp till 116 250 och en N.U.K.E. med upp till 77 500: en oskadad Paragon (128 000) överlever fortfarande den ena, och en Goombah (80 000) den andra.
 - **En raketens laddtid sätts när du avfyrar den.** De 3 sekunderna blir 4,05 under Asterism, 3,33 under Cordon och 2,19 under Redoubt, men aldrig mindre än raketens flygtid plus ett ögonblick (en raket med lång flygning, som en Lancet III, väntar på den även under Redoubt): 4,1 sekunder efter en N.U.K.E. och 4,6 efter en N.I.K.E. Att byta formation efteråt förkortar inte den väntan du redan har.
 - **Förmågor följer inte formationen.** Shield Surge och Emergency Repair räknar sin summa från ditt maximum utan formationen, så ett byte kan inte göra dem starkare. Afterburner multiplicerar din fart som den är just nu, och en Repair Drone lagar en andel av ditt maximala skrov som det är just nu.
@@ -150,9 +150,10 @@ Förutom Thulium tar Monteringen det här materialet ur ditt förråd. Det beror
 
 ## Vilken när {#which-one-when}
 
-- **Jaga utomjordingar:** Auger (+21 % laser) för de hårda, Culler (+12 % skada mot utomjordingar och +12 % XP) och Shrike (+7,5 % laserskada mot utomjordingar, +6 % XP) för XP. Sätt på en formation med förstörelsebonus *före* anfallet: dess bonus räknas först efter 10 sekunder.
-- **Envig:** Gemini (+9 poäng genomträngning) skär genom en sköld, Rampart (+17 % absorption) får din att hålla, Stiletto (+16 poäng genomträngning och +13 % skrov) biter hårdast men bränner din sköld (3,5 % i sekunden) i strid, och Sanctum (+15 % skrov och +10 % sköld) tar emot träffarna.
-- **Raketer:** Ballista (+55 %) är tungviktaren, Bodkin (+29 %) den milda med ett mindre pris, och Asterism (+24 %, med 7 % undanmanöver) betalar för det med en långsammare laddtid.
+- **Jaga utomjordingar:** Auger (+21 % laser) för de hårda, Culler (+12 % skada mot utomjordingar och +12 % XP) och Shrike (+10 % laserskada mot utomjordingar, +8 % XP) för XP. Sätt på en formation med förstörelsebonus *före* anfallet: dess bonus räknas först efter 10 sekunder.
+- **Envig:** Gemini (+15 poäng genomträngning) skär genom en sköld, Rampart (+17 % absorption) får din att hålla, och Sanctum (+15 % skrov och +10 % sköld) tar emot träffarna.
+- **Raketer:** Ballista (+55 %) är tungviktaren, Bodkin (+29 %) den milda med ett mindre pris, och Asterism (+24 %, med 7 % undanmanöver) betalar för det med en långsammare laddtid. Stiletto (+35 poäng raketgenomträngning och +13 % skrov) skickar en direkt raket genom en sköld, helst en N.I.K.E., men bränner din sköld (3,5 % i sekunden) i strid.
+- **Heder:** Centurion (+25 % heder på varje förstörelse och varje uppdrag du hämtar belöningen för under flygning) betalar för det med lite laser, skrov och sköld.
 - **Ta emot träffar från en boss eller en svärm:** Cordon (+95 % sköld), Redoubt (+38 % sköld som lagar sig själv) och Sanctum.
 - **Fly:** Gyre (+10 % fart).
 - **Att byta mitt i striden är poängen.** Öppna med Gemini för att ta sönder den andras sköld, byt till Rampart eller Sanctum när det är du som får smäll (ett byte behåller ditt skrovs andel, så det läker dig aldrig) och ta Gyre när du vill därifrån. Tre eller fyra i snabbfältet räcker till allt detta.

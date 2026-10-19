@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formations -->
 # Formations de drones {#drone-formations}
 
@@ -65,9 +65,9 @@ Chaque formation donne à vos drones **une forme à elle**. Portez-en une et les
 | **Bodkin** | Une flèche dont votre vaisseau est la tête : une pointe devant le nez, des barbes le long des flancs et une hampe derrière | Rien |
 | **Ballista** | Un V devant le vaisseau, ses bras rabattus en arrière le long des côtés | Rien |
 | **Centurion** | Un bloc : des gardes en rectangle autour du vaisseau | Rien |
-| **Shrike** | Un trident devant le nez, le vaisseau en est le manche : une rangée de trois et trois dents, celle du milieu la plus longue | Rien |
+| **Shrike** | Les pinces d’un crabe : de chaque côté un bras de trois drones qui s’étend vers l’avant autour du nez, un drone entre les pinces devant le nez et un derrière le vaisseau | Rien |
 | **Culler** | Des ailes : un éventail de drones de chaque côté, longs et courts, et une tête devant le nez quand le nombre de drones est impair | Le bout des ailes monte et descend, une fois toutes les 2,4 secondes |
-| **Gemini** | Des lances jumelles : une colonne de drones le long de chaque flanc, les pointes devant le nez | Rien |
+| **Gemini** | Des ailes de papillon de nuit : trois drones par côté, devant et à côté du vaisseau sur deux rangs, et une paire derrière le vaisseau pour la queue | Rien |
 | **Stiletto** | Une épée dont le vaisseau est la poignée : une lame d’au plus six drones devant le nez et une paire au nez pour la garde | Rien |
 | **Gyre** | Une roue : une jante et un moyeu reliés par des rayons | Elle tourne une fois en 6 secondes |
 | **Auger** | Une foreuse : un cône autour du vaisseau, sa pointe devant le nez et son large bout derrière vous, les drones pointés là où vous regardez | Les drones tournent en spirale autour de l’axe de vol du vaisseau, une fois en 3 secondes |
@@ -94,10 +94,10 @@ Les tableaux indiquent ce que chacune donne et ce qu’elle vous coûte, comme l
 | **Asterism** | Esquive +7 %, Dégâts des roquettes +24 % | Rechargement des roquettes +35 % |
 | **Bodkin** | Dégâts des roquettes +29 % | Dégâts laser −6 % |
 | **Ballista** | Dégâts des roquettes +55 % | Points de coque −13 % |
-| **Gemini** | Pénétration de bouclier +9 % | Points de bouclier −22 % |
-| **Stiletto** | Points de coque +13 %, Pénétration de bouclier +16 % | Perte de bouclier par seconde au combat −3,5 % |
-| **Centurion** | Honneur des destructions +32 % | Points de bouclier −7 %, Points de coque −5 %, Dégâts laser −5 % |
-| **Shrike** | Dégâts laser aux aliens +7,5 %, XP des aliens détruits +6 % | Absorption du bouclier −6 % |
+| **Gemini** | Pénétration de bouclier +15 % | Points de bouclier −22 % |
+| **Stiletto** | Points de coque +13 %, Pénétration des roquettes +35 % | Perte de bouclier par seconde au combat −3,5 % |
+| **Centurion** | Honneur +25 % | Points de bouclier −7 %, Points de coque −5 %, Dégâts laser −5 % |
+| **Shrike** | Dégâts laser aux aliens +10 %, XP des aliens détruits +8 % | Absorption du bouclier −10 % |
 | **Culler** | Dégâts aux aliens +12 %, XP des aliens détruits +12 % | Vitesse −10 % |
 | **Gyre** | Vitesse +10 % | Dégâts laser −11 %, Perte de bouclier par seconde au combat −0,5 % |
 | **Auger** | Dégâts laser +21 % | Vitesse −9 % |
@@ -138,11 +138,11 @@ En plus du Thulium, l’Assemblage prélève ces matériaux dans votre inventair
 ## Les règles en détail {#the-rules-in-detail}
 
 - **Votre coque garde sa part.** Une formation qui change votre coque maximale change votre coque de la même part : coque pleine, vous êtes plein du nouveau maximum, à 80 % vous êtes à 80 %, dans les deux sens, et en revenant en arrière vous retrouvez le même nombre. Un changement ne vous soigne jamais et ne vous blesse jamais, et ce n’est pas un dégât. Votre bouclier est différent : une formation qui baisse votre bouclier maximal y ramène la valeur actuelle, et une qui l’augmente n’ajoute rien, donc un bouclier chargé sous Cordon est coupé quand vous la quittez.
-- **Les bonus de destruction attendent 10 secondes.** L’XP et l’honneur que Shrike, Culler et Centurion ajoutent à une destruction ne comptent qu’une fois la formation portée depuis 10 secondes. Elles comptent les destructions d’aliens (vaisseaux d’essaim compris), pas les missions ni les pilotes. Tout le reste d’une formation agit aussitôt.
+- **Les bonus de destruction et de mission attendent 10 secondes.** L’XP que Shrike et Culler ajoutent à une destruction, et l’honneur que Centurion ajoute à une destruction ou à une mission dont vous réclamez la récompense en vol, ne comptent qu’une fois la formation portée depuis 10 secondes. L’XP compte les destructions d’aliens (vaisseaux d’essaim compris), pas les missions ni les pilotes. L’honneur compte tout l’honneur que vous gagnez en vol, des aliens (votre part de la destruction d’un équipier du groupe comprise) et des missions dont vous réclamez la récompense en vol, mais jamais une perte ni rien de ce que vous récupérez à la station. Tout le reste d’une formation agit aussitôt.
 - **Une perte ne court que tant que la formation est portée.** Stiletto et Gyre brûlent chaque seconde une part de votre bouclier *actuel*, mais seulement en combat (un coup reçu, un tir laser ou une roquette dans les 10 dernières secondes) et jamais dans une zone sûre. Changez de formation et la perte s’arrête aussitôt. Ce n’est pas un dégât, donc elle ne relance pas les 15 secondes avant que votre bouclier se recharge.
 - **La régénération agit en combat.** Adamant et Redoubt rendent chaque seconde une part de votre bouclier maximum, en plus de la recharge propre du vaisseau et jusqu’au plafond du tableau. Elle s’arrête quand le bouclier est plein et ne compte pas comme des dégâts subis.
 - **L’esquive est une chance d’éviter un coup direct.** Les 7 % d’Asterism signifient que chaque coup direct reçu (une salve laser, une roquette directe, un tir d’alien) a 7 % de chances de ne faire aucun dégât, et un « Raté » flottant s’affiche au-dessus de votre vaisseau. Les autres coups arrivent entiers : sur beaucoup de coups, vous encaissez environ 7 % de moins, mais une roquette seule, c’est tout ou rien. Une explosion de zone ne vise pas et n’est jamais esquivée.
-- **La pénétration s’ajoute à celle des munitions.** Gemini et Stiletto ajoutent leurs points à la pénétration de vos munitions et d’une roquette directe. Rien ne plafonne la somme (les amplis laser s’y ajoutent aussi), et une explosion n’en a aucune.
+- **La pénétration s’ajoute à celle des munitions.** Gemini ajoute ses points à la pénétration de vos munitions et d’une roquette directe. Rien ne plafonne la somme (les amplis laser s’y ajoutent aussi), et une explosion n’en a aucune. Le Stiletto a à la place une **pénétration de roquettes** : ses points s’ajoutent à la pénétration propre d’une roquette directe et à rien d’autre, donc un laser n’en reçoit aucun et une explosion n’en a pas.
 - **Les roquettes, les 14.** Le bonus de roquettes d’une formation multiplie les dégâts de chaque roquette, N.U.K.E. et N.I.K.E. compris, qu’elle touche un vaisseau ou un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) : le blindage d’un astéroïde se retranche après le bonus. Le prix de tous les dégâts de Testudo compte aussi sur les roquettes, et les dégâts aux aliens de Culler comptent sur les roquettes qui touchent un alien. Tous les facteurs d’une roquette ensemble s’arrêtent à ×1,59. La meilleure formation de roquettes, Ballista (+55 %), fait frapper une N.I.K.E. jusqu’à 116 250 et une N.U.K.E. jusqu’à 77 500 : un Paragon intact (128 000) survit encore à l’une, et un Goombah (80 000) à l’autre.
 - **Le rechargement d’une roquette est fixé au tir.** Les 3 secondes deviennent 4,05 sous Asterism, 3,33 sous Cordon et 2,19 sous Redoubt, mais jamais moins que le vol de la roquette plus un instant (une roquette au vol long, comme une Lancet III, l’attend même sous Redoubt) : 4,1 secondes après une N.U.K.E. et 4,6 après une N.I.K.E. Changer de formation ensuite ne raccourcit pas l’attente que vous avez déjà.
 - **Les compétences ne suivent pas la formation.** Shield Surge et Emergency Repair calculent leur total à partir de votre maximum sans la formation, donc un changement ne peut pas les renforcer. L’Afterburner multiplie votre vitesse telle qu’elle est maintenant, et un Repair Drone répare une part de votre coque maximum telle qu’elle est maintenant.
@@ -150,9 +150,10 @@ En plus du Thulium, l’Assemblage prélève ces matériaux dans votre inventair
 
 ## Laquelle, et quand {#which-one-when}
 
-- **Chasser les aliens :** Auger (+21 % de laser) pour les costauds, Culler (+12 % de dégâts aux aliens et +12 % d’XP) et Shrike (+7,5 % de dégâts laser aux aliens, +6 % d’XP) pour l’XP. Mettez une formation à bonus de destruction *avant* d’attaquer : son bonus ne compte qu’après 10 secondes.
-- **Duels :** Gemini (+9 points de pénétration) perce un bouclier, Rampart (+17 % d’absorption) fait tenir le vôtre, Stiletto (+16 points de pénétration et +13 % de coque) mord le plus fort mais brûle votre bouclier (3,5 % par seconde) en combat, et Sanctum (+15 % de coque et +10 % de bouclier) encaisse les coups.
-- **Roquettes :** Ballista (+55 %) est le gros frappeur, Bodkin (+29 %) la plus douce avec un prix plus faible, et Asterism (+24 %, avec 7 % d’esquive) le paie d’un rechargement plus lent.
+- **Chasser les aliens :** Auger (+21 % de laser) pour les costauds, Culler (+12 % de dégâts aux aliens et +12 % d’XP) et Shrike (+10 % de dégâts laser aux aliens, +8 % d’XP) pour l’XP. Mettez une formation à bonus de destruction *avant* d’attaquer : son bonus ne compte qu’après 10 secondes.
+- **Duels :** Gemini (+15 points de pénétration) perce un bouclier, Rampart (+17 % d’absorption) fait tenir le vôtre, et Sanctum (+15 % de coque et +10 % de bouclier) encaisse les coups.
+- **Roquettes :** Ballista (+55 %) est le gros frappeur, Bodkin (+29 %) la plus douce avec un prix plus faible, et Asterism (+24 %, avec 7 % d’esquive) le paie d’un rechargement plus lent. Stiletto (+35 points de pénétration de roquettes et +13 % de coque) fait traverser un bouclier à une roquette directe, surtout une N.I.K.E., mais brûle votre bouclier (3,5 % par seconde) en combat.
+- **Honneur :** Centurion (+25 % d’honneur sur chaque destruction et chaque mission dont vous réclamez la récompense en vol) le paie d’un peu de laser, de coque et de bouclier.
 - **Encaisser les coups d’un boss ou d’un essaim :** Cordon (+95 % de bouclier), Redoubt (+38 % de bouclier qui se répare) et Sanctum.
 - **Fuir :** Gyre (+10 % de vitesse).
 - **Changer en plein combat est tout l’intérêt.** Ouvrez avec Gemini pour percer l’autre bouclier, passez à Rampart ou Sanctum quand c’est vous qu’on frappe (un changement garde la part de votre coque : il ne vous soigne jamais), et prenez Gyre quand vous voulez partir. Trois ou quatre sur votre barre rapide suffisent pour tout cela.

@@ -348,11 +348,11 @@ La familia Piloto de la vista de investigación tiene tecnologías que no son un
 - **Lo que cuestan.** Además de la ciencia y el Dark Matter, una mejora pide **créditos y Thulium**. El Centro lo toma todo cuando empieza la investigación y lo devuelve todo si la cancelas antes de que termine.
 - **Se quedan.** Como el resto de tu investigación, estas tecnologías se conservan tras el reinicio, y sus mejoras con ellas.
 - **En serie.** Cada nivel necesita el anterior, y un nivel superior sustituye al inferior: la tabla muestra el total que da cada nivel, no lo que añade.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) añaden casco a todas las naves que tienes, en las dos configuraciones.
-- **Sealed Backdoor** sube el límite de carga de todos los cohetes, los compres, los fabriques o los intercambies donde sea.
-- **Excavator Mining** sube lo que sacas de cada caja de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium como de mineral.
-- **Field Theory** sube la parte de cada impacto que absorben tus escudos. Una nave sin escudo no recibe nada.
-- **Dormant Knowledge** paga puntos de reinicio, una vez por nivel, cuando su investigación termina en el Centro. Además del nivel anterior, pide una parte de las demás tecnologías investigadas (cuentan las del Piloto, no las cinco Dormant Knowledge), las hayas conseguido como las hayas conseguido; la tabla muestra cada parte y cuántas tecnologías son.
+- **Tentempiés eficientes** (Kebab, Pelmeni, Hamburguesa) añaden casco a todas las naves que tienes, en las dos configuraciones.
+- **Puerta trasera sellada** sube el límite de carga de todos los cohetes, los compres, los fabriques o los intercambies donde sea.
+- **Minería con excavadora** sube lo que sacas de cada caja de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium como de mineral.
+- **Teoría de campos** sube la parte de cada impacto que absorben tus escudos. Una nave sin escudo no recibe nada.
+- **Conocimiento latente** paga puntos de reinicio, una vez por nivel, cuando su investigación termina en el Centro. Además del nivel anterior, pide una parte de las demás tecnologías investigadas (cuentan las del Piloto, no las cinco de Conocimiento latente), las hayas conseguido como las hayas conseguido; la tabla muestra cada parte y cuántas tecnologías son.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

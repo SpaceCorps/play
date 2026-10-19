@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formazioni -->
 # Formazioni di droni {#drone-formations}
 
@@ -65,9 +65,9 @@ Ogni formazione dà ai tuoi droni **una forma tutta sua**. Indossane una e i dro
 | **Bodkin** | Una freccia con la tua nave per punta: una punta davanti al muso, alette lungo i fianchi e un’asta dietro | Niente |
 | **Ballista** | Una V davanti alla nave, con le braccia rivolte all’indietro lungo i lati | Niente |
 | **Centurion** | Un blocco: guardie in un rettangolo intorno alla nave | Niente |
-| **Shrike** | Un tridente davanti al muso, con la nave per manico: una fila di tre e tre punte, quella di mezzo la più lunga | Niente |
+| **Shrike** | Le chele di un granchio: per lato un braccio di tre droni che si protende in avanti attorno al muso, un drone tra le chele davanti al muso e uno dietro la nave | Niente |
 | **Culler** | Ali: un ventaglio di droni per lato, lunghi e corti, e una testa davanti al muso quando il numero di droni è dispari | Le punte delle ali salgono e scendono una volta ogni 2,4 secondi |
-| **Gemini** | Lance gemelle: una colonna di droni lungo ogni fianco, con le punte davanti al muso | Niente |
+| **Gemini** | Ali di falena: tre droni per lato, davanti e accanto alla nave su due file, e una coppia dietro la nave per la coda | Niente |
 | **Stiletto** | Una spada con la nave per elsa: una lama di fino a sei droni davanti al muso e una coppia al muso come guardia | Niente |
 | **Gyre** | Una ruota: un cerchio e un mozzo uniti da raggi | Gira una volta ogni 6 secondi |
 | **Auger** | Una trivella: un cono intorno alla nave, con la punta davanti al muso e l’estremità larga dietro di te, i droni puntati dove guardi | I droni girano a spirale attorno all’asse di volo della nave, una volta ogni 3 secondi |
@@ -94,10 +94,10 @@ Le tabelle elencano che cosa dà ciascuna e che cosa ti costa, come la scheda de
 | **Asterism** | Evasione +7%, Danno dei razzi +24% | Ricarica dei razzi +35% |
 | **Bodkin** | Danno dei razzi +29% | Danno laser −6% |
 | **Ballista** | Danno dei razzi +55% | Punti scafo −13% |
-| **Gemini** | Penetrazione scudo +9% | Punti scudo −22% |
-| **Stiletto** | Punti scafo +13%, Penetrazione scudo +16% | Perdita di scudo al secondo in combattimento −3,5% |
-| **Centurion** | Onore dalle distruzioni +32% | Punti scudo −7%, Punti scafo −5%, Danno laser −5% |
-| **Shrike** | Danno laser agli alieni +7,5%, XP dagli alieni distrutti +6% | Assorbimento dello scudo −6% |
+| **Gemini** | Penetrazione scudo +15% | Punti scudo −22% |
+| **Stiletto** | Punti scafo +13%, Penetrazione dei razzi +35% | Perdita di scudo al secondo in combattimento −3,5% |
+| **Centurion** | Onore +25% | Punti scudo −7%, Punti scafo −5%, Danno laser −5% |
+| **Shrike** | Danno laser agli alieni +10%, XP dagli alieni distrutti +8% | Assorbimento dello scudo −10% |
 | **Culler** | Danno agli alieni +12%, XP dagli alieni distrutti +12% | Velocità −10% |
 | **Gyre** | Velocità +10% | Danno laser −11%, Perdita di scudo al secondo in combattimento −0,5% |
 | **Auger** | Danno laser +21% | Velocità −9% |
@@ -138,11 +138,11 @@ Oltre al Thulium, l’Assemblaggio prende questi materiali dal tuo inventario. D
 ## Le regole nel dettaglio {#the-rules-in-detail}
 
 - **Il tuo scafo mantiene la sua quota.** Una formazione che cambia il tuo scafo massimo cambia il tuo scafo della stessa quota: a scafo pieno sei pieno del nuovo massimo, all’80% sei all’80%, in entrambe le direzioni, e tornando indietro ritrovi lo stesso numero. Un cambio non ti cura mai e non ti danneggia mai, e non è un danno. Il tuo scudo è diverso: una formazione che abbassa il tuo scudo massimo vi riporta il valore attuale, e una che lo alza non aggiunge nulla, quindi uno scudo che hai caricato con Cordon viene tagliato quando la lasci.
-- **I bonus di distruzione aspettano 10 secondi.** L’XP e l’onore che Shrike, Culler e Centurion aggiungono a una distruzione contano solo dopo che la formazione è stata indossata per 10 secondi. Contano le distruzioni di alieni (anche le navi degli sciami), non le missioni né i piloti. Tutto il resto di una formazione agisce subito.
+- **I bonus di distruzione e di missione aspettano 10 secondi.** L’XP che Shrike e Culler aggiungono a una distruzione, e l’onore che Centurion aggiunge a una distruzione o a una missione di cui riscuoti la ricompensa in volo, contano solo dopo che la formazione è stata indossata per 10 secondi. L’XP conta le distruzioni di alieni (anche le navi degli sciami), non le missioni né i piloti. L’onore conta ogni onore che guadagni in volo, dagli alieni (anche la tua parte della distruzione di un compagno di gruppo) e dalle missioni di cui riscuoti la ricompensa in volo, ma mai una perdita né ciò che ritiri alla stazione. Tutto il resto di una formazione agisce subito.
 - **Una perdita corre solo finché indossi la formazione.** Stiletto e Gyre bruciano ogni secondo una parte del tuo scudo *attuale*, ma solo in combattimento (un colpo subito, uno sparo laser o un razzo negli ultimi 10 secondi) e mai dentro una zona sicura. Cambia formazione e la perdita si ferma subito. Non è danno, quindi non fa ricominciare i 15 secondi prima che il tuo scudo si ricarichi.
 - **La rigenerazione funziona in combattimento.** Adamant e Redoubt restituiscono ogni secondo una parte del tuo scudo massimo, in aggiunta alla ricarica propria della nave e fino al limite della tabella. Si ferma quando lo scudo è pieno e non conta come danno subito.
 - **L’evasione è una probabilità di schivare un colpo diretto.** Il 7% di Asterism significa che ogni colpo diretto contro di te (una salva laser, un razzo diretto, uno sparo di un alieno) ha il 7% di probabilità di non fare alcun danno, e sopra la tua nave compare un “Mancato” fluttuante. Gli altri colpi arrivano interi: su molti colpi subisci circa il 7% di danno in meno, ma un singolo razzo è tutto o niente. Un’esplosione ad area non prende la mira e non viene mai schivata.
-- **La penetrazione si somma a quella delle munizioni.** Gemini e Stiletto sommano i loro punti alla penetrazione delle tue munizioni e di un razzo diretto. Niente limita la somma (si sommano anche gli amp laser), e un’esplosione non ne ha.
+- **La penetrazione si somma a quella delle munizioni.** Gemini somma i suoi punti alla penetrazione delle tue munizioni e di un razzo diretto. Niente limita la somma (si sommano anche gli amp laser), e un’esplosione non ne ha. Lo Stiletto ha invece la **penetrazione dei razzi**: i suoi punti si sommano alla penetrazione propria di un razzo diretto e a nient’altro, quindi un laser non ne riceve alcuno e un’esplosione non ne ha.
 - **Razzi, tutti e 14.** Il bonus ai razzi di una formazione moltiplica il danno di ogni razzo, N.U.K.E. e N.I.K.E. compresi, che colpisca una nave o un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one): la corazza di un asteroide si toglie dopo il bonus. Anche il costo sul danno totale di Testudo conta sui razzi, e il danno agli alieni di Culler conta sui razzi che colpiscono un alieno. Tutti i fattori su un razzo insieme si fermano a ×1,59. La migliore formazione per razzi, Ballista (+55%), fa colpire una N.I.K.E. fino a 116.250 e una N.U.K.E. fino a 77.500: un Paragon intatto (128.000) sopravvive ancora alla prima, e un Goombah (80.000) alla seconda.
 - **La ricarica di un razzo è fissata quando lo lanci.** I 3 secondi diventano 4,05 con Asterism, 3,33 con Cordon e 2,19 con Redoubt, ma mai meno del volo del razzo più un attimo (un razzo dal volo lungo, come un Lancet III, lo aspetta anche con Redoubt): 4,1 secondi dopo una N.U.K.E. e 4,6 dopo una N.I.K.E. Cambiare formazione dopo non accorcia l’attesa che hai già.
 - **Le abilità non seguono la formazione.** Shield Surge ed Emergency Repair calcolano il loro totale dal tuo massimo senza la formazione, quindi un cambio non può renderle più forti. L’Afterburner moltiplica la tua velocità così com’è adesso, e un Repair Drone ripara una parte del tuo scafo massimo così com’è adesso.
@@ -150,9 +150,10 @@ Oltre al Thulium, l’Assemblaggio prende questi materiali dal tuo inventario. D
 
 ## Quale e quando {#which-one-when}
 
-- **Cacciare alieni:** Auger (+21% di laser) per quelli duri, Culler (+12% di danno agli alieni e +12% di XP) e Shrike (+7,5% di danno laser agli alieni, +6% di XP) per l’XP. Indossa una formazione con bonus di distruzione *prima* di attaccare: il suo bonus conta solo dopo 10 secondi.
-- **Duelli:** Gemini (+9 punti di penetrazione) taglia uno scudo, Rampart (+17% di assorbimento) fa reggere il tuo, Stiletto (+16 punti di penetrazione e +13% di scafo) morde più forte ma brucia il tuo scudo (3,5% al secondo) in combattimento, e Sanctum (+15% di scafo e +10% di scudo) incassa i colpi.
-- **Razzi:** Ballista (+55%) è il peso massimo, Bodkin (+29%) la più mite con un costo minore, e Asterism (+24%, con il 7% di evasione) la paga con una ricarica più lenta.
+- **Cacciare alieni:** Auger (+21% di laser) per quelli duri, Culler (+12% di danno agli alieni e +12% di XP) e Shrike (+10% di danno laser agli alieni, +8% di XP) per l’XP. Indossa una formazione con bonus di distruzione *prima* di attaccare: il suo bonus conta solo dopo 10 secondi.
+- **Duelli:** Gemini (+15 punti di penetrazione) taglia uno scudo, Rampart (+17% di assorbimento) fa reggere il tuo, e Sanctum (+15% di scafo e +10% di scudo) incassa i colpi.
+- **Razzi:** Ballista (+55%) è il peso massimo, Bodkin (+29%) la più mite con un costo minore, e Asterism (+24%, con il 7% di evasione) la paga con una ricarica più lenta. Stiletto (+35 punti di penetrazione dei razzi e +13% di scafo) fa passare un razzo diretto attraverso uno scudo, soprattutto una N.I.K.E., ma brucia il tuo scudo (3,5% al secondo) in combattimento.
+- **Onore:** Centurion (+25% di onore a ogni distruzione e a ogni missione di cui riscuoti la ricompensa in volo) lo paga con un po’ di laser, di scafo e di scudo.
 - **Incassare i colpi di un boss o di uno sciame:** Cordon (+95% di scudo), Redoubt (+38% di scudo che si ripara) e Sanctum.
 - **Scappare:** Gyre (+10% di velocità).
 - **Cambiare in combattimento è il punto.** Apri con Gemini per bucare l’altro scudo, passa a Rampart o Sanctum quando sei tu a prendere i colpi (un cambio mantiene la quota del tuo scafo, quindi non ti cura mai) e prendi Gyre quando vuoi uscire. Tre o quattro sulla tua barra rapida bastano per tutto questo.

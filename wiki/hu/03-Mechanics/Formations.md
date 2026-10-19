@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formációk -->
 # Drónformációk {#drone-formations}
 
@@ -65,9 +65,9 @@ Minden formáció **saját alakzatot** ad a drónjaidnak. Viselj egyet, és a dr
 | **Bodkin** | Egy nyíl, amelynek te vagy a hegye: egy csúcs az orr előtt, szúrók az oldalak mentén és egy szár hátul | Semmi |
 | **Ballista** | Egy V a hajó előtt, a szárai hátrafelé futnak az oldalak mentén | Semmi |
 | **Centurion** | Egy tömb: őrök egy téglalapban a hajó körül | Semmi |
-| **Shrike** | Egy háromágú szigony az orr előtt, a hajó a nyele: három fős sor és három hegy, a középső a leghosszabb | Semmi |
+| **Shrike** | Egy rák ollói: mindkét oldalon három drónból álló kar nyúlik előre az orr körül, egy drón az ollók között az orr előtt, és egy a hajó mögött | Semmi |
 | **Culler** | Szárnyak: egy drónlegyező mindkét oldalon, hosszúak és rövidek, és egy fej az orr előtt, ha a drónok száma páratlan | A szárnyvégek 2,4 másodpercenként egyszer emelkednek és süllyednek |
-| **Gemini** | Ikerlándzsák: egy drónoszlop mindkét oldal mentén, a hegyek az orr előtt | Semmi |
+| **Gemini** | Egy éjjeli lepke szárnyai: oldalanként három drón, a hajó előtt és mellett két sorban, és egy pár a hajó mögött a farok helyén | Semmi |
 | **Stiletto** | Egy kard, a hajó a markolata: legfeljebb hat drónból álló penge az orr előtt és egy pár az orrnál keresztvasként | Semmi |
 | **Gyre** | Egy kerék: egy abroncs és egy agy, küllők kötik össze | 6 másodperc alatt fordul egyet |
 | **Auger** | Egy fúró: egy kúp a hajó körül, a hegye az orr előtt, a széles vége mögötted, a drónok arra mutatnak, amerre nézel | A drónok a hajó haladási tengelye körül csavarodnak, 3 másodperc alatt egyet |
@@ -94,10 +94,10 @@ A táblázatok megmutatják, mit ad az egyes formáció, és mibe kerül neked, 
 | **Asterism** | Kitérés +7%, Rakétasebzés +24% | Rakéta-újratöltés +35% |
 | **Bodkin** | Rakétasebzés +29% | Lézersebzés −6% |
 | **Ballista** | Rakétasebzés +55% | Hajótestpontok −13% |
-| **Gemini** | Pajzsáthatolás +9% | Pajzspontok −22% |
-| **Stiletto** | Hajótestpontok +13%, Pajzsáthatolás +16% | Pajzsvesztés másodpercenként harcban −3,5% |
-| **Centurion** | Becsület a megsemmisítésekért +32% | Pajzspontok −7%, Hajótestpontok −5%, Lézersebzés −5% |
-| **Shrike** | Lézersebzés idegenekre +7,5%, XP a megsemmisített idegenekért +6% | Pajzs-elnyelés −6% |
+| **Gemini** | Pajzsáthatolás +15% | Pajzspontok −22% |
+| **Stiletto** | Hajótestpontok +13%, Rakéta-pajzsáthatolás +35% | Pajzsvesztés másodpercenként harcban −3,5% |
+| **Centurion** | Becsület +25% | Pajzspontok −7%, Hajótestpontok −5%, Lézersebzés −5% |
+| **Shrike** | Lézersebzés idegenekre +10%, XP a megsemmisített idegenekért +8% | Pajzs-elnyelés −10% |
 | **Culler** | Sebzés idegenekre +12%, XP a megsemmisített idegenekért +12% | Sebesség −10% |
 | **Gyre** | Sebesség +10% | Lézersebzés −11%, Pajzsvesztés másodpercenként harcban −0,5% |
 | **Auger** | Lézersebzés +21% | Sebesség −9% |
@@ -138,11 +138,11 @@ A Thuliumon kívül a Gyártás ezeket veszi el a készletedből. A formáció k
 ## A szabályok részletesen {#the-rules-in-detail}
 
 - **A törzsed megtartja az arányát.** Az a formáció, amely a maximális törzsedet változtatja, a törzsedet ugyanabban az arányban változtatja: teli törzsnél az új maximum teli van, 80%-nál 80%-on vagy, mindkét irányban, és visszaváltva ugyanaz a szám jön vissza. A váltás sosem gyógyít és sosem sebez, és nem sebzés. A pajzsod más: az a formáció, amely a maximális pajzsodat csökkenti, levágja az aktuális értéket, amely pedig növeli, nem ad hozzá semmit, ezért a Cordon alatt feltöltött pajzs levágódik, ha kilépsz belőle.
-- **A megsemmisítési bónuszok 10 másodpercet várnak.** Az XP és a becsület, amelyet a Shrike, a Culler és a Centurion egy megsemmisítéshez ad, csak akkor számít, ha a formációt 10 másodperce viseled. Az idegenek megsemmisítései számítanak (a rajhajóké is), a küldetések és a pilóták nem. A formáció minden más része azonnal hat.
+- **A megsemmisítési és küldetési bónuszok 10 másodpercet várnak.** Az XP, amelyet a Shrike és a Culler egy megsemmisítéshez ad, és a becsület, amelyet a Centurion egy megsemmisítéshez vagy egy repülés közben átvett küldetéshez ad, csak akkor számít, ha a formációt 10 másodperce viseled. Az XP az idegenek megsemmisítéseit számolja (a rajhajókét is), a küldetéseket és a pilótákat nem. A becsület minden repülés közben megszerzett becsületet számol, idegenektől (a csoporttárs megsemmisítéséből kapott részedet is) és a repülés közben átvett küldetésekből, de soha nem a veszteséget, és nem azt, amit az állomáson veszel át. A formáció minden más része azonnal hat.
 - **A veszteség csak addig fut, amíg a formációt viseled.** A Stiletto és a Gyre másodpercenként elégeti a *jelenlegi* pajzsod egy részét, de csak harcban (egy elszenvedett találat, egy lézerlövés vagy egy rakéta az utolsó 10 másodpercben), és soha nem biztonságos zónán belül. Válts formációt, és a veszteség azonnal megáll. Nem sebzés, ezért nem indítja újra a 15 másodpercet a pajzs újratöltődése előtt.
 - **A regeneráció harcban is működik.** Az Adamant és a Redoubt másodpercenként visszaad a maximális pajzsodból egy részt, a hajó saját töltődésén felül, a táblázatban megadott korlátig. Megáll, ha a pajzs tele van, és nem számít elszenvedett sebzésnek.
 - **A kitérés esély arra, hogy kikerülj egy közvetlen találatot.** Az Asterism 7%-a azt jelenti, hogy a rád érkező minden közvetlen találat (egy lézersorozat, egy közvetlen rakéta, egy idegen lövése) 7% eséllyel egyáltalán nem sebez, és a hajód fölött egy lebegő „Mellé” felirat jelenik meg. A többi találat teljes erővel ér célba, ezért sok találat alatt nagyjából 7%-kal kevesebb sebzést szenvedsz el, egyetlen rakéta viszont vagy teljes, vagy semmi. A területi robbanás nem céloz, és soha nem kerülhető ki.
-- **Az átütés a lőszeré mellé adódik.** A Gemini és a Stiletto a pontjaikat a lőszered és egy közvetlen rakéta átütéséhez adják. Semmi sem korlátozza az összeget (a lézererősítők is hozzáadódnak), a robbanásnak pedig nincs átütése.
+- **Az átütés a lőszeré mellé adódik.** A Gemini a pontjait a lőszered és egy közvetlen rakéta átütéséhez adja. Semmi sem korlátozza az összeget (a lézererősítők is hozzáadódnak), a robbanásnak pedig nincs átütése. A Stiletto helyette **rakétaátütéssel** rendelkezik: a pontjai egy közvetlen rakéta saját átütéséhez adódnak, máshoz nem, így egy lézer semmit sem kap belőlük, a robbanásnak pedig nincs átütése.
 - **Rakéták, mind a 14.** A formáció rakétabónusza minden rakéta sebzését szorozza, a N.U.K.E.-ét és a N.I.K.E.-ét is, akár hajót, akár [aszteroidát](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) talál el: az aszteroida páncélja a bónusz után vonódik le. A Testudo minden sebzésre vonatkozó ára a rakétákra is hat, a Culler idegenekre vonatkozó sebzése pedig azokra a rakétákra, amelyek idegent találnak. Az egy rakétán lévő összes tényező együtt ×1,59-nél megáll. A legjobb rakétaformáció, a Ballista (+55%) egy N.I.K.E.-t legfeljebb 116 250-es, egy N.U.K.E.-t legfeljebb 77 500-as találattal csap le: egy ép Paragon (128 000) még túléli az egyiket, egy Goombah (80 000) pedig a másikat.
 - **A rakéta újratöltése a kilövéskor dől el.** A 3 másodpercből 4,05 lesz az Asterism, 3,33 a Cordon és 2,19 a Redoubt alatt, de soha nem kevesebb, mint a rakéta repülése plusz egy pillanat (a hosszú repülésű rakéta, például a Lancet III, a Redoubt alatt is kivárja): 4,1 másodperc egy N.U.K.E. után és 4,6 egy N.I.K.E. után. Ha utána formációt váltasz, az nem rövidíti a már meglévő várakozást.
 - **A képességek nem követik a formációt.** A Shield Surge és az Emergency Repair az összegét a maximumodból számolja a formáció nélkül, így egy váltás nem teheti erősebbé őket. Az Afterburner a sebességedet szorozza, ahogy az éppen van, a Repair Drone pedig a maximális hajótestednek egy részét javítja, ahogy az éppen van.
@@ -150,9 +150,10 @@ A Thuliumon kívül a Gyártás ezeket veszi el a készletedből. A formáció k
 
 ## Melyik mikor {#which-one-when}
 
-- **Idegenekre vadászni:** az Auger (+21% lézer) a kemények ellen, a Culler (+12% sebzés idegenekre és +12% XP) és a Shrike (+7,5% lézersebzés idegenekre, +6% XP) az XP-ért. A megsemmisítési bónuszos formációt a támadás *előtt* vedd fel: a bónusza csak 10 másodperc után számít.
-- **Párbajok:** a Gemini (+9 pont átütés) átvág egy pajzson, a Rampart (+17% elnyelés) megtartja a tiédet, a Stiletto (+16 pont átütés és +13% hajótest) üt a legkeményebben, de harcban égeti a pajzsodat (másodpercenként 3,5%), a Sanctum (+15% hajótest és +10% pajzs) pedig kiáll a találatokért.
-- **Rakéták:** a Ballista (+55%) a nehéz ütő, a Bodkin (+29%) a szelíd, kisebb árral, az Asterism (+24%, 7% kitéréssel) pedig lassabb újratöltéssel fizet érte.
+- **Idegenekre vadászni:** az Auger (+21% lézer) a kemények ellen, a Culler (+12% sebzés idegenekre és +12% XP) és a Shrike (+10% lézersebzés idegenekre, +8% XP) az XP-ért. A megsemmisítési bónuszos formációt a támadás *előtt* vedd fel: a bónusza csak 10 másodperc után számít.
+- **Párbajok:** a Gemini (+15 pont átütés) átvág egy pajzson, a Rampart (+17% elnyelés) megtartja a tiédet, a Sanctum (+15% hajótest és +10% pajzs) pedig kiáll a találatokért.
+- **Rakéták:** a Ballista (+55%) a nehéz ütő, a Bodkin (+29%) a szelíd, kisebb árral, az Asterism (+24%, 7% kitéréssel) pedig lassabb újratöltéssel fizet érte. A Stiletto (+35 pont rakétaátütés és +13% hajótest) egy közvetlen rakétát átjuttat a pajzson, főleg egy N.I.K.E.-t, de harcban égeti a pajzsodat (másodpercenként 3,5%).
+- **Becsület:** a Centurion (+25% becsület minden megsemmisítésnél és minden küldetésnél, amelynek jutalmát repülés közben veszed át) egy kis lézerrel, hajótesttel és pajzzsal fizet érte.
 - **Találatok bevállalása egy bossztól vagy egy rajtól:** a Cordon (+95% pajzs), a Redoubt (+38% önjavító pajzs) és a Sanctum.
 - **Menekülés:** a Gyre (+10% sebesség).
 - **A harc közbeni váltás a lényeg.** Nyiss Geminivel, hogy átüss a másik pajzson, válts Rampartra vagy Sanctumra, ha téged vernek (a váltás megtartja a törzsed arányát, ezért sosem gyógyít), és vedd fel a Gyre-t, ha ki akarsz szállni. Három-négy a gyorssávodon mindehhez elég.

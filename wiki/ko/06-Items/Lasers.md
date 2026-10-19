@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -166,40 +166,38 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 
 ## 레이저 공격의 실드 관통 {#shield-penetration-of-a-laser-hit}
 
-레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +9%, Stiletto +16%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +15%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 36%, 레이저 12개 중 하나에 Penetration Amp IV 하나면 1%입니다. Wraith는 레이저가 12개, 증폭기 슬롯이 36개이며, 36%를 내려면 36개를 모두 채워야 합니다.
 - **격납고에 표시됩니다.** 격납고의 전투 능력치에는 모든 기체에 표시 중인 구성의 증폭기 수치를 보여 주는 **관통** 타일이 있습니다(Penetration Amp가 없으면 0.0%). 탄약과 편대는 그 수치에 들어 있지 않습니다. 비행 중 **함선** 창에는 아래 줄 끝에 **관통** 칩이 있습니다(자리를 만들기 위해 구성과 속도 칩은 아이콘과 숫자만 보여 줍니다). 레이저 명중의 합계, 곧 증폭기, 착용한 편대, 쏘고 있는 탄약을 바꿀 때마다 더한 값을 보여 주며, 툴팁에 세 가지 내역이 나열됩니다.
-- **최강의 레이저는 62%가 됩니다.** Experimental Fusion Core(10%), Stiletto(16%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 62%입니다.
-- **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 12이 아니라 13.1~13.8포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 67.4%가 되며, 그 모든 포인트가 계산에 들어갑니다.
+- **최강의 레이저는 61%가 됩니다.** Experimental Fusion Core(10%), Gemini(15%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 61%입니다.
+- **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 12이 아니라 13.1~13.8포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 66.4%가 되며, 그 모든 포인트가 계산에 들어갑니다.
 
 | 레이저 일제 사격 | 탄약 | 증폭기(슬롯 3개) | 편대 | 합계 |
 |---|---|---|---|---|
 | Experimental Fusion Core 단독 | 10% | – | – | **10%** |
-| Fusion Core + Gemini | 10% | – | 9% | **19%** |
-| Fusion Core + Stiletto(Penetration Amp 이전의 최강) | 10% | – | 16% | **26%** |
+| Fusion Core + Gemini(Penetration Amp 이전의 최강) | 10% | – | 15% | **25%** |
 | Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
 | Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
 | Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
 | Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
-| Ultra Core + Penetration Amp IV 3개 + Stiletto(평소 쓰는 최강) | 5% | 36% | 16% | **57%** |
-| Fusion Core + Penetration Amp IV 3개 + Stiletto(최강의 레이저) | 10% | 36% | 16% | **62%** |
+| Ultra Core + Penetration Amp IV 3개 + Gemini(평소 쓰는 최강) | 5% | 36% | 15% | **56%** |
+| Fusion Core + Penetration Amp IV 3개 + Gemini(최강의 레이저) | 10% | 36% | 15% | **61%** |
 
 그것이 대상의 실드에 하는 일입니다. 각 칸은 공격 중 **실드가 받는 몫 / 선체가 받는 몫**입니다.
 
-| 방어 측(흡수율) | 증폭기 없음 | Fusion Core 단독(10%) | 이전: Fusion Core + Stiletto(26%) | Fusion Core + 3 Penetration Amp IV(46%) | 최강의 레이저(62%) |
+| 방어 측(흡수율) | 증폭기 없음 | Fusion Core 단독(10%) | Fusion Core + Gemini(25%) | Fusion Core + 3 Penetration Amp IV(46%) | 최강의 레이저(61%) |
 |---|---|---|---|---|---|
-| Light Shield Core, 셀 없음(45%) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, 셀 없음(50%) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 44레벨(96.4%) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| 모든 외계인(80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, 셀 없음(45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, 셀 없음(50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 44레벨(96.4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| 모든 외계인(80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 3%를 지키고, 가장 좋은 실드는 18%를 지킵니다(버프가 있으면 34%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(51%) 비울 수 있습니다.
+최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 4%를 지키고, 가장 좋은 실드는 19%를 지킵니다(버프가 있으면 35%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(70%) 비울 수 있습니다.
 
 ### Penetration Amp는 언제 슬롯을 쓸 만한가? {#when-is-a-penetration-amp-worth-a-slot}
 

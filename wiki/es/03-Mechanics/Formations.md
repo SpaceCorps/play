@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formaciones -->
 # Formaciones de drones {#drone-formations}
 
@@ -65,9 +65,9 @@ Cada formación da a tus drones **una forma propia**. Si llevas una, los drones 
 | **Bodkin** | Una flecha con tu nave de cabeza: una punta delante del morro, lengüetas a lo largo de los flancos y un astil detrás | Nada |
 | **Ballista** | Una V delante de la nave, con los brazos echados hacia atrás por los lados | Nada |
 | **Centurion** | Un bloque: guardias en un rectángulo alrededor de la nave | Nada |
-| **Shrike** | Un tridente delante del morro, con la nave de mango: una fila de tres y tres púas, la del medio la más larga | Nada |
+| **Shrike** | Las pinzas de un cangrejo: a cada lado un brazo de tres drones que se extiende hacia delante alrededor del morro, un dron entre las pinzas delante del morro y otro detrás de la nave | Nada |
 | **Culler** | Alas: un abanico de drones a cada lado, largos y cortos, y una cabeza delante del morro cuando el número de drones es impar | Las puntas de las alas suben y bajan una vez cada 2,4 segundos |
-| **Gemini** | Lanzas gemelas: una columna de drones a lo largo de cada flanco, con las puntas delante del morro | Nada |
+| **Gemini** | Alas de polilla: tres drones por lado, delante y a los lados de la nave en dos filas, y un par detrás de la nave como cola | Nada |
 | **Stiletto** | Una espada con la nave de empuñadura: una hoja de hasta seis drones delante del morro y un par en el morro de guarda | Nada |
 | **Gyre** | Una rueda: un aro y un cubo unidos por radios | Gira una vez cada 6 segundos |
 | **Auger** | Un taladro: un cono alrededor de la nave, con la punta delante del morro y el extremo ancho detrás de ti, y los drones apuntan hacia donde miras | Los drones giran en espiral alrededor del eje de avance de la nave, una vez cada 3 segundos |
@@ -94,10 +94,10 @@ Las tablas indican lo que da cada una y lo que te cuesta, como la ficha del obje
 | **Asterism** | Evasión +7 %, Daño de cohetes +24 % | Recarga de cohetes +35 % |
 | **Bodkin** | Daño de cohetes +29 % | Daño láser −6 % |
 | **Ballista** | Daño de cohetes +55 % | Puntos de casco −13 % |
-| **Gemini** | Penetración de escudo +9 % | Puntos de escudo −22 % |
-| **Stiletto** | Puntos de casco +13 %, Penetración de escudo +16 % | Pérdida de escudo por segundo en combate −3,5 % |
-| **Centurion** | Honor por destrucciones +32 % | Puntos de escudo −7 %, Puntos de casco −5 %, Daño láser −5 % |
-| **Shrike** | Daño láser a alienígenas +7,5 %, XP por alienígenas destruidos +6 % | Absorción del escudo −6 % |
+| **Gemini** | Penetración de escudo +15 % | Puntos de escudo −22 % |
+| **Stiletto** | Puntos de casco +13 %, Penetración de cohetes +35 % | Pérdida de escudo por segundo en combate −3,5 % |
+| **Centurion** | Honor +25 % | Puntos de escudo −7 %, Puntos de casco −5 %, Daño láser −5 % |
+| **Shrike** | Daño láser a alienígenas +10 %, XP por alienígenas destruidos +8 % | Absorción del escudo −10 % |
 | **Culler** | Daño a alienígenas +12 %, XP por alienígenas destruidos +12 % | Velocidad −10 % |
 | **Gyre** | Velocidad +10 % | Daño láser −11 %, Pérdida de escudo por segundo en combate −0,5 % |
 | **Auger** | Daño láser +21 % | Velocidad −9 % |
@@ -138,11 +138,11 @@ Además del Thulium, Ensamblaje toma estos materiales de tu inventario. Dependen
 ## Las reglas al detalle {#the-rules-in-detail}
 
 - **Tu casco mantiene su proporción.** Una formación que cambia tu casco máximo cambia tu casco en la misma proporción: con el casco lleno estás lleno del nuevo máximo, al 80 % estás al 80 %, en ambos sentidos, y al volver atrás recuperas el mismo número. Un cambio nunca te cura ni te daña, y no cuenta como daño. Tu escudo es distinto: una formación que baja tu escudo máximo recorta el valor actual hasta él, y una que lo sube no añade nada, así que un escudo que cargaste con Cordon se recorta al dejarla.
-- **Las bonificaciones de destrucción esperan 10 segundos.** El XP y el honor que Shrike, Culler y Centurion añaden a una destrucción solo cuentan cuando la formación lleva 10 segundos puesta. Cuentan las destrucciones de alienígenas (también las naves de enjambre), no las misiones ni los pilotos. Todo lo demás de una formación funciona al instante.
+- **Las bonificaciones de destrucción y de misión esperan 10 segundos.** El XP que Shrike y Culler añaden a una destrucción, y el honor que Centurion añade a una destrucción o a una misión que reclamas en vuelo, solo cuentan cuando la formación lleva 10 segundos puesta. El XP cuenta las destrucciones de alienígenas (también las naves de enjambre), no las misiones ni los pilotos. El honor cuenta todo el honor que ganas en vuelo, de alienígenas (también tu parte de la destrucción de un compañero de grupo) y de misiones que reclamas en vuelo, pero nunca una pérdida ni nada que recojas en la estación. Todo lo demás de una formación funciona al instante.
 - **Una pérdida solo corre mientras llevas la formación.** Stiletto y Gyre queman cada segundo una parte de tu escudo *actual*, pero solo en combate (un impacto recibido, un disparo láser o un cohete en los últimos 10 segundos) y nunca dentro de una zona segura. Cambia de formación y la pérdida se detiene al instante. No es daño, así que no reinicia los 15 segundos que tarda en recargarse tu escudo.
 - **La regeneración funciona en combate.** Adamant y Redoubt devuelven cada segundo una parte de tu escudo máximo, además de la recarga propia de la nave y hasta el límite de la tabla. Se detiene cuando el escudo está lleno y no cuenta como daño recibido.
 - **La evasión es una probabilidad de esquivar un impacto directo.** El 7 % de Asterism significa que cada impacto directo contra ti (una salva láser, un cohete directo, un disparo de un alienígena) tiene un 7 % de probabilidad de no causar ningún daño, y sobre tu nave aparece un «Fallo» flotante. Los demás impactos llegan enteros, así que a lo largo de muchos impactos recibes cerca de un 7 % menos de daño, pero un solo cohete es todo o nada. Una explosión de área no apunta y nunca se esquiva.
-- **La penetración se suma a la de la munición.** Gemini y Stiletto suman sus puntos a la penetración de tu munición y de un cohete directo. Nada limita la suma (los amplificadores láser también se suman), y una explosión no tiene ninguna.
+- **La penetración se suma a la de la munición.** Gemini suma sus puntos a la penetración de tu munición y de un cohete directo. Nada limita la suma (los amplificadores láser también se suman), y una explosión no tiene ninguna. El Stiletto tiene en cambio **penetración de cohetes**: sus puntos se suman a la penetración propia de un cohete directo y a nada más, así que un láser no recibe ninguno y una explosión tampoco tiene.
 - **Cohetes, los 14.** La bonificación de cohetes de una formación multiplica el daño de todos los cohetes, incluidos el N.U.K.E. y el N.I.K.E., ya golpee a una nave o a un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one): el blindaje de un asteroide se resta después de la bonificación. El coste de todo el daño de Testudo también cuenta en los cohetes, y el daño a alienígenas de Culler cuenta en los cohetes que alcanzan a un alienígena. Todos los factores de un cohete juntos se detienen en ×1,59. La mejor formación de cohetes, Ballista (+55 %), hace que un N.I.K.E. golpee hasta con 116.250 y un N.U.K.E. hasta con 77.500: un Paragon intacto (128.000) aún sobrevive a uno, y un Goombah (80.000) al otro.
 - **La recarga de un cohete queda fijada al dispararlo.** Los 3 segundos pasan a 4,05 con Asterism, 3,33 con Cordon y 2,19 con Redoubt, pero nunca menos que el vuelo del cohete más un instante (un cohete de vuelo largo, como un Lancet III, lo espera incluso con Redoubt): 4,1 segundos tras un N.U.K.E. y 4,6 tras un N.I.K.E. Cambiar de formación después no acorta la espera que ya tienes.
 - **Las habilidades no siguen a la formación.** Shield Surge y Emergency Repair calculan su total con tu máximo sin la formación, así que un cambio no puede hacerlas más fuertes. El Afterburner multiplica tu velocidad tal como es ahora, y un Repair Drone repara una parte de tu casco máximo tal como es ahora.
@@ -150,9 +150,10 @@ Además del Thulium, Ensamblaje toma estos materiales de tu inventario. Dependen
 
 ## Cuál y cuándo {#which-one-when}
 
-- **Cazar alienígenas:** Auger (+21 % de láser) para los duros, Culler (+12 % de daño a alienígenas y +12 % de XP) y Shrike (+7,5 % de daño láser a alienígenas, +6 % de XP) para el XP. Pon una formación de bonificación de destrucción *antes* de atacar: su bonificación solo cuenta tras 10 segundos.
-- **Duelos:** Gemini (+9 puntos de penetración) atraviesa un escudo, Rampart (+17 % de absorción) hace que el tuyo aguante, Stiletto (+16 puntos de penetración y +13 % de casco) muerde más fuerte pero quema tu escudo (3,5 % por segundo) en combate, y Sanctum (+15 % de casco y +10 % de escudo) aguanta los golpes.
-- **Cohetes:** Ballista (+55 %) es el pegador pesado, Bodkin (+29 %) la suave con un coste menor, y Asterism (+24 %, con un 7 % de evasión) lo paga con una recarga más lenta.
+- **Cazar alienígenas:** Auger (+21 % de láser) para los duros, Culler (+12 % de daño a alienígenas y +12 % de XP) y Shrike (+10 % de daño láser a alienígenas, +8 % de XP) para el XP. Pon una formación de bonificación de destrucción *antes* de atacar: su bonificación solo cuenta tras 10 segundos.
+- **Duelos:** Gemini (+15 puntos de penetración) atraviesa un escudo, Rampart (+17 % de absorción) hace que el tuyo aguante, y Sanctum (+15 % de casco y +10 % de escudo) aguanta los golpes.
+- **Cohetes:** Ballista (+55 %) es el pegador pesado, Bodkin (+29 %) la suave con un coste menor, y Asterism (+24 %, con un 7 % de evasión) lo paga con una recarga más lenta. Stiletto (+35 puntos de penetración de cohetes y +13 % de casco) hace que un cohete directo atraviese un escudo, sobre todo un N.I.K.E., pero quema tu escudo (3,5 % por segundo) en combate.
+- **Honor:** Centurion (+25 % de honor en cada destrucción y en cada misión que reclamas en vuelo) lo paga con algo de láser, casco y escudo.
 - **Aguantar golpes de un jefe o de un enjambre:** Cordon (+95 % de escudo), Redoubt (+38 % de escudo que se repara) y Sanctum.
 - **Huir:** Gyre (+10 % de velocidad).
 - **Cambiar en el combate es la gracia.** Abre con Gemini para quitar el otro escudo, pasa a Rampart o Sanctum cuando te toque recibir (un cambio mantiene la proporción de tu casco, así que nunca te cura) y toma Gyre cuando quieras salir. Tres o cuatro en tu barra rápida bastan para todo eso.

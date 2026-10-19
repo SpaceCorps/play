@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -119,7 +119,7 @@ A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **�
 - A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+3% és +12% között foglalatonként) és egy drónformáció hozzáadódnak, és semmi sem korlátozza az összeget.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.
-- **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 6%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+9 pont) és a Stiletto (+16) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, felső határ nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)). Lézer esetén az erősítői is beleszámítanak.
+- **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 10%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+15 pont) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, a Stiletto (+35 pont rakétaátütés) csak a közvetlen rakétákhoz, felső határ nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)). Lézer esetén az erősítői is beleszámítanak.
 
 ### 2. Sebezhetetlenség a biztonságos zónában {#2-safe-zone-immunity}
 

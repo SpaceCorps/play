@@ -348,11 +348,11 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 - **Ce qu’elles coûtent.** En plus de la science et de la Dark Matter, un bonus demande des **crédits et du Thulium**. Le Centre prend tout au début de la recherche et rend tout si vous l’annulez avant la fin.
 - **Elles restent.** Comme le reste de vos recherches, ces technologies sont conservées après la réinitialisation, et leurs bonus avec elles.
 - **En série.** Chaque niveau demande le précédent, et un niveau supérieur remplace l’inférieur : le tableau montre le total que donne chaque niveau, pas ce qu’il ajoute.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) ajoutent des points de coque à chacun de vos vaisseaux, dans les deux configurations.
-- **Sealed Backdoor** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
-- **Excavator Mining** augmente ce que vous prenez dans chaque caisse d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium comme minerai.
-- **Field Theory** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
-- **Dormant Knowledge** verse des points de réinitialisation, une fois par niveau, quand sa recherche se termine dans le Centre. En plus du niveau précédent, elle demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq Dormant Knowledge non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
+- **Collations efficaces** (Kebab, Pelmeni, Burger) ajoutent des points de coque à chacun de vos vaisseaux, dans les deux configurations.
+- **Porte dérobée scellée** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
+- **Extraction par excavatrice** augmente ce que vous prenez dans chaque caisse d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium comme minerai.
+- **Théorie des champs** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
+- **Savoir dormant** verse des points de réinitialisation, une fois par niveau, quand sa recherche se termine dans le Centre. En plus du niveau précédent, il demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq niveaux de Savoir dormant non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

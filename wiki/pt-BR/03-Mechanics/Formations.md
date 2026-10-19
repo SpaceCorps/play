@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2774e74ca4dec786 -->
+<!-- wiki-i18n source: 4367dc01ba40a089 -->
 <!-- wiki-i18n title: Formações -->
 # Formações de drones {#drone-formations}
 
@@ -65,9 +65,9 @@ Toda formação dá aos seus drones **uma forma própria**. Use uma e os drones 
 | **Bodkin** | Uma flecha com a sua nave de cabeça: uma ponta à frente do nariz, farpas ao longo dos flancos e uma haste atrás | Nada |
 | **Ballista** | Um V à frente da nave, com os braços varridos para trás ao longo dos lados | Nada |
 | **Centurion** | Um bloco: guardas em um retângulo ao redor da nave | Nada |
-| **Shrike** | Um tridente à frente do nariz, com a nave de cabo: uma fileira de três e três pontas, a do meio a mais longa | Nada |
+| **Shrike** | As garras de um caranguejo: de cada lado um braço de três drones que se estende para a frente ao redor do nariz, um drone entre as garras à frente do nariz e outro atrás da nave | Nada |
 | **Culler** | Asas: um leque de drones de cada lado, longos e curtos, e uma cabeça à frente do nariz quando o número de drones é ímpar | As pontas das asas sobem e descem uma vez a cada 2,4 segundos |
-| **Gemini** | Lanças gêmeas: uma coluna de drones ao longo de cada flanco, com as pontas à frente do nariz | Nada |
+| **Gemini** | Asas de mariposa: três drones de cada lado, à frente e ao lado da nave em duas fileiras, e um par atrás da nave como cauda | Nada |
 | **Stiletto** | Uma espada com a nave de punho: uma lâmina de até seis drones à frente do nariz e um par no nariz como guarda | Nada |
 | **Gyre** | Uma roda: um aro e um cubo ligados por raios | Gira uma vez a cada 6 segundos |
 | **Auger** | Uma broca: um cone ao redor da nave, com a ponta à frente do nariz e a ponta larga atrás de você, os drones apontando para onde você olha | Os drones giram em espiral ao redor do eixo de voo da nave, uma vez a cada 3 segundos |
@@ -94,10 +94,10 @@ As tabelas listam o que cada uma dá e o que custa a você, como a ficha do item
 | **Asterism** | Evasão +7%, Dano de foguetes +24% | Recarga de foguetes +35% |
 | **Bodkin** | Dano de foguetes +29% | Dano de laser −6% |
 | **Ballista** | Dano de foguetes +55% | Pontos de casco −13% |
-| **Gemini** | Penetração de escudo +9% | Pontos de escudo −22% |
-| **Stiletto** | Pontos de casco +13%, Penetração de escudo +16% | Perda de escudo por segundo em combate −3,5% |
-| **Centurion** | Honra por destruições +32% | Pontos de escudo −7%, Pontos de casco −5%, Dano de laser −5% |
-| **Shrike** | Dano de laser a alienígenas +7,5%, XP por alienígenas destruídos +6% | Absorção do escudo −6% |
+| **Gemini** | Penetração de escudo +15% | Pontos de escudo −22% |
+| **Stiletto** | Pontos de casco +13%, Penetração de foguetes +35% | Perda de escudo por segundo em combate −3,5% |
+| **Centurion** | Honra +25% | Pontos de escudo −7%, Pontos de casco −5%, Dano de laser −5% |
+| **Shrike** | Dano de laser a alienígenas +10%, XP por alienígenas destruídos +8% | Absorção do escudo −10% |
 | **Culler** | Dano a alienígenas +12%, XP por alienígenas destruídos +12% | Velocidade −10% |
 | **Gyre** | Velocidade +10% | Dano de laser −11%, Perda de escudo por segundo em combate −0,5% |
 | **Auger** | Dano de laser +21% | Velocidade −9% |
@@ -138,11 +138,11 @@ Além do Thulium, a Montagem retira estes materiais do seu inventário. Eles dep
 ## As regras em detalhe {#the-rules-in-detail}
 
 - **Seu casco mantém a proporção.** Uma formação que muda o seu casco máximo muda o seu casco na mesma proporção: com o casco cheio você fica cheio do novo máximo, com 80% fica com 80%, nos dois sentidos, e ao voltar você recupera o mesmo número. Uma troca nunca cura nem fere você, e não conta como dano. O escudo é diferente: uma formação que baixa o seu escudo máximo corta o valor atual até ele, e uma que o aumenta não acrescenta nada, então um escudo que você carregou com a Cordon é cortado quando você a deixa.
-- **Os bônus de destruição esperam 10 segundos.** O XP e a honra que Shrike, Culler e Centurion somam a uma destruição só contam depois que a formação foi usada por 10 segundos. Contam as destruições de alienígenas (naves de enxame também), não missões nem pilotos. Todo o resto de uma formação age na hora.
+- **Os bônus de destruição e de missão esperam 10 segundos.** O XP que Shrike e Culler somam a uma destruição, e a honra que Centurion soma a uma destruição ou a uma missão cuja recompensa você resgata em voo, só contam depois que a formação foi usada por 10 segundos. O XP conta as destruições de alienígenas (naves de enxame também), não missões nem pilotos. A honra conta toda a honra que você ganha em voo, de alienígenas (também a sua parte da destruição de um colega de grupo) e de missões cuja recompensa você resgata em voo, mas nunca uma perda nem nada que você retire na estação. Todo o resto de uma formação age na hora.
 - **Uma perda só corre enquanto a formação está em uso.** Stiletto e Gyre queimam a cada segundo uma parte do seu escudo *atual*, mas só em combate (um tiro recebido, um disparo de laser ou um foguete nos últimos 10 segundos) e nunca dentro de uma zona segura. Troque de formação e a perda para na hora. Ela não é dano, então não reinicia os 15 segundos antes de o seu escudo recarregar.
 - **A regeneração funciona em combate.** Adamant e Redoubt devolvem a cada segundo uma parte do seu escudo máximo, além da recarga própria da nave e até o limite da tabela. Ela para quando o escudo está cheio e não conta como dano sofrido.
 - **A evasão é a chance de se esquivar de um acerto direto.** Os 7% de Asterism significam que cada acerto direto em você (uma salva de laser, um foguete direto, um tiro de alienígena) tem 7% de chance de não causar dano nenhum, e um “Errou” flutuante aparece sobre a sua nave. Os outros acertos chegam inteiros: ao longo de muitos acertos você leva cerca de 7% menos de dano, mas um único foguete é tudo ou nada. Uma explosão em área não mira e nunca é esquivada.
-- **A penetração se soma à da munição.** Gemini e Stiletto somam seus pontos à penetração da sua munição e de um foguete direto. Nada limita a soma (os amplificadores de laser também se somam), e uma explosão não tem nenhuma.
+- **A penetração se soma à da munição.** Gemini soma seus pontos à penetração da sua munição e de um foguete direto. Nada limita a soma (os amplificadores de laser também se somam), e uma explosão não tem nenhuma. O Stiletto tem, em vez disso, **penetração de foguetes**: seus pontos se somam à penetração própria de um foguete direto e a mais nada, então um laser não recebe nenhum e uma explosão não tem.
 - **Foguetes, todos os 14.** O bônus de foguetes de uma formação multiplica o dano de todo foguete, N.U.K.E. e N.I.K.E. incluídos, acerte uma nave ou um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one): a blindagem de um asteroide é descontada depois do bônus. O custo de todo o dano de Testudo também conta nos foguetes, e o dano a alienígenas de Culler conta nos foguetes que acertam um alienígena. Todos os fatores de um foguete juntos param em ×1,59. A melhor formação de foguetes, Ballista (+55%), faz um N.I.K.E. acertar com até 116.250 e um N.U.K.E. com até 77.500: um Paragon intacto (128.000) ainda sobrevive a um, e um Goombah (80.000) ao outro.
 - **A recarga de um foguete é fixada ao disparar.** Os 3 segundos viram 4,05 com Asterism, 3,33 com Cordon e 2,19 com Redoubt, mas nunca menos que o voo do foguete mais um instante (um foguete de voo longo, como um Lancet III, espera por ele até com Redoubt): 4,1 segundos depois de um N.U.K.E. e 4,6 depois de um N.I.K.E. Trocar de formação depois não encurta a espera que você já tem.
 - **As habilidades não seguem a formação.** Shield Surge e Emergency Repair calculam o total a partir do seu máximo sem a formação, então uma troca não as torna mais fortes. O Afterburner multiplica a sua velocidade como ela está agora, e um Repair Drone repara uma parte do seu casco máximo como ele está agora.
@@ -150,9 +150,10 @@ Além do Thulium, a Montagem retira estes materiais do seu inventário. Eles dep
 
 ## Qual e quando {#which-one-when}
 
-- **Caçar alienígenas:** Auger (+21% de laser) para os duros, Culler (+12% de dano a alienígenas e +12% de XP) e Shrike (+7,5% de dano de laser a alienígenas, +6% de XP) para o XP. Use uma formação de bônus de destruição *antes* de atacar: o bônus dela só conta depois de 10 segundos.
-- **Duelos:** Gemini (+9 pontos de penetração) corta um escudo, Rampart (+17% de absorção) faz o seu aguentar, Stiletto (+16 pontos de penetração e +13% de casco) morde mais fundo mas queima o seu escudo (3,5% por segundo) em combate, e Sanctum (+15% de casco e +10% de escudo) aguenta os golpes.
-- **Foguetes:** Ballista (+55%) é a de peso pesado, Bodkin (+29%) a mais amena, com um custo menor, e Asterism (+24%, com 7% de evasão) paga por isso com uma recarga mais lenta.
+- **Caçar alienígenas:** Auger (+21% de laser) para os duros, Culler (+12% de dano a alienígenas e +12% de XP) e Shrike (+10% de dano de laser a alienígenas, +8% de XP) para o XP. Use uma formação de bônus de destruição *antes* de atacar: o bônus dela só conta depois de 10 segundos.
+- **Duelos:** Gemini (+15 pontos de penetração) corta um escudo, Rampart (+17% de absorção) faz o seu aguentar, e Sanctum (+15% de casco e +10% de escudo) aguenta os golpes.
+- **Foguetes:** Ballista (+55%) é a de peso pesado, Bodkin (+29%) a mais amena, com um custo menor, e Asterism (+24%, com 7% de evasão) paga por isso com uma recarga mais lenta. Stiletto (+35 pontos de penetração de foguetes e +13% de casco) faz um foguete direto atravessar um escudo, sobretudo um N.I.K.E., mas queima o seu escudo (3,5% por segundo) em combate.
+- **Honra:** Centurion (+25% de honra em cada destruição e em cada missão cuja recompensa você resgata em voo) paga por isso com um pouco de laser, casco e escudo.
 - **Aguentar golpes de um chefe ou de um enxame:** Cordon (+95% de escudo), Redoubt (+38% de escudo que se repara) e Sanctum.
 - **Fugir:** Gyre (+10% de velocidade).
 - **Trocar no combate é o ponto.** Abra com Gemini para tirar o outro escudo, passe para Rampart ou Sanctum quando for você quem está apanhando (uma troca mantém a proporção do seu casco, então nunca cura) e use Gyre quando quiser sair. Três ou quatro na sua barra de atalhos bastam para tudo isso.

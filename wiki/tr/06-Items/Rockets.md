@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2857dfc2bfbf8055 -->
+<!-- wiki-i18n source: a2623c1674b9ca26 -->
 <!-- wiki-i18n title: Roketler -->
 # Roketler {#rockets}
 
@@ -145,7 +145,7 @@ Kuşandığın bir [dron formasyonu](/wiki/03-Mechanics/Formations.md), bir roke
 - **Yeniden doldurma.** Asterism ortak sayacı %35 uzatır (4,05 saniye), Cordon %11 uzatır (3,33), Redoubt %27 kısaltır (2,19); ama asla roketin uçuş süresine kısa bir an eklenmiş değerin altına inmez. Redoubt altında hızlı roketler (Lancet I, Rivet I ve II, Ember I, Scatter I ve II) 2,19 saniye bekler, bir Rivet III 2,3, bir Lancet III 2,9 ve bir Ember III tam 3 saniye; N.U.K.E. ve N.I.K.E., ne kuşanırsan kuşan 4,1 ve 4,6 saniye bekler. Bekleme ateşlediğin anda belirlenir, bu yüzden sonradan formasyon değiştirmek onu kısaltmaz ve roket yuvalarının üzerindeki sayaç onu izler.
 - **Büyük ikilinin sınırları korunur.** En iyi formasyonla bir N.I.K.E. en çok 116.250 vurur; bunu tam gövdeli bir Paragon gemisi (128.000) atlatır. Bir N.U.K.E. ise en çok 77.500 vurur; bunu da bir Goombah uzaylısı (80.000) atlatır.
 - **Kaçınma.** Asterism formasyonunun %7 kaçınması, sana isabet eden doğrudan bir roketin hiç hasar vermeme şansını %7 yapar ve geminin üzerinde yüzen bir “Iska” görünür; alan hasarlı bir patlamanın nişanı yoktur ve asla savuşturulmaz.
-- **Kalkan delme.** Gemini ve Stiletto, puanlarını doğrudan bir roketin kalkan delmesine ekler (patlamanın delmesi yoktur), sınır olmadan: Stiletto ile bir Lancet III %51’dir. Bir lazer vuruşu bunları cephanesininkine ve amfilerininkine aynı şekilde ekler ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Kalkan delme.** Gemini 15 puanını, Stiletto da 35 puanlık roket delmesini doğrudan bir roketin kalkan delmesine ekler (patlamanın delmesi yoktur), sınır olmadan: Stiletto ile bir Lancet III %70, Gemini ile %50’dir. Bir lazer vuruşu Gemini’ninkini cephanesininkine ve amfilerininkine aynı şekilde ekler, Stiletto’nunkinden ise hiçbir şey almaz ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ## Kurallar {#rules}
 

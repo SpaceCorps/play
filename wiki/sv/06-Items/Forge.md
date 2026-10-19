@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29b00418617a9af1 -->
+<!-- wiki-i18n source: 4e1b3247d9827e75 -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -49,7 +49,7 @@ En **skölds absorptionsbonus** (och en sköldcells absorptionsökning) multipli
 
 Motorer, styrraketer, adaptiva kärnor och Repair Drones påverkas mycket lite av en procentbonus (en Engine II ger 4 i fart, så +12 % är en halv punkt): smid dem om du vill ha nivån, inte för värdena.
 
-**Bonusen på en Penetration Amp** multiplicerar dess genomträngning: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter per plats i stället för 12. Inget begränsar genomträngningen i en träff, så varje punkt räknas: i den bästa lasern (en Fusion Core, en Stiletto och tre Penetration Amp IV i varje laser) blir 10 + 16 + 36 lika med 62 %, och tre Eviga bonusar lyfter det till så mycket som 67,4 % ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Bonusen på en Penetration Amp** multiplicerar dess genomträngning: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter per plats i stället för 12. Inget begränsar genomträngningen i en träff, så varje punkt räknas: i den bästa lasern (en Fusion Core, en Gemini och tre Penetration Amp IV i varje laser) blir 10 + 15 + 36 lika med 61 %, och tre Eviga bonusar lyfter det till så mycket som 66,4 % ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Varifrån materialen kommer {#where-the-materials-drop}
 

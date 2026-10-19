@@ -47,7 +47,7 @@ A **shield's Absorbance buff** (and a shield cell's Absorbance Boost) multiplies
 
 Engines, thrusters, Adaptive Cores and Repair Drones move very little with a percentage buff (an Engine II adds 4 speed, so +12% is half a point): forge them if you want the tier, not for the stats.
 
-**A Penetration Amp's buff** multiplies its penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points a slot instead of 12. Nothing caps the penetration of a hit, so every point counts: in the best laser (a Fusion Core, a Stiletto and three Penetration Amp IV in every laser) 10 + 16 + 36 make 62%, and three Eternal buffs raise it to as much as 67.4% ([Lasers](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**A Penetration Amp's buff** multiplies its penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points a slot instead of 12. Nothing caps the penetration of a hit, so every point counts: in the best laser (a Fusion Core, a Gemini and three Penetration Amp IV in every laser) 10 + 15 + 36 make 61%, and three Eternal buffs raise it to as much as 66.4% ([Lasers](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Where the materials drop
 

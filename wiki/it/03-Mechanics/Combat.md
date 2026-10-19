@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -119,7 +119,7 @@ Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbim
 - La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +3% a +12% per slot) e una formazione di droni si sommano, e niente limita il totale.
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
-- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 6%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+9 punti) e Stiletto (+16) aggiungono penetrazione alle tue munizioni e ai razzi diretti, senza tetto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser contano anche i suoi amp.
+- **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 10%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+15 punti) aggiunge penetrazione alle tue munizioni e ai razzi diretti, e Stiletto (+35 punti di penetrazione dei razzi) solo ai razzi diretti, senza tetto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser contano anche i suoi amp.
 
 ### 2. Immunità della zona sicura {#2-safe-zone-immunity}
 

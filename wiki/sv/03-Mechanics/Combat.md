@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -119,7 +119,7 @@ Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **geno
 - **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+3 % till +12 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
-- **Drönarformationer.** Rampart höjer din absorption med 17 % (Shrike sänker den med 6 %), och Asterism ger varje direkt träff på dig 7 % chans att inte göra någon skada alls (ett flytande ”Miss” visas), och de träffar som landar delas av sköld och skrov som vanligt. Gemini (+9 poäng) och Stiletto (+16) lägger genomträngning till din egen ammunition och direkta raketer, utan tak ([Drönarformationer](/wiki/03-Mechanics/Formations.md)). För en laser räknas även dess förstärkare.
+- **Drönarformationer.** Rampart höjer din absorption med 17 % (Shrike sänker den med 10 %), och Asterism ger varje direkt träff på dig 7 % chans att inte göra någon skada alls (ett flytande ”Miss” visas), och de träffar som landar delas av sköld och skrov som vanligt. Gemini (+15 poäng) lägger genomträngning till din egen ammunition och direkta raketer, och Stiletto (+35 poäng raketgenomträngning) bara till direkta raketer, utan tak ([Drönarformationer](/wiki/03-Mechanics/Formations.md)). För en laser räknas även dess förstärkare.
 
 ### 2. Immunitet i säker zon {#2-safe-zone-immunity}
 

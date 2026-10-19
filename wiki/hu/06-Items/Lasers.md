@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -166,40 +166,38 @@ A Siphon Battery pajzslopásra való lőszer, a hajótestek összetörése helye
 
 ## Egy lézertalálat pajzsáthatolása {#shield-penetration-of-a-laser-hit}
 
-Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +9%, Stiletto +16%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +15%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden lézerben 36%; egy Penetration Amp IV tizenkét lézerből egyben 1%. Egy Wraithnek 12 lézere és 36 erősítőfoglalata van, és mind a 36-ot meg kell tölteni a 36%-hoz.
 - **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe a mutatott konfiguráció lézererősítőinek értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. A repülés közbeni **Hajó** ablak alsó sorának végén van egy **Áthatolás** chip (a konfiguráció és a sebesség chipje helyet csinálva csak egy ikont és egy számot mutat): egy lézertalálat összegét mutatja, az erősítőidet, a viselt formációt és a kilőtt lőszert, összeadva, amint bármit váltasz, a súgója pedig felsorolja a három részt.
-- **A legjobb lézer 62%-ot ad.** Egy Experimental Fusion Core (10%), egy Stiletto (16%) és három Penetration Amp IV minden lézerben (36%) együtt 62%.
-- **Egy kovácsműhelyes buff egy Penetration Amp IV-en számít.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 12-ról 13,1–13,8 pontra viszi. A legjobb felállásban három Örök együtt 67,4%, és minden pontja számít.
+- **A legjobb lézer 61%-ot ad.** Egy Experimental Fusion Core (10%), egy Gemini (15%) és három Penetration Amp IV minden lézerben (36%) együtt 61%.
+- **Egy kovácsműhelyes buff egy Penetration Amp IV-en számít.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 12-ról 13,1–13,8 pontra viszi. A legjobb felállásban három Örök együtt 66,4%, és minden pontja számít.
 
 | Lézersortűz | Lőszer | Erősítők (3 foglalat) | Formáció | Összesen |
 |---|---|---|---|---|
 | Experimental Fusion Core egyedül | 10% | – | – | **10%** |
-| Fusion Core + Gemini | 10% | – | 9% | **19%** |
-| Fusion Core + Stiletto (a legjobb a Penetration Amp-ek előtt) | 10% | – | 16% | **26%** |
+| Fusion Core + Gemini (a legjobb a Penetration Amp-ek előtt) | 10% | – | 15% | **25%** |
 | Fusion Core + 3 Penetration Amp I | 10% | 9% | – | **19%** |
 | Fusion Core + 3 Penetration Amp II | 10% | 18% | – | **28%** |
 | Fusion Core + 3 Penetration Amp III | 10% | 27% | – | **37%** |
 | Fusion Core + 3 Penetration Amp IV | 10% | 36% | – | **46%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10% | 36% | 9% | **55%** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (a legjobb mindennapokra) | 5% | 36% | 16% | **57%** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (a legjobb lézer) | 10% | 36% | 16% | **62%** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (a legjobb mindennapokra) | 5% | 36% | 15% | **56%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (a legjobb lézer) | 10% | 36% | 15% | **61%** |
 
 Mit tesz ez a célpont pajzsaival: minden cella a találatnak az a része, amelyet **a pajzsok fognak fel / a hajótest kap**.
 
-| Védekező (elnyelés) | Erősítők nélkül | Fusion Core egyedül (10%) | Korábban: Fusion Core + Stiletto (26%) | Fusion Core + 3 Penetration Amp IV (46%) | A legjobb lézer (62%) |
+| Védekező (elnyelés) | Erősítők nélkül | Fusion Core egyedül (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | A legjobb lézer (61%) |
 |---|---|---|---|---|---|
-| Light Shield Core, cella nélkül (45%) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, cella nélkül (50%) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| A gyárilag legjobb pajzs (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és 44 szezonbolti szint (96,4%) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és a Szezonbolt a határán (102%) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| Bármelyik idegen (80%) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, cella nélkül (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, cella nélkül (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| A gyárilag legjobb pajzs (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és 44 szezonbolti szint (96,4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és a Szezonbolt a határán (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Bármelyik idegen (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-A legjobb lézer kiüríti a cella nélküli pajzsmagot és egy Light Shield Core-t a legjobb cellájával (a hajótest kapja az egész találatot); egy Heavy Shield Core három Capacity cellával megtartja a találat 3%-át, a legjobb pajzs pedig 18%-át (34%-át a buffokkal). Egy rakéta önmagában sosem ürít ki pajzsot (legfeljebb 35%), de egy Lancet III vagy Rivet III Stiletto mellett (51%) igen.
+A legjobb lézer kiüríti a cella nélküli pajzsmagot és egy Light Shield Core-t a legjobb cellájával (a hajótest kapja az egész találatot); egy Heavy Shield Core három Capacity cellával megtartja a találat 4%-át, a legjobb pajzs pedig 19%-át (35%-át a buffokkal). Egy rakéta önmagában sosem ürít ki pajzsot (legfeljebb 35%), de egy Lancet III vagy Rivet III Stiletto mellett (70%) igen.
 
 ### Mikor ér meg egy Penetration Amp egy foglalatot? {#when-is-a-penetration-amp-worth-a-slot}
 

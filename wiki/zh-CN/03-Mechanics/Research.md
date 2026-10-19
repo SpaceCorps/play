@@ -348,11 +348,11 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 - **花费。** 除了科研点和 Dark Matter，加成还需要**信用点和 Thulium**。研究开始时研究中心会全部扣除，如果你在完成前取消，则会全部退还。
 - **会保留。** 和你的其他研究一样，这些科技在重置后依然保留，它们的加成也一样。
 - **按顺序。** 每一级都需要上一级，高等级会取代低等级：表中列出的是每一级给出的总数，而不是它增加的部分。
-- **Efficient Snacks**（Kabob、Pelmeni、Burger）为你拥有的每艘船增加船体，两套配置都有效。
-- **Sealed Backdoor** 提高每种火箭的携带上限，无论你在哪里购买、制造或交易。
-- **Excavator Mining** 提高你从[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)每个箱子里拿到的数量，Thulium 和矿石都一样。
-- **Field Theory** 提高你的护盾对每次命中所吸收的比例。没有护盾的船得不到任何加成。
-- **Dormant Knowledge** 在研究于研究中心完成时，每一级支付一次重置点数。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，五项 Dormant Knowledge 不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
+- **高效零食**（烤肉串、俄式饺子、汉堡）为你拥有的每艘船增加船体，两套配置都有效。
+- **密封后门** 提高每种火箭的携带上限，无论你在哪里购买、制造或交易。
+- **挖掘机采矿** 提高你从[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)每个箱子里拿到的数量，Thulium 和矿石都一样。
+- **场论** 提高你的护盾对每次命中所吸收的比例。没有护盾的船得不到任何加成。
+- **沉睡的知识** 在研究于研究中心完成时，每一级支付一次重置点数。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，“沉睡的知识”这五项不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

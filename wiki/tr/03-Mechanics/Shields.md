@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa02d302a23ff21a -->
+<!-- wiki-i18n source: bf21d6bfa3ac17e9 -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkan mekaniği {#shield-mechanics}
 
@@ -41,21 +41,21 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 \[\text{Kalkan Payı} = \text{sınırla}(\text{Soğurma} - \text{Delme},\ 0,\ \%100)\]
 
 - Kalkanlar vuruşun en fazla `round(damage x share)` kadarını alır; gövde geri kalanını alır. Payına göre çok düşük bir kalkan farkı gövde puanına geçirir ve kalkanlar 0’daysa tüm hasar doğrudan gövde puanına gider.
-- **Delme nereden gelir**: doğrudan bir roketin *kalkan delmesi* (Lancet I %10, Lancet II %25, Lancet III %35, Rivet I %5, Rivet II %25, Rivet III %35, N.I.K.E. %35; alan patlamalarında yoktur, bkz. [Roketler](/wiki/06-Items/Rockets.md)) ve lazer cephanesinin (Ultra Core %5, Experimental Fusion Core %10; bkz. [Lazerler ve Cephane](/wiki/06-Items/Lasers.md)). Uzaylıların yoktur, x1 ve x2 cephanenin de yoktur. Bir lazer vuruşu ayrıca atıcının lazerlerindeki Penetration Amp bonusunu (yuva başına +%3 ila +%12, lazerleri üzerinden ortalama) ve bir dron formasyonunun delmesini (Gemini +%9, Stiletto +%16) alır; doğrudan bir roket formasyonunkini kendisininkine ekler. **Toplamı hiçbir şey sınırlamaz**: kalkanlar, soğurmadan bunların hepsi düşülmüş hâlini alır; vuruşun hiçbirini almayacak noktaya kadar da düşebilir ([bir lazer vuruşunun nasıl toplandığı](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Örnekler**: %80 soğurma, bir Lancet III roketine (%35) karşı: kalkanlar vuruşun %45’ini, gövde %55’ini alır. %100 soğurma ona karşı: %65 ve %35. %112 soğurma, %12 delmeye karşı: vuruşun tamamı. %45 (tek başına bir Light Shield Core), %35’e karşı: kalkanda %10, geri kalanı gövdede. Bir roket tek başına hiçbir çekirdeği tamamen delmez, ama Stiletto formasyonlu bir Lancet III (%35 + %16 = %51), tek başına bir Light Shield Core (%45) için vuruştan kalkana hiç pay bırakmaz; en iyi lazer (%62) de öyle: o lazere karşı en iyi kalkan (%80) vuruşun %18’ini, gövde %82’sini alır.
+- **Delme nereden gelir**: doğrudan bir roketin *kalkan delmesi* (Lancet I %10, Lancet II %25, Lancet III %35, Rivet I %5, Rivet II %25, Rivet III %35, N.I.K.E. %35; alan patlamalarında yoktur, bkz. [Roketler](/wiki/06-Items/Rockets.md)) ve lazer cephanesinin (Ultra Core %5, Experimental Fusion Core %10; bkz. [Lazerler ve Cephane](/wiki/06-Items/Lasers.md)). Uzaylıların yoktur, x1 ve x2 cephanenin de yoktur. Bir lazer vuruşu ayrıca atıcının lazerlerindeki Penetration Amp bonusunu (yuva başına +%3 ila +%12, lazerleri üzerinden ortalama) ve bir dron formasyonunun delmesini (Gemini +%15; Stiletto yalnızca doğrudan bir roketin delmesine +%35 ekler) alır; doğrudan bir roket formasyonunkini kendisininkine ekler. **Toplamı hiçbir şey sınırlamaz**: kalkanlar, soğurmadan bunların hepsi düşülmüş hâlini alır; vuruşun hiçbirini almayacak noktaya kadar da düşebilir ([bir lazer vuruşunun nasıl toplandığı](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+- **Örnekler**: %80 soğurma, bir Lancet III roketine (%35) karşı: kalkanlar vuruşun %45’ini, gövde %55’ini alır. %100 soğurma ona karşı: %65 ve %35. %112 soğurma, %12 delmeye karşı: vuruşun tamamı. %45 (tek başına bir Light Shield Core), %35’e karşı: kalkanda %10, geri kalanı gövdede. Bir roket tek başına hiçbir çekirdeği tamamen delmez, ama Stiletto formasyonlu bir Lancet III (%35 + %35 = %70), tek başına bir Light Shield Core (%45) için vuruştan kalkana hiç pay bırakmaz; en iyi lazer (%61) de öyle: o lazere karşı en iyi kalkan (%80) vuruşun %19’unu, gövde %81’ini alır.
 - Uzaylıların soğurma özelliği yoktur: her vuruş, vuruşun delmesi düşüldükten sonra %80 kalkana / %20 gövdeye bölünür.
 - Siphon Battery cephanesinin hasarı yalnızca kalkandan düşer: soğurma ve delme buna karışmaz.
 
-**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%62) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %51) tek bir vuruşundan ne aldığını gösterir:
+**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%61) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %70) tek bir vuruşundan ne aldığını gösterir:
 
-| Kalkan | Soğurma | Kalkanların aldığı, en iyi lazer (%62) | Kalkanların aldığı, en iyi doğrudan roket (%51) |
+| Kalkan | Soğurma | Kalkanların aldığı, en iyi lazer (%61) | Kalkanların aldığı, en iyi doğrudan roket (%70) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | %45 | %0 | %0 |
 | Basic Shield Core | %48 | %0 | %0 |
 | Heavy Shield Core | %50 | %0 | %0 |
-| Bonussuz en iyi kalkan | %80 | %18 | %29 |
-| %100’lük bir kalkan | %100 | %38 | %49 |
-| %120’lik bir kalkan | %120 | %58 | %69 |
+| Bonussuz en iyi kalkan | %80 | %19 | %10 |
+| %100’lük bir kalkan | %100 | %39 | %30 |
+| %120’lik bir kalkan | %120 | %59 | %50 |
 
 #### %100’e ulaşmak ve aşmak {#reaching-and-passing-100-}
 

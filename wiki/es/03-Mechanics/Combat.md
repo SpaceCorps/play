@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -119,7 +119,7 @@ El daño entrante se reparte entre los escudos y los puntos de vida según la **
 - La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %). Los Penetration Amps de los láseres del atacante (de +3 % a +12 % por ranura) y una formación de drones se suman a ella, y nada limita el total.
 - Un escudo demasiado bajo para su parte pasa la diferencia a los HP; si los escudos están totalmente agotados, el **100 %** de todo el daño restante va a los HP.
 - Los alienígenas no tienen estadística de absorción: sus escudos reciben el 80 % de cada impacto (menos la penetración del impacto) y su casco, el resto.
-- **Formaciones de drones.** Rampart aumenta tu absorción un 17 % (Shrike la reduce un 6 %), y Asterism da a cada impacto directo contra ti un 7 % de probabilidad de no causar ningún daño (aparece un «Fallo» flotante), y los impactos que llegan se reparten entre escudo y casco como siempre. Gemini (+9 puntos) y Stiletto (+16) suman penetración a tu propia munición y a los cohetes directos, sin tope ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)). En un láser, sus amps también cuentan.
+- **Formaciones de drones.** Rampart aumenta tu absorción un 17 % (Shrike la reduce un 10 %), y Asterism da a cada impacto directo contra ti un 7 % de probabilidad de no causar ningún daño (aparece un «Fallo» flotante), y los impactos que llegan se reparten entre escudo y casco como siempre. Gemini (+15 puntos) suma penetración a tu propia munición y a los cohetes directos, y Stiletto (+35 puntos de penetración de cohetes) solo a los cohetes directos, sin tope ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)). En un láser, sus amps también cuentan.
 
 ### 2. Inmunidad en zona segura {#2-safe-zone-immunity}
 

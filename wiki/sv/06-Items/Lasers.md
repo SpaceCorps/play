@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0565aa73db7dfa1 -->
+<!-- wiki-i18n source: 4b16595f9b806710 -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -166,40 +166,38 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 
 ## Sköldgenomträngning för en laserträff {#shield-penetration-of-a-laser-hit}
 
-Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %), dina **Penetration Amps** och en **drönarformation** (Gemini +9 %, Stiletto +16 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 36 %; en Penetration Amp IV i en av tolv lasrar ger 1 %. En Wraith har 12 lasrar och 36 förstärkarplatser, och alla 36 måste fyllas för att nå 36 %.
 - **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
-- **Den bästa lasern ger 62 %.** En Experimental Fusion Core (10 %), en Stiletto (16 %) och tre Penetration Amp IV i varje laser (36 %) ger 62 %.
-- **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter i stället för 12. I den bästa uppsättningen blir tre eviga 67,4 %, och varje punkt räknas.
+- **Den bästa lasern ger 61 %.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (36 %) ger 61 %.
+- **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter i stället för 12. I den bästa uppsättningen blir tre eviga 66,4 %, och varje punkt räknas.
 
 | Lasersalva | Ammunition | Förstärkare (3 platser) | Formation | Summa |
 |---|---|---|---|---|
 | Experimental Fusion Core ensam | 10 % | – | – | **10 %** |
-| Fusion Core + Gemini | 10 % | – | 9 % | **19 %** |
-| Fusion Core + Stiletto (det bästa före Penetration Amps) | 10 % | – | 16 % | **26 %** |
+| Fusion Core + Gemini (det bästa före Penetration Amps) | 10 % | – | 15 % | **25 %** |
 | Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
 | Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
 | Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
 | Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini | 10 % | 36 % | 9 % | **55 %** |
-| Ultra Core + 3 Penetration Amp IV + Stiletto (det bästa till vardags) | 5 % | 36 % | 16 % | **57 %** |
-| Fusion Core + 3 Penetration Amp IV + Stiletto (den bästa lasern) | 10 % | 36 % | 16 % | **62 %** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (det bästa till vardags) | 5 % | 36 % | 15 % | **56 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (den bästa lasern) | 10 % | 36 % | 15 % | **61 %** |
 
 Vad det gör med målets sköldar: varje ruta är den andel av en träff som **sköldarna tar / skrovet tar**.
 
-| Försvarare (absorption) | Utan förstärkare | Fusion Core ensam (10 %) | Förut: Fusion Core + Stiletto (26 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Den bästa lasern (62 %) |
+| Försvarare (absorption) | Utan förstärkare | Fusion Core ensam (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Den bästa lasern (61 %) |
 |---|---|---|---|---|---|
-| Light Shield Core, ingen cell (45 %) | 45 / 55 | 35 / 65 | 19 / 81 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, ingen cell (50 %) | 50 / 50 | 40 / 60 | 24 / 76 | 4 / 96 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 29 / 71 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 39 / 61 | 19 / 81 | 3 / 97 |
-| Den bästa skölden rakt ur lådan (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (96,4 %) | 96 / 4 | 86 / 14 | 70 / 30 | 50 / 50 | 34 / 66 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (102 %) | 100 / 0 | 92 / 8 | 76 / 24 | 56 / 44 | 40 / 60 |
-| Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 54 / 46 | 34 / 66 | 18 / 82 |
+| Light Shield Core, ingen cell (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core, ingen cell (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
+| Den bästa skölden rakt ur lådan (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med sin bästa cell (skrovet tar hela träffen); en Heavy Shield Core med tre Capacity-celler behåller 3 % av varje träff, och den bästa skölden behåller 18 % av den (34 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (51 %) gör det.
+Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med sin bästa cell (skrovet tar hela träffen); en Heavy Shield Core med tre Capacity-celler behåller 4 % av varje träff, och den bästa skölden behåller 19 % av den (35 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (70 %) gör det.
 
 ### När är en Penetration Amp värd en plats? {#when-is-a-penetration-amp-worth-a-slot}
 

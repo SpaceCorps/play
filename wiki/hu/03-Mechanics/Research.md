@@ -348,11 +348,11 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 - **Mibe kerülnek.** A tudomány és a Dark Matter mellett egy bónusz **kreditet és Thuliumot** kér. A Központ mindent elvesz a kutatás indulásakor, és mindent visszaad, ha a vége előtt megszakítod.
 - **Megmaradnak.** A többi kutatásodhoz hasonlóan ezek a technológiák átvészelik a wipe-ot, és velük a bónuszaik is.
 - **Sorban.** Minden szint az előzőt igényli, és a magasabb szint felváltja az alacsonyabbat: a táblázat azt az összeget mutatja, amit az adott szint ad, nem azt, amit hozzátesz.
-- Az **Efficient Snacks** (Kabob, Pelmeni, Burger) hajótestet ad minden hajódnak, mindkét konfigurációban.
-- A **Sealed Backdoor** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
-- Az **Excavator Mining** megnöveli, amit egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden ládájából kapsz, Thuliumból és ércből egyaránt.
-- A **Field Theory** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
-- A **Dormant Knowledge** szintenként egyszer wipe-pontot fizet, amikor a kutatása befejeződik a Központban. Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, az öt Dormant Knowledge nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
+- A **Hatékony nassolnivalók** (Kebab, Pelmeni, Burger) hajótestet adnak minden hajódnak, mindkét konfigurációban.
+- A **Lezárt hátsó ajtó** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
+- A **Kotrógépes bányászat** megnöveli, amit egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden ládájából kapsz, Thuliumból és ércből egyaránt.
+- A **Térelmélet** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
+- A **Szunnyadó tudás** szintenként egyszer wipe-pontot fizet, amikor a kutatása befejeződik a Központban. Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, a Szunnyadó tudás öt szintje nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

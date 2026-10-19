@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9add83a262e64533 -->
+<!-- wiki-i18n source: cf23a423e4e2b435 -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -119,7 +119,7 @@ O dano recebido é dividido entre os escudos e os pontos de vida pela **Absorç�
 - A **penetração de escudo** vem dos foguetes de alvo único (10 a 35%) e da munição de laser x3 e x4 (5% e 10%); os alienígenas não têm nenhuma. Uma nave acima de 100% (112%, por exemplo) segura um impacto inteiro contra uma penetração de até a diferença (12% nesse caso). Os Penetration Amps dos lasers de quem atira (+3% a +12% por slot) e uma formação de drones se somam a ela, e nada limita o total.
 - Um escudo baixo demais para a sua parte passa a diferença para os HP; se os escudos estão totalmente esgotados, **100%** de todo o dano restante atinge os HP.
 - Os alienígenas não têm atributo de absorção: os escudos deles recebem 80% de cada impacto (menos a penetração do impacto), e o casco, o resto.
-- **Formações de drones.** Rampart aumenta a sua absorção em 17% (Shrike a reduz em 6%), e Asterism dá a cada acerto direto em você 7% de chance de não causar dano nenhum (um “Errou” flutuante aparece), e os acertos que chegam são divididos entre escudo e casco como de costume. Gemini (+9 pontos) e Stiletto (+16) somam penetração à sua própria munição e aos foguetes diretos, sem limite ([Formações de drones](/wiki/03-Mechanics/Formations.md)). Para um laser, os amps dele também contam.
+- **Formações de drones.** Rampart aumenta a sua absorção em 17% (Shrike a reduz em 10%), e Asterism dá a cada acerto direto em você 7% de chance de não causar dano nenhum (um “Errou” flutuante aparece), e os acertos que chegam são divididos entre escudo e casco como de costume. Gemini (+15 pontos) soma penetração à sua própria munição e aos foguetes diretos, e Stiletto (+35 pontos de penetração de foguetes) só aos foguetes diretos, sem limite ([Formações de drones](/wiki/03-Mechanics/Formations.md)). Para um laser, os amps dele também contam.
 
 ### 2. Imunidade na zona segura {#2-safe-zone-immunity}
 

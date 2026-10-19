@@ -117,7 +117,7 @@ Incoming damage is divided between shields and hitpoints by your ship's **Averag
 - **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there). The Penetration Amps of the shooter's lasers (+3% to +12% a slot) and a drone formation add to it, and nothing caps the total.
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.
-- **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 6%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+9 points) and Stiletto (+16) add penetration to your own ammo and direct rockets, with no cap ([Drone Formations](/wiki/03-Mechanics/Formations.md)). For a laser its amps count too.
+- **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 10%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+15 points) adds penetration to your own ammo and direct rockets, and Stiletto (+35 points of rocket penetration) to direct rockets alone, with no cap ([Drone Formations](/wiki/03-Mechanics/Formations.md)). For a laser its amps count too.
 
 ### 2. Safe Zone Immunity
 

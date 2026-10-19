@@ -348,11 +348,11 @@ La famiglia Pilota della vista Ricerca contiene tecnologie che non sono fabbrica
 - **Quanto costano.** Oltre alla scienza e al Dark Matter, un potenziamento chiede **crediti e Thulium**. Il Centro prende tutto all’inizio della ricerca e restituisce tutto se la annulli prima che finisca.
 - **Restano.** Come il resto delle tue ricerche, queste tecnologie restano dopo il reset, e con esse i loro potenziamenti.
 - **In serie.** Ogni livello richiede il precedente, e un livello più alto sostituisce quello più basso: la tabella mostra il totale che dà ogni livello, non quanto aggiunge.
-- **Efficient Snacks** (Kabob, Pelmeni, Burger) aggiungono scafo a ogni tua nave, in entrambe le configurazioni.
-- **Sealed Backdoor** alza il limite di trasporto di ogni razzo, ovunque tu lo compri, lo crei o lo scambi.
-- **Excavator Mining** alza ciò che prendi da ogni cassa di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium e minerale insieme.
-- **Field Theory** alza la parte di ogni colpo che i tuoi scudi assorbono. Una nave senza scudo non riceve nulla.
-- **Dormant Knowledge** paga punti reset, una volta per livello, quando la sua ricerca finisce nel Centro. Oltre al livello precedente, richiede una parte delle altre tecnologie ricercate (contano quelle della famiglia Pilota, non le cinque Dormant Knowledge), in qualunque modo tu le abbia ottenute; la tabella mostra ogni parte e quante tecnologie sono.
+- **Spuntini efficienti** (Kebab, Pelmeni, Burger) aggiungono scafo a ogni tua nave, in entrambe le configurazioni.
+- **Retroporta sigillata** alza il limite di trasporto di ogni razzo, ovunque tu lo compri, lo crei o lo scambi.
+- **Estrazione con escavatore** alza ciò che prendi da ogni cassa di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium e minerale insieme.
+- **Teoria dei campi** alza la parte di ogni colpo che i tuoi scudi assorbono. Una nave senza scudo non riceve nulla.
+- **Conoscenza dormiente** paga punti reset, una volta per livello, quando la sua ricerca finisce nel Centro. Oltre al livello precedente, richiede una parte delle altre tecnologie ricercate (contano quelle della famiglia Pilota, non le cinque di Conoscenza dormiente), in qualunque modo tu le abbia ottenute; la tabella mostra ogni parte e quante tecnologie sono.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
