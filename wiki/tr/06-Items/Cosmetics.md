@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Kozmetikler -->
 # Kozmetikler {#cosmetics}
 
@@ -24,7 +24,7 @@ Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **ski
 
 Skin, geminin kendi gövdesinden yapılmış bir boya düzenidir: panel çizgileri, numaralar ve şeritler kalır, yalnızca renkler değişir. Tek bir **gemi modeli** içindir; aynı skini o modelden sahip olduğun her gemi ve ondan yapılmış her [tasarım](/wiki/03-Mechanics/Ship-Designs.md) giyer; dönüştürme görünümü korur. Protos gemisinin henüz skini yok; Kitefin, Ostirion ve Nomad gemilerinin bir koleksiyonu var, Montaj’da ürettiğin dört geminin ise on koleksiyonun tamamı var.
 
-Skinler bir gemiye değil, **hesabına** aittir ve [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) boyunca kalır; tuttuğun gemi giydiğini giymeye devam eder.
+Skinler bir gemiye değil, **hesabına** aittir ve [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) boyunca kalır; gemilerin giydiklerini giymeye devam eder.
 
 | Koleksiyon | Gemiler | Nadirlik | Nasıl görünür |
 | :--- | :--- | :--- | :--- |

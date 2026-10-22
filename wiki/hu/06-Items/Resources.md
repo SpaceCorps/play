@@ -736,7 +736,7 @@ A tapasztalat és a becsület pontszám, nem pénz: semmit nem vásárolnak vel�
 
 - **Kezdetkor**: egy új pilóta számláján 10 000 kredit van.
 - **Idegenek**: minden kilövés fizet belőle (lásd a fenti táblázatot).
-- **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik, 24 óránként egy korlátig (azon az oldalon).
+- **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik.
 - **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 88 küldetés összesen 6 664 500 kreditet fizet az Alphában, szintenként 86 000 kredittől (1. szint) 2 720 000 kreditig (8. szint).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: amíg távol vagy, a farm (Kreditfarm) termeli egy 72 órányi termelésre elegendő tárolóba.
 
@@ -770,7 +770,7 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 
 - **Kezdetkor**: egy új pilóta számláján 100 Thulium van.
 - **Idegenek**: minden kilövés fizet belőle (lásd a fenti táblázatot).
-- **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik, 24 óránként egy korlátig (azon az oldalon).
+- **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik.
 - **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától egy teljes menet 9 643 egységet ad belőle Alphában (Betában és Gammában többet), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon.
 - **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 88 küldetés összesen 51 010 Thuliumot fizet az Alphában, szintenként 170 Thuliumtól (1. szint) 21 760 Thuliumig (8. szint).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: amíg távol vagy, a farm (Thuliumfarm) termeli egy 72 órányi termelésre elegendő tárolóba.

@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.24"
-date: "2026-10-19"
+version: "0.4.25"
+date: "2026-10-22"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 160324397
-    sha256: "7b5519ac3ca2bdd82429d953a25c72b7fe2227430db20352c042682f4ec48457"
+    size: 160752581
+    sha256: "39c48b0c29d26b51295e69a0507eee64618b175c45db38ae92778de4f729b33d"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 155018103
-    sha256: "0face2cd9b9e8665d0ffad3bf1abedf6f9cce5598cd327de3ccc62944eea198b"
+    size: 155326600
+    sha256: "563ea55ce4d7f95ab684509bd3686bf142e55e60ec0c7fc31ef77b7371b477b1"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 149637624
-    sha256: "221391f8f04283eb0d6ad3e1d866c18ef4359d1be8c1e368119b1dd458e4b8c4"
+    size: 149948920
+    sha256: "475496c76021d24eaa85cefce6b611b61180db76ead9272b8bff8d4ef8a3fadf"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 155827062
-    sha256: "8f44996ddc3624cfaa9a756b1ef369084c8b0317e2351deb639357a3c8dc2699"
+    size: 156154471
+    sha256: "39658ee7853cec62309c9cdaa80acdb271dd25aadd3bbb748ea1b07299dff433"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.24)
+## Downloads (Version 0.4.25)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (160.3 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `7b5519ac3ca2bdd82429d953a25c72b7fe2227430db20352c042682f4ec48457` |
-| **Windows** | x86_64 | `.zip` (155.0 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `0face2cd9b9e8665d0ffad3bf1abedf6f9cce5598cd327de3ccc62944eea198b` |
-| **Linux** | x86_64 | `.AppImage` (149.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `221391f8f04283eb0d6ad3e1d866c18ef4359d1be8c1e368119b1dd458e4b8c4` |
-| **Linux** | x86_64 | `.tar.gz` (155.8 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `8f44996ddc3624cfaa9a756b1ef369084c8b0317e2351deb639357a3c8dc2699` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (160.8 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `39c48b0c29d26b51295e69a0507eee64618b175c45db38ae92778de4f729b33d` |
+| **Windows** | x86_64 | `.zip` (155.3 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `563ea55ce4d7f95ab684509bd3686bf142e55e60ec0c7fc31ef77b7371b477b1` |
+| **Linux** | x86_64 | `.AppImage` (149.9 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `475496c76021d24eaa85cefce6b611b61180db76ead9272b8bff8d4ef8a3fadf` |
+| **Linux** | x86_64 | `.tar.gz` (156.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `39658ee7853cec62309c9cdaa80acdb271dd25aadd3bbb748ea1b07299dff433` |
 <!-- /release:downloads -->
 
 ---
@@ -72,119 +72,119 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.24 · 2026-10-19
+### 0.4.25 · 2026-10-22
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.24)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.25)
 
-SpaceCorps 2027 0.4.24 sets four drone formations to the numbers players asked for (Shrike, Centurion, Gemini and Stiletto), draws the Shrike as a crab and the Gemini as a moth, brings the Auger's drill closer to the ship, fires lasers from the guns of each ship's model with a quick burst for the killing volley and a pew for every bolt, and fixes four small edges of the flight HUD.
+SpaceCorps 2027 0.4.25 is the release the first Universe Wipe runs under: the wipe keeps every ship you own and takes your items, except the gear on your active ship, your drones, formations, P.E.T. Stations and your Transport Cache. It adds Auction buy orders and a News card, lets chat take Cyrillic and other scripts, doubles the Thulium Geode's Thulium, ends the daily mining limit, makes Davidski hit twice as hard and pay 1.5 times, and lets the Mole work every rock and the Cradle work in flight.
 
 #### What's new
 
 **Highlights**
-- **Four formations, the numbers players asked for.** **Shrike:** laser damage to aliens +10 % (was +7.5), XP from alien kills +8 % (was +6), shield absorption -10 % (was -6). **Centurion:** **Honor +25 % on every honor you earn in flight** (it was +32 % of the honor of alien kills). **Gemini:** shield penetration +15 points (was 9). **Stiletto:** no laser penetration any more, **Rocket penetration +35 points** instead (direct rockets only). No price, tier or research moved.
-- **The Shrike flies as a crab, the Gemini as a moth,** and **the Auger's drill sits closer to the ship:** its nearest drone passes the hull at 18 units on every ship, where it passed at 27 to 54.
-- **Lasers leave the guns of the ship's model.** The Storm fires from its cannons and the ends of its two crescent rings, not from the middle of its hull: nine hulls have a table of gun mounts.
-- **The volley that kills is one quick burst (about 0.18 seconds), and nothing is shot at a target that is already dead:** in 0.4.23 the later guns of the killing volley kept firing at the wreck.
-- **Every bolt has its own pew** the moment it leaves its gun, not one a second: quieter each, about as loud together as the old one, your own ship first when many ships fire.
-- **Four HUD edges:** the Active Quests title is whole, the chat tabs read whole at 1024 x 640, the ammo pop-up no longer covers the Danger Sector callout, and toasts keep off the headers of the Hangar, the Auction, the Clan and Mission Control.
-- **Smaller:** a rocket's card prints its penetration with your formation's; the wiki's Formations article is rewritten in 13 languages and the Research and Extras pages are corrected; the 0.4.23 notes' stream figures are corrected on the site; two QA scripts are repaired (for developers).
+- **The first Universe Wipe keeps all your ships.** It also keeps the gear fitted to your **active ship**, your **drones**, **drone formations**, **P.E.T. Stations** and your **Transport Cache**. **Every other item is removed,** the gear on your other ships and the engines and lasers fitted in your Skylab too. **Clans end.** **Credits, Thulium, XP, honor, level, ranks, Skylab, technologies, skins, P.E.T.s, Wipe Points and permanent buffs stay;** nothing is capped.
+- **Buy orders on the Auction:** say what you want and what you pay for a lot, for 7, 14 or 21 days; the price is held until a seller (level 5 or more, with a Standard item he earned) fills the order or you cancel. The seller pays the 5 % tax. Three new sounds.
+- **A News card on the Dashboard** shows the newest three posts of the SpaceCorps team; the game server fetches them every 15 minutes, the game never contacts GitHub.
+- **Mining and aliens:** the **Thulium Geode pays 36 to 84 Thulium** (it paid 18 to 42); **the daily mining limit is gone**; **Davidski** is out of every ranking, hits twice as hard and pays 1.5 times (Alpha: 1,590,000 Credits, 4,275 Thulium); the **x-2 maps hold 30 Seekers and 15 Phantasms** (they held 20 and 10).
+- **The Mole works every rock a rocket can hurt,** the Motherlode too; Moles of different pilots can share a rock, and the card shows its real damage. **The P.E.T. Cradle works in flight.** Dock and Undock still need a parked ship.
+- **Chat takes Cyrillic, Japanese, Korean and Chinese** text and the numero sign. Links stay refused, in Russian words too. The sidebar's Messages row is hidden.
+- **Interface:** **drones on the pilot sheet**, **Ctrl+F search in the Assembly**, the **Forge** names a piece's ship and has a Ship filter, **short numbers** (1.2M, 1.5B), a **volume button** on the start and sign-in screens, a **full Trophies Bay** told by a toast, a pill and a sound, and a clan timer that reads `--:--`, not 00:00, when the clock is unknown.
+- **Smaller:** the wiki is updated in 13 languages; the admin action **Set season day** moves the season day without freezing the clocks.
 
 **If you already play: what changes for you**
-- **Update the game.** A 0.4.16 to 0.4.23 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.21), else the whole package; a 0.4.15 or older game downloads the whole package.
-- **There is nothing you have to do.** You keep the formations you own and wear. No price, tier or research moved, and no Credits, Thulium or items are paid, moved or removed.
-- **A 0.4.23 game keeps working but shows the old numbers:** its cards still say Stiletto "Shield penetration +16 %" and Centurion "Honor from kills +32 %", and its Penetration chip still counts the Stiletto's 16 (the game has the formations file built in). **The server uses the new numbers at once,** so until you update the card is not what you get; the old shapes and laser origin are drawn too. A 0.4.24 game on a 0.4.23 server shows the new numbers, which that server does not apply.
-- **The Stiletto lost its laser penetration:** if you wear it to cut through shields with lasers, those 16 points are gone (a laser pierces with its ammo and amps, and with the Gemini's 15 if you wear that); it pierces with direct rockets instead.
-- **The Centurion pays less per kill and more elsewhere:** +25 % of the honor you earn in flight, where it was +32 % of the honor of kills. A quest you claim in flight and your share of a group's kill pay it too. It counts once the formation has been worn 10 seconds.
-- **The Shrike trades absorption for damage and XP** (-10 % absorption, +10 % laser damage to aliens, +8 % XP); **the Gemini's penetration is 15 points** for lasers and direct rockets.
+- **Update the game.** A 0.4.17 to 0.4.24 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.22), else the whole package; an older game downloads the whole package.
+- **Before the wipe:** put what you want to keep in the **Transport Cache** (50 t; it opens with the Chrono-Gate's 100 parts), make the ship you want geared your active ship, and leaders pay out the Fleet Treasury. Take the engines and lasers out of your Skylab's modules and put them in the Cache too: they are loose items. Open Auction listings come back as loose items and go with the rest; buy orders return their price whole.
+- **Your PvE ranking points fall by 37 for each Davidski kill** you made, once, at the first start of the server (he is out of the ranking systems). Level, XP and PvP points stay; a company rank can drop a step.
+- **The update itself pays, moves and removes no Credits, Thulium or items.**
+- **A 0.4.24 game keeps working but has none of the new screens** (buy orders, News, drone cards, the Cradle in flight, the Bay-full notice); it can type Cyrillic, and an emoji costs it 2 lines. A 0.4.25 game on an older server hides buy orders and News.
 - **New texts in other languages have had no native review.**
 
-**The four formations: the numbers**
-- **Where they come from:** four formations whose numbers players asked for on Discord (2026-10-12). The owner took them up on 2026-10-17 and **ordered them as written, with no retuning**; the rule of 0.4.10 that no formation moves more than 15 points from its first list is lifted for these four.
+**The first Universe Wipe**
+- **When:** a season ends on day 30. As day 30 begins the System chat says *Universe Wipe in 5 minutes* and counts down (at 240, 180, 120, 60 and 30 seconds and in the last 10); 300 seconds later the wipe takes every pilot who has a world off the maps. A pilot without a world is left as he was. **The first wipe is expected on 24 or 25 October 2026:** its countdown begins when the season's day 30 does, somewhere between about 07:41 UTC on Saturday the 24th and 07:41 UTC on Sunday the 25th, and the wipe is five minutes later (09:46 CEST on the 24th at the earliest, 08:46 CET on the 25th at the latest). That hour is worked out from one line of the live server's log, not read from its clock; it is read and announced once this version is live. If the live season is still held on the day override, no wipe is scheduled until an administrator changes that. The first wipe of the game runs under the rules below, which are those of this version.
 
-| Formation | 0.4.23 | 0.4.24 | Not changed |
-|---|---|---|---|
-| **Shrike** | Laser damage to aliens +7.5 %, XP from alien kills +6 %, shield absorption -6 % | **+10 %, +8 %, -10 %** | tier 1 |
-| **Centurion** | Honor from kills +32 % | **Honor +25 %**, on every honor you earn in flight | laser -5 %, hull -5 %, shield -7 %; tier 1 |
-| **Gemini** | Shield penetration +9 | **+15** | shield -22 %; tier 3 |
-| **Stiletto** | Shield penetration +16 | **no penetration for lasers; Rocket penetration +35** | hull +13 %, shield burn 3.5 % of the current shield a second in a fight; tier 3 |
-
-- **Reading the numbers:** a percentage is a change of your ship's final number, as on the item cards; penetration is in points of the target's shield absorbance. **Nothing else moved:** the other twelve formations, the prices, the tiers, the research, the recipes, the 2 seconds a change takes and the 10 seconds a kill bonus waits are as they were. There is no data step, and existing pilots keep their formations.
-- **The model's reading, ours and good for about 0.03 of a net:** the Gemini at +15 is the best single formation (net 1.092) and the Stiletto the weakest (0.916). The Stiletto is the best formation for a duel in which both ships fire the N.I.K.E. (1.46 against the plain ship, the Gemini 1.26) and weak with shop rockets, which are 8 to 24 % of a ship's fire. No number was retuned.
-
-**Centurion: every honor you earn in flight**
-- **Which honor it boosts** (+25 % of what is paid, once the formation has been worn 10 seconds, fractions carried so that rounding never loses a point):
-
-| Honor | Boosted? |
+| Yours | After the wipe |
 |---|---|
-| An alien kill: yours (swarm, boss, Warden and Davidski kills too) | **Yes**, +25 % of the kill's honor, in the pot before a group splits it |
-| Your share of a group mate's kill | **Yes**, +25 % of your share by your own Centurion, on top of the killer's if the killer wears it too |
-| A quest claimed in flight (a level quest, a Station mission, a Challenge) | **Yes**, +25 % of the honor the claim pays |
-| A quest claimed while docked (Mission Control in the Station view) | No: a docked pilot has no ship and no formation |
-| The Expedition Bay's collect | No |
-| A loss (friendly fire, a change of company) and an administrator's grant | No: only gains are boosted |
-| A player kill | Nothing to boost: it pays ranking points and no honor |
+| **Every ship** | **Kept,** whole again: full hull (its plates counted), empty shields, its skin and any conversion under way. Exactly one is active |
+| The gear fitted to your **active ship** in configurations 1 and 2, with what is fitted into it | Kept |
+| Your **drones** (level and experience), **drone formations** and **P.E.T. Stations**, wherever they are | Kept |
+| Your **Transport Cache** (up to 50 t) | Kept |
+| **Every other item:** loose gear, the gear on your other ships, resources, ammo, rockets, boosters, CPUs, plates | **Removed** |
+| Credits, Thulium, XP, honor, level, ranking points and rank, Premium, quests, Wipe Points, permanent buffs | **Unchanged:** nothing is capped in this wipe |
+| Skylab (modules, ore, research), technologies, P.E.T.s, skins | Unchanged. A Skylab expedition under way is settled and the Trophies Bay is paid out and emptied (its loot is removed like any loose item). **The engines and lasers fitted in the Engine and Defense Modules are loose items and are removed:** take them out and put them in the Cache |
+| Your **clan** | **Ends,** with its Fleet Treasury, posts, log, treaties, points and boosts. What a clan paid you stays |
+| **Auction** | Listings come back as loose items and go with the rest; bids in lots are refunded; buy orders return the price they hold whole (the deposit is gone) |
+| Chrono-Gate parts, the Cache, your destination | Reset: 0 parts, the Cache empty and unlocked (what it held is in your inventory, loose), the destination cleared. You land at your company's home in the world you chose under Galaxy Gates (else you choose at Setup) |
 
-- **The 10 seconds cover claims too:** a Centurion put on just before a turn-in adds nothing, so swapping in and out around a claim does not farm it. Two pilots of equal level who split a pot of 30 honor are paid 15 and 15 with nothing worn, 19 and 18 with the killer's Centurion, 15 and 18 with the mate's and 19 and 22 with both (the mate's share is 1.25 times 1.25 of its plain one).
-- **What it is worth:** hunting Phantasms at level 5 it adds about 249 honor an hour to 995 (+32 % of kills added 319), at level 8 482 to 1,929 (617 before). The quests are new: with it worn, a level's quests claimed once add 129 honor at level 5 and 560 at level 8, and all 116 honor-paying quests of the game add 9,796 honor to a pilot who claims every one with it worn. Honor stays a profile number.
+- **What is new about it:** before this version the wipe deleted every ship but the active one. Now each ship you own comes through; only the **items** are removed, and only the active ship keeps what is fitted to it. To keep the gear of another ship, put it in the Cache, or make that ship the active one before the wipe.
+- **The server writes down the wipe:** for each pilot, his rank, his place on his company's ladder, whether he wore the crown, his PvE and PvP points, his totals (level, experience, honor, Credits, Thulium, kills, deaths, shots, play time), his wallet before and after, the ships he kept and the items and units removed. No screen shows it yet. It is kept as long as the account and removed when you delete it.
+- **The Auction is closed from day 30,** but you can still cancel your own listings and orders.
+- **Rehearsed, not run:** the wipe was run twice on a synthetic database of 200 pilots (193 with a world): 0 failures, 994 ships before and 994 after, 3,937 item rows kept and 6,548 removed, and a second wipe a fixed point. It took 1.3 seconds on an idle Mac and 4.4 seconds on a busy one. The live game's data was not available, so it has not been run on that.
 
-**The Stiletto's rocket penetration**
-- **Which rockets:** the **seven direct ones**, the Lancet I, II and III, the Rivet I, II and III and the N.I.K.E. The +35 points are added to the rocket's own; nothing caps the sum, the shield's share of a hit is what is clamped at zero. **Not lasers** (a laser gets nothing of it) **and not the seven area rockets** (Ember, Scatter and the N.U.K.E.): a blast has never pierced a shield, and the model's one-shot rule for the N.U.K.E. would break at 35 points (it would destroy a fresh Ostirion in one hit).
-- **Numbers:** a Lancet III has 35 points of its own and 70 with the Stiletto (it was 51 with the old 16), a Lancet I 10 and 45, a Rivet I 5 and 40, the N.I.K.E. 35 and 70; the best direct rocket has 70 points now where it had 51, and the best laser build 61 where it had 62 (the Stiletto's 16 are gone and the Gemini's 15 are the only laser penetration a formation gives).
-- **What it does to a hit:** the shields take what the target's absorbance leaves after the penetration. Against the best shield out of the box, which absorbs 80 %, a Lancet III alone puts 55 % of its damage into the hull and with the Stiletto 90 %, 1.64 times the hull damage; a Light Shield Core (45 %) keeps 10 % of a Lancet III's hit and none of it with the Stiletto. Aliens split every hit 80 / 20 less its penetration, so the same holds for them.
-- **The cards print it:** in flight a rocket's card shows its penetration with the formation you wear.
+**Buy orders on the Auction**
+- **Where:** the Auction bar has a fifth section, **Buy orders**, with two views: **Wanted** (everyone's open orders, with search, category chips, a currency, a sort and the chip **I can fill**) and **My orders**. Place one with **New buy order**: the kind, the lots, Credits or Thulium, the price of one lot and 7, 14 or 21 days. There is no highest price; the least price is the kind's.
+- **What it costs:** the **whole price is held** (the page counts it as *In orders*) and the **deposit** of a listing is burned. Your first ten postings of a UTC day, listings and orders together, pay no deposit. Orders have slots by level, counted apart from listings: 20 at level 5, 40 at level 6, 70 at level 7 and 100 from level 8. The server holds at most 25,000 open orders.
+- **Standard items only:** an order asks for a kind in its plain form, not forged and with no rolled buffs. A seller of level 5 or more fills it with Marketable (earned, not bought) Standard items that are not fitted, cached or holding modules, a few lots at a time (a sale of unique pieces takes up to 25). He receives the price less the 5 % tax; the buyer's items are not Marketable. Nothing matches an order with a listing by itself.
+- **It ends** when it is filled, when you cancel (the held price of the lots left comes back whole, the deposit does not), when it runs out, at the wipe, when you delete the account, or when an administrator cancels it.
+- **The sell sheet** of an item shows the best open order for it and **Sell to it**. Fills, expiries and returns come as a toast, a burst of fills as one growing toast.
+- **Three new sounds:** an order placed, an order filled (to the buyer) and a sale to an order.
 
-**The crab, the moth and a closer drill**
-- **The Shrike flies as a crab.** On each side an arm of three drones reaches forward round the nose, the tip curling back in (the claw tips stand 96 units ahead of the nose), one drone sits between the claws ahead of the nose and one behind the ship. With fewer drones the claws grow from their base outward, so an arm never has a gap: 1 drone is the one between the claws, 2 the two bases of the arms, 3 the bases and the one between the claws, 4 bases and elbows, 5 and the one between, 6 the claws whole, 7 and the one between, 8 and the one behind the ship.
-- **The Gemini flies as a moth.** Three drones a side ahead of and beside the ship in two rows, a root by the nose, an outer tip far out in its row and a front tip between them a row ahead, and a pair behind the ship as the tail. With fewer drones the wings grow from the root outward and the tail comes last: 1 drone is a single behind the ship, 2 the two roots, 3 the single and the roots, 4 roots and front tips, 5 and the single, 6 the wings whole, 7 the single and the wings, 8 the wings and the tail pair (the tail takes the single's place).
-- **The Auger's drill is closer.** Same 25-degree cone, four rings and one turn in 3 seconds, built from the clearance outward: **the nearest drone passes the hull at 18 units on every ship** through a whole turn (it passed at 27 units from the Protos and 54 from the Wraith, 42 from the Paragon), the mean drone is 24 to 53 % nearer the hull, the tip of the cone 44 to 47 % nearer the nose and the widest ring 9 to 36 % narrower. A Paragon with eight drones: nearest drone 42 to 18 units, widest ring 121 to 85, tip ahead of the nose 144 to 79, farthest drone 194 to 128 from the hull's middle. **Why 18 and not less:** the owner's word was closer, not touching; the Drill comes no nearer than the closest other formation does (the Testudo's roof passes at 17, and at 14.4 at the bottom of its bob).
-- **The Gemini's card now describes its shape:** it says "Your drones open like a moth's wings" where it said "pair up like twin spears" (the item description in the seed and in all 13 languages); the Shrike's card text is unchanged.
-- **The icons of the Shrike and the Gemini draw the crab and the moth** (in the Hangar, the hotbar, the formation picker, the Assembly cards and the wiki); the icons of the other fourteen formations are as they were.
-- **What did not change:** a formation's drones glide into their shape in 0.8 seconds and never through the hull; the shapes of the other thirteen formations and of the plain layout are bit for bit as they were (a test pins them). Your game draws other pilots' drones in the same new shapes.
+**The News card**
+- **Where:** the last card of the Dashboard's left column, under the boosters: the newest three posts, each with a thumbnail, a title, the date and a line of text, a *New* pill and **Mark all read**. A click opens the whole post with all its pictures; Newer, Older and the arrow keys go through the last 20. What you have read follows your account to your other computers.
+- **Where it comes from:** the server reads a public repository (`SpaceCorps/news`, folder `posts`) every 15 minutes and keeps the newest 20 posts in memory; the game only calls its own server. A post has a title of up to 120 characters, a body of up to 4,000, three pictures of at most 2 MiB and 1,600 pixels, and a small Markdown (paragraphs, headings, lists, bold, italic, links to https addresses). HTML and pictures by address are dropped. A link shows where it goes and opens your browser; in the Steam build links are plain text.
+- **If there is no news** (the repository is empty, or a server without the service) the card shows its empty text or, on a server of an older version, does not appear.
 
-**Lasers leave the guns of the ship**
-- **The rule:** a bolt, its muzzle flash and its afterglow leave a **mount of the ship's model**, turned with the ship's heading and sized with how big it is drawn. Through 0.4.23 one formula placed every gun of every ship, 13.2 units ahead of the middle and at most 11 to the side: a Storm's bolts left a spot in the middle of its hull. Now the Storm's guns are its two cannons (35 units out, 50 ahead) and the ends of its two crescent rings (55 out, 8 ahead).
-- **Which mounts a ship draws:** one gun is the centre mount, two the first pair, three the first pair and the centre, four both pairs; they fire left, right, left, right. Your ship draws as many guns as it has lasers, two to four; another pilot's ship draws two, its first pair. **The number of guns drawn is the same as in 0.4.23:** the Storm carries 13 lasers and draws four, as it always drew at most four.
-- **The mounts**, in hull units (how far out to the side and how far ahead of the model's origin; the hull's half width and the nose are beside the name for scale):
+**Mining and aliens**
+- **The Thulium Geode** (grows on T-3, G-3 and T-4) pays **36 to 84 Thulium** a rock in Alpha, twice what it paid (18 to 42); Beta pays twice and Gamma three times that, as for every asteroid. Its Credits (42,450 to 70,800), ore and rare finds are as they were. No other kind changed. The models read a solo miner's Thulium an hour in Alpha on T-3, G-3 and T-4 at 875, 960 and 1,701 before and 1,175, 1,433 and 1,944 now.
+- **The daily mining limit is gone,** in Alpha, Beta and Gamma: every chunk is paid whole, "Daily mining limit reached" is never sent, the asteroid Help card reads *Daily limit: None* and the Target window and the wiki say there is none. The Mole is held by no limit either. **It is a switch, shipped off:** the caps (Thulium 3,000, 4,500 and 6,000 and Credits 13, 18 and 21 million a pilot a day in Alpha, Beta and Gamma) stay in the file, and an administrator can turn a world's limit back on without a release. The models' reading of what the limit held back: a solo miner's 6 hours up to 2.4 times the Credits and 3.2 times the Thulium of the limit; a Mole that works all 24 hours 4.4 to 9.6 times the Credits and 2.7 to 13.1 times the Thulium. Nothing of this is measured yet.
+- **Davidski** is out of every ranking: no row in the Hall of Fame, no place on a profile, and his kills add no ranking point (the experience still counts). **He hits twice as hard:** his volley is 4,104 a second in Alpha, 6,156 in Beta and 8,208 in Gamma; his hull, shield, speed and range did not move. **He pays 1.5 times:** Alpha 1,590,000 Credits, 4,275 Thulium, 255,000 XP and 1,110 honor, Beta twice and Gamma three times that. The limits stand: 2 paid kills a pilot and 8 a world a day. The model's fight: in Alpha the smallest group that kills him goes from 3 to 4 late-offense pilots and the smallest that loses no ship from 5 to 9.
+- **The x-2 maps** (M-2, T-2 and G-2, in every world) hold **30 Seekers and 15 Phantasms,** where they held 20 and 10. On the scratch server a pilot on an x-2 map is sent 12.2 KB/s before and 14.4 after (+2.2 KB/s, +18 %), and the server's tick costs 4.4 to 14.3 microseconds more per extra alien.
 
-| Ship | Lasers | Half width, nose | Centre mount (ahead) | First pair (out, ahead) | Second pair (out, ahead) |
-|---|---|---|---|---|---|
-| Protos | 2 | 27.5, 7.5 | 7.4 | 7.05, 7.5 | 27.5, -5.0 |
-| Kitefin | 3 | 29.0, 39.9 | 39.9 | 15.4, 21.6 | 28.1, 0.3 |
-| Ostirion | 3 | 35.0, 50.7 | 28.5 | 5.7, 50.7 | 13.3, 44.3 |
-| Nomad | 6 | 41.5, 47.5 | 37.0 | 25.3, 41.5 | 15.2, 45.0 |
-| Paragon | 8 | 36.7, 55.2 | 55.2 | 16.75, 9.6 | 25.5, 36.8 |
-| Storm | 13 | 63.8, 65.8 | 62.0 | 35.3, 50.5 | 54.6, 8.0 |
-| Ironclad | 6 | 47.1, 58.3 | 57.0 | 41.8, 50.8 | 44.7, 32.8 |
-| Wraith | 12 | 35.1, 72.1 | 53.0 | 20.8, 37.0 | 29.7, 14.8 |
-| Echelon (no ship flies it) | - | 54.6, 53.1 | 53.1 | 20.1, 25.9 | 10.3, 38.2 |
+**The Mole and the P.E.T. Cradle**
+- **The Mole works every asteroid a rocket could hurt** in your world and reach: the Motherlode, rocks another pilot has already damaged, and the four wrecks you can mine (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser). The wrecks drifting in the background are scenery and cannot be hit. Moles of different pilots can work the same rock; the break is paid by damage dealt, as with rockets, and a share under 5 % pays nothing. A Mole keeps the rock it began until it breaks.
+- **Its card shows the real damage:** *Hits 2,125 to 4,800 every 3 s* for a top Mole in Alpha, the least and the most one pulse takes off a rock of tier 1 to 5; hover for the five tiers. The model reads a top Mole at 100 to 118 % of the rocks an hour that a miner with the best rockets breaks.
+- **The Cradle works in flight.** With the Hangar open over the game, **New assembly, Collect, Collect all, Cancel, Crossbreed** and **Let go** work anywhere, with no need to land. A Cluster Chunk picked up while mining can go into the Cradle in the same flight, and a job started in flight survives a jump or a death. **Dock and Undock** still need a parked ship; the greyed buttons say why on hover, and the green "Hangar is open" banner no longer stands over the P.E.T. view.
 
-- **Designs and other shooters:** a ship design draws its base ship's table, except three whose models moved their guns and have a table of their own (Storm NOTSUM, Storm RECON and one Ironclad design). The own ship, other pilots, company pilots and the swarm ships with a pilot's body (the Pirate Boss and its Scouts, the Dormant Force's Paragons, a Wraith) use the table of the model they are drawn with. A model that has no table keeps the old formula, so it still fires.
-- **Server, damage, range and timing are unchanged:** it is only how it looks. A Storm's wing-tip bolt flies up to a hull width further than one from the middle, and the series takes that in (four guns at 500 units spread over 0.72 seconds where they took 0.75): the last bolt of a volley lands in time from every mount.
+**Chat takes more scripts**
+- **What is allowed:** Latin, Cyrillic (Russian, Ukrainian...), Japanese, Korean and Chinese text, and the numero sign. Emoji, symbols and other scripts (Greek, Arabic, Hebrew, Thai) are still refused and the box drops them, with a hint of its own in 13 languages. The 200-character limit, the pause for sending too fast, the spam and repeat rules and the no-links rule are as they were.
+- **Links in Russian words are refused too:** "discord tochka gg" written in Cyrillic, a dot word in brackets, the Russian names of the usual sites (Discord, YouTube, Twitch, TikTok, Instagram and others) and the domains .ru, .rf, .rus, .ukr and .org. A word that is also an everyday word (gg, net) counts only after a spoken dot or a known host, so "tochka sbora" stays chat.
+- **The Messages row** of the sidebar is hidden for now. Private messages work as before, and their unread numbers still show on the chat bar and the Chat button.
 
-**The volley that kills is one quick burst**
-- **What you saw in 0.4.23:** the guns of a volley leave one after another over up to three quarters of a second, and the target stayed drawn for them with its explosion held until the last landed: a pilot saw the damage number, the kill feed and the lost lock and then two or three more bolts hit a ship that was dead for the server.
-- **Now** the volley that kills is fired as a **burst: its guns leave evenly over 0.18 seconds** (two guns 0.18 seconds apart, four 0.06), and the target's explosion goes off 0.1 to 0.5 seconds after the volley (0.9 seconds at the most for four guns before). The game knows a volley kills when the server tells the target's explosion after it in the same tick, or when its damage is all the hull and shield the last snapshot showed.
-- **No bolt is shot at the dead:** the guns of any other volley still waiting at a target that blows up are let go, with their flash and pew; a bolt already in the air flies on to the wreck and ends there; a volley told for a ship that has already exploded shoots nothing (its damage number still shows). **A killing blow still looks like a hit:** sparks at the end of each bolt, the number and the hit sounds as before.
-- **A volley that does not kill keeps the series of 0.4.23:** its guns spread over the second. With 400 bolts in the air a killing volley fires all its guns at once like any other.
-
-**Every bolt has its own pew**
-- **What you hear:** a pew per bolt, made where the bolt leaves its gun at that moment, so two to four guns sound like two to four shots spread over the second and in step with the bolts (it was one pew a second, and with a kill the pew had long gone). A gun that is let go makes none, and a killing burst's pews are its bolts' own within 0.18 seconds. Because the pew is made at the gun's place, it comes from that gun's side of a wide ship and moves as the guns alternate.
-- **How loud:** quieter each, so that the pews of a volley together carry the old cue's energy and one decibel more: a steady second of your own volleys is within +1.7 and -1.3 dB of the old one (measured through the game's own mixer for all four ammo tiers, **not judged by ear**), and the last three pews of a four-gun burst are 5 to 8 dB under the old cue. No new sample: the bank's three variants of the laser and its pitch jitter make successive pews differ.
-- **A crowd does not take yours:** the pews of other shooters are paid out one every 83 milliseconds (12 a second, never more than 2 at once and 13 in any second), the nearest first, so a crowd's pews are spread over the second and not bunched at its start; your own and those at your own ship are never limited and outrank the other laser voices. A volley of one bolt (an alien's single gun) is one pew at its gun, the Siphon Battery's two probes and the laser turrets keep one cue as before, and with Low particles each leaving bolt still has its pew.
-
-**The flight HUD: four edges**
-- **The Active Quests title** was cut ("Active Q...") because the quest dots took the title bar's room. The title is measured whole first and the dots fit themselves to what is left, 16 points wide down to 12; where even that does not fit (Russian, Japanese, Spanish and Hungarian at 1280 x 720, and every language at 1024 x 640 with seven quests) they stand in a row of their own at the top of the window, nothing cut. The title is whole in all 13 languages at both sizes; the window's default width stays 300. At 1024 x 640 the body then shows about 20 points less of the quest, which scrolls.
-- **The chat tabs** read whole at the chat window's default width of 1024 x 640 in every language: Russian and Japanese letters are set a little smaller (10.5 or 10 points instead of 11.5). A window you made as narrow as it goes in Russian still scrolls its tabs, with an arrow at each end to say so.
-- **The Danger Sector callout, the excavator's gauge and the channel bar** stand on top of an open ammo or rocket pop-up instead of under it. At 1280 x 720 nothing is covered (English, German and Japanese looked at); at 1024 x 640 the card stands over what is above the pop-up (the lower rows of the Group window, and with the tall Rockets list the Boosters window's text and the bottom of the Target window).
-- **Toasts** no longer sit on the header of a window: the Hangar's inventory header (its title, the count, the selection's buttons), the Auction's first row (the four sections, the slots and Sell), the Clan's header and Mission Control's page heading with the first section's counters (the missions' "0/5 active" and the Station's "0/3"). The stack starts under them and covers what comes below (the Hangar's category chips, the right end of Mission Control's first mission). **Only those windows are asked:** a toast can still cover another window's header.
-- **Contrast:** the Target window's "Immune" tag is 4.59:1 (it was 4.44) and the count of a switched-off filter chip in the Hangar's inventory row is over 4.5 (it was 3.5). In our contrast audit of the flight HUD (17 stops, 1280 x 720 in English) 15 of 2,364 text runs failed 4.5 in 0.4.23 and 2 of 2,359 fail now, none on a window: the excavator's name fading out and a rock's name tag (4.38 to 4.40) drawn over the dark scene.
+**The interface**
+- **Drones on the pilot sheet** (Rankings, Stats, the clan list, your own): one card per drone, up to 8, with its picture by level (the gold gunship for a Master Drone), *Lv n* and a box for each slot with the item it carries or an empty box. Hover for its name, level, laser damage bonus and what it carries; the count in the header is the number of drones (5 / 8). A drone being upgraded is dimmed with empty boxes. A pilot with no drones has no group.
+- **The Assembly search:** Ctrl+F (Cmd+F on a Mac) focuses a box in the header; it filters the open tab. Crafting matches recipes by what they make and what they need; the Forge matches equipment by name, type and tier. Several words match in any order, a pill counts the matches, Esc clears it.
+- **The Forge says where a piece is:** "On Kitefin, configuration 2" (a Hull Plating: "both configurations"; a fitted piece takes its host's ship and says "Fitted into Quantum Laser II"), on the card, in the panel and in the Merge. A **Ship drop-down** beside the type filter shows only the pieces on one of your ships (it appears from two ships). A piece fitted in a Skylab module is named by that module ("Fitted in your Skylab's Engine Module") instead of "In the Transport Cache".
+- **Why a thruster holds fewer buffs:** the Forge's quote carries the stats too low to carry a buff, and a caption under *Buff slots* names it. An Impulse Thruster's speed multiplier is under the floor, so it holds one buff, a Momentum Thruster two; the tier ladder no longer says "up to 4 buffs" for them.
+- **Short numbers:** from 1,000 a count reads 1k, 1.2k, 999k, 1M, 1.2M, 1B, 1.5B, **cut, not rounded** (1,260,000 reads 1.2M, 999,999 reads 999k), on the hotbar (a slot shows its whole count up to 99,999), in the ammo and rocket pop-ups and on inventory tiles. **Money and charts are rounded, not cut, and start at 10,000:** when the toolbar is short of room, its pills for Credits, Thulium and honor read 987.7M or 1.5B where they read 1,500M (the hover has the whole number); chart axes, the Builds table and the admin metrics use the same function.
+- **A volume button** (a speaker, left of the language button) on the start and sign-in screens opens the master volume and a mute. Your pick is remembered, wins over the volume saved on your account when you sign in, and is saved to it.
+- **A full Trophies Bay is told:** a toast with a quiet sound of its own at the first look of a session and when it fills while you play, an amber *Bay full* pill on the Skylab station bar and a notice on the Skylab page with the Open the Universe button, until you collect. The server pushes nothing for the Skylab, so the game finds out at its next look: every 15 seconds with the Universe window open and every 3 minutes while a Skylab hunts.
+- **The clan timer:** when the server cannot say when the clan day ends, the countdown on the Operations tab reads `--:--` where it read 00:00 and refused every Warden with "Less than 30 minutes of the day are left". The server's rule is unchanged: no Warden from 23:30 UTC, the last 30 minutes of the clan day.
 
 **For administrators and the server**
-- **At the first start:** **no schema change** (the backup gate prints nothing), **no data step**, no new table, column, route, message, client feature string or environment variable. **One data file changed,** `Formations.json` (the numbers above, the key `killHonorPct` renamed `honorPct` and the new `rocketPenetration`: 18 keys), and three item descriptions in the `items.json` seed (Gemini, Stiletto and Centurion), which the start syncs by name. A file of 0.4.23 with the old honor key still loads on a private server.
-- **Two new counters, both with a label:** `formation_honor_paid{source}` (the whole honor points the formation added: `kill`, `quest` or `group`) and `formation_honor_dwell_misses{source}` (a quest claim or a group share that came before the 10 seconds were up).
-- **A database from 0.4.23 starts on 0.4.24** with no ERROR line, and a Stiletto and a Centurion pilot load and wear their formations (the lanes' scratch runs, `scripts/qa-0424-formations.py`).
-- **There is no switch for the formations' numbers:** a change is a release (`Formations.json` is written by `docs/design/formations-model.py`). The look and the sound of the lasers, the shapes and the HUD are the game's, not the server's.
-- **Rolling back to 0.4.23:** a 0.4.23 server refuses to start on the new `Formations.json` (it does not know `rocketPenetration`), so the file and the server go back together (the image carries both); the database has nothing new, so a rollback loses nothing a pilot did, and what honor a Centurion paid stays paid. No volume backup is needed (the gate prints nothing). If a formation's numbers are wrong, the way is a fix release (docs/DEPLOY.md).
+- **At the first start: 13 schema lines, no data step.** `backup_risks v0.4.24 HEAD` prints these (the job prints the same as warnings); they are additive and made in place, and a 0.4.24 server ignores them. **A Sliplane volume backup before the deploy is advised** (money is held in a table the old code ignores).
+
+```
+schema ALTER TABLE MARKETTRADES ADD COLUMN ORDERID
+schema ALTER TABLE WIPETIMELINESTATES ADD COLUMN CLOCKSTART
+schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_BOOK
+schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_BUYER
+schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_EXPIRY
+schema CREATE INDEX IF NOT EXISTS IX_PILOTSEASONS_SEASON
+schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_EQUIPPEDSHIPID
+schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_PARENTITEMID
+schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_PLAYERID
+schema CREATE TABLE IF NOT EXISTS ASTEROIDBELTDIAL
+schema CREATE TABLE IF NOT EXISTS MARKETORDERS
+schema CREATE TABLE IF NOT EXISTS PILOTSEASONS
+schema CREATE TABLE IF NOT EXISTS WIPERUNS
+```
+
+- **Also at every start:** the PvE ranking recount takes the 37 points of each Davidski kill off a pilot's stored points (once; a second start finds nothing; it works every pilot's points out again from his kills, as at every start before, so a pilot whose experience grew since his last kill can also gain a few), and the seed sync sets the x-2 maps' spawn counts to 30 and 15.
+- **Seven data files changed:** `Asteroids.json` (the Geode's Thulium and `belts.enabled` false), `Chat.json` (alphabet `scripts`), `Davidski.json` (`damageFactor` 2 and the pay), `Market.json` (`limits.globalOpenOrders` and `orders.enabled`), `Pets.json` (the Mole: Motherlode on, `startRule` any), `ranking-config.json` (Davidski 0 points) and `map-spawns.json`. No price, tier or research moved.
+- **New:** 12 routes (`/api/market/orders` with `mine`, `cancel` and `fill`; `/api/news` and `/api/news/img/...`; admin `news/status` and `news/refresh`, `market/orders` with `cancel` and `hold`, and `timeline/season-day`), 9 optional environment variables (`MARKET_ORDERS_ENABLED`, `CHAT_ALPHABET`, `NEWS_ENABLED`, `NEWS_REPO`, `NEWS_BRANCH`, `NEWS_DIR`, `NEWS_POLL_SECS`, and `NEWS_API_URL` and `NEWS_RAW_URL` for tests), one dependency of the server (`sha1`, already in the lock), the client feature `market-orders`, and counters `market_order_*` and `news_*`. The `Dockerfile` and the release job's scripts are unchanged.
+- **Set season day N** (Admin, Controls tab) is how a season is held or moved now, instead of the day override that freezes every clock: today becomes day N and the clocks run on from there, so the clan reset, the Warden rule, the Auction and the wipe follow the real clock. It shows a review sheet first (the new day, when day 30 begins, where the wipe's countdown starts, the clan day, the Wardens that will be withdrawn) and refuses day 30. `GET /api/admin/timeline` gains `seasonStart`, `clockStart`, `wipeCountdownAt` and the clan clock's `clanDay`, `clanSecondsLeft`, `clanClock` and `clanClockReason`. **Deploying changes no live season:** a season held on the override keeps its frozen day, with no wipe scheduled, until Set season day or Reset is pressed.
+- **At the countdown** the server writes `/data/spacecorps-prewipe.db` beside the periodic snapshot (one file, replaced by the next wipe) and logs `Pre-wipe snapshot: <path>, <bytes> bytes (<ms> ms)`; a failure is a warning and the wipe goes on. Three new indexes on `PlayerItems` keep the wipe quick on a big table (a pilot with 35,006 loose rows: 11 seconds before, 0.1 after).
+- **Switches without a release:** `MARKET_ORDERS_ENABLED=false` (refunds every open order at the next start and removes the order routes), `NEWS_ENABLED=false`, `CHAT_ALPHABET=latin` and the live admin dial `POST /api/admin/asteroids/gate {"world", "beltsEnabled"}`, which turns a world's mining limit back on and survives a restart.
+- **Rolling back to 0.4.24:** a 0.4.24 server refuses the new `Market.json`, `Asteroids.json` and `Davidski.json` (they carry fields it denies), so the image and its files go back together. With open buy orders, set `MARKET_ORDERS_ENABLED=false` and let a 0.4.25 server start once (it refunds them), or restore the volume backup. A wipe that went through is not undone by a rollback; the way back from a bad wipe is the pre-wipe copy.
+- **Privacy:** two new things are kept about a pilot, both removed with the account: his buy orders and the wipe record above. The text for the privacy page is in `docs/privacy-addendum.md`.
 <!-- /patchnotes:latest -->
 
 ---
@@ -197,18 +197,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 7b5519ac3ca2bdd82429d953a25c72b7fe2227430db20352c042682f4ec48457
+# Expected: 39c48b0c29d26b51295e69a0507eee64618b175c45db38ae92778de4f729b33d
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 0face2cd9b9e8665d0ffad3bf1abedf6f9cce5598cd327de3ccc62944eea198b
+# Expected: 563ea55ce4d7f95ab684509bd3686bf142e55e60ec0c7fc31ef77b7371b477b1
 ```
 
 ### Linux
 ```bash
-echo "221391f8f04283eb0d6ad3e1d866c18ef4359d1be8c1e368119b1dd458e4b8c4  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "475496c76021d24eaa85cefce6b611b61180db76ead9272b8bff8d4ef8a3fadf  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

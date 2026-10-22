@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ Die Trophäenhalle verwahrt, was die Abschüsse deines Skylab einbringen, bis du
 
 - **Was sie fasst**: Credits, Thulium, Erfahrung, Ehre und die Beute der Abschüsse.
 - **Die Kapazität** wird in **Kopfgeldpunkten** gezählt: Ein Abschuss fügt das Kopfgeld seines Aliens hinzu, Credits geteilt durch 200 plus Thulium, was auch immer er fallen lässt (die Werte von Alpha in jeder Welt). Sie fasst 650 Punkte auf Level 1 und 45.000 auf Level 20.
-- **Voll**: Eine volle Halle lässt das Skylab das **Feuer einstellen**: Nichts wird abgeschossen, bezahlt oder gezählt, und keine Munition wird verbraucht, bis du abholst (die Hülle regeneriert weiter). Eine Meldung und der Hinweis der Skylab-Zeile in der Seitenleiste sagen es.
+- **Voll**: Eine volle Halle lässt das Skylab das **Feuer einstellen**: Nichts wird abgeschossen, bezahlt oder gezählt, und keine Munition wird verbraucht, bis du abholst (die Hülle regeneriert weiter). Eine Meldung, eine kurze Einblendung, eine bernsteinfarbene Markierung **Halle voll** in der Leiste der Station, ein Hinweis auf der Skylab-Seite und der Hinweis der Skylab-Zeile in der Seitenleiste sagen es.
 - **Abholen** im Universum-Fenster, bei gelandetem Schiff: Credits und Thulium gehen auf dein Konto, Erfahrung und Ehre zu deinem Piloten und die Beute in dein Inventar. Zweimal gleichzeitig abgeholt wird einmal bezahlt.
 - **Beute** wird für jeden Abschuss aus den Drops des Aliens ausgewürfelt, nie Dark Matter, Ancient Control Units, N.I.K.E.s oder N.U.K.E.s. Sie ist **nicht handelbar**: Sie kann nicht in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkauft werden.
 - **Energie**: 20 auf Level 1, mit jedem Level 10 % mehr. Sie lässt sich ausschalten, aber nicht, solange das Skylab unterwegs ist.
@@ -442,7 +442,7 @@ Klicke auf der Karte eine bekannte Zelle an: Das Fenster der Zelle zeigt die **V
 - **Die Uhr** ist die des Servers: Die Ankunft steht fest, wenn das Skylab startet, und eine Reise geht weiter, während du abgemeldet bist. Ein neuer Befehl unterwegs gilt ab der nächsten Zelle: Der Sprung, auf dem es ist, wird zu Ende geflogen.
 - **Was einen Befehl stoppt**: kein Triebwerksmodul oder eines, das ausgeschaltet oder im Ausbau ist; kein Triebwerk eingebaut; zu wenig Energie; ein zerstörtes Skylab; die Zelle, in der es schon ist; eine Zelle, die du nicht kennst; eine Zelle, die für dein Verteidigungsmodul zu schwer ist; keine bekannte Route.
 - **Unterwegs** lassen sich die vier Module der Expedition nicht schalten, das Triebwerksmodul nicht ausbauen und nichts einbauen oder herausnehmen. Auf dem Weg trifft es die Aliens der Zellen, durch die es fliegt, mit der halben Rate, die es hätte, wenn es dort bliebe.
-- **Gemeldet**: Eine Meldung sagt dir, wenn das Skylab ankommt, wenn es zerstört oder repariert wird und wenn seine Halle voll ist, und die ersten drei kommen mit einem leisen eigenen Ton.
+- **Gemeldet**: Eine Meldung sagt dir, wenn das Skylab ankommt, wenn es zerstört oder repariert wird und wenn seine Halle voll ist, und alle vier kommen mit einem leisen eigenen Ton.
 
 Was die Vorschau sagt, in der Reihenfolge ihrer Zeilen (jede Zahl ist die des Servers, für die Ausrüstung, die dein Skylab jetzt hat):
 

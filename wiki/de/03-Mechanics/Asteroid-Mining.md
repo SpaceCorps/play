@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
 **Asteroiden** sind große Felsbrocken, die in der Flugebene der Konzernsektoren und der Gefahrensektoren liegen. Sie bewegen sich nie und schießen nie. Zerbrich einen mit **Raketen** oder **Lasern**, und er zerfällt in kleine **Brocken** aus Credits, Thulium und Erz, die du einsammelst wie [Fracht](/wiki/03-Mechanics/Cargo.md). Raketen sind das richtige Werkzeug dafür: Deine Laser beschädigen einen Asteroiden zwar auch, aber nur mit 5 % dessen, was sie einem Schiff antun, und Drohnen richten bei ihm nichts aus. Eines mehr zerbricht Asteroiden für dich: ein angedocktes **Mole**-P.E.T. ([unten](#the-mole-pet)).
 
-Der Abbau ist eine andere Arbeit als die Jagd, kein Ersatz dafür: Er gibt keine EP, keine Ehre und keine Ranglistenpunkte, und die Raketen, die du abfeuerst, kosten Credits oder Thulium. Dafür bekommst du Credits und Thulium, Erz für die [Schmiede](/wiki/06-Items/Forge.md) und fürs Herstellen ohne Kampf und eine Arbeit, die eine [Gruppe](/wiki/03-Mechanics/Groups.md) teilen kann. Er zahlt gut: Nach dem eigenen Modell des Spiels bringt eine Stunde an den richtigen Asteroiden mit der richtigen Rakete etwa das 2,6- bis 6,8-Fache der besten Jagdstunde deines Levels, wenn die Raketen bezahlt sind. Die Tageslimits unter [Die Welten](#the-worlds) setzen eine Grenze, und du erreichst sie bald: In Alpha erreicht ein Pilot, der gleichmäßig abbaut, in einem guten Sektor das Thulium-Limit in unter 2 Stunden und das Credits-Limit in etwa 2,7 Stunden.
+Der Abbau ist eine andere Arbeit als die Jagd, kein Ersatz dafür: Er gibt keine EP, keine Ehre und keine Ranglistenpunkte, und die Raketen, die du abfeuerst, kosten Credits oder Thulium. Dafür bekommst du Credits und Thulium, Erz für die [Schmiede](/wiki/06-Items/Forge.md) und fürs Herstellen ohne Kampf und eine Arbeit, die eine [Gruppe](/wiki/03-Mechanics/Groups.md) teilen kann. Er zahlt gut: Nach dem eigenen Modell des Spiels bringt eine Stunde an den richtigen Asteroiden mit der richtigen Rakete etwa das 2,6- bis 6,8-Fache der besten Jagdstunde deines Levels, wenn die Raketen bezahlt sind. Es gibt kein Tageslimit dafür: Jeder Brocken, den du einsammelst, zahlt voll aus, sodass dein Tag nur durch die Asteroiden begrenzt wird, die der Sektor hält, und dadurch, wie schnell sie nachwachsen.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ Ein Asteroid ist gemeinsame Arbeit: Beliebig viele Piloten können ihn mit Raket
 Ein angedockter **Mole** (ein [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-Typ) arbeitet für dich, solange du fliegst: Alle 3 Sekunden gibt er dem nächsten Asteroiden innerhalb von etwa fünfeinhalb Schiffslängen um dein Schiff einen Impuls, bis er zerbricht, und nimmt dann den nächsten. Seine Impulse gehen unter deinem Namen in den Schaden des Asteroiden ein, daher zahlt ein Zerbrechen dir so, als hättest du ihn mit einer Rakete zerbrochen: die Brocken, die Funde, die Chance auf einen Cluster Chunk und deine Asteroiden-Mission.
 
 - **Wie viel er zerbricht.** Ein Mole an der Spitze (ein Legendary auf Level 20) zerbricht mindestens so viele Asteroiden pro Stunde wie ein Pilot, der die beste Rakete, Rivet III, auf sie abfeuert, die niedrigeren Stufen und Levels weniger ([die Tabelle](/wiki/03-Mechanics/Pets.md#how-strong)). Er braucht weder Munition noch Raketen. Deine Laser, Raketen, Verstärker, Booster, Formation und der Schaden deiner P.E.T.s ändern einen Impuls nicht, und Panzerung bremst einen Impuls, wie sie eine Rakete bremst.
-- **Welche Asteroiden.** Der nächste in Reichweite, den niemand außer dir und deiner Gruppe getroffen hat und den kein anderer Asteroid und keine Energetic Wall verdeckt. Er bearbeitet nie den Motherlode, und er arbeitet nicht in einer Schutzzone, getarnt, während du springst oder während dein Schiff zerstört ist.
-- **Keine eigene Grenze.** Ein Mole arbeitet jede Stunde, die du fliegst, ob du die Tasten berührst oder nicht (ein untätiges Schiff ist ein Ziel), und kein Tageslimit hält ihn an. Es bleibt, was alle anhält: die Thulium- und Credits-Limits unter [Die Welten](#the-worlds), die ein Mole an der Spitze, der nie anhält, nach etwa 2 bis 6 Stunden Arbeit erreicht. Danach zahlen seine Brocken nur noch, was unter den Limits übrig ist.
+- **Welche Asteroiden.** Der nächste in Reichweite, den kein anderer Asteroid und keine Energetic Wall verdeckt. Jeder Asteroid, den eine Rakete treffen könnte, kommt infrage: auch der Motherlode und die Wracks (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser), auch ein Asteroid, den andere Piloten getroffen haben; die Chunks gehen dann wie immer nach Schaden. Die Wracks, die du im Hintergrund treiben siehst, sind nur Kulisse und keine Asteroiden. Er arbeitet nicht in einer Schutzzone, getarnt, während du springst oder während dein Schiff zerstört ist.
+- **Keine eigene Grenze.** Ein Mole arbeitet jede Stunde, die du fliegst, ob du die Tasten berührst oder nicht (ein untätiges Schiff ist ein Ziel), und kein Tageslimit hält ihn an, weder ein eigenes noch das der Welt. Es bleibt, was alle begrenzt: die Asteroiden in seiner Reichweite und wie schnell sie nachwachsen. Seine Brocken zahlen voll aus, so wie deine.
 - **Nur einer arbeitet.** Von den Moles in deiner Station arbeitet nur der stärkste; die anderen geben nur Boosts.
 
 ## Die Regeln {#the-rules}
@@ -69,7 +69,7 @@ Ein angedockter **Mole** (ein [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-Typ)
 - Eine [Gruppe](/wiki/03-Mechanics/Groups.md#sharing-kills) zählt als ein Pilot, und ihr Anteil wird nach Level auf die Gruppenmitglieder aufgeteilt, die nah dran sind und schießen.
 - Die Brocken eines Zerbrechens sind 30 s lang für den Piloten reserviert, für den sie angelegt wurden, und für seinen Clan. Danach kann sie jeder auf der Karte nehmen. Ein Brocken, den niemand nimmt, verschwindet nach 3 min.
 - Eine Karte fasst höchstens 36 Brocken, innerhalb der 64 Kisten, die sie halten kann: Brocken verdrängen nie die Kisten der Aliens, und diese verdrängen nie einen Brocken. Hat die Karte keinen Platz für einen Brocken, wird der Pilot, für den er gedacht war, sofort bezahlt.
-- Credits und Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden. Über beliebige 24 h wird einem Piloten höchstens das Limit unter [Die Welten](#the-worlds) ausgezahlt: Ein Brocken über dem Limit ist verbraucht und zahlt nur, was unter dem Limit noch übrig ist, und das Spielprotokoll sagt es dir.
+- Credits und Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden. Es gibt kein Tageslimit dafür, was dir ausgezahlt wird: Jeder Brocken zahlt seine Credits und sein Thulium voll aus, egal wie viele du an einem Tag einsammelst.
 - Die Bezahlung ist für alle gleich: Kein Premium-Bonus, Saison-Shop-Boost, Clan-Boost, Loot Luck und kein Booster ändert die Credits, das Thulium oder die Funde. Der [Resource Magnet Booster](/wiki/06-Items/Boosters.md) erhöht beim Einsammeln die Ressourcen eines Erzbrockens, wie bei jeder Kiste.
 - Die Panzerung nimmt von jedem Treffer ihre Punkte ab, aber mindestens 20 % eines Treffers kommen immer durch.
 - Eine Flächenexplosion richtet bei einem spröden Asteroiden das 1,6-Fache an wie bei jedem anderen.
@@ -86,13 +86,13 @@ Jede Welt, Alpha, Beta und Gamma, hat an denselben Stellen eigene Asteroiden ([W
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Welt | Hülle | Bezahlung | Thulium-Limit | Credits-Limit |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3.000 | 13.000.000 |
-| **Beta** | ×1,5 | ×2 | 4.500 | 18.000.000 |
-| **Gamma** | ×2 | ×3 | 6.000 | 21.000.000 |
+| Welt | Hülle | Bezahlung |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Die Tabellen unten nennen die Zahlen eines Alpha-Asteroiden. **Hülle** ist der Faktor der Welt auf die Hülle jedes Asteroiden und **Bezahlung** ihr Faktor auf die Credits und das Thulium eines Zerbrechens; das Erz und die seltenen Funde sind in jeder Welt gleich. Die beiden Limits sind das Meiste, was ein Pilot über beliebige 24 h durch Brocken ausgezahlt bekommt.
+Die Tabellen unten nennen die Zahlen eines Alpha-Asteroiden. **Hülle** ist der Faktor der Welt auf die Hülle jedes Asteroiden und **Bezahlung** ihr Faktor auf die Credits und das Thulium eines Zerbrechens; das Erz und die seltenen Funde sind in jeder Welt gleich. Brocken zahlen voll aus: Es gibt kein Tageslimit.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ Die besten Zahler: Jeder zahlt mehr Credits und Thulium als der durchschnittlich
 
 | Art | Hülle | Größe | Stufe | Besonderheit | Geldbrocken | Gemacht für | Credits | Thulium | Funde | Zu finden in |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66.000 | Mittel | 3 | Explosionen ×1,6 | 2 | Etwa 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66.000 | Mittel | 3 | Explosionen ×1,6 | 2 | Etwa 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100.000 | Groß | 4 | – | 2 | Etwa 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62.100–103.500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
 | **Vault Rock** | 130.000 | Groß | 4 | – | 3 | Etwa 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101.400–169.050 | 50 % für 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150.000 | Groß | 5 | Explosionen ×1,6 | 3 | Etwa 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109.650–182.700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Ein Asteroid ist kein Abschuss. Ihn zu zerbrechen gibt keine EP, keine Ehre, kei
 - **Fang mit der Rakete an, für die die Art gemacht ist.** Eine schwächere Rakete zerbricht den Asteroiden auch, braucht aber mehr Raketen und mehr vom Timer. Eine stärkere ist schneller, doch was ein Treffer über die verbleibende Hülle hinaus anrichtet, geht verloren, und eine Rakete kostet dasselbe, was immer sie trifft.
 - **Nimm Explosionen für Kristall und Kraft für Eisen.** Eine Scatter oder eine Ember ist die Rakete für einen spröden Asteroiden, und ein gepanzerter verlangt eine stärkere Rakete, als seine Hülle vermuten lässt, weil die Panzerung von jedem Treffer ihre Punkte abzieht.
 - **Lass deine Laser zwischen den Raketen arbeiten.** Sie feuern einmal pro Sekunde und kosten Munition, keine Raketen, aber eine Salve richtet nur 5 % dessen an, was sie bei einem Schiff anrichtet: Sie ergänzen die Raketen und ersetzen sie nicht.
-- **Beachte das Tageslimit.** Brocken zahlen nichts mehr, wenn du das Limit deiner Welt über einen Tag eingesammelt hast, und der Abbau zahlt so gut, dass du es nach wenigen Stunden erreichst; das Limit steht unter Die Welten.
-- **Zerbrecht die großen gemeinsam.** Der Asteroid Motherlode ist ein Fels für eine Gruppe: Eine Gruppe zählt als ein Pilot, und ihr Anteil wird nach Level auf die Gruppenmitglieder aufgeteilt, die nah dran sind und schießen.
+- **Achte auf das Angebot.** Brocken haben kein Tageslimit, aber ein Sektor hält nur so viele Asteroiden, und jeder wächst erst nach einer Weile nach; in einem überfüllten Sektor bekommt jeder Pilot weniger, also weiche in einen ruhigeren aus.
+- **Zerbrecht die großen gemeinsam.** Der Asteroid Motherlode ist ein Fels für eine Gruppe: Eine Gruppe zählt als ein Pilot, und ihr Anteil wird nach Level auf die Gruppenmitglieder aufgeteilt, die nah dran sind und schießen. Ein Mole bearbeitet ihn ebenfalls, für den Piloten, dem er gehört.
 - **Behalte den Sektor im Auge.** Asteroiden wehren sich nicht, doch in den Sektoren um sie herum gibt es weiterhin Aliens und, in den Gefahrensektoren, andere Piloten.
 - **Nutze sie, und nimm dich in Acht.** Ein Asteroid zwischen dir und einem Rivalen oder einem Alien hält deine Laser und ihre voneinander fern. Ein Rivale, der über den Asteroiden, den du abbaust, auf dich schießt, beschädigt ihn und wird nach dem angerichteten Schaden bezahlt wie jeder andere Pilot.

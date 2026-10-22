@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ La Baia dei trofei conserva ciò che portano le uccisioni del tuo Skylab finché
 
 - **Cosa contiene**: crediti, Thulium, esperienza, onore e il bottino delle uccisioni.
 - **La capacità** si conta in **punti taglia**: un abbattimento aggiunge la taglia del suo alieno, crediti divisi per 200 più Thulium, qualunque cosa lasci (le cifre di Alpha in ogni mondo). Contiene 650 punti al livello 1 e 45.000 al livello 20.
-- **Piena**: una baia piena fa **smettere di sparare** allo Skylab: nulla viene abbattuto, pagato o contato e non si consumano munizioni finché non ritiri (lo scafo continua a rigenerarsi). Un messaggio e il suggerimento della riga Skylab nella barra laterale lo dicono.
+- **Piena**: una baia piena fa **smettere di sparare** allo Skylab: nulla viene abbattuto, pagato o contato e non si consumano munizioni finché non ritiri (lo scafo continua a rigenerarsi). Un messaggio, una notifica, una etichetta ambra **Baia piena** nella barra della stazione, un avviso nella pagina dello Skylab e il suggerimento della riga Skylab nella barra laterale lo dicono.
 - **Ritira** nella finestra Universo, con la nave atterrata: crediti e Thulium vanno sul tuo conto, esperienza e onore al tuo pilota e il bottino nel tuo inventario. Due ritiri contemporanei pagano una volta sola.
 - **Il bottino** è tirato per ogni abbattimento da ciò che lascia l’alieno, mai Dark Matter, Ancient Control Unit, N.I.K.E. o N.U.K.E. **Non è vendibile**: non si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energia**: 20 al livello 1, con un aumento del 10% per livello. Si può spegnere, ma non mentre lo Skylab è in viaggio.
@@ -442,7 +442,7 @@ Clicca su una cella nota della mappa: il pannello della cella mostra l’**antep
 - **L’orologio** è quello del server: l’arrivo è fissato quando lo Skylab parte, e un viaggio prosegue mentre sei disconnesso. Un nuovo ordine dato lungo la via ha effetto alla cella successiva: il salto in corso viene finito.
 - **Cosa ferma un ordine**: nessun Modulo Motori, o uno spento o in potenziamento; nessun motore montato; energia insufficiente; uno Skylab distrutto; la cella in cui si trova già; una cella che non conosci; una cella troppo difficile per il tuo Modulo Difesa; nessun percorso noto.
 - **In viaggio**, i quattro moduli della Spedizione non si possono accendere né spegnere, il Modulo Motori non si può potenziare e nulla si può montare o togliere. Lungo la via incontra gli alieni delle celle che attraversa a metà del ritmo che avrebbe se vi restasse.
-- **Messaggi**: un messaggio ti dice quando lo Skylab arriva, quando viene distrutto o riparato e quando la sua baia è piena, e i primi tre hanno anche un suono discreto tutto loro.
+- **Messaggi**: un messaggio ti dice quando lo Skylab arriva, quando viene distrutto o riparato e quando la sua baia è piena, e tutti e quattro hanno anche un suono discreto tutto loro.
 
 Cosa dice l’anteprima, nell’ordine delle sue righe (ogni cifra è quella del server, per l’equipaggiamento che il tuo Skylab ha adesso):
 

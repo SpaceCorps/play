@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
@@ -128,7 +128,6 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@ As cinco primeiras linhas são os alienígenas comuns, as seis seguintes as nave
 
 Por exemplo, um piloto de nível 4 com 12.500 de experiência que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 300 + 160 + 40 = **912** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
 
-A página **Rankings** (Comunidade › Rankings) mostra como os seus pontos são compostos, e o **Hall da Fama** dela lista os melhores pilotos. O **(i)** ao lado dos pontos PvE ali cita os cinco alienígenas, quanto vale um abate em cada um dos [enxames](/wiki/05-Swarms/Swarms.md), da menor nave ao chefe, o mesmo para os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e os [Guardiões do clã](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) aparece no Hall da Fama com uma linha própria em cada mundo, com os pontos de um piloto de nível 20; ele não pertence a nenhuma corporação, então não está em nenhuma das escadas.
+A página **Rankings** (Comunidade › Rankings) mostra como os seus pontos são compostos, e o **Hall da Fama** dela lista os melhores pilotos. O **(i)** ao lado dos pontos PvE ali cita os cinco alienígenas, quanto vale um abate em cada um dos [enxames](/wiki/05-Swarms/Swarms.md), da menor nave ao chefe, o mesmo para os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e os [Guardiões do clã](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) não está em nenhum ranking: uma destruição dele não vale ponto algum, ele não tem linha no Hall da Fama e não pertence a nenhuma corporação, então não está em nenhuma das escadas.
 
 ## Os símbolos {#the-symbols}
 

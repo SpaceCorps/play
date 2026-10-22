@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Demirhane -->
 # Demirhane {#the-forge}
 
@@ -9,6 +9,8 @@
 Lazerler, lazer amfileri, kalkan çekirdekleri, kalkan hücreleri, motorlar, iticiler, Uyarlanabilir Çekirdekler, Repair Drone eşyaları ve [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md): [büyüleme bonusları](/wiki/06-Items/Overview.md) taşıyabilen her tek ekipman parçası. Envanterinde, bir gemide (orada kalır ve yeni kademesiyle hemen çalışır) ya da başka bir eşyaya takılı olabilir. Dronlar, gemiler, cephane, kaynaklar ve boosterlar dövülemez; Nakliye Deposu’ndaki ya da Skylab’ındaki Motor veya Savunma Modülü’ne takılı hiçbir şey de dövülemez: önce çıkar.
 
 Ekipman listesinde, kademe ve tür filtrelerinin yanında bir **Tümü / Takılı / Envanterde** anahtarı vardır. **Takılı**, bir gemide ya da başka bir eşyaya takılı olanları, **Envanterde** boşta duranları gösterir; başlığın altındaki bir satır anahtarın kaç parçayı gizlediğini söyler. Bir birleştirmenin donörünü seçerken Takılı duraklatılır, çünkü donör boşta olmalıdır.
+
+Tür filtresinin yanındaki **Gemi** açılır listesi yalnızca gemilerinden birindeki parçaları gösterir (başka bir eşyaya takılı parça, taşıyıcısının bulunduğu gemiye sayılır). “Envanterde” seçiliyken ve bir birleştirmenin donörünü seçerken duraklatılır. Parçanın üzerine gelince açılan kart, panelin başlığı ve birleştirmenin ana parçası nerede olduğunu söyler: *Kitefin gemisinde, konfigürasyon 1* (Hull Plating için iki konfigürasyon da) ve neye takılı olduğu. **Ctrl+F** (Mac’te Cmd+F) imleci Montaj’ın başlığındaki arama kutusuna koyar; açık sekmenin listesini daraltır (tarifler ürettiği ve istediği şeylere, ekipman ad, tür ve kademeye göre) ve Esc onu temizler. Panel, *Bonus yuvaları* satırının altında parçanın bir özelliği bonus taşımak için çok düşükse bunu söyler; Impulse Thruster’ın bir, Momentum Thruster’ın iki bonus taşımasının sebebi budur.
 
 ## Kademe yükselt {#tier-up}
 

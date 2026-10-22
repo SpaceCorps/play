@@ -8,6 +8,8 @@ Lasers, Laser Amps, Shield Cores, Shield Cells, Engines, Thrusters, Adaptive Cor
 
 The list of equipment has an **All / Equipped / In inventory** switch next to the tier and type filters. **Equipped** shows what is on a ship or fitted into another item, **In inventory** what lies loose, and a line under the title says how many pieces the switch hides. While you choose the donor of a merge, Equipped is paused, because a donor must be loose.
 
+A **Ship** drop-down beside the type filter shows only the pieces on one of your ships (a piece fitted into another item counts for the ship its host is on). It is paused under *In inventory* and while you choose the donor of a merge. A piece's hover card, the panel's header and the merge's base say where it is: *On Kitefin, configuration 1* (a Hull Plating: both configurations), and what it is fitted into. **Ctrl+F** (Cmd+F on a Mac) puts the cursor in the search box in the Assembly's header; it narrows the open tab's list (recipes by what they make and ask for, equipment by name, type and tier), and Esc clears it. Under *Buff slots* the panel says when a stat of the piece is too low to carry a buff, which is why an Impulse Thruster holds one buff and a Momentum Thruster two.
+
 ## Tier up
 
 Pick an item and the panel shows its tier, the tier it would reach, what that changes (how many buffs it can hold and how big they are), and the price with what you have of each part: green when you have enough, red when you don't, and how many you are short. When you have it all, **Tier up** raises the item by exactly one tier. There is no jump: to reach Eternal an item goes through Tainted, Godly and Rupturing, each with its own price.

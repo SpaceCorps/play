@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
 **Asteroider** är stora stenar som ligger i flygplanet i koncernernas sektorer och i farosektorerna. De rör sig aldrig och skjuter aldrig. Spräng en med **raketer** eller **lasrar** så brister den i små **bitar** av krediter, Thulium och malm, som du plockar upp som [last](/wiki/03-Mechanics/Cargo.md). Raketer är rätt verktyg för jobbet: dina lasrar skadar också en asteroid, men bara med 5 % av vad de gör mot ett skepp, och drönare gör ingenting med den. En sak till spränger asteroider åt dig: en dockad **Mole**-P.E.T. ([nedan](#the-mole-pet)).
 
-Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,6 till 6,8 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Dagsgränserna i [Världarna](#the-worlds) sätter ett tak, och du når dem snart: i Alpha når en jämn brytare i en bra sektor Thulium-gränsen på under 2 timmar och kreditgränsen på ungefär 2,7 timmar.
+Brytning är ett annat jobb än jakt, inte en ersättning för den: det ger ingen XP, ingen heder och inga rankningspoäng, och raketerna du skjuter kostar krediter eller Thulium. Det du får är krediter och Thulium, malm till [Smedjan](/wiki/06-Items/Forge.md) och till tillverkning utan strid, och ett jobb som en [grupp](/wiki/03-Mechanics/Groups.md) kan dela. Det betalar bra: enligt spelets egen modell ger en timme vid rätt asteroider med rätt raket ungefär 2,6 till 6,8 gånger så mycket som den bästa jakttimmen på din nivå, när raketerna är betalda. Det finns ingen daglig gräns: varje bit du plockar upp betalar fullt ut, så det som sätter gränsen för din dag är de asteroider som sektorn håller och hur fort de växer tillbaka.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ En asteroid är gemensamt arbete: hur många piloter som helst kan träffa den, 
 En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbetar åt dig medan du flyger: var tredje sekund ger den närmaste asteroid inom ungefär fem och en halv skeppslängd från ditt skepp en puls, tills den brister, och tar sedan nästa. Dess pulser går in i asteroidens skada i ditt namn, så ett sönderfall betalar dig som om du hade brutit den med en raket: bitarna, fynden, chansen till en Cluster Chunk och ditt asteroiduppdrag.
 
 - **Hur mycket den spränger.** En Mole på toppen (en Legendary på nivå 20) spränger minst lika många asteroider i timmen som en pilot som skjuter den bästa raketen, Rivet III, på dem, och lägre grader och nivåer färre ([tabellen](/wiki/03-Mechanics/Pets.md#how-strong)). Den använder varken ammunition eller raketer. Dina lasrar, raketer, förstärkare, boosters, formation och dina P.E.T.s Skada ändrar inte en puls, och pansar bromsar en puls som det bromsar en raket.
-- **Vilka asteroider.** Den närmaste inom räckhåll som ingen annan än du och din grupp har träffat och som ingen annan asteroid eller Energetic Wall skyddar. Den arbetar aldrig med Motherlode, och den arbetar inte i en säker zon, kamouflerad, medan du hoppar eller medan ditt skepp är förstört.
-- **Ingen egen gräns.** En Mole arbetar varje timme du flyger, oavsett om du rör tangenterna eller inte (ett overksamt skepp är ett mål), och ingen daglig gräns stoppar den. Det som finns kvar är det som stoppar alla: gränserna för Thulium och krediter i [Världarna](#the-worlds), som en Mole på toppen som aldrig stannar når efter ungefär 2 till 6 timmars arbete. Därefter betalar dess bitar bara det som finns kvar under gränserna.
+- **Vilka asteroider.** Den närmaste inom räckhåll som ingen annan asteroid eller Energetic Wall skyddar. Varje asteroid som en raket kan skada duger: även Motherlode och vraken (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser), även en asteroid som andra piloter har träffat, och chunkarna går då efter skada, som alltid. Vraken du ser driva i bakgrunden är bara kuliss, inte asteroider. Den arbetar inte i en säker zon, kamouflerad, medan du hoppar eller medan ditt skepp är förstört.
+- **Ingen egen gräns.** En Mole arbetar varje timme du flyger, oavsett om du rör tangenterna eller inte (ett overksamt skepp är ett mål), och ingen daglig gräns stoppar den, varken sin egen eller världens. Det som finns kvar är det som begränsar alla: asteroiderna inom dess räckvidd och hur fort de växer tillbaka. Dess bitar betalar fullt ut, precis som dina.
 - **Bara en arbetar.** Av Moles i din Station arbetar bara den starkaste; de andra ger bara boosts.
 
 ## Reglerna {#the-rules}
@@ -69,7 +69,7 @@ En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbeta
 - En [grupp](/wiki/03-Mechanics/Groups.md#sharing-kills) räknas som en pilot, och dess del delas efter nivå mellan gruppmedlemmarna som är nära och skjuter.
 - Bitarna från en sprängning är reserverade i 30 s för piloten de lades ut åt och för dennes klan. Efter det kan vem som helst på kartan ta dem. En bit som ingen tar försvinner efter 3 min.
 - En karta rymmer högst 36 bitar, inom de 64 lådor den kan rymma: bitar trycker aldrig bort utomjordingarnas lådor, och de trycker aldrig bort en bit. När kartan inte har plats för en bit betalas piloten den var till ut direkt.
-- Krediter och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. Under en valfri period på 24 h betalas en pilot högst gränserna under [Världarna](#the-worlds): en bit över gränsen förbrukas och betalar bara det som finns kvar under den, och Spellogg säger det.
+- Krediter och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. Det finns ingen daglig gräns för vad du kan få betalt: varje bit betalar ut alla sina krediter och sitt Thulium, oavsett hur många du plockar upp på en dag.
 - Betalningen är densamma för alla: ingen Premium-bonus, säsongsbutiksboost, klanboost, Loot Luck eller booster ändrar krediterna, Thulium eller fynden. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) lägger till resurserna i en malmbit när du plockar upp den, som i vilken låda som helst.
 - Pansaret drar sina poäng från varje träff, men minst 20 % av en träff går alltid igenom.
 - En områdesexplosion gör 1,6 gånger så mycket mot en spröd asteroid som mot vilken annan som helst.
@@ -86,13 +86,13 @@ Varje värld, Alpha, Beta och Gamma, har egna asteroider på samma platser ([Vä
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Värld | Skrov | Betalning | Thulium-gräns | Kreditgräns |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3 000 | 13 000 000 |
-| **Beta** | ×1,5 | ×2 | 4 500 | 18 000 000 |
-| **Gamma** | ×2 | ×3 | 6 000 | 21 000 000 |
+| Värld | Skrov | Betalning |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens faktor på varje asteroids skrov och **Betalning** dess faktor på krediterna och Thulium från en sprängning; malmen och de sällsynta fynden är desamma i varje värld. De två gränserna är det mesta en pilot betalas för bitar under en valfri period på 24 h.
+Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens faktor på varje asteroids skrov och **Betalning** dess faktor på krediterna och Thulium från en sprängning; malmen och de sällsynta fynden är desamma i varje värld. Bitar betalar fullt ut: det finns ingen daglig gräns.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ De bästa betalarna: var och en betalar mer krediter och Thulium än den genomsn
 
 | Sort | Skrov | Storlek | Nivå | Särdrag | Kreditbitar | Gjord för | Krediter | Thulium | Fynd | Finns i |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Medelstor | 3 | Explosioner ×1,6 | 2 | Ungefär 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66 000 | Medelstor | 3 | Explosioner ×1,6 | 2 | Ungefär 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100 000 | Stor | 4 | – | 2 | Ungefär 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
 | **Vault Rock** | 130 000 | Stor | 4 | – | 3 | Ungefär 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50 % för 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150 000 | Stor | 5 | Explosioner ×1,6 | 3 | Ungefär 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ En asteroid är ingen nedskjutning. Att spränga en ger ingen XP, ingen heder, i
 - **Börja med raketen sorten är gjord för.** En svagare raket spränger också asteroiden, men det går åt fler raketer och mer av timern. En starkare är snabbare, men det en träff gör utöver skrovet som är kvar går förlorat, och en raket kostar lika mycket vad den än träffar.
 - **Ta explosioner mot kristall och styrka mot järn.** En Scatter eller en Ember är raketen för en spröd asteroid, och en pansrad kräver en starkare raket än skrovet antyder, eftersom pansaret drar sina poäng från varje träff.
 - **Låt lasrarna arbeta mellan raketerna.** De skjuter en gång i sekunden och kostar ammunition, inte raketer, men en salva gör bara 5 % av vad den gör mot ett skepp: de kompletterar raketerna och ersätter dem inte.
-- **Håll koll på dagsgränsen.** Bitar betalar inte mer när du har plockat upp din världs gräns under ett dygn, och brytningen betalar så bra att du når den på några timmar; gränsen finns under Världarna.
-- **Spräng de stora tillsammans.** Asteroiden Motherlode är en sten för en grupp: en grupp räknas som en pilot, och dess del delas efter nivå mellan gruppmedlemmarna som är nära och skjuter.
+- **Håll koll på utbudet.** Bitar har ingen daglig gräns, men en sektor rymmer bara så många asteroider och var och en växer tillbaka först efter en stund; i en fullpackad sektor får varje pilot mindre, så byt till en lugnare.
+- **Spräng de stora tillsammans.** Asteroiden Motherlode är en sten för en grupp: en grupp räknas som en pilot, och dess del delas efter nivå mellan gruppmedlemmarna som är nära och skjuter. En Mole arbetar också med den, åt den som flyger med den.
 - **Ha koll på sektorn.** Asteroider skjuter inte tillbaka, men sektorerna runt dem har fortfarande utomjordingar och, i farosektorerna, andra piloter.
 - **Använd dem, men se upp.** En asteroid mellan dig och en rival eller en utomjording håller dina lasrar och deras borta från varandra. En rival som skjuter på dig över asteroiden du bryter skadar den och får betalt efter skadan, som varje annan pilot.

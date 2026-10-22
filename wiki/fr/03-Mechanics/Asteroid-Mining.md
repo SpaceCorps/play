@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
 Les **astéroïdes** sont de gros rochers qui flottent dans le plan de vol des secteurs des corporations et des secteurs dangereux. Ils ne bougent jamais et ne tirent jamais. Brisez-en un avec des **roquettes** ou des **lasers** et il éclate en petits **fragments** de crédits, de Thulium et de minerai, que vous ramassez comme une [cargaison](/wiki/03-Mechanics/Cargo.md). Les roquettes sont l’outil qu’il faut : vos lasers endommagent aussi un astéroïde, mais à 5 % seulement de ce qu’ils infligent à un vaisseau, et les drones ne lui font rien. Une chose de plus brise des astéroïdes pour vous : un P.E.T. **Mole** arrimé ([plus bas](#the-mole-pet)).
 
-L’extraction est un travail différent de la chasse, pas un remplacement : elle ne donne ni XP, ni honneur, ni points de classement, et les roquettes que vous tirez coûtent des crédits ou du Thulium. Elle vous offre des crédits et du Thulium, du minerai pour la [Forge](/wiki/06-Items/Forge.md) et pour fabriquer sans combattre, et un travail qu’un [groupe](/wiki/03-Mechanics/Groups.md) peut partager. Elle paie bien : selon le modèle du jeu lui-même, une heure sur les bons astéroïdes avec la bonne roquette rapporte de 2,6 à 6,8 fois la meilleure heure de chasse de votre niveau, une fois les roquettes payées. Les limites journalières de [Les mondes](#the-worlds) la plafonnent, et vous les atteignez vite : dans Alpha, un mineur régulier dans un bon secteur atteint la limite de Thulium en moins de 2 heures et celle de crédits en environ 2,7 heures.
+L’extraction est un travail différent de la chasse, pas un remplacement : elle ne donne ni XP, ni honneur, ni points de classement, et les roquettes que vous tirez coûtent des crédits ou du Thulium. Elle vous offre des crédits et du Thulium, du minerai pour la [Forge](/wiki/06-Items/Forge.md) et pour fabriquer sans combattre, et un travail qu’un [groupe](/wiki/03-Mechanics/Groups.md) peut partager. Elle paie bien : selon le modèle du jeu lui-même, une heure sur les bons astéroïdes avec la bonne roquette rapporte de 2,6 à 6,8 fois la meilleure heure de chasse de votre niveau, une fois les roquettes payées. Elle n’a pas de limite journalière : chaque fragment que vous ramassez paie en entier, si bien que ce qui borne votre journée, ce sont les astéroïdes que le secteur contient et la vitesse à laquelle ils repoussent.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ Un astéroïde est un travail partagé : autant de pilotes que l’on veut peuv
 Un **Mole** arrimé (un type de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) travaille pour vous pendant que vous volez : toutes les 3 secondes, il donne une impulsion à l’astéroïde le plus proche dans un rayon d’environ cinq longueurs de vaisseau et demie autour de votre vaisseau, jusqu’à sa rupture, puis prend le suivant. Ses impulsions entrent à votre nom dans les dégâts de l’astéroïde, donc une rupture vous paie comme si vous l’aviez brisé avec une roquette : les fragments, les trouvailles, la chance d’un Cluster Chunk et votre mission d’astéroïdes.
 
 - **Combien il brise.** Un Mole au sommet (un Legendary de niveau 20) brise au moins autant d’astéroïdes à l’heure qu’un pilote qui leur tire la meilleure roquette, Rivet III, et les grades et niveaux plus bas en brisent moins ([le tableau](/wiki/03-Mechanics/Pets.md#how-strong)). Il n’utilise ni munitions ni roquettes. Vos lasers, roquettes, amplificateurs, boosters, formation et les Dégâts de vos P.E.T.s ne changent pas une impulsion, et le blindage ralentit une impulsion comme il ralentit une roquette.
-- **Quels astéroïdes.** Le plus proche à portée que personne d’autre que vous et votre groupe n’a touché et qu’aucun autre astéroïde ni Energetic Wall ne couvre. Il ne travaille jamais la Motherlode, et il ne travaille pas en zone sûre, occulté, pendant que vous sautez ni pendant que votre vaisseau est détruit.
-- **Pas de limite propre.** Un Mole travaille chaque heure où vous volez, que vous touchiez aux touches ou non (un vaisseau inactif est une cible), et aucune limite quotidienne ne l’arrête. Reste ce qui arrête tout le monde : les limites de Thulium et de crédits de [Les mondes](#the-worlds), qu’un Mole au sommet qui ne s’arrête jamais atteint après environ 2 à 6 heures de travail. Ensuite, ses fragments ne paient que ce qu’il reste sous les limites.
+- **Quels astéroïdes.** Le plus proche à portée qu’aucun autre astéroïde ni Energetic Wall ne couvre. Tout astéroïde qu’une roquette pourrait toucher convient : la Motherlode et les épaves (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser) aussi, ainsi qu’un astéroïde que d’autres pilotes ont touché, et les chunks vont alors selon les dégâts, comme toujours. Les épaves que vous voyez dériver à l’arrière-plan ne sont qu’un décor, pas des astéroïdes. Il ne travaille pas en zone sûre, occulté, pendant que vous sautez ni pendant que votre vaisseau est détruit.
+- **Pas de limite propre.** Un Mole travaille chaque heure où vous volez, que vous touchiez aux touches ou non (un vaisseau inactif est une cible), et aucune limite quotidienne ne l’arrête, ni la sienne ni celle du monde. Reste ce qui borne tout le monde : les astéroïdes à sa portée et la vitesse à laquelle ils repoussent. Ses fragments paient en entier, comme les vôtres.
 - **Un seul travaille.** Parmi les Moles de votre Station, seul le plus fort travaille ; les autres n’apportent que des boosts.
 
 ## Les règles {#the-rules}
@@ -69,7 +69,7 @@ Un **Mole** arrimé (un type de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) t
 - Un [groupe](/wiki/03-Mechanics/Groups.md#sharing-kills) compte comme un seul pilote, et sa part est répartie selon le niveau entre les équipiers proches qui tirent.
 - Les fragments d’une destruction sont réservés pendant 30 s au pilote pour qui ils ont été posés, et à son clan. Ensuite, n’importe qui sur la carte peut les prendre. Un fragment que personne ne prend disparaît au bout de 3 min.
 - Une carte contient au plus 36 fragments, dans les 64 caisses qu’elle peut contenir : les fragments ne chassent jamais les caisses des aliens, et celles-ci ne chassent jamais un fragment. Quand la carte n’a plus de place pour un fragment, le pilote pour qui il était est payé aussitôt.
-- Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Sur n’importe quelle période de 24 h, un pilote reçoit au plus les limites de [Les mondes](#the-worlds) : un fragment au-dessus de la limite est consommé et ne paie que ce qui reste en dessous, et le Journal de jeu le dit.
+- Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Il n’y a pas de limite journalière à ce que vous pouvez recevoir : chaque fragment paie en entier ses crédits et son Thulium, quel que soit le nombre que vous en ramassez en une journée.
 - Le gain est le même pour tout le monde : aucun bonus Premium, bonus de la boutique de saison, bonus de clan, Loot Luck ni booster ne change les crédits, le Thulium ni les trouvailles. Le [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ajoute aux ressources d’un fragment de minerai quand vous le ramassez, comme à n’importe quelle caisse.
 - Le blindage retire ses points de chaque coup, mais au moins 20 % d’un coup passent toujours.
 - Une explosion de zone fait 1,6 fois plus de dégâts à un astéroïde fragile qu’à tout autre.
@@ -86,13 +86,13 @@ Chaque monde, Alpha, Beta et Gamma, a ses propres astéroïdes aux mêmes endroi
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Monde | Coque | Gain | Limite de Thulium | Limite de crédits |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3 000 | 13 000 000 |
-| **Beta** | ×1,5 | ×2 | 4 500 | 18 000 000 |
-| **Gamma** | ×2 | ×3 | 6 000 | 21 000 000 |
+| Monde | Coque | Gain |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Les tableaux ci-dessous donnent les chiffres d’un astéroïde d’Alpha. **Coque** est le facteur du monde sur la coque de chaque astéroïde et **Gain** son facteur sur les crédits et le Thulium d’une destruction ; le minerai et les trouvailles rares sont les mêmes dans tous les mondes. Les deux limites sont le maximum qu’un pilote reçoit en fragments sur n’importe quelle période de 24 h.
+Les tableaux ci-dessous donnent les chiffres d’un astéroïde d’Alpha. **Coque** est le facteur du monde sur la coque de chaque astéroïde et **Gain** son facteur sur les crédits et le Thulium d’une destruction ; le minerai et les trouvailles rares sont les mêmes dans tous les mondes. Les fragments paient en entier : il n’y a pas de limite journalière.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ Les meilleurs payeurs : chacun paie plus de crédits et de Thulium que l’ast�
 
 | Type | Coque | Taille | Palier | Particularité | Fragments d’argent | Conçu pour | Crédits | Thulium | Trouvailles | Où le trouver |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Moyen | 3 | Explosions ×1,6 | 2 | Environ 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66 000 | Moyen | 3 | Explosions ×1,6 | 2 | Environ 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100 000 | Grand | 4 | – | 2 | Environ 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
 | **Vault Rock** | 130 000 | Grand | 4 | – | 3 | Environ 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50 % pour 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150 000 | Grand | 5 | Explosions ×1,6 | 3 | Environ 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Un astéroïde n’est pas une élimination. Le briser ne donne ni XP, ni honneu
 - **Commencez avec la roquette pour laquelle le type est conçu.** Une roquette plus faible brise aussi l’astéroïde, mais il en faut plus et il faut plus de minuteur. Une plus forte est plus rapide, mais ce qu’un coup inflige au-delà de la coque restante est perdu, et une roquette coûte le même prix quoi qu’elle touche.
 - **Prenez des explosions pour le cristal et de la force pour le fer.** Une Scatter ou une Ember est la roquette d’un astéroïde fragile, et un astéroïde blindé demande une roquette plus forte que sa coque ne le laisse croire, parce que le blindage retire ses points de chaque coup.
 - **Laissez travailler vos lasers entre les roquettes.** Ils tirent une fois par seconde et coûtent des munitions, pas des roquettes, mais une salve ne fait que 5 % de ce qu’elle fait à un vaisseau : ils s’ajoutent aux roquettes et ne les remplacent pas.
-- **Surveillez la limite journalière.** Les fragments ne paient plus quand vous avez ramassé la limite de votre monde sur une journée, et l’extraction paie assez pour que vous l’atteigniez en quelques heures ; la limite est dans Les mondes.
-- **Brisez les gros ensemble.** L’astéroïde Motherlode est un rocher pour un groupe : un groupe compte comme un seul pilote et sa part est répartie selon le niveau entre les équipiers proches qui tirent.
+- **Surveillez l’offre.** Les fragments n’ont pas de limite journalière, mais un secteur ne contient qu’un certain nombre d’astéroïdes et chacun ne repousse qu’au bout d’un moment ; dans un secteur bondé, chaque pilote en reçoit moins, alors passez dans un secteur plus calme.
+- **Brisez les gros ensemble.** L’astéroïde Motherlode est un rocher pour un groupe : un groupe compte comme un seul pilote et sa part est répartie selon le niveau entre les équipiers proches qui tirent. Un Mole la travaille aussi, pour celui qui vole avec lui.
 - **Gardez un œil sur le secteur.** Les astéroïdes ne ripostent pas, mais les secteurs autour d’eux contiennent toujours des aliens et, dans les secteurs dangereux, d’autres pilotes.
 - **Servez-vous-en, et méfiez-vous-en.** Un astéroïde entre vous et un rival ou un alien tient vos lasers et les leurs éloignés les uns des autres. Un rival qui vous tire dessus par-dessus l’astéroïde que vous minez l’endommage et est payé aux dégâts infligés, comme n’importe quel autre pilote.

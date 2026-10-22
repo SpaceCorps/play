@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Her sezon 1. günden 30. güne kadar sürer (sıfırlama, 30. gün başlarken 5 
 | **İlk Temas** | 4–10. günler | Etkinlik 1 | PvP açılır (dünyanın kuralına göre, aşağıdaki Dünyalar bölümüne bak) ve üç [sürü](/wiki/05-Swarms/Swarms.md) belirmeye başlar: sıfırlamaya kadar, bu evreden sonraki evreler boyunca kalırlar. Evre kendi başına henüz özel ödül vermez. |
 | **Teknoloji Atılımı** | 11–18. günler | Etkinlik 2 | [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) değişir: `DS-1` ile `DS-3` arasındaki her pulsarın yanında bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md), `DS-4` sektöründe [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesi, Slumbering Void uzaylıları ve daha çabuk geri gelen, iki kat ödeyen bir Dormant sürüsü. Hepsi sıfırlamaya kadar kalır. Evre kendi başına ödül vermez. |
 | **Savaş Oyunları** | 19–25. günler | Etkinlik 3 | Henüz özel bir etkisi yok: PvP, Barış Protokolü’nden sonraki her evrede olduğu gibi çalışır. |
-| **Son Geri Sayım** | 26–30. günler | Etkinlik 4 | Son geri sayım evresi. Tüm pilotlar, patlamadan önce taşıdıkları kargoyu tamamlamak ve kilitlemek için yarışır. |
+| **Son Geri Sayım** | 26–30. günler | Etkinlik 4 | Son geri sayım evresi. Tüm pilotlar, patlamadan önce taşıdıkları kargoyu tamamlamak için yarışır. |
 | **Sıfırlama** | 30. gün | Kara Delik Patlaması | Evren yok olur ve yeniden doğar, her [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) dağıtılır. Pilotlar, bir sonraki sezon için hedef olarak seçtikleri dünyaya geçer. |
 
 Sıfırlamanın kendisi dışında takvimi yalnızca dört şey izler: Barış Protokolü (1–3. günler) bir kuralı değiştirir, 4. günden itibaren [sürüler](/wiki/05-Swarms/Swarms.md) belirir ve sıfırlamaya kadar kalır, 11. günden itibaren [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) dev ekskavatörlerini (1. günden itibaren parlayan pulsarların yanında) ve Dormant Swamp bölgesini alır, bunlar da sıfırlamaya kadar kalır ve [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) 28. günden itibaren ücret almaz, 30. günden itibaren kapalıdır. Dört etkinlik, sezonun adlandırılmış evreleridir: oyunun Sezon ve Profil sayfasında ve Gösterge Paneli’nde görünürler. Etkinlik 2, Tehlike Sektörleri’ni yukarıdaki gibi değiştirir; ötekilerin hiçbiri henüz kendine ait özel bir ödül, doğuş ya da bonus vermez.
@@ -46,9 +46,9 @@ Parçaları, yerel enerji sektörlerini çevirerek geçit parçalarını bulan E
 100 parçanın hepsi toplandığında ve Chrono-Gate geçidi tamamen dengelendiğinde portal, kişisel **Nakliye Deposu**’na erişimi açar (taşıma arabası ya da seyahat kapsülü olarak da bilinir). Bu cep boyutu, eşyalarını sıfırlama sırasında silinmekten korur. [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe)’da ilana koyduğun eşyalar sıfırlamada sana boşta duran eşyalar olarak geri döner; sıfırlama bunları, depoya koymadıysan, diğerleri gibi siler; lotlarda tuttuğun teklifler iade edilir.
 
 ### Otomatik taşıma (ücretsiz) {#automatic-carry-over-free-}
-Aşağıdaki eşyalar her zaman korunur ve Nakliye Deposu kapasitenden **hiç** yer kaplamadan bir sonraki sezona otomatik olarak taşınır:
-1. Şu an aktif olan gemin.
-2. O aktif gemide hem **Konfigürasyon 1** hem **Konfigürasyon 2** boyunca takılı olan her eşya (lazerler, kalkanlar, motorlar ve jeneratörler dahil).
+Aşağıdakiler her zaman korunur ve Nakliye Deposu kapasitenden **hiç** yer kaplamadan bir sonraki sezona otomatik olarak taşınır:
+1. Sahip olduğun her gemi; onarılmış ve boyasıyla birlikte. Hangar kalıcı olarak senindir; takılı olanları yalnızca aktif geminde kalır (sonraki madde), diğer gemilerindeki ekipman ise depoya koymazsan her serbest eşya gibi kaybolur.
+2. Aktif geminde hem **Konfigürasyon 1** hem **Konfigürasyon 2** boyunca takılı olan her eşya (lazerler, kalkanlar, motorlar ve jeneratörler dahil).
 3. Sahip olduğun her dron, seviyesi ve deneyimiyle: [Slave Drone](/wiki/03-Mechanics/Drones.md) eşyaların kalır; böylece dron yuvaların açık kalır ve bir sonraki dronunun fiyatı elindeki sayıdan devam eder. Bir dron yuvasına takılı lazerler ve kalkanlar yukarıdaki kurala uyar: aktif gemideyse kalırlar.
 4. Sahip olduğun her dron formasyonu ([Dron formasyonları](/wiki/03-Mechanics/Formations.md)), nerede olursa olsun: envanterinde, kısayol çubuğunda ya da bir gemide. Dronların gibi, Nakliye Deposu kapasitesinden hiç yer kullanmadan kalırlar.
 
@@ -56,20 +56,23 @@ Aşağıdaki eşyalar her zaman korunur ve Nakliye Deposu kapasitenden **hiç** 
 Envanterinde saklamak istediğin ek eşyalar için (örneğin yedek silahlar, üretim kaynakları ya da fazladan kalkan jeneratörleri):
 * **Ağırlık sınırı**: Nakliye Deposu’nun katı bir kapasite sınırı vardır: **50 ton (50.000 kg)**.
 * **Eşya yükleme**: hangar envanterinden eşyaları elle sürükleyip Nakliye Deposu yuvalarına bırakabilirsin.
-* **Eşya ağırlığı**: Farklı eşya sınıflarının ayrı ağırlıkları vardır:
-  * *Lazerler / silahlar*: 10 kg
-  * *Kalkan jeneratörleri*: 20 kg
-  * *Motorlar / itki sistemleri*: 30 kg
-  * *Jeneratörler*: 30 kg
-  * *Kaynaklar / mineraller*: Nadirliğe göre değişen ağırlıklar (Skylab Dökümhanesi’nden çıkan bir Reinforced Plate 5 kg ağırlığındadır)
+* **Eşya ağırlığı**: Her eşyanın sabit bir ağırlığı vardır. Bir yığının ağırlığı, bu ağırlığın adetle çarpımıdır; içine modül takılı bir eşya modülleriyle birlikte girer ve onların ağırlığı da eklenir:
+  * *Lazerler, kalkan çekirdekleri, motorlar, uyarlanabilir çekirdekler*: tanesi 2.500 kg
+  * *İticiler, lazer amfileri, kalkan hücreleri*: tanesi 1.000 kg
+  * *Gövde kaplaması, boosterlar, ekstralar, Energetic Wall*: tanesi 500 kg
+  * *EMP Charge*: tanesi 250 kg
+  * *Plakalar* (Skylab Dökümhanesi’nin ürettiği Velkonite Reinforced Plate ve Orvium Reinforced Plate ile Dark Matter Plate): tanesi 5 kg
+  * *Cluster Chunk*: 2 kg (Regular), 4 kg (Mythical) veya 8 kg (Legendary)
+  * *Diğer kaynaklar ve lazer cephanesi* (cevher, Ship Fragment, Power Core, Reinforced Hull Plate, Dark Matter ve benzerleri): tanesi 1 kg
   * *Roketler*: hiç ağırlığı yok: depoda yer kaplamazlar, bu yüzden bütün yığınlar girer (bkz. [Roketler](/wiki/06-Items/Rockets.md))
+* **Örnek**: 20 lazer: 20 × 2.500 kg = 50.000 kg, yani depo tam dolar; 21. lazer reddedilir. Üç iticisi takılı bir Engine III: 2.500 + 3 × 1.000 = 5.500 kg. Kaynaklar hafiftir: 1.000 cevherlik bir yığın 1.000 kg, 100 plaka ise 500 kg eder.
 
 [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) hiçbir zaman silinmez: modülleri seviyelerini korur ve Kaynak Deposu biriktirilmiş cevherini korur. Araştırma Merkezi, [Araştırma](/wiki/03-Mechanics/Research.md) sayfasında yazan her şeyi de korur: teknolojilerini, bilim deposundaki bilim puanını, içindeki Dark Matter’ı, süren bir araştırmayı ve hızlandırmayı. Kurduğun Extra Slots CPU kurulumları da öyle: onlar eşya değildir. [P.E.T.](/wiki/03-Mechanics/Pets.md)’lerin de öyle (yanaştırılmış ya da saklanmış), Beşik’te süren işler, Kodeks ve P.E.T. Station eşyaların da; [görünümlerin](/wiki/06-Items/Cosmetics.md) de, onlar da eşya değildir. Daha önce topladıkların ise kalmaz: envanterindeki plakalar herhangi bir eşya gibidir, bu yüzden saklamak istediğin bir plaka Nakliye Deposu’nda olmalıdır. Cluster Chunk de bir eşyadır; Skylab’ındaki Motor Modülü’ne ya da Savunma Modülü’ne takılı bir motor ya da lazer de: saklamak için onu modülden çıkarıp depoya koy. Süren bir Skylab seferi sıfırlamaya kadarki kısmıyla sonuçlandırılır, Trofe Bölmesi kredisini, Thulium’unu, deneyimini ve onurunu öder ve boşaltılır (ganimeti, boşta duran her eşya gibi silinir) ve Skylab yeni sezona evde, yeni bir evren haritasıyla başlar.
 
 ### Onayla ve kilitle {#confirm-lock}
-Sezon bitmeden önce Maddeleştirici arayüzünde **Onayla ve kilitle** düğmesine tıklamalısın.
-* Depoyu kilitlemek, sıçrama aynasını hazırlayan bir güvenlik protokolüdür.
-* **UYARI**: Aktif gemine takılı olmayan, dron olmayan ya da kilitli bir Nakliye Deposu’nda saklanmayan her eşya, Kara Delik Patlaması sırasında **kalıcı olarak yok edilir**.
+Sezon bitmeden önce Maddeleştirici arayüzünde **Onayla ve kilitle** düğmesine tıklayabilirsin.
+* Kilitlemek depoyu dondurur: sen kilidi açana kadar içine bir şey eklenemez, içinden bir şey alınamaz. Bu bir koşul değil, bir güvenlik mandalıdır: Nakliye Deposu’ndakiler kilitli olsun olmasın bir sonraki sezona geçer.
+* **UYARI**: Aktif gemine takılı olmayan, dron ya da dron formasyonu olmayan ve Nakliye Deposu’nda (kilitli olsun olmasın) saklanmayan her eşya, Kara Delik Patlaması sırasında **kalıcı olarak yok edilir**.
 
 ---
 
@@ -100,7 +103,7 @@ Dünyaların işleyişi:
 
 ## Sezonlar arası ilerleme (kalıcı güçlendirmeler) {#cross-season-progression-permanent-buffs-}
 
-Sıfırlama gemilerini ve eşyalarını alır (aktif gemin ve ona takılı her şey, Nakliye Deposu ve dronların hariç) ve seni şirketinin ana sektörüne geri koyar; seviyen, kredin, Thulium’un ve sıralama puanların sıfırlanmaz. Bunun üzerine, genel pilot başarıların kalıcı güce katkıda bulunur. Uzaylıları yenmek ve görevleri tamamlamak **sıfırlama puanı (WP)** kazandırır. [Görevlerin](/wiki/03-Mechanics/Quests.md) kendileri, yapılmış ve süren, taşınır: her biri pilot başına, hiçbir zaman, yalnızca bir kez yapılabilir; 0.4.10 güncellemesinin yeniden düzenlediği seviye görevleri hariç: bunlardan 64 tanesi bir kez daha sunulur ([Görevler](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+Sıfırlama eşyalarını alır (aktif gemine takılı olanlar, Nakliye Deposu ve dronların hariç), tüm gemilerini sana bırakır ve seni şirketinin ana sektörüne geri koyar; seviyen, kredin, Thulium’un ve sıralama puanların sıfırlanmaz. Bunun üzerine, genel pilot başarıların kalıcı güce katkıda bulunur. Uzaylıları yenmek ve görevleri tamamlamak **sıfırlama puanı (WP)** kazandırır. [Görevlerin](/wiki/03-Mechanics/Quests.md) kendileri, yapılmış ve süren, taşınır: her biri pilot başına, hiçbir zaman, yalnızca bir kez yapılabilir; 0.4.10 güncellemesinin yeniden düzenlediği seviye görevleri hariç: bunlardan 64 tanesi bir kez daha sunulur ([Görevler](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Klanlar ve rütbeler.** Sıfırlama her klanı, filo hazinesi, gönderileri, günlüğü, antlaşmaları, puanları ve güçlendirme seviyeleriyle birlikte dağıtır; bu yüzden her sezon bir klan kurmak ve güçlendirmelerini doldurmak için yeni bir yarıştır; bir klanın sana ödediği krediler kalır, bağış sınırın da ([Klanlar](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Liderler ve yardımcı liderler: geri sayım bitmeden filo hazinesini öde. PvE sıralama puanların da kalır, bu yüzden bir sıfırlama şirketinin sıralamasındaki yerini değiştirmez: rütben orada yerine göre belirlenir, sezona göre değil ([Rütbeler](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

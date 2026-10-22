@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -14,7 +14,7 @@ A megsemmisített idegenek a zsákmányukat izzó rakományládákként hagyják
 - A **feketelyuk** **Dark Matter**-ládákat rak le a zónája peremén a beléje lőtt N.I.K.E. rakétáért (lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Ők az egyetlen fajta láda, amely a lyuk gyűrűjén belül fekszik.
 - **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
 - **Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** nem ejt ilyen ládát: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](#private-boxes) kap a zsákmányból járó részével.
-- Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor, és 24 óránként egy korlát érvényes. A darabot úgy veszik fel, mint egy ládát, és azoknak a pilótáknak van fenntartva, akik kiérdemelték, utána szabad, mint egy láda.
+- Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. A darabot úgy veszik fel, mint egy ládát, és azoknak a pilótáknak van fenntartva, akik kiérdemelték, utána szabad, mint egy láda.
 
 Az az idegen, amelyet egy vállalati pilóta fejez be, a zsákmányát annak a pilótának dobja, akinek a kilövés számít (aki a foglalását tartja, különben a vállalatának az ellene harcoló pilótája); az az idegen, amellyel egy vállalati pilóta egyedül harcolt, semmit sem dob, mert a vállalati pilóták sosem gyűjtenek.
 

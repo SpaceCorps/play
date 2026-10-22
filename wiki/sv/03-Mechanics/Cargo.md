@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 - **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
 - **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
 - **En [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar ingen sådan låda: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](#private-boxes) med sin del av bytet.
-- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker, och en gräns för varje period på 24 timmar gäller. En bit plockas upp som en låda, och den är reserverad för piloterna som förtjänade den och sedan fri, som en låda.
+- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. En bit plockas upp som en låda, och den är reserverad för piloterna som förtjänade den och sedan fri, som en låda.
 
 En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
 

@@ -2,7 +2,7 @@
 
 **Asteroids** are big rocks that lie in the flight plane of the company sectors and the Danger Sectors. They never move and they never shoot. Break one with **rockets** or **lasers** and it bursts into small **chunks** of Credits, Thulium and ore, which you pick up like [cargo](/wiki/03-Mechanics/Cargo.md). Rockets are the tool for the job: your lasers hurt an asteroid too, but only at 5% of what they do to a ship, and drones do nothing to it. One thing more breaks asteroids for you: a docked **Mole** P.E.T. ([below](#the-mole-pet)).
 
-Mining is a different job from hunting, not a replacement for it: it earns no XP, honor or ranking points, and the rockets you fire cost Credits or Thulium. What it gives you is Credits and Thulium, ore for the [Forge](/wiki/06-Items/Forge.md) and for crafting without a fight, and a job that a [group](/wiki/03-Mechanics/Groups.md) can share. It pays well: by the game's own model an hour at the right asteroids with the right rocket earns about 2.6 to 6.8 times the best hunting hour of your level, once the rockets are paid for. The daily limits of [The worlds](#the-worlds) cap it, and you reach them soon: in Alpha, a steady miner on a good sector reaches the Thulium limit in under 2 hours and the Credits limit in about 2.7 hours.
+Mining is a different job from hunting, not a replacement for it: it earns no XP, honor or ranking points, and the rockets you fire cost Credits or Thulium. What it gives you is Credits and Thulium, ore for the [Forge](/wiki/06-Items/Forge.md) and for crafting without a fight, and a job that a [group](/wiki/03-Mechanics/Groups.md) can share. It pays well: by the game's own model an hour at the right asteroids with the right rocket earns about 2.6 to 6.8 times the best hunting hour of your level, once the rockets are paid for. There is no daily limit on it: every chunk you collect pays in full, so what bounds your day is the asteroids the sector holds and how fast they grow back.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../img/wiki-img/shots/rock-target.jpg)
 
@@ -54,8 +54,8 @@ An asteroid is shared work: any number of pilots can hit one, with rockets, lase
 A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works for you while you fly: every 3 seconds it gives the nearest asteroid within about five and a half ship lengths of your ship a pulse, until it breaks, then takes the next. Its pulses go into the asteroid's damage under your name, so a break pays you as if you had broken it with a rocket: the chunks, the finds, the chance of a Cluster Chunk and your Asteroids mission.
 
 - **How much it breaks.** A Mole at the top (a Legendary of level 20) breaks at least as many asteroids an hour as a pilot who fires the best rocket, Rivet III, at them, and the lower grades and levels fewer ([the table](/wiki/03-Mechanics/Pets.md#how-strong)). It uses no ammo and no rockets. Your lasers, rockets, amps, boosters, formation and P.E.T. Damage do not change a pulse, and armour slows a pulse as it slows a rocket.
-- **Which asteroids.** The nearest one in reach that nobody but you and your group has hurt and that no other asteroid or Energetic Wall covers. It never works the Motherlode, and it does not work in a safe zone, in a cloak, while you jump or while your ship is destroyed.
-- **No limit of its own.** A Mole works every hour you fly, whether you touch the keys or not (an idle ship is a target), and no daily limit stops it. What stays is what stops everybody: the Thulium and Credits limits of [The worlds](#the-worlds), which a top Mole that never stops reaches within about 2 to 6 hours of work. After that its chunks pay only what is left under the limits.
+- **Which asteroids.** The nearest one in reach that no other asteroid or Energetic Wall covers. Every asteroid a rocket could hurt is one: the Motherlode and the wrecks (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser) too, also an asteroid that other pilots have hurt, and the chunks then go by damage as ever. The wrecks you see drifting in the background are only scenery, not asteroids. It does not work in a safe zone, in a cloak, while you jump or while your ship is destroyed.
+- **No limit of its own.** A Mole works every hour you fly, whether you touch the keys or not (an idle ship is a target), and no daily limit stops it, neither its own nor the world's. What stays is what bounds everybody: the asteroids within its reach and how fast they grow back. Its chunks pay in full, as yours do.
 - **Only one works.** Of the Moles in your Station only the strongest works; the others only boost.
 
 ## The rules
@@ -67,7 +67,7 @@ A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works f
 - A [group](/wiki/03-Mechanics/Groups.md#sharing-kills) counts as one pilot, and its part is split by level between the group mates who are close and shooting.
 - The chunks of a break are kept for the pilot they were laid for, and that pilot's clan, for 30 s. After that anyone on the map can take them. A chunk nobody takes is gone after 3 min.
 - A map holds at most 36 chunks, inside the 64 crates it can hold: chunks never push the aliens' crates out, and those never push a chunk out. When the map has no room for a chunk, the pilot it was for is paid at once.
-- Credits and Thulium are paid when a chunk is collected, not when the asteroid breaks. Over any 24 h a pilot is paid at most the limits of [The worlds](#the-worlds): a chunk over the limit is used up and pays only what is left under it, and the Game Log says so.
+- Credits and Thulium are paid when a chunk is collected, not when the asteroid breaks. There is no daily limit on what you can be paid: every chunk pays the whole of its Credits and Thulium, however many you collect in a day.
 - The pay is the same for everybody: no Premium bonus, Season Store boost, clan boost, Loot Luck or booster changes the Credits, the Thulium or the finds. The [Resource Magnet Booster](/wiki/06-Items/Boosters.md) adds to the resources of an ore chunk when you collect it, as it does to any crate.
 - Armour takes its points off every hit, but at least 20% of a hit always gets through.
 - An area blast does 1.6 times as much to a brittle asteroid as to any other.
@@ -84,13 +84,13 @@ Each world, Alpha, Beta and Gamma, has asteroids of its own in the same places (
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| World | Hull | Pay | Thulium limit | Credits limit |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3,000 | 13,000,000 |
-| **Beta** | ×1.5 | ×2 | 4,500 | 18,000,000 |
-| **Gamma** | ×2 | ×3 | 6,000 | 21,000,000 |
+| World | Hull | Pay |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1.5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-The tables below give the numbers of an Alpha asteroid. **Hull** is the world's factor on every asteroid's hull and **Pay** its factor on the Credits and Thulium of a break; the ore and the rare finds are the same in every world. The two limits are the most one pilot is paid by chunks over any 24 h.
+The tables below give the numbers of an Alpha asteroid. **Hull** is the world's factor on every asteroid's hull and **Pay** its factor on the Credits and Thulium of a break; the ore and the rare finds are the same in every world. Chunks pay in full: there is no daily limit.
 
 <!-- asteroids-worlds:end -->
 
@@ -206,7 +206,7 @@ The best payers: each pays more Credits and Thulium than the average asteroid of
 
 | Kind | Hull | Size | Tier | Special | Cash chunks | Made for | Credits | Thulium | Finds | Found in |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | Medium | 3 | Blasts ×1.6 | 2 | About 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66,000 | Medium | 3 | Blasts ×1.6 | 2 | About 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100,000 | Large | 4 | – | 2 | About 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130,000 | Large | 4 | – | 3 | About 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101,400–169,050 | 50% for 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150,000 | Large | 5 | Blasts ×1.6 | 3 | About 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
@@ -238,7 +238,7 @@ An asteroid is no kill. Breaking one gives no XP, no honor, no kill count, no Pv
 - **Start with the rocket the kind is made for.** A weaker rocket breaks the asteroid too, but it takes more rockets and more of the timer. A stronger one is faster, but what a hit deals beyond the hull that is left is lost, and a rocket costs the same whatever it hits.
 - **Bring blasts for crystal and strength for iron.** A Scatter or an Ember is the rocket for a brittle asteroid, and an armoured one asks for a stronger rocket than its hull suggests, because the armour takes its points off every hit.
 - **Let your lasers work between the rockets.** They fire once a second and cost ammo, not rockets, but a volley does only 5% of what it does to a ship: they add to the rockets and do not replace them.
-- **Mind the daily limit.** Chunks pay no more once you have collected the limit of your world over a day, and mining pays so well that you reach it within a few hours; the limit is in The worlds.
-- **Break the big ones together.** The Motherlode is a rock for a group: a group counts as one pilot and its part is split by level between the group mates who are close and shooting.
+- **Mind the supply.** Chunks have no daily limit, but a sector holds only so many asteroids and each one grows back only after a while; in a crowded sector every pilot gets fewer, so move to a quieter one.
+- **Break the big ones together.** The Motherlode is a rock for a group: a group counts as one pilot and its part is split by level between the group mates who are close and shooting. A Mole works it too, for whoever flies it.
 - **Keep an eye on the sector.** Asteroids do not fight back, but the sectors around them still hold aliens and, in the Danger Sectors, other pilots.
 - **Use them, and mind them.** An asteroid between you and a rival or an alien keeps your lasers and theirs off each other. A rival who shoots at you across the asteroid you are mining hurts it, and is paid by the damage dealt like any other pilot.

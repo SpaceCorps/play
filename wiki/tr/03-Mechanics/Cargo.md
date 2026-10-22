@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Kargo -->
 # Kargo kutuları {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Yok edilen uzaylılar ganimetlerini uzayda parlayan kargo kutuları olarak bıra
 - **Kara delik**, içine ateşlenen her N.I.K.E. roketi için bölgesinin kenarına **Dark Matter** kutuları bırakır (bkz. [Kara delik](/wiki/03-Mechanics/Black-Hole.md)). Deliğin halkasının içinde duran tek kutu türü bunlardır.
 - **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil.
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** böyle bir kutu bırakmaz: hasarın %5’ini veya fazlasını veren her pilot, ganimetten payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
-- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir ve her 24 saat için bir sınır geçerlidir. Parça bir kutu gibi toplanır; önce onu kazanan pilotlara ayrılır, sonra bir kutuda olduğu gibi herkese açılır.
+- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir. Parça bir kutu gibi toplanır; önce onu kazanan pilotlara ayrılır, sonra bir kutuda olduğu gibi herkese açılır.
 
 Bir şirket pilotunun bitirdiği uzaylı, ganimetini öldürmenin sayıldığı pilot için bırakır (sahiplenmeyi elinde tutan pilot, yoksa ona karşı savaşan, şirketinden olan pilot); bir şirket pilotunun tek başına savaştığı uzaylı ise hiçbir şey bırakmaz, çünkü şirket pilotları asla toplamaz.
 

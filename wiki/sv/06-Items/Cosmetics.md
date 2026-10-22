@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -24,7 +24,7 @@ Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrov
 
 En skin är ett färgschema gjort av skeppets eget skrov: panellinjer, nummer och ränder blir kvar och bara färgerna ändras. Den är till för en **skeppsmodell**, och samma skin bärs av alla dina skepp av den modellen och av varje [design](/wiki/03-Mechanics/Ship-Designs.md) som gjorts av den; en ombyggnad behåller utseendet. Protos har ännu ingen skin, Kitefin, Ostirion och Nomad har en kollektion, och de fyra skepp du tillverkar i Monteringen har alla tio.
 
-Skins hör till ditt **konto**, inte till ett skepp, och de finns kvar över [wipen](/wiki/03-Mechanics/Wipe-Timeline.md); skeppet du behåller bär det det bar.
+Skins hör till ditt **konto**, inte till ett skepp, och de finns kvar över [wipen](/wiki/03-Mechanics/Wipe-Timeline.md); dina skepp bär det de bar.
 
 | Kollektion | Skepp | Sällsynthet | Hur den ser ut |
 | :--- | :--- | :--- | :--- |

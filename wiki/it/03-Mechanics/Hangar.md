@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7162db398da356a1 -->
+<!-- wiki-i18n source: 968a75aa2c9015c4 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -27,7 +27,7 @@ Le riparazioni in corso non ti fermano. In qualsiasi altro posto la finestra Han
 - **Extra.** Le quattro navi normali, Protos, Kitefin, Ostirion e Nomad (quelle con cui inizi o che compri), hanno 2 slot extra per configurazione; le quattro navi che costruisci all’Assemblaggio, Paragon, Ironclad, Wraith e Storm, ne hanno 3. Le Extra Slots CPU del tuo Skylab ne aggiungono 3, 5 o 7: quindi 5, 7 o 9 sulle normali e 6, 8 o 10 su quelle costruite ([Extra](/wiki/06-Items/Extras.md#extra-slots-cpus)). Con la 0.4.10, un terzo extra su una nave normale è stato rimosso e messo nel tuo inventario: non è stato cancellato nulla, e hai ricevuto un messaggio in chat.
 - **Corazza dello scafo.** Le quattro navi che costruisci hanno [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la corazza dello scafo, ciascuno bloccato finché non lo ricerchi nello Skylab. Una corazza che monti o smonti mantiene la tua quota di scafo, e resta montata quando cambi configurazione.
 - **Look.** La sezione **Look** della vista Astronave, dopo la corazza dello scafo, e il riquadro **Livrea dei droni** della vista Droni aprono il **Guardaroba**, dove provi skin, aure e scie sulla tua nave che ruota prima di indossarle. Dove si può cambiare l’equipaggiamento si può cambiare anche il look ([Cosmetici](/wiki/06-Items/Cosmetics.md)).
-- **P.E.T.** La vista **P.E.T.** contiene la Culla, dove un Cluster Chunk e una Orvium Reinforced Plate diventano un P.E.T., la P.E.T. Station (i suoi posti, dove è montata e se è su ON) e l’incrocio. In volo mostra soltanto ciò che hai: assemblare, agganciare, sganciare e incrociare si può solo con la nave atterrata a una stazione ([P.E.T.](/wiki/03-Mechanics/Pets.md)).
+- **P.E.T.** La vista **P.E.T.** contiene la Culla, dove un Cluster Chunk e una Orvium Reinforced Plate diventano un P.E.T., la P.E.T. Station (i suoi posti, dove è montata e se è su ON) e l’incrocio. In volo la Culla funziona (assemblare, ritirare, incrociare e lasciare andare), ma agganciare e sganciare si può solo con la nave atterrata a una stazione ([P.E.T.](/wiki/03-Mechanics/Pets.md)).
 
 Vendere non fa parte della finestra: il martelletto che apre l’[Asta](/wiki/03-Mechanics/Auction.md) appartiene all’Hangar della stazione, e l’Asta stessa è una pagina della stazione.
 

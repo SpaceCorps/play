@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 
 Los **asteroides** son grandes rocas que están en el plano de vuelo de los sectores de las corporaciones y de los sectores de peligro. Nunca se mueven y nunca disparan. Rompe uno con **cohetes** o con **láseres** y estalla en pequeños **fragmentos** de créditos, Thulium y mineral, que recoges como [carga](/wiki/03-Mechanics/Cargo.md). Los cohetes son la herramienta para el trabajo: tus láseres también dañan un asteroide, pero solo con el 5 % de lo que hacen a una nave, y los drones no le hacen nada. Una cosa más rompe asteroides por ti: un P.E.T. **Mole** acoplado ([abajo](#the-mole-pet)).
 
-La minería es un trabajo distinto de la caza, no un sustituto: no da XP, honor ni puntos de clasificación, y los cohetes que disparas cuestan créditos o Thulium. Lo que te da son créditos y Thulium, mineral para la [Forja](/wiki/06-Items/Forge.md) y para fabricar sin combatir, y un trabajo que un [grupo](/wiki/03-Mechanics/Groups.md) puede compartir. Paga bien: según el propio modelo del juego, una hora en los asteroides adecuados con el cohete adecuado rinde entre 2,6 y 6,8 veces la mejor hora de caza de tu nivel, una vez pagados los cohetes. Los límites diarios de [Los mundos](#the-worlds) la frenan, y los alcanzas pronto: en Alpha, un minero constante en un buen sector llega al límite de Thulium en menos de 2 horas y al de créditos en unas 2,7 horas.
+La minería es un trabajo distinto de la caza, no un sustituto: no da XP, honor ni puntos de clasificación, y los cohetes que disparas cuestan créditos o Thulium. Lo que te da son créditos y Thulium, mineral para la [Forja](/wiki/06-Items/Forge.md) y para fabricar sin combatir, y un trabajo que un [grupo](/wiki/03-Mechanics/Groups.md) puede compartir. Paga bien: según el propio modelo del juego, una hora en los asteroides adecuados con el cohete adecuado rinde entre 2,6 y 6,8 veces la mejor hora de caza de tu nivel, una vez pagados los cohetes. No tiene límite diario: cada fragmento que recoges paga por completo, así que lo que acota tu día son los asteroides que tiene el sector y lo rápido que vuelven a crecer.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ Un asteroide es trabajo compartido: cualquier número de pilotos puede golpearlo
 Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) trabaja para ti mientras vuelas: cada 3 segundos da un pulso al asteroide más cercano dentro de unas cinco longitudes de nave y media de tu nave, hasta que se rompe, y luego toma el siguiente. Sus pulsos entran en el daño del asteroide a tu nombre, así que una rotura te paga como si la hubieras roto con un cohete: los fragmentos, los hallazgos, la probabilidad de un Cluster Chunk y tu misión de asteroides.
 
 - **Cuánto rompe.** Un Mole en la cima (un Legendary de nivel 20) rompe al menos tantos asteroides por hora como un piloto que les dispara el mejor cohete, Rivet III, y las calidades y niveles inferiores, menos ([la tabla](/wiki/03-Mechanics/Pets.md#how-strong)). No gasta munición ni cohetes. Tus láseres, cohetes, amplificadores, potenciadores, formación y el Daño de tus P.E.T.s no cambian un pulso, y la armadura frena un pulso como frena un cohete.
-- **Qué asteroides.** El más cercano a su alcance que nadie más que tú y tu grupo haya dañado y que ningún otro asteroide ni Energetic Wall cubra. Nunca trabaja la Motherlode, y no trabaja en una zona segura, camuflado, mientras saltas ni mientras tu nave está destruida.
-- **Sin límite propio.** Un Mole trabaja cada hora que vuelas, toques las teclas o no (una nave inactiva es un blanco), y ningún límite diario lo detiene. Queda lo que detiene a todos: los límites de Thulium y de créditos de [Los mundos](#the-worlds), que un Mole en la cima que no se detiene nunca alcanza tras unas 2 a 6 horas de trabajo. Después, sus fragmentos pagan solo lo que queda bajo los límites.
+- **Qué asteroides.** El más cercano a su alcance que ningún otro asteroide ni Energetic Wall cubra. Sirve cualquier asteroide que un cohete podría dañar: también la Motherlode y los restos (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser), también un asteroide que otros pilotos han dañado, y los chunks se reparten entonces por daño, como siempre. Los restos que ves flotando al fondo son solo decorado, no asteroides. No trabaja en una zona segura, camuflado, mientras saltas ni mientras tu nave está destruida.
+- **Sin límite propio.** Un Mole trabaja cada hora que vuelas, toques las teclas o no (una nave inactiva es un blanco), y ningún límite diario lo detiene, ni propio ni del mundo. Queda lo que acota a todos: los asteroides a su alcance y lo rápido que vuelven a crecer. Sus fragmentos pagan por completo, como los tuyos.
 - **Solo trabaja uno.** De los Moles de tu Station solo trabaja el más fuerte; los demás solo dan bonificaciones.
 
 ## Las reglas {#the-rules}
@@ -69,7 +69,7 @@ Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 - Un [grupo](/wiki/03-Mechanics/Groups.md#sharing-kills) cuenta como un solo piloto, y su parte se reparte por nivel entre los compañeros del grupo que están cerca y disparan.
 - Los fragmentos de una rotura quedan reservados durante 30 s para el piloto para el que se colocaron y para su clan. Después, cualquiera en el mapa puede tomarlos. Un fragmento que nadie toma desaparece a los 3 min.
 - Un mapa admite como máximo 36 fragmentos, dentro de las 64 cajas que puede tener: los fragmentos nunca expulsan las cajas de los alienígenas, y estas nunca expulsan un fragmento. Cuando el mapa no tiene sitio para un fragmento, se paga de inmediato al piloto para el que era.
-- Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. En cualquier período de 24 h, a un piloto se le paga como máximo el límite de [Los mundos](#the-worlds): un fragmento por encima del límite se consume y solo paga lo que queda por debajo, y el Registro de juego lo dice.
+- Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. No hay límite diario para lo que se te paga: cada fragmento paga por completo sus créditos y su Thulium, recojas los que recojas en un día.
 - La paga es igual para todos: ningún bono Premium, mejora de la tienda de temporada, mejora de clan, Loot Luck ni potenciador cambia los créditos, el Thulium ni los hallazgos. El [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aumenta, al recogerlo, los recursos de un fragmento de mineral, como en cualquier caja.
 - El blindaje resta sus puntos de cada impacto, pero al menos el 20 % de un impacto siempre pasa.
 - Una explosión de área hace 1,6 veces más daño a un asteroide frágil que a cualquier otro.
@@ -86,13 +86,13 @@ Cada mundo, Alpha, Beta y Gamma, tiene asteroides propios en los mismos sitios (
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Mundo | Casco | Paga | Límite de Thulium | Límite de créditos |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3.000 | 13.000.000 |
-| **Beta** | ×1,5 | ×2 | 4.500 | 18.000.000 |
-| **Gamma** | ×2 | ×3 | 6.000 | 21.000.000 |
+| Mundo | Casco | Paga |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Las tablas de abajo dan los números de un asteroide de Alpha. **Casco** es el factor del mundo sobre el casco de cada asteroide y **Paga** su factor sobre los créditos y el Thulium de una rotura; el mineral y los hallazgos raros son iguales en todos los mundos. Los dos límites son lo máximo que se le paga a un piloto por fragmentos en cualquier período de 24 h.
+Las tablas de abajo dan los números de un asteroide de Alpha. **Casco** es el factor del mundo sobre el casco de cada asteroide y **Paga** su factor sobre los créditos y el Thulium de una rotura; el mineral y los hallazgos raros son iguales en todos los mundos. Los fragmentos pagan por completo: no hay límite diario.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ Los que mejor pagan: cada uno paga más créditos y Thulium que el asteroide med
 
 | Tipo | Casco | Tamaño | Nivel | Especial | Fragmentos de dinero | Hecho para | Créditos | Thulium | Hallazgos | Se encuentra en |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66.000 | Mediano | 3 | Explosiones ×1,6 | 2 | Unos 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66.000 | Mediano | 3 | Explosiones ×1,6 | 2 | Unos 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5 %) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100.000 | Grande | 4 | – | 2 | Unos 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62.100–103.500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `T-4`, `G-4` |
 | **Vault Rock** | 130.000 | Grande | 4 | – | 3 | Unos 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101.400–169.050 | 50 %: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90 %); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3 %) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150.000 | Grande | 5 | Explosiones ×1,6 | 3 | Unos 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109.650–182.700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8 %), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5 %) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Un asteroide no es una baja. Romperlo no da XP, ni honor, ni recuento de bajas, 
 - **Empieza con el cohete para el que está hecho el tipo.** Un cohete más débil también rompe el asteroide, pero hacen falta más cohetes y más del temporizador. Uno más fuerte es más rápido, pero lo que un impacto hace más allá del casco que queda se pierde, y un cohete cuesta lo mismo golpee lo que golpee.
 - **Lleva explosiones para el cristal y fuerza para el hierro.** Un Scatter o un Ember es el cohete para un asteroide frágil, y uno blindado pide un cohete más fuerte de lo que sugiere su casco, porque el blindaje resta sus puntos de cada impacto.
 - **Deja que tus láseres trabajen entre cohete y cohete.** Disparan una vez por segundo y cuestan munición, no cohetes, pero una andanada hace solo el 5 % de lo que hace a una nave: se suman a los cohetes y no los sustituyen.
-- **Ojo al límite diario.** Los fragmentos dejan de pagar cuando has recogido el límite de tu mundo en un día, y la minería paga tanto que lo alcanzas en pocas horas; el límite está en Los mundos.
-- **Rompe los grandes en grupo.** El asteroide Motherlode es una roca para un grupo: un grupo cuenta como un piloto y su parte se reparte por nivel entre los compañeros que están cerca y disparan.
+- **Ojo a la oferta.** Los fragmentos no tienen límite diario, pero un sector solo tiene cierto número de asteroides y cada uno tarda un rato en volver a crecer; en un sector concurrido cada piloto recibe menos, así que pásate a uno más tranquilo.
+- **Rompe los grandes en grupo.** El asteroide Motherlode es una roca para un grupo: un grupo cuenta como un piloto y su parte se reparte por nivel entre los compañeros que están cerca y disparan. Un Mole también lo trabaja, para quien vuela con él.
 - **Vigila el sector.** Los asteroides no devuelven los disparos, pero los sectores que los rodean siguen teniendo alienígenas y, en los sectores de peligro, otros pilotos.
 - **Aprovéchalos, y ten cuidado.** Un asteroide entre tú y un rival o un alienígena mantiene tus láseres y los suyos lejos unos de otros. Un rival que te dispara por encima del asteroide que estás minando lo daña y cobra por el daño hecho como cualquier otro piloto.

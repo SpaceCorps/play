@@ -1,8 +1,6 @@
 # Davidski
 
-Davidski is a trader who flies. He is a peaceful NPC ship that comes out once a day, at a time nobody announces, and patrols one [Danger Sector](/wiki/01-General/Danger-Sectors.md), he has the best gear the game has, and he sells every item the [Auction](/wiki/03-Mechanics/Auction.md) lists, with no end to his stock, at many times the Shop's price. He belongs to no company, stands in the Hall of Fame like a pilot and does not shoot first. You buy from him in the Auction, and you can fight him in space.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../img/wiki-img/shots/davidski-hall.jpg)
+Davidski is a trader who flies. He is a peaceful NPC ship that comes out once a day, at a time nobody announces, and patrols one [Danger Sector](/wiki/01-General/Danger-Sectors.md), he has the best gear the game has, and he sells every item the [Auction](/wiki/03-Mechanics/Auction.md) lists, with no end to his stock, at many times the Shop's price. He belongs to no company, is in none of the rankings and does not shoot first. You buy from him in the Auction, and you can fight him in space.
 
 ## Where He Is
 
@@ -23,7 +21,7 @@ An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best
 | Extras | a Repair Drone IV, an Auto-Repair CPU and a Base CPU II |
 | Hull | 15 Hull Plating III |
 
-At Alpha strength he has **858,750 hull**, **1,309,534 shield** (recharging 67,614 a second after 15 seconds without a hit), 80.5% absorbance, speed 96, 945 range and a volley of **2,052 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.2 million points to chew through in Alpha: one Wraith with the same lasers needs about twelve minutes of steady fire on its own, ten of them about a minute and ten seconds.
+At Alpha strength he has **858,750 hull**, **1,309,534 shield** (recharging 67,614 a second after 15 seconds without a hit), 80.5% absorbance, speed 96, 945 range and a volley of **4,104 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.2 million points to chew through in Alpha: one Wraith with the same lasers needs about twelve minutes of steady fire on its own, ten of them about a minute and ten seconds.
 
 ## Fighting Him
 
@@ -38,15 +36,15 @@ He pays like a boss, by the damage each pilot dealt (a share under 5% of the dam
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1,060,000 | 2,120,000 | 3,180,000 |
-| Thulium | 2,850 | 5,700 | 8,550 |
-| Experience | 170,000 | 340,000 | 510,000 |
-| Honor | 740 | 1,480 | 2,220 |
+| Credits | 1,590,000 | 3,180,000 | 4,770,000 |
+| Thulium | 4,275 | 8,550 | 12,825 |
+| Experience | 255,000 | 510,000 | 765,000 |
+| Honor | 1,110 | 2,220 | 3,330 |
 
-The box holds 40 to 60 Ship Fragments, 10 to 20 Power Cores and 3,000 to 6,000 Advanced Plasma, and sometimes Ancient Control Units or Dark Matter. A kill counts **37 points** for your PvE ranking, under the name Davidski in your kill statistics.
+The box holds 40 to 60 Ship Fragments, 10 to 20 Power Cores and 3,000 to 6,000 Advanced Plasma, and sometimes Ancient Control Units or Dark Matter. A kill adds **no PvE points** to your ranking (he is out of the rankings, see below); the experience it pays counts like any other experience, and the kill is counted under the name Davidski in your kill statistics.
 
 - **He is destroyed once a day at the most.** After his death he stays gone until the next UTC day, when he comes out again at the next day's moment, at full hull. Nobody is told that he fell; the pilots who fought him hear their own pay.
-- **He pays a pilot for two kills a day and a world for eight** (UTC). With one Davidski a day in a world these limits rarely matter; past them you are told so, and you are paid nothing and get no points for the kill.
+- **He pays a pilot for two kills a day and a world for eight** (UTC). With one Davidski a day in a world these limits rarely matter; past them you are told so, and you are paid nothing for the kill.
 
 ## Buying From Him
 
@@ -62,8 +60,8 @@ His stock is in the Auction's **Market** list, among the pilots' listings: a row
 
 ## Rankings
 
-He is in the **Hall of Fame** on the Rankings page like a pilot, on both boards (PvE and PvP) of every world: a row with a rank number, an avatar with his initial, his name, no company (the column says Neutral), his world and his points. The pilots below him move down one place. In the **All** view he has three rows, one for each world.
+He is in **no ranking**. The **Hall of Fame** on the Rankings page lists pilots only, on both boards (PvE and PvP) of every world, and the position on a pilot's profile counts pilots only.
 
-- **His points are a level 20 pilot's.** They are worked out by the same formula as a pilot's PvE points ([Ranks](/wiki/03-Mechanics/Ranks.md)): 20 levels at 100 points each, plus the 5,242,880,000 experience a pilot has on reaching level 20 divided by 1,000, and no kills: **5,244,880** on the PvE board and **0** on the PvP board. A pilot with exactly as many points stands below him.
-- **He is listed every day**, whether he is out or not. His row opens no profile: he has no account.
-- **The row is all he has in the rankings.** He is in no company, so he is on none of the company ladders of the [ranks](/wiki/03-Mechanics/Ranks.md) and cannot wear the crown. Your points, your rank and what you are paid are the same as without him; only the numbers that count the Hall of Fame (the one in front of a name and the position on a profile) count him too.
+- **A kill of his is worth no PvE points.** The list next to the PvE points on the Rankings page does not show him and the table of [Ranks](/wiki/03-Mechanics/Ranks.md) has no row of his. The experience a kill pays counts like any other experience, so your level, and the points that come with it, rise as after any kill.
+- **He has no row and no profile.** He has no account, and he takes no place from any pilot: the boards and the positions on the profiles are the same as if he did not exist.
+- **He is in no company**, so he is on none of the company ladders of the [ranks](/wiki/03-Mechanics/Ranks.md) and cannot wear the crown.

@@ -734,7 +734,7 @@ Experience and Honor are scores, not money: nothing is bought with them. Experie
 
 - **At the start**: a new pilot's account holds 10,000 Credits.
 - **Aliens**: every kill pays it (the table above).
-- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it, up to a limit for every 24 hours (on that page).
+- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it.
 - **[Missions](/wiki/03-Mechanics/Quests.md)**: 6,664,500 Credits over the 88 missions at Alpha pay, from 86,000 at level 1 to 2,720,000 at level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: the Credit Farm makes it while you are away, into a hopper of 72 hours.
 
@@ -768,7 +768,7 @@ These are the rates of a powered station: a power deficit stops every farm and c
 
 - **At the start**: a new pilot's account holds 100 Thulium.
 - **Aliens**: every kill pays it (the table above).
-- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it, up to a limit for every 24 hours (on that page).
+- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)**: the chunks of a broken asteroid pay it.
 - **[Giant excavator](/wiki/03-Mechanics/Giant-Excavator.md)**: from season day 11, a full run lays 9,643 of it in Alpha (more in Beta and Gamma), in boxes anyone may take; the control panel chooses what it mines.
 - **[Missions](/wiki/03-Mechanics/Quests.md)**: 51,010 Thulium over the 88 missions at Alpha pay, from 170 at level 1 to 21,760 at level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: the Thulium Farm makes it while you are away, into a hopper of 72 hours.

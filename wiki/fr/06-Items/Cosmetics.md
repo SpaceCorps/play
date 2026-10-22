@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Cosmétiques -->
 # Cosmétiques {#cosmetics}
 
@@ -24,7 +24,7 @@ Un **look** est ce que porte votre vaisseau. Il a quatre parties : un **skin** 
 
 Un skin est un schéma de peinture fait à partir de la coque même du vaisseau : ses lignes de panneaux, ses numéros et ses bandes restent, seules les couleurs changent. Il est pour un **modèle de vaisseau**, et le même skin est porté par chacun de vos vaisseaux de ce modèle et par chaque [design](/wiki/03-Mechanics/Ship-Designs.md) qui en est issu ; une transformation garde le look. Le Protos n’a pas encore de skin, le Kitefin, l’Ostirion et le Nomad ont une collection, et les quatre vaisseaux que vous fabriquez à l’Assemblage ont les dix.
 
-Les skins appartiennent à votre **compte**, pas à un vaisseau, et ils restent à travers la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) ; le vaisseau que vous gardez porte ce qu’il portait.
+Les skins appartiennent à votre **compte**, pas à un vaisseau, et ils restent à travers la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) ; vos vaisseaux portent ce qu’ils portaient.
 
 | Collection | Vaisseaux | Rareté | Son aspect |
 | :--- | :--- | :--- | :--- |

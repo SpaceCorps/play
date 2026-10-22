@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -9,6 +9,8 @@ Die **Schmiede** ist der zweite Tab der Montage-Seite (und des Montage-Fensters 
 Laser, Laserverstärker, Schilde, Schildzellen, Triebwerke, Schubdüsen, adaptive Kerne, Repair Drones und [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md): jedes einzelne Ausrüstungsstück, das [Verzauberungsboni](/wiki/06-Items/Overview.md) tragen kann. Es kann in deinem Inventar liegen, auf einem Schiff (es bleibt dort und wirkt sofort mit seiner neuen Stufe) oder in einen anderen Gegenstand eingesetzt sein. Drohnen, Schiffe, Munition, Ressourcen und Booster lassen sich nicht schmieden, ebenso wenig alles im Transport-Cache oder im Triebwerks- oder Verteidigungsmodul deines Skylab: Nimm es zuerst heraus.
 
 Die Liste der Ausrüstung hat neben den anderen Filtern einen Schalter **Alle / Ausgerüstet / Im Inventar**. **Ausgerüstet** zeigt, was auf einem Schiff liegt oder in einen anderen Gegenstand eingesetzt ist, **Im Inventar** das, was lose liegt, und eine Zeile unter dem Titel sagt, wie viele Teile der Schalter ausblendet. Während du den Spender einer Zusammenführung wählst, ist „Ausgerüstet“ pausiert, denn ein Spender muss lose sein.
+
+Ein Auswahlfeld **Schiff** neben dem Typfilter zeigt nur die Teile auf einem deiner Schiffe (ein in einen anderen Gegenstand eingesetztes Teil zählt für das Schiff, auf dem sein Träger ist). Es ist unter „Im Inventar“ und während du den Spender einer Zusammenführung wählst pausiert. Die Karte beim Daraufzeigen, der Kopf des Feldes und die Basis der Zusammenführung sagen, wo ein Teil ist: *Auf Kitefin, Konfiguration 1* (eine Hüllenpanzerung: beide Konfigurationen) und worin es eingesetzt ist. **Strg+F** (Cmd+F auf dem Mac) setzt den Cursor in das Suchfeld im Kopf der Montage; es grenzt die Liste des offenen Tabs ein (Rezepte nach dem, was sie herstellen und brauchen, Ausrüstung nach Name, Typ und Stufe), und Esc leert es. Unter *Bonus-Plätze* sagt das Feld, wenn ein Wert des Teils zu niedrig für einen Bonus ist, darum fasst ein Impulse Thruster einen Bonus und ein Momentum Thruster zwei.
 
 ## Aufwerten {#tier-up}
 

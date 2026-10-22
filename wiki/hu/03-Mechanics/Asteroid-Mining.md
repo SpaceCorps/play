@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
 Az **aszteroidák** nagy sziklák, amelyek a vállalatok szektoraiban és a veszélyes szektorokban a repülési síkban fekszenek. Soha nem mozdulnak, és soha nem lőnek. Törj szét egyet **rakétákkal** vagy **lézerekkel**, és apró **darabokra** robban, amelyekben kredit, Thulium és érc van; ezeket úgy veszed fel, mint a [rakományt](/wiki/03-Mechanics/Cargo.md). Erre a munkára a rakéta való: a lézereid is sebzik az aszteroidát, de csak annak az 5%-ával, amit egy hajónak okoznak, a drónok pedig nem ártanak neki. Egy dolog még széttöri helyetted az aszteroidákat: egy dokkolt **Mole** P.E.T. ([lent](#the-mole-pet)).
 
-A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, becsületet vagy rangsorpontot, és a kilőtt rakéták kreditbe vagy Thuliumba kerülnek. Amit ad: kredit és Thulium, érc a [Kovácsműhelyhez](/wiki/06-Items/Forge.md) és a gyártáshoz harc nélkül, és olyan munka, amelyen egy [csoport](/wiki/03-Mechanics/Groups.md) osztozhat. Jól fizet: a játék saját modellje szerint egy óra a megfelelő aszteroidákon a megfelelő rakétával nagyjából 2,6–6,8-szorosát hozza a szinted legjobb vadászórája hozamának, a rakéták árának levonása után. A napi korlátok ([A világok](#the-worlds)) megszabják a határát, és hamar eléred őket: Alphában egy kitartó bányász egy jó szektorban kevesebb mint 2 óra alatt eléri a Thulium-korlátot, és nagyjából 2,7 óra alatt a kreditkorlátot.
+A bányászat más munka, mint a vadászat, nem helyettesíti azt: nem ad XP-t, becsületet vagy rangsorpontot, és a kilőtt rakéták kreditbe vagy Thuliumba kerülnek. Amit ad: kredit és Thulium, érc a [Kovácsműhelyhez](/wiki/06-Items/Forge.md) és a gyártáshoz harc nélkül, és olyan munka, amelyen egy [csoport](/wiki/03-Mechanics/Groups.md) osztozhat. Jól fizet: a játék saját modellje szerint egy óra a megfelelő aszteroidákon a megfelelő rakétával nagyjából 2,6–6,8-szorosát hozza a szinted legjobb vadászórája hozamának, a rakéták árának levonása után. Nincs rá napi korlát: minden felvett darab teljes egészében kifizet, így a napodat az szabja meg, hány aszteroidát tart a szektor, és milyen gyorsan nőnek vissza.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ Az aszteroida közös munka: bármennyi pilóta eltalálhatja rakétákkal, léz
 Egy dokkolt **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-ek egyik típusa) dolgozik érted, amíg repülsz: 3 másodpercenként ad egy impulzust a hajódtól nagyjából öt és fél hajóhosszon belüli legközelebbi aszteroidának, amíg szét nem törik, aztán a következőt veszi. Az impulzusai a te neveden kerülnek az aszteroida sebzései közé, így egy széttörés úgy fizet neked, mintha rakétával törted volna szét: a darabok, a leletek, egy Cluster Chunk esélye és az aszteroidás küldetésed.
 
 - **Mennyit tör szét.** Egy csúcs Mole (egy 20. szintű Legendary) legalább annyi aszteroidát tör szét óránként, mint az a pilóta, aki a legjobb rakétával, a Rivet III-mal lő rájuk, az alacsonyabb fokozatok és szintek kevesebbet ([a táblázat](/wiki/03-Mechanics/Pets.md#how-strong)). Nem használ lőszert és rakétát. A lézereid, rakétáid, erősítőid, boostereid, formációd és a P.E.T.-eid Sebzése nem változtat egy impulzuson, a páncél pedig úgy lassít egy impulzust, ahogy egy rakétát.
-- **Mely aszteroidák.** A legközelebbi a hatótávon belül, amelyet rajtad és a csoportodon kívül senki nem sebzett meg, és amelyet nem takar másik aszteroida vagy Energetic Wall. A Motherlode-on soha nem dolgozik, és nem dolgozik biztonságos zónában, álcázva, amíg ugrasz, és amíg a hajód megsemmisült.
-- **Nincs saját határa.** A Mole minden órában dolgozik, amíg repülsz, akár érintesz billentyűt, akár nem (egy tétlen hajó célpont), és semmilyen napi határ nem állítja meg. Ami megmarad, az, ami mindenkit megállít: a Thulium- és kreditkorlátok [A világok](#the-worlds) alatt, amelyeket egy csúcs Mole, amely soha nem áll meg, nagyjából 2–6 óra munka után ér el. Ezután a darabjai csak azt fizetik, ami a korlátok alatt megmaradt.
+- **Mely aszteroidák.** A legközelebbi a hatótávon belül, amelyet nem takar másik aszteroida vagy Energetic Wall. Bármelyik aszteroida szóba jön, amelyet egy rakéta megsebezhetne: a Motherlode és a roncsok (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser) is, és az is, amelyet más pilóták megsebeztek; a chunkok ilyenkor is sebzés szerint járnak, mint mindig. A háttérben sodródó roncsok csak díszletek, nem aszteroidák. Nem dolgozik biztonságos zónában, álcázva, amíg ugrasz, és amíg a hajód megsemmisült.
+- **Nincs saját határa.** A Mole minden órában dolgozik, amíg repülsz, akár érintesz billentyűt, akár nem (egy tétlen hajó célpont), és semmilyen napi határ nem állítja meg, sem a sajátja, sem a világé. Ami megmarad, az, ami mindenkit korlátoz: a hatókörében lévő aszteroidák és az, milyen gyorsan nőnek vissza. A darabjai teljes egészében fizetnek, ahogy a tieid.
 - **Csak egy dolgozik.** A Stationödben lévő Mole-ok közül csak a legerősebb dolgozik; a többi csak bónuszt ad.
 
 ## A szabályok {#the-rules}
@@ -69,7 +69,7 @@ Egy dokkolt **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-ek egyik t
 - Egy [csoport](/wiki/03-Mechanics/Groups.md#sharing-kills) egy pilótának számít, és a része szint szerint oszlik el a közeli, lövő csoporttársak között.
 - Egy szétlövés darabjai 30 mp ideig annak a pilótának és a klánjának vannak fenntartva, akinek lerakták őket. Utána bárki felveheti őket a térképen. Az a darab, amelyet senki sem vesz fel, 3 perc múlva eltűnik.
 - Egy térképen legfeljebb 36 darab lehet, a térképen elférő 64 láda keretében: a darabok sosem szorítják ki az idegenek ládáit, azok pedig sosem szorítanak ki darabot. Ha a térképen nincs hely egy darabnak, annak a pilótának azonnal kifizetik, akinek szánták.
-- A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. Bármely 24 óra alatt egy pilótának legfeljebb a [A világok](#the-worlds) részben szereplő korlátot fizetik ki: a korlát fölötti darab elfogy, és csak annyit fizet, amennyi a korlát alatt maradt, és a Játéknapló ezt megmondja.
+- A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. Nincs napi korlát arra, mennyit fizethetnek ki neked: minden darab teljes egészében kifizeti a kreditjét és a Thuliumát, akárhányat veszel fel egy nap alatt.
 - A fizetés mindenkinek ugyanannyi: sem Prémium-bónusz, sem Szezonbolt-boost, sem klánboost, sem Loot Luck, sem booster nem változtatja meg a kreditet, a Thuliumot vagy a leleteket. A [Resource Magnet Booster](/wiki/06-Items/Boosters.md) felvételkor növeli egy ércdarab nyersanyagait, mint bármelyik ládáét.
 - A páncél minden találatból levonja a pontjait, de egy találat legalább 20%-a mindig átmegy.
 - A területi robbanás 1,6-szor annyit sebez egy törékeny aszteroidán, mint bármely máson.
@@ -86,13 +86,13 @@ Minden világnak, az Alphának, a Betának és a Gammának, saját aszteroidái 
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Világ | Hajótest | Fizetés | Thulium-korlát | Kredit-korlát |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3 000 | 13 000 000 |
-| **Beta** | ×1,5 | ×2 | 4 500 | 18 000 000 |
-| **Gamma** | ×2 | ×3 | 6 000 | 21 000 000 |
+| Világ | Hajótest | Fizetés |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Az alábbi táblázatok egy Alpha-aszteroida számait adják. A **Hajótest** a világ szorzója minden aszteroida hajótestén, a **Fizetés** a szorzója egy szétlövés kreditjén és Thuliumán; az érc és a ritka leletek minden világban ugyanazok. A két korlát az a legtöbb, amit egy pilótának darabokból kifizetnek bármely 24 óra alatt.
+Az alábbi táblázatok egy Alpha-aszteroida számait adják. A **Hajótest** a világ szorzója minden aszteroida hajótestén, a **Fizetés** a szorzója egy szétlövés kreditjén és Thuliumán; az érc és a ritka leletek minden világban ugyanazok. A darabok teljes egészében fizetnek: nincs napi korlát.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ A legjobb fizetők: mindegyik több kreditet és Thuliumot fizet, mint a gyűrű
 
 | Fajta | Hajótest | Méret | Szint | Különlegesség | Pénzdarabok | Méretezve erre | Kredit | Thulium | Leletek | Hol található |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Közepes | 3 | Robbanások ×1,6 | 2 | Kb. 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66 000 | Közepes | 3 | Robbanások ×1,6 | 2 | Kb. 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100 000 | Nagy | 4 | – | 2 | Kb. 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130 000 | Nagy | 4 | – | 3 | Kb. 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50% eséllyel 36–87 db | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150 000 | Nagy | 5 | Robbanások ×1,6 | 3 | Kb. 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Az aszteroida nem kilövés. A szétlövése nem ad XP-t, becsületet, kilövés
 - **Kezdd azzal a rakétával, amelyre a fajta méretezve van.** Egy gyengébb rakéta is szétlövi az aszteroidát, de több rakéta és több időzítő kell hozzá. Egy erősebb gyorsabb, de ami egy találatból a megmaradt hajótesten túlmegy, elvész, és egy rakéta ugyanannyiba kerül, bármit talál is el.
 - **Hozz robbanást a kristályra és erőt a vasra.** A Scatter vagy az Ember a rakéta a törékeny aszteroidához, a páncélos pedig erősebb rakétát kér, mint amilyet a hajótestéből gondolnál, mert a páncél minden találatból levonja a pontjait.
 - **Hagyd dolgozni a lézereidet a rakéták között.** Másodpercenként egyszer lőnek, és lőszerbe kerülnek, nem rakétába, de egy sortűz csak 5%-át okozza annak, amit egy hajónak: a rakétákat kiegészítik, nem helyettesítik.
-- **Figyelj a napi korlátra.** A darabok nem fizetnek többet, ha egy nap alatt felvetted a világod korlátját, és a bányászat annyira jól fizet, hogy pár óra alatt eléred; a korlát A világok részben van.
-- **A nagyokat együtt lőjétek szét.** A Motherlode aszteroida csoportnak való szikla: a csoport egy pilótának számít, és a része szint szerint oszlik el a közeli, lövő csoporttársak között.
+- **Figyelj a kínálatra.** A darabokra nincs napi korlát, de egy szektor csak annyi aszteroidát tart, és mindegyik csak egy idő után nő vissza; egy zsúfolt szektorban minden pilóta kevesebbet kap, ezért válts egy csendesebbre.
+- **A nagyokat együtt lőjétek szét.** A Motherlode aszteroida csoportnak való szikla: a csoport egy pilótának számít, és a része szint szerint oszlik el a közeli, lövő csoporttársak között. A Mole is dolgozik rajta annak, aki vele repül.
 - **Tartsd szemmel a szektort.** Az aszteroidák nem lőnek vissza, de a körülöttük lévő szektorokban továbbra is vannak idegenek, a veszélyes szektorokban pedig más pilóták is.
 - **Használd őket, és vigyázz velük.** Az aszteroida közted és egy riválisod vagy egy idegen között távol tartja egymástól a te lézereidet és az övéit. Az a riválisod, aki az általad bányászott aszteroida fölött lő rád, megsebzi azt, és az okozott sebzés szerint kap fizetést, mint bármelyik másik pilóta.

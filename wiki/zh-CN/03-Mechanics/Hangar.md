@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7162db398da356a1 -->
+<!-- wiki-i18n source: 968a75aa2c9015c4 -->
 <!-- wiki-i18n title: 机库 -->
 # 飞行中的机库 {#the-hangar-in-flight}
 
@@ -27,7 +27,7 @@
 - **附加装置。** 四艘普通舰船 Protos、Kitefin、Ostirion 和 Nomad（你一开始拥有或购买的）每套配置有 2 个附加槽位；你在装配站制造的四艘舰船 Paragon、Ironclad、Wraith 和 Storm 有 3 个。你的 Skylab 里的 Extra Slots CPU 会再增加 3、5 或 7 个，所以普通舰船是 5、7 或 9 个，制造的舰船是 6、8 或 10 个（见[附加装置](/wiki/06-Items/Extras.md#extra-slots-cpus)）。0.4.10 更新时，普通舰船上的第三个附加装置被卸下并放进了你的物品栏：没有任何东西被删除，你收到了一条聊天消息。
 - **船体装甲。** 你制造的四艘舰船有用于船体装甲的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，每个在你于 Skylab 研究之前都是锁定的。你装上或卸下的装甲会保持你的船体比例，切换配置时它也仍然装着。
 - **外观。** 飞船视图中船体装甲之后的**外观**部分，以及无人机视图里的**无人机涂装**栏，都会打开**衣橱**：皮肤、光环和尾焰可以先在旋转的飞船上试穿，再决定穿上。能更换装备的地方，也能更换外观（[外观装饰](/wiki/06-Items/Cosmetics.md)）。
-- **P.E.T.** **P.E.T.** 视图包含摇篮（用 Cluster Chunk 和 Orvium Reinforced Plate 组装 P.E.T.）、P.E.T. Station（它的位置、装备在哪里以及是否开启）和杂交。飞行中它只显示你拥有的东西：组装、对接、解除对接和杂交都要在飞船降落到空间站后才能进行（[P.E.T.](/wiki/03-Mechanics/Pets.md)）。
+- **P.E.T.** **P.E.T.** 视图包含摇篮（用 Cluster Chunk 和 Orvium Reinforced Plate 组装 P.E.T.）、P.E.T. Station（它的位置、装备在哪里以及是否开启）和杂交。飞行中摇篮可以使用（组装、领取、杂交和放生），但对接和解除对接要在飞船降落到空间站后才能进行（[P.E.T.](/wiki/03-Mechanics/Pets.md)）。
 
 出售不属于这个窗口：打开[拍卖行](/wiki/03-Mechanics/Auction.md)的拍卖槌属于空间站的机库，拍卖行本身也是空间站的页面。
 

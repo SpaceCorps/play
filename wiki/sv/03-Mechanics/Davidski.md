@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski är en handlare som flyger. Han är ett fredligt NPC-skepp som flyger ut en gång om dagen, vid en tidpunkt som ingen tillkännager, och patrullerar en [farosektor](/wiki/01-General/Danger-Sectors.md) i taget, har den bästa utrustningen i spelet och säljer varje föremål som [auktionen](/wiki/03-Mechanics/Auction.md) listar, med ett lager som aldrig tar slut, till många gånger butikspriset. Han tillhör ingen koncern, står i Hedersgalleriet som en pilot och skjuter aldrig först. Du köper av honom på auktionen, och i rymden kan du bekämpa honom.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski är en handlare som flyger. Han är ett fredligt NPC-skepp som flyger ut en gång om dagen, vid en tidpunkt som ingen tillkännager, och patrullerar en [farosektor](/wiki/01-General/Danger-Sectors.md) i taget, har den bästa utrustningen i spelet och säljer varje föremål som [auktionen](/wiki/03-Mechanics/Auction.md) listar, med ett lager som aldrig tar slut, till många gånger butikspriset. Han tillhör ingen koncern, finns i ingen ranking och skjuter aldrig först. Du köper av honom på auktionen, och i rymden kan du bekämpa honom.
 
 ## Var han finns {#where-he-is}
 
@@ -25,7 +23,7 @@ Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av 
 | Extra | en Repair Drone IV, en Auto-Repair CPU och en Base CPU II |
 | Skrov | 15 Hull Plating III |
 
-På Alphas styrka har han **858 750 skrov**, **1 309 534 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 80,5 % absorbering, hastighet 96, räckvidd 945 och en salva på **2 052 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,2 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tolv minuters ihållande eld, tio av dem omkring en minut och tio sekunder.
+På Alphas styrka har han **858 750 skrov**, **1 309 534 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 80,5 % absorbering, hastighet 96, räckvidd 945 och en salva på **4 104 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,2 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tolv minuters ihållande eld, tio av dem omkring en minut och tio sekunder.
 
 ## Att bekämpa honom {#fighting-him}
 
@@ -40,15 +38,15 @@ Han betalar som en boss, efter skadan varje pilot gjorde (en andel under 5 % av 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Krediter | 1 060 000 | 2 120 000 | 3 180 000 |
-| Thulium | 2 850 | 5 700 | 8 550 |
-| Erfarenhet | 170 000 | 340 000 | 510 000 |
-| Heder | 740 | 1 480 | 2 220 |
+| Krediter | 1 590 000 | 3 180 000 | 4 770 000 |
+| Thulium | 4 275 | 8 550 | 12 825 |
+| Erfarenhet | 255 000 | 510 000 | 765 000 |
+| Heder | 1 110 | 2 220 | 3 330 |
 
-Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 till 6 000 Advanced Plasma, och ibland Ancient Control Units eller Dark Matter. En nedskjutning räknas som **37 poäng** i din PvE-ranking, under namnet Davidski i din nedskjutningsstatistik.
+Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 till 6 000 Advanced Plasma, och ibland Ancient Control Units eller Dark Matter. En nedskjutning ger **inga PvE-poäng** i din ranking (han finns i ingen ranking, se nedan); erfarenheten den ger räknas som all annan erfarenhet, och nedskjutningen räknas under namnet Davidski i din nedskjutningsstatistik.
 
 - **Han förstörs högst en gång om dagen.** Efter sin död är han borta till nästa UTC-dygn, då han kommer ut igen vid det dygnets tidpunkt, med full skrovstyrka. Ingen underrättas om att han har fallit; piloterna som slogs mot honom får se sin egen utbetalning.
-- **Han betalar en pilot för två nedskjutningar om dagen och en värld för åtta** (UTC). Med en Davidski om dagen i varje värld spelar de gränserna sällan någon roll; utöver dem blir du underrättad, och du får ingenting och inga poäng för nedskjutningen.
+- **Han betalar en pilot för två nedskjutningar om dagen och en värld för åtta** (UTC). Med en Davidski om dagen i varje värld spelar de gränserna sällan någon roll; utöver dem blir du underrättad, och du får ingenting för nedskjutningen.
 
 ## Att köpa av honom {#buying-from-him}
 
@@ -64,8 +62,8 @@ Hans lager finns i auktionens **Marknad**-lista, bland piloternas annonser: en r
 
 ## Ranking {#rankings}
 
-Han står i **Hedersgalleriet** på sidan Ranking som en pilot, i båda listorna (PvE och PvP) i varje värld: en rad med platsnummer, en avatar med hans initial, hans namn, ingen koncern (kolumnen visar Neutral), hans värld och hans poäng. Piloterna under honom flyttas ner en plats. I vyn **Alla** har han tre rader, en per värld.
+Han finns i **ingen ranking**. **Hedersgalleriet** på sidan Ranking listar bara piloter, i båda listorna (PvE och PvP) i varje värld, och platsen i en pilots profil räknar bara piloter.
 
-- **Hans poäng är en pilots på nivå 20.** De räknas med samma formel som en pilots PvE-poäng ([Grader](/wiki/03-Mechanics/Ranks.md)): 20 nivåer à 100 poäng, plus de 5 242 880 000 erfarenhetspoäng en pilot har när han når nivå 20, delat med 1 000, och inga nedskjutningar: **5 244 880** i PvE-listan och **0** i PvP-listan. En pilot med exakt lika många poäng står under honom.
-- **Han står i listan varje dag**, oavsett om han är ute eller inte. Hans rad öppnar ingen profil: han har inget konto.
-- **Raden är allt han har i rankingen.** Han tillhör ingen koncern och finns därför på ingen koncerns stege av [grader](/wiki/03-Mechanics/Ranks.md) och kan inte bära kronan. Dina poäng, din grad och det du får betalt är desamma som utan honom; bara de siffror som räknar Hedersgalleriet (den framför ett namn och platsen i profilen) räknar med honom.
+- **En nedskjutning av honom ger inga PvE-poäng.** Listan vid PvE-poängen på sidan Ranking visar honom inte, och tabellen över [Grader](/wiki/03-Mechanics/Ranks.md) har ingen rad för honom. Erfarenheten en nedskjutning ger räknas som all annan erfarenhet, så din nivå, och poängen som hör till den, stiger som efter vilken nedskjutning som helst.
+- **Han har varken rad eller profil.** Han har inget konto och tar ingen plats från någon pilot: listorna och platserna i profilerna är desamma som om han inte fanns.
+- **Han tillhör ingen koncern** och finns därför på ingen koncerns stege av [grader](/wiki/03-Mechanics/Ranks.md) och kan inte bära kronan.

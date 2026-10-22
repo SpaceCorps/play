@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: 소행성 채굴 -->
 # 소행성 채굴 {#asteroid-mining}
 
 **소행성**은 기업 섹터와 위험 섹터의 비행 평면에 놓여 있는 커다란 바위입니다. 움직이지도, 공격하지도 않습니다. **로켓**이나 **레이저**로 부수면 크레딧, Thulium, 광석이 든 작은 **조각**으로 터지며, [화물](/wiki/03-Mechanics/Cargo.md)처럼 주울 수 있습니다. 이 일에 맞는 도구는 로켓입니다. 레이저도 소행성에 피해를 주지만 함선에 주는 피해의 5%뿐이고, 드론은 아무 영향도 주지 못합니다. 하나 더, 나 대신 소행성을 부수는 것이 있습니다. 도킹 중인 **Mole** P.E.T.입니다([아래](#the-mole-pet)).
 
-채굴은 사냥과는 다른 일이지, 사냥을 대신하는 일이 아닙니다. 경험치와 명예와 랭킹 포인트를 주지 않으며, 쏘는 로켓에는 크레딧이나 Thulium가 듭니다. 대신 크레딧과 Thulium, 싸우지 않고 [대장간](/wiki/06-Items/Forge.md)과 제작에 쓰는 광석, 그리고 [그룹](/wiki/03-Mechanics/Groups.md)이 나눌 수 있는 일을 얻습니다. 벌이는 좋습니다. 게임 자체의 모델로는, 알맞은 소행성을 알맞은 로켓으로 캐는 1시간이 로켓값을 뺀 뒤에도 자신의 레벨에서 가장 좋은 사냥 1시간의 약 2.6~6.8배입니다. [월드](#the-worlds)의 하루 한도가 상한이 되고, 한도에는 금세 닿습니다. Alpha에서 좋은 섹터를 꾸준히 캐면 Thulium 한도에는 2시간이 채 안 걸리고 크레딧 한도에는 약 2.7시간이 걸립니다.
+채굴은 사냥과는 다른 일이지, 사냥을 대신하는 일이 아닙니다. 경험치와 명예와 랭킹 포인트를 주지 않으며, 쏘는 로켓에는 크레딧이나 Thulium가 듭니다. 대신 크레딧과 Thulium, 싸우지 않고 [대장간](/wiki/06-Items/Forge.md)과 제작에 쓰는 광석, 그리고 [그룹](/wiki/03-Mechanics/Groups.md)이 나눌 수 있는 일을 얻습니다. 벌이는 좋습니다. 게임 자체의 모델로는, 알맞은 소행성을 알맞은 로켓으로 캐는 1시간이 로켓값을 뺀 뒤에도 자신의 레벨에서 가장 좋은 사냥 1시간의 약 2.6~6.8배입니다. 하루 한도는 없습니다. 회수한 조각은 모두 전액 지급되므로, 하루를 좌우하는 것은 섹터에 있는 소행성의 수와 그것이 다시 자라는 속도입니다.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@
 도킹 중인 **Mole**([P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)의 한 타입)은 비행하는 동안 당신을 위해 일합니다. 3초마다 함선에서 함선 길이의 약 5.5배 안의 가장 가까운 소행성에 펄스를 주고, 부서지면 다음 것을 잡습니다. 그 펄스는 내 이름으로 소행성의 피해에 기록되므로, 파괴는 내가 로켓으로 부쉈을 때와 똑같이 지급됩니다. 조각, 발견물, Cluster Chunk의 확률, 내 소행성 미션입니다.
 
 - **얼마나 부수는가.** 정점의 Mole(레벨 20 전설)은 가장 좋은 로켓 Rivet III로 겨누는 파일럿과 최소한 같은 수의 소행성을 한 시간에 부수고, 낮은 등급과 레벨은 그보다 적게 부숩니다([표](/wiki/03-Mechanics/Pets.md#how-strong)). 탄약도 로켓도 쓰지 않습니다. 레이저, 로켓, 앰프, 부스터, 편대, P.E.T.의 피해량은 펄스를 바꾸지 않으며, 장갑은 로켓을 늦추듯 펄스를 늦춥니다.
-- **어떤 소행성.** 닿는 거리 안에서 가장 가깝고, 나와 내 그룹 말고는 아무도 피해를 주지 않았으며, 다른 소행성이나 Energetic Wall이 가리지 않는 것입니다. Motherlode는 절대 상대하지 않으며, 안전 지대 안, 은폐 중, 점프 중, 함선이 파괴된 동안에도 일하지 않습니다.
-- **자체 한도 없음.** Mole은 비행하는 시간마다 키를 만지든 말든 일하며(가만히 있는 함선은 표적입니다), 일일 한도가 멈추지 않습니다. 남는 것은 모두를 멈추는 한도, 곧 [월드](#the-worlds)의 Thulium과 크레딧 한도이며, 멈추지 않는 정점의 Mole은 약 2~6시간 일하면 거기에 닿습니다. 그 뒤로는 조각이 한도 아래에 남은 만큼만 지급합니다.
+- **어떤 소행성.** 닿는 거리 안에서 가장 가깝고, 다른 소행성이나 Energetic Wall이 가리지 않는 것입니다. 로켓으로 피해를 줄 수 있는 소행성은 모두 해당합니다. Motherlode도, 잔해(Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser)도, 다른 파일럿들이 피해를 준 소행성도 포함되며, 이때 청크는 언제나처럼 준 피해에 따라 나뉩니다. 배경에 떠다니는 잔해는 장식일 뿐 소행성이 아닙니다. 안전 지대 안, 은폐 중, 점프 중, 함선이 파괴된 동안에는 일하지 않습니다.
+- **자체 한도 없음.** Mole은 비행하는 시간마다 키를 만지든 말든 일하며(가만히 있는 함선은 표적입니다), 일일 한도에 걸려 멈추는 일은 없습니다. 자체 한도도, 월드의 한도도 없습니다. 남는 것은 모두에게 똑같이 적용되는 제약, 곧 닿는 범위 안의 소행성과 그것이 다시 자라는 속도입니다. Mole이 부순 조각도 당신의 조각처럼 전액 지급됩니다.
 - **일하는 것은 하나뿐.** Station에 있는 Mole 중 일하는 것은 가장 강한 하나뿐이고, 나머지는 부스트만 줍니다.
 
 ## 규칙 {#the-rules}
@@ -69,7 +69,7 @@
 - [그룹](/wiki/03-Mechanics/Groups.md#sharing-kills)은 파일럿 한 명으로 계산되며, 그 몫은 가까이에서 쏘는 그룹원끼리 레벨에 따라 나뉩니다.
 - 부서질 때의 조각은 그 조각이 놓인 대상 파일럿과 그 클랜에게 30초 동안 예약됩니다. 그 뒤에는 맵의 누구나 가져갈 수 있습니다. 아무도 가져가지 않은 조각은 3분 뒤에 사라집니다.
 - 한 맵에는 조각이 최대 36개 놓이며, 맵이 담을 수 있는 상자 64개 한도 안에 들어갑니다. 조각이 외계인의 상자를 밀어내는 일은 없고, 그 상자가 조각을 밀어내는 일도 없습니다. 맵에 조각을 놓을 자리가 없으면, 그 조각을 받을 파일럿에게 곧바로 지급됩니다.
-- 크레딧과 Thulium는 소행성이 부서질 때가 아니라 조각을 회수할 때 지급됩니다. 어느 24시간 동안이든 한 파일럿에게는 [월드](#the-worlds)의 한도까지만 지급됩니다. 한도를 넘는 조각은 소모되고 한도 아래에 남은 만큼만 지급되며, 게임 로그가 그렇게 알려 줍니다.
+- 크레딧과 Thulium는 소행성이 부서질 때가 아니라 조각을 회수할 때 지급됩니다. 받을 수 있는 양에는 하루 한도가 없습니다. 조각은 하루에 몇 개를 회수하든 크레딧과 Thulium을 전액 지급합니다.
 - 보상은 모두에게 같습니다. 프리미엄 보너스, 시즌 상점 부스트, 클랜 부스트, Loot Luck, 부스터 어느 것도 크레딧, Thulium, 획득물을 바꾸지 않습니다. [Resource Magnet Booster](/wiki/06-Items/Boosters.md)는 다른 상자와 마찬가지로, 광석 조각을 회수할 때 그 안의 자원을 늘려 줍니다.
 - 장갑은 명중할 때마다 자기 수치만큼 깎지만, 명중 피해의 20% 이상은 항상 통과합니다.
 - 범위 폭발은 부서지기 쉬운 소행성에 다른 소행성보다 1.6배의 피해를 줍니다.
@@ -86,13 +86,13 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| 월드 | 선체 | 보상 배율 | Thulium 한도 | 크레딧 한도 |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3,000 | 13,000,000 |
-| **Beta** | ×1.5 | ×2 | 4,500 | 18,000,000 |
-| **Gamma** | ×2 | ×3 | 6,000 | 21,000,000 |
+| 월드 | 선체 | 보상 배율 |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1.5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-아래 표는 Alpha 소행성의 수치입니다. **선체**는 모든 소행성의 선체에 곱해지는 월드의 배율이고, **보상 배율**은 부서질 때의 크레딧과 Thulium에 곱해지는 배율입니다. 광석과 희귀한 획득물은 어느 월드에서나 같습니다. 두 한도는 어느 24시간 동안이든 한 파일럿이 조각으로 받을 수 있는 최대량입니다.
+아래 표는 Alpha 소행성의 수치입니다. **선체**는 모든 소행성의 선체에 곱해지는 월드의 배율이고, **보상 배율**은 부서질 때의 크레딧과 Thulium에 곱해지는 배율입니다. 광석과 희귀한 획득물은 어느 월드에서나 같습니다. 조각은 전액 지급됩니다. 하루 한도는 없습니다.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 
 | 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 중형 | 3 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66,000 | 중형 | 3 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100,000 | 대형 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130,000 | 대형 | 4 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 101,400–169,050 | 50% 확률로 36–87개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150,000 | 대형 | 5 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 21발 | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 - **그 종류에 맞는 로켓으로 시작하세요.** 더 약한 로켓으로도 소행성을 부술 수 있지만 로켓과 타이머가 더 듭니다. 더 강한 로켓은 빠르지만, 남은 선체를 넘어선 피해는 사라지고 로켓의 비용은 무엇을 맞히든 같습니다.
 - **수정에는 폭발을, 철에는 힘을.** Scatter나 Ember는 부서지기 쉬운 소행성에 맞는 로켓이고, 장갑이 있는 소행성은 명중할 때마다 장갑 수치만큼 깎이므로 선체에서 짐작하는 것보다 더 강한 로켓이 필요합니다.
 - **로켓 사이에는 레이저를 쓰세요.** 레이저는 초당 한 번 발사하고 로켓이 아니라 탄약을 쓰지만, 일제 사격 한 번은 함선에 주는 피해의 5%뿐입니다. 로켓을 보태는 것이지 대신하는 것이 아닙니다.
-- **하루 한도를 살피세요.** 하루에 내 월드의 한도만큼 회수하고 나면 조각은 더 지급하지 않으며, 채굴은 벌이가 좋아서 몇 시간이면 한도에 닿습니다. 한도는 「월드」에 있습니다.
-- **큰 것은 함께 부수세요.** 소행성 Motherlode는 그룹을 위한 바위입니다. 그룹은 파일럿 한 명으로 계산되며, 그 몫은 가까이에서 쏘는 그룹원끼리 레벨에 따라 나뉩니다.
+- **공급을 살피세요.** 조각에는 하루 한도가 없지만, 한 섹터에 있는 소행성은 정해진 수뿐이고 하나가 부서지면 한참 뒤에야 다시 자랍니다. 붐비는 섹터에서는 파일럿마다 몫이 줄어드니 한산한 섹터로 옮기세요.
+- **큰 것은 함께 부수세요.** 소행성 Motherlode는 그룹을 위한 바위입니다. 그룹은 파일럿 한 명으로 계산되며, 그 몫은 가까이에서 쏘는 그룹원끼리 레벨에 따라 나뉩니다. Mole도 이를 채굴합니다.
 - **섹터를 살피세요.** 소행성은 반격하지 않지만, 그 주변 섹터에는 여전히 외계인이 있고 위험 섹터에는 다른 파일럿도 있습니다.
 - **활용하되 조심하세요.** 나와 라이벌 또는 외계인 사이에 있는 소행성은 서로의 레이저를 막아 줍니다. 내가 채굴 중인 소행성 너머로 나를 쏘는 라이벌은 그 소행성에 피해를 주며, 다른 파일럿과 마찬가지로 입힌 피해에 따라 보상을 받습니다.

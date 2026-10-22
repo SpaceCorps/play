@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -9,6 +9,8 @@ La **Forgia** è la seconda scheda della pagina Assemblaggio (e della finestra A
 Laser, amp laser, Shield Core, celle scudo, motori, propulsori, Nuclei adattivi, Repair Drone e [corazza dello scafo](/wiki/06-Items/Hull-Plating.md): qualsiasi singolo pezzo di equipaggiamento che possa portare [bonus di incantamento](/wiki/06-Items/Overview.md). Può trovarsi nel tuo inventario, su una nave (ci resta e funziona subito con il nuovo grado) o essere montato in un altro oggetto. Droni, navi, munizioni, risorse e booster non si possono forgiare, e nemmeno nulla che si trovi nel Deposito di trasporto o montato nel Modulo Motori o nel Modulo Difesa del tuo Skylab: toglilo prima.
 
 L’elenco dell’equipaggiamento ha un interruttore **Tutti / Equipaggiati / In inventario** accanto agli altri filtri. **Equipaggiati** mostra ciò che è su una nave o inserito in un altro oggetto, **In inventario** ciò che è sfuso, e una riga sotto il titolo dice quanti pezzi l’interruttore nasconde. Mentre scegli il donatore di un’unione, «Equipaggiati» è sospeso, perché un donatore deve essere sfuso.
+
+Un menu **Nave** accanto al filtro del tipo mostra solo i pezzi di una delle tue navi (un pezzo inserito in un altro oggetto conta per la nave su cui sta il suo ospite). È sospeso sotto «In inventario» e mentre scegli il donatore di un’unione. La scheda al passaggio del cursore, l’intestazione del pannello e la base dell’unione dicono dov’è un pezzo: *Su Kitefin, configurazione 1* (una corazza dello scafo: entrambe le configurazioni) e in che cosa è inserito. **Ctrl+F** (Cmd+F su Mac) porta il cursore nella casella di ricerca dell’intestazione dell’Assemblaggio; restringe l’elenco della scheda aperta (ricette per ciò che creano e richiedono, equipaggiamento per nome, tipo e grado), ed Esc lo cancella. Sotto *Slot bonus* il pannello dice quando una statistica del pezzo è troppo bassa per portare un bonus, ed è per questo che un Impulse Thruster porta un bonus e un Momentum Thruster due.
 
 ## Sali di grado {#tier-up}
 

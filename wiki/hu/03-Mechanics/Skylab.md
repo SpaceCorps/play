@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ A Trófeaterem megőrzi, amit a Skylabod lelövései hoznak, amíg át nem vesze
 
 - **Mit tart**: kreditet, Thuliumot, tapasztalatot, becsületet és a lelövések zsákmányát.
 - **A kapacitás** **fejpénzpontban** van számolva: egy lelövés hozzáadja az idegen fejpénzét, a kreditet osztva 200-zal plusz a Thuliumot, bármit ejt is (az Alpha számai minden világban). Az 1. szinten 650 pontot tart, a 20. szinten 45 000-et.
-- **Tele**: a teli terem miatt a Skylab **abbahagyja a tüzelést**: semmit sem lő le, fizet vagy számol, és lőszert sem fogyaszt, amíg át nem veszed (a hajótest tovább regenerálódik). Egy üzenet és az oldalsáv Skylab-sorának tippje jelzi.
+- **Tele**: a teli terem miatt a Skylab **abbahagyja a tüzelést**: semmit sem lő le, fizet vagy számol, és lőszert sem fogyaszt, amíg át nem veszed (a hajótest tovább regenerálódik). Egy üzenet, egy felugró értesítés, egy borostyánszínű **Terem tele** jelvény az állomás sávján, egy értesítés a Skylab oldalon és az oldalsáv Skylab-sorának tippje jelzi.
 - **Begyűjtés** az Univerzum ablakban, leszállt hajóval: a kredit és a Thulium a számládra, a tapasztalat és a becsület a pilótádhoz, a zsákmány a készletedbe kerül. Két egyidejű begyűjtés egyszer fizet.
 - **A zsákmányt** minden lelövéshez az idegen ejtéseiből sorsolják, soha Dark Matter, Ancient Control Unit, N.I.K.E. vagy N.U.K.E. nem lehet benne. **Nem eladható**: nem adható el az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energia**: 20 az 1. szinten, szintenként 10%-kal növekedve. Kikapcsolható, de nem addig, amíg a Skylab úton van.
@@ -442,7 +442,7 @@ Kattints egy ismert cellára a térképen: a cella panelje megmutatja az út **e
 - **Az óra** a szerveré: az érkezés indulásakor rögzül, és az út megy tovább, amikor ki vagy jelentkezve. Az útközben adott új parancs a következő cellánál lép érvénybe: az éppen tartó ugrás befejeződik.
 - **Mi állít meg egy parancsot**: nincs Hajtóműmodul, vagy kikapcsolt, illetve fejlesztés alatt álló; nincs beszerelt hajtómű; nincs elég energia; megsemmisült Skylab; az a cella, amelyben már van; egy ismeretlen cella; a Védelmi modulod számára túl nehéz cella; nincs ismert útvonal.
 - **Úton** az Expedíció négy modulja nem kapcsolható, a Hajtóműmodul nem fejleszthető, és semmi sem szerelhető be vagy vehető ki. Útközben a cellák idegenjeivel, amelyeken áthalad, fele akkora ütemben találkozik, mint ha ott maradna.
-- **Üzenetek**: egy üzenet szól, amikor a Skylab megérkezik, amikor megsemmisül vagy megjavul, és amikor a terme megtelik, az első háromhoz pedig saját halk hang is tartozik.
+- **Üzenetek**: egy üzenet szól, amikor a Skylab megérkezik, amikor megsemmisül vagy megjavul, és amikor a terme megtelik, mind a négyhez pedig saját halk hang is tartozik.
 
 Mit mond az előnézet, a sorai sorrendjében (minden szám a szerveré, arra a felszerelésre, amellyel a Skylabod most rendelkezik):
 

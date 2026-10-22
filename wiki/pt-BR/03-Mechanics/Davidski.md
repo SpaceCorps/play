@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski é um comerciante que voa. É uma nave NPC pacífica que sai uma vez por dia, em um horário que ninguém anuncia, e patrulha um [setor de perigo](/wiki/01-General/Danger-Sectors.md) por vez, tem o melhor equipamento do jogo e vende todo item que o [leilão](/wiki/03-Mechanics/Auction.md) lista, com estoque sem fim, por muitas vezes o preço da loja. Não pertence a nenhuma corporação, aparece no Hall da Fama como um piloto e nunca atira primeiro. Você compra dele no leilão e pode enfrentá-lo no espaço.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski é um comerciante que voa. É uma nave NPC pacífica que sai uma vez por dia, em um horário que ninguém anuncia, e patrulha um [setor de perigo](/wiki/01-General/Danger-Sectors.md) por vez, tem o melhor equipamento do jogo e vende todo item que o [leilão](/wiki/03-Mechanics/Auction.md) lista, com estoque sem fim, por muitas vezes o preço da loja. Não pertence a nenhuma corporação, não aparece em nenhum ranking e nunca atira primeiro. Você compra dele no leilão e pode enfrentá-lo no espaço.
 
 ## Onde ele está {#where-he-is}
 
@@ -25,7 +23,7 @@ Uma **Ironclad TITANIC** pintada de dourado, no tamanho próprio da TITANIC, com
 | Extras | um Repair Drone IV, uma Auto-Repair CPU e uma Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Na força de Alpha ele tem **858.750 de casco**, **1.309.534 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 80,5% de absorção, velocidade 96, alcance 945 e uma salva de **2.052 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,2 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de doze minutos de tiro contínuo sozinho; dez deles, cerca de um minuto e dez segundos.
+Na força de Alpha ele tem **858.750 de casco**, **1.309.534 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 80,5% de absorção, velocidade 96, alcance 945 e uma salva de **4.104 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,2 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de doze minutos de tiro contínuo sozinho; dez deles, cerca de um minuto e dez segundos.
 
 ## Combatê-lo {#fighting-him}
 
@@ -40,15 +38,15 @@ Ele paga como um chefe, pelo dano que cada piloto causou (uma parcela abaixo de 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Créditos | 1.060.000 | 2.120.000 | 3.180.000 |
-| Thulium | 2.850 | 5.700 | 8.550 |
-| Experiência | 170.000 | 340.000 | 510.000 |
-| Honra | 740 | 1.480 | 2.220 |
+| Créditos | 1.590.000 | 3.180.000 | 4.770.000 |
+| Thulium | 4.275 | 8.550 | 12.825 |
+| Experiência | 255.000 | 510.000 | 765.000 |
+| Honra | 1.110 | 2.220 | 3.330 |
 
-A caixa tem de 40 a 60 Ship Fragments, de 10 a 20 Power Cores e de 3.000 a 6.000 Advanced Plasma, e às vezes Ancient Control Units ou Dark Matter. Uma destruição conta **37 pontos** no seu ranking PvE, com o nome Davidski nas suas estatísticas de abates.
+A caixa tem de 40 a 60 Ship Fragments, de 10 a 20 Power Cores e de 3.000 a 6.000 Advanced Plasma, e às vezes Ancient Control Units ou Dark Matter. Uma destruição **não soma nenhum ponto PvE** ao seu ranking (ele está fora dos rankings, veja abaixo); a experiência que ela paga conta como qualquer outra experiência, e a destruição é registrada com o nome Davidski nas suas estatísticas de abates.
 
 - **Ele é destruído no máximo uma vez por dia.** Depois da morte ele fica fora até o próximo dia UTC, quando sai de novo no momento desse dia, com o casco cheio. Ninguém é avisado de que ele caiu; os pilotos que lutaram contra ele veem o próprio pagamento.
-- **Ele paga a um piloto por duas destruições por dia e a um mundo por oito** (UTC). Com um Davidski por dia em cada mundo, esses limites quase não importam; passando deles você é avisado, não recebe nada e não ganha pontos pela destruição.
+- **Ele paga a um piloto por duas destruições por dia e a um mundo por oito** (UTC). Com um Davidski por dia em cada mundo, esses limites quase não importam; passando deles você é avisado e não recebe nada pela destruição.
 
 ## Comprar dele {#buying-from-him}
 
@@ -64,8 +62,8 @@ O estoque dele está na lista do **Mercado** do leilão, entre os anúncios dos 
 
 ## Rankings
 
-Ele aparece no **Hall da Fama** da página Rankings como um piloto, nas duas tabelas (PvE e PvP) de cada mundo: uma linha com o número da posição, um avatar com a inicial dele, o nome, sem corporação (a coluna mostra Neutral), o mundo e os pontos. Os pilotos abaixo dele descem uma posição. Na visão **Todos** ele tem três linhas, uma por mundo.
+Ele não está em **nenhum ranking**. O **Hall da Fama** da página Rankings lista só pilotos, nas duas tabelas (PvE e PvP) de cada mundo, e a posição no perfil de um piloto conta só pilotos.
 
-- **Os pontos dele são os de um piloto de nível 20.** São calculados pela mesma fórmula dos pontos PvE de um piloto ([Patentes](/wiki/03-Mechanics/Ranks.md)): 20 níveis de 100 pontos cada, mais os 5.242.880.000 de experiência que um piloto tem ao chegar ao nível 20 divididos por 1.000, e nenhum abate: **5.244.880** na tabela PvE e **0** na PvP. Um piloto com exatamente os mesmos pontos fica abaixo dele.
-- **Ele aparece todos os dias**, esteja fora ou não. A linha dele não abre perfil: ele não tem conta.
-- **A linha é tudo o que ele tem nos rankings.** Ele não pertence a nenhuma corporação, então não está em nenhuma escada de corporação das [patentes](/wiki/03-Mechanics/Ranks.md) e não pode usar a coroa. Os seus pontos, a sua patente e o que você recebe são os mesmos que sem ele; só os números que contam o Hall da Fama (o que fica antes de um nome e a posição no perfil) o contam também.
+- **Uma destruição dele não vale nenhum ponto PvE.** A lista ao lado dos pontos PvE na página Rankings não o mostra, e a tabela de [Patentes](/wiki/03-Mechanics/Ranks.md) não tem nenhuma linha dele. A experiência que uma destruição paga conta como qualquer outra experiência, então o seu nível, e os pontos que vêm com ele, sobem como depois de qualquer destruição.
+- **Ele não tem linha nem perfil.** Ele não tem conta e não tira o lugar de nenhum piloto: as tabelas e as posições nos perfis são as mesmas que se ele não existisse.
+- **Ele não pertence a nenhuma corporação**, então não está em nenhuma escada de corporação das [patentes](/wiki/03-Mechanics/Ranks.md) e não pode usar a coroa.

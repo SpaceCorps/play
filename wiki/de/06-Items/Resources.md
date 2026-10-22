@@ -736,7 +736,7 @@ Erfahrung und Ehre sind Punktestände, kein Geld: Man kauft nichts damit. Erfahr
 
 - **Zum Start**: Das Konto eines neuen Piloten hat 10.000 Credits.
 - **Aliens**: Jeder Abschuss zahlt sie (Tabelle oben).
-- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)**: Die Brocken eines zerbrochenen Asteroiden zahlen sie, bis zu einem Limit je 24 Stunden (auf dieser Seite).
+- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)**: Die Brocken eines zerbrochenen Asteroiden zahlen sie.
 - **[Missionen](/wiki/03-Mechanics/Quests.md)**: 6.664.500 Credits über die 88 Missionen mit der Bezahlung von Alpha, von 86.000 auf Level 1 bis 2.720.000 auf Level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Die Credit-Farm produziert sie, während du weg bist, in einen Speicher für 72 Stunden.
 
@@ -770,7 +770,7 @@ Das sind die Raten einer Station mit genug Energie: Ein Energiedefizit hält jed
 
 - **Zum Start**: Das Konto eines neuen Piloten hat 100 Thulium.
 - **Aliens**: Jeder Abschuss zahlt sie (Tabelle oben).
-- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)**: Die Brocken eines zerbrochenen Asteroiden zahlen sie, bis zu einem Limit je 24 Stunden (auf dieser Seite).
+- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)**: Die Brocken eines zerbrochenen Asteroiden zahlen sie.
 - **[Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md)**: ab Saisontag 11 liefert ein voller Durchlauf 9.643 davon in Alpha (mehr in Beta und Gamma), in Kisten, die jeder nehmen darf; am Bedienfeld wird gewählt, was er abbaut.
 - **[Missionen](/wiki/03-Mechanics/Quests.md)**: 51.010 Thulium über die 88 Missionen mit der Bezahlung von Alpha, von 170 auf Level 1 bis 21.760 auf Level 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Die Thulium-Farm produziert sie, während du weg bist, in einen Speicher für 72 Stunden.

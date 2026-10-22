@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -24,7 +24,7 @@ Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a 
 
 Uma skin é um esquema de pintura feito a partir do próprio casco da nave: as linhas dos painéis, os números e as listras ficam, só as cores mudam. Ela é para um **modelo de nave**, e a mesma skin é usada por todas as suas naves desse modelo e por todo [design](/wiki/03-Mechanics/Ship-Designs.md) feito a partir dele; uma conversão mantém o visual. A Protos ainda não tem skin, a Kitefin, a Ostirion e a Nomad têm uma coleção, e as quatro naves que você fabrica na Montagem têm as dez.
 
-As skins pertencem à sua **conta**, não a uma nave, e ficam através do [reset](/wiki/03-Mechanics/Wipe-Timeline.md); a nave que você mantém usa o que usava.
+As skins pertencem à sua **conta**, não a uma nave, e ficam através do [reset](/wiki/03-Mechanics/Wipe-Timeline.md); as suas naves usam o que usavam.
 
 | Coleção | Naves | Raridade | Como é |
 | :--- | :--- | :--- | :--- |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Los alienígenas destruidos dejan su botín en el espacio en forma de cajas de c
 - El **agujero negro** deja cajas de **Dark Matter** en el borde de su zona por cada cohete N.I.K.E. que se dispara contra él (consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Son el único tipo de caja que queda dentro del anillo del agujero.
 - **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** no suelta una caja así: cada piloto que causó el 5 % del daño o más recibe una [caja privada](#private-boxes) propia, con su parte del botín.
-- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide, y se aplica un límite cada 24 horas. Un fragmento se recoge como una caja, y está reservado para los pilotos que lo ganaron y después libre, como una caja.
+- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. Un fragmento se recoge como una caja, y está reservado para los pilotos que lo ganaron y después libre, como una caja.
 
 Un alienígena al que remata un piloto de corporación suelta su botín para el piloto al que cuenta el derribo (el que tiene su reclamación o, si no, el piloto de su corporación que lo está combatiendo); uno que un piloto de corporación combatió en solitario no suelta nada, porque los pilotos de corporación nunca recogen.
 

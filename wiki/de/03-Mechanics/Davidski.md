@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski ist ein Händler, der fliegt. Er ist ein friedliches NPC-Schiff, das einmal am Tag zu einer Zeit ausfliegt, die niemand ankündigt, und einen [Gefahrensektor](/wiki/01-General/Danger-Sectors.md) abpatrouilliert, er hat die beste Ausrüstung des Spiels, und er verkauft jeden Gegenstand, den die [Auktion](/wiki/03-Mechanics/Auction.md) führt, mit unerschöpflichem Vorrat zu einem Vielfachen des Shop-Preises. Er gehört keinem Konzern an, steht wie ein Pilot in der Ruhmeshalle und schießt nie zuerst. Du kaufst bei ihm in der Auktion, und im Weltraum kannst du gegen ihn kämpfen.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski ist ein Händler, der fliegt. Er ist ein friedliches NPC-Schiff, das einmal am Tag zu einer Zeit ausfliegt, die niemand ankündigt, und einen [Gefahrensektor](/wiki/01-General/Danger-Sectors.md) abpatrouilliert, er hat die beste Ausrüstung des Spiels, und er verkauft jeden Gegenstand, den die [Auktion](/wiki/03-Mechanics/Auction.md) führt, mit unerschöpflichem Vorrat zu einem Vielfachen des Shop-Preises. Er gehört keinem Konzern an, steht in keiner Rangliste und schießt nie zuerst. Du kaufst bei ihm in der Auktion, und im Weltraum kannst du gegen ihn kämpfen.
 
 ## Wo er ist {#where-he-is}
 
@@ -25,7 +23,7 @@ Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jed
 | Extras | ein Repair Drone IV, ein Auto-Repair CPU und ein Base CPU II |
 | Hülle | 15 Hull Plating III |
 
-In Alpha-Stärke hat er **858.750 Hülle**, **1.309.534 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 80,5 % Absorption, Tempo 96, 945 Reichweite und eine Salve von **2.052 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,2 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa zwölf Minuten Dauerfeuer, zehn von ihnen etwa eine Minute und zehn Sekunden.
+In Alpha-Stärke hat er **858.750 Hülle**, **1.309.534 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 80,5 % Absorption, Tempo 96, 945 Reichweite und eine Salve von **4.104 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,2 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa zwölf Minuten Dauerfeuer, zehn von ihnen etwa eine Minute und zehn Sekunden.
 
 ## Der Kampf gegen ihn {#fighting-him}
 
@@ -40,15 +38,15 @@ Er zahlt wie ein Boss, nach dem Schaden, den jeder Pilot angerichtet hat (ein An
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1.060.000 | 2.120.000 | 3.180.000 |
-| Thulium | 2.850 | 5.700 | 8.550 |
-| Erfahrung | 170.000 | 340.000 | 510.000 |
-| Ehre | 740 | 1.480 | 2.220 |
+| Credits | 1.590.000 | 3.180.000 | 4.770.000 |
+| Thulium | 4.275 | 8.550 | 12.825 |
+| Erfahrung | 255.000 | 510.000 | 765.000 |
+| Ehre | 1.110 | 2.220 | 3.330 |
 
-Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis 6.000 Advanced Plasma, manchmal auch Ancient Control Units oder Dark Matter. Ein Abschuss zählt **37 Punkte** für dein PvE-Ranking, unter dem Namen Davidski in deiner Abschussstatistik.
+Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis 6.000 Advanced Plasma, manchmal auch Ancient Control Units oder Dark Matter. Ein Abschuss bringt **keine PvE-Punkte** für dein Ranking (er steht in keiner Rangliste, siehe unten); die Erfahrung, die er einbringt, zählt wie jede andere Erfahrung, und der Abschuss wird unter dem Namen Davidski in deiner Abschussstatistik gezählt.
 
 - **Er wird höchstens einmal am Tag zerstört.** Nach seinem Tod bleibt er bis zum nächsten UTC-Tag weg, dann fliegt er zum Zeitpunkt des nächsten Tages wieder aus, mit voller Hülle. Niemand wird informiert, dass er gefallen ist; die Piloten, die gegen ihn gekämpft haben, erfahren ihre eigene Bezahlung.
-- **Er zahlt einem Piloten für zwei Abschüsse am Tag und einer Welt für acht** (UTC). Bei einem Davidski pro Welt und Tag spielen diese Grenzen kaum eine Rolle; darüber hinaus wirst du informiert, bekommst nichts und keine Punkte für den Abschuss.
+- **Er zahlt einem Piloten für zwei Abschüsse am Tag und einer Welt für acht** (UTC). Bei einem Davidski pro Welt und Tag spielen diese Grenzen kaum eine Rolle; darüber hinaus wirst du informiert und bekommst nichts für den Abschuss.
 
 ## Bei ihm kaufen {#buying-from-him}
 
@@ -64,8 +62,8 @@ Sein Vorrat steht in der **Markt**-Liste der Auktion, zwischen den Angeboten der
 
 ## Ranglisten {#rankings}
 
-Er steht wie ein Pilot in der **Ruhmeshalle** der Seite Ranglisten, in beiden Listen (PvE und PvP) jeder Welt: eine Zeile mit Platznummer, einem Avatar mit seinem Anfangsbuchstaben, seinem Namen, ohne Konzern (die Spalte zeigt Neutral), seiner Welt und seinen Punkten. Die Piloten unter ihm rutschen einen Platz nach unten. In der Ansicht **Alle** hat er drei Zeilen, je eine pro Welt.
+Er steht in **keiner Rangliste**. Die **Ruhmeshalle** auf der Seite Ranglisten führt nur Piloten, in beiden Listen (PvE und PvP) jeder Welt, und die Position im Profil eines Piloten zählt nur Piloten.
 
-- **Seine Punkte sind die eines Piloten der Stufe 20.** Sie werden mit derselben Formel berechnet wie die PvE-Punkte eines Piloten ([Ränge](/wiki/03-Mechanics/Ranks.md)): 20 Stufen zu je 100 Punkten, dazu die 5.242.880.000 Erfahrung, die ein Pilot beim Erreichen von Stufe 20 hat, geteilt durch 1.000, und keine Abschüsse: **5.244.880** in der PvE-Liste und **0** in der PvP-Liste. Ein Pilot mit genau so vielen Punkten steht unter ihm.
-- **Er steht jeden Tag in der Liste**, ob er draußen ist oder nicht. Seine Zeile öffnet kein Profil: Er hat kein Konto.
-- **Die Zeile ist alles, was er in den Ranglisten hat.** Er gehört keinem Konzern an, deshalb steht er auf keiner Konzern-Leiter der [Ränge](/wiki/03-Mechanics/Ranks.md) und trägt nie die Krone. Deine Punkte, dein Rang und deine Belohnungen sind dieselben wie ohne ihn; nur die Zahlen, die die Ruhmeshalle zählen (die vor einem Namen und die Position im Profil), zählen ihn mit.
+- **Ein Abschuss von ihm bringt keine PvE-Punkte.** Die Liste neben den PvE-Punkten auf der Seite Ranglisten zeigt ihn nicht, und die Tabelle der [Ränge](/wiki/03-Mechanics/Ranks.md) hat keine Zeile für ihn. Die Erfahrung, die ein Abschuss einbringt, zählt wie jede andere Erfahrung: Deine Stufe und die Punkte, die dazugehören, steigen wie nach jedem Abschuss.
+- **Er hat keine Zeile und kein Profil.** Er hat kein Konto und nimmt keinem Piloten einen Platz weg: Die Listen und die Positionen in den Profilen sind dieselben, als gäbe es ihn nicht.
+- **Er gehört keinem Konzern an**, deshalb steht er auf keiner Konzern-Leiter der [Ränge](/wiki/03-Mechanics/Ranks.md) und trägt nie die Krone.

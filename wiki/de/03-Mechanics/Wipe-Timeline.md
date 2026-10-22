@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Jede Saison läuft über die Tage 1 bis 30 (der Wipe beginnt mit seinem 5-Minute
 | **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten), und die drei [Schwärme](/wiki/05-Swarms/Swarms.md) tauchen auf: Sie bleiben bis zum Wipe, durch die Phasen nach dieser hindurch. Die Phase selbst gibt noch keine besonderen Belohnungen. |
 | **Techschub** | Tag 11–18 | Event 2 | Die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) verändern sich: ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) neben jedem Pulsar auf `DS-1` bis `DS-3`, der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, Slumbering Voids und ein Dormant-Schwarm, der früher zurückkommt und doppelt zahlt. Das alles bleibt bis zum Wipe. Die Phase gibt keine eigenen Belohnungen. |
 | **Kriegsspiele** | Tag 19–25 | Event 3 | Noch keine besonderen Effekte: PvP funktioniert wie in jeder Phase nach dem Friedensprotokoll. |
-| **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen und zu sperren, bevor die Eruption kommt. |
+| **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen, bevor die Eruption kommt. |
 | **Der Reset** | Tag 30 | Schwarzloch-Eruption | Das Universum wird zerstört und neu geboren, und jeder [Clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) wird aufgelöst. Die Piloten wechseln in die Welt, die sie als Ziel für die nächste Saison gewählt haben. |
 
 Abgesehen vom Wipe selbst folgen nur vier Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, ab Tag 11 bekommen die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) ihre Riesenbagger (neben den Pulsaren, die ab Tag 1 leuchten) und den Dormant Swamp, die bis zum Wipe bleiben, und das [Auktionshaus](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels. Event 2 verändert die Gefahrensektoren wie oben; keines der anderen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
@@ -47,8 +47,8 @@ Sobald alle 100 Teile gesammelt sind und das Chrono-Gate vollständig stabilisie
 
 ### Automatische Mitnahme (kostenlos) {#automatic-carry-over-free-}
 Folgendes ist immer geschützt und wird automatisch in die nächste Saison mitgenommen, wobei es **keine** Kapazität in deinem Transport-Cache verbraucht:
-1. Dein aktuell aktives Schiff.
-2. Jeder Gegenstand, der derzeit auf diesem aktiven Schiff ausgerüstet ist, in **Konfiguration 1** und **Konfiguration 2** (einschließlich Laser, Schilde, Triebwerke und Generatoren).
+1. Jedes Schiff, das du besitzt, repariert und mit seiner Lackierung. Der Hangar gehört dir für immer; nur dein aktives Schiff behält, was daran ausgerüstet ist (der nächste Punkt), und die Ausrüstung deiner anderen Schiffe geht wie jeder lose Gegenstand verloren, wenn du sie nicht in den Cache legst.
+2. Jeder Gegenstand, der derzeit auf deinem aktiven Schiff ausgerüstet ist, in **Konfiguration 1** und **Konfiguration 2** (einschließlich Laser, Schilde, Triebwerke und Generatoren).
 3. Jede Drohne, die du besitzt, mit Level und Erfahrung: Deine [Slave Drones](/wiki/03-Mechanics/Drones.md) bleiben erhalten, also bleiben deine Drohnen-Slots freigeschaltet, und der Preis deiner nächsten Drohne richtet sich weiter nach der Anzahl, die du besitzt. Laser und Schilde in einem Drohnen-Slot folgen der Regel oben: Sie bleiben, wenn sie auf dem aktiven Schiff sind.
 4. Jede Drohnenformation, die du besitzt ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)), egal wo sie liegt: in deinem Inventar, in deiner Aktionsleiste oder auf einem Schiff. Wie deine Drohnen bleiben sie, ohne Platz im Transport-Cache zu belegen.
 
@@ -56,20 +56,23 @@ Folgendes ist immer geschützt und wird automatisch in die nächste Saison mitge
 Für zusätzliche Gegenstände in deinem Inventar, die du retten willst (z. B. Ersatzwaffen, Herstellungsressourcen oder zusätzliche Schildgeneratoren):
 * **Gewichtslimit**: Der Transport-Cache hat ein striktes Kapazitätslimit von **50 Tonnen (50.000 kg)**.
 * **Gegenstände laden**: Du kannst Gegenstände per Drag-and-drop aus dem Inventar deines Hangars in die Slots des Transport-Cache ziehen.
-* **Gewicht der Gegenstände**: Verschiedene Gegenstandsklassen haben unterschiedliche Gewichte:
-  * *Laser / Waffen*: 10 kg
-  * *Schildgeneratoren*: 20 kg
-  * *Triebwerke / Antrieb*: 30 kg
-  * *Generatoren*: 30 kg
-  * *Ressourcen / Mineralien*: je nach Seltenheit unterschiedliche Gewichte (eine Reinforced Plate aus der Schmiede des Skylab wiegt 5 kg)
+* **Gewicht der Gegenstände**: Jeder Gegenstand hat ein festes Gewicht. Ein Stapel wiegt dieses Gewicht mal seine Menge, und ein Gegenstand, in den Module eingesetzt sind (Schubdüsen in einem Triebwerk, Amps in einem Laser, Zellen in einem Schild), geht mit ihnen in den Cache und wiegt sie mit:
+  * *Laser, Schilde, Triebwerke, adaptive Kerne*: je 2.500 kg
+  * *Schubdüsen, Laserverstärker, Schildzellen*: je 1.000 kg
+  * *Hüllenpanzerung, Booster, Extras, Energetic Walls*: je 500 kg
+  * *EMP Charges*: je 250 kg
+  * *Platten* (die Velkonite und Orvium Reinforced Plates, die die Schmiede des Skylab herstellt, und die Dark Matter Plates): je 5 kg
+  * *Cluster Chunks*: 2 kg (Regular), 4 kg (Mythical) oder 8 kg (Legendary)
+  * *Übrige Ressourcen und Laser-Munition* (Erz, Ship Fragments, Power Cores, Reinforced Hull Plates, Dark Matter und so weiter): je 1 kg
   * *Raketen*: gar kein Gewicht: Sie nehmen im Cache keinen Platz ein, ganze Stapel passen also hinein (siehe [Raketen](/wiki/06-Items/Rockets.md))
+* **Beispiel**: 20 Laser wiegen 20 × 2.500 kg = 50.000 kg und füllen den Cache genau; ein 21. wird abgelehnt. Ein Engine III mit seinen drei eingesetzten Schubdüsen wiegt 2.500 + 3 × 1.000 = 5.500 kg. Ressourcen sind leicht: Ein Stapel mit 1.000 Erz wiegt 1.000 kg, und 100 Platten wiegen 500 kg.
 
 Dein [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) ist vom Wipe nie betroffen: Seine Module behalten ihre Level, und das Ressourcenlager behält sein eingelagertes Erz. Auch das Forschungszentrum behält alles, was [Forschung](/wiki/03-Mechanics/Research.md) enthält: deine Technologien, die Wissenschaft in seinem Tank, das eingesetzte Dark Matter, eine laufende Forschung und den Boost. Ebenso die Extra Slots CPUs, die du installiert hast, denn sie sind keine Gegenstände. Ebenso deine [P.E.T.s](/wiki/03-Mechanics/Pets.md) (angedockt oder gelagert), die Aufträge in der Wiege, der Kodex, deine P.E.T. Stationen und dein [Look](/wiki/06-Items/Cosmetics.md): Auch sie sind keine Gegenstände. Was du schon abgeholt hast, bleibt dagegen nicht erhalten: Platten in deinem Inventar sind Gegenstände wie alle anderen, eine Platte, die du behalten willst, muss also im Transport-Cache liegen. Cluster Chunks sind ebenfalls Gegenstände, und so sind es auch Triebwerke und Laser, die im Triebwerks- oder Verteidigungsmodul des Skylab eingebaut sind: Nimm sie aus dem Modul und lege sie zum Behalten in den Cache. Eine laufende Skylab-Expedition wird bis zum Wipe abgerechnet, die Trophäenhalle zahlt ihre Credits, ihr Thulium, ihre Erfahrung und ihre Ehre aus und wird geleert (ihre Beute wird wie jeder lose Gegenstand gelöscht), und das Skylab beginnt die neue Saison zu Hause mit einer neuen Universumskarte.
 
 ### Bestätigen & sperren {#confirm-lock}
-Vor dem Ende der Saison musst du in der Oberfläche des Materialisators auf **Bestätigen & sperren** klicken.
-* Das Sperren des Caches ist ein Sicherheitsprotokoll, das den Sprungspiegel vorbereitet.
-* **WARNUNG**: Jeder Gegenstand, der nicht auf deinem aktiven Schiff ausgerüstet ist, keine Drohne ist und nicht in einem gesperrten Transport-Cache liegt, wird bei der Schwarzloch-Eruption **endgültig zerstört**.
+Vor dem Ende der Saison kannst du in der Oberfläche des Materialisators auf **Bestätigen & sperren** klicken.
+* Das Sperren friert den Cache ein: Bis du ihn entsperrst, lässt sich nichts hinzufügen oder entnehmen. Es ist eine Sicherung und keine Bedingung: Was im Transport-Cache liegt, geht gesperrt oder nicht in die nächste Saison mit.
+* **WARNUNG**: Jeder Gegenstand, der nicht auf deinem aktiven Schiff ausgerüstet ist, weder eine Drohne noch eine Drohnenformation ist und nicht im Transport-Cache liegt (gesperrt oder nicht), wird bei der Schwarzloch-Eruption **endgültig zerstört**.
 
 ---
 
@@ -100,7 +103,7 @@ So funktionieren die Welten:
 
 ## Fortschritt über Saisons hinweg (dauerhafte Buffs) {#cross-season-progression-permanent-buffs-}
 
-Der Wipe nimmt dir deine Schiffe und Gegenstände (außer deinem aktiven Schiff mit allem, was daran ausgerüstet ist, deinem Transport-Cache und deinen Drohnen) und setzt dich in den Heimatsektor deines Konzerns zurück; dein Level, deine Credits, dein Thulium und deine Rangpunkte werden nicht zurückgesetzt. Darüber hinaus tragen deine gesamten Pilotenleistungen zu dauerhafter Stärke bei. Alien-Abschüsse und abgeschlossene Missionen bringen **Wipe-Punkte (WP)**. Deine [Missionen](/wiki/03-Mechanics/Quests.md) selbst, erledigte wie laufende, bleiben erhalten: Jede lässt sich pro Pilot nur einmal erledigen, für immer, außer den Level-Missionen, die das Update 0.4.10 überarbeitet hat: 64 davon werden noch einmal angeboten ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+Der Wipe nimmt dir deine Gegenstände (außer dem, was an deinem aktiven Schiff ausgerüstet ist, deinem Transport-Cache und deinen Drohnen), lässt dir alle deine Schiffe und setzt dich in den Heimatsektor deines Konzerns zurück; dein Level, deine Credits, dein Thulium und deine Rangpunkte werden nicht zurückgesetzt. Darüber hinaus tragen deine gesamten Pilotenleistungen zu dauerhafter Stärke bei. Alien-Abschüsse und abgeschlossene Missionen bringen **Wipe-Punkte (WP)**. Deine [Missionen](/wiki/03-Mechanics/Quests.md) selbst, erledigte wie laufende, bleiben erhalten: Jede lässt sich pro Pilot nur einmal erledigen, für immer, außer den Level-Missionen, die das Update 0.4.10 überarbeitet hat: 64 davon werden noch einmal angeboten ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Clans und Ränge.** Der Wipe löst jeden Clan auf, mit seiner Flottenkasse, seinen Beiträgen, seinem Protokoll, seinen Verträgen, Punkten und Boni-Stufen, jede Saison ist also ein neues Rennen darum, einen Clan zu gründen und seine Boni zu füllen; die Credits, die ein Clan dir schon gezahlt hat, bleiben, ebenso dein Spendenkontingent ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Anführer und Stellvertreter: Zahlt die Flottenkasse aus, bevor der Countdown abläuft. Auch deine PvE-Rangpunkte bleiben, ein Wipe verschiebt dich also nicht in der Rangliste deines Konzerns: Dein Rang folgt deinem Platz dort, nicht der Saison ([Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

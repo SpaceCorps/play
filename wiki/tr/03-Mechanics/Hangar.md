@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7162db398da356a1 -->
+<!-- wiki-i18n source: 968a75aa2c9015c4 -->
 <!-- wiki-i18n title: Hangar -->
 # Uçuşta Hangar {#the-hangar-in-flight}
 
@@ -27,7 +27,7 @@ Süren onarımlar seni durdurmaz. Başka her yerde Hangar penceresi yine açıl�
 - **Ekstralar.** Dört normal gemi, yani Protos, Kitefin, Ostirion ve Nomad (başladığın ya da satın aldığın gemiler), her konfigürasyonda 2 ekstra yuvaya sahiptir; Montaj’da ürettiğin dört gemi, yani Paragon, Ironclad, Wraith ve Storm, 3 yuvaya sahiptir. Skylab’ının Extra Slots CPU eşyaları bunların üstüne 3, 5 veya 7 yuva ekler: normal gemilerde 5, 7 veya 9, üretilenlerde 6, 8 veya 10 ([Ekstralar](/wiki/06-Items/Extras.md#extra-slots-cpus)). 0.4.10 güncellemesi geldiğinde normal bir gemideki üçüncü ekstra envanterine çıkarıldı: hiçbir şey silinmedi ve sohbette tek bir mesaj aldın.
 - **Gövde plakaları.** Ürettiğin dört geminin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) için gövde plakası yuvaları vardır; her biri sen Skylab’da araştırana kadar kilitlidir. Taktığın ya da çıkardığın bir plaka gövdenin dolu oranını korur ve konfigürasyon değiştirsen de yerinde kalır.
 - **Görünümler.** Uzay gemisi görünümünde gövde plakalarından sonra gelen **Görünüm** bölümü ile Dronlar görünümündeki **Dron kaplaması** kutusu **Gardırop** penceresini açar; burada skinleri, auraları ve egzozları giymeden önce dönen geminde denersin. Ekipmanın değişebildiği her yerde görünüm de değişebilir ([Kozmetikler](/wiki/06-Items/Cosmetics.md)).
-- **P.E.T.’ler.** **P.E.T.** görünümünde Beşik bulunur: bir Cluster Chunk ve bir Orvium Reinforced Plate burada bir P.E.T.’e dönüşür; ayrıca P.E.T. Station (yerleri, nerede takılı olduğu ve AÇIK olup olmadığı) ve melezleme de buradadır. Uçuşta yalnızca sahip olduklarını gösterir: monte etmek, yanaştırmak, ayırmak ve melezlemek için geminin bir istasyonda park halinde olması gerekir ([P.E.T.’ler](/wiki/03-Mechanics/Pets.md)).
+- **P.E.T.’ler.** **P.E.T.** görünümünde Beşik bulunur: bir Cluster Chunk ve bir Orvium Reinforced Plate burada bir P.E.T.’e dönüşür; ayrıca P.E.T. Station (yerleri, nerede takılı olduğu ve AÇIK olup olmadığı) ve melezleme de buradadır. Uçuşta Beşik çalışır (monte etmek, toplamak, melezlemek ve serbest bırakmak), ama yanaştırmak ve ayırmak için geminin bir istasyonda park halinde olması gerekir ([P.E.T.’ler](/wiki/03-Mechanics/Pets.md)).
 
 Satış pencerenin parçası değildir: [Açık Artırma](/wiki/03-Mechanics/Auction.md) sayfasını açan tokmak istasyondaki hangara aittir ve Açık Artırma’nın kendisi istasyonun bir sayfasıdır.
 

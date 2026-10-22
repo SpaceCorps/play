@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7162db398da356a1 -->
+<!-- wiki-i18n source: 968a75aa2c9015c4 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -27,7 +27,7 @@ Les réparations en cours ne vous bloquent pas. Partout ailleurs, la fenêtre Ha
 - **Extras.** Les quatre vaisseaux ordinaires, le Protos, le Kitefin, l’Ostirion et le Nomad (ceux avec lesquels vous commencez ou que vous achetez), ont 2 emplacements extras par configuration ; les quatre vaisseaux que vous fabriquez à l’Assemblage, le Paragon, l’Ironclad, le Wraith et le Storm, en ont 3. Les Extra Slots CPU de votre Skylab en ajoutent 3, 5 ou 7 : 5, 7 ou 9 sur les ordinaires et 6, 8 ou 10 sur ceux que l’on fabrique ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)). Avec la 0.4.10, un troisième extra sur un vaisseau ordinaire a été retiré et placé dans votre inventaire : rien n’a été supprimé, et vous avez reçu un message dans le chat.
 - **Blindage de coque.** Les quatre vaisseaux que vous fabriquez ont des [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour le blindage de coque, chacun verrouillé tant que vous ne l’avez pas recherché dans le Skylab. Un blindage que vous montez ou retirez conserve votre part de coque, et il reste en place quand vous changez de configuration.
 - **Look.** La section **Look** de la vue Vaisseau, après le blindage de coque, et la case **Livrée des drones** de la vue Drones ouvrent la **Garde-robe**, où vous essayez skins, auras et traînées sur votre vaisseau qui tourne avant de les porter. Là où l’équipement peut changer, le look le peut aussi ([Cosmétiques](/wiki/06-Items/Cosmetics.md)).
-- **P.E.T.s.** La vue **P.E.T.** contient le Berceau, où un Cluster Chunk et une Orvium Reinforced Plate deviennent un P.E.T., la P.E.T. Station (ses places, où elle est équipée et si elle est sur ON) et le croisement. En vol elle ne fait que montrer ce que vous avez : assembler, arrimer, désarrimer et croiser ne se font que vaisseau posé à une station ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
+- **P.E.T.s.** La vue **P.E.T.** contient le Berceau, où un Cluster Chunk et une Orvium Reinforced Plate deviennent un P.E.T., la P.E.T. Station (ses places, où elle est équipée et si elle est sur ON) et le croisement. En vol, le Berceau fonctionne (assembler, récupérer, croiser et relâcher), mais arrimer et désarrimer ne se font que vaisseau posé à une station ([P.E.T.s](/wiki/03-Mechanics/Pets.md)).
 
 Vendre ne fait pas partie de la fenêtre : le marteau qui ouvre les [Enchères](/wiki/03-Mechanics/Auction.md) appartient au Hangar de la station, et les Enchères sont elles-mêmes une page de la station.
 

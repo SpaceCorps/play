@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski, uçan bir tüccardır. Günde bir kez, kimsenin duyurmadığı bir saatte ortaya çıkan ve bir [Tehlike Sektörü’nde](/wiki/01-General/Danger-Sectors.md) devriye gezen barışçıl bir NPC gemisidir; oyundaki en iyi donanıma sahiptir ve [pazarın](/wiki/03-Mechanics/Auction.md) listelediği her eşyayı, stoğu hiç bitmeden, Mağaza fiyatının kat kat fazlasına satar. Hiçbir şirkete ait değildir, Şeref Salonu’nda bir pilot gibi yer alır ve ilk ateşi açmaz. Ondan pazarda alışveriş yaparsın; ona uzayda savaş da açabilirsin.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski, uçan bir tüccardır. Günde bir kez, kimsenin duyurmadığı bir saatte ortaya çıkan ve bir [Tehlike Sektörü’nde](/wiki/01-General/Danger-Sectors.md) devriye gezen barışçıl bir NPC gemisidir; oyundaki en iyi donanıma sahiptir ve [pazarın](/wiki/03-Mechanics/Auction.md) listelediği her eşyayı, stoğu hiç bitmeden, Mağaza fiyatının kat kat fazlasına satar. Hiçbir şirkete ait değildir, hiçbir sıralamada yer almaz ve ilk ateşi açmaz. Ondan pazarda alışveriş yaparsın; ona uzayda savaş da açabilirsin.
 
 ## Nerede olduğu {#where-he-is}
 
@@ -25,7 +23,7 @@ Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça 
 | Ekstralar | bir Repair Drone IV, bir Auto-Repair CPU ve bir Base CPU II |
 | Gövde | 15 Hull Plating III |
 
-Alpha gücünde **858.750 gövde**, **1.309.534 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %80,5 soğurma, 96 hız, 945 menzil ve saniyede **2.052** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,2 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on iki dakika kesintisiz ateş ister; on Wraith ise yaklaşık bir dakika on saniye.
+Alpha gücünde **858.750 gövde**, **1.309.534 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %80,5 soğurma, 96 hız, 945 menzil ve saniyede **4.104** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,2 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on iki dakika kesintisiz ateş ister; on Wraith ise yaklaşık bir dakika on saniye.
 
 ## Ona karşı savaşmak {#fighting-him}
 
@@ -40,15 +38,15 @@ Bir patron gibi öder, her pilotun verdiği hasara göre (hasarın %5’inin alt
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredi | 1.060.000 | 2.120.000 | 3.180.000 |
-| Thulium | 2.850 | 5.700 | 8.550 |
-| Deneyim | 170.000 | 340.000 | 510.000 |
-| Onur | 740 | 1.480 | 2.220 |
+| Kredi | 1.590.000 | 3.180.000 | 4.770.000 |
+| Thulium | 4.275 | 8.550 | 12.825 |
+| Deneyim | 255.000 | 510.000 | 765.000 |
+| Onur | 1.110 | 2.220 | 3.330 |
 
-Kutuda 40 ile 60 Ship Fragment, 10 ile 20 Power Core ve 3.000 ile 6.000 Advanced Plasma bulunur; bazen de Ancient Control Unit ya da Dark Matter çıkar. Bir öldürme, PvE sıralaman için **37 puan** sayılır ve öldürme istatistiklerinde Davidski adıyla görünür.
+Kutuda 40 ile 60 Ship Fragment, 10 ile 20 Power Core ve 3.000 ile 6.000 Advanced Plasma bulunur; bazen de Ancient Control Unit ya da Dark Matter çıkar. Bir öldürme PvE sıralamana **hiç puan eklemez** (o hiçbir sıralamada yer almaz, aşağıya bak); ödediği deneyim her deneyim gibi sayılır ve öldürme, öldürme istatistiklerinde Davidski adıyla görünür.
 
 - **Günde en fazla bir kez yok edilir.** Öldükten sonra bir sonraki UTC gününe kadar gelmez; o gün, kendi anında, tam gövdeyle yeniden çıkar. Kimseye düştüğü söylenmez; onunla savaşan pilotlar yalnızca kendi ödemelerinden haberdar olur.
-- **Bir pilota günde iki öldürme için, bir dünyaya ise sekiz için öder** (UTC). Bir dünyada günde bir Davidski olduğu için bu sınırlar nadiren önem taşır; bunları aşarsan sana söylenir ve öldürme için ödeme almazsın, puan da kazanmazsın.
+- **Bir pilota günde iki öldürme için, bir dünyaya ise sekiz için öder** (UTC). Bir dünyada günde bir Davidski olduğu için bu sınırlar nadiren önem taşır; bunları aşarsan sana söylenir ve öldürme için ödeme almazsın.
 
 ## Ondan satın almak {#buying-from-him}
 
@@ -64,8 +62,8 @@ Stoğu, pazarın **Pilot pazarı** listesinde, pilotların ilanlarının arasın
 
 ## Sıralamalar {#rankings}
 
-Sıralamalar sayfasındaki **Şeref Salonu**’nda bir pilot gibi, her dünyanın iki tablosunda da (PvE ve PvP) yer alır: bir sıra numarası, baş harfini taşıyan bir avatar, adı, şirketi yok (sütunda “Neutral” yazar), dünyası ve puanları olan bir satır. Altındaki pilotlar bir sıra aşağı kayar. **Hepsi** görünümünde her dünya için bir tane olmak üzere üç satırı vardır.
+**Hiçbir sıralamada yer almaz.** Sıralamalar sayfasındaki **Şeref Salonu** yalnızca pilotları listeler; her dünyanın iki tablosunda da (PvE ve PvP) öyledir ve bir profildeki sıra da yalnızca pilotları sayar.
 
-- **Puanları 20. seviye bir pilotunkidir.** Bir pilotun PvE puanlarıyla aynı formülle hesaplanır ([Rütbeler](/wiki/03-Mechanics/Ranks.md)): her biri 100 puandan 20 seviye, artı bir pilotun 20. seviyeye ulaştığında sahip olduğu 5.242.880.000 deneyimin 1.000’e bölünmüşü ve hiç öldürme yok: PvE tablosunda **5.244.880**, PvP tablosunda **0**. Tam olarak aynı puana sahip bir pilot onun altında durur.
-- **Her gün listelenir**, çıkmış olsun olmasın. Satırı bir profil açmaz: hesabı yoktur.
-- **Sıralamalarda sahip olduğu tek şey bu satırdır.** Hiçbir şirkette değildir; bu yüzden [rütbelerin](/wiki/03-Mechanics/Ranks.md) şirket merdivenlerinin hiçbirinde yer almaz ve tacı takamaz. Senin puanların, rütben ve aldığın ödemeler onsuz olduğu gibidir; yalnızca Şeref Salonu’nu sayan sayılar (bir adın önündeki ve bir profildeki sıra) onu da sayar.
+- **Onu öldürmek PvE puanı etmez.** Sıralamalar sayfasında PvE puanının yanındaki liste onu göstermez, [Rütbeler](/wiki/03-Mechanics/Ranks.md) tablosunda da onun satırı yoktur. Bir öldürmenin ödediği deneyim her deneyim gibi sayılır; böylece seviyen ve onunla gelen puanlar, her öldürmeden sonraki gibi yükselir.
+- **Satırı da profili de yoktur.** Hesabı yoktur ve hiçbir pilotun yerini almaz: tablolar ve profillerdeki sıralar, o hiç olmasaydı da aynı olurdu.
+- **Hiçbir şirkette değildir**; bu yüzden [rütbelerin](/wiki/03-Mechanics/Ranks.md) şirket merdivenlerinin hiçbirinde yer almaz ve tacı takamaz.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Kozmetika -->
 # Kozmetika {#cosmetics}
 
@@ -24,7 +24,7 @@ A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs
 
 A skin a hajó saját törzséből készült festési séma: a panelvonalak, a számok és a csíkok megmaradnak, csak a színek változnak. Egy **hajótípusra** szól, és ugyanazt a skint viseli minden ilyen típusú hajód és minden belőle készült [dizájn](/wiki/03-Mechanics/Ship-Designs.md); az átalakítás megtartja a kinézetet. A Protosnak még nincs skinje, a Kitefinnek, az Ostirionnak és a Nomadnak egy kollekciója van, a négy hajónak, amelyet a Gyártásban építesz, mind a tíz.
 
-A skinek a **fiókodhoz** tartoznak, nem egy hajóhoz, és átvészelik a [wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md); a hajó, amelyet megtartasz, azt viseli, amit viselt.
+A skinek a **fiókodhoz** tartoznak, nem egy hajóhoz, és átvészelik a [wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md); a hajóid azt viselik, amit viseltek.
 
 | Kollekció | Hajók | Ritkaság | Hogy néz ki |
 | :--- | :--- | :--- | :--- |

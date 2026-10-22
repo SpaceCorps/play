@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski egy repülő kereskedő. Békés NPC-hajó, amely naponta egyszer jön ki, olyan időpontban, amit senki sem jelent be, és egy [veszélyes szektort](/wiki/01-General/Danger-Sectors.md) őriz, övé a játék legjobb felszerelése, és az [aukció](/wiki/03-Mechanics/Auction.md) minden tárgyát árulja, kifogyhatatlan készlettel, a bolti ár sokszorosáért. Nem tartozik vállalathoz, pilótaként szerepel a Dicsőségcsarnokban, és sosem lő először. Az aukción vásárolhatsz tőle, az űrben pedig harcolhatsz ellene.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski egy repülő kereskedő. Békés NPC-hajó, amely naponta egyszer jön ki, olyan időpontban, amit senki sem jelent be, és egy [veszélyes szektort](/wiki/01-General/Danger-Sectors.md) őriz, övé a játék legjobb felszerelése, és az [aukció](/wiki/03-Mechanics/Auction.md) minden tárgyát árulja, kifogyhatatlan készlettel, a bolti ár sokszorosáért. Nem tartozik vállalathoz, egyetlen rangsorban sem szerepel, és sosem lő először. Az aukción vásárolhatsz tőle, az űrben pedig harcolhatsz ellene.
 
 ## Hol van {#where-he-is}
 
@@ -25,7 +23,7 @@ Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden a
 | Extrák | egy Repair Drone IV, egy Auto-Repair CPU és egy Base CPU II |
 | Hajótest | 15 Hull Plating III |
 
-Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 80,5%-os elnyelést, 96-os sebességet, 945-ös hatótávot és **másodpercenként 2 052** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából egy perc tíz másodpercet.
+Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 80,5%-os elnyelést, 96-os sebességet, 945-ös hatótávot és **másodpercenként 4 104** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából egy perc tíz másodpercet.
 
 ## Harc ellene {#fighting-him}
 
@@ -40,15 +38,15 @@ Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodperce
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredit | 1 060 000 | 2 120 000 | 3 180 000 |
-| Thulium | 2 850 | 5 700 | 8 550 |
-| Tapasztalat | 170 000 | 340 000 | 510 000 |
-| Becsület | 740 | 1 480 | 2 220 |
+| Kredit | 1 590 000 | 3 180 000 | 4 770 000 |
+| Thulium | 4 275 | 8 550 | 12 825 |
+| Tapasztalat | 255 000 | 510 000 | 765 000 |
+| Becsület | 1 110 | 2 220 | 3 330 |
 
-A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanced Plasma van, néha Ancient Control Unit vagy Dark Matter. Egy kivégzés **37 pontot** ér a PvE-rangsorodban, Davidski néven a kivégzési statisztikádban.
+A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanced Plasma van, néha Ancient Control Unit vagy Dark Matter. Egy kivégzés **nem ad PvE-pontot** a rangsorodban (ő egyik rangsorban sem szerepel, lásd lejjebb); az általa fizetett tapasztalat úgy számít, mint bármely más tapasztalat, a kivégzést pedig Davidski néven számolja a kivégzési statisztikád.
 
 - **Naponta legfeljebb egyszer pusztítható el.** A halála után a következő UTC-napig távol marad, amikor a nap időpontjában újra kijön, teljes hajótesttel. Senkit sem értesítenek arról, hogy elesett; a vele harcoló pilóták a saját fizetségüket látják.
-- **Egy pilótának két kivégzésért naponta, egy világnak nyolcért fizet** (UTC). Mivel világonként naponta egy Davidski van, ezek a határok ritkán számítanak; ezen túl értesítést kapsz, nem kapsz fizetséget és pontot sem a kivégzésért.
+- **Egy pilótának két kivégzésért naponta, egy világnak nyolcért fizet** (UTC). Mivel világonként naponta egy Davidski van, ezek a határok ritkán számítanak; ezen túl értesítést kapsz, és a kivégzésért nem kapsz fizetséget.
 
 ## Vásárlás tőle {#buying-from-him}
 
@@ -64,8 +62,8 @@ A készlete az aukció **Piac** listájában van, a pilóták hirdetései közö
 
 ## Rangsor {#rankings}
 
-A Rangsor oldal **Dicsőségcsarnokában** úgy szerepel, mint egy pilóta, minden világ mindkét táblájában (PvE és PvP): egy sor helyezésszámmal, a monogramjával ellátott avatárral, a nevével, vállalat nélkül (az oszlopban Neutral áll), a világával és a pontjaival. Az alatta álló pilóták egy hellyel lejjebb csúsznak. A **Mind** nézetben három sora van, világonként egy.
+**Egyik rangsorban sem** szerepel. A Rangsor oldal **Dicsőségcsarnoka** csak pilótákat sorol fel, minden világ mindkét táblájában (PvE és PvP), és a pilóta profilján látható helyezés is csak pilótákat számol.
 
-- **A pontjai egy 20. szintű pilóta pontjai.** Ugyanazzal a képlettel számolódnak, mint egy pilóta PvE-pontjai ([Rangok](/wiki/03-Mechanics/Ranks.md)): 20 szint szintenként 100 ponttal, plusz a 20. szintet elérő pilóta 5 242 880 000 tapasztalatának ezredrésze, és nincs lelövés: **5 244 880** a PvE-táblában és **0** a PvP-táblában. Az a pilóta, akinek pontosan ugyanannyi pontja van, alatta áll.
-- **Minden nap szerepel a listán**, akár kint van, akár nem. A sora nem nyit meg profilt: nincs fiókja.
-- **A sor minden, amije a rangsorokban van.** Nem tartozik vállalathoz, ezért egyik vállalat ranglistáján sincs rajta a [rangoknak](/wiki/03-Mechanics/Ranks.md), és nem viselheti a koronát. A pontjaid, a rangod és a jutalmaid ugyanazok, mint nélküle; csak a Dicsőségcsarnokot számoló számok (a név előtti és a profilon látható helyezés) számolják őt is.
+- **Az ő kivégzése nem ér PvE-pontot.** A Rangsor oldalon a PvE-pontok melletti lista nem mutatja, és a [Rangok](/wiki/03-Mechanics/Ranks.md) táblázatában sincs sora. A kivégzés által fizetett tapasztalat úgy számít, mint bármely más tapasztalat, így a szinted és a vele járó pontok úgy emelkednek, mint bármelyik kivégzés után.
+- **Nincs sora és nincs profilja.** Nincs fiókja, és egyetlen pilótától sem vesz el helyet: a táblák és a profilokon látható helyezések ugyanazok, mintha nem is létezne.
+- **Nem tartozik vállalathoz**, ezért a [rangok](/wiki/03-Mechanics/Ranks.md) egyetlen vállalati ranglistáján sincs rajta, és nem viselheti a koronát.

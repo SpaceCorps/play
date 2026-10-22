@@ -736,7 +736,7 @@ L’expérience et l’honneur sont des scores, pas de l’argent : on n’ach�
 
 - **Au départ** : le compte d’un nouveau pilote contient 10 000 crédits.
 - **Aliens** : chaque élimination en rapporte (le tableau ci-dessus).
-- **[Astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** : les fragments d’un astéroïde brisé en rapportent, jusqu’à une limite par tranche de 24 heures (sur cette page).
+- **[Astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** : les fragments d’un astéroïde brisé en rapportent.
 - **[Missions](/wiki/03-Mechanics/Quests.md)** : les 88 missions rapportent 6 664 500 crédits en tout à Alpha, de 86 000 au niveau 1 à 2 720 000 au niveau 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** : la Ferme à crédits en produit pendant votre absence, dans un réservoir de 72 heures.
 
@@ -770,7 +770,7 @@ Ce sont les taux d’une station alimentée en énergie : un déficit d’éner
 
 - **Au départ** : le compte d’un nouveau pilote contient 100 Thulium.
 - **Aliens** : chaque élimination en rapporte (le tableau ci-dessus).
-- **[Astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** : les fragments d’un astéroïde brisé en rapportent, jusqu’à une limite par tranche de 24 heures (sur cette page).
+- **[Astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** : les fragments d’un astéroïde brisé en rapportent.
 - **[Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md)** : dès le jour 11 de la saison, une série complète en dépose 9 643 en Alpha (davantage en Bêta et Gamma), dans des caisses que n’importe qui peut prendre ; le panneau de commande choisit ce qu’elle extrait.
 - **[Missions](/wiki/03-Mechanics/Quests.md)** : les 88 missions rapportent 51 010 Thulium en tout à Alpha, de 170 au niveau 1 à 21 760 au niveau 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** : la Ferme à Thulium en produit pendant votre absence, dans un réservoir de 72 heures.

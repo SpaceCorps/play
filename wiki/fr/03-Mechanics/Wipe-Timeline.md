@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Chaque saison va du jour 1 au jour 30 (la réinitialisation commence par son com
 | **Premier contact** | Jours 4–10 | Événement 1 | Le PvP s’ouvre (selon la règle de votre monde, voir Mondes plus bas) et les trois [essaims](/wiki/05-Swarms/Swarms.md) commencent à apparaître : ils restent jusqu’à la réinitialisation, à travers les phases suivantes. La phase elle-même ne donne pas encore de récompenses spéciales. |
 | **Essor technologique** | Jours 11–18 | Événement 2 | Les [secteurs dangereux](/wiki/01-General/Danger-Sectors.md) changent : une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) à côté de chaque pulsar sur `DS-1` à `DS-3`, le [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) sur `DS-4`, des Slumbering Voids, et un Essaim Dormant qui revient plus tôt et paie le double. Tout reste jusqu’à la réinitialisation. La phase ne donne pas de récompenses propres. |
 | **Jeux de guerre** | Jours 19–25 | Événement 3 | Pas encore d’effets spéciaux : le PvP fonctionne comme dans toutes les phases qui suivent le Protocole de paix. |
-| **Compte à rebours** | Jours 26–30 | Événement 4 | La phase du compte à rebours final. Tous les pilotes se pressent pour compléter et verrouiller la cargaison qu’ils emportent avant l’éruption. |
+| **Compte à rebours** | Jours 26–30 | Événement 4 | La phase du compte à rebours final. Tous les pilotes se pressent pour compléter la cargaison qu’ils emportent avant l’éruption. |
 | **La réinitialisation** | Jour 30 | Éruption du trou noir | L’univers est détruit et renaît, et tous les [clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) sont dissous. Les pilotes passent dans le monde qu’ils ont choisi comme destination pour la saison suivante. |
 
 En dehors de la réinitialisation elle-même, seules quatre choses suivent le calendrier : le Protocole de paix (jours 1–3) change une règle, dès le jour 4 les [essaims](/wiki/05-Swarms/Swarms.md) apparaissent et restent jusqu’à la réinitialisation, dès le jour 11 les [secteurs dangereux](/wiki/01-General/Danger-Sectors.md) reçoivent leurs excavatrices géantes (à côté des pulsars, qui brillent dès le jour 1) et le Dormant Swamp, qui restent jusqu’à la réinitialisation, et les [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) ne prélèvent plus de frais dès le jour 28 et sont fermées dès le jour 30. Les quatre événements sont des phases nommées de la saison : ils s’affichent sur la page Saison et profil et sur le Tableau de bord du jeu. L’événement 2 change les secteurs dangereux comme ci-dessus ; aucun des autres ne donne encore de récompenses, d’apparitions ou de bonus spéciaux qui lui soient propres.
@@ -47,8 +47,8 @@ Une fois les 100 pièces rassemblées et le Chrono-Gate entièrement stabilisé,
 
 ### Transfert automatique (gratuit) {#automatic-carry-over-free-}
 Les éléments suivants sont toujours protégés et passent automatiquement à la saison suivante, sans consommer **aucune** capacité de votre cache de transport :
-1. Votre vaisseau actif.
-2. Chaque objet actuellement équipé sur ce vaisseau actif, dans la **Configuration 1** comme dans la **Configuration 2** (lasers, boucliers, moteurs et générateurs compris).
+1. Chaque vaisseau que vous possédez, réparé et portant encore sa peinture. Le hangar est à vous pour de bon ; seul votre vaisseau actif garde ce qui y est installé (le point suivant), et l’équipement de vos autres vaisseaux est perdu comme tout objet en vrac, sauf si vous le mettez dans le cache.
+2. Chaque objet actuellement équipé sur votre vaisseau actif, dans la **Configuration 1** comme dans la **Configuration 2** (lasers, boucliers, moteurs et générateurs compris).
 3. Chaque drone que vous possédez, avec son niveau et son expérience : vos [Slave Drones](/wiki/03-Mechanics/Drones.md) restent, donc vos emplacements de drone restent ouverts et le prix de votre prochain drone continue à partir du nombre que vous en possédez. Les lasers et boucliers installés dans un emplacement de drone suivent la règle ci-dessus : ils restent s’ils sont sur le vaisseau actif.
 4. Chaque formation de drones que vous possédez ([Formations de drones](/wiki/03-Mechanics/Formations.md)), où qu’elle soit : dans l’inventaire, sur votre barre rapide ou sur un vaisseau. Comme vos drones, elles restent sans occuper de capacité du Cache de transport.
 
@@ -56,20 +56,23 @@ Les éléments suivants sont toujours protégés et passent automatiquement à l
 Pour les autres objets de votre inventaire que vous voulez sauver (par ex. des armes de rechange, des ressources de fabrication ou des générateurs de bouclier supplémentaires) :
 * **Limite de poids** : la capacité de la cache de transport est strictement limitée à **50 tonnes (50 000 kg)**.
 * **Chargement** : vous pouvez glisser-déposer vous-même des objets de l’inventaire de votre hangar dans les emplacements de la cache de transport.
-* **Poids des objets** : chaque classe d’objets a son propre poids :
-  * *Lasers / armement* : 10 kg
-  * *Générateurs de bouclier* : 20 kg
-  * *Moteurs / propulsion* : 30 kg
-  * *Générateurs* : 30 kg
-  * *Ressources / minerais* : poids variable selon la rareté (une plaque renforcée de la Fonderie du Skylab pèse 5 kg)
+* **Poids des objets** : chaque objet a un poids fixe. Une pile pèse ce poids multiplié par sa quantité, et un objet dans lequel des modules sont installés (propulseurs dans un moteur, amplis dans un laser, cellules dans un bouclier) entre avec eux et leur poids compte aussi :
+  * *Lasers, boucliers, moteurs, cœurs adaptatifs* : 2 500 kg l’unité
+  * *Propulseurs, amplis laser, cellules de bouclier* : 1 000 kg l’unité
+  * *Blindage de coque, Boosters, Extras, Energetic Walls* : 500 kg l’unité
+  * *EMP Charges* : 250 kg l’unité
+  * *Plaques* (les Velkonite Reinforced Plates et Orvium Reinforced Plates que forge la Fonderie du Skylab, et les Dark Matter Plates) : 5 kg l’unité
+  * *Cluster Chunks* : 2 kg (Regular), 4 kg (Mythical) ou 8 kg (Legendary)
+  * *Autres ressources et munitions laser* (minerai, Ship Fragments, Power Cores, Reinforced Hull Plates, Dark Matter, etc.) : 1 kg l’unité
   * *Roquettes* : aucun poids : elles ne prennent aucune place dans la cache, donc des piles entières y entrent (voir [Roquettes](/wiki/06-Items/Rockets.md))
+* **Exemple** : 20 lasers pèsent 20 × 2 500 kg = 50 000 kg et remplissent la cache exactement ; un 21e laser est refusé. Un Engine III avec ses trois propulseurs installés pèse 2 500 + 3 × 1 000 = 5 500 kg. Les ressources sont légères : une pile de 1 000 minerais pèse 1 000 kg, et 100 plaques pèsent 500 kg.
 
 Votre [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) n’est jamais réinitialisé : ses modules gardent leur niveau et l’Entrepôt de ressources garde le minerai en réserve. Le Centre de recherche garde aussi tout ce que contient [Recherche](/wiki/03-Mechanics/Research.md) : vos technologies, la science de son réservoir, la Dark Matter introduite, une recherche en cours et le boost. Les Extra Slots CPU que vous avez installés restent eux aussi, car ce ne sont pas des objets. Il en va de même de vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) (arrimés ou en réserve), des travaux en cours du Berceau, du Codex, de vos P.E.T. Stations et de votre [look](/wiki/06-Items/Cosmetics.md) : ce ne sont pas non plus des objets. Ce que vous avez déjà récupéré, en revanche, n’est pas épargné : les plaques de votre inventaire sont des objets comme les autres, donc une plaque que vous voulez garder doit se trouver dans la cache de transport. Les Cluster Chunks sont aussi des objets, tout comme un moteur ou un laser monté dans le Module Moteurs ou le Module Défense du Skylab : sortez-le du module et mettez-le dans la cache pour le garder. Une expédition du Skylab en cours est réglée jusqu’à la réinitialisation, la Baie des trophées verse ses crédits, son Thulium, son expérience et son honneur et est vidée (son butin est supprimé comme tout objet libre), et le Skylab commence la nouvelle saison à la maison, avec une nouvelle carte de l’univers.
 
 ### Confirmer et verrouiller {#confirm-lock}
-Avant la fin de la saison, vous devez cliquer sur **Confirmer et verrouiller** dans l’interface du Matérialiseur.
-* Verrouiller la cache est un protocole de sécurité qui prépare le miroir de saut.
-* **AVERTISSEMENT** : tout objet qui n’est pas équipé sur votre vaisseau actif, qui n’est pas un drone ou qui n’est pas rangé dans une cache de transport verrouillée sera **définitivement détruit** lors de l’éruption du trou noir.
+Avant la fin de la saison, vous pouvez cliquer sur **Confirmer et verrouiller** dans l’interface du Matérialiseur.
+* Verrouiller fige la cache : rien ne peut y être ajouté ni retiré tant que vous ne la déverrouillez pas. C’est une sécurité, pas une condition : le contenu de la cache de transport passe à la saison suivante, verrouillée ou non.
+* **AVERTISSEMENT** : tout objet qui n’est pas équipé sur votre vaisseau actif, qui n’est ni un drone ni une formation de drones, ou qui n’est pas rangé dans la cache de transport (verrouillée ou non) sera **définitivement détruit** lors de l’éruption du trou noir.
 
 ---
 
@@ -100,7 +103,7 @@ Comment fonctionnent les mondes :
 
 ## Progression d’une saison à l’autre (bonus permanents) {#cross-season-progression-permanent-buffs-}
 
-La réinitialisation vous prend vos vaisseaux et vos objets (sauf votre vaisseau actif avec tout ce qui y est installé, votre cache de transport et vos drones) et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours, sauf les missions de niveau que la mise à jour 0.4.10 a remaniées : 64 d’entre elles sont proposées une fois de plus ([Quêtes](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+La réinitialisation vous prend vos objets (sauf ce qui est installé sur votre vaisseau actif, votre cache de transport et vos drones), vous laisse tous vos vaisseaux et vous renvoie au secteur d’origine de votre corporation ; votre niveau, vos crédits, votre Thulium et vos points de classement ne sont pas remis à zéro. En plus de cela, l’ensemble de vos accomplissements de pilote contribue à une puissance permanente. Vaincre des aliens et accomplir des missions rapporte des **points de réinitialisation (PR)**. Vos [missions](/wiki/03-Mechanics/Quests.md) elles-mêmes, accomplies ou en cours, sont conservées : chacune ne peut être accomplie qu’une fois par pilote, pour toujours, sauf les missions de niveau que la mise à jour 0.4.10 a remaniées : 64 d’entre elles sont proposées une fois de plus ([Quêtes](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Clans et grades.** La réinitialisation dissout tous les clans, avec leur Trésor de la flotte, leurs annonces, leur journal, leurs traités, leurs points et leurs niveaux de bonus : chaque saison est donc une nouvelle course pour fonder un clan et remplir ses bonus ; les crédits qu’un clan vous a versés restent, et votre plafond de dons aussi ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Chefs et chefs adjoints : versez le Trésor de la flotte avant la fin du compte à rebours. Vos points de classement PvE restent aussi : une réinitialisation ne vous déplace donc pas dans le classement de votre corporation, et votre grade suit votre place, pas la saison ([Grades](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

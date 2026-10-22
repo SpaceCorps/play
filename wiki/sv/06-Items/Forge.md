@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -9,6 +9,8 @@
 Lasrar, laserförstärkare, sköldkärnor, sköldceller, motorer, styrraketer, adaptiva kärnor, Repair Drones och [skrovpansar](/wiki/06-Items/Hull-Plating.md): varje enskild utrustningsdel som kan bära [förtrollningsbonusar](/wiki/06-Items/Overview.md). Den kan ligga i ditt inventarie, sitta på ett skepp (där blir den kvar och fungerar med sin nya nivå direkt) eller vara monterad i ett annat föremål. Drönare, skepp, ammunition, resurser och boosters kan inte smidas, och inte heller något i transportförrådet eller monterat i Motormodulen eller Försvarsmodulen i ditt Skylab: ta ut det först.
 
 Listan över utrustning har en växel **Alla / Utrustade / I inventariet** bredvid de andra filtren. **Utrustade** visar det som sitter på ett skepp eller är infogat i ett annat föremål, **I inventariet** det som ligger löst, och en rad under titeln säger hur många delar växeln döljer. Medan du väljer givaren till en sammanslagning är ”Utrustade” pausat, eftersom en givare måste ligga löst.
+
+En rullgardin **Skepp** bredvid typfiltret visar bara delarna på ett av dina skepp (en del som sitter i ett annat föremål räknas till det skepp där dess värd sitter). Den är pausad under ”I inventariet” och medan du väljer givaren till en sammanslagning. Kortet vid hovring, panelens rubrik och sammanslagningens bas säger var en del finns: *På Kitefin, konfiguration 1* (ett skrovpansar: båda konfigurationerna) och vad den sitter i. **Ctrl+F** (Cmd+F på Mac) lägger markören i sökrutan i Monteringens rubrik; den smalnar av listan på den öppna fliken (recept efter vad de tillverkar och kräver, utrustning efter namn, typ och nivå), och Esc rensar den. Under *Bonusplatser* säger panelen till när ett värde hos delen är för lågt för en bonus, och därför rymmer en Impulse Thruster en bonus och en Momentum Thruster två.
 
 ## Nivå upp {#tier-up}
 

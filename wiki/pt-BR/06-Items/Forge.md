@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -9,6 +9,8 @@ A **Forja** é a segunda aba da página da Montagem (e da janela da Montagem em 
 Lasers, amplificadores de laser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos, Repair Drones e [blindagem de casco](/wiki/06-Items/Hull-Plating.md): qualquer peça de equipamento que possa levar [bônus de encantamento](/wiki/06-Items/Overview.md). Ela pode estar no seu inventário, em uma nave (continua lá e funciona com o novo grau na hora) ou encaixada em outro item. Drones, naves, munição, recursos e boosters não podem ser forjados, e nada no Cache de Transporte ou montado no Módulo de motores ou no Módulo de defesa do seu Skylab também pode: retire-o primeiro.
 
 A lista de equipamentos tem um seletor **Todos / Equipados / No inventário** ao lado dos outros filtros. **Equipados** mostra o que está numa nave ou encaixado em outro item, **No inventário** o que está solto, e uma linha sob o título diz quantas peças o seletor esconde. Enquanto você escolhe o doador de uma combinação, “Equipados” fica em pausa, porque um doador precisa estar solto.
+
+Um menu **Nave** ao lado do filtro de tipo mostra só as peças de uma das suas naves (uma peça encaixada em outro item conta para a nave em que está o hospedeiro dela). Ele fica em pausa em “No inventário” e enquanto você escolhe o doador de uma combinação. O cartão ao passar o mouse, o cabeçalho do painel e a base da combinação dizem onde uma peça está: *Em Kitefin, configuração 1* (uma blindagem de casco: as duas configurações) e no que ela está encaixada. **Ctrl+F** (Cmd+F no Mac) põe o cursor na caixa de busca do cabeçalho da Montagem; ela filtra a lista da aba aberta (receitas pelo que fazem e pedem, equipamento por nome, tipo e grau), e Esc a limpa. Sob *Vagas de bônus* o painel avisa quando um atributo da peça é baixo demais para receber um bônus, e é por isso que um Impulse Thruster comporta um bônus e um Momentum Thruster dois.
 
 ## Subir de grau {#tier-up}
 

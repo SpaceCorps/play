@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -24,7 +24,7 @@ Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin**
 
 Una skin es un esquema de pintura hecho a partir del propio casco de la nave: sus líneas de panel, números y rayas se quedan y solo cambian los colores. Es para un **modelo de nave**, y la misma skin la llevan todas tus naves de ese modelo y todo [diseño](/wiki/03-Mechanics/Ship-Designs.md) hecho a partir de él; una conversión conserva el aspecto. El Protos aún no tiene skin, el Kitefin, el Ostirion y el Nomad tienen una colección, y las cuatro naves que fabricas en Ensamblaje tienen las diez.
 
-Las skins pertenecen a tu **cuenta**, no a una nave, y se quedan tras el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); la nave que conservas lleva lo que llevaba.
+Las skins pertenecen a tu **cuenta**, no a una nave, y se quedan tras el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); tus naves llevan lo que llevaban.
 
 | Colección | Naves | Rareza | Cómo es |
 | :--- | :--- | :--- | :--- |

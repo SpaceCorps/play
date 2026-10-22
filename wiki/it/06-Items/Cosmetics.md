@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Cosmetici -->
 # Cosmetici {#cosmetics}
 
@@ -24,7 +24,7 @@ Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la 
 
 Una skin è uno schema di vernice fatto a partire dallo scafo stesso della nave: le sue linee dei pannelli, i numeri e le strisce restano, cambiano solo i colori. È per un **modello di nave**, e la stessa skin la indossano tutte le tue navi di quel modello e ogni [design](/wiki/03-Mechanics/Ship-Designs.md) ricavato da esso; una conversione mantiene il look. Il Protos non ha ancora una skin, il Kitefin, l’Ostirion e il Nomad hanno una collezione, e le quattro navi che costruisci all’Assemblaggio le hanno tutte e dieci.
 
-Le skin appartengono al tuo **account**, non a una nave, e restano attraverso il [reset](/wiki/03-Mechanics/Wipe-Timeline.md); la nave che tieni indossa ciò che indossava.
+Le skin appartengono al tuo **account**, non a una nave, e restano attraverso il [reset](/wiki/03-Mechanics/Wipe-Timeline.md); le tue navi indossano ciò che indossavano.
 
 | Collezione | Navi | Rarità | Com’è |
 | :--- | :--- | :--- | :--- |

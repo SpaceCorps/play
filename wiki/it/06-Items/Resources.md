@@ -736,7 +736,7 @@ Esperienza e onore sono punteggi, non denaro: non si compra nulla con essi. L’
 
 - **All’inizio**: l’account di un nuovo pilota contiene 10.000 crediti.
 - **Alieni**: ogni abbattimento ne paga (la tabella qui sopra).
-- **[Asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)**: i frammenti di un asteroide spezzato ne pagano, fino a un limite per ogni periodo di 24 ore (su quella pagina).
+- **[Asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)**: i frammenti di un asteroide spezzato ne pagano.
 - **[Missioni](/wiki/03-Mechanics/Quests.md)**: le 88 missioni pagano in tutto 6.664.500 crediti ad Alpha, da 86.000 al livello 1 a 2.720.000 al livello 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: la Fattoria crediti ne produce mentre sei via, in una tramoggia da 72 ore.
 
@@ -770,7 +770,7 @@ Sono i valori di una stazione alimentata: un deficit di energia ferma ogni fatto
 
 - **All’inizio**: l’account di un nuovo pilota contiene 100 Thulium.
 - **Alieni**: ogni abbattimento ne paga (la tabella qui sopra).
-- **[Asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)**: i frammenti di un asteroide spezzato ne pagano, fino a un limite per ogni periodo di 24 ore (su quella pagina).
+- **[Asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)**: i frammenti di un asteroide spezzato ne pagano.
 - **[Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: dal giorno 11 della stagione, un ciclo completo ne deposita 9.643 in Alpha (di più in Beta e Gamma), in casse che chiunque può prendere; il pannello di controllo sceglie cosa estrae.
 - **[Missioni](/wiki/03-Mechanics/Quests.md)**: le 88 missioni pagano in tutto 51.010 Thulium ad Alpha, da 170 al livello 1 a 21.760 al livello 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: la Fattoria Thulium ne produce mentre sei via, in una tramoggia da 72 ore.

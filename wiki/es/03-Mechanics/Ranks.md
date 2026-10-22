@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
@@ -128,7 +128,6 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@ Las cinco primeras filas son los alienígenas normales, las seis siguientes las 
 
 Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia que ha destruido 300 Seekers, 80 Phantasm y 10 Bulwarks tiene 400 + 12 + 300 + 160 + 40 = **912** puntos. Eso lo hace Sargento: el mínimo es 800, y el siguiente rango, Sargento sénior, pide 1.000. Hasta Coronel sénior solo cuentan los puntos.
 
-La página **Clasificaciones** (Comunidad › Clasificaciones) muestra cómo se componen tus puntos, y el **Salón de la Fama** de esa página lista a los mejores pilotos. La **(i)** junto a los puntos PvE de esa página nombra los cinco alienígenas, lo que vale un derribo en cada uno de los [enjambres](/wiki/05-Swarms/Swarms.md), de su nave más pequeña a su jefe, lo mismo para los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), y los [guardianes del clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) figura en el Salón de la Fama con una fila propia en cada mundo, con los puntos de un piloto de nivel 20; no pertenece a ninguna corporación, así que no está en ninguna de las escalas.
+La página **Clasificaciones** (Comunidad › Clasificaciones) muestra cómo se componen tus puntos, y el **Salón de la Fama** de esa página lista a los mejores pilotos. La **(i)** junto a los puntos PvE de esa página nombra los cinco alienígenas, lo que vale un derribo en cada uno de los [enjambres](/wiki/05-Swarms/Swarms.md), de su nave más pequeña a su jefe, lo mismo para los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), y los [guardianes del clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) no figura en ninguna clasificación: una baja suya no vale ningún punto, no tiene fila en el Salón de la Fama y no pertenece a ninguna corporación, así que no está en ninguna de las escalas.
 
 ## Los símbolos {#the-symbols}
 

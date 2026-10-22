@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aabf0deeb55ba4ed -->
+<!-- wiki-i18n source: a91659443751cfdb -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -71,7 +71,7 @@ Tillsammans kräver de 490 Dark Matter, utöver de 749 som alla andra teknologie
 - **Lasrar kan förlora sin plats.** En design med färre laserplatser (BUCKY, RECON, DUMA, ATARAXIS) skickar tillbaka lasrarna från platserna som försvinner till ditt inventarie, med sina förstärkare och sina slumpslag från Smedjan. En ny plats kommer tom.
 - **Fullt skrov och fulla sköldar** när det är klart. Tills dess är skeppet låst: det går inte att göra aktivt, utrusta eller bygga om igen.
 - **Det finns ingen väg tillbaka.** För en annan design, eller för att få det vanliga skeppet igen, tillverkar du skeppet på nytt i Monteringen. Du äger ett skepp av varje sort, så en Paragon och en THUNDER kan vara dina samtidigt, men inte två THUNDER.
-- **Wipen** tar en design som vilket annat skepp som helst som inte är ditt aktiva.
+- **Wipen** behåller en design som vilket annat skepp som helst du äger.
 
 ## Utseende och storlek {#looks-and-size}
 

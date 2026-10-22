@@ -736,7 +736,7 @@ Deneyim ve onur para değil, puandır: bunlarla hiçbir şey satın alınmaz. De
 
 - **Başlangıçta**: yeni bir pilotun hesabında 10.000 kredi bulunur.
 - **Uzaylılar**: her öldürme bunu öder (yukarıdaki tablo).
-- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder, 24 saat başına bir sınıra kadar (o sayfada).
+- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder.
 - **[Görevler](/wiki/03-Mechanics/Quests.md)**: 88 görev, Alpha dünyasında toplam 6.664.500 kredi öder; ödemeler 1. seviyede 86.000 ile 8. seviyede 2.720.000 arasında değişir.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Kredi Çiftliği, sen yokken bunu üretir; 72 saatlik bir hazneye dolar.
 
@@ -770,7 +770,7 @@ Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı 
 
 - **Başlangıçta**: yeni bir pilotun hesabında 100 Thulium bulunur.
 - **Uzaylılar**: her öldürme bunu öder (yukarıdaki tablo).
-- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder, 24 saat başına bir sınıra kadar (o sayfada).
+- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder.
 - **[Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md)**: sezonun 11. gününden itibaren tam bir çalışma Alpha dünyasında bundan 9.643 bırakır (Beta ve Gamma dünyalarında daha fazla), herkesin alabileceği kutularda; neyi çıkaracağını kontrol paneli seçer.
 - **[Görevler](/wiki/03-Mechanics/Quests.md)**: 88 görev, Alpha dünyasında toplam 51.010 Thulium öder; ödemeler 1. seviyede 170 ile 8. seviyede 21.760 arasında değişir.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Thulium Çiftliği, sen yokken bunu üretir; 72 saatlik bir hazneye dolar.

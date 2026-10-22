@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
 - **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
 - **Um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** não larga uma caixa assim: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](#private-boxes) só dele, com a sua parte do saque.
-- Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra, e vale um limite a cada 24 horas. Um fragmento é coletado como uma caixa, e fica reservado para os pilotos que o mereceram e depois livre, como uma caixa.
+- Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra. Um fragmento é coletado como uma caixa, e fica reservado para os pilotos que o mereceram e depois livre, como uma caixa.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
 

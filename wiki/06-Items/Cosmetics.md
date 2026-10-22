@@ -22,7 +22,7 @@ A **look** is what your ship wears. It has four parts: a **skin** (the paint of 
 
 A skin is a paint scheme made from the ship's own hull: its panel lines, numbers and stripes stay and only the colours change. It is for one **ship model**, and the same skin is worn by every ship of that model you own and by every [design](/wiki/03-Mechanics/Ship-Designs.md) made from it; a conversion keeps the look. The Protos has no skin yet, the Kitefin, Ostirion and Nomad have one collection, and the four ships you craft in Assembly have all ten.
 
-Skins belong to your **account**, not to a ship, and they stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md); the ship you keep wears what it wore.
+Skins belong to your **account**, not to a ship, and they stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md); your ships wear what they wore.
 
 | Collection | Ships | Rarity | What it looks like |
 | :--- | :--- | :--- | :--- |

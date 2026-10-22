@@ -330,7 +330,7 @@ The Trophies Bay keeps what your Skylab's kills bring until you collect it. It h
 
 - **What it holds**: Credits, Thulium, experience, honor and the loot of the kills.
 - **Capacity** is counted in **bounty points**: a kill adds the bounty of its alien, Credits divided by 200 plus Thulium, whatever it drops (Alpha's figures in every world). It holds 650 points at level 1 and 45,000 at level 20.
-- **Full**: a full Bay makes the Skylab **hold fire**: nothing is killed, paid or counted and no ammunition is spent until you collect (the hull still mends). A message and the tip of the sidebar's Skylab row say so.
+- **Full**: a full Bay makes the Skylab **hold fire**: nothing is killed, paid or counted and no ammunition is spent until you collect (the hull still mends). A message, a toast, an amber **Bay full** pill on the station's bar, a notice on the Skylab page and the tip of the sidebar's Skylab row say so.
 - **Collect** in the Universe window, with your ship landed: Credits and Thulium go to your account, experience and honor to your pilot and the loot to your inventory. Two collects at once pay once.
 - **Loot** is rolled for each kill from the alien's drops, never Dark Matter, Ancient Control Units, N.I.K.E.s or N.U.K.E.s. It is **not Marketable**: it can't be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Power**: 20 at level 1, growing by 10% a level. It can be switched off, but not while the Skylab is under way.
@@ -440,7 +440,7 @@ Click a known cell on the map: the cell's panel shows the **preview** of the tri
 - **The clock** is the server's: the arrival is fixed when the Skylab leaves, and a trip goes on while you are logged out. A new order given on the way takes effect at the next cell: the hop it is on is finished.
 - **What stops an order**: no Engine Module, or one that is switched off or being upgraded; no engine fitted; not enough power; a Skylab that is destroyed; the cell it is in already; a cell you do not know; a cell too hard for your Defense Module; no known route.
 - **Under way**, the four modules of the Expedition cannot be switched, the Engine Module cannot be upgraded and nothing can be fitted or taken out. On the way it meets the aliens of the cells it passes through at half the rate it would if it stayed there.
-- **Told**: a message tells you when the Skylab arrives, when it is destroyed or repaired and when its Bay is full, and the first three come with a quiet sound of their own.
+- **Told**: a message tells you when the Skylab arrives, when it is destroyed or repaired and when its Bay is full, and all four come with a quiet sound of their own.
 
 What the preview says, in the order of its rows (every figure is the server's, for the kit your Skylab has now):
 

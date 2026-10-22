@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski è un mercante che vola. È una nave NPC pacifica che esce una volta al giorno, a un’ora che nessuno annuncia, e pattuglia un [settore pericoloso](/wiki/01-General/Danger-Sectors.md) alla volta, ha il miglior equipaggiamento del gioco e vende ogni oggetto che l’[asta](/wiki/03-Mechanics/Auction.md) elenca, con scorte infinite, a molte volte il prezzo del Negozio. Non appartiene a nessuna corporazione, compare nell’Albo d’oro come un pilota e non spara mai per primo. Compri da lui all’asta, e puoi combatterlo nello spazio.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski è un mercante che vola. È una nave NPC pacifica che esce una volta al giorno, a un’ora che nessuno annuncia, e pattuglia un [settore pericoloso](/wiki/01-General/Danger-Sectors.md) alla volta, ha il miglior equipaggiamento del gioco e vende ogni oggetto che l’[asta](/wiki/03-Mechanics/Auction.md) elenca, con scorte infinite, a molte volte il prezzo del Negozio. Non appartiene a nessuna corporazione, non compare in nessuna classifica e non spara mai per primo. Compri da lui all’asta, e puoi combatterlo nello spazio.
 
 ## Dove si trova {#where-he-is}
 
@@ -25,7 +23,7 @@ Una **Ironclad TITANIC** dipinta d’oro, della grandezza propria della TITANIC,
 | Extra | un Repair Drone IV, una Auto-Repair CPU e una Base CPU II |
 | Scafo | 15 Hull Plating III |
 
-Con la forza di Alpha ha **858.750 di scafo**, **1.309.534 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento dell’80,5%, velocità 96, portata 945 e una salva di **2.052 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,2 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa dodici minuti di fuoco continuo, dieci di loro di circa un minuto e dieci secondi.
+Con la forza di Alpha ha **858.750 di scafo**, **1.309.534 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento dell’80,5%, velocità 96, portata 945 e una salva di **4.104 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,2 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa dodici minuti di fuoco continuo, dieci di loro di circa un minuto e dieci secondi.
 
 ## Combatterlo {#fighting-him}
 
@@ -40,15 +38,15 @@ Paga come un boss, in base al danno inflitto da ogni pilota (una quota sotto il 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Crediti | 1.060.000 | 2.120.000 | 3.180.000 |
-| Thulium | 2.850 | 5.700 | 8.550 |
-| Esperienza | 170.000 | 340.000 | 510.000 |
-| Onore | 740 | 1.480 | 2.220 |
+| Crediti | 1.590.000 | 3.180.000 | 4.770.000 |
+| Thulium | 4.275 | 8.550 | 12.825 |
+| Esperienza | 255.000 | 510.000 | 765.000 |
+| Onore | 1.110 | 2.220 | 3.330 |
 
-La cassa contiene da 40 a 60 Ship Fragment, da 10 a 20 Power Core e da 3.000 a 6.000 Advanced Plasma, e a volte Ancient Control Unit o Dark Matter. Una distruzione vale **37 punti** per la tua classifica PvE, con il nome Davidski nelle tue statistiche di distruzioni.
+La cassa contiene da 40 a 60 Ship Fragment, da 10 a 20 Power Core e da 3.000 a 6.000 Advanced Plasma, e a volte Ancient Control Unit o Dark Matter. Una distruzione **non dà punti PvE** alla tua classifica (lui è fuori da tutte le classifiche, vedi sotto); l’esperienza che paga conta come qualsiasi altra esperienza, e la distruzione è contata con il nome Davidski nelle tue statistiche di distruzioni.
 
 - **Viene distrutto al massimo una volta al giorno.** Dopo la sua morte resta via fino al giorno UTC successivo, quando esce di nuovo nel momento di quel giorno, con lo scafo integro. Nessuno viene avvisato che è caduto; i piloti che l’hanno combattuto vedono il proprio pagamento.
-- **Paga a un pilota due distruzioni al giorno e a un mondo otto** (UTC). Con un Davidski al giorno per mondo questi limiti contano di rado; oltre, vieni avvisato, non ricevi nulla e nessun punto per la distruzione.
+- **Paga a un pilota due distruzioni al giorno e a un mondo otto** (UTC). Con un Davidski al giorno per mondo questi limiti contano di rado; oltre, vieni avvisato e non ricevi nulla per la distruzione.
 
 ## Comprare da lui {#buying-from-him}
 
@@ -64,8 +62,8 @@ Le sue scorte sono nell’elenco del **Mercato** dell’asta, tra le inserzioni 
 
 ## Classifiche {#rankings}
 
-Compare nell’**Albo d’oro** della pagina Classifiche come un pilota, in entrambe le tabelle (PvE e PvP) di ogni mondo: una riga con il numero di posizione, un avatar con la sua iniziale, il suo nome, nessuna corporazione (la colonna dice Neutral), il suo mondo e i suoi punti. I piloti sotto di lui scendono di un posto. Nella vista **Tutti** ha tre righe, una per mondo.
+Non compare in **nessuna classifica**. L’**Albo d’oro** della pagina Classifiche elenca solo piloti, in entrambe le tabelle (PvE e PvP) di ogni mondo, e la posizione sul profilo di un pilota conta solo piloti.
 
-- **I suoi punti sono quelli di un pilota di livello 20.** Sono calcolati con la stessa formula dei punti PvE di un pilota ([Gradi](/wiki/03-Mechanics/Ranks.md)): 20 livelli da 100 punti ciascuno, più i 5.242.880.000 di esperienza che un pilota ha al raggiungimento del livello 20 divisi per 1.000, e nessun abbattimento: **5.244.880** nella tabella PvE e **0** in quella PvP. Un pilota con esattamente gli stessi punti sta sotto di lui.
-- **Compare ogni giorno**, che sia fuori o no. La sua riga non apre nessun profilo: non ha un account.
-- **La riga è tutto ciò che ha nelle classifiche.** Non appartiene a nessuna corporazione, quindi non è su nessuna scala di corporazione dei [gradi](/wiki/03-Mechanics/Ranks.md) e non può portare la corona. I tuoi punti, il tuo grado e ciò che ricevi sono gli stessi che senza di lui; solo i numeri che contano l’Albo d’oro (quello davanti a un nome e la posizione sul profilo) contano anche lui.
+- **Un suo abbattimento non vale nessun punto PvE.** L’elenco accanto ai punti PvE nella pagina Classifiche non lo mostra, e la tabella dei [Gradi](/wiki/03-Mechanics/Ranks.md) non ha nessuna riga per lui. L’esperienza che paga un abbattimento conta come qualsiasi altra esperienza, quindi il tuo livello, e i punti che ne derivano, salgono come dopo qualsiasi abbattimento.
+- **Non ha né una riga né un profilo.** Non ha un account e non toglie il posto a nessun pilota: le tabelle e le posizioni nei profili sono le stesse che se non esistesse.
+- **Non appartiene a nessuna corporazione**, quindi non è su nessuna scala di corporazione dei [gradi](/wiki/03-Mechanics/Ranks.md) e non può portare la corona.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ La Baie des trophées garde ce que rapportent les éliminations de votre Skylab 
 
 - **Ce qu’elle contient** : crédits, Thulium, expérience, honneur et le butin des éliminations.
 - **La capacité** se compte en **points de prime** : une élimination ajoute la prime de son alien, les crédits divisés par 200 plus le Thulium, quoi qu’il laisse tomber (les chiffres d’Alpha dans tous les mondes). Elle contient 650 points au niveau 1 et 45 000 au niveau 20.
-- **Pleine** : une baie pleine fait **cesser le feu** au Skylab : rien n’est éliminé, payé ni compté et aucune munition n’est dépensée jusqu’à ce que vous récupériez (la coque continue de se régénérer). Un message et l’info-bulle de la ligne Skylab de la barre latérale l’indiquent.
+- **Pleine** : une baie pleine fait **cesser le feu** au Skylab : rien n’est éliminé, payé ni compté et aucune munition n’est dépensée jusqu’à ce que vous récupériez (la coque continue de se régénérer). Un message, une notification, une pastille ambre **Baie pleine** dans la barre de la station, un avis sur la page du Skylab et l’info-bulle de la ligne Skylab de la barre latérale l’indiquent.
 - **Récupérer** dans la fenêtre Univers, vaisseau amarré : les crédits et le Thulium vont sur votre compte, l’expérience et l’honneur à votre pilote et le butin dans votre inventaire. Deux récupérations simultanées ne paient qu’une fois.
 - **Le butin** est tiré pour chaque élimination d’après ce que laisse l’alien, jamais de Dark Matter, d’Ancient Control Units, de N.I.K.E. ni de N.U.K.E. Il est **non vendable** : il ne peut pas être vendu aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Énergie** : 20 au niveau 1, soit 10 % de plus par niveau. Elle peut être éteinte, mais pas pendant que le Skylab est en route.
@@ -442,7 +442,7 @@ Cliquez sur une cellule connue de la carte : le panneau de la cellule montre l�
 - **L’horloge** est celle du serveur : l’arrivée est fixée quand le Skylab part, et un voyage continue quand vous êtes déconnecté. Un nouvel ordre donné en route prend effet à la cellule suivante : le saut en cours est terminé.
 - **Ce qui bloque un ordre** : pas de Module Moteurs, ou un module éteint ou en amélioration ; pas de moteur monté ; pas assez d’énergie ; un Skylab détruit ; la cellule où il se trouve déjà ; une cellule que vous ne connaissez pas ; une cellule trop difficile pour votre Module Défense ; aucun itinéraire connu.
 - **En route**, les quatre modules de l’Expédition ne peuvent pas être allumés ni éteints, le Module Moteurs ne peut pas être amélioré et rien ne peut être monté ni retiré. En chemin, il rencontre les aliens des cellules qu’il traverse à la moitié du rythme qu’il aurait s’il y restait.
-- **Messages** : un message vous dit quand le Skylab arrive, quand il est détruit ou réparé et quand sa baie est pleine, et les trois premiers s’accompagnent d’un son discret qui leur est propre.
+- **Messages** : un message vous dit quand le Skylab arrive, quand il est détruit ou réparé et quand sa baie est pleine, et les quatre s’accompagnent d’un son discret qui leur est propre.
 
 Ce que dit l’aperçu, dans l’ordre de ses lignes (chaque chiffre est celui du serveur, pour l’équipement que votre Skylab a maintenant) :
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
 **小行星**是躺在企业星区和危险星区飞行平面上的大块岩石。它们从不移动，也从不开火。用**火箭**或**激光**击碎一颗，它就会炸成含有信用点、Thulium 和矿石的小**碎块**，你可以像拾取[货物](/wiki/03-Mechanics/Cargo.md)一样捡起它们。火箭才是干这件事的工具：激光也能伤害小行星，但只有对飞船伤害的 5%，无人机则对它毫无作用。还有一样东西能替你击碎小行星：已对接的 **Mole** P.E.T.（见[下文](#the-mole-pet)）。
 
-采矿和狩猎是两种不同的工作，前者替代不了后者：它不给经验值、荣誉或排名点数，而且你发射的火箭要花费信用点或 Thulium。它给你的是信用点和 Thulium、不用战斗就能得到的[锻造炉](/wiki/06-Items/Forge.md)和制造所需的矿石，以及一份[小队](/wiki/03-Mechanics/Groups.md)可以分着做的工作。它报酬丰厚：按游戏自己的模型，在合适的小行星上用合适的火箭采一小时，扣除火箭成本后，大约相当于你等级上最佳狩猎一小时的 2.6 到 6.8 倍。每日上限（见[世界](#the-worlds)）给它封了顶，而且你很快就会碰到：在 Alpha，稳定采矿的飞行员在好星区不到 2 小时就能达到 Thulium 上限，大约 2.7 小时就能达到信用点上限。
+采矿和狩猎是两种不同的工作，前者替代不了后者：它不给经验值、荣誉或排名点数，而且你发射的火箭要花费信用点或 Thulium。它给你的是信用点和 Thulium、不用战斗就能得到的[锻造炉](/wiki/06-Items/Forge.md)和制造所需的矿石，以及一份[小队](/wiki/03-Mechanics/Groups.md)可以分着做的工作。它报酬丰厚：按游戏自己的模型，在合适的小行星上用合适的火箭采一小时，扣除火箭成本后，大约相当于你等级上最佳狩猎一小时的 2.6 到 6.8 倍。它没有每日上限：你拾取的每一块碎块都会全额支付，所以限制你一天收入的是星区里有多少小行星，以及它们多快重新长出来。
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@
 已对接的 **Mole**（[P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) 的一种类型）会在你飞行时为你工作：每 3 秒给你飞船约五个半船长以内最近的小行星一次脉冲，直到击碎，然后接着下一颗。它的脉冲以你的名义记入小行星受到的伤害，所以击碎给你的报酬就像你用火箭击碎的一样：碎块、发现物、Cluster Chunk 的几率和你的小行星任务。
 
 - **能击碎多少。** 顶级的 Mole（20 级的传说）每小时击碎的小行星至少和用最好的火箭 Rivet III 打它们的飞行员一样多，较低的品级和等级则更少（[见表](/wiki/03-Mechanics/Pets.md#how-strong)）。它不消耗弹药，也不消耗火箭。你的激光、火箭、增幅器、增益道具、编队和 P.E.T. 的伤害都不会改变一次脉冲，而装甲拖慢脉冲就像拖慢火箭一样。
-- **哪些小行星。** 范围内最近的、除你和你的小队之外没人打过的、没有被别的小行星或 Energetic Wall 遮挡的。它永远不处理 Motherlode，在安全区里、隐形时、你跳跃时和你的飞船被摧毁时也不工作。
-- **没有自己的上限。** Mole 在你飞行的每个小时都工作，不管你有没有碰键盘（闲置的飞船是靶子），没有任何每日上限会让它停下。留下来的是让所有人停下的东西：[世界](#the-worlds)里的 Thulium 和信用点上限，永不停歇的顶级 Mole 工作大约 2 到 6 小时就会达到。此后它的碎块只会支付上限之下剩下的部分。
+- **哪些小行星。** 范围内最近的、没有被别的小行星或 Energetic Wall 遮挡的。火箭能打伤的小行星都算：Motherlode 和残骸（Cache Pod、Scrap Hulk、Derelict Hulk、Derelict Cruiser）也算，别的飞行员打过的小行星也算，这时 chunk 照旧按伤害分配。你看到漂在背景里的残骸只是布景，不是小行星。在安全区里、隐形时、你跳跃时和你的飞船被摧毁时它不工作。
+- **没有自己的上限。** Mole 在你飞行的每个小时都工作，不管你有没有碰键盘（闲置的飞船是靶子），没有任何每日上限会让它停下，无论是它自己的还是世界的。留下来的是对所有人都一样的限制：它够得着的小行星，以及它们多快重新长出来。它的碎块和你的一样全额支付。
 - **只有一只在工作。** 你的 Station 里的 Mole 中只有最强的一只工作；其余的只提供加成。
 
 ## 规则 {#the-rules}
@@ -69,7 +69,7 @@
 - [小队](/wiki/03-Mechanics/Groups.md#sharing-kills)算作一名飞行员，它的份额按等级分给附近正在开火的队友。
 - 一次击碎产生的碎块会为放置它们的那位飞行员和他的战队保留 30 秒。之后地图上的任何人都可以拿。无人拾取的碎块在 3 分钟后消失。
 - 一张地图最多容纳 36 块碎块，包含在它能容纳的 64 个货箱之内：碎块不会挤走外星人的货箱，那些货箱也不会挤走碎块。当地图上没有地方放碎块时，它原本属于的那位飞行员会立刻拿到报酬。
-- 信用点和 Thulium 在拾取碎块时支付，而不是在小行星碎裂时。在任意 24 小时内，一名飞行员最多拿到[世界](#the-worlds)里的上限：超出上限的碎块会被用掉，只支付上限之下剩下的部分，游戏日志会这样告诉你。
+- 信用点和 Thulium 在拾取碎块时支付，而不是在小行星碎裂时。能拿到的数量没有每日上限：每一块碎块都会全额支付它的信用点和 Thulium，不管你一天拾取多少块。
 - 报酬对所有人都一样：没有任何高级会员加成、赛季商店增益、战队增益、Loot Luck 或增益道具会改变信用点、Thulium 或产出。[Resource Magnet Booster](/wiki/06-Items/Boosters.md) 会在你拾取矿石碎块时增加其中的资源，和对任何货箱一样。
 - 装甲会从每次命中中扣掉它的点数，但一次命中至少有 20% 总会穿过。
 - 范围爆炸对易碎的小行星造成的伤害是对其他小行星的 1.6 倍。
@@ -86,13 +86,13 @@
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| 世界 | 船体 | 奖励倍率 | Thulium 上限 | 信用点上限 |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3,000 | 13,000,000 |
-| **Beta** | ×1.5 | ×2 | 4,500 | 18,000,000 |
-| **Gamma** | ×2 | ×3 | 6,000 | 21,000,000 |
+| 世界 | 船体 | 奖励倍率 |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1.5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-下面的表给出的是 Alpha 小行星的数字。**船体**是世界对每颗小行星船体的倍率，**奖励倍率**是它对一次击碎的信用点和 Thulium 的倍率；矿石和稀有产出在每个世界里都一样。两个上限是一名飞行员在任意 24 小时内通过碎块最多能拿到的数量。
+下面的表给出的是 Alpha 小行星的数字。**船体**是世界对每颗小行星船体的倍率，**奖励倍率**是它对一次击碎的信用点和 Thulium 的倍率；矿石和稀有产出在每个世界里都一样。碎块全额支付：没有每日上限。
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@
 
 | 种类 | 船体 | 大小 | 等级 | 特性 | 钱币碎块 | 针对火箭 | 信用点 | Thulium | 产出 | 出现位置 |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 中型 | 3 | 爆炸 ×1.6 | 2 | 约 14 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66,000 | 中型 | 3 | 爆炸 ×1.6 | 2 | 约 14 ⁠枚 [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42,450–70,800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100,000 | 大型 | 4 | – | 2 | 约 14 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130,000 | 大型 | 4 | – | 3 | 约 18 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101,400–169,050 | 50%：36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150,000 | 大型 | 5 | 爆炸 ×1.6 | 3 | 约 21 ⁠枚 [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@
 - **先用这个种类所针对的火箭。** 较弱的火箭也能击碎小行星，但需要更多火箭和更多计时器时间。更强的更快，但一次命中超出剩余船体的那部分伤害会浪费，而且无论打中什么，一枚火箭的花费都一样。
 - **水晶用爆炸，铁用力量。** Scatter 或 Ember 是对付易碎小行星的火箭，有装甲的则需要比它船体所暗示的更强的火箭，因为装甲会从每次命中中扣掉它的点数。
 - **让激光在两发火箭之间工作。** 它们每秒开火一次，消耗的是弹药而不是火箭，但一轮齐射只有对飞船伤害的 5%：它们是对火箭的补充，而不是替代。
-- **留意每日上限。** 一天内你拾取的量达到你所在世界的上限后，碎块就不再支付；采矿报酬很高，几个小时就能碰到上限；上限见“世界”。
-- **大的一起打。** 小行星 Motherlode 是给小队打的岩石：小队算作一名飞行员，它的份额按等级分给附近正在开火的队友。
+- **留意供给。** 碎块没有每日上限，但一个星区的小行星数量有限，每一颗都要过一会儿才会重新长出来；在拥挤的星区里每位飞行员分到的更少，所以换到清静一点的星区吧。
+- **大的一起打。** 小行星 Motherlode 是给小队打的岩石：小队算作一名飞行员，它的份额按等级分给附近正在开火的队友。Mole 也会处理它，替驾驶它的飞行员工作。
 - **留意星区。** 小行星不会还击，但它们周围的星区里仍有外星人，危险星区里还有其他飞行员。
 - **善用它们，也要提防。** 你和对手或外星人之间的小行星会让双方的激光互相够不到。隔着你正在开采的小行星朝你开火的对手会伤到它，并像其他飞行员一样按所造成的伤害获得报酬。

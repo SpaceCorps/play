@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Gli alieni distrutti lasciano il loro bottino nello spazio sotto forma di casse 
 - Il **buco nero** posa casse di **Dark Matter** sul bordo della sua zona per ogni razzo N.I.K.E. lanciato al suo interno (vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md)). Sono l’unico tipo di cassa che si trova dentro l’anello del buco nero.
 - **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** non lascia una cassa del genere: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte del bottino.
-- Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza, e vale un limite per ogni periodo di 24 ore. Un frammento si raccoglie come una cassa, ed è riservato ai piloti che l’hanno meritato e poi libero, come una cassa.
+- Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza. Un frammento si raccoglie come una cassa, ed è riservato ai piloti che l’hanno meritato e poi libero, come una cassa.
 
 Un alieno finito da un pilota di corporazione rilascia il suo bottino per il pilota a cui l’abbattimento viene attribuito (chi ne detiene la rivendicazione, altrimenti il pilota della stessa corporazione che lo sta combattendo); uno combattuto da un pilota di corporazione da solo non rilascia nulla, perché i piloti di corporazione non raccolgono mai.
 

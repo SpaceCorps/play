@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -9,6 +9,8 @@ La **Forja** es la segunda pestaña de la página de Ensamblaje (y de la ventana
 Láseres, amplificadores láser, núcleos de escudo, células de escudo, motores, propulsores, núcleos adaptativos, Repair Drones y [blindaje de casco](/wiki/06-Items/Hull-Plating.md): cualquier pieza de equipo que pueda llevar [bonificaciones de encantamiento](/wiki/06-Items/Overview.md). Puede estar en tu inventario, en una nave (se queda allí y funciona con su nuevo grado de inmediato) o instalada dentro de otro objeto. Los drones, las naves, la munición, los recursos y los potenciadores no se pueden forjar, ni tampoco nada que esté en el Alijo de Transporte o montado en el Módulo de motores o el Módulo de defensa de tu Skylab: sácalo primero.
 
 La lista de equipo tiene un selector **Todos / Equipados / En inventario** junto a los demás filtros. **Equipados** muestra lo que está en una nave o encajado en otro objeto, **En inventario** lo que está suelto, y una línea bajo el título dice cuántas piezas oculta el selector. Mientras eliges el donante de una combinación, «Equipados» queda en pausa, porque un donante debe estar suelto.
+
+Un desplegable **Nave** junto al filtro de tipo muestra solo las piezas de una de tus naves (una pieza encajada en otro objeto cuenta para la nave donde está su anfitrión). Se pausa en «En inventario» y mientras eliges el donante de una combinación. La ficha al pasar el cursor, la cabecera del panel y la base de la combinación dicen dónde está una pieza: *En Kitefin, configuración 1* (un blindaje de casco: ambas configuraciones) y en qué está encajada. **Ctrl+F** (Cmd+F en Mac) pone el cursor en el cuadro de búsqueda de la cabecera de Ensamblaje; acota la lista de la pestaña abierta (recetas por lo que fabrican y piden, equipo por nombre, tipo y grado), y Esc la borra. Bajo *Ranuras de bonif.* el panel avisa cuando una estadística de la pieza es demasiado baja para llevar una bonificación, y por eso un Impulse Thruster lleva una bonificación y un Momentum Thruster dos.
 
 ## Subir grado {#tier-up}
 

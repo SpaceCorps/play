@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Minden szezon az 1. naptól a 30. napig tart (a wipe a 30. nap kezdetekor indul�
 | **Első kapcsolat** | 4–10. nap | 1. esemény | A PvP megnyílik (a világod szabálya szerint, lásd lent: Világok), és a három [raj](/wiki/05-Swarms/Swarms.md) megjelenni kezd: a wipe-ig maradnak, az ezt követő szakaszokon át. A szakasz maga egyelőre nem ad különleges jutalmat. |
 | **Techroham** | 11–18. nap | 2. esemény | A [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megváltoznak: egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden pulzár mellett a `DS-1`-től a `DS-3`-ig, a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) a `DS-4`-en, Slumbering Voidok, és egy Dormant-raj, amely hamarabb tér vissza, és kétszer annyit fizet. Mindez a wipe-ig marad. A szakasz nem ad saját jutalmat. |
 | **Hadijátékok** | 19–25. nap | 3. esemény | Különleges hatások egyelőre nincsenek: a PvP úgy működik, mint a Békeprotokoll utáni minden szakaszban. |
-| **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa és lezárja a magával vitt rakományát. |
+| **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa a magával vitt rakományát. |
 | **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik, és minden [klán](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) feloszlik. A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. |
 
 A wipe-on kívül csak négy dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak, a 11. naptól a [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megkapják az óriás kotrógépeiket (a pulzárok mellé, amelyek az 1. naptól ragyognak) és a Dormant Swamp-ot, amelyek a wipe-ig maradnak, az [Aukció](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) pedig a 28. naptól nem szed díjat, a 30. naptól pedig zárva van. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton. A 2. esemény a fent leírt módon megváltoztatja a veszélyes szektorokat; a többi egyike sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
@@ -46,9 +46,9 @@ Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi e
 Amint mind a 100 alkatrész megvan, és a Chrono-Gate teljesen stabilizálva van, a portál megnyitja a hozzáférést a személyes **tranzittárolódhoz** (átviteli kocsi vagy utazókapszula néven is ismert). Ez a zsebdimenzió megvédi a holmidat attól, hogy törlődjön a wipe alatt. Az [Aukción](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) meghirdetett tárgyaid a wipe-kor laza tárgyként visszajönnek hozzád, amelyeket a wipe a többihez hasonlóan töröl, ha nem teszed őket a Tranzittárolóba; a tételekben tartott licitjeidet visszatérítik.
 
 ### Automatikus átvitel (ingyenes) {#automatic-carry-over-free-}
-A következő tárgyak mindig védettek, és automatikusan átkerülnek a következő szezonba, miközben **nulla** kapacitást foglalnak a tranzittárolódban:
-1. Az éppen aktív hajód.
-2. Minden tárgy, amely jelenleg fel van szerelve arra az aktív hajóra, mind a **Konfig 1**, mind a **Konfig 2** konfigurációban (a lézereket, pajzsokat, hajtóműveket és generátorokat is beleértve).
+A következők mindig védettek, és automatikusan átkerülnek a következő szezonba, miközben **nulla** kapacitást foglalnak a tranzittárolódban:
+1. Minden hajód, megjavítva és a festésével együtt. A hangár végleg a tiéd; csak az aktív hajód tartja meg, ami rá van szerelve (a következő pont), a többi hajód felszerelése pedig elvész, mint bármelyik szabad tárgy, ha nem teszed a tranzittárolóba.
+2. Minden tárgy, amely jelenleg fel van szerelve az aktív hajódra, mind a **Konfig 1**, mind a **Konfig 2** konfigurációban (a lézereket, pajzsokat, hajtóműveket és generátorokat is beleértve).
 3. Minden drónod, a szintjével és a tapasztalatával együtt: a [Slave Drone-jaid](/wiki/03-Mechanics/Drones.md) megmaradnak, így a drónfoglalataid nyitva maradnak, és a következő drónod ára a birtokolt darabszámtól folytatódik. A drónfoglalatba szerelt lézerek és pajzsok a fenti szabályt követik: akkor maradnak meg, ha az aktív hajón vannak.
 4. Minden drónformáció, amelyet birtokolsz ([Drónformációk](/wiki/03-Mechanics/Formations.md)), bárhol is van: a leltáradban, a gyorssávodon vagy egy hajón. A drónjaidhoz hasonlóan ezek is megmaradnak, anélkül, hogy a tranzittároló kapacitásából foglalnának.
 
@@ -56,20 +56,23 @@ A következő tárgyak mindig védettek, és automatikusan átkerülnek a követ
 A leltáradban lévő további tárgyakhoz, amelyeket meg szeretnél menteni (pl. tartalék fegyverzet, gyártási nyersanyagok vagy extra pajzsgenerátorok):
 * **Súlykorlát**: a tranzittárolónak szigorú kapacitáskorlátja van: **50 tonna (50 000 kg)**.
 * **Tárgyak betöltése**: a leltáradból kézzel húzhatsz tárgyakat a tranzittároló helyeire.
-* **Tárgyak súlya**: a különböző tárgyosztályok súlya eltérő:
-  * *Lézerek / fegyverzet*: 10 kg
-  * *Pajzsgenerátorok*: 20 kg
-  * *Hajtóművek / meghajtás*: 30 kg
-  * *Generátorok*: 30 kg
-  * *Nyersanyagok / ásványok*: ritkaságtól függően változó súly (a Skylab Kovácsműhelyében készült Reinforced Plate 5 kg-ot nyom)
+* **Tárgyak súlya**: minden tárgynak egyetlen, rögzített súlya van. Egy készlet súlya ennek a súlynak és a darabszámnak a szorzata, és ha egy tárgyba modulokat építettél (fúvókákat egy hajtóműbe, ampokat egy lézerbe, cellákat egy pajzsmagba), az a modulokkal együtt kerül be, és azok is beleszámítanak a súlyába:
+  * *Lézerek, pajzsmagok, hajtóművek, adaptív magok*: darabonként 2 500 kg
+  * *Fúvókák, lézererősítők, pajzscellák*: darabonként 1 000 kg
+  * *Hajótest-páncélzat, boosterek, extrák, Energetic Wallok*: darabonként 500 kg
+  * *EMP Charge-ok*: darabonként 250 kg
+  * *Lemezek* (a Skylab Kovácsműhelyében készült Velkonite Reinforced Plate és Orvium Reinforced Plate, valamint a Dark Matter Plate): darabonként 5 kg
+  * *Cluster Chunkok*: 2 kg (Regular), 4 kg (Mythical) vagy 8 kg (Legendary)
+  * *Egyéb nyersanyagok és lézerlőszer* (érc, Ship Fragment, Power Core, Reinforced Hull Plate, Dark Matter és a többi): darabonként 1 kg
   * *Rakéták*: egyáltalán nincs súlyuk: nem foglalnak helyet a tárolóban, így egész készletek is beférnek (lásd: [Rakéták](/wiki/06-Items/Rockets.md))
+* **Példa**: 20 lézer súlya 20 × 2 500 kg = 50 000 kg, és pontosan megtölti a tárolót; a 21. lézert a tároló elutasítja. Egy Engine III a három beépített fúvókájával 2 500 + 3 × 1 000 = 5 500 kg-ot nyom. A nyersanyagok könnyűek: egy 1 000 darab ércből álló készlet 1 000 kg-ot nyom, és 100 lemez 500 kg-ot.
 
 A [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe) soha nem nullázódik: a moduljai megtartják a szintjüket, az Erőforrás-raktár pedig a benne tárolt ércet. A Kutatóközpont mindent megtart, amit a [Kutatás](/wiki/03-Mechanics/Research.md) tartalmaz: a technológiáidat, a tartályában lévő tudományt, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot. Ugyanígy az általad telepített Extra Slots CPU-k is megmaradnak, mert nem tárgyak. Ugyanígy megmaradnak a [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) (dokkolva vagy tárolva), a Bölcső futó munkái, a Kódex, a P.E.T. Stationjeid és a [kinézeted](/wiki/06-Items/Cosmetics.md): ezek sem tárgyak. Amit viszont már begyűjtöttél, az nem marad meg: a leltáradban lévő lemezek ugyanolyan tárgyak, mint bármelyik másik, ezért a lemeznek, amelyet meg akarsz tartani, a tranzittárolóban kell lennie. A Cluster Chunkok is tárgyak, és az is, ha egy hajtóművet vagy lézert a Skylab Hajtóműmoduljába vagy Védelmi moduljába építettél: vedd ki a modulból, és tedd a tárolóba, ha meg akarod tartani. Egy folyamatban lévő Skylab-expedíció a wipe-ig elszámolódik, a Trófeaterem kifizeti a kreditjeit, a Thuliumát, a tapasztalatát és a becsületét, és kiürül (a zsákmánya úgy törlődik, mint bármelyik szabad tárgy), a Skylab pedig otthon kezdi az új szezont, új univerzumtérképpel.
 
 ### Megerősítés és zárolás {#confirm-lock}
-A szezon vége előtt rá kell kattintanod a **Zárolás** gombra a Materializáló felületén.
-* A tároló zárolása egy biztonsági protokoll, amely előkészíti az ugrótükört.
-* **FIGYELMEZTETÉS**: minden tárgy, amely nincs felszerelve az aktív hajódra, nem drón, és nincs egy zárolt tranzittárolóban sem, **véglegesen megsemmisül** a feketelyuk-kitörés során.
+A szezon vége előtt rákattinthatsz a **Zárolás** gombra a Materializáló felületén.
+* A zárolás befagyasztja a tárolót: amíg fel nem oldod, semmit sem lehet beletenni vagy kivenni. Ez biztonsági retesz, nem feltétel: ami a tranzittárolóban van, zárolva vagy sem, átkerül a következő szezonba.
+* **FIGYELMEZTETÉS**: minden tárgy, amely nincs felszerelve az aktív hajódra, nem drón és nem drónformáció, és nincs a tranzittárolóban sem (zárolva vagy sem), **véglegesen megsemmisül** a feketelyuk-kitörés során.
 
 ---
 
@@ -100,7 +103,7 @@ Hogyan működnek a világok:
 
 ## Szezonokon átívelő fejlődés (állandó buffok) {#cross-season-progression-permanent-buffs-}
 
-A wipe elveszi a hajóidat és a tárgyaidat (kivéve az aktív hajódat a rajta lévő mindennel, a tranzittárolódat és a drónjaidat), és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé, kivéve azokat a szintküldetéseket, amelyeket a 0.4.10-es frissítés átdolgozott: közülük 64-et még egyszer felkínálnak ([Küldetések](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+A wipe elveszi a tárgyaidat (kivéve az aktív hajódra felszerelteket, a tranzittárolódat és a drónjaidat), minden hajódat meghagyja, és visszahelyez a vállalatod otthoni szektorába; a szinted, a krediteid, a Thuliumod és a rangpontjaid nem nullázódnak. Ezen felül az általános pilóta-teljesítményed állandó erőt ad. Az idegenek kilövéséért és a küldetések teljesítéséért **wipe-pontok (WP)** járnak. Maguk a [küldetéseid](/wiki/03-Mechanics/Quests.md), a teljesítettek és a folyamatban lévők is, átvihetők: mindegyik pilótánként csak egyszer teljesíthető, soha többé, kivéve azokat a szintküldetéseket, amelyeket a 0.4.10-es frissítés átdolgozott: közülük 64-et még egyszer felkínálnak ([Küldetések](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Klánok és rangok.** A wipe minden klánt feloszlat, a Flottakincstárával, a bejegyzéseivel, a naplójával, a szerződéseivel, a pontjaival és a bónuszszintjeivel együtt, így minden szezon új verseny egy klán alapításáért és a bónuszai megtöltéséért; a kreditek, amelyeket a klán már kifizetett neked, megmaradnak, és az adományi keretedet sem nullázza ([Klánok](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Vezérek és Alvezérek: a visszaszámlálás vége előtt fizessétek ki a Flottakincstárat. A PvE-rangpontjaid is maradnak, így a wipe nem mozdít el a vállalatod ranglistáján: a rangod az ottani helyezésedet követi, nem a szezont ([Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

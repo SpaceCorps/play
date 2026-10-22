@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6be933cc7ba8434b -->
+<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -14,7 +14,7 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Le trou noir** dépose des caisses de **Dark Matter** au bord de sa zone pour toute roquette N.I.K.E. tirée dedans (voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Ce sont les seules caisses qui se trouvent à l’intérieur de l’anneau du trou.
 - **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** ne laisse pas une caisse de ce genre : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](#private-boxes) à lui, avec sa part du butin.
-- **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise, et une limite par tranche de 24 heures s’applique. Un fragment se ramasse comme une caisse, et il est réservé aux pilotes qui l’ont mérité, puis libre, comme une caisse.
+- **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Un fragment se ramasse comme une caisse, et il est réservé aux pilotes qui l’ont mérité, puis libre, comme une caisse.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
@@ -128,7 +128,6 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@ Les cinq premières lignes sont les aliens ordinaires, les six suivantes les vai
 
 Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
 
-La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, la même chose pour les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) figure au Panthéon avec une ligne à lui dans chaque monde, avec les points d’un pilote de niveau 20 ; il n’appartient à aucune corporation et n’est donc sur aucune des échelles.
+La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, la même chose pour les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) ne figure dans aucun classement : une destruction de lui ne vaut aucun point, il n’a pas de ligne au Panthéon et il n’appartient à aucune corporation, il n’est donc sur aucune des échelles.
 
 ## Les symboles {#the-symbols}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aabf0deeb55ba4ed -->
+<!-- wiki-i18n source: a91659443751cfdb -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -71,7 +71,7 @@ Együtt 490 Dark Mattert kérnek, az összes többi technológia 749-én felül,
 - **A lézerek elveszíthetik a foglalatukat.** A kevesebb lézerfoglalatú dizájn (BUCKY, RECON, DUMA, ATARAXIS) a megszűnő foglalatok lézereit az erősítőikkel és a Kovácsműhely-sorsolásaikkal együtt visszaküldi a leltáradba. Az új foglalat üresen érkezik.
 - **Teli hajótest és teli pajzs**, amikor kész. Addig a hajó zárolva van: nem tehető aktívvá, nem szerelhető fel és nem alakítható át újra.
 - **Nincs visszaút.** Egy másik dizájnért, vagy hogy újra az alaphajód legyen, újra legyártod a hajót a Gyártásban. Fajtánként egy hajót birtokolsz, így egy Paragon és egy THUNDER egyszerre lehet a tiéd, két THUNDER nem.
-- **A wipe** a dizájnt úgy viszi, mint bármelyik másik hajót, amely nem az aktív hajód.
+- **A wipe** a dizájnt úgy megtartja, mint bármelyik másik hajót, amely a tiéd.
 
 ## Kinézet és méret {#looks-and-size}
 

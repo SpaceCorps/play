@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski est un marchand qui vole. C’est un vaisseau PNJ pacifique qui sort une fois par jour, à une heure que personne n’annonce, et patrouille un [secteur dangereux](/wiki/01-General/Danger-Sectors.md) à la fois, il a le meilleur équipement du jeu, et il vend tous les objets que listent les [enchères](/wiki/03-Mechanics/Auction.md), sans fin à son stock, à un multiple du prix de la boutique. Il n’appartient à aucune corporation, figure au Panthéon comme un pilote et ne tire jamais le premier. On lui achète dans les enchères, et on peut le combattre dans l’espace.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski est un marchand qui vole. C’est un vaisseau PNJ pacifique qui sort une fois par jour, à une heure que personne n’annonce, et patrouille un [secteur dangereux](/wiki/01-General/Danger-Sectors.md) à la fois, il a le meilleur équipement du jeu, et il vend tous les objets que listent les [enchères](/wiki/03-Mechanics/Auction.md), sans fin à son stock, à un multiple du prix de la boutique. Il n’appartient à aucune corporation, ne figure dans aucun classement et ne tire jamais le premier. On lui achète dans les enchères, et on peut le combattre dans l’espace.
 
 ## Où il se trouve {#where-he-is}
 
@@ -25,7 +23,7 @@ Un **Ironclad TITANIC** peint en or, à la taille propre du TITANIC, équipé du
 | Extras | un Repair Drone IV, un Auto-Repair CPU et un Base CPU II |
 | Coque | 15 Hull Plating III |
 
-À la puissance d’Alpha, il a **858 750 de coque**, **1 309 534 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 80,5 % d’absorption, vitesse 96, portée 945 et une salve de **2 052 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,2 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ douze minutes de tir continu à lui seul, dix d’entre eux d’environ une minute et dix secondes.
+À la puissance d’Alpha, il a **858 750 de coque**, **1 309 534 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 80,5 % d’absorption, vitesse 96, portée 945 et une salve de **4 104 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,2 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ douze minutes de tir continu à lui seul, dix d’entre eux d’environ une minute et dix secondes.
 
 ## Le combattre {#fighting-him}
 
@@ -40,15 +38,15 @@ Il paie comme un boss, selon les dégâts infligés par chaque pilote (une part 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Crédits | 1 060 000 | 2 120 000 | 3 180 000 |
-| Thulium | 2 850 | 5 700 | 8 550 |
-| Expérience | 170 000 | 340 000 | 510 000 |
-| Honneur | 740 | 1 480 | 2 220 |
+| Crédits | 1 590 000 | 3 180 000 | 4 770 000 |
+| Thulium | 4 275 | 8 550 | 12 825 |
+| Expérience | 255 000 | 510 000 | 765 000 |
+| Honneur | 1 110 | 2 220 | 3 330 |
 
-La caisse contient 40 à 60 Ship Fragments, 10 à 20 Power Cores et 3 000 à 6 000 Advanced Plasma, et parfois des Ancient Control Units ou de la Dark Matter. Une destruction compte **37 points** pour le classement PvE, sous le nom Davidski dans les statistiques de destructions.
+La caisse contient 40 à 60 Ship Fragments, 10 à 20 Power Cores et 3 000 à 6 000 Advanced Plasma, et parfois des Ancient Control Units ou de la Dark Matter. Une destruction ne rapporte **aucun point PvE** au classement (il est hors de tous les classements, voir plus bas) ; l’expérience qu’elle paie compte comme n’importe quelle autre expérience, et la destruction est comptée sous le nom Davidski dans les statistiques de destructions.
 
 - **Il est détruit une fois par jour au plus.** Après sa mort, il reste absent jusqu’au jour UTC suivant, où il ressort au moment de ce jour, avec une coque complète. Personne n’est prévenu de sa chute ; les pilotes qui l’ont combattu voient leur propre paie.
-- **Il paie un pilote pour deux destructions par jour et un monde pour huit** (UTC). Avec un Davidski par jour et par monde, ces limites comptent rarement ; au-delà, le pilote est prévenu, ne touche rien et ne gagne aucun point pour la destruction.
+- **Il paie un pilote pour deux destructions par jour et un monde pour huit** (UTC). Avec un Davidski par jour et par monde, ces limites comptent rarement ; au-delà, le pilote est prévenu et ne touche rien pour la destruction.
 
 ## Lui acheter {#buying-from-him}
 
@@ -64,8 +62,8 @@ Son stock est dans la liste du **Marché** des enchères, parmi les annonces des
 
 ## Classements {#rankings}
 
-Il figure au **Panthéon** de la page Classements comme un pilote, dans les deux tableaux (PvE et PvP) de chaque monde : une ligne avec un numéro de place, un avatar avec son initiale, son nom, sans corporation (la colonne indique Neutral), son monde et ses points. Les pilotes classés sous lui descendent d’une place. Dans la vue **Tous**, il a trois lignes, une par monde.
+Il ne figure dans **aucun classement**. Le **Panthéon** de la page Classements ne liste que des pilotes, dans les deux tableaux (PvE et PvP) de chaque monde, et la place sur le profil d’un pilote ne compte que des pilotes.
 
-- **Ses points sont ceux d’un pilote de niveau 20.** Ils sont calculés avec la même formule que les points PvE d’un pilote ([Grades](/wiki/03-Mechanics/Ranks.md)) : 20 niveaux de 100 points, plus les 5 242 880 000 points d’expérience qu’un pilote a en atteignant le niveau 20, divisés par 1 000, et aucune destruction : **5 244 880** dans le tableau PvE et **0** dans le tableau PvP. Un pilote qui a exactement autant de points est classé sous lui.
-- **Il figure dans la liste tous les jours**, qu’il soit sorti ou non. Sa ligne n’ouvre aucun profil : il n’a pas de compte.
-- **La ligne est tout ce qu’il a dans les classements.** Il n’appartient à aucune corporation : il n’est donc sur aucune échelle de corporation des [grades](/wiki/03-Mechanics/Ranks.md) et ne peut pas porter la couronne. Vos points, votre grade et ce que l’on vous paie sont les mêmes que sans lui ; seuls les numéros qui comptent le Panthéon (celui devant un nom et la place sur un profil) le comptent aussi.
+- **Une destruction de lui ne vaut aucun point PvE.** La liste à côté des points PvE de la page Classements ne le montre pas, et le tableau des [Grades](/wiki/03-Mechanics/Ranks.md) n’a aucune ligne pour lui. L’expérience que paie une destruction compte comme n’importe quelle autre expérience : votre niveau, et les points qui vont avec, montent comme après toute destruction.
+- **Il n’a ni ligne ni profil.** Il n’a pas de compte et ne prend la place d’aucun pilote : les tableaux et les places sur les profils sont les mêmes que s’il n’existait pas.
+- **Il n’appartient à aucune corporation** : il n’est donc sur aucune échelle de corporation des [grades](/wiki/03-Mechanics/Ranks.md) et ne peut pas porter la couronne.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 65309b17cbdf0785 -->
+<!-- wiki-i18n source: d2df8d024d1874b4 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -24,7 +24,7 @@ Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** 
 
 Ein Skin ist ein Farbschema, gemacht aus dem eigenen Rumpf des Schiffs: Plattenfugen, Nummern und Streifen bleiben, nur die Farben ändern sich. Er gilt für ein **Schiffsmodell**, und denselben Skin tragen alle deine Schiffe dieses Modells und jedes [Design](/wiki/03-Mechanics/Ship-Designs.md), das daraus gemacht wurde; ein Umbau behält den Look. Die Protos hat noch keinen Skin, Kitefin, Ostirion und Nomad haben eine Kollektion, und die vier Schiffe, die du in der Montage baust, haben alle zehn.
 
-Skins gehören zu deinem **Konto**, nicht zu einem Schiff, und sie bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinweg; das Schiff, das du behältst, trägt, was es getragen hat.
+Skins gehören zu deinem **Konto**, nicht zu einem Schiff, und sie bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinweg; deine Schiffe tragen, was sie getragen haben.
 
 | Kollektion | Schiffe | Seltenheit | Wie sie aussieht |
 | :--- | :--- | :--- | :--- |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: 军衔 -->
 # 军衔 {#ranks}
 
@@ -128,7 +128,6 @@
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@
 
 例如，一名 4 级飞行员有 12,500 经验，击毁过 300 只 Seeker、80 架 Phantasm 和 10 艘 Bulwark，就有 400 + 12 + 300 + 160 + 40 = **912** 积分。这让他成为中士：最低要求是 800，下一个军衔高级中士要求 1,000。到高级上校为止，只有积分算数。
 
-**排行榜**页面（社区 › 排行榜）会显示你自己的积分是怎么构成的，其中的**名人堂**则列出最出色的飞行员。那里 PvE 积分旁边的 **(i)** 列出五种外星人、在每个[虫群](/wiki/05-Swarms/Swarms.md)里击杀一艘飞船能得多少积分（从最小的飞船到首领）、同样的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 里的外星人，以及[战队守卫](/wiki/03-Mechanics/Clans.md#clan-wardens)。[Davidski](/wiki/03-Mechanics/Davidski.md#rankings) 在每个世界的名人堂中各占一行，积分与 20 级飞行员相同；他不属于任何企业，因此不在任何阶梯上。
+**排行榜**页面（社区 › 排行榜）会显示你自己的积分是怎么构成的，其中的**名人堂**则列出最出色的飞行员。那里 PvE 积分旁边的 **(i)** 列出五种外星人、在每个[虫群](/wiki/05-Swarms/Swarms.md)里击杀一艘飞船能得多少积分（从最小的飞船到首领）、同样的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 里的外星人，以及[战队守卫](/wiki/03-Mechanics/Clans.md#clan-wardens)。[Davidski](/wiki/03-Mechanics/Davidski.md#rankings) 不在任何排行榜上：击毁他不计积分，名人堂里没有他的一行，而且他不属于任何企业，因此不在任何阶梯上。
 
 ## 符号 {#the-symbols}
 

@@ -1,10 +1,8 @@
-<!-- wiki-i18n source: 94b65a41bd556504 -->
+<!-- wiki-i18n source: f8afbadaba141b0c -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
-Davidski es un comerciante que vuela. Es una nave NPC pacífica que sale una vez al día, a una hora que nadie anuncia, y patrulla un [sector de peligro](/wiki/01-General/Danger-Sectors.md) a la vez, tiene el mejor equipo del juego y vende todos los objetos que lista la [subasta](/wiki/03-Mechanics/Auction.md), con existencias sin fin, a muchas veces el precio de la tienda. No pertenece a ninguna corporación, figura en el Salón de la Fama como un piloto y no dispara primero. Le compras en la subasta, y puedes combatirlo en el espacio.
-
-![The Hall of Fame: Davidski has a row in every world, with no company, at the points of a level 20 pilot](../../img/wiki-img/shots/davidski-hall.jpg)
+Davidski es un comerciante que vuela. Es una nave NPC pacífica que sale una vez al día, a una hora que nadie anuncia, y patrulla un [sector de peligro](/wiki/01-General/Danger-Sectors.md) a la vez, tiene el mejor equipo del juego y vende todos los objetos que lista la [subasta](/wiki/03-Mechanics/Auction.md), con existencias sin fin, a muchas veces el precio de la tienda. No pertenece a ninguna corporación, no figura en ninguna clasificación y no dispara primero. Le compras en la subasta, y puedes combatirlo en el espacio.
 
 ## Dónde está {#where-he-is}
 
@@ -25,7 +23,7 @@ Una **Ironclad TITANIC** pintada de oro, del tamaño propio de la TITANIC, con l
 | Extras | un Repair Drone IV, una Auto-Repair CPU y una Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Con la fuerza de Alpha tiene **858.750 de casco**, **1.309.534 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 80,5 % de absorbancia, velocidad 96, alcance 945 y una salva de **2.052 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,2 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos doce minutos de fuego continuo él solo; diez de ellos, un minuto y diez segundos.
+Con la fuerza de Alpha tiene **858.750 de casco**, **1.309.534 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 80,5 % de absorbancia, velocidad 96, alcance 945 y una salva de **4.104 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,2 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos doce minutos de fuego continuo él solo; diez de ellos, un minuto y diez segundos.
 
 ## Combatirlo {#fighting-him}
 
@@ -40,15 +38,15 @@ Paga como un jefe, según el daño que infligió cada piloto (una parte inferior
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Créditos | 1.060.000 | 2.120.000 | 3.180.000 |
-| Thulium | 2.850 | 5.700 | 8.550 |
-| Experiencia | 170.000 | 340.000 | 510.000 |
-| Honor | 740 | 1.480 | 2.220 |
+| Créditos | 1.590.000 | 3.180.000 | 4.770.000 |
+| Thulium | 4.275 | 8.550 | 12.825 |
+| Experiencia | 255.000 | 510.000 | 765.000 |
+| Honor | 1.110 | 2.220 | 3.330 |
 
-La caja contiene de 40 a 60 Ship Fragments, de 10 a 20 Power Cores y de 3.000 a 6.000 Advanced Plasma, y a veces Ancient Control Units o Dark Matter. Una baja cuenta **37 puntos** para tu clasificación PvE, con el nombre Davidski en tus estadísticas de bajas.
+La caja contiene de 40 a 60 Ship Fragments, de 10 a 20 Power Cores y de 3.000 a 6.000 Advanced Plasma, y a veces Ancient Control Units o Dark Matter. Una baja no suma **ningún punto PvE** a tu clasificación (él está fuera de las clasificaciones, ver abajo); la experiencia que paga cuenta como cualquier otra experiencia, y la baja se cuenta con el nombre Davidski en tus estadísticas de bajas.
 
 - **Lo destruyen una vez al día como máximo.** Tras su muerte no vuelve hasta el siguiente día UTC, cuando sale de nuevo en el momento de ese día, con el casco completo. Nadie es avisado de que ha caído; los pilotos que lucharon contra él ven su propia paga.
-- **Paga a un piloto por dos bajas al día y a un mundo por ocho** (UTC). Con un Davidski al día en cada mundo, estos límites rara vez importan; pasados, se te avisa, no cobras nada y no recibes puntos por la baja.
+- **Paga a un piloto por dos bajas al día y a un mundo por ocho** (UTC). Con un Davidski al día en cada mundo, estos límites rara vez importan; pasados, se te avisa y no cobras nada por la baja.
 
 ## Comprarle {#buying-from-him}
 
@@ -64,8 +62,8 @@ Su almacén está en la lista del **Mercado** de la subasta, entre los anuncios 
 
 ## Clasificaciones {#rankings}
 
-Figura en el **Salón de la Fama** de la página Clasificaciones como un piloto, en las dos tablas (PvE y PvP) de cada mundo: una fila con su número de puesto, un avatar con su inicial, su nombre, sin corporación (la columna dice Neutral), su mundo y sus puntos. Los pilotos que quedan debajo de él bajan un puesto. En la vista **Todos** tiene tres filas, una por mundo.
+No figura en **ninguna clasificación**. El **Salón de la Fama** de la página Clasificaciones lista solo pilotos, en las dos tablas (PvE y PvP) de cada mundo, y la posición en el perfil de un piloto cuenta solo pilotos.
 
-- **Sus puntos son los de un piloto de nivel 20.** Se calculan con la misma fórmula que los puntos PvE de un piloto ([Rangos](/wiki/03-Mechanics/Ranks.md)): 20 niveles de 100 puntos cada uno, más los 5.242.880.000 de experiencia que tiene un piloto al llegar al nivel 20 divididos entre 1.000, y ningún derribo: **5.244.880** en la tabla PvE y **0** en la PvP. Un piloto con exactamente los mismos puntos queda debajo de él.
-- **Aparece todos los días**, esté fuera o no. Su fila no abre ningún perfil: no tiene cuenta.
-- **La fila es todo lo que tiene en las clasificaciones.** No pertenece a ninguna corporación, así que no está en ninguna de las escalas de corporación de los [rangos](/wiki/03-Mechanics/Ranks.md) y no puede llevar la corona. Tus puntos, tu rango y lo que cobras son los mismos que sin él; solo los números que cuentan el Salón de la Fama (el que va delante de un nombre y la posición en un perfil) lo cuentan también a él.
+- **Una baja suya no vale ningún punto PvE.** La lista junto a los puntos PvE en la página Clasificaciones no lo muestra, y la tabla de [Rangos](/wiki/03-Mechanics/Ranks.md) no tiene ninguna fila suya. La experiencia que paga una baja cuenta como cualquier otra experiencia, así que tu nivel, y los puntos que vienen con él, suben como tras cualquier baja.
+- **No tiene fila ni perfil.** No tiene cuenta y no le quita el puesto a ningún piloto: las tablas y las posiciones de los perfiles son las mismas que si no existiera.
+- **No pertenece a ninguna corporación**, así que no está en ninguna de las escalas de corporación de los [rangos](/wiki/03-Mechanics/Ranks.md) y no puede llevar la corona.

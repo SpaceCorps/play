@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: Rütbeler -->
 # Rütbeler {#ranks}
 
@@ -128,7 +128,6 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 
 Örneğin 4. seviyede, 12.500 deneyimi olan ve 300 Seeker, 80 Phantasm ile 10 Bulwark yok etmiş bir pilotun toplam puanı 400 + 12 + 300 + 160 + 40 = **912** olur. Bu onu Çavuş yapar: en düşük puan 800 puandır; bir sonraki rütbe olan Kıdemli Çavuş ise 1.000 puan ister. Kıdemli Albay rütbesine kadar yalnızca puan sayılır.
 
-**Sıralamalar** sayfası (Topluluk › Sıralamalar) puanının nasıl oluştuğunu gösterir; içindeki **Şeref Salonu** en iyi pilotları listeler. Oradaki PvE puanının yanındaki **(i)** beş uzaylıyı, sürülerin ([Sürüler](/wiki/05-Swarms/Swarms.md)) her birinde bir öldürmenin en küçük gemiden patronuna kadar kaç puan ettiğini, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylıları için aynısını ve [Clan Warden](/wiki/03-Mechanics/Clans.md#clan-wardens) için de aynısını listeler. [Davidski](/wiki/03-Mechanics/Davidski.md#rankings), Şeref Salonu’nda her dünyada kendine ait bir satırla yer alır; puanı 20. seviye bir pilotun puanıdır. Hiçbir şirkette olmadığı için listelerin hiçbirinde yoktur.
+**Sıralamalar** sayfası (Topluluk › Sıralamalar) puanının nasıl oluştuğunu gösterir; içindeki **Şeref Salonu** en iyi pilotları listeler. Oradaki PvE puanının yanındaki **(i)** beş uzaylıyı, sürülerin ([Sürüler](/wiki/05-Swarms/Swarms.md)) her birinde bir öldürmenin en küçük gemiden patronuna kadar kaç puan ettiğini, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylıları için aynısını ve [Clan Warden](/wiki/03-Mechanics/Clans.md#clan-wardens) için de aynısını listeler. [Davidski](/wiki/03-Mechanics/Davidski.md#rankings), hiçbir sıralamada yer almaz: onu öldürmek puan etmez, Şeref Salonu’nda satırı yoktur ve hiçbir şirkette olmadığı için listelerin hiçbirinde yoktur.
 
 ## Simgeler {#the-symbols}
 

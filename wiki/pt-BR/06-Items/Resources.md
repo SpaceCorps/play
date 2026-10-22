@@ -736,7 +736,7 @@ Experiência e honra são pontuações, não dinheiro: nada é comprado com elas
 
 - **No início**: a conta de um piloto novo tem 10.000 créditos.
 - **Alienígenas**: cada abate a paga (a tabela acima).
-- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: os fragmentos de um asteroide quebrado a pagam, até um limite a cada 24 horas (nessa página).
+- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: os fragmentos de um asteroide quebrado a pagam.
 - **[Missões](/wiki/03-Mechanics/Quests.md)**: as 88 missões no Alpha pagam 6.664.500 créditos no total, de 86.000 no nível 1 a 2.720.000 no nível 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: a Mina de créditos os produz enquanto você está fora, em um armazenamento de 72 horas.
 
@@ -770,7 +770,7 @@ Estas são as taxas de uma estação com energia: um déficit de energia para to
 
 - **No início**: a conta de um piloto novo tem 100 de Thulium.
 - **Alienígenas**: cada abate a paga (a tabela acima).
-- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: os fragmentos de um asteroide quebrado a pagam, até um limite a cada 24 horas (nessa página).
+- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: os fragmentos de um asteroide quebrado a pagam.
 - **[Escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: a partir do dia 11 da temporada, uma rodada completa produz 9.643 dele em Alpha (mais em Beta e Gamma), em caixas que qualquer um pode pegar; no painel de controle se escolhe o que ela minera.
 - **[Missões](/wiki/03-Mechanics/Quests.md)**: as 88 missões no Alpha pagam 51.010 de Thulium no total, de 170 no nível 1 a 21.760 no nível 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: a Mina de Thulium os produz enquanto você está fora, em um armazenamento de 72 horas.

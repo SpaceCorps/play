@@ -736,7 +736,7 @@ Erfarenhet och heder är poäng, inte pengar: inget köps med dem. Erfarenhet h�
 
 - **Vid start**: en ny pilots konto har 10 000 krediter.
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
-- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den, upp till en gräns för varje period på 24 timmar (på den sidan).
+- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den.
 - **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 6 664 500 krediter över de 88 uppdragen i Alpha, från 86 000 på nivå 1 till 2 720 000 på nivå 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Kreditfarm producerar den medan du är borta, in i ett lager för 72 timmar.
 
@@ -770,7 +770,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 
 - **Vid start**: en ny pilots konto har 100 Thulium.
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
-- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den, upp till en gräns för varje period på 24 timmar (på den sidan).
+- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den.
 - **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 ger en full körning 9 643 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
 - **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 51 010 Thulium över de 88 uppdragen i Alpha, från 170 på nivå 1 till 21 760 på nivå 8.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Thuliumfarm producerar den medan du är borta, in i ett lager för 72 timmar.

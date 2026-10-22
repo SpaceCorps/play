@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 73cc670b98038c5d -->
+<!-- wiki-i18n source: ac003a9cc851adcb -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -128,7 +128,6 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
-| Davidski | 37 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -140,7 +139,7 @@ Az első öt sor a hétköznapi idegen, a következő hat a három raj hajója, 
 
 Például egy 4. szintű pilóta, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 300 + 160 + 40 = **912** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 
-A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, ugyanezt a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegeneinél, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) minden világban külön sorral szerepel a Dicsőségcsarnokban, egy 20. szintű pilóta pontjaival; nem tartozik vállalathoz, ezért egyik ranglistán sincs rajta.
+A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, ugyanezt a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegeneinél, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) egyik rangsorban sem szerepel: a lelövése nem ér pontot, nincs sora a Dicsőségcsarnokban, és nem tartozik vállalathoz, ezért egyik ranglistán sincs rajta.
 
 ## A jelek {#the-symbols}
 

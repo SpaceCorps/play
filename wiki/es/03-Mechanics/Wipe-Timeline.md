@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Cada temporada va del día 1 al 30 (el Reinicio empieza con su cuenta regresiva 
 | **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo) y los tres [enjambres](/wiki/05-Swarms/Swarms.md) empiezan a aparecer: se quedan hasta el reinicio, a lo largo de las fases siguientes. La fase en sí aún no da recompensas especiales. |
 | **Auge Tecnológico** | Días 11–18 | Evento 2 | Los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) cambian: una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) junto a cada púlsar en `DS-1` a `DS-3`, el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en `DS-4`, Slumbering Voids, y un Enjambre Dormant que vuelve antes y paga el doble. Todo se queda hasta el reinicio. La fase no da recompensas propias. |
 | **Juegos de Guerra** | Días 19–25 | Evento 3 | Aún sin efectos especiales: el PvP funciona como en todas las fases posteriores al Protocolo de paz. |
-| **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar y bloquear la carga que se llevan antes de la erupción. |
+| **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar la carga que se llevan antes de la erupción. |
 | **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace, y todos los [clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) se disuelven. Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. |
 
 Aparte del propio reinicio, solo cuatro cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, desde el día 11 los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) reciben sus excavadoras gigantes (junto a los púlsares, que brillan desde el día 1) y el Dormant Swamp, que se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y en el Panel del juego. El evento 2 cambia los sectores de peligro como se ha dicho; ninguno de los demás da todavía recompensas, apariciones ni bonificaciones propias.
@@ -46,9 +46,9 @@ Las piezas se consiguen con la interfaz del Materializador de Energía, que hace
 Una vez reunidas las 100 piezas y estabilizado por completo el Chrono-Gate, el portal da acceso a tu **Alijo de Transporte** personal (también conocido como carro de traspaso o cápsula de viaje). Esta dimensión de bolsillo protege tus pertenencias para que no se borren durante el reinicio. Los objetos que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vuelven a ti con el reinicio como objetos sueltos, que el reinicio borra como el resto si no los guardas en el Alijo; las pujas que tienes en lotes se devuelven.
 
 ### Traspaso automático (gratis) {#automatic-carry-over-free-}
-Los siguientes objetos siempre están protegidos y pasan automáticamente a la siguiente temporada, sin ocupar **nada** de la capacidad de tu Alijo de Transporte:
-1. Tu nave activa actual.
-2. Todos los objetos equipados en ese momento en esa nave activa, tanto en la **Configuración 1** como en la **Configuración 2** (incluidos láseres, escudos, motores y generadores).
+Lo siguiente siempre está protegido y pasan automáticamente a la siguiente temporada, sin ocupar **nada** de la capacidad de tu Alijo de Transporte:
+1. Todas las naves que tienes, reparadas y con su pintura. El hangar es tuyo para siempre; solo tu nave activa conserva lo que lleva equipado (el punto siguiente), y el equipo de tus otras naves se pierde como cualquier objeto suelto si no lo metes en el Alijo.
+2. Todos los objetos equipados en ese momento en tu nave activa, tanto en la **Configuración 1** como en la **Configuración 2** (incluidos láseres, escudos, motores y generadores).
 3. Todos los drones que tienes, con su nivel y su experiencia: tus [Slave Drones](/wiki/03-Mechanics/Drones.md) se quedan, así que tus ranuras de dron siguen abiertas y el precio de tu siguiente dron sigue contando a partir de los que tienes. Los láseres y escudos instalados en una ranura de dron siguen la regla anterior: se quedan si están en la nave activa.
 4. Todas las formaciones de drones que tienes ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)), estén donde estén: en el inventario, en tu barra rápida o en una nave. Igual que tus drones, se quedan sin ocupar capacidad del Alijo de Transporte.
 
@@ -56,20 +56,23 @@ Los siguientes objetos siempre están protegidos y pasan automáticamente a la s
 Para los demás objetos de tu inventario que quieras conservar (p. ej., armamento de repuesto, recursos de fabricación o generadores de escudo de sobra):
 * **Límite de peso**: el Alijo de Transporte tiene un límite estricto de capacidad de **50 toneladas (50.000 kg)**.
 * **Cargar objetos**: puedes arrastrar y soltar manualmente objetos del inventario de tu hangar en las ranuras del Alijo de Transporte.
-* **Peso de los objetos**: cada clase de objeto tiene su propio peso:
-  * *Láseres / armamento*: 10 kg
-  * *Generadores de escudo*: 20 kg
-  * *Motores / propulsión*: 30 kg
-  * *Generadores*: 30 kg
-  * *Recursos / minerales*: pesos variables según la rareza (una placa reforzada de la Forja del Skylab pesa 5 kg)
+* **Peso de los objetos**: cada objeto tiene un peso fijo. Una pila pesa ese peso por su cantidad, y un objeto con módulos instalados (propulsores en un motor, amps en un láser, células en un núcleo de escudo) entra con ellos y su peso cuenta también:
+  * *Láseres, núcleos de escudo, motores, núcleos adaptativos*: 2.500 kg cada uno
+  * *Propulsores, amplificadores láser, células de escudo*: 1.000 kg cada uno
+  * *Blindaje de casco, potenciadores, Extras, Energetic Walls*: 500 kg cada uno
+  * *EMP Charges*: 250 kg cada una
+  * *Placas* (las Velkonite Reinforced Plate y Orvium Reinforced Plate que fabrica la Forja del Skylab, y las Dark Matter Plate): 5 kg cada una
+  * *Cluster Chunks*: 2 kg (Regular), 4 kg (Mythical) u 8 kg (Legendary)
+  * *Demás recursos y munición láser* (mineral, Ship Fragment, Power Core, Reinforced Hull Plate, Dark Matter y demás): 1 kg cada uno
   * *Cohetes*: no pesan nada: no ocupan sitio en el alijo, así que entran pilas enteras (consulta [Cohetes](/wiki/06-Items/Rockets.md))
+* **Ejemplo**: 20 láseres pesan 20 × 2.500 kg = 50.000 kg y llenan el alijo justo; el 21.º láser se rechaza. Un Engine III con sus tres propulsores instalados pesa 2.500 + 3 × 1.000 = 5.500 kg. Los recursos son ligeros: una pila de 1.000 unidades de mineral pesa 1.000 kg, y 100 placas pesan 500 kg.
 
 Tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) nunca se reinicia: sus módulos conservan sus niveles y el Almacén de recursos conserva el mineral guardado. El Centro de investigación conserva también todo lo que contiene [Investigación](/wiki/03-Mechanics/Research.md): tus tecnologías, la ciencia de su depósito, el Dark Matter introducido, una investigación en curso y el impulso. Igual que las Extra Slots CPU que instalaste, que no son objetos. Igual que tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) (acoplados o guardados), los trabajos en marcha de la Cuna, el Códice, tus P.E.T. Station y tu [aspecto](/wiki/06-Items/Cosmetics.md): tampoco son objetos. Lo que ya recogiste, no: las placas de tu inventario son objetos como cualquier otro, así que una placa que quieras conservar tiene que estar en el Alijo de Transporte. Los Cluster Chunks también son objetos, y lo mismo vale para un motor o un láser montado en el Módulo de motores o el Módulo de defensa del Skylab: sácalo del módulo y ponlo en el alijo para conservarlo. Una expedición del Skylab en curso se liquida hasta el reinicio, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto), y el Skylab empieza la nueva temporada en casa con un mapa del universo nuevo.
 
 ### Confirmar y bloquear {#confirm-lock}
-Antes de que termine la temporada, debes hacer clic en **Confirmar y bloquear** en la interfaz del Materializador.
-* Bloquear el alijo es un protocolo de seguridad para preparar el espejo de salto.
-* **ADVERTENCIA**: cualquier objeto que no esté equipado en tu nave activa, no sea un dron o no esté guardado en un Alijo de Transporte bloqueado se **destruirá para siempre** durante la Erupción del agujero negro.
+Antes de que termine la temporada, puedes hacer clic en **Confirmar y bloquear** en la interfaz del Materializador.
+* Bloquear congela el alijo: no se puede añadir ni sacar nada hasta que lo desbloquees. Es un seguro y no una condición: lo que hay en el Alijo de Transporte pasa a la temporada siguiente, bloqueado o no.
+* **ADVERTENCIA**: cualquier objeto que no esté equipado en tu nave activa, no sea un dron ni una formación de drones o no esté guardado en el Alijo de Transporte (bloqueado o no) se **destruirá para siempre** durante la Erupción del agujero negro.
 
 ---
 
@@ -100,7 +103,7 @@ Así funcionan los mundos:
 
 ## Progreso entre temporadas (mejoras permanentes) {#cross-season-progression-permanent-buffs-}
 
-El Reinicio se lleva tus naves y tus objetos (salvo tu nave activa con todo lo que lleva equipado, tu Alijo de Transporte y tus drones) y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre, salvo las misiones de nivel que la actualización 0.4.10 rehízo: 64 de ellas se ofrecen una vez más ([Misiones](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+El Reinicio se lleva tus objetos (salvo lo que llevas equipado en tu nave activa, tu Alijo de Transporte y tus drones), te deja todas tus naves y te devuelve al sector base de tu corporación; tu nivel, tus créditos, tu Thulium y tus puntos de clasificación no se reinician. Además, tus logros generales como piloto contribuyen a un poder permanente. Derrotar alienígenas y completar misiones otorga **puntos de reinicio (PR)**. Tus propias [misiones](/wiki/03-Mechanics/Quests.md), terminadas y en curso, se conservan: cada una se puede hacer una vez por piloto, para siempre, salvo las misiones de nivel que la actualización 0.4.10 rehízo: 64 de ellas se ofrecen una vez más ([Misiones](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Clanes y rangos.** El reinicio disuelve todos los clanes, con su Tesoro de la flota, sus avisos, su registro, sus tratados, sus puntos y sus niveles de mejora, así que cada temporada es una nueva carrera por fundar un clan y llenar sus mejoras; los créditos que un clan te ha pagado se quedan, y tu cupo de donaciones también ([Clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Líderes y colíderes: pagad el Tesoro de la flota antes de que termine la cuenta atrás. Tus puntos de clasificación PvE también se quedan, así que un reinicio no te mueve en la clasificación de tu corporación: tu rango sigue tu puesto allí, no la temporada ([Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

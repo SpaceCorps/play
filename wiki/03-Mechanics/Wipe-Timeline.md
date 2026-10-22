@@ -16,7 +16,7 @@ Each season runs through days 1 to 30 (the Wipe starts with its 5-minute countdo
 | **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below), and the three [swarms](/wiki/05-Swarms/Swarms.md) begin to appear: they stay until the wipe, through the phases after this one. The phase itself gives no special rewards yet. |
 | **Tech Surge** | Days 11–18 | Event 2 | The [Danger Sectors](/wiki/01-General/Danger-Sectors.md) change: a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) beside each pulsar on `DS-1` to `DS-3`, the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4`, Slumbering Voids, and a Dormant Swarm that comes back sooner and pays twice. All of it stays until the wipe. The phase gives no rewards of its own. |
 | **War Games** | Days 19–25 | Event 3 | No special effects yet: PvP works as in every phase after the Peace Protocol. |
-| **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete and lock their carrying cargo before the eruption. |
+| **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete their carrying cargo before the eruption. |
 | **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn, and every [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) is disbanded. Pilots move to the world they chose as their destination for the next season. |
 
 Apart from the wipe itself, only four things follow the calendar: the Peace Protocol (days 1–3) changes a rule, from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe, from day 11 the [Danger Sectors](/wiki/01-General/Danger-Sectors.md) get their giant excavators (beside the pulsars, which shine from day 1) and the Dormant Swamp, which stay until the wipe, and the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) charges no fees from day 28 and is closed from day 30. The four events are named phases of the season: they show on the game's Season page and Dashboard. Event 2 changes the Danger Sectors as above; none of the others gives special rewards, spawns or bonuses of its own yet.
@@ -44,9 +44,9 @@ You obtain parts by using the Energy Materializer interface, which spins local e
 Once all 100 parts are collected and the Chrono-Gate is fully stabilized, the portal opens access to your personal **Transport Cache** (also known as the carry-over cart or travel capsule). This pocket dimension shields your belongings from being deleted during the wipe. Items you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) come back to you at the wipe as loose items, which the wipe deletes like the rest unless you put them in the Cache; the bids you hold in lots are refunded.
 
 ### Automatic Carry-Over (Free)
-The following items are always protected and carry over to the next season automatically, consuming **zero** capacity in your Transport Cache:
-1. Your currently active ship.
-2. Every item currently equipped on that active ship across both **Configuration 1** and **Configuration 2** (including lasers, shields, engines, and generators).
+The following are always protected and carry over to the next season automatically, consuming **zero** capacity in your Transport Cache:
+1. Every ship you own, repaired and still wearing its paint. The hangar is yours for good; only your active ship keeps what is fitted to it (the next point), and the gear on your other ships is lost like any loose item unless you put it in the Cache.
+2. Every item currently equipped on your active ship across both **Configuration 1** and **Configuration 2** (including lasers, shields, engines, and generators).
 3. Every drone you own, with its level and experience: your [Slave Drones](/wiki/03-Mechanics/Drones.md) stay, so your drone slots stay open and the price of your next drone goes on from the number you hold. Lasers and shields fitted in a drone slot follow the rule above: they stay if they are on the active ship.
 4. Every drone formation you own ([Drone Formations](/wiki/03-Mechanics/Formations.md)), wherever it is: in your inventory, on your hotbar or on a ship. Like your drones, they stay without using any Transport Cache capacity.
 
@@ -54,20 +54,23 @@ The following items are always protected and carry over to the next season autom
 For additional items in your inventory that you want to save (e.g., spare weaponry, crafting resources, or extra shield generators):
 * **Weight Limit**: The Transport Cache has a strict capacity limit of **50 Tons (50,000 kg)**.
 * **Loading Items**: You can manually drag and drop items from your hangar inventory into the Transport Cache slots.
-* **Item Weight**: Different item classes have distinct weights:
-  * *Lasers / Weaponry*: 10 kg
-  * *Shield Generators*: 20 kg
-  * *Engines / Propulsion*: 30 kg
-  * *Generators*: 30 kg
-  * *Resources / Minerals*: Varying weights based on rarity (a Reinforced Plate from the Skylab's Forgery weighs 5 kg)
+* **Item Weight**: Every item has one fixed weight. A stack weighs that weight times its quantity, and an item with modules fitted into it (thrusters in an engine, amps in a laser, cells in a shield core) goes in with them and weighs them too:
+  * *Lasers, Shield Cores, Engines, Adaptive Cores*: 2,500 kg each
+  * *Thrusters, Laser Amps, Shield Cells*: 1,000 kg each
+  * *Hull Plating, Boosters, Extras, Energetic Walls*: 500 kg each
+  * *EMP Charges*: 250 kg each
+  * *Plates* (the Velkonite and Orvium Reinforced Plates that the Skylab's Forgery makes, and the Dark Matter Plates): 5 kg each
+  * *Cluster Chunks*: 2 kg (Regular), 4 kg (Mythical) or 8 kg (Legendary)
+  * *Other resources and laser ammo* (ore, Ship Fragments, Power Cores, Reinforced Hull Plates, Dark Matter and so on): 1 kg each
   * *Rockets*: no weight at all: they take no room in the cache, so whole stacks go in (see [Rockets](/wiki/06-Items/Rockets.md))
+* **Example**: 20 lasers weigh 20 × 2,500 kg = 50,000 kg and fill the cache exactly; a 21st is refused. An Engine III with its three thrusters fitted weighs 2,500 + 3 × 1,000 = 5,500 kg. Resources are light: a stack of 1,000 ore weighs 1,000 kg, and 100 plates weigh 500 kg.
 
 Your [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) is never wiped: its modules keep their levels and the Resource Storage keeps its banked ore. The Research Centre keeps everything [Research](/wiki/03-Mechanics/Research.md) holds too: your technologies, the science in its tank, the Dark Matter plugged into it, a research under way and the boost. So do the Extra Slots CPUs you installed, which are not items. So do your [P.E.T.s](/wiki/03-Mechanics/Pets.md) (docked or stored), the jobs running in the Cradle, the Codex and your P.E.T. Stations, and your [looks](/wiki/06-Items/Cosmetics.md), which are not items either. What you already collected does not: plates in your inventory are items like any other, so a plate you want to keep must be in the Transport Cache. Cluster Chunks are items too, and so are an engine or a laser fitted in the Skylab's Engine or Defense module: take it out of the module and put it in the cache to keep it. A Skylab expedition under way is settled up to the wipe, the Trophies Bay pays out its Credits, Thulium, experience and honor and is emptied (its loot is deleted like any loose item), and the Skylab starts the new season at home with a new universe map.
 
 ### Confirm & Lock
-Before the season ends, you must click **Confirm & Lock** in the Materializer interface. 
-* Locking the cache is a safety protocol to prepare the jump mirror.
-* **WARNING**: Any item that is not equipped on your active ship, is not a drone, or is not stored in a locked Transport Cache will be **permanently destroyed** during the Blackhole Eruption.
+Before the season ends, you can click **Confirm & Lock** in the Materializer interface. 
+* Locking freezes the cache: nothing can be added or taken out until you unlock it. It is a safety catch and not a condition: what is in the Transport Cache carries over to the next season locked or not.
+* **WARNING**: Any item that is not equipped on your active ship, is not a drone or a drone formation, or is not stored in the Transport Cache (locked or not) will be **permanently destroyed** during the Blackhole Eruption.
 
 ---
 
@@ -98,7 +101,7 @@ How the worlds work:
 
 ## Cross-Season Progression (Permanent Buffs)
 
-The Wipe takes your ships and items (except your active ship with everything fitted to it, your Transport Cache and your drones) and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever, except the level missions that update 0.4.10 reworked: 64 of them are offered once more ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+The Wipe takes your items (except what is fitted to your active ship, your Transport Cache and your drones), keeps all your ships and puts you back at your company's home sector; your level, credits, Thulium and ranking points are not reset. On top of that, your overall pilot achievements contribute to permanent power. Defeating aliens and completing missions awards **Wipe Points (WP)**. Your [missions](/wiki/03-Mechanics/Quests.md) themselves, done and in progress, carry over: each can be done once per pilot, ever, except the level missions that update 0.4.10 reworked: 64 of them are offered once more ([Quests](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Clans and ranks.** The wipe disbands every clan, with its Fleet Treasury, posts, log, treaties, points and boost levels, so every season is a new race to found a clan and fill its boosts; the credits a clan has paid you stay, and so does your donation allowance ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Leaders and Co-Leaders: pay the Fleet Treasury out before the countdown ends. Your PvE ranking points stay too, so a wipe does not move you on your company's ladder: your rank follows your place there, not the season ([Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

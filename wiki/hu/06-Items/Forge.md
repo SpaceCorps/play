@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -9,6 +9,8 @@ A **Kovácsműhely** a Gyártás oldal második lapja (és a repülés közbeni 
 Lézerek, lézererősítők, pajzsmagok, pajzscellák, hajtóművek, fúvókák, adaptív magok, Repair Drone-ok és [hajótest-páncélzat](/wiki/06-Items/Hull-Plating.md): bármelyik egyedi felszerelés, amely [bűvölési bónuszokat](/wiki/06-Items/Overview.md) hordozhat. Lehet a leltáradban, egy hajón (ott marad, és azonnal az új fokozatával működik) vagy egy másik tárgyba építve. Drónokat, hajókat, lőszert, nyersanyagokat és boostereket nem lehet kovácsolni, és a tranzittárolóban vagy a Skylabed Hajtóműmoduljában vagy Védelmi moduljában lévő semmit sem: előbb vedd ki.
 
 A felszerelések listáján a többi szűrő mellett van egy **Mind / Felszerelt / Leltárban** kapcsoló. A **Felszerelt** azt mutatja, ami hajón van vagy másik tárgyba van illesztve, a **Leltárban** azt, ami szabadon van, és a cím alatti sor megmondja, hány darabot rejt el a kapcsoló. Amíg egy összevonás donorát választod, a „Felszerelt” szünetel, mert a donornak szabadnak kell lennie.
+
+A típusszűrő mellett egy **Hajó** legördülő csak az egyik hajódon lévő darabokat mutatja (a másik tárgyba illesztett darab arra a hajóra számít, amelyen a befogadója van). Szünetel a „Leltárban” állásnál és amíg egy összevonás donorát választod. A darab lebegő kártyája, a panel fejléce és az összevonás alapja megmondja, hol van a darab: *Hajón: Kitefin, 1. konfiguráció* (hajótest-páncélzat: mindkét konfiguráció), és hogy mibe van illesztve. A **Ctrl+F** (Macen Cmd+F) a Gyártás fejlécének keresőmezőjébe teszi a kurzort; leszűkíti a megnyitott lap listáját (receptek aszerint, mit gyártanak és mit kérnek, felszerelés név, típus és fokozat szerint), az Esc pedig törli. A *Bónuszhelyek* sor alatt a panel megmondja, ha a darab egy értéke túl alacsony egy bónuszhoz, ezért hordoz az Impulse Thruster egy, a Momentum Thruster pedig két bónuszt.
 
 ## Fokozatemelés {#tier-up}
 

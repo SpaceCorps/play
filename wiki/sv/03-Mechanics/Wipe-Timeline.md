@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Varje säsong löper över dag 1 till 30 (wipen börjar med sin nedräkning på 
 | **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan) och de tre [svärmarna](/wiki/05-Swarms/Swarms.md) börjar dyka upp: de finns kvar till wipen, genom faserna efter denna. Själva fasen ger inga särskilda belöningar än. |
 | **Teknikboom** | Dag 11–18 | Event 2 | [Farosektorerna](/wiki/01-General/Danger-Sectors.md) förändras: en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) bredvid varje pulsar på `DS-1` till `DS-3`, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, Slumbering Voids, och en Dormant-svärm som kommer tillbaka tidigare och betalar dubbelt. Allt finns kvar till wipen. Fasen ger inga egna belöningar. |
 | **Krigsspel** | Dag 19–25 | Event 3 | Inga särskilda effekter än: PvP fungerar som i varje fas efter Fredsprotokollet. |
-| **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart och låsa den last de tar med sig före utbrottet. |
+| **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart den last de tar med sig före utbrottet. |
 | **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt, och varje [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) upplöses. Piloter flyttas till den värld de valde som destination för nästa säsong. |
 
 Bortsett från själva wipen är det bara fyra saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, från dag 11 får [farosektorerna](/wiki/01-General/Danger-Sectors.md) sina jättegrävmaskiner (bredvid pulsarerna, som lyser från dag 1) och Dormant Swamp, som finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten. Event 2 förändrar farosektorerna som ovan; inget av de andra ger särskilda belöningar, nya fiender eller bonusar av eget än.
@@ -46,9 +46,9 @@ Du får delar genom att använda gränssnittet Energimaterialiserare, som snurra
 När alla 100 delar är samlade och Chrono-Gate är helt stabiliserad öppnar portalen åtkomst till ditt personliga **transportförråd** (kallas också överföringsvagnen eller reskapseln). Den här fickdimensionen skyddar dina tillhörigheter från att raderas under wipen. Föremål du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) kommer tillbaka till dig vid wipen som lösa föremål, som wipen raderar som allt annat om du inte lägger dem i Transportförrådet; buden du håller i lotter betalas tillbaka.
 
 ### Automatisk överföring (gratis) {#automatic-carry-over-free-}
-Följande föremål är alltid skyddade och följer med till nästa säsong automatiskt, och tar **noll** kapacitet i ditt transportförråd:
-1. Ditt aktiva skepp.
-2. Varje föremål som just nu är utrustat på det aktiva skeppet, i både **Konfig 1** och **Konfig 2** (inklusive lasrar, sköldar, motorer och generatorer).
+Följande är alltid skyddat och följer med till nästa säsong automatiskt, och tar **noll** kapacitet i ditt transportförråd:
+1. Varje skepp du äger, reparerat och med sin lackering kvar. Hangaren är din för gott; bara ditt aktiva skepp behåller det som sitter på det (nästa punkt), och utrustningen på dina andra skepp går förlorad som vilket löst föremål som helst, om du inte lägger den i förrådet.
+2. Varje föremål som just nu är utrustat på ditt aktiva skepp, i både **Konfig 1** och **Konfig 2** (inklusive lasrar, sköldar, motorer och generatorer).
 3. Varje drönare du äger, med sin nivå och erfarenhet: dina [Slave Drone](/wiki/03-Mechanics/Drones.md) blir kvar, så dina drönarplatser förblir öppna och priset på din nästa drönare fortsätter från det antal du har. Lasrar och sköldar som sitter i en drönarplats följer regeln ovan: de blir kvar om de sitter på det aktiva skeppet.
 4. Varje drönarformation du äger ([Drönarformationer](/wiki/03-Mechanics/Formations.md)), var den än finns: i ditt inventarie, i ditt snabbfält eller på ett skepp. Som dina drönare blir de kvar utan att ta plats i Transportförrådet.
 
@@ -56,20 +56,23 @@ Följande föremål är alltid skyddade och följer med till nästa säsong auto
 För ytterligare föremål i ditt inventarie som du vill spara (t.ex. reservvapen, tillverkningsresurser eller extra sköldgeneratorer):
 * **Viktgräns**: Transportförrådet har en strikt kapacitetsgräns på **50 ton (50 000 kg)**.
 * **Lasta föremål**: Du kan manuellt dra och släppa föremål från ditt hangarinventarie till transportförrådets platser.
-* **Föremålsvikt**: Olika föremålsklasser har olika vikter:
-  * *Lasrar / vapen*: 10 kg
-  * *Sköldgeneratorer*: 20 kg
-  * *Motorer / framdrivning*: 30 kg
-  * *Generatorer*: 30 kg
-  * *Resurser / mineraler*: Varierande vikter beroende på sällsynthet (en Reinforced Plate från Skylabs Smedja väger 5 kg)
+* **Föremålsvikt**: Varje föremål har en fast vikt. En stapel väger den vikten gånger sitt antal, och ett föremål med inmonterade moduler (styrraketer i en motor, förstärkare i en laser, celler i en sköldkärna) följer med dem in i förrådet och deras vikt räknas också:
+  * *Lasrar, sköldkärnor, motorer, adaptiva kärnor*: 2 500 kg styck
+  * *Styrraketer, laserförstärkare, sköldceller*: 1 000 kg styck
+  * *Skrovpansar, boosters, extrautrustning, Energetic Walls*: 500 kg styck
+  * *EMP Charges*: 250 kg styck
+  * *Plattor* (de Velkonite Reinforced Plate och Orvium Reinforced Plate som Skylabs Smedja tillverkar, och Dark Matter Plate): 5 kg styck
+  * *Cluster Chunks*: 2 kg (Regular), 4 kg (Mythical) eller 8 kg (Legendary)
+  * *Övriga resurser och laserammunition* (malm, Ship Fragment, Power Core, Reinforced Hull Plate, Dark Matter och så vidare): 1 kg styck
   * *Raketer*: ingen vikt alls: de tar inget utrymme i förrådet, så hela staplar får plats (se [Raketer](/wiki/06-Items/Rockets.md))
+* **Exempel**: 20 lasrar väger 20 × 2 500 kg = 50 000 kg och fyller förrådet exakt; en 21:a laser nekas. En Engine III med sina tre inmonterade styrraketer väger 2 500 + 3 × 1 000 = 5 500 kg. Resurser är lätta: en stapel med 1 000 malm väger 1 000 kg, och 100 plattor väger 500 kg.
 
 Din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) påverkas aldrig av wipen: dess moduler behåller sina nivåer och Resurslagret behåller sin inlagrade malm. Forskningscentrumet behåller också allt som [Forskning](/wiki/03-Mechanics/Research.md) rymmer: dina teknologier, vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten. Det gör även de Extra Slots CPU som du har installerat, eftersom de inte är föremål. Det gör även dina [P.E.T.s](/wiki/03-Mechanics/Pets.md) (dockade eller förvarade), jobben som pågår i Vaggan, Kodexen, dina P.E.T. Station och ditt [utseende](/wiki/06-Items/Cosmetics.md): inte heller de är föremål. Det du redan har hämtat följer däremot inte med: plåtar i ditt inventarie är föremål som alla andra, så en plåt du vill behålla måste ligga i transportförrådet. Cluster Chunks är också föremål, och det är motorer och lasrar som sitter i Skylabs Motormodul eller Försvarsmodul också: ta ut dem ur modulen och lägg dem i förrådet för att behålla dem. En pågående expedition med Skylab räknas av fram till wipen, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål), och Skylab börjar den nya säsongen hemma med en ny universumkarta.
 
 ### Bekräfta och lås {#confirm-lock}
-Innan säsongen tar slut måste du klicka på **Bekräfta och lås** i gränssnittet Materialiserare.
-* Att låsa förrådet är ett säkerhetsprotokoll för att förbereda hoppspegeln.
-* **VARNING**: Varje föremål som inte är utrustat på ditt aktiva skepp, inte är en drönare eller inte ligger i ett låst transportförråd kommer att **förstöras permanent** under det svarta hålets utbrott.
+Innan säsongen tar slut kan du klicka på **Bekräfta och lås** i gränssnittet Materialiserare.
+* Att låsa fryser förrådet: ingenting kan läggas i eller tas ut förrän du låser upp det. Det är en säkring och inget krav: det som ligger i transportförrådet följer med till nästa säsong, låst eller inte.
+* **VARNING**: Varje föremål som inte är utrustat på ditt aktiva skepp, inte är en drönare eller en drönarformation eller inte ligger i transportförrådet (låst eller inte) kommer att **förstöras permanent** under det svarta hålets utbrott.
 
 ---
 
@@ -100,7 +103,7 @@ Så fungerar världarna:
 
 ## Framsteg över säsonger (permanenta buffar) {#cross-season-progression-permanent-buffs-}
 
-Wipen tar dina skepp och föremål (utom ditt aktiva skepp med allt som sitter på det, ditt transportförråd och dina drönare) och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin, utom de nivåuppdrag som uppdatering 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+Wipen tar dina föremål (utom det som sitter på ditt aktiva skepp, ditt transportförråd och dina drönare), låter dig behålla alla dina skepp och sätter dig tillbaka i din koncerns hemsektor; din nivå, dina krediter, ditt Thulium och dina rankingpoäng nollställs inte. Utöver det bidrar dina samlade pilotprestationer till permanent styrka. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**. Dina [uppdrag](/wiki/03-Mechanics/Quests.md) i sig, slutförda och pågående, följer med: var och en kan göras en gång per pilot, någonsin, utom de nivåuppdrag som uppdatering 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Klaner och grader.** Wipen upplöser varje klan, med dess Flottans kassa, inlägg, logg, avtal, poäng och bonusnivåer, så varje säsong är ett nytt lopp om att grunda en klan och fylla dess bonusar; krediterna som en klan redan betalat ut till dig finns kvar, och det gör din donationsgräns också ([Klaner](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Ledare och vice ledare: betala ut Flottans kassa innan nedräkningen tar slut. Dina PvE-rankingpoäng finns också kvar, så en wipe flyttar dig inte på din koncerns lista: din grad följer din plats där, inte säsongen ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 

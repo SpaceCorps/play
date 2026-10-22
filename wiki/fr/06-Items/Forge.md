@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e1b3247d9827e75 -->
+<!-- wiki-i18n source: a195d763558df440 -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -9,6 +9,8 @@ La **Forge** est le deuxième onglet de la page Assemblage (et de la fenêtre As
 Lasers, amplis laser, boucliers, cellules de bouclier, moteurs, propulseurs, cœurs adaptatifs, Repair Drones et [blindage de coque](/wiki/06-Items/Hull-Plating.md) : toute pièce d’équipement qui peut porter des [bonus d’enchantement](/wiki/06-Items/Overview.md). Elle peut se trouver dans votre inventaire, sur un vaisseau (elle y reste et fonctionne aussitôt avec son nouveau rang) ou installée dans un autre objet. Les drones, les vaisseaux, les munitions, les ressources et les boosters ne peuvent pas être forgés, pas plus que ce qui se trouve dans la cache de transport ou monté dans le Module Moteurs ou le Module Défense de votre Skylab : sortez-le d’abord.
 
 La liste d’équipement a un sélecteur **Tous / Équipés / En inventaire** à côté des autres filtres. **Équipés** montre ce qui est sur un vaisseau ou emboîté dans un autre objet, **En inventaire** ce qui traîne en vrac, et une ligne sous le titre dit combien de pièces le sélecteur masque. Pendant que vous choisissez le donneur d’une fusion, « Équipés » est suspendu, parce qu’un donneur doit être libre.
+
+Une liste déroulante **Vaisseau** à côté du filtre de type n’affiche que les pièces d’un de vos vaisseaux (une pièce emboîtée dans un autre objet compte pour le vaisseau de son hôte). Elle est suspendue sous « En inventaire » et pendant que vous choisissez le donneur d’une fusion. La fiche au survol, l’en-tête du panneau et la base de la fusion disent où se trouve une pièce : *Sur Kitefin, configuration 1* (un blindage de coque : les deux configurations) et ce dans quoi elle est emboîtée. **Ctrl+F** (Cmd+F sur Mac) place le curseur dans la zone de recherche de l’en-tête de l’Assemblage ; elle restreint la liste de l’onglet ouvert (recettes selon ce qu’elles fabriquent et demandent, équipement selon le nom, le type et le rang), et Échap l’efface. Sous *Emplacements de bonus*, le panneau dit quand une stat de la pièce est trop basse pour porter un bonus, ce qui explique qu’un Impulse Thruster porte un bonus et un Momentum Thruster deux.
 
 ## Monter de rang {#tier-up}
 

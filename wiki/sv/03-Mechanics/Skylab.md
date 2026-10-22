@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ Trofélagret förvarar det ditt Skylabs nedgjorda fiender ger tills du hämtar d
 
 - **Vad det rymmer**: krediter, Thulium, erfarenhet, heder och bytet från de nedgjorda.
 - **Kapaciteten** räknas i **prispengapoäng**: en nedgörning lägger till utomjordingens prispeng, krediter delat med 200 plus Thulium, vad den än tappar (Alphas siffror i varje värld). Det rymmer 650 poäng på nivå 1 och 45 000 på nivå 20.
-- **Fullt**: ett fullt lager får Skylab att **sluta skjuta**: inget skjuts ned, betalas eller räknas och ingen ammunition går åt förrän du hämtar (skrovet återhämtar sig ändå). Ett meddelande och tipset på sidofältets Skylab-rad säger det.
+- **Fullt**: ett fullt lager får Skylab att **sluta skjuta**: inget skjuts ned, betalas eller räknas och ingen ammunition går åt förrän du hämtar (skrovet återhämtar sig ändå). Ett meddelande, en kort pop-up, en bärnstensfärgad etikett **Lagret fullt** i stationens fält, en notis på Skylab-sidan och tipset på sidofältets Skylab-rad säger det.
 - **Hämta** i fönstret Universum, med skeppet landat: krediter och Thulium går till ditt konto, erfarenhet och heder till din pilot och bytet till ditt inventarie. Två hämtningar samtidigt betalar en gång.
 - **Bytet** lottas för varje nedgörning ur det utomjordingen tappar, aldrig Dark Matter, Ancient Control Units, N.I.K.E. eller N.U.K.E. Det är **inte säljbart**: det kan inte säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energi**: 20 på nivå 1, och det ökar med 10 % per nivå. Det går att stänga av, men inte medan Skylab är på väg.
@@ -442,7 +442,7 @@ Klicka på en känd cell på kartan: cellens panel visar resans **förhandsvisni
 - **Klockan** är serverns: ankomsten är bestämd när Skylab startar, och en resa fortsätter medan du är utloggad. En ny order som ges på vägen gäller från nästa cell: hoppet som pågår flygs färdigt.
 - **Vad som stoppar en order**: ingen Motormodul, eller en som är avstängd eller under uppgradering; ingen motor monterad; för lite energi; ett förstört Skylab; cellen det redan är i; en cell du inte känner till; en cell som är för svår för din Försvarsmodul; ingen känd rutt.
 - **På väg** går de fyra expeditionsmodulerna inte att slå på eller av, Motormodulen går inte att uppgradera och ingenting går att montera eller ta ut. På vägen möter det utomjordingarna i cellerna det passerar i halva den takt det skulle ha om det stannade där.
-- **Meddelanden**: ett meddelande säger till när Skylab kommer fram, när det förstörs eller repareras och när lagret är fullt, och de tre första får dessutom ett eget lågmält ljud.
+- **Meddelanden**: ett meddelande säger till när Skylab kommer fram, när det förstörs eller repareras och när lagret är fullt, och alla fyra får dessutom ett eget lågmält ljud.
 
 Vad förhandsvisningen säger, i radernas ordning (varje siffra är serverns, för den utrustning ditt Skylab har nu):
 

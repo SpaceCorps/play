@@ -736,7 +736,7 @@
 
 - **初始**：新飞行员的账号里有 10,000 信用点。
 - **外星人**：每次击杀都会给（见上表）。
-- **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付，每 24 小时有一个上限（见那一页）。
+- **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付。
 - **[任务](/wiki/03-Mechanics/Quests.md)**：Alpha 的 88 个任务共给 6,664,500 信用点，从 1 级的 86,000 到 8 级的 2,720,000。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：信用点农场 会在你离线时生产信用点，存入可容纳 72 小时产量的料斗。
 
@@ -770,7 +770,7 @@
 
 - **初始**：新飞行员的账号里有 100 Thulium。
 - **外星人**：每次击杀都会给（见上表）。
-- **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付，每 24 小时有一个上限（见那一页）。
+- **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**：被击碎的小行星的碎块会支付。
 - **[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)**：从赛季第 11 天起，满箱燃料的一次运转在 Alpha 产出 9,643 个（Beta 和 Gamma 更多），装在任何人都可以拾取的货箱里；开采什么在控制面板上选择。
 - **[任务](/wiki/03-Mechanics/Quests.md)**：Alpha 的 88 个任务共给 51,010 Thulium，从 1 级的 170 到 8 级的 21,760。
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**：Thulium 农场 会在你离线时生产信用点，存入可容纳 72 小时产量的料斗。

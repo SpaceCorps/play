@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: de09111940e08811 -->
+<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
 <!-- wiki-i18n title: Asteroit madenciliği -->
 # Asteroit madenciliği {#asteroid-mining}
 
 **Asteroitler**, şirket sektörlerinin ve Tehlike Sektörleri’nin uçuş düzleminde duran büyük kayalardır. Asla hareket etmezler, asla ateş etmezler. Birini **roketlerle** ya da **lazerlerle** kırdığında kredi, Thulium ve cevherden oluşan küçük **parçalara** ayrılır; bu parçaları [kargo](/wiki/03-Mechanics/Cargo.md) gibi toplarsın. İş için doğru araç roketlerdir: lazerlerin de asteroite zarar verir, ama bir gemiye verdiklerinin yalnızca %5’i kadar; dronlar ise ona hiçbir şey yapmaz. Asteroitleri senin yerine kıran bir şey daha var: yanaştırılmış bir **Mole** P.E.T. ([aşağıda](#the-mole-pet)).
 
-Madencilik avcılığın yerini tutmaz, ondan farklı bir iştir: XP, onur ya da sıralama puanı kazandırmaz ve fırlattığın roketlerin bedeli kredi ya da Thulium olarak ödenir. Sana verdiği şey kredi ve Thulium, [Demirhane](/wiki/06-Items/Forge.md) için ve savaşmadan üretim için cevher, bir de bir [grubun](/wiki/03-Mechanics/Groups.md) paylaşabileceği bir iştir. İyi öder: oyunun kendi modeline göre, doğru asteroitlerde doğru roketle geçirilen bir saat, roketlerin parası çıktıktan sonra, seviyendeki en iyi avcılık saatinin yaklaşık 2,6 ila 6,8 katını kazandırır. [Dünyalar](#the-worlds) bölümündeki günlük sınırlar bunu kısıtlar ve o sınırlara çabuk ulaşırsın: Alpha’da iyi bir sektörde istikrarlı çalışan bir madenci Thulium sınırına 2 saatten kısa sürede, kredi sınırına yaklaşık 2,7 saatte ulaşır.
+Madencilik avcılığın yerini tutmaz, ondan farklı bir iştir: XP, onur ya da sıralama puanı kazandırmaz ve fırlattığın roketlerin bedeli kredi ya da Thulium olarak ödenir. Sana verdiği şey kredi ve Thulium, [Demirhane](/wiki/06-Items/Forge.md) için ve savaşmadan üretim için cevher, bir de bir [grubun](/wiki/03-Mechanics/Groups.md) paylaşabileceği bir iştir. İyi öder: oyunun kendi modeline göre, doğru asteroitlerde doğru roketle geçirilen bir saat, roketlerin parası çıktıktan sonra, seviyendeki en iyi avcılık saatinin yaklaşık 2,6 ila 6,8 katını kazandırır. Bunun günlük bir sınırı yoktur: topladığın her parça tam öder, bu yüzden gününü sınırlayan şey sektörün barındırdığı asteroitler ve bunların ne kadar çabuk yeniden büyüdüğüdür.
 
 ![An asteroid of tier 5 selected: the Target window gives its tier, its hull, what it breaks into and the Cluster Chunks (P.E.T. parts) it can leave](../../img/wiki-img/shots/rock-target.jpg)
 
@@ -56,8 +56,8 @@ Bir asteroit ortak bir iştir: kaç pilot olursa olsun ona roketle, lazerle ya d
 Yanaştırılmış bir **Mole** ([P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) türü) sen uçarken senin için çalışır: geminin yaklaşık beş buçuk gemi boyu yakınındaki en yakın asteroite 3 saniyede bir darbe vurur, o kırılana kadar, sonra bir sonrakine geçer. Darbeleri asteroitin hasarına senin adına işlenir; bu yüzden bir kırılma sana, onu roketle kırmışsın gibi ödeme yapar: parçalar, buluntular, bir Cluster Chunk şansı ve Asteroitler görevin.
 
 - **Ne kadarını kırar.** En üstteki bir Mole (20. seviye bir Efsanevi), en iyi roketi (Rivet III) onlara atan bir pilotun saatte kırdığı kadar asteroiti en azından kırar; daha düşük derece ve seviyeler daha azını kırar ([tablo](/wiki/03-Mechanics/Pets.md#how-strong)). Ne cephane ne de roket harcar. Lazerlerin, roketlerin, amfilerin, boosterların, formasyonun ve P.E.T. hasar güçlendirmen bir darbeyi değiştirmez; zırh bir darbeyi, bir roketi yavaşlattığı gibi yavaşlatır.
-- **Hangi asteroitler.** Menzildeki, senden ve grubundan başka kimsenin vurmadığı ve önünde başka bir asteroit ya da Energetic Wall bulunmayan en yakın asteroit. Motherlode üzerinde asla çalışmaz; ayrıca güvenli bölgede, gizlenmişken, sıçrarken ve gemin yok edilmişken çalışmaz.
-- **Kendi sınırı yok.** Bir Mole, uçtuğun her saat, tuşlara dokunsan da dokunmasan da çalışır (boşta duran gemi bir hedeftir) ve hiçbir günlük sınır onu durdurmaz. Kalan, herkesi durduran şeydir: [Dünyalar](#the-worlds) bölümündeki Thulium ve kredi sınırları; hiç durmayan en üst düzey bir Mole bunlara yaklaşık 2 ila 6 saatlik çalışmada ulaşır. Bundan sonra onun parçaları yalnızca sınırların altında kalan miktarı öder.
+- **Hangi asteroitler.** Menzildeki, önünde başka bir asteroit ya da Energetic Wall bulunmayan en yakın asteroit. Bir roketin zarar verebileceği her asteroit olur: Motherlode da, enkazlar da (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser), başka pilotların vurduğu asteroit de; chunk’lar bu durumda her zamanki gibi verilen zarara göre gider. Arka planda süzülen gördüğün enkazlar yalnızca dekordur, asteroit değildir. Güvenli bölgede, gizlenmişken, sıçrarken ve gemin yok edilmişken çalışmaz.
+- **Kendi sınırı yok.** Bir Mole, uçtuğun her saat, tuşlara dokunsan da dokunmasan da çalışır (boşta duran gemi bir hedeftir) ve hiçbir günlük sınır onu durdurmaz, ne kendine ait ne de dünyanın. Kalan, herkesi sınırlayan şeydir: erişim menzilindeki asteroitler ve bunların ne kadar çabuk yeniden büyüdüğü. Parçaları senin parçaların gibi tam öder.
 - **Yalnızca biri çalışır.** P.E.T. Station içindeki Mole P.E.T.’lerden yalnızca en güçlüsü çalışır; diğerleri yalnızca bonus verir.
 
 ## Kurallar {#the-rules}
@@ -69,7 +69,7 @@ Yanaştırılmış bir **Mole** ([P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) t
 - Bir [grup](/wiki/03-Mechanics/Groups.md#sharing-kills) tek pilot sayılır ve payı, yakında olan ve ateş eden grup arkadaşları arasında seviyeye göre bölüşülür.
 - Bir kırılmanın parçaları, 30 sn boyunca kendileri için bırakıldığı pilota ve o pilotun klanına ayrılır. Sonrasında haritadaki herkes alabilir. Kimsenin almadığı bir parça 3 dk sonra yok olur.
 - Bir harita en fazla 36 parça tutar; bu, haritanın tutabildiği 64 sandığın içindedir: parçalar uzaylıların sandıklarını asla dışarı itmez, onlar da bir parçayı asla dışarı itmez. Haritada bir parça için yer kalmadığında, parçanın ait olduğu pilota hemen ödeme yapılır.
-- Kredi ve Thulium, asteroit kırıldığında değil, bir parça toplandığında ödenir. Herhangi bir 24 sa içinde bir pilota en fazla [Dünyalar](#the-worlds) bölümündeki sınırlar kadar ödeme yapılır: sınırı aşan bir parça harcanır ve yalnızca sınırın altında kalanı öder; Oyun Günlüğü bunu bildirir.
+- Kredi ve Thulium, asteroit kırıldığında değil, bir parça toplandığında ödenir. Ödenebilecek miktarın günlük bir sınırı yoktur: her parça, bir günde kaç tane toplarsan topla, kredi ve Thulium’unu tam öder.
 - Ödeme herkes için aynıdır: hiçbir Premium bonusu, Sezon Mağazası güçlendirmesi, klan güçlendirmesi, Loot Luck ya da booster krediyi, Thulium miktarını ya da buluntuları değiştirmez. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ise bir cevher parçasını topladığında, her sandıkta olduğu gibi, kaynaklarına ekleme yapar.
 - Zırh her vuruştan puan düşürür, ancak bir vuruşun en az %20 kadarı her zaman geçer.
 - Alan patlaması, kırılgan asteroitlerde diğerlerine göre 1,6 kat daha fazla hasar verir.
@@ -86,13 +86,13 @@ Alpha, Beta ve Gamma dünyalarının her birinin aynı yerlerde kendi asteroitle
 <!-- asteroids-worlds:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
 
-| Dünya | Gövde | Kazanç | Thulium sınırı | Kredi sınırı |
-| :--- | ---: | ---: | ---: | ---: |
-| **Alpha** | ×1 | ×1 | 3.000 | 13.000.000 |
-| **Beta** | ×1,5 | ×2 | 4.500 | 18.000.000 |
-| **Gamma** | ×2 | ×3 | 6.000 | 21.000.000 |
+| Dünya | Gövde | Kazanç |
+| :--- | ---: | ---: |
+| **Alpha** | ×1 | ×1 |
+| **Beta** | ×1,5 | ×2 |
+| **Gamma** | ×2 | ×3 |
 
-Aşağıdaki tablolar Alpha dünyasındaki asteroitlerin rakamlarını verir. **Gövde**, dünyanın asteroit gövdelerine uyguladığı çarpandır; **Kazanç** ise bir kırılmanın kredi ve Thulium miktarına uyguladığı çarpandır; cevher ve nadir buluntular her dünyada aynıdır. İki sınır, bir pilota herhangi bir 24 sa içinde parçalar yoluyla ödenebilecek en yüksek tutarlardır.
+Aşağıdaki tablolar Alpha dünyasındaki asteroitlerin rakamlarını verir. **Gövde**, dünyanın asteroit gövdelerine uyguladığı çarpandır; **Kazanç** ise bir kırılmanın kredi ve Thulium miktarına uyguladığı çarpandır; cevher ve nadir buluntular her dünyada aynıdır. Parçalar tam öder: günlük bir sınır yoktur.
 
 <!-- asteroids-worlds:end -->
 
@@ -208,7 +208,7 @@ En çok ödeyenler: her biri, halkasındaki ortalama asteroitten daha fazla kred
 
 | Tür | Gövde | Boyut | Kademe | Özel | Nakit parçalar | Uygun roket | Kredi | Thulium | Buluntular | Bulunduğu yer |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66.000 | Orta | 3 | Patlama ×1,6 | 2 | Yaklaşık 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 18–42 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (%4), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (%1,5) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66.000 | Orta | 3 | Patlama ×1,6 | 2 | Yaklaşık 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42.450–70.800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (%4), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (%1,5) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100.000 | Büyük | 4 | – | 2 | Yaklaşık 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62.100–103.500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (%90); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (%6), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (%3) | `T-4`, `G-4` |
 | **Vault Rock** | 130.000 | Büyük | 4 | – | 3 | Yaklaşık 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101.400–169.050 | %50 şansla 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (%90); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (%6), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (%3) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150.000 | Büyük | 5 | Patlama ×1,6 | 3 | Yaklaşık 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109.650–182.700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (%8), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (%5) | `DS-1`, `DS-2`, `DS-3` |
@@ -240,7 +240,7 @@ Bir asteroit bir öldürme değildir. Birini kırmak XP, onur, öldürme sayıs�
 - **Türün ayarlandığı roketle başla.** Daha zayıf bir roket asteroiti yine kırar, ama daha çok roket ve sayacın daha çoğunu harcar. Daha güçlüsü daha hızlıdır, ama kalan gövdenin ötesinde vurduğu hasar boşa gider ve bir roket neye vurursa vursun aynı bedele mal olur.
 - **Kristal için patlama, demir için güç getir.** Kırılgan bir asteroit için doğru roket, Scatter ya da Ember ailesinden olandır; zırhlı bir asteroit ise, zırh her vuruştan puanını düşürdüğü için, gövdesinin düşündürdüğünden daha güçlü bir roket ister.
 - **Roketlerin arasında lazerlerini çalıştır.** Saniyede bir ateş ederler ve roket değil cephane harcarlar, ama bir salvo bir gemiye yaptığının yalnızca %5’ini yapar: roketlere ek olurlar, onların yerini tutmazlar.
-- **Günlük sınırı gözet.** Bir günde dünyanın sınırı kadar parça topladıktan sonra parçalar artık ödemez ve madencilik o kadar iyi öder ki sınıra birkaç saat içinde ulaşırsın; sınır Dünyalar bölümünde.
-- **Büyükleri birlikte kır.** Motherlode bir grup için bir kayadır: grup tek pilot sayılır ve payı, yakında olan ve ateş eden grup arkadaşları arasında seviyeye göre bölünür.
+- **Arza dikkat et.** Parçaların günlük sınırı yoktur, ama bir sektör yalnızca belli sayıda asteroit barındırır ve her biri ancak bir süre sonra yeniden büyür; kalabalık bir sektörde her pilota daha az düşer, bu yüzden daha sakin bir sektöre geç.
+- **Büyükleri birlikte kır.** Motherlode bir grup için bir kayadır: grup tek pilot sayılır ve payı, yakında olan ve ateş eden grup arkadaşları arasında seviyeye göre bölünür. Bir Mole de onu işler, onunla uçan pilot için.
 - **Sektörü gözle.** Asteroitler karşılık vermez, ama çevrelerindeki sektörlerde yine uzaylılar, Tehlike Sektörleri’nde ise başka pilotlar vardır.
 - **Onlardan yararlan ve dikkat et.** Seninle bir rakip ya da uzaylı arasındaki bir asteroit, lazerlerini ve onunkileri birbirinden uzak tutar. Kazdığın asteroitin üzerinden sana ateş eden bir rakip ona zarar verir ve diğer her pilot gibi verdiği hasara göre ödeme alır.

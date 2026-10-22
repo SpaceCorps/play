@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ La Bahía de trofeos guarda lo que traen las bajas de tu Skylab hasta que lo rec
 
 - **Qué guarda**: créditos, Thulium, experiencia, honor y el botín de las bajas.
 - **La capacidad** se cuenta en **puntos de recompensa**: una baja suma la recompensa de su alienígena, créditos divididos entre 200 más Thulium, sea lo que sea lo que suelte (las cifras de Alpha en todos los mundos). Guarda 650 puntos en el nivel 1 y 45.000 en el nivel 20.
-- **Llena**: una bahía llena hace que el Skylab **deje de disparar**: no se mata, ni se paga, ni se cuenta nada y no se gasta munición hasta que recojas (el casco sigue recuperándose). Un mensaje y el aviso de la fila del Skylab en la barra lateral te lo dicen.
+- **Llena**: una bahía llena hace que el Skylab **deje de disparar**: no se mata, ni se paga, ni se cuenta nada y no se gasta munición hasta que recojas (el casco sigue recuperándose). Un mensaje, un aviso emergente, una etiqueta ámbar **Bahía llena** en la barra de la estación, un aviso en la página del Skylab y el aviso de la fila del Skylab en la barra lateral te lo dicen.
 - **Recoger** en la ventana Universo, con la nave aterrizada: los créditos y el Thulium van a tu cuenta, la experiencia y el honor a tu piloto y el botín a tu inventario. Dos recogidas a la vez pagan una sola vez.
 - **El botín** se tira para cada baja a partir de lo que suelta el alienígena, nunca Dark Matter, Ancient Control Units, N.I.K.E. ni N.U.K.E. **No es comercializable**: no se puede vender en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energía**: 20 en el nivel 1, con un aumento del 10 % por nivel. Se puede apagar, pero no mientras el Skylab está de viaje.
@@ -442,7 +442,7 @@ Haz clic en una celda conocida del mapa: el panel de la celda muestra la **vista
 - **El reloj** es el del servidor: la llegada queda fijada cuando el Skylab sale, y un viaje continúa mientras no estás conectado. Una orden nueva dada por el camino surte efecto en la siguiente celda: el salto en curso se termina.
 - **Qué detiene una orden**: ningún Módulo de motores, o uno apagado o en mejora; ningún motor montado; energía insuficiente; un Skylab destruido; la celda en la que ya está; una celda que no conoces; una celda demasiado difícil para tu Módulo de defensa; ninguna ruta conocida.
 - **De viaje**, los cuatro módulos de la Expedición no se pueden apagar ni encender, el Módulo de motores no se puede mejorar y no se puede montar ni sacar nada. Por el camino se encuentra con los alienígenas de las celdas que atraviesa a la mitad del ritmo que tendría si se quedara allí.
-- **Avisos**: un mensaje te dice cuándo llega el Skylab, cuándo lo destruyen o lo reparan y cuándo se llena su bahía, y los tres primeros llevan además un sonido discreto propio.
+- **Avisos**: un mensaje te dice cuándo llega el Skylab, cuándo lo destruyen o lo reparan y cuándo se llena su bahía, y los cuatro llevan además un sonido discreto propio.
 
 Lo que dice la vista previa, en el orden de sus filas (cada cifra es la del servidor, para el equipo que tiene ahora tu Skylab):
 

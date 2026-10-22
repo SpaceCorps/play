@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ Trofe Bölmesi, Skylab’ının öldürmelerinin getirdiklerini sen toplayana ka
 
 - **Ne tutar**: kredi, Thulium, deneyim, onur ve öldürmelerin ganimeti.
 - **Kapasite**, **ödül puanı** cinsinden sayılır: bir öldürme uzaylısının ödülünü ekler; kredi bölü 200 artı Thulium, ne düşürdüğüne bakılmaksızın (her dünyada Alpha Dünyası’nın rakamları). 1. seviyede 650, 20. seviyede 45.000 puan tutar.
-- **Dolu**: dolu bir Bölme Skylab’ın **ateşi kesmesine** yol açar: sen toplayana kadar hiçbir şey öldürülmez, ödenmez ya da sayılmaz ve hiç cephane harcanmaz (gövde yine de onarılır). Bir mesaj ve kenar çubuğundaki Skylab satırının ipucu bunu söyler.
+- **Dolu**: dolu bir Bölme Skylab’ın **ateşi kesmesine** yol açar: sen toplayana kadar hiçbir şey öldürülmez, ödenmez ya da sayılmaz ve hiç cephane harcanmaz (gövde yine de onarılır). Bir mesaj, bir bildirim, istasyon çubuğunda kehribar renkli **Bölme dolu** rozeti, Skylab sayfasında bir uyarı ve kenar çubuğundaki Skylab satırının ipucu bunu söyler.
 - **Topla** Evren penceresinde, geminin park halindeyken yapılır: kredi ve Thulium hesabına, deneyim ve onur pilotuna, ganimet envanterine gider. Aynı anda iki toplama bir kez öder.
 - **Ganimet** her öldürme için uzaylının düşürdüklerinden çekilir; asla Dark Matter, Ancient Control Unit, N.I.K.E. veya N.U.K.E. çıkmaz. **Satılabilir değil**: [pazarda](/wiki/03-Mechanics/Auction.md#marketable-items) satılamaz.
 - **Güç**: 1. seviyede 20, seviye başına %10 artar. Kapatılabilir, ama Skylab yoldayken değil.
@@ -442,7 +442,7 @@ Haritada bilinen bir hücreye tıkla: hücrenin paneli, sunucunun Skylab’ını
 - **Saat** sunucununkidir: varış, Skylab yola çıkarken sabitlenir ve sefer sen çıkış yapmışken de sürer. Yolda verilen yeni bir emir bir sonraki hücrede geçerli olur: içinde bulunduğu sıçrama tamamlanır.
 - **Bir emri ne engeller**: Motor Modülü’nün olmaması ya da kapalı veya yükseltiliyor olması; takılı motor olmaması; yetersiz güç; yok edilmiş bir Skylab; zaten içinde bulunduğu hücre; bilmediğin bir hücre; Savunma Modülü için fazla zor bir hücre; bilinen bir rota olmaması.
 - **Yoldayken** Sefer’in dört modülü açılıp kapatılamaz, Motor Modülü yükseltilemez ve hiçbir şey takılamaz veya çıkarılamaz. Yolda, geçtiği hücrelerin uzaylılarıyla, orada kalsa karşılaşacağı oranın yarısında karşılaşır.
-- **Haber verilir**: Skylab vardığında, yok edildiğinde veya onarıldığında ve Bölmesi dolduğunda bir mesaj seni bilgilendirir; ilk üçüne kendi hafif sesleri de eşlik eder.
+- **Haber verilir**: Skylab vardığında, yok edildiğinde veya onarıldığında ve Bölmesi dolduğunda bir mesaj seni bilgilendirir; dördüne de kendi hafif sesleri eşlik eder.
 
 Önizlemenin söylediği, satırlarının sırasıyla (her rakam sunucunundur ve Skylab’ının şu anki donanımı içindir):
 

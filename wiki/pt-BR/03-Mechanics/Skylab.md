@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2cd682ac21559e5f -->
+<!-- wiki-i18n source: fca6f67d57774324 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -332,7 +332,7 @@ A Baía de troféus guarda o que os abates do seu Skylab rendem até você colet
 
 - **O que guarda**: créditos, Thulium, experiência, honra e o espólio dos abates.
 - **A capacidade** é contada em **pontos de recompensa**: um abate soma a recompensa do alienígena, créditos divididos por 200 mais Thulium, seja o que for que ele solte (os valores de Alpha em todos os mundos). Ela guarda 650 pontos no nível 1 e 45.000 no nível 20.
-- **Cheia**: uma baía cheia faz o Skylab **parar de atirar**: nada é abatido, pago nem contado e nenhuma munição é gasta até você coletar (o casco continua se regenerando). Uma mensagem e a dica da linha do Skylab na barra lateral avisam.
+- **Cheia**: uma baía cheia faz o Skylab **parar de atirar**: nada é abatido, pago nem contado e nenhuma munição é gasta até você coletar (o casco continua se regenerando). Uma mensagem, um aviso rápido, uma etiqueta âmbar **Baía cheia** na barra da estação, um aviso na página do Skylab e a dica da linha do Skylab na barra lateral avisam.
 - **Coletar** na janela Universo, com a nave pousada: créditos e Thulium vão para a sua conta, experiência e honra para o seu piloto e o espólio para o seu inventário. Duas coletas ao mesmo tempo pagam uma vez só.
 - **O espólio** é sorteado a cada abate a partir do que o alienígena solta, nunca Dark Matter, Ancient Control Units, N.I.K.E.s ou N.U.K.E.s. Ele é **não vendável**: não pode ser vendido no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energia**: 20 no nível 1, crescendo 10% por nível. Pode ser desligada, mas não enquanto o Skylab está em viagem.
@@ -442,7 +442,7 @@ Clique em uma célula conhecida do mapa: o painel da célula mostra a **prévia*
 - **O relógio** é o do servidor: a chegada é fixada quando o Skylab sai, e uma viagem continua enquanto você está desconectado. Uma ordem nova dada no caminho vale a partir da célula seguinte: o salto em curso é terminado.
 - **O que barra uma ordem**: nenhum Módulo de motores, ou um desligado ou em melhoria; nenhum motor montado; energia insuficiente; um Skylab destruído; a célula em que ele já está; uma célula que você não conhece; uma célula difícil demais para o seu Módulo de defesa; nenhuma rota conhecida.
 - **Em viagem**, os quatro módulos da Expedição não podem ser ligados nem desligados, o Módulo de motores não pode ser melhorado e nada pode ser montado ou retirado. No caminho ele encontra os alienígenas das células por onde passa na metade do ritmo que teria se ficasse lá.
-- **Avisos**: uma mensagem diz quando o Skylab chega, quando é destruído ou reparado e quando a baía dele enche, e as três primeiras vêm com um som discreto só delas.
+- **Avisos**: uma mensagem diz quando o Skylab chega, quando é destruído ou reparado e quando a baía dele enche, e as quatro vêm com um som discreto só delas.
 
 O que a prévia diz, na ordem das linhas (cada número é o do servidor, para o equipamento que o seu Skylab tem agora):
 

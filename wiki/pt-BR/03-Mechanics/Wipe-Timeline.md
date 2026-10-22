@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 46a7b4bbd0a8b14e -->
+<!-- wiki-i18n source: bab93f70a18bdb94 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -18,7 +18,7 @@ Cada temporada vai do dia 1 ao dia 30 (o Reset começa com a contagem regressiva
 | **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo) e os três [enxames](/wiki/05-Swarms/Swarms.md) começam a aparecer: eles ficam até o reset, ao longo das fases seguintes. A fase em si ainda não dá recompensas especiais. |
 | **Onda Tecnológica** | Dias 11–18 | Evento 2 | Os [setores de perigo](/wiki/01-General/Danger-Sectors.md) mudam: uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) ao lado de cada pulsar em `DS-1` a `DS-3`, o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) em `DS-4`, Slumbering Voids, e um Enxame Dormant que volta mais cedo e paga o dobro. Tudo fica até o reset. A fase não dá recompensas próprias. |
 | **Jogos de Guerra** | Dias 19–25 | Evento 3 | Ainda sem efeitos especiais: o PvP funciona como em todas as fases depois do Protocolo de Paz. |
-| **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar e bloquear a carga que vão levar consigo antes da erupção. |
+| **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar a carga que vão levar consigo antes da erupção. |
 | **O Reset** | Dia 30 | Erupção do Buraco Negro | O universo é destruído e renasce, e todos os [clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) são dissolvidos. Os pilotos passam para o mundo que escolheram como destino para a próxima temporada. |
 
 Além do próprio reset, só quatro coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, a partir do dia 11 os [setores de perigo](/wiki/01-General/Danger-Sectors.md) ganham suas escavadeiras gigantes (ao lado dos pulsares, que brilham desde o dia 1) e o Dormant Swamp, que ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo. O evento 2 muda os setores de perigo como descrito acima; nenhum dos outros dá ainda recompensas, aparições ou bônus especiais próprios.
@@ -46,9 +46,9 @@ Você obtém peças usando a interface do Materializador de Energia, que gira se
 Quando as 100 peças são coletadas e o Chrono-Gate está totalmente estabilizado, o portal abre o acesso ao seu **Cache de Transporte** pessoal (também conhecido como carrinho de transferência ou cápsula de viagem). Essa dimensão de bolso protege os seus pertences de serem apagados durante o reset. Os itens que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) voltam para você no reset como itens soltos, que o reset apaga como o resto se você não os puser no Cache; os lances que você mantém em lotes são devolvidos.
 
 ### Transferência automática (grátis) {#automatic-carry-over-free-}
-Os itens a seguir são sempre protegidos e passam para a próxima temporada automaticamente, sem consumir **nenhuma** capacidade do seu Cache de Transporte:
-1. A sua nave ativa no momento.
-2. Todos os itens equipados nessa nave ativa, tanto na **Configuração 1** quanto na **Configuração 2** (incluindo lasers, escudos, motores e geradores).
+O que segue é sempre protegido e passa para a próxima temporada automaticamente, sem consumir **nenhuma** capacidade do seu Cache de Transporte:
+1. Todas as naves que você tem, reparadas e ainda com a pintura. O hangar é seu para sempre; só a sua nave ativa mantém o que está equipado nela (o próximo ponto), e o equipamento das outras naves se perde como qualquer item solto, a menos que você o coloque no Cache.
+2. Todos os itens equipados na sua nave ativa, tanto na **Configuração 1** quanto na **Configuração 2** (incluindo lasers, escudos, motores e geradores).
 3. Todos os drones que você possui, com o nível e a experiência: os seus [Slave Drones](/wiki/03-Mechanics/Drones.md) ficam, então os seus slots de drone continuam abertos e o preço do seu próximo drone continua a partir do número que você tem. Os lasers e escudos encaixados em um slot de drone seguem a regra acima: ficam se estiverem na nave ativa.
 4. Todas as formações de drones que você possui ([Formações de drones](/wiki/03-Mechanics/Formations.md)), onde quer que estejam: no inventário, na sua barra de atalhos ou em uma nave. Como os seus drones, elas ficam sem ocupar capacidade do Cache de Transporte.
 
@@ -56,20 +56,23 @@ Os itens a seguir são sempre protegidos e passam para a próxima temporada auto
 Para itens adicionais do seu inventário que você quer salvar (por exemplo, armamento reserva, recursos de criação ou geradores de escudo extras):
 * **Limite de peso**: o Cache de Transporte tem um limite rígido de capacidade de **50 toneladas (50.000 kg)**.
 * **Carregar itens**: você pode arrastar e soltar manualmente itens do inventário do hangar nos slots do Cache de Transporte.
-* **Peso dos itens**: diferentes classes de itens têm pesos distintos:
-  * *Lasers / armamento*: 10 kg
-  * *Geradores de escudo*: 20 kg
-  * *Motores / propulsão*: 30 kg
-  * *Geradores*: 30 kg
-  * *Recursos / minerais*: pesos variados conforme a raridade (uma Reinforced Plate da Forja do Skylab pesa 5 kg)
+* **Peso dos itens**: cada item tem um peso fixo. Uma pilha pesa esse peso vezes a quantidade, e um item com módulos encaixados (propulsores em um motor, amps em um laser, células em um núcleo de escudo) entra junto com eles e o peso deles conta também:
+  * *Lasers, núcleos de escudo, motores, núcleos adaptativos*: 2.500 kg cada
+  * *Propulsores, amplificadores de laser, células de escudo*: 1.000 kg cada
+  * *Blindagem de casco, Boosters, Extras, Energetic Walls*: 500 kg cada
+  * *EMP Charges*: 250 kg cada
+  * *Placas* (as Velkonite Reinforced Plates e Orvium Reinforced Plates que a Forja do Skylab produz, e as Dark Matter Plates): 5 kg cada
+  * *Cluster Chunks*: 2 kg (Regular), 4 kg (Mythical) ou 8 kg (Legendary)
+  * *Demais recursos e munição de laser* (minério, Ship Fragments, Power Cores, Reinforced Hull Plates, Dark Matter e assim por diante): 1 kg cada
   * *Foguetes*: não pesam nada: não ocupam espaço no cache, então pilhas inteiras entram (veja [Foguetes](/wiki/06-Items/Rockets.md))
+* **Exemplo**: 20 lasers pesam 20 × 2.500 kg = 50.000 kg e enchem o cache exatamente; um 21º laser é recusado. Um Engine III com seus três propulsores encaixados pesa 2.500 + 3 × 1.000 = 5.500 kg. Recursos são leves: uma pilha de 1.000 minérios pesa 1.000 kg, e 100 placas pesam 500 kg.
 
 O seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) nunca sofre reset: os módulos mantêm os níveis e o Depósito de recursos mantém o minério guardado. O Centro de Pesquisa também mantém tudo o que [Pesquisa](/wiki/03-Mechanics/Research.md) guarda: suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost. O mesmo vale para as Extra Slots CPUs que você instalou, que não são itens. O mesmo vale para os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) (acoplados ou guardados), para os trabalhos em andamento no Berço, para o Códice, para as suas P.E.T. Station e para o seu [visual](/wiki/06-Items/Cosmetics.md): também não são itens. O que você já coletou, não: as placas no seu inventário são itens como quaisquer outros, então uma placa que você quer manter precisa estar no Cache de Transporte. Os Cluster Chunks também são itens, e o mesmo vale para um motor ou um laser montado no Módulo de motores ou no Módulo de defesa do Skylab: retire-o do módulo e ponha-o no cache para guardá-lo. Uma expedição do Skylab em andamento é acertada até o reset, a Baía de troféus paga seus créditos, seu Thulium, sua experiência e sua honra e é esvaziada (o espólio é apagado como qualquer item solto), e o Skylab começa a nova temporada em casa, com um novo mapa do universo.
 
 ### Confirmar e bloquear {#confirm-lock}
-Antes de a temporada acabar, você precisa clicar em **Confirmar e bloquear** na interface do Materializador.
-* Bloquear o cache é um protocolo de segurança para preparar o espelho de salto.
-* **AVISO**: qualquer item que não esteja equipado na sua nave ativa, não seja um drone ou não esteja guardado em um Cache de Transporte bloqueado será **destruído permanentemente** durante a Erupção do Buraco Negro.
+Antes de a temporada acabar, você pode clicar em **Confirmar e bloquear** na interface do Materializador.
+* Bloquear congela o cache: nada pode ser adicionado nem retirado até você desbloquear. É uma trava de segurança e não uma condição: o que está no Cache de Transporte passa para a próxima temporada, bloqueado ou não.
+* **AVISO**: qualquer item que não esteja equipado na sua nave ativa, não seja um drone nem uma formação de drones ou não esteja guardado no Cache de Transporte (bloqueado ou não) será **destruído permanentemente** durante a Erupção do Buraco Negro.
 
 ---
 
@@ -100,7 +103,7 @@ Como os mundos funcionam:
 
 ## Progressão entre temporadas (bônus permanentes) {#cross-season-progression-permanent-buffs-}
 
-O Reset leva as suas naves e itens (exceto a sua nave ativa com tudo o que está equipado nela, o seu Cache de Transporte e os seus drones) e coloca você de volta no setor de origem da sua corporação; o seu nível, os créditos, o Thulium e os pontos de ranking não voltam a zero. Além disso, as suas conquistas gerais como piloto contribuem para um poder permanente. Destruir alienígenas e concluir missões concede **pontos de reset (PR)**. As suas [missões](/wiki/03-Mechanics/Quests.md) em si, concluídas e em andamento, passam para a próxima temporada: cada uma pode ser feita uma vez por piloto, para sempre, exceto as missões de nível que a atualização 0.4.10 refez: 64 delas são oferecidas mais uma vez ([Missões](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+O Reset leva os seus itens (exceto o que está equipado na sua nave ativa, o seu Cache de Transporte e os seus drones), deixa todas as suas naves com você e coloca você de volta no setor de origem da sua corporação; o seu nível, os créditos, o Thulium e os pontos de ranking não voltam a zero. Além disso, as suas conquistas gerais como piloto contribuem para um poder permanente. Destruir alienígenas e concluir missões concede **pontos de reset (PR)**. As suas [missões](/wiki/03-Mechanics/Quests.md) em si, concluídas e em andamento, passam para a próxima temporada: cada uma pode ser feita uma vez por piloto, para sempre, exceto as missões de nível que a atualização 0.4.10 refez: 64 delas são oferecidas mais uma vez ([Missões](/wiki/03-Mechanics/Quests.md#reworked-missions)).
 
 **Clãs e patentes.** O reset dissolve todos os clãs, com o Tesouro da frota, os avisos, o registro, os tratados, os pontos e os níveis de bônus deles, então cada temporada é uma nova corrida para fundar um clã e encher os bônus dele; os créditos que um clã já pagou a você ficam, e o seu limite de doações também ([Clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Líderes e Vice-líderes: paguem o Tesouro da frota antes de a contagem regressiva acabar. Os seus pontos de ranking PvE também continuam, então um reset não move você no ranking da sua corporação: a sua patente segue a sua posição lá, não a temporada ([Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
