@@ -1,0 +1,82 @@
+name: Build macOS dmg
+
+# Builds the macOS package of a SpaceCorps 2027 release on GitHub's free macOS runner (the minutes of a public
+# repository are free). The game's source is private: it is cloned here at build time with a read-only token
+# (secret SOURCE_TOKEN: Contents read on SpaceCorps/SpaceCorps2027 and SpaceCorps/Space3d) and is never printed:
+# the build log stays on the runner and only the finished dmg is uploaded.
+#
+# Started from the release PC:  gh workflow run mac-build.yml -R SpaceCorps/play -f ref=<commit or tag> -f version=0.4.26
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Commit or tag of SpaceCorps/SpaceCorps2027 to build
+        required: true
+      version:
+        description: Version, like 0.4.26
+        required: true
+  pull_request:
+    paths: [".github/workflows/mac-build.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    # A pull request only checks that the runner starts and has the tools the build needs.
+    if: github.event_name == 'pull_request'
+    runs-on: macos-15
+    timeout-minutes: 10
+    steps:
+      - run: |
+          sw_vers
+          uname -m
+          xcodebuild -version | head -1
+          rustc --version
+          cargo --version
+          for t in lipo codesign hdiutil plutil python3 rsync git; do command -v "$t" >/dev/null && echo "have $t" || echo "MISSING $t"; done
+
+  dmg:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-15
+    timeout-minutes: 300
+    steps:
+      - name: Source (private, read-only token)
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          REF: ${{ inputs.ref }}
+          GIT_TERMINAL_PROMPT: "0"
+        run: |
+          test -n "$SOURCE_TOKEN" || { echo "the secret SOURCE_TOKEN is not set"; exit 1; }
+          git config --global url."https://x-access-token:${SOURCE_TOKEN}@github.com/SpaceCorps/".insteadOf "https://github.com/SpaceCorps/"
+          git clone --quiet https://github.com/SpaceCorps/SpaceCorps2027.git src
+          git -C src checkout --quiet "$REF"
+          echo "source at $(git -C src rev-parse --short=7 HEAD)"
+
+      - name: Build the universal dmg
+        working-directory: src
+        env:
+          VERSION: ${{ inputs.version }}
+          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
+          SPACECORPS_CI_BUILD: "1"
+        run: |
+          set +e
+          out="$RUNNER_TEMP/out"
+          scripts/release-local.sh --only macos --unsigned --version "$VERSION" --out "$out" > "$RUNNER_TEMP/build.log" 2>&1
+          rc=$?
+          # The log is private (compiler messages quote the source): only these summary lines are printed.
+          grep -E '^(SpaceCorps 2027 [0-9]|stamped |logs: |no local paths|.*-macos-universal\.dmg )' "$RUNNER_TEMP/build.log" | cut -c1-200
+          if [ "$rc" -ne 0 ]; then
+            echo "the build failed (exit $rc, $(grep -c '^error' "$RUNNER_TEMP/build.log") error lines); the log is private: run scripts/release-local.sh --only macos --unsigned on a Mac to see it"
+            exit "$rc"
+          fi
+          ls -l "$out"
+          shasum -a 256 "$out/SpaceCorps2027-macos-universal.dmg"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SpaceCorps2027-macos-${{ inputs.version }}
+          path: ${{ runner.temp }}/out/SpaceCorps2027-macos-universal.dmg
+          retention-days: 3
+          if-no-files-found: error
